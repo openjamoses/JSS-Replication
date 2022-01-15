@@ -19,7 +19,7 @@ Quantum computing is a rapidly growing field attracting the interest of both res
 
 
 ##### Table of Contents  
-- [Studied Quantum projects](#Studied Quantum projects)  
+- [Studied-Quantum-projects](#Studied-Quantum-projects)  
 List of the studied quantum projects
 
 - [Source](#Source)  
@@ -32,8 +32,13 @@ This provides the descriptions of the datasets contains in this repository
 Details of the plots and figures embedded in this repository is described here   
 
 
-## Studied Quantum projects
+## Studied-Quantum-projects
 
+| Repository        | Snapshots           | Category  |
+| ------------- |:-------------:| -----:|
+| qrefine/qrefine     | right-aligned | Quantum Algorithsm |
+| mabuchilab/QNET     | centered      |   Quantum Algorithsm |
+| Qiskit/qiskit-aqua  | are neat      |    Quantum Algorithsm |
 
 ## Source
 
