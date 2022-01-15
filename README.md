@@ -1,4 +1,4 @@
-# Technical Debts and Faults in Open-source Quantum Software Systems: An Empirical Study
+self-explanatory# Technical Debts and Faults in Open-source Quantum Software Systems: An Empirical Study
 
 
 ### Abstract
@@ -166,9 +166,26 @@ Details of the plots and figures embedded in this repository is described here
 
 ## Source
 
+- The folder source contains all the source codes which was used during our data collection and analysis steps. It consist of three subfolders `R` (source codes for r), `Python` (Python code) and `Jupyter` (Jupyter code)
 
+- All the data collection and analysis was done in plain Python project and respectively the codes are within the folder `Python`.
+
+- Specifically Jupyter folder contain the  investigating the correlation of technical debts and fault-inducing commits for answering research question three (RQ3).
+
+- All subfolders are self-explanatory, i.e., with descriptive folder names. Also, for easy browsing through the source codes, each folders are named with the target research question its written for.
 
 ## Datasets
+
+The datasets used for this study are stored in the folders `RQs`, `faults`, and `general`. In the following we briefly explain the contents in each folder
+
+1. The folder `RQs` contains the datasets for the three proposed research questions
+
+2. The folder `faults` contains the fault-inducing and fault-fixing commits and their meta data.  
+
+3. The folder `general` contains mainly the meta-data of the studied quantum projects, their snapshots and other the initial dataset that do not directly answers the research questions but were used to primary for the preparation.
+
+
+
 
 
 ## Figures
