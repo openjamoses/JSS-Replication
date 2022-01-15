@@ -1,0 +1,1532 @@
+d53b829f036bb845723697c7509c91af9216a66b|2020-09-04|lneuhaus|Merge pull request #419 from lneuhaus/fix-418
+a284f18e4797dcff58058b084c2778b203feb4f7|2020-09-04|lneuhaus|add start_phase to Asg.setup_attributes
+c904ad7b24fc582debc74c2332817d1400fade7a|2020-03-22|lneuhaus|Set up CI with Azure Pipelines
+ae089ddd46669e26482230c8c106a90aa426de01|2019-12-04|Michael Croquette|add the possibility to set a direction to digital output
+4cb6903b7706b059d615b4fba6168fd006da2b7a|2019-05-14|lneuhaus|fixes bug in IORegister
+0ee0f44e6c2bc930865a92c49e3cb90fd3d96275|2018-08-21|lneuhaus|fixes travis shutdown after 10m0s, while it is unclear why the printing stops with previous version
+0368fbfcb0bbe9b70e877fdcbe6d7109d9cbe53a|2018-08-20|lneuhaus|fix travis
+e22f8f265be795d95570eaa98606138158ba5002|2018-08-19|lneuhaus|finally fixing travis
+dc8201f4b24742b3257ab0770285c367ada1f311|2018-08-19|lneuhaus|fix travis
+e79479f5a41766b01a315a576554d5f1bb85f729|2018-08-19|lneuhaus|travis fix
+677f6fa4a683cdddb3c7b03730c3baeac8335d92|2018-08-19|lneuhaus|fixing travis
+585d978934b89a717803b122639b99b74017d19a|2018-08-19|lneuhaus|debug travis
+731ad6588bc84287e62ead75f531593fff7295ad|2018-08-19|lneuhaus|travis
+008f8c9c7d78227deaf459386a1a7bbb7c4e07f0|2018-08-19|lneuhaus|fixing na issues with travis
+f9546fca59b84b9e6b279053217c6789780c31f5|2018-08-19|lneuhaus|fixes test in test_pid_na_iq.py and attenpts to debug travis
+ef67e6b6f4822e0071280eaaa557f9eaf76d0831|2018-08-19|lneuhaus|trying to fix travis problems
+6420bcb9998f80011e19009f8ca1bc4f4e5cdd42|2018-08-19|lneuhaus|trying to fix travis problems
+3e2f67b151f6480ac3e456288d2564dd7cec8082|2018-08-16|lneuhaus|adds --nocapture option for travis to enable stdout in nosetests
+9202fc4d2ec59e36b5006b76c5170e2d93f5f77e|2018-08-15|lneuhaus|fixes travis timeout issue with long na acquisitions by regularly printing the state of na acquisition (every 10s)
+6b047f23d3da666c64da4aaca42c65cc8226ff94|2017-11-29|sundaechen|Revert "script for automatically finding modes with the spectrumanalyser, verifying with network anaylser, and then doing a ringdown"
+69928e245d20fc82bc85ec547d2261ec6e4477c1|2017-11-29|sundaechen|script for automatically finding modes with the spectrumanalyser, verifying with network anaylser, and then doing a ringdown
+55cb112a50e221f11eb28f106ba11272890c3b7f|2017-08-29|Leo|included dist subdir
+cb9d9877bb3ddb708b0362358ef2526946a1dc09|2017-08-29|Leo|added dist subdirectory
+78bfe6b48bd592822d88f1b5c26717d77898e092|2017-08-29|Leo|sampler test fix
+8cbbe559504012b247b6a500e2cadbaf94f62a72|2017-08-29|Leo|version 0.9.3.6
+a0e19221cad31f2a2571d99a466ed1a9e3ab3c0c|2017-08-29|lneuhaus|Merge pull request #313 from lneuhaus/develop-0.9.3
+1d560a2859763c629aeb536bac7503d5d8a351fb|2017-08-29|Leo|ready to attempt auto-deploy
+79202f518cadd0573f79fa82c15a78a61295bdd8|2017-08-29|Leo|Merge branch 'develop-0.9.3' of https://github.com/lneuhaus/pyrpl into develop-0.9.3
+c860e712a0b384a0854cd65d02c19a626e07cbb4|2017-08-29|Leo|readme
+0bdf6ee61c14fb68d451b083c3712f9c9e5e3358|2017-08-28|SamuelDeleglise|Merge remote-tracking branch 'origin/develop-0.9.3' into develop-0.9.3
+3d3094f95abbf200a33928f2d6cd80e8df7f4259|2017-08-28|SamuelDeleglise|Started to work on spec an unit test, but flatness is still an issue....
+9f3a96f8c46ecdf512f160fbff973e391b42e183|2017-08-28|Leo|travis fix
+4fe1a2eed8b98a9b8d93aff058acfedf3ae15e45|2017-08-28|Leo|ready to update master, all tests passing again
+2c9ad6807ebbe789403c880a0dc2972744674725|2017-08-28|Leo|nosetessts fixed
+c20e1fc34fcd7d464a4f937274e03824dd4f4942|2017-08-28|Leo|v0.9.1
+243ffef16db6610e1b79e6a3624c1666a147326a|2017-08-28|Leo|Ad-hoc fix for na_test on travis
+6d8de9317703231e5d53f7d6e339d3460718eac1|2017-08-26|Leo|attempt to fix na nosetests
+12902bdd5557e5a533e463b7f93e9e2a48b74c3c|2017-08-25|Leo|fix attempt
+db53c7f64c1eb66634292a7860a2a44061be78c9|2017-08-24|Leo|stop na at each teardown in test_na
+c32c77b28fe5ffeb9ff1fb471287176ac6352519|2017-08-24|Leo|fixing last failure
+5568ca7207f444b2b44c46c7004ce693a1717b1f|2017-08-24|Leo|fixing nosetests on travis attempts
+82c94de79e78873ff48e0205f67bae60659f6cbc|2017-08-24|Leo|460 nosetests passing in 462 s
+69a0e004750452470c05ee969172eece7a606da6|2017-08-24|Leo|all test durations measured
+f44b08fde35c15ab22890c930656c09943cebf63|2017-08-24|Leo|better understanding of which tests are slow
+918cee9115db79d086eab0ef559eb1252786bdf9|2017-08-24|Leo|test_validate_and_normalize rewritten for more clarity
+3279bd67154cb3b4556e8a9d40be630749ea9880|2017-08-24|Leo|in the middle of trying to fix nosetests (no more failures including tests in ignore_these, but tests take >1000s
+9d753f6d742d548c2898d52bb63ddb39b869037a|2017-08-24|Leo|docs and unittests fixed
+6c187560c6fa7341d7b41c81b92ed9d2623188af|2017-08-23|Leo|documentation advanced
+6880064090d7655b0a7b96e43acfcc435d762ada|2017-08-23|Leo|auto-deploy releases from travis
+2b12a264293dfd49a114f7a53bdb3fadd23ef273|2017-08-23|Leo|corrections to Readme
+922d5ece78450f115fcfc8ab19414426194f32da|2017-08-23|Leo|delete saved curves after unittests
+55481bde39abbb6ad18a8b08f01d10a171fc837c|2017-08-23|Leo|parts of readme inserted to docs
+e998f7bcb371fb5b856ba5b6c3449686de3bc62e|2017-08-23|Leo|all important wiki documents (except all api specs) ported to docs
+2f9361b020cdb460246b9ee635ad70bc6c3505fb|2017-08-22|Leo|started transforming wiki into doc
+ee2745cc15ab5596b2d77e20c2b4ad6edc4609d4|2017-08-22|Leo|started async section
+c932d7d21051e09a40346ec774c769bc4b1553d6|2017-08-22|Leo|test_load_save reactivated since #314 seems not to be due to this (still present)
+501edef6742cb64f9c79a1672a454e3024805a26|2017-08-22|Leo|attempt to fix #314
+5e34f1f7144fb8cecf2557f529e720d97689a6c0|2017-08-22|Leo|test_save_curve errors fixed
+93c39b338bcef505a030c23de2cb4c3bb2fde072|2017-08-22|Leo|remove hard pandas dependency in curveDB, fix issue with last spinboxes
+0944c794ec038226b9dd8ae80ed3a3bf491bae59|2017-08-22|Leo|fixes test_spin_box issues
+f595c1dd0a8926b222fdca6cac0abac59aff8b7f|2017-08-22|Leo|Merge branch 'develop-0.9.3' of https://github.com/lneuhaus/pyrpl into develop-0.9.3
+3a5bade70e68ccbeb19c9312677b9e97c90beb38|2017-08-22|Leo|more changes to sphinx config
+11b3544c0c6ce6b32c3c210839c9f3b0b35c91df|2017-08-21|Leo|logo fixed
+453698240b12ba46e9a43dd478b66f1a4937ed19|2017-08-21|Leo|removed excess code
+3af0082a027042653d2da6f8ca3b8d43a4c19040|2017-08-21|Leo|logo bug fixed
+ab6f88b14ac1a46b67f05db37173e1226441756e|2017-08-21|Leo|autodoc issues should be resolved in conf.py
+31896d060d476a0051cb460ae1b393702fa73068|2017-08-20|Leo|further attempts at documentation
+04745d0d42fbdfca9de5bb060b3fe6bb9e6031b9|2017-08-18|SamuelDeleglise|82 % cover, maybe 1 error left in test_attribute_widgets
+c0af41587bc2bb26990364b9e813cf0a2acbefa5|2017-08-18|Leo|find cause of travis stagnation
+7d51c41e4fa36f52eb33c30af7d4e3498df68232|2017-08-18|Leo|bodefit and sound.py removed
+0be4d5f40f5cd2381925e8d428385323fd3463bd|2017-08-18|Leo|smaller changes
+a2a044c3274bba8da7d03f3cbf0b8637a3614fc7|2017-08-18|Leo|Merge branch 'develop-0.9.3' of https://github.com/lneuhaus/pyrpl into develop-0.9.3
+47542ebc8e4d02f2185b42ec65e33c68f8faa19d|2017-08-18|Leo|documentation improved
+9ff2877f8579b4ef2bad508901233c427da505a2|2017-08-18|Leo|docs
+73e8d232e1a0b3bc4510bd37d773a77798fd56ee|2017-08-18|Leo|deactivated test_load_save for travis
+d70b2aee668e3a180053caf2c685de845e10f2f8|2017-08-18|SamuelDeleglise|test_widgets + makes pyrpl.curvedb more identical to pyinstruments.curvedb (but all() is probably slower)
+56aefec4b03fb10176d23549ba75eb2733c219c3|2017-08-18|Leo|docs
+f2c4744c3da8f87f3308c312bf7e3508847d8421|2017-08-18|Leo|retry on rtfd
+91dd7029f64e43598ccb1a9cfb2ba39e8a35181a|2017-08-18|Leo|retry on rtfd
+09e530cfe36f94ec7713599bfdbeb4be7655b402|2017-08-18|Leo|more on doc
+efddc493b90593aedc72b140b01b9b4fba27e7b9|2017-08-18|Leo|docs
+24af1067d7f14f87fe6019e4de46ac1752c18450|2017-08-18|Leo|more on doc
+e77f95a0909bf5da51afb06a8dcceb111b9d067d|2017-08-18|Leo|try to fix rtfd
+383bf3bd54409bdaddbb32c43cf187f24e979c61|2017-08-18|Leo|better doc and small change to spinbox for rtfd
+9e334dddfb94b4ff68309d0707212cf646c634c6|2017-08-18|Leo|sphinx renaming finished
+7d4cdf34fbfa295eaee794f50298abe67c4e896f|2017-08-18|Leo|replace pyqtgraph dependency by qtpy
+978569479328ab43f189c65ea788a973b17d0843|2017-08-18|Leo|whitespace
+f3bab39fe4e87589c2cf6efe36a7187b68c8d51b|2017-08-18|Leo|added some stdout output to avoid travis termination after 10 min, not clear that this is the right place
+51963dcf68afbe82a5583c6cbf527f62e0962bf1|2017-08-17|Leo|Qt
+4aa8e8ccd53141c724167c1dc8f9c9b452aba72e|2017-08-17|Leo|mock pyqtgraph for rtfd
+f9ba0c4349868472f5c9020fc9ce971c907778e7|2017-08-17|Leo|fix for rtfd
+795d9c26f0ceb4f793cec3c60079ff2465775e6d|2017-08-17|Leo|fix
+43816b909f83a009d9795cc6f062180b8437bdc3|2017-08-17|Leo|mock for readthedocs
+c912a2d07ec7f8680b6363de231e06a47a36d78d|2017-08-17|Leo|gitignore sphinx build
+265c22fbf54fa2b4efde0d4da93c1140e0e87c1d|2017-08-17|Leo|documentation moved to docs folder
+9a29b282656223a1e778ff8ac7239938414bcb4b|2017-08-17|Leo|small mods to documentation
+dfdb71d12ff512b864d1beea87dd6b613453714a|2017-08-17|SamuelDeleglise|First pass on hardware_installation and pyrpl_installation
+a9287d23321616457be211a3406170263883875f|2017-08-17|SamuelDeleglise|Some (little) progress on code cover (#232)
+de80f874191742aeda4d3843fe4aed20085cc781|2017-08-17|SamuelDeleglise|Merge branch 'develop-0.9.3' of https://github.com/lneuhaus/pyrpl into develop-0.9.3
+cccffbe8ac839a2aa8e02378b262fddf217568b4|2017-08-17|SamuelDeleglise|typo
+502d378f7e9c0ef086ca121b90b5767145f97ba0|2017-08-17|Leo|Merge branch 'develop-0.9.3' of https://github.com/lneuhaus/pyrpl into develop-0.9.3
+04cb8e3568813742079eb28fde053cb25443b277|2017-08-17|Leo|basic documentation structure done
+cf1152c313a6bde24c31997c59b2aa75e154ed5e|2017-08-17|SamuelDeleglise|Merge branch 'develop-0.9.3' of https://github.com/lneuhaus/pyrpl into develop-0.9.3
+cd1ef0559c3cd0f6d0f240c13ba6684f99acef60|2017-08-17|SamuelDeleglise|Fixes #107 (validate_and_normalize unittest) in test_load_save for convenience...
+21db085aaace34f7b71c6e121c19af64479bb38a|2017-08-17|Leo|configuration update
+0c77cc711a141887a83310c1693f19ea07765f83|2017-08-17|Leo|Merge branch 'develop-0.9.3' of https://github.com/lneuhaus/pyrpl into develop-0.9.3
+23ff7c44950a3f9b1a6b602ef4ea2334f2469bb5|2017-08-17|Leo|current autodoc
+00bb0cfa5db8cfac853090e9f1c537e81b827c77|2017-08-17|SamuelDeleglise|Merge branch 'develop-0.9.3' of https://github.com/lneuhaus/pyrpl into develop-0.9.3
+58f8613675d7f968f5ccaa7bd407028b1a915a41|2017-08-17|SamuelDeleglise|Fixes again #283 (na curves are fixed sized with nans for invalid points)
+e321f7f499a853840f826b07f05552870d49d884|2017-08-16|Leo|curvedb changes
+b3badda73b0478f349a3ca7021116525bf8c2550|2017-08-16|Leo|Merge branch 'develop-0.9.3' of https://github.com/lneuhaus/pyrpl into develop-0.9.3
+d709c5a56312227c9bb2f537bd260ad1f465a965|2017-08-16|SamuelDeleglise|Fixes #181 (IQ graph clearer)
+1be8646670ccf7b7f9eb1991afa295e3dbf5f74a|2017-08-16|Leo|Merge branch 'develop-0.9.3' of https://github.com/lneuhaus/pyrpl into develop-0.9.3
+1268556894fb185b7adacc9fa66f23dc8f82654c|2017-08-16|Leo|bugfixes in recent fixes
+b239a601644f747e6c2b0ba27466bd2d62d6b591|2017-08-16|SamuelDeleglise|Fixes #311 (Filter repeated logging messages)
+115dd69a842aa81a3e97b230a95a4db9841387c6|2017-08-16|SamuelDeleglise|Merge branch 'develop-0.9.3' of https://github.com/lneuhaus/pyrpl into develop-0.9.3
+858c704af71a95af4de8700fa97a327fe55941c4|2017-08-16|SamuelDeleglise|Fixes #283 (discards na points not yet acquired) + na trace_avg start at 0
+ff40902f11252acfb055cccadc15e6be6b514af8|2017-08-16|Leo|filename None is skipped in write_to_file only
+83e0092e9adefe6d871ed104d32c62b2933aaf99|2017-08-16|SamuelDeleglise|Merge branch 'develop-0.9.3' of https://github.com/lneuhaus/pyrpl into develop-0.9.3
+07e5d7f85f48e59a1d8bf4f5a32e2d4208d4a86e|2017-08-16|SamuelDeleglise|refixes #303
+1bfe5a940c5e60164a237d6bf777399677050c50|2017-08-16|Leo|docstring in memory
+e45827986531b874c8e156a6f1ccf3d702237773|2017-08-16|SamuelDeleglise|# fixes first point of #256 (linebreaks in pyrplConfig with python 3)
+1e3c2ea3605923dbf7ae1c1de037ec471883a661|2017-08-16|Leo|Merge branch 'develop-0.9.3' of https://github.com/lneuhaus/pyrpl into develop-0.9.3
+17a364c46f2d31514b21120f19d1fbf5bfc6915e|2017-08-16|Leo|pyrpl stuff
+379d07dd6df4b98dd446a4350c16e4e040e7b460|2017-08-16|SamuelDeleglise|Fixes #257 (adds a TriggerManager)
+a64d220f693b35d738b440601cba943feee7c4fb|2017-08-14|SamuelDeleglise|Fixes #263 + Makes a common base class for AcquisitionModuleWidgets
+d2401ab5e8ae07ec7b3a969593d1d9dd38fdc62a|2017-08-14|SamuelDeleglise|Fix #282
+9efcc154e83df569954fd74b21cf4040c017b916|2017-08-14|SamuelDeleglise|Fixes #302
+66f6fa83a9ce2a63b12a2a4b0f1e2d02a919ef9f|2017-08-14|SamuelDeleglise|Fixes #303
+7135291ae1600464f1875250c352f09cee687b86|2017-08-14|Leo|fixed intspinbox display bug
+6e9eb142975b49e05920b31195d7daa6336c5255|2017-08-14|Leo|improvements on iir
+ce38556685385308fe6b0f25aab90e7f30a18798|2017-08-10|Leo|tried to improve iir, now deadlock when changed
+f2b6fd842b70e29c382e012accdf07eeecfbcaf9|2017-08-09|Leo|plotting over curveworks
+ec02647739bf1646538ffd25622b422cd30cd24e|2017-08-08|Leo|pole zero design gui working
+41e01d2c519e10ea40e82947bb63c7afcf5d92db|2017-08-07|Leo|iir pole zero selection advanced
+488dec3d27e21eb4f87edb48424d27432d485ad7|2017-08-07|Leo|removedListSpinBox
+1c34fe1e187e6a2c91a5d8b7e75d7ad0a673745d|2017-08-07|Leo|iir list attributes cleaned up
+0ace9108463c2ff982f711a6fdce053c691ef497|2017-08-07|Leo|further iir and spinbox cleanup
+349ff6ee923403d14218ef7f6d645fe34652dc28|2017-08-05|Leo|cleanup of unnecessary widgets and attributes
+06017388acfc23c73634d7c77052504a63ef75b1|2017-08-05|Leo|better spinbox parameters
+52c65b4bb141cd12b24acebdf53b41c4fd83709a|2017-08-04|Leo|spinbox buttons are properly working now
+241279e17f592bc5a495293df9c756c684694ac9|2017-08-03|Leo|logspinbox bugfix start
+724acf170e46b66f0f7a4c64ba453421ea247cb0|2017-07-31|Leo|better fix
+55f8495ca7bfec4ac3584d3d1e583dd231c594dc|2017-07-31|Leo|startup bugfix
+ff003d399807022d52ce7453a3426450eee786cd|2017-07-31|Leo|Merge branch 'develop-0.9.3' of https://github.com/lneuhaus/pyrpl into develop-0.9.3
+87e3309c69e6927bc55e377199a3ca9c730da493|2017-07-31|Leo|iir mods
+b885713f030eda3edd65fd824f86c031c648e0b0|2017-07-28|SamuelDeleglise|adds start_loop/pause_loop + bug with pyqt5 (ok with pyqt4 ???)
+9f4c18fc6403d107b9ed27ecd7ea7a5b2cfc7581|2017-07-28|Leo|starting modules more intuitive
+6b8fc50fef046e54c2bd38d5dd972d584c078699|2017-07-28|Leo|Merge branch 'develop-0.9.3' of https://github.com/lneuhaus/pyrpl into develop-0.9.3
+4fa17f91939524984d4d542c87fa36d29640e875|2017-07-28|Leo|whitespace
+31f0b6a9aa3ea0415883e80007d091ff3d8cbde0|2017-07-28|Leo|fixes missing paths for pipy release
+5dcd3cdab915d71f4a104a28c8c531796381da13|2017-07-28|Leo|startup fixes
+a0c410b4741fe8c70b78cac7ea5deaf11d3ecce2|2017-07-25|SamuelDeleglise|dependencies for python 3.6
+8b5303a1bfad774a38601204eb11fa10144c6b16|2017-07-25|Leo|auto-okay at startup_widget
+cba7ebb4917428cea0ef79c5aef24938e90a8e34|2017-07-23|Leo|unstaged changes
+df95b45b2357a34bbf052c3e79077835c09c1bd2|2017-07-19|lneuhaus|autodoc
+1a3273b790d26293829bdf6a3768504026ccff56|2017-07-19|lneuhaus|binary package for linux created
+4d9ed53859e7cc773ed8dc38d136fadee9e5006d|2017-07-19|lneuhaus|added .spec file for pyinstaller
+a8f5893a8f4f716575651da989f22c2118a22462|2017-07-19|lneuhaus|improved startup order
+0c9a736acd37cc4be708ce2902ca14ed2d0f14a8|2017-07-19|Leo|Merge branch 'master' of https://github.com/lneuhaus/pyrpl into develop-0.9.3
+ad9c3c0a38b3946cd143b73b3e4d3d52bc83e637|2017-07-19|Leo|made new release on pypi
+5360f12b2275db489b1972a6b6dfd02112b7f7e4|2017-07-19|Leo|fixed setup with readme
+6a470673863fc566a907eda6a954adc582139e29|2017-07-19|Leo|version scheme changed due to pypi restrictions
+530a8095e26b9ea796f7550c8128a9569fffb211|2017-07-19|Leo|version 0.9.3.2
+1653588cced94163bd47607441404b7448d12d86|2017-07-18|Leo|new version
+c24f2089090c97e326e4d417d82c49bb9c9dae37|2017-07-18|lneuhaus|Merge pull request #306 from lneuhaus/easy_startup
+c2dfa5c84e996840e6e305c32a1f2fe2b18165d1|2017-07-18|Leo|nosetests passing, testing travis
+3a340869d47ba98353d7032220b8205f48cfcf02|2017-07-18|Leo|whitespace
+37e953c507c3fef76766084b6a589b4e26107987|2017-07-18|Leo|startup cleanup
+fe15fd5576f69d219499d93cfefb06da88e6fccb|2017-07-18|Leo|Merge branch 'easy_startup' of https://github.com/lneuhaus/pyrpl into develop-0.9.3
+39819423e5d871343c259049514ce9393e562ebf|2017-07-18|Leo|improved usability
+4a6df2d53de93ab7188994398ef929d510bfc479|2017-07-17|Leo|started website
+799da923bc02ee3d6af86b1903747537a74f3ea7|2017-07-13|lneuhaus|migration to travis-ci.org
+808c9d151390b73a3f94804fc5cc8c646435d96d|2017-07-13|lneuhaus|Update README.md
+e70f9ebc080e8f10c7cbc5cf71d31edd44439706|2017-07-11|Leo|test travis-ci.org
+be4f0673c109b42beb5b0d1a37e210a38a0f0c61|2017-07-11|Leo|thanks
+dd2665e1230cf98a485fba74d059ecae283f6862|2017-07-11|Leo|Merge branch 'master' of https://github.com/lneuhaus/pyrpl into develop-0.9.3
+252ee4e6a858eafc5450c7e8fa18aa8b8176940b|2017-07-11|Leo|bugfix startup
+86304cfd1bde8f98090110f554cd4dd2f59f0052|2017-07-10|SamuelDeleglise|dont confirm overwrite... + dialog title + no print
+614eca07f31b03ef2750749b10924b15e719aff0|2017-07-10|SamuelDeleglise|startup_widget seems to work (no unittests)
+9c3f6a9ae96b3d834f2d6edea20ac4e9207afbf0|2017-07-06|Leo|README
+9f25399ba11533b542385931ad56c500dbb44809|2017-07-06|Leo|downloadable
+2cca2276d2fa2a4cba68723ae5b487ad6ff342ef|2017-07-06|Leo|sourceforge link added
+26462ec4564f3656c925126c48c04fdfc4ea0a8c|2017-07-06|Leo|update supported versions for pypi
+1185c47529ed29380cbb32fba0906fe5da96853a|2017-07-06|Leo|more icons for readme
+212d8e628944ec32d68b8fd6caf918710498641f|2017-07-06|Leo|readme
+5f882a06b26bc395b90aa0e5e6be562d6661f867|2017-07-06|Leo|Merge branch 'pyqt5' of https://github.com/lneuhaus/pyrpl
+53ed8af6c8e42f2390e214c585dbccbfd6c5a2d1|2017-07-06|Leo|readme
+0960c1998939f6469913b13f1f45c2a9f4c8fb36|2017-07-06|Leo|Readme fix
+8040d2bd927240edce04a75e80de20fc2312dae8|2017-07-06|Leo|README
+d25a06e8a957e8bd266ff7203e10e6abbca711c1|2017-07-06|SamuelDeleglise|fixes bug with iq display
+f1851fc41edf6547ed45bcba0a47cde746cf5aaf|2017-07-06|Leo|readme
+fed62874f43a1bb207c8b50f99f608ceeb487b4a|2017-07-06|Leo|readme
+f3ab1280531c991473a493c9a78f5168240c8e03|2017-07-06|Leo|Merge branch 'master' of https://github.com/lneuhaus/pyrpl
+24248407b1d90a68e87489f999b49c987e1ea349|2017-07-06|Leo|Merge branch 'develop-0.9.3' of https://github.com/lneuhaus/pyrpl
+b7e7c39bf38a50409d3ce8552b93dba062dc5ba6|2017-07-06|lneuhaus|Merge pull request #304 from lneuhaus/add-code-of-conduct-1
+7b0dd9a412b820670fc58e0121cc43a3874af1b7|2017-07-06|Leo|readme stuff
+bd611274587d29819082011d790f50e878158bc3|2017-07-06|Leo|Merge branch 'master' of https://github.com/lneuhaus/pyrpl into develop-0.9.3
+2f6866f3abf277425454defacc31016c575d66e1|2017-07-06|Leo|packaging things and readme
+dfc8fc7616fdd2dc4acac3fbabf37bdf61db5913|2017-07-06|lneuhaus|Set theme jekyll-theme-cayman
+422f41f68ede12e54d9ef0102d9195f3a0d5e9ca|2017-07-06|lneuhaus|Create CODE_OF_CONDUCT.md
+644e8fe05ccb2f66061280459eb0adb0ddaeb4e7|2017-07-05|Leo|Merge branch 'master' of https://github.com/lneuhaus/pyrpl into develop-0.9.3
+e27449c1a396095fc19331d3ce70d905f3248b3b|2017-07-05|Leo|bugs fixed in release 0.9.3.1
+b8bbc43c8628039fd1242a2281649935b137b0a5|2017-07-05|Leo|code coverage included
+464413795a9f3b82fbafafe6eb8077f21613f289|2017-07-05|Leo|Merge branch 'master' of https://github.com/lneuhaus/pyrpl into develop-0.9.3
+7e62d583ef5a849dd553a416869dd7d8b581d768|2017-07-05|Leo|extended na benchmark time
+ebbd17fac052252797d7681d20f29240d2969a0c|2017-07-05|Leo|skipping problematic test
+28d21df67f7fa069ac37623a5442d745ea8f0b43|2017-07-04|Leo|nosetests stagnation fix attempt
+fcac47498dae9dfef84256d305d85bce9817683f|2017-07-04|Leo|yet another fix
+5950ddbf6a5fa5e8ab85d255f492c5e5639c76f9|2017-07-04|Leo|Merge branch 'pyqt5' of https://github.com/lneuhaus/pyrpl
+6ff4374ed96dfd3e3af2da3a455ba2e7b8a322c4|2017-07-04|Leo|minor fix
+72792e31342e11f0c50981222531198c56b82e46|2017-07-04|lneuhaus|Merge pull request #299 from lneuhaus/pyqt5
+6134bde1cd2b9b9a93c61d405e87e8c1e1519652|2017-07-04|Leo|better documentation in memorytree
+6dcf66507c310af95a29c7d3860c83b3331c69e3|2017-07-04|Leo|fixed conflicts in test_na
+74b52a2e0ed347b3d8a15a021a44105614e98e16|2017-07-04|Leo|all tests passing
+1ed2830aff30a20b59897ae462adf2566e2cf0d8|2017-07-04|SamuelDeleglise|typo in merge now ok
+eb346215b8f9618f7637ef8e30efa6e982a7ce97|2017-07-04|Leo|Merge branch 'pyqt5' of https://github.com/lneuhaus/pyrpl into pyqt5
+caf4ab50f8910221576c8aacdb7fca8a2b98ed2c|2017-07-04|Leo|attempts to fix bugs
+93de93c41aa733172d82c639543d29949ca3d9a0|2017-07-04|SamuelDeleglise|Merge remote-tracking branch 'origin/pyqt5' into pyqt5
+f38666efa7323c411355b83414960b8898f0418e|2017-07-04|SamuelDeleglise|All tests OK
+5e9d9b6f672e2bf2fc71067bdd85f2c35cac88c0|2017-07-04|SamuelDeleglise|Fixes #301
+591da69be3a1a14a380cfff9c09f50f6d99d29e5|2017-07-04|Leo|nosetests fixed
+d09b3a0a54b1a017ef541bb9d63772375f26ba5e|2017-07-04|Leo|unittests not stagnating any more
+eb28894830a9e750e9121b35e5186f0ac6c3a0fd|2017-07-04|Leo|more travis bugs
+d54360161268ba4182d0d3efb3c3966b88e37459|2017-07-04|Leo|travis fix
+aabe2cd3c4eabadda8dc8519b630c0b7c45b958d|2017-07-03|Leo|nosetests also on python 3.6
+4b691e43e91c8afb4277721fc92a05282243adab|2017-07-03|Leo|more test bugfixes
+3e311c16d371a03aaef435e29894fda9e8385ecc|2017-07-03|Leo|fixes
+09bde8db08bd5e3dba08cdd436ce07a30a9b30d6|2017-07-02|Leo|travis_wait corrected
+f55b37b837745c2fb8188410e3fd154ecc678ca2|2017-07-02|Leo|fix travis issues
+28f6ae602f35a62af9886bea5b64763bf83fad7a|2017-07-02|Leo|Merge branch 'develop-0.9.3' of https://github.com/lneuhaus/pyrpl into develop-0.9.3
+75528630a69c471fe2c710f4726bb5c564bb382f|2017-07-02|Leo|widget fixes
+77207892b1918baf93b8fef27dd5ce68ccca9019|2017-07-02|SamuelDeleglise|Compatible with pyqt5 !
+5db601efd4d5a736a624fbd67adcb7d085c8bb70|2017-07-01|SamuelDeleglise|Fixes: bug with rename of trace_average, python3 recursionerror ( #287 ), bug with spec_an_widget
+9c895509e5b500658d1b6273203b8a3ca38e3d7e|2017-07-01|SamuelDeleglise|Just to test Travis integration
+4bf8527f47820b972ac40bacee9c27d59e719238|2017-07-01|lneuhaus|new readmy, trigger travis build
+a9613ece6e721ac63297ce73d4779d015e9387dd|2017-07-01|lneuhaus|installation addons
+88a1c245c652c44c3b490da34136300e394e2998|2017-07-01|lneuhaus|Merge branch 'master' of https://www.github.com/lneuhaus/pyrpl
+ed400bc87cd4c246f3b88c4c1b426127c0f61f5d|2017-07-01|lneuhaus|pyrpl.py changed
+bbcd312331f934e6404c6c8f755611d8d9facc9d|2017-06-30|Leo|Merge branch 'develop-0.9.3' of https://github.com/lneuhaus/pyrpl
+22453320ce913e60c701eaf0e16c8b0d2b31e0e4|2017-06-30|Leo|starting to build distribution
+44dd266cb251800d3032c18e6eb2d6e2ae1a4040|2017-06-29|Leo|gui fix
+cccb3f6bda2b834611129a9da1ff65ffa1de39f7|2017-06-29|Leo|layout changes
+8644cc44537cea3b6b1432a27304544be54ae038|2017-06-28|lneuhaus|Update README.md
+bf368ecc9ddbb2b161f446d40e053f01e7082c56|2017-06-28|lneuhaus|Update README.md
+86a862bd56e7ff0f23771271d03a2362b2920088|2017-06-28|lneuhaus|Update README.md
+80db6b13320aadc471552d058f03ed8d908f93b1|2017-06-28|Leo|iq input fix
+c9f35303e0294ab4e4b775e8c0d4c34d1fc76263|2017-06-28|lneuhaus|Update README.md
+6a9568b0bbd904de238be969ee5298f057570c2b|2017-06-28|Leo|tentative fix for pdh bandwidth
+52624bd0cd45320a42cfc8132d863bc396bc7d28|2017-06-28|Leo|avg renamed to trace_average
+4757f56c0eeb3f947985fc8f0e2e3b403146fa0e|2017-06-28|Leo|Merge branch 'develop-manip-zpm' of https://github.com/lneuhaus/pyrpl into develop-0.9.3
+acffc7f5c18ac0dc087d10ca6183a1bc584c1b0b|2017-06-28|lneuhaus|Merge pull request #294 from lneuhaus/develop-0.9.3
+b0c92de222e2c7fafcc38aa83f83cfbd44770c88|2017-06-28|Leo|Merge branch 'develop-0.9.3' of https://github.com/lneuhaus/pyrpl into develop-0.9.3
+b3899de031a5c499fe40e754676837fb45098961|2017-06-28|Leo|nosetests fixed
+38f72f4b9befc730f849f23d5dda79f7508ba3dc|2017-06-28|lneuhaus|Merge pull request #293 from lneuhaus/master
+1815151cb6ae1e26a47596dce31f1e8ea0143ee0|2017-06-28|lneuhaus|Update README.md
+6d43dc6dc59d2d1a353d7841e06664de778f7ac5|2017-06-26|SamuelDeleglise|Quick fix for Spectrum analyzer display of cross spectrum
+9ba281f337443ba8fde440c732439bda40f67244|2017-06-26|Leo|merged with upstream
+d6947f0c63b65943138f818806c416d08e4a2e91|2017-06-26|Leo|modifications before pull from sam
+10bb99db750c06ec082d14c4369aa99cf0dd8e8b|2017-06-24|SamuelDeleglise|Fixes the comments on the 2 previous commits (Network analyzer issues a warning whne running at startup)
+de2e8df2da3c030844f8d3ab0259ec82d58efaf2|2017-06-24|SamuelDeleglise|Fixes small bug with na logscale (+ adds ref to widget in module for debugging)
+2e11b2765ca656e211804dc5b0f96edd5b7526ab|2017-06-24|SamuelDeleglise|Fixes #266 (default for na is 10 averages)
+01c176236cb8fb28e71170e94b077e434f77327e|2017-06-24|SamuelDeleglise|Solves bug with attribute widget not updating values changed from the API
+54baade21a6385ee5d0fadad7be11019489de75c|2017-06-23|SamuelDeleglise|Adds a unit test for equivalent noise bandwidth (test flatness in 'Vrms^2/Hz')
+f19332b38f07a6570e4760b4d2ff358f7b89cd34|2017-06-23|SamuelDeleglise|RBW correction with filter windows seems to work
+2c668dc0a1ebaab5db9c84d82e2af0b4bc9db8a9|2017-06-23|SamuelDeleglise|na x axis is now time in zero-span mode
+6bb30ff177993be0745e347426935caa9a603eb8|2017-06-23|lneuhaus|Update README.md
+80df947f3edf4a07cb2205093a0db698374ed3d8|2017-06-23|lneuhaus|Update README.md
+97fcdb1b1a4bda9a1e3b62f356476fbf321ba066|2017-06-23|lneuhaus|Update README.md
+6b9914a9855ad9c8203efef71056ca04af21152e|2017-06-23|lneuhaus|Update README.md
+e86f418e0707b372db97a1d5e6e4b34493e3aaf5|2017-06-23|lneuhaus|Update README.md
+5eeec2ea1024ab071726b88257b7eb29e3bb3afc|2017-06-23|lneuhaus|Update README.md
+151cb38d8c925b359552bf0d7d1bf3aa065d75a9|2017-06-23|lneuhaus|Update README.md
+801e50ad72d1b02d2d2a3fefb3703d72fb6ab5e2|2017-06-22|SamuelDeleglise|RBW of spec an cleaned up
+a3a65cdd2ec3e52fc8a301ef4f551487a77862e3|2017-06-19|Leo|automatically calling gui integration support
+df739b1d50f98028d4bf7231cc0e410801df8a6d|2017-06-19|neuhaus|attempt
+b148d2be5be9ce69233dffb302ecd46722ef0206|2017-06-19|Leo|thread issue possibly gone
+eedc31af79e53d406aa4e0dd35cbf34b4d08ebaa|2017-06-19|neuhaus|whitespace
+155e74a0301db890003053eb47167b687b6312a3|2017-06-17|Leo|attribute_widgets nearly clean, only minor bugfixes
+16398c9dda356dad45c142fde89474b648eacb16|2017-06-14|Leo|bugfix hide/show widget
+f26c39d91a7445b00295b6199b63a43b0ffb0352|2017-06-13|Leo|widgets have hide/show button
+d9fd15b24eab823e4e5b37d9f56c1c701d00c20d|2017-06-12|Leo|Merge branch 'develop-manip-zpm' of https://github.com/lneuhaus/pyrpl into develop-0.9.3
+9906ba03e20f9e2bd21b21456f94b548a9b469e8|2017-06-12|Leo|spinbox and attribute cleanup
+62106eef69cda244f55b21d6ee2004c95974e9be|2017-06-07|Leo|attribute_widgets first cleanup done
+1583f15b2417dce289e2c610b2a32efe75765738|2017-06-06|neuhaus|bugfixes and small improvements
+fc471bb8fad3ad8a34454626b98979f2e7a6a3b8|2017-06-06|neuhaus|bugs fixed
+674a0221e7681c8d76a294648850d998d6bd6f16|2017-06-05|Leo|Merge branch 'develop-manip-zpm' of https://github.com/lneuhaus/pyrpl into develop-0.9.3
+ca706333acd91b8c23dd015445fa0c4ef497f6bb|2017-06-05|Leo|before cleaning attributewidgets
+e9cc2517d82d4d98c9dcce9b030b331eddd59b38|2017-06-04|neuhaus|ival is not saved
+28d0561c08805f03df0ffd33211eb00fec59c2d7|2017-06-04|neuhaus|improvements
+2309eb65599c9c2a56a68d3c335cb6f58c1e947b|2017-06-04|neuhaus|small improvements
+79a6426948264d2110fcc669564a66c75e56f0cd|2017-06-03|neuhaus|small stuff
+39dcc8031f0f934478735d82202328594fd6e081|2017-06-03|Leo|Merge branch 'develop-manip-zpm' of https://github.com/lneuhaus/pyrpl into develop-0.9.3 conflicts resolved
+a1685913266e155c14ef28590c8cc7d29aaf417c|2017-06-03|neuhaus|added SoftwarePidController
+8569eace6e32dce6ee669adf9756d68b267dc6cd|2017-06-03|Leo|Merge branch 'develop-manip-zpm' of https://github.com/lneuhaus/pyrpl into develop-0.9.3
+c2af7625c3f2e21c2c9fd78ea20ff33430c04487|2017-06-03|Leo|finished PropertyList
+2adb60be73858a3496879bfbc738f1edc34fb975|2017-06-02|neuhaus|autostart gainoptimizer from lock loop
+269708f07e3ead4ee95b0ab64933f53d58f61d68|2017-06-02|neuhaus|GainOptimizer module for lockbox
+c20974e5334d82c2b6815050e9ffeb6c38b33a3c|2017-06-01|neuhaus|whitespace
+6728894770a384377774a1a3cb694f17ac7338c8|2017-05-31|Leo|Merge branch 'develop-0.9.3' of https://github.com/lneuhaus/pyrpl into develop-0.9.3
+15a5a2ebe2528b7afa5e5dfe7d1a1573e31c58c1|2017-05-31|Leo|widgets improvements and small lockbox fixes
+6bd0f58a8b46ff6482157dd97d554f6fc1112125|2017-05-31|Leo|unittest for inputs
+df3b959d07cab053954b0aff3800e95ffc12cad9|2017-05-31|Leo|dsp signal improved
+91e252765e647517155bde28b9ed88fd639c9270|2017-05-31|Leo|improved dsp options
+9d9f51ef5a445f0e000e67665d205a4f9a1b339e|2017-05-31|neuhaus|rename to pwm
+a72e10836589f7c660e65c62b9eec657ff6e841f|2017-05-31|neuhaus|better lb
+fa581e98bb36695da31c190619428a9095aabac5|2017-05-30|Leo|poles start showing up
+0fb0b1b6d81354fedce7a0e410fb605b28a2d15b|2017-05-30|Leo|first round of cleanup of ListFloatAttributeWidgets and so on
+fce8d534a046fa91b8bf7ed25399040f623a29d6|2017-05-29|Leo|filter widgets cleaned up, only showing 0s and 1s on FAKEPYRPL
+51029ebc8389b336a9d3507034ae7011816b7100|2017-05-29|neuhaus|serious bugfix for lockbox
+69032ea9b81d49339405f18522392fb9c8e2368b|2017-05-29|neuhaus|started fixing
+155d2a6a8077ba1dc3505592cb0b0160fbdf1299|2017-05-29|Leo|contextmanager for _setup_ongoing, iir advances
+183cbc1bfd0cb6e8dbd772251570b0e789adc887|2017-05-29|neuhaus|minor fixes
+97ee4b970d15ef367623650377abeff2c6c68bd1|2017-05-29|neuhaus|fixed CurveSelectProperty
+21d63b0e7762dc90c0ffb0c4f7492aac24f65016|2017-05-28|SamuelDeleglise|xorshift random number generator compiled
+b9daa7c54ab14feabc829bde433c2aa227dc0ab3|2017-05-28|neuhaus|fixes
+290bc4057286959dca52db44aebea4ad3a746358|2017-05-28|neuhaus|XOR shift PRNG instead of lehmer algorithm for longer period and  better randomness
+edd42e36b1ba5fe27b8998c0db5f624957c4f9aa|2017-05-28|neuhaus|asg fix
+d71309a52a1ac7c2af1be50d4190061b57437358|2017-05-28|neuhaus|calibration bugs fixed, lockbox widget cleaned
+423efe19681353d1518ecbadf37bb58e0779a709|2017-05-28|neuhaus|hysteresis update
+2cdda7ecc8a6f2ef8996dd0c3154fb4b6ad3f531|2017-05-28|neuhaus|asg setup cleaned and noise debugged -> noise waveform is periodic with 2s period (factor of 10 from optimal, why?), but noise already gives a nice spectrum. is really expected to be white up to sampling frequency and therefore reveals non-flat spectrum analyzer spectrum... to be further used for debugging
+ff302839b83a0023bd2b51f52c928d7378d45a4a|2017-05-27|neuhaus|extended memory unittests to two conflicting trees
+540b3ec6ff38beb2bb0e1faab3c4cd47b18e8b3f|2017-05-27|neuhaus|removed unnecessary print
+648ce428c465439221b564f6b297de2a1a900212|2017-05-27|neuhaus|scope threshold and hysteresis are now channel-independent
+2e8fa25e9c68db9e72c1b09069cbdfd899629007|2017-05-27|SamuelDeleglise|threshold bitfile
+bc688f2d58a55a932db9a808db45361f83db5b7c|2017-05-27|neuhaus|scope theshold identical for both channels
+71f516702d66ad427662f2ce2fb5a95f7cf4b550|2017-05-27|neuhaus|new scope default duration=1s
+4b3236c3bcaa6f523bf0f55dacc74ed43ea2d8d8|2017-05-27|SamuelDeleglise|compiled prng
+288a0bd7de53f888043c0ac607513cfe190d265a|2017-05-27|SamuelDeleglise|Merge branch 'develop-0.9.3' of https://github.com/lneuhaus/pyrpl into develop-0.9.3
+0a2762f24529035aa9524ac574c21ef2e6cdc7e7|2017-05-27|SamuelDeleglise|compiled with new defaults
+34ddd893424e3e1df8542c4e41ab906d884469ed|2017-05-27|neuhaus|pseudo-random noise generator re-enabled
+dc5b435a34e5b8a3f73cc79dc0853c88cedbe368|2017-05-27|neuhaus|changes scope defaults to better values
+a7571871c65063881644c86e8a0902934c6a91fa|2017-05-27|neuhaus|fixed few issues with specan and na unittests
+c4294556e1be502185e4f555e8bc1a67780380dc|2017-05-27|neuhaus|cleaned code w.r.t. last commit
+7c7134d5cc56ebb3e780bbd9c09b9bfc157892a8|2017-05-27|neuhaus|this fixes #271
+91845cab6f0232a8f91cf9710348165ca5d9f047|2017-05-27|neuhaus|reasonable default settings that work and small bugfixes in na
+39aca83e49676ce2c5b31dbbda97ad4784d78f13|2017-05-27|neuhaus|curveviewer usability enhanced
+92dea57482e9c238d48af66c2bfbed743b61ef64|2017-05-27|neuhaus|pyrpl config cleanup
+394e8a1acec825382641cb70b198d955c2aea545|2017-05-27|neuhaus|default parameters and curve_unit for specan
+623ad9b6da0fae1249853fcfe04622eaac662f18|2017-05-26|neuhaus|lockbox improvements
+700bdff53687a737cf72e24060664f3a653be90a|2017-05-19|neuhaus|all nosetests passing (except 2 in iir, work in progress)
+298aa8775acd0778e39d3f0aacf37b2aa4964063|2017-05-19|SamuelDeleglise|Adds xy_mode for scope
+09a0e3031169485b09f99c7cd6a58ee364446b93|2017-05-19|neuhaus|lockbox has params property for better debugging of measurments
+f22802669e2818b2049644cf09f2757346aa6834|2017-05-19|neuhaus|filter module unit test
+c2955cc99685b2f7bb9836c7752ec5a743dffc98|2017-05-19|neuhaus|nosetests in na pass again
+4443cdd0badaadcb77afe74038df7560a3feff00|2017-05-19|neuhaus|added pyinstruments curvedb support
+d9d5d7990ca4c2226e60b759eb5e2cda27f2ca4c|2017-05-19|neuhaus|removed transparency from scope traces
+ad859a2fd868926fcc8dc2389e6eca531ab4ae51|2017-05-17|Leo|asg bugs fixed
+0de5d5db85fb0746cd925a8ba4c1a1c04514c4c5|2017-05-08|Leo|merge from manip, conflicts resolved
+8186f23821532099e251bb9740fd7e0d35db43c4|2017-05-08|neuhaus|changes for experiment
+199c8045e113ac22d6c0b4b66d3f350eecb1e906|2017-05-04|Leo|forgot modules
+107b16d941d836ac0c7a18bf5e65aecdc47f324b|2017-05-04|Leo|removed _init_module everywhere, ready to be fully deprecated once unittests are passing
+55087dd2993292b8ffc4c53caf8bada6e40d689d|2017-05-04|Leo|Merge branch 'spectrumanalyzer' of https://github.com/lneuhaus/pyrpl into develop-0.9.3
+29e395ce1bcb35eba67f69963afa8b104e90519c|2017-05-03|SamuelDeleglise|Unittests for scope and na are passing again
+1c6e21e1b24766a5a64a0f6fd550b478daba95db|2017-05-03|SamuelDeleglise|Fixes error message at startup (input options are called before pyrpl.software_module exists)
+7ae3d117e487876ae500622e1dd37f2d0b17714b|2017-05-02|SamuelDeleglise|_init_module removed mostly everywhere
+20ba03d04d74e2dadbdff993188a53ec8b9209d1|2017-05-02|Leo|Merge branch 'spectrumanalyzer' of https://github.com/lneuhaus/pyrpl into develop-0.9.3
+65b8001b29460e6a5ca91444ef80afc40f5a1e47|2017-05-02|Leo|merge from develop-manip-zpm
+fbfcfd1fed57906d010cb8d2d829912a9aa0d75f|2017-05-02|Leo|trigger travis build to test pull-request
+81482409c451145bf308905365faf4cf4ab905f7|2017-04-29|SamuelDeleglise|I believe this fixes #204
+6f75cb32d236ec6a57366c5d11f211389c723953|2017-04-29|SamuelDeleglise|Fixes #198
+6e12d04d6cf45836131a1e1af23899ac69de534b|2017-04-29|SamuelDeleglise|puts some transparency on the scope traces (see #249 , but it I am not sure it is as efficient as teh checkbox solution)
+fea77f9be780324b0767e70435cced9bc2d0d46b|2017-04-29|SamuelDeleglise|Fixes #205
+3f00238bcd537d1f981422d13b2f6e271ae07f54|2017-04-29|SamuelDeleglise|cheap for #206 (not sure na acquisition at 0 frequency is blocking...)
+67727276f14c821734713f617a78942e9835fc79|2017-04-29|SamuelDeleglise|MouseWheel deactivated
+4916f9ef19eed5faaf0ebc6b84dc3666536fe3a7|2017-04-29|SamuelDeleglise|If window is outside screen (e.g. with remote desktop) move it to (0,0)
+87530feb3b6ce6dfaffabf937ce91d418b7dce10|2017-04-28|SamuelDeleglise|merged with develop-0.9.3
+14b543256a0fa95edca35bb3bcf3ccbccbba2749|2017-04-28|SamuelDeleglise|almost all unit tests ok
+9e01ba3b950ad83d510ab2facd825143b08a657d|2017-04-28|Leo|started attempts for scope trace transparency
+c48caf792d1261ef05c03a1f16638b8f7e75e2f4|2017-04-27|SamuelDeleglise|This should fix #250
+780c08db92412b0e81e754eb029548cfa93449c2|2017-04-27|SamuelDeleglise|I believe this solves #243 (na stills output a signal after curve acquisition)
+6b9827d1af3324c4d6232f9407a7c3b9aedc93a7|2017-04-27|SamuelDeleglise|fixes #251 (specan textbox color)
+06c79611ef0b67993036c3cf559eb19112deca48|2017-04-27|SamuelDeleglise|fixes #252
+69d23d58c54ee7f6986c2257cb8b801e2b93de09|2017-04-26|SamuelDeleglise|specan transfer function cleaned up + #247 fixed
+0c9b74e96721023f7562ae92938fc2c87435b0b6|2017-04-26|neuhaus|auto baseband specan
+4847cd4e100b137bc80d94a801f7fedb774dc5ca|2017-04-26|neuhaus|bugfix calibration at FPM startup not working
+8ce10dd89edffcf4113c7547d4efb69cc93f4622|2017-04-26|neuhaus|bugfix autolock at startup
+66be20a26ba12aa63dbe6c6e4d1cbd94e064f522|2017-04-26|neuhaus|calibrate bug
+561c843ddcedecc10be8798871c10f9ac3c10759|2017-04-25|neuhaus|changes from experiment
+1b6d54f2cc9731a381274484cabc4d0aa79693a4|2017-04-25|Leo|fixes for iir
+1d8b9762c3ebcbef0df8ace96b894b1d453ab115|2017-04-23|Leo|curveviewer options change in gui when curves are added/removed
+e2df8b88d14f18fbaf7c09954d6c6a86087d733a|2017-04-23|Leo|tentative fix for filter bandwidth issue
+0abedf3cf8dac49880b1c097372c315b89748720|2017-04-22|Leo|forgot frequency scale
+a070914727e90968d17f035ed8176355e105e628|2017-04-22|Leo|better specan lpf design
+af6a14f5064e3132f7a2cf4f65524fa9eee08b2f|2017-04-22|Leo|Merge branch 'develop-0.9.3' of https://github.com/lneuhaus/pyrpl
+138fbd5e8c2b10bd201b5d8c5a5dc2fff96c9426|2017-04-22|Leo|specan_filter_design
+c729910cfa9a5357da239ec3778fcb356ed7713f|2017-04-18|neuhaus|autosave during calibration disabled by default
+1b6e38fdc988a89d781ab9bfe6e6718a3ffd8ba7|2017-04-21|Leo|update readme, fix hidden bug in lpf block design, attempt better filter transfer function
+1fb3fb30075e57762e17a8b12c84b3922c838781|2017-04-20|lneuhaus|Merge pull request #239 from lneuhaus/develop-0.9.3
+0e389049f6d879801d35c06b220c9d283f3d6837|2017-04-20|Leo|trigger travis build
+6e78fdfb69f1e712c8bf7e4aed4e4f43f0173098|2017-04-20|Leo|bugfixes in pid
+ca802e764f69ddd16051664b9f3e19d2d1c10260|2017-04-20|Leo|unfunctional bugfix proposal for filter transfer function correction
+3a6a023cd5ef732fc0ee37f7125e0ce18714bfcb|2017-04-20|Leo|minor bugfixes
+8d841ace52e2923a8fa8c02fe6565fdacc83a56b|2017-04-19|Leo|attributes
+864300ff778def317a93309e1ff907e05ece23c0|2017-04-19|Leo|README section on nosetests
+f5b6c49329bc53bb82439b0d8a885c7e9f8cd85b|2017-04-19|Leo|test base bugfix
+c45995297e7e21ef5c9d250769cb555b3ac53f24|2017-04-15|Leo|iir
+77d71b551028c8d65a08262efad8908a165c5d45|2017-04-12|Leo|started fixing pid unit test issue
+5bd84755d5641c21be155374e38605bc1ff0648a|2017-04-10|Leo|defined gainregister for gains to avoid roundoff to zero (and/or add a warning)
+4a97374f7e39f82effef51723ea6314828197ad9|2017-04-10|Leo|ïif filter theory obvious bug in sys.setter removed
+2d34db9e22bd975da71c0a81de61b95c02198b29|2017-04-10|Leo|all cleanup functions are called _clear() now
+8508477dc3f7c009e24d44a30385507a23f4c2f1|2017-04-10|Leo|limits for saturation of outputs implemented
+fb8a42b62b4f10c9c56148f6b154ffd3f9d9ca92|2017-04-10|Leo|dock widgets are distinguishable for different pyrpl instances by name and color
+b9c4e1f677625b55c3e925978dd5aa550aacd287|2017-04-10|Leo|travis fiix
+39671cb65acf3cdc9fa9a9c9f932e50e8bc33282|2017-04-10|Leo|travis fixes
+18cfe206a4f10b38acd40088ac525a6735bc2428|2017-04-10|Leo|travis coveralls problems
+3d4c32ec8d89331c8e96f1c4362409c5502ad647|2017-04-10|Leo|Merge branch 'master' of https://github.com/lneuhaus/pyrpl into master_modified_in_train
+69688eb0cc16b9161f2bb5c429faf6b9b58afabf|2017-04-08|SamuelDeleglise|flatness_test pass in baseband, but fails in iqmode...
+6eb69f8125ec3353498cf3b409012ac37c02aac5|2017-04-07|Leo|ported all lockbox timers into loops, more robust behavior now
+da12fcd0e614f38a7e884d52d999127cd51cccff|2017-04-07|Leo|improved curve viewer to display complex curves
+edce3e51682cd98995e2ab11d43e2834184601a0|2017-04-07|Leo|unclear curve_viewer changes
+dac59184cbcb63ee3d6e798148418088132fe8e6|2017-04-06|neuhaus|restored old version of InputIQ (no proxy properties involved due to bugs)
+04d9ea6eecb5bbfa2a38788020a137614e3f5c4d|2017-04-06|neuhaus|try to fix proxy gui
+60a0e5d5993a010a235e26d4fee1856ff4b64e26|2017-04-06|neuhaus|remove errors at startup
+5ea2ded3f83e3c4643917b11e98d296394cb02d3|2017-04-05|neuhaus|Put travis logo into readme
+ccdc675eb39241b1804ec1f3ad7c6f29cc773002|2017-04-05|neuhaus|another bugfix, tests passing
+97df46a1b3321abb7af8bb559b2c01e320ab3da0|2017-04-05|neuhaus|bugfixes at startup
+38967461b0e246f5fd0c9ff0455a4ef1719f0a62|2017-04-05|SamuelDeleglise|transfer function correction not working yet (see unittest)
+ef435bc5740369a223c7b496832856a46eae612c|2017-04-05|neuhaus|bugfix for lockbox
+bf85eb2cceeb0e04fb9f8514f4a46ecd7ff17bb0|2017-04-04|Leo Experiment PC|bugifx
+961a3c3c4b45407b4351162417d5669723269b24|2017-04-04|Leo Experiment PC|Merge branch 'master' of https://github.com/lneuhaus/pyrpl
+3e5aa224bcfd983b22b38682b39cec8be77d721d|2017-04-04|SamuelDeleglise|merged
+5f4789bf998cf348d43685d8e531dea4a78c223a|2017-04-04|SamuelDeleglise|specan with baseband cross-spectrum + units works
+05d50c567608e9d215787f19f483219612b4136e|2017-04-04|Leo Experiment PC|fixes crash with bad dock positions in config file
+558f697641f0553cf24dd9f31da007245c79d214|2017-04-04|Leo Experiment PC|Merge branch 'master_with-lower_pid_freq' of https://github.com/lneuhaus/pyrpl
+e97ec688daf931c358c5cb475f07187b826efacc|2017-04-04|Leo Experiment PC|specan fix
+2865d05d73d2cfdd6bde89fed75a3847f3553bd7|2017-04-04|Leo Experiment PC|autodoc
+83a3ba0f4c0f093bb53b59b5dd09e5ff11504ab6|2017-04-04|neuhaus|compile
+f1016edd6b8a16d92cb027d533e74f701f8367cc|2017-04-03|Leo Experiment PC|now just need to recompile
+4115f4bf574dc6b726e03596a25cb05a206aee7b|2017-04-03|Leo Experiment PC|probably fixed all issues
+41d8788204c606eba3fc282211fca21879c6cae4|2017-04-03|Leo Experiment PC|Merge branch 'master' of https://github.com/lneuhaus/pyrpl into master_with-lower_pid_freq
+686706c135d971fef2b1fcf93b90b0881f6a59a1|2017-04-03|Leo Experiment PC|bugfixes
+49ad69e71f59b5263866d53f15fa067257ff9e56|2017-04-03|Leo Experiment PC|Merge branch 'master_with-lower_pid_freq' of https://github.com/lneuhaus/pyrpl
+13861badb33d55a7eb35284d93e04ab4e3e1e408|2017-04-03|neuhaus|compilation complete
+abb82f72e2ea8da643ec964a585f992e2eaa6f88|2017-04-03|neuhaus|changed iq quadrature factor gain
+6ce731187b79666369615cdffedd535ceb9d216b|2017-04-03|neuhaus|cleaned PID, addressed filter bug
+c81f48714ec6ad9c571cf0dbed632ab1e0f3e388|2017-04-03|SamuelDeleglise|Merge branch 'refactor_registers'
+e77010d6d95559db151997ccfbff6c2f0d2c9c7b|2017-04-03|SamuelDeleglise|removed comment
+8159dfa00456d89a9df724926815a5ae82def910|2017-04-03|SamuelDeleglise|Merge branch 'refactor_registers' of https://github.com/lneuhaus/pyrpl into refactor_registers
+5ae0ae808dff5016f935019f9bbaf79f2bcc928f|2017-04-03|SamuelDeleglise|more work on specan
+3b93e3dc41b329d6f142c89807fc748c10124c57|2017-04-03|Leo Experiment PC|string conversion fixes
+07e7f229c222a81c2c8936e8939a4c7adff4b7ac|2017-04-03|Leo Experiment PC|update coarse_lockbox
+256f264d945d490307916ca62c45d8f4fd91bc55|2017-04-03|Leo|tried to fix bug in yml decoding
+a92aee9679f012bc2e3319dc7ad62116a41acfb0|2017-04-03|neuhaus|Merge branch 'master' of https://github.com/lneuhaus/pyrpl
+d78bfe99556acab99c2a4f4f78bcc7673a092b97|2017-04-03|Leo|comment for asg max
+d704c0089f9472ef9c26239e918e3b033132031d|2017-04-03|Leo|asg max limited to 1 V
+c2bc48418bf91fe1d0dc4a6516d843334b2f4dd0|2017-04-03|Leo Experiment PC|simplify yml saving
+b1482f299d41d664cca069384f0491f18c9fb7fa|2017-04-03|Leo|test_attributes_widgets wass redundant with test_attributes but likely the cause of problems
+7e4e5652340fdf7458a5d589b68ff0be091c45b5|2017-04-03|Leo|fixes python 3 issuesasdf
+85b0add654b6c2ad8cf39a7e12c343ae1f5780ee|2017-04-03|Leo Experiment PC|memory works now
+8becda97092358c7821a9ed7e94f8832a2fb5feb|2017-04-03|Leo|Merge branch 'refactor_registers' of https://github.com/lneuhaus/pyrpl
+e0c9f1d99cc19eea6e46e4c3c1bf66150664f2dd|2017-04-03|lneuhaus|Merge pull request #231 from lneuhaus/refactor_registers
+657f4480a2145fe9293f738c02f30eb10a3f5488|2017-04-03|Leo Experiment PC|nosetests pass on py2.7
+9c3481f3c0695ff8c5ad8e51b1605da97d208d68|2017-04-03|Leo|fixing last bugs
+2a2b04c9b33d8ce0b65d97bafb6f154eb3f11ff2|2017-04-03|lneuhaus|Merge pull request #230 from lneuhaus/refactor_registers
+3b13ec03087805ea46a6a7df572f23d7a5ca8e7c|2017-04-03|Leo|fixes inputfromoutput signal connection bug
+ffd82013f00aaac7fd8450634abe70c2ecf78e65|2017-04-03|Leo|pure unicode yaml - should be tested
+c776355a1b7fecbc38cb2d53c6408b191ffc4cc3|2017-04-03|Leo|modified load/save backend
+84fdb7cbb515f23a6eb60f40cc8240d399928f9b|2017-04-02|Leo|Merge branch 'master' of https://github.com/lneuhaus/pyrpl into refactor_registers
+19bc7a2fd5b2a2d08017ff2cb28eedbff96abf4c|2017-04-02|Leo|curve delete bug removed
+79d5d0f396ad9c8014e63fa7e64b0affcb237fc2|2017-04-02|lneuhaus|update readme.md
+267c0dd79fef27956b7aba17761de7bb4f4cf9e6|2017-04-02|Leo|travis order
+4d5c300f73a2208ccf6e6c3af8aacc5936fd4b70|2017-04-02|Leo|another config bug
+a9e94c47fcfee29b479073828a9ac9928f3b158b|2017-04-02|Leo|global_config_fix
+3742d8e71dfdce0933507d5ae587cd012a37468e|2017-04-02|Leo|quamash for python >= 3.4
+858d3182261f552c7a44025d5f1ff15f1b65eb5c|2017-04-02|Leo|Merge branch 'refactor_registers' of https://github.com/lneuhaus/pyrpl into refactor_registers
+3e35345b7d3baeba53b7534d45605ac4719226b2|2017-04-02|Leo|exclude python 3.3 from travis
+c0e11590d4bae3c1ee9a687594fdb474fbccffc1|2017-04-02|Leo|fixes na_test issue for good
+37439e3b5eac1c70950756447730797ca8a34227|2017-04-02|Leo Experiment PC|delete curves after scope test
+f050bc9364dd63266cfe7245dd3e4b49aa357109|2017-04-02|Leo|test python 3.5 before 2.7
+f792d186c0db60a4e676bcd72c11d43678fe899d|2017-04-02|Leo|exclude py3.6
+3ee26704c5f81a77a0af366bdd3c603df0bbeee5|2017-04-02|Leo|test_pid_na_2 is slightly affected by long delay (okay, since an integrator is involved)
+8e15fedccb5c97dccac3c3eb80b2965c68d38c84|2017-04-02|Leo|corrections
+20288e71f98a94e6e3d57f6d051098c1c60bf302|2017-04-02|Leo|travis fix
+b3e70c093487bbe14870891268edd40cdad8403c|2017-04-02|Leo|drastically reduced .travis.yml
+c7ab29ab1196acffd6cbd741fac55f1767fb1481|2017-04-02|Leo|travis relaunch
+4b1d2d3b82c15b8c72ebef670b4e4fb3dd4adc50|2017-04-02|Leo|minor bugs
+84d247eb37a3b4434dcb82f6cad6e15271c7e342|2017-04-02|Leo|finetuning travis
+aabefe9830f18ce6e8d0393a73b5cf849598e43e|2017-04-02|Leo Experiment PC|Merge branch 'refactor_registers_bitfile_compiled' of https://github.com/lneuhaus/pyrpl into refactor_registers
+7d4beb86e63e963418c9578b7ca093a9490af70c|2017-04-02|Leo Experiment PC|fixes nosetests error with output
+2ecd2352bff7ba4b27f77af0206301cb39fdfdb6|2017-04-02|Leo Experiment PC|non-scientific notation in global_config
+47bf32b25185afaaedc2e92906131257e9f5051f|2017-04-02|Leo Experiment PC|merge with resolved conflicts from refactor_registers_working_280317
+7cb9f432d1eafe85f3095c12d3fb358a0dd3356f|2017-04-02|Leo|trying to fix all tests
+73d4d67f0146691f36021d0952aa691145d395a5|2017-04-02|Leo|rw time
+efd247efeb7d4a1ca7b21a21a0c746f9b8804458|2017-04-02|Leo|comm time
+3ad9c17713f9212c17d54ea8d28e679a6ded6ed1|2017-04-02|Leo|test_read_write_time still fails on travis
+bfb2bd35158cba16ce0fd3608f043a05eb9f0b80|2017-04-02|Leo|na running states bug on travis fixed
+c4b99263bd92d1f760a75a610340b8e544db99c4|2017-04-02|Leo|better commication time info for travis
+977b7fe1ada34de6b3844941d7b4cd64e1a8a10b|2017-04-02|Leo|hoping to pass unittest on travis
+f38c76a71d09f2c0e8e907f1295b073e71958334|2017-04-01|Leo|pylab import bug
+23a80898a00add850554df83dcb02d2e0dbb9032|2017-04-01|Leo|might also run on python 2.7 now
+4ad3d940a4110299793b24e90b439145d0669547|2017-04-01|Leo|pyqt4 added to travis script
+d3a7f36b2cf6a9f152e3818449223cb8648d8bba|2017-04-01|Leo|travis bug
+a0bb26376ae3c00daf57de511cfd4ce2eee7c071|2017-04-01|Leo|triggers tragvis
+c0f06ea2e0f39a6530378f04d65ef6db85af1e53|2017-04-01|Leo|more setup.py simplification
+13f1f90d9de7b37a8fc0780b46327adb12b11da1|2017-04-01|Leo|travis fixes
+e7ad1f6adbffe972ef1a7682ec53256dd2d664e4|2017-04-01|Leo|redid dependencies
+d962c7f29275bff2f81b7048e24ff56789a7bf62|2017-04-01|Leo|basestring -> str everywhere for python 3
+012e42bc8282f17e79a3078fb1e6c870d4eecddf|2017-04-01|Leo|travis fix
+919b34e7a1eec34b8adb48443540f419ea2819a1|2017-04-01|Leo|python 3.5 travis file fix
+db44641b40bcf783617b3485570dc9ea24c37ecf|2017-04-01|Leo|python 3.5 fix quamash installation
+d2dd3cfa7f9cc99925c8624607ddb986a1acb99b|2017-03-31|Leo|travis fix for python 3.6
+27761e81be4e46b6560d9536a5f0c28f3355b0b9|2017-03-31|Leo|attempts to fix python 2.7 error in travis
+0204f16ecd3ecb68b98945ecd5ff284b5cfde4e1|2017-03-31|Leo|Merge branch 'refactor_registers' of https://github.com/lneuhaus/pyrpl into refactor_registers
+dda0379cf3511a7b61ed94aa435762cc103f3a35|2017-03-31|Leo|travis test with a remote redpitaya
+967cd6e9a09d6996023044a438f665fec52eb1b2|2017-03-31|Leo|iir theory proofread
+5c6a7b535c5b6e2af97cc45adf37ed0a4e576655|2017-03-31|neuhaus|actual file
+a402693b8aba984082468dd7cce3ff7532020073|2017-03-31|Leo|iir gui getting closer
+ac23cf6aa552d50fd1440ce48a38cea14306ccce|2017-03-31|SamuelDeleglise|Started very preliminary display_units in specan
+9c7502bf6febf02bfa086857e0173b979ff2e9dc|2017-03-31|Leo|iir working again
+acdf8d092db68c0d8971615227daaea997bac0ef|2017-03-31|Leo|Merge branch 'refactor_registers' of https://github.com/lneuhaus/pyrpl into refactor_registers
+d05a072348c5fe03d9280f3fb045ee8e11f25c5f|2017-03-31|Leo|not working at the moment
+b60e6d5225393ef3948d7192120291579d9386a6|2017-03-31|Leo|more advanced iir gui
+234a746a0878e9de4caf647cd404cb8af7204809|2017-03-31|SamuelDeleglise|Adds a comment to justify why running_state is handled separately...
+1f46a45e02d5caf40f29a1c1fa8da5a9273b9aa2|2017-03-31|Leo|Merge branch 'refactor_registers' of https://github.com/lneuhaus/pyrpl into refactor_registers
+7e092ceeb32b930f3c06e7ac97e978bf5b77c13a|2017-03-31|Leo|iir advanced
+e03becbba54f0add231ab047b36c62d9fa03a1c2|2017-03-31|SamuelDeleglise|towards python 3 unittests passing
+82ab5ada60796dd5d57e20334ad6515c1bcd181c|2017-03-31|Leo|Merge branch 'refactor_registers' of https://github.com/lneuhaus/pyrpl into refactor_registers
+79852a0570be21a959dc8bfa9b59b3017d4eddc7|2017-03-31|Leo|travis fix attempts
+83fd3e0d25f15e5e0e508b2c9ac45cbccf53b017|2017-03-31|SamuelDeleglise|removed some commnents from acquisition_module
+baa7e4317aa252205707b3820264b16c6bfd5deb|2017-03-31|Leo|global config to configure test thresholds
+26b2c70590a6986df89b538840e289e47df19ee9|2017-03-31|SamuelDeleglise|Scope is clean and seems OK
+b9d09bc1c1d9afea6398d9fcd833898f3db38f80|2017-03-31|SamuelDeleglise|Scope is cleaned and seems ok
+ccc92c60451456c2eaca92cd762e423d2d448db7|2017-03-31|Leo|na test threshold less tight
+5775e69375ba537b8970bc7f657dddf09e314ea8|2017-03-31|Leo|all unittests are passing
+07c98cd51cdd5952f0e5ca45a4ea29fd92e3dfc1|2017-03-31|Leo|better error message
+6d6a5d7637c6e4652385c272e60805e7dff99570|2017-03-31|Leo|speed issues in unittests are more clear now
+d427beec6a5aeb7907d8e9a15a2db3d10698bf19|2017-03-31|Leo|further fixes
+fd2fcf5b254e1310db4870795cab5dc2f0ac4b63|2017-03-31|Leo|asg bug fixed
+d2c1cafa9e915c39c75c4c28f5abcb674a5ea791|2017-03-31|Leo|merge; conflicts resolved
+a163e95387f13b920be47689a3a334fc3a1e73d0|2017-03-31|Leo|started iir
+ec0f3fb1bc8373255e81952a87dd6abc926f0048|2017-03-31|SamuelDeleglise|python 3 changes
+7550e64b92e90484e137c4f45a65d454a005b91a|2017-03-31|Leo|proxy bugs all fixed, implemented cleanup in lockbox, logical inputs fully working
+d05a65075045241e9744c46d4bac734da2b20d89|2017-03-31|Leo|ProxyProperty passes all unittests and is indistinguishable from a real property in all aspects
+6c82ae127cd21affd349e75fef7a3975653add80|2017-03-31|Leo|loop cleanup around lockbox
+5b2e28d298a0be4f51efc783d09cc5da26bdc227|2017-03-31|Leo|UnexpectedPyrplError and bugfix for high-level dsp signals
+c48e26c7beb0d80ba75007f88d8b0b27908d4a2a|2017-03-31|Leo|next autodoc attempts
+b67242d22451711c0459d38d25768d880d563cf0|2017-03-30|Leo|minor fixes
+7008d7252d2dd91777e4b7ce646d5497c1af9e52|2017-03-30|Leo|test_scope passes now (had to change the test, but I wonder how the test could pass in the past)
+d14067f5590db338201f9ccf881b6011dc3228dc|2017-03-30|Leo|added legend to scope channels
+8037ee75547d9c966a39981e0bb13aa165767135|2017-03-30|SamuelDeleglise|Na amplitude to 0 instead of output_off when paused or stopped
+f6a9e6189ee42e7ba8f007b22c493fda349b3028|2017-03-30|Leo|na test whitespace
+b74b29c4b6053446a16bfec96b2bb35a5f2b76a5|2017-03-30|Leo|Merge branch 'refactor_registers' of https://github.com/lneuhaus/pyrpl into refactor_registers
+138587dc84df504b0477e6d3bb500a51a7118816|2017-03-30|Leo|started signals
+2f0aa916e13a5f25e7490f7b272a593a6975e07d|2017-03-30|Leo|nice unittest with ProxyProperty (not testing widget connectivity yet)
+c84ca07932bafc8ea445821bb31c6f632e2a9ae5|2017-03-30|SamuelDeleglise|scope seems to work fine again (_trigger_source-->_trigger_source_register was not done everywhere)
+c1dc60a69894d914410f1fec15d43240e1fa2761|2017-03-29|SamuelDeleglise|Gui can be open in python 3
+99112d02ff0d7d851f91370a0692028807d782bb|2017-03-29|neuhaus|implemented input=off in fpga
+b676902c77cf6076f4db9deea54ab8f5749444b1|2017-03-29|neuhaus|vivado compilation errors fixed
+3692acefb01f3527fa258cfcf25b9606c3a6e17c|2017-03-29|Leo|pyrpl gui hide/show implemented
+9232b9fa94823a5a322799ce24ec8c81c0c2cd76|2017-03-29|Leo|about 10 errors in instruments during nosetests
+7f6831a74eb630a2b5fe1caa15ac9e33d3c98ef4|2017-03-29|Leo|register unit tests are passing
+e82f69d49461056a9dbdff7104d88569ebcfddc1|2017-03-29|Leo|small fixes
+a474122b8128530de989102c8732a00861633ed5|2017-03-29|Leo|CurveProperty can be used anywhere to plot curves
+cadbbe26720e57778df65d5a76ea1934c44af50e|2017-03-29|Leo|first ugly version of curve viewer working
+2b6c06d0fa48cf9f6f4318776570fe2edaa8d2ef|2017-03-29|Leo|attribute buxfixes and curve_viewer module
+c3263a2d6cacecd7ec4090230540838d332c4ebc|2017-03-29|Leo|attributes cleaned
+2ba984849d82b64f75953adf35cd8855feb30c3d|2017-03-28|Leo Experiment PC|now working
+47f88a17dd0056c4212c463a5184b051ed5eaa9b|2017-03-27|Leo|Merge branch 'refactor_registers' of https://github.com/lneuhaus/pyrpl into refactor_registers
+7a63858459a7ccc1c6a8d0bba9bcafdab7eaea85|2017-03-27|Leo|scope input changes
+0c55c870db20ee41d100667b2b2f0a08ad28a0a3|2017-03-27|Leo|incomplete modification of scope inputs
+1984cf0f40c48607defb415dfa103f8ac5c8f099|2017-03-26|Leo Experiment PC|bugfix in scope
+f67eb4037443d219d092fe7738eac397dd5884b1|2017-03-25|Leo|cleaned dependencies and bugfixed
+1ea73a04cee2469f4607ff8a552b1215f3beb39c|2017-03-25|Leo|added dsp trig module trigger to scope trigger options - fpga code must be recompiled
+b61719492916f69f4bd067b15f9bc32dadac3be1|2017-03-25|Leo|all cleaned up for now
+5b1dc8ba4bd152a0f9888146d1eba9737e7f019c|2017-03-25|Leo|pyrpl config file storage
+27843ccbe84dfe41f6f5b2e7d69b481fe7fe486d|2017-03-25|Leo Experiment PC|simplified lockbox directory structure
+358bd0ae03f29e79c5f5978f0f31fb4d5280753b|2017-03-25|Leo|more file cleanup
+881ca49dab8e00d88546c5fa121acccdcab7c265|2017-03-25|Leo Experiment PC|more cleanup
+371570864c9f662046a7104f35f18edaff5248b0|2017-03-25|Leo Experiment PC|cleanup and nosetests fixes - tests passing
+f144e0c0023c8365e09589ffc74d56c1f19d9337|2017-03-25|Leo Experiment PC|Merge branch 'refactor_registers' of https://github.com/lneuhaus/pyrpl into refactor_registers
+3ee82069062f0f817004e630db2d148b3ab60725|2017-03-25|Leo Experiment PC|nosetest fixes
+8817fdf4b5606b4143cacfd5cfba010765bb8726|2017-03-25|Leo|cleaned up trash folder
+c6cddcbf486b0ea78cc417144c3df8f150c635a9|2017-03-25|Leo|setup develop works
+c9a5601426dfb9909a5e66ae74edc0d3dbdd7971|2017-03-25|Leo Experiment PC|Merge branch 'refactor_registers_trigger_test' of https://github.com/lneuhaus/pyrpl into refactor_registers
+7d438be1b66e4935b9c9cb7275de5cb8ebf19f90|2017-03-25|Leo Experiment PC|Merge branch 'refactor_registers' of https://github.com/lneuhaus/pyrpl into refactor_registers
+979bc1e190e0e4e16a022c89620aa3150cfeb353|2017-03-25|Leo Experiment PC|Merge branch 'refactor_registers' of https://github.com/lneuhaus/pyrpl into refactor_registers_trigger_test
+b79b041d5cb287ddec606454675ceeefe0371e90|2017-03-25|Leo|more unit test
+efcc3d25aa89ccd0c4da20b55374a9282aacf10c|2017-03-25|Leo Experiment PC|better test
+c48dca40e4cd1cdbb45dc976cf01d1d37afe6bf0|2017-03-25|Leo Experiment PC|trig unittest
+205cb1674f95237e31216e8ce93c16954a90e48b|2017-03-25|Leo Experiment PC|Merge branch 'refactor_registers' into refactor_registers_trigger_test
+a1d63306e71e0daf5471f35d43e8852baa75e43f|2017-03-25|Leo Experiment PC|nosetests repaired
+34676dfc8926282c709008a887094573370c7bf2|2017-03-24|Leo Experiment PC|bugfixes in trig + coarse_lockbox
+97494c0b41946ee14164a4b9d377dc2fccf4ec9b|2017-03-24|Leo|ch
+0f1a0efa4ff814286146d3961886f1c24f8da193|2017-03-24|Leo Experiment PC|Merge branch 'refactor_registers' of https://github.com/lneuhaus/pyrpl into refactor_registers_trigger_test
+67360975f626b42e98a9c8c02d55fc143a8a73f0|2017-03-24|Leo Experiment PC|comment added
+ca1b7be2ffbecddc93237b427ad51929f1dd892f|2017-03-24|Leo Experiment PC|threshold unittest passing for registers
+1ec42c67974dca0b8dcc757679d928ab7c23fbc8|2017-03-24|Leo Experiment PC|specan test repaired
+51db33ae83297509886d70d73576854bcc39e63b|2017-03-24|Leo Experiment PC|conflicts resolved
+178234c5fc63554d87052a7dc691b4ecc72d9d39|2017-03-24|Leo Experiment PC|coarse search lockbox advanced
+e2dec6c2d55cfbd731cb0f6735819c6f63cfd677|2017-03-24|Leo|Merge branch 'refactor_registers' of https://github.com/lneuhaus/pyrpl into refactor_registers
+d517f6175e65f0ac99c9c839185cf3654c1b7aa2|2017-03-24|Leo|sphinx started
+a78c03a512d0a0076d5b8ff8575931b4e8f87d0d|2017-03-23|lneuhaus|bugfixes
+9b22a8b96ef9a47514172e9893363ce7c43911df|2017-03-22|lneuhaus|cleanup
+d1bd098c939300160b035aee3d2b3adb857acb38|2017-03-23|Leo|addressing sphinx issues
+02f1615478e838675cc4f8313916af40eba20419|2017-03-23|neuhaus|python code modification for trigger module
+0d338abd8c1808e7f8d1c2e8166b094eb9d0e51b|2017-03-23|neuhaus|trigger module compiled
+c376b0e63a3d26b30b92cdb88b38948ba2a90090|2017-03-22|Leo|InputIq submodules reduced
+f5dd167c0ed900ff31b4e7a38f91f98200844a85|2017-03-22|Leo Experiment PC|Merge branch 'refactor_registers' of https://github.com/lneuhaus/pyrpl into refactor_registers
+c1651267e0142e6df69c09c884c28bae42f3baaa|2017-03-22|Leo Experiment PC|loops improved
+27301cbd8b504dd524d4eb9666a282d21d9d85c0|2017-03-22|lneuhaus|bugfixes in lockbox
+6a15185d1b4484e002cedc8b2ae77711b442b356|2017-03-22|Leo Experiment PC|coarse search cleaned
+b245e58b896a3986a823f765af535a5b9645dcad|2017-03-22|Leo|Merge branch 'refactor_registers' of https://github.com/lneuhaus/pyrpl into refactor_registers
+55d7e8e35e7475fae143be0d6a07ba40b7ff0f8c|2017-03-22|Leo Experiment PC|Merge branch 'refactor_registers' of https://github.com/lneuhaus/pyrpl into refactor_registers
+e358167fb51a18922b5c2fbddfcd7e976aef2d9c|2017-03-22|Leo Experiment PC|coarse lockbox prototype
+ca3484111f50a84b274f4601705da0b821ec4559|2017-03-22|Leo|typo
+7e7b82885fd9a081c7bb22def13f1afd19010489|2017-03-22|Leo|autodoc current version
+ccd6f677f075ae3a5944322f8db0e43c6a9d3066|2017-03-22|Leo|error_threshold -> is_locked_threshold
+b70a0ee97a39a20aa26245db23277692e79da0c4|2017-03-22|Leo|trigger module ready for test
+0c381b12a6101caf9008bf609fb4ab3cb9269ee4|2017-03-22|Leo|trigger module ready for testing
+798b9b6c49beec8d549ced25254b0f9320b6b0c3|2017-03-22|Leo|firts draft for trigger module
+5af900d91c5f9817537d65423eda37e31128fcec|2017-03-22|Leo|better pdh calibration
+b3e884feadf75afe38ed4fed30b5724ec050efd8|2017-03-21|Leo|loops can be written even more concise now
+e8782ad2cb64761787ad933ae45e79127e08a7ca|2017-03-21|Leo Experiment PC|Merge branch 'refactor_registers' of https://github.com/lneuhaus/pyrpl into refactor_registers
+785d47e9935d63b8cc151bca814828d3fa419bd0|2017-03-21|Leo Experiment PC|started coarse
+bc8b12366ae09293aa130ab0f497f6ed363beee8|2017-03-21|Leo|more loop examples
+648cd8bcd67b19135767f5c4a696144f24286469|2017-03-21|Leo|more loop examples
+b171c85194b2add26d692c90ff2b5cfae0b3a8a9|2017-03-21|Leo|loop class
+3ac9ad8cf38ac9ea3b63725019db95deaf869b6f|2017-03-20|Leo|Merge branch 'refactor_registers' of https://github.com/lneuhaus/pyrpl into refactor_registers
+5f0030ac8d80a2807f8481f4fd0564819a847f12|2017-03-20|Leo Experiment PC|lambda syntax not working for functions for whatever reason
+c1137f923b5e1d6f4c3e76b3f71a6390293d5b98|2017-03-20|Leo Experiment PC|lockbox gui cleaner
+2934b33ac180e3fab6f06dc29678c7270af98f42|2017-03-20|Leo|attribute_widget
+7253e5c2c67a2e2f2c0af8f978e86a5aec7b1091|2017-03-20|lneuhaus|more lockbox bugfixes, lockbox in a working state
+2bad59a0904f4ee4b983fdd7fa1571593f68dc6e|2017-03-19|Leo Experiment PC|all obvious bugs removed from lockbox
+da70c92b79364a0d98c56554551297c4d9448d30|2017-03-19|Leo Experiment PC|second interferometer file
+a644cb678fe2dec7d00979e691ac1e08f35fa437|2017-03-19|Leo Experiment PC|interferometer bugfix
+77783be99677cc8f41ffd21f10c747186ce1c244|2017-03-19|Leo Experiment PC|lockbox: smaller bugfixes and improvements
+d23c18513406782477b410657323225f78f8670e|2017-03-19|Leo Experiment PC|further cleanup of lockbox api
+287ba7f138d414106bb99c3b46ed18b71ec8e2f2|2017-03-19|Leo Experiment PC|nicer GUI experience
+20fb4c424224fb8e16d3051bc89bbd9cb0b17d77|2017-03-18|Leo Experiment PC|improved signal structure
+a641413dbd2fa30ffd34e182c6f7fe78e0ef0469|2017-03-18|Leo Experiment PC|cleaned logger spam into logger.debug
+e6b521ee94b2dff0356b65c17bd198a03cede49e|2017-03-18|lneuhaus|is_locked for InputFromOutput
+746e751a667c54de3d6f74f39437ce222eaad285|2017-03-18|lneuhaus|setpoint units and input_from_output improved
+40bd66469c899accf7a3d75a2f0495a3e963877f|2017-03-18|Leo|typo
+843040c9fc8a299a6a17df3d439811be7aa90694|2017-03-18|Leo|python run_pyrpl.py config=test works now
+704085987f79f64d55a957378856d34564966f3c|2017-03-17|lneuhaus|is_locked and autolock work again
+f340d55db391ea03ea3d235e16add34080aa745c|2017-03-17|lneuhaus|FPF lock re-established
+5a8f063383fda95886d55ae1e33be5b8729f0108|2017-03-17|Leo|Merge branch 'refactor_registers' of https://github.com/lneuhaus/pyrpl into refactor_registers
+5b2e59fbbb15380cd5bc4dbae4697e93c400877b|2017-03-17|Leo|bugfix
+539032ffcf3f6b5905e09bfe83f5a1b5388dc5b7|2017-03-17|Leo|sequence seems to work
+4bb68820c03fbfa77e875674e3bd54da5112c818|2017-03-17|SamuelDeleglise|Merge branch 'refactor_registers' of https://github.com/lneuhaus/pyrpl into refactor_registers
+2fe1bb6a6f6f584fc7c83f193b4aeca5bcb6a7f0|2017-03-17|SamuelDeleglise|Adds a section "Using asynchronous functions with python 3" in tutorial
+14bddc512340f174753c7967f4e96fc86238279d|2017-03-17|Leo|input.py cleanup
+57ba2c7b582372907fc16a9abfb8f7ae9f8abc30|2017-03-16|lneuhaus|towards working lock
+0514a338c5fa7d082bd48e4056943773481b86b2|2017-03-16|lneuhaus|finally fixes scope timeout bug in python 2
+699465f31626d381258525a6d6dbc82041ed0d79|2017-03-16|lneuhaus|debugging new islocked
+707c01620277f7ca68071982a72e80b66fe1e376|2017-03-16|SamuelDeleglise|Also works in python 3
+5bb11c1726914d53457e1945fa7fd355f046d535|2017-03-16|SamuelDeleglise|Fixes PyrplFuture.result(timeout) in python 2
+07189fdac2857d7d6d7c181ef951cb75a049670c|2017-03-16|lneuhaus|calibration errors fix started
+4524e10eb8d7dae11ed5893cada5f3db2275516f|2017-03-16|lneuhaus|disabled ruamel support for now
+3b4d72b334f67b8403f4aee7bc59f5dab8691b72|2017-03-16|Leo Experiment PC|asg square wave
+ab04eb2cacaa3a8db09b1956578a5035b2fe64e1|2017-03-16|Leo|scroll bar postponed
+fb052ea0dc9b36e318f2d63bc06afa0130d8f74c|2017-03-16|Leo|bugfix for FabryPerot startup
+0a7dc5c33ec803065ffe8bbdcedcd4f97ad80c0e|2017-03-16|Leo|lockbox bugfix
+27616c0d18a409a545c9c9fa236dd17e513df4a4|2017-03-16|Leo|setup_attributes order is fixed, removed workaround from scope
+7ee364993c2eb50b0219ecfd00763c50f952c984|2017-03-16|Leo|Merge branch 'refactor_register_submoduleattribute' of https://github.com/lneuhaus/pyrpl into refactor_register_submoduleattribute
+c98e57914bd640a1394b4064873d0c19645f5cb5|2017-03-16|Leo|nicer gui
+4673b361c6a0e008cad50ae6bde61ed84b7c3760|2017-03-16|SamuelDeleglise|Merge branch 'refactor_register_submoduleattribute' of https://github.com/lneuhaus/pyrpl into refactor_register_submoduleattribute
+5e0b6aba486344e56e68fd6af1cff5a063f77952|2017-03-16|SamuelDeleglise|callback  --> call_setup
+b8f82a17fe75fca1890ec3fb73a5c74332f7a59f|2017-03-16|Leo|stage.enable replaces setup
+a567c441aa113dce96f2a9b1ec28219003fe31ae|2017-03-16|Leo|all conflicts resolved
+d6db672841391b758a15dca3d702505f836e065e|2017-03-16|Leo|forgot a file
+e7db06006ad29ac26160171a34c1e99b3fa41d29|2017-03-16|Leo|bugfix to enable loading pyrpl in simulation mode. Some startup problems are still present from the merge operation
+9a05673b750a58028c2efedc07c4ab3791f3ec57|2017-03-16|Leo|import error with IIR in simulation mode fixed
+2d15b0583bf057bd5566fb842f8d39dcaee8fac2|2017-03-16|Leo|merged and resolved conflicts
+7f7ae0e518766c08584dc312914ef3b48c703f17|2017-03-16|Leo|scientific notation for float inputs
+7f13272cf8f817bb56abd70b569196849c870fba|2017-03-16|Leo|stage gui working, small improvements
+66b4c3ebf45a80e5bce4e88e83f3fa93ccb5813d|2017-03-16|SamuelDeleglise|Fixes 2 small bugs (save_curve in na + cancel single_run future when pause/stop)
+e0a680bc6b268d978ed91548949b55307ad8cef9|2017-03-16|SamuelDeleglise|old unittests for scope/na/specan OK...
+db4f063ceb6794477d49378e4a94c79f66f8463c|2017-03-16|SamuelDeleglise|oups, forgot to add the files
+627f33672654002984b8dd313806d9da37bea517|2017-03-16|SamuelDeleglise|test_na ok (including same timing as before the refactor)
+8ec78a693fd55f357e5fbff989e8a3acc0ecfc54|2017-03-15|SamuelDeleglise|removed _callback_attributes from all modules except for Lockbox
+7ebaddd89c19c54be96175c6d1f0ecebdf18458d|2017-03-15|SamuelDeleglise|Replaces _callback_attributes by an option "callback=False" in Attribute constructor...
+b5e1fa33bbe6ab2c2a9530d2369badb4aabbf174|2017-03-15|SamuelDeleglise|Specan using future operational
+87f603496624d9aa007060680a17b28d9a79e6aa|2017-03-15|Leo|FilterRegister bugfix
+c5b40778f2b34783d5147dfce24cdbb470b3e262|2017-03-15|Leo|FilterRegister is more efficient in terms of read operations
+035d638eba35c8be3f6b792c7a2a46ccbddbafc3|2017-03-15|Leo|bugfix in list memory branch
+0fc78cb5364d64e5ace3b4abec782c2e22a36f9b|2017-03-15|Leo|PdhInterferometer
+4b24197d7650c144f462f99c3d085231d0b8e83a|2017-03-15|Leo|fixed interferometer error signal (mean has nothing to do in that signal)
+50c3ea86027f17a76a5fee1ce32d5e2806c668e9|2017-03-15|Leo|further lockbox cleanup
+6b88d1c67e2d3af36504394d3d88224ab59ccd29|2017-03-14|SamuelDeleglise|na and scope are working nicely with RunFutures... Need to implement Module._setup_on_load...
+45e3ab01c87b025f04be184c143fd5c605118294|2017-03-13|SamuelDeleglise|AcquisitionManager removed on scope
+151e7cfed3076e8d8a60dfa1de740892baa480af|2017-03-13|Leo|ModuleDict can be modified dynamically
+4c540cce5ac63ebd296f6b4f4071788d19f87e25|2017-03-13|Leo|ModuleDict
+f22ba5002588645f89021ea54fba8e426e8d6ba7|2017-03-13|SamuelDeleglise|async_utils is compatible with python 2.7 again (little differences between asyncio.Future and concurrent.Future)
+9d36571a96af101ae2d857dcf10d5fefc79344bd|2017-03-13|SamuelDeleglise|Scope is working (no unit tests with futures)
+f16774ca58edb7de9cce3aae1b63f3942aea1f50|2017-03-12|Leo|lockbox almost ready
+1664ed1b9546eaa1b8a177a94dda4c3d207a19f5|2017-03-10|SamuelDeleglise|scope.run.singe is also coroutine compatible
+104db61b1c05876fb409cc2c8b64924d6b9b837c|2017-03-10|SamuelDeleglise|Async acquisition logic implemented for network analyzer.
+728d34e65f7178b4b50b006cea4edd677aaefdc1|2017-03-10|SamuelDeleglise|benchmark async improved
+8047d5aa7948d53d9415e0af0f3a5bb721f9bd4f|2017-03-10|SamuelDeleglise|asyncio in benchmark
+0eb94128325ef6adb1153ccb6b66ecf03b3ca72a|2017-03-09|SamuelDeleglise|rerun benchmark
+3f971820b6f312c6f2233ba2b99aeeed90bf6497|2017-03-09|SamuelDeleglise|changes in timer benchmark
+bcec3c501dae1fee53d118618bf6439b20604687|2017-03-09|SamuelDeleglise|adds Benchmark async sleep figures
+b7581947fccdb1ecf4fd74eb81e8d95cb445a891|2017-03-08|SamuelDeleglise|Small changes to make Lockbox python 3 compatible
+4fa60920a3601fb928ea8f856ae06fd25e6d4198|2017-03-08|SamuelDeleglise|Small changes to make Lockbox python 3-compatible
+357acc28a4bc4044c9c374f55f63daf162456858|2017-03-08|SamuelDeleglise|NA,SA, Scope unitests are OK with the new "run" API
+75467174caf5f3b1f05f1cb994641abfcbc7f344|2017-03-08|Leo|merged and resolved conflicts
+db3aaa4b13e24bffdff2b8ff59aff29313d28f8b|2017-03-08|Leo|sequence doesnt work any more. Why?
+d3ad70a831d50def333f6a07640dedcc5b909d27|2017-03-08|Leo|stages are visible in gui
+187777f8aac875e4f62ff02d63b469663f53b2eb|2017-03-08|SamuelDeleglise|Merge branch 'refactor_register_submoduleattribute' of https://github.com/lneuhaus/pyrpl into refactor_register_submoduleattribute
+4a72c7d608a973181ba698952c4b2c1481e2600f|2017-03-08|SamuelDeleglise|NA seems to work, no unittest yet
+15ef7ea7c0d9a04d6870123e18eae2cda6b1f800|2017-03-08|Leo|stages are properly saved
+338838e8e90cfc49d5d0afecf7f27bb38ccf2f6b|2017-03-08|Leo|module_property instantiates itself upon first call of getter
+be84b7d8bb12f52c212f615a91ce29f8a5693149|2017-03-08|Leo|defaultbranches removed from memory.py, was never used and hard to maintain
+7fe2ef6c5ace4c6b8dbda03e52d6e8fc76ec27e9|2017-03-08|SamuelDeleglise|na starts to work with new API
+8894477a62f4bd2fa2878551919c8dff0a29a4f8|2017-03-08|Leo|slight change of stategy: module calls load_setup_attributes if parent is not a module, i.e. only for top-level modules
+68d18bf52c9177e460494dea4845567cedba5045|2017-03-08|Leo|state functional, load_setup_attributes call delegated to pyrpl"
+6a3d7f07af414838e69ea9f8532e37504f8372b6|2017-03-08|Leo|fixes in memory and lockbox gui polished
+ab5b431cc4be71e434dc56bc7816ab3999bfe808|2017-03-08|Leo|MemoryTree has full support for lists as well as dicts
+837c4e799a62e497f958abbef0be1bc702d36b64|2017-03-07|Leo|MemoryTree bugfixes
+b046dbfbf294f0973c4c0309d6ff034132fd1e2d|2017-03-07|Leo|refactor fixes
+7042be5ad8eadcd70f8520fe99e222a368e38233|2017-03-07|Leo|refactored SoftwareModule->Module and BaseModule->Module
+85ec239138e98d783e4c9e9f48998ca33d5ea5f8|2017-03-07|Leo|migration of module_attributes finished
+1f5d4248e59133f6a0ac12499e25199e39bfeba5|2017-03-07|Leo|refactored module_attributs to another file
+5d2cd23862e4abeca5d10b3dd50bd20af8b5801f|2017-03-07|Leo|ModuleContainerProperty warning for nonexisting submodules silenced
+32de661210e74d8f22e419c6104564a663beb025|2017-03-07|Leo|attributes can ignore errors now
+eae9c60d36aef528238ea79a8310f6afa899da52|2017-03-07|Leo|further improvements
+3ebc999152d37df73dc1529911e36c907b43e1f8|2017-03-07|Leo|yml editor made clearer
+a31c3ebd41c5a42e4f24ca24edbe47942bb43511|2017-03-07|Leo|yml editor made clearer
+2adfc1b01ca7a610a110759216bdfaf3adbbb38a|2017-03-07|Leo|LockboxModuleContainerProperty convenience class
+2a5c10448ac8c740bab6aa77c41012511e59dcd9|2017-03-07|Leo|create_widget -> _create_widget
+41cc6eb0fa0dba5f8a93669a8e388a10e52c1e3a|2017-03-07|Leo|before refactoring create_widget
+4703ba27259164f223ee36136a97232acdb50f25|2017-03-07|Leo|completely got rid of _section_name
+4835398bca9d59a112973ad9853aecae799f79c2|2017-03-07|Leo|yml editor improvements (loads all setup_attributes)
+ba0dccbb4d0ade8522539c2fcc68fd79def5a32a|2017-03-06|Leo|cleaned derived lockbox classes
+1a4e2c0c1d53dc6c952cc53c592cf34ad287ec5e|2017-03-06|Leo|lockbox gui cleaned, all ok except for sequences
+88ed9aa1f88b0b327469ca287eddd4f5738607cc|2017-03-06|Leo|Merge branch 'refactor_register_submoduleattribute' of https://github.com/lneuhaus/pyrpl into refactor_register_submoduleattribute
+28d13e4711f83047dd85b418c5d8d9a9dfdadd79|2017-03-06|Leo|options of selectattribute may be callable
+10e59a22956b69850b6d123807fe2ec2aa199108|2017-03-06|SamuelDeleglise|unittests are passing for both scope and spec an new API
+14affec4d5d224b0a3bf2c76a3d85f61eea54003|2017-03-06|Leo|added ModuleListProperty and ModuleContainerProperty
+39121f3b8540fcd1d4749adc6890748f61a15da5|2017-03-06|Leo|bugfix in _module_attributes list generation
+d4f66f27c08de3719dd7e69f41502730519aabc2|2017-03-06|Leo|_clear clears any modules resources
+88a7f57a8ce4e9b6ec5964443f1444452cad3f39|2017-03-06|Leo|Merge branch 'refactor_register_submoduleattribute' of https://github.com/lneuhaus/pyrpl into refactor_register_submoduleattribute
+e958da8baa87a6b559c46a1df8528ed9a85cef24|2017-03-06|Leo|cleaned up metaclass and setup_attribute
+af1796fb5134e4433a6664c74a081f420c79586e|2017-03-06|SamuelDeleglise|scope unit tests pass with the new API
+2a10aea05373f21904bf69802f072bd6fc38e8af|2017-03-05|Leo|g/set_setup_attributes deprecated to setup_attributes, cleanup and simplification
+ae749848e1c64c505227fd88463b9710f07010ec|2017-03-05|Leo|bugfixes, shorter code in modules, nicer config file structure
+9392fe383229e83a657c9c263f9dff61c04573d1|2017-03-05|Leo|Merge branch 'refactor_register_submoduleattribute' of https://github.com/lneuhaus/pyrpl into refactor_register_submoduleattribute
+6c23b79faa5b79bacd0b73099870c92ec17c93f7|2017-03-05|Leo|merged refactor_registers
+c64d6ad645d66c93195116a7e4111f00fc971dd9|2017-03-05|SamuelDeleglise|Merge remote-tracking branch 'origin/refactor_register_submoduleattribute' into refactor_register_submoduleattribute
+fecc0f3e65d8f290c22e9144faa91001f36dbfe7|2017-03-05|SamuelDeleglise|More bugs found + renamed SubModuleAttribute --> ModuleAttribute
+21967068678d83aa6f640f23ff9a6489a459cf51|2017-03-05|Leo|bugfix with import
+f9f6dfa5c3e5470bd89861600d6c524f7edf30f4|2017-03-05|SamuelDeleglise|Fixes link towards images in iq schematics
+71626e80e8a09dfe6b1fdb53788cefae325e0bee|2017-03-04|Leo|MemoryTree API complete and okay
+61a9b50a3e0edb19a6aa854c5ad4fa38d2d407f0|2017-03-04|Leo|bugfixes and more consistent memory.py API
+309d67b02ce5dcbe5d8b5b52e9b87e0b6813b07b|2017-03-04|SamuelDeleglise|AcquisitionManager + SubModuleAttribute created. Scope refactored with these
+72f33dda0d1352d3d4159ab8bef3e9b4e37d2301|2017-03-04|Leo|nosetests output improved
+43ae9fbbc677ef67245b848f5f15e60623e56c92|2017-03-03|Leo|last conflicts from pullrequest resolved
+b025b0171d20d2b49d0f043a88c09d2fbf2da34c|2017-03-03|Leo|Merge branch 'refactor_registers_refactor_lockbox' of https://github.com/lneuhaus/pyrpl into refactor_registers_refactor_lockbox
+cd7d09f09205b34811f7a6640701e43bbb6583c1|2017-03-03|lneuhaus|Refactor registers refactor lockbox (#179)
+339d3513259ed7e53f81f89f12ffab4232650ed8|2017-03-03|Leo|model is fully obsolete now
+37fdbb832795378fdc4e13b677c08e8b314292d4|2017-03-03|Leo|memory tree cleanup completed, bug fixed
+9ea33cd8784a22422705c8e4c12213172fe07b23|2017-03-03|metzdorffremi|beautify setup.py
+5ca0d99b9cf673c2c681bc9a78411d2db3891c52|2017-03-03|Leo|attempted to resolve conflicts
+3a51f0c332fa744b8172b272dafcaf00c02f86fb|2017-03-03|Leo|cleaner lockbox destruction
+39833ca1755aea949f62d2bcb7b9354b45823033|2017-03-03|Leo|Merge branch 'refactor_registers' of https://github.com/lneuhaus/pyrpl into refactor_registers_refactor_lockbox
+107a8e5b274b67ab4691d8d0e3cf4506abe4df6c|2017-03-03|Leo|lockbox
+ded6c79e54d906ef411716c7c0b15c3a5f85c498|2017-03-03|Leo|bugfix lockbox deletion, advanced lockbox class changeability
+591cceff3db0b30872cf965f9af8f695ae57acab|2017-03-02|SamuelDeleglise|solves bug with edit yml menu (current state was not appearing when other states were existing)
+6a629814ca558531b75dcf7ffdb1f3c99a4a7168|2017-03-01|Leo|bugfixes
+750c9c80587ca88353b817252641191d0f3439a9|2017-02-28|SamuelDeleglise|Fixes #178 untill all iqs become identical again
+2ac92d2c53c5c1daa3e526ca9d905421462d424c|2017-02-28|SamuelDeleglise|No more continuous writing to config file (unittested for scope, na, sa)
+f2117a958e6704d46d25d3849f501ec7c5b26520|2017-02-28|Leo|default behavior bugfixes
+9056e003c02bd1e3930cd16d1dbd283fdc22ea1e|2017-02-28|Leo|conflicts finally resolved
+5c8ae5d85cf0416bbab7598018b8c2d1857029f0|2017-02-28|Leo|merged changes from refactor_registers and resolved conflicts
+8c484e805e7cf858e3b6b8f6a2f5b50e3c976a78|2017-02-27|SamuelDeleglise|YmlEditor up-and-running
+29d308e2892eeea9f8fc8e92a09730bf094defa5|2017-02-26|SamuelDeleglise|Fixes #114
+67477265331847a92bcf8a5b056228836b32d9bb|2017-02-26|SamuelDeleglise|adds hide/show button for signals of lockbox
+c99f3d1355411d3b9f792986adaaf42626bc69c8|2017-02-26|SamuelDeleglise|Bug constant saving in config file solved (iq._autosave_active was True even in slave mode)
+f1d113ec3eaeeda7a3dcecbc7d14127413d1e921|2017-02-25|SamuelDeleglise|ownership_changed-->_ownership_changed + small bugs solved in na
+2a67676d98ac4d5683faae5d1e389281c1b2b1a6|2017-02-25|SamuelDeleglise|adds unittest for #156
+dfb7a69851daa27078474f9dd3dbd73360564d2d|2017-02-24|SamuelDeleglise|Averaging on spec_an single debugged
+244b3eb6745a05e546468d4ed189b55c30da3eb2|2017-02-24|SamuelDeleglise|doc is back + tutorial compatible with lattest jupyter notebook
+fd73b0a590567ee6d137fd4cc5f7ce52ceaa4467|2017-02-24|Leo|progess on lockbox refactoring
+9e7d281fe1cc61010ade4262d4c64162d77d7334|2017-02-24|Leo|extended dummy to pid
+f2b04a23b56b4ccfb9959e89b3f0646244fdb7d6|2017-02-24|Leo|merged with recent refactor_register branch
+9a7e8fef1cb6d10dbf4b72bfdc0489d22e6f2b87|2017-02-24|SamuelDeleglise|Fixes #165
+c28c05db6a6dd396dd0c77ca0bbedda80dbcac88|2017-02-24|SamuelDeleglise|Fixes #168
+51d41dff33b26e39cb747b1caffe151b72c98623|2017-02-24|SamuelDeleglise|Fixes #176
+2f781fec692a46759f1e3614696e433eb3dd5806|2017-02-24|SamuelDeleglise|Started to document more the signal section of lockbox (see #170 )
+29c2b7ae97b9e937b5ba144df6a382288170a406|2017-02-24|SamuelDeleglise|Merge branch 'refactor_registers' of https://github.com/lneuhaus/pyrpl into refactor_registers
+dcb40e0aae718d45943d86e5bc90361b9344b5fa|2017-02-24|SamuelDeleglise|Fixes #172 + API of BaseModule now properly described in helpstring
+b3babcc32db25d1c0988db59186189f09b204603|2017-02-24|Leo Experiment PC|ozhvzeobh
+c319bb6f6e590eca573702963dbaf66db4ea92cd|2017-02-23|Leo Experiment PC|docs
+79f544370e19c60dceec6a76cf20794f3a83b03a|2017-02-23|Leo Experiment PC|memorydebugging
+90f9ca87d81c79c872c858aafa60bc6321296dab|2017-02-23|Leo Experiment PC|is_locked last bugfixes
+582ac8759445ba4cfd099999e594766d5c886b36|2017-02-22|Leo Experiment PC|button is_locked works
+1d3aca8a0fb9aa23e466b3e985780173837c71b9|2017-02-22|Leo Experiment PC|adding instance method names to gui_attributes creates corresponding buttons in gui
+0679b14266dc60e6bbeda5dad8415b5bec31884a|2017-02-22|Leo Experiment PC|lock funtion call passes all stage parameters as **kwargs
+428d7341b3ed79462bcce7e9f80a79f24d119a9c|2017-02-21|metzdorffremi|mean_rms for inputsignals
+7a5847eb16fbac6f6dd67c32116974a761103e4c|2017-02-21|Leo Experiment PC|diagnostics logger prototype
+6198b55a5d1c2a4307244de03a2080353e8797a9|2017-02-21|Leo Experiment PC|gui change
+2f75c1f5da057abb5d3ef430b0510ff34650c7d5|2017-02-21|metzdorffremi|high finesse calibration improved
+c1bbf2665c41575e04288513de5029890507fe81|2017-02-21|Leo Experiment PC|small cleanup
+8751ba97cdb0083090084f6db68979e86acb32a7|2017-02-21|metzdorffremi|bugfixed islocked improvement
+df95477a23c1435413643e9eedc0f88219b8bd34|2017-02-21|Leo Experiment PC|islocked improved
+e40ff18c2a7ee10d6557b80b89fd2ad8a30fda26|2017-02-21|metzdorffremi|input pdh works again
+c4bad8f1ac95befe22e773bd4a61f2ba2c3bf3b5|2017-02-21|Leo Experiment PC|InputPdh repaired
+7e1c84507d2bedc68bf80cbee1af48f109e2552e|2017-02-21|Leo Experiment PC|auto_lock works
+b0bb9749b73a4c6d27cb5cde336fdcb7a4847cb7|2017-02-21|Leo Experiment PC|islocked for pdh
+863158ac923037f1504675c69de37df0e14c3e42|2017-02-21|Leo Experiment PC|islocked implemented
+e55b7a892049e564fdf766df8fc7ca9a931113b8|2017-02-15|Leo|Merge branch 'refactor_registers' of https://github.com/lneuhaus/pyrpl into refactor_registers
+32172e51f879ca828fdeb4d5114abcebba312085|2017-02-15|Leo|Simulation of scope and specan gives reasonable results
+23a0ff6f525e37b5d90e8502742b8c93ef95c553|2017-02-15|Leo|hostname='_DUMMY_' works, especially for scope
+ebcf4c3012c7269120a33a17381f558daf78c31f|2017-02-15|Leo|started refactoring lockbox. Works but gui is incomplete
+99e9b5403464ed031428b83cb4d9527d7215fb52|2017-02-14|SamuelDeleglise|Merge branch 'refactor_registers' of https://github.com/lneuhaus/pyrpl into refactor_registers
+39b5b2e7f076bd412def087f159550e9b61791cf|2017-02-14|SamuelDeleglise|NA asynchronous acquisition cleaned-up somehow
+bc1a48dba6e8b186504fdc1dbb78602f79ac8f9e|2017-02-13|Leo Experiment PC|conflicts resolved
+2a6725e8c9882e64bcc4cbdf64e628e7f8fdd676|2017-02-08|SamuelDeleglise|NA was working fine
+494f8787cef612fffdf302c313f82cc20e9a9e8b|2017-02-08|SamuelDeleglise|It looks like I completely got rid of any reference to the widgets now...
+2a06d2a2c9956b7db1e84755faac79c78a56a445|2017-02-08|SamuelDeleglise|Merge branch 'refactor_registers' of https://github.com/lneuhaus/pyrpl into refactor_registers
+b49eafb98893792757f91e1a5376247655b6bc24|2017-02-08|Leo Experiment PC|AM working with this version
+35faacb63b22a0021542f70baad6a66590f4f050|2017-02-08|Leo Experiment PC|nosetests close to passing again
+51bd5aec398a30c30c79a3730fdca1b9ac5070d9|2017-02-07|Leo Experiment PC|nosetests passing temporarily
+da72bb7aa513cd1cfcb04cc914a6c83e322a25b0|2017-02-07|Leo Experiment PC|gitignore unit test result
+4ef57ecbca0f846e2bde69db070f7a009c54d3f0|2017-02-07|Leo Experiment PC|stricter NA tests
+e2096ed3ebcd431ed4d5d4784c8583b6f7a45b96|2017-02-07|Leo Experiment PC|nosetests config file for verbosity setting
+e822045431c808ccc37f35b05f972e41e0046597|2017-02-07|SamuelDeleglise|small bugfix
+0d5eb547170a84d549cf57885f455e2967597fad|2017-02-07|Leo Experiment PC|nostests almost running
+b2288ddabb69f01bde8ac3c9d8a2b61abd84717f|2017-02-07|Leo Experiment PC|Merge branch 'refactor_registers' of https://github.com/lneuhaus/pyrpl into refactor_registers
+24f2f759cf7a6a98863fc6deb449e80b7ce76494|2017-02-07|Leo Experiment PC|big cleanup of Module API, few bugfixes
+bd86110bb3769a1d6a6fa81e19f952904f91d429|2017-02-07|metzdorffremi|scope save curve bug fixed
+51b497837d4efbbfc2dc110984d249065428f128|2017-02-07|Leo Experiment PC|module metaclass compactified
+f1d2550689427c61fb1ecc97f3f9437cdf3d9d83|2017-02-07|Leo|p=Pyrpl('inexistingconfigfile') works
+f0fe8e49dea9f77655a47bb5638d4ebc67392b31|2017-02-07|Leo Experiment PC|ïmproved automatic scope settings for sweep in lockbox
+9621741d597edeb0180862461c687b71bc0da96b|2017-02-07|Leo Experiment PC|Merge branch 'refactor_registers' of https://github.com/lneuhaus/pyrpl into refactor_registers
+268d524b8a561d30e47e3653cbd6c2a7b620d635|2017-02-07|Leo|corrected assisted design signal
+2cb7ac792876a182a262e58ab7a50b2411b1a454|2017-02-07|Leo|Merge branch 'refactor_registers' of https://github.com/lneuhaus/pyrpl into refactor_registers
+02e798b90ae5ceb00b32ea628c10720f389fc853|2017-02-07|Leo|cleaned assisted vs manual and bugfixed
+e0c61e5eff4f0e44f52dc19995a2cdb726e4f1aa|2017-02-06|Leo Experiment PC|startup witout pyrpl in config allowed
+bf9293d764f30591cb583cda76d408da0d1145bc|2017-02-06|Leo Experiment PC|bugfix
+7082181777cdfd2a0a402e2114f88d9e1df399b2|2017-02-06|Leo|omap shoud have disappeared
+32fd555744d37cc633c876fe321e807e8244fdeb|2017-02-06|Leo|Merge branch 'refactor_registers' of https://github.com/lneuhaus/pyrpl into refactor_registers
+1c8890391cd8b0acef64e10a8456a5b7430b4869|2017-02-06|Leo|attempting to get rid of !!omap
+7ee199df4901b3f626db848aaba4cbc836294a85|2017-02-06|Leo|removed some cryptic code
+6e1ddd8ea0c32dad5fcbbf282f6a9d6e5701ffc3|2017-02-06|SamuelDeleglise|Merge branch 'refactor_registers' of https://github.com/lneuhaus/pyrpl into refactor_registers
+cdbd30228bbd6beb63d8c2cea1ee4a6a47de746b|2017-02-06|SamuelDeleglise|In principle, I took everything from remote in pyrpl.py expect logger is now named 'pyrpl' instead of 'pyrpl.pyrpl'
+5d30b60bb5589996d2bedc2a7341bfb5e15b5469|2017-02-06|Leo|test bugfix
+d41953cc7d7ae4aee9b38de63dd37dd8196f2339|2017-02-06|SamuelDeleglise|logger infos also displayed in gui (Fixes #105 )
+35845f073a5c0f53a20529f36835fd6410eb6c86|2017-02-06|Leo|Merge branch 'refactor_registers' of https://github.com/lneuhaus/pyrpl into refactor_registers
+7e6facfce036b1a46ec22ca4ca6c49031df777c5|2017-02-06|Leo|custom models automatically loaded
+e435d46957a6dc6a71bb7cb142bfb1ef50d8e436|2017-02-06|Leo|custom models automatically loaded
+789fe808ece39c8cb77475b138ac14df9230e508|2017-02-05|Leo|CurveDB mock consistent with user config dir
+56c4043bd1293e16f261659fa82db481a6f9d663|2017-02-05|Leo|always make a copy of config files in user_config_dir
+8c4f65431c238296006bdecb839b35a22ca7a2e6|2017-02-05|Leo|HOME/pyrpl_user_dir/ contains all user curves, configs and data. Environment variable PYRPL_USER_DIR can redefine this directory
+f439be7e4007eeca6b2926e9623a4b9ef196af99|2017-02-05|SamuelDeleglise|removes get_state/set_state (obsolete)-->now, you should use get_setup_attribute/set_setup_attribute
+5629bbe6b38b543c67c3fffbd54b34b2a86b6c1a|2017-02-05|SamuelDeleglise|status_bar timer in pyrpl_widget
+084a73b9627b3226b3fae7f235d3ccad1d9575a7|2017-02-05|SamuelDeleglise|ContextMenu to free HardwareModules
+1b48b5f3412fff5658f680f770db79343c4596e0|2017-02-05|SamuelDeleglise|unittests pass with 2 widgets
+a8436d3190794418c21ff339946fdca4d38272ac|2017-02-05|SamuelDeleglise|delete current stage bug solved
+3b1b6db56564cb53390e9eb83c6709b5db300180|2017-02-05|SamuelDeleglise|iir_widget is back
+540d78275fc3434dc881acd8268472f7f051e170|2017-02-05|SamuelDeleglise|spec an debugged
+e667d4570b09d9b0500dd1d6c886430a7f691673|2017-02-04|Leo Experiment PC|conda environment fite pyrpl3 created
+8e5a8212b40bd79f9aa020fdf9ae0077e7894dc5|2017-02-04|SamuelDeleglise|contextmanager for ownership
+63d279b59a065ad719e61e718b09a6fc36bdec3d|2017-02-04|Leo Experiment PC|NA bugfix (display in dB)
+af47cd2e820088d6211ed721cf4951a9c14d751d|2017-01-31|Leo Experiment PC|comments formatting
+91e4846cde1c0997967229e0fda51dbd10aa52eb|2017-01-30|Leo Experiment PC|default-swep-output properly saved
+b44f0f2fbf3d1843a5be0a69fe2b3bd79a096083|2017-01-30|Leo Experiment PC|cleanup of pid.transferfunction
+a28195f1d7f832c8d9d511459133c33155ca2e1e|2017-01-30|Leo Experiment PC|config files dont cross-talk in unittesets any more
+14616aaf4f28dc43e9afe6cb36059071d75cf020|2017-01-30|Leo Experiment PC|nothing
+f510a8fedd5e9def5e39204840c0bea34d727555|2017-01-30|Leo Experiment PC|start_ssh can be called in redpitaya if there is an associated error..
+76b487fe7786dcf163746e8fddc8d10fc9c3496b|2017-01-30|Leo Experiment PC|UGLY BUGFIX
+c0b17ce5fe92e3ecef2cf76c3e865b8b9e6e064a|2017-01-28|Leo Experiment PC|hopefully killed all timers now
+28ea32b8a760afe530b0bd6ccf37159827c8152f|2017-01-28|Leo Experiment PC|recurrent failures of tests
+45d009e9c24456e32cde8d37389fd1ce8863032d|2017-01-28|Leo Experiment PC|problem in scope test to retrieve saved state fixed?
+8eed0316b620371268f4e193b96d2b4d6e1d4678|2017-01-28|Leo Experiment PC|closing all redpitaya connections with end_all. save timer was conflicting with subsequent nosetest. all fixed now. sampler also bugfixed
+fbbe15ad3061efce85f41523f962efb3a5978fcd|2017-01-28|Leo Experiment PC|all nosetests passing on python 2.7
+53837dde4ad26de7f06c75257f5889631976b102|2017-01-28|Leo Experiment PC|erase_temp_file fixed -> all nosetests pass
+8ff9435cb304f0f232b0fb6991c1bcb9f913e158|2017-01-28|Leo Experiment PC|delay increased and threshold lowered in tests
+fc93d6fdd88af4c3061e4005b024d2e53f1cc885|2017-01-28|Leo Experiment PC|merged
+4cff3380cb9f13ff3d5bd0ecc85eedbaa856ad4d|2017-01-28|SamuelDeleglise|Got reaad of the silly Lockbox unittest, still a few others need to be fixed
+b8d73cacc8a7bb739d8bbbc9972fdcb8a46b3c24|2017-01-28|Leo Experiment PC|tests on python 2.7 work except for 1
+69c4f1e3004b4cb6202a23a9595743c6f209fecc|2017-01-27|SamuelDeleglise|transfer_function reconnected
+0702d94e6c3eab8d3929c138d7bc7b319fdffc37|2017-01-27|Leo Experiment PC|fpm is now in user folder
+1cb2abf805c28efcfb6e75b4f81f5500b99f5394|2017-01-27|SamuelDeleglise|All tests passed without a single warning!!!!!
+ea6aaa5b480899765d11cc2a75a9bd0ffc9c57fd|2017-01-27|SamuelDeleglise|iir badcoefficient warning removed
+4f9c7a258cc8a0b23c5b9b2c56576b6da36deea5|2017-01-27|metzdorffremi|new FabryPerotTemperatureControl with input from output signal
+46b1c949f82a34d9fe0eed29fb4449f561b6a97d|2017-01-27|SamuelDeleglise|5 more unittests to go
+c3d1b98091117d1f6ce1635760b3175d11c63495|2017-01-27|metzdorffremi|undo pdh offset correction
+5cf294ff98c45f1038766b5b5e640bc41ea7c524|2017-01-27|Leo Experiment PC|pdh expected signal fix
+68cc4953dd2f6ffb2d54549ccdda58fbf76b7bea|2017-01-27|metzdorffremi|TEMPORARY BUGFIX FOR INPUTS setup call
+b6cb3a306dbb77478024e2df1de436ea2267f456|2017-01-27|Leo Experiment PC|asg inversion fixed
+6a6c8e8f41d705eb35e7de81b006b632ce887e43|2017-01-27|SamuelDeleglise|test console less poluted by errors in slots
+0c4f59f510ed0614a3ec6ae769df3844bf022c21|2017-01-27|metzdorffremi|Mini asg1/2 to asg 0/1 change
+d34eb6d28c0bbc564f57510ec0f5cc8131040088|2017-01-27|Leo Experiment PC|asg bug fixed?
+cf4235d7d8326a91204776b5c58f13eac90964d1|2017-01-27|Leo Experiment PC|attempts to fix remaining unittest with pid timer stop at teardown of tests
+02d19293ff2705702822bb3ea7fc4e3b8678e63c|2017-01-27|Leo|Merge branch 'refactor_registers' of https://github.com/lneuhaus/pyrpl into refactor_registers
+4ab55342da90e213f22832d60d2760bdc1934c7f|2017-01-27|Leo|fix in scope initialization fixes specan unittest
+544377c91d41a6d806ea6803342411b733b2096f|2017-01-27|SamuelDeleglise|only 7 errors 1 failures left
+9537991ab6632c0fefd4e72823dcdfd2c3716f94|2017-01-27|SamuelDeleglise|end function for pyrpl
+842ee39f44b0fea2f9fe94d483d1f6e9b419632d|2017-01-27|SamuelDeleglise|kill_times implemented, not so much tested yet
+d4b16d6c6c7e6003b98b12ee757ee63f09ea3283|2017-01-27|SamuelDeleglise|Puts pid ival timer to signal launcher side....
+0514e5a72bc4f33cfbea58a142e2a876b2a8b497|2017-01-27|Leo Experiment PC|conflict resolved
+7271059d14009ef52ca9334b1d796f05534b595c|2017-01-27|Leo|modules
+2ad6bf7c9903980c03360bf76595bac852a0a2c1|2017-01-27|SamuelDeleglise|Got read of the last reference to the widget in Lockbox...
+e632accb7b7c71ad4cb0fd1e70710b4fa968838d|2017-01-27|SamuelDeleglise|Merge remote-tracking branch 'origin/refactor_registers' into refactor_registers
+35ef551f7d1d674044fafdb5ba8e4ea5b88ada3b|2017-01-27|SamuelDeleglise|First real lock test of lockbox OK (+ found bug with default name output parameters being lost at restart)
+505c26e5f4c4b2d10391812b534b505040eaa5e0|2017-01-27|Leo Experiment PC|Merge branch 'refactor_registers' of https://github.com/lneuhaus/pyrpl into refactor_registers
+7937c8166ed8328b755d3d1a800d403885f6a56b|2017-01-27|Leo Experiment PC|added pwm to lockbox outputs, changed naming convention, added comments, cleaned up
+4c8ce351df5997b7400775a377d975a5b7d053ab|2017-01-26|SamuelDeleglise|default is working for Properties
+c2ef5c5e5e331c80b872cc1e2a5406628ab32c36|2017-01-26|SamuelDeleglise|Saves stages immediately when they are created (solves bug on the order of the stages that get messed up)
+2999f2f0dfcb5685e7f361201d5a09e666f62221|2017-01-26|SamuelDeleglise|output and stage create/delete/rename is now heavily tested and bug free
+c59215b2843bdd201bc5139a42e5d50be01e1f43|2017-01-26|Leo|inputs (cosmetics)
+175e40f5147e39d4c76a25741c6d04b219fc85fa|2017-01-26|Leo|Merge branch 'refactor_registers' of https://github.com/lneuhaus/pyrpl into refactor_registers
+243e920455fc307e5ebe6773575aaaa09e9dc754|2017-01-26|Leo Experiment PC|models nicely sorted
+9e1c432ac3c455dbc12545c91eabbb89bf4b76aa|2017-01-26|Leo Experiment PC|models in proper subfolder
+6c96b3233fcb903b0f7732418ac39f3c77daa8f5|2017-01-26|SamuelDeleglise|Lockbox better isolated behind signal launcher
+6447c0618f7b40a44c699a4d5ccab6c20c4e7a30|2017-01-26|Leo Experiment PC|memory.py bug with empty configfile removed
+8874dc699e464994d0f9b976167760042db614bb|2017-01-26|Leo|PDH bug maybe resolved (issue #118)
+80166904b1f4416dd7b6f6513fba4705f8b8a795|2017-01-26|lneuhaus|Refactor registers leo (#119)
+3fb2894523137b7b6047a7b2dd8f7784a4fcc801|2017-01-26|Leo|strange commit request resolved
+bd1163d01634a925473221156afd5696d805bdcf|2017-01-26|Leo|strange commit request
+159a48a7d00b24d25bb7db25946044d0eeb09fdc|2017-01-25|metzdorffremi|improve temperature lock behaviour
+b9924e3b5b4e0ce923db0c34d04f8fb03c3203bb|2017-01-25|lneuhaus|Refactor registers leo (#113)
+e30911fba7c360a46756836994744657dc6ed328|2017-01-24|metzdorffremi|add temperature control in lockbox
+b0829da52f4ebd304534a20594e1dd8b2c2fd4d7|2017-01-20|metzdorffremi|timeout issue in calibrate fixed
+c8e4d21529becb889da347e9c2c4428edd73b497|2017-01-20|metzdorffremi|add factor in sequences
+0922085365a5bceb84d05a3611f7bbdaa8058956|2017-01-20|Leo Experiment PC|Merge branch 'refactor_registers' of https://github.com/lneuhaus/pyrpl into refactor_registers
+b95707e98f6204a8c3c10344385f92a545fe5d84|2017-01-20|SamuelDeleglise|Bug with loading of lockbox state on startup solved+removed the try/except in pyrpl.load_softwtware_modules
+e317c7d86cdd6511dc31a1ff7866f8274e3c2df0|2017-01-20|SamuelDeleglise|Hot quickfix of lockbox
+ed6d31085b7507935bb11c5d36f258392ec0360f|2017-01-20|Leo|memory
+c3e6e9f004486a08d336b67ddfda27e302d4358f|2017-01-20|Leo Experiment PC|Merge branch 'refactor_registers' of https://github.com/lneuhaus/pyrpl into refactor_registers
+2d6c1cf2e0ba234a9b21117a9d9ef3a98fb66448|2017-01-20|Leo|removed .tmp directory
+b170bdeed74a0f61a209587c39b7ad0c9c48048c|2017-01-20|Leo Experiment PC|scope test persistently fails
+7494458104f02742175592089b0f82394f0cd053|2017-01-20|Leo Experiment PC|attempt to find scope test bug -> no luck so far
+8a687ddc8a1ad32fce236561c6c740a020ea0e2f|2017-01-19|Leo Experiment PC|Merge branch 'refactor_test_unification' of https://github.com/lneuhaus/pyrpl into refactor_registers
+9a74fe3c253c9f04bf0ce0be7e8bb79363891dc8|2017-01-19|Leo Experiment PC|Merge branch 'refactor_registers' of https://github.com/lneuhaus/pyrpl into refactor_registers
+478d4705971f94d9ba3daff3f3d459509b67b44a|2017-01-19|Leo Experiment PC|test classes that inherit from TestPyrpl have class variable source_config_file
+189dcaaeb2785b3166fe2dcbde202811c6458ed9|2017-01-19|Leo Experiment PC|test exception specan
+44cef6650bcc462071e3e3c79e0f75cc8b14729d|2017-01-19|Leo Experiment PC|all tests have common base class
+f7d66fa3834f9692b91a62af634b07ebb0ac4427|2017-01-19|Leo Experiment PC|test inheritane working
+c581de95db0bd9fa603c677b8b71ee0f801619e0|2017-01-19|Leo Experiment PC|temp changes
+a64df1ad286ade777ff8cf18eb0a47cbbec01bab|2017-01-19|Leo Experiment PC|added inheritance
+49ee0b7fc2e140ff146d17c94fc92bcfcf0e2c78|2017-01-19|SamuelDeleglise|Adds pdhQuadratureFactor
+b0556ffe98e7a6b64fbe9bcf067eb519a18aff78|2017-01-19|Leo Experiment PC|classmethod
+1b22f6988cd7d9fbf816997ba9aed569679da8e7|2017-01-19|Leo Experiment PC|started
+792bfd10eeea2c1b4593fc69a22210a1fcc077d8|2017-01-19|Leo Experiment PC|whitespace and comments
+953604ccd07ee3521018234185d64b79c2f19984|2017-01-19|Leo Experiment PC|trying to tackle the issue with the scope test
+051182b2cce02df637f3544cc483b03c9fd62ba5|2017-01-19|Leo Experiment PC|specan unit test corrected, start of a meaningful test
+1d272d34707bcded72dee486602e4541f50f0217|2017-01-19|Leo Experiment PC|removed first few refactoring bugs from specan
+bf784269758d30c123e1d7f8946ba53203604b5a|2017-01-19|Leo Experiment PC|require,ents updated
+5c25773ae3a69fd51934b817896bf2f98042bbd7|2017-01-19|SamuelDeleglise|Changed name of na.state --> na.running_state to avoid confusion
+fedc4ddb88af56d2214f12e2d326395a84f7c3fe|2017-01-19|SamuelDeleglise|Splitting of module_widgets.py done
+47c58e8d9135d4565f34bf7394d02dae0742d393|2017-01-19|SamuelDeleglise|bug with logscale in na display solved
+16740dc6b5c4345304893cb2b1ba5465dc5a0279|2017-01-19|Leo Experiment PC|Circular import bug fixed
+6cc9c1ad9133e0b63c18e875c750a767c49ffedc|2017-01-19|SamuelDeleglise|Clean commit, scope and na fully refactored, unit_tests OK
+56a1687f7ae79b53fa01710614b8f204ee8a90d9|2017-01-18|metzdorffremi|bug in merge fixed
+aeab5454366b6e92c865b6efcf2976b40c4e183a|2017-01-18|metzdorffremi|erged
+4bc7ba5db4d6f4fae823dc9d3d58d6bba859d51f|2017-01-18|metzdorffremi|cfg
+3efb3c381ef605bbd0e27d8220299eb15b45d39e|2017-01-18|metzdorffremi|samuel, keep this?
+af20be3f0d79bb1b4373ab3ca40fdffad774a473|2017-01-18|SamuelDeleglise|Network Analyzer almost refactored:
+f5885a32884ba9f5556e5ee51c2afc0d714efb2d|2017-01-17|SamuelDeleglise|Broken state; but on the way towards na widget behind slots
+c5319e1e17486b81aebf01ab703e42bd1c29fcbd|2017-01-17|SamuelDeleglise|Merge remote-tracking branch 'origin/refactor_registers' into refactor_registers
+f99ff0a5b7160869088405d5e4707214e5b14f30|2017-01-16|SamuelDeleglise|Merge remote-tracking branch 'origin/refactor_registers' into refactor_registers
+9a00693205bfb228254940b0bec9163a42d6838e|2017-01-16|SamuelDeleglise|Serious unit test for scope acquisition states... (changing duration/rolling_mode/running_continuous/load-save state )
+64fc92fcf88503095c28b0c27215644fdb282173|2017-01-16|Leo Experiment PC|test_source modded
+a1b328bc9bad0ca15f2fb3262b96faf4ff14f05d|2017-01-16|Leo Experiment PC|Merge branch 'refactor_registers' of https://github.com/lneuhaus/pyrpl into refactor_registers
+aafcc31c196b54187652164d554520c4c3b1634f|2017-01-16|Leo Experiment PC|tests_source simplified
+87dbdf415bb3068a2521d816f35f232dfe0ca421|2017-01-16|Leo|model bugfix
+657e9996104960545cf2b01952d6fa77346f9ff4|2017-01-16|Leo|command line arguments to pyrpl possible
+73748051ee3aca53e01ec35b5ef2511be65ea054|2017-01-16|Leo|scope input bug and na bug fixed
+b7b00375e173f38c0096c88038a91c4de3f4036a|2017-01-16|Leo|autocreation of user_config dir
+88f0578641a89e8141b5cf3fd5b36b9fc1bfced8|2017-01-16|Leo|bugfix in PyRPL._getpath
+c606892d7ad673d773e31493621c0265313c41fd|2017-01-16|Leo|gitignore improved
+fa5692e2f90680064db0be86d6f4b4facb2b966b|2017-01-16|Leo|gitignore for user_config
+a5bb4e24b59879fe1152116e3052c83eba8d5977|2017-01-16|Leo|user config dir implemented
+c38fc732fe4917d67e71703cbbefbef3e76f59bb|2017-01-16|Leo|bugfix for specan timeout bug
+063cdcc931f0ef8a26f3ebf8542cd2714184ea98|2017-01-16|Leo|bugfix for pwm register increment
+99af75ea9d0362867cdff07f1b9000e20269b281|2017-01-16|Leo|renaming of scope registers in test_registers
+183e1bc8bd593c280783ec4d18fed9a9e232905d|2017-01-16|Leo|moved user config files to user_config folder
+4d9f884810398418e34ac4c59953ac1c948bdf46|2017-01-16|Leo|disabled pyqtgraph benchmark
+de4dffdbce92b9c07f400b3b720ed038762a727d|2017-01-16|Leo|user config dir introduced
+09e2d23ec723ffb78c23e817dce28bdd61592de0|2017-01-16|Leo|confict with master branch resolved
+c5308500f166ffbd7aa9381c69593c266489b4f4|2017-01-16|Leo|changed na_iir test parameters to samuel''s values (until na speed is restored)
+9828aeabd98a54b4838e876bee6d29c7681d8c3b|2017-01-16|Leo|debugging na speed issues
+f9273040080f675f3b62a021c04c32bc0478b2fa|2017-01-16|Leo|moved hardware module tests to other files
+9fbed99f215a4abe16c9c4d1bbfe22f450301e32|2017-01-16|Leo|bugfix with QString on python 2.7
+4b4491573e0dc64054f4ffb2b20706a5c28dc3f4|2017-01-16|Leo|benchmark for plotting speed added
+19beae98488db780292d305844cdf4b0a25fe619|2017-01-16|Leo|whitespace
+c50fdf6029ebc00966784134aca885bd1c2738c6|2017-01-16|Leo|renamed adc->in, dac->out, inputs/outputs are OrderedDict, few more cleanups
+bc397924c212770c36a6e7ea0bda7c3ce0039457|2017-01-16|Leo|tiny modification
+a91787cc05807ae7ead6f60c5de2a68e13a3391a|2017-01-16|Leo|bugfix negative end of floatattribute, pwm2 test problem resolved
+581442b58a4c66232eca8ccc09c20eda42fad32e|2017-01-16|Leo|loglevel info by default
+ca75f915e6cc8021c5b81582b4d50387eb39e9ad|2017-01-16|SamuelDeleglise|conflict solved
+78fe3d3914496a6331b2bad5473671e8c81b5e01|2017-01-16|SamuelDeleglise|some config stuffs
+727bb694e26b699e5a4d7c31eb7783697e1076dd|2017-01-16|Leo|bugfix
+f81488ed51c866cca4feaebee90d320aa6ae0ae3|2017-01-16|Leo|forgot one file
+32247482fa2f34f6106881c183e3bb9c624cb744|2017-01-16|Leo|global config imported at pyrpl root
+90296efc5f3ba3db4fbcd68c7cfd1cf131006328|2017-01-15|Leo|bugfix, better connection error message)
+0aa7631972d66e0eb2b8fe51008f622384ecf9fd|2017-01-15|SamuelDeleglise|Some cosmetics applied on scope gui and code
+cc6af9bd87551e81e05ba170a2faa20c0d8b2ac9|2017-01-15|Leo|class Model has been deleted without warning!!! Please!
+eecbe1164e08c22f02ed784f28744d5f9cf5eacd|2017-01-15|Leo|bugfix redpitaya class
+9c01fc5b5040988f66de4e5cefe0cf9d3d994b78|2017-01-15|SamuelDeleglise|Basic updating of attributes works, scope acquisition cleaned up (all the logic is in module), but some polishing needed.
+aeabe50c1409f9adb8f5f6b7c896714342c1c82c|2017-01-15|Leo|cleaned redpitaya class
+f6f95e10d28a03721e9b4c31b1e5dcad6c93ecea|2017-01-14|Leo|removed inheritance from sshclient
+5d7478557a34f48c72df11dab57195c4e2683151|2017-01-14|Leo|sshport configurable
+0679aa86d587e6b2da358f0a29d6bbb49a5ea5bc|2017-01-13|Leo|further bugfix
+01f71b4852e264fd9daeff84bc038c4ee446e1c6|2017-01-13|Leo|removed bugs from configfile with yaml
+4d35094bc2c60c265bb348b534fcae28e5613387|2017-01-13|Leo|conflicts resolved
+71a37a7db9b2dae1dc1aac27053477788c34dae0|2017-01-13|Leo|nostests improved
+b889f698bea9213501df0ef61656a9c8f2ebc6a2|2017-01-13|Leo Experiment PC|Merge remote-tracking branch 'refs/remotes/origin/master' into refactor_registers
+d0f94c7cbf9b4888db3d76602bb99bf74aced7fc|2017-01-13|Leo Experiment PC|fpga recompiled
+1c3191cf537a95d5b668a13c641a2b808df424be|2017-01-13|SamuelDeleglise|Merge remote-tracking branch 'origin/refactor_registers' into refactor_registers
+05a48ecdc8326c37dba004b416b9b9f29cb398b8|2017-01-13|SamuelDeleglise|pre-cleanup discussion finished
+c877af188e67bcf76a7486999f088f8616465050|2017-01-13|SamuelDeleglise|conflict solved
+6db62b9748b0e5af2cd9f169018e3e129999ec58|2017-01-13|SamuelDeleglise|config changed
+7d2aa5d9a97db886d4b2ac8847d7154c9685be6c|2017-01-13|SamuelDeleglise|config changes
+0708d75ba5d76a5648871ad67b2716984d5f9286|2017-01-12|Leo|preliminary sampler avg / standard deviation functionality implemented in python
+6bd88a4f0a5ed60f7b4f0baee8a46b36d0127dce|2017-01-12|Leo|small typo corrections
+023f4f15d6460b966bcc64d64abd791453207177|2017-01-12|Leo|new config file
+bdf8d97c7cdb9e957ff41012a6c49c91f1b16656|2017-01-12|Leo|fpga folder stays at program root(!), bug with monitor_server installation removed, functional default config file
+3c56c708f5b372c33bc6aca2e8a4e20a62eacefb|2017-01-12|Leo|moved dummymemorytree to memory.py
+16b3cdf45c3477995ef23363bcbd29149845f3a2|2017-01-12|Leo|resolved yaml alias bug
+01aa509a09d0070abd0286c9cf63ba721409361d|2017-01-12|Leo|Merge branch 'refactor_registers' of https://github.com/lneuhaus/pyrpl into refactor_registers
+634c4c00a7bdd0bc7c336a59f6355a10271934be|2017-01-12|Leo|tiny correction
+ea1d02aecf9e774ce720ebb753dc4cb5c8667238|2016-12-21|metzdorffremi|pdh phase not used in expected signal
+d67449e43ce6367071480fc94d7f7c295a7ed0c3|2016-12-20|metzdorffremi|debugs in FPHighFinesse + ival update only 1000 ms (was lagging here)
+0e082c33ccbdaa6cacb22a10cc8f05f3d125e71a|2016-12-20|SamuelDeleglise|HighFinesseFP should work fine
+220413e22f23f980a143e04d7f1d62b4761b01dd|2016-12-20|metzdorffremi|HighFinesseFP in progress (not functional)
+d13b33c015ac1f577f6a5a551449c37180681eb1|2016-12-19|SamuelDeleglise|InputSignal parameters are now saved
+7db0827e1023266a45a7819f29820918cce0a519|2016-12-19|metzdorffremi|reset ival when sweeping
+f68f4466a056b30d3d04845aae330a9c72c833e9|2016-12-14|SamuelDeleglise|Scope run_continous/rolling_mode attributes seem to work fine now (there was still a bug with load state)
+7474d6f7f482f573c06cd4f73329f007af939bd0|2016-12-13|SamuelDeleglise|Bug with scope rolling_mode/run_continous solved + scope_widget expands maximally
+23541d56e0675e2f9512a8600b8351d8f299c8b4|2016-12-12|SamuelDeleglise|rolling mode and running continuous saved along with scope state...
+31136a156e52f3fb0c56bf394c8b17af73bc5ab5|2016-12-12|SamuelDeleglise|Assisted design (for pid of lockbox output) is now avaliable + user defined analog tf
+98e35bea2410326f452e7aa7059595f3663a7e2f|2016-12-11|SamuelDeleglise|Expected transfer functions of outputs are now displayed
+2ca5ae53eeed3ee6875e56c7ca6f6fdf5c69f433|2016-12-11|SamuelDeleglise|buffered saving @ 1s in the config file...
+9c1a3628cb536fc74f05f02bc5563036496eb7a6|2016-12-11|SamuelDeleglise|dooesn' t save ival anymore + removed a bug where 'ival' would try to set the ival value to what it just measured (update ->_update).
+67f78f42ba75260bfcf61d099b704e389afea771|2016-12-10|SamuelDeleglise|Config file saving is more or less atomic now! Finally the bug with copy-pasting the backup config-file is over!
+c72c6c28597e9d5ebabcaf7b082988541dfd3f5b|2016-12-10|SamuelDeleglise|slopes and setpoints better integrated in the LockBox state manipulation
+dc5dae1b5b4376e320f449071c222122fc6bf147|2016-12-10|Matthew Winchester|phase register bug on python 2 solved + some more reasonnable attribute limits
+93f74648e7362e3c215203be5df4ff9d20410e69|2016-12-08|Matthew Winchester|Python 2 compatible + print removed
+a8a29c3c8c029352a913c6b5b0714a1a1f3b0bfa|2016-12-08|SamuelDeleglise|All basic functions of lockbox seem to work (except for transfer_function displays)
+8c017afc060089684534ae86ba51539f77ce5d41|2016-12-07|SamuelDeleglise|Added Input expected signal graphs
+51856552ff331c1c479e4db62ebd2a83957de994|2016-12-07|SamuelDeleglise|OuputWidgets look beautiful !
+1dbfcafeb5736dddb2ea3919dfc2c7a23c347370|2016-12-06|SamuelDeleglise|Stages looks good now
+d4a3eba2f8a548cfd161080d5b89ab78b1f05d55|2016-12-05|SamuelDeleglise|Getting there with the lockbox, sequence still in progress
+4a0538aa7abfab2510e53ef27d613b8415e90ccc|2016-12-03|SamuelDeleglise|lockbox model, input and outputs now have a gui
+08eb8ea6a6f63e47065b39daaf5bbe6deb013b93|2016-12-02|SamuelDeleglise|already a solid skeleton for lockbox (gui for output is almost complete)
+084a930aaeb8194ba5604da25c4a49d135329959|2016-11-30|SamuelDeleglise|added the folders
+1072a377a7a7c43ca5cfdd77f64104d68e9274a6|2016-11-30|SamuelDeleglise|fpga folder is now in hardware_module + moved iir stuffs in iir package + moved lockbox stuff in lockbox package
+83ce3d3f0de28e5c845ba2887c9bbb6c825c3a78|2016-11-30|Leo|specification lockbox gui
+241a83aa0796ba88e38c10b473d1872e60a868f3|2016-11-30|Leo|validate_and_normalize for PWMregister
+1c63cce8c57a9ce493f208268e2a1cff9122e693|2016-11-30|Leo|new autodoc
+f1c79af57ebae408822578368a8b680a9d35b5f0|2016-11-30|Leo|class tree files moved to doc
+f9aae3f967806e996d57a1fa963edb3e0f62bfb5|2016-11-30|Leo|docstring for bijection
+6f5092fbf1cc7ab48a614f764ba4adf0ba58c913|2016-11-30|Leo|removed redundance double fpga folder
+114b15e65a172b22f1842852d91c6f9ca28fe2c8|2016-11-30|Leo|sphinx html autodoc
+a9924c18c9493bf13351b397ac1369c3c4a6404b|2016-11-30|Leo|sphinx build removed from gitignore
+bbf4bd56b8ce36f75deb4d36402542637e319271|2016-11-30|SamuelDeleglise|load/save OK in commandline/gui/unittests
+0fc95120cb2084763d47016f1040a984a3ebc07e|2016-11-29|Leo|tiny iir change
+f07762f558d23d31de81f7b91657ba7f1d0e97d8|2016-11-29|SamuelDeleglise|Unified module creation done (HardwareModule(rp, name) / SoftwareModule(pyrpl, name))
+ef5758616c13ce1c7b1063431057fcd01a5c87ad|2016-11-29|SamuelDeleglise|unifying SoftwareModule and HardwareModule instanciation (half done only)
+73e45997f798f437bc67bb449fee92ae9bb39796|2016-11-28|SamuelDeleglise|MyNumberSpinBox has now a per_second kwds controlling its change rate in lin as well
+6837cfec57d4fd35a6121bc1159b695d9bd5172d|2016-11-28|SamuelDeleglise|Widgets are only created when needed to reduce load times (+ setup callbacks desactivated during create_widget)
+70936832b754b0c095f81e1eec8c2ba28e9b5ccc|2016-11-28|SamuelDeleglise|Bug with callbacks (desactivated in case of unhandled exception) is solved+log buttons based on real timing
+bce9b4446ffdc317e4e1bf9be3f65925e5fa6911|2016-11-28|SamuelDeleglise|IIR Gui works with keyboard shortcuts and cool widget highlighting
+3e76a7548dfc984400257580f04d30bb6133a11b|2016-11-27|SamuelDeleglise|introduces callback_attributes in modules + iir widget working (without shortcuts yet)
+415cfa79474289c9498f97dc35d56605b1dedcaf|2016-11-24|Samuel Deléglise|class diagram as pdf
+b88a3d89c464ba43e41590e1554a534833a7fe17|2016-11-24|Samuel Deléglise|Adds uml gui for main modules
+dfa120b6b19d58c86efd4a7343a676080986cda6|2016-11-24|SamuelDeleglise|Code in attributes.py and modules.py more documented + solved an inconsistency in SelectAttribute.options
+7514e16b71d530e2dbe49a5982697683053d5762|2016-11-24|SamuelDeleglise|Removed the anomaly that the layouts of attribute widgets were used instead of the widget itself
+6d474b2a3f5b021dff3b506686a57ceac39987eb|2016-11-23|SamuelDeleglise|attributes validator is now clean (all tests OK)
+dc5cd0cd1fa76dd05afcc942a2711433b076223b|2016-11-22|SamuelDeleglise|Small bug solved
+08a29d0444959858d9446cfbab3fdd86ffe7e110|2016-11-22|SamuelDeleglise|forgot one file
+0b604a422c68cc4b08fa96a52f014750f8a55522|2016-11-22|SamuelDeleglise|All pre-existing unittests are passing (finaly) !!
+b4f67a5327ccf9d8bc9ae9281d8bc638eebe56d1|2016-11-21|SamuelDeleglise|And now it works again in python 3 (problem with func.__func__.__doc__/func.__doc__ solved)
+958445d9a7574431c3ecfb2f07fb860395b33a4d|2016-11-21|SamuelDeleglise|Seems to work on python 2 now (quicker than I expected)
+472bc1e9a9190f3dc529e93badd6d9512657fe2f|2016-11-20|SamuelDeleglise|Bug solved in Asg and _setup created in Network Analyzer
+f0d38d7cbd9c25c256129dc17e3e7678f6fba0ee|2016-11-20|SamuelDeleglise|Scope and SpecAn are now nicely separated...
+82452527a9e3aad16738600ae20c502cb16d5ca7|2016-11-19|SamuelDeleglise|ModuleMetaClass is used to automatically combine set_attributes(**kwds) and _setup() into setup(**kwds) with autogenerated docstring.
+6fb70e73a2d626c2d9c1c158c3e5267a033d7200|2016-11-19|SamuelDeleglise|bug with scope trinity decimation/duration/sampling_time solved + ownership_changed hook to stop scope
+e07a80a8cafbb2cea70bfb6038e20d44be26e85e|2016-11-18|SamuelDeleglise|Frames in gui not shown by default
+fb21c50f01cd6cb89ae31939c14deba940e76a11|2016-11-18|SamuelDeleglise|ownership is now updated by the module itself. ModuleManager implementation is simplified
+fe345712fb1a7dd325da4b18ff19015461502650|2016-11-18|SamuelDeleglise|spec an reintegrated
+b88ca8dfaf46d01258b880021989404f482adff0|2016-11-18|SamuelDeleglise|Exception in statusBar is finally fixed!
+506ac3b8ecbfab7c5fc8919fad41dd734bf425d5|2016-11-17|SamuelDeleglise|setup of pid created + ival update in widget + order of asg now ok
+202c11b6a43e34f671a007b110f7ef4ffa8ace73|2016-11-17|SamuelDeleglise|basic iir widget, bodefit not integrated yet...
+d16f8e3e2af7260b53ede6303b67b35ca4500f26|2016-11-17|SamuelDeleglise|schematic for iq operational again, with a hide/show button
+a029e06cd24710e35dcf09459dc5b55d4a84d682|2016-11-17|SamuelDeleglise|gui stuffs in a subpackage "widget"
+f784e4e7e0677dde4eed98619d616d5de90e111d|2016-11-16|SamuelDeleglise|module indexing starts at 1 + remove module.update_attribute_widgets (solves untriggered mode visibility bug in scope)
+c7f79f9f074a2084a53dce2dd4613faedee7baad|2016-11-16|SamuelDeleglise|mouse wheel support + cleanup hardware module initialization + save parameters for all implemented modules
+34c1a25fbf33e060c970733c2dd1c638baa768a5|2016-11-14|SamuelDeleglise|old stuff in a folder "trash" for now
+5af7f60f3146c13d78a54628d295d1c340cb385f|2016-11-14|SamuelDeleglise|Parameter saving and ModuleManagers seem to work fine
+f9a20daa882d9027cc870b2a8bfb056724153759|2016-11-13|SamuelDeleglise|starting to make lockbox a module
+9751693c07aa7885dcdce7d749cea5893c9b4726|2016-11-10|SamuelDeleglise|Merges attributes.py, registers.py, properties.py ---> attributes.py.  Split redpitaya_modules.py in 9 modules
+2904780f9b1d1df725e17c69421cc2a729c0da12|2016-11-09|SamuelDeleglise|Numeric buttons workin gwith keyboard as well
+4dc40319f9ee9b7325fc7304847c03e87728ff65|2016-11-08|SamuelDeleglise|log buttons working fine
+7dac14ceec1aed873b33ecb0aabe3e3ab9364480|2016-11-07|SamuelDeleglise|Adds also Na to the apparently working modules
+a5227e53b5daea6b7d93e81c0c38266f7734dc1e|2016-11-07|SamuelDeleglise|reorganized folders
+9ccad2382c6a74aa3b11a7dfd1aaeb40790a70a2|2016-11-07|SamuelDeleglise|IQ, Asg, Scope now comply with the new philosophy.
+871fcbdc0f43a82c90d0f149ef2680977babe0e2|2016-11-02|SamuelDeleglise|Solves issue number 36, paragraph 2 (scope rolling mode display bug)
+60101d526cabb0d94d0960b881573cf2988cac99|2016-11-02|SamuelDeleglise|Iq gui buttons have correct maxima
+25eac7872cad1688a1de54c0c4b35d1469fa4943|2016-11-02|SamuelDeleglise|asg frequency bug solved finaly!
+d75c6259e13f3e05e34dc9d32a7a1fe8d6c8f567|2016-11-01|SamuelDeleglise|new try with -1
+c3dc6211162734215ae0dfe0b86acb911ab46575|2016-11-01|SamuelDeleglise|other try (+2 in afg)
+6b6c38e6c97666b7a9ed697abb89e1dfdc2ab91d|2016-11-01|SamuelDeleglise|FPGA compiled
+f61e3e7abd1bafa34bde1c36fc7a25744a452894|2016-11-01|SamuelDeleglise|bug in asg frequency maybe solved
+2bbe4530bd7fb5d9af370438cc6edc726e667765|2016-10-31|SamuelDeleglise|membrane mechanics created
+e8788e218afb138a5a14790cb663ed2139952be9|2016-10-17|SamuelDeleglise|Merge remote-tracking branch 'refs/remotes/origin/master' into manip_membrane
+2750d1abe78d6426883c958d964b8fd005768733|2016-10-17|SamuelDeleglise|only config file changes
+0af930f492ca44269af58cceac84069153296460|2016-09-20|SamuelDeleglise|Merge branch 'manip_membrane' of https://github.com/lneuhaus/pyrpl into manip_membrane
+4b21b67cbcede38b50d8e741a93b731e4fae1a24|2016-09-20|SamuelDeleglise|only config file changes
+ce2779a57baf2f27aa5b92293e26273d6bea5a1a|2016-09-12|SamuelDeleglise|Nicer Iq Gui (#78)
+04b3e5390447b3573dcaae3936de26c0931c74ec|2016-09-12|SamuelDeleglise|Solve the issue raised in Pull Request #75 by Leo (float acbandwidth)
+a9e3a6f2c993ed97d1c8704eb67e8d5e09145b5c|2016-09-12|SamuelDeleglise|Merge remote-tracking branch 'refs/remotes/origin/master' into manip_membrane
+12acadfadc6a186f352c174f7bb53ceb36328463|2016-09-12|SamuelDeleglise|Nicer iq_gui
+764ac7fff8e2c6799f57fef9b6364c8932ac2aa5|2016-09-09|Leo Experiment PC|sampler module has only readonly registers -> nosetests fixed
+12a4e8d133153ec79cd5dcaf899e2ba7b2d43c50|2016-09-09|SamuelDeleglise|Manip membrane (#75)
+601d4580c6483d1a8d60343163cbe10e03b05eb1|2016-09-08|SamuelDeleglise|ComboProperties options are now defined at the FPGA level
+628b4cf06030d5257e1ea34c309dd4ae6881b249|2016-09-08|SamuelDeleglise|Iq gui is BEAUTIFUL !!!
+ef970775a0d814c509f6e678616a5614861847bf|2016-09-08|Leo|attempt to make acbandwidths more reliable when code changes (untested)
+59a42ffe0fe6e83f6e3a1e1675a714c0eeb5b2aa|2016-09-07|SamuelDeleglise|Iq gui still needs some cosmetics but we are gettin there...
+9fe899191a46d8b4244c1d431a3a036b0a6b4d47|2016-09-06|SamuelDeleglise|Merge remote-tracking branch 'refs/remotes/origin/master' into manip_membrane
+fcfbcd6c7889e8f7f06af42d97dcc6dd1c51fcaf|2016-09-06|SamuelDeleglise|Merge branch 'manip_membrane' of https://github.com/lneuhaus/pyrpl into manip_membrane
+83c7bb86eef4ffc01c7ba7ce2f1d9287295dc1c3|2016-09-06|SamuelDeleglise|restores compatibility with python3
+a8315d6ed25f8aa27bfc754fe3c14957b39a79ba|2016-09-06|ManipMembranes|started to implement iq_gui
+5a612ef543219c8b78ce4ae9d94e67fe0bd3c91d|2016-09-06|SamuelDeleglise|only config file changes
+17dcca003b3e0f5b91c9a085d1b2f58c44ffbbc6|2016-09-05|Samuel Deléglise|start iq_widget
+569f285a6606346e474e869424d984fd5af4df87|2016-08-31|Leo Experiment PC|sampler works
+ce8fd13e3fa106ee4e4b4a5bac6f128feaf2759e|2016-08-31|Leo Experiment PC|Merge branch 'manip_membrane' of https://github.com/lneuhaus/pyrpl
+84917326cc810d433f77eaa4998dba18e85310f1|2016-08-31|Leo Experiment PC|sampler module
+f085383e3562678ec54405ed2ab359f33c8e8885|2016-08-31|ManipMembranes|Compiled bin file for Sampler
+61bec52b47a1250c9c39bc6f2b851414b1a11440|2016-08-31|ManipMembranes|Merge remote-tracking branch 'refs/remotes/origin/master' into manip_membrane
+350673be267bf5c6eda4674eab5deb38d27477b0|2016-08-31|ManipMembranes|Merge remote-tracking branch 'refs/remotes/origin/master' into manip_membrane
+0fa9edc012b29a85d0f1ceaa788136a323fe242b|2016-08-31|Leo Experiment PC|fpga change to read directly output signals
+63df42b2c0c55680c12bba8dc4ef3591a9c000ce|2016-08-31|ManipMembranes|Merge branch 'manip_membrane' of https://github.com/lneuhaus/pyrpl into manip_membrane
+909cc1f8911c080e38ca1419b972205c33a98e2f|2016-08-31|ManipMembranes|Only config file changes
+73729b6f5c061f90a65429b1ae476af5ce94bf1d|2016-08-31|Leo Experiment PC|pep8
+0f32d7dc90aaab6284ceb2fc354e02a2aa2d7317|2016-08-31|Leo Experiment PC|bugfix in set_state of scope
+a888189a85df5e52b31cb232e5df1e311d96c472|2016-08-31|ManipMembranes|Manip membrane (#70)
+2d81b1dc18dc19d5898a426f15b7221b31e829d8|2016-08-31|Leo Experiment PC|copy paste function sos2zpk import correction
+4ba00bda90b903e36b7c6a373c740ecad5899bbe|2016-08-30|ManipMembranes|Merge branch 'manip_membrane' of https://github.com/lneuhaus/pyrpl into manip_membrane
+5a47d3f7b1f4727dd74402647ed5ebd80cac586d|2016-08-30|ManipMembranes|Fixes #66
+c978dcbcf84a4fc2089439aa7e6b72e18cc04600|2016-08-29|Leo Experiment PC|scipy 18 dependency removed
+5e0836dd2671a43a6d4dfe619e5895858750773c|2016-08-26|ManipMembranes|Adds save_current_gain in gui (not sure it s fonctional though)
+7725495f25380bc25e84816d185754ac40ed2eb3|2016-08-24|ManipMembranes|Merge branch 'manip_membrane' of https://github.com/lneuhaus/pyrpl into manip_membrane
+3be25490db435f819faf61f53d62c0e37ac731d3|2016-08-24|ManipMembranes|PID gui working + Arrow in na_gui
+ffe22191df314624398a954ada44eeba7e198261|2016-08-24|ManipMembranes|Arrow in na_gui
+2034677b46e56cab4e5d5eb5968f2714b688bb5a|2016-08-24|ManipMembranes|pyrpl model has a property gui_buttons to generate buttons
+99561223c16f2b18fc1634dc0e8432f0459a8b6e|2016-08-23|ManipMembranes|Adds UserModule to easily create Widgets with autosaving parameters
+e632e44203ba94cbb912ef1e90fcb03f3b0e7a0d|2016-08-22|ManipMembranes|Pyrpl control gui functional
+83c0ca7d400cc1faa10d3c57d5a77ce14567aa6c|2016-08-22|ManipMembranes|Scope and spec part of a tab widget+ uniform state saving mechanicsm
+fe600fc91339484e74fb8753f3ca77df263d04c3|2016-08-22|ManipMembranes|Saves the dock_widget postitions every 1 seconds
+eb8e0480e315fc9f02ef1d5cd5b06cd3925fbf0f|2016-08-19|ManipMembranes|started to make a gui for pyrpl_control
+ba0708d4682ae408e70ede43c24c67f9ff38b0b0|2016-08-19|ManipMembranes|Changed Gui SpinBox + Dockable Widgets
+da95a3540c5a1d7b5e1d3a3fff0e0079cf80cb01|2016-08-19|ManipMembranes|Merge remote-tracking branch 'refs/remotes/origin/master' into manip_membrane
+c1944216ec05bb1f7f1718c91a99d9d93f40c007|2016-08-19|ManipMembranes|sleep not freezing in stages
+ff9b585efe425cff52c9bc79318aa7287ddddbe2|2016-08-18|Leo Experiment PC|started writing specan
+110398b1331c558df6f7c6c32cb024deb894d783|2016-08-18|ManipMembranes|unklock unused outputs in each stage
+ff4c136825b855d65d2077fac971b6923b2c8096|2016-08-18|ManipMembranes|Manip membrane (#69)
+4fde910ceacfaa3f65a2c3b4ca44e9b057ca0b2d|2016-08-17|ManipMembranes|Merge remote-tracking branch 'refs/remotes/origin/master' into manip_membrane
+93a9da7079ac2cc912ab955b6e7a30a179f6545b|2016-08-17|ManipMembranes|only membrane config file
+82281094caf0409c24494e9bc3cf5bf10535eda5|2016-08-13|lneuhaus|many improvements from FPM (#64)
+eaeeac02ec8576f8d5623f38f62c91bf25e3f7f5|2016-08-11|XueshiGuo|Revert "minor change in env file"
+fbe3920b6ca391fe728299339158e1b69e7c4d00|2016-08-02|ManipMembranes|not much changed
+3eea96bbd6720754b3b50b4ca18aea63719453c0|2016-07-18|XueshiGuo|minor change in env file
+58c469891575719e36c9481ece2bb04846bb5263|2016-07-16|lneuhaus|Develop (#57): IIR filter finalized
+b068a47937f1507e270afc73efe91dd2dda60c4b|2016-07-12|lneuhaus|Pyrpl bugfixes (#54)
+0a4b05aa7cc4752644b63a975046bc51aa1f43b2|2016-07-10|lneuhaus|Mainly IQ module improvements (#53)
+e520a0949f79b1b3773ddb76f7ebb48a2dabf0ed|2016-07-08|Leo Experiment PC|burst mode fixed, ringdown works
+b6e2492eaf0916c0aafee4c661b2a9308472e5a6|2016-07-08|ManipMembranes|Fixes bug with rolling mode and channel disabling
+5d1b9342bdba4d74d7a64929f281af6220cfcd67|2016-07-08|ManipMembranes|fixes gui autostart problem
+ff11414b866ed43bfc3db5073d7817ee64ade278|2016-07-08|ManipMembranes|Fixes gui autostart problem
+c4e51f4ce03596e50773782078958403a83260be|2016-07-08|Leo Experiment PC|burst and cycle repetition mode implemented and commented
+1a08d6f0bb4e0761ce3a2a2f63ff6984aa5202af|2016-07-08|Leo Experiment PC|Merge remote-tracking branch 'refs/remotes/origin/master' into develop
+5f3aa9f2a30478016729382349220a8fd4a8f616|2016-07-08|Leo Experiment PC|travis fixed
+c6375973d37e4efb4ad9af0a63b6a7cee7e8f8d1|2016-07-08|Leo Experiment PC|Merge remote-tracking branch 'refs/remotes/origin/master' into develop
+037d29d8f59f4dcdc6e89370fb25f92cb46d5600|2016-07-08|lneuhaus|Develop update (#52)
+4fce1e66216c38c4b6610d63a24520ae8a51bb51|2016-07-08|Leo Experiment PC|Merge remote-tracking branch 'refs/remotes/origin/master' into develop
+4da0813a3e7e3d5abca3bdc1597e0e162a53b504|2016-07-08|Leo Experiment PC|Merge remote-tracking branch 'refs/remotes/origin/master' into develop
+d96d93794755bd3328935bab295e4eb45a36edb2|2016-07-08|lneuhaus|Gui improvements mainly (#51)
+e03662c2889de49d6c3e4ede30b103501a0a6f8e|2016-07-08|Jonas Neergaard-Nielsen|One more minor fix for Python 3 compatibility.
+71d88ffb5b00e78c8d686d589af4f09f497de015|2016-07-08|Leo Experiment PC|some python 3 fixes
+c4d36c148544ff36030b88dd6f29cc280d4007f5|2016-07-08|Leo Experiment PC|advanced trigger + burst mode
+c9f5d872f840abfe770015bfb7f4673969c28432|2016-07-08|Jonas Neergaard-Nielsen|Minor fixes for Python 3 compatibility.
+ce5ad415817f0da5e224e9f4a617db9d4849303a|2016-07-07|Leo Experiment PC|unittest includes int and long register setters
+a3ab8853dfc28c224837ca710d4cb3691f08f92a|2016-07-07|Leo Experiment PC|Fixed requirements, LongRegister setter, asg.advanced_trigger_delay
+817a52139db2c0aafbd52b0015ad909e636f99e2|2016-07-07|Leo Experiment PC|gui improvements, infer_open_loop_tf function added
+c97d7f3d3166ec021bb98649ce1f7d308055db6b|2016-07-07|Leo Experiment PC|Merge remote-tracking branch 'refs/remotes/origin/master' into develop
+29fa1e62d3d034598a34cba1d0aa7c850888ce32|2016-07-07|lneuhaus|some changes did not make it into master.. (#50)
+3077a45dfa72fa36afbb0e7e039c10f5d8d0bc24|2016-07-06|Leo Experiment PC|hopefully restored to reasonable version after master messup
+0bed3eef2a4f23f15c8cea229f62f9954b056392|2016-07-06|lneuhaus|Python3 merged, scope cleaned and more pyrpl changes (#49)
+286f0764c9a3aeba23418d956823a50413343956|2016-07-06|Leo Experiment PC|Merge remote-tracking branch 'refs/remotes/origin/master' into develop
+ac3e4d0b558512646b341353c7fc55813e7388af|2016-07-06|Leo Experiment PC|avoiding errors in destructors
+b33d73eefe27f25c2a34590314ba962110392733|2016-07-06|Leo Experiment PC|retry to connect to server 5 times on startup
+45dd5b48cabcaa7518f00bee7ac3cb66ac1144e9|2016-07-06|Leo Experiment PC|test_pyrpl_gui removed, dependencies improved
+2615cb9fa5b30b9003e7b9641cff203679084f5d|2016-07-06|Leo Experiment PC|work on travis
+fa955c0d36d71f06d436bef4e1c5beebd6276910|2016-07-06|Leo Experiment PC|Removed socket closed error
+cf314069cf861c5142257860e920af93daee07dc|2016-07-06|Leo Experiment PC|SCPClient error fixed and trytwice->try_n_times(n=5)
+e10231f48bb4837b901ea17e73909dc63cacd514|2016-07-06|Leo Experiment PC|exclude gui test for python 3.3 - installation problem
+fc72a43c2a6fabd97857f96e7ed2e5b0f1a7301d|2016-07-06|Leo Experiment PC|stupid little bug
+167444b739352ccd28982661cb72202adf93d1ac|2016-07-06|Leo Experiment PC|Merge remote-tracking branch 'refs/remotes/origin/python3' into develop
+30c8190cdb682c05015358e702c003169bb63569|2016-07-06|Leo Experiment PC|scope module further cleanup and python3 compatibility attempt
+1db8a05aa967d74fb8dcbbc1403f36420f1c2602|2016-07-06|Leo Experiment PC|fpm changes
+8f771ff3c8a22a46ad72c46bac847d4cf7378dd4|2016-07-06|Leo Experiment PC|Merge branch 'develop' of https://github.com/lneuhaus/pyrpl into develop
+8381549c5f124231cf7ac179b5ce1535be1e4eb2|2016-07-06|ManipMembranes|scope trigger logic cleaned up
+340be529435c5a856b824956638e908bf79fb817|2016-07-06|XueshiGuo|Spectrum Analyzer can't instanlize yet
+a6b640f999f69fdaa0cd9a7730556c0309508615|2016-07-06|XueshiGuo|Merge remote-tracking branch 'refs/remotes/origin/master' into python3
+9631c853ffa351e4769bdb9ca633d5c307aaee34|2016-07-06|XueshiGuo|Not sure what's the good way of setting attri
+a650b804f27bb5cd08ac49c16ccc967c1b0233e3|2016-07-06|XueshiGuo|add testing file to .gitignore
+ee53c1f66aa5ea46f07ba52d36251f37da85ce66|2016-07-06|XueshiGuo|Now "import pyrpl" works for python 3.5
+0c8425d0587fccf424236d865ed41bf084b8a8ef|2016-07-05|Leo Experiment PC|git forgot
+9ce539d4f9964a826245ad37e5b7fd3236307d8a|2016-07-05|Leo Experiment PC|fastpiezo and ringdown for fpm
+9bef2847eebfb5dbf1d411e7f19c6a70063d67b4|2016-07-05|Leo Experiment PC|gui window name = lockbox name
+272f78b07cec6874564f9c8783f19cddb1893747|2016-07-05|Leo Experiment PC|calibration and islocked called from configfile
+9673bf5d1ab7a38aa607009b0aa89ce6959304c0|2016-07-05|Leo Experiment PC|call model functions in lock sequence through stage=call_functionname
+4b8721ee59f10eda5ed08bd17610f0b92aba48c0|2016-07-05|Leo Experiment PC|proportional_gain or unity_gain_frequency are possible
+36f86fefe3fb1637f2a2cfe90439c5d3ace72b2d|2016-07-05|XueshiGuo|fixing import and list problems
+6ad42177b856606510a60c0ce895a7ef1f4e7755|2016-07-05|Leo Experiment PC|scope fix bitfile
+f825cd9ceda2789e6bdb29fa18a02f3cac715907|2016-07-05|lneuhaus|scope bug fixed, all tests passing (#48)
+a1a7bb300327eeb01776f992a1fdf89ab5606b01|2016-07-05|Leo Experiment PC|scope fix started
+20c82aea7d8e528b61e0d184431910e0b3a0ffd7|2016-07-05|Jonas Neergaard-Nielsen|Merge remote-tracking branch 'origin/python3' into python3
+e7ec485dd91a526508c6080ae2bb1cda698f0627|2016-07-05|Jonas Neergaard-Nielsen|Attempt at fixing the Python 3 scope problem with list comprehension scope in class body. Not working yet.
+fb5c5e9a976a98440c53af91ca269451b9de1fdc|2016-07-04|ManipMembranes|fixes #47
+7808c91cab076d9f1b5cabc459a10b82121fc757|2016-07-05|Leo Experiment PC|double integrator works
+2049948874b5d25660b1b93395bd2c0ddb5d3f95|2016-07-05|Jonas Neergaard-Nielsen|Merge branch 'master' into python3
+88afbf005de232e741ec5d39fbc951bc52de2864|2016-07-05|Leo Experiment PC|8th order inputfilter works
+18791c025161030f618dc8022c64dd06da522578|2016-07-05|Leo Experiment PC|comment
+d3470a07236aa7ab8eebfa389d947fed51d79dd9|2016-07-05|Leo Experiment PC|better scope bugfix
+3c04ee793678134fef3894283b1b859473742140|2016-07-04|Leo Experiment PC|pretrig bugfix
+6110a72fbd4fec69e6b380f6fbe50399cdec5c2e|2016-07-04|Leo Experiment PC|double integrator implemented but untested
+f958a9b55531fd780561bc50659e18021779b4a5|2016-07-04|Leo Experiment PC|before cryocalibration
+6346f406ee4e82a1c9e8e8c960390d363afb29ce|2016-07-04|Leo Experiment PC|towards double integrator and 8th order filter
+18d5fdff2a7d083293a649924b1547098fca4423|2016-07-04|Leo Experiment PC|Merge remote-tracking branch 'refs/remotes/origin/master' into develop
+ebfa69a0516ca648a71c17f72432384c6c958b5c|2016-07-04|Leo Experiment PC|minor bugs fixed
+5df7c4b37b18204b34fd9a63fa5cb014270926e9|2016-07-04|Leo Experiment PC|Merge remote-tracking branch 'refs/remotes/origin/master' into develop
+7ddb93c79529e201f1d18ae7f4a1315596754218|2016-07-04|lneuhaus|Pyrpl lockbox functional (#44)
+bbb0b7091f7717d7222b3cc396810e0c83f35ff9|2016-07-01|Leo Experiment PC|Merge remote-tracking branch 'refs/remotes/origin/develop-sqz' into develop
+3799f13676e765e27c03e849c39f81a6357c465b|2016-07-01|SheonChua|merged with master
+1f85a42548fc50b2c21caa56bdaf71c64914b26f|2016-07-01|SheonChua|model for tilt locking added
+530eb53e2ceffe8f086fe9dabdf392d829030d74|2016-07-01|Leo Experiment PC|update gui and pyrpl
+2b46581ffc0aca2a3a188d029e4c6234dcd70e2e|2016-07-01|Leo Experiment PC|correct bitfile
+893de9bac4e58baa25434fa1f1d5bc977d121136|2016-07-01|Leo Experiment PC|nothing
+5898fedcc5702b2232186067f727605e14a87770|2016-07-01|Leo Experiment PC|Merge remote-tracking branch 'refs/remotes/origin/master' into develop
+25d2ece04243cd7f7c85933d60e276b6431cf5ab|2016-07-01|Leo Experiment PC|test_modules bugfix
+d7940836ea65e13559de1257a2d02d4346e68c3a|2016-07-01|Leo Experiment PC|fabry perot advances
+92a589ac40a410d0b069e83f08bed5dec6a16853|2016-07-01|lneuhaus|Roll mode for scope (#42)
+27a0ba5dfceca7b08f178801bec618541a26023d|2016-07-01|lneuhaus|Better scope and new bitfile with PWM outputs 1+2 (#41)
+157060593b20848ff2c4ff273581328c08a393eb|2016-07-01|Leo Experiment PC|asg-scope test works again
+1758692cf6c631cb8a780a79b396e3934536510e|2016-07-01|Leo Experiment PC|travis skips guitest, more scope decimations, bitfile bugs fixed and less usage
+53373d87faca4520af1459d31eecfffcf0e68c29|2016-06-30|Leo Experiment PC|axi master partially disabled
+f861948ed56ab6b27eb4a946176ee88ead2e830e|2016-06-30|Leo Experiment PC|PWMs working
+0488a66842728413a1232d97a6b2a7fb03a6d53e|2016-06-30|Leo Experiment PC|pwm bug found, recompilable without iir, axi hard to remove
+04fc1fab1abad10c184e5cc127bb42a28e2a2de7|2016-06-30|Leo Experiment PC|unfunctional version
+abc3c5dbbb502cf5cb314eee0026cd3d4fec0cbc|2016-06-30|Leo Experiment PC|ready for fpm
+ae15be6d241fb4fa4352ad00140c88a8b037d896|2016-06-30|Leo Experiment PC|weird bug with travis fix attempt
+3234b6d64bcc66e3c2926a20210f5ce19085fd34|2016-06-30|Leo Experiment PC|Merge remote-tracking branch 'refs/remotes/origin/master' into develop
+968b8b7bb5734e72889f25efb987d0b129c3ada8|2016-06-30|lneuhaus|Develop - lockbox changes and connection bug removed (#37)
+046dcea02e36860cd89b4a957485c00554aeb6e2|2016-06-30|Leo Experiment PC|nostests pass even with gui running
+7d1282476e55b1453b7f1e3457efacb01a53921c|2016-06-30|Leo Experiment PC|RedPitaya freeze on multiple connections error resolved
+70f8080ecbbb15e46b27f40ce009b0ca991e6b0f|2016-06-30|SheonChua|Merge remote-tracking branch 'refs/remotes/origin/develop' into develop-sqz
+d48c7a6289d29f7357229cf133cac04f465223de|2016-06-30|SheonChua|thursday morning
+0ae589d95734de0af07fcad2ad2ee94320796def|2016-06-30|Leo Experiment PC|interferometer generalized and working
+8960564f7e7367b230bcd3131f39f1e698e63c07|2016-06-29|Leo Experiment PC|Interferometer generalized
+22062d2e222d291699330fd7a57300a73a1b8cbc|2016-06-29|Leo Experiment PC|slaves have _master and master has _slaves
+7f2904ae333ec03c0b1a8ad760946c7504988e23|2016-06-29|Leo Experiment PC|redpitaya.make_a_slave() returns a valid secondary redpitaya object
+92e5efdb64e7183d141dc02e6faaa24cd1242ca4|2016-06-29|Leo Experiment PC|Running several clients in parallel is possible
+80ae60ec2950ce5f32f55fcdf12a3f9d62ee213d|2016-06-29|Leo Experiment PC|Merge remote-tracking branch 'refs/remotes/origin/develop-sqz' into develop
+547701c89ef9de16f2ae34d310e1bdc8b61291bf|2016-06-29|SheonChua|tilt lock first day
+99448e5ee11300a0daa16124b0eef4a78a31710f|2016-06-29|Leo Experiment PC|initial fpm config
+964f0841b713086641132967c91417394e9608fa|2016-06-29|Leo Experiment PC|Merge branch 'master' into develop
+e204c3e4901d42ce5f7ef7423e18cb0c877049fe|2016-06-29|Leo Experiment PC|delete the obsolete file pyrpl_gui
+cf565bf1fc862837119cc56609150adfe26fabe3|2016-06-29|Leo Experiment PC|renaming forgot in the last big merge
+771c7cb21dfaf328c48c3cb9b460ce447b307f39|2016-06-29|Leo Experiment PC|fpm config started
+6319c0c9e7693483be8ee6ba63200a10366d5a73|2016-06-29|Leo Experiment PC|Merge remote-tracking branch 'refs/remotes/origin/master' into develop
+e4ce5a973a050e520c8794492bce817ae31b716c|2016-06-29|Leo Experiment PC|autochanges
+b37b1bac5e49c813438c1b89f410fb1de0e393d9|2016-06-29|SamuelDeleglise|Spec an for real (#33)
+4d8cb258bcc87581b5d446df7623db947173f03b|2016-06-29|Leo Experiment PC|Merge branch 'spec_an_for_real_merge_attempt2' into spec_an_for_real
+6e63994a6b64e002033cc6c389ffb0f08c2aac7e|2016-06-29|Leo Experiment PC|recent develop changes merged into master
+8cdf0434133ac0912753e2b45c6fbf0c255f914b|2016-06-29|Leo Experiment PC|tests are passing locally (remote server is offline again)
+4ab1e2b2157d9489c16f97c959118c8f769d9081|2016-06-29|Leo Experiment PC|small bugfixes from merging
+5cd3f88e2f62c51a067e8caf9890fd11665182db|2016-06-29|Leo Experiment PC|pyrpl_gui -> redpitaya_gui
+31b33f08ce4add4b7b9fefc7ead6a44e95e090dc|2016-06-29|Leo Experiment PC|Merge remote-tracking branch 'refs/remotes/origin/spec_an_for_real_merge_attempt2' into spec_an_for_real
+7c6db9a8b4d05200a9842abb7021b3c6df3f171c|2016-06-29|Leo Experiment PC|Merge remote-tracking branch 'refs/remotes/origin/master' into spec_an_for_real_merge_attempt2
+be60a7f7d86c6cabf4d87d1e06f479bd843c64d9|2016-06-29|Leo Experiment PC|small changes
+3f91aa3fc9bfd49f7f1171c08203a239597bca21|2016-06-28|Leo Experiment PC|tests passing
+75d8a337e91ccd9761fa1a6a06b7460f634c6010|2016-06-28|lneuhaus|bugfixes and first work on pyrpl (#34)
+f4015c6187582ad2847bd7c0f17ad502cae52dc6|2016-06-28|Leo Experiment PC|Interferometer: islocked works
+d54d51f5ae79d6757f39ea069ce6d2f841671b0c|2016-06-28|Leo Experiment PC|Pyrpl Interferometer works
+f0335529f3ebfff372199c35b71127e123eec904|2016-06-26|ManipMembranes|tutorial is clean
+648f64f30c5995bba9e441c46341da1d74f2701b|2016-06-26|Leo Experiment PC|started model but bug appeared
+3755dfb4363a6362d5af7ecda50f20ae75e5941d|2016-06-26|ManipMembranes|spec_an and na now attributes of RedPitaya
+4dff92577fd897bb5296c448326cd31c0090dd54|2016-06-26|Leo Experiment PC|Merge remote-tracking branch 'refs/remotes/origin/master' into develop
+823970b0d719b2bd7aa76764e3b2ea92d0e99241|2016-06-26|Leo Experiment PC|pre-merge from develop, modules appear in a list
+33edb1cb24836fe68833b2a49a6ae092c19cf59c|2016-06-26|Leo Experiment PC|outputs ok
+818397690c0ee82d163e2789802ceeb36d63d54f|2016-06-25|ManipMembranes|more comments + functions to start and stop acquisition cleaner in gui Modules
+894ae7dbe3f1e075420504ec05d63ab3a57bda5c|2016-06-25|Samuel Deléglise|conflicts solved with master
+9c31c93833e7e053416dce27e117f2d104b576e1|2016-06-24|Leo Experiment PC|longregister bugfix, RPOutputsignal class, modules available as lists
+85e42a4ee682ac8915444697b02e170b3bb1f00e|2016-06-24|ManipMembranes|bug with long register solved
+24ff1b6a428e212fe0c8a403e0434a81cff793ab|2016-06-24|Leo Experiment PC|second curveDB bugfix
+2c8b1bed58e04e91a9c6a4c2efda196ad90336c8|2016-06-24|Leo Experiment PC|CurveDB bugfix
+ff9f662648651ffe0b97e45b4d0e343bbe8e4b2c|2016-06-24|Leo Experiment PC|offset works, loading much faster, float64 bug removed
+20b096e3b4cecfc61f452397bfedb551d45fe30b|2016-06-23|Leo Experiment PC|bug: yaml cannot save np.float64 values
+8dd0729f1bafcead1b6663f3c5ceb1ae95734130|2016-06-23|Leo Experiment PC|signal class nearly finished and included in pyrpl
+2bfc6ba286afb3e37a6f10e5f9aa6d810c18d4a2|2016-06-22|Leo Experiment PC|SelectRegister test bugfix and test_registers to PEP8
+9bfca1903c2a942a47bc0e82c97c362e2a4745b3|2016-06-21|Leo Experiment PC|pyrpl ok, all functionality model-dependent
+7d92b33077e0622b8a25271a20c2aa85e4b93c05|2016-06-21|Leo Experiment PC|advanced pyrpl
+38f8608438a59ecd6cd49c82a1b39b568e319426|2016-06-21|Leo Experiment PC|version numbers for requirements
+6b98a7b5aa88a391ab6e7972a94db48b49f935b4|2016-06-21|Leo Experiment PC|Merge remote-tracking branch 'refs/remotes/origin/master' into develop
+5a6848515418960422184337793ce19e1383e4db|2016-06-21|Leo Experiment PC|cleaned
+71000b949c20505d1079e79161ad33f29c9f1948|2016-06-21|Leo Experiment PC|bugfixed clean solution
+e23aa3316c47b50a43d3c88959deb81db4f26901|2016-06-21|Leo Experiment PC|cleaner solution for bugfix
+1163a4dfd14a22326811a8d8a2fe0a6497a113a6|2016-06-21|Leo Experiment PC|fixed bugs in environment configuration
+4da5b8eead789b36488a3c4942a4fdba65da1ad2|2016-06-21|Leo Experiment PC|cleaner password hiding
+fc52d33353713c333823a0c47f4c8704c257cb9c|2016-06-21|Leo Experiment PC|password not printed to screen
+e60374446b231f564e7e634b827105dec38e0a67|2016-06-21|Leo Experiment PC|travis runs tests on remote redpitaya now
+f561921402c6f763a0a43447957097fd27b1b2be|2016-06-20|Leo Experiment PC|Lockbox before model definition
+72f5a89959755feaccbdf742b03a6484339e812a|2016-06-20|Leo Experiment PC|starting on pyrpl
+586f55be7fa14ff0ef9528fcb5ddd07d4e8e34e6|2016-06-20|Leo Experiment PC|CurveDB fixed
+20eda60a5cce43e6ff02e6026f23a314b71c2584|2016-06-20|Leo Experiment PC|added pyrpl.py original
+80853d15a6ec45d0c86bfd1ef8f2cf97c67ef2f1|2016-06-20|Leo Experiment PC|config file comments are preserved
+87717eabe82fe293495014f715b3a40586b7dceb|2016-06-20|Leo Experiment PC|completion of last commit
+0c3eadf1c88032c0a1d0d93520cdc8609e4b9630|2016-06-20|Leo Experiment PC|configuration memory works
+305d8e104eb18c794f73daa388cf46efe821c085|2016-06-20|lneuhaus|gitignore
+9fe332ff7ac16e1cce8e5e203ca69775035455e3|2016-06-20|Leo Experiment PC|slight change to scope api interface to include inputs
+3fedda0dac0f5332be3db6d409bf99eda3a6e647|2016-06-20|Leo Experiment PC|starting memory.py
+f3f1a7b2d0aa0b93dacfceeae171ccd2d9af3441|2016-06-20|Leo Experiment PC|Merge branch 'develop' of https://github.com/lneuhaus/pyrpl into develop
+59d96b16f014cd79237b71d8b8f988d0d33a02d5|2016-06-13|ManipMembranes|small bugs solved
+15dd4c9387f0ccbbd0bf4f096161a44acb6d0a8f|2016-06-12|Samuel Deléglise|spectrum analyzer sub working (see PR)
+a138cdc849678308b16727205231a212a03fce01|2016-06-11|ManipMembranes|na slows down plotting when this becomes a bottleneck
+9621c502182d9444d925f37f3a43b8e945ae32d5|2016-06-08|ManipMembranes|network analyzer and scopes have save curve button
+f4afaf5e7554d771fd8f7199834395b73c47b981|2016-06-08|Leo|Merge remote-tracking branch 'refs/remotes/origin/master' into develop
+b6176d3794e3fd874312e69cc14799c55e661bb2|2016-06-08|ManipMembranes|nice averaging behavior on na gui
+c20487a11e7155de7578e2d2a9dfe8e29c842dcd|2016-06-07|ManipMembranes|network analyzer working + gui
+53de7b990c4e11e7327d1d7c8c0493529d1ea21f|2016-06-04|XueshiGuo|redpitaya.py import error
+e6655c8a4d68b9a53e7030a2e9867ba39ca46bd5|2016-06-04|XueshiGuo|redpitaya.py import part error
+788636a292630084702ea1e0a82269634d791cbd|2016-06-03|ManipMembranes|resolves bug with numeric parameters refreshing
+1db54ec710e77fa6d28f474e0e7704d990284232|2016-06-03|ManipMembranes|adds iq2_2 (output 14) for true IQ demod
+57a4930e5be35ad357b74de9ea7e450995b61650|2016-06-03|ManipMembranes|adds iq2_2 (ouput 14) for full IQ demodulation
+861cd2a941230403d415d2757a3e0a86cddcfff5|2016-06-02|ManipMembranes|gui for asg working and unit-tested
+cb534c7265f0cfcaeba2111cce354abe29827d4d|2016-06-02|Samuel Deléglise|unit test for scope_gui
+41babc0b49491002b4ffde52b4d04fd5585d5d65|2016-06-02|Samuel Deléglise|unit test for scope_gui
+c74b690cfbeb7ce22fd26cea772695ecbb1faa5e|2016-06-01|ManipMembranes|trigger_source spin box has more digits
+3603bf2335a1e6b9e43ccb78ab767b9e10c953b7|2016-06-01|Jonas Neergaard-Nielsen|Python3 (#32)
+716e558f5d1af33fa9deb09b0373519e80cbcf58|2016-06-01|Jonas Neergaard-Nielsen|Merge remote-tracking branch 'remotes/origin/master' into python3
+3cbec9cdf27e2aa8c6997b3b95c342dcd8dc2045|2016-06-01|Leo Experiment PC|Merge branch 'master' into spectrum_analyzer Conflicts resolved
+9e0a0ff7daca1726e58f458410d846f75a7771fe|2016-06-01|ManipMembranes|Spectrum analyzer (#31)
+a1813836d3dcaf2b747b8043fd2c39a6c43c1adb|2016-06-01|Leo Experiment PC|corrections in merge master+spectrum analyzer merge
+47d189a73d6b1ea93fcf81d2c0f7b68f50a57bd1|2016-06-01|Leo Experiment PC|bugfix in phase register
+c19a1df270a43e376aacc0cbf413ed69d5ff9f0d|2016-06-01|ManipMembranes|git ignore modified
+8afa2683246e260d16cc2cb962b277734fac1dc7|2016-06-01|ManipMembranes|git ignore modified
+8e0d3cb1bc0efc3ae4c6d935432c5d8bafcc043f|2016-06-01|ManipMembranes|gui for scope is so sexy!
+eec6fb1e50deeaaee8d43b99c3da6836eed969a9|2016-06-01|Jonas Neergaard-Nielsen|firstpoint and lastpoint in Asg module seems to be read-only
+dc53cc168d3ee621aab62a253c907b6742a2de74|2016-05-31|ManipMembranes|scope gui improved with settable properties
+583c2f949645c9d3e44b20c7b58eb66b31689f37|2016-05-31|ManipMembranes|solves the bug of setup with "immediately" by waiting for pretrigger data
+e15c50afb8f64971ce5dbf3d73c73196f6b4d5cb|2016-05-31|ManipMembranes|.gitignore OK for file pyrpl/fpga/red_pitaya.prm
+08d36fe1a08d5d59221241de8a4ef4e5e3e9d808|2016-05-31|ManipMembranes|Merge branch 'master' into spectrum_analyzer
+f3c829e0f3a624f231e20c9e30c74f39138c3275|2016-05-31|ManipMembranes|Scope waits long enough during pretrigger in FPGA. Unit test for scope-asg OK!
+bcc763f04026c1daa14a49467df2787d3e7c978f|2016-05-31|Jonas Neergaard-Nielsen|Merge remote-tracking branch 'remotes/origin/master' into python3
+93067d0f87d9f7960c17b5098597adb8a802bca0|2016-05-31|Jonas Neergaard-Nielsen|Fixing byte transmission to work for Py 2 and 3.
+98fea2bb3a7118b8c0eeb5d5f0a40929f92845cc|2016-05-31|Leo Experiment PC|scope software bugfix
+1ec5aec3ddab2f9a370223a520adf33389380835|2016-05-31|Leo Experiment PC|asg fix
+99b9528ed89e848df0a9199c76c79f81fff1471a|2016-05-31|Jonas Neergaard-Nielsen|merge from master
+6eee68c9f28a978e0f826e5d5d13088e9a074232|2016-05-31|Leo Experiment PC|removed pyrpl files from master
+8c2596e04cc903178372d199149cc79e11bd24b1|2016-05-31|Leo Experiment PC|fix
+890aa568eb24cc9140e23bb6e51054a80c50dd15|2016-05-31|Leo Experiment PC|curve_ready corrected, but in asg data storage emulation removed
+853bb5d2c56955d1f09e17c32bf363c7f2c30cfc|2016-05-30|ManipMembranes|Merge branch 'master' into spectrum_analyzer
+c4e283bb72bab60038c9defc665aaf40ca9e256f|2016-05-30|Samuel Deléglise|adds skeleton for spectum analyzer
+bbbe92d4af403790367e293690b63012c2f82faa|2016-05-30|Leo Experiment PC|Merge remote-tracking branch 'refs/remotes/origin/master' into develop
+0150de84381e15bc1a89c3182d284320b1ec570f|2016-05-30|Leo Experiment PC|bitfile that works
+4dab9d9e4dcf68a6b2193f225d96849b6606d901|2016-05-29|Leo Experiment PC|asg readback disabled
+ba12670da308e305d77c06231e374e4023ee49f4|2016-05-29|Leo Experiment PC|fix
+178f9445c735beae153ec735adbc66d1ff37efec|2016-05-29|Leo Experiment PC|all builds and tests work
+f91f3381fec8088c05f7d1f22ac02daac0594b96|2016-05-29|Leo Experiment PC|environment.yml not working as we'd like to
+fecd4fea3b75dc6df30a253f405d032c722d05ef|2016-05-29|Leo Experiment PC|try to use environment.yml for travis
+fe741148006b131e93df53349db68715a71a57fe|2016-05-29|Leo Experiment PC|last shot at python 3.5
+44f701b7957cc9940fb52f2f7dfc028918eb0fe7|2016-05-29|Leo Experiment PC|whitespace error
+c5ccc924fce486c177ba3eba7862b15e4a4972a8|2016-05-29|Leo Experiment PC|trying to fix compatibility problems
+54787b5963c131a19c5450ca4b06aee18382a429|2016-05-29|Leo Experiment PC|python 3.3 - compatible, trying to fix python 3.5 problems with conda
+8c5c47fd005bae5abbed925c78191a64f144d6c0|2016-05-29|Leo Experiment PC|bugfix python 3
+ef4d05eb5991244d6d2ba255fdb26f547589d88f|2016-05-29|Leo Experiment PC|tests almost work with python 3
+365a7349365815fd15f08840181dcbde08561911|2016-05-29|Leo|fixes for python. text fails in 3 instances on one redpitaya
+8314e46b9f94acde2f8818047900a4377ac69a3c|2016-05-29|Leo|bugfixes for python 3
+7a9c8e0a694304756572aac63db34b6441e6632c|2016-05-29|Leo|Python 2.7 ok on travis, bugfix for python 3 build
+ce3f745bec8bcf538a6fa7a5e312eb705e0de471|2016-05-29|Leo Experiment PC|tests with Redpitaya simulation should work on travis
+c13ac3bfb934b9d58cf472d21c0e5f59faab5f14|2016-05-29|Leo Experiment PC|new imports work
+fbd440561af3774fb5a52b0338f2c195395a312f|2016-05-29|Leo Experiment PC|python 3 compatible import syntax
+948d2eaa099fbe725d6a01d26320bff1084bc3f5|2016-05-29|Leo Experiment PC|travis - last attempt
+25729aaf919bf9d4f0bcdfd4e40449f5ed307668|2016-05-29|Leo Experiment PC|swapped arguments
+e80ab4adcc278dc1f226eb004eee67f5600926f3|2016-05-29|Leo Experiment PC|travis setup
+fb1d3f5ce586b690d6e1fba2ddaf2dd815568999|2016-05-29|Leo Experiment PC|coverage config file
+88065fd2ebd3159b74ed195a7a8f7ce6aa1b1ec9|2016-05-29|Leo Experiment PC|merged 2 versions
+acd6c5c6529aabd0ab7a1c3dc96a4bd2756488d5|2016-05-29|Leo Experiment PC|travis debugging
+06646a308d5cd424fbecbb1df6b958085cacddbf|2016-05-29|Leo|tutorial tests and nosetests work now
+c129b2179cba5a8de352251209df7360ef596979|2016-05-29|Leo Experiment PC|fixed travis script bugs and new binfile
+5ab706fe24279071ff25e2e11e5693fe3942fc91|2016-05-29|Leo|pwm bugfix attempt
+6d16e8bfb9a3c6e7212138ef14acdeb83861b439|2016-05-29|Leo Experiment PC|Merge remote-tracking branch 'refs/remotes/origin/master' into develop
+3252829790038a7053f196323792b9f169b15677|2016-05-29|Leo Experiment PC|binfile up to date
+2e0df7ea3dbb7ef5ea6ec84b22e199f880f84452|2016-05-29|Leo Experiment PC|next attempt travis
+0afc8b3c5606d9ade863f7edf892298fa2269c4b|2016-05-29|Leo Experiment PC|dir problem with conda on travis
+6589b2eb28520a81ee5d174b69e3be8572570acf|2016-05-29|Leo Experiment PC|Merge remote-tracking branch 'refs/remotes/origin/master' into develop
+85b83999c2c511b042d46cfe76a247cdc8934305|2016-05-29|Leo|test travis
+1c0fe6601568bf83b0acb755b5cb67eda912f1bb|2016-05-29|Leo|fixed little bugs: Nosetests passes now
+e9137a4613429b1ab5ab225774c6da83c8206a7f|2016-05-29|Leo|Merge branch 'develop'
+2a5cce8b7dbf357758158d04a0840c3d907b2e54|2016-05-29|Leo|Merge branch 'master' into develop
+2e43fe2b6ecf586cd6fd0fd42e27dafa6c1e14c1|2016-05-29|Jonas Neergaard-Nielsen|Fix authentication error in tests (#27)
+608999f3a34f93fe092da0e4f96eb9b736bba7a1|2016-05-29|Leo Experiment PC|solved conflict: Merge branch 'develop' of https://github.com/lneuhaus/pyrpl into develop
+0e3d8684b031963a54b1fbfd0b7edbb8645865e2|2016-05-29|Leo Experiment PC|small fixes
+581b6c90e02e741812d4e62a85370aaad64a6d1b|2016-05-29|Leo|binfile for pwm, bug still there. Disabled IIR coefficient readback for more FPGA space
+584d90bc000187fcef1e65725142def7619a2b55|2016-05-29|Leo|pwm bugfix
+d0410a67223756c399c4e5ceaa2546f490fd37b2|2016-05-29|Leo|correction
+b8f10cce2978eb36978694c16c00c5df10d0ea32|2016-05-29|Leo|Scope changed, gui merged
+313782ae6de7bfbab2fc05dea4be9682f573b09a|2016-05-29|Leo|PWM set up properly, to be tested
+2a46913a5adf62a9e2259a49aec06eee9f6e3f70|2016-05-28|Leo Experiment PC|logging works fine now
+1b3475d31acd2e78764fd0375cf6726f3dc6ee2a|2016-05-28|Leo Experiment PC|Logging implemented, PWM advanced, OS environment variables can set connection parameteres
+dbe13c0095b6ca168f9c59b973ebde9d7d05a469|2016-05-28|Leo Experiment PC|3rd try to make pwm work
+db0911d5c1f6572e717298b9f67892dc9983a06d|2016-05-28|Leo Experiment PC|bugfix in attempt to connect through random port
+075637921d0c68faacd70f69204ed05b46f53bfd|2016-05-28|Leo Experiment PC|ssh connection exception added: automatically retry connection
+d1c7a727584d1bf80f4848acd78862fc0a86c30b|2016-05-28|Leo Experiment PC|binfile
+74e751744c4cc5f3811b1af7908970ff92578b34|2016-05-27|Leo Experiment PC|bugfix
+e25b861a7ee221b31651025f16a0d942fe075556|2016-05-27|Leo Experiment PC|second attempt to get pwm timing right
+0e2a54d4196d502144932e76925be85a9c69a20f|2016-05-27|Leo Experiment PC|updated travis configuration for next try
+674cb4572b5123b16d57e2cbf1baf72ff893d2c5|2016-05-27|ManipMembranes|basic gui scope works fine!
+af320ff28cce10772e4684bb142122369da28cb1|2016-05-27|ManipMembranes|gui started
+c995481f700f6f037fc15f00270de52b835703ea|2016-05-27|Leo Experiment PC|default saturation thresholds for PID are +-1V now
+446d453160a9b8321ebd0071f6b6e82b33513f7b|2016-05-27|Jonas Neergaard-Nielsen|Typos and a few PEP8s.
+dde3190e811f03de23d821470c01d353c3c07ab1|2016-05-27|Jonas Neergaard-Nielsen|Modify all tests to allow setting RP password in environment variable.
+3a2daf3c5acc9489705de13ffac8efce5c81c736|2016-05-27|Jonas Neergaard-Nielsen|Update test_connect to read password from env. variable
+5769afc5e4e2cdb27e0143cf0bfef94b86eadfa0|2016-05-27|Leo Experiment PC|normal update
+55c35cee3d1a8626739254c0bf721b7b5f3c917d|2016-05-26|Leo Experiment PC|Merge remote-tracking branch 'refs/remotes/origin/master' into develop
+c31002ad1cae73eae6552e96aa8f1e298dedb804|2016-05-26|Leo Experiment PC|.binfile for latest changes
+5745756169751acecd16f8b5ec2f967b98dc0b6c|2016-05-26|Leo Experiment PC|python code for pwm outputs
+051607ff8a4b7e8ae6558eeb10968513ba15966c|2016-05-26|Leo Experiment PC|PWM outputs available as DSP module
+d35e8d437a187d6991a6c07967d0e89ab19ff3ed|2016-05-26|Leo Experiment PC|PID voltage limits python code
+ad62017b14a36f81730c5c0c2e71fbb74f5db7b8|2016-05-26|Leo Experiment PC|PID output saturation
+052edd0f8d85c13b25ee9c27daefe1e0d4d3fd7c|2016-05-26|Jonas Neergaard-Nielsen|Added conda environment file. (Use with `conda env create`, `source activate pyrpl`)
+8afa9148bcf5e0b993e057684392ffe5a2628e6b|2016-05-26|Jonas Neergaard-Nielsen|Added `monitor_server_0.95` to package_data to make it available for copying when installing server.
+a1632759f7d2897be383598b3fda51ba3fa629dc|2016-05-24|Leo Experiment PC|fixed typos and sources of confusion
+b2db6e08a8be4f9691dd8ba4705cde8e3472cf64|2016-05-25|ManipMembranes|new attributes of modules not settable at runtime
+692bdc2821aa33b6bdc9d34d21111d1ad44af723|2016-05-25|ManipMembranes|Merge remote-tracking branch 'refs/remotes/origin/develop'
+4d498ba04e5ebd8c3900771704b6abcb45cb568a|2016-05-24|Leo Experiment PC|demodulator cosmetics
+04b41848b21f40607187faeaf5af699a008a164b|2016-05-24|Leo Experiment PC|Merge remote-tracking branch 'refs/remotes/origin/master' into develop
+b46e486e28bd6d88842167db2c6ba9e1a13f07e4|2016-05-24|ManipMembranes|bitfile for last merge
+81fd80664efd162f916d1dc9697f4d99177cb9dc|2016-05-24|ManipMembranes|bugfix (#23)
+d2ce601278d1191d661ae70c938231401e99fa00|2016-05-24|Leo Experiment PC|derivative control is back
+601b81eab435579a067fbd4be38be22b0220c001|2016-05-24|lneuhaus|low pass bandwidth increased and derivative control restored (#22)
+7efd22fc486589c3b82a540f464f75965b56e44f|2016-05-23|Leo Experiment PC|Merge remote-tracking branch 'refs/remotes/origin/master' into develop
+2594666253e81a57f4a5186697761373a81f7b0b|2016-05-23|Leo Experiment PC|FilterRegister bugs fixed, works now, filter bandwidth extended
+ec3151a6cc9f954d018fac281bf3cfc9d67a96d1|2016-05-23|Jonas Neergaard-Nielsen|Changed fpga file name to lowercase for POSIX compatibility.
+59b05c95115e1806a9856bc9ebf4c42b0cd32369|2016-05-23|Leo Experiment PC|increased all filter bandwidths except for input highpass
+238cc6bea76027a09ef4d09a78dd2038f3c58ac7|2016-05-23|Leo Experiment PC|FilterRegister renders redpitaya_modules more readable
+2c90aea87c1c4f2eea19614f34e0e865394bd511|2016-05-23|Leo Experiment PC|Merge remote-tracking branch 'refs/remotes/origin/master' into develop
+c7929a249b1147661638f2cfebd8332f623b4d7d|2016-05-23|Leo Experiment PC|Bugfix NA Flatness issue
+5f7925932116b48ff90473c5c89d6edd87121cd8|2016-05-23|lneuhaus|Fixed NA flatness issue (#20)
+3564d2e02f6887c9b4fb07a8009e48613d7ecb9e|2016-05-23|Leo Experiment PC|This works on my 2 computers. Still import problems anyone?
+47c09c57520eff20f81feed3197f206b368f370c|2016-05-23|Leo Experiment PC|PEP 8 autocorrect undo
+e855a73b31a1854976007e5d11a9085db286c3ac|2016-05-22|Leo|Merge remote-tracking branch 'refs/remotes/origin/master' into develop
+9c7917bcdd8bb9aeed5faaa2961031bdfcf2be71|2016-05-22|lneuhaus|RedPitaya module basically works (#11)
+a4258d8ebef81af007e6872a5b041dfa21f88bb2|2016-05-22|Leo|trying to resolve conflict
+0d0968e46de02b98e75115ba72493069bcab7340|2016-05-22|Leo|tutorial ordered
+3bdbfa77bc683ed609e9f57f0135643f484851d0|2016-05-22|Leo|All RedPitaya modules validated
+a41157a1997fd1cbe49b35df436f5660cc98d376|2016-05-22|Leo Experiment PC|new binfile with nq bugfix
+9d23e250cacee02c5c6a389d160083eb3c33fbe1|2016-05-22|Leo|na bugfix in fpga
+204bca258e8b534be32444ff769d9190937fc13c|2016-05-22|Leo|bugfix output problems: outputs visibly work now
+b6af9cbdd96267a5ac05bfbc83dcc6bcb3f5b65d|2016-05-22|Leo|tiny makefile change: only 1 version of red_pitaya.bin
+06cea979023bc7db621939004b340f1d0c52e7d1|2016-05-22|Leo|output bugfix attempt
+0f1ed10e20a18fb961df413b5ddcba8e1df8aaf3|2016-05-22|Leo|conflicts resolved
+474c7eeb978da7a3997f1d9e12547d93c7d55ff0|2016-05-22|Leo|tutorial advanced
+551b25fc8c12a962834d25c30d59de22eeb76b9c|2016-05-22|Leo|some bugfixes
+a796a33df6567fcca686808146cb562b09308b3d|2016-05-21|Leo|unittest ok
+a2a1c424725b0d2e4b9e63afb039fff187a4d7ae|2016-05-21|Leo|removed bug: trigger_armed was inverted
+3ab75d6d21c0197ea99e78991955453f2b56efec|2016-05-20|Leo|tutorial updated on pullrequests
+7a5914ce5c99d999a43cf069239ad505ac2a4655|2016-05-20|ManipMembranes|compatibility 0.92, counter works and tested (#9)
+75b8b3106e43762c9bd7d3a0ea1e9de9e5c0e2fc|2016-05-20|lneuhaus|pull request exercise (#8)
+c105921b1b0d8e63c6a34af6119e92e6f51c5671|2016-05-20|Leo Experiment PC|pull request exercise
+265bfa99979784cce90ab27774f6926e426a9124|2016-05-20|Leo Experiment PC|LongRegister returns python type int, which is auto-converted to long if python detects a long value
+b285660f1978dbbe13f19ae5f762257711e50f54|2016-05-20|Leo Experiment PC|test addition
+48b0a6070f7d489a550cb6673b7a2fe85346ce80|2016-05-20|Leo Experiment PC|fixed test issues
+f49ef8cec8be1f97512b65e25f21c3f2d76ab704|2016-05-20|ManipMembranes|compatibility 0.92, counter works and tested (#7)
+d3c4f3528bd5e0e6f9047c35cb0c1b7ecccf7dee|2016-05-20|ManipMembranes|Scope timestamp counter (#6)
+3f7cb5893b4ac009c09987b29e834e8bfaa2826a|2016-05-20|Leo Experiment PC|hostname='unknown' starts simulation mode
+ff5c849c9a712f1d07ec9e2879cd3becc2782c90|2016-05-20|Leo Experiment PC|more exception handling, serverdir changed
+e108b508ff70174333532fcdde894f36ce9c4de1|2016-05-20|Leo Experiment PC|comment
+6dbfef52c6e27b978b9d803c2fbea883cafc39ad|2016-05-20|Leo Experiment PC|improved connection robustness with ecosystem v0.95
+e5568cd40e4498f0f1ad126f00c6e7391f564fa1|2016-05-19|Leo Experiment PC|FPGA change: up to 8 biquads in IIR module
+b68463781b36befdc241cca5623c6fe4669e1619|2016-05-19|Leo Experiment PC|Both outputs should work
+420eda3208897a033bb5a5e26f082acec00328d9|2016-05-19|Leo Experiment PC|Adder Tree in DSP module: Compilation works now
+9e1bb2567de968cecfad68b0a65b606606a83cdd|2016-05-19|Leo Experiment PC|bugfix: solved binary incompatibility with ecosystem v0.95
+a587f91b44af767f6eea04a51ceee159468f064a|2016-05-18|Leo|trying use of os.path.abspath to autodetect directory on any system
+5f6539d18d4a3d89afd742d988d0a1ce699d63fd|2016-05-18|Leo|all registers are validated by unitary tests
+374b4a16ab5e5edb9819f19ca5791e60edc20a3a|2016-05-18|Leo|found and removed bug in output summation
+2979ba772799a61642b341745a6a7ddfdbd7ff6f|2016-05-18|Leo Experiment PC|last asg bugfix: asg interface ok now
+377ae13682d9a733d53dd6ee2034b7ba97adf7ee|2016-05-17|Leo Experiment PC|Unsigned Float, reviews of classical modules finished, bug in float with bitmask fixed
+0dfceb10397d2b093da7ba9490925f1742bf072d|2016-05-17|Leo Experiment PC|LongRegister, asg fixed. Tiny bug in bitmask remains
+4fbe86981d8765cdcff7c3768a156d3b1e201e70|2016-05-17|Leo Experiment PC|bugfix for jerome
+e9a8bc3b9e99231ecfa1cdc763e9b38d3369f764|2016-05-17|Leo Experiment PC|Merge branch 'master' of https://github.com/lneuhaus/pyrpl
+116b637a27e6d9ca385cd6338d1960bbda7f9b7b|2016-05-17|Jerome Degallaix|Update tutorial.ipynb
+226a27ef2cb24c10661f09225cd3e1d53f422100|2016-05-17|Leo Experiment PC|tutorial updated on installation
+30c301db76336884dc940128c0bd968e56bd0e98|2016-05-17|Leo Experiment PC|redpitaya.py: Throw exception at error with dirname
+479436054d83f84ecfcb3e1f335ac7c78ac26ad9|2016-05-17|Leo Experiment PC|tutorial updated
+8c29c5aba5d51678b3115aa376cae4ae490b58b8|2016-05-17|lneuhaus|Update README.md
+3e889d359e1fe35803d85bab6c8b377d3fb893fc|2016-05-17|lneuhaus|renamed file
+8c292f5027c5e4e28719a1e3728e48a95bb1a5c1|2016-05-17|lneuhaus|ok
+9e5b3bfe78cee7e8550ab4fcb76fec19dc81f29e|2016-05-17|lneuhaus|links corrected
+df9b4d99e34d4447915fb8c9899f7953ae92630d|2016-05-17|lneuhaus|tutorial link
+1968e3e53af055ada3618d9d56bb0a597816046c|2016-05-17|Leo Experiment PC|switched off python 3.5 test for now
+3b0a74bb9037a5571af8788b076e38a844018549|2016-05-17|Leo Experiment PC|compile fpga and compile_server options
+ae75d8777a7a8181c3d6c34a9f0162031d98efb4|2016-05-17|Leo|trying again
+c8a086c20955067990c2bee486b98a35b3dda48c|2016-05-17|Leo|fixing issue with rights on travis
+038ecf2e112bf820488bcc851fbb8b3051d1bd55|2016-05-17|Leo|rudimentary test with travis for python 3.5
+e6e6f49d500ab28b032778d19018abd69d59d6e2|2016-05-17|Leo|tutorial online
+077646dd121c277f24f9d04019c44e31107f622e|2016-05-17|Leo|unitary tests started
+365437d9e8fe8f8625ef1f3a75be8f50abdde203|2016-05-17|Leo|0.9.0.1 descriptors ready
+2803414fcc542ac56867487422017488fc33bc2b|2016-05-16|Leo|9.0.0.0.5 descriptors half-way
+6be3671350d0d9112761586fa8dbb6a362eeed8b|2016-05-15|Leo Experiment PC|small details
+76f9d6a27e642c5776569334ec9f399707bc3713|2016-05-14|Leos Auto-PEP8 Bot|permission acces for travis
+97eed6477bcca8b6fa424c9e96c06dead21d8678|2016-05-14|Leos Auto-PEP8 Bot|.travis save
+ec0b48686ffbde78593ca20597d01dd74670586f|2016-05-14|Leos Auto-PEP8 Bot|build should succeed with corrected scripts
+5b0e167979c7d7ef3834cffdbcb4548221398064|2016-05-14|Leo|automatized AutoPEP8
+50ca70a98b51475a8fc9d15c81142359edaef14c|2016-05-14|lneuhaus|Merge pull request #1 from lneuhaus/auto-PEP8
+c54c9b3778282e10a012962ebe71794796b171eb|2016-05-14|Leos Auto-PEP8 Bot|PEP-8 Fix
+b95662de7345b1bd2cafba52120c89b54ef55ebf|2016-05-14|Leo|attempting Autofix PEP8
+16f4adfa8e45c86cfae27f80409bfca241976479|2016-05-14|Leo|8000 PEP8 violations - disabling auto check
+bf2ee58e29a769d43e9e48464fe2b31d7b73ea80|2016-05-14|Leo|travis file errored
+ff274772aceb37ca2a0f3329c23ab211b6520514|2016-05-14|Leo|trying to make things work
+01329ac398573cf80ba8bea4d732de0df783911e|2016-05-14|Leo|next try with travis
+c99d0412fd95912d33050f2be640f6dee0839fdf|2016-05-14|Leo|now travis SHOULD WORK
+8d07dc33bfce6f9e00729979b9c10b2377f5f2de|2016-05-14|Leo|still travis errors
+589b8ab8600624610707d271be1f384657e74ed6|2016-05-14|Leo|github windows keeps showing virtual changes
+461916a50b89ed4e3b4dd40e1f2e10c848dde0b5|2016-05-14|Leo|travis forgotten
+e489cd0f60f8efc7713a2a657e419eb7954b082f|2016-05-14|Leo|removed premature import
+4003f4dd9ed51a5422d901897de2037e6fea6cdc|2016-05-14|Leo|cleaned up directory stucture, unittests should really work
+b85f648cd6105c26cde5f07e5c29a637564d7f95|2016-05-14|Leo|travis
+3f115cb17b6674d4e7a8009203774d99f4f382d7|2016-05-14|Leo|another try
+a41ac82a8b2f5b98e18aeecaff731fcddbe725b4|2016-05-14|Leo|setup improved
+ff9561141c81333b8d903d12ba185c6e895086e2|2016-05-14|Leo|unit test import okay
+33197971698a3a805e6efe7f2f576780b7c8ed11|2016-05-14|Leo|debugging travis CI
+42dfd7adc1886e195bb3a93ae04d2800c3ded0b3|2016-05-14|Leo|new fpga build
+c12d027282b39110337f52341bf75c1b3e4767a4|2016-05-14|Leo|0.9.0.0 initial commit
+9edcd3674dfc2bf35703c497e9dd36d1f35b16ce|2016-05-14|lneuhaus|Initial commit

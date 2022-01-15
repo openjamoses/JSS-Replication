@@ -1,0 +1,116 @@
+2c2725b3915ae524b4320dd3d54becffc505856f|2013-11-20|Luke Macken|Install ctypeslib==dev
+e77a9985c215188190055bc2c484aea2a933fc7d|2013-10-02|Luke Macken|rngd --timeout has been removed
+aee3b0ef494f46f2c2fafd7ef01afbf68334e734|2013-06-22|Luke Macken|rst whitespace fix
+55ef475b4a8c9a0293f4b7bc0c41456c888ed511|2013-06-22|Luke Macken|Document using the rngtest tool to ensure FIPS 140-2 compliance.
+72ad510e521fc174863ebd3f7b5499907fc54758|2013-06-20|Luke Macken|Pass six.b(hex) into binascii.unhexlify to get the tests working on py3.2
+c5f85720d74d45060fbfb95aee7e662830204195|2013-06-20|Luke Macken|Add travis and coveralls pins
+d65ee8f51c39e075a4c6cd0e20486014c2c371e1|2013-06-20|Luke Macken|Skip tests if NumPy isn't available (on travis-ci py3.x)
+6f821597eb3adf39eda339ed89fb604ca7b11512|2013-06-20|Luke Macken|Install python3-dev on travis when necessary (for NumPy).
+ff62afd4c173d9457df5424a9f073c8afb580f75|2013-06-20|Luke Macken|Implement next() for python2.4 and 2.5
+c5a320cf2824db0c4188e2c422334f011a7592d7|2013-06-20|Luke Macken|Pull in coverage
+d68288c8d7b3952d4644fd476d62bf78a3315be8|2013-06-20|Luke Macken|Require numpy
+83e27d77d1b5f7c52b08d38df5eea5c37975a4bb|2013-06-20|Luke Macken|Use six for our byte operations.
+f61dd3926e8fd4a07d4730a6f97f830cb7f760ae|2013-06-20|Luke Macken|Require simplejson on py2.5 as well.
+40185d1439a7f25c4dbe588666cd8b945c8934e8|2013-06-19|Luke Macken|Fix our sys.version_info usage for py2.6 and earlier
+703647e9eb6114877aabda769dc80a662b823e4d|2013-06-19|Luke Macken|Add a .travis.yml
+19c12511e6c57709a44a4da9be08ac065c6e4f7f|2013-06-19|Luke Macken|Add a .coveragerc
+fbe5d4487c6acb37d4893e204a0a93e39ff7e4a9|2013-06-19|Luke Macken|Add PyPI Pins to the README
+0f372c60376e9839dbae1565fdde5e46b18dcb4b|2013-03-27|Luke Macken|Add tests_require deps
+2f4cb3ded5739bb45d6de28bb738d832c7039d13|2013-03-27|Luke Macken|Test the max limits and lower ranges
+7f150982e82ab0a2141d85e4ca5a208a06d54c5d|2013-03-27|Luke Macken|Use the surrogate and mock modules to test the QuantumRandomDevice
+608f980f077c0adc4ba2930886355b7cab18ec56|2013-03-17|Luke Macken|Merge branch 'release/1.9.0' into develop
+a53bb1e7d8580bf572b261c84d065e0473d6543e|2013-03-17|Luke Macken|Version 1.9.0
+e31db4981d73e4a260c7a7f289767b5425390d4b|2013-03-17|Luke Macken|Merge branch 'feature/python3' into develop
+1e7b4ef40c2d2cac2b461f866f86a081917c6a2a|2013-03-17|Luke Macken|Documentation improvements
+472a83a10393b65a22d685a5eab834f9e05c8094|2013-03-17|Luke Macken|Python3 support!
+9e30552685812b88380c28ea8cff255f3634cf4a|2013-03-04|Luke Macken|PEP8
+eb36b7dd1347ec2c3a7e480001d6700d95f7a876|2013-03-04|Luke Macken|Update the copyright
+dd4286461ff18a13007bce5e28d2be30abe57ebf|2013-03-04|Luke Macken|Merge branch 'master' into develop
+1ec4c9517832c1bc5405cd6427460d4808e24ab5|2013-03-04|Luke Macken|Merge pull request #14 from zestrada/master
+62af88e2d5177764c2e2d86e56675a053d96a964|2013-03-02|Zak Estrada|Cleaned up and fixed off-by-ones
+2b89af4b84302dbaf0f37cc1edfa997bce475968|2013-03-02|Zak Estrada|Added block limiting to commmand line util
+257168928fee5b11ba14580e058402797873328e|2012-11-17|Luke Macken|1.8
+7c9368d9bd5ea031611503b107cd8bc2affc3dc3|2012-11-17|Luke Macken|Merge pull request #13 from ekimekim/master
+4a474dad6dcf7c568e5ca1f4970ea1578d389062|2012-11-14|Mike Lang|Fix an off-by-one error when using range as a bit width.
+d4ddf8cc006045d9436e946d85e49657c6a666bc|2012-11-13|Luke Macken|Merge pull request #12 from ekimekim/master
+ad75acc0450b65bf9a15c962dbc1c9fa31aca4d2|2012-11-13|Mike Lang|randint now supports ranges greater than 65535.
+7c53846b7759375bc11af41f87885951d559a1f7|2012-06-14|Luke Macken|Merge pull request #9 from ekimekim/master
+9844964aed5cb58243f19b869216d625522f19e9|2012-06-14|Mike Lang|Support to cache random data, eliminating latency.
+44d5b9e2a0df3cf60f86ade36806990a72ef572e|2012-05-04|Luke Macken|Make it obvious that quantumrandom.uint16() returns a NumPy array.
+2e2af2c8004d2ebce43c67f7e70a00aa4f57cb78|2012-05-03|Luke Macken|Merge branch 'release/1.7' into develop
+08afeaeb7ee60cc43e9766103e186ca7e1fd486b|2012-05-03|Luke Macken|Merge branch 'release/1.7'
+c696696e3077cccf403e76da34e3f6f6ee55cf9c|2012-05-03|Luke Macken|version bump
+841940241c552b4d742e8c81a29d9b35dbe956e6|2012-05-03|Luke Macken|SSL/TLS support!
+780b496123894495c94c8835661506f921a1c3a2|2012-04-30|Luke Macken|Merge branch 'release/1.6' into develop
+ec2b7325f2113e6f4bd9ae9b14a7e037a933f261|2012-04-30|Luke Macken|Merge branch 'release/1.6'
+8d0c16e342f6ed4398a68986b0dbf450202ed25d|2012-04-30|Luke Macken|version 1.6
+06626f1d5afcaab1e4c6762356074752df1448de|2012-04-30|Luke Macken|Remove an unused import
+a77c2e44db465931f8ae7177f2d95522303963de|2012-04-30|Luke Macken|Update the URL to qrng.anu.edu.au
+87eba596d8568755448bc7586e2a4d98a1f8d2de|2012-04-27|Ralph Bean|Death to modulo bias.
+46c4c2843137c1b1c65d1668521137f3c76798d5|2012-04-25|Luke Macken|Merge branch 'develop'
+075d757a83609fa0a6185fdadb3a458351aeb9d4|2012-04-25|Luke Macken|s/g++/c++
+0e49ebddca042a2cfafe13e4d554ceff7266a200|2012-04-22|Luke Macken|Merge branch 'release/1.5' into develop
+39488dce8ee73d24bf2bbb1a8f7683b1a533c494|2012-04-22|Luke Macken|Merge branch 'release/1.5'
+f74256177b6916036c60712d4d75493368853487|2012-04-22|Luke Macken|1.5
+acba509b3853f31dd0eee40e8d06653abcbbdc25|2012-04-22|Luke Macken|The max array and block length is now 1024
+dba1e5f693c7979a5c0102dea8932a79aadd4ebb|2012-04-21|Luke Macken|fix an rst warning
+9dd6bd3d057b40fe0ac7618708aba345de058350|2012-04-21|Luke Macken|update our url
+487db5c32609a220c6f3001e631b61d36574c07b|2012-04-21|Luke Macken|add a manifest to pull in the readme and test.py
+271613e97efa44c7ce2bcc28b215f6ea2c5ed0e9|2012-04-21|Luke Macken|Merge branch 'release/1.4'
+4b55f0cbbbf06b996c98565012bf674b97d46c4a|2012-04-21|Luke Macken|1.4
+8396c542f4d365e5711e41e6b659bb91f40c71bf|2012-04-21|Luke Macken|readme improvements
+1d9b9b375f0c8a64db5e266295325d2cd7fe4eaf|2012-04-21|Luke Macken|docstring tweak
+f79bd9ed23de934ac4db39ed9543d07a64bd6109|2012-04-21|Luke Macken|Make the number of threads configurable
+61b76d95109979c06b2ad5f9de0ea45dc5371e24|2012-04-21|Luke Macken|Set a max buffer size so our threads can get some sleep
+a1efe72fd006293098bc33cd6899cd34c9397f5c|2012-04-21|Luke Macken|Tweak our rngd example options.
+68a453fee22c453184738b8cef48215f6e2c2ab8|2012-04-21|Luke Macken|improved cuse instructions
+59129f3a1e395df57a1e1ff5ee4670073bb3d963|2012-04-20|Luke Macken|Create a qrandom-dev command to setup the character device
+c5f5cafcab28603c596d36c7d346bb326b2a98fb|2012-04-20|Ralph Bean|More PEP8.
+11fcb67a5786a64f4e8f5bc8ce296eac3bca5c6f|2012-04-20|Ralph Bean|One-liner.
+2a4b04eae41177d4d38caef0ce2c74df34ec5df2|2012-04-20|Ralph Bean|PEP8.
+fa45f9a3bf750ce9af0e1ae62bbe8b7216ed5d15|2012-04-20|Ralph Bean|Unittest for randint.
+6f40142d96dbcd52ad6168956f0e806264a74a86|2012-04-20|Ralph Bean|Randint should not return a str.
+c8cdc172f3e81d2a1dd898dc67616618b5617913|2012-04-20|Ralph Bean|randint and --int option.
+025de9380f86c02aa93bf41f156f8d97c80a5007|2012-04-20|Ralph Bean|Gitignore.
+7c19fdfba42eb38b17648a25e10747213cce7fdf|2012-04-20|Luke Macken|README updates
+2991490353401492e5a6f3c1b9c8acd9e031abbc|2012-04-20|Luke Macken|Add a qrandom command-line tool
+3b296cad58fb67bb7b2bd7ed7b6de09c1d91947e|2012-04-20|Luke Macken|Add 3 new higher-level functions: binary, hex, and uint16
+5927322496d4afc1fdad445f68769fb7cbaeb6c4|2012-04-20|Luke Macken|Add a multi-threaded /dev/qrandom userspace character device
+296c785a375b15e5b1f9ae376ca89fd30693a6bc|2012-04-18|Luke Macken|Add a unit test to get our coverage back to 100%
+34b9b356ca0b380efdeb40971111001c566812c7|2012-04-18|Luke Macken|1.3
+e4a5d352095727ed46a1620b07b999cf2173f118|2012-04-18|Luke Macken|Make our simplejson object hook handle unsuccessful API calls
+e8bae48af083192bfa65ac38d893ed57f20ff480|2012-04-18|Luke Macken|The block_size cannot be larger than 100
+b636cf94aefc66f588eb68305560cc9cf6b5fb02|2012-04-18|Luke Macken|We are only dealing with ASCII characters in our data strings (hex).
+b4c5863ced29809a3a87c72cfe1aa565cd27c856|2012-04-18|Luke Macken|Pull in a py2.4 compatible simplejson if needed
+8f89ae2d0a7d8e4bedb670fd037a88b87d28f107|2012-04-18|Luke Macken|Make a note of our sanity checking
+3008e7c6656fb8613d5dd031abdfbf0fcc27dcf7|2012-04-18|Luke Macken|Return an array of data, only upon success.
+00ffc1950acc91924f847b745f150958041e6d46|2012-04-17|Luke Macken|Their JSON API now returns integers for length/size
+2bc7e97ab32c7e38086d4d35477e17b508f1ff2f|2012-04-17|Luke Macken|Their API now returns integers for size/length
+3d611a8c5c4cb7629ddc605d2ae2a59d9c45faf5|2012-04-17|Luke Macken|Fix a readme typo
+0138c6cb5abf42e754cf945ad34b7a2e078c2024|2012-04-17|Luke Macken|Add a test to fetch the largest array possible
+2dd34cbe260f0726e4931510f4ee5dea2f8f1b52|2012-04-18|Luke Macken|Add a unit test to get our coverage back to 100%
+46eff03b26f00b1b697b385574e02f3df2a1e002|2012-04-18|Luke Macken|1.3
+d76898d0aa176a347ea3749b051eac38705949e6|2012-04-18|Luke Macken|Make our simplejson object hook handle unsuccessful API calls
+f32c165eb1060091796fc35655a45633f5649029|2012-04-18|Luke Macken|The block_size cannot be larger than 100
+3c28d0c1e1bc84b048585517e0f47abf8d1fa457|2012-04-18|Luke Macken|We are only dealing with ASCII characters in our data strings (hex).
+df138049169424872c3090c49ab5c7cb399cbe0f|2012-04-18|Luke Macken|Pull in a py2.4 compatible simplejson if needed
+4a2e83d17385445a4d560efd73c7ff8113df892f|2012-04-18|Luke Macken|Make a note of our sanity checking
+826b8ff2b3b3e775d277bc40be9a5244ff1d629d|2012-04-18|Luke Macken|Return an array of data, only upon success.
+07d417e006ecb1bc78d509dd57fcc1af4a011492|2012-04-17|Luke Macken|Their JSON API now returns integers for length/size
+7eb4efcd14ea7368262f2536b2deb39aa3877353|2012-04-17|Luke Macken|Their API now returns integers for size/length
+d49c50547a011c901659f36b125774e10ec9f5c9|2012-04-17|Luke Macken|Fix a readme typo
+94acc8571af93b4953987c85d61c1221a20f0353|2012-04-17|Luke Macken|Add a test to fetch the largest array possible
+c4efb2ae2942ea04655f9fb04fd3278456d87c19|2012-04-17|Luke Macken|Merge branch 'release/1.0'
+cabf407db0e8de6b80b65062f529c31566b44cf2|2012-04-17|Luke Macken|We're at 1.0
+a0a1127c97aab7f87a0cb186e150c98d2be6db9c|2012-04-17|Luke Macken|Test more edge cases
+4a1079417e4ec09a754c55e5152e1bacce96d6ac|2012-04-17|Luke Macken|Remove deprecated scraper functions
+2d8434cbca9f959873989d70ab24f1af0ec1c92f|2012-04-17|Luke Macken|minor readme tweaks
+c970def40075f8a7d8dc71742e82576ea840ffce|2012-04-17|Luke Macken|readme formatting
+899c03e7006170d2c6c1d291ff179c6e876176f9|2012-04-17|Luke Macken|Add a quantumrandom.get_data method that interacts with their JSON API.
+1369e2b80907ece2a759bb12e140799c637c1437|2012-04-15|Luke Macken|0.2
+c1f2fa109bcdde146c0d41e96f2062563fc7c3f6|2012-04-15|Luke Macken|Make our functions self-asserting so we can make guarantees about our API
+4fd64b7d1500aa837ebff83c9be24b3f4008d890|2012-04-15|Luke Macken|Return an ascii encoded string
+e62d818d71e53d65f41230069206061d319a6135|2012-04-15|Luke Macken|Add unit tests
+d56d8618c911692ac42e8f39cd031c093ecd26ef|2012-04-15|Luke Macken|Minor refactoring.
+d799fff762353bb6a5fddf983489dd278d2abb44|2012-04-15|Luke Macken|Make a note of the lack of SSL/TLS
+6b936348c4d59f252be299c7212475ccb292f551|2012-04-15|Luke Macken|Initial commit

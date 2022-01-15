@@ -1,0 +1,250 @@
+25b94ba8c71c7fb40b8a2d97779b88ca73afc1d4|2020-09-30|Matt Amy|Removed initial layout information
+6f11f274298bd8affa62bafdbb21eab51ad30720|2020-09-30|Matt Amy|Fixed bug with reporting incorrect layout with swap mapper
+c9bcaf0965c3a67e59eb9905b59081202559e913|2020-09-08|Matt Amy|Added information about the physical layout at the end of the circuit
+404d704fca60c5f091e3df669ffff3cd74161d1d|2020-09-07|Vlad Gheorghiu|Update CMakeLists.txt
+f1951ac6f08c3803f5face2868cd332425d874ca|2020-09-04|Matt Amy|Merge branch 'master' of https://github.com/softwareQinc/staq
+6327a053852310666e375cb5a913586e0270fb5e|2020-09-04|Matt Amy|Fixed precedence of (unary) -
+4efde0c6795cb3b58623f71f140c966e454698fe|2020-09-01|Vlad Gheorghiu|Update CMakeLists.txt
+b477b243068bfc618b9b422ec28df35654c86740|2020-09-01|Vlad Gheorghiu|typo
+8a3540031451e000ae21d3620bc688d481f023b9|2020-08-31|Matt Amy|Added layout information to qasm output
+6446a48afc4ba094cb01b11a78cee417e530f9b9|2020-08-31|Matt Amy|Reverting desugar to original semantics
+4d1dd404d9169a01817b848b533fe69c262b1d70|2020-08-31|Matt Amy|Added barrier merging
+03e968ae0987b92e6143707ba404925f5d4cadf6|2020-08-31|Matt Amy|Expanded support for scientific notation
+ae1d1282881d8f03412dabcb596b4d9f08702578|2020-08-28|Vlad Gheorghiu|Update .travis.yml
+73ea505e470d966bc0ac8f9dff68cbe96ce918a3|2020-08-28|Vlad Gheorghiu|Update .travis.yml
+5dceb30591c5555ac9a07c7b803f83a2190659ba|2020-08-28|Vlad Gheorghiu|Update .travis.yml
+ea9dbfd47728779833719a5ad65c8e9ac5b208c5|2020-08-28|Vlad Gheorghiu|commit
+dde90aeaa15e957136a1232467590ff49fe696c5|2020-08-28|Vlad Gheorghiu|Update .travis.yml
+0b242c90185bc7cee65a739ab3dbe65ee845bc64|2020-08-28|Vlad Gheorghiu|Update .travis.yml
+3f853c913e0b0a420cd04e2a101bb243c6e5e415|2020-08-28|Vlad Gheorghiu|Update .travis.yml
+0cd0b26aa71da6289e455d5c4ccde87c93f42c47|2020-08-28|Vlad Gheorghiu|Update .travis.yml
+846968645abdc57eca348276f74bc9793d41813f|2020-08-28|Vlad Gheorghiu|Update .travis.yml
+0c6acdb43b92b670bb1909fe54ee50b3b26d2e0c|2020-08-28|Vlad Gheorghiu|Update .travis.yml
+8a1c362381e3c7a93f7e45738f2d2af8ee4fe072|2020-08-28|Vlad Gheorghiu|Update .travis.yml
+9895cb4c0d6f4a9f42347e96ebe9f2b9e1171269|2020-08-25|Matt Amy|Fixed bug with matching verilog bits to parameters (#21)
+cec04fbd25864864bef1a49ad3b44821cab568c6|2020-08-25|Matt Amy|Fixed lorina comment parsing (issue #22)
+83169ec73cb9afdf39eb8b7d8b966120a71211a5|2020-08-25|Matt Amy|Fix for issue #24
+42ed46cec5a4f383461db5433aee25b9f5c5e675|2020-08-21|Vlad Gheorghiu|Update utils.hpp
+ac98d1f35ad5bae75fa8cfc1a676495c7f23ddf8|2020-08-21|Vlad Gheorghiu|Update utils.hpp
+236cdb7bdc236d8e98184e3dd73d21a64a31b5ef|2020-08-21|Vlad Gheorghiu|Update gtest-port.cc
+673e96256984b5a424905d6fb3206202413514f0|2020-06-11|Vlad Gheorghiu|Version 1.3
+8de30e8b27eb940cee3b8e0ddb18f94f9e047b3b|2020-06-04|Matt Amy|Fix for issue #16
+1dd9bca5de3145832bbe4e3990cc6da3d9220036|2020-06-04|Matt Amy|Bug fix
+70133d1283a7c6c7f026ccf88a967a04dcbe2f55|2020-05-26|Vlad Gheorghiu|Merge pull request #19 from smartiel/singapore_in_mapper
+9e7b02f094d92f4fcd210c8a9cb64ce9d340f050|2020-05-26|Simon Martiel|Modified: tools/mapper.cpp Added singapore in the possible device of the command line tools. Its in the wiki and in the device.hpp, might aswell fit the doc! (and I need my benchmarks :))
+bca612b90aeeadadf89204215cd2a42c38497f9d|2020-05-25|Vlad Gheorghiu|Update glucose.hpp
+d56f03b5907769fbdffe68a144930f2b3f21e016|2020-05-25|Vlad Gheorghiu|platform detection WIN32 -> _WIN32
+68d8e0bd5a6f916acdfff2d447b476c3130a0206|2020-05-13|Vlad Gheorghiu|Version 1.2
+d2a47e828ee3861f2a5340514336462aa1f6ca85|2020-05-12|Matt Amy|Fix for bug #15
+6a02977cc43ab413eab2a59a4143c45e96fabcf7|2020-04-22|Vlad Gheorghiu|Update main.cpp
+aad4b798feb08db87ee2195d1f4ffd1b830164ea|2020-04-09|Vlad Gheorghiu|Version 1.1
+a584cf0d67096571eb0c3d780c9e4e9b67e15e9a|2020-04-09|Vlad Gheorghiu|Merge branch 'master' of https://github.com/softwareqinc/staq
+e6145142bdb8d8f31f818a7f55624c2443e4232d|2020-04-08|Vlad Gheorghiu|Version 1.1
+a58c3ecc4f022f34995722d1579ccfe4cd88030d|2020-04-09|Vlad Gheorghiu|commit
+58d96a00e80d747aee69ed936c956138a0c73ee8|2020-04-09|Matt Amy|Use log fidelities
+61eeff16b89cf1b3977218555f7f817ca64d5323|2020-04-08|Vlad Gheorghiu|Version 1.1
+73b92086fa56a70265eb47df0825183248937fed|2020-04-08|Vlad Gheorghiu|Update appveyor.yml
+986e8abe01bb1a3862a305e88e028d37b458a8c1|2020-04-02|Matt Amy|Fixing signed/unsigned warnings
+945302bc38cea96fab4d0f40adf9b55ec8efdf39|2020-04-02|Matt Amy|Fixed failing unit test
+90efeae89ac61fe2d89aa19ebe2c090011498c9d|2020-04-02|Matt Amy|Compatibility with older versions of VS
+b52fc0dcf20dd4b04cb8a1e1eb2768d52098fa0b|2020-04-02|Vlad Gheorghiu|Update .travis.yml
+6cf3a965f29f910e40655b368fa730e22f7abe61|2020-03-31|Vlad Gheorghiu|invalid iterators
+36880f5b73991a63fab26a0840f37a8f7dbeeffe|2020-03-30|Vlad Gheorghiu|Windows support
+c579bf5a4364b29cdddf681cfb49075797bf8635|2020-03-27|Matt Amy|Small modification to remove empty ancilla registers
+c4a78e24219e13f90c770d460231745c534716ca|2020-03-27|Matt Amy|Changed rules for synthesizing global phase
+f1d17e20718271b83efdf6d4d10f6984c6eac9ac|2020-03-27|Matt Amy|Changed rules for expanding barrier gates
+297cbcc10ee402c64b099c649a5e14f56e827ef8|2020-03-25|Vlad Gheorghiu|default ctors
+de6f855bdca90c84ee8b6a9e0986f2f2872989fc|2020-03-25|Vlad Gheorghiu|overrides
+45387589ca098b71bdcfe869a55ea682be8d3f60|2020-03-25|Vlad Gheorghiu|code formatting
+aff2dbf5afe8b4fe7b0962c0f6be39da5dc85695|2020-03-25|Matthew Amy|Merge pull request #11 from Aerylia/master
+5a1727c01c9667964542f16c44b212ec846080c1|2020-03-24|Arianne Meijer|Added 20 qubit IBMQ Singapore device
+8cfcad22a1c72292376afb99dfc21f6a2ce45249|2020-03-23|Matt Amy|Explicit move semantics to fix some compiler errors
+84975367cd7f5c68510d5ce7ad9ed6404e84236d|2020-03-23|Matt Amy|Unit tests for cnot resynthesis optimization
+19a2fb6181f25bc10430b849763ca5de5f6a2852|2020-03-23|Matt Amy|Fix for bug #10
+8411e8f989e37552f1c61810e0fcc1748ba60440|2020-03-19|Matt Amy|Added cnot resynthesis pass
+c2c2a0dc7ee29f65a371836c182c8ce02601b900|2020-03-19|Matt Amy|Added native cnot dihedral optimization
+8d9cc557903f06ab4ad57fb1cdb7cf705c4c7818|2020-03-19|Matt Amy|Switching cnot-dihedral synthesis to use Expr's for angles
+4135221d2ec06736e724b9973dcbc7a0edbc5c09|2020-03-17|Matt Amy|Testing dirty ancillas
+3232666bfb487c2f5c21f4d9a596eb72f1053994|2020-03-10|Matt Amy|Added support for dirty ancillas in inliner
+5c9f9807e8e90466ca3a5710832eb8904d8d488f|2020-03-17|Matt Amy|Bug fix for trailing comments
+684ade70e7e6d00c385aee4d68ac977187545561|2020-03-04|Matt Amy|Added option to disable layout optimization
+96fde3d7194e966ddc87d8db92052fd4b108b831|2020-03-02|Matt Amy|Steiner-gray fix, pt 2
+2284cb81ce057b66f2b4b13c5a4ed96c62d0af65|2020-03-02|Matt Amy|Fixed a logic error in Steiner-gray algorithm
+fab497e7e12b22db1561784b40c954084c7c2e76|2020-02-05|Matt Amy|Mapping a circuit to a device with too few qubits raises an exception
+598a9ef344588a2be41b7519352649918814110a|2020-01-23|Matthew Amy|Merge pull request #4 from amccaskey/master
+7f76503b7d3d2e3eb87dc0d26d0a58aa5ab30db0|2020-01-23|Alex McCaskey|update to cirq output to address Issue #3
+bc9caf8acca0cc6e7394547e4125ff7ecf06eb26|2020-01-09|Matt Amy|Removed extra Hadamard gates from .qc translation
+75e60c74893c510e7adf12bed78150b26ee7a387|2020-01-08|Vlad Gheorghiu|Update decl.hpp
+0c45abec88bffabc097db3a2b5d587536214eb2b|2019-12-17|Matt Amy|More documentation
+8b270308250d81c50292426afdc1632259938ca5|2019-12-11|Vlad Gheorghiu|Update .travis.yml
+66773e543153c21658e90be83938d42d79cf5e90|2019-12-11|Vlad Gheorghiu|Update .travis.yml
+fb0f2cd96799be4cd1df0d89cb274ab7f0634ae8|2019-12-11|Vlad Gheorghiu|Update qsharp.hpp
+9e7708766c3529cab0e5e2e5f25c2b5ae2b08fa1|2019-12-11|Vlad Gheorghiu|Update prettyprint.sh
+d4b22d94837fbea9779e74fa30ca59787b31a0ae|2019-12-10|Vlad Gheorghiu|commit
+381c24557c8111b93b4020964ec72b90797e9937|2019-12-10|Vlad Gheorghiu|Update .travis.yml
+d34a40a74492578000aae8bb2a14f1e297435a58|2019-12-10|Vlad Gheorghiu|Create Doxyfile
+34eda9e2ea4b2aa9fb54c5deb62ef13e77f2bc28|2019-12-10|Vlad Gheorghiu|Delete doxyfile
+84d5261556a0ed6835f629b47f2ff4cec017713b|2019-12-10|Vlad Gheorghiu|Update README.md
+2dde4dcd383f8dc47731974b5df39c8b00f56c09|2019-12-10|Vlad Gheorghiu|public release
+62fd843133341bdf43ba71b6171948a6f10aa8ca|2019-12-10|Vlad Gheorghiu|Update run_staq.sh
+a1d006f63f6239ca9265a316573079c5bb477921|2019-12-10|Vlad Gheorghiu|code formatting
+f4e48b00f920bab82dfab8e4042eb1749996ed23|2019-12-10|Vlad Gheorghiu|name change
+8f94b0ba29fee99414f09d18b67bba5361cf06aa|2019-12-09|Matt Amy|Improvements to mapping & demoing
+5c9a384e185cde7d9beb4c1fdf76a00b599abf32|2019-12-09|Matt Amy|Temporary commit
+844847714a06840bff790179cc3075b48f4a2e6f|2019-12-04|Matt Amy|Improvements to Steiner mapper
+f3999e341cbba9a0f8b06e04d42cba5eb88bdf19|2019-11-18|Matt Amy|Small change again
+f50091aef111f54eb7920970ed31a33e56c32fea|2019-11-18|Matt Amy|Small change
+6218940460d682d40b35a6ece4b6c9571eedbcb6|2019-11-18|Matt Amy|Added benchmark circuits + change to run qiskit
+b13b68cddac0b83d074515a985c14e68038995af|2019-11-18|Matt Amy|New devices + demos
+da3b24067e393ea51de2682a24b7910696c97680|2019-11-18|Matt Amy|Bug fixes & some compiled demos
+2ce7cf771d96eeb3eafc9bed8135cee677b7039f|2019-11-18|Matt Amy|Demo + updates
+6717ecfe03cc416c49cc180b4169d7649b1a05d9|2019-11-17|meamy|Fix
+e0ad879474e8e7dc9ba23737183a9b125fecbc82|2019-11-01|Matt Amy|Merge branch 'master' of github.com:meamy/synthewareQ
+ad63528df9f78cadc951b8d1759636f4b55fddfe|2019-11-01|Matt Amy|More documentation
+8f63417572dacd4c7cb0a9fb45686b4fce809703|2019-10-31|Vlad Gheorghiu|Update LICENSE
+101a46c7a08cfc63ba354eba37925209c40200f3|2019-10-31|Vlad Gheorghiu|Update .gitignore
+3f84a49fcf1af62f4be84fbc72bb5ea5dac5dd4d|2019-10-31|Vlad Gheorghiu|Merge branch 'master' of https://github.com/meamy/synthewareQ
+d92fff7748e111d19ed042490b0f823c76ed8087|2019-10-31|Vlad Gheorghiu|minor updates
+a62b2e0a761833921ebd5a76189f0d900ee8a1b2|2019-10-31|Matt Amy|Documentation
+d713f7c7ab72058e6e748e0cb2807a199a80bbb2|2019-10-31|Matt Amy|Documentation & cleaning
+10a7212a3778e3be4f6b14ffd244b09bd791f675|2019-10-30|Matt Amy|Formatting changes
+c822b6fd8868689644144e26d96c06f91b3a37d1|2019-10-29|Matt Amy|Minor changes
+21556bf42f7bfa3fc782ce026a15d9821d064d83|2019-10-29|Matt Amy|Fixed coupling comparison bug
+7163c6d43d10e48cba9f65667ab0eb533096348f|2019-10-28|Matt Amy|Bug fixes mostly
+b5534b1a11bb059ada5a8ddb9c5df7eace146765|2019-10-28|Matt Amy|Minor changes
+f02a5a61f76d0ee350a1f12bc164a1a40b6d6098|2019-10-28|Matt Amy|Fixed bug with declaration removal
+905f928a3c9fddc1a11ef86a939178ef5f5b0eae|2019-10-28|Matt Amy|Small changes
+b814f02b413fe79049b848813e6aba28e5c9ad28|2019-10-28|Matt Amy|Reorganizing
+f4100dce745222eda3fb8fe8904617d7a644bbad|2019-10-25|Matt Amy|A link
+c5c8efff2050f777f895526dd86f30b4c457f9a6|2019-10-25|Matt Amy|Expanding readme
+e76470cf2bee86a0f64e5243635e023b7253b914|2019-10-25|Matt Amy|A few more tests
+95661b35b6742539156b88db4d7afeab0d36c54a|2019-10-24|Matt Amy|Bug fix
+1e53b5ecc2ad386411203ed30c4f3fb53e747064|2019-10-24|Matt Amy|Adding some missing tests
+0172b581b446b6bcbdcb7b7d53ffc7ac2dd80481|2019-10-24|Matt Amy|Fixed barrier overcounting
+b547046aef8dd524d859283463a1d83bb18f51f9|2019-10-24|Matt Amy|Added new all-in-one CL tool
+2d268bc5d02602754f4695ce00998bbd1a4be889|2019-10-23|Matt Amy|Added basic gate cancellation optimization
+ad329f7291c7bea12dca0f170b0c7fed44ce6b58|2019-10-23|Matt Amy|Adding uncommited gtest files
+4b2fa8f8e711488d2c6c7d6e3dd7bada846baf47|2019-10-23|Matt Amy|Cleaning out old directories
+7629cad38c02731924a14e8c8b71ad241c4b30db|2019-10-23|Matt Amy|Testing, bug fixes & improvements to algorithms
+afca9d98c4118642db3ff62ffd551f4ad6c32531|2019-10-18|Matt Amy|More tests
+728013804a4d79c47e2e98dd536ca6318c908fb0|2019-10-17|Matt Amy|More testing
+4b345293723e39f6de2f070baf75708a880136cb|2019-10-17|Matt Amy|Testing, bug fixing & global phase corrections
+480d5895e34c2a8208a442591274ba62f49839dc|2019-10-16|Matt Amy|More unit tests
+448780a5a9b6a844284217cf2c1ea53f68aab7cd|2019-10-16|Matt Amy|Unit testing framework + initial unit tests
+503cdb8aa05f64e8b1aaf87f30928cce17eb5175|2019-10-15|Matt Amy|Updating travis
+37b31b7ecd96521888031abf3b2bafacb5fe6ea0|2019-10-15|Matt Amy|Fixed some errors with cirq output
+0423d875db92106a64d60217aec5c3546fe1b534|2019-10-11|meamy|Formatting and bug fixes
+fdf47a5961dd58d53079c3d28306e165e5d3df70|2019-10-11|meamy|Added cirq transpiler
+8a2a7f5b1fd20eb5ccd595073d4f121dac1d9aa3|2019-10-10|Matt Amy|Hacking minimum precision output
+64fe56aec1762b782692784442fd8076db1a589c|2019-10-10|Matt Amy|Small example working with dotnet compiler
+4a910630acc83f395a29314d0bf932e515af3252|2019-10-09|Matt Amy|More changes
+ca4aab1e79ea4a4c300b9525073f981feacb0125|2019-10-09|Matt Amy|Adjusting unary operators in transpilers
+a4ce2313c01f6ae9daf0888c8bfa1f3b18ba6c1b|2019-10-09|Matt Amy|Fixing bugs & formatting
+79d94a2f472c78d0da4fdcaefda295ec381e165a|2019-10-09|Matt Amy|Added transpiler for Q#
+ba2fa158f26412b3693c7ee2ae2e35e709d72ef9|2019-09-18|Matt Amy|Testing new travis commands
+7dffdda2686d7edc3a8097591ef58c15fced6c96|2019-09-18|Matt Amy|Correct formula for brew gcc7
+d534073e5e5478d5b25158fc368a8c07801918fd|2019-09-18|Matt Amy|Windows travis test
+06a7a70afc38b8210c75389bdd6b6aff61e89683|2019-09-18|Matt Amy|Wrong install version of gcc
+4c4399abf7b69a7e0a36c7d4679d07616fbff388|2019-09-18|Matt Amy|Fixed argument incompatibility across platforms
+77d821daf95ff9d52b2ce77d6e966709a13cab99|2019-09-17|Matt Amy|Clang compliance
+5ea1d4f4ed378ab4c1880de89425c0910fb1eb4d|2019-09-17|Matt Amy|OSX test
+cb8e02ab2b8a279a00cf143d2167048b306b8a6c|2019-09-17|Matt Amy|Fixed all compatibility issues
+ceacd08059e09c6fe934cec5e1d005cfc0e9c64e|2019-09-13|Matt Amy|Visual studio compliance
+fbfef50999108a2242a8a057445a72148c360eef|2019-09-17|Matt Amy|Test for xcode builds
+2a5c316fc8cfc185b430a0e25e510ec496a0c1e5|2019-09-17|Matt Amy|Updating linux dist
+f53821bfb9b2df24d6da7fe40e89fc0f4de37516|2019-09-17|Matt Amy|Update macOS version in travis
+cfcb22e243053c4d284aabd3985d4dc102129fa2|2019-09-17|Matt Amy|Updated CXX versions
+970aa5a4826b3bd66587e17475f0140204e42de4|2019-09-17|Matt Amy|Added CI via travis
+e17a2e68991d1227dc2f8d537da85e32633f7f56|2019-09-16|Matt Amy|Better projectQ output + desugar bugfix
+86e197e1d5a5961bd1d773ed1e594d1177f78fd5|2019-09-16|Matt Amy|Improved projectq output
+b072967fa9ccb0f947732aa15e9d92b73489a65b|2019-09-16|Matt Amy|Bug fix
+f2773847ae85be731d2c21da7abbcc2ff057a6b3|2019-09-12|Matt Amy|Bug fixes
+f312e2f3443887dc4d902eda045c982442a0dd5c|2019-09-12|Matt Amy|Project Q output
+113718e418115219808ac8fbb53176023eb9d24b|2019-09-10|Matt Amy|Separate contexts for gates and registers/variables
+a06991a070ec8e398d32756c8a4f64fabbb5e623|2019-09-10|Matt Amy|Small bugfix
+3f9f28a005f85709e2d4f1a013863e524e40a139|2019-09-10|Matt Amy|Semantic checks
+dafed34b376efcb9bb4bff605135e7aa9f94e0d2|2019-09-09|Matt Amy|Don't include stdgates.quil by default
+203ec8ec64c5630746c71220c27c6236e16bd3b4|2019-09-09|Matt Amy|Formatting
+0d0152359684f12608c0093e5a23e7d3987002af|2019-09-09|Matt Amy|Quil ISA output
+93d4e6fef5ec2f87c9628472ee40a9fcef09c747|2019-09-05|Matt Amy|Added depth calculation to resource estimator
+86c1d12ada7f19fcae64957db98ecaf8f716beb4|2019-06-05|Matt Amy|Complete refactoring with new IR
+c6a08c90f5175a2273287a0c240603be8cddd912|2019-07-30|meamy|Compatibility with newer compilers & new device generator
+5d7750c7b8a9a22b765ef5cb20be096c12648d35|2019-07-29|Matt Amy|Added device options to mapper
+45b2a9a8e3b9a94dcf9e9f807bcce4d87a7bc4ce|2019-07-29|Matt Amy|Added options to mapper
+6a6f43e692d2e835e7e4ada5bc9d1574e8523234|2019-07-29|Matt Amy|Fixed bugs with steiner mapping
+dc5a0ef950be52684d6c74dd11978971da5a5cde|2019-07-29|Matt Amy|Basic steiner tree mapping algorithm
+68422480356e128da5da61f9d3de365447312c37|2019-07-26|Matt Amy|Steiner tree gray-synth
+e92af05a2494d4585fab485df3cbb794adda65ee|2019-07-26|Matt Amy|Bug fix + minor optimization
+0309de1ef10c6c83d3efdbbea87625a43d81a36b|2019-07-26|Matt Amy|Implementation of the gray-synth algorithm
+0ae0d0e3d772948fa1bfd38e33a996a1bd58f185|2019-07-25|Matt Amy|Other linear reversible synthesis methods
+2b39f8fae2c2aeb5ca57aa27fd4c9ff43b658c2d|2019-07-23|Matt Amy|Adding swapping to Steiner-gauss
+0940f58521911357cf7ee36f69397bd6b961aef8|2019-07-23|Matt Amy|Steiner gaussian synthesis working
+55e65d73cd64eb685e1b79be2ec0a48ae584e82a|2019-07-22|Matt Amy|Steiner tree Gaussian synthesis
+fa3e86a42db2bc368a4df606dc8b5e51437d1396|2019-07-19|Matt Amy|Structure of modified Steiner-Gauss elimination
+6afbeeeb67eb4c9fde24f5dfa3cc7885326b91f0|2019-07-19|Matt Amy|Fixed bug with steiner tree generation
+832addae50ae87568e1c11a2fcc770f0a31c2446|2019-07-19|Matt Amy|Steiner tree computation
+919b34f4fed3db280530b38fa508d6860137acdd|2019-07-18|Matt Amy|New layout strategy
+e6320d3f09eb3e52f82ed76f96c17fcb3c8a9962|2019-07-18|Matt Amy|Bugfix
+b1baf8af795d24a6fd6eb975464180bbba2c914b|2019-07-18|Matt Amy|Eager layout generation
+67e2db0314cbf05feae9ec8f13a2a974c8f7d201|2019-07-17|Matt Amy|Sorting couplings by fidelity for better layouts
+f5ac910b3d1b81df04a7eb65a98d1f6efab201d7|2019-07-16|Matt Amy|Fixed bug with gate cancellation
+ab7546dc6070dd35bb7ec36f6a5c5a95c64ec2cb|2019-07-15|Matt Amy|Mapper tool + bugfix
+546b9938a1b9151c17d93f82702e1a0492682870|2019-07-12|Matt Amy|Bugfix in swap mapper
+fe8ef7f110a612a9e7b0d5764ba28f64619e17ea|2019-07-12|Matt Amy|(Buggy) Swap mapper
+c9397988f608e682d1b355eaf078c961bd3c54c2|2019-07-12|Matt Amy|Test for generating initial circuit layouts
+e47bca191c130aa85d33eec3df096203e46156b9|2019-07-12|Matt Amy|Weighted shortest path between qubits
+74597469500288dcaed87342359b52d6f4bd06cc|2019-07-11|Matt Amy|Added basic layout generator
+9dd2ca0aab633912480e68df2a37d33bad001dfa|2019-07-11|Matt Amy|Different types of substitution
+39095deba5ffa42ac9ca09c380f717f8c92fb8d6|2019-07-10|Matt Amy|Use adjacency matrices since devices are small
+77340bb060548e9da54970dc9b382e4b13ec7bcc|2019-07-10|Matt Amy|New device class for hardware mapping
+7ac13b568debd46e4275203c272feb6b230d496c|2019-07-10|Matt Amy|Ancilla hoisting complete
+7307e7d286c4e7549941e6c348d6cf6371d8c21f|2019-07-10|Matt Amy|Adding support for ancillas in inliner
+006b1cfca0850775ec5b642427424ce89f9dacab|2019-07-09|Matt Amy|Optional overriding for inliner
+9b325e46569e2f91ac269257b8c97349b4003f35|2019-07-09|Matt Amy|Added individual command line tools
+7e0545a05d77787ba541d74f2b52fe2c8319ef17|2019-07-09|Matt Amy|Basic inlining working
+db204983c231a391d3f560123ee72eebd7cc16bd|2019-07-09|Matt Amy|Fixed bugs with substitution
+37d73a3d30f880ff5fc48a01251f8d29686af67f|2019-07-08|Matt Amy|Basic inlining framework
+d29ff7ac89f4ea029e6964f32e3474bbfe05fdd4|2019-07-08|Matt Amy|Extending functionality of renamer
+604845107c0c98f4859eca47c2d1d1fee44eb9a9|2019-07-08|Matt Amy|Variable renamer for performing substitutions
+a85ef747dffb627eb6f725447bfa042498e1cb71|2019-07-05|Matt Amy|Desugarer
+3647badaa53f241a62c0efd7c0e8a2593f0edce6|2019-07-05|Matt Amy|AST copying
+acd27a1f2807333993a91ebb5b096aaa0f9f38d9|2019-07-05|Matt Amy|Better error reporting
+ad2a13988a95634538f964a5f053eb3dd7b78f00|2019-07-05|Matt Amy|Changed replacer to allow lists of nodes
+38ace72649ed87a985fe9a43bb3fb72c37f11dc8|2019-07-04|Matt Amy|Refactoring logic synthesis
+f55f64c461c201bc96892df0db8cdae4c0e02993|2019-07-04|Matt Amy|Extra operations & robustness for intrusive lists
+487b4278e949e217b266df99043a701519808e4a|2019-07-03|Matt Amy|CMake build system + shuffling files around
+45be232cbe3e499b956e00e153ea9bee0eb9a534|2019-07-03|Matt Amy|Moving things
+22347e9e016ce3467a5685443268d7fd97838a4b|2019-07-03|Matt Amy|Small bug fix
+2709701a3d9fefd29255a1b4b499e106f535624e|2019-07-03|Matt Amy|Feature parity with main branch
+4febcbf2440237d6cb87ed30da80680a0861271c|2019-07-02|Matt Amy|Comment
+9e15f7418fad2945bfff3bbf566820332eee2f37|2019-06-28|Matt Amy|Rotation folding optimization working
+44a1a23904efa5a1a04396dad7cc61c277d16b09|2019-06-28|Matt Amy|Changing structure to preserve information about rotations
+0b4a5f943d8791b07128c5b6bb3b9ea73f524755|2019-06-28|Matt Amy|Node replacement framework for rotation folding
+f49bf7892bcc5698f6fbcfe343d2da6ebf967304|2019-06-19|Matt Amy|Recognition of foldable gates done
+dc2b9cc9a8d64ac711b611e18fedd44873775773|2019-06-19|Matt Amy|First stage of rotation folding optimization
+0c238b1690ab583f5dc958650a80edbae09c2fe1|2019-06-18|Matt Amy|Framework for rotation folding algorithm
+2b5ec2d402d7055efaec9a0599ee227db2c3ff72|2019-06-18|Matt Amy|Rotation gates in channel representation
+e087ec9557d2f804c5c2753e2cf50160f07c80a4|2019-06-18|Matt Amy|Negation & more testing
+9d577ed7b16fbe77aff2f8e63424bd4c912b4d1b|2019-06-17|Matt Amy|Channel representation utilities
+500360c3cfd0966b98c905f78bae6d71ffeef000|2019-06-17|Matt Amy|Small update to merge resource counts of inverse gates
+e7a7ee3d81f2191692ef452375d073eeeca25e6b|2019-06-13|Matt Amy|Some new visitors, notably a resource estimator
+686dff5c716cc4a2270ae4d0fb35913169a3b069|2019-06-13|Matt Amy|Generic replacement visitor + refactoring in logic elaborator
+10ae4b2848ce6accf38fa6ea5f7075f551f69a4e|2019-06-13|Matt Amy|Move & patched up source printer
+7d23273dda676be273ee9f982ff0a0cc9a7e891d|2019-06-13|Matt Amy|Restructuring visitors
+70690b9b82f97d1a7b663c9d74bcbe0fecd353ca|2019-06-12|Matt Amy|Tests for intrusive lists
+d159df14533affd901cf16491b8981c9a4c2bcb2|2019-06-12|Matt Amy|Back links and methods for modifying intrusive lists
+0d1dbbacd46eefb18b20f17f0e18538911c3f240|2019-06-12|Matt Amy|Creating a separate declaration for oracles
+c956faebe90c6bc2cc63cfa9285863865688be1c|2019-06-12|Matt Amy|Merging tweedledee directly into source tree
+fabb095fdc7aa701320068c76050ee78c335d593|2019-06-05|Matt Amy|Updating tweedledum
+05421e196007b79ab427f88f86cc0a63f5c0abaa|2019-05-29|Matt Amy|Small formatting changes
+1f1b8c89260d76fd3b717822eda6c571acff2f76|2019-05-29|Matt Amy|Complete, space-prioritizing oracle expansion
+439dc1e8297f101cc54105381c9c3217d75766b4|2019-05-28|Matt Amy|More gates
+1d92eaf989958be6a22b6df756421ff808bd2e46|2019-05-28|Matt Amy|Bug fix, passing ancilla index by value
+6bea971047a86b7845fc79af19621dabd53391b8|2019-05-28|Matt Amy|Fixed bug with reuse of ref nodes
+8e358f2577951bf505affc02379109d37f9847cc|2019-05-27|Matt Amy|Ancilla allocation & qubit mapping
+19f8db2c1c6eb32dd3e6ce7f5442a57a8f7de3a3|2019-05-23|Matt Amy|Logic synthesis & node replacement
+a8207b4f994ce3409a47903dbd0b2c1fb959c5da|2019-05-21|Matt Amy|Removing accidentally included file
+dede48951e4e0ee42084a5a13b009397c9ad22a0|2019-05-21|Matt Amy|Structure of logic elaborator
+662b9a6a5cfb8edcab6a77919c8ed11c1b381c6f|2019-05-21|Matt Amy|Merging in logic synthesis experiments
+24f41cd7e0888cc49e926ba08c3adca62f7b1cb7|2019-05-21|Matt Amy|Added dependency on tweedledee for qasm parsing
+d25efc1234f0572dd5c9917e2adafc593f677b0f|2019-05-14|Matthew Amy|Initial commit

@@ -1,0 +1,154 @@
+f25ac102e4feb09f494c5ccea7757df784a2ed2c|2020-09-15|Sarah Marshall|Use Impl instead of __ (#47)
+e771c5d5bdef0510fb0d66c16d770a1733256a6b|2020-09-14|Andres Paz|End-to-end build (#49)
+98df4c2c38b140a6bef69195a4bfc98bcca5715e|2020-09-01|Chris Granade|Merge pull request #48 from microsoft/cgranade/relax-bpe-test
+09ee0a6853e09638f50b91ffe39debc3425f69b7|2020-08-31|Christopher Granade|Relax failure conditions on BayesianPE check.
+578edcbdda0f7aa2dbb4982d0817da87211d8ea1|2020-08-13|Andres Paz|Update build.yml for Azure Pipelines
+cad01ac71d85d0044df36891cce7667814459d9b|2020-07-15|Ricardo Espinoza|Merge pull request #46 from microsoft/ricardoe/assets/nugets
+705bb291aab9a93ec04cd908782386cd1a762e66|2020-07-14|Ricardo Espinoza|Updating icon for 128x128 version.
+14e9e254c923872f67250c2a1675acc77abdc1dc|2020-07-14|Ricardo Espinoza|Update .csproj based NuGet packages to the new icon.
+91a821bec8e0b74b30b3d0c79d6019d8f75e9dec|2020-05-19|Angela Burton|Switch to latest images for build agents (#44)
+3e3363080a07ec91fa887e0f16fd85d18f8a90c7|2020-05-04|Chris Granade|Merge pull request #42 from microsoft/cgranade/fix-readme
+f93478f7388fa48d264cf0b487ae30824c2418eb|2020-05-04|Chris Granade|Added non-production warning.
+6e95305ee5fd255debb5863d9dc4cb395f82ff29|2020-05-04|Chris Granade|Incorporating feedback from Efrat.
+f2bf051d4b3bdd000f6377d306b7582ca1705973|2020-05-01|Chris Granade|Merge pull request #41 from microsoft/cgranade/qsp-sample
+91e61ad475bda90046d8f3b1e79329ea7d12d931|2020-04-28|Christopher Granade|Added QSP sample.
+fa80b023b7bbe5fe9c1df91c3b9f2c60ba4bb9da|2020-04-22|Chris Granade|Enable delay signing. (#39)
+a1701e3336d05c37fbec27bc36d7391bcc81b09d|2020-04-22|Christopher Granade|Feedback from @anpaz-msft.
+5aee65d97207fc6a8cdd66ed95cc697281517860|2020-04-22|Christopher Granade|Move delay sign to correct folder.
+f60d7a278aecbcaeb9ed332cd50cb0ceaa92e937|2020-04-22|Christopher Granade|Fix signing project properties.
+0edccc64077c042cf7054ebf8ff222131c3a2ec6|2020-04-22|Christopher Granade|Unescape signing constants.
+b384babfac84e22c9b5ad079565af6c1f5a3d1d4|2020-04-21|Christopher Granade|Enable delay signing.
+fabaeaadcd323b41e85de1c056ba5804cecb254d|2020-04-21|Chris Granade|Merge pull request #38 from microsoft/cgranade/pack-qsp
+2b50875c1de72524a5931e1878b5de2b3ed0d54a|2020-04-21|Christopher Granade|Hard-code license paths instead.
+2b0b92fb8009a71fc9e1996139745046d70fcf9d|2020-04-21|Christopher Granade|Force license path to be relative.
+f2f8a72bc28733eb68c2217350f4175bd1927eb1|2020-04-21|Christopher Granade|Add license file to QSP as well.
+bbed2f8ac6091bd69d4f9d92d0a43ed556ded801|2020-04-21|Chris Granade|Add QSP to pack.ps1.
+2eedf253c6bf3ddbac3734103b861e3e7ff8a78a|2020-04-21|Chris Granade|Initial version of QSP feature. (#37)
+f7852af4011ef3e611a8d71e4c035251e7f77184|2020-04-21|Christopher Granade|Disable MKL tests on unsupported platforms.
+c10c94bea41ce003640a1aff272a3c67349518d0|2020-04-20|Christopher Granade|Initial version of QSP feature.
+f6a7302d12b38ba246702a902cba44af5e7e433f|2020-04-17|Chris Granade|Merge pull request #36 from microsoft/cgranade/extract-samples
+ce25329110c46de0da870de449c6972e08002b03|2020-04-17|Christopher Granade|Yet another capitalization fix.
+8e8185c384d9ca3fdb9a94bcfc4d69fc55c216c2|2020-04-17|Christopher Granade|One more capitalization fix.
+e232eb12ddbec9bdf205cdd3b02eaa247700c946|2020-04-16|Christopher Granade|Fix capitalization of /build (step 2)
+cdafbb6d8261a50b5ceb192e4aac93ba6d2287b1|2020-04-16|Christopher Granade|Fix capitalization of /build (step 1)
+8ccdd956d9992437fab7647be8767f897134c588|2020-04-16|Christopher Granade|Fix license paths.
+caf12707a7af26a3e31132b5643b6b367aba9a84|2020-04-16|Christopher Granade|Fix license paths.
+d3bb9daa673e041f02c4a83e52ea12243605f06d|2020-04-16|Christopher Granade|Reduce build verbosity to normal.
+36e39fdfcf760e3071b9a3924dba1a1180c89e3c|2020-04-16|Christopher Granade|Address deprecation warnings.
+f2e27167bc50e4185ceb310c080165abde0ce376|2020-04-16|Christopher Granade|Fix deprecated license information.
+adc83eebdd80476b15b8a8c5e97cd5b996cc776e|2020-04-16|Christopher Granade|Add Markdownlint settings.
+b9f44356ed1bf504e4fc3b0e9886d3f0c299cda5|2020-04-16|Christopher Granade|Clarify in README.md
+07662cfdb6a656c348ffa087ca9d4ff43ed515dc|2020-04-16|Christopher Granade|Addressing feedback from @rmshaffer.
+8e210c8ca21ef037d5b1a8010b5581788c93d227|2020-04-15|Christopher Granade|One more case sensitivity fix for Linux.
+a1435d10eb8935c0c442645aab2ec48fec631bdc|2020-04-15|Christopher Granade|Case sensitivity fix for Linux.
+e0f2470df5acf87d9f8a69338735aca6ca6ac7aa|2020-04-15|Christopher Granade|Adapt path in test.ps1 as well.
+baba4cb1bfcacfeb124b88ec8f946bbebb1fd329|2020-04-15|Christopher Granade|Fix manifest output.
+a83125f4a2a8038e1dc9a88ce21fd76a862dbabd|2020-04-15|Christopher Granade|Create manifest to help with signing later.
+0c3e15d95c9b123956c5e925c30a905dfb93d0bf|2020-04-15|Christopher Granade|Update chemistry namespace info.
+73f49accf1c2546ed884ba8dd8478ed4ce048768|2020-04-15|Christopher Granade|Set up solution files.
+5b566310f1792cff95e8376a5c2a166077d0c3e6|2020-04-15|Christopher Granade|Normalize csproj to lowercase, step 2.
+4f851b6674e63159586d84fd054da34b9b4de79a|2020-04-15|Christopher Granade|Normalizing csproj to lowercase, step 1.
+87a8a5836ee0368b65f1fe923dacb5d86d0941dd|2020-04-15|Christopher Granade|First step in extracting samples and subdividing pkgs.
+fc012bf0c33e47e99d8e07edaac0bfb03d2d5f85|2020-03-09|bettinaheim|Merge pull request #35 from microsoft/beheim/netcore31
+5ddc831a0d6796f767995bb622d7186da5930239|2020-03-09|Bettina Heim|Updating netcoreapp3.0 to netcoreapp3.1
+7656ee5702ca598669b8e95ae3e3b0f88d1727c6|2020-02-26|Chris Granade|Fixed QsharpDocsOutputPath property in build.ps1. (#33)
+140ca909b2eca5350747c791ceed2312df84507e|2020-01-15|Chris Granade|Merge pull request #32 from microsoft/cgranade/code-quality
+48e5493bfdf7ec24f2e586195d4f05a46cc040c2|2020-01-15|Christopher Granade|Merge branch 'cgranade/code-quality' of github.com:Microsoft/Quantum-NC into cgranade/code-quality
+6bd5b2592b76a5bdb7dcdc747acfc8109402f9b6|2020-01-15|Christopher Granade|Applied suggestion by @alan-geller.
+840b4a9cddc8f9584a6a1875fd9d71c8eeebdd2f|2020-01-15|Chris Granade|Update Research/src/Chemistry/JordanWignerOptimizedEvolutionSet.qs
+c7c8c76626cffde02787b0ddb364e70662268510|2020-01-15|Chris Granade|Update Research/src/Chemistry/JordanWignerOptimizedEvolutionSet.qs
+2a7bedbb28ca5acccaf271afe23e6f382a2e8708|2020-01-15|Chris Granade|Update Research/src/Chemistry/JordanWignerOptimizedEvolutionSet.qs
+ddaa353546ae0d1bb56a2631d3c604d7bcef1b27|2020-01-15|Chris Granade|Update Research/src/Chemistry/JordanWignerOptimizedEvolutionSet.qs
+18ffda9bbcb0cb2e8979136dbc637b5eba27ee22|2020-01-14|Christopher Granade|Code quality improvements in JW optimized evolution.
+e769c9203a0ec6c7b8b32e1f14ed599b376da4ba|2020-01-14|Christopher Granade|Remove dependency on private library fns/ops.
+437716b96f44ca2ba5dd640ad01b50065629a102|2020-01-08|Andres Paz|QDK pipeline (#28)
+de04adf7db96c36b5f5e481f6c8e94a7a1e135e5|2020-01-03|bettinaheim|Merge pull request #29 from microsoft/beheim/sdk
+01a3c26b744b266772773f0868bea06726ca2181|2019-12-26|Bettina Heim|picking up changes
+3260a7e28a4083327f40317d3a597bdfbbcfd927|2019-12-25|Bettina Heim|correct compiler version
+6dabe449519b417346d556754ba04a8ffeb97475|2019-12-25|Bettina Heim|using newest dotnet for build
+e1d3b0bfcec4cf2d1740374edad3de3a7356d589|2019-12-25|Bettina Heim|... and the other one
+092b54f995b5e880e10f128f893695de48b74af5|2019-12-25|Bettina Heim|verbosity
+919dc8f8a73d8040747adfd5ccee5590d01d8aed|2019-12-22|Bettina Heim|that works
+771c0f736ad1e7dac9551901057d1d9741d7b4b9|2019-12-22|Bettina Heim|project updates - still need the right package nrs
+c10e1cc09b78f83fc689cfc8581a2bed9ee6108b|2019-10-24|bettinaheim|Merge pull request #24: Updating packages to package Q# with dll
+b558405f0145cb64827f13ce9d21e1fd361f5584|2019-10-24|Bettina Heim|updating packages
+24a9c7a89a06bd63168ec3d4b0a8b946e2f38f98|2019-10-18|Chris Granade|Merge pull request #23 from microsoft/beheim/netcoreUpdate
+b13369dee6ebc7b171f547e75fc534a87f9aa111|2019-10-17|Andres Paz|Bumping up minor version.
+82358a3a43893bae665c1fd79409745a94439b75|2019-10-17|Andres Paz|Updating to latest alpha packages.
+98750c24563fb7fe3f92dc5519f69bbad21622a2|2019-10-13|Bettina Heim|setting default version for build to 0.9*
+cedb121cb6469271694b13d1374c8388ef7455a6|2019-10-13|Bettina Heim|forgot to update the build
+f6ebbb38d52762fab566ec5ee2f81616ebfc327e|2019-10-13|Bettina Heim|updating to .net core 3.0
+9a1b265c9d1dd8f580811eb044ffd718f1b78c28|2019-10-13|Bettina Heim|adding nuget config with alpha feed
+8e3b80b4619524237e98128922d89148febf0db4|2019-07-19|Andres Paz|Merge pull request #22 from microsoft/release/v0.8
+51a0e80bcf667721ab8ee08acc52b5e9c672be78|2019-07-18|Andres Paz|Merge branch 'master' into release/v0.8
+c99edfc96750f596d2024133b1a4287dc9d1b729|2019-07-18|Andres Paz|Updating qdk to latest version
+abba4a4d13d399d800f3c80a957b2c45cec0fe1d|2019-07-09|Mariia Mykhailova|Update readme and pull request template (#20)
+c967bab0de5c28adf64fafd3295cd3d36b8b0db1|2019-07-03|Andres Paz|Merge pull request #19 from microsoft/anpaz/build
+eca1221cbfcee3f64212d0ea3eb2356c68fda5b4|2019-07-02|Andres Paz|Merge branch 'anpaz/build' of https://github.com/Microsoft/Quantum-NC into anpaz/build
+44289cc393ac802eaf4a3bb469613964586d003a|2019-07-02|Andres Paz|Moving comment location
+6e30c97ded93c5bb0454377e137aa14ba6483eaf|2019-07-02|Andres Paz|Update Build/step-wrap-up.yml
+1be91639b270b15f83dccab5cc4c08c9dd1cf851|2019-07-02|Andres Paz|Script-based build
+d0a312ab604b75fb7a6efd3e79a4006c47ec9c0a|2019-07-02|Andres Paz|Updating to 0.8-beta packages.
+2e12263d49f66fc726547491fff05702516815b9|2019-05-31|Martin Roetteler|Merge pull request #17 from microsoft/release/v0.7.1905.3109
+2f743f32a80ff932ce0b3d68af7d026ea3aa1d43|2019-05-31|Andres Paz|Updating to 0.7.1905.3109
+2ab4523a3bf9c613f23b2a4fa7d3aedfece08ce7|2019-05-29|Andres Paz|Updating to beta packages.
+809b1ff0bad85711e0373b0c5f7039bd03a299f9|2019-05-28|Andres Paz|Merge remote-tracking branch 'origin/master' into release/v0.7
+e0866ffea1f9af3a6aa3387495316584753be848|2019-05-28|Andres Paz|Fix rendering of RandomWalkPhaseEstimation apidocs (#16)
+8bc74cfe88e0d1dd772293cc5cde739816e33270|2019-05-24|Mariia Mykhailova|Fix rendering of RandomWalkPhaseEstimation apidocs
+8d9d599fe562c19cb9280e0b0002732bfb4422cb|2019-05-21|Andres Paz|Merge pull request #15 from microsoft/anpaz/signed-build
+012a87b0c2cd8c62e25225725e7ea6703b7ce28e|2019-05-16|Andres Paz|Adding back reference to research project to tests.
+686fe64affdb1f69f590468e579c416fe6ac300a|2019-05-16|Andres Paz|Removing library projects from .sln
+68c6ec0310ada3c46d8977635037f3a96229e10e|2019-05-15|Andres Paz|Switching back to using packages.
+557f9da898fc82eec644eeaf330da67f266bc6d0|2019-05-15|Guang Hao Low|Update v0.7
+900f733cceffe61bd8c5de67f178567e81c87eb4|2019-05-07|Andres Paz|Support for signed build.
+3cd62d624033dcd14227c0af0f1629e17ce58a65|2019-05-03|Andres Paz|Merging release/v0.6 into master (#14)
+a45638e6e00942b50b06ce55abaaf340a246e712|2019-05-03|Andres Paz|Pointing to release version.
+d705a6bac030fc97271dee0795e03eacdec7b1dc|2019-04-24|Andres Paz|Adding DocsOutDir for single doc output location across projects (#13)
+47aee710c278cf562273c4e40d8a3ebd23c6cffa|2019-04-24|Andres Paz|Merge remote-tracking branch 'origin/release/v0.65' into anpaz/docs-out-folder
+23ef9b4bfb333ec8df95861cca1c69266d59d3f4|2019-04-24|Chris Granade|Merge pull request #12 from Microsoft/cgranade/reduce-warnings
+6d18d93babc334872d155a7c5835ac8b7e411ebe|2019-04-23|Andres Paz|Adding DocsOutDir for single doc output location across projects.
+2ee97d86ee260e9b384fe0bb88fa433aee924648|2019-04-21|Christopher Granade|Elminated warnings from tests.
+99e0ba81969dd2d69095e10a962746427cd9565e|2019-04-17|bettinaheim|Merge pull request #11 from Microsoft/beheim/v0.65
+ffbc771e21d6448858bce0cc9f5c12b30b969a41|2019-04-17|Bettina Heim|adapting for 0.65
+2ce689052766785b4ebda39de066af2bf6a28b13|2019-04-11|Andres Paz|Update to v0.7 libraries.
+f3494d877237e5840986bfc1cee2c843c7dd047d|2019-04-11|Andres Paz|Rolling back changes from source.
+5e6b8effad92fd84de8cf2f0119c2ff452d25f00|2019-04-11|Andres Paz|Forgot chemistry package.
+e2c7b53d5ca262ae73fa7e96dd0a5a737bc59053|2019-04-11|Andres Paz|Rolling back changes to build vs source.
+eef340e48a9a78da05353c679564f8f7ad479663|2019-04-11|Guang Hao Low|Fix tests for v0.7
+529c3a3db9edc3a8b1ec195512e367e8a69b3cef|2019-04-10|Chris Granade|Merge pull request #9 from Microsoft/cgranade/update-refactor
+5bb3c5a5869885ffdfe9d6e394340d2b67812a90|2019-04-10|Christopher Granade|Updated some tests for 0.6 names.
+5f76ab08a07959a2ebbd44a282451fd61f41a465|2019-04-09|Christopher Granade|Updated Test csproj metadata.
+15ffe0949ee2cdaa05e7c99de948370f1d28b1c6|2019-04-09|Christopher Granade|Updated canon → standard.
+b9809ccf872e05e05258707ce91d02aa4ed8ec81|2019-04-05|Christopher Granade|Update for recent refactoring to std libs.
+812f7730cd6787050bcdf4f591e590ebb7ed1128|2019-03-28|Andres Paz|Updating to latest QDK version (#8)
+40345fa6a3bbfab7d65c3a6e8beb350bd54c181c|2019-03-28|Andres Paz|Updating to latest QDK version
+12c0b21d0f0c2a7aed8951e4423d78ce1bd89564|2019-02-13|Andres Paz|Running tests with specific random seed
+b8cb4415ebe3217910b944da85b83260f50ad98f|2019-02-06|Andres Paz|Running tests with specific random seed, so we don't see random test failures.
+685f7bd1a09b3de5cb7bc94bb9ca6755cf64b684|2019-02-05|Chris Granade|Merge pull request #6 from Microsoft/release/v0.4.1901.3104
+f8d245c49b37721ea0d0f0eea1bf05969ca391d3|2019-02-01|Andres Paz|Updating projects to
+c8c3767f622ff612dd5d42af21de9c7226155752|2018-11-05|Chris Granade|Merge pull request #5 from Microsoft/release/v0.3.1811.203
+dca295359b99f7195a271fc9ed728d91888f4d5b|2018-11-02|Andres Paz|Triggering new CI build
+1308e0cecd42fc15d14006244137eee9c5f7a835|2018-11-02|Andres Paz|Updating version to 0.3.1811.203
+5fdf5e9421f6a72de85236a6c09366b22a284f32|2018-10-29|Andres Paz|Release 0.3.1810
+60d546f79a4ec1d78dd00f89d31de14a67f65d4d|2018-10-25|Andres Paz|Release 0.3.1810
+2bb493006604e67cfbbbfeed6eef9b70ddb9655f|2018-10-05|Andres Paz|Merge pull request #3 from Microsoft/anpaz/build
+fe3b1fa8a209c162d60630af780e3dfe11cc64bb|2018-10-05|Andres Paz|Creating yaml files for azure-pipeline build
+d2933e9d7a72cce080a1249e2d7c31f1a5abf75b|2018-02-24|Martin Roetteler|Merge pull request #2 from Microsoft/cgranade/version-update
+e815cab5aff2b7ec145205638a470e55aae35d54|2018-02-24|Chris Granade|Merge remote-tracking branch 'origin/master' into cgranade/version-update
+fe5aa07afda8a35e63f56b59140bf070160890d9|2018-02-24|Chris Granade|Bumped version to 0.2.1802.2202.
+1282a2b4dda12b76455e2f8cabaddd59b41e5396|2018-02-23|Alan Geller|Merge pull request #1 from Microsoft/cgranade/license-header
+4785b2a8551d1328bc44e29806a53c3f88126d64|2018-02-23|Chris Granade|Added license header to Driver.cs.
+a544f693b5d8da0aa855370e91027ffb782b7ad7|2018-01-30|Christopher Granade|Removed obsoleted packages config.
+eb7c1c5828c199fc06149f8ad64f8149f0c82ea7|2018-01-30|Christopher Granade|Recommended C# and Q# extensions for use w/ VS Code.
+80adc6df14c0c8e796479415ffb133e337caeba2|2018-01-30|Christopher Granade|Added dotnet build and test to VS Code tasks.
+3b0d5da4ea40fb41fa6de685a019b364e47cfbd7|2018-01-30|Christopher Granade|`dotnet test` now works.
+2e0e7ed974bc3359bdb7c6a7c2d06b8b06940b2b|2018-01-26|Christopher Granade|Removed empty directory accidently copied f/ staging.
+f84cd585513868ae4266654d3f2f90cb1f9793a9|2018-01-26|Christopher Granade|Added sources from quantum-nc staging.
+a5d1860495d80a5752221b99ee1c4efd8dd7eb8a|2018-01-25|Andres Paz|Make working match README.md
+ef33794e7648481c513dd6c91e5ebeb618270f6a|2018-01-25|Jeff Henshaw|Update README.md
+b2c42a0071c4cdd1b853a73d83b18460601164cd|2018-01-25|Jeff Henshaw|type-o
+5395c548929e3e9422212ac11ba829fe3dcb55cf|2018-01-25|Jeff Henshaw|Slight wording tweaks
+485e2364836312220004ac7cf0eb8aeb37f69215|2018-01-24|Andres Paz|Updating LICENSE
+87093a099065fb42133e5a875b7abb151cd277f6|2018-01-23|Microsoft Open Source|Initial commit
+5afb3c208c8662bf8ba0ec48ce16358a2d832883|2018-01-23|Microsoft Open Source|Initial commit
+37aeea92d3e0a15e75936a22f554b2808b963c17|2018-01-23|Microsoft GitHub User|Initial commit

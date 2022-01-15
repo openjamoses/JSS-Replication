@@ -1,0 +1,834 @@
+f419d668adeeb00e40aa4b0c679966d6f0b85b8d|2020-09-16|biczysko|Expansion: change from model_completion to capping
+1cccacc4a9d8fef2c1e9777932b671310a9c29e9|2020-08-03|Pavel|Enable use of expansion (super-cell/-sphere) without requiring clustering, and a test.
+8e80e986ffd7567ec32cb963c345dabcc2d895f9|2020-07-26|biczysko|Restore MOPAC defaults (MOZYME keyword might be added through quantum.method='MOZYME')
+bc5aa838c6a40d4420246e8e1954ffa3c6a0c6b5|2020-07-23|biczysko|Add MOZYME (replaces the standard SCF procedure with a localized molecular orbital (LMO)) keyword to Mopac to allow computations of over 500 atoms with COSMO
+f45cbe03df4d16bb8fd40fff7e67fb0453d83a94|2020-07-15|Pavel|Tests: work in progress
+a98128697ded884a50857463e3e30a3158d8d9d2|2020-07-15|Pavel|Now it is nice and clean, and passes!
+071858cd0d2fbf8c14752d61eb623099101fd3c3|2020-07-15|Pavel|Add missing help strings, revise defaults.
+306bd3b7a903d7503632217589b76d5552cce049|2020-07-13|Pavel|Test fast_interaction True/False in altloc presence
+27afac4aa67393c6337f57aea5b2839c80760de3|2020-07-09|Pavel|remove print
+0e6c77b90396a0a71c1632cdbea7aa5bdf1c5045|2020-07-07|Pavel|Updated tests
+8f411397c90e588c10cb4dd14e9826bee1bd045b|2020-07-06|Pavel|Use fast interaction by default (C++); test now passes.
+77308f07196a4a8e577a06e21b7765da1b035161|2020-06-17|Pavel|Minor refactoring for clarity
+c2d0da5f1ee8fd4d538c3744f87d5aa13e7186df|2020-06-17|Pavel|minor refactoring for clarity (C++ part of the test currently fails if assertions enabled)
+17872dc6786a4509604f72e0fa3370a2be4c8a9b|2020-06-17|Mark Waller|Update tst_09.py
+8b04f895091dda7a965f0a771e53682cceebd094|2020-06-15|Malgorzata Biczysko|Update qr.html
+846874a82cd59cd857e74e6c690a9c1f848f7ddd|2020-06-09|Malgorzata Biczysko|Update README.md
+5956054cfa866e4b78381fa0dc23b357926e6a00|2020-06-09|Malgorzata Biczysko|Update README.md
+0d0f45504f6df37ebff433acd8ef2688f2ca6b67|2020-06-09|Malgorzata Biczysko|Update papers
+a303260c2247452bb91fa4d491a5d989db241268|2020-05-27|Pavel|Adjust to changed API in model statistics
+7642a156989897a82234dc2929a89d08e0079514|2020-04-16|Nigel W. Moriarty|changes to run only non-MOPAC tests
+a3d705925d5ab7cc2005a90dfbb6d396395bd5dd|2020-04-15|biczysko|RSR Clashscore with Hydrogens=False in the weight search scores
+c3c7dd400309d183ad752131e49fe5314b8eacc7|2020-03-31|biczysko|Remove temporary scan in RSR, defaults in TeraChem dftd=no
+63f6666510633c6a707a26a9fc5c3f90f0c371fe|2020-03-22|biczysko|50 maxselfcycles
+4fe491feab60e4bd3b66828f8b1018d3ed3113f9|2020-03-21|biczysko|version
+da3f76a161937129a7e75d8cf930db56242119c8|2020-03-21|biczysko|temporary modification - RSR  weight scan
+57a83ea613b81efbcaaabfb6b3a7183381a0371a|2020-03-09|biczysko|corrected get_clashscore
+988548883d10a33d36b8507b3ccc57bd1b78fdfc|2020-03-04|biczysko|Added Clashscore to the scoring parameters
+c6bd4b44a6196944cfc2964bd16b2b45cbe979f4|2020-01-07|Pavel|More heuristics in weight search to deal with cases of good map when increasing the weight won't destroy Rama favored (example: 6i5a)
+f3680a96e4324034ea8fc0a7147e4e461d531d7d|2020-01-04|Pavel|Add Rama favored to the logic
+585ce3c5cf006650eaa4bf9df0fe6b153a95fcc5|2020-01-02|Pavel|Even more log output and also write PDB for each trial weight
+795d6a0a37db952b0bc67babbc306bba02f52638|2019-12-29|Pavel|Sample more weights
+afb78ae9ff85c37934add1207d49a46a6b3a3d67|2019-12-29|Pavel|More heuristics and log output
+380f7d5e960581802d9ab051b772b6ef3e5199ae|2019-12-29|Pavel|Better log
+4d018d6145781b00366130b187faaaea03583a97|2019-12-29|Pavel|More safeguards
+d92089cc95b4eb78f9063314e0086bbf3ee961dd|2019-12-26|Pavel|More work in progress: switch to grep-able output (to make it easier for Goska to see results)
+8264add4bd0f963c13d11f4ac3ebdb009cec6aad|2019-12-26|Pavel|Work-in-progress commit (for local testing). Attempt to re-write RSR refinement
+44e3cc937119290bcdfd7b56c0d811362c102be0|2019-12-04|Nigel W. Moriarty|moved some functionality to cctbx to fix tst_27
+9dfc20e2368e0dcec3dc7672319786277b138351|2019-11-05|Pavel|Fix 11 broken tests
+756117188a5f2aae3497746959dc33328198416b|2019-09-12|Nigel W. Moriarty|debug prints
+bb25da76ae113fd70fcc81941f7920a09da88e1a|2019-09-05|Pavel|Switch to fast_interaction=True
+c95c14cff9035708cbc55909dcb72936a205d372|2019-09-05|Pavel|Remove extra empty lines
+b9389e10858939bd317b9fb78bbb3c1dd3a00d12|2019-09-05|Pavel|Remove unnecessary output
+1473872b883cb61710be440c79275b3fdff4ceac|2019-09-05|Pavel|Show what's not matching
+668db12a4c6d4d8505703f32f197c211715c1d3f|2019-09-05|Pavel|Check max deviation only
+bcf64daa08e7b1f76fc8b39ad76f7fd2799a6b87|2019-09-05|Pavel|Remove un-used import
+10f9f6becfafc08ba392a1483919a8dc478ff48e|2019-09-05|Pavel|Conditionally import Java stuff (do not import if fast_interaction is True)
+2b1b17567e081a94455de57a6c4d781897535d9c|2019-09-05|Pavel|Conditionally import Java stuff (do not import if fast_interaction is True)
+91052df752971db63f57ccd6ee732c7a5d18ddae|2019-09-05|Pavel|Simplify logic and improve output of the list of tests to run
+9f8279dcb792ffee7192ed9a005ee6ab87fed844|2019-09-05|Pavel|Conditionally import Java stuff (do not import if fast_interaction is True)
+9ab8d47fa8f09c03d60e64d85cc7c56ef1e39bbd|2019-08-29|Holger Kruse|Merge branch 'master' of github.com:qrefine/qrefine
+bcefd1246004d213f93e96eaddeac540ec9d755c|2019-08-29|Holger Kruse|PDBs for capping: initial and current; remove double numpy import in mathbox
+9320146648f58d8e438434c880fffd4c87e73eb4|2019-08-23|Nigel W. Moriarty|moving away from Java
+f819f81cd9d83db038f223328c00ae8c774be109|2019-08-19|Pavel Afonine|re-enable
+e59bffc35f1c62a317b68a9df0ca4ae0e7dfd9e0|2019-08-11|mpwaller@protonmail.com|added copy and moved pyoink ref
+5dc08bae9051e41633fcff52737a22dc02f313b8|2019-08-10|mpwaller@protonmail.com|change tests to be c++ based and no longer java
+3f876952f4915c2d5ed5a4011c28fa23d50fb733|2019-08-10|mpwaller@protonmail.com|added new test for c++
+632ef933b04cda2e4b05a9ca0fba9c83c9ad52be|2019-08-09|Pavel Afonine|Add use conda and nproc
+25eed644b64be248d5389d2c92919ed86c6565b3|2019-08-08|Mark Waller|First attempt to merge c++
+58d9d13c019f23b4f7ca166e36cbecf9026abbb4|2019-08-08|Mark Waller|add param for fast fragment
+1ebe53cc2cc5aa1daa7e2b448de8a6efee7bb31a|2019-08-08|Mark Waller|add option for c++ interactions
+789cb6266d7a3055aea0ebb5a5f0a253680a97d0|2019-07-17|Holger Kruse|granalyse units to kcal.mol.A!; adds RMSD metric
+e23856c3464cda0479fb4a5e0e846185c61a3761|2019-07-10|Holger Kruse| gr.analyse can read expansion.pdb gradient
+a37d0b5b8cb0b0408fcb281eda7e886abd8a8cf4|2019-05-20|Holger Kruse|fixes recent test failures from writing an extra directory
+fd5f721630fd96dac4883dcdb628678bf8a947f1|2019-05-12|Holger Kruse|adds function in fragments for writing frag/cluster data; adds phil scope switch; fixes #48
+865f9468a0107f5b6ce1de65f10f8bfdc2e6b451|2019-05-10|Holger Kruse|gtest docs first pass
+a92bfd636eed2b907e7436636bc674feca312a01|2019-04-30|Pavel|Make sure tst_35.py leaves no trace
+06f37a14f08a76f114d0f542ded457a0cab30e72|2019-04-30|Pavel|Revert the change
+920ce83dc4dfa546c86d17481ef146ef3c626ac2|2019-04-30|Pavel|reformat
+c8d6039c9d8e141e786ff951d49cf085fb412726|2019-04-27|Yanting Xu|fix qr.finalise error for ligand
+fc210c5f9eafa4d3dacf135297d89ece2fcbc420|2019-04-20|Nigel W. Moriarty|buildbot does not support ASCII>128
+c9c94d76e96344fecf6c60a9b0e3359b5b384433|2019-04-18|Nigel W. Moriarty|replace STOP with Sorry to tell buildbot things did not work.
+a26cb5775a9fe78f9ac424eb95f51031448191e0|2019-04-18|Holger Kruse|fixes incorrect hierachy use in gtest for clusters
+5964b774e437c8ba09a981dcbae96dc31ddb2344|2019-04-17|Holger Kruse|gtest writes out all clusters and fragments. simple version for now
+e1cedef04872bdbdf3356dd3d4b2065a83bf3282|2019-04-16|Holger Kruse|gtest update: g_mode=0 and new delta scheme; plus bug fixes
+4c46628af27d89b9fa127d83a07ab1619c6491d5|2019-04-15|Holger Kruse|extenting granalyse
+6d17739d294ac62067be78cd3a2d70dc87395a72|2019-04-15|Pavel|Stop tst 31-34 fail for missing imports. Add tst_38 that illustrates the need of two buffers for 5c11.
+345171990cdaa2ebe5b7e5077b892cda8e274021|2019-04-15|Holger Kruse|gtest overhaul: qr.granalyse as separate script
+338ed06f2fa3e76ff487647a48c3b58ddfa9c729|2019-04-15|Pavel|Do not clutter the output by showing the command; also, it is inconsistent anyway.
+e78884de10139114cd62ce89fef750f267af5624|2019-04-15|Pavel|List tests to run
+fe855e0193f916c64967d830638f0bcaf45740f6|2019-04-15|Pavel|Test to exercise ZN coordinated by several CYS. Also, fetch tests automatically so no need to list them explicitly in the runner anymore.
+914e930114948365749c40c5af6254d4455f4636|2019-04-15|Pavel|New test 36 and an attempt to make all tests more uniform
+229097e4320767dbfb0a82e79809f3696d63a8a3|2019-04-14|Nigel W. Moriarty|small changes to testing script
+75283ee183d2f36bc7a7e8df6a4329b172689e54|2019-04-14|Nigel W. Moriarty|fixes the strange CYS CB bug but maybe moved it elsewhere...
+3318f98708938bf7a14c8a4e317ac763bd9cf291|2019-04-14|Pavel|Poor H position fix
+09069e6f8086c3542f6468ac66da52978e48f985|2019-04-14|Pavel|This should fix tst_30
+3013afba3f227ba7fa4ea4e60916a44400659ad7|2019-04-13|Lum Wang|Update qr.py
+2d2c68378f4a62f4c2d77fa3888df7556d5bd14a|2019-04-13|Holger Kruse|adds gtest unit test
+8482cbe41559b0e8e6e03d9642b8eb2a2dd932c3|2019-04-13|Holger Kruse|removes (now) unnecessary if
+1ffce7991a44a298c77fc7a93a445c68e91f8f07|2019-04-13|Holger Kruse|qr.refine cmdline overhaul; fixes #46; fixes faileing mode=gtest; fixes related unit test failures
+d23a238e241c4ad1f767ef97c865f225f7c00775|2019-04-13|Lum Wang|bug fix: forgot gtest mode in mode handling
+2704781f511b4d22df0342ae463c08084e4bcd2e|2019-04-11|Lum Wang|use terachem's default gpu memory amount
+f87477c14ff2ccafac7ad8e9ddb23f3364212ef1|2019-04-09|Nigel W. Moriarty|added option to add to end for testing and fixed missing icode bug
+30638464f7d803f41d4cb06e663573685a732ed1|2019-04-09|Pavel|unused
+5949a602176a78c9a28ee1a6744c88b1912967d9|2019-04-08|Lum Wang|normalize map
+64f58f11a8ceb635866a8f335471638940e73d67|2019-04-08|Lum Wang|fix bug in weight search
+7fae9f647a354ac43a71113ac7f09a406aa2ed9c|2019-03-29|Mark Waller|Update README.md
+0d58d53ccbf3c817cd5376bd262b160cf0fb4d75|2019-03-29|Lum Wang|cancel restriction on number of atoms for now
+0ca5ccfcc90ddb9e823944e0b8da33109cd84ac8|2019-03-22|Lum Wang|print CC information in refinement
+0aeb3f6fef68f35ac97bb1313148c5f89deac1d5|2019-03-22|lum|scale weight, rather than normalize map
+b349825918a80f86a9fb208c8aed60544055f5dd|2019-03-20|Lum Wang|report resolution of map
+87344bf626dc5ad5fbf8c98d2077975b1e149c6e|2019-03-19|Lum Wang|add number_of_refine_cycles option for RSR
+d39a2e35e20ff361026065a3e2667e9c4f767339|2019-03-18|Lum Wang|rename output file
+91748a9e18a8d3420a6358934c7cf6bb3540ff76|2019-03-17|Lum Wang|preserve intermediate data in RSR
+becf7355e923221e3ed84e5d8d56567ee69acab1|2019-03-17|Lum Wang|add skip weight searching option for RSR
+ebb457d7fe329ff3e62d175661e35aab5be617b3|2019-03-17|Lum Wang|normalize map
+d408be08bd7abd2aa4af931f96c7efd794040937|2019-03-15|lum|fix bug in assertion
+cda073fa6ca1f069d22b522e72b28b61654393ec|2019-03-14|Pavel|Propagate weight down to real-space refinement
+b59d985d516f805c6988e9726fd963da0d3d0b7f|2019-03-14|lum|recover, sometimes energy is positive
+30e77956d67933eacb67f252565bd9667d0527c3|2019-03-13|lum|should handle all situations with mode and input data now
+d95d43a9479d7a4ca7dcb9cb14d788104482c659|2019-03-12|Pavel|misc changes to weights search
+96200ed3537c78af3e83e23a3b3bbad78b944ddd|2019-03-13|Mooooony|set default basis set to 6-31g, especially for terachem
+3851c52228e515af94f199019e838f8f27d53a5c|2019-03-11|Lum Wang|do not get command in restraints.py, it is just a loop
+064af3c6d10902917ac8765ff9bb67e5a63af140|2019-03-10|Lum Wang|fix typo
+92aaa95cc25d7dbc55ce60fd39339d6910b51326|2019-03-09|Lum Wang|fix bug that output pdb is incomplete in RSR
+2f0f4f08a42f9c114dc4ee65d6ff1cad2ee4d7ba|2019-03-07|Lum Wang|avoid last redundant calculation
+399af0d4c2b01d0a9d238e50b0bc52cb7928a430|2019-03-05|Pavel|Bug fix: stop ever-growing weight in RSR
+1ef95f5c520948f0b71f0381410b2185ab1f6fb5|2019-03-05|Lum Wang|clear
+a31200c36d31a2e9370cfc2b6805be5fa86f272e|2019-03-04|Lum Wang|load terachem library files automatically
+6919657e77cff3378d21b09bef523e2ca8953c91|2019-03-04|Lum Wang|check for reason when opt fail
+fe8503cee74fd6dfaf859d90139300c1a4d6467a|2019-03-04|Lum Wang|preserve intermediate data
+c590c78de09a1e159610dccc4391f011f5b1a8ce|2019-03-04|Lum Wang|enable clustering for all mode
+a8722d5f297e62d9f359c93cebe561357e30c97e|2019-03-03|Lum Wang|more logical
+7e7e24c1a0c58af0618016c3b63aa17892f033b3|2019-03-03|Lum Wang|set geometry_rmsd_manager directly
+572abab87ba05a964f8afb382f98aec443cfa68f|2019-03-03|mpwaller@protonmail.com|https://github.com/qrefine/qrefine/issues/39 initial commit
+64d1bb9ce3ce94ee767e701746ad3052f67d6535|2019-03-03|mpwaller@protonmail.com|udpated tst_31.py to include both models available in torchani
+ceb795086641f112db93f392c5811379275f4aa7|2019-03-02|mpwaller@protonmail.com|switch to latest torchani https://github.com/aiqm/torchani/pull/172 which fixed bug https://github.com/qrefine/qrefine/issues/36 I deleted the old style interface because it gave inconsistent energies, and this would lead to confusion in the future.
+c4ac12e8c489d4dcaaaba68e004eee39a637a63c|2019-02-26|mpwaller@protonmail.com|added documentaiton link to readme
+aaa6ae6ef595c935bf5926f0dad1c47efcce958d|2019-02-26|mpwaller@protonmail.com|fix typo and rearrange citations
+1c42eba776f4d43a609f17cda0ecb0bbe9d05f7b|2019-02-26|mpwaller@protonmail.com|start tutorial example with toy problem
+4b78508ebebb6ea21efdba540e572b1ab74c0c78|2019-02-25|mpwaller@protonmail.com|drafting an example readme
+749e3c8eb9b845fe1c13ba3852d3bad729c73226|2019-02-25|mpwaller@protonmail.com|more work on documentation
+610058ffdaaef4ac8983b9f434f9121c4beb147f|2019-02-25|mpwaller@protonmail.com|added checks for python qm engines
+ef9900c51e7dde5a558a5fd6d8eace09ff03ed8c|2019-02-24|mpwaller@protonmail.com|improve test docs
+d1abe58ef979110f6021aec95292fc3fb1b59b0a|2019-02-24|mpwaller@protonmail.com|added some info on tests, more work needed here.
+7f6e95eff88f2095c95062be95a8b4b49239c85b|2019-02-24|mpwaller@protonmail.com|added new logo
+4ff650562896c9025e51446be6322f3ff7dcf615|2019-02-24|mpwaller@protonmail.com| added info for qm interfaces
+e466e512931847fbea4a165da9410edcd5382806|2019-02-24|mpwaller@protonmail.com|added to docs
+97f7986b3e1ac9a6f769a78182b0ac2490bb2bbb|2019-02-24|mpwaller@protonmail.com|added pyscf unit test
+1ee8b27eebbe714b93c2373d98e45ffd067673db|2019-02-24|mpwaller@protonmail.com|spelling in docs
+ddf09e457083d980a22b58cd90d8acecf82c8a1e|2019-02-24|mpwaller@protonmail.com|spelling
+403c9929c07338c9449d61a74abd79faff290e86|2019-02-23|mpwaller@protonmail.com|added more help strings to docs
+0c0bfcee69676ddff5e795baed8acbfb823e912e|2019-02-23|mpwaller@protonmail.com|added some more initial help strings
+3be42045c82226263b5a844c94bf4e9bc5bb90c2|2019-02-23|mpwaller@protonmail.com|tst32
+9875a80cb42886270845372bf0d033f18ded7045|2019-02-23|mpwaller@protonmail.com|working subset test for trained atoms
+8bec5c54c3b5ac136bbd77c4a0603304999893dd|2019-02-23|mpwaller@protonmail.com|precondition checked every call, needs to be refactored to constructor
+d2c6b78f024cbe6a2558fff505754e535fcfffd4|2019-02-23|mpwaller@protonmail.com| added test, now it is time for build bot
+dcd0bc30bc57c9811009f53c6dac7538e5d03f1c|2019-02-23|mpwaller@protonmail.com|fixed test to work with and without torchani installed
+594cde5931dd2e5ebde947845aca606e8c902e76|2019-02-23|mpwaller@protonmail.com|clean up
+80c2428232f53da367910948557c4899a37fe50b|2019-02-23|mpwaller@protonmail.com|torchani tst_31
+53695c808802c3d8948f0c14ae55aad002e570c4|2019-02-23|mpwaller@protonmail.com|added unit test for torchani
+99264b5022e3660f98d2f8d8dcd134e262dca4ca|2019-02-22|mpwaller@protonmail.com|t verus s
+50185415cfe05a4db080faf1845890d6a87fe094|2019-02-22|mpwaller@protonmail.com|improve bug report template
+02021d9f94d42da7b5b94e61f5d871797784206e|2019-02-22|mpwaller@protonmail.com|clean up old folders
+33f4a50772acdb2dc70ed96f5f5168107c64c005|2019-02-22|mpwaller@protonmail.com|cleaning torchani calcualtor
+96a5fca99088d77a9e66e1f9ba399f5321052d32|2019-02-20|mpwaller@protonmail.com|updated to work with qr.run()
+04ed7866593c0abf89e4a8710d32a0a3c4a48b2d|2019-02-20|Mark Waller|typo in qr.py
+688ef81f048a4e7788aadffaad00183612e8fa13|2019-02-20|Mark Waller|Update torchani_qr.py
+e4e64c4a103350610ec366deb52b6f0241aea2be|2019-02-12|Holger Kruse|updated test tst_13 with two_buffers and correct tolerance test. fixes #33
+395e87563da8502c35342af4a36ca8f5959784ed|2019-02-05|Pavel|More statistics in a more clear way
+a91cf37d8d8f3d0e03aec1c344ed89b6172ed931|2019-02-05|Pavel|Comment out wasteful debugging code (issue #32)
+b8d9a67a06868e04fe2f9d9a03d874a713a8df00|2019-02-05|Lum Wang|in case of minimization in opt failed
+c79f841cf7356d9fd1bf90affe842026f22d91af|2019-02-04|Lum Wang|let xtb can read energy of very big molecule
+fc221b88a91e61d65118dca09dfe6dfeaae496a3|2019-02-04|Lum Wang|add solvent for mopac
+1890bb3d4258827af9a28c8ddbf0b066929b3a5b|2019-02-01|Holger Kruse|missing bracket, somehow this was not committed
+6758066103a9af68b1272f6f09bb18894b9d4e06|2019-02-01|Holger Kruse|gtest min_g fix and small logic update
+3cff895155b8ebacbf2665500185b47ad379e804|2019-01-29|yanting0928|using ani model with ensemble
+1e24b267cd571290161a7a8053bb3061d77ef28f|2019-01-29|yanting0928|update ase_interface for ani
+b69964aab0b6a3449471f00c46e28b5609a481a4|2019-01-28|Holger Kruse|Merge pull request #31 from qrefine/hokru_devel
+5e6deffda96cbcb919a3a1f876ee2639a9eeea2d|2019-01-28|Holger Kruse|print out fixes; phil scope fix
+7bdc4aacfe8e9a9cee9611b1d031f3d9b01ac437|2019-01-28|Holger Kruse|cosmetic changes
+42e348f85398029acb88f56f236a732eacfab9c4|2019-01-28|Holger Kruse|gtest update and docs
+8371c7eaa6e1d76cb75887576c0585fe428acc47|2019-01-27|Holger Kruse|update&fixes
+c9fa1df23279ed88b3f9ef6ac0ab8704c11bb042|2019-01-27|Holger Kruse|initial gtest implementation
+e6a92d927a5448541d94e98d3eeacf70efce7431|2019-01-25|Pavel|ignore_line_search_failed_step_at_upper_bound=True, which will make failures more obvious
+f9d700d5650ffa547e6b873cb06552cde702fd8c|2019-01-24|Pavel|Bug fix in super_cell revealed by 1kyc; comment to tst_13: it hangs if Mopac is out of date
+4c4e7c7ba77b4be0c808c9ad202645bbc9e9c181|2019-01-24|Lum Wang|set cosmo as default for terachem
+8428ddcbed9c078526ae2238e90f4bda18591819|2019-01-23|Holger Kruse|Update README.md
+5fdbd172e4957db02f94287ef0a4f174836504f0|2019-01-23|Mark Waller|Update qr.py
+a7e118499c13bc96252e77d640a07fd8139f5cda|2019-01-23|Mark Waller|Update qr.py
+02b69fb9d5137e1e5762a82e882b99b45e1c17fa|2019-01-22|Nigel W. Moriarty|changed to UNIX file format and basic python
+e33e52118511f9ef578e51b1cb7dc083d9b94b13|2019-01-22|Holger Kruse|mopac ase typo and new error message
+7cf420d79ca389cf6d8570896540f0206d2cd6f7|2019-01-22|Holger Kruse|workaround for #26; also adds quantum.nproc for mopac threading
+78a44ffbed0f5486065e4a3d3b086c8ca62ff14c|2019-01-21|Holger Kruse|Update qr.py
+a13ff9a1a2a725037da9101d84081e887eca55ba|2019-01-21|Holger Kruse|Update README.md
+71e11c63c962a23a424f026ed0a6ebcf0b1616fc|2019-01-21|Mark Waller|Update README.md
+21c1ef72c0bc6f66cd2975d763a5e4b35964792b|2019-01-21|Mark Waller|Create PULL_REQUEST_TEMPLATE.md
+36310abf2de123cd5248e463c3f91df8ff7fb5d1|2019-01-20|Mark Waller|Update issue templates
+350f9d202b92ac7539af28aa9bd40cbe8aecfe07|2019-01-20|Mark Waller|Merge pull request #25 from qrefine/add-code-of-conduct-1
+a71e4a2bb720fe66de8c039f6f85334f23a67285|2019-01-20|Mark Waller|Create CODE_OF_CONDUCT.md
+afa6e769fac749564e495089918d980041bb82bb|2019-01-20|Mark Waller|Create CONTRIBUTING.md
+ee008ee1f82f1f3d8b02c3651797a830778da29a|2019-01-20|Mark Waller|Update CHANGES.md
+c875a4d1b7b9a42468fae9b23f616e91f73a02cd|2019-01-20|Mark Waller|Update CHANGES.md
+ee3fda8cf5b2a781ae805c1fef368cc6c573d277|2019-01-20|Holger Kruse|new xtb defaults (+gsba) and interface fixes
+ab84699093c3005ef260559cd1504ddefab30342|2019-01-18|Holger Kruse|xtb interface update for xtb v6
+801a2a021998eb0ec8bfa5c5aee8e36c08a4f21f|2019-01-20|mpwaller|removed .idea
+b7c0cbc8dc9e30db28077b22038fd20195e1eca1|2019-01-20|Holger Kruse|add qr.refine --help/--defaults/--version
+6a726447812b33a62451e52be368f0b5d6d6bb13|2019-01-19|Holger Kruse| version tag
+be01446b36158ae20296be1c0eb526b049d544ef|2019-01-19|Holger Kruse|version printing; adds empty CHANGES.md
+020af5bc10e6580fdb14a20d2f2c3c623e841d36|2019-01-18|Nigel W. Moriarty|add versioning script
+1635085ba4c68c22908baadbbe193e6450511b04|2018-12-14|Lum Wang|add CC imformation
+8235a094b637f83f3b8dace2d67d88131b276e18|2018-11-13|Pavel Afonine|Update README.md
+1411161edf1b5a3724453cea8c2e891a0624f6b3|2018-11-13|Pavel Afonine|Update LICENSE.txt
+3e1533583104ee7854e02f583b9bab6f66ab47ff|2018-11-06|Pavel|Fine tuning parameters, more controls.
+c30f5792d31faea5e0f039ea1c239154170dfc53|2018-11-01|Pavel|propagate parameter
+50a25916821fa6ee567f11aa7f9fd97539eddf5a|2018-10-29|Pavel|Use correct cs
+d4e58ba7ff112fc5b432cecdd00f09a58ad8de54|2018-10-27|Pavel|fix parameter access
+fad2f88394ffd11be8400ee4fa30544e4a30972a|2018-10-26|Pavel|fixing various performance issues
+3e9d8c3b44c42785fb5584844326a762501560c7|2018-10-24|Pavel|An option to use ASE LBFGS
+90911b88b4b77ae071681ee4dd99c72bf5710ea6|2018-10-24|Pavel|adding an option to try ase lbfgs implementation
+73747e7bd69e0ef97dbfa3198b5834441b4ed36e|2018-10-24|Pavel|minor cleanup
+3fd970f8527ce91c2d611520113d82da242acf56|2018-10-23|Holger Kruse|reverting stpmax change to let tst_00 pass. needs > 1
+20b657eb9be2f091fd56ebac97389de4aed1c824|2018-10-23|Holger Kruse|SD/CG pre-optimizer
+c5c7ff3ff40a1fe91ee1a5780cb694dee7e10289|2018-10-11|Pavel|bugfix
+26f2847e6608e2ca08a6cba474b62ea331d334af|2018-10-11|Pavel|buf fix for cryo-em option
+978f67ea41d0c65ae01f0d441218a8e16b92d945|2018-10-11|Pavel|more debugging output
+57b1bec069e917b710c72380b3242ead3e1d1f2d|2018-10-09|Nigel W. Moriarty|update qr.html
+1ba3c93a3cac775b7fb4784ca49c154ae1c74562|2018-10-09|Nigel W. Moriarty|removed old file
+63b6527695216e989ae0b7324613172252daca8d|2018-10-09|Nigel W. Moriarty|setup files to generate docs
+123df972ec6f2894ac2bd149e84e35d9a6d3e685|2018-10-08|Nigel W. Moriarty|fix for symm. HG, updated docs
+613d48119bf62056dbead322f98f426548c7a562|2018-10-09|zhengmin317|a delicate way to handle the flexible super sphere
+fa307657055ff3905df43ff1f348f84207f65c35|2018-10-09|Pavel|Found a bug. Adding debugging code for Min to investigate.
+f9ef0484b05a826726c1598dd6d79c46a5b9c13e|2018-10-08|zhengmin317|adapt to a flexible super sphere
+a47f6110e898f5628e4556142a18082cc5abe2ee|2018-10-08|yanting0928|Update README.md
+49a7ded2eebe432fe7e5edb588936d7d0b15c896|2018-10-08|Pavel|Use a better selection (was using wrong one!).
+f03c734b5715212d7aa97c4ea96aca8ce4a465c7|2018-10-07|Pavel|Write fragments that go into QM calculations.
+e76610d8f71124fc785b52356d12d0ca030b673d|2018-10-07|Pavel|remove useless try-excepts
+2fa455efe39eb5789ea1388052b22bef812bf4c4|2018-10-07|Pavel|Add option to skip weight search ()optimization
+399b1064b99be623e9b34fd93033992048a13cb0|2018-10-05|Holger Kruse|too many cooks
+d0463737a900854a99e192acd77faabd172b3694|2018-10-05|Nigel W. Moriarty|missing argument
+125f982ecd639f48c6429ccef0285f24a219f744|2018-10-05|Holger Kruse|fix for failing mode=opt
+69255a7c035b6d68bcb5f99852070688dbd7652e|2018-10-04|zhengmin317|readme update
+5738477fcc501a55888a9fffefb2a8e62894f96c|2018-10-04|Nigel W. Moriarty|can print out info on step models
+f5a51cbb20b156d3ac0a80f303ff09a0e88d90ec|2018-10-03|Nigel W. Moriarty|fix for Cu linking, test is here
+3e5f9f0e9cad738751b9c351bc1c296f4c3c2886|2018-10-03|Nigel W. Moriarty|fix for Cu linking, test to come
+181f71fc4c7926cedcf61980d88daff80db260c3|2018-10-03|Holger Kruse|some more qm_interface documentation
+45d50e3077148295d97022f3a7b11452bfff356a|2018-10-03|Holger Kruse|xtb wrapper update
+0d1cbe9eb4c78f14d9bb07ec66adf39c84517588|2018-10-03|Holger Kruse|optional logging for minimizer
+8d973bd91f7a709964acca0fff6cff32d1af7bb5|2018-10-02|Nigel W. Moriarty|more docs 2
+5b9a476c93711f41ade0fd7ab35fbebeb79566e3|2018-10-02|Nigel W. Moriarty|more docs
+5b97ed0aa3edc7d5f8cc19ffb13e881d27877cb3|2018-10-02|Nigel W. Moriarty|restructured the docs directory
+b514bdd49580790bee16648dddb69b56aecba2f9|2018-10-03|Holger Kruse|hotfix
+fd6d0381c1e2ece3ca5e3d5aba3f6876242041cf|2018-10-02|Nigel W. Moriarty|many small changes
+a39cc963072fe02781acfb7090c4038c0fc06af7|2018-10-03|Holger Kruse|merging with new origin
+566cdcc3ef7e14d185ead6f40353fb790647a3a8|2018-10-02|Pavel|Add check for meaningful data file and mode=refine; generate free-R set if missing with a warninig
+927aff5edfd2d3c7f3b9d2f78c12507a86aeb0da|2018-10-02|Holger Kruse|template and start for QM interface documentation
+16a70215b3f161c104407dda6667e12dec9d1cc9|2018-10-02|Holger Kruse|little bit of keyword documenation
+f6db0aa4b78ec86539da14a3046282e247e83023|2018-10-02|Holger Kruse|Merge branch 'hokru_devel'
+80d6aad0e1e46a9bdc3fa45daaf1f3cf168275b7|2018-10-02|Pavel|Bug fix: no cs in driver.py; print running command
+9bcec61e5df1776c344cb1d77c4d85ab1fdc538d|2018-10-02|Holger Kruse|xtb wrapper update and tentative fix for HT1/2 atom names
+6c08456936e96b57353967f407b87107da627aea|2018-10-01|Holger Kruse|xtb quantum.nproc enabled
+90c524c021e04e71c91c0d6fd3c32049d8dcba18|2018-10-01|Holger Kruse|xtb quantum.nproc provisional implementation (not working)
+8fc63abbed819ced27e305e074ec1b314fad3460|2018-10-01|Holger Kruse|xtb pointcharges for embedding
+bf030f2c31726da1284b10b232bc2642117cca05|2018-10-01|Nigel W. Moriarty|more docs edits
+518c6e8226564fa744fa702a43eaec3748270ec3|2018-10-01|Nigel W. Moriarty|added a start for documentation, added CRYST1 records to weight and refine pdb
+c974b0f95c1d31b508d9524dc8a9a912e9dfe612|2018-09-30|Nigel W. Moriarty|more debug output
+65753a349f878421a1caec4a8a2d9acb3357f110|2018-06-29|Nigel W. Moriarty|small changes to splitting code
+8d60b9df9d145f6c06a40600185ac10993e94416|2018-09-29|Holger Kruse|debugging
+c9e50bb60a76ff64bbff6058e45ffaa3e76858ff|2018-09-29|Holger Kruse|enables qm_addon=gcp-d3 to use both correction with addon_methods requires + separator and gcp_string at first argument
+e29f2a89488e71ab7f73e11794adfd8d32e00eab|2018-09-29|Holger Kruse|xtb hotfix
+a97c46947ca0c618f44887da8b5621dd71d79b7b|2018-09-28|Holger Kruse|xtb cleanup; missing xtb pointcharges
+6b34ff4cb85c4bb66d6cbcf05cfee8e1f8516031|2018-09-28|Holger Kruse|Merge branch 'xtb_dev'
+946128a110ccdb24cc6d35490ef86d8290be1787|2018-09-28|Holger Kruse|xtb interface init
+970fd1e3f7bd0c08a6e39ab328361359a65f48f3|2018-08-28|Holger Kruse|readme additions about qm helper
+a2fbf55d685d99b78ad047c513a9d5bdda94d220|2018-07-20|Holger Kruse|Merge branch 'hokru_devel'
+bed32b5b9f012a993f4da249da7a4c51f6faef0d|2018-07-20|Holger Kruse|fix: ASE xyz format not readable by dftd3
+abb98c435adc245b26b85905bccd3a70852dedb5|2018-07-20|Holger Kruse|spelling
+40462c47d9a3056ca7aeeade525b6c98311d32e4|2018-07-10|Mark Waller|Update torchani_qr.py
+6a8b15102accfc1eb7bbf58066197e64287b2fec|2018-07-10|yanting0928|add torchani wrapper
+da3ab2fdfa4ab46b9c6b6dee63dc805840d0da38|2018-07-09|Holger Kruse|qm_addon None fixes
+c3180ad17bc495a77157ff0d6fa717a8602296ad|2018-06-26|Lum Wang|faster
+050859e86d523721672538147bf62f42c03ef337|2018-06-23|yanting0928|add ani
+b45df0735603592911ed82141a7a3c876d4dda2f|2018-06-22|Lum Wang|remove ani
+79ea3bd317ab268db9c2804bb33a9f735cbdc056|2018-06-22|Lum Wang|drawback ani
+d6d867e500770796503e497c9375b406cbc6f8e9|2018-06-21|Lum Wang|ANI network
+6a29c556ab7032d4b6652499254a5ede5b53460e|2018-06-21|Lum Wang|no absolute path
+55a057d4feda982f357529e5591106a32ee2f76c|2018-06-21|Lum Wang|add ase_interface
+1ba59f2f09a68f62fad837c12bf21b03bbf029dd|2018-06-20|Mark Waller|Create ani_qr.py
+ba4ceac6eda4559efcca73a8f184a992081dcfb0|2018-06-20|Mark Waller|Update restraints.py
+a603dd08d7a2f90d0f19afdd5962f54a9fd0f1c3|2018-06-18|Nigel W. Moriarty|more status info
+335a1ad1f31785f79d574fe43b050c1778e303f2|2018-06-16|Lum Wang|ani get command
+1cd15b572bb921cde764fb971182eb20a078cf7d|2018-06-16|Lum Wang|add ani engine_name
+557a28cdb49849edc5ee94ad7390f72fdfba109f|2018-06-16|Lum Wang|add ani engine_name
+f825277eeafcb0ef4539b00807d0c5ab17dfdb93|2018-06-15|Holger Kruse|adds quantum.qm_addon/qm_addon_method options; terachem wrapper update; fixes #14
+618aa7fa5db749eb2aa0ae78f88033cdbea5979b|2018-06-15|Holger Kruse|abs. path for rst pickle
+8fea8ce3c263eb5cfdc8aad7fa549161ee288738|2018-06-15|Holger Kruse|removing some debug printout
+f23f559cb5280b5f2c3353611d9e538abe1c3567|2018-06-15|Holger Kruse|terachem ase fixes
+2a98f8066af87c9eddf6edadae5c0ac0ae1adfec|2018-06-15|Holger Kruse|new hf/631g gCP level
+e838d5a8eb96f8dd7a4540aa05016c6e34d905d3|2018-06-15|Holger Kruse|rm debug setting
+dceb46001a81ccce043b417390f5e001706cdf69|2018-06-15|Holger Kruse|workdir improvements
+4d85d94dbadc9604748cccdad3fedd04ab45c1d9|2018-06-15|Holger Kruse|dftd3 fixes
+533d405179ca07e1636bd351e6e69309249feb27|2018-06-14|Holger Kruse|fix2
+2814dfa6cd81813a7dd2cd6fc10c2ee47709a0f9|2018-06-13|Holger Kruse|qm_addons
+488f02e967c3ed649f41f1242d7926fbd5376542|2018-06-14|Pavel|Clearer output (still in a completely wrong place!)
+d902efb31061f88358609ef80650446b3aa39cbe|2018-06-13|Nigel W. Moriarty|added new command for converting gaussian to Phenix PDB, improved status, added checks to altloc fragments
+2911e7c62be404ca365441c4af3ea46b557a0ca2|2018-06-13|Nigel W. Moriarty|changed altloc default, removed prints from orca wrapper, changed S-H to 1.2, added output to status
+95b9b42f2f94562ffc525191a814a51d59994718|2018-06-13|Pavel|Real-space refinement is now possible (refinement against a map). Refactoring is needed to de-uglify code.
+8c018044090f6b3d8a36d2691e8a9e2dd3da61f8|2018-06-12|Mark Waller|Merge pull request #10 from hokru/turbo
+1f8931c535ea2228aaea9ac15a817f7018ef3d5b|2018-06-12|Nigel W. Moriarty|small change
+0c0bcde5136479777fe0388df33259d52d3790ac|2018-06-12|Nigel W. Moriarty|better error output
+14d1fe180638fceca7d77d813a475e7d6cf60315|2018-06-12|Nigel W. Moriarty|more info gleaned & displayed
+2da9653d18a8429723e20262a2caa724f71fb7e1|2018-06-12|Holger Kruse|terafix
+a16738ed1d87c91c695a07522ad0ec26cf9133b9|2018-06-12|Holger Kruse|auto charge
+6f08c867bb65569862ced17743652047c3bf3776|2018-06-12|Holger Kruse|printout name fix for orca
+ba14bde8fd997337ff25de6003ff089cf714881b|2018-06-12|Holger Kruse|make TM great again
+850f3a18de6e3face7aa9ab9539661e2c2cf0859|2018-06-11|Nigel W. Moriarty|cmall changes to status
+49bb4917e233378cbd8190d84dcb55542f82b660|2018-06-11|Nigel W. Moriarty|added a development command for checking run status
+c3ab259d6c4c2d0869cb8ee2ec5500104c7b2ba1|2018-06-11|Pavel|Stop if no args given (don't crash instead).
+e45a74bbb2ab6f5b4044b1331ee3c59c22269673|2018-06-10|Pavel|bugfix
+f93ad905ae9562b431a1b66a4376e164381d516f|2018-06-09|Nigel W. Moriarty|update of varible name
+5ad6c856f37752819bdc65d3299c5cbf57d58d5e|2018-04-13|Nigel W. Moriarty|added memory to Orca, removed tst_11, change QM defaults mechanism
+e0a893969bdf50a457f2dc29626ce2e91cb9c71e|2018-04-13|Pavel Afonine|Working towards refinement against the map..
+93a70b65a609c5fcac5ede39cefaa6581f95bb1e|2018-04-13|Pavel Afonine|First step towards using model class; enable using map as data (used in cryo-EM).
+e75b78f063f4360111fbaedb6e96e447157f6100|2018-04-12|Nigel W. Moriarty|set labels all around
+5a7820e176163fe5ba59f9150857e27b55b60c0b|2018-04-12|Nigel W. Moriarty|fixed Gaussian clustering bug
+ef5bddfc20969b5d7eb83d72122c27a88b758bcd|2018-04-11|Nigel W. Moriarty|small bug fix
+1d12e09fa27a0cb8dc66ef6c4ba602d43ff0517d|2018-04-11|Nigel W. Moriarty|test fixes
+af1dfc7a2401c24fb217d126236c6c3f8f2e35bb|2018-04-10|Nigel W. Moriarty|added new phil parameters to Gaussian wrapper
+758f253d87a7971d08419cc478482faf98c68935|2018-04-10|Nigel W. Moriarty|pass phil parameters to Gaussian wrapper
+e0a8e1e54ae999e2701ae614e2bf82c581171cbe|2018-04-10|Nigel W. Moriarty|pass phil parameters to MOPAC wrapper
+da8b39e88205211a2ec209544fb8559156b14ab7|2018-04-10|Nigel W. Moriarty|pass phil parameters to Orca wrapper
+41f2a836c0364d73fb68f965eb6f9a44fbdd9b8d|2018-04-10|Nigel W. Moriarty|small overlooked phil scope change
+49b0af77ab229f07d537279c4a1b6d2ae4323b11|2018-04-10|Nigel W. Moriarty|changed QR phil scope to allow for better QM control; modified MOPAC wrapper to allow queue jobs
+dc11e6d2f32967bce5296b2b9aadf3a79ada368a|2018-04-10|Mark Waller|Update tst_10.py
+5ebf7754912dc9ed0f9117dcaca849a704c1047b|2018-04-10|Mark Waller|Update tst_10.py
+6b0a44fe68094bce50f30e0863598c8cd6854b26|2018-04-09|Mark Waller|Update fragment.py
+43e0010779a2dbeff1aab26c10aab6689ea9a51e|2018-04-09|Pavel Afonine|Add test to exercise cctbx optimization only (no data required)
+2392b841a2054597eacad85408309df9c913245e|2018-04-09|Pavel Afonine|Do not require data file if running optimization (mode=opt)
+127ba6a16b76d24eb0645ca94f162a6827126bfd|2018-04-09|Mark Waller|Update README.md
+49e292b2db5a77a8d1e9064d37f4363cd1e5204f|2018-04-09|Mark Waller|Update README.md
+2dcc01910599c45fdcc7a5e9249c8f161fe125aa|2018-04-09|Mark Waller|Update README.md
+a2ffc10f40f429fddd294e912a491548306452a1|2018-04-09|Mark Waller|Update README.md
+96f7322a034f343474b3ec4c89a0e87db96c7aa4|2018-04-09|Pavel Afonine|Switch to using a new CL parser that understands maps (needed to support cryo-EM).
+807c40596a7ea5f91e8e9775268f2e55fd8fd8f2|2018-04-09|Pavel Afonine|Some one changed something in CCTBX that broke entire Q|R, and this little change fixes the problem, but I have no idea what this means, what broke and what this fix means.
+3ded2283b1f3d2fcc65879cddaf6c900aed9f36f|2018-04-09|Mark Waller|Update README.md
+ed84894d1c44ddae25ff9badb2972fcc9181d242|2018-04-09|Pavel Afonine|fix formatting
+e0c048b70798b888d55f9fb73acdc8503fef7b84|2018-04-09|Pavel Afonine|fix mopac ase bug; stabilize LBFGS
+0d6fd48845ba5ac458cb08b93bc2a3e14a085eab|2018-03-24|zhengmin317|remove capping pdb files for passing tests
+615585798b769883b58350207e4e633e4593c35a|2018-03-23|Nigel W. Moriarty|simple mode
+084c382f434e56ad5412dce3ebd331db48cb4edd|2018-03-23|zhengmin317|(to debug 1aie) each fragment gets a charge_service since self.charge_service could not give right charge
+cacfef674a2b24dfdff92cdea7bc450f7924b279|2018-03-22|Nigel W. Moriarty|fixed the alt.loc. skipping bug and added test
+2d301dbef433ab5a206658586cbc0754792bda92|2018-03-21|Nigel W. Moriarty|small bug in charges - added inline test really
+97325dd53fda4b962b09f0c4800428bb66f324c0|2018-03-21|Nigel W. Moriarty|small bug in charges - added inline test
+9cb969d48729a32b0fc807a4f27f49be1e4098a7|2018-03-14|Nigel W. Moriarty|fixes for 5c11 including Zn and sulfur bridges across symmetry copies
+762cb5664608d3eeb64f05008469b0e88300d513|2018-03-13|Pavel|minor fix
+a5a3329b68febc84695bee7bd2c0621ebc16ec98|2018-03-13|Pavel|Sort/order generated residues such that they can be linked if desired.
+0af3355a184b836de9a47aabaf4f6bd2dc1b9c08|2018-03-11|Pavel Afonine|Create site_symmetry_table directly (avoid creating xrs)
+d664722fdcd6a40b342fe01c5381c7496fbd2295|2018-03-11|Pavel Afonine|This change makes refinement run approx. 5 times faster.
+c696db0fd6b5a829548c864e7e786a84a0c7483b|2018-03-05|Pavel Afonine|re-enable early termination
+450a1b0a4040f4b1bfaed4376017788627a4ac3f|2018-03-04|Nigel W. Moriarty|moving test 24 to new ReadySet!
+ec3a8fb5bf8acf927bbf026d5a690f00c5013f63|2018-03-05|zhengmin317|set stepsize maximum for graident_only opt;include the model with the optimal weight when selecting the best result
+875a75580832011c8ad362f632e96a4c47af89f4|2018-03-03|Nigel W. Moriarty|bug fix of alt.loc. situations and test to enforce
+eaa18f698ff4ed2041ec27d18a64b64b526d2c36|2018-03-03|Pavel Afonine|pass crystal symmetry to xrs creation
+c5c90bb14b66b081e76083f9680051c81368f02a|2018-03-03|zhengmin317|comment out callback_after_step method in driver.py since it causes large R factor increasement during refinement with an optimal weight
+e98e2e96ff9b4c2c6536b18600f8878fa77de6a0|2018-02-14|zhengmin317|the super sphere does not change its size when its coordinates get updated
+01d46e7d3317094ec8c582e4b08c344e94f54fb2|2018-02-14|zhengmin317|updated tst_14 for the case when the order of atoms does not match
+7d11920f0a8e0c946c637431ccf9a6fe1b200da5|2018-02-14|zhengmin317|new jar for Yoink
+9903e06db25c32b49812c63c4d714b99e74e0b0d|2018-02-12|Pavel|bug fix
+cf39ed9e9ecf3f8b2384728e6fc3c1d7549bb68b|2018-01-26|Nigel W. Moriarty|changes to run on queue
+e0f689831f4487230b3afbd666a879753e031e80|2018-01-25|Pavel Afonine|Cosmetic fix for failing minimization (the real issue is still there!); fix test 00
+d1ab98d13403d9642939811d6d052188b481f430|2018-01-24|Pavel|Re-write weights selection logic (again!). Make use of callback_after_step in lbfgs minimizer to early terminate if geometry is bad
+8bb14994a3a252d026ac2ae18c324354f62f7e51|2018-01-05|zhengmin317|enable charge_cutoff
+34c65bfd3e3325fd0244421aa4915e620343b292|2018-01-02|Nigel W. Moriarty|fixing tests for electrons
+8a9c35324053a9a608b4c9a5d3cdd4ba0bed0d1e|2017-12-21|Nigel W. Moriarty|indent
+eff5da0114e9794c90206b7b7095cee1fcfca732|2017-12-20|Nigel W. Moriarty|electrons option in qr.charge and some improvements to orca
+33d273896f9e1e49b5daf7a24844a38489581302|2017-12-21|Nigel W. Moriarty|typo
+c0918d41ba0c7921934f5927757431f35c8b0968|2017-12-19|Nigel W. Moriarty|added Mopac functional env. var.
+1c0bf295d5ed704a5f8d8bffe23715bbeebb94c0|2017-12-21|zhengmin317|add dump_gradients option for refinement
+9431612dceb7fa143052bdf12a6a1e0993c9b790|2017-12-20|Mark Waller|Update orca_qr.py
+058678bf41b2b16c61a75c6d7cbb24d508387247|2017-12-19|Pavel Afonine|New version of super-sphere code. This breaks tst_19, need to investigate why.
+bd293be0e7d1fdabfa2a39c766698c6887dc2154|2017-12-19|Nigel W. Moriarty|typo
+d9caf23460f7127d6fcc2990b652b7b191a60ab4|2017-12-19|Nigel W. Moriarty|put parallel examples in fqm_mopac; general tidy
+b1c1916e9c1d15f9410808e693c692616618e128|2017-12-16|Nigel W. Moriarty|more output and clean clutter
+a5002696b993af0ceb245b48ddc265fd9f3d9365|2017-12-16|zhengmin317|updated  Yoink-0.0.1.jar
+9b3bd702cd985e41f16dc854055c2d29be62178d|2017-12-15|Nigel W. Moriarty|recenter and remove overlapping atoms
+dd089b505c62d8639cebbc1d245e5a3cc138f7ba|2017-12-14|zhengmin317|point charge cutoff
+5aebfc708a7b3d6e1f2734468c8aa8ceb55f7c87|2017-12-14|zhengmin317|charge cutoff
+04bb4882c9a8c1423a983d0f8c0c540a67c01e28|2017-12-14|zhengmin317|bugs
+ef70c0527226fd3511a3f68509d852e8759e716f|2017-12-14|Nigel W. Moriarty|added test for MTN and timings for mopac tester
+c86fe5ca36bd19763dca9f5220c018cb9a2eb226|2017-12-14|zhengmin317|updates for (unstable) slurm jobs
+83ac0742ae67ee69f2a05f9af916b9798c5123cb|2017-12-14|zhengmin317|bugs
+6ecad86ec1070feef7666d1f001be9f0b7167bc7|2017-12-13|Pavel Afonine|allow grm to be optional
+3a797a0a403e3c2e0cf7a8ed3eb7ddd01691e103|2017-12-11|Nigel W. Moriarty|kudge fix
+fbc2df0bc1ef000639921215428ef9055f2de1df|2017-12-11|Nigel W. Moriarty|small bug
+12ea40f69ccabafce17136f17dec155c4d638c17|2017-12-11|Nigel W. Moriarty|add bogus hydrogen to covelent bonding ligand at boundary
+112f7d93a4b0ee8828910edb26c8934c39a70a4e|2017-12-12|Mark Waller|Update restraints.py
+aef3540cec9df512c3b13e50565bf5020bf9c273|2017-12-12|Mark Waller|Create gaussian_qr.py
+4e797cb20c46c5e46083ec2b47cb954476b8954e|2017-12-12|Mark Waller|Update restraints.py
+5fe40063a2a366638a78835c516f645721aa475b|2017-12-12|Mark Waller|Create orca_qr.py
+4d6db49ea39e1db03173af3da9530f80deeee106|2017-12-12|Mark Waller|Update qr.py
+9e381e7aadc96c6fb750c2d97adf5cc39e795a31|2017-12-10|Nigel W. Moriarty|test needed a CRYST1 record
+62ef1321324227df2b961156088a5a815347b4cb|2017-12-10|Nigel W. Moriarty|create conditionally function
+d8f843971abb87526c3b59b46e0c314de9c783b2|2017-12-10|Nigel W. Moriarty|fixed to conditionally add SG
+c7c8c439b2594571dc9592231bb05f97f5129442|2017-11-29|Pavel Afonine|revert previour commit
+42bfbabb0de798d31fa9f56d01d96e3d939713d4|2017-11-29|Pavel Afonine|Bug fix: wrong symmetry was using in expended to P1.
+5dd9f0dad57bc40ec187ade7f078f03381269ee2|2017-11-28|Pavel Afonine|skip tst_13 if MOPAC is not available; show full traceback in try-except of test runner.
+be09389ecf16cbea2f0f42e089cb967ed16af665|2017-11-28|Mark Waller|Update README.md
+9adb83a65e78e2dbfa16a1c6f489c003490de54a|2017-11-27|Pavel Afonine|fix tst_00; un-hide failures
+8ac3513e2affae76f5d04e92e6260edf6ec0afaf|2017-11-27|zhengmin317|tst_13 works
+b832c337374b72885af1eaf6c53da31916cd6090|2017-11-22|Nigel W. Moriarty|default nproc=1 and not use directories
+79050394aac476fb2004a3bd71b3affe9b1fe3eb|2017-11-22|Nigel W. Moriarty|Final tidy after merging charge class. Added --nproc to qr.test
+50781300e8ebeafbaa2e6bda66730f875279a2f4|2017-11-22|Nigel W. Moriarty|changes after messy merge
+9c29606620f4995234097379661f235f1c8ab4af|2017-11-22|Nigel W. Moriarty|Merge pull request #7 from qrefine/merge_candidate
+e0e9b4470274ae49e24a9ff4454a60797a52d624|2017-11-22|Nigel W. Moriarty|Merge branch 'master' into merge_candidate
+b56ae405e60bea558eae0abfbd1544ffc3cedf9e|2017-11-21|Nigel W. Moriarty|Merge branch 'merge_candidate' of https://github.com/qrefine/qrefine into merge_candidate
+22f545810572637de5190c32d19776421efcc55a|2017-11-21|Nigel W. Moriarty|fixed plumbing problem for updating charge object
+ebf9fe8fc4ea78b62cb6cc792fc15a12addf9123|2017-11-21|zhengmin317|update frament.py as in the master branch
+2599e09a8f9cfa2b10ea1e82fdfd6f95349886f3|2017-11-20|Nigel W. Moriarty|more flexible electrons class
+3a9c26322c25086aa13dc92b5252d4e0f889c6bb|2017-11-20|zhengmin317|update files as in the master branch to pass the unit tests
+a469b921a224db4a00550b21ece482c0afb343aa|2017-11-20|Nigel W. Moriarty|statistics update
+f461cb70aaf52c9bc331abe1b397305e090eb832|2017-11-20|Nigel W. Moriarty|mmm returning failures to buildbot
+0dcf400a38052d3b02daf745eb603b6508faff9e|2017-11-13|Pavel|bug fix due to changes in mmtbx
+e80444cfc45cdc262df4280830dd486a4a2f7423|2017-11-10|Nigel W. Moriarty|fixed linked ligand charge problem
+96552bb45523bbe2a0af8d29059319cc09303b9a|2017-11-09|Nigel W. Moriarty|updated tests
+d28b8416aae09be860be4ffecb5317392850b24d|2017-11-09|Nigel W. Moriarty|needed a slight reorg to work
+c13aa8a4e84b71d5f208b885df2492e111872dbb|2017-11-10|zhengmin317|small bug
+6e3bef5e906eca03549832a5daa0eac81286dc0b|2017-11-20|Nigel W. Moriarty|merging addressed all the @Nigel issues including using cif_objects
+89955745d63907bf49c4a07a9a446947d5cf9a58|2017-11-20|Nigel W. Moriarty|use charges_class for everthing about charge
+bb89abeb75a775c6088e966f841f9a72bbf442c5|2017-11-04|Pavel|more tests converted
+ac93e8a3d3e7c4e6a5756cb3283d2b9cb0c29e25|2017-11-04|Pavel|switch some tests to run through new generic runner
+af0ac9e7470dacd442d6c9bee85dbfb764b0760d|2017-11-04|Pavel|Generic test runner to reduce code duplication.
+7a733ffc233f60c955c45e78eb6748c1197e1da3|2017-11-05|zhengmin317|added cutoff for charge embedding
+5491b103db6b4c8a5a3fd738281198541489fb05|2017-11-04|Pavel|Re-enable test. Still failing. Whoever is responsible for this test: please fix or remove it. There is no point to have tests that do not run.
+18c5fc8cbfd79d65531d9f6feebc101dd901cb2a|2017-11-05|zhengmin317|bugs
+f0e3013cb5d5b67ab8c77baeb64bd4641ccf0c90|2017-11-04|Nigel W. Moriarty|small fix
+703e51a937b3dedff1746c2074b5e8bb64849b9e|2017-11-04|Nigel W. Moriarty|added info to README
+242df91f54dbe34abc9da07147d13dd74a2399e1|2017-11-04|Nigel W. Moriarty|added function to charges_class and test
+eda3ce1814a5ff729d716746431c22225abd9013|2017-11-04|Nigel W. Moriarty|reorg of charges class to handle tst_23
+9ab6c5b9d261cf3d65f5729bd34cb514250654d8|2017-11-03|Nigel W. Moriarty|final fixes
+42d6f321f8f619fd02ce7d4c5fb59938660436f9|2017-11-03|Nigel W. Moriarty|tidy
+56be98889534e57331e26125af683ab18637e063|2017-11-03|Nigel W. Moriarty|working on using charges class everywhere
+9d958a2c09d3537ba6e5a0fda96e7425a104869a|2017-11-03|Nigel W. Moriarty|start of creating a charge class
+cba50643eed73f6a8c3f226a4d7553a01e686222|2017-11-15|Nigel W. Moriarty|statistics update
+456e407ac71bc0537ab2a85d59b2686d3945c439|2017-11-14|Nigel W. Moriarty|returning failures to buildbot
+009e6c38775bf0e082d687063d60d43712896582|2017-11-13|Pavel|bug fix due to changes in mmtbx
+f5bc075c1021aec4065358c8f2f5161f21468b80|2017-11-06|Pavel|fix so it runs
+e9bdbd856b9405cc966713c02ce59f1325db5ff6|2017-11-06|Pavel|More tests converted to use generic runner.
+2b12b3520d7ec3426ed9d4e422a0498c5909ab30|2017-11-05|Nigel W. Moriarty|less strict
+019b62266b78fb108d4bf751073cfef8983c9afc|2017-11-04|Pavel|more tests converted
+00d5e4156ecac93f299d7b9b07dee1e8e767b27c|2017-11-04|Pavel|switch some tests to run through new generic runner
+0a3992f117f3723ff8e0720980ea941e1d071a1d|2017-11-04|Pavel|Generic test runner to reduce code duplication.
+38df24cd80e29d117491f43c586084ee376bbaa6|2017-11-05|zhengmin317|added cutoff for charge embedding
+4944e72e028e93ac34d5c272f76772127f5d836e|2017-11-04|Pavel|Re-enable test. Still failing. Whoever is responsible for this test: please fix or remove it. There is no point to have tests that do not run.
+ce1b16814aac44b43e4295137be166fb6ed17c3d|2017-11-05|zhengmin317|bugs
+deda944b6bccbe0bdbeb6baeed78611891eab1e7|2017-11-04|Nigel W. Moriarty|remove test files
+71d7403724729a618b832da600550ffa8ba7cd73|2017-11-04|Nigel W. Moriarty|added test for ligands such as ACY
+a8b2429522f812a5e9724d3d23cc2ed979a4cfaf|2017-11-04|Nigel W. Moriarty|added option to not check terminii for testing, adding charge calculation for ligands eg ACY
+24d04a82a0cecf0d57e20a6aa4f91907dbc1e6c2|2017-11-03|Nigel W. Moriarty|small changes to output
+bfba99ca817837e98956894f1816b957783c08a0|2017-11-03|Pavel|bugfix: add test so it actually runs
+dbb5b7e149757d60157b9498fb60e4e9155698ee|2017-11-03|Nigel W. Moriarty|output
+b08d83a05c3460a99864e4e29da33c9742a4c23c|2017-11-04|zhengmin317|added command for mopac single point calculaiton using fragmentation
+fbf8528b7df9046d048224677b2ed9bd4609062a|2017-11-03|Nigel W. Moriarty|fixed the FVA total charge bug
+3f9718c8816ad171ec1fe562fc06fac02be0b143|2017-11-03|Pavel|Assert no output if verbose=False
+baada036079897de8a866b0960809205507fa122|2017-11-03|Pavel|Make it obey verbose keyword
+b476405613af156ff7dadf7a2e268396253b0310|2017-11-03|Pavel|Make it obey verbose keyword
+1aaa22e67ed58196a8f1f4eae6e980a71f0a2f61|2017-11-03|Pavel|Make it obey verbose keyword
+91c1bd909d1fb1c72c0ef8933690430fe0410533|2017-11-04|zhengmin317|bugs
+c62a7a6877b4281d7ea54098a02bd90d7193149c|2017-11-03|Pavel|One more simple test for qr.charges
+cc0b5777bcdcf934167ace11a29ac6da15f3db51|2017-11-03|Nigel W. Moriarty|small bug
+1ec81f1bd2b994388d94bc18cdbbdf5610904f0f|2017-11-04|zhengmin317|add capping atoms with super_cell as the reference
+e5b7f54084cfcb16decc52be309da5801ca86c2a|2017-11-02|Nigel W. Moriarty|actually add tst_21 to qr.test
+65ff924eff6144ca5661fa713e17a7480cace7bd|2017-11-02|Nigel W. Moriarty|added the concept of N-term residues that don't need capping
+6c3da1a25a0e2a145375beab147a1ff726094b25|2017-11-02|Nigel W. Moriarty|added for point charges
+30d6da2dbbb9d0affd3f8df1fc259061373e9fa0|2017-11-02|Nigel W. Moriarty|added for point charges
+c580502e0d896cf97dcbd6e6f6c9af6e705ad098|2017-11-02|Nigel W. Moriarty|added a D-peptide
+6c65f8a4e3201396349ac15518ad775e7e8d1ced|2017-11-01|Pavel|make sure tests always run in empty folder
+e8e3fd8556036676ca2ce06369d691aba923c6be|2017-11-01|Nigel W. Moriarty|PRO capping assert 0
+8bd682bb8eebaae90a8bdacbae9681cc0e6cc2ba|2017-10-31|Nigel W. Moriarty|adding terminii for alt loc residues
+974b96d81b17d4670689307732e160212b2f42fa|2017-11-01|zhengmin317|added fragmentation.py under command_line to set up each cluster, such as buffer, capping, charge, MM point charge
+1ab3102cc03d513c6a933d3dccf75d3af6595169|2017-10-31|Nigel W. Moriarty|fixed H on PRO bug
+7b8d688587a94e903f1bd80ed5b8346c4f8fa13d|2017-11-01|zhengmin317|fixed bug
+41232509756a50f8168a71237948635d07a27de7|2017-10-30|Nigel W. Moriarty|self bug
+c15ab4ad235e5f82399a88c831af36f67fad0112|2017-10-31|zhengmin317|added debug option for fragmentation
+8509f0e9e7518ecf226c39abe9b6c33d53ef8639|2017-10-30|Pavel|Test expand for 1bdw
+6a2233dea4b01d9505a3410175b45dedfa0c9b07|2017-10-30|Pavel|Bug fix (found due to chganges in all_chain_ids by Vincent Chen
+ac01f564c342d35ef1f8776209185b5cc107dc5e|2017-10-30|Nigel W. Moriarty|added test for CYS HG capping
+c663c7f46fa625e67df60ce1f2159ddef4780414|2017-10-30|Pavel|Enable test (it is unclear why it was disabled).
+03b10a80fa5c2271ae75edd44e39ede0785309ac|2017-10-30|Nigel W. Moriarty|fixed CYS HG bug
+2d9941a9e96564ac4746584e8ee61f72542eeaf7|2017-10-31|zhengmin317|update: first do capping, then calculate charge
+8fa8c22cbc66e3c9e6e7a7af9ed89a557a7b676c|2017-10-30|Pavel|Remove test 04 (Exercise stop if not P1.)
+4c8a89047f8baea73b9d60b9110225d6d95ee637|2017-10-30|zhengmin317|add option only for clustering
+6237e0689e15c05ee2ed30a27c06cb803ff82f23|2017-10-30|Nigel W. Moriarty|removed altloc assert and fixed single water bug
+304b209db9a1b9275432b386b6a0c69f4b5896cf|2017-10-29|zhengmin317|updated qr.cluster command
+787af7948dd651ec26eea4bf2a2fe575a9eda19c|2017-10-19|Nigel W. Moriarty|more debug output
+d2a76d1d7f82537ec04201a671e3f12bd794ec93|2017-10-10|Nigel W. Moriarty|make alt.loc. the default and making NH addition work
+0d5a3d0a90c64ec5d3ced9d548ce350b0e4f5fe7|2017-10-04|Pavel|move all chain ids to iotbx.pdb
+da774368ad9391e2ed8cecc4de1aa6b260151973|2017-10-02|Nigel W. Moriarty|check for H on linking peptides
+685286c29eebf6166e89068ad954437171b09387|2017-10-02|Nigel W. Moriarty|merge a stash
+dd142a8015b4c3bbdc27f15c84445c801924dcad|2017-10-02|Nigel W. Moriarty|small change
+cd8108d3b3e5358a878cc4708da0447823463ba6|2017-09-28|Pavel|hide cmd
+d1d5161da762b1cc8e505e033900652e821a2b51|2017-09-28|Pavel|obsolete test removed
+1455e7e024d0871f825e4dadcee3669f0a4854c0|2017-09-28|Nigel W. Moriarty|reducing test output
+40528b7d6cf6c1428dbcc525d7ac6912be3516c2|2017-09-28|Pavel|Fix model_statistics crash
+25ddccb0fcf0017f2c64eba963ad3fde143104d6|2017-09-28|Nigel W. Moriarty|fixed multiple copies bug
+5a07b5950c9a4a4888640613cb465fec78a13c8d|2017-09-08|Nigel W. Moriarty|adding hydrogens to end of hierarchy using correct chain ID
+0bd7f5cbebe852cdeb43bfff590bdd9199a90ea0|2017-09-08|Nigel W. Moriarty|mods tst_12
+ed8b246829ebf94aa4fab9e4aab19fce314bbb15|2017-08-31|Nigel W. Moriarty|changes to make BuildBot aware of test failures
+4559a082e656c093252a1e2a0912611baffc8678|2017-08-30|Nigel W. Moriarty|making charge calc. more robust
+1d154c8f9cb77dbeaed8c527308e0fa5dfcfff6d|2017-08-30|zhengmin317|average scheme for alternative locations
+ab373a5ab8c9f0dc8f18aa7b2d84d9d8aeaf2725|2017-08-29|Nigel W. Moriarty|tidy
+a3ae1e19bc278f1747fb8004933d6faeae85bf99|2017-08-29|Nigel W. Moriarty|added check for terminal atoms
+c662ef3fbf7cbf0e508e7a5a7fd39848b933811e|2017-08-28|Nigel W. Moriarty|added a command line to calculate charges, fixed a major charge bug, added test
+e3d07f8abe37866d6e95c75a1c8d19aec6d4800b|2017-08-28|Nigel W. Moriarty|added a command line to calculate charges, fixed a major charge bug, added test
+47a5e7a321c054cc5f9899970abbe5de67160655|2017-08-28|zhengmin317|update fragement.py
+ee93daad961451556278afca74110261a4a28314|2017-08-21|zhengmin317|updated run_tests.py and driver.py
+64c291aa025c75ce158d11f097c8222ca98ba2ad|2017-08-21|zhengmin317|updated tst_06.py
+4bf4f7ad3e428e29169c5415839cb056512b0294|2017-08-18|Nigel W. Moriarty|ignore a OSX file
+f81da11e4989f055c141f77e053e0deeb6a3baf7|2017-08-18|Nigel W. Moriarty|more tests returned to tests
+0a4d06ece7fdc8c84a40138c6dd6b4aad7b685c6|2017-08-18|Nigel W. Moriarty|Fxied missing easy_run call.
+903eaa1d587abbb29324d68a6ea00ca1880cbd37|2017-08-09|Nigel W. Moriarty|added D-peptide support and the concept of terminal residues
+039606082ab7c43d6c45cf057b19947f6d64d9c4|2017-08-07|Nigel W. Moriarty|adjusting the treatment of alt.loc.
+ae8aa9681510d51cff1ce81d394e07e47bef7cb9|2017-08-07|Nigel W. Moriarty|adjusting the treatment of alt.loc.
+f1856846cf617f6fe986c536535e4286fd1c9731|2017-08-07|Pavel|Add model summary output.
+2cfb1bf9e6ad7b965c4e55e73e8cf254cfe9ab51|2017-08-06|Nigel W. Moriarty|Squashes single alt.locs. internally to ensure that there are no bad hierarchy sent to charges.
+730b2ecc167d084c4c3118ce66f556e8b3266bb5|2017-08-06|Nigel W. Moriarty|Fixing a couple of plumbing problems
+af9784f1b2942244263c2d02f8278c29f3ca6087|2017-08-03|zhengmin317|updated with capping changes
+a5b24d1de9d271eef3b72933ea11b9fe6995336e|2017-07-28|zhengmin317|Merge branch 'master' of https://github.com/qrefine/qrefine
+1c0ac993bfe03faef534e67d8d66a131814ec13d|2017-07-28|zhengmin317|updated qr.py
+1306328132e95f5c2be11a968ec6cba2e6a85971|2017-07-26|Nigel W. Moriarty|need to include CYS HG
+ab19235e495801cfba21755cc6108e88e80e9b29|2017-07-26|Nigel W. Moriarty|added code to use the original model to find the "cuts" in a cluster model
+88f99f56a52f9b77e3d810ab0b0ef12ade1bc797|2017-06-28|zhengmin317|updated fragment.py
+a29868fcd4b5d95e2480d20ae3e0bd299e6da8f2|2017-06-28|zhengmin317|altloc molecules have their own clusters
+13b7ef1bb22502e7ee7fe5aa17135f8307aeeb92|2017-06-27|zhengmin317|updated tst_15.py
+f1f2834d32b95759aecb970a78035b78ca65ec98|2017-06-27|zhengmin317|tst_18 works for completed altloc
+c854ec7bdbdbe884649d4b671d8fa91551c82737|2017-06-27|zhengmin317|temporary solution for absurd serial calculation when parallel_map uses pbs: for QM restraints, set super_sphere_geometry_restraints_manager=None
+2f82e3c057664e2f021f36e75b38d2c8d3a8e01b|2017-06-26|zhengmin317|updated terachem_qr.py
+f485cb3f7e9fc98937963254032071714eb6dfea|2017-06-26|zhengmin317|updated terachem_qr.py
+49e651fba1aef4ac07987132cedcf1cf689cfcfc|2017-06-25|Nigel W. Moriarty|clean some imports
+5097df910f0e57d334aa12c9387613109c0fe400|2017-06-25|Nigel W. Moriarty|clean clutter
+ee4c2e25fae8ef83a19613ca1a1cacee110f0f14|2017-06-23|zhengmin317|more flexible
+89855ddfe76f16f1f188a1e9a0b0f5b7137ea267|2017-06-23|zhengmin317|update terachem_qr.py from qr-plugin-ase
+e2686ab26f8f26f09fd273fb7e1162567e6fcba7|2017-06-22|Nigel W. Moriarty|added option to include alt loc and test (really)
+0d018110d3247734755b11a6b8a827ab0cbc4e08|2017-06-22|Nigel W. Moriarty|added option to include alt loc and test
+c0634f00211eafcb54c0d243d60c43b37628c5a2|2017-06-22|zhengmin317|altloc calculaltion and its test tst_18.py
+50441f442cb9a3652fff9d6266770baba300771e|2017-06-21|Nigel W. Moriarty|retain hydrogens at N terminal
+fb4dbbf2faef25ecbd30ff28b076ba672e8d7d88|2017-06-21|zhengmin317|refactor tst_15.py. tst_15.py will fail
+3d9e43e6f2f212e9680dc44fd355eb5b9ef3a55a|2017-06-21|zhengmin317|change approx_equal delta value
+a89a1a6da6dc92e4f86b5f2343a927cecb68372c|2017-06-20|Nigel W. Moriarty|does not move existing O atoms
+588b66986597b14a40aaa807493e1e59d7941c76|2017-06-20|zhengmin317|fix stupid bug
+418d8c4126aa42ce8263495fe0646ce36aef1a40|2017-06-19|zhengmin317|added two_buffers to define another buffer layer
+a678f08ea77479e15e16978d91cfe0b91fc83166|2017-06-19|min zheng|update the selection of super_cell_sphere when a system clustering happens;\nTODO: tst_15 still fails
+c86123b92849b7c653d6792489b760b1dcdb0357|2017-06-14|Pavel|Add more tests.
+f3a28515d44202f7198077a9c785f498f8169d26|2017-06-14|Pavel|Pass pdb_hierarchy directly in super_cell.
+c0e86aa2b8b594d900122210a42f51fbbcd1e1f3|2017-06-14|Pavel|remove unused code
+727490a5de1aa0cb2269993841558e915acac02c|2017-06-14|Pavel|super_cell: Further cleaning and varibale re-naming for better clarity
+3bfb758d74ed71783704488f207ec6e58bbec072|2017-06-14|Pavel|Use standard string items for letters and digits
+afbed8d08b6a87bccaf2325b14b4019e7e242ae6|2017-06-14|Pavel|Re-write major part of super_cell code for better clarity, lesser redundancy and improved efficiency
+ba9f8c98615c4ab1512e3ea5dea187a826f897f1|2017-06-14|Pavel|remove some inefficiency
+82ff779788341b8d4154b784c6a8eba8563e625b|2017-06-12|Nigel W. Moriarty|added PHENIX_TRUST_OTHER_ENV info to building
+cabe8b2b9e9beb05c3cfdac8bcb1a0b96e3d0145|2017-06-10|Pavel|Add tests 17 to run_tests. Failed attempt to enable QM refinement (mopac) in tst 15.
+218a718dc4cbc1e2191f480d60a8eefd5a8ee71e|2017-06-10|Pavel|Add test-examples for altloc gradients
+d3f9e15d2dfe50368ebfb4a7d0d665866da93998|2017-06-10|Pavel|fix
+5824017560f8ab03d52d2a270ee23c7fe9f3ca51|2017-06-10|waller| fix skip
+6c4f41539ba935e5650224a29a7eaeb0872a4f40|2017-06-10|waller| clean
+3123a52040cb36ffbfdef949688cda166770577c|2017-06-09|waller|remove unused imports and fix path.join
+15be18b2b90bf7203b8c146460658dbd91073e40|2017-06-09|waller| fix path.join in tests
+1d6945fbdf67a2ea38f3d378e59a4cc3df77f23a|2017-06-09|waller| fixed test paths
+04c41e4e8ec37bf7f89f7308661b2d075b41a4f9|2017-06-09|Nigel W. Moriarty|more info in build interface
+f43eaa5423b05ba2d6a30d86a1c0ce9e00d3b710|2017-06-09|waller|Merge branch 'master' of https://github.com/qrefine/qrefine
+e7aa68d54df1a90c5ef6b6db5a96af27eb1971b9|2017-06-09|waller|qr.py params
+92352cb1dcf59fe3a36071c10171159e8471989d|2017-06-09|Nigel W. Moriarty|nice messages
+230e0283a5ff25bf40f9635573aa114b44bafd47|2017-06-09|Nigel W. Moriarty|QM engine detection
+86d5dba73aec638bce216354b05901fe47319686|2017-06-09|Pavel|cosmetic fix-ups
+3af7f0a646f4760ef0d1f6811d1af4b5bc4f0825|2017-06-09|Pavel|Test for non-P1 (P212121)
+a49af259d1d3d3c61a6f920194d81ffd73eabe2a|2017-06-08|Nigel W. Moriarty|more interface and fixing qr.finalise to run with phil
+ccaee164709a0a4aaf58b0b8008e7d2147dcf26b|2017-06-08|Nigel W. Moriarty|Start of Q|R environment checking code
+1e9bdc415bc5bba2a3228f163d68fdda7c5f85b5|2017-06-09|Pavel|removed
+cee25bbdc799e078918d580a46bf13c8cecc7ae5|2017-06-09|Pavel|Stop polluting code by running tests (still more to fix). Exercise gradients match: large box vs small box, clustering vs no clustering
+09d2acfb61e68a15b18fed5ffeb15807b8ea2eef|2017-06-08|Nigel W. Moriarty|added model stats into finalise
+a261f86a02f2580adcbe392e5498fcac26c9d226|2017-06-08|Nigel W. Moriarty|merge in skip
+f84ad1a34477761f9da49e64bad4246291a047c1|2017-06-09|Mark Waller|Create .travis.yml
+0e7df84cb3e60225e9e7699eb8579e69c21d97b1|2017-06-09|waller| reg_tests
+940041abd1213942fcdb9f136c48d9c3129a69f3|2017-06-09|waller| added cluster
+72a350f91cd8a0f5dc4ae65452e49c9e440a9757|2017-06-08|Pavel|making qr.refine work and fixing qr.test
+b4c99ebe033fe316f065d0b757f717ecfe85ec9f|2017-06-08|Pavel|model statistics
+adc4c5c3459b82b254ebe83f5928bf130eb83463|2017-06-08|waller| added final changes from qr-core
+978784492fd37f338d4b75561920fcd38f5162e4|2017-06-08|waller|update  test 7
+3d8dab5f55db095ed205bcc0d3f6c52c3e6ca3cb|2017-06-08|waller|drop input dat
+e77e471109ae9a8923cfa2d901a894071e0d5da4|2017-06-08|waller|fix tests
+d4e1ab7311e79cbe8467f10c5209490f2f57e00b|2017-06-08|waller|bump
+e536a455c6a3be1c9e8d5edf334c73fe16f75f96|2017-06-07|waller|added __init__.py
+f26854ed1abe40a47a3248aca18ffde19391856d|2017-06-07|waller|add super_cell
+6050da88faf208a2ba68487745712996aa48281c|2017-06-07|waller| merge
+1d616bb52a719c2c165fb23f56b14cf5f12bae6c|2017-06-07|waller|tests
+336c04eb2f229e4106c09b72dacf45cf498c6791|2017-06-07|waller|tests working skip(11,12,13)
+db6f0f1ee024c23412c0f12a12ea00336968aeb3|2017-06-07|Pavel|test 14: super cell
+cfb263e6ef40d57ecb4c2ce27c5200e0646fa805|2017-06-07|Pavel|test 14: super cell
+ea967e9ff644d24c5c1718e1d87520a0996ddb22|2017-06-07|Pavel|test for super-cell
+5c1b3b69b4abd2a5f96c185e8e88bc3338dd4915|2017-06-07|waller|remove yoink_utils.py
+c16290fd26b865a32bc4f12408c41f08dfdeabaa|2017-06-07|Mark Waller|Update .travis.yml
+8236785357fb37c0a8d3ce7ad58b3e3b9fd623b1|2017-06-07|Mark Waller|Update .travis.yml
+cbff488a3aab96fff87e5901c8a8f5f14c8a3c9e|2017-06-07|Mark Waller|Update .travis.yml
+adb472792b00c1dc3d94a31cef471cc16e86719d|2017-06-07|Mark Waller|Update .travis.yml
+c8d495cb58b331f1f069713f7792396ae81fdd71|2017-06-07|Mark Waller|Update README.md
+273f6a1c7e716b8d6062f2eeece3d631b453a834|2017-06-07|Mark Waller|Update README.md
+e37893c27c22352d23d850f7439599d804172529|2017-06-07|waller| added yoink itself
+a321112a4bc3c721b31be0bedcaf72e52a2c9c15|2017-06-07|waller|update ase
+c23935f346b30bd04c5bce382f640dbe55974642|2017-06-07|waller|added ase
+6a5919dfe3a1c94fad37c86553036ce047a41938|2017-06-07|waller|Merge branch 'master' of https://github.com/qrefine/qrefine
+5208d53dc1b396ca6619c85d195fab800de19c71|2017-06-07|waller|bump
+c0bdf7ea9c7a3783762493a693b6365687184d57|2017-06-07|waller|bump
+030aea2069c672c1d6bfc84c5ec5e21cfda16955|2017-06-07|Mark Waller|Update README.md
+85aecbe8bacde41feadc91ad816ac4cd6dadc319|2017-06-07|waller| bump
+b447d964a90728d55029a42faa6b7f02e03b1b6c|2017-06-07|waller|fixed unit tests
+135a00288fce5306f279a5f99020b18b4715b7ae|2017-06-07|waller|added core
+e916fd5a276d313e052c287ae3a5e064f1620920|2017-06-07|waller|added core
+ee22f438cc7c7ee41888bc9b21fb6e06e38f5dff|2017-06-07|waller|added unit tests
+21a16f1d5626a10b81d31221a9c7d8dcce76e1f5|2017-06-07|waller|moved tests
+219f637bc620e0423596e6496e6f58118e97abac|2017-06-04|Mark Waller|Update finalise.py
+6a472774a5acf9e6d568929365785fd41d624d25|2017-06-04|Mark Waller|Update chunk.py
+4dc75a88f3e202c561e23fd996f50af53a7964d4|2017-06-04|Mark Waller|Update subfolders.py
+3d31df1edfe7cb01ba4d0a90f56f23155640fb36|2017-06-04|Mark Waller|Update subfolders.py
+5d3b16c372cc09e6ae13b1f76b6ccd47387fc70f|2017-05-27|yanting0928|Update test_accept_chunk.py
+d7cdb55b260b86e4ba6681b67f94586abf9fd3d8|2017-05-27|yanting0928|Update test_accept_chunk.py
+b8cfd92b4c11e70dfdf033c9451662a568c7f1af|2017-05-27|yanting0928|Update test_accept_chunk.py
+075f7b922bcb82feb2a0d05826a0bc8eda07e310|2017-05-27|yanting0928|Update test.py
+4766ee9af007d1836fb0b9bcb1eef078d56c77cd|2017-05-27|yanting0928|Update test_reg_00_base.py
+a4cfceb81d6bc4b0999a44dee362794e3eebf84b|2017-05-27|yanting0928|Update test_accept_chunk.py
+4ef86bde7674a08c26027b340b2de85543e229d1|2017-05-27|yanting0928|Update restraints_wrapper.py
+0eb3a01d4f880797fb1a7d9a7798a209c3160bf1|2017-05-27|yanting0928|Create restraints_wrapper.py
+c53a7b6495ecc720123ea5715a376784ebbb5f6e|2017-05-27|yanting0928|Create subfolders.py
+cc1046aa589f3faa49d7623b94e410fb17d12f6b|2017-05-27|Mark Waller|Merge pull request #2 from yanting0928/patch-1
+54835e03d4ac626fde4e46886d1bf6574e9524e4|2017-05-27|yanting0928|Create test_accept_chunk.py
+34ab74328469637b294909a3d7d3ede5459674b9|2017-05-03|waller|bump
+10900e098516cc39d7e1a8e30a634c1880995063|2017-05-03|waller|bump
+dda280837c66eb6aa1d93c2b8a3a44fcfeb1c127|2017-05-03|waller|Merge branch 'master' of https://github.com/qrefine/qrefine
+28e7f5d671f3fc4803f2e072adf4d5a8f2814d33|2017-05-03|waller|bump
+3e471c52e3a05895eb363de15cd410d26de551b7|2017-05-03|mpwaller|bump
+11c244eacf1360c95b8b6ee07bb97d83e35ba199|2017-05-03|mpwaller|update reg tests
+523fc76cdca7eb22db41c05db798e7dc24299d7e|2017-04-25|mpwaller|bump
+f1058f100776491c3a80796aee1036629a88b509|2017-04-25|mpwaller|bump
+b2b48be5f8caa6342432bdfa4c72d504f8275d20|2017-04-25|Mark Waller|Update regression_tests.py
+0524f07563026b1cfa1f8e37d9ca4aa1b54ed470|2017-04-25|Mark Waller|Update regression_tests.py
+17149bfd95a3a86d214953d8855d752ea33d0842|2017-04-25|mpwaller|bump
+ec384b3cccc3af19930b88576a6fd1f69762bd84|2017-04-25|mpwaller|clean up
+1dd2becfbca1d9ddb0273ebf787994a988ab382e|2017-04-25|mpwaller|bump
+c01c17b0a0ac8b486c3b04ef03cce2c737b4ae63|2017-04-22|waller|bump
+893ee7789a67434cf38bf9d739953605348670a3|2017-04-22|waller|bump
+a18295e0328fe41776b62903f98c3b1f19dffbcd|2017-04-22|waller|bump
+d91b405427d73a75f7e634d43726a4f6e7ded211|2017-04-22|waller|Merge branch 'master' of https://github.com/qrefine/qrefine
+2eb448b621d4574c603235f8d87f87ad06eb992e|2017-04-22|waller|bump
+fda2d884a188d8ebdc987ffa7acc22d8b82bc077|2017-04-21|Mark Waller|Update .travis.yml
+a5f39d126597a52ca56ef14970fb46389e78b6e5|2017-04-21|waller|bump
+990cf82d9fc558f2e3557ad2716a5d6e32171101|2017-04-21|waller|bump
+62021c5cfe0079cb90e2fb50233bbed3e36f436a|2017-04-21|Mark Waller|Update fragment.py
+ccb5c56e34aca61c9a831a2dbdd961b9fb2957ec|2017-04-21|waller|bump
+424147b33c9ffdd7f77a9e4f5a767c21809c9668|2017-04-20|waller|bump
+6a8ae39991161c667b9117a0998ad0f74aef25a5|2017-04-20|waller|Merge branch 'master' of https://github.com/qrefine/qrefine
+9ab4905915bc0c0768d9aeb39113a7361c58c4a8|2017-04-20|waller|bump
+6425ac0eb1a0c5d4ea76c8235404091148349490|2017-04-20|waller|bump
+355f3947932fa28ce053f22661dcf091a9fa5762|2017-04-20|waller|bump
+30ea0753330b7a8cf9efb4d34ac4daae19417315|2017-04-20|Mark Waller|Update patch.sh
+67635d168d296b3681e3bca505de44e7b15ae21b|2017-04-20|waller|bump
+6266314c9840ec1df47e1690c765bc7d2972dc86|2017-04-20|waller|bump
+93d316afc59fadf0c14b23c47dc311398dc409e8|2017-04-20|waller|bump
+54e33a353b8220a5d0f7e6d1c5eac11052b1520e|2017-04-20|waller|added restraint command_line
+0095456186cc841c5ba53450ec6bdb346127f659|2017-04-20|Mark Waller|Update test_reg_04_cluster.py
+ed0b2f1d89788bbf75c7d9c5b988785bce57af04|2017-04-20|waller|bump
+da508cbbca05a12af4ffc445b7a445dfcb97bbc9|2017-04-20|waller|Merge branch 'master' of https://github.com/qrefine/qrefine
+7ae014d8dd90e0d1d16589bf4fccd47a0c192fc0|2017-04-20|waller|bump
+88df6f8365bdbc2a1fbc1f3b134c4e2a0707a8ea|2017-04-20|Mark Waller|Update .gitignore
+0f7aa499c0967f240af6a01fa68f8c9338b8ef0d|2017-04-20|Mark Waller|Update refine.py
+1866db1f5664ddcc2614b292b6d1a5320499ff3a|2017-04-20|Mark Waller|Update refine.py
+738f9a282577274497f7bfe2f48400052e5c9b50|2017-04-20|Mark Waller|Update refine.py
+f29b4ff7f9f5d6b3513de4b1064c1a810c49d38c|2017-04-20|Mark Waller|Update refine.py
+2f7aa6114b557a9769af7ffbebf943102715abbf|2017-04-20|Mark Waller|Update finalise.py
+ad34b07827486552a03ccb5c09895c89ec76ce8f|2017-04-20|Mark Waller|Update README.md
+675f23f94f748bcdbca71e0acb4d8b1354a31549|2017-04-20|Mark Waller|Update README.md
+830507a7d624f67ccb9988f204e3e09b51d8c3fa|2017-04-19|Mark Waller|Update refine.py
+94b199c74886fc4a9a615e958b838f7ae8e795b4|2017-04-19|Mark Waller|Update cluster.py
+2226ceabf8049d64f6eb27718528375a772d0823|2017-04-19|Mark Waller|Update cluster.py
+6a021d6817560f7611e4d73f2da6ff6251ebdc49|2017-04-19|Mark Waller|Update cluster.py
+63434ee80a6a6bed7bf296eda99eb939e76993cd|2017-04-19|Mark Waller|Update cluster.py
+69de7df323f2d0d0816855636a0f9269dfa520b7|2017-04-19|Mark Waller|Update cluster.py
+ecdd33d296c65a7b0459289717f2e2f22cdccfe9|2017-04-19|Mark Waller|Update regression_tests.py
+b62331088926a3f4e0aaf5c45b3a00f5a8be299c|2017-04-19|Mark Waller|Update test.py
+959e9e167419ca3be49c094f80c044a849cf1869|2017-04-19|Mark Waller|Update test_reg_04_cluster.py
+f7fe691b24ff7b26d398107bd4ae1a72a9fc2c97|2017-04-19|Mark Waller|Update test_reg_04_cluster.py
+cc9f54fd8cdb0cad47cfccec972eb1de1aebb500|2017-04-19|Mark Waller|Update regression_tests.py
+7d77d67ec7572415d34f69c6ee4eeddc6d9a73f6|2017-04-19|Mark Waller|Update regression_tests.py
+05763b17427f0e6c935c4dd402ed303945ab63ef|2017-04-19|Mark Waller|Update regression_tests.py
+fe3f06caa34a6b3c358db3ef3277f053835c36b7|2017-04-19|Mark Waller|Update regression_tests.py
+8e53bf8c7d5b7082edac2cb87f1bd68ff763ed83|2017-04-19|Mark Waller|Update regression_tests.py
+fd16117a36c889dd6654b3a1edd84a8d4ba95263|2017-04-19|Mark Waller|Update regression_tests.py
+da97eaadd435eaf9dc8e5fb621898ab98c54fb11|2017-04-19|Mark Waller|Update regression_tests.py
+9f75404bea49d295571d2eb8a8a6d9a55b24db61|2017-04-19|Mark Waller|Update regression_tests.py
+7297e774b34677b80d10480f2b5b23c844b35520|2017-04-19|waller|bump
+8c3ee3da9c65330b3580d3ec41ba0c145232e53b|2017-04-19|waller|bump
+ff00136783fee05aeefd817cc423c43f30c8e1a4|2017-04-19|Mark Waller|Update test_reg_04_cluster.py
+74d5d144730eaff6cee7e74de67cefebe5827ce8|2017-04-19|Mark Waller|Update test_reg_04_cluster.py
+7cc0aa8f83c9c1e4bafd25473f179e08413b074b|2017-04-19|Mark Waller|Update test_reg_04_cluster.py
+defdcbbca595a9adb7872fa99ec8b77bbeac433b|2017-04-19|Mark Waller|Update test_reg_04_cluster.py
+4063c42e82673b62a76df03490de31f02ea82314|2017-04-19|Mark Waller|Update test_reg_04_cluster.py
+02615d52a5700b22e4fbd286809b33770b55ca79|2017-04-19|Mark Waller|Update test_reg_04_cluster.py
+b5735863eac9374a60120c7f94c410025d2fd722|2017-04-19|Mark Waller|Update test_reg_04_cluster.py
+c761c9a108f247460caf2dfe8458184bfdb799df|2017-04-19|Mark Waller|Update test_reg_04_cluster.py
+46d22cdbd0feba6735ef87287d4cbf9b1c55b924|2017-04-19|Mark Waller|Update test_reg_04_cluster.py
+3fd056e351a754e65b77bc5f69805e9ef05a7d3f|2017-04-19|Mark Waller|Update patch.sh
+61bd165044479a6b983f42278bab6ea80722adde|2017-04-14|Nigel W. Moriarty|small changes including a bad ASCII character
+dba18ee128428df53e5f1ea6e9c224fc76aab130|2017-04-14|waller|bump
+18ea7d4ab8bc59e9a3f44690e1097da631291285|2017-04-14|waller|Merge branch 'master' of https://github.com/qrefine/qrefine
+e83a7da67beb0062b68eb55792aedae785b50cf8|2017-04-14|waller|removed old pdf
+8b705b68a5c9d37b9eec3e1e42453558a45792e0|2017-04-14|Mark Waller|Update README.md
+4b041f699043f7da416ea0c2e54f132295e205b7|2017-04-14|waller|bump
+6fc9b501463e173fac343244d1043b318b60d24c|2017-04-14|waller|bump
+5b57156e781095d771413f49c4fd1f071f1322d3|2017-04-14|waller|bump
+19574a756d727f7e9ea3321305f1dc022cc363be|2017-04-14|waller|Merge branch 'master' of https://github.com/qrefine/qrefine
+9d676fe346cb4b098b8f636b71a0be87634830b3|2017-04-14|waller|bump
+57182dd8bfcbf6d19aeccf4ccce41f04cd036617|2017-04-14|Mark Waller|Update .travis.yml
+40daf9ae7ccfad86d482dfed985c8ad921ee009f|2017-04-14|waller|bump
+ff1e4c6424cbc403c1197c7c9da8ae303c5cd74a|2017-04-14|waller|bump
+55783ca7e949f383e3f8f16d778c4bedde0284bd|2017-04-13|Mark Waller|Update README.md
+70698e713e40ab63a96e1181d2a9751824636230|2017-04-13|waller|bump
+8d270d777669b2543c6c808f332b36f3406db43c|2017-04-13|waller|added p1 and cluster data
+46a0883c193f00c036c2c72457f8314d74d6d534|2017-04-13|waller|working on regression test for cluster
+90264e3194cfb1aba2dd43e86c039a7c3281f966|2017-04-13|Mark Waller|Update README.md
+03ce99a76c58af0aeee0e3478240e066c6ee3a9b|2017-04-13|Mark Waller|Update README.md
+b05119404159171389b694a9bb6ceabd91c65dad|2017-04-12|Mark Waller|Update README.md
+9aa251c5449d183b74ee2cc705cf696cd7cb5e2c|2017-04-12|Mark Waller|Update patch.sh
+302ec0a647fb122b1e5580eace4299a0ab04340a|2017-04-12|Mark Waller|Update README.md
+d3bb7880343926dac3c801c05776abe34856f5d3|2017-04-12|Mark Waller|Update .travis.yml
+73da5cf0a948bbf20769ef831c7a8529fc2f8d5c|2017-04-12|Mark Waller|Update .travis.yml
+7fe075184ac501990dc8415b1d23a2b23cd2d09b|2017-04-12|Mark Waller|Update .travis.yml
+7278940ed6f0128ae03c0a9f42963ae6ba5b114a|2017-04-12|Mark Waller|Update .travis.yml
+cd732a282d7514ad7ae2b246d2c683bf7b427b14|2017-04-12|Mark Waller|Update .travis.yml
+f8e84bb975fe7a183f9ec139b77eaf286e81b99e|2017-04-12|Mark Waller|Update .travis.yml
+23035d9db0b5a2c2207865d9a0022935238cc64e|2017-04-12|Mark Waller|Update .travis.yml
+1dfd54770248302674f9b8a7b15f11578fe148cf|2017-04-12|Mark Waller|Update .travis.yml
+6eea142889aabe8b570edfd8c36dfa53593167dc|2017-04-12|Mark Waller|Update .travis.yml
+d0ce1fa8fe773e2557ea64b2bbb73393843fb85a|2017-04-12|Mark Waller|Update patch.sh
+dfb5e80801c2d6c44e0c938cbb10420f2fc03441|2017-04-12|Mark Waller|Update .travis.yml
+ba9d46c96a701f35263ad5b899a2a509877f9063|2017-04-12|Mark Waller|Update .travis.yml
+343b7ff491dab84e575daa7939d9001790d65013|2017-04-12|Mark Waller|Update .travis.yml
+981e055cadc5551084a8f5898dd80c66c9388554|2017-04-12|waller|Removed submodule core
+608f41ed2939e435b0e6754a74a0b38fd6b0df3f|2017-04-12|waller|Removed submodule core
+2a202522e09f66757244f6efa332f6ff0a97693e|2017-04-12|Mark Waller|Update patch.sh
+ce2eeca747899f39399b8fd67bcb880bddaf0b72|2017-04-12|Mark Waller|Update test.py
+122dae63df197e6b12a223ad16afad0c3f2bea95|2017-04-12|Mark Waller|Update patch.sh
+f36f2fbeb65b54b78d685f739414d102cf7da938|2017-04-12|Mark Waller|Update README.md
+1770db7871c4e355b0d1c0d7625ecab05ee6b5fa|2017-04-12|Mark Waller|Update README.md
+949f5c2d51321372c6a7eb5fd2e2da0312376418|2017-04-12|Mark Waller|Update README.md
+8749141391f442b294bf37c5a7c360bbe2ad413d|2017-04-12|Mark Waller|Update README.md
+04f8cac2edd714c1accb621d4d6f70b6d5e07cc5|2017-04-12|Mark Waller|Update README.md
+68f72597139f0500f613a26ee92ceb7ceb758764|2017-04-12|waller|Merge branch 'master' of https://github.com/qrefine/qrefine
+24bc9fe6e798e496163ad8fcb30e70004827799b|2017-04-12|waller|changes made to command_line
+429822a046c9fb5eaba3a958669ad3bc95557485|2017-04-11|Mark Waller|Update .travis.yml
+8aa18c2f7be07f4849130f26900b2be604507c1a|2017-04-11|Mark Waller|Update .travis.yml
+f1cf599bee1989c8be9dd191d7ae737eb8ec6918|2017-04-11|Mark Waller|Update .travis.yml
+326758158f502300214833acf1519d6742bf8d4a|2017-04-11|Mark Waller|Update .travis.yml
+50b7cf9b920d4c959377a485a57e23d8fe12a84b|2017-04-11|Mark Waller|Update .travis.yml
+c683ba6df5efc65bdf8767d7ba5e1b32db475f37|2017-04-11|Mark Waller|Update .travis.yml
+3a33715ec390c9e502ec97ba8a650f37068b71e1|2017-04-11|Mark Waller|Update .travis.yml
+34ace5b39df5951d3ffd2d7de984b2a5c8c53a5c|2017-04-11|Mark Waller|Update .travis.yml
+32478c89416d3a3f49a82eb0d208c110df4a3e3f|2017-04-11|Mark Waller|Update .travis.yml
+8b59e870c7930f7b9b11b50f3a4d9b9d35432bb4|2017-04-11|Mark Waller|Update .travis.yml
+a6ae1a1f2d20e1befe063da8bba6a7b94cfcd47c|2017-04-11|Mark Waller|Update .travis.yml
+d1cf264554a52c1c1df583b403b3d95c49aacc29|2017-04-11|Mark Waller|Update .travis.yml
+61e3605cbd037cbc252ef7e65874d3611a1c8aa2|2017-04-11|Mark Waller|Update .travis.yml
+c8991e41158a8be06b3ca204b871cc54e093a628|2017-04-11|Mark Waller|Update .travis.yml
+04bb59f0d0c0dcaa5aa156f3d2a22447bcd4f062|2017-04-11|Mark Waller|Update .travis.yml
+8321e5d5b39aba394a19a359dfbf0c62ec5491b3|2017-04-11|Mark Waller|Update .travis.yml
+cec5ea590c587baf6cca115aa85deee71eb93556|2017-04-11|Mark Waller|Update .travis.yml
+f58ad457f598d340f5adbe7d5ca501b6c3d5370a|2017-04-11|Mark Waller|Update .travis.yml
+5fe99b5ede240def2e2a9a5ed635431cab55be95|2017-04-11|Mark Waller|Update .travis.yml
+997134456fd70a5564bce9c4ac6064993c5803b8|2017-04-11|Mark Waller|Update .travis.yml
+f2fd08ebac03612d67b722483aa2fc9a08a6b03f|2017-04-11|Mark Waller|Update .travis.yml
+c9886c3c941e8b2fbe3a81bf8a6a4e41428e602c|2017-04-11|Mark Waller|Update .travis.yml
+c47314c02ce9dd15c40eaf4929e3132ad22f9c59|2017-04-11|Mark Waller|Update .travis.yml
+da60090236cc51770747755d58676a3488294394|2017-04-11|Mark Waller|Update .travis.yml
+6078d430e2e5154bffb003eaa429093d523cbb02|2017-04-11|Mark Waller|Update .travis.yml
+7084f4dacba6bd326b0d875cfdef658804546806|2017-04-08|Mark Waller|Update .travis.yml
+edd59cbd79ebe50b7baf0cfb71bf20bb46420783|2017-04-08|Mark Waller|Update .travis.yml
+cfe88e19deb1b7c4bb1ae1b0b429836bd659a60c|2017-04-08|Mark Waller|Update .travis.yml
+29e2b7219b10fffd4ce14f298b49d3426d7564a8|2017-04-08|Mark Waller|Update .travis.yml
+4f86302361b7cbd0a2c7a62d42d920aaa76c17f2|2017-04-08|Mark Waller|Update .travis.yml
+31ec4dc3b091b5377c5ce6e0c90e683cd01a1b0d|2017-04-08|Mark Waller|Update .travis.yml
+974d838375420b5314232e33cc85da2568c7c43a|2017-04-08|Mark Waller|Update .travis.yml
+57c7217b5d07052c7595f6565c66792a91879551|2017-04-08|Mark Waller|Update .travis.yml
+5bb19dc366e808cb62d48319b6bd3ae3238bcbf0|2017-04-08|Mark Waller|Create .travis.yml
+c9bcb8fa4a263792e20b25e9d3b1b11e4239fe2f|2017-04-08|Mark Waller|Update .travis.yml
+14ca4e2829f32d735ffa97ea0f7b88c8d7fad03d|2017-04-08|Mark Waller|Update .travis.yml
+195bcb47d0c1027180d6c4c13bd0b2e102dd4d2a|2017-04-08|Mark Waller|Update .travis.yml
+93b4f8d37cd05f9eea126b1d3e2922c001a686cb|2017-04-08|Mark Waller|Update .travis.yml
+13ec83e22b346aa7e862703ff7a28afcac308019|2017-04-06|Mark Waller|Update .travis.yml
+261e0d059f5bbbea41849b8d55d49ffd6e2bc926|2017-04-06|waller|Merge branch 'master' of https://github.com/qrefine/qrefine
+8b4483141b33485854f8855b310ca18e74f321d7|2017-04-06|waller|bump
+167d57f628a051fef46a8315207833f22b1f7e54|2017-04-05|Mark Waller|Update .travis.yml
+fbd94efe2712777ed5d57533e4025f9ebd0a2351|2017-04-05|Mark Waller|Update .travis.yml
+4f4ba2618be0936efd0f7b5d7b88f4a34809e60e|2017-04-05|Mark Waller|Update .travis.yml
+3fb2704fdd519ba91f6e26451d74e364c74bc0e3|2017-04-05|Mark Waller|Update .travis.yml
+2de78fb42fbe0ecc5162a209df29d4a2e3776d45|2017-04-05|Mark Waller|Update README.md
+b08abf9d6d79ecf57d59568996e666328cf0088c|2017-04-05|Mark Waller|Update .travis.yml
+a22ff201f07508bdf393620fa4e69e19e5a59b56|2017-04-05|Mark Waller|Update .travis.yml
+0dc7b5d9d2b00a99d27102106f393598e72aca4b|2017-04-05|Mark Waller|Update .travis.yml
+7dc194128ca377446ad4f171bfa6d32aae8d3755|2017-04-05|Mark Waller|Update .travis.yml
+2dc40fd7f7aabd8e9b71206312f9d80a6d6c0cd8|2017-04-05|Mark Waller|Delete setup.cfg
+1111790de8fce6beb25f46ec54ed35c1a62fe62f|2017-04-05|Mark Waller|Delete setup.py
+a504445edc38f7350dc0379d5a9d0e6cf249b9f8|2017-04-05|Mark Waller|Update .travis.yml
+4adbdc3a2d965aa101e3463b531fb1eeebefc493|2017-04-05|Mark Waller|Update .travis.yml
+a023e0a5190811e12ce22e2f38c1d05cbf23cd86|2017-04-05|Mark Waller|Update README.md
+aee394d4a7c90e278289a01059061c88ab3dd478|2017-04-05|Mark Waller|Update README.md
+f85e9464e79e1bd04ad7db1c8dc665e1b227abd9|2017-04-05|Mark Waller|Update .travis.yml
+7a620c95cde5a374add026078308db789ddf231e|2017-04-05|Mark Waller|Update .travis.yml
+97d967ef5b4ff99568850d145d3ebfcad83ef806|2017-04-05|Mark Waller|Update README.md
+492604790a9cd0e9d1d2a0d35ec684531b900647|2017-04-05|Mark Waller|Update .travis.yml
+8d591764a5f8da6850d501fa8b3647ad3fe2a7fb|2017-04-05|Mark Waller|Update .travis.yml
+37147ea3a22d5598215f418334a6bfd6e38cfe52|2017-04-05|Mark Waller|Update .travis.yml
+577678bbf5ae082cfaec4fd50c66a3789e11100e|2017-04-04|Mark Waller|Update .travis.yml
+31a9cd55315f6cf4cbc54b7e00b87e4e69f09381|2017-04-04|Mark Waller|Update .travis.yml
+af17fe17c0afc38516d578c0ac5c5972b381bdb8|2017-04-04|Mark Waller|Update .travis.yml
+0526d0a07e3e6169140d33c22f3743857f850a99|2017-04-04|Mark Waller|Update .travis.yml
+6fd43bf496b3c37288e327f0ac1a103f872c68a8|2017-04-04|Mark Waller|Delete install_cctbx.py
+d707d92c007b77628b2db0c5b9c11f4efe456967|2017-04-04|Mark Waller|Update .travis.yml
+fbe732c0d640ed18273d643119c4c2e965775954|2017-04-04|Mark Waller|Update .travis.yml
+7bf7c299a9c84ba4464fee95bc518b358353b4bb|2017-04-04|Mark Waller|Create install_cctbx.py
+624766590ddf7bd669387c1a87ab8c40d6921532|2017-04-04|Mark Waller|Update README.md
+eb246a508ab073e5976289aa7a712a1e4dbddeed|2017-04-04|Mark Waller|Update README.md
+0bedcc22778241055a2d566cfaf5a466ba8333a4|2017-04-04|Mark Waller|Update README.md
+3aca970531ccf0266d6252c0ccebea51bb1f5856|2017-04-04|waller|bump
+755d2c16fa320cb17d925cc826207e5f37ef7f6c|2017-04-04|waller|bump
+c8bbc5772559b2a1c05784f1d4ffb35a63c2e761|2017-04-04|waller|bump
+f40e05dcbdb523d34dde7c1799f37b77ecb1536d|2017-04-04|waller|bump
+4ccdd0a83398ad7c6de4178983d0f62b9118c6be|2017-04-04|waller|Removed submodule  yoink
+a42380c9a14dd3b63f174d9ed014a7fcda957054|2017-04-04|waller|bump
+0b695abfa4305a11225d9c0340cc7e053ecc8ec9|2017-04-04|waller|Removed submodule ase
+3a4ca2fa972d2f783b2ae5783d58f456b31a1a9f|2017-04-04|waller|bump
+3087e9c033de9a0e727bbb74689dcce360d67e31|2017-04-04|waller|bump
+633bae9185ecdba14824adcef987da65a7b24ac0|2017-04-04|Mark Waller|Create __init__.py
+f947dd22e3c2a1565a6e09680a0a47ee7e2d000a|2017-04-04|Mark Waller|Update run.py
+788895f2341c4ebf9856b3d1274fbe0c0a5b9eff|2017-04-04|Mark Waller|Update run.py
+0d0dc33ac0fa93e7745f3f57dd99536f5a3002a8|2017-04-04|waller|bump
+53d5786cc6da777f5887a2988576c3f4091bbde9|2017-04-04|waller|bump
+451b867b0badb5d8661ebf3f8a145c7092d0f232|2017-04-04|waller|bump
+f7b378556ab49470456fecb82350c67760cb2cee|2017-04-04|waller|init
+0c4e2392b556cacceedabbac216dde15a6e7a292|2017-04-04|Mark Waller|Initial commit

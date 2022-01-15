@@ -1,0 +1,1778 @@
+1e187ae2b9d2aa3f2e53b09fe743e50763d04c9a|2020-05-02|Giuseppe Carleo|Merge branch 'master' of https://github.com/netket/netket
+7767a7baca95c37d5430f2f8b6fc85d02e9257d7|2020-04-30|Giuseppe Carleo|Update setup.py
+483518fdb92426da8ab6c9c7668cf3d21fda1d76|2020-04-30|Giuseppe Carleo|2.1.1 in setup
+4f37681f2c806066bcf39c2acce464d395952ef2|2020-04-30|Damian Hofmann|Merge pull request #397 from netket/misc
+0dcb21defe8a91203fd0dfef45dfe7c768f7f017|2020-04-30|Filippo Vicentini|move _jitclass
+75a207890506ba6e7e22c9ef2ab7c9e48a7fb2c6|2020-04-29|Giuseppe Carleo|Update README.md
+79d9a5d61bc70de5a47f570676ba0ac8002fe522|2020-04-29|Giuseppe Carleo|Update Examples/Ising1d/ising1d.py
+0c8e4618ec9a1c3619ab364669110c2a14586c65|2020-04-29|Filippo Vicentini|update readme
+b7e3ef5c1b69d60e8b67d285985c7d37151aad3c|2020-04-29|Filippo Vicentini|fix example ising1d
+3a48075c20c9bf0ef202e7356b10b93c721fa105|2020-04-29|Filippo Vicentini|Add a warning when no out= variable is passed stating that the otpimization is run but output is not saved
+4f6ac2364209e90c53efe279ce199249955e690a|2020-04-29|Filippo Vicentini|Adapt to numpy.jitclass deprecation in v0.49
+11e6a721d5b4cdfcb8fbbd2dd4fd48ebf8cd8ef5|2020-04-18|Filippo Vicentini|Update run syntax and examples (+2 squashed commits) Squashed commits: [a182b01] Update netket/abstract_variational_driver.py
+2f9edf2fbc9a4e1b9aaaa7877441b453325ad922|2020-04-18|Filippo Vicentini|add is_holomorphic to c++ SR (#381)
+9095ae6c3bfa59d0bde3fc65a9df4627e1e00de9|2020-04-16|Giuseppe Carleo|Improve torch der log (#363)
+0e45a5fc5a1aca23e9f6bcdc7e93fc332bc8b471|2020-04-15|Giuseppe Carleo|Merge pull request #364 from netket/v2.1
+c8ec98e8b7b59899980347c2b320316037af1b89|2020-04-15|Giuseppe Carleo|Merge branch 'master' into v2.1
+69df89d60677d043064d8cd2ee5d455cd9ba9521|2020-04-09|Amit Kumar Jaiswal|Added documentation (#359)
+354c80561ef09778337d612156046d39fab54814|2020-04-07|Giuseppe Carleo|Merge pull request #335 from nikita-astronaut/v2.1
+9707d342aeafd1ad1358a3be3d692b2e493da90d|2020-04-07|Nikita Astrakhantsev|removed leftovers
+812132b047ed4df1dda14bb22caf3378b253da66|2020-04-07|Nikita Astrakhantsev|tests of torch will run except noconda+mac case
+21a2155b3132bc72df980a42d83b07b9670a442b|2020-04-07|Nikita Astrakhantsev|torch will not be installed if mac+noconda
+89d9d51f808bc0332bbabc502010b403db4de2b8|2020-04-07|Nikita Astrakhantsev|removed unnecessary test | commited suggestions
+7ceb72c6c88f791dff8cb5547d072d489b130ec2|2020-04-07|Nikita Astrakhantsev|merged with upstream
+2b73fba971bd6ce63065a572271cfda0d607bf5d|2020-03-26|Giuseppe Carleo|Merge pull request #353 from PhilipVinc/PhilipVinc/pr-vmc-run
+361eea0d5335650cbd9715a0fa5425be0762f2bf|2020-03-25|Filippo Vicentini|Renames `AbstractMCDriver` to `AbstractVariationalDriver` @gcarleo rename _stats -> _loss_stats
+2043c24a5094d997b6247f3da4027d7546db0c6a|2020-03-23|Filippo Vicentini|remove newfile mode + remove MPI from logger
+7c33a2b3afa861712869f18bd7349db96f062f63|2020-03-23|Filippo Vicentini|Miscellaneous Improvements
+e11e720ccf4b06a54f7dc1918fec9469f12c166d|2020-03-20|Filippo Vicentini|rename gradient -> _forward_and_backward, reshuffle a bit the order of the methods so that the abstract interface is at the top. remove logging module from public interface
+a763f0b52c446d6db38a4be4252d55a76cb29395|2020-03-20|Filippo Vicentini|Revert new run syntax (will be in a future PR)
+c49145967b43e3d472f6032c0ba4d9e1c9c57eb9|2020-03-20|Filippo Vicentini|fixs
+a9a2512881ac09603b6c8f78ed5b225dd1a7eb73|2020-03-19|Filippo Vicentini|fix tests
+0b88ea2e24ec6ac4fdb350a3551f0ea31ae332c7|2020-03-19|Filippo Vicentini|docstrings
+908d01e4abfeb9a9129ba9462dd50e4778eeb017|2020-03-18|Filippo Vicentini|switch order of arguments
+276793944124972a1f26a40d7c6008db4c5916a6|2020-03-18|Filippo Vicentini|revamp JsonLogger to
+f1e1d767ed3cf7407bbd432baa0099fe0a42ffb4|2020-03-18|Filippo Vicentini|fix tests
+61e28f8e02772662f63e4af851720958ca879adf|2020-03-18|Filippo Vicentini|fix test
+97f0618976197d6464d37dd7f2e6e108c7b11811|2020-03-18|Filippo Vicentini|increase iteration in steadystate test to fix test
+da79f5f71b7fe8fe447b1df73d14f313a092f366|2020-03-18|Filippo Vicentini|fix cholesky test
+19f8eea20d691aa617997eb1c989351611a2cc35|2020-03-18|Filippo Vicentini|fix deprecated steadystate interface
+1e965022e97490feffff46bb1cb669f2318ace19|2020-03-18|Filippo Vicentini|fix tqdm tests
+b7f3983b0812d14710e5f493de7b13be0bf5c487|2020-03-18|Filippo Vicentini|refactor logging logic
+e719a8dcfc6c201e87f6ff491efdfc5224fb3474|2020-03-18|Filippo Vicentini|Advance mimicking iterate
+3db6356000777ade168a9b21a84c916b7856b4f9|2020-03-17|Filippo Vicentini|black reformat
+27f9d3375779a2eeaea61ae2f1ba9bd2adb4c9a6|2020-03-13|Filippo Vicentini|updates
+f1f111cda2595978a7167431ec9decbace5ea6b3|2020-03-13|Filippo Vicentini|change AbstractVariationalMonteCarlo to AbstractMCDriver
+53a3b2a505264604bb1a40b048fd221bc707466a|2020-03-10|Filippo Vicentini|black reformat
+846b8ae17d426054a489fd76b0c0c8d02f9ca93c|2020-03-10|Filippo Vicentini|change implementation of deprecated netket.variational
+2a514f1e7db13ee4ae91e53f428c1b4154bb2488|2020-03-11|Filippo Vicentini|Fix _stats to be optional
+06a02d79590f70b825294f21e27e84728146a9ee|2020-03-10|Filippo Vicentini|use abstract base class for qsr, steadystate and vmc
+8f4090d08609d7d109ee88f178ee5a1dde691100|2020-03-10|Filippo Vicentini|add base abstract class
+91c742609ecec2a089234a924ad00b4015dc105e|2020-03-10|Filippo Vicentini|Move common optim_fun to another file
+562b510d529e02c9494f5868e81148985e45b1bc|2020-03-10|Filippo Vicentini|Move Json to another file
+d81de30ce2bf1a19bd231c34bd133505336dcc1f|2020-03-05|Damian Hofmann|Update some examples to use new VMC class
+2c578013640209e1c0b04f854c66d25ee308788c|2020-03-05|Damian Hofmann|Add run() function to new VMC driver and update interface
+0ab4140d673dd7ee29bfacb8b93c44022f5f3797|2020-03-05|Damian Hofmann|Accept pytree of observables in estimate_expectations
+322f91bf158e271bd0c79fc71f1109bd50135838|2020-03-18|Giuseppe Carleo|Faster pymcmc and numba kernels  (#347)
+f8fd17828318f12af5ec5569e3a5868c1adf7138|2020-03-17|Giuseppe Carleo|Merge pull request #356 from tvieijra/v2.1
+9d7186f855f9bd2baa728b35f967aebdb90e98ad|2020-03-16|Tom|changed default batch size in to_array()
+e25cbc42128fb1a17ff16ac912bd09815f97400e|2020-03-13|Giuseppe Carleo|Merge pull request #355 from PhilipVinc/PhilipVinc/simple_ops
+c04982de901546eb73c4beda9ff214f1697558f2|2020-03-13|Filippo Vicentini|fix missing import
+16350da2a4fd6372d4bbb1fbce691929002d6b42|2020-03-13|Filippo Vicentini|make operator a package
+5025440b0931fdf71a0c90c1fe7ed9d5a61ce947|2020-03-13|Tom|removed abstract form to_array()
+cca937a2e61b342bac769432b8e31ca3b54b3afa|2020-03-13|Tom|cleanup of to_array()
+0ddcb8473363eb972035e78b4359c1469faed10c|2020-03-13|Tom|add to_array() method for pure python machines
+64c78375fc2c5a56a07bf60d3734bc89d3aab872|2020-03-12|Giuseppe Carleo|Merge pull request #352 from PhilipVinc/dm-fix
+a2a0fefbf2cde0f82abea3a663bba22aab31b93b|2020-03-11|Filippo Vicentini|add Simple Operators
+a66a600bcb37e73f558b01353806767775b2bb57|2020-03-10|Filippo Vicentini|Cleanup CmakeFile
+d611c50ce62cd7fc117ca1ba8768e4f603642d2e|2020-03-10|Filippo Vicentini|fix batched dm
+8c3505e7ba7dc22aa876696bfc2cf83b5b78bd32|2020-03-05|Giuseppe Carleo|Merge pull request #349 from PhilipVinc/PhilipVinc/dm-wrapper
+0696808b249102dafe5ba89a86da032d3bc64a2a|2020-03-05|Giuseppe Carleo|Merge pull request #325 from netket/py_unsupervised
+d15e0a292081d25b25ae291c916323174e21717f|2020-03-04|Filippo Vicentini|cleanup some unused methods
+553d79478d2988ae4475427431f6e01f56695586|2020-03-04|Filippo Vicentini|remove final from Nvisible AbstractDensityMatrix
+000f9426e8da1fabb3ae6cf294f5e04394ac970f|2020-03-03|Filippo Vicentini|density matrix python wrapper as template class
+c0d14f151c377cc3355b190aff7db0a7fe70ed97|2020-03-03|Filippo Vicentini|refactor as a template class py abstract machine
+6698b99be2eb8fa9965d58e45b568020e0c2f375|2020-02-29|Nikita Astrakhantsev|wip: removed test
+fd74e57ed675d6221888f4706ce86b6b765e78f5|2020-02-28|Nikita Astrakhantsev|Merge branch 'v2.1' of https://github.com/nikita-astronaut/netket into v2.1
+48ec4a4c3e8668a62741045ab806c8e1ffb2d515|2020-02-28|Nikita Astrakhantsev|addressed comments from Tom and Guiseppe
+22370ee47e8d35aa9e7e13fb0e10ff55ba34bd84|2020-02-28|Nikita Astrakhantsev|algorithm works correctly now if part of weights is switched off
+a961f4de8b5e2fb1858166dd23ba7e864307ccc4|2020-02-28|Giuseppe Carleo|Merge pull request #346 from netket/acceptance_sampler
+e072829dc25dcdee15279bf58065ae6b4419b4a9|2020-02-27|Nikita Astrakhantsev|wip: removed bug with diff of parameters which do not require grad
+7ee4e014c41f4f15e6ef72bfffcb04a2384bdbae|2020-02-27|Nikita Astrakhantsev|added test to check
+83e4f0e15a2dcc9dd4aebfbd3f350d1139e0fef8|2020-02-26|Nikita Astrakhantsev|clang package resolved
+6cd0cd175e472342cfbdaa02fb9b67e5a4dd126e|2020-02-26|Giuseppe Carleo|Add acceptance to py_samplers
+97cc9a79d0944ecc10dff48b11840a7225a07580|2020-02-26|Nikita Astrakhantsev|added channels to env
+cb01433c26a482b5849ad46bcf45c6f5c4ab4a83|2020-02-25|Giuseppe Carleo|Merge pull request #344 from orialb/progress-bar
+0069af82d0f345ac61606cd5574afaa3d21bebf4|2020-02-22|orialb|add progress bar to vmc driver
+10710d5a1f21a4c9f1a0b2c12ce515e82fa3aa42|2020-02-24|Nikita Astrakhantsev|made the rank-3 test pass
+f22d308f9d67dfafee0b7e846d5ca14b59da71fe|2020-02-24|Nikita Astrakhantsev|torch -> pytorch in environment.yml
+e34b387afe38969bc1d27d26a92be61fe3689708|2020-02-24|Nikita Astrakhantsev|merged
+3e66889d07280a5a250e8a10f5a293ea678c238e|2020-02-21|Giuseppe Carleo|Merge pull request #343 from netket/fix338
+dd02ab0aa946106425702465ddb776b8ad417997|2020-02-21|Nikita Astrakhantsev|!!!
+c6c23d66106f80fec7dc3a8edb078b56e7b9a2cd|2020-02-21|Nikita Astrakhantsev|Merge remote-tracking branch 'upstream/v2.1' into v2.1
+fde8926fdd1e2796c443a817ab78984de84f311b|2020-02-21|Nikita Astrakhantsev|wip
+677839a8e1184201a7b29a4aef9f2c827a1df7ea|2020-02-21|Nikita Astrakhantsev|wip:fixed tests
+92e3d559f32ba8c87026ed2a5b4a24ff8bcb4164|2020-02-20|Damian Hofmann|Reformat machine test with black
+d07c7a1c34ee2d3e944761a7a6beceed50e27b12|2020-02-20|Damian Hofmann|Add test to check log_val for rank-3 input tensors
+dd815bf0d22fe467e83f8507b2c17382202684ff|2020-02-20|Giuseppe Carleo|Fix bug with 3d input tensor on c++ machines
+1fe96bb1223dbbf191b6a5e3512471a651eb33eb|2020-02-20|Giuseppe Carleo|Merge pull request #342 from netket/fix340
+948cb0933111fc6e35bb24f2201fce1b68cd51a2|2020-02-20|Giuseppe Carleo|Address issue 340 keeping alive hilbert in machines
+049a7993ce639ff202e15010b6783556a42f2f9d|2020-02-20|Giuseppe Carleo|Merge pull request #339 from kchoo1118/master
+215dc7f9b980e4eed7ba826d71ec53abe5281e16|2020-02-19|Kenny Choo|automatically save wf
+6ee8c3189711491083933fde17be79adc6d83cd7|2020-02-19|Giuseppe Carleo|Merge pull request #331 from PhilipVinc/ss_iterative
+1c78f4212d64e65a183fc47acb82bd0f401d1664|2020-02-05|Giuseppe Carleo|Merge pull request #336 from femtobit/pr-edge-colors
+72e3b2693870504bcf2c1e17ecabc85516f90cdb|2019-11-19|Damian Hofmann|Add edge color property to AbstractGraph
+cd673290970b9ed6e6d5dff32bc9d377ecbdbe82|2020-02-03|nikita-astronaut|added package requirements
+b1879e387abad70a6872768deca0bd575cc18fe9|2020-02-03|nikita-astronaut|cleaned up a bit
+d7fe415ec360481e527a7bc6c3d3d7188320bac8|2020-02-03|nikita-astronaut|removed the test_torch = False flag
+bf0a45675d28f3303a9abf5244496faa3044dcbb|2020-02-03|nikita-astronaut|added der_log for torch machine
+7d1c56e73688fa45f338da5e63480edae71c19c7|2020-02-02|Giuseppe Carleo|Merge pull request #334 from netket/improve_and_docs_sampler
+4c14154fc09ab9c2e5684787199780b25fa78161|2020-02-01|Giuseppe Carleo|Improve docs and correct issue with exchange and pt sampler init
+d2bb8846d63e845ca431ef450eebd83314b07ce2|2020-01-31|Giuseppe Carleo|Merge pull request #332 from netket/PhilipVinc-patch-1
+82637210d196214e5098d96e18601c3cd93789e8|2020-01-31|Filippo Vicentini|(v2.1) NETKET_USE_LAPACK=OFF by default
+fc25fa814edf34e9b53b107f69f5958d0e0a6ece|2020-01-31|Filippo Vicentini|Automatic kwargs forwarding + black formatting
+58972d040bc561122526085bf7d69ae0bdf1ca4b|2020-01-31|Filippo Vicentini|Add `iterative` option to exact.steadystate
+c44d94b4d00abba6462624bea983fe53498a5b5e|2020-01-30|Giuseppe Carleo|Merge branch 'v2.1' into py_unsupervised
+834c826b350301e8cf1990d88ec22d197fab0139|2020-01-30|Giuseppe Carleo|Merge pull request #315 from PhilipVinc/improve_dm
+d204c593abe828770852858e18e916d00ef1f104|2020-01-30|Filippo Vicentini|Add more travis tests
+cd607b95a86a736d97c71055a46f89ddb06f0dd3|2020-01-30|Filippo Vicentini|Travis love me please
+eb6b8a038a9a1f0a762db6b62b4239927d0ff85d|2020-01-29|Filippo Vicentini|stop using C++ kernel in der_local_values + fix test breakage
+9b5f7af7c867ac3eebc76546a1642b4ddf71eaab|2020-01-29|Filippo Vicentini|General fixes + tests
+9d6a39d3a4021c46f5ec173179069c3819e29da3|2020-01-24|Giuseppe Carleo|Merge branch 'py_unsupervised' of https://github.com/netket/netket into py_unsupervised
+5c70dcf9e36bebece97d9b222db6874aadcae656|2020-01-24|Filippo Vicentini|Merge branch 'v2.1' into improve_dm
+6efddd7cc568c2fd37846787d34617f0d53ac535|2020-01-24|Filippo Vicentini|update der_local_values to new interface
+05d21f7b1cb99d217aa1f7d09eb942a3f3fa5317|2020-01-24|Filippo Vicentini|move subtract_mean to python
+db1e3438812d1b05ec06eae353dd664f23020bee|2020-01-23|Filippo Vicentini|Implement der_log_val in pure python
+2d2c041c4170d7b0368f5d05d3e903f13f044b7b|2020-01-23|Giuseppe Carleo|Merge branch 'v2.1' into py_unsupervised
+5acdc222712bf7ef52b6df6542affa4417ee3759|2020-01-23|Giuseppe Carleo|Merge pull request #327 from netket/conda_test
+fe4560781a8a6ae542f89c13164e8e6cd572e8cf|2020-01-22|Giuseppe Carleo|Another small fix to travis
+d95a8b13c2dab4cf51bf80dd016d36be4650effd|2020-01-22|Giuseppe Carleo|Activate env with source
+c00892dabdf6fe910f208f897501056d32711978|2020-01-22|Giuseppe Carleo|Other attempt at conda on travis
+db77e157dd3624e67bc7193f6cb60964550aace4|2020-01-22|Giuseppe Carleo|Add conda env to travis
+8b5de22c5df4c7c3c84b605b456629e452e0656a|2020-01-17|Giuseppe Carleo|Add mpi4py to the environment
+74f3ea73c9d5c2183e5e55752071da7ac36ab1f8|2020-01-17|Giuseppe Carleo|Correct -j flags
+8bb4f61ed362da9dd412b6615d05f4c6ca50f2c6|2020-01-17|Giuseppe Carleo|Succesfully import netket in mac conda environment, but still seg-faulting because of mpi
+8764b0cb635a6a11f7cf2c4c1ea70a20a544d4ab|2020-01-16|Giuseppe Carleo|Use n_chains in qsr example
+297914ead4d4797613d972e09a85d8592a502d27|2020-01-15|Giuseppe Carleo|Fix wrong batching in qsr_iterate
+96d3a3cece0bf5f8588b79a22884902862a386f0|2020-01-15|Giuseppe Carleo|Add n_samples_data to qsr
+969d24ce7b42584acb8a06413009287ef72a8ac2|2020-01-13|Filippo Vicentini|Merge branch 'v2.1' into improve_dm
+afa1c368e3be386fd584d73f912170d1d67084cb|2020-01-09|Giuseppe Carleo|Remove unsupervised module
+d7f4baa59f06331b6603356e5927ebe40cd2008f|2020-01-09|Giuseppe Carleo|Implement quantum state reconstruction driver in python
+1ea798a82f8dd9a0eeaba8a8eb4b7065ae617d91|2020-01-08|Giuseppe Carleo|Merge pull request #321 from netket/py_machine
+04b6033ffc9509282dc3c1360b708da2e4f7adb0|2020-01-08|Giuseppe Carleo|Fix issue with scalars in MPI_ALLReduce means
+5c80fad6e50901b8819927a8627f23671181e9b6|2020-01-08|Giuseppe Carleo|Cleaner mpi mean using IN_PLACE operations, thanks Filippo
+fcf5dfa232535382cba56d4746abd57dd2d5ecdc|2020-01-08|Giuseppe Carleo|Merge pull request #323 from femtobit/pr-svd
+61bd5057094dcee2873ec405cb4569011ddb59c3|2020-01-08|Giuseppe Carleo|Address Filippo and Tom's comments
+ad3754a74a2764e4cbfec236eb1498ed97ceadd9|2020-01-07|Giuseppe Carleo|Fix vector-jacobian product in torch machines
+b36d5ea9c4785be3bdb0ed5ac739e20fbb04ac5f|2020-01-03|Damian Hofmann|Add configurable SVD threshold to SR for BDCSVD method
+e400677bf594e4c64e28a9cd54fe0ed9cea5d662|2019-12-19|Giuseppe Carleo|Add experimental torch machine, vjp is still broken though
+3c92e32c81f61630d4b555d195d3e532db7f0d7d|2019-12-13|Giuseppe Carleo|Remove unecessary mpi includes
+a5f65c1b5df77ffb30e2a44d315fc2353c0909c0|2019-12-13|Giuseppe Carleo|Increase number of vmc steps in test
+7c7e67c54df9f6907c733fac49b36ad0ed1bb8bb|2019-12-12|Giuseppe Carleo|Add benchmarks
+b1734a8a0b8299221e990f673751daf5b6959735|2019-12-12|Giuseppe Carleo|Add local_energy benchmark
+030b278b815d0cb52e8d656829a764b4fceb599b|2019-12-12|Giuseppe Carleo|Use jvp in variational
+12443b4eb94c722fe4789c715f849ae05c67f936|2019-12-05|Giuseppe Carleo|Speed up test_vmc
+3dbae8c899499b1ff87740964a26994a019295b0|2019-12-04|Giuseppe Carleo|Revert changes to ising example
+b5545aa06f8e21bde910d8f0f84e5a948a85be6e|2019-12-04|Giuseppe Carleo|Extend input shapes support for get_conn and local_values
+824048fb3a92e33fbe60390984406073808ba03f|2019-12-04|Filippo Vicentini|comments
+1c532fb1089406cb6527b0fba59893b39f3dfcd3|2019-12-04|Filippo Vicentini|Merge branch 'v2.1' into improve_dm
+4bc5771bdbc9a8474fac454f08de784bad28aead|2019-12-03|Giuseppe Carleo|local_values rewritten in python, allowing to use arbitrary python machines
+600a026cab1fa05184b9753ebb202ecc5e157886|2019-12-03|Giuseppe Carleo|Merge branch 'v2.1' into py_machine
+85c8154ac89498338455a54dc3d65cfc2366f743|2019-12-03|Giuseppe Carleo|Merge pull request #319 from netket/sphinx
+bab22a376f01c5a0229c60d77f0e961700e6639f|2019-12-03|Filippo Vicentini|  void FindConn(VectorConstRefType v, std::vector<Complex> &mel,                 std::vector<std::vector<int>> &connectors,                 std::vector<std::vector<double>> &newconfs) const override {     return this->FindConn(v, mel, connectors, newconfs, true);   }
+4dbe16d6cbb160be6ad5d34a967fdb158fc52afd|2019-12-03|Filippo Vicentini|rename steady_state and SteadyState
+926cd87215007a61b2206569d1cd3a3511e3b0b7|2019-12-02|Giuseppe Carleo|Change latex expressions to conform Sphinx
+af5407b98587a728faf3130c44c020ecb4358cb8|2019-12-02|Filippo Vicentini|Resolve a bunch of minor warnings and disable warnings on method shadowing by AbstractDensityMatrix
+4eb094c2291c32346c98d9d9667878724f0159a1|2019-12-02|Filippo Vicentini|Revert "use new serialization interface in ndm"
+04fc40ec4fdbd2c270ab844af01fdf3ec72e7c42|2019-12-02|Filippo Vicentini|remove some warnings
+51d40801ccb09fc96b34ff1686b2a235de347d2b|2019-12-02|Filippo Vicentini|use new serialization interface in ndm
+ce740687c54963c19e6bc903588b4c02bb8ca9a7|2019-12-02|Filippo Vicentini|2nd attempt at convenience constructor for liouvillian
+76ef715a165b23fac2d2aab012c73427f80c01b9|2019-12-02|Filippo Vicentini|try to fix linux compilation
+7cbf12ae39cc212b1f4be91746f64f52c4328cd1|2019-12-02|Filippo Vicentini|fix Linux build
+1b429e9a2d1b970b8e4da1de016eb2c1f2a4b704|2019-12-02|Filippo Vicentini|Bump cmake version to use --parallel
+431a6127ecd6dd31ba9a349d5fe2e8e45dda0fc4|2019-12-02|Filippo Vicentini|Remove `UpdateConfRowCol` and move logic to `DoubledHilbert` + remove `LogValDiffRowCol` on densitymatrix
+5aa8eda7c45bf2a2c70cd6931bbebafe88ee2edf|2019-12-02|Giuseppe Carleo|Expose logcosh_sum to python
+129cb5973008c1bc474c8dab3d7ea707c761cdba|2019-12-02|Filippo Vicentini|Fix compilation error on linux
+f0921a1e9b785c31c17ea09a5a7b828929358345|2019-12-02|Filippo Vicentini|Improve constructor for liouvillian to accept jump operators
+789c49eff2db09a3fab86d668824bf251c7e351f|2019-12-02|Filippo Vicentini|rename lindblad-liouvillian in tests
+b02e776ce554f1909ebabf72dc13ae233ca360c0|2019-12-02|Filippo Vicentini|Add other constructor to local_lindbladian
+5d6ab6b3ba85c8b6707ad500843d998059e657bd|2019-12-02|Filippo Vicentini|Rename LocalLindbladian->LocalLiouvillian & add Docstrings everywhere
+9cf6151a324b0154503def6c3c846d471a9f35e7|2019-12-01|Filippo Vicentini|fix mess generated by clang_format
+14445c67774bc7a4f0517615b01e1b8d9fa77124|2019-12-01|Filippo Vicentini|Move and update examples
+685493ece6f4eff6c74729c4e946c47d086b8a49|2019-12-01|Filippo Vicentini|rename staedystate file and exact method
+ae6517d421c0998ba8828f53867c245da2d52a0e|2019-12-01|Filippo Vicentini|update _ss.py
+276e134abc6b2f6ae602ec29498ed957c1ee521c|2019-12-01|Filippo Vicentini|Add _compute_mean to stats
+7111d1d090ab5a47eb7985e7dbb4d710fc46d5f4|2019-12-01|Filippo Vicentini|add batched DerLogChanged to abstractMachine - move allocations out of DerLocalValue's loop
+f1cbab5da935ce48625e315c83f194dc1c3e59b4|2019-11-26|Filippo Vicentini|Add tests for DM batched evaluation, fix test
+95788c263dc629a52a2907b3c04bc01eb05cb602|2019-11-26|Filippo Vicentini|updates to last version of sampler api
+ff50cd81596d85820bba3e1eb78db2ffc6c7c1d7|2019-11-26|Filippo Vicentini|Add simple python driver for the steadystate (needs tests)
+38d67ea632970616453504efc866306b6d5488af|2019-11-26|Filippo Vicentini|Add methods to compute Operator * Densitymatrix product, mainly used for computing observables of open systems + tests
+8571c4ba873043ecb3e1341833dea71e1db734b4|2019-11-26|Filippo Vicentini|add logcosh methods for real-valued matrices
+e36fc991e8967a8dff08dad00acf18e23cc35879|2019-11-26|Filippo Vicentini|convert ndm to batched format
+f06f123849416aa8db8b4d796dab80736d73f5f2|2019-11-26|Filippo Vicentini|Enable kwarg `normalize=false` when convertind density matrix to numpy matrix
+9123eed5d8f3ad3c3176004f19962d2fa95b33c0|2019-11-19|Filippo Vicentini|Solve issues raised by @gcarleo
+5cf40f913975e5a3b8ebc5821ffd7a1df43d19ea|2019-11-19|Filippo Vicentini|Compute derivative of local terms
+b44423aa783ee21a975088d1fddabb40579344b3|2019-11-15|Filippo Vicentini|Shove off two allocations per connections
+5ba124126d0aeacb6d65a083176dc950a29968d5|2019-11-15|Filippo Vicentini|Use ForEachConn
+4ea94048cd598c250b438914e67e0f2fe59ce884|2019-11-15|Filippo Vicentini|Use edgeless in doubledgraph
+a5ec1942f1df11dde8294c4d99ce35a70d2dcde8|2019-11-15|Filippo Vicentini|2 * 2 = 16
+3d03a676a5c9070f2c435654d5ccd49e84e7e204|2019-11-15|Filippo Vicentini|Fix linux compilation errors (<memory> is not included)
+f0ef56ba936c6f6c597568a2b139abda02d4ab44|2019-11-15|Filippo Vicentini|fix n_physical test in densitymatrix
+e7a7a965f9a230602be8cea48a2f4a5cf10d23eb|2019-11-15|Filippo Vicentini|attempt to fix travis assert problems
+86748f0cc0a188fda59af7e6d1cf3bcbd7cbf258|2019-11-15|Filippo Vicentini|Add exact diagonalization example
+c3f35ccc7a5a1406386c28ed4dcac2976d7ed4be|2019-11-15|Filippo Vicentini|add exact diagonalized steadystate method
+ff3a284b9d30a060449e4816b97b685772d71a1f|2019-11-15|Filippo Vicentini|Use same tensor ordering as QuTip
+2fd4905c8c8d26219073ad589316d68143747354|2019-11-15|Filippo Vicentini|Add a no-edge customgraph constructor so that single-site open systems can be simulated
+8f236e609c219fde6c9830f4d57e9068cf65abbc|2019-11-14|Filippo Vicentini|add tests
+c05fb151679fc9a130d478988953ac9c1a3cf19c|2019-11-14|Filippo Vicentini|Fix non-hermitian operators
+3302a2e067d7e10ec37255966f3043023c29eeec|2019-11-14|Filippo Vicentini|add python binding to multiplication of operator by complex number
+3cee1bfc2ebc7cab798f269380508f83e3b2c423|2019-11-14|Filippo Vicentini|Fix diagonal density matrix error
+a66b6e7f2dc4a534e92c8220d33ec976768ea27f|2019-11-13|Filippo Vicentini|add example
+4bde1ce5755e223207ded00cf5342f781ff2163d|2019-11-13|Filippo Vicentini|cleanup
+fca90449e1855a886998666d0ff905058ba653ae|2019-11-13|Filippo Vicentini|add A NvisiblePhysical for density matrices
+0d84347b7e2f90b227f33e797af56e10cc1c5dd3|2019-11-13|Filippo Vicentini|Add Lindbladian superop
+c3c28ea437b2143446cd4587f7e559e2ae45653b|2019-11-13|Filippo Vicentini|add spins hilbert doubled sampling
+20e4f916c88762a56bca7d079d24c09400f4b0b4|2019-11-13|Filippo Vicentini|Add missing methods to abstract density matrix
+57fb5fe1d45b8d60c9eadbd15432e2c0506323d1|2019-11-12|Filippo Vicentini|Remove debug printing and add assert
+9d774bd2a2090544f663253bf3080fd9a7f503f2|2019-11-12|Filippo Vicentini|add files to CmakeList
+18f2e61ecb5847fe850a0f77f4322a8cac24a037|2019-11-12|Filippo Vicentini|Add Doubled Hilbert space
+4f59fd11950d3d402f5f3155872dce03fd764a5d|2019-11-12|Filippo Vicentini|Add a new virtual method to hilbert spaces, to update the row and column configurations of a doubled hilbert space. A base implemnetation (slow) is present.
+18cef296e79ed2ae29a11b67fff2c9b83ee34e44|2019-11-12|Filippo Vicentini|Move to the new interface
+abaa888ac7863ec39e39c8a6eb7d430375e2365a|2019-11-12|Filippo Vicentini|move `DoubledGraph` to /Graph folders
+6dcc18fd6cb136dcb8a86047c3bc118d0c97968b|2019-11-20|Giuseppe Carleo|Merge pull request #308 from netket/py_sampler
+27b8dcaa44a13e95eb07758c2954271e4cb427e1|2019-11-19|Giuseppe Carleo|Merge pull request #318 from femtobit/fix-SR
+9b18dad63f860e06b2bda2c8594982a268c5b852|2019-11-18|Damian Hofmann|Fix #317 (segfault when accessing S matrix property of SR)
+543b07f42181b25395ff55086903ca72f852b91c|2019-11-13|Giuseppe Carleo|Merge remote-tracking branch 'origin/v2.1' into py_sampler
+1bd16b3c4b962fed134aa371ead2f8e5dcceb80e|2019-11-13|Giuseppe Carleo|Merge pull request #312 from netket/PhilipVinc-patch-1
+b97379e0344cea2d165ce383c37ff12775de9ce3|2019-11-12|Giuseppe Carleo|Merge pull request #313 from netket/PhilipVinc-patch-2
+94fce40f73b3ddc7d6eb4c3ced0d6d0ba4e5e946|2019-11-12|Giuseppe Carleo|Merge pull request #314 from netket/PhilipVinc-patch-3
+84d46cf2f1d6c6c3f0419345eb25d362db196e65|2019-11-12|Filippo Vicentini|Update abstract_operator.hpp
+0ec6a6caebe1673dac1ab3e458f7a98a2b716918|2019-11-12|Filippo Vicentini|Fix bug in py_machine
+857ab6946bf849b50ce200d50bf5fb9ba0abd079|2019-11-12|Filippo Vicentini|Remove unneeded `assert` in complex*LocalOperator
+32556e4e5bd182bc7129a2bc2484b4a73ebacccb|2019-11-12|Filippo Vicentini|fix `to_dense` in `AbstractOperator`
+83b0dde3b9e653b248e07ead36bc0e5c10100551|2019-11-12|Giuseppe Carleo|Fix docs
+92c69ca0fb31443f34329426f74c8538a41a30d2|2019-11-11|Giuseppe Carleo|5-sigma test for ground-state vmc
+d97c2e158feec6eb5fd2ab6a0531353be00af291|2019-11-11|Giuseppe Carleo|Solve include problem for samplers on linux, thanks femtobit
+151b18e55da287735a1a6272b34f7ddba35f573d|2019-11-11|Giuseppe Carleo|Add back absolute_import
+3b727a85628c4f32c8bbadb3b310a2e6667e7a85|2019-11-11|Giuseppe Carleo|Fix sampler tests
+6b0a4437c849a8d1d3c7ef46cc478b189c1e96a4|2019-11-11|Giuseppe Carleo|Add other python samplers
+2a29aa5b336e8e6d2a1819c78fde915ab9fa13e5|2019-11-07|Giuseppe Carleo|Add remaining samplers
+34ee1c0df023fd826abf430604ea8fe7dbc66fc5|2019-11-06|Giuseppe Carleo|Add metropolis_hastings to previous commit
+a7119922bff71f1c2d5f844bab388a2f63dff219|2019-11-06|Giuseppe Carleo|Add more kernels and use random numbers consistently
+472f57b4359d4216b18f804756e853f1b25d14a8|2019-11-06|Giuseppe Carleo|Merge branch 'v2.1' into py_sampler
+56ba22f9de9aeecd3bb41256fec28ba56de0ec72|2019-11-06|Giuseppe Carleo|Add other transition kernels for python use
+9c09b8f17cbc7eb67a44f63f60faf5e7be000528|2019-11-04|Giuseppe Carleo|Speed up python metropolis with C++ kernel
+c240f0b6d9f179cabb04838f250038fbdf8f5597|2019-11-04|Giuseppe Carleo|Merge pull request #307 from femtobit/pr-Heisenberg
+d2b70b5a5f85793da235f3c328ad0b5ce3daf508|2019-11-04|Giuseppe Carleo|Add abstract sampler class in python (experimental)
+8f8f7b866dbbe8ac2bb021367979d1a421cac79d|2019-11-04|Damian Hofmann|Make J and use of sign rule configurable for Heisenberg Hamiltonian
+dd8411d7042ef01d4270080bb466c720ab1d7650|2019-10-25|Giuseppe Carleo|Add experimental python MetropolisLocal
+4d71ecedeb7cdb4de6bb04e7a4b72f004ce7c1c1|2019-10-24|Giuseppe Carleo|Merge pull request #302 from netket/max_batch
+d7da8a30aa2e4e1949bbab74ff758a6ed5bc2a34|2019-10-23|Giuseppe Carleo|Remove log_val from local_values and also allow generate_samples not to return log_vals
+8e86542724fb070e9135a936955320694f4df386|2019-10-23|Giuseppe Carleo|Address femtobit's comments
+87c93b7efb21afcc69a8a1cbda570364e42e83b3|2019-10-21|Giuseppe Carleo|Correct an issue with default n_discard
+4b96a68cf15607288245b3eaf40e09e523568be2|2019-10-18|Giuseppe Carleo|Further remove unecessary methods and files
+36f0f280f17362a2c1b72f2ec2a99082045267eb|2019-10-18|Giuseppe Carleo|Remove C++ vmc driver
+89e22b1682960b4238c51572a63bf7ea6cd7d8f3|2019-10-18|Giuseppe Carleo|Use Vmc python driver
+3c399b8bace5197eef51d66879b172b598832779|2019-10-17|Giuseppe Carleo|Fix compute samples test
+73082d371c46228ce15931d7ea0c668c765b826e|2019-10-17|Giuseppe Carleo|Fix vmc tests
+48d58b831d933f455b0fadf48473b2953848369c|2019-10-17|Giuseppe Carleo|Move ComputeSamples to pure python
+6d0f3183a617a26030699adc74b144e7aed2aab5|2019-10-16|Giuseppe Carleo|Add n_chains attribute to samplers
+9901715809acc0fb5c00fd43c6ee9acac019b2a4|2019-10-15|Giuseppe Carleo|Move sub-batching to sampler
+da6423d1c379c438316d34b9f202727e15bad0f4|2019-10-15|Giuseppe Carleo|Change batch_size to n_chains in samplers
+0f1a207bb889bfa2e5e5d36fd5f1f0197e8fc198|2019-10-14|Giuseppe Carleo|Use sparse matrices for operator's get_conn
+9f88da1062d2e33089a370f1e0b4188cce70be14|2019-10-14|Giuseppe Carleo|Fix ndm test failure
+85e4558fd57de72c00997fa02525cde8fe8cd732|2019-10-08|Giuseppe Carleo|Avoid unecessary calls to LogValSingle in default LogValDiff
+491be13cdad37458ed0c34be820a877958639a5a|2019-10-07|Giuseppe Carleo|More explicit template names for sub_batch
+6092504d55ca21f96d0c43c876535d79851717dd|2019-10-07|Giuseppe Carleo|Remove spurious lines in ising tutorial
+01179b4694c5b353c2deecad0413a3c5224f7ca8|2019-10-07|Giuseppe Carleo|Change SubBatch to use lambda functions
+364b45a33453102d0fceb8b06bd26f850de11130|2019-10-06|Giuseppe Carleo|Merge branch 'v2.1' into max_batch
+c3ecd6748c35745c09faf5db93cdd2e4f80f0564|2019-10-06|Giuseppe Carleo|Merge pull request #304 from femtobit/py-driver
+38109bd8fe0c728f551825b63e43e5f33d6e0445|2019-10-05|Damian Hofmann|Correctly initialize optimizer in Python VMC driver
+d20aa0c531bab4be186650e8207dc0f753e636a1|2019-10-04|Giuseppe Carleo|Simplify LocalValues
+d7cefebd464dd75fa29f481e4ae79d6abd6dcd28|2019-10-04|Giuseppe Carleo|Add maximum batch size to abstract machine
+81532f86054ff6a535e7c3e3f10083ff4cc14603|2019-09-30|Giuseppe Carleo|Merge pull request #276 from femtobit/py-driver
+cb284c2a31282d948249db3f6bc3a6503d7b24fe|2019-09-30|Damian Hofmann|Re-add method="Sr" to example
+fa089b30d2465b4876f4f3c4aeb439e9a4365692|2019-09-27|Damian Hofmann|Update docs
+15956df0838a70b5c6516925326caa8f4c1bacea|2019-09-27|Damian Hofmann|Remove machine argument from driver constructor
+3644b8508809d13fd158fbe1ea8c4d61f6eb5fa1|2019-09-27|Damian Hofmann|Fix Ising1d example
+a1925693b771859269c29f5f644d1fd8da82a862|2019-09-24|Damian Hofmann|Fix test failure on Python 2
+59e75baeb8476b875e2da15ca977351e5196b966|2019-09-23|Damian Hofmann|Update driver and top-level VMC function
+88f5d0cfa987636b2541ebf7a5f39ad9cffd5d6b|2019-09-20|Damian Hofmann|Remove log_derivatives wrapper function and MCResult
+a5eab0239924af3df0ae29e225ee93a2c24b7cd4|2019-09-20|Damian Hofmann|Make log_val and der_log accept rank-3 arrays
+ef3ff32b242f25b6a6ae0f08db1aada85775a2ea|2019-09-18|Giuseppe Carleo|Merge pull request #295 from netket/lapack_off
+84d81cb051b435a6f67613d02369dea31fbdc392|2019-09-18|Damian Hofmann|Move compute_samples to netket.sampler and update tests
+e6461cec775382fe4fca3046b54a6f1ddf1e74ec|2019-09-18|Giuseppe Carleo|Set lapack off by default because of Eigen bug
+a456fd78e2a0961fc378d268563c5eb7e63a6d30|2019-09-18|Damian Hofmann|Update VMC driver example
+1c200d73dc43f4d92295361e2d9fbd7ac15dab6f|2019-09-18|Damian Hofmann|Separate MC sampling and computation of log-derivatives in Python interface
+a9f24e69f8aae2acb4e14a81b75f23033311c1e4|2019-09-18|Damian Hofmann|Merge remote-tracking branch 'origin/v2.1' into py-driver
+fcab4b7bdd99efc6b5607b70d310238f61cf7103|2019-09-13|Giuseppe Carleo|Merge pull request #286 from gcarleo/remove_lt
+e8a7875ad7da521b0abde223b5cca3cf78a3a6e4|2019-09-04|Giuseppe Carleo|Remove Lookup from __init__
+95bc849fad9391ebf064720c26d254233de42ad9|2019-09-04|Giuseppe Carleo|Remove Lookup type completely and fix tests
+d3bd26eaf7a8960f985a4647d849c7a58c25765f|2019-09-04|Giuseppe Carleo|Merge branch 'v2.1' into remove_lt
+1a305ffed16116979992c62dc2070cb5cbfcb1dd|2019-09-03|Giuseppe Carleo|Merge pull request #294 from femtobit/pr-init-random-pars
+df4996aabc4705569787a786ce1a2e1cbf447dfb|2019-09-03|Giuseppe Carleo|Merge pull request #281 from netket/pr-stats
+558447c0dd695c9db1cb91ca29dd6f7bf231a7cd|2019-09-03|Damian Hofmann|Fix deadlock when calling InitRandomPars without seed
+fb9f62c4b23a5a9466a4a23aa512a524ad548e92|2019-08-26|Giuseppe Carleo|Merge pull request #291 from netket/v2.0
+f995b8a5b46b46fdcf89c5645dfc54046a215f99|2019-08-25|Giuseppe Carleo|Update binder link and add arXiv link
+e60dcc758303e79c88bdfba54734759449f6bd0d|2019-08-24|Giuseppe Carleo|Merge branch 'master' into v2.0
+dc91e20e9eef4dc3df2bc7898c81d36f89d70998|2019-08-24|Giuseppe Carleo|Merge pull request #288 from netket/gcarleo-patch-1
+ebdac8630b922f4b6688d8e38b9db41de368875f|2019-08-16|Giuseppe Carleo|Merge pull request #290 from jamesETsmith/v2.0
+d63bbec6b0e572dd87456ab35c2267fe2bf793e1|2019-08-16|jamesETsmith|Simplifying binder build (no more blas or lapack
+4a6cd3bbe8c4f8304994b357bb0dba407761a414|2019-08-16|jamesETsmith|Adding lapack and blas
+0335c0ec040e368bb419ae2f43c3f738f0eae9a2|2019-08-16|Giuseppe Carleo|Update setup.py
+ba45631d338f7d5e0f83e591ccca66f587cd18f1|2019-08-16|Giuseppe Carleo|Merge pull request #287 from netket/master
+a8f49801b2cc1b36f3806b923a6e4e015ba723a8|2019-08-16|jamesETsmith|Adding files for binder build
+4a233ecfc47fd14a417a1335d04f5b00012e316c|2019-08-16|Giuseppe Carleo|Merge pull request #285 from gcarleo/mcmc
+a62b084c0b09a3e293899e80db05631859c956d2|2019-08-16|Giuseppe Carleo|Update Examples and fix batched versions of density matrices
+1eaa2bc149a386e135ebcee96371c461d1d7d095|2019-08-15|Giuseppe Carleo|Remove lt and update rbms
+f86cb45307e014e28e94fb57b30b03c48ff94b99|2019-08-15|Giuseppe Carleo|Merge branch 'mcmc' into remove_lt
+d87962e593610d2c9d00f174606efb9ccce3aaad|2019-08-15|Giuseppe Carleo|Merge branch 'v2.1' into remove_lt
+366580bb44b080e71a4bf4d39d5af0463e09c715|2019-08-15|Giuseppe Carleo|Merge branch 'mcmc' of https://github.com/gcarleo/netket into mcmc
+5ce0a7cf2bef3601a2ce93cde3d7407222be4aef|2019-08-15|Giuseppe Carleo|Merge branch 'v2.1' into temp
+ab6b548a1122b2e280029f3219a25afa428835c3|2019-08-15|Giuseppe Carleo|Revert "Revert "Generic Metropolis-Hastings and parallel tempering versions""
+7a4a68b1042bbf96282d11b5831f61ccf3c68876|2019-08-15|Giuseppe Carleo|Merge commit '77282146cb68123050992c8820ef88bf8ee9e713' into HEAD
+66347dd781c0c6568808d39643d96cc1fc92cd31|2019-08-15|Giuseppe Carleo|Merge remote-tracking branch 'upstream/v2.1' into mcmc
+452bb5206ca19a2c8c21bde78784fb3d85ddb622|2019-08-15|Giuseppe Carleo|Address comments in #279
+1afe821709893526a006a215f590992d087033c7|2019-08-15|Giuseppe Carleo|remove Lt from FFNN machine
+ff9835bcdd70d0c56991164ae14d69b2b6fd7df4|2019-08-15|Giuseppe Carleo|Merge pull request #284 from netket/revert-279-mcmc
+0e246b33b7d26d3012cda430d3abe3d1f2830a3d|2019-08-15|Giuseppe Carleo|Revert "Generic Metropolis-Hastings and parallel tempering versions"
+d370b64c7e5a1326a399fe0ab350fcdfd491d4ac|2019-08-15|Damian Hofmann|Update MC statistics tests to current v2.1
+c7a91f4a9e6adc629db6d2fd11b0151ee641a93f|2019-08-07|Damian Hofmann|Fix bug using netket.MPI from Python
+ffbd7300e3bd3003f538748d264b67d55ef3f08d|2019-08-07|Damian Hofmann|Add test for MCMC statistics
+b92fb61aed6be6af627224e8e17e34a74a1f004b|2019-08-15|Giuseppe Carleo|Merge pull request #279 from gcarleo/mcmc
+9f43c160c31f1e53bc63a050fce85643b462aa2c|2019-08-15|Giuseppe Carleo|Add experimental internal look-up mechanism for RbmSpin
+77282146cb68123050992c8820ef88bf8ee9e713|2019-08-15|Giuseppe Carleo|Merge pull request #283 from gcarleo/v2.1
+0a20493385f41fd10f0fd7d2ab3c445bbd7f06d1|2019-08-13|Giuseppe Carleo|Stick to double for correlation times
+118510b424fe7796b4257355245bf4de735f43ef|2019-08-12|Giuseppe Carleo|Fix factors in mc_stats
+4ff1ad085d7d1b45f677cf9774d9cff7f35f0a1a|2019-08-12|Giuseppe Carleo|Correct factor on error of mean
+04fcdaa464170f0d0be6572bf86d6a70dd3bad61|2019-08-12|Giuseppe Carleo|New implementation of LogCosh used in all RBMs
+586f4647fa8b51120a65217b9d38cc490fba6e39|2019-08-12|Giuseppe Carleo|Merge branch 'mcmc' into remove_lt
+903f4f08e9ff3388b8f76c3df496939ea9775262|2019-08-12|Giuseppe Carleo|Add Acceptance and Stats to Metropolis-Hastings
+df1d665bdd21c9f875cfc23b8874bd3fc22ee31b|2019-08-09|Giuseppe Carleo|Use fast log_cosh in most rbm machines and remove unecessary look-up tables
+0aeba483949c4448ce27c800606b9d0444b258da|2019-08-09|Damian Hofmann|Return NumPy arrays from compute_samples in Python
+23a086f4522e4f22698e4d8d2ba5de8db7de6384|2019-08-09|Damian Hofmann|Separate variational pybind code into header and source file
+ef9c1ed4440b22fafc69e2e8c6380d5976e638e8|2019-08-09|Giuseppe Carleo|Add batched hamiltonian sampler
+a1d7a2c5697739cd8f26397ce9e264ff09ffdbcb|2019-08-09|Giuseppe Carleo|Add batched CustomSampler and update docs
+4ea64a1891250de2a73e83cbfa5491f1735a2821|2019-08-08|Damian Hofmann|Add option to avoid subtracting the global mean
+2eb49050a50ce0e325a3a3144b509f5595fbf7bd|2019-08-08|Damian Hofmann|Move covariance_sv to netket.stats
+1d2ce8ded0c6fd948aa6005cc4c3bbd31d79dc71|2019-08-08|Damian Hofmann|Rename gradient_of_expectation to covariance_sv
+ee73a969c51683b75419aa0891769087b8c7dde2|2019-07-31|Damian Hofmann|Add batching to ExactSampler (and use it in VMC tests again)
+d2868d40f70bdce5c8b53d1ac1494753345c9fb1|2019-07-31|Damian Hofmann|Fix another typo in docstring
+fa1fff0f1846a4f7922f825423b8995a8ed9563f|2019-07-31|Damian Hofmann|Fix typos
+c327ce1e47fcc41be33c5c42d8aed49960febb88|2019-07-31|Damian Hofmann|Update tests of VMC functions
+3b1868e22fa7b10a58bb707f9f4d52fa6788ae03|2019-07-31|Damian Hofmann|Add convenience function for VMC estimation
+41a4907c72b2a7b10b0826a521565dcd345f1a20|2019-08-09|Damian Hofmann|Incorporate feedback from PR review
+173fffd477cdffbf7acefd3b602175349ad0d33a|2019-08-05|Damian Hofmann|Add example VMC driver class in Python
+fb4904843f981a82b20b6c3dd17295d8277ebc59|2019-08-05|Damian Hofmann|Expose Optimizer.update to Python and improve SR interface
+b627fe667b56c26677afeec02f5d90dd0f844baa|2019-08-08|Giuseppe Carleo|Add batched parallel tempering
+048579358f63a6b00f26da17976c2d9f56bf7336|2019-08-07|Giuseppe Carleo|Add missing hop kernel fil
+51fa204eebd8f5d68b58a7d4302da083fbbd09c7|2019-08-07|Giuseppe Carleo|Make MetropolisHop a kernel
+13559eb4ffe3fddbe31f9d39b20a88ad65adde7d|2019-08-07|Giuseppe Carleo|Merge branch 'v2.1' into mcmc
+a5d4392ff9b5b4ecf209a3ac897542a82597ba12|2019-08-07|Giuseppe Carleo|Make rand_vals in hilbert modules configurable with optional generator
+87aa4c4f110946f729c563668a6b0b09d88b39bc|2019-08-07|Giuseppe Carleo|Make random number generator global
+abd977ea34d4c3ebba302fe0192aba9466d6678f|2019-08-07|Giuseppe Carleo|Merge pull request #277 from netket/pr-stats
+06371a38fbc5adcbc956d8bc517ea1a8b1094907|2019-08-07|Giuseppe Carleo|Add local kernel for MetropolisHastings
+84dd7c91b8ae14f9af21ecf25d1dae57cd6d24ed|2019-08-06|Giuseppe Carleo|Write MetropolisExchange in terms of MetropolisHastings
+a4ea637ee94673838b097b4c2f1509357b0b254b|2019-08-06|Giuseppe Carleo|Merge pull request #278 from femtobit/pr-sampler
+227a66e1af7428b067c962d1b0db27f855b72ba9|2019-08-06|Giuseppe Carleo|First rought implementation of MetropolisHastings
+d59fa08f61dd219ace034788fccb80f488cffa1c|2019-08-06|Damian Hofmann|Compute acceptance for MetropolisLocalV2
+b37edd54f70ed410e37375a2f6d261e8788ad1e0|2019-08-06|Damian Hofmann|Remove unused mpi4py dependency from Travis config
+eb91fb83b872aaf984846ac292d4b2176d216854|2019-08-06|Damian Hofmann|Set precision depending on error of mean
+a89f891d249172f318671f919ebf24613f4b0754|2019-08-05|Damian Hofmann|Change Stats repr format a bit
+9b12d2db71687341bedb2a4c7ceb6dd53a66546c|2019-08-05|Damian Hofmann|Add __repr__ and asdict() to Stats
+67bbed9156bf7e223eed8b201bca8a7fa2c8ef1d|2019-08-05|Giuseppe Carleo|Merge pull request #274 from twesterhout/stax
+791d91e29aa465acda6db3f84fc6129f62d0bfae|2019-08-05|Tom Westerhout|Set JAX_ENABLE_X64 everywhere
+9d44934df943c5d326012c0b25d933ff71d8154f|2019-08-05|Tom Westerhout|Merge branch 'v2.1' of https://github.com/netket/netket into stax
+77e0aa18c171ff1feb02f7b91186f7475e932a4f|2019-08-05|Tom Westerhout|absolute_import on Python 2
+3d1452bdfe9720e6b14e5b17c1aa7b6a3eed485e|2019-08-05|Tom Westerhout|Fixed import errors
+872aa344ec37d9973b9b497358fdc0691e793457|2019-08-05|Tom Westerhout|Removed symbolic link to jax_wrapper, because Jax machine is now part of NetKet
+2e7c73957f323c99500006195f2aa00360b28cbd|2019-08-05|Tom Westerhout|Moved Jax machine to netket.machine.jax module; It's not imported automatically so using netket without jax installed is still fine
+6ca720d30e6fcbb6487590db403712ad7671f73a|2019-08-03|Giuseppe Carleo|Merge pull request #272 from gcarleo/v2.1
+7cc70620a16ce1bbef649a8bd050f0071ca48746|2019-08-02|Tom Westerhout|Added explicit calls to jit for forward and backward passes of JAXMachine; Added JAXMachine to test_machine
+f44374ce652681cd35c79e807bb50247d01b8c4c|2019-08-01|Tom Westerhout|jax.experimental.stax neural networks now work with NetKet!
+8c84d694499341f18ccb189fcbccf1b4368ae9a9|2019-08-01|Tom Westerhout|Fixed incorrect DerLog usage
+5b159e49d834a776967acd634b1ed592464e9222|2019-08-01|Giuseppe Carleo|Speed up PyRbm
+b6193b991711778060c6dd1f68a79dd9eefa499c|2019-08-01|Giuseppe Carleo|Merge branch 'v2.1' of https://github.com/netket/netket into v2.1
+61aac4b9b858a88a1e55fbace27aa50dd60b268a|2019-08-01|Giuseppe Carleo|Merge pull request #273 from netket/pr-duration
+427be786a7cf9a5e643b15a85084473e6d1da172|2019-08-01|Giuseppe Carleo|Merge pull request #271 from twesterhout/py_machine_api
+f6cd1ea6ad8605389dcf86fdc4c37ad7414c363a|2019-08-01|Damian Hofmann|Merge branch 'v2.1' into py_machine_api
+e5d9af7668ed7107404fee34a741bc881e09616f|2019-08-01|Giuseppe Carleo|Merge branch 'v2.1' into pr-duration
+f87daf3fabae75f24ab235a9064d1278c100c541|2019-08-01|Giuseppe Carleo|Merge pull request #270 from netket/pr-hilbert-index
+f1e100619f2251836adc5132a11d5d583c794acb|2019-08-01|Damian Hofmann|Report durations for all tests cases when running tests on Travis
+a3aa84b876f4dde67858d335f492101b93750f1c|2019-08-01|Giuseppe Carleo|Merge branch 'v2.1' of https://github.com/netket/netket into v2.1
+1f5ae77a421be73c7c216b8d092f491b45477aa8|2019-08-01|Giuseppe Carleo|Use shared_ptr for Operator and update plotting scripts
+7fd668c549cd4534442fdea2187ef8efe3c06931|2019-08-01|Tom Westerhout|Merge branch 'v2.1' of https://github.com/netket/netket
+af5c81a458a0ba3b0d13bdaa5505a97eedb4aeb4|2019-08-01|Tom Westerhout|Simplified interface for CxxMachine
+ccfca9d33c963492be53aa6e67860fbc0a61d285|2019-08-01|Giuseppe Carleo|Merge branch 'v2.1' into pr-hilbert-index
+39c2eefc13d155e6865f7766ffce4ece4c36a730|2019-08-01|Giuseppe Carleo|Merge pull request #269 from femtobit/v2.1
+562e3ae00ad27abd0de148c4bc5a00881af6cd64|2019-08-01|Damian Hofmann|Remove deprecated `Hilbert.index` property (fixes #251)
+32680bccee0c98fa0a83e77467f17730fd00f4d8|2019-07-31|Damian Hofmann|Add batching to ExactSampler
+8ba62b807305adefce57f21a482d0cd71e807ac1|2019-08-01|Giuseppe Carleo|Merge pull request #267 from gcarleo/v2.1
+ca86772c07ab6a84d8940f41a9333e7c0bf74921|2019-08-01|Giuseppe Carleo|Rename Set to Edgeless and separate a few headers from implementations in Operator
+81561ec67c81277bce017566d702fc081f971970|2019-07-31|Giuseppe Carleo|Add test for deduced hilbert space in PauliStrings
+803e97d0c3a1d256760b89cfae80538a23110e00|2019-07-31|Giuseppe Carleo|Revert "Revert "Add Set to Graph library and improve Pauli Operator (now PauliStrings)""
+a9914a4025d2e1536ffff86a803e54cc70f4ea39|2019-07-31|Giuseppe Carleo|Revert "Add Set to Graph library and improve Pauli Operator (now PauliStrings)"
+8308b29ad9717c653ae942976dfc4fa1ca48a7f9|2019-07-31|Giuseppe Carleo|Merge branch 'v2.1' of https://github.com/netket/netket into v2.1
+c4f7eb45fe5e699b7a82b091cbff246899c8a575|2019-07-31|Giuseppe Carleo|Add Set to Graph library and improve Pauli Operator (now PauliStrings)
+07274031e295344cb0b5477299079158d68f8d45|2019-07-31|Giuseppe Carleo|Revert "Add Set to graph library and improve Pauli operator (now PauliStrings)"
+261a37046ca909e73adfab12016b6716c3cb09e2|2019-07-31|Giuseppe Carleo|Add Set to graph library and improve Pauli operator (now PauliStrings)
+e9ce963c737fcf8fe200f751deffac74e209827d|2019-07-30|Giuseppe Carleo|Merge pull request #246 from twesterhout/master
+3c9f70929b7c8a51159694bc048cf65d7ca050a1|2019-07-30|Tom Westerhout|@femtobit autocorrelation is tau_corr now
+365b0f84d5fecd09dc8695fff33ed2db6809a3c5|2019-07-30|Tom Westerhout|Forgot to hit :w :)
+e9c2e5b58d3429cb9c01dbc05cd90a3dcf7d0085|2019-07-30|Tom Westerhout|Moved Stats to netket.stats
+126149311eede99b089fa92ad4fedb0073142c0a|2019-07-30|Tom Westerhout|Merge branch 'v2.1' of https://github.com/netket/netket
+4edc4bc052607997ab6fa7970f3fed1da5010223|2019-07-30|Tom Westerhout|Fixed keep_alive issues; Docs fixes
+0e65b3f37f5b9394e147382e224ca99448f0bcd0|2019-07-30|Tom Westerhout|Explanation of shapes in statistics and gradient_of_expectation
+2efc5fb9742ed635650dcf53a5638502c1ef09bf|2019-07-30|Giuseppe Carleo|Merge pull request #263 from kchoo1118/pauli_operator
+236fba107701efec1e2e5d455236bdd61949a541|2019-07-30|Kenny Choo|pauli operator
+2b0ced7b42937ab15057766adeedbc10d5ff1d9e|2019-07-29|Tom Westerhout|n_chains is now incorporated into tensors, i.e. no need to pass it to statistics; tests pass, but might've messed something up with indices and shapes...
+0bbc52855bc58e6d2fa962120314050ee4a7c483|2019-07-29|Tom Westerhout|Renamed num_chains to n_chains
+eb41df571f2206cdb06eaef2583aa539c3a21d41|2019-07-29|Tom Westerhout|Moved local_values and statistics to other modules; renamed gradient to gradient_of_expectation
+9ff4cbdd704dc26a2ba40635aa8f0d56559347fb|2019-07-29|Tom Westerhout|Renamed gradients to der_logs
+0c7d0ea0fffed96c50c9a79dc09b0ca7971d28d0|2019-07-29|Tom Westerhout|Moved Statistics function to a different file; Removed some dead code
+773b45b7ed98f973da100477689351d56b1e4aa7|2019-07-29|Tom Westerhout|A go at fixing doc tests
+79dde4ca269fd46909fd8c7fed48068d23b88e74|2019-07-29|Tom Westerhout|Fixed PyRbm
+9574b70af3426f3420f7209d9017a3c36e1aeaad|2019-07-29|Tom Westerhout|Updated the docs
+2fc65756ea8a5312c79f1c272c9c7510bd02f1e5|2019-07-29|Tom Westerhout|Code clean-up
+5560b35296fdd48aeb69939d2a482f93b787888c|2019-07-26|Tom Westerhout|Stats.mean is real in JSON; Fixed a bug in MeanAndVarianceAccumulator; Added n_chains field to Stats
+6b5642975db8d9ce6243db5314bfb50fd94cd113|2019-07-26|Tom Westerhout|MachineFunc now works with vectors instead of scalars
+f14ec3c50703da2457ce851ff4a1ea8d297d241c|2019-07-26|Tom Westerhout|Merge branch 'v2.1' of https://github.com/netket/netket
+cbc79b7ec73f6cc7abebf95c94b071f2649b1aee|2019-07-26|Tom Westerhout|Fixed tests
+1fefdb3c9ca620dad320d2011d142f1c6a77a1cb|2019-07-26|Giuseppe Carleo|Merge pull request #259 from netket/fix_pt_func
+c5f46fe87a27680a0d4be372fa2b46d1de17c274|2019-07-26|Tom Westerhout|Merge branch 'v2.1' of https://github.com/netket/netket
+9b7869e8814e69aa1ee10b3da180e8f5e1bd6c3b|2019-07-26|Tom Westerhout|Merge branch 'master' of https://github.com/netket/netket
+fe5146110a9b0f237d67b6faf443809bc8a112f8|2019-07-26|Tom Westerhout|ComputeSamples and LocalValues V2 became the default; Old versions are commented out and are to be removed later on; Statistics no longer use binning
+1ffd1fdc160c20a08ec7b5daf8a5fcf2d17b7f71|2019-07-25|Giuseppe Carleo|Stabilize power divergence tests
+73c3ec4577e80f8bb00bc03799e092eb99d7bf40|2019-07-25|Giuseppe Carleo|Add fisher method to combine p values in tests
+993dd5e19b6354fe7b5ce22a85ba8a9cb52df8c8|2019-07-25|Giuseppe Carleo|Increase number of samples in test
+f4aa2dbcefb9f7c329d9a2b096b195221fcb2aa5|2019-07-25|Giuseppe Carleo|Typo in pvalue condition
+976c355cacc22c13fac3af1d04f27a09b8a32fba|2019-07-25|Giuseppe Carleo|Fix parallel tempering samplers when using generic sampler functions, add more stringent sampling tests
+853e91131dc64bfe67c411e82ec8c50cb051763a|2019-07-24|Tom Westerhout|Updated AbstractSampler API
+fde5f760595b00a538da21f2af9ecbe6e89e58ae|2019-07-23|Giuseppe Carleo|Merge pull request #258 from femtobit/sr
+7519716654f20c798b34b7c86b21e8e58e3296a8|2019-07-23|Damian Hofmann|Fix bug in iterative SR solver
+3bbe89b7a38305120bed7c747416f7a88e6b2400|2019-07-23|Damian Hofmann|Add tests using the iterative solver for SR
+588d52e87aac224ddc64fffc6802c1c24164c068|2019-07-23|Giuseppe Carleo|Merge pull request #257 from femtobit/sr
+418522eef3e1af3b40bb483bd7458ea1e36eafa1|2019-07-22|Damian Hofmann|Update docs
+a14e76e801d0d3463aaa4ed90313c615b125cdd6|2019-07-22|Damian Hofmann|Add scale-invariant regularization scheme to SR
+4071736e72d01d24b01ed899560970c77310625f|2019-07-22|Damian Hofmann|Use LLT as default solver and improve backwards compatibility
+aace6bfefa51080cf5c186f43784bac298df71fd|2019-07-19|Giuseppe Carleo|Merge pull request #253 from femtobit/ed
+b2a42a0b0bbb3eadf2a28a130da2520d164d8830|2019-07-19|Damian Hofmann|Use numpy in full_ed
+990460c2a653bf46bd0dffeb2d302b8d711c41f3|2019-07-19|Tom Westerhout|Changed function names; Made MetropolisLocalV2 look more like MetropolisLocal
+362f51e78eb82ca9b6efd40805d8970025fb4912|2019-07-19|Damian Hofmann|Some cleanup
+efc421811335c752df77576d86f3d9c109407fdc|2019-07-19|Damian Hofmann|Update and extend SR docs
+6d54594f2e1c0794847bf9c5a97b996691bcf305|2019-07-19|Damian Hofmann|Split SR into header and source file
+2c7b042d8bd7d824699451b1eca85c82a8b6f108|2019-07-19|Damian Hofmann|Update example code
+dc8893cdeaeb34a1b229144d9b6239a909ded02b|2019-07-19|Damian Hofmann|Add LDLT solver to SR
+b4715be0e312b0bc15cd80ec9b34f0a63cf4ffa1|2019-07-18|Damian Hofmann|Add options to store S matrix rank or the full S matrix in SR
+c2a6b263c463e40e86d9cc99c54f0f459e45b17f|2019-07-18|Damian Hofmann|Allow to set the LSQ solver from Python in VMC
+5c38d6d1ba7dfc2765399dd899b7f2e04c3efe39|2019-07-18|Damian Hofmann|Add more LSQ solver options to SR
+01169251cd0c605f7111e11edda6aa6582687351|2019-07-18|Damian Hofmann|Refactor SR class to remove some code duplication
+ec1ac62707e9d4c3ddb41a5c645fc88bd64da9de|2019-07-16|Damian Hofmann|Add option to use BDCSVD decomposition in SR
+8ab3e89bb532d2dab25bff9a2b5f9cfb0b5378f8|2019-07-18|Damian Hofmann|Merge branch 'master' into ed
+6b3ccb8f0a8dc9031b17f209aa0de9a284631876|2019-07-18|Damian Hofmann|Merge pull request #255 from netket/cmake_module_lapacke
+5065b1c06aa2ff0955170464db39879d063bb457|2019-07-18|Giuseppe Carleo|Use already existing lapacke cmake module
+766ac8880f945e23ac875691f5592a0b1b43cedc|2019-07-18|Giuseppe Carleo|Merge branch 'master' into ed
+6f6058d1c6a29649201106cbb2a3ed5b0e2ddce2|2019-07-18|Giuseppe Carleo|Merge pull request #254 from femtobit/cmake
+e111a6c86158043c316d4be06f99d9713087661e|2019-07-16|Damian Hofmann|Fix typos in CMakeLists.txt and add FindLAPACKE
+af4034f817e0427ae532b871df678d140698d216|2019-07-18|Damian Hofmann|Remove deprecation warnings from ED convenience functions
+0bfb5f60d95e129ea9ff8830ff8d0a727eef8606|2019-07-16|Tom Westerhout|Enable Sleef again
+5c1e8b483a509ca8dba5cc7db9ebe2e1fe04e8c7|2019-07-16|Tom Westerhout|Turned tests back on
+3ed26a512abc80dda19c8705846f43281ce07e70|2019-07-16|Tom Westerhout|Fixed a typo
+9f9523268f538eb0a6d279a00f6a06e49819163e|2019-07-16|Tom Westerhout|He-he!
+86aca6fb87e200aa8472261dd2a80e56f1ebb521|2019-07-16|Tom Westerhout|Really want that stacktrace
+0ea566b2aab51d76e6e4a9e9f72b4397ae238c54|2019-07-16|Tom Westerhout|And finally...
+4492f311ee94d88e2a41fd7185ae2f71746f8c45|2019-07-16|Tom Westerhout|Okay, importing works; Let's try something more interesting
+c91f0260043f3a6586b8d23209344f9fc8bd5d96|2019-07-16|Tom Westerhout|Temporary removed unused configs in Travis CI
+1e8f777877d0d89fb4213674736b0dc60757b9b1|2019-07-16|Tom Westerhout|g++-7 was missing
+7909ca42851d5ce074af8f95e8d86ab2c6d3ab18|2019-07-15|Tom Westerhout|Installing gdb on Travis CI
+4b11977abd05dcb109bdc50a75272a3c3e8da2ee|2019-07-15|Tom Westerhout|Try generating a stack dump with Travis CI
+9b15fd82d8fd22a2cb22af7d8b51acd0978da67e|2019-07-15|Tom Westerhout|Moved ComputeSamples and related functions to vmc_sampling
+7e480c265685ef6415b2c8e8bbbb54db12cd28fa|2019-07-15|Tom Westerhout|Helper functions for checking shapes
+0183d0bfcfdb881fec0ac108c58233284d94c1ae|2019-07-15|Giuseppe Carleo|Merge pull request #250 from netket/min_mpi_version
+bb08cc6fe1ed9d1c0948da10d9c15d5183c9d88c|2019-07-15|Tom Westerhout|Some docs; Fixed adjoint vs. conjigate bug
+47d6c6f535caf46c931906ef56efa0677ff3aac2|2019-07-15|Giuseppe Carleo|Set up minimum required mpi version
+ce8edf3bda87157e59f2607a754c3cadd6a60694|2019-07-15|Tom Westerhout|Linking against libclang_rt.builtins-x86_64 (Try 1)
+bd716abe4e5568d5b986bf3b5d050f71aa28e0fd|2019-07-11|Tom Westerhout|llvm-5-dev not found
+aed551e1960a503c1be94021ce4973ba6c5bd0d1|2019-07-11|Tom Westerhout|Maybe we should link against clang_rt.builtins-x86_64?
+391fbae3d1fb40a82d1340cfa625ac5d92c07334|2019-07-11|Tom Westerhout|Fixed a typo in .travis.yml
+fbd98070f560473ed028a641b45a96b47d6b2d37|2019-07-11|Tom Westerhout|Switched to clang-5.0; Increased tolerance for vmc tests; Stopped linking against libgcc and libgcc_s for clang builds
+c97c259325116384d462172926fab3c2754acef9|2019-07-10|Tom Westerhout|clang-4.0 also has trouble with __cpu_model
+5c5a8f82189f4c3fb05ced5f2ddd6cb817d35d74|2019-07-10|Tom Westerhout|Fixed a typo in CMakeLists
+6396d61fd453c9cb778a33cb530b735dfe637662|2019-07-10|Tom Westerhout|Workaround for gcc-5 missing __cpu_model
+e1a49ac550f65c51a1e5d32955b252b3252d451e|2019-07-10|Tom Westerhout|Code clean-up; Fixed InitRandomParameters bug; Fixed tests
+1bc43734086b3637415ad0b015ed3ab0f526c7ea|2019-07-10|Tom Westerhout|Let's try branching, because older compilers don't support function multiversioning
+85b770d3039c0eddfe9361c3d9b6b765101e1a44|2019-07-10|Tom Westerhout|Buggy C++11 :(
+01a411620a470d92c7f6b5c7d27610534b71213e|2019-07-09|Tom Westerhout|log_cosh depends on eigen_project and sleef_project
+d343e5281b6f5944ec55bf5b93eb9db6d85359bc|2019-07-09|Tom Westerhout|Fixed a bug in computation of gradients
+67854db17e31bbfef637a9831d9bb6918a813ed2|2019-07-09|Tom Westerhout|Use function multiversioning instead of -march=native for better portability
+5b280264b5c75c264be8198874d4b5e23a24e0f7|2019-07-09|Tom Westerhout|Fixed linker errors
+035d85fa24cfeb01176f9740f1db5aba28fcf8a5|2019-07-09|Tom Westerhout|Fixed computation of gradients
+e893b3ba788677ccaed16cf4a8d1d5c177a59c9a|2019-07-09|Tom Westerhout|Fixed StateDict to return references instead of copies
+54db1953c190323b9a9f1e935c8173ffb1c42b82|2019-07-09|Tom Westerhout|Python wrappers for SR
+d39baeb227a363a8af8feee9d578d751122ec2bd|2019-07-08|Tom Westerhout|Implemented Save and Load; Clean-up the code a bit
+7098a2a3a5efd0aae4be8e039bb7fe417d5e5fc9|2019-07-08|Tom Westerhout|Help Ninja find sleef
+642649fd79c84b9e4bc0c89abe5741921e71f088|2019-07-08|Tom Westerhout|Added dependency on sleef
+27edee0838cd9a48088c9114511ebd306ab923b3|2019-07-08|Tom Westerhout|Fixed tests
+0bea1f4868869b7132d8d47eebcdd9da617d6d65|2019-07-08|Tom Westerhout|Removed debugging output; Added some docs
+5a62dfc38792fa770a1c448a8629a31403f48c60|2019-07-08|Tom Westerhout|Added a possibillity to extract the samples from _VmcResult
+6036eba68db65a1a798db772b3cb8f7f27b46c4d|2019-07-05|Tom Westerhout|Temp save before a long weekend :)
+c404e13c737d3c99dd1897c1f49fdddd69d2609a|2019-07-03|Tom Westerhout|Fixed order of arguments
+2e88edffcf29728da976141812d53f3817977d98|2019-07-02|Tom Westerhout|A hack to preserve backward compatibility
+c3de619200828ba25cccf6c5e2885dded9ee72b6|2019-07-02|Tom Westerhout|Made samplers use the new interface for caches
+4f82e6db30ff6b8c2e3d861d963c4dd70a203d39|2019-07-02|Tom Westerhout|Merge branch 'master' of https://github.com/netket/netket
+bf1630668f69cdafe7879a65b98a83693454984f|2019-07-02|Tom Westerhout|Convinced other machines to use any instead of Lookup<Complex> in their public interfaces
+e5c9f5a79697d06990f7405677ff511e74a9b2c2|2019-07-02|Giuseppe Carleo|Merge pull request #240 from netket/sampler_sweep_size_odd
+f02c58dd48dfa9e68093fe721dc6db78278cb140|2019-07-02|Tom Westerhout|made LookupType an internal thing for JastrowSymm and MPSPeriodic
+9632a1b8a0f5524e27f22d2f2602c7466a2907a1|2019-07-02|Tom Westerhout|made LookupType an internal thing for Jastrow
+84b4ceaad47b7148d32c8bc9e7751e772bcc7b7e|2019-07-02|Tom Westerhout|made LookupType an internal thing for FFNN
+6d6a9a00eb06cba29b95ce41c141a37cad50a9f2|2019-07-02|Giuseppe Carleo|Better error messages
+d4554b8b376ef957f91b5effa8c974cf2462ddc3|2019-07-02|Tom Westerhout|Reverted state_dict changes; made LookupType an internal thing for RbmSpin
+cceeb08d7b35a57194db160d5fa2bee97b798ea8|2019-07-02|Giuseppe Carleo|Fix SetSweepSize
+4719fe12e418e1a548cf2493f09494d68a7cf1f2|2019-07-02|Tom Westerhout|Using any as cache type; InitRandomParameters is now implemented in AbstractMachine
+08145eb6327b1336cf1128a783fced8b06f6f156|2019-07-02|Tom Westerhout|MPIError exception type
+d9971f3d42408556f41ee2cc9bfc6bf7ac742041|2019-07-02|Giuseppe Carleo|revert test_sampler explicit call
+92ccbc09a71a1dbee94315944ff36b30811b61dc|2019-07-02|Giuseppe Carleo|Merge branch 'master' into sampler_sweep_size_odd
+94986bd7085a06047b8dac99431625b1ab0821e1|2019-07-02|Giuseppe Carleo|Change sweep size to be odd by default
+52689ca344bceab70a51e47a0fc0381be101db5e|2019-07-02|Tom Westerhout|linb::any wrapper
+6eb78114702c8ceb4cca8a18cce6922b367f46d5|2019-07-02|Tom Westerhout|Add dependency on a C++11 backport of std::any; A draft of batched interface for AbstractMachine
+c46ee789375a47835d56b21d4880878473d1c79b|2019-07-01|Tom Westerhout|Adaptable batch_size for RbmSpinV2
+a4cbd31c6b485b8acd4bdca280257d7debbdc0f9|2019-07-01|Tom Westerhout|Split RbmSpinV2 into header and source files
+e479247274db322678eb97ba67aa38f360210350|2019-07-01|Tom Westerhout|Finished implementing batched MetropolisLocal
+499b7fef5a90a502d4a2ecf25fd43589239d2c7a|2019-06-29|Tom Westerhout|Implementation of ComputeSamples
+0a4813db8fffeab023ec11e98fdca9f3dacaec83|2019-06-27|Tom Westerhout|SIMD-based implementation of LogCosh which leads to ~8 times speed-up of LogVal
+d43e7bf71a7e7fbb434dd96a8040f556d3bbb018|2019-06-27|Tom Westerhout|Batched RBM
+d6481978a2ef192836ec86741fc23a5a45ebc190|2019-06-26|Giuseppe Carleo|Merge pull request #238 from netket/setup_requirements
+390926772c7b3891c5d9937c57d90a18211b5cc4|2019-06-26|Giuseppe Carleo|Fix derivatives in PyRbm
+da36a40fcbdc1a15fbc2d0ad41ec554e26aba089|2019-06-25|Tom Westerhout|Initial version of the Flipper
+5d27b3ae2038a62fca2a1c5aa4e5fc831671ed62|2019-06-25|Giuseppe Carleo|Use scipy and numpy versions still compatible with python 2
+7cd4523fda0f49f6c70e2437fbacb734a3f23e87|2019-06-25|Tom Westerhout|Merge branch 'master' of https://github.com/netket/netket
+e55b1139787124c8639912dfd3676ade42f7403f|2019-06-25|Giuseppe Carleo|Add requirements to setup.py and change ED example to use scipy
+57addb83de56538f11d754b8876407035763f8f0|2019-06-24|Tom Westerhout|Proof of concept implementation of `save` and `load` for spin RBM in terms of `state_dict` and `load_state_dict`
+b293c2703b7fc0f18d748d6f81f07f3db691e9c9|2019-06-24|Giuseppe Carleo|Merge pull request #236 from femtobit/time-evolution
+8fdfc840aec4596b4725b93c52efa6bb2927a309|2019-06-23|Damian Hofmann|Rename create_timestepper to timestepper
+97b3586081790299c05754a55922dd509cb66ae7|2019-06-21|Damian Hofmann|Fix dynamics test
+93363c962876aa0f895c52c89d83233e54de69f4|2019-06-21|Damian Hofmann|Add option to get unnormalized wavefunction from machine.to_array()
+31666921ecac902e890feffadcebb3493de2d8dc|2019-06-21|Damian Hofmann|Keep alive the time stepper (fixes #234)
+0785b3e366f6ae8cf731257aa205017712cef318|2019-06-20|Damian Hofmann|Add test comparing exact time evolution to SciPy
+bf21009a5cabad9cdefc1fa7c006ea8ccdf08157|2019-06-20|Damian Hofmann|Improve ExactTimePropagation interface
+1f8aa79bb6beddd69b70a6f4bda2187cac729882|2019-06-19|Damian Hofmann|Add option for exact real-time propagation
+dc7f3575c8adc35be1411650913c848ac18cc8fe|2019-06-21|Damian Hofmann|Fix typo in docs
+7f2c624615909cee61df96a15cd78576e939ac72|2019-06-18|Damian Hofmann|Minor documentation changes
+fcb720e8998d254fc411518caf232e7f9afeef4d|2019-06-18|Damian Hofmann|Change AbstractHilbert::UpdateConf to take `span`s as arguments
+2bac9fd8ea12b5e0554852fe420de6495455b4a5|2019-06-21|Giuseppe Carleo|Merge pull request #233 from netket/upgrade_dep
+5bf3ebba34b2d83b2e5f5d9d24ba304363f56a3d|2019-06-21|Giuseppe Carleo|Upgrade external dependencies
+006dc7bafb56a76993c228f837af7d16ba5c8258|2019-06-20|Tom Westerhout|Merge pull request #232 from twesterhout/goodbye-ietl
+6f24b67ce095363f979cbaf37c72ee53621e2321|2019-06-20|Tom Westerhout|Moved deprecation decorator to netket._core; Rephrased brief function descriptions
+a52506923c239a07fab7da891556e7623bac9acd|2019-06-20|Tom Westerhout|Switch to CSR for to_sparse; Add a comment re performance of ARPACK
+87cda7f4f041e3d096198abc6f45749364ad8996|2019-06-20|Tom Westerhout|Merge branch 'master' of https://github.com/netket/netket into goodbye-ietl
+59c8fc76dbbe08f8508460561a85d6aed4f163ad|2019-06-20|Tom Westerhout|Add SciPy to Travis CI build configuration
+f0a574fee869b852cc425f72ac52975060d55876|2019-06-20|Giuseppe Carleo|Merge pull request #227 from twesterhout/openmp
+09f00b525a6262849a77429f1318f03232bd2725|2019-06-19|Tom Westerhout|Remove exact_diagonalization.hpp
+7c8b0fa68eedc9b99649a7e5dafb09f14536b50a|2019-06-19|Tom Westerhout|Remove IETL from the codebase
+f26279387e49c48128833a552599c5be95377994|2019-06-19|Tom Westerhout|Merge branch 'master' of https://github.com/netket/netket into goodbye-ietl
+e664d2c0f6f0ba0f1dc4ba9ccf47b0e29bb608c6|2019-06-19|Tom Westerhout|ED in Python
+ad7c8f0e509793e2369627fcef36fb21065831b2|2019-06-19|Tom Westerhout|Merge branch 'master' into openmp
+0022c4deb990590ed36941a4e09bfc437123ec01|2019-06-19|Damian Hofmann|Merge pull request #229 from twesterhout/say-no-to-matrix-wrappers
+895fd3dedabfca7fb522cb25c716581e6a4175b1|2019-06-19|Tom Westerhout|Merge branch 'master' of https://github.com/netket/netket into say-no-to-matrix-wrappers
+dcf46caab521bf0c683c5696fb0fe9431bcea89a|2019-06-19|Tom Westerhout|Address @gcarleo's feedback
+1fe6c6eb0a5378516cc84f0609f03bcb9dac0e7d|2019-06-19|Giuseppe Carleo|Merge pull request #230 from kchoo1118/master
+1fb16405568525839dd8cb5cfddf2330bdd26488|2019-06-19|Tom Westerhout|std::tuple's constructor is explicit...
+5fd465eb77758138d8becef74a095861d5e3f71c|2019-06-19|Tom Westerhout|Addressing feedback
+2b68765cd31773648ebaed658c968079169a2c19|2019-06-19|kenny_choo|add qst tutorial
+4a2198d26a4e28c17444a5ea33c5c16ad041a8b7|2019-06-18|Tom Westerhout|Regenerated the documentation
+dec5dcea537682fbaf353aa4f37d8134cd278696|2019-06-18|Tom Westerhout|Remove MatrixWrapper's
+43ad7c5ee8e44168e40a03f7ddf8025cce53b77c|2019-06-18|Tom Westerhout|Make ED code work again
+16cbc9e84e1f567ad716757f072e57394552de0f|2019-06-17|Tom Westerhout|First step in getting rid of various MatrixWrappers
+b90fedbc7e7997bcba41e066a6b5a45061b97f22|2019-06-17|Tom Westerhout|Let's try PyTorch's FindOpenMP.cmake
+0ffeb4ab4d3f4e88454edf782529f3faa1572b6a|2019-06-17|Tom Westerhout|Merge pull request #221 from netket/PhilipVinc/clang-format
+ec48cc473eb518bcd220171009f1c03fecd99484|2019-06-17|Filippo Vicentini|Merge branch 'master' into PhilipVinc/clang-format
+48249899466ccde9bddd3a51e0562f7909dbaf5d|2019-06-17|Filippo Vicentini|dump the `google` style
+e18dd0e1c5c757f1902e1054abf348a897d4eb4c|2019-06-16|Giuseppe Carleo|Merge pull request #223 from twesterhout/issue_113
+30faaf4b2c5082df0f9dc69af5eb9415e0326c51|2019-06-15|Tom Westerhout|Use -O2 for Clang builds
+f860a7298e089590941807202b1af1614d050a64|2019-06-14|Tom Westerhout|Refactoring CMakeFiles.txt and .travis.yml
+32128c4e0ad4dc62a527727f01994b813a353031|2019-06-14|Tom Westerhout|Start using Ninja by default if it's available on the system
+c9ba3fc0cd80995a738150920d986e4ea03e12c6|2019-06-14|Giuseppe Carleo|Merge pull request #218 from femtobit/vmc-sampling
+e7e13cd56b0111417b05066dd6f3647423369f07|2019-06-14|Damian Hofmann|Fix NdmSpinPhase doctest
+9545523dd21c10a09b2bd8714835489f792783f0|2019-06-14|Damian Hofmann|Update docs
+a9f5cf23ee3de4ce9fe539426cf3a2db358d84fc|2019-06-14|Damian Hofmann|Update examples in docs
+c0b2a5cefac0ab4c70fdf736f080e6394c1a36b4|2019-06-14|Damian Hofmann|Sort source file lines in CMakeLists.txt (reduces merge conflicts)
+dd4606cb502bd4d4c0fe8d1ad108ab0d235fcb68|2019-06-14|Damian Hofmann|Merge remote-tracking branch 'origin/master' into vmc-sampling
+877f3906b50bc63cfda7f135bafa65e9d315f0d2|2019-06-14|Damian Hofmann|Add static_cast<py::object>
+ae8f63f298a4fb1eb058c9e39ac503f5bc7dbcf1|2019-06-14|Giuseppe Carleo|Merge pull request #219 from twesterhout/pytorch
+15648562dbbb6b5b08a097aa5aa0c9249049edb6|2019-06-14|Filippo Vicentini|Add .clang-format file
+12b8e68abf931c9ef44d078ac9bbd924b769c293|2019-06-14|Damian Hofmann|Move VMC code to Sampler/ directory
+a717c69b66df4852188ef6e002a40006fcff6d9f|2019-06-13|Damian Hofmann|Make computation of log-derivatives optional (and fix docs)
+524d60150021539b7a6dd2d604d789c001ad259d|2019-06-13|Tom Westerhout|Move ShouldNotThrow to detail
+da244102413f5d28d99dec06915aab42c1190372|2019-06-13|Tom Westerhout|Changes requested by @femtobit and @gcarleo during review
+5bd0511936b5ec05847d552fe6585f471b7d0955|2019-06-13|Damian Hofmann|Correct and extend docs
+6da44a050e8c5a14a74e14b9631a96428e3f5862|2019-06-13|Tom Westerhout|Bump copyright year and make PyRbm faster before benchmarking :D
+58cbcf7a670311c2a5c6cdb02e3384d0fb0161c3|2019-06-13|Damian Hofmann|Add documentation to Python VMC functions
+a1fbdd5df10511181fb1a28a521a62a2ef808dd3|2019-06-13|Damian Hofmann|Increase test tolerance to prevent failure in one CI config
+db2291b7c5653298818f3bc9ccb33e8f90f236d3|2019-06-13|Tom Westerhout|Double underscores... Grrr
+d2cccace311e1aab65a65cea7691a19e9671181d|2019-06-13|Tom Westerhout|Code clean-up
+0364e0fffa5b108e6f1692215ecf8f14c2fd4b81|2019-06-13|Tom Westerhout|Add license headers
+3f0a0856cfc63ae87360f94f1d08189cb958334b|2019-06-13|Tom Westerhout|Merge branch 'master' of https://github.com/netket/netket into pytorch
+17aa60c2f0e8e78969c0b073d80b905a9243f890|2019-06-13|Tom Westerhout|Remove to_json and from_json methods in favour of Save and Load; Added trampoline class to subclass Machine from Python; Added a proof-of-concept implementation of complex-valued RBM in Python
+5500ea18158e69ac03c48b785eaf1df70293efd2|2019-06-13|Tom Westerhout|Temporary saving before merging master
+b0216926babb458a625f6b731fe366df13b986bf|2019-06-13|Damian Hofmann|Add test for VMC functions
+8c198696b6c94bcd72ca5d4deee35df700bb254e|2019-06-13|Tom Westerhout|WriteJsonToFile utility for later implementation of the 'Save' method
+7e4e4f2a316fa40b8b32551dc99efe43bdcb790c|2019-06-12|Damian Hofmann|Extend Python VMC interface
+326832b397fb3fce705065617d8ebbe2651b6c83|2019-06-12|Damian Hofmann|Refactor and rename VMC functions
+86895f3d317209c7282286a7214e8990a4be7a39|2019-06-12|Damian Hofmann|Add Python interface for new VMC methods
+3aa235c59e55f4d02006d2ea84a819163a520012|2019-06-12|Damian Hofmann|Remove includes that are no longer needed
+16b7852f53f9e019828094951b6dd5997d2a3dd5|2019-06-12|Damian Hofmann|Make VariationalMonteCarlo driver class use the new VMC functions
+0ba41036d6559c98a534c6a8fa80e3e6d7d0c0fd|2019-06-12|Damian Hofmann|Rename VMC methods for conciseness
+0d57d93d33bc982c9e4e0fb1615b230898d5382e|2019-06-12|Damian Hofmann|Make vmc::Result move-only and add default constructor
+cbba019ed29e233a8ff32067b49bc8f50d2a9d9d|2019-06-12|Damian Hofmann|Add functions to compute the (approximate) gradient of the variance
+40dc6cb9427d55f45b2272f06df65b3f3e84b425|2019-06-12|Damian Hofmann|Pass vmc::Result by reference
+4f01fc27bedf00982464c7ce7e4960afdc44d9fa|2019-06-12|Damian Hofmann|Make AbstractSampler::Visible return a const reference
+99c25950cb457b2c764575c9fae3bfeef3b145dc|2019-06-11|Damian Hofmann|Add VMC functions separate from the driver class
+627b0c2e43d05b742021fd29bf6ca845d812ed39|2019-06-11|Damian Hofmann|Reformat stopwatch.hpp and change clock type
+1fc0ebfd190de499d28fd56d824da144e278e91a|2019-06-11|Giuseppe Carleo|Merge pull request #215 from netket/sampler_docs
+c4c88c8c76d541f0b95af8470a83420d4046f1d7|2019-06-11|Giuseppe Carleo|Update sampler docs
+5d695de37a7dec93436604bcac56dee261e7090b|2019-06-11|Tom Westerhout|Merge pull request #207 from netket/fix_206
+6da8fd55d42b4d3562f4c65eba787186e2d6b55f|2019-06-11|Damian Hofmann|Merge remote-tracking branch 'origin/fix_206' into fix_206
+e74e4b9f4678c48f9ca0bd39d133880895fa010d|2019-06-11|Damian Hofmann|Fix issues from merge
+dc190dc0de80202c6a3593f3bf1a7a0b0db0cfed|2019-06-11|Damian Hofmann|Merge remote-tracking branch 'origin/master' into fix_206
+e25df6d57b1a143a9b731a688ceee1c6b465a6da|2019-06-11|Damian Hofmann|Fix error in DiagonalDensityMatrix
+f0852c657d7a5a2854477ce7027826ba2959e89c|2019-06-11|Damian Hofmann|Remove header and add noexcept
+c93fd260cda1201215b8facba97c5a3a07458b78|2019-06-10|Giuseppe Carleo|Merge pull request #212 from netket/issue_202
+e706ae82b5ed2dbfc4cfbdebff3954594e05e77d|2019-06-10|Giuseppe Carleo|Merge branch 'master' into fix_206
+e7accf4d546a2894a3dddeedc3b3bb7b50fffcf2|2019-06-10|Giuseppe Carleo|Merge branch 'master' into issue_202
+87fa10c078cffb4f29cc1782e90dadc83101905b|2019-06-10|Tom Westerhout|Merge pull request #214 from twesterhout/issue_205
+0ebb170057f5fa438f545fc032720a28eecc3f73|2019-06-10|Giuseppe Carleo|Merge branch 'issue_202' of https://github.com/netket/netket into issue_202
+7e30eef4cd9012345f71537460b479b7158fa433|2019-06-10|Giuseppe Carleo|Fix test_hilbert_index
+0840be480a041d9dbe34875c7c8329bcb390d08e|2019-06-10|Damian Hofmann|Remove ununsed constructor
+a499e7c3058f2af32ee13ef6026b975ce4ad688e|2019-06-10|Damian Hofmann|Remove SetHilbert
+218aab4cd8de7fd45361cc1e52663b42230eb95e|2019-06-10|Damian Hofmann|Remove Clone methods from Hilbert
+c4d4cc077e5883fa3861792db7f86aa1b5fa74af|2019-06-10|Damian Hofmann|Split GetHilbert and GetHilbertShared
+1b7960897803208bde17f7b5cff552b6923358b6|2019-06-09|Damian Hofmann|Pass Hilbert object around without cloning using shared_ptr
+914c63ce3795234da974b1da6e0caf96634e7c51|2019-06-08|Giuseppe Carleo|Add missing memory header
+a321646b1a0a35de52721b3aeb0b21c5b857e39d|2019-06-08|Giuseppe Carleo|Store Hilbert in Machine as shared_ptr
+c4ad2a617224d2e0910b0ade5113d7eec41ba9be|2019-06-08|Giuseppe Carleo|Fix issue #206 storing Hilbert as shared_ptr in Operator
+17d89e81f086b218d6d91098e95d83faa05a5a68|2019-06-10|Tom Westerhout|Merge branch 'master' of https://github.com/netket/netket into issue_205
+97c7ff8f9d6a93324c08fd647526b6e939e68032|2019-06-10|Giuseppe Carleo|Merge branch 'master' into issue_202
+05f016c07f683d3b03f409429d2ba5d3f9acf907|2019-06-10|Giuseppe Carleo|Remove Ising and Heisenberg from C++ sources and move them to Python
+01a75d39a1575cc8a5dad43790f41a72df276a01|2019-06-10|Tom Westerhout|So that's why we're missing symbols!
+9fcca342312832ac4ef9e5d0c675e23791770e31|2019-06-10|Tom Westerhout|Fixing #include's, part 2
+ca51f52230993b96da9f63890671c0f2ee6db2d8|2019-06-10|Damian Hofmann|Merge pull request #211 from netket/issue_199
+51591b8633980fb6438d8144f87a039babb3b6ae|2019-06-10|Tom Westerhout|Fixing #include's
+59822e5d41b9262a3bd7e9bc264940df5d92687a|2019-06-10|Tom Westerhout|Hiding MPIInitializer; Optimized away extra memory allocation in array_utils.hpp; Separate compilation for Utils; Fixed #205
+021be7a382e66cc3cc93e5b50d139046f1e47923|2019-06-10|Giuseppe Carleo|Remove Qubit from c++ library and move it to pure Python
+9e889d3aec282f8d133c470705eedd616dbb2100|2019-06-10|Giuseppe Carleo|Merge pull request #209 from twesterhout/issue_192
+72839e73c1ff6bba7a13ee6566d638410a26f961|2019-06-09|Tom Westerhout|Merge branch 'master' of https://github.com/netket/netket into issue_192
+fe0eb18ab36ac2d2ce9b3451c9702b68b090941b|2019-06-09|Tom Westerhout|Missing include on OS X
+e991411f753cea82f6c14aa0a2a84c851d000760|2019-06-08|Tom Westerhout|Switch to Ubuntu 16.04 since Open MPI on 14.04 is very old
+b8cad73e5386256b70c043453fde0490ff55e57e|2019-06-08|Tom Westerhout|Add Open MPI to Travis CI config
+173bab55b6870c3ee59adc76a610faee383c67a2|2019-06-08|Tom Westerhout|Need to load libmpi.so.20 rather than libmpi.so
+2dc6df85bebad0aaccce6b17f6ae448da7c0d230|2019-06-08|Tom Westerhout|Try pre-loading libmpi.so when Open MPI is used on Linux; The goal is to fix #192
+ecc8b105714efa5d1a42de2fd56a4b7a518add49|2019-06-08|Giuseppe Carleo|Merge pull request #203 from PhilipVinc/master
+da4965d329354fa86c4d656ba4a93a6538f465f5|2019-06-08|Filippo Vicentini|Merge branch 'master' into master
+fa914026bcefa8add31f74cfc4a91f5db75bc803|2019-06-07|Giuseppe Carleo|Merge pull request #204 from twesterhout/separate_compilation
+81de6a810ca174f3ae404c642d8f0765d1e7b52e|2019-06-07|Tom Westerhout|Remove redundant virtual as per Google Style Guide; thanks Damian
+aa2326e5398d9d5efdaa98bb1ef32fd7bc1618aa|2019-06-07|Tom Westerhout|Remove config.hpp; It was a by-product of a design I had in mind, but then decided to take a different path
+8057750be846acdb71c84ccfa3f5a7d2e559c604|2019-06-07|Tom Westerhout|Add virtual keywork to methods in lattice
+2d4866ebc3619c91c9f8348fbeabc51f7f2f4fc3|2019-06-07|Tom Westerhout|Split py_machine into header and source files; Fixed compilation errors in FFNN and DensityMatrices
+66ec443c41b762616d79c252ae6d411adb474cbe|2019-06-07|Tom Westerhout|Split jastrow, jastrow_symm, mps_periodic, and rbm_spin_symm into header and source files
+f9d51a1dad1e1cbc850f0aaf09513c84e8469c9d|2019-06-07|Filippo Vicentini|Fix tests
+87eb6e94dbe722f7a60967ce7f5ec61d88a97ba7|2019-06-07|Filippo Vicentini|Wrap `Transpose` as `transpose` and `Conjugate` as `conjugate` in python + tests
+cff3e00d4a18735397639eec460c0e278deb937f|2019-06-07|Filippo Vicentini|Add `Transpose` and `Conjugate` operations on `LocalOperator`
+94ba32c54a2bec3c3acb8c65aa4f199c1a2cfb8f|2019-06-06|Tom Westerhout|Split rbm_spin_real into header and source files
+0d2b47041fa7c592e1f509d3d82a3c7ff6fadba5|2019-06-06|Tom Westerhout|Split rbm_spin_phase into header and source files
+3404a9da348afeec1659c52e96e9d082a7a638de|2019-06-06|Tom Westerhout|Merge branch 'master' of https://github.com/netket/netket into separate_compilation
+ac28fc92b368b7581342d71031168feb8c8104d5|2019-06-06|Tom Westerhout|Split rbm_spin and rbm_multival into header and source files
+0c2c27ac7fdb313ec1311788456e8e432dd5282f|2019-06-06|Giuseppe Carleo|Merge pull request #200 from femtobit/iterator
+62cb60ce672f562b0d46fdc919a223139e25152f|2019-06-06|Damian Hofmann|Move QST iterator to Python
+9f6bfed55f2f74a8161bc092b4f7eb0a43f3ccc1|2019-06-06|Damian Hofmann|Merge branch 'master' into iterator
+6f2f0645ec76f2aaabe394eafd23721d4f5033e2|2019-06-06|Damian Hofmann|Fix imaginary time propagation
+5ab7d3abffa1d6b55deaa11144aef001fd8d05db|2019-06-06|Tom Westerhout|Use ExternalProject_Add for json; This allows us to use json_fwd.hpp instead of the template-heavy json.hpp; Split abstract_machine into header and source files
+eec1e782deb2c7fc5087bf183d7aef093a8ad8f2|2019-06-06|Tom Westerhout|Fixed includes in math_helpers.hpp
+2435f988904a6e2cfe8877a95d2c0012e2033e3f|2019-06-06|Giuseppe Carleo|Merge pull request #189 from PhilipVinc/philipvinc/densitymatrix
+d5fcb8d80355c02bab17df5dfefbc86a465f343f|2019-06-06|Filippo Vicentini|add `to_matrix` method
+52d36157b5b65ce04b50429c9ba0e073d50f9f32|2019-06-06|Filippo Vicentini|fix indent in tests
+ec5c4c672dabc547adadba8e0b4baa0d0b51fe11|2019-06-06|Filippo Vicentini|Implement Density Matrix and it's tests
+743a041f860b3c8ef8023eefabec667a9c2554c4|2019-06-05|Damian Hofmann|Merge pull request #196 from netket/warnings
+9426d61f0f1217cd6e1e08abb647f76680bbeef8|2019-06-05|Tom Westerhout|Merge master; Resolving conflicts due to renaming of NetKet into Sources
+575daa2bbde78ad1c35cd90fb29930d4fef33581|2019-06-05|Tom Westerhout|Split hilbert into header and source files
+9c2c56f98cd6a1e08fb582112ad883fdcbf96f48|2019-06-05|Damian Hofmann|Merge branch 'master' into warnings
+f754dd5822dddca716b1f50126762a099de4b4d3|2019-06-05|Damian Hofmann|Move implementation of .iter methods on driver classes to Python
+600e66566ba6fd58f718b7112090008aec040635|2019-06-05|Tom Westerhout|Split custom_hilbert into header and source files
+c7dd9300a1fba6f3e413b751192907488dd56536|2019-06-05|Tom Westerhout|Merge pull request #198 from netket/iterator
+36af2b7acfa25a4e125f9840bb670113e9c108e1|2019-06-05|Tom Westerhout|Split qubits into header and source files
+13bfd89cf495a042304f2599b3dddf9e87bcd70d|2019-06-05|Tom Westerhout|Simplified Spin::Init
+a72043ddcd64b5276d3c051d634e51c7d1a9c67d|2019-06-05|Tom Westerhout|Split spins into header and source files
+d65017a68e6160cac767d458f523b1c983ae6e4c|2019-06-05|Damian Hofmann|Fix compilation warnings
+7b8bd852b78a164e1b66663dae15d3c40562b879|2019-06-05|Damian Hofmann|Rename StateIterator to StateGenerator and remove some iterator-specific information
+57f337c15376b9fb96406d1e630dcc56c0efee4e|2019-06-05|Giuseppe Carleo|Merge pull request #197 from netket/sources-dir
+4ad529dc5d08408f5b431e0bb3cdcfec0d39d5f2|2019-06-05|Tom Westerhout|WIP: Split hilbert
+ab0e64f9a55f8a0aee768d234e830feca6cf0482|2019-06-05|Damian Hofmann|Rename C++ sources directory from NetKet to Sources
+1495f4d6a77cee24e3d7f094bea981053ae5cdc2|2019-06-04|Tom Westerhout|Split py_graph into header and source files; config.hpp may be removed in the future
+baf4d1dbf3f46367b94b3f6fec7a512c37d00c3f|2019-06-04|Tom Westerhout|Split abstract_graph into header and source files
+3c91432d0a59eff09193086b19bfaac19f54dc14|2019-06-04|Tom Westerhout|Split custom_graph into header and source files
+9c8ed80071e93f33159923bb14c5abd83ad26e6e|2019-06-04|Tom Westerhout|Merge pull request #193 from twesterhout/split_netket
+38af60438af23ff3f09116cf7f2bdb20082b94b3|2019-06-04|Tom Westerhout|Split lattice into header and source files
+f476358b295ea41128bf3246f996467129878a1b|2019-06-04|Tom Westerhout|Prettier formatting
+4b04db3c55a272854a6cb56031ada449bd8e5cf2|2019-06-04|Tom Westerhout|Split hypercube into header and source files
+65f8f0c23cddf1abf7c808b1da4b37c8c06539a1|2019-06-04|Tom Westerhout|Revert formatting changes due to wrong clang-format configuration on my side
+7cfdf095f4b4b41458be86fd5727c2b4414a0dae|2019-06-04|Tom Westerhout|Split py_dynamics.hpp into header and source files
+088071fe59af5538b4762fe977fbfc9de6ffc962|2019-06-04|Tom Westerhout|Created dummy python files to keep the 'module' structure backward compatible
+016df72dc529b0a59830a4cfdd848054f02348a6|2019-06-04|Tom Westerhout|Local imports are overriding global ones; Let's try to fix that
+d4478489594c140b3f0b76fc54d1525a81a2b55f|2019-06-04|Tom Westerhout|Python2 has trouble with relative imports
+8299d07809f1750e49f722c88c12d877ec87787c|2019-06-04|Tom Westerhout|Ran Black on setup.py
+2a5de45378adb8359a1daeba4b869deb736652b2|2019-06-04|Tom Westerhout|Make netket a Python package instead of a C++ extension module; C++ code is now compiled into a separate submodule which gets loaded by the main module
+08698782701ca90aa382b79f8c6d6a2dbd06b589|2019-06-04|Tom Westerhout|Ran clang-format on pynetket.cc; clang-format statements are there to prevent reordering of includes which breaks the build (see #192)
+c8253c114020753203c96f65b42fa1b9d35b5508|2019-06-03|Giuseppe Carleo|Merge pull request #190 from femtobit/black
+f6a1bf47913ceff1e7eac5c97745c223793426c3|2019-05-27|Damian Hofmann|Reword changes to CONTRIBUTING.md
+f0b99164389c8313a0d295feb4be920014520b64|2019-05-22|Damian Hofmann|Reformat Python code using black
+80ab8ffdcbf58bd31f470dc857b8ff4750aa83de|2019-05-20|Damian Hofmann|Add section on black code formatter to CONTRIBUTING.md
+5bd4b52acd09e228d556855c30dfc64184532b59|2019-05-21|Giacomo Torlai|Merge pull request #186 from netket/improve_qst
+7c72d9190846457beb2cebfae3ffa6af287eabd5|2019-05-20|Giuseppe Carleo|Fix bug in lognorm machine
+c723755e8348326fbf1fe1954bb493b2f80255d2|2019-05-20|Giuseppe Carleo|Fix sampling test
+1ff9f2d22554249b13dd9631f017ca5e516c9463|2019-05-20|Giuseppe Carleo|Merge branch 'master' into improve_qst
+075dbc83412039ec2d545da8b613828e95db1360|2019-05-20|Giuseppe Carleo|Add log_norm to nll in qsr
+66d8d9c71add7b67dbca048fc25092427eeec7a4|2019-05-20|Giuseppe Carleo|Merge pull request #185 from netket/improve_sampler
+47f652011f19a845663c3f2ba9f8ab6e66e5d9df|2019-05-19|Giuseppe Carleo|make machine_func_ private
+3519bd3d403c2feb43cfea23d84d149e3e47c31b|2019-05-19|Giuseppe Carleo|lower epsilon tolerance in machine tests
+2cac2cf48f52bce46f5d9e3ae5cf7857ae066d79|2019-05-19|Giuseppe Carleo|remove wrapper class for MachineFunction in AbstractSampler
+22462213e8d2fb687d5c8cba1dc68c4217cca5eb|2019-05-19|Giuseppe Carleo|Merge pull request #187 from femtobit/operator
+7616f2c8ff1ae2e1c0f0737f84b58b6e4aa950ab|2019-05-18|Giuseppe Carleo|Remove numdifftools from tests
+64856e3f22bd8c9b0eb2894b8d7b83bc6a774bca|2019-05-17|Giuseppe Carleo|Fix missing virtual keyword in AbstractSampler method
+8989cff2bbd74e691ae2fe3818f596b12c7331f0|2019-05-18|Damian Hofmann|Move HilbertIndex methods to AbstractHilbert in Python interface
+32bbea89bfbaacf2fbbb8baa8c9163c6797069f5|2019-05-17|Giuseppe Carleo|Partial progress with machine_func in sampler, but still failing tests for L1 norm
+10a1711ef413e0ef6101a5842cb2e9316b413d33|2019-05-17|Damian Hofmann|Update docs
+8f22190ffb67df867be0f5f02d65788a3fcdb9b4|2019-05-17|Damian Hofmann|Add iterators for states in indexable Hilbert space
+e0624856d37dfea1afaf4d8f2492aef4ab24e299|2019-05-17|Damian Hofmann|Rename AbstractHilbert::Index to GetIndex
+a0ec16ef10b85b6b8fb467b3fae732dbc345b051|2019-05-17|Damian Hofmann|Remove call to HilbertIndex constructor
+1d147e36d848b82eefe1d8e72c8bfb37b599788f|2019-05-17|Damian Hofmann|Update docs
+8f91491b4262738ca850d772097ee49e5d589f57|2019-05-17|Damian Hofmann|Move the HilbertIndex to AbstractHilbert (if it is indexable)
+be7c59bd94d5ef7549e25d798c99d2ab17c30a2f|2019-05-16|Giuseppe Carleo|Add negative log-likelihood to quantum state reconstruction
+b171b4efee8d7fd7f71f4443ca4664de54223976|2019-05-16|Giuseppe Carleo|Update machine docs
+1bbcc3c830825980e99de0b8f54d8bd97f176637|2019-05-16|Giuseppe Carleo|Add conversion from machine to array, useful for small systems
+e41ffa5c07a6561bf7e1f68f7e52b9e735c53c23|2019-05-16|Giuseppe Carleo|Add general function to sampler
+d63cd6aaa17061f889f03e68945246af675ff543|2019-05-16|Giuseppe Carleo|Merge pull request #184 from femtobit/operator
+8fab96688ee0a47f2018a43b7e0a3bce2bbcd979|2019-05-16|Damian Hofmann|Update docs
+741392cf02544919bad0621b136af0501432747a|2019-05-16|Damian Hofmann|Implement to_dense/to_sparse and remove matrix wrappers from Python interface
+ef66a4937366d63a447f30ea217577775b072a8d|2019-05-15|Giuseppe Carleo|Update sampler docs
+e88ef8c8bb7b31b7569cb385886ed10a8bda3cf1|2019-05-15|Giuseppe Carleo|Add possibility to sample from other norms (e.g. from |Psi(x)| instead of |Psi(x)|^2)
+4b56a45e7c9dfe713fc9c98dd1089dc591e5b797|2019-05-10|Giuseppe Carleo|Add iterator to quantum state reconstruction
+7f434b3c5ee1624c6219d6558455495fc9a096a7|2019-05-08|Damian Hofmann|Improve consistency of the matrix wrapper interface in Python
+1529deefe885419122afbcfcd906e7d037bfa220|2019-05-08|Giuseppe Carleo|Merge branch 'master' into improve_qst
+81591c1ec12637eedc4c95407da8f62c095aed20|2019-05-08|Giuseppe Carleo|Merge pull request #183 from netket/derlog_updates
+31e23d7dda29956d4025fc5caefa9ac80c973613|2019-05-06|Giuseppe Carleo|Improve exactdiag example
+32af4c6db6648383790703b76d251a7416e549bc|2019-05-06|Giuseppe Carleo|Add sparse matrix wrapper in python
+1c365f2bb32d5b8b01040339876d5e9351e093ab|2019-05-03|Giuseppe Carleo|Add measurement generator for qst
+5a2ed18934329d67b10060377ede82c0b608995e|2019-05-02|Giuseppe Carleo|Add updates for O_k and variance minimization [to be improved]
+369cfc2df2bbc58c10ce2e9efd555f3202a8c43c|2019-04-28|Giuseppe Carleo|Improve example on j1 j2 with phase machine
+345115256d76efe7556d9e6d4b4dbd203f68e315|2019-04-28|Giuseppe Carleo|Derivatives of rbms with Eigen internals
+84d28b7ffe081b6125932767f34f1900b482501c|2019-04-27|Giuseppe Carleo|Use Eigen internals for Rbm derivatives and parameters
+9150f5321640d3e45d585c7924d5b4d6a56219a7|2019-04-25|Giuseppe Carleo|Remove some duplicate code for LogValDer
+6a782b8dd844ea762fca5a90ba33c7726cf4bc43|2019-04-25|Giuseppe Carleo|Add look-up table based computation of derivatives
+37b6b303fb9946bcfa7176ec09e96f194dc39770|2019-04-25|Giuseppe Carleo|Merge pull request #180 from netket/realpars
+16959b946728d718578504fa1134f13c9fe791c8|2019-04-25|Giuseppe Carleo|Merge remote-tracking branch 'upstream/master' into realpars
+0d52318d92c7ee71b0f3134dfea839101cdd1467|2019-04-25|Giuseppe Carleo|Update examples and remove old ones
+3c4222c36133772c011ea3bd8670105d5f4f826e|2019-04-25|Giuseppe Carleo|Merge pull request #181 from fabienalet/tutorials
+475c0f8152facf874091747559efcbfa8c5e64b2|2019-04-25|Fabien Alet|Merge branch 'master' into tutorials
+d7fb9406d42525a3cda34bc03837af0e63856d0d|2019-04-25|alet|Fixed typos; added comment on symmetric RBM as a ConvNet
+e25927a3d15093de387a7a5c15ead04d0f225512|2019-04-24|Giuseppe Carleo|Refactor optimizer interface to remove complexity of holomorphic updates
+d163f5ebfb313ee5fd624403cd392cdcfaf59daf|2019-02-25|alet|WIP: Heisenberg1d Tutorial
+7f4fd615db270ffb535fbab209e0793aa48f7579|2019-04-16|Giuseppe Carleo|Remove constexpr maybe causing compiling issue on some platforms
+e89de116d0adcc863a679f3b2fb4e211b95cc809|2019-04-15|Giuseppe Carleo|Add real parameters wave-functions to supervised learning and update machine tests
+48d4fe2a1d388705b1b354df73d23d0bafdc71d5|2019-04-15|Giuseppe Carleo|Non-holomorphic functions in quant state reconstruction, and fix tutorial with correct hamiltonian
+f0d3ed6e5b8736a9f84b4070e67b8e71afab3ce8|2019-04-15|Giuseppe Carleo|Merge branch 'master' into realpars
+472dbeadf40c7ddad7373cd2989c975c1a12f270|2019-04-14|Giuseppe Carleo|Add rbm in phase representation
+5740c70694fadfd249c11aff5b7ef850171b8515|2019-04-13|Giuseppe Carleo|Add real-valued RBM
+d3560033bd6940f0c0f868ffea5d577c1c5a74d0|2019-04-13|Giuseppe Carleo|Faster Sr version for holomorphic wave functions
+123e02bfda8b73b2d3add51a9189fab92c43c0f0|2019-04-13|Giuseppe Carleo|Initial rewrite/separation of SR. Needs to be further optimized
+d3bd949ea19257e2a5eb8609f2bcb93ff8e2cc84|2019-04-10|Giuseppe Carleo|Merge pull request #179 from netket/realpars
+d1901ebbc228d1e6dafa94608733b418d9d68c64|2019-04-03|Giuseppe Carleo|Merge pull request #177 from gcarleo/realpars
+5f9e3dfab29b9c728e322b8e7d66dd0cb1a86c1f|2019-04-02|Giuseppe Carleo|Merge branch 'master' of https://github.com/netket/netket into v2.0
+80c5a87765d5604723463717cb2af7c1fd008889|2019-04-02|Giuseppe Carleo|Remove templates on machine and sampler type
+d3a6a3619f540a70a25a18eb88ff83b54c1f9849|2019-03-18|Giuseppe Carleo|Merge pull request #175 from jamesETsmith/mybinder
+c96a03f66956da4577f49ed495594491d1a40b59|2019-03-18|jamesETsmith|Updating binder badge to point to a binder for the master branch of the netket repo.
+6eff680100f06b4d51d1e1fabf5963ccdc5ef6a5|2019-03-15|jamesETsmith|Removing mpi4py from supervised.ipynb
+f318f7a1753873d95b4646806c7d607bd2ab5d8f|2019-03-15|jamesETsmith|Merge branch 'mybinder' of https://github.com/jamesETsmith/netket into mybinder
+a0690914d46f9c24afa6aff57416a6554540750b|2019-03-15|jamesETsmith|Adding CMake to  env file.
+3575affcedc2468373aa6e07fac3d390634c5d7c|2019-03-14|James E T Smith|Merge branch 'master' into mybinder
+14365284ccffe9aabc20810a190ea4c979f16e75|2019-03-14|jamesETsmith|Merge branch 'master' of https://github.com/netket/netket into mybinder
+99e7d7bd559a930b97c9811f901edf365de689db|2019-02-25|alet|Small modifications to CustomHamiltonian tutorial (mostly typos)
+5af8d644998cd433ab3048c627d60226e9bf1963|2019-02-22|Giuseppe Carleo|Merge pull request #172 from netket/fix_PypI
+203f8a5a4e4cafd7ec24be11658e5dcce4fca84d|2019-02-22|Giuseppe Carleo|Merge branch 'fix_PypI' of https://github.com/netket/netket into fix_PypI
+1a19c3bc591e3d1325a2b0604d4476b037aa43e5|2019-02-22|Giuseppe Carleo|Add README to MANIFEST, change required numpy version
+a12426aba8a822525c553404c4fd1c5f07c7a794|2019-02-22|Giuseppe Carleo|Merge branch 'master' into fix_PypI
+bad75fb56a6fed29574af117e0d7e1037adcb959|2019-02-22|Giuseppe Carleo|Add manifest and requirements to fix PipI shipping
+6ca94a5237221adda799d64a650139f762d104a6|2019-02-22|Giuseppe Carleo|Merge pull request #171 from martamau/v2.0
+07df4ccbe1a1dd8cd6feeaf72fdaf49324b59fc4|2019-02-22|Marta Mauri|delete test.wf
+6f7c5e57fd3d1165b6c2645010435a741d598a1e|2019-02-22|Marta Mauri|Merge branch 'master' into v2.0
+4652f9618cdeead5cc133e3415731d7d0508bfe8|2019-02-22|alet|Slightly improving J1J2 tutorial notebook
+f737bd11b88549bd2dee832ee67c3099fcfa67b0|2019-02-22|Giuseppe Carleo|Merge pull request #169 from everthemore/supervisedv2.0
+38667b21c82180bcbbd81048441e93fc31f096a7|2019-02-21|Marta Mauri|fix python2 bug
+6cc54dc085d5945a05e43347f4f47f75ba13c33a|2019-02-22|ShHsLin|fix latex
+327b8d0bdef2fefb210091dc29ce899a15fc420a|2019-02-21|Marta Mauri|bug fix
+23445010d7e1582880fc8f008a3380143d3eaf48|2019-02-21|Marta Mauri|change docs
+b95e5b1b8568d88d58bd5779ca23dff1ad37e99b|2019-02-21|Marta Mauri|change docs format and add examples
+b283257b10f85e79a637d006a375c58feb0a8f2b|2019-02-21|Marta Mauri|change docs format
+b6e2a1f704c0a46b6c3cf04a186c1e9928d4d7c4|2019-02-21|Marta Mauri|change docs
+157865edb08c28e7055af0392ed353407494f616|2019-02-21|Marta Mauri|Change docs and add examples
+86e06854f383c976e80cf6aec6548c20e4ebc58c|2019-02-21|Marta Mauri|Change docs and add exmples
+6f995b6fea58def0abdfa92c920bac48eb04c9ee|2019-02-21|Marta Mauri|Change docs
+52709d6241e0801678ff0bb85e75b7d6dae58fd2|2019-02-21|Marta Mauri|change docs
+487f01695b8d479170b318b1fb7775450b81e783|2019-02-21|Marta Mauri|Change Docs
+1a40e54fa4602390daa297a2479725af57c4f37e|2019-02-21|Marta Mauri|Fix Lattice Docs
+21bddd036892c5af8cd0acd83f05df2c3fc64909|2019-02-21|Marta Mauri|Corrects Lattice Doc
+de23e94b1398c8dd60cfb4bcae88d442035da899|2019-02-21|jamesETsmith|Removing import mpi4py statements from tutorials.
+4b06b55e986ed4606adc36251b6c6e9faf4f6591|2019-02-21|Giuseppe Carleo|Merge pull request #82 from netket/v2.0
+7d5d3da9269754e4e65365467934c5dd63b776aa|2019-02-21|ShHsLin|add tutorial, fix typo
+0760ad406ef25111b4b892f7fbb107c0c6c7001c|2019-02-21|jamesETsmith|Bringing PR up to date with v2.0 and modifying environment.yml
+ea79f28635a2415e73a54dd6ade2d629c44ca004|2019-02-21|Giuseppe Carleo|Merge pull request #168 from gcarleo/v2.0
+02580c1f3ccc6a3f929b68132814ad4ac943703c|2019-02-21|Giuseppe Carleo|Completely remove mpi4py
+7287369106254b3c4e5c0b7a063c266eed7d8f16|2019-02-20|Giuseppe Carleo|Update docs with new formatting
+b44a6aac861c69a2be63911e0535e0c4bf08bb51|2019-02-20|Giuseppe Carleo|Merge remote-tracking branch 'upstream/v2.0' into v2.0
+8f7ccc296f0ce71389dead3639b2d56cc56e4c57|2019-02-20|Giuseppe Carleo|Merge pull request #161 from martamau/v2.0
+c50035d4f0e2f90995fd577fe286cd1fb0112f49|2019-02-20|Marta Mauri|More generic overflow checks
+95e713a4f40557d57a699d4bcfb964496ed04024|2019-02-20|Marta Mauri|bug fix for adjacency test
+7e586a8aeb974481b641c7d4ea0c27e9e5b3a4b1|2019-02-20|Marta Mauri|bug fix
+5531784dd70d42e957d257dd25ada92da089e553|2019-02-20|Marta Mauri|Change test
+c65548656e762ce2db3dabb4db5d0e2257622e48|2019-02-20|Marta Mauri|Add python-igraph to the Travis script.
+ee56d523a53291491ed39c5d6a0486b045e5db50|2019-02-20|Marta Mauri|Bug fix
+08659e27ac8ca2b0f4b3a72a65b083421ce31de6|2019-02-20|Marta Mauri|Add PR changes and Docs.
+ae3322636830e7693cf03b7cb3c655b30a8f9997|2019-02-20|Marta Mauri|Merge branch 'v2.0' of https://github.com/martamau/netket into v2.0
+1d095d6b0ab016762e39ca9c085f0d27cfab22cf|2019-02-20|Marta Mauri|Add PR changes and Docs.
+1bacd74aa82f9b83a583d402e83a21bf92ea6715|2019-02-19|Giuseppe Carleo|Merge branch 'v2.0' into v2.0
+45ac979269ba3a26a556cacb88270b2ee21f885f|2019-02-19|Giuseppe Carleo|Merge pull request #167 from femtobit/v2.0
+36cd979b5960adaf7168c9cb0cd4759883986d41|2019-02-19|Marta Mauri|Add PR requested changes + new tests.
+708e01ff45558f13f779a9957c3219d0255b9faf|2019-02-20|Damian Hofmann|Update documentation
+964f6829c950b2430299fdfcdd5d498c39ba1ff3|2019-02-20|Damian Hofmann|Run clang-format on supervised an VMC files
+a6949ba75622b07423720a1e19d4a20a82fd8986|2019-02-20|Damian Hofmann|Expose Advance method on VariationalMonteCarlo class to Python
+11cce1036d355a4fb05de8b4b4deb2aae1a2f841|2019-02-20|Damian Hofmann|Update examples for supervised learning
+ace0cfb67ac8f0bbc398ed34f721feba2fa94068|2019-02-20|Damian Hofmann|Improve consistency between Supervised an VMC interface
+2cc54f54f5a65e5850fbc2ad51b562be38ac9096|2019-02-19|Marta Mauri|Merge remote-tracking branch 'upstream/v2.0' into v2.0
+d69596a3b5b83115deeb39b8bd6c14538d163830|2019-02-18|Giuseppe Carleo|Correct issue with trailing spaces in docs, change to Supervised
+322c64258a0477e53913b28eb6ef61de228cf8f4|2019-02-18|Giuseppe Carleo|Merge branch 'v2.0' of https://github.com/netket/netket into v2.0
+70a53d816b5ee9c5fbff7a5352d4d8aa4327808c|2019-02-18|Marta Mauri|Add some of the PR requested changes.
+51626b95664036dc5512704238b502127d94c052|2019-02-18|Giuseppe Carleo|Merge pull request #109 from twesterhout/auto-mpi-init
+ae18cab15bccf70f9d871d18661b3edb713f861a|2019-02-18|Tom Westerhout|Removed all occurences of mpi4py except the ones in 'Examples/ImaginaryType/ising1d_imag.py', 'Examples/PyNetKet/ground_state_iter.py', and 'Examples/Supervised/J1J2/j1j2.py'
+c59cd3c994a9f443735c873ceb566c44404984da|2019-02-18|Tom Westerhout|Merge branch 'v2.0' of https://github.com/netket/netket into auto-mpi-init
+50a4f5ad3b1dd7aa15ea27f9ee580c9580d6b0bc|2019-02-18|Giuseppe Carleo|Merge pull request #165 from gcarleo/py_files
+535d32a28616a8f28d16ae03357db490e52067c1|2019-02-15|jamesETsmith|Mybinder is working. Adding binder badge to README.md
+7055134ee784b983c9db7a7a42afd1d436dd45c5|2019-02-15|jamesETsmith|Adding postBuild file to run pip install after using conda to install requirements.
+791e815ffa9fc4b117942dcd7e8d71d4e5fc7a13|2019-02-15|jamesETsmith|Testing conda configuration with mybinder.
+c1b3e6aaf11fae07485e40ec058d33efbb7e06bd|2019-02-15|jamesETsmith|Adding requirements.txt to see test building with mybinder.
+5283fbafe64d7572622cf05422cc21b5f635eb61|2019-02-15|Giuseppe Carleo|Merge pull request #164 from kchoo1118/v2.0a
+b34a094194dc7e47b344c24af70afba946b08665|2019-02-15|kenny_choo|Grammar corrections...
+fd6700553515e3f7995373fa4e7c0bc3afd5d8d8|2019-02-14|Giuseppe Carleo|Merge branch 'v2.0' into py_files
+a765a5d8191e894b51b963d30013608e897ca1f3|2019-02-14|Giuseppe Carleo|Separate python interface files into headers, remove large file in commit history
+fa494cee19389162e35e114a1a9382fa5f319672|2019-02-13|Giuseppe Carleo|Merge pull request #162 from everthemore/supervisedv2.0
+0533c001fab2e5fa0867b8c47eeee48db9295922|2019-02-13|Giuseppe Carleo|Merge pull request #162 from everthemore/supervisedv2.0
+390d7f68ed61fa75b2b7489a8188da6cd7c84151|2019-02-13|kenny_choo|Custom Hamiltonian Tutorial
+e1de9a22f8dd378b8aa29f562f815353169b16bd|2019-02-10|ShHsLin|include supervised md doc
+710f601a58468b5fb6c99fb918a395b84bb87d8c|2019-02-10|ShHsLin|include supervised md doc
+0cac085432f6e4ad52c96a6fd31bd5874b27524a|2019-02-10|ShHsLin|Refine examples
+6e0438c292b8d23853f701cfa1f12b2fd1b5988f|2019-02-10|ShHsLin|Refine examples
+6f3fc52089b5fdbc89cdfd4cceb8490057668584|2019-02-10|ShHsLin|adapt v2.0 format, add supervised in build_doc, mv Tutorial to Example
+5883ca009d1879249f43970b7085954f597b6a1f|2019-02-10|ShHsLin|adapt v2.0 format, add supervised in build_doc, mv Tutorial to Example
+6ccc01527a038df82be6cb654a0e488ea158932d|2019-02-09|ShHsLin|v2.0 merging supervised
+c812c846ac4b11383e2f58a8a5b298a01b25f3c2|2019-02-09|ShHsLin|v2.0 merging supervised
+386f77a9f7aa9e51a18dd4ce6e01ac08bd75d229|2019-02-08|Marta Mauri|Add unit test for Lattice
+ade9beb04e2cfa8fd1bf8a27dc0bab7ca21dea20|2019-02-08|Marta Mauri|Add Lattice class and docs
+c21f0ba8a31ff9b7ec08729e9f52eb6481ff1b15|2019-02-08|ShHsLin|change variable name
+9cecd2694de53c473d549654e9fc8c46d3c4bc93|2019-02-08|ShHsLin|change variable name
+6207b3d7db1ca71c2e6169e2909ae3cfffe5b098|2019-02-08|ShHsLin|add comment/docstrings
+b6012922b7fcd0f6d63f7b4863a12d4bebf5d9b9|2019-02-08|ShHsLin|add comment/docstrings
+4e99f39a64aab5a25d081fb4b02d4c8ed76bb0e0|2019-02-08|ShHsLin|Replace explicit seeding with DistributedRandomEngine class
+00bbcba03b5535035538db76a728cc8fe6c9e891|2019-02-08|ShHsLin|Replace explicit seeding with DistributedRandomEngine class
+1ae0672b14fdf591a211caadbbc2fb615b2738b5|2019-02-07|ShHsLin|Move Save_output into Run function
+77c2122f3c4f1d8bd381da2cc34aaa322e1936de|2019-02-07|ShHsLin|Move Save_output into Run function
+b332b07b20d39d0254e57398338daf07c7ec97df|2019-02-03|Giuseppe Carleo|Merge pull request #157 from kchoo1118/v2.0a
+72e51a5883e353eb998ca7e82b9fb1e02a30fdb1|2019-02-03|ShHsLin|add output_writer to write output; output in json; plot output added;
+d28d4481047403ab8d545b8b73ac4b4f47189dfd|2019-02-03|ShHsLin|add output_writer to write output; output in json; plot output added;
+dfe686e77e6a1ae5186d315236fe9847e0041388|2019-02-03|ShHsLin|Add random seed init in all processes
+4f702e48e8d8077e4c2bf70c7189d8ecee3a674d|2019-02-03|ShHsLin|Add random seed init in all processes
+b72a649c8fb63bab6e18bd5eeae9ef29e36f2507|2019-02-03|ShHsLin|MSE->Mse. loss is real with type double. change the structure of computing loss.
+47b77f1a288478b704fea55782bc23606fe4bb8c|2019-02-03|ShHsLin|MSE->Mse. loss is real with type double. change the structure of computing loss.
+9d485ea29faa4700a7133b4297b66fd860b265e1|2019-02-02|kenny_choo|Renaming and removing redundant files
+7968ea088dfb366c9881938c4d88833b687eedc1|2019-02-02|ShHsLin|Remove Sampler
+c46e8c2def55a9e9f4ea7afb7f379c30747cbc08|2019-02-02|ShHsLin|Remove Sampler
+46522867cd19c6e99eded9c28619b923900c8efa|2019-02-02|ShHsLin|fix Import Error
+84d97726c8f471acc984ff4fb9e625d7e4c5e8ab|2019-02-02|ShHsLin|fix Import Error
+560cb393d5ebb907db18979d29e8974f07a73371|2019-02-02|kenny_choo|remove checkpoints
+49382bd8cdc71b595d59bd11335ae8efb27b3348|2019-02-02|kenny_choo|Rename the directories
+f9165408c92118ebb622799cbd0c384660414680|2019-02-02|kenny_choo|Remove networkx
+bfefee6fa8bdcfec0bc37a04f3886989cf8c610b|2019-01-31|kenny_choo|ipython notebook tutorials
+c36912b9907aa4b525c534d4748c76c6a8262d34|2019-01-30|Giuseppe Carleo|Merge pull request #155 from gcarleo/v2.0
+a082b2059599760b1ba714304218ca6a7316bf5e|2019-01-30|Giuseppe Carleo|Update doc script and docs
+28febf75b25d14a5e17de38075b82ab873e78ee2|2019-01-25|Giuseppe Carleo|Merge pull request #154 from netket/fix-vmc-run
+2f6376b45f7284c9a181862b7f23681cc1766d33|2019-01-25|Damian Hofmann|Make tests compatible with Python 2.7 again
+9ff8dcacc7ac8c9b16b3071c8bff5516b72480be|2019-01-25|Damian Hofmann|Add custom observable to ground state tests and test Vmc.run
+35564c83e0de7872037cd6e9f7c20c5ade8f5add|2019-01-25|Damian Hofmann|Fix computation of observables in VariationalMonteCarlo::Run
+9695f4b4651bc2228a2de81869099c1b7147cc91|2019-01-25|Giuseppe Carleo|Merge pull request #152 from kchoo1118/v2.0a
+a807f9950d0cbc7f5faefa14693cf11080e152c6|2019-01-25|Giuseppe Carleo|Merge pull request #153 from jamesETsmith/docs_readme
+80ec3c5f7762d8d42994c4265be80b66ad32bcc7|2019-01-24|James E T Smith|Merge pull request #1 from ooreilly/jamesETsmith-docs_readme
+2d15dc5d40e159ee3bc1b96825e6cb433b2a9ff0|2019-01-23|ooreilly|Add more details to Docs readme.
+e0d8839a0985bb30c981ea1293557e380f6ef819|2019-01-23|jamesETsmith|Updating docs README.md
+3001d04e57306ee850802519a39c6ebecd18cf2c|2019-01-23|jamesETsmith|Merge branch 'v2.0' of https://github.com/netket/netket into docs_readme
+f7e27e144c4542214a621b934cc7ca81b48aa300|2019-01-23|kenny_choo|bugfix
+151783eb158349cca335fe184ee1ba73e8aed1d4|2019-01-23|kenny_choo|Merge branch 'v2.0a' of https://github.com/kchoo1118/netket into v2.0a
+81b65dd5916d190293def5f90e1ccd74e07d5559|2019-01-23|kenny_choo|Corrected missing hilbert class in docs
+f2c4d36a54d755ca7e7e1c5f821b5a81fd862001|2019-01-23|kenny_choo|Corrected missing hilbert class in docs
+d38dac365b39aca1c8baf4739109c45fd2060525|2019-01-23|kenny_choo|missing hilbert class for machine docs
+f54854421c232a4c06ea293746ee5e853ccfbc00|2019-01-22|kenny_choo|bugfix
+245fdb231bab6abc4fa759a298797704952277e0|2019-01-22|kenny_choo|bugfix: printed wrong value
+e013a28d1ccf2fa9f2da61071bdf1f1512407a61|2019-01-22|kenny_choo|add print statements
+c6e72545d86c344c7576bce12419a303d567b625|2019-01-21|kenny_choo|Bugfix
+cc9f588fa14af9da5e1e506eec73b3e3844a72f7|2019-01-21|kenny_choo|typo
+6f3aa727895a1bc389d8f9b34715b39e0ebcc1dc|2019-01-21|kenny_choo|bug fix
+d700e7862797faf8fad31622894b27eeeab426ce|2019-01-21|kenny_choo|add markdown files
+2b44d517992874fce7e39c1982313fc9927dae94|2019-01-21|kenny_choo|Fix Name
+bb1e43884216a2d8a172c991144907c0b22a2ced|2019-01-21|Giuseppe Carleo|Merge pull request #149 from ooreilly/fix-doc-diff
+428ee79961b0b043e962abf809de6bed879f7f77|2019-01-21|kenny_choo|Docs for layer and machines
+066f8a8eb826d2e10e593685025e3e06364f8c23|2019-01-19|ooreilly|Rename build to build_docs.
+c95eef896e49780570e549d9ecf69a197dd90f64|2019-01-17|ooreilly|Consolidate documentation tools.
+a98b7d35c93fcab4e402b6baf805dfb72eedcfe4|2019-01-16|ooreilly|Fix doc-diff error when loading some submodules.
+4147ab747e38eb629ccd0f78eb99e6827f04d204|2019-01-16|kenny_choo|Merge remote-tracking branch 'upstream/v2.0' into v2.0a
+8e018ad47fdc36030c53677ea90892217dfad55e|2019-01-16|kenny_choo|Merge remote-tracking branch 'upstream/v2.0' into v2.0a
+0a414879aca24d346e04cfc8b9c6598371debf30|2019-01-16|Giuseppe Carleo|Merge pull request #142 from jamesETsmith/pydoc
+5a2a03da4c890e10bc9e6f03550710c1e6392f1d|2019-01-15|kenny_choo|machine docs
+28f80831a2ad7f27032207c8ca6bd855142348b3|2019-01-14|jamesETsmith|Adding @ooreilly's corrections to parse.py and extract.py
+1f61edf24aec652143b81c1440129d541162738e|2019-01-14|jamesETsmith|Fixing bug in parsing of function signature (some were getting clipped at a parentheses).
+5cc499622a6851f434106623cd2c4df8e8f186fa|2019-01-14|jamesETsmith|Fixing doc test issues.
+894218033fbfb4b6f9d17ce78b0555d10de9dd80|2019-01-14|jamesETsmith|Fixed regex problem with documentation extraction of functions that return non void objects.
+0b13f65fde54c85dc3efaa4c27c3e29c43650c43|2019-01-14|Giuseppe Carleo|Merge pull request #147 from cmendl/feature/aklt
+ca2f2394789c12da949478e73dc0b5f693574ff4|2019-01-13|Christian B. Mendl|AKLT model Hamiltonian construction and solution by Exact Diagonalization
+7fe3aacd1699622c3374ae157d22c0e0a20d7993|2019-01-13|Giuseppe Carleo|Fix mistake in J1 J2 ed
+d45c3f80ac49a81fd8b3d36b8d9e8e06a57d5701|2019-01-13|Giuseppe Carleo|Fix mistake in J1 J2 ed
+954fca9cff5ad251d883f5e5c94aac2b1549f712|2019-01-13|Giuseppe Carleo|Improve supervised and add ed code directly from netket
+aa357aa050b256c868e3054df96c96233ed9fe1e|2019-01-13|Giuseppe Carleo|Improve supervised and add ed code directly from netket
+9e160715f4f26a7e15bd9622f6c799170a833f6f|2019-01-12|kenny_choo|Merge remote-tracking branch 'upstream/v2.0' into v2.0a
+8214f317a0712e107640a30b66064dfd5c12b8b4|2019-01-11|ShHsLin|subtract max_log_psi
+8efe657dc10213228af7e300b24bec8a27f4085a|2019-01-11|ShHsLin|subtract max_log_psi
+a37177c3341a78d9009fec252bfc08f7df601e77|2019-01-10|ShHsLin|add main functionality DerLogOverlap_phi, and sample from phi
+ef7bbb49b5bb223e742c510fe4b58b6269cabfa9|2019-01-10|ShHsLin|add main functionality DerLogOverlap_phi, and sample from phi
+a145568a7e166534e3141c6dd5736c4c9f030ecf|2019-01-10|jamesETsmith|fixing travis error, exposing new error.
+3225fefcebb506ceff0fa8e018c6c670d7441e3a|2019-01-10|jamesETsmith|Fixing doctest issue with sampler docs.
+957e76e58c037b467995d0677dc613ce382c6a62|2019-01-10|jamesETsmith|New documentation formatting.
+b08f9f3b5b3502e2869124c40f44c873394ece91|2019-01-10|jamesETsmith|Merging
+e06de8889bc730b6ef802f46b3f6c854e8454428|2019-01-10|jamesETsmith|Removing outdated doc directories.
+a98b7a387809b9393ccc2a187653f9286c0901a7|2019-01-09|Giuseppe Carleo|Merge pull request #146 from gcarleo/v2.0
+2f1a4b79571d5002a7db08745d821b6f91e10cf9|2019-01-09|Giuseppe Carleo|Add README to docs
+c6138c91ff99c19f09bde6535895c6cdd2ba0986|2019-01-09|Giuseppe Carleo|Merge remote-tracking branch 'upstream/v2.0' into v2.0
+01e523fa39c3552f2a659b0b5ca829044a917966|2019-01-09|Giuseppe Carleo|Add automatic generation of docs for all submodules
+d9e17ae0690febb577c914df7516a2e5d27bec57|2019-01-09|jamesETsmith|More doc for groundstate.
+981d503e1a81ffdb919a75b8495b787bb32e0d13|2019-01-09|jamesETsmith|Merge branch 'v2.0' of https://github.com/netket/netket into pydoc
+52ee41817ba69f4e94856a848672779c32deb309|2019-01-09|jamesETsmith|Merge branch 'v2.0' of https://github.com/netket/netket into v2.0
+460219dfd2d4a40f71242b46404a141d918b8140|2019-01-09|Giuseppe Carleo|Merge pull request #145 from ooreilly/fix-parse-pybind-signature
+af68dbb9b7a333a4f84686b7386a1f810492e132|2019-01-09|kenny_choo|add documentation for layers and machines
+bd351b095de729f136e80f5a59d8c4797a6690d2|2019-01-09|Giuseppe Carleo|Merge pull request #144 from ooreilly/docs
+09284485c4a60d225705eda30e9df7f1a48a80c0|2019-01-08|ooreilly|Fix problem with :: in function signature.
+8945d5aa881f9fb51811f0d9fffcf290c60460a6|2019-01-08|Ossian O'Reilly|Update and rename test_docs.py to doc_diff.py
+145f77b12c84ff6fc9cccc4ec51979b3baae5079|2019-01-08|Giuseppe Carleo|Add generic method in docs
+000b58a63270dc85cd206381db184320faf09e6c|2019-01-08|ShHsLin|fix Overlap
+f6648cd9c68c0ad33733805d67968a3e31953bbc|2019-01-08|ShHsLin|fix Overlap
+1abfcb62343349700612a089e58d2e36f2cd9c6c|2019-01-08|Giuseppe Carleo|Initial work on extending doc tools and docs for sampler
+e8801ab66e0598ffdd0f3febf491002972680e3c|2019-01-07|ooreilly|Add consistency check for documentation tools.
+8a52449d77cd54743e40e4ad6a0569254e69b0e7|2019-01-07|Giuseppe Carleo|Merge pull request #143 from ooreilly/docs
+8282c22e74b7dd520c96356f27295f0be4737aed|2019-01-07|jamesETsmith|Fixing travis problem and finishing Vmc doc.
+050923e9ae47455dd65fe4ab85521f3501804205|2019-01-07|jamesETsmith|Fixing failures when running code from documentation examples.
+87b0d6363f6debaa779c608da2da5b19ef7dcd4f|2019-01-07|ShHsLin|output in amp redudency fixed
+b5602dbaf8ba1b093ccfc3b462bc4058e2d67264|2019-01-07|ShHsLin|output in amp redudency fixed
+ee40073b1b997df7b025e28e2c2921b34863b312|2019-01-07|ShHsLin|fix Overlap loss
+5e8f21f1cc1a08fef93141cb111ef95e42ccda57|2019-01-07|ShHsLin|fix Overlap loss
+7b161313b17bb512ffbe0b00814645e7d118c6fb|2019-01-06|ooreilly|Update parse and extract to version 0.2.0.
+71bd79cc2a45bb40668202ad7b2dcab1ee90f5ab|2019-01-06|jamesETsmith|Starting doc on Ground state.
+aeea768d461eed1a8e60bb4c75d3f92f122d59a7|2019-01-04|jamesETsmith|Matrix wrapper pydoc.
+e7ff454c017cb9a5e1659bc5485ae3c439ff2813|2019-01-03|jamesETsmith|Adding operator documentation.
+33bc3b943f01813be62827bccd5a5056d299ebc2|2019-01-03|Evert van Nieuwenburg|Demonstrate choice of loss function
+dc9223fcd35c0ec72b0cfbfafab09a38d3de88c9|2019-01-03|Evert van Nieuwenburg|Demonstrate choice of loss function
+ec272a5ef932bafb379410a54b28431472f0131a|2019-01-03|Evert van Nieuwenburg|Bugfix in overlap loss. Loss function through parameter
+297a5740bea57193c3eed4d85ba877158eabcda7|2019-01-03|Evert van Nieuwenburg|Bugfix in overlap loss. Loss function through parameter
+4a7fa34cc2caa63613fcd97815fa27b49f6911f4|2019-01-03|Evert van Nieuwenburg|Renamed to cover the load
+82e3dd0524e05cb802fcf4f783732baff381705f|2019-01-03|Evert van Nieuwenburg|Renamed to cover the load
+c377e61b432d7b292e9ab9c9bfc2ea16eed771f7|2019-01-03|Evert van Nieuwenburg|Updated filenames
+8811d54b02c148e884c6d7dbda1c1e6064890d9a|2019-01-03|Evert van Nieuwenburg|Updated filenames
+1064d114dfd637e5425b5997616d3d69e6f9b079|2019-01-03|Evert van Nieuwenburg|Renamed Ising to J1J2
+f5a37680387bcf1faf6c97629fd6655d51a548fa|2019-01-03|Evert van Nieuwenburg|Renamed Ising to J1J2
+eb525761aea23914cbbc32212c05218895f20c65|2019-01-03|Evert van Nieuwenburg|Prune ED code to only do 1D for example
+ff5415529a0db6f3ff2e4427e8e99849e1c0e4a9|2019-01-03|Evert van Nieuwenburg|Prune ED code to only do 1D for example
+80fec1dbb9bf465ce7e1ed01208a1602ef11705a|2019-01-03|Evert van Nieuwenburg|MSE bugfix in gradient
+6b6a1ae15ae145d627cd43c5767f33ffb9e4d620|2019-01-03|Evert van Nieuwenburg|MSE bugfix in gradient
+89ad569a68b5abffcba30614f07d3934bebe7720|2019-01-02|Evert van Nieuwenburg|Added normalization to loss function
+f903d616e2033a5d4fdeb6d49e8fc4e0e1298b21|2019-01-02|Evert van Nieuwenburg|Added normalization to loss function
+a78e34f9c1eeaf6013bb82a783a4ff53ff2ea6e0|2019-01-02|Evert van Nieuwenburg|Removed datafiles for L=10
+420a729db8be4433847eb98c45fa3dc0ed3fcb94|2019-01-02|Evert van Nieuwenburg|Removed datafiles for L=10
+16fdc2c0e2f13d10a1d0eefbe126255bc5472bd4|2019-01-02|Evert van Nieuwenburg|Updated ising example; still has errors
+a36fc34da27c1b97e2383f3ab01391faafb4f972|2019-01-02|Evert van Nieuwenburg|Updated ising example; still has errors
+572fe99b882ff00463627d9e56db7bb649ca1b22|2019-01-02|Evert van Nieuwenburg|Complex MSE. Eigen Reduction bug-fix
+b9fd6e7943f17ea955003e92df1e0096d05766a4|2019-01-02|Evert van Nieuwenburg|Complex MSE. Eigen Reduction bug-fix
+d9ca18ff97b5c56d91edfc8a37811bf5636453d0|2019-01-02|Evert van Nieuwenburg|Removed old data files
+5794535e4e25198b137ab76822d11f1959c755b5|2019-01-02|Evert van Nieuwenburg|Removed old data files
+65b05fbe77af6097fe158443477d40de3f887424|2019-01-02|jamesETsmith|First commit. Adding doc for Hilbert objects.
+e186839d75acae53421d1742743f3edef96a73a4|2019-01-02|Evert van Nieuwenburg|Working example code; needs check
+a08447b350cd0c75f5a19afcf0f142a00803adbd|2019-01-02|Evert van Nieuwenburg|Working example code; needs check
+b681fcd66f08b958991d5118980caf6fea1e09c9|2019-01-02|Evert van Nieuwenburg|Added small example dataset
+ddb5fc911f4653f0552ebd263817ecc2f3750e4e|2019-01-02|Evert van Nieuwenburg|Added small example dataset
+31b1bdd9d074b424fab012eae939950bff4bc3da|2019-01-02|Evert van Nieuwenburg|Updated data loading and tutorial file wrt new ED data
+e649c26446cbe7515de510807aa0fb7a642ef530|2019-01-02|Evert van Nieuwenburg|Added and slightly modified ShengHsuans spin ED code
+5ac85da4ae595e64ebe0fe13cfd2a76f53322f9b|2019-01-02|Evert van Nieuwenburg|Moved MNIST example into separate folder
+af05135d3c14e35b7eeec9f1a1e4c5305e776e79|2019-01-02|Evert van Nieuwenburg|Moved Ising example into a separate folder
+030b5ee97c9a5fa094daf7d73ce23ad378672490|2019-01-02|jamesETsmith|Merge branch 'v2.0' of https://github.com/netket/netket into v2.0
+053c59662fe793691621f1a38461ca02de4c5db6|2019-01-02|Giuseppe Carleo|Merge pull request #141 from gcarleo/docs
+954f722884411bf9bcc01638e9c66c4999e52616|2018-12-29|Evert van Nieuwenburg|Added MNIST tutorial
+4fe14a12a9e26ffc1d47aab49bc393761c96ac55|2018-12-29|Evert van Nieuwenburg|Small fixes
+c4387bfd2b94ef4afa17d3052bffafd0f480e1bc|2018-12-29|Evert van Nieuwenburg|Added LogOverlap output
+52a7ba2169cb6b456a5314c25d34099b145a709a|2018-12-29|Evert van Nieuwenburg|Added LogOverlap loss function
+5ecf692b9b2515991e6dff12ff125f341a8d5473|2018-12-29|Evert van Nieuwenburg|File output initialization; MPI fix; Documentation
+ab7cd3586de167ad474aa93ebdebc027ac9a2b43|2018-12-29|Evert van Nieuwenburg|Switched to FFNN for testing
+ec329373a1b0657a3166ac05fc6447734339f11a|2018-12-29|Evert van Nieuwenburg|First version of tutorial for supervised learning
+41a167698718a6246a1d88d7e67ad7f5b365b90f|2018-12-29|Evert van Nieuwenburg|Python bindings for supervised learning
+6cd611e86b61d3c6f2e7f34b1f10a29ab883e13f|2018-12-29|Evert van Nieuwenburg|Supervised learning mirroring the unsupervised code
+a349e580de9314bd6a00422773e37a6440be9a34|2018-12-29|Giuseppe Carleo|Add tools to extract docs
+bbbd7e1af749d3d0e0091d49a234a20ad4b3d22b|2018-12-27|Giuseppe Carleo|Add docs for custom graph
+6179e1bb69535272b1cd8f78c72ec8d51441a2d2|2018-12-27|Giuseppe Carleo|Clean up docs for graph in google docstring format
+b6b98172eb497461ff1ffaf1d55439a2bd0f6b7e|2018-12-20|Giuseppe Carleo|Merge branch 'master' into v2.0
+8aa66f4d8e194336f806cc14798fabb8d2ae26c8|2018-12-20|Giuseppe Carleo|Merge pull request #137 from netket/feature_interface_v2.0
+dbabb8e9689e90e0d4746cb38c217a79c098fe77|2018-12-20|Giuseppe Carleo|Correct typo in AdaDelta and add tutorial 2.0 for rbm Heisenberg
+717355f3b6eecd45b511ffea72e468cbb70d2f11|2018-12-20|Damian Hofmann|More renaming
+44397c3bc84bc3137652de2b045431dbee64e907|2018-12-19|Damian Hofmann|Rename max_steps to n_iter (and a bit of reformatting)
+936b4a683ba6bea1b52ce0bd98db29e128c61fc9|2018-12-04|Damian Hofmann|Rename members of ConnectorRef to be consistent with FindConn
+574a38ac8dffed781a32e96fbc3ac91751bee1ce|2018-12-20|alexwie|Merge pull request #138 from netket/feature_ed_interface
+3717b82402c0cddfc274afb6f049e3a91ae7a98f|2018-12-19|Damian Hofmann|Fix warnings and remove unused functions
+92316bc0e5c3cb857e0158650432c23c9977ffd7|2018-12-19|Damian Hofmann|Run clang-format on ED code
+1660e90245395a6fe449a204b493fa7d67f93e97|2018-12-19|Damian Hofmann|Revert accidental change to CMakeLists.txt
+875e4382c6dcd6b28eadc7ebaf46ebebe793cb8b|2018-12-19|alexwie|Added python Interface, tests, and tutorial for Exact Diagonalization
+8bc7ace8030aa358983e9de9e93e5d6fd1f96dea|2018-12-19|Damian Hofmann|Merge pull request #131 from femtobit/iterator
+51b1b2b3095ab4ff32bf6b07ddea64a3881714e2|2018-12-19|Damian Hofmann|Merge methods for computing the local energy and other observables
+af4b69410b9747433018905040afdefc20f8a7bb|2018-12-18|Damian Hofmann|pytest: Only run unit tests in Test folder
+df0bd19f41654504fbb5ad849e42c07ae75f44a9|2018-12-18|Damian Hofmann|Set -O3 in debug mode unless explicitly disabled
+f17e40f490bbb5cc8439778282d33f850a1d747a|2018-12-18|Damian Hofmann|Rename `netket.vmc` to `netket.variational`
+bdd12afa3bd03df7d1d66b9fe33d49f66790c6ad|2018-12-18|Damian Hofmann|Fix FFNN tutorial example
+207b2c5f2832787968d1c8b9d5d883c5222a11fa|2018-12-18|Damian Hofmann|Extract code to compute observable mean to separate method
+5b7f5ef3e935462c41335930e10ab6ba9b686104|2018-12-18|Damian Hofmann|Simplify iterator code
+3fda97c33e7046f08a1a769102b69cfc916aaa4a|2018-12-17|Damian Hofmann|Fix previous commit
+3ce8a3f8a959f207024bfdc085720eec355732bb|2018-12-17|Damian Hofmann|Update the Python `.iter` methods to iterate over py::dict
+465b5491dc7f9d7bd866277fee042486fce25510|2018-12-17|Damian Hofmann|Introduce `netket.vmc` and `.exact` modules and rename some variables
+7b377c7444272eee701ca418dbb9a8ebfd374d0b|2018-12-14|Damian Hofmann|Add test for VMC ground state search
+ad03d524249d4fb2f92fb8dc65cd2fbd4af64b83|2018-12-14|Damian Hofmann|Update tutorials and add one for the VMC iterator interface
+76a168cf5cccea335567cb5e99d916be8aad01a2|2018-12-14|Damian Hofmann|Iterator interface: Rename several variables for consistency
+a6dee1c83a2711e6b2ad4c6628b1bb16f3f25499|2018-12-14|Damian Hofmann|Move nonstd::optional binding and add support for nullopt_t
+fc1447fb5ecc2244715a1a1005069f581191daca|2018-12-14|Damian Hofmann|More work on iterator interface
+b37da924bdccad78c8277b6faa79098c68bf6e53|2018-12-14|Damian Hofmann|Update Python tutorials and make them testable via pytest
+1eb3949b2239baa3ccd3f3d2ce95438e56aead72|2018-12-14|Damian Hofmann|Remove output-related parameters from VMC contructor
+25b7bc310baa141f372ff3c1db370aa1885b4e1f|2018-12-14|Damian Hofmann|Add iterator interface for VMC calculation
+b8e9f16b10ef319be7c7f449c02d01884585fcb0|2018-12-14|Damian Hofmann|Add pybind11 support for nonstd::optional
+586765b9f2c5080d0e4f8bd6a582cb2cf54b7055|2018-12-14|Damian Hofmann|Add Python bindings for ObsManager
+927e1923bd2e758cb870f1c479731c6818371f0e|2018-12-14|Damian Hofmann|Add method to retrieve stats without using JSON in Binning
+99d3478b6ef2bdef0474bd6eb88fb086c947288c|2018-12-14|Damian Hofmann|Add header file for common type aliases (Index and Complex)
+01f8d6ac63dba3153b4746facc1e19e39e1926d7|2018-12-18|Giuseppe Carleo|Merge pull request #133 from twesterhout/proper-building
+30a2a931356e5e9093607648aa5f42e3c50c5b80|2018-12-18|Giuseppe Carleo|Merge pull request #135 from femtobit/bugfix
+3afef6c0af987869a12de8e106b5a54df78bf46d|2018-12-18|Tom Westerhout|Removed the test of mpi4py, because mpich is not installed by default
+29d7095431456a86a4afd02dfe39c806db9ee0cd|2018-12-18|Tom Westerhout|Turn off sanitizers; Stick to MPICH
+0963322f81f8fe1e18cb3f0802b4e4ff68d8809f|2018-12-17|Giuseppe Carleo|version 1.0.5 headers and fix bug in MetropolisHamiltonian*
+46e77625edcab9d9c302e74cfec1d17d342d26a8|2018-12-17|Giuseppe Carleo|version 1.0.5 headers and fix bug in MetropolisHamiltonian*
+f196b8979271f26c74e0634d99566b2de0ba532d|2018-12-17|Giuseppe Carleo|Merge remote-tracking branch 'upstream/master'
+f857a3c8963343f365336c32aa5009f252838372|2018-12-17|Giuseppe Carleo|Fix infamous bug in metropolis hamiltonian
+d3f92f1e78b508f6f7d172385bd48e383b70a9b5|2018-12-18|Damian Hofmann|Merge pull request #134 from gcarleo/fix_metropolis_hamiltonian
+39f0cc815d06feb968289564a81695005e519f42|2018-12-17|Giuseppe Carleo|Fix infamous bug in metropolis hamiltonian
+18aa159966a36e634757cd7ea28369df0edb119c|2018-12-17|Tom Westerhout|A stupid typo...
+6e1a65e96880710f2d2c6f0ba7cc77ae050f93ca|2018-12-17|Tom Westerhout|Fixed a few unicode-related bugs.
+34ed178e3e0d68c82c29c273c9c38db672815dbf|2018-12-17|Tom Westerhout|Temporarily restore dependency on mpi4py until #109 (or similar) is merged.
+655559a45b87cc42daa9961731186b39d4d184b4|2018-12-17|Tom Westerhout|Major refactoring of Travic CI configuration; NetKet is not a Python project rather than a C++ project (in Travis terms)
+15145d5aec5dac52e44bea5d1e43c13993b75d26|2018-12-17|Tom Westerhout|Update CMake to use the correct Python version
+59a6c6c1a05d51b87aba6260b94037612e648eb4|2018-12-17|Tom Westerhout|Updated CMakeBuild to support passing arbitrary arguments to CMake as well; Forcing CMake to use the exact same version of python as setup.py was invoked with.
+cf4c1065f1ed1c071e2300fba83683d07dfc01ca|2018-12-17|Tom Westerhout|Reodered imports (in alphabetical order); All arguments of the form `--cmake-args=...` are removed from `sys.argv` and accumulated into a list `_CMAKE_FLAGS` which can later be passed to the configuration step of CMake. This should allow to pass CMake-related options on the command line when calling setup.py explicitly. When using pip, NETKET_CMAKE_FLAGS environment variable can be used instead (because propagation of command-line arguments in pip is a huge mess).
+d046e7bd0aab61876f3deb5917e2614260353c1b|2018-12-17|Giuseppe Carleo|Merge pull request #132 from gcarleo/fix_qsr
+3987297f46d29296485a11c4ae0bc8e57dce0981|2018-12-16|Giuseppe Carleo|Fix problem in += operator in LocalOperator
+c21718138d176a0d8962ec33a7ed8406b15c9e67|2018-12-16|Giuseppe Carleo|Revert to old travis without pwd
+aef8cc655a95145d9469ce31e23b92b130b42514|2018-12-16|Giuseppe Carleo|Improve tutorials on qsr
+8bdff32fcb0e9ae911444e591e7c58b1564d35fe|2018-12-16|Giuseppe Carleo|Change Qsr to accept general abstract operators
+8c2f3608614fbc58765e2420c4f433e79666651f|2018-12-16|Giuseppe Carleo|Add constant shift to local operator
+90af85140dafe76793dc87b59728a2fb62c4387d|2018-12-16|Giuseppe Carleo|Remove again AddConn
+194e6525cab162f8ca40d70079301d97c910e485|2018-12-16|Giuseppe Carleo|Remove assignment operator in local_operator and revert its findconn
+1e85ebe77941e58b15ed01b7e88bddaa587ab935|2018-12-16|Giuseppe Carleo|Revert "Remove dependence from mpi4py directly calling MPI_Init and MPI_Finalize"
+c06b398820aa88bf29e9df8c164be87f8ba63967|2018-12-14|Giuseppe Carleo|Merge remote-tracking branch 'upstream/v2.0' into v2.0
+7b0871371e3d327eaaaffdbfa4d40455162fb202|2018-12-14|Giuseppe Carleo|Merge pull request #129 from femtobit/sampler
+d0c8ed62997a9796949527de4cc2dc2e4df8314d|2018-12-14|Giuseppe Carleo|Merge pull request #127 from GTorlai/master
+0c35bfaadeb1253f611f8052b53c9b3d3d9aec9f|2018-12-14|gtorlai|Fixed leftovers
+431fca1e2753218b4e090752730cf8e7797e0594|2018-12-13|Damian Hofmann|Move random engine to AbstractSampler class
+6da1e7e3604ef6eafd1026d573b2e9a175e02730|2018-12-13|Damian Hofmann|Extract seeding from samplers to common base class
+4ae9cb256a04f3e2b142b4f6c9c562225eb6f203|2018-12-13|Damian Hofmann|Add option to provide samplers with deterministic seed
+21599fa6f2dd138bbedcd544b546db260b7ebba1|2018-12-12|Tom Westerhout|Huh, conflicts? We're not even using numpy in graph tests...
+10d41b4f9bdaf4a9fc5ee082712039747af4c684|2018-12-12|Tom Westerhout|Stop importing mpi4py in tests
+1d266a221ec32a7f0f6e3cecd2f72ed5bb1cd420|2018-12-12|Tom Westerhout|Clean up
+3cae9c25ab0259f2a36671550e0846393d0c4b91|2018-12-12|Tom Westerhout|Moved the implementation of MPIInitializer to Utils/mpi_interface.hpp
+b10921cc9c7c746b838e36486dd4896932eb17f6|2018-12-12|Giuseppe Carleo|Add pythonpath in travis
+fe78d89ffa4f16c1e3784af6654d5a46bdc3a2ef|2018-12-12|Giuseppe Carleo|Remove dependence from mpi4py directly calling MPI_Init and MPI_Finalize
+3ff4d2c00ee772f0e317138eb93d8201b97c2c78|2018-12-11|Giuseppe Carleo|Merge pull request #117 from jamesETsmith/issue_116
+4c5549928f824e9bb144d1b60a5baaefe6ef43b4|2018-12-11|Giuseppe Carleo|Remove AddConn from local_operator
+d1cc38c3dcffe624ac255765b835adbdb3d79c02|2018-12-11|Giuseppe Carleo|further clean up tutorials and expose local operator constructor with no matrices/sites
+4e1118b7161b4bf55368b6c388799a875de7561a|2018-12-11|jamesETsmith|Fixing problems with j1j2 tutorials
+579766bf14d751814ec8f6b4ef06565e1cb6cd58|2018-12-11|gtorlai|Added data loading function
+42475cf2263b0c88066b259a5b1c0c6d2f90dafc|2018-12-11|jamesETsmith|Adding + operation for GraphOperators and working on J1J2.py tutorial.
+b8b911c849e50eb55cf02634c660fc93f85ca978|2018-12-11|gtorlai|Removed qubits example
+4d667d36fe05897ec231ed9a4d5eda81f32d28cd|2018-12-11|gtorlai|Cleaning
+11f038153358841bfe0f77d322de26c54be6f418|2018-12-11|gtorlai|Added observables and removed SR
+1ce412fb116fce01c08afa95bdfd02e9e718a8da|2018-12-11|jamesETsmith|Cleaner changes.
+00bdfe579df02a80825fa372e5c8b303ce05b29f|2018-12-11|jamesETsmith|Merge branch 'v2.0' of https://github.com/netket/netket into issue_116
+d231cbc961f0427d4e09062e63c062726f5b4f0a|2018-12-11|gtorlai|Clean version
+f678272e774aac0e00a2d248aec0b8fa34af1cec|2018-12-11|gtorlai|Added Ising data - GM version
+3cfe24a9a8722d9ac87679adf9f0f8f40411035e|2018-12-11|gtorlai|Referece commit for future NLL testing
+5eaf854e406233762c28c1f1f1da8ee52c269dd6|2018-12-07|gtorlai|Removed hard test
+ad361f8e6cf8604b1e8cf202d188958b1fa291f5|2018-12-07|gtorlai|Working - before pull request
+261bf6b8482f913090a3ad9a2d7919d4efac0738|2018-12-07|gtorlai|Debug on different machine
+dd75ea25847171f8b4fdfae58271b928422642f6|2018-12-06|Tom Westerhout|Merge pull request #125 from gcarleo/v2.0
+54fbdc349718829278b49cd6e002089553a07bc6|2018-12-05|Giuseppe Carleo|Change ffnn python constructor to accept tuples
+2488dc14e2bfde6e953c2b7f7d99cb09f7807a8b|2018-12-05|gtorlai|fixed bug
+1ef17d4a51cb1660057502a3210d885e804efebf|2018-12-05|gtorlai|QSR v2.0
+523b7bf06c5af981bf521e0f62952abfae48f555|2018-12-05|gtorlai|QSR v2.0
+8bb1a92602b32adbafa80ece1d790eb137eb2149|2018-12-05|gtorlai|Merge branch 'unsupervised2.0'
+bf42838aec306e6bd0fb35c479894b3147cb0e60|2018-12-05|gtorlai|Removed netket.cc
+c3ab5ac9f9242a0488db7b2469b5d41650386b25|2018-12-05|gtorlai|Merge remote-tracking branch 'upstream/master'
+7d8878c55e6975e4a4abc9bb3ab292974779fa68|2018-12-05|Giuseppe Carleo|Merge pull request #124 from gcarleo/keep_alive
+e48791171ccfe370df4b1ca3c349a1a2149a1d13|2018-12-05|Giuseppe Carleo|Move constructor for vector of layers
+00603fe91f1fe6cd5171411b0d4dc602c6a90dd6|2018-12-05|Giuseppe Carleo|Change typedefs for MachineType to make more sense
+768cc9b4742c7c183416c972cbe04fa7c3bb025b|2018-12-05|Giuseppe Carleo|Change constructor of ffnn to take vector of layers by value
+015c6f965ced25d94bde38db377514a70444f8a0|2018-12-05|Giuseppe Carleo|Avoid passing graph to MetropolisHop
+e8cbcd7b6f40242d7127fab33d2b13dbc0840826|2018-12-05|Giuseppe Carleo|Add noexcept to Get* methods
+878c3df8121a6f2a888aeb3e723c7de8f2d69333|2018-12-03|Giuseppe Carleo|Update examples in pynetket tutorials
+6e59cf935ad923e50b912e948bf6681998382d7f|2018-12-03|Giuseppe Carleo|More consistent (and safer) use of read_only properties
+f919f765678125b8f0ce9845f63ad6463642f133|2018-12-03|Giuseppe Carleo|Merge pull request #122 from gcarleo/v2.0
+77ba15a54a04899f0d1454c93646ef9c614b104f|2018-12-03|Giuseppe Carleo|Change shared_ptr to references and use keep_alive
+6ffb38682b2fd757ef4a661e58dfdd68b333e683|2018-12-03|gtorlai|Add tutorial for QSR
+87e264dfdee23b3d63f763a1786afaaca9a16151|2018-11-29|Giuseppe Carleo|Add save and load to machines. Expose some methods as properties.
+8e1d70e2f52075f119702ed67601d0b3c5343e51|2018-11-29|Giuseppe Carleo|Merge pull request #110 from twesterhout/issue-101
+2b1939c45b3adcd2546b6f609ba27e239e6410cc|2018-11-29|Tom Westerhout|Make `Graph.edges` return a list rather than an iterable.
+a93ddcf0757e6aaa5a3ae780fad98181bb815903|2018-11-29|Tom Westerhout|Converted adjacency_list and distances into properties
+3b03714e3bdf03763cc40aa66afb05597e8690f9|2018-11-29|jamesETsmith|Updating PR.
+4f587c240cd028291de27d0b780b035702f19e86|2018-11-29|Tom Westerhout|Fixed a bug: _is_connected was not intialised properly
+fe91cc88ad5e592ee3d73c13e9d0b7843b660cd0|2018-11-29|Tom Westerhout|Simplifying Hypercube::BuildSymmetryTable as suggested by @gcarleo
+7d5a0f4f4d166e68a1e63f66bbf97fd84380f126|2018-11-29|Tom Westerhout|ndim -> n_dim and L -> length in tutorials
+64f070e3d94581630fabf2125be9b6e61d03fa1a|2018-11-29|Tom Westerhout|Made `edges` a read-only property and added a check for isolated nodes
+285d489a4646097143b0442eeeca48dfde1bd8f5|2018-11-29|Tom Westerhout|Fixed a bug in graph construction related to how Python iterables work: CustomGraph(Hypercube(...).edges()) was skipping the first edge.
+10930f3d4f8fbc07506e5982b79063d2f3238a76|2018-11-29|Tom Westerhout|Cleaned-up CustomGraph: removed dead code and updated the implementation of CheckAutomorphisms. Also, added a missing include to bosonhubbard.hpp
+ebc2badc7bbc7546bc36b4be2be60a6016464eec|2018-11-29|Tom Westerhout|Fixed compilation errors in hypercube.hpp
+0f1af3c60d0499f23c0f406d336a3637017855f9|2018-11-29|Tom Westerhout|Ran clang-format on custom_graph.hpp
+8c558bde67dc73d2e9cdd60a73bac7292a59cb6d|2018-11-29|Tom Westerhout|Removed the redundant call to test_edges_are_correct
+f3bdc7a136c3a37ff6ae68b2a18c68fc9ff49ed3|2018-11-29|Tom Westerhout|Added a dimension check to Hypercube::Coord2Site; Fixed a length == 0 bug in Hypercube::Coord2Site. Added a Hypercube::Site2Coord function based on @gcarleo's implementation in 2675dc3.
+85d4504e5a52a5393779362c4be7141dcc4b77d1|2018-11-29|Tom Westerhout|Ran clang-format on graph_functions.impl.hpp
+c025be4a2496c651127d47851463ffb88b139eeb|2018-11-29|Tom Westerhout|Revert "Clean up a bit and remove is_bipartite from constructor"
+4462107be292d207d9cd1ec97ba7e48327913231|2018-11-29|Tom Westerhout|Revert "Change python methods to readonly props. Improve hypercube automorphisms."
+7699918380dfaf4a92fdd2fce0eea24c2131a688|2018-11-28|Giuseppe Carleo|Change python methods to readonly props. Improve hypercube automorphisms.
+2e8a580e63baf89f78adf2835b2f8f477721c32b|2018-11-28|gtorlai|Test gradNLL passed with sampling
+7b9fcd5938a3efabff5fc5cbd8685c323ea21f1b|2018-11-28|gtorlai|Major update incorporating different bases
+2675dc3eca13fc42abfb54cdec854c20b00edd42|2018-11-27|Giuseppe Carleo|Clean up a bit and remove is_bipartite from constructor
+7310078262a4bfbf91552dbd7f5dd0f8ce10c92f|2018-11-27|Giuseppe Carleo|Fix test problem in python 2.0
+8d13989600df21f9764f87d357912930ddaf4408|2018-11-27|Giuseppe Carleo|Update to latest upstream changes
+f089371ae5c54aa445f0c7940f0a1c7aac6449bf|2018-11-27|Giuseppe Carleo|Merge branch 'v2.0' into issue-101
+e2d45f6f99d624579ff60a610df13831378243db|2018-11-27|jamesETsmith|Merge branch 'v2.0' of https://github.com/jamesETsmith/netket into issue_116
+a383788a150058a6d77c9c00a13a1310de5d5b64|2018-11-26|Giuseppe Carleo|Merge pull request #121 from gcarleo/v2.0
+ebbccaacf17f3c23a00e181d2d4511b7207275fa|2018-11-26|Giuseppe Carleo|Add overload for int and remove complex because it breaks hermiticity
+3f30511f7de5fea87d89df221cadeae8a56004ff|2018-11-26|Giuseppe Carleo|Add test for hermiticity of operators
+c759ad1d8378e43d443c62e448083d849e295495|2018-11-26|Giuseppe Carleo|Fix operators, again
+e3fe52fef4794d1eda6b67e5d619ca6b178107a5|2018-11-25|Giuseppe Carleo|Correct + operator in LocalOperator
+9a02029a89b199f8ef2293f30f588fae68079a4a|2018-11-25|Giuseppe Carleo|Merge pull request #118 from kchoo1118/v2.0a
+5be7dabec767ec3953cea1dbf9f52d5f0e537203|2018-11-24|Giuseppe Carleo|Further simplify
+d9de7ba49a30d14f530e92089023d11d35cc0bbb|2018-11-24|Giuseppe Carleo|Remove redundant UpdateLookup method using Eigen::Map
+0eca25655060391aca0ac809ad034b51d0ec1477|2018-11-22|kenny_choo|bug fix: compatibility check; use block operations for backprop
+756868a260ccb02ea143ca42d5ae7e0cc72ff601|2018-11-22|kenny_choo|some checks for compatibility of conv layer input parameters
+01f5235803aa9d6f7ddcfa2485c6a1a84acec27d|2018-11-22|kenny_choo|change layer name_
+78454f3bf84aa5f316597da1ba4340c92c64695b|2018-11-22|kenny_choo|change filename to hypercube_conv layer, rename to ConvolutionalHypercube
+7a65186f99fd18cdc275f077790bcbba3f2855a4|2018-11-22|kenny_choo|specialise conv net for hypercube
+0b6a67e2d40d00f9bb17feb248a8288610749ca0|2018-11-22|kenny_choo|put back the conv net in tests
+f566bfe635280d6aadf9dcd8be1a353f064198b6|2018-11-21|Giuseppe Carleo|Merge pull request #115 from kchoo1118/v2.0a
+747a533f0d5852eef9b14b63cd343d18ba4a09fc|2018-11-21|jamesETsmith|Adding python tests for graph hamiltonian.
+8e3aca1b19e671359b178f23aa112ed71c8d5239|2018-11-21|kenny_choo|remove start_idx from der & fullyconnected bug
+2620d9b681be58e63f5f63d38d5d0a73177f48d0|2018-11-21|kenny_choo|remove start_idx from SetParameters
+c28f1dd9613ad384aba80d221702f21a7da1d025|2018-11-21|kenny_choo|remove start_idx from GetParameters in layers
+6865611a7a5670ea04a7284be1689658523b97c2|2018-11-21|jamesETsmith|Merging.
+59daa7d8ddefb0bebf0bb9922b13ec6123b4de60|2018-11-21|kenny_choo|Merge remote-tracking branch 'upstream/v2.0' into v2.0a
+713a0f4deef7ba275a8ba4f084d6a0fba0fae81e|2018-11-21|kenny_choo|remove conv from test
+3a63453780e3ea4b0274603119ad751177161bff|2018-11-21|kenny_choo|modify updatelookup
+c5d32358316e45fd947c643a9d077423be71f02c|2018-11-21|kenny_choo|additional comments
+1a934a6bc9c360404e831c3cc2154595dabce96d|2018-11-21|kenny_choo|change to_json
+6aa2f3d74a150dae3125af7782b297529e70d29b|2018-11-21|kenny_choo|remove theta from updatelookup in layers
+2f0e3edb6a5975586e0b650f5b19223ae5b4936f|2018-11-21|kenny_choo|remove initlookup from layers
+a85710deae491d14963ec644d4a2ec0efd040b48|2018-11-21|kenny_choo|change initlookup: remove layer lookup
+27f8289a3e4b2178993bab1fdd890fbc6e62a468|2018-11-21|kenny_choo|remove lookup from forward
+65d660042ff086187a22e377e4038625f4417120|2018-11-21|kenny_choo|remove forward with lookup
+bf1b021c5495e615cad13cb1e135230cf0e3104a|2018-11-20|kenny_choo|change lookup structure
+83cd9133013353760ebdcd8a9ef10c6eeff3843a|2018-11-20|kenny_choo|update test input for ffnn
+1d36f51e356ff1a08668b3651c65cb607513f82f|2018-11-20|kenny_choo|remove theta lookup from backprop
+e1b37846b96eb6a84516b3ab543cc357c87d7ba8|2018-11-20|kenny_choo|remove activation from conv layer
+6a1b1331ef9c43b782bbb4c9f25d8505eca98573|2018-11-20|Giuseppe Carleo|Merge pull request #111 from gcarleo/v2.0
+07484992cffa9a9314db5ee2f693e67ed208c367|2018-11-20|Giuseppe Carleo|Good revert
+3d23ca9ed40f1c95be5093f58c169c92eb4171e6|2018-11-20|Giuseppe Carleo|Revert changes to travis and setup
+93d6b53882989a6c3b96bd1f356e39ee956a0775|2018-11-20|Giuseppe Carleo|Merge pull request #112 from kchoo1118/v2.0a
+b5b420e53e3be16bffebaecd215b1dc642d78e7e|2018-11-20|kenny_choo|optimised the lookups
+1f1ea0d47021c77c429e5d57d3f985abd3df67ef|2018-11-20|kenny_choo|remove activation from fully connected layers
+77facdb77bfa62fdaede34330111083eb4db8840|2018-11-20|kenny_choo|edit comment
+0812f3b2a6d76dbad3716e74d428b4d731cc2cbc|2018-11-20|kenny_choo|add name string and optimise lookup
+cbb6f56aa6b14fc84488be57fb84915ed79ff059|2018-11-20|kenny_choo|adjust info messages
+ccef89a200cab99d919ee3d647e75c60b038d90a|2018-11-20|kenny_choo|add name method
+6eeef1d34f6fd0cfec58d40636bbe412cf0c90bd|2018-11-20|kenny_choo|add name string
+99652585a4c7be0451e8f9e5b602bb6259fc2428|2018-11-20|kenny_choo|edit comments
+85cb934f947a16d26d50a9cb6aec85eb0b4b39f1|2018-11-20|Tom Westerhout|Let's try and convince system Python to import NetKet
+e7d8d0702e1bc912223911f62a16196667a94903|2018-11-20|Tom Westerhout|Making things really explicit
+c82101e50d8ac89d70e3cace568148184db4abf1|2018-11-20|Tom Westerhout|Put everything in an anonymous namespace to force internal linking (we have that already due to -fvisibility=hidden flag, but it's good to be explicit about these things)
+746873c9aa37bd79e71b7eda8722aaf92e0a2e89|2018-11-20|Tom Westerhout|Try to not initialise MPI explicitly in Python tests
+f6ccf116efe790f0c6060fd8a942e4a2fe0e121b|2018-11-19|Giuseppe Carleo|Merge pull request #108 from kchoo1118/v2.0a
+f8574be4e2a049de31c34f3e1cd98beca9d19b8e|2018-11-19|Giuseppe Carleo|Correct issue in test operator and change setup.py to accept debug and sanitizer
+688020fb070d10c8e512b8520b2fbd9c4a7e8d2e|2018-11-19|Tom Westerhout|Automatic initialization and finalization of MPI.
+ff2bdccb682958c1c8c6874b041cf501f8059c16|2018-11-19|Tom Westerhout|ndim -> n_dim in test_sampler
+435440cd0f65eea33449d52585cf2ac3c786eff6|2018-11-19|Tom Westerhout|ndim -> n_dim in test_machine
+4d4d7d6e4daa4448015302483a247f5940bc1144|2018-11-19|Tom Westerhout|ndim -> n_dim in test_operator
+4899e5ba2293f578b725193b4d4d9d6e2d7131c2|2018-11-19|Tom Westerhout|ndim -> n_dim in test_hilbert
+ad81bf3798caac8d3a4293ed836d6ee0f19342af|2018-11-19|Tom Westerhout|Proper testing of edges() and is_connected
+4ba7d51f8302aaddfc4f2463ba6d34b2d37bd29a|2018-11-19|Tom Westerhout|noexcept specifiers
+d10ca0ac6b92b5a9899b180fe3b2f68389182b63|2018-11-19|Tom Westerhout|Updated function names; added Edges() function to AbstractGraph; added a few noexcept specifiers to functions which obviously don't throw; distances() is now exposed to Python -- not sure why though...
+954281011abaf20c51a0cb9c12fd6820732269c3|2018-11-19|Giuseppe Carleo|Other attempt at Jastrow
+172f4aa08733837be624b9e0c239df82b4a0eb07|2018-11-19|Tom Westerhout|Finishing up Hypercube
+22dd319c3cb2f37772512f2a5c8d0442643adc37|2018-11-19|Giuseppe Carleo|Remove private statements
+86afd0384319939bf65b95e767b21d5653dc6070|2018-11-19|Tom Westerhout|Renamed variables a bit; Construction through JSON is no longer supported. An attempt to use JSON will compile but throw an exception at run-time.
+036a9c5e07f84d1ffdb47b26acbe19a5c8d3bdd7|2018-11-19|kenny_choo|add activation as a layer
+0d7a8ca3115040f6a55fbcb7c81ded815075bcc7|2018-11-19|kenny_choo|add namestring
+e75d67f9cd97ebcb26f787363edd7b08495f7b0f|2018-11-19|Giuseppe Carleo|Merge pull request #105 from gcarleo/v2.0
+9e4ccf94a2d0f20834aff733f8fdbc67cc65b690|2018-11-18|Giuseppe Carleo|Try number 2 with Jastrow
+0c8babf59ef348db71c6e532ae320ac68c091571|2018-11-18|Giuseppe Carleo|Forgot convnet layer
+dd096a78ab044a6ae25b388a634a4af965c776a3|2018-11-18|Giuseppe Carleo|Change call to json output writer
+e90628faed38c6f22ee6691588ae8b84840f210d|2018-11-18|Giuseppe Carleo|Remove convnet layer from tests and open bug report
+99a7b241b9173fedfb66fb3d11f7291d2864e144|2018-11-18|Giuseppe Carleo|try to fix convnet test
+d81c91b12864aa7564c2dde714d20d9e10bdad5f|2018-11-18|Giuseppe Carleo|Pass graph as reference to conv layer and remove jastrow again from tests
+72a2eb8f611eb170a0d73357d6db1a4c398fc6b3|2018-11-18|Giuseppe Carleo|Add operator.hpp
+e3a72c0ca0e19c68f181778e245739dca11f738e|2018-11-18|Giuseppe Carleo|Update tests removing parameter packs in Sampler and re-enable jastrow
+3b7ecf9a8fc1b56d6e055db358826eb0de2d676a|2018-11-18|Giuseppe Carleo|Also pass wave functions as pointers
+43e77f52f09d61391cd879279a4a3e85e319bc32|2018-11-18|Giuseppe Carleo|Propagate changes to Operator
+ced8933932525816e37cf342d0bc9fc9c0e5e11e|2018-11-18|Giuseppe Carleo|Change graph handlers and partially remove parameter packs in test sampler
+96ec587c4a568da31e273af870bb2f3e08a08ed1|2018-11-18|Giuseppe Carleo|Add get_hilbert method to samplers
+ca39abd8ccfed836f1126262a28c4a7ce5ecf478|2018-11-18|Giuseppe Carleo|Change graph references to graph shared pointers
+ebad2eea813abd319df31a3f4a83aa3d6e8f8c59|2018-11-18|Giuseppe Carleo|Remove ugly packs in machine tests
+c088bd45654b24e2a58b4c72b14cb0afe4917f45|2018-11-18|Giuseppe Carleo|Add hilbert index constructor
+4c20374db935d37face3ff71d26785185553b468|2018-11-18|Giuseppe Carleo|Correct two typos
+74b6d038c6b7814cc29062c1d1bb34bc393dfb5a|2018-11-18|Giuseppe Carleo|Change hilbert references to shared pointers in sampler
+2cfd4a7cf64d341de5d54fdddf3fe1804c9aeaaf|2018-11-18|Giuseppe Carleo|Move hilbert in machines to be a shared pointer
+004e87267c37a7d2451497cc7bd396904e4d7a9c|2018-11-18|Giuseppe Carleo|Remove json constructors in hilbert
+a43f5ac8330c2132b37e7bbe741d9cbd75304ea5|2018-11-18|Giuseppe Carleo|Same for fullconn layer
+99d7b1065fb97099445b2f51d7f14713b5216d1f|2018-11-18|Giuseppe Carleo|Remove json constr in conv layer
+617e49e55c087c58f9b1c2ea14b349a3f64efb08|2018-11-18|Giuseppe Carleo|Change to shared_ptr in ConvLayer
+f1ca568ee4934a8cf0ef30200a4c424d5663cef3|2018-11-18|Giuseppe Carleo|Remove obsolete json constructors in ffnn
+faf717d8eb5b6a9c709751379dafe5f348741f09|2018-11-18|Giuseppe Carleo|Remove obsolete json constructors in activations
+7aacb503f94d88a08faba364d5af2e390b48d678|2018-11-18|Giuseppe Carleo|Mark activations method as const
+66738c1439a74136979d79c00301c0ad6d06ae9a|2018-11-18|Giuseppe Carleo|Remove obsolete json constructors in Layer
+f8abb98d792eca8add23c1ea942bcde547de21e1|2018-11-18|Tom Westerhout|Merge pull request #104 from gcarleo/v2.0
+ff974d6dc7740d252f7616bee8bc61dafdbdf4e4|2018-11-18|Giuseppe Carleo|Try fix for tests
+4fc38804d3c3fcc632aa97eaf22a3c3ddfd3a7d8|2018-11-17|jamesETsmith|Adding tutorials for BoseHubbard and Ising 1D and 2D.
+866e78154868f26d4cc2ad6b153c6f86834ec6a3|2018-11-17|Giuseppe Carleo|Fix previous commit
+4fef96b8a04c95c06c7984d3aaa5a218a884555d|2018-11-17|Giuseppe Carleo|Add shared pointers management
+5610bc296679df43c6fe4d20ddccc1e5e13525e2|2018-11-17|Giuseppe Carleo|Remove redundant typedef
+77dc46504e1e86f63c45f0ff02d3651f0cf84b05|2018-11-17|Giuseppe Carleo|Merge remote-tracking branch 'upstream/v2.0' into v2.0
+ca4f7f28b182d3f25b60057b2b4d038401e33b1f|2018-11-17|Giuseppe Carleo|Add python tests for sampler and modernize custom sampler
+d611114d4116acfea1a6f99f0e9246f0e591e00c|2018-11-17|jamesETsmith|Merge branch 'v2.0' of https://github.com/netket/netket into v2.0
+fa01f80c96db2a4c0e03437862458b6c0f7da7d3|2018-11-17|jamesETsmith|Updating ising1d.py.
+a581a186e87f6795270ce1dc9a8e57eff83638f4|2018-11-17|Giuseppe Carleo|Merge pull request #100 from gcarleo/v2.0
+f99ed5beec9054a9c99864daa7927a0cb2a643a9|2018-11-17|jamesETsmith|Initial commit to update Python tutorials to address Issue #94..
+cd5aef2266418de784fa506eb57e79c6e5496657|2018-11-17|Giuseppe Carleo|Fix module names in tests
+7881837366fe1966c0ed33b54c2be607a70d658e|2018-11-17|Giuseppe Carleo|Create separate modules for remaining classes. Move Lookup into utils
+9e067dff8923a6a5e533385b477389da8d6b451a|2018-11-17|Giuseppe Carleo|Merge pull request #91 from gcarleo/v2.0
+75922700c8e0af9c224d09b9954ba3cd11d0edf5|2018-11-16|Giuseppe Carleo|Skip jastrow
+317b4426b5fe5a3bb20b31c4d94d4c81b57ae039|2018-11-16|Giuseppe Carleo|Other try
+4032c17faee3d57b675b1feda3c24489772abb89|2018-11-16|Giuseppe Carleo|Try to figure out problem with Jastrow
+146651923b1d0d9cd6ae1bc16e4af133f8de4a10|2018-11-16|Giuseppe Carleo|Better handling of numerical precision for derivatives
+c8ba87136b77312ba00375233039923d17ef5835|2018-11-16|Giuseppe Carleo|Add test for log_val_diff. Remaining tests should be kept in c++ for internal methods
+1c5ebafdb6ca111d8928b6aef584f28a61bbf2ee|2018-11-16|Giuseppe Carleo|Make sure the imaginary time is treated correctly up to a constant phase shift
+307704903b7160a33f97022885d403f8cddbfcf4|2018-11-16|Giuseppe Carleo|Fix seg fault in machine tests
+0f765eef355d33bdcd1dba56a1e9286a39e62abe|2018-11-15|Giuseppe Carleo|Remove bindings for get_hilbert and fix magnetization checking in Spin
+d3ca4c799314134b9cc270af4479de7758d6d103|2018-11-15|Giuseppe Carleo|Fix travis problems, but still seg fault my friends
+99f78dbe9de2d7c13c9b3d7c13af618689df01aa|2018-11-15|Giuseppe Carleo|Merge branch 'v2.0' into v2.0
+194e7a439915352f8b71c975dada06245eff1c4e|2018-11-15|Giuseppe Carleo|Merge pull request #92 from femtobit/v2.0-machine-segfault
+96cf0c80da69262e2a5530107a8dbbcf9a3685c2|2018-11-15|Damian Hofmann|Fix segmentation fault in machine test
+398a0b18489067d39cf471fac71e8afa5e1f2ba2|2018-11-14|Giuseppe Carleo|Add tests in Hilbert, Operator, remove some obsolete tests
+19942938f79e6835e366c3529a8e0af9c81c17b9|2018-11-15|Tom Westerhout|Merge pull request #89 from gcarleo/v2.0
+c94941008df15110e2050ec5e706904834cdbee8|2018-11-14|Giuseppe Carleo|Change python names for machine. Add tests for log derivatives. Derivative tests need the bug on get_hilbert to be fixed first.
+e2acbe6691f8f5b207ebe645d5e57d9e9cd0ee27|2018-11-14|Giuseppe Carleo|Fix automorphisms for Hypercube and initialization bug in RbmSpinSymm bindings
+3d710ec5b7c2739029be0a8792eadb26095c21c7|2018-11-14|Giuseppe Carleo|Merge pull request #87 from twesterhout/tom-graphs
+39c01041c63e578acb840e14d17f6adcdada9238|2018-11-14|Tom Westerhout|Fixed python tests locally
+558bfdb7b83b5670150c78ac15eff9d9e7ab06e6|2018-11-14|Tom Westerhout|Updated the function/attribute names at discussed during review. Also fixed (hopefully) the incompatibility with C++11 kindly pointed out by @femtobit.
+db513187298e9ea2db888eb85f7285575fc6283f|2018-11-14|Tom Westerhout|Updated the implementation of IsBipartite as discussed during review.
+36b4416fb3746862d53f5b7aefbe43e706f8ccfe|2018-11-14|Tom Westerhout|Merge from upstream. Fixed merge conflicts in pygraph.hpp the origin of which remains a mystery to me.
+3ecb7b7663173870d2001d75a153e3294b4c1d55|2018-11-14|Damian Hofmann|Fix graph test
+422158ffb91b50a0464da2c1762c84bf79dbb729|2018-11-14|Damian Hofmann|Adress some CodeFactor issues
+80dab75299d2e87fee996334b33d38cd2694d391|2018-11-14|Damian Hofmann|Fix build errors in unit tests
+059f4e7a60d6bb8fb86e9db28da83375916c016f|2018-11-14|Damian Hofmann|Fix imaginary time example script
+fe4c4252226bfac9b5951c152db98390cf94f309|2018-11-14|Damian Hofmann|Move JsonOutputWriter to own submodule
+a8ff1e13e509e8168eb2dd01fb15a97eb69a94a5|2018-11-14|Giuseppe Carleo|Move MaxStates back into HilbertIndex interface
+504a995f2085c9053f383afd17a7ee5efe6c6347|2018-11-13|jamesETsmith|Merge branch 'v2.0' of https://github.com/netket/netket into v2.0
+195ac27f69381e1517a4053535d22c3dcb696d8d|2018-11-13|jamesETsmith|Finishing off the hilbert test. Adding bindings for HilbertIndex to pynetket
+7638cd2ab688573eb9fb10a930e1210178342e52|2018-11-13|Giuseppe Carleo|Create machine, activation, layer modules. Add some machine tests
+307cbb9fc451874867f0d8b5cd8898acbd45e4a5|2018-11-14|Tom Westerhout|Hypercube update
+96a3f675d54ada2bfc546c0b6021fc36f33ba517|2018-11-14|Tom Westerhout|Except for the loads of dead code, this is how I'd like Hypercube to look like.
+3ef680d4cd5b281d3a0ec926621731f0bf196eba|2018-11-14|Tom Westerhout|Moved some common graph-related functions to abstract_graph.hpp for convenience
+2fcd301915f7e0b105098b32f39ce6d6b2a12826|2018-11-13|Damian Hofmann|Merge branch 'v2.0' of github.com:netket/netket into v2.0
+f8d5e7e6c423641cc662bb2b79f1e0c1bec1963f|2018-11-13|Damian Hofmann|Fix compilation of unit tests
+c332e0de78298668db105a9fadf6abd9f2faa2d9|2018-11-13|jamesETsmith|Needed to install mpi4py. Appending path on OSX machines to include pytest install dir.
+f251bde2d6afe0072dbbaf6b26ab54cae3b86314|2018-11-13|jamesETsmith|More trouble with .travis.yml
+3a47ccfa42bf6489b584f1895813841da904f323|2018-11-13|jamesETsmith|Switching to building through pip and the running pytest outside of CMake/CTest.
+fdf33ae1347f36f9fb5937b89708ecb7f82a081a|2018-11-13|jamesETsmith|Couldn't find py.test during travis build. Switching command to call it to alternative pytest
+6a2c407c8ea32edb8a2248a467071a0c48e62ff4|2018-11-13|jamesETsmith|Adding python tests to
+10e077d3f239dd99ea3f4b1a69ed214c1d1714c7|2018-11-13|Damian Hofmann|Merge branch 'v2.0' of github.com:netket/netket into v2.0
+8414ef818a123b218acba889495c06d1b4fa7424|2018-11-13|Damian Hofmann|Fix compilation issue
+41d0f3d9783f6e84c6c5ebfe373a50198bc62299|2018-11-13|Giuseppe Carleo|Merge pull request #85 from twesterhout/tom-graphs
+7da5fb818ab015c0c823fa2c174e48285a9c4b8d|2018-11-13|Tom Westerhout|Keep using `netket::InvalidInputError` consistently. `InvalidInputError`, however, is now an alias for `std::invalid_argument` rather than a custom defined exception.
+a72ae24c843f5b5f55396a02b5b50e4e5d183299|2018-11-13|Damian Hofmann|Move matrix wrapper bindings to operator submodule
+b3b9f1a30848a8479d7a49c0bb07c8167373f033|2018-11-13|Damian Hofmann|Remove template parameter from matrix wrappers
+60ade8748b7761416a2714388d1a4e60309cba24|2018-11-13|Tom Westerhout|Proposed way to handle graph construction illustrated on CustomGraph
+7d29818a5d9f985b8a356e38b38d17f763caa015|2018-11-13|Damian Hofmann|Move dynamics code to submodule
+87b6af265052f8d2ec41f011fe62e460fa1e46cc|2018-11-12|jamesETsmith|Adding submodules for graph and operator. Updating PyNetKet tutorials to demonstrate the new usage.
+a266d1114fcdd615ff2311b9617d3196d821323a|2018-11-13|Damian Hofmann|Fix tutorial
+228f28bf555f85ecfbe762ee418838d913caf9dd|2018-11-13|Damian Hofmann|Merge remote-tracking branch 'origin/v2.0' into v2.0
+60dd5822e0e427c464ddd27c2fb54827af56989f|2018-11-13|Damian Hofmann|Update imaginary time tutorial
+68231704a4cca25424ba459f5154289767b3edab|2018-11-12|Damian Hofmann|Python bindings for imaginary time propagation
+6304baa37c215a6f746f4b2e2907996a3e3ed038|2018-11-12|Giuseppe Carleo|Add separate module for Hilbert
+9936d9289364d647953c1d3c6e11b7982370fd9f|2018-11-12|Giuseppe Carleo|Bind random engine, add missing bindings for Hilbert, add more bindings for machine
+57fc2a3e355680b7a6be599239c541036c59192c|2018-11-12|Giuseppe Carleo|Merge pull request #81 from gcarleo/v2.0
+a7a2896340773e25d3edfe1f6448d152836be49c|2018-11-12|Giuseppe Carleo|Add a few more methods bindings to machine
+dba58780aaa50ea8ae9cca4c1ccf19d5e778be12|2018-11-11|Giuseppe Carleo|Fix unit tests
+9005d4d2e5325aefd7c744a775cf179d1e2b60af|2018-11-11|Giuseppe Carleo|Introduce Operator concept, generalizing Hamiltonian and Observable (both being removed now) Introduce LocalOperator with overloaded operations Introduce first python unit test from graph
+1550608a1e858140756f1d9ff3b67fbc3433f933|2018-11-10|Giuseppe Carleo|Fix MPS machine integration and add its bindings
+dc0a2839113e8652b07effc996495fcdffeffc2d|2018-11-10|Giuseppe Carleo|Merge branch 'master' into v2.0
+53376f35cfc5bfc82ce2794717b85aef1c9ef05d|2018-11-10|Giuseppe Carleo|Merge pull request #74 from stavros11/master
+ef67e039a8e5d7918ce2e61757435443e5826b89|2018-11-09|Giuseppe Carleo|Add bindings for all optimizers. Fix problem with unit-layers. Change name of python library to simply netket.
+b84047dac7fcac03b8161648ccd8f576546c610a|2018-11-08|Giuseppe Carleo|Add complete support for machines and Lanczos
+4d618522d6744f271c37d42da4a8222caa85335c|2018-11-07|Giuseppe Carleo|Other attemps for Travis
+e56ae143f27704fe619c514ecde2eb2056035196|2018-11-07|Giuseppe Carleo|Attempt to fix CI problem on Linux
+cbeb2582097b420d3272fa6466cd58124f7ba6ff|2018-11-07|Giuseppe Carleo|New tests for graphs
+e2d202887e6c8a6f02944c3964e8a7ed9a2ce5c7|2018-11-07|Giuseppe Carleo|Bindings for all samplers
+b6e36ed72e284904df5641358639f23f7b2ddf69|2018-11-07|Giuseppe Carleo|Remove unused libraries in example
+9fad4522d6f0f9f1c874547d832e292ba6b44baf|2018-11-07|Giuseppe Carleo|Working example for ground-state optimization with vmc
+4640dadd7b6063f3bdff5cedd08045912aff0107|2018-11-07|Giuseppe Carleo|Preliminary work for sampler
+009d59d5e4010ef9c33cf575ff41bf74b88b864a|2018-11-06|Giuseppe Carleo|Simplified strategy to add python bindings. Includes Graph,Hilbert,Hamiltonian and partially Machine.
+b3cf8133fe551a5906c5ca849d91aea914fd169c|2018-11-05|Giuseppe Carleo|Partial progress in binding for Machine and Sampler
+46e1f80533dc28aa2d1ff3c91253f9369fa47cc3|2018-11-04|Giuseppe Carleo|Add bindings for Hamiltonian and MatrixWrapper. Change the way Hamiltonians are constructed, breaking compatibility with previous API.
+77f0ccff98f2d30956ad1422b8bfd00e60fafe92|2018-11-04|Giuseppe Carleo|Merge pull request #1 from twesterhout/gcarleo-pybind11
+15bda392e3e060337682b0c2caa7ee7eaf9df8e1|2018-11-04|Tom Westerhout|Remove redundant files
+f95c25d15defb1435d6cf655d6863cef15f60488|2018-11-04|Tom Westerhout|Proposed (hacky) use of ExternalProject with pybind11
+79fe942e5d2934b732f0bc493ce1a23e95996209|2018-11-03|Giuseppe Carleo|Fix assertion problem, and possibly travis issue
+7077d39be0679376ea042be511b744e805f0757b|2018-11-03|Giuseppe Carleo|Add pybind11 support for Hilbert
+30c5836b67a6b765f646af48848d327ae50c83f3|2018-11-02|Giuseppe Carleo|Add subtree for pybind11
+cba13361bb09b1da6e51c36f42a0d0d66237bc10|2018-11-02|Giuseppe Carleo|Merge commit 'a5a638443e206af565d78eb730b278571401d099' as 'External/pybind11'
+a5a638443e206af565d78eb730b278571401d099|2018-11-02|Giuseppe Carleo|Squashed 'External/pybind11/' content from commit 9a19306
+ea3b5de6a3d940b43aaec5338371e613a2f99f8d|2018-11-02|Giuseppe Carleo|First commit for python bindings
+9654a87cb36f39e42c1bbb3b7f9cc0838e4487ec|2018-11-02|Giuseppe Carleo|Merge remote-tracking branch 'upstream/master'
+1cec25a4884bdbd2fddb5d24daae627cd89316d8|2018-11-01|Giuseppe Carleo|Merge branch 'master' into master
+c8a68ad46c0aab34694a751f1cda8a00c12b673d|2018-11-01|Giuseppe Carleo|Merge pull request #60 from emilyjd/master
+97bae5f1fdd5f3aeefa62183ed4e299fe643fbf8|2018-11-01|Giuseppe Carleo|Merge branch 'master' into master
+1216affb4ba53398b7709235dd32dc86ac032fc5|2018-11-01|Giuseppe Carleo|Merge pull request #78 from netket/acceptance
+cc6e4c75827a9653828f009911ee0d7bdcd7576f|2018-11-01|Giuseppe Carleo|Merge branch 'master' into master
+b458d100d4844f6d9504dd4cb1bc23d5805abf46|2018-11-01|Giuseppe Carleo|Merge branch 'master' into acceptance
+d45659d3a755ec0d077cd9adb4ac16fc4d8d91d4|2018-11-01|Giuseppe Carleo|Merge pull request #77 from fabienalet/faster-update
+ce0f509cfab44f438bb20ace5cad300a91a5796d|2018-11-01|Giuseppe Carleo|Remove build
+05a480acb917d0cbd88495b0963837bd117b6c67|2018-11-01|Giuseppe Carleo|Delete build.make
+d37ad32917c5a370e0933bb0c4555498c1a60821|2018-11-01|emilyjd|Merge pull request #10 from emilyjd/Optimizer-Unit-Tests
+f1b5948761790118376dced7036e8dcf5b128a36|2018-11-01|Emily Jane Davis|Changed I to im
+5f3ea473ab89f2f63a627a616c45e3e6fe3b5e71|2018-10-31|emilyjd|Merge pull request #9 from emilyjd/Optimizer-Unit-Tests
+11324d3e587617b584d2a4a59f402b69e25543d4|2018-10-31|Emily Jane Davis|Merge branch 'Optimizer-Unit-Tests' of https://github.com/emilyjd/netket into Optimizer-Unit-Tests
+44a8d50142b01380070a808531a2387f171c19fa|2018-10-31|Emily Jane Davis|Fixed warnings
+93c6077757be07cbe25a9a78d4ce55ff8907583c|2018-10-31|emilyjd|Merge pull request #8 from emilyjd/master
+bf4d07ca3a1b2fddc145f5826b08134deaaa8eaf|2018-10-31|emilyjd|Merge pull request #7 from netket/master
+1fab7c1b938993e32e6112bfdf480893aecab6ac|2018-10-31|Giuseppe Carleo|Merge branch 'master' into faster-update
+b9b98a13e889a5b7793d2fcf14da35854bd77ef3|2018-10-31|Giuseppe Carleo|Merge branch 'master' into acceptance
+d258a61e7a8cd400ad0439bcff5254d4e9c1c445|2018-10-31|Giuseppe Carleo|Update README.md
+31aeabe403b277584eac7ff4d5f215afd1cfb160|2018-10-31|Giuseppe Carleo|CodeFactor hotspots
+4fd371843fee575700ed3bccfac3a714dccb502e|2018-10-31|Giuseppe Carleo|Add acceptance to the output of variaitonal monte carlo. Add 2d Ising Model tutorial
+49fe4044d652a0962b1038fdc493bc46486b7586|2018-10-30|Giuseppe Carleo|Merge branch 'master' into faster-update
+18e6e6c90c4aee5aec2dc856af25b50aacd930c3|2018-10-30|gtorlai|Merge remote-tracking branch 'upstream/master'
+9737cb519d52b6f2e73258511725e48220439ee9|2018-10-30|gtorlai|Commit before merging new features from master
+9415b38bb81759c29fc4c65a650e1e3928a5e26a|2018-10-29|Giuseppe Carleo|Merge branch 'master' into master
+c6daeb3ebe78ce173625634ba266ed5aa00b6d38|2018-10-29|Giuseppe Carleo|Update README.md
+f0e6af2484ee9257c8407cf22fea099c69a0ce38|2018-10-29|Giuseppe Carleo|Merge branch 'master' into faster-update
+2ac10224a7622e798e6d22ac0a53981b1d80500a|2018-10-29|Giuseppe Carleo|Merge branch 'master' into master
+e0c9461b337e90965b0e7d4b552687896b6b9410|2018-10-29|Giuseppe Carleo|Merge pull request #67 from netket/lanczos
+b9348fe4e5e9793fbdb99ed20f2b67071d41be2f|2018-10-29|Giuseppe Carleo|Set Cholesky decomposition by default
+ae3b730f437fc28c6c1179e06ea97eec2fe3f300|2018-10-29|alet|Adding cholesky decomposition as possible choice for exact solver
+d4294d7b74631abdc69d1ed63962c3a66eccc0ad|2018-10-26|stavros11|A first implementation of tree look up tables
+718ddf47bb19ec22be22a1fedcc61e1e1deaef37|2018-10-23|alexwie|Added License file, fixed bug selecting ED algorithm, added test for complex Hamiltonians in ED
+afc02f3eae4c5ff163dad55498e160c4c8cb0b5c|2018-10-21|Giuseppe Carleo|Modify path
+2e76aaca35c80d88a173a42e7b8a06bf03a2bfba|2018-10-19|Giuseppe Carleo|Explicit path for IETL
+26585d1ab3f662251f681001315de62fc8536249|2018-10-19|Giuseppe Carleo|Attempt to remove include/compilation error on Linux platforms
+39c4296c8eceabef2276c91a1544f8aa0ffdefa8|2018-10-19|Giuseppe Carleo|Cleanup CMake, remove warnings
+ffec2c05ee1bf01410c51af059822413b99e2f3b|2018-10-19|Giuseppe Carleo|Merge branch 'master' into lanczos
+32b88e71a7ae3b37703e7f7c0fce934e59362fef|2018-10-18|alexwie|Added support for Ground state Observables evaluated by Exact Diagonalization
+86d1ce535b47d44839542d433411acf6661d1769|2018-10-14|Giuseppe Carleo|Merge branch 'master' into master
+2f88fc18a352577da3abc99a9deb024e1bad6530|2018-10-14|Giuseppe Carleo|Merge branch 'master' into master
+732807ebfed395c7e6b8cbe5e9184f31445a4db0|2018-10-13|Giuseppe Carleo|Merge pull request #75 from gcarleo/master
+ac294059e6f7c39c47fa056f6198bb8fa340a889|2018-10-12|Giuseppe Carleo|Improve prod and trace functions using references
+e3e94ef23fd8ef16544e478594006e39c61df314|2018-10-12|Giuseppe Carleo|Fix forbidden template specializations within class scope
+d15dcee34a24587768bbd49ee226a9badc265d8b|2018-10-12|stavros11|Fix duplication
+1681ff00d1e9ee81a3f367e0a1eef807db143377|2018-10-12|Giuseppe Carleo|Merge remote-tracking branch 'upstream/master'
+e7c180756cdd66320fcd762b9e4c9deb33a22101|2018-10-12|Giuseppe Carleo|Add exact sampler, mostly for testing purposes on small systems
+0a4e0c3bfba23742a2bc696dcc4fc7b83c2878da|2018-10-11|gtorlai|Fixed SR
+4c1b1efbee51a6711ef9cfe0eb31a4f8ad91b40f|2018-10-11|gtorlai|Added Stochastic Reconfiguration
+d5a13510c4b308fa518b0826b833e00566fba945|2018-10-11|stavros11|Clean code
+44337051c9a6e3cf739b156f816b145215330a3e|2018-10-10|stavros11|Change test sigma
+caf774877f9f4d772c736f1258f0af9dbc7055fb|2018-10-10|Giuseppe Carleo|Merge pull request #72 from gcarleo/master
+d46bdb5a39cda5fd65d7c8977efa79077e7777d1|2018-10-10|Giuseppe Carleo|Update optional-lite download link
+8691dc3298e2d68352c343b99d8990703e95f3d0|2018-10-09|gtorlai|Training working with sampling - no CD
+0dcbf21f1b169901ea836f06de33087e2ae4c8bd|2018-10-09|gtorlai|Training working with exact negative phase
+73aa04a16d25e059026fc3a2eab91b772d6e54b7|2018-10-09|stavros11|Delete SBS
+029868d728863428935b2cc5392288ab3c9c8900|2018-10-08|gtorlai|Derivatives (real) working - Imaginary weights not training yet
+a2f9e335d6cb9ce1cdac6c0a49e0213ffadbc0cd|2018-10-08|stavros11|json compile error
+eb65f2f6c464d76a2561b9b57d3ca9a31ad00a4f|2018-10-08|stavros11|Codacy fix
+e095610c8189fa47f956598a88bc08c6906b15ed|2018-10-08|gtorlai|Inizialization of visible layer for CD
+d472760fc4712639bf598bfbf54d0a47c6a05177|2018-10-08|stavros11|Codacy fix
+02ac9ff1e34365d4a63ea65118b59ff094d1254d|2018-10-08|stavros11|Codacy fix
+3be40f3aa7738fcb7ddfa1a6e16abf7ccde7840c|2018-10-08|stavros11|Typo
+d6ae7de3e8d070c04d40627d9e93e806a6581002|2018-10-08|stavros11|Fix format
+21311b6e32d79f2366f830e6e980f372fa81b982|2018-10-08|stavros11|Add MPS unit tests
+dfc8df989eacb340c47ddeb468550dfebf91b415|2018-10-08|stavros11|Add machines
+8e8827b498cf0c07cc3e4a150c1e450923e88739|2018-10-08|stavros11|Add machines
+676dc47b89cbb216157bd33d142c05fac5f7bf07|2018-10-05|gtorlai|Dummy loading functions - OK
+bc93e5baaa48c956f919330a9a3d80d7fd4b1a25|2018-10-05|gtorlai|First commit - building dummy functions to handle data
+0c149d6b8e9af3de91723f0e933256cd111d8a1c|2018-10-02|Giuseppe Carleo|Maybe fix the I issue
+2e7bad39faed1a094ba83b0d4a7038f58511c435|2018-10-02|Giuseppe Carleo|Add module for Lapacke
+0e703ca3e3dbaf7982c2071b73019b9eaa2f11d3|2018-09-30|Giuseppe Carleo|Force c++11
+59b538cfe95f9c8c203c7cfb46f194e749016965|2018-09-30|Giuseppe Carleo|Maybe c++11 flags were overridden?
+1bf4fb8c0ed9df303285fc5f50b094433265081a|2018-09-29|Giuseppe Carleo|Attempt to solve CMake issue with Lapack
+871c00077a073d3f3040367379045d0a27867d8e|2018-09-29|Giuseppe Carleo|Set Lapack as option (turned off by default) to avoid problems on MacOs.
+573923e09c2a734771233e5bdd61c27eafaf1fae|2018-09-29|Giuseppe Carleo|Correct CMake option problem and update travis file
+2114be0fae5d2adc35b978a5ff6ccd83d7983166|2018-09-29|Giuseppe Carleo|Remove testing by default in CMake. Find Lapack and link against it if found.
+c127fdbf04b6ce333b2c43b4f43a4d2490399d55|2018-09-29|Giuseppe Carleo|Merge remote-tracking branch 'upstream/master'
+c2d78950f3358b27e2b6a0151f97eb653bc4b3a5|2018-09-24|Giuseppe Carleo|Merge pull request #71 from femtobit/lanczos-opt
+baa7c0d6a29ebd2194b31b2c475fab3848f3d4a0|2018-09-24|Damian Hofmann|Restructure ForEachConn a bit
+77ef5c2124c02115eee730a0a9e050bd583a5d5c|2018-09-21|Damian Hofmann|Speed-up calculation of the matrix elements
+6fdb513249de48bcefc25c153dc6ea5955b20f4e|2018-09-21|Damian Hofmann|Remove redundant call to StateToNumber
+a9ccd441e4c83a760f0fa9fa26e50cc852729513|2018-09-18|Giuseppe Carleo|Further improve running time moving temporaries, improve output messages
+d77394679a18bc77d22c8d9b9df5d210e07278ae|2018-09-18|Giuseppe Carleo|Speed up on the fly ED using deltas of NumberToState
+9e2f39bbbea7a257eb611608d57fe2596f474d94|2018-09-17|Damian Hofmann|Revert "Use unordered map in HilbertIndex"
+c28171ab3d228c253ffd8832db00c564bc30ab95|2018-09-17|Damian Hofmann|clang-format unit-matrixwrapper.cc
+eb0d4b3c97f8ef5446872913562f41ca933cc607|2018-09-17|Damian Hofmann|Use hash unordered map in HilbertIndex
+20d0c0d8428494d3dd4d1ad7cdc881ccf7dbbb70|2018-09-17|Damian Hofmann|Remove circular include in hilbert.hpp
+355bcaa7e6e344a73cf8d96e11b6d86381d9371c|2018-09-17|Damian Hofmann|Fix error with index order in DirectMatrixWrapper and add test
+ff75ece64fa6167dcdee89c5e7796fb2914cbfc1|2018-09-17|Damian Hofmann|Store HilbertIndex in DirectMatrixWrapper
+ae80d7d0b9be9bdc4302a56e8c8f8a28f5a74115|2018-09-17|Damian Hofmann|Update ConstructMatrixWrapper
+fd5dc8666cbd3162eff0c32a64230464a0c97033|2018-09-17|Alexander Wietek|Cleaned up whitespaces, tabs
+ee33eeac8ea8ae03929021cbe4849f9e296c6fe4|2018-09-17|Alexander Wietek|Implemented on-the-fly ed
+a8d9cabbe097317909e93b0500c50967928f119a|2018-09-09|Giuseppe Carleo|Merge pull request #70 from twesterhout/dependencies
+e7a3fea82a3ea9fde12c2051ffdde8417e308f52|2018-09-09|Tom Westerhout|Pass -fsanitize flags to the linker as well
+c5b24616389c6beaf4c4bd85beb78659c31b566c|2018-09-08|Tom Westerhout|Ughr... cmake
+a915da486a03c5701296bca0e0ffc4295963bb4d|2018-09-08|Tom Westerhout|Include mpi.h as a system header to get rid of the warnings.
+d9827a796dce179d79868376c83a84095ecbe7a4|2018-09-08|Tom Westerhout|Restore the options to disable in-tree builds.
+d581e6f6c59150b627d06077548f8dea00bcad28|2018-09-08|Tom Westerhout|Remove option to use Valgrind as it's not tested, does absolutely nothing, and one can simply do 'ctest -T memcheck' instead.
+e2bcdf3ac14fbc4cb88291e64203c59cfcdfd676|2018-09-08|Tom Westerhout|Remove option for testing code coverage as it's never used and is out of date anyway.
+71fe221ab6a1d03d28bb23264985b4d0e74d8fdd|2018-09-08|Tom Westerhout|Include Boost headers as system headers and switch to CXX variants of MPI wrappers.
+ecabe3f46e9f62b430ff856b92683c6e013c37b7|2018-09-08|Tom Westerhout|Back to CMake 3.1: Try №1
+f789c55b66de53a3027f7b7091f4118623079782|2018-09-08|Tom Westerhout|Fixed a bug pointed out by @gcarleo: forgot to specify the C++ standard.
+4c88ec83218502599302cd1467cafcbb94f6d63f|2018-09-08|Tom Westerhout|Remove copy-pasted dependencies
+4a1d80796559daaf1836301f1f6c8dfae54e89ec|2018-09-08|Tom Westerhout|Handle dependencies using CMake rather than copy-pasting
+fb02518e383114d6e0183c2d8adddda3929509d1|2018-09-08|Tom Westerhout|Consistency
+117796cd3bf9b4d950ef4adc3cf13b072d77ba55|2018-09-08|Giuseppe Carleo|Return reference of sparse matrix instead of value. Improve formatting.
+b2d0c8d5d181c50ea7883d937225fc37c1a8a331|2018-09-07|Giuseppe Carleo|Merge branch 'master' into lanczos
+56457e1a90d6c898f73ea5d109bd1b5d0352cf9c|2018-09-06|Alexander Wietek|Introduced Lanczos ED from IETL library
+407badc3cb475e4d15d97a255d7aaadaaf603e33|2018-09-07|Giuseppe Carleo|Move tap
+ab293ff4e052e2a8e6e0824183d16d8f23bfd467|2018-09-07|Giuseppe Carleo|Add homebrew tap
+4e805a82cad602616223eec5e0364787c52976f0|2018-09-06|Giuseppe Carleo|Merge pull request #66 from femtobit/output
+d5980dc2ed6d0e261c5eea486139d8cb7738513d|2018-09-05|Damian Hofmann|Rewrite wavefunction output file instead of appending
+647e04eca0441453e8f3532e71ddff2217c2f5c6|2018-09-05|Damian Hofmann|Refactor JsonOutputWriter to prevent concurrency errors
+d78363ab20131b92c08fcea9a7bdf4d9ba50b61e|2018-09-05|Damian Hofmann|Add error message if imaginary time method is started with multiple MPI workers
+4b499a1b34efe6eead3b29ca04243c89c7f23104|2018-09-03|Giuseppe Carleo|Merge pull request #64 from kchoo1118/master
+bff17dab300956e04190fb5e1bef0bd588afb6dd|2018-09-02|Kenny Choo|Update json_output_writer.hpp
+5ba47304d5f23c96a7ec35ddb369244b08720195|2018-09-02|Kenny Choo|Update json_output_writer.hpp
+8031a15bad8aaf435a3050aab7dfdf4b9d8552ca|2018-09-02|Kenny Choo|remove iostream header
+fbd80622677da59f91d2737394582888a3d0f838|2018-09-02|kenny_choo|minor bug fix
+e0785bb46fe35d9b5d79131cf8bb5bfc28c9e7f3|2018-08-23|Giuseppe Carleo|Merge pull request #62 from twesterhout/lets-fix-61
+8abb8172564f3e944f19ecb0202d6c5a1e139bd4|2018-08-22|Tom Westerhout|A fix for #61
+6ab68d86a2161b9be1e59a72ad25e2c545bbfea8|2018-08-19|emilyjd|Merge pull request #6 from emilyjd/Optimizer-Unit-Tests
+6fdcc79e96043c50cc5e9bf63875f84598a02d2a|2018-08-19|emilyjd|Merge pull request #5 from netket/master
+6e0efbaf40b42328932b7d384f212d480f8791ad|2018-08-19|Emily Jane Davis|Merge branch 'Optimizer-Unit-Tests' of https://github.com/emilyjd/netket into Optimizer-Unit-Tests
+d1ae03f4a6e90df6d3e48f8dbcb66b9c4c6fe1bc|2018-08-19|Emily Jane Davis|Updated with complex Ackley minimization
+84e9c5cad678d8c2c851cd40c1c802072084c5c8|2018-08-19|Giuseppe Carleo|Merge pull request #58 from netket/feature/time_evolution
+c04b2569316945476a7575bd9c234947d51a2b13|2018-08-19|Giuseppe Carleo|Trying to cache home-brew downloads
+37c18a026096b43e43b0757890d4eaadacabed25|2018-08-19|Giuseppe Carleo|Try to speed up CI, and remove older Xcode
+6d14b055772990c8b72892b576990bbe22ff2c8d|2018-08-17|Giuseppe Carleo|Merge pull request #56 from femtobit/feature/time_evolution
+2d456daf7b743e0a31ff430938d8250cbadd74cc|2018-08-17|Damian Hofmann|Move dynamics code around a bit
+77735721b64b7afe43656530ee6d516f400afa13|2018-08-17|Damian Hofmann|Rename UnitaryDynamics to Dynamics
+8ef5a81732ed0d8941b60f0621c4b41e52f0bc58|2018-08-16|Damian Hofmann|Fix clang warnings
+69274d2dc0a915138ca0d2a3c5aec267a533e192|2018-08-16|Damian Hofmann|Fix output of state vectors for imaginary time propagation
+7ee7cfbb977c5f5d4dd8dfd9fc6de2bdab956306|2018-08-15|Giuseppe Carleo|Try to use a more recent version of openmpi in testing
+53dd94ec987b0ec020870f5a30133c45eccace23|2018-08-16|Damian Hofmann|Make Codacy happy
+6c5ddbf6ef9321fdfb3dd7be13449be5271d7403|2018-08-16|Damian Hofmann|Add dedicated class for JSON output during iterations
+0b4c1a9ee690a808900d632b6413b45d1cb5f247|2018-08-16|Damian Hofmann|Use N=20 in Ising1d tutorial example
+1d924ee0c36c2652bf3f5e4998c91fbce14afddb|2018-08-16|Damian Hofmann|Fix test case
+4f0160a38af43609e4e22d2d285947651b60cd10|2018-08-16|Damian Hofmann|Remove debug print
+49c3e7d2b68a7782c348d100a4432b626432fe22|2018-08-16|Damian Hofmann|Merge remote-tracking branch 'netket/master' into feature/time_evolution
+160ca16723a77a9bebfe385255d9dd175b931c6a|2018-08-16|Damian Hofmann|Reformat MatrixWrapper and UnitaryDynamics code using clang-format
+5e15e5731e4ce5bda481da2c15d621a1e470f6ca|2018-08-15|Giuseppe Carleo|Merge pull request #54 from gcarleo/master
+b79e094916219c5a2891e49bad0a5d79ba94ffc9|2018-08-15|Giuseppe Carleo|Remove leftovers
+72da28cec111a0f5abb6cc5d1d77ab68e85b53b4|2018-08-15|Damian Hofmann|Add basic implementation of imaginary time evolution
+85771c33f0e8cab82a5207a63c220e014f96be1c|2018-08-15|Damian Hofmann|Remove Observables class
+0bcd00f1edd8bf0d3591007329fb7e00d00f8df2|2018-08-14|Damian Hofmann|Rename UnitaryTimeEvolution to UnitaryDynamics
+2f86307ab32f51b4397d66dabbdbb6d9b7433f8d|2018-08-15|Damian Hofmann|Merge pull request #55 from femtobit/feature/time_evolution
+d62e048711d2c3458718efc9d5aa88d08a4ffeb9|2018-08-15|Giuseppe Carleo|Substantial speed-up in sparse matrix wrapper using triplets to construct the sparse matrix. Correct a small leftover from recent renaming of Learning section.
+0ae7d520b8bf2b8b5280673c277ef0ad5509c14f|2018-08-14|Damian Hofmann|Merge remote-tracking branch 'netket/master' into feature/time_evolution
+31c07d63af08192a9088bb76b202bd34e31a7405|2018-08-13|Giuseppe Carleo|Merge pull request #53 from gcarleo/master
+cbbcb2b977758554106e77ae46803621780bb4b8|2018-08-13|Giuseppe Carleo|Fix bogus warning from Codacy
+4248df8f5917192caad307d0835ccb33fa2603bd|2018-08-13|Giuseppe Carleo|Rename Learning section and improve organization of tutorials
+511bfec0607914ad614fbf5482764d761b6cd6eb|2018-08-12|Giuseppe Carleo|Update welcome message to last version
+83f6ee95d19a95b3ef590b4c7e82cf6cbe143f0c|2018-08-12|Giuseppe Carleo|Update README with latest features
+118a74e3e32a3296fa26c15ecef7e19d53b3ff1c|2018-08-11|Giuseppe Carleo|Merge pull request #46 from netket/feature/feedforward
+ceacb245d02e8776bd23db21931c36796f488d5c|2018-08-09|Giuseppe Carleo|Merge branch 'master' into feature/feedforward
+c6c89bde16667ec4528bcec0073266cd55ee6a43|2018-08-09|Giuseppe Carleo|Merge pull request #51 from kchoo1118/clipgradients
+0e1e147b747384a08af408c58aeca0d04a330d0d|2018-08-09|kenny_choo|bug fix
+6fd130a9ce590d348f7682b68e049310038715d2|2018-08-09|kenny_choo|reduce variable scope
+9ab09d45e18b057c59e27f9d24199f5640c422a3|2018-08-09|kenny_choo|add gradient clipping
+acb325ae2af70ff500c88d876376c55148183a19|2018-08-08|Giuseppe Carleo|Merge pull request #50 from gugli17/master
+4595c7f9d5ab47c99a6a66ce36edc8508d42c726|2018-08-08|Giuseppe Carleo|Fix tutorial scripts, add jastrow example for the Bose Hubbard, minor changes in formatting
+54ab8be2bcb424793e9b859df7b222566669c71e|2018-08-08|guglielmo|updated readme file with jastrow
+45cf20a94fedd3347b708f025a23b3d0d617c160|2018-08-08|guglielmo|fixed indentation using clang-format, fixed overflow bug for bose hubbard
+6c31e516bed5601467b5c78b5d045e1b785cb9f5|2018-08-08|guglielmo|small fix
+94d4c7e541f5ccc818a6738e295f0077b6f3be07|2018-08-08|guglielmo|remove bosehubbard test
+45c4353754112d0fca08e2a8879e627d4eb302d5|2018-08-08|guglielmo|add bosehubbard test in 2D
+b114fd883d5c5b58faef027fe3c20ac738d64f5d|2018-08-08|guglielmo|add bosehubbard test in 2D
+1b3fe5b58bbc7c060280b3b46f6ca79379298980|2018-08-08|guglielmo|rm unused variable
+c2c0f0ddf87f5bcd8ad6c5f00f8dfa456cb20bd6|2018-08-08|guglielmo|rm unused variable
+55c9ff202475c36b7e74aaae93021771aa90dc5f|2018-08-08|guglielmo|changed jastrow class name
+09b5123ecc2bfc70f248a4f888066fd96865541d|2018-08-08|guglielmo|add test bose hubbard
+6c2dd94d192cd7314fba3b47730dec328804d71c|2018-08-08|guglielmo|bug fixed also in jastrow symm, add unit test
+bcd97557c7f7688d62302b70437df6216b938ee6|2018-08-08|guglielmo|bug fixed in Logvaldiff when no spin flip, fixed indentation, added unit-test
+151a74f09e2953e9a7387196809a96dbcbf35bc9|2018-08-07|guglielmo|added heisemberg with jastrow symmetric WF
+d55badc54bfd5b16d9cc9bea776118b391008904|2018-08-07|guglielmo|Jastrow WF with and without symmetries implemented in Machine
+c09f865a064334ea803b0dea043d3956d597945e|2018-08-07|guglielmo|add jastrow ising input file
+82e0bf6d7d46dce8ce0553032070af0de89be326|2018-08-07|guglielmo|test
+a8140e7453690f5383c7c423516c703f151f363d|2018-08-06|Giuseppe Carleo|Remove inline from abstract activation class
+abe9addee0336c596ee6dafb49ac4f02b2cc8688|2018-08-06|kenny_choo|Suppress warning: comparing long with unsigned long
+271038e5f9a033e1eb789ecc2a4778f449fa6a4c|2018-08-06|kenny_choo|Changed the lookup design: Store the lookup of all layers in the same lookuptable. Each layer has as a lookuptype vector<VectorType>. This change is to accomodate future improvements to exploit light cone structure of short ranged networks.
+d19dc25d5c2d5f79696465db79cbb66144848466|2018-08-06|kenny_choo|Add new test for layer: check lookuptables
+ac51129ad259aae6ab1055862b4597694b2038c6|2018-08-06|kenny_choo|Add new lookup type
+3318f5e8074388b01437ea5541b5a80fded6e406|2018-07-31|kenny_choo|Changing update lookup
+dd4ccdbb8f0b6d54f318bd9243f91708c1c2dc98|2018-07-27|kenny_choo|reorganise the functions to aid readability
+165b585de1d9728faa1e72078c2348c3ee39d398|2018-07-27|kenny_choo|add comments to the function prototypes
+22e2ab4c8d79cceb158d5d28709c5787d30f495d|2018-07-25|kenny_choo|changed layer newconf to vectortype from std::vector
+c44c1067f913a495dcac9a80a94eb617939fd7f7|2018-07-25|kenny_choo|removed unnecessary class members from conv_layer
+81b45293e28aebe53c48cd933c71dd7c993418a9|2018-07-25|kenny_choo|add const to getparameters in layer classes
+d39e41ca9d8c38ee547639f35dd688dd4c05fd16|2018-07-25|kenny_choo|changed conv_layer to new lookup format
+baa3279ff5dc9588371361843931160ba3fb4417|2018-07-25|kenny_choo|changed sum_output to new lookup format
+ecc2131294390c9ca5f5595d177270aab94ed1a5|2018-07-25|kenny_choo|change vectortype to vectorxd
+fdf2e6c263f11d318bd753b0028fa684a0c7f52c|2018-07-25|kenny_choo|Change to lookuptable for storing z and a
+886eea5d1ce5ab0b461f8555e8843aec55b8226b|2018-07-25|kenny_choo|Redo abstract layer prototype
+48c3870ca57c40726d5f81a66f705ca7d555c6a9|2018-07-23|Giuseppe Carleo|Merge pull request #49 from femtobit/feature/feedforward
+8a0a15441e7c703c9bed09c875f63544ce6114cf|2018-07-23|Damian Hofmann|Reorganize graph functions
+86eb324a828b2393f37205844b296d59a0649cb1|2018-07-22|kenny_choo|removed backpropdata(), and store layer input derivatives in FFNN, passing it to each layer by reference
+0169eea156eb78a2724fffb0ea4f38f3d5db77a1|2018-07-22|kenny_choo|format
+057a1c145a1ab8a64f2ab2b26e3c8824717a2f40|2018-07-22|kenny_choo|rename prev_layer_data to prev_layer_output
+16ec45f17554d71964e490edd9a2f2367fcbb38b|2018-07-22|kenny_choo|pass prev_layer_output by reference and remove output function.
+95b9bfa89206afb0e1ade7df756ac7e01b274403|2018-07-23|Damian Hofmann|Add full BFS variant for exploring all connected components of a graph
+4e553c8172146abacbf6290abc0a3f6547fea6a3|2018-07-22|Damian Hofmann|Fix error introduced in merge commit cb1c8201
+d73588f568706158360c7ac418462a8c775dc883|2018-07-22|kenny_choo|Merge remote-tracking branch 'origin/feature/feedforward' into feature/feedforward
+cb1c8201dc2d473346513a3755c7825563252ecb|2018-07-22|Damian Hofmann|Merge branch 'master' into feature/feedforward
+809701f855947c3ed4745d19bf98b430f5f2fda7|2018-07-22|kenny_choo|add override
+0df55e7e484eafc9eb133ab56e38caa303e480ea|2018-07-22|Damian Hofmann|Merge pull request #47 from femtobit/feature/feedforward
+89a98507f433af0fb301940b8e7784bb1b37e43c|2018-07-22|kenny_choo|removed all kernelpars
+d9d26ee2cd1da39728040b13b31aece7aac53ad0|2018-07-22|Damian Hofmann|Remove use of deleted kernelpar_ field (fixes 87ac591c)
+2e9b1b2ab2c4921901718a6846a4d439260891e5|2018-07-22|Damian Hofmann|Construct neighbourhoods for convolutional kernel using BFS
+4a8c424b7fc08fe4da2e212ca19b938dd70b6a72|2018-07-22|Damian Hofmann|Add method to check if a graph is connected
+07cf8493518f682a6acd6bba15dc2dfcf88973b2|2018-07-22|Damian Hofmann|Add generic breadth-first search (BFS) method to AbstractGraph
+a52d0f117a88278b026df7cd777c1b34c5afd299|2018-07-22|kenny_choo|Merge remote-tracking branch 'origin/feature/feedforward' into feature/feedforward
+87ac591cc8de152abaa1354412eac11d1aac4077|2018-07-22|kenny_choo|removed kernelpar_ ...
+67fe7e62c93abf4280d85c16023563868b3e41bd|2018-07-22|Damian Hofmann|Check storage order of MatrixType at compile time in conv layer
+a18293ac41a38112907521f868f9833512eb0e87|2018-07-18|Giuseppe Carleo|Update plot_j1j2.py
+32f72f1daae88eb026e07aea916a2dd1addd1c52|2018-07-18|Giuseppe Carleo|Update activations.hpp
+6049b7b468a212cc85e881e23dad226a9ff2a0dd|2018-07-18|Giuseppe Carleo|Update ground_state.hpp
+e9e5da0696841a3bccae506046fcf5208b067ba6|2018-07-18|Giuseppe Carleo|Update ground_state.hpp
+35ccab5f862f52c08b5fdc33b7f6d9f91c0fbdf8|2018-07-18|Giuseppe Carleo|Update ground_state.hpp
+e574008e8d6f784719a9e5d50a5d47f6014464a7|2018-07-18|kenny_choo|add check that eigen matrixtype is column major.
+57e7ac6127aa1595b97164d46db02dc4ef5c8a77|2018-07-18|kenny_choo|add input test for sum output layer
+1fc3b3b6832da31227fca5133c2cc57b8b206309|2018-07-18|kenny_choo|Changed to AbstractActivation::VectorType
+b035e40096a77d079885fc95156e5b9ea9e6b05c|2018-07-16|Giuseppe Carleo|Merge pull request #39 from jamesETsmith/master
+7fc39cc0f12808c551571b7c0c41facaefe36a40|2018-07-16|kenny_choo|add ovveride specifier
+20c700a291900aa008bc927f60a02ca1a30a0fc3|2018-07-16|kenny_choo|Fix Derivative for middle layers
+89c2de458b7de8fb650c6f03442d5db127950302|2018-07-15|emilyjd|Delete build.make
+6cc2bf7ee1f66f7c50f88ffaffd6b853f53d6994|2018-07-15|Emily Jane Davis|Fix Ackley minimization
+1892b53b97546205ef7c8f5d3a3824b167b67fc7|2018-07-15|kenny_choo|Bug Fix
+e24d595145fc06a8196ea6a42a01c9a6b2331e67|2018-07-15|kenny_choo|Add test for read/write from/to JSON
+192e6039ece71ea272b068f97302feffb960113b|2018-07-15|kenny_choo|Changed to new style of json input: Split optimiser and learning
+961ed04145a5c48036bd8607d31ee79f6650e6a4|2018-07-15|kenny_choo|Added Tutorial Example for convolutional networks
+d14800a9b5f93285672da5d676011cc380d8109e|2018-07-13|Giuseppe Carleo|Merge branch 'master' into feature/feedforward
+ea3f554c152b6c3f8c653f11a1b5e604d6df7985|2018-07-13|kenny_choo|changed infomessage comment parameter to const reference
+600e60eaa3d481c9f1f173c312a2bb34a21bb321|2018-07-13|kenny_choo|added infomessage for ffnn and changed message streams
+4d1cd7b1cf193c7b851fd2f96df49f15f7a2e599|2018-07-13|Giuseppe Carleo|Merge pull request #44 from fabienalet/custom_sampling2
+fb959e50e35584d8a81c655b4a03f0e7608640e7|2018-07-13|jamesETsmith|Correcting j1j2.py.
+0b3cad269deb768efaac51c141eb60c2f0aa961f|2018-07-13|Giuseppe Carleo|Improve formatting
+7d7c992f605bd6beef8ffcbe2974f9e612e60fe1|2018-07-13|alet|Fixed sampler initialization; tests run now
+c72b31154040e32c93baa44e941cda6890bb9f2d|2018-07-12|kenny_choo|changed lncosh implementation to numerically stable version
+5e115e129509811abf30a61b6269de2c9988d00c|2018-07-12|kenny_choo|add infostream
+3756777698d6b9a6407794029484a48a7ead82b8|2018-07-12|Giuseppe Carleo|Merge pull request #45 from kchoo1118/feedforward2
+3154d9a578203e13220c0c220395ed4f0a3709ae|2018-07-12|kenny_choo|modify tutorials
+ef592f172b5e8916bd7d304af155bf4a4b0abf9b|2018-07-12|kenny_choo|initialising class members
+0afede73499bf11988d6360a539f52a50a124c60|2018-07-12|kenny_choo|changed test messages
+be635eb4aa55ff202928d3ba9779025da826500a|2018-07-12|kenny_choo|added to/from json and to/from json test
+f74d0cfdb4a7e4e4cda150a0060d87b6c80d9748|2018-07-12|kenny_choo|removed URbm
+a6f7aecc3b3a0931d549fcafab384be0f686060d|2018-07-12|kenny_choo|added urbm
+652c80713a71bf888054ad93de85654f29006f1f|2018-07-12|jamesETsmith| Moving common non virtual functions to abstract_graph.hpp, creating array_hasher.hpp, and other edits for PR.
+99a98b93b783fb27b8f6312a4f95bbfe238a8239|2018-07-12|alet|Small fixes
+631ef63fac41b5bf6b0ac9fdcaf0e43ea0ae721e|2018-07-12|alet|Merge branch 'custom_sampling2' of https://github.com/fabienalet/netket into custom_sampling2
+44e7c23b71ead1db227b5112622546647670a85b|2018-07-11|alet|Adding Custom Sampler (including test and tutorial)
+d7cbac414ed32175c0a944fb5a99ce6340b83672|2018-07-12|alet|Merge branch 'custom_sampling2' of https://github.com/fabienalet/netket into custom_sampling2
+8a24b0df1550515eec0d10fc0b0a48076832f6a6|2018-07-11|alet|Adding Custom Sampler (including test and tutorial)
+b43b083f7dc4782bd330e68bc2d48c892ea59925|2018-07-12|alet|Fix to parallel tempering; tests work
+cd80018cfbbe6c52771f0b1102c14866a8d64a28|2018-07-12|Théveniaut Hugo|Correction to the test with parallel tempering and added one unit test with two different custom move operators
+2e04c77404bbbd6f5ee6b78b8eaf25007c847cb8|2018-07-11|kenny_choo|comparing size_t to int warning
+80dfb3eeb17e8a2853f2b126965da85acd1d15c7|2018-07-11|alet|Adding Custom Sampler (including test and tutorial)
+e3351098d497b519bbc4d7ba839b1f55a9475d08|2018-07-09|jamesETsmith|Formatting/comments.
+de02136451e8a5687b58d4002a255fed04972e7a|2018-07-09|jamesETsmith|Resetting files that were improperly formatted.
+e3f52a6a90595473f577bc20b9d70b194f39a435|2018-07-09|jamesETsmith|Merge remote-tracking branch 'upstream/master'
+b48e1d5e2bf033932b4a912d4122b168d651cf0d|2018-07-09|jamesETsmith|Changing map to unordered_map and other changed requested in PR.
+7d764ce05fc47e826e461d61aa48271fa311499e|2018-07-09|kenny_choo|suppressing unused parameters warning
+2aa9c6f99eeeb843c05b5d83fc5cb5bacdcb1c09|2018-07-08|Giuseppe Carleo|Add more information on Atom plugin for clang-format
+9570034e38d98846229015bb3c5676e84cb5ff61|2018-07-08|Giuseppe Carleo|Merge pull request #41 from wuyukai/skip_init_samples
+51ec40dedfa12f51586533c2e5663bc04770b427|2018-07-08|Giuseppe Carleo|Set default discarded samples to be 10 percent of sweeps per node. Improve code using int for sweep counters more consinstently.
+b9955abc71e35e1ce366edbc4e39b13108b08c4a|2018-07-08|kenny_choo|edit comments
+a073c76d3f70d0d440d512d37881c259e72bcac4|2018-07-07|Emily Jane Davis|Update optimizer unit tests
+906650708cef92b298de703d6b623bb7ec6c3da6|2018-07-07|Emily Jane Davis|Optimizer input tests
+a6c2de6ff73d9ddaf4556e3304c6bf5fccfc3c2d|2018-07-07|Emily Jane Davis|Unit tests for optimizers v1
+f1c9ef7624c1da5f6409bbf149dff7a9c9e7f43f|2018-07-06|kenny_choo|added sum output layer
+5f4349f7d270ebd9555f07dbe8d190803707db4d|2018-07-06|Yukai Wu|discard samples at every iteration
+359001302909ad4c80253fe46f416278716b0387|2018-07-05|emilyjd|Merge pull request #4 from netket/master
+d63918db4c43cdff4b6fb8b8c2f37f903233e4df|2018-07-05|Yukai Wu|rename variables and functions
+517a86cf20148dbcead1b1efb561fd05f4c3970e|2018-07-04|Yukai Wu|skip some initial samples for equilibrium
+1cc89063c8f7f30bb18f3c6073e0d3019ca3c1f1|2018-07-03|kenny_choo|fixed derivative bug in convo layer and add unit testing for new layers
+0d3e7a9daa009be655fd2b1b5c846762dad7cddd|2018-07-03|jamesETsmith|Reformatting using proper clang-format settings.
+8e4edb71946fdf026ab13c61835a3427851e2526|2018-07-03|jamesETsmith|Correcting codacy failures.
+2b7ef5e686fe0f054e89ed09a51151f9a05f61bf|2018-07-02|jamesETsmith|Fixed bug in push_back of operators.
+d9a8f7b3f5dc8f393ac534944e5158f4a212c49c|2018-07-02|jamesETsmith|Small bug when add bond operators.
+8f98421db020716cbf86548e712769cae7c04459|2018-07-02|jamesETsmith|Small changes.
+eef47619a782d4c1c047e3ad4e119238fabbe743|2018-07-02|kenny_choo|added convolutional and symmetric
+6cce76a771856001cc2f50315e37a65bfd482d82|2018-07-02|jamesETsmith|Using InfoMessage instead of std::cout and adding default if only one edge color is necessary.
+b7b5e1cf216d4edb008b939f6f3b41e372152514|2018-07-01|jamesETsmith|Adding unittest and cleaning up some naming in graph hamiltonians.
+983d49659bb5d5e1beca81370d4aaaf0040e3d15|2018-06-27|jamesETsmith|Fixing bug in color labeling and updating J1J2 test.
+9c3b75d719aa195bf9192c15859da13cc8921e53|2018-06-27|jamesETsmith|Switching to graph hamiltonian and colors.
+f16fb87e715e24eae8e3260047d9289c83040b17|2018-06-23|jamesETsmith|Adding J1J2 tutorial.
+deb1b9e7b9ee58cf1af353bff14d8de7a5196c21|2018-06-23|jamesETsmith|Bringing up to date with master.
+ee2decf23eb65f201c1aa3e969402195ea20f97e|2018-06-21|Giuseppe Carleo|Merge pull request #38 from gcarleo/master
+b10e3a95516f4843949ee856642e9112817c7f39|2018-06-20|Giuseppe Carleo|Solve build problem
+9a3ea3701425d3738647bc5806fa8e892a44e49f|2018-06-20|Giuseppe Carleo|Change Stepper to Optimizer
+348c5a6b9b5b796ba2167f2872475650158b6c2a|2018-06-20|Giuseppe Carleo|Use stream objects for Info/Warning/Error/Debug messages. Consistently remove cout statements and replace with Info messages.
+b9fb208d08ae4224cea06935bdd8ff29308a6847|2018-06-19|Giuseppe Carleo|Update messages.hpp
+d4aeeaf8a427c9713523cb0c2ee62e97b5bcc68a|2018-06-19|Giuseppe Carleo|Move Steppers to a separate section. Use warning/info/error messages.
+ff79efed334a7b7622a13f77c2baf3e383cefdca|2018-06-19|kenny_choo|removed std::cout message
+d6d422b46d603ff9350ee40bbc603382ebf08910|2018-06-19|jamesETsmith|J1J2 test looks close, but relative error is ~1e-3
+45b0e3469de441194e6b9d03f153bbbd64f8599d|2018-06-19|kenny_choo|add unit testing for activations
+37db202b5da6adcdb5eb79b055f9ace776ae5f23|2018-06-19|kenny_choo|added checkinput for layer class
+42edebc2e683539b73975f8ff8142bda0e9d6df1|2018-06-19|jamesETsmith|Cleaning up bond_hamiltonian.hpp
+648545e70da687be1c31d524a91aca6e332066b0|2018-06-19|Giuseppe Carleo|Merge pull request #36 from kchoo1118/feedforward
+11e2863e264882b02f41739d507fabb8130dc78f|2018-06-19|jamesETsmith|TFI working
+96ea3385a78f956c76fecfe996ed0ccc62c2d4b5|2018-06-19|jamesETsmith|Trying to reproduce the TFI in 1d.
+c1628dd398c4c6b70b0bac4c992edc8de8e0be74|2018-06-18|jamesETsmith|Corrected an error when reading the adjacency matrix.
+7d358319837070ec02f989119d9f0757917b6386|2018-06-18|kenny_choo|add unit-testing for layers: get/set pars and derivative testing
+2bce872da00288201a2513320711ed2248f9b453|2018-06-18|kenny_choo|changed activate to operator() and moved Checkinput(pars) into Init
+b442aa86258d40237ef8e6b3a92b982876f583e5|2018-06-18|jamesETsmith|First commit for BondHamiltonian class.
+e44731bc85f6b3532235904b4a806e2b82f715f2|2018-06-15|kenny_choo|added typedef for unique_ptr
+6740f126175d9017840562c3c0f8aac9e32f0750|2018-06-15|kenny_choo|use fieldval instead of fieldexists
+8720bdc4ebdcc680e247b5f5d13f3851a03d7c1f|2018-06-15|kenny_choo|Comments for activations
+08eb60a73f3c68f2cb3f09945df1126dd60fd798|2018-06-15|kenny_choo|used better way to suppress unused variable warnings and changed to CamelCase convention
+5fa0267d28214736c8dfd4323abe927091461345|2018-06-15|kenny_choo|bug fix
+eec8195202ff494d1fc680edb02775c8439b61b8|2018-06-15|kenny_choo|added destructor
+c03001252f4142ef900565d48fca1d933dc8c77d|2018-06-15|kenny_choo|removed unintialised member variable mynode_
+36610fbd5da6e7d2c510b23f9e8fa4dda43853dc|2018-06-15|kenny_choo|explicit FullyConnected constructor
+94787fc37de5567dd07b2a128123f11967a8a83f|2018-06-15|kenny_choo|Added FFNN tutorial
+6de31d31e0984b9d6b2aa051a4c08f3e2bec92a2|2018-06-15|kenny_choo|Merge branch 'master' of https://github.com/kchoo1118/netket into feedforward
+4533070c04da61d5a18c87fd894f63d9c1b23f6f|2018-06-15|kenny_choo|Error Handling and unused parameters
+c81e09e565be80008a0b19e6677011f256ea35ff|2018-06-14|kenny_choo|nothing much
+e7268450246658ef77adb9fae923d4d657d74e08|2018-06-14|kenny_choo|cosmetic changes to feedforward and adding feedforward tests
+d634b4207dc3dbdc159d918c62266774f0153d10|2018-06-14|kenny_choo|Added Layer Initialisation with Json
+66c24d47702bc0610e4fc92d2262475fcb03810a|2018-06-13|Giuseppe Carleo|Merge pull request #33 from kchoo1118/master
+34f159d4d00af62a0891a807c0ef2e1f9e238ee2|2018-06-12|kenny_choo|a
+09d60f09be1cf8b3169c407165a64bfd60fc5b25|2018-06-12|kenny_choo|gitignore run and build directories
+b6034d36f04c9460b998bf606c59ee1ad70b9b98|2018-06-12|kenny_choo|gitignore run and build directories
+ace03c3429a17198f84f7a03827bba018e4620de|2018-06-12|kenny_choo|Changed LogVal(v, lt) to LogVal(v, const lt)
+b652681f5b4365a25a481855303f93db7dd25643|2018-06-12|kenny_choo|Added Feedforward with fully connected layers and changed logval(v, lt) to logval(v, const lt)
+9feea7f41e34b484a0d2bc910f27572f2567e6da|2018-06-12|Giuseppe Carleo|Merge pull request #31 from femtobit/error-handling
+cf47f4d9149c72d77b0eda5abdd52b961ff02ced|2018-06-07|Damian Hofmann|Throw exceptions for invalid user input
+8996bb9c87a89826c1f234cda37d98df6eec0b1f|2018-06-09|Giuseppe Carleo|Merge pull request #32 from femtobit/test-assert
+f6e1c9cdeac62a2a5a241e15e07f5886d41f85ec|2018-06-08|Damian Hofmann|Compile Travis tests without -DNDEBUG to trigger assertion errors
+aa9096cd2f3ad20db633f761a40a747f7155e0e1|2018-06-06|Damian Hofmann|Merge pull request #29 from femtobit/time-evolution
+2eefba61134f7d977f139798ae6d6f43e04af68c|2018-06-06|Damian Hofmann|tiny: Fix typo in unit test
+f64b0f923205dff8544fb286a34ec92bbf6416e7|2018-06-05|Damian Hofmann|Address issues from code review
+0745fc96f859ace2bf800800d0dc6bebfee50cc4|2018-06-05|Damian Hofmann|Remove Time template parameter
+e9fe700aa82bfbd06753347b3cc77699ddaa5e91|2018-06-02|Giuseppe Carleo|Update unit-matrixwrapper.cc
+cbe2b67f652750776559ce1b60ade3e98be19fc4|2018-06-01|Giuseppe Carleo|Update unit-timeevolution.cpp
+9bb14f33a25da36586f5d89e52cd2fd18f111327|2018-06-01|Giuseppe Carleo|Update .travis.yml
+783d77a83026b724c8efa30a77378b70cb036f30|2018-06-01|Damian Hofmann|Remove CRTP from time stepper code
+54e190b853fd06f6dfabc0a20279cda9d3874a0a|2018-05-30|Damian Hofmann|Address Codacy issues
+f2746db9dcdacb579077c5170a4a80fcffb4d66a|2018-05-30|Giuseppe Carleo|Merge pull request #28 from femtobit/duplicate-conn
+537de3206c3b0ea38eb8710cef3513f274e1ecb5|2018-05-30|Damian Hofmann|Add basic tutorial for exact time evolution
+b694c0a5290f88222793731c18064951fa329d4f|2018-05-28|Damian Hofmann|Add time evolution code
+69ad54f8b17cba8d1edf8f849b35a35809dbae50|2018-05-28|Damian Hofmann|Make the code compatible with C++11 again
+33e948ef3cde73b30103de4fd5aaf37edf699b70|2018-05-28|Damian Hofmann|Small optimizations for controlled time steppers
+b5b15e8133ba97f40843520d1e06219a2532cdcc|2018-05-28|Damian Hofmann|Add time steppers with error control
+54de9aff8691df1f3079215de2b783a372662bae|2018-05-26|Damian Hofmann|Add basic ODE time stepping
+3e44adb3e699fe8211fa9efe9c8a3b3add8b56c7|2018-05-30|Damian Hofmann|travis: Enable more detailed output for AddressSanitizer
+e66613de3c4891210a14c6aeecb2ac87250da938|2018-05-30|Damian Hofmann|Remove periodic boundary conditions for L=2 from unit tests
+56ce86c886701867d2103ab290b5d68b0d18aed3|2018-05-29|Giuseppe Carleo|Update version in welcome header
+a85309f68d204add9709c8a942ab8f6d840e5b8c|2018-05-29|Damian Hofmann|Disallow hypercubes with L <= 2 and periodic boundary conditions
+5751d2ba5e2fd363959503825637e98479e9707d|2018-05-29|Damian Hofmann|Check for duplicate connectors in Hamiltonian unit tests
+071eeedb1e1f5bf3c8f76b55600c5b6bee7a414a|2018-05-28|Giuseppe Carleo|Update issue templates
+5d93610f85eaec4ebf16cac7409a7ccc5a109f29|2018-05-28|Giuseppe Carleo|Merge pull request #27 from femtobit/matrix-wrapper
+19c668e2fc491b2decf551e1f12931c690764076|2018-05-28|Damian Hofmann|Matrix wrapper: Compress sparse matrix after setting all coefficients
+30ccc1ce2172b889abb63d85d09df34711aab9e3|2018-05-28|Damian Hofmann|Allow duplicate connections when initializing matrix wrappers
+5393a0feddb245a7256e507a7d2bb44883be59a3|2018-05-28|Giuseppe Carleo|Merge pull request #26 from femtobit/travis
+b3c04f25986f8930df485c92984a318988e0eeb0|2018-05-28|Giuseppe Carleo|Update machine_input_tests.hpp
+8b42e5e0c796337dd2721ab0de983d6de3b47d60|2018-05-28|Giuseppe Carleo|Merge pull request #24 from artemborin/fix_rbmsymm
+037d743142dd6fdd9cdc9ae31e46dfbf10ff2af6|2018-05-28|Damian Hofmann|travis: Remove deprecated Xcode images from build
+35b5e7fd910301896b66d3eae9b2383b5a2c3777|2018-05-28|artemborin|Update rbm_spin_symm.hpp
+c7f26d52fdb66d2a8f9f94f2e2cfdc8b4ab41334|2018-05-26|Giuseppe Carleo|Merge pull request #23 from twesterhout/proposed_fix_for_22
+3c2e8e0a9f71623f13bdb4b1234a338acc76acf5|2018-05-26|Tom Westerhout|Fixes #22. At least on my local machine.
+916bfe25b89eff0f75d31425871ba8454e4d17e6|2018-05-24|Giuseppe Carleo|Merge pull request #20 from emilyjd/StepperEditsv2
+9df65f7f74a1b55648b31cd4fe3adad6f2575cc8|2018-05-24|Giuseppe Carleo|Update .gitignore
+77642ef6841fbfe66805535588f35a8a625a52df|2018-05-23|Emily Jane Davis|Added modified steppers
+43cd4a1c8da3fcb5003048a4070bc25e180baf61|2018-05-23|Giuseppe Carleo|Merge pull request #19 from femtobit/matrix-wrapper
+d479f9de81a5ff6c268841b57243a194dfbf63d5|2018-05-23|Giuseppe Carleo|Size_t to int in sparse_matrix_wrapper
+ae115b3a389c7da15495fae48f4f5ce377b35f41|2018-05-23|Damian Hofmann|Pass Hamiltonian instead of AbstractHamiltonian
+cbcdc4105dfd848bb9ed9da8853fbd820514b004|2018-05-23|Damian Hofmann|Move matrix wrappers to Hamiltonian/ directory
+7eb8c126eb857565c648ab1cde5a1fe869049f28|2018-05-23|Damian Hofmann|Replace use of HamiltonianMatrix with DenseMatrixWrapper
+4004092c1ceb78b2296e506eb833a38b6bf3d667|2018-05-23|Damian Hofmann|Add matrix wrapper classes for operators
+396eed660bc56ad892e4f328f80f40e0edd3c8da|2018-05-23|Damian Hofmann|Mark AbstractObservable::FindConn as const
+62df64ae5ebfd6b96c92968625c358bb99bdcd4a|2018-05-23|Damian Hofmann|cmake: Enable colored output when using ninja
+fcb637e6069755401a178cdbca697a594710e277|2018-05-23|Damian Hofmann|cmake: Mark Eigen3 include directory as SYSTEM
+a582388625b12348e896dda3cd84a88d072dc443|2018-05-22|Giuseppe Carleo|Add full exact diagonalization. Future versions will add sparse diagonalization.
+961729bd1bcd4bd7f7444b139bd5c9a9d66a6935|2018-05-22|Giuseppe Carleo|Merge pull request #17 from femtobit/small-changes
+24c05d8e149c977c1d73d79e0f3a99f00608b6d6|2018-05-21|Damian Hofmann|tiny: Replace double with int in purely integer calculation
+5af836f245dfff8ef718e44efee1c9f330b8e18c|2018-05-21|emilyjd|Merge pull request #2 from netket/master
+57dd9b38c576aba41f55a35f4b2efc993fc20729|2018-05-21|Damian Hofmann|Mark Hamiltonian::FindConn as const
+48889a5ac6e207cd518debb66333e90fd3dcba86|2018-05-21|Giuseppe Carleo|Merge pull request #16 from netket/v1.0.2
+7ca26b756ffca1a908c228b286650a6d3d940579|2018-05-21|Giuseppe Carleo|Create Utils, containing Json,Parallel and Random utilities. Remove remaining using namespace ... statements
+e94d48494a5e7c4d3ee38788660e66f89eae3f7f|2018-05-21|Giuseppe Carleo|Google style enforced by clang-tidy
+f17226d9a4c3cca3963e99a2a7db2e5b0594c738|2018-05-21|Giuseppe Carleo|Add CONTRIBUTING
+87431bafeeca59b99a121d02388b55a09d2c2240|2018-05-20|Giuseppe Carleo|Merge pull request #15 from netket/add-code-of-conduct-1
+618099252e64bb24f05649a8123c049fb47646bc|2018-05-20|Giuseppe Carleo|Create CODE_OF_CONDUCT.md
+82229061ed1f06ade87de3d4a9a07ef913627b57|2018-05-20|Giuseppe Carleo|Add virtual destructors
+7673c4b91a6cb9e18db18e331bca66608d304583|2018-05-20|Giuseppe Carleo|Fix travis file lacking MPI apt
+6eefd1be8a229a04aa7720fdccece15ef69c68fe|2018-05-20|Giuseppe Carleo|Move NetKet headers into dedicated folder. Add clang sanitizer and cppcheck to CI. Add welcome message.
+87caa7d42b067881d673be50393234225e1ce42a|2018-05-20|Giuseppe Carleo|Rename headers into .hpp to conform stantard practices
+3201dc5875a4b7d951aaff64dfec16d040c538ca|2018-05-20|Giuseppe Carleo|Add unit tests for Sampler
+3e5d665f891cc0dc03b51db5f7c04e94fdf326e0|2018-05-19|Giuseppe Carleo|Add override statement for derived classes methods
+d18b071b07b3195be4965c792fbaf8f4216d5386|2018-05-19|Giuseppe Carleo|Add implementation of HilbertIndex
+a82ce7402c6d8c84ed9f3d3eaac1d637728bc563|2018-05-18|Giuseppe Carleo|Add prototype for HilbertIndex. To be completed.
+9db19d13fb69c8b21ea1f003b6bda410b683d4c3|2018-05-16|Giuseppe Carleo|Add Observable tests. Remove problematic OS from Travis.
+355a940775b7dc06ef20f77148a41518fc06ca60|2018-05-15|Giuseppe Carleo|Change to https in README
+f84d11c035a479726210c4ee37b21ace19decc2c|2018-05-15|Giuseppe Carleo|Add unit tests for binning.
+b0fb62ad8e0ec562374cf8aaf06ad7a460c0b42f|2018-05-15|Giuseppe Carleo|Fix bug in Graph initializer when deducing from Hilbert space. Add further unit test for Hamiltonian.
+2faabe765cf83c481fbb22f0fac819ce41cff131|2018-05-14|emilyjd|Merge pull request #1 from netket/master
+89cf57e794aa9f42ec83b08bcd38a889c2d3d9ca|2018-05-15|Giuseppe Carleo|Solve a few minor issues ermeged from codacy analysis.
+9613085c9d60c45c62d20703f98f4c2c175bd1c4|2018-05-14|Giuseppe Carleo|Use find_package in CMAKE for MPI.
+444adf069bca9ccc9769e75368cd2eacf725897a|2018-05-14|Giuseppe Carleo|Add unit tests for Hamiltonian.
+40277fed6bb1630a6c90d99f2bc9b768e34c58ca|2018-05-14|Giuseppe Carleo|Merge pull request #13 from HUJI-Deep/feature/clion_project
+b478d30c639ee06a208250b63809f584b7da07ac|2018-05-14|Giuseppe Carleo|Correct minor spelling issue in Netket variable
+d65a01bf2f90203baeaf9cfac6266548076143b6|2018-05-14|Noam Wies|add headers to cmake target
+950fefd375d77b8f89ddbf6d9f47c48076153b80|2018-05-14|Giuseppe Carleo|Add issues badge
+d06fec7a475b9edf5649403e67e84545938b55a6|2018-05-13|Giuseppe Carleo|Correct minor issues suggested by codacy
+0b6939089164559bdcd2468df7ce24a2ee60d27c|2018-05-13|Giuseppe Carleo|Add codacy and license badges
+b5749dc3f80e8c53e34c3bc2a3cd11278159d470|2018-05-13|Giuseppe Carleo|Remove logo image from repo
+434135c27e8a6783dc2d288c8fdb9559acf02756|2018-05-13|Giuseppe Carleo|Update README.md
+78011e72fe992b6069044b366aa29b0b99d1ea07|2018-05-13|Giuseppe Carleo|Change image in README
+9646e141be77cfa0375d9fb159b09e0e985a5cf3|2018-05-13|Giuseppe Carleo|Add Travis status image
+707df221a55956e1938bb22334d8a58878f7b035|2018-05-13|Giuseppe Carleo|Add Hilbert unit tests.
+a2735a7456e99a55ae56cf9c2b0a06b2a2449dd6|2018-05-13|Giuseppe Carleo|Beautify code and improve include dependencies
+27ceccf839a459ee8a345b2b759bd8cfd6df732a|2018-05-13|Giuseppe Carleo|Remove warnings when compiling with -Wall -Wextra -Wshadow -pedantic
+c8ade2266ab1a33f8420cecfa69fdfe719a377eb|2018-05-13|Giuseppe Carleo|Remove polluting 'using namespace'
+b135beb987a8cce5aba1eed8b65e6795d7f8dd12|2018-05-13|Giuseppe Carleo|Add possibility to load graph isomorphisms from file and specify whether custom graph is bipartite.
+4c3f1f0ffad9c9ae519f0927aae257bca9e5cdb1|2018-05-12|Giuseppe Carleo|Add possibility to construct custom graph from edges lists. Modified tutorial on custom graphs to be compatible with latest version of networkx.
+d7d33c0fbf8929aaadc22b31b4db7d1611024fb3|2018-05-11|Giuseppe Carleo|Solve issue with travis script.
+925dfc79c48f990dc8ed226883f78d8e4740583e|2018-05-11|Giuseppe Carleo|Add better constructors for Machine. Add more OS/Compilers in Travis.
+2e600f629523714d3ca6df0cdc84b5713b576304|2018-05-11|Giuseppe Carleo|Add more general constructors to Sampler, this will serve as template for all the other classes. Remove warning messages during compiling. Better handling epsilon in Machine tests on different platforms.
+cd0f6a483d47086b80f88fa68d37f260cdc44d03|2018-05-11|Giuseppe Carleo|Modify epsilon in unit tests to be less strict in terms of numerical precision
+cc0a5ee68dad639d24edd6149fe4f26830182284|2018-05-11|Giuseppe Carleo|Add travis CI
+0f07acf1d2b0c2b2a238a96d6f66b1674a846d7c|2018-05-11|Giuseppe Carleo|Add plethora of unit tests for Machine and a few for Graph
+f3fd1791afb60ef818c4ed9bf1eab1aba215e6b9|2018-05-10|Giuseppe Carleo|Cleaner structure for include files. Add CMake. Set up unit testing based on Catch 2.
+7487099fd500305717f9724ebbd4bcc4b8e57d04|2018-05-08|Giuseppe Carleo|Remove bare new assignements in steppers
+b5df9670b7582fbcb7eb3db722a8343540ee9206|2018-05-03|Giuseppe Carleo|Add self-contained function to read json parameters from file
+7402132b9f9e35d8b2dc8d53b9566016a72ddc27|2018-05-02|Giuseppe Carleo|Use std::unique_ptr instead of new, to avoid possible memory leaks.
+01986ea5acf5a5b1eedebcdef2cdef41f9fee085|2018-04-26|Giuseppe Carleo|Merge pull request #10 from alexandercbooth/add-py2py3
+51dd0bcaba147547b19138bd8e2a04913760eaad|2018-04-26|alexandercbooth|chore: making tutorials compatible with python2 and python3
+bc83a0f65f6a54a07cc0a0498c1ba545c844f985|2018-04-23|Giuseppe Carleo|Merge branch 'master' of https://github.com/netket/netket
+8bc0730c875a3558f5da6dad8cd04283b36335bf|2018-04-23|Giuseppe Carleo|Solve link problem in README
+bede4078f6bf9708258f4a198cff491ece809d7b|2018-04-23|Giuseppe Carleo|NetKet core files
+ee896698dcdc736986c7149a8ce60eb99ea8847d|2018-04-23|Giuseppe Carleo|Add information in README
+5697d6c8a8b251699a991dd8b9de6f81c746a470|2018-04-23|Giuseppe Carleo|Merge branch 'master' of https://github.com/netket/netket
+c9b6b29368dbcb6066fde1261d4676ee46298249|2018-04-23|Giuseppe Carleo|Solve link problem in README
+d801319b2d889f6f04a928b89e4bcba8bd967f58|2018-04-23|Giuseppe Carleo|Solve link problem in README
+f45992e28ff1fc43a75cd4d0a26344fb607b5ed9|2018-04-23|Giuseppe Carleo|NetKet core files
+a7ebee4661054f167959649b7f874c3489ff3ebb|2018-04-23|Giuseppe Carleo|Add information in README
+6fe0a5b09179550e247d260c10890c27425d0188|2018-04-23|Giuseppe Carleo|Update README with features
+01ae5e95cce422bc83c46de8a562083ae2f21642|2018-04-23|Giuseppe Carleo|Add license
+00c0c4b71980ba4849a615c5696cb030c6aacad8|2018-04-23|Giuseppe Carleo|Added headers
+b48ba1bd4cbeae97f478dadea8b0abbeefe12775|2018-04-23|Giuseppe Carleo|First commit

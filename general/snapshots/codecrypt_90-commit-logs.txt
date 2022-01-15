@@ -1,0 +1,475 @@
+89908fed4a1e7aa4e11baf92bc06db840157874b|2019-02-01|Mirek Kratochvil|push some forgotten formatting changes
+7c3e802a71b86fcb180a4c9ab1752b12e22e1ccc|2019-02-01|Mirek Kratochvil|continue the good practice with replacing unneccessary op[]
+41f2bb4db7ab84098f50d60f36f0d0c825fc4306|2019-02-01|Mirek Kratochvil|Merge remote-tracking branch 'nico/master'
+ada0c16f70da9a21dec8f73b26b396514e9122a7|2019-01-04|Tom Li|hash.h: fix std::vector access violation.
+f7ae29ccc2635b443cac3d19c465c247d502bfff|2019-01-04|Tom Li|keyring.cpp: fix std::vector access violation
+6e53922328da8738c55b0e46ec6e39446b4b60b2|2019-01-03|Tom Li|cube_hash.h: finalize CubeHash if there's no incomplete block.
+7021f6c734bd501c50c39be0721ca4889fd5ac95|2019-01-02|Tom Li|sc.h: correct access violation in load_key_vector(), close #2.
+4441f8e5146c1a85dfbcfb4560d7971a892e3e79|2018-10-18|Mirek Kratochvil|document existing python bindings
+c3f926b7593131c8275cca63e068b023e6ff259a|2018-10-03|Mirek Kratochvil|add windows port info
+59af6b2ae824a6368bbb7c8e1c8c3817c98c639a|2018-05-28|Mirek Kratochvil|produce a conf-time warning if using getpass(3)
+f0ecdcd9c950d6996bc0544b0e825708f53c6771|2018-05-28|Mirek Kratochvil|autogen.sh: produce better Makefile.am
+e615d48732d4bfd06d3f19d5b2a25eb5bc70cbf5|2018-05-28|Mirek Kratochvil|Merge 'amynka/cfg', better autotools autotooling
+1b1b07d9e629e47d8876288891ab86f488985f7e|2018-05-21|amynka@gentoo.org|Buildsystem improvements
+58c8beefd2fd7fefb9cfd51b0ddfa18e6958dcb7|2018-02-01|Mirek Kratochvil|Merge branch 'cmake'
+fb616a748ecac0c772fae6c9ae46bb13a67edbdf|2018-02-01|Mirek Kratochvil|CMakeLists commentary
+d7362a0e5b1539d09b7cc1dd56fa1004ddc297ff|2018-01-30|Mirek Kratochvil|keep .gitignore sorted and complete
+4a00aec0b9a4990dff756947a224dc0722219fd5|2018-01-30|tearsofphoenix|add support for CMake
+91b12452d6d0ad1eb50350d373519792eed9cb12|2017-12-15|Mirek Kratochvil|update docs
+25cb1f081d447fd6747607c1f425498f3acca0e3|2017-11-22|Mirek Kratochvil|contribution guide
+0e541c4fbf0d83cf64029678a09ddc57836f3801|2017-10-31|Mirek Kratochvil|version bump to 1.8
+66d54881335f49e71825b46ffe9026b87dff244d|2017-10-31|Mirek Kratochvil|privfile: add forgotten sources
+8a55068d890c07ca3541f1908968ab29d2f3e4dc|2017-10-27|Mirek Kratochvil|configure.ac: check for pkg-config when using it
+df3ed069d7cdc2a9f4b56ff016c1b181c5eb4bb3|2017-10-23|Mirek Kratochvil|README: someone added a comma here
+65c2bcc54670410de86db3358d4f08b39a78e670|2017-10-23|Mirek Kratochvil|man: document the -u defaulting
+798de9f70ac73167b97ef719e54a688097b8a547|2017-10-23|Mirek Kratochvil|update docs
+76fb3b059d5e0d55ff634c001760a83469f07889|2017-10-23|Mirek Kratochvil|main: default -u from CCR_USER env
+c27285e750856429a6829de0264051db68b7db0e|2017-10-23|Mirek Kratochvil|actions: only show 40 bits of keyID by default
+5dceb7c07db5fef9271cf4d7e28287e48aaf922e|2017-10-23|Mirek Kratochvil|styleup
+4f2680134e64c296df8c636fb56fa3f595add96b|2017-10-23|Mirek Kratochvil|privfile: common sk/pk file creation/saving code
+7ec08238340d954606222671a482e0ebff9c2c89|2017-10-23|Mirek Kratochvil|keyring: fix forgotten check
+104ee129511d1164d05a06ac5d5ca39edbb20d4c|2017-10-22|Mirek Kratochvil|implement private key locking
+7b0bc06d45a6b014f815aded0dcd1a3523087948|2017-10-22|Mirek Kratochvil|add forgotten seclock files
+578691f45efed9c15bcb6e93001dc01858b56d44|2017-09-10|Mirek Kratochvil|secret-locking on symmetric keys
+c0770926e9e61726fa3e645557d23dc6cf06df3e|2017-10-22|Mirek Kratochvil|configure.ac: it was a bit too verbose
+3f378e14d7caa724e4bdcd8002e377ae18df7c70|2017-08-04|Mirek Kratochvil|readme: typo
+0d772da18c74d65643bb8386150a774266fccbc8|2017-07-12|Mirek Kratochvil|Merge tag 'v1.7.6'
+4f4e4f4df97afe020ad106ca1ba5747463e9bfa7|2017-07-12|Mirek Kratochvil|minor typos and styles
+33a9c14661719a8b0496ac06aa58ed7e8d86fb28|2017-07-12|Mirek Kratochvil|Merge branch 'master' of github.com:exaexa/codecrypt
+8dd84892ef5a5aee6e6ee52455a8890b8a37b23e|2017-07-12|Mirek Kratochvil|README: update debian information
+e5b8b4bc823844d3e7e406639bd962344ff07cd9|2017-07-10|Mirek Kratochvil|version bump to 1.7.6
+cc9b6b5858869c1aafea9220b71e293ec6fefca3|2017-07-10|Mirek Kratochvil|base64: simplify debase64ing a bit
+be8c3faa55e7065b3c1650cb65a676dbd43be1d8|2017-07-10|Mirek Kratochvil|arcfour: register keyword is deprecated now
+ad40fbe5dcda992eeeff3c89a0da9bd9b8b6e2da|2017-06-26|Mirek Kratochvil|keyring: write backup before actually touching keys
+dc3a874cd5d26c71089dee85c24995c276f95f60|2017-06-26|Mirek Kratochvil|generator: allow own PRNG seed source
+d53586d582c3a0d55e5ef358aaf29801152e0a6e|2017-04-25|Mirek Kratochvil|remove obsolete qd_utils header
+d7dc743016ab57e2efa670f1f9c7ea73b34b5966|2016-10-18|Mirek Kratochvil|Merge branch 'master' of github.com:exaexa/codecrypt
+ac2047a9153ecead342dd326da771128d2716e87|2016-10-18|Mirek Kratochvil|Merge pull request #19 from mapmeld/mac
+cadaadac73982b33dfade32e130f0e362b1e5b2b|2016-10-18|Nick Doiron|run glibtoolize on OSX
+87337db9226fff84572087aea75cecebff27e74d|2016-06-13|Mirek Kratochvil|README: add explicit key distribution notice
+0bd9ab6d54857cbaef8c41ce1f242ccbf4e3c7f8|2016-04-28|Mirek Kratochvil|hashfile: avoid being fine with informative-grade hashes only
+91c5e9ba351ceb568682b9223557b572b39d8b48|2016-04-28|Mirek Kratochvil|gitignore: remove obsolete debian/ entries
+fdddafda81aaaf133e659ace6bc42357e9c68fa3|2016-04-28|Mirek Kratochvil|version bump to 1.7.5
+8e608b4d8da122abd0aceb0cb1dfc4faae95a286|2016-04-28|Mirek Kratochvil|mce_qd: remove obsolete MCE-QD encryption
+77c626aab2b3d71fa67a33371cfd1d35f6a7382a|2016-04-28|Mirek Kratochvil|man: update documentation to reflect on cubehash change
+213331903e891dd50d8e9703d008681d669987f7|2016-04-28|Mirek Kratochvil|cubehash_impl: fix cubehash implementation mistake
+f3f1a805ceeaaaf904d848cdf8e5ce3785afd7a2|2016-04-28|Mirek Kratochvil|cubehash_impl: support non-little-endian architectures
+ce35afb93bde1d69d413e880f54bf686a5714221|2016-04-19|Mirek Kratochvil|disclaimer improvement.
+25cb190db294617ec5dbb7a75415af9fd7d024b1|2016-04-17|Mirek Kratochvil|new information about deb packages
+ea44b103f0f8c1d2048867d9a17861a9dd23e60d|2016-04-17|Mirek Kratochvil|restructuralize README a bit
+28d188c9165032be686200a361fe5172a3159ab3|2016-04-17|Mirek Kratochvil|debian: moved debianization to separate repo
+077809129e0432fa1f80e03e664b1ec2203df22b|2016-04-17|Mirek Kratochvil|version bump to 1.7.4
+a09344f03469c89c915f2db15253f84f5f2be2c3|2016-04-17|Mirek Kratochvil|add proper copyright notices
+0e74657065f7c1cffffaec0ca7123417fccb5fd6|2016-04-17|Mirek Kratochvil|README: some information about used cryptography
+f07f4027a27eb47df065851226cda0ca5672ecad|2016-04-17|Mirek Kratochvil|clarify the `-g help' option better
+e7521cdc86f7f6d5e29a2bc45d566865d128eac3|2016-04-17|Mirek Kratochvil|mce_qd: make the warning louder
+34ede39df2cf234ce9258e64d75dcc23406ad1d6|2016-03-05|Mirek Kratochvil|cleanup the documentation for packaging
+74852a017147978a8ae26e2d0bbbff65481e24ef|2016-03-05|Mirek Kratochvil|update the build depends to support autoreconf
+6c529cb1c90b40eab623ba5f4b0c623c838bad97|2016-03-04|Ximin Luo|Tweak Debian packaging and remove custom build script
+dc277c62a3d39f2a7c9a987fc3b9903b59147820|2016-02-17|Mirek Kratochvil|configure.ac: inherit CFLAGS&others from the environment
+2e0d738431699c75214777b03b54f98ee0a2f74e|2016-02-12|Mirek Kratochvil|make the debian packaging script quite generic
+467cfd35f0d5b4959fce54003f3fd0124a273196|2016-02-12|Mirek Kratochvil|add missing pkg-config to build-deps
+b3c4a69fcfc9bb1fdfa1b529fb93c2d3e8cd415a|2016-02-12|Mirek Kratochvil|sanitize debian packaging
+0929c13d3b505309b36bca4bad5bd1e9fe8002eb|2016-02-11|Mirek Kratochvil|fixup lintian errors
+017ef07f420aea671e3ff57a71fb77c7cd759e45|2016-02-11|Mirek Kratochvil|version bump
+e4499c4eb2115262b28349f38839b2229b2c4816|2016-02-11|Mirek Kratochvil|fixup the version numbers for native packaging
+26d3eaf00a7d27f5197090b80eb8fc252b3ade92|2016-02-11|Mirek Kratochvil|debian packaging tool
+0c949d99754da3facfd8773ca36215989c73a4ef|2016-02-11|Mirek Kratochvil|add debian packaging configuration
+d8f358e8edd1faa212d6d8d93295797185b768a1|2016-02-06|Mirek Kratochvil|mce_qcmdpc: decrease decoding failure rate
+035fef4882e105ced108a367a002ab39a6d23f40|2016-02-06|Mirek Kratochvil|mce_qcmdpc: improve decoding logic a bit
+c1800500cf8c71015b7610f36046283129a8de30|2016-01-20|Mirek Kratochvil|oh look, year changed
+83748c61cb22667748f1c1940240c6b4041550da|2016-01-20|Mirek Kratochvil|version bump
+dbce46b48a9fd097f15a546854755ea3d1a77478|2016-01-13|Mirek Kratochvil|better configuration of crypto++ library
+abf0ea26b0274e92e78b84f97d60a574654a6795|2016-01-12|Mirek Kratochvil|support redirecting to -
+b3f8f32cb128d44f44b9c5d38d0260273f996a82|2016-01-12|Mirek Kratochvil|documentation/help update
+1d605b6873de2af62214882a531795dde0cbe03e|2016-01-12|Mirek Kratochvil|configure.ac typos
+46f68fdc936dc631728fbb2dd743a315218bf228|2016-01-11|Mirek Kratochvil|main: provide -E option to redirect stderr to file
+a4ce9019e9515815aa2fe8db89a8fa34acbeb582|2015-12-05|Mirek Kratochvil|papers: sphincs
+5b2bc564d18871d74274d12145b54efd2de85910|2015-12-05|Mirek Kratochvil|iohelpers: forgotten styleup
+dabb8fe1a15baf42a15c30a955b71f8e52f4bec1|2015-12-05|Mirek Kratochvil|prevent mangling user output by correct escapes
+1d2197ca02309324eeccb87979fa9ed210cb6ea0|2015-12-05|Mirek Kratochvil|symkey: change default key size to 512 bits
+bad79f05a0d5c6d954b7ef4fe5061b48505bce1b|2015-11-17|Mirek Kratochvil|mce_qcmdpc: code cleaniness
+aaa8c9ae9db0ef6dd2dc01bcc6c9ac38884a7334|2015-11-15|Mirek Kratochvil|cleaned-up version bump
+de4ee8aa39dcdf90a954a275a17434a2dc0ddd3f|2015-11-15|Mirek Kratochvil|algos_enc: fixup the padding for non-byte-aligned keys
+78a00ae3cefe7239bf33c202543e0b945d2877cd|2015-11-15|Mirek Kratochvil|mce_qcmdpc: implement faster decoding
+4b8f65ab2d2528898d7694a80d894549935f4591|2015-11-15|Mirek Kratochvil|man: update years
+0a22ed374965c1de325aa1414bff767f3e99f6fa|2015-11-15|Mirek Kratochvil|readme: update
+5a1e1cb0f22b89ccf693c1f3b1ec6266dbe5fe96|2015-11-15|Mirek Kratochvil|FFT multiplication paper
+f06372d874e5e5228b3dd52cae73fb5b32487ee3|2015-11-15|Mirek Kratochvil|mce_qcmdpc: fixup comments
+bbfd0601d8f8c2c9d633a2b9e24298bcd85c4e87|2015-11-15|Mirek Kratochvil|version bump
+3f625e3690e4594cbde045b76d6078e11358a14d|2015-11-14|Mirek Kratochvil|implement circulant multiplication by FFT +tooling
+23cd287372e6970d74238526cd374c71845ff45e|2015-11-07|Mirek Kratochvil|documentation updates
+a7ffdbdee049304753950f94d59f25ce1ea26c63|2015-11-07|Mirek Kratochvil|bvector: use faster to/from string/byte conversion
+bbca109f8b79d703be3a550f180bb278a70f0c77|2015-11-07|Mirek Kratochvil|mce_qcmdpc: remove debug output
+9af9f9acb100eebf05d53832ef421f99edc68be9|2015-11-07|Mirek Kratochvil|papers
+8b4e0ba4ea4bc01512e1ba397eb928ccd393f5af|2015-11-07|Mirek Kratochvil|massive code cleanup and removal of dead code
+17f77e16a477849edcb6da1dc5ac7fec7627af08|2015-11-07|Mirek Kratochvil|mce_qcmdpc: QC-MDPC McEliece
+878d32685967a624f7828456759d84ecd1b5ad65|2015-11-07|Mirek Kratochvil|bvector: faster implementation with 64bit ints
+19d59f9ec110221e5c78de0d0dce4a042c7f8b4d|2015-10-31|Mirek Kratochvil|bulk-apply new code styling rules
+a2c1c3992d6db91bbb8624f11ffe061cc2665b10|2015-10-31|Mirek Kratochvil|mce_qd: add a security warning
+67192f621e35cbaa959789b5617b00e2a15b3f02|2015-10-30|Mirek Kratochvil|main: update the year
+246cda84a7d89d857784003d70b5895638a43a8a|2014-08-16|Mirek Kratochvil|prevent mangling user output by crafted keyring
+beff8d65fb7efa356a092d73bc63f0eafa7e4fd4|2014-05-17|Mirek Kratochvil|more interesting papers
+72f05a01c6789e5399f19b88a8bcada184696d2d|2014-05-17|Mirek Kratochvil|bump to v1.6.1
+68909b74adad9b0b7123a67a88beb6fe6357bb77|2014-04-19|Mirek Kratochvil|symkey: simplify padding
+07012cb29714570cff2a36de1ae61df6deebb102|2014-04-19|Mirek Kratochvil|symkey: use hmac to fix possible collision attack
+80aed3c4763e0753ae745927b050d082ef998b55|2014-04-11|Mirek Kratochvil|docs update
+8d43c29988421e6d329c4163d1985d7c339b90c2|2014-04-09|Mirek Kratochvil|update changelog and others
+760bcdc7f7627da7687f9a4c8a6388397d9a6fff|2014-04-09|Mirek Kratochvil|new encryption algos with xsynd/chacha20
+85b1c69b5cf2236a6804027855114a1f5983b84d|2014-04-09|Mirek Kratochvil|algos_sig: macro-squash
+eae6fe567588b80562439f3fc32b83f6f2048cbd|2014-04-09|Mirek Kratochvil|algos_sig: use chacha instead of rc4 for padding
+5c739804fd300a9a49d41b1599594eb6eae9006c|2014-04-09|Mirek Kratochvil|algos_enc: macro-squash algorighm definitions
+c85a3f72a5c1fd33941e071847ed3ec307524a86|2014-04-06|Mirek Kratochvil|hash: correctly accept HAVE_CRYPTOPP
+c00f69d7e75aaae9e18dc1f9d3a5a6f643384e7b|2014-04-06|Mirek Kratochvil|update changelog and documentation
+8e0597824aa665b00826ade51638af8526c5acc1|2014-04-06|Mirek Kratochvil|symmetric encryption working
+b30009b910bf12eadcb68a65fdf00c0edeb1044b|2014-04-06|Mirek Kratochvil|chacha: fix 2 funny oneliners
+9c4287c636ca46e8fa0416b720b3c4dd0af36454|2014-04-05|Mirek Kratochvil|named collections for hashes and stream ciphers
+654b2f58efaee2b673bedb77593a6dbfd8d14ed8|2014-04-05|Mirek Kratochvil|serialization: use macros for hard work
+eb47cce9ad176d191a89c526532a8fbdb8c3637e|2014-04-05|Mirek Kratochvil|symkey: primitive for symmetric encryption
+958e878fd6265a6c2ac2afa4740d9200366649c2|2014-04-05|Mirek Kratochvil|update ChangeLog
+c5cf430ab5056e12d0d8dcb92025717d7db10b5c|2014-04-05|Mirek Kratochvil|fmtseq: remove internal rc4 usage, use chacha20
+37d9c9a98e1f6521bcd303bc60f57b2f188ac08b|2014-04-05|Mirek Kratochvil|algos_enc: make timing&sidechannel attacks harder
+fd489ae69fcde2fe0d80cff4c37d5c9a0a169502|2014-04-05|Mirek Kratochvil|generator: remove rc4 usage, some cleaning
+3659cc837e6e99aa5ab28692303949f78f78c918|2014-04-02|Mirek Kratochvil|xsynd: new stream cipher
+562188b52d8ee7d2e4f3dce369d109dcac70850f|2014-04-01|Mirek Kratochvil|chacha: test vector compliance check
+39202f8dfba6f89d1617ca85a0e569caeb0cfe87|2014-04-01|Mirek Kratochvil|chacha: forgotten public
+d44ae939d5996c72b2dc0752839060ad9a25ace0|2014-03-30|Mirek Kratochvil|chacha: fix discarding
+7d1d95784a8bfc6330e76890e16e93cfb9e89ac9|2014-03-29|Mirek Kratochvil|chacha: new ChaCha20 stream cipher
+6a8029e6267d7b3d85baa7f97b8b9ca58714d73f|2014-03-28|Mirek Kratochvil|cosmetic fixes
+9e5f5154b45c464d6babd198245500b251d9bf58|2014-03-19|Mirek Kratochvil|man: update FAQ
+e687629323aba6e738609a1702754ba7833cbd63|2014-03-19|Mirek Kratochvil|sc: stream cipher abstraction applied to arcfour
+8c1d39d0e0619648047b6087733590af2e82c550|2014-03-10|Mirek Kratochvil|version bump to 1.5
+a711c72953bce6a8143641d2ff3a27f5e6e5055a|2014-03-10|Mirek Kratochvil|hashfile: finished streaming support
+61802a911380d3e52bcabe4e2646ef0eb950a133|2014-03-10|Mirek Kratochvil|hash: cryptopp templatized, added hash_procs
+c70ed002305682468a12726b03249454307b6577|2014-03-10|Mirek Kratochvil|hash: hash_proc, cubehashproc
+091b4d2b20e15df9f04339635b5cf33471e1b17a|2014-03-10|Mirek Kratochvil|man: update with hashfiles
+10777a8174e61330ec92ac34ac7669d426dfe68d|2014-03-10|Mirek Kratochvil|hashfile: integrate into actions
+6f50dab3225e44732ee8217bb4e2ff9aa6f76a60|2014-03-07|Mirek Kratochvil|main: hashfile frontend
+6b220b7064e6261043a1570998352fc5bdad2504|2014-03-07|Mirek Kratochvil|hashfile: simple implementation
+ad96ee03d2179aa43d359dcbcd5943c9166abbba|2014-03-07|Mirek Kratochvil|iohelpers: templatize read_all_input
+0cdd83dbc43ff5490a32b26c914a172c17b29b7c|2014-02-26|Mirek Kratochvil|mce_qd: fix unused variable warn
+7a71ca74f023281d935abb4de47d6c372cb47088|2014-02-08|Mirek Kratochvil|mce_qd: faster alternant check matrix computation
+0978a403727377ba2d0170fc82865de7f81e7e05|2014-02-02|Mirek Kratochvil|str_match: fix icase matching
+6fd26d4c79facc19d27696ff9b2a075faa6e92fb|2014-02-02|Mirek Kratochvil|gf2m: save some log lookups with combined ops
+b566beaa387bd4e1dc9062dc92c3be7ea6db3917|2014-02-02|Mirek Kratochvil|permutation: avoid needlessly precomputed hpermInv
+9316509223aa289cb6aecff67ba198a7f6deae0e|2014-02-02|Mirek Kratochvil|keyring: remove obsolete code
+e66e82b9a8c0513bac35fc87d1e64534232c80cd|2014-02-02|Mirek Kratochvil|str_match: keyspec matches are ignorecase
+40fc690b1df2f8dcbe82b5a56ddbedc2aecea1ad|2014-01-25|Mirek Kratochvil|version bump to 1.4.1
+7556472bba5ff0cdd7f998b903cb2a2ed64e4056|2014-01-25|Mirek Kratochvil|man: update
+54d5662d5531799a93021ee4c60fad33bbbd0068|2014-01-25|Mirek Kratochvil|fmtseq: be more verbose about signatures left
+6f5612c44c3e9dd797c80ea378c1abc211773ebd|2014-01-25|Mirek Kratochvil|update ChangeLog
+57342130b1cfd849ccef04a5ac7087c37142c8b6|2014-01-25|Mirek Kratochvil|glass-filled holes in wall
+812ef1eac7ff2b70310be859cc3250fa834a73ef|2014-01-25|Mirek Kratochvil|keyring: do backups and save some writes
+f3ede079e99d90abe1647a0eebdca73bc34f31ea|2014-01-25|Mirek Kratochvil|keyring: prevent data corruption from signal
+fee6b431c27dfe98e57085650e24467c83a010ae|2014-01-25|Mirek Kratochvil|fmtseq: privkey internals checking
+633be8c2cbfead06d341fd2bbf2d38b169b75a7d|2014-01-25|Mirek Kratochvil|added quite useful gitignore
+9e6dd95fec0cecc7b64d2f350ee16115a800db76|2014-01-24|Mirek Kratochvil|update ChangeLog
+a0a9263a42ae4edbc96ba128befbf25be54f768f|2014-01-24|Mirek Kratochvil|main: happy new year.
+1ccd8e8b3a05caf28d60a666acf5089ceb860c2c|2014-01-24|Mirek Kratochvil|actions: simplify key deletion code a bit
+f2d1ba9365a037ebc9479401c8ec3b64fcbe06d0|2014-01-24|Mirek Kratochvil|actions: be helpful on missing ascii-armor option
+06378a826ae971f5494847c346ccbfde3c5dab60|2014-01-24|Mirek Kratochvil|keyring: compile and work on MinGW
+4cd47302b9b63d08181be0b07a6f503cc544b69d|2014-01-03|Mirek Kratochvil|docs: fix missing ascii switch in examples
+594e3c0ebccbf9a69fb7c1923c5801907b11618f|2013-10-06|Mirek Kratochvil|algos_enc: clarify padding checks
+e795744eefa088379e8ca000e3183717adfb3ec6|2013-10-06|Mirek Kratochvil|mce_qd: remove unnecessary root check
+dae56daf03080a746615b82341916b5aed6ee301|2013-10-01|Mirek Kratochvil|changelog: version
+9f0d765460812d25e905c73bbe73d586d633775b|2013-09-30|Mirek Kratochvil|version bump to 1.4
+ce43548d32c65f85bea6aca68165d30ccbf1429c|2013-09-30|Mirek Kratochvil|man: add information about new message format
+5b77413a7f38e68faa23fc790b5837196f202e41|2013-09-30|Mirek Kratochvil|keyring: updating the version was not needed
+f0e7db798033c82e0510f8e6d4519c294c42f279|2013-09-30|Mirek Kratochvil|Changelog: update
+d7192caad0c25b3c808bc7a39be5a705c6a53552|2013-09-30|Mirek Kratochvil|serialization: bump message version strings
+5333b6e1f8c517007b3075f282c48b5b72d1f95c|2013-09-30|Mirek Kratochvil|algos_sig: fix min() macro name collision with STL
+3deffb0ebefc86fad8c416b6c0ce49256869c6c7|2013-09-30|Mirek Kratochvil|build: crypto++ support is now optional
+1488927e731e46de1bfb783cfa4f8d65d90daa42|2013-09-30|Mirek Kratochvil|keyring: use cubehash for KeyID
+04bbfb49cebb88cef523b1111d4c534d6d6421b5|2013-09-30|Mirek Kratochvil|cubehash: some basic optimization
+72bcc1080ae4fa13a900f5e903554576b6fb9a0d|2013-09-29|Mirek Kratochvil|algos_sig: new cubehash-based algorithms
+c65557724ec6e3642e667206d40935536b5c10a2|2013-09-29|Mirek Kratochvil|algos_enc: new cubehash-based algorithms
+d48665750ac3039b3310141f72ed36cf27f8cb8f|2013-09-29|Mirek Kratochvil|cubehash: remove forgotten debugging
+20b73496d761c9be31d1a3616d7fc495dc069150|2013-09-29|Mirek Kratochvil|cubehash: new hash algorithm
+d8aeb391659cb7f8a9f6543a9b3902d93a822b13|2013-09-15|Mirek Kratochvil|configure.ac: remove now unneeded CC check
+93dbf55f72f0a5e35387911931a21e68ceca3ffd|2013-09-15|Mirek Kratochvil|changelog notice
+04b37ce0536d762a7f3e5880bc5745c390a0f1f2|2013-09-15|Mirek Kratochvil|minor version bump
+18e91e78e558081eb867d717e9e7dd0f6d507af9|2013-09-15|Mirek Kratochvil|configure.ac: check for crypto++ headers
+fae3342e18ddeb28f92094919e2c16b958265368|2013-09-15|Mirek Kratochvil|main: remove now unnecessary licensing information
+414d203d182c55b401be6ae1a4373b6b8614b010|2013-09-15|Mirek Kratochvil|tiger_hash: use crypto++ lib instead of bundle
+3af363faf3219aa503c2fd372c2b7316f59e059d|2013-09-15|Mirek Kratochvil|rmd_hash: use crypto++ lib instead of bundle
+23e741c73e09eeddedb01868c5709dc4c526e3d9|2013-09-15|Mirek Kratochvil|sha_hash: remove unnecessary stdint include
+47ccc8dcf0d4a59486162d2eb15c99dab03f6c3e|2013-09-15|Mirek Kratochvil|algos_enc: forgotten stdint include
+95de70acbc12709c41c6cdd42281adae0c5a8013|2013-09-15|Mirek Kratochvil|sha_hash: use crypto++ lib instead of bundled one
+93dee89a4a3f2ed0f70440aac46d3fa6cb676e5d|2013-09-15|Mirek Kratochvil|algos_enc: do not collide with library min() macro
+4d3b95c2ab6240a1c14346e4a51eca4a4961aeda|2013-09-13|Mirek Kratochvil|version bump to 1.3
+c03772863d529c841052d1524a62d05067e1c536|2013-09-13|Mirek Kratochvil|README fix of formatting
+542d17852ebded762b9ac5ffb07b433dc77d651c|2013-09-12|Mirek Kratochvil|unixification: correct README and ChangeLog
+54c9129ab184b48723e5d999a1667f9cb1198f11|2013-09-12|Mirek Kratochvil|actions: handle possible keyring saving failures
+815fec23cb783153b332b5a8e299f4fed9bbd326|2013-09-12|Mirek Kratochvil|man: notice about the big file problem
+09136ef04614cc49025dfaf116db3256edf5bf46|2013-09-12|Mirek Kratochvil|actions: better keyring opening behavior
+d1421926f9daf2963b976da1dde300acd06751f1|2013-09-12|Mirek Kratochvil|actions: neatified message for failed verification
+329953d5754e7755679b30dca39afd1e578c6e46|2013-09-12|Mirek Kratochvil|keyring: better open/close behavior
+54e45bd3d498919a8adb62d5eecc3a152627ef35|2013-09-12|Mirek Kratochvil|style modifications because of newer astyle
+93cd8f377f7245114e9d44c139ec3b309d4cb901|2013-09-12|Mirek Kratochvil|keyring: squash opening and loading into one func
+7e3256411992020554becfbfee48b744132d97d2|2013-09-12|Mirek Kratochvil|man page: small clarification
+3ca398b7609efbeeef496aefede788965c22765a|2013-09-12|Mirek Kratochvil|fix autotools warnings from autogen.sh
+eea476925fb53803102247b0218cc8771649b066|2013-08-05|Mirek Kratochvil|README: add link to online manpage
+66e124544098542efffc8d8b61f8f0840885b001|2013-07-26|Mirek Kratochvil|autogen.sh: little readification
+60749aa4cfabb290829550fec0dbd78f977cbf42|2013-07-26|Mirek Kratochvil|sencode: add integer size limits
+66d7d84b13c71ffeee069df721c4d02652478adc|2013-07-23|Mirek Kratochvil|fix CXXFLAGS="-Wall" warnings
+36b68d90c1e9476a26d83cf0eef90dfa863c606e|2013-06-21|Mirek Kratochvil|std namespace cleaning
+79c4ea8e932106b1541ee0c8ce8c880a50b25ccc|2013-05-27|Mirek Kratochvil|interesting papers
+1a2d25e55530d86c0723b3145c608b00a9bad31b|2013-05-27|Mirek Kratochvil|main: correct licensing information
+f0412c9eb4993ed807a2db3340b63d36f2d00500|2013-05-25|Mirek Kratochvil|version bump
+9c9e49ae7b827ea3805ae567a4d1c7e9e43bb2b6|2013-05-25|Mirek Kratochvil|fmtseq: forgotten include
+9a268d231bbcf54c2f482231fadd18fb510fa6dc|2013-05-25|Mirek Kratochvil|forgotten styleup
+d8a284fe4a63ae37fdac0f4885cd5f67379cdecf|2013-05-25|Mirek Kratochvil|upgrade docs after algo names changed
+b5ae7ca4dd0acd2b73f22962f66f3d6528424768|2013-05-25|Mirek Kratochvil|algos_sig: added H=20 fmtseq variant
+0980ee827a12da7c23e205e71b2d8ad82e63a27c|2013-05-25|Mirek Kratochvil|sha2: fix the ugly warning
+7270e90cf150763643b5ecc8f296b683f139869c|2013-05-25|Mirek Kratochvil|manual page
+18449bdc8a3b70f7c2194daf851b81638206dc13|2013-05-25|Mirek Kratochvil|arcfour: greatly increase discard parameters
+deb52397a3930a250f3170229fbbefaf0ec5d67a|2013-05-18|Mirek Kratochvil|version bump
+8c185c51ad3f37fb41da2b380489886be63b8e15|2013-05-18|Mirek Kratochvil|mce_qd: compute check matrix on the fly
+79b17b8724d43d6ed5d35049ff8c8b3fea74b6a1|2013-05-18|Mirek Kratochvil|polynomial: degree computation dumbness reduced
+be13fe8dca10f9a9af754cf1fb6cb3bfbb31d339|2013-05-18|Mirek Kratochvil|gf2m: lowlevel speedups
+1ef1b4277b4e0ed9b3e272eb659cd7efbc43ed4d|2013-05-18|Mirek Kratochvil|ios: don't print unnecessary newlines
+105a7731d3502f8a5b66abc773fe17249848a9e2|2013-05-18|Mirek Kratochvil|bvector: massive ranking/unranking speedup
+456718e3010ba84aa3c6c7410a64cd4a1fb51bb6|2013-05-17|Mirek Kratochvil|bvector: unranking fixed
+3f73ba54c4698813f60cdfd97cfea2f7ef1d7001|2013-05-17|Mirek Kratochvil|algos_enc: use faster unranking for decryption
+93d6cccd4f64053268020c83e3ed7d1e4e3a0ed7|2013-05-03|Mirek Kratochvil|algorithm: remove identification
+c18f9399a6f9f5110d8cc098f5c9c5b27b8fce2a|2013-05-03|Mirek Kratochvil|version bump
+63d51911f9c7b7fb74d524d10faf1d6a31d854d1|2013-05-03|Mirek Kratochvil|algos_enc: also pad beginning of the message
+bf14ac95ad5efe14353aaf42f105b48b0fc1184b|2013-05-01|Mirek Kratochvil|tiger: header file astyled
+1553c09d20012b0e69ac07e9890d827c5b28546a|2013-05-01|Mirek Kratochvil|algos_enc: mceqd192 variant to match fmtseq192
+24bd5bd185ff4264c80389a40149a7e8ca7baa37|2013-05-01|Mirek Kratochvil|algos_sig: new support for fmtseq192
+9b101c95483133ad39d198c118351ec1ea95b45d|2013-05-01|Mirek Kratochvil|tiger: added tiger192 hash func
+b087848a2f054503ad8d7e8003380885e3c78d16|2013-05-01|Mirek Kratochvil|sha_hash: also wrapped sha384
+805a275df7dbd76a4cadec1b6dd0dac6c4858a8b|2013-04-27|Mirek Kratochvil|main: some clarifications
+6e3bfbe6d39aab16464150cf04f43c04716f97c6|2013-04-23|Mirek Kratochvil|actions: fix renaming pubkeys
+542bf554faf60be0f5b25528a8a7e23e1bd1a40b|2013-04-23|Mirek Kratochvil|action: fix naming on import
+80fcaf556934b8b7ec5f4ff3cbae92990a0cce97|2013-04-23|Mirek Kratochvil|actions: pubkeys/secrets typo fix
+41c17cf5694e03df07b254482a1b22c191fdb28b|2013-04-23|Mirek Kratochvil|README update
+b52befc547bb0010664ac95170f8be0a64d94f06|2013-04-23|Mirek Kratochvil|version bump for packaging
+aa03f0153032878b769b89c6822e89e2526dd465|2013-04-23|Mirek Kratochvil|actions: detachsign stdin/stdout support
+e19ba185b734e002bba96b550f8054a18e94e5ab|2013-04-22|Mirek Kratochvil|algos_enc: padding for hiding message length
+56333581952864652899020bdcddc71ef4f7d7bf|2013-04-22|Mirek Kratochvil|README: fix
+ea984b8e52e9714c3903bf8496daffbf69a13e20|2013-04-22|Mirek Kratochvil|README.md: update for github
+10d733940d06dc399ad45dfcaaf6ce81ec183e64|2013-04-22|Mirek Kratochvil|actions: decrypt+verify
+f761fdd3a37734360406fe366208a65981a920b3|2013-04-22|Mirek Kratochvil|actions: sign+encrypt
+5e950a7a12caf01cd303c04604acc8ef44b2820f|2013-04-22|Mirek Kratochvil|fmtseq: report remaining signature count
+fc163535f58424a7d5007ab8e7c9cdf6d3678f29|2013-04-22|Mirek Kratochvil|actions: verification
+fd96d76df90e66bdd2bd251eb003eddd316108db|2013-04-22|Mirek Kratochvil|actions: smarter recipient/local user search
+35f8b0477e14442ac77d6b430ce84c66ef9cb41f|2013-04-22|Mirek Kratochvil|actions: signing
+ede323e0e9358fbe3d49949b545a9a179a3b291d|2013-04-22|Mirek Kratochvil|main: remove forgotten debug output
+434f9ef1fbdd4eca4b39eed11e985454f138dead|2013-04-22|Mirek Kratochvil|actions: decrypt clearouts
+6e10c08b4b34fd6c14ed42ef530b86e688ab3d8b|2013-04-22|Mirek Kratochvil|actions: one more check
+1880b2bb21838dc588b6bfa9867a6bb1ac8f83d4|2013-04-22|Mirek Kratochvil|actions: don't leak sencode on parsing failure
+7b5206abd014d0fde3aded191d4cd68a6a00126c|2013-04-22|Mirek Kratochvil|actions: decrypt
+78972b886a4533e4e0ab3f452acb89bdfed8370f|2013-04-22|Mirek Kratochvil|actions: encryption
+a5f060c7fac6835b653b18d879c1aa3b4d06bcfb|2013-04-22|Mirek Kratochvil|bvector: string/bvector conversion utility
+403ec2cc88e37c85a60081c36be23b8281bcdccd|2013-04-22|Mirek Kratochvil|actions: added clearsign to parameters
+903273db4367216be62653bdf84a2362a292f80c|2013-04-22|Mirek Kratochvil|Revert "main: remove clearsign option"
+c6cbd0e519ce2cdef8b5344cb8c1602959623128|2013-04-21|Mirek Kratochvil|actions: use keyring manipulation functions
+c5b4d308d1a623b375fc37dfbed8d81c5b61dc01|2013-04-21|Mirek Kratochvil|actions: imports
+9a76830ca8571d250778e1df0e2bede02109e5a3|2013-04-21|Mirek Kratochvil|iohelpers: correctly ask questions on stderr
+c17e10b413d94d9e5cc0126f4255db131e39d01e|2013-04-21|Mirek Kratochvil|base64: fix problems with nonascii chars
+213600d7326565e5ab34b93cfd13baf56f144ca6|2013-04-21|Mirek Kratochvil|actions: don't leak sencode
+cddfdba1a77b665b307aa575a4453c0ec18f0dd0|2013-04-21|Mirek Kratochvil|iohelpers: input reader, out_bin
+e854671d5f8d9093f756f250716ac498eb643d84|2013-04-21|Mirek Kratochvil|actions: keyring exports
+716b5eed5562fae4d2a1d86c63079ff8f755867c|2013-04-21|Mirek Kratochvil|iohelpers: fix cout redirection typo
+fbe829f71ea67377589a2bf629d6cc48c095cdb4|2013-04-21|Mirek Kratochvil|actions: renaming
+02c2ba8f0fb190ffd3f4a71b1fe73e5801c21199|2013-04-21|Mirek Kratochvil|actions: deleting keys
+a6d0a590fc0a6aec265ec2da9cc841cc903c3d41|2013-04-21|Mirek Kratochvil|actions: pubkey listing, common output code
+86d3afc213ca61509674e49f6d322d767c895b0b|2013-04-21|Mirek Kratochvil|actions: list secrets
+9ead59dbadc8c4685d1e11142862e41ef941c13b|2013-04-21|Mirek Kratochvil|str_match: keyspec matching
+9e15bf25d2e26ff0c721dcb0f3b8e4c5aa8a724f|2013-04-21|Mirek Kratochvil|str_match: algorithm name matching
+03cd5abd73674b77b9ef7640231c1506c39c7095|2013-04-21|Mirek Kratochvil|actions: gen_key
+2fb0392bb14d58e4213d31f6ba14b49d991d1cd5|2013-04-21|Mirek Kratochvil|algos_sig: missing positive returns
+e1caed83a2e8e6e00e780a618d7c0b16a7cae021|2013-04-21|Mirek Kratochvil|generator: getting really cosmetic
+b367e687e6fa2cdc5fef45eb033a47912f007f45|2013-04-21|Mirek Kratochvil|papers: padding research
+b3762327273abe83f1f998e5af85567e29bb8d2f|2013-04-21|Mirek Kratochvil|serialization: signed/encrypted messages
+236ec3957930f9837bad8bda4cbb2ee3fd422e61|2013-04-21|Mirek Kratochvil|sencode: string length integer bijectivity
+04b4b1670f25420a6e5a5ec3bde78510f80401dd|2013-04-21|Mirek Kratochvil|keyring: keys also contain algorithm identifier
+b3a5fee318271031b0e78be28f683cca053cb86e|2013-04-20|Mirek Kratochvil|main: use cleaner error output
+bb9640f6b73cda7f769038a13006f506f23fef44|2013-04-20|Mirek Kratochvil|keyring: remove race condition from unlocking
+c6278b8e54b3dda5ba8684e903206e3f55f2a365|2013-04-20|Mirek Kratochvil|keyring: pubring/secring identifiers
+fef400213848dc4478c0828b8ffe913f3ff7da25|2013-04-20|Mirek Kratochvil|iohelpers and output redirection
+d3b377179f1d3a0cc0907bb7c408e93549e9e2fa|2013-04-20|Mirek Kratochvil|main: links to actions
+83e0e3ad5818c125d1b1936619576d0c032d509c|2013-04-20|Mirek Kratochvil|main: remove clearsign option
+fe4e4e1ad11e2f9b0a257bfacc05296ee228640e|2013-04-20|Mirek Kratochvil|actions: skeleton
+772df95f39a27a6e87eaffd42f77dcf1ba4bcf93|2013-04-20|Mirek Kratochvil|algo_suite: definition moved to a better place
+06c997deee7e41c73d8f8079f5420fb5e5f785c3|2013-04-20|Mirek Kratochvil|some lib/header/autotools cleaning
+8e3fc91cccc856041ebfb1420c72c23594999e7f|2013-04-20|Mirek Kratochvil|main: option parsing
+0791433a4e76bbeaa66a122a6f4d3ea04bd22621|2013-04-20|Mirek Kratochvil|envelope: correctly return parsed envelope type
+bf57a99fb2500a99a43db2dcd9613677a06b7703|2013-04-20|Mirek Kratochvil|sencode: a little better format of decode
+6b96cc33e647d73a94fdf2363449bfc1fd7b84fd|2013-04-20|Mirek Kratochvil|algo_suite: register all algorithms and enjoy them
+9731e41beb907b1c152dd2c94e2be3156c1bb7a8|2013-04-20|Mirek Kratochvil|keyring: small clarifications
+19f00a49dd98599e27f3b450a158c7764febde06|2013-04-20|Mirek Kratochvil|output helper macros
+1d7d1a1afbb5a55ee87f9012729fd602f82c89e8|2013-04-19|Mirek Kratochvil|sencode: forgotten uint
+735b7add72be909bbb410a67c5b8f0b9200c2445|2013-04-19|Mirek Kratochvil|main: help display
+7f8e02a8aacccaef801440386fcc173224c58b3a|2013-04-19|Mirek Kratochvil|sencode: ensure bijective int serialization
+765c553e97d4dc6777695e6caf4c6323e97f2fc7|2013-04-19|Mirek Kratochvil|sencode: ensure bijective bvector serialization
+645cdb96eeb8152584522b3dff1463f99b9d2893|2013-04-19|Mirek Kratochvil|main: add short options for everything
+e5cff751775e5854c559d3dcd14f5d2e9e6acdfd|2013-04-18|Mirek Kratochvil|keyring: detach keyring parsing/serialization
+287a2bbac0173c5738aeb4ce7bdb97befe9bc2f7|2013-04-18|Mirek Kratochvil|main: variables for params
+adb7a669b5cad5701ca2f8837c03992ff3bd3659|2013-04-18|Mirek Kratochvil|main: filled with possible options
+edca5b6cc5f1c45e7bf54fd114805a83e6e8cb02|2013-04-17|Mirek Kratochvil|envelope: fixed&working
+74e7e6226f69abcf8520305d42422faeaec092ab|2013-04-17|Mirek Kratochvil|envelope: impl
+4b844ffd208f0cc120e5796de1812ded6e2e2545|2013-04-17|Mirek Kratochvil|envelope: skeleton
+3b2b3b7f0002a88bb25abe478a206f7a4e3252f5|2013-04-17|Mirek Kratochvil|main: forgotten styleup
+cff617f8a46ef7bc9eb283e9babea8463465958b|2013-04-17|Mirek Kratochvil|main: keyring initialization
+c62c19d29d2ac1ad48c6d7ca36c7160ac76aefd7|2013-04-17|Mirek Kratochvil|header file ifndefs share common prefix
+1140daf08d50ab00a30da64a2f3b1c00a363f3b3|2013-04-17|Mirek Kratochvil|envelope: empty files
+7d92cea733876ad1f3fb9b0cb5cc161eea20b271|2013-04-16|Mirek Kratochvil|keyring: open/close and lock management
+ad1065f84728958af75c64637070641549b94da6|2013-04-16|Mirek Kratochvil|keyring: some file stuff&loading/saving
+d3be58913807b691009d3e2f9792b423deb62952|2013-04-15|Mirek Kratochvil|keyring: a little better structure
+5d4879a7608b106b4a8d2e4d72b4981189c79c8d|2013-04-15|Mirek Kratochvil|remove some uninteresting comments
+b3403d5c41556b742ad63d645e6beb08b29599d1|2013-04-02|Mirek Kratochvil|serialization: key identifier strings
+2c4a3995362a2803c3c2d7e28ce5d7f8e105a44e|2013-04-01|Mirek Kratochvil|keyring: better structure
+f6c1ee90c9dc995c3f03c381e20ac7d7abe48952|2013-01-27|Mirek Kratochvil|algos_sig: complete
+844bdac363354f3c3b188b9620578c24c15acb41|2013-01-27|Mirek Kratochvil|signatures: use ripemd128 instead of sha256half
+889970349e0899aa773eceadb64f1a6f432be6fb|2013-01-26|Mirek Kratochvil|bvector: much faster unranking
+805df12176f083c4a0403e833d389d3759941d8a|2013-01-26|Mirek Kratochvil|algos_enc: works
+932cd938a4883f817b613925f0bcb7b9255bb39c|2013-01-21|Mirek Kratochvil|configure.ac: ask for C support for sha2.c
+eadcfcf8b48c1a06c7e4b56d0eea8ed2fe6bca15|2013-01-21|Mirek Kratochvil|algos_sig: start signature algorithms
+7a48eff37a31b7b2263ba96371406ba816653a42|2013-01-18|Mirek Kratochvil|algos_enc: f-o decryption
+0f2db0b62cfe23b6a726bc4d904d6b5d809888ea|2013-01-17|Mirek Kratochvil|algos_enc: work, fujisaki-okamoto encryption
+f32a3116711922e8c1587cf3c85988040940ec98|2013-01-17|Mirek Kratochvil|README smaalllllll update
+0b487201ffe23b7a3a3238c66ef1d8614e4aa812|2013-01-17|Mirek Kratochvil|algos_enc: padding fix
+c345408cc823a5547cc0279b7348392522ce8498|2013-01-17|Mirek Kratochvil|algos_enc: padding
+5f49e3aa397a93497a7f31c82bebcec21d5a35a4|2013-01-16|Mirek Kratochvil|algorithms: encryption algs work
+d23e7ec31995638fdd2e4d43bee734f8b0ff3adc|2013-01-13|Mirek Kratochvil|README.md for github
+fea48c77b33861d80d2ad08e4aebdc016ae1a971|2013-01-13|Mirek Kratochvil|main: enhancement, minor stuff
+bbbd4bd8bdb9c5e9657bb53c92dd7f814921c525|2013-01-13|Mirek Kratochvil|generator: be quicker by default
+e584947e65880e646998c38bb214016497c8ac08|2013-01-13|Mirek Kratochvil|base64: decoding
+49710e16bee2308f10b093e8352319f37b1ba293|2013-01-13|Mirek Kratochvil|base64: break lines
+94af9472e805f927f3a35b2443184b94b900be84|2013-01-11|Mirek Kratochvil|base64: encoding
+59a0e24c675862a7bc8cec56f64fe6791fed536c|2013-01-11|Mirek Kratochvil|main: basic option processing
+36cace876359f942063bd611f375602a9ed96266|2013-01-08|Mirek Kratochvil|message: storing dirty privkey
+9346b63bdd3e96510627daad309120bf93858240|2013-01-08|Mirek Kratochvil|message implementation
+db7a33fa4d2eb34dc6d03973a71860010b4886d6|2013-01-07|Mirek Kratochvil|base64 skeleton
+fa99f07b124977a8f7f4539a17908d76b3a0756a|2013-01-07|Mirek Kratochvil|algorithm abstraction
+814c7642afec687897d90b8e4f2045a8a73753bf|2013-01-04|Mirek Kratochvil|keyring and message work
+be9acd498474edce5ed7008a9e4c92f1fdc622c0|2013-01-01|Mirek Kratochvil|mce_qd: better parameter selection + fwht speed
+0e7b439f11c836323a59bb78bc254aafaf06ff0a|2013-01-01|Mirek Kratochvil|cosmetic fixes
+3af8bc98fbc34a366d3eeb9b99d043de8e6a6a5f|2012-12-29|Mirek Kratochvil|main: cleaned up
+d96be6594045017d1518d886fb2faea745a35344|2012-12-29|Mirek Kratochvil|sha2 hash functors
+07b4ee195327392834e3234a305e3ca4912a65f1|2012-12-29|Mirek Kratochvil|fmtseq: drop heads of rc4 keystreams
+542d2f5e32e0c0d5bcf40a82cf9ecdf211fe825b|2012-12-29|Mirek Kratochvil|rc4-based random number generator with seeding
+bc759c2211cf394e8b26debee5d424c43a111b3a|2012-12-29|Mirek Kratochvil|fmtseq: key serialization
+647f5e7fa3bc20889519cac0784f68cc9b056b32|2012-12-28|Mirek Kratochvil|fmtseq: all working
+902a2f541dace8429e965292154ba48137918abc|2012-12-27|Mirek Kratochvil|fmtseq: working (tbd: tree cache updates)
+42d8ddbd07b587da9d2e56edacc59623def150fa|2012-12-27|Mirek Kratochvil|more papers
+d4ba7793f221a953a19768f49b33f575ac27f4f9|2012-12-25|Mirek Kratochvil|arcfour: small speedup
+52a7ce08cf478ee16b79e7f8c5b953b5da6f1388|2012-12-25|Mirek Kratochvil|fmtseq: primitive key generation
+f835bbe3cc047a18d4a7ac68ca31286106161b9c|2012-12-25|Mirek Kratochvil|fmtseq structuralized
+f9fc177d98207d99dcffa4ca7ba67cad1b3db095|2012-12-25|Mirek Kratochvil|get rid of the ugly global codecrypt.h
+d1fe9b176b1d6a32d8db31183c3a4d2f67558724|2012-12-22|Mirek Kratochvil|restructuralization
+17d6a55141843e3a630be172b3a619abecc30ab6|2012-12-16|Mirek Kratochvil|mce/mce_qd: custom error vector support
+bbb8765a6222efa9c31deb63b407a46763d6616a|2012-12-16|Mirek Kratochvil|arcfour style
+9001f8531ff90066e23852594d0292f270c14b27|2012-12-11|Mirek Kratochvil|merkle sig papers
+e37e9dc5f657e9f5f40ef67ccbe997b0d43dc608|2012-12-11|Mirek Kratochvil|serialization licence notice
+4656279dbadf847f0b935b77ef1ea94e043cfe4c|2012-12-11|Mirek Kratochvil|arcfour stream cipher for utility work
+7cece7e076e13a75fbbd691e2abcccdfc98fe4c9|2012-12-02|Mirek Kratochvil|MDPC McEliece paper
+fb5405633180cd89f3fc1c35b05e73c9d2d30c5b|2012-12-02|Mirek Kratochvil|serialization and cfs_qd work
+a14d1088e7c361425c99bc67c0457d711b628141|2012-12-02|Mirek Kratochvil|serialization work
+4bbc88f9909b84359b54ba94b255f2f485134aee|2012-12-01|Mirek Kratochvil|sencode working
+81c9754db1c71732005aff0413ab1d401bd09855|2012-12-01|Mirek Kratochvil|sencode skeleton
+3e41ebdfe931d12c0a3aa7833b66820cf283a2bd|2012-11-08|Mirek Kratochvil|mod_to_fractor replaced by more general ext_euclid
+fc209d3345817ae19df1623ceefb21cfc9d1b044|2012-11-06|Mirek Kratochvil|slight cleaning
+8a4cebe7295b526c7e3ceaca0ea04d4e2eeb721f|2012-11-05|Mirek Kratochvil|autogen doesn't create the library
+5cb7444ff6f0e053b9d02a301e106033ae80f0d9|2012-11-05|Mirek Kratochvil|licenses
+d0f0b5ef30826556d94af7538a710add604ffc35|2012-11-05|Mirek Kratochvil|clean stuff up
+17afdd4e46ac6bdcd4783e84030b9dad078d9a09|2012-11-05|Mirek Kratochvil|licensing
+736fd10e05690f43de8c5c50d7d468f773344d88|2012-11-05|Mirek Kratochvil|mce_qd: fixup to working state
+6d5b4c1feb81aa61768742b5645279f892140d4f|2012-11-05|Mirek Kratochvil|alternant decoder
+5b6f4b61cb0d709d0b22610539409e2e74ca645b|2012-11-05|Mirek Kratochvil|more papers
+cd1a3210417488abca5d3f87aa61e1f775b0d9bf|2012-10-27|Mirek Kratochvil|mce_qd complete
+aa5b1ac2cc576e87a0552dc3384eede06c880550|2012-10-25|Mirek Kratochvil|tiny sanity fix
+027e097b9bd94614799a4cc4fc7122dbc8d71c65|2012-10-25|Mirek Kratochvil|mce_qd: much faster H to G inversion
+9620632e84681f3ab32ad2b6b41b5fc6e307b0e8|2012-10-22|Mirek Kratochvil|mce_qd: decoding work, along with some fixes
+5b69b38e095f4fd1fd23dafdeb9440564adae14d|2012-10-11|Mirek Kratochvil|mce_qd: encryption fixed
+63e3e591b65b49b0d60f973a2ba8991d483d2a86|2012-09-30|Mirek Kratochvil|mce_qd: debug
+09538f45d801532a2d1cfacb2795de3390f5b1ad|2012-09-30|Mirek Kratochvil|mce_qd: encryption
+ec81c53463affc51b9e239bda22f441cd6b6975e|2012-09-29|Mirek Kratochvil|mce_qd: code generator working
+30f873c86bb3e5bb121a38952781d3ecdb7363c9|2012-09-25|Mirek Kratochvil|mce_qd: consistency check fix
+7c3f359c9ce1b735f302a2579df2924bfc2f7ded|2012-09-25|Mirek Kratochvil|dyadic permutations
+b04c1508ee561657cdd9f52a9241c447654ba848|2012-09-25|Mirek Kratochvil|mce_qd: code generation
+8162d6979cd1ba80e41c95b8d91787c543937ecf|2012-08-20|Mirek Kratochvil|matrix: S and Sinv faster generation step 1
+8d11fecfea47dbc4cb1ab588385d536aa3d20d68|2012-07-19|Mirek Kratochvil|mce_oc: subcodes connection using a random vector
+06bd504c9b9672e5b3b8174f9514a62aef3006c7|2012-07-18|Mirek Kratochvil|mce: remove check that allows bit-flipping attack
+21b3ef85d18686b57969d6209e9d808d285a5a60|2012-07-18|Mirek Kratochvil|mce_oc signature implementation
+b75c94ba797c0ca43eb67d1c952b4b12dcb09644|2012-07-13|Mirek Kratochvil|don't include seeding in generic prng
+17f17eb6da836370da915a3e8ea6e44b20a441c7|2012-07-13|Mirek Kratochvil|mce comments fix
+a889c94459d650edb750e19412a527f094aa6450|2012-07-13|Mirek Kratochvil|hamdi attack paper
+c605e06b356702bf68bf573a5def9817c6c4a3eb|2012-06-14|Mirek Kratochvil|isit short keys paper
+b80c5c44b8ba8b6b795ba04c44373d1de55bcd22|2012-06-14|Mirek Kratochvil|more papers, esp. signatures
+a4cf4c9706d13e6179b14b35c79a3aafd7f77545|2012-06-11|Mirek Kratochvil|matrix fixes (signatures work now)
+16d1ebd78bd17db80d6a1a2575d80b7e029b983f|2012-06-09|Mirek Kratochvil|gf2m: fixed defining polynomial generation
+d24550c126ced969e4bfdc5daeed9f81ff906e6d|2012-06-08|Mirek Kratochvil|decoding with berlekamp trace
+5bc1106063b20ad615875279c917055282183bf7|2012-06-08|Mirek Kratochvil|spec upd
+d0810664d792857169cb30a7c8384549b79479b1|2012-06-03|Mirek Kratochvil|little refactor of decoding
+c13fb3c414cff1456e7eecc45d398f9dcb95880c|2012-06-03|Mirek Kratochvil|colex ranking/unranking
+8bba17f75486d40c6aedd796714de1cee1420830|2012-06-02|Mirek Kratochvil|nd: fixes
+c9df69a83fe73620d60b46918e8e327d1fd53e88|2012-06-01|Mirek Kratochvil|niederreiter + various related fixes
+7b3d2f69ceecd7e3de7f04d330c2ebb46c7493a4|2012-06-01|Mirek Kratochvil|spec update
+808e73ba90e7a72c4cab2c0d54d7d634f0333f2f|2012-06-01|Mirek Kratochvil|papers
+12ce6c8230736e9375444d0f7f3696ac9e668ae9|2012-05-22|Mirek Kratochvil|mce: sign/verify fixes + test
+2436593054cf529e2b196d9b24b6e7b645501a4a|2012-05-22|Mirek Kratochvil|mce: decryption size check
+31ef38bfa77018fa09358eaa36e9308491ed37e4|2012-05-22|Mirek Kratochvil|mce signature size checks
+2c7d4276cfd1a44d657f6a834deffbcb4c710743|2012-05-22|Mirek Kratochvil|decoding: failure checking is optional
+d573d1cfe726d170b981e64af90495fb16ef89fd|2012-05-22|Mirek Kratochvil|mce: signatures and verification
+3758f23f44bb733a212afc365ba1a9f589ab115a|2012-05-21|Mirek Kratochvil|not-that-dumb matrix*vector multiplication
+90279968f8b4e6964b527dfa051e6766b44fa91b|2012-05-17|Mirek Kratochvil|papiry, dokumentace
+56ea9083fc82b4b548c907c62c718cefe2f694b3|2012-05-16|Mirek Kratochvil|small fixes
+b54fcb9bf38625885700c8529f37a80c0a3dcd27|2012-05-15|Mirek Kratochvil|more cleaniness
+78da95a2e8ee5360755084017708d9bef56e7f8f|2012-05-15|Mirek Kratochvil|ios: fixed bit vector output
+977d3afdc98c730d676a417a4cb292b24baeca43|2012-05-15|Mirek Kratochvil|restyled decoding
+d208819103ef03100f7164c233db2aaa20acce46|2012-05-15|Mirek Kratochvil|small fixes in polynomials
+0db682e5df45b7d614646b236c66a8addc221b65|2012-05-15|Mirek Kratochvil|simplified check matrix creation
+2f8dfb56af939bb0b6888c7dd614563f4540847a|2012-05-14|Mirek Kratochvil|polynomial division fixes
+022d20aa306b2bd84729f1fa230b034e5fd1d1fc|2012-05-13|Mirek Kratochvil|gf2m: faster operations using a lookup table
+1c2e807f69e563f7a133737a6ab6bebf43a563da|2012-05-13|Mirek Kratochvil|debugging stash 1
+985c71e8316820b8a4cbfb1d162ed8c10e6d5fd2|2012-04-20|Mirek Kratochvil|fixes
+0b4a55d235185fa83c08604b6b23de8e0bb5cc08|2012-04-19|Mirek Kratochvil|more papers
+b09128c3aac9d027afebe86fd52806b7520b9185|2012-04-16|Mirek Kratochvil|polynomial inversion fix
+d23fd8f898193f8cc5f3ec7dfa6e4fffec780521|2012-04-16|Mirek Kratochvil|square root fix
+eeed801a0c814d4c4210994881cb49a7c8e2813f|2012-04-10|Mirek Kratochvil|fixed goppa generator creation
+6ee3e86dc4901ae20a9d640efa0c8556c83e79d6|2012-04-09|Mirek Kratochvil|finished check matrix creation
+28585ce3f8b4d48b5f2108e916daf54530a8fe55|2012-04-08|Mirek Kratochvil|permutation fixes
+781ea21513f18e58f739471ea2ed18d0c249c297|2012-04-08|Mirek Kratochvil|polynomial fixes
+b4381c473e17aff69c9aeac9b83d26bc9492a80f|2012-04-07|Mirek Kratochvil|polynomial fixes
+e4c75fe0e05daa98bc20bfb9df1f50dd427156a6|2012-04-07|Mirek Kratochvil|decryption
+5f167030cc5b09779f2dbec30dda2aa10ee1fdc7|2012-04-07|Mirek Kratochvil|decryption
+0963baefa1c25c05f689871dd6fd5b5499a8f16a|2012-04-06|Mirek Kratochvil|algebraic decoding
+b715459593f6294f233f9b127c4673d1ffd188c5|2012-04-05|Mirek Kratochvil|mce encryption
+5ba94ca423dde243f4020369e274bd44632c7b3e|2012-04-05|Mirek Kratochvil|vector helpers
+b22e2177fe86e23432ad7c7c0ff3ba61eef20b00|2012-04-05|Mirek Kratochvil|useful debug info
+71626812196f311b0b676862d65369e786909900|2012-04-05|Mirek Kratochvil|mce: key generator
+9e9737413159e150122872dcad5b77af28a8f7fa|2012-04-05|Mirek Kratochvil|goppa generator matrix
+1b37691f3175fb72fc38ef4918a9ad56c751456a|2012-04-05|Mirek Kratochvil|matrix systematic form
+19225c36658a4cf2bec936049e9f5017959d18f5|2012-04-04|Mirek Kratochvil|check matrix
+171c660d3d0cd56ccecbb8531086293f73f5136d|2012-04-03|Mirek Kratochvil|square root matrix works
+5928e45a7108cfb22f9accfb9f40ce7c07c14f15|2012-04-03|Mirek Kratochvil|gf2m working under polys
+cd65834a92716bf6c5e5939051054215eecbe5d0|2012-04-03|Mirek Kratochvil|gf2m arithmetic phase
+ec5b6c36b19d9defc1dbadfe52c3e7470c86f5bc|2012-04-02|Mirek Kratochvil|polynomial squaring
+575cdca736457b27f833b1a1050ba490e66ef1cb|2012-04-02|Mirek Kratochvil|specification final bits
+3f82b2b17d4da7733e6a54240daf9e4c2d0c6fbe|2012-04-02|Mirek Kratochvil|fixed signature function params
+d441578f45d48e7041630ce7ad3c6ebdba6d260b|2012-04-02|Mirek Kratochvil|specification update
+53eb902f1b2bf6be584fe2a69c0e9f02813f5b14|2012-04-02|Mirek Kratochvil|matrix operations
+c47a651d0fbcb3db81db7d787876bc2e50d8e461|2012-04-02|Mirek Kratochvil|irreducible polynomials work
+5cbbaa215107f726065d1f06afc6ad3467b40fa2|2012-04-01|Mirek Kratochvil|polynomials
+7f0121294c6df1e1959e7585b9471b46634ca48a|2012-04-01|Mirek Kratochvil|kill warnings
+859dd3ef82b8c790cac1b6c1d666089529f72600|2012-04-01|Mirek Kratochvil|permutations
+dff9e91123a82d781df1118f20ade033e17658c7|2012-04-01|Mirek Kratochvil|header upgrades, item() shortcut
+10738598d9984f2c6af045d1b5714182eef79193|2012-04-01|Mirek Kratochvil|signatures, empty functions for mce/nd
+2d37a6dee943b18e68bf097b380f9428328ad621|2012-04-01|Mirek Kratochvil|more of the continuing C++ outbreak
+f212ce4aedbbee39de6449211d631447e7af8ed4|2012-03-30|Mirek Kratochvil|header fixups
+85baaa3ac32201767c5eb320204fa37771551430|2012-03-30|Mirek Kratochvil|more of C++ outbreak
+cfb9b3a4218b85de709fb01dbb3f9896d357f88e|2012-03-30|Mirek Kratochvil|sudden outbreak of C++
+87b0968e0d33a6ba0bd7d2e85fe51c6cbf281d1c|2012-03-30|Mirek Kratochvil|some work
+d8c4d054d3c0343fd452e235adad31d203286abd|2012-03-26|Mirek Kratochvil|math stuff, matrix ops
+ce936659052e3b570f23c116e7165e40367ec145|2012-03-24|Mirek Kratochvil|lib/ dir filled with stuff
+78400e4f6fa0ca0fe06293b51111826b644cb8e8|2012-03-24|Mirek Kratochvil|nice AG coding theory paper
+21109ad603e6adc1a95013036c9c5d9e3221786b|2012-03-24|Mirek Kratochvil|more
+60225494f478ee146b91c0b30ce84dc1988f9e5a|2012-03-24|Mirek Kratochvil|work
+83869d02c8151076534223a15b58db67e18589d6|2012-03-15|Mirek Kratochvil|some useful papers on the topic
+4b902b61f5e902f50a22dedc09c3505a078909f4|2012-03-15|Mirek Kratochvil|specification update
+14ce85a4ef97190aecb6b50f3e04355a34262874|2012-03-06|Mirek Kratochvil|structure!
+03fe0b481b0b2c737b989e727fc218be2407a16d|2012-02-23|Mirek Kratochvil|initial structure
+4e8a3518da51b449a060b45538f586ec4abcba5b|2012-02-23|Mirek Kratochvil|initial commit

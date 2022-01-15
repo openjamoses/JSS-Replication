@@ -1,0 +1,1212 @@
+453f4c1289e2c3f5a5a5e4d2b55a7415361b6ea9|2020-08-17|Johnnie Gray|Merge pull request #63 from er9/develop
+56d3aaa2681965a474704e4db65fbf91033bbb4f|2020-08-17|erika|minor fixes in unfuse, added test function
+2927313b1b2503a1aeeb9e3d4568bfac65b01077|2020-08-17|erika|minor fixes in unfuse, added test function
+d3b6779dd60c7c7e0585cfcfe52599a0eba9875c|2020-08-17|erika|minor variable name change
+c68cd02c0c192ef0f16f4ec3541e3d78365a437b|2020-08-17|erika|added "unfuse" method
+bf1bb9a9ac50241cfb767225f67eb4f95f49866e|2020-08-17|erika|added "unfuse" method
+aecb30a63cec6cf2becaf1bb283375e0e2b006b8|2020-06-02|Johnnie Gray|MPS: fix correlation for complex states
+768000465019419754afdb7117856af19ebddde1|2020-05-25|Johnnie Gray|update docs for slepc4py installation
+e18791d915fe9ae1fe44ea57d75267b1e7d9238c|2020-05-05|Johnnie Gray|fix MPI example and bug
+5a48c0118102715da0e591bee22fb71f8993eb43|2020-05-05|Johnnie Gray|Merge pull request #57 from AidanGG/develop
+74f946f7c5aba1055f9b4d45b8b9cde82dbff73d|2020-05-03|Aidan Dang|Use 1D TN contraction for imaginary TEBD test
+ecb6a746b0942984649e79a528f5ea5bf2cff34f|2020-05-03|Aidan Dang|Initial implementation of imaginary time TEBD
+2574b7b345990e265a5e1084875bea17d4dbc962|2020-05-01|Johnnie Gray|MPS: fix partial_trace for a single site
+40e5a2a9d5767585c3d1be0c95f42e24d4dfcaae|2020-04-15|Johnnie Gray|fix tests for now default cyclic=False
+8740dbce14519fb06b17871c218f684303cf7a32|2020-04-15|Johnnie Gray|require opt_einsum v3.2+
+442f896ada9b8e88a93ab7ea75adf3454345f6e9|2020-04-15|Johnnie Gray|azure: install tensorflow from pip
+6004773988bb53fc639bc97d16aa4f85adfeb268|2020-04-15|Johnnie Gray|Merge branch 'azure-pipelines' into develop
+f556dcf29154f5fdb2c3a21b6057557e2b4392ea|2020-04-15|Johnnie Gray|azure: use tensorflow-mkl
+f7e8bfa33c6b02981ab6d757f3ef8199e4047575|2020-04-15|Johnnie Gray|azure: add 'core' test group without tensor
+2ffa3a0fce7bd7c639371395de0a114318e3a18e|2020-04-15|Johnnie Gray|azure: add tensor network optimizer pipelines
+8613fab3a17b80ae07e33f8dae4c7c7c4f418eef|2020-04-15|Johnnie Gray|azure: slepc4py set petsc configure options
+4ef7a45bf11b8e81cbf808d8d6e7add70180e925|2020-04-15|Johnnie Gray|azure: add openblas for slepc4py build
+63ed03cf397393c46a7ca8f83350c091b4110386|2020-04-15|Johnnie Gray|update slepc4py deps
+0453ea1f85f9fbe4b2a863efa23a88d234c38b9b|2020-04-15|Johnnie Gray|tweak kraus op test
+43b194f7d1f8ac8a6e083bfbdb35395a592be34d|2020-04-15|Johnnie Gray|azure: try fixing conditional slepc4py install
+f89f4045f6c5958987a94e809972086e37520d9d|2020-04-15|Johnnie Gray|azure: fix conditional template run
+556fd35e0281213b8c2f8ce916f478690d4b8355|2020-04-15|Johnnie Gray|azure try installing slepc4py for 1 build
+a695bb4edc547f14cede824d409ff1b29fd798b4|2020-04-15|Johnnie Gray|azure: don't strip docstrings on import test
+caa9f71a77a3bf5f5020a790e5e63ab8541644c6|2020-04-15|Johnnie Gray|remove autodiff libraries for moment
+4687404a4a9ca9e6130174989335c117cfa4f53c|2020-04-15|Johnnie Gray|fix missing space
+1e5c64b3d5d8c0eb741aa1b9ab517eaa75e97ff2|2020-04-15|Johnnie Gray|add basic azure configuration
+59a1f8e8704bdd1dcb06e3ebe7cf74036fe62a60|2020-04-14|Johnnie Gray|Set up CI with Azure Pipelines
+a3687c189be05ef931a95339a7cdd28cc0cffe65|2020-03-16|Johnnie Gray|Merge pull request #54 from adamcallison/develop
+06a33f43648640b264e8722dbd2ae28b01115272|2020-03-16|Adam Callison|add test for int_stop with density operators
+ac3314fa181fd8a5df6828f01833fd21a8354205|2020-03-16|Adam Callison|refactor repeated code and reorganise for clarity
+46c22ac6215726a7db70624645c4162650345c78|2020-03-12|Adam Callison|fix missed test coverage in last commit
+d5a940f7d3fc42d7110239e1dea213d1bd7e50d2|2020-03-11|Adam Callison|evo: allow early stopping for integration
+f2917689a7a19ba4f689e9b56945ba0aa2325660|2020-03-11|Johnnie Gray|update deps incl conda-forge autoray
+e9bacf245012ea7e85b1289b1e0dd5524e54b04c|2020-02-26|Johnnie Gray|RTD: update for pip install v2 syntax
+b3917bfa05e8961710ad2d6a6ef8f5a1a9c9deb7|2020-02-26|Johnnie Gray|RTD: revert to pip but add autoray and opt_einsum as deps [skip ci]
+3d931aad53279bdbba79f80b4a59ddd5b787ff3f|2020-02-26|Johnnie Gray|rtd fix: try using pip via conda for deps
+b40fbbbf3a824d775816952abc861d3c7cdede1e|2020-02-26|Johnnie Gray|rtd: try updating build again [skip ci]
+5707de72f310770fba4db8c6c510ad4b454593c8|2020-02-26|Johnnie Gray|try updating RTD build [skip ci]
+6d74881afcf4de18cb9a8f8afc26c8add8881b76|2020-02-24|Johnnie Gray|TN: fix bug for compressing multibonds
+e064a5149620eefa25812799d2c7fd04f2827daf|2020-02-24|Johnnie Gray|TN: fix bug with fusing outer inds
+35cddeff66035cfea2af4161e5a851d3780d6e90|2020-02-24|Johnnie Gray|fix some docs [skip ci]
+b3d8d7983759c8108976515baed15ab3aad36d16|2020-02-24|Johnnie Gray|make multiline print more generic
+6c0e21abd7f20049170779c84359611db60ae38e|2020-02-24|Johnnie Gray|remove redundant methods
+102337a47e511d1056e4e6dfe62087a6346db82d|2020-02-23|Johnnie Gray|TN: test canonize and compress multibond
+cc21c3fae219a3284ebf9abce59e7a9f42c98b17|2020-02-23|Johnnie Gray|TN: update tensor_compress_bond, add tensor_canonize_bond
+47860c33b1bd6c56d666ef9e8522ecd2a50cf329|2020-02-23|Johnnie Gray|TN: tweak singular value renorm behavior
+2042374e448e65b6ee0354eea5eec7c02202bded|2020-02-21|Johnnie Gray|TN: tweak _modify_tensor_inds performance
+30a32502db5a2fd9d3d9f94df45a27e82cfc2612|2020-02-21|Johnnie Gray|TN: improve performance scaling of fuse_multibonds
+44789b870963cc1d97289034f55cc325923cfe9e|2020-02-20|Johnnie Gray|add log10 for convenience to top level [skip ci]
+6ac2f562bebee5850aa15c230bf924564dc8a272|2020-02-19|Johnnie Gray|distribute tests and deps [skip ci]
+dc624c1ec40aee9c847f4a9639b655a7f6c97cf9|2020-02-18|Johnnie Gray|fix changelog header ref [skip ci]
+2b988d436461d50432aa99ae265ec3d734461a19|2020-02-18|Johnnie Gray|update changelog for 1.3 release
+9e22bc656174e93ec26986cd2237bb34630d9cb8|2020-02-18|Johnnie Gray|Merge pull request #49 from adamcallison/develop
+f3ef77b6c5a2b367d0b43f29c03bb4d1ab98dc43|2020-02-15|Adam Callison|make previous commit pep8 compliant
+d45f170636112070697737e58703f6773ed5800b|2020-01-27|Adam Callison|Evolution: allow callback funcs to take in Hamiltonian
+2bcdd4a6fb415c87396c0776eae4900425a8828a|2020-02-14|Johnnie Gray|TN: add circuit_ansatz_1d_ functions
+196967804b6b443b05d6e6c2358463a1df88d4c3|2020-02-13|Johnnie Gray|TN: add optimizers to travis tests
+e6046e595f8eb86f2482b2f395b4fd83e5adb538|2020-02-13|Johnnie Gray|update circ gate tests
+577d841e81ca452a27a93077b7d1906b94e74523|2020-02-13|Johnnie Gray|fix comparison error
+2406fd08fe38c7aeed1fcf9d1b87c86515ccc6f9|2020-02-13|Johnnie Gray|fix various literal comparison and escape sequence warnings
+846f1d5d7f4aefd8bed65fb20e1fc983dcb457ca|2020-02-13|Johnnie Gray|travis: fix export syntax
+ad68e5d3d1f6fdfb7201ebd7ab2b25eb5dc1238d|2020-02-13|Johnnie Gray|add QUIMB_NUMBA_PAR option and turn off for travis
+8d66f0183c50a22e6689f7e16215c4c73014f700|2020-02-12|Johnnie Gray|numba updates + segfault workaround
+b350b7e7809cb40276a4d9cf17f150b7d35d1f15|2020-02-12|Johnnie Gray|tweaks tests
+9e04c401350908ef539bfb6fb6a29d9b7421e5c6|2020-02-12|Johnnie Gray|make cached petsc+slepc import handling more robust
+75f19f306f5658196854b92824f06725735b240e|2020-02-11|Johnnie Gray|tidy test_evo
+2f5558adf733fb459385d654d3362338e98afad9|2020-02-11|Johnnie Gray|travis: move wait command
+20d4f53ccae4cb9cddac8255c526001dc5ddcada|2020-02-11|Johnnie Gray|travis: petsc install simplify wait 30
+2696ba98a0f365a0975b53396fb42683acedadcf|2020-02-11|Johnnie Gray|travis: petsc simplify try wheel error fix
+748429034094933292f0c404ec87c1f9b2ec4ab4|2020-02-11|Johnnie Gray|travis: try simplifying petsc slepc install
+1f3225a1a027fa08165d478b3511d6139b4ee52b|2020-02-11|Johnnie Gray|docs: update random gen example [skip ci]
+4a6fe9e4269b746c5f57f2e9655f6668233860b5|2020-02-11|Johnnie Gray|update travis slepc build script
+816057d3918bc9ad26873fef7a3b7ab671bfa9f2|2020-02-11|Johnnie Gray|Merge pull request #50 from jcmgray/multithreaded_random
+324a07f962b214eb37ded0211edf60f43440c81c|2020-02-11|Johnnie Gray|fix for tensor_decomp errors (scipy doesn't sort singular values)
+eeb57d6a00ffab256190bf0aed2ab09f54731d88|2020-02-10|Johnnie Gray|update the multithreaded random number generation
+5a68fdfa21796f007a4d6e264a761dc7da7b42ed|2020-01-26|adamcallison|Change logic in Evolution's __init__ so self._ham is always defined (#47)
+33dd8684f41bf40f65d8ce11f9600a831b930147|2020-01-26|Matt O'Rourke|Improving optimize_pytorch (#34)
+dec3b951405555e32ff03a2989f17e1e8cb58146|2020-01-24|Johnnie Gray|TN Circuits: make it much easier to get new circuits from optimized TNs
+aa603017e462b216426e2d6ae98833d271cd3f11|2020-01-24|Johnnie Gray|TN: accelerate simplifications with numba for numpy arrays
+0de0a981efec70438afe186ab3462d9acdf189d6|2019-12-20|Johnnie Gray|Merge pull request #46 from adamcallison/develop
+7297249617fd42fe1531e139231310e3bf5f4592|2019-12-19|Adam Callison|add check of immutability to test in previous commit
+14ca88d89ae29baede8eccbb1b6c104c0e06d617|2019-12-19|Adam Callison|stop hamiltonian_builder coercing dtype if explicitly given
+c59ec63f9a9858411761dbbe7253b04283f1bbbd|2019-12-17|Johnnie Gray|TN qu circuits: allow parametrized fsim gates
+88f1f83ecf3db6fd4e465d80dbfc8a9ba7ac66b6|2019-12-17|Johnnie Gray|TN: parametrized tensors with quantum circuit training example
+08b860f56cd7357e14a53fa9b06d71f1bb9d52db|2019-12-16|Johnnie Gray|Merge pull request #44 from adamcallison/develop
+8e02382a02039a8b90b5e75a7ed124de6b883c83|2019-12-16|Adam Callison|distinguish time-dependent 'callables' from LinOp 'callables'
+d613b9659129d716bb4cd42898b747c326582541|2019-12-16|Johnnie Gray|add evo linop test
+5ec3f1f197c49c96e868342639f61c547a7bbdd6|2019-12-10|Johnnie Gray|make opt_einsum optional
+c521fa14d78c81ee9aee30f12948d1a5950dfa68|2019-12-10|Johnnie Gray|mention `psutil` in the installation docs
+837597241aa0069695deb4af4ffc89525376c17e|2019-12-09|Johnnie Gray|tweak evo test comments
+5691c17a3b76e3e01160853224b2ac2b34610c2a|2019-12-09|Johnnie Gray|Evolution: add dop timedep support and adiabatic test
+d53d8d6a309193a7cc4bf041343b6dc75f5cb444|2019-12-09|adamcallison|Add a simple test for the time-dependent Evolution code (#41)
+15e09f9d3716008ba5ecd8a3625101c46ae367b3|2019-12-06|Johnnie Gray|fix some doc warnings
+492201519157355b751d64af73e297a318f0adff|2019-12-06|Johnnie Gray|TN: advanced network simplifications
+27af9f7ae90e62335aab503f4d96f2f709f5a9c7|2019-12-06|Johnnie Gray|TN: cache contract-paths as well as expression
+9778de0e3b55bf1d38be70b31b50db20aa2cc892|2019-12-06|Johnnie Gray|make the tensor network deps optional again
+284aa16a4fbb977311b5fe27daa66ba0e174d9ab|2019-12-06|Johnnie Gray|TN: add svd unitize method as well as linalg compat tweaks
+0290f6cbb0bc2dcdad1ce3718bb35f4751a16dfd|2019-12-06|Johnnie Gray|update docs
+ab71da9020f82f805b7befb911624d41fa0a64b2|2019-12-05|adamcallison|Approximate norm in case of LinearOperator supplied to Evolution as the ham (#40)
+fdf2c540f8da6f1f510bca13185b999b16df1ae4|2019-12-04|Johnnie Gray|tweak docs
+881a32a228cc9803552d97529c14c33dd33b33a4|2019-12-04|Johnnie Gray|Evolution: add time-dep docs
+517061c42f50fc63ed841fdc7fa88c806bd34758|2019-12-04|Johnnie Gray|Evolution: preliminary time-dep support
+b81929223e8d0ec8a856fb6c91a9d7fc32d4a9de|2019-11-29|Johnnie Gray|tweak docs
+ebf0a199c289f96f0026618a5779975bb19bc083|2019-11-21|Johnnie Gray|TN: make rank_simplify deterministic
+8b355ea3b8f3e0e069a5bc9410cd310a0ba7fe83|2019-11-11|Johnnie Gray|TN: add diagonal_reduce, rename contraction 'complexity' to 'width'
+639621167d957838c6bde1abe99fde7f096dca9c|2019-11-01|Johnnie Gray|TN circuit: add HZ_1_2 and qsim file support
+3e1295f50e62fa86d9980e29be127494531bbf87|2019-11-01|Johnnie Gray|TN: add fuse_multibonds_
+0a7c1ef5c6ca1e6e447ef7252fefcd71303b26d1|2019-10-28|Johnnie Gray|TN: fix repr typo bug
+6cb1bf0fd2ab7a666cf8922b2cc40c52ee5695e8|2019-10-27|jcmgray|drop python 3.5 support
+1639ee799d14bd2f6fb5bd1a49833c979fc000f1|2019-10-27|jcmgray|fix numba typing segfault
+bb5422c840ef877ca8d265058e55fc6fe31cd992|2019-10-26|Johnnie Gray|travis: remove transitional blas lapack for xenial
+775fbe0c20140d4d03920eed56aeffb3316627ac|2019-10-26|Johnnie Gray|travis: fix dist
+a42fb027bab36186e2f8354653ee753a8cad435f|2019-10-26|Johnnie Gray|travis: multi python version testing
+3a7a78eab248c5b5adcab701ac71c1052038b143|2019-10-26|Johnnie Gray|travis: make petsc slepc compilation non-silent
+b1a57da12cbf7217a099c293cd4a97ab0eee78c3|2019-10-26|Johnnie Gray|travis: update petsc repo location
+b768b024e11216126714e8ae63e94fe063b89092|2019-10-26|Johnnie Gray|fix fidelity calculation robustness
+787f9469a6cd029cd466b7454c2529385c912ba7|2019-10-26|Johnnie Gray|update docs style
+ef45319751390f180eb1f72336f9262b4fa47f23|2019-10-25|Johnnie Gray|spruce docs style
+3769c9277dc89c8f82a1c9dede3b5e81c6d1e998|2019-10-25|Johnnie Gray|TN circuit add fsim gate and Xsqrt, Ysqrt, Zsqrt, Wsqrt
+02847183b3df78fd2d417b231e3d522c1f348de0|2019-10-23|Johnnie Gray|TN: add 'auto-split-gate' gate mode + ISWAP
+28a2eef0e7a1fab46393120456fb1a0795580bb2|2019-10-23|Johnnie Gray|TN: begin cleaning up class structure
+096c6dad36ed81cac811a0500a449a3a5a6ccd5a|2019-10-23|Johnnie Gray|TN jax / autograd optimize: automatically detect which
+1c1f2531b00e97d8b47cb2b21400497fe6ebfb37|2019-10-23|Johnnie Gray|TN: fix graphing for networkx 2.4
+dd17a418502203c263e59a18434948a4b1a76455|2019-10-23|Johnnie Gray|add fsim to changelog
+8b9404b598dddc315742116b2ca20fa24a5467a1|2019-10-23|Johnnie Gray|add fsim gate to operators
+9295af597726ce282db0b28aa329971ac2edddfb|2019-10-23|Johnnie Gray|TN: strip out slow buggy non-MPO spectral_approx stuff
+36dc3c1f49652e4007e83bd663fd3a04dcec32b2|2019-10-23|Johnnie Gray|fix some tests for str dtype inference
+37e1972a21b83ed091c7fe12cb3e1b70a00e6d3b|2019-10-23|Johnnie Gray|update the changelog
+9e754a83a7cef512f5424d4bca77a4bdad2f6a8a|2019-10-22|Johnnie Gray|QTN: put rand_uuid in top namespace
+e9b5261e03071043c771f21f7307a6ca0fbfb757|2019-10-21|Johnnie Gray|fix 2d example docs
+a022c83115439652e8493a8ef5e20c828c6b42f8|2019-10-08|jcmgray|docs fix
+85bc899cda13b875000df1ae59d1fec1a469da9b|2019-10-08|jcmgray|TN: update new_bond, for easy graph orientated TN creation
+0f49e3969db57aaee76a22fd537ccb62a4bce93a|2019-10-06|Johnnie Gray|TN: various array agnostic improvements
+ee602f4db4144ae9ac2680d88e36b846e4a39c7a|2019-09-03|Johnnie Gray|Merge branch 'develop' into tnoptimizers
+ace405f466043f544c33b2eeee94b045d7d4ada5|2019-09-03|Johnnie Gray|update changelog for MPS ghz and w states
+ec627bd7f900c52674aeb9e7a594bbeb18691e67|2019-09-03|Johnnie Gray|Merge branch 'develop' into tnoptimizers
+56d46349d53e80a3d7a8da97258fd570f69e4569|2019-09-03|Johnnie Gray|TN: add MPS_ghz_state and MPS_w_state
+ccad1e4aea3c81b651ba0bf435bf36a2c0813866|2019-08-29|Johnnie Gray|TN: divide tweak for tensorflow XLA compat
+e1280a12e9fa1a09cb2df586c3da877a88cf8e24|2019-08-24|Johnnie Gray|TN: add optimizer tests
+ad15ce582b9788fed8bb23d336cf2d13081a8fd4|2019-08-23|Johnnie Gray|jax/autograd optimizer
+27e6b80aa2577a6eb5c695ca8cdfe674f8c6e78c|2019-08-23|Johnnie Gray|tf: update to use compat.v1
+b685b7c627cddf74e42d2314117ec787ad14a14c|2019-08-23|Johnnie Gray|TN: add SuperOperator1D
+ea62dd2c1935a91541f516765d34adcbad227764|2019-08-23|Johnnie Gray|fidelity: make vec-vec real
+af7db439e93fef74626e9403a488b6c692b7bb3f|2019-08-07|Johnnie Gray|fix fidelity convention
+ec1b46ac63f33e5e128af116ed0a86de29a6bb8d|2019-07-08|Johnnie Gray|TN: add sensibly_scale for random tensor generation
+cb7671128b0eb5e160dc8f901a04be58da454a95|2019-07-24|pulkin|Feature/mpo apply (#27)
+14166dcef69ea30b4a827b2d469b8271b94b92c7|2019-06-28|Johnnie Gray|TN: add compress_site
+f89627107eeeb1be3aa273159a7411bb568e00f7|2019-06-25|Johnnie Gray|kraus_op: allow application to multi-subsystems
+f3bdb6577c178bb947b95d70157b338250d2f2a5|2019-06-25|Johnnie Gray|TN: automatically squeeze with `rank_simplify`
+bd95f8d4774bc5528dde9a189fe6d807237c09ef|2019-06-25|Johnnie Gray|TN: add randomize methods
+f22ea7c05760766a96a6a88a8ef83f3ea63f9c61|2019-06-06|Johnnie Gray|update docs [skip ci]
+70f4b42b3ba44bb3b35240057452bab57f55364a|2019-06-06|Johnnie Gray|update docs
+bf2f71a691e6a5011ed09c8ab7bfdb33e5ccf9a5|2019-06-06|Johnnie Gray|fix trace norm for non-hermitian matrices
+75163186f1547a26c8a4dabeeb020b642657571f|2019-06-05|Johnnie Gray|fix kraus check
+108cd2cf6ba36d60817184b0441ddffdcbc2115d|2019-06-05|Johnnie Gray|TN: allow rand_tensor to have left_inds
+88492e5830c2737e740564b552d3c99db3fa5c6e|2019-06-05|Johnnie Gray|TN: fix DMRG changing site_ind_id
+29ec4415f323bbf01dec9f78f314f300088bcf5a|2019-06-05|Johnnie Gray|loosen more test tols
+f2660534fd8810f10e40aceaf02d83028c8c4ef6|2019-06-03|Johnnie Gray|TN circuit: fix bug that swapped Z and X rotations
+535cf1738c7f2899248452765ef72a76b0f09177|2019-05-14|Johnnie Gray|TN: update graphing and docs
+e20da40c473859fac619420ff01b7b75578aa341|2019-05-09|Johnnie Gray|TN: add connect function
+8f12e7600c047f3dadd81a4cb8ebad1ed5d22ce1|2019-04-30|Johnnie Gray|TN align_TN_1D: allow MPO at beginning and end
+25f546dcbeffeb7225fe4fba8174a7663bcadd1c|2019-04-30|Johnnie Gray|update docstring
+e1f6303b7eabe703a9643b4338cfcb347ee24802|2019-04-30|Johnnie Gray|TN circuit: make to_dense and simulate counts much faster for non-numpy
+a29b5e86c14c8527efe98b715c552cef8083e054|2019-04-29|Johnnie Gray|tweak rsvd test eps
+b2874b93b5d24f44f6415e8398b49a3b946b15e9|2019-04-29|Johnnie Gray|TN: fix for variable bond MPO + build_sparse method
+ddaa07be520ca5942d6e806ab7a726fa1e4e51a0|2019-04-29|Johnnie Gray|relax approx_spectral tau tolerance
+0de0a00141c1958cecf3d20c006d311d563dbf01|2019-04-26|Johnnie Gray|TN DMRG2: fix case of L=2
+d85128fc4733e342160cb5215464856d920f706f|2019-04-26|Johnnie Gray|fix test tolerance
+9b04e91c888b7f2c991abe52174651f416be73db|2019-04-26|Johnnie Gray|TN circuit: make to_dense quicker
+82a4e4c76a69d854b23f36a13265fcfa4ed88b49|2019-04-25|Johnnie Gray|allow non-dev version of opt_einsum
+11f1f0a4cb8ea347ae1f62b70ab9da10428d1fb5|2019-04-25|Johnnie Gray|TN SpinHam.build_mpo: further fix for PBC
+e112851eae9977fa10d1abbfda612c891cc6c243|2019-04-25|Johnnie Gray|TN Circuit.to_dense: add reverse option to match qiskit
+36f3b3eac8f09ec25690c05a594b531be0c74ee0|2019-04-25|Johnnie Gray|TN: fix SpinHam.build_mpo for site-specific interactions
+162f758f65e2b08178deb9b0b2e46ae646734961|2019-04-25|Johnnie Gray|TN: fix bug where MPS.to_dense couldn't permute subsystems
+be612ce7f0ca3ad735946fa6a4ea2326e030256a|2019-04-25|Johnnie Gray|tweak approx_spectral options
+2b94a91b68bd8eb17d589dff16932d903a027d75|2019-04-25|Johnnie Gray|TN circuit: add to_dense method
+ec57b6c2b46e10725aafe86724e75e3f74a2424e|2019-04-24|Johnnie Gray|document autoray as dep and add to setup.py
+72bafb96568be8cbe0da452c2198ac4ebe904329|2019-04-23|Johnnie Gray|tweak docs
+930693536cf19dbb934e53a4ee183808547b01e7|2019-04-18|Johnnie Gray|TN: add automatic 'unitization' and start using autoray for array ops
+8bdcb7e1f942f4252bb22a8557bf4fe2164e67c3|2019-04-18|Johnnie Gray|fix flaky rand test
+3e98b6b678365b8a1ddcdc4cafdfc8490e9ba791|2019-04-18|Johnnie Gray|TN: update pytorch optimization to match tf api
+8ed2a03f95e96640a2b6e05eff5cc58e19212c03|2019-04-15|Johnnie Gray|update readme/docs to include gitter link
+b9c697c16e2702d2f987e3c9b6b39827e59060b7|2019-04-05|Johnnie Gray|fix for approx_spectral
+82a4504bf3caec742ab05c90c1d17b97517a0d0b|2019-03-29|Johnnie Gray|TN: add contract strategy and backend context managers
+bb31a8b5f477d26e144414a2f419db21c1455329|2019-03-29|Johnnie Gray|Update tensor network ML optimization example
+bc01b3288ffc61682ec28d996d2087f733295532|2019-03-28|Johnnie Gray|tweak tensor network draw node outline width
+997e56a38611e9c98c18bfc8bfe57ada933c927a|2019-03-28|Johnnie Gray|TN: add tensor 'unitize' to impose unitary constraints on tensors
+fead9ca5d571fef8f429dd0adf5c3c3b8a215d76|2019-03-28|Johnnie Gray|TN: tweak plotting incld. allowing edge highlighting
+1b39adc5c7d7ce61bd1e0217770311aaffe70876|2019-03-28|Johnnie Gray|TN: optimizer decay learning rate & add backend agnostic `dag`, `trace`
+9a7cc0935c7abe9140e7af10f9bd3776a020dfa8|2019-03-09|Johnnie Gray|TN: array agnostic canonicalization
+a397e98fd033ec91256400fa41552175b6b8d34a|2019-03-07|Johnnie Gray|TNOptimizer: explicitly split tf constant args and other kwargs
+a7ef196677538b66954b5657097ca30c4fcd6934|2019-03-07|Johnnie Gray|TN optimizer: tweaks for tensorflw scipy minimize interface
+116d165e9a13b75f419b6590de8d0d90b8dd326e|2019-03-07|Johnnie Gray|TN: add simulate_counts to circuit
+fce65687364e2c05bf157dad5fa60ccb817d4382|2019-03-07|Johnnie Gray|add ``simulate_counts``
+75e10e52ec5e87ef73feca9352b4458651a66b32|2019-03-07|Johnnie Gray|TN: make core even more array backend agnostic
+b51a7e7a7a558c40035824c2c0a372e4857db11c|2019-03-07|Johnnie Gray|TN: tensorflow optimizer, add max_time and evaluation counts
+f0f83c64f816644ca0f1f5090e15d20cf8f9226b|2019-03-06|Johnnie Gray|TN tweaks to tensorflow optimizer
+6c283995d8218137fe2f9290aec4259193f68bab|2019-03-06|Johnnie Gray|Dense1D.rand class method
+56d1ce8f65fd5ed1ada333063ddfbad43d761d47|2019-03-05|Johnnie Gray|TN fix for multiply spreading with negative real creating complex data
+4740f3d2fe91c5ce103d15d95317a70101d95bdd|2019-03-05|Johnnie Gray|TN: allow 'spreading' when dividing/multiplying by scalars
+4030d1125fd84de778ebf0ea0d656ec68dffdf49|2019-03-05|Johnnie Gray|Generic TN optimization using tensorflow or pytorch
+5058fb351876a9586138f44783dd2a8acaff9422|2019-03-05|Johnnie Gray|TN circuit: add swap and iden gates
+c255c9672247710d3bf0f7d006e1da3fa175e8bf|2019-02-04|Johnnie Gray|add U3 gate to TN circuit
+149bf0f893b72fd8ea4ff68ecb76e150e4022ddf|2019-01-31|jcmgray|update TN quantum circuit example timings
+a6ea5dac3d8bb54bdbdd1b22808f0ec5065b2fb1|2019-01-25|jcmgray|cov based test updates
+61b2c8b5fbc06708c2b0abb2ecfce6a3aedf3794|2019-01-24|Johnnie Gray|add U_gate and update docs
+ceb46397a8f495d692dbc3d52344856a282b47a6|2019-01-24|Johnnie Gray|fix for numba _dim_compressor
+026cf4f63e82f55f8c5f58104bb1a77a3a0148d9|2019-01-24|Johnnie Gray|tweak `measure` efficiency for mixed states
+81d6035d28ad8561816b9c427f895ac21ea445b9|2019-01-24|Johnnie Gray|add cprint, projector, measure
+43bbb985fa8d1ee0ecd6f6889ab23b3590614459|2019-01-23|Johnnie Gray|add `quimb.gates` as convenience
+460749f380ac38288ebd28c1ee9d14f45cfb55fa|2019-01-23|Johnnie Gray|remove numpy.asscalar
+a627faac31fa1c151080fe08200c1ea13c76c9a9|2019-01-21|Johnnie Gray|fix: allow contraction path passed as list to be cached
+02db6d2bde97fbc2596f4808175d80580b779da6|2019-01-21|Johnnie Gray|small fixes to TN circuit example
+f53f2e2b304849089e305d1bf187bd47a7a81837|2019-01-21|Johnnie Gray|RTD: fix build by removing conda
+b0897dab55d4494380a8f12ff345354e226f3fef|2019-01-19|jcmgray|many updates to tensor network quantum circuit simulation
+3e19f4482f6dfb0ea8834eb56e8a3fa8e6cb9fed|2019-01-19|Johnnie Gray|DOCS: add changelog, tweak conf
+182b7847011d1e9892aebf0751e694910f8d4496|2019-01-18|Johnnie Gray|TN: few tweaks
+4f5cc74df5499438c85fad452d00f36e5297e94b|2019-01-18|Johnnie Gray|add kraus_op
+0678c247b09f55a0e80c00d51530975c23bf93c8|2019-01-18|paulsbrookes|Altered prkon so it allows number of operators to be the equal to len(dims). (#18)
+40298e827abe9599c0a654f3796fd86a84bc6f2b|2019-01-08|Johnnie Gray|Circuit TN: handle gate_round numbers automatically
+c13d4db9c2f8def5e01d756b583c761a975c8b47|2019-01-08|Johnnie Gray|tensor fixes for to_dense and rank_simplify
+41a7575121c6f021d6c67d984488fde3d00e3daf|2019-01-08|Johnnie Gray|make qarray printing compat with older numpy
+899c4b649c096e139ffc39e248141f5d2b7c64b1|2018-12-17|Johnnie Gray|tensor_contract tweaks
+89197d5b661762d529b05d1916f79449470af7e1|2018-12-13|Johnnie Gray|fix split-gate test bug
+3cafa675e484d2bc57c9d6888610f81e9046ef98|2018-12-13|jcmgray|partial fix for slow MPS-MPO-MPS contract path found using greedy
+d3d68173dd374702e99d9c5108c6224a2809d0ee|2018-12-12|jcmgray|TN.gate: fix swap+split bug
+fd2391e82421e92500221cb795c8967a18f76077|2018-12-12|jcmgray|TN: add isel, cut_iter,
+f57c66bee878953373f15e64f5b6db0abcacc77e|2018-12-04|Johnnie Gray|TN: add gate contract='split-gate' mode
+9d17b43a15f22968b924f60d0ec1672b8e34b482|2018-12-03|jcmgray|add iswap to operators
+0cf3d4fe76e89ba92acdbee0117a83c672f86688|2018-11-24|Johnnie Gray|TN: add rank_simplify
+721206dcfbff56d051487e2f02bc970369a76c11|2018-11-15|Johnnie Gray|TN: use common_type for true dtype
+3fcc5262b5e6d48ae66850c02b72e546814fb0c7|2018-11-15|Johnnie Gray|custom common_type
+bd4d88067d20cd125cf14fbdaf15cdd552941c82|2018-11-08|Johnnie Gray|docs tweak and test for swap+split MPS quantum circuit simulations
+0de1566bfbf522bfa32545cf45700599db5da408|2018-10-18|Johnnie Gray|tweak tensor docs
+98548aea06c52a8184bbed9a6c5ed5ff44a7502d|2018-10-17|jcmgray|test and document quantum Circuit class
+10cc65477b0017ada604fb503f6ec50f80a78748|2018-10-17|jcmgray|clean up tensor_gen a bit
+5a2a7f95dfc92d82d02bd14a29c51fd2383ada80|2018-10-16|jcmgray|add autoblocking for dense eigendecompositions
+e34ea354bc7ce157d3bb7b48a4f9cb3b96db8116|2018-10-16|jcmgray|fix fuse_multibonds for PBC
+e023b1c8bc3cfedb0621da2f78d503fdfb5f46cf|2018-10-17|TanTsiChen|add a local OTOC (#10)
+d9e2ab25ece95c444d81bb4beaa81f8e4f95f3ae|2018-10-15|Johnnie Gray|add pytorch optimize PBC MPS example
+dc363c135b9ee3d0e8034a14b8d24e22cecf500f|2018-10-15|Johnnie Gray|travis: require numba=0.39
+181cd3fcb1202cd30dc3d78adf929fc9f73463d1|2018-10-15|Johnnie Gray|remove numexpr completely
+ac46732d5bb3a898b76e1bf7d830887dc5328296|2018-10-15|jcmgray|de-numexpr outer
+8b99bf753025caec2724e48d93c85fa0f8b5d189|2018-10-15|jcmgray|de-numexpr kron and ld/rd mul
+43210c89c2e4a73758d5aed37020341ee85d30b9|2018-10-10|jcmgray|test for cyclic MPO compress
+b3f41941c5f2614b8923f3a08bf8188b7cf4d854|2018-10-10|jcmgray|make sure all bonds canonized/compressed for cyclic 1D TNs
+e69c91fe890957cbc6d45e5e89df5126511720c9|2018-10-08|Johnnie Gray|add Quantum circuit class and MPS_sampler
+11cbaca67a6aecd6b64e1f337a1fe1fe51ffc69b|2018-10-08|jcmgray|syncro mpi pool: fix result diving for ndarrays
+d5831cd5383a42e28bb472c3cf9dcfe670d21573|2018-10-07|jcmgray|syncro pool: use proper MPI Bcast for ndarrays
+4db5e0233eaa1abe60de2d099506a5c574fdf88e|2018-10-06|jcmgray|propagate a few contraction options
+d6cf83bfec5791a3a6e849994ac04924b5e2497c|2018-10-06|jcmgray|turn off parallel ham building by default
+4fc2ba52af39bff007ab8ea803788c5e3a71acfb|2018-10-02|jcmgray|fix and test cyclic TEBD
+5b808dc4b511683b5eb7a70df5f10594b28926ca|2018-10-02|jcmgray|allow MPS_product_state and others to be cyclic
+8719e069c68bb45a5c13dddb8685c97bdbf6212e|2018-09-30|Johnnie Gray|propagate contraction kwargs to contract_path
+7d0a5247650d9e32e29c35911654e9dda9e77871|2018-09-28|Johnnie Gray|factor out tensor array decomps
+437b164e76a2df0eda771de4b804182e69e01c74|2018-09-27|Johnnie Gray|use apache license
+87e645c2af30a6a32a24a186babc6f72c36144cb|2018-09-25|jcmgray|update example [skip ci]
+f896c6c7ede837f7941fdcf08a3a68a8f3674f2b|2018-09-25|jcmgray|loosen test tol
+385a275a561b524388265e0a7a6425fd5b57b7f7|2018-09-25|jcmgray|fix MPO test to use trace
+bb53a661a644ebb344ccae02b06b023f2ee3f2cb|2018-09-25|jcmgray|loosen test tol
+6ce46d98dce7d02713ef7beb7dcaafa2164f88e2|2018-09-25|jcmgray|add MPO._apply_mps and a few other fixes
+17c4b49f5f851f3f760a239476c100aead3b0869|2018-09-23|Johnnie Gray|match MPO trace method call sig
+bfff44f1c057fc93bf293c92e7c16761e9115fc5|2018-09-21|jcmgray|use lgtm code quality
+f84eb9cfdb5494a783583b8ddaa7ba3b86aecf0c|2018-09-21|jcmgray|more cleanup + .lgtm.yml
+b6ead5c4f99c95704da4c66f2eea2e5f6cd55e26|2018-09-20|jcmgray|various linting and fixes
+794f0a62864a620cdff57512f659f59e8a7a9084|2018-09-20|jcmgray|tweak test
+6b59a383007ab117d03daba2289c424a151798d2|2018-09-20|jcmgray|move away from numpy.matrix as much as possible
+cb4f6ca947a8e8879e6747f23139a958a1f8dada|2018-09-16|jcmgray|docs fixes, use notebook for basics
+69fd7efef3f9fae0cf5acc43cc06763a96f7947c|2018-09-16|jcmgray|fix up core docs
+96b016548b60688cadfd3fd7600d477a6e6a818b|2018-09-15|jcmgray|use sli.estimate_rank if possible and tweak defaults
+4119530f17c3cd34af2582b94aad52f605232591|2018-09-15|jcmgray|add gates and local quantities to docs
+f87b3b4bb08bac0d90f2fec15b28f462a0879c67|2018-09-13|Johnnie Gray|tweaks to rsvd
+f9984c1a404f654297b43837181f28662c779c37|2018-09-13|Johnnie Gray|TN: add inplace underscore methods
+33f29a0f2ff75458665b43a41afd6147fc0bf0fb|2018-09-11|Johnnie Gray|tweaks for MPS QC, canonizing, swap-gating
+8d0abfd03e50b01530c7a58deb55d391ffcbf4a7|2018-09-08|Johnnie Gray|fix concurrence (wasn't using non-symm eig)
+96a5e4fd966d821e587f8e16f2c866add73092ec|2018-09-07|Johnnie Gray|add QB adaptive mode
+4c58e7d901b0a509e4dc890cf862332d7839050f|2018-09-07|Johnnie Gray|MPS: ptr, factor out compression functions
+4b21114cfddbaa020a3aad7e50caf729c17acea4|2018-09-06|Johnnie Gray|fix MPS pure bipartite logneg
+d5db2de78b0db1591a3eb4ef01068f03149957ea|2018-09-06|jcmgray|various test improvements
+4c8336a4dc5d92d564480230b2ced794a59528f6|2018-09-05|Johnnie Gray|allow logneg etc. calcs for pure bipartitions of MPS
+5adb4c65bf5416499cd8ac180b439801a0043eae|2018-09-05|Johnnie Gray|remove restriction on MPS logneg mixed computation
+2a3dc033dcfa13715894360c8653761f1956dd8d|2018-09-05|Johnnie Gray|typo [ci skip]
+20d916fd033d1a664f14c69e8a610301c584a3cf|2018-09-05|Johnnie Gray|travis: fixes for cache checking
+28a51487a45fee4c7cca96da84f2ef3689618197|2018-09-05|Johnnie Gray|add JOSS badge and fix codacy issues
+bae8312a1320da0721a63aa537f50aa5f4652e70|2018-09-04|jcmgray|update paper.md grammar [ci skip]
+851702aee67e596b1fcd5c216dd7dea7dccbc2ce|2018-09-03|jcmgray|tweak docs
+1be019920e5e75700d356e96c52f90af58871e8e|2018-09-03|jcmgray|loosen rsvd tolerances
+b61172b41d025ed221200a67b27f0a36cc4937bf|2018-09-03|jcmgray|add fast, randomized SVD and rank estimation
+35535551400a62e5c3c8cb8bda969259ee872e51|2018-09-02|jcmgray|update paper references
+1d580957ef9a9a310c54c7eda998e5308011d8ea|2018-09-01|jcmgray|TN gate: add propagate_tags='register'
+7d131379059317f3248e5c0cb3fe44db43a1ea3d|2018-08-31|jcmgray|ignore coverage for Verbosify
+a515dd6bfead917c2626879d4bf9e8cb3aaf6b14|2018-08-31|Johnnie Gray|.A property for TNLOs to match sparse matrices
+3098b46d34f6fbf4f41d79d44ebce901a32f94a1|2018-08-31|Johnnie Gray|fix TNLO bug
+98997eca8bdc3598c6b8596cfa3ad3e3f42b9431|2018-08-31|Johnnie Gray|check ints against numbers.Integral
+f663f9eb086f21fd15a380ceda6655af6b7275cb|2018-08-30|Johnnie Gray|better default lanczos precision in approx_spectral
+649e17f8646b20b93238d902fcd74280c7eb298a|2018-08-30|Johnnie Gray|make tests more robust
+efeaa86bb695dc48f8d0a9657da275014210800b|2018-08-30|Johnnie Gray|tweak docs, simplify numba code
+60e45e7d20cf954d625be3624967691d5e9e0132|2018-08-25|jcmgray|fix some rand related tests
+229ec58c798441afe814705816e07c52139e9471|2018-08-24|jcmgray|performance improvements
+f5afc9ffe260181a01fc5691d78ff7a3524fb420|2018-08-23|Johnnie Gray|randn crept into base_linalg
+d24dbab66308fcd6794b33d239cb1b21a61fe590|2018-08-23|jcmgray|tweak tests again, set tau = tol / 3, set k_max = 512
+38b968f8f666cb0e327a043243e07688cf903c69|2018-08-23|jcmgray|make tests more robust
+f703f6caefd2d5c9917aee3f92385188287dd7bf|2018-08-22|jcmgray|fix tests
+ded1e299968dd32acce1da686e68dc95d9727fad|2018-08-22|jcmgray|custom, much faster random sparse matrix construction
+be2468b4c3152fdc77071495ed64bea3698ca97f|2018-08-22|jcmgray|various approx accelerations
+52ab498e9abd4843058c4ed0aa4610f7ce88a113|2018-08-22|jcmgray|docs updates [ci skip]
+d7946b1bdd8452a1ea18d1c05afac31f270c9c88|2018-08-21|jcmgray|docs updates [ci skip]
+0597ecadf5730f8f87fcbba07f0c0827db722a89|2018-08-17|jcmgray|update paper.bib with DOIs and other info
+1d4180f744ea537769ce766a7860de987badeb07|2018-08-17|jcmgray|add MERA example notebook
+d4f166fcc4bfbc7fcedfdb948e8b778c15d9ceba|2018-08-16|Johnnie Gray|more robust tensor approx spectral tests
+522512f4344e2a4c357ca35f38fedd08d59a2f6f|2018-08-16|Johnnie Gray|explicitly depend on tensor module (#3)
+ab2bc5df1a8dd332332f4a32d3f81a55414596ce|2018-08-15|jcmgray|updates to docs
+73fe476f9a34225acfbb1514fc4ba7581b7a6522|2018-08-15|jcmgray|even faster random complex number generation
+289bafa44d5e875c4405a1b4c8397c8f0c2ef03c|2018-08-15|jcmgray|updates for new rand changes
+e95b24483d6cca73a0ce6cfa9c0b8348f21b0f1b|2018-08-15|jcmgray|super fast multi-threaded random numbers with randomgen
+ed95c499b28fe724a01f07342c557c58e8e4b3a3|2018-08-15|jcmgray|add verbosity option to MPS.partial_trace_compress
+d82556c3815c95f42d251354fe3e20a5b7a6e1f2|2018-08-14|jcmgray|change `run` argument to `seed` for clarity
+72b72473fd43f7f1bd0a7764bb142f0d42db5534|2018-08-09|jcmgray|fixes for eigh_window with Lazy ops
+02dcf6e2ac1a5f0527e364675808ce5d85915357|2018-08-08|Johnnie Gray|add Dense1D tensor network
+383329c5b58a9847e64ad5ad58b1453b61cdb281|2018-08-08|Johnnie Gray|misc fixes
+89486eed45d1682ced30ff5f947ac26484412e76|2018-08-08|Johnnie Gray|TN applying gates by default only propagates site tags
+a233c512862325bbcf5b40fa9f67bd5c7ad38ee7|2018-08-08|Johnnie Gray|fix readthedocs badge [ci skip]
+0de0983c440f33d0c21cd5850ab3546d5e85f296|2018-08-05|jcmgray|fixes
+d4847e5d053932aab467bf4ec6b4ffcd931261e4|2018-08-01|jcmgray|TN: add contraction_complexity
+7baa1bc63bbdee35dfc9fbdcbada4822eab5a91f|2018-08-01|jcmgray|TN tweaks
+29c8a2a748eeb7cd0e42e37d91e36c9febfdeffe|2018-07-30|Johnnie Gray|add gates: T, S, cX, cY, cZ for convenience
+eb598b9eab2183725197d1816a6cb0746d8ff3c0|2018-07-29|Johnnie Gray|tiny doc fix
+b9e8b505deea7a73741fd947d2ea8f92da4b7c2b|2018-07-29|Johnnie Gray|allow lazily constructed vectors in slepc routines
+10e6b3a59fe6e588eab26ac1a745a1a4515c5d27|2018-07-29|Johnnie Gray|MPS: simplify site decomposition code
+996688150b41f6ac2bad5215a4eba146cd5ab3e7|2018-07-28|Johnnie Gray|TN: add function 'bonds_size'
+9a2790570e6d3c22eb6a51a6f7213c569a453a2a|2018-07-20|Johnnie Gray|loosen one more approx_spectral test for polyfit changes
+8978ecade6a667c59dd2bf524ac64b06b4641cca|2018-07-20|Johnnie Gray|add TN quantum circuit example
+7c8929619aaae7129a2d4de09f0e685674e22d32|2018-07-20|Johnnie Gray|add Rz, Ry, Rx
+6d5863de323a7f47fac15e415ade1993b6af4e93|2018-07-20|jcmgray|only maybe convert tensor data to numpy
+75f7fa05962ffc04904583b64b6ce8c94f2be2d8|2018-07-19|Johnnie Gray|approx_spectral: automatically use single precision and cupy
+4b0bc6346782b7cca78a1e81e5a14e56cf278ab1|2018-07-19|Johnnie Gray|MERA dangle optional
+0b1f803ac44b8102cb069bec992d3cb45b209ef9|2018-07-19|Johnnie Gray|fix tebd test
+8bd9dbaac1a636c92d000545e210e422ddc56394|2018-07-19|Johnnie Gray|tweaks to approx_spectral estimate guessing with fit
+25dee99ed59a3ae67ecb3a519fab095fa5c1e657|2018-07-17|Johnnie Gray|Revert "fix perf bug where if any dim=1 opt_einsum doesn't use blas"
+76133b56eef44bdf6dc5b29788c7e70905685699|2018-07-17|Johnnie Gray|further fix for opt_einsum without constants support
+6b57cb677a487a97200ecbf98fe0ea3d729ae7fa|2018-07-17|Johnnie Gray|fix perf bug where if any dim=1 opt_einsum doesn't use blas
+e0928f4073528f23dded94314faf045cc94b9796|2018-07-17|Johnnie Gray|allow opt_einsum without constants
+eedec2c3db634d450367bce2a4a0883a2d03cf5b|2018-07-16|Johnnie Gray|enable constants, backends for tensor network linear operators
+bb94df53a20364d3f5747df27d5ac79393c42f25|2018-07-16|Johnnie Gray|add tqdm to setup.py
+cdd497b353967833381958fb6c62893555205a16|2018-07-12|jcmgray|rand_rademacher and approx_linalg type support
+5aa9776978300b3ab95637d5b7a6624d630062da|2018-06-27|Johnnie Gray|comment updates
+969edc9f8ba0f27908173b7f85108a9028cbc3b4|2018-06-27|jcmgray|approx_spectral_tweaks
+52e057113409bb67abd4534bf5473c34268c20ca|2018-06-26|jcmgray|TN: fuse_multibonds
+08fa435419cf18692e214dc9363c9e280dd60fa8|2018-06-25|Johnnie Gray|add MatrixProductState.from_dense
+ef5bf4a9a4330970ecd73c61bb7ff5ac33e735aa|2018-06-25|Johnnie Gray|approx_spectral: fix bug where huge fitted est triggered convergence
+6e131d40e2028922dbd5b5d5e638a0e6b4285d94|2018-06-23|Johnnie Gray|test Lazy project eig
+907753a17222c94ab1811dc7288511e4f6256976|2018-06-22|Johnnie Gray|add some TN features to docs [ci skip]
+e19e3bbc8728ecdf0611d3a29de2fcb9a2243cd1|2018-06-22|Johnnie Gray|various doc tweaks [ci skip]
+9787e73f4c59203a39d9b788951315403755653e|2018-06-21|jcmgray|tiny doc fix [ci skip]
+9556b4b4136cd3dd86894124fae5d61591003999|2018-06-21|jcmgray|fix numba caching issue
+bcf5d01d438a8d814aa20ffa7a1f8b8ae05d0b56|2018-06-21|jcmgray|fixes for single precision DMRG
+c0b3484454e42cdbec68eb1a8a41b3c1a5e7ea61|2018-06-20|Johnnie Gray|TN: add fallback svd with alt driver
+fe0d1b662b83081a68c7109f385d658a14e7d663|2018-06-20|Johnnie Gray|TN: fixes & docs for non-trans-invar NNI and TEBD
+c2331c5cb34ccbb45da5f5a7540eba4552ddd009|2018-06-20|jcmgray|support new opt_einsum ``get_symbol``
+a30cefe7ba99d734fce1ca651f596f01a3bf3a78|2018-06-20|jcmgray|TN: add non-translationally invariant ham support in MPO and NNI form
+3f77c7eecc1e4568855d9fb5adc0089ded350051|2018-06-18|Johnnie Gray|doc updates
+103e1cf36d5921ad37f530b98d513c10753882c7|2018-06-18|Johnnie Gray|improvements to NNI ham generation and docs
+000777c4d8b6f57093e72363de45d97dba0c310e|2018-06-15|Johnnie Gray|add NNI class: nearest interaction neighbour Hams for TEBD
+0d7a1bc36eabfa5bd6b1b0795cecb43319fa5e47|2018-06-14|Johnnie Gray|tweak docs [skip ci]
+5f899750dd28a6a7a675ec19c891818582d5dfa8|2018-06-14|Johnnie Gray|relax approx_spectral test
+a499736438953724a94cac6b7681799404617ce8|2018-06-14|Johnnie Gray|initial run at paper
+327ab7cc6149686e5f8171c22c5ccb191d25b421|2018-06-14|Johnnie Gray|add ``MPS.as_cyclic``
+fb2fedac4632bb6b174f3089cab1b09d80748859|2018-06-13|jcmgray|get opt_einsum from conda
+a3264808101c80f234ba99b809340faf3f4be90d|2018-06-13|Johnnie Gray|Create CONTRIBUTING.md
+ad7738f1172ec3f97cc9123b9559b2d5e90e01d5|2018-06-13|jcmgray|few doc updates
+3c6734ed646b578e51f03f0046f55a4608a8b442|2018-06-09|jcmgray|loosen MPO spectral approx test
+4f59fa4afb970c12f996a41279e6729bf0519afd|2018-06-09|jcmgray|cov + example updates
+182d1dd9caffa4f71212129b6efa8b0edcdbb669|2018-06-07|jcmgray|docs: update tensor network algorithms to notebook
+5265f0a566d0b3de20d876e0371e792b4c14535f|2018-06-07|Johnnie Gray|fix TEBD test
+37e2118c61bc52e47b7f9d8170d89895d44829e6|2018-06-07|Johnnie Gray|update TEBD and add example
+033877c80d70b6cdf5f7b19f0022fe305542501d|2018-06-05|jcmgray|updates to TEBD
+aa66852276a244a15f43deb47f9547dfa015b72f|2018-06-04|Johnnie Gray|TN docs: update basics [skip ci]
+e6911352806670b1fefcf612559da4dda4e46d41|2018-06-04|Johnnie Gray|TN: update docs [skip ci]
+6c9d6a41cb1a75e17b3cf095a1566d3441541d33|2018-05-31|Johnnie Gray|TEBD: keep track of error, always step to final time exactly
+36fc94d5b01b174f9f6f8078d576d34837fea97f|2018-05-31|Johnnie Gray|add initial TEBD implementation
+7d7aac87192f2f5082b36965cd0bf1e154b4ea74|2018-05-31|Johnnie Gray|Evolution: fix progress bar with integrate but no compute
+dca8ccaf630580e16263d61be0d3613c02606546|2018-05-31|Johnnie Gray|add computational_state
+e5f5aaa2094d6fd1729d7bec841d2fb61e623dd5|2018-05-29|jcmgray|add MPS.gate2split
+225400156196da7241d1de9a56a74a30cf20571b|2018-05-26|jcmgray|let tensornetworks be picklable
+1a1878fc427b99a1e29515ceb2a6043ca08077e7|2018-05-26|jcmgray|allow random mps normalized with canonize
+6635313ca70bd396ca7cae8bdc7da7ddf3ec2319|2018-05-26|jcmgray|MPS logneg_subsys: use dense if small
+27462dc22dab3514607ec70fc7d07437a68d87b2|2018-05-26|jcmgray|suppress approx spectral fit warnings
+1d1fd0b6b40cdde5c7f105f0a37715ce60786f54|2018-05-25|Johnnie Gray|approx_spectral: use exponential fitting to improve single estimates
+0d6698b054c4f17797a975e18a6281439590b004|2018-05-23|Johnnie Gray|ham_XXZ, fix dephase_rand_rank
+b2d70e5a3138ff6c0e96f210c0fe5b070fd7257e|2018-05-18|Johnnie Gray|add ham_XY
+f680255697e8c2d207539e82e5a2ef54681ad11b|2018-05-18|Johnnie Gray|doc ico
+d2ef57cca40e00f3c341b1bdf06cfc2479c94268|2018-05-17|Johnnie Gray|fix TN1DVector to_dense
+e02d381d1754c2ccb7714075c9c19315592f9fe5|2018-05-17|Johnnie Gray|dense mera functions + MERA tests
+20f13d43c51f19aea9aa4b97f765c308000fcb32|2018-05-15|Johnnie Gray|initial addition of MERA
+bfb368da2f51351edc42af2235c187776a0b4723|2018-05-15|Johnnie Gray|add Tensor.add_tag so all viewing TNs get updated
+5b764691bcc2a5c840426db1292751a4eb858c18|2018-05-15|jcmgray|add dephase, randn, trans_invar dense MPS
+d9fd4c97088669182af346d56e9267af35a8f280|2018-05-14|jcmgray|performance improvements for big (1000+) networks and DMRG
+0d4f7deb49d9fa24de7eadffff2eca3b9d70cb82|2018-05-11|jcmgray|make sure raise on no matching tensors in network
+5008ec8e977e3be689b670e77671b26650cd3bbe|2018-05-10|jcmgray|approx_spectral_fn: optional full reorthog and faster convergence
+cd5582fcfdd01b6b9728e43b876b32a54f0c12d0|2018-05-09|jcmgray|add create, destroy, num & ham_hubbard_hardcore
+14e77b977edc641efc553a26dce708378eb70e17|2018-05-08|Johnnie Gray|update docs [skip ci]
+482c33e48862b790f181917f5c88e13ccdbe984a|2018-05-08|Johnnie Gray|Add some docs on tensor internal structure
+fdf739c94999a2706bf53fe6d56b8bdafe30fa9e|2018-05-08|Johnnie Gray|update neighbours to O(1) method
+8defc96a3c856566a606ec0b82c8cfb6c372e3ad|2018-05-07|Johnnie Gray|add TensorNetwork.ind_map
+12ea27c78fe648f4f49b037b7b134c0eb2659579|2018-05-03|Johnnie Gray|initial work on ind_map
+4526869c412d318bf9fa01d53753f121ef7bd1b2|2018-05-08|Johnnie Gray|fix slepc test robustness
+467e3e4af5ea6b04a7eecf8f5a5bd63ba8d36b95|2018-05-04|Johnnie Gray|NotImplemented*Error*
+2da32fa690041554632aa6e2680c1e0395e6019b|2018-05-04|Johnnie Gray|add MPS.correlation
+eb0132b65da85337c7829cfe6bc072d13c83df9d|2018-05-03|Johnnie Gray|fix TensorNetwork.gate(..., contract=True)
+9292ae4fb89d89983b36eafb8822de75a886c44f|2018-05-03|Johnnie Gray|extra tn rename fixes
+bc114fc8020f60bc8137aeb3a189a5dcbb3c6803|2018-05-03|Johnnie Gray|allow fixed positions in TN.graph
+9ef0a90997918c81f084fee47cd9f3f01e7eaa96|2018-05-03|Johnnie Gray|update for gate
+0dcd59334120f229d2b8c92a13de6b56c1bd9226|2018-05-01|jcmgray|rtd: fix versioneer
+5ab55a72b60ff2ef146f976f8ef6f4c00a037c87|2018-05-01|Johnnie Gray|add seed to rand functions
+8aea98bdfca779bec82f0eee65febdc20b21f585|2018-05-01|Johnnie Gray|change examples to notebooks
+eef52c5402e6bd467098d785ca7da93eca68ff05|2018-04-30|Johnnie Gray|allow lazy operator construction
+7f21713fbf064c19d687f4d15041e98fac3a725e|2018-04-27|Johnnie Gray|add "ownership" to kron and friends
+1e811f7c15e65af20c589ef4328ffcc5082231d2|2018-04-27|Johnnie Gray|strip raw html images from pypi readme
+b986e01a7246f8b1b135f8b4bc35d9d7252d85ab|2018-04-27|Johnnie Gray|updates for 2D incl example
+f4f38b5f20f35fb0ce48b2a2b8286eda2eb06327|2018-04-25|Johnnie Gray|doc updates
+592a24e665208b03cc90e5a6a2deec51e814875b|2018-04-24|Johnnie Gray|rename eigen functions
+013520c672ca6d1cde5e7b73f2d9b0ad914c1683|2018-04-24|Johnnie Gray|update docs, add H, R gates
+fd5fb6f6987c4edcf74994b4e529d8aa9d704be9|2018-04-24|Johnnie Gray|fix readme pic
+e40feba0b99387c2030b4cb5235a0f6a0b08411e|2018-04-24|Johnnie Gray|update docs
+fe9bf620f33fb2a25a083e8041eedd50c52959f9|2018-04-20|Johnnie Gray|increase travis cache timeout
+4735f2b95043e83a644ba2a8d1d1f25edb00a9d9|2018-04-20|Johnnie Gray|fix seigsys warning
+dbe5b68054999ad75ea55e94b37f02055e9ee107|2018-04-20|Johnnie Gray|changes for complex DMRG hams, especially cyclic
+0ac9affb51902f9c185a5a881af78e2e4788845c|2018-04-18|jcmgray|add networkx as travis dep
+5855162fe5f029f12485d22e6c9cf99afeba326c|2018-04-18|jcmgray|travis update deps
+77e9b2636ee401caa3ee2b8b457fe60be79e2990|2018-04-17|Johnnie Gray|travis: install matplotlib for TN.graph
+44d23c96efa782461b5680a67449699c4efba71a|2018-04-17|Johnnie Gray|simple test TensorNetwork.graph()
+6242a3cdcd3beb1d9ddb2035c930749e8b3cb2b7|2018-04-17|Johnnie Gray|fix no space
+23b829ab6c3b4a4ac984c27758afba2ccc8682c3|2018-04-17|Johnnie Gray|relax dmrg2 PBC segmenting tol
+a2bc9423161cf5185f4f36fa3cd743dc7e381148|2018-04-17|Johnnie Gray|changes to linalg
+0968e5288faead2891fcc13a65df181971203bbd|2018-04-17|Johnnie Gray|add TNLinearOperator1D
+68e14a615240dc7132cc7b934f4e7200bf8a48be|2018-04-16|Johnnie Gray|cosmetic changes
+6d247c27a60329a22b46f3c58c1c1f2fe6b1e462|2018-04-16|Johnnie Gray|Add TransferOperator
+273687ce495a25fd61448d68f83bb2b4a17c8c06|2018-04-14|jcmgray|docstring changes and more concise TN __repr__
+918d052f882a1c237add10b4003667efbbbfa278|2018-04-14|jcmgray|fix to allow initial states in DMRG1, DMRG2
+b5645855495fdf7ca564a02194888f8e1d44520c|2018-04-13|Johnnie Gray|update dmrg defaults, fix test
+d6da2eecde1f4254bdaaa742a4eefcb2ea587405|2018-04-13|Johnnie Gray|doc/docstring fixes
+74a2df599e3e5af659f6edbf92a665c1e20826a0|2018-04-13|Johnnie Gray|more robust tests
+34436471124d5bf93aeb2531131f7a9dee3b5ef8|2018-04-13|Johnnie Gray|add dtype to rand matrices, lobpcg test
+d46e6cf78ea8dde02caa3883dbfbd31a8f8680b1|2018-04-13|jcmgray|make test more robust
+1d079f50adaadbcf454336bf95a1b284a4e20dae|2018-04-13|jcmgray|DMRG periodic -> choose lobpcg automatically
+cfb88e648452deb5904744b0d15b29f69fe4a725|2018-04-13|jcmgray|add lobpcg as seigsys backend
+bda180f6a4aa0c28f2005589f7064fd9adad3d03|2018-04-12|jcmgray|slepc eigen: real eigenvectors if real input, regardless of petsc scalar
+78a1a54b60d985db4b9e728a700cf629d9d601dc|2018-04-12|jcmgray|clean up dmrgx
+a452e6b4fa77ff94f8a151e1b638d27ab97fc18f|2018-04-12|jcmgray|rtd: try fixing versioneer version
+2c0ff36e4ed6d64fa2c257f0afdaf6bf9686520b|2018-04-11|jcmgray|update approx_spectral method
+8af4154cbb0ff625b2f658a955bc7d6b6eae2a14|2018-04-09|Johnnie Gray|change to height spec
+20c792ce6246fa25e0b66ed9efdb543d91fed09d|2018-04-09|Johnnie Gray|update readme
+8693e76bba43da1d719951113c575a5486f663a9|2018-04-09|Johnnie Gray|fixes for tensor stuff
+b2ff2648f3d309dedd50adda32b57928741abca7|2018-04-09|Johnnie Gray|update docs
+06686c99e65dce5e41a1acaffdb1290e3208429c|2018-04-09|Johnnie Gray|hide api as orphan page
+945e61acf800801a341603d3016f2c9444e02b45|2018-04-06|Johnnie Gray|allow approx PSD matrixes in cholesky
+28a2c645766c7818bd151e4b164c41336ca06c21|2018-04-06|Johnnie Gray|ptr_compress renorm and mixed cutoff max_bond splitting
+7a579b735816abba0a7a1c6b4c83d4b9f2acc9f1|2018-04-04|jcmgray|refactor approx_spectral a bit
+2ac519c47ed67f0ffe3e76975751cbf5f27889fd|2018-04-04|jcmgray|update docs
+2bf5d1559d1d8ed59eedf528b0f7f613594ffdf3|2018-03-29|Johnnie Gray|update partial_trace_compress vmethod choice
+dc43b06b4799d925d754d8047da5a7621257e197|2018-03-29|Johnnie Gray|change some tensor names to more natural
+e4a92d29949f24b70b277e7ffbc31fe803105f3d|2018-03-28|Johnnie Gray|update approx_spectral settings
+01bc63b7cd0ae9f5f2c241876123023d734c2aa7|2018-03-28|Johnnie Gray|make DMRG picklable
+a252687b414bd0d4636ea7ce55f59cf67f4bb700|2018-03-28|Johnnie Gray|add save load util functions
+87cea20417a40c75ef989d86009e54092652f123|2018-03-28|jcmgray|remove rogue norm that had significant performance impact change opts
+b50778d973a67146ea2bdb7e8b93363040bffc6c|2018-03-28|jcmgray|sensibly don't compresss short chains
+959dedb50ca9ac4de35af28e814b867fb57d23c6|2018-03-27|Johnnie Gray|add 'big' periodic DMRG test
+11cf8e3aae92448e8e91ae83e31ab7f51c52b7c0|2018-03-27|Johnnie Gray|reltively working efficient periodic DMRG code
+ee6012c97ea1bc3f9cfa3b2dd2a525b226b37ff5|2018-03-24|jcmgray|add heisenberg_energy function
+9e4002eaddb5f2e6b45f7cedbccb974b7d51f709|2018-03-23|Johnnie Gray|more efficiency updates for periodic DMRG
+20f7b2afb69c169a1ce8098b31375cd00b62ba89|2018-03-23|Johnnie Gray|add shiny logo
+4c4259659ec08878a7e72a708e642460a4b88b21|2018-03-22|Johnnie Gray|more steps towards stable periodic DMRG, ptr compress lateral cutoff
+069200f3f1cc0ae53fc40f79eba822e20bde9a4b|2018-03-22|jcmgray|towards stable periodic DMRG
+99ec067767916623b2cc9378aef945070fb4e404|2018-03-22|jcmgray|update docs look
+332492d1e9a2885bc9007fe6bf00898c0182ccd7|2018-03-20|Johnnie Gray|use efficient MovingEnvironment for periodic DMRG
+45dd760a3c90b74d14babbda559b9ed3bb732c46|2018-03-20|jcmgray|endlessly cyclic dmrg moving envs
+6c8261c83f8ce5126194df9ca4e5c5c4745be12d|2018-03-20|jcmgray|change DMRG opts
+5126110807dc4d09ece9838c944bb10cab814f47|2018-03-20|jcmgray|DMRG: moving cyclic environments
+6d8aa9dc8cd3f4628877b54b0e45ff1bdcb8b00f|2018-03-19|jcmgray|try and fix MPO approx spectral func test
+1c43da15bcca26823cee422d495dba8aa1ff3b34|2018-03-19|Johnnie Gray|MovingEnvironmentCyclic init
+153b348ae62007856030fd2d1a8ebbc7fcbafc76|2018-03-19|Johnnie Gray|fix cyclic dmrg tests, rename *algo_static back to *dmrg
+5f95c5807e888de35167631898d59932e8b07624|2018-03-19|Johnnie Gray|rename TNLinearOperator inds 'left' and 'right'
+fb52e41c9afac964b96e346c5bc48fc7164ff7a7|2018-03-19|Johnnie Gray|potential updates to cyclic dmrg
+8eb3e6d373143243e62a1865c66fa9a2715513c9|2018-03-19|Johnnie Gray|improve count_canonized speed for large MPS
+ca76ccc07ff1a50c02c4907c472a83619f06a26c|2018-03-19|jcmgray|make approx_spectral use quimb.tensor
+1d2c8bf963e8b719819fb3f91fdeee117ed011a1|2018-03-18|jcmgray|implement TNLinearOperator _matmat
+faf7f194b7c586e89c5b257d189968123dc778c0|2018-03-18|jcmgray|add backend to contract
+5aff72c574a565345f36bf74e6f225813e89e083|2018-03-14|jcmgray|few changes for perioddic dmrg
+fa10f0e8184b89a0cfb300d1f3b91036e742eab9|2018-03-12|Johnnie Gray|more changes for periodic DMRG
+8867c27d5a6fa59b604efed07427eca1aa8c3622|2018-03-09|Johnnie Gray|allow selecting tensors/tns with int and slice
+0a48b8087828bc9c17a08fda507661b8f47eb486|2018-03-09|Johnnie Gray|doc updates
+05fd8427466d81c92e15cfa2a0a020b9a8638ff6|2018-03-08|Johnnie Gray|fix some docs stuff
+cfc0c5cb4980f0ecacd2d5d6c8ef5760790b1ef1|2018-03-08|Johnnie Gray|add MatrixProductState.logneg_subsys
+a71bfd3c752d441dad949cae705d1209db4cabb7|2018-03-06|Johnnie Gray|fix bug in MPS.partial_trace_compress()
+5251fb569f382e710f58e85ea4b874b57eace2f9|2018-03-05|Johnnie Gray|additions for cyclic MPS & MPO
+0191b4b04bc08f98c5575a10a2b7cc75850bf76b|2018-03-02|Johnnie Gray|further update tn approx spec tests
+798909406bedfca37ae7536dc3bb9563997dbd98|2018-03-02|Johnnie Gray|fix heis compresed ptr test subsystems
+1f8e0401d531438fdac587021697eb0363bc5901|2018-03-02|Johnnie Gray|try reducing mem usage of test
+486e779f1736c6099e6c902fed1054a81371cb7d|2018-03-02|Johnnie Gray|changes to docs
+5ddc3d4f69c5ca03d56fa1d8a77babacf47291cb|2018-03-02|Johnnie Gray|finish off partial_trace_compress, more TN docs
+103de428497d3316b1bbdb25f01063892b1b7fac|2018-03-01|Johnnie Gray|add some useful math to __all__
+fa63fddf3b386ba2f408fdd17e58aeb5a1a5fa7d|2018-03-01|jcmgray|TN spectral approx changes
+821a7ca101fa26c808435cbcf269b24b1caa9e70|2018-02-26|Johnnie Gray|tweak MPS partial_trace_compress
+97ecd5dc1ca868676d2a6ca8e88149d082355605|2018-02-26|Johnnie Gray|compressed density operators from MPS
+d53a8941bf749420267ac4e843c9495d079564fe|2018-02-22|Johnnie Gray|tweaks to docs
+0fbcb395dba7215f62a8fc2967163f00822be04c|2018-02-22|Johnnie Gray|use versioneer version in sphinx docs
+f496066b8cf870068680f3df5fd8050374d0eaff|2018-02-22|Johnnie Gray|changes to TN inner workings
+32b5ef40a6c0612ddb636fd020a8972b64a9d6dc|2018-02-21|Johnnie Gray|A lot of small changes for tensor linalg
+bc755715697e9dda89eb6829135cc07cdfce5879|2018-02-11|Johnnie Gray|remove long dtypes for compat
+0dbaa084bba2cf6c7a5bea24c083f32dbaa0cbd5|2018-02-10|jcmgray|changes for tn approx spectral
+0f2ad7974b67e70b766c1c27f148266e1d481c3f|2018-02-08|Johnnie Gray|extra fix tensor_contract scalar output
+162bc369a054ddf068c557533aabdb0e87c9af7d|2018-02-08|Johnnie Gray|gen random tensors of more types
+01cc39814b057501ce1616bdf024fff17ed5da7f|2018-02-08|Johnnie Gray|fix for 0d array-> scaler
+89051f73b1c90fda8023b219d4ab13a6300775d2|2018-02-07|jcmgray|big improvements to subselecting tensors
+b189aa11122d265d9ffe06bf4f57f2faeb247717|2018-01-31|Johnnie Gray|speed up tensor network graphing
+b4193d8f1ea37a5aa99f3b5deb5b904c6bb29863|2018-01-31|Johnnie Gray|tweak badges
+118281a9998ffa3d116de3393966052915e9d7ed|2018-01-31|Johnnie Gray|fix import
+97494cdb2101de2b7da1f3545195fda30a303928|2018-01-31|Johnnie Gray|handle missing tqdm, opt_einsum better
+38afb7753af7394ca4872d3764692da7292affa0|2018-01-31|Johnnie Gray|more additions to setup.py
+a6083345b78dc7ac87c8949a4ee7220c752048dc|2018-01-31|Johnnie Gray|few changes to packaging
+d364382a902ab000cf3972249553cad96e71fa10|2018-01-31|Johnnie Gray|breaking: sig -> pauli
+2e4e5b0ccbd342d020464ce734bd43c7cf91cdee|2018-01-31|Johnnie Gray|use versioneer
+9aad820f1e8491c308facb2a82f3556016f9a07b|2018-01-31|Johnnie Gray|Merge branch 'develop'
+55bccdec539f8399a6c911a62217033e02efc5dd|2018-01-31|Johnnie Gray|remove scripts + time_quimb.py
+89230a668b3aaccb8687276b81a382f3a9cc2ad3|2018-01-31|Johnnie Gray|sentence about github
+a6494cddc4fe71edc1c11f8e7e6e3120a1d8ced1|2018-01-31|Johnnie Gray|add TN graph bond size edge weighting
+76f197b985d10fb5f2aae0bafc8d8ca44a8e5b92|2018-01-31|Johnnie Gray|update some badges to shields.io version
+82062efed4ccca459ce62cb2499b695c04c43a9f|2018-01-30|Johnnie Gray|petsc SolverPackage -> SolverType for recent
+afa76c97b13f6e0a91f57a3ae96eb2cd923eec41|2018-01-26|Johnnie Gray|further tweak to TN.sites
+2360755b671abc7385de49fbcc0487fe7cb693d4|2018-01-26|Johnnie Gray|changes to how TN.sites works
+5e55d5c79a79a4c44ad2d8a29d361b08a4816ae3|2018-01-25|Johnnie Gray|add cyclic MPS support
+0272894c6e68202616800c0530bd3cfb37c3752a|2018-01-23|Johnnie Gray|Merge branch 'feature/docs' into develop
+fda1af2b7958cf0682d6d20bc44f16eb3e66f174|2018-01-19|Johnnie Gray|add TN.tensors_sorted
+999fd4e2f7969da19ae7bd1981926128581655b0|2018-01-19|Johnnie Gray|renormalize singular values
+720bb1ead0bf1a2f33deb07d3198b841f2721d18|2018-01-18|Johnnie Gray|initial support for approx MPO spectral sums
+027db38e8094662d78998d94e1a62cfffd465c4a|2018-01-16|Johnnie Gray|update travis install script
+a57ac58af95ca2c92c7dda2a1fed9e9058d17e44|2018-01-16|Johnnie Gray|remove stray pdb import
+0320e66fde9a067591ec1fde6eb78dbedf2c02db|2018-01-11|Johnnie Gray|MPO apply to other MPO
+8dd7ce2cdda21ac583793e7fd967402aef7703b8|2018-01-10|Johnnie Gray|add fuse_multibonds
+2eed5baef8c79edee4df6881eb6cb5d5fd670262|2018-01-10|Johnnie Gray|add MPO_zeros[_like] to __all__
+59fb4f3d3bda3a00b4b41e88c7b508809edfa838|2018-01-10|Johnnie Gray|add MPO_zeros(_like)
+64258c63ae18565763c18158707ea76a8797678d|2018-01-10|Johnnie Gray|add TensorNetwork scalar division
+f71ecc95167419fb50e9c921a7b4af71808379ce|2018-01-10|Johnnie Gray|add TensorNetwork.squeeze()
+3175924b54d0672fc69388698dd0723affe0a73f|2018-01-10|Johnnie Gray|move 1D tn instance tests
+1e43f7f4c50d94c6d043fa6baf27528b98531b27|2018-01-10|Johnnie Gray|further split tensor test files
+99c44b26708080b10392d06d48da69eefc55ddec|2018-01-10|Johnnie Gray|split tensor 1d tests into own file
+efb13c1ee613de7912a3ec25d2ba9286b46c5f78|2018-01-10|Johnnie Gray|add Tensor.squeeze()
+748e3cc5a47933e0447cc792cc823a49b9caf891|2018-01-10|Johnnie Gray|code landscape smells
+ce4d8b944d3a77fff54d3135837d16e464222603|2018-01-09|Johnnie Gray|add ispos, TN partial_transpose, fixes
+cef926db4ffa37131382cfb874d19e8f8fd6cf26|2018-01-08|jcmgray|fix for inplace view_TN_as_MPO
+67102038b85a11ce9461e63471e3e342b582c675|2018-01-08|jcmgray|add TN scalar multiplication and so MPS/MPO subtraction
+df179080b21f5c2409b1fa9595ab5238c5a9df58|2018-01-06|Johnnie Gray|add MPO_rand
+836b999f8c5508268ab4f6973e294baf7764bf55|2018-01-05|Johnnie Gray|some fixes for partial MPOs
+cd61ee3a74bdcac41dc359d4bac2f3c86ccb8b52|2018-01-05|Johnnie Gray|clean up tensor code a bit
+1654ea9e55f9bed26abb77e8108c6b715d03214a|2018-01-05|jcmgray|tensor retagging for partial trace site rescaling
+26a263f7da2591c64d7f389d629147fbb308c39f|2018-01-04|Johnnie Gray|add MPS partial tracing
+72143296518603656e9219a97abe3a770136a0d3|2018-01-04|Johnnie Gray|update tensornetwork plotting with labels
+53eb447490604b036bf20083689e07689b0d9225|2017-12-29|Johnnie Gray|ssolve_slepc and tensor tweaks
+dac283b555d65c1a64d407557cf36bf505a20d22|2017-12-21|Johnnie Gray|spec require python >= 3.5
+e120694e249dd6e489fda30498679ac813d154cb|2017-12-16|Johnnie Gray|fix miniconda link
+a2cd863a2da67b87d546ffc7159556863e1f801f|2017-12-14|Johnnie Gray|add TensorNetwork plotting
+9a3f67eff30b8300cb6df29de484b8d2b3a4f46c|2017-12-07|jcmgray|TN docs: missing hunk
+2d30ba803e36558d8fa10d815aba2ff81ea61b4f|2017-12-07|jcmgray|TN docs
+81addb455279743c0c9a3cc8fe4306db1645d9c9|2017-12-06|Johnnie Gray|add MPO.trace(), MPO_rand_herm & MPO_identity_like
+ce1a500d6876034ea21ff1bf0f99b5d70e9179de|2017-12-06|Johnnie Gray|combine left/right sweep interfaces
+fcb132d88b44300c5521254515af94f177f6da57|2017-12-05|Johnnie Gray|tweaks
+d61f8d49e1b9db8f88ab45c5e084107a1ead3a8f|2017-12-05|Johnnie Gray|docs changes
+a61167dd4417387206d25d470c13100a77293792|2017-12-05|jcmgray|RTD: update requirements
+cd3d726a9501d58d266fc2c27043545c4a9bb8ab|2017-12-05|jcmgray|DMRGX: check variance while optimizing
+58bf4e7b532642db72e790700e7b8317bb21cb5c|2017-12-04|Johnnie Gray|explicitly name dmrgx update methods
+b43529330bd5b8f7946d7e694b8dd25d459de158|2017-12-04|jcmgray|travis: try relaxing dmrgx test again
+819b20a4f08f81b234ac814eea08a66a3df90d1e|2017-12-04|jcmgray|use new contract_expression
+d3c7e447075e04d17dd410b810c12fe20adf42c0|2017-12-04|jcmgray|fix ind gen
+4dde653e5c94fb51bc07499dd2f2af1e59a6544e|2017-12-04|jcmgray|tweak dmrgx test
+c763a3b9e79e744a6fb258dd85982ab4b0708465|2017-12-04|jcmgray|combine random uuid with ordered string for bond inds
+1d4c202c032d33e16b0ff9a674e1df37634601e9|2017-12-03|jcmgray|travis svds: try all workers getting el
+447aad48ccfc30613f43eda0920181baedad8450|2017-12-03|jcmgray|travis: try to fix opt_einsum github install
+2171435b34dcd979b884083e29564ab3419def35|2017-12-03|jcmgray|slepc: make sure target set after ST
+f32d72f4cc10098d14a43d1a8a49c17394c6c291|2017-12-01|jcmgray|make sure mumps lu used by default
+3eccdebb68d625cd2d94a550181f0537b647f0fd|2017-12-01|jcmgray|tweaks to DMRG and slepc EPSType
+78ea8399073f35e0c50758716eb94a9d53e7eacd|2017-12-01|jcmgray|travis.yml: try quoting script
+91d0453c46a786b3d6569ef8a5bfdb6339a132ab|2017-12-01|jcmgray|travis, build/test depending on env vars
+2db3f4fc2e82adbb950a8687d877e2ff9bcb3253|2017-11-30|jcmgray|DMRG1/2 seigsys defaults
+8136fa0bbfde98b6319e517101cc60d43e3e6e59|2017-11-30|jcmgray|refactor DMRG1/2 with many options
+38403c3de703501f6c6834749351ed52184070d2|2017-11-30|jcmgray|update seigsys options
+cddc675a97204eca9b29a361d6850eaa32c90277|2017-11-30|jcmgray|la updates all over the place
+7accfd5e490100b305ae1e8f70d0b6344d0500c3|2017-11-29|jcmgray|possibly reverse subsys_sz in page_entropy to get allow any subsys_sz
+31ed2a530d9bdc640ea9e8f979310d513706c873|2017-11-28|Johnnie Gray|incorporate new DMRG features in into DMRGX by subclassing
+8e7a1bd7c1e212d1af981ad049e8cbc57b75dc7f|2017-11-28|jcmgray|add dynamic bond-control to  DMRG1/2
+d5172b9862e9915e4ed1bc607bf7bc6ebc4989ff|2017-11-28|jcmgray|try fixing travis slepc svds no vecs
+dff789cc08e08a11cfd2b934081b0ff65b5c15b9|2017-11-28|jcmgray|add slepc-nompi to tests
+80053a7c7dc8df1c8b463f94f6ba387534658c54|2017-11-28|jcmgray|DMRG2: use previous 2site gs as initial guess
+319ed21553801239716ff35c31e500697f9857d3|2017-11-28|jcmgray|TN: add DMRG2, along with many other changes
+829172b4c4ff8c3657798f3e512867d3701b9770|2017-11-27|jcmgray|fix codacy issue
+42e3cd340d415abf36fa784e25855cfc4ab25b81|2017-11-27|jcmgray|reduce slepc linalg test warnings
+8e3377a7fdea00fa792d066dad37d500e23afa60|2017-11-25|jcmgray|lots of changes to TN including multi-site moving env
+d718e153eb5f51c8199002f537c1567fbf1c2dcd|2017-11-25|jcmgray|more slepc functionality support
+1e9e833c169450dd5506ca047f2b0111dd9bd2ce|2017-11-23|jcmgray|LinearOperator more integrated
+45772c048fbe30342ac90705d8b3974c1c7cc99d|2017-11-21|Johnnie Gray|reduce size of 'big' DMRGX test
+68c3f8353512cf353fd532bcac32ad9bc3d71378|2017-11-21|Johnnie Gray|add TN_1D_align and DMRGX solve with variance tolerance
+0bf068d36b92227ff5775c65be9312c083b38317|2017-11-21|jcmgray|implement DMRGX and document
+725e6f834ec7f169a3e5fe430787260bc09a4490|2017-11-20|jcmgray|add link to github
+0d59b8bb38c438c81cb5cfe323065a92547f31f9|2017-11-20|jcmgray|git more docs
+6437547dab56751340b76784d343c2e88be20029|2017-11-20|jcmgray|more docs updates
+ffcda33d5dd2f86b5d4950fa6e9615659a59f6bb|2017-11-19|jcmgray|update docs quite a bit
+6b99b9560db0f888c3c3b74414368c3aee1120ab|2017-11-10|Johnnie Gray|add ham_ising
+8e014bf28ff8b1b1f2927a3e505cc95536c0472d|2017-11-08|Johnnie Gray|clean up and add a bit of operator generation
+11a47bf25db5bbdaf0c38de055e0e0ee7db5b7f1|2017-11-08|jcmgray|MPS: add and compress
+266ab6bf53928fe8a40a4a7d0fe1381a80c0a158|2017-11-07|jcmgray|fix for randomly failing test
+f71c00ec5a422c062759835eaad1e0045f76002f|2017-11-07|jcmgray|add MPO addition, compression, canonisation
+52bbd55cc5e5aad78c3cd8005316665fe0ff0fdc|2017-11-06|Johnnie Gray|add 1D tensor compression
+303e127092df9824c5a98b81355f8f78cc89afcb|2017-11-06|Johnnie Gray|doc typos
+0bdb1810d587b161a31182a2e6619ac97c542353|2017-11-04|jcmgray|MPS addition
+0c764bca282558182e41a235f67790f5e6d798ef|2017-11-04|jcmgray|update diagrams
+5ba785900f1adabd8504a4e98494810d1f698774|2017-11-04|jcmgray|shuffle TN methods around a bit
+cbaac0d77cba7c0c114faae9bc59a8e3038b78c2|2017-11-03|Johnnie Gray|add warnings about syncro mode
+d08a9f162e214d9c02d8e9a9bebc4e2344fd3f2a|2017-11-03|Johnnie Gray|clean up approx_spectral error handling
+9cc04f2f5b7a6b89f99ae65010442c398dc01892|2017-11-03|Johnnie Gray|fix obscure bug involving syncro mode and zspin_projector
+fee3e06b8cf7397fdbefe287b0e44ed10cb41669|2017-11-02|Johnnie Gray|verbose warning for approx_spectral unexepected StopIteration
+fc87be309155d21d1f29503ec7bb3b8192b3f07c|2017-11-01|jcmgray|remove ``delay`` keyword from mpipool
+998fb4aa58c3dc33dd9dc893793b462b24db1581|2017-11-01|jcmgray|few fixes
+79b9bd0b41ee96a0a3e4402a7372755fcc5f9456|2017-10-31|Johnnie Gray|slepc: avoid mpi pickling
+a88e29a4967fd41e8ddeb66ad5895fd5493027e6|2017-10-31|Johnnie Gray|fix quimb-mpi-python numprocs display
+1ff8463beaacb4375c571d71cca9a96a381b5fa3|2017-10-31|Johnnie Gray|add MPOSpinHam class and ising, XY as examples
+81fe5b330a65a3c8847c40e5aadc64291417a2a4|2017-10-30|Johnnie Gray|explicitly dereference original matrix in slepc linalg
+db76642db44553c8a0a3c5d7c980385d12d7c91c|2017-10-30|Johnnie Gray|add tensor_direct_product
+c4a7f2f74da4175e3e9d6a6134ce376be8d391d0|2017-10-30|Johnnie Gray|add RTD badge
+d872f0f272dc00142085b23d23a19d6e37fd8a40|2017-10-30|Johnnie Gray|update mpi name
+09b1c6b5bd16cc2beb5d0971c5365f5675ea76a9|2017-10-28|jcmgray|further fix to quimb-mpi-python
+62273ac2084b577253aaba303fe0bb6b5a989fea|2017-10-28|jcmgray|fix script
+6f77ad8c34fbb8845a702f8eea04340c3a47b40f|2017-10-28|jcmgray|update quimb-mpi-python
+f9a191575a7fe41f97644fe71309c07b062caca9|2017-10-28|jcmgray|travis: use pip upgrade to make sure new script installed
+9ae29783321bfde9b22832232a4d9e1cddb83d00|2017-10-28|jcmgray|add syncro mpi pool, update mpi launcher
+bfe3d4481e598d608c06db0c97ca996b0706494a|2017-10-27|jcmgray|turn dmrg1 into DMRG1 class
+d6c76955235c486e800340100d0c051ce6999982|2017-10-26|jcmgray|RTD: update deps to fix build
+26d9d2ecee3bc2b9331531b45c4945ecb8cf86de|2017-10-26|jcmgray|TN: explicit virtual TN control, cache DMRG left and right sweep envs
+fb66da615d4473538b35673d09201049eee807e3|2017-10-26|jcmgray|add schmidt gap (and entropy) to MPS and as normal func
+ec0b6743268bdf488a518386474bd81aa192ab9b|2017-10-25|jcmgray|SPECTRAL: better bsz guessing and repeat strategy
+8b5c7ebb5f6b2d81ce1b25c1b499ef540770685d|2017-10-25|jcmgray|add Lazy Effective ham solving, tighten up tensor_core
+632844ed4a431261848cab1e68ccb10c33562f34|2017-10-25|jcmgray|TN: more testing
+2227a9e5abee5a71dcfdadc80cae72263d0df3f0|2017-10-24|jcmgray|add codacy badge
+7573fc65e71592005a4e997e2bb66d3ef32da5c0|2017-10-24|jcmgray|couple of codacy issue fixes
+2faeba227e4bbb38bf4d65d63457ec94c4c11abd|2017-10-24|Johnnie Gray|move tensor stuff to submodule, split files for organization
+37e1657d03de1a1e174f6becfbc8fb78de6cdbdc|2017-10-24|Johnnie Gray|refactor MPS, MPO a bit
+d33dba1555d63bb703be55eefc4332bbc013bbec|2017-10-24|Johnnie Gray|rework site_inds, site_tags etc with _id
+3ae3f22c89629a0a5a61118555fb90acd7b9259d|2017-10-24|Johnnie Gray|TN: fix a few extra args
+425270e7ade31aff965f1bd01225799b787bec0f|2017-10-24|Johnnie Gray|TN: add align and a few cosmetic changes
+82b7130ae22fda013dd33dddfd1ff248878893cb|2017-10-24|jcmgray|fix array->data in Tensor
+a26fc59c67f0998714832e8272b665da95561628|2017-10-24|jcmgray|TN docs
+adcd45d4f5ba154daee203df504c8798d2028ec8|2017-10-24|jcmgray|doc changes
+f0034921f821dd63c481f1507a6d157292588ac1|2017-10-23|Johnnie Gray|TN: return energy & gs from DMRG1
+f380afa5679e80d104104bdc31921cc00abc52d8|2017-10-23|Johnnie Gray|TN: implement DMRG1
+14e8a36253cd2525b10348a9f270760a09315cdc|2017-10-22|Johnnie Gray|add KRYLOV and EXPOKIT explicitly to expm
+f7b108ee7334c007e23ca64ebe5b82610ec5ba82|2017-10-20|Johnnie Gray|add expm to evo
+1053312678e24383a953fcafe20ecc662096e029|2017-10-20|Johnnie Gray|don't get mpi pool for num_workers == 1
+524213d42399a8827150a26fcfa4500924417195|2017-10-20|Johnnie Gray|tidy up slepc & mfn a bit
+f2c54358ff8cc27b29b1539735aaf071367a3b47|2017-10-20|jcmgray|approx_spectral: warn on missed tri-eig, better random seeding
+c9ad396988f45277605fe2cd531761b4a14d0498|2017-10-20|jcmgray|subclass MPS and MPO
+d55e62c9e5b0ddf3f404f8c448c0102b7bf12d55|2017-10-19|jcmgray|TN: add full left/right/mixed canonization
+5eb80e458372bd8bb49e038f092064e148de15fd|2017-10-19|jcmgray|TN: add left canonize
+14f59073ba5dd588205d84c932dc00e74aedec1c|2017-10-18|jcmgray|doc mpi pool stuff
+43c43c13a18f60ce72f291be620de49c4a4d2d96|2017-10-18|Johnnie Gray|approx_spectral mpi repeats
+1dfb9a7ab149337912547745114ba16fe5eeec4c|2017-10-18|Johnnie Gray|changes for better caching of contraction orders
+0061429444062bea3691610e67c0a98897262414|2017-10-18|jcmgray|make approx_spectral more robust
+e817518cbcf77380143ccd282850ddd0f817d0e1|2017-10-17|jcmgray|approx_spectral optimize: pre conj for LOs
+d22708b3599149764892267c7db869edc3cb68ec|2017-10-17|jcmgray|make mutinf take no ptr, but allow arbitrary subsys inds
+3ae9e195ae12ad60294a72029df2a2d870c0b87c|2017-10-17|jcmgray|brush up subsys methods
+d1219b760568258c5bb9f74440a38c8e64cc08b3|2017-10-16|Johnnie Gray|default arg for logneg_subsys(approx_thresh=...)
+c4a121102a72e3e212de7643db62603f75fe7a28|2017-10-16|Johnnie Gray|add mutinf-, entropy- and logneg-subsys funcs
+90ddcf85bf73aa684054abbb2ead5e81689fbc93|2017-10-16|jcmgray|refinements to copying
+05e84ca11eeae99112f45a51df59bbe069cc4092|2017-10-16|jcmgray|add proper copying
+e089df026d1ee8e7327eeb980b9bb3604c2e5a0a|2017-10-16|jcmgray|few tweaks
+bfa9ca248e4547bbe8cd2eea51bfc3c5c085c5e7|2017-10-16|jcmgray|TensorNetwork: move to dict based O(1) storage model
+776822b5efcb32f5ab991101eebd7295fec8eb72|2017-10-15|jcmgray|change TensorNetwork to single tensors arg init
+bb4a1e6077a6ed04c527ea60e287471a4d3e65b4|2017-10-15|jcmgray|add inlpace conj and tests
+161543a65a8c6937808fdaeedf0cc0b7663bdee2|2017-10-13|Johnnie Gray|remove approx_spectral debug logging
+b90da7495e303b9617c089cae3b981149ef9d101|2017-10-13|Johnnie Gray|tweak approx_spectral params
+03f0be67b88a5bbdf853c14e2a44db73b47abde4|2017-10-11|Johnnie Gray|further clean up of approx_spectral
+18c049a19a470ac7499653164c487252db9bb546|2017-10-11|Johnnie Gray|add statistical convergence checks to approx_spectral
+313d2ab56ae177e73afbc574fedcc4300f730bfb|2017-10-11|Johnnie Gray|travis: another fix for cached dirs
+ae3ed2d9a1ec172d29c46e153f06eae4106a9ce7|2017-10-11|Johnnie Gray|travis: fix check for cached repos
+311d624cbcc2726a7017079a9b66333e0420b106|2017-10-11|Johnnie Gray|typo
+dd8026f8f2205893ef29222c5431ea90c0d9ba35|2017-10-11|Johnnie Gray|travis: fix python check cached statements
+3f34ef12254a776142b5e452f4de739406fbaf18|2017-10-11|Johnnie Gray|travis: silence openmpi make
+82dca0c6f7cf59a96f37f7647341aa677a7c75fd|2017-10-11|jcmgray|clean up TN init
+9e6e02a14e9167e0f052ef1b1187853773e3f1d5|2017-10-11|jcmgray|travis: guard git clones
+f39b68063e85028e902ee745a6b8a953701e00fa|2017-10-11|jcmgray|change TensorNetwork properties
+5f3cb9433d4d3cdfdf92b3e240671e16dd850b04|2017-10-11|jcmgray|adding contract_strategy blocksize
+1d024729cb51b842fdcc155233165a3215bda79d|2017-10-11|jcmgray|cache einsum_paths
+1637e1cd1afe8e1b5b5a72f296f3357532912c2d|2017-10-10|Johnnie Gray|add early convergence to lanczos method
+72650b1b24b9c0a748056aa56106168bd91eb062|2017-10-10|Johnnie Gray|use tag_map and explicilty check for ind collisions
+b40ec591ef76f5bb71c3a4a75d891bb62548a33a|2017-10-10|Johnnie Gray|attempt to pre-emptively normalize rand_ket_mps a bit
+92d639273cdf548aabc040d56b66bf4e1608dcd7|2017-10-10|jcmgray|extensive addiions revolving around contract_strategy
+eb369c6120ca40d2582b587dfd03129e1e13cc15|2017-10-09|jcmgray|add tensor_split
+6d72c9c1f6f7fb01f014b52c58baad2cd5315f83|2017-10-09|jcmgray|change contract(_path) -> einsum(_path)
+b371840bf433239173b8a96e7f079566b84f5f82|2017-10-09|jcmgray|add contract as a Tensor method
+784bc6dfb5f961d6a278bc57b32fe3779b61a86e|2017-10-09|jcmgray|add tensor transpose
+10a803e8ab785751fe3869f98959a9fd07fbe20f|2017-10-09|jcmgray|travis: explicitly install openmpi
+d12d103867c4f8d20aebfaa7b7e90a417de061ef|2017-10-09|jcmgray|add matrix_product_operator and ham_heis mpo
+903a68f26295d34cf48878d2e8ff6f05cee8434b|2017-10-09|jcmgray|ignore .fuse_hidden* files
+512f832029d940a3278180ad211a0fa4cb4ed455|2017-10-08|jcmgray|travis: tweak petsc install
+2e01d6be3a6993a4ab620b9a73a11dee66df22ce|2017-10-08|jcmgray|relax some approx_linalg tests
+b1eacfe46afe07056a761891811fab0b0e57680e|2017-10-08|jcmgray|travis: try pip install petsc4py/slepc4py
+2c7c78b739cccf6662d8cc6f723de9cb6e35bd90|2017-10-07|Johnnie Gray|add Tensor.fuse + bit of docs
+d8e3e54c883de7bf29a8c834a1926127a0ee0b86|2017-10-06|Johnnie Gray|changes to output indices
+0b6e688fdc0773838c96fbd8bd8e2c11ee0d4678|2017-10-06|jcmgray|travis: tweak petsc install
+25cc97760cb510a421aa61c78c84dbafa13e24ad|2017-10-06|jcmgray|fix explicit path numpy einsum
+7c6f8051ad12215927dd0e206db4edeea2165749|2017-10-05|jcmgray|allow any ind type, move to char based inner contractions
+4ebc4a8440c4eabb592da9e666c6301fda9a6ad6|2017-10-05|Johnnie Gray|fix a test warning and occasional failure
+043c2343bbfd114b08868b1c4795355669e0ff1b|2017-10-05|Johnnie Gray|map contraction indices into 0-52
+38ceae627d9d51d713ffea533df43331630b3c7c|2017-10-05|Johnnie Gray|move contract(_path) to tensor_networks
+47c4c9d8e322de4f2e25385c8cd08906fc154094|2017-10-04|Johnnie Gray|first commit of tensor network stuff
+c3509f0b9cf1ae8816c56392701d86bed83610fb|2017-10-03|Johnnie Gray|add docs section approx_spectral, functions to __all__
+103358d5d8449122fb4d8ba5151422467cf2dee8|2017-10-03|Johnnie Gray|lots of doc updates
+b1b98c64268cd2de26171e8db002d12c8ce7c0b2|2017-09-28|Johnnie Gray|Merge branch 'develop' into feature/docs
+bae6eec58f6056fc24075d1a76486d97ae3de28b|2017-09-28|Johnnie Gray|Merge branch 'develop'
+4de6291003161db9bd336e66f0ac7ed2a4f449ce|2017-09-28|Johnnie Gray|add github opt_einsum to travis deps
+3c0f234e87de41a145326196cc3fd2060418ac2f|2017-09-28|Johnnie Gray|fix approx_linalg for numpy einsum
+742bcc1c6a36dba7617c97436c37042a0c506072|2017-09-27|jcmgray|update readme.rst
+51247164a30ceb8f2d284fde17aedea883c67f92|2017-09-27|Johnnie Gray|matrixify rand_matrix_product_state
+f4cb519f014829269446465bf98849e376e58f66|2017-09-25|Johnnie Gray|travis: cache mpi4py, no test timeout
+f8bad6d91f74d7273fb843fc2e1e833344b00bb8|2017-09-25|Johnnie Gray|cache more operations within linear operators
+feacb80b40a06a68946222e7c1816d7ab0bfb05d|2017-09-25|Johnnie Gray|factor and cache contraction logic
+22e9ff13cad64b43c2cc799882ad6c9c6d290d10|2017-09-25|Johnnie Gray|add pytest timeout
+0e90bfdb37e72f870c742cb794043b4db734a582|2017-09-25|Johnnie Gray|match up einsum and contract args
+d3dd87eb0b536967c5ce7ec9f769f9dd36372878|2017-09-23|jcmgray|add global lanczos method
+aac90f810f5cf8fb929f78362dae98bf708be4ee|2017-09-22|Johnnie Gray|add look-forward to lanczos
+d20ee14e33dc771717cc6aeeceadf6b7dd67d390|2017-09-22|Johnnie Gray|add down_first option to neel_state
+2503e3db22f72082fc8caf76d2e63507b89d1e40|2017-09-22|Johnnie Gray|add 'scaling' to lanczos output
+2cd8656fcd9f917ac30729d56f88eeaf048a8b8f|2017-09-22|Johnnie Gray|update to expec_methods
+2f1e54a708e97120a346353d9224a04413404ea5|2017-09-22|Johnnie Gray|fix for mat_size
+e415455aa093aed3e1950888a6a66a7c7db17363|2017-09-22|Johnnie Gray|approx linalg additions, specifically matmat support
+5cc07ba05e39daf0448a489f80a00cc501a1d322|2017-09-21|jcmgray|clear up comments
+821243d7337b525837b53b985f71c31d624b3b4d|2017-09-21|jcmgray|factor int2tup into utils
+99e9fdc67bf7091a518f6c3b4deeb4c5611c1a0e|2017-09-20|Johnnie Gray|add tr_fn_approx functions and test
+1925e55ff144f4540721fe974da1cd8a44ccb4ae|2017-09-20|Johnnie Gray|update test approx linalg nomenclature
+27eba3fcb896fd2c7357b3828586e4cb8db62301|2017-09-20|Johnnie Gray|add LinearOperator representations of lazy tensor contractions
+e1cb95c38e19cdf26f60144a12ce76205f24e996|2017-09-19|Johnnie Gray|Merge branch 'develop' into feature/docs
+680eeec0a92029155d01ab2bd961a3c1f98318f2|2017-09-19|Johnnie Gray|first fun at approx spectral func
+a0d97541ad79b330fd287955790e0a179ef83b7d|2017-09-19|Johnnie Gray|finish up lazy methods
+36ad1a25ba73573b9714d48acea3c17df82b6b8d|2017-09-19|Johnnie Gray|swap which inds are partially tranposed to match new approx_linalg funcs
+6148df8c8143e37d8a198cb2f31c1c5cf7c80911|2017-09-19|Johnnie Gray|generalize negativites to arbitrary interleaved dimensions
+ad3de5c0f203249583eb620bae4a9e5f5c91f17a|2017-09-19|jcmgray|move matrix functions tests to correct place
+af38bf8a41913955d1e54551ec1f5e0b2d916e1a|2017-09-18|Johnnie Gray|add initial lazy mat_vec ops for lanczos spectral func approxes
+6c08045490dfa499afb7c0d98fe8f0de562427aa|2017-09-17|jcmgray|change solver -> linalg
+1377f7047c1356067955ce0065c68c4af837cca6|2017-09-15|Johnnie Gray|move a few matrix functions to base_solver
+a8af6c299d34a44f7e6d2eaf30f231071e006352|2017-09-15|Johnnie Gray|add travis coverage combining for auto and manual mpi tests
+82300fece76f6039704d79cb2a8a98a4093671b4|2017-09-15|Johnnie Gray|add barrier to MPI functions
+c7bdcdaaa28f37e3d3050f181351083ec6eb3008|2017-09-15|Johnnie Gray|match slepc_svds to slepc_seigsys
+e74e905fe16956f159c6f0ae723212fa7c434df7|2017-09-15|Johnnie Gray|add deprecated warning test
+0a8f91ae4f6ca163a3740a59f07c8965d158598c|2017-09-15|Johnnie Gray|remove scalapy
+ec457b92a9e5b7a83bcaea8bdb09d591e9664bed|2017-09-15|Johnnie Gray|more mpi spawning cleanup
+ba28d31f78d08b30d953d20273cd20892a023bf5|2017-09-12|Johnnie Gray|make matrixify a lil more efficient
+3799b6c51ba07098c5c714fc6807d9cebe1f8b58|2017-08-26|Johnnie Gray|add is_eigenvector
+88c4d20d21b1efa7d12995f2182a70c45966fd74|2017-08-26|Johnnie Gray|some deps updates for travis
+a82322a9dad2cbd8aeca36b3ec471ac80177163e|2017-08-26|Johnnie Gray|comm fixes for slepc svds and MFN
+b5dd90998ad9522c52d6dff1f5fc2e58865b5492|2017-08-23|jcmgray|add codacy coverage
+472037adbc3c335fa1139cbe68f9fe6566482324|2017-08-23|jcmgray|don't spawn mpi pool for 1 proc mpi functions
+301efe59d0d56ae4266a464c5e267cbde9bdbdd2|2017-08-23|jcmgray|possibly more stable slepc eigenvector method
+a0caa4ee0cbe4ff1543d50f0632873cbed42b52d|2017-08-23|jcmgray|fix for ent_cross_matrix and upscale with pure bipartition
+ee06544ed7c1b4e7c40385d686135977c613094d|2017-08-18|Johnnie Gray|Merge branch 'feature/docs' into develop
+546348fa3e2d3e28ffcea178f37f26396dfce518|2017-08-17|Johnnie Gray|add upscale option to ent_cross_matrix
+d83395eeefbb6ca4c7ea12428efba8830185a7b6|2017-08-17|Johnnie Gray|Merge branch 'feature/docs' into develop
+2a029cdf0a2d3cd30429c6ba26fa3cc5b15e5853|2017-08-17|Johnnie Gray|few doc fixes
+dfbcc0be808ebd2c54bf99304f09034909f7c67b|2017-08-17|Johnnie Gray|travis: try getting openmpi from conda
+d3e753f53199fab1ee072a6fbb794bb9eab77e36|2017-08-17|Johnnie Gray|deprecate overlap to expectation/expec
+690397e155094f8e55e782fbf27660d627ae6c19|2017-08-16|Johnnie Gray|trying bootstrap via conda requirements
+9d22fe8b6d033619da9e8ac90563a2bb4be92539|2017-08-16|Johnnie Gray|add new theme setup
+6a80123d0d3e3d1a67ffa53f3ad40b7deb8e761f|2017-08-16|Johnnie Gray|try bootstrap theme
+1ae760354bea2ae8831f9dd918ac37d30331c419|2017-08-16|Johnnie Gray|travis: re-enable mpi4py install
+15432cfcf082c862a8c1866e3909549a7f864ba9|2017-08-16|Johnnie Gray|travis: fix cache check
+92164db408373c250208596b5d74ad0e32ee05b8|2017-08-16|Johnnie Gray|travis: add libopenmpi-dev apt pkg
+aad65735891234dd4f95a7f1a6a67dfff920874e|2017-08-16|Johnnie Gray|travis: add suppresion of commands on success only
+d6778c972be1e5026031769c1e73cffbdd932229|2017-08-16|Johnnie Gray|finish up states.rst
+52a9325a2c5c0d66de3674ecc22dfc1583ac5be2|2017-08-16|Johnnie Gray|various doc fixes
+ef396005762b8e8e9d37a0d19d585e0b17fd1d41|2017-08-16|Johnnie Gray|Merge branch 'develop' into feature/docs
+4e1439919b1d503e5588a2ba8ec2b1cf05fb52e0|2017-08-16|Johnnie Gray|add general spin_operator
+9433822de04208ffc335d6cecc0dba87f228e5cf|2017-08-11|jcmgray|mpi test info
+05b1b362677df30a1c107c24cb197852cca1586c|2017-08-11|jcmgray|travis try openmpi-bin
+c2152cb0c1762b489da69ea446548ad95bf7e43e|2017-08-11|jcmgray|travis try installing openmpi from apt
+b4011709500a0cda3fd960fa95c9b2234cc54d12|2017-08-11|jcmgray|attempt to speed up travis build
+851b1dae8fec7b34bcbe960855d491118aa0b469|2017-08-11|jcmgray|revert petsc4py to track most recent commit
+e1bb22cb60dff6a29566b94fef754b5429d7b24f|2017-08-11|jcmgray|fix landscape.io smells
+addf972c5ec7405b30966d9a075fe346dda016ff|2017-08-11|jcmgray|fix for scalapy failing tests
+f690b9024a607b315c05ca69d563e39e452993e3|2017-08-10|Johnnie Gray|add quimb-mpiexec launcher
+e737877f1c8475fa0c7d7900b6b46c01d415d2ce|2017-08-10|Johnnie Gray|add parallel ham_heis
+090d616df041f1944341bd335e485af0bfcc2aac|2017-08-10|Johnnie Gray|add timeout for spawned mpi communication
+10e3664dae328ec3a655ebdbf0070698414fe345|2017-08-10|jcmgray|fix slepc svds with vecs
+27df61796f6d195399299c56c4a855388eb2379e|2017-08-10|jcmgray|Merge branch 'feature/docs' into develop
+da200ecdf774bb2d0d7b29ae4a0139c7416fba2b|2017-08-10|jcmgray|add parallel kron
+a11a83356fa6f84e220fa00a10c03664513198a1|2017-08-08|Johnnie Gray|change fn -> fntype
+db5b94ccabdfc2a621528e5956839bf01ab0b11f|2017-07-31|Johnnie Gray|travis use trusty
+cadd4b912067b1b0415e17cfba28bed6cc0ac9ec|2017-07-31|Johnnie Gray|revert petsc4py to known good rev
+6f5a956d3e387a2641d33229b1e57e7f3a0e90ad|2017-07-31|Johnnie Gray|fix issue introduced by renaming func-> fn
+cc3509ba039795fb56a6078ac472de14d15f81b7|2017-07-31|Johnnie Gray|more utils doc tweaks
+34045d7668e5e0317ce81f174edcd019a5fc8094|2017-07-30|Johnnie Gray|update utils docs
+2c23f42c376b9c38a19d2ddf5a66da67cbd096c1|2017-07-30|Johnnie Gray|update gen.states docs
+e326c6db8ce946c03ee93d2827a811d0ecbc5645|2017-07-30|Johnnie Gray|try openmpi 2.0.3
+10ffaef3958bd36ed8d2d85192a568e6390d0309|2017-07-29|Johnnie Gray|add calc docs reference
+2a5685bb1b1b7129f377e004cfe532d4251a8d77|2017-07-29|Johnnie Gray|update calc docs
+f92cd92e21fac7c90a816976fab078f2a1692731|2017-07-29|Johnnie Gray|make travis install scripts a lot quieter
+a3f7efaa089ad8ff6256c6cd6b2afc51af30111b|2017-07-29|Johnnie Gray|travis install openmpi script fix #3
+cbeb7fd1b67ff04fc4f080ba701519c42edd4aad|2017-07-29|Johnnie Gray|travis install openmpi script fix #2
+4def396c60e781ebefb432c36c602ad0f27589ff|2017-07-29|Johnnie Gray|fix for travis openmpi install script
+f58f1fafc8b295c5d0d6f25cee5079824157955a|2017-07-29|Johnnie Gray|compile openmpi for travis-ci
+46fd49457dadac5a311a2ccae63ee2058b5b0657|2017-07-29|Johnnie Gray|fix evo test
+b7bddacc39f96971373aa411af19bb71a0e7a3a1|2017-07-29|Johnnie Gray|add advanced solvers to setup.py extras
+462351ffc13ef259cec585c8616ed26be5c016e4|2017-07-29|Johnnie Gray|update setup.py with extra requirements
+fbf838e240949eb5b22c37c5eaab2470b352f0d2|2017-07-29|Johnnie Gray|updates for readthedocs
+dc67af4fa5878241c9cf438979942400edb8bf15|2017-07-29|Johnnie Gray|remove import quimb from conf
+b26cf4d15f1fe048149fd9ad845f65fd3a3e2b34|2017-07-29|Johnnie Gray|updates to evo docs
+838f9f9c549c96f8a4aaa01227e8640506fd4467|2017-07-28|Johnnie Gray|move kron, kronpow to core
+693eb2ad1a489c03379c70bb06dfa6fc05c4b72e|2017-07-28|Johnnie Gray|docs updates to accel
+b999e65a83a2b6acfdc8338293382394aae155d0|2017-07-28|Johnnie Gray|update evo documentations
+2bfc8fbb9a28d86370bd698180f96680db044a37|2017-07-28|Johnnie Gray|finish up core doc, add autosummary for api
+7d2419c5c80e5f3169552fa04e336eeba78e44e5|2017-07-27|Johnnie Gray|start using autosummary
+5ab4d7a876d142169f45e1df0bb7ae12858430c5|2017-07-27|Johnnie Gray|update some module headers
+ab1618bdadd596610645dbd2c4fdcf3c2b8448c3|2017-07-26|Johnnie Gray|further doc updates to core
+05715d508fd4e191825389e5a9e04bc859991aa5|2017-07-26|Johnnie Gray|Merge branch 'develop' into feature/docs
+ecc0cf3df88e60a460d60d31e417c513bea1dfca|2017-07-26|Johnnie Gray|doc changes and refactor perm_pad -> perm_eyepad
+1d3ea4dead589e6dc4b8493a147dc6d4b5b2ea33|2017-07-26|Johnnie Gray|update core docstrings
+e67871f8d36960561eced8ab326449e2d2969284|2017-07-22|Johnnie Gray|remove debug print statment
+93fa228431880846a7a39f04ec6259dc9a3497b9|2017-07-22|Johnnie Gray|big rehaul and additions to mpi methods
+17b1cabaf285a93fcc8fc21ebf175af4248c2666|2017-07-21|Johnnie Gray|add tqdm to travis requirements
+7225ea496d22cab5bdfaed82e882395d3c0b4684|2017-07-20|Johnnie Gray|clean up MPI spawn automation and add slepc mfn
+47a4c86d497abaaffefd4ffc9d0ee4b4ade9cfac|2017-07-02|Johnnie Gray|rand_seperable docstring
+1cd387be1de954bfb4939d4bd747cb26950a7efe|2017-07-02|Johnnie Gray|Merge branch 'develop' into feature/docs
+bcb85cca3f7168f5200f96c79bf8b0747022550f|2017-07-02|Johnnie Gray|add rand_seperable
+b1b2e3f054252bd09b5e4801fa4b95d844d4f7d0|2017-06-30|jcmgray|add progress bar to QuEvo
+9f8e7e1f13ecb79d690951c09cb2c884d6cccdf3|2017-06-29|jcmgray|fix some noisy warnings
+c754fb95f580577d08f9e66cb918628ee2f6f213|2017-06-29|Johnnie Gray|Merge branch 'develop' into feature/docs
+d1a7dc77388f6e4a16b3629a9c9d1909f5960880|2017-06-29|Johnnie Gray|add compute function to evo, other tidying up
+8381ee5566e57fa77d4294ef5701b3055239ee99|2017-06-06|Johnnie Gray|tweak codecov install and run
+c124d4434c79fe65c6c91ef22e6d6bf735921ef0|2017-06-05|Johnnie Gray|Merge branch 'develop'
+eba3c984961a7e69a990b4aab9da768fea6d7bac|2017-06-04|Johnnie Gray|fix for travis broken coverage?
+c82e77f2498cfa0fef1c4f88cffa7d2c44ca18f7|2017-06-04|Johnnie Gray|remove petsc optimizations for quicker travis build
+8d84588eba472d947c6836b2edfe3208a3cc9b5c|2017-06-05|Johnnie Gray|fix docs modules index for rtd?
+80ee8741ca57217e65f97a7deb042baa82905d92|2017-06-04|Johnnie Gray|fix for travis broken coverage?
+172199492e7dbc003802bf6e343d02932212892c|2017-06-04|Johnnie Gray|remove petsc optimizations for quicker travis build
+4f625c11165b4b709fd6c5f033ba512b26b69643|2017-06-03|Johnnie Gray|fix test_accel function names
+93f6c385e071968151921fcc54238e1706f1e635|2017-06-03|Johnnie Gray|first pass at quimb.accel docs
+180b2b84856d8bc780c179e1ca3d60ed8adce4a0|2017-06-03|Johnnie Gray|update readme for rst format
+47154f7a86af11d38c0d2f6f775fb1777c964dd3|2017-06-02|Johnnie Gray|try removing docs/source
+a752fc0075a46029ab1ad10eb3c2498304fbbb30|2017-06-02|Johnnie Gray|possible fix for missing rtd missing index
+0aa955ff99213fa8e295838e93a0bec24cdd1946|2017-06-02|Johnnie Gray|update with readme test
+e092649bf0eb9625aeb3b0188a4cff425f326576|2017-06-02|Johnnie Gray|initial sphinx docs commit
+b3cfe0db2ec3e4389f7558aa74b481cfd52773e5|2017-05-29|Johnnie Gray|changes to env vars controlling num procs
+a91afa2fc79f8a6338fb9660508023940472fcac|2017-05-10|Johnnie Gray|allow vector parallel csr dot
+4320263bf37506f962eb2982702b9567a347969e|2017-04-26|Johnnie Gray|improvements to rand_mps
+83bda94a4df8b4a826db53e07533ba0e39e6add5|2017-04-24|Johnnie Gray|allowances for when mpi already running
+6349c009cecd4c5f1f826c3b7b57ee1a46eb0447|2017-04-24|Johnnie Gray|add random matrix product state
+4809ab2a566c71c7d7228e8e03c5008dd9762f91|2017-04-05|Johnnie Gray|Merge branch 'develop'
+6863d4eb0a5b626144234d04a533e1863121eefb|2017-04-05|Johnnie Gray|fix mpi pools being able to call mpi pools
+c8980cc0c0726ed10a55260f77d993fd75eb5c43|2017-03-31|Johnnie Gray|fix mpi pool caching for default args
+b93deae6dae674efd909ac433eec8758ec7f5e18|2017-03-29|Johnnie Gray|finer control over nthreads and nmpi_workers
+b2d4842dd48ac10909819c9ee3163a5a28546b43|2017-03-22|Johnnie Gray|mpi changes and test
+68bc75db88ac2fc7fb566e281db2f0887fd00387|2017-02-27|Johnnie Gray|allow default mpi_pool options
+ba3e7844e42d43f1e16606a416e5209eedf1bb36|2017-02-23|Johnnie Gray|small fixes for mpi_spawner
+8f85809641ebd8859a751c60cee7bea1f93f992a|2017-02-15|jcmgray|fix pytest coverage
+398560efba73941d5d0511fb3c6aec0989e8113e|2017-02-01|Johnnie Gray|temp: don't use slepc for dense partial eigen
+b056d5978446d6a2748e31221807e76ce7d1d6da|2017-01-25|jcmgray|set travis number of threads/workers
+56595e4af4e97b1fb3a96bfdc020bda007acc5a2|2017-01-23|Johnnie Gray|initial scalapy support
+3d3e4917db88281d37e9e45d59f3b10ae7ec4a93|2017-01-19|Johnnie Gray|Merged develop into master
+e2a7e02dc6e3c2e26e98bf0dc805753c0db3549a|2017-01-19|Johnnie Gray|switch travis to openmpi (for spawn support)
+e25b5536722c6bfbbe4b7eaec61cc2713f486c67|2017-01-19|jcmgray|one more fix for mpi dense slepc
+2ac61262c472a01e44d1035685b535981d300e7f|2017-01-19|jcmgray|allow no comm to slepc
+ba127d99871cde38d08c12091fda03381942f461|2017-01-19|jcmgray|remove petsc vec for now
+9f9a2191fbb78414da0a3564ab1504b7b9d3655b|2017-01-19|jcmgray|try dense mpi support
+8e7a342f82d0454c8a355bcc8c2f294506f2ebe9|2017-01-18|jcmgray|fix for first submitted mpi function not be rank 0
+fee3e9df3e0b092bfca30d5f858fc4389c96dd97|2017-01-18|jcmgray|fix stray debugging print statement
+192e7b22ee26312118c0a3fd0eaba307441dc1a2|2017-01-18|jcmgray|add auto-magic mpi spawning for slepc
+5da7fe40398d1559ab147b94de7f9ef4f937a078|2017-01-13|Johnnie Gray|fix for failing page_entropy test
+f42c7e19d076b80ff819c0b3618a4ae61fce740d|2017-01-13|Johnnie Gray|Merged develop into master
+b5138b9047fbc20f16bbc6f388d9af6110340c50|2017-01-13|Johnnie Gray|fixes and more coverage
+3cc55c1b7979882d1a0d64ef55021f967d7334cb|2017-01-11|jcmgray|fix range in page_entropy
+3490644a003074d3422cb5e642b88317bb862226|2017-01-02|jcmgray|actual fix for slepc dense overflow
+551dd22d0ad92092f0a222df85017e9edff430a9|2016-12-29|Johnnie Gray|fix for unintialized MPI
+2d274f6029009242a19eaa94e25526314b15ce8e|2016-12-29|Johnnie Gray|generalized SWAP and fixes
+8f538bbfc8b33833a74ae34508211e2248d61764|2016-12-08|jcmgray|Merged develop into master
+bc0534dabcf9461e637ab1f7747d2a9a7d627237|2016-12-08|jcmgray|update logic for choosing num_threads
+cd55e6b7a2302a6ac7406e7f27131c3d2e30633d|2016-12-05|Johnnie Gray|tweaks to mpi import
+330e9332c1f2375209d76f6acaf3571672c5393e|2016-11-28|Johnnie Gray|add page_entropy to __all__
+2ee2212877f2db329a4786e71f3f065a600a6ed8|2016-11-28|Johnnie Gray|add page_entropy
+926d5a99e4a360ae44c4fa6a20a87a6e9092dc2b|2016-11-28|Johnnie Gray|updates to slepc mpi operation
+612aa5730438ebc33656572ef7b81ed1c4658411|2016-11-21|Johnnie Gray|cache and make immutable some operators
+87de57c86b5d607b1fa795b46cefb3a722919f72|2016-11-21|Johnnie Gray|add script for testing speed
+2664256f0dce069db3f9f67c856a72eef1f5253b|2016-11-15|Johnnie Gray|fix for slepc/petsc running on sub mpi comm
+da0c427c64bdb8751811468d441592f61d43ea6c|2016-11-14|jcmgray|travis fix: uninstall cached quimb #2
+f2a2679a78298347ec3b9b640c2adc46e0614c68|2016-11-14|jcmgray|travis fix: uninstall cached quimb
+24698a86afa37211dc1c9c785f01f7673b6d70ab|2016-11-14|jcmgray|add internal, windowed, eigensolving
+ecf3595a64cbaddb7dd9719016ff9d145b5e0f23|2016-11-13|jcmgray|update slepc code for mpi
+32694e1aedc748aae505266e17f6b91b87d27ec0|2016-11-07|jcmgray|remove comm keywords
+0d00f3580cb67c0c198ed5064cac435bf39e0a5e|2016-11-03|Johnnie Gray|refinements to entanglement cross matrix
+868b94634951e34ccb77f1299724fff1cc1b9a23|2016-11-02|jcmgray|fix cytoolz version
+807397c7e6b99d501428e032780c4a02e20a76be|2016-11-02|jcmgray|temp fix for conda issue
+fb97560a6a9a427a629ac03a8f73cce8b51bd132|2016-11-02|jcmgray|refactor of import and test structure
+559ba8825b4481ddaf6e8f951a429d8dd582882d|2016-10-27|Johnnie Gray|add cytoolz as requirement
+7fdf3f4f45036595fa58718ee37f2ed09c8fad82|2016-10-27|Johnnie Gray|block2, entanglement cross matrix
+0e61c74a9bb46ea0ff33edd4b257e1d907fe6c2f|2016-10-27|Johnnie Gray|allow multiple spin-z subspaces to be concatted
+158ad2fb1b0d9898c766dfba8b0d0f69b9036001|2016-10-20|Johnnie Gray|fix decorator docstrings, shortcut for logneg
+badcaddd0d04c6f31453802c98ff1c6329448c88|2016-10-20|jcmgray|add `zspin_projector` to operators
+1d898147c82c7786e18e7344d33fcdf2ad21e230|2016-10-17|Johnnie Gray|move to requirements yaml file for travis ci
+d5cf252ff04a486592f8f6b92972dcb77c4075a1|2016-10-06|Johnnie Gray|many interal refactorings, add isvec and prod
+6b0b96c5a9fdf18ab7d89edd46133e2370d26d97|2016-10-04|jcmgray|small fixes
+93bcc29e1d455bee590101d48ba7c66a5ea51400|2016-10-04|jcmgray|clean up slepc code a bit
+836ce5b6f8a7f22156b708e22dc677577eaa6deb|2016-10-04|jcmgray|Merged develop into master
+a78f4d04fd557ce6dbeb059dd800e9e1a3b4aeae|2016-10-04|jcmgray|update tests
+feb24ee2e8f101726a526b0619ffce4ddb50e873|2016-10-04|jcmgray|clean up code, docstrings
+546b32497e3e4b086aca8215431d6bf6eada614e|2016-10-03|jcmgray|simplify and optimize _partial_trace_dense
+e059eeabbcc64629c7df14227cb58a5414f166aa|2016-10-03|jcmgray|fix _dot_sparse 1d input, monkey patch parallel method
+2b7e865f5fd527beb5036f2316beac4f479754ea|2016-10-03|jcmgray|add psutil as requirement
+874b976473b787c2f9e6804f9c664ba400266d1c|2016-10-02|jcmgray|TEMP, fix for numba broadcasting cache error
+a0d6fab49ef18cf9fc8708bfd8644c2edf34bf3a|2016-10-02|jcmgray|parallel csr_dot, clean up namespace
+277033277d376cbb8698a620aa6ab06df01c64db|2016-09-29|Johnnie Gray|small fixes
+70020b156c1bdeee30ae6f4f0777e3fb404d689c|2016-08-25|Johnnie Gray|Merged branch master into develop
+8d16af6cd550cab010fe0fcc90d3aca6075fdaaf|2016-08-25|Johnnie Gray|fixes for code smells
+528365f06f5b522c816a076f9c1403fc600f1d4a|2016-08-23|Johnnie Gray|update bades to codeclimate
+8fa9075ef6f74fee8458226bb27893f1504b6f88|2016-08-23|Johnnie Gray|add codeclimate ci integration
+802e754cee0b6100a8ab26dbdf034cca937cf978|2016-08-23|Johnnie Gray|Update README.md
+2d9b6a9da7ea4793e99f5ff337180bd33703572e|2016-08-23|Johnnie Gray|Merged branch develop into master
+c5dcc7917969fdec22e0fb0a5c0edd6bd7a50d89|2016-08-23|Johnnie Gray|switch many `core` lists to tuples
+79f4e2b972dd74e68406b44bd0d173c406753d35|2016-08-23|Johnnie Gray|switch many lists --> tuples (faster instantiation)
+4dd0328f47e1075f6c63ac3084be912f9c515ba4|2016-08-23|Johnnie Gray|fix auto rank support and tests
+77626331acd8f9a8cc8eb5a3411fca9b073c343b|2016-08-23|Johnnie Gray|fix dim_map numpy support
+5c59377acc9a07c0272b61f5ab8683286541b4b1|2016-08-22|Johnnie Gray|de-numpify dim_map and dim_compress
+313f3cbac54a232ed9b7b5e31fcfdcf483633c8c|2016-08-22|Johnnie Gray|clean up import of some functions
+934e82081c4ea0594e0808e91bb7862e10e87157|2016-07-27|Johnnie Gray|add autorank to mut inf calc
+62a1a4362ddf3b1b8547371870851a095f3dab98|2016-07-20|Johnnie Gray|allow mutinf to use knowledge of rank for partial eigen-decomp
+e3cbaf3ecadea6c8d0815bb38b5b20985991f50f|2016-07-14|Johnnie Gray|change cov badge to codecov
+c7b5cdaf13a928c6f46e29bce6b73c5eaa0c0caa|2016-07-14|Johnnie Gray|test is_degen supply list
+8fb4f93f297800f808cbd4ebcde417b319b08f50|2016-07-10|Johnnie Gray|Merged branch develop into master
+9db9ca8fe7e443f0ea55771bc8a6db63d4921445|2016-07-10|Johnnie Gray|add is_degenerate function
+42170f9817c91b1aaf4fef23410a092115d6be1d|2016-07-08|jcmgray|make various dispatch functions private
+61dd9997f2d9132268cbff71032b2d208fc31ae5|2016-07-08|jcmgray|Merged branch develop into master
+1598e882223dcf8d36c1eedff230108973230839|2016-07-07|jcmgray|re-enable conda cache for travis builds
+59fca683e2c15320a920cdf6fc55cac9095daa18|2016-07-07|jcmgray|Merged branch develop into master
+9e689f4e7717f8c76b0ec7d26c8ccd6552f378db|2016-07-07|jcmgray|homogenise "all_dense" options, 100% test cov
+3814d784ca2775ed61610ba30827a530575685c0|2016-07-07|jcmgray|re-instate release slepc compile for travis, remove conda cache for now
+5ead58ba68d9d348c64ef79ed857912f2a7eb48b|2016-07-07|jcmgray|tweak to overlap to allow -ve expectation values for sparse [ci skip]
+78b9e2e1a4b37e54af924a140df31a035a0a8204|2016-07-06|Johnnie Gray|Merged branch develop into master
+537273c98d52199443cc16a3f81fff79f28541a3|2016-07-06|Johnnie Gray|small refactor of evo [ci skip]
+ca7172ba41299ec4a969baa5b379954824a7aec5|2016-07-06|Johnnie Gray|complete `calc` test covereage
+3715eb9c7aa07dcade33749a5ba23c94e8ce590f|2016-07-06|Johnnie Gray|generalize `calc` decomp, more `calc`tests
+4f2f3bee1b3f351f02a2ea9626394025dd35fc5a|2016-07-06|Johnnie Gray|codecov.io support
+9f14bc065c53bf7fabc315a46d010728734136ab|2016-07-06|Johnnie Gray|Merged branch develop into master
+724131e5a9c784b6dd919e333487649eac3aa12e|2016-07-06|Johnnie Gray|attempt to avoid -ve. eval errors by changing test slightly
+0b4eedabaf48a38a620d986226cf1eb388148a22|2016-07-06|Johnnie Gray|remove optimizations from slepc install
+1a0f9fe26bbf12c9323e0af72663752fb80e925b|2016-07-05|Johnnie Gray|tweaks to slepc options and installation, simpler fix for slepc_svds
+f9d55e55d0d7012d1ce47e247308990b65a614da|2016-07-05|Johnnie Gray|more tests for calc module
+b4e0d36427b72221264a0eb94e6b2227a4509459|2016-07-05|Johnnie Gray|fix slepc svds solver with vectors and cross method
+25ff6485e4539b2929117813ec61431a3e76c983|2016-07-05|Johnnie Gray|complete test coverage for gen.states
+74f90e541fe16da58c5a7a2b0c1687d095716f03|2016-07-05|Johnnie Gray|small fix to conda install script
+a74b383cf20ee891224b5d6b815f292702d0de8f|2016-07-04|Johnnie Gray|Merged branch develop into master
+7fe4d74dcf6707d2810c4b722de6984079610ba9|2016-07-04|Johnnie Gray|remove slepc for svds tests
+31d4cfa3be2340e9530b539d61b2dfdddce7e54d|2016-07-04|Johnnie Gray|travis slepc changes, including cache
+39f213700374a5820ad14af05277f81aad7ae1cf|2016-07-04|Johnnie Gray|try travis build slepc with petsc downloaded mpich
+230ac9a17b3110bab112f2c358f328523148df27|2016-07-04|Johnnie Gray|re-enable slepc build
+977ecaba92e788f084a8b2d27f608586e0cea33c|2016-07-04|Johnnie Gray|change cache detection logic
+7b6dc136da9ac636fbd2dfc8b4f8e572c78992d6|2016-07-04|Johnnie Gray|re-enable conda cache
+cca721458e0cbf0ad6fa17f2c799ea7fc81d2ba6|2016-07-04|Johnnie Gray|tweaks to conda setup
+d68293bc11ce107a051c46e38551a78b2be02bba|2016-07-04|Johnnie Gray|clean up conda build
+1e3f982887271fab291214b8cfa157bd9ac295a2|2016-07-04|Johnnie Gray|use conda pytest
+37e13054c7a14c600fd2e852f8af3d83ddc0abc4|2016-07-04|Johnnie Gray|fix pip install
+39782055b8f475287e8905baeacafaf5398be2a6|2016-07-04|Johnnie Gray|travis conda remove cache
+1ec28964cc5e6360710d4f372b15ba166707a4ab|2016-07-04|Johnnie Gray|fix conda test env
+d5c5aeaae96d561c47fe04a8c7c49a5933b1ed2c|2016-07-04|Johnnie Gray|fix python setup install
+32939bf879ca820daa97f981443f6767fd5e2ca5|2016-07-04|Johnnie Gray|remove slepc, script and cache for conda
+c25c39afa466ca4bcdfeb9361db3a0961dd3220f|2016-07-04|Johnnie Gray|fix travis slepc #5 remove openBlas
+82e8ba8f2813d48112b43ace39d8da0674959621|2016-07-04|Johnnie Gray|fix travis slepc #4 remove mpi
+586caef10bfc02eb34b5cc3f399083774c609484|2016-07-04|Johnnie Gray|fx travis slepc #3 remove cache, INSTALL_DIR
+015be62dc67c95bd798f1916f1c95c7deb40087c|2016-07-04|Johnnie Gray|fix travis slepc install script #2
+3e883be6b0fcfadd8ca3172dac8f5efdc62425ea|2016-07-04|Johnnie Gray|fix travis slepc install script #1
+4b1c94d975add34feb3c5cccd35b391626b52b2c|2016-07-04|Johnnie Gray|travis slepc4py install initial commit
+9bf64c0846534b524798e17b233c0a5b191967be|2016-07-02|Johnnie Gray|Merged feature/advanced_solver into develop
+3631638899b249f9056a57f9dda1f6c63f278bca|2016-07-02|Johnnie Gray|remove all idot features for moment, leave in feature branch
+41c7f8e7df1f6a161df4d713cbb1bba2ed497ed6|2016-07-02|Johnnie Gray|Merged feature/advanced_solver into develop
+9bac9d0a4799fdb324d64e1d2467cad090e90bea|2016-07-02|Johnnie Gray|Merged feature/open_and_vec_evolution into develop
+57f93c331f2a4560d38ad12689b24111f3c9a4c5|2016-07-02|Johnnie Gray|coveralls badge
+badc84869616a929e77cae6f646b5c8d58cb7d06|2016-07-02|Johnnie Gray|travis badge
+d62a0a0bf9b8f3ac346a6dcc4c45ae88f773f723|2016-07-02|Johnnie Gray|intitial coveralls support
+a3b3d75a599b6bd93c662d811958e935a551435c|2016-07-02|Johnnie Gray|make slepc optional including for tests
+75410ce54171fb1a26fe5f1c8856349ac86dd4f6|2016-07-02|Johnnie Gray|initial travis.ci commit
+a2cfbbc02d876ce8f64cb684d9b5de6e69999a38|2016-07-01|Johnnie Gray|tests for correlation, rand density changes
+7326ddff45c407a61fff52827656238f6f90276c|2016-07-01|jcmgray|homogenise solver options
+717177a1897207e2457ab124ba742d1f83d6a40b|2016-07-01|jcmgray|set default random density intelligently
+8183598854b24c88f7beffb85630fc18e1a3df22|2016-06-30|Johnnie Gray|add dense partial svd decomposition
+67b27737469f62830f74a4a229f197614ac24412|2016-06-29|Johnnie Gray|add dense partial solver numpy_seigsys
+ed7f306b7f255f23ff49e87558f543f302762f5d|2016-06-23|Johnnie Gray|further refinements to sparse construction types
+55395261ebcaa418fb09f437ae612153ffd36d12|2016-06-23|Johnnie Gray|add fidelity to `calc`
+7ee5f01bbba246d61f99205a764751f5f4789bd2|2016-06-22|jcmgray|kron, sformat changes, zerofiy decorator
+786349799543960119df112fef937ce27460f6c3|2016-06-21|jcmgray|change kron sparse format logic
+590c70c045f2e6033b6035a5f274a482aa1cacd9|2016-06-21|jcmgray|add sparse format control to quimbify
+01bbbfbdcc7a1e2b8501b5dbe454e683617f698e|2016-06-20|jcmgray|refactor `kron`, now allows 'coo' construction and output
+aa248be736a40b79d1f241c208597af928fa67c3|2016-06-18|jcmgray|tiny comment changes
+212e72e7ea5a00f39e817a615b276fe704f00e5c|2016-06-17|Johnnie Gray|const SLEPC_FOUND, and thus 'auto' mode
+e70e0be720f3a6680c8b288d3c31d078c5312c60|2016-06-17|Johnnie Gray|updates to slepc interface, now available as option to seigsys
+098c8dd1a18518c10e70a6017af3d6a184811ef0|2016-06-16|Johnnie Gray|rename avanced_solve --> slepc
+2ca56f8c667fc6724ff7479a13f45fba6e13df6b|2016-06-16|Johnnie Gray|fix gen.state tests import statement
+cd25071cdb29d57c9c49891e50183144f0107e5d|2016-06-16|Johnnie Gray|rename quijify, qjf, internalise tests more
+6007c9d4a0328b5afb095bb671a8d9556c0d1809|2016-06-16|Johnnie Gray|rename quijy --> quimb
+8ce8455c17b8dde5a7601db368e8fac3dbe411e9|2016-06-07|Johnnie Gray|add dense petsc matrix, don't import slepc by default
+67c157c7c6d3fc73708686ff9262ff716c7784c9|2016-06-07|Johnnie Gray|cache numba functions for import speed
+f703ddd7498bd0e888af9f934510858117a21ddd|2016-06-05|Johnnie Gray|small comment change
+3db5e99e0a7cf19785b302ee427b9db1f00c290e|2016-06-05|Johnnie Gray|update README.md with installation
+acddd3019d92f0cf27cddacce2b82f0e01503f2f|2016-05-31|Johnnie Gray|add dense matrix support, tolerances settings
+ec7741492534c839ca2207b8aa30a8d4922f9840|2016-05-31|Johnnie Gray|doc updates, name refactorings
+5fdbb9aac8f37ce39fdb43b161431f580a6b5921|2016-05-31|Johnnie Gray|refactor names, clean up solve ham
+94c55afe13ea620495a6e1d59cffeb971ff4a1c2|2016-05-26|Johnnie Gray|remove plot and misc, internalise tests
+25bc2f35d708a2a648e8f70233e212eecae770fe|2016-05-20|Johnnie Gray|fix for evo test that randomly failed
+626513e8686bf06d7ff6e99bd3e2d8f5a75976e2|2016-05-20|Johnnie Gray|add various functions for automating data runs
+aa08f28ef299944e3ee8f00140fb3ce7b523e642|2016-05-19|Johnnie Gray|change `inner` to `overlap`
+bcf8ede4dcdfcd7df2f2de44079299fce66a32de|2016-05-19|Johnnie Gray|add bsr matrix support and eigenvector return
+13c972375c2020a157e516d4dce6b77441315c9e|2016-05-18|jcmgray|add advanced svd solver
+42736925fb4326eb7d6bfc05b87aefc684e88f31|2016-05-16|Johnnie Gray|modularise components and spectral inverter
+47eebe9de7b64a4c666f367c00a628a75c7f9679|2016-05-16|Johnnie Gray|add general solver
+6d5cf2c4abfadf40628623965fb39345072f3a11|2016-05-16|Johnnie Gray|add advanced solver based on slepc4py
+2b4af5ba3dc00d21c76a5b854602b61cf8c5ba17|2016-05-16|Johnnie Gray|add todo...
+05b234dcddbe2ff83b080f505768873ec527ec3c|2016-05-08|jcmgray|add case-runner for recursive iteration over settings
+a7c7fbd86ca78d4d7dd7e09fb8900f9a46822b1c|2016-05-07|Johnnie Gray|add dop and sparse functions as aliases to quijify
+d907f4e8f0efc1df5441cc961d7ac0c11a536b04|2016-05-07|Johnnie Gray|remove redundant issparse function
+9ec2b68334494fb2da678190eddf8dc20d66d17f|2016-05-07|Johnnie Gray|fix ham_heis cyclic bond coupling strength
+fadee649109201b42459f0b3a2bc3d9964870926|2016-05-06|Johnnie Gray|allow `sigma` to be chosen for sparse solvers
+742c8ef0ab27d436226ff96119351c3859c3a610|2016-05-04|Johnnie Gray|allow non-herm to be specified for decompositions
+90b16f1bcdbc81a04bea19c40d444d2679051af0|2016-05-04|Johnnie Gray|update notation
+227f60de1f9c59931c2341d399b3bb3c48f31b73|2016-05-04|jcmgray|make update_to methods 'private'
+45825631e8eb145435ce97f01862531e0d87a35d|2016-04-29|jcmgray|add font choice, fix ticks for log axes
+86ba7fca1ba29e08c45d4d1a6fe41e6e58723054|2016-04-27|Johnnie Gray|automatic removal of markers for dense data
+4b5a0e0b44737b6d085ceee01b0548654b389e18|2016-04-27|Johnnie Gray|seperate matplotlib and plotly into submodules
+9a303e6f169045eafb33cc66dbd630b5a02f75f7|2016-04-27|Johnnie Gray|ham_heis `j` arg changes
+37e4b7fb0fc3d82089ab04f37ea5d7a4a28507d4|2016-04-26|Johnnie Gray|small changes to kron and evo
+6f0fa3db79da34fc06062fbbc4564ae36091c48e|2016-04-25|jcmgray|style changes to xmlineplot
+6a96b888bd79e58abde0c81e71691b3c902e8007|2016-04-25|jcmgray|move kron to accel, other refactorings
+42924302bd0d9aa3e5d27ed73731e9ae2bbf4704|2016-04-20|jcmgray|test 'at_times' quevo method
+5bf9c060373a11b27a321cd566da61b83c8c442b|2016-04-19|Johnnie Gray|add markers to matplotlib plotters
+ed1a65a80629aedcaae797fc0164d250501fcfe4|2016-04-19|jcmgray|fix diagonal sparse dot
+e3495334aa918335e51ce9676d85a14f954d51cb|2016-04-19|jcmgray|Merge branch 'develop'
+0a7ee1e7d946ac37dca9fe5e44822cead3a28a02|2016-04-19|jcmgray|evo tests using recurring hamiltonian
+393ca8ae1c92dd34049bfc6ef2699946a1e67e26|2016-04-19|jcmgray|fix evolution integration method setting
+ff9a8e22cb4d323fd8c85fc4a53259feacbe6de6|2016-04-19|jcmgray|fix mplot limit setting
+fbead6991ad8fa9c8d13dd29b5b63f2f724910d3|2016-04-18|jcmgray|test explt small
+f55bf815fb1462289de2a0ebe42ccf2544424b4c|2016-04-17|Johnnie Gray|refactor evolution class
+d14affd2ab994f8527c54e631e733e297806868c|2016-04-17|Johnnie Gray|add vectorised element wise exponential to accel
+4c3abc0bda242bc69974de91041e05e3003d0b9f|2016-04-16|Johnnie Gray|add evolution equations with tests
+f80c296d2f256dd9f3f2cd5ce02783f0dbf2b413|2016-04-16|Johnnie Gray|add gen rand sparse tests, group in classes
+1e6cac67c521978a0edc98062dfc339540569fc1|2016-04-16|Johnnie Gray|make test_rand imports explicit
+40b9c5250f639de5fb0f25e1ab499e88598737b4|2016-04-16|Johnnie Gray|idot tree function allocation functions
+569310e87dd7fb6290bf2f49dc85cd6b54e813c8|2016-04-13|Johnnie Gray|allow ishow to show multiple plotly figures
+3ba7a82377483e87cb059add4b60298f259cb9e7|2016-04-13|Johnnie Gray|pre-compile some jit functions to avoid type issues
+26747a623887a34824ca759be99a66ebf0567443|2016-04-11|Johnnie Gray|fix correlation
+578241b2b735e509895fca86d2cf2e4716641090|2016-04-10|Johnnie Gray|add log color scale to `ilineplot`
+0b42269591cda826efc5583fb49a4878029d2465|2016-04-10|Johnnie Gray|fix dot import
+9ee1ced1b0cf5c1ec53732446f8e95a1faa855cc|2016-04-10|Johnnie Gray|Merged feature/multiarg_accel_dot into develop
+91ecb4d70242a38ba57a1fa9d2ba7a90d17113fb|2016-04-10|Johnnie Gray|remove old idot, add long term todo
+84980a8df0de00b25c1a242d8eea058e7ba68d24|2016-04-10|Johnnie Gray|Merged branch develop into feature/multiarg_accel_dot
+d9e498c18ee8c7148fde7376ff80acda7bc40cdc|2016-04-10|Johnnie Gray|allow dataset load netcdf4 fallback
+1657eff794dc8ec15a69c6be7edfffdd144506e6|2016-04-09|Johnnie Gray|change idot logic to recalculate dot weights
+2e028cef20a3bbf6b615ca22b96964fbae637f14|2016-04-08|Johnnie Gray|Merged branch develop into feature/multiarg_accel_dot
+0046778991b82d0a892ffd5704ae380d289c9b74|2016-04-08|Johnnie Gray|ignore coverage of misc.py and plot.py
+e33902d12626e959ba14d02a4b774010ad88d9fd|2016-04-08|Johnnie Gray|add rdot for fast real inner products
+40d12a54e3d40b856a2939a710ea539fb5e74656|2016-04-08|Johnnie Gray|timing function added to misc
+9ecb73c4ef3f094dbe80c4f52dd81b5bb7b85c4c|2016-04-08|Johnnie Gray|accel.py tests move isherm
+29b168826730d2f0ccbe63f4d765a4c58181857e|2016-04-08|Johnnie Gray|refine idot, add all basic numerics to accel
+9d9f251d76536b67cf646817eb5db2fcdb9d98bf|2016-04-06|Johnnie Gray|refactor accel module, add idot, outer
+3549cd749dcb0257c58a8bfe69c8169c5c75e505|2016-04-06|Johnnie Gray|dot function with for loop
+2faa22d6a8ec9a37ec6b5a9026da5e92ba315e8b|2016-04-06|Johnnie Gray|cosmetic code changes
+29d3e9cc60cd177b4c7fbee9750c6119d2090046|2016-04-06|jcmgray|finish test for gen/operators
+76fb39b99fac22fab597728071b873b224d50d74|2016-04-05|Johnnie Gray|update docs and tests
+9f0534ea6c80ff829fcbfc92f022b18ae521f9d9|2016-04-04|Johnnie Gray|small doc changes
+abed9c3cee04b79970002135bde46c3d55b3988f|2016-03-29|Johnnie Gray|add sparse permutation of subsytems
+3149317bf0d6ed42c5b082aee503a2a17d61e615|2016-03-29|Johnnie Gray|Cosmetic changes and doc updates
+3f12df8b34adc583f7b1fb5427d5ee85311366ce|2016-03-29|Johnnie Gray|tests for solve module
+34850f6d39a3df8c10fa19117f9f89bb9a921577|2016-03-23|Johnnie Gray|update inner tests
+23cfca8b451323632d3246388ef767ff94d971d4|2016-03-23|Johnnie Gray|tests for `perm_pad`
+086cbf703c5901e2696cf642a535df912b1841a3|2016-03-22|Johnnie Gray|misc fixes
+fbbd1759ec5732c6f63f0f30c751b583fb01bb02|2016-03-22|Johnnie Gray|fix inner returning complex
+22f9bcd9c1a7be1ad8b3801f0e8ab776f98c5794|2016-03-22|jcmgray|Finish sparse partial trace, with tests, and sparse rand_ket
+9e22c09a4a01701bf1a81ee91eddb3a563781036|2016-03-22|jcmgray|clean up/test more, core
+460982097672ff184144096c07c9e315c6355e3b|2016-03-21|Johnnie Gray|v0.2: lots of changes and additions
+8071c7713f1332fd81d5ce6f63e21b4b82bc26b7|2016-03-07|Johnnie Gray|numerous small tweaks
+d8da33ccd468d1928506fee5cc147021be1b18d4|2016-03-04|Johnnie Gray|doc updates
+5af45520b79950b66b578fa78e457a4e64a3f3c9|2016-03-03|Johnnie Gray|complete tests for core
+e10f9c8d95323f0972ae9ed9df688f5a197ca89b|2016-03-02|Johnnie Gray|Merge branch 'master' of https://github.com/jcmgray/quijy
+eb3cd415e33a16a516b86362d3fa50ee9cb75505|2016-03-02|Johnnie Gray|add controlled-z operator
+9d1ecc1467617bf80745f00ba6a346b45040b2d3|2016-03-02|Johnnie Gray|update readme
+2cc4e3cf0a61b1c4c663d66495d987b1272d4f2d|2016-03-02|Johnnie Gray|add brief example to readme
+44918d61713790ab0b1c81338501bbbf5436de50|2016-03-02|Johnnie Gray|return view of inplace nmlz qobjects
+08b9be384c397088d29b74b49843e9730ef3054e|2016-03-02|Johnnie Gray|refactor rand in gen submodule
+032da9448ac8d9f593e88e6c80866b870c3aec36|2016-03-02|Johnnie Gray|add xmlineplot function
+e0a5830a700b0e8f09fe055bcbf62c01ee3c6d7d|2016-03-02|Johnnie Gray|add quantum discord
+14676b86ee01fa2bb4b05431588259d7dbda2e7a|2016-02-29|Johnnie Gray|fix colliding test names
+893089a77f890d262605c180e4cffc2018e78e0d|2016-02-29|Johnnie Gray|finish tests for solve module
+557a27d5a7916e18611a0a1456ab993a3e481e0c|2016-02-29|Johnnie Gray|test for solve module
+908b08c69feb4e87d0aab684cdcf43ac461a3917|2016-02-26|Johnnie Gray|rework directory structure
+94c2cde9fea30cb40e726bf3e46a5cabdd35e2ed|2016-02-26|Johnnie Gray|add thermal_state generator
+dddd665594dcd094a41de293bdaaf67b980a728e|2016-02-26|Johnnie Gray|more tests, allow chop to return even if inplace
+5e2d50057d71737197721ae83331fc45e7be32c5|2016-02-26|Johnnie Gray|update coord_map and add tests
+47e02c4ea74959c6744a5268e4a6e5210af5f663|2016-02-25|Johnnie Gray|allow eyepad to take start and end coos
+d49dfb3ea1e2ab61c44f75b6658d05e6de16eff7|2016-02-25|Johnnie Gray|optimize sig, bell and j1j2
+4e4ae0184aaf2aa2862708086fe435597cea8d31|2016-02-25|Johnnie Gray|group tests into classes
+1d055e33826f1b45da2f5f80307fe0ab4e902dbf|2016-02-25|Johnnie Gray|move to pytest testing
+26ca2cf5e21698e9c3d9df62453a950556c63af3|2016-02-24|Johnnie Gray|replace eyepad with eyeplace and rename
+ec18495ce03472443a6337aebf1d3770548c26e9|2016-02-19|Johnnie Gray|extra tests
+12161013232d31675974b1531067a4ddee026131|2016-02-19|Johnnie Gray|use @ instead of * for dot products
+a8fe6f2a2a15e4d530ad271007bf879e4c84d14a|2016-02-19|Johnnie Gray|add colormap option to iheatmap
+d98a812f521fdff497870335e14c02dbd08d2b33|2016-02-19|Johnnie Gray|changes to variable names and docs
+8467858050c4bfd1befdeb8325cb6040d0943e49|2016-02-19|Johnnie Gray|add tests for kron and isherm
+8f87903be012d8b43356ac2ea99129cf67d87c39|2016-02-19|Johnnie Gray|full tests for rand module
+408805251f7cd1a765aef2375e8c1f8d415bd21b|2016-02-17|Johnnie Gray|small doc changes
+549e95ed85a7fea5cd49e23b646c1848af741157|2016-02-17|Johnnie Gray|fix iheatmap for ndim > 2
+af6f8a7fd0cf34228e005f96a5fbadf589dde2a2|2016-02-17|Johnnie Gray|add multi_singlet gen function
+215017e6877f6377efabbfd3ae5e34cee9d844eb|2016-02-17|Johnnie Gray|add levi_civita function
+4672f79460dc1a447fc41014020f981b1fafd76c|2016-02-17|Johnnie Gray|name and doc changes
+d7d782bd20eca237f7dddcfbe1dc89eab08dd0bc|2016-02-16|Johnnie Gray|add `inplace` options for `chop` and `normalize`
+6652a80cf5c0b8b0acc2b825c5b752446df7ca99|2016-02-15|Johnnie Gray|return fast diagonal multiplications as matrices
+c9570979b54613cc73a45666391307ad321b0bbf|2016-02-15|Johnnie Gray|add plotly histogram function `ihist`
+351eed1aa78afadfdd00d1e5a6f9dc281a8b19b8|2016-02-15|Johnnie Gray|move random state generation in submodule
+e5a5f7b02481a033e9c603a5f2bdeadd51740ff0|2016-02-15|Johnnie Gray|add correlation functions
+8ddefa083b19871a65eb3021ef67c7dc0dfb2d47|2016-02-15|Johnnie Gray|small refactorings and doc updates
+a6b89e974a5e5c6c4982b83e7ff7d1ce8f508487|2016-02-15|Johnnie Gray|small refactorings and doc updates
+f929207e1ae04560dbd2eb81f7e580531be6a549|2016-02-15|Johnnie Gray|more `partial_trace` tests
+4fee1535acee02edc5d34411db2bae4e8816b60c|2016-02-15|Johnnie Gray|add tests for `partial_trace`
+a0982432248fdf85152b810d63c45f5ee8d2851f|2016-02-15|Johnnie Gray|update basis_vec with kwargs
+36c30da0fb43a94a245601c396e8838d351f709a|2016-02-15|Johnnie Gray|ham_j1j2 documentation
+0619abf01a4d84e6f90983c407a3c7e5b1a23b85|2016-02-15|Johnnie Gray|update `basis_vec` with quijify kwargs and docs
+8ff3a258994e6a5603f0d99df4131ef59c07f19f|2016-02-15|Johnnie Gray|fix colormap scaling
+8265885c430ecfb6de0c25d7fcf632a754cd016b|2016-02-15|Johnnie Gray|update test_core with shape checks, quick notation
+afe3baa299546db4559a2176bbd4e90027e9251e|2016-02-15|Johnnie Gray|initial add of test_gen.py
+929ec47325a3466c5abb27c318f84e177162dfaf|2016-02-11|Johnnie Gray|add color option to ilineplot
+f7eca52fb1ac9eb4ba4881f311565b80f7043b16|2016-02-11|Johnnie Gray|split plotting functions into new submodule
+c26da748c8d5f3446caf4e8dad46e827d6f2a22c|2016-02-11|Johnnie Gray|few linting required syntax changes
+ecc60e8d57bbb42d1294fa181d4c186471eb01ff|2016-02-09|Johnnie Gray|fix triplets() function
+e742288d16b2049b6f62e8d6dbd4fe830a9e4fee|2016-02-08|Johnnie Gray|Revert "Revert "fix kron, eye problem""
+b2b50135f16490ab3acf292addfc0308bc35dd38|2016-02-08|Johnnie Gray|Revert "fix kron, eye problem"
+7333caef864e5628d31936659e4daedbb9bdb18c|2016-02-08|Johnnie Gray|fix kron, eye problem
+382a6a7bdc26885d67cc79b7ffaad7a91b511105|2016-02-08|Johnnie Gray|add tests for ``core.quijify``
+a96c461eac0deb56bdf92c41b02829d89a8aac06|2016-02-08|Johnnie Gray|tweak default number of lanczos vectors
+95ca7c3eb0ef3d92cea5397e19503996478b7863|2016-02-08|Johnnie Gray|add xrgroupby_to_dim function
+ab54d0601ef7c827a7ecd994cc9a47004dac6194|2016-02-08|Johnnie Gray|allow ilineplot to accept single line
+2e2cbd9e9c8bac7d948d75f895dcc9dede87768e|2016-02-08|Johnnie Gray|add random unitary, w-state, up, down etc
+9610ae05a1201d1e410912c9f96dd627c1493964|2016-02-08|Johnnie Gray|rename many internal parameters
+1bad6b166b4f9a51e42b82093ad2242729982b49|2016-02-08|Johnnie Gray|add bell_fid function
+d1bca76ca18054873f9b21d94163c8e49916a193|2016-02-08|Johnnie Gray|refactor many internal names
+ea735891ff490f8ac7d29b8a630e81ec5e4cce16|2016-02-08|Johnnie Gray|monkey patch tr, kron and nmlz method
+47c17c7f44f228b50c6af0c3b94eb16032262e02|2016-02-08|Johnnie Gray|refactor many names
+7a8b94faca9c9545a8f4b0af25be97ca922326e2|2016-02-04|Johnnie Gray|small refactorings of core functions
+67247ec91d9047da37340ab9badaf71b9c5a1af0|2016-02-04|Johnnie Gray|new ham_j1j2 function
+00020859c9cd1085769889d22d23739ca4b0fed0|2016-02-04|Johnnie Gray|new misc functions for xarray
+92ac75b9f155770e796aaa2df8e00cc201e56822|2016-02-04|Johnnie Gray|make sure sparse eigvals are sorted
+f954113e492c98a4d9798caece72a38811e470b6|2016-01-31|Johnnie Gray|add `eyeplace` function
+8467571a3159d0544e9e0cab110b5a9d2c613ffa|2016-01-31|Johnnie Gray|Add `mapcoords` function
+08799c6801e234a66c606b8881fec611ecf6d629|2016-01-31|Johnnie Gray|rename a few functions and introduce aliases
+2c94bf690c26254124f40da077e0290d387a6a34|2016-01-27|Johnnie Gray|automatic matplotlib changes
+b06f34d7afd26aec1b203f3d1b9467bf0571c63e|2016-01-27|Johnnie Gray|Add rand_mix, rand_ket, rand_rho
+b62b467137a10b95c394c80cd6743c67062def04|2016-01-27|Johnnie Gray|change periodic option to ring for ham_heis
+d4e74baad763aee54700886561e394aa5aa6c5ae|2016-01-27|Johnnie Gray|move partial trace (trx) to core module
+36977f896f923911bb420541d4922d77cf20fa27|2016-01-25|Johnnie Gray|Clean up calc module
+3ac48e1a1f9fadcbfe12a46dd5e093ec9432aa6a|2016-01-25|Johnnie Gray|add purify function
+7fa7f025a715b0270107e8ed310815b3989d89c9|2016-01-25|Johnnie Gray|favour matrix(,copy=False) over asmatrix
+a313ba3ec155d93aeeb71ef82a5b90faef982bdc|2016-01-25|Johnnie Gray|infer_num_qubits function
+284dc88d5459176d2a97cbd3e3f9cefd67e9842d|2016-01-25|Johnnie Gray|add nrmlz option to qonvert and other core fixes
+b26122638cdf5b6bdbd49e60fc280ff7878bc95d|2016-01-25|Johnnie Gray|Add qtype and sparse, multi fixes
+02d2d8b82b085c3601f7620d6924d217e42657ac|2016-01-25|Johnnie Gray|Update plotting
+e37d04b84d2f9e83b220ac8450db99b5b94cfdff|2016-01-25|Johnnie Gray|Update solve comments and docs
+4582ba4ea8dfbe584001cc1f4ce2e0b5633c117d|2016-01-25|Johnnie Gray|Simplify __init__ import process
+ffdc0f8eeea926c2c5506b9097e7edfe6503ca6b|2016-01-25|Johnnie Gray|Add MIT license, slight meta data update
+85d47e5a690c57a0c6e2f1b2078b935466dbc2db|2016-01-20|Johnnie Gray|small cosmetic changes to code
+c2f1a5027685617ac9b047a4d02024bf314f7428|2016-01-18|Johnnie Gray|small updates to evo module
+f7e003c6b71038c6c2b6870781ba877cea88697e|2016-01-16|Johnnie Gray|Add time as member of evo class
+431f9f1514f4b02c417575706846b11be6027090|2016-01-16|Johnnie Gray|add names to bell_state function
+e630813fb7ab2934d96d64d769771874f96b683f|2016-01-13|Johnnie Gray|Refine pauli_decomp function
+f90c0739c26459d5d877185668c4ae7649efb7b4|2016-01-13|Johnnie Gray|Add ghz state, modify random product state function
+0d5dc3db8a6b10e42cd8bfb7b92f7793949825c8|2016-01-13|Johnnie Gray|Allow single argument to kron, add eyepad example
+6f7b83400616027c77ae64c243646480d283910a|2016-01-11|Johnnie Gray|add print_pauli_decomp function
+a259e47760d50c5f68c52a7de4a5687b39df4a99|2016-01-11|Johnnie Gray|fix evo class
+adb179a170289498c31e8987da4a5ac7004d5eb2|2016-01-11|Johnnie Gray|update qid function
+01286464ea9ddfe5b8a24a33be92dcf54c0cfaf5|2016-01-11|Johnnie Gray|remove ham module form init import
+6044d3e356bdbca8c4d0a8e250309d16db0bca7f|2016-01-11|Johnnie Gray|Update chop function
+7a61c7d529e80584f3ee949dbb9e47c72a269002|2016-01-08|Johnnie Gray|rename norm to norm2 to be explicit about type
+e5b44cd7f301d51ade04053edda684a36f62c4ab|2016-01-08|Johnnie Gray|move ham_heis into gen module, remove ham module
+03576d19b6bbd3166efc54ca1493cc1816720ab4|2016-01-08|Johnnie Gray|add qid calculation to calc module
+549b4a2e8f9d595cd10f19dbcab37902d7e6880f|2016-01-07|Johnnie Gray|add concurrence function to calc module
+09fd5b6205e8f7ba8f859f1ef48c24acaa6f56d1|2016-01-07|Johnnie Gray|Add matrix square root method
+d5a9f593d7507d3e3b6b2db6ef9c14953dfdfd02|2016-01-07|Johnnie Gray|add commutator and singlet functions
+2ce3565c0e9726b0e9dcfd56ffa4e2ecdb5001e5|2016-01-07|Johnnie Gray|Fix gen import and seigvecs
+440865ff36c891df830d89ebd077b84f9e720dfc|2016-01-06|Johnnie Gray|Add progbar function as tqdm with different defaults
+69cf9af584a90a24fe830d66e51dede426b604c3|2016-01-06|Johnnie Gray|few function documentation updates
+8fb753654ab157fe57ce8cfb8dd5002993f074f9|2016-01-06|Johnnie Gray|New 'gen' module for states and operators etc
+e3e70224407befffc6b86e5de33581095466cf5f|2016-01-03|Johnnie Gray|Create new 'calc' module
+ace0b2b49a62d4cb42417c266e74a656ee2e0c3a|2015-12-25|Johnnie Gray|refinements to solve module
+4539e7ff02c50e0769013624a64b26267eea090f|2015-12-25|Johnnie Gray|eyepad and kronpow small changes
+0ceff8b8eafdeb3f6181660dab15619a11ed88d2|2015-12-19|Johnnie Gray|Move all solving/decomp routines in separate module
+e7ecb09238d35974f90fdc2d974ebbebecc5ef17|2015-12-16|Johnnie Gray|Change default colormap in ezplot
+e3d71462e4b5473be3a03c0af868ca5bcb9771fc|2015-12-16|Johnnie Gray|Adapt eighs method
+3658f63f6d358aad9cee8da7b19264ce2bdf7b0b|2015-12-14|Johnnie Gray|normalize line endings
+101269b7b0be7c5edd328130a7b8e249f6eba45b|2015-12-14|Johnnie Gray|Fix bugs in QuEvo class and ezplot
+7b3f24db6dc1b458ac95e809eb55615343a98c94|2015-12-14|Johnnie Gray|Relax dependency version requirements
+f62b64a02dd45c2acd15322ac7b495e50f63a6b6|2015-12-13|Johnnie Gray|Update dependency versions required
+4518554670e0414e22ee31dd58c45226826e99d8|2015-12-10|Johnnie Gray|More documentation
+b7b4bf8ca655f09dae6905a1c4c87fde6ac7d694|2015-12-10|Johnnie Gray|Move rk4 method to evo module
+4fae3ff2b7b6d2506985e3aba3310cdd3d169249|2015-12-10|Johnnie Gray|Update documentation for many core functions
+c30cd91bf37a4922185cee4ff62b30940b5ebdb5|2015-12-10|Johnnie Gray|Split hamiltonians into separate file
+963583b7cee97c86a429f5cd33d8cfbfd439f743|2015-12-10|Johnnie Gray|first version of QuEvo Class working
+ae9cdef1139f38225bc28ab6d2af147f6e1819bf|2015-12-10|Johnnie Gray|Update README.md
+7a18df7ca984c51a752b580be4f987c5aa86779a|2015-12-09|Johnnie Gray|First version of quantum evo module
+a952958d2481138d149c6d7703623c83f07ec446|2015-12-09|Johnnie Gray|further fix to setup file
+19105c5effcfd35a65f38f2bed11b8816a0beebf|2015-12-09|Johnnie Gray|correct setup file
+650c73481705a10957756873f4df1cef0f3d15de|2015-12-09|Johnnie Gray|Initial commit

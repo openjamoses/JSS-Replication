@@ -1,0 +1,1067 @@
+9c4196a7f26504edab6bc9e3b398e81b677b2863|2020-09-25|Tomáš Mančal|asynchronous_range in parallel mode
+d5866136dd6e279abaeccf77b848772712b2bbd7|2020-09-25|Dobran Krása|Parallel regions enforced for function calls.
+2d4d330f7c990900a7d81c0aa7dee29f11b3b7e2|2020-09-25|Dobran Krása|First step to enforce marking of parallel regions
+1f3799597b1838299a3994cdb1cef156e0c9f926|2020-09-24|Tomáš Mančal|Experiment with parallel_regions
+ddf706de4be3519954ad7c39b3c8a67da2479b51|2020-09-23|Dobran Krása|Improvements on 2D calculations
+d36075123841afb37f455624d8c3e30cc5580afd|2020-09-23|Dobran Krása|Cleaning the code of TwoDSpectrumCalculator
+f406938567fb0c0d017ba3bd1f4cc62daf085603|2020-09-22|Dobran Krása|2D spectrum example improved
+04aaaf7b2af1206c2b90bbcff913a3ba79a40f4a|2020-09-22|tmancal74|Example of calculating 2D spectrum with Aceto library
+83a19ddc04ac46e22b9f0330a1c145b6d792bc4c|2020-09-15|Dobran Krása|qlaunch script under development
+1b640ec07d1719b76a605b15d876cfe080fb86bd|2020-09-14|Tomáš Mančal|Updated launch of MPI parallel simulations with qrhei
+fdf6982a45b6dd533f6ad1c9eaf3c4c672b8283f|2020-09-13|Tomáš Mančal|Version 0.0.62 started
+143e18d60cd855880f93b371b9821cb9e055bb32|2020-09-13|Tomáš Mančal|Script launching by qrhei improved; version assertion by scripts added
+cc30c344ac815d8be2c0524bf5569481b5a2d684|2020-09-11|Tomáš Mančal|Changing Warnings to Errors in contour plotting
+7554443beb32e0478be3f0ff75e30fe4e13d4725|2020-09-11|Tomáš Mančal|Fixing Aggregate tests
+b4bacd33e950a990365d60210152acf92b15c0a4|2020-09-11|Tomáš Mančal|Fixing Aggregate tests
+6401c19a7d7d3031f811ac1d3e3c882376a24192|2020-09-11|Tomáš Mančal|Version 0.0.61 started
+c45435d2a1fc2945a105cb309658ea8be7936317|2020-09-09|Tomáš Mančal|Version 0.0.60 started
+e78032bf33c61b28e53b1a27b9d0a09f87517757|2020-09-09|Tomáš Mančal|ex_853 scripts updated
+ce5cbe2dd34b7d1d64525bfe9a9a07acb0c2cbb0|2020-09-08|Dobran Krása|Updated twod spectra
+b6c02781eed3380c7b896ecb612a09290280c440|2020-08-03|Tomáš Mančal|Version 0.0.59 started
+67fe50a534dad444facacf871e17e0741db7e8c6|2020-08-03|Tomáš Mančal|Version 0.0.58
+9187f3615d8b47467214dc98d456158e60f5c202|2020-08-03|Tomáš Mančal|Updated requirements
+13f9def4cc7188141a2feb2ff83e7a0c13422749|2020-08-03|Dobran Krása|Lowering default threshold for transition dipole momemt to enter the pathways
+b0f6b40094f647133ff944996f6128d30e8292e7|2020-07-29|Tomáš Mančal|Pure dephasing calculation corrected; MockTwoD calculator improved
+035f7a39d0b2cdad50179df94bdd089f63d0cbb2|2020-07-28|Tomáš Mančal|Fixing lineshape calculation for vibronic excitons - phase 3
+8a24d38448101590f9dcdbb91fe02f3f756e95ce|2020-07-27|Tomáš Mančal|Fixing lineshape calculation for vibronic excitons - phase 2
+0b857add417b9c2294d8e9d7d2f0ff6173ede281|2020-07-27|Tomáš Mančal|Fixing lineshape calculation for vibronic excitons - phase 1
+3b65bc8bc0cbbc05e9e23df0400f0ab91fe6d78e|2020-07-27|Tomáš Mančal|Combined Redfield-Foertster Tensor checked and added to tests
+e79a380fb5a02faddacb33bbb5791e6d4928b7e3|2020-07-23|tmancal74|Fixing omitted depopulation rate calculation in Foerster rate matrix
+fe8ca23925efc5c1338d27d86196af55544d457b|2020-06-20|Tomáš Mančal|Merge pull request #120 from detrin/tests
+7db36a53f6727472289f270419cfd8742653669a|2020-06-20|hermanda|Deleting exclude_lines option in .coveragerc
+5c4fd5ed1576431e07059eb6785259a4c7a44ab2|2020-06-20|hermanda|Added virtual env for developers, changed coverage flags and change in .gitignore
+117a64d76cf4ff46b717dc6c5b36e5d174b51cda|2020-06-19|hermanda|Removed quantarhei dependency on itself
+1fd07939f3de7f270a647fb89d288fefc5132dcf|2020-06-19|hermanda|Editing coverage flags
+53d551f05c9efaab9af95899e5ff1eef30985f76|2020-06-12|Tomáš Mančal|Merge pull request #119 from foxfoxfox7/resp_dict
+5a1f2ed8a03991ca42bff537f981ba70da5da93d|2020-06-12|Kieran Fox|rename to write and keep resp twod
+9e1ab18268b3e88a26a4ce0fd556b2118979b128|2020-06-12|Kieran Fox|save and print response twod
+9f40130f7bb90dc0a57fbef085e34c2604de09d4|2020-06-11|Kieran Fox|save response instead of print
+0fc78fe355687794d8d8f59bf39a2e5289ea942c|2020-06-11|Tomáš Mančal|Merge pull request #118 from foxfoxfox7/rates_fix
+5a176eca19b747b5f7ffc0a278bb01e6195e7973|2020-06-11|Kieran Fox|twodcalc _has_rate_matrix is set
+f300ea64715d6ba9095ea624e978de7de2c00b22|2020-06-11|tmancal74|Aggregate can now call get_FoersterRateMatrix()
+633e46e6f26e3a798c3fd7ad70470c739f151301|2020-06-11|tmancal74|Foerster rate fix
+9aa014c50d8f156a1953bd5bd11af80d83cba515|2020-06-11|tmancal74|Third Foerster rate fix
+a38fe83fc7cb9ad8051c5adca1c4d20308a5bd79|2020-06-11|tmancal74|Second foerster rate fix
+fa05aa4b57a7e146330db9064b08db7977954659|2020-06-11|tmancal74|Bug in Foerster tensor fixed
+f4d8249245328a0915f6396edad34b0d9cba0c70|2020-06-11|tmancal74|FoersterRateMatrix class introduced
+5c84ce339d678b11a519a307c10e00b5ed0dbd5d|2020-06-11|tmancal74|TwoDCalculator uses external rate matrix
+dd09c5060ce7a6f8bf81c9c9d5447b846df3266e|2020-06-05|tmancal74|Major problem with generating TransitionDipoleMoment by Aggregate fixed
+1b571d02826f4c3989f2dc4ea795cafe7f237ea3|2020-05-28|tmancal74|Fixes in aceto - quantarhei collaboration
+ddf61563fea34977b57699c89d2b39d3ba7ac97b|2020-05-27|Tomáš Mančal|Merge pull request #117 from foxfoxfox7/resp_print
+b0747f93cf396c31c814200e599b67f661824ffd|2020-05-27|Kieran Fox|commented the padding 2D
+57dd21d2fd27becf8e35c869764713bd39163ce7|2020-05-27|Kieran Fox|added import os to 2d for resp
+d947cfd0802fc677572bd527698047918304809c|2020-05-27|Kieran Fox|adding printResp
+ff3ddfdd6b476c4344d2881fe98262b0d07a702a|2020-04-03|Tomáš Mančal|Propagation with external driving uses RWA
+28a76d8b7ec6ba9cf99c27d55e43ea288b5f6c09|2020-04-02|Tomáš Mančal|New class EField to define external driving of a system by a field
+eb6e8162748b6920abb9d23491b17f884a6496c9|2020-04-02|Tomáš Mančal|Reduced density matrix propagator for relaxation and simultaneous driving by field was fixed
+3c3183c1b4ea86bbf3ee706a9da9a68e0dcb2e35|2020-04-02|Tomáš Mančal|Conversion to and from RWA for density matrix fixed
+a37aea792cc21b1093a80f51ffada866cd230b1a|2020-03-11|Tomáš Mančal|Merge pull request #116 from foxfoxfox7/padding
+3c2382e120aae8e1e12a96184fd4430fd84903c6|2020-03-11|Tomáš Mančal|Merge pull request #115 from foxfoxfox7/rengerUpdate
+48d2339643a0e3ab0c38385b72c63aa0bc31e731|2020-03-10|Kieran Fox|fixed vprint
+2f76663956a8d83d1be0e3efc4e63779116d2aeb|2020-03-10|Kieran Fox|Adding 0 padding to 2D
+e7a15e3e53d42124ec4a788f5df91befe36d4b82|2020-03-10|Kieran Fox|improvement to Renger spec dens
+38c96bef6aa12948119497a56b1a7f9d90adcb0e|2020-03-10|Kieran Fox|updating the reger spec dens
+b32f852fea1a2e80a5075cb6a563ded329cd388a|2020-03-04|Tomáš Mančal|Improvement of 2D spectra and Liouville pathway calculation
+7662aac75841430926266377040d57dd9213f99e|2020-03-02|Tomáš Mančal|Pure dephasing added to propagations with superoperators
+69545942f0301f67e6108d50066ac8f3cd84adb8|2020-03-02|Tomáš Mančal|PureDephasing types fixed
+2e4153c8bfc1a559833de282d4a641289288e2d0|2020-03-02|Tomáš Mančal|Conversion of PureDephasing between Lorenzian and Gaussian
+d84233a8cb005bbf1929b7e76068764aa155635b|2020-03-02|Tomáš Mančal|Import problem in PureDephasing fixed
+56100068e367659ba1cb3bcd3b0749aab1e098d2|2020-03-02|Tomáš Mančal|Import error in PureDephasing fixed
+c75b602fb09f03ef8a84e8f67322fa683d73b6e9|2020-03-02|Tomáš Mančal|Pure dephasing object updated
+b9017e71ab7cce847d55ba0287ca2477eb3cb765|2020-02-29|Tomáš Mančal|Added a function returning the Fourier transform of the EvolutionSuperOperator
+24c2e35f7703d771bdec7e3117b4f691c87d99e9|2020-02-28|Tomáš Mančal|scrit subcommand of qrhei
+881138bbe8139ca89cfdb3ad464d5a480beb83be|2020-02-28|tmancal74|Fixing tests of exciton analysis
+66af0507f2babe694e484c5e14dd57a00ee8a586|2020-02-28|tmancal74|Fix exciton report output
+4d70ddab276aa2db138f08b58b23bcbd905569c0|2020-02-25|tmancal74|Improved element plotting for evolution superoperator
+2a1b5ba9da1e8edb527d4b7af11a6eb0ff49e025|2020-02-12|Tomáš Mančal|Energy units bug in example 853 is fixed
+46471e1b66036d89b5bfeee23e54c2817b83bca3|2020-02-12|Tomáš Mančal|Fixing a bug in examples
+c7131902ccb2005c1b382a6aef6666d617d81876|2020-02-12|tmancal74|Improvement of some examples
+c986dba6be8ce6b44e1017370c519b66b0ba197a|2020-02-12|tmancal74|Implemented a primitive version of vibration dephasing in an example
+2780d3405047d9f6c2f3e4cf096b017e1dc014a7|2020-02-11|tmancal74|Created AUTHORS file
+3907512bf723e26d7f50540857615556a878b379|2020-02-10|Tomáš Mančal|Version 0.0.57
+128a7ad0f3697af5ffdf3281138865d0289e84a7|2020-02-10|Tomáš Mančal|Version 0.0.56
+0b8dff9580ec21a8f16bbcdb6000feba0324498c|2020-02-10|Tomáš Mančal|Fixing a bug in parallel range calculation
+25138a847827e5f6bb45b8690528b290c55bf212|2020-02-10|Tomáš Mančal|Version 0.0.55
+5e7562e973cfa4c4f7b334cae39ea185add454e4|2020-02-10|Tomáš Mančal|Release 0.0.55
+be8baf743286c6e7f0390a930f749f8c7340026b|2020-02-10|Tomáš Mančal|Fixed a problem with ESA 2D lineshapes
+e373d560e1006f41157e2e8abb63163b8cc18bce|2020-02-07|Tomáš Mančal|Vibrational decay Lindblad operator implemeted
+9f1ea2c774f18c40fff7ec7b5e1363cf6270c7d1|2020-02-06|Tomáš Mančal|Vibrational Lindblad form (started)
+d9f9f9d850463ad5d408ece80f05d20cd7fcb396|2020-01-29|Tomáš Mančal|New examples and demos
+9845e91fa8e3d30d8eb27f37c0cf5bf63a237d00|2020-01-29|Tomáš Mančal|Example of usage for parallel iterators
+68f7f83077a154504a72df32ce68ec848caa1e29|2020-01-29|Tomáš Mančal|More parallel functionality
+c5c428a28c2bd5d9b405260f4ca9dfe50989da3d|2020-01-13|Tomáš Mančal|Merge pull request #111 from ohsu6072/master
+713dc77e0b99a8edca0989e0e3fe2d102516d486|2020-01-13|Oh Sue Ann|Merge remote-tracking branch 'upstream/master'
+d6d461523c6bc04b7247795b95f2599e589747e7|2020-01-10|tmancal74|ResponseCalculator now returns ResponseContainer
+79d9632a662b6af941c2469a2c346446847f16e8|2020-01-09|tmancal74|TwoDSpectrum gets a add_data method
+09a828ebb99bf438202f21c58bb4c997b302670c|2020-01-02|tmancal74|Online tests fixed (local tests may fail)
+8efa1b09cf13b148b2d3ee420e7a86c50eaa0e4f|2020-01-02|tmancal74|Fixing the tests
+e3a6932fd3ff57b78a60be0ce0c8fafea395ecf5|2020-01-02|tmancal74|Another attempt on fixing the tests
+027d287b5f8c3bf581e72060c1f5661509ea69c4|2020-01-02|tmancal74|Fixing failing tests (reduction of significant digits)
+28b150739b8eb1d207e898266baa47f84a3ffaf1|2020-01-02|tmancal74|Fixing numpy version in an attempt to avoid failing tests on travis
+af08d46be90dd1596478591c8657278f92178516|2020-01-02|tmancal74|Corrected cfmatrix four index quantities
+fc9feeb630b562252cb8df9ecc16777195b2742e|2019-12-20|Tomáš Mančal|Merge pull request #110 from detrin/hermanda
+66a4154e6ec6d9302d19eb1ba69ad18103201dfe|2019-12-19|hermanda|Added unit test for tracing over vibrations
+ea398cd304a99e654a3981d03d11ef7668e89ebd|2019-12-19|Dobran Krása|Reorganization of examples
+02342475ef1881d1c72717fe6f49d63d899de763|2019-12-13|Tomáš Mančal|Requirements file updated
+2a512bbb69f2771f2481fa74d35b1ee2f472a900|2019-12-13|hermanda|Improved time complexity of trace over vibrations
+df3487bbf1849d6671c89cdd545bd3b03da6b2a8|2019-12-06|Oh Sue Ann|First changes to ModRedfield file
+dd42bf032e99efdcd05e97e97eef305c10472e14|2019-12-06|Tomáš Mančal|Update of the demo files
+61d76da18831d0298384ee91c24fc4f9854c59a6|2019-12-05|Dobran Krása|Update __init__.py
+f843c3012d467ef564a9b1be96e547d6a9d51407|2019-11-28|tmancal74|Revision of the rdm propagators
+cf3599a0a46ef07ae2c0f65252770e0259917918|2019-11-26|Tomáš Mančal|Update of ex_850_vibrons.py
+f63bba343a2f860cc508f94cc02e5430f083e1ad|2019-11-26|tmancal74|Allowing control over minimal accepted transition dipole moment in 2D spectra calculation.
+6ad89be4eb78d768e7718c078da1e884a24445fc|2019-11-25|tmancal74|Modified Redfield delevopment example
+a711a3fedb8c91ad39d9aa146b255c69065690ed|2019-11-25|Tomáš Mančal|Version 0.0.54 started
+b9e20fedaec6f06d4579f48cf42c0fef010a6cff|2019-11-25|Tomáš Mančal|Rease of 0.0.53
+519cb8f21ca61d95e7cb8572e9d02148e177ab13|2019-11-25|Tomáš Mančal|More consistent RWA implementation for density matrix and state vector
+d99d0d974ebef880832447024b07b0324056c165|2019-11-22|tmancal74|Update of the StateVectorPropagator
+352d2a13c0231ad46fedc7e3e891d9374f4c5cf6|2019-11-19|Tomáš Mančal|Small fix of 0.0.52
+739b468880d166a94d8c26305480c882977b7328|2019-11-19|Tomáš Mančal|Version 0.0.52
+d1c9ee808864a8fc82de3609d1532e2cd6d94d24|2019-11-19|Tomáš Mančal|Improved logging control from command line
+cf1cd4955aa535f0566d4d735d3981fa1e702a71|2019-11-19|Tomáš Mančal|Improved parallelization of scripts
+3f104c9757751abb88ddfa8b0875df0703bb5f91|2019-11-17|Tomáš Mančal|Update version in sphinx conf.py
+9bb0644937fede90ae6f723694cb56268dc5dcf1|2019-11-17|Tomáš Mančal|Version 0.0.51
+283c4e832153ed571015ef0ae60f6fe76b16eb8e|2019-11-17|Tomáš Mančal|Update setup.py
+ac1cde30caca36ceb001804965bd429f07a2125b|2019-11-17|Tomáš Mančal|Update of requirements, LICENSE, and comments on pavement
+30b85207cbc50214dd2a3126adf666a5729e2de9|2019-11-16|Tomáš Mančal|Fixed another problem with tests
+e2d4c87967e0fe5161912eb796544f0537fc2bac|2019-11-16|Tomáš Mančal|Fixed one of the test problems
+17bc092045aa3778c368d23bcd7f82d0ab5596cf|2019-11-16|Tomáš Mančal|qrhei driver improvement
+8ad25580a89d53679d8754c2c807eb51c824cfe7|2019-11-15|Tomáš Mančal|Improvement of the driver script
+30f206a004d09a0a0c3a1d6365112d447240f821|2019-11-14|Tomáš Mančal|Parallel logging improved
+24e01728e486e69efea1b03d728f013786115cfc|2019-11-13|tmancal74|Timing utilities added and improved logging
+6231346c1d10d1074410442a8c9f9f28e2f67d3f|2019-11-07|Tomáš Mančal|Improvement of Frenkel Exciton Hamiltonian
+12811ddf24b6211981c7f85c9dd98392e0679bfc|2019-11-07|Tomáš Mančal|Revert "Improvement of Frenkel exciton Hamiltonian"
+892af8581122394edb03ceabff6e63ab82273adb|2019-11-07|Tomáš Mančal|Improvement of Frenkel exciton Hamiltonian
+910f51ac5a5768a44ce4478bf075e12f74f51a90|2019-11-05|tmancal74|Improvement of 2D spectra calculation
+d29d5093fe6ae3e0dcd604d16a95508c68c56338|2019-10-17|tmancal74|Update of Pump probe calculation
+601de37bbf095235dd95a5d02e76c1eda5e19f51|2019-10-17|tmancal74|Update on savable
+65cc7862ca9cf9c48949b3ed40fd026c8338ccf3|2019-07-29|Tomáš Mančal|Sript updates
+09b74aba932e299efa1a2d3505c06f8ddb8f5ec9|2019-07-22|tmancal74|Small improvement of example scripts
+3d8ae2fad63ab6c7d0da1ec0eb8aebae3ae97eb1|2019-07-22|tmancal74|Starting version 0.0.50
+908b73e7d028e5b4518c30e62ccb9a810d9a787c|2019-07-22|Tomáš Mančal|Formating fix for README
+2709500ce1c201c0d45867a284c3ef242a4bb052|2019-07-22|Tomáš Mančal|Fixed README
+de7819a690936be84d6319d5a97830ece7c41faf|2019-07-22|Tomáš Mančal|QTask tool introduced; script inprovements
+d45852d0731c37cc95ebe30413f4e14cfb9d58cb|2019-07-18|Tomáš Mančal|New command line tool "qtask" introduced
+408c04da8f09b6ae4bc26c9b9a65c4b80daced14|2019-07-13|Tomáš Mančal|New qrhei subcommand "file"
+f7a2e2f6fa3cb437f18627ee6173950a0f49d0cf|2019-07-12|Tomáš Mančal|Making example 853 running again
+cc878bd5bdbd8e1c4bd2f74c8e6402406564ad66|2019-07-10|tmancal74|Qrhei script now throughs correct information on exceptions with the launched scripts
+a0f9b9413935dc50723745d49cfc9d6d8ce7ee1f|2019-06-21|tmancal74|Started version 0.0.49
+bf62b38867b246cf86daf5ab351c6f148f8bfaaf|2019-06-21|tmancal74|Adding pyyaml to requirements
+98e7c058b375e191c4d8513dd880c18a537cb409|2019-06-14|tmancal74|qrhei script can call .yaml configuration files and run the corresponding script
+db864d9880fb2adb9f5c746cd83cc4309cc72ac7|2019-06-13|tmancal74|New helper class Input to handle yaml and json conf files
+b627ce2f1a91ece8690b6336f55f73461c51bede|2019-05-09|tmancal74|Introducing disorder averaging example for simple 2D
+cea4d418cdce45e40eee6f70dd940e062cab768b|2019-05-09|tmancal74|Added shift_energy() method to TwoDSpectrum
+c269fd95a1c2e66fc86d55854648b0951809443e|2019-05-07|tmancal74|Shift of 2D spectrum using linear interpolation
+3a13e65deae8947a7cf1eae0568619c2f9b4ffbe|2019-05-03|tmancal74|Starting version 0.0.47
+081cd40a3878153fc9dac48dcccc9a2716219a1a|2019-05-03|tmancal74|Small corrections of the RC script
+88a2db48a57227cbe22fa63c7d8d6073c13c9b4a|2019-05-03|tmancal74|Failing tests of 2D fixed
+d292c4d78b0301bbeba569cc11eb9a7a19427f94|2019-04-18|tmancal74|Improvements of 2D spectra calculations - break tests
+b1bcae28bbaaa22260880153709ebdf1e61f0819|2019-04-12|tmancal74|Changes to twod container - braking tests
+be44b9fc4f3d7ce1a88611ec2b3805cd61744863|2019-04-12|tmancal74|Extensive rework of 2D - braking tests
+84a462d8504f56bb51179a2cc67949f751c09466|2019-04-08|tmancal74|Example extension
+08b2cb713aa21750f6f51294ab56c824dfc71d02|2019-04-08|Tomáš Mančal|Extension of PathwayAnalyzer
+515190d90e99dc0187039a15a70fa264a1a36c05|2019-04-08|Tomáš Mančal|pathways are returned in a dictionary
+070477a386ce7c86dd9ef21df807524d4efeae24|2019-04-08|Tomáš Mančal|Example 853 update
+ffdbb035535caa92e88b13cad469352864710afa|2019-04-05|Tomáš Mančal|Updated examples
+951093596f056616b1c0ba13451f51abcdca0e39|2019-04-04|Tomáš Mančal|Update ex_853_RC.py
+07dd10bb20309d327edf24a45caf4b3629765292|2019-04-04|tmancal74|Some new examples
+40e9a5a9ee2053992037502f43ce17187f20c1fd|2019-04-04|tmancal74|Started development of version 0.0.46
+73d6943588cbafb88ddcc2eb176453a5bb1db790|2019-04-04|tmancal74|Some new examples
+91b46fba4640887734e8bbb412e1c6a34eb618c9|2019-03-19|Tomáš Mančal|Merge pull request #106 from foxfoxfox7/spec_dens
+b6159ae9f13832cad0d7175c83c8ab9e5f74463c|2019-03-19|Kieran Fox|all sorted
+d921a2059684f21b874ae3959c2d1c01237646bd|2019-03-15|Kieran Fox|The changes to b777 and renger model
+ac91a38181ae631e8f387b968ce10c3777639ec2|2019-03-14|tmancal74|Pump-probe movies can set axes, labels, etc
+da58ae49b1cb6c97b830aff15c7d12f877c69b86|2019-03-13|tmancal74|Second requirements file was renamed to be "devel"
+13aafe14eecec8fb1fc8e56a55220f12ac52fb4e|2019-03-13|Dobran Krasa|Merge pull request #105 from dkrasa/master
+7776de1de2b26c3b89e6f455a0f6760be0d522ed|2019-03-13|Dobran Krasa|Fixed some pyvement issue on Windows
+5c578a3feb3b096b223eec4d816ec2db29e22786|2019-03-13|tmancal74|pavement.py improvement
+61224efb3227976bfc0f996d4682e84cfd4319f4|2019-03-13|tmancal74|Improved paver usage experience
+68fb6ce112740c96a0eda089a0e32ee079206b5d|2019-03-12|Dobran Krasa|Merge pull request #104 from dkrasa/master
+ad2cfa0ef7273e718ccd3db4a5af4e24bf0adc66|2019-03-12|Dobran Krasa|Finished transfer of tasks from Make to Paver
+1ac6e16a973ef317ab22f4924d2634642cff9492|2019-03-12|Dobran Krasa|Merge pull request #103 from dkrasa/master
+85649c3396a83f28e7e75e57d0556e2651a610d5|2019-03-12|Dobran Krasa|Migrated tasks from Makefile to pavement.py
+4e07b9715d71976e6a375e9df3ddf8d94851bc9d|2019-03-11|tmancal74|Small fix on pump-probe spectrum
+2d2fc720e9cecc31c14f9d407d5a45bbbf53e836|2019-03-11|tmancal74|Pump probe does not inherit from TwoDSpectrum
+aa84cbc5fbcc7c1a3a439680294484d893f956d4|2019-03-11|tmancal74|Gaussian fitting in DFunction simplified
+e19d5a54f6cf87bbea96b87b44c84cfeffeabd81|2019-03-11|tmancal74|Unused methods removed from DFunction
+bd46ad6909413ee8f14d48b5bf4e9e77a6641b5d|2019-03-11|tmancal74|Fitting moved to DFunction
+519abeaa1d51ffd6bb7b82bd5f89832e8fe47393|2019-03-08|tmancal74|Update on HEOM example
+57d9339c433ab310f186de7a1fc343835094851f|2019-03-08|tmancal74|Elementary fitting in DFunction, RWA in HEOM propagator
+f8003a7ff1e43944552094c2c87c45d0b5c62bb6|2019-03-06|Tomáš Mančal|Implementing Secular class
+d40d082777e7051f8d5f2f25b11ffa256dda7660|2019-03-05|tmancal74|Some work in secularization of relaxation tensor through inheritence
+2d9d2d78f4b4735b9743823db82b84f0df181210|2019-03-04|tmancal74|Updated .gitignore and removed a file left by tests
+b4a4197d70d0b2a3973c8c6021db1a270d3944b5|2019-03-04|tmancal74|Documentation of 0.0.45 now published
+4cdcc68e3f055c1fe6947319fd665a6f78210fc0|2019-03-04|tmancal74|Some more documention on Harmonic oscillator + FrequencyAxis issue resolved
+1aa62c1a7db4eed6bf0579230f7862b8fd86d1c1|2019-03-04|tmancal74|New example for TimeAxis and FrequencyAxis usage
+b54a4d726c4d406606f202611f5bdf5061acfff5|2019-03-01|Tomáš Mančal|Example for pump-probe spectrum added
+e1987fc19e86b91403a8b3ebeb008b3f2b076028|2019-03-01|tmancal74|Examples of pump-probe calculation included in 2D example
+fded5cbd26227c58551514a55dbbb2a0e9a6ed7d|2019-03-01|Tomáš Mančal|Update to 2D example
+fa3933caf7372721fe862cd752dccb8f87e7a90f|2019-02-28|Tomáš Mančal|Example of 2D spectrum improved
+d8c686163743a078bc6704804338fc66b51a10ad|2019-02-28|tmancal74|Working on some new examples for 2D spectra
+c9e5252d15cc8a2b552784d382baa7791e09560b|2019-02-27|tmancal74|Reorganization of examples and demos
+991d8c2682fc3dc27dbd431da9af3d580097c9d6|2019-02-27|tmancal74|Example of spectral density database added
+05234093de08261d29eba194daec77a367d9bb66|2019-02-27|tmancal74|Some new examples
+2718139053cc4be111706cce37581865730522fc|2019-02-26|tmancal74|Some more additions to TwoDSpectrum
+053ee46db1cc445760470d389fe99715599d0aca|2019-02-26|tmancal74|Some improvements of TwoDSpectrum object
+382734a29ebd9ceb6dcb103f073b232882184f13|2019-02-26|tmancal74|Added some useful functions to spectroscopy module
+0a86a3401dac474544595efcfb6fc4f76b9c9856|2019-02-23|Tomáš Mančal|Fixing Lindblad test
+0758ffaa95107666abcc0c51f2316af373f3c237|2019-02-22|tmancal74|Zero padding and trimming of a DFunction added
+e60623d96a3a797aa85f11bad6a51f97e63e81f4|2019-02-22|tmancal74|Added functionality in Liouville pathway analysis
+cc145dc2125bc2c5938979d90f18e7f3e86fa1f7|2019-02-22|tmancal74|Estimation of EvolutionSuperOperator size added to RC example
+6b3a9f43339ceee6d4178e39790e5463ebfe253a|2019-02-22|tmancal74|Small fix on EvolutionSuperOperator demo
+98226a7e955a3a41a4571a6f9ad50b55064a8b50|2019-02-21|tmancal74|AbsSpectrum made DataSaveable, extended some demos
+5ebdacb24f870a137cb4c9cdea941841dc9cb952|2019-02-21|tmancal74|Started version 0.0.45
+e10609af7be3469ee34991be86ae24c74575165c|2019-02-20|tmancal74|EvolutionSuperOperator code improved
+068adeed18bcab4d89bc0e78eb6c2fbf4ea1a222|2019-02-20|tmancal74|Problem with combining relaxation tensor and PureDephasing object fixed
+5ff52837dce5b3077f4531c121b85731e5b21313|2019-02-20|tmancal74|Code simplification in EvolutionSuperOperator
+938ff0820c9a0c25b0a0067845ad05b006f37ebe|2019-02-19|tmancal74|Hinting a bug in simultaneous Lindblad and PureDephasing propagation
+de46c9267024a87bcb2a92b0db060f01f9fc1c78|2019-02-18|tmancal74|Hunting bug in RelaxationTensor basis transformations
+97e86a63901e1545585d1d400849537a7ded71ed|2019-02-17|Tomáš Mančal|HEOM update
+a9485948f5f4390e7ed56053ef7398565e18aa51|2019-02-16|tmancal74|Tests of EvolutionSuperOperator
+1881410421000ef987784ee4ece3f26271e8e130|2019-02-16|tmancal74|Fixed a bug introduced yesterday
+7e24793b72dd448be5c25f1111f01e601324740a|2019-02-15|tmancal74|Some new tests of evolution superoperator
+76f204524fec5a17c050e458eecfae836fc6c06b|2019-02-14|tmancal74|Update of old_demos directory
+a3e14f931c5f2b8d6c095a8f6f24902d39432ed0|2019-02-14|tmancal74|Example of Foerster theory added
+6a95100051ff00365203817a2bb0c4210d94fbde|2019-02-14|tmancal74|User friendly example for Redfield theory added
+5c5d02c0210c18fad82181bbc4a415449c2284c6|2019-02-07|tmancal74|Some improvement of demos and examples
+979d71b2e3c6e1616e47571fd77afd5a2bb7b18c|2019-02-04|Tomáš Mančal|Work on HEOM rate extraction
+ec7cc46349bc11e077c2041105cfe8cce39d844d|2019-02-04|tmancal74|Testing HEOM kernel extraction
+97d114b098448de3c7850f3183111566a4a2662e|2019-02-04|Tomáš Mančal|First implementation of integration kernel extraction in HEOM
+0d7bbf660656d17b9658bec8c57a01baf672b84d|2019-02-02|Tomáš Mančal|Speeding up HEOM demo
+dac9a9510f9b73afa2ee580595d8d947099e56b7|2019-02-02|Tomáš Mančal|New example and demo (HEOM)
+1fa796c8e675f3371f2c0b6e5c9abfc8b342936d|2019-02-02|Tomáš Mančal|IntegrodiffPropagator simplified
+2eb80d5df80a7b206a1bf3201e8e4564ab476087|2019-01-31|tmancal74|Created examples for integro-differential equations
+8aca91f137e16b04b25672a409947b8f3e055ef2|2019-01-30|tmancal74|Improvements on integro-differential solvers
+44db3917571c1678a7d67ce0e81069b071003e17|2019-01-29|Tomáš Mančal|Solution of integro-differential equations of motion works
+b9078587c86e43c36184806b01ed36aac34f7e1b|2019-01-29|Tomáš Mančal|Intro in Integro-differential equations of motion
+7d8c8c19659f7a701172286da06b76c65167fc66|2019-01-29|tmancal74|Improvement on state vector propagation; Harmonic oscillar q-representation of some important states.
+5700aad1a49c7960f9de5d0a1ead7367f23e3040|2019-01-23|tmancal74|Update on RC scripts
+84e41ac8d506f9792238b3384326143a3cdccec3|2019-01-23|tmancal74|Starting version 0.0.44
+7ace17198b1504346cd34d36c5ef10b0370d0b96|2019-01-22|Tomáš Mančal|HEOM calculation works
+c1df44cc17334d48b221002f0fdb85e46510c0c8|2019-01-21|Tomáš Mančal|Small fixes in HEOM
+b507453eeb0723b3de4e89051250d94c29c59a99|2019-01-21|Tomáš Mančal|First heom propagator implementation
+43e5ccb0f96e9fddcc2e781a0ce723199810a90c|2019-01-18|Tomáš Mančal|Introduced HEOM  propagator
+5de93097f6e4307f421319f383a46a31847c3940|2019-01-18|tmancal74|HEOM class
+ab369c07b24594559f0102b200ba43df431c1819|2019-01-18|tmancal74|Started to implement HEOM
+7fd282df18bc7e0950bd385f471db1d2a8ef0e35|2019-01-16|tmancal74|Small changes to pathway analyzer
+2dfc302e868feb249e3b4605c1f1904aac023b02|2018-12-21|tmancal74|Extension of examples
+d98f49f1ca9e34793c2e2d2f281cb9e9b4d66023|2018-12-21|Tomáš Mančal|Removal of unused passages from a demo script
+d26e4086563115e088a496ff13437ba45c26ce00|2018-12-21|Tomáš Mančal|Improvements in examples
+a502e435c7abfb0f957f5bd31983e74d1461f6aa|2018-12-19|Tomáš Mančal|New example added
+2eea81c34091e6439b3cd6b83f96a6a018b7c1f7|2018-12-19|Tomáš Mančal|Improving example script output
+a3890cf9d390a777b011cc04fde348c6a4aba706|2018-12-17|Tomáš Mančal|TwoDContainer can return spectra by frequency
+d7b58dd5c2f9c80df1ee9578ec3fed7e806cbd38|2018-12-12|Tomáš Mančal|Improving print of Hamiltonian
+fdcd5c4fc1df1766fb9bc90542d8e793dbd46304|2018-12-11|tmancal74|Fixing restartable 2D calculations
+9692cf9cc11318d0711a0d3c40b23cc5a427c68c|2018-12-10|Tomáš Mančal|Improving examples
+dcbccc280bf604657b8e45fa71f23c5c1a46db02|2018-12-10|tmancal74|Hunting bugs in PureDephasing
+7c3a774ff150cfba8cccfab0c50e78bc7746ef57|2018-12-10|tmancal74|2D calculation with pure dephasing included in an example
+5a390eedd23922bd0fa919a8b9a797c7781c2819|2018-12-09|Tomáš Mančal|Fixed a problem in twodcontainer caused by offset in FFT windowing
+e0592f9d017bd91f28b27be7c237f91e46db2ef8|2018-12-07|Tomáš Mančal|Block information added to Hamiltonian (broken)
+bc22d8aae8d774d79e0d05aae57249df0716e98a|2018-12-07|tmancal74|Optional RWA in rdm propagation
+f559cd7526145dc4bb64f5fac401c7139c685198|2018-12-06|tmancal74|Fixes in 2D calculations
+8e033b1ab41d84a8c31178472366caaff38c8f3b|2018-11-14|tmancal74|Improvement on fft of 2D spectra (some tests failing)
+fd2ddd8f325339c856875bdbc5117550bba8207b|2018-11-12|tmancal74|ElectronicPureDephasing introduced
+8253bc2be1f702a1dd84a6d9a391eceecc2c045c|2018-11-08|tmancal74|Test for dephasing in EvolutionSuperOperator extended
+728b984c9df4af5640524cca5530c02e4d9fe5d2|2018-11-08|tmancal74|Pure dephasing in EvolutionSuperOperator
+71b9698fe7f0cc216dd4a7f755292dcb4b60aa96|2018-11-06|tmancal74|First steps in implementing additional pure dephasing
+24faf03e6aea74977017420a6961a2bb09c6bb59|2018-11-02|tmancal74|Small improvements on an example calculation
+911b51b69c1a037d030ea0ce85b2c1ad1fb62632|2018-11-01|tmancal74|Starting version 0.0.43
+823d62ebb11ad30fa10ba9476023997fc2505765|2018-11-01|tmancal74|Fixed a small lineshape problem
+44f7dff103ab97aecc2ba35f1df7a7b49f984959|2018-10-31|Tomáš Mančal|Small fix in 2D lineshape calculations
+04911eab1352baba26d572d5c0fc3e2c483a6944|2018-10-31|Tomáš Mančal|Work on 2D lineshapes
+302c94dcc57ccfcec90c69211d549c383b7dea74|2018-10-31|tmancal74|Reorganization of 2D spectra files
+53b0d179a54963b2a4c931ff38e4575d9483bd7f|2018-10-31|tmancal74|New lineshape definitions for 1D and 2D spectra
+2c111f1d9444ed1ddff554801a100bce1c923402|2018-10-29|tmancal74|Enhanced effective absorption spectra calculations
+8a0da0d4859855a45d5bbfa3e26e639be99ad935|2018-10-27|Tomáš Mančal|Fixed tests after changes to AbsSpectrumCalculator
+abc9d02958408e1da7177e9403d1bf5c2e81bda4|2018-10-27|Tomáš Mančal|Normalized lineshapes in effective 2D spectrum calculation
+1acd6955cdf72aea4e8f0e13899081e8497ee9f4|2018-10-26|tmancal74|A switch in the abs spectrum calculation
+8f05d2b9ca97e73d643180584ae7be002836feea|2018-10-24|tmancal74|Some fixes on absorption spectrum calculations
+af3bef4c1e30f2a4b9cd6afec092e1ecf5555dac|2018-10-23|Tomáš Mančal|Small update of documentation
+f481c07327db545fab5cb2599b1f36bb55d19b89|2018-10-22|tmancal74|Initialized version 0.0.42
+d29f3f82ed989744f77029b76ca8cebc10d0dcea|2018-10-22|tmancal74|Some more pathway analyzing tools
+077934a66980ee449be3e5dae434c19f94e9a964|2018-10-19|tmancal74|Changing into version 0.0.41
+6bb9d2e9692c25b353696dac0229d15870d7ee97|2018-10-10|tmancal74|Fixes for new type of iterative 2D calculations
+1f703f4a10840db222e3abc748625e7cafeb81f3|2018-08-24|tmancal74|Finishing version 0.0.39
+5edb91baf4b17b55cd3d2b219ab81ef9ba4abcac|2018-08-20|tmancal74|Changing examples from h5py to dill pickles
+3d35750881dc503d1715890b074997af54ba77bb|2018-08-20|Tomáš Mančal|Merge pull request #96 from dkrasa/superoperators
+23e531f86b61a1b6bde279b05b3247d3f3e47a10|2018-08-20|tmancal74|Removed dependency on h5py library
+5159c6432979aee1eed715993c61bdce71370429|2018-08-20|tmancal74|Dill as a dependency in requirements
+c2ddefea61cba129422bac4e9cf57c83454a6baa|2018-08-15|tmancal74|New saving scheme using dill tested (functions load_parcel and save_parcel)
+2d2ad963d9fdcc54926319df823e8c0e6ed35e44|2018-08-15|tmancal74|TwoDSpectra plots improved; new methods of binary saving introduced
+d59ef22b83093c8351930a1fc8f4bdf5618b9f32|2018-06-26|tmancal74|No contour warning in plotting absolute value 2D spectra fixed
+b5ae0c09bf9d7bfe35a8c630ec33849dde599929|2018-06-26|tmancal74|Starting work on version 0.0.39
+e5229c426cc646d43597a45a75ea2ffd3793a22c|2018-08-02|Tomáš Mančal|Extending examples
+4c79c8c65a73b4e94aa41304ff14bb7f1c19630b|2018-06-26|tmancal74|Updating setup
+7df600d7cad9b9ca99234cba5409b2a66cbd2bee|2018-06-26|tmancal74|Small fixes and quick switch to 0.0.37
+f4c2efb3606210f7ef221d53b3c3574429df246b|2018-06-25|tmancal74|Finalising prerelease of 0.0.36
+f37505b995233912d6d5cf602510137b92431623|2018-06-25|tmancal74|New sub-module `functions` introduced; minor bugs fixed in TwoDSpectrum and its container
+ea574c0610a993cfade629901cf434644dad4dcf|2018-06-21|tmancal74|Some operations on 2D spectra; TwoDSpectrum container fft of total spectrum
+e3c88f089064e5b73c09825ac07d072d16e764f1|2018-06-20|tmancal74|trimming of TwoDSpectra repaired
+ab12503ebd3305e8cfea76e54e1e605b947ffb98|2018-06-20|tmancal74|TwoDSpectrum with new storage model can be plotted
+c1f6abd110171412256eb28dae7f1a9dd255f6c1|2018-06-20|tmancal74|EvolutionSuperOperator tested and calculation speed increased
+4874ba98a2673cda06200ddc70e9040a951065a3|2018-06-19|Dobran Krasa|Modified CI testing environment
+bbfced17a88d4025b94befd58db88d7f9c1b421c|2018-06-19|Tomáš Mančal|Merge pull request #95 from dkrasa/superoperators
+b9846109474421d67b18caeca2f8b09d6e386213|2018-06-19|Dobran Krasa|Implemented new tests of reduced density matrix propagators
+e067dcc6f0e542d1577dae2bf4f8598d00a726f0|2018-06-19|Dobran Krasa|Merge branch 'master' into superoperators
+d567c1944307e3d724f07efbd6ae19abab6d240f|2018-06-19|Dobran Krasa|Improvements on Secular class
+abb96ba192882d31fb50ed8992745b59a949678e|2018-06-19|tmancal74|Improvements on EvolutionSuperOperator (method: apply())
+1fb4f9d033996c39192b1b746d7dab89f8458b8b|2018-06-18|tmancal74|Extended apply() method of EvolutionSuperOperator
+fd9e5d8f73cc3e544207de9e69d742710ef20009|2018-06-18|tmancal74|Class Secular introduced
+ba113aa34b1a1485dd3f26cfbd0ad5d0437e6c59|2018-06-18|tmancal74|All modes of storage in TwoDSpectrum tested
+0aa6ceb65914305da76fa1bf5c02998e4d068a5f|2018-06-18|Tomáš Mančal|Merge pull request #93 from dkrasa/superoperators
+1b07af5bc1c669aa4074dc82905165712ef4dc24|2018-06-18|Dobran Krasa|White space which broke tests removed
+f50677a9ca1e4653f29e77e0b0a7b89f1af256bf|2018-06-18|Dobran Krasa|Small fixes in tests
+93fbd4d96773218a379e787ee7ff6ec4ad66a3ec|2018-06-18|Dobran Krasa|Evolution superoperator tested for calculation in different basis
+0c724140ee1137b7e6903d7b06f18460c9572414|2018-06-15|Dobran Krasa|Merge branch 'master' into superoperators
+05a5a51b10f1719280e743194a8e2dde99635ea6|2018-06-14|tmancal74|TwoDStorage conversion tests
+7b174a0c376530e09047793be84a94f82048237e|2018-06-14|tmancal74|Saving as pathways and retrieving in all thinkable way is tested for TwoDSpectrum
+76fa860301d7bf25dc8a63360ce156ae30a2f62d|2018-06-13|tmancal74|Various data retrieval modes tested for TwoDSpectrum
+57d5d4bb1b8165d6e98c4a6b0d0b08c500ea32ab|2018-06-12|tmancal74|Storage in TwoDSpectrum works in two storage resolutions
+c27bcf131d218e27fa93120c2f15d66d8f3b8812|2018-06-11|Tomáš Mančal|Initial work on TwoDSpectrum testing suit
+dafe4981c80dc5bdeba9e634b059df705acd6850|2018-06-09|Tomáš Mančal|First step to rewrite storage of TwoDSpectrum data
+5549fcb12c9decc2227f513b56e66581aa42065e|2018-06-08|tmancal74|Windowing capability added to TwoDSpectrumContainer FFT
+7cd67363049abf128c56960446bb19e146d9f428|2018-06-08|Dobran Krasa|Merge branch 'master' into superoperators
+eed0f586eb406e85527067672e8b9cf2603a54c8|2018-06-08|tmancal74|TwoDSpectrumContainer can be FFTed
+4c8eabf4fabef251f4ddc674ef5c223d76607f24|2018-06-08|tmancal74|First steps towards fully tested FFT on TwoDSpectrumContainer
+2237ef0f2aff845181382d4a23bbca730492da2d|2018-06-07|tmancal74|Data for fft testing in TwoDSpectrum container
+5a7e73ea1e03f4d5dc080cfe7e2167f778ca0a44|2018-06-07|tmancal74|Added behave into test suite; FFT tests on TwoDSpectrumContainer
+f79d14eb328cd19f0672312e7a07a77c3fb1dc16|2018-06-07|tmancal74|TwoDSpectrumContainer can now handle indexing by strings
+a644c612ebe18b9d52afc8796352782c6a16fbb8|2018-06-07|tmancal74|Behave package added to requirements for testing
+662493db155d22f94e8f1320461e591207cccda7|2018-06-07|tmancal74|TwoDSpectrumContainer can be indexed by integer, ValueAxis, TimeAxis, FrequencyAxis
+2c467aafe0d482f29a36be2b02a4977b1556c8eb|2018-06-07|tmancal74|First scenario for TwoDSpectrumContainer passes
+d626b6f689c73346c3225485362f76f61d00f0c2|2018-06-07|tmancal74|TwoDSpectrumContainer gets its own module
+e003c90f5dca351ab020cd53e4da07c072725608|2018-06-07|tmancal74|Package reorganization
+24ebf819c8848c79a8c9875389cf0215a488b7ea|2018-06-07|tmancal74|qrhei fetch command works
+55c16d1fc84d4eb233a289d7fbd64a533a808252|2018-06-07|Tomáš Mančal|Initial work on qrhei fetch command
+67a1c4f06fb42e9c61f1e8da49083265abaad75b|2018-06-06|Tomáš Mančal|Failing imports fixed
+7f18566eab96c910e3cb336c0c09ab89c1fc5382|2018-06-06|tmancal74|Started on qrhei script tests
+8b002134ffdd9e0ecb03fed3b68e95d1285290c0|2018-06-06|tmancal74|Future warnings from h5py package suppressed
+c027b3ff3bc0cfa5e98d97b050e2297090f14a52|2018-06-06|tmancal74|Reorganization of the test subpackage
+4b08628f226e61575745b42af57d000bef49b355|2018-06-06|tmancal74|matplotlib tests moved under the tests suit
+41f6511d49a9f5bf6ce176a98e440227f6d7c334|2018-06-06|Tomáš Mančal|Test resources directory and data established
+4dabf125232f0a8e3e8990091f5c36fa1bc323a3|2018-06-06|Tomáš Mančal|library for behave tests cleanded up and a bug fixed
+750f710986937466118e7626f39b576fc7d6c2c6|2018-06-05|tmancal74|Improvements on ghenerate and testing library
+e6a883f796dbfd4fed097af457ec56b87af067b9|2018-06-05|tmancal74|Tests of ghenerate script fixed
+becb82d1849500a5d8de4cb55182437bb12839cc|2018-06-04|tmancal74|Tests on the ghenerate script
+f127c023a4b66327113ef39a5f05829333f9c5c5|2018-06-04|tmancal74|Ghenerate tool works as desired
+8408e4d88bd3bc09c1a9a63ac46865d739b20a84|2018-06-02|Tomáš Mančal|Autogeneration of step files from feature files
+7b7da8a838d10380090435961b707c6e5f1e2e74|2018-06-01|Tomáš Mančal|Merge pull request #92 from dkrasa/superoperators
+c22153f853eae78a53a5cdcb92792153e16635fd|2018-06-01|Dobran Krasa|Merge branch 'master' into superoperators
+a594f74e29c64997962da06def02f13772108266|2018-06-01|Dobran Krasa|Corrected a typo in Makefile
+b099e76a974c4ee358bc0fd11521f4758f2cca40|2018-06-01|tmancal74|Proposal for a behave compatible generator of steps from gherkin
+9fcfce5d6737bbcb20d08f3a58fc3b12c243e055|2018-06-01|tmancal74|Evolution super operator transformations tested
+7362c01e38ff459e63dba9d4c64395e381dd94a7|2018-06-01|Tomáš Mančal|Merge pull request #91 from dkrasa/superoperators
+0e2ff6c81699f6620376d4083e9cca8c2a2e8fce|2018-06-01|Dobran Krasa|Removed unnecessary tests which caused troubles between different machines
+c2c01f500c545073753a352588487520d2c138b0|2018-06-01|Dobran Krasa|Attempt to force CI server to run tests with a prescibed version of numpy
+7259c3f4b8614b3ee3165cea68e4733ac827d1fb|2018-06-01|Dobran Krasa|Some more formatting fixed
+46dd77705d58cde726445b626364a8ec667eea5f|2018-06-01|Tomáš Mančal|Merge branch 'master' of https://github.com/tmancal74/quantarhei
+d7b463b7ed4462f7b9e13aafaef42a9001bcd2b9|2018-06-01|Tomáš Mančal|added directory for testing `behave` package as a possible replacement for aloe
+62d7163dfc39e6992d81803961b85849cb93b37d|2018-06-01|Dobran Krasa|Fixed formating of the output in exciton_report()
+10108a729a1c4bf31b56faaf71f85d483a5f0510|2018-05-31|Dobran Krasa|SuperOperator relations fixed
+c305102eecb785f940d027158afb3d8a370bd297|2018-05-31|Dobran Krasa|Inheritance fixed between SuperOperator and RelaxationTensor
+183a1780a2712749db37c1d6ac0ad51bae9b0fc2|2018-05-31|Dobran Krasa|SuperOperator now implements transform() method
+a5f8309fb41731749018bb7b6eb39f880a11361c|2018-05-31|Tomáš Mančal|Merge pull request #90 from dkrasa/git_workflow
+2009c57806cea29e29a3deffc84250abf7adbbea|2018-05-30|Tomáš Mančal|Small extension of the theory file
+12c467f2ba1744d3c71846f7ddc6ee4971e876fd|2018-05-30|tmancal74|Documentation on theory extended
+dea49a326090417ad6766aab88b4af5bc71d2158|2018-05-30|tmancal74|Removing badges from documentation
+c2810da18960a9dd8f7a2f9fa4f28c6437a69bb9|2018-05-30|tmancal74|More documentation of "user level classes", attempt to fix pretty printing with numpy
+7b6b6601e514a2f8cb28eb07c1d6aae262377c26|2018-05-29|tmancal74|EvolutionSuperOperator class documented and tested
+79ebecdf04a26e22cfd666e1f66d03fdb32d2d65|2018-05-29|tmancal74|Test suit main script cleaned up
+b6284fb5000fd76d71e56ebf69f6bf9a5cabdef8|2018-05-24|tmancal74|Work on Superoperators
+5a7a4848b2e6799e7cda0363aa3d8e83ca8c9b8b|2018-05-24|Dobran Krasa|Merge branch 'master' into git_workflow
+3e16192e1d9762bbdc49541dd87eedbfa71b2650|2018-05-24|Dobran Krasa|Update on Github workflow documentation
+4557fdb2742967247dfd13dbd8ba5800655541e0|2018-05-24|Tomáš Mančal|Merge pull request #89 from dkrasa/git_workflow
+786d3aa4d99e7d61b4a2e3f121a72f1660c73b42|2018-05-24|Dobran Krasa| Slight improvement of git handling tasks
+3ca574d64f7615f9384b535d45dcc1cd2428d86d|2018-05-24|Dobran Krasa|Merge remote-tracking branch 'upstream/master'
+f3a074323c30046ed3ecd183fbc14bae15afde16|2018-05-24|tmancal74|Contribution guidelines finished
+6b40ba425eb5f15c06a51d2123cb9ef1e9b0ac8a|2018-05-24|tmancal74|Documentation on how to contribute extended
+d038d4709174a48cc64d69bb87aebb583192d261|2018-05-24|Dobran Krasa|Changed task names for Git management
+af555fb26c13d6c209f451cbcaa8684494f2428f|2018-05-24|tmancal74|Updated installation and contribution instructions
+e1b711394588d4e38d8eaa008fc19aec50dff85a|2018-05-23|Tomáš Mančal|Reverting some test files from previous commit
+e4d46ef6a0268983129693d94a2edd1a221657ad|2018-05-23|Tomáš Mančal|Merge pull request #88 from dkrasa/master
+a86e6a219af9af4b97e3b3bb1a432762f1a93e7d|2018-05-23|Dobran Krása|Test 3
+2f4a49f199fcd4acbf6a5d7d1c0b97bb274151a8|2018-05-23|Dobran Krása|Test 3
+0c309f01afa671da9bac1abb92ebbc20bf8c149d|2018-05-23|Dobran Krása|Small test 2
+c6dcec79f07847c6c9efe86ca6dbcb46b3db565d|2018-05-23|Dobran Krása|Small test
+bdd56105b3b530e05b99aac26317bb4d4e977e1a|2018-05-23|Tomáš Mančal|Merge remote-tracking branch 'upstream/master' Updated from the original Quantarhei repository
+ac64fc4c7ff6045fae4f19850e00cec865ff1315|2018-05-23|Tomáš Mančal|Copied in the Makefile from tmancal74
+7606df7eb4f77d13be7410d0f381ae898d16cf15|2018-05-23|tmancal74|LabSetup Fourier transform conversions implemented
+5ad7435c28f7da95b129ce78d82a5d2d7de0cdf7|2018-05-23|tmancal74|Small bug in DFunction fixed
+3cb7f0c12c8af8bc569ba625293d37a323a0dd0c|2018-05-23|tmancal74|numpydoc included with documentation
+e86bd085238fe2081da50ca812d656ac22ff3822|2018-05-23|tmancal74|LabSetup class extended
+1c74418791ff8bb7795d6376de45db6829bbaa8b|2018-05-22|tmancal74|Issue #87 with DFunction fixed; new LabSetup functions
+e3aa1b9a8c17f15852ca299f83c4d719d8a5b50a|2018-05-22|Tomáš Mančal|Code of conduct created
+5c45a9a7c68e9e921b9436630fb2948a1d19e94b|2018-05-21|Tomáš Mančal|Update documentation
+bf8b3b964eccb87b349d5b9cff338f7117407a94|2018-05-21|Tomáš Mančal|Documentation of Quantarhei philosophy
+3fe69b711d2ad2896426a99424710cb0e22a1e52|2018-05-21|tmancal74|Introducing QEP (QEP-1)
+f97228e82ca35efd3a2048e57469ae9b1236a210|2018-05-20|Tomáš Mančal|Documentation extended
+4f491faf64249283406fe17f1effa44e2648d6bc|2018-05-19|Tomáš Mančal|Installation instructions documented
+e05c20b2f5f6762d104b75842aff87dd8ec101df|2018-05-18|tmancal74|Format of the driver script `qrhei` changes
+f4631b3f9fc8209d93ce1fd8ffd81bb046da8492|2018-05-17|Tomáš Mančal|Extended installation documentation
+005674138915ed53625ce3157da2193705cfa741|2018-05-17|Tomáš Mančal|Doc tests fixed to accept numpy 1.14 new print_options
+4aebf0d41c9767efb0ec04f36370311515974cc0|2018-05-17|tmancal74|Fixing doc tests after software update
+ce48ed1dba605f7080cdc0010764d920d26ab100|2018-05-17|tmancal74|Updated documentation
+650838371a010d3e367f97056fd9d5df905a06fa|2018-05-17|Tomáš Mančal|Travis conf once more
+1f20f67b25f70bd769336b816e888c40bdf19b90|2018-05-16|Tomáš Mančal|Fixing travis configuration
+e88d4fade0d11dbe25fce31417255305acbfadc4|2018-05-15|tmancal74|Absorption spectra reorganized, some work of 2D spectra docs
+17e738e1321822c1fd5fcb7ca424c829c1715431|2018-05-15|tmancal74|Documentation extended
+162cd57110e7b76ce1447a96dabc15ebd839be4c|2018-05-14|tmancal74|Documentation  extended, installation documentation started
+41f87abafbe61b1cb679197e4f3eaac0f979f351|2018-05-14|tmancal74|Documentation updated
+91c7f79b520e57899726716756a28461f479c63a|2018-05-11|tmancal74|Improving documentation
+220dfc2d7fa8a7e0bae17e3ee7dbad186c055fc1|2018-05-11|Tomáš Mančal|Merge pull request #86 from tmancal74/add-license-1
+0e6cfb5aca87d1595621d7b9f6e8253c1eb6f505|2018-05-11|Tomáš Mančal|Adding license file
+fb4703b2670a9042e63d475e6ee9d1ae76a31bd0|2018-05-11|tmancal74|Reorganization of documentation
+551376b6798204107407c53e877c353b19e5ab95|2018-05-11|tmancal74|Added terminaltables to requirements.txt
+706cfa7865266f0921eb160e0a5c0a041a9df24a|2018-05-11|tmancal74|Some more tests and improvement of documentation
+0dab7fb8055e837e4fddfcba6161b5f29b7f7ac4|2018-05-11|tmancal74|Started version 0.0.36
+fecb4bd87ab120c1e13dae654c99a64986ebb0b6|2018-05-11|tmancal74|Fineshed version 0.0.35 for release
+2bb7a154441964ac309d69ee5b1caa388a13f7fe|2018-05-10|Tomáš Mančal|Update of dpcumentation
+ee40561589b87c07e1725b6f30ab9a6eedcc7985|2018-05-10|Tomáš Mančal|Fixing travis
+71bf5a12fcc416e1f7f2413baa32c4a67584286c|2018-05-10|Tomáš Mančal|Fixing requirments
+98067162c3a7ed38d23a856c6c04524e5797f973|2018-05-10|Tomáš Mančal|Fixing travis conf
+a395891ef182101548bffaf606bc9d0bbfc5fdc3|2018-05-10|Tomáš Mančal|Update of testing
+08efcc7c76a4dabf0378f22b1e46896643426102|2018-05-10|tmancal74|Added codecov to travis conf
+11869888b17d0d841439154218819af3ff35f3f5|2018-05-10|tmancal74|Including coverage badge
+75345aa2b09a4dfcda1f1b65d381cae698553b52|2018-05-09|tmancal74|Build status fixed
+8975e467e67e417eae49fcfb40ad558f34f5c24b|2018-05-09|tmancal74|Build status added to README
+f16c1d4bec337c46edafb7074de3cbc9e8b55533|2018-05-09|tmancal74|Added aloe to dependencies for travis CI
+48585a091bbfd501bf602beec133c4b6ab7abea4|2018-05-09|tmancal74|Removing matplotlib tests from travis CI
+c05ffd123bfad2003eb3f03b4842aa1881a9ae69|2018-05-09|tmancal74|Removing matplotlib tests from travis CI
+ff14bea35b8de858c87ad6a8ac758ebc3def0aa7|2018-05-09|tmancal74|Updating travis CI configuration
+877e04864dfcb5fc4d7efd340cb1f7ef1573f37e|2018-05-09|tmancal74|Installation of dependencies for travis CI
+3bdafd117a614250b375ba7adc77afdeb47ad9db|2018-05-09|tmancal74|More packages to install for travis
+5f20f8d96b90cfef81ad18146d7a25a76efdf757|2018-05-09|tmancal74|Specifying python version and installing paver in travis
+b56178d7e301e348cbf424e1c39accfabc405c85|2018-05-09|tmancal74|adding paver call to travis
+784826a7c239e5d35829c0c456a7613516e0ca05|2018-05-09|tmancal74|Adding travis conf file
+5b549c4f5412b87befc375f423f4c9de22255107|2018-05-09|tmancal74|Doc build status moved
+6c0d02b8233904732c15d53d62ea48257908e75e|2018-05-09|Tomáš Mančal|Merge pull request #85 from tmancal74/redfield_with_vibrations
+7cd019b0f8a72e9df79abd8a4d8767e0c1ebec04|2018-05-09|tmancal74|Doc build status added to README
+1cddf63d06de836939cafe1b81000616062b1b53|2018-05-09|Tomáš Mančal|Merge pull request #84 from tmancal74/redfield_with_vibrations
+d28c59a8cfe4329d055db0b7c7b209a4f3f5a86b|2018-05-09|tmancal74|Improved documentation
+346126333513026a7b425ee1f5a11ef8a4a33513|2018-05-09|tmancal74|Merge branch 'master' into redfield_with_vibrations
+0a6d4973eb91901b64a7af0fd11293e74aba4709|2018-05-09|Tomáš Mančal|Merge pull request #83 from tmancal74/redfield_with_vibrations
+4715f4cd4c100b17842d26070d9c49fdf4b5d027|2018-05-09|tmancal74|Removed ignored files
+49048718af068e0b331dde17f375b691442aa675|2018-05-09|tmancal74|Removing built part of sphinx documentation
+02acb57b1f99a4e17127138d0d197f4da0562020|2018-05-09|tmancal74|Improving documentation
+eb421da75c976ff6a63409d9029a2babf1a958c0|2018-05-09|tmancal74|Merge branch 'master' into redfield_with_vibrations
+dbd0af8e61be0ba9731f7edf1192e0c17bb976d6|2018-05-09|Tomáš Mančal|Merge pull request #82 from tmancal74/redfield_with_vibrations
+5560a7b5b2116e1c713fbc1a13492cc13befbb55|2018-05-09|tmancal74|Merge branch 'master' into redfield_with_vibrations
+95e45b47fd7684a595e7358b70ce9238bea6730d|2018-05-09|tmancal74|Merge remote-tracking branch 'origin/redfield_with_vibrations' into redfield_with_vibrations
+08291eb8936eb9cdb954c33c034f6425ba5e2ded|2018-05-09|tmancal74|Removing unwanted file
+3ede7dba65afc2cf79e56415d5bcc43f95f9b439|2018-05-09|tmancal74|Merge remote-tracking branch 'origin/master'
+054be699a91a0fe0313072d0518429ac17f9aedf|2018-05-09|tmancal74|Merge remote-tracking branch 'origin/redfield_with_vibrations' into redfield_with_vibrations
+b1ca803b5a937ef16d661bdeeb06f3118497a826|2018-05-09|tmancal74|Merge remote-tracking branch 'origin/redfield_with_vibrations' into redfield_with_vibrations
+1d42604ba232c6fb3f43680410d9340ff3075fad|2018-05-09|tmancal74|Removal of an unwanted file from history
+61b29aae98b2b60a5c8a5a0d374d3c9efd6ad0cc|2018-05-09|Tomáš Mančal|Removing helper directory
+bc4f3b83d29ee2cde9431cb4e7cf9d5a7a55b9c2|2018-05-09|Tomáš Mančal|Removing helper directory
+62405ff4cb8cae04e4b758ca56fad6fdbae01395|2018-05-09|Tomáš Mančal|Removing helper directory
+8fd5826ae023e4bdc85a94fb27145054aeac658f|2018-05-09|Tomáš Mančal|Documentation improvement
+d95e6012e3c337dd253c6aecec48cf96d887b21f|2018-05-09|Tomáš Mančal|Documentation improvement
+dbea8dcb72026f208186d636a08f01c82cc19382|2018-05-09|Tomáš Mančal|Documentation improvement
+5a281664d9bb1263166da3a757b292430b005840|2018-05-07|tmancal74|Merge remote-tracking branch 'origin/master'
+29a1cfcc32be9257e49307b3b26575a2fe25ad06|2018-05-07|tmancal74|Merge remote-tracking branch 'origin/master'
+f72ae97d53bd64f07ff7da7a9030d049a07521d7|2018-05-07|tmancal74|Docs
+a7cad228eb9e252724cbef8b7587b8abdc600c81|2018-05-07|tmancal74|Docs
+dbecd4c80cf5311b52822100cb3c15dd62629bcf|2018-05-07|tmancal74|Merge branch 'master' into redfield_with_vibrations
+39ef5891e4e0a92ef4d1acb9b7bc76ff309c99b2|2018-05-07|tmancal74|Merge branch 'master' into redfield_with_vibrations
+5b0f85f7504b1353be70e8f0a685848fe12aee26|2018-05-07|tmancal74|Merge branch 'master' into redfield_with_vibrations
+2dc4c3d1cb75e4d812dd687f53f86e8162f09333|2018-05-07|tmancal74|Merge remote-tracking branch 'origin/master'
+5bd60ccfc57c80ef10c09bc3867a905d123af4c9|2018-05-07|tmancal74|Merge remote-tracking branch 'origin/master'
+20df72a1df2a57b2072ef9972355f3aa19791ea8|2018-05-07|tmancal74|Merge remote-tracking branch 'origin/master'
+e4663377a627508175e8babcb696d7a82b92c093|2018-05-07|tmancal74|Removing unwanted file
+6208ad8cc55f2ddc8a81cc7283ec35ff207083a3|2018-05-07|tmancal74|Removing unwanted file
+10d1edfdf00c8d0fe7b71ae7059aba0033fb94c9|2018-05-07|Tomáš Mančal|Merge pull request #81 from tmancal74/redfield_with_vibrations
+7c5a5ce4d6a0284a3dd14498a3e12caeaec0991e|2018-05-07|Tomáš Mančal|Merge pull request #81 from tmancal74/redfield_with_vibrations
+9f178323cdc132e7a9141c2196912c2b544d82f0|2018-05-07|tmancal74|Small changes to documentation
+97585f2ecb35ba7e7b8cf1eb0e63ab17282ff3e3|2018-05-07|tmancal74|Small changes to documentation
+70f955a3a693103466d38f2228bcd152318c99a9|2018-05-07|tmancal74|Small changes to documentation
+8c668200a4d1b4906f8d176fed27e594aefa6f72|2018-05-07|tmancal74|Merge branch 'master' into redfield_with_vibrations
+3f6744bd880813b0c346e7061abf3959cf4bd56e|2018-05-07|tmancal74|Merge branch 'master' into redfield_with_vibrations
+cb010ed8c226cfb35c20524eb54c5cd823243174|2018-05-07|Tomáš Mančal|Some improvements on tests
+dad8ad65a35e0004dae1435869fd645660cec657|2018-05-07|Tomáš Mančal|Some improvements on tests
+d50eae99d07ce654b37017ba9cc8b5215ced7ec5|2018-05-07|Tomáš Mančal|Merge pull request #80 from tmancal74/redfield_with_vibrations
+1a2af13be5e9d53eb00de6cfd5d46d304cabf6ba|2018-05-07|Tomáš Mančal|Merge pull request #80 from tmancal74/redfield_with_vibrations
+0ea9dd597996a34231072f0f3d50efd58517ff88|2018-05-07|Tomáš Mančal|New tests for Aggregate
+a8c9a9ffa3ba8328ed0f8fd3b164b25c73cfb525|2018-05-07|Tomáš Mančal|New tests for Aggregate
+a2fa802d6a3f5b6724bbed6a9d25537aa37a3f94|2018-05-07|Tomáš Mančal|Improved Aggregate testing
+79b9831f7247b4beccb61e1860ba43dc577ba3d6|2018-05-07|Tomáš Mančal|Improved Aggregate testing
+5a92115b14981363d0fe7addfea9baf60eb97ce4|2018-05-04|Tomáš Mančal|Merge pull request #79 from tmancal74/redfield_with_vibrations
+24a59174cb2936a5e0b46ce9f8072a747581a0fa|2018-05-04|tmancal74|Removing an unwanted file
+6f5c392a3a9357bfe99a46f9d1404393db9c880e|2018-05-04|tmancal74|Merge branch 'master' into redfield_with_vibrations
+ff675d69c3c71ed99b4baf7c03d41a2aca0721d2|2018-05-04|Tomáš Mančal|Merge pull request #78 from tmancal74/redfield_with_vibrations
+3a75b5f55d2c62172e838f2ae0532cb3eacdd6e6|2018-05-04|tmancal74|Improvements of get_DensityMatrix method of Aggregates
+57c61981148e71bd71cede435926bf3f7b2b38b8|2018-05-03|tmancal74|Improving get_DensityMatrix() of Aggregate (partial)
+77072214415e56fd227a4d0265f20a5eb02d4003|2018-04-24|tmancal74|Merge branch 'master' into redfield_with_vibrations
+6ed5cecd6bddf47939653bfb535bdd423036c162|2018-04-24|Tomáš Mančal|Merge pull request #77 from TNot/master
+035bbbaf2cfb0e06464e66800ac2cb1e27fe1572|2018-04-19|TNot|Merge pull request #1 from TNot/Linear_spectroscopy_calculations_added
+8235cb70358a40b094030c9d9f936899c2a04916|2018-04-19|Johan|Linear spectroscopy calculations added
+77f09be241e2a8e7113796071301c0f1a226a92c|2018-04-19|tmancal74|Merge branch 'master' into redfield_with_vibrations
+9318694061e42a8f976b56f8616d46588b27b1f4|2018-04-17|tmancal74|Introducing "lousy" selection of spectra from TwoDSpectrumContainer
+506efe53c3a2c703e0b99468460fdb3b57d271cb|2018-04-16|tmancal74|Minor commit
+02736ce72c752dd591f947480a16ea3b4d426ba4|2018-04-16|Tomáš Mančal|trimall_to of 2D spectrum containeru fixed
+2166fdb58d8f06a3400b23ed22de7ec8a1fb0230|2018-04-12|tmancal74|Twod movies and preparation for t2 maps
+bf6d3e8367231ba18108198077b17df0610e6d74|2018-04-11|Tomáš Mančal|Corrected tests for Lindblad
+f81d6ac989e785d7c759959e5a2b79a20ee67dfb|2018-04-11|tmancal74|Generation of ground state Liouville pathway phase corrected
+49b02cd84b8247a98e990e10110d7622f8e15aec|2018-04-11|Tomáš Mančal|Tests for Lindblad extended
+837698397d298cd0ca0cb6b4392e543ab2d55cad|2018-04-11|Tomáš Mančal|Improved tests on Lindblad
+8206f9a2a0e03a3e610aa9b4dbf5bae91efb4cd5|2018-04-10|Tomáš Mančal|Extension of Lindblad Tests
+3c1f7621e841e33e1caea871fe78afe21e459efe|2018-04-10|tmancal74|Introducing secular approximation to pathway analyzer
+f4b25689109fbf74c122497d423778002e8efe08|2018-04-09|tmancal74|Added secular approximation to pathway selection
+4c4ce439b27bbc86748f70e911fce0b7de5ba08b|2018-04-06|tmancal74|Redfield matrix implementation found correct
+d6bf17e48fd53969e8c54fe805178fc1d6029e04|2018-04-06|tmancal74|Testing RedfieldMatrix
+e2c74e1fd7214d4f7f6fe616a8194c54c2c47b74|2018-04-06|Tomáš Mančal|Merge pull request #76 from tmancal74/redfield_with_vibrations
+93c65236633e1b8d90aa6c20f744100b5a341e53|2018-04-06|tmancal74|Merge branch 'master' into redfield_with_vibrations
+9114762f5c63d625f57648deee9a204156a0ec64|2018-04-06|tmancal74|Staring version 0.0.35
+5d584c6684c6dd2e642cf55c58cb8f1677391a9c|2018-04-06|tmancal74|New reporting on excitons
+6db2ffd952b9f38fdd21048dd3f968bbaf1659c3|2018-04-06|tmancal74|Starting version 0.0.35
+590208a8b6444a498f98cac1b7f99767106084e7|2018-02-27|tmancal74|Tests of evolution superoperator
+2d2d12e819d83d959edd771ba87560b2fde0cf24|2018-02-26|Tomáš Mančal|Evolution superoperator fixed
+28de070e186ebfd73a6179f86d12bb1ce432987a|2018-02-16|tmancal74|Minor changes to evolution soperoperator
+4cf0e16ce34219ea561251bba284a1ae812cc4e8|2018-02-15|tmancal74|Aggregate verbose about diagonalizing when asked for liouville pathways
+a38b4dd33657aa9472872902bc92a51a13256aa0|2018-02-15|tmancal74|Avoid repeated diagonalization
+a62911966524552b4fbb8da1ef2fb763e30d8a5e|2018-02-13|tmancal74|Experiments with saving figure
+913e3eeb05d5e9abbddc23b831d0f7675f558dd5|2018-01-19|tmancal74|Fixed usage of qrconf.py file; introduced legacy calculation of Lindblad
+00a2477ee977bed91ac4ad6d9fe49a77c54d4e38|2018-01-19|tmancal74|Fixing documentation in rdmpropagator
+78169759430b2d41ead5879287bc04c565e2e4c0|2018-01-19|Dobran Krása|Merge remote-tracking branch 'upstream/master'
+7303889b4572a9fe5582243d3bf5276264921892|2018-01-19|Dobran Krása|Improved tests for Redfield equilibrium
+0599b687b1bface63f04748a8b8b7e4da2aa72f1|2018-01-18|tmancal74|Inspection of Lindblad propagation
+f04b925a04a24d216c853faf6c3d1e0ada00b778|2018-01-18|tmancal74|Merge branch 'master' into redfield_with_vibrations
+16f6d521cec18768ba822062ad8fe51ee03227f0|2018-01-18|Tomáš Mančal|Merge pull request #73 from tmancal74/redfield_with_vibrations
+28126417eccd8d0dd864a08e41b0535b7afdda16|2017-12-15|tmancal74|Merge branch 'master' into redfield_with_vibrations
+6ac3d100eac5463a12816a7159f0d1a68be6d928|2017-12-15|Tomáš Mančal|Merge pull request #72 from dkrasa/config_manager
+26cfa0b622fef88b14f2efc9724e7c13545a4528|2017-12-15|Dobran Krása|Fist step in optimizing Redfield tensor calculation
+77eb795f441456f4e08e22addc30a1a036ee9e82|2017-12-15|Dobran Krása|Improved testing benchmark file
+60d65d04986da1ba606c929b11d1878898268eff|2017-12-15|Dobran Krása|Logging improved
+75256f2aa2e59b84dfef4146d9f26459a9651566|2017-12-14|tmancal74|Merge branch 'master' into redfield_with_vibrations
+e4fa6baa25e5da88f02cecbf957fc5cf95344e09|2017-12-14|Tomáš Mančal|Merge pull request #70 from dkrasa/config_manager
+ed8e946936f08e6dc2fdac31fd5f590c62f58638|2017-12-14|Dobran Krása|Changes not loaded in previous commit
+6c55aedff63eb8e959b01b2dd1fdac9fc32e7619|2017-12-14|tmancal74|Merge branch 'master' into redfield_with_vibrations
+c73f399bb4bdbac2223196f37f73b9fe165952e6|2017-12-14|Tomáš Mančal|Merge pull request #69 from dkrasa/config_manager
+17ac3f5148034bc712983089093ec96af837e889|2017-12-14|Dobran Krása|New configuration layer added: qrconf.py file
+d5014c00860f38246e36c52a01292250749a60d5|2017-12-14|Dobran Krása|Initial work on configurable numerics and logging
+771477d1515ac12157e6e12351c22f8976b916a4|2017-12-14|tmancal74|Merge branch 'master' into redfield_with_vibrations
+f89c5e9ace7ab50b4565239b3a7b96c7d8b1a5ce|2017-12-14|Tomáš Mančal|Merge pull request #68 from dkrasa/config_manager
+92cb945c349100fa252f88e481d460710f705033|2017-12-13|Dobran Krása|Implemented pytorch propagator
+9c6237bcb8405a36255fad5c412658be01d6c4de|2017-12-13|Tomas Mancal|Merge remote-tracking branch 'upstream/master' Update from origin
+efebb3ba0ae26390adfface08ee4e8d10909a8ce|2017-12-13|Tomas Mancal|More flexible Make
+e8bbe2d2c7db92b8d475620032cef7ecf9009835|2017-12-13|Tomáš Mančal|Merge pull request #67 from tmancal74/redfield_with_vibrations
+907ab12e4ad04ec9947b6c7c79e6941942efdda0|2017-12-13|tmancal74|Added Pytorch to propagations methods
+0a5e105c9a2d25a9fafdb2ed46b89ed5b232457a|2017-12-13|Tomáš Mančal|Merge pull request #66 from tmancal74/redfield_with_vibrations
+7837e61b68a043ded5aadf46244d579c57345489|2017-12-10|Tomáš Mančal|Fixed verbosity in qrhei script
+2e84d9952adfda9ab8821003132adbf7a3d973cd|2017-12-09|Tomáš Mančal|Logging utility printlog added
+5ffd6d9d87eb95ea973f72e7691aeb0e521c9169|2017-12-09|Tomáš Mančal|First version of float implementation of complex proagation
+7c8ae1263416bb233e3bfe30b7a67ab137aaa36b|2017-12-08|Tomáš Mančal|Small issue with spectral densities fixed
+a93b5b54b3216e8ab326574c0c2ca3262a840d01|2017-12-07|tmancal74|Spectral densities and correlation functions improved
+e21f789ea62fa8c330a3d79a791844a3ab8c462b|2017-12-06|Tomáš Mančal|Some fix in Relaxation tensor usage from Aggregate
+0e28be681bb5f2772784a331d955d9a60fa1b974|2017-12-06|Tomáš Mančal|Tests for TDRedfieldTensor class
+742a2acee15328dcf0072978369f0e3238f434be|2017-12-06|Tomáš Mančal|Merge branch 'master' into redfield_with_vibrations
+0e13aa7f28094b651400b788a3d4eef1d509e7dc|2017-12-05|tmancal74|Start of the version 0.0.34
+ef3c5b67c8f3a899255e4b2230d5d486b883bc8a|2017-12-05|tmancal74|README updated
+634a10acfb9b55f499aa39b1b44cd51ea8c937fc|2017-12-05|tmancal74|Merge branch 'master' into redfield_with_vibrations
+da5bfbd3ffc72a150bc165dae1e82cda0c7dbc9a|2017-12-05|Tomáš Mančal|Merge pull request #64 from tmancal74/redfield_with_vibrations
+ed0d486246b4ee6702f36eee3c413d7b1a0cd822|2017-12-05|tmancal74|Small fixes
+2965ab84c48c1afc2f050cd0397c487bafa70202|2017-12-04|Tomáš Mančal|Fixef calculation of couplig between two electronic states
+0f496191a7337e65bb0ed60b0154ebeced23d6b4|2017-12-04|Tomáš Mančal|Fixed Liouville pathway representation
+14e4989a8ef80cd995d996487bb54cad68b6a8dd|2017-12-04|Tomáš Mančal|Transformations of lineshapes
+58668c81ecd25e6d024b67f9456af8d8f543b05a|2017-11-30|tmancal74|Trying to implement 2ex line shapes
+f2449b545b51b4678c2c523c3573fcedf87d041c|2017-11-29|Tomáš Mančal|Fixing ESA widths
+4b66ee744fce67d11979c1c752adf21cdef71357|2017-11-29|tmancal74|pathway analyser
+4b16368199b9388bda5f1db43ed32977f05e030b|2017-11-29|Tomáš Mančal|Big fix of Liouville pathways
+395d77d32989e9c8494255819493a3c511db0aee|2017-11-28|tmancal74|Test Liouville pathway production
+21cc5ab227a7b04db6e57d595c68cbb0696cfc8a|2017-11-27|Tomáš Mančal|Transition widths
+8afb9b6ed547dbafc762ed7851eab2f8159541a8|2017-11-27|tmancal74|2D calculation from liouville pathways
+c2873dd4d1570792e4181a05d832c9b8f4050413|2017-11-27|Tomáš Mančal|abc
+2b74a60e73ae7218e49dcef0495607d0e59b5d56|2017-11-22|tmancal74|Collecting spectroscopy routines into AggregateSpectroscopy class
+bd4dc572eb6ebfa4618da075c556970f57489d19|2017-11-22|tmancal74|Merge branch 'master' into redfield_with_vibrations
+f7ad7f0072affcec0ae829f8edca71da8e100c3b|2017-11-22|tmancal74|Starting release 0.0.33
+d812667736bb972691cc11e169853abbcebb59ac|2017-11-22|tmancal74|Temporarily reverting to 0.0.32 to make a release on Github
+816184d42c6188c024211aec9ac17a0b7f3d5241|2017-11-22|tmancal74|Temporarily reverting to 0.0.32 to make a release on Github
+d634c2577a4f6298e0c9b8364c4c95fe6941d3be|2017-11-22|tmancal74|Merge branch 'master' into redfield_with_vibrations
+adc249c5c063f2a95eb1bf519b5113b879537a31|2017-11-22|tmancal74|Starting release 0.0.33
+2669ec1a33a447c9d60169626d8d2e0c58d333f2|2017-11-22|tmancal74|README updated
+82da4f121087badeca8086b4e7a55c53c3722593|2017-11-22|tmancal74|README updated
+e086d44abee2424b825d16227b9f35ff82d76c13|2017-11-22|tmancal74|Merge branch 'master' into redfield_with_vibrations
+80229775ffa8b786f0656d38be7a4153a6719dd9|2017-11-22|Tomáš Mančal|Merge pull request #63 from tmancal74/redfield_with_vibrations
+ad05ce11b22aa99fad979b8b1f40f140c7ff81fd|2017-11-22|tmancal74|Small fix for Foerster relaxation tensor
+ee3865457d7edf683525e2895a5ee00e204f4e1c|2017-11-22|Tomáš Mančal|Merge pull request #62 from tmancal74/redfield_with_vibrations
+ed2800b2a4e90c9f23ee540d2c188ee1f65a3647|2017-11-22|tmancal74|Redfield with vibrations implemented
+a49c0468192cc8a80b1b3a823e9187c5d8491b44|2017-11-22|tmancal74|Some cleaning in Aggregate class
+0ba2a6e92e26b5e66cf12454eb0b2f4654d27cc4|2017-11-21|Tomáš Mančal|Small fixes in aggregate
+8c4650ebb73d6842d1441644a9a23f637a227ea6|2017-11-21|tmancal74|2D spectral representation of Liouville pathways
+ec050eba1301c74208dac0a02aca1a5a801e248a|2017-11-20|tmancal74|Pathways with relaxation
+87ebee2d6a8075b8157e7c2ea0511da3a92d6ede|2017-11-20|tmancal74|Printing of Liouville pathways fixed
+5181a2fc874fd317aef76bc65e41e5422087571e|2017-11-20|tmancal74|Evolution super operator introduced
+ab01c63075790525ac73c5444c4ee897090e5f38|2017-11-17|Tomáš Mančal|Small fixes
+4bb75077efdb9f91f49361a9c014ebc5cdd1c2d0|2017-11-16|tmancal74|Improvements on Aggregate.trace_over_vibrations()
+d052c7062d401315336025f2747c90cecbf1b863|2017-11-14|tmancal74|ElectronicLindbladForm works
+b95ce08490e0cbc18bea39c2eaba87d84684cdd9|2017-11-13|Tomáš Mančal|Work on implementing electronic Lindblad
+e47e807e791f75e72ffde46c329685f8b377c948|2017-11-13|tmancal74|Started implementation of ElectronicLindblad
+0c8aad06e3c85b1241370cd2c78444c14c4dcdff|2017-11-13|tmancal74|Merge branch 'master' into redfield_with_vibrations
+8ac39b9ade2f296dfb2054e9cfa2c33848102fb4|2017-11-13|tmancal74|Starting release 0.0.32
+9988648a350070f8875b25a9e2fdd50fae56f7e0|2017-11-13|tmancal74|Merge branch 'master' into redfield_with_vibrations
+1d63f29b893d78075e86b1d04fe6c8c136f13169|2017-11-13|Tomáš Mančal|Merge pull request #61 from tmancal74/redfield_with_vibrations
+6f1f45a6951fe9d2c0aa6d47e5733ab0fee80bd6|2017-11-13|tmancal74|Final commit of release 0.0.31
+5cbe5c466c3d0aa38c4c6caefe10588275666f8a|2017-11-13|tmancal74|README fix
+ef76fa78e5b6dc0f0fded07fc16d153b09288213|2017-11-13|tmancal74|README fix
+b44783b0745d75bc3f751a9d93119c5da1466f91|2017-11-13|tmancal74|Update to README
+c3306a678a449e3329a392ec008f3b1e851fc222|2017-11-13|tmancal74|README updated
+902ca7ec9824b108f231198d5ac2e83fc5bb7690|2017-11-13|tmancal74|Added info into README
+6f568074601e8d38acb6e7e69a1a8c27fa3ab6d5|2017-11-13|tmancal74|Merge branch 'master' into redfield_with_vibrations
+bfa40051565a500382c4b8529b4301cd62977ffb|2017-11-13|Tomáš Mančal|Merge pull request #60 from tmancal74/redfield_with_vibrations
+989a4bf4bc0205efb29f286e764c7f707f6c442a|2017-11-13|tmancal74|Makefile is back; Introduced plot tests
+dc94b12c5c0c62d23b2ead2a6068c37ad6e79ca3|2017-11-12|Tomáš Mančal|Testing files in temporary dirs in tests
+de21a65c2d615a584bd3a34a36dab51d5d114ce4|2017-11-12|Tomáš Mančal|Proposal for examples processing directives
+a05dd41ca773207189bbc051d7b5f720e9e14cff|2017-11-12|Tomáš Mančal|Merge pull request #59 from tmancal74/redfield_with_vibrations
+52751c4ad9a6680d9668ca5e41f97577fafae5aa|2017-11-11|Tomáš Mančal|Deleted unwanted file
+6404af7a24119ecd9a8c467438ac1a08ad54a3cb|2017-11-10|Tomáš Mančal|Significantly reorganised examples
+235005b7acee0b541a2f57a0231d2f673631ac05|2017-11-10|tmancal74|More examples under tests
+540aef0144209c1672364daf7b3b38128b7cf5ed|2017-11-10|tmancal74|Templates and examples now under tests
+2dddbc0113278189eb3aac6592154c16c8fba7b8|2017-11-10|Tomáš Mančal|Created wizard subpackage
+cf83c704085eb095f15e6ac1c3be77e540b2de4c|2017-11-10|Tomáš Mančal|Fixed magic for Python console
+388006c0e905b6d97327245eeb10596cb9e049d1|2017-11-09|tmancal74|Merge branch 'master' into redfield_with_vibrations
+245d9b94dcd33d197d992b65d926a824cf394028|2017-11-09|Tomáš Mančal|Merge pull request #58 from tmancal74/redfield_with_vibrations
+d289f04955f8ac5640d1f197b545030a40bbffa1|2017-11-09|tmancal74|IPython magics "template" and "example"
+7ef77f6418fce0de24fdcc43b73f33f99cbf0e22|2017-11-07|tmancal74|Lindblad form works well
+5bcacbef73a2133079b0a839119c6212075eac57|2017-11-07|tmancal74|Elementary implementation of Lindblad form
+ce109bdf622cf56e13d4a3b36a625b7ff69e63a3|2017-11-07|tmancal74|Merge branch 'master' into redfield_with_vibrations
+c2e95023af8200609227b82eeb877c27fbade7f2|2017-11-06|tmancal74|Release 0.0.31 started
+af9f73bd66cfdcbc60d0444e71f0a1c4d08de209|2017-11-06|tmancal74|Units management polished; release 0.0.30
+3c837398c4bc0c19ba5eda89b5cc7f169770711d|2017-11-06|tmancal74|Small fix on tests
+5aee4d7ddcc0d84012ce3fd582fa85ccd983ec1f|2017-11-06|Tomáš Mančal|Merge pull request #57 from tmancal74/redfield_with_vibrations
+04ef90bd7532e458343c84eef4af2ab07d972f51|2017-11-06|tmancal74|Small changes
+b18389df72d2aa953c2731729090267845aae372|2017-11-06|tmancal74|Changed layout of `implementations`
+b74f8f636fdd3d533c378c96d8696220a0844374|2017-11-06|tmancal74|some changes in `implementations` subpackage
+43e3e2cbc73ae84972ef6b1978d2b1d5d11d478c|2017-11-03|tmancal74|Minor
+d45a865bab7442af0ddc9f13d10274e2017603e5|2017-11-02|tmancal74|Some changes is naming scheme
+1069ad2fe37cffa7e75a78e1ee04ca9b8ed5ac73|2017-11-01|Tomáš Mančal|Added index attribute to vibronic_state
+fe3739b08f3c60434875a13d715c7a5fe6fb7ace|2017-11-01|tmancal74|Merge branch 'master' into redfield_with_vibrations
+73d50827ae1bb06e7df5fb47ea2acb837ac39f75|2017-11-01|tmancal74|Introduced LioullePathwayAnalyzer
+af6ce3d6232b110dfff4f61bee2e990d6adb515e|2017-11-01|Tomáš Mančal|Merge pull request #56 from tmancal74/redfield_with_vibrations
+63c6e3d6059829182203b161e39a503c789dcb04|2017-11-01|Tomáš Mančal|Fixed demo1
+b7934fff2b6299b40a5c10f1fad9ecaaba18bd95|2017-11-01|tmancal74|Basic Liouville pathways generation now work
+d837b11eb5c7a67b638a065a277c6c130ee08dff|2017-11-01|tmancal74|Feynman diagrams revived
+2b1ea266f999495fa194a919ef5f672ab2abe53f|2017-10-31|tmancal74|Merge branch 'master' into redfield_with_vibrations
+535d64924e77973b35eddc56e93fba02cf6ee0e1|2017-10-31|tmancal74|Small fix of aggregate state generation
+1c127a2fbf4eab77c161638dcc7d7ea9be664de9|2017-10-31|tmancal74|Merge branch 'master' into redfield_with_vibrations
+e2639c6c3212720ade32dbcb4ac1d234cc73d4c9|2017-10-31|tmancal74|Work on release 0.0.30 started
+eb2a2e1485f54f01a823417a9a1302eec2037206|2017-10-31|tmancal74|Merge branch 'master' into redfield_with_vibrations
+a1cf5c1669c31acbdfea36d76273b4f38b0ffee0|2017-10-31|Tomáš Mančal|Merge pull request #55 from tmancal74/redfield_with_vibrations
+3c10af74159201d8091801148590761237ac5e6a|2017-10-31|tmancal74|Working with aggregate states fixed and improved
+269a700aa58c8e29b2d00ae8b5bc04eae8493ef8|2017-10-30|tmancal74|Small fix
+ebe9733eab77ff4d8c391cac7ce3ccbd139ea42a|2017-10-30|tmancal74|Merge branch 'master' into redfield_with_vibrations
+5f04c2fa0739e2b00a58421b8317cdd81ca49a50|2017-10-30|Tomáš Mančal|Merge pull request #54 from tmancal74/savable_aggregate
+6b39004dc0c9b783045091a8735bfb2588cb07ed|2017-10-30|tmancal74|Improvement in vibrational aggregate generation
+7a938e4ebedca4e4a21eb5c02d6e471f86d86d62|2017-10-28|Tomáš Mančal|Release 0.0.29 started
+a0493f13ee0a3aecb8d5909ff3d6ab217f6c3590|2017-10-28|Tomáš Mančal|All absorption spectra related classes are Saveable
+a32a53f4596cddbb4fc40f2d9bee6a2694b1aaa5|2017-10-27|Tomáš Mančal|New convenience functions
+d4fbfcd0c6d41ec7333d97487bdbc9c1894c868c|2017-10-26|Tomáš Mančal|Started work on optimization
+be7b8fead33ac5357e89a55adee031f7e7f38b07|2017-10-25|Tomáš Mančal|Merge branch 'master' into redfield_with_vibrations
+080e7598c03c3b472e7f145d899f6def75790227|2017-10-25|Tomáš Mančal|Merge remote-tracking branch 'origin/redfield_with_vibrations' into redfield_with_vibrations
+d69e8bda44d2a4cfaf11cc189c61410890dbfde1|2017-10-25|Tomáš Mančal|Fixme noted
+8951da644909e94a47b3e5b581be25c852dcefda|2017-10-25|Tomáš Mančal|Merge branch 'master' into savable_aggregate
+9dfcb72961ab1abfe2f57e759e683691f6918d19|2017-10-25|Tomáš Mančal|Starting work on 0.0.28
+256fb9633daf7b8c2c3efafd84c4bad2a63171ca|2017-10-25|Tomáš Mančal|Merge branch 'master' into savable_aggregate
+50fdac4edb4058f60ee2f7979b88adf6edc9f18b|2017-10-25|Tomáš Mančal|Merge pull request #52 from tmancal74/savable_aggregate
+5c8eac6b6b144853a4d9515b6257b1a09bcf07b9|2017-10-25|Tomáš Mančal|Saveable class knows how to avoid cyclic references and multiple saves of Saveable objects
+22dd7d662acdb61eb4b6e9e1a5f7e8ca4c71c9fa|2017-10-25|Tomáš Mančal|Investigating the problems with repeated load and save of aggregate
+f4594c867c18be8740cb2c875d118241220228d5|2017-10-25|tmancal74|Fixing a bug
+6e5b91bf2d194373b0d54822bf068d1270656797|2017-10-25|tmancal74|Merge branch 'master' into savable_aggregate
+2ee018f75a01c752ced848ca1c9c6edae74ef41b|2017-10-25|tmancal74|Setup correction
+a9604c2586ecaea2a3fd338d88b24a8b590bab44|2017-10-25|tmancal74|Merge branch 'master' into savable_aggregate
+0fe0c2a7a6227be8f7b99f84e0afaed53bd9500a|2017-10-25|tmancal74|Merge branch 'master' into redfield_with_vibrations
+fb5317e4f75e96f94e793d4b98abbde11bb4323d|2017-10-25|tmancal74|Starting development on 0.0.27
+f99d69d393c32928958871e35e1399371d4093bd|2017-10-25|tmancal74|Release 0.0.26
+055f9b3449426dd8f78f25d7965eb25251f13c6d|2017-10-25|tmancal74|Merge branch 'master' into redfield_with_vibrations
+f2395a154edcb3335da35184d4c13d683bef765b|2017-10-25|tmancal74|Merge branch 'master' into savable_aggregate
+7641f770b92a1d660f2165e361767a2e37784f3d|2017-10-25|Tomáš Mančal|Merge pull request #51 from tmancal74/savable_aggregate
+5d70394ef423bcee54d5c868421b53cc1c393099|2017-10-25|tmancal74|Cyclic reference problem solved
+4d96c2bb8c77402ba5237c25b6e664365d5e27fb|2017-10-25|tmancal74|Documentation work revived
+7c015c47938315f8900f239de67407bd6b4f0368|2017-10-25|tmancal74|Handling of cyclic references still in progress
+d75d80931bef20edaf782704fde81117aa097391|2017-10-24|Tomáš Mančal|Modes made Saveable
+a8560eead642e5ae3374dd4a47b5e7940793afdb|2017-10-24|tmancal74|Issue with storing file name when saving Saveable object fixed
+34f6dfbf248827f44cccf4e5fd1bb017597929de|2017-10-24|tmancal74|Several convenience functions introduced to Saveable
+1508b373227a774bd95d15b7c92da945ec519fce|2017-10-23|tmancal74|AbsSpectrum is Saveable
+f2bd2c03cb27d998d5a4586d5b14adda84cbcbd1|2017-10-23|tmancal74|Merge branch 'master' into redfield_with_vibrations
+1aaccb7142e66c495115acedb23007b2ebae1c6c|2017-10-23|tmancal74|Merge branch 'master' into savable_aggregate
+85786155fab6b6407fefff596b3e596b737328eb|2017-10-23|tmancal74|Some new issues to be addressed
+71d0cc27bc85a003c59956f773ba1f241ee1c14c|2017-10-23|tmancal74|Releas 0.0.25
+be5540c5fb706fb797868fa055335745d274fd49|2017-10-23|tmancal74|Merge branch 'master' into redfield_with_vibrations
+28b6b31b489f3dfde8572b0196dd83060f70b00f|2017-10-23|tmancal74|Merge branch 'master' into savable_aggregate
+ce1e4d694bbff6ebcf52d831b869a11b3c775571|2017-10-23|Tomáš Mančal|Merge pull request #46 from tmancal74/savable_aggregate
+30831f24094ee0e0c87b993af983dd6cc088d404|2017-10-23|tmancal74|Aggregates are Saveable
+07b541657cc64a3301d4b4378c4dc2e266c25ba2|2017-10-22|Tomáš Mančal|Molecules with CorrelationFunctions can be saved
+e5fababb4f2f7eee1abf6ae08edc82a5f01806de|2017-10-21|Tomáš Mančal|Merge remote-tracking branch 'origin/savable_aggregate' into savable_aggregate
+0d85626c2f731081e5f4dfcbe4906f147b8c6fed|2017-10-21|Tomáš Mančal|Handling of None and non Saveable objects added
+3623441564a7e5195e164489169d48c315346b15|2017-10-20|tmancal74|Merge branch 'master' into redfield_with_vibrations
+daf40eed4faebf37e76860c3bf3708ed7b822486|2017-10-20|tmancal74|Merge branch 'master' into savable_aggregate
+4a864297b94571fd811a8ac5c92a8b3a92fd80e5|2017-10-20|Tomáš Mančal|Merge pull request #45 from tmancal74/savable_aggregate
+718fe7e3549ffd32d6230324e46dc77728573f7d|2017-10-20|tmancal74|CorrelationFunctions and SpectralDensities are Saveable
+7043e7f8759fb78dddb12d3083a22fc2ae7bf62a|2017-10-20|Tomáš Mančal|Saving of complicated objects seems to work well now
+1b3072182e07e8e975a2623f3ad48ce2270e9606|2017-10-19|Tomáš Mančal|TimeAxis and FrequencyAxis saveable
+b431192213dc94f5466d6e4710dfa106613a8ccd|2017-10-19|tmancal74|Merge branch 'master' into savable_aggregate
+76f61a875f8ae3ad7a063e211a31b6043a43f0d7|2017-10-19|tmancal74|Merge branch 'master' into redfield_with_vibrations
+75edd0f1f052e215b7141781a601a27f9f21051b|2017-10-19|Tomáš Mančal|Merge pull request #44 from tmancal74/savable_aggregate
+6af616fc88f117f451bb11f0debf495e599d8560|2017-10-19|tmancal74|Saving dictionaries implemented
+df8e02eb9ff9e2edcaaa8bd4200368de8ccad8bd|2017-10-19|tmancal74|Saveables can be saved as attributes of a Saveable class
+235002c8bf989c2ae220692c12dcb1cb5419508d|2017-10-19|tmancal74|Loading and saving lists and tuples works
+2d58711c0382d0d126a3ba73c94633fd1b19a571|2017-10-18|Tomáš Mančal|ValueAxis is Saveable
+2915630529b42a331d0581eb36571e41b9083ef3|2017-10-18|Tomáš Mančal|Some work on saveable
+335c5ead7ad511df3b592c1242dbb78b5deeb765|2017-10-18|tmancal74|Final push on Saveable starts
+3bf6070aa16b4531d8a99c44fd8a39df74e459fe|2017-10-18|tmancal74|Merge branch 'master' into redfield_with_vibrations
+bd1841bc8487868ef18652b3cb236ed17f95c5da|2017-10-18|tmancal74|Merge branch 'master' into savable_aggregate
+d8c6ae8f1d720c213f8bdbbc2863b1ab3dddd961|2017-10-18|Tomáš Mančal|Merge pull request #43 from tmancal74/savable_aggregate
+ce34f7abf642f10f56943eb7114124d98d9cef70|2017-10-18|tmancal74|CorrelationFunctions and SpectralDensities closed for now
+6a6d311d679838b723673b35183e9aaf342cb981|2017-10-18|tmancal74|An old hidden issue with FFT solved
+7c1b9bf57d51ce9415a9d1c8ae908394381d0912|2017-10-18|tmancal74|Calculation of FTCorrelationFunction from spectral density now does not need limit at \omega=0
+b3c8512cc7cf83737273d747646dbed1998cd504|2017-10-17|tmancal74|Identified a problem with SpectralDensity
+8d44820051c4831201a530131d9d193993f3911f|2017-10-17|tmancal74|Spectral Densities fixed; some tests still fail
+21d0db7eead86e46af929dc8fd6e2fc0ca4461be|2017-10-17|Tomáš Mančal|Some work on SpectralDensity
+e6e0a1a1d2132515e0e7b888d29c55bc0c143db9|2017-10-16|tmancal74|SpectralDensity almost done
+9143ea55e1741b792f29ea3ccd217e01839c1653|2017-10-16|tmancal74|Correlation functions in a new flexible format
+1262267aa19293f28b0533d994b56b2345d60ae3|2017-10-13|Tomáš Mančal|Merge branch 'master' into savable_aggregate
+33386d1b4ee959bb48d99c4d3a5d9fe260eae1b7|2017-10-13|Tomáš Mančal|Merge branch 'master' into redfield_with_vibrations
+7f7d676b4163ae4d3886533a4cf0af61a2e67733|2017-10-13|Tomáš Mančal|Merge pull request #42 from tmancal74/savable_aggregate
+a41c2a1201646bbe68711d7ce26419abbebbb7a9|2017-10-13|Tomáš Mančal|Saveable now under tests, simple attire work
+4124f6b1a6f0346e2cc2409de2f9bf148af82a68|2017-10-13|tmancal74|Saving in Saveable works
+ad84b5df448dfb368b98ab27fc5fc38fb35686ea|2017-10-13|tmancal74|Merge branch 'master' into redfield_with_vibrations
+ab4f7422db9ba8118a0b3c8bdcc9b699015e0267|2017-10-13|tmancal74|Merge branch 'master' into savable_aggregate
+36ae49b7efc90ad1e4983bbd491c2a8171b08654|2017-10-12|Tomáš Mančal|Merge pull request #41 from tmancal74/redfield_with_vibrations
+ad4e5009ebfca4e90f787dbc48981d8b9313d4ad|2017-10-12|Tomáš Mančal|Merge pull request #40 from tmancal74/savable_aggregate
+8ae9d24b3ac2a900d3873bed334f9e747f388b39|2017-10-12|Tomáš Mančal|Merge pull request #39 from tmancal74/pdb_input
+d36814eef4986c975e7348bb36f2048ed5c973a7|2017-10-12|Tomáš Mančal|Merge pull request #38 from tmancal74/basis_management
+51b41e424b090fded5006635cec0eea0a1db5f8c|2017-10-12|tmancal74|Merge branch 'master' into savable_aggregate
+9c2b64bc218f05e8a49b915557dd8fd8e9b516e8|2017-10-12|tmancal74|Merge branch 'master' into redfield_with_vibrations
+53b945322e2ea073acede9a65977c4511ddace6c|2017-10-12|tmancal74|Merge branch 'master' into basis_management
+a8cfd0da53f11b7fb07fa9c0b988645508c186f0|2017-10-12|tmancal74|Merge branch 'master' into pdb_input
+729ee75597794e0aadb10cacfd42d453f8fdc44b|2017-10-12|Tomáš Mančal|Merge pull request #37 from tmancal74/units_management
+b24a01bb06a0caeac273121cab687b54e1d40e19|2017-10-12|tmancal74|Conversion between "nm" and energy for absorption spectrum
+15b43eb32649efd100a06c31a4e3b9ad3f537916|2017-10-12|tmancal74|Merge branch 'master' into savable_aggregate
+10363649dee485a01352dadbb42066a1b1ff267d|2017-10-12|tmancal74|Merge branch 'master' into redfield_with_vibrations
+9bdd7c761732d648bb07d5a698290a6367133cf8|2017-10-12|tmancal74|Merge branch 'master' into pdb_input
+b9580380f2c01c8ddf1b14cb0c1bedffaf6668dc|2017-10-12|tmancal74|Merge branch 'master' into basis_management
+5a4c3128795e7ca8310afc0fbaa3ddae9347c1fb|2017-10-12|tmancal74|removing Makefile
+20aa2e959cafd5972d7466de904e5a6329a0a2e4|2017-10-12|tmancal74|A micro fix of a bug which broke a test
+207a0a791ebe97f2a1ed989c1057417ebd61a654|2017-10-12|tmancal74|Initial work on Saveable class
+425df451afd737c133a28a62db9625be6d4c3eab|2017-10-11|Tomáš Mančal|Minor changes
+f88a4060f15172ed0613cf59424de22f9fd804fd|2017-10-11|Tomáš Mančal|Merge branch 'master' into savable_aggregate
+112615e520589fb095db5a1e56a67d6c8d970181|2017-10-11|Tomáš Mančal|Savable core class to support persistence through h5py
+650110078c73073837bc4937a60c99b798be998c|2017-10-11|tmancal74|Merge branch 'master' into redfield_with_vibrations
+f271d9ff4b9ff2f97cd1270987174014e6a82d41|2017-10-11|tmancal74|Merge branch 'master' into pdb_input
+80781c13d7b36e0102153eda272356226413a551|2017-10-11|tmancal74|Merge branch 'master' into basis_management
+d37e176096f0a5e5f736e07f3a8bc44e719fc03d|2017-10-11|tmancal74|First few attributes of Molecule saved
+744a2b6266e5296f2f45a75806389ae34db83ac3|2017-10-11|Tomáš Mančal|Merge pull request #36 from tmancal74/savable_aggregate
+16f7da498bfe2f7bbab505e2a9b23f066e01e6c9|2017-10-11|tmancal74|Started working on Molecule - Aggregate can be saved in a pre-build state
+fa7a97a1c57f4b7cd645f1698bbb080fcc32b39b|2017-10-11|tmancal74|All attributes saved, resonance_coupling saved
+8ee7bb9344d95c8cb6a479330eb8e372de66e470|2017-10-11|tmancal74|Fixed a long overlooked problem with tests
+e8329c59e1d43799cd67c54d2e95eee1ba149ec3|2017-10-11|tmancal74|Initial work on saving
+b3df70b1d8082388c613876735b1ab7f64f40e58|2017-10-10|Tomáš Mančal|Merge pull request #34 from tmancal74/pdb_input
+44fc3c30127eca5fe9798279409d7cc677a072a4|2017-10-10|tmancal74|Identification of BChls and BPheos works
+54186b3ddfa047d5501f0521b8563c84d7219d40|2017-10-10|Tomáš Mančal|Generalized SystemBathInteraction to accept Molecule as an argument
+fa15a5ebd3bbd54eeaa192e12fab978636223b3a|2017-10-10|Tomáš Mančal|Code analysis, cosmetic changes and some new FIXMEs
+c1b31d12fe81b50499239cbc65cce1dc28b39390|2017-10-06|tmancal74|Script for local testing added
+abe2d51e7d3989ddedb7bef8f97beb027e363b30|2017-10-06|tmancal74|release 0.0.24
+87687df444240d0eb72beb6dabcf04185034166f|2017-10-06|tmancal74|Fixing testing for new definitions of Aggregate and Molecule constructors
+6ce5f934bca647f411fd713b27ebe44cc956629d|2017-10-06|Tomáš Mančal|Merge pull request #33 from tmancal74/basis_management
+a5469e20e09a256c117306ea449edf1ed4e8d738|2017-10-06|Dobran Krása|Fixed testing first
+e5b42a6920fc92f1b8be182bea0fb04398300f77|2017-10-04|Tomáš Mančal|Merge pull request #28 from TNot/Towan
+e79d1f1d86adb83a5bf5748ef710d470501990e3|2017-10-04|tmancal74|Fix in moments, release 0.0.23
+440cebf4a06f6cefb39157f159b4777334f598e9|2017-10-04|tmancal74|Release 0.0.22
+1d6495d33e14330811ead8f3ea659fdc5c4d2cb6|2017-10-04|tmancal74|Improvements of dmoment module
+eb17c6177f43e5f35a4ee514d729920acb93711a|2017-10-04|tmancal74|Fixing a bug in twod2
+8d93b974d3875b5555fd4f31d876cfc754c918cf|2017-10-03|tmancal74|Release 0.0.21
+9656c4ee3800f68a4462324585941313468681a5|2017-10-03|tmancal74|Improvement of the Molecule class
+0ad101d214cb22a7fa12931445aac8124860b617|2017-10-03|tmancal74|Release 0.0.20; improved documentation
+b2fde6bc0f28062441a59330d21b5b45e9d1884f|2017-10-02|tmancal74|"Aceto not available" removed again to allow data processing without calculations
+919d5b30c5b30cdb6e40d65a65b16fa96031af9f|2017-10-02|tmancal74|Exception when Aceto not available, in place again
+1e81eaf0897f89603838538c1d547359e8060631|2017-10-02|tmancal74|Bearable length of the 2D demo
+99ef17b43734561466f90f87482bec9f358bb24c|2017-09-29|Tomáš Mančal|Updated README
+7183d1b9955e69d3e0887de1a4f41daace510274|2017-09-29|Tomas Mancal|Makefile development directory management
+fdb2804348a92b49f81c0c10fa51e14f4732523a|2017-09-27|tmancal74|Release 0.0.19; to fix breaking because of acute
+068b635e939df4c0f7810844991738fdb1dcb367|2017-09-27|tmancal74|If aceto not available, let us not through Exception imediately; release 0.0.18
+e7be01094ba542bb3178ae550a4abb9deabbfc29|2017-09-27|tmancal74|Starting release 0.0.18
+ac22ddb4871d3a570cfbf736e6c58556a328b321|2017-09-27|tmancal74|Fixing show_states argument of 2D plot + some documentation
+b79598552b6c63d585abbf24d573b5e9011afe31|2017-09-26|Tomáš Mančal|Initialized implementation of pump-probe
+bbe6cc4f04e3e9ce116d4e9e5e82a9d1b2346dd5|2017-09-26|tmancal74|experiments with exciton lines in 2D
+65c1e9e0678c22246a42091d11fe009010d56e6d|2017-09-26|tmancal74|Enhanced movie capacity
+d296c448df7b7e93d76ff901bd28ecb2aeb06b29|2017-09-26|tmancal74|Specifying colour map and other niceties with TwoDSpectrum
+60940641e557ae5faced4baa0335c7e2ce7a7a0a|2017-09-26|tmancal74|TwoDSpectrumContainer can now make movies
+0f79e9466cdceff049ebae3e2530d4b6c67cdb5c|2017-09-26|tmancal74|2D dimer example corrected to work with recent TwoDSpectrum class
+d7c3a98c800bdd0faa33a24e65e9822ee63cb71f|2017-09-26|tmancal74|trimming of 2D spectra implemented
+3122cd817e38fd7ffb213d21d1e37474d08b7ae2|2017-09-25|tmancal74|Updating dependencies
+999c7b38a718bb0a0c8f8bc31d1d84fe6825961d|2017-09-25|tmancal74|TwoDContainer saves and loads with hdf5
+b235029645fc41e9bcc863f3f57494b4c2316103|2017-09-25|tmancal74|Introduced hdf5 format to store more complicated data
+2eac6116fbde16d763f817e911e838d264fb0da2|2017-09-25|tmancal74|Starting release 0.0.17
+537cfe4660ec72e50068d235c9a43707be7fa77e|2017-09-25|tmancal74|Calculation of Absorption spectrum redefined
+523c378ee29820e25074bd1c0e6b7559d8e41c12|2017-09-22|tmancal74|Starting revision 0.0.16
+bde0e17f7ad176b7da5c56d1d7bf52b09cb22fda|2017-09-22|tmancal74|Release 0.0.15; improved 2D spectra analysis
+02d895eb3b6e049ee9d065305cbdfcc4cf030424|2017-09-22|tmancal74|Splitted bootstrapping from calculation in 2D spectra
+ce13f6b0085b7e8ffab1434fc104a1c66d8b1fdb|2017-09-21|tmancal74|Release 0.0.14
+d43dbb06bbd90865b296f0e0be487729ce20ba3d|2017-09-21|tmancal74|Fix to get quantarhei run on Python 3.4 and earlier
+0fde6eca571f57f6c925de4bbd48698bd0f07355|2017-09-20|tmancal74|Minor fix in qrhei script
+9f9f87024a71da494b3610df2c8f30db9d87a5ac|2017-09-20|tmancal74|Setting shared libraries with qrhei script
+eda34d35125598609ea108233901ebf54ddae4a8|2017-09-20|tmancal74|qrhei script failure fixed
+86eae7dfb50a93c9ffda10a4040ee7c3e4f05736|2017-09-19|Tomáš Mančal|Improved 2D
+a238723d0120a35cd23d19097ca86f1277683633|2017-09-19|tmancal74|Test upgrade for version 0.0.12
+e128037b81518f0986d27051a91c472d0f58300a|2017-09-06|Tomáš Mančal|2D spectrum repaired
+e9ac582cc40ffac6b322b797a0f61ae01df0d9fa|2017-09-05|Tomáš Mančal|Experimental files with stochastic theory
+a831acabccd6ac06eb2e2d72f99bab8aa27d2eea|2017-09-01|tmancal74|Extension of 2D calculations
+71be229434694db86785476ac71fe38d646213d6|2017-08-23|TNot|Merge remote-tracking branch 'refs/remotes/tmancal74/master' into Towan
+d0e61b1990553718c7af67acb05829c6f80f26e1|2017-08-22|TNot|Merge remote-tracking branch 'refs/remotes/tmancal74/master' into Towan
+d2d1fbcc4fa90226f5ab8343630fb55dcfb978aa|2017-08-17|tmancal74|Numerical integration of perturbative contributions to population propagator
+82b1507ed1b92859d922d970cfe2d84104088324|2017-08-11|tmancal74|Population evolution with perturbative expansion
+c4839ebf00ac1fb45d61cb1d6145c7da8b2cff4d|2017-08-10|tmancal74|Initialisation of the rates subproject
+1aff093ba45880a70cdf279d1596dc978f89a753|2017-03-06|tmancal74|TwoDSpectrumCalculator is functional
+3739a426aae650c16e1daaa68b28e4881920133c|2017-03-06|tmancal74|Introduced zeros order correction to population evolution matrix
+a0ab762b26f294ccb598855fe978e077f97f468b|2017-03-06|tmancal74|Extension of FrequencyAxis tests
+4f10b3cb113b52882014c9e387c6319f783e72bf|2017-03-05|Tomáš Mančal|Updated symbolic tests
+2b1483bd63d2e1f9d1419edd72ac64f841bfea82|2017-03-03|tmancal74|Initial structure and tests of 2D module
+da32b13224b6221d6a90173eecf76e8ec5eaac62|2017-03-03|tmancal74|All non-linear response pathways evaluated for aceto package
+396cd8f4e9e0ef33108a98e68231ff9902249c35|2017-03-02|tmancal74|Reorganization of scripts
+6985656a0a41d1ad79153e65b79a4feecc9b5ed6|2017-03-02|tmancal74|Population propagation matrix calculation by PopulationPropagator
+33d04b73e433c7d8e8d76996f81774f0fe2f0cd9|2017-03-01|tmancal74|Fixed and issue with transition dipoles of 2EX states
+9569b07ce5a4209e7452e196152b57d97e999ae4|2017-02-28|tmancal74|Testing transition dipole of 2EX states
+64a8c597a350ffc6f1fd1d24dd910c172728fd4d|2017-02-27|tmancal74|Fixing an issue with two-exciton interactions
+d0c6e2eee1f544db56c515d72ff4671381aee335|2017-02-26|Tomáš Mančal|ValueAxis extended to handle subsections and extensions
+38e79fde9795b86b582ccefb4268a42c9fbe6578|2017-02-24|tmancal74|SystemBathInteraction in Aggregate generated with its own exciton multiplicity
+969f1b90a9189b0c189e40aea54eda57427dcff7|2017-02-23|tmancal74|Removal of some legacy dependency in absorption calculation; handling of two-excitons
+edf16dfbfea60844b59c4a7d47ac24fb96b37406|2017-02-23|tmancal74|Testing demo for two-exciton calculations
+904211f695d08fa9216026f70e578e11e47a8f06|2017-02-16|tmancal74|Fixing pathways in symbolic module
+eeb3cb3161fbde30837c84eb91c30bc87e713d6b|2017-02-15|Tomáš Mančal|Symbolic calculation of 3o response functions
+145b9c66d48dcceb732d0e364ea97a1c0658ab6f|2017-02-15|Tomas Mancal|Merge branch 'master' of https://github.com/tmancal74/quantarhei
+fad46126a4536d04f7378da34c19ce9a57d691a6|2017-02-15|Tomas Mancal|Fixing issue with dmoment transformations
+f78750de380a0705ea6963bf3bcb69f5a9b79acf|2017-02-15|tmancal74|Derivations of non-linear response functions as a test of symbolic module
+80c08b7019f7f52525e3f010c223cb4785e7555d|2017-02-15|tmancal74|Symbolic calculations of cumulants using Simps
+93ade0a43d50815ac315cff6a1ac1685f4fb1d4e|2017-02-15|tmancal74|Fix in TransitionDipoleMoment
+90be761e0ea8947c62d18f47102d3adaaf0486ae|2017-02-01|tmancal74|Version 0.0.11
+d05c5b314c40cb04c2efd064f97b2105035347a4|2017-02-01|tmancal74|Update README
+99bba3908f5cd7bb2e9c85b9bbe444366c497feb|2017-02-01|tmancal74|Update to README
+ecb50a104617d3dfd77b81f38f0879583d8aa573|2017-02-01|tmancal74|Update to README
+86d286a8809f5e113259f0d658e50ac024a73afc|2017-02-01|tmancal74|Update to README
+f27a853a748ef14f7d4decf73f5c829d4672dce7|2017-02-01|tmancal74|Update to README
+8004d5f2ded42a2b545b0199ab7529541e76b6bc|2017-02-01|tmancal74|Changes to README
+2cd5a6e34f6e9caeef552e2c91e669ba386a6bc2|2017-02-01|tmancal74|Changes in README
+b9d959bbf6cff026d2804090b4b08dfe03d199e3|2017-01-27|Tomas Mancal|Disorder can now be seeded
+c2c2527379fba25907d83ef23fa9276f271a1e1b|2017-01-27|tmancal74|Improved spectral density database
+c242ce8d6b7a01358f5c43dc1387d23d0eb8525c|2017-01-27|Tomáš Mančal|Spectral density DB improved
+afca91ace304ea47538da0307fc8ef2fffb6a002|2017-01-26|tmancal74|Minor changes to spectra densities
+bd0a45197c5ef3c5a279e5c4db603bc9dfb35158|2017-01-26|tmancal74|Automatic lookup for defined literature spectral densities implemented
+db2b2d73d02af64194f3f63d221590d8f12891b4|2017-01-25|Tomáš Mančal|SpectralDensityDB initialized
+ef46931f1662598d072170562ea21ae12274a374|2017-01-25|tmancal74|Spectral densities revisited
+8ceca1915fef2f1e4145e1f948395e5512697ce0|2017-01-25|Tomáš Mančal|Experimental addition on Function
+951f209c2fb53e5b52722b2da5676abd6857a455|2017-01-25|tmancal74|Addition defined for correlation functions
+aa91759ec61d1b28e0b18471fe5e14f4374b59ed|2017-01-23|Tomáš Mančal|Elementary Gaussian fitting of Absorption spectra
+f7d0fadf339ea473006bfd6e9ac7ffe664783a6e|2017-01-20|tmancal74|Removed an accidentally added file
+f071ce6f9032e53a9ff90e5a64c06712a76c54dc|2017-01-20|tmancal74|Unfinished Underdamped Brownian oscillator
+2dfadc163ce866e337821c44f143c971a22e9979|2017-01-20|tmancal74|Fixing building with SPA
+14dcad419a84faacba65257b077b7a615e1b486e|2017-01-20|tmancal74|Introduced single particle approximation on vibrational states in aggregates
+d9573db831f00ff9b8b22d2590a0abe7e517d80d|2017-01-20|Tomas Mancal|Merge branch 'master' of https://github.com/tmancal74/quantarhei
+15a4d319fc172bf8b9a1f5d1a2d7bbcb3112b2b5|2017-01-20|Tomas Mancal|Testing naive project cythonization
+53064715b05c29a65a7cc66236d2c0c360674dfb|2017-01-18|tmancal74|Gaussian fit of absorption spectrum
+14067537ae909ad8f3d12757be23da7a324cc702|2017-01-18|Tomas Mancal|Absorption tests fixed
+11decc92c26f63eabab7a472b340bcf30b19ef27|2017-01-18|Tomas Mancal|Version update
+797fb4be8d3192d4203c7f08965d4b60ae4db2f2|2017-01-18|Tomas Mancal|Disorder class introduced
+eccf77c6188197ad5d6d14cd07182ff8097d3712|2017-01-18|Tomáš Mančal|Extension of parallel package
+c3759fc2ac4384dad4859f6cb0e3018835f6cf0c|2017-01-18|Tomas Mancal|Merge branch 'master' of https://github.com/tmancal74/quantarhei
+6cf555db813154a5e2bbe326151e82fd3e05cfb4|2017-01-18|Tomas Mancal|Minor fix in abs
+86756d68b710a06114d73ba51d466d4b6cf8d574|2017-01-18|Tomáš Mančal|Mutual import of parallel and managers problem fixed
+ac8446f1bed151ef5976b68215d5d19996203fc3|2017-01-17|Tomáš Mančal|Introducing parallel_bypass context manager
+8683e34c1e34ddc5f0bd64946eb9c8a2e30a8b3a|2017-01-17|Tomáš Mančal|Tests of absorption fixed
+d9ff61faed65f76d384d11d11845e00c7d01ec53|2017-01-17|Tomas Mancal|Starting to implement various measures of spectral difference
+512b4a319d4fd1ab47ead60e64e4a984ac6e5bf0|2017-01-17|Tomas Mancal|Absorption spectrum has some fitting abilities now
+4f53aa08ec90f05972b150d74ce3a3f370b91494|2017-01-17|Tomáš Mančal|AbsSpectrumDifference class added
+dba04885f9376f2e4ed6d647f1d2009f3678f685|2017-01-16|tmancal74|Fixed reinstallation makefile
+ede781f78126513470107f21afd43a3f7c5e3db2|2017-01-16|Tomas Mancal|qrhei script can execute in parallel
+af433d4540e8726edd8537ca39a76c94f0c4fa6b|2017-01-16|Tomas Mancal|Installation issue fixed
+6ef81e72729848563f68aa3411f70b221c7998d0|2017-01-16|Tomas Mancal|Scripts qrhei and lams improved, problem with installation fixed
+3eb8801eab62f121c9bc973d1efb766a019f2204|2017-01-16|Tomáš Mančal|Scripts introduces, Abs calculation improved
+654b38f12cf0eddbda3c4d323958b131ca52c810|2017-01-13|Tomas Mancal|Improved parallelization
+1e8af04356df7e83b87df35f161bd9ff945cb6f2|2017-01-12|Tomas Mancal|Parallel calculation of AbsSpect, new class AbsSpectContainer to accumulate results
+55cb3bedd92e69f4b7887cb605d3c03336e3a167|2017-01-11|Tomáš Mančal|Fixing parallel Redfield
+c7a440bf1fe222f04276e1412576efa7a0bb1bc9|2017-01-11|Tomáš Mančal|Fixed a problem with absent mpi
+809c818c0b1767a137987050904de5ed61ab88a2|2017-01-11|tmancal74|small fix
+4d1507807f05074f2e863f0a0063c17eff871259|2017-01-11|Tomas Mancal|Parallel calculations of absorption spectrum - first steps
+3a3ed6212d929d53035026eaffc8d8549874c1c5|2017-01-11|Tomas Mancal|Sections of Redfield code parallelized
+16e3c6755ca834ec9bc7d9cfd0eabb15ccfc3218|2017-01-09|tmancal74|Testing mph on mac
+f3322ef3f99ae7c5f0e09cf1b84a76714184bacb|2017-01-09|Tomas Mancal|Testing MPI on Linux
+6900e385a8ba60e9dc3c58e584019d62a8184507|2017-01-09|tmancal74|distributed parallel capability with MPI (initial development)
+ad3959411fa727d2b02f3d72b5910123d578d23c|2017-01-06|tmancal74|Trying python
+8c949ec7f0f9b4991a7f96749c22a8f60ad1fc64|2016-12-19|tmancal74|MdRedfield update
+384c73289161358deba29d2b6bba8c45a22a5efd|2016-12-19|tmancal74|Preparation of Modified Redfield rate module
+fd8ae46386018b0e3025a6164fee4bdc454ef92b|2016-12-16|Tomáš Mančal|Preparation for Modified Redfield implementation
+3b6412a44547eb85495a77c71bc876268a2ada55|2016-12-15|Tomáš Mančal|Documentation of Foerster implementation
+263defac08b74bf56fec5435768f1eff36ebc849|2016-12-13|Tomáš Mančal|Fixing the issue of not recalculating Relaxation tensor in some cases
+c4a01680903d4b6533b2930489cbbe74f12bf9d4|2016-12-10|Tomáš Mančal|Fixing a bug in Aggregate
+d1c9d684dcae2024ec9aca904668707b256ed439|2016-12-10|Tomáš Mančal|Adding Pheophitins
+2746f75b65259b9f5208f3793bd58aa655dd2541|2016-12-08|Tomáš Mančal|New module for interaction numerics
+8f46617e9e3aa4894cb7411a8ea258591f1bebbe|2016-12-02|Tomáš Mančal|Testing improvements
+21136468e0602a1bec63112bf0890796148155f4|2016-12-02|Tomáš Mančal|implemented global setting of units without context manager
+d2d66655cb59549acd555d104b2126da90f09815|2016-11-25|Tomas Mancal|Adjusted precision of the tests
+4c9b85e242f23e566e55171d3476e5a4a2a9c944|2016-11-24|tmancal74|Measuring correlation function is fixed.
+ba31a2968fcb968d34c415980108b8dc14d40d75|2016-11-24|tmancal74|Version update
+7d97e0d25298683be1a0d6daa098199b78f7c873|2016-11-24|tmancal74|Absorption spectra testing fixed
+68e9eb53f5ba4f053b9f6b598534c1733be93f53|2016-11-24|tmancal74|Some failing tests retracted
+690cdaac0427db13d08c96c000cbf689266a40b7|2016-11-24|tmancal74|Redfield-Foerster throwing an error at recalculation bug fixed
+de60b89d484666b880ea0413d978b5cd2181b98b|2016-11-23|Tomáš Mančal|Absorption spectrum with all current relaxation theories
+3462c13a60cb355ccf32d8355ab7530d406a0fdc|2016-11-22|Tomáš Mančal|Redfield-Foerster working
+0cc08455a96de491b9384aa90c8ee535f70118cb|2016-11-22|tmancal74|Testing RedfieldFoerster - currently only works when calculating in site basis
+075fc8cb78300c959b153d719bce62362fd71af5|2016-11-21|Tomáš Mančal|Minor changes to AbsSpect
+6d87e50e3bd3d5093162e1cf6bf355205a889c62|2016-11-21|Tomáš Mančal|Relaxation in AbsSpect working
+08389efbcacfe37696a12be4b537163f72b20b4a|2016-11-21|Tomáš Mančal|Testing absorption
+c8fa5ee176ed272008ae393cfae5196e309a5b37|2016-11-21|Tomáš Mančal|Relaxation included in AbsSpect (secular approximation)
+bd79936ab679dd8c8faa54f9e9d712362b1b5179|2016-11-21|tmancal74|Relaxation effects in absorption (secular)
+8728fe7b6940a0bbdc0338d48c56c4e54e754638|2016-11-21|Tomáš Mančal|Indentation in Foerster
+3056ce654b36a3de33f20482adb6cc662bf7170c|2016-11-21|tmancal74|Transformations of time dependent relaxation tensors fixed
+977e291d688c5498d42c58a9816ce288fa971d0c|2016-11-21|tmancal74|Time dependent version of the Redfield Foerster
+77c38873dcac64db0455060f4c2f708afbbb8a3a|2016-11-21|tmancal74|Examples for RedfieldFoerster
+b933af16edcc385515565d3ac73ef334f7b6b97a|2016-11-19|Tomáš Mančal|RedfieldFoerster working
+9979b9f5ec4ee9e709d583d8cd334d1278441a10|2016-11-19|Tomáš Mančal|RedfieldFoerster working
+5f8e4a86823bb13f7a1c93a50480a6622b3ae651|2016-11-16|Tomáš Mančal|Minor changes on RedfieldFoerster
+000bc31816568cfbee21338f21edaca9a471b035|2016-11-16|tmancal74|RedfieldFoerster improvements
+3d2a3a2641b3a8603199801588dec0749cf08078|2016-11-15|tmancal74|Redfield-Foerster theory revisited
+37f65d05278dfb62e0edd002cffea6b3bd60702b|2016-11-07|tmancal74|Foerster rates fixed and equilibrium verified.
+7d7393de29dccbefa97aa5608b9d173702423e05|2016-11-04|tmancal74|Fixed an issue with get_Hamiltonian in Aggregate
+a0e407b7a7563099ac1b9b0c8189af6d0ff72902|2016-11-04|tmancal74|Tests on thermal population
+a6d368834cefe50ab44cac9bebe8377f0cbd10a2|2016-11-03|tmancal74|Verification of Redfield thermal equilibrium by acceptance tests
+7992ddeeb1eff0a53c7ac082723154e7155539f9|2016-10-31|tmancal74|Upgrading to version 0.0.7
+a20c12dc0ba309b72f7b88ef9273a11fbf3c1814|2016-10-31|tmancal74|save_data and load_data implemented in RDMEvolution
+43870fbda9eac09269d6c3a298edbb233d94f795|2016-10-27|tmancal74|Development of object persistence
+512d4d70f39bf5cb1cf03aa8a073ad08d0f8000a|2016-10-26|tmancal74|Redfield tensor from aggregate fixed
+10b68cb1040f60120532d6055af24c2c91eb2fe4|2016-10-25|tmancal74|Improvements on examples
+c900f436cdbb38f89927f3611b91852bcff0677e|2016-10-25|tmancal74|Implementation of PDB loading and of various Relaxation tensors
+20aeb9a5c683961b467c9c7bb94436f29f414d39|2016-10-24|tmancal74|Fixed the test failure; dipole_dipole coupling
+9d7b150173dc772fc6495ced780eaa305cb88010|2016-10-24|tmancal74|Aggregate returns propagators
+0b42a3d9dcc6529dd1736f8d52ccfd7bef3a691e|2016-10-13|tmancal74|protect_basis() method added to BasisManaged class
+2cf99c0e851634b9041f3336ae25d09b72a51e72|2016-10-13|tmancal74|Looking for improvement of relaxation tensor basis management
+19819d9cf2fa241a0a9771d3bf973db1be9e542f|2016-10-13|tmancal74|Basis management for Relaxation tensors
+01d8bf967a14ed90e162cdd10cc13d21cf3c2711|2016-10-12|tmancal74|Improvements on Redfield tensor
+d5802ae263925be9afb9c045a7c55cbe955d695d|2016-10-12|Tomas Mancal|Updated demo
+6321817c6f8da1650d253ab0080a7174c3aa72db|2016-10-12|Tomas Mancal|Merge branch 'master' of https://github.com/tmancal74/quantarhei
+3f830047fbd44e5ea8834980d432da6d876a7438|2016-10-12|Tomas Mancal|Updated demo
+b3fc6728db1e807a2b27601f19b8fb7c68a18362|2016-10-12|tmancal74|Demo update
+a052611c4f8a971de89a5fb35caa711ada23010e|2016-10-12|tmancal74|Redfield rates, time-dependent Redfield rates and Redfield tensor working consistently
+7e05f1df58f98535bf2d483fcaa01fd7b5804ad5|2016-10-11|tmancal74|Enhancement of a demo
+96aee2fed108b8b6adb0e363df2ef369b48ba095|2016-10-11|tmancal74|Updated documentation and some demo
+8220d33849d894ea47467d051485e99b9f606020|2016-10-11|tmancal74|StateVector put under basis management
+48aea830cd4363e1bf4e0469e46bece3d1091176|2016-10-10|Tomas Mancal|Updated latex docs
+2501457f6789d87f11e0cb673450f11a1e81e5f2|2016-10-10|Tomas Mancal|Makefile for documentation
+63b6b7ecb161f65321f888a762308d9aabbf40c0|2016-10-10|Tomas Mancal|Update latex documentation
+1579bc68619ffa0bf4263d80eab52b57712daa16|2016-10-10|tmancal74|Tex file updated
+d5086c186cd008cf06dc3c85ff485fc1c56f8b75|2016-10-10|Tomas Mancal|Added navigation icons
+d1eb724a874add9cb89db259b0978fdfeec691c1|2016-10-10|Tomas Mancal|Updated html doc
+01190b4a710ac07e6d9d0b7f527fcf96fc031435|2016-10-10|tmancal74|Added StateVector class and related classes for propagation and evolution
+94cd2e8e81c43f8313c37e3d339c219edbe7c1de|2016-10-10|Tomas Mancal|Some images added
+9d1c0cd369778d145a9c7837e24ce9d6c05ec7f3|2016-10-10|Tomas Mancal|Updated theory html
+dccd7554ed58759fa4f02c187c3f59b3b30ceefb|2016-10-10|tmancal74|Theory behind Quantarhei
+833d4da8a1e052a836d60ac17842e508d0a2f2e0|2016-10-10|tmancal74|PDF documentation
+dd20d0aeff5ffc264cb1d32f068dbe73e1b71c17|2016-10-10|Tomas Mancal|Added latex2html generated documentation
+d1e55968fc430a6b78f004de7146760d88abd3bc|2016-10-10|tmancal74|Introducing latex2html
+635136ef76fbbe327fff0235503892101f4980e3|2016-10-10|tmancal74|Latex class changed
+2e3214e1d96af5f97d983897e3ab13ec4c0548c7|2016-10-10|tmancal74|Tex documentation
+12ac8f495a372fce168ad77527ea1763ec1f34be|2016-10-10|tmancal74|Documentation enhancement
+416963cad6d4a72e152d5c959e31bac9ef276ff5|2016-10-07|tmancal74|Redfield rates corrected and put under tests
+e1284cede2e514c84e4070f032e4a3760f367038|2016-10-06|tmancal74|Created tests for Redfield tensor
+47f7be3a92025e01e53060e2a5d9adfad32b8f43|2016-10-06|tmancal74|Redfield rate matrix successfully tested against analytical results
+7556c3bc23785a7649a4ad8a9f8d4246a314649f|2016-10-06|tmancal74|Aggregate can now create a default system bath interaction
+4cddb6ab42a378666e060591b5feb4ebf6465366|2016-10-06|tmancal74|FG example made working before CorrelationFunctionMatrix rewrite
+43578037cfe0298a0ed7de96792aa22111f8769f|2016-10-05|Tomáš Mančal|Version number update
+0d399ba9fed3251f19ade826e4744bbae306dfac|2016-10-05|tmancal74|Definition of Redfield relaxation rates tests
+4837e887cc2b750c364eeb44dfd677ad760468a9|2016-10-05|tmancal74|Tests for CorrelationFunction and SpectralDensity set up
+b4f98643aea322a01f12c08e9924cf1c13fd681b|2016-10-05|tmancal74|get_SpectralDensity() is now numeric
+dfa868707a0b4f841c6d8f1314ef1ebe765bd739|2016-10-05|tmancal74|Reorganisation energy calculated numerically
+dbab265f965df01e498221b00ed51c54d2492036|2016-10-04|tmancal74|get_reorganization_energy method of SpectralDensity and CorrelationFunction
+33b5bb83c73ea36b6539aabf457cd4697291470b|2016-10-04|tmancal74|Improvement of DFunction FFT
+8f397270a7d1b07fbbd765b9caf8161296feb62d|2016-10-04|tmancal74|Improvements of CorrelationFunction and SpectralDensity
+92513828106e98566ecb111d318582fb4a720458|2016-10-03|tmancal74|Test commit 3
+cb4fdcbc1bbcbee14aee1e911029496045a43ed8|2016-10-03|tmancal74|Second test commit to trigger jenkins test
+56b879f684bf37f543191ba082d01b1f7b74c925|2016-10-03|tmancal74|Test commit to trigger jenkins tests
+0b1b2023b6461e7edf4e5ccdd84bdec5e08059d5|2016-10-03|tmancal74|Sphinx documentation initialised
+c860e01aea881cbe16fbe511da9f9376904d3127|2016-10-03|Tomas Mancal|Adding new test files
+5817bd1bc71cd747aafc80fcdb68fa20b723c92f|2016-10-03|Tomas Mancal|Improvements on tests
+a6c1905bc76f71e8f60ad13a3cd0ad5cfe97e989|2016-10-03|tmancal74|Correction in pylint tests
+de3506d0e9c08bb635cdf47e4014a666e2b1bc45|2016-10-03|Tomas Mancal|Extension of the correlation function tests
+973ef6d420465477d84687b1988bfc2f49ef9ab2|2016-09-30|tmancal74|Test enhancements (CorrelationFunction and SpectralDensity)
+77465a70e106d39fc5b31d3f26db693086f0a859|2016-09-30|tmancal74|SpectralDensity tests
+41c65597f92fe9d81925036d7c0bb7b11a1acab5|2016-09-30|tmancal74|SpectralDensity improved and put under simple unit tests
+3826cac27a64187d1b2ca5bb8fae24d38985473f|2016-09-29|tmancal74|Deleted a forgotten file
+cca984da6a07b8812e1cd1e10538f15c7efeedd4|2016-09-29|tmancal74|Improvement of the CorrelationFunction class
+ea1e03df765b92dc4ba46afaa80d07e9981b913d|2016-09-29|tmancal74|SpectralDensity correctly units managed
+3046967739e60421b4c5d66aa49fca1f82f730cb|2016-09-29|tmancal74|ValueAxis class simplified
+1e35106af98cae0d600aecbd06ad13374d501452|2016-09-27|Tomáš Mančal|Proposal for simplification of the ValueAxis class
+9c60a96713e64cb949c8c192f60d87b1428fd665|2016-09-27|tmancal74|Towards implementation of spectral density and related functions
+ed7e4aaf1c45abba5b2738b6de1fc96f839e9749|2016-09-27|tmancal74|Rough implementation of SpectralDensity class
+02d6e98c71016678564a1af957c5b9d32c23717a|2016-09-24|tmancal74|docs update
+4fba52a95c229e73fb839b3610d3848a2d32b258|2016-09-23|tmancal74|Documentation of spectral densities
+1674258bccdc131d5dc8607432184ec67504faef|2016-09-23|tmancal74|Absorption tests fixed
+be9b789aa2f3374682b620b04777577a39165fe1|2016-09-22|tmancal74|Fixed definition of CorrelationFunctions, absorption tests now fail
+105cc5dfc3b30c3e4d3911ad03da9b81c29d4cb3|2016-09-22|tmancal74|Trimer absorption tests added.
+4d823b46d940d7d1a33e9b26e652fcd34745338a|2016-09-22|tmancal74|Acceptance tests for dimer absorption spectrum created.
+a33f3a426dda5925ff1e6810dd499de6685bbfad|2016-09-21|tmancal74|Test of AbsSpect relaxed in precision to pass on 32bit machine
+c3d55968f689408e691c2a867e4fe562975cf956|2016-09-21|tmancal74|Fixed frequency_units manager and enabled AbsSpect saving
+2a103b60ca62373222131f5415aeb9a099060249|2016-09-20|tmancal74|Created a test for aggregate absorption
+cf53bbc96a65acfe48c6ad00b391b83bf9ae726d|2016-09-20|tmancal74|More of AbsSpect under units management
+74e4765fa9fd5322641a4ecb94f1eb43da9e32d9|2016-09-20|tmancal74|FrequencyAxis under units management
+e823e5267be99674617477dcb50f86151fb03d8c|2016-09-20|tmancal74|Correction of AbsSpect demo
+858c0ec4fb5c1cc2fd84df4ecd8c20c73c9f08ad|2016-09-20|tmancal74|Some work and tests on absorption spectra
+b1c06bac7e96a85a67e50ce932ee8a4fb1b3ef44|2016-09-19|tmancal74|Version typo in Manager fixed
+10263bb2180ad7fe2d94e1529647e7b7de0a4c8d|2016-09-19|tmancal74|Fixed an example code and updated version no. in the Manager class
+f33470ff7f1d74f0f76c16eadbb61f344ae53ab3|2016-09-19|tmancal74|Update to version 0.0.5
+7323d50ecf0d6ffd9fe26db4b76dc280973f6e7f|2016-09-19|tmancal74|A bug in Abs class fixed (in theory)
+b1f09c63f7b50d768bd5a653974fe7fe1b77a381|2016-09-19|tmancal74|DFunction handles complex values correctly
+c4ea52b966280198e3a85018215e754d8b33473c|2016-09-19|tmancal74|Documentation editing
+8a76cee64a96637c7fc1e8d3c32b9758c6125924|2016-09-19|tmancal74|Documentation edit
+ce96399858cbcf608973651e318fd767219c19b1|2016-09-19|tmancal74|Documentation of theory behind Quantarhei is added.
+fdd18dcc0a12c2660b5506ba6439dead92f0f661|2016-09-19|tmancal74|Documentation in Lyx added
+14a01c423e64eb889aff997a70eddfb96c63e0fd|2016-09-19|tmancal74|Created docs directory
+d170df3a37bcfba57df9c2eaecd3838bb5d313d9|2016-09-16|tmancal74|Directory with demo and wiki figures added
+6e83e4733bc0290c092add2595c10b9627af0fc6|2016-09-16|tmancal74|Updated FFT of the DFunctions
+44e2fd42cbf2f6f9737bdcc7aed822e2d09f8563|2016-09-16|tmancal74|CorrelationFunction class self-printing
+e652a052298b7bf4e196a37263a7b47ba3b7e4c6|2016-09-16|tmancal74|Plotting of DFunction
+e965e8af18caf43869478fb73a7e6e6d31fc51b4|2016-09-16|tmancal74|Extension and demo of the DFunction class
+68743807334fb7eb87581141ccc6cddb68ebdaf8|2016-09-15|tmancal74|Fourier transform added to DFunction
+6a19187628a95977cdedbec9e37f96582323722b|2016-09-15|tmancal74|Added some tests to Time- and FrequencyAxis classes
+66aba9e441cdc3c2a573366b888f506cacc68908|2016-09-15|tmancal74|Serious enhancements of the TimeAxis and FrequencyAxis classes
+ca967445e195707ebef06445214d5b953cc053df|2016-09-10|Tomas Mancal|General structure of a Redfield rate test added
+6f9958d2b9e90ac98df0c2b23bf5050829e925aa|2016-09-09|Tomas Mancal|Initializing Redfield rates testing
+e79dfa6d340a1f1bfaf93954d731502d4ce6ba6d|2016-09-09|Tomas Mancal|Working Correlation function test
+b036f8ece1184aa5ab9da8529d7e389952918b01|2016-09-09|Tomas Mancal|Masubara frequencies specified in corfunction test
+0e93ece585caec3f373db5058ef9aca4ef7073ef|2016-09-09|Tomas Mancal|Moving empty fcntl.py away from package root
+2d6a316e110a1d19807480dea874cd90f0fe4097|2016-09-09|Tomas Mancal|Minor changes
+1353bf5cdd1873ebc2cfacf993a1494fcd7f996a|2016-09-08|tmancal74|Correlation function tests improved
+ed8a8d8a19c3bb26f32bebac9cdf59fd19168dec|2016-09-06|tmancal74|Special task for windows
+d1c297645238895d9284f8e6b21d50b4d49a36dd|2016-09-06|tmancal74|test updates
+4d6546b45eced0d5d2f23d7330e1d25a4165bd74|2016-09-06|Tomas Mancal|test enhancements
+19a92d81ebbb22b11934a517c6a2290b7746f5d0|2016-09-06|Tomas Mancal|ignoring some files
+c96da0a04f7cc52ed25f059bcafa112c682ad575|2016-09-06|Tomas Mancal|ignoring some files
+01e7b9a7c44dcc50fc9b10c60207fa948556e19f|2016-09-06|Tomas Mancal|automating tests with paver
+16434ef6db86b31a8b9836793047dfe7e796c1a9|2016-09-06|Tomas Mancal|improved molecules test
+3d9352afdd9f587456d6f52200ad26edcc0e7ae2|2016-09-06|tmancal74|Molecule features updated
+78fa5fc1f801f1f3f38fdfa24884d41182c51e9b|2016-09-02|tmancal74|Correlation function Demo
+881904374d472b93f05a5bac01a05e5f199d3ba2|2016-09-02|tmancal74|Cosmetic changes in rc_single.py
+cada53d9c32ca9987ffad812e1ff13ae260e45a1|2016-09-02|tmancal74|Added acceptance tests
+09df410a4e14785cdc793f31011d9cb3102aaa9f|2016-08-31|tmancal74|Test suit reorganisation
+d554496fc16a1c3f9ce197d4d0566af6f1d368e4|2016-07-27|tmancal74|Removed all pdfs
+b2a84d2ac3473c6717eddda022ec422db88237e4|2016-07-27|tmancal74|Updated fg example
+1eddec385cf5b702e6f018c13f4911bd1b636474|2016-07-27|tmancal74|Redfield theory implemented
+0f8f392f95056f331a490079efb4b49068f16710|2016-07-26|tmancal74|Handling of units improved, some more tests
+b7149aab84d12a492c7f069338de3a3821f0c349|2016-07-25|tmancal74|Version 0.0.3
+65ccb11f83ec107a349d3507af7c9faa35635c7e|2016-07-25|tmancal74|Merge pull request #1 from tmancal74/gf-perylene-branch
+3865ba8a934a7fc6e5795e7153066305f597b7ef|2016-07-25|tmancal74|Removed example writing to package file
+af34bdc52b136159d78cc57a38f5cad5e6a02009|2016-07-25|tmancal74|Removed figure
+4b3cda06bfb02abc59b81d34190d7d5989e70df4|2016-07-25|tmancal74|Rudimentary implementation of absorption spectrum
+ea6ea34b93b4327d1d069eb502b8d170190f69a1|2016-07-25|tmancal74|PopulationPropagator and related
+be694640dcb1ebd147b8de1781f5e54f1315e148|2016-07-25|tmancal74|Implemented Molecule.get_thermal_ReducedDensityMatrix
+c631d635cf15880e3b2915dab529b715efe8ee72|2016-07-24|tmancal74|Created new version for upload to GitHub
+c7fdb16c3b51c711af41857a235ef3b7563d2620|2016-07-24|tmancal74|Setup update
+b7748e91e2e330a1a08c72b413bbb0ecaeb0a98e|2016-07-24|tmancal74|Updated setup
+22851885a524f5f1776b0dac24c284c5f04b217d|2016-07-22|tmancal74|Update of setup to clarify classifiers
+d7a90655bf88fa9f1d353dd8585e8ff926289336|2016-07-22|tmancal74|Updated setup.py to reject dependencies on scipy
+36a869bc727f602b7b494efd241de3bf527ff895|2016-07-22|tmancal74|Restructuring the package for publication
+96eb1791db51d9418743e69d13ca4be0a948b4a5|2016-07-22|tmancal74|Rearranged the package in preparation for PyPI publication
+e7c58630264554899fa473b762e47ff4b3e9fb3d|2016-07-22|tmancal74|Prepared everything for registration at PyPI
+fd85a6f0245d520ea5a85fb24ce57c960a761e29|2016-07-22|tmancal74|print support for Hamiltonian and Operator
+a44ae936fecec3f485e281f4beac722557c703f9|2016-07-20|tmancal74|Basis management works
+cf09c0a3dca3c7fc863150a6d5396f2d099f4029|2016-07-20|tmancal74|Context manager for basis seems to work
+56c113becbd54c2c20614d2ddbf45c5812e000b7|2016-07-20|tmancal74|Example with calculation of RC added
+90b22ffa887c4140ce38d3e917195f02c223d485|2016-07-20|tmancal74|Tests do not fail for the first time
+71babac052910d47dbd63b92a0114c582d5fa605|2016-07-20|tmancal74|First version
+58a51890b526ffc29a2fe155846676b40ad514fd|2016-07-20|tmancal74|Created .gitignore

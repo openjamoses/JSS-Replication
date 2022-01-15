@@ -1,0 +1,991 @@
+485dd7f832936e8fe11d70d07e32eea0187baa4b|2019-05-05|Shinya Morino|Adding a table of links.
+6f4fd569fe1e32e9cf1bd37a8e4cbf54c5c60bc0|2018-11-17|Shinya Morino|released version of packages updated to 1.0.3.
+6c12c3c9740783c84ee8e9378ac157dfdf032f99|2018-11-17|Shinya Morino|adding print_function to run on Python 2.7.
+b2ccb881005df2c385ab79968d40af6a7bab58d1|2018-11-17|Shinya Morino|updating docs for 1.0.3
+5d22fc37d75656ccc012619974a9029750429713|2018-11-12|Shinya Morino|CUDADenseGraphAnnealer: energy calculation during annealing fixed.
+101687372cdced6a4e16576812093f7e9817f820|2018-11-12|Shinya Morino|2. -> real(2.).
+abf29787a4e2a39149575aa067f7be83de88683d|2018-11-12|Shinya Morino|use dot_simd().
+1be063d7fecf706a9a69601ee6b53f7131b7c744|2018-11-11|Shinya Morino|Sudoku with wildqat.
+8cb85ebbfe82723c54cfc3a73bc537c43547f6e8|2018-11-11|Shinya Morino|Sudoku.
+b289acf3267f755b7a788e7c32ca409b231cbdb0|2018-11-11|Shinya Morino|sqaod version of wildqat.opt.
+48df74db098037596b7665981142b26dbe0b6739|2018-11-11|Shinya Morino|Tests to call anneal_one_step() before prepare().
+4137c6b343942aacbdde016111e6d4bdeae538b8|2018-11-11|Shinya Morino|Fix: segfault if annealOneStep() is called before calling prepare().
+2c39f2193b75f0bce10b11f6edee417b66c17e80|2018-11-11|Shinya Morino|Initial number of trotters should be N/4.
+9229c9483695c040dd8c9eac4e33f14385b38e22|2018-11-11|Shinya Morino|Documents updated for 1.0.2.
+11aa2478fbbea710d5d28a31e0a52b46228c33ba|2018-11-11|Shinya Morino|Updating setup.py version to 1.0.2.
+f8174a0e01413a6f520df91e169afa12f72dd014|2018-11-11|Shinya Morino|Removing redundant symmetrize() from sqaod.py.DenseGraphAnnealer.
+82d3b7b7f1b56c75e12dae5e89b921f62d7c7686|2018-11-11|Shinya Morino|Adding tests for get_system_E() for SA algorithm.
+2f5d1ed34745944708b493e1ba016f8dbd3ea6d8|2018-11-11|Shinya Morino|Adding tests for get_system_E().
+93efdc06c744eeb0b80d0612df05f3fa5cb2d7b8|2018-11-10|Shinya Morino|Updating version signatures in libsqaodc/libsqaodc-cuda to version 1.0.2.
+76d2980ea15d7fbcba20716c5b1e779fff99a4f4|2018-11-10|Shinya Morino|python c-extension for get_system_E(). get_system_E() is added to sqaod.py.
+55119c4068216f8be69a050ed3d33ed29af3dabb|2018-11-10|Shinya Morino|getSystemE() is implemented for CUDA-based annealers.
+1c7e06533b25ff0702b26c3b74abcf7c60d63b56|2018-11-10|Shinya Morino|getSystemE() is implemented for CPU-based annealers.
+36b13303d0cb93133be63975ed19e9bea36d81b2|2018-11-10|Shinya Morino|Add getSystemE() const to Annealer<>.
+b4bf9434fa3bb260b2e52342cbb91547f31b35b1|2018-11-10|Shinya Morino|Eigen classes are moved to .cpp in CPUBipartiteGraphAnnealer.
+348772bc12998a7ebf81fccd664368d5aec229dd|2018-11-08|Shinya Morino|version check updated.
+fc0f62247a9d5124d1a8a04ac831f66dd3d610e5|2018-11-08|Shinya Morino|calculate_E() and make_solution() are removed from sample code.
+c1384f05148b602e37ea08602cc25f8c84d33256|2018-11-08|Shinya Morino|calculate_E() and make_solutions() are removed from solver tests.
+eea339c7bfe07ef16aae630aae26ed48fc54f781|2018-11-08|Shinya Morino|Code in calculate_E() and make_solutions() are moved to get_E() and get_x() respectively. The calculate_E() and make_solution() are not required to be called get_E() before get_x().
+ec20518a3d906db632e7f26ffcd49f12a0b7e961|2018-11-07|Shinya Morino|Solver tests updated.
+45682fc39341c3002056c6f1e2a84efa232aadfc|2018-11-07|Shinya Morino|Fix: beta was not correctly applied in SQA.
+bc649b4365c8511a8457e99a4bbcbd9e34752fcb|2018-11-07|Shinya Morino|sqaod.algorithm.sa_default is introduced.
+38815c7b10093e17dd0a7fac0d4a67c217beb174|2018-11-07|Shinya Morino|sqaod.py solvers return copies of numpy objects.
+478512d47c014b54114422dedd912513bcc6e2e7|2018-11-07|Shinya Morino|tests for symmetrize() updated.
+c9986644f5686cacce8214777998e3f7e11cea22|2018-11-07|Shinya Morino|Fix: symmetrize() did not consider weights on non-diagonal elements.
+64f9c3569d00640d657fb233e67d9a9fd872a96b|2018-11-07|Shinya Morino|Fix: dE was not correctly calculated in dense graph annealers.
+25de2d809002a1b4d46b9688e20ee88a40e9e0fc|2018-11-07|Shinya Morino|Fix: temperature was not correctly applied.
+70b48d09c1011f792406624c1c542d55b398c0d7|2018-11-04|Shinya Morino|minor modifications.
+ab7126693ec94a16a73406ad150184f87a11decf|2018-11-03|Shinya Morino|export cuda solver classes.
+ba447a1d7b33a514b2f650fa2b4753807c1855ba|2018-11-03|Shinya Morino|fix typo for cuda solver classes.
+02cd38f35918d7e948a94eae3dc5fba6e500e620|2018-11-03|Shinya Morino|add _static/_template directories for docs.
+c35ccdcee4823a1173131dbae5ed321f138c4410|2018-11-03|Shinya Morino|Updating README for 1.0.1.
+5b7123a56971403654267e7c0ccaf83e4908020c|2018-11-03|Shinya Morino|.gitignore files updated.
+0b057e1ce161f1a7e007757b81df24b774a21945|2018-11-03|Shinya Morino|Makefiles used by sqaodpy.
+4a1cdae14c068f4b6f0c2a4288002fa8530465cb|2018-11-03|Shinya Morino|Hardcoded version string removed.
+72c86474a54ac7712d011c4030caadae88aed3c3|2018-11-03|Shinya Morino|Inherit docstring from sqaod.py packages.
+5d39fe34eefc7d9ada14034bedf90e5d6f25e5e5|2018-11-03|Shinya Morino|Updating installer version to 1.0.1.
+4ecea181623136c32e4f00cdd011a2fde881f52f|2018-11-03|Shinya Morino|docstring and sphinx settings added.
+3bc077be884766e6fc581d4a7539efe3b191f0b1|2018-11-02|Shinya Morino|Fix so versions. Set version to 1.0.1.
+e8bca9ed72a624bffe926de7b86c3396bed3cf67|2018-10-29|Shinya Morino|Updating README.md for v1.0.0 release.
+ce75c79b565ca88de2259cec72fd53f60b8e6a82|2018-10-28|Shinya Morino|Ticket num #58 -> #59.
+6b006f7d2bd06f735b077f8e045a490e3e198220|2018-10-27|Shinya Morino|version suffix of shared libs are changed to .1.
+3e4e6eeb13d4c669bfff38c595b64e8575dc11c4|2018-10-27|Shinya Morino|Merge branch '1.0' of https://github.com/shinmorino/sqaod into 1.0
+2b5387a99aa33d12bcf1b52fe714165df43f970b|2018-10-27|Shinya Morino|addin --version-info flag to libsqaodc.so.
+989732392424c6f8e8c06a2c30451aa65cfcab8f|2018-10-27|Shinya Morino|link to libsqaodc[_cuda].so.1
+783544491717a4f0564c137aaacdca19c79661af|2018-10-27|Shinya Morino|Merge branch '1.0' of https://github.com/shinmorino/sqaod into 1.0 wq
+2cd0da8e5cd4fc3a72698987d45019e3cca63315|2018-10-27|Shinya Morino|Updating docs and signatures for version 1.0.
+8acbd6a6685fdbf0363c850ae6478cf1f76d4815|2018-10-26|Shinya Morino|Updating docs and signatures for version 1.0.
+0339ce6b36904bbd87550f85dca36e62a1f60bf3|2018-10-25|Shinya Morino|Removing experimental parallel implementations.
+9e1b04a6e3620d6eb3bad0c31acf59faf0e20249|2018-10-25|Shinya Morino|Compilation checked with g++.
+0914a5fb9b64389c215bf92cfaf39d98ef27df7e|2018-10-25|Shinya Morino|Implemented and tested simulated annealing.
+2cf3fa88510b55b5a83f3f1d7fed45065619954e|2018-10-25|Shinya Morino|Workaround for build on VC.
+0809ed77b34ed7ba4601869df1bd1a3f6888b49c|2018-10-25|Shinya Morino|Tests for reusing annealers.
+6089a28add9d44bae029b5f9582e13b36ddfaf1d|2018-10-25|Shinya Morino|SA algorithms implemented in CUDA solvers.
+c3dbce5237d41df67f0f0e3b924027e938ab7937|2018-10-25|Shinya Morino|Fix: coef is not removed in tryFlipSAKernel.
+ebbbb460a9155185b9dc57d5aec7212b915f37e5|2018-10-23|Shinya Morino|simulated annealing for py/cpu-based dense graph annealers.
+2724d009fbeb5744ac6231cbe69052f7f3d41f77|2018-10-21|Shinya Morino|Adding SA algorithm names to preference.
+9cadfd7f754268ed33f5ac680f0912dd39635b97|2018-10-21|Shinya Morino|Simulated annealing implementation added to CUDA annealers. (Not tested yet.)
+913cafa491f08a4b9bd3b316249f8e1f380931b2|2018-10-21|Shinya Morino|Simulated annealing implementation added to dense graph annealers.
+12ce718db1f911623d6d8974471097d496c659ed|2018-10-20|Shinya Morino|Fix: CUDA annealers raise errors when m == 1.
+3b7d0dad88c45d9c4a8a8b4e709218ae7a18b657|2018-10-20|Shinya Morino|Comment out symmetrize() tests.
+73061b62ff97ea711b65fecce0f6eb9635d21b62|2018-10-20|Shinya Morino|Fix: sizes are not correctly initialized on deallocate().
+b7b2f92bad097144bbb06e743a3033694ed4d462|2018-10-20|Shinya Morino|Workaround for VC optimization issue.
+7145fca0115c26810e741786ce1df1f054eb34c6|2018-10-20|Shinya Morino|symetrize() removed from SharedFormulas.h. Commenting out symmetrize() test.
+45d9005ead85e4733c680a0b68a8a6e8561d6599|2018-10-18|Shinya Morino|tests for sq.common.symmetrize().
+6780796adc0ae728a51bce32e16839e3632d3317|2018-10-18|Shinya Morino|symmetrize dense graph qubo.
+03b35c5b8c484fcaaaf31c441f4bb9f95da0700b|2018-10-18|Shinya Morino|Using PyObject_RichompareBool() to compare np.float64/np.float32.
+b3c37c3a3d7fb806c345b8a04087d7e98c0e471a|2018-10-09|Shinya Morino|Merge branch 'master' of https://github.com/shinmorino/sqaod
+6c6e084188305fd8f5ed97a04db116b8e1a2b05c|2018-10-09|Shinya Morino|Adding notes for #57.
+2fd9fb1f37fe60c7db126329e0b977eac53a31a3|2018-10-09|Shinya Morino|Adding notes for #57.
+66a56d6645b29e83b38456ac6a1148484387478d|2018-09-26|Shinya Morino|updates for release on Ubuntu 18.04.
+7b2a799d5e4a7635f3cec64c3e0242beb282f5d0|2018-09-26|Shinya Morino|Merge branch 'master' of https://github.com/shinmorino/sqaod
+5a2815ef86bbcc093a6c59bbff6dca31206dd1ed|2018-09-26|Shinya Morino|add sm75 for CUDA 10.0.
+eb214ea9f20016b334e06f4c04ea78accb407911|2018-09-24|Shinya Morino|adding description for Kato-san's Dockerfile.
+6ffb49fca2990decd907e3c445dcd7e8e47b7be6|2018-09-17|Shinya Morino|updating description on CentOS(RHEL) repository.
+86ac54ef95a2270428090a10a94cc70fce993452|2018-09-16|Shinya Morino|misc fixes on installation instruction.
+4f29300b77011d0874aa83ab2391aa82c175418f|2018-09-16|Shinya Morino|fix typo.
+c0fb1835741eaedfb6dd79a22f1992331423d358|2018-09-16|Shinya Morino|Updating for 0.3.1.
+3bfbd8038a295b785a2c0895a0c7a4d8f2a0997f|2018-09-16|Shinya Morino|updated for Beta2(Update1)
+8053508326c90cc896d49c7e634d1229b967afe0|2018-09-16|Shinya Morino|cuda packages proides libsqaodc-cuda
+585950a4c74f9c5885845461737da59583745b28|2018-09-16|Shinya Morino|add python 3.6, 3.7
+b5bafeaa05909f424f977355c3ba29213823a323|2018-09-15|Shinya Morino|fix broken format.
+907f4e77a784e8a66a88becb350bed0b3bc61431|2018-09-08|Shinya Morino|added notes for binary packages.
+0156e65208baad118448d22e5778b27dc456b91f|2018-09-03|Shinya Morino|Updating changelog for beta2 Update1 (0.3.1)
+d6de8a4df0dcb58de7e4b7787038d42bf45c32cf|2018-09-02|Shinya Morino|using default libdir.
+ec9a9f22b84e2d963a89b67a367aa3c82624c666|2018-08-12|Shinya Morino|updating current project status.
+24f8eccd6d02c3d382f8bd6611ea2c803ad5b244|2018-07-28|Shinya Morino|Suppressing compilation warnings on Centos.
+d860fda932ed12054f9e0deb387cfc94f6885bf4|2018-07-28|Shinya Morino|Fix: using @libdir@ to specify  library installation dir.
+28bf19d2d76291e053aea9e74a0e64f9c7971417|2018-07-23|Shinya Morino|Merge branch 'master' of https://github.com/shinmorino/sqaod
+ffe713d431f4f609c8cbe6c63323f0eece0080f7|2018-07-23|Shinya Morino|creating link for libsqaodc_cuda.so.
+fa3167cc3c17334444f7201da7fdb0d25c39ba48|2018-07-23|Shinya Morino|Compilation checked on g++4.8.
+03c1633a9e65eaa79e38220811acdadf3d056a9a|2018-07-22|Shinya Morino|adding pip memo for pip testing.
+bb19e662753f2ba151cf28e57313a3b86e16f58f|2018-07-22|Shinya Morino|Updated to build extension.
+ab940647119ada80f15d4d16d69035b05f000b42|2018-07-22|Shinya Morino|doc/README.rst moved to README.rst.
+45cb510ecef5023861fc1436fdce5f3ef0409b22|2018-07-22|Shinya Morino|Removing obsolete files.
+f3d3621435f73642b2c3451f951ec5ae24d6024b|2018-07-22|Shinya Morino|build_py.sh to use setup_whl.py.
+7403196cbc82711aedbcf1629f350740878073a7|2018-07-22|Shinya Morino|Compilation checked on artful.
+7f6a1a79c71a609b3cf9d046561ebb7cee58ee70|2018-07-22|Shinya Morino|Fix: virtual package dependency removed.
+3b9fbc25e3aaa118535af399e846109d01d4764d|2018-07-22|Shinya Morino|Adding dev package configs.
+df4f4cfe1a91752e8296e470158c4b49b6dba69f|2018-07-22|Shinya Morino|Using static Makefile to build python extensions.
+e0972e5707d7bc597dcac4fe442db108e8ab3091|2018-07-22|Shinya Morino|Priority 50 for avx2, 20 for sse2.
+bdfe7b6b66f76a3b98f7526b01946e5b537bfdc5|2018-07-22|Shinya Morino|setting v0.3.1 in configure.
+abe9ca2342e461cc79ee5e2118afe9ae6399aedc|2018-07-22|Shinya Morino|install header files.
+ee7e4592251cfe1951a2425b0b8a2fec50bc3da1|2018-07-22|Shinya Morino|Removing an unused variable.
+784928ddf6356c406a5b2bccf32160dabbc2f53f|2018-07-22|Shinya Morino|Compilation checked on artful.
+6f77c52abf218ef69e49271fc09a2c7070230934|2018-07-22|Shinya Morino|Updating build settings/scripts for builds on other Ubuntu distributions.
+74f5cfdc247e60cf0da7da14f451d1f05b2a62ee|2018-07-22|Shinya Morino|Merge branch 'master' of https://github.com/shinmorino/sqaod
+8b21b58c76c0bce816f941863ad4335a1df30aeb|2018-07-22|Shinya Morino|Adding version test.
+067bc33778294a5c5d2eb72c106f4768fced6df6|2018-07-22|Shinya Morino|Updating version to '0.3.1', Beta2 update1.
+242484c2f1168b8b0a67bde4effa83e1765217bd|2018-07-22|Shinya Morino|Adding 'installation' section.
+80d7977f520a0c3b54de20c49e606a9868875cba|2018-07-22|Shinya Morino|Updating version checkers.
+e2651e320a4ced7aa46825e9faf6c8a55556a658|2018-07-22|Shinya Morino|version functions implemented.
+5ab47013c98fd5efaec3a128b5bbace98d62cc3e|2018-07-22|Shinya Morino|Merge branch 'master' of https://github.com/shinmorino/sqaod
+3d6cec3808647fd28c172d8767fd1c886a5b3dc7|2018-07-15|Shinya Morino|Updating environment checkers.
+aa0f40474ec4c7bcaad84db18b5e263945283e85|2018-07-08|Shinya Morino|apt-get install for git, git clone for dependency libs.
+54b7383cb228c54e8bdec7f47a3ebbefc321b127|2018-07-08|Shinya Morino|Removing build_deb.sh. This script is going to be moved to build script repo.
+de360041e63d816960422dca58a87a34c3182461|2018-07-08|Shinya Morino|Merge branch 'master' of https://github.com/shinmorino/sqaod
+14fbdaaf01f34454891c9b45c78ab13a96dc4a54|2018-07-08|Shinya Morino|using "CUDA_PREFIX" to specify CUDA lib dir.
+db3c4102c99229b5ab95cfe8cbf53e3e70b209f2|2018-07-08|Shinya Morino|Fix: WITH_BLAS not correctly initialized.
+b52801c16cc58a90082fe02e53bcf25a4688a068|2018-07-01|Shinya Morino|Beta2 released.
+fd61228de507b3aa32b630a5040d2bfb42db8a67|2018-07-01|Shinya Morino|Fix: numpy should be installed before compilation.
+3c25d5a48e394656754b055b8e15b4cc4b0995f8|2018-07-01|Shinya Morino|Merge branch 'master' of https://github.com/shinmorino/sqaod
+74b33ce8e9196746fccd7fc60c320b3d62750cac|2018-07-01|Shinya Morino|deb dependeicy to libblas has been removed. install correct version of numpy before build.
+d04429ba35c02210db7439b10013197fbad0e54d|2018-07-01|Shinya Morino|deb dependeicy to libblas has been removed. install correct version of numpy before build.
+4279558920674043f2e91b2637400485d5b0b794|2018-07-01|Shinya Morino|update version in archive name.
+0081ada08e4db3812801d88755d5a026e5d0e41c|2018-07-01|Shinya Morino|Fix: typo.
+1e8664dd2e8aa636ab4bfd64cd1760488e0a9c4b|2018-07-01|Shinya Morino|Date format fixed.
+c9e7003d52496bb7a91df5040fa4b0e93d7e70c1|2018-07-01|Shinya Morino|Merge branch 'master' of https://github.com/shinmorino/sqaod
+6eb2da636e02e0f7be424be8f68fb06d7ea1f87c|2018-07-01|Shinya Morino|version 0.3.0
+5d36e62a5958820532ba1f75788849f045f2d050|2018-07-01|Shinya Morino|version 0.3.0
+765ece990e8baf34aef45984eb187e8fc2326931|2018-07-01|Shinya Morino|Updated for beta2.
+d720c47d23fb40bb3c56939462ff7f152bd0566e|2018-07-01|Shinya Morino|Adding -expt-extended-lambda to allow device lambda.
+b0fb6e76b40c99d0eab734bb6af156dc14c09a5e|2018-07-01|Shinya Morino|Updated to use public interface.
+9f36dcfda57c62f7964da740d72918827ef7cdd2|2018-07-01|Shinya Morino|Fix: mutex_ added as a member when coverage test enabled.
+e16556a4a972d6aa92b26c9fbebe2cfd8d136095|2018-07-01|Shinya Morino|Workaround on Windows. Temporary matrices in Eigen may have wrong alignemnt on Windows.
+3016ffa3494c6ec23b35505928d9fa0bf1554d8b|2018-07-01|Shinya Morino|tileSize is corrected to be a multiple of 256.
+a4f79da9ebd77f1b9c0def837279ccbb8e4e17c4|2018-07-01|Shinya Morino|Fix: wrong output to log tileSize_.
+e6c1c162b0dac817e6837babde95321cc6c2cc5d|2018-07-01|Shinya Morino|VS projects updated.
+2018d0214290b5c616f8569a5d5a2e817b3df9f5|2018-07-01|Shinya Morino|DeviceTransform2dTest added.
+71bd2de728a8f65b28848ce0055e693f697c38fa|2018-07-01|Shinya Morino|Applying transform2d() to generateBitsSequence().
+070aac1bad96ed320cef8eebe125affe548af7b4|2018-07-01|Shinya Morino|Enabling transform2d() for CUDABipartiteGraphAnnealer.
+cce05e2307959395b2f3e341b0dfd00d7f3a2f85|2018-06-30|Shinya Morino|W and J are symmetrized.
+64671a5b3daf940fec00280b00f4c431383954da|2018-06-30|Shinya Morino|Applying transform2d() to CUDABipartiteGraphAnnealer, currently disabled.
+5890b0aa44826bf0b6c45cd3ecf5ce2d9d1ccb66|2018-06-30|Shinya Morino|Updated to include 'devfuncs.cuh'.
+496581b4075618439acd9b084638c7e9ad619d7f|2018-06-30|Shinya Morino|removing 'struct' to suppress warning in VC.
+588042e54a6539a04bd45e4a0b0900a587697f65|2018-06-30|Shinya Morino|Updating VS projects.
+c25cb916bfa65cfa492c44522cf9e58989e43a3e|2018-06-30|Shinya Morino|The transformBlock2d has been applied to transpose and symmetrize.
+ee7223afd466dcaa10c378d84351a7afdfce3536|2018-06-30|Shinya Morino|The transform2d() has been applied to all simple 2d operations.
+04cd5f062ceb90f88f86fdda6eee4b6ac920a2fe|2018-06-30|Shinya Morino|cub_iterator.cuh is renamed to devfuncs.cuh.
+d474f9a2b9fc6b23246645866f64b8520632d6d5|2018-06-24|Shinya Morino|Updating VS project.
+5e081b0101a8d9b3b0d485e9331971432b9b67a6|2018-06-24|Shinya Morino|Suppress warning on VS.
+b495175ea922d10b2dbf268b4259b094dd6ab0e1|2018-06-24|Shinya Morino|Using d_J_ for temp matrix to save device memory.
+586bd6f94a75328693915d3844bfbae1542bcdbf|2018-06-24|Shinya Morino|Fix: clearPadding() was applied to W.  Fixed to apply to J.
+500f95cbdb4ee8a25ce05fd45e721b5dd63fe1fd|2018-06-24|Shinya Morino|symmetrize() is applied to CUDA solvers.
+81befec97045e08e24773f78d19c4e70997e6a02|2018-06-24|Shinya Morino|Adding test for DeviceMath::symmetrize().
+6b40b7bc91a5e54df2066878aa956c54279e9edc|2018-06-24|Shinya Morino|Adding CUDA version of symmetrize().
+1711abaa01101356fb3b6d3ab63fe7e9eed2661e|2018-06-24|Shinya Morino|Adding symmetrize() tests for CPU solvers.
+94e67b0397ad19c30f9ba5fbcd370dcaff3ad523|2018-06-24|Shinya Morino|symmetrize() is applied to CPU dense graph solvers.
+397ecc13779d03061313ce22275e4cf91d853058|2018-06-24|Shinya Morino|Adding symmetrize().
+a2cf712aa39a49fdcf0e0c3af5b34277756a1a33|2018-06-24|Shinya Morino|Size type of generate methods was reverted to sq::SizeType. It's OK since the max buf size for random numbers are limited for now.
+b8a91a0dadc7533f99a21a1db76cca793a14d27c|2018-06-24|Shinya Morino|Limiting buffer size for random numbers to 128 MB.
+c419af10a678e146efd106d45465b1302be76136|2018-06-19|Shinya Morino|Setting default to disable blas.
+72e2e07a3ffc3654f2219a468cadee0fcf416bb4|2018-06-19|Shinya Morino|Fix: compilation error on g++.
+bfc9ce0297ea86d0a1c198b89734d794023d9c6b|2018-06-19|Shinya Morino|Merge branch 'master' of https://github.com/shinmorino/sqaod
+2866c37e53cc5fd50f88e5b77b3970b53dd4879b|2018-06-19|Shinya Morino|Fix: typo and position of stdout.flush().
+14c89c41ad0cc3140393ad0f1ee3f655c3d06153|2018-06-19|Shinya Morino|getNumActiveCores() is changed to getDefaultNumThreads(). getDefaultNumThreads() returns 1 when OpenMP is disabled.
+01cfd01a0dce584b1d1b50dfdd3f2bed2f204a4b|2018-06-19|Shinya Morino|Suppressing VC warning.
+2582346743cb2554ccba1e852e0015271401f28b|2018-06-19|Shinya Morino|Fix: compilation error when OpenMP is disbled.
+980640943857e66ab39555f34d971ac66f4b5aee|2018-06-19|Shinya Morino|Increasing tile sizes for better performance.
+cabd773ed9456c706b9dce6998dd7b50a8a56ce4|2018-06-19|Shinya Morino|Initial heap size is changed from 512 M to 128 M. newHeapSize() allocation is limited to 256 M.
+ff83e88da0f8996ef144f1bb45d13f9084afeb71|2018-06-19|Shinya Morino|Fix: wrong tileSize check.  tileSize is set to 1 when N=32.
+f7090c571063282059d57837af6c9a118c56c5e4|2018-06-19|Shinya Morino|Fix: device memory leak for fixedSizedChunks.
+0a14f1e887295e384b7a459ea701b66c998d0ea2|2018-06-16|Shinya Morino|Merge branch 'master' of https://github.com/shinmorino/sqaod
+33bcd00ecf51bcad82dbc4de98ffbfaed5c0463e|2018-06-16|Shinya Morino|Updating log messages to output actual execution time and #iterations.
+96b18a1d7ed082e2370c55fcefd899261a2b8861|2018-06-16|Shinya Morino|Updating nIters recalc logic for estimatino stability.
+21ab50fb9215e798ee9f5c121a304e155c87f545|2018-06-16|Shinya Morino|Disabling BLAS by default.
+982e7953a6111b03f1139bf08a3285549f4b7505|2018-06-16|Shinya Morino|Updating log messages to output actual execution time and #iterations.
+cc580664de9ae93acfa7919d721367ec283820a1|2018-06-16|Shinya Morino|Updating nIters recalc logic for estimatino stability.
+ec13d43d482410e28feec5cf2117714c478a8b17|2018-06-16|Shinya Morino|Disabling BLAS by default.
+4200f52b41fce143236d5bbf1bd3dbdf8daefc7f|2018-06-16|Shinya Morino|Disabling internal multithreading in Eigen.
+a800ede2bc162d6f08a7d7c9f00b5fd0207c2dbd|2018-06-16|Shinya Morino|Addin some bit num to Nlist.  main updated to run all annealer benchmarks.
+f97d19da7bdf44c9f0ae7fa2a0954d931fd57a9f|2018-06-16|Shinya Morino|Barrier and some log messages are added.
+aa2ac8685925292dd5b03ddd48d0fcbeb8925291|2018-06-16|Shinya Morino|Fix: old macro name to enable blas was used.
+421c858bd33436394376bd5722b7032faa612761|2018-06-07|Shinya Morino|Fix: Buffer size is specified by size_t.
+19b05e75f4934423adad9e655e532140174f05a4|2018-06-04|Shinya Morino|adding small benchmark code.
+df6aaf7c4d8c619901410673fe70deac9bbd2245|2018-06-04|Shinya Morino|Adding code to enable experimental ParallelWorkDistributor.
+353bef8994aefa52cdafb16a0cd8c2809c712d06|2018-06-04|Shinya Morino|Adding experiment flag to python glue.
+ec822c8090db37882f78044983747f509565f274|2018-06-04|Shinya Morino|Adding experiment flag to Solver base classes.
+d63d5f92df3df630c56f90b82cc6e6922b064ffe|2018-06-04|Shinya Morino|Adding implementation using ParallelWorkDistributor.
+2fecf3846e8051f356e12bdc45d6fa33435ea005|2018-06-03|Shinya Morino|Fix: Apply sse2 when unspecified.
+61d2293ae51b170fcb8f789c5d0a7351ea2a9810|2018-06-03|Shinya Morino|Merging experimental implementation with ParallelWorkDistributor.
+74e22cb3b8d8151f300f117fc5c4d2e2bdfbfae3|2018-06-03|Shinya Morino|parallel work distributors (experimental).
+3fddf24b6b4ea966662ef5b15493323d9798928c|2018-06-03|Shinya Morino|Seperating single thread execution and parallel execution by using OpenMP.
+65ab3213b1ee8d3693dc31f246f125f2ad490ba4|2018-06-03|Shinya Morino|Fix: devStream was not set.
+119623c27fbee75cd9f79d73c3d717d52a98246a|2018-06-02|Shinya Morino|Alternative implementation for 4-vectorized batched dot/sum.
+9f82d2e2ce9f264a6569884e3c3c6228e52e442e|2018-06-02|Shinya Morino|Clearing VC warnings.
+ab426aabc31eb2c8dfd7ee3bac68330d828aa672|2018-06-02|Shinya Morino|Fix sum value type.
+d68bf4dbb0729058f8b5d46a1a2526211565b480|2018-06-02|Shinya Morino|Merge branch 'master' of https://github.com/shinmorino/sqaod
+6a122153a7a2311066aab7bfa771354d51c8dc05|2018-06-02|Shinya Morino|Removing EigenMatrix to control memory alignment.
+baebdc5ffe6109ea16c23cc100dcb959800f7297|2018-06-02|Shinya Morino|dot_naive() added for cases SIMD disabled.
+2a77e5baf0804e403658a8496d22e5c79f7a94ba|2018-06-02|Shinya Morino|Adding MatrixType<V>::clearPadding().
+2c3cafdbe15cbf988ee0368a4fafe5eb5af63823|2018-06-02|Shinya Morino|Add MatrixType<>::rowPtr().
+5e82bc722e8a0a460a3360d186dad3b62cb24149|2018-06-02|Shinya Morino|Merge pull request #48 from shinmorino/cuda_optimize
+430c5c8cab777514e00cf8cdcb6b54920282a32b|2018-06-02|Shinya Morino|Adding --expt-extended-lambda to enable device lambda.
+89e6b7ba22b83e67268b8adfe90765f7db3ff18b|2018-06-02|Shinya Morino|Fix: removing unused method.
+c4532498f9ea305dae45fc1fc1f48b55962ddc88|2018-06-02|Shinya Morino|Updating VC project.
+da611b6149c9f8fd8739c38e694373836bf70b84|2018-06-02|Shinya Morino|VC workaround.
+ade735733ee4a744b66c1942ed6bd89fe7d12b45|2018-06-02|Shinya Morino|Fix: test case did not use correct dimension.  The q is not cotiguous, so using operator() intead of opreator[] to set values.
+7b440f104bfa75e32fa0a40ad2dd21311403a3fc|2018-06-02|Shinya Morino|Adding DeviceBatchedSumVec4 and its tests.
+77c36d2b77d0a305a460bb8e23125f18d6effac1|2018-06-02|Shinya Morino|Enabling vec4 dot type.
+83615212601a07da8ade92a99d0bf41674535a88|2018-06-02|Shinya Morino|Fix: Adding STRIDE_ALIGNMENT to DeviceMatrixType<>. Both DeviceObjectAllocator and DeviceStream use the same alignment.
+892e202114d918f1c9062dce70bd27189ddfb030|2018-06-02|Shinya Morino|Fixes for clearPadding().
+eb8490e391680785b47c37384bc5d67cd439b692|2018-06-02|Shinya Morino|Fixes for refactored DeviceSegmentedSumType<> and its derived types.
+0cd4c51728944e07e7c0f5f889963aed79e574cc|2018-06-02|Shinya Morino|Adding DeviceCopy::clearPadding().
+88216145bd5df64137c64a54cde09de077c3e6c2|2018-06-02|Shinya Morino|Alignment changed to cache line size.
+c3e5b9b550e1b8f4c43c2bbb0e06b1e28569d33f|2018-06-02|Shinya Morino|Renaming DotJq*<> to DeviceDotJq<>.
+b6d996fca89f933e566eaa7d53bf307df4266d3f|2018-06-01|Shinya Morino|Merge branch 'master' into cuda_optimize
+ed361f2f2db33cc6bfd359ca7273205adcedb4c1|2018-05-31|Shinya Morino|DeviceSegmentedSum is refactored. The initial implementation of 4-vectorized version introduced.
+437460fc1ab67e37e8d64a3ac7e643b504575fd8|2018-05-27|Shinya Morino|Using appropriate include for intrin.h.
+4cce600620674f267a347e241330428fcc66d406|2018-05-27|Shinya Morino|Adding os_dependent module files to VS project.
+f643d0c0ccc0b832d4c08eac288b511b0f7bb517|2018-05-27|Shinya Morino|Merging os_dependent module from cpu_optimize branch.
+bd03940a048e6bbe7f8b753ec5f759d02df3a698|2018-05-27|Shinya Morino|Simplifying OMP pragmas for acceleration on gomp.
+e6c4551b65c3cc28d42d949a7fec713cd529b15b|2018-05-27|Shinya Morino|Removed limitation of number of cores.
+208445c2b56453608d3cd78f8aa951bc5c5c4976|2018-05-19|Shinya Morino|Simd dev (#44)
+aecd97550b11fa191cbcc8d375c3382796363290|2018-05-19|Shinya Morino|Adding Dot_SIMD, and applied to CPUDenseGraphAnnealer.cpp (#42)
+2f699925b84c496effdc87bb8402fd739e470e1b|2018-05-09|Shinya Morino|Parameter checks updated to remove redundant checks.
+4cf4c609053c57bd32695bcf646e0e0a8b5143bb|2018-05-09|Shinya Morino|Problem size must be smaller than 64 for BFSearchers.
+8d7ed292c2453e2373bf4b65ab30ebcdfda54504|2018-05-07|Shinya Morino|Removed redundant matrix symmetry checks.
+deff844abea1595802a7c9621b9d4a8e949f2698|2018-05-07|Shinya Morino|ShaperChecker.h and RangeMap.h have been moved to sqaodc/common/internal. Corresponding #include's are changed as well.
+d63fe92c66541bfcec6c7d8f5d4bbd3cb1dd78c5|2018-05-06|Shinya Morino|Workaround for warnings on Visual Studio 2015, filed as the issue #41.
+394143bb0737fd6d2e77f80d61056a3fa5d4057e|2018-05-06|Shinya Morino|Fix: readding import device to load sqaod.cuda.formulas.
+e2c3bab0a7f6b114d7603cdf1d921c549cceb514|2018-05-06|Shinya Morino|Updating VC projects.
+87d031c914e786eaad77ec0ade11ffef887fe89b|2018-05-06|Shinya Morino|Fix: updated to use the latest methods to assign device.
+28e74ee068724e727630d0e37f1d26535c61b0fa|2018-05-06|Shinya Morino|Fix: typo, correction for 0fe5a6b84.
+bb45a35c5a29b7e791d5cb3283a7149f1395aadf|2018-05-06|Shinya Morino|Python glues for formulas e-extensions are updated to use public API.
+145c6704d7e05613b92ada6471bf828515273f3f|2018-05-06|Shinya Morino|Python c-extensions are updated to use sqaod public API.
+a7f687ba2323eee2c9a0580c3e912f68c398f861|2018-05-06|Shinya Morino|Redundant Common.h include removed.
+874d25dd48209f297c8145e6a4ae50d591b4eb32|2018-05-06|Shinya Morino|perf test app is updated to use sqaod::native classes.
+59e49feb940495fbd37578a81ff166bbb509d81f|2018-05-06|Shinya Morino|Unused export headers removed.
+8cb429509c37be904bdf063445812db76ea01b91|2018-05-06|Shinya Morino|Factory methods for public APIs have been implemented.
+0fe5a6b84cbb80c03f8f9a393cdfca243d5bc2f6|2018-05-06|Shinya Morino|Introducing interface classes for CUDA solvers. All CUDA solver classes are updated to use interfaces declared in api.h.
+0eb63672276115d239d68db46d904cefc527820a|2018-05-06|Shinya Morino|Adding CPUDenseGraphFormulas and CPUBipartiteGraphFormulas for publicly accessible classes.
+9468f65fe7aecbe17a50c7af2195133c233b7857|2018-05-06|Shinya Morino|Introducing sqaodc_native.h to replace sqaodc_native.h. sqaodc.h is updated to have public APIs.
+fee9ee7140ee06439c6a94083fd5c6727959bf8e|2018-05-06|Shinya Morino|Adding Formulas base class.
+2e1f4731561647bb49effa54dcd1a9d064fa3d9b|2018-05-06|Shinya Morino|NullBase is applied to Solver interfaces. Adding deleteInstance() to delete all NullBase-derived class instances.
+97cd5dba27ee865d90a6fbf3f72e257728ca87b3|2018-05-06|Shinya Morino|CPUFormulas.h/.cpp renamed to SharedFormulas.h/.cpp. Corresponding includes updated.
+13e2ae7cdf74c06ed9c4397b3696ae57bfd73174|2018-05-06|Shinya Morino|Adding NullBase class for the base class of all public classes.
+d81d2881f0a240a94cff1ccdac860ce1123d1bbf|2018-05-06|Shinya Morino|Applying example_problems._quantize() to suppress rounding error. All epusirons are set to 1.e-6 for float32 and 1.e-12 for float64.
+f5da2f4c341c3ebba7fdc8d5cb529f3c77bf467a|2018-05-05|Shinya Morino|VC projects updated.
+3bc823149209cd91f4e0c34d88eb7906a74d8fb6|2018-05-05|Shinya Morino|Compilation tests with VC.
+61e78f22a0d3a67e1044c0d5033fc1b3bf12b8d6|2018-05-05|Shinya Morino|adding latest version.
+faad80d682e26256ec173059080a4cc5e56131f0|2018-05-05|Shinya Morino|updated python package version to 0.2.0b1.
+d7b51e59246f0d2babb24fce79fab20de3349b38|2018-05-05|Shinya Morino|Updated for Beta1 release.
+eecfb569f2e607da8c4a5ecc7e59a6a08e651248|2018-05-05|Shinya Morino|Scalar values are converted to appropriate np.dtype before passed into c-extensions.
+262b1a29d59f65139103d403325add571af471b0|2018-05-05|Shinya Morino|updated README.md again.
+334b3e2bcc01b7b844ba20832f88530c58d82b4e|2018-05-05|Shinya Morino|updating setup scripts and docs for python packages.
+040a19a06f0f705f6d318f4a21f419423007f474|2018-05-05|Shinya Morino|Fix: avx2 build fails.
+451b24e573d5a26e1c4c6ceb0a0bda8175d46ac5|2018-05-05|Shinya Morino|Updating for beta1 release.
+b6032d40d7b6ab3ae33bc00c30454325015878f9|2018-05-05|Shinya Morino|Version is updated to 0.2.0b0.
+a4eb0d1bb76a633244c614467615bca704d2829d|2018-05-05|Shinya Morino|README.md updated for Beta1 release.
+a9e8a591d6dc37f711641cd96defb13e86490f1c|2018-05-05|Shinya Morino|Fix: priority for update-alternatives does not give correct values.
+1fbb37448f3fb74b3c8916c396fc75d5f873c2b7|2018-05-05|Shinya Morino|Removing dependency of libsqaodc-cuda-9-0 to libsqaodc-sse2. Adding dependency of libsqaodc-cuda-9-0 to libsqaodc.
+ea32630c033611e8a451472ae5609d8ad299f53e|2018-05-04|Shinya Morino|Updating changelog for beta1 release notes.
+58b488298334fb4b97df71a8ffce04f788a99d0b|2018-05-04|Shinya Morino|Updating license files.
+b9fd61daaf214b3d4090252619d85e7c317b54ee|2018-05-04|Shinya Morino|Changed package dependencies. libsqaodc has dependencies of libsqaodc-sse and libsqaodc-avx2, and libsqaodc-sse has priority to be used. Users are able to activate libsqaodc-avx2 by using update-alternatives. Also enabled Vcs-Git and Vcs-Browser fields.
+0010e146a670dd7aaf920fb7a41779762d9e4acd|2018-05-04|Shinya Morino|Updates for deb build scripts. libsqaodc is now a virtual package for libsqaodc-sse2 and libsqaodc-avx2. Libraries are installed to /usr/lib/{package}/, allowing update_alternatives to choose one of versions of packages. Also enabled for libsqaodc-cuda to use update_alternative for multiple cuda versions though now we only have packages for CUDA 9.0.
+ae2fcd284bd411d63142ae9130774346180a283b|2018-05-04|Shinya Morino|Remove warning when openmp is disabled.
+20a761956bcdb0c8a8a3a35928a788cb23c8371b|2018-05-03|Shinya Morino|Using Eigen for MatrixType<>/VectorType<> operators.
+f58070fda3a1ebc7b860997a84ae27d7c4902d2c|2018-04-30|Shinya Morino|A enviromental variable, SQAOD_VERBOSE, is introduced. SQAOD will output logs when SQAOD_VERBOSE is defined an its value is not '0'.
+cdadd63c485a7781e4dfd8c5d7b46107ad5e88be|2018-04-30|Shinya Morino|pyglue classes and functions are wrapped in anonymous namespace.
+4e3bf09657a9ee371daf037dd464e2bec0327030|2018-04-30|Shinya Morino|Adding ndarray type checks in python c-extensions.
+434af028d07fa9f0cd798287380d2a7fee41551f|2018-04-30|Shinya Morino|Values for numpy.float32 and numpy.float64 are properly copied to C variables. Type fixes for float scalar values are introduced in CPU/CUDA python solvers.
+2dc38a8897158c1a617d878ddcf72057c0c900b1|2018-04-30|Shinya Morino|updated python code and c-extention modules to use set_qset(). set_q() accepts array(dense graph) or tuple of array(bipartite graph). set_qset() accepts list of array(dense graph) or array of array tuple.
+6a4ff95840c3617bd847c0fb9b8aafa998aa6098|2018-04-30|Shinya Morino|set_q() for bitset array is renamed as set_qset().
+0d9b6b75f55bad45aae1a6fb6eeb9dc6604f9f53|2018-04-30|Shinya Morino|Adding wrong dtype tests template.
+ba55cd01464793a79ca43ae29a33fcb21c464d44|2018-04-30|Shinya Morino|Fix: trivial fixes in CUDAFormulas.
+36c196eed76a7e58e891d378cf4a392c0682c195|2018-04-30|Shinya Morino|Enabling sqaod.cuda.formulas.
+7fcf29346d419970c131f3553c555517fb1a035b|2018-04-30|Shinya Morino|renaming common/cuda -> common/cuda_probe to fix name conflicts.
+3c12052e835992a26f13cff91162e2e5d6beeaea|2018-04-30|Shinya Morino|Merging aligned_mat branch. (#35)
+bd373f90d5a6ddb263365e95a8bf29f2b4ba69a0|2018-04-22|Shinya Morino|Updating python package version to 0.1.0a2.
+833a3e213a7de25811c626a3530d756fe876a57f|2018-04-22|Shinya Morino|update version to 0.1.0a2.
+513b183cc6d5faf49688bb0e2a7b9bbc5b2b1ba6|2018-04-22|Shinya Morino|fix: error in importing cuda module.
+f25fe8f7655dc16d56e373a57e6d491b582e7b99|2018-04-22|Shinya Morino|updating README.md.
+0178ef4995344c44359fef4591284d43cb546fff|2018-04-22|Shinya Morino|Updating README.md for the alpha2 release.
+9670150ebd2b2d0cf859df99174ccb1ce50c55fd|2018-04-22|Shinya Morino|Updating README.md for the alpha2 release.
+aaf530a3c1d62ec29732dba0f394543b9ef43560|2018-04-22|Shinya Morino|Fix: typo in examples.
+bcfe4e798f48fec3de7ba94f9038d751d684b865|2018-04-22|Shinya Morino|tested by python3.
+64b82e6a2612a8b87fe1b3e2eedd0c9293c78b4a|2018-04-21|Shinya Morino|Correct format.
+52308ab29ee05902e1cee49700e83e737fb49fba|2018-04-21|Shinya Morino|Merge branch 'master' of https://github.com/shinmorino/sqaod
+55fc254d95bbf53476bcf728825ec08a98859fdd|2018-04-21|Shinya Morino|Versions updated.
+d6ac134b1047285e37244aa5ccee564cb6a8103b|2018-04-21|Shinya Morino|Temporarily disable CUDA formulas tests.
+3d5abd4dabb10e17f65a50c5f44d5e3b584fa255|2018-04-21|Shinya Morino|Removing unused test code.
+c8507fd2a1b329caa86080c84a5a44dcf39bd873|2018-04-21|Shinya Morino|Applying formulas_base to CUDA formulas.
+9f8b0d2a419995bc432fd9a4da12440f1d4af9ee|2018-04-21|Shinya Morino|Removing unused tests.
+a243f5abc93fd9727c201e1933f6fff9c09d30dc|2018-04-21|Shinya Morino|Adding batch_1 tests.
+ac98f36d65c5c0c150e3f5ca151d4a678cf4220e|2018-04-21|Shinya Morino|Fix: batched  energy funcs do not accept nBatch = 1.
+79cd1c4ae18c86be78c06dd8b72ce7d7dcabfa12|2018-04-21|Shinya Morino|fix_type() applied.
+80b85ee8db82bbbfc4ea0057309de87b60c95752|2018-04-21|Shinya Morino|Fix: misc fixes in py.formulas
+0e636fe8fe37da479d802214dd83a15f9e439345|2018-04-21|Shinya Morino|sign() makes clone.
+95d676edea6d7c67682b15f4db35c9f93282380a|2018-04-21|Shinya Morino|adding batch size check.
+f372f09a8eb128d35150172619a23ca063d220f4|2018-04-21|Shinya Morino|assert_precision() is removed.
+8344fd58fdc95fc3f3f82cfe1a85b8eface50778|2018-04-21|Shinya Morino|clone_as_ndarray() -> fix_type(). common.formulas_base is introduced and applied to cpu.formulas.
+f215f2cec3451929fb66e194a4608c3438dca147|2018-04-21|Shinya Morino|Fix: fixed several bugs by updated unittest.
+4a637ee57b8896f6f6a49b8f8fcab1a6d1374ab6|2018-04-21|Shinya Morino|adding a util func, fix_precision().
+fbb57c13ae986229f642b529e8aad4b6d2dd9f71|2018-04-21|Shinya Morino|Fix: calculate_E() added for some solvers.
+057dbbf3dcc627853742aacec68a15347438edce|2018-04-21|Shinya Morino|BFSearcher: adding unimplemented get_problem_size().
+220388b9e5704a5c27bc9ee28e191e13a16f3364|2018-04-21|Shinya Morino|BipartiteGraphBFSearcher: adding precision to preference.
+6d507edd84aaacdcce482f60e5ea8ee33705250d|2018-04-21|Shinya Morino|DenseGraphBFSearcher: set algo name directly.
+77d3dabf5081312b56df3c190c194527b1a4dc76|2018-04-21|Shinya Morino|Updating and adding tests.
+7312d92461d3116526b2567bfa2ecddd5fcc950f|2018-04-20|Shinya Morino|updating CUDA-based python solver tests.
+214f10fdd8327cc9ac1f10cfcd0492bbe34adfe1|2018-04-20|Shinya Morino|importing sqaod.cuda package on import of sqaod package if GPU is available.
+e6711ee13c6b7011d758136e978ef9c9d68f499b|2018-04-20|Shinya Morino|Fix: adding synchronization with GPU.
+f7b126f6dd2ca76ef04491b61ff078bb35878235|2018-04-20|Shinya Morino|Fix: files properly closed.
+e60e114134a806b38afdd833b023bfafa89e14a2|2018-04-20|Shinya Morino|Fix: lib path to link sqaodc.lib.
+17f1b49b722315b15491f4e9abff8d74dcf7779b|2018-04-16|Shinya Morino|trivial fixes.
+da5b4e2cc52a9c8cb2545a4bdfd30c35b7b2b24a|2018-04-16|Shinya Morino|Adding set_hamiltonian() for python solvers.
+d459ac5e5eb1e49762cd757a8806f0f3f91c29c3|2018-04-16|Shinya Morino|Fix: Hamiltonian is not correctly copied for BipartiteGraphAnnealer.
+83cf129139c712a7428cd72eda4ee83040b71cfb|2018-04-16|Shinya Morino|Fix: copying python float object (64bit) is correctly copied to float(32bit) c values.
+947f3875ca472b82a6fafabd97bac2e879565523|2018-04-16|Shinya Morino|Fix: hamiltonian not correctly set.
+25b57cd69b4c013a3846adb63d74f1d1b2e42fab|2018-04-16|Shinya Morino|Updating python annealer tests.
+8d803d3e1f28e99d497b0041d219e067a2197e7d|2018-04-16|Shinya Morino|perf: tau is calculated from nSteps.
+89d902e54d4f18aa40dbf4517d29f349e544bad1|2018-04-16|Shinya Morino|Updating tests.
+a8e3bdf6c4fe494d85d3b7af7c00dccc905898cc|2018-04-16|Shinya Morino|Fix: setting q at the end of loop.
+8d0f34883b694642af917b653dab6a9532d3ac6c|2018-04-16|Shinya Morino|Adding calculate_E.
+06bb1f849ab5b6bdf77af626cb88785de5ddf305|2018-04-16|Shinya Morino|implementing set_q() in python annealers.
+4219b2a492649fd13f78f807becb37b4f32367c6|2018-04-15|Shinya Morino|Tests for set_q() added.
+20fd03d8168b05210f7254cf75619ac5b196d67c|2018-04-15|Shinya Morino|Checked on Windows.
+6f488526fa42d71aaf8d1690b2a4473ab8c96151|2018-04-15|Shinya Morino|First working version of BipartiteGraphAnnealerBase with updated set_q() method.
+2dd5079cb4bf6e34c6be919900f5948664b85cbe|2018-04-15|Shinya Morino|Adding test_q() tests.
+d5607764077dcfc86081fd7d0e9302bba2080c2b|2018-04-15|Shinya Morino|Utility functions for set_q() tests.
+2f7a40de4fec3ce0d57fea120f28de3039ebe152|2018-04-15|Shinya Morino|Fix: Wrong number of arguments.
+c7481ff4a0c7042c41af971ad43feac77f804797|2018-04-15|Shinya Morino|Tests for set_q() methods added.
+cf23f2fcf86e5557a278fbda4609e745d35a12fd|2018-04-15|Shinya Morino|Adding ==, != operators for BitSetPair.
+d2a96e51474b6e10c50866f8e0e86da54e3552ee|2018-04-15|Shinya Morino|Simplifying state management.
+0096037376b8c8093efddb1eda01b7a56ad8e18f|2018-04-15|Shinya Morino|update python binding for changes for set_q().
+5ce8a66a3eac8c383653052e01cf9936395017bf|2018-04-15|Shinya Morino|set_x() -> set_q() for one bitset and m x bitset.
+93b486636c2239d459e1fc99d629adc31c703212|2018-04-15|Shinya Morino|clean up linker flags.
+0a3d9126f19258a983a746f559feee7613cf0384|2018-04-15|Shinya Morino|Updating typedefs for bitset.
+6027dc76f9a4b92cf207798ddd40f29c959145c3|2018-04-15|Shinya Morino|Removing unused check target in sqaodc/cuda.
+afb17c1e3a74fb5eb60bc0a2c82d9733daa911f9|2018-04-15|Shinya Morino|FIX: trying to return void.
+330568c10f6ac2e526cd9c19416c3e5f2513e130|2018-04-15|Shinya Morino|x_to_q() not correctly applied.
+36181b05a934f4a1cc288848c9cb5032443e4acf|2018-04-15|Shinya Morino|Test renamed.
+48aebfa9db35e5b11027824e39d524f047e4442f|2018-04-08|Shinya Morino|adding some refinements.
+7f4a6ba920c5f72efcec1a5aa76b272d98cb5138|2018-04-08|Shinya Morino|#25: using up-to-date version of cub.
+ca4d2bd43b50bef22e14bef1999a14c80674c9bc|2018-04-07|Shinya Morino|fix: url to example.
+bdb98d1315a092c5b2ea36566e505f5d903eb8b2|2018-04-07|Shinya Morino|fix typo.
+083140777806e08de6c0d05607afe62d44899406|2018-04-07|Shinya Morino|updating README.md for alpha1 release.
+f31196df29eade9668349cfbecbd2b5354dd6e96|2018-04-07|Shinya Morino|Updating setup.py for alpha release.
+300ed2a904bd06e26b71f9cdc4273c7a0f27e824|2018-04-07|Shinya Morino|fix typo.
+2a81168d066448097fa44135f27c53d1a5cc3798|2018-04-02|Shinya Morino|Adding installation of apt-transport-https apt-utils. Adding sudo for some apt-get.
+226e9f6b14aa92ce6ffd3da537def728432a47ed|2018-04-01|Shinya Morino|Using the official git mirror for eigen.
+d242bbcb498e8cfcf47389c686fb6781e38dbda1|2018-04-01|Shinya Morino|Adding a section for external opensource libraries.
+9c0fd61d43e7226104cd7f616f269eb7252ed526|2018-04-01|Shinya Morino|Adding name and year.
+22bf10ad0ce877a4a5c5ce7cdf63731c376268a8|2018-04-01|Shinya Morino|Define EIGEN_MPL2_ONLY.
+d835e0b111aa7a20b4911a87b2554533d19e8545|2018-04-01|Shinya Morino|remove unused run.sh.
+7879d61d129a7d0db7c3c5519c49680b3ee56988|2018-04-01|Shinya Morino|Updated and corrected for alpha1 release.
+d6075b309fd8ee49102123020157be6821b8852b|2018-04-01|Shinya Morino|python build scripts are updated to use manylinux wheel.
+19d8642a7df427f1c9e34140c406401f176fa7ff|2018-04-01|Shinya Morino|Merge branch 'master' of https://github.com/shinmorino/sqaod
+169b1724e6106b0b702d2a7b9b998790ffd26fb4|2018-04-01|Shinya Morino|Checked with py3.  Fixing import and indent.
+8605eea460d45fa7a01d0fcda566223166f7b9a4|2018-04-01|Shinya Morino|Checked with py3.  Fixing import and indent.
+210ecd0260439289636cc5c5436932b8895ccf73|2018-04-01|Shinya Morino|Merge branch 'master' of https://github.com/shinmorino/sqaod
+9194be2c1c6c5e69d550c85ec3c3a6a8e35533ff|2018-04-01|Shinya Morino|Fix: python3 parameters are not correctly configured.
+2d6022e3f0febbb2062825bd565d4c218b86da60|2018-04-01|Shinya Morino|Updated for alaph1 release.
+b4ac9cbf525ddf51ff2ff201a25d1ae2d86b8282|2018-04-01|Shinya Morino|updating build scripts.
+61258711414c99b6dd728770502756b8517496f2|2018-03-29|Shinya Morino|updated.
+0a7db3de1395628bdd9c167d0eb85df8d511d130|2018-03-27|Shinya Morino|build.sh is split into build_lib.sh and build_py.sh.
+50a47eaa4d16a1e077e983d8ee61a306c51eb356|2018-03-27|Shinya Morino|rules re-added. fixed gen.py to give correct deb preferences.
+aff46d6fa8231cfb85c33135121d19d4b1b32026|2018-03-27|Shinya Morino|use tmp build dir.
+aeb86739091812560540a28ae83ab4fe8160c42e|2018-03-25|Shinya Morino|sqaod_config.h is copied in configure.
+96bdddd75efaf024956bfe390592e71103193417|2018-03-25|Shinya Morino|Using gen.py to generate control and *.install.
+e88c2cad9a382cb15a991dc3d2eaf3658f3d2fef|2018-03-24|Shinya Morino|Using gen.py to generate control and *.install.
+4f6f1ba1751f9b2a5ffed43faac6d6e3174f115c|2018-03-23|Shinya Morino|compilation check for CUDA tests with g++.
+ecfd68693bd4d782b4042a1c19adad6833ec1575|2018-03-23|Shinya Morino|re-adding CUDA_VER.
+db55c53ca591dc1df9fc7db50de3f00e946b86f6|2018-03-23|Shinya Morino|Options are able to be specified with env vars of CUDA_PREFIX, SIMD_OPT.
+d64634337cf911b124da677fe591c813c46a59c0|2018-03-22|Shinya Morino|Removing temp directories.
+a35f2983fbe88db7d119de34fb7eaa4bba035b12|2018-03-19|Shinya Morino|Fix: CUDA solvers not correctly constructed.
+5d83aaf72b37c55e2df1e27557e82e7cd8716cbe|2018-03-18|Shinya Morino|Testsuite for #13, added to VS project.
+c68d04c3be21964eddff41cfeafccacea1b0f935|2018-03-18|Shinya Morino|#22. AVX(2) optimization disabled.
+208120cd79b35aec45ead9da55a9080f8d1f3705|2018-03-18|Shinya Morino|#21.  The kT is replaced with beta, the inverse of kT.
+c5486c4e0b252f2d7d1d5babf3a93e6b55d45945|2018-03-18|Shinya Morino|adding setPreference(enum, V) to all solvers.
+dd7c6b41f3e76fb624c3505491d4e7ce32d3d254|2018-03-18|Shinya Morino|clearing VC warning.
+63ea9e54e15be066fb90485edd12c357e57df40a|2018-03-18|Shinya Morino|seperating CUDA enabled code.
+c000ade9a36a8d56f638e4cbe8e589805a5b6af9|2018-03-18|Shinya Morino|VC warning cleared.
+984ebcefd209c170e1fa1e0189938c8b7d747158|2018-03-18|Shinya Morino|Sign of Hamiltonian calculation was fixed.
+fab11a6bd1be72683eb7173abd01961add0fb6d5|2018-03-18|Shinya Morino|Fix typo.
+5552811715af5bb4f958175f208e140fd36a0cd0|2018-03-18|Shinya Morino|Range coverage tests in brute force searchers were updated.
+cc2a855f0ae99c695376273974cc8210d98b10a8|2018-03-18|Shinya Morino|Range coverage test added to test suite.
+d4752391eaade464438344746d8f33d42803debb|2018-03-18|Shinya Morino|Range coverage test added to CPU brute force searchers.
+04247dba8aaa766ec6838b292bc00e5a9b0cb4aa|2018-03-18|Shinya Morino|RangeMap / RangeMapArray added for search range coverge tests of brute force searcheers.
+70e0289cf4a5307fe1a34fc95df234486915f4f3|2018-03-18|Shinya Morino|Fix: size is not correctly decreased.
+9c6ffc880ede5baeff0e9f7eb18be4d703406a4e|2018-03-18|Shinya Morino|adding insert(const_iterator, value);
+3c7092908943705948f1c3c93f139b6b5ff0a26e|2018-03-17|Shinya Morino|create_bitset_sequence() is changed to accept only iterable objects.
+e645bc59bdce1c89487f5fd59c6f7198508d8466|2018-03-17|Shinya Morino|tests updated for python3.
+2591299b73c6cbf255f7b95c22b45920d65fbe6c|2018-03-17|Shinya Morino|Updated for python3.  Some trivial fixes.
+aec1b8007b2acab21a01c93b2a991833cfe8dbca|2018-03-17|Shinya Morino|Fix: negating sign.  Unused func removed.
+275635884fe6dcdd0f3bfe46e48377c0f980cbb4|2018-03-17|Shinya Morino|Shape checks added to c++ solvers/formulas.
+3cb6687aeb6f20e40031cda9c13aec37c0a139a5|2018-03-15|Shinya Morino|Compilation check with g++.
+da0e92d63781f3148cda67c00a6d40619d679ba3|2018-03-15|Shinya Morino|removing sqaod import in subpackage.
+e2c3bdf241635e5f5ad9b89a82d5fd7e9bbd4735|2018-03-15|Shinya Morino|giving a correct function table name.
+715f7eb455b73d65fc3722eb0144083bee06732c|2018-03-15|Shinya Morino|Using base classes to simplify solver implementations.
+c029d807247b2fe4783b06ba6d6554fab5ec7098|2018-03-15|Shinya Morino|compatible with Python 3.
+a900549215ef01b22476015b60fccd2519f0825f|2018-03-14|Shinya Morino|module updates checked on Windows.
+dce0c2732c651a06bd233bf1c80f6cdfdcf2770d|2018-03-14|Shinya Morino|Merge branch 'master' of https://github.com/shinmorino/sqaod
+e473f87b6bc569b8b2c52f27afa49eb525efe9fd|2018-03-14|Shinya Morino|python 3 support.
+fb24922d4524ed0861f6ce45cae147d84b08cd0a|2018-03-14|Shinya Morino|Changed methods to static in CUDAFormulas classes.
+6ec6b0c69077d042d5d4f21a2d0a3de90d3852fc|2018-03-13|Shinya Morino|Merge branch 'master' of https://github.com/shinmorino/sqaod
+1e44f1b1db7ca83af36c296a21d552f72bfb4808|2018-03-13|Shinya Morino|modified to remove compilation warnings on VC.
+ca08b375b10f18ec21e485d065a05f4a9bc9e4d3|2018-03-13|Shinya Morino|Negating the sign of ising hamiltonian according to commonn definition.
+b1076705604dcc15fe7faf1a5764e2d42b6e0d90|2018-03-13|Shinya Morino|Generate the same values for both float and double matrices/vectors.
+02e0e115d1cbc7325993a901c23e7df14d1661b8|2018-03-13|Shinya Morino|using randInt() intead of randInt32().
+6715d1de8554d8b3a50715b920c3f34204280448|2018-03-13|Shinya Morino|The last odd-indexed line is processed in the first wave.
+d6f6fdc7aa1e4965fd2d6d63e66e5114917fdad8|2018-03-13|Shinya Morino|transpose energy matrix for better memory layout.
+c602cc9f3b6de9adce74a1468f0abc9f66ed6cfe|2018-03-11|Shinya Morino|deb configs are renamed as *.gen
+bbfd6df405d1f6a2e6258319f4256173cff44875|2018-03-11|Shinya Morino|Fix: CUDA lib dir macro.
+1aed7b018e15c620ea8274959fdd20a7209f9166|2018-03-11|Shinya Morino|Helper script to build deb.
+9c098380e12361f8999cc0a22ad10443ea3faf59|2018-03-11|Shinya Morino|CUDA is enabled with prefix or version.
+02dc8d58906984e26585eda6dbbcf23d40608345|2018-03-11|Shinya Morino|Explicitly assign DeviceStream.
+b7192248c4e490517644ae39815332720b252a8a|2018-03-11|Shinya Morino|Seed value type changed to unsinged long long.
+0bacf1ee3aa337a1c3f1d302dfdb8d3abb9263fb|2018-03-11|Shinya Morino|Fix: abort with too many cores and too small problem.
+bbd6945aef7a8ec6cade1c7130b2d865b43ad71c|2018-03-11|Shinya Morino|Method name update : calculate_hJc() -> calculateHamiltonian().
+f8e5f9268a182a8fcdc7c8ee809763cacb5003e1|2018-03-11|Shinya Morino|Updating examples.
+d5bc4223b7ce32dd4296edad193a7967ff674d52|2018-03-11|Shinya Morino|setProblem() -> setQUBO().
+fc98ddeb2901491b26b733782e70f5fe0470c6bd|2018-03-11|Shinya Morino|fix: typo.
+f0d4f190bf059fefbd9fccec9f38cbf9f14cfce3|2018-03-11|Shinya Morino|use set_qubo()/get_hamiltonian() for tests and tools.
+3345e65977fb0c0f5eb7be1f6317a76169fa7ae0|2018-03-11|Shinya Morino|Rename : c++ setProblem()/py set_problem() -> setQUBO()/set_qubo() Add    : c++ setHamiltonian()/py set_hamiltonian() Rename : c++ get_hJc()/py get_hJc getHamiltonian()/get_hamiltonian().
+9e02150ef0c032e213010f575ed36c7277516c68|2018-03-11|Shinya Morino|Bits -> BitSet.
+ffe063c5be7f3b442664d32686c5f11c3b28db24|2018-03-11|Shinya Morino|Fix : objects not cleaned for bipartite graph brute-force searchers.
+7313df141d6746f1950889dbc67455f5d2dc02b1|2018-03-11|Shinya Morino|python tests updated.
+30740ec02b9c71b4bb62bdd1527fd7f3ebe77f31|2018-03-11|Shinya Morino|updating solver interface in py package.
+6bb5ca0f160cdf09cf436fe1b071cbc14dd5461a|2018-03-11|Shinya Morino|names including bits are changed to include bitset.
+087aec9ae215d8ea29bc0df14e5ab060e7d848b5|2018-03-11|Shinya Morino|type names with "Bits" are changed to names including "BitSet" for readability.
+cb09b5a4ba6a113cd759b2dbc927d3c9a389ce38|2018-03-11|Shinya Morino|q/qbit are changed to spin.
+052390429f6eba3741bc2882ea052b0f8c7ba0e8|2018-03-11|Shinya Morino|Changed to use the same algorithm as cpu and CUDA implementations.
+2ed16ffa27ba05315b0444ae1587d715271fb648|2018-03-11|Shinya Morino|type fixes.
+73e48f3a49ff0f59f927d9494f220dd554be2c81|2018-03-11|Shinya Morino|Fix: lib path not correctly specified.
+6b4472ebb18945459a2c303870b0383bacd67076|2018-03-11|Shinya Morino|Makefile is OK to be ignored at the top-level directory.
+a247b67ba0c8eb8357c8d3c74173b5a873893f12|2018-03-11|Shinya Morino|using Makefile.in to build python c-extensions.
+2bb714576688c7ae313a08a82b3a8d141e93afcc|2018-03-11|Shinya Morino|update size types since sq::SizeType is changed to int, and the size of sq::ArrayType<> is changed to sq::SizeType.
+64baed18147921e381b831d79346742291230345|2018-03-11|Shinya Morino|Specify correct CUDA include path.
+ff986ce498f7512b380cbc8f2a4e3b8f48b6dd75|2018-03-11|Shinya Morino|sq::ArrayType<> to use sq::SizeType.
+0ee1dce47b8f12b92cbaaa28f4ce465a03458a22|2018-03-11|Shinya Morino|sq::SizeType changed from unsigned int to int.  Relating changes are made.
+d84da11f9fdc285d22ca6286712e90c05953aac6|2018-03-11|Shinya Morino|removing duplicate NVCC macro since it's auto-generated.
+a3b1399151ba242d04231008727993ba89b2a2fa|2018-03-11|Shinya Morino|Limiting max num threads to 2, for better peformance for now.
+50ee10e92158284ba88e89cb3c2b19b48fbe983e|2018-03-11|Shinya Morino|Adding types.h.
+3bb2a88a7a4cecec6cbff9f1063b0bcbe33ecf64|2018-03-11|Shinya Morino|Fix: update conflicts on the last trotter when m is odd.
+b2f448e1fe305a8d9ac7e97c06c5185e7280e7d0|2018-03-10|Shinya Morino|adding synchronize().
+2c855503e4633cc8016929a8c8917f4190d9947a|2018-03-10|Shinya Morino|fixing errors when openmp disabled.
+33df9b202d2ce6382d85260c19c1d082233fbaca|2018-03-10|Shinya Morino|seed type fixed to be unsigned long long.
+2d7fcb3fb2977194f4c6d3a7b1e082d4e25de4b7|2018-03-10|Shinya Morino|divru() takes unsigned int as input/output types.
+03f3604cd1512ee360f73b39cf7fbacce748154f|2018-03-10|Shinya Morino|example updated according to interface change.
+596c7b75cd34a1c17a54d40d82db82005b75c0ac|2018-03-10|Shinya Morino|c-extension interface of get_E updated.
+79ccc1e76ceb18f1fa19f85bfbdfbe966604f9bc|2018-03-10|Shinya Morino|calculate_E() and makeSolution() are called before retrieving results.
+07dfdc78a5826a2bd9d976a856e4c052ac2f669e|2018-03-10|Shinya Morino|Interface changes applied to perf.
+3bb666dc8796ff412258bd1587a52caca1d819fd|2018-03-10|Shinya Morino|Interface changes applied to python and python c-extension.
+e94d99c67bd5429dd911c31b6d3ae243f2f91902|2018-03-10|Shinya Morino|Interface changes.
+9c9f6458661e5ac97c6a47da050f2aeafec8f0d8|2018-03-10|Shinya Morino|Adding empty() method.
+e663ae995e4250835da2a7b7de8b7c9102781c87|2018-03-10|Shinya Morino|Interface changes : initAnneal()/finAnneal() and intSearch()/finSearch() are renamed to prepare()/makeSoution().  calculate_E() is added to brute-force searchers.
+5a5b872adcbd818240de1af0c868e7cde68706d6|2018-03-09|Shinya Morino|arg type of seed is changed to 'unsigned long long'.
+43b3bcf4b75cb198f9c85585f60d020ed6e0e5c8|2018-03-09|Shinya Morino|Fix: seed of random generators are not properly given.
+5f26ed4b62d5950d77d915a8778fb14a5f725ff2|2018-03-09|Shinya Morino|fix: incrementing search range.
+02e6ef7bfb41f723cc54ad419769fb7a69022fdc|2018-03-09|Shinya Morino|appling changes in search_range() signature in python and python c-extension.
+ac72642b974d44d6fe8a41a44c0129c2dabaa99d|2018-03-09|Shinya Morino|searchRange interface changed, not to depends on tile size.
+4909f59e0de7d14b3da90590205613cf809c1aa7|2018-03-08|Shinya Morino|adding NVCCFLAGS with -gencode options.
+9a324d4eb7644cd158cd9e1f74afe04cd0d630b8|2018-03-08|Shinya Morino|adding missed include.
+bdfd358fe2817c0be80bc970cc0ee52da1bc665a|2018-03-08|Shinya Morino|Fix: use omp_get_max_threads().
+e21da3f10160b28c536b601ba51036e54ff97473|2018-03-07|Shinya Morino|Updating project name.
+5537328ff78e3902c5165877f97e25cfeff9a356|2018-03-07|Shinya Morino|using char(bit) during annealing for CUDADenseGraphAnnealer.
+3ca5c1167c36699fa371243f74a8e25715c4aaa0|2018-03-07|Shinya Morino|DeviceMath::toBits() -> DeviceCopy::cast().
+70e876a779b87a39c32f07541c4d1a28a3c27754|2018-03-07|Shinya Morino|Fix: algorithm preference not reflected.
+52bf51dd1b86fad8f0d3ed5a6dacc315881d0523|2018-03-07|Shinya Morino|merging 2 kernels by using atomics.
+dc9bdc0d2d8bbb3302efae9c2385aad3c0654fc6|2018-03-06|Shinya Morino|Using cudaLaunchKernel() to reduce kernel launch overhead for small problems.
+89613c4d45ecde617ce600d292f92d3ce7e0aa89|2018-03-06|Shinya Morino|Checker pattern is no longer used.
+c3388a52b4e73a2539d3117d54a5e5cb89f49fb7|2018-03-06|Shinya Morino|try to flip spins for even-indexed and odd-indexed lines successively.
+18d8c96a771cc76ebe7f2ae90aca450f53a1954b|2018-03-06|Shinya Morino|Updating VS project.
+2f6cdd1e0b5925a880d05bbf5ca7d7f089a69d25|2018-03-06|Shinya Morino|Initial fixes to make this class work.
+0eee4abfaa3bca63765ef8ca49a71961b86a48a5|2018-03-05|Shinya Morino|Merge branch 'master' of https://github.com/shinmorino/sqaod
+57b1652ea29038c6424914b8128ff2d8d7a908a3|2018-03-05|Shinya Morino|Fix include path.
+ed69d4ee86b072b3e81d8db45c891033bacb97a2|2018-03-05|Shinya Morino|MT19937 implemented for CUDA solvers.
+b2efd6d61b7eebf3164549b254332ade4202d7c7|2018-03-04|Shinya Morino|Merge branch 'master' of https://github.com/shinmorino/sqaod
+50852aaf3bdbb98520120b70d92e427881d410ed|2018-03-04|Shinya Morino|eigen and cub are moved to 3rdparty dir.
+ae1ae5814aa728b901738dbd79d0c839b48452c2|2018-03-04|Shinya Morino|isCUDAAvailable() updated on Windows. Fix: cuInit() not called.
+f33d12132926c17da124da1b4331e385184ff4ec|2018-03-04|Shinya Morino|remove generated file.
+0360f385c8392d9e28f6ea86e315714f891e6f34|2018-03-04|Shinya Morino|build.sh updates, and relating fixes.
+e22e526bff8141edce37b26ebe1498cb80844a43|2018-03-04|Shinya Morino|"seed" is not registered as a function in this extension.
+546eb938a096a7b106df5e9e3cb2da2620e6e7c2|2018-03-04|Shinya Morino|trivial.
+932d3ed38ad1b4f8ae7e648a22646cf00e1204cf|2018-03-04|Shinya Morino|fixes for set_x() on CUDA solvers.
+a2ca3405b23e649df09879fae3e7455c0ee3a1ea|2018-03-04|Shinya Morino|Correct cuda package name.
+f3eef0631a81637be17967d305250e696f6e78d6|2018-03-04|Shinya Morino|Fix: trivial.
+f3bd1289f15d052288bc216dd4f39c18b7789241|2018-03-04|Shinya Morino|Adding dummy seed() method.
+a2253d3d357b8ac0622bd321af38c93991a4d9b9|2018-03-04|Shinya Morino|Fix: set_x().
+6464e60b2c2538dfdbaa2dc9b126b1471644b65d|2018-03-03|Shinya Morino|Adding examples.
+5f18b167860942175278a078d89afc018daae38a|2018-03-03|Shinya Morino|remove old _get_dim() method.
+0abe60d3baf7376dddb6dd94983505203a02512d|2018-03-03|Shinya Morino|Update include paths, according to dir structure changes.
+996a06ac5f72913c734473d451167c16cae1a689|2018-03-03|Shinya Morino|Updating namespace references and class names.
+9adf0f13fc0fd92ab7a6610c89f14aa5f83dcb0b|2018-03-03|Shinya Morino|Fix : wrong include.
+1f709d9247748fbd6c8589b783ca4680e668e64a|2018-03-03|Shinya Morino|Wrong number of parameters.
+4e24eee053c8a637eccb3629dd36295cd5a8b57d|2018-03-03|Shinya Morino|moved to tests.
+dc2c762c738a261b3549e9fc8402c2643517932e|2018-03-03|Shinya Morino|Updating versions.
+56618dcdec04fdbe050534bd179cc2bcce439c01|2018-03-03|Shinya Morino|ignore generated files in debian dir.
+a7c29c09bfe72eb54aefaa2392e4e348728d487d|2018-03-03|Shinya Morino|Misc fixes on compilation.
+b14bab3f0d6746df1f72d5d374eaf184ffcd6e6a|2018-03-03|Shinya Morino|debian package files confirmed to work.
+608d28386c6cec54be329bfc286367328a8654f2|2018-03-03|Shinya Morino|using c-extensions as data files.
+7e3e180a4fc3bce569c2f17a403850ddbfb64b07|2018-03-03|Shinya Morino|removing unused cuda include.
+8b3c75de73af10dae8c80632888bc7eec80c9b76|2018-03-03|Shinya Morino|autotools files moved from sqaodc -> top srcdir.
+bf5c1a2d72c7034527e54b68da94ffe75f1bac1e|2018-03-03|Shinya Morino|files for deb package.
+e84b731055bc87166acc04911e8654720c0c2f56|2018-03-03|Shinya Morino|no CUDA include required to build CPU extensions.
+69ea32959e6768c8056ad1c533494f0975ae6960|2018-03-03|Shinya Morino|preference.py is added for solver preference.
+ff3f0aa24441060f59b9aec8dd674cfd30a97820|2018-03-03|Shinya Morino|SQAOD_* -> SQAODC_*.
+829a8f37a3e734777a74f74ad336edf59bc541fe|2018-03-02|Shinya Morino|Adding read-only 'device' preference.
+f240274c1be038ac3dc77e48ee2cbba7fdb38b36|2018-03-02|Shinya Morino|SQAOD_* macros are renamed to SQAODC_*. SQAODC_IGNORE_CUDA_HEADERS added.
+87fde600be00f924543340249f081d1b0763e166|2018-02-28|Shinya Morino|Adding is_cuda_available().
+c650f0a752b0cb0cc89cef615d2e4e810be7c055|2018-02-27|Shinya Morino|is_cuda_avilable() added.
+5139fe459bd23e1e23feb8ab9f08e729ef8568ca|2018-02-27|Shinya Morino|implementing python solver interfaces.
+39702c82ed0fe072488fddfaa50d138ab2b97bf2|2018-02-27|Shinya Morino|Removing get_algorithm().
+f195eda09fd00c35f53c9ed4d3e57ed053e01595|2018-02-27|Shinya Morino|Removing redundant 'this->'.
+107d6f45a375bb59f3d39b8a65cf893d81b9009f|2018-02-27|Shinya Morino|Updating tests according to namespace consolidation.
+b15e3c9fe8f1085cd5078a2e5385f72dfca4e7e3|2018-02-27|Shinya Morino|set self._cobj before possible occurence of exception on initialize().
+5e69192ecc056b4c1434d71012fca17419251956|2018-02-27|Shinya Morino|making pyglue.h as one of sqaod include.
+3156aeeab89cf37a128ce47dd1ad2dee9c5acdc3|2018-02-27|Shinya Morino|Adding precision as a preference.
+cc1971f0e067f6b7bf7de0d1dc04f166aae54daa|2018-02-26|Shinya Morino|CUDA python classes are checked on Windows.
+a5b7fc51ea01fea006702bb29483416f7b0cc4a0|2018-02-26|Shinya Morino|Fix : wrong buffer size.
+4f0a9738f18971072c839e5f270a7f0939989fea|2018-02-25|Shinya Morino|refcount management of module added. preference methods are implemented.
+f7c70e50b77a4ea537906c3d75524f9de1a0394d|2018-02-25|Shinya Morino|Updated according to dir name changes.
+60e6023df9866c0e10d21907e7c0426cace28439|2018-02-25|Shinya Morino|Updating VS solution.
+f066f1a402e7699cd252d429da9a7ac58b4fcb66|2018-02-25|Shinya Morino|Updated according to namespace changes and consolidation.
+43b0c7db3266adc616433eebfcf688bfb6392ed3|2018-02-25|Shinya Morino|Tests updated according to namespace changes.
+1b183cce5d3021515a381176a2b282250ecf0ddf|2018-02-25|Shinya Morino|Updating VS projects. Compilation checked on Windows.
+8728a10499e3f6df218e44467f382356c9e98dcd|2018-02-25|Shinya Morino|Dirs renamed.  Paths are adjusted. python -> sqoadpy, libsqaod -> sqaodc.
+15a7d5e53bbaa04bd11cf29670d5b95078abf8c4|2018-02-25|Shinya Morino|Checking/consolidating namespace usage.
+5d65a22f2ef5ca1ef32ab9f150daadfe5e751579|2018-02-25|Shinya Morino|removing unused empty file.
+a782f05ed5c80448e6eef5ee64c401cdee798d0f|2018-02-25|Shinya Morino|passing wrong pointer to devAlloc_.
+d5be6fed6da4d9bacf5992640c18ef336dc00ace|2018-02-25|Shinya Morino|adding try/catch for assign_device.
+66ed2cd4bca02ab744773b803848c21a9abf0c9b|2018-02-25|Shinya Morino|The first working version of CUDA python solvers.
+6b23fb7aefcf95cd087deb32516bb06f2fa78ec3|2018-02-25|Shinya Morino|Some fixes for memory deallocation and solver state transitions.
+fe4f630f17692f0f10c78564360268ffa3f457ed|2018-02-25|Shinya Morino|removing config dir.
+e301614fcea9a74e004a4de7e464627fda82a721|2018-02-25|Shinya Morino|State checks are introduced to all existing solvers.
+ef198f8fbe20e8a5c193d3d146f7e1244a4ad29d|2018-02-24|Shinya Morino|Input state checks are added. Fix redundant memory allocation and leaks.
+37747da1c58e3271c7909b5b37c1c0d32fb74e1d|2018-02-24|Shinya Morino|Fix: freeing mapped memory.
+a72d34a9bec1907ff8a20f4116e7af084cf4c42c|2018-02-24|Shinya Morino|CUDA Annealer state checkes added. deallocate() is introduced and applied.
+2511ac6d98093fe8be54abb138533c98428c6ab3|2018-02-24|Shinya Morino|deallocate devided into those for rand state and for buffer.
+2d2a61f42c73fe0a8bb27ec14b6974e0c64dd942|2018-02-24|Shinya Morino|making deallocate() public.
+7985a4047ffeaadfa2e1aa239e6ebf2a84b52060|2018-02-24|Shinya Morino|Fix Array construction.
+f98dfaf69f60479641378877a649a2c8a5439f48|2018-02-24|Shinya Morino|Adding missed assign_device() funcs.
+c96ed3dcbe714bb5f8f56c48737d05fd524be1f5|2018-02-24|Shinya Morino|Remove unused batch search functions, which is moved to batch search solvers.
+a50ba8fdd519cca7bad8e5844f148d12487b2aff|2018-02-23|Shinya Morino|merge .gitignore
+f5d007c7f96782e12d14b0823e0905217364c252|2018-02-23|Shinya Morino|adding .vs
+30364681f071a84110e1dd34e670fa63caf17517|2018-02-23|Shinya Morino|Cleaning up perf app.
+09853398ccb249c5288ea00ae820064fe9cd2791|2018-02-23|Shinya Morino|Removing unused prototype.
+75395b6edf5a38b302166a80ee4b3c64df6ef1e7|2018-02-23|Shinya Morino|Fix wrong input check.
+4e5be66863cf50305026571a56c3947031452dba|2018-02-23|Shinya Morino|Using CPUFormulas in CPU brute-force searchers.
+849fc75f8f1feeba24a2cd0c7a0f365d49c39a3b|2018-02-23|Shinya Morino|Adding initSearch().
+0122390d8bf071ea03dd7fcc1245e81b826cc9ac|2018-02-23|Shinya Morino|Adding batch searchers.
+9b4e04ddc9beeb11f73d0b473e9bf181857368c0|2018-02-23|Shinya Morino|Parallelizing energy calculation.
+682b337dc1a3f9ca482609bb6adbadb3995c546b|2018-02-23|Shinya Morino|class -> struct according to the original decl.
+09558ded5d9f1c7fb1a70eb1c428a8539ec2e553|2018-02-23|Shinya Morino|OpenMP enabled.
+6c15af8ea4afd99a80d65a0c973e40a8f741cf92|2018-02-23|Shinya Morino|Batch search removed from CPUFormulas test.
+5214c2fa40ea87764b4432d21d8bdef44df41556|2018-02-23|Shinya Morino|Updating Makefile.am to include batch searcher.
+6d94ab6a11177207caaa2c90d92500f0651e102c|2018-02-23|Shinya Morino|batchSearch removed.
+c76afcfe681e0f1ebe8ae4dab3a486f43179af32|2018-02-23|Shinya Morino|CPUBipartiteGraphBFSearcher is parallelized by OpenMP.
+d51cd4dabac8d293ee4fddd5fb17ca6335d85d77|2018-02-23|Shinya Morino|CPUDenseGraphBFSearcher is parallelized by OpenMP.
+73b4219fd4b2ed629a70939fa32e56512d4b2f64|2018-02-22|Shinya Morino|fixing build scripts.
+5f90f8fbba118375141db806689ffbd983a7595d|2018-02-22|Shinya Morino|updating setup.py.
+914711ced6888c17925c79d58525f0ded078daf8|2018-02-22|Shinya Morino|adding sqaod_config.in.
+e3249ed328b34f4d142552830ceea85ea1fef4c7|2018-02-22|Shinya Morino|libsqaod.so and libsqaod_cuda.so have been seperated.
+8dff8bdf30bcb0ae1c4f1907cb16bcf5171ef387|2018-02-21|Shinya Morino|trivial.
+57324b50f350dfa58f220a4917271f9639276b4d|2018-02-21|Shinya Morino|adding cuda extension.
+0e789702f30d7432012f7d72f689dd90404b8987|2018-02-21|Shinya Morino|BGSolver -> BGSearcher
+56e0aedcd3114b816990ac22e92dddb75527b0db|2018-02-21|Shinya Morino|set CUDA_INCLUDE in setup.py.
+f31275c82f7af7aefb947ca319b57d4c997c1549|2018-02-21|Shinya Morino|rand_seed() -> seed().
+4be2207f3c21d0e7749d72ea198c6eb91f9c1096|2018-02-21|Shinya Morino|adding comment.
+e516f3d808bce0c25303a176d9a0db3f2cdc2cca|2018-02-21|Shinya Morino|removed .vs already included in another .gitignore.
+6ccced51cd3e43c6098b87beda87003ff7d53f99|2018-02-21|Shinya Morino|VS solution file for c-extensions.
+bcbac6aee5a4b74b5d210836755ff9a9ea9f0e19|2018-02-21|Shinya Morino|updating gitignore.
+699bff285ae53afddd357e6f964accfbbcf05b6b|2018-02-21|Shinya Morino|Commenting out randomize_q().  Will be resolved in issue #1.
+79b6b5cef9ff6ec51e40fe8a462ac063b5e1ba62|2018-02-21|Shinya Morino|VC projects updated.
+a388332c9411813ebe5e33b4707e3afbe6737dd0|2018-02-21|Shinya Morino|The first working version of CUDA solvers on python.
+4d6d9bc7d180a30907b067d1e306e5a64bd26dc2|2018-02-21|Shinya Morino|adding assign_device(), renaming rand_seed() to seed().
+efded02ca54ec9a37bfdd189d300988970e056ca|2018-02-21|Shinya Morino|Fix: wrong parameter order.
+9cd19613dce0edc6fdbcfc2faf6975647219f474|2018-02-21|Shinya Morino|renaming rand_seed() to seed(). adding assign_device().
+c66bdad0f5cc81a062461f466ce23cfbe2fda778|2018-02-21|Shinya Morino|Allow calling deallocate() after finalize() called.
+d82a89fc517bea142a5e637dcb8a90a2fdd7dbde|2018-02-21|Shinya Morino|Using managed memory for ease of debug.
+cdef740339db222bfa46215487828420a6a05417|2018-02-21|Shinya Morino|Size check added for bf searchers.  Each dimension of a problem size should be smaller than 64.
+8703bcd028b3ff0642d028cc49fadff12f4ce422|2018-02-21|Shinya Morino|Suppress warnings.
+db4518c250f24fe002e1bbc74f6eb016d5ef2997|2018-02-21|Shinya Morino|moved buffer allocation to allow seed() before requiredSize() called.
+34eb51fd24043ea6dd6ac5d19f2aa285bbace6a7|2018-02-21|Shinya Morino|Accepting int and long objects.
+7170495bc7cfc2bc2c13b6aabe9111579be9a3e6|2018-02-21|Shinya Morino|FIX: const stores are not finalized.
+9615953847a8f843cf292778e08aab1ecb487a28|2018-02-21|Shinya Morino|Adding template projects and a generator script to build python c-extensions.
+68f1b5b1652d2580af0628f81d6b85976f648623|2018-02-21|Shinya Morino|Merge branch 'master' of https://github.com/shinmorino/sqaod
+1ac41c8b7f2f5b58c5ce8bc7e13d80b35d9b116d|2018-02-21|Shinya Morino|Update LICENSE
+bea545409cdde9d66bba0a4f8a349358da82542e|2018-02-18|Shinya Morino|Using stricomp for strecasecmp() on Windows.
+45e9cdb63b71ace46d0844d817bdba6a98cf3217|2018-02-18|Shinya Morino|Adding c-extention project template and generator script.
+964a7be5f03a201305f5ba3165a2dc1257311cf4|2018-02-18|Shinya Morino|exclude c-extensions on Windows.
+fc6b3b73b80991437f7f7aff484f92e58eca11d7|2018-02-18|Shinya Morino|sqd:: -> sq::
+93485dce05be94f78dc73ee3cc9af210128c37db|2018-02-18|Shinya Morino|Merge branch 'master' of https://github.com/shinmorino/sqaod
+8bf624dbebc42bfd1c6c8e807a3bb160c20ca491|2018-02-18|Shinya Morino|Base classes for solver interfaces for documentation.
+7bda5d88adfd734f45e3d4ba46b622fe2b19a1c0|2018-02-18|Shinya Morino|Applying updated interfaces to python code.
+376b9404c20d55f08b7459cbfeb97a25a67eeded|2018-02-18|Shinya Morino|Applying updated interfaces to python c-extension.
+97abdfef625d29506646837ca1f1bac2ec549c5a|2018-02-18|Shinya Morino|adding mark to fix.
+109eb38dcf354e7279703c51ff8d02623aef2fea|2018-02-18|Shinya Morino|FIX: wrong optimization dir given.
+a7863690880ff37e206bce4a0cc5096c475a6a85|2018-02-18|Shinya Morino|Applying updated interfaces.
+f967461c1a62bdc71acbeeefb6fec21339ca114c|2018-02-18|Shinya Morino|Adding glue code to deal with Preference.
+5a1b8a72f168391fccf279f39ea35a45e25af5bb|2018-02-18|Shinya Morino|Changing compilation order to make checks easier.
+5a28cf25d99af73b19c13b6d664c387edbe81206|2018-02-18|Shinya Morino|seed() uses unsigned int.
+51dea40827b22d29c3a44806f09f25270dfd2ca6|2018-02-18|Shinya Morino|Apply solver base classes to consolidate interface and implementation.
+eebc5dfc54e9c8943e369d51b56e8651988d4bad|2018-02-18|Shinya Morino|Adding Preference.cpp and Solver.cpp to be compiled.
+d6f08d451bc389f5188da922ad4ecbe52328c865|2018-02-18|Shinya Morino|Adding base classes for solvers.
+4a7f0de7d7373bbc38c84eeb870ba0cabfae7da0|2018-02-18|Shinya Morino|Adding preference.
+9ea3f19b580d649860b692491edf2d1cc4ae3a86|2018-02-18|Shinya Morino|Adding copy-ctor.  insert() uses const_iterator.
+b7f4938370a8eb626f0717662cd632ddd641fdfc|2018-02-16|Shinya Morino|Disable warnings with VC++.
+4cbd61c6022d702ad30f1be64e1afcb6f096661d|2018-02-16|Shinya Morino|disable debug routines on windows.
+50c6c6718c5b97abda8093680d9018ce26831a65|2018-02-16|Shinya Morino|Cleaning up, and checked with g++.
+c13a458d094efb4af39a047f1d00ae037bcd723b|2018-02-16|Shinya Morino|Cleaning up, and checked with g++.
+259fcd1735dba4a9670ab577aa2fce3d67d62ac5|2018-02-16|Shinya Morino|Fix file location in project.
+ebdade7ae45e951f0c8fd5eb3672f287f0f64fa7|2018-02-16|Shinya Morino|Parallelized with OpenMP.
+27986ef35425d43e2e286046ade2144f459fec0e|2018-02-16|Shinya Morino|Fix matrix dimension for set_x().
+d7c30becddf2b87d439f5501a0dbe57d8783e2af|2018-02-16|Shinya Morino|Fix for MSVC.
+73982b091a4a30b27a6fed6d5f7785d9e2b2eb61|2018-02-16|Shinya Morino|Remove redundant include.
+d1b1c1cddf4e58093927571e8c3fb4b845c0888a|2018-02-16|Shinya Morino|Fix regression.  Device initialization fails.
+fc1183f507a3ee628f73e4b6bf7ba323a10d5d89|2018-02-16|Shinya Morino|addig toBits().
+d50a0e8d6745f908d456e029983dda73e0176394|2018-02-16|Shinya Morino|modified to allow BitMatrix/Bits.
+6bc2a6ef742863f2aad1669f436ac9ac875ea3de|2018-02-16|Shinya Morino|Fix engergy sign.
+e7bc71ccdd5cfd87b0e292334e7628c0323732d1|2018-02-16|Shinya Morino|Apply DeviceMath::toBits().
+fb517b0da1f62426dd5f64438e9ef746c170ac0b|2018-02-15|Shinya Morino|Adding cudad-python binding. Adding -fPIC to Makefile.
+0e064da3a6ce9ec7f139f2c7a2e894be2b1d7d1d|2018-02-15|Shinya Morino|Fix: libcuda.la not linked.
+6cc7650c69f5536bbfcaa11a2c747a7d70c16b47|2018-02-15|Shinya Morino|Adding -fopenmp by default.
+fb994ff9efbb3bc61d3ff61bb69d72e493ade8b8|2018-02-15|Shinya Morino|Adding cuda_device. Renaming may be required for conflicts between var and module name.
+4e8d3cbb3e24a6e08caed23b4cb40496b542857b|2018-02-15|Shinya Morino|fix leak.
+c9d1eedd05004645e73c47e6074232f071a9b04a|2018-02-15|Shinya Morino|re-implementing naive and colored algorithm.
+928cb12ca0b60e63cf52e073c40ff64ce4ea10d0|2018-02-14|Shinya Morino|Using the same prototype for getProblemSize(). Adding getNumTrotters().
+bda378fb0a93100b3fb832c030b5c2c20c0b97b6|2018-02-14|Shinya Morino|Avoid segfault when device is initialized without any GPUs.
+f2c3e5827d9ece292f82407da2fdecfc07cc42af|2018-02-14|Shinya Morino|VC Projects updated (BFSolver -> BFSearcher.)
+fdb29374bdb74559e93ee6e35b5ebd586dabade6|2018-02-14|Shinya Morino|Error trap for cublasSetPointerMode().
+698dfc2b4411495bf9b87e805e0a1bc74ea96ac2|2018-02-14|Shinya Morino|useManagedMemory() and enableLocalStore() must be called before initialization.
+2e7dd5dafaaae76c03e9a72977457cc2d3ec534a|2018-02-14|Shinya Morino|fix: all threads write to shmem, resulting in calculation error.
+6740cd9ae77234d11d79b623946d6bc5bb39f8e2|2018-02-13|Shinya Morino|names are fixed forc-extension of CUDA classes.
+676c87307bea03ea81f2d1c2dfd17e7b19cc6f78|2018-02-12|Shinya Morino|Add -fopenmp for parallelized algorithms.
+88cea7156bc8261262524c2eab17c203c974f34a|2018-02-12|Shinya Morino|Brute-force solver is renamed to Brute-force searcher in python and c-extension code.
+7a8a580698233d1f5a6bd6b5db6e86e669cdd85e|2018-02-12|Shinya Morino|Renaming BFSolver to BFSearcher in libsqaod.
+047b637475ae8623b5da4d65789b77eb35e54c8e|2018-02-12|Shinya Morino|Saving python bind for cuda solvers.
+34dbdf436db70f7c8b12e067e7ef84ed23640e6b|2018-02-12|Shinya Morino|catch C++ exception to raise error. Comment clean up.
+fbd9ba26d6a9e6c60d6281b0974f774965d5b717|2018-02-12|Shinya Morino|Adding references and a comment.
+7466e80ed349cd3cbc893c436018d5f0f646487f|2018-02-12|Shinya Morino|Re-adding CUDAFormulas for CPU interface.
+390294496f5904df05edd9ede3a52b519207f65d|2018-02-12|Shinya Morino|Updating CUDAFormulas to DeviceFormulas in tests.
+54efac8cce42b3d1a311b8c88959d2d4b55f96ca|2018-02-12|Shinya Morino|Adding exception trap macro.
+4700a71abd6c17345894ed3dd0cf728450fc8593|2018-02-12|Shinya Morino|Adding set_x().
+7653e81bc6ed282c94d1fa2db0f6a56e8f67e361|2018-02-12|Shinya Morino|typedefs updated.
+5122f5475c1a118ee3eb987b9f22a1639ff93e59|2018-02-12|Shinya Morino|include clean up.
+bb6f288650409dcc213c77a866a5736442183965|2018-02-12|Shinya Morino|CUDAFormulas is renamed to DeviceFormulas.
+aa5f0a87a8aa252b3448fdfbecd270cc2d424f82|2018-02-12|Shinya Morino|CUDABipartiteGraphAnnealer added to VS project.
+22acbd74016a64cffc298468c3a4f58a9a9b89ae|2018-02-12|Shinya Morino|The first working version of CUDABipartiteGraphAnnealer.
+94ee2cebde16a83fc2205cd9c5808e5aee7ce1eb|2018-02-11|Shinya Morino|Merge branch 'master' of https://github.com/shinmorino/sqaod
+fc408b2e24cca9cb900f916564534214416dee0e|2018-02-11|Shinya Morino|bipartiteGraphAnnelear perf code added.
+ceb06e29b9a331d274ade78034f26cb7b8bfdeff|2018-02-11|Shinya Morino|The first implementation of CUDABipartiteGraphAnnealer.  Not tested yet.
+9388892c5c4a39731107d2943c392e2b8ebedd3a|2018-02-11|Shinya Morino|Adding FIXME.
+e8702fdf12ad8634edeb1c1de8d4b8ff6745de4e|2018-02-11|Shinya Morino|energy sign treated properly.
+2ebaa70b4131e96723fea0f3888e3bde3a8b122c|2018-02-11|Shinya Morino|redundant devMath removed.
+4dcd44adc60135ac59c33a68aca51ca6c4d6172a|2018-02-11|Shinya Morino|default arg for optimization method added.
+79ec87087e22f8f64597e7e2e79c65e81a2e1028|2018-02-11|Shinya Morino|x_to_q() added.
+0eebf9c6a196bc9d79ee67d72f5f755b632c65d4|2018-02-11|Shinya Morino|Using explicit type of Bits for VectorType<char>.
+5e62a5c1c08c310abc37ab3dd81e35242c5b5b36|2018-02-11|Shinya Morino|Adding dep file for DeviceBipartiteGraphBatchSearch.
+eb9f54162787454d542197a1055174d5c116a7a1|2018-02-11|Shinya Morino|removing unused DeviceBFKernels.
+cfd4a6a45b0dc1c9ca678037dff09189ab0b5a60|2018-02-11|Shinya Morino|Fix: wrong random buffer usage for double.
+e469161f93998b4dc4b2d000dd613b6c78c4f1af|2018-02-11|Shinya Morino|Updating VS projects.
+fc6080be822ffbad9cd0b42a3968d129c7ebfc1c|2018-02-11|Shinya Morino|Fix: exception on CUDA annler on destruction.
+8998a1aa24421fc24149a31e46be5b1cf8815ea9|2018-02-11|Shinya Morino|The first working version of CUDABipartiteGraphBFSolver.
+83db67fe33ed261fea5ad06d10ad5bbc84db7db9|2018-02-11|Shinya Morino|Set size to 0.  DeviceArray is initialized after allocation.
+243ab7a9c41d3af7bca8fb8b6412d0d4d5538415|2018-02-11|Shinya Morino|Adding CUDABipartiteGraphBFSolver, not tested.
+582ef04e293d5127f156b3bbb318e55a8d66319c|2018-02-11|Shinya Morino|Clean up.
+868825fbac29d0c1ac90f66a7fee9454e2e7dc03|2018-02-11|Shinya Morino|struct sqaod::PackedBitsPair added. Relating changes are applied.
+ff19d5ed1f360f60a872163d8f64538afc42edc9|2018-02-11|Shinya Morino|trivial
+91dc97e708ffcb37ffd01a0e2bf310378a2ce26f|2018-02-11|Shinya Morino|Debug code to compare random generation algorithm.
+49e7901d9f7cda4101aa97929988073e2da864ee|2018-02-11|Shinya Morino|Smaller tests due to short of memory.
+37edad6f613b7f964d8bb4952bf69289f029cd59|2018-02-11|Shinya Morino|local store diabled to use memory checker.
+c8f775739b6382394de37c1a0502b7c28f21d6b6|2018-02-11|Shinya Morino|Fixed wrong writes.
+a065a70d17bd593cbefeddf5f70de3cfb680a044|2018-02-10|Shinya Morino|Adding DeviceSegmentedSum.
+f0be316b714150186fab86547a19c4ebe14d6801|2018-02-10|Shinya Morino|Compilation check on g++.
+4a5869bf92efa59d83b0f32e24dd2fecb4988c6d|2018-02-10|Shinya Morino|Test project updated.
+007057cc6021e4da83ec44983d3f0bb3900a06d3|2018-02-10|Shinya Morino|Test order changed.
+a7468bb0eb7d2db3a73bf3d28e2a127c4e860325|2018-02-10|Shinya Morino|Updating VC project.
+bba65fe5c0beaa953b7b0bcd8a7668be1652936b|2018-02-10|Shinya Morino|DeviceSegmentedSum is reimplemented, and applyed to all relating classes/tests.
+300cfe6d6609232592acd322a0e5a0964e6ba6a1|2018-02-10|Shinya Morino|adding allocate(V**, size).
+179b875df334995a2843af4ae3e6ddbe8649d289|2018-02-08|Shinya Morino|Consolidate OpenMP pragmas.
+2577b14dfb40cf536bac9d3114576fb32d8e2e1d|2018-02-08|Shinya Morino|cpu/CPURandom.cpp -> common/Random.cpp.
+071a8b3aeb83cabde52ec0106f798f15ab72a9a4|2018-02-08|Shinya Morino|Merge branch 'master' of https://github.com/shinmorino/sqaod
+c585bbc9847df481a5cbd5a4c4c1f61d82235d6d|2018-02-08|Shinya Morino|Current implementation.  To be optimized again.
+0511a33ffe4df4d95d360eed45b9152149af99b6|2018-02-08|Shinya Morino|Updating visual studio projects.
+e6098900db502ef188f88bcdfbaf2066b0df241b|2018-02-08|Shinya Morino|Updating visual studio projects.
+c8c6bdeae197c9287c1a008d2bc76cf308755cc0|2018-02-08|Shinya Morino|Trivial fixes.
+d49a2d75500f6c5d596b87a8546a6d744fcb4928|2018-02-08|Shinya Morino|adding CUDADenseGraphAnnealerTest.
+630ec63d09f1e6d28829bc99c72d61e4e28a5fee|2018-02-08|Shinya Morino|Misc and small changes, that does not change logic.
+a40fbd436239f3af798eebd8a76f9c5680609bb9|2018-02-08|Shinya Morino|nRunsPerRandGen is changed from 100 to 10.
+4ebda2fe0a4f73bcde33f4fe290372ba7cbc2147|2018-02-08|Shinya Morino|Misc clean up.
+d61995bac52f2405aaea2652729551ea17019f95|2018-02-08|Shinya Morino|d_dE renamed to d_Jq. Fixed: Offset2way did not consider seglen.
+562c48be9694f3df38e60fed0577942d831f2edb|2018-02-08|Shinya Morino|Other misc changes in DeviceRandomBuffer.
+5f994ce59d764655ae5f0984af663170fb0aa75e|2018-02-08|Shinya Morino|Fix: randomized q values are always 1.
+f2e5f1a11bde504fd83e606648b6570c0b8c6817|2018-02-08|Shinya Morino|type of random int changed from int to unsigned int.
+f184115dfa0308ec5862000bdd28ba7ebd3b6117|2018-02-08|Shinya Morino|Element accessor added, intended to access from CPU when using managed device memory.
+a1318c77131a7bfe6c45e92eda1dff30c5aabf3d|2018-02-08|Shinya Morino|fix: lack of initializers
+a44d43c36ada67a19995fef0e4dd88e0ded46fa1|2018-02-08|Shinya Morino|Adding constructor with device arg.
+fc93d63e62f1cdea1f603c0dedca91fd1e9f89aa|2018-02-08|Shinya Morino|Colored is renamed to coloring. OpenMP is enabled.
+f82bd6a3d1b0e24397a84343625ea0b52fd47a9b|2018-02-08|Shinya Morino|Merge branch 'master' of https://github.com/shinmorino/sqaod
+c4c729dfd57c300cb2b77b1cc74b9eb308df2c01|2018-02-08|Shinya Morino|colored annealing applied to CPUDenseGraphAnnealer.
+2dc121895c0ff0c501752a7dff5c3ee1441f0eb9|2018-02-08|Shinya Morino|Merge branch 'master' of https://github.com/shinmorino/sqaod
+fa8011003eb6db7209ca0b1f1dbc8c6039dacee4|2018-02-07|Shinya Morino|cpu/CPURandom is moved and renamed as common/Random.
+3e9b2dc337f3f8ee2d8cc4cd42a3e8aba971292d|2018-02-04|Shinya Morino|adding stencil algorithm.
+d0934121fec5256c7a055aeb8c2ca329ff2682dc|2018-02-04|Shinya Morino|updating set() -> map().
+fed63768f1d55d848a513691121795fb2d395687|2018-02-04|Shinya Morino|Makefile.am updated. Compilation check done with g++.
+08d6ab99112eb9fea456cb07ee2058c7ec61c4f2|2018-02-04|Shinya Morino|Merge branch 'master' of https://github.com/shinmorino/sqaod
+bd8cd319b9180e9bd7c06ad8966e24b0ea4dd4c6|2018-02-04|Shinya Morino|adding a switch to enable/disable local memory store.
+5f295e0759bcd63ec1e0d785492fccd76422c928|2018-02-04|Shinya Morino|adding a switch to enable/disable local memory store.
+ad30ec6c5611b0f44230c5c843be94fe010332cc|2018-02-04|Shinya Morino|Adding missed initializers.
+6b56948119878704523bec51c1c7d4847eaa3040|2018-02-04|Shinya Morino|VC Projects updated.
+90c422cc0071d695b68b19ba77118e75eb095415|2018-02-04|Shinya Morino|Adding fixes, not tested yet.
+a3f3394c71ae08e40775b4f2d9b0bd7d6311fef7|2018-02-04|Shinya Morino|Eigen is removed from utils.h.
+0e89e5ddb5c263514a70ca9f9778d798254e4296|2018-02-04|Shinya Morino|Add DEBUG_SYNC to randomize_q().
+8d416aa91d15e50283ca1d40d51025b3872a5812|2018-02-04|Shinya Morino|DeviceSegmentedSum is applied.
+ff0224e41a6d020c9368810cafe2352e3545f7d2|2018-02-04|Shinya Morino|Adding initializer.
+e7ccbcbaecae96e83d5f4c7abdc79e2f7a8e309d|2018-02-04|Shinya Morino|Inlining all allocate() methods.
+2c4c32201d34ead3911d7f9776ba8fbd51e46058|2018-02-04|Shinya Morino|Adding numThreadsToFillDevice().
+ec609beb8ec6cc95c629fb2a2b1542286c3fffed|2018-02-04|Shinya Morino|Adding some trivial fixes, not tested yet.
+2fad6365eec3247ea806381b175194415c7c62fc|2018-02-04|Shinya Morino|DeviceSegmentedSum is tested and updated.
+9c530672fd87e178c19ec1c841e4c7ade51875c9|2018-02-04|Shinya Morino|Adding test skeleton.
+e95c757ab72311cebb26acfdf8e6293123e9b9d9|2018-02-04|Shinya Morino|Adding code to run CUDADenseGraphAnnealer.
+b494d558a33335d344e365e82314a395a650ac27|2018-02-04|Shinya Morino|enabling header dependency check.
+3574cd0842eee41d407cd6412328963d73e80194|2018-02-04|Shinya Morino|The first implementation of CUDADenseGraphAnnealer.
+a0e771c5a3591c0a405e4ba4c94e67ed19ef1725|2018-02-04|Shinya Morino|The first implementaion of DeviceRandomBuffer.
+36df2b2f4ea5a9436a44d67ceff58c941830afe8|2018-02-04|Shinya Morino|Fix warning.
+243af67c3bf0521e0b9142664cba07ae1c2c0e09|2018-02-04|Shinya Morino|Include DeviceRandom.h for randomize_q().
+bbea2f816b2f9a44e40762b84e2b72c7102b3b8a|2018-02-04|Shinya Morino|Removing <iterator>.  It's moved to cub_iterator.cuh.
+b9f8beb6dfb33833d0956c4c7a9e10682b671b71|2018-02-04|Shinya Morino|using nThreadsToFillDevice instead of devNo.
+2cd16835b5310c081674a0971545ba6c73272be8|2018-02-04|Shinya Morino|size type updated.
+1cb37b9c824288f180a172a205e8c2d98a629800|2018-02-04|Shinya Morino|Adding row() method.
+8bce603b8559fd0b96750f0ff4dbbb11f2bb7ceb|2018-02-04|Shinya Morino|Adding randomize_q().
+22c2ec4cfd895a977ff85c28aa71eff3af40757d|2018-02-04|Shinya Morino|Iterators are moved to cub_iterator.cuh.
+be67064228b275ca26cd1f05760d2c0745e6a5cc|2018-02-04|Shinya Morino|Adding Device::getNumThreadsToFillDevice().
+9a030ea04b198dd1bfa493a4e1a7c2e6f781e16a|2018-02-04|Shinya Morino|iterator_traits_base<> is moved to cub_iterator.cuh.
+1ee4f3fd2002a69a113c0e993441b9ea222656cb|2018-02-04|Shinya Morino|The first implementation of SegmentedSum.
+33e77ff776aa04eed289e02b01967d01335b1445|2018-02-04|Shinya Morino|Adding allocation method for DeviceMatrix/DeviceVector.
+7f383e416364fbe9f50635f4c873f7a6719f001d|2018-02-04|Shinya Morino|include guard is replaced to #pragma once. giving optMinimize as the default value.
+c2149485a7be2b097875278ff230471b22697952|2018-02-04|Shinya Morino|updating size type.
+cca1c0bfb53395e90a9c70e5e801d92154e7ff3a|2018-02-04|Shinya Morino|alignment parameter added.
+483cfd60c9366b51075d00b18f45d2a15f776381|2018-02-04|Shinya Morino|Adding implementation for DeviceRandom::seed().
+d21f8a92ad8f815c45d7bd0bbf0e9e153ffc7f97|2018-02-04|Shinya Morino|cub_iterator.cuh is seperated.
+9dc6dc8677a72a577db501d73b825135fce6a6b0|2018-02-04|Shinya Morino|Adding devNo().
+23cf32953acd376f5c4d8e9254cbbc5f1babb5ba|2018-02-04|Shinya Morino|VectorType<>::set() is renamed as map().
+92e1c3430288d438ea271e706a3d497c73d8051a|2018-02-04|Shinya Morino|Adding UniformOp.cpp to Makefile.am.
+f0a30d416d3f9b2ccc84794b204ea1328f8ef703|2018-02-02|Shinya Morino|Project updated.
+b8173ae7a71be4848f9a282de5ed325c03a00078|2018-02-02|Shinya Morino|Trivial fixes for perf app.
+d81e5e9d84ffb5c569415d36428f4dc8296e0ea7|2018-02-02|Shinya Morino|Fix: Emin_ is not copied to E_.
+262ed056b5415c076e824c6a239a23af4476ea25|2018-02-02|Shinya Morino|Adding temporay Windows config.
+a9d6ee8c57a77e71390376fbd1d7d54b299d7a2b|2018-02-02|Shinya Morino|fix trivial bugs, adding specialized versions for sum().
+e874ed2b7ad441a958c87b003dc468633d335f8f|2018-02-02|Shinya Morino|EigenBridge and some operators in MatrixType<> are applied.
+9fed1b662393e8fbbbef99a5f2f236eaed7ec1fe|2018-02-02|Shinya Morino|Small trivial changes.
+db390e0da33709e596a060ac3713ef1cd5662656|2018-02-02|Shinya Morino|Adding a check to multiple initialize() call.
+5bfa035dfa1e21670523a90b74639ce7a9686e6e|2018-02-02|Shinya Morino|CUDA Kernels are merged to DeviceRandom.  Removing DeviceRandomKernel.cu.
+605b23c54b7c9ed8723d728885d45af49d9d0867|2018-02-02|Shinya Morino|Functions in DeviceBFKernels are moved to DeviceDenseGraphBatchSearch and DeviceKernels.
+3a38a80dc50ade5bea00937c2acebc265e7c9f23|2018-02-02|Shinya Morino|tests updated, adding some operators to MatrixType/VectorType.
+1ac1b941b3e88d92b10d133de3ddf480c9294c6c|2018-02-01|Shinya Morino|set() is changed to map().
+2b90bf6168adb1e8aeed802f57be7aee2ac7bc00|2018-02-01|Shinya Morino|Misc/trivial fixes for compilation.
+99b093a38c88e602d30d11ab8d9e1d13981b5000|2018-02-01|Shinya Morino|cast changed to a function.
+3ce715e2f8f36d17e8ae9c0d36eb9e088629dfaf|2018-02-01|Shinya Morino|Adding missed fin_anneal.
+7d8af4caee952ad0ca44b318d251df51b75140b4|2018-02-01|Shinya Morino|Eigen include is moved to EigenBridge.h. Introducing UniformOp. Relating changes are applied.
+c96eb5cd5d803b8e73b298a367c5c2159ae04abc|2018-01-31|Shinya Morino|Fixed: set_solver_preference missed.
+b3e1a23f93d194a399c1a4880d329b5b4d893dc3|2018-01-31|Shinya Morino|Reversing bit order according to the change in C/CUDA implementation.
+55c2a549a8e3af5ff400ea854bfab908845bf9a9|2018-01-31|Shinya Morino|adding perf sample.
+89a81c98216b84b2692372b278054f8b92eb733a|2018-01-31|Shinya Morino|Enabling --enable-cuda and --with-blas.
+1add72407b55b7827905eecad926265987f039fc|2018-01-31|Shinya Morino|Merge branch 'master' of https://github.com/shinmorino/sqaod
+29564d385f23153d53b608b9cac08e1cdd8ed73b|2018-01-31|Shinya Morino|Removing DeviceAlgorithm, whose implementation is moved to DeviceBFKernels.
+3d812e1bf78dcb857e85787fc3f91333545d442a|2018-01-31|Shinya Morino|Removing DeviceAlgorithm, whose implementation is moved to DeviceBFKernels.
+49b183df340344306428fdf68627ce22bcde9d12|2018-01-31|Shinya Morino|Adding simple perf app.
+c0971999241b54b040dcef4b86a7d1167b2fac88|2018-01-30|Shinya Morino|Clean up assertions.
+d6aaa87e9734ba60b2a4fb1317db068cf87651f6|2018-01-30|Shinya Morino|Updating Makefile.am.
+195f6add108187c91b44ce52a2ededce543d0a59|2018-01-30|Shinya Morino|Adding useManagedMemory() to Device and DeviceMemoryStore. Enabling managed memory for CUDADenseGraphBFSolver test.
+c8831bf2871d89f2fa482164ad481b24e37a59ef|2018-01-30|Shinya Morino|VS project updated.
+1889b43edff4bc3cc271576e67bb42fb37eb6460|2018-01-30|Shinya Morino|Adding tests for DeviceRandom and CUDADenseGraphBFSolver.
+f39f48a4fbccf92936bcccdcdbd5bf0fcc1cdc54|2018-01-30|Shinya Morino|The first working version of CUDADenseGraphBFSolver.
+b3b6f6d36f7d1c9cc1a5a8a7e626664ddfb06a21|2018-01-30|Shinya Morino|setDevice(), setStream() are changed to assignDevice(), assignStream().
+20fa9f361f3d537578b3a63475c7262334b8760e|2018-01-30|Shinya Morino|renaming copy*() methods.  Prefixed "copy" removed.
+1c5e1a3a88e5c0ff8d9ccfd7fee35b4a11984b7f|2018-01-30|Shinya Morino|Adding typed allocator function for device raw buffer.
+6e52f39e063dc79aa9eb6916b7304ebbc58421f0|2018-01-30|Shinya Morino|setDevice(), setStream() are changed to assignDevice(), assignStream(). Adding corresponding construstor for easier initialization.
+4ca941c75928b122ac2399dffe8bcdc72418338b|2018-01-30|Shinya Morino|DeviceArray implementation conslidated.
+bba98d990eda17d2d2f6f8cc7c881f6fed199f78|2018-01-30|Shinya Morino|Remove unused Matrix.h include.
+d0ac9dd455ba8968fe38096a0337cde1cb319ebc|2018-01-30|Shinya Morino|Adding default opt arg.
+7257e478557bf8c2166cc051ef65751508d749c3|2018-01-30|Shinya Morino|Fix: wrong initialization order to prepare search loop.
+fe7e624adf933c96b938f7bae8f9436395281c55|2018-01-30|Shinya Morino|Fix: correct x is appended.
+a5a41d06a66d8e7cbba4ed862da8391bc36dfb96|2018-01-30|Shinya Morino|The first working version of DeviceRandom.
+3b5cb50498a061a2369fc4ba7be2544c4ad1ddc2|2018-01-30|Shinya Morino|CUB_DEBUG and base def of iterator_traits moved to cudafuncs.h.
+b20eb4125a5f0437aa5f77f690d763743e3c43a2|2018-01-30|Shinya Morino|Defualt message for exceptions : "abort" -> "Error"
+5d64c3cd95131d42406fccee0b453e424a838ef8|2018-01-30|Shinya Morino|Update Matrix, Array typedef dependency, not to include eigen in nvcc.
+0b3044fbe38aff4ef137973d600c4164819dcafc|2018-01-30|Shinya Morino|==, != operators and insert() methods added.
+98761c10a148883aafa1d5d4a4e078f17c04d005|2018-01-30|Shinya Morino|bit order inversed.
+780011b2e87ac902dc7eadad3443fe5414559c6c|2018-01-28|Shinya Morino|DeviceRandomKernel is seperated from DeviceRandom.
+5690342c6c8dcf1bdfda65e3192ad0a6b7f4088e|2018-01-28|Shinya Morino|DeviceRandom cimplation OK.
+fc0e685b5f3d47914dcb4adb5d1ffb3c347d0376|2018-01-28|Shinya Morino|test updated according to interface changes.
+4f17c12d30f78ce50f502f80f4d19997e2907e0c|2018-01-28|Shinya Morino|Trivial / minor fixes.
+b1898a7ea3b84bb5c81cc93926337a1221786e3d|2018-01-28|Shinya Morino|Adding some files.
+1e8ffa2913e47d4ea91aa1a3ebc1cb75218393f4|2018-01-28|Shinya Morino|test updated.
+3a92f8dbfe3d13d13b7af43fddca2a2db8ecd6f6|2018-01-28|Shinya Morino|The first version of CUDA dense graph brute-force solver.
+4e07d69e5d723a94d583366483593fd85e00cc85|2018-01-28|Shinya Morino|Updated according to interface changes of sub classes.
+8965a74e6e3ef5dd1d4750c8ccead89afda94a0f|2018-01-28|Shinya Morino|allocator for pinned memory.
+37b048b7bf6d12b80c63ea16f3e1a69b816ce654|2018-01-28|Shinya Morino|Adding stream.
+2467af5813712f00768b6e1ff8eb35aecea34e75|2018-01-28|Shinya Morino|Each allocatio function is changed to a template.
+2022287296bd070eca22241d0f1783a47a372108|2018-01-28|Shinya Morino|First working version.
+b4978818420de256b6d108cff47a323998340622|2018-01-28|Shinya Morino|Each function is changed to a template.
+e94992962cbfeb33613e05d8fd267faa740c3627|2018-01-28|Shinya Morino|New class, seperated from DeviceObjectAllocator.
+e12c589c23023daab73f6a2173db2a7d5c1a893e|2018-01-28|Shinya Morino|Fix for multiple-definition.
+e327318613cff72e9ec57c596c95c955caf653b8|2018-01-28|Shinya Morino|add.
+5433f919f80236e0ad83a642d9ac2db02334b3ea|2018-01-27|Shinya Morino|typedef moved.
+0f271d689293c558daa44ce6afc94cd8cd449ade|2018-01-22|Shinya Morino|adding CUDAFormulas and CUDAFormulas tests.
+dd03f619f4d4e8153416c1c664e6ecb62f397243|2018-01-22|Shinya Morino|Fixed: chunkMap was not cleared on finalize().
+ef403285ecf86737b6352e3b48d6f9c19808540e|2018-01-22|Shinya Morino|consolidating name space.
+b253f12345f30d840988dca0e0df7cdc1e5a3279|2018-01-22|Shinya Morino|Adding test object generation funcs.
+a1369d6ed1d8905da380a4baf00462c5854d3c3b|2018-01-22|Shinya Morino|Adding CUDAFormulas tests.
+73d40a31abafd74385fa7e8631938474d6b4795c|2018-01-22|Shinya Morino|Random renamed to CPURandom.
+84b7dea667537fa09b9f59ca67b2ba9a41aa0bf6|2018-01-22|Shinya Morino|CUDAFormulas test.
+fe4debd1053e8a0a692da58f953ec5a70e6427f1|2018-01-22|Shinya Morino|Fixes from tests.
+e11ff47040f8011f0e2ccec596458a1f6376c658|2018-01-22|Shinya Morino|include assert.h here, and disable when _DEBUG defined.
+e1d5507eab909ebd3653556b12933506bc365a84|2018-01-22|Shinya Morino|Adding input check.
+82c50eeeb1c6df38a8f8032e1f19ca67ac266c56|2018-01-22|Shinya Morino|Add exception handling for test method.
+8bfa760d7029e3fb12c94a661af99551a562b545|2018-01-22|Shinya Morino|Enabling CUDA path specification, disabling secure format warning.
+82e6f0c5abe4e6a09a8f92783dda981000b3610b|2018-01-22|Shinya Morino|renaming parameters.
+c5bc6b38d3155cd005da4ba4fb1fc71b075203b9|2018-01-22|Shinya Morino|Adding input check.
+836a6b9b8bfadd2af0013b83c77291573c6958df|2018-01-22|Shinya Morino|Removing unused rand_seed() for bf solvers.
+cb6cb82325c37ed9f0137ea5f792606f1485ae4e|2018-01-22|Shinya Morino|adding cudaSetDevice().
+0cf3a90b54aa77ed8db70660b282b1dd094d13fe|2018-01-22|Shinya Morino|Update input error check.
+b267d11096f5b13ce13d3e089e5cedfbfe77a8eb|2018-01-22|Shinya Morino|Fix parameter list forwarding.
+197e153547873462fea816ca1a3a1c515ae23548|2018-01-20|Shinya Morino|Renaming Random -> CPURandom.  Adding relating fixes.
+99a0a7af110539cd74b92df5371f04a218fa4a5a|2018-01-20|Shinya Morino|compilation check on g++.
+8190ab51e59482215fd379a168f7f968aaa14baa|2018-01-20|Shinya Morino|Adding synchronization fro copy() on test code.
+a1a8ea7e8a6ed0436c9d6ecc825ccc2c37e7000c|2018-01-20|Shinya Morino|VS projects updated.
+6f94114236ecc1149f3c6ddb56bdc0033836891c|2018-01-20|Shinya Morino|Fix: zero-sized released resion. Allowing NULL for deallocate().
+7b346c22f91853ab26212d68c924a7ab3a8d1cad|2018-01-20|Shinya Morino|DeviceCopyType::synchronize() added.  copyBroadCastStrided<>() moved to header.
+884269a7174ff870a3569652dd4145cef95e9bc4|2018-01-20|Shinya Morino|Adding tests for DeviceMath and Device.
+cceb2db3f8f834733fdd1249234a42359b8b1a56|2018-01-20|Shinya Morino|Updating test framework.
+741813d905c794d0cd3242a888dd81a52617b312|2018-01-20|Shinya Morino|fixes with tests.
+9642ff51d84fbf0ce6b4d1ea7003b8391b70a328|2018-01-20|Shinya Morino|Adding ones() and zeros().
+e883f094b003bec7abadc97304dc9a0aca40489f|2018-01-20|Shinya Morino|pulling CUB
+99c7e10dcbd4e84141049296f37f4a269f1836a1|2018-01-20|Shinya Morino|Workaround to prevent *.opendb locked by git.
+d97c20b201ea167910874a2f13516b06d85c9e77|2018-01-18|Shinya Morino|update erro trap macros.
+440f8b6bd6c2dcc64ccd6db56f8ccd3ec743ab22|2018-01-18|Shinya Morino|Adding test template.
+ef0c5f8340f4b08275ae3bba4f2c9df9efc55fdb|2018-01-18|Shinya Morino|Adding assertions.
+cf1fe9c1dcc6fb7d2fcee712d4b6a1d3cecb2b45|2018-01-18|Shinya Morino|add compare operator for Dim.
+ceec313cffef9301baa596b1e07be308318137da|2018-01-17|Shinya Morino|fixed for g++.
+9984fa4afb8e0e5b0fab8bdfcc4ff7fe42006d51|2018-01-17|Shinya Morino|test app.
+9734a1d8700643497ae2bb5be1b309053f2b9b2a|2018-01-17|Shinya Morino|Misc changes to run math.
+f190c4a6e403f70081fc9f4c664015d221c01e71|2018-01-17|Shinya Morino|simplefy names.
+f31fa179699e4c0f752e95e90446050bf703f7b9|2018-01-17|Shinya Morino|DeviceCopy -> DeviceCopyType<>.
+5e44d77dc4fb2d8599359a3b015fc73ad364148f|2018-01-17|Shinya Morino|dim version of resize() added.
+4ab65faa8f57a055092d62ba749a87865e60ea4b|2018-01-17|Shinya Morino|Error check macros / funcs refined.
+63924f673cbbcd9f94c093bfa29b4be72c542d86|2018-01-14|Shinya Morino|simple tests added.
+180884f2b2d77a0c1bd522f7a2a8766a7976ec31|2018-01-14|Shinya Morino|adding eye(), zeros() implementation.
+b064bec988691c6572c3d31dcb327ccf5752b59e|2018-01-14|Shinya Morino|refine error handling macros.
+504714997f97f5ea0c7e52b98952cd2497a1a1f7|2018-01-13|Shinya Morino|implementation required to run DeviceMath.
+fc5ebb63e7aa3b140ed3f5c631b309812c877a20|2018-01-13|Shinya Morino|Use SizeType.
+df711b9591b928cc033eb0f51bd5b9515a44dc7a|2018-01-10|Shinya Morino|Merge branch 'master' of https://github.com/shinmorino/sqaod
+4fc53766d861cb125905881e754338457cbeff7d|2018-01-10|Shinya Morino|sqaod::SizeType and sqaod::IdxType applied.
+e6f97dd93435c5d9f8582545075c371a8759a227|2018-01-10|Shinya Morino|Random::seed() introduced.
+f3cf26a11670e30e0c6d537627a03b93bbfc3c83|2018-01-09|Shinya Morino|CUDA switch added.
+5ddbc11a0d4fe94ae0965421d1921e4527903796|2018-01-09|Shinya Morino|Merging cuda-dev branch.
+cbc54654b56bd4bb16ed461574585ac0e838c1c9|2018-01-09|Shinya Morino|The first working ersion of memstore, and relating changes.
+67430e10130d67ad112d2f03689e4c523875c075|2018-01-09|Shinya Morino|introducing SizeType, IdxType.  Misc minor fixes.
+d47efc7cfa7a9c56848097f6716b378b67292700|2018-01-09|Shinya Morino|isolate MSC defines.
+d3ff46cd0bc1e45e16d3fe3bdd79353dbd061333|2018-01-09|Shinya Morino|fix type warnings in VC.
+a2316dc74ad2208514f6c57b30e97c6a657b516c|2018-01-09|Shinya Morino|added missed batchSearch method.
+be075755424a47042803441ad1e6fe84f9869f91|2018-01-09|Shinya Morino|Disabling wornings on VS2015.
+a159ac3a6124999b054406627e5fd3fa55cc25a3|2018-01-09|Shinya Morino|ignoring Windows-specific and python build dirs/files.
+8f7dd3d7369e4c320b6c3b9a5e5e0f464fada579|2018-01-09|Shinya Morino|fix type of random.
+cfe305c710b32bcf9611e0b8530e1ba2340e0e1d|2018-01-09|Shinya Morino|Revert "mend"
+ca96235d86354f24b63483df07c1d4d950661e37|2018-01-09|Shinya Morino|mend
+b8ad055d05bfb70aa8cb1ef133a298425ccb66bd|2018-01-09|Shinya Morino|fix type.
+749fb4d9f158ab39efa4f24d08ec6a19625e692d|2018-01-09|Shinya Morino|Introducing SizeType, IdxType.
+24d9c9343e1e5177bf7a10a49aa2b384fddf3ff7|2018-01-08|Shinya Morino|redesign DeviceMemoryStore.h
+83e2aea27abb3a6b1508d7a3004c70b60b7688fd|2018-01-08|Shinya Morino|debugging memory store.
+8161bdac279a03d5d3facc2960833e94c8dbec9a|2018-01-07|Shinya Morino|Adding test program.
+9beaf04a2e353ae9043fad35f8ff08237961e3c3|2018-01-07|Shinya Morino|mend
+a839927275cab353372644f8853bc82ce3f29a1f|2018-01-07|Shinya Morino|adding undefined methods.
+4ab4345c1f2baa9de84c9ed3dc681a6538dc18ef|2018-01-07|Shinya Morino|mend
+78c35512e69357f02b8624d69c73362a0e5c2c0c|2018-01-07|Shinya Morino|device initialization code added.
+3d9438fdfeb49813029ba8a6d1353caaf5c464fb|2018-01-07|Shinya Morino|mend
+79b18a8ca2148615d8f0d0d55a54cd1e792bf2aa|2018-01-07|Shinya Morino|mend
+e57d984ba4e80fddf4bf67955eea474706560819|2018-01-07|Shinya Morino|Introducing DeviceObjectAllocator.
+1fb06e84de3f0ba2faf04ad5dee9a4d5e53f2227|2018-01-07|Shinya Morino|minor fixes.
+425725d36d4bf2dc2afe46b45259b8d5f560e6aa|2018-01-07|Shinya Morino|adding Makefile.am
+84c15b84a86b77861e75fe35b7104e2532f8707d|2018-01-07|Shinya Morino|DeviceMath, compiled.
+732b1ef0c5102eea8b07173c952f3a7ac746c6bb|2018-01-07|Shinya Morino|under deveopment, saving current files.
+944a0a5921127027f0bf41c08c75acc837805099|2018-01-07|Shinya Morino|add ValueProp<T*>.
+04d530ff8d5950788c4e49c77b9a47b11b73f239|2018-01-07|Shinya Morino|adding THROW macro.
+96e6d469106e041bcf79755fb71c834f4cf4f4d8|2018-01-04|Shinya Morino|updating README.md to add prerequisite and OS.
+c29893c67f45e8e593fa97c495d7f581d3a26988|2018-01-04|Shinya Morino|version 0.0.dev0
+9ad5afe106f9832c9a067284399d7af14829015d|2018-01-04|Shinya Morino|Merge branch 'master' of https://github.com/shinmorino/quant_sandbox
+c3bfc59f02f9cb1cc37a91c82b04ccff2b30a162|2018-01-04|Shinya Morino|build/install instructions renewed.
+c93fcfcdc35d4d51031110fed7dcb8698ae7c7e1|2018-01-04|Shinya Morino|Adding uninstall.sh.
+369d30ee5b59ce2c07671e33920d99cb4ba66845|2018-01-04|Shinya Morino|adding build.sh for easy build/installation during development.
+58e90acdc45077b76758d6849bf01e30bd9c9aed|2018-01-04|Shinya Morino|fix version, fix source for c-extention.
+d8129a978836013aca257206e05fe685f50612d7|2018-01-04|Shinya Morino|removing std::vector, and ArrayType introduced.
+80635747a3c39ce9db44c07a7125ebd94ceda2b5|2018-01-04|Shinya Morino|adding autogen.sh.
+0b19098a27582a3e91436d2c81407372a4ccc46b|2018-01-03|Shinya Morino|fix range check for ArrayType.
+279e65d002d9e4983dc957bbb87b8d9f5af1ff0b|2018-01-03|Shinya Morino|fixed wrong owner specification on move.
+ff1a5d0cf2d15c8552631f89bfb6eb5e001b5724|2018-01-03|Shinya Morino|removed redundant Eigen incluce.
+e65c0d35b5f13850e2d471dd7ab12ecf70a8be98|2018-01-03|Shinya Morino|introducing annealer state and ArrayType.
+bc74e9e234db4a9de764059f61243e639c44baf6|2018-01-03|Shinya Morino|fix np_clone_as_ndarray misuse.
+d4fb5d40723bdf36299b3307847c118bccd092fd|2018-01-01|Shinya Morino|precision / input parameter checks added.
+934d0ee465d41d60f46d06531b650200d6c556d1|2018-01-01|Shinya Morino|adding interface tests and relating fixes.
+fc526dbaf5beaa0c695f2e244c3ce4950750721d|2017-12-31|Shinya Morino|clean up imports.
+5235c8b1e9401910a4b15d1f6ed9ce37107506fd|2017-12-31|Shinya Morino|updating optimize_dir and optimize ops.
+61ea13a128c1333d65f4bcad1797a3c67fd436aa|2017-12-30|Shinya Morino|the first working version of setup.py.
+2592ed9c7a957282e19ef6748b25d1046fd5c45d|2017-12-29|Shinya Morino|changed pyglue.h location.
+c0e61e12530868dfec7bbc33f3ad6bea368807f7|2017-12-29|Shinya Morino|cleaning up.
+37f3e1807af7b94a04d31d9cc9fd4f95fce1c60e|2017-12-29|Shinya Morino|fix test name.
+936bb867adbb08a4b72addab695c2c6fc712b1be|2017-12-29|Shinya Morino|adding example scripts, some trivial fixes.
+4e4f33c72ccbf35e7d8ae6e3726a00201f1a9317|2017-12-29|Shinya Morino|mend
+486f34c6f6e0b96ba5b4320049d35bbe66d89efe|2017-12-29|Shinya Morino|adding some trivial fixes.
+344fe10e7a267659d1b471cfc6559f254c896536|2017-12-27|Shinya Morino|mend
+a7facc15a0a7bf1312f722d10dc2ad332c32daa7|2017-12-26|Shinya Morino|interface refactorerd. Adding Matrix/Vector classes for C++ interface.  Updated solvers and fixing tests.
+3b91392ac2b8160e88e0f8ee245c51d0bf2a21d0|2017-12-21|Shinya Morino|updating class interface of CPUDenseGraphBFSolver.
+2c6c9a7cf4eac60c2510a87a3cb0168538a2fd46|2017-12-21|Shinya Morino|adding CPUBipartiteGraphBFSolver with some refactoring.
+ae7c33362edce05d50050deac442eaef8236fd88|2017-12-19|Shinya Morino|removed redundant Py_INCREF().  Clean up codes.
+a9a27bedf8005c5bdd3c0070bfd2b283b9f3408d|2017-12-19|Shinya Morino|first commit for CPUBipartiteGraphBFSolver, that compiled.
+cf7db2d1c701c3b8166851ed30027d02490aa161|2017-12-18|Shinya Morino|renaming cpu_native to cpu_formulas.
+bfb01b793091ec612058b34062afc86eb4ab6830|2017-12-18|Shinya Morino|updated/refactored CPU implementation.
+7f40149508ba438336e7721d811cee3550c094cc|2017-12-18|Shinya Morino|refactored for error checkers and common funcs.
+d892eff50d2c27b74a48bbc4994febb65d5f6254|2017-12-17|Shinya Morino|interface simplification applied to CPU implementations.
+4dd6c5a89246621bebfa7576b2519874b62efef2|2017-12-17|Shinya Morino|sqaod namespace introduced.
+2ded75b7407785dab518a85f79d289fb6f437289|2017-12-17|Shinya Morino|mend
+355e808287082bc5967124767cd7ac9973db3a99|2017-12-17|Shinya Morino|removed old annealer dir.
+2f23e7634970cbf1a67012dab95589fd62243a3b|2017-12-17|Shinya Morino|adding package imports.
+0a15b56814aa40991266f72955ad9cbfc418e973|2017-12-17|Shinya Morino|fix tests.
+9f92280e88e1388409c3fa9550df947f2032624b|2017-12-17|Shinya Morino|files renamed and moved under scaod.
+1f67190bdbd758c65d9c018c9055993dfbd27658|2017-12-17|Shinya Morino|adding PyObject allocation methods on Sclar objects.
+52499676ad8fac14a1a7829b82f43201d83ad4ba|2017-12-17|Shinya Morino|update method signatures.
+76241c52270219de115e238140f69ac009d4fb2b|2017-12-17|Shinya Morino|RBM is renamed to bipartite graph.  Clean up class interface.  E and q/x return series of solutions.
+c57da156fb253897f702ed4ba0433227406bbf7a|2017-12-16|Shinya Morino|first commit of working implmentation of CPU-based solvers.
+e94b0bc93903e406201d856a403aa8c826c92aee|2017-12-16|Shinya Morino|tag definitions are modified to integers.
+0e830b15704a865b613aa5a72a4095ae127ce76f|2017-12-16|Shinya Morino|trivial.
+09c87832cfa201289d04bdbe55aa2d958234450e|2017-12-16|Shinya Morino|Adding CPU-based solvers.
+91becbb0966a488e00f969c402841bf07bdef7b4|2017-12-09|Shinya Morino|misc fixes, adding batch_search for brute force solver.
+ad71a5b7bc2be860987ce0f66ad15567fb55fc4e|2017-12-05|Shinya Morino|adding cpu_native version of rbm functions.
+b8d557f8415f58f7ed587699430d119de8b4aac7|2017-12-05|Shinya Morino|fixing rbm bugs.
+914601d89f888e469d24967a4111bf812d7a7c5b|2017-12-05|Shinya Morino|adding rbm functions.
+54599f01c25ef184ce62b051b704aeabce05d7c2|2017-12-03|Shinya Morino|adding c++ implementation for cpu_native.
+e661a281ee6957f41718e1439c30b815e7d88169|2017-12-03|Shinya Morino|adding glue for c-extension for cpu_native module.
+82710312a29f727ef657be4b262b6c0cd3fc9131|2017-12-03|Shinya Morino|adding generate bits function.
+7c8590cc34263d032448713eac9530b1250d5f90|2017-12-03|Shinya Morino|fix rbm energy calculation.
+80b8c1124e444af73fd8882770f067f91ab4ff9b|2017-12-01|Shinya Morino|mend
+09e6caf157125032de0e3e23db26579cb81e3cab|2017-12-01|Shinya Morino|misc changes and adding tests.
+b75aa055080a147ac218ef4587742f62440f62da|2017-11-29|Shinya Morino|rbm files are moved to py dir.
+eb52b6121ee715b18c8a8829ba851b77432b2150|2017-11-29|Shinya Morino|fixed anneal loop.
+76e388c12e39af2de50a7cc76af22f84c5384b72|2017-11-29|Shinya Morino|removed old rbm dir.
+4b9b5b3da279e9a17ddf5e6f1f0c903ecc80fb28|2017-11-29|Shinya Morino|adding anneal mainloop.
+a9e24d16ae02eb4058d763a8acce1b2f223442b6|2017-11-29|Shinya Morino|adding tests.
+13e442a447ba927ee9d4e0d258848419a9f9b1d9|2017-11-29|Shinya Morino|shaping a structure for package.
+a81387f3e96c7b70654e929d08bbbd7f6797ed37|2017-11-27|Shinya Morino|adding batched version for rbm_bf_solver.
+fc1dbd9e060bcfeb189390db2ce579e3ed707219|2017-11-27|Shinya Morino|fix for testmain.
+c88a9e838324814d42a1376c2f497248384b1634|2017-11-27|Shinya Morino|adding .gitignore.
+bee6c2fd8a62a98a1cd0a84d471cd20d12750083|2017-11-26|Shinya Morino|mend
+9706a0328df23ce4f688229a876f30022511fe75|2017-11-26|Shinya Morino|adding brute force solver test.
+85c6d8505d136f99ee5ee93915e4a0e045d0b1ee|2017-11-26|Shinya Morino|adding tests, moving doc dir.
+588875ce645b46bb4a48fa6597358510653ecbd1|2017-11-26|Shinya Morino|adding brute force solver.
+9aea8612886d4c5112beca3b29617843ff714339|2017-11-26|Shinya Morino|fix energy calculation.
+48f72bde9a143f35360fef7849f89d04169ab5e3|2017-11-26|Shinya Morino|first working version with a doc for formulas, while needing further validation.
+8a7cd7ec44ae045b6b65a04e920a9f54a98f523b|2017-11-26|Shinya Morino|fix spelling.
+59571fff9edd633d20e95f3be5115935098e48b9|2017-11-26|Shinya Morino|first implementatin of rbm annealer.
+4b4ab5cb36271034ec88c434a8059bc00164ca4f|2017-11-26|Shinya Morino|simplify.
+3a373832d1acaa4cd2bab5e68ecfecf81716b5ed|2017-11-19|Shinya Morino|fix : energy calculation is fixed to include all qbit interactions.
+bf4da71831a7bd9d067e082987d0338f3a9f7727|2017-10-29|Shinya Morino|disable debug.
+3b36907ae5e5b279646c520cdd4295ec68ac33d3|2017-10-29|Shinya Morino|fix format.
+8bcd2e989cf8c5cec08e6d9153fdb4e9cd4ddad4|2017-10-29|Shinya Morino|adding build.sh, run.sh and their usage.
+e2a608b2e46c8ef7fabe2dd8003b6311ea9218b1|2017-10-29|Shinya Morino|prototype fix.
+8659b4f42bc00112ae89a4322500a7cdb4cbcb9a|2017-10-29|Shinya Morino|update caption.
+81bcaa11e8e08ead6d227704d768255eb560a1c3|2017-10-29|Shinya Morino|moving native.c to src dir.
+dc3eb786997f88451e92c715e2538e5857fcdaa6|2017-10-29|Shinya Morino|adding sample2.py for performance comparison and validation.
+15a03944cd9fdbb1414505eec5186861e85a111b|2017-10-28|Shinya Morino|modified to use native version.
+f3f852d762582728c15405e760396db5bd9eac34|2017-10-28|Shinya Morino|modified to package classes.
+3e84b9d53dbc9fe395c5a4c26ad6f509adee0c24|2017-10-28|Shinya Morino|Mersenne Twister introduced.
+209f06e6b4c02409a8b5052fe90a0525bc0cae66|2017-10-28|Shinya Morino|First working version with native C extension.
+ce4407eb8dcf14c5cc413871283517ab17ca74de|2017-10-27|Shinya Morino|moving samples to example directory.
+d451b751d10179249a2c4c1d3a16197acc55ee43|2017-10-27|Shinya Morino|native package partially introduced.
+db66ba20f0aac440d7e983e53c7d0fb35c12eef2|2017-10-25|Shinya Morino|remove redundant m from annealer.anneal(), and annealer.anneal() is renamed to annealer.anneal_one_step().
+d44ab0a7071f2bec7163bc851f2402097e889b0c|2017-10-25|Shinya Morino|change function signature of annealer.anneal().
+9e9cb8a3b6fb5f6202bfab5baad7650c6745dfdd|2017-10-24|Shinya Morino|applying Python naming convensions.
+8fa01eabf1c23cfcf2c55831d14c27393e7654f7|2017-10-24|Shinya Morino|first commit to review interface definition.
+6e121f1137e0457cef97f7e3084e66ba025482c1|2017-10-24|shin-morino|Initial commit

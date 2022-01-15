@@ -1,0 +1,151 @@
+e3a64e3dd4b7174b5a911594ae016ad588869c38|2015-11-27|sedabull|Prepare 0.7.1 release
+08f33c3dc539a7a51ab69badacc450ae198e7cfa|2015-11-27|sedabull|fix #21
+170be312be60d71c17bef4678784bc15b12b5325|2015-09-23|sedabull|Prepare 0.7.0 release
+1dbe276cb691acab46ce947a10a07464c9eb3b26|2015-09-23|sedabull|reverse failed publishing attempt
+d253b0745e1eb8ea3a032da8f2ac76953950cd23|2015-09-23|sedabull|Prepare 0.7.0 release
+030a41fd81603e451ed4a594bdf2fde4d14f17e8|2015-09-23|sedabull|fix package.json
+c14f6499e29d54b6fb2f7fe07fba3137e57ce3ea|2015-09-23|Seth David Bullock|Merge pull request #20 from sedabull/windows-fixes
+dce8f5d37f4665b676d0e6652905bb5a99d60a45|2015-09-23|sedabull|update metadata
+7ab047d06c1520e3d4896f84946aab5a9c398e95|2015-09-23|sedabull|add chdir alias for cd builtin
+c67634fd10b390009acf97baa958d1de86ae63c5|2015-09-23|sedabull|finish fixing #19
+c4499b253befad18ac7afeb4c2e239e57a933ec2|2015-09-23|sedabull|fix #17, cd command on Windows
+404f1ac16e1913ea84b8c7bfbace15e7def8ffae|2015-09-23|sedabull|handle old broken state when someone upgrades
+97ddbecc6071d737f1ea6785776abbcd353927ff|2015-09-23|sedabull|simplify Windows specific defaults
+10c32d3443bbbd2c33642698a4670c8af535da65|2015-09-23|sedabull|fix atom update dependancy
+ea2bd3f3943807d3c693769a13f4a5f9896733ca|2015-09-23|sedabull|update atom dependancy
+2461e604d7754b7be407fbfffc7e1e0ca9594ec7|2015-09-23|sedabull|use new os.homedir API
+af54ee1de7af77545a8dcfa273f9763cd8bcbc7d|2015-09-23|sedabull|make prompt string more Windows friendly
+d64aa1d2b75184176899779f745a3d61e4ec9b0e|2015-09-23|sedabull|fix #19, configure settings when creating a new terminal
+876f84a9c0fcdd0dca4350892f25c8a2041be0d7|2015-09-23|sedabull|change windows default shell from cmd.exe to cmd
+f01c5509547b9979ae5a60c3054b32817d1b219e|2015-06-03|sedabull|Prepare 0.6.2 release
+ca6224c6490c7b4f8a0c9eb3ffd3cebca6215469|2015-06-03|sedabull|Merge branch 'master' of https://github.com/sedabull/quantum-shell
+c3e0332fc59d75cc2f9b624039215fd2896e0166|2015-06-03|sedabull|update CHANGELOG.md
+b7069996e28534d863ae5718689351c1e41fe4b4|2015-06-03|sedabull|fix #14, PS bug on windows
+a8293ad050628dd88e5e912d4a9795d66cb51d05|2015-05-27|Seth David Bullock|fix backslashes in prompt string semantics outline
+9e2f0428d769eb1414bcc27c858955b6b638f2d7|2015-05-26|sedabull|Prepare 0.6.1 release
+21084c4e6f5b8c8fffa114480cc8b16db31645c6|2015-05-26|sedabull|update CHANGELOG
+7f50cb2edae3931e4f583d7857e68f0f6e3a11ce|2015-05-26|sedabull|fix #13, missing os.hostname() call
+aa3484db9bbb89062b84b8a447f6a49a2efce8c0|2015-05-26|Seth David Bullock|remove unneeded dependancy
+47c63d9833969c7fdaebef57b0565cd22d7b79c4|2015-05-26|Seth David Bullock|bring inline with bash behavior
+0c0cd5ca858228a922a2c9d79bbc64e67408e896|2015-05-26|sedabull|update light theme screenshot
+699a483063140caf9b3c764744daa283c9527c49|2015-05-26|sedabull|update dark theme screenshot
+4a63557d77e8808322963b8bcf7916bb7e20b317|2015-05-26|sedabull|Prepare 0.6.0 release
+a352af3d6208541f785ce4e6f37d6525fa1d3543|2015-05-26|sedabull|update metadata
+acf1fc819ef02244347fb9763ad9f5175e3077c3|2015-05-26|Seth David Bullock|Merge pull request #12 from sedabull/0.6.0
+f2c0a685fa663225842b2839c456e7ff4b569ad6|2015-05-26|sedabull|remove quantum-shell-view and spec as they are no longer needed
+b57f6f7c07a471a242f47aa30e34674c61523b33|2015-05-26|sedabull|anticipate possible errors when users upgrade to 0.6.0
+ea24cc9708a883cce0a64b3d8ad6381765e3df3b|2015-05-26|sedabull|make old serialized state compatible
+c74a8c06bb3bc767008d4cb8268e63a03c1ca454|2015-05-26|sedabull|dont clear pending timeout if switching terminals or adding a new one
+4acb0d6f918e891f1965f1b1385de59e952c9694|2015-05-26|sedabull|fix tab-completion feature
+c1bdd43c5c41228d3ececd2c9500ffed8e548638|2015-05-23|sedabull|refactor cd builtin
+1a481f7dc2c06f439261fc4b5ea8d6c577613424|2015-05-22|sedabull|add return codes to builtins
+7e57b2481a455f21a553050001d9d57daa042c28|2015-05-22|sedabull|initial work on colored icon display
+86bdc5d2595f5ef358102ae685c3d67183892908|2015-05-22|sedabull|minor polishing
+1b8c2ecb7e808cbdf4fd080fc4eff49398162e53|2015-05-22|sedabull|better description for shell setting
+87f58f92a59f3ea8251392028bcee32d5545fde0|2015-05-22|sedabull|minor fixes to prompt string
+c8be3eb11a10cff2e9aabffaea221fefdcdefb94|2015-05-22|sedabull|add new prompt string semantics
+2659becfcc242857509311cdf8166a9b69113c2b|2015-05-21|sedabull|initial work on multiple terminals
+3c769fe2860ba22a5c247bc9f7f49c0ad4f17275|2015-05-19|sedabull|finalize stylistic experimentation
+f72f9b81e099d54604f7cce40e982e8457f187b1|2015-05-18|sedabull|experiment with button layout and style
+bd22e656cd76cdbdb15d51fe48154832c9e76f4b|2015-05-18|Seth David Bullock|Merge pull request #11 from sedabull/0.5.0
+98141bede444041d26f2f93077ffb0b821defa87|2015-05-18|sedabull|Prepare 0.5.0 release
+c95d69ca6739618523bbccde4a3676c7d461bcc5|2015-05-18|sedabull|update metadata for 0.5.0 release
+a32842ce7ec1721f036b20c1c942a58031f9e5cc|2015-05-18|sedabull|add basic windows support
+54d10f516562379e5c9c996f872dc932b8d755e1|2015-05-18|sedabull|adjust context menu
+190a963feaa4b2cdaf97d0b244e11cea660ec9e1|2015-05-18|sedabull|slight modification to prompt string
+f3140796b5462305695d6ffc93bf9f83d9ef84bd|2015-05-18|sedabull|add prompt string feature, and fix history bug
+7beb1e56b8b003fbc03620bebbbb35157335dc74|2015-05-17|sedabull|change fallback shell to /bin/sh
+6fa7250251804f6f8b63b21e9d15230cea25deab|2015-05-17|sedabull|implement basic configuration options
+b1f718c1c914d377a44be9830f2f74e60e0a09d6|2015-05-17|sedabull|add config object to allow for customization
+76ab72f9257922cf1a9df444de41b5accc7917e6|2015-05-16|sedabull|add feature to tab-completion
+73e4cf844e84bb401bfa8f09e4945243be676810|2015-05-16|sedabull|write '^C' to the error stream when killing a process
+15f989f213b91e9db13a01afe0db4cffdfe12d95|2015-04-16|sedabull|Prepare 0.4.2 release
+bde28d438a6a34aa9ccf11a2e1b8f7eb7cf080ab|2015-04-16|sedabull|update CHANGELOG.md
+14fcf432994e6af920f052c6be88d130dd878abc|2015-04-16|sedabull|fix #9, allow for alternate spelling of PATH
+9793bb34b111b2638544da2ff50e458a8f1b2adf|2015-04-10|sedabull|Prepare 0.4.1 release
+881fef7818bab77b4f03255162b38ec5bfeead3d|2015-04-10|sedabull|bug fix, release patch
+c3e70560ea089b90b3aa5583a04701e7166d7c2c|2015-04-07|sedabull|Prepare 0.4.0 release
+9997adc107acfaa06e2d12610f18e1864ca9dee4|2015-04-07|Seth David Bullock|Merge pull request #8 from sedabull/tab-completion
+3d4f289c53d2cf4a654c2bacb4daab4f3127bc41|2015-04-07|sedabull|update meta-data in preparation for release
+f5ea12bf351e11ce483d12f6201c651edc1ab7b7|2015-04-07|sedabull|fix failing specs
+968b4a75901553929df07202755c85e782d72b06|2015-04-07|sedabull|make tab completion work
+f0853ffbeb3e4a49466df0b6831a94ed61aada36|2015-04-07|Seth David Bullock|initial work on tab completion feature
+54e5613f478902052ae48fc17767a9dda6f455a7|2015-04-07|Seth David Bullock|stop using deprecated private API
+f235ed6b8430337bdb9af069a6055ac0256419dc|2015-02-24|sedabull|Prepare 0.3.4 release
+2bf476607860f28b9ce0a034ebd810d0fa01441b|2015-02-24|sedabull|update CHANGELOG
+82535a9f47387d0cc05c85778fa00ad872846b1c|2015-02-24|sedabull|update package.json
+9b13becb48f7daa52a4b1f3d107a4c936f17629a|2015-02-24|sedabull|fix #5
+94217f8c967138ea189deff87d2bfbbe48130244|2015-02-17|sedabull|Prepare 0.3.3 release
+8d88955973c29fa3d7e9395ec29546c6b1d70a7a|2015-02-17|sedabull|actually fix README.md file
+239969dd6aee6fe76ce0545a9fe56ba4ae245ea1|2015-02-17|sedabull|Prepare 0.3.2 release
+b25c69beccd76920efd0bced2d54c255e40ef452|2015-02-17|sedabull|fix README
+9eaa5d1dd063c9f015bda64fa03a068b70cc6162|2015-02-17|sedabull|Prepare 0.3.1 release
+63d09c1e01da01f093e06ebcd16298bcc6d5fdf9|2015-02-17|sedabull|publication error
+c725074f769e8935310b298b457ba431a9a5eb42|2015-02-17|sedabull|Prepare 0.3.1 release
+931fc4567be90531f0fc626386e547e554a5a00d|2015-02-17|sedabull|publication error
+08995b724fad466b6a044aecdda3b121ab1710d8|2015-02-17|sedabull|Prepare 0.3.1 release
+8bea136289b6ab1be5fbea2009430a2b4e15ec42|2015-02-17|sedabull|fixes #4
+bacb9424c73ce9c19dfb821e701796c56c872f87|2015-02-17|Seth David Bullock|fix activation bug
+e446a6a09405092e745b40c50d420b8189d2befd|2015-02-17|Seth David Bullock|Merge pull request #3 from sedabull/0.3.0
+66d812528ea2ca44d8b3987f6f6c85cfec8675d4|2015-02-17|sedabull|Merge branch 'master' into 0.3.0 resolve README conflicts
+8b42a145a7dd40cdb3a074f9cfbda4f5820f031b|2015-02-17|sedabull|Prepare 0.3.0 release
+0210253331eed2f554c6fc9a773e914f717f9909|2015-02-17|sedabull|prepare for 0.3.0 release
+e130c8af1d2b33396fbf4e7ef5bc79377f94d4e8|2015-02-17|sedabull|finalize specs for 0.3.0 release
+8ae3e9d4567e54a5ee73f0b6c29650ced26d5a31|2015-02-14|Seth David Bullock|minor adjustments
+645f4619e871639de904f67d9b48c6bece4d39d4|2015-02-14|Seth David Bullock|experimental refatoring of sh-builtins['~cd']
+4f71d15c38f5e22bebb9116f64c4f59f31231e3b|2015-02-14|Seth David Bullock|add tests for the custom atom builtin
+0f07df439b9878d883dd610accd8fd08520400a3|2015-02-14|sedabull|slight adjustment
+605aa484516f38e10ec71c7f62c17094983b6de1|2015-02-13|sedabull|add custom-builtins spec
+d6a3eb3e3dce208d9b250cf4d62c1004d7af6a8c|2015-02-13|Seth David Bullock|remove unnessecary variable
+1ba4549124a57f82800031397e231de8bb21ee00|2015-02-13|sedabull|add specs for bash-builtins
+f551f5d79fe97fa890e6e5f238fd11fff9910614|2015-02-13|sedabull|finish off sh-builtins spec
+0ed5b2cfa7f8eaa8b151467699811f275d5ce808|2015-02-12|Seth David Bullock|add a battery of tests
+84df2bfba968614a12cad8944f090bd60d64683a|2015-02-12|Seth David Bullock|Create sh-builtins-spec.coffee
+e87bbbc8fd7eefad1d10a41bd514cc6f0d12082b|2015-02-12|sedabull|further work
+cd32d694f4b535eed8e8d6f89c7ab974d017db05|2015-02-10|Seth David Bullock|add experimental spawn method
+7475b5f30a7ff5e17deafc52dee90f11257dc5b6|2015-02-10|Seth David Bullock|update and add a few tests
+d8b77ffcfbe8922c6fc152adc7e30a728e16242d|2015-02-10|Seth David Bullock|start using tokenized input
+15ac18ebd57ed319addcba025b929fd7528d1ca3|2015-02-10|Seth David Bullock|start using tokenized input
+eb70c948f72afab9bca5d47ffdb9f8ce0bfaaa26|2015-02-10|Seth David Bullock|Update sh.coffee
+29b5a98de42eee7b326ff5f0c725edfcd21058ca|2015-02-10|Seth David Bullock|more formal tokenization of command line input
+c81b71a0eadca1b574f02ace1bf2ba2838e98ea4|2015-02-10|sedabull|adjust serialization process and a few tests
+391a667271c7001698dae6fede2f619020311a10|2015-02-09|Seth David Bullock|add tests
+847a9d084f0efd799e11f9c964759b4c6e99581b|2015-02-09|Seth David Bullock|Create quantum-shell-view-spec.coffee
+afc4600dfeb84653924761f4962add53bd16f493|2015-02-09|Seth David Bullock|add deserialization support
+31f140189701ce3d60b24e5fe1eaff6b2bdce6e9|2015-02-09|Seth David Bullock|add deserialization support
+017583d78c4ab96706d69ac33d9cfb675fbc4155|2015-02-09|Seth David Bullock|add lots more tests
+f3b8fba4b0605f91ef450d17d1fe6d18e800e360|2015-02-09|sedabull|start adding tests and rearrange builtins
+e37e82cd38bb74bbb9a61b32b12f517788112456|2015-02-06|Seth David Bullock|minor adjustments to make basic tests pass
+22f6bf7e0eed15640da88a06c4dc829eab9b4f5a|2015-02-06|Seth David Bullock|Create quantum-shell-model-spec.coffee
+b8ba9290b0124ce386df5d84b7766e9861ec0b06|2015-02-06|sedabull|make atom builtin work correctly
+5d784f90340904eb5a27c1efbaa844854676c59f|2015-02-05|Seth David Bullock|Update quantum-shell.cson
+7f970e2a838edd24480e691a1c8e66d54f35cd97|2015-02-05|Seth David Bullock|Update quantum-shell-model.coffee
+532003d2a36253c5a89fcb8173a615e2249ae490|2015-02-04|sedabull|initial work on atom builtin
+ab01e26672acc4f55b35cd7b7477c38d38072cdd|2015-02-04|Seth David Bullock|Update README.md
+1d5f13e8e4ddb580126af943e45ab73e3bb3ef32|2015-02-04|Seth David Bullock|Update CHANGELOG.md
+15602fcf00bada54b1fc070977d900930f7979cc|2015-02-04|Seth David Bullock|Update CHANGELOG.md
+a0a82d0fc396120226fdf8769293cdb15b2ea6d5|2015-02-04|sedabull|Prepare 0.2.0 release
+4c3dae1ffc6c5b6f6e03c5f4f7283896125a6b11|2015-02-04|Seth David Bullock|Merge pull request #2 from sedabull/0.2.0
+c844fdf22afec783f61f490d16c013f7cbe8cd64|2015-02-04|sedabull|update README.md
+862297002ea1a09906ff8c8daa4c8c45871a016d|2015-02-04|sedabull|add resources
+3b54694b45723d9bfa177fabe26c65f246002e49|2015-02-04|sedabull|add resources
+e6a1863fd5daf85afbd9f0e8d5c53b38856ddd9d|2015-02-04|sedabull|finalizing work on 0.2.0 release
+279bc501c0c1bbda993a194a3056052b485f2414|2015-02-03|Seth David Bullock|work on alias and unalias builtins
+1f3e10afa32ea505f7b7039d1b87d001d52e2cea|2015-02-03|sedabull|continued work on builtins, nearly ready for release
+08a2eea54a64ad8fd393da2447617de9a757ece8|2015-02-02|Seth David Bullock|add submit button disposable
+3b3e7255c21a22027286be42f6691aa18af2b7fd|2015-02-02|Seth David Bullock|experiment with 'native!' directive
+ccb8afad19f19f3de98ccb1275715edb6f3b3a8f|2015-02-02|Seth David Bullock|experimental changes
+fc5bbeaabcbc0c624b7835eb7db4c50ca6e74458|2015-02-02|Seth David Bullock|minor refactoring and bug fixes
+c32a97faa2ff8c5ddd025919dbd782ce49266878|2015-02-02|sedabull|move application logic from view to model
+43b2f94ee7a19bcad2497bb6f2419e36ab4ea384|2015-02-02|sedabull|make cd builtin work correctly
+39eea1b0dbc0673792085de3a551b0c7fa6375f1|2015-02-01|sedabull|fail loudly when trying to use an unimplemented builtin
+59c1d745d9695bd37f45a9208afc9397b578e0df|2015-01-31|Seth David Bullock|initial work on 0.2.0
+c1b81422b371cc4dd274ca3c2243131d8370b66b|2015-01-31|Seth David Bullock|initial work on 0.2.0
+5ae4d4f2f1c4e487c6b86577a0ff617dfe29d636|2015-01-31|Seth David Bullock|initial work on 0.2.0
+fd97082e89ac8921c1dc13acd644f6ef00f0e60c|2015-01-31|Seth David Bullock|Update README.md
+6f61b9f242c2c9cb22e184aa6efc1d0a0b094969|2015-01-30|Seth David Bullock|add cli keyword
+21005f601c5d5f1aafe914afcfd64c9e9c8ec9b9|2015-01-30|sedabull|Prepare 0.1.0 release
+1b5346552bfa49bbecbc40a00a3902e7bceb2bf9|2015-01-30|sedabull|ready for 0.1.0 release
+b68956eceacc07d333fbcb0ad5b412f1419a991f|2015-01-30|sedabull|make basic exec work, still a lot of work to do
+9f6caf43628c4ba0b48181b76cd3b73429f7ea8f|2015-01-29|sedabull|make View work correctly
+95ce9f6b23d61167b3ebebbfea9fef59c4d2b126|2015-01-27|sedabull|initial commit of quantum-shell for Atom

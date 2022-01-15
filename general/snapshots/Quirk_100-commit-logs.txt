@@ -1,0 +1,1299 @@
+2043fa73c11461e679f375e58b7b9a39e1763606|2020-09-14|Craig Gidney|Compute group height assuming group width is 2 (#458)
+d995a7a859a46f39cdfa2e72e00069b63a19ef1b|2020-09-14|Craig Gidney|Switch ci to github actions (#459)
+1b9172bce5dd65f74030ddffba764ec85f83c5f1|2019-09-11|Craig Gidney|Merge pull request #438 from Strilanc/dev-e
+68aba932e7dfa335e91bb32711b560efdec17a37|2019-09-11|Craig Gidney|Bump to version 2.3
+bba28295cd3db91bd59479b369910bdcbf424d7f|2019-09-09|Craig Gidney|Make column editing work on mac - Have metaKey act the same as ctrlKey
+d584f02e2aa4d3540e4427d94b47207d4ad4b406|2019-09-09|Craig Gidney|Collapse -> sample
+a4d1b99673b5e8a5f257ba4f980baf041417fd1c|2019-09-08|Craig Gidney|Note decimal value in display tooltips - Drop Sampling display from toolbox
+966318cbb6e8b90efd3ed3670e5ea276aa1fca83|2019-09-08|Craig Gidney|Polish some phase text - Hidden phase -> Global phase - Phase r+i -> Phase degs
+7f461a9bdec5640fcaec386e60247045f943ebf0|2019-09-08|Craig Gidney|All hints hide when circuit contains any gates
+4f5453830956320c1263986540772b7d5501a4a0|2019-09-08|Craig Gidney|Add customizable formula gates - Add Formulaic toolbox section - Add Complex.cos/sin/tan - Add Gate._withParamRecomputeFunc - Allow Gate.param to be non-integer - Add GateDrawParams.hand - GatePainting.paintGateSymbol has allowExponent parameter - Add X/Y/Z^f(t) and Rx/y/z(f(t)) gates - Tidy up after clicking gate button to edit inspector - Add hand.isHoldingSomething - Don't draw gate buttons when dragging
+ef4c17c3e4c2c8042acebf1e0ed7901333cf5fc1|2019-08-15|Craig Gidney|Fix X and Y parity controls not being blocked on measured qubits
+f9aee08dde6b7d7030bbce166f47bb1cf994a8f3|2019-08-13|Craig Gidney|Work around user-reported error where getProgramInfoLog returned null
+b7add27be94471806a3ac26068c1ae8cad24530e|2019-08-12|Craig Gidney|Fix transposition of displayed values in single qubit density matrix display
+8e28c2a5b014615771afb9ab23630cffe0b0556b|2019-08-12|Craig Gidney|Clear wire initial state when middle clicking it
+ac4bd62486e74e8a22f8f142d29ae561b70d3750|2019-08-12|Craig Gidney|Match post-selection labels to wire input labels
+2d0e00af6b8ad0956fff2982638946f62d2d623c|2019-08-12|Craig Gidney|Add parity controls - Add rawControls property to CircuitEvalContext - Add Util.popcnt - Add default output for Util.powerOfTwoness - Add Parity section to toolbox
+1653c6b6e261940a147a095444995e00dcf4f8f8|2019-08-12|Craig Gidney|Fix breaking change on Travis end
+25e189d2aeee52380801f49fb2e937af2eaffad3|2019-08-12|Craig Gidney|Implement up gate alternation dragging - Grabbing a gate with alt held swiches to its alternate - Alternate of control is anti-control, alternate of rotation is opposite rotation, etc - Add 'alternate' property to Gate - Specify alternates for existing gates - Refactor 'silly' toolbox section into 'scalar'
+4cbf0ac2b49c6122197f761df56dcde18a255118|2019-08-12|Craig Gidney|Fix tooltip for detectors getting click state wrong
+da22e114c86c469769183f3b74b178afa10d5a6f|2019-08-12|Craig Gidney|Fix amplitude display not showing measurement defered warning
+dd3e3dbe360bd1a88b832cfcbd265118efac66c3|2019-06-08|Craig Gidney|Stop probabilityPixelsToColumnVector from reading pixel data beyond 1<<span
+5332bcedc5d0fb24d3b0fc488c1b71dcc258bdd6|2019-06-08|Craig Gidney|Fix conditional incoherent amplitude displays not normalizing magnitudes
+69373f5d72a1eee14ec7f6a8700565af7c3cdc62|2019-03-24|Craig Gidney|Bump to version 2.2 (#427)
+be6b21391b8f46055c5329961209fd723327e187|2019-03-24|Craig Gidney|Development leading to v2.2 #404
+ab8fc9a0a22f9ac716d862e39ac4a54c46887c49|2019-03-24|Craig Gidney|Add 'How to Use' entry to menu, linking to manual
+5d45f2a7f4d533713fa3d0085b85257dfb8c5c29|2019-03-24|Craig Gidney|Make a few tests less flaky across machines
+dc2daed0ebca05c3331d98311eed15465e1fbf33|2019-03-24|Craig Gidney|Fix detect-control-reset gates not being able to toggle classical wires
+91ff012737637a0b37cd9ffe615ff2702cfee10f|2019-03-24|Craig Gidney|Fix amplitude display claiming incoherent data after any post-selection has occurred
+86763be687a2aa0d8ceb4fdfd77e6ef4e900f359|2019-03-24|Craig Gidney|Reduce size of amplitude json output - Use {r:#, i#} instead of {real:#, imag:#} - Repack them to be on one line after stringifying - Reduce indentation
+3a177402e35b1bbc50c1e9d04a635df7ccbd9263|2019-03-24|Craig Gidney|Fix row dragging leaving initial states behind
+a0d11f9129fab730917c6876110a7bc7360e391f|2019-03-24|Craig Gidney|Increase amplitude display sensitivity to decoherence by 10x
+9d191b17d987d29db64f6e7b19dea107e6ecf6ca|2019-03-23|Craig Gidney|Fix imaginary constant gate not being drawn as an octagon
+7b1b065a5edfc3e9f4bf4972f66e744aa5cb15fc|2019-03-23|Craig Gidney|Add row dragging via ctrl+click on wire input indicators
+58f57197495b1d57734c87314b6aaf8f0588d706|2019-03-23|Craig Gidney|Testing more cases of AmplitudesDisplay - Fixed reference vector comparison in several ways
+5cdbbaa3499cd1b10cd92283df28accb3fe6dab5|2019-03-23|Craig Gidney|Use same NaN condition for amplitude display as for chance display
+3ad0ce5a44cf103252a2f9b9ad9f2e90dca17ebf|2019-03-23|Craig Gidney|Rewrite AmplitudeDisplay to compute a quality metric instead of a pass/fail on incoherence - Pick largest vector component conditioned on other qubits, then dot product it onto all cases and add up the norms - Add Shaders.sumFoldFloatAdjacents - Add Shaders.floatData - Fix arrayPowerSizeOfTexture going below 0 causing all sim output to be lost - Fix cycleAllBitsFloat using vec2 instead of float when checking texture size
+f2e4e8b1768781887914cdd5702b05a8473ac1a3|2019-03-23|Craig Gidney|Add option to omit amplitudes from simulator export output
+32efb93466db6c9dddc2c97fda94a83f3c2a00f9|2019-03-23|Craig Gidney|Don't add touch blockers to circuit area when drawing custom circuit gates in toolbox
+6da666c6fca583c14943588a7873f357b2af594f|2019-03-23|Craig Gidney|Allow dragging columns out of the circuit
+f09cd086022af4837d32babcd55bb0b85813b87c|2019-03-23|Craig Gidney|Add option to export simulation state as JSON - Define Gate.processedStatsToJsonFunc - Tranpose density matrix data for density matrix display - Add processedStatsToJsonFunc to most displays - Track most recent CircuitStats in main - Added "to readable json" methods to Matrix and CircuitStats
+34e02ffd5e1f78d799a5ae3e42e5eb36fa28abd4|2019-03-23|Craig Gidney|Fix svd performing permutations incorrectly
+f2d99b270d1736aaa56b661ca4876d2f9055b666|2019-03-23|Craig Gidney|Fix transposed tooltip for density matrix display
+5d2b332c69e358fb71c0ecba9da6c25e54b3ff81|2019-03-23|Craig Gidney|Fix density matrix display showing transposed contents
+ff9f3c39539fea567e28ff1b66221297faab6c54|2019-03-23|Craig Gidney|Add magic state distillation example
+631df9bdd5c6db341a09c8c2e7ff3c3d68480612|2019-03-23|Craig Gidney|Renamed |S> initial state to |i>
+25849af2cfc2eea931a1e2eab1ba31b9f81709ba|2019-03-23|Craig Gidney|Detectors now preserve total probability
+b40b950ea05f7abd97930c6928095a361ed3ca41|2018-06-08|Craig Gidney|Visual and init-click bug fixes - Fix YDetectControlReset drawing wrong control bulb - Fix wire initial states highlighting and toggling when dragging gates near them and releasing
+57ce05dd35cb5213191195f92d662d06f1bda3df|2018-06-08|Craig Gidney|More mod-rounding
+4f7e96f04296d7a1f563e065a1e4b42ac9703c7b|2018-06-08|Craig Gidney|Attempting to fix travis webgl issues with shifted mods
+5c30463065ae452b7693739b5ba12a355e92d977|2018-06-08|Craig Gidney|Show ignored partial-support webgl errors
+862d0aec846a0e8a44597005cc75b64742f98044|2018-06-08|Craig Gidney|Remove debug
+6531bb76ae95d07e79b5aded580ca10ebdba1033|2018-06-08|Craig Gidney|More debugging
+a5c578975ca8b10c74a9b6f4d38bd7b9b2d0a2c2|2018-06-08|Craig Gidney|Debug travis
+5c9150e0e3617a1ea2c8fb6e2f77943d6bfc4964|2018-06-08|Craig Gidney|Ignore extraneous extension support warnings on travis
+23128d0c3ec5942f2ce68e2c817230f6de575190|2018-06-08|Craig Gidney|Fix partial support test
+ab798e9cdca8c44e024fce06bf0f327a4ed1f830|2018-06-08|Craig Gidney|Run webgl tests on travis despite detecting potential issues, but ignore just the failures instead of also the succeeding tests
+1f02fe01d1b114931e7df94316131733532ee035|2018-06-08|Craig Gidney|Merge branch 'master' into dev
+e859b20355bc40da1d85687d35c76fd667cc09c2|2018-06-08|Craig Gidney|Only run travis push checks on master
+a9205f04ba3a3f2c232133fd23a95b041b6fb97d|2018-06-08|Craig Gidney|Analyze subgroups before disabling permutation gates to prevent mixing measured and coherent qubits
+5c6167b013626905d1c5383d4dcb79fb60289d2a|2018-06-08|Craig Gidney|Add imaginary gate
+652c188f54927aebde9d7aef126f5459bb7486e3|2018-06-08|Craig Gidney|Implement X/Y/Z detectors and detect-control-reset gates
+48c57df8d3ee55c67675ef8668c900ce43209040|2018-06-07|Craig Gidney|Draw T and S gates as "T" and "S" instead of "Z^1/2" etc
+1e141466441865490d4208be3ca42aa161802fc7|2018-06-07|Craig Gidney|Implement switchable initial states (by clicking on the input ket)
+34fdf99dbc2e47b50f638d16b8365e41cf059eab|2018-03-24|Craig Gidney|Merge pull request #402 from Strilanc/dev
+54ec96a84020aae9dd5a7f79e16b70226ab93b63|2018-03-24|Craig Gidney|Merge branch 'dev' of github.com:Strilanc/Quirk into dev
+1216f866fe0e32834f72cf5dfea440e64fe13f6a|2018-03-24|Craig Gidney|Merge branch 'master' into dev
+c1cf1a7e1e0b0059cb6eb78453ea7bef25836ada|2018-03-24|Craig Gidney|Merge branch 'master' of github.com:Strilanc/Quirk into dev
+1481563301465123292624c9e5e822f3f2eb50a6|2018-03-24|Craig Gidney|Disable bit-permutation gates with partially-measured states - Otherwise can create violations of the deferred measurement principle hack
+b60ddfb3d68b2f19a2b6c138c92af589b8643a19|2018-03-24|Craig Gidney|Fix swap gates firing despite being shown as disabled (due to having classical targets and a quantum control) - Refactor CircuitDefinition.colHasEnabledSwapGate into colGetEnabledSwapGate - Delete GateColumn.swapPairs - Use colGetEnabledSwapGate instead of swapPairs to decide which swaps get simulated
+7ebe62b2b829c9bcccb70d1858a93742dda783d9|2018-03-24|Craig Gidney|Merge branch 'master' into dev
+915ab6997d1aca0733160545d416ded311b5554f|2018-03-24|Craig Gidney|Code climate keeps adding high false-positive checks. Drop 'em.
+d1b3fb3aa767ed7a380d48fc8ffd79d513d38057|2017-11-24|Craig Gidney|Merge pull request #395 from Strilanc/dev
+82851d168c4ea7f606bdefdcff8fc76f6e275d42|2017-11-24|Craig Gidney|Added matrix display to dynamic phase gradient gates - Also adjusted their cycle indicator to have it origin rightward instead of downward
+afbc6a099b27bcaaa49ac7e1b817083cb25a515e|2017-11-24|Craig Gidney|Implement Detector gate - It's like "real" measurement in that it picks a result and projects the state. - Fix checking for customStatPostProcessor instead of customStateTexturesMaker when marking circuit locations as having a custom stat - Add promiseEffectIsDiagonal to GateBuilder - Add Detector to the "unmeasure" special cases - Fix the return function type of ketShader expecting WglArg named values but not input-order argument values - Add 'alsoStroke' param to print - Defined 'drawMeasurementGate' outside of fluent builder lines. - Changed post-selection column note labels from 'fails' to 'omits' (and 'gain' to 'gains') - Changed end-of-circuit 'Survival rate' label to 'kept' - Added parameter documentation to SingleTypeCoder - Added method documentation to WglTexturePool and WglTextureTrader methods - WglTexture.toString now special-cases float/byte pixel types
+eaad86fe1ef9ecbd82826e320ce2b5fd6352ebda|2017-09-19|Craig Gidney|Merge pull request #384 from Strilanc/dev
+ad5664109c74b9c242c2b05b56ba45852491396f|2017-09-19|Craig Gidney|Refactored ketShaderPhase to use a shader-method returning an angle
+54599d1682fdc7cdbfeb80ffe10eeebb97cc8ca6|2017-09-19|Craig Gidney|Fixed dynamic phase gradient gate decohering qubits due to precision loss
+2d12e1a75dd21d0a72a7dae303f9db0630277f6c|2017-09-19|Craig Gidney|Merge remote-tracking branch 'github/dev' into dev
+125055c5f334eef64af79882274a0a16ee536cb8|2017-09-19|Craig Gidney|Merge branch 'master' of git@github.com:Strilanc/Quirk.git into dev
+8a9b16a2cfd21c4811f3f94d5a59bb73399c9a39|2017-09-18|Craig Gidney|Merge branch 'master' into dev
+91d9e7e3488f9866f3b84605e22770e63ce1c18e|2017-09-18|Craig Gidney|Bump version to 2.1
+1dfaf6396b6a94dfd665e1fd7c2c52944ea1c3d8|2017-09-18|Craig Gidney|Use circled characters in X/Y post-selection gate symbols
+fd68b69a1cd6d291c19aa453c9fa435eff32acff|2017-09-18|Craig Gidney|Merge pull request #382 from Strilanc/dev
+0dccfaec817674c04a3cef75e2b85a4023a62a14|2017-09-18|Craig Gidney|Workaround tests failing on travis due to bad gpu featureset
+5e352f0f34d2c19c1e459644b7249b2f3c4ede5d|2017-09-18|Craig Gidney|Bump dependency versions
+44e961d996475f344bf73ed1e6318ab1de4fee09|2017-09-18|Craig Gidney|Fix classical permutations with a quantum control being allowed (and breaking density calculations)
+a9d926119d90018ba22dcfdcd69fa351421f2f7e|2017-09-18|Craig Gidney|Draw NOT gates as a circled plus except when highlighted
+dd658e811e194d2ae17715fb76ef620a0745dafa|2017-09-15|Craig Gidney|Merge pull request #379 from ebraminio/master
+58f5696b30ef0c5daf1a0480d358c4606df33f0f|2017-09-15|Craig Gidney|Document why combinedShaderPartsWithCode is injecting body code just before master
+5daa93bb5c48bd6674092afc98a1ce54c750f9e3|2017-09-13|Ebrahim Byagowi|Bring shaders' tails before main, fixes #378
+95d154bb9fd728536977bac3f1fb4c5c0ba2927e|2017-08-15|Craig Gidney|Merge pull request #373 from Strilanc/dev
+870234fe7486879ca12871431ce098a25d4ccd42|2017-08-15|Craig Gidney|Merge branch 'master' of github.com:Strilanc/Quirk into dev
+81888d458f90973a57bde4312847a08174160bbd|2017-07-07|Craig Gidney|Update negate gate symbol to be a single thick line
+7d42726a8aa3d3607b99c3e1b312f189ddb5f073|2017-07-07|Craig Gidney|Entering a single value in the make-gate-matrix field now produces a global phase operation
+7fbddbbb6e48a83588b404b1208806058805ec31|2017-07-07|Craig Gidney|Update meta description
+52a7ff3bc3f870598a053dfd7724c56a540836a8|2017-07-07|Craig Gidney|Add progress indicator div to test page
+ce13cad1db9bb1dde565c69861490f94f820e95d|2017-07-07|Craig Gidney|Add dynamic phase gradient gates and phaser tests - Implemented DynamicPhaseGradientFamily gates and added them to toolbox - Renamed 'Fourier' toolbox section to 'Frequency' - Tweaked phase gradient tooltips - Changed phase gradient symbol to "Grad^x" - Added assertThatGateActsLikePhaser test util - Added forcedTime parameter to assertThatCircuitMutationActsLikeMatrix - Added gatesActLikeTheirKnownPhasingFunction global test
+4cc4363b0d8f8112205000db037fccca06c95f4d|2017-07-06|Craig Gidney|Update superdense coding example and addition example
+a0d321b3791264ba2088b2460887903686498aff|2017-07-06|Craig Gidney|Remove unused "<!-- INCLUDE LOADING PART -->" from html
+39198b2eaa2b3e98a19ac36d26847f46ffac1024|2017-07-06|Craig Gidney|Fix middle-click being blocked by resize-tab
+600b0476d8343b609f6dd69de594174899fb3237|2017-07-06|Craig Gidney|Update multiplication gate tooltips to note that irreversibiltiy is caused by even-ness
+ee074eca4d850981b6abb0e5631f6842e06b3111|2017-07-06|Craig Gidney|Center circuit symbol better when painting custom gate
+47cee2a57e54f8a6bffd410f06b74cf3ec5c83ff|2017-07-06|Craig Gidney|Change square-accumulate gate symbols from -=/+= to -/+
+8f4547d8aef1c00e41c639829ae155dc1ffb5d2a|2017-07-06|Craig Gidney|Extract IncrementGates.js from ArithmeticGates.js - Added assertThatCircuitShaderActsLikePermutation test util
+81eccb45bbb5107f84ff9b2155cd37d9e0cc8b48|2017-07-06|Craig Gidney|Drop reversed input gates from toolbox
+bfd8a9f6d5a264b2d477e5f40eec3d14d05ee00c|2017-05-14|Craig Gidney|Add text to delayed choice eraser example
+e069528281b15035e8eda5e742dfcf76bfd8cbff|2017-08-15|Craig Gidney|Merge pull request #369 from Strilanc/dev
+46b21c2093f89f4546791b37db317221932d4a84|2017-08-15|Craig Gidney|Merge branch 'master' into dev
+0ba0b2e0961be9bac455e6dfafa156dc2ce0c0f7|2017-08-15|Nimit Kalra|Add 'Clear Circuit' button (#371)
+b686996eb9a89cfb68f47c696229ee9edf93693e|2017-07-16|Craig Gidney|Fix typo in right-rotate gate's setup
+826d3b49a409fc658991a25f2226f67a0a00722e|2017-07-07|Craig Gidney|Update negate gate symbol to be a single thick line
+8ac5e144d42edb48b02a38132fff7f4eccbbcfe3|2017-07-07|Craig Gidney|Entering a single value in the make-gate-matrix field now produces a global phase operation
+43dbc17ee37f68e70f0c4cbb733ff5dd51c6f0e7|2017-07-07|Craig Gidney|Update meta description
+5a0facbfff95e3401e0650cd0d2f9bdec6cf43be|2017-07-07|Craig Gidney|Add progress indicator div to test page
+8ac3488b384d03e37d7f0fa636a776e58bbbe341|2017-07-07|Craig Gidney|Add dynamic phase gradient gates and phaser tests - Implemented DynamicPhaseGradientFamily gates and added them to toolbox - Renamed 'Fourier' toolbox section to 'Frequency' - Tweaked phase gradient tooltips - Changed phase gradient symbol to "Grad^x" - Added assertThatGateActsLikePhaser test util - Added forcedTime parameter to assertThatCircuitMutationActsLikeMatrix - Added gatesActLikeTheirKnownPhasingFunction global test
+2ae4c7785823b73c497d06874a7b5a026f8e22e0|2017-07-06|Craig Gidney|Update superdense coding example and addition example
+125c1cfe3af285ba2cab2defbae808833a9006d7|2017-07-06|Craig Gidney|Remove unused "<!-- INCLUDE LOADING PART -->" from html
+0ffc9e4a47a99b4825a9e23f6e65e0785f8a49e2|2017-07-06|Craig Gidney|Fix middle-click being blocked by resize-tab
+d710ae05b786549874dc67ee0eb88830886ee37d|2017-07-06|Craig Gidney|Update multiplication gate tooltips to note that irreversibiltiy is caused by even-ness
+626d869a1ebc845ab816918011cb3db34f41b656|2017-07-06|Craig Gidney|Center circuit symbol better when painting custom gate
+af4ab4e92a7bb83b052403b327dc7707baa34c48|2017-07-06|Craig Gidney|Change square-accumulate gate symbols from -=/+= to -/+
+2f6bd1cb6a65c257d8ed1413d21091d0cc217f6a|2017-07-06|Craig Gidney|Extract IncrementGates.js from ArithmeticGates.js - Added assertThatCircuitShaderActsLikePermutation test util
+108db8ba02f188a7cefe98abd3e85de1b95b5964|2017-07-06|Craig Gidney|Drop reversed input gates from toolbox
+98bd75c4f761c881bb83c161c39c947740b980b3|2017-06-19|Craig Gidney|Merge pull request #361 from Strilanc/ip
+c9c75090d76afa4a5556b2af62d92561d2b941f5|2017-06-19|Craig Gidney|Update copyright owner.
+67ac254dc24acf2435e27f30498d5659edff164f|2017-05-30|Craig Gidney|Fix typo in license header
+55b6f4e6f32b18b64f0ef66de5fe11a1a5b81162|2017-05-30|Craig Gidney|Contributing
+d146f6a373ba0858e4948a1423bc7953b41f8fde|2017-05-30|Craig Gidney|License headers
+57638ad03b1bc243fc1676dec33033c4d52cc87e|2017-05-14|Craig Gidney|Add text to delayed choice eraser example
+2a8cc1332959a124e75ec2366b0193096d006dbe|2017-05-13|Craig Gidney|Merge pull request #348 from Strilanc/dev
+8fa374ec9c902f83213266db863ebb1dd358721f|2017-05-13|Craig Gidney|Merge branch 'master' into dev
+95443620da5c74893f06df2efa5d83d33b264bb6|2017-05-13|Craig Gidney|Renamed template/ -> html/
+cf2b61d10d0dbb8aa918e80c6b91f9c4124d5bc3|2017-05-13|Craig Gidney|Merge pull request #347 from Strilanc/dev
+ff7c9da6d1d205b22db119c192817c96bc561be9|2017-05-13|Craig Gidney|Draw location-independent gates with octagon/clipped borders - Show dashed-line non-local-effect indicator for set-input gates - Update Zero/Negate/SetInput/Custom-Scale gates to show as loc-independet - Add isScaler to Matrix
+9be3bb78a1daf4e9ccc97624eaf5c90d01590567|2017-05-13|Craig Gidney|Add hidden PivotFlip.FlipUnderA gate
+d4adb72a676c3ddb5a8fe6fd940e01b7cc312964|2017-05-13|Craig Gidney|Add hidden modular multiply-accumulate gates
+db9fc0c2de46f6251cf746b7c83499c32085e92a|2017-05-13|Craig Gidney|Fix test suite names
+9d89d5e51cab1ae6594b11fb1de109bf55241a0c|2017-05-13|Craig Gidney|Remove dead methods in InterleaveBitsGates.js - valPermuteFromBit, interleave, deinterleave
+a37dee9eafaa69a8b0c24a6d371cbc5e4c40be8a|2017-05-07|Craig Gidney|Change menu title to 'A drag-and-drop quantum circuit simulator'
+275c65669cc5d4345202f563b58a75336f5b9a71|2017-04-29|Craig Gidney|Merge pull request #339 from Strilanc/dev
+777b3c2580750d2eea31527d3c7429d6cbfc5094|2017-04-29|Craig Gidney|Bump to version 2.0
+39361d861a65d36d136bd713d19f1b4c31a0b660|2017-04-29|Craig Gidney|Loosen a few too-exact tests
+5fa41c99af1d134b06bc4e45b64fde24f09885a2|2017-04-29|Craig Gidney|Fix safari crash when webgl disabled
+78d13fc8ead61c07826898b7fcd0ea0f9f7a2169|2017-04-29|Craig Gidney|Fix precision issue in xA gates - Added assertThatCircuitOutputsBasisKet to CircuitOperationTestUtil
+bfea80a4654988db1dae3231565ec692e5174ba8|2017-04-29|Craig Gidney|Fix precision loss in large multiply-accumulates
+ee615997cbb2f5798796492b5ef184de1b95f18c|2017-04-29|Craig Gidney|Fix powmod shader not working in IE - Was too many instructions long - Reduced instruction count by optimizing times_mod subroutine - Also fixed using Number.parseInt instead of parseInt
+69739450e463e5ff2b91dae6f67c85938ac6e634|2017-04-29|Craig Gidney|Fix floorLg2 corrections for IE
+83356d4a43a12972ebd36c3c3a6fdf7c95458b10|2017-04-29|Craig Gidney|Add large xors to expected IDs
+db02acd8278f2ab15a153e6ce4d3549c39512c87|2017-04-29|Craig Gidney|Block clicks that didn't start on a set-input button from triggering the button
+c0675b86adff75873fa0e44af03e650b2066832e|2017-04-29|Craig Gidney|Expand xor gate to max-height 16
+7f3ac2e96c3496de43672251561494e1b40627eb|2017-04-29|Craig Gidney|Pad 'no js' warning, move scoped style into target div
+0ad568d81ca7977d314ac1d27ffefdf4a2ce5f68|2017-04-29|Craig Gidney|Darken menu overlays
+c576bf22ec6c75698724ab6f303764179db8ad8d|2017-04-29|Craig Gidney|Fix decrement gate using a small hyphen instead of a large negate-sign
+2729fe736d3c4f2eccde46bf97a4788bd7f11608|2017-04-29|Craig Gidney|Merge branch 'master' of git@github.com:Strilanc/Quirk.git into dev
+7b195dc3d983826dd3f67f01cb8a6b514217882e|2017-04-29|Craig Gidney|Fix R-input control lines not being drawn
+693cfcd2e959335e5e172fff47b927df415a37d3|2017-04-29|Craig Gidney|Fix modular addition wrapping issue and split modular arithmetic file into addition/increment files
+ca46d6ddbdd61c4ba18316d3fd6eab7b80c65bc2|2017-04-28|Craig Gidney|Added shor period finding example
+a76c1cb1923b98be9d77c52ab810ff08df977bdf|2017-04-25|Craig Gidney|Merge pull request #326 from Strilanc/dev
+38066c961623d0dd22df50c70b41a2c1c44cc141|2017-04-25|Craig Gidney|Fix label sizing on output superposition display
+846596ea350422fe74855ff5e45feb465aa6dfbe|2017-04-25|Craig Gidney|Forcing an escaped uri component when % or & is present in the json
+b2cbe99b7206dc35fb3939bcf65fbd28f28cc06a|2017-04-25|Craig Gidney|Fixed bad needed-inputs computation in forge
+42a70c63c6554fcf59ce6bebadcd30ded7b0a835|2017-04-25|Craig Gidney|Fix not forcing font when measuring gate symbol widths
+5ba6cd66529105991ee96b964be5ff15aa1e5602|2017-04-25|Craig Gidney|Fix issue detection occuring during tests
+1d77d3cf6464ec105b04f5e31cdecb1d9d2afc79|2017-04-25|Craig Gidney|Fix setInput button triggering on mousedown instead of on click
+9d0eecb730c8e6c297c22f8ba84e52d2b8a84c3d|2017-04-25|Craig Gidney|Merge branch 'master' of git@github.com:Strilanc/Quirk.git into dev
+169111c1567c86e883f52de2db01364341e55bee|2017-04-25|Craig Gidney|Fixed creating webgl context twice during startup - (once for issue testing, once in WglContext constructor) - Also fixed checking for lack of float texture support, which should no longer be a blocker
+4f7d7a27aa2d13cc92d18f74f43beadd4918aa66|2017-04-25|Craig Gidney|Switch QFT example to using swap gates instead of reverse gate
+6ff733f00a491dd12b1b82338346c59ce8415ff2|2017-04-25|Craig Gidney|Fixed single-qubit rotation tooltips using wrong axis convention
+bd8498db1756bad7794d70f49d36139040a69662|2017-04-24|Craig Gidney|Fix clamping phi instead of theta
+09b3279666f4771c2fe38336d79081b5645858c7|2017-04-24|Craig Gidney|Tweak cycle drawers so they look more like rotations of Off
+9fe09efc77209802d69acd93c7095f8e5a816e81|2017-04-24|Craig Gidney|Merge pull request #319 from Strilanc/dev
+3652351a7f8921970409cb878142341ca184a7c9|2017-04-24|Craig Gidney|Added beta version stamp
+64f14177518fcc976b4510eb561a0619492fe3e7|2017-04-24|Craig Gidney|Fixed dynamic rotation cycle hints
+6c63a74c909c6fd5731ef838c0a532b384c7ab38|2017-04-24|Craig Gidney|'change' button for default-input gates
+68fea1167abcb8df0aafe37ab222da15efab4f55|2017-04-24|Craig Gidney|Fixed accidental undo
+10598578fa0890eb3ac8c40acae713d6d1dab644|2017-04-24|Craig Gidney|Merge branch 'master' of git@github.com:Strilanc/Quirk.git into dev
+d9119fd7517c3ce6820bec046ea5133903a657b3|2017-04-24|Craig Gidney|Testing modular power multiplication. - Fixed precision loss during large shader multiplications - Fixed inverted order
+5b9139028e7b20b3b2d7d7cac878ce427b61db53|2017-04-23|Craig Gidney|Tested ParametrizedRotationGates
+08a2fd2170355becde6d0b0cfa1743d576221bc7|2017-04-23|Craig Gidney|Switching bloch sphere coordinates to match convention - Down is On, Up is Off, Toward-User is On+Off, etc. - Measuring pitch angle from 0 to 180 instead of -90 to +90 - Renamed 'Positive/Negative' controls/selection to 'On/Off'
+4dc2f23b62a324fc3263af5f72c63a0c84363c42|2017-04-23|Craig Gidney|Merge pull request #318 from Strilanc/dev
+8202bea16b125265b4b967b5d4c148e988aa341b|2017-04-23|Craig Gidney|Fix little wire dots at center of wire permutation drawings
+aede4199f8dfd264fd6ce0568253dac3a488abc4|2017-04-23|Craig Gidney|Merge pull request #317 from Strilanc/dev-d
+931bdfe9ffdb4579f501b5b90a6b58df5b829822|2017-04-23|Craig Gidney|Typo
+f569a1274489efaf7a501ff9dc694fe31633f2f7|2017-04-23|Craig Gidney|Dropping parameters from Gate constructor
+2d3b8448ed11a45e8f5bff4febaf764b3a881912|2017-04-23|Craig Gidney|Optimizing shaderFromBitPermutation to save ~10 millis at startup
+2291da8aed225123211844d837497f6ecec162a2|2017-04-23|Craig Gidney|Switching several more things to using GateBuilder
+f9aabcf0214f84ffd607e57f56fb99ac154b9c3c|2017-04-23|Craig Gidney|Using GateBuilder in cases that used withWidth/withHeight/withCustomDisableReasonFinder
+31ff89e1d84c0a508ef7bc95bb3c6520f69ccc86|2017-04-23|Craig Gidney|Refactored circuitDefinitionToGate to use GateBuilder
+ae21360fd87e59a9c097f5b91466c4d04c69e4e5|2017-04-23|Craig Gidney|Refactored remaining identity gates to use GateBuilder
+494b41c45bef418c5c63990583d54d9c4364ccec|2017-04-23|Craig Gidney|Refactored Powering/Exponentiating gates to use GateBuilder
+68f348ad39432a2dd301fb70dd35180233abaa11|2017-04-23|Craig Gidney|Refactored Controls.js to use GateBuilder - Added tests for control gates - Added 'all gates in known list are gates' test - Renamed Plus/Cross/Minus/AntiCross controls
+79ae800fa6b6ba7091f9bb515dcf5f9695247b78|2017-04-23|Craig Gidney|Refactored stable single-qubit not-matrix gates to use GateBuilder
+07781ea55ca09074e3363ac4c6c030d07334a3a8|2017-04-23|Craig Gidney|Refactored SampleDisplay.js to use GateBuilder
+f3227369f0c7ba5447faae38845915325ad93773|2017-04-23|Craig Gidney|Refactored AmplitudeDisplay.js to use GateBuilder
+b7b46a293ad2eb1002c98b8906650b28b3bf1345|2017-04-23|Craig Gidney|Refactored ProbabilityDisplay.js to use GateBuilder
+d6cea6ec933d0834937512193acb5f32fdaf0f7f|2017-04-23|Craig Gidney|Refactored DensityMatrixDisplay to use GateBuilder
+2d147ff7f8add43c9ff238581d9c41e90c4f9188|2017-04-23|Craig Gidney|Refactored BitCountGates to use GateBuilder
+07a2a06ed9a35bea7d1c7805076751bb0783102a|2017-04-23|Craig Gidney|Refactored HalfTurnGates to use GateBuilder
+791146b6612c6d53c87ec7afb32c24bc113a01b0|2017-04-23|Craig Gidney|Dropping unused methods from Gate
+efff1964edb629b532a811c74f92e1a6ac013072|2017-04-23|Craig Gidney|Refactored ReverseBitsGates to use GateBuilder
+a38b7d95881748d7e09d51f279fae0450106fa48|2017-04-23|Craig Gidney|Refactored PhaseGradientGates.js to use GateBuilder - Added setKnownEffectToPhaser - Added 'knownDynamicGates' test - Increases tolerance for matrix comparison checks in AllGates tests
+27ef46d6d31db46b9762d79f3776ce5d64372d25|2017-04-23|Craig Gidney|Refactored CycleBitsGates and XorGates to use GateBuilder
+41cd681829bd5fce0ebedf7dccfe4e0ddd0c2181|2017-04-23|Craig Gidney|Refactored MultiplyAccumulateGates.js to use GateBuilder - Added Legacy_ in front of names of old arithmetic gates
+2b564a9f86b2a34b96926b076676df4ead0fae50|2017-04-23|Craig Gidney|Refactored MultiplicationGates.js to use GateBuilder
+a6529bce9b2c04e82fcad42a17a9dcb67de4b5fc|2017-04-23|Craig Gidney|Refactored ModularMultiplictionGates.js to use GateBuilder
+c155f12c3328b390c1f7778ea316b0ff6344f195|2017-04-23|Craig Gidney|Refactored ModularArithmeticGates.js to use GateBuilder
+cbd8ceef9638e99509998def15da2418ebb9adc2|2017-04-23|Craig Gidney|Refactor InterleaveBitsGates.js to use GateBuilder
+3a27b9beed7aa5fce7b712ab761141143dbf7438|2017-04-23|Craig Gidney|Refactored InputGates.js to use GateBuilder
+6bcd836701dbd2782e48b9efa7c19400219272fd|2017-04-23|Craig Gidney|Converted FourierTransformGates to use Gate.buildFamily - Added setTooltipMatrixFunc - Added promiseEffectIsUnitary
+1349fd11c66cbfdb65d5f33214eadab920ad66b1|2017-04-23|Craig Gidney|Converting ComparisonGates.js to use GateBuilder
+142a6392b3d95b8f0b16b604b2f4d9b6ef98ccdb|2017-04-23|Craig Gidney|Converting CycleBitsGates to use Gate.buildFamily - Added setActualEffectToTimeVaryingPermutation - Added setEffectToTimeVaryingMatrix - Added promiseEffectOnlyPermutesAndPhases - Renamed setActualEffectToShaderProvider - setHeight is now called by buildFamily internally
+32ab78e1ed91ecfed700fd72123db7327bccfada|2017-04-23|Craig Gidney|Starting to use a gate builder instead of quadratic cloning - Added Gate.buildFamily - Added GateBuilder class with various set methods - Updated ArithmeticGates.js to use GateBuilder - Fixed AToBModR -> BToAModR - Added missing serialized ids for BToAModR and parametrized rotations
+f72cbbccc95c9c774f7e476645e4e38b03969dfd|2017-04-23|Craig Gidney|Fix increment/legacy-addition gates spending time making matrices during startup
+7e739981eccf5a86e346069d5f0f504ead1471a4|2017-04-20|Craig Gidney|Merge branch 'master' of git@github.com:Strilanc/Quirk.git into dev-d
+4d499f5ce74d3b3c0f0b592389b2203c928d0314|2017-04-20|Craig Gidney|Adding clarification comments to Gate.js
+533b46ef082d808c01bdc22ba05c1348a550bbd7|2017-04-20|Craig Gidney|Added parametrized rotation gates - Added gates/ParametrizedRotationsGates.js with X/Y/Z rotations - Implemented 'exponent from input a length' drawer - 'PhaseByFracA' is replaced by the ZToA gate. - Added Parametrized section to toolbox - Added 'getGateContext' method to GateDrawParams - Added 'digits_to_superscript' to Util - Fixed a couple multiplication tooltips.
+d9aa826eb9461ddb146aa5f35e0bfefbe1833d3f|2017-04-19|Craig Gidney|Merge pull request #310 from Strilanc/dev-e
+abceec6399c6f7305f967cf1cc11dd2f7c93b780|2017-04-18|Craig Gidney|Merge branch 'master' of github.com:Strilanc/Quirk into dev-e
+0445920417631280e930fe24d6bb990cf4a0615b|2017-04-18|Craig Gidney|Fixed reversed input gates not being reversed - Added withCustomBefore/AfterShader to Gate - Added InputGates.test.js - Fixed XorGates not being a member of the AllGates objects
+1e36b42d13ceff9d666c9627889c45b2f48b40e0|2017-04-18|Craig Gidney|Merge pull request #306 from Strilanc/dev-d
+7f10651a09c604bcfbbfab4e4a1d4b22223061a8|2017-04-04|Craig Gidney|Power multiplication and input-based phasing - Added phase-by-input gates - Added modular power multiplication gates - Circuit known permutation tests no longer use expensive matrix tests behind the scenes - Added amplitude indicators to diagonal of density matrix display - Added decimal ket to tooltip of sample display - Switched symbols for X/Y control orientations - Fixed arg serialization not doing sanity checking
+02b046145481b2d5ac3ab1a883c58694cc01b25b|2017-04-02|Craig Gidney|Toolbox polishing - Added interleave gates to toolbox - Renamed 'Cycling' section to 'Order' - Symbol for left/right rotate gates now looks like the wire permutation - Added wire permutation symbol to interleave gates - Permutation drawer no longer falls back to default when controls or highlight is present - Dropped time-bit-cycle from toolbox - Fixed various tooltips
+ad88593de171a3115ade42f8aa33f0d877d4a603|2017-04-01|Craig Gidney|Standardized on 'R' as the modulus input
+940c3fc93a0a6578534a5f4b644c8bcc72d2fdc7|2017-04-01|Craig Gidney|Expanded bottom toolbox from 3 rows to 4 rows - Polished gate tooltips (removed quotes around 'input A', renamed X/Y controls) - Fixed accidental removal of non-unitary dotted-line indicator
+5207804edb62753b28a698d8a6dec8a3c8620de9|2017-04-01|Craig Gidney|Fixed set gates not being in known-do-nothings
+c78671a2ec6be21577dd408ab0ba3d75a58560f7|2017-04-01|Craig Gidney|Initial support for assigning inputs to classical values - Added 'Set Input' gates - Added 'Input Default $' context keys - Added symbolOverride to GatePainting.paintSymbol - Added makeSetInputGate - Added param/"arg" serialized gate property - Added sticky-context property to gate and implemented it in random places - Added Input Default as altKey for Input Range when checking missing inputs - Updated modulusTooBigChecker to check Input Default - Implemented ketInputGateShaderCode(letter) - Implemented ketInputGateArgs - ketArgs now takes an input_letters param - Implemented CircuitEvalContext.withInputBla methods - Legacy addition gates now forward to new gates but with added context - Used ket-input in     - ArithmeticGates     - ComparisonGates     - ModularMultiplicationGates     - MultiplicationGates     - BitCountGates     - ModularArithmeticGates     - MultiplyAccumulateGates     - XorGates
+377611adf87da0f061ced8cb5310b902ec3ea2fb|2017-03-31|Craig Gidney|Added missing 'modulus too big' disable reason to times-a-mod-b gate
+5dab38f2b4917fd12af36bf32fb21345e656f448|2017-03-31|Craig Gidney|Added modular multiplication gates - Added basic support for newlines in gate symbols - Moved modular multiplication functions from MultiplicationGates to ModularMultiplicationGates file - Switched from using "rotate when can't invert multiply" to just doing nothing - Added a permutation test method to CircuitOperationTestUtil that avoids using a matrix
+d1743618cfb19ead6e7cc3cfcb8f4d1a05d5d405|2017-03-31|Craig Gidney|Wrapped input factor into range in multiplication gate
+837d728fcdb2939f511fcd061a90ea347d0d4770|2017-03-31|Craig Gidney|Add multiplication gates - Raised test time warning limit to 2s - Renamed ++/-- back to +1/-1
+1a7c1908201b6ade641b10ea2f86a92600344936|2017-03-30|Craig Gidney|Added knownPermutationFuncTakingInputs property to Gate - Added an all-gates test comparing it against the gate's effects - Switched input-function-arg-order of permutation given to assertThatGateActsLikePermutation - Marked arithmetic gates with known permutations - Marked modular arithmetic gates with known permutations - Marked multiply accumulate gates with known permutations
+6cdf5e3ec3d30303e4bcd9ec47298ef38e8a30d9|2017-03-30|Craig Gidney|Implemented modular_multiplicative_inverse
+d1b61ab1f37474662b404e65ed067140b2ae70c6|2017-03-30|Craig Gidney|Merge pull request #302 from Strilanc/dev-d
+27e27d7d885ae6f4230a9a57a6388680f54ed9b7|2017-03-30|Craig Gidney|Added control line tests - Extracted CirctuitDefinition.controlLineRanges from DisplayedCircuit._drawColumnControlWires - Gates now have an 'interestedInControls' property - Cleaned up some of the gate-char definition spam in CircuitDefinition.test.js - Added ...extraGate params to several methods in CircuitDefinition.test.js - Added assertControlLinesMatchDiagram to CircuitDefinition.test.js - Fixed input gates being interested in controls - Fixed custom identity operations being interested in controls
+7525f2df77a8844a1ab3e19bfa983c6032a5ab0b|2017-03-30|Craig Gidney|Trimming shader warnings before comparing against empty string - Chrome was throwing out tons of empty warnings for some reason
+87f271229dcc04e2e7114a3898fbe651a1905638|2017-03-30|Craig Gidney|Fixed name and annotated type of _colRowDisabledReason in CircuitDefinition
+683e330417586888e0336f946ce0e61184968592|2017-03-30|Craig Gidney|Merge branch 'master' of git@github.com:Strilanc/Quirk.git into dev-d
+6f9b252af9775025fcbe557c1f161ed6bfcfde9f|2017-03-30|Craig Gidney|Test var name type fix
+d49c0251c57e4171eb9ce110fe4e718a89a47247|2017-03-30|Craig Gidney|Merge pull request #300 from Strilanc/dev-e
+0728a50ee8ccb9d9bc82dc8562cdd76770334e68|2017-03-29|Craig Gidney|Fix input control wires not showing between inputs and custom gates containing corresponding outputs
+97ba76305c4c6ed4b9da402c4f8f0919964f1df5|2017-03-23|Craig Gidney|Merge pull request #295 from Strilanc/dev-d
+2e2f12a09b1320b8ba718047f8783685ba35c9ce|2017-03-23|Craig Gidney|Merge branch 'master' into dev-d
+2bb6c2d5bbc782f9016498f7b643f94547501577|2017-03-23|Craig Gidney|Merge pull request #290 from Strilanc/dev
+fa94a9fb48fe030e7490bcaa717e51224799aaaa|2017-03-23|Craig Gidney|Fixed de-interleave gate's shader doing interleaving - Bumped automatic known-bit-permutation testing gate-height limit from 4 to 6
+9f082c4f279a845cc092a0de8977c65be9f4b814|2017-03-23|Craig Gidney|Merge branch 'dev' into dev-d
+e03dbdb99a7e97a53d499df51333df0862becc4f|2017-03-23|Craig Gidney|Implemented InterleaveBitsGates - Moved PermutationDrawer to GatePainting - withKnownBitPermutation now marks gate as stable/unitary/etc
+3e5243639aed3d38d29de36bd8cf1a198e743df8|2017-03-18|Craig Gidney|Re-arranged toolbox - All single-qubit rotations on top - Dropped 1/16 root gates - Dropped exp gates - Added comparisons - Added modular arithmetic
+a7e15d11a835bf2b9e58915dc6218720051e2814|2017-03-18|Craig Gidney|Shading input gates gray
+e74aea3ecb9df1fef93e33c2a88a06e26464f2b3|2017-03-18|Craig Gidney|Merge branch 'master' of github.com:Strilanc/Quirk into dev
+b4072fb25eb0167bc95f3144680ffeaf79e8adeb|2017-03-18|Craig Gidney|Merge pull request #289 from Strilanc/dev-b
+e313c33faf3a575226f860af7d764d69761bff41|2017-03-18|Craig Gidney|Implemented modular arithmetic gates - Modular increment, decrement, addition, and subtraction - Added assertThatGateActsLikePermutation test util
+b2ddc461b6e3a799275b7010465879852912a34b|2017-03-15|Craig Gidney|Moved ComparisonGates into their own file
+c4275059b1222d7b1d5282c0ee1fce97ecf2b437|2017-03-15|Craig Gidney|Removed resize-char and 'note' drawing on gates
+7ed27dd1b8197c2e9a9b3ba806f2fe30d4285710|2017-03-15|Craig Gidney|Removed unnecessary and misleading markedAsStable calls
+564c207f6bf67d84c343fc025685147df2e6b149|2017-03-11|Craig Gidney|Add comparison gates to toolbox - Reduce '+=A' and similar to just '+A'
+b55d8fe0a83500327f0d9a37362f4d9559c450d5|2017-03-10|Craig Gidney|Added A-vs-B comparison gates
+6cca42da1def5bf801267bdb8f99e458e3c26a6a|2017-03-05|Craig Gidney|Merge pull request #281 from Strilanc/dev
+19a6911bcf17c17410eaafd7e67286ea8a0c7987|2017-03-05|Craig Gidney|Minor version bump tp 1.9.1
+0c3a2eced2c751d959e1f421f324af4ac66433ce|2017-03-05|Craig Gidney|Added hidden SquareAdd/SquareSubtract gates
+9edabd1c9fc0f96307bf17f04332e066f2bb86b6|2017-03-05|Craig Gidney|Counting gates can now span up to 16 qubits
+3243ff74f0b45ec93d9f6efdd3870b182aae9baa|2017-03-05|Craig Gidney|Fixed extra digit in output superposition display column labels for odd numbers of wires
+ce5fb2235af7872dbb30cf3bcf65766b00cbc8f7|2017-03-05|Craig Gidney|Added more example circuits - Added 'label drawing' via custom identity circuits
+e8c5d423813e71b6793cce4bdeeffafa15dccfb5|2017-03-02|Craig Gidney|Merge pull request #266 from Strilanc/dev (v1.9.0)
+9e9382257688c11a2dbaeff4f75f3b625a1b251e|2017-03-02|Craig Gidney|Version bump - 1.9.0
+ecd6bffff04dbb771a53361bfc90327e5ef1d296|2017-03-02|Craig Gidney|Merge branch 'master' of git@github.com:Strilanc/Quirk.git into dev
+f8b74640c602fbdf113c996e40a624f10cffb49d|2017-03-02|Craig Gidney|Fix column drag error on macs
+36c01621b7e3366c3155d6b38af93e1923e19e5f|2017-03-02|Craig Gidney|Example circuits
+a56cb2439df063c7c93f783c1448453ec8a1bace|2017-03-02|Craig Gidney|algorithmicassertions -> algassert in README
+8804fa3657265e2ea394bd455015b25b02b89484|2017-03-02|Craig Gidney|Fixed probability display cycling before applying controls - Bug was introduced by an earlier fix that didn't take into account float-vs-vec2 issue
+6b0e97d1ccac4b2cbe387996cc3714f1024cb7a0|2017-02-27|Craig Gidney|Fix unable to drag columns downward when 16 qubits displayed
+b293fe010dfde2f68d2c14744a4bbe110d711ea4|2017-02-27|Craig Gidney|Don't overlap gate in top slot when showing 'use controls' hint
+5d92af4be82eef03b3012b2895dd5d271ac9b694|2017-02-27|Craig Gidney|Don't draw control wires from input gates to gates that don't use those inputs
+f2c5e08c0bea4ba5f6c5df2dbb452d6774eb591b|2017-02-27|Craig Gidney|Changed empty title to 'Quirk: Quantum Circuit Simulator'
+08fd7a8dca25da27885b6baf58950020b54e93ce|2017-02-27|Craig Gidney|Fixed ket description tests
+e03a4e76d3d68644c7524c956e58eddc6bc77760|2017-02-27|Craig Gidney|Drawing cycle gates as wire-rearrangements
+4b55fa600e9af18d9af1d71ddbd44c37c9d3a24e|2017-02-27|Craig Gidney|Switch kets from little-endian to big-ending
+af09f4c82aeefff8557afbb4f529f0c34ebc13cd|2017-02-25|Craig Gidney|Added hidden Xor gate family
+dd43cb9c54bf19cdd9a69f79e7c70fc34ba1ddfa|2017-01-16|Craig Gidney|Menu on open
+d1b5ec69b4c206bdb0273bff336b319e21d72a50|2016-11-15|Craig Gidney|Removed redundant check in _traceAmplitudePhaseDirection
+8e59e52c4f716656283173de7e86885a1d5ea1bc|2016-11-15|Craig Gidney|Cached drawing of labels around superposition display
+3a5192eada9eb05a31f10b50b5cba0f2d68f44c9|2016-11-15|Craig Gidney|Merge pull request #264 from Strilanc/dev
+65f99f5d4eee562a427c1ef411493cb900f05aff|2016-11-06|Craig Gidney|Fixed sample display always showing Offs
+0bc180e9f40d5f64778ad0196fac1f1d8f2e9b12|2016-11-03|Craig Gidney|Linting approaching
+8442aecd58586a4eee330f5300fc1a496362fcde|2016-11-03|Craig Gidney|Linting continues
+edeb0abff0ded591a42fff22cf2d46c3ccfef5e1|2016-11-03|Craig Gidney|Yet more linting
+1f04941d1b8c442f932a0ae1b0bac64724a8eaf3|2016-11-03|Craig Gidney|More linting
+426b5a6a8102c581609171fe98263c8a3f4616eb|2016-11-03|Craig Gidney|Fixing lint warnings
+bc56290780adbb18e090833ebaae815ce6bd6a0a|2016-10-30|Craig Gidney|Fixed final amplitudes for empty circuit being NaN
+12d0545c47d237b96294315f447e9bf73fe0cfd1|2016-10-30|Craig Gidney|Fixed conditional post-selection causing bad survival rate calculations - Added colNorms to advanceStateWithCircuit's output - Removed non-unitary case from colDesiredSingleQubitStatsMask - Split _extractCommonColumnStatsFromColPixelDatasin two - Added KetTextureUtil.amplitudesToProbabilities, superpositionToNorm - ProbabilityDisplay now uses a VecFloat instead of a Vec2 - Added Shaders.sumFoldFloat - Added WglTextureTrader.shadeQuarterAndTrade
+8f42ccf90505f7d3473e999e9b5126326ee15e3a|2016-10-30|Craig Gidney|Rearranging shadercoder tests - Added readVecFloatOutputs, toVecFloatTexture, takeVecFloatTex - Merged basic output tets into ShaderCoders.test
+56f74518752d42cd4c61ab06cbad6734cf63ebac|2016-10-29|Craig Gidney|Split ShaderCoders.test into three parts
+14b382d2ee5f89a921496229586ff27ec040e90d|2016-10-29|Craig Gidney|Merged ShaderValueCoder into ShaderCoder - Added ShaderCoder.needsRearrangingToBeInVec4Format property - Added Shaders.packVec2IntoVec4, Shaders.packFloatIntoVec4
+ae5defb706b73b3e664b6358a8884c07c5ee9403|2016-10-29|Craig Gidney|Ported ShaderValueCoder overhead/pixelType/prep/unpack properties to ShaderCoder properties
+0b2fa39cda58bf37ae3c40af8a5bdca72110df8e|2016-10-29|Craig Gidney|Ported input/output parts from ShaderValueCoder properties to ShaderCoder properties
+7c23734c79af2fcf87b22e58fa9a3bf596172240|2016-10-29|Craig Gidney|Extracted ShaderCoders_Base/intoBytes/intoFloats out of ShaderCoders
+d2248b6b3428ec04affa6b210d3c344b5bb70327|2016-10-29|Craig Gidney|Showing per-column losses/gains from post-selection/non-unitary gates - Replaced Gate._affectsOtherWires with _isDefinitelyUnitary - Added GateColumn.indexOfNonUnitaryGate - Gate._hasNoEffect now defaults to false instead of undefined - Fixed Gate.clone trying to preserve gateFamily - Columns with no single-qubit displays but a non-unitary now add a stats entry - Refactored colHasSingleQubitDisplayMask into colDesiredSingleQubitStatsMask - Added CircuitDefinition.hasOnlyUnitaryGates - Removed CircuitDefinition.colHasDoubleQubitDisplayMask - Removed CircuitDefinition.colHasNonLocalGates - CircuitStats now stores an array of survival rates instead of just the final rate - Added CircuitStats.survivalRate method - Extracted CircuitStats._extractCommonColumnStatsFromColPixelDatas out of _fromCircuitAtTime_noFallback - Added tests asserting which known gates are not unitary, have no effect,  or are dynamic - Added _drawColumnSurvivalRate to DisplayedCircuit
+e7513b5da8bbcff015ab19265da35e387421d6f9|2016-10-29|Craig Gidney|Reverse/Shift gates now work on partially measured inputs - Added knownBitPermutationFunc property to Gate - Used knownBitPermutationFunc in nextMeasureMask - Tested consistency between knownBitPermutationFunc and knownMatrix/customOperation
+fd9925a3368a85d8e4835f87cd18912b21cf6f6f|2016-10-29|Craig Gidney|Added a full react-and-simulate-and-redraw frame test - Fixed running all perf tests without pauses in between - Added cleanup func to perf tests
+52a4f368b1c5e21ae4b772b6e766c32ad71b2f45|2016-10-29|Craig Gidney|Added hidden +-bitcount gates
+54b8b94d92d8cf31640dd6424ed0610772a95e58|2016-10-23|Craig Gidney|Merge pull request #256 from Strilanc/dev
+f3e20c0149e5951776db13fa4159b39ac1be3c1b|2016-10-23|Craig Gidney|Bumping version number
+8ca52fc12481046d5b8a8941e5711c4fe491e647|2016-10-23|Craig Gidney|Merge pull request #255 from Strilanc/dev
+11c719aa97ecc26c0cd99acfaa5749a115597e1d|2016-10-23|Craig Gidney|Added polyfills for IntArrayXs
+2108872406abb60110119da7cef65dda5ddf1d3d|2016-10-23|Craig Gidney|Avoiding 1.1 in byte output of float test, and using a high value
+8c29eba8a07105c1b98d6014a8fff21ce196a48f|2016-10-23|Craig Gidney|Merge pull request #253 from Strilanc/dev
+da6a361bb04ddac573a696e2d0084af5bd07a03d|2016-10-23|Craig Gidney|Found a workaround for the precision issue affecting 16-qubit circuits - *Obviously* subtracting a uniform equal to 0.5 is going to be more accurate than subtracting the literal 0.5 /s - This is quite possibly the dumbest fix I've ever made. - Yes, it really does make the difference between the tests failing and passing on my iPhone 6.
+73ce725e329541921c02caf1a244816bbfa35774|2016-10-23|Craig Gidney|Added Util.ceilLg2/floorLg2
+647928548f24aae972009d29c22ee888eb3d7904|2016-10-23|Craig Gidney|Added a large-value-survived check to floating point texture support detection - My nexus phone was lying about it - Quirk no longer believes its lies
+7f9c85db0fae4880552c70b98efa23d17f9b31e5|2016-10-22|Craig Gidney|Warning on failure to get float extensions, instead of throwing
+7a6a14a7fd4c444cfe0e6d46121cb1254ffac22c|2016-10-22|Craig Gidney|Fixed a test relying on shader parsers not losing a bit of float precision - ... seriously?
+47d26eaa92b5d71ef842869767a60b1400c36d6a|2016-10-22|Craig Gidney|Dropped strokeLine test - Was failing on iPhone - Painter tests aren't very valuable overall
+efd7006c7abbf419c6f28c544a73b69bc9af199e|2016-10-22|Craig Gidney|Fixed using more than 64 uniforms for 16x16 custom matrix operation
+0c39ebd0f52bccc2b355e83485777900ed761cca|2016-10-22|Craig Gidney|Using IEEE float encoding, so conversion can be done with array views
+ea97bdb116223eb8fcc9dd024abde54ef0487369|2016-10-22|Craig Gidney|Added a test that tests float encoding without using a float texture
+d6282bb33f6799948d2f93d565a70a6b691b6534|2016-10-21|Craig Gidney|Adding unit tests for drag actions
+0d2929e74296f17f9e9c196fcf634a0f89811b51|2016-10-21|Craig Gidney|Adding more shader accuracy tests - INTERESTING_FLOATS in shader coder tests - 16-qubit Hadamard transform
+f47a619a19a839f3c82da3d758191cd76ad17ab1|2016-10-19|Craig Gidney|Added tradeTextureForVec2Output/tradeTextureForVec4Output
+0771c3c93797a14da3521bde95ae266d3bab2510|2016-10-19|Craig Gidney|Merge pull request #249 from Strilanc/dev
+af5d0a0f82cd39c4398bf141ab3e8184623927aa|2016-10-19|Craig Gidney|Renamed webGlTest to testUsingWebGL
+53d5c3f1823b9145e879792aa8d16d9ed7dc2ff3|2016-10-19|Craig Gidney|Getting units tests passing on an Android tablet - Fixed lose of precision from using *exp2(-v) instead of /exp2(v) in a shader - Fixed 16x16 custom matrix operations blowing the uniform limit (reduced cost from 512 to 128 by using vec4s) - Added vec2_array and vec4_array WglArg types - Added canTestFloatShaders method to ShaderCoders - Marked tests requiring float textures as such - Skipping float-texture-requiring tests with a warning when on a device without support - Shader compile error now includes the info message - Fixed tests not giving the browser a tick between suites - Added 'log' to test status
+6e6953f63bbff78206b1877364e2d51f29802570|2016-10-19|Craig Gidney|Better info on manual test page
+f6f0a8f9fe74492c19a14ea06d45124a2304f154|2016-10-19|Craig Gidney|Fixed reversed checks in shader coder choice
+405103a5a7699b008422b13c079a8c2fcbe6a737|2016-10-19|Craig Gidney|Fixed setting lifetimeId before initializer succeededin mortal value slot
+288a25ca260d5e48ea51d63ea2c1fc0cb551a632|2016-10-19|Craig Gidney|Optimized setBlockers
+3aadd766cae25a83ad14010e3e1a773f0103af6a|2016-10-19|Craig Gidney|Sliding 'watch outputs' along with output displays
+cab54f9ac49c0eaacc91e3fa20f65ebc78b44fe7|2016-10-19|Craig Gidney|Optimized paintProbabilityBox a bit
+de6b89a6e01522e9d23172f2ece979258d92cd92|2016-10-19|Craig Gidney|Caching toolbox drawing
+9eba6da9bdd87c7736a31794c934e9a673058a89|2016-10-19|Craig Gidney|Optimized firstLast in DisplayedCircuit
+caf01b634f8630c09178a44388205eb51ee941e7|2016-10-18|Craig Gidney|Fixed simulate's caching not substituting in the new time
+2c38855889406fa0d54ede1765ea79e2445ab393|2016-10-18|Craig Gidney|DisplayedToolbox now stores top instead of area
+26f850e8d94f7680983938309e8100803bb25cca|2016-10-17|Craig Gidney|Commenting ketShader
+4eb3f93359fab4f8766d5be05fd88527b4d0dc66|2016-10-17|Craig Gidney|Optimizing colControls and withWireCount
+6c6070ac4fff9b1e57f4e2bebf47bc9c408e2f3f|2016-10-17|Craig Gidney|Merge pull request #244 from Strilanc/dev
+a6b1823509c01b83bab41ffdda928344d990258c|2016-10-17|Craig Gidney|Fixed extra blank line showing up in tooltips of controls that can't be marked "hasNoEffect"
+364edfe87f87170a7a8a12775ca9949e5d20e7d1|2016-10-17|Craig Gidney|Padding redraw cooldowns when draws are taking a long time - The idea is that edits should take <10ms, so 3 can slip per draw in when draws are taking 200ms
+d634c1f4488f4447af5a49f18f78343cab206755|2016-10-17|Craig Gidney|More optimzations - Deseq'd withTrailingSpacers - Deseq'd GateColumn.empty - Tightened perf test goals
+e92bcc9a735dae2a00ab08e70889932b9464583f|2016-10-17|Craig Gidney|More optimizations - Added fromJsonText_CircuitDefinition to serializer (the old caching wasn't working due to object equality) - Deseq'd fromJson_CircuitDefinition
+39665215d651c1eb69abf14ff2f11339d2190af9|2016-10-17|Craig Gidney|Optimizing gate edits - Added caching to fromJson_CircuitDefinition - De-seq'd minimRequiredColCount - De-seq'd _disabledReason_needInput - De-seq'd nextMeasureMask
+d84e3f0484ac13bdabb7002c67e9e45b4d5aea65|2016-10-17|Craig Gidney|Removed CycleCircuitStats - Wasn't worth the space given how many time bins there were - Kept a single-stats caching layer for circuits that don't contain dynamic gates
+ee5b6f67fb3e46905a12bd5d593428fd6ce210b8|2016-10-17|Craig Gidney|Columns can now be dragged up and down
+bc732a3c4f613943493ca35d42fedad4535ea5be|2016-10-17|Craig Gidney|Focusing first element of dialog on show - Fixes an issue in firefox where hitting escape after showing a dialog wouldn't close it (because focus was still on the open button, but the button was disabled)
+58970be7f65a7d2ceadffe9689cc74edd56dd456|2016-10-17|Craig Gidney|Removed warning suppression because it's not triggering on my machine and isn't with which machine it does trigger on
+e42f2266bcf927f09f2a3093ccb3213ba596f15e|2016-10-17|Craig Gidney|Fixed last wire not acting like the others when becoming unimportant - 'Max wires' message no longer ends up overlapping bottom toolbox - The bottom wire's default output display no longer goes away during the drag (instead of after)
+f52f275acfccd00c43e015551836a8ff31b2df8f|2016-10-17|Craig Gidney|Fixed pixelsToAmplitudes skipping over amplitudes in results - A leftover from the pack-vec2s-into-vec4s change
+f51d1b4fc531f8b9549003b0de9764f68b918314|2016-10-16|Craig Gidney|Added build-perf-test-page grunt command - Optimized a few more hotspots - Added empty circuit perf test
+8ad8d63206bfd89cc4baf3e5d9b531e6977508bd|2016-10-16|Craig Gidney|Merge pull request #243 from Strilanc/dev
+b81a646b8afbc6c6bc5a0df12e274377f2f1800d|2016-10-16|Craig Gidney|Showing coder case when skipping webgl tests
+0c3cdc4d3575b3e11cfbbf0f6f2ae62b493feafc|2016-10-16|Craig Gidney|Swallow exception when initializedWglContext fails in changeShaderCoder
+bc063152472f6d040fb281b5f83372b5750ee82b|2016-10-16|Craig Gidney|Added support for indicating span in diagrams via trailing characters
+2ad25d5d716019ccd9de966b3e0999d63028a643|2016-10-16|Craig Gidney|Improving vec2AsVec4 into coder-specific vec2TradePack - Cuts output size in half
+c906a2f1c1d4c9f067226ac58ac9a4bdbd561a99|2016-10-16|Craig Gidney|Fixed size adjustment for different output coder assuming the output coder was bytes
+246d0565398570b389010fb864f5c51097b3508c|2016-10-16|Craig Gidney|Fixing appearance of 'use controls' - Also working around an ignoring-alpha issue in firefox
+268bdccfe71649e2edd04fc2a77af60902d7b6a1|2016-10-16|Craig Gidney|Choosing shader coder (and output coder) at runtime based on testing
+73b28094bc06a680e0f5cd0afbf947affc3adf13|2016-10-16|Craig Gidney|Rerunning webgl tests on both the byte and float coder
+311bf800e6057820bcf7c147fd298827fdd1def3|2016-10-16|Craig Gidney|workerShaderCoder -> currentShaderCoder()
+bfeb0cf162b88a7b3975b4b54194ae08a76ce766|2016-10-16|Craig Gidney|Added support for perf testing - Fixed reverse gate shaders stopping at 15 instead of 16 span
+f14aedc2200c5daad2cc46c1631692e3f339394c|2016-10-16|Craig Gidney|Optimizing hotspots - Turned on slow webgl checks in tests
+aef92c664e199e129f2a3c94a4a2e92c4a0d2378|2016-10-16|Craig Gidney|Added CircuitEvalContext.applyOperation
+10a283e392fddc44b12a8fdf3af86651efb28246|2016-10-16|Craig Gidney|Renamed CircuitEvalArgs to CircuitEvalContext
+79a0cf11875863ac3ccc101541f11f0747f379f1|2016-10-16|Craig Gidney|Merge pull request #242 from Strilanc/dev
+bde0e0a7a52bdb342c3e49e1e4744b861fc5663f|2016-10-16|Craig Gidney|Optimized hotspot: hasControl methods
+a5c8f915f2b19f25be52aa280ff9a65d1bb86b3c|2016-10-16|Craig Gidney|Moved WglTextureTrader into its own file - Also removed tradeThrough and copyOfCurrentTexture, which were unused - Fixed AmplitudeDisplay not working with byte coder
+c8f1e859c78d84cdc3803bb081c4c57e7982b832|2016-10-16|Craig Gidney|Switched gates and basically everything else over to using TextureTrader - The cat fell firmly into the bath - advanceStateWithCircuit now does loops instead of aggregation - CircuitEvalArgs now holds the texture trader for the state texture, instead of directly holding the state texture - Fixed _advanceStateWithCircuitDefinitionColumn taking two CircuitEvalArgs args - _advanceStateWithCircuitDefinitionColumn mostly just delegates to circuitDefinition methods now - Refactored circuitDefinition.operationShaders and freinds into applyMainOperationsInCol and friends - circuitDefinition.gateAtLocIsDisabledReason now takes coordinates instead of a point - Gate.customTextureTransform/customShaders merged into Gate.customOperation - Gate.pre/postShaders refactored into customBefore/AfterOperation - GateShaders.matrixOperation is now applyMatrixOperation - Removed KetTextureUtil.classicalKet/control/applyCustomShader/matrixOperation/aggregateReusingIntermediates/aggregateWithReuse - Several gates had their shader-arrays turned into applyOperation methods - Fixed shadeAndTrade's quick clearing of currentTexture interfering with CircuitEvalArgs usage
+288d9b4a8c12ebab5dcd910420b13070f43bd699|2016-10-16|Craig Gidney|Using TextureTrader in _advanceStateWithCircuitDefinitionColumn
+20f43934ce11270da887b68d2d6d0dad5f18dc07|2016-10-15|Craig Gidney|Removed Gate.isEqualTo - It was broken by not including several properties - A lot of the properties have closures and such that make comparing too hard
+304c86eec9dbf277e8c306a408fde01521e37265|2016-10-15|Craig Gidney|Removed ShaderPipeline class - No longer needed now that allocation is global - Gates now have a customStatTexturesMaker instead of a pipeline maker - Flattened display gate stat functions to do direct computation instead of via pipeline
+0ab399d87e23f8e903c207505418cfa2794409b7|2016-10-15|Craig Gidney|AmplitudeDisplay and DensityMatrixDisplay using TextureTrader
+eedf91e58d54859c903dedcd6b4be16d477ca0a2|2016-10-15|Craig Gidney|Knocked 'Family' suffix off of gate file names
+2ec7daa9a3c6ec1118a43b06f987a0e8b99ede59|2016-10-15|Craig Gidney|Added WglTextureTrader and used it to simplify the Amplitude display code
+31501d5562bc14da72505ac58babf709f4e36915|2016-10-15|Craig Gidney|Standarding on 'sizePower' for order/sizeOrder/power/size of textures
+31b77fee68898491c2855c9d3203e63b37241854|2016-10-15|Craig Gidney|Replacing readSizedBytes/toSizedFloatTexture - Removed toSizedByte/FloatTexture and readSizedByte/FloatOutputs - Added toRawByte/FloatTexture and readRawByte/FloatOutputs - Extracted _renderToElseDealloc/_renderReadDealloc within WglConfiguredShader - readBoolOutputs now packs its results for the caller - Added takeRawByte/FloatTex to WglTexturePool - Lots of test rewriting - Removed Shaders.coords
+0b3504cf13d39cdb443863ad8a120d018a2c297a|2016-10-15|Craig Gidney|Using WglTexturePool - Removed texture pooling in KetTextureUtil - Added auto-assertion to wglTest that all textures taken from pool are returned - ShaderPipeline now only takes a size order instead of width+height - Removed borrow methods from texture pool
+faacc7809db33675664f185aa248dcabfcc431c3|2016-10-15|Craig Gidney|Added WglTexturePool - Fixed boolOutput shader coder expecting a float outputFor - Added order() to WglTexture
+8445c471880c64e5a50592dd9b0f174fcb214811|2016-10-09|Craig Gidney|Stripping the try-all-known-gates tests to avoid triggering the per-test time limit
+aa0e44ce9d6b5816eaa39098cb1b216bc69af494|2016-10-09|Craig Gidney|Merge pull request #240 from Strilanc/dev
+9435e653343d8871655a33aef943b6d564aa471d|2016-10-09|Craig Gidney|Tweaking 'outputs change' arrow
+d9594e2afad9b9ae019e1c95fcb968e79e445e38|2016-10-09|Craig Gidney|Fixed amplitude ket-vs-reprentative merging reading past end of rep array
+fc08044368aba3e328881ab6c7012c1466ec72b0|2016-10-09|Craig Gidney|Avoiding using NaNs in AmplitudeDisplayFamily shaders - It was really unstable whether the gpu shader compiler optimized them away or not
+f1cdc4a5d9ac3cbb55106cfeddbf862f1b0b76fa|2016-10-09|Craig Gidney|Fixing BlochSphereDisplay looking in the wrong place for data, and AmplitudeDisplay computing a wrong size
+e519134bd36249e6169c05c54ac4c54d2c1c9a4b|2016-10-09|Craig Gidney|Cutting two bad tests, added a preference for 4x1 over 2x2 in a few places (because the vec4 byte coder assumes a width of 4)
+e0fe8fe4e089c8d81ded730b1294b2c9473ea63b|2016-10-09|Craig Gidney|Merge branch 'master' of github.com:Strilanc/Quirk into dev
+18524b711ceab2aa5363dea5a952e48ae535d097|2016-10-09|Craig Gidney|Straggling float-specific size
+7379a7c1f8619842c7bb2613e2a279b3358ca80b|2016-10-09|Craig Gidney|Switching circuit stat float decoding over to ShaderCoder-style
+24ae4b308cc9c6febb3bc78d41d1aebfc99346e4|2016-10-09|Craig Gidney|Applying coded vec data to more tests
+ccff2e9d51d315e97955e2a0f9b08156ab83ca67|2016-10-09|Craig Gidney|Using vec-typed data in CircuitShaders tests
+d9cf0dddf2107631b7cd76a44b807af379fc914e|2016-10-09|Craig Gidney|Using typed power steps / data in density matrix and chance display gates
+a3e192a41c97252db4700ddaccf22f9894a4b6fe|2016-10-09|Craig Gidney|Added type-specific power sized steps to ShaderPipeline and used them in AmplitudeDisplayFamily - Also used Shaders.vecData methods in the tests
+6e2129737810d1cd254f8a51fa65172aa2d341cf|2016-10-09|Craig Gidney|Added Shaders.vec2Data/vec4Data/vec2AsVec4
+9c88cfd62c73e1ddfb8381f72baaf1d1b3a1f623|2016-10-09|Craig Gidney|Refactoring KetTextureUtil to use input-type-based methods
+6c2dded1440afeaa81e6ca06c912c1e399b90652|2016-10-09|Craig Gidney|Added input-type-specific methods to WglConfiguredShader
+70a54c75bd49ac27882b6b11a888302d3e6ae6f6|2016-10-09|Craig Gidney|Added more info and utilities to ShaderCoder instances - Also added support for packing/unpacking NaNs
+db104763e7eb6e4b553ff8519720110514e5ba74|2016-10-09|Craig Gidney|Moved WglConfiguredShader out of WglShader.js
+3634b45a9ff875590bb68efa27b79f445cdbf604|2016-10-09|Craig Gidney|Using boolInput for controls
+cad3ca7a1fac792eb3b9c1f2a065b2aecdd4093f|2016-10-09|Craig Gidney|Refactored sumFold into sumFoldVec2 and sumFoldVec4
+37a85c04b08010232d9206d807d8ea51a03bfad6|2016-10-09|Craig Gidney|Boolean input/output shader parts - Removed unused Shaders.scale - Added a density matrix test
+149a64558046a0fb2faa969ad29c56450ce74792|2016-10-09|Craig Gidney|Applied ShaderCoders to Probability/Density displays
+66c72ed7b9acfd094ac94915f9f7281fbbb8dc4d|2016-10-09|Craig Gidney|Fixed NaNs spreading through output during overlay step
+1a53ba00f48535a0965837da3458adba0f65d827|2016-10-09|Craig Gidney|Fixed fallback sizing of amplitude display matrix
+33f19ff57569bea9691b45eda3418a26d7a7dce8|2016-10-09|Craig Gidney|Switched col/wire order of CircuitStats.qubitDensityMatrix
+c35240216bef6decd9b64df3416f7a8c6ff7ceb2|2016-10-09|Craig Gidney|Switched GateShaders and AmplitudeDisplayFamily to using ShaderCoders
+871ee6893f54479bdd0f23c0fd801bc87be81f4f|2016-10-08|Craig Gidney|Using ShaderCoders on CircuitShaders and KetShaderUtil - Added makePseudoShaderWithInputsAndOutputAndCode - Added len_name functions to shaders - Added 'workingShaderCoder' placeholder - Removed unused CircuitShaders snippets - Did a hacky quacks-like-a-duck change of ketShader's return type
+c3ce951701d551e7cb67b5aadd9c2766014bac7e|2016-10-08|Craig Gidney|Merge pull request #232 from Strilanc/dev
+f7b226f4893df9dfd5d6fec4efedb500b43eb321|2016-10-08|Craig Gidney|Added an input combining test
+2474dd2cd918949840a2a7ab1efd3100c034a975|2016-10-08|Craig Gidney|Abstracting shader inputs and outputs so float and floats-encoded-in-bytes can be handled the same way - Added byte support to Shaders.data
+38cf0233e8ea42c223b19e3d3ff52856ada0feee|2016-10-05|Craig Gidney|Texture Wgl arguments now automatically assign texture units
+ff0d6bf1fadb73a95231c8dff39236cb65e210ac|2016-10-05|Craig Gidney|Moved amplitudesToProbabilities out of DisplayShaders and into ProbabilityDisplayFamily - DisplayShaders is now gone
+6fa52eebe28ee01d804929b928ecb266ad4a9841|2016-10-05|Craig Gidney|Moved amplitudesToDensities into the density matrix display code
+e74129d4d938aecbd0f8f872c8bf8c784d6a4283|2016-10-04|Craig Gidney|Using exp2 instead of pow(2.0, _) in some shaders
+9a5e63340642f3c2aefcb6c37ca7cf046db26871|2016-10-03|Craig Gidney|Merge branch 'master' of git@github.com:Strilanc/Quirk.git into dev
+f87633f4080df673b2268e06e7bbe7e192d13d3f|2016-10-03|Craig Gidney|Merge pull request #238 from Strilanc/fix
+dcad94cec5468fff7bb6f55228340387e4c497d0|2016-10-03|Craig Gidney|Merge branch 'master' into fix
+1d226f30a673159d67573e197af91cd8baad6b34|2016-10-03|Craig Gidney|Fixed stats being collected after un-setup shaders, breaking X/Y-axis controlled displays
+52419a3311dfaef9ed5074da95d985f864132df8|2016-10-02|Craig Gidney|Polishing the tutorial hints - Added 'use controls' hint - 'ouput changes' now shows when there's a single gate present
+356215cd624017ad3ca21db35f8fc41f7d91eef8|2016-10-02|Craig Gidney|Merge pull request #235 from Strilanc/Strilanc-patch-1
+a065eea07571c2b139b92abbc2ae89d277c095eb|2016-10-02|Craig Gidney|Update README.md
+c5ae82361baa19b085bcc552a3463dfed5d88d3d|2016-10-02|Craig Gidney|Merge pull request #234 from Strilanc/Strilanc-patch-1
+d0d53b65ce78a6d39e384ce3cdda0ebea44d623c|2016-10-02|Craig Gidney|Update README.md
+97517a4ab209df1e2d6f0912acec20affca8f160|2016-09-27|Craig Gidney|Swapping argument order to ketShader
+c20bcbc0012af9844f34b32e1b78b5766f6dd492|2016-09-27|Craig Gidney|Applied ketShaderPermute to arithmetic-with-input gates - Also to the universal not gate
+0278f2c9e83397ab73f1bee5b883465703c8fde8|2016-09-26|Craig Gidney|Merge branch 'dev' of git@github.com:Strilanc/Quirk.git into dev
+99b9e0976154f7ce275f9237ac37179379200cca|2016-09-26|Craig Gidney|Applying ketShaderPermute to Reverse gate (and by extension the QFT and input gates)
+775f21bee6013f4b786eff51891c0771380a88fe|2016-09-26|Craig Gidney|Applied ketShaderPhase to controlledPhaseGradient and phaseGradient
+0f568af6d0403542417ebbd0ed5c3e4e95d4ee1b|2016-09-26|Craig Gidney|Applying KetShaderUtil to INCREMENT_SHADER and CYCLE_SHADER
+472b2eeaaa7fd8d64382c3b4cccc03684806e08e|2016-09-26|Craig Gidney|Merge branch 'master' into dev
+65ddeac30cf1ebfe16a92fa8d592bb53ee376125|2016-09-26|Craig Gidney|Added KetShaderUtil with methods for easily creating gate shaders - ketShader, ketShaderPermute, ketShaderPhase, ketArgs - Applied ketShader to multiQubitOperationMaker - Added optimized custom shaders for X/Y/Z/H - GateShaders.matrixOperation/multiQubitOperationMaker now take a CircuitEvalArgs
+5e2b66cac78d0cefb90abe730fba2454d256a695|2016-09-26|Craig Gidney|Merge pull request #227 from Strilanc/dev
+c5a336a251a449a87525b3e2b8a66a9ab2032612|2016-09-26|Craig Gidney|Bumped version
+edbff58c2cd05f4e3bc50ca530d4db857f43ca66|2016-09-25|Craig Gidney|Merge pull request #226 from Strilanc/dev
+1f65e55aca22c21211a621f5c827d004c51a9ed1|2016-09-25|Craig Gidney|Merge branch 'master' into dev
+2a7e1e2ee38ff38db05ce09da3af2b2918acdd86|2016-09-25|Craig Gidney|More optimizations to _drawLabelsReasonablyFast
+4c4ac38ceb9f325fa5f98cb5f32e9ce06e18dbed|2016-09-25|Craig Gidney|Merge pull request #225 from Strilanc/dev
+44d1c078c460483ff3001ac4e5a6edea8059c04c|2016-09-25|Craig Gidney|Merge branch 'master' into dev
+b7c1c9c479f6d175fbbe3b9ef388f1e6a9cdff08|2016-09-25|Craig Gidney|Worked around firefox ignoring a globalAlpha=0 (not sure why..) by drawing far away instead
+eb52429a457b28a5624dc38466573a155a7af6d5|2016-09-25|Craig Gidney|Merge pull request #222 from Strilanc/dev
+ac23442a02cd6ad5d0ac4205d02a0ebaf8545c71|2016-09-25|Craig Gidney|Merge branch 'master' into dev
+2c960bda573ca7cc3a3a0c6e56c09985eaf074bc|2016-09-25|Craig Gidney|Optimized label drawing around the superposition grid
+aadd71c2615e6374a3092de00deac48cccbcfe60|2016-09-25|Craig Gidney|Merge pull request #220 from Strilanc/dev
+7888e63b726fb2a77cb874b16c6a06b617003398|2016-09-25|Craig Gidney|Merge branch 'master' into dev
+2277351f0a4d694aae044e4af602965fae1a317c|2016-09-25|Craig Gidney|Fixed shift cycle gates having an animation that moved in the opposite direction of the qubit movement
+6e1344b7edb66397aad36bb33e736cbdbc4379c5|2016-09-25|Craig Gidney|Fixed an array sizing mistake caused by a gate in the circuit failing
+9140715a33ce1bd955a06a990bf8357c44ee53c2|2016-09-25|Craig Gidney|Merge pull request #219 from Strilanc/dev
+cfe96132d0d802651e1ce3d69515212867d824e1|2016-09-25|Craig Gidney|Fixed a test not being marked as a webGlTest.
+be36dbfecbf92646ea5e2be7a1faafa8cb3e4011|2016-09-25|Craig Gidney|Updating readmes
+5f2c2dfad69f1dc8a55effb9619caea1f57fbf97|2016-09-25|Craig Gidney|Fixed shift not causing column-move to do a column-copy
+4fa47f8e02529efaf07db412ff2cd7d3809c3c63|2016-09-25|Craig Gidney|Updated empty title to "Quantum Circuit Toy - Quirk"
+f108b02a0f3a0d2b5c3fdbf5b1c5f2798a4eda4c|2016-09-25|Craig Gidney|Fixed discard rate overlapping the final amplitude display - Also added 'over unity' warning for when users make custom gates with determinants greater than 1
+65cb8a869f121f9561436dccbca682df8f6d6dc6|2016-09-25|Craig Gidney|Fixed resizes causing rightward column to move towards the resizing gate
+20a6b2e902a29fc178c7ddd7e67b3225d80050c2|2016-09-25|Craig Gidney|Merge branch 'master' of git@github.com:Strilanc/Quirk.git into dev
+c7ba1dd019454017b59c94afc3693e17fb096e56|2016-09-25|Craig Gidney|Added some more tests about nested input-using gates
+45161838e5acb8ee65399bf111291426c3136598|2016-09-25|Craig Gidney|Testing CircuitComputeUtil - Fixed a bug where inner input gate ranges weren't shifted by their outer container's offset - Refactored advanceCircuitState to take a CircuitEvalArgs - Added a 'same size' check to the custom-matrix gate shader function - Fixed CircuitOperationTestUtil making differing-shape value/control textures - Added Matrix.expandedForQubitInRegister
+6a48fbf441c1282ceb6654971c7259aa48b7a7bc|2016-09-25|Craig Gidney|Polishing gate forge - Fixed inconsistency between cutting a gate from above/below/right/left (now always removes) - Added context to confusing "can't nest" disable reasons - Exposed and unit tested some of the parse functions in forge - Renamed test/ui/Gates to test/gates/ExponentiatingGates
+68e331e2ec3b71786f1771eb3050c1d10c67bea9|2016-09-18|Craig Gidney|Showing 'not unitary' / 'not rotation' notices in forge previews
+138362c67589b1146ba21f92823b8fed63b4d962|2016-09-18|Craig Gidney|Adding tokens to complex parser (acos, cos, sin, asin, exp, ln, e, pi)
+a598812ce0acaf8cdc372160ddd0ef0a641c12f5|2016-09-18|Craig Gidney|Merge pull request #215 from Strilanc/dev
+f51998f75e88b72b4181bb74f020d7d02fff0afc|2016-09-18|Craig Gidney|Fixed json string not being escaped before putting it in exported source
+6a6a0c83a10ae83ad9091a78eb7ce54c9acea363|2016-09-18|Craig Gidney|Moving whole columsn when ctrl is held
+b24923f10c5583a7f84dbb4657f8dc47511d9b65|2016-09-18|Craig Gidney|Fixed gates potentially overlapping output displays during preview while resizing when getting wider
+134f2863d0b834de3672ef1311c54b2bc9b549f8|2016-09-18|Craig Gidney|Fixed right-hand padding columns being part of serialization - Trimming them when serializing - Inferring them when deserializing
+f504d1d9c5a2eaba0af49681dd14e455d7bab5ba|2016-09-18|Craig Gidney|Fixed sluggish redraws by switching CooldownThrottle to using requestAnimationFrame
+d85b2d574738be827a4e45e6af50bfb348579b93|2016-09-18|Craig Gidney|Fixed forge redrawing in the background
+3df70ad7884da78767f3ba2f3ecb5e2e87b83b9a|2016-09-18|Craig Gidney|Fixed display gates not disabling when nested
+4d5aa5639b755cd6c47cd2c473431c12f9a211cf|2016-09-18|Craig Gidney|Optimizations
+e1d9cd0630e28841e441442e77c49c2cc1c0904b|2016-09-18|Craig Gidney|Merge branch 'master' of github.com:Strilanc/Quirk into dev
+779a89bc0cfd872bd76681ef4e093c04aef906b1|2016-09-18|Craig Gidney|Fixing nested missing input issues - Fixed external 'need X' messages talking about internal inputs that were present - Fixed showing 'Need A, B' when only needs A or only needed B. - Fixed duplication between custom disable reasons and known required inputs - Fixed circuit symbol draw and circuit tooltip showing inputs as unsatisfied
+edc0cf726928dadd84ddeaabd7834b2e2b2b6257|2016-09-18|Craig Gidney|Fixed some gate tooltips peeking through during the size computation due to globalAlpha being set instead of multiplied - Also fixed custom circuit gates not being highlighted yellow /showing cycle when dynamic
+2d2b685e58c5e667f6e040b1985b94f62b04270b|2016-09-18|Craig Gidney|Animating the dynamic gates inside of the circuit gate tooltips - But not triggering dynamic redraw when the gate is just sitting in the toolbox - Added Obs.requestAnimationTicker, Obs.flattenLatest - Fixed circuit gates not having their stable duration computed
+75e4bf19e37785e562a2e4ceb44993fc5ba32c22|2016-09-18|Craig Gidney|Fixing tab order errors - Disabling menu buttons / links when an overlay is showing - Telling subsystems about overlay showing or not - Observable.zipLatest/filter - Allowing focus to hit the json export pre element - Tabs in column order through forge menu
+7a41bfdade86dcc41c6d11dc0a4eada0cf19b79b|2016-09-17|Craig Gidney|Polishing gate forge - 'Create Gate' is now 'Make Gate' - Fixed a drawing bug in DisplayedCircuit - Each gate creation column now has its own symbol text box - Color highlight of each gate creation column - Tab order within columns of gate creation - Weight of circuit gate
+69543cd9509ca1b641c9eb3c4aa7356b593383b5|2016-09-17|Craig Gidney|Entering angle expressions into rotation gate forge
+3f9b2586fc18501d6c2e61bca0085afc36bff278|2016-09-17|Craig Gidney|Split html into several parts
+e0368426c1f5226866f5bb18b93602900fc94e2a|2016-09-17|Craig Gidney|Extracted a method from _drawColumn and another from findModificationIndex
+6b3787cb14a114099dc6d2eedfff2cf599f943bf|2016-09-17|Craig Gidney|Merge pull request #213 from Strilanc/dev
+2c70381913bbae4bb6e82ef6ce8bf7c995b2dc9e|2016-09-17|Craig Gidney|Merge branch 'master' of git@github.com:Strilanc/Quirk.git into dev
+196811070e53ac54e7bbd9d282b06a48166bfcb3|2016-09-17|Craig Gidney|Fixing some lint warnings - Bumped cyclomatic limit up by one
+7342203d3dcc8585ea6a790d179167eb63cc6bb1|2016-09-17|Craig Gidney|Merge pull request #212 from Strilanc/dev
+c99f2e53311fe3f40d6b6cc8f557e9671501ac31|2016-09-17|Craig Gidney|Merge branch 'master' into dev
+edee65c83a1d948cb7f26277fb845e89044d64e3|2016-09-17|Craig Gidney|More warning fixes
+922626be813e3d399e529f99bdb25028871df0c0|2016-09-17|Craig Gidney|Merged html before/after into a single template - Also fixed some other code warnings
+398a184fdf2761d065f65269f7d46a373751eab1|2016-09-17|Craig Gidney|Fixing various code warnings - Too many slice args in polyfills - Unused locals - Unused/untested methods - etc
+59b2b0cbcfb8619698fbb398ca258d89438dcf82|2016-09-17|Craig Gidney|Split _paintBlochSphereRotation_rotationGuideArrows out of paintBlochSphereRotation
+31545da64b7034704733b22f9e974df37149d53e|2016-09-17|Craig Gidney|Switching away from default exports - They interact badly with rename refactorings
+f9a63ae06fa946ecdecb210db42fca00f1950521|2016-09-17|Craig Gidney|Renamed CircuitTextures to KetTextureUtil - Renamed .zero to .classicalKet
+bf833bf50b14798134cda579bb186caec60c6973|2016-09-17|Craig Gidney|Switching from null to undefined to indicate an empty spot in the circuit
+584a9a3a1ba6b231ee9be6133d3f86f71e147574|2016-09-15|Craig Gidney|Merge pull request #205 from Strilanc/dev
+326826ba6313f14411e4e42336d2e8f465e68dbf|2016-09-15|Craig Gidney|Merge branch 'master' into dev
+7d8ec272741cdfd446cf9cb7bef6a98b0098b9d4|2016-09-15|Craig Gidney|Getting custom circuit gates working better - Added 'as circuit' section to tooltips, including gate weight - Serializer gates drawers via init method instead of creating cyclic dependencies - Fixed serializer not forwarding parse context in a few cases - Split fromJson_Gate into a few helper methods - Split _paintGateTooltip into a few helper methods - Added GATE_CIRCUIT_DRAWER/drawCircuitTooltip to DisplayedCircuit - Avoiding using different circuit instance when serializing created circuit gate (causing gates to appear different and explode the serialization size)
+3db42a77139c0e89c91a04633ae0e3d31f8b5aa2|2016-09-15|Craig Gidney|Tooltip polish
+007e4cf0f6959c18db79377e2902840d6edf696e|2016-09-14|Craig Gidney|Merge pull request #203 from Strilanc/dev
+2ac7cde1c5324b4940c3e4e676c86671fd20dc5b|2016-09-14|Craig Gidney|Fixed jsdoc type for Gate.customStatePipelineMaker
+e5b4e724b431b713e3e05c63db0f9831ed75a99b|2016-09-14|Craig Gidney|HACKY: getting circuit gate construction working - Added gate.getUnmetContextKeys - Added gate.withRequiredContextKeys - Added GateCheckArgs.isNested - Fixed Serializer not using circuitDefinitionToGate - Fixed measurement gate not disabling when nested - Added parameters to DisplayedCircuit drawing to allow drawing tooltips
+255ae4dd996c47c3d5722bc867f2488f283d3794|2016-09-13|Craig Gidney|Switching from euler angles to axis-angle for rotation forge - Extracted Complex.parse mechanics into FormulaParser - Added math/Axis with parse method - Parsing an axis instead of euler angles in rotation forge
+50139fc3de32848e2c64ed261df35c512ff24b12|2016-09-13|Craig Gidney|Making tooltips prefer going left, so they don't cover the output displays as you drag down
+94819345f8543e29199db4837e4fb5ed0d120fe8|2016-09-13|Craig Gidney|Disabling create gate buttons when parse fails
+c16e82865d27a6fc2d912321fe59b3798a1e1058|2016-09-13|Craig Gidney|Added 'clear' button to remove all custom gates and circuit gates
+6e21a53ed8159e616091a22f17ff23a1a2d49a4f|2016-09-13|Craig Gidney|Checking forged matrix size
+a5f39fd059a4d71e78b0f826c9181baf39339516|2016-09-13|Craig Gidney|Reducing serialized size of forged gates
+dfe28712ebf5f390a467476e86f45f90d907edf2|2016-09-12|Craig Gidney|Some minor fixes - Not capturing ctrl+z and other keystrokes when menus showing - Fixed Complex raisedTo not handling zero cases well - Fixed min size being 1 for forged matrix gate
+1cddfefa423a18df8ba7b6a7daa4fc134fa95bf6|2016-09-12|Craig Gidney|Complex.parse now handles arithmetic and the sqrt function - Added Seq.segmentBy
+58fbfc5cfb0ee158f585d1ec6df12d0ee57e7726|2016-09-12|Craig Gidney|Slight polish on gate displays - Avoiding printing lots of text hints next to non-trivial matrices in tooltips - Made minimum phase indicator size slightly shorter - Showing borders around anonymous custom gates
+713d3e2811a347177bace71e6d50ebce02455152|2016-09-12|Craig Gidney|Gates that use their matrix as a symbol default to same width as height
+ed0282da12f8951f58266270b5f5019bc3ebf679|2016-09-12|Craig Gidney|Fixed tooltips continuing to display when cursor quickly leaves canvas
+a8e9c05a0409a4edee6cf8e9ce05f914941e9f32|2016-09-12|Craig Gidney|Refactored qubitOperation into matrixOperation
+2b556f84a01150ec35c2ed3985edb85157b1dc67|2016-09-11|Craig Gidney|matrixOperationShaderFunc and testing utils for validating future linear shaders
+e6a3dc3bc86b1e9ad95e24fa7eabc588728385f0|2016-09-11|Craig Gidney|applyToStateVectorAtQubitWithControls
+b8418e700e3b18fbae941684bf62b3620e69e131|2016-09-11|Craig Gidney|Moved GateShaders.increment into ArithmeticGates
+6bda299eef4cd63fb2292eaa4e15caccf2b30812|2016-09-05|Craig Gidney|More work towards creating custom gates smoothly - Toolbox tooltip sizing and positioning improvements - Showing custom gates - Create rotation gate works
+5f75e5280ca48e5bfea4e14f523a8bc93cfcd570|2016-09-05|Craig Gidney|Getting 'create matrix gate' button working
+03ffb5b61a9e040c35974a55b65b10d6de1b0d3e|2016-09-05|Craig Gidney|Checkpoint while adding gate forge - Added 'forge' button - Split several methods out of CircuitStats into CircuitComputeUtil - Added customGateSet to CircuitDefinition - Added CustomGateSet - Added 'context' arguments to Serializer methods - Added serializable knownCircuit property to gates - Initial previews of forged gates
+024a7f6e93049d2fa14e33a1e4a892107acf2191|2016-09-03|Craig Gidney|textEditObservable
+2d3c969de8551f3ca297c5de6b7665ceebb8659c|2016-09-03|Craig Gidney|Increased delay before showing 'no script' warning
+4dba9ca44d345b12935a7d23d3d07c0468db3656|2016-09-03|Craig Gidney|Observable.throttleLatest
+d2e6090b91ebcfcd555720729478c0696baf0cdc|2016-09-03|Craig Gidney|Re-arranging toolboxes - Cut 1/3 gates - Added 'Custom' section to bottom toolbox - Grouped by rotation instead of X/Y/Z in bottom toolbox - Added support for parsing complex ratios
+655a00964e76ac24bfd40c39001ddeee07cc9655|2016-09-03|Craig Gidney|Fixed QR decomposition not cancelling phase factors
+e3e8a33afd3d0335b85f59fe5943133c5a55a5d1|2016-09-03|Craig Gidney|Added error/efficiency parameters to closestUnitary
+fdb145b9201cf4db3bd2c58d3d9dcac1d0500ede|2016-09-03|Craig Gidney|Improved efficiency of closestUnitary and some other Matrix operations
+7487c3c803db82d7bf57c25f10706ac417ca5691|2016-09-03|Craig Gidney|Fixed showing tooltips in background while mousing around export dialog
+e278e0d8b6229805cabf832c76db5f7622447599|2016-08-31|Craig Gidney|Fixed qubits passed the end of the internal circuit escaping the NaN-pocalypse when post-selecting everything away
+e50ca50b25f8556652ebd15ff68116567831688f|2016-08-31|Craig Gidney|Fixed minimum wire count going below 1
+0b1483ec3e24af0a36b26559bf8cb5003312f8f4|2016-08-31|Craig Gidney|Merge pull request #202 from Strilanc/dev
+89e2eddbc66100fafdae0f30b0acd4466ec7df64|2016-08-31|Craig Gidney|Merge branch 'master' into dev
+1261025be5d659e4c94a312ddaab911bed149359|2016-08-31|Craig Gidney|Not drawing density matrix display by default anymore
+7bef837af492b2b1da4fbf5c108186fc0284d28a|2016-08-31|Craig Gidney|Minimizing circuit rows internally, and avoiding locking amplitude display when it fills enter circuit
+87f0871892ec38406a08de35c5031e86310085a4|2016-08-31|Craig Gidney|Fixed rename refactor splinch on AmplitudeDisplay, and added a basic put all gates in a circuit and evaluate it' test.
+3515e26a70686b37d6ef5bdc66cd32df537d47a8|2016-08-31|Craig Gidney|Merge pull request #201 from Strilanc/dev
+33783e3205447a4e2b2915eeb106021f677d1f38|2016-08-31|Craig Gidney|Getting gates made out of nested circuits working
+41b1c4af7f881ce6232b1768e8aac7309eb6c26c|2016-08-31|Craig Gidney|circuitDefinitionToGate
+ea0a69485c9ca47e9de870c261ed747162fdee96|2016-08-31|Craig Gidney|customTextureTransform
+d249f2403d5da8b3c44f3f0c7fe9a722fb116a01|2016-08-31|Craig Gidney|Extracted advanceStateWithCircuit
+fab8526c1733eaa56fcc8580bb25e56a77107b0d|2016-08-31|Craig Gidney|Extracted _extractStateStatsNeededByCircuitColumn
+210274df610010c9dad783bfc72de7e4fd67aece|2016-08-31|Craig Gidney|Extracted '_advanceStateWithCircuitDefinitionColumn' out of CircuitStats compute function
+fc2713ddd7c7e60d1e6910fd1965e52642db47cf|2016-08-31|Craig Gidney|Fixed inputs with mixed measurement not showing both types of control wire
+896eae6baf607d9efb15d744662d4cdfb939c1af|2016-08-31|Craig Gidney|Added coherent input / measured target disable reason finders
+700aadc7285404bcc727bed57a241072d0ca1964|2016-08-08|Craig Gidney|Added yellow tint to toolbox highlight of varying ates
+0ba462ae44948dd15794add5b3d96346f4c03850|2016-08-08|Craig Gidney|Using up/down symbols instead of left/right symbols for shift gate
+91cc73b83e9de64659653aefc59132f313e17529|2016-08-08|Craig Gidney|Switching toolbox to input-based arithmetic gates
+d053e759460177c16d460d2b01015af73a8c36ea|2016-08-08|Craig Gidney|Renamed LetGates to InputGates in the code
+8fd0b3a5100e4a628fe21bf9d4fffeeaa464eb3f|2016-08-08|Craig Gidney|- Reversed Let gates - Added multiply-accumulate gates with inputs - Exposed shadersForReverseOfSize - Added Gate.needColumnContextDisabledReasonFinder
+be0c1100949c8748c1d336e38c0005142494c0c4|2016-07-30|Craig Gidney|Fixed DisplayedCircuit accessing window.top instead of this.top
+41f8548c03905bce25b4c423faa2432345521cd8|2016-07-30|Craig Gidney|Addition/subtraction gates with separated inputs - Added +=/-= gates - Polished input A / input B gates - Other polish
+5baa6451af22c79b0a25c9d1dd0369d7204f8db3|2016-07-30|Craig Gidney|Fixed disabled controls still being sources of control lines
+c55bfda3a25942e8990edac7a877549236a7d278|2016-07-30|Craig Gidney|Using CircuitEvalArgs everywhere
+956b1cea68c58a0cbd1b9c04d30cc8767ab4a258|2016-07-30|Craig Gidney|Adding customColumnContextProvider and customDisableReasonFinder to gates - Also fixed assertThat index offset by 1 - Also moved some disable finding out of GateColumn and into respective gates - Also defined 'Let Variable' gates
+e71cfe2b7796a3470742d877475c00949affdb26|2016-07-30|Craig Gidney|Added CircuitEvalArgs class
+6dd3bd2785b392b354820d4af448640eb80e7d51|2016-07-30|Craig Gidney|Added anti-cross control gate and post-selector - Also fixed a broken import and fallback being in effect during testing
+6987df342feabfab82d1b844f4c918c687390f4e|2016-07-22|Craig Gidney|Added NeGate (joke gate) - Also added keyword/description meta tags - Zero gate now draws as a diamond - Some tooltip tweaks
+9bc649db55e059bfede900bb521214ebc4d22451|2016-06-30|Craig Gidney|Extracted sim from main.js
+36d169ef982c49544240d1c5e152c0d107c8c5eb|2016-06-30|Craig Gidney|Extracted title syncing from main.js
+356ec1fc72d6c86fddbffd8dd734b3e18c25b8cb|2016-06-30|Craig Gidney|Pulled url syncing out of main.js
+6b0d3835df2baaedff4847996bea5be20ba9fcb3|2016-06-30|Craig Gidney|Extracted undo/redo from main.js
+809ca70a6e583cf37dd74ca7356952897f32431a|2016-06-30|Craig Gidney|Rearranging files - ui -> draw - widgets -> ui
+3c3aae70dd0ba07d4495b1b86859efb1dba665f7|2016-06-30|Craig Gidney|Split exports out of main
+50ffd96cb398433da5e0caed4a19634005aedbe7|2016-06-30|Craig Gidney|Avoiding getting a webgl context multiple times while testing for issues - (knocks ~10-20 ms off of startup time)
+c0aad2ff959bef412f4d74b4cfcca719118d9aa2|2016-06-30|Craig Gidney|Optimizing creation of operation matrices - Added generateTransition - Added generationDiagonal - Fixed reverse gate not having example matrices
+582d7f5680fe0018521e049b952a005e0c772263|2016-06-29|Craig Gidney|Removed dead lines from RestartableRng
+5ef85575da10fec4f6621cb11fc331a70435fed3|2016-06-28|Craig Gidney|Merge pull request #194 from Strilanc/dev
+a593964b0a2e54b8dd838e9cfab104a163bdb323|2016-06-28|Craig Gidney|Bump version
+91a2a81164d8d1b77a046f2772ba036e75599390|2016-06-28|Craig Gidney|Merge pull request #193 from Strilanc/dev
+384a5c986df9d1667d3131b22076ce9dcf2e0b0d|2016-06-28|Craig Gidney|Fixed saved filename argument
+5729dda498135670cd7b1e96271140f582c7e5c3|2016-06-28|Craig Gidney|Untangling some of the inspector stuff in main.js - Permanent changes now always go through revision - Purged useInspector and restore - Added Obs.skip/whenDifferent
+b47aa81863c55c08913731880cb137338735dabe|2016-06-28|Craig Gidney|Splitting page title away from history pushing
+2cd3187dc65896297f9615c0b30bab19a36db005|2016-06-28|Craig Gidney|More cleanup and scoping in main.js
+daeb0930fe3097f0a4062fb627aba6d4c7f6cee6|2016-06-28|Craig Gidney|Encapsulating export/revision functionality into small scopes
+8fa56a8f7c426e95976f56b6ea8c3c1e9b55af07|2016-06-28|Craig Gidney|Renamed InspectorWidget to DisplayedInspector - Moved snapshot into DisplayedInspector
+d072db28026f5ee1cd1c493abd70caabe9824d81|2016-06-28|Craig Gidney|Added observable with eventual plan of simplifying main.js
+7d07887aa43c6e1b94db63c5527cedd44aa5f99a|2016-06-28|Craig Gidney|Adjusting button sizes
+6026a32eb0e8b8321365141bd8bf2704c8f2185e|2016-06-28|Craig Gidney|Fixing issues with save-offline-copy - Added msSaveBlob path for IE - Fixed some issues where iterating offline saves caused increasing filesize - Using a larger end tag for default circuit saving. - Fixed export being empty on load if circuit was empty - Removed noscript block due to bad interactions with repeated saving - No tags should come after the script element where the innerHtml is cached
+51d1375d91c59f805eb7e4496c997f87b51eed60|2016-06-28|Craig Gidney|Bumping dependency versions
+b26e1482a3e26e09fcaecfec74da8bb2c58f6cf7|2016-06-28|Craig Gidney|Fixed paint order in Controls
+fb423d0c0c7d19ea6ff967d1f7ea335be86b2bf0|2016-06-28|Craig Gidney|Merge pull request #192 from Strilanc/dev
+7d0e7df55d2954e8d17d53fa676c35a587ee9e1c|2016-06-28|Craig Gidney|Fixed 'after column' setup happening before computation of display gate contents
+1e7de0b998064487bb188f780e5613adb915ba78|2016-06-28|Craig Gidney|Added undo/redo/import/export buttons - Added Revision.isAtStart/EndOfHistory - Moved 'About Quirk' to button area at top after loading - Added escaped-link/offline-copy/json export options - Removed ctrl+s override of save behavior - Added analytics stripping to offline saving
+8c7784a736afb353dbcdd54ba8add52b301a2cd0|2016-06-28|Craig Gidney|Polished section sizing of MultiplyAccumulate gates
+6cec0bb979ecaca399d2b4e24f5644c04ee44750|2016-06-28|Craig Gidney|Showing discard rate due to post-selection - Also fixed _desiredWidth being too low as the circuit was resized - Also split _drawOutputDisplays into several methods - Also polished post-selection and control gate hints - Added postSelectionSurvivalRate to CircuitStats - Removed Config.NO_SUPERPOSITION_DRAWING_WIRE_THRESHOLD
+32d9866b3cfd902a7c9587b361fecc8ac3733c88|2016-06-28|Craig Gidney|Dropped special-casing of 2-qubit density matrix calculations
+8826520a4e8c1d62838003a6c18e6d9bf592933f|2016-06-28|Craig Gidney|Added 'other probes' section to bottom toolbox
+c6082dee08ea866fb2063029727ea36487226862|2016-06-17|Craig Gidney|Merge pull request #185 from Strilanc/Strilanc-patch-1
+fd9673ba8735b4cc37af80cb1c127f9b4039a5f9|2016-06-17|Craig Gidney|Split single/both methods out of Complex.toString
+3d13ee74474d8dfc840960fd9d96e03c0de9d532|2016-06-12|Craig Gidney|Update README.md
+df90030948d7dcbb7fbdf9e6cf08cc1959941410|2016-06-12|Craig Gidney|Merge pull request #184 from Strilanc/dev
+3d129e1ae90aad11489866f73875267b33bbad7a|2016-06-12|Craig Gidney|Updating pictures for readme
+9e4c854dd61416b6a672a709cb4c301f2258e8eb|2016-06-12|Craig Gidney|Fixed tooltips sticking around when mouse left canvas quickly
+121fa9d07b11db0f1d4924e3a1c8e91397a7cb19|2016-06-12|Craig Gidney|Some more tooltip polish
+7bb6b7fd0c2dc0f373fd352324be9a59e362732a|2016-06-12|Craig Gidney|Reduced mystery gate hint length
+1ead0e73d1c0f8f6cc5fe38f94b6af264f084195|2016-06-12|Craig Gidney|Fixed +/-/x controls causing continuous calculation
+8aaae8b7f7153ddcd0e2031e125f9fa592407fe2|2016-06-12|Craig Gidney|Merge pull request #180 from Strilanc/dev
+cd425e588dcd351699ffd4e562f3d4a85a77be23|2016-06-12|Craig Gidney|Putting the no-javascript warning after the big payload - Don't want it to show flicker during partial renders on slow downloads
+f507baaaa9901739d1d1c9b9c6f621f973dd3d17|2016-06-11|Craig Gidney|Using a noscript block backup for the script warning - (This is getting a bit ridiculous...)
+3de652435685e38c357d97419bbee20c2422ba1b|2016-06-11|Craig Gidney|Added cross-control and cross-post-selection gates - Fixed toolbox control gates showing tooltips while dragging other controls
+20a70873e3779cd7234315ad8b7aee816da69d0d|2016-06-11|Craig Gidney|Delaying "scripts not enabled" message a bit via CSS3 animations
+60fbcc272aeb58c4103f929c22780002ad6d8465|2016-06-11|Craig Gidney|Testing that known ids include old ids and toolbox ids
+24e857649bc9fa59d3cbc3e54421c20aed70d4af|2016-06-11|Craig Gidney|Added support for non-Z-axis controls - Added 'isControl/controlBit/preShaders/postShaders' to Gate - Added new disable reason: non-Z axis control on measured line - Split _disabledReason_swapGate out of _disabledReason function - Moved Control/AntiControl from Gates.Special to Gates.Controls - Added PlusControl and MinusControl (not exposed in toolbox though) - Moved 'controls' from GateColumn to CircuitDefinition (because can be disabled) - CircuitStats applies gate pre and post shaders when computing columns - Tweaked code looking for specific controls to instead use the properties
+11241a5176c58fd855dcf468d23b266de4bea641|2016-06-11|Craig Gidney|Avoiding changing the mystery gate until *after* the grab - (including in cases where the code is speculating)
+2c7328f89e06b3457d97fa8109433210050f4028|2016-06-11|Craig Gidney|Fixed no-script message not appearing when using ScriptSafe
+db98f591d01771530168a17024f3a560c425e2ce|2016-06-11|Craig Gidney|Dropping some more broken appearance tests
+8edbeaf2a53daf6e9af03e77efb7a1099bae489d|2016-06-11|Craig Gidney|Added Reverse gates family
+305d6bacf2b1a5a25ae4a408e331ae55fd204d88|2016-06-11|Craig Gidney|Added MultiplyAccumulate gates - Also added several unlisted Z-power gates
+c6a0497876b17ea408ace6f178b1c048ca9663cc|2016-06-11|Craig Gidney|Showing a dotted control line on gates with non-local effects - Post-selection gates are now marked as non-local - The universal not and zero gate are now marked as non-local
+d739f085d0ce5523d7e1aa234c6a73cd8cbcfe3e|2016-06-10|Craig Gidney|Added bottom toolbox gate and did a bunch of other related stuff as a result - Using 'sans-serif' instead of 'Helvetica' - Made circuit size calculations more precise when sizing draw area - Removed 'fade out' from bottom of draw area - DisplayedToolbox takes some parameters now - Added Zero gate - Exposed bit-cycle gates - Added bit-cycle-ing time gates - Increment/decrement gates use ++/-- for symbols now - Counting gates use "+|t|", "-|t|" symbols now - Fixed uncounting gate making large matrices - Fixed double-draw when grabbing things - Only showing 'deferred measurement' message on final amplitudes when a measurement is present - Fixed DisplayedCircuit clearing the wrong area
+1e9a0f36c4e05502bf566a16c6b56938aa209cb3|2016-06-10|Craig Gidney|Renamed ToolboxWidget to DisplayedToolbox
+31cbe21a593ba5459182e6efb4108edd6527caab|2016-06-10|Craig Gidney|Added inverse fourier transform - Refactored fourier transforms to use a controlledPhaseGradient shader - Added compare-known-gate-matrix-to-gate-shader test - Added Matrix.transpose
+0a63072597688808e90c74f39b2580cf5bb1c486|2016-06-01|Craig Gidney|When user hits ctrl+s, save an offline copy that defaults to the current circuit - Reworked build so that everything goes into one html file - favicon is now a data:png uri - The minified script is now inserted between html prefix and suffix templates - Added saveOfflineCopyOfCurrentCircuit to main.js - Added document.DEFAULT_CIRCUIT which overrides no-circuit-specified behavior - Added isEmpty/withMinimumWireCount to CircuitDefinition - Updated README
+11ba1f16f83e95bb9fa79fa3872edd62ff90b399|2016-05-30|Craig Gidney|Merge pull request #179 from Strilanc/dev
+160a5b7f73a10599d9cf15bf93e90e4964d462da|2016-05-30|Craig Gidney|Bumping version to 1.5
+563da3f5afe201882b3ee6278c907b9878f35535|2016-05-30|Craig Gidney|Merge pull request #178 from Strilanc/dev
+ca3b4c40f8d6058e3777e71e9931e0b038b35416|2016-05-30|Craig Gidney|Merge pull request #177 from Strilanc/dev2
+ecaf3ef26bc0560756d4f8a49e2fda8b445dcefd|2016-05-30|Craig Gidney|Fixed outline being stroked after fill, causing it to fade
+446260664b1db121896dd770ac6a33245b101981|2016-05-30|Craig Gidney|Merge pull request #175 from Strilanc/dev2
+ae08feb75d82a97c2afd690a5772d95a611d1f23|2016-05-30|Craig Gidney|Added shadows to toolbox gates, so they look more tangible
+52d502886ffbcd808251340cf3e2875bc2aa30af|2016-05-30|Craig Gidney|Merge pull request #174 from Strilanc/dev2
+b4fe7fb6e80847402f636cd77f060417adc55d55|2016-05-30|Craig Gidney|Increased maximum sampling display size to 16
+f4246717b898da3687d561734add4eb4ca515238|2016-05-30|Craig Gidney|Increased max density display size to 8 - Shading instead of drawing grid once grid gets near pixel sized - Making grid lines thinner when they get too dense
+7cdeaf2dedc56747de42f2301f0b5147c1c11915|2016-05-30|Craig Gidney|Increased max amp gate size to 16 - Drawing phase lines after dividers
+d2a048d112b99fc250e95c15bf4faf4df21c8811|2016-05-30|Craig Gidney|Increased max chance gate size to 16 - Stopped drawing grid lines once the separation got smaller than a pixel - Adjusted the log scale at the larger sizes - Fixed accidental lineWidth interference
+b2ea06ef3388cf3a8056d971e46ffead9b16aa68|2016-05-30|Craig Gidney|Merge pull request #172 from Strilanc/dev2
+4174ed54d4b25c02d812289c415d01456842b1c3|2016-05-30|Craig Gidney|Phase locking polish for amplitudes display - Switching to other amplitudes when the zero'th amplitude is extremely small - Showing a red 'fixed' and a red phase line for the locked phase - Extracted a few functions from processOutputs - Dropped Config.PHASE_CANCEL_FIRST_ENTRY_...
+a14475efd3fd929beaafbb02297749624bde99cd|2016-05-30|Craig Gidney|Merge pull request #170 from Strilanc/dev2
+741f79212be5c408926a3e14da5310826ea4ae41|2016-05-30|Craig Gidney|Fixed amplitude display gate showing NaNs for the initial state
+238af4095540261c39ef9889b9b7094d4029a264|2016-05-30|Craig Gidney|Fixed machine-specific empty warnings when compiling shaders
+86897d16592c699b32f6fb2a9ac07e0a4b4f56d8|2016-05-30|Craig Gidney|Fixed readPixels test using ambiguous values
+b0f83fd14be560d58d917fbc3b2adeb63be45fcf|2016-05-30|Craig Gidney|Fixed optimizable-to-0.0 NaN computation in AmplitudeDisplayFamily
+b396b919082c716769489f7934ddd0eb3abb887b|2016-05-25|Craig Gidney|Added detection of webgl-not-enabled issue
+c9c11d9bce8ed0eeb7141869eec7066b021b71f7|2016-05-22|Craig Gidney|Fixed clock pulse gates not being marked as permutations
+56c5bdc48a71a6175cb2e1f5d606152a371ef2b1|2016-05-22|Craig Gidney|Merge pull request #160 from Strilanc/dev
+ee4ccf27732896575bced03f4a95411ae85c7c19|2016-05-22|Craig Gidney|Version bump
+87b92edbb1fa1a0a2d8f78bb5dce962357263b1d|2016-05-22|Craig Gidney|setInterval was dying for no apparent reason. Couldn't figure out why, but setTImeout cycle doesn't due so... - Sigh...
+d504efb4c7f12a30f4db130de324ca71de5e3f87|2016-05-21|Craig Gidney|Merge pull request #159 from Strilanc/dev
+178d4f89d876ed9b0af6223f8fad7bdc34e4457a|2016-05-21|Craig Gidney|Fixed post-selection gate symbol wrapping on iPhone when in circuit - Also fixed args.positionInCircuit using null instead of undefined - Also moved POST_SELECT_DRAWER out of GatePainting
+d8c6dcb1f4ea99747c0e1ff72afe3aea27098882|2016-05-21|Craig Gidney|Turning on phase cancelling for amplitude gates
+91f6c0e09d2bea081bc1e48727bf817c71238b31|2016-05-21|Craig Gidney|Added support for 'known issues' - Added detection of float texture issues
+50ff36af297ac1691b251142e394a4f15f12e206|2016-05-21|Craig Gidney|Optimized decodeByteBufferToFloatBuffer - Was taking 10% of the time in a redraw for shallow 16-qubit circuits, now 1%
+d2f36e308d2365c218f80c59da2a566bb92fe757|2016-05-21|Craig Gidney|Merge pull request #155 from Strilanc/dev
+e0040983d4cdd83dc548be46c716bd43cac0a75d|2016-05-21|Craig Gidney|Fixed ToolboxGroups being transposed in the code, and using null instead of undefined
+6221e775b692fac0469a48329a75536442111b3f|2016-05-21|Craig Gidney|Cleanup in AllGates
+e6ba407ce870100ae79fa5bae17f29e152397148|2016-05-21|Craig Gidney|Pulled CycleBitsGates out of AllGates
+9d347187e48a81b2439b7161cebc47bb022fe1cc|2016-05-21|Craig Gidney|Pulled MysteryGate stuff out of AllGates
+4b45b5f5fb543b2a602a41a278392570a0a41a05|2016-05-21|Craig Gidney|Pulled ErrorInjectionGate out of AllGates - Fixed a serialization bug
+dab1bb1bd22fd1abba4b97153eee265e71082de5|2016-05-21|Craig Gidney|Pulled BlochSphereDisplay out of AllGates
+01d5b65d4be7d30162628725ad39420792cd2ce8|2016-05-21|Craig Gidney|Pulled SwapGateHalf out of AllGates
+3ef5d2e7150caa058c316c3dfd168ff684b23775|2016-05-21|Craig Gidney|Pulled MeasurementGate out of AllGates
+58dbb312613d1736c10e0c1474a990112fc252ea|2016-05-21|Craig Gidney|Pulled Controls out of AllGates
+b8b2eeaac0c6f090126239621b2e9e85b321c89b|2016-05-21|Craig Gidney|Pulled FourierTransformGate out of AllGates
+ba6200c88a54fb073f95c96b7b26ffe738b0cdf7|2016-05-21|Craig Gidney|Minor cleanups in AllGates
+b90d2e3cdb6559dc385749351a470bc469e83a50|2016-05-21|Craig Gidney|Pulled SpacerGate and ClockPulseGates out of AllGates - Moved ClockPulseGates and CountingGates (from arithmetic) into CountingGates.js
+26bb7212545fb709430ab36eb5069ae4b0f05c2a|2016-05-21|Craig Gidney|Pulled UniversalNotGate out of AllGates
+2da0191a55cb3bf26aa92e55e9d039e54af91200|2016-05-21|Craig Gidney|Adding 'all' properties to gate files and using it
+fed39bbd13b6aa2e6cfdea7f962870badabf0c52|2016-05-21|Craig Gidney|Pulled VariousX/Y/ZGates out of AllGates
+a7ff71226b933a1bac896c19ca58300e8546514c|2016-05-21|Craig Gidney|Pulled QuarterTurnGates out of AllGates
+51905323e2ee94503f6b46f649272994e24f81dd|2016-05-21|Craig Gidney|Merge pull request #154 from Strilanc/dev
+74c344a3f9bd52d564299b6f66aec81a66f92555|2016-05-21|Craig Gidney|Pulled PostSelectionGates out of AllGates - Also added hidden PostSelectPlus/Minus gates
+7d1e322f45592fdcbfb0312bc776898315ac0e70|2016-05-21|Craig Gidney|Pulled HalfTurnGates out of AllGates
+76488ce6ebe323b5240720670308f81a9a20ec77|2016-05-21|Craig Gidney|Moved phase gradiant shader into PhaseGradientGates
+1264256dc4bb64c2d60960cceda59b045af6653e|2016-05-21|Craig Gidney|Pulled PhaseGradientGates out of AllGates
+86534806416212cec98ef394700d65d1cfb159be|2016-05-21|Craig Gidney|Tweaking varying-rotation gate animations to look like the rotation
+bc098ef4ec8a82659d17ff0e3ff5df926abf8b57|2016-05-21|Craig Gidney|Fixed Z-powering/exponentiating being blocked by measurement
+620b768d58df232c9987f788e61e6544b400147c|2016-05-21|Craig Gidney|Pulled PoweringGates.js out of AllGates.js
+523b414bf19f1db9f01c2feb9b1ac7f07e325cc1|2016-05-21|Craig Gidney|Pulled ExponentiatingGates.js out of AllGates.js
+feca3119314c7f82027f2f431b492ba26e9e6845|2016-05-21|Craig Gidney|Pulled ArithmeticGates.js out of AllGates.js
+1071538493767037e14d057715d2f8127bd002ac|2016-05-21|Craig Gidney|Moved ui/Gates.js to gates/AllGates.js
+94f398839b93d25772a623c3709f583ee030ef8b|2016-05-21|Craig Gidney|Merge pull request #153 from Strilanc/dev
+31dd439de2bc3d42d6bc9ee01c95255ae32b23f0|2016-05-21|Craig Gidney|Optimizing Matrix.generate
+efb797b9bd48f2dc46deadade17e883b00fffc26|2016-05-21|Craig Gidney|Specifying gate properties instead of requiring a matrix - Improved worst part of load time - Allows making 16 qubit gates without hitting limits like memory or taking forever - Added effectMightPermutesStates/effectMightCreateSuperpositions/definitelyHasNoEffect to Gate - Added markedAsStable/markestAsOnlyPhasing/markedAsOnlyPermutingAndPhasing to Gate - Added withoutKnownMatrix/fromIdentity/fromVaryingMatrix/withKnownMatrixFunc to Gate - Added withKNownMatrix/fromKnownMatrix to Gate - Split Gate.matrixOrFunc into Gate._knownMatrix and Gate._knownMatrixFunc - All resizable gates no longer specify matrices for large sizes - increment/addition/fourier/gradient gates now go up to 16
+19c21ed9ca688ad7b7933bd91a261294be97ec56|2016-05-21|Craig Gidney|Merge pull request #152 from Strilanc/dev
+b0b1dea88e3c2188eacd7c987602963608d18da6|2016-05-21|Craig Gidney|Merge remote-tracking branch 'github/master' into dev
+bcfd50915b77a9066e34b0f41acc8af4eb63b376|2016-05-21|Craig Gidney|Toying with the false positive rate for 'incoherent' amplitudes
+66993755fe090bf0b8bc6771bd9cd10fad02bf32|2016-05-21|Craig Gidney|Fixed amplitude display flickering when other qubits were in a uniform superposition
+2af7eb2d5078e73167f1dde4789a246f6f7e5846|2016-05-21|Craig Gidney|Fixed tooltip of amplitude gate
+19998f3f3b7de6ceb5fe71e1d511669ffa45f050|2016-05-20|Craig Gidney|Showing favicon while loading
+777acfde5ece8b63812051b0e78910b83c8b54d2|2016-05-20|Craig Gidney|Merge pull request #151 from Strilanc/dev
+eb0ddc0911ffcfbcabbe248e13c6a6e20f6f8abe|2016-05-20|Craig Gidney|Moved more common gates closer to the circuit
+c8461d132d357d154271ddd46f31507b04316838|2016-05-20|Craig Gidney|Marked amplitude display tests as webgl tests
+be7d91c2779f5aeae3f2db5790e56dffd040c47a|2016-05-20|Craig Gidney|Fixed a broken test
+41291c4da3afd8cb80b4e8e40a397d3ad0574790|2016-05-20|Craig Gidney|Polishing drawing - Fixed operation matrices not showing their circles - Fixed drawing mag instead of squared mag of amplitudes - Adjusted scaling factors on log circles - Tweaked help text
+72c6b34df21c50a73bff4b894e7203065230e375|2016-05-20|Craig Gidney|Fixed chance gate appearing to get darker due to dividers covering too much area
+0ffca35425204965f0ae3a834aeb09f992b2943b|2016-05-20|Craig Gidney|Added log indicators to amplitude circles - Split several methods out of drawMatrix/drawDensityMatrix - Polished the transition from drawing to not drawing an amplitude circle
+14850540fd402a815be847fdf5bce61bd25ac883|2016-05-20|Craig Gidney|Polishing amplitude display - Showing un-oriented circles when incoherent - Showing 'incoherent'/'deferring measurement' messages - Normalizing ratios before checking for equality - Split paintMatrixTooltip out of paintMatrix
+db2e7e3535cba8509c757e794c5b927bb1e48a0d|2016-05-20|Craig Gidney|Initial implementation of Amplitudes display (still buggy) - Added 'keepResult' option to ShaderPipeline steps - Implemented the 7 (!) stage pipeline for getting a representative ket and determining if it's ruined by entanglement or not
+aed925dfc06bedc84981a277b1eb8d98b8070dbb|2016-05-17|Craig Gidney|Fading out gates being dragged off the bottom - Renamed inspector.circuitWidget to inspector.displayedCircuit
+3edc4dd22980ae507b2479245638f649b13a2469|2016-05-16|Craig Gidney|Fixed Bloch sphere tooltip using the wrong sign for X and Z
+8755c6b82f3ef7fa6b3e5abc01346e77d527ceb6|2016-05-16|Craig Gidney|Added conventions to doc
+cc34c1c6098c0678a9729f3a987b2cc83c45362c|2016-05-16|Craig Gidney|Merge pull request #138 from Strilanc/dev
+efc6bc050d01973d4281197432574906ddda5c9a|2016-05-16|Craig Gidney|Fixed row/col count of no-data density matrices
+ede2c608b2f564bd8e7bc9cee7f65cdb21c7b9c3|2016-05-16|Craig Gidney|Added 3,4,5 qubit density matrices - Added DensityMatrixDisplayFamily.js - Added parameters to customStats postProcessor func
+89f0f1e6609db41ea7ff46aa739cba5b16fc0c07|2016-05-15|Craig Gidney|Merge pull request #137 from Strilanc/dev
+2db5fb87357a47e0d84f9fb6fc41de6d747a6977|2016-05-15|Craig Gidney|Added SamplerGate - Added support for 'random but stable for a small period' values when drawing - Added RestartableRng - Added Config.SEMI_STABLE_RANDOM_VALUE_LIFETIME_MILLIS - main.js now keeps track of a semiStableRng - Painter now has an rng containing a RestartableRng instance
+cdc92c399820e48b050445c5fce12379a96814bc|2016-05-15|Craig Gidney|Moving ProbabilityDisplayFamily gates to their own file - Added 2-value tooltips - Added tooltip to MultiChance gate - Split MultiChance gate drawing into several methods - Added mag/phase to amplitude tooltips - Added x/y/z to bloch tooltips
+5138c53bb2db79f5b9d1c10ab753c2a1ca2aa5e1|2016-05-15|Craig Gidney|Polishing highlighting of display gates - Using a border instead of a highlight - Shifted resize tab down for gates with height 1 - Added GatePainting.makeDisplayDrawer - Reduced opacity of resize tab overlapping with a display gate - DensityMatrix display is now resizable
+76d9bfe53ea2dafa52ff2b2ae8e186f1b81cac86|2016-05-15|Craig Gidney|[Partial] Laying groundwork for adding more display gates without having to modify CircuitStats each time - Made the forecolor graph green a bit darker - Added customStatRowsInCol to CircuitDefinition - Added _customStatsProcessed/customStatsForSlot to CircuitStats - Added CircuitTextures.evaluatePipelineWithIntermediateCleanup - Added DisplayShaders.amplitudesToProbabilities - Added withCustomStatPipelineMaker/withCustomStatPostProcessor to Gate - Added cycleAllBits to GateShaders - Added ShaderPipeline class - Added customStats to GateDrawParams - Added multi-wire chance display
+1f64b36847b6170330c2141d4da87e0c8163d81d|2016-05-15|Craig Gidney|Added unstable cycle bits gate
+6d1d42df287d3da8b8a291e759f8b4e5d2d6e486|2016-05-14|Craig Gidney|Typo fix
+60285d64b2ac4112e7e5908395c60fc81d1846fd|2016-05-14|Craig Gidney|Added b+=a and b-=a gates
+6596e62312680f745e38982f612a7e5273267072|2016-05-14|Craig Gidney|Merge pull request #134 from Strilanc/dev
+a1806224366b32b8efb4f175fb0ecd1e0ebe451e|2016-05-14|Craig Gidney|Disabling gates when a control is placed inside them - As opposed to causing exceptions or garbage output - Also fixed 2x2 density matrix being disabled by partial measurement - Also made the disable messages a bit easier to read
+0c270a7f360993ff06c8703b967ab510aff8c6e2|2016-05-14|Craig Gidney|Optimizing min wire count methods
+f23fa81df39976dde74fd7b762678a9af6a9879c|2016-05-14|Craig Gidney|Polishing gate dragging - Clamping gate above the max wire limit until it gets pulled completely out of the circuit - Showing 'Max Wire' hint text - Not fading initial wires
+49fa93a2a947557dd917a7dac10c6aa23bc4b188|2016-05-14|Craig Gidney|Allowing large dragged gates to hang past edge of circuit when dropping - Not drawing multiple extra wires, so that it's still clear where the 'left circuit' boundary is - Drawing the single extra wire at 50% opacity - Added _extraWireStartIndex to DisplayedCircuit - Added empty to DisplayedCircuit
+4182da58b90de4d68729dfda1a3a28a40aa048d4|2016-05-14|Craig Gidney|Created a toolbox section for eighth turns and added 1/16 gates to Other X/Y/Z
+f58c716f2e5f6e64c6c1c443e83b2b38b6fe0a07|2016-05-14|Craig Gidney|Merge pull request #130 from Strilanc/dev
+fcc7888371f28596c3af4b9718a88b29e9fc432b|2016-05-14|Craig Gidney|Polishing drag behavior on mobile - Placing 'blocker divs' with touch-action=none over draggable content to avoid grab-cancel-scroll behavior - Drawing code now hints which things are draggable - Cursor hinting is now put on the touch blockers instead of calced during drawing - Fixed using 'move' cursor instead of 'pointer' cursor on circuit gates (which looked good on windows but terrible on linux where 'move' is an already-grabbing hand)
+96a832c68e549a3bc2bf282ba3566fd980b5804a|2016-05-14|Craig Gidney|Improving cycle animation of counting gates - Now looks like a staircase
+ae61a4c99e08e68ec01e7c9832eeecd2e8ddd5e1|2016-05-14|Craig Gidney|Replaced isTimeDependent/needsContinuousRedraw with stableDuration - Fixed fallback not being loaded before other modules load - CycleCircuitStats uses fewer buckets when stable duration is longer
+e2d12eb8700a3762ccb72531ade39dfd86fce9d3|2016-05-14|Craig Gidney|Added Gate.generateFamily and phase gradient gate - Used Gate.generateFamily for defining existing resizable gates - Added PHASE_GRADIENT_SHADER - Aded Gates.UncountingFamily - Added 'arithmetic' toolbox section
+97bdf64c9b19c9e969d88fbcda35e9bf32a33ac7|2016-05-07|Craig Gidney|Merge pull request #118 from Strilanc/dev
+ac697cbf07b04ad5d89f5bd3c96006b9c7530708|2016-05-07|Craig Gidney|Bumping package.json version
+8dcb81dd72896a8de231648a222638bf24424eb7|2016-05-07|Craig Gidney|Added iter/slice polyfills for some other array types
+a4ffb3957c76a96fa90fb96c921fa0d1dcc2d6a5|2016-05-07|Craig Gidney|Added performance.now polyfill
+9beeffd9904b7ff636dcf1e871e7e1115b646479|2016-05-07|Craig Gidney|Showing a 'loading' div, and also a noscript div
+5b38e90c9c46f54002ce653462b109b284d4ce89|2016-05-07|Craig Gidney|Avoided generating matrix when there's a custom shader specified
+5f6205ee4965e6c2268c0c65628439c3b586de9e|2016-05-07|Craig Gidney|counting -> Counting
+a790f7b05ae751908fc4be92b08124763526015b|2016-05-07|Craig Gidney|Merge pull request #117 from Strilanc/dev
+fe05c9f2e64f351983623659ae52a98ef06e7cdc|2016-05-07|Craig Gidney|Lowering error margin on drawing due to QFT having higher error
+b9372cafc848b339461a079e12ef1faad5f55ca9|2016-05-07|Craig Gidney|Fixing a precision issue with the float-to-byte encoding
+56226adfa8673256712201db0aa878d9232e8f45|2016-05-07|Craig Gidney|Fixed forwarding nulls from MouseWatcher into Hand, which wanted undefineds
+0a598cda6ffe820748ff60c70196dfb503ab5ced|2016-05-07|Craig Gidney|Fixing webgl issues w.r.t. Safari - Now reading from a byte texture instead of a float texture - Added polyfill to populate WebGlRenderingContext with properties that safari only gives to instances (?!)
+f614b472ce294734455c529e5f665ed8386d8f5d|2016-05-07|Craig Gidney|Fixed a couple incompatibilities with Internet Explorer - Added browser/Polyfill.js - Added polyfills for FloatArray32/64.slice/Symbol.iterator - Rounding results of Math.log2 even when the input is a power of 2 (...wat)
+34c0a60f1848f3e4fecaac7efe887d84bd10a94a|2016-05-07|Craig Gidney|Merge branch 'master' of git@github.com:Strilanc/Quantum-Circuit-Inspector.git into dev
+9c1c5ed9914aa284db8b9b6a5670f405e9eee118|2016-05-07|Craig Gidney|Toolbox tweaks
+edfb8d73babc23771ab56738a0f8e9934cf75d05|2016-05-07|Craig Gidney|Added Quantum Fourier Transform gate - Gates can now have a collection of shaders to apply - Gate shaders can now be time-sensitive - Added GateShaders.FOURIER_TRANSFORM_STEP_SHADER - Added Gates.FourierTransforms - Added Gates.Counting - Fixed matrix tooltips using replace instead of split/join - Fixed endian-ness of matrix tooltip kets
+6097ed50cca0c7f06f49c7b6d1506138a10a6f39|2016-05-07|Craig Gidney|Fixed gate borders being fuzzy when in hand
+874abe06c3e8db0127775092f9ada0973fd15a90|2016-05-07|Craig Gidney|Moved qubitOperation shader to GateShaders
+4f14c2a4649f9ccd905c713d698fe6ca06eef530|2016-05-07|Craig Gidney|Tracking hold offset when resizing gate
+6856e99311de6575e8d48e49cdab969bb7ab8001|2016-05-07|Craig Gidney|Fixed canvas not resizing when growing gate a lot
+9b474dbd25303eef99ebc0b1f1a92a32f20c080a|2016-05-07|Craig Gidney|Merge pull request #116 from Strilanc/dev
+8279f52d80996f7aae17092ca057934b6c94e3ca|2016-05-07|Craig Gidney|Cancelling 'no assertions' warning when skipping a webgl test
+9995996d3daed3a58abafa36d323b997ece3b565|2016-05-07|Craig Gidney|Warning about long-running tests
+233f722600a7918171d8e6ba0519149eec035e8b|2016-05-07|Craig Gidney|Implemented Matrix.singularValueDecomposition for non-2x2 matrices - Added Matrix._inline_rowScale/_inline_colScale - Added Matrix._clone - Added Matrix.lqDecomposition - Added Matrix._unordered_singularValueDecomposition_2x2 - Added Matrix._unordered_singularValueDecomposition_iterative
+5eb08878b29cdb61b73289f9fb8d74a66c8264e8|2016-05-07|Craig Gidney|Merge pull request #115 from Strilanc/dev
+989f1a9515814c8f46f7a7bde9b72092be3abdfc|2016-05-07|Craig Gidney|Added value tooltips to bloch sphere and chance displays
+7c867cf8518cab42d927c1a5bad41b69ec4b5755|2016-05-07|Craig Gidney|Added 'drag gates onto circuit' / 'watch outputs change' hints - Tweaked descriptions of H/X/Z gates - Underscoring some private methods
+c9e633794987030e3f499f9ff0b523aa2bf56993|2016-05-07|Craig Gidney|Some renaming of methods in DisplayedCircuit
+8fffa3136df141b519bdeb6c0bd304798a2d2d22|2016-05-07|Craig Gidney|Added DisplayedCircuit.test.js with an attempt at useful diagrams - Added Seq.stride - DisplayedCircuit.findWireAt now takes just a y-coordinate
+8cd47ee47d0a7b48d49e5ce32a090a6ea4677fbb|2016-05-07|Craig Gidney|A few test tweaks - Added 'no assertions' warning - Fixed not forwarding async test result - Cut bad WidgetPainter test
+7b6c46246e366224fcdccfd3adce3377b9633395|2016-05-07|Craig Gidney|Renamed GateFactory to GatePainting
+1af5e1cf76e6389ee1f639559d8a622dc3761fc7|2016-05-07|Craig Gidney|Fixed unhandled error fallback activating during tests
+2db1fb26be5331e24a888b8e1ee97a1e3d4eccf1|2016-05-07|Craig Gidney|Fixed DisplayedCircuit.compressedColumnIndex being mutated
+ce653a90ee7ea01d9a304ed79a413686d9f2220c|2016-05-07|Craig Gidney|Renamed CircuitDisplay to DisplayedCircuit
+90902161b8ff390ca297da714ca7febded882dd1|2016-05-07|Craig Gidney|Drawing resize tab a bit higher, overlapping with bottom of gate - Minor tweaks to the look
+1b3a147c45ed5952f6e1e3307e34f72b6a3b7fa7|2016-05-07|Craig Gidney|Fixed increment/dec gate mention specific number of qubits in their tooltip
+6b108ebed6d94ed22ae1f6393fcee282724cb6fa|2016-05-07|Craig Gidney|Pushing gates to the side when resizing over them
+12822a9fe146d81feb76d1e4b94d7d0b3fa3805a|2016-05-07|Craig Gidney|Error check in CircuitDisplay constructor
+0853a1682747653a92f4c6daef7c0043e2f4e471|2016-05-06|Craig Gidney|Slightly larger |0>s at circuit left
+6e05c79bc4124a9728fd83968dbffffb4427c104|2016-05-06|Craig Gidney|Only storing CircuitDisplay.top, instead of CircuitDisplay.area
+4ff26cbcce919b02c3475299a5d9cf3e84f230f9|2016-05-06|Craig Gidney|Renamed CircuitWidget to CircuitDisplay
+7bca69dcd080854cc01e493f57d11c51670daa49|2016-05-06|Craig Gidney|Merge branch 'master' of git@github.com:Strilanc/Quantum-Circuit-Inspector.git into dev
+9891f2f7284bac6a35f7432a1fe7e9465d537c5c|2016-05-06|Craig Gidney|[Large] Initial implementation of resiable gates - Added context-sensitive cursors - Added isShiftHeld to main - Replaced gate.canResize with gate.family - Added Gate.makeFamily, canChangeInSize, canIncreaseInSize, canDecreaseInSize - Added GateFactory.rectForResizeTab - Added default gate note of up-down-arrow when resizable - Increment/Decrement gates are now a family - Added resizingGateSlot, paintCursor to hand - Added desiredCursorStyle, setDesiredCursor to Painter - Added wireIndexAt to CircuitWidget - Passing shift-held down to circuit drawing level - Added _isHighlightedOrResizeTabShowingForGateInSlot to CircuitWidget - Split resize/drop variants out of previewDrop and tryGrab
+dd446a82314967d83469290a6be40ff903ba7156|2016-05-06|Craig Gidney|Merge branch 'dev' into dev2
+635a867e096ba93e630bb1bc67a05e39271ee47e|2016-05-05|Craig Gidney|Merge pull request #99 from Strilanc/dev
+7567d17040becd37a014d2ca53a7bc3c67669ae6|2016-05-05|Craig Gidney|WglUtil.checkGetErrorResult tweaks - Checking for 'constant missing' that showed up in https://github.com/Strilanc/Quirk/issues/98 - Hex error code
+ab5dcba27a69b0b0dc9120ba4f4bebaba93fd661|2016-05-05|Craig Gidney|Avoiding errors covering each other when they happen in bunches - Added 'identifier' to fallback/showErrorDiv (message + first part of location) - Unique identifiers are appended to the details data and (cleared on fade out) - Avoiding calling initializedWglContext() during module loading
+57e8276094258662522e7225b33666b1ae3656fb|2016-05-05|Craig Gidney|Adding resize tab HALF DONE
+c39d1040f2c333f5a04ade9de31154fbc2cff323|2016-05-05|Craig Gidney|Merge pull request #97 from Strilanc/dev
+4803368acb7406c0cb1ab5c2e770a8f8bf2c6318|2016-05-05|Craig Gidney|Disabled "don't make functions in a loop" check. - Too many false positives from seq flows
+9aa14d23fbfdb9438d5e4c4dd348b3ef8133e6e9|2016-05-05|Craig Gidney|Merge pull request #96 from Strilanc/dev
+3fd122fd1afc615fa4285a5ab70b77363f4c51b8|2016-05-05|Craig Gidney|Typo fix
+5e5c277afca2e57bb3f0239e97d05e59437c38fc|2016-05-05|Craig Gidney|Fixing ESLint warnings in Seq - Extracted empty-else-error-else-alt logic into a function - Extracted is-iterable logic - Suppressed false-positive for naturals' infinite loop
+15197e22ea64b1c3c48dc2635760be3d1e717095|2016-05-05|Craig Gidney|Merge branch 'master' of git@github.com:Strilanc/Quantum-Circuit-Inspector.git into dev
+45d0fbe8c1f7efd179a91284a7b0f9d54927e1da|2016-05-05|Craig Gidney|Some commenting in CircuitDefinition
+d922e8020b260cc637c21e84c62aa2298e5ff39d|2016-05-05|Craig Gidney|Merge pull request #95 from Strilanc/dev
+d7a89256599d2042d682a2f7c4569ba87d416a8e|2016-05-05|Craig Gidney|Unit testing CircuitDefinition - Added CircuitDefinition.fromTextDiagram to make the tests understandable - Fixed multi-wire gates being able to resuperpose measured qubits - Fixed a controlled swap of a coherent and measured qubit being allowed - Added Config.EMPTY_CIRCUIT_TITLE - Fixed minimumRequiredColCount not being able to return 0 - Renamed colHasPairedSwapGate to colHasEnabledSwapGate
+07f99cd1d3d5284c01a9c0bdad07fbdee1e3e761|2016-05-04|Craig Gidney|Minor cleanups in CircuitDefinition
+b43fa4325ffecfad276bc8e60cfe969640983e93|2016-05-04|Craig Gidney|Fixed number tooltips showing while dragging gates
+e050d444f7a4cf3a234daf6070881a401c526006|2016-05-04|Craig Gidney|Merge pull request #91 from Strilanc/dev
+a1b37a45977d29157e5583a34166b453632a90a2|2016-05-04|Craig Gidney|Added hover tooltips to matrix displays - Decreased higlight intensity of display gates - Added MathPainter.paintDeferredValueTooltip - Removed dead _shiftGateAhead in CircuitWidget
+dd1dcd340a1a5c3c697bcb82f0cc5481f6cb3874|2016-05-04|Craig Gidney|Moved widgets/MouseUtil to browser/MouseWatcher
+e42b6660055005f77eec1e3cc75e84c6f058f031|2016-05-03|Craig Gidney|Extracted most of updateCircuitLink into browser/HistoryPusher - Ensuring location.hash survives bad loads and partial loads - Trying to avoid overwriting un-hashed empty circuit URL a bit
+d01a44fc6b4673d548444b57f25e085011e35efa|2016-05-03|Craig Gidney|Unit tested Revision - Fixed redo cancelling in-progress work even when there was no state to advance to - Refactored Revision to be equatable
+7fc6e3f02c47f0ecc7346257c559678366108e4f|2016-05-03|Craig Gidney|doc README with basic actions
+6839bdd07782b017f493ae90ff0a30cf01fb058a|2016-05-03|Craig Gidney|Merge pull request #90 from Strilanc/dev
+649e920e179b21dfcbc538446c323fcf45afffc8|2016-05-03|Craig Gidney|Moved screenshots into doc/ - Also removed the dev missing-doc workaround from the repo
+852ffccad4a61bd1f5c7310f65c1efe61df3b3ff|2016-05-03|Craig Gidney|Merge pull request #89 from Strilanc/dev
+fd426a7c1e206c4682bef18eaa87f120959fddfa|2016-05-03|Craig Gidney|Using max-width/max-height instead of zoom for error images
+ffee35aff375a79af5173a3c3b451f4f695c3bcb|2016-05-03|Craig Gidney|Fixed an infinite back button loop caused by loading a circuit with a calculation failure
+bd70fb57fbf759604ca898df6deb702612a7ed76|2016-05-03|Craig Gidney|Standardized recovery messages to say the recovery method first, then the error
+c1d454bc9111eb9ea4c1a38fdc8fd2c6e35f65f1|2016-05-03|Craig Gidney|Added 'post-drawn' image to error output
+9a82b515aca5a754816473d10d81128bbfbaae4f|2016-05-03|Craig Gidney|Fixed original URL being trampled by history changes when the URL was malformed
+9539767cc0477c3ca77fa418a1ff7a4a9ba1b2fc|2016-05-03|Craig Gidney|Merge pull request #88 from Strilanc/dev
+38c4e302dcfb8d2dae8825f8b120e5ac575e9202|2016-05-03|Craig Gidney|Fixed getHashParameters being called outside of try when loading circuit
+462aa1bc40b1bd09b66045618b63ed349b156e5a|2016-05-03|Craig Gidney|Merge pull request #87 from Strilanc/dev
+df299a2022951878287587e0a1e47507ce9fa7c3|2016-05-03|Craig Gidney|Showing 'recovered from error' issue for parse failures - loadCircuitFromUrl now calls notifyAboutRecoveryFromUnexpectedError on error - Serializer.fromJson_Gate now calls notifyAboutRecoveryFromUnexpectedError on error - wantToPushStateIfDiffersFrom uses undefined instead of null for its empty value - Minor tweaks to how circuit hash is set - Error div now shows 'Recovered from Error' instead of 'An Error Happened' for errors that had a fallback
+0d8614d8fe84349f7eb28725ff2d63dca63d57ad|2016-05-03|Craig Gidney|Merge pull request #86 from Strilanc/dev
+d2545b44f549cc37d7c2833cbe48d6d271ff4342|2016-05-03|Craig Gidney|Always show extra wire when dragging
+9c41c570f92f5f812919228a05cb9b2c62d06df7|2016-05-03|Craig Gidney|Merge pull request #85 from Strilanc/dev
+d3061d246a07cfb683815cc43bd50e7a686965f5|2016-05-03|Craig Gidney|Showing a screenshot of what was drawn when an error occurs and refactoring some code - Tried including it as a data:png in the issue links, but it makes them so long that the browser refuses to open them correctly - Re-ordered canvas resizing to happen after the stats calculation (so that what's drawn hasn't been cleared) - Encapsulated state into getCircuitCycleTime method, instead of using file-scoped values in main - Extracted desiredCanvasSize - Fixed syncArea using a smaller size than the actual canvas size (this might fix some drag bugs) - Fixed unexpected error including fewer browser details - Using hyphenated-ids for all error elements
+d7a27706885991083821b4501b370eca5cf02828|2016-05-03|Craig Gidney|Using undefined instead of null in CycleCircuitStats - Also defending against negative times
+2242ddea7743c1b8134c3ac4752c7d58b54baf27|2016-05-03|Craig Gidney|Error Injection gate for debuggin
+97d6c1f128b18757e8cd04a3956479e5bd8e942a|2016-05-02|Craig Gidney|Merge pull request #80 from Strilanc/dev
+13d84e1320b73de62dda92b2132edd834a7a997c|2016-05-02|Craig Gidney|Merge branch 'master' of git@github.com:Strilanc/Quantum-Circuit-Inspector.git into dev
+af3c81510eadd193636255d4b95af45c4f716b26|2016-05-02|Craig Gidney|Tweaked empty-circuit title
+16fb73c2c427e1cc7ec443c25e721ffb1e792ad3|2016-05-02|Craig Gidney|[neglig]
+c39fe279ebbe7ad5135df7166d67cba28a2a53b5|2016-05-02|Craig Gidney|Merge pull request #79 from Strilanc/dev
+887f91f2c53f13504401bb43eff86ed353407033|2016-05-02|Craig Gidney|Fixing several == instead ===
+783d246b22b931b56c75bdbbe4a7d9f44cdf5726|2016-05-02|Craig Gidney|Merge pull request #78 from Strilanc/dev
+dfd349891489da8c9961638f837d744e2a5e46b6|2016-05-02|Craig Gidney|Code climate yml
+c8c7d77f6e52853950f146b1e37d016b9da34501|2016-05-02|Craig Gidney|Merge pull request #77 from Strilanc/dev
+6296eb852a0176d390c4901077a08aedd77329b8|2016-05-02|Craig Gidney|Cutting cyclomatic complexity in Matrix some more
+b43000e2752a54119654b80e8b6f0bf403c1a30e|2016-05-02|Craig Gidney|Merge pull request #76 from Strilanc/dev
+8325720226ad8499fe76cbb1e77d16fbe634542e|2016-05-02|Craig Gidney|Cutting cyclomatic complexity in Matrix
+b815119ae1ec093d099f540ee511af9c31dab4cd|2016-05-02|Craig Gidney|Merge branch 'master' of git@github.com:Strilanc/Quantum-Circuit-Inspector.git into dev
+439385c3a7d1c740990053318ee0c35d68a8ce63|2016-05-02|Craig Gidney|Reducing code duplication in Gates - Also fixed == instead of ===
+a593999068443eee6d2bd112652aa091f4d79212|2016-05-02|Craig Gidney|Update README.md
+11cd9c919a915e3733ed4e4474434d51b549659a|2016-05-02|Craig Gidney|Update README.md
+1beb013dfaa29e89bc7a111cba4770c243b5dbb1|2016-05-02|Craig Gidney|Merge pull request #75 from Strilanc/dev
+4063baf90d9cf7ff45b87e7cc38a6d320af7789a|2016-05-02|Craig Gidney|Added .eslintrc to gitignore
+bbf7b0fca55824c9badda00be1f1bc02855eb366|2016-05-02|Craig Gidney|Doctypes in Revision
+ebbf79a2771d769128cbea73c9be9798e52f0430|2016-05-02|Craig Gidney|Removing unnecessary semi-colons after class methods
+3939342718109aeb8b1989c49707f66f1d35c9e8|2016-05-02|Craig Gidney|tensorPower via repeated squaring
+9fb69f3f94e5b49f18c3a975bf2c6ec0e0d132f7|2016-05-02|Craig Gidney|Added CodeClimate badge to README
+c181eba2170d299ecfedb08cdb67f8c1fcdc1d5f|2016-05-01|Craig Gidney|Update README.md
+9f3311cb76eb59ba45fe6bb7012d2cf0ec1dd398|2016-05-01|Craig Gidney|Update README.md
+ca02957aadfb77d781d18e62baacebe74d5e7035|2016-05-01|Craig Gidney|Update README.md
+af1477f4ea0723cc15d1a09e703a32040cffea56|2016-04-30|Craig Gidney|Merge pull request #72 from Strilanc/dev
+45ccb23ec40475e352e327e8a14e169d0b69e5de|2016-04-30|Craig Gidney|Unnecessarily bumping package.json version
+a93dc10cc9e62c175476fe5001cf4dee9a6c05a1|2016-04-30|Craig Gidney|Merge branch 'master' of git@github.com:Strilanc/Quantum-Circuit-Inspector.git into dev
+aef001210ab541f1832c05540d341080fbe04609|2016-04-30|Craig Gidney|Circuit now expands to be large enough to hold the gate being dragged
+467bad5e31d56190b512827d0cb3969d23f458ee|2016-04-30|Craig Gidney|Fixed increment/decrement gates being reversed and not being shown - Added Matrix.hasNaN and fixed several matrix funcs failing on NaNs - Using NaN in the gate matrix to indicate 'can't be represented that way'
+dc264c220891e9fbd4ac42e878c62f6efc0811b1|2016-04-30|Craig Gidney|Update README.md
+2b39818e4a0d7f02b14f393f7f8f1d1738b1b95a|2016-04-30|Craig Gidney|Merge pull request #67 from Strilanc/dev
+9831f238d2cffb26fbf0b0afe1559d8759dfa01b|2016-04-30|Craig Gidney|Added About link, and allowed reshowing of repeated but faded error messages
+23221deb4656813b080407d68b34eaa2f4720a6c|2016-04-30|Craig Gidney|After error div fades away, old errors can reshow
+9f2a0ff2715ac3db4671e03bcbc6d12bd351967e|2016-04-30|Craig Gidney|Fading out the 'an error happened' div as the user changes the circuit and no more errors occur
+bce806651e0b18be37f3ba3dd5651fec5dcb2198|2016-04-30|Craig Gidney|Merge pull request #64 from Strilanc/dev
+affdd5d12fd9266c40936d6087bac40d9c9c56b6|2016-04-30|Craig Gidney|Renamed 'Separators' to 'Probes'
+3159a8bd23d4baa77416860018e489a4906ffc30|2016-04-30|Craig Gidney|Automatically fixing overlapping gates - Not throwing away spacer columns only covered by the right side of a wide gate - A gate that is overlapped from above, in the same column, is pushed rightward (and unpushed controls are copied) - A gate that is overlapped from the sides causes its whole column to push rightward
+bd6a12e9fe4d674f2862802c2ca7f9a090d727fb|2016-04-30|Craig Gidney|Caching gate coverage and improving drag highlighting - Added _computeGateSlotCoverMap to CircuitDefinition - gateAtLoc -> gateInSlot in CircuitDefinition - Added findGateCoveringSlot to CircuitDefinition - findGateOverlapping -> isSlotRectCoveredByGateInSameColumn - Added _highlightedSlot to CircuitWidget - Extracted drawWires from paint in CircuitWidget
+1224e7413fb14d73ebc693688abdce1e8051ff07|2016-04-30|Craig Gidney|Improving ui behavior w.r.t. large gates. Also some refactoring. - CircuitWidget.findContinuousColumnX is now guaranteed to return a result - CircuitWidget.findExistingOpColumnAt now returns undefined instead of null - CircuitWidget.findWireAt now returns undefined instead of null - CircuitWidget.findOpHalfColumnAt now returns undefined instead of null - CircuitWidget.findModificationIndex now returns undefined instead of null - CircuitDefinition.gateAtLoc now returns undefined instead of null - Util.CUSTOM_IS_EQUAL_TO_EQUALITY now handled undefined - Hand now uses undefined to signal lack of value - Hand now holds a single gate with an offset - Added Point.minus - Added several missing type annotations - Added Hand.needsContinuousRedraw - Preventing drags that overlap the end of the circuit - Added findGateOverlapping to CircuitDefinition - Added findGateOverlappingPos to CircuitWidget
+ae2eeca66b0b7da60edcd4957cc6de2d753b2921|2016-04-30|Craig Gidney|CircuitWidget delegating importantWireCount to circuitDefinition.minimumRequiredWireCount
+5a0b92ae52b19e0c45781329e0c3c0afaf08fc79|2016-04-30|Craig Gidney|Extracted scatterAndDecohereDensities/decohereMeasuredBitsInDensityMatrix in CircuitStats
+385f8af8d7d4e9cf6dba8f270ad9466d691bc188|2016-04-29|Craig Gidney|Added increment gates up to size 8, but not in toolbox - Renamed measurement/control section 'Separators' - 1-qubit density has a note now
+707d5358aeb31626bf3a1bd0e101143861a1cc49|2016-04-27|Craig Gidney|Merge pull request #61 from Strilanc/dev
+26764c18a9df317baec8d47ae64a6e069312c730|2016-04-27|Craig Gidney|Merge branch 'master' of git@github.com:Strilanc/Quantum-Circuit-Inspector.git into dev
+46fedf6924d1f90211132f844b6c1b9306c9e410|2016-04-27|Craig Gidney|Adding increment gates and slightly more large-gate UI functionality - Gates with width/height > 1 now draw as physically larger - Introduced GateShaders.js - Added Seq.toFloat32Array - (Still not pushing gates out of the way, and clicks miss outside the normal 1x1 box) - Not drawing 'notes' when gate isn't in toolbox or highlighted - Added Inc2/Inc3/Inc4/Dec2/Dec3/Dec4 gates - Added some missing return annotations in Seq
+6c1b48851d083b42db77ad96d4fb91238af00202|2016-04-25|Craig Gidney|Fixed trying to remove a canvas that was never added in WglContext
+aec01bb1aa762fd75590727fe98df91fcb1d9924|2016-04-25|Craig Gidney|Added width/height properties to Gate - Added minimumRequiredWireCount method to GateColumn/CircuitDefinition
+c33842efdea904cecc00f1e8953fdb603cbeeb49|2016-04-24|Craig Gidney|Fixed error div add blank height to the page when not visible
+c15b86b46a3a537f649f117c099b8fe3ada8ba12|2016-04-24|Craig Gidney|Merge pull request #60 from Strilanc/dev
+de789204f3fc54f964a12990a86880ce2a07d1f9|2016-04-24|Craig Gidney|Better error reporting and fallback - CircuitStats logs calculation errors and falls back to NaN - Added errorDiv that's shown when an unexpected error happens - Includes mailto: and submit-issue-to-github links - CircuitDefinition.toString accounts for width of gate representations - Fixed main.js preventing drag-selection of text
+a144641f4928e93e38b69881e624b74acf95abdf|2016-04-24|Craig Gidney|Added CircuitStats.fallbackForCircuit - Hardened qubit[Pair]DensityMatrix against unusual state arrays
+974ceb4c58eb3b7a348feabcad45f927478f9d0e|2016-04-24|Craig Gidney|Fixed not being able to hit measured qubits with controlled Z or controlled post-selection - Added isDiagonal to Matrix - KarmaTestRunner logs exception details
+0186cf32fa7a479784085402e505ccb134b1416e|2016-04-20|Craig Gidney|Update package.json: renamed github repository
+7d42da830a2ccd120bd311dd56b2541719d6e16d|2016-04-20|Craig Gidney|Tweaked clock pulse gates animation - Edges of the gate are now the 'current value' for the graph, instead of the center - Filling down to the bottom, instead of cutting off
+0a364018caf9a296360b0c20c5099a0443f31479|2016-04-20|Craig Gidney|Merge branch 'master' of git@github.com:Strilanc/Quantum-Circuit-Inspector.git into dev
+ef38627c2195207c1e7ca8faef494ecfaee6a3cd|2016-04-20|Craig Gidney|Noting that Quirk is a circuit simulator at the start of the README
+7aade110c05fb95abaee6652dfbea08839e1566c|2016-04-20|Craig Gidney|Updating README to reflect renamed github project
+8d5f8e5d5b6684535017b4fdc2c91eecee6994da|2016-04-19|Craig Gidney|Implementing eigenvalueMagnitudes - Added Seq.order/Seq.orderBy - Added optional epsilon parameter to isIdentity - Fixed Format.abbreviateFloat not snapping to 0
+36d5002222acad4fc37e0dfb988b41306fdb8ac9|2016-04-19|Craig Gidney|Implementing QR decomposition - Optimized Matrix.identity - Added Matrix.isUpperTriangular - Added Matrix._inline_colMix_postMultiply - Added Matrix._inline_rowMix_preMultiply - Added Matrix.qrDecomposition - Removed Matrix.fromTargetRotation
+5b425196c504dbf0b77a53021b9ce25342224edb|2016-04-19|Craig Gidney|Float32Array -> Float64Array in Matrix
+447b5c33b2945cd597a6241de8b8e0a1c2ac4bbc|2016-04-19|Craig Gidney|Restoring globalAlpha instead of overwriting it
+316b48c097097b698d9d3138ef1312a0e855dc29|2016-04-19|Craig Gidney|Optimizing Matrix.adjoint
+451a73c647c06ac15760c27076eca9a0c1d642b8|2016-04-19|Craig Gidney|Optimized Matrix.tensorProduct
+372e0f22fd1edb71feae1501c3366e56aeb3fbb9|2016-04-19|Craig Gidney|Optimizing _timesMatrix
+05425203188f9730552bffaa2cdee9e793d4d591|2016-04-19|Craig Gidney|Merged Matrix.scaledBy into Matrix.times
+21a10763d953eb8dbd2cd51154cc5abeb963717a|2016-04-19|Craig Gidney|Using requestAnimationFrame instead of setTimeout - Avoids doing wasted work when not the focused tab - Also const-ified several values
+62a01d4503bce0716c513cca27f9dbd1f83c8e1d|2016-04-08|Craig Gidney|Misc - Added context restore redraw trigger - Inlined WglContext.useRawDataTextureIn - Renamed WglArg.rawTexture to webGlTexture
+1051c1186b05933571d726d5ac00f4e65745b39f|2016-04-07|Craig Gidney|Added 'test-travis' config
+2f755bc90d4350363f7c41153b26b0da9484e5bf|2016-04-07|Craig Gidney|Fixed readPixels not checking for empty texture
+e9c49729af21319bb46c7d2f14e7d19c888d377f|2016-04-07|Craig Gidney|Initial work on 2x2 density matrix display - Added specialized shader and unpacker methods - Rearranged gates in toolbox - Added Gate - Added 'note via \n' to paintGateSymbol
+437c7e57a36924f14bcd705b28f7981287c229c4|2016-04-07|Craig Gidney|Allowing empty textures
+93d7ec84352ebc902831071627c63505216ef41e|2016-04-05|Craig Gidney|Drawing 'NaN' when matrices contain a NaN
+7f004d04e32859311cf0c75451bfd4abeb663dcb|2016-04-05|Craig Gidney|Merge pull request #57 from Strilanc/dev
+e94a82e9504b62073af9092dc0f7e8dd6e5500d1|2016-04-05|Craig Gidney|More README tweaks.
+1312a1eacb62c64f28f257eb9cfceeb2868109e7|2016-04-05|Craig Gidney|Merge pull request #56 from Strilanc/dev
+f8b69ef23941dfbe5846ec7eef645b0619a81cb3|2016-04-05|Craig Gidney|Tweaking ReadMe
+1205b1e32b2742967246381d2f1224604354da77|2016-04-05|Craig Gidney|Merge pull request #55 from Strilanc/dev
+a802bf6df121f5c6321899614c109d3d28d7959b|2016-04-05|Craig Gidney|Bumped package versions - The path issue in grunt-traceur is now fixed!
+864b551548feed4061a77c89a26b556511057f9f|2016-04-05|Craig Gidney|Added a favicon
+840e3ee499b04be187f68f510d33fa59018899e6|2016-04-04|Craig Gidney|Performing operations before computing intermediate marginal states - Post-selection happens before displays in the same column - Kind of an arbitrary choice, but it does make post-selection act more like a control
+8df32ed3b9b6b38be24d84339709ea824224bed7|2016-04-04|Craig Gidney|Fixed serializer round-trip test
+6dc62da4fb8fa1c7e09437875d3dc64c9f9b173e|2016-04-04|Craig Gidney|Bumped version past 1.0
+bb0fc8f20602aee06a0a437041aa5f988111a020|2016-04-04|Craig Gidney|Gate-related refactorings - Gate now has serializedId, customShader, and customDrawer members - Gate now has withTag/CustomShader/SerializedId/CustomDrawer methods - Gate constructor no longer takes drawer and tag - Renamed Gates.Silly to Gates.Misc - Serializer now uses gate.serializedId (defaults to symbol) - Refactored gate constructors to use new 'with' methods - Added hidden Universal Not gate. - Checking for custom shader before showing gate matrix in tooltip - Refactored singleQubitOperationsInColAt into operationShadersInColAt - Swaps and single-qubit ops now both handled by operationShadersInColAt
+81f4b03381c65266f06f2b898bad047af1bd1b0e|2016-04-03|Craig Gidney|Added build-debug to gruntfile
+408df4b96a33d3b2587a3cb028da9b33dd271b54|2016-03-30|Craig Gidney|Merge pull request #43 from Strilanc/dev
+afc356404e776488081828e045adabd765c749a2|2016-03-30|Craig Gidney|Added limitations and "try it" to readme
+0f86848693c7ddf12ae4b63d99e1af2eb82bd25a|2016-03-30|Craig Gidney|Merge pull request #42 from Strilanc/dev
+053b41b8b04afdf2d40d1fb4dae4102909605dc4|2016-03-30|Craig Gidney|Switched to using url hash instead of params
+17db803878ee34aa3570863efa14a45bd12a3903|2016-03-30|Craig Gidney|Merge pull request #41 from Strilanc/dev
+d3c28522a9d52f931ec1bdb14804acb5f0ed09f6|2016-03-30|Craig Gidney|Adding an uglify step to cut js size from ~500Kib to ~250KiB
+805f7e0266fdc0253ba2dd789f7cb7c49413a62b|2016-03-30|Craig Gidney|Gate tweaks - The fuzz gate is now the Mystery Gate (symbol: ?) - Changed the casing of some gate variable names - Renamed isApproximatelyUnitary to isUnitary
+e2db3cfc5e2ed92cfa8625e1d00d2106fa8fc932|2016-03-30|Craig Gidney|Showing transparent overlay when dragging display gates
+debd6075e7034a991ca248accf66130245ba57fb|2016-03-30|Craig Gidney|Fixed the first circuit computation returning sporadic NaNs - Turns out it's a bad idea to read from textures with undefined contents
+a9cf93b9afd81d8c04116331b11cbcdeaa718568|2016-03-30|Craig Gidney|Falling back to anchor when history updates aren't allowed
+6596551d9c1906c21b3ee371df7d61ea0d1770d7|2016-03-30|Craig Gidney|Minor tweaks in WglShader
+6568da39760bbcdcb95852138cbc85320e7b51fa|2016-03-30|Craig Gidney|Fixed test fail by properMod
+bde2f9608d08c7f8d1260b87de5ce9798800c4ed|2016-03-29|Craig Gidney|Detecting when WglTexture instances returned to the pool are re-used
+f1984bc993175eb5a30687256f26e1a9a4718745|2016-03-29|Craig Gidney|Renamed some things in CircuitTexture
+935039c840f29c3e63951875ec2292cc78f85a60|2016-03-29|Craig Gidney|Some gate tweaks - Added OtherX and OtherY - Split CYCLE_DRAWER into clockwise/mathwise variants - Cycle draw now starts at the bottom, matching the -Z positition of the bloch sphere - Added Util.properMod
+f85659e8bf893f291fa3ae01c0f67b68572086bf|2016-03-29|Craig Gidney|Simplified _powerSum into _sumDown
+c858dbccb58addc8cb9366e4e2e13e60e9bd0b35|2016-03-29|Craig Gidney|Testing keptBitMask part of qubitDensities
+e5fa781a824e36f04be154dbdf18fec7dce6b004|2016-03-29|Craig Gidney|Cleaning up - Renamed Controls.fromBitIs to Controls.bit - Added Matrix.zero - Cleaning up tests in CircuitShaders.test
+3ddc296aa062607ee6424900665005a16fd839b5|2016-03-29|Craig Gidney|Deleted CircuitShaders.squaredMagnitude
+782ec30b036d02eeaabe49edba3dcf3c6d91bd49|2016-03-29|Craig Gidney|Using Complex constants more
+4ccbd338a0bded35bbe60113193b95aa411daa91|2016-03-29|Craig Gidney|Added Matrix.solo
+546ee91f773ba6db8a8759060706e7448464fe37|2016-03-29|Craig Gidney|Matrix.col now takes a rest parameter
+f180b7919a8af216de9b66800505ea17a265c0da|2016-03-29|Craig Gidney|Matrix.row now takes a rest parameter
+d1bdc5bd80b2d088a621136935706bea1210f884|2016-03-29|Craig Gidney|Matrix.square now takes a rest parameter
+33772bd427676f05543d694fdeb94f5377284eb5|2016-03-25|Craig Gidney|Update GruntFile.js
+550a82df5249eb26c3bcc2cba49c0133f40e9a9a|2016-03-25|Craig Gidney|Added test-chrome to gruntfile
+e14eb733ddf78dcb5d2ae87899931ba56ee033d7|2016-03-25|Craig Gidney|build_src -> build-src in package.json
+6519e2aae6266989e2cc811904d8046008532adf|2016-03-25|Craig Gidney|Merge pull request #39 from Strilanc/dev
+1582eaabd0a81978e6cd0a42c1d3e48973c6560e|2016-03-25|Craig Gidney|Readme tweaks
+368b5f5338be3a5611f9e036d1f9b37dd26c9046|2016-03-25|Craig Gidney|Merge pull request #38 from Strilanc/dev
+cb16f403320d8e8506c179f85b45f77784762bf3|2016-03-25|Craig Gidney|Fixed readme image link
+8c04535fccfb5487d8522a9dfb82248050f884fc|2016-03-25|Craig Gidney|Merge pull request #37 from Strilanc/dev
+76cd40d3f1fe3bc7fd8d7c0d546524f75b8ffce2|2016-03-25|Craig Gidney|Merge branch 'master' of git@github.com:Strilanc/Quantum-Circuit-Inspector.git into dev
+954974ff16bc9baa5ac8233c66cb8f079d4f776b|2016-03-25|Craig Gidney|Fancy screenies
+ada2586fca3b6eec650bc87a3b5f281d565d4066|2016-03-25|Craig Gidney|Hackily getting intermediate states to compute
+be917834f42a0e9ca072d104a622343246a3ec6a|2016-03-25|Craig Gidney|Returning NaN instead of 0.5 for unknown chances
+49717dc6c26200d87efa33264f50db6ecb15a2dc|2016-03-25|Craig Gidney|Test force
+4e089aa03c069004a0bad1c2b60174ec6027e2da|2016-03-25|Craig Gidney|Allow no-op measurements to be controlled
+73136cb3e5299b594c369dc2843d1e17b771e62b|2016-03-25|Craig Gidney|renderQubitOperation -> qubitOperation
+47f3b0eb5ca258638a91227e1247243b1370e0b8|2016-03-24|Craig Gidney|Improved measurement propagation - Swap gates now work between mixed measured/non-measured wires - Swap gates involving a measured wire no longer allowed to have a coherent control - Uncontrolled post-selection gates now recohere wires - Moved some col-related property computation to GateColumn - Now caching measured/disabled-reasons up front in constructor
+6852c8d5bc642462ca37b240b12310321b1e15a0|2016-03-24|Craig Gidney|Merge pull request #34 from Strilanc/Strilanc-patch-1
+8c52f115adc1956918c420f6f2aceaa3e3a1714c|2016-03-24|Craig Gidney|Avoiding grunt cli install in travis.yml
+011c3e69058ca98c4f7a61757b202d0ad4b444ab|2016-03-24|Craig Gidney|Deleted renderConditionalProbabilities (and other old probability aggregation shaders)
+11962339daf8d0f148a8c26f2a598f0476d3b3e5|2016-03-24|Craig Gidney|Handling bad things happening while describing a DetailedError
+535beeaf145636179b6ae09ef5ac428512c2bd7c|2016-03-24|Craig Gidney|Controls.merge -> Controls.and
+09fde856dbd67e61cf53b89b016eaf1a589ad5e7|2016-03-24|Craig Gidney|CircuitShaders.swap now returns a ConfiguredShader into of doing the render
+675cb8bb72876b865de6678af572bf8c48826a27|2016-03-24|Craig Gidney|Using DetailedError in a couple places
+6c05cf45365e34364174c9c25bc01483b47b233c|2016-03-24|Craig Gidney|Added DetailedError class
+f70f0ad06fe836f705f8a8184c9a8aba4d65e544|2016-03-24|Craig Gidney|Deleted CircuitShaders.renderSuperpositionToDensityMatrix (will-be-obsolete)
+d855ddbf1e2f96715ebdc974e1113f4b9e1e8a4a|2016-03-24|Craig Gidney|Negligible polish in pixelsToDensityMatrices
+f1e2c53ff786f20b4d9ecf029cdde132bfd956af|2016-03-24|Craig Gidney|Warning when texture allocation goes out of control
+96a96a10583573acaea6ec29b110edb40bbe4ca9|2016-03-24|Craig Gidney|_ -> - in grunt commands
+5f9f9da02aeffd99da90ef2dea5764afbb29e3d0|2016-03-24|Craig Gidney|SuperTex -> CircuitTextures
+0e8c00e4cd179db2a5abbeb68c89f1a63054de3f|2016-03-24|Craig Gidney|Moved remaining pipeline files into circuit folder - pipeline/QuantumShaders -> circuit/CircuitShaders - pipeline/SuperTex -> circuit/SuperTex
+635955bb1c75b774a67863c6037827b282e3c94e|2016-03-24|Craig Gidney|Controls.NO_CONTROLS -> NONE
+d22ec9279e835db17310a66d4b5a4ffaa10daadd|2016-03-24|Craig Gidney|QuantumControlMask -> Controls
+28c1866ca1bebc5d12780d26baa51d0e5ebe0e83|2016-03-24|Craig Gidney|Fixed import paths in Shaders.test and tweaked a doc string
+a26abc277526152d4164d8a2e3e2ae7ab8b723a5|2016-03-24|Craig Gidney|Deleted overlay shader (unused)
+4012dce4965d912b2cb0c26af4aba6183b0ed8c6|2016-03-24|Craig Gidney|Commenting out circuit stats tests while rebuilding
+259373a72d0c0ed07798590e630e66aeb7e20285|2016-03-24|Craig Gidney|Moved pipieline/SimpleShaders to webgl/Shaders
+377a7d574ae673d635a00895686f5ddd0b85568c|2016-03-24|Craig Gidney|Rewriting and optimizing circuit compute pipeline - Removed PipelineNode/SuperpositionNode - Added SuperTex utility class - Fixed matrix values having their imaginary component inverted when drawing - Draw time for 12 qubits dropped from ~90ms to ~50ms - Now just need to climb back out of the tub
+31b15270bc99157ea45ada78e7dbeffdf6597c2a|2016-03-24|Craig Gidney|temp
+70470e93867e1793a4f5aa2e7885ff3e66743ed1|2016-03-24|Craig Gidney|Added QuantumShaders.allQubitDensities
+ddd388ae119dc3bb295ea2b682df419ab5afff30|2016-03-24|Craig Gidney|Graceful degradation of superposition drawing
+b14555ef89d8b4bae7a5d889c954e546b1759b8e|2016-03-24|Craig Gidney|Fixed cooldown throttle failing to reset when its action failed
+30388583fbd3c16c83631bf6cddfc4635c035d9c|2016-03-23|Craig Gidney|Added SimpleShaders.sumFold
+09e269162eb37cecf1a785a7a522df60ed1022aa|2016-03-23|Craig Gidney|Refactored controlSelect shader to avoid separate x/y merging
+cf2dc235fc97a7a6001aedce2ed448dcfda49eb0|2016-03-23|Craig Gidney|Added QuantumShaders.controlSelect
+915596a4cf8bb2c97f2bd66f7a4d6fa92cb330bd|2016-03-23|Craig Gidney|SimpleShaders.test cleanup
+d46e16322145b95603b5c534b977e36e330c12d3|2016-03-23|Craig Gidney|Cleaning up QuantumShader tests a bit
+96b5e7ba21923920c715c8619df0c0aef4bb02ef|2016-03-23|Craig Gidney|Added WglConfiguredShader, SimpleShaders.coords, Util.numberOfSetBits - MortalValue now has ensureDeinitialized
+2fe6f361f670e1097d82b114c7d691483234a3e6|2016-03-23|Craig Gidney|Re-arranging gates code - Split Gates.Displays out of Gates.Special - Moved HalfTurns higher in the file - Renaming quarter-turn gates
+0794155baf7667dab5eea17b7bc3103cf3115d01|2016-03-23|Craig Gidney|Gates.Named. -> Gates.
+c443049c5302d6efc7b15410eda2b5fe3927910e|2016-03-22|Craig Gidney|Merge pull request #33 from Strilanc/dev
+239152022889c1de987e0e8b22c4e169a8b06ce6|2016-03-22|Craig Gidney|Polishing readableHash and document title
+58d338723c45a3aa729d489f9a2df823b7f5c833|2016-03-22|Craig Gidney|Update README.md
+b7ca114899764b6c57e056dc80da40a466129a77|2016-03-22|Craig Gidney|Merge pull request #32 from Strilanc/dev
+8ae6a7990ea87237bc80c09816e92e5d1b263724|2016-03-22|Craig Gidney|Bumped node_js version used by travis
+236a372ba2f5e4e06a183ee68cfe3563d403ab34|2016-03-22|Craig Gidney|The inspector now has a name: "Quirk"
+f6db209c47f4df3a8db73a5531bd273cd36da7b1|2016-03-22|Craig Gidney|Merge branch 'master' of git@github.com:Strilanc/Quantum-Circuit-Inspector.git into dev
+c5335fe6ccfb1abd4b5ff0f527d841bec32882d5|2016-03-22|Craig Gidney|Fixed name of SimpleShaders' test suite
+80b87cb5446e2cbad46b19627ee91d15ea61f256|2016-03-22|Craig Gidney|Fixed recohere-detection giving a false positive on display gates
+f29b584d5db86b2a3a84ad05ce6282b304e39375|2016-03-22|Craig Gidney|Updated readme to include build status
+aceff321af12d05b5767dd9f5f4401740c3786c8|2016-03-22|Craig Gidney|Merge pull request #31 from Strilanc/dev
+a72893916b8e1b6a5159552696c1aa8bbca4e8ce|2016-03-22|Craig Gidney|Not marking Seq._iterable as private because of false-positive warnings
+0667ba738db01ffe0ef93a558136c0a83699b072|2016-03-22|Craig Gidney|Seq now inlines its Symbol.iterator - This might have some minor perf impact, but mostly it makes traces more readable
+23ab1ce65c0d966a8a6d3098469903d224f766f9|2016-03-22|Craig Gidney|More optimizations - asRenormalizedAmplitudes no longer looks at known-to-be-zero entries - optimizing and caching gateAtLocIsDisabledReason - added Matrix.isPhasedPermutation
+30d4c228ed3d1b59e89eaacd801d513efb0a51ce|2016-03-22|Craig Gidney|Lowered tolerance on unitarity check for toolbox (evolving gates weren't passing it due to 32-bit precision)
+b248bc044be65b3b86bfdcec2d61dc0029999614|2016-03-22|Craig Gidney|Moved arrowHead to Tracer, renamed polygonCoords to polygon, unboxed ellipse
+8b2a26380fa356c50b95a87b84107c6280929820|2016-03-22|Craig Gidney|Unboxing Tracer.line/rect/circle - Also removed redundant trace methods in Painter
+b6aef59b6e93ba16a52d3046a93051fb9e7aa4d7|2016-03-22|Craig Gidney|Merge pull request #30 from Strilanc/dev
+e076594a1841422fffe95fc82b0cad7568d8e8cf|2016-03-22|Craig Gidney|Fixed density matrix fill area being squared
+4871245086053aaa9ac941eef693b288365adc03|2016-03-22|Craig Gidney|Removing "^" from the readable hash, because it's usually inferrable from context
+f7086233a1694f139f4b340fea58e694d5583c0b|2016-03-22|Craig Gidney|Avoiding boxing in renderQubitOperation
+85a88847f02fcb4235a169b2ce7e6ec549f89692|2016-03-22|Craig Gidney|Avoiding equality comparison against identity matrix in singleQubitOperationsInColAt
+cd02f5912220480d6bc1f802a39d880659eb0a36|2016-03-22|Craig Gidney|Optimizing functiosn used to compute time-based gate matrices
+1a538a8c6b704c5d736f5ddae5ef8eadb9ddca51|2016-03-22|Craig Gidney|Fixed not cutting amplitudes down when showing additional wire
+ff7ba5287e896874d8b785dc6b2fa579c8c34372|2016-03-22|Craig Gidney|Avoiding boxing of complex values from final superposition
+46ebb70864b81af223e04093a0dfc62129cea6c3|2016-03-22|Craig Gidney|Rewrote CooldownThrottle
+5d81eb1b3d65f6fcac1ec50331ebec04190369ef|2016-03-22|Craig Gidney|Optimizing and polishing gate drawing - No longer highlighting non-unitary gates (was costing 10s of % of draw time to do the check) - Using print instead of printParagraph - Dropped '+'s from gate symbols - Better positioning of base^exp terms
+fc4f5403532ac853faf6e9754354e8ae946836f2|2016-03-22|Craig Gidney|Optimizing the printing of superposition labels
+85099552d9c714035a38c08824f659061ba0cce8|2016-03-22|Craig Gidney|Batching canvas stroke/fill calls - Added Tracer class in an attempt to eventually reduce strokeStyle/fillStyle args - Added line/circle/etc actions to Tracer - Moved ellipse and grid actions to Tracer - Removed MathPainter.paintAmplitudes - Optimized paintMatrix and paintDensityMatrix with heavy batching - Added minimum length to phase lines - Added rawBuffer method to Matrix
+b91066f8a8100bb776ad0156af975393cd03f573|2016-03-21|Craig Gidney|Doc: matrix trace and determinant are related to its eigenvalues
+db50de46b89c5e4d37d3750cb11ccbad8daf81fc|2016-03-21|Craig Gidney|Optimizing the redraw loop - Added config option to avoid calls to gl.getError on hot path (easy x2 saving) - Sharing control masks between operations in the same column - Matrix.qubitDensityMatrixToBlochVector now does significantly less boxing - Added Matrix.isApproximatelyHermitian - Optimized Matrix.trace to avoid boxing - Matrix.qubitDensityMatrixToBlochVector was taking 3.5% of the redraw time, now takes <0.1%
+1338bb9de4dcebe75e58b132e9e655a46654b8a2|2016-03-21|Craig Gidney|Using UNSIGNED_BYTE textures for control masks
+d30624d5bf20adc90098b1c44ce68cb568f517c5|2016-03-21|Craig Gidney|Setting viewport when rendering, instead of using large canvas
+9a2c0be35f10181e1559d8e645b17e8d5a747d3d|2016-03-21|Craig Gidney|Merge pull request #26 from Strilanc/dev
+f728c2231c1beaabbe88d90855be6b96a18eb957|2016-03-21|Craig Gidney|Reducing context canvas size to increase performance (???), and adding safety check
+656b56277cc715a3e369a820eae77fbad96d8082|2016-03-21|Craig Gidney|Extracted fallback from main
+677ac8cfe3a1d4e6217e1da9e118975bad55f36d|2016-03-21|Craig Gidney|Merged controlMask shader pipeline into a single shader - Caught an issue where a small canvas prevents larger textures from being rendered
+0420e2c1076c23a359714719a7b18a3a793df964|2016-03-20|Craig Gidney|Added SimpleShaders.passthrough
+7d6d124f852932d761a5a553b1b215abe8c17cef|2016-03-20|Craig Gidney|Moved float-to-byte packing to SimpleShaders
+e686b475ac27e81a06a37a77c8e26080066ad365|2016-03-20|Craig Gidney|Moving quantum shader constants next to the functions using them
+04b7c2b6dabdc6e64a2b87c36884bfc656de7884|2016-03-20|Craig Gidney|QuantumShaders methods now assigned outside of the class
+78816592b02c43178abf51e8f7c6cba1dd4ae0e6|2016-03-20|Craig Gidney|Extracting some of the shaders in QuantumShaders to SimpleShaders
+e45aa2b013fcb00d831f5559b594884fb0d96d97|2016-03-20|Craig Gidney|Changing QuantumShaders to return a renderTo instead of take action (#3)
+d0f15ac91fef789c20476be0d01f5adc1a3a3313|2016-03-20|Craig Gidney|Changing QuantumShaders to return a renderTo instead of take action (#2)
+2a0830f51cafa2544a63e9e095f55a924183d838|2016-03-20|Craig Gidney|Changing QuantumShaders to return a renderTo instead of take action (#1)
+a086848a9fb4c9a6ff376473dd17f18efe3bb1e0|2016-03-20|Craig Gidney|Made WglContext implicit for WglShader - Rendering is now done by shader.withArgs(...).renderTo(texture)
+df6026d1b517b75633ab7a23ba20cc880d755bd7|2016-03-20|Craig Gidney|Making WglContext more implicit - WglMortalValueSlot's initializer no longer takes the context - WglArg action map moved to WglArg - Renamed WglShaderContext to WglCompiledShader
+2181524321c0adaf317a763bed437f367aad96af|2016-03-20|Craig Gidney|Made WglContext implicit for WglTexture and moved readPixels there
+542f01b939fd42e8d7587e089a3cbcfa75a99972|2016-03-20|Craig Gidney|Cleanup: minor doc changes
+a30fc4e870905fdd6d9bd1a6665f0658ed878dcc|2016-03-20|Craig Gidney|Unwrapped WglUtil
+1bf03ba499cf0706c71da282fa7136376d6ee11e|2016-03-20|Craig Gidney|Folded WglDirector into WglContext - WglContext.js now exports initializedWglContext instead of the class - webGlTest now forwards a WglContext to the test - Using ctx instead of director everywhere
+22c64f5dbb764f39148d460dd1a09a74cbf3f1a2|2016-03-20|Craig Gidney|Folded WglDirectorSharedContext into WglContext
+53dfee205967ef9b5114893d24751b8ad7b1008e|2016-03-20|Craig Gidney|Renamed WglCache to WglContext - Moved ensureAttributesAreBound to WglDirector
+072f8238f02b795c376a0ee9d2dfda9eac195c38|2016-03-20|Craig Gidney|Extracted WglMortalValueSlot from WglCache - WglCache no longer has a permanentIdentifier, since only one was ever created - Renamed 'temporaryIdentifier' to 'lifetimeCounter' - "stashes" replaced by WglMortalValueSlot - WglMortalValueSlot handles initialization
+96a38193e7b6e6252d71ac156be84aa00aebb920|2016-03-20|Craig Gidney|Cleanup: removing dead noinspection annotations
+04aa6e12b20178956241af5933327655ffc8c217|2016-03-20|Craig Gidney|Cleanup: renaming webGlRenderingContext variables to 'gl' or 'GL'
+826a3b8037a85aa3f5a8b128626cdb2b999f8503|2016-03-20|Craig Gidney|Cleanup: var stomping
+d75f5a9551bdb1b15f825b3265564d95de4dac16|2016-03-20|Craig Gidney|Cleanup: deleting dead test classes
+90bf1450b2c82bc6dcacc0f240fd3064791596bc|2016-03-20|Craig Gidney|Cleanup: renaming webGlRenderingContext to just gl in WglCache
+2c2ded2af5015abd009f4fccd2e226c6fb3cae48|2016-03-20|Craig Gidney|Added Mat4 arg and added tests for WglArg
+a21e6a88d183aa6bede5f2f81a05296940f1abdc|2016-03-19|Craig Gidney|Avoiding draws during loading
+07f0b0a20804d26c065179f84612cc8968c5acee|2016-03-18|Craig Gidney|Float->byte->read->byte->float support
+03e93412b647171b33a5be5778b93e5564aa8847|2016-03-18|Craig Gidney|Fixed test failure caused by wrong texture pixel type
+1a1acdd9e13b28992603935844dc2998c2626aad|2016-03-18|Craig Gidney|Fixed formatting in readme
+09d6064048aefea0968ea939189d85fa220e071f|2016-03-18|Craig Gidney|Merge pull request #25 from Strilanc/dev
+1ed1c3b7a2537a184e5b91a370ae9c99c50c1983|2016-03-18|Craig Gidney|Formatting in readme
+250fc3581889fcc24a8c295db226652315261d20|2016-03-18|Craig Gidney|Merge pull request #24 from Strilanc/dev
+b741dee8809bf3ef80f9f6a9da8e2b55f7e868a0|2016-03-18|Craig Gidney|Using latest firefox version for travis ci testing
+e2f2ff5afcf42371ba4783e39850725e6c7e321a|2016-03-18|Craig Gidney|Updating dependencies and package - Also updated readme and the names of test commands - Using new versions of traceur, with different get-dependencies hack
+5e8d1f04346391bef270cf75dea753ab35fe8571|2016-03-17|Craig Gidney|Apache License 2.0
+a3bd1537bb374860bb615003df139a627b5fedbe|2016-03-16|Craig Gidney|Merge pull request #23 from Strilanc/dev
+793767270c7e3f79e8df667d29aacfd23ebccf61|2016-03-16|Craig Gidney|Building and running instructions
+babfc197ba3815eca39fa4affdb317d0e34846fa|2016-03-16|Craig Gidney|Merge branch 'master' of git@github.com:Strilanc/Quantum-Circuit-Inspector.git
+8ebfb9a11c291475f8aa96e05cc2ce263e65742c|2016-03-16|Craig Gidney|Updating README - Dropped per-folder readme's (they were wrong anyways)
+e0c302485a6d75c5c2e9d5357b583fd76bacaf0a|2016-03-15|Craig Gidney|Fixed dependence on implemented-defined consistent-ordering of Object.keys
+acdfbebc6e7f810e445266701dea7f5b18f36a0d|2016-03-15|Craig Gidney|Tweaking amplitude display - Avoids resizing when the extra 'you can add a gate' wire is shown during drags - Removed the hack where extra space comes from the inspector widget instead of the circuit widget - Fixed circuit widget basing wire spacing off of the draw area height instead of the configured wire spacing - Grouping wires by partition instead of de-interleaveing again
+03504d1447036e864191d812d11fb756bc5f7671|2016-03-15|Craig Gidney|Tweaking paint code some more - Color hints related to operations are now in yellow - Fixed a bug preventing interacting with the circuit before clicking the toolbox - Simplified some of the drawing code (extracting methods, etc) - Removed some commented code - Removed some dead config constants
+032d65c25227bb5c9fd26afd41f5b4d46a6d1fa9|2016-03-14|Craig Gidney|Accounting for e^{-iHT} having a - sign when describing "forward"/"backward" rotations - Reversed angles for matrix-to-Bloch-rotation methods - Adjusted tooltips in Gates - Removed engation in MathPainter (so that's why that was needed...) - Adjusted tests
+6dc431b7ce97c07d14513c36eb3e3efa1fe3d18a|2016-03-14|Craig Gidney|- "doesn't affect x" no longer shows in time-based gate hints
+d0b1ee270cbd557d007fcfbcf688fe61d1d47d24|2016-03-14|Craig Gidney|Replaced wire labels with just |0>
+6b2b215aa24141829bdbef21bf04d777420fa13f|2016-03-14|Craig Gidney|Some extra testing of complex exponentiation
+9a8ef83b185c3c157d64aaaa5318a755d69a6085|2016-03-11|Craig Gidney|Polishing display of final amplitudes - Removed dead code related to tensor product controlling - Added row/col labels - Colored differently from density matrices - Showing 'what is this?' labels on the default displays
+4802f5fcdd81eb255c7c4197399fb483db24daef|2016-03-10|Craig Gidney|Polishing gate tool tips - Merged gate details into gate blurb - (tag-along) fixed matrix-to-angle sometimes failing to clamp the angle - Dropped GateFactory.fromPhaseRotation/fromPauliRotation - Shortened all the gate blurbs - Added text describing the bloch and matrix diagrams in the tips - Fixed disagreement between bloch sphere state display and rotation display - Removed dashed lines around display gates
+8e4e0cc5a5ee551b5ea3c632caa71a7b0dbf7379|2016-03-10|Craig Gidney|Fixed qubitOperationToAngleAxisRotation, added fromAngleAxisPhaseRotation - Added some randomized testing because the code was tricky to get right - Added withInfo to TestUtil - Tweaking painting of rotation blochs
+2a7f7fe8e5092d1074c790da09858d442b6c2fc4|2016-03-10|Craig Gidney|Added Complex.polar, fixed Complex.rootsOfQuadratic degenerate case, added Util.snappedCosSin
+6a11eb2e961f02b56e30677e4466f4966d67617d|2016-03-10|Craig Gidney|Suppressed GLSL partial derivative warning
+1a31a70963afad549a10ea9b63bad2cdb83cb040|2016-03-09|Craig Gidney|Added drawing of block sphere rotation to tooltips - Added Matrix.cross3 - Added paintBlochSphereRotation - Added Painter.strokePath
+4af015958afec2ae98773f170afdd863468ecdc9|2016-03-08|Craig Gidney|Added Matrix.determinant and Matrix.qubitOperationToAngleAxisRotation
+e316389e4ee1bd4ad842be91e6f6514a1fbcd521|2016-03-08|Craig Gidney|Added filterWithIndex
+b8821874b2b53596dc2d102619f0d115f2ca0cb3|2016-03-08|Craig Gidney|Fixed Complex.parse not working on numbers like 1E+10
+c53aabfc50f6f373bc3a55437bbdbe2fddb16701|2016-03-08|Craig Gidney|Modifying overall layout - The final state display is now inline with the circuit - The canvas now expands horizontally to accomodate long circuits - Config-ified the power of density matrices to display - Config-ified wire spacing and min canvas height
+56f607b34155413dfb7a9421dbd55cd051336dc7|2016-03-07|Craig Gidney|Dropping off-diagonal entries due to measurement was cleaning NaNs
+02e9b6c6f883aaaae4d2cf6ba4b4c472f3f867ac|2016-03-07|Craig Gidney|Generalized the determination of if a gate can be applied to a measured bit without recohering it
+425ea7541212e142707a0a268e318e12eaac5a3c|2016-03-07|Craig Gidney|Added density matrix display gate - Refactored circuit stats density matrix getting method - Still not returning intermediate density matrices properly
+8ec8d81b4fc7d0edf8c2d162f26f528aaf7acc0a|2016-03-07|Craig Gidney|Merged output density matrix calculations of various lengths
+f061c5e43bacdede529f230a5832eda614a04bdc|2016-03-07|Craig Gidney|Added utility method to convert/rebuild object from array - Used the method to clean up the fromCircuitAtTime mess
+2f9348c02010436956bdf72b3f4fc05ab122c258|2016-03-06|Craig Gidney|Showing decohered mixed states for measurements
+58d421230721112a027897bf3ffa3af027ed7dd4|2016-03-06|Craig Gidney|Replaced 'tomography' gate with Bloch Sphere Gate - Currently just showing the probability - Renamed 'Peek' gate to 'Chance' gate - Properly showing NaN in bloch sphere display
+64de2c954f578b1637ed0fcedace758a352ba5d1|2016-03-06|Craig Gidney|Drawing bloch sphere representation of qubits
+1dd7c97668491ef4c8b97a146730402c96968652|2016-03-05|Craig Gidney|Adding 2-qubit density matrices to right-hand view - Added half offset to cached times to visual flicker due to zeroes - densityMatrixForWires now supports multiple wires
+68814dcad3b065cf41bb6e70f0fb19ab8f3df106|2016-03-05|Craig Gidney|Drawing density matrix more fancily
+117e8cffd253adbb7e0c3dab4e7923666b616f57|2016-03-05|Craig Gidney|Falling to NaN when denominator gets suspicious
+ce0d53a7bd45762267a82a313c2756d7b0d94e2f|2016-03-05|Craig Gidney|Tweaking gate looks - Adjusted square wave drawing - Post-selection gates now show as ket-bras - Added post-select-off gate
+4b44dc0c760c4f8cd68510033280bb07975ecc70|2016-03-03|Craig Gidney|Getting single-qubit density matrices to render after the circuit
+92dd5a81978c614d72206cd7b09a92c0e642cdc6|2016-03-03|Craig Gidney|Fixed missing null check in gateAtLocIsDisabledReason
+d0388934caa38e15f91f11399e75886e1f1ecdec|2016-03-03|Craig Gidney|Handling errors more gracefully - Drawing an error message (instead of alerting) - Bad gates (in circuit json) don't block the whole circuit from loading - Detecting disallowed gate matrices
+e7d09fd7c7b044268b083c85b357af548569432a|2016-03-03|Craig Gidney|Tweaking gate descriptions and drawing - Dashed lines around display gates - Shortened several descriptions - Added square wave drawing to discrete-clock-X gates
+341fa2629da87c6578c3c7852698544cc08ba18c|2016-03-03|Craig Gidney|Initial work on extracting density matrices
+647a5e9fbd759647dc3e7b93e58c99c1299a7d94|2016-01-22|Craig Gidney|Max texture size applies to diameter, not area
+beac1bf4ac98d951dc98d9dfbe09bce57ca39b1d|2016-01-05|Craig Gidney|Quarter phase clock is allowed after measurement
+886a6364131b6f0f3cbe4449a815d4e7347e4756|2016-01-05|Craig Gidney|Removed RESET and VOID gates (!Select subsumes them), added clock+1/4 gate.
+c0a7f408df1205ce43e5a82f440263f3a5e19e75|2016-01-05|Craig Gidney|Drawing right-hand peek gates just past right-most gate instead of all the way at the end
+48b302e5f992a03420b464678c7668b2672f934c|2016-01-05|Craig Gidney|Fixed crash due to TouchEvent not being defined in firefox
+8ae5127da3a51b5bc3597a689ac42f108f9e6a39|2016-01-05|Craig Gidney|Fixed redraw throttle occassionally failing to trigger without re-calling
+6f2738294a451022bf56232443df4c8d5eb9a979|2016-01-05|Craig Gidney|Switched from anchor element to updating url inline - Also extracted mouse drag stuff into MouseUtil
+9bc91930fdb2de9cb4896ccf987697b46bece742|2016-01-05|Craig Gidney|Throttling redraws to not happen at more than 60Hz, to avoid swamping.
+338bee755ede05d24b7103413c549b6a36506a9f|2016-01-05|Craig Gidney|Fixed time-ind circuit being computed at zero leaking into exposed stats
+adf128f3a40be2366b905c00886b35eec74e91ba|2016-01-03|Craig Gidney|Fixed circuit time not advancing when dragging gates around
+0ef5283c32c7deb56ec947e0b14fa5be23dba0db|2016-01-03|Craig Gidney|Caching results of gate time cycle, to avoid burning CPU forever
+24bd25ed9a7b09e94246369427391203a11783d0|2016-01-03|Craig Gidney|More noticeable gate cycle animation
+82477482909eb89454e6443beba2e17675f879ff|2015-12-20|Craig Gidney|Clock pulse gate
+97fd680b14f6d58976e832307c0ef1a88dcbecd1|2015-12-20|Craig Gidney|Removing some dead code
+ebdb59ce4f75b433b752d647fed9dfe8f08a6131|2015-12-20|Craig Gidney|Bumping max size to 12
+159942a547f4d0a9febfa6b32525f3b45228689e|2015-12-20|Craig Gidney|Small tweaks in main
+537b0f71eac27e5c23e2e068aa5959958a56a793|2015-12-20|Craig Gidney|Avoiding rendering pixels not used to compute probabilities out of probability pipeline
+4311db2f6cc222ba4064cff65e1e061f29dda3bb|2015-12-19|Craig Gidney|Fixed probability computation to be after instead of before column
+efaa90f60de1a566229174b7b9ac8b3ec6b3f8a2|2015-12-19|Craig Gidney|Controlled measures considered an error instead of ignored
+8f02f982ef33187423589c15e456afd979d70c27|2015-12-19|Craig Gidney|Fixed right-hand peek gates showing ON when last gate was a control - Including identifying index when assertThat fails - Split CircuitStats.probability into conditional/unconditional variants
+968555ec068b346e289557b5635bf0d824ceb62a|2015-12-19|Craig Gidney|Fixed undo not working the first time after touching a gate without moving it
+93cabbaeda4d4327fddb7e6cef7bab29ad4181da|2015-12-19|Craig Gidney|Tweaking config
+1d6542c287abcddfda38997755b7ee3e21307025|2015-12-19|Craig Gidney|Fixing some warnings and removing some dead code
+069c543b61ae0ae53ae36c2457ed414620f02341|2015-12-19|Craig Gidney|Optimizing Matrix to use a Float64Buffer
+4300d705e05a33775df3c120d72df62932f84a0e|2015-12-18|Craig Gidney|Fixed allowing quantum-controlled post-selection on classical bits, and not tidying up when middle-clicking
+53f9e59e19481a190ba889611d7f7abb8510391e|2015-12-18|Craig Gidney|Highlighting control/X/H to guide new users to them - Also fixed a wire-added-when-clicking-nothing bug
+659717540b1f41e9f20774ffec74982e5e0540c4|2015-12-18|Craig Gidney|Removed 'wires' from serialized circuit - Also moved circuit link to top and change it visually when circuit changes
+6d4e7eec95bedd6bca48d0a18fc70d6a9077fcf2|2015-12-18|Craig Gidney|Adding a wire when dragging gates, removing unused wires when dropping gates
+075ed765019771ca853e38d849edfa9dbedccbc8|2015-12-18|Craig Gidney|Highlighting peek gate with green
+9a9fc146ee7bbecb8b2af72a8f9964b4dcb220ed|2015-12-17|Craig Gidney|Generalized which gates are allowed after a measurement to include any 2x2 diagonal or anti-diagonal
+1cecb1d63db7737d5dcd4ad5d3843bece4126ee6|2015-12-17|Craig Gidney|Disabling gates instead of removing them when violating measure rules - Shows case-by-case error text - Swaps use the same disabled code now - Moved lots of gate-column-detail code into CircuitDefinition - Half-turns now allowed on measured bits, as long as no unmeasured controls - CNOT now draws single/double line as appropriate - Added 'State' gate (still just does same thing as Peek though)
+2a2d114066a090d96167917a28cf0bcf5cff1b28|2015-12-03|Craig Gidney|Tweaking gate tooltips
+1552e926f424496862225f8a1db3c8d306f9e363|2015-12-03|Craig Gidney|Added some left margin to the toolbox, to avoid the side of the screen when touching
+fd8c62e89193c70fab211c4a025eae84cd3ed7c2|2015-12-03|Craig Gidney|Ensuring drop releases pointer
+5f82dde4fce928bb58096f2c92b3ca959a020272|2015-12-03|Craig Gidney|Fixed undoing breaking the drop action releasing the pointer
+1cd9f17837af3163e9d2f17b4918ca6c653f6334|2015-12-03|Craig Gidney|Not drawing control wires to measurement gates
+47d1632f37797a041195ab46e6233093431f9b50|2015-12-03|Craig Gidney|Merge pull request #22 from Strilanc/Strilanc-patch-1
+366f50ae054a5c37e21e4441af6f7dcf5b0ee188|2015-12-03|Craig Gidney|Showing tooltip when holding a gate over itself in the toolbox, so touch users can see it at some point - Of course the finger tends to obscure it... hmm.
+422ead3133d9a02e6c219551821a106255c71ab7|2015-12-03|Craig Gidney|Fixed jittery motion when dragging gates around - Also fixed touch scroll blocking
+b256124d61bee668bc52028dc24adee43094da52|2015-12-03|Craig Gidney|Working with touch events - Holding shift when grabbing a gate duplicates it
+c0231e7e51108443a41a573353ccb787f5a596e8|2015-12-03|Craig Gidney|Not keeping swap gate parts fused when moving them
+c6c96fe018f380b0721eb85e3f249efa4418dbfb|2015-12-03|Craig Gidney|Fixing drawing of peek gate and toolbox gate borders being fuzzy
+0feb19dabc8488a8b57b873b930045cd8acc87c1|2015-12-02|Craig Gidney|Fuzzing rootsOfQuadratic
+d79c2a97b3fb7e5515c684772c5b12d587d8aa32|2015-12-02|Craig Gidney|Added Spacer gate
+34246c07c82f31d2d348a1349b532ac422f7ffcf|2015-12-02|Craig Gidney|Added measurement gate - Really more of a 'no more operations allowed' gate - Drawing measured wires and measured controls as double-lines - Fixing old bugs in control-wire drawing code - Added Seq.skipWhile - Added CircuitDefinition.wireMeasuredColumns - Added Pinater.fillArrowHead
+38a58e73dd2e04342d71df106466a8cd6f9bd653|2015-12-01|Craig Gidney|Fixed tests expecting exact results from evolving gates
+9499ff13543658a6092e5fa2aaa95387626bcf62|2015-12-01|Craig Gidney|Computing evolving gates using eigendecomposition instead of special cases - Added sqrts, exp, ln, raisedTo, and rootsOfQuadratic to Complex - Added eigenDecomposition and liftApply to Matrix
+8d0e39606c22c2c830e92aa005c0b22f86a132cd|2015-12-01|Craig Gidney|Auto-resizing, dropping targeted rotations
+4044a78571bdd86404b409bccf7938ead37accdd|2015-12-01|Craig Gidney|var -> let
+9106757ce4458bad14987d3abe5d91f994d46ca8|2015-11-28|Craig Gidney|Tweaking gate tooltips
+c49442d8f2b4015a8f3ee52978d67701fbc911f7|2015-11-28|Craig Gidney|Tweaking build process
+51ab63928d3b7c2d6f915b5fb35dee22fd449011|2015-11-28|Craig Gidney|Merge branch 'dev' of git@github.com:Strilanc/Quantum-Circuit-Inspector.git into dev
+d3f7575a505cebfb920a8e3e61ae1f1654ac82ba|2015-11-28|Craig Gidney|Peek gates working again
+0394f3cf4ecb624af989c641a28f55d52a66992b|2015-11-28|Craig Gidney|Switching to M^t and e^M symbols for gates
+a41f50133e0158f6589a0508d74095debf874a16|2015-09-26|Craig Gidney|Update .travis.yml
+a046d91dcc787bb9aa9e0af499263abc16bb0b90|2015-07-29|Craig Gidney|Fixed control-based aggregation causing final probabilities to be reversed based on controls in last column
+80bce3f71e243b72ad7f5853f48e301694a6324d|2015-07-29|Craig Gidney|Renormalization - Amplitudes rescaled to 100% before showing (only matters when non-unitary gates are present) - Silly gates cut down to post-selection, reset, void (and fuzz) - Amplitude painting method handles nan and infinites - WglDirectors shared behind-the-scenes canvas now (fixes a resource exhaustion issue that was causing tests to fail) - Added renderScaled quantum shader (not sure if it will end up used, though...)
+03b810c4dd5b69c28f75cd8c045c65175d9c63e3|2015-07-25|Craig Gidney|Splitting some types into a circuit directory - (Not well separated yet...)
+206bcf323e1a9bad8a2ecaba0c8dd3ff6c4b397a|2015-07-25|Craig Gidney|Using CircuitStats + ?pos instead of time + ?CircuitContext to draw gates
+19c16020ad2975e00a4d7e732421f28a15c049fc|2015-07-25|Craig Gidney|Renamed 'quantum' directory to 'pipeline' - Also some commenting and naming tweaks - Removed commented out and obsolete util/quantum_x tests
+066d0d29ba462ee6df8aef31829d5e5fdd5ee9e9|2015-07-25|Craig Gidney|Minor re-arranging of structure, readme's for sub-src folders, removed sliceRectFromFlattenedArray
+1019448702f6a7c0b96f24c1a228a570b1c3e282|2015-07-25|Craig Gidney|Re-enabling undo/redo functionality
+b99066ab770f731093e10318d8310e22504fecd8|2015-07-25|Craig Gidney|Computing stats once at the top level, and passing it down
+98811f859b274e17cef82cf8e17368992f1b67d5|2015-07-23|Craig Gidney|Merge pull request #11 from Strilanc/es6
+824ca96eabc8078f2af3bf33250591d33717463c|2015-07-23|Craig Gidney|Using linear range packing instead of 2d bin packing for combining textures
+3b07d5551f78a73ba80097b3eca92cfb63d940f5|2015-07-22|Craig Gidney|Added renderLinearOverlay
+09ca90e69cf3036039fe0ead41d3be0af5a658c2|2015-07-22|Craig Gidney|Dropping lots of gui tests
+6601a272eb44ad3e2ab4cdf2f7fdb1b878f72e8c|2015-07-05|Craig Gidney|Drawing CNOT gates correctly
+8b22a167632cb13da76c29eec9a14ed6cedf4b5d|2015-07-05|Craig Gidney|Moving gates around; drawing final state
+8a2b22f67eceb27a0a6d7cb06f1d27f21b15c90f|2015-07-05|Craig Gidney|Dropping gates onto the circuit
+d8320bf683179be800b53d2c64b9d0db6b6741aa|2015-04-24|Craig Gidney|Traceur version bump
+b28bbf3e4729c8ecb4904caf1e923063baa9a359|2015-04-24|Craig Gidney|Prefix stripping fixed
+7f39b504ab683c9da80d536699fbf87a5b781a2a|2015-04-24|Craig Gidney|Inspections
+1c6727476f93f26c154446c0df6d3437372e8582|2015-04-24|Craig Gidney|Bits of functionality coming back
+51867b577b78b2d69768a86d05f210a9813d2c48|2015-03-21|Craig Gidney|Getting the toolbox to draw again
+f5cbd18d6142ddf9bea8e327f762c6d2081e0aa6|2015-03-21|Craig Gidney|Matrix tooltip, toolbox painting start
+2eb1d2ec0988e34cb97feada2f41e9f23e837bd9|2015-03-19|Craig Gidney|SwapOperation, GateColumn
+632fb6738fc374f2cbfda4d64be1a736e0e5eb7f|2015-03-18|Craig Gidney|paintGateTooltip
+b0123f4de70b4f549eb2cef180f6249908f47efe|2015-03-18|Craig Gidney|Serializer start
+64d58a45270b76869be1e94e296df2e5471c8fc5|2015-03-17|Craig Gidney|printLine/printParagraph, Gates
+95cfb40afd8f5516d998b7584c405a16f3f61bda|2015-03-15|Craig Gidney|Removed printText/printCenteredText (replaced by print)
+01aa1ac579c233a514e41a330e721168fdf9e58f|2015-03-15|Craig Gidney|Painter.print
+1c455b2cc751586a5b079f21321c2d481379348c|2015-03-13|Craig Gidney|Some renaming, tested MathPainter
+53a380bdce6bb1224e92fd0cfb39ca2a18e1e1e3|2015-03-13|Craig Gidney|Testing paintConditionalProbabilityBox
+0216f06e68eff8b236f890e70e94ca2acfae6064|2015-03-09|Craig Gidney|Much tolerance.
+88a47d885f97ba7af3a5d17f572f6ca8549eb400|2015-03-09|Craig Gidney|Increasing tolerance on text-related image tests
+453eff85773a2d684b468250227bee037e75aefb|2015-03-09|Craig Gidney|Testing rest of basic Painter
+d4105cbff17fef3cfaf8e44ab3270d787730c6bc|2015-03-08|Craig Gidney|Oh, it's the casing.
+9a2ad50a5adf6f5a1167e320b9ab3380fa9ad275|2015-03-08|Craig Gidney|Is Config too es6-ish to trigure traceur?
+39e7899f4bdc237e32a546e232a573e7c2881a33|2015-03-08|Craig Gidney|Is it Config?
+d0637f0b4724d1c60f378dfebe367777f99bb359|2015-03-08|Craig Gidney|Is it the image test?
+3516f63498f48164d382f1558858bf0f777abdbd|2015-03-08|Craig Gidney|Is it the path?
+8552ab5194ac81ab22e1fbf568e74ec9f28c257c|2015-03-08|Craig Gidney|Temporarily commenting out Painter to debug travis issue
+c1477ad86526b8c929a836d94b773a09be7a7238|2015-03-08|Craig Gidney|Tolerating error in image comparisons due to browser differences
+3c11a974e964e8fc89eeee6d6e5b576fc7a7feaa|2015-03-08|Craig Gidney|Adding image tests, supporting async promise tests
+b295c3992350848417dfed600f0f36d782729560|2015-03-08|Craig Gidney|Doing under-comment translation to es6 for most remaining classes
+294075b040c47fcc4d88f651c7d373c91ee11160|2015-03-08|Craig Gidney|Suppressing/fixing some warnings
+87b3ca4c7babbfb8e96d1ed6d2547c9985b68c7a|2015-03-08|Craig Gidney|Concatenaing output files together, cleaning intermediate output files
+06d51a3d30aadca086050cc9ec61fa29e2a0551a|2015-03-07|Craig Gidney|Forcing travis firefox version makes a few warn_only's unnecessary
+2c834565e20870b66ef4ab433ac24f40c289e5bb|2015-03-07|Craig Gidney|Attempting to force more recent version of firefox in travis
+8f0652ea4d612c44d729cb0caa9b7fd59c33ff30|2015-03-07|Craig Gidney|Uping traceur version
+3d293d2a76726cf882d41fedaf998009fd8cd9a5|2015-03-07|Craig Gidney|Bits of profiling to get a 10 qubit circuit eveluated at two points at ~20Hz
+665c32e3c38883ab9829c072dd2f6bb8a1e3b6ae|2015-03-07|Craig Gidney|mergedReadFloats
+bf53e5b101adb09a38ada36ea0fd44c7e39968a4|2015-03-07|Craig Gidney|Renamed PipelineTexture to SuperpositionNode and moved the cleanup method from a group compute parameter to a node member
+9d7563c242fb49bc3073d26201db5c03c6e09cc1|2015-03-07|Craig Gidney|Split PipelineNode out of PipelineTexture
+62e69dd7a1d74eade826c7dd2bac60d57e4be8a5|2015-03-07|Craig Gidney|Working on PipelineTexture graph
+28e7eec4cf2093e43de544582b3ff981b0dcab81|2015-03-07|Craig Gidney|Extracted 'equate' out of testing library
+4ff872deaf9f7999874361530e46e0e6a331ce9e|2015-03-07|Craig Gidney|Extracted `describe` out of testing library and tested it
+f0f585647d03b7adf162e1972d36d732767a5a9f|2015-03-07|Craig Gidney|JSDoc type tweakery
+6127cb307c430c897f609cd25c32837892c86801|2015-03-07|Craig Gidney|Added reverseGroupMap, breadthFirstSearch, and jsdoc-workaround classes
+91bb99cf5b08c686a232d0a7fb3df6d862cb3954|2015-03-05|Craig Gidney|Refactored 'data texture type' uniform into 'raw texture type' uniform - Much closer to the 'texture type' uniform - Added director.useRawDataTextureIn(width, - Added renderClassicalState - Removed renderbuffer from textures (... still works? That means it's fine, right?)
+992a369b68e5857359eb2796d3d57502d7609c88|2015-03-05|Craig Gidney|Added renderUniformColor, renderControlMask, renderControlCombinationProbabilities - Also prepping Superposition class
+a0753d3c6dc5b5c0dbd16a851d49aa3d5afd4458|2015-03-04|Craig Gidney|Removed unused shaders (float->bytes and combine_controls)
+3d0ac8dff372ce55efd76bbe1dbd78090679eaaa|2015-03-04|Craig Gidney|Single qubit operation shader
+909fd25491c286b7902474e1b1f8711f31fba7f1|2015-03-03|Craig Gidney|Probability shaders
+527806cc27375b942421cdcff4980e32b82dfc0a|2015-03-03|Craig Gidney|renderOverlayed and some wgl renaming
+74ab9b3d557d61adabc56799093f971f7b277b91|2015-03-03|Craig Gidney|Testing rest of Seq
+d63309eff0d128b18efd50fe9461b3024d829ac0|2015-03-02|Craig Gidney|Minor test tweaks
+29165df76392e3ab129bcfe5bae1cb0511e10722|2015-03-02|Craig Gidney|That darn non-iterable float32array
+1a8486b2950861189f5f5b43e3f82144ee776dd9|2015-03-02|Craig Gidney|Experiment #2
+d27d35120a7f57f4620640a59b64cfb282b5de07|2015-03-02|Craig Gidney|Experiment
+312d05f76f49683fc045d1030ff9950fe67843e9|2015-03-02|Craig Gidney|Tweaking web gl detection
+47bb9ed8fcd2e8c4124a0478936282f8bff0034d|2015-03-02|Craig Gidney|Tweaking config for travis-ci
+9f3bbbdca90e76084fa008838c07a5e0753560e7|2015-03-02|Craig Gidney|Switching from jsTestDriver to karma
+bd8dee5ee7d78084a64f2699953226beff5dc5f1|2015-03-01|Craig Gidney|Tweaking build
+1ed0cd98224e2f3d2cebc2ea638b7685e43265a1|2015-03-01|Craig Gidney|Casing desync fix
+7f4ba7a3c63687d9eca32d1cb4b78754c5fb7cad|2015-03-01|Craig Gidney|Use PascalCasing for file names
+8c6b317906fd77f758ad5563a0a4ae5e9858af7c|2015-03-01|Craig Gidney|Reconstructing and testing utility shader programs
+bc397141125b9122d2984cb0cfbaf0efc5a3d895|2015-03-01|Craig Gidney|Translating webgl stuff
+ba887420eaba093e62e351b5f99d530e14a631d4|2015-02-28|Craig Gidney|Set and Map testing
+56e8030c3d60c4e4505bfc7b037567f8af8752d4|2015-02-28|Craig Gidney|Matrix
+cc4ff3bfa10faacb525af26c6eb46811b755ed94|2015-02-28|Craig Gidney|Format and Complex
+a7b202143db7d9d24be47c054cf8bb13196c86ab|2015-02-28|Craig Gidney|Rect
+80beac389e9513e3667f9b5827a0cb730a8741e6|2015-02-28|Craig Gidney|Split base out of util
+3d0980a270bfb25939ef5baf4b4dd67d2f4f2b14|2015-02-28|Craig Gidney|Writing sequence utility methods to replace array utility methods
+ad57433c6c30a26a0918dac2539bb3218a2dce8a|2015-02-26|Craig Gidney|Started translation and build changes
+d3097676a1cb56423830d327890ec46519a4aaea|2015-02-25|Craig Gidney|More shader experimentation
+99ea0b3fbc58ede77ffb06ada74c04503ae461ff|2015-02-02|Craig Gidney|Removing unnecessary type annotation; using WebGLRenderingContext constants
+ec45e9399416e9c0f763c730b0f7c8b7c9a6c36e|2015-02-02|Craig Gidney|Gutting Three.js - Streamlining and removing unused features; mostly learning - Added Array.mapKeysTo, GateColumn.fullControlMask - Fixed delayed loading of QuantumTexture - Tentatively using gpu stuff to compute output; still not faster due to readPixels - Fixed not calling preventDefault in mouse handlers
+afd28f0b2454506127bc9c23e04d23ec16d35887|2015-01-31|Craig Gidney|Undo/redo
+be561b48f5e83f54a489bb79300616f767037b2b|2015-01-31|Craig Gidney|Format tweaking of matrix and complex toString
+c5ffc3e76af81dd357be927ec67cee34e737d499|2015-01-31|Craig Gidney|Automatic resizing, compacter circuit json, gif worker in external,
+cbbb55b224b5b38535bef0a9e99e4ac5a1fddd0a|2015-01-29|Craig Gidney|Replaced import/export with updated anchor, added anchor around captured image, not showing capture button unless animated
+0d7de5d376da7afbe383ab3f7bbc94243f6e104f|2015-01-24|Craig Gidney|Delayed initialization of quantum state constants
+da70b6d04a3b3c9d1276928f6e86c3f69965c40a|2015-01-24|Craig Gidney|Added true-vs-false control tweaking to controlProbabilities
+7bf015942c9ad7ed729a8a830db746c3940fdf35|2015-01-24|Craig Gidney|Simpler more flexible approach to probability computing
+40d47addbb84dd7ad961f02214919944fb85b890|2015-01-24|Craig Gidney|Tweaking shader comments
+5461da53cd0959578f54bad0c513b74460624aec|2015-01-23|Craig Gidney|Added per-wire probability shader, and caching of shaders and textures
+0ee22aa185dcfc98a22fefc8b72f881bcd174e7a|2015-01-22|Craig Gidney|Added float from texture precision tests for large values
+565621875f378b043ad183e8e6a7fd277909225e|2015-01-22|Craig Gidney|Better float decoding from texture
+03327ba3f22a5f8b544b358233af9444158afbfb|2015-01-22|Craig Gidney|QuantumTexture cleanup and tests and fixes
+0137900a4b5125c6d7d3b1975b9006cd0ea06efe|2015-01-22|Craig Gidney|Working around lack of webgl support in phantomjs causing test failures
+4751fdeb5599027315cba4a84c3711cc558efc4f|2015-01-21|Craig Gidney|Some test tweaks
+ccce6b6bd1d7767893c0cbf775b713d04f3bd058|2015-01-21|Craig Gidney|Added some unit tests for QuantumTexture and ControlMask
+bfeb43eaab8e15b14f3143490680bb8b9404dcb4|2015-01-20|Craig Gidney|Laying groundwork for gpu acceleration
+d53976ae6ccdf392519f8a61900035517ad6fccb|2015-01-17|Craig Gidney|Test fixes
+2a14b4224106ac26a178886d5f03c69c87732d93|2015-01-17|Craig Gidney|Bug fixes, load url param
+70ed9f3e9ffc6fcca578bb429547aad902a0b5c5|2015-01-05|Craig Gidney|Moving time-based-ness into Gate, instead of the gate set
+2178dfa6089b5a0d43d419bc93fe542879d0c984|2015-01-03|Craig Gidney|Gate testing, fixed coverage issues with "char" property, getting json import working a bit
+145afcbba607cff4b3df65495b1d524e44cf7f6a|2015-01-03|Craig Gidney|Avoiding vulgar fractions to workaround jsTestRunner+phantomJS unicode BS
+4eabf07c15decaeddaffb280150e9bb3e1fdea52|2015-01-03|Craig Gidney|- Moved number-to-compact-string into util - Added complex/matrix parsing - Added array distinctBy/distinct/singleElseUndefined - Fixed UP gate being off by a bit - Stack trace from need
+f7f4c39e6656e2d15cbb5b336a4d459243a43530|2015-01-02|Craig Gidney|Moving more utility methods to array_util
+9762e24e4ccc91a884ac2de8934f6906c94e6165|2015-01-02|Craig Gidney|Working on import/export, added pack/parse methods, added array_util
+855cf6609c3a3e81d680f2e8ae3d1dd6f72114c7|2014-12-31|Craig Gidney|Messing with colors
+9421a649cbf1c7eacecfccbaf477fc6f3449eb4d|2014-12-27|Craig Gidney|Update README.md
+87852645925544bf82337d2ad2416c308310adf1|2014-12-27|Craig Gidney|Update README.md
+da0c9e414d39af92ed3f41c6920317a112eb1e61|2014-12-27|Craig Gidney|Merge pull request #10 from Strilanc/dev
+af40439344a5bd23223a7e98710c8febea3c9c9d|2014-12-27|Craig Gidney|Travis attempt #8
+286387a7633791374039fa6099a40ebf3ad00ea5|2014-12-27|Craig Gidney|Travis attempt #7
+00e78f8eb844ad6292c10df0770db3dcaa1257a5|2014-12-27|Craig Gidney|Travis attempt #6
+06f4e101407bdc22ccfc7d3a6a69d3d894f284e5|2014-12-27|Craig Gidney|Travis attempt #5
+503f547cc7c74fab0aa23d4f0e8c033b56da4ddf|2014-12-27|Craig Gidney|Travis attempt #4
+ca2316ff5fdc6b4337c5b1cf75ddd37f8f5d8707|2014-12-27|Craig Gidney|Travis attempt #3
+3afc5a8e70d80f846f3bd4b9c30be37e0aab4c87|2014-12-27|Craig Gidney|grunt
+8c8a928f8e703f71fb046168ec469ae60e915fc1|2014-12-26|Craig Gidney|Color color everywhere, and not a drop to drink
+bfdbca5f18833dcd1d77ca6febb2850b261b8094|2014-12-26|Craig Gidney|Fixed peek gate showing N/A in 0-given-1 case Added controlled-not painting Fixed using strokeWidth instead of lineWidth
+9f81f66cda9a7790c6c89bc26dede0cb13b117a2|2014-12-26|Craig Gidney|alert_on_error
+e2edae45897c3527ddcfe0d01709d21bdad861c7|2014-12-26|Craig Gidney|Removing expensive overlapping draws... for now
+945d730274ab599f86a9bf726ea3a9d269108b12|2014-12-24|Craig Gidney|Gif capture, state factoring, fraction detection
+1ef549022d719124a0529b1c227835248359971a|2014-12-23|Craig Gidney|Drawing cumulative operations, more space
+df5450f60d9e6fda4d4b1016c3082d1abf66d145|2014-12-21|Craig Gidney|Terrible support for jsTestDriver
+f19ae9c313978986f282e078e4f184d2eedd1293|2014-12-21|Craig Gidney|Coverage tweaks
+9767a4b84685340a615ffbf7fcbeb000300308f3|2014-12-21|Craig Gidney|Travis attempt #2
+96f682a1af0d584ce6398620cb30cf431c5e534d|2014-12-21|Craig Gidney|Travis attempt #1
+673987ca2a6dafb8001d2d1df6c34a4a60e51561|2014-12-21|Craig Gidney|Extracted main.js
+347cf1e05701d264377c13adda27ec094d1a15ed|2014-12-20|Craig Gidney|assertThat
+cfff7aca6bfd796ed1ce0d61aa81a022bf382aea|2014-12-20|Craig Gidney|Test directories
+d0c3bf05f1458dea46374814777cd1c97b50dd72|2014-12-20|Craig Gidney|paintBinaryTree
+833b1a954a27dfdb585e06e2a6499d54890325d9|2014-12-20|Craig Gidney|Circuit grabbing
+bb744e4e9cede83a37fe84e68c0a22d57e9e2788|2014-12-20|Craig Gidney|Folders
+d7cd979fcd971237efe3dec50b9c4043f32dc40b|2014-12-19|Craig Gidney|Commenting
+1b63ffa7947692f6e9a6a191a51c21ed2db0ad82|2014-12-19|Craig Gidney|Extracted toolbox, separated toolbox grabbing from drawing
+0409c9bc9993080bc845ec573e75b0eefe86e361|2014-12-15|Craig Gidney|Gate column positioning
+ca50537551cc8746dc79a3eb42b11a7fba62cb7f|2014-12-15|Craig Gidney|Over the hill; squashing the plentiful bugs
+c9576c7dfb2e0d4de6907d534c49ebb456fe39af|2014-12-14|Craig Gidney|Added QuantumState and Point
+e0bb083997b16f2e86fd90bf6e880d79b9f3b1df|2014-12-14|Craig Gidney|Half-done rewrite - more immutability, more named types, more flexibility in what a gate is
+cc2a5b859b478389c7d35bf22490d9097ce8a1b8|2014-12-13|Craig Gidney|Renamed circuit.js to inspector.js
+a9d9b8b9b76c81e5ca9d61fa5e50a948a4b48514|2014-12-13|Craig Gidney|Dumping gate painting into gate.js and using indirection instead of conditions
+8469767758f176255bd6d658642e036fb1752ee8|2014-12-12|Craig Gidney|Rough movement of swap gate as a single block
+f4b5bcb74d61286dcd72d4edea63b262fe975a1e|2014-12-11|Craig Gidney|Moved gate set into gate.js, extracted gate_column.js
+194190a638416782f1f903d1ea560d54d7983d09|2014-12-11|Craig Gidney|Added silly gates, Matrix.isApproxEqual/isApproxUnitary/norm2/svd
+931b0889d8e4a5c642d5c97b98d81a127abeb97e|2014-12-07|Craig Gidney|JSLinting
+cc5404d551db4299bc7211203c3a82fe8b7a53ac|2014-12-07|Craig Gidney|JSLinting circuit.js
+d49fed043706c30bc9a7031d94f4d924c372887a|2014-12-07|Craig Gidney|Non-nullable type annotations
+544e30e7fb891ff0be1b8c0d4ebdfbbf11b44c38|2014-12-07|Craig Gidney|paintProbabilityBox
+fce6aca12e82d7669b19a21cb6ace14cd6ad61de|2014-12-07|Craig Gidney|paintColumnVectorAsGrid
+a5e6b39bef733d9f2d47ebeca7f720becf6a2090|2014-12-07|Craig Gidney|paintMatrix, Rect.shiftedBy, type annotations
+2b1ffb72610f0795a51f246b65e05f6cda331025|2014-12-07|Craig Gidney|Merge branch 'dev'
+26ce2c3a68184fe1984430e68b82690a0c00af68|2014-12-07|Craig Gidney|More type annotations; using points more foten
+80e1e01396b133e39f3077e5983f1fda8a8d1237|2014-12-07|Craig Gidney|Swap gate
+8623e254fd34268559b742684dfa699ea3e619c1|2014-12-06|Craig Gidney|Update README.md
+f755f905c5e3540024a7c53106f0734e81fbff0c|2014-12-06|Craig Gidney|Update README.md
+4ed3be13d2ea8f37cdc28416bb0a0967604351fc|2014-12-06|Craig Gidney|Update README.md
+44e3dc809ec9060ec04a62fa66214579d4f679da|2014-12-06|Craig Gidney|Update README.md
+3318d8c48353e5b7fa28a6939a81ea9a5bad8e6f|2014-12-06|Craig Gidney|Merge pull request #6 from Strilanc/dev
+80e7f08e4a8a5ebd69cec2b37bd79a7062d7c654|2014-12-06|Craig Gidney|Don't tick when not needed
+d076be5d0a1481bd60dba988bc57b7e949097cb2|2014-12-06|Craig Gidney|General visual cleanup - Grid state output layout - Toolbox grouping - Smaller gates - Phase gate fraction naming - strokeGrid method
+844922b53b490e22e9091c4ea825b71ab8f9d633|2014-12-03|Craig Gidney|Moved strokeCircle/fillCircle/paintAmplitude into painter
+2623573c41f2cd3591165842886b4eb03ea23aa7|2014-12-03|Craig Gidney|Merge branch 'master' into dev
+b71e279abdfbebd7df6e72010b0e7acb5cd267de|2014-12-03|Craig Gidney|Extracted some drawing methods into painter.js
+87b47c404bf5dcf0b54e56b749910e50efc893ab|2014-12-03|Craig Gidney|Rect
+5cf723a7fff57744443e5cefec86ffcee3915323|2014-12-03|Craig Gidney|Complex.I, UpGate description
+e3ad8c377ebcf0d35b49203a4ddf571d989a3abb|2014-12-01|Craig Gidney|Removed duplicate deprecated files
+de099a8422e953be1677500cd9697e2ae4419619|2014-12-01|Craig Gidney|Merge remote-tracking branch 'github/master' into dev
+6058b5631a3c1b6c0706d454ead3a882271cec3b|2014-12-01|Craig Gidney|Time dependent gates, peek gate, wire probabilities,
+f084e66c6c52508aa780fc77e9f28d359db0606f|2014-11-30|Craig Gidney|Improvalanche
+41bf35d7fe28abf8fb5291708d1abcc64471a70d|2014-11-29|Craig Gidney|Special draw
+52295ad1a325cbf2aec81e6043f321be28efaacf|2014-11-29|Craig Gidney|Moved gates to gate.js
+c49fb5885209fe86a8d1a1d9331d21d51978dce3|2014-11-29|Craig Gidney|Using matrix/complex in circuit
+06647017e748e11ab30ac53073ec6c389e002689|2014-11-29|Craig Gidney|Asymmetric matrices
+b2b6fb912d8af0b0c2fdd6a084530ec906a3209d|2014-11-29|Craig Gidney|Checking if in test in circuit
+0817f1b2f9e3c9afe410a6f20bff2d079d285c35|2014-11-29|Craig Gidney|Merged Quop/Unitary into Matrix
+d97ff674327d17cc4dfb590ae7770c6b863e07f6|2014-11-29|Craig Gidney|unitary
+ae9d71420af3a7baa5465a28ab51e3a608401190|2014-11-29|Craig Gidney|fromRotation
+4504eb958e721074f5fd425e5d57d7e8328340b5|2014-11-29|Craig Gidney|quop test
+712aa908c3fe9241f6de365a38413b9bc8daa82d|2014-11-29|Craig Gidney|Complex test
+94fcf9848904eae52da1ceb7865dad7d60c26106|2014-11-29|Craig Gidney|Branching off from other
+5fc08908be67c24f2abb0d780d18acc8c5eb3e85|2014-03-06|Craig Gidney|Update index.js
+c69e5be615f13f11e9c1a5826d501632e399798b|2014-03-06|Craig Gidney|Tweak
+4836d39a5956a9ad04eccd0cf5ecbdd781bd354f|2014-03-06|Craig Gidney|Optimizations
+f4c55424214f7c2093e076b891ed9cc0df0f09ef|2014-03-06|Craig Gidney|Tiny bits of polishing and cross browsering
+a246c22db1f273c09d9f580e7517ff14731c2d55|2014-03-06|Craig Gidney|Removed border
+883bbed011aacea3b206bc276d1895d61cba38f7|2014-03-06|Craig Gidney|Reduced number of wires, added puzzles
+b43257dad5ffe4566e05abec04e51f751bc34ff5|2014-03-05|Craig Gidney|Update README.md
+f0c52c0f897dab99149376c68242a63550d5afe9|2014-03-05|Craig Gidney|unlicense
+ad233c1c90eb096679fb0e479c3a631a3115d48d|2014-03-05|Craig Gidney|unlicense
+b50f90c960b7bd5478403a2a8a6cfb7e807b0d67|2014-03-05|Craig Gidney|Just a canvas
+55135bfac1ba2658f9ce9a6adc10cf3fdf6f4e6d|2014-03-05|Craig Gidney|Rough draft in need of cleanup
+af416a320d9f4543e79f2e9651dc16f967d11664|2014-03-05|Craig Gidney|Initial commit

@@ -1,0 +1,997 @@
+c2b82111dcfbbe945007575c1fd396cd48c61d71|2020-10-10|Christopher J. Wood|Remove functions deprecated in Aer 0.4 (#984)
+8c81f3e6838fb0eb8e32e278e0d4c5aaf52ec773|2020-10-08|Matthew Treinish|Update Code of Conduct (#978)
+f6b6a4e477f92bb368f3952194edd73524498772|2020-10-08|Christopher J. Wood|Remove absolute imports from qiskit.provider.aer (#980)
+b12f6258ef560e1f4c12dcccdec04003c39f6372|2020-10-06|Christopher J. Wood|Use move semantics when snapshot is final circuit instruction (#975)
+c7c49c128cb52a64d158a12fef72750e08c63b93|2020-10-06|Christopher J. Wood|Split pybind file into multiple files (#976)
+d715609b47961305397b608e89931e283248ac99|2020-10-05|Christopher J. Wood|Deprecate snapshot variance (#974)
+6cf7b31cb01481098641fa0bf60ca808ac54d074|2020-10-03|Christopher J. Wood|Fix snapshots being copied rather than moved (#971)
+77e40c8d99fd0490d85285e96f87e4905017b646|2020-10-02|Christopher J. Wood|Move AVX2 logic into Transformer class and enable SIMD on Unitary, DensityMatrix, SuperOp (#961)
+96224e9d7f444bfb9d8ecb9c23eb291328e79ea1|2020-10-02|Christopher J. Wood|Add available memory checks for Statevector and Unitary simulators (#969)
+2d502fc6db68cb193ebc6378003c53e1f528a5ea|2020-10-01|Manoel Marques|Update github actions cache to v2 (#967)
+3c5a81988962f3f984a2690bd7adbcbe9e3921a2|2020-09-30|Matthew Treinish|Add python version to GHA pip cache key (#965)
+5258ce66a1c88535a6cc423ac030bbd7ee5bacd7|2020-09-29|merav-aharoni|MPS: Apply kraus (#915)
+0721a40f218f0620d75951d80edd48b3f63b38b8|2020-09-28|Christopher J. Wood|Refactor GHA config and attempt to fix pickle tests (#959)
+5469925df09b79ef460d74efdb4def70d07629c1|2020-09-28|Christopher J. Wood|Fix test performance (#958)
+e045a2bb54374b57c544c17d651c7c36855cae11|2020-09-28|Matthew Treinish|Turn off gentle timeout and use common test class everywhere (#957)
+d699249e6a558531b7e029179d811e62779586f1|2020-09-26|Matthew Treinish|Add timeout fixture to test setup (#955)
+5089fcb06a0b56d2a5bf8a4ec7661ffaab771dce|2020-09-25|Christopher J. Wood|Add missing basis gates (#953)
+cbbe50f6987d4203e4c664303f57fad2d59c34bb|2020-09-25|Matthew Treinish|Enable building 32bit binaries in wheel jobs (#925)
+42f4cacf6d1035b61b0298f693d3019c3cdc390a|2020-09-25|Christopher J. Wood|Add support for phase, sqrt(X), and delay gates to simulators (#951)
+a8caf20ff545bdfd4beb2427089f2cd497618338|2020-09-25|merav-aharoni|MPS: Support snapshot_density_matrix (#948)
+3c5a6a299f538d95f9f007a1f76bbc1c76e9e3b6|2020-09-24|Eric Eastman|Make controller_wrapper functions functors (#945)
+066a9e3f457684eea4e95a8697b4ce48266e9d68|2020-09-24|Victor Villar|Allow compilation on Win32 (#950)
+a0274c33e3e5989d78fe67ffb7dd1332f3d71bd1|2020-09-24|Christopher J. Wood|Fix test failures due to qiskit-terra #5125 (#949)
+7d0ecf4dff05c51acf0b295433e6163a85b0af18|2020-09-24|Christopher J. Wood|Add support for rotation gates to noise model and simulators (#914)
+e826f20694cb0a544d4650f76d892ce6a5fd6791|2020-09-21|Christopher J. Wood|Add custom Vector class (#932)
+8f59ad6199d18ff413257b4b6cabc9957ada5931|2020-09-21|Christopher J. Wood|Add qobj header global phase support (#931)
+18c736c972d1607b336e613b4bd1d99bfcf1b2a4|2020-09-21|Juan Gomez|Adding Victor to code owners (#943)
+1edd6372afa44ec4e0175212e6a744fa86db02aa|2020-09-21|Carsten Blank|Seems to be a copy-paste-error, fixes an error because it checks the wrong variable (#942)
+ef7fd430b2dd9bb53e300580fe6fe35dc47c67ee|2020-09-18|Victor Villar|Look for Lapack as well as Blas when OpenBlas is not found. (#939)
+44a3f8a2dea56f0ace40b9e5f904a1a9a7fbc233|2020-09-18|Matthew Treinish|Set OMP thrust method and capture streams in tests (#935)
+6a4c217a9605e39b69c8166c003f09c94513745f|2020-09-18|Victor Villar|Fix build error when setting AER_THRUST_BACKEND trough an environment variable (#937)
+659136e8263ea18bf4002c600361c0636ec7293e|2020-09-16|Victor Villar|Add openblas+lapack release note (#934)
+1d8e4af6628ae4f625ed4fe1f0f0f896792daaea|2020-09-16|Jun Doi|Corrected Find NumPy in src/open_pulse (#743)
+7856e4be0730995b6e19537f8b20c86dbc26eb72|2020-09-16|hhorii|fix a bug in thread management tests (#918)
+1804cd64416d91abd9b69f14b7819ef529b27ed9|2020-09-15|Jessie Yu|Update email in setup.py (#933)
+64e659104c0680846ff6539f7676989bd999ec05|2020-09-15|Christopher J. Wood|Kraus noise gate fusion method (#927)
+d89b06a887f3fc329bf7ce9e0ff57916ea9ae965|2020-09-15|Matthew Treinish|Add tutorials job to CI (#930)
+801e88efe921499398d25637d452fc8e5f6a0f23|2020-09-14|Victor Villar|Add hermitian eigensolver (#889)
+88fddc313de0d3f388e95941a0434b1446b1d15d|2020-09-10|merav-aharoni|MPS: Unite the common part of apply_2_qubit_gate and apply_swap_internal (#906)
+42e9ca9a72b27bea1de18eb1b09b191c21dd9199|2020-09-09|Victor Villar|Add conan custom settings.yml enabling appleclang-12 (#923)
+a387d1f7da2fcfe270e3a24f9d6d90101233b17a|2020-09-03|Christopher J. Wood|Fix C++ for-loop by const ref rather than copy (#913)
+88f6a2f9024a52c217c398d0fe498e7e3c0f357e|2020-09-04|merav-aharoni|MPS:  Changed unnecessary copies of lambda in the contraction process (#901)
+097926fae85b8a02a35306febab8f150ed25d073|2020-09-03|Matthew Treinish|Migrate most of CI to Github Actions (#881)
+83798b27643f2fa04047a505ef9b29355c4a13ae|2020-09-03|Ikko Hamamura|Fix evaluation y expectation (#898)
+1f40fe6d3defed446542182711bb0d0aa06ca10f|2020-09-01|Matthew Treinish|Drop support for Python 3.5 (#917)
+de5a91171c9e2111ad94fa564abbd9922e7303a0|2020-08-26|Matthew Treinish|Add git sha1 to version string on dev builds (#907)
+c62c12d2ee4a7f634694a01bb531837349f05c1a|2020-08-24|Yael Ben-Haim|Small cosmetic changes to MPS (#885)
+5e0fa83fabc94cf47e2fb915495e34a57418232f|2020-08-24|merav-aharoni|missing call to internal index for apply_cu1 (#897)
+dca62472da97f7eecff14cb929d92d360a719208|2020-08-24|Yael Ben-Haim|typos fixes (#893)
+c1ee3e266a862cf5ffcb4132809a6fa353d0d376|2020-08-12|Victor Villar|Add Windows Openblas+lapack (#875)
+d3865d476dcb25394b2b145c0405270359314ab3|2020-08-12|Luciano Bello|Spelling in release note 0.6 (#876)
+96e5a84e26342f28e9ebdcc10e57bf079244af1b|2020-08-11|Matthew Treinish|Remove pip upgrade from windows sdist job (#879)
+4846ce1f7f318c5f4721bad613f24dc369c74f16|2020-08-11|Matthew Treinish|Bump version string post release (#878)
+138353ed262346e5431cd73cfe40ffd750c92d56|2020-08-08|Christopher J. Wood|Fix bug in StatevectorSimulator preventing AVX2, GPU, and single-precision simulations (#872)
+4c93ee523bb4a0daa8180e075618f7cfe81d3d2d|2020-08-07|Christopher J. Wood|Add conan to release notes (#870)
+45cdfadc7b34ed272b6ff5dd92670561c32a6463|2020-08-07|Victor Villar|Add missing license in a file header (#867)
+cf6b2f1a74ccabd977555b867a702927f39bd7c0|2020-08-07|Victor Villar|Fix/issue 856 build ppc (#864)
+9a62c27ad5e69904434921c26d29aba6c4ea9389|2020-08-07|Victor Villar|Reintroduce openblas instructions. Remove libomp instructions on macos (#866)
+a6637ee1a9484eed0424c8044dc8d99544f23f46|2020-08-06|Matthew Treinish|Update cibuildwheel version (#865)
+e1da07916db047d14e1d87abfe2bbcfc87fa52be|2020-08-06|Christopher J. Wood|Add gate fusion to StatevectorSimulator and UnitarySimulator (#861)
+e72d2551cdc8f48bf6ea31d45ae955f71439c760|2020-08-06|Christopher J. Wood|Organize release notes for 0.6 release (#860)
+53c823289cf523678b87d17c35bd7c41855cfdd1|2020-08-06|Matthew Treinish|Only run GPU wheel jobs on tags and publish to pypi (#863)
+a56fb99584e2717c8081e818a66ff9250b7efb9a|2020-08-06|Victor Villar|Revert management of openblas dependency through Conan (#862)
+87952862507c73edd7c39ef55f86254987c7fee8|2020-08-05|Matthew Treinish|Add job to try and build gpu package in CI (#775)
+b08ecea10bc40d25a7c55441c00bdb8d6abbbe02|2020-08-06|merav-aharoni|MPS: Improve performance of sample_measure (#808)
+7c2731427b5e86583eb12c04b814f864cc65472a|2020-08-04|Aniruddha Sarkar|Spelling_and_grammer_mistakes (#854)
+e0a427b36ac70ca251884b22291230b71e3d8469|2020-08-04|Marcus Daniels|Versions of GCC before 9.1 lack the assignment operator in strstream.  Use a scoped constructor instead of an assignment. (#855)
+1a00145804b4bce86530b3a6497a31683a442dcf|2020-08-03|Rolf Huisman|Remove compiler warnings on the shifts when compiling with windows. (#850)
+d34adc1b2e18c1afde54f4dc5bc0ca560d041f05|2020-08-03|Rafey Iqbal Rahman|Valid Slack invite link (#846)
+569038f35fba86ed4b5ed786aa651940f62ff03e|2020-08-03|Matthew Treinish|Reduce precision on test_qubit_lo_from_configurable_backend (#852)
+066384622cc28e82ba05914cfdfeed68af5c942a|2020-07-29|Aditya Giridharan|Fix #845: Restructure contributing.md (#849)
+26bd7afcabb9c61d765f8b3abd8025ef3210ac3b|2020-07-28|gadial|Remove pin for broken CVXPY and update tests (#832)
+236674e3291e3bdbf929e3fca74ba043c43809d9|2020-07-24|Juan Gomez|Adds AVX2/FMA flags to CUDA compilation (#844)
+06c18a04195b892e18c4c523257f02236b52c9b2|2020-07-22|Victor Villar|Add BLAS_LIB_PATH as ENV var (#822)
+c26fe542e7c315a160a44f490f2ef43e4198da0d|2020-07-22|Juan Gomez|Disabling warnings on third-party libraries (#838)
+98c6142c22418ed0ad4a86267215cadf4c74c8d1|2020-07-18|hhorii|Add SIMD (AVX) extension for QubitVector (#684)
+c3f79b7e28c49b81baccce10bb179e3b2e504049|2020-07-17|hhorii|fix performance degradation by avoiding nested omp in controller (#818)
+1befe03972b8c198f5c8800c684d6d94e197d000|2020-07-13|Matthew Treinish|Move stestr to top of requirements list (#829)
+d8851a055340e072e3c569d874e274e5f14be21a|2020-07-13|Christopher J. Wood|Fix error when passed an expval snapshot with zero coefficient (#826)
+9b5c146a327c81865c8f1427ee336bea2ab26e2c|2020-07-10|Daniel Puzzuoli|deleting old tests (#821)
+e5d2c1b885025a02f8626ba19f91086e153475b2|2020-07-10|Matthew Treinish|Remove terra from the setup_requirements list (#825)
+edd3e29a14c3542afe229b49887a4fc97588a492|2020-07-07|Daniel Puzzuoli|Adding Delay, ShiftPhase, and SetPhase instruction handling to pulse simulator (#813)
+fb4c05ddab30268569cd35204d777888ac541c95|2020-07-07|Victor Villar|Cache ODE RHS params (#814)
+239f47760dfef468faafc9c14f064c76f42fa5e6|2020-07-06|Daniel Puzzuoli|Fix channel value bug and revamp pulse sim testing (#811)
+e5923b44569fe82651c9dedd4f4fe7b76f649cc1|2020-07-02|Christopher J. Wood|Improve integration and performance of matrix class and matrix based simulators (#801)
+fd10aacb6c0eb3367f8b714eb33a2d868bda020c|2020-07-02|merav-aharoni|MPS: Improve performance of Pauli expectation value (#812)
+a01df964a74042b85d97ec34be8dba4a47387cd4|2020-07-02|hhorii|optimize expectation value by considering pairwise operations (#806)
+9492a71633223c451a0bc606e41d898b2c2779c4|2020-07-01|Daniel Puzzuoli|Introduce abstraction of DE methods (#784)
+309b9aa1ba5b498b154607aca86c20a6f01bf904|2020-06-25|merav-aharoni|MPS: Fixed bug related to floating-point precision on Windows (#809)
+26ed1bc18a9bca7f3dba1b51e16fda62efd62ad6|2020-06-24|Christopher J. Wood|Improve performance of average snapshots (#807)
+ad2b5c4759a214d3664b87466eb6e46354a3692d|2020-06-23|Christopher J. Wood|Remove unnecessary copy of ExperimentResult objects (#796)
+d27a9f06c12da40c60ea64f5eb9a254902b67ab7|2020-06-23|Matthew Treinish|Rework numpy cap and ensure scipy and numpy version are matched (#804)
+2d1f1fb2c4515f148865dd79cdc4b6aebf053e6c|2020-06-22|Christopher J. Wood|Improve performance of pybind11 result conversion (#799)
+c95bc6b390df9fd19ffa8a97472ae75f47563cea|2020-06-18|merav-aharoni|Introducing approximation into the MPS simulation method (#475)
+275b577c09b63158182c3fdcc21feab46a6f6446|2020-06-15|Christopher J. Wood|Add move semantics to matrix class (#794)
+df0eb84857323555daf5727a1b210a69a7cf5a44|2020-06-15|Paul Nation|Allow for suppressing warnings in NoiseModel.from_backend() (#792)
+bd378e0db40be8e070bbb229902db9e0bb96bc42|2020-06-15|Daniel Puzzuoli|updating system model test with fake armonk to extract backend paramaters directly (#795)
+1cff17f248c1a2ba556e1962dc3b5bd3b6437e65|2020-06-15|Christopher J. Wood|Add subsystem density matrix snapshots to qasm simulator (#718)
+77d14d5f481bf7057e39bf72a898246bf7a591c8|2020-06-05|Victor Villar|Select CUDA architecture(s) through Cmake option (#783)
+f530e0393da3e6a71e934e793bb29738cd40b43c|2020-06-05|Christopher J. Wood|Refactor ExperimentData class (#744)
+addfe03878a06d9a4b4d587f5fec0725969f78cf|2020-06-03|Juan Gomez|Add GPU build instructions to CONTRIBUTING guide (#781)
+b63f6b0ba1f49efad4f06e217fcbc887cbb5ee02|2020-06-03|Matthew Treinish|Cap cvxpy version used in testing (#780)
+fb8c366b725576de99d789a96d211134230941e3|2020-06-02|Christopher J. Wood|Update README with CUDA 10.1 GPU requirement
+dd383c2da5661e86078264ffdd6676084a4b7be9|2020-06-02|Victor Villar|Force conan to use CMake exec from which it has been launched (#777)
+6e9c6521c5a0dd010f142e43dd7e4afc3c741611|2020-06-02|Matthew Treinish|Add README as pypi long description (#778)
+bf67ccb77efff31945e592ab18d913d64a4211e2|2020-06-01|Victor Villar|nlohmann_json back to 3.1.1 (#776)
+8114479b0938f26f2f69f7e091368c3ec8e8cba1|2020-06-01|Christopher J. Wood|Fix standard gate tests not running for all qasm simulation methods (#765)
+0eab74b57f2704ad0893132b6c5f214603550c39|2020-06-01|Christopher J. Wood|Fix bug in DensityMatrixThrust apply_y (#771)
+f26cb6a567a37257001df9fffdf8c6d7863108f7|2020-06-01|Christopher J. Wood|Fix required memory checks for QasmSimulator with custom method (#763)
+b2a8f05a1e5a5bfc33ad5a036fe722757905b20f|2020-06-01|Juan Gomez|Add scipy constraint on setup.py (#772)
+eea9a48ddf193bb91d0196c180034ded9d89fa32|2020-05-30|Jun Doi|Fixed cz gate of DensityMatrixThrust #754 (#760)
+f3b4303f478ff84bf8da15761827287d3a2f16e4|2020-05-29|Christopher J. Wood|Fix bugs in density matrix simulation method for diagonal gates and conditionals (#767)
+0d5bc7184bf965675ad007a9a533d5da3a9a92a1|2020-05-29|Matthew Treinish|Stop install ibmq provider as part of travis jobs (#766)
+8298064324a7db54f600b655dee00dd6fab981b7|2020-05-28|Matthew Treinish|Attempt to speedup azure pipelines execution (#756)
+b95163ab30f98086eeef3971e547d74c3b352137|2020-05-28|Christopher J. Wood|Update decorator for not-installed simulation methods (#759)
+05245061b0ac7ede790ef2ff57e361d1771f6122|2020-05-27|Victor Villar|Add Conan package manager to the buildsystem (#648)
+787514e3fa239a32491f4946197be688ac75f124|2020-05-27|Eric Eastman|Density matrix snapshot not returned as Numpy array (#712)
+2633ba813dfa4b3e35f2b7f3eade3424caaa9738|2020-05-27|brandhsn|Allow Simulator Seeds Smaller Than Zero (#753)
+6b698549be47cdd21ed28bd8d3c0e958ce4bb75d|2020-05-26|Daniel Puzzuoli|Fix Hamiltonian parsing edge cases in pulse simulator (#752)
+d0afb42e3666e627528d64e25542aa52f10c01ca|2020-05-26|Victor Villar|Avoid use of numpy prerelease candidate 1.19.0rc1 (#749)
+1602b1cc35a18f5a008c38433f607c7ad0870ce9|2020-05-18|Matthew Treinish|Add compile stage to azure pipelines (#575)
+058b043bbae2fbb266d182b3fb1c4133dc2a1383|2020-05-15|merav-aharoni|MPS: Optimize swaps (#665)
+22901a0be4d2d7e99ccb943a3687778bf8490b90|2020-05-14|Matthew Treinish|Update config access in calculate_channel_frequencies (#742)
+3fe5883f9d09fe6146bf55609511fa9c3eef0a90|2020-05-14|Christopher J. Wood|Optimize Pauli expectation value performance (#737)
+f8ce3a2fa0ead47476809716f692a5d5a818b939|2020-05-13|Christopher J. Wood|Improve efficiency of checking measurement sampling conditions (#730)
+5694893fe151947fbc68bcad02dd7941c88b46cc|2020-05-12|Victor Villar|Fix code style errors due to new pycodestyle version 2.6 (#746)
+ee25845167180819707bede73b8467511fc0b860|2020-05-08|merav-aharoni|Changed FP comparisons to use Linalg::almost_equal (#735)
+2f34d6e10ab9f77d6703d1f587510963af0ded98|2020-05-08|Christophe Piveteau|Implemented local and nonlocalerrors for noise inserter (#729)
+6b6fcf54923b7787e707c1eee08da60a65e50d20|2020-05-07|Matthew Treinish|Unblock ci for new jupyter-sphinx release (#738)
+4963e14e05bec4abfc9c95d2bbd82baf2318d908|2020-05-05|Victor Villar|Fix stall of pulse simulator execution as described in issue #726 (#734)
+4f7ab54f4193da4f942e54ac24f6bdfbb7d2c185|2020-05-05|Daniel Puzzuoli|Fixing subsystem_list handling in pulse simulator (#722)
+a04b1655a1a1f305d18252a494ee5c84086907ea|2020-05-01|Christopher J. Wood|Improve gate fusion (#667)
+6cd0215531732641d09f7f2967d4cf01b3f24a0f|2020-05-01|Christopher J. Wood|Fix number of parallel shots for statevector and unitary sims (#725)
+dae9a8464c9544d4bd5cf6f798fa080f142e58b9|2020-04-30|Christopher J. Wood|Fix broken unitary tests (#727)
+126067ae2905e10837f5531db0b79db667cce87b|2020-04-28|Matthew Treinish|Compress docs prior to upload (#713)
+b955798439e920fe0072aa1f557aca6cec1cbc7e|2020-04-28|Matthew Treinish|Add pip check to CI jobs (#668)
+a4c1397407ee53423f5d14fbbf75daee5e2c1424|2020-04-27|Matthew Treinish|Move stray releasenote to the correct directory (#714)
+a29757034546b9fb2d61def3c7393fb34573a15b|2020-04-27|hhorii|Fix memory leak in gpu simulator (#717)
+7de864cc989b354d0ad1febbd62b891270927b6b|2020-04-20|Christopher J. Wood|Fix tolerance when checking if diagonal is unitary (#707)
+ddd640e340d5a83e7e3ea4b51dc84335f8fe4f01|2020-04-20|Christopher J. Wood|Add missing release notes (#706)
+4846841d539ac01c336250f5abc5e0d3673fd8ba|2020-04-20|Christopher J. Wood|Fix depol error param for device noise model with depol + relaxation error (#704)
+d356b3cd89faffb4c9ecfed226f8b657f0b9243c|2020-04-17|Christopher J. Wood|Refactor OpSet class and add OpSet to base State class (#702)
+91840b4db1917b535ad1e3ba2923f4c7e2cfdcbe|2020-04-17|Daniel Puzzuoli|Pulse sim initial refactor (#649)
+7816fa01028f27e9b8df2593aa17bbbf6e3bb715|2020-04-17|Christopher J. Wood|Add templates to RngEngine class (#690)
+5828c51d918f125518c7bc1b217c14bcab79f6d5|2020-04-17|Christopher J. Wood|Update transpilation pass interface in controller (#698)
+b6dd1682987545a1e75a4a1b5c280572ec6ee9c5|2020-04-16|Eric Eastman|Pybind numpy input (#697)
+129e5ffd1319b33b99b17226368afa0b14c3acef|2020-04-16|Jay Gambetta|adding cy to stabilizer (#701)
+4ac26d2b6175fc0750b3ae855ebd01fd446669f0|2020-04-15|Christopher J. Wood|Move stl ostream to seperate_file (#689)
+13705b394b77e7080f4e69338a32ea108c1e4f3a|2020-04-15|Christopher J. Wood|Remove "extended_stabilizer" from automatic simulation methods. (#699)
+45eeb55c4fefcdac635c25934eb07c3e1ca6963c|2020-04-14|Christopher J. Wood|Refactor circuit (#691)
+916cf694d76d01e48dbc08b1190bdab085e16bd3|2020-04-14|Matthew Treinish|Disable jsonschema validation by default (#688)
+dc7a2413e6c373455c00cff51e37eaaa17a4a7ac|2020-04-14|Christopher J. Wood|Fix ReduceBarriers to be applied before truncation (#693)
+579fdce7cb5371374f21762ded9d99585ba0aaa1|2020-04-14|Matthew Treinish|Avoid to_dict() when possible in pulse system model (#695)
+33fc3af125f815260a57a8db4ac79dc8a0b6e5ee|2020-04-10|Matthew Treinish|Bump the version post release (#687)
+17c3b10aba8222f72fbc82302e38dbdc29c2f49b|2020-04-09|Christopher J. Wood|Add backwards compatibility for terra < 0.13 (#686)
+fc5e71ad18cb5ced8f4a070ab5e91a108b05258d|2020-04-08|Christopher J. Wood|Fixes for terra 0.13 release (#676)
+81ef9533ba497bbc258c0a086691dd20384883dd|2020-04-08|Christopher J. Wood|Add support for terra diagonal gate (#683)
+870d163c37ff9485554f772107d44f7cc2b81da4|2020-04-07|Christopher J. Wood|Add support for parameterized qobj (#485)
+2dbe2b4e1e1a97b364a1c0b400de594136135124|2020-04-01|Matthew Treinish|Use substring match for master in azure config (#679)
+8aa1b913260b3d7d6bb81b7c0fe48bc81aaa95f0|2020-04-01|Daniel Puzzuoli|Update pulse simulator tests to reflect updates in terra (#678)
+1460009f053f77adb742f1bad0dfed976370e1e7|2020-03-13|Matthew Treinish|Start using reno for release documentation (#642)
+a5acd4597761e5776f32284382576b5297dab446|2020-03-12|Juan Gomez|Adding muparserx lib for armv7l (RPI 3/4) (#660)
+16fc8caccc60959d27011958b92af91f92c5658f|2020-03-12|Mikael Haglund|Added postfix for linux on Raspberry Pi (#651)
+542c071ca03e34de24fa8da3017056600d7363e5|2020-03-12|Matthew Treinish|Bump macos version in travis (#659)
+9df22d44d9c9cd8dcdedcdfcd81e61837ced9a71|2020-03-12|Juan Gomez|* Add GPU installation instructions (#658)
+1a0377c594fd096a15e20f56ed183e78055d4263|2020-03-11|Matthew Treinish|Handle numpy array inputs from qobj (#656)
+dff593f71481f7b4c42d83c75669093d84c653f1|2020-03-10|Juan Gomez|Fix Linux benchmarks (#654)
+8856736858fadbff9ea69f4c828d37f507d8e950|2020-03-10|Juan Gomez|Update Benchmark framework (#653)
+12b9a2305fd0ca1319b3046aefacc05886395bbc|2020-03-04|Jun Doi|Fixing CMakeLists.txt for standalone GPU build (#647)
+53886c4f2fab3e1e82d4a976fcd8d3fda3c65ed0|2020-03-02|Matthew Treinish|Copy config for using terra release on stable branch CI (#643)
+5c3d16b6be8c24a2d67fe0cbb05566689577f2d3|2020-03-02|merav-aharoni|MPS: Improvements to apply_matrix  (#641)
+7fb91472032a1de7bdfac3cbf762f0f3008ade25|2020-03-02|merav-aharoni|MPS: Added thresholds to loops that use parallelization (#638)
+a96567466f23df9cf7cc8bc4d2bd6de79aeefb62|2020-02-28|SooluThomas|Rename apidocs landing pages (#639)
+d3ed41e43a75199a5f329deb3eae35485571f379|2020-02-28|Eric Eastman|Fix QuantumError sometimes casting probabilities to complex (#640)
+150f4050633d94338b03aa54aad35cfe9ddd5790|2020-02-26|merav-aharoni|MPS: Support multi-qubit apply matrix (#634)
+5132a0521867beb2544d6bf1fef3a0e39b1b6c16|2020-02-25|Matthew Treinish|Use bionic for CI and stop using toolchain test ppa (#637)
+b51206cfde567c22df43ae726e2bc9e785066143|2020-02-24|Matthew Treinish|Exclude new cvxpy release and update pip via conda on azure pipelines (#635)
+0d010b3792098174543b700fcbd4ef6b167a4e09|2020-02-24|merav-aharoni|Fixed MPS expectation value when qubits are not given in ascending order (#603)
+38c1677fd032125fe3428e06d278c2e4a89a0a24|2020-02-20|Christopher J. Wood|Fix gate fusion bug (#606)
+5f27f23f6bd00bc9014921fb859a2f25f0268259|2020-02-20|Christopher J. Wood|Fix bug in QuantumError compose method (#605)
+0fe86a7f5545e191158c580e7d98969eace01cea|2020-02-20|Jun Doi|Fixes #578 replace PyDataMem_NEW_ZEROED to PyDataMem_NEW (#620)
+7056d4cb05d8695b09660caa5fa57876a7032fde|2020-02-20|vvilpas|Find muparserx system library before using distributed one and download code (#621)
+fc8994881f67d66af40d3f503cc73981ec49ebf2|2020-02-19|Juan Gomez|Improving CONTRIBUTING guide (#614)
+1a2937190b23450d839692102e0bba36acb56d73|2020-02-18|hhorii|add comment of gpu options (#613)
+f8500917ca651f0e29387f57ebadf291caca3c67|2020-02-13|SooluThomas|Update the heading of the landing API docs page (#612)
+1288276682e69f78613ce4d5a2acfd8a9bb0f3c8|2020-02-12|vvilpas|Fix TBB compilation (#598)
+070805628270efc21ab6ede8b32ad47b650d8543|2020-02-11|Matthew Treinish|Switch linux wheel compile job to mirror deploy job (#601)
+62d4337631fd754271afa4956c7bfb286f73014d|2020-02-11|Juan Gomez|* Removes static numpy initialization strategy for the Pulse simulator (#609)
+1e086f961147dc4874181943a5a4779395eea096|2020-02-06|Matthew Treinish|Add terra to the aer requirements list (#593)
+b0e254cab46fa838176a56a9c5671cd4e87222f4|2020-02-06|Daniel Puzzuoli|Added test in verify_wheels.py for pulse simulator (#588)
+12f97c8ba24e733633bc36077e76faf485a4e5eb|2020-02-06|Matthew Treinish|Bump minimum required version of numpy (#594)
+83b2c726a48daae298449aa0e3acf87e3f5d1501|2020-02-06|Matthew Treinish|Fix issue with wheel automation from first attempt (#589)
+474fef4a91f48ecc180c0e1380d7922df22d4776|2020-02-06|Juan Gomez|Bumping up development branch to next minor release: 0.5.0
+9e729b7a2bb2a3772d1f65dccb39f5cc16bf7e4f|2020-02-06|Juan Gomez|Fix typo in the Changelog
+79fe8e76e8d84e37ae98da0391ed6a586ac7ef83|2020-02-06|Juan Gomez|Update CHANGELOG for next release
+8cb7b419004cbba5fa96dc977a899b3e93d1447c|2020-02-06|hhorii|Enable fusion by default for 20 or more qubits (#579)
+1096adc3979ad07f774cb3ff0b84e592ca3c7777|2020-02-05|vvilpas|Fix is_dir_empty check. Get git submodules individually (#583)
+753db3594f324c83ffa246711ac80e115c638fc2|2020-02-05|hhorii|add muparserx for ppc64le (#572)
+248bc9e586fcf1015ec2ea68947a1a7824943202|2020-02-03|Matthew Treinish|Fix sdist builds and add test coverage (#560)
+b583392338011da93c98a4f86ba149941b78482c|2020-02-03|Juan Gomez|Adding Thrust library as a submodule (#576)
+c1896878440846f4de1ad1a769f9a8ac318f12d8|2020-02-03|Juan Gomez|Merge pull request #577 from vvilpas/travis-fix
+55381d5eef6310e12097ecdc1b9e3517adb59103|2020-02-03|Juan Gomez|Merge pull request #574 from vvilpas/Clean_Cmakelists_Standalone
+4d8db433568f7eb5e286db756368c62981dd2af5|2020-02-03|vvilpas|Small fix in cmake to try make travis work with sdist
+c1480d2566942f032eaf39d73bdf8ce8df19e931|2020-02-03|vvilpas|Move Muparserx related things to Terra Add-on build
+d2ccea906245b9bdfeacab29ff7fcfacb9b35b3d|2020-02-03|Juan Gomez|Merge pull request #573 from vvilpas/Fix-MuparsersX-Source-Code-Download
+371d87ffc1e50bbe11ea416c15e2bf5cc585b21c|2020-02-03|vvilpas|Cmake: Set parent scope in output var within is_dir_empty function
+cd9e629295f798f5b4a9ff5585acf8c34f13373a|2020-02-01|Juan Gomez|* Check for the existance of MuparserX library code (#570)
+0e9e89a5c7ce01a369050dfca390300285e89c9d|2020-01-31|Christopher J. Wood|Add `NoiseModel.from_backend` method, improve noise API docs (#569)
+f9f1ad20c2342020c1eb53f2b02cdb5362641486|2020-01-31|Christopher J. Wood|Simplify structure of `aer.noise` and `aer.utils` modules (#568)
+520ef9b3f5ef03ad1115e05ea2ed2665ed1acb31|2020-01-31|Christopher J. Wood|Merge pull request #544 from chriseclectic/gpu-rebase
+4550206fa43b519e9a8683549fe99d82f45b1d18|2020-01-29|Christopher Wood|Restructure simualtors in src directory
+be00971228b77a2ebd1a18ec7faab5080947ab5d|2020-01-31|Juan Gomez|* Rearrange some code in order to avoid a known ICE in some versions of nvcc The one provided by RedHat (CUDA 10) is affected. The problem was related to a bug in the compiler when dealing with const variables passed by reference to lambdas.
+c5a6f97ea5640e95e79f29f0ed1718ee002c1986|2019-11-26|Christopher J. Wood|Add tests for Thrust GPU and CPU backends
+51c6e469cf4ac75b4f421b5c83bfcadc27fd0497|2020-01-29|Hiroshi|Add unitary and density matrix simulator to gpu
+2fb2cfbb42ab1ddc2969e801840d2049faab25af|2020-01-29|Jun Doi|add chunk based optimization of GPU simulator
+c6f2013fcf1e958a716a1e3c0ed6481b207a5941|2019-12-04|Juan Gomez|Fix build system with GPU simulator
+c1e34ecbcb8206734c30ec745075d06d3a0817f5|2019-10-03|doichanj|GPU enabled Qiskit Aer by using Thrust
+7fee89e9ab58b3784369381ea5f911c9125118a5|2020-01-31|Christopher J. Wood|Rename `aer.openpulse` module to `aer.pulse` and cleanup imports (#567)
+8d374e32f8001c6b09f6906438671fed0d232176|2020-01-31|Matthew Treinish|Fix incorrect stage name for wheel jobs (#565)
+7923aae21d91f994612f6ee02682042821f5993a|2020-01-31|Juan Gomez|Add "omp_get_num_procs" symbol to the list of hooks (#566)
+65474a0c9acdf8774fcb299808d0ff42a957fbab|2020-01-30|Matthew Treinish|Build wheels automatically in CI environment (#168)
+e477e7171696970a14b4f3b80c20adfcd6d86c67|2020-01-30|Christopher J. Wood|Update QuantumError and ReadoutError to mimic new BaseOperator API (#563)
+804b670638cd7df07565b1ecab98b7ad881af9fb|2020-01-30|Daniel Puzzuoli|Pulse simulator doc strings and changing naming of `qubit_list` (#562)
+d445d0136f61523281fc22f9e20be9c016e1dd8e|2020-01-30|vvilpas|Use different muparserx library in linux depending on the ABI (#561)
+230193bd738c2740c66758ddb9ad55b42963479d|2020-01-30|vvilpas|Install added to standalone build (#557)
+a1ddb6e47669dce0dde079af881cfecac503eefa|2020-01-30|Eric Eastman|Further reduce c++/python conversion overhead (pybind) (#504)
+878e41e6dea18a0e6f04e9981b4bca91f32c6188|2020-01-30|Daniel Puzzuoli|Updating pulse simulator to new way of specifying Acquire commands (#559)
+55fa4adb5f7f5b983496819435d67cd8e8bf5116|2020-01-29|Christopher J. Wood|Add compile stage to travis script (#554)
+a3d620ff1359bce123e0a8964349e1238afe3c5e|2020-01-29|Daniel Puzzuoli|Fixing pulse simulator eigenstate ordering bug (#558)
+1e029f22aee66d60d6946cd67c07ecddb33c41b5|2020-01-28|Matthew Treinish|Add randomized benchmarking benchmark (#534)
+e090fd72f4550250502173ebd6c83c10c12409ad|2020-01-28|Matthew Treinish|Add benchmark for qft (#535)
+c0c5ce852a9206b393d0ca09acf95cb3ca4e269f|2020-01-28|Juan Gomez|Issue 524 - Fix OpenMP on Linux (and Windows) (#550)
+ca24408a27182f15531b496b0de8af9ce34b3ccf|2020-01-28|Christopher J. Wood|Fix bugs in parallelization thread management and improve testing (#551)
+2c323a34ea703285b5fb0e130bb18a74fafbacc2|2020-01-27|Daniel Puzzuoli|Doc strings, default behaviour, and minor bug fixes for pulse simulator (#552)
+a2a16a49c6e7f4fcbade2e6a210ed5aaff5a8fe0|2020-01-28|vvilpas|Choose BLAS library path (#543)
+f2ecd87f8f2bc63f554188465cd8cfd3dc381e74|2020-01-28|vvilpas|Disable warnings when compiling .cxx files generated by Cython (#553)
+80bb6e6be77ffbe2701afa656f68aa7dae7b7468|2020-01-25|Daniel Puzzuoli|Pulse simulator control channel labels from backend (#545)
+acd58965e0af75ec24dcbd1d7177f14306aad192|2020-01-25|Christopher J. Wood|Fix missing pulse simulator dependencies in setup.py (#547)
+40d903797e497c281bbb6fb42d1e45ccfcc482d7|2020-01-24|Christopher J. Wood|Merge pull request #542 from chriseclectic/openpulse-sim-rebase
+afb13af22130057c5a08f9e9398b30c6f9930551|2020-01-23|Juan Gomez|Cleanup build system for pulse simulator
+e0aa05defd738e25c4be2c0d4b3b8903036a5202|2020-01-23|Christopher Wood|Remove example dir
+7d6f5e782739aa04c291ea6694521a415546b6a2|2020-01-23|Daniel Puzzuoli|Duffing system model generators for pulse simulator (#516)
+6de4821a750a19a674527be64cab76daba4df4b7|2020-01-06|Daniel Puzzuoli|Removed `noise_model` and `sim_config` as an argument in the pulse simulator (#503)
+6c4fe992178b859510707b0995368e8fa5797dfe|2019-12-23|Juan Gomez|Compress static libraries and integrate them into the build system (#502)
+9d5a6efd59bd9c78e55eec8863e12b67c8d1d09a|2019-12-22|Juan Gomez|Migrate ODE function solver to C++ (#442)
+e7a3570a7890bcdc44c19bb65f60aefd972f8648|2019-12-20|Daniel Puzzuoli|Adding SimSystemModel class as higher level class containing HamiltonianModel (#496)
+c5fb127c1c6b4b96093fb3c7b5c6eb5fb4101465|2019-12-12|Christopher J. Wood|Add HamiltonianModel class for configuring PulseSimulator (#493)
+0b45f12986555f4adbe3d2e7ad90d60b863f7d10|2019-12-09|Daniel Puzzuoli|Issue 478 pulsesim test errors (#479)
+f1da1b4e20525bd7945d5c9cbf8c240155ee81ea|2019-12-09|Daniel Puzzuoli|Moved warnings for unsupported features in digest.py to the function 'unsupported_warnings'
+dda0304daf703aa1b83c8d12b69f54e173c2fa8e|2019-12-08|Daniel Puzzuoli|Fix pulse schedule `dt` parameter not being applied in pulse simulator (#473)
+69b0d78bfde63186ea57abb787149cf6151e21e2|2019-12-06|Daniel Puzzuoli|added warnings in digest_pulse_obj for unsupported features -rerun
+29a5a80cc8ee54076e4d6d253e748fe7505b83fc|2019-12-06|Daniel Puzzuoli|Calculate qubit_lo_freq from pulse hamiltonian (#459)
+0e23019c2fcc37d64347c8cb6506c8fdcc5d2baf|2019-12-02|Daniel Puzzuoli|fixed pylint errors (#465)
+422356d58b8e26cc355e1ff3094aa9b55a1c9c0e|2019-11-26|Juan Gomez|Remove qutip_lite math.pyx module - The module seems to be conflicting while cython builds, with the standard   math module, in some specific configurations.
+a91f113200ed7e6bcf500b98679acf0b333775bc|2019-11-17|Christopher J. Wood|Add backend_options to PulseSimulator.run (#435)
+725da05a5953e006970a3517a5d4463cc5ddc09a|2019-11-17|Paul Nation|Fix indexing error in FC (#451)
+35e2ce526c0e5f7a4d232ea991cbf6148a3d3120|2019-11-14|Zachary Schoenfeld|Comment abt meas level 1 (#447)
+99fa25b03a7a0024bc8fbe0fd92cce80a5f0571f|2019-11-08|Zachary Schoenfeld|Pulse sim tests (#379)
+3e5fc867c4b1d341e8583b4b5d6fd8d255347de8|2019-11-04|Juan Gomez|Fixing linter for OP
+133119f0555a11ab98dc7acdc8e2af02f9e19f60|2019-10-08|David McKay|Added statevector and estates, fixed meas level 2
+571a5aaf2d55579ff8910604de6b1cfb128ea27f|2019-09-20|Juan Gomez|Integrate open pulse cython into the build system (#350)
+43ff9c150693a7a954a91070fc80e7d92f53705f|2019-08-14|David McKay|Add identity qubit op, fix error in converting from Z to N
+84ce5e48cc13229a7a691b421a7e5b4750cde312|2019-03-11|Paul Nation|Add openpulse simulator
+f6e84e9f0b04157df66f9e8e8f1925a026f8459f|2020-01-22|Christian Clauss|from qiskit import QiskitError for lines 55 and 110 (#538)
+632705e3e54d27b48cc51b3cbd4e82a513cf3555|2020-01-22|yaelbh|Rewrote stabilizer Pauli expectation value (#525)
+76d7807b86e0c79f9627f5671225782f72a4bbb6|2020-01-22|Christopher J. Wood|remove initialize from unitary_simulator basis gates (#537)
+1a3003976282c313b974f381c89f62378aaeca65|2020-01-23|Matthew Treinish|Pin pip<20.0.0 and bump osx python 3.8 to 3.8.1 (#540)
+c745829f94517408ddf3bd97c582caa1c2584e89|2020-01-22|Matthew Treinish|Add python 3.8 support and deprecate python 3.5 (#428)
+b500444c30017ace8a7a39bd98d1c75dba4bf6a3|2020-01-20|Juan Gomez|Fix CMakeLists.txt and FindPybind11.cmake to pass compiler options to… (#529)
+6c4dffcc7772eec624ebb6ad011279d927ed53bd|2020-01-20|Eric Eastman|Fixed bug in FindPybind.cmake affecting certain environments (#506)
+2028cb9a0dabb0737225ef718946ed8ff68ea04a|2020-01-21|Matthew Treinish|Add pybind as a requirement (#531)
+9656fedcfd73c1066427be57d1a4382afa4152c9|2020-01-15|Juan Gomez|Issue 490 - cvxpy needed for noise transformations (#520)
+f50f609dee6b7293b97e13d5642bc682f9f181d4|2020-01-14|Spencer King|Fix broken tutorials links in the README (#519)
+8d0d5b01a978ec17e2ed3beb7d4969b62a689a5c|2020-01-08|Adhisha Gammanpila|Fixed get_backend selection command (#507)
+bb8ff4279f51ddb98158cefc23d799fb6ddb772b|2020-01-08|merav-aharoni|Added support for ccx in MPS simulation method (#454)
+1734761ae1f9a65f4507376c25b71f1af51948bb|2020-01-06|Matthew Treinish|Make sphinx build warnings fatal (#469)
+0e184e09c6e1c6f28d4e4b199e9182d262b81520|2019-12-28|Eric Eastman|Converted C++/Python wrappers to pybind (previously using cython) including build procedures, python-side updates, and nlohmann-integration (#505)
+9932431faa4ae3afe286f56bab3f24787089b96c|2019-12-20|Matthew Treinish|Bump pin to unify lint job versions across elements (#498)
+4f4fea8307335f70400f71756fda3aa009988b86|2019-12-13|Juan Gomez|Merge pull request #494 from mtreinish/remove-pip-pin
+14d2098787aca3ffabca4e30d691495f36538b7e|2019-12-13|Matthew Treinish|Remove pip pin in azure jobs
+9c778a1273f85951d4f3f12edff7e7a67ce51fef|2019-12-09|Juan Gomez|Rotate CHANGELOG for next release
+036f534463204e0bdf29c75674fad3204299243d|2019-12-09|merav-aharoni|Fix snapshot_probabilities in mps (#424)
+55adf7dd45ef2c3ab4997f7e461a60058db348a6|2019-12-08|Juan Gomez|Merge pull request #456 from kurarrr/fusion-benchmarks
+ebc70542b35e90c5ed5368681a48d3efc91cbbbe|2019-12-06|Juan Gomez|Remove unused benchmarks directory
+43580139161c5b96456ff984fa84a47c5fbcca9a|2019-12-06|Christopher J. Wood|Fix bug in unitary simulator cu3 and add cu3 tests (#483)
+5083f13618b0eff2a3730228af7c83dff613995f|2019-12-04|merav-aharoni|New computation of expectation value for mps method (#344)
+3be742500ffb29784682804afa0938eea465e05d|2019-12-04|yaelbh|Add probabilities and pauli expval snapshots to stabilizer method (#423)
+fdc961d94686eecf354ad63f4095d221d813ed83|2019-11-25|merav-aharoni|Cleaned up code for the function that handles 2-qubit gates in MPS (#431)
+6697a5bc3b10b26d7a11de25343ab6b49900d253|2019-11-19|kurarrr|Added Benchmarks for Fusion Optimization
+a711a3f3384841c1adef8356329ae17e93dbc1bf|2019-11-19|Juan Gomez|Merge pull request #448 from mtreinish/parallel-tests
+692c33f3a937a9db830cbe31cebbc8a01f511379|2019-11-14|Matthew Treinish|Switch group regex to parallel-class
+9b290bf419702446b7c16389fbde7aff44f6bdd0|2019-11-14|Matthew Treinish|Add slowest flag to see if there are slow outliers
+2fcc16fb16c20ccbff3521f2117cdfdcdab0541f|2019-11-14|Matthew Treinish|Switch to running tests in parallel with stestr
+d094c05155510cfea08a0b40b38e2b0d491b7b7d|2019-11-14|Juan Gomez|Rotate changelog
+8bfdc215c135309e7838fd18105e22ec626a4ed7|2019-11-14|Christopher J. Wood|Add missing basis gates to backends (#417)
+7abb926756ab9e0e5b76ff5ae380c4d0315dee9d|2019-11-13|Paul Nation|Rename docs api files (#443)
+ed641f3ea98cec92e3c340ab5cd683f450d401ab|2019-11-13|Christopher J. Wood|Improve average snapshot container and performance (#407)
+c43fc652b3a1cb07c73dd09e9d5782e940a57d30|2019-11-12|Christopher J. Wood|Update API Documentation (#427)
+e41d8683775d1d905def9e91048d8e338bc221fa|2019-11-12|Matthew Treinish|Switch cvxopt usage to cvxpy (#430)
+c5f3ec015cb87af6ee0313301fc89ed99c7e3203|2019-11-05|Christopher J. Wood|Add automatic label detection to NoiseModel (#418)
+269d5eced6f4a7a5f09059c02cc5a9e462fd415d|2019-11-02|Christopher J. Wood|Avoid unnecessary memory copy during QubitVector::revert (#409)
+fbad62a8ddb024c3538f142bda1bb9a8cb3f3db3|2019-10-31|Christopher J. Wood|Simplify qobj class (#366)
+b0aa353d4f79571781a8fe9d193557c5f6dc0185|2019-10-30|Matthew Treinish|Add docs build jobs (#415)
+ed6f40d862a623aa0405314df013b9c86d054970|2019-10-30|Christopher J. Wood|Linear algebra operations for STL types (#406)
+35ca5905a607ab9eb3ff3e04fa58f8e74601ae35|2019-10-29|Juan Gomez|Merge pull request #414 from jwoehr/setup_needs_sys
+f1c5fec6d6666730702a3cfa968de06a05d9b008|2019-10-29|Jack J. Woehr|add sys to imports in exception block
+c7c1fb83c57ebfaf80d3cd15d2457951e13677ba|2019-10-30|Christopher J. Wood|Improve pershot snapshot data container and performance (#405)
+03fee0f437566b668750714ee54246bc715b3e5f|2019-10-23|Christopher J. Wood|Improve additional data containers in ExperimentData (#404)
+9383eb6f6d597c1dc09a2cc10d40b914c138be5b|2019-10-22|Christopher J. Wood|Fix units in mock backend config (#408)
+de6732bd7663b210cffd811981d900aa7df09675|2019-10-17|Juan Gomez|Moving CHANGELOG to next release
+a1ffe4e1c63c80ec7ddad04d7a02a2441e592e6f|2019-10-17|Juan Gomez|Add latest change to the CHANGELOG
+1cdf276ddd22acf78c3a3873982520dd2da41a63|2019-10-17|Juan Gomez|Merge pull request #401 from mtreinish/fix-sdist
+f344eedd46038414a38da62d1b33b1de080c88a3|2019-10-17|Matthew Treinish|Remove ninja from setup requires list
+9d8bed8e7f8bff3fca5c27e4855201c1682882fc|2019-10-16|Matthew Treinish|Fix sdist to always attempt to build
+89de098a5f3ce6c8c17e61edfffbc9cd46e54514|2019-10-15|Juan Gomez|Update VERSION.txt to point for the next minor release
+b76e8d127c5de14b7ab71653e86ac7da1042aab5|2019-10-15|Juan Gomez|Preparing CHANGELOG for next release
+3810fb0eb7e41dfb7145827880a32bff5bc5a442|2019-10-15|Juan Gomez|Fixing tests due to changes in the way Aer deal with errors in the results (#397)
+4994e0d62a0c5f094b23ee94e4282bf2606e1a9c|2019-10-14|Christopher J. Wood|Add Result and ExperimentResult structs (#365)
+0a49822db323b5974228806306c6dfb5a44864e7|2019-10-14|merav-aharoni|Added support for reset() in MPS simulation method (#393)
+d6b69942e9cb31ef969c455f180a37008ff663e0|2019-10-09|Christopher J. Wood|Fix expectation value snapshots (#386)
+793833ef54bbcd3a675c4005eee5c3f6f74c018b|2019-10-04|Christopher J. Wood|Remove un-implemented methods from MPS (#375)
+e005425f852c45b0a8fb2a48f5b09287ab28f0c1|2019-10-04|Christopher J. Wood|Fix snapshot probabilities extension (#380)
+6d4e2b1330d1b80d3e7bc99efe589bc140fa480b|2019-10-03|Christopher J. Wood|Fix snapshot density matrix (#374)
+382ccd2b55df65f943e8da543335a79cb224c200|2019-10-02|Christopher J. Wood|Make qobj schema validation optional (#378)
+54c431973d8d23b869f368755a551a01c9665bea|2019-10-02|Christopher J. Wood|Snapshot statevector and stabilizer extensions (#355)
+958e523d036171628ade7e0e983a061f79d75c16|2019-10-02|Christopher J. Wood|Remove libomp and openblas from travis mac build (#377)
+836faf6c993831e09824e1867b92f9aee8bbfb81|2019-10-02|Matthew Treinish|Add travis wait to brew installs (#376)
+99596949e7e023f8303c925e2524906c318c5ff5|2019-10-02|Kevin Krsulich|Import sympy lazily. (#373)
+7635b5e5f3d3b64e834af154f8326be7cbce8bcd|2019-09-30|Abraham Asfaw|Updated noise models to consume asymmetric readout errors from backends (#354)
+fb091bf0a49bead7a817ae759e2ccd4595b37026|2019-09-27|brandhsn|Added tests for the Fredkin gate (#357)
+559a5763fb6d609f2779b78027c753bf4c89b1cc|2019-09-26|Paul Nation|add api docs locally (#339)
+a0ddd8de24ce2c51538373e81152c0277043c3a6|2019-09-26|Christopher J. Wood|add fixed simulator seed for qasm simulator tests (#367)
+645f30b06e6954e6d7ce6738b214709ddef87caf|2019-09-26|brandhsn|Added tests for the cu1 gate (#360)
+d52989728f4614272d7afe884cbf66a4a38dd85d|2019-09-26|Juan Gomez|Update changelog (#364)
+4c2a4ad8b5b27da3e80dcb79fc51440167469af1|2019-09-26|Juan Gomez|Modernizing code (#338)
+d8a524244176d2ee9bd8c5d95952b5f7ba1fdee5|2019-09-25|Matthew Treinish|Don't allow zipped eggs (#361)
+429f1d5e6927aa3a0629e50d903cef6ac68d7104|2019-09-25|Matthew Treinish|Fix lint failures caused by new pylint and pin (#362)
+258c9f5dae8bfb920a4d38741cd70934519abe75|2019-09-25|Juan Gomez|Removing temporary files for the MPS sim (#359)
+5150a2612e2b1b45a75fc2d7388ba71fa0a4f9ad|2019-09-25|merav-aharoni|Changed name tensor_network to matrix_product_state. (#356)
+cd2d38f75412f40c1fac1c41609c320b24ce2ae9|2019-09-23|Christopher J. Wood|Update device noise model to use gate_length (#352)
+2cb091b2b83731246c6a85cfd90e6ae71d1cd25c|2019-09-16|Matthew Treinish|Add tox.ini to start using tox (#348)
+dcbdf4a66315d564d11e64af3afb03173852369b|2019-09-16|Wei Hu|Fix some grammatical and spelling errors. (#345)
+2618a7db48a7744ed8e35072c84a1a6e7e556fc8|2019-09-11|Wei Hu|Fix spelling typos. (#343)
+abd418e37359210e809a94e74db33f08ad053fd6|2019-09-07|hhorii|support cu1 fusion (#334)
+0d6875ec4ef94ee43935e6aa277976d2f1641b9a|2019-09-03|Paul Nation|fix docstring bug (#337)
+121775a1fc3ea90f994d86be4c242057f91fe6c2|2019-08-23|Juan Gomez|Rotate and fix CHANGELOG for next release
+074c8db6dde93c284277c617dda7a446f3d06a01|2019-08-18|Juan Gomez|Linter fixing (#329)
+0086c04ffe0d706e05544fce9daad7027860e979|2019-08-18|Jay Gambetta|Update README.md (#328)
+4d17ad2780553628e781d10fc6f2540f6db86798|2019-08-14|kanejess|Snapshot circuit extensions  (#317)
+3ee60a5adffe114b1f3e2cabd381a328377f4ac2|2019-08-14|hhorii|Added change logs for supports of single-precision and readout-error sampling (#327)
+9224e4c944536778bcde335d4f4d7b17b800d984|2019-08-07|Christopher J. Wood|Delay measure circuit optimization (#318)
+27c29a97e49379b7c03f6dadb156873b41bf1813|2019-08-06|Christopher J. Wood|Disable truncation by default for non-Qasm controller (#323)
+6e4b479700f04ccf1a421b819e88fc2218dcdbd3|2019-08-05|Christopher J. Wood|Fix data accumulator not loading config (#322)
+9189ccfae2f9b9b45f3a09a9930667848261fb23|2019-08-05|hhorii|calculate required_memory_mb based on state data type (#315)
+000655741f677cc56874fb8cd085ac3e7263a4bf|2019-08-05|merav-aharoni|Changed name of MPS simulation method to matrix_product_state (#320)
+fb4fb7be7a0e76a6e9bf6533caf51a40bc2a1dde|2019-08-02|Christopher J. Wood|Enable automatic density matrix method in QasmSimulator (#316)
+bb2ac97ea7b58c0f68f192cb527346fe2b7070ae|2019-08-02|Christopher J. Wood|Superoperator noise for density matrix method (#295)
+2510e71217ac270ae52eb8869cbd5bad6711e037|2019-08-01|Christopher J. Wood|Add some missing snapshots (#309)
+886b1695cb040b6bbf86f266baa2c979ad4e8bbb|2019-08-01|merav-aharoni|Partial measure in tensor_network simulation method (#299)
+05618488ba0e1c86f1b753a1451e8bfc93b55ff3|2019-08-02|hhorii|enable sampling for readout error (#222)
+ec98af18f33e650eb03af3698e76b721d3865374|2019-08-01|yaelbh|Added tensor_network to the doc string of QasmSimulator (#313)
+d58dae50383c2542ccd239a24d4e8e4baf01b7f0|2019-08-01|Christopher J. Wood|Add noise tests for different qasm simulator methods (#312)
+7a6acf8449110fa2b02b971ecdd39dea09eee524|2019-07-31|Christopher J. Wood|update multi-qubit measure tests (#310)
+5ab5f05c6be9fa4b5ae1730412de80f6cb78aefa|2019-07-31|Christopher J. Wood|update unitary gate tests (#311)
+98cf28c3b607a9b019b1cc9074a075de8ed949a9|2019-07-31|gadial|Noise model inserter (#239)
+07e646ecf5cc723267bb2565a9d13bc4b0d259da|2019-07-30|Christopher J. Wood|Truncate/remap qubits before calculating memory requirements or noise sampling (#296)
+48dc6b22659ef0a14d50272872289aae0685cccd|2019-07-30|Christopher J. Wood|Density matrix simulator (ideal only) (#253)
+c4feb8b953148ab71d24633e431c190182714713|2019-07-25|Christopher J. Wood|Remove persistent config and noise model from controller (#287)
+e95996e85a13b8d4dbe2a58259019af5ff3629fb|2019-07-25|merav-aharoni|Fixed coeff in tensor_network_state simulation method (#294)
+074d1325f5c87e9b4fdf5e54ac32a873c054a34f|2019-07-26|hhorii|support single precision in state vector simulator (#286)
+f17a0c7b3a34e70141d0a0d282f41998888aef1e|2019-07-25|Juan Gomez|Terra now requires to pass a coupling_map (#293)
+92607b7f60aad05803e68438ddcde35ed74431ff|2019-07-24|merav-aharoni|Fixed bug in parallelization in MPS simulator.  (#292)
+1cfcdbbbbc1bec9edd6e912ebd94fd7113305336|2019-07-22|Christopher J. Wood|Add validation threshold to backend options (#290)
+d6a70522f591ba238d4cb349d0dd5af685a0ffd9|2019-07-22|Christopher J. Wood|add check_identity function to UnitaryMatrix (#288)
+961b2ab81b50481ccaef687d056705fe38e94169|2019-07-19|Christopher J. Wood|Add support for conditional unitary, kraus, superop instructions (#291)
+aa8e16e96b007978224e84eb016ecf4963055a1f|2019-07-19|Christopher J. Wood|Add superoperator utils (#289)
+558b0bbc27d2562248f5b5ae81a578acba7a3d3c|2019-07-19|Juan Gomez|Remove transpiler optimizations from the benchmarks (#282)
+c7e3da6d75544207b46cd14ce78c3477f158f993|2019-07-17|merav-aharoni|Tensor Network Simulator (#64)
+827f8922948dd18a588e8617bccaec465934280f|2019-07-12|Matthew Treinish|Add entries missing entries in mailmap from github user metadata (#284)
+b5127da5f54f07db9609dbf8b9bf05a1f00ea237|2019-07-11|Christopher J. Wood|add .mailmap (#283)
+d82ed1001ee08890c1f10a4fe1537c9d48e1ad12|2019-07-11|Juan Gomez|Update CHANGELOG after releasing 0.2.3
+c13a857a930c1eddfc73c71d93b792c862c93bfc|2019-07-11|Christopher J. Wood|Fix bug in measure sampling (#280)
+25382c079682f7054929a9af65300db221863a4e|2019-07-10|Juan Gomez|Prepare CHANGELOG for new release
+cf5d8027d5a70f45751f1369f548b65c666442e1|2019-07-10|Christopher J. Wood|fix bug in NoiseModel for nonlocal errors (#276)
+04cf2bb1882ebe0c0db5d55b9f180074fb0f04df|2019-07-10|hhorii|Improve diagonal matrix multiplication (#262)
+48111ea07eef1844cddb6f927ad8d9b575aec617|2019-07-10|Christopher J. Wood|Add check if ops can be conditionals (#271)
+241c3d2f445cd55978da06dc0f51df80743d1a9d|2019-07-10|hhorii|fix sampling bug in qasm simulator (#270)
+5991f0675c0b4159c0316b96bcdd456bc694359d|2019-07-09|Christopher J. Wood|Add controlled-u1 to basis_gates (#258)
+d0cc516173183aa8cda12741014a43d7eced6175|2019-07-08|Juan Gomez|* Fix non-OpenMP builds (#272)
+a5e3aa265ccd0f1b3fafadbe0207c185a6a30406|2019-07-04|hhorii|Refactor and improve fusion (#255)
+3d4106ce25e1804180388d6f2ba0f066ae7a2c69|2019-07-03|Matthew Treinish|Avoid reuse in azure pipelines and split build out (#260)
+d32cbf68a52bcd57c5630aa88bd203db8ef2f194|2019-07-02|Juan Gomez|Merge pull request #259 from hitomitak/max_worker
+4806447284f23f1a14bfe19e044c6ea0ed4ba96e|2019-07-02|hitomi|Set max_workers to ThreadPoolExecutor
+f2bd261ace1b35cc96531e1ad01981ada569c030|2019-07-02|Christopher J. Wood|Add to_instruction to ReadoutError (#257)
+535fc8c5bd06655f6341f63952fcdc73d04ad759|2019-07-02|hhorii|Debug thread management for shot-level and add explicit parallelization (#230)
+a1e6876e3d2ead405ee7f04d3948c92425a0c1f3|2019-06-26|Juan Gomez|Merge pull request #252 from Qiskit/azure-pipelines
+f78bc52fd8b621fe7bfd4c243c5f2e8ca34b9c47|2019-06-26|Matthew Treinish|Merge branch 'master' into azure-pipelines
+70a6a463d5dcb929a596e5dd567bcbf5b6a57d87|2019-06-26|Juan Gomez|Merge pull request #254 from atilag/issue-232-elif
+7fd42330cdbd0c8523ab0724c7c77764079c8419|2019-06-26|Juan Gomez|Issue 232: Fix #elif preprocessor definitions
+9b9b614304df14dadbfe254ee2a9eb74205ba1ad|2019-06-25|Matthew Treinish|Re-add anaconda packages and install numpy
+b93da804e48218206377f0ef56498a9c8579f474|2019-06-25|Matthew Treinish|Remove conda package stage
+aaae9c7b81014f39a74b3e47d30e7e2762f084ed|2019-06-25|Matthew Treinish|Even more yaml lint
+90d36167f9bc07a6691ae38acfd877c62ad57ff3|2019-06-25|Matthew Treinish|More yaml lint
+f19776a7b2cca34c6d2014d023086bf575944193|2019-06-25|Matthew Treinish|Remove appveyor
+4e3ddb5f627666417741897be5d8c4588ae341e8|2019-06-25|Matthew Treinish|Update yaml syntax
+31e8b12804fa40a411e610578ead6a26736449d9|2019-06-25|Matthew Treinish|Set up CI with Azure Pipelines to replace appveyor
+af343f55cbbf0d42b39d2fd532aff4ff866c33da|2019-06-25|Juan Gomez|Merge pull request #248 from kanejess/patch-2
+5c1acd12f7d67302c9edbd31255cf37dfa85a169|2019-06-25|kanejess|Update README.md
+c23a93ee28221026b0a4050f82458e82bbda6018|2019-06-25|Juan Gomez|Merge pull request #247 from kanejess/patch-1
+cfdc246db851537cea0130b3ab23476424fb887c|2019-06-25|kanejess|Update README.md
+cedbab46f1b30bdfe08f517179d9aa7c52b19bc1|2019-06-24|Christopher J. Wood|Fix depolarizing error and basic device noise model (#243)
+2da46e9ca23ed62b0fb8e5ae5242a1b2266a3b67|2019-06-18|gadial|Noise transformation qubit extension (#236)
+a33079134e13b46c135c06698367d2b6591b4ee3|2019-06-18|hhorii|fix a critical bug in fusion and add tests (#238)
+ccb63a0042908c170392b2536a134fbaaee2d921|2019-06-07|Matthew Treinish|Move CONTRIBUTING.md to top level (#229)
+cf235c35afd57eaacab080b715d9f2a32259857b|2019-06-06|Juan Gomez|Remove deprecated warning from Terra and change our as_dict() to to_dict() (#228)
+e65bda3832e8d219381fc7333fd1af6f4b3d4755|2019-06-06|Juan Gomez|Enable python linter (#219)
+d964795b0a24b1d3287ba2ba2dda45d1dfed4a5d|2019-05-21|Juan Gomez|Update CONTRIBUTING guide because of the new release
+2bc6f544933891d7da52c3ea8fbf4bfdca83c6b5|2019-05-17|Juan Gomez|Merge pull request #216 from padraic-padraic/master
+8b882f53cd4b340505f2ab9716f87e669c1448a3|2019-05-17|Padraic Calpin|Fix for #204, memory checking
+391bf5ec66674c9305371973b5dcc5d8bf84169a|2019-05-17|Juan Gomez|Bump up minor version to development branch: 0.3.0
+b329ba8133fff991817d3e1a7c8b13fbecf91f99|2019-05-14|Juan Gomez|Merge pull request #210 from chriseclectic/fix-seed
+42cd1d4bb752afdd9e09ae52fa599e0c7df3ee8a|2019-05-14|cjwood|fix QiskitError import
+8777c287878d17c59c30589aaba84263e8834c77|2019-05-13|cjwood|Use seed_simulator from qobj
+feb2ba4701f3c2f2021ee931671f77975e694f0d|2019-05-14|Juan Gomez|Merge pull request #209 from mtreinish/add-stable-branch-policy
+652a21b7d1cbf090986d5e0fe60737ef504dce2a|2019-05-13|Matthew Treinish|Add stable branch policy to CONTRIBUTING.rst
+5baee79b876587dab3c05ca1f503aa306d64228b|2019-05-13|Juan Gomez|Merge pull request #208 from cclauss/equality
+5bb81501f87c069e8cd78a0f0621b64f3beec430|2019-05-11|cclauss|if mat is 1:
+28bf5ad7094c56e03254182e8d5cba784f671bc0|2019-05-10|cclauss|Identity is not the same thing as equality in Python
+d8d77270c745e4c31129ce7f816a93e1efc2e743|2019-05-02|Juan Gomez|Prepare CHANGELOG for 0.2.0 release
+cb8e6111b6d9651e369f25abe58636f9e7acdd7c|2019-05-01|Christopher J. Wood|fix performance degradation due to optimize circuit passes (#200)
+db04f749d9b7367f258b16304b9cebcdb6e404c3|2019-05-01|Juan Gomez|Update CHANGELOG (#201)
+8d72608fa8892556cf49926e34ae065a6d515d9c|2019-05-01|Juan Gomez|Enable testing in all of our supported environments via CIs (Travis) (#197)
+0b0a5b746470955e06dcf954f90a6614b526ae47|2019-05-01|Juan Gomez|Add appveyor for Windows CI support (#196)
+032ab67c6c4df47588e62ed69228949be2f95fb6|2019-05-01|Christopher J. Wood|Improve qubit truncation circuit optimization (#198)
+a3ad9ee2fe99dc6b5628c1ba28435ec925915e73|2019-04-30|Christopher J. Wood|update copyrights (#195)
+dd09f33077e0f6b490ab117405a4247e6022224d|2019-04-30|Wei Hu|Fix import error in simple_benchmarks (#194)
+8ad5f473271f82c46e7a3649b03da39b4124fe59|2019-04-30|Christopher J. Wood|Remap noise model utility function (#190)
+ebe967154b6d6119d738e7b73e22707d7023ae87|2019-04-30|John Gunnels|Multiplexer gate support (#192)
+b0fcb6c2e21089ee8b9f9923b03fc3f4de9a4729|2019-04-30|Juan Gomez|Forcing OSX deployment target to 10.9 via setup.py (#187)
+4acf17f1f38d3a5677b46a912824669da5ed067e|2019-04-29|Christopher J. Wood|fix GCC8 compiler warnings (#180)
+574996bc80b52684ce0b80a4caccd921b5a1fe5f|2019-04-29|Christopher J. Wood|update copyright headers (#186)
+3f1437ddc687c2404f1faf735d5e28a77963111b|2019-04-29|Christopher J. Wood|add optional labels to standard gates (#175)
+826bff98820e4856bce7c9510df646b0aabf2b4d|2019-04-29|Christopher J. Wood|Clean up backend options and fix test depreciation warnings (#185)
+e20852b65c25fc2b895bc0ee9d76b57e9fec0bfd|2019-04-29|Christopher J. Wood|prevent transpiler removing resets (#184)
+97987512f1fb8703cc497e6f125d8f2e897abdec|2019-04-29|Matthew Treinish|Fix type on loop iterators in openmp for loops (#182)
+68a09d418c1cf6e57b116347ed5923a1b0bd802c|2019-04-27|hhorii|add qubits-truncate optimization (#164)
+5c9f5f866b6da7123ac700a942d030170726581a|2019-04-26|Christopher J. Wood|Add static indexing to qubitvector norm (#178)
+d03966fde1d38dbdc198fb1578e6c0398a303d79|2019-04-26|Juan Gomez|Improve benchmarking (#177)
+e4e9db291f9bd154e7523aaea008de4cba687525|2019-04-26|Christopher J. Wood|update failing tests for changes in terra api (#179)
+8b4f4de1e7b3c661c58b50ad00f5c5cc1f390cdb|2019-04-25|Christopher J. Wood|adds kraus to QasmSimulator basis_gates (#174)
+1f8faf4e99619fa5056257ecbd8c16f7d5d80907|2019-04-25|Juan Gomez|* Adding MacOS to the CIs (#148)
+ce8037af80eb26bdc7ed0e5a5abb254b824d8500|2019-04-24|Christopher J. Wood|remove unitary instruction from quantm volume (#173)
+c33aa6f68744ffec02f71b69df6598b188c80cdb|2019-04-25|hhorii|Avoid frequent malloc in measure and U3 (#171)
+7b906a1443d30b9a70757a5013f14326b6bac8e7|2019-04-24|Diego M. Rodríguez|Allow NoiseModel.as_dict() to return a serializable dict (#165)
+e25aaaea83eaba1319cd0c770d47d1afd2156e0a|2019-04-24|Juan Gomez|Fix an issue with Failure simulations handling (#167)
+c46dd72e2801343232140a39dee09a6c2f105bef|2019-04-24|Maddy Tod|Fixed a typo in the Contributing guidelines (#170)
+cac9cfb406ad5823e6c5702711ec03d88bb3342e|2019-04-24|hhorii|Reduce unnecessary loop for shot-level parallelization (#169)
+6909f6b87d577410fd9ec686e8796e7edfcc1a9d|2019-04-22|gadial|Noise transform (#162)
+e497c6d3bb6e2d6a1af62cc6c375c1cac390c785|2019-04-22|Christopher J. Wood|fix snapshot_type not being parsed (#163)
+34f363db4c9e2f7557729462c95fb43e88742d76|2019-04-21|Christopher J. Wood|change format of unitary qobj params (#161)
+c87c88e0fbb34fad986c0d246960cac958709656|2019-04-20|hhorii|add fusion optimization for qasm simulator (#136)
+43e2c203c6e8fef89bf3900f3168a4a70ec3b2e0|2019-04-19|Christopher J. Wood|Error reporting and version to 0.2.0 (#160)
+576906ccd1906ea7c30e2172adcabd1713ce47d1|2019-04-18|Christopher J. Wood|optimize composition and tensor of QuantumError (#153)
+8353fc635e3e2dd527f1886e554ec202c4e48cd0|2019-04-18|Christopher J. Wood|Fix linker for linux build (#159)
+03b1d4311becebbe90028f7b3e5be99664792199|2019-04-19|Juan Gomez|* Add __kmpc_critical and __kmpc_end_critical symbols for CLang/MacOS… (#152)
+29c8ca5bccad8ec76c5d269c14832d7df4ae6e64|2019-04-19|Juan Gomez|Fix symbol resolution misbehaior for GCC and Clang on MacOS (#158)
+572da09989b5d242526bcfd18b0109bbbf1cca30|2019-04-18|Christopher J. Wood|reorganize tests (#156)
+8cbcff1cc40a983d15da16e8d6c8cd0c9d063db7|2019-04-18|Christopher J. Wood|add reset to standard_gate_instruction (#154)
+43804b2b4053590f82d1ad60f8833b0c6ef0facf|2019-04-19|Hitomi Takahashi|Update if case to use sample measure when shot is 1 (#151)
+3f8796286c6105efc067b5cbb5716ce4a0392a55|2019-04-17|Christopher J. Wood|Add controlled-swap and update static indexing in qubitvector (#142)
+e2df381f665c5803d60e803c1516004fa69c93b1|2019-04-16|Christopher J. Wood|Merge pull request #149 from chriseclectic/fix-quantum-volume
+f13ac32b7580edbc0432beaa4dc40a907a557619|2019-04-16|cjwood|disable omp in qubitvector probabilities
+04b9338b284e28b738f2fe9bf48430ce54d4db97|2019-04-16|cjwood|fix failing quantum volume benchmarks
+103afbfbbbd1e2b547912ac476473bdcd0d3825a|2019-04-17|hhorii|add omp to probabilities in qubitvector (#141)
+bfdd67840f42672e85b1f74124a59f92e82044a1|2019-04-16|Christopher J. Wood|Add to_channel method to QuantumError (#143)
+444110a77e28db89663a11c3fe73beec5de20e22|2019-04-16|yaelbh|Initialize gate (#137)
+ef2e910b474379bb3a6f45e1b4f42cc3dc39c0c0|2019-04-15|Juan Gomez|Adding -flat_namespace link flag to MacOS to avoid misbehavior in dynamic symbol (#144)
+3c02eea4606d70005a34b2c237c0d78d27d62cfa|2019-04-15|Juan Gomez|Improve windows build (#138)
+edee8a6d8308dbd8512883a3db29901b6b30e639|2019-04-16|hhorii|Add two-qubit lambda in qubitvector (#133)
+2f823976d32138c3f755a7a66fc6b3230dbb170b|2019-04-15|Shelly Garion|Add initialise simulator instruction to statevector_state (#117)
+919fe69bf635ffeea5c850ce3058bf78d0e4ab24|2019-04-15|Christopher J. Wood|fix quantum channel import path (#139)
+9816a9465e3be53b32e903f66290c89a52443786|2019-04-15|Juan Gomez|Merge pull request #119 from derivation/contributing
+dd455f911b649560f88fdcf2d6970db810f8af06|2019-04-12|Christopher J. Wood|Add support for optimized multi-controlled gates (#124)
+0c723ef9c739a1dbbb478605e33ccbe6dd808253|2019-04-12|Christopher J. Wood|Fix ifdef guard on statevector_controller
+dd351e58c0ac9245cf1465723eaa20a8a94796d2|2019-04-10|Juan Gomez|Merge branch 'master' into contributing
+2b130020a863d3e36d8048414cd677a97498d450|2019-04-09|Christopher J. Wood|add ability to disable depolarizing error on device noise model (#131)
+ac605f568dda54383153649ee362453254fad881|2019-04-08|derivation|fix scikit-build instructions, etc. in CONTRIBUTING.md
+e002af4f02cb956d8a9d73881d9e63e6a9e5c162|2019-04-07|Juan Gomez|Merge pull request #61 from hhorii/refactor_thread
+0b51d29f6dc02fa8ebbf31126a54ec6b00f88b68|2019-04-07|Juan Gomez|* Changing loop variables from unsigned to signed because of OpenMP 2 (Windows) * Refactor some code from the Extended Stabilizer
+e06e245992a17edae3c48a3b27640c2050beb10e|2019-04-05|Juan Gomez|* Merge branch 'master' into refactor_thread * Minor refactoring of Standalone exit code paths
+b292726672e97915ec2c628870cd5741fcd5fed2|2019-04-05|Christopher J. Wood|add multiple exit codes for standalone simulator (#125)
+ccad03fee5bb31d02cc125f5425b574bcf8b3474|2019-04-05|Christopher J. Wood|Fixes in qubitvector (#126)
+08c8caa06d95bd9766825eda4f0555a6576acc9f|2019-04-06|hhorii|imporve u1 performance in statevector (#123)
+4914cc0a2e23cca7251070220522207d164f5a0c|2019-04-03|Juan Gomez|Merge pull request #122 from chriseclectic/patch-pyexecutor
+cb8fbd49041ffabb406b5277d15bf0bc4c7dca67|2019-04-04|Hiroshi Horii|add change log for this change of thread management
+182aeb521bf118485d6aeefc85b70bbabe1a9344|2019-04-04|Hiroshi Horii|Merge remote-tracking branch 'upstream/master' into refactor_thread
+aa726ccf2ba8126d69e4463b254f5bd8f79c6647|2019-04-03|Christopher J. Wood|Merge pull request #118 from chriseclectic/rename-ch
+998650181aa4b093b768a3b3f651573cc79c8b1d|2019-04-03|cjwood|use ThreadPoolExecutor for all systems
+ba2af7bece638baf3b99bdb310c9d9d0762ec1cf|2019-04-03|Hiroshi Horii|resolve conflict in aerbackend
+17b08d78cb5b54a060a8a40f0534a6e9011d437a|2019-04-03|Hiroshi Horii|use max_memory_mb in aerbackend
+c52f8c5ea032bd6b0ddf89d5f0ac5cc48cc998ca|2019-04-03|Hiroshi Horii|QuantumChannel integration with noise (#107)
+390e83ab6133334859afe3f15e6774c96a46c861|2019-04-02|derivation|update install from source instructions in contributing.md
+8f6bc69bf81ca0f1f35aeed9e87b5805723f3b2c|2019-04-02|Christopher J. Wood|QuantumChannel integration with noise (#107)
+f478a340348dd350df1884e3b001e13a69e3d2f6|2019-04-02|cjwood|fix CH::Runner openmp for windows
+813de3c575527e16c0dda584a9815858c9c2425f|2019-04-02|cjwood|rename "ch" method to "extended_stabilizer"
+ebcfc365a7b1391479b0bac241f3548887a3baa1|2019-04-02|Hiroshi Horii|modify thread tests
+4fe7eff5aab3a0e37f300eb0933c838459df5bf1|2019-04-02|Hiroshi Horii|Merge remote-tracking branch 'upstream/master' into refactor_thread
+c6a4b29f54f2ed278ff2fcbefd263789429869eb|2019-03-28|Juan Gomez|Merge pull request #109 from chriseclectic/indexing-refactor
+d4642abb473f4bafe7e2f0777ab601ffb100adfa|2019-03-28|Juan Gomez|Fix MacOS unresolved symbols at runtime with GCC (#108)
+97c81ecdcb24d8218eb5473d865469a49e4f4cc0|2019-03-28|Christopher J. Wood|Merge pull request #110 from atilag/fix-terra-breakage-qasmqobj
+3fa8c988035d9469ad8910e250ed61a90585bcb9|2019-03-28|cjwood|use BITS array for bit shift values
+2cc7857ebb14710a40dac2f69740c4e1c541c3f6|2019-03-28|Juan Gomez|* Rename `qiskit.qobj` Qobj classes to the new QasmQobj classes so   the Qobj validator god is happy again.
+6694c5d7561067bce412e70d4de3c532752110af|2019-03-27|cjwood|refactor qubitvector indexing
+0806235537c8f4b9afa7b6c2e4cdeca13533eb4f|2019-03-27|Hiroshi Horii|Merge remote-tracking branch 'upstream/master' into refactor_thread
+11b44b6e3e4c129c855f46b3b958f4dc9f24a3f3|2019-03-27|Hiroshi Horii|use max_memory_mb instead of available_memory
+6a86b1a2cafcbe621ea1828987d7a6cf49a55659|2019-03-26|Juan Gomez|* Add qiskit/ directory to the MANFIEST (#102)
+a298c42d16ec69e4ebaa21dd5e9ef80cb83a4ccd|2019-03-27|hhorii|add circuit optimization framework (#83)
+76d2a59670d7dc19cae4e5860b10f0faef3cb8b0|2019-03-27|Hiroshi Horii|Merge remote-tracking branch 'upstream/master' into refactor_thread
+67865dd36979cbc94b39f4994117eb0fc8e1e823|2019-03-27|hhorii|use qiskit.util instead of qiskit._util (#103)
+8704fcbed022a096127e22417e303679eb824e49|2019-03-27|Hiroshi Horii|Merge commit '99e0d0b' into refactor_thread
+99e0d0b6b0aaee77c50122d31261f72364ef8272|2019-03-27|Hiroshi Horii|relaxed test criteria for ch
+474f7c85372c1017e543fb56d268c4dbdc3cf930|2019-03-26|Hiroshi Horii|change thread management
+e5a9916ef0e6739f869c28d875d94d6f70ce12fb|2019-03-26|Hiroshi Horii|use qiskit.util instead of qiskit._util
+3c0d068598b2f1748f07c4292c7e573d54540236|2019-03-23|Hiroshi Horii|Merge remote-tracking branch 'upstream/master' into refactor_thread
+3a9bddaaf4f61760ae8266d1fc1ac1f02038f327|2019-03-23|Hiroshi Horii|refactor set_parallelization
+fe930388336688b61d0df3dfd424331fdd1e42d9|2019-03-22|Padraic Calpin|Fixes for CH Simulator (#98 and '99) (#100)
+b509b4849840db3b00c13fbbd77a6ae23301f915|2019-03-22|Juan Gomez|Benchmarking (#71)
+119d54432dd6a5b88e1d14ab2fd7472f4f4cc937|2019-03-21|Christopher J. Wood|fix unordered_set enum class for gcc5 (#95)
+999d1b9d5f5180e272c7e486d2b4b092bf05391f|2019-03-19|Juan Gomez|Merge pull request #93 from nonhermitian/coupling_map
+973fa577cf676fee541bde9ad596575c951ba619|2019-03-18|Paul Nation|Coupling map is None
+aa964157221ebae28a14e82b4229a5c0fc678e75|2019-03-18|hhorii|allow various qubit vector classes in qasm controller (#90)
+d48336cbb5c683c0d9d1bb4e0ae5c1968d58b8b3|2019-03-15|Paul Nation|fixed list comp not working
+b6836f197c7041790a725694788a562f840c4e20|2019-03-15|Paul Nation|add coupling_map to backends
+dc820f594b3c7bfe9412ebd87e13a0347dcb7c74|2019-03-15|Christopher J. Wood|Merge pull request #92 from hhorii/FIX_ISSUE_91
+6b9e009e4f197e5314fbc0a98d497582547ff669|2019-03-16|Hiroshi Horii|convert explicitly from json_t to std::string in CHSimulator::Runner
+72863e804ec3d07c0da2ebeb665a31db7a7e3010|2019-03-15|Padraic Calpin|Add Simulation method based on Stabilizer Rank Decompositions (#51)
+c16e3c92d719130ab4c7b522d8efeee90faa22de|2019-03-14|Christopher J. Wood|Add parsing of "initialize" qobj instruction (#88)
+212e82b294140d9d76dc3826e3d14c39fd458d40|2019-03-14|Christopher J. Wood|Disable unitary instruction tests until terra fix (#89)
+f7aab662a984e95fa61fdef721a7acbb9d188a9b|2019-03-13|Juan Gomez|Merge pull request #85 from atilag/fix-windows-build
+48a4770a02c2f3a7ddfceb1d6a84f888ac12e941|2019-03-13|Juan Gomez|Fix Windows build
+770e98cdfc1f852816d885afb065ca772cab4bc6|2019-03-13|Juan Gomez|Merge pull request #84 from wh5a/master
+d7f9193277a0ce24a4a865d9f109663eb20fe853|2019-03-12|Wei Hu|Fix typos in comments
+a5d0c52d6457c08777b56ed74c94f04b9a2e800e|2019-03-09|Hiroshi Horii|support multiple calls of set_config
+92f448228c33321c65339ea8da4a862f6f1cd5a4|2019-03-06|Hiroshi Horii|add comment on parallelization in qasm controller
+c2950fa77653719b9ac13aaf67b373e3246ee261|2019-03-05|fanizzamarco|Comment derivation depolarising probability from gate error (#72)
+7fcfd6afc99b2a167318b40353455923538e25fb|2019-03-05|Juan Gomez|Merge pull request #78 from chriseclectic/fix-tests
+a4d2014cab1eaa56ea151b119ad748e9add9c598|2019-03-05|Hiroshi Horii|Merge remote-tracking branch 'upstream/master' into refactor_thread
+dd5fd52e41204ab913a84d016f510e140e073418|2019-02-22|Hiroshi Horii|enable shot parallelization in qasm simulator. enable nested parallelization. add a config parameter to standalone qasm simulator.
+9d11263cdef6b995ee1534b6de3a38c54a19f005|2019-03-04|cjwood|changes State::allowed_ops to use OpSet type alias
+2bbb3eb9bcd650a0513c49206f9a3cfe17ceb9ae|2019-03-04|cjwood|fix pedantic compiler warnings
+67c2bd9bbfe4fc95fc34ef1688469a10e703d01d|2019-03-04|Juan Gomez|Merge pull request #75 from chriseclectic/fix-tests
+063920a20bd2d6561da60c4219491790d732aac1|2019-03-04|cjwood|Update noise basis_gates to alwayas have cx, u3
+0fb0aa64cf7fbfb465aaca8d4ea82f9440c23444|2019-03-04|Juan Gomez|Merge pull request #74 from wh5a/master
+8f743fd3190dd42b4fb7a04d732839dffd0e4401|2019-03-03|Wei Hu|Fix segfault on Mac OS when running the standalone qasm_simulator.
+f5f1f95b5cfec915f8c8c9c91d7795547b1d1f61|2019-02-26|Juan Gomez|Merge pull request #69 from atilag/issue-66-fix-wheel-for-debian
+060ee70ce3de9e3b42ef5213aa27e5178d8a9d6c|2019-02-26|Juan Gomez|Remove commented code in CMakeLists
+c51a7ad0fd4b8376ff1191fb856310fc171c91c1|2019-02-26|Juan Gomez|Merge pull request #68 from jaygambetta/master
+eb18403abbebb3b8eb15a4f183b1013be6dca65d|2019-02-25|Juan Gomez|Fix README to point to the current CONTRIBUTING guide
+6c597bf1bb68823f9336aea313996b679b3f27df|2019-02-25|Juan Gomez|* Rearrange .travis.yml to make it clearer
+48f0a41809dfa8c2d7478f757e8810ae71bd5055|2019-02-25|Juan Gomez|* Remove unused env variable in .travis.yaml
+9ef81705400fd7730066bb685a8e79e30d181fab|2019-02-25|Juan Gomez|Issue 66: Fixing Debian installation - Change destination directory to be site/dist-packages agnostic - Fix travis tests by installing Terra before passing all the tests
+830011ab598a102f4195c74d6b6f3f5bd0f6e697|2019-02-24|Jay Gambetta|rst to md edits on contributing
+554babbb67f6b4c10440a7f86802eb87a9241dd4|2019-02-24|Juan Gomez|Merge pull request #67 from jaygambetta/master
+127b7fe2dcc6c09ef267c56b60066c97b5d9c518|2019-02-24|Juan Gomez|Merge branch 'master' into contrib-fix
+34c0bb679bc3c2fa6c7d609b9b5a081a3649b644|2019-02-22|Jay Gambetta|Small changes
+120b231b003bfcd708386605f6536655dd65ee44|2019-02-22|Hiroshi Horii|use Statevector::State instead of QubitVector::State
+3c34cd620c718895cb36ef10eb0e5b6502014692|2019-02-22|Hiroshi Horii|Merge remote-tracking branch 'upstream/master' into refactor_thread
+00de273574783474cb64af2d57efc08fa39411b2|2019-02-21|Hiroshi Horii|handle automatic simulation types in set_parallelization
+086cacba604a65bc86699974f6d8c7a28f562212|2019-02-21|Juan Gomez|Merge pull request #57 from chriseclectic/refactor-unitary
+2356eb2d4369a2eabc5da371470479e531ca66c0|2019-02-21|Juan Gomez|Some coding-style refactoring
+9b22976e468398bd13e99e302731a8b35cf693f1|2019-02-20|Hiroshi Horii|Merge remote-tracking branch 'upstream/master' into refactor_thread
+df152a245505b11d120d68330154e3c1f5eeeb23|2019-02-20|Juan Gomez|Merge pull request #63 from atilag/fix-windows-openmp
+147570b344a77486246e8ef3821695f51212ac08|2019-02-20|Juan Gomez|Issue 62 - Fix OpenMP compilation on Windows by moving from unsigned to signed.
+58c660b3d27386eed9d96b22f296c57eef7eb856|2019-02-20|Hiroshi Horii|work around set_parallelization in stabilizer.
+7b0d936345f1b1408b42d5b760ce655224ede6b1|2019-02-20|Hiroshi Horii|reduce test overheads of qasm_thread_management
+9f7822a1dcca4352f70dc6f6d28d8c22074cf088|2019-02-19|cjwood|remove dynamic permutation matrix function
+502ffcd01d9c515d47f72da7d4cefd95ce4bba4c|2019-02-19|cjwood|style fixes
+92195cf39148d6574aeed7b8c9604cabe936af26|2019-02-12|cjwood|refactor unitary simulator
+81d4956213d143cfde2a6720da47b4e70aa297a6|2019-02-10|cjwood|Refractor QubitVector class
+e0826089da6612e42b38023cb384f7dedc14e995|2019-02-20|Hiroshi Horii|add auto-configuration of threads for qasm simulator
+145f3574654a4404404a5d3c50d1602ee26497f9|2019-02-15|Juan Gomez|Issue 1 - Fix OpenMP crash on MacOS (#46)
+cdc661036560d8fd0b1d69f7ceced55267fc265d|2019-02-14|Juan Gomez|Merge pull request #50 from hhorii/refactor_thread
+a4b4fff22e4fc1743e36569f9639381ab5d1d64a|2019-02-13|Hiroshi Horii|add test cases and fix a bug in controller.hpp
+109e20fb4e24cae36a82e9e50ab11e26cee67895|2019-02-11|Christopher J. Wood|fix apply_bfunc (#55)
+9ce3db6db012f6286dae8659058ff28ef0c94abf|2019-02-11|Juan Gomez|Merge pull request #54 from cbjuan/patch-1
+c3f5c2723756fcf1439aff4b9039c56397706e2d|2019-02-11|Juan Cruz-Benito|Fixing capitalization in word BibTeX
+979855c2700108abdf807ddd705d4bfee3673ecc|2019-02-12|Hiroshi Horii|rename from parallel_gate to parallel_state_update
+ba4f1dbaae08d767aadc0cb65263bec11b2864f7|2019-02-11|Hiroshi Horii|Merge remote-tracking branch 'upstream/master' into refactor_thread
+942e47111a0c0362574aa173b6f41765041d442c|2019-02-11|Juan Gomez|Merge pull request #52 from ikkoham/fix-unboundedlocalerror
+90514f11870e2f848ce04d3073ffe5e80f5fdb37|2019-02-11|Juan Gomez|Merge pull request #48 from hhorii/clifford_json
+ed3c4d326cc5bccef513e394fe4795d331397740|2019-02-11|ikkoham|fix UnboundedLocalError
+239bdfcfa477b65cfbaf6a8c190440d671618e21|2019-02-09|Hiroshi Horii|refactor thread management
+783ce9c8357bc5c3b4c352e3950996e4a84ddfa3|2019-02-08|Hiroshi Horii|use vector<string> in json deserialization for clifford
+064abd809a89f0279baccd7bfa739eb0689416cb|2019-02-05|Juan Gomez|Merge pull request #44 from chriseclectic/fix/tests
+4d60426b5b0d52bd21184bef1c323ae1bbf4a4db|2019-02-05|cjwood|Fix nonlocal reset error test
+90410f045af1c4e94940439f191a39b94695728a|2019-02-05|Juan Gomez|Merge pull request #43 from ajavadia/patch-1
+99748e69366b90eb2a9e7d73ea3fe513ff9a0d93|2019-02-02|Ali Javadi-Abhari|add Qiskit citation info to README
+7883c290a96a38dec6e80e60e1b787b7c47fde44|2019-01-29|Juan Gomez|Merge pull request #41 from cbjuan/cbjuan-patch-url
+b24ff14a265b8b67d9e2ba749e5bbcd008662863|2019-01-29|Juan Cruz-Benito|Adding homepage URL to Qiskit AER setup.py
+7aab9c31231c8a2dd3c353875415188ea0b869dd|2019-01-24|Juan Gomez|Merge pull request #37 from atilag/issue-36-add-version-standalone
+96dec444643064167b212c073b4e9285f8b4643b|2019-01-24|Juan Gomez|* Fix CMake to build version information in Terra Addon as well
+ed75aaad8af74e906cbb6f0cf10fd366374aa6b1|2019-01-23|Juan Gomez|* Added version information to the standalone executable
+dac153d6730e4de9d7787b0de8540855a26b81e6|2019-01-23|Juan Gomez|Merge pull request #13 from chriseclectic/feature/stabilizer-simulator
+7993690e75de083352afd55452964d1b138ab0e9|2019-01-23|Juan Gomez|Update CHANGELOG
+d610664f16686b305908970f0a9d78e5d095306b|2019-01-23|Juan Gomez|* Some code refactoring mostly * Removing usless inline in headers * Changing BinaryVector::setLength() signature to not return bool
+23adf1d7ed5e3b5661b64364dcdbfc9197169662|2019-01-18|cjwood|update tests to include different qasm simulator methods
+c60bb7b88b76dafc29725a39e9c61f81300fd22f|2019-01-21|cjwood|update aerbackends validation
+94d2c12d817868ed78db5bd1d8717a4d8d0b4357|2019-01-18|cjwood|Add stabilizer as method to QasmSimulator
+c883f18b5e7bf3588949e0d284bf03b605ad8e4c|2018-12-18|cjwood|Add Clifford stabilizer simulator controller
+4dd5def268154761879c254eef78d223509bde52|2019-01-23|Juan Gomez|pip release: 0.1.1
+b973f5bc08cb0d1590450ec09fbf9a75cc9a9c84|2019-01-23|Juan Gomez|Merge pull request #35 from atilag/update-changelog
+eb6d6047e84388d9b84dc423f1c721806b2cfcb1|2019-01-23|Juan Gomez|CHANGELOG updated
+51bc53b316b5351d4055eadeaf88b6435c4c9ddf|2019-01-23|Juan Gomez|Merge pull request #31 from chriseclectic/instruction-checking
+5e140ccafb9310016292d4acae298fb2801880ed|2019-01-23|Juan Gomez|Mostly trailing whitespaces removal
+7b5b40d3579ecde4c35c8f33f921d0744c711f9a|2019-01-23|Juan Gomez|Merge pull request #34 from chriseclectic/reset-error
+b45279fd8e4430b407745c28bcbd0472c62e0ac4|2019-01-22|cjwood|add reset_error to noise module
+e913e7268edf51df1b73a1f92758dd06cfd81541|2019-01-22|cjwood|update validate_state, style fixes
+5961105f00379efd1b07ebf3e156a8909eb8e72e|2019-01-18|cjwood|make validate_state static method
+8e8e62e05b6fae7871302f693c1e18e2f874826d|2019-01-16|cjwood|replace circuit validation with circuit and noise opset validation
+05dd752ccfd28b85329f1d7ec4e3dcdde3c29549|2019-01-16|cjwood|add OpSet class
+97c6a6153ec1c380d190b12df69f3337ff9b682d|2019-01-22|Juan Gomez|Merge pull request #33 from jlatone/master
+80b1b262dc2adf1ef4a8f8f0d149720efcc6de80|2019-01-18|Joe Latone|#32 Fix import for state_fidelity for terra-integrated tests to run
+a31d3c0e84a6d2db8e678e463ff70a3b1fb72802|2019-01-18|Joe Latone|Addition of mac platform flags for `python ./setup.py install`
+bbbf12c20f7663c8479ca7c828a5f9ad8f18a5d7|2019-01-18|Joe Latone|Fixed hyphen in command (so lazy people like me can simply copy/paste the command)
+339397ae2b392b31072113cfd940eee4624b016c|2019-01-10|Christopher J. Wood|Merge pull request #29 from atilag/improve-setup
+9e49bad4228aa974d53bd003cc4beabe7ab5baf6|2019-01-10|Juan Gomez|Improve error reporting if scikit-build is not preinstalled in the system at installation time.
+c5788ec14f04b880b911dbbf21bf1729fea52ef1|2019-01-10|Juan Gomez|Merge pull request #24 from chriseclectic/fix/check-qubit-number
+1b73b166a5bfae117f7bf68dd90b3b837d7e5420|2019-01-10|cjwood|return {} instead of null for empty data
+898aff7d4651652ce5c4e72952ef8649e73c4031|2019-01-04|cjwood|Raise an error if qobj n_qubits is greater than supported by local memory
+b2bea3cf87d026adaf712ebf6eece4fac7ce2a6f|2019-01-10|Christopher J. Wood|Merge pull request #28 from chriseclectic/fix/test-typo
+8a6f0f498c71b3b9d7f5a90fe6c7101d37b56ed9|2019-01-09|cjwood|fix tests in test_noise_model
+a20b7567dbad679848627a1460b2d56940d1901c|2019-01-08|Juan Gomez|Merge pull request #26 from wh5a/patch-1
+d102f9d1600c915da588c1752415506c3439418e|2019-01-08|Juan Gomez|Merge pull request #27 from chriseclectic/fix/remove-ref-model
+8346803450b359fc64c406c4f79cb389171ec5f3|2019-01-04|cjwood|remove remaining ef model test files
+e7aa17d2a5ede3c31ceaf9a0bf7bf6ad95ed0f16|2019-01-07|Wei Hu|Fix a typo in the comment
+f5ff6dc2285699f56aac9f93db68e43da5e24799|2019-01-02|Christopher J. Wood|Merge pull request #19 from chriseclectic/patch1
+968ab3c880eae6cf012a42d0039ca3c64b1d62ef|2019-01-02|cjwood|add qobj method to AerJob
+5b98d003d0333ec68abb29d188c6b1737dd374ec|2019-01-02|cjwood|fix missing def for no-omp build
+845466eb0aaf212aa88bb558035a85c03ca9039d|2018-12-27|Juan Gomez|Merge pull request #9 from jaygambetta/readme
+ddbef14a98610dc7d1a9ada80d930ad337e59410|2018-12-26|Jay Gambetta|Adding links to readme
+f5c90c4ef5a270d4c44a056a6e8e702cc02460f0|2018-12-26|Juan Gomez|Merge pull request #5 from jaygambetta/master
+ca4c62b237a5f3e917dcec550de3956e0511471b|2018-12-26|Juan Gomez|Merge pull request #8 from jaygambetta/readme
+1ec1270194062722d3b2dc0f18b3b30d085d84a1|2018-12-26|Jay Gambetta|Updating the badges
+942942c0a82da485f73d512b6bb03b10cef5247c|2018-12-26|Jay Gambetta|Updating the readme with stack-echange and removing some white spaces
+28890389cb7df3c729363428be7ab5eef609902f|2018-12-23|Jay Gambetta|edits to contributing
+ae2397eb8615fb7d2191eb9705ed8b4717de31af|2018-12-23|Juan Gomez|Merge pull request #2 from ajavadia/mac-readme
+ff54fe1d4dc8de8a737cd8ad92a61977bee5e883|2018-12-23|Juan Gomez|Merge pull request #4 from jaygambetta/master
+b91a539ec8d9b79395c93a7fffe986c4174ec1dc|2018-12-22|Jay Gambetta|Broken email
+0a4ff5badae7691764e3b10a52baf6fc7f625124|2018-12-22|Ali Javadi-Abhari|Update CONTRIBUTING.rst
+22b6450c903ecc9a52f8458135d61d8a07fcbcea|2018-12-22|Jay Gambetta|Update README.md
+c868831f2c28f358e18c6fe67edc2d8059346d37|2018-12-20|Ali Javadi|update CONTRIBUTING.rst for MacOS
+d505d8da917cc6042d2d053df7d3484ac58b23fe|2018-12-20|Ali Javadi|update README to project style
+b660e8b5ca0a4d5fe719e860681f29812293bd59|2018-12-18|Juan Gomez|Merge pull request #156 from cjwood/fix/bin2hex
+5c5d100d5e1769a068c5fe03f93729bb0665ee5b|2018-12-18|Juan Gomez|Fixing CHANGELOG.rst
+b2e87f03cc0d21d0e1c78ca3d23f7f939833480e|2018-12-18|cjwood|fix bug in bin2hex for 64-bit or larger bitstrings
+b89515a1eb65788d018bf7157bc6e12194b33342|2018-12-18|Juan Gomez|Merge pull request #150 from Juan-Gomez1/qiskit-aer
+45271241b6ef212c7ef3af7991f3b8988f430521|2018-12-18|cjwood|fix inits
+2e0fb39d6a6a0583c16418faa51cd86763ffa0a4|2018-12-18|Juan Gomez|* Added in-code documentation for CMake static linking caveats * Added a new CMake file to make static compilation possible
+8c8692a0a7a08a6e73aae96648497f9c5a31c969|2018-12-18|Juan Gomez|* Fixing remaining conflicts after merging with `master`
+8e0d76f68671cf822cd827ff6284aecb8dc02be1|2018-12-18|Juan Gomez|Merge branch 'master' into qiskit-aer
+1fa32dbc8570c4c9db98c1a65a30206f22e33125|2018-12-18|CHRISTOPHER J. WOOD|Merge pull request #155 from YAELBH/move_reference_model
+c5a934690370889cd1c59ca3e7e5925206987be0|2018-12-18|Juan Gomez|Added support for statically build libomp on Mac
+4b7ad1e0a20959f9042f41fcc752922d461c51ad|2018-12-18|Juan Gomez|Change CMake config files so we can create a Python Extension shared library with some of the external libraries linked statically
+779cf63101543435c0f40d6e9a7c436412ffd043|2018-12-18|Juan Gomez|* Restore back some miss replaced strings * Removing some dead code * Updating docstrings
+f29b39f9ea46e27b2b3f2898437a66ca5855dc54|2018-12-18|yaelbh|Moving the reference model to internal repo
+9ea697252ed84b7bad3d801f77b7cb65e08ed390|2018-12-12|Juan Gomez|Qiskit Terra v0.7 integration * New folder structure matching Qiskit namespace convention   Everything is under: qiskit.providers.aer * Tests changed accordingly * Documentation changed accordingly
+b523e28947b82ec9e6417ca8efa7cc2bd67ed69d|2018-12-17|CHRISTOPHER J. WOOD|Merge pull request #154 from cjwood/clean-up
+37dda57457330e688008da0f2130f6d1134b56d2|2018-12-17|cjwood|remove old qobj examples, update cpp test qobj
+972cda5d520ef43bd25cfb65071aea5bd015d20c|2018-12-17|cjwood|move example jupyter notebooks to qiskit-tutorials
+a6bd64f086ea3d0b7a0bb80dd453c31321563d1b|2018-12-17|CHRISTOPHER J. WOOD|Merge pull request #153 from HORII/fix_sampling_bug
+417a847b0391a6514a398592cc7f0723e53eedb7|2018-12-17|Hiroshi Horii|fix a bug in QubitVector::sample_measure
+08408f35f034eedd9ea695ddce32c0594209880f|2018-12-14|CHRISTOPHER J. WOOD|Merge pull request #151 from cjwood/feature/ibmq-noise-model
+8edf353a6dcabdb8e3fac55a8992afa1f7d47273|2018-12-14|cjwood|update examples
+68edb62b96ca8ca717c6304fb445a93d4233475b|2018-12-14|cjwood|combine device noise models into single model
+748a9d2cf8064c1f6677dd092b714eae9b58d7a4|2018-12-14|cjwood|fix p_z probability for thermal_relaxation_error
+4b0cddda0b31434b5e7091f2ed49411b554d3587|2018-12-14|CHRISTOPHER J. WOOD|Merge pull request #149 from cjwood/feature/backend-options
+d64af5d762f1889ed6ebaf4ee832f85a8ae522ea|2018-12-14|cjwood|make snapshot types more descriptive
+45e1e05aec2136b8e61244f1da40c0131a8bebdd|2018-12-13|cjwood|abbreviate long names in qobj_utils
+0000ee22a0950650cd354ab9499a71a8499fa3b5|2018-12-13|cjwood|Document backend_options in Backend docstrings
+8c1a493a1fa09d1bd20d295713a25fecdfa67b1f|2018-12-13|cjwood|re-arrange noise module contents
+0a2ca085c32f537d8d17517a31f5c0febd5a75be|2018-12-13|cjwood|rename error classes
+f17df4984efbd852cfa55d889040282da523bd74|2018-12-13|cjwood|Cleaning up c++ config option names
+c07e5ef32ac239afb261d203f07feb6bb01920f5|2018-12-13|CHRISTOPHER J. WOOD|Merge pull request #148 from cjwood/feature/ibmq-noise-model
+30e3446ca9bc88f1a4b7273a2ffde3f13411f118|2018-12-13|cjwood|improve device noise models
+0d725b0cb8969dc6040003a8df85988c6be0ec51|2018-12-13|cjwood|fix rounding errors in checking noise is cptp
+6ce34c6b1626d8c83f205df11c1bbb5725b5e525|2018-12-12|Juan Gomez|Merge pull request #147 from cjwood/feature/ibmq-noise-model
+fa61a05175c14959c7ed90739a9c4261f9673276|2018-12-12|Juan Gomez|* Add logger to quantum_error * Removed a print in favor of logger * Minor refactoring for readabilty
+9bf533fddd0a51ad847184bf7778fe0e7bd02dc5|2018-12-12|Juan Gomez|Merge pull request #127 from cjwood/feature/backend-options
+7ce871dd190f3617136051182429fa4ee5292959|2018-12-12|Juan Gomez|Change docstring of AerBackend constructor
+8eb9a8034a7a33a37e06eb8052f3fa4684eb5e51|2018-12-11|cjwood|fix device noise model for current backend config format
+1f8fc1ed1b6f90d21a9be9919e1dccc70f121409|2018-12-11|cjwood|Check if errors are ideal before adding to noise model
+094eb49c987df256c752f8b9bcce4ca886a895d3|2018-12-11|cjwood|fix backend version in status
+75316f38cfc5600c358dd429c67c844f72e782de|2018-12-10|CHRISTOPHER J. WOOD|update noise module doc string and readme (#144)
+3c35df6e9f35141f18b0a7372aa20c112002af86|2018-11-30|cjwood|refactor wrappers and backend options
+722e9890dc289e162fe39d977212c93b1c66d295|2018-12-10|CHRISTOPHER J. WOOD|rename standalone simulator update readme (#143)
+b5f2f7f48e1c36a3baf94c1c9d0c37f96b1a6906|2018-12-10|CHRISTOPHER J. WOOD|Merge pull request #142 from cjwood/feature/memory
+7475dc885c2b4c1cfa6cc77d3a14796c7235cbb5|2018-12-10|cjwood|move examples/qobj to test/qobj
+ccc563ab19603fe5457db1a26f8cb7dc2fd5b1a1|2018-12-10|cjwood|update example notebook with initial state examples
+4839afb05b7524e2754d4e4bfa32ca5626060f4a|2018-12-10|cjwood|add ability to set initial states
+e88399703e08d799e77153c1b10cf38212314a86|2018-12-10|cjwood|add support for single shot memory
+f7f7aa50159febed0d2615fa83c5608d07b7dca0|2018-12-10|CHRISTOPHER J. WOOD|Merge pull request #135 from cjwood/feature/ibmq-noise-model
+f0fd300dbab4e341770c038915be37480885a870|2018-12-10|cjwood|update and added to tutorial notebooks
+553d3f697d3c777b84512b0448695682778a22fd|2018-12-04|cjwood|add simple noise models for IBMQ devices
+c8b63dde2c29348431f72c2ecb363b662d203795|2018-12-10|CHRISTOPHER J. WOOD|fix bug in readout error implementation (#141)
+d9a12a2d3776ca6c42a467d06dc329a52e6ee0a1|2018-12-09|CHRISTOPHER J. WOOD|Merge pull request #139 from cjwood/tests/noise-model
+af2f0263f402a06eb8e5f299ed41acdd404f99f6|2018-12-07|cjwood|add test for noise module
+7ce7639f13470f5d90bb7e21d3e18e5030a352ef|2018-12-07|cjwood|fix bugs in noise module
+c5d9879381109b38d3307f00b203f3fc0866c41b|2018-12-07|CHRISTOPHER J. WOOD|chop small value sin QubitVector and QubitMatrix json serialization (#138)
+24842c2b435b4a21c4d0fb08f7798d39196affd1|2018-12-07|CHRISTOPHER J. WOOD|Merge pull request #126 from cjwood/terra-0.7
+7e413b5f667489ec5b4ed47dd483388250ca23f8|2018-12-05|Juan Gomez|Update travis.yml to work with Terra master branch
+c2a518786414c7eec6039e50b8d6ab5939328ed7|2018-11-30|cjwood|update backends for Terra 0.7
+0048d1ecc875dffa31d7734bc1b8f29feba6e0a6|2018-12-05|YAEL BEN-HAIM|Switched the reference model to Qiskit qubit ordering (#124)
+05cec40ebed2988c0d212c2abbff8718dff737eb|2018-12-04|CHRISTOPHER J. WOOD|make NoiseModel.basis_gates a property (#134)
+ea64ed7b9ed5f2294a7879635536803ecda7d117|2018-12-04|CHRISTOPHER J. WOOD|fix bug in thermal_relaxation_error (#133)
+3a01765f7d5f0542b8482eeca9ee85bfbcc4e836|2018-12-04|CHRISTOPHER J. WOOD|fix bug with noise keys (#132)
+b713d891c7440886a3a865e440391d7bd38c0008|2018-12-04|CHRISTOPHER J. WOOD|Update noise api (#121)
+26248a6d585a4a3b19573135d43fc5bbd057c791|2018-12-03|CHRISTOPHER J. WOOD|Fix bugs in reset op and unitary basis gates (#129)
+9adbbb19efe22bd1e5b844e77417599b8e7f49cc|2018-12-03|CHRISTOPHER J. WOOD|fix bug in QuantumError (#128)
+b02eec2a285b677e2ce6f16c8b1aa52b420cba08|2018-11-30|CHRISTOPHER J. WOOD|Add support for old style conditionals (#122)
+04e044558b621766e896a37fafb7932ad842e6ba|2018-11-29|CHRISTOPHER J. WOOD|Cleanup tests (#113)
+c3e9c4e7b6ac36f4d59e43e36183e6d0fbff0046|2018-11-29|CHRISTOPHER J. WOOD|Merge pull request #102 from YAELBH/observ
+d66f019d5bf219fb6b2929777021f0a64fb81b6b|2018-11-11|yaelbh|Observable snapshots: bug fixes and a new test
+7583f1c4b567c9718ebf246dcb7b2161c7dbad00|2018-11-28|CHRISTOPHER J. WOOD|Merge pull request #115 from YAELBH/s_gate
+24a7b9adb852d484d645257e9d9bf193fb9dfb52|2018-11-28|Juan Gomez|Merge pull request #119 from YAELBH/new_api
+e9fc247140160ab50a632d2f64b99d762cc2bdfc|2018-11-25|yaelbh|Fixed s and sdg gates
+71ddb225a1364383dc11977b6f35321c0c3730e2|2018-11-27|yaelbh|Updated test_by_reference_model to new API
+2fb481953cd8ddcb9505c038ae7276af259f0746|2018-11-27|Juan Gomez|Merge pull request #79 from cjwood/feature-unitary-sim
+10822cb19b57de46dc35635bee8ca41335790e38|2018-11-26|Juan Gomez|Simpler exception throwing. Minor style fixes.
+e9cb99fc1ca2b19a81988e8764fdc316f09357a5|2018-11-27|Juan Gomez|Merge pull request #118 from Juan-Gomez1/fix-tests
+ae243396d8b6f8c6c485a84930a8d05cfbc3d7af|2018-11-27|Juan Gomez|Fix test_fallback test
+bb597aa5d60c4478ddbbfa48f22078ade1db64c6|2018-11-26|Juan Gomez|Merge pull request #117 from Juan-Gomez1/issue-116-travis-is-lying
+0714715a4315bc29c0229393bd89fad203fd8e2b|2018-11-26|Juan Gomez|Remove after_success step on Travis
+19fdaf7e2609a22eaee3fe0d024eb36eeb4377ad|2018-11-19|CHRISTOPHER J. WOOD|Snapshot cleanup (#108)
+131d4138c3a2886dd208de4e7df10d05985df0ce|2018-11-20|Hiroshi Horii|Use array of complex_t instead of vector<complex_t> for qubit vector (#95)
+333d3fd2d5b217ad0a718603e151ca03e714e9b0|2018-11-20|Hiroshi Horii|fix bugs in tests (#111)
+cd342bfbc2446879f3e193203085e502dd879f07|2018-11-16|CHRISTOPHER J. WOOD|Fix default xcode  MacOS build (#109)
+013ab3c1eaafea9e8de3aa82ceb5ccf05f0058a3|2018-11-16|CHRISTOPHER J. WOOD|Feature benchmarks (#45)
+586493ef64c1cb7f97f2cf8d0e1d88cd667ca152|2018-10-22|cjwood|added unitary simulator integration tests
+72ac8abc5ae45a7216509b1f12e9cbc5a71acd79|2018-10-11|cjwood|Added UnitarySimulator backend
+d2d852740483a13437509035def22ab4e8c720ae|2018-10-11|cjwood|Added Unitary sim State and Controller class
+da43a0d287119e6d2fcfe0b150c0a94f9a997670|2018-11-15|CHRISTOPHER J. WOOD|Controller rework (#93)
+c3132097b1d5e1cc009abb1daf9574477837f127|2018-11-12|YAEL BEN-HAIM|Fixed test_fallback to not import non-existing package 'register' (#96)
+8453cd10e01beb5365c3269e2fac193a74361dd1|2018-11-12|Juan Gomez|Merge pull request #101 from cjwood/dir-structure
+d2977b8bbfa5a36a822c4b6867ef49b9a2e95960|2018-11-12|Juan Gomez|Merge pull request #103 from YAELBH/cricuit
+07a75ece01ce2378343a8f3cb3dc4f248a266a33|2018-11-12|Juan Gomez|Update CONTRIBUTING guide build instructions and CMake flags
+eeaaa33adb4d1a8d516fcf5d85f6a585ee08c06b|2018-11-11|yaelbh|Fixed a typo
+4459d266459b1defb81630d83dee946468bcf9a7|2018-11-08|cjwood|move qiskit_aer to base dir
+037126a3adb88753e296ef133db30bde7620d998|2018-11-08|CHRISTOPHER J. WOOD|update readme
+9f9a7653632485ec105c3a3b427ef425741b7d16|2018-11-08|CHRISTOPHER J. WOOD|fixed bug in mixed_unitary_error
+22b3db7e5abbed6ab5281b5125e638ba26453ad1|2018-11-08|Juan Gomez|Merge pull request #99 from cjwood/patch-error-message
+53e5ecfcda9a83f82851a0e92748a1281e1aac0b|2018-11-08|cjwood|add todo comment
+a2b159a79940f6d89b59684675be31b18dea8481|2018-11-08|cjwood|change warning to error
+c88f5f923eb17312d6a1cbe7a32ab16eeb49a692|2018-11-08|Juan Gomez|Merge pull request #88 from YAELBH/den_sim
+041d397ca05cd908b927d62eb35e55e8bd43f234|2018-11-08|cjwood|raise error message on simulator failure
+1e5ea01d453edfa12328504f6b65d22a410305db|2018-11-08|yaelbh|Using qobj_hacks for snapshot
+ffe94c7599f8224bdb5b74cf7ff1f212cd5b8963|2018-11-08|yaelbh|Small reorganization of functions
+9a42c42c63f0d2a025b9f038371a0ed66f5420c2|2018-11-08|yaelbh|Replaced instance of 'print' by 'self.log.debug'
+e643a612128343ef0adee070219e23c951cd5c3d|2018-11-08|yaelbh|Replaced instances of 'assert' by 'raise ValueError'
+7b6629d76a82b4ce79cde4ca55da070cdb7d6135|2018-11-07|yaelbh|Changed names of files and classes
+763d8a974ef0d72864267205f8a7d7ca2ee7ce7d|2018-11-06|CHRISTOPHER J. WOOD|fix typo in Circuit::set_sizes
+343357494d7408bd1db17b3aa7bb8649f641a501|2018-11-05|yaelbh|Added a test of reset (single qubit)
+6d3edf6d2d8e3f9bc38a84678a3142839111d8d7|2018-11-05|yaelbh|Added comments to the code
+b92a0a9a69784c908edfd5fc029c876238e14465|2018-11-05|yaelbh|Set the simulator seed
+3c34199ea1c2860b1e12469bea712bec1f850383|2018-11-05|yaelbh|Added measure operation to the test of probability snapshots
+1310410621b4ef07426a57a1e837b24db32b7b33|2018-11-05|yaelbh|Added a test for state snapshots at the end of the circuit, including measure operations
+26bad79a6fc9d4b33b1e5a64a57cd0034126fefb|2018-11-04|yaelbh|Added more gates
+a995b2773bb90ccf888bdeea38a1698e05f48619|2018-11-04|yaelbh|Test on random circuits
+128bae2a8cc37146d998c4ed63602aa917628bb6|2018-11-04|yaelbh|Added a few more gates
+9ac5ca84e80ae2d0daebffdfde8c5b419a5abc83|2018-11-04|yaelbh|Bug fix
+11b69a5f08fe66d43cdcb393b35a142e4adfe414|2018-10-31|yaelbh|Added verification of final probabilites
+58ccea6ec34410abc961a3ee86cfe6c69fffdfbc|2018-10-28|yaelbh|Rewrote test_simulators as a unittest, and moved it to new simulator API
+55e63253a3e53070fd9011cdd9ab206a4e08970d|2018-10-28|yaelbh|Began to write a density-matrix simulator for the purpose of testing
+c147d59637d73998a4d34ae295c87a481cb5de7e|2018-11-02|Juan Gomez|* Added Terra tests to Travis (#92)
+e3826e49f35906a5daa8cb391bba68e1853dbd14|2018-10-31|Juan Gomez|Merge pull request #68 from cjwood/feature-noise-model
+09c4ea9a81f2abf0976326d6fe0012d2a6e39042|2018-10-31|Juan Gomez|* Minor style tweak
+0c796e3199ffb2530c58042f0a31f2ed0666f19d|2018-10-29|cjwood|added single qubit cliffords to standard nosie instructions
+55caf70577a15c8aaff6eca3547c8c73bcfdfa5e|2018-10-29|cjwood|add AerBackend base class
+0fb00c7359ebe4c306d724168812fbeef9f07fd1|2018-10-29|cjwood|add from_dict and reset methods to NoiseModel
+caa14e683dca7b77543f931fb57f74fd3e920a4a|2018-10-29|Juan Gomez|Merge pull request #84 from HORII/omp_get_max_threads
+3da187cb91e2028a0a678bd7f8736f96fbfa783c|2018-10-29|Hiroshi Horii|change variable name for omp_get_max_threads
+7d68448d5ab0ad3541bf2697f2d4bc30824108a5|2018-10-29|Juan Gomez|Merge pull request #87 from Juan-Gomez1/fix-readme
+129ade7d6b01af1c93f3cdb484619f6479c5eb70|2018-10-29|Juan Gomez|* Fixed a typo in the README
+3068ed6121d1ca43f7d232c6abfd0ad55d92ef67|2018-10-26|cjwood|Change backend basis_gates when setting noise model
+1ef1c325ac96839a632d99d00c395c5f6905233b|2018-10-26|cjwood|Allow QuantumError to convert Kraus matrices into standard instructions
+4445d0500d6bef94f5abea4a6811847dc806c992|2018-10-05|cjwood|added noise example notebook
+d084a39ab5ea3c293d90f09c7bcb256ff56cc792|2018-10-04|cjwood|Added python noise and error classes and standard error channels
+adb4f7205bd461a9137dfc9da5e1c70084ad25b4|2018-10-26|CHRISTOPHER J. WOOD|Bug fix: qv_state missing "CX" and "U" gate defs
+98db9a0212011e31c092b5ef434caf55657ae62c|2018-10-26|Juan Gomez|Merge pull request #82 from cjwood/aer-package
+a8339d775f6fceeadc3651e55b67811aac550508|2018-10-26|Juan Gomez|* CONTRIBUTING guide updated * Removing underscore prefix in file names
+546000fe4a6f8eebad8adb03dc637b4e72d0a1ab|2018-10-25|cjwood|update copyright notices
+dda5df3a1fe1e13f687bfbf90ee4538dc47d6099|2018-10-25|cjwood|Update readme and example
+349b8c2784c75e2fd2beaa1fba405f73d2fba484|2018-10-25|cjwood|Update travis.yml, fix typos
+2f4ac19c166d1e0e363eba3ccddf397be6038647|2018-10-23|cjwood|update tests for new package
+5103389dd4ccb0a892ceba2e7ceabea6967d91db|2018-10-23|cjwood|Update qiskit_aer package
+23d646703ee1821866591294c9cb5f70bcb9d3a8|2018-10-25|CHRISTOPHER J. WOOD|Fixes and improvements to C++ code (#75)
+80dcee792adfe82733f139e93ee9896a336142ab|2018-10-25|Hiroshi Horii|use omp_get_max_threads instead of omp_get_num_procs
+2457da063529ed70f4a99efc2cfe8ab9657ecb80|2018-10-23|Juan Gomez|Merge pull request #77 from YAELBH/teleportation
+9dbc1142b7d5e375e26fd35e41ee0cf1b8d902fe|2018-10-18|yaelbh|Fixed bugs in the teleportation test
+4af502808d5177d4bfe80f5503d0818d8aed5e60|2018-10-15|yaelbh|Added a test of a teleportation circuit
+5ef3c5e1de7e197c221c05dd3dae9776487e91e5|2018-10-14|CHRISTOPHER J. WOOD|Added tests for clifford circuit gates (#73)
+e645744bf66ed0ab524f4c5dda866de45205902f|2018-10-11|Juan Gomez|Fix openmp on linux (#74)
+d347475bcbd8c77d1c28d21a4f6f2c917f5a0b81|2018-10-11|YAEL BEN-HAIM|Added a test of a circuit generated by the Grover algorithm (#76)
+5bfe064bab609e731b804a0c2f95bfc51ac3a752|2018-10-11|YAEL BEN-HAIM|Small fixes to tests (#70)
+afd7d87ac1b4120a8eb1ae5569e4af6e7ac605c5|2018-10-09|Juan Gomez|Merge pull request #37 from YAELBH/test_without_measurement
+8b12e533beae37b05797dee2083ba53c69130bcf|2018-10-09|Juan Gomez|Merge pull request #1 from Juan-Gomez1/test_without_measurement_juan
+bcd1263284587866cf8d257e2ab50e5fdb770bdb|2018-10-07|Juan Gomez|Merge branch 'test_without_measurement' into test_without_measurement_juan
+b3e6bad3796689f5ca5d52c3e0810a9e31cdf9d4|2018-10-07|Juan Gomez|Merge branch 'master' into test_without_measurement
+90d67b620f4fcba3f2f6df2d93d602c643e33ebd|2018-10-07|Juan Gomez|Merge branch 'test_without_measurement' into test_without_measurement_juan
+ae464efa9967c215c7c887e1f756bd0631f1a1f0|2018-10-07|Juan Gomez|* Created a test_fallback.py for testing simualtor fallback mechanism * Moved random circuit generation to test_fallback * Added a snapshot test to test_no_measurement.py
+3bccd37ccf9241ac97bb8c0d261bfa788167ad5a|2018-10-07|Juan Gomez|Merge branch 'master' into test_without_measurement
+ae997297e25d708d267d7f428a71a8815d692469|2018-10-07|Juan Gomez|Merge pull request #63 from HITOMI/makefile
+5c479f5f7be5230e986a7d8de0d2d2b9652ad562|2018-10-07|Juan Gomez|* Add CPU native compilation for PowerPC
+6e9932e888c49e087ab608504cc5ef33567cd4c1|2018-10-07|Juan Gomez|* Adding ffast-math for gcc based builds * Favoring faster Apple BLAS implementation over OpenBLAS
+f158742bf9b41caa18546617b78100e0f6afcd0b|2018-10-05|Juan Gomez|Merge pull request #66 from cjwood/fix-qiskit-0.6
+47669b1d63a0274f68bbb53b91b281b2b95c2c6f|2018-10-04|Hitomi Takahashi|remove mcpu/march lines
+bcacd97f82cefab99cd1cfd2da73c94a64ae8b73|2018-10-04|cjwood|Update AerQvSimulator to use qiskit 0.6 AerJob
+fc792fbc038610a8437be4a938b6b200e8f8a502|2018-10-04|CHRISTOPHER J. WOOD|Fixed infinite readout error loop
+08709a9d923f8c91fb909d6ab1f94429d6e5110d|2018-10-04|Hitomi Takahashi|Merge branch 'makefile' of github.ibm.com:HITOMI/qiskit-aer into makefile
+f03775b615f6a651630f0fa289150c0b51c91d3b|2018-10-04|hitomi|Update a function for BLAS in CmakeLists
+bde0094e8e1a24aa8964a900a2cfe88afbd96d90|2018-10-04|Hitomi Takahashi|Merge branch 'makefile' of github.ibm.com:HITOMI/qiskit-aer into makefile
+c4db176abd81e3eda9b6c81a142e8c84ee69e459|2018-10-04|hitomi| Add flags to cmake
+4090121dd4c5faf7e513f5ac4001f756bc45cc0f|2018-10-04|Hitomi Takahashi|Add flags to Makefile
+47903b125cc1c2bbac66db093f0cf6e886e87630|2018-10-03|Juan Gomez|Merge pull request #56 from cjwood/engine-refactor
+c28c0f48efcae1d7a4596259538438fea5a80397|2018-09-27|cjwood|Remove template from engine class, add State template for functions, change qv_state class template parameter to QubitVector template parameter
+08e2c3d3bcc7c2c124026d02d208c79aa3656d6f|2018-10-03|Juan Gomez|Merge pull request #52 from cjwood/simplify-qubitvector
+0c7111c53dcf55fd7dc846a1882d381aa81de9ad|2018-10-03|yaelbh|Renamed a function, to clarify its functionality
+80fe5fcc2a69a1315c89769d85762e943f54a2e6|2018-10-03|yaelbh|Fixing test_without_measurement, following a recent fix in representation of complex numbers in statevector
+a76200e798cdd193b47269993723f8e6f4347acc|2018-10-02|cjwood|Fixing gcc 8 pedantic compiler warnings
+74e282aca5ede53cacc86f19810416b6059b0b9b|2018-10-02|yaelbh|Fixed linter errors in folder 'test'
+2cb936f95dd2d196872620dd0bd7357743a42d91|2018-10-02|yaelbh|Added a hard-coded bell state test
+b82a74ac1edbfcdd7ee821883737d6639043df0e|2018-10-02|yaelbh|Splitted test_without_measurement to smaller functions
+7cb30b535a99d82922bfe44d7e5283544dfe08e2|2018-10-02|yaelbh|Printing the circuit in case of exception
+7ceac7925ea881b7a1f5dee22dbc0436860bfac7|2018-10-02|yaelbh|A small fix in test_without_measurement, since it stopped running after a recent commit
+ccd580df83bdfaf1de52ecb2836a2ef562c3acc5|2018-10-01|Juan Gomez|Added a simple very test Removed unnecessary code in common.py
+bc0668986ea07d5aec075bd9f7069aa65667c28c|2018-09-27|yaelbh|Added circuit randomization to test_without_measurement
+ce4e8d4e2366ddab2ad3da2558a7390232bd3304|2018-09-26|yaelbh|In test_measurement, completed execution of Aer and Python simulators and comparison of results
+8a0401367d01054f0b9278f7b12eeb8f48804434|2018-09-25|yaelbh|Using the provider in test_without_measurement.py
+98197d55f4d29e4af32fff54ce0a24d56fab1b62|2018-09-20|yaelbh|Basis for the first Python test
+117422f133cca72a3f4d6903afdb0249e3a5a733|2018-10-01|Juan Gomez|Added a simple very test Removed unnecessary code in common.py
+bf59a635b398de84800f75428f0509df34da90a8|2018-09-27|cjwood|Made statevector_ type a template parameter, removed vec ctors, made array methods protected
+38cf3d112f8e16172bfba59c0538d512e00709a7|2018-09-28|CHRISTOPHER J. WOOD|add QvSimulator JSON decoder for complex numbers (#55)
+cce2e428df03cb66d44b751813c5108835b1f50a|2018-09-28|Juan Gomez|Merge pull request #54 from Juan-Gomez1/remove-force-o3
+426ee5e6f31ce7e543e103f76213e918ea477109|2018-09-27|cjwood|added direct implementation of swap gate to qv_state
+21fef5d65f00e45c19950f55cffeee8360e5c2d7|2018-09-27|cjwood|removed schedule(static) and unused operator defs from qubitvector
+6bb398d0fa4f58dddd64b9ad78d7b0c3d8ceb7d5|2018-09-27|Juan Gomez|* Removed -O3 flag, CMake will set the correct flags depending on   the build type (Debug, Release)
+82179da5141e13ad41b0c56d4f40422c383dd352|2018-09-27|yaelbh|Added circuit randomization to test_without_measurement
+e94cbdb70fafc8b0899a1216d07d802cba6969fa|2018-09-26|CHRISTOPHER J. WOOD|Merge pull request #51 from HORII/fix_sampling_bug
+697662a25ef3529e7d6343455973412a93a2684c|2018-09-26|cjwood|remove cout statement
+42de72f6de282c7bf08aed32140969593c91c220|2018-09-26|cjwood|update apply_matrix in qv_state to check if operators are diagonal
+247110921c0f027651e5531a3d38057d6088dcd3|2018-09-26|cjwood|added direct implementation of toffoli gate
+73759bf17b709942f606b2370a61ab4b82be5c96|2018-09-26|cjwood|move all norm functions to lambda bodys
+fc34167a49cbd61a10e83a1d59c27cc597c0383c|2018-09-26|cjwood|remove unused probabilitiy, and single qubit gate interface to qubitvector
+0dd9c1b84df32ff78e105e8c1df907ce4b93f1f6|2018-09-26|cjwood|start replacing repeative qubitvector loops with lambda functions
+66a1d4b6161744e75ae2625d0ee0b961fcdb0604|2018-09-27|Hiroshi Horii|fix bugs in sample_measure
+37079d9ab8a4f54143d6628b41fb9d1c44840397|2018-09-26|CHRISTOPHER J. WOOD|Merge pull request #48 from HITOMI/sample_optimize
+ae3608940f0bf198c5b4e989344d265185410bb2|2018-09-26|cjwood|added sample_meaure index_size to qv_state config settings
+a826847b462677993bc88dfea3785506a2fc5ac5|2018-09-26|Juan Gomez|Merge pull request #44 from HITOMI/qv_debug
+5ec177aa898e647f599bde703e8965ab6a9e432a|2018-09-26|yaelbh|In test_measurement, completed execution of Aer and Python simulators and comparison of results
+19460a00bd98fa3baa1259d66ae87585677c6ea5|2018-09-26|hitomi|Add index optimization in sample_measure function
+67c95054b899ebd0ed54da1a422a7d7945ada741|2018-09-25|hitomi|Update QV qobj files
+6302cac14f1078ed258e87aa6d62b440ab822fb1|2018-09-25|Juan Gomez|Merge pull request #42 from Juan-Gomez1/ci-building-2
+f11ba29211af45b700f677798f40df0078069045|2018-09-25|Juan Gomez|Restore aer_qv_simulator.py
+9e6e01183783c14b845bab933782b6b0bab98dbe|2018-09-25|Juan Gomez|* Added CI support for building the standalone and Terra addon versions of the   QV simulator
+5079be1bebd57e4d18c16e341d33ea3c375a8acd|2018-09-25|yaelbh|Using the provider in test_without_measurement.py
+b1a3dd3942e88d22fbf676d28fad466033844035|2018-09-20|yaelbh|Basis for the first Python test
+6c17dcf843e7ee91dff266a98a263beeaaed41a4|2018-09-20|Juan Gomez|Merge pull request #38 from Juan-Gomez1/improve-readme
+01c767ad187c8f4018f13fbcdc6af1ab1991c8ea|2018-09-20|Juan Gomez|Added a step to install pre-requisites for the Terra addon and a link to the contributing guide
+d048bdc385725cc7ccd5b0ae82422bb88ce9d601|2018-09-20|Juan Gomez|Revert "Work around for ProcessPoolExecutor crashing"
+15c60b635e86ba9fb287c29fa0ae216513eb0c7e|2018-09-19|Juan Gomez|Merge pull request #33 from Juan-Gomez1/issue-25-simulator-not-working-linux
+a3483bc9b6d81b86cda396902db6f9fcc0f31e66|2018-09-18|Juan Gomez|Issue 25 - Fixed cython class so it can be pickled (serialized)
+e20c75d20dbba097d7930d2b60b8bc1112442e35|2018-09-17|Juan Gomez|Merge pull request #32 from cjwood/patch-linux-executor-bug
+09687930330dd02b63b80e65c437f6fe29af5f75|2018-09-17|CHRISTOPHER J. WOOD|Work around for ProcessPoolExecutor crashing
+c57ec8e2fc86c31ac7a55c2bff488716544c1374|2018-09-14|CHRISTOPHER J. WOOD|Moved documentation from readme to wiki (#29)
+98594d5611534de2c52ca31e8da94b0c808229b7|2018-09-14|Juan Gomez|Remove old build system (#28)
+7207c3900bd2e48cac0630cbb5a237f580d256a5|2018-09-14|Juan Gomez|Update CONTRIBUTING.md
+e47848e3d48dbf70fff70f8f8a8061eb42c6768c|2018-09-13|CHRISTOPHER J. WOOD|Merge pull request #8 from Juan-Gomez1/cython-integration
+80e21f07a64ff8ecec851e5e56eed8f98bdedb91|2018-09-13|cjwood|fixed typo in example jupyter notebook
+7bbb5d0223b8d1f4f7740233aa7a69139f0ca341|2018-09-13|Juan Gomez|* Improved documentation * Fixed build error because of a missing curly-bracket
+f87ba9b71cd870f52fc0cd35ee3563ae25cfecba|2018-09-13|Juan Gomez|Merge branch 'cython-integration' of github.ibm.com:Juan-Gomez1/qiskit-aer into cython-integration
+a0f03af9748d4b73f6e26b9d2b9f54d6ad89af16|2018-09-13|Juan Gomez|Merge pull request #1 from cjwood/cython-interface
+f53b9ff89e1e1135c89dc01204d4d4a2da306cbd|2018-09-13|cjwood|added qiskit backend for qv_wrapper and updated input/output json to schema spec
+b0c083e0e474db065ea482a46d282d412acf0bee|2018-09-13|Juan Gomez|Merge branch 'master' into cython-integration
+2b941c8f04545cd8f6a6c24ea63ed566052b26d6|2018-09-13|Juan Gomez|* Better documentation
+b5c9e39fc57456407244c5ee1e52edaa8f77bb18|2018-09-13|cjwood|fix compiler error from passing array to ostream before loading types
+2b562a287692a0488d11c6e5877e86693e17dce8|2018-09-13|cjwood|Merge remote-tracking branch 'Juan/cython-integration' into cython-interface
+ba0ae9a37c9bec3a1cd00bbd26be67f199cb5f2a|2018-09-13|Juan Gomez|Merge pull request #23 from HORII/PR1_buildbreak_fix
+ab90f67a082e3ee1e526cb8adcb302c05ef9e630|2018-09-13|Juan Gomez|* Fixed old setup.py to include third-party headers in the build * Fixed template parameter for State on Cyhton wrapper
+4053ef01c3a5eb798ece7e260694ce7dded63621|2018-09-13|Hiroshi Horii|specify QV::QubitVector to use State
+b4e69f3f290b5ee773ff637f775930c0247cd72d|2018-09-12|CHRISTOPHER J. WOOD|remove doxygen header from cpp files (#21)
+a8d80889b41256fffed6096f3d346b05d0e9ce6f|2018-09-11|CHRISTOPHER J. WOOD|Merge pull request #1 from HORII/simplify_qubitvector
+15695e2b07db5d1971d626e184b0ca816d97e227|2018-09-11|cjwood|removing commented out sample_measure code
+f15a6cb1fd40243bb5c68483b2347b5701b1e31c|2018-09-10|cjwood|added loading gate optimization from config
+066b036d62575c80f40ae31c559288843a8cfcb4|2018-09-10|cjwood|added method comments to qubitvector, integration of OPT method without compile flags
+d451f4036307d01ce38247dc646baa54329b9d70|2018-09-10|cjwood|fixed missing update_counts from engine measure sampling, removed desctructive measure sampling from engine
+2809c57379b729d98c0560b48d78550ba3a20c86|2018-09-10|Juan Gomez|* Only build the addon when building through scikit-build * Add qiskit as a development requirement
+3361d6aab184bfc78b4e0060a9d6883a737e1edb|2018-09-10|Juan Gomez|* Including Threads library as part of the building
+8a4119f94c8d230d53f464a15dc47165ac57b220|2018-09-10|Juan Gomez|* Added cmake as a development dependecy
+1bd784f3542dbb413198b63b3773d1c97cbf6c9a|2018-09-10|Juan Gomez|* Forced static cast to avoid narrow conversion errors on Visual Studio * Added math.h header and a #define so Visual Studio can find M_PI
+cab5dbbb727c2e37d54c1e4654a5414cf1550be7|2018-09-07|Juan Gomez|* Better support for static linking on MacOSX * Some clean-up
+4f60f49d3c4f0eee136d6c011778c0d8068f25c5|2018-09-07|Juan Gomez|Merge branch 'cython-integration' of github.ibm.com:Juan-Gomez1/qiskit-aer into cython-integration
+ddc1f318e2ac2a3749bfcd47a0251f7f2e037eb0|2018-09-07|Juan Gomez|* Fixed MacOSX library problem, where Python library was being wrongly   linked at the end, cuasing runtime problems.
+c340169216d8c55de7554744244a596b5f2b2b57|2018-09-05|Juan Gomez|* Fixed MacOS/Clang wheels package generation for minimum deployment   targets of 10.7
+f70d7514ccd61326853b5e8742572a61218ab88a|2018-09-05|Juan Gomez|* Better integration with OpenMP on different versions of CMake * Static building for BLAS
+02a62381f279b8941367c9040ca9bfe80ad9abdf|2018-09-03|Juan Gomez|* Added support for using the QV Simulator as Qiskit Addon
+a76297c654f833f7bb20653c56c75be09ac4218f|2018-08-31|Juan Gomez|* Added scikit-build support for building Cython extensions
+bc0028b04629a3dd13c56016dccf602351d60f60|2018-09-06|Juan Gomez|Merge pull request #2 from Juan-Gomez1/testing
+afb2abd7a953013e62b01ae013198c517b654d3b|2018-09-05|Juan Gomez|* Fixed MacOS/Clang wheels package generation for minimum deployment   targets of 10.7
+f4e5a9d97258a5ad7024436df87f0e84677555e3|2018-09-05|Juan Gomez|* Better integration with OpenMP on different versions of CMake * Static building for BLAS
+b4a1a6016aa741dea74b46947665ce2cf92778d6|2018-09-05|Hiroshi Horii|modify omp for general usage
+8ba567dfe9a6dd256146125e5cf57984fe453e22|2018-09-05|Hiroshi Horii|reduce dependency to cmatrix in qubitvector
+e9476602fa565707607aa5e9ebf559335fb36741|2018-09-03|Juan Gomez|* Added support for using the QV Simulator as Qiskit Addon
+3499a9c1c5553d2312f890179d6f9f96e350e5c1|2018-08-31|Juan Gomez|* Added scikit-build support for building Cython extensions
+692434666cd0ab6839ccb62e5b43115afff5587e|2018-08-29|cjwood|Fixed typo in qv_state gate def table
+c91f55e8bd05548992c6a0c4979ef6c8486ea374|2018-08-30|Hiroshi Horii|delete aer_simulator_hpc
+9e854b29085e36cbeb449271463bc976c65866f3|2018-08-30|Hiroshi Horii|Merge remote-tracking branch 'upstream/master' into simplify_qubitvector
+0eb7d02f29ca2569c97e33efe200a97565c427ea|2018-08-30|Hiroshi Horii|Merge remote-tracking branch 'upstream/master' into simplify_qubitvector
+4a2fe9facfe93ac334960ef9a25cba84fa165906|2018-08-29|cjwood|fixed typo
+2d41a0dda7eadb139ee16467cc5803133605c130|2018-08-29|Juan Gomez|* Fixed a syntax error with ending braces for namespaces
+31fa8312056480818d80739459e787cefb62509b|2018-08-29|Juan Gomez|* Added Apache 2 license
+e41f2b0a3808de8a54e0bfcb1af39df5e1c34094|2018-08-29|Juan Gomez|* Added license file for Catch2 library * Refactored namespaces to comply with C++14 standards
+74b341ce7b9b47ea271be51304c19b5ed1213159|2018-08-29|Juan Gomez|* Add compatibility for CMake 3.12 with Apple's clang and OpenMP
+387b2da5f1e591c53a1b83adbf45b0aacf3fdf4e|2018-08-28|Juan Gomez|* Lowering cmake required minimum version to 3.6
+fe9d56f82b119825a746a0319a1874420904405a|2018-08-28|Juan Gomez|* Added new example test
+477b78f1cdbe6819b55a8e82e147c266a8867314|2018-08-28|Juan Gomez|* Add an example test using TEST_CASE/SECTION idiom * Add support for Release/Debug builds
+fbc5a33806e39f7299d8900ea4e3bd2a63cdd7b6|2018-08-28|Juan Gomez|* Added Open Source common project files
+e469f64737d00f1e30703842e2f229c718bd073d|2018-08-27|cjwood|fixed bug with local noise qubit parsing, added reset error example
+764c5901280a71a9691984e534844a04a534f422|2018-08-27|cjwood|improved thread safety of noise rng, added readout error type
+11c36a5b9425b8e2837f46f430542a745f47076a|2018-08-27|Juan Gomez|* Add linter support via clang-tidy
+bdfb1f6e9539bee2c0a31a3fdbc9c0629e48b493|2018-08-27|Juan Gomez|* Adding support for CCache
+f2b12c43b2be6ad70a900d24c70a0011ecd297d3|2018-08-27|Juan Gomez|* Force C++14 flag for tests too
+43fbd0c059b40381d5d393b95adfef2f22432e8b|2018-08-27|Juan Gomez|* Add BUILD_TESTS flag to CMake
+28ca71c197d693bbd054a79d22d4848c1b538069|2018-08-27|Juan Gomez|* Added CMake support for testing using Catch2
+7ec4bc0df113a6cfa61ab3f225e6644b9d1939a8|2018-08-25|Juan Gomez|* Added third-party header only libraries to legacy Makefile
+02d2fe6714754c9d3a1d5244931bbad91e0fe089|2018-08-09|Juan Gomez|Adding initial testing support
+661fc515bcd6e31c0008c6faae8f3af7d9aa74a2|2018-08-25|Juan Gomez|* Better support for external BLAS library dependency. We favor   OpenBLAS implementation over other implementations.
+1c97024548895925b07464752e1ac2fa9a1f19b2|2018-08-22|Juan Gomez|Refactoring and simplifing CMake
+cc6ce6552b59c6e53f8853776e1d61f108279add|2018-08-02|Juan Gomez|Updating CMakeLists.txt. No cython integration yet
+7af26f9b192cffad6aa5d608754ad3b61785d9cd|2018-08-01|Juan Gomez|Added CMake support for Apple's clang
+0372fbf5dfcc3a976096db39089e95e465eb6eba|2018-08-23|cjwood|added cython build installation to readme
+f2835e43f8b1de94333aae223a5116ed31b8a9cd|2018-08-23|cjwood|updated readme with start of error model description
+f499b01eda34a2facb582b312cbdad27735c95c5|2018-08-23|cjwood|rename waltz to x90 in noise_model
+8d4b1d759a9f2cc4ff6977a068b0200bd5f5ce4d|2018-08-22|cjwood|updated readme with current documentation
+7102e519aa7fa0cd3817cacd0c4db8e5b293b541|2018-08-22|cjwood|moved dmat to be special case of matrix
+0235bcadceee6cc31221bc8a185ceaea608f2f54|2018-08-20|cjwood|Added support for measure and reset error when defined as multi-qubit operations
+43a959fe6bdaaefb68bb861aea449646132bc6b0|2018-08-20|cjwood|fixed cython build bug with linking multiple openmp libraries
+4ccd99ed3a869c03eaa5663379c732eff77d72c7|2018-08-20|Hiroshi Horii|fix bugs and add quantum volume in examples/qobj/
+ff6d854f3b1b4fbbcef8bd78d1da044381d978ab|2018-08-17|cjwood|updated cython interface, noise is currently crashing jupyter kernel
+d4b1f424df875e1e073cb773c66b4c6a202068ea|2018-08-17|cjwood|added JSON parsing of unitary and reset errors and nonlocal errors
+17f46bcbd99c8d7a32c2d344d780d9e81810eb59|2018-08-17|cjwood|Added unified noise model, moved noise sampling to controller, changed controller template to be on execute functions rather than class
+46c120104a4188f2dc21e43cbe85391d4f73c5d9|2018-08-16|cjwood|Updated noise model class for local and nonlocal noise, added reset error error type
+cd88c0f5972c95f7f2e5a2a18d7a5502de5a8b1c|2018-08-15|Hiroshi Horii|refactor aer_simulator.cpp
+395ce536434fad86437ab4610bb2586b3deceec0|2018-08-15|Hiroshi Horii|Merge remote-tracking branch 'upstream/master' into simplify_qubitvector
+b4c32262e8c9944c5d33fe69d975ef2064bad341|2018-08-15|Hiroshi Horii|add hpc engine
+6a2decf6ab005a755dd0441336a3c02c81f009d5|2018-08-11|Hiroshi Horii|improve sampling with indexing and multi-threading
+4474ad058b36975c7716867fc82927d0e6806e8a|2018-08-14|cjwood|added simple_model for parsing local gate errors that are independent of qubit
+b166e02057f89332f9503b34bd81334fa9c1681b|2018-08-14|cjwood|start of noise implementation
+f91ba4ac66805b9cd141f1afa71d8097ffd0fd1d|2018-08-11|Hiroshi Horii|add optimized apply_matrix for two-five qubit operations
+4abdde8f96cce7f7e70836ca66366a6d2b03ed86|2018-08-10|Hiroshi Horii|introduce templated stat_t of QubitVector::State to swith QubitVector implementations
+14c62f4f01f5e0b74c3b5a47b2faba9357294192|2018-08-08|cjwood|fixed gcc compiler warnings
+87edba246c3bce44d9073890e09e361728eba683|2018-08-08|cjwood|updated readme and added a basic todo list
+74a52cd8a716665bd6dace47552d86ee84c31fdb|2018-08-07|cjwood|changed probability snapshot to be specific to qubit order in snapshot and return output as hex counts, updated snapshot examples to use 1000 shots
+906e9bbe3e43c757b9a17c77239aa3ecc4537329|2018-08-07|cjwood|moved measurement sampling optimisation into base engine and state classes, added check for optimisation to controller
+81198c44a2cfb1fd4981b72e120384f91c5ec768|2018-08-07|cjwood|updated snapshot schema to Dave's spec and added example qobj
+ed5eed62d62f2ab509ce6773391077a546a52224|2018-08-06|cjwood|added bfunc implementation, changed map lookup tables to unordered_maps
+34a79c79fc504d096a9cf7d60ae26e3a9b998c36|2018-08-05|cjwood|added figure for framework
+8da587edd7568276d74570feb736c9fd923f761d|2018-08-05|cjwood|updated documentation for operations and snapshots
+cf93a785e446ebd0a9cd7939e52708029a572706|2018-08-05|cjwood|changed snapshot output formatting and input, added snapshot.md explaining current snapshot schema
+73a3ca2aad049977eff35541c1ec62934851e98c|2018-08-04|cjwood|Merged all engines into a single unified Engine class
+9b9b735b1b0796a4b211e2cfd0e90c182ff327b5|2018-08-04|cjwood|Changed observable engine and snapshot engine to use Snapshot class
+ded50785efcc730660160a72dafe16380ef55936|2018-08-03|cjwood|added Average Snapshot class, added probability snapshots to qasm engine
+8b0b2f274c183fbe0ae9670b62b091b6e3a50a70|2018-08-03|cjwood|updated Operation::Op definition to allow for observables snapshots
+268f5d1f238ff78ecb2b0151173ab9523c80c5d5|2018-08-01|cjwood|updated interface to include observables engine
+2e60bc08ada2e67f44cc96632805f116a76638e1|2018-08-01|cjwood|Added general matrix observables, renamed op param labels, added reg params to op
+dbaa10dbb8fcb588a5dce9e1cbcc7462505f9984|2018-08-01|cjwood|fixed bug in switch statements in qubitvector applying dynamic gate operations twice
+ea9702c3c8b18ca48bdc5890629f50b7d3f7c810|2018-08-01|cjwood|fixing Base::State namespace alising
+65d120c938896934840581c47bdb5602f0b244ef|2018-08-01|cjwood|added ObservablesEngine, currently only supports pauli operations and measurement probabilities
+1691a09bc194b558d7523fa091b5483d0629651b|2018-07-31|cjwood|fixed bug in tensor indexing, and change TensorIndex class to functions in an Index namespace
+95a234fefe74fe219405b6c57b106d969e3cdc37|2018-07-28|cjwood|improved how allowed_ops is checked
+7cf427979116df32193d51f6661842a664fd0f1f|2018-07-28|cjwood|updated operations specs and operation JSON parsing, moved some op functions to circuit methods
+f01f03d845514a24843391f1546c9965fcb8136c|2018-07-27|cjwood|added snapshot engine
+db4a01d4bc63d67c8a26f9c86cceb08396776bac|2018-07-27|cjwood|added parallel circuit execution option to controller
+8ce4debe31668d0efe270c1a3aeedb4a52021506|2018-07-27|cjwood|added cython build example. Note simulator doesn't work with pip qiskit due to different qobj spec
+0f16a1c9af250c570be223634dd7386b8c0cdbc2|2018-07-27|cjwood|added qv_qasm_engine with shot sampling for qv_state
+dc912f71fa5c9446bd35b45e791cb48cb7ba240e|2018-07-27|cjwood|added legacy-build make script for testing simulator builds
+8701acee93f376ba9b58fb2cbef65df84b1a5091|2018-07-27|cjwood|added qubitvector simulator with new State subclass wrapper
+2117a350dc3d7aab5838c3beb189cec4f0200a1d|2018-07-27|cjwood|added shots and seed to circuits
+d56e2c19ae9222520202c23a89204109e8bdc617|2018-07-27|cjwood|added QasmEngine class for returning counts for arbitrary simulator states
+24f06c67a10e65c2d3f95e2782dcd28246d21c37|2018-07-27|cjwood|added FinalStateEngine for returning final simulator state for arbitrary state types
+cd3c13dde0596432f0c6873aac675882ab652db4|2018-07-27|cjwood|Added base (pass-through) Controller class
+111b8c9568053e367bcf7a3bf33497369c7bd522|2018-07-27|cjwood|added base Engine abstract class for simulators
+deb5b54b25ffb8f70e0a79637c8c485875b3b9f8|2018-07-27|cjwood|added new base State class for simulator
+2aa45238b08987630dc0323a016f5cd94afc2350|2018-07-27|cjwood|rewrote circuit and qobj classes to use new Op class
+d6a3aa04cf189f6482a155d114d296cd1a63003a|2018-07-27|cjwood|added new Op class
+bbccc41849eec1d3f59179bc7020a81ace7d9464|2018-07-27|cjwood|added types header and new utility functions header
+a9a779f4c1b335bfcd586f38c5901f57e48d63a1|2018-07-27|cjwood|moved matrix and JSON library headers
+5fb4f5792b170e4dfb0b953d9fbbdd6e7c8918b6|2018-07-27|cjwood|added spec docs for operations and main engine types
+224feda211e7d92b815955a0bd2637f142b65947|2018-07-27|cjwood|Initial commit

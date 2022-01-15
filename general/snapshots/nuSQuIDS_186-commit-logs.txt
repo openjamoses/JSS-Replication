@@ -1,0 +1,747 @@
+1f8a9bc79ec736fce65facf7e16a313321059d9a|2020-09-21|C. Weaver|Avoid binutils ld foolishness
+6752314f3e582a63f60ab3e9dbd2dbd5f4813e64|2020-08-13|Carlos A. Arguelles|Added QT as an option for gnuplot scripts. Improved LV header, which caused example to break
+d754decb7be89c8af7bb328c092f2f2786911a24|2020-08-12|Carlos A. Arguelles|Added GetState to PythonBindings
+c50dbc66d4e0f2187ad3258da6f1a22d232f14c9|2020-07-29|Carlos A. Arguelles|Fixed python bindings compatibility with new cross section implementation
+45286c055be4c18f423d71c41200fc9364fccea8|2020-07-29|Carlos A Arguelles Delgado|Merge pull request #19 from arguelles/xs_update
+f57bfb55beb38d4b10d804d07b81e2f60bed8f9a|2020-07-24|Carlos A. Arguelles|Added new headers in the protodraft
+d2b01c7b23c87d2e67e6b0454529c0a444e69b85|2020-07-24|Carlos A. Arguelles|Added option to provide alternative Solar Model
+90f22cb6788953fa9e23a2dd220a1331572f1294|2020-05-26|cnweaver|New, smaller cross section file containing the same data
+55839a5895be90edeace9166c26968e1914bbf44|2020-05-26|cnweaver|Remove fast cross section averaging via interpolated cumulative functions, which had too many numerical issues. Instead, use faster direct integration, tuned for very smooth functions.
+10a78da5a530f07cf57214987d16b3f82d1fd8a4|2020-05-26|cnweaver|Correct spelling
+878779494b8798bd35b68ec03c6a01031850ad69|2020-05-01|cnweaver|Use correct variables for the mean value theorem
+0ecda9a392eea5306422dd15d15a82a2a4bfad0a|2020-04-30|cnweaver|Allow extrapolation to smaller-than-tabulated input values
+1091fbd683a51170364755f40ab535f106c67e6d|2020-04-17|cnweaver|Add a new cross section implementation which uses (bi)cubic interpolation to reduce systematic errors.
+03443d01797c4c1a59bd208bf71f4bc33410adb8|2020-04-17|cnweaver|Add slightly more user guidance
+b96a3fdf54c383753b91dcdf288fa9a0daa17b7a|2020-03-20|arguelles|Added backwards compatibility to tau decay distribution when deserializing nusquids files
+8acd47f15200dcebc498c03341b3d9c5d6728990|2020-03-05|arguelles|Minor fix to include in main file.
+f5ce20649481fbe934effb205f14c2d3d80f97d0|2020-03-05|arguelles|Added improve implementation of differential cross section integration
+24a45ed1273b4b53651b364836b3d1c9946ca3af|2020-03-05|arguelles|Improved cross section integration efficiency.
+4e99ff3717cf547177958fe2f3a5e76b302f49b4|2020-03-05|arguelles|Merge branch 'master' of https://github.com/arguelles/nuSQuIDS
+1d5e8fa3f17efed4d7544aeda738bfb7d2120e23|2020-03-05|arguelles|Added missing constructor to EarthAtm::Track
+ab71663b2f8dd4f13e85039b02c738969b263c34|2020-03-04|arguelles|added adaptive quad
+67cf4dac6bd2955f845fd4373455f84e02ea5a7a|2020-02-24|arguelles|Improved boost python compatibility to python3
+f8aac2fa7c8d28740cc379dfd0eaf57a38e26a0b|2020-02-24|arguelles|added cross section integration
+8e22eeb7daa83190f7dbab7a1519709587ad6600|2020-02-12|arguelles|fix typo on paper draft
+d61324b17ab9d15f12efe1c63ea549b4116b2116|2020-01-13|arguelles|Fixed edge case in Earth where you would hit a round up problem
+0f29595f79ec6920e09cb21e3dad4f5998e17960|2019-10-25|arguelles|fix binder readme path
+f8c6819ae512c80977768b971403793a5f83e65d|2019-10-25|Carlos A Arguelles Delgado|Merge pull request #17 from mmkekic/master
+b1c491b91a040fad56e8a32332ff6e35914c8d28|2019-10-14|Marija Kekic|Remove formatting for matplotlib in notebook example
+0e0c82a6f0a8a8a447c2f85489cdaf0f5292c498|2019-10-14|Marija Kekic|Add link in README
+df3a61bf9f6dfadae2ce5f38f43a8bcd04e493a7|2019-10-07|Marija Kekic|Binder setup
+03ec78178fad333bbc176ce5c8fc81f98842c2ea|2019-10-13|jsalvado|change configure for python3
+46070fe0c6474450acde0ca24998588a4c87a640|2019-08-28|arguelles|Remove print statement on example
+f258bf33216c58306c273ac33ed722b435144f79|2019-08-28|arguelles|Fix atmospheric averaging mode
+08da920086cae0383100140d1455ea9954bcfe4e|2019-08-25|cnweaver|Section 3.1 corrections
+97b95be2ed761cd20caf012d21a7784e9c79edcd|2019-08-24|cnweaver|Fix typos and improve wording in sections 1 and 2
+2c2b4b870bd298a58c9692850bddabd0874e0e37|2019-08-24|cnweaver|Fix fatal typesetting errors
+fb13de3081af295b726e3a561fa8cd7a206e8eb9|2019-08-24|jordi|adding fast oscillations to the draft
+c6a9a7f95a2636447e8c92c005266d98203f0a65|2019-08-06|Carlos Arguelles|small additions to paper text
+45f93a2c2267838635428b51ee619eca40dcd3f3|2019-08-06|Carlos Arguelles|minor text fixes
+2352eb120da19bbd6fd1aa75dc9feb4091f33f8b|2019-08-06|Carlos Arguelles|minor updates on the draft
+dd99bb4074a85bd161cf5751d0f1f031d269f48c|2019-07-26|Carlos Arguelles|Merge branch 'master' of https://github.com/arguelles/nuSQuIDS
+c6a8be92b35067939fa5267703c6d8ea03949c30|2019-06-09|cnweaver|Expose scalar products for SU_vectors
+c14abf01a5e61291350958a11b87aa12f76ba1d7|2019-06-09|cnweaver|Expose scalar products for SU_vectors
+198c2cb8ebb266448c3dffc490240750f1c71110|2019-06-09|cnweaver|Find boost_python when it is not tagged by python version. Fix the 'clean' target for the python bindings.
+bdbe4b759de4b25e781b759defdbe4e3514d8b29|2019-06-09|cnweaver|Find boost_python when it is not tagged by python version. Fix the 'clean' target for the python bindings.
+c8732d2ac198945cac729dce93c5f2659a35b039|2019-05-21|arguelles|fix tau serialization bug
+bc249f5609b196b1b48e693077e6d713831a1949|2019-05-21|arguelles|fix tau serialization bug
+15dc41e1867245a6c835ef6301942bd1b090add9|2019-04-19|Carlos Arguelles| added nusigma files for proton and neutron targets
+7e28735cdca685d8a2d72a89499e8c5b34bde95c|2019-03-08|Carlos Arguelles|remove flag. fix
+3627608dd1b0f6158d1aff7e7a73f117c06e5a46|2019-03-08|Carlos Arguelles|remove flag. fix
+814d4772df360101188b81b55f396ee81ace6c8d|2019-03-08|Carlos Arguelles|warning: temporary broken version. Changing tau decay spectrum
+3ab792f68d7dfe5cb628cfa6a96124c5d40a264b|2019-03-08|Carlos Arguelles|warning: temporary broken version. Changing tau decay spectrum
+e93b84b8428fb9ff72abfeb8d4d85fb7fbf5a33e|2019-02-04|arguelles|added SU_vector operations to python bindings
+c9e6ffdbad3f9e9ba09f8b8834635f03fec2e67e|2019-02-04|arguelles|added SU_vector operations to python bindings
+90379e28b3e17d0ded140d6e040969257fe890f9|2019-01-25|arguelles|added edits/fixes from Alejandro Diaz
+5eff0594f7615771d0856af9fd9eaca94bcfb71c|2019-01-25|arguelles|added edits/fixes from Alejandro Diaz
+3b635070a93e445dc08956be9780a0ade180a6e3|2019-01-19|cnweaver|Do interpolate cross sections for small energy losses
+8d348dc4988c543762771cf1a89e947e17192bdc|2019-01-19|cnweaver|Do interpolate cross sections for small energy losses
+635ebaac804f5edb3147edd6aea3fe08ff4009f0|2019-01-19|arguelles|removed references; implemented I. Safa draft comments
+229318b022363d47017bdcd7e7729566dadb8873|2019-01-19|arguelles|removed references; implemented I. Safa draft comments
+c6446ba8872fa6109b4a66645f32ca2b095a0970|2019-01-19|arguelles|small improvements to configuration file
+c12a5478f18ff7bef6f9b9f18669f41f9e704acc|2019-01-19|arguelles|small improvements to configuration file
+2a6eedc4a66ab313ebfc12c7b760790c58573345|2019-01-17|jsalvado|adding the .py, esenctially a copy of the notebook
+f0a0f25bda5f00d49b884cb9e07ef7a789638fda|2019-01-17|jsalvado|adding the .py, esenctially a copy of the notebook
+0f48eb5bd83bdeefd692b719f0f7f9c835a594b5|2019-01-17|jsalvado|some typos in .tex
+20d7557e4883b7c7b607475e67b491bebfaeae39|2019-01-17|jsalvado|some typos in .tex
+0f21aad8d3900605d9023ac3a275ae4b997976cd|2019-01-17|jsalvado|change line to find boost in ubuntu 18:04
+f8623cec4d38c73cefdae3f9825ae0c944d76789|2019-01-17|jsalvado|change line to find boost in ubuntu 18:04
+45d26cef85b9135b5934870078bc336ca7add247|2019-01-17|jsalvado|adding /urs/lib in the boostlib guess
+9cd4f2dd0a7245489604d81586719fd9661d94c3|2019-01-17|jsalvado|adding /urs/lib in the boostlib guess
+b02bf1397a84abc5086b0eca0074653d39de20cb|2019-01-14|arguelles|relax assertion that cauase rounding trouble with serialization
+80646232a18a0dc98a61add709adbe9d07e24b13|2019-01-14|arguelles|relax assertion that cauase rounding trouble with serialization
+4efc5ba4def85085a2b61a305ac48f53fa38789d|2019-01-13|arguelles|complete python section
+69e2fa83f9a4a3b17979add4b354d007def68fe6|2019-01-13|arguelles|complete python section
+e78b53ecac63b0a88a04443351dab5d688f8b333|2019-01-13|arguelles|nusquids paper writing an extension
+54dfb4ea887677e8de1a72e516633e614d1841ec|2019-01-13|arguelles|nusquids paper writing an extension
+dd985dbebd63f8d1d518a44036668710c2a8d81d|2019-01-13|Carlos Arguelles|Merge branch 'master' of https://github.com/arguelles/nuSQuIDS
+a72bcaf5dbfb7646313c553ebde55e56fc6302d8|2019-01-13|Carlos Arguelles|Merge branch 'master' of https://github.com/arguelles/nuSQuIDS
+7977041a12b0ba7731c5574dc63bcbafb584c166|2019-01-13|Carlos Arguelles|added more details of python interface
+405c279fad91b9863d917b152a065389f1ff7901|2019-01-13|Carlos Arguelles|added more details of python interface
+a46894df1e0218352d2ddb837bed0e570feaa504|2019-01-12|arguelles|Small bug on TauDecaySpectra object that did not initialize the constant in the default empty constructor
+6d0a9b727bf15fe71729089f7031c4cbb7b85de2|2019-01-12|arguelles|Small bug on TauDecaySpectra object that did not initialize the constant in the default empty constructor
+b389ad5ca32895c200f565305de2902c8a107540|2019-01-12|arguelles|added safety in tau decay class and made some of its members public
+d52177d9ba35643bca928d841956dfb4e3d7b814|2019-01-12|arguelles|added safety in tau decay class and made some of its members public
+a54bdc310be56198d2ce505b8f547de7822595d7|2019-01-12|arguelles|updated paper text
+aa871705e1fb8495feda28913331a654bffc6b5b|2019-01-12|arguelles|updated paper text
+e5e235f8697f2b45cb310ca5a87473206ca790e0|2019-01-01|Carlos Arguelles|added text in paper
+611f9956d69d5898794e00666eec6633bbcbbcaa|2019-01-01|Carlos Arguelles|added text in paper
+43fac2b7e5acf02d9e450861ae9657a2623f5e77|2018-12-30|Carlos Arguelles|added -fpermissive flag to python makefile due to numpy bug
+e8dc941c794d6159c85adba53344574eacca6ea5|2018-12-30|Carlos Arguelles|added -fpermissive flag to python makefile due to numpy bug
+b16a1a36d449a9fba165b0b6b1bf1c3509efbf72|2018-12-30|Carlos Arguelles|improve configuration python paths and settings
+de1f4cc5d79de4df191f0d874567bfa56ac0a1d4|2018-12-30|Carlos Arguelles|improve configuration python paths and settings
+52bb1cb500026f8da929d553e9cb38a3f65105ea|2018-12-28|Carlos Arguelles|fix python notebook with more examples
+e3a1c1b2b3e9dd09f2b3ab09d155b112caf8764a|2018-12-28|Carlos Arguelles|fix python notebook with more examples
+24b67255ada2a8238dc0ee9c6ff540c850dec3fb|2018-12-28|Carlos Arguelles|fix in configuration file and nusquidstools python 3 support
+6c97a08e2b10b912fb1f92b9fe9ba4f2cae6b1de|2018-12-28|Carlos Arguelles|fix in configuration file and nusquidstools python 3 support
+bb1ad119d2171fa831604262d4ddaa1da387f945|2018-12-28|arguelles|this is a bash script
+9936b05d63d42f80af696dae18d534a8d4f8350f|2018-12-28|arguelles|this is a bash script
+21e5d451b5f237b9533ca8664d8bd64374da36fe|2018-12-28|arguelles|improved bash parsing
+52023986ffbbd6c944cf2739e2a40d32a374fc4e|2018-12-28|arguelles|improved bash parsing
+64a215253d948c26ab5f7fd116277d89a1aba47e|2018-12-28|Carlos Arguelles|improved configuration replacement
+4cc4c077d5e516e831796bfbd8ab2094a5be9171|2018-12-28|Carlos Arguelles|improved configuration replacement
+bfd4b170277fe14673ccad8d9f123eedcb9eef12|2018-12-28|Carlos Arguelles|improved python version detection on python binding installation
+374813535b004547bdfbc8ad5d3b93acc036112b|2018-12-28|Carlos Arguelles|improved python version detection on python binding installation
+aec6ab62e777663263f13c567d5e45413f7ef27c|2018-11-27|arguelles|added tau decay spectral to nusquids python bindings
+683b0a9d000d2030bc4a68c69b106fefce40ab9b|2018-11-27|arguelles|added tau decay spectral to nusquids python bindings
+64fc86f2e9025665972e6e22acfd5168c9b68152|2018-11-24|Carlos Arguelles|splitted nusquids python bindings onto two files
+e63bac0f2ba4ad8753b0dc404486ed2362ecd9df|2018-11-24|Carlos Arguelles|splitted nusquids python bindings onto two files
+d925a07e18be24ae908c60d41039e801edcb5f08|2018-11-19|cnweaver|Supporting performance information about math libs
+6b3ce63a91dc45f9369485a6430f1fa290c1dc1c|2018-11-19|cnweaver|Supporting performance information about math libs
+4da151af1077f01fbf964a8b3bc2f6ac2917c713|2018-11-17|cnweaver|Allow the library install directory name to be specified. Add quoting to (un)install commands to work with paths with whitespace.
+123d5d009a1091c9ea6a558e6aae7fa1dd0cf63c|2018-11-17|cnweaver|Allow the library install directory name to be specified. Add quoting to (un)install commands to work with paths with whitespace.
+235993e111884e652b779f74bc66eb663b4550ed|2018-11-16|arguelles|added PeV in python bindings
+8fe30d89f60e3d3ff64d5d696ab997c71062b302|2018-11-16|arguelles|added PeV in python bindings
+a78437c89f34f233814de6af5a5a8c5e8f8fa4ab|2018-11-16|arguelles|added python interface for neutrino cross section tools
+b75666152e437077c8fad02a7dba323cf7d4e48a|2018-11-16|arguelles|added python interface for neutrino cross section tools
+f84479deeb643bbd169a5f381dc7d87576aa701f|2018-11-07|arguelles|added more functionality to python bindings
+b3903fa5bcebb7285973b3fbf69fd714364c3f51|2018-11-07|arguelles|added more functionality to python bindings
+dfbb8cf4de8689600b8a631569c902426e4382b1|2018-11-05|arguelles|updated atmospheric model to be more realistic
+7897ec2533d366ad4c380e936f92893899693b9e|2018-11-05|arguelles|updated atmospheric model to be more realistic
+f7fa4dc60aa488b8cd46248539d3c61bc6eab320|2018-10-25|Carlos Arguelles|new python templating system
+513f1cc28f9a2ea5f2d1a119d95c8209ba564ea1|2018-10-25|Carlos Arguelles|new python templating system
+7aac96ad54fa99f409e776069f3e5b7c9c55e395|2018-10-23|cnweaver|Avoid overloading on functions with default arguments to keep python bindings happier
+39c69ec107ad286abf9549864e247a19ec0d8b44|2018-10-23|cnweaver|Avoid overloading on functions with default arguments to keep python bindings happier
+671f8c24246a87b56ce6f9519f66c7159da239cb|2018-10-15|Carlos Arguelles|fix configuration file to be ubuntu safe
+f56db284bb1305bf94c737b09cbde2a0dfd7f3bc|2018-10-15|Carlos Arguelles|fix configuration file to be ubuntu safe
+c1f25cde3faf65102fcb3436e80eed3aa944fa89|2018-10-15|Carlos Arguelles|fix configuration to detect multiple paths return by find
+7f27e43eb0b98449f54a57bc33ffd532d49bb307|2018-10-15|Carlos Arguelles|fix configuration to detect multiple paths return by find
+ece482d360dd5655c7a0ff69324a0599e89400a1|2018-10-02|Carlos Arguelles|fix tests
+ddac09f083ab987dd758a84c4b472b7655f49bd1|2018-10-02|Carlos Arguelles|fix tests
+dd4bacc59867277f6fce0444c4b4dd4c3b8dd628|2018-10-02|Jordi|a bit on listings in the paper
+fa442b5aa32ac46020e7f8f28657263be5379c24|2018-10-02|Jordi|a bit on listings in the paper
+f2513ac827284dfd57e58c54112f048a4f9e799e|2018-10-02|Jordi|join all the .tex files in one nusquids.tex
+3778882e651001877314498fdd302897b8f5ebea|2018-10-02|Jordi|join all the .tex files in one nusquids.tex
+4370d2d3a62644fd9e256b70f31221110b0cb8cd|2018-10-02|Jordi|add example
+1c3f85e5cb6269607e22f0582539bb695e281b9b|2018-10-02|Jordi|add example
+5997a80a3ca8836435d2569296099eb43c71f8b5|2018-09-26|Jordi|code description is almost done
+c4961fbf5612d9ef32d27af16b4cb316ce2836b9|2018-09-26|Jordi|code description is almost done
+c59b04ab7295f5c548df00dcda09122d1e41a69b|2018-09-22|cnweaver|Clean up warnings: Remove unused variables. Initialize members in declaration order. Prefer nullptr to NULL. Remove redundant semicolons after inline member function definitions. Remove peculiar use of the comma operator.
+13451b49285d248aec649724756df10ac9d9ac63|2018-09-22|cnweaver|Clean up warnings: Remove unused variables. Initialize members in declaration order. Prefer nullptr to NULL. Remove redundant semicolons after inline member function definitions. Remove peculiar use of the comma operator.
+50f4ffd4c39bfc630d10fb586314af2500c88519|2018-09-22|cnweaver|Fix a typo which caused a variable to be used uninitialized
+dbcaa2e702994da73f2f14c40d1a971e573ce098|2018-09-22|cnweaver|Fix a typo which caused a variable to be used uninitialized
+8c9b6815e56949d738054876a63fd7fc26169c32|2018-09-21|Carlos Arguelles|Merge branch 'master' of https://github.com/arguelles/nuSQuIDS
+5ebc3e8d714c3d20de07afa6b597b879dcf91cf3|2018-09-21|Carlos Arguelles|Merge branch 'master' of https://github.com/arguelles/nuSQuIDS
+83bcf4fb60e9ea9e72b9cf57ad798209b4e2dec1|2018-09-21|Carlos Arguelles|modified configuration file to add new example
+ac5d0696f7e2653332f01f745081f5f8007ab0d3|2018-09-21|Carlos Arguelles|modified configuration file to add new example
+2291d1ed65ecd273224ad6ba870dba8ee25bed9c|2018-09-21|Carlos Arguelles|Added new astrophysical flavo ratio example and modified configuration file
+e46dc12c504fe6fd6984aa7366e243f1776888e1|2018-09-21|Carlos Arguelles|Added new astrophysical flavo ratio example and modified configuration file
+e3406d36de489248d191cc972214a53fbdb74a71|2018-09-13|cnweaver|Give a better error message when the user specifies an incorrect library prefix
+e09c4375a1047540d57c930d2a7b7086c39147d0|2018-09-13|cnweaver|Give a better error message when the user specifies an incorrect library prefix
+614bc4eab7c67a9ae0e33ad6be0b7fb7a1ba2f8c|2018-09-12|cnweaver|Do not use implementation reserved names
+af250b58d3cdc5d29f37df52156b28fed97fc7dc|2018-09-12|cnweaver|Do not use implementation reserved names
+475082bc2b13e3fc64449feaa31b002023bce6a8|2018-09-12|cnweaver|Explicitly link with pthreads. Fix a typo in a variable name.
+16924316d44a6367d6ddd553f30aed7661d6ca67|2018-09-12|cnweaver|Explicitly link with pthreads. Fix a typo in a variable name.
+109e6164cc13cb031832719b18144d6790728409|2018-09-10|cnweaver|Prevent argument to sqrt from becoming negative
+a8015134a742bd6555d5d8c0707e21bd0521ac07|2018-09-10|cnweaver|Prevent argument to sqrt from becoming negative
+b3ee8cd392d44a320869dc42187193c9fce625ad|2018-09-07|Jordi|working in the paper, nusquids section
+48cd27e5cca560a517c09b54eb9e0878cf3dafc4|2018-09-07|Jordi|working in the paper, nusquids section
+2cd0fd6ed13e074bdee6e2d8c08cd63550ee40a2|2018-09-07|Jordi|paper working in xsections
+67828db03366f93f188400f2d7b40b4b261a4bac|2018-09-07|Jordi|paper working in xsections
+b11d9efe79f28fd16abf646a55cafbe752e320fb|2018-09-07|Carlos Arguelles|added table for cross section specification
+612dbf36db2917536e86cdb9604cacd8da3fd6fb|2018-09-07|Carlos Arguelles|added table for cross section specification
+4d0c3e6c87437a4b56552b83144b8cc29a1bf33a|2018-09-07|Jordi|paper working in xsections
+bf33aa100975f9f322d3d5a9a1e02aca3130447c|2018-09-07|Jordi|paper working in xsections
+b6d49c13d41dc8b8ca801f23f71fb2058042c0ef|2018-09-07|Jordi|paper: body track done
+4948155f7c07997e0d965cbb1ab03278c70a6761|2018-09-07|Jordi|paper: body track done
+b5e7e2a9c011e81113dc7e5d2e7a1196b0006acc|2018-09-06|Jordi|examples done
+be09594feb08a14b160ed945a73af652a4331781|2018-09-06|Jordi|examples done
+a1e86a800df6169ef5a4e42f8aaebd2c7b384bc9|2018-09-06|Jordi|more paper stuff, almost examples done
+7b8af5d271ac678745d451de3b5735a95c2d2aa4|2018-09-06|Jordi|more paper stuff, almost examples done
+cf6f51f84f16a787ff97abf7571ed20f63b51b53|2018-09-06|Carlos Arguelles|make set mixing angle, phase, and mass differences virtual members
+7acc0a709c0dc3bdfbd2b0d2845c1732bbeb4b4e|2018-09-06|Carlos Arguelles|make set mixing angle, phase, and mass differences virtual members
+1fac2748f8515a2618d052d20a122fcbf8aba6b4|2018-09-06|Carlos Arguelles|more safety in LV example
+03dd74534982ee86ed8f57949f4e7bd519db9b97|2018-09-06|Carlos Arguelles|more safety in LV example
+bf751c7225775b8091ba744aef884da6da7f23e0|2018-09-06|Jordi|working on the paper
+6cf52d20b4798112f724e3fe4a448a42a5e37061|2018-09-06|Jordi|working on the paper
+2743cae6b9046699ca4fe2e97f28161414723d9a|2018-09-06|Carlos Arguelles|added build dir
+ade0b193d8ddccdd4a33174c388a1cd9556bef0b|2018-09-06|Carlos Arguelles|added build dir
+1c6f84666b5c787aca8270e3b57d62a69ca87220|2018-09-06|Carlos Arguelles|moved solar transitions to user_contributions
+8e07f1f052bbdb36b2057d93d3f978f3e81c5379|2018-09-06|Carlos Arguelles|moved solar transitions to user_contributions
+c46e24d085ddcf8ba97e22078bcfbe5b0f5c1c27|2018-09-06|Jordi|working in the paper
+3e47141adc0b4bd4c16bc0fbf1d93c45e011d214|2018-09-06|Jordi|working in the paper
+2afb46a7e5d32a51db7b275da9912dbfe8a27b9c|2018-09-06|Carlos Arguelles|better names for xs example objects
+0a2e03203298aef1645d8d6d739fc7350fe94a2f|2018-09-06|Carlos Arguelles|better names for xs example objects
+d7eaeaac7d77e7a86c0ee5b3c577a1c3fb9d1e57|2018-09-06|Carlos Arguelles|improved cross section example
+45739e534d56a42b00180cd983b0444dd0c144df|2018-09-06|Carlos Arguelles|improved cross section example
+cf5bd5cc91aeb88596f74d37ab8c94350a16f532|2018-09-05|Jordi|working in the paper
+ac1f4aa9d32ade0d3c4dcdd635c0fd6b23b70eab|2018-09-05|Jordi|working in the paper
+5be19ede716778d0ff5b1041f424cd6a9fc59439|2018-09-05|Carlos Arguelles|new cross section example
+abbef890f413dd1fd1ac68320e83fa4ed057606f|2018-09-05|Carlos Arguelles|new cross section example
+fa72e17920286e8ada83bc35571924377b080c75|2018-09-05|Carlos Arguelles|ïmproved Bodies example
+5a0e3fe106cd056e6b66ee019c7542891cf6c65d|2018-09-05|Carlos Arguelles|ïmproved Bodies example
+dee393bcd7322291d8bd7ef6b1e416b66146d007|2018-09-05|Carlos Arguelles|fix Ko in the bibliography
+b8d367baac570b0d978ca89516a4a9070bc29792|2018-09-05|Carlos Arguelles|fix Ko in the bibliography
+8e1b0e72b58dd545871040c3c701dd66612047b4|2018-09-05|Jordi|working in the paper
+9c09bea77ff28481a05c7bd5dad4754301c06e46|2018-09-05|Jordi|working in the paper
+a435e892b9476f70619e0866125a72a1d5613729|2018-09-05|Jordi|working in the paper
+a9a35ac373d951ce4e93c1b8ab5cb92a2bb27ad9|2018-09-05|Jordi|working in the paper
+15ab318069bbadf768c84168be202aea9024f515|2018-09-05|Carlos Arguelles|finish LV example
+2063f25244c6c796e2940fc6f3ee1ce7ec95c30f|2018-09-05|Carlos Arguelles|finish LV example
+7b0402cc57ff52ffe610d086644a97f9504a50c4|2018-09-05|Carlos Arguelles|updated decay code
+cc5aab7b0dbc8f7606c84e415680557d369afbd6|2018-09-05|Carlos Arguelles|updated decay code
+68972dc545f5993baa7dcddca1dbfa289ad43941|2018-09-05|Carlos Arguelles|linked user repository
+4a748862ba0d4ee1ea6722cf4c7ffc86ccdf920a|2018-09-05|Carlos Arguelles|linked user repository
+d6c2b8886e59a7b08f634ba4a3c6e0df0748500e|2018-09-05|Carlos Arguelles|Merge branch 'master' of https://github.com/arguelles/nuSQUIDS
+172d94ab895a0daae03f99893717d01fca34cf87|2018-09-05|Carlos Arguelles|Merge branch 'master' of https://github.com/arguelles/nuSQUIDS
+9ec856a0fe24cd0d351b9dd24a95a8c1bebb86ae|2018-09-05|Carlos Arguelles|small fix in LV examples
+4216e0de8e5795be46681431d6e34bc804d85772|2018-09-05|Carlos Arguelles|small fix in LV examples
+d0f5236a53d130c0cc7225666aa9239b3142a1fb|2018-09-05|Jordi|Merge branch 'master' of https://github.com/arguelles/nuSQuIDS
+0a2d3f7c3db63dd0d83bd1cf78222251321aef7c|2018-09-05|Jordi|Merge branch 'master' of https://github.com/arguelles/nuSQuIDS
+a5b51417998a52a84d76a85f9c92eadeeb38b4ad|2018-09-05|Jordi|working in paper
+d7eae07cb04efec5de67e0e3aa1f768366b1739c|2018-09-05|Jordi|working in paper
+bd1a331edc3be51fb49d31c93b97627ccfca1f7d|2018-09-05|Carlos Arguelles|fix configuration file and added LV example
+033d11504ad036aa73c29d3cca24aceed95d7aa3|2018-09-05|Carlos Arguelles|fix configuration file and added LV example
+815ef39e2dd4497047eb1e8aa213f2efb4ca12db|2018-09-04|Jordi|working on the paper, examples
+1523638f1a13a40f69861d7d263ff8555e6e98bc|2018-09-04|Jordi|working on the paper, examples
+658543f6e7b05442b8d00cdba11e53d75fdc4b55|2018-09-04|Jordi|paper test section
+24dbcc38fa0acc66e9668f827397b483f3ccd2aa|2018-09-04|Jordi|paper test section
+5019ac3441749fa26d60d8e3eb9cb67f23742339|2018-09-04|Jordi|atm_NSI to atm_BSM
+f09814d7d233d1533a41e1fb6399497d5903ffa7|2018-09-04|Jordi|atm_NSI to atm_BSM
+852b003fae9336263f52e55f865d37e27d9f6e81|2018-09-04|Jordi|working in the paper
+2654e64e69f51688d7f207578554efda78250e80|2018-09-04|Jordi|working in the paper
+3e54a5037eafe6ae304e5e0d841a9bc4f66034d5|2018-09-04|Carlos Arguelles|push solar example
+db9e655f9d1cb122bd7fc79b2533e823954bede2|2018-09-04|Carlos Arguelles|push solar example
+4393e41a56cc6ef6aed0318810e0dfb4eed721e5|2018-09-04|Jordi|moving solar examples
+7f27777987132b24d2e4485d0477890441978dfd|2018-09-04|Jordi|moving solar examples
+f2e093976632f28a74abdb76dfdd3aacc44151ef|2018-09-04|Jordi|moving examples
+c8c9c135b46b5e1548c38b804aa14fc3bed87754|2018-09-04|Jordi|moving examples
+2fa1e8042598be31b9f78f5f8248e091739f49fa|2018-09-03|Jordi|paper mod
+89e3a9f1e449f5b45e6dc6d3f1f32ad61808aa99|2018-09-03|Jordi|paper mod
+eeec456d4ebce3c7410a020e743a4d4608542051|2018-09-03|Jordi|paper mod
+34fc8b0bfc3d7ed22c42b398b1a555838775e267|2018-09-03|Jordi|paper mod
+fd121b730a89a7672c4293c6356227320f2fc73d|2018-09-03|Jordi|paper mod
+e936fc5034626e373e19ba9df146d46deb56c221|2018-09-03|Jordi|paper mod
+9ca3fd8abf58331b4d94dda38405c928b5e5ab17|2018-09-03|Jordi|mod paper
+2f5b3f2a7439d7f977edcc52f8ab382b2851d2e9|2018-09-03|Jordi|mod paper
+2189cc5a4eec26cdff52a519943563114be6fd55|2018-09-03|Carlos Arguelles|fix bibtex
+52d75095528fdc12fb16c49e0ba93877158e44ad|2018-09-03|Carlos Arguelles|fix bibtex
+859499ddd4e5eb6e949fd8362c2e5c215a42c6a3|2018-09-03|Jordi|mod paper
+870a784b057e54412025c0391d5eeca4a451c5ed|2018-09-03|Jordi|mod paper
+d8d3a74c5b700c35b2445cc0a1a83b61bc6bd0a9|2018-09-03|Jordi|cambios paper
+ecb6292b017f9b7fa0f9618909a7f85af70b18d6|2018-09-03|Jordi|cambios paper
+951b808fc9fb8110eb8574f33d6414abc0b7d45f|2018-09-03|Jordi|Merge branch 'master' of https://github.com/arguelles/nuSQuIDS
+a36c915ebc064ef58a762865a6fddfaab15db8bb|2018-09-03|Jordi|Merge branch 'master' of https://github.com/arguelles/nuSQuIDS
+981650aa3ca6d204d4034da09684f99da7b276e5|2018-09-03|Jordi|Cambios
+d810447890b825d514dc154c15ff1911b14819d9|2018-09-03|Jordi|Cambios
+3ff55fd5538b8d4586ea6237bc522daa422d703d|2018-09-03|Carlos Arguelles|fix bibliography
+5ad8c6361ffbb0d8ad5eac5a35472baf32ca66e2|2018-09-03|Carlos Arguelles|fix bibliography
+a44071f5350d4e74681b318e58fef1bdca76c776|2018-08-06|arguelles|Fix bug on integrator tool.
+d22524d68973d7115398e86322e671bd94fbac98|2018-08-06|arguelles|Fix bug on integrator tool.
+e1e7c1284293c5aaa88de7c15db131c2ab2420f7|2018-08-06|arguelles|added integrator test
+2fe3ecb38daeefdfbe6bbee62623ba05357888e2|2018-08-06|arguelles|added integrator test
+4fbebd82aa1dd6dbd9411198bd2127356a3f6ff7|2018-07-16|arguelles|add an option to toggle fast constant density mode
+10aa1a8e8aa6ec3dc74c34e6f6bd7096b74af973|2018-07-16|arguelles|add an option to toggle fast constant density mode
+9b4cfc155714df08aa8719f45c20a27d4ba0878d|2018-06-15|cnweaver|Merge pull request #15 from kotoyo/pybinding_bugfix
+5e9f7775de69343cb22a6375604f62074bb5322a|2018-06-15|cnweaver|Merge pull request #15 from kotoyo/pybinding_bugfix
+27d189fb3bb72fd18096c4446935dd4251deed6a|2018-06-15|kotoyo|bugfix of nuSQUIDSpy, nuSQUIDSAtm::Set_IncludeOscillations
+365c7ea6a99bf7470f0fb79d04bd881347733265|2018-06-15|kotoyo|bugfix of nuSQUIDSpy, nuSQUIDSAtm::Set_IncludeOscillations
+77f0f54385b3c186531c6ebedaf7ea21719de279|2018-04-26|arguelles|fix guard
+90ca70b8daab772e6cfd63d512c8b4772d9fec64|2018-04-26|arguelles|fix guard
+9caa20ad84e9aadfb7cbd4cdd95cadeee4392649|2018-04-26|arguelles|Merge branch 'master' of https://github.com/arguelles/nuSQuIDS
+321102da62634e8040ae405d07b3dd680546ae7d|2018-04-26|arguelles|Merge branch 'master' of https://github.com/arguelles/nuSQuIDS
+e37f50f951916dc4bd674cc0fcd4a4b8ff41cc9f|2018-04-26|arguelles|more specific threadpool path
+6fd45069b1ffa20e2d08808b0be7251562546397|2018-03-08|cnweaver|Merge pull request #13 from fkallen/master
+55945386daacd4e0dff9d074e737d3272d260fe0|2018-03-08|cnweaver|Merge pull request #13 from fkallen/master
+0a98f4e3807023e2164f357c1cae3c2d30e63e64|2018-03-08|Felix Kallenborn|declare friend base_type in a way which can be compiled by nvcc V9.1.85
+5bacaa6301ec310c33a8e036d0c2b8a1abad3115|2018-03-04|arguelles|added gsl one dimensional integrator to tools.h
+7dfd642bede5a2508a55f5bb7123e724e7c4a3c7|2018-03-04|arguelles|small typo in configure script
+887e6d368b883926f0bce3445e10429b8138ef71|2018-03-02|arguelles|reverse track in the python interface
+ad82703bc8f0c3cbb33fe97cb686257cb4f30a12|2018-03-02|arguelles|added python sugar
+e4e9db74343c1a19dccd11531ae764fb2b522c15|2018-02-12|arguelles|remove legady define
+e695a279303ef2039ef9a6531c83d02211bafc64|2018-01-18|cnweaver|Correct the singly-differential CSMS data by the factor of E_\nu necessary to convert d\sigma/dy to d\sigma/dE_{Lep}
+792ff45bb25e9bd5653474224e2a44d5872ef761|2018-01-17|cnweaver|Add a getter and setter for cross sections to the atmospheric mode object
+6259a1c914cf9753373336ba36f49f66aa43afd7|2017-12-18|cnweaver|Add the CSMS cross section (http://dx.doi.org/10.1007/JHEP08%282011%29042) as the new default
+55485be221bb388d09f3120f427e1bf74bc8cbbf|2017-12-07|cnweaver|Rename existing nusigma cross sections
+0651a9f7f093d494a3ff1eeab8967c09a9a12d8d|2017-12-04|cnweaver|Try to use a clang vectorization pragma only with suitable versions
+dffa78912591b1ffeeb29f4964d8f97778c36738|2017-11-26|arguelles|improved read/write hdf5 test and implemented simple fix
+36fb2c0912accb9519245e85e51ca4c6b873d83e|2017-11-24|Carlos Arguelles|added extra sentence in readme
+e1905a3cffa09f834c67e9c2a6ef00aef8547a6b|2017-11-24|Carlos Arguelles|fix make documentation
+1247280fbbf21c090f529288d58491e950360400|2017-11-24|Carlos Arguelles|updated doxygen file
+b093b7c7e35deae55415e428a9afd880dd1189c8|2017-11-11|cnweaver|Add support for reading DIS cross sections from HDF5 files. HDF5 cross section files are slightly smaller and much faster to read than text files. Add interfaces for users to read and write cross sections to and from both formats. Rename default DIS text files to a simpler naming scheme.
+6897b7975dbc2aea7e5a9229eb338df6e732b3a4|2017-10-30|cnweaver|Backport marray features for Carlos
+9aba6b11e024b21358187e5b4998c00b239d1029|2017-09-07|Carlos Arguelles|threading options in python
+ccd2017b2ec6a9e1de615043824e51853eafed4b|2017-09-06|Carlos Arguelles|added solar model
+098370745a680a20ca0e214ded56b9bef27e7085|2017-09-06|Carlos Arguelles|added solar benchmark case
+787232a3742ab8f6b25f7230dae74980cbea0ba3|2017-09-01|cnweaver|Fix misleading indentation
+9f23b8e5eb2357a8614bb5f05b133c4b163bf151|2017-09-01|cnweaver|Add an uninstall target
+7c6d471fbc06aaa3c2aa5afb39c450364485fbbe|2017-08-31|jsalvado|working in the IceCube and Atmospheric, Atm. needs better performance
+0aeae9e029879ebe2d635369e87622efedf7ba4f|2017-08-28|jsalvado|DUNE Propagation and plotting FarDetector fluxes done
+81e92e666939dca66a65e32e961d3a050d3c62e2|2017-08-25|jsalvado|working in DUNE, almost done
+4b7b5789d85d7c7a76fba68491cd1314a481842d|2017-08-24|jsalvado|Atmospheric benchmark added
+58547ed9f80a447417185b683b65008d4b280efd|2017-08-23|jsalvado|earth oscillation test
+34159c10631c6de6d93a8bb3c970f2af6ec9e17b|2017-08-21|Carlos Arguelles|improve paper latex
+421ee1f6488fdbea624998ae1d3e4c9933e05e74|2017-08-21|Carlos Arguelles|benchmark folders examples
+4523eae8785daf827e3ab4ed270fb8e2640230a5|2017-08-21|Carlos Arguelles|new latex structure and folder
+ce6e35690079b293f4c5edd44e399a41dcb8fd38|2017-08-21|Carlos Arguelles|new latex structure
+3d093e0f703da75a615e5767f87642f51b91792f|2017-08-21|Carlos Arguelles|Changing glashow test. Added null cross section to cross section classes
+3b0a47fcd19abec09ec8b1b79e369a02e00a14f4|2017-08-21|Carlos Arguelles|extended cross section for DIS
+867121cd26124e80a85e82f94daaaef72c6ee7c9|2017-08-19|cnweaver|Order arguments more carefully for test compilation to avoid GNU ld issues
+197e45a29bd666788b733fdf80cbc8075a7cac23|2017-08-19|Carlos Arguelles|fix body serialization test
+a5e7cd55d380f16d2b1622a4b35e765432dfd935|2017-08-19|cnweaver|Fix path for documentaton generation
+57c7f9d287c43d3560c58c438c084dd68e408721|2017-08-19|cnweaver|Don't read from moved-from objects
+e3c1e2efdbbc6465183af61c9a6cc9ed1dda6f81|2017-08-19|cnweaver|Fix some typos and wording. Add TODO markers for missing information.
+06b97197b1deff18606ddcdb4f0e6b903dd6e8fb|2017-08-19|cnweaver|Fix section headings
+f13c34eea62e1b739974693f3655bd38730a8ca8|2017-08-19|cnweaver|Rename configure script and update README
+9f7280d71f35c64ba28a7574ff78ee27a38b8f25|2017-08-18|Christopher Weaver|Rearrange to more standard directory structure
+941c252ea323b33dec2fa69f4d5182794fa760db|2017-08-18|cnweaver|Rename README
+e8378906b43b8058fb14a118ee53c2a89f2156ba|2017-08-18|cnweaver|Document units correctly
+b532ecb59fc3170f46ba9a0400c15522df9ec2d3|2017-08-18|cnweaver|Remove the only-half-working setup.py
+80c50909ee0c7bc40cf5bc06e38299b05cbc3526|2017-08-18|cnweaver|Implement a limited ability to auto-detect boost
+fad3c9ec49722b12c15e171704958f59c784e537|2017-08-16|cnweaver|Fix missing #includes
+d8f4224a7fb544ad5dfd84b4ec0283d9bc227ff4|2017-08-15|cnweaver|Switch from GSL interpolation to our own implementation which is thread safe.
+e2c2e1e7eb473d49b8919482faa27ab3bacaad2c|2017-08-14|cnweaver|Add a mechanism to query the production height.
+18c0add3b938b46f5197832380c742cdb25e1984|2017-08-14|cnweaver|Correct the type expected by `Set_EarthModel`, and remember to set the our own member variable.
+19ef754ca3caa14b312a0c39a6b7d1822cec505e|2017-07-16|cnweaver|Set the default step size to 1 km, rather than double epsilon. This is less pessimistic, but users should still think about setting this themselves.
+765206b2b4a3d88fcdaae70229ccdf4f3b216ea9|2017-07-14|cnweaver|Pull apart the InteractionStructure into a constant part which can be shared and a variable part which must be private. This should make multithreading safe.
+eb368a88bc5e7ef059584b7962168225390ecbdc|2017-07-11|cnweaver|Remove invlen_tau, since it was no longer used. Increment patch version due to the resulting change in output file format.
+accd2e883dce765193ec5aa38835bd9064df85bc|2017-07-10|cnweaver|Shave a few percent off of propagation time by keeping one set of constants, instead of creating new ones on every cross section evaulation.
+b6c96a57c92ba4c1456e16f39a993d38c23e6de9|2017-07-08|carlos|restored file
+37fb3fc24661530a63d0d7f15e652e0af049ff16|2017-07-08|carlos|minor change in initialization order to avoid warnings
+cb424f62c2db881a13042d662c33616bc03b66e2|2017-06-22|cnweaver|Simplify initialization of state to zero
+9fbbd562a1e467c779195c4a5869903a7ca07f2b|2017-06-21|cnweaver|Fix an odd dynamic linking issue which might not affect anyone else
+ddbb31ca4ce4be868a19f3c59134a58f5c04b924|2017-06-21|cnweaver|Properly pass flags obtained during configuration to the test runner
+532b8aa47a8092127173c2b7452b3ad8e3379737|2017-06-20|carlos|missing functions for probability interpolation
+f43b9e0ec9858ebe878f655a757ffd7a1e058894|2017-06-20|carlos|add function to interpolate when using the mass or flavor basis
+2f31ee77271d56906eeb98f9bff28f1d78124e13|2017-06-18|carlos|Added new Set_EarthModel function in atmospheric wrapper and fixed python bindings with new EvalFlavor averaging mode on atmospheric wrapper
+4f04b26d05b9f87c43c8c0752f17664d96988c67|2017-06-17|cnweaver|Allocate evolution buffer correctly
+680ce7e857e54fbd52dad161f69aaa53b46d9f87|2017-06-17|carlos|included new prototype for averaging mode in atmospheric mode
+6c984446fc5272652193a39b313495f04baf3986|2017-06-16|carlos|fixed fast averaging interface to comply to latest SQuIDS implementation
+47daff0e941c87ef25614db89c08764a74b7f6fa|2017-06-07|cnweaver|Allow the user to specify the python executable. Make sure to pass all include flags down to the python makefile. Make configuration work for python 3 (building bindings has not been tested and may still fail).
+bf1e54b31b9f814362ce3689d28e3ab9a3eddd58|2017-06-06|cnweaver|Fix the NSI examples to not ignore the argument to `Set_mutau`. Also avoid redundant density look-ups.
+a23b2011797d860c683d21907b3d1c0c423b5a30|2017-05-18|carlos|fix python headers for atmospheric mode and documentation in nusquids.h
+be15c03dfcc657d3fe195a20d25477df886a5e60|2017-05-18|cnweaver|Fix bugs in python bindings: Make it possible to construct multiple energy `nuSQUIDS` objects. Avoid scrambling datatypes other than `double` when converting `ndarray`s to `marray`s.
+906359dcd768091769dc1a56d236959ef5c33489|2017-05-18|cnweaver|Fix parameters for nuSQUIDSAtm::Set_initial_state
+b0d6c8a5f3d99676e6588b78e9f88aee5b26c799|2017-05-18|cnweaver|Properly bind abstract base classes
+cdee9c1a95bdbb93397578bf2e792c04212fd52a|2017-05-17|cnweaver|Add missing SQuIDS flags to python bindings makefile
+2b4289a83c3a0cfe62f7f326c92ac5f7e395a262|2017-05-17|carlos|bindings fixed
+b64df61f23fe54ba424d9f163d8e8b83e23ef717|2017-05-17|carlos|python bindings partial fix
+945b1a280eacb5717f34ecdef71d34ab99fd9940|2017-05-17|carlos|Merge branch 'master' of https://github.com/arguelles/nuSQuIDS
+e9eb79fb4e5244cd7f2a62de1a90f5fef2014549|2017-05-16|cnweaver|Make python bindings setup less broken
+414732f52c222746403f9610f4d4a27e36d09fbf|2017-05-15|cnweaver|Reject bad options passed to config.sh
+77893eb7c97ed767ddfe3e3970330b87c01ed1d2|2017-04-28|carlos|deleted comment on NSI.h
+46a4fd26e51402447eb14e42b972a9663c8118ca|2017-04-10|cnweaver|Another good catch by F. Kallenborn: GSL splines are not entirely thread safe, so protect them with a mutex. For now, only change EarthAtm, since this is the only body used in a multithreaded way (by nuSQUIDSAtm).
+8fe4156ba056c03030358a47b3e2a0c330d05521|2017-04-09|cnweaver|Give users a simple way to make use of multiple CPU cores for atmospheric problems
+17587dc9637236730e65ad57a66bacebacd013c0|2017-04-09|cnweaver|Use the correct, intermediate state during evolution, following SQuIDS r268.
+e358366afd0e4dce19041881fb66d804bf50b6b4|2017-04-08|cnweaver|Try to ensure complete initialization of intermediate interaction buffers to address problems identified by F. Kallenborn
+e6cf0431e5f6397cf7142781f2d766836ae8acb1|2017-04-08|cnweaver|Add tests which more specifically check that the atmospheric mode at least runs
+cc3a280b0ce7adf3449a455b196d6767e2c207e7|2017-04-07|carlos|fix solar atmospheric neutrino track lenght calculation
+063fca2fd1b96edb46e0b0393a5f6b8a80396077|2017-03-31|cnweaver|Use a more literal noexcept condition so that gcc can verify it correctly
+80aee14fd54b760e81124c1e7bb0e3834e4c4a90|2017-03-04|cnweaver|When computing interactions without oscillations, accumulate contributions as scalars first to reduce the to reduce the number of vector operations required.
+b35f8a1a261425c1dbbf8d3b96766c8976ba0f39|2017-03-03|cnweaver|Eliminate duplicate calculation of tau fluxes in non-oscillation mode
+ee6966cf57189ee44e5388770d88aa810d17bef3|2017-03-03|cnweaver|Miscellaneous small optimizations and cleanup.
+230818cd68b95c05aa0b5e9a07567f49967ebeaf|2017-03-03|cnweaver|Collect terms in `InteractionsRho` to reduce the number of vector adds required.
+e10f07358a1dbff79a3bb62ab864c6b94c6652ab|2017-02-28|cnweaver|Perform more pre-calculation of interaction effects when computing with oscillations. This change corrects tau regeneration in the presence of oscillations to be quadratic in the number of energies rather than cubic. Neutral current and Glashow resonance effects are now also much more efficient in this mode.
+a6162e8b6e1fad61bac88fc1b6cd6ca25a4b9f1c|2017-02-19|cnweaver|Add missing checks for whether the progress bar should be displayed at all
+92b74972c20a61ea7f8b3a8fcd9964e3733dac09|2017-02-19|cnweaver|Display the progress bar one final time so that it goes to 100% when evolution is complete
+d2e95e89f6f03e7aa7684644a4d1ad566fe79ee4|2017-02-15|cnweaver|Fix splitting h5cc output into separate items
+231f735d526bcff8c94ef931236818edcdd78a37|2017-01-20|cnweaver|Turn off pkg-config detection of hdf5, preferring our custom code, to avoid Ubuntu brokenness
+1d8e9c221e7aa4fb76e20f364ddb51c14ba3c7a5|2017-01-20|cnweaver|When configuring, allow files (libraries, headers) we check for to be symlinks instead of only regular files. Eliminate non-functional `find_boost` implementation.
+8f491f7cbbc542dd01ec5745bc89cc2c26982036|2017-01-20|cnweaver|Don't complain at the user for setting the only valid settings
+2b76febe8bc0f627463bcdaf4487a06f9642708e|2017-01-17|carlos|Introduced static casting in nuSQuIDS Atm
+a06f6ac4b24b0dc4a16b5edccbef065df8dbe889|2016-11-23|Carlos Arguelles|Move includes from tool header to tool source to avoid cblas header conflict with other matrix libraries
+0489b40a2c6be6fa2e6b60bb034144e781d5593c|2016-10-26|Carlos Arguelles|Fix body-track serialization in nusquids with new registration system
+de08b8939fae3b18e010057a19684674bf772789|2016-10-21|Carlos Arguelles|fix minor bugs on body serialization and implement serialization test
+1e4c8d8949110cb4003c96fb24ff6d9874ec42e4|2016-10-21|Carlos Arguelles|Finish body serialization weaverization
+843f2ad583ec3ad726a9b0ca9ce1bd27705d4c00|2016-10-20|Carlos Arguelles|Add body registration
+d60bf6f23945bdf46853342b151d7c7a267333b2|2016-10-19|Carlos Arguelles|New body serialization
+7100cccd10216c46b385c31f81cd3cdaa87f067a|2016-10-18|cnweaver|Change linspace and logspace convention to number of samples, not number of differences.
+c8226a040167a8b692a901c1061bf453298d9443|2016-10-13|Carlos Arguelles|change cross section to have lower bound to zero
+45cb3e39d2027e38ebe0ea7223fdfbb1743d7cba|2016-10-13|cnweaver|Fix number of energies in construction
+4720cdd28ef25eb17ab4dbbf75f41783f9a8aebf|2016-09-27|Carlos Arguelles|Fix cross section default name
+28c814c361aa221a68a65e141d54f30e49badea6|2016-09-27|Carlos Arguelles|Added functionality for averaging ultra fast oscillations
+c3367f05b1f481f98e2c29704a51520bd05028f4|2016-08-24|Carlos Arguelles|Finished implementing all Body serialization
+c6868a919a4c0f890558b07fd509e9e6e54ab6fc|2016-08-23|Carlos Arguelles|Implemented body serialization.
+14916b68196f0bc09a48681c1f534e99b94530c0|2016-08-23|Carlos Arguelles|Added definitions of body serialization/deserialization.
+5ad65d259de661b28bca0948f931a6c20de4fc91|2016-08-18|arguelles|add more checks for cross sections
+318c6ea079b47470de47342712cdb758ff62ad02|2016-08-18|arguelles|Close hdf5 resources in nuSQUIDSAtm
+2c7a22ff90e0ad927f6faa169c14d34e5a7ea1c9|2016-08-18|arguelles|Close hdf5 resources after writing/reading in nusquids
+191a3828a6ce0399e5c8d11e12166d37726c0ccf|2016-08-18|arguelles|Supress HDF5 errors and take out debug statement.
+7968d422a07b6207569962f8e2095605b82105d2|2016-08-18|arguelles|Introduce evil const_cast to aviod constness. The shame.
+aa95f4f67f58d4362ad713e4ad06ecc2642e272a|2016-08-17|Carlos Arguelles|remove protected constructor
+1a9b520bb5f569f05bb0b8147d94c1d3b658a51d|2016-08-17|Carlos Arguelles|remove old test
+fba12dbec1f985a348a4f88d287477298aaf94f7|2016-08-17|Carlos Arguelles|Fix examples with new constructors
+097b8881a2103c548f3ef1966458fc2e304e15fb|2016-07-29|jsalvado|figures
+60fbccfdbf1f5f1d3e3e823501429e466c5ae882|2016-07-27|jsalvado|adding examples in the .tex
+6e7e49e24aaee88a46b2820015219cbbd008078c|2016-07-25|cnweaver|Stop being stupid: Fix tau regeneration to be O(N^2) instead of O(N^3)
+7304770334dc4d25ab96666498d187cd34df6b3f|2016-07-24|cnweaver|Reduce the penalty from leaving tau regeneration turned on when it does nothing
+4808866908fdf515dfda292b47b3451b5b27107e|2016-07-22|cnweaver|Remove remnants of the old scalar tau regeneration system
+2e4d05fe2d85ad3e15021eb12c7660b56849c919|2016-07-21|Carlos Arguelles|Added features for time reversal. Add time reversal test
+1ed8b497b34008c02adaa6752327830b1aacdc62|2016-07-21|cnweaver|Remove redundant atmospheric constructor. Remove overzealous argument forwarding, which lead to all but the first constructed base object being passed moved-from arguments.
+52bf72fb786aea97b127c47b723e84c96a1a5d60|2016-07-21|cnweaver|Ignore LaTeX detritus
+fb1c7f098c8a851cba9f99ee8ceaee0aca5b281a|2016-07-21|cnweaver|Move the paper draft here
+83598e883fc821509848d9986605fdf32bb7b354|2016-07-20|cnweaver|Remove redundant construtors and Init functions. This will require (trivial) changes to most user code.
+b34e3dfefc16431a9f7333e262af6a4044d966ac|2016-07-20|cnweaver|Make tau regeneration a little faster when oscillations are turned on
+00393464fb539789c3e6e0eb0b60a1a49b1623dd|2016-07-19|cnweaver|Avoid both out of bounds array accesses and unnecessary work
+94916613f7d1c9879dfb78cbf4d349a761860db8|2016-07-19|cnweaver|Neaten up a few more things
+54df7bf16c3a1854fa9b924a0a40cf245d50e52f|2016-07-19|cnweaver|The Royal Society for Aligning Things with Other Things has eliminated unaligned loads and stores from most of the hot loops of `UpdateInteractions()`.
+16c29d81351b040e12d14ffab7c8e7c3e3f90751|2016-07-18|cnweaver|Hoist invariant multiplications higher in the tau regeneration loops. The compiler was probably afraid to do this because associativity does not exactly hold for floating point calculations.
+b90390455a6d7b2b975256477ea8e409c14943e3|2016-07-18|cnweaver|Add a few more helpful functions to marray's interface
+2097ad04507dff392b0b021d7c501738bbb4e7d5|2016-07-14|Carlos Arguelles|change verification of cross section
+6036a10dcf120c3212836c8cf7860cd1dd337886|2016-07-06|Carlos Arguelles|nicer parameter values for const density example
+fc8c33757cbc5a4825708da903c130f2d1a1f689|2016-07-06|Carlos Arguelles|fix constant density plot
+3563610e56edf8be6c4cb51b00fbceecf9cfdd7c|2016-07-06|jsalvado|solved the output in Constant Density example
+67caeee3957512cffb917e00cef77b4ac4914c93|2016-07-06|Carlos Arguelles|updated new constant density layer example
+d4f533ea1cb6bd1d5b8ac8a87e62fbe6fe1345ef|2016-07-06|Carlos Arguelles|Fixed a bug on atmospheric constructor and updated the Atm_default example to also work in only oscillation mode
+e1a56a17f98858252c23cf3be6bf039011d8ffe6|2016-07-05|Carlos Arguelles|fixed atmospheric template write/read to be compatible with new nuSQUIDS default overwrite mode
+7c7c07747e03deb8a6f1de976b05b2d82bb578b1|2016-07-05|jsalvado|adding hdf5 read-write
+9fc196d3276c0ff5b6a9e5742b9c74bb66535ce0|2016-07-05|jsalvado|change body to make exmaples work
+ec16bb1fc07b35d9b74cdf239e47b6484c02e5e7|2016-07-04|jsalvado|examples
+da01c06da53d8eba065a8c501771092e1669d8ee|2016-07-04|cnweaver|Change the atmospheric EvalFlavor for better efficiency: -Interpolate states rather than fluxes between energies to reduce number of evolutions -Interpolate in energy rather than log(energy) -Avoid heap allocations
+e50240e10337133a3f5455c37d7a3c9f0197da41|2016-07-04|cnweaver|Remove redundant calculations
+14c730446c383580557f985ec555fde0753a9173|2016-07-03|cnweaver|Fix an error when reloading an atmospheric calculation without interactions
+289be4d897c22c3f4eafb7b07c6c3f210212a23d|2016-07-03|cnweaver|Neaten up tests
+65c13f27db39710c71474bb90ab87b824bcb0fe7|2016-06-28|Carlos Arguelles|Set default of WriteStateHDF5 to overwrite file
+66dffaa5bc5feb213c8978ef0ccf2129e4e8939f|2016-06-28|jsalvado|Minimum number of neutrinos set to 3
+f02be829c7f56adaa227d93f7d5b318caee84657|2016-06-28|jsalvado|Minimum number of neutrinos set to 3
+b7e9b34d62a52e2830a9d0c8ae38eb22a10f12e1|2016-06-28|Carlos Arguelles|clean up EarthAtm in body.cpp
+2618dd2dab374d0b2607f8a7881596996b555f1c|2016-06-28|Carlos Arguelles|Weird github merging
+4cff4510f46c89d406b55e143b934373bebd29b1|2016-06-28|Carlos A Arguelles Delgado|Merge pull request #7 from JCarpioD/master
+c2b5cfe98ba6136f1cb1166dbf25ccc6811c3867|2016-06-28|Carlos Arguelles|changed gsl csplines to akima splines in body density interpolation
+e68d41d46b17980ae1878a4523b38d1b44383ce0|2016-06-28|jsalvado|change GCC to Free Software Foundation for the -Wno-abi flag
+fdef2e796a8792f06320e8ae9cfc6338586c2dc6|2016-06-28|jsalvado|fix hdf5 path in Ubuntu 14
+d66419626ef4a77d374630570a098644c1121e3f|2016-06-27|cnweaver|Detect HDF5 libraries even if no static library exists. Manually add the flag to suppress gcc's ABI notes when using a manually specified SQuIDS. Fixes #8
+493f10c36695a7a6b0c692295fb7d4ae83153bf9|2016-06-27|cnweaver|Fix unnecessary chatter when compiling one example
+af2ddb140e2e03c244567b88667b07dfce5e06f4|2016-06-19|JCarpioD|Delete Fig.jpg
+e61d638148f50389e9f1dcbc7bddcfbc996f8296|2016-06-19|JCarpioD|Merge pull request #1 from JCarpioD/JCarpioD-patch-EarthAtm
+4477789bb4501caf02965b808b4532aee997bce6|2016-06-19|JCarpioD|Add files via upload
+8142fe96d1ee555a2c74dc9a2bdabf075aea136b|2016-06-18|cnweaver|Rearrange initialization of cross section data to avoid duplicated work in the atmospheric case.
+f1980fb665ca60c716ad85187ba35ce491bacd22|2016-06-10|Carlos Arguelles|Fix typo Ration -> Ratio
+a16ce20f088f27536cacac6768f51bc0ea057acf|2016-06-10|Carlos Arguelles|Removed tau properies as nuSQuIDS memmbers
+61306aa031872ecb9b025ac9a0d96aabd5f94e31|2016-06-09|Carlos Arguelles|moved tau properties to more sensible places
+c6ba4b2675df447ce12ec5e457f5808eac60344b|2016-06-09|Carlos Arguelles|removed used of class units in examples
+690b81e0ca4e54a9aab4ee08edd3e74cc8353ff3|2016-06-09|Carlos Arguelles|Merge branch 'master' of https://github.com/arguelles/nuSQuIDS
+4e51892555e0ca0a62094acfc5ccd6dd974baed2|2016-06-09|Carlos Arguelles|Removed the public unit object
+ef1c86c548cf38dd3dc4cbd364285f1a28737019|2016-06-09|Carlos Arguelles|Merge branch 'master' of https://github.com/arguelles/nuSQuIDS
+6b478f56398b0f2b09d3f1a049b2cb3c99b88f3e|2016-06-09|Carlos Arguelles|Added default implementation of DoubleDifferentialCrossSection
+84c97c008a2fb2fe68832e8574fcdaa2b1540fa6|2016-06-08|cnweaver|Ensure that examples use this copy of the headers, not one which may already be on the system.
+95ae699a7239fa13603b85f9047e3c96e8734d87|2016-06-02|cnweaver|Fix up documentation building. Turn on warnings for undocumented parameters. These need to be fixed!
+ba0721f986051e2e0150e5756a265fae27f6c66e|2016-05-13|Carlos Arguelles|fix space in config.sh file
+43955ce9305752364b99a9f0716b0848b01988bd|2016-05-12|cnweaver|Fix the make target for the examples
+0c7c60d8b950bb3a0b8a97cef7b5f93778f4d6c6|2016-05-12|cnweaver|Shuffle constructor around to make the linker happier
+30569cc212769e82828d9fd13f780ac2e9fcfa62|2016-05-11|cnweaver|Remove useless comparisons Fix indentation
+f1cba133b822b30f51dbad482d9de2acc6f5b799|2016-04-21|jsalvado|I add the new examples, The Make files are not set yet
+4073e3265b509889ed3c62b3de37cc2ac2189ea9|2016-04-08|Carlos Arguelles|Merge Merge branch 'master' of https://github.com/arguelles/nuSQuIDS
+ffe6ce1b5281192f5059c8e321b303ab14673139|2016-04-08|Carlos Arguelles|push the tau regeneration
+7f4ab8bdcdc79b147e8095668af0a9558ffc208b|2016-03-18|cnweaver|Try to make HDF library path parsing more robust
+23c86a5d8153d8dbc6b302c5aae9d4e4bd3fd041|2016-03-09|cnweaver|Merge pull request #6 from jvansanten/master
+6fbf92e509ea0f5b8dbd6d7661ed124e230c0828|2016-03-09|cnweaver|Restore accidentally disabled NC for nu_mu and nu_tau
+ce180e9bb5df6ae7bfa345c51bbcfdecc528951e|2016-03-09|cnweaver|Fix double-counting of GR absorption
+5a7eac1ef6570921fc7f613c1be42dce07601923|2016-03-09|Jakob van Santen|Increase precision in Glashow resonance test
+ff3c6ce1de755c582ea9a8fc810433b2fcc745e8|2016-03-09|Jakob van Santen|Make tests compile on case-sensitive filesystems
+c3f13c3991913479b1e86e12dbb4768b88f38c45|2016-03-08|Carlos Arguelles|nusquids python API version
+f90055fbe21510a3b4402749eb306e1106c27df7|2016-03-08|cnweaver|Merge Glashow resonance patch from jvansanten. Some changes were necessary, and this physics effect should be considered experimental. In particular, the associated unit test currently does not pass.
+cc502d147259b0db5b7922df89df7e1945c1af9e|2016-03-07|cnweaver|make clean shouldn't delete files generated by config.sh
+529fb6307343ab2030a2914b30bda112d27f5d21|2016-03-07|cnweaver|Don't try to link the dynamic library against itself
+1fa7e2e66d741da2c395ba48e483c7a3536bdf53|2016-03-02|cnweaver|Switch to Carlos's simpler approach for NC. This seems to give the same results as the old implementation, but its correctness is more obvious and it seems to be at least slightly faster in all cases even before serious optimization.
+0b926a0a212906ae29e93a7f4926dc6e5c9d9bd2|2016-03-02|cnweaver|Mark the two failing test as expected to fail, since we know this is going to happen and (mostly) why. These tests should be removed from the list when we get them working properly.
+af1e87d3f872fac031e39000a5cba7b2515298eb|2016-03-02|cnweaver|Fix initialization of HI_constants on another path.
+186aa722a363fe715c6801f98b9301800379ba0c|2016-03-02|Carlos Arguelles|Fix the config.sh dynamic linking
+29d5e044a35664b96c7318f0d07c82fada0ce941|2016-03-02|Carlos Arguelles|Added an error when using tau regeneration without interactions
+56ea830ec411a0f66ca045b788e9bd243062e83d|2016-03-01|Carlos Arguelles|Merge branch 'master' of https://github.com/arguelles/nuSQuIDS
+26f1e8840a35f57118dca6e7d7efea5cb0aeeebc|2016-03-01|Carlos Arguelles|updated python bindings
+e035757bc8dea9f4c7cf2327b3ef9f9b88422d45|2016-03-01|cnweaver|Add better error messages when the user tries to evaulate at invalid energies
+4094ab2a1377e2dc664e26f6f7cbb6f590512e36|2016-02-29|cnweaver|Unify constructors for reading from files.
+c3be11e66eeb07a8e17607632f4b121575fa85dc|2016-02-29|cnweaver|Fix off-by-one error.
+b7d4a4c3d8e3d35ff249d42c8517373c99538766|2016-02-22|cnweaver|Don't demand non-zero cross sections for sterile flavors
+1e13fc1cc658e5f20cfe67635cc61b3ff9790fa3|2016-02-22|cnweaver|Use aligned vectors in HI
+f2d9e83b1e709698503d2db7fd5f5c6efe648561|2016-02-21|cnweaver|Raise number of energies slightly so that this test works. Needs further investigation.
+45b31ea024c4141780a72b2924703b9ff0907779|2016-02-21|cnweaver|Fix initialization loopholes
+7731f5d2acf241c342203a72fcf991a5b374c550|2016-02-20|cnweaver|Optimize HI
+a4a301a5acf821c5fc144feccbb6f97b72b4d5b6|2016-02-20|cnweaver|Fix buffer overrun
+c15d894175a6299128fd74a8d16283e52420cbb6|2016-02-20|cnweaver|Speed up projector evolution with shared calculation
+24b9a8d86b2d74beb1260eab94c4ecd4d80d9e65|2016-02-19|Carlos Arguelles|fix opacity test with nc
+8fe464c7dc46ae3043bc47d0bec8824332c42ae2|2016-02-19|Carlos Arguelles|improved cross section consistency test
+a8017a5850802498d3c427abf7abfd96d43aef06|2016-02-19|Carlos Arguelles|add tests to check the consistency of our cross sections
+db4070d02892209707013db4ad02429f39b42de3|2016-02-19|cnweaver|Remove the useless flavor dimension from the interaction cache.
+03089b57cb427d186ef3bab27d5439b311c56ae4|2016-02-18|Carlos Arguelles|fix copy-paste bug on fix cross sections
+99a182b0c6c6ee1f49628e5287d7dd2fa1182ff8|2016-02-18|cnweaver|Sanitize input cross sections more carefully.
+74e13e103bd0735b93110a8672b23f2ad563a570|2016-02-18|cnweaver|Use aligned memory and annotations to optimize interaction calculations.
+ae033af468d7a875440f9ca370d25f6d69326c26|2016-02-16|Carlos Arguelles|added new test to check the NC
+b0170a242c2d34769492cca6279da03df3ebe3c1|2016-02-16|cnweaver|Attempt to fix mistakes in energy indexing
+16bda6660e8496bdc89561ac67787fe692cbb5a2|2016-02-13|Carlos Arguelles|fix track concatenate
+db54e04a13b7ff68b1055e3ce5772fdffb95f2c0|2016-02-12|cnweaver|Expose more integration settings to the user
+49c7553dc544f0d463afe2dabb969ae587956ee9|2016-02-11|cnweaver|Restore correct test settings
+be5fd81c08baf7de26c202ba06a64ab08fcc2791|2016-02-10|cnweaver|Eliminate VLAs to avoid overflowing the stack
+0f6eff019f47b64b53107c25b1ab3ada5f8cebbf|2016-02-09|cnweaver|Disentangle the coherent rho terms setting from the progress bar
+9262cf53e21cb9cee0f94dba0a73dfa1a2936883|2016-02-08|cnweaver|Add missing factor of energy as in r260
+9647e9ad793ec9e05cd6930073d364e818494d88|2016-02-08|Carlos Arguelles|fix NC interactions
+878f94f59713c4992970bfe11d8a69e78bee3dce|2016-02-08|Carlos Arguelles|constant opacity
+8477264c23fff9566313022afb64c1d72ee09f47|2016-02-08|Carlos Arguelles|constant opacity
+5591497a3a153b9623989876d9d8e6921b9b54cb|2016-02-04|cnweaver|Move invariant calculations out of a loop.
+04dba051e67aa14bc763babe4a81da8583c4c4f9|2016-02-04|cnweaver|Use the correct time difference when performing constant density evolution
+b2cff4aa4dd08fb9bae9f19a759c3c53ce4e74f9|2016-01-28|cnweaver|When reading a saved state, only require interaction information if interactions are turned on
+a608abee4c4c0df0abe9d0253252921adbd11b9a|2016-01-28|cnweaver|Avoid redundant calculations when propagating without oscillations
+a717224cf636c49e40d1b2578a19150b691c518a|2016-01-28|cnweaver|Running 10 tests constant_density_osc_prob : PASS earth_osc_prob            : FAIL hdf5_atm_in_out           : PASS hdf5_in_out               : PASS interaction_struct        : PASS move_assig                : PASS mul_energy_constructor    : PASS track_concatenate         : FAIL track_concatenate_hdf5    : FAIL vacuum_osc_prob           : PASS       10 Tests: 7 passes, 3 failures should always run when requested
+c731c8591acc6c8f0da74de8d6b187f88f4645d5|2016-01-28|Carlos Arguelles|added tests
+5f6851bd6ac3aa95bfea9ce3df97a8d4dc24c71d|2016-01-28|Carlos Arguelles|Merge branch 'master' of https://github.com/arguelles/nuSQuIDS
+d1ea08a5a1f3e6cc067eefc38290b856ae9098c7|2016-01-28|Carlos Arguelles|Fixed constant_density_osc_prob test
+dac3cde6b49e2a8c0e76fb19ec6efe1e5ad64736|2016-01-28|cnweaver|Let make know that the examples depend on the library
+2670ab597ad142cb89c0bbef9721efda79aba548|2016-01-27|cnweaver|Make less of a mess when configuring and building:  Put pkg config files in lib  Put object files in build
+65bf920b6323418c568266fa7a27af47dad51619|2016-01-27|cnweaver|Directly ensure that range functions have exactly the specified endpoint. Remove unused functions.
+0487fac4f21769d853d734b16f445fe2d59f68b6|2016-01-27|cnweaver|Most tracks never have their parameter vector requested, so creating it lazily helps perfomance.
+ebfb14d34c7b169674452125d4ee53c632f74819|2016-01-22|Carlos Arguelles|updated nusquids LV
+8b739b7df88882787bb865d2886d8708350b1154|2016-01-21|Carlos Arguelles|Fixed LV example. Now compatible with new code format
+c3e17da992c65af102f1ba9b0d44958c0003d1a8|2015-12-13|Carlos Arguelles|update constant density
+d947d25fd614a939d3cf7cb8c2e62d1d4181a3b1|2015-12-12|Carlos Arguelles|fix mul_energy_constructor_test
+7879c807e3e096dfab53932cdde4d777ba0398da|2015-12-12|Carlos Arguelles|fix move assing test
+aa83bba1f558786012a6047a88970964d978dc10|2015-12-12|Carlos Arguelles|new vacuum oscillation test
+c9c54e2231832b7fe5434925c7779c6566e0eaa9|2015-12-10|Carlos Arguelles|optimized the EvolveProjector operator when using only oscillations
+51f19c2dd326721c2017007a719bd3ff03ea5388|2015-12-10|Carlos Arguelles|Made Vacuum also constant density
+67d4f86954c1e3ded677210a014a269c8956617b|2015-12-10|Carlos Arguelles|added constant density solution
+53e69392d7093781f5c0282bb44aa77b30991804|2015-11-05|Carlos Arguelles|Merge branch 'master' of https://github.com/arguelles/nuSQuIDS
+18a0325f47068b458caca271c8da38c72fe025cb|2015-11-05|Carlos Arguelles|added a check on ReadState on nuSQUIDSAtm
+604f9c514e7aad26ccdacaae7c4c8de6f8430a82|2015-11-04|cnweaver|Improve detection of HDF5
+aaaad47e184633aaac25147167ae8d26b82ea262|2015-11-03|Carlos Arguelles|added option to turn off oscillations
+7830f1b5cf47ba01e0b3f6e38a712607784d55ba|2015-11-01|Carlos Arguelles|more fixes in the config file to make python bindings nicer
+8ecaf6b3ee02d8e6230d445b42edb85ac80727c8|2015-11-01|Carlos Arguelles|fix config file
+ed011f247a5b2406f9bed2f54384ba4256d567b0|2015-11-01|Carlos Arguelles|fix bugs on config script
+5b98530d780569bb585c613256dd395bf8572181|2015-10-30|Carlos Arguelles|remove rotate from pybindings
+4758a19001f121bc7886ed1b99c90e56d44a4303|2015-10-28|Carlos Arguelles|updates
+a6c05c4e83caf8241fab4a0e54b63eac95f985b2|2015-10-19|Carlos Arguelles|update python bindings
+ebf40b578f4b8b05bf22d122701fe6daa73a0362|2015-10-14|Carlos Arguelles|tierra
+80d95c50d5c85bdd29e88e079b36568e6988ee0b|2015-10-14|Carlos Arguelles|Earth parameters
+c03296431480bae34045bcfb3e1d1e75aec56c75|2015-10-14|Carlos Arguelles|fix EvalFlavor nuSQUIDSAtm overloads
+49809f8500058daf120eb643ef334953efe680ee|2015-10-14|Carlos Arguelles|Merge branch 'master' of https://github.com/arguelles/nuSQuIDS
+3af25b64a8ef04355497b51c9082ea5d8aa20fc5|2015-10-14|Carlos Arguelles|examples
+c8729c81250625b64f6f8b91ffaa11c7b9c69255|2015-10-14|Carlos Arguelles|fix bindings
+f872443ed3506b06f689b6dbf163241a898d683d|2015-10-08|cnweaver|Add simpler flags for manually specifying library locations in the common case. Fix pkg-config setup so that it actually works. Supporting evil hack: Register HDF5 with pkg-config as well as nuSQuIDS.
+995fa0aff38d18f8c9519e75e345048deeb4638c|2015-10-08|cnweaver|Minor typo
+ccb834e4f333c4717bd707de3758e8d5bc4c5dcd|2015-10-07|cnweaver|Allow the user to specify cross sections when using the atmospheric wrapper.
+b16cbf04d491a4de7dea7a2b8be30b7e100cb21a|2015-10-06|Carlos Arguelles|fix capitalization in python bindings
+dc6a4547cf60243aaca89ccab255fe767503e7a8|2015-08-20|cnweaver|When testing differences, absolute values help detect errors in both directions
+8c7276d01726e1f8f99a80a989c4e366dcbb6bb5|2015-07-10|cnweaver|Don't attmept to link the library against itself
+431550c190980eb49c28d78fcc918fddc5c91e62|2015-07-10|cnweaver|Fix include capitalization
+e5e940e07a66671b5d8eec6401d7440efd21832a|2015-07-09|arguelles|add missing nusquids.h
+4183b32fc3b8a727f13585fb86555dc227c1bd76|2015-07-09|arguelles|fix captioning of doxyfile
+e957f6b0542ae2a85dc8f59576f7ee7e86e83f70|2015-07-09|arguelles|fix captioning of doxyfile
+f97e96f400f4e537af0acfc23ef0eb171b242613|2015-07-09|arguelles|fix name
+f53f89cabf0c6e91a2cf9a8ed8399b54a4e12d24|2015-07-09|Carlos Arguelles|added examples
+0ff846f128472c646cc6f8989c0e0c629425a0bc|2015-07-09|Carlos Arguelles|rename examples
+c7f7e5146096ab41964c5ed3905e34cac36a1abe|2015-07-09|Carlos Arguelles|added test
+359c97e0f94298f38a4ce23a0fe9fdd45dcb1ea6|2015-07-09|Carlos Arguelles|new atm test pass
+bf28d83c37462aaa651d969350de7cfca6410199|2015-07-08|Carlos Arguelles|updated several fixes
+14b144be7a30248a2594a9ebfb796edb01853f2c|2015-07-08|Carlos Arguelles|fix bug on ReadStateHdf5 with int_struct
+db61442d5172dff40a14c7ab2336a135d27ea18b|2015-07-08|Carlos Arguelles|fix units in hdft_in_out test
+d103008dac20019e4f08419f2b44503df2584efb|2015-07-08|Carlos Arguelles|fix bug
+d0569d40fa0f225057216faf4c1621fe08a0cef2|2015-07-08|Carlos Arguelles|Merge branch 'master' of https://github.com/arguelles/nuSQuIDS
+348f66837161351ab194a84f78996b66012a268e|2015-07-08|Carlos Arguelles|new hdf5 atmostpheric test
+b258a79036a9d0640e88eb28f3aa99d5f04d9e20|2015-07-08|cnweaver|Fix duplicated path prefixes in the install target
+8fc27e49591ede01b929eeee61f4fd5a86f6999f|2015-07-08|cnweaver|Clean up make rules to avoid using `mv`
+67af68f926f8eacaa29c380f1925b8050097e847|2015-07-08|Carlos Arguelles|unified units to eV
+4aeac60125d0baa7f45a93bd9bd6da3344a2007a|2015-06-12|Carlos Arguelles|took out a debug statement
+2df513719cb2f9458dafbd88e8af1707251becb3|2015-06-12|Carlos Arguelles|upgrade to cross section module
+150f185d896caa2fe70fb696783baaad2bf0998d|2015-06-02|Carlos Arguelles|update
+7dcb400384fc5c84c984b8ed59631ca3e79b7b5d|2015-06-01|Carlos Arguelles|updaged nusquids atmospheric template
+6389a50cb2d7b6fffeabc622b0b6bb77f66184bf|2015-05-23|Carlos Arguelles|merge
+08f542034b3bdf8688502c08e8fc02114122c5fa|2015-05-23|Carlos Arguelles|new averaging for fast oscillations
+6183fa21737373228215975dca72766e3363117d|2015-04-21|Carlos Arguelles|revert energies of atmospheric constructor to GeV
+e12bb4de95cdb0dff50e87f77a719ce9e03e53ef|2015-04-21|Carlos Arguelles|revert energies of atmospheric constructor to GeV
+8890bd86f01043fdf623d71b92b30f065466f34f|2015-04-21|Carlos Arguelles|uniform energy convention
+ff3dd8c8074c9224d9ab68bfa8fe83cbe0e16d80|2015-04-20|Carlos Arguelles|update EvalFlavor implementation
+bb773099a1eabdcad7c927681e1196fb4efb63f8|2015-04-20|Carlos Arguelles|change get state and get projecto to reference
+8549eb55528379933e8c2f907a8cc085bffb57d5|2015-04-20|Carlos Arguelles|fix constness in HDF5WriteState
+3f77c7be0c1c5895c3b37da79ead85a14caec258|2015-04-19|Carlos Arguelles|fix header bug
+5679557f854cd73d6f8620616ac35d6c5b5f52c9|2015-04-19|Carlos Arguelles|Fix bug on hdf5 writer and tests
+2bd7ff711a0f218a9a9f11d086c29401b17b646a|2015-04-19|Carlos Arguelles|update test
+1fe352f07af1bd399957b09b639c2edccdfb2bdf|2015-04-19|Carlos Arguelles|added upgrade to read atmospheric
+ced81f6d57608d581fab96537221968457328aa3|2015-04-19|Carlos Arguelles|fix interaction test
+9c9e0b9ed7a560eb7f14085e48390efcd9f7ea20|2015-04-18|Carlos Arguelles|fix bug on nusquids atm constructor
+53f4b2516088064fa877d2f9e2b4f59a3255362f|2015-04-16|Carlos Arguelles|add interaction struct test
+3a186b181c0fe1fefb97da56f102c7c9b15d7260|2015-04-16|Carlos Arguelles|added equiality and non equality operators to interaction struct
+45bd070e50c5798e629029547eb27e689f492879|2015-04-16|Carlos Arguelles|fix bug on new interaction struct
+57c7507e8939e481a6929dac40062b93a0df7e2e|2015-04-16|Carlos Arguelles|added constructors and operators to InteractionStruct
+642882dc44e57e92b6555eb629289faf2b49c9e5|2015-04-15|Carlos Arguelles|new interaction container
+20d283a6f2abc7c6abeabec2330da5ea9aa1f6c7|2015-04-13|Carlos Arguelles|put back doxyfile
+1d9ccb9be4b08893f5574faf0d39400bd5e18f48|2015-04-13|Carlos Arguelles|Merge branch 'master' of https://github.com/arguelles/nuSQuIDS
+fddf277ef72c7d7529e7947031b4624ac72449b9|2015-04-13|Carlos Arguelles|added functionality for arbitry energy arrays in nusquids
+8dfe4a7b9a493330b7d64372c2f88db8717dd1d6|2015-04-08|Carlos Arguelles|fix something
+b6037de687bfdf92a89b828ea7eb89f338ee2b62|2015-04-06|jsalvado|header added
+8e3c99cf63e73c16308e713bfe6d153cfb4996ac|2015-04-06|Carlos Arguelles|fix bug in HDF5 write/read
+1d7389ce96f24b3de812685e13b0227928006089|2015-04-05|arguelles|updated config with boost path
+979b30037718dcab75ec009727438afbd8577996|2015-04-05|arguelles|Merge branch 'master' of https://github.com/arguelles/nuSQuIDS
+0debab664290fb2cfa08b2ca26ff412ccf105e68|2015-04-05|Carlos Arguelles|added setup.py script in config for alternative python binding compilation
+4740301813e2bf0654d89cb0cda735f2e83f786f|2015-04-05|Carlos Arguelles|fix config file to work with new numpy check
+35f42862441865e20d81463727ae4a2d42562259|2015-04-05|Carlos Arguelles|Merge branch 'master' of https://github.com/arguelles/nuSQuIDS
+89a60593975f2c712aebb849180f7edbcdab6b34|2015-04-05|Carlos Arguelles|fix check_numpy
+460835e23fe4abd74dd65ce9af6fd30e06a94277|2015-04-05|arguelles| updated config
+e538044e264d403381924997bd1c4d11f718e43e|2015-04-04|arguelles|fixed nuSQUIDSpy.cpp
+5869dd60dc3e0772a8e01c0f3e744cfa9045bbf5|2015-04-03|Carlos Arguelles|change python binding flag name
+66ddd166e643f43dbe726dd6a7f4b38ee00e08e6|2015-04-03|arguelles|fix numpy in config
+33612940ea79dc2f4e7c1b4fe9cf74b2a53da573|2015-04-02|carlos|add hdf5 header fixes
+651ee778e3afef84fe7ad28d5f7810895f5ef1d0|2015-04-01|Carlos Arguelles|fix config
+ae6df8147b816c4782ba4a447e7d2cc0f8008366|2015-04-01|Carlos Arguelles|fix config
+b0bfa25e38f70f0bf8ad8e30a5457b9e613c0ed6|2015-04-01|Carlos Arguelles|updated config
+40218838e21aeafb0aa7da27b896084462cec969|2015-04-01|Carlos Arguelles|updated config to generate python bindings makefile
+9432f1aa02e7376ba96b123f68e3752299ac0246|2015-03-31|Carlos Arguelles|fix tests
+d36c6eef3793fb2137fbaacb433918d4f02dc285|2015-03-31|Carlos Arguelles|fundamental earth model change
+95d065b1456fe46c9d2d684c993a9ac8bb0e1ee3|2015-03-30|Carlos Arguelles|update atmo flux
+516253314d921d730ba46b6d7c02527d3dd2509d|2015-03-30|Carlos Arguelles|fix atmospheric reweighting system advanced - almost
+78b12e79fc9effe4413e22c1cb9d04d5cec0c364|2015-03-28|Carlos Arguelles|added option to nusquids atm
+2e3a0b0aaea598013bf8c4d6f0589deba0d1eb9d|2015-03-28|Carlos Arguelles|increase default tau and positivization scales
+31de2dac55700de1df06ebaf36796c03150e3e5a|2015-03-28|Carlos Arguelles|fix loop
+e02c3d4fcec7834135eb125537369fa541fb621c|2015-03-28|Carlos Arguelles|add positivization flag to nusquidsatm
+abc3253f99a35ecafcb6052d0f90b721288d14b1|2015-03-27|Carlos Arguelles|fix positivization
+20a16e8f7d83780c79350a0cd10227ca18da7ed0|2015-03-27|Carlos Arguelles|added positivization handles
+c6c20b54055862fad578d1fdc4c44fc144241463|2015-03-27|Carlos Arguelles|move posizitization correction
+45510c09b9b6d476af2dcdab9ba988a45962f7b8|2015-03-27|Carlos Arguelles|add function to nuSQuIDS atmospheric
+645f1335f4b7c569a22327944201325087a06b22|2015-03-27|Carlos Arguelles|add positivity correction
+3e29081a155b9b12c35caa3bce194bc1557bceeb|2015-03-25|Carlos Arguelles|change caption
+07186a6c2bd886a90dac3977008c6e9774ecfb16|2015-03-25|Carlos Arguelles|added atmospheric
+13f9a3accf1c6f956e21ba5361f35486349139ec|2015-03-25|Carlos Arguelles|fix write hdf5
+f430fb6d6fc33e1792495618723c58b88d23d1d1|2015-03-23|Carlos Arguelles|updated to squids namespace
+79437438464dc4ed773e8bde42223f0aa072f3cb|2015-03-21|cnweaver|Use the correct deallocation functions
+77e870eeea7a6026db0b3e04c7b0541f5caa6971|2015-03-21|Carlos Arguelles|Merge branch 'master' of https://github.com/arguelles/nuSQuIDS
+2f80eb5a16fb6b14b91caee5a0b77ce73e3b08a1|2015-03-21|Carlos Arguelles|Fix version numbers on readme
+24e3a1056c1e7c3b004a0974996b6491c4f27446|2015-03-21|cnweaver|Initialize tau fluxes to zero.
+122e008b3c5df6f9cfa9845ce558399d5e899144|2015-03-20|Carlos Arguelles|Merge branch 'master' of https://github.com/arguelles/nuSQuIDS
+4a5a1f237331f540f8f51f5abc9c94f584e6cf53|2015-03-20|Carlos Arguelles|added hdf5 versioning
+4ba491b662b53081313375daac8d00a4f803e154|2015-03-20|Carlos Arguelles|added hdf5 versioning
+e2ba149b8bc3b71b3b73900946ae3b2a7d61b954|2015-03-20|cnweaver|Remove erroneous use of floating point.
+0a4f7642f8aac7aa273193ffddfa77727ecf8c21|2015-03-20|Carlos Arguelles|Fix a bug on SetTrackBody function
+6e67fa048e0acdefd9591f171c5f52721256a22f|2015-03-20|Carlos Arguelles|improve hdf5 test
+3795c6cbb2bee0fdf5f8c446f9c72983d79f7381|2015-03-19|Carlos Arguelles|Several bug fixes, mainly in READ/WRITE HDF5
+43bf1f288a919bf9da7100d2caed9ded6bf3a0e8|2015-03-17|Carlos Arguelles|fix xs
+61d7eb08d1817f5c4e8d4bb764e0069670c9f9ba|2015-03-17|Carlos Arguelles|add nuSQuIDS atmo GSL interface
+86072b5dff3008ecab499945b7add9dc1301559f|2015-03-17|Carlos Arguelles|add nuSQuIDS atmo GSL interface
+1180b9ad146bd326cb690fef8b8f4b19e4a38fad|2015-03-17|Carlos Arguelles|fix xsections
+fdae5259ee2858f31d69fae0fc7360d87e4191fb|2015-03-16|Carlos Arguelles|upgrated nusquidsatm to template type
+abb36a1214ab5ac2e531d717831c9a2f6f302edf|2015-03-16|Carlos Arguelles|Added new constructor in nusqudsatm
+72fcbff5cf3d060c3772ce18a99f0750f6d335f4|2015-03-16|Carlos Arguelles|add cross sections to nusquidsatm
+d1aee143ec615fad23d7df716594eb7a339607ae|2015-03-15|Carlos Arguelles|fix examples
+c0f17c879dd40454ce8cdc852b30e44a508faad5|2015-03-11|Carlos Arguelles|added functionality to nusquidstools.py
+3d4d216b2dfcb5bdd796a004fab4b4dd67c2323c|2015-03-11|Carlos Arguelles|fix cross section module bug
+0fd223bc031ebafce7a0d5ce38443f7b77151825|2015-03-11|Carlos Arguelles|add
+c4ed66c76ed48a5634672c6085b5ab945dcb5736|2015-03-09|Carlos Arguelles|Fix python bindings with new set system
+fa12440669f56acc0f83506831f3a5c082d3196b|2015-03-09|Carlos Arguelles|Removed static types for integers
+f6e8c3befbe433157e4e40c6058370334b575e78|2015-03-09|Carlos Arguelles|move assingment test for nusquids
+f4585856ecfc701e9b5851f98577caa5e97a3b68|2015-03-09|Carlos Arguelles|nusquids atmospheric copy/assignment
+b74f61a5fd817d1065161e8e2df595e5a7fffae2|2015-03-09|Carlos Arguelles|nusquids move assignment operator and initializer
+ac31e59b29a02c3bec49c04b4c235b495022ec2f|2015-03-09|Carlos Arguelles|fix marray copy_assign. Added nusquids move assign constructor
+92f52912062afbaccb7437154cb1ecb3cf33e291|2015-03-09|Carlos Arguelles|fix hdf5 read/write test
+82c4576c5f9b072ba7f853cbc568fe22ac992f7d|2015-03-09|Carlos Arguelles|add hdf5 test
+02137b8648b34a56c6fe6ca167ed4abc5818d9fc|2015-03-08|Carlos Arguelles|fix tests
+d25c02e8d7811bdcf551ff3c1c4b45c2aed71cc0|2015-03-08|Carlos Arguelles|Updated cross section class to make it more versatile
+cac1c2a6fd00e71660046233fbd5929998dbb92f|2015-03-07|Carlos Arguelles|fix lib name
+6cc7f3cd02e79c5c03d2fd5d7ef08bf8ce44edc3|2015-03-07|Carlos Arguelles|add licence to files
+8591b697bc548905fff1a1f5f1f6e43a01fd0757|2015-03-07|Carlos Arguelles|Fix more warnings at everything level
+8a91065b8c9bc78cfd83dc02ac5994b572ba2502|2015-03-06|cnweaver|Fix a few compiler warnings
+0a76b541b9979e1eb04befcf7343ce26de01c736|2015-03-05|Carlos Arguelles|fix warnings
+418684a647e1a3d04a45f5cf94b01d5f7e792444|2015-03-03|Carlos Arguelles|update paths
+3ac05a0311083d68b3a1d4cc22eac609e55376c0|2015-03-02|Carlos Arguelles|Fix bug on tau regeneration. Fix marray python bindings. Fix ipython notebook examples
+9e4b3467d52c1598b69d1e3c1ef8e2e1b22e9e6c|2015-03-02|Carlos Arguelles|Added error message when c++11 flag not on
+be1ee0eb22172ee17da2331a81544b8d099f1cce|2015-03-02|Carlos Arguelles|add doxyfile
+bfde9567421c7dba5b6e0a362998a3d6db69fdc6|2015-03-02|Carlos Arguelles|Total upgrade of the cross section module
+f8538e9b9d512eef17fb145f581d6d2ef18b6669|2015-02-23|Carlos Arguelles|Done documenting xsection.h
+1dd870e03c4ed65fd6fc258f2a525177100f45d7|2015-02-23|Carlos Arguelles|Done commenting taudecay.h
+eabac01897d7aa41fe88a2bb7039e222739c0f8c|2015-02-23|Carlos Arguelles|fix readme
+c41eeb08d6f7ff466adc529f406bb9e8f6f48651|2015-02-23|Carlos Arguelles|fix readme
+7dc5b5e9b767ee807b652a4713805173b7fe4a4d|2015-02-23|Carlos Arguelles|Merge branch 'master' of https://github.com/arguelles/nuSQuIDS
+b342c5f36bbb3df9d459335e8077b887d47b4b9b|2015-02-23|Carlos Arguelles|Fix comments warnings in nusquids.h. Finish commenting body.h. Partial comment of taudecay.h
+fed0b87f4e409a5313160c4a2e72d72ca036fbd8|2015-02-21|cnweaver|Make sure that the installation lib directory exists
+0a310a341f3f276b9a0165778dd9ebbdf192c469|2015-02-20|Carlos Arguelles|fix marray header
+97355a6079a157918cae526bcebbec89c99b06fc|2015-02-18|Carlos Arguelles|fix namespace in marray.h
+c22b7999f4eabe5e2fd02a12df171c5eca268e4d|2015-02-18|Carlos Arguelles|Fix documentation in nuSQUIDS.h
+c0443b1533cd6038d26018f46d6069e0c5eac791|2015-02-18|Carlos Arguelles|Improved comments on read/write hdf5 on nuSQUIDS
+49fe48f63867e8ebbeb8a2be39240bfa251abf87|2015-02-17|Carlos Arguelles|Done with nuSQUIDS object documentation
+21cede0a424a909813b253fb22a3349b5533a2a5|2015-02-17|Carlos Arguelles|documented all nusquids constructors
+ee6a937ae997a3bef33526bcf63255ed4683ac79|2015-02-17|Carlos Arguelles|Finish documenting all nuSQUIDS protected and private members
+fd446a8f000ea78337d868304c1438c3a0c9842e|2015-02-17|Carlos Arguelles|added comments to nusquids.h
+ca69943a83a8e70cf68863ad616497484c6fc4aa|2015-02-16|Carlos Arguelles|Fix python binding to be boost/numpy less
+c385ecad20c6c1821f5d44bc1b71cb658fc46af1|2015-02-16|Carlos Arguelles|First fix of the python interface. Still buggy
+24907a3a5dbea47ea860bbc3c4f595e3ea39b3f3|2015-02-15|Carlos Arguelles|Included Add to read/write hdf5, and updated nsi example
+f098fcc50a237e791eba4a7299edca19f0483b78|2015-02-15|Carlos Arguelles|updated marray
+25263ef7c5d50887c2c24a687f1f4ff0c894559f|2015-02-15|Carlos Arguelles|Fix README
+d65ae6c45a7b7f09f7738c5fc3236dc1d72fc0bc|2015-02-15|Carlos Arguelles|Changed size to extent
+2ea821886b6d919ab2bbc4d8e38f0fe263445728|2015-02-15|Carlos Arguelles|fix authors
+8728a9f9bf72422b813c0070bac91ba1373d5a72|2015-02-15|Carlos Arguelles|update to use marray system
+a105f3b36b6c31d8d0856b61ba011d3bfc268044|2015-02-15|Carlos Arguelles|Fix gsl requiered version
+8f8cbb4206f6595ce9dcbe65ed6a06ebc628d7b2|2015-02-15|Carlos Arguelles|remove global.h
+e9f09d1001a4feb8b46c5c7d0d45939592f39c4a|2015-02-04|Carlos Arguelles|Fix configure file still asking for hdf5_hl_cpp
+1e45c4909d0d60698ea8623ca2899f3d3fd671f2|2015-01-25|Carlos Arguelles|fix apply patch CW1-2015
+b7bb282e1d557e279586eb4693502fa8760cd5c0|2015-01-25|Carlos Arguelles|2015 - CWP1
+e0aa30289301340fcb3cc64d33d7a3a4c7ae77f0|2014-12-14|Carlos Arguelles|Fix bug on Set_Track that deleted the energy information
+2dd338fbf45e47fd4a1c1e4cc8e56569d142f859|2014-12-14|Carlos Arguelles|Updated to be compliant with SQuIDS v1
+0f572fac481418db7c6c61ba8f51c8bb05b8f3f1|2014-12-09|Carlos Arguelles|remove hdf5 c++
+fdcd38e9d99903dd909187064819424516b6dc2d|2014-12-04|Carlos Arguelles|Fix config flags
+a59ceb71f58e663e154eaeee05dbedf44a27e580|2014-12-04|Carlos Arguelles|improve examples
+9ec86a78aebda1c26b65ed62e4272132da530f43|2014-12-03|Carlos Arguelles|fix examples read atmo
+f7cb2d6854bf14b1b0471c2ccaee5399ea111953|2014-12-03|Carlos Arguelles|fix examples read atmo
+4a9a30608be0705994d799feca0ccf3bd9fcb935|2014-12-03|Carlos Arguelles|fix things
+86154f6e91999d02a32709a8603d84bb5543a00b|2014-12-03|Carlos Arguelles|fix things
+13e0543b905a6c60ef25b7c1fc0474c3fefec723|2014-12-02|Carlos Arguelles|updated config file
+c43f9c99f243c2c2ff7a37dc0a6c7ddb76d61601|2014-12-01|Carlos Arguelles|update
+4c85532ef6a4428870edac3406b10c927e406ed8|2014-11-26|Carlos Arguelles|Review EarthAtm model
+3e1a6f01bf7d1326df4548a582ce97cab0d93e56|2014-11-25|Carlos Arguelles|fix header for compatibility
+420daca2e5c2dac6f7293274d40d6474df9e18dd|2014-11-25|Carlos Arguelles|Fix include file to newest SQuIDS convention
+ef23b464b4ade038fa1eca737768bf8fa364a86b|2014-11-25|Carlos Arguelles|New unit tests
+39209e773e9558332fdf721723d87a9ffb13a7e2|2014-11-25|Carlos Arguelles|New HDF5 Write and Read functions
+598bf2f8396598be2b7f13a0e16b344999981168|2014-11-24|Carlos Arguelles|Update to complain with lastest SQuIDS version
+d89bc934a09a843c0b76d9b5486c237e5d11c284|2014-11-18|Carlos Arguelles|Fix SQUIDSAtm reader
+2494bebe3d55f5cc5025f332cd5ba5825f6f7144|2014-11-17|Carlos Arguelles|Change the HDF5 writer to append when file exists
+01fab89999c01450234cae7f3fa4412a56c5d1ad|2014-11-15|Carlos Arguelles|Fix config file
+0043c8cd6a106cd31b5c5b3a78ed938eae9aeea8|2014-11-04|Carlos Arguelles|Fix nuSQUIDSAtm
+05a514880119cd0115684dc17409b19d267b46c5|2014-11-04|Carlos Arguelles|Fix nuSQUIDSAtm
+08d61479c53e50e420fde7f3dc99dee633519774|2014-11-04|Carlos Arguelles|Fix nuSQUIDSAtm
+8c43407e3e4be945dd55eb700c796eab8eadf29d|2014-11-03|Carlos Arguelles|New nuSQUIDSAtm class finish
+771dcd8f3bf18fb293c05f82165879b512f349c8|2014-11-01|Carlos Arguelles|New HDF5 interaface with groups
+ae4e66236f43c4767413aceae2ec8c5c4c450a0b|2014-10-20|Carlos Arguelles|Added output on test
+f0adfee0f48311effb4d51a620b086d0843cf479|2014-10-20|Carlos Arguelles|Untrack some weird files
+6f8ec5c4f756f946f957c8887d43ab62e187dbf3|2014-10-20|Carlos Arguelles|Add first unit tests. Updated Python interface
+61c2f9cdf1bb82a169f8032c3086eda6f96ba3de|2014-10-14|Carlos Arguelles|Fix compatibility to gcc
+d60bf0e7d4ad5c08192f2fb93d96f48828eb72b2|2014-10-14|Carlos Arguelles|Fix config file. Updated Set function to be like SQUIDS
+41242a7b4692086f6879140e4abcf8744a3df0b6|2014-10-09|Carlos Arguelles|add examples
+8cffe11211ceeefa5e15dcefbf30f24705a57c49|2014-10-07|Carlos Arguelles|Fix example 5 so it reproduces smirnov-esmaili NSI. Fix a bug on ReadHDF5 in antineutrino case.
+2acd5bb01800ff476d85447a708dabe07ad70d44|2014-10-07|Carlos Arguelles|Update to C++11-SQUIDS compatibility
+3a343a53366514f90bee318f8342b06f72744caf|2014-09-30|Carlos Arguelles|Now using namespaces
+f3c5e05c75e15ea02c19caeffdd0e88258504989|2014-09-30|Carlos Arguelles|Updated nuSQUIDS python bindings
+02e08240a00f261f3f33a7f61470b9f552068412|2014-09-29|Carlos Arguelles|updated documentation
+fb9a36b60ea560c6d54aba3f1bb4d90e85492c8e|2014-09-29|Carlos Arguelles|add documentation
+4c5b193be6ae1b2a286696a443debf8174c0ea21|2014-09-29|Carlos Arguelles|Add scripts
+99817f8a1d5e463e7c640c9e7adf0356adb0010c|2014-09-29|Carlos Arguelles|add earth model file
+030e3a1605744bc03df970e930f8e84bd7af6bae|2014-09-29|Carlos Arguelles|Fix header tools.h
+16fc3fba678880f22bcb719bc7fe232d230c1c7d|2014-09-29|Carlos Arguelles|Fix single energy mode initialization
+1b1088eb156d533ec30a102ad6652ffd42353130|2014-09-28|Carlos Arguelles|Fix Earth Models. Updated matter potential conditions
+d2a69290408927b3d3fe34198fba8b86dae43281|2014-09-25|Carlos Arguelles|Fix in baseline calculation
+5003629018e349cd54e894b850b000ca89429334|2014-09-25|Carlos Arguelles|Add SetX Track in pybindings
+26ce26bfed5b26dc7e0b4ba91e07844e17d43807|2014-09-25|Carlos Arguelles|fix config
+7350eb2d73e33d4eb154d7e4550ed7422d14c2f9|2014-09-25|Carlos Arguelles|Fix Earth initializers and bindings
+08dc214893af8f85e5dbe77ee4e1688b0442cf44|2014-09-19|Carlos Arguelles|Fix cross section interpolation
+a51f692b491eef3cca141c0f2c9ac960f40bd7ee|2014-09-17|Carlos Arguelles|fix file track
+501e6075838b4695accde47bae9fa35a26c064ba|2014-09-17|Carlos Arguelles|fix config flags
+2f0c1cf0375fd4bb5553d95fae075766b9a4c4f8|2014-09-17|Carlos Arguelles|fix make tab
+7033d84ef08d114efb6f6cdf010e9702650f0823|2014-09-17|Carlos Arguelles|fix make tab
+e6f16474a77b4d235fced96d7964795ed2ebaaa2|2014-09-17|Carlos Arguelles|fix make tab
+113801ea8428e8bd0afeab7291ac4f423dadcc22|2014-09-17|Carlos Arguelles|fix config flags
+6ced8d80e136f7c07277e04366101a6dd92737b5|2014-09-17|Carlos Arguelles|fix lib dir missing
+8bd148d5052aaddc572d4c4dae7fa622551a12cd|2014-09-17|Carlos Arguelles|fix config
+b17335ddb134f1fa72f371449d566ba05af075dd|2014-09-17|Carlos Arguelles|fix config
+a1f949f824dc1a2ae15260b0665e5f21dfa91e8a|2014-09-17|Carlos Arguelles|fix config
+aa5c80fd0e7ea9e6007f161aaf8710a30797588b|2014-09-17|Carlos Arguelles|fix config
+130111d84cde7e56d5563d60f34a54085d9eec4b|2014-09-17|Carlos Arguelles|fix headers
+283e77de9db80a47442e62dff49a18d53912a8e9|2014-09-17|Carlos Arguelles|fix headers
+774ce2d9bc13061e26dc1e9aea1d18db1e1dcadd|2014-09-17|Carlos Arguelles|fix documentation url
+55aebe8b552c1303aa0236f785aaf894d05f29bf|2014-09-17|Carlos Arguelles|fix config.sh
+e5c4e8d9f295fcee6deae4a7258fe6f309342883|2014-09-17|Carlos Arguelles|first commit
+559bf8178415bc3975897b1009d2099d63b01f00|2014-09-17|Carlos Arguelles|first commit
+f2c6485d5cd5948e9203375b6a5c44def8fe2054|2014-09-17|Carlos A Arguelles Delgado|Initial commit

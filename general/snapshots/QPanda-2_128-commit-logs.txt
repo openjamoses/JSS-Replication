@@ -1,0 +1,503 @@
+d5d01b16a01919259722b213b78e8190f5fa6cfb|2020-10-09|shenzhi-git|Merge pull request #131 from OriginQ/develop
+26b143c647cb42414a3961f0e9abec85dc2a4411|2020-10-09|shenzhi-git|Merge pull request #130 from shenzhi-git/master
+61f1b7b68c4f4c89cd03ae96bc85d4f38ae520fd|2020-10-09|wangjing|<fix> 修改MPS和重置逻辑门bug
+f49cc565f09c6df7d85e06ceff84d958f1cf8770|2020-10-09|shenzhi-git|Merge pull request #129 from OriginQ/develop
+cc9b37774394a2abb86a0d563f4cbdbe19ca96c8|2020-10-09|shenzhi-git|Merge pull request #128 from shenzhi-git/master
+af3b0872307e77e84c69216ce9542b3762d3a29e|2020-10-09|wangjing|<fix> 修改含有中文字符导致编译出错的问题
+635b4c06ea5b6a30feca26b9ccaf1be457ca2bb6|2020-09-30|shenzhi-git|Merge pull request #125 from OriginQ/develop
+03e6e2af0da76e193d60ff6195f7e70c65a493b9|2020-09-30|shenzhi-git|Merge pull request #124 from shenzhi-git/master
+503be5d729f575ca39927b019a1dcb43a47878d8|2020-09-30|wangjing|<fix> travis.yml文件
+b0dd0a8d793c3330c3cc5986ab8574f644e4edf7|2020-09-30|shenzhi-git|Merge pull request #123 from OriginQ/develop
+b85ce7d47a00e77dd70efedf74c8de0184941bf4|2020-09-30|shenzhi-git|Merge pull request #122 from shenzhi-git/master
+1802d888d50b098604ee0c87af3602db4c7eaf50|2020-09-30|wangjing|<fix> 修改hhl示例
+efda3a599ca273aa373bfbf7de55ae662850991b|2020-09-30|shenzhi-git|Merge pull request #121 from OriginQ/develop
+7edaf09112b3cc71bf17ab0ecc0ad0cc59681503|2020-09-30|shenzhi-git|Merge pull request #120 from shenzhi-git/master
+4c29461aaab10cb13f4fe4c1275df44070d041d5|2020-09-30|wangjing|<fix> 修改QCloudQVM
+daf18e2e9cd284fb6cc4a8fbe1a1b0b9beb1ee63|2020-09-30|shenzhi-git|Merge pull request #119 from OriginQ/develop
+eef1693a2edfa8ccfb75e93270534e399af33764|2020-09-30|shenzhi-git|Merge pull request #118 from shenzhi-git/master
+c24a1802652d078cbfe4218c7df5a2be2ef63826|2020-09-30|wangjing|<fix> update QCloudQVM
+54403b0915f91c6a8e051d2ca4629047edc224dc|2020-09-30|shenzhi-git|Merge pull request #117 from OriginQ/develop
+63ff253bc6aa5cc81b0e5d018dc8d1962077e8d2|2020-09-30|shenzhi-git|Merge pull request #116 from shenzhi-git/master
+f79045f0003274d6464d710a3b126e39c6309119|2020-09-30|wangjing|<fix> update
+1092d38fc9171ebf38388dc5c7733c321812792e|2020-09-29|shenzhi-git|Merge pull request #115 from OriginQ/develop
+2527e812fb0fd07c2abcfa1498eff656c13c699b|2020-09-29|shenzhi-git|Merge pull request #114 from shenzhi-git/master
+52870eae97e8559b31c74f4a6ce13c5ae153ea6d|2020-09-29|wangjing|<fix> update change log
+78cb46d3b0930eea7de9e84a187e3e0b06637133|2020-09-29|shenzhi-git|Merge pull request #113 from OriginQ/develop
+47e3541be4dc932a73e90056375f5db7ae57c125|2020-09-29|shenzhi-git|Merge pull request #112 from shenzhi-git/master
+509020cfae8eb1d0299f691bf52492c727083d18|2020-09-29|wangjing|<fix>配置文件接口可直接接收json字符串形式的配置信息 <fix>优化字符画Python接口，可直接print量子程序 <fix>量子线路适配芯片拓扑结构python接口封装 <fix>添加Grover算法python接口 <fix>添加获取量子线路所用到的qubit的python接口 去掉不必要的log记录，仅保留报错log <fix>添加线路适配异常处理 <fix>修改windows控制台字符画乱码问题 <feat> MPS 振幅模拟功能 <fix> 修改FindQPANDA.cmake <fix>优化了测量部分 <fix> 添加元数据头文件 <fix>applications 中 HHL 实例修改 <fix>元数据校验不通过时，抛出异常 <fix>虚拟z门功能添加U3门优化 <fix>添加多控门分解独立接口 <fix>修改测试用例中命名不规范问题 <fix>取消芯片拓扑结构孤立点判断 <fix> 修改QProgCheck中控制逻辑门的信息统计 <fix>虚拟z门转换添加串扰补偿功能 <fix>量子芯片适配功能中，在基础双门转换前，进行线路优化 <fix> 修改runwithconfiguration bug <fix>修改线路替换时，qubit内存错误问题 <fix>删除test分支虚拟z门相关代码 <fix>测量同一比特以及测试结果存在同一经典比特情况的处理 <fix> 头文件添加到core.h中 <fix> 修改U4、CU、QDouble接口及pyqpanda编译错误 <fix>更新originir支持PI，自然记数以及RPhi门 <fix> 修改python中的bug <fix>修改部分振幅的一个问题 <fix>修改量子云 <fix>添加MPS噪声 <fix>QCloudMachine更新 <fix>解决linux编译错误问题 <fix>优化了接口的使用 <fix>private分支代码合并 <fix>修改了QCloudMachine的错误状态提示 <fix>请求接口加入默认参数taskname <fix>删除部分注释 <fix> 映射支持 ISWAPTheta门 <fix>解决mac下编译错误 <fix>解决mac编译错误 <fix>修改QPanda发版库中的bug <fix>修改受控单门无法在多控门分解接口分解的问题 <fix> update qasm to qprog CR
+ba0b08f4fb86a955bee2607045bd5130523e604c|2020-09-28|shenzhi-git|Merge pull request #3 from OriginQ/master
+a88a8e12a6d4c14c82d7dfaa859c5d5894bcc568|2020-07-07|wangjing|<fix> 修改去极化噪声模型的bug
+2a04a70b00f1bf76283aa6a1aca4487d707e6540|2020-06-29|shenzhi-git|Merge pull request #109 from OriginQ/develop
+cc1a734402888025b4b9ca902dc48c77ab733e11|2020-06-28|shenzhi-git|Merge pull request #108 from shenzhi-git/master
+719d698d088378bc258de0c8e405e3158dce2c43|2020-06-28|wangjing|<fix> 修改bug
+7da3663fb214f2d483e614386b823c8922d06bfd|2020-06-19|shenzhi-git|Merge pull request #107 from OriginQ/develop
+0138dc5946592047d7cc7024e61b00a23546141a|2020-06-19|shenzhi-git|Merge pull request #106 from shenzhi-git/master
+562c564fb9b6b2c9d90440c345c9b047efd66208|2020-06-19|wangjing|<fix> 修改read me 中 qpanda教程地址
+8fd415a6282cdc7d0f2b1ef6ef5260018ec31827|2020-06-19|shenzhi-git|Merge pull request #105 from OriginQ/develop
+b523fadd04aeecd1595b468a49690c8c8e86871a|2020-06-19|shenzhi-git|Merge pull request #104 from shenzhi-git/master
+414a479869787792fb2f044f81be8782eedbb5c2|2020-06-19|wangjing|<fix> 修改changelog和示例
+c5c016f5ef371893000628b57ee3db265f337e49|2020-06-19|shenzhi-git|Merge pull request #103 from shenzhi-git/master
+98f3155cc239cb4060f7653d41069321e33be75e|2020-06-19|wangjing|* <feat> 新增SU4线路映射功能     <fix> 调整部分代码 * <fix> convert_qasm_to_qprog 支持科学记数表达式：如 1.0e-10 * <feat> 含噪声虚拟机中添加角度旋转误差接口 * <feat> 添加噪声虚拟机中的角度偏转误差 * <fix> 修改runwithconfiguration返回结果的显示方式 * <fix> free qubit 内存泄漏 * <feat>随机线路 * <fix>     1, U4 gamma 值为 nan的问题修改     2，如果量子线路为空，字符画程序崩溃问题修改     3, 添加第三方库Eigen/unsupported 模块     4，矩阵分解接口修改及Python接口封装     5，添加QStat和Eigen数据适配接口     6, 振幅编码接口修改，支持符号位编码 * <fix> 更新线路优化算法 * <fix> 修改编译错误 bug * <fix>修改矩阵分解模块编译错误问题 * <fix>添加接口is_unitary_matrix，判断矩阵是否为酉矩阵     <fix>矩阵分解接口参数优化     <fix>添加Base_QCircuit文件夹存放基础量子线路，QFT，QPE等     <fix>添加QPE测试用例 * <fix>添加HHL算法实现及相关Python接口     <fix>添加HHL算法相关测试用例     <fix>添加QFT，QPE算法Python接口 * <feat> QARM算法     <feat> QSVM算法 * <fix> 解决FLT_MAX编译问题 * <fix> 去掉噪声虚拟机的默认噪声参数的设置 * <feat>增加QITE算法     <fix>修复Psi4Wrapper中成员变量未赋初值的bug * <feat>新增噪声模型     <fix> 修复随机线路一处函数传参错误     <fix> 修复线路展开功能一处控制比特多次拷贝 * <fix> 修改角度旋转误差 * <fix> 修改随机数产生的方法 * <fix> 修改ingnore * <fix> 调整噪声接口     <fix> 新增自定义映射接口 * <fix>优化线路展开接口     <fix>修改U4门参数为nan问题     <fix>添加QGate::remap接口，映射逻辑门量子bit到不同的量子bit * <fix> 修改版本号为2.1.3 * <fix> 修改Eigen的路径
+1433612f53274974b9d667bd5091e3f7e75dcb8d|2020-06-19|shenzhi-git|Merge pull request #2 from OriginQ/master
+ce44256bd7eb81f0982e6092090c9fc1b8b3f6b7|2020-04-03|CBlueCloud|Update README.md
+1e1e9e12457a7bb614ceb7043337bb3b35729cc8|2020-04-02|yekongxiaogang|Update azure-pipelines.yml
+9338c48286d43740f42bcb26fd570e35c3a4dffa|2020-04-02|yekongxiaogang|Update azure-pipelines.yml
+9e8d3175b687aeed71c901e8e9c643c2d6a8d3c4|2020-04-01|shenzhi-git|Merge pull request #99 from OriginQ/develop
+5c8bb0b0ca1c4ad854efc8640dda696d71b4cb7b|2020-04-01|shenzhi-git|Merge pull request #98 from shenzhi-git/master
+9dcae63ec275daefadf6f620e099428c94d27158|2020-04-01|shenzhi-git|Merge pull request #97 from OriginQ/master
+8674ef2b1e7f78ebedc6ca4490e5d97876775b60|2020-04-01|wangjing|<fix> : 修改了量子云虚拟机的接口 <fix>修改了量子云虚拟机的python接口封装 <fix> : 修改SQISWAP <fix> 修改获取线路矩阵导致虚拟机内存错误问题。 <fix>修复Shor算法python测试代码的错误 <fix>关闭ChemiQ的开关，并取消生成QAlg动态库 <feat>增加量子加法器构造线路 <feat> 修改bug：U2 ，U3拷贝构造函数中，没有对自身成员变量初始化 <fix> : 修改U2、U3中的bug <feat>量子加法器python版 <fix>去掉std::norm <feat> 添加QCodar 算法 <fix>linux 编译错误问题修改 <fix> 调整topology_match 功能，使QVec完成物理比特映射 <fix> : 修改python调用 pmeasure系列接口出错的问题 <fix> :  加法器python使用bug <fix> : run_with_configuration python接口封装 <feat> : 新增python接口：amplitude_encode，实现经典数据的量子态振幅编码 <fix> : 修改QAdder的python版本； <feat> : 添加QAdder的python版本的测试与C++版的注释。 <fix> : 修改pmeasure系列接口错误问题 <fix> : 整理pyqpanda <fix> : 修改bug <fix> : 添加qubit转为qvec <fix> : 修改Copyright时间
+3a19f3591768ea4ed19fe7f403903f344865fc5a|2020-03-30|shenzhi-git|Merge pull request #1 from OriginQ/master
+eac83aac8bad18fbd072a6ff7b8b22f0b98dd14f|2020-01-15|shenzhi|<fix> : 修改changelog
+bae70b1f0aa7e6648997eabb654c9bfa3d0ed2ac|2020-01-15|shenzhi|Merge branch 'develop'
+25fbbe1d65af0f7e81743a3e91837140a26753c7|2020-01-15|shenzhi|<fix> : 更新版本信息
+45f3a00291f1b081bda3f1c48e2eb45182514972|2020-01-15|shenzhi|Merge branch 'develop'
+b08b8534aec75098afc83fd4aa423eedb5f685d9|2020-01-15|shenzhi|<fix> 修改GTEST测试框架 <fix> ChemiQ可以生成动态库 <fix> 修改NoiseQVM中的算法错误 <fix> 修改QIF和QWHILE中的执行错误 <fix> 修改注释出现乱码引起的编译错误 <feat> 添加商业云的功能
+3780347bb93439e533aa7243d0e4c216522a3e87|2019-11-15|369038080|<feat>:添加贡献代码章节
+ed5763e7dab5bc943c9b91059ec3c8aac18d250e|2019-11-15|369038080|<fix>:修改内容信息
+f4fc8cc923a71d3eb73b69d50c517e733aeef93e|2019-11-15|369038080|<fix>:修改文件描述
+e8d0bd845d52d903050b6f41c4fb0af09f90101b|2019-11-15|369038080|<fix>:修改文件格式
+f3edd2a746757c336c6cfb980b8760afdd71d68b|2019-11-15|369038080|<feat>:修改名称
+d8942729ecbe157009bf6ce7a2c15caad95a7d4c|2019-11-15|369038080|<feat>:添加issue模板 <feat>:添加pull request模板 <feat>:添加changelog.md
+d92f1abd96f194a6d5d297852e4a24db4fe5eb7f|2019-11-08|369038080|update
+684d9e9b19157974718c8a0718b30bf0b1a96e85|2019-11-08|369038080|update
+c6e77c7992ca62d21132c6843c209f8411c5817f|2019-11-07|369038080|添加图片
+1d919e499a61fa5d3a8bff4db7bf24cafaf6204e|2019-11-07|yekongxiaogang|Merge pull request #94 from OriginQ/develop
+4133b5dd0ef4b07ebac714dea13f144dfb11a5be|2019-11-07|369038080|合并
+b8dd4085e14009c3e5ef8b5e2bd5dbe78222cd24|2019-11-07|369038080|更新
+8a25572fb35c001283a64c3daa35b37ba161531c|2019-11-07|369038080|QPanda： 1. 添加逻辑门：I门 2. 添加逻辑门：U2门 3. 添加逻辑门：U3门 4. 添加接口：fill_qprog_by_I：通过I门填充QProg 5. 添加接口：cast_qprog_qgate：转换Qprog到Qgate 6. 添加接口：cast_qprog_qmeasure：转换Qprog到Qmeasure 7. 添加接口：cast_qprog_qcircuit：转换Qprog到QCircuit，遇到流控节点或者测量节点，返回false 8. 调整QPanda2 的Utilities目录：Compiler：存放QProg到其他平台的适配转换，QProgInfo：存放线路信息查询相关接口，QProgTransform：Qprog的其他形式转换比如有向无环图，Tools：存放其他工具类接口 9. 新增接口：NoiseModel::set_noise_model():设置NoiseModel配置接口 10. 调整接口：原字符画接口print_prog改为：draw_qprog 11. 添加接口：draw_qprog_with_clock：字符画时序展示 12. 修改接口名：QVM::setConfigure为 QVM::setConfig 13. 添加接口：flatten()：添加展开量子程序中的嵌套节点的功能 14. 新增功能：单振幅量子虚拟机中添加SWAP门 15. 添加新的含噪声虚拟机模型:DECOHERENCE_KRAUS_OPERATOR_P1_P2, BITFLIP_KRAUS_OPERATOR, DEPOLARIZING_KRAUS_OPERATOR, BIT_PHASE_FLIP_OPRATOR, PHASE_DAMPING_OPRATOR 16. 调整接口：通过重载std::cout，直接输出目标线路的字符画 17. 新加接口：convert_qprog_to_binary：转换QProg到二进制 18. 新加接口：convert_binary_data_to_qprog：转换二进制到QProg 19. 添加接口：convert_originir_to_qprog：转换Qoriginir到QProg 20. 添加接口：convert_qasm_to_qprog：新增QASM转QProg的方法 21. 新加接口：convert_qprog_to_originir：转换QProg到Qoriginir 22. 新加接口：convert_qprog_to_quil：转换QProg到QUil 23. 新加接口：convert_qprog_to_qasm：转换QProg到QASM
+cbf1f5b5e1636f6a952dee1f842cc8bcd80b3f4a|2019-10-25|369038080|添加、 LICENSE
+f517625060432edc994f3a56255e37a336b2e715|2019-10-05|CBlueCloud|Merge pull request #93 from OriginQ/develop
+3e839ff06fd003f740de3b6fa03e0e0a255c691a|2019-10-05|CBlueCloud|Merge pull request #92 from tecog/patch-3
+c2b07f25a7cd8719d46925543c82b24c77db2e67|2019-10-03|tecog|Update Grover_Algorithm.cpp
+6fe00076593f22c0fdb89efab6254465e7411182|2019-09-30|CBlueCloud|Update README.md
+1f5dc3aaf0ef07c824a75c1ade8c91c3197a15ba|2019-09-30|369038080|USE_PYQPANDA=OFF
+38ecd4ab93b9e1c8e342980c42426291e4103db7|2019-09-30|yekongxiaogang|Merge pull request #89 from OriginQ/develop
+da2ade88d38ab2196d2b0b51fe0756719e9ce17c|2019-09-30|369038080|<refactor>:重构整体框架
+ae5dae8c4b89b0e8a0c5a7ee0b03c2fe1ea1d3dd|2019-09-29|yekongxiaogang|Merge pull request #88 from OriginQ/master
+f5093845c86a6eea18df7a63f4109ef307a77c7f|2019-09-29|yekongxiaogang|Merge pull request #87 from shenzhi-git/master
+570fcf98d108bdeec5b9872173e3488dc0349b27|2019-09-29|shenzhi|<feat> : 添加VS使用CMAKE所需的json文件
+a57d39297310f076ad4673dbba4601ae326d3152|2019-09-27|yekongxiaogang|Merge pull request #86 from shenzhi-git/master
+ae1bd00595a00d428e014f05819b96873cd6710b|2019-09-27|shenzhi|<fix> : update
+e0964decb1610bc1bebb2a14f22afb6b2cff9cc2|2019-09-27|xiaoyaolanyun|<fix> : 修改MacOS template
+cf6f2d79c7a879950334e63babcc086abc502627|2019-09-21|CBlueCloud|Merge pull request #85 from OriginQ/develop
+49e823721334ec9ea9965d0d4547a136d67c93fc|2019-09-21|369038080|<feat>:pyqpanda添加shor、chemiq、gradient、NoGradient
+cfac44006148a61f8cc2bdf4548a1e0d7126dafc|2019-09-17|CBlueCloud|Merge pull request #84 from OriginQ/develop
+a1d9669dd8ea6b2a664052b014843ee85d4853c0|2019-09-17|xiaoyaolanyun|<fix> : 修改默认安装路径
+5b02e5a641b3993dc916daea2991696c24dbd612|2019-09-17|CBlueCloud|Merge pull request #83 from OriginQ/develop
+137273f54630af500daa8d8130d4b064f2cf4574|2019-09-17|xiaoyaolanyun|去掉中文注释
+0cb1990ac0c65df5ff003f2d99f2db0f3493ab93|2019-09-17|CBlueCloud|Merge pull request #82 from OriginQ/develop
+3c19a13e77d352d64762a1cd89d7ab8e5fdf21c0|2019-09-17|369038080|合并
+ab9137b64a6498de7695671a093dd40e8a7e4ed9|2019-09-17|369038080|<fix>:修复GraphMatch
+836992119bda9a2414d98ef0f95e003f5fb65d17|2019-09-16|CBlueCloud|Merge pull request #81 from OriginQ/develop
+14190343cc23fd5792f09a7d4cfe819cfdfbc86e|2019-09-16|CBlueCloud|Update QProgStored.h
+f63e2e07e253ccaabde616e69607ba8256cb1c5f|2019-09-16|CBlueCloud|Merge pull request #80 from OriginQ/develop
+4367c953fd218ced2f3304b9df8ec8a6282e093a|2019-09-16|CBlueCloud|Merge pull request #79 from OriginQ/develop
+e1be911a38b485122bb47b68d66227608bb3aaad|2019-09-16|369038080|修改MANIFEST
+b93cc6aad5552effdfc1014b269daf07cba56ec2|2019-09-16|369038080|<fix>：更新获取量子程序时钟周期算法 <fix>：修改mingw环境下编译错误 <feat>:量子程序序列化反序列化支持Qif QWhile
+1174375a3d3a9ebeeeaf317ce2242a7f3762e1ab|2019-09-10|369038080|添加图片
+d4bb8d87610b56a98228934b0e99895e64397d78|2019-09-10|CBlueCloud|Merge pull request #78 from OriginQ/develop
+323f349511e40e8f077b2310ad7b117fac0d393d|2019-09-10|CBlueCloud|Merge branch 'master' into develop
+d44b3f71253ab5bff0ee26757e7e009bf94f180b|2019-09-10|369038080|更新版本号
+caea4487818fed6da0cc999ce7e814e40164f937|2019-09-10|369038080|<feat>:获取连续逻辑门的矩阵 <feat>:子线路替换 <feat>:OriginIR转换功能 <feat>:判断逻辑门是否符合拓扑结构 <feat>:判断两个逻辑门是否可交换位置 <feat>:判断逻辑门是否是元数据基本类型 <feat>:添加遍历框架 <feat>:QNode类型深拷贝功能 <feat>:添加chemiQ <refactor>:更新全振幅和部分振幅虚拟机框架
+cdc8d466c375b94728b914a72dc4a984891bf975|2019-09-09|CBlueCloud|Update README.md
+6886a9ef3b5b624a68ff098db7ffa9d14f228d66|2019-09-09|CBlueCloud|Merge pull request #77 from shenzhi-git/master
+b05fe2fa36fa9f7bbe2e9d9c46efcf01c88fef8d|2019-09-09|wangjing|<fix> : 关闭GPU的使用
+602f34f96b236b55e46ffec6b93672bd8f73de14|2019-09-09|CBlueCloud|Merge pull request #76 from shenzhi-git/master
+90352b34b4a135125ba46100762f87d2dd6fa83f|2019-09-09|wangjing|<fix> : 添加不含有libcurl时的编译方式
+5a66a44ba284928dd212f10dd74f09df2434e2a7|2019-09-09|wangjing|<fix> : 更新QPanda的g++编译的使用方式
+fd69080fcee041de2aa7ab04204a74cc628e0f61|2019-09-08|CBlueCloud|Create README.md
+64af292c499e5064e71ca257812b10ab1b4f0685|2019-09-07|doumenghan|添加Template内容
+882441cbc0fa45fb35fcb0bc0c7890275fc614cf|2019-08-21|xiaoyaolanyun|添加Template文件夹
+487250782cf5364304df33167b40989eb1a6fdc5|2019-08-05|xiaoyaolanyun|修改版本号
+6ab88ffa210fac65931e514a85e7dec2b8143ee1|2019-08-05|CBlueCloud|Merge pull request #74 from OriginQ/develop
+396cf8cd4e4e544aa0fe77d720983526a18d6e43|2019-08-05|xiaoyaolanyun|merge
+975363a3f723d6544f0a107b0d2a37f84f366a77|2019-08-05|xiaoyaolanyun|1、接口 QProgToBinary名改变为qProgToBinary 2、接口getQProgClockCycle的参数顺序改变(QuantumMachine *qm, QProg &prog)->(QProg &prog, QuantumMachine *qm) 3、QPanda和pyqpanda 添加apply_Gate 接口； 4、更新DJ算法和Grove算法； 5、更新量子程序遍历框架； 6、添加部分振幅取任意振幅子集的接口 7、pyqpanda 添加设置setConfig的接口 8、pyqpanda QVec添加append 、pop接口 9、pyqpanda 修改Measure_all接口名为measure_all 10、pyqpanda 修改Measure接口名为measure
+1848936a0a1f0b5eb8bc316e012cf2ddb556bae1|2019-07-29|CBlueCloud|Merge pull request #72 from ArrowYL/develop
+82739219a26d40664d97af0e885744be29b6e291|2019-07-19|ArrowYL|Update PartialAmplitudeQVM.h
+47a40930e830c80069d60af1226e3fbb4d843beb|2019-07-19|ArrowYL|Update PartialAmplitudeQVM.cpp
+3fa11b2c403afa08a1566835fcde23bfb45afa28|2019-07-18|yekongxiaogang|Update azure-pipelines.yml for Azure Pipelines
+6ee6522289020c9fc24598556910dc191ef4d1f2|2019-07-18|yekongxiaogang|Update README.md
+a488d49673417576efbf58369a3396d7ff851afc|2019-07-18|yekongxiaogang|Update README.md
+764008b0492534df06666daef4c928e010b36340|2019-07-18|yekongxiaogang|Update README.md
+c2df466e9398045c7c8f8b9700985fb649dc594f|2019-07-18|yekongxiaogang|Update README.md
+42814ec550bb7b5f0e3bdf79891def6767e2dc51|2019-07-18|yekongxiaogang|Update README.md
+52fa3ca7e72e53c466913833f684c52066c97d8c|2019-07-18|yekongxiaogang|Update README.md
+d1f8f286c7b931c082a9583a84d136290b41b26e|2019-07-18|yekongxiaogang|Update README.md
+240b8c23e2c80be9d8403dc0443846f2b46ec804|2019-07-18|yekongxiaogang|Update README.md
+c9eafebe4c5f8c724c82e75394fc8dfc75b52bc3|2019-07-18|yekongxiaogang|Set up CI with Azure Pipelines
+ba9f02b004af11c03dc45a2410236249b80318ec|2019-07-15|xiaoyaolanyun|<fix>：更新Readme文档
+3c363f4232baa17c028273fea1c61d6c1b17760b|2019-07-08|CBlueCloud|Merge pull request #69 from Agony5757/develop
+416b83d1b3b55d25bf29c6ae93bbb3402d774e67|2019-07-04|Agony|Remove test file.
+0c1d09e77f8936aae5377caaa1b880c78573f5d1|2019-07-04|Agony|Remove files for test.
+7631e50889bf7e319837d579b0cf82229520b819|2019-07-04|Agony|Fix code format.
+37ec976e91335bc238971390a0a9f523cf586f98|2019-06-25|CBlueCloud|Merge pull request #68 from Agony5757/develop
+adc8d83e77472073392d2c52b95fe8da9856ee5d|2019-06-25|Agony|Fix Oracle class to template alias(CXX11)
+d0832ba20f972f77f5fc2269d86c3707c547ff59|2019-06-25|Agony|1. Fix DJ algorithm and Grover's algorithm 2. Fix init and initQuantumMachine to correct design. 3. Fix QProgToQRunes. Add U4 support. 4. Fix QVec
+6a885f1c43f5a42d56b9cb7f80874ebc088c5c50|2019-06-20|CBlueCloud|Merge pull request #63 from OriginQ/develop
+5e4cb53577acc07d5c112cc650bcaac0d32ab262|2019-06-20|xiaoyaolanyun|更新版本号
+b59bf48c8fedc47a17428675eda6d3ccaf42bf4a|2019-06-20|xiaoyaolanyun|<refactor>:QStat精度兼容double和floatle类型； <refactor>:单振幅和部分振幅虚拟机支持更多的量子比特运行； <refactor>:Qif和QWhile接口重构； <refactor>:更新DJ算法
+1c8adc23f007929250c72e42700c7b4907d85f11|2019-05-27|CBlueCloud|Merge pull request #61 from OriginQ/develop
+8c25bc510f3d9bd79e98c1c8ae7ab770fb2fc282|2019-05-27|CBlueCloud|Merge branch 'master' into develop
+6f6328367a63ad44ba0225b095395373b24199dc|2019-05-27|xiaoyaolanyun|<fix>: QCloudMachine的编译问题
+1eeb3fede1d9a31f0ad7b2a70ab5effc636ed2f6|2019-05-27|xiaoyaolanyun|<fix>:QCloudMachine的部分bug
+570568edc8ccba44ce27e5c44ab184a049ab31da|2019-05-27|xiaoyaolanyun|<fix>:修改QCloudMachine的部分问题
+2c9201dd48c1e4dcb41fb9fb239c21e8394c6d3f|2019-05-27|CBlueCloud|Merge pull request #60 from OriginQ/develop
+9629fdc850010a52f25270eabe2494a9fe61ac5e|2019-05-27|xiaoyaolanyun|<feat>:添加量子程序深度拷贝功能； <fix>:Var部分bug
+4c57d6d4ffb400041fd6863905b9412e772f80bc|2019-05-20|CBlueCloud|Update README.md
+1b75c63f33c007701697492b517d20f934193af0|2019-05-13|CBlueCloud|Merge pull request #59 from OriginQ/develop
+53c26a060e863e0659350e63d151192ea6319abf|2019-05-13|xiaoyaolanyun|<fix>：修改ClassicalProgram的bug
+e7380cfc5941a044a6b9f3935fa5c0b085c5b0c7|2019-05-08|xiaoyaolanyun|<fix>:调整Readme格式
+86718f5f3dc7cd0eed16a3459b02b875deebb3c3|2019-05-08|xiaoyaolanyun|Merge branch 'master' of https://github.com/OriginQ/QPanda-2
+d9171e17943aad9316e8941f1a0dc3f4ab879720|2019-05-08|xiaoyaolanyun|<doc>:在Readme中添加pyQPanda的使用文档地址
+8322f13477a4b132ef78a8b5954857a26adc77e6|2019-05-08|CBlueCloud|Merge pull request #58 from OriginQ/develop
+942c459b50ffe03d9270e6ad8b74ea1fde5ae6f1|2019-05-08|xiaoyaolanyun|<fix>:修复mac 编译不通过的问题
+f3d70885126c0a59579d26890a4a0c89b0f6524b|2019-05-07|xiaoyaolanyun|<feat>:pyQPanda 的QIfProg和QWhileProg添加构造函数
+c83ce760fc8f12906e1ed90df2428e4b8c84da54|2019-05-07|CBlueCloud|Merge pull request #57 from OriginQ/develop
+75cd0e8ad650b2c866acde566e17a3adfea5d427|2019-05-07|xiaoyaolanyun|<fix>:pyqpanda的NoiseQVM initQVM函数使用出错的问题
+51fe06b1c7b008aeb7e32836fde6c9ef828cad86|2019-05-07|CBlueCloud|Merge pull request #56 from OriginQ/develop
+3aace3e6ef3bb135d432d8ff5daaf8e0a951a45e|2019-05-07|xiaoyaolanyun|update version
+2aa093e407c6c36b06c02145944dcd0ae36d5d99|2019-05-07|CBlueCloud|Merge pull request #55 from OriginQ/develop
+b68c4c672f7aee93ae1548218caccbc08d0fceb7|2019-05-07|xiaoyaolanyun|<fix>:修复DecomposeUnitarySingleQGateIntoMetadataSingleQGate的bug
+6b019ae51b3f4df3afe9cd592bc3a4c0e85e65af|2019-05-07|CBlueCloud|Merge pull request #54 from OriginQ/develop
+5488f5740a688ef55b0a8191ad6d8d29e7107262|2019-05-07|xiaoyaolanyun|<fix>:修复warning和QCloudMachine编译不通过的问题
+85ca9407f6b6930389ec25b50fe1657a63942e5d|2019-05-07|xiaoyaolanyun|Merge branch 'master' into develop
+b74278843151459e69b02df89f035febe300f497|2019-05-06|CBlueCloud|Merge pull request #53 from itachixc/master
+a32cddf3ede4308c770dcb949026b63898cd4579|2019-05-05|Xue Cheng|add qop_real_chip and qop_pmeasure_real_chip
+956fa8d46710a234c567215a54a75afa64293434|2019-05-05|CBlueCloud|Merge pull request #52 from Agony5757/develop
+8043366fc437cf281862ce24bb241395f86658df|2019-05-05|CBlueCloud|Merge pull request #51 from Agony5757/develop
+f3174a8f10fc84416c45dce39a1f15a3100f5cee|2019-05-03|Agony|Change to a configurable random number generator in QVM. Add IdealQVM as the base class of CPUQVM, GPUQVM and CPUSingleThreadQVM
+3dd373bd13cd98315ba6ad183f9bf3a18da62e59|2019-05-02|Agony|Polish the code style.
+6730d2318bf8f6d2ebf92bd48acead6f07ed2071|2019-05-02|Agony|Polish the code. Move the noise implementation to private domain.
+a6b56722bca556095963d250aa8d769b80cfc101|2019-05-02|Agony|1. Correctly implement the singleton of NosieModeMap class. 2. Remove the unnecessary OriginQuantumMachine.cpp. It is empty.
+9fca8a224938241fb511e7bd2d9d31a82d67ad91|2019-05-02|Agony|Polish the code style.
+80457884307e2ee6176df74ecb2a4005b96fadcb|2019-05-02|Agony|Remove unnecesssary comments.
+da5aa367ad569c4044102e762ad68bb7a1c172db|2019-05-02|Agony|Polish the GPUImplQPU.h
+9c539b401a376981d12a1d316ec8bc37b1a08dc1|2019-05-02|Agony|Slightly polish the code.
+8cd9a6e79df03393aa74eeaa7e5d7debb889b1fd|2019-05-02|Agony|Polish the code. Fix missing inline of function definition in headers.
+9d6a05fa5a34fc125a337915ca198a2b2d5e3c94|2019-05-02|Agony|Fix a spelling. Add RandomEngine to the VirtualQuantumProcessor. It will be used as a standard rng in the future.
+6439efdc226318d2ac9e0a1cc6403cd207e56854|2019-05-02|CBlueCloud|Merge pull request #50 from Agony5757/develop
+e95943aa0547f48227671514c1c82c4fdf98dcab|2019-05-02|Agony|Fix 2 bugs which cause build failing. 1. USE_CURL macro does not correctly wrap the header and source file. 2. Remove a wrapper function in pyQPanda which no longer exists.
+23f94bc2d2165d66d3b2e50bbb1c586f679d885a|2019-04-28|CBlueCloud|Update README.md
+b373d89fc0d5c2040d95f79e77cd923bac128e79|2019-04-28|CBlueCloud|Merge pull request #47 from OriginQ/develop
+69d07e8f8631a2770eed8954d61e3bdd1c446534|2019-04-28|xiaoyaolanyun|<feat>(QuantumMachine):为QCloudMachine添加getResult接口；
+535f50eda0990b9672864eab501c83771421591b|2019-04-26|CBlueCloud|Merge pull request #46 from OriginQ/develop
+934993f5c031e97c99c64d3a9c05c5870fcbc043|2019-04-26|CBlueCloud|Update .travis.yml
+5ff0b8f89db16de974948033fef2d2266b14c81a|2019-04-26|xiaoyaolanyun|<refactor>:重构量子线路转换算法
+580f5d1125f22aeec933fee877d5790b2c6bd788|2019-04-23|CBlueCloud|Update .travis.yml
+aa4d5f2a007089b5acb2903436907d178cee0a81|2019-04-23|CBlueCloud|Update .travis.yml
+0a5ba03da9e3ca7df7477579034a37d4ee9949d8|2019-04-23|yekongxiaogang|Update .travis.yml
+270713fa69cff4f99251d9c57d21cc49c5d5b0fa|2019-04-23|yekongxiaogang|Update .travis.yml
+7d756057ef6831c6136b589be701008be4becc7b|2019-04-18|xiaoyaolanyun|<doc>:更新Readme
+0b3cf9359a9b37c82dc474d0c11d92bf4821c0b3|2019-04-18|CBlueCloud|Merge pull request #44 from OriginQ/develop
+1f33ccd1e84ebb2420871ab95e9322751b1df12c|2019-04-18|xiaoyaolanyun|<feat>:添加单振幅和部分振幅虚拟机
+51a8ad5acc46fa1b4d539569cc65eba51b0539f5|2019-04-18|xiaoyaolanyun|update
+68b3e5f645d33446fb3b73d2b101fe0405414a4f|2019-04-08|xiaoyaolanyun|<fix>:修改OriginCollection 在mac编译不通过的问题
+ed891386eefc09c25df1c9705a7044dc2927003e|2019-03-29|xiaoyaolanyun|feat:添加NoiseMachine功能 feat：添加单振幅虚拟机和部分振幅虚拟机 refactor：把所有的头文件放到include文件夹下
+1da858e9e4760d0689cba35416af88bba2f471d7|2019-03-14|xiaoyaolanyun|fix:添加getQState功能
+b5ed7e64828002e96138dedb5cf452021fac4261|2019-03-06|xiaoyaolanyun|refactor(QuantumMachine)：重构QuantumMachine
+76e190ff4cc86d4ec217b1d66e8c5f651f05af56|2019-02-28|xiaoyaolanyun|feat:add NoiseMachine
+eede18823730ba38e6eaff7297085ad5236df7f1|2019-02-25|xiaoyaolanyun|refactor：重构QuantumMachine模块，修改头文件引用方式
+677867a318424560ea21ec4eccbbfd4141ecb8fd|2019-02-25|xiaoyaolanyun|docs:修改README.md信息
+d6b4e5dfd1f78462dfe773a08b1bdbee4a146e23|2019-02-25|xiaoyaolanyun|docs：修改README(CN).md README.md的文档内容
+0a62eabb954141223b93d0d2f311c1185f55658d|2019-02-22|xiaoyaolanyun|feat:添加问题模板
+b086aa02b2d02ff3cdad2ef2e3d6e0f2340a9ae0|2019-02-22|CBlueCloud|Update README.md
+6a2fdef27c69a78189d6ea3a20745d32f4d144fc|2019-02-20|CBlueCloud|update readthedocs index.rst
+04dc1114ee46bcfa2f69417f71507c6c050c006f|2019-02-19|CBlueCloud|Merge pull request #34 from shushengqi/master
+2461afb876ddf153cb5904312c800df335444c49|2019-02-19|wangjing|文档中添加一些接口的介绍
+5497606b2c1e35f3c27b79b53edc47fa22830734|2019-02-19|CBlueCloud|Merge pull request #33 from shushengqi/master
+1b464654eb93c177a145ad3ae7a3918cfc652edf|2019-02-18|wangjing|修改 read the docs文档结构和目录
+895b054ce53192a1e0b7b4d1629f0f12483946a0|2019-02-14|CBlueCloud|Merge pull request #32 from shushengqi/master
+13264f00802ae151fec97e37fd10849780e1ef02|2019-02-14|wangjing|QCircuit update
+f357a2fb876663494c41fd51c48f2e844544102c|2019-02-14|CBlueCloud|Merge pull request #31 from shushengqi/master
+17600ed0179dbd4e12334cabc4ba23fc66f2097a|2019-02-14|wangjing|update
+eacf5f64ecc40387bfd393a4644b5f760523f6ea|2019-02-11|CBlueCloud|Merge pull request #30 from shushengqi/master
+143d714e969af8fb3589c426134851822286f2a3|2019-02-01|wangjing|update
+2a852ebfe672bfd834fb720876b0e0f469e62e11|2019-01-31|CBlueCloud|Merge pull request #29 from shushengqi/master
+9a52cdbba7d4ab8eff677f466d9cf51102ea6fd6|2019-01-31|wangjing|update
+7b8df8e58ed2eb51869fa5f36ea49a9568cf48b1|2019-01-31|wangjing|imags
+1c7ba946da3258c8852284b741214655b7e9d8a1|2019-01-31|CBlueCloud|Update README(CN).md
+c3b9fcd04bbb87678f77f24ef9c7f1b54a4400fa|2019-01-30|xiaoyaolanyun|Merge branch 'master' of https://github.com/OriginQ/QPanda-2
+6e5c8c762669ad8081a651abc1464c5bbcf1d144|2019-01-30|xiaoyaolanyun|add readthedoc
+7df47e1ecbab3d6c88b3bf97243fb45061506fa1|2019-01-30|CBlueCloud|Update README(CN).md
+03607ebc840fc309606d63301ea18ad0ddc5ba5c|2019-01-29|CBlueCloud|Update README(CN).md
+daadd11d78e91ee7b36c5ed3fcf7e9536adad897|2019-01-29|CBlueCloud|Update README(CN).md
+13e1fc649d39262b34ff0b9aba6f601e61fb00e2|2019-01-23|369038080|update
+fc488f2be4e851df68732555f5d07c2a017aa501|2019-01-23|369038080|update QGate setControl Control function
+94a83a2fc44c9e87c8f44924db0f030586b6c3d8|2019-01-21|369038080|add Documentation
+4dda627bd08778cb696669aa72fc9f40172ac05c|2019-01-21|369038080|update and add
+eba0f4e0152fc16c6c73beb42950e49b1d6fbc6e|2019-01-21|yekongxiaogang|Update README.md
+48ac99f451df1d6ded73172d98b514490df806be|2019-01-21|CBlueCloud|Update README.md
+80585e5cde30a4132771136c4210e557cb185aef|2018-12-06|CBlueCloud|Merge pull request #26 from benyuanwlw/master
+e46a59a6d1285d58d648a46f1e3ba831365cc0b7|2018-11-23|benyuanwlw|Update 4.png
+e5907f9781e16cc6b5ad0b1043e118eebe46fa88|2018-11-23|CBlueCloud|Merge pull request #25 from benyuanwlw/master
+3aa250f57c741a54774f91d9f77c4ba07ddaa104|2018-11-23|benyuanwlw|change the png
+9fb5f1e7ee30992ba55b69e973702052f1d3250a|2018-11-23|benyuanwlw|Merge branch 'master' of https://github.com/benyuanwlw/QPanda-2.0
+7a32aca1e4ab36d9fd4a5df6f9f99a14b378a317|2018-11-23|benyuanwlw|修改了图片地址
+8a451446b2459559df140c3ec9c3eea6c95eae31|2018-11-23|管理员|Merge branch 'master' of https://github.com/OriginQ/QPanda-2.0
+3be034a9d6994efce61cdfbcd0bd900290a41188|2018-11-23|管理员|更新
+6accb8f3f1acdfcc18f0bc424ad51c939d0e95dd|2018-11-23|CBlueCloud|Merge pull request #24 from benyuanwlw/master
+d3f51f1b09092abda9ed4c4d20a3596e2f6b15a7|2018-11-23|CBlueCloud|Merge branch 'master' into master
+e5f614a24b0f8edad427f5c19fb2db91c57d2964|2018-11-23|benyuanwlw|new
+0d16bad16ae83172f53795580cb4a485bcbc57da|2018-11-23|benyuanwlw|修改了2.0为2
+869a5fbe9b361e0028a4a6a50b5d384037d85cd5|2018-11-23|benyuanwlw|pic
+d6e4c4b93a91ee25e128c22d091781318ca9938e|2018-11-23|benyuanwlw|Update README.md
+6d84378f678b0bb6acb702228cd8228790a27740|2018-11-23|benyuanwlw|Update README.md
+dc0036fd6d52430e9cf85b9cfc549dea4348cd90|2018-11-23|benyuanwlw|pic
+a63cf9d82a9112afd263433250590c3be6f2dda4|2018-11-23|benyuanwlw|Update README.md
+490c5cc60fcfa88b7a6d14013c1640d68d832a37|2018-11-23|benyuanwlw|pic
+40da2bae682f6c1ece1d56daff568ed82a27f03e|2018-11-23|benyuanwlw|x
+5ded6e4c9518f215acc0c4ba329294cf5fa1fd9e|2018-11-23|benyuanwlw|x
+eaf57aa88c68633dd4a351cfdab77307355f036f|2018-11-23|benyuanwlw|更换了图片
+bf4955eaa693d84a6c6e73fec06239f242b56ac2|2018-11-14|369038080|Merge branch 'master' of https://github.com/OriginQ/QPanda-2.0
+7302923dcd80bb099b5b6f80afe43156d6afea0a|2018-11-14|369038080|update
+70c7b124c1d3755bac4e4be0790d8cc534ec6187|2018-11-09|CBlueCloud|Merge pull request #22 from benyuanwlw/master
+344ceb66de9f3277c0758ae53ef58004117b1288|2018-11-09|benyuanwlw|w
+0f26e80e9d66e02c866df7f18bbfe3d68d252a2e|2018-11-09|CBlueCloud|Merge pull request #21 from benyuanwlw/master
+e9beab3ca31a04d915fc649acb08acaa07820650|2018-11-07|benyuanwlw|w
+780e864ca5b6688a26d13145b379586dca978847|2018-11-06|benyuanwlw|w
+1818d21d6d6c0874d4398e7dfac93c6ff1d7091a|2018-11-01|benyuanwlw|w
+19318d190746c47df5913dbd40f3451c470e2a6a|2018-11-01|CBlueCloud|Update 3.Installation.md
+24acbab56748941737e68fa9fafb138eb518f082|2018-10-30|369038080|update
+3aeb588212b198b3b22cfcb06aa3891e02501b72|2018-10-30|369038080|update GPU
+d9e3d560eab7816039332408314fd46f6f3706aa|2018-10-30|369038080|update GPU
+8d9e14d7b5b3f4aa8e7b3aec5721672fef31f3a8|2018-10-18|CBlueCloud|Update CMakeLists.txt
+7c5177a52588bfa8e808ef4bb6aea2223f351aa3|2018-10-18|369038080|Merge branch 'master' of https://github.com/OriginQ/QPanda-2.0
+5ff8ec853f2f77f7276e414531d601f99a4d7c38|2018-10-18|369038080|update
+cf453eb4e94ed3c8592a4424aa0ed7ab29fb4d23|2018-10-18|CBlueCloud|Update .travis.yml
+0b998505a5aecedda2fe6a507b8389ca50a8e9f7|2018-10-18|Agony|Update .travis.yml
+9c331bd1969a563c6cb683a6803951785c5fb1f9|2018-10-18|Agony|Update .travis.yml
+f6a4def8935de9dbd50e0b79993ac2564ba9716a|2018-10-18|Agony|Update .travis.yml
+7bc0388a8b69fed851a37b2fc50c7a26486b3952|2018-10-18|CBlueCloud|Merge pull request #20 from xiaoyaolanyun/master
+a5e71fe15b8205b05d832f5f338b4c40e41682b4|2018-10-18|369038080|add build.sh
+d4935a049fa033d4d2af45d3becc1b102de031b1|2018-10-18|CBlueCloud|Merge pull request #19 from xiaoyaolanyun/master
+b83d246c7990a98238672b9a758c35b8d84a570e|2018-10-18|369038080|delete
+7ea9391755e9d9168028488f5fc8bda8631d11b5|2018-10-18|369038080|update
+c2e318b177b013f3eedb0dfb14fd8956a177a5ec|2018-10-18|CBlueCloud|Update build.sh
+30dc1ad2b9e1a0d68a57a1ccc3c56d35a4f6ae99|2018-10-18|CBlueCloud|Update build.sh
+c1e285c6c2163b4f410bc1b484019a8209c0f508|2018-10-18|369038080|update
+75e68c2f8fb6bc68f1e15253160b960091cfcbf7|2018-10-17|369038080|add build.sh
+a8ba7fb89680fdd2648e686dfc9b14798b32f4dd|2018-10-17|369038080|delete build.sh
+ab5ca29781995627ccb5251f95333c485b3363c4|2018-10-17|369038080|delete build.sh
+e83127a86167881b66aaca1fb89aba6753cb0fe6|2018-10-17|CBlueCloud|Merge pull request #18 from xiaoyaolanyun/master
+f60bd119c8e0a1a4ea53bea32642daa9f79f3f50|2018-10-17|369038080|update
+25976b0f61b568ebad4a9b87b817f0d5332b3e49|2018-10-17|CBlueCloud|Update README.md
+402918a4b6a9e52d55624439ff78647a80eef231|2018-10-17|369038080|update CMake
+7908a872c705649c6d2658405232cb3d2253bf85|2018-09-30|CBlueCloud|Merge pull request #17 from benyuanwlw/master
+114e4c1c09f0e625dcb8d18ac4aeb74054212ab9|2018-09-29|benyuanwlw|plus
+7c2c593c51131f3dd0ec733bf0cc6931a0297a5f|2018-09-29|benyuanwlw|更新了安装方法
+c7dd97227f25faba2b647ea6a0bce7250b02c704|2018-09-28|CBlueCloud|Merge pull request #16 from benyuanwlw/master
+d4422d9bb04571a3a0b30ced468c971cb462604a|2018-09-27|369038080|update
+9e62d37c329605a3f7ba5c23d8778ae8ca0c6a6a|2018-09-27|369038080|update
+ac020715987e76cc7af903d5beb95e9b17ddc18b|2018-09-27|369038080|更新构建方式，添加新的功能
+43d86eacbd050d1cf0e5c3d4a88f8bf05ce5dfa0|2018-09-25|Agony|Update README.md
+8e14c22cf722cd92d460976da409468de04fdbdd|2018-09-03|benyuanwlw|w
+7e8dfad3213cced7c963c80781fbf9a797bfe847|2018-09-03|benyuanwlw|w
+e9e4b5ea4ccb221f0b5b7085190ec472bada01ed|2018-09-03|benyuanwlw|w
+157526141a951c200d4792ce3263ea0260d85743|2018-09-03|benyuanwlw|w
+ecda722a0adf9f68ca5a49381d515be93c1778c6|2018-09-03|benyuanwlw|w
+c83958813f9ff9f2ad85f756a56f6d53c3ad1850|2018-09-03|benyuanwlw|w
+e244982af3ba466494e5d74b07a0a2f64dd66853|2018-09-03|benyuanwlw|g
+f80458e64a89594eb8f3814969a632e90fe690fd|2018-09-03|benyuanwlw|Qpanda ed
+a449431b336cfa2750398947c370e431e6343ae7|2018-08-30|CBlueCloud|Merge pull request #15 from benyuanwlw/master
+725de9eeff1291a02c0d97ffd1cb96485c197278|2018-08-17|CBlueCloud|Update 4.Hello_QPanda.md
+f29df892bbe847bc2bb05b0a08a49e89d72fd4d0|2018-08-17|CBlueCloud|Update 5.Developer_Documentation.md
+55ae1fa84b1de4b8cd32319c1fb659a6a9a392af|2018-07-30|benyuanwlw|修改错别字
+c377888c797aa0cd495c082cc970fbeb72402fb9|2018-07-26|benyuanwlw|w
+c27b0e4e596b52943ac2960321dcde620dc2bf71|2018-07-26|benyuanwlw|修改错误
+de96d0563eb4d56d2acfaa4ac016042b4ba52ba1|2018-07-26|benyuanwlw|去掉为什么
+9f164821b3bcc6fb33083a1dbf48ce8416d96cc3|2018-07-26|benyuanwlw|2018.7.26
+03b1e3a34f27c47e71a8f7a8eb2e80a4e95e29bc|2018-07-26|benyuanwlw|ask
+8a4d866fd1ea47061a5ba780dff2d41a30da223d|2018-07-25|benyuanwlw|Question
+c07db0c5872a3ba73321733ff0d5a3930b955363|2018-07-24|CBlueCloud|Merge pull request #13 from benyuanwlw/master
+662de706877ef7fbfdc8249ca314aff6df8a91bf|2018-07-24|CBlueCloud|Merge pull request #14 from xiaoyaolanyun/master
+d7e0b4fc875c2cf75ee696b3a935608143aab982|2018-07-24|369038080|update
+02f582e6e1f2e2458bf752b5b35104e6074c6070|2018-07-24|benyuanwlw|制备纠缠态出错位
+c1423b059305b3923cbe9ef3091a3ba76eb8f2f5|2018-07-24|benyuanwlw|new content
+e1a3af7f76598825a385670235a96a11259f79e6|2018-07-24|benyuanwlw|api upload
+5b3ea74bbb54642ae8ae031557abbdafbcfdbfd7|2018-07-24|benyuanwlw|new
+e27781a9c3de9096b45320d3e99b575727605bcc|2018-07-24|benyuanwlw|Translation
+1c0967aed602502037f7dce8095e828575dd2efd|2018-07-24|benyuanwlw|修改小错误
+5431a7665356fbbce5b8df539fd9be6864a7f9a9|2018-07-24|benyuanwlw|更新算法
+d65d6a951da9857b1c516d481ee4f94dc1fb81ec|2018-07-24|benyuanwlw|调整间距
+a617ed2b9575d113e154ef267852708c1d664106|2018-07-24|benyuanwlw|1
+fb1134d788d929e5659f77a5c43e354ca0e30da2|2018-07-24|benyuanwlw|全部公式转换为图片上传
+75961f7682b7d1f2b2a2480f3337713db20abb42|2018-07-24|benyuanwlw|公式更新
+8261c423b6f7f332b56f516d4e4db8d36d4efb5a|2018-07-20|benyuanwlw|1
+5b8089ad87965dc68889a8ab3162a35748513026|2018-07-20|benyuanwlw| trsanlation
+e8ed1d933e2af0c416cde24a9842f65fc1e00f93|2018-07-19|benyuanwlw|W
+9b984ecda81f46c1b7bbc5afbd227dd3a686c58a|2018-07-19|benyuanwlw|w
+5c10fe11eb615c2feebb5d1bbc1bebab51efa835|2018-07-19|benyuanwlw|w
+5a34dd1bee5acb4baf7caa3dad0eab96a9b7656a|2018-07-19|CBlueCloud|Merge pull request #12 from benyuanwlw/master
+5406017c7a564c900744cc1e2a2941f8867eb3e1|2018-07-19|benyuanwlw|the
+c4bb105d2ef4f1631251b2ce3e3c04c11de420eb|2018-07-18|benyuanwlw|bianji
+60b39a32f3af446033fafd4b32f5751ab10101b6|2018-07-18|benyuanwlw|Xue Cheng edit
+d04ae6090d43a0bd21c1ffcd681e956c940eacc1|2018-07-18|benyuanwlw|不定冠词
+0301eba0fee1627f3b8fae04483841c502bf725b|2018-07-18|benyuanwlw|修改表达
+5f9925712a3dd80e02522defe66330305d598037|2018-07-18|benyuanwlw|修改了Readme中文部分的介绍。
+f91bea222d09ef021ed012d218eb05ecfa76a4ac|2018-07-17|benyuanwlw|错误修改
+4355260293ad8f6399f3161efe7f4b28a264253f|2018-07-17|CBlueCloud|Merge pull request #11 from xiaoyaolanyun/master
+9e39790b2c10ba9e15461900ca328a4448478317|2018-07-17|369038080|update
+6760590d9b1b70bcb2020b3e63ecce35b70d87f0|2018-07-17|369038080|update
+a3c284b27ac485826eb937a39ca760e0d5d665db|2018-07-17|benyuanwlw|合并段落
+3bae49c753db52a650937d4b1076bdc141cedc4a|2018-07-17|benyuanwlw|编辑，新增了QPanda2.0说明内容
+3c7db255150fd5e56ab909f4b0ebd8e43476e2ad|2018-07-17|369038080|update
+4bbb1084de9e4353cfe0fca03da608fa852e7dd4|2018-07-17|benyuanwlw|更新了图片
+b5b47a2335625043bb360e4b4f497a91c42e86b0|2018-07-17|CBlueCloud|Merge pull request #10 from benyuanwlw/master
+7e94500889ac00ef436461c5eb46a60d41981099|2018-07-17|benyuanwlw|修改了图片地址，全部使用图床。
+7fe4e7fc24a0a153bf84d19fbd1f23f5fd7fb498|2018-07-17|xiaoyaolanyun|rm assets
+e1d824a34483a50e8def77acab98f3f3ca913473|2018-07-17|benyuanwlw|修改了Logo 添加了2.0的标记
+d174705c8175af4c3c9654291709d6e615061cfd|2018-07-17|CBlueCloud|Update Makefile
+c7d02e9908d0a353219aeed85870c1f3cc1e2634|2018-07-17|CBlueCloud|Create Makefile
+c5300f6452ccd745742b82e36678e60733c347e3|2018-07-17|CBlueCloud|Merge pull request #9 from benyuanwlw/master
+28f6d3ea88b50ffb0afde9027313afd043d33644|2018-07-17|benyuanwlw|w
+d348d4a5cec6563cf2f133ac37abb4fa1c77de55|2018-07-17|benyuanwlw|w
+0130bc87250d82c07cd8ceb0aba085a1ddc60aac|2018-07-17|benyuanwlw|w
+2f2b37d14938d7d706222c4876b717cb24eff6f1|2018-07-16|CBlueCloud|Merge pull request #8 from xiaoyaolanyun/master
+4f081f068ca64b45b04a44be6c47f286ad7727f5|2018-07-16|CBlueCloud|Merge branch 'master' into master
+364770e4fdb29e2bacb0fb8d988a8d3860769eee|2018-07-16|369038080|update
+ec26975560477e8b0d97ab31cb7f40c746098201|2018-07-16|369038080|update
+8ac4ac30cc5c4c99526fcfc4349796cf9765d95b|2018-07-16|369038080|更新
+878b442083b6668dfd62ea3e98dd34ec164c5991|2018-07-16|369038080|update
+2beafe3e59e402a0f741568a2c43bb553e901839|2018-07-05|369038080|udpdate
+cd32ae52f034fd35f047c7eccd612406989b2366|2018-07-05|369038080|update
+f273ac0a38c2714e17f2e13ed52bada1066ab5ab|2018-07-05|369038080|update
+7af3c5867713f612295193c591b391d8255cf97b|2018-07-05|369038080|update
+97958bd15c76e34fda240ef015e87cb177e30d4b|2018-07-04|369038080|add namespace QGATE_SPACE
+1c1b555e3919c09d7b81f88d222d9a6ef49e009e|2018-07-04|369038080|add cu u4 create by matrix
+a2fe7d1117ea39bd843ecf9c7603d9dcd73fee5f|2018-07-04|369038080|update
+8952fb196bf00d33ab0093a090e3e910028dca97|2018-07-04|369038080|update QGate
+1b0917a34524e7a36f2f99900b22f5a7f988e009|2018-07-04|369038080|add QGateCompare
+2f8471148cf23844643e2372adef8b36a773d67b|2018-07-04|369038080|update
+dab657e8fd618c0783221508ea15e61c49057cae|2018-07-04|369038080|update release makefile
+adb59c3b08746456b45419909743790ec81e759a|2018-07-04|369038080|update makefile
+d0d30eba9b81598fe6b4f5d3815107ff04e67a74|2018-07-04|369038080|add TraversalAlgorithm
+06be3039fa2500962801c78ee1208e9ced0689fe|2018-07-03|369038080|update
+6e71cdb6af71a5d258506101c05e0ad5646ea55b|2018-07-03|369038080|update
+1563c51654c8c33a1e64a98d2a62253ec34cb667|2018-07-03|369038080|update
+556a9dd8d38e02c4a4a3410b0ec816e67f8c9de1|2018-07-03|369038080|add TraversalDecompositionAlgorithm
+52c6ecfb1b0a40e0ada9d02d2163ac4b4cdba618|2018-07-02|369038080|update
+4a455a315c176f1ab3cd097ec3d9574be715873a|2018-07-02|369038080|update
+ce11916d7f4e0c84cdae625a4a578f1769ed955a|2018-07-02|369038080|update
+16b49ecae3c156ff207633934e81a52a26011778|2018-07-02|369038080|update
+e00057d90093fa9013d6c0802c6ae99b01aaf44a|2018-07-02|369038080|update
+291df6c6c69e793e7374bc4537fb9bea38f31177|2018-07-02|369038080|update
+f0874a668cea3c9a800ffee8452d2a45f47542c8|2018-07-02|369038080|add new Algorithm
+4fd98654605ee6b97f605264bd3deed6671bde0f|2018-07-02|369038080|update x86
+3795683ceb34fdd56ee5674ddc0f48570b67aa3e|2018-06-29|369038080|update
+3a7386614faa645623f06553e87da27f9cd56116|2018-06-29|369038080|updata
+9c1dee822d1721d4aeef5f8d2382821c150a16f3|2018-06-29|369038080|update
+2d95ab495b10b1b00111282fa0197d1bf896d167|2018-06-29|369038080|add configFile function
+8cd9c1a3761c125db2a40927dfbd6ac4c44e065f|2018-06-28|369038080|update
+cbebc109c0c895b4de55b56b1be296a1d06f5288|2018-06-28|369038080|update
+0c4bd550f96a661535c2b6e2305ec811ce0d5188|2018-06-28|369038080|update
+3dbcd12d3c124a944f5bc447fc16010f4853ea46|2018-06-28|369038080|add CreateHadamardQCircuit
+aa78b57ed290369d776dbeb96f043af7768bf59e|2018-06-28|369038080|update
+948da86ee368ac7a96bf2ff10d1868361b309793|2018-06-28|369038080|update QCircuit Qprog
+bb25703c0927dd46d71a555f2091ba00c89bdda7|2018-06-28|369038080|update
+c893a79c33dbf12e7981c5ef31de3f3e6400ec96|2018-06-28|369038080|update QCircuit dagger control function add setDagger setControl function
+ee7debc2ab68a5e4342327d32d86206aeb6e6eef|2018-06-28|369038080|add StatisticsQGateCountAlgorithm
+7ab3d19a19e9127bc5db83b589523458aafec006|2018-06-27|369038080|update Makefile
+5cd1f8effe4866a6468f6dfcd8104038cfc2cab1|2018-06-27|369038080|update
+f15fa95d2d4b9c3ca94fbb7f1ae9e49287291212|2018-06-27|369038080|update QGate
+a88b255d0c130dd92fb2ca7de1ff69c74c2e8dad|2018-06-27|369038080|update QGate
+18bab3314de3972a739b23f704c79fa7c468be51|2018-06-27|369038080|update QGate
+085acec287cb1b12a0cd2e212a78daa6c59dd237|2018-06-27|369038080|update QGate and add TinyXML
+47ec30c081b816af019cebf542be9106def1322a|2018-06-19|369038080|update iswap
+0d314c47ecdd3c3ac07f46c9d0c40676c27a2527|2018-06-19|369038080|add function iswap
+cebf599f5e65231f6aba3b0f52b8f3f25be5c7a3|2018-06-14|369038080|update
+6df44c059a8c0856492230e85bc72f8dbae3ed3b|2018-06-14|369038080|update Qprog
+28373f8953bfc59342d71f4a3a71a4172dfdfe30|2018-06-14|369038080|update QCircuitParse Add a function to delete duplicate control qubit node Add a function that Verify whether the target node and control node are the same
+9db15fe89ed5bce6d5b1ae5f17fba023d2901248|2018-06-14|369038080|update
+4dec38a1a003c7c1595581f536ea2c523b1d8fb0|2018-06-14|369038080|update
+0a9b732f1a9ea714a307070cde0601aaa79e50ea|2018-06-14|369038080|update
+97489f3a3e75b49e664e92e9381aeafb520305d8|2018-06-13|369038080|change to HHL_test
+e7ca8056b79dd1484398777b4bb7a0116ab3bba3|2018-06-13|369038080|update _G_QNodeMap
+6ed82d55109d726383fb68f45485ec0df2ae3ab6|2018-06-13|369038080|update _G_QNodeMap
+77f9c5512f8f129d239568c0330e12590eeeb423|2018-06-12|369038080|update _G_QNodeMap
+8f4493b8acca64e08c3175fc1ec4973c56b28343|2018-06-12|369038080|update QGate
+4caf2a6d53e4787eee45fb6c540ab573db7d297b|2018-06-12|369038080|update
+716a66f3b55c099929153d9c8cadb8efb681bac0|2018-06-12|369038080|add insert delete action
+5af9fd05a4dd6b87ad0aaf4e33f2a6813e890cd2|2018-06-11|benyuanwlw|w
+3bb839f492913c1b3e0c445cfd2ed01ad211e8f8|2018-06-11|benyuanwlw|w
+8739949850eeac044226a750b4240d160d48e971|2018-06-11|benyuanwlw|w
+4cfff16b9a1b5eeb282039ab98b21aa1c37a4199|2018-06-11|benyuanwlw|W
+92b82beb6a6f1d00b26b68b5668b1813f20fb249|2018-06-11|369038080|update QVM
+3b2063ba731b33717239af1f51c5e88afe8501c5|2018-06-11|benyuanwlw|w
+420df7096ac15e1291d9330553a3918004b8c884|2018-06-11|369038080|repair bug
+bfff80cf0517fe54b44380fe54ba284ca35b1c99|2018-06-11|benyuanwlw|w
+3e9f1ac8ae9c6d37d297bb9fab6e00505bf0ffeb|2018-06-11|benyuanwlw|w
+5b3a201871c2b3cc2b8bcc5e6168d1fa530a1b06|2018-06-11|benyuanwlw|w
+cb46395bb60a17863d867f9d39c45f08241ee4ae|2018-06-11|benyuanwlw|w
+a06179e51dad8f7d657cbdc1b6c420b5b563c0d7|2018-06-11|benyuanwlw|w
+d302e6b2e6be18608df33bf8793fc4e0c066c37b|2018-06-11|369038080|delete QException (useless)
+5e51e90d74cd388e22159bb58b8595af2a012bfd|2018-06-11|benyuanwlw|w
+67a2e0027efc0cabbb9f936c4cd6928d248950c4|2018-06-11|369038080|update exception
+d3622beea4c6062145e0926d209deba0a9acf0c1|2018-06-11|benyuanwlw|W
+7be00b7d0c30d923cfddb14353e78a24b07d9b3c|2018-06-11|benyuanwlw|Wang
+e0120d23d7fe2335bf1187ae02dddbe60e2e34e8|2018-06-11|benyuanwlw|2.47
+7931d63891b16b6d0b4b6fc56bd8f3087d3b7a4a|2018-06-11|benyuanwlw|2.39
+eee1d29d9b23d6466ece9ef08c58f4e33ced0f57|2018-06-11|benyuanwlw|2.36
+613ad202819a7e2aaf1e9f49d0c5e1fee2242077|2018-06-11|CBlueCloud|Update HHL_Algorithm.cpp
+d845425bed2ce360a8a78ab253b541bcded73fcc|2018-06-11|CBlueCloud|Merge pull request #3 from Agony5757/bug-fix
+c1309cfb66c024047bd9719c97d684f4c2499151|2018-06-11|CBlueCloud|Merge branch 'master' into bug-fix
+a5b110e004c30683277425a6217e384d273c8a80|2018-06-11|369038080|update QMeasure name
+675e6eb3c45f1c71c616f1d4a8f8e399794f37b7|2018-06-11|369038080|update QCircuit name
+7d0d459541e79e93f10172287a83d34067be065d|2018-06-11|369038080|change QIfProg class name
+7d199fd51684e588a28eae365f09d502a63731db|2018-06-11|369038080|update QWhileProg name
+36f18e0e2e4e0fde4cd54ea169d3c70e989152a7|2018-06-11|369038080|repair bug about QVM run
+cfeb270d6cd62a06127c1c5cba29f45714432441|2018-06-11|benyuanwlw|Just change the /
+f14659e5533bdc24a9f4a33b00b08849b88cc3ad|2018-06-11|benyuanwlw|3
+5f0b1c8039ab3a55b55e1a413359b06558a80614|2018-06-11|benyuanwlw|Merge branch 'master' of https://github.com/benyuanwlw/QPanda-SDK
+033b3a1bc44722ba3c5ff7d402a58e646545a209|2018-06-11|benyuanwlw|2
+2571381192715f4fe49f4bad207aa1a50ab323c9|2018-06-11|benyuanwlw|3
+bfa44ed1a3af52aeade0ab9492591a36fe9977d4|2018-06-10|xiaoyaolanyun|update QCircuitParse
+b58e15429f1448eba34855dd0e86d106a1a592d4|2018-06-11|benyuanwlw|1
+b084f8daf606343d979d0844fc8b8b7ab64fb862|2018-06-11|benyuanwlw|Update README.md
+d36d3f8999dc4b7c4e096c0ede7f8c93c72a48db|2018-06-11|benyuanwlw|Update README.md
+65db8ba727f5b34d2b70caee2145522c2aabb11d|2018-06-11|benyuanwlw|1
+2352f679ff0b971560735d61b07055938f09d43a|2018-06-11|benyuanwlw|2
+6adb3186eb3294b524b2c09509488736de8a22d2|2018-06-11|benyuanwlw|new
+0dbe65fec03a55af2bf52b008ddb3bade6f21cf9|2018-06-11|benyuanwlw|readme
+a0c21782d0f95f7584b3459b3883d77f029ff2ed|2018-06-11|benyuanwlw|en
+470e5a2b72f1d6769df3980f9a8f3eecb3b69fcb|2018-06-11|benyuanwlw|inde
+485df6ecb3a3c648262d4bda190afc9cd8d0273a|2018-06-11|benyuanwlw|修改了文章
+9cae2a1b7d50faee955c500bc0c064505935a7e9|2018-06-11|benyuanwlw|2
+33315647f0109740580d7a685ad234a1b2a68d8e|2018-06-10|369038080|update QuantumProg class name
+133d17875731b58ff589766bb0e21af030b6e407|2018-06-10|369038080|update QProg/QCIrcuit
+ffc854d72cfb6babbbc13442ac58903fabbb2927|2018-06-09|Agony|BUG FIX
+5e4f849f8ec0036926b1f457da6f137ceaa2ebf7|2018-06-07|xiaoyaolanyun|delete QPanda/QPanda.h
+3b99331a42cd9b5e2c0fe666a3dbadbe765ba674|2018-06-07|xiaoyaolanyun|t push origin masterMerge branch 'Agony5757-Fix-CExpr'
+04ffbd93654834032007e401370c1a35661cad71|2018-06-07|xiaoyaolanyun|	modified:   .gitignore 	modified:   Console/QuantumProgramSystem.cpp 	modified:   QPanda-2.0.Windows/QPanda-2.0.Windows.vcxproj 	modified:   QPanda-2.0.Windows/QPanda-2.0.Windows.vcxproj.filters 	modified:   QPanda-2.0.Windows/QPanda/QPandaException.h 	modified:   QPanda-2.0.Windows/QuantumMachine/ClassicalConditionInterface.cpp 	modified:   build.sh 	deleted:    QPanda-2.0.Windows/QPanda/QPanda.h
+47b85e500f6a9ce574c54f83e85f048145ba6933|2018-06-07|xiaoyaolanyun|update COntrolFlow
+6f2a7f83c4c58dd4697cccb1e926a37ea26d83ef|2018-06-08|yekongxiaogang|Update .travis.yml
+1edcca8b01da55b0a6a52e0d9e80995ebccb75a8|2018-06-08|yekongxiaogang|Update .travis.yml
+cb2d20a7940f93be25094c19f7ce634619d20cb4|2018-06-07|xiaoyaolanyun|update
+c081d7d6d4a9f182e66b5a2e1e764f4bf35f0c19|2018-06-08|Agony|follow update
+f2868a8eb78471f6062a91ee3e79ce18bfc0ab75|2018-06-08|Agony|update ClassicalCondition and QPandaException
+ab57eed3589405bf53170ef1c195514f52e34b0a|2018-06-07|xiaoyaolanyun|update Algorithm
+a6d484f72850fee0d6a4879da7d546ed247229f9|2018-06-07|xiaoyaolanyun|update
+44c786a88cde26bb2207c9744e418de04faa8bb8|2018-06-07|369038080|update Console
+38279013a96b672560635ca29d331e0f3f43df53|2018-06-07|369038080|update Console
+46bd40e1b4768593057d920c8dc688fa61cf3920|2018-06-07|369038080|update travis
+d053ca3bbcd784e7a692b681471b777cc6b48894|2018-06-07|369038080|update test
+585f504e6346fd3b9c10b3e9ad3d6edae0f0d9f7|2018-06-07|369038080|updata QuantumCircuit
+d6c349ec292a3635b0f3fe2db195886ecced7ce0|2018-06-07|369038080|update QuantumCircuit
+26211b025c2d15b2c9a90ca0bc8ed0536bcb50ae|2018-06-07|Agony|cexpr fixed
+fd1500689712eb826b13d9f38cff19c89ddacfce|2018-06-07|Agony|Exception class merge into master (#7)
+5ba4e2c1730db6e84c46aeffcc4e0a6dfa52576f|2018-06-06|369038080|添加 QPanda exception类
+c8860fd6c0207e4ab0118f6c2c4f346c6c9140cd|2018-06-06|xiaoyaolanyun|change Makefile
+277f8307cdb13cf55400882851de47c7cb964ad5|2018-06-06|xiaoyaolanyun|delete *.o bin
+aef745876b1ad9d87eab16e2c59f9a47919a79b2|2018-06-06|xiaoyaolanyun|change .gitignore
+34949c0fcd7e8090fc4b4aacc0fc914063d77d7a|2018-06-06|xiaoyaolanyun|delete QPanda/Qpanda.h
+76ed5313d6ff9558675e9c9dba0f258241ac0317|2018-06-06|Agony|Update README.md
+fbb243fa3a3b1044ca0c2a51ee43c32d74946a8d|2018-06-06|yekongxiaogang|Update README.md
+8e822fd4e493f48d6123cc19cc2f603675927175|2018-06-06|yekongxiaogang|Update README.md
+41e579e05b685b858fd63b6990bb770b4cf4b218|2018-06-06|Agony|Update README.md
+ae19330e81a755c55064ba72d1f9e234183a2d9e|2018-06-06|Agony|Update Makefile and solution file
+e46ff024febac5df499ea3de2cc356efa74bd5cf|2018-06-05|yekongxiaogang|Update README.md
+ed4b19ad08677bbe0a3f98b26d7e03d19cf1bd43|2018-06-05|yekongxiaogang|first commit
+d9afa2ce7592740e61ad72ad90e5ad22b25e0c9d|2018-06-05|yekongxiaogang|上传
+072d7eb6081bb782b588f53ba51efec5f7988754|2018-06-05|yekongxiaogang|上传
+292a1ad34c17b3ab09ad3b423c2728d5218f4b63|2018-06-05|yekongxiaogang|Create .travis.yml
+b0112a51e2d81cc805b8298d13377e38cfdf2e5b|2018-06-05|yekongxiaogang|Update README.md
+97f33e6163287b737305b7f9b73f10e4d5e0a5a0|2018-06-05|yekongxiaogang|上传

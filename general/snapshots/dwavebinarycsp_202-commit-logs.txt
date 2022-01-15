@@ -1,0 +1,269 @@
+383feb01422bc292b869f2994da57b5f475bd32d|2020-09-09|Radomir Stevanovic|Merge pull request #106 from hhtong/requirements
+e4976d092dfade2220cc06ddd5c28de2f91c5aca|2020-08-21|Heidi Tong|Added requirements files for tests and docs. Edited .yml files.
+8af43807c5ad60ad9b96c62903662cf9d1125c47|2020-04-13|Melody|Merge pull request #102 from JoelPasvolsky/checklinks
+0c923b64677cd18cbd5b42b2de0a487514549aa4|2020-04-07|Joel Pasvolsky|Add automated link checks
+b6976baf2fb31b6db62d586fc419e5b339581ff8|2020-04-03|Melody|Merge pull request #101 from JoelPasvolsky/links
+eabf1a77813a7c846f0af1dc47f7e571abdcc9bf|2020-04-03|Joel Pasvolsky|Update broken links
+c1b30d11744463052cb250b0fa4db1099b5102e6|2020-03-18|Melody Wong|Update version 0.1.1 -> 0.1.2
+9ceff4dfddc89b5fc65bef0fadd1f75c970919c0|2020-03-18|Melody|Merge pull request #99 from JoelPasvolsky/sdk_int
+25e26acef9716472b3a484b4e9ae1f565ad013d6|2020-03-16|Melody|Merge pull request #100 from JoelPasvolsky/doctest
+4c0ebc4090e667f65d8a868b4679a89a14b0ad34|2020-03-10|Joel Pasvolsky|Remove self-import from docstring examples
+02000a3bba08277dc0f95f02f8aed4522dae5da2|2020-03-10|Joel Pasvolsky|Fix doctest fail in constraint.py
+51ca0a28d46dad24e367da655579aecba72aa9a1|2020-03-10|Joel Pasvolsky|Fix doctest fails in sticher.py
+15de4ac970793894b03932a2b17ffb988287c64a|2020-03-06|Joel Pasvolsky|Update intro
+9bd6e04690b74c20c73b82311734091fb371e2dd|2020-02-25|Alexander Condello|Update version 0.1.0 -> 0.1.1
+6c810ef0b1aa49dd4a8110f0a6ea248a3a7b8933|2020-02-25|arcondello|Handle the 2sat case with penaltymodel-lp
+4301fcc0f5836b747b26e2c8ec876a54b37047ad|2020-02-24|Alexander Condello|Fix version number
+a6e5d96a8f3deda9c3c06b1f6aed4c6c863147cd|2020-02-24|Alexander Condello|Update version 0.0.12 -> 0.1.0
+04c11c6bfacf3d379ed636e9b3586bb699b5729e|2020-02-24|arcondello|Support dimod 0.9.x
+b8858dd4c5b3d314e6791ea3c8ae4a836cf3e454|2020-02-24|arcondello|Drop ipython from requirements.txt
+726d4a0aee0aebe6155d766490f1a1c542e6e36f|2020-02-24|arcondello|Update appveyor to drop 2.7 and support 3.8
+0cc6b7ed14d2ad2b9697bb282c83bc1a28bc3d1d|2020-02-24|arcondello|Fix wheel tags and classifiers
+68640e8e808763a667793686aae133d7b76f2bc8|2020-02-24|Alexander Condello|Merge pull request #96 from m3ller/feature/py3.8-support
+cf9060eabb7fb7b4c553d819911bf7514c94c055|2020-02-11|Melody Wong|Remove py2.7
+71a6764103d1d806b7e9234649a20e25ec824f5a|2020-02-11|Melody Wong|Update requirements and tests
+6624bc174945b1409f159182e1e7c8f37618c7fb|2020-02-07|Alexander Condello|Merge pull request #93 from JoelPasvolsky/unified
+437d03d6263f4a4c5aee0e044c1903ff8ba00f68|2020-02-07|Alexander Condello|Merge pull request #94 from JoelPasvolsky/versions
+52ffe5fcb2f45249190a97448d27995afc9ee22a|2020-02-05|Melody|Merge pull request #95 from m3ller/feature/update-xcode-in-circleci-yml
+94cff32f2366ec55c31186449d02b3a44aba76c0|2020-02-05|Melody Wong|Revert "Force macOS 10.9 binary compatibility"
+93f8a8abc363eb57dece6e6849d6ba492529daee|2020-02-05|Melody Wong|Return codename to docker image
+756eab0220368ae9a5c6b516b47879609f43c636|2020-02-05|Melody Wong|Bump up cache version
+833f92a96f94b984fa63138a25ce759c6208519c|2020-02-05|Melody Wong|Force macOS 10.9 binary compatibility
+98b0046d5a6bd1c529e52df66f23f627e4e34a23|2020-02-05|Melody Wong|Add release codenames back to docker images
+bb859d5ab953a5d136dd349a750a80b0ba65a9a1|2020-02-04|Melody Wong|Temporarily comment out py3.8 jobs
+1e5f514dc4f9dd17946093f7cc72534c72d573bb|2020-02-04|Melody Wong|Add py3.8 tests
+10a7b72c839d2a8a4e0fcedaeded75c8d43167f2|2020-02-04|Melody Wong|Bump xcode to version 11.2.1
+92010f537b0b6f350e58baf9837dac614d76961a|2020-02-04|Melody Wong|Restore jobs
+f81c243f552820db199aeecdd5ade03e6d2f5c70|2020-02-04|Melody Wong|Update xcode version to 10.1.0. Explictly turn off autoupdate
+94f6493e82c1856f7fe22e4793fa06eeb608831d|2020-02-04|Joel Pasvolsky|Add version notice
+3d124d3f429c937ccc56459ef4d64b6c8e44f3d2|2020-02-03|Joel Pasvolsky|Fix include warnings
+40a53ee6ed419e4d67ee896cc3671e12e164d94f|2020-02-03|Joel Pasvolsky|Fix TOC in SDK
+f6be56d0a91038ac393718110e44229598819ea3|2020-01-31|Joel Pasvolsky|Prevent duplicate ref warning on sdk_index
+5e58d5fd465ff8e2bdde14613bc136ee219068ab|2020-01-30|Joel Pasvolsky|Add intro to SDK
+18cf1bb3a1eb065f687ec649145769bf4350ba66|2020-01-30|Joel Pasvolsky|Remove local glossary (now uses https://docs.ocean.dwavesys.com/en/latest/glossary.html)
+562bd8d309639d79043a56a708d24e18082a94af|2020-01-30|Joel Pasvolsky|Update intersphinx refs
+5a1e56f3bd248313e1f03fedcc42e9327f62b4a2|2020-01-30|Joel Pasvolsky|Update conf.py and local references
+451be7b52514520f807bfbde67fbee3accd0f67f|2020-01-09|Radomir Stevanovic|Merge pull request #92 from JoelPasvolsky/sdk
+1ede1542b0c2c7e65306e7ed3f7bb539ccd42540|2019-12-24|Joel Pasvolsky|Add sdk index and move _static images
+20722e463f0d40d4f4724463be25c7cfce5232c5|2019-10-24|Alexander Condello|Update version 0.0.11 -> 0.0.12
+bded6702de4e29b9601a6aa5b95d31b17f582c41|2019-10-24|Alexander Condello|Merge pull request #88 from JoelPasvolsky/endian
+4871e90aa4a71a4c7c3569862513595ecd02f2f8|2019-10-24|Alexander Condello|Merge pull request #90 from m3ller/fix/include-penaltymodel-lp-to-sdk
+dd985c8bf062c5e6d5968000d12be8d125f2489b|2019-10-16|Melody Wong|Add penaltymodel-lp to setup.py
+276c73c99e5e6862dc1456cec6b9b5f949523344|2019-07-18|Joel Pasvolsky|Fix multiplication circuit example
+3d4f520b167c4233e320ef5ebab2bd4b94b6f09f|2019-06-05|Alexander Condello|Merge pull request #87 from JoelPasvolsky/cookies
+77418c69f7f05210750441e6b493abe82daa38df|2019-05-29|Joel Pasvolsky|Add cookie notice and analytics
+1bff70b10a7d5e3039b20ac088401322df61f410|2019-05-03|Alexander Condello|Directly link to external sites in docs
+d6b1e70ceaa8f451d7afaa87ea10c7fc948a64e2|2019-04-17|Alexander Condello|Merge pull request #84 from m3ller/fix/update-penaltymodel-cache-version
+1c5a580b031ec20efcad039955847e6965cd2be0|2019-04-16|Melody Wong|Bump up penaltymodel-cache lowerbound
+b7d490680a667683d44e90c8f5ace06d273b0c2f|2019-04-16|Melody Wong|Update set up to work with current penaltymodel-cache
+90cee274f38831c6f9a492e1a46c84b381c0c260|2019-04-04|Alexander Condello|Merge pull request #83 from JoelPasvolsky/sat
+13b03e0a1bb54dec8bd8be81fa8081488a27f8cf|2019-04-04|Joel Pasvolsky|Update sat examples for code restructure
+db844b725882af537f01423a69bc26a770fa6c9e|2019-03-26|Alexander Condello|Merge pull request #82 from m3ller/fix/penaltymodel-cache-version-number
+ef0f08f0548597a56920acd10c7660d36f287b72|2019-03-26|Melody Wong|Fix cache version in requirements.txt
+8557428150fef6c3159e200564019a58803e26fa|2019-03-15|Melody Wong|Update version 0.0.10 -> 0.0.11
+0a8eb0903ba38e3bb543d4ae069e33d19f2e61ce|2019-03-15|Melody Wong|No longer supporting Python 3.4
+54f0701768ab326c6ccff0a08a5161de4887870b|2019-03-15|Alexander Condello|Merge pull request #76 from m3ller/feature/75-dwavebinarycsp-ignoring-min-classical-gap
+c8004c79c90d69a46b68885c65a6d0ab292e2f63|2019-03-15|Alexander Condello|Merge pull request #77 from m3ller/feature/70-pass-min-classical-gap-to-penaltymodels
+d7aad445e21eddf08dfe3538891abd9def675257|2019-03-14|Melody Wong|No longer providing support to Python 3.4
+dd773f6cbd66105d159d85fe3d6e8c34058c9d0f|2019-03-14|Melody Wong|Since dbc.stitch(..) now passes the min_classical_gap to the penaltymodels, the penaltymodels must be able to accept this value; hence the version bump for the new version of penaltymodels
+7ce202cd5a1115447bb264df6e5feb3fd81cd7a5|2019-03-14|Melody Wong|Change property call data_vectors -> record
+cb65964831fbac21d6ac1203386b9a12f9cb5993|2019-03-14|Melody Wong|Bump up penaltymodel versions in dwavebinarycsp setup.py and requirements.txt
+a286c305b728941b4a428eb3e7e8ce6603078824|2019-03-13|Melody Wong|Remove todo. Gap check may be redundant IF all penalty models use the min_classical_gap spec when finding a penaltymodel. However, I don't mind having a central location to verify this spec, hence removing todo
+15f486d93b3730f488ac638c280215c0961a6e0f|2018-12-14|Melody Wong|Remove whitespace
+5b01308eece4683aa434157fa05f60b626e27c26|2018-12-14|Melody Wong|Put min classical gap into Specification and pass it to penaltymodel
+d14c0d34e7e038a0548669f928dabde72cb0d911|2019-03-13|Alexander Condello|Make the sidebar external links hyperlinks
+4dfa4f2e57577d293d6959c7036e430a1981d6d9|2019-03-13|Melody Wong|Add gap test with auxiliary
+783b8a2b7a22a151c4e0f5a95ba77610ac959a24|2019-03-13|Melody Wong|Add unit test for stitch min classical gap
+a547d471da9e74880a0f170603f9277285105a80|2019-03-13|Melody Wong|If for-loop completes without satisfying the gap requirement, raise impossiblebqm
+da93f4aeb88b3d4e5f21fd2ce327442a5fcd24e3|2019-01-03|Alexander Condello|Update version 0.0.9 -> 0.0.10
+e1d3d1904c5f7b499e5251f3b15b278cd89f9eaf|2019-01-03|Alexander Condello|Merge pull request #71 from arcondello/dimod-0.8.x
+edeb65ff93129a929a02c444df77163570452cf1|2019-01-03|Alexander Condello|Allow dimod 0.8.x
+e1d7fbb6525b38bcce05cd10629d3ab3911029f8|2018-10-26|Radomir Stevanovic|Merge pull request #68 from randomir/master
+ef10f186584015aac40f0890430c3bc0b25169aa|2018-10-26|Radomir Stevanovic|Update requirements for case sensitive env marker values (win fix)
+61629ed52bb7dcbfeb4d630709ccc5faf2431865|2018-10-26|Radomir Stevanovic|Merge pull request #67 from randomir/master
+6fd1b5e53aaf154e98dcca6817f39ba14869c29a|2018-10-26|Radomir Stevanovic|Update version 0.0.8 -> 0.0.9
+74360990a2c8faa689d32b74293f099bb3a3423a|2018-10-26|Radomir Stevanovic|Merge pull request #66 from randomir/defer-penaltymodel-presence-check
+b1983bef10aabb270637a764c70ce7a284cec9af|2018-10-26|Radomir Stevanovic|Deploy a wheel
+f30f2f0d69c7794670930b8b9b415921221fe431|2018-10-26|Radomir Stevanovic|Hard fail on first stitch() use if no pm factories available
+507d888bfcf5c45682be2af79ca533957608bc7f|2018-10-26|Radomir Stevanovic|Move penaltymodel factory presence check from install to import (wheel support)
+e4e95f91cf7e3ee81c8fa8261099c0d23d5b08e6|2018-10-25|Radomir Stevanovic|Merge pull request #65 from randomir/master
+b912d45a26ea1d6c71f64c09c508c324fbe863c0|2018-10-25|Radomir Stevanovic|Update version 0.0.7 -> 0.0.8
+b68f3eee08e732d3c6e96578b4596f151a87c07d|2018-10-25|Radomir Stevanovic|Merge pull request #64 from randomir/master
+0eb83f13b06e110bfd9a421cfeb17e4fc625de55|2018-10-25|Radomir Stevanovic|Don't build/deploy wheel, or our custom install check command won't run
+43155795e6b7046dc2bf89abd00586f7ca4b3dde|2018-10-25|Radomir Stevanovic|Merge pull request #63 from randomir/master
+ebc41628629e33f0e4f1dd2a342c856ed592651e|2018-10-25|Radomir Stevanovic|Update version 0.0.6 -> 0.0.7
+605a0db8084de3ed3ac9dfb6f634ec8e39eebbed|2018-10-25|Radomir Stevanovic|Merge pull request #62 from randomir/penaltymodel-cross-platform-install
+b305febc00a555c302617796e07765e84bf9e8c9|2018-10-24|Radomir Stevanovic|We need fixed version of penaltymodel-cache
+aa44c4997b3c1fbd80ddca7d3bdd61637cf2c6ac|2018-10-24|Radomir Stevanovic|More robust penaltymodel check
+7aaa1662e471537573c23ca6d7a2084d395280bc|2018-10-23|Radomir Stevanovic|Add penaltymodel install check
+c5508eaf238cd9b5ea13860727b2d4568ca85890|2018-10-23|Radomir Stevanovic|Fix conditional install of PMs in requirements.txt
+9a97441d6fedf642574f6ab0d4f56e46926910d8|2018-10-23|Radomir Stevanovic|Don't try to infer the correct (supported) penaltymodel
+c23fb619e153e5388adf83df7039011067451624|2018-10-02|Alexander Condello|Merge pull request #58 from JoelPasvolsky/factories
+ef30f5278bcda8ac5b8c2fd4e7802daf65e0ca81|2018-10-02|Alexander Condello|Merge pull request #59 from JoelPasvolsky/leap
+ccac9292a318d513014e54da23c8fd89fad9feed|2018-10-01|Joel Pasvolsky|Update template
+89e0c7af091fe81fdbcdd1e832b5714e3f482306|2018-10-01|Joel Pasvolsky|Add return values for factories
+1de95d2ef7bb8a6f439e0380ffe5f448a40e91b8|2018-10-01|Joel Pasvolsky|Add factory multiplication_circuit
+f13fa5ff4cdb4cd8202020b874b0d62e90b71b83|2018-10-01|Joel Pasvolsky|Add factory random_xorsat CSP
+db63fdd5acc0c86680c0b831c5a8418071f2c17e|2018-09-28|Joel Pasvolsky|Add factory random_2in4sat CSP
+143aa537ef1307a40910bca2a52451da9b574be6|2018-09-28|Joel Pasvolsky|Add factory sat constraint
+b54a51836fbb1b57c725e5ff8a6a0b89690b4a23|2018-09-28|Joel Pasvolsky|Add factory gates (adders)
+81f48bcead5be936e93c995da8fb21cc56eea367|2018-09-28|Joel Pasvolsky|Add factory gates: and, or, xor
+78a9884f32b05571f7a74627ac1f705f1425075a|2018-09-27|Alexander Condello|Update readthedocs badge
+974f2f693eddbf395aea0c201aae1db158f1dc63|2018-09-21|Joel Pasvolsky|Move intro
+cf0a4dad7e04ed884b7592b40bcc5b56db637b7f|2018-09-17|Alexander Condello|Merge pull request #56 from JoelPasvolsky/links
+eebb613b0949235a2e74513cae0704558c14867c|2018-09-17|Joel Pasvolsky|Use intersphinx instead of explicit links
+9df371a8456d3aa37f738e2089236a76822347ce|2018-08-21|Alexander Condello|Update version 0.0.5 -> 0.0.6
+ed23281ea7f650b63425f40ae04cebe36fe6a26b|2018-08-21|Alexander Condello|Merge pull request #54 from arcondello/cnf
+027fa16d888df655c8a2df83a8d5d3b3b08aa423|2018-08-21|Alexander Condello|Add load_cnf function for DIMACS CNF
+4f216e5526cd76575d1e3a5afbb38dbf106c051d|2018-08-14|Alexander Condello|Add issue templates
+1b0aaead94c69baf94f7705a580ba3b254817c79|2018-08-14|Alexander Condello|Merge pull request #52 from arcondello/dimod0.7.x
+c62bcb3873b28367c38c2ac6a149ab7bc9b6a572|2018-08-14|Alexander Condello|Update version 0.0.4 -> 0.0.5
+3c73946f97ed223d3587a202c535c891f779b81e|2018-08-14|Alexander Condello|Use dimod>=0.6.7,<0.8.0
+b6a7e088fe45c755af098852f2b63a0ff61dcab0|2018-08-09|Alexander Condello|Update version 0.0.3 -> 0.0.4
+bfb70b41f9fc9540afc6550a34f8fe4f2a137bd2|2018-08-09|Alexander Condello|Fix install_requires syntax in setup.py
+4528303dfa5c9f9fc4b25235b05e4eb4077efb75|2018-07-30|Alexander Condello|Merge pull request #50 from arcondello/issue49
+e04e81c92a51d445d691783af7d4a140e7320aac|2018-07-30|Alexander Condello|Fix i,j convention in circuits.py
+1e209f378d28ba398356f06c98dd671190d73ed5|2018-07-28|Alexander Condello|Merge pull request #48 from arcondello/penaltymodel0.15.0
+feb8067c205a9720b18aab94ec25968a63bcfdcb|2018-07-28|Alexander Condello|Use penaltymodel 0.15.1
+daa4b6228efd5146ea049869cb38c8e8ad6d7133|2018-07-28|Alexander Condello|Update package info
+dd4f931a6803d577748cbd08e72d7609b59d2f06|2018-07-28|Alexander Condello|Disable 32bit appveyor tests
+0d4c48e58574bf9a25e6e26865a5f8d281db8621|2018-07-28|Alexander Condello|Use penaltymodel 0.15.x
+d8087b7eb698a953646782cff7080108366d32a9|2018-07-27|Alexander Condello|Loosen dimod version requirements
+6dd51a4fe3a36948b455658b4347cdacaaf8f2d8|2018-07-27|Alexander Condello|Merge pull request #47 from arcondello/CI
+bce06605a21e8e9f9cb9c8b9e596db74339f9a93|2018-07-27|Alexander Condello|Add python3.7 tests
+7a230bfefd25fb7298c8e5b683aa945490f4f592|2018-07-27|Alexander Condello|Add appveyor
+589bd9166ccbc9d5fe7a330e07663ade967710d4|2018-07-27|Alexander Condello|Switch to codecov
+ea6b49a3c0bcd941262c9f647e5e82d97fd7d19c|2018-06-27|Alexander Condello|Merge pull request #44 from bellert/patch-1
+ef26dcf66ac5227f7bfd2aff5cbe4933e6594c4c|2018-05-29|Bradley Ellert|Make vartype default value consistent across gates
+a8688a2dfd555ceecd9f78e3e5ad9e7c0fe4f787|2018-05-29|Alexander Condello|Merge pull request #42 from arcondello/cfd_example
+cd9e8e76e7998bcb9660d70b61a12795b826f27a|2018-05-29|Alexander Condello|Add circuit fault diagnosis example to docs
+93cb7be58da7a4ef71c8b69d074e14fc650c2355|2018-05-29|Alexander Condello|Add circuit fault diagnosis on half adder example
+8f3121b920e0c7fab973e66d268207ee43da66f5|2018-05-15|Alexander Condello|Merge pull request #40 from arcondello/intro_integration_test
+e628c63ec4a3466c5d51df98814770a46f94b49a|2018-05-15|Alexander Condello|Add integration test for doc intro example
+2cac84d9b33a56298ab1113ac315a6bf57af90dd|2018-05-15|Alexander Condello|Merge pull request #39 from arcondello/projection
+98d2e362923d455cfe5a94ba3cb5f669dc5cb1f3|2018-05-15|Alexander Condello|Merge pull request #38 from JoelPasvolsky/intro
+19068bdf8e9941a51b4d35911b69c0fe2eed836e|2018-05-15|Alexander Condello|Add projection method to Constraint
+7b2e1f30d3e776e5bcf1b8fd4ebaf49c5cfbd692|2018-05-15|Joel Pasvolsky|Merge branch 'master' into intro
+de31b4234236832c8194014267fd9c67a8c202f0|2018-05-15|Alexander Condello|Merge pull request #32 from JoelPasvolsky/constraint
+5d6435eae95ff17f813735d5315705c066afbcd5|2018-05-15|Joel Pasvolsky|Update for Alex's feedback
+2d8454ce770e118b77bb1b11124bebf3c0df7959|2018-05-10|Joel Pasvolsky|Update constraint methods
+40ebf9eb7b827f2156ad2fa337c7040217dea6e7|2018-05-15|Joel Pasvolsky|Add intro (example)
+d4d131faec0e1052336d4996ffffd7efe487027c|2018-05-15|Alexander Condello|Merge pull request #36 from arcondello/bugfix_8_variable_constraint
+21ba9190075de46c59fda3a7819595179dc46809|2018-05-15|Alexander Condello|Merge pull request #33 from bellert/contributing
+40e2bcb39ddaea6dce1da39ddac477b95b4c53f4|2018-05-15|Alexander Condello|Build with latest dimod
+84ba68389ecac1fe2190d6caaef9a4457629f5cf|2018-05-15|Alexander Condello|Add additional error message to stitch
+c699157ea35460b16e01d1a5c49ed551050a5c8f|2018-05-15|Alexander Condello|Fix bug in stitch where max_graph_size was not correctly used
+6011ddca460e37dcdb9bcbdba38c8995f6d91f11|2018-05-14|Bradley Ellert|Fix link to main contributing page
+a9e30cda478a42813409c8a2f28fa7b3a9f19acc|2018-05-11|Joel Pasvolsky|Add intro (bqm)
+70fb9fcab7984f3aa61f8a07766835f1d8b0b28c|2018-05-10|Joel Pasvolsky|Add intro (csp)
+044ff8d1f44f0bb4912dc1b91d751b156b11640c|2018-05-09|Alexander Condello|Merge pull request #31 from arcondello/universal_wheel
+1d692b1f21bf09da8802f074305a7343fb1f8796|2018-05-09|Alexander Condello|Update version 0.0.1 -> 0.0.2
+28bc3da38eebb485cf2490fdd95aae7f4df8ea5e|2018-05-09|Alexander Condello|Add more setup data
+ce4cc24db7efe08e7ab38b1199122acd51e2f97a|2018-05-09|Alexander Condello|Merge pull request #30 from arcondello/penaltymodel0.14.0
+7e5b79482dcbd6bc8da26ea445afe230e6b1f76d|2018-05-09|Alexander Condello|Merge pull request #27 from JoelPasvolsky/convert
+121862d5a9c97283edc03647e379815129cad6b1|2018-05-09|Alexander Condello|Merge pull request #28 from JoelPasvolsky/reduction
+d3f0fa2204d0d77193d3d949d2e7527846725ed2|2018-05-09|Alexander Condello|Merge pull request #29 from JoelPasvolsky/constraint
+9626da8ef6e776d57c04b45a1762703a812a3ec1|2018-05-09|Alexander Condello|Use penaltymodel 0.14.0
+27234c0a6fae7fa065151ae5062c946f92298809|2018-05-09|Joel Pasvolsky|Update constraint construction methods
+7fb4b21738dfa211a3f56dd9bd7bebfd1faafafa|2018-05-09|Joel Pasvolsky|Update constraint class
+f13d9c59ceb5634977a40798fa7e1d71573f5613|2018-05-07|Joel Pasvolsky|Update reduction
+42c19f23a389ea7cce0b9126d7ab429a550aa6b0|2018-05-08|Joel Pasvolsky|Add min_classical_gap, max_graph_size example
+5c44ca1b95af8aa4f058574e30ca6cb38b13f35f|2018-05-07|Alexander Condello|Merge pull request #26 from arcondello/boilerplate
+44d0d5a46a7d9bef6e020410a78941437027ddcb|2018-05-07|Alexander Condello|Add apache license to file headers
+54be00c0dd611d511a537f4032b5061ab5334b00|2018-05-07|Alexander Condello|Add short description to README
+292c87a3d4ce90b677095c943e0a1d11a02b5253|2018-05-07|Alexander Condello|Merge pull request #25 from arcondello/documentation_tests
+02240e7554af6c7db1e5809264b64ddb34b55521|2018-05-07|Alexander Condello|Correctly raise error when stitch cannot build a bqm
+f3e405360886c3840fc9d360ab354908b47ab4cd|2018-05-07|Alexander Condello|Move all tests under tests/
+8756255b0ef6fc83cf9746312a9443435a36d5dd|2018-05-07|Alexander Condello|Merge pull request #24 from arcondello/dwavebinarycsp
+00c05bcd1d934034c6d9fb648e4c2186bb0da2ea|2018-05-07|Alexander Condello|Fix circleci badge
+5076d5936df102201049cc64fab9becc0372255b|2018-05-07|Alexander Condello|Add infrastructure for coveralls.io
+fe34db752601ec64b59b12712da427b9c6ea6648|2018-05-07|Alexander Condello|Add OSX builds for circle-ci
+049b76b6f0546a5ae99bc07f5b48cf22b6321a1e|2018-05-07|Alexander Condello|Update README to reflect name change
+710fba14a911cc56656b78f40f7e09c9d1f203df|2018-05-07|Alexander Condello|Rename package to dwavebinarycsp
+ce64b6b90a77ae224d5837accb15b0e1ee9c3600|2018-05-07|Alexander Condello|Merge pull request #22 from JoelPasvolsky/csp
+1df02d93fdcffb3902cc50a0d42689434e572b52|2018-05-07|Alexander Condello|Merge pull request #23 from JoelPasvolsky/convert
+212c5e8a3715626071ce8a204bc02b8433f087cb|2018-05-04|Joel Pasvolsky|Update csp package
+20323fb5fb90a0749d0e5d406b27ee813a96b631|2018-05-07|Joel Pasvolsky|Update compilers, stitch (no PM)
+55276234e541e44c6f56f8267249ec11e4d65457|2018-04-27|Alexander Condello|Fix another type in the README
+b23ebef9ef704cb1dff1c84999f12377a30d2b9d|2018-04-27|Alexander Condello|Fix typo in README
+fd977e471519c3cb36f8ce9809dd6f5f808b72cf|2018-04-27|Alexander Condello|Merge pull request #18 from arcondello/README_example
+6280b8a9cfaf0589dc786fcb3b3d3814ece9eb0d|2018-04-27|Alexander Condello|Add example to README
+b726ff5a08dc5fc1e457e1194793d69da8992977|2018-04-27|Alexander Condello|Merge pull request #17 from arcondello/factories_docs_and_tests
+da76a058b0d227a856926c754a45c5a65cda9a13|2018-04-27|Alexander Condello|Remove erroneous print statement
+e85afaf51a74ee4e705b99c79a6b8c675111b74c|2018-04-27|Alexander Condello|Add integration test with dimod and multiplicatio_circuit
+bc3fa63f093078d38e667d498287d03e44832e8d|2018-04-27|Alexander Condello|Merge pull request #16 from arcondello/install_fix
+b180f0745c6cea783314de57b71580eeee400d38|2018-04-27|Alexander Condello|Remove jsonschema dependency
+18dfc52bc6f4d0f39bf20f839a5283feef459bb7|2018-04-27|Alexander Condello|Remove non-existent package
+30f752bf91030e7054f741293c74874c796afb7f|2018-04-26|Alexander Condello|Remove satisfy function
+291ff79e5cc77c8d597d6033696738b4e4db93d0|2018-04-26|Alexander Condello|Merge pull request #14 from arcondello/stitch-docs-and-tests
+8d25533f9cbf11c34bb4e140a4543cfc2d786d9e|2018-04-26|Alexander Condello|Add docstrings and small penaltymodel construction to stitcher
+7ae6af4d673ea1303a420cede6ca11237586820b|2018-04-26|Alexander Condello|Add reduction methods
+eabbbcde66b837854fec8faa9a46dc7cb840f562|2018-04-26|Alexander Condello|Add copy method to constraint
+5b42910eff5f5be2d73fe0c530f80cf0d6b271af|2018-04-26|Alexander Condello|Merge pull request #13 from arcondello/README
+ee2ec9d41e58f8b790496a26d364157ae6577abd|2018-04-26|Alexander Condello|Merge pull request #12 from arcondello/csp_docs_and_tests
+b138314fc6be72396a13c97c13aca67f19ae77e9|2018-04-26|Alexander Condello|Add circle status badge to README.rst
+dce2a8838683e7bde50618c1d2d9592fd55ca63f|2018-04-26|Alexander Condello|Update install instructions
+69b91842743300f90b42a65e5b67e9574827fa32|2018-04-26|Alexander Condello|Add docstrings to dwavecsp.core.csp.py
+394a81f7f494cd03a969b1cffd28967490d02304|2018-04-26|Alexander Condello|Make sphinx quieter
+9451ebc41befcd50f7b3125b23732a97e2732881|2018-04-25|Alexander Condello|Merge pull request #10 from arcondello/constraint-docs-and-tests
+ffbd72449740ce3a593ed543428de9bee1feb950|2018-04-25|Alexander Condello|Enable doctests
+adc8cb6098503ce19fe7cefb292137ea96dc4bf9|2018-04-25|Alexander Condello|Add documentation and tests for Constraint
+d8d8b44a1dd8de9c4f30dc653269e92bdea61a70|2018-04-25|Alexander Condello|Reformat documentation and clear old content
+9b0a130880700e68b0446b44e2c1cf0c79c9f12d|2018-04-25|Alexander Condello|Import package_info into dwavecsp namespace
+7011e5f7c22e86a5acd84e9012f497dd4047cff1|2018-04-25|Alexander Condello|Merge pull request #9 from arcondello/dwavecsp
+36d402e24eb36de23020ab5ea1d9217ab8a5eb34|2018-04-25|Alexander Condello|Update package list in setup.py
+4a857b678fa0911ca0de06a556d8ea09166283f6|2018-04-25|Alexander Condello|Disable doctests
+20208eddb3b35ac20d0cffc9bea4acc7f0d1ea1d|2018-04-25|Alexander Condello|Only run integration tests if resources are present
+54202bdcf359d08b1476b8cfbf19f430cbf85022|2018-04-25|Alexander Condello|Constraint factories accept variables as an iterable
+1a75188416f1b5bce77dc7850ca7b168c49a7d33|2018-04-25|Alexander Condello|Add install of ipython in requirements for debugging
+666e8e55dc804e9c06fec1b40ee956cf885a72fb|2018-04-25|Alexander Condello|Add encoding to file header
+94f88b1325e2b0d3d7e063855dff588f5166fc67|2018-04-25|Alexander Condello|Add multiplication_circuit to factories
+7230c651f78085e6719572f75382a8b41deef65a|2018-04-24|Alexander Condello|Update sat2in4 to use new Constraint.flip_variable method
+28d6b29e1ceea033ba45b1a89dc385a58d3a87a1|2018-04-24|Alexander Condello|Fix comment
+52a121f4f7f880d3c74b488a952dc512f18fb72e|2018-04-24|Alexander Condello|Update assert_consistent_constraint to match Constraint
+29ab7d3f0932279c717e8925c951861ed178aa43|2018-04-24|Alexander Condello|Add flip_variable method to Constraint
+07cc82f50748a5d854d31af4300c79efc7c5d54c|2018-04-24|Alexander Condello|Add factories
+007881e0f6c108b55b97a6aa0ce678455e1966ba|2018-04-20|Alexander Condello|Remove dwave_constraint_compilers
+13102c37f6f31b53c89ee8b2224bcb52600b274b|2018-04-20|Alexander Condello|Change name convention of gate generators
+9bfd25ffef71d681a4f1f19d0f7065a8e74cb35c|2018-04-19|Alexander Condello|Convert stitch to use new CSP object
+bfac62eb9d41cd9c7eca7f3f41fc800bb9d0af12|2018-04-18|Alexander Condello|Add __repr__ to constraint and add name attr
+127300f9e0ffd1edabab833762c5188a2818f2b5|2018-04-18|Alexander Condello|First commit of dwavecsp rewrite
+4ecc6ceb4469c566c0b4079e3bdebacd873d0dab|2018-04-16|Alexander Condello|Move existing tests into legacy_tests
+7d0d227761fec584f80e2356ff7a519bc1dc9d46|2018-04-13|Alexander Condello|Add built-in gate constraints
+28d85a12936f8f2680d73772c7b96e4dba7e7e07|2018-04-12|Alexander Condello|Update the json schema used to define a csp
+6302812232b29de436fa85e459fe141f9e0ace12|2018-04-09|Alexander Condello|Merge pull request #8 from arcondello/doctest_fix
+56d469c6ac81c295ea88589c699a9633ae80bfbc|2018-04-09|Alexander Condello|Add mock install to install-tests
+16be82a5ca8f4b3c1bb956e51ad32fea82c04ee0|2018-04-09|Alexander Condello|Update dependencies in setup.py
+fd7343417c30bc1ae81b71c56c2efbf5efb8d1c8|2018-04-09|Alexander Condello|Fix unicode issue in doctests
+afaa111558c0405554a2d89e516bc119b2b6099d|2018-04-09|Alexander Condello|Add mock to requirements
+53d37ab99af5ef88d669f22ee19d27a1c81df5a0|2018-04-09|Alexander Condello|Add utf-8 encoding to satisfy
+7b871d217b052ec29d99b48c822f87f0dfd8ea6c|2018-04-09|Alexander Condello|Fix convert_sample docstring example
+ffcbdc0234f4245e3a597e53075c3bb87e6b2e33|2018-04-09|Alexander Condello|Merge pull request #7 from arcondello/update_dependencies
+0c4a2b12af812a8c91f89348839c8c9cb681a280|2018-04-09|Alexander Condello|Update to use the latest dependencies
+ca6b71164f359225aa593ab48dbba29fe7f018c9|2018-04-09|Alexander Condello|Add install jobs to circle-ci
+6fd0477b090aa3362707a830e3c90b3b5846525e|2018-04-09|Alexander Condello|Set up for circle-ci
+778a984d6dd43263cb6f25de4b39ab6f66792e7c|2018-04-09|Alexander Condello|Merge pull request #6 from dwavesystems/dev
+cf74ab3c7d4c214bf733a8985caee4d1dc6170f9|2017-12-21|Alexander Condello|Merge pull request #4 from arcondello/refactor
+1bb56a84dc76ec01e4672bea75c70558d1a16ffa|2017-12-21|Alexander Condello|Document satisfy
+97e94ed8df1ee64c06fee767ea6b05ae0a510c2f|2017-12-21|Alexander Condello|Document constraint specification
+c5347651bb4ace17cde63a079172483db99e25eb|2017-12-21|Alexander Condello|Document compilers
+0292d463322a730c4214fd58d43514f65a8005ca|2017-12-21|Alexander Condello|Change the way the .json file was accessed for install
+2712c770fb7350d72ae6736f3fed44fa68697d05|2017-12-21|Alexander Condello|Document utils.py
+13ea9e512869acfb35d7f0252bffe3f91f9285bc|2017-12-21|Alexander Condello|Add docs framework
+fcc5628d18484a44d1cb3d95071d90218a0b62f9|2017-12-21|Alexander Condello|Add template README
+366ef44cd82a0259d5f6168669e94121bbada58c|2017-12-21|Alexander Condello|Refactor utils.py
+153014d97ea2a6bdcfbf37552202a5a1b57bcf05|2017-12-21|Alexander Condello|Add coverage support
+698ec761a228386287f0f87ccd62eec92e401329|2017-12-21|Alexander Condello|Create setup.py
+cf9cc653e461fcf26c0abb0956625150aed27653|2017-12-21|Alexander Condello|Add venv*/ to .gitignore
+19d93c1384d2089173b9cb50d263c879b507ea04|2017-12-21|Alexander Condello|Merge pull request #3 from arcondello/satisfy
+602e7e5bd7a09a3bd1484c4bc57bdec7423bab2d|2017-12-21|Alexander Condello|Add satisfy function with smoke tests
+d59c9faf24ec19168f7ac8396b64777ff76e71d8|2017-12-19|Alexander Condello|Add mock support for python2 for test_stitch
+793b1221b7b7942eae10e57c55a743245f313b46|2017-12-19|Alexander Condello|Remove dimod dependency
+7753d0e6c40fb6163f052dd8e2f07e0a7b8147c8|2017-12-19|Alexander Condello|Add unittests for stitcher.py
+c3d5a192ded91ca1a0303234e84e688033f6e69f|2017-12-18|Alexander Condello|Merge pull request #2 from orenshk/dev
+3ff9f65ab53e5aa70c08d5fd547d5d3dff1785d8|2017-12-16|Oren Shklarsky|linting and such
+93ce78e2bbffea64a41bd547d542d07fafcef8a5|2017-12-16|Oren Shklarsky|Make the `dwave_constraint_compilers` package the top level package, with `compilers` and `solvers` packages side by side.
+deddb78a8971b377dd2d27c48c4d7eb679688a5a|2017-12-16|Oren|Merge pull request #1 from orenshk/dev
+c5f46c0c0c63885ab3b326dfb32dd51c5c834844|2017-12-16|Oren Shklarsky|Redo make_complete_graph for performace
+1656ffd12d701bbcb36c045177ae455657fbe285|2017-12-12|Oren Shklarsky|initial commit
+f0e87615d54194ab4356e91572e5997780229ec2|2017-12-12|Alexander Condello|Initial commit

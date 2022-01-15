@@ -1,0 +1,510 @@
+dc6bf6ec63e8c435fe52b1e00f707d5ce4cdb9b3|2019-01-03|Matthew Harrigan|Use built-in unittest.mock (#197)
+1f242c31381d44c2de4ee12b9fc8ccd3fb34f986|2019-01-03|Amy Brown|Bump version number to 2.0.0b0 (#200)
+4cdb8e782c3ff4ce9ab17df4839eb1de284b2b6c|2018-12-20|Amy Brown|Make example notebooks pyQuil 2.0 compatible (#196)
+662d15007043aff43c0ddeead9c44e0183d39046|2018-12-17|Amy Brown|Make VQE, QAOA grove modules pyQuil 2.0 compatible (#193)
+520c9f72a02408a8b7135159d72d60a64c80dd93|2018-11-30|Amy Brown|Make non-alpha/VQE/QAOA grove modules pyQuil2.0 compatible (#192)
+bf1d29986194af2a8e7f0521656a0c0abcdffadc|2018-11-28|Amy Brown|Make grove/alpha/ modules pyQuil2.0 compatible (#190)
+0189492056c85720a83d9d14e20e0ec284b65fd5|2018-11-27|Amy Brown|Make tests pyQuil2.0 compatible (#189)
+8c27a5d12923d6ace57956db6a249e8d01e33f35|2018-08-13|vtomole|Use nstates
+fdaabbe90ecf5b4c9bd67429139f40c17da4507b|2018-08-13|vtomole|Use n_qubits in range()
+8db2e6045937769fe1dc91908ea9413085f621b8|2018-08-13|vtomole|Define n_qubits variable
+eccd8b42c397eb818071b15c7584a98e604cb449|2018-08-13|ncrubin|Copy program to ensure no mutation in estimation
+b89564b891a745ca628adfd7e630d67d6a7fe1a9|2018-07-24|Anthony Polloreno|Bumping version to 1.7.0
+0285cb6fb9ae388474dc9fb2cacbe21d8e9acf7d|2018-06-27|Matthew Harrigan|Merge pull request #170 from mpharrigan/gates-as-normal-functions
+d6f6deb588b71732cc4627447e57e6ace1cf4e52|2018-06-22|Matthew Harrigan|Place where currying was actually used for its intended purpose
+6239fc3137081192566b33ab82fc1e9bf7ae0268|2018-06-22|Matthew Harrigan|No unnecessary currying
+c80f58802bfc55a7dafe40311be1d03f5cb539b8|2018-06-20|Nicholas Rubin|Minor bug fixes (#169)
+d330efa5eabad64b48970126a9012c2e3596d0f1|2018-06-20|Nicholas Rubin|Return individual pauli expected values (#168)
+a76bb84b383da059742475dde9f544bcdcae280f|2018-06-17|Nicholas Rubin|removed erroring example notebook (#166)
+eb4014a132ae9fffa68a8fe72cc84bcefb0be9e1|2018-06-17|Nicholas Rubin|Amplitude estimation (#164)
+156f758ab838be7b6037f975afa2b057f248871e|2018-06-12|Will Zeng|fix docstring typo in DJ algorithm
+5b3b20700f48287c414bf00228186487798e34d9|2018-06-01|Anthony Polloreno|fixing tests to work with pyquil1.9, in particular due to pauli ordering
+8dc58c74efc572e01e90759ba2654af1530fe0fe|2018-06-01|kmckiern|update test_estimation
+decc5a3ecb4f95bfb0c0d745d028aa43d759f779|2018-06-01|kmckiern|more pythonic
+3217e84e6f98363888bdaaa330eee5dbcac0a515|2018-06-01|kmckiern|remove run_and_measure from operator expectation estimation
+694d44353d91a419362a4b95a0652852a0704008|2018-05-29|Steven Heidel|Merge pull request #160 from rigetticomputing/updating-docs
+4858c9177f9d07fb64ddc6723d258a17b762f157|2018-05-29|Anthony Polloreno|Updating README to be consistent with requirements
+96c1ffa1850ebeba0d526dac84afd346fb2c6477|2018-05-26|Anthony Polloreno|Changing a comment, and removing splat in program generation
+b129bfaf174589accca6523c1cfccb2c1f125666|2018-04-04|Mark Fingerhuth|fixing mistake in ref_ham PauliSum error message
+64f527c808f725ee9a6743139b9302e028e6bce5|2018-03-30|Tomas Babej|qaoa: Condense and fix initialization
+8a10fd5c707ac81cecced02eb681c600d1e9c0ae|2018-03-24|Mark Fingerhuth|fixed triple quoted strings to single quotes in order to avoid unneccessary whitespace
+276156a33c4691fc75f834b4c8fef9545f7e5027|2018-05-28|Steven Heidel|Merge pull request #159 from rigetticomputing/fix_semaphore
+2404470517e11b691a84ebd08e73d4f663359e98|2018-05-28|Anthony Polloreno|fix cvxpy version so semaphore passes
+26ae363e9f5c85dc3aab298daebc9ec5023a32a1|2018-05-24|Anthony Polloreno|Merge pull request #154 from kmckiern/pe_docs
+d8a6d337d5aaffd6cc0468d42aa455e0940a605d|2018-05-24|Anthony Polloreno|Merge pull request #153 from mpharrigan/use-namedtuple
+8096e351c4294f93456b43e37348df273b120d28|2018-05-14|Anthony Polloreno|Merge pull request #155 from kmckiern/jordan_docs
+7c03431b00d2e8324a132a41de367936d7c47385|2018-05-14|kmckiern|clarification
+952214ff66fa037943d8daceb595249c2dcfe9da|2018-05-14|kmckiern|this spacing makes it easier to read
+ba03e42d16d57b546f7ccd4f2c7d70416d748574|2018-05-14|kmckiern|elaborate on phase kickback
+4d69a971e4e405b6304299099d1e802e7a4afcce|2018-05-10|kmckiern|proper markup
+a29dc20fe558ed5bbb98692de9ed3834dcf24df7|2018-05-10|kmckiern|docs for jordan gradient
+5d00701d3d677fba3af7dcaec6fa4c49cfd32e09|2018-05-01|kmckiern|add example to phase estimation documentation
+84dc40d02f4a09c9ad60f46085daf6d403f7faeb|2018-04-30|Matthew Harrigan|Use namedtuple for readability
+7454e17f473528ae147c9677e4e150c8abaf0b82|2018-04-25|Nicholas Rubin|Easy estimation (#151)
+bb7524eec3c27691fb4058bf07cae234f857b393|2018-04-25|Matthew Harrigan|Merge pull request #152 from kmckiern/phaseestimation_update_qft
+e7b3e7dde79e437a92523c37b66e8d952a78fc5d|2018-04-23|kmckiern|update jg test bc of pe dependency
+87b2e649d7e330a5f1de732e96eec74e0d293bb0|2018-04-23|kmckiern|test pe
+871ca6325ce30520a24fda954bed9bfa8396fb73|2018-04-23|kmckiern|update due to dependency on phase estimation
+504f228e9580011474b995b8419e4bb6c9942f22|2018-04-23|kmckiern|set sign convention to align with qtf
+559c0b2d76c714087eacaf0d354f0d9831c24b92|2018-04-11|Johannes Otterbach|Merge pull request #149 from vtomole/master
+71513f2b15c12ec1438ffc81b49336ed26f18c06|2018-04-06|vtomole|Fix link to Quantum Amplitude Amplification and Estimation paper
+c1603ec3dff11755344ed8036d99541b0cbff93d|2018-04-04|Nicholas Rubin|Sane way of doing diagonal basis commuting (#148)
+2df9832a22625fc1142de6cdf713513cef0b3b01|2018-04-02|Nicholas Rubin|Finding active qubits in a list of pauli terms (#147)
+dfd8b77f987fdfa2e5416fe6f1bfa338e15a4233|2018-04-02|Nicholas Rubin|Measurement estimation (#139)
+5c87c1d15e01f83bcbccdd22fcb2b401391a47b4|2018-03-29|Eric Peterson|Change second QAOA argument to a list of qubits rather than a count (#128)
+c1f51f671e5704cb246025b85c9d24d5d8bee2a8|2018-03-17|mstechly|QAOA: removed measure command from quil program in get_string.
+5f8024445263fc8b5ead39520e9e5f019bfe3e31|2018-03-28|Jansen|matrix exp corrected in Phase estimation
+88fb897c65d5645fcc0d122c127639f43b6e5e40|2018-03-26|Nicholas Rubin|Measurements/term grouping (#137)
+6df189c805569d1f9f1c2ee3eca60a3efd5dfbc2|2018-03-21|Nicholas Rubin|Swap test for testing state overlaps (#136)
+4990abc96e222a1ad860402f46032722171c1991|2018-02-22|Nik T|Release v1.6.0
+b44b1715629a1ce47e459efbf91a2c9a6cc8a340|2018-02-22|Nikolas Tezak|Enable the usage of run instead of run_and_measure in tomography (#132)
+24ae104dc2813d51938634a69f8912c77f931c6f|2018-02-21|Peter Karalekas|Use asynchronous run instead of synchronous run_and_measure for tomography (#131)
+9b2ff954f13813be9f132d018856a145250589da|2018-02-21|Peter Karalekas|Bump pyquil dependency minimum version to 1.8.0
+c38fc53ab832cf9426fbe19f5d519e351fb9da6c|2018-02-20|Nikolas Tezak|Allow parallel execution of equal length sequences of programs on different qubits (#130)
+7710cfbf78e3da06e30be2f0a06e39eacbcc731a|2018-02-20|klinvill|fixed forest link in installation docs (#129)
+13356352cc7be78af04689d4d887e44e8c7b43b4|2018-01-03|Johannes Otterbach|Merge pull request #117 from ccoffrin/patch-1
+1115a4630fe25a1300cfcb59b66b036c3423cc9a|2018-01-03|Johannes Otterbach|Merge pull request #104 from kmckiern/jordan_gradient
+ce609a57b4b3806f64eaeb78add07714c49d544e|2018-01-03|Johannes Otterbach|Merge pull request #108 from ampolloreno/grovers
+e07fe80d4a0431f001c42f22e6197bc7645cd07d|2017-12-30|kmckiern|frame phase in way that is more true to original paper, and scale by oom of gradient max
+c30a8d8322d503f289d9eda828c5d3a600895579|2017-12-30|kmckiern|remove unused import
+21601c742f220273035c909319a719ae03e59057|2017-12-30|kmckiern|allow float input as well for convenience
+8d5cc3b5388c9b4228983fc20e98c29cc5b073a4|2017-12-28|kmckiern|inline breaks tests, replace with plt.show
+22de2b75069d909c120b18b5c232882da4fbbe49|2017-12-28|kmckiern|require string input, and test string properly
+0d4608e6807ec3eb832ac03f6357cc6324501f80|2017-12-28|kmckiern|Merge remote-tracking branch 'upstream/master' into jordan_gradient
+6e274a11ab8bd5abd818498c5901cd24d4540c59|2017-12-20|Nikolas Tezak|Merge pull request #125 from rigetticomputing/bugfix/readme-note
+df6d55e644f4ebbbe865a3007daf0ac97cffbb69|2017-12-20|Nik T|Fixed markdown syntax in README
+3b3bdc8786c5754b09f9583b1d785e9d965c69ce|2017-12-20|Nik T|Bumped version to v1.5.1
+f9747211b34592db72b2e80f6f27624ca5c7becd|2017-12-20|Nikolas Tezak|Merge pull request #123 from rigetticomputing/bugfix/compiled-dependencies
+91708233c527cc4ca7542a885b6500452c21c968|2017-12-20|Nik T|Style fixes and coverage
+59f32a703dcb596ed83e0dcbdbaf83c0676a9f1e|2017-12-20|Nik T|Removed redundant dependency section from readme
+9139dabf51d2cc174e405a210eedbbda9415f995|2017-12-20|Nik T|Refactored between utils and operator_utils, skipping unittests if qutip or cvxpy missing
+8de2f84f327908bdabd8c1a5655a1e5361da46cf|2017-12-20|Nik T|Added doc/readme fixes
+2fb0f3e420e69cb28ef0040430eff30f1bde9547|2017-12-18|Nik T|Removed duplicate pyquil dependency from setup.py
+95a0222e57eb2f99f503734bf379887be64395e7|2017-12-18|Nik T|Made sure tox tests doc generation without tomo dependencies
+defd864ebfffad122ebfc2b670c7a6bbca7409d7|2017-12-18|Nik T|Improved readme dependency installation commands
+b827f95b99542794e0a0f6a8d7c75ea552029ec4|2017-12-18|Nik T|Updated tox.ini
+f0524faaac1f90c8e376320a4b91f9414f1079ca|2017-12-18|Nik T|Made tomography requirements optional, documented their installation
+1c2c06cfaf7a39d37e19667e2b9df4a37b0779d0|2017-12-18|kmckiern|remove unneeded catch
+fcb5107174bfaa24594798a55d9a09bd4a71a55c|2017-12-18|kmckiern|rename gradient program function to something that makes more sense
+c9913feb0e2d3ccc566436375708c40c4ea11caf|2017-12-18|kmckiern|test gradient program, in the spirit of qft test
+7e01ccff2a57ca1f6c59dd9f3bd3be4f1121645f|2017-12-18|kmckiern|test both positive and negative binary/real conversion
+d73c5f09de70016b52450616255c2466ba02bcdf|2017-12-15|kmckiern|Merge remote-tracking branch 'upstream/master' into jordan_gradient
+a71686d535cf4fbb532eec37dcfa5888ea8ac8c1|2017-12-15|kmckiern|remove unused
+07197291c6bff3bd779bb5e973ea89ce42227bec|2017-12-15|kmckiern|pep8 None specification
+dc9ae468ae03b86914a5d812de1cd26500e12577|2017-12-15|kmckiern|correct input data type
+a82e6be897047e9cca28e11828b2a624556fd2a5|2017-12-15|kmckiern|pep8 None specification
+fe49d7b41977ec17b1c9c9dd4829aa26cc10bdf4|2017-12-15|kmckiern|two newlines between functions
+fa269a21673460a7dca6e8d8211abbad6fa4e219|2017-12-14|Nikolas Tezak|Merge pull request #116 from rigetticomputing/fixups
+29f4b15658c02dfff5a1420ec5ecf4b00c676308|2017-12-14|Steven Heidel|Update requirements too
+ab4200356c5258f8c26a218fa0a29c47cef5d535|2017-12-14|Steven Heidel|Missing comma
+c61c4687df3f26f90dcc7c56672bd642996e5f3a|2017-12-14|Steven Heidel|Merge branch 'master' into fixups
+984234459632547cbb7ccc4480e8c01f6709a970|2017-12-14|Nik T|Bump version for 1.5.0 release
+0b04034c9ec2c8d5383b7d3335fb741d51ab4134|2017-12-14|Nikolas Tezak|Merge pull request #120 from rigetticomputing/bugfix/demo-tests
+9f570b4bda07f9c18998b567a0c0f12cdcebfe71|2017-12-14|Nik T|mpl backend config, updated requirements
+e66138c9e874eb6085aef3b6f702f0707ba6e99d|2017-12-14|Nik T|Make tomography example run as converted script
+a1eb12698e9930a4a2953d205d146b1f59cd9618|2017-12-14|Nik T|Fix demo_tests.sh
+8b4c45f3382ba0eb503545f27a4d2b30bccea36a|2017-12-14|Steven Heidel|Merge branch 'master' into fixups
+0398d966f6a1cb6000bcdb1a4aed7c90faaae81c|2017-12-13|Nikolas Tezak|Merge pull request #118 from rigetticomputing/feature/tomography-squashed
+3bec981087e306677d456aa850c609e0c6b37b88|2017-12-13|Nik T|Removed pptx :D
+0e60e35e5193f0ad49ad7b7c0c8fedf79e31fd32|2017-12-13|Anthony Polloreno|Adding license headers
+2179d695f096e4e3791f5527a13bf6f9127f5750|2017-12-13|Nik T|Updated tomo example docs with real qpu data
+b3ae813ee8d43f426f6bc7e10598c0c317c8e855|2017-12-13|Nik T|Added real QPU data to tomo notebook
+70e2b0e688bc9ffe00eb493666356d501f32ae84|2017-12-13|Nik T|Added pragma to ensure tomography circuits are not compiled
+b11e26c24163ef133bb058653ddf72ba8fa3739e|2017-12-13|Nik T|fixed version constraint in tox.ini
+24aa42a3495101bd10f1a882cefeeb092b473cca|2017-12-13|Nik T|trying to pin cython version in tox.ini
+67224b7b18b7a25ef3c1288c6062c2e18ca05832|2017-12-13|Nik T|Added tomography docs
+a4a7613efea7214000ecab80ab50e6fed281adb7|2017-12-13|Nik T|Added example tomography notebook
+00a8da0d7c78b7c32020a11883eb31c250e9976c|2017-12-13|Nik T|Added tomography modules and tests
+c2285263b3e02dce8da570a00b8d2b4922a9acd7|2017-12-13|Nik T|Updated module level config
+9e47748a9167d3097a5f5cf5aa62d0af43f36d91|2017-12-07|Carleton Coffrin|fixing bug in two-bit qaoa example
+9f33c72a8c3f1bbec51a8e2bd5ae42412a2d6c4b|2017-12-06|Steven Heidel|Upgrade PyQuil and fixup docs, closes #112
+e2015469998bd30d624d98ccec0c6daf6e5cbec4|2017-12-06|Anthony Polloreno|diffusion_program -> diffusion for tests to pass
+2065bcf7b9618dc9f0290b4025bac1aa08e484e4|2017-12-04|Anthony Polloreno|Renaming diffusion functions to make them more consistent
+c054446fe4ab3d768eca58a3830aac8e35f3e676|2017-11-29|kmckiern|remove trailing whitespace and whitespace on blank lines
+b25d1deb9d07335143b84a13f377c6a97cea3c59|2017-11-29|kmckiern|explain constants in more detail
+5fe896cde5004e777ec55c3cd4717370c82cc4cd|2017-11-29|kmckiern|two blank lines after top level function
+98833b840485d958ef380e7ae12604f5f9708c7d|2017-11-29|kmckiern|pep8 import order, i think
+2b926d92590525dfddb02120a1afe49e4efc22f7|2017-11-29|kmckiern|correct sphinx python signatures
+422f6cb271503cb11bac3c0d407fef046a960aa6|2017-11-29|kmckiern|remove unused real_to_binary function
+e1d7adede7dc2520ed8325a6f53ac0af1062f941|2017-11-29|kmckiern|use endpoint default
+ffc4376671849d44622dfe6763ed8b17944e9b7f|2017-11-28|kmckiern|Merge remote-tracking branch 'upstream/master' into jordan_gradient
+16851d9b0fe674b384ecccc209db0b5bc77dd966|2017-11-28|kmckiern|update qvm specification to align with new pyquil code
+ae00290d162622d8b78d4141fab82e5ce3667ceb|2017-11-22|Anthony Polloreno|updating notebook to use QVMConnection
+e9a3c05fdb390dccda3980c0f28ff7104b357d8b|2017-11-22|Anthony Polloreno|updating tests to work with new pyquil
+7e6ba1886a222c146d72576c924c7b97d7c978c0|2017-11-20|Anthony Polloreno|removing spurrious comment in test file
+617e983aa2bfb5769f46f72786c3897ad49c9cf8|2017-11-20|Anthony Polloreno|fixing test_grovers to work with JobConnection
+946bca9b1769028bc6c4a146926058d35fbe4718|2017-11-20|Anthony Polloreno|fixing broken tests in grover
+5df9b849d03ff8c7a9830baab300e0affc9e18f1|2017-11-20|Anthony Polloreno|adding comment to explain choice of .instructions
+668fa349e7c2cbfda328b887fa0d728dc64d39ce|2017-11-20|Anthony Polloreno|Changing grover to use job connection to be consistent with docs
+dbe079f7d561792835d89a2f61d0934a9ede3dcc|2017-11-20|Anthony Polloreno|Fixing Grover's Algorithm to not define a large number of CNOT's
+dc3765ec51a1c4c3b8c4352b7c69a2c947769476|2017-11-21|Johannes Otterbach|release 1.4.0
+2824101c706ee53105b8ad7dbb7cb012758fbb4e|2017-11-21|Johannes Otterbach|Merge pull request #110 from stevenheidel/pyquil14
+e5932ebf10a01f1e5f93b03f7d7234c839d599fa|2017-11-21|Johannes Otterbach|Fix some breaking unit tests
+e5c9455ae514e53ac8c04927807bc5781147159c|2017-11-21|Steven Heidel|Upgrade to PyQuil 1.4.0
+6a3b436570ec3c23e0dd1268cf428200ff62276c|2017-11-14|Steven Heidel|Patch for Grove to support new version of PyQuil
+7c260dc06277bbd3a65471fa46567af75367ad66|2017-11-21|Johannes Otterbach|Merge pull request #109 from jonathanward/master
+ae10b7e587f9be9051ad1482a903888e39c8083d|2017-11-21|jonathan ward|repaired get_string_method in qaoa.py and added unit test
+829ac65e878d4eaf7d21e455492b3129c01ada72|2017-11-17|Johannes Otterbach|Merge pull request #100 from vtomole/master
+082c66acc760385294ed0a10d77676be28a0a618|2017-11-17|Johannes Otterbach|Merge pull request #105 from rigetticomputing/BumpPyQuilVersion
+89a6dcd8f38972e69bdc25e1f95b139cf59af73a|2017-11-17|Johannes Otterbach|Adjusting PyQuil version
+40d0d694943d8021d8d00ec0a313e87cc44d12e0|2017-11-15|kmckiern|pep8 spacing for unit tests
+d430cbfeff406852d7632e95f49ff686de6db1ec|2017-11-15|kmckiern|pep8 doc strings
+3c23955df0f71e5796fcce9290b1adc29085e3c1|2017-11-15|kmckiern|less sensitive to rounding errors
+b90d534a0d2a5a4418befb2071add726f7700896|2017-11-15|kmckiern|example notebook
+85f59e7a062086d4216d4047e9af9c20fb273917|2017-11-15|kmckiern|specify bounds correctly
+8e1bdb2215343cdc2f9413b8b29cdecf56d78c6a|2017-11-14|kmckiern|add unit tests
+31a9eeadf9de7a7f3a063e15b33390da1364358f|2017-11-14|kmckiern|rename measurement statistics function so it is clearer
+042ac9c8584474c665be32fed3f993584ce9a9e3|2017-11-14|kmckiern|use phase estimation during kickback
+cfa97f7e9ed3498b6070e121e3b574db26b862e9|2017-11-14|kmckiern|Merge remote-tracking branch 'upstream/master'
+dd14e2a93782dbef055cca61e88e9831cb43a2a3|2017-11-14|kmckiern|provide option to feed in qvm if desired
+aa633b35e087b5519a8891dcccca4b802daffa6f|2017-11-14|kmckiern|to help avoid floating point limitations
+c6f4be53d852c23e99f7ae19ec9742ed99209e3f|2017-11-13|kmckiern|round not ceil, oops
+aac855cb0339f87e1046811b9097858201cfe841|2017-11-13|kmckiern|isolate helper functions
+b77e243469388678e5fee7f17fbbd7abe015b033|2017-11-13|kmckiern|for handling the perturbation sign and wrappering the gradient program
+802ec7a1e1c49e32ed479476db17aac5886de135|2017-11-13|kmckiern|more modular and better u representation
+01ff2334e153ff1f88dcbe25d020d8b9432301e5|2017-11-11|vtomole|changed grove vqe import
+63587ab033a0aabd52af6b657600d2d2547f034f|2017-11-07|Johannes Otterbach|Bump release version
+d6c1e8de1cf4632706d91aa9050fd7ef2f86ed10|2017-11-05|Johannes Otterbach|Merge pull request #98 from ampolloreno/DJ-fixes
+8c1ee7e5041d24fdd17b9baae77898fa9aaabb8e|2017-11-04|Anthony Polloreno|Removing extra cell
+77ed1a2dbec519c53c4c2f6555c72bbc5e1a6489|2017-11-04|Anthony Polloreno|fixing broken mocking, and notebook
+9d50631f25dc64ca3cd567054a78a113212f5a62|2017-11-04|Anthony Polloreno|fixing dj padding of strings and job result handling
+96373e72ae6957c8c942043ed906e6f0ad984d25|2017-11-03|Johannes Otterbach|Merge pull request #90 from AsierO/master
+ce6ddfcb6115dcb3b7cfdd0b139bf381465cc0da|2017-11-03|Johannes Otterbach|Merge pull request #95 from ampolloreno/DJ
+35eabc969571f8a4c4c198bb303a9f6f5b00ba30|2017-11-02|kmckiern|binary rep now works for negative decimals
+7d83a34330dc8b7178e00938719671f6abe69a44|2017-11-02|ozaeta.asier@gmail.com|More debugging
+3abd5192680fcad50e3c9bd1065f17a7f4f36dd5|2017-11-01|Anthony Polloreno|updating docs, and cleaning up imports
+a4ec5cb42124c99e9e90f84251d726578f5ab928|2017-10-23|Anthony Polloreno|docs typo
+07dcece4e85fba6d0a148c48bbfb6d446adfed73|2017-10-23|Anthony Polloreno|prereview review for DJ
+435e2b626cb74fe06db63536dc672fe6716018e6|2017-10-20|Anthony Polloreno|Adding a notebook
+0a236576414ce5d42d848c8a05e54f2ca47b01cf|2017-10-20|Anthony Polloreno|DJ changes
+5070273460ee83133eb84b46f4873e7ea4e7f922|2017-10-16|Anthony Polloreno|in the middle of refactoring DJ
+f8597ee8527a2e810baea8334abadda4a527ed42|2017-11-01|kmckiern|fix notation for bounds
+322f8c19db3395a026dfb153fe5c2fd22ad5c706|2017-11-01|kmckiern|helper functions for assessing performance of gradient estimator
+7b595328de25d381e320fe978e6b063d14a23043|2017-11-01|kmckiern|cleaned up everything
+e325f4d6ce6751fabbcee6a51591ebc57522e256|2017-10-31|kmckiern|remove scratch file
+04fe6354eadf9c517aca2b3ea04c7bf69e492db8|2017-10-31|kmckiern|Merge branch 'master' of https://github.com/kmckiern/grove
+61d5f7a9b06d2835c623fe927242b65f184fb79c|2017-10-31|kmckiern|more appropriate cU
+fe946514635a12c4a86c40d193cee4ad29781a34|2017-10-31|kmckiern|better application of cU^{2^j}
+5ceeae98d936887cf2f2212b431c37c76d9993bc|2017-10-31|Keri McKiernan|better application of cU^{2^j}
+339e595090715900a621df34b1b44b0d2492898b|2017-10-31|ozaeta.asier@gmail.com|General debugging
+f30c35a766daa3419af40756ad0048483f2cf756|2017-10-25|Asier Ozaeta|Removing unwanted changes from SimonsAlgorithm.ipynb
+409aef0d95cd4ee7749f2e453ea25ee3de4b7388|2017-10-25|ozaeta.asier@gmail.com|demo, test, and general debug
+af0469ca9dc0f8b42860872d32b57f15582cbb3d|2017-10-23|Johannes Otterbach|Merge pull request #94 from mpharrigan/docstring-warnings
+4f9e65f334ac9b6b04814a10c44abbb216568b3d|2017-10-20|Matthew Harrigan|Fix docstrings
+31513331710eae365d761bfa17b1cb9abdea4ec1|2017-10-19|Johannes Otterbach|Merge pull request #93 from ampolloreno/grover_example_and_docs
+dd58be51e418968c1f534918062db720512414f1|2017-10-19|Anthony Polloreno|more changes to docs
+9bea017a142dcf58fc182de3078c1af699c95baf|2017-10-18|Anthony Polloreno|iterate(d) typo
+a0bcf573034c1bed0bb5a4fb0c6bd3c3c9a9722c|2017-10-18|Anthony Polloreno|Trying to make an example make more sense
+a90ad971297ee7c2b5f975e39fa250161b3561c1|2017-10-18|Anthony Polloreno|adding a ket
+ff6c1afe0f27bcd135418a437587e66d2ec76645|2017-10-18|Anthony Polloreno|adding more changes to grover docs
+ad20e0f253f94a284e025e62d6d2d7b76b6dc27a|2017-10-18|Anthony Polloreno|Cleaning up Grover documentation
+e00f0ec61cfb96a19528f1734b13ae948f7824c7|2017-10-16|kmckiern|pep8 ier
+55683af9de093b1f501c319a74a04ed259f26b46|2017-10-16|kmckiern|cast measurement distributions st .5 goes to 1
+f22513467dc77503a9fa84ddc76e81b4968276da|2017-10-16|Anthony Polloreno|notebook changed, tests really working now
+29ced7217f62f27c67daadc3b76178aa918dcbb5|2017-10-16|Anthony Polloreno|tick tox tests are passing
+7968e87dee2d50b96e9fe496abbb4c78fd964464|2017-10-16|kmckiern|fuller docs
+9e5aeb484fb604c8d40e942b4e8c06ad06f562b6|2017-10-16|kmckiern|fix shift, ensemble query for test line
+4f305d0784d06c94eff6a2af6adbd444cdbd021a|2017-10-16|Anthony Polloreno|intial code review for typos
+6d47261a4ea2f01257ed7772a28ef19e1c6cfbfc|2017-10-16|Anthony Polloreno|removing backup
+7560328ac31c9345b541c6662ab76645b47e7dc1|2017-10-16|Anthony Polloreno|less agressively cleaning up the docs
+5c65963ca1ed3b55751d75560fe0f6b1ef23bef5|2017-10-16|Anthony Polloreno|cleaning up the grover notebook more
+30486640039563bd959bb0ac70a92cecaa6173d5|2017-10-16|Anthony Polloreno|reorganizing the docs, and making an example for grover's algorithm
+ce2331d178ee8be72ef79e3bcb2146b9bed05971|2017-10-12|ozaeta.asier@gmail.com|QAOA for Ising models with external fields
+7cba6261d1dc1ff773cbb15a50b3c471a80a848f|2017-10-12|Johannes Otterbach|Merge pull request #89 from rigetticomputing/moar_grover
+08762365106bbd14be3c896468b80d65b47ce6e8|2017-10-12|Anthony Polloreno|reverting docstring changes
+e27b1a1e3547a74d9bb2946441f1402470325466|2017-10-12|Anthony Polloreno|removing unused import
+b6405a366d0edddc2788f0a0b8bcf2a380c4fab9|2017-10-12|kmckiern|debug state
+1f0058db113e28c5bcde449c0cb054ed69f7bb3b|2017-10-12|Anthony Polloreno|removing stray print
+8390a1104f30fba5f316c55eab75d9e90e99aac4|2017-10-12|Anthony Polloreno|removing stray character
+85faba07e85ca06ca894e3402602d6825282d992|2017-10-12|Anthony Polloreno|Adding ability to run Grover's from the class
+b8b477ed333845b865c6ece854a2c8b9e7898ab8|2017-10-12|Anthony Polloreno|Adding the ability to run Grover's
+076356f5cdb2eb332973a3ef43d981fb2a11947b|2017-10-11|Anthony Polloreno|defgate doesn't work with square brackets
+f16cdcf17d369b59b304f03622f3cb8c5562d52a|2017-10-11|kmckiern|outline of algorithm and beginning of linear 1d test
+556c568c7e040954f890e140e36d9ae351dd57a8|2017-10-11|Johannes Otterbach|Merge pull request #83 from ntezak/bugfix/issue-80-amplitude-amplification-docs
+c9c8713f1fe14ede7505672b5c02bf8bdb679564|2017-10-11|Johannes Otterbach|Merge pull request #87 from rigetticomputing/IpynbExamples
+e2c2a0e43b5099b2f1026db18ae078d6d8b3968d|2017-10-11|Johannes Otterbach|Proof of concept for testable Ipynb
+5084356cfcc3e8ad257de0e524c828826180f7b8|2017-10-11|Johannes Otterbach|Merge pull request #86 from mpharrigan/patch-1
+8183b0a4580433f68f9718fce3c2b989e0b85836|2017-10-11|Matthew Harrigan|Remove teleportation from README
+7d9f0bd06364fa71bae76233f906c8b5249430c4|2017-10-11|Johannes Otterbach|WIP
+78bad35f648e1670b5a246ab7bbd322c1d8f8457|2017-10-11|Johannes Otterbach|import reorder
+589f90f9cccf3a19c088cc7a7fdcad531c0aeb82|2017-10-11|Johannes Otterbach|Merge pull request #85 from rigetticomputing/ImproveSetup
+b6660087200b8d53c0139f7a8a3d390ed9e84251|2017-10-11|Johannes Otterbach|Fix docs build
+e38db7ca6f5793af0d340d47cf7bd6b961ab18ff|2017-10-11|Johannes Otterbach|Merge pull request #84 from rigetticomputing/ImproveSetup
+86a20fb6dfa8a49066f3e3e58a40e5ec9092c8c9|2017-10-11|Johannes Otterbach|Add docs build to tox
+24f80a11d704c2e5b16626f2f6f11634be654afa|2017-10-11|Johannes Otterbach|Merge pull request #82 from rigetticomputing/ImproveSetup
+dde9331c3ae7ee28342063636fdf1a124e52437f|2017-10-11|Johannes Otterbach|Unify version source and use find_packages
+e8ec04e0cf8fb3ca9579c5011a55ec2952ac17ea|2017-10-11|Nik T|Corrected docstrings of amplitude amplification
+82935acb4ed3406fbd606689d332d1ca8ad8a17c|2017-10-11|Johannes Otterbach|Update docs config
+db9f6d6c84987dc15f0935b16c87f9bb4951874c|2017-10-11|Johannes Otterbach|Update Docs Badge
+bb09a64a827737f2f73836cb7210c6d10dd4581d|2017-10-11|Johannes Otterbach|Bounce version string
+bbb4ecce0932dacbacc96a44a1a69a819decb6be|2017-10-11|Johannes Otterbach|Merge pull request #79 from rigetticomputing/MoveAlgosToMain
+618828f6716fded1b529a03f11192289914ebaad|2017-10-11|Johannes Otterbach|Adjust coveragerc
+f8c5026810fd27a0f6e9e9ee83c8687d40a96b38|2017-10-11|Johannes Otterbach|Fix some docstrings
+0d28b5dc6af998b3be34cc3ebd8bdb073a84e585|2017-10-11|Johannes Otterbach|Fix doc build
+107f284a096a4c1ee7a5bd89fde8b9368105f422|2017-10-11|Johannes Otterbach|Move AlphaFeats to Main and restructure
+291fda5792420f02fbfc9f63db029780272df814|2017-10-11|Johannes Otterbach|Merge pull request #72 from ampolloreno/cleaning_up_grover
+ac6b6d90cc4aec0a1c50e364fd49c38f74055735|2017-10-11|Johannes Otterbach|some minor fix ups
+c106f19db5107733d196f93bfc49cc291254c211|2017-10-11|Johannes Otterbach|Fix unit tests
+188a15ce53251db3229690687acbb0023ab4adc4|2017-10-10|Anthony Polloreno|addressing code review
+102b9285ef61fe966189c772a64b654f60c39dcd|2017-10-10|Anthony Polloreno|casting to int for float error
+cdb21600aa358184fdf9f4e53f98a65bad47da9d|2017-10-10|Anthony Polloreno|Grover is now wrapped in class
+7dbee4712cb770016b9481540269c44ee89c7293|2017-10-10|Anthony Polloreno|renaming oracle
+622ee324203867b433d0e2abcae9c3ec468a11b8|2017-10-10|Anthony Polloreno|changing docs for amplification to make them more useful
+88b7a188cd2e76e5d655954cb112d1270be061dc|2017-10-10|Anthony Polloreno|controlled gate decomposition refactored, and tests rewritten
+78cac096c97ecd3193353934eca7409289387c94|2017-10-10|Anthony Polloreno|Changing up grovers
+c6431ddf3dfee469a8b19a1288f47882ecbff00a|2017-10-10|Anthony Polloreno|amplification is now cleaned up
+b40fa9e04cf6abfa8c38d110f3a7b1f212514db5|2017-10-10|Anthony Polloreno|removing utils
+afa413e1b32477d6a374e170336f2c558bb0f377|2017-10-10|Anthony Polloreno|oracles done and working
+a2e9a1884bd4de6fd5b21e4ccd2e0e183e560c4d|2017-10-09|Anthony Polloreno|cleaning up grover, variable names and docstrings
+37b0aa5b16a15d8eca862216c086f31a0c6b0848|2017-10-09|Anthony Polloreno|first pass at cleaning up controlled gate builder, and some refactoring
+1e430157b27fdb796281ee5b2d2ef4826d0cba30|2017-10-07|Anthony Polloreno|removing print statement
+c366de6d82950c09496c3b89809da420d8400f9d|2017-10-07|Anthony Polloreno|reverting fermion test changes
+2deb99f6f67a771dd5be0d8cf8a079fc9eb9671d|2017-10-07|Anthony Polloreno|fixing up citations
+d4a768d8fc1615d6318072917ef23bbfac83368f|2017-10-06|Anthony Polloreno|making grover easier to use
+ee15c45f856ae767f856602588607f2e48deb551|2017-10-05|Anthony Polloreno|pyquil util len
+6db7132c9e0c5e2ec35d296dbbba543bda3417fd|2017-10-05|Anthony Polloreno|Adding tests for utilities
+4c10022aca06f8d3869536940b32d1c06a4633e0|2017-10-05|Anthony Polloreno|fixing grover test coverage
+77ce17ecb0b4b8f54dd7ed6ff40c3eb87c1d27c3|2017-10-05|Anthony Polloreno|tests pass, and pep8
+7f906bd154bda99a7c7eb9b4ba38e9b3336b2f9b|2017-10-05|Anthony Polloreno|Cleaning up some more, fixing diffusion operator
+8711198df4600e2c214365409e54f01a31878869|2017-10-05|Anthony Polloreno|docs now link types, grover's is split and tested, working on getting oracles working
+689302924b1943c2fd107a3a217570982b7ccf8a|2017-10-03|Anthony Polloreno|Some restructuring, and PEP8
+b7e9ce3fb4a44d44ede4a7743ff37fe9bab5a8e4|2017-10-10|Johannes Otterbach|Merge pull request #73 from rigetticomputing/RefactorSimon
+86d1ea33b173d46001d0d98b0f4f64662f9307be|2017-10-10|Johannes Otterbach|Merge pull request #76 from rigetticomputing/RefactorBernsteinVazirani
+0ec3dc0c673fb738af40fd18af7732e7d671b863|2017-10-10|Johannes Otterbach|Merge pull request #77 from rigetticomputing/RemoveTeleportation
+e107545b460f1ccf46b0fc1135caeac9d92c5bae|2017-10-10|Johannes Otterbach|Remove teleportation from setup.py
+169b4b07cab5b9ab738614b1fb0daa536f642fec|2017-10-10|Johannes Otterbach|Fix rst multiline link
+051fd0a5925657eb2b95a46b5e4deeb092b0eb69|2017-10-10|Johannes Otterbach|Address more CR comments
+0440b15be3be50a6058e5e42a961b4677a8dd090|2017-10-10|Johannes Otterbach|Addressing CR comments
+1f9c2aab8b75346d5f61b660ac2427f8e023cd1a|2017-10-10|Johannes Otterbach|Remove teleportation
+54fcb661ab5cb853eed9aed9e7e37877e21ed1ef|2017-10-10|Johannes Otterbach|Clean up imports
+6ed3ec6dec2471fbac14c37ab5ca5c959c84fb90|2017-10-10|Johannes Otterbach|Remove Magical Oracle Circuit and use defgate oracle
+c718d7829de133c5e38f36af4585b73aa5309357|2017-10-10|Johannes Otterbach|Working version of BV
+9d082e8b29c1b446beb4bc50738ae4ccf4cd059c|2017-10-10|Johannes Otterbach|Class structure
+514c0b051a33eb6b7a0cdcf7637f6c380a0e141d|2017-10-10|Johannes Otterbach|Test coverage using mock
+af3c6dd90fb613283a28393dcc83952f84a7c100|2017-10-09|Johannes Otterbach|Can't index into generator
+7759663a162df5a261ff95a1da25422754fbd458|2017-10-09|Johannes Otterbach|Address CR comments - round 2
+7a7dbebbeb072e336c2f56a9ce83842beec4b4c0|2017-10-09|Johannes Otterbach|Merge branch 'master' into RefactorSimon
+a63534acec4ef7a14d4681e52d0399b352dbef37|2017-10-09|Johannes Otterbach|Merge pull request #75 from rigetticomputing/fixing_jw
+4d4e72b58d507afffd29c7509a218b33e11dd283|2017-10-09|Johannes Otterbach|\xe2 vs ascii -
+752e045fb9a5409b000eb0fae0209be1d3c03233|2017-10-09|Johannes Otterbach|Merge branch 'master' into RefactorSimon
+1a11cbf44d6344d3877f2f06c0cf39406da1606c|2017-10-09|Johannes Otterbach|Addresses CR comments
+d235fa7f45a6230dcc6caddf950b0aa98ca78792|2017-10-07|Anthony Polloreno|removing cap to requirements version
+096b657c6ddb5878addef0b0985be87fc72ccf8a|2017-10-07|Anthony Polloreno|fixing pyquil coefficient errors
+40538b7f4d492934200cad04f4a1bab312ba400b|2017-10-06|Johannes Otterbach|Modify simon.rst
+8b60b08f0c1a5cbe8037ac57b8ea2e6053353f26|2017-10-06|Johannes Otterbach|Fix docstrings
+b85c9290862415e4ab176d1151b77f0be96e9c32|2017-10-05|Johannes Otterbach|Cleaned up - now more docs
+e729187d40fb72966e1bfc23a3e335168b5f5231|2017-10-05|Johannes Otterbach|Working Simon Impl -- needs cleanups
+9f04114340bf6b46f4fc3d6eff5733ed4c77edfd|2017-10-04|Johannes Otterbach|some more cleanups
+af1a904044ce41b159d6b5ddeb7152072baf8a80|2017-10-04|Will Zeng|Merge pull request #71 from rigetticomputing/unit-test-patch
+9cf3bc53e0899a4e0c93efe16b6bce1e64b70d24|2017-10-04|Johannes Otterbach|Update requirements.txt
+403047ec26f27d3d834d12050225c3c37d49c07d|2017-10-04|Johannes Otterbach|Purge remaining items of 2-to-1 encoding
+bcad7bff7a2c3bbb931ef59b3851ebb075df561c|2017-10-04|Johannes Otterbach|fix pyQuil requirements
+af458c2261548692a8f5a504baadd31f3d95f6fa|2017-10-04|Johannes Otterbach|Drop 2-to-1 support for Simon
+df037f4762966935b9c64219c9903931b912af44|2017-10-04|Johannes Otterbach|Refactor some utils
+ba99e40d22cb02b8bea66c85aafc62ded3306c15|2017-10-04|Johannes Otterbach|Get some sort of self-consitent Simon
+6feedb7808cd91462fe5ecec92f79ddb96a0a302|2017-10-04|Johannes Otterbach|Basic code cleanups
+9da835d8c7c58e95c3f39e551c3d6994c82baa8f|2017-10-04|Johannes Otterbach|Remove main method - was broken anyways
+f3728672445bcde513a70b9ced2ade00742f63d5|2017-10-04|Johannes Otterbach|Structural refactors - 4
+b9f081bbce0f636f04775359269380b2b07b1e9a|2017-10-03|Johannes Otterbach|Make sampling construction more apparent
+eed6e2a3ceffc2d1a3ec7009609730687341f614|2017-10-03|Johannes Otterbach|Structural refactors - 3
+64269f068c6e62418b0016211a7bada61c8f810e|2017-10-03|Johannes Otterbach|Structural refactors - 2
+240c606b9659b6ec53affcc23177c3eac4887746|2017-10-03|Johannes Otterbach|Structural refactors
+d84e4404228f7f3dcf47e58de6eef55394ec98bf|2017-10-03|Johannes Otterbach|Almost 100% coverage in Simon (except main method and exceptions)
+4d0bcfa32a2e0cd5fed06d3b5a897923139b2a20|2017-10-03|Johannes Otterbach|Remove awekward test wrappers
+b093fd9aae46b80eb0d3f1328a186fe9368ac0db|2017-10-02|Johannes Otterbach|Merge pull request #69 from rigetticomputing/MoveToAlphaFeatures
+e311247749c5e3ebe35f1ade52edc0737cc375bd|2017-10-02|Johannes Otterbach|Merge branch 'MoveToAlphaFeatures' of github.com:rigetticomputing/grove into MoveToAlphaFeatures
+77be3be6b39995732fc9950ebf937d2b79e9159a|2017-10-02|Johannes Otterbach|Add missed package imports
+89b5a3ec50b7aaab6eb880585d91e5a0531d12cd|2017-10-02|Anthony Polloreno|pep8 import statements in test_simon
+aa20af11a9ad9de578e9632bd480362d2448f7b5|2017-10-02|Johannes Otterbach|Adjust README
+8459472b13bac695a72357a1d675aabfa992a995|2017-10-02|Johannes Otterbach|Add new algorithms to alpha folder
+18c5c2c92a5539ff9e6c46a160db6ac424d91ff6|2017-10-02|Johannes Otterbach|Merge pull request #66 from rigetticomputing/BugfixInspectionRefactor
+2bdb843a9b372b9516717978eecde013245ffce3|2017-10-02|Johannes Otterbach|Remove sneaky edits
+4886cfde5cdb610dd39827b8048c38e8430fd483|2017-10-02|Johannes Otterbach|Mock the funcsig correctly
+3e10a084674d7f97b0aeda7b17fdb0e2825059d4|2017-09-30|Johannes Otterbach|return well formatted args list and ensure right initial wavefunction
+655d3e365017b475e37c43d88684bd2047071f03|2017-09-22|Johannes Otterbach|Merge pull request #63 from rigetticomputing/SomeMissedFixesInPython3
+ffce586a0da969481eda0523a1da853382b1a6be|2017-09-22|Johannes Otterbach|More about true and int div in Python3
+a22b78ce124a622fe914c475a725ef1bbe4aee9f|2017-09-22|Johannes Otterbach|Merge pull request #61 from rigetticomputing/Python3Compatibility
+e59db401cc3aa7376e4e9ab3be18d4d6f716ba50|2017-09-22|Johannes Otterbach|Updating README
+f4af882aed4b8982ab97f695494286195a32b09b|2017-09-22|Johannes Otterbach|import six to unify raw_input and input. Also some PEP8
+11dd00ccfde076e489bbb71bf98296323473256c|2017-09-22|Johannes Otterbach|Importing funcsigs to make inspection backwards compat. Also patching shitzzzz
+2ce70e730055ec6c430fb04ae4cfb5d12f5a1c9c|2017-09-21|Johannes Otterbach|Functional python just isn't a thing ...
+6eb080dc99cb1c197e06be0064b4d7d00d9de3f1|2017-09-21|Johannes Otterbach|intdiv -> truediv -> intdiv ... oh holy python ...
+884b1136d1966cbc255c9a48e53cc00f23811335|2017-09-21|Johannes Otterbach|Fix map(...) to list(map(...)) because, ya know, python 3 ...
+192a49281c9c81ac324f397d95df400a845f36aa|2017-09-21|Johannes Otterbach|Fix some unicode strings
+b4409e18dd5c77aabc4e42543ec06cb7a7de6271|2017-09-21|Johannes Otterbach|Remove deprecated xrange
+cf3f70f55e27bdfe0574762435118cf986f55a84|2017-09-21|Johannes Otterbach|Fix py27 after PEP8 touch up
+857b8416f3a15087d72bb734a255c9a912129974|2017-09-21|Johannes Otterbach|fix prints and some basic PEP8
+ebcca1a1891a87cd43f340631d86972c0e6025b7|2017-09-21|Johannes Otterbach|py36 env for tox
+552e94477e0874a6deed22d88d0bdcd373179b5c|2017-09-21|Johannes Otterbach|Merge pull request #60 from rigetticomputing/RequirementsAndTox
+5a0d10c4002cbadf82af6a2c4128acac36ddafb0|2017-09-21|Johannes Otterbach|Add requirments, coverage and tox
+924c4a3e22cdb618778387bc41f4f2216c084450|2017-09-06|Will Zeng|Merge pull request #58 from rigetticomputing/bugfix/55/add_pyquil_doc_dep
+1bcc24fb514f4386520faa306571d4dbd504eff2|2017-09-05|Dan Girshovich|Adding pyquil as a dependency to build the docs
+b9e49d21c61455e358aac739e2b16fcdef457278|2017-08-23|Will Zeng|bump version to 1.1.0
+dd397869e5462f2500fb08581fb3ad27d7b11494|2017-08-15|Joseph Lin|Remove unnecessary print statements from simon module (#52)
+c7b5562107739261a8fbd80567f3f491091ea12c|2017-08-04|Aaron Vontell|Amplitude Amplification (#36)
+bda3c5ae4f6c517ae78e478b763789c4d23b8c25|2017-08-04|Richard (Licheng) Zhu|Bravyi-Kitaev fermionic transform, via Fenwick tree (#51)
+06fb1316ec4452a426a5b40443044195a1cb8932|2017-07-19|Robert Smith|Merge branch 'joelin0-bernstein-vazirani'
+ffee65f67426dd230a7b1430d5e86535045e48f5|2017-07-19|Joseph Lin|Merge branch 'master' of https://github.com/rigetticomputing/grove into bernstein-vazirani
+2806a6d699257554289a84a5fae58bb63b8f9622|2017-07-19|Joseph Lin|Change name of run method in bv, update cxn to be any Connection object
+39ddcee39ad0912e3e919448189c6c185d6566b2|2017-07-18|Robert Smith|Merge branch 'joelin0-simon'
+fb1f8afba986692812b9c01eff69f750ff98a6c7|2017-07-18|Joseph Lin|Merge branch 'master' into simon
+165d2f5a04e666c5c7a0e094e77473a81867f0b3|2017-07-18|Victory Omole|Fixed link to hybrid quantum-classical paper (#47)
+807cfb4c7c1ac59cd99d719c173afbb19fba7b4c|2017-07-17|Joseph Lin|Make minor changes for PR review
+b4d6c587091c356b76d1a6dd5c45d17e1058dbe4|2017-07-17|Joseph Lin|Remove print statementes from test_simon
+11d8206ed09fa0136c207c637b509851fbbdabb0|2017-07-17|Joseph Lin|Make changes to the readthedocs file for simon's algorithm
+1c64b1b77efee6e93a79bf2ef98027ee1e082013|2017-07-17|Joseph Lin|Rename insert_into_binary_matrix to include row_echelon
+37a92179c69bb3b53370053a88081a0a1256bbe6|2017-07-17|Joseph Lin|Have unitary_function also check for consistent mask
+8f45ad25ff9de27453b2c55f4fdd6804c2368a89|2017-07-17|Joseph Lin|Add license and change assertions to proper ValueErrors.
+979c32d05ed12901ac290e6556e0e40319de9b85|2017-07-13|Joseph Lin|Merge branch 'master' of https://github.com/rigetticomputing/grove into simon
+dc0737f445d8351ced7800f7e32fd7c459c54529|2017-07-13|Joseph Lin|Merge branch 'master' of https://github.com/rigetticomputing/grove into bernstein-vazirani
+6d7ae6ee331017b4e2c9ebce51c5d47cda9f4898|2017-07-12|Harley Patton|Feature/deutsch jozsa (#26)
+dac8aeebba6dcb38705f82a6e5dc12db5b2f6676|2017-07-08|joelin0|Feature/arbitrary state (#41)
+2b669209ce7232a514dbd83d1df5634d1004c59b|2017-07-06|Joseph Lin|Remove unecessary identity gates
+1f2ef370ce654a780153fffb33ca45064b2fff2b|2017-06-29|Joseph Lin|Rename test, make binary_back_substitute not in place, test binary_back_substitute
+e97394d7aec714bde671a3df4324b8789b7bfb86|2017-06-29|Joseph Lin|Add tests for make_square_row_echelon
+d19b871155ee6364b02a99954af16ba7e6960839|2017-06-29|Joseph Lin|Add test for insert_into_binary_matrix
+8337af58942854760c7ddeac71d6696e1883b15d|2017-06-28|Joseph Lin|Made some minor documentation adjustments
+254cc32b1e9ccb976c197c25ceaf0addd3600991|2017-06-28|Joseph Lin|Make minor changes to reference order and change U to U_f
+b00b301110dc4bfbd63403ec6ff025f53dca0c4b|2017-06-28|Joseph Lin|Add writeup/explanation for Simon's algorithm
+d74cb0b99a254b8f79aeb308dc7ad88f0994ec14|2017-06-28|Joseph Lin|Modularize find_mask by creating several new functions, and add documentation.
+da9662d34b8d373fcec6265b946f404b6e0a4f46|2017-06-28|Joseph Lin|Add documentation and adhere to PEP8
+c96a3b65f70f24c778d4b8837aefb4ee6e9d6163|2017-06-28|Joseph Lin|Add ability to detect one-to-one or two-to-one
+5fc337f34e6c25951da4add87eff81a0d5ae1510|2017-06-28|Joseph Lin|Account for one qubit condition and revise documentation
+a290b72fc426ddb154b04f705e31ed541d81ace2|2017-06-27|Joseph Lin|Add overview dialog to the docs page
+26db55a10526bad7e5b4eecb505fbde0f0addf40|2017-06-27|Joseph Lin|Make range in tests into xrange where applicable
+5087018fbbaa7f5db150e7c4672b4eaf604c4b32|2017-06-27|Joseph Lin|Add checks in oracle_function to assert preconditions
+e9c16df77d3e34e06b4585fcdcaeacbc18b71c9c|2017-06-27|Joseph Lin|Complete adherence to PEP8
+9eb51e2005a12c87600b75a6f6f386d661662a38|2017-06-27|Joseph Lin|Make fixes to conform with PEP8
+449ba1ef283d205f9f73157508fcd485f0a15d92|2017-06-27|Joseph Lin|Refactor documentation so that it builds in readthedocs.
+893fd03336eddf84da398db604fd29efa9a10c46|2017-06-27|Joseph Lin|Move scratch bit inside and alloc and free it.
+6c1c196bd87c235f66052560577028c09f59f5dc|2017-06-27|Joseph Lin|Refactor run to take in oracle rather than function paramters directly
+bb282876450aad4c03e03b366bfde18057f42c9d|2017-06-27|Joseph Lin|Refactor find_mask to take in oracle rather than whole simon program
+111c4840858dac8e51ba4241d3f6dafca16e02ab|2017-06-26|Joseph Lin|Move computations out of main and add tests for Simon's algorithm
+0d4f15c37fddb8cf1641a669ea72020af69cbc2c|2017-06-26|Joseph Lin|Skip tests since qvm cannot be run
+fcc934b80748784ba2249170901be70680963cc2|2017-06-26|Joseph Lin|Add test cases to bernstein vazirani
+8d1a8f23f4bf683a83149a1cf02c7b28a159d158|2017-06-26|Joseph Lin|Move out running the program out from main to run method.
+f978e1055abc3bf443bffb88e2ea53a8de5addfd|2017-06-23|Joseph Lin|Use indices directly rather than alloc
+e6cb4d0f6fc35bc0b16cf49510a1216913346954|2017-06-23|Joseph Lin|Change mappings to be to integers rather than bitstrings
+10d06d6dc359e2009c7012b93331d72a5c73fbd5|2017-06-23|Joseph Lin|Refactor some code to use built in functions rather than defined helper functions
+f36168360ad43145e068a43e9b43c25463bf94aa|2017-06-23|Nicholas Rubin|Merge pull request #35 from rigetticomputing/feature/multi_ops_JW
+9abaa0c7f815e3ca6edbbca68825e0fe4b61b7d3|2017-06-21|Joseph Lin|Add reference for further information.
+06abcd4896dd64073edda75a6fd87c9225424057|2017-06-21|Joseph Lin|Merge branch 'master' of https://github.com/joelin0/grove into bernstein-vazirani
+413b0b683246cf4d9db6b6796437ae4fb960528b|2017-06-21|Joseph Lin|Merge branch 'master' of https://github.com/joelin0/grove into simon
+53e245e09b3eb25c4224b89b696dbcb8badf232d|2017-06-21|Joseph Lin|Add tests for helper functions.
+7fbd9b0902d4bdc3c046d3abac3cab1a352a1ab4|2017-06-21|Joseph Lin|Fix pyquil 1.0.0 compatibility and getting the b bit.
+4e99307ecd5a9edf3af5b13ce40e78c8526158e5|2017-06-21|Joseph Lin|Add documentation and update forest to api for pyquil 1.0.0 compatibility.
+00dc0095642d8684927eebc4bc6d110020541337|2017-06-21|Joseph Lin|Remove blackbox_algorithms from this branch and clean up stand alone bv code.
+cc8bdbec88c8988d2058dc8de6ad98d877a22677|2017-06-20|ncrubin|Construction of products of second quantized ops
+d437551dcb3e93719c3a4313285113550fcba076|2017-06-18|Will Zeng|Merge pull request #32 from rigetticomputing/onepointoh
+1d7f4d002250268bdc64c50b2c4d663930e6d912|2017-06-18|Will Zeng|import upgrade bugfix
+efcc3b05bbe008428e93447084ac9d1c7af16b9e|2017-06-18|Will Zeng|fix refactored mocks for api
+7c2e85fe2d02ba2665654ab436c005b1ce2cdea4|2017-06-18|Will Zeng|upgrade grove to compatibility with pyquil v1.0.0
+80256f24ad46156c91c4c48f61e8b9f9313a2f27|2017-06-16|Joseph Lin|Change bernstein vazirani to use CNOT gates instead of one big unitary
+270cf176949ba3be5d9a06324c74884c81a92e1d|2017-06-09|Will Zeng|Merge pull request #28 from rigetticomputing/updated_wf_with_amplitudes
+dd1dad8f66a86ec88d8a764fb6e2118b1087bed4|2017-06-08|Nick Rubin|Adjusting W.F. use to pyQuil Wavefunction obj
+90cda5de58973dc73569e023a88c6ea497bfd921|2017-06-08|Joseph Lin|Added implementation of Deutsch-Jozsa with BlackBox class.
+6e5eb1b9f3ffbb4849c465c868dbea518072a700|2017-06-08|Joseph Lin|Implemened Simon's Algorithm with the BlackBoxAlgorithmParadigm.
+c3f5b9949c1394459862358ab421d21e9130af17|2017-06-08|Joseph Lin|Implemented Bernstein_Vazirani with the AbstractBlackBoxAlgorithm paradigm.
+0d8ec8fc8e676dd172c72a6e78cee0cde964e33b|2017-06-08|Joseph Lin|Attempting to move everything into a black box class, beginning to try to write BV algo with it.
+bd1065e208d417317a7b51023337b90d94bf9cde|2017-06-07|Joseph Lin|Added a more general, blackblox implementation that currently reimplements bernstein-vazirani. Will try to adapt others as well.
+77bb105863ec9ace81b7e6ca9229c691f64819fc|2017-06-07|Joseph Lin|Removed unused index_lists.
+e2bb000faa521e0637f64c8c62de8070eacbd11c|2017-06-07|Joseph Lin|Minor clean up. Note that tests are still needed, as well as functionality for detecting one-to-one.
+e3d215b584e075de92368b68ea4e29e39655ebf4|2017-06-07|Joseph Lin|Now finds the final, non-orthonormal vector and is able to return the value of the mask.
+d20a29cdd518669570854731866518c0a6da0e1d|2017-06-07|Joseph Lin|Am able to generate a row-echelon form matrix of vectors orthonormal to mask s.
+3b76e88a34d8d1dd0482f592d74ee8457d805332|2017-06-07|Joseph Lin|Modified integer_to_bitstring to correct for it being backwards.
+79f7729301b2dbf1231ef8c686fbc1760013430b|2017-06-07|Joseph Lin|Changed input to raw_input. Also removed measurement of ancillas, which are not necessary.
+68194270334b858994de388b420d6f07d9e9b113|2017-06-07|Joseph Lin|Added ability to simulate Simon's algorithm, up to finding values of y and z. Need to post process result of many trials.
+f5d83e7803563ac27ef06f6fdc779d2f5758eb13|2017-06-06|Joseph Lin|Made changes to index tracking to use a map, thus avoiding making a list and popping.
+4563c7ebfd7641efe47dd63c985fce5003a6066d|2017-06-06|Joseph Lin|Added additional documentation.
+cf73c43f33d024ba496c6885ee4e07545f037f34|2017-06-06|Joseph Lin|Got a first pass of the algorithm working, with references to Harley's Deutsch-Jozsa implementation.
+53ed5be166d37bcfdb2334fefbf48362006b48b6|2017-05-23|Will Zeng|Merge pull request #24 from rigetticomputing/features/operator_transforms
+f92f4456bda3a09b87aba287dc5ddc77162d2584|2017-05-23|Nick Rubin|PR 24
+9ccf3bc8824b31179c65147f63bb1aa477c13ff1|2017-05-22|Nick Rubin|PR #24 changes
+b6fd577a58cf6a3abfcb3b53350334dc4570e53d|2017-05-19|Nick Rubin|Jordan-Wigner Transform
+d1b12d7fa162585c851654ebfd7e4a81120d8795|2017-04-18|Will Zeng|bump version to 0.0.3
+a7155dd08c65596aeab6cc8a25836101f5c496e2|2017-04-17|Will Zeng|Merge pull request #23 from rigetticomputing/doc-update/grovers
+5018b74df9d6f540db18df008cecfbfbcbee3a6e|2017-04-17|ncrubin|Update documentation with Grover's
+c373dcfc9af8b712d7a3781022e4c29f17d8f963|2017-04-14|Will Zeng|Merge pull request #22 from rigetticomputing/UpdateVqeDocstring
+fb8310cce9ec23d87bc10e4f61a9db55630a7759|2017-04-14|Will Zeng|fixup qaoa docs
+9d97b0b2935262a58abff5621579a4f3aa57bca5|2017-04-14|Will Zeng|cleanup vqe docs
+d8f15511bb7cbc839380d110080b1a0b7687a1ed|2017-04-14|Johannes Otterbach|Merge branch 'master' into UpdateVqeDocstring
+ebe48cb82a57fd0fd6a1f53399e650b202cc93a0|2017-04-14|Johannes Otterbach|Be specific about pyQuil <--> Quil programs
+39f88a44f11b5a9b1f5870edeffba10b0c0ec53a|2017-04-14|Johannes Otterbach|Updates VQE docstring
+972598d4deb0eb1987014a292cb4204836b56d33|2017-04-13|Nicholas Rubin|Merge pull request #21 from rigetticomputing/max_cut_cleanup
+e735cd0c6a37b9917de943e146a814f12847839c|2017-04-13|ncrubin|Fixed maxcut qaoa runs and moved grovers
+2de2913f558c73fc1b25b93c6418e5e342ef34c7|2017-04-12|Will Zeng|Merge pull request #19 from rigetticomputing/feature/maxcut_takes_samples
+7d786aa3824302ac49146483247d12d65b61eb2c|2017-04-12|Will Zeng|remove dangling print statement
+eb476e22237dd45c23d731d9f3c59457ac2cfcaa|2017-04-10|ncrubin|Updated MaxCut to take samples
+9e0dd208a86a8c0198da468833f881321f328db8|2017-03-23|Will Zeng|Merge pull request #1 from ampolloreno/grover
+eed6cc0918c2fdcc7282c1a3a66653b0c3faa5fd|2017-03-21|Will Zeng|allow new qvm connections to be passed into max_cut
+5b49942d701031891e986dea0c6f8fc6f031d20b|2017-03-01|Will Zeng|update semaphore badge
+13f7b963cc78afbcbb78a03ef32331e848d692d6|2017-02-13|Will Zeng|Fix #16 bug in vqe docs
+a85f2e1a2bf77bd368f9427a869d82df8f780ef5|2017-01-30|Aaron Vontell|Inverse QFT - Implementation and Test (#15)
+3d2c75a4ea9f1940cadb14e769e60b11170f050d|2017-01-16|Will Zeng|add how-to-cite to README
+f149571a3331ed3d0d64c208d58b5cb725c04d97|2017-01-15|Nick Rubin|Merge branch 'master' of github.com:rigetticomputing/grove
+f2d533cd7be72a4e3158a6a1aef265fb39f15652|2017-01-15|Nick Rubin|Notebook now works. Missing import before.
+cabb661b5ca692d552d135469f25a7066c6340b5|2017-01-15|Will Zeng|upgrade to 0.0.2
+f356643930f9dc7ffc9dd04bd880c295672d2d9f|2017-01-15|Nick Rubin|Readme now gives correct command for testing code.
+41cb33eaad5779bd64291ad0ac1b6a96ea0b18dc|2017-01-15|Nick Rubin|Wavefunction API updated now in fake_QVM for test
+9c52354f78c68339dadfa756363c7a96ee61e88f|2017-01-15|Nick Rubin|Bug fix in vqe expectation and removing graph part
+48913312540a15391f9b09beeed32d4f9bf286a8|2017-01-12|Peter Karalekas|Refactored the docs to collect all algorithm-specific information in individual pages
+f54fdc91cbde0941c40151d62350c80af3465d90|2017-01-12|Peter Karalekas|Added pip installation, separated out Forest/pyQuil instructions
+98e5f43347030ecdb58814d0e878fa97dcd76676|2017-01-12|Peter Karalekas|Cleaned up QFT source docs as well
+f3be952c84a29041eede7c761650d0fd21f07343|2017-01-12|Peter Karalekas|Added pip install and algorithm links, cleaned up and made more similar to pyquil readme
+15b4588950bd4f03ef4be5855801bbc1d19dda2d|2017-01-12|Peter Karalekas|Rename jcdriver, clean up source docs
+f8cc961fbea4ecb9febee4b2bd91ca763c336438|2017-01-12|Nick Rubin|Fix test to reflect new wavefunction API
+68a90760523b4de45f508929887d241408b3cbdf|2017-01-12|Nick Rubin|Adapting to new pyquil wavefunction API
+4c22f29372943a03028ac6b7835c628bf1e198c1|2017-01-10|Nicholas Rubin|Merge pull request #12 from ampolloreno/docfixes
+076b5c6976c7e00e31d0a5589eb80c59dd6ea4b4|2017-01-09|Anthony Polloreno|Cleaning up the docs
+e6853b2f32b43b8d3d5748ff978f9e54cfb534f2|2017-01-10|Nick Rubin|Merge branch 'master' of github.com:rigetticomputing/grove
+3420948d4caedb8b7f699ce0bca4fd4a72caf824|2017-01-10|Nick Rubin|Code docs and run->run_and_measure
+fbcc1dfecaafe9d7dc5319036053414bce11e66e|2017-01-10|Will Zeng|add rtd badge and link
+377143441ae9212e3e0628771659995b82629fd9|2017-01-09|Will Zeng|doc typos
+b7fecbaf7e877697128c094ea41e916e4cef58db|2017-01-09|Will Zeng|add rtfd requirements
+89303a3e1641f7b555e33d05f1203cd9f562ed79|2017-01-09|Will Zeng|add setup changes
+c7ce61da655bacf892df9812c487fcaebf16285f|2017-01-09|Nicholas Rubin|Expectation sampling (#11)
+8afcfe79ae841ac4b24bc65eb65ae09fe3067e2a|2017-01-09|Peter Karalekas|Fixed failures in qaoa unit tests, factored out repeated code (#9)
+bcaa8343f8831f6bbe96e7100c2d33a6089268a9|2017-01-09|Will Zeng|Merge pull request #10 from pkaralekas/grove-docs-navigation
+16cdd4b16c9d5b9ac4359ce21dc9b6a2f5c04508|2017-01-09|Peter Karalekas|Removed algorithms.rst to make the self-contained docs for each algorithm accessible from index and navigation
+e26f52105cd8c11a417de9fd328c5d13bd9651c6|2017-01-09|Will Zeng|upgrade vqe path
+9a69a1a923ef88f3b8d4144780591331f89f239d|2017-01-09|Will Zeng|update gitignore to ignore pycharm files
+aea67c00ec0fe5899108853697fa8a2328be2b63|2017-01-09|Anthony Polloreno|Updated Grover's to work with new qubit allocation
+1a9610a281bbcee54cc1362696f76cd604afcbf5|2017-01-08|Will Zeng|Merge pull request #8 from rigetticomputing/no-warnings
+f2393bb3c77353f21c0df3986cc421ae79091aed|2017-01-08|Anthony Polloreno|Fixing docstrings so sphinx doesn't give warnings
+ff949e36eb382cc776e73d4a48f9c8dfd0949ce8|2017-01-08|Will Zeng|Merge pull request #7 from rigetticomputing/ntezak/fixes
+4fbafca31d0611cb9151453ac69b65d37c2db4cc|2017-01-08|Nikolas Tezak|Various small rewordings in docs plus fixed changed signature of maxcut_qaoa() in example
+3b34b752811b5a15d3560f474df21392a3038f26|2017-01-08|Nikolas Tezak|Fixes to teleportation docs
+c5e531825546f2f74ab2fba6bafa83b9bd825237|2017-01-08|Will Zeng|Merge pull request #6 from rigetticomputing/ntezak/fixes
+82ef4fab779d2083a418569076856b871a265797|2017-01-08|Nikolas Tezak|Fixed sphinxbuild issues (renamed imports, rst references)
+fbf81cc8df061fa6b4224f85675354a35aa5d75f|2017-01-08|Nick Rubin|Merge branch 'master' of github.com:rigetticomputing/grove
+40eeb2ccb1a813a2c9b542d6917c4f760f404ab7|2017-01-08|Nick Rubin|Updated docs for QFT PEA
+06fddc12420425ba1d67e9bdcf09e22f7a777b36|2017-01-08|Will Zeng|update setup.py license pointer
+94290140c879a2341f02d8af587d34d3e1102018|2017-01-08|Will Zeng|update grove version to 0.0.1
+caae1a79c6434e30f01a34d202e2d262d03e71c0|2017-01-08|Will Zeng|update readme with license
+edfb33f25aaeb89db1d37813b648c21d0b00d0d0|2017-01-08|Will Zeng|add apache license
+47a5e9cac5403d14feba6265550948efc587e3c5|2017-01-08|Will Zeng|cleanup teleportation docs
+f8d94e355c7c7b1aa3e614ea9d7f30035a3acb91|2017-01-08|Nick Rubin|Removed extra .swp file from merge
+19594285d3536e8610eb9489944ff266c0cba3c3|2017-01-08|Will Zeng|Merge pull request #5 from rigetticomputing/teleportation_docs
+aee13300fa01ac0df45e57486e0535b329349416|2017-01-08|Will Zeng|cleanup readme
+44f78dd365f8b9fd27704935641b9f01c45e50d7|2017-01-08|Nick Rubin|Merge branch 'master' of github.com:rigetticomputing/grove into teleportation_docs
+895be0ef8e3af4d8c065e89ad272620bf3ed0099|2017-01-08|Will Zeng|add semaphore badge
+e983c0c9a06c9c7b750d486a0753dc14a7570981|2017-01-08|Nick Rubin|Teleportation blurb for docs
+f19dd422ce4079836628e74a89bc7800fbdc1a4c|2017-01-08|Will Zeng|Merge pull request #4 from rigetticomputing/doc-edits
+68b80f56c870e9a7e0bd996c565c14cd7b99ccbb|2017-01-08|Will Zeng|fix test from qvm->forest rename
+6d1f1afd551a0c4fd88dbb473ea459a71c9b4a38|2017-01-08|Will Zeng|add vqe getting started tutorial
+12165fc0bde713fef0eebad9c0b39da6c9c9a364|2017-01-08|Will Zeng|add vqe docs, fix existing docs
+097279bd27f368e46346682ee54c0712726eaef0|2017-01-07|Nick Rubin|Edits to getting started.
+75b8476d0ec19fae42d86fa21b901ce9f41a66dc|2017-01-04|Nick Rubin|Fixed tests and removed deps on pyQAOA library
+f04151faaca565d20f39ee3f6a016f8763706408|2017-01-04|Nick Rubin|Doc setup for grove.
+ed7f068176cfa67dc8153275daa93b7986045f3e|2017-01-04|Nick Rubin|Package of grove.
+88ef26e01a00f71760ed2ba530a8008d45392a57|2017-01-04|Nick Rubin|fixed README typo
+c0f97d5e6beedf322d30c68d57a8a585034ddc32|2017-01-04|Nick Rubin|moving teleportation example to module
+22039148b1aa5c1071b9588416b01d4ba09168b6|2017-01-04|Nicholas Rubin|Merge pull request #3 from rigetticomputing/grove_repository_package
+347d0e9d7fe455e6047fba10ddeb241ac6f9b24b|2017-01-04|Nick Rubin|Making Grove a repository
+f9cf04292966950c5383ccb0b2f6f5d9111364c0|2017-01-04|Nicholas Rubin|Merge pull request #2 from ampolloreno/tele
+1e03d037e9d2f3b3bd174c839ea2d1e6b5ef3f66|2017-01-03|Anthony Polloreno|Added quil for 1 qubit teleportation.
+dfff4c422c352cee90da36a6b922b5a6f21307c4|2017-01-03|Nick Rubin|Initial commit to Grove
+6a2092480f7f202fc27ca1f886ccaa5ced2d5471|2016-12-29|Anthony Polloreno|Making code more pythonic, and pyquilonic? Added module description.
+220b63ef615dbb437ff2c3c79d53815e458f7230|2016-12-23|Anthony Polloreno|Changed script to run from the saved file if it exists
+139081e46bf650e762524f27b67eab3e42560b80|2016-12-23|Anthony Polloreno|Added Grover's Algorithm, no tests yet
+60ddf5ac38dea3b0daf8e88cdb9f4fee322aca1b|2016-12-21|Will Zeng|Initial commit

@@ -1,0 +1,1107 @@
+8170c84a0be1723f8c6b09e0d3c7a40a886f1fe3|2018-08-17|Ian Hincks|Merge pull request #134 from ihincks/upgrade-vectorized-risk
+b9bd357974342f70d1b00eecd6e2be3e8a55b56c|2018-08-16|Ian Hincks|fixed bug when is_outcomes_constant is False
+a7b12a50e508033d1c437b5c87ee8d54f1a9d114|2018-08-13|Chris Granade|Merge pull request #147 from QInfer/cgranade/fix-rtd-1
+2ba9a7a245526ee0a341371edcb853913a9375fd|2018-08-13|Chris Granade|Merge pull request #138 from ihincks/feature-dirichlet-distribution
+35af41eecf3359065d1df9d7c72b33c32bd032cb|2018-08-13|Christopher Granade|Revert "Moved RTD environment to use conda-forge."
+b25fe97c2e9478dbaf57a7fb84a3f1f454ac2853|2018-08-10|Christopher Granade|Moved RTD environment to use conda-forge.
+f4b18f6cda45bb360c040f00b3794498e9f5f3aa|2018-08-10|Ian Hincks|added comma
+252a686bcf1953d57e94aeee58af124584282fda|2018-08-10|Ian Hincks|Merge remote-tracking branch 'origin/master' into feature-dirichlet-distribution
+778514827806c044fb01d894fae0751c65e92f37|2018-08-09|Christopher Granade|Forgot that rtd-requirements.txt is still used for DOCTEST on Travis.
+203d35994978cc0c42c0b8360e699bb4c29d034a|2018-08-09|Christopher Granade|Fixed path to env.yml.
+397bcf72f41f8975daec7d38f708816e56bf50d3|2018-08-09|Christopher Granade|Moved RTD yaml to root.
+42b49eb25bd53f588993267a9a236ee61c5527ae|2018-08-09|Christopher Granade|Moved RTD support to YAML.
+acca7b3c2d4a20629c9ac813d844ee1bbd75172d|2018-08-09|Chris Granade|Add Cython to ReadTheDocs reqs for QuTiP.
+69b5c0ee063a6be446cc495f02851f8a9c175304|2018-08-08|Chris Granade|Merge branch 'master' into upgrade-vectorized-risk
+3c9cc7e0194a92c6563392979d4d9cb693fb9eef|2018-08-08|Chris Granade|Merge pull request #146 from QInfer/cgranade/unknown-T2
+acbd0c9cd4cfe440e4a214278acd7e8e9e8923e4|2018-08-08|Christopher Granade|Refactored out dcite call to avoid defining __init__.
+c2606c0b1cf44bed6578b99f8a35a67efac8f9ef|2018-08-08|Ian Hincks|add tests for UnknownT2Model
+b79b2187b1a5fd48756f2ed453782ed85cda9627|2018-08-08|Ian Hincks|allow super to set attributes
+4b9344714783be70788c0cbcb79011699085559d|2018-08-08|Ian Hincks|fixed some minor indexing issues
+5094e77d381c2aeeb9bb27706da896f9c08c5e44|2018-08-08|Ian Hincks|allow SimplePrecessionModel to accept overcomplete expparams
+ef468725ab4d89aaaa0331757e4ad7efb0e05cba|2018-08-08|Christopher Granade|Added missing modelparam for CoinModel in new test.
+e9eff227a257d23b02eab662cdb856077e1d7ea2|2018-08-08|Christopher Granade|Merge remote-tracking branch 'origin/master' into cgranade/unknown-T2
+64d9b2f7fe38f19e1261ef8ba0a14f306bc1c690|2018-08-08|Ian Hincks|Merge pull request #135 from QInfer/fix-sphinx-latex
+b0af2b3447bd21718c2626b51ea846d3ecb6225d|2018-08-08|Ian Hincks|fixed dcite typo
+384bb8435338753ea17b6da01b8328811555ebab|2018-08-07|Christopher Granade|Test case from @ihincks.
+d58693a3e560603bc827937ec5be3d120df1d4ec|2018-08-07|Christopher Granade|Added missing citation.
+26656f0ff1aaaf6c1aa37f3a6cd01f349a8d4229|2018-08-07|Christopher Granade|Began addressing @ihincks' feedback.
+cb4074fa763720a863b7d9e27165abe51c346d5d|2018-08-06|Christopher Granade|Incremented Python versions in matrix.
+0019f2aa515654ea67d2f682c69daf15f5c04a64|2018-08-06|Christopher Granade|Fixed Sphinx ifpdf.
+0c1aeb00a9bf840b82c365c571b2bc1ceb5957f2|2018-08-06|Christopher Granade|Fixed deprecation bug in SPM.score().
+2376df464b653cf531dc584c9cf826f0358b9ada|2018-08-06|Christopher Granade|Removed command deprecated in Sphinx 1.6.
+ead7ecf0d59f056dfd86795f6c5c6507eed8a5d1|2018-08-06|Christopher Granade|Whitespace
+84eada59054f5d273e07d3517ddae93ff717fa4e|2018-07-02|Christopher Granade|Docs for Gaussian hyperparameterized model.
+252ceec5982c8ae6531561c41922784b0b8f4ab5|2018-07-02|Christopher Granade|Added unknown T₂ model to docs.
+83d6bb97d0391e56551b218250a9a6bf1a696987|2018-07-02|Christopher Granade|Docstring for unknown T₂ model.
+14a13704902446153c2f1db348dbb9fcb819bbf3|2018-05-07|Christopher Granade|Small bugfixes, now works for T₂⁻¹ I/Q learning.
+3719a07a3bb2e2e82c53405426646b771af78399|2018-05-04|Christopher Granade|Whitespace fixes.
+e887cd981328cdb7103420c529b27a435c48a7e8|2018-04-27|Christopher Granade|Minor fixes to I/Q model.
+b8864e7f4903493d4a4e008f60831ab1359a4bb6|2018-04-26|Christopher Granade|Added UnknownT2Model to __all__.
+ae1e7fd348cf224ab83499a112d74c52ea644833|2018-04-26|Christopher Granade|Adds an unknown T2 model.
+a4bef96b39fc6765366ba14cee41898ac49a5139|2018-04-26|Christopher Granade|New model that hyperparameterizes two-outcome models w/ Gaussians.
+ebdec57f71131cfac82c0f0dfb8f42d0413d02a6|2018-01-10|Ian Hincks|fixed serial mode bug
+a02c05536ac0bf945881cc8a685b19061aef733c|2018-01-10|Ian Hincks|changed bayes_risk and expected_info_gain to use model domain
+252ac0365372374427be62b359fecdb519e42553|2017-09-01|Ian Hincks|Merge pull request #139 from ihincks/bugfix-resampler-weight-shape
+e90cc57d50f1b48148dbd0c671eff6246dda6c31|2017-08-29|Ian Hincks|Merge pull request #140 from QInfer/license-change
+46c69c75fc480939704b50d4b11aa67daeb8bdbb|2017-08-23|Christopher Granade|Changed license to three-clause BSD.
+297b3e56bb39892cc397f6d947bccc2273871154|2017-08-24|Ian Hincks|Merge branch 'bugfix-resampler-weight-shape' into upgrade-vectorized-risk
+27558387666e29070f7d0a24548a4dfb2c24542b|2017-08-24|Ian Hincks|fixed minor resampler shape bug
+bd06e8b7aefecc552dcd6d3915c49bc24e87cecc|2017-08-14|Ian Hincks|threw DirichletDistribution into one of the test_concrete_models.py tests just for good measure
+6b7733e78e94d3f3a0ec9bd10843209dcc35ace3|2017-08-14|Ian Hincks|typo
+300012612feac6301f6107cd412f46b51d50a1f5|2017-08-14|Ian Hincks|added DirichletDistribution and test
+29b72ea76f3a848a242c40215744f6c428bbe433|2017-08-14|Ian Hincks|small bug fix
+8447d5ce9540279a033575feb26f4eadaea80c66|2017-07-03|Chris Granade|Duplicated LaTeX preamble into latex-elements.
+1ebeab8554c5bf3487034e2abe8ba10e98202a62|2017-06-14|Ian Hincks|added latexmk to travis build
+c40d582b97c6e6fa9d4b5d780b6fe3f66e3eb6cd|2017-06-14|Ian Hincks|added a request for pdflatex nonstop mode, not sure if this will work
+7fcc27917e295afeb199b2aec1d6a6b68898ba77|2017-06-14|Ian Hincks|added a request for pdflatex nonstop mode, not sure if this will work
+00e83667174ddcd96f7a5591f6a0e9c7e1ae00a5|2017-06-14|Ian Hincks|added latexmk to travis build
+add8e739f8e9367ba2ee6a058fc0586added77b6|2017-06-13|Ian Hincks|indexing bug fix for vectorized functions
+a0e4dbdcea4096c838087996259fc9ab3fb44d7e|2017-06-13|Ian Hincks|added some tests for risk and info gain
+6c9df9851606e5e1ebb41081c25d9056c6d27b93|2017-06-13|Ian Hincks|fixed a bugA
+8af9f97d4d971f8dfd0b6ed8cc23bc1c14a15fa4|2017-06-13|Ian Hincks|made DifferentiableBinomialModel visible to __all__
+fe5a158d854e1d70796b204d26381efa3dd397fb|2017-06-12|Ian Hincks|vectorized expected_information_gain as well
+78db6694edbcf1bd7db802877dbc06a27dede8b4|2017-06-07|Ian Hincks|rewrote bayes_risk to allow multiple expparams
+41ddbad11fdd4b4cca9348072b4cbfb6cdd20cbd|2017-06-07|Chris Granade|Merge pull request #133 from dseuss/feature-custom-meanfn
+d11aa126fa6935d1f2dbdc0bb835187ba403e558|2017-05-29|Chris Granade|Merge branch 'master' into feature-custom-meanfn
+04370edd0840332a227eeb9f6a91dce866ab53a9|2017-05-22|Daniel Suess|Slighly optimize LiuWestResampler
+ea693d965f04817dab4734e9763c21ccac78d8e9|2017-05-22|Daniel Suess|Fix docstring of LiuWestResampler
+a38bc69d4e7f8974eced38e4de60e762254c8b97|2017-05-22|Daniel Suess|Update docstring for & simplify moment functions
+fbcfdf1aba7ed0fa17e8b43d9b48a08574ee267e|2017-05-22|Daniel Suess|Fixing typos
+b4c4924c1b06453ff4aa35076e7eea982c8151e1|2017-05-19|Chris Granade|Merge pull request #132 from ihincks/fix-test_model
+8061ae2a2a6fb947f8b74ed02ccfda2860580c4f|2017-05-18|Daniel Suess|Cleanup use of particle_mean/covariance_mtx
+43cbe30a38dc12ac10356847ac7967b16e233626|2017-05-18|Daniel Suess|Add deprecation warnings
+21c61a654627bad8c13ada902dd409760bac74b1|2017-05-08|Daniel Suess|Make SMCUpdater inherit from ParticleDistribution
+6c9d7e03f073d7b4487ba7a572a6c4e923c248f5|2017-05-10|Ian Hincks|Added test_model to docs
+62a265d9eb39f3d11187c6a3fc92b257c609fc28|2017-05-10|Ian Hincks|make travis update pip before using pip
+4fd1e4aae9a6031b689e7cbdc6e54b46cd1bbbf5|2017-05-10|Chris Granade|Merge pull request #124 from ihincks/feature-gaussian-random-walk
+b6732b2d8330d30509abdb911b57638b7340c997|2017-05-09|Ian Hincks|changed class of test_test_model_runs
+961c821f468b8cfe52ea00cd50146af67d45248d|2017-05-09|Ian Hincks|make it easier to import qinfer.tests.test_model
+915bbfa39ef05ed1fc38c7f9ff86d37ba4b6f058|2017-05-09|Ian Hincks|add test for test_model to prevent it from falling behind again
+1dc3e48e501f1d4c4a1f4893d21991642f9bf631|2017-05-09|Ian Hincks|fixed bugs in test_model -- dependencies on old names
+4d0aee343ce2a14133a0ad1805b12c28719b6018|2017-04-07|Chris Granade|Merge pull request #117 from ihincks/feature-product-domain
+d93aaf3c85c8e1ccb5c4603908d94b13a5240817|2017-04-07|Chris Granade|Merge pull request #130 from ihincks/update-duecredit-doc
+472e927f71e0e0981e2671c05f53275dd425db50|2017-04-06|Ian Hincks|clarified dump call
+752cd8da9e133b88bfcc0d0a3755f7b83780e823|2017-04-06|Ian Hincks|readded removed clause
+571eb541d34ed7c5771c5ea7e2fdf95f4021d71e|2017-04-06|Ian Hincks|added qi.due.dump() reference
+d4a19456b7be4d9a411f247457f688fd171db042|2017-04-05|Chris Granade|Merge pull request #129 from QInfer/feature-duecredit
+fa763f15c70ad0d6f51f97619bfedf967adc3f9e|2017-04-05|Chris Granade|Missed a tag.
+08fa7f9edd395ffe833ab38e57bcf4b67d0bf35d|2017-04-05|Chris Granade|Documentation for prev. commit.
+fa9c509e9696ce235324005dd915a831c4cfd4ea|2017-04-05|Chris Granade|Changed duecredit tags "theory" → "implementation"
+28ed55f02227e0373a70e166e98828162e1c6984|2017-03-31|Ian Hincks|implemented changes suggested by cgranade
+31ef01b13804d5ff0b067c8d8982a302bcc3ce68|2017-03-31|Ian Hincks|fixed est_update_covariance
+7d8d92a80111671e832741bb6d0f5ec40bde5e23|2017-03-31|Chris Granade|Described duecredit tags used by QInfer.
+89da0fede3fca3f7ca0d72ed0f6fdbf2c2a44164|2017-03-31|Chris Granade|Exclude duecredit stub from Py3 linting.
+b874b1ceef92b8a9a4a9b0af28e2b22f203ea721|2017-03-31|Chris Granade|Fixed typo that broke at least one build.
+c1f16f2fa2cd2ade7bdc47998e40317f3560711a|2017-03-31|Chris Granade|More detail on how to use duecredit
+28c2985246e7e0823fd87486ed3c246e437cb9ca|2017-03-31|Chris Granade|Added information on duecredit to guide.
+1de1c4079cdeb0d07e303b9db557fb24aadc7658|2017-03-30|Chris Granade|Continued adding tags=["theory"] cites.
+e480a9ece819e45541d327b0c53789e941d032ee|2017-03-30|Chris Granade|Possible example of using "theory" tag.
+ab90ed783028460a8404e9ce8c17e55010f584b2|2017-03-30|Chris Granade|Initial version of citation metadata.
+75f8723d0cb26199e90fdb426f654a80ab70e7a0|2017-03-30|Chris Granade|Merge pull request #127 from QInfer/fix-qutip-build
+d32fd37a7dec224583b49b1f0a9c8d6b8a206a35|2017-03-30|Chris Granade|Added g++.
+1c835acd7f88ecc9ced7e92f0ec24a70c9478d85|2017-03-28|Ian Hincks|made random_walk_idxs compatible with np.slice
+c20232c3aa03dd568759b03045624fb9e48f68cd|2017-03-28|Ian Hincks|improved documentation for to_simplex and from_simplex
+81f147d042a4f402249c6307735d606801c36124|2017-03-25|Ian Hincks|readded import that got lost in manual merge
+4e732175c4355390e5bedee0c6519c4d839378a4|2017-03-25|Ian Hincks|merged upstream master
+dc0b141cafc1ef8394c2585506ba9533413ac412|2017-03-25|Ian Hincks|small changes to guide
+2a0187ca0b8ad9937d2e5616bf6fdeb60be78b06|2017-03-25|Ian Hincks|added examples in the guide
+637bec689246c1a8b95590936018ab6020f9c190|2017-03-25|Ian Hincks|added tests for GaussianRandomWalkModel
+8b749113677d06c3e3adb1098e8fb76be430b732|2017-03-25|Ian Hincks|bug fixes
+354e2c71ef65fd49a0a31fcfd84d8135811e6ac4|2017-03-25|Ian Hincks|test_update_timestep now asserts that models are valid after timestep update
+2ae8e61f2e073d1dad9736a2ceaa6734449eedb1|2017-03-25|Ian Hincks|added to_simplex and from_simplex to docs
+4f7e24fa8501e81f0ddffe0ac3a93802f808ee1c|2017-03-25|Ian Hincks|added to_simplex and from_simplex along with tests
+d7fbb55f09e425b2195c7f2f12398a413168f02b|2017-03-24|Ian Hincks|added to doc api
+4c31f9b51f26092ad4286738d37ff9e6332e28c5|2017-03-24|Ian Hincks|added transformation feature
+14418bfa1b6e930d191eeeb9fd63ae2782e42eda|2017-03-24|Ian Hincks|added tronsformation option
+8118ab7adaf0bd82ea39577a08f2ad3b71bca1ae|2017-03-23|Ian Hincks|Merge pull request #122 from QInfer/remove-docopt
+091be91de60eff5f304e715ffccfb1ea88a8bd1e|2017-03-23|Ian Hincks|Merge pull request #119 from ihincks/resampler-default-nparticles
+06a1018244b9cce996c01fe8de9475b6c6eaf479|2017-03-23|Ian Hincks|triggering travis rebuild
+3cbf3b9c98b5d80c893e6a497749951e0345bd55|2017-03-23|Ian Hincks|Merge pull request #121 from QInfer/fix-120
+d0d6451bf8cd1fcf33a8dfca8e81a85800e9c1fb|2017-03-23|Chris Granade|Removed docopt.
+0cfd59429b9fd9c63188af966e20555c2fcd2573|2017-03-23|Chris Granade|Fixed problems in coverage exclusions.
+d86f28cc6db4090cea793f52ae1bce0a53e89f69|2017-03-23|Chris Granade|Moved Coveralls config up a level.
+9c1db595ee34b3f4480bf9061fcbedfb10275481|2017-03-23|Chris Granade|Calling coveralls from root, not src/.
+ad5be44deeb9f1df5b4c5488d4046c9e9b5993c3|2017-03-23|Chris Granade|Merge pull request #110 from QInfer/fix-lw-cov-esti
+25a00b96929cd7d6bdc5bc266b8e38b381df50d0|2017-03-22|Ian Hincks|bugfix
+052ea48dd3c268c13e9e07980c15f8b712c60774|2017-03-22|Ian Hincks|newline characetr
+6476ab2e9ffede1840aa00eba4763d9917daecff|2017-03-22|Ian Hincks|renamed n_particles to default_n_particles
+19f2864587ba4dda16233be474d9b58096798cf1|2017-03-22|Ian Hincks|added default n_particles to LuiWest resampler
+c4407a8759278ccf2caf6a008714bdf28b69aacc|2017-03-22|Ian Hincks|couple of bug fixes
+9be3ac72c463000fba1cfe94b4c8d76e96746fe1|2017-03-21|Ian Hincks|fixed some bugs
+4150a24f281c2a6b282d194c86a860b13191112e|2017-03-21|Ian Hincks|fixed a few fundamental problems with update_timestep
+01bed3fe6e5b34092ef9271eff0c5fdb271a907d|2017-03-21|Ian Hincks|added GaussianRandomWalk derived model
+2a521f1edbddd7c826898c8d276d00b2b01ba758|2017-03-20|Ian Hincks|Merge branch 'master' into feature-product-domain
+8ad751799594bedd745aada1cf71387684dc5a37|2017-03-20|Ian Hincks|Trigger travis build
+12b2612dfb0410acf6ee010eeb9d262b3914c201|2017-03-20|Ian Hincks|Merge pull request #115 from ihincks/feature-domain-tests
+cba6647e7f17212810b2c73748b61f32c7a1196a|2017-03-20|Ian Hincks|Removed print statements from test
+e2566ead016cca7b5d72bbc97745011c62f9b99d|2017-03-20|Ian Hincks|Trigger travis build
+560d5ff29de576dbcfc7e96d4e113a7666fae38f|2017-03-20|Chris Granade|Merge remote-tracking branch 'origin/master' into fix-lw-cov-esti
+aa6fb0be006ce233610b7f49df9dad632f1066d2|2017-03-20|Chris Granade|Merge pull request #116 from ihincks/fix-test_smc-slice-bug
+be21d338e98529f82e4fa848e2fb03c5f02a0726|2017-03-19|Ian Hincks|changed behaviour of ProductDomain.values to always output the entire value set of finite domain factors
+1937449b6a08b8a5b2104971a57b3d8480e1008d|2017-03-19|Ian Hincks|Added ProductDomain to api doc
+7b7eaac82f506e2ac283f81535c8a1216dc6dc1d|2017-03-19|Ian Hincks|Added a couple of tests for ProductDomain
+4a1c493e3192197c302df2fe5531113244ec98a6|2017-03-19|Ian Hincks|finished implementing ProductDomain
+425ef8f71b2723ab11d852f2c0f499070a1daf60|2017-03-18|Ian Hincks|Merge branch 'feature-domain-tests' into feature-product-domain
+b7441705e2f0be87b4aa57953ea11b340f7b3214|2017-03-18|Ian Hincks|cast slice bound to int
+4b6a2e4a4a005a212c33c8c7a4d6ce5a71c0083f|2017-03-18|Ian Hincks|switched to np.greater_equal, np.less_equal, and np.is_real
+938bfeb549b360783a59988d1afc8f70dd1c177c|2017-03-18|Ian Hincks|Added a bunch more tests now that the template is working
+684783f44d036679c4898bfab604f2ec07e35a57|2017-03-18|Ian Hincks|fixed a couple of obscure bugs
+2c89b0f03cc5aece2ab22f84400b46796d7172f3|2017-03-18|Ian Hincks|changed pytest to tool:pytest to follow new standard
+6cdb2c2a9dcbc5df945bb96a8790157cf779a46f|2017-03-17|Ian Hincks|started a test suite for domains
+9bde678e094c876ed58d93bfc8ae99adabdfdca3|2017-03-17|Ian Hincks|outline of ProductDomain added
+3dd0789d932476a2e8cc5d230f010fa2d17477fb|2017-03-07|Chris Granade|Avoided sqrt of -ve eigenvals.
+ddac8218f5367f303a7e98e191fbf4b7731e2af5|2017-02-17|Chris Granade|Merge pull request #106 from ihincks/feature-particle-distribution
+3687ac426d6c527684c4ff816b53380799b389e6|2017-02-09|Ian Hincks|Merge pull request #112 from whitewhim2718/fix-domains
+c00d2996b748c7c80d179b50a2f7a32b3ba596d6|2017-02-09|Chris Granade|Added singular matrix to test.
+097214a607a0b94d5e0bcf282311ea6cf2fdf854|2017-02-09|Chris Granade|Fixed issues caught by test.
+8d58d4b8b7bd1ca045ae887e648692abf23c1f39|2017-02-09|Chris Granade|New test for sqrtm_psd.
+efd05139597778ebb88647e2ef89faf5b21edd59|2017-02-09|Chris Granade|Moved sqrtm_psd → utils.py
+8a48c44ddd76f904cb817cbf4f10c6d8880e72fa|2017-02-09|Chris Granade|Fixed bugs in new sqrtm_psd.
+dedd47c3f4010b103800828e2a2f0c6ab80da03b|2017-02-08|Thomas Alexander|Added conditional casting of min/max to int for IntegerDomain init values for non-np.inf input values.
+3cc0c96c64309981d1fd55b754c5cb0dcf3c8b97|2017-02-07|Thomas Alexander|Cleaned up domain fix code. Removed numerous mention to None for handling of non-finite values. Replaced None with +-np.inf. For the case of Integer domain this took some extra special handling as np.inf is technically represented internally as a float.
+5ff3f5a43773bc5ae4c7788a41fae401b2e7b31b|2017-02-07|Ian Hincks|trigger travis
+d9d9e678e25636e0fe63709e69718aaf4942792f|2017-02-07|Chris Granade|Merge pull request #109 from QInfer/fix-qutip-doctest
+182ce98373cd16d44e7c6f76734300360360743f|2017-02-07|Chris Granade|Merge branch 'fix-qutip-doctest' into fix-lw-cov-esti
+c270349b652e357489a8f3a098dd4c92285858cb|2017-02-07|Chris Granade|Set CC=gcc-4.8 in env.
+a976285cbd40abc01a26fc7334004b41f32bd399|2017-02-07|Chris Granade|Fixed gcc inclusion, hopefully?
+aee7f23195010e4cb188ec5a2c77dbc168cf21aa|2017-02-07|Chris Granade|Bumped GCC to 4.8.
+7fcf6b2cc48fa4778525361992cc43bde8d7f865|2017-02-07|Chris Granade|Moved PyPI environment vars from repo settings to .travis.yml.
+f2a8e4a8a6cd2c2bb321f4e22e598c40e9928819|2017-02-03|Thomas Alexander|Added fix to domain bounds
+2e9d8cc6efafff52702f56f27e72d7a97df29e5e|2017-02-02|Chris Granade|New fn for sqrtm of psd operators.
+ec18fe1943e46962565612e3798e0e470bcbf10b|2017-02-02|Chris Granade|Changed QuTiP to pull from PyPI.
+66ace2db847fcd9de47ec9a6cd88a9f694071e1e|2017-02-01|Ian Hincks|Added ParticleDistribution to the docs
+1bef90ed4eee2c2ccf772ab396df39294bd8464c|2017-02-01|Ian Hincks|Added region estimation functions and copied relevant tests
+0e9743717f21160152e9ecdc4617682ddd4337e0|2017-02-01|Ian Hincks|Added est_entropy and est_kl_divergence to ParticleDistribution
+aad0b5cfa47efda3e4209c771cada2a13ac31928|2017-02-01|Ian Hincks|fixed bug in rescaled_distance_mtx so that a model property is not required
+346c411bc97d30eaac3802aea1b93dd9c77c98ab|2017-01-31|Ian Hincks|Added moment functions to ParticleDistribution
+71290992e057a315f0e3745d6ce47b29961ee6f9|2017-01-31|Ian Hincks|Added n_ess test, and ParticleDistribution now rectifies given weights
+e19513d14def589e65d646c7e2c661a484698bd1|2017-01-31|Ian Hincks|Added simple ParticleDistribution class and some tests
+a93f9d2a971258f6f7a0e9e645b28f7601711067|2016-09-28|Chris Granade|Merge pull request #102 from QInfer/update-doi-1.0
+d077518b18cfe54f3f9217ce66dab432179ae7f5|2016-09-28|Chris Granade|Updated DOI in intro, readme to match Zenodo upload.
+b6299dab59605ced739e10f39bf5b382c4295444|2016-09-28|Chris Granade|Merge pull request #101 from QInfer/fix-readme-typos
+5139d45a8ea0335e651e1a79dee366d0b90819b4|2016-09-28|Chris Granade|Fixed typos in README.rst, updated link to docs.qinfer.org.
+431fdd9fafad9cfd7db249593194c727b826b3e2|2016-09-28|Chris Granade|Merge pull request #97 from QInfer/version-bump-1.0
+5427985a231bc3139b2c82b09dcad39bede84abf|2016-09-26|Chris Granade|Merge branch 'master' into version-bump-1.0
+29bf16236aad56660393bac00f5e6bb62e4069a6|2016-09-26|Chris Granade|Merge pull request #100 from QInfer/fix-99
+706359b3e469c2759247904676dda7417c9bcef6|2016-09-26|Chris Granade|Minor change to seealso link.
+bebc5f971e6c9f22cd62aabbb586428c4831754a|2016-09-26|Chris Granade|Added seealso links for distributions.
+8e4f6b2ed1c6452f8bab22998d1270d4e32a688d|2016-09-26|Chris Granade|Added deprecation warnings recommended in #99.
+a153833760d1c77e85e2b18895df4179edfbafdf|2016-09-26|Chris Granade|Merge branch 'master' into version-bump-1.0
+c6e3493a8a89a6e8470493e2b69659d8cb7202db|2016-09-26|Chris Granade|Merge pull request #98 from ihincks/feature-distribution-tests
+756ce25a026a0eb2210d8d02adaeb9f1050dca49|2016-09-24|Ian Hincks|Added neglected distributions to the API
+91c71092ef3c9961c9b3d79e576ac3d6f59805d6|2016-09-24|Ian Hincks|Added test for HaarUniform distribution
+4f17a38c5407e100f11cad56704fe2f062080aa1|2016-09-24|Ian Hincks|Fixed _sample vs sample bug
+bc065f8d37713ab5408ec24758d2a10967eca052|2016-09-24|Ian Hincks|Clarified HaarUniform distribution documentation
+9738933acf7014688508b754e74075cedfd45cf9|2016-09-24|Ian Hincks|Added tests for PostSelectedDistribution
+29a8dbe803548c0b2bb50833c478a89d82684ae3|2016-09-24|Ian Hincks|Adde tests for InterpolatedUnivariateDistribution
+97245366a4af0467304a70307cf96b3469125cb1|2016-09-23|Ian Hincks|Added tests for DiscreteUniformDistribution
+206a8ef3d319808c834ab5e452064b735f395cad|2016-09-23|Ian Hincks|Fixed MVUniformDistribution to inherit from Distribution, fixed test indentation, and added doc for DiscreteUniformDistribution
+acac48c352efef781341061154b016b3e56b7089|2016-09-23|Ian Hincks|Added documentation to MVUniformDistribution and wrote tests for it
+d28162da1a51b1110b82cea4c1343f46d0a85239|2016-09-23|Ian Hincks|fixed index bug in SlantedNormalDistribution and added test
+7637aa52a3c56e8c11e503817ebed3d482b10fe7|2016-09-23|Ian Hincks|Fixed SlantedNormalDistribution to be scaled properly, and corrected the documentation which had just been copied from UniformDistribution.
+27ac3ad41eabf2d76cfa3b42db89cb2a71a07811|2016-09-23|Ian Hincks|Merge remote-tracking branch 'upstream/master' into feature-distribution-tests
+407777437a4422057348fb06746ff7cba369ca95|2016-09-23|Chris Granade|Merge remote-tracking branch 'origin/master' into version-bump-1.0
+5fbecfdf00d7fb15080592e81d9a8cfdafe15916|2016-09-23|Chris Granade|Merge pull request #85 from ihincks/fix-parallel-simulate
+0ec3e941ccf993ed85fbd77523815cae6c0d2666|2016-09-23|Ian Hincks|Merge pull request #1 from QInfer/feature-mock-dview
+3b2579608f0f349b663593eb3f80312de11f87ab|2016-09-23|Chris Granade|Improvements to ipp mocking, new test for dview model.
+37ca96f6b5bcdef43464c0869bb1390f5693a063|2016-09-23|Chris Granade|First stab at MockDirectView.
+6eee3669170dd4e4f7207c66c87c7f99d6fac24a|2016-09-23|Chris Granade|Merge remote-tracking branch 'ihincks/fix-parallel-simulate' into feature-mock-dview
+5fba5b89f4c2497cce643fb5808740cfab829f88|2016-09-23|Chris Granade|Merge pull request #96 from QInfer/feature-resampler-abc
+a04c692e495934b86b86f3788cc3e7cc539d7c8e|2016-09-23|Chris Granade|Fixed environment var for MPL backend
+0ce19c468aec9391a7e3d956cde35b85385e150e|2016-09-23|Chris Granade|Changed MPL backend to avoid Qt altogether.
+c7b057b402da8af9414dd10c234773725040ef22|2016-09-23|Chris Granade|Locked mpl < 1.5.
+c0435b2abf792511907a6ac6b968c42dc44e060f|2016-09-23|Chris Granade|Locked sip version
+45ce958b193cae6ffe36e75b1f86da1246a824bf|2016-09-23|Chris Granade|Disable Qt 4.8.7.
+f50b074948ecd1ace837051e607dec37338daebb|2016-09-23|Chris Granade|Added pkg list to debug CI builds.
+38c5b3581532105f0f4dc0080e586da929738a3e|2016-09-23|Chris Granade|Fixed conda update command.
+7bdd24335fff26883d37190bbeba37929b7f9be5|2016-09-23|Chris Granade|Added conda update to travis install stage.
+077f8e4fcd58fa57ae9f30aeae0248b204feb2d7|2016-09-22|Ian Hincks|Added tests for LogNormalDistribution
+e7b5ce46ddb8b83fd2079f5f656d6aa3bbc4cfc9|2016-09-22|Ian Hincks|Added assert_sigfigs_equal to remedy shortcomings of assert_almost_equal
+795b76ae922a41f172bea8d8516a1356c81fe616|2016-09-23|Chris Granade|Bumped to version 1.0.
+623987550660bda94a7973e4e35279813736eec5|2016-09-23|Chris Granade|Deprecated ClusteringResampler.
+2afc8d4246f77a0e2b74c5274201196f3e156560|2016-09-23|Chris Granade|Added and documented resampler abc.
+d46aca0a84c8574addd6601fb70fa59ae845c378|2016-09-23|Chris Granade|Merge pull request #95 from QInfer/fix-latex-build
+c6194e63e45f1342ba7432a21e9ecda6589f5d65|2016-09-22|Ian Hincks|Added test for SingleSampleMixin
+4be3f1804ea79047a241bbd3207ba4385b6436a9|2016-09-22|Ian Hincks|added tests for ProductDistribution
+f13b176fcce60f0b83bd1a2f5981c8b3c5a706b9|2016-09-22|Ian Hincks|Added checks for the n_rvs attribute for distributions
+4c2d2c37160f9b5fc843765ea735c4f709a54bc1|2016-09-22|Ian Hincks|renamed test and added multivar normal test
+e6b8f7776c654382cbc24785cf80737e90fda510|2016-09-22|Ian Hincks|Made distribution tests a bit more modular
+199e0ea9d4731dc9b0712fdb0010fe00761854d9|2016-09-22|Chris Granade|Missing bbm.sty.
+26153c1cf13af6cdfc99d254cea02786933bacf2|2016-09-22|Chris Granade|Added packages required by sphinx latex bld.
+bc16108e4ec772f68b3f4ed94d26d429465cdeda|2016-09-22|Chris Granade|Enabled building TeX in doctest mode.
+763d4669b671737c19c2310ea93913f752b1aeef|2016-09-22|Chris Granade|Fixes for LaTeX buid.
+97b2da6b188f60b49ae5757dc8d3f80e901d376c|2016-09-22|Chris Granade|Merge pull request #93 from ihincks/feature-mixture-distribution
+06a242e528b40cfe4b17b216657c8f8c0ec39295|2016-09-21|Ian Hincks|MixtureDistribution now shuffles final samples by default
+a543cd3a8536993ca15be5a36738031f6c061a11|2016-09-22|Chris Granade|Merge pull request #92 from ihincks/feature-in-credible-region
+a3a04dd2ddfe5cd77bf0dc6ba9f0636699ef25bb|2016-09-20|Ian Hincks|Added MixtureDistribution to API docs
+267c08660ae0d0432e15d5a9cfa4f07355caaaa5|2016-09-20|Ian Hincks|whitespace
+4a297f1e67b6552231201e36f58ab846a0ca403c|2016-09-20|Ian Hincks|tests for new input format
+6a864a0a68ab6451874127a92e71256134d8abe6|2016-09-20|Ian Hincks|small bug fix
+195f1f7bc54aa8de420e63843274f1ce928d759a|2016-09-20|Ian Hincks|Added alternate input format for huge numbers of distributions
+5634210a2dbf2bfb82115c7245d5e5e5ef1f3d8d|2016-09-20|Ian Hincks|Added n_dist property
+8c31f911a5153f8477aca91622038d84af8f2d12|2016-09-20|Ian Hincks|Added some tests
+658c5dae6a420d3236dcc42bace8be9e0635abfe|2016-09-20|Ian Hincks|Switched sampler to use the multinomial distribution for efficiency
+4a962eee0fc5c0b32cc77ede2e3301217712a6b3|2016-09-20|Ian Hincks|renamed input argumant from summands
+6a0e91a7e2b6bc52f07b17a8b99b6bb4c89382ba|2016-09-20|Ian Hincks|documentation clarifications
+6181b4912c9b3f87a3a1bdf86ad420eb81bb9cc3|2016-09-20|Ian Hincks|Changed name SumDistribution to MixtureDistribution
+2c39e0afb79c46b1a750a94ea368548c003a8320|2015-12-22|ysanders|added SumDistribution
+d7b834feebb13d533ab0cab11a77831f37c697f7|2016-09-20|Ian Hincks|fixed a few minor bugs to make tests pass
+649e16af722575dcca9a1a037ef281139cb9929b|2016-09-20|Ian Hincks|Added in_credible_region tests
+1a2d6f008945727529910b6ae281bc9493264a3c|2016-09-20|Ian Hincks|set default method
+0afe34d3eddf5c2492e0ea6e8a35f9046f1dc56e|2016-09-20|Ian Hincks|fix dumb slice bug
+70132f53de0f74da00688c963d07998c6147df84|2016-09-20|Ian Hincks|Added in_credible_region
+5f10acd1fcfb7cac3da334093c2f16317471fd9c|2016-09-20|Ian Hincks|Added in_ellipsoid to utils and corresponding tests
+163c51356c5fedf06b2a7ff1a473b06653c32948|2016-09-20|Chris Granade|Merge pull request #91 from QInfer/fix-tomo-plot
+24da153db0b774b1823c6de1d55d4a98dfdd4ced|2016-09-20|Chris Granade|Bugfix for rebit regionest plotting w/ fancy indexing.
+5c1e337923a23f7fffedb717694dab79899eaee8|2016-09-20|Chris Granade|Merge pull request #84 from QInfer/feature-scipy-qhull
+97b2fd1bab2a1b5905aab4e697d3557012628067|2016-09-20|Chris Granade|Refactored to use generic MockModel.
+5e8beb9666a6a79c80e2ffd913c16e8fec8f6a5e|2016-09-20|Chris Granade|Merge branch 'master' into feature-scipy-qhull
+ca9dc478a371eb0e8d9640627903a2bb8f58fa01|2016-09-20|Chris Granade|Merge pull request #89 from QInfer/feature-min-ness
+71053a1f812be968c7c34dbf74cd8c960198f001|2016-09-20|Chris Granade|Merge pull request #86 from ihincks/feature_scipy-qhull-additions
+9a7fc7089bbaa3f086334e64f9820320f561ef6e|2016-09-20|Chris Granade|All tests now pass locally on 2.7 and 3.5.
+7d8a5e90c23a2c258f1caf4c1da3977a5eb6c7ea|2016-09-20|Chris Granade|Fix for trivial assertion noticed by Py3.4 SyntaxError.
+4e40efc27e328d1de3141db153ff65a8119c911e|2016-09-20|Chris Granade|Checks that assert_warns works properly.
+951b62571e9465cc82910b1cd6be438e09c8002c|2016-09-20|Chris Granade|Additional n_ess tests added.
+9a1814873be4d36f9ca63295f3594e9bb5fe839e|2016-09-19|Chris Granade|Merge pull request #90 from QInfer/fix-ale-deriv
+1023981526aaa4d4c29386940dc134dc05a8a65f|2016-09-19|Chris Granade|Fixed circular dependency, broken test.
+f92c54e3ff50103fd04ff7e534f7f6f674b2c1d6|2016-09-19|Chris Granade|Simplified ALEApproximateModel w/ DerivedModel.
+798bfcfba04c82d382b6e1561ef50f5c48a7f6e1|2016-09-19|Chris Granade|Fixed tests, should be collected by py.test.
+42447cd7dc2b8b4076a6c42325366608f9a9977d|2016-09-19|Chris Granade|Added test of min_n_ess.
+2bd7cdcfa8554480e242f88bf90ab320f1956b89|2016-09-19|Chris Granade|Moved MockModel.
+892d0a77f5698a7f83303cca3265913d9d4d6efd|2016-09-19|Chris Granade|First version of min_n_ess property.
+f2a8ea6b965434087170274c4e3f335b38447fe6|2016-09-19|Chris Granade|Merge remote-tracking branch 'origin/master' into feature-scipy-qhull
+7d80f4a5331eee7bd454bcfbbe74ff6fdf227b2d|2016-09-19|Chris Granade|Merge pull request #87 from QInfer/fix-ci-env
+a5fa87cb06f7189468e0386691d18359a2bcf1dc|2016-09-19|Chris Granade|Skipping 3.3 tests.
+50410aa9d60fc51b110bfdd97a532b3292576b7f|2016-09-16|Chris Granade|Re-enabled Python 3.3 builds.
+7645355b95e9f5126972f9b9a12f51d5ae094f24|2016-09-16|Chris Granade|Forgot a critical --yes.
+0f8c228439147f45aa041577b8730fb611677e3a|2016-09-16|Chris Granade|Changed .travis.yml to use new env, not root.
+dfe07a572fb528124bcb2b321175155d3cc1da6d|2016-09-16|Chris Granade|Merge branch 'master' into feature-scipy-qhull
+7f866adc334ba3fba161d8c31308afecc698e232|2016-09-15|Ian Hincks|Added tests for region estimation
+be1b8f10212fe821dc425957537d47ec34f7dce1|2016-09-15|Ian Hincks|Added reference for mvee function
+44dbceee5f1665b1c9ed3411b2acadec302b01f8|2016-09-15|Ian Hincks|fixed order of region_est_hull return tuple
+f9c7f3ba19512d0755ef00cf75fab585e79c3494|2016-09-15|Ian Hincks|extended modelparam_slice to region_est_ellipsoid and est_credible_region
+ad92da6157ff61ce4fefba3d6f24c83cb69dc235|2016-09-15|Ian Hincks|filled in missing documentation
+497b499d629f54f848a421f3789f221229a46f33|2016-09-13|Ian Hincks|Added simulate_experiment to DirectViewParallelizedModel
+7fa6d179f6f9ef9c80db500725ce0a8074ff40e7|2016-09-13|Chris Granade|Merge pull request #71 from ihincks/feature-prepare-for-generalized-outcomes
+871018b3f3db587b16decc96fb9fe3635909112a|2016-09-09|Ian Hincks|fixed a common doc string format error
+b0eb2b136a5628c934b74301a9a465662c9dbb4b|2016-09-09|Ian Hincks|Added MultinomialModel to API
+38720178b55a7f7de4418f0571b63dd187ea79fe|2016-09-09|Ian Hincks|Updated abstract_models.rst API doc to include FiniteOutcomeModel
+76c15642480735f40ef79b5bee380b311a089bd9|2016-09-09|Ian Hincks|Added an API guide for domains along with necessary inline doc fixup
+32fca7b391e3464a890620a080019c82fdc18d00|2016-09-09|Ian Hincks|getting sick of this dytpe test...
+f9248e5acb5d4e7328290f9b5c473b2948aadd1e|2016-09-09|Ian Hincks|Fixed classic <type > vs. <class > problem
+c4d2bd1f45e8018fa412528c7080e6955239c613|2016-09-09|Ian Hincks|fixed duplicate page label
+0a5ce9694ab481fd95cc99444ad4e240efcf68e4|2016-09-09|Ian Hincks|type bug fix in IntegerDomain
+6dc89599f9fa057331f200f09448f625607c945c|2016-09-09|Ian Hincks|more fixes for doctesting
+1dd6148a2ecc9eefdaf446a2a02c7fb29cfef002|2016-09-09|Ian Hincks|Arrg sorry for all the commits, don't know how to test docs locally yet. Hopefully last model.rst bug
+0b22ca47f7cd1995f33efea508b40ff8fc12aa31|2016-09-09|Ian Hincks|fixed a couple more bugs
+ea53bfdca6539f842316e6b72507eadb2a491250|2016-09-09|Ian Hincks|forgot to include these changes before
+9fb1b19c821b332ba99d7389561ade0f5f9216b0|2016-09-09|Ian Hincks|fixed typo
+e0cbdb8f85ddbf83d6ab80690e12239c779843bd|2016-09-09|Ian Hincks|Hopefully fixed the custom model section to work with FiniteOutcomeModel
+ea98c6626f4ae167ccee332679bd5b417496076e|2016-09-09|Ian Hincks|added a note and demoted a note to regular paragraph
+02c8ed2fb5bff15f98f07fedb7f71afe87f3a904|2016-09-09|Ian Hincks|Added a section on outcomes to models.rst
+c017fecb55a7b7a5570b3138c12d7ce5670086f4|2016-09-08|Ian Hincks|Merge remote-tracking branch 'upstream/master' into feature-prepare-for-generalized-outcomes
+f959fae03802ac5a070065fe7314a8cc517ecf51|2016-09-08|Ian Hincks|Removed print statement leftover from debugging
+253201ee33204f9677c291e20543236de7e3b4dc|2016-09-08|Chris Granade|Added hull to tomography plotting
+a3878d353ea32bdd85475b89507a76fdfaad0dc5|2016-09-08|Chris Granade|Fix and new parameter to allow subset of mps.
+e86c6d96dca7f0a9b9d6c3ab77f2c9aca4f4f36f|2016-09-08|Chris Granade|First stab at porting region_est_hull to ConvexHull.
+ea90440fa3ff3c5cbc7fcae2ebc8dfc4bf97201c|2016-09-08|Chris Granade|Merge pull request #82 from ihincks/fix-serial-threshold
+182a9c917d7f7300edadda9fa499e8051b749029|2016-09-07|Ian Hincks|Removed superfluous definitions of domain given changes in 86bd544ca to FiniteOutcomeModel
+2713a089408c3b9e2173e0624f77f4a899124102|2016-09-07|Ian Hincks|Fixed IntegerDomain in_domain bug
+86bd544ca2fea65b8a5ab1238536856f7fc18958|2016-09-07|Ian Hincks|Changed default behaviour of FiniteOutcomeModel to concretely define domain by looking at n_outcomes
+f919c68fabce8f768f2f8d9c1ea77e2f03b09d54|2016-09-07|Ian Hincks|small doc fix
+a2208d286ec7167a16b4b957e7cc2b19a60adfb9|2016-09-07|Ian Hincks|Fixed an index bug and fixed a typo while at it.
+4d40b7f611e1b530584c8e6a783c0c0286e4f27e|2016-09-07|Ian Hincks|Merge remote-tracking branch 'upstream/master' into feature-prepare-for-generalized-outcomes
+de46ca5a63dd0a6cc547f9065be13e997216f778|2016-09-07|Chris Granade|Merge pull request #78 from QInfer/bump-qutip-version
+764010492e4c265676cd71d5667a7bd68d69434e|2016-09-07|Chris Granade|Merge pull request #81 from QInfer/disable-typerepr-doctest
+0acf71e633aafbdfeb40d7e98917d84a9be93b85|2016-09-07|Chris Granade|Added sublime project to gitignore.
+10217b9b4ab72f9337a50c9c44f3019c91a2fc13|2016-09-07|Chris Granade|Disabled broken doctest in tomography.rst
+c427efded2174b1c926c7d8eee907e8e5141953b|2016-09-07|Chris Granade|Merge pull request #79 from QInfer/fix-missing-docs
+d1831267c52a1f0d072bdfa62affd87cd52ebb7b|2016-09-07|Chris Granade|Merge pull request #80 from ihincks/feature-correlation-option
+b7be7038302b52f4705f30debdfb726315262ff6|2016-09-06|Ian Hincks|Added corr option to est_covariance_mtx()
+d0814e0b318838d81f10d3260abf4cc46c0e2c56|2016-09-06|Ian Hincks|Replaced xrange with something eles
+3bd17832ad0bbdea8003bd081c99ba8e2fd74223|2016-09-06|Ian Hincks|doc typos
+a6a44d26c75dc8309b2866659bd061526e6b0877|2016-09-06|Chris Granade|Removed IDE integration tips from devguide
+5f341130c2a6ba1bb3db5379275fcb4ae2051f4a|2016-09-06|Chris Granade|Added interop examples.
+e3a122e6ba76404c057705a7337ddb3772ee9959|2016-09-06|Chris Granade|Added MLEModel to apidocs.
+579b08b76f407b5aa4b8fe1e9095457b9ecaacd7|2016-09-05|Ian Hincks|Unified qutip version-dependent importing and hopefully now skipping tests which require qutip when a sufficient version can't be imported
+7a47fd16c5aa213cd8eac3bfa8a2ab89568a0431|2016-09-05|Ian Hincks|Merge remote-tracking branch 'upstream/master' into feature-prepare-for-generalized-outcomes
+dbd288490828dd33735421cd5ce2b21276b5103d|2016-09-01|Ian Hincks|Changed required qutip version to >= 3.2
+acfa62fc111780c682fa8b50235130ea701e90b1|2016-09-05|Chris Granade|Merge pull request #77 from QInfer/cleanup-idecrap
+7d294679e0472c0bbb9aa0472fd111a2a282cd10|2016-08-16|Ian Hincks|Added .vscode to gitignore
+f5ffc1cfae3c7d6d9bed7236e8b8466627ef5bea|2016-08-15|Ian Hincks|Ignore .cache
+7aa89de6f553914041b895bc8d4f97598f9a8715|2016-09-05|Chris Granade|Remove all IDE support from repo.
+ccb776dc8a3a1cec0d7f1140de08506a7dfe3c44|2016-09-01|Ian Hincks|Changed required qutip version to >= 3.2
+30f1382c22076605a547c4f9c3fd3251a01c1c80|2016-09-01|Ian Hincks|Merge remote-tracking branch 'upstream/master' into feature-prepare-for-generalized-outcomes
+4787770633006ea86787bdf21fc7481e5ee2ddfe|2016-09-01|Chris Granade|Merge pull request #73 from whitewhim2718/fix-smc-resampler-weights
+b2e7436102df191954312f4ffb58e6ab23187e9e|2016-09-01|Chris Granade|Merge pull request #68 from QInfer/feature-resampler-nparticles
+3418046da93830dbe6573b8dc5ec8ae4be981516|2016-09-01|Chris Granade|Merge pull request #70 from whitewhim2718/fix-bayes-risk
+9fd0207ba3cea48281c9bf0c991fcd75f5c87916|2016-09-01|Chris Granade|Merge pull request #63 from QInfer/feature-improved_docs
+ea1cc24c68d087d5ab350c617c8a3f33783abaa9|2016-09-01|Chris Granade|fix for src/qinfer/ → qinfer/
+769cc219d69ea0828cc8d4240cefeefbae62f242|2016-09-01|Chris Granade|Fixed py.test to prevent pulling in QuTiP tests.
+aed58ebbdc9d73a7db0f853ca58557570251e30a|2016-09-01|Chris Granade|Merge remote-tracking branch 'origin/master' into feature-improved_docs
+fd09a179f5048821726a488d145bd3ad1194e325|2016-09-01|Chris Granade|No longer need fix-setup-numpy from QuTiP.
+2afceaab10398391fa577fa5311b700041b9ef2e|2016-08-31|Chris Granade|temporarily disabled Py3.3 CI checks
+e0bc67174582b04562ba46eec20d04f3a694d0e2|2016-08-22|Thomas Alexander|Removed accidentally added profile logs
+6178056f671607e8cd7a63dc516b4d5026303c75|2016-08-22|Thomas Alexander|Removed resetting of all weights to uniform after resampling in SMCUpdater.
+a085064e3629475aee7af31db9b661a4672b3ffa|2016-08-16|Ian Hincks|made ALEApproximateModel work with domains, gave it a test
+98e8b4acddcee096c678e8845b952de635b62919|2016-08-16|Ian Hincks|made rb tests differentiable
+cb61e4329d0522484dd66e650a3d6aa67748febc|2016-08-16|Ian Hincks|made gpu models compatible with domains, but untested, i have no gpus
+c5cf792a0611d5da6b8a7767a361675b63840b75|2016-08-16|Ian Hincks|Made rb and tomography compatible with domains, added tests
+1824d3c72027027a1cbf1bf38c11d6219ac0d861|2016-08-16|Ian Hincks|Added .vscode to gitignore
+6c347528869d7db76a99380848d1f6ba64bc54c8|2016-08-16|Ian Hincks|Removed debugging print statement
+4b397d21eccbdca09942b3642c60a5827b794711|2016-08-16|Ian Hincks|Added MultinomialModel and corresponding concrete model test
+1eb80346560d0409d6d3a75d78771ca04dc8d0dd|2016-08-16|Ian Hincks|Added domain checking to simulate_experiment test
+8d141c6ad7ec2e6a9b49bbbe5cb0f8e8fb74ed9d|2016-08-15|Ian Hincks|Changes to make all old tests work with new abstract class/domain changes
+03a4de1d5b4bc882a68d849c72e3155f7497f9c5|2016-08-15|Ian Hincks|Added pytest section to config to specify exactly where to find all tests
+287414577f9778a467588e974257bf49cebfe81b|2016-08-15|Ian Hincks|Have to rename precession_model_test here, too
+a570c46e0ad6866797ef046be4d406c243c29c38|2016-08-15|Ian Hincks|renamed precess_model_test.py for consistency
+6a17b412c69de5a49a809e2d63eb6d38ef8df0ab|2016-08-15|Ian Hincks|Added last existing derived model to concrete model tests
+93769a970f4fddd31f254485a513ad9f4e3ca5d1|2016-08-15|Ian Hincks|Added extensive testing framework for concrete model implementations
+d139b66f8495845cc1983487684671f0b53c688f|2016-08-15|Ian Hincks|Modified existing models to work with changes to abstract model classes (mostly domains)
+1667185c4192e6e1cbc67845de1680f86e66f3bf|2016-08-15|Ian Hincks|Added are_expparam_dtypes_consistent to method to abstract class and reverted is_outcomes_constant to is_n_outcomes_constant.
+9fb5aed33b69b0a6d497897003808ab577bfb4d9|2016-08-15|Ian Hincks|Added domains to global import
+81291d5954fe0768db7764fd6d290c5349285ffd|2016-08-15|Ian Hincks|Ignore .cache
+09931421e34c05f287608604ce8eef3f87da2695|2016-08-13|Ian Hincks|relpaced abstract_model.py with the version from feature-generalized-outcomes
+aa6a6d58927bda21be865fb7d92cd6e59592514c|2016-08-13|Ian Hincks|pulled in latest version of domains.py from feature-generalized-outcomes
+4fc18655e0bcdc5617ecc545e93d9f2e6eff4087|2016-08-13|Ian Hincks|Merge branch 'master' into feature-improved_docs
+5674bdcebaf6a47aa3e05b1333fc9e300abbdea2|2016-07-13|Thomas Alexander|small fix to information gain.
+39d0f77dbedceafd251cf3c7988e6499299fd7f4|2016-07-13|Thomas Alexander|Added potential fix to expected information gain. Changed tot_like to tot_norm. Changed comment to be in line with likelihood to normalization change
+bc874e49bb7d4cdba7aa38c58455f9e5304620a6|2016-07-11|Thomas Alexander|Fixed Bayes Risk Evaluation to sum over the total posterior normalizations, rather than the total likelihood.
+e6a00d99fbf5c5a3b4f249d9fcd0df67c1539c6b|2016-06-29|Chris Granade|Merge pull request #69 from ihincks/requirement-fix
+8430c99e2776f6f141b2146b6ae526d7a31f5c2c|2016-06-28|Ian Hincks|Tests require dtype option for np.linspace, which is only available as of version 1.9.0
+315de7ffaf94e870f0752d1f72c8f466c60ecbd1|2016-06-27|Chris Granade|Merge branch 'feature-resampler-nparticles' of github.com:QInfer/python-qinfer into feature-resampler-nparticles
+1523dec73e2646ee77e6b05b677a04a02b87c378|2016-06-27|Chris Granade|Bug fixes w/ new feature
+cb225e25cf6d181de6d76e1f556276e09a45e2f2|2016-06-27|Chris Granade|Delete qinfer.sublime-workspace
+e7e2214c3d0bebb53876b4bab5479e27cddf740e|2016-06-27|Chris Granade|Added n_particles arg to LiuWestResampler.
+a0baa5fe859b4815bd55cea9f72ba200738c33bb|2016-06-27|Chris Granade|Minor docfixes.
+471302e133cf8f0ba07c26e93180b8ae04be54c3|2016-06-16|Chris Granade|Renamed ARB → RB.
+d96fc4ceaef9267c310b37d531c3408ad176a859|2016-06-16|Chris Granade|Minor typos
+9783f93ee44110cb147342a8ef283e16d3dd24d9|2016-06-16|Chris Granade|Fixed a few doctests for int/long compat.
+56d851832bacebc0dfbe7e99832e5afec2ff8df1|2016-06-16|Chris Granade|Added docs on doctests.
+bbf91b3fbe3a8b063f630fc6a84e5ea42cb0772a|2016-06-16|Chris Granade|Fixed typos.
+e8d760d330c90fce29a7487346924a7a3123f42a|2016-06-15|Chris Granade|Forgot link.
+585ae6457d80650db5bc0551792b7ffd76d506b9|2016-06-15|Chris Granade|Expanded metadocs to include math formatting.
+7dd668616046336975c05b5cd4a43da484f0a291|2016-06-15|Chris Granade|Never met a docs page I didn't like...
+20280aeef30cbec1aa9f0ad5cfd4496008d417a5|2016-06-15|Christopher Granade|Merge branch 'master' into feature-improved_docs
+16bc9853cca9b96284f7d300b8d9d165bd469968|2016-06-15|Chris Granade|Merge pull request #64 from QInfer/fix-59
+7a9a8ddefa6b6b2016057f326db5707915bd4d3e|2016-06-15|Chris Granade|Added outline for development guide.
+113d24d1f4e88594c6c7bc8185a344b42114408d|2016-06-15|Chris Granade|Docstrings and API ref updates for distributions.
+2c86c947b3d9de47768582395bdf445572506596|2016-06-15|Christopher Granade|Merge branch 'master' into feature-improved_docs
+6b705f767d25dcc272c1875daa9175763995be76|2016-06-15|Chris Granade|Merge pull request #65 from ihincks/feature-more-distributions
+9ce306d4f80d19dc914c31bb02bf23b1d1a03a46|2016-06-14|Ian Hincks|Removed extra MultivariateNormalDistribution
+d07233d9e6019c94393a67c859a24dc242d5937e|2016-06-14|Chris Granade|Minor fix to outer_product docstring.
+f5051b09d1724d3d01ac9e7b877271d976e561c3|2016-06-14|Chris Granade|Reorged acknowledgements to match commit histories.
+8d719dd737b6a3da629985501190f59f1083a92a|2016-06-14|Chris Granade|Merge branch 'feature-improved_docs' of github.com:QInfer/python-qinfer into feature-improved_docs
+b5bbcc9a554ae86de650359ff8b07c2439153f11|2016-06-14|Chris Granade|Much needed update to acknowledgements.rst.
+cc8feba4e18a1df778fc3e00d0bd2808c4243b4f|2016-06-14|csferrie|Reasonably complete tomography user guide
+fe7f3c5f477406dd88178aa100a3ac8dd1c71998|2016-06-13|Ian Hincks|Added some generic distributions useful as priors: beta, gamma, and beta-binomial
+cf4c3f3634a493cabab542e92cd6eb0fb1d925c0|2016-06-13|Christopher Granade|Improved docstrings for util functions.
+9b516c34fcf2335a133c6aa3ad2bf3c7e33b0a32|2016-06-13|Christopher Granade|Added docs for SMC, RB and precession models. Used more monkey-patching to do so.
+58e2dc5e09828448355bec05d1cc048d504539e8|2016-06-13|Christopher Granade|Guarded monkey-patching for graceful failure.
+603abde10597f2617a2b6a5fd579638abe8ebbca|2016-06-13|Christopher Granade|Docstrings for simple_est, including monkey-patching Sphinx.
+b969e501488704ce036089b2ad530d24e8817b80|2016-06-13|Christopher Granade|More docstrings, details on perf_trial rtype.
+8b9090c0fd824cf0933bb42407980426b7b68636|2016-06-10|Chris Granade|Docstrings and other apiref improvements.
+c9768082b4dc1958cbec3e96248d941fb5935007|2016-06-10|Chris Granade|Added lots of docstrings for tomography.
+7c7efe8f64fb51675b790aee9ca99fafce728bbd|2016-06-10|Chris Granade|Added doctest builds as separate parts of build mtx.
+90c7a9eef69ce551510f034ca44a83d1aa09115b|2016-06-10|Chris Granade|Fixes for travis and RTD builds.
+cb2704a05df8d5c663a660e15801b13415e0f1b6|2016-06-10|Chris Granade|Fleshed out heuristics.rst.
+9e11fcb1baba1d8488f958b3bebdd584970e9e6e|2016-06-10|Christopher Granade|Removed files that were added accidentally.
+bcbf2772fe5bec7bd2285657e76f7f6138ddd712|2016-06-09|Chris Granade|More work on heuristics.rst.
+819e8511781007eb6ae94376d1c6271f513bb8df|2016-06-09|Chris Granade|Merge branch 'feature-improved_docs' of github.com:QInfer/python-qinfer into feature-improved_docs
+caa28ff69c06bc96eaf1d1b13ec623cf13f1add8|2016-06-09|Chris Granade|Started expdesign → heuristics.
+9ad0a481f1878c05e3dab4d99a6fe266d8867d0c|2016-06-09|csferrie|Nearly complete tomography module docs
+103066ce251b52c865989b6f2937cdb0abd0ad9b|2016-06-09|Chris Granade|Merge branch 'fix-59' into feature-improved_docs
+79e76099263854123378d60f003b6f18a9571921|2016-06-09|Chris Granade|Force fieldnames to be str in Python 2.
+7d0668d89e4440aaa568a37f06addfefd2291a3a|2016-06-09|Chris Granade|First draft of time-dep guide.
+d907e378cd87a7929cb50f8c7294e37ba04811db|2016-06-08|Chris Granade|Merge branch 'feature-improved_docs' of github.com:QInfer/python-qinfer into feature-improved_docs
+92d5bbf26439f47989b15756f5e3e2b61900e89b|2016-06-08|Chris Granade|Resolved some warnings in HTML build.
+ebfebbfdd4adc28d6876441c52799612c92cd03d|2016-06-08|Chris Granade|Bugfix found via docs: TensorProductDist not in __all__
+cf553bfd2f508449d383ab71a504003eecde8081|2016-06-08|Chris Granade|Link fixes for tomography.rst.
+c5047740737c54cc1c4fd0e898bb3296e1ef75cf|2016-06-08|Chris Granade|Bugfixes for PDF build of docs.
+484796f5314bd80df4bf2635e513427cf08cb30c|2016-06-08|Chris Granade|Fleshed out performance testing guide.
+83305d15bb3f788d0c66b3282b08a8fb671554ba|2016-06-08|csferrie|Added some maths
+65bf0181ffbb89e0354e0bb67cfb398bdd596b56|2016-06-08|Chris Granade|Continued discussion of risk, Bayes risk w/ new example.
+c8013154f32b4dd54e561b537ff9d4b191507ac5|2016-06-08|Chris Granade|Added \expect TeX macro.
+e28561f7bb91f470b13e021737a32672f2ba8078|2016-06-08|Chris Granade|Removed conflict markers
+c8c9fbad5b6ccd0429a80b5976bb10de83e4381f|2016-06-08|Christopher Granade|Removed Sublime machine-specific workspace from repo, added to ignore.
+4ee35297b137e8ba82b9596ef552cd7b11ef0972|2016-06-08|csferrie|Merge remote-tracking branch 'origin/feature-improved_docs' into feature-improved_docs
+be299a63ea45ec6568ad3183f97e58135966d769|2016-06-08|csferrie|Some progress on tomography module docs
+798d18b5ed8c0b4f80a4dea29f3b3326396ffdc5|2016-06-08|Chris Granade|Merge branch 'fix-perf-shape' into feature-improved_docs
+f87428ffc9224129dcddbcc03f7330192fa65fbb|2016-06-08|Chris Granade|Added missing arg to perf_test_multiple.
+ba103526ebafabd53451606c1ab7530b9964cfbd|2016-06-08|Chris Granade|Work on perf_testing guide
+9ffa79f8bc3b94b3a0d22d09627c0f84eceb9693|2016-06-08|Christopher Granade|Incl. diffusive estimation in perf_test.
+352b193b1d96aef02e35585d2665a30f329acb61|2016-06-07|Christopher Granade|Handled case where true_model and model have different model dimension.
+f60eceb2cfce95828a7b2a8bad5d00af07abe9f2|2016-06-07|Christopher Granade|Added missing link in parallel, reordered.
+059336b46d2721ec26c17cc993a466f1f83626ff|2016-06-07|Christopher Granade|Addeed :hdl: role for links to Handles.
+d56832a2ca11fa0204c1ea70acf8860773757b64|2016-06-07|Christopher Granade|Added a bit on modified liu-west.
+8469f689af06f916b846c3f4c5b1cfb31be6c13c|2016-06-07|Christopher Granade|Marked a few more TODOs.
+2b5f317907d6f34eeef34b05624bbc68e27de17a|2016-06-07|Christopher Granade|Added API and guide sections for simple_est.
+cf7337d1efa4172388f7a8cc269783b2aa9af7fb|2016-06-07|Christopher Granade|Added more macros to match conf.py.
+9a7121a4224ac110bda16400af0c2c99423aba1a|2016-06-07|Christopher Granade|Removed mock classes from conf, added better linking support.
+82c5976c367f2acbf59b4eb8ec6648258a123aa7|2016-06-07|Christopher Granade|Added VS Code task for building docs.
+cbfd7569a2894220bed28262f168487296f749bd|2016-06-07|Chris Granade|Fixed build warning.
+1fe69e24b733fbc9f41c8431787b60215571c6d8|2016-06-07|Chris Granade|Updated links.
+cd8183a2efb170f1d49ca684c496c6e77a5fd0b1|2016-06-07|Chris Granade|Removed reference to clustered resampler.
+9e84367ad0f879c3d6542d8a7bca9f834c962983|2016-06-07|Chris Granade|Renamed robustness.rst.
+9527a1c6b81527407d7ec3a90ca1ca6459d124d0|2016-06-07|Chris Granade|Added intersphinx link for QuTiP.
+d230905001966a57f5a896c572da3a4a4755731d|2016-06-07|Chris Granade|Added new placeholder for simple_est guide.
+761f65f80652ec5c72e2f1414490367f604d3654|2016-06-07|Chris Granade|Improved plotting config, used to expand smc.rst.
+adc53d87004a3c2cd7d2f73593428eb71ede56a0|2016-06-07|Chris Granade|Added qutip/qutip#426 workaround to rtd config.
+4185c50e0d5219592b6ee3237a82432e71efb56f|2016-06-07|Chris Granade|First stab at enabling plotting and QuTiP support in docs
+46efe4c84162e6dbdb67c045bc56f9c3f3c02885|2016-06-07|Chris Granade|Reset default theme.
+3415f6d1c1c7f5c15133e62ad09cd4729b3875c5|2016-06-07|Chris Granade|Added a bunch of docstrings.
+4087997ddb46d93b9bbebd9ce15dd33f5b8f7288|2016-06-07|csferrie|Merge remote-tracking branch 'refs/remotes/origin/master' into feature-improved_docs
+783507c2125b1d7d56bfae3d6cfc28b2dd0ee536|2016-06-07|Chris Granade|Merge pull request #61 from QInfer/fix-shape-robustness
+00898fbfd71ca303b1864bc28d9508f65de3c5f1|2016-06-07|Chris Granade|Made pr0_to_likelihood_array more robust as well.
+579044585aa0339c2fdfb85bef79009212431cd9|2016-06-07|Chris Granade|Improved robustness of call_count.
+5d81df4ece6c205b24e62b3564ab5597879cfcd9|2016-06-01|Chris Granade|Merge pull request #44 from QInfer/feature-improved_docs
+0594d4a2c65e3fc939ae6f59801bb04b0c972549|2016-06-01|Christopher Granade|Merge branch 'master' into feature-improved_docs
+f655bcfa7dc423ec5ed734a100fe3379d1fcf9da|2016-06-01|Chris Granade|Merge pull request #60 from QInfer/fix-randomwalk
+25e261322091af5127ad99a006f1e61f19223191|2016-06-01|Chris Granade|Merge pull request #54 from QInfer/fix-cleanup
+537de43dac77dd9174d0ac84385e1acc968fe7f1|2016-05-31|Christopher Granade|Fixed bug in simple_est.py.
+476c39fff53581e6b43027d11b1fe472d6306e12|2016-05-30|Christopher Granade|Fixed random walk model.
+5383e8b127193239d1412fe4cc517812e7fd0d09|2016-05-20|Chris Granade|Merge pull request #58 from QInfer/readme_improvements
+bf0aa798a2fbdc91bbe15f1e244f49aabfc4437d|2016-05-19|Steven Casagrande|More detail for qinfer installation instructions
+686e1631a5f2d77a46a0f4939d51c493f66dda1c|2016-05-16|Christopher Granade|Fix for doctest failures on Py3.5.
+459e3c6693e37e95a5d6c4b89fb839108a9cd504|2016-05-16|Christopher Granade|Fix for cd'ing into Travis builddir.
+7ffc3469bed5b174dfa5c5732a1ccab265ec1f14|2016-05-16|Christopher Granade|Added doctest to travis build.
+f5079c4e058a1c382042901004b32243378c6665|2016-05-16|Christopher Granade|Merge branch 'master' into feature-improved_docs
+c15497d67ed43f809d76512fcb2555f4138a2c6f|2016-05-16|Chris Granade|Merge pull request #56 from QInfer/fix-travis-deploy
+095bd2957ca45450671f8441ccc6902ee349570d|2016-05-16|Christopher Granade|Changed subpkg imports to 'from qinfer import X'.
+6a4d8a5a62a7d9de118168cc437dbcd2c4e7c612|2016-05-16|Christopher Granade|Merge branch 'fix-cleanup' into feature-improved_docs
+b7e10b42be9c32cc774e6512e57ecbbfdce88e8b|2016-05-16|Chris Granade|Merge pull request #57 from jarthurgross/fix-cleanup
+1b625d19f7dbda5fda699f1123c90b24a6f21757|2016-05-13|Jonathan A. Gross|Made doctest improvements
+405b60d6bcab8d44e2ff279896b24d8b96546306|2016-05-13|Jonathan A. Gross|Merge remote-tracking branch 'upstream/fix-cleanup' into fix-cleanup
+c2a59e5193e85fb0e103c6a785feb695af8c75ea|2016-05-13|Jonathan A. Gross|Add parentheses to all print statements
+1d37d176b1c10730280cbc0287d5a9dc6c223c37|2016-05-13|Jonathan A. Gross|Add info and installing and starting ipyparallel
+44599cdc65f98ab966fd339faed1671488d85127|2016-05-12|Jonathan A. Gross|Explain why are_models_valid is important
+83cd1b23cca9ed5c1be8622da142dfb1ddbb9076|2016-05-12|Jonathan A. Gross|Add simulation example for MultiCosModel
+00adcec37913a3a1ddf58814f2add8617dd8a9c9|2016-05-12|Jonathan A. Gross|Add description of pr0_to_likelihood_array()
+bce12865f5316d19b96d2330c3342697f74bcc6b|2016-05-12|Jonathan A. Gross|Define + state
+d12b9468fe11c3a49f45c04cd8d2d0e637d65335|2016-05-10|Jonathan A. Gross|Fixed spelling of "Implement"
+47e105667f8deccbae2d209732b295fac68efe13|2016-05-11|Christopher Granade|Fixed most broken internal links.
+711a0a957fc22913c86bad4945916b283d6c2a9a|2016-05-11|Christopher Granade|Also added resamplers to init.
+4bb6fb043083fea5cd9f9b47edd5e18589726128|2016-05-11|Christopher Granade|Merge branch 'master' into fix-cleanup
+8613f2ea39b1d906e9b6eb7e85e3931d92a10a0e|2016-05-11|Christopher Granade|Also added resamplers to init.
+87ea2be6df07192d18149541af77a0832079bb40|2016-05-09|Christopher Granade|Finally added smc.py to __init__.
+aec9f8940879f8966820d3fdacc4d5682169add0|2016-05-11|Christopher Granade|Fixed some external links using make linkcheck.
+3defd9db9ec18fc12256749b09e3260f64c06143|2016-05-11|Christopher Granade|Started hunting dead links. Some still persist due to qi.SMCUpdater vs qi.smc.SMCUpdater.
+081d00e1ceaa63dd8793b73da8d41ac2942bbbf7|2016-05-11|Christopher Granade|Updated citation instructions to point to Zenodo DOIs.
+bc3736c9d3c00de126b7c9827e57a91527e6d149|2016-05-11|Chris Granade|Bumped DOI badge for newly released version.
+efd53bd6364ce2ead0288005f716dc91ba8e1a88|2016-05-11|Christopher Granade|Removed list of indices from LaTeX bld, already there in classfile.
+a40e173447b9c7db2c5727f790822d44aece1d1b|2016-05-11|Christopher Granade|Improvements to title page, etc. to make docs look more like a paper.
+5d2eb141d15ad82defebbe67c93d07e44c6ee62c|2016-05-11|Christopher Granade|Removed parts from LaTeX build that were redundant w/ cls-generated content.
+6cc9be372f2811fb8fb9db1e702dd75fa5ffe2cb|2016-05-10|Jonathan A. Gross|Add include statement for Model in MultiCosModel
+d9f7d361f3dd662b22bcee31277779db51fdc0d2|2016-05-10|Jonathan A. Gross|Fix two minor typos
+4c34bf625fb5a0a3de46f7d6f658852d6e4fcec2|2016-05-10|Christopher Granade|Fixed more ==== issues.
+ac6baa9b40b1a001643e4d2d3382e5ad2545aff4|2016-05-10|Christopher Granade|Started cleanup and fixing Sphinx fmting.
+ee618f5df96c7aa18072bb15572572dbcdf87bfa|2016-05-10|csferrie|Merge remote-tracking branch 'refs/remotes/origin/fix-cleanup' into feature-improved_docs
+9e82fadfcf8c7d52a925cd5938113a23fd33c863|2016-05-10|Christopher Granade|Moved to setuptools to fix Travis sdist,bdist.
+11c370f7df504e565886b3ad0393549ee649966b|2016-05-10|csferrie|Merge remote-tracking branch 'refs/remotes/origin/master' into feature-improved_docs
+141cce4deeea90dedc18e945063b21d1a98b49cd|2016-05-10|Christopher Granade|Fix for travis → PyPI deploy.
+a0fc9480bea68e71262ced328946ca8db4427283|2016-05-10|Chris Granade|Merge pull request #55 from QInfer/version-bump-1.0b4
+3097212dc6543ef33c479b77c4716563cb17a6f8|2016-05-10|Christopher Granade|Version bump.
+4220e562ecda144c611de91351bf1bffe39a76fe|2016-05-10|Christopher Granade|Fixed bug in smc.py when Hinton plots are made and Mpltools are missing.
+1cb7adc9787ba4b7f153ec5ab7f5e786cc48867c|2016-05-10|Chris Granade|Rearranged badges, added binder and PyPI badges.
+9f31209e46ac4b6e8d87e179031b0452d027047a|2016-05-10|Christopher Granade|Cleaned up sublime project, pointed to new examples repo.
+8f7e772ab80a7b7254a0a92f379d69d968ac9da2|2016-05-10|Christopher Granade|Downgraded missing package warnings to logger.info.
+4f54c6a03b35a18b79a9429ebb84119f0b3fdd54|2016-05-10|Christopher Granade|Removed a expeirmental/ in a few more places.
+96f402540673d56a9cda69f70a3786aa5a7eb930|2016-05-10|Christopher Granade|Removed old command-line examples.
+76227a08c46c06bc3ca15ee2ff82a349ce304ae6|2016-05-09|Christopher Granade|Removed qinfer.examples and qinfer.ui from setup packages.
+db773b12749ecff9c8bfb8c10c4a30aa6f8b9597|2016-05-09|Christopher Granade|Removed web-based progress bar.
+0639c78a3db1cbffb3dea46e9daf8f0f78a705a0|2016-05-09|Christopher Granade|Moved pretty_time function within utils.
+964f2ba18b7d5282c7fcf6d9564bfdfdf1d26823|2016-05-09|Christopher Granade|Removed Qt files used by dialogs.py.
+c8cc6dc9e147d8b2f59166f6bf5664cedbb971b9|2016-05-09|Christopher Granade|Removed dialogs; that should have been a separate project, anyway.
+7fee98c73fd399b8cc4cdad404b60a6aaf9ec03e|2016-05-09|Christopher Granade|Removed deprecated 'with-0' distribution.
+93bbe330f73419ab7225aea8c16e4cbce5655765|2016-05-09|Christopher Granade|Finally added smc.py to __init__.
+f4d97afdcd5dd943947666fcca294e36bcc560f9|2016-05-09|Christopher Granade|Removed SMCUpdaterABC.
+f79491d3fdb31676021129291d9e8ce32e3efedd|2016-05-09|Christopher Granade|Removed experimental macro support.
+9da28c0fb4ef3eb25746cb4b63a436716098c141|2016-05-09|Christopher Granade|Removed examples (moved to qinfer/qinfer-examples).
+91b50bca039d906397673261735605294a17ba4d|2016-05-09|Chris Granade|Merge pull request #45 from QInfer/fix-pypimetadata
+3319a0a9db4ed898c5b98676fe52c1aa3e6203bc|2016-05-09|csferrie|Some Python 3 compatibility and tweaking of example notebooks.
+cfce7e7b7cca84d39782b3924a502ad8b334bca1|2016-05-09|Chris Granade|Fixed syntax error introduced by merge.
+933fcb89798702ddd053179131d1852ed61c3ffd|2016-05-09|Chris Granade|Merge pull request #26 from QInfer/fix-simpleprecession
+5034f38d67b416db160808ccc97d88c321550362|2016-05-09|Chris Granade|Merge branch 'master' into fix-pypimetadata
+ebf0fbb5125a7446fe716f83c11f5341b56b2ac8|2016-05-09|Chris Granade|Added version.py to gitignore.
+699501ac14aa0d4ee37e1cbaf95c912821672b45|2016-05-09|Chris Granade|Added PyPI deployment to Travis.
+2529ee733c5107ea91e441959f7004e523c9c8cb|2016-05-09|Chris Granade|Merge pull request #53 from QInfer/feature-tomoprior-repr
+e61f3ff63adf994ea217d7dfa3036ecf4209be0c|2016-05-09|Chris Granade|Merge pull request #52 from QInfer/feature-simpleest
+534512e9936ceee043986691ac0a0cbb3015f1d2|2016-05-09|Chris Granade|Merge branch 'master' into fix-simpleprecession
+647c327148f0ef854d4fa6aaf258341e8741c419|2016-05-09|Chris Granade|Merge branch 'master' into feature-tomoprior-repr
+48e9105ddc469fd0068aeb5215984985ccb24b46|2016-05-09|Chris Granade|Fixed a few last problems.
+0b2619eabd2f53034eb4350538d82c5bc83fa5a8|2016-05-06|Chris Granade|Randomized benchmarking example.
+d30aa5810404c951df0d6de15209d4f722b56464|2016-05-05|Christopher Granade|Added working MATLAB example...!
+cd00914291674259217cf5211f25cf723a9bc485|2016-05-05|Christopher Granade|Fixed CSV formatting.
+d0263f2e27076c55bd0062202c544eb4295c44b6|2016-05-04|csferrie|Merge remote-tracking branch 'refs/remotes/origin/feature-simpleest' into feature-improved_docs
+f5891b99231ad80faab0729501bc1fab24f7817d|2016-05-04|csferrie|Merge remote-tracking branch 'refs/remotes/origin/master' into feature-improved_docs
+15028545f6709444bd4dcda416819c0e41c7903f|2016-05-03|Christopher Granade|More complete example, incl. prose, Pandas and CSV.
+52468336413eb448082d25fbf75e7debbcd37268|2016-05-03|Christopher Granade|Fix for loading CSV.
+036a14ce0e91c145a4f5ac87b5edfaa53fb48662|2016-05-03|Christopher Granade|repr and str for qi.Timer.
+c187a6a594c59df62937f4897af25dadc4b81a2c|2016-05-03|Chris Granade|Pandas support.
+c239a20823343f3d91388b28837a3fc6b2a308dd|2016-05-02|Chris Granade|Dramatically simplified simple_est.
+75ccd1765b03b1afd6cb72ea97f7c408a219f2f1|2016-04-28|Chris Granade|Fixed bug with Q not being preserved, nans in BinomMod.
+824da52618d9b2dc35f64f5772293654ef97ec06|2016-04-28|Chris Granade|Improved example w/ error reporting, better plots.
+e23a3abcce41dbb8610a0c2c0b0d45b716bc7594|2016-04-28|Chris Granade|Return mean as scalar, not array.
+3141feafb438ba89bc2a09bf9d5350ac39456917|2016-04-28|Chris Granade|Added exp-sparse to prec example.
+2edd36151fde1f6942f7a9c67f417ee2f5805904|2016-04-28|Chris Granade|Fixed bugs exposed by new example.
+e490cb7d3023f4fb02f7fbd4216d8c0d7de2f7b1|2016-04-28|Chris Granade|Initial version of simple estimation functions.
+4fc75fe90dfd837e53ce8fd4a2fde06e65618338|2016-04-28|Chris Granade|Merge pull request #50 from QInfer/fix-install-instructions
+57243657221e6a81662bbc9212a9a195b5f37775|2016-04-28|Chris Granade|Updated install instructions to point to Git.
+3a374fcda89f6fb56abced249b0eb72237857c80|2016-04-28|Chris Granade|Merge branch 'master' into fix-install-instructions
+6d605bbf5bee9cc4a1f126c01f984a59e4eda3aa|2016-04-28|Chris Granade|Merge pull request #51 from QInfer/travis-py35
+dc4088378b792e4b9e048e8eeef7ed3d86e49e6a|2016-04-27|Christopher Granade|Added Py3.5 to install instructions (see #51)
+1fd06f079441bf7516533d5afd749ce07b553727|2016-04-27|Christopher Granade|Removed extraneous conda install args, added Py35 to travis build mtx.
+25b59c1a4859debca5e7c3c7daa9c942414b3fa3|2016-04-27|Christopher Granade|Changed install to point to pip/Anaconda.
+dbe25fc28a338875ab58e13c339ae2b0102e8649|2016-04-27|Chris Granade|Merge pull request #49 from QInfer/fix-version
+fdc8ee290fdc8321703990a296c4b0d581b21b6d|2016-04-27|Christopher Granade|Called setup.py from travis.
+c873dde0cdab12671b35e1e72c45d7afc49029b2|2016-04-27|Christopher Granade|Fixed install_requires.
+f00d2dd3314669ca9de27db78e5f4cbed64943cc|2016-04-27|Christopher Granade|Modernize version handling.
+6cffe9619e48ab278e37bd6ad1fcab04bfbdbd67|2016-04-27|Chris Granade|Merge pull request #48 from QInfer/fix-ipyprog-import
+43caf3559d7b1db5290a44a11ba81f7a9df4f66e|2016-04-27|csferrie|Merge remote-tracking branch 'refs/remotes/origin/master' into feature-improved_docs
+a5e143fafdca6f47a441ba18b92bc32c667a77af|2016-04-27|Chris Granade|ImportError raised if ipywidgets is missing during IPythonProgressBar.
+777532869f6b8dd5d47e06c8af017489202a568f|2016-04-26|csferrie|Merge remote-tracking branch 'refs/remotes/origin/master' into feature-improved_docs
+48dd1b81e545e26d65546e4062c1d31dd091abf8|2016-04-26|Chris Granade|Update README for Py3 support.
+2bb46b2c6eb1b0de0361d69bcc7671e935ae3832|2016-04-21|Chris Granade|Merge pull request #46 from whitewhim2718/smc_fixes
+6b98c16c68d9ae686cb0a0ca1b88478f3fe854ae|2016-04-20|Thomas Alexander|Fixed errors pointed out in merge comments
+ca0481529103f5db8ddc522ec8148fd126ae7448|2016-04-16|Thomas Alexander|fixed futures import
+082600034b0acdb9f2ee07c5a83b6b1396219d6d|2016-04-15|Thomas Alexander|Merge remote-tracking branch 'upstream/master' into smc_fixes
+f5705e9d7be69fd2d1b08a8642a487828424f766|2016-04-15|Thomas Alexander|Added SMC test cases, and tests for latest SMCUpdaterBCRB. Tests are stochastic, but I'ves run each a 100 times and they have yet to fail with current parameters
+8d91febd0852ed3bbf57464acaeffa55979d9460|2016-04-14|Thomas Alexander|Added SMC fixes, and adding new SMC test case
+ca42c3e924931fd97bbf781f4c7150f339d0cf2b|2016-04-12|Christopher Granade|Version bump and filling out metadata. Added README to MANIFEST.
+f7f31e213dad1f3b17d477102081ed0e3d678ef8|2016-04-12|Christopher Granade|Metadata for PyPI submission.
+c5ff7cfb7a1b213058f581b3158fb48d77d40c44|2016-04-12|Chris Granade|Merge pull request #43 from QInfer/ci-maintenance
+d3adee312e5ee934a2f590fcfbfef165cae91cac|2016-04-12|csferrie|Started improved documentations branch.
+e1f4c7fdcd1492b09c441c42abfb7f256b48fb38|2016-04-12|Christopher Granade|Fixed paths.
+99d8bf15548d154f0b1ae48a49f7472f4e9198c0|2016-04-12|Christopher Granade|Added coverage config to travis.
+e30e132e6762e10bdb181461cf50f923775b8e6d|2016-04-12|Christopher Granade|Moved coveragerc to where CI can find it.
+788595dd48b77e53d206d254a1b84da8f3ea09c1|2016-04-12|Christopher Granade|Prevented coveralls from seeing _lib, experimental.
+cddff6d7d3202471a4183890702ef64f0607a002|2016-04-12|Christopher Granade|Excluded a few extraneous things from codeclimate.
+cfe0a99fd6670a8cce1668f41f1e03f6aa4cde9d|2016-04-12|Chris Granade|Merge pull request #40 from QInfer/python3_support
+0ab53631779f4f7d583c339110f19ae835249bc7|2016-04-12|Chris Granade|Merge branch 'master' of github.com:QInfer/python-qinfer
+0c77f7bcb7e28b17a0f3da6c8f43690ebd8323d9|2016-04-12|Chris Granade|Added sublime project file.
+cadc61248f796553ccef5681cf3c47c1f13dd24a|2016-04-12|Chris Granade|Merge pull request #42 from whitewhim2718/qinfer-optimizations
+fd0ba8b825a4ec8db9d0e6b8aa2099dc7e4427e5|2016-04-11|Thomas Alexander|deleted old einsum call comment
+32c1b4bf86d93cdb65c764d9aa701f9753efc7e2|2016-04-11|Thomas Alexander|Replaced np.einsum call with np.tensordot call in bayes_update. Tensordot is much better optimized for BLAS libraries such as MKL. I get approximately a 10x speedup over the einsum call.
+55311d23d6ea545e63945f6b57eec785d0804809|2016-04-11|Christopher Granade|Pointed to Py3 support in README.
+adab96d03848f08406306b9092c88de7f1b7e8ee|2016-04-09|Steven Casagrande|Fix py3, add pylint to travis CI
+0457ad302e53ee3964c3339847fc241fb5c835a8|2016-04-09|Steven Casagrande|Merge remote-tracking branch 'remotes/origin/master' into python3_support
+ccfb4570a539711fd14b832a31a8e2a7167cc6be|2016-04-08|Chris Granade|Merge pull request #39 from QInfer/feature-betterparallel
+b1ace87a942f50a6fa09e538e576aa47da74e074|2016-04-08|Chris Granade|Improved docs for parallelization.
+b489664567f194966cae5750feb3457fff2918ff|2016-04-06|Christopher Granade|Bugfix for tomo example. Seems to work now.
+615ee353c40835ba2a7132eba2df64c4c39e377f|2016-04-06|Chris Granade|Fixed iteritems() use in tomography, updated example.
+88ad02d6661c38788c5c8b82ab32ea0764940a44|2016-04-06|Christopher Granade|Merge branch 'python3_support' of github.com:QInfer/python-qinfer into python3_support
+4f46bd14b213938af1ea3feed8913021278558ce|2016-04-06|Chris Granade|Improved example to serve as better Py3 test.
+f1bd97b4027d2a14e5c598ba21bf3a12144341fd|2016-04-05|Steven Casagrande|Wrap matplotlib import in try block
+3fb2b261268af79a81d0be16a5afcfc01f72f6cb|2016-04-05|Steven Casagrande|Switch some u->r string prefixes, add unicode future
+a086c7964686475dcf1a53683b34ecf5ddbe77e4|2016-04-04|Steven Casagrande|Disable 35 on travis for now
+4d5e2a7a018a0976180ffc1ac969f456558f4bb6|2016-04-05|Christopher Granade|Added new example that seems to work w/ Py3?
+6be5c47a1a18f795ef7453ccb8a809270db11c4a|2016-04-05|Christopher Granade|Made IPythonProgressBar ignore errors.
+51319c5acb196e9cd0b765bd40ad5b2c0a317bd4|2016-04-05|Christopher Granade|Improved docs.
+3d8790a01f268365edd21295dd4fae9a8d31f889|2016-04-04|Christopher Granade|Another minor bugfix to AbstractModel._repr_html_.
+a6467329f4d0d8913ca442c902b15b08324dadd9|2016-04-04|Christopher Granade|Docstring and new doc section.
+a17d16827fa335f103d6788642a2c910d554f07d|2016-04-04|Christopher Granade|New example notebook for parallelization.
+10b445cd43078b35de327b8d263123bb3980b354|2016-04-04|Christopher Granade|Improvements and bugfixes for perf_testing and progbars.
+872bff1594b7c5c842bf961b440d88a027e66458|2016-04-04|Christopher Granade|DVPM no longer parallelizes if batches are very small.
+902983129089ebe9710b22d98dfec0b0c4b39cd5|2016-04-04|Christopher Granade|Minor fixes to IPython _repr_html_ for AbstractModel.
+ec71e7dd509216c4ebf75737501e61b67dbc31b1|2016-04-04|Christopher Granade|New progbar for IPython/Jupyter.
+f7eb3902f335e415a530f71d9b28b924b8b75555|2016-04-03|Steven Casagrande|Add 33 and 35 to travis
+f1862d705d91c5bb9f3d5ebdfed3c35c9f7b5192|2016-04-03|Steven Casagrande|Attempt to remove system site packages from travis
+36996abd5f08b0946d7534e268c1a6df2ca114f6|2016-04-03|Steven Casagrande|Change travis 35 to 34
+41d589353cac9adab13dc4b7e82d36d5b2204405|2016-04-03|Steven Casagrande|Change a bunch of string prefixes
+f40b32dc829edc6d043669930843e266f2c581a4|2016-04-03|Steven Casagrande|Fix izip->zip, string prefixes
+8a33fbbf8cc03aac13ccf446a8df398ddadd4c89|2016-04-03|Steven Casagrande|Fix last commit
+2644a4196e66ef3cfaa9dfb9ff03508edb8b162a|2016-04-03|Steven Casagrande|Fix metaclass
+3d2c1a89ebaefe9c1a40b7edaa38cd26cd702d22|2016-04-03|Steven Casagrande|Fix reduce, unicode keyword, and calling next fn
+f49a0fccc74b2d6a866ec94f3753d1eded92ee01|2016-04-03|Steven Casagrande|Fix map
+419e753ff838adc804d8e5ce10cd8b6394b5e914|2016-04-03|Steven Casagrande|Fix xrange vs range
+41d79ca0b317298c84ea86feeb5bc8fd438f391e|2016-04-03|Steven Casagrande|Add a missed absolute_import
+2e1b6795ff78d43292f78f56da240723732776fc|2016-04-03|Steven Casagrande|Add division features
+1d431dedfbfa27728581059e5602ade71de8e873|2016-04-03|Steven Casagrande|Add absolute_import and print_function futures
+eac042644ca9cfbf74a986db28653c4959a0dfc1|2016-02-02|Chris Granade|Merge pull request #36 from QInfer/feature-badges
+cb3752d99e504d9100ec51163a8685c362a5f791|2016-02-02|Chris Granade|Moved badges above text.
+8ed364962918f50167e11a9d9644311374c0611e|2016-02-02|Chris Granade|Merge remote-tracking branch 'origin/master' into feature-badges
+ab1bbaab65be55cd8097f1d42a4051584e8d9e01|2016-02-02|Chris Granade|Added badges for PR #35.
+53b10c4195f007e24435ed4ce20a6a40e502a15b|2016-02-02|Chris Granade|Merge pull request #35 from MichalKononenko/BuildEnv
+762042950d17a317685de962d2bee3ef07a666be|2016-01-26|Michal Kononenko|Merge pull request #2 from MichalKononenko/AddingCoverallsToReqs
+291f0a162c9ce9bb26a03b300a21cbecb9018317|2016-01-26|Michal Kononenko|Added coveralls to reqs
+9ccebcabbbce5ed4d29de7329ef4b2010109ba5e|2016-01-26|Michal Kononenko|Merge pull request #1 from MichalKononenko/TravisCI
+af7a098a903a780dca89692cb1adbdfbb847311d|2016-01-26|Michal Kononenko|Added codeclimate config file
+dc325a4f193be5cbbd9fe82ebb541b99f90a97ac|2016-01-26|Michal Kononenko|Added py.test to project requirements and travis
+1706a5f1cf95598d7b401459b5dc76e5ab96c204|2016-01-26|Michal Kononenko|Fixed broken travis
+b37a45d8926baf24e8af3a5ef6ed787c025e66cc|2016-01-26|Michal Kononenko|Added .travis.yml, fixed broken import of _exceptions
+baf963969fcaf8425bd4263cbc9399378cf4896d|2016-01-26|Michal Kononenko|Added .idea to gitignore
+d58a35c86aa9d562a91b7292c22f9e1926331723|2016-01-22|Chris Granade|Added DOI badge.
+8fd4421c00220be2bc6728379a6746a986450704|2016-01-22|Chris Granade|Version bump.
+80e63daa83213742e843eeddf497527b7f7fc48f|2015-11-25|Christopher Granade|Added add'l info to repr for tomo bases and priors.
+dc88b6d7cd6c49a19b99cca247d635f91bcdb06e|2015-11-25|Chris Granade|Merge pull request #31 from csferrie/fix-basisconj
+d202a8e417f6d57dec79a572f509f253c99a7eaa|2015-11-23|Chris Granade|Fix for basis conjugation error.
+c7e25d6a3bf0f647fb2220105bf3aa65c0a0457c|2015-09-04|Chris Granade|Further critical fix for IPy ≥ 3.2 breakage.
+ec2c86b65d4f08008470d41ea985aedb95e2d46e|2015-09-03|Chris Granade|Merge pull request #27 from csferrie/feature-newtomography
+dc3db8047663f0a46aaadd2ece423cdb079e9df9|2015-09-03|Christopher Granade|Merge branch 'master' into feature-newtomography
+99d7de12a38a2bdcc995fab1e76d30ccd5a29c79|2015-09-03|Christopher Granade|Fixes critical bug caused by change in IPython parallel.
+923c19d9b1f4da27dce1c7c4ca33802b1cd74ca3|2015-09-03|Christopher Granade|Minor fix to plot_rebit_posterior
+ae32f0ae5f9ed25624869323f1afdf271399af1b|2015-08-01|Christopher Granade|More plotting improvements.
+ddf5d73ecce38185f43b56db624dc52d0b0b46c4|2015-07-30|Christopher Granade|Lots of plotting fixes/improvements.
+4677570f8b5c422856182fb7103634f1cc58136f|2015-07-22|Chris Granade|Added _repr_html_ support to model and tomography bases.
+daa3b3638a9da3338d3036283c5395a4fde33090|2015-07-22|Christopher Granade|Minor plotting fixes.
+ec1b277390bada3cbf3141267bd09be71b65c1af|2015-07-18|Christopher Granade|Minor bugfixes to labels and rebit plotting.
+6b28b9b1c4d09a9feb665d3355fdf0f714168b65|2015-07-18|Christopher Granade|Minor bugfixes in expdesign and bases.
+8f23bfd1e474603a6f5bd259656d4234da9dc6d4|2015-07-17|Christopher Granade|QPT heuristics and Q{P,S}T metaheuristics.
+8050bf9e64ca75a9835bce45e512073dab5051ce|2015-07-17|Christopher Granade|Started rework of heuristics, incl splitting away from models.py.
+3d6b17cf351a6fa2a34473decaa541e731cb4d60|2015-07-17|Christopher Granade|TomographyBasis now supports iterator protocol. Useful for random.choice.
+1bd29644fd19ef67ecc44fea69f13b64652dbbdc|2015-07-15|Chris Granade|Minor fixes to rebit tomography plotting tools.
+e12d599b84183e598390952a70f6777c2c0a34e6|2015-07-15|Chris Granade|New tomography heuristic for meas worst basis.
+7f72e66cb2f9d272ec7cba6217ea85b866c46a31|2015-07-15|Chris Granade|Fixed normalization, dimension issues w/ Choi states.
+fbc46726b6be39f47095fcbec83772ba530d5281|2015-07-15|Chris Granade|Added superrep, fixed bug in mapping mps_to_state.
+29f035229b51263302cdbddeaed9a919f3c798c2|2015-07-15|Chris Granade|New heuristic class that draws from other heuristics.
+29dcb79d35053be7a0674663f07287c608783968|2015-07-14|Christopher Granade|Merge branch 'master' into feature-newtomography
+48cf0f435e8a6443897aee38c1a9d6394d143c84|2015-07-14|Christopher Granade|Bugfix in truncation of neg eigvals.
+d14420f8d226846efe239eac59590062017826ce|2015-07-14|Christopher Granade|Improvements to performance testing.
+33ab428f9be694e22278152fe32742137128dbcb|2015-07-13|Chris Granade|Initial commit of new tomography support w/ JC.
+841401b597188494f363a5604f0b14816216f26e|2015-07-13|Chris Granade|Revert "Added new classes to __init__."
+b72cc3880c97bf00ffe162882fa18c7e12fa61a0|2015-07-13|Chris Granade|Revert "Cleaned up Ginibre prior, added test."
+a8e5cb08feeab116d2bbcb9dbe0f997b8a25f8fd|2015-07-13|Chris Granade|Revert "New multiqubit state model. Seems to work, I think?"
+fc31aaeb3ea4f014287b43f67c0aa4af15f952f3|2015-06-05|Chris Granade|Fixed order of parameters in LogNormalDistribution.
+911a0e6652e585ca7740b102a2daa2b3668d0be6|2015-04-17|Chris Granade|New multiqubit state model. Seems to work, I think?
+661af46e0be5f6a8409427d820d4b68b8ab7bd22|2015-04-17|Chris Granade|Cleaned up Ginibre prior, added test.
+03864dc77901cc3643e9548e3fb616d3f753e18d|2015-04-15|Chris Granade|Added new classes to __init__.
+f77e83b6195ba22ad95b169ed85c2aef9805a7e7|2015-04-15|Chris Granade|Started refactoring tomography in terms of QuTiP.
+05e9459be477aae62c9c4aba45591ea9b8ea06b3|2015-04-15|Chris Granade|Generalized a few different features.
+27c24c7bb09d7be225f6ecf042d5540bb4b8f814|2015-03-16|Chris Granade|Minor fixes to prev commit.
+db146813cc95dd2d331344b72b412cee56e31627|2015-03-16|Chris Granade|Extended SPM to include inversion.
+21c98609d7f5d18c0863ae51be1edce9923ce161|2015-03-16|Chris Granade|Visual Studio solution file version bump.
+e9f5a4375c338f7e1ad8787573dd74bf0c83c70c|2014-12-04|Christopher Granade|Added new option to plot_covariance to exclude parameters.
+97a97dd43f96f7bcc84199048de6e6a82feb1655|2014-11-27|Christopher Granade|New MLE model, covariance plotting features.
+4f5e163fdcf682f15d7445db214384f8291dfc68|2014-11-26|Christopher Granade|New functionality in plot_posterior_marginal.
+5db3f3bf557a8fab8c56a0337bd17a381f9d3912|2014-11-26|Christopher Granade|Fixes for BinomialModel.
+ad0e23db68c9d3a5c8d1671e7483ae05367fdcab|2014-11-26|Chris Granade|Merge pull request #25 from csferrie/fix-distsamples
+6ca50c09005408ffaffd62a51d5f9be58f42ad5c|2014-11-25|Christopher Granade|Fixed single-sample distributions.
+27c69e77f26b18b255a370a3369a895dd41a0411|2014-11-19|Christopher Granade|added extra_updater_args to perf testing
+300b45aa5b69e801cf619c8d4d4fe4582a723f50|2014-11-19|Christopher Granade|added context as optional arg
+c195052b0239ebcdae3957ea4e9817fa44c35144|2014-11-17|Christopher Granade|Merge branch 'master' of github.com:csferrie/python-qinfer
+cc867691b79b4e7ad98b375cb8786cd278017bba|2014-11-17|Chris Granade|Merge pull request #24 from csferrie/feature-parallelperf
+a609f73707e74216dc5c8994eb104ee7384d42ee|2014-11-17|Christopher Granade|Fixed pickling of distributions.
+e4cc1ca89ec17e86dc75b1378a24e057149e6d18|2014-11-17|Christopher Granade|Fixed bug when tskmon_client=None, handled threading better...?
+02d2f574f68c54d1d98831877b2ea01986024808|2014-11-17|Christopher Granade|Added YRS's changes (#23), fixed threading issue with tskmon.
+8ee3bef07d0c6ace068fc0cee52b9b55511a16b0|2014-11-17|Christopher Granade|Merge remote-tracking branch 'ysanders/master' into feature-parallelperf
+24ba3d8fc75911043ad0214ba4df474354314785|2014-11-17|Christopher Granade|Enabled parallelization, tskmon.
+ef91f6b9b9c93a6e8a250ebe3040949af2436d24|2014-11-17|Yuval Sanders|Modification to perf_testing.py
+896e6e9787209f28d38898f82cadb66352f83a59|2014-11-17|Christopher Granade|Added passthrough for smc plotting.
+627f88a14c948898de81cec5548e79e41f444326|2014-11-13|Christopher Granade|Fix for bug discovered by YRS.
+172b52514d06f40413a4a242bea47882da99c945|2014-11-06|Christopher Granade|Minor improvements to plotting, IPython repr.
+87c2bc92271c1b51582ed363a0a0cac4dc4a4aeb|2014-10-29|Chris Granade|Merge pull request #20 from csferrie/feature-canonicalize
+b9c9955901002e09ac82ce1bd8d1421894a5bf14|2014-10-23|Christopher Granade|...and a typo.
+67b05976228c95081a8b1284cfd2d312c4c97345|2014-10-23|Christopher Granade|Fix noted by IH.
+a219fb65e22a3024dd9ce592fd69e7654f4e0e37|2014-10-23|Christopher Granade|Fix for picking of DVPM, deprecation of _serial_model, fix for m_c.
+1882341b50fcb74776eb2039a41b50d5be45bc57|2014-10-23|Christopher Granade|Missed method on DerivedModel in refactoring.
+f71f4b1bcaacf0576dcda87b1bdef146d274019e|2014-10-22|Christopher Granade|Fixed stupid syntax error in previous commit.
+c9e4da009ed8919e46429352fbe076e427f3ee41|2014-10-22|Christopher Granade|Possibly breaking change to address #22. Refactoring into DerivedModel.
+228789814e0f0bccd2576bee30cdba9fdbb1a0c6|2014-10-21|Christopher Granade|Added derived_models to __init__.
+948653f50b35b42cf49fc3f438e3a5e1f4b6d6d6|2014-10-21|Christopher Granade|Merge branch 'master' into feature-canonicalize
+d66ea2f7c949d2f462b656c2a7ed103d75507662|2014-10-21|Christopher Granade|Continued work on refactoring into DerivedModel.
+221f8a7974693e48b8f2606a4c53639cf7f0ab29|2014-10-20|Christopher Granade|Added canonicalization support to BinomialModel.
+19ff1b100f88f1d8758e5662df251cc835e8141c|2014-10-20|Christopher Granade|changed default to canonicalize=True
+8156cdb7cf44e8db2925557645178e4f532f02c9|2014-10-20|Christopher Granade|Changed how unstructured_models exports.
+6fe74853e64d0fc188ba0af77f6deabd90079371|2014-10-20|Chris Granade|Merge pull request #18 from csferrie/feature-experimental
+34f12c427daa275a2a12eb014f3d74e072abb07c|2014-10-20|Christopher Granade|Caught up to master.
+9759a0bbbab7f87cf650c31d568e5954905e950f|2014-10-19|Christopher Granade|Fixed docstrings in macro-generated models.
+7c17ed6a984feace1aefdc08f693d468cbc52c94|2014-10-19|Chris Granade|Merge pull request #19 from ysanders/master
+db34ef7ec0ec526bcfa31118d61cc31854de35ed|2014-10-19|ysanders|Added a line of clarity to the docstring, courtesy of Chris Granade.
+791d9a692e17cd06721072b89e8ea3b168ce95a8|2014-10-19|ysanders|The ProductDistribution class has been updated to handle any non-zero number of distributions.
+647bfd4c1360ef13f7eb3b6b870eaf1e8ebf42da|2014-10-19|Christopher Granade|New (highly!) experimental features using macros.
+44643a23791ef805ce4b78b9b19b67ca029a2a11|2014-10-18|Christopher Granade|Added guard to IPython parallel import to enable serial use w/o IP.
+48d589ed94c0d17a4660ed2ccd48bf155537873f|2014-10-18|Christopher Granade|Added truncation to NormalDistribution.
+8bcff5e78aa5c38366eafa5f305081ea8b54e083|2014-10-17|Chris Granade|Merge pull request #16 from csferrie/feature-score
+80a2aa8f64707c62a275f27b91ea6fbfbb4943bd|2014-10-17|Christopher Granade|Merge branch 'master' into feature-score
+b0d0e2321a6a5f1bd971089b61d4e23865a8e537|2014-10-17|Chris Granade|Merge pull request #15 from csferrie/feature-perftesting
+871ea98775241a202289b674f4f73931562ad32c|2014-10-17|Christopher Granade|Added logic to clear_cache to prevent IPython parallel memory leaks.
+e7dd5781ca1467409dc8135ad46ae654f92bc142|2014-10-15|Christopher Granade|Added new check to resamplers.py for zero-norm cov.
+d40d88136cb40d175a13201018957f9f2e6d4e16|2014-10-14|Christopher Granade|Added more documentation, fixed dists, fixed doc issues.
+1ea71a151cd8bfdb25fede670ddae02a84d8a6f8|2014-10-14|Christopher Granade|Fixed doc errors, added details of new classes, functions.
+55a57badd016b7a9652297ea73119ccdc21a668f|2014-10-14|Christopher Granade|More fixes to make simple example work, new ExpSpareHeuristic.
+663298e8a3f6bb138e449616914c5be88e3820a3|2014-10-14|Christopher Granade|Added MASMC to smc.py's __all__.
+b36f0cd4c70f6a486e882e336b8f5c9647a78cfc|2014-10-14|Christopher Granade|added __all__ to test_models.
+3e9bc6d670ebce7f4b744739bb24d9a7ecb7524c|2014-10-14|Christopher Granade|Added GPU model example, basic performance testing.
+8f2c06b9e69e777ee30612e215dd3c0692ed2e2d|2014-08-21|Christopher Granade|Minor changes to ScoreMixin example.
+a1df8fb9398b1cf7441eab41db2b84db7976669a|2014-08-14|Christopher Granade|Fixed mistake w/ bad A, B.
+f93b3e287ee2ff970d4d3a3429f97b060a7a8a46|2014-08-14|Christopher Granade|Minor fixes to models.
+82091593faac625cdc9dd4bdeecba6b4aae105ab|2014-08-14|Christopher Granade|Changed init file to address #14.
+c6dd844f2afbfb3d0533ff50f8cbd002a3755442|2014-08-14|Christopher Granade|Added RB example for ScoreMixin.
+824b77d27e6b2f04f94bc77f0bc04159f8146a04|2014-08-14|Christopher Granade|Added Python Tools for Visual Studio solution file.
+adda1969d39c074d8c3c6b173f5cc27206f3d396|2014-08-14|Christopher Granade|Added barebones unstructured freq model, with __init__ addressing #14.
+e46d33c8dc8638e3213ca50224feae7c5b24a039|2014-08-14|Chris Granade|Merge pull request #13 from ihincks/feature-score
+59ab8e1e44aff89738bf12268c3ed710201d44cd|2014-08-13|Ian Hincks|Minor bug fixes to score methods + example calculation notebook.
+96e45c59af6f44a733165f68cde81af98ed8a847|2014-08-13|Ian Hincks|Added the mixin ScoreMixin which numerically computes the score function q.
+03d80eaa8b4fb919fda98454ff77e9a9b5e7575f|2014-08-12|Christopher Granade|Experimental implementation of canonicalization.
+e7d6806afd38365a96cfec8dc488c2705f39dce6|2014-07-23|Christopher Granade|Minor bug fixes, new option to disable LW postselection.
+0d5e0f146e4f44ceb672cd58c9e578104e9d2a58|2014-07-19|Chris Granade|Merge pull request #12 from ihincks/master
+c9553b1544c4e75bc2c3047f2c3e407f2c132b90|2014-07-18|Ian Hincks|Inherited the clear_cache method to a few more derived models and the direct view parallel model.
+889cd623768443f48227e071f27884cbc290920f|2014-06-06|Chris Granade|Merge pull request #11 from csferrie/exp-resampler
+dfad27adf36fb066c5a9d95a358892f263086e3a|2014-06-05|Chris Granade|Merge pull request #10 from ihincks/exp-resampler
+eb6e91c54e26d0a0f6ff77b57eed386263ee0726|2014-06-04|Ian Hincks|Added marginal plotting function.
+fb8e69e39a6078913a489b78f08ea11383535746|2014-06-03|Ian Hincks|Merge branch 'exp-resampler' of github.com:csferrie/python-qinfer into exp-resampler
+312c5afb3b7584db58e512ade9890c1fcfa13437|2014-06-03|Christopher Granade|Fixed bug in reset().
+c25cdb26e4a7fdd69632c2c1a72c0f9972b47d7b|2014-06-03|Ian Hincks|Merge branch 'exp-resampler' of github.com:csferrie/python-qinfer into exp-resampler
+66be7c18002166fa6c779b2a341da2e10bbee9bf|2014-06-03|Ian Hincks|Fixed batch_update dependency bug.
+30f657bf3ef0cf87c4d8f3281f0ab849ecffce5c|2014-06-03|Christopher Granade|Added new functionality to reset, allowing for *partial* resets.
+ab268de965a127e599e7a32901664f03f18883bd|2014-06-03|Christopher Granade|Merge branch 'master' into exp-resampler
+283d48a7135685274b7c2e901dfa05857e75fd7f|2014-06-03|Christopher Granade|Caught up to latest changes in master. Still needs testing.
+11b53c80ac8f24ebbe92d8d209b0c5ae1bf3cd58|2014-06-03|Chris Granade|Merge pull request #9 from ihincks/master
+fa7290c43beb28662db90a44f623e487f979dc1d|2014-06-02|Ian Hincks|Fixed bug with __getstate__ of direct view model.
+5913869b5d6b09a33c7256e727ec95cbf6fba39c|2014-06-02|Christopher Granade|Minor formatting fix caught by IH.
+db5e5ca80ed4ff1ee296a291a092a4059375c8e7|2014-06-02|Christopher Granade|Added patch from IH.
+a62e95bd31d18592aefe2e50d34db95a273d5c48|2014-06-02|Christopher Granade|Added __getstate__ to parallel model to prevent pickling problems.
+a44c6c18bbfa20605e6903edf87aca53de2185cd|2014-06-02|Christopher Granade|n_particles now a dependent property, making it easier to load/restore updaters. (h/t IH)
+1b2573ce738dfa0313b04f20cc1315a7a57b7213|2014-05-20|Christopher Granade|Added cache dirtying semantics.
+f4c3605099cd2e3e6f5a27bc58adf249e76695ce|2014-05-01|Christopher Granade|3cos
+cede3b3ef18be6eb36db9fe4593a699fdf4dd7f3|2014-04-24|Christopher Granade|Merge branch 'master' into exp-resampler
+274ecabd0360222218cbddd875dd05e5a2147d1d|2014-04-24|Christopher Granade|Fixed preamble.
+be217461e6b43b08114d39b3a7dadb23819b6dd7|2014-04-24|Christopher Granade|Merge branch 'master' into exp-resampler
+4080ba55771fd7f6e5063a24ec4a58d630f1c023|2014-04-24|Christopher Granade|Broke circular dependencies.
+6b5fe4dcb3f324ba18cd5270bb97acad97c8a6fd|2014-04-24|Christopher Granade|Continued work on the MLW example.
+4d484ecfff32aa6dda2171726f52af473073eb27|2014-04-24|Christopher Granade|Added example to demonstrate new resampler.
+fbbe2a7131805c6ec338e68d1773023d55bd8b64|2014-04-23|Christopher Granade|Further instrumented LW for debugging.
+adceca1c4c6b9f3bc9767933fca702eff6b36e06|2014-04-23|Christopher Granade|Added debug support, tried to fix postselection bug in LW.
+def4ea1e78e6226736170ab61b015dc681c75c95|2014-04-23|Christopher Granade|Added a bit more to RB guide.
+3dd05b741bb6e4655b52423ccb18c2c008b33e8d|2014-04-22|Chris Granade|Merge pull request #8 from csferrie/fix-docs
+88963909b094eb44064e535c07d830fcb1ae7033|2014-04-22|Christopher Granade|Bugfixing latest few commits.
+6e04cb4097cd82641b2bea3ee8b535146a6e1a77|2014-04-22|Christopher Granade|Added KL divergence tracking for resamplers.
+8c6bcdae763465406557c52876bb145b89d76913|2014-04-22|Christopher Granade|Fixed very minor typo breaking math typesetting.
+71fb1b92d389b3c48d783999b6877bd05a16e49f|2014-04-22|Christopher Granade|Allowed for a/h mismatch.
+971db9279abff4b2d3e699feb19ad2e68c487405|2014-04-22|Christopher Granade|Inherited from the wrong file.
+093955a45da63c2ac5d807efb324d28739b8fe92|2014-04-22|Christopher Granade|Forgot {{ super() }}.
+85f15d6f056ee5b9879c0d0e8327f459de0a57db|2014-04-22|Christopher Granade|Tried to get layout override working. Followed advice at rtfd/readthedocs.org#152.
+fc0a266e10090f0bb9809743d0678056a350eab8|2014-04-22|Christopher Granade|Added extra header for MathJax macros.
+096b64b771c974d29f0b495c49260111cd5fe5e6|2014-04-22|Christopher Granade|Trying to handle math formatting.
+bc5362b10550ceae58b649f8d9da9ede5e0bad53|2014-04-22|Christopher Granade|Added back some of the mock modules.
+b72587ebc328b471af1aa7dc6b552f642b2d0d6a|2014-04-22|Christopher Granade|Enabled requriements.txt for RTD.
+2cd52e4a99a4aa564b4d33baf01b5abb7cac2664|2014-04-22|csferrie|Merge pull request #6 from csferrie/feature-timestep
+75f3b4d2dd9d9c9403a52fd8cc866cfa1027f3dc|2014-04-22|csferrie|Merge pull request #7 from csferrie/feature-unittest
+fe5601fea8a8d9614149c0b3076d34cd78549cb0|2014-04-20|Christopher Granade|Changed to MathJax.
+ebb43062b545972df67d0621d74ce33234bdc6e2|2014-04-20|Christopher Granade|This should make RTD build work now.
+a9779feb748c27e3227fa75ca4131648ce77a4d1|2014-04-20|Christopher Granade|Merge branch 'master' of github.com:csferrie/python-qinfer
+576aebb2e231dabe8e8ab46ceea96a1fc7e4c985|2014-04-20|Christopher Granade|Caught ImportError to allow docs to build.
+33667215427a4a88009e889a705d4d3e5d6dc0b7|2014-04-20|Christopher Granade|Caught ImportError to allow docs to build.
+48c8bfa1717f2bfeffc361a8b7b8275d9402a4b8|2014-04-17|Christopher Granade|Reworked biblio slightly, expanded interleaving docs.
+655f2349ab9c55b3dacd37f05124da423687716a|2014-04-17|Christopher Granade|Continued work on new ARB docs.
+943a24bac61569b23330b0b49f730e43bc79df7a|2014-04-17|Christopher Granade|Initial stab at RB documentation.
+5b48d9d88f34e33bbda934998e41f47277b446ff|2014-04-15|Christopher Granade|Added docstrings for p and F.
+dbac52b3b6e537ffd38c2acae4b5161d607bb9c2|2014-04-15|Christopher Granade|Added randomized benchmarking model.
+b8d8375f779c743d2b55abdd79d816714be80ac0|2014-04-14|Christopher Granade|Started testing models as well.
+cc2c3664cdafe51af652fecb237d72654e9efbde|2014-04-14|Christopher Granade|First few unit tests, all for distributions.
+06427723ead8f0d677759dc781d7c4fe41dd1635|2014-04-14|Christopher Granade|Moved coinflip into examples, instead of package dir.
+f20a00e4f63feb3c25127b2f7c159da78970a206|2014-04-03|Christopher Granade|Added other_fields parameter to PGH.
+456c989a098ef1950e8b67deaf47bea78dbc9c50|2014-03-24|csferrie|grad_log_pdf went to the wrong dist in debugging
+08d4a51f1946942c6c40c6736bfe07e4a7231492|2014-03-20|csferrie|Merge branch 'feature-fisher'
+25fbab0768359acd140d64e8c519f09942dd000c|2014-03-20|csferrie|Added naive grad_log_pdf to PoselectedDistribution
+6dda7bdae0be3c11f97e1f7a1d93ddd8d960b8be|2014-03-20|Christopher Granade|Added barebones example of random walk, fixed bug.
+fbbb237ab841ec754fa49bb06b41c3efe045d844|2014-03-20|Christopher Granade|First (untested) stab at update_timestep method.
+75c06d157ffe47d6588530e25fdadbd2af9e025f|2014-03-20|Christopher Granade|Merge branch 'feature-fisher'
+cc41a277376fd24c298b4d8af5084cad656f783d|2014-03-20|Christopher Granade|Merge branch 'master' of github.com:csferrie/python-qinfer
+5a3e9e8782970cad63e47dab86a3d9a6cb3112d4|2014-03-20|Chris Granade|Merge pull request #5 from csferrie/feature-fisher
+28c65f7a8ab355d385adde2899c2a6c41f256a05|2014-03-19|Chris Granade|Merge pull request #4 from ysanders/master
+ffceb07136c73700f187ce399cae784a2166a0bf|2014-03-19|Yuval Rishu Sanders|Fixed docstring on LogNormalDistribution.
+a38043352018daf20d387f36f65c21ad15a078a5|2014-03-19|Yuval Rishu Sanders|Added docstring to LogNormalDistribution, and included default parameters of mu=0, sigma=1.
+0481c0ca00c15cef21609ee064875ce981d7eda6|2014-03-17|Yuval Rishu Sanders|Added LogNormalDistribution.
+ac35cdd0c78c486ed4803d0bd5f6a5fac9a9ae06|2014-03-13|Christopher Granade|Merge branch 'feature-fisher' of github.com:csferrie/python-qinfer into feature-fisher
+10c4e44c8c13d437ab68b7fbd27ab1a9357ebecf|2014-03-13|csferrie|Fixed grad_log_pdf for MV normal
+b1bff4f2d839cb31309e479f57165909dd7104c0|2014-03-12|Christopher Granade|Merge branch 'master' into feature-fisher
+53a22696cfac872136b78f5da5ba14c4adf8fc30|2014-03-12|Christopher Granade|Expanded assertion to catch ndims errors.
+9f3ce1c4f0f3917f2f82ccba1edc743600280b5e|2014-03-12|Christopher Granade|Minor problem w/ last commit caused duplicated calls to are_models_valid.
+239284056bbaaf984f8c069b6e4f5b3a32b3eaba|2014-03-12|Christopher Granade|Added new validity assertion to resamplers.py.
+1280126e2edda7df23284c6d89868e011946fad0|2014-03-11|Christopher Granade|Added interpolated distribution support, example.
+9c5ddd2e3ddd39b68a7005585a69dd86dfa133c6|2014-03-07|Christopher Granade|Merge branch 'master' into feature-fisher
+6929d5b08c11f34e673bc61c2f8004def2b539e5|2014-03-07|Christopher Granade|Added new parameter to PGH to allow transformations modelparams → expparams.
+c51ae61a71bdc40cf8618bfec2ca70df357c8ef9|2014-03-05|Christopher Granade|Merge branch 'master' into feature-fisher
+e20e656c0ca3a6526e58d3cc0d0f478b94472cc1|2014-03-05|Christopher Granade|Added instrumentation to try and detect NaNs in resampling, die in flames instead.
+788f9421c75ffb329d309e6a0c4cb4848b896c49|2014-03-05|Christopher Granade|Merge branch 'master' into feature-fisher
+ff15746a948445021e63aeafbadcbd1c8234a2a0|2014-03-05|Christopher Granade|Added assert to utils to try and catch NaNs.
+de27ce93657d16182abe44f0ba72821f89979c8b|2014-03-05|Christopher Granade|Merge branch 'master' into feature-fisher
+232cd9b0c3c2c8cc369a25b4ba9a29b358127ebf|2014-03-05|Christopher Granade|Fixed bug in last commit, seems to work now.
+43fe8954908be42ae7b7889e03dc2851b1bb593a|2014-03-05|Christopher Granade|Merge branch 'master' into feature-fisher
+291a92cabf28731f2fdb32769090549079271095|2014-03-05|Christopher Granade|WARNING: untested! Adds new functionality to check for failure of SMC algorithm and recover.
+0716fc8e4c2d0e993a7f53dd5a83955fc5d1fec4|2014-03-05|Christopher Granade|Added docstring for PGH.
+204bbac639a625645500e35552279b9fadaa8c34|2014-03-05|Christopher Granade|Merge branch 'feature-fisher' of github.com:csferrie/python-qinfer into feature-fisher
+fecb36464c2859e66177b0371009e859e8b042ac|2014-03-05|Christopher Granade|Fixed critical bug in posterior sampling.
+a2cd5be688270662dcdb29ed115bb45064e61cb0|2014-02-28|csferrie|Small bug fix in MV normal dist.
+e8cce0e46b8421089121d93ea3014e53ecb3cbfa|2014-02-28|Christopher Granade|Added link to RTD builds.
+6d7c4f1cfc50b45318d432b4b1bffdf3debf84a4|2014-02-28|Christopher Granade|Fixed very, very rare bug in SMCUpdater.sample.
+dc262c7839bcaed21a7c2f5abe594bc55bcc26dc|2014-02-26|Christopher Granade|Merge branch 'master' into feature-fisher
+8cf74f5eb54254527f5afd1f5f66e2b6dd770d51|2014-02-26|Christopher Granade|Fixed PGH to avoid NaN.
+4420a047ec8aa2f8ded5fd762dd45bff6a6c7f55|2014-02-26|Christopher Granade|Merge branch 'master' of github.com:csferrie/python-qinfer
+c8d7ed62de2243bccd03fc92f1ce2565bcde504a|2014-02-26|Christopher Granade|Fixed silly problem with PostselectedModel.
+3c2de2bc9dcbb7e9d4d38ac979a5968b73e6801b|2014-02-26|Chris Ferrie|Bug fixes in distributions
+0431aaa080203bbe0adaecbfbd79a8a6b68842e1|2014-02-26|Chris Ferrie|Merge remote-tracking branch 'origin/master' into feature-fisher
+5f4590d41db22a8d0c63cd10cee2e88421ba78cc|2014-02-26|Chris Ferrie|Added multivariate normal distribution
+a704325cd595dacce4f6493823d360df8a70b1b4|2014-02-25|Christopher Granade|Very minor bugfixes.
+3d7070587ff496019ca039b02907a84b48a61496|2014-02-24|Christopher Granade|Added initial_bim as kwarg.
+02703814d7fe06eb3f44e7525dfbcaf558e3a309|2014-02-24|Christopher Granade|Fixed definition of initial prior BCRB.
+177998b6f9079bc333397850c225eb7c36d4136c|2014-02-24|Christopher Granade|Started refactoring SMCUpdaterBCRB to use fisher_information.
+cf8c1adc59755653c6212b150ce092b37e737960|2014-02-24|Christopher Granade|Added fisher_information impl for DifferentiableBinomialModel.
+9d115d35dbd4327a6cb8194a138cd801c249dc5f|2014-02-22|Christopher Granade|Continued work, skeleton of DifferentiableBinomialModel.
+f67d746820a240481970acdcbeb330711eef48a3|2014-02-22|Christopher Granade|Added constant outcomes Fisher info calc. Seems to work?
+d125c0829c8668e48ec65a1499fd57a980b51a09|2014-02-22|Christopher Granade|Started WIP on refactoring of BCRB support.
+a0ea0a6db628500b0db3f3c513b6fa1bc55ee37e|2014-02-22|Christopher Granade|Acknowledged IH for recent pull request #3.
+d9bdcf0e46156ca080c08edc85c5f400c05c5aa8|2014-02-22|Chris Granade|Merge pull request #3 from ihincks/master
+be4e19f110caf7d1f4297890ac0868afbc3340bf|2014-02-22|Ian Hincks|Merge branch 'master' of github.com:csferrie/python-qinfer
+d8b1664497c835425f256be966007d44767ed1b6|2014-02-22|Ian Hincks|Made DirectViewParallelizedModel compatible with remote engines.
+eec1684d65fdf3b18cf1653bcdc2e9c3b749be21|2014-02-22|Christopher Granade|Added new distributions to apiref.
+4cac6e725e50e203bc651539e2831fbdfcb2fd2f|2014-02-22|Christopher Granade|Added more docs for distributions.
+d584387fbd0104575de264d14217479ad9e9a035|2014-02-22|Christopher Granade|Added new distributions.
+370a643310bbaa2a53fa4d0cce13d0384ebe8de9|2014-02-22|Christopher Granade|Fixed bug in new BinomialModel logic.
+4959c0d0fc9409934bc36454841f2b5685705ee7|2014-02-22|Christopher Granade|Fixed simulate_experiment to make BinomialModel not suck.
+c53663c6d6205d01f92f4f6c1641002159fc50ce|2014-02-17|Christopher Granade|Continued to complete documentation.
+2fddd3f31d255a3918fd01ef54c210e077184546|2014-02-17|Christopher Granade|Fixed important oversights in acknowledgements.
+429d946167146d89eb474f8535d991f939d77a8c|2014-02-16|Christopher Granade|Added ipython notebook temp files to gitignore.
+bf840de8cfc3f129bfda3c41c6fdb70674c57afb|2014-02-16|Christopher Granade|Bumped version, added to setup.py.
+a2f0c90b8873c96521cb30b75cac52895eba5f85|2014-02-09|Christopher Granade|Resolved more TODOs, cleaned up examples some.
+c0b5097f520ce666d293ae2c955ef75c832ab862|2014-02-09|Christopher Granade|Fixed permutations, added new min_good parameter.
+3b291b59b283732432e656e38454d647d2f4c284|2014-02-09|Christopher Granade|Resolved a few TODOs in intro.rst.
+140ba94b1d45b31a3476a6deccfad4285d07b382|2014-02-09|Christopher Granade|Added authors as subtitle.
+611e4ff0edcca255a018a21753e5bae417f9682b|2014-02-09|Christopher Granade|Continued documentation work.
+734cb841155f1543d81d3ee48cd2e7901cd6cd2f|2014-02-08|Christopher Granade|Fixed major bugs in new mixed updater.
+a6ae76c00ffb25ea6466412ee1fea5499f5b4298|2014-02-08|Christopher Granade|Added mixture SMC updater.
+c8d66cb38f752bee78bac9e987706099e9bda249|2014-02-08|Christopher Granade|Continued working on documentation.
+5313327c8515cf91c8ff24926224558a090a708f|2014-02-07|Christopher Granade|Added istance definition, PGH (see QHL).
+e072c6f9da048f620d6705bd823d3c165569ce09|2014-02-06|Christopher Granade|Changed SMCUpdater to inherit from Distribution.
+5ca98c6e7449d04cdb3181c59067b0a48bfb8f08|2014-02-04|Christopher Granade|Added new section to guide.
+01ab82ca3756811a89712531cbc8adf0dc128f75|2014-02-04|Christopher Granade|Continued expanding documentation.
+4349db07064494f35ea2a23e4d3ba8f233120b92|2014-02-04|Christopher Granade|Added modelparam_names.
+8a160b5b3b54339ee9f5d7b612a8d2d65935f418|2014-02-04|Christopher Granade|Updated introduction.
+0d0f217230ca29ad73b9261a059cf708697c6b3b|2014-02-04|Christopher Granade|Expanded guide significantly.
+7d0d398343f2acfb187814a47b09b6a5036c92e6|2014-02-04|Christopher Granade|Added example of plotting multicos posteriors.
+841788ee67ccc66786b78dfc52e88f0c0ef791a9|2014-02-03|Christopher Granade|Merge branch 'master' of github.com:csferrie/python-qinfer
+b9eb9ef591088eb303f96c7b2e0878ca83348ee7|2014-02-03|Christopher Granade|Added new apiref/utils page.
+0d42ec5077e062ee424ae91c45c2ed88b06c5b31|2014-02-03|Christopher Granade|Added better comments, docstrings.
+592e2647fe15b1bc2aec1fe784d024585dd1fd15|2014-02-03|Christopher Granade|Updated acknowledgements for new contributors.
+3a7d7f97f9e44a6c48ca2c517cb9b5de21ac4dbd|2014-02-03|Chris Granade|Merge pull request #2 from ysanders/master
+a7084ae742045b520382d678b79595c8d97d126b|2014-02-03|Yuval Rishu Sanders|Introduced ProductDistribution.
+3316a68480b947ca4bea4f256338cc94e651dd92|2014-02-02|Christopher Granade|First stab at plotting methods.
+eac323c8a9b35d1ea14fdacbd714053b50b4d35d|2014-01-22|Christopher Granade|Improvements to clustering support.
+45e723c4e2f8f730792687b52d5d9330c133ad4e|2014-01-21|Christopher Granade|Fixed minor problem with parallel.py.
+cabcb69557f497083801e2ffc98a9d9a7c04907f|2014-01-09|Christopher Granade|First stab at IPython-based parallelism.
+93813d88d8a0a918e3f80db4ff5f407f10625e80|2013-11-26|Christopher Granade|Started converting examples to IPython Notebooks.
+1c398ed14fc028335fab5d2b881be198e94ed0df|2013-11-26|Christopher Granade|Merge branch 'master' of github.com:csferrie/python-qinfer
+3fb92d76595334fe83203cc1e1930765109e731d|2013-11-26|Christopher Granade|Started code cleanup. WARNING: untested so far.
+679a4d480851195cb34259a385df4980c236f5e6|2013-11-26|Christopher Granade|Fixed bug with formatting uncertain values.
+abd797d6fae6522c6d5081ebfd5a08c8286a69ad|2013-11-07|csferrie|fixed bug in SMCUpdater.est_meanfn
+cfbda4aa3c83eb97b186bb6ca48245288e82ecff|2013-10-31|Christopher Granade|Fixed modelparam_names in derived models.
+99948c17cc71cb3f3f89056edf0ba4cdf8c071b2|2013-10-31|Christopher Granade|Added modules missing from mock for RTD build.
+add739b35800c7541f6840778c6386af76a361e1|2013-10-30|Christopher Granade|Added _repr_html_ for SMCUpdater. Looks nice in IPython Notebook.
+33b83bfdfcb67694ba3ab69b77556a37d2ab8ac0|2013-10-30|Christopher Granade|Small bugfixes, new property for tracking Bayes factors easier.
+fc528239a13a3b6f8e6ae6f696f80714b6b0ca08|2013-10-24|Chris Ferrie|Changed the way normalization is stored
+9a4f94bb8173dce2de98b1986a4991bf0485e217|2013-10-24|Christopher Granade|Added (untested) support for ReadTheDocs.
+1e4c9676dcd58312502d35930b3434a4eef14968|2013-10-23|Chris Ferrie|New Uniform dist. padded with 0's
+820c9897f240a599daf64f35b476b2f45c469f72|2013-10-18|Christopher Granade|Added max. iter check to LiuWestResampler, warning if not all models valid.
+399c07f607c7ac7753b649ab186fe6b01605ad1e|2013-09-12|csferrie|Added support for normalization storage and retrieval
+dc5f3d46f21352e05f59fbd742b9996b46921279|2013-09-09|Christopher Granade|Downgraded negative weights to approximation warning from assertion.
+a1d1cbd535372912276763f459a4eaaedd8f1856|2013-08-15|Christopher Granade|Misc bugfixes, new information gain method.
+f565b51bb00c433626a8ad1e628ecec9d03fdabc|2013-07-17|Christopher Granade|Added est_meanfn method to SMCUpdater.
+f18ce62c1147cc4304035d2dd5461250573cc609|2013-06-07|Christopher Granade|Fixed interpretation of binomial model.
+782e6f3f7b1acd2c776dceb8438ab9b547865796|2013-06-06|Christopher Granade|Minor fix to BinomialModel.
+5670dca770cef719cfb826123da0255d375e8592|2013-05-17|Chris Ferrie|Small improvements to qubit plotting examples
+61f069a0803eaaa92c0f95d6390f8d659680846a|2013-05-16|Chris Ferrie|Fixed a bug in the HilbertSchmidtDist that only manifested at higher than 2 qubits
+c076ce3a97b4050aebde49c7c9d073a7879d1591|2013-05-09|Christopher Granade|Reduced spurious allocations.
+ef81c1389560664a5269962b50c297fd53e0ac47|2013-05-09|Christopher Granade|Merge branch 'master' of github.com:csferrie/python-qinfer
+c0202ddb20e30bb61eb8db8d09a9caeb19f338f6|2013-05-09|Christopher Granade|Fixed resampler leak again, this time for numpy < 1.7, too.
+10c93020f8cd260951eacca666da2a957d508da4|2013-05-09|Christopher Granade|Recommited example fix.
+bddaca5e050180e15e3ec803a7d17e99a1c09eb0|2013-05-09|NATHAN|Fixed typo in PoisonedModel
+3aa3ce751a8cc7c1b3fc5fbffe25a56a0c855d4a|2013-05-09|Christopher Granade|Fixed huge memory leak in resampler. Corrected tomo. example.
+1b9a90efeac90e8c6fbb005398a69fd9664a524f|2013-05-09|Christopher Granade|Added simulate_experiment method to PoisonedModel.
+3e6100f5435177b7f6c595cfe111cbedeff48a1d|2013-05-08|Chris Ferrie|MultiQubit tomography code working
+dc4c33806af354e1bde6553b28b7e9eb70982572|2013-05-07|Chris Ferrie|MultiQubitStatePauliModel added
+793865ef7961c64ef4e42457cf966ac7bb2d3b5e|2013-05-06|Chris Ferrie|Vectorized 1D BIM update, added Normal dist.
+b37fe77700bf2d712ced4eb4f62c4144aac8358f|2013-04-26|Chris Ferrie|Added rebit example
+8df5b541d3e14def0ec344f609bbcb5c650df777|2013-04-26|NATHAN|Fixed problem with poisoned model
+146d0cc9ebc43650ee1e0c32ba959eb910366f79|2013-04-01|NATHAN|Added New Distribution
+4daf293c3592ac9808e441e88ecc0a9cc0f91727|2013-03-27|Chris Ferrie|Trivial change to plotting labels and colors to match paper
+32d94f81858305d7f6ee5895103f1ab7456a477f|2013-03-21|Christopher Granade|Merge branch 'master' of github.com:csferrie/python-qinfer
+1b46426fa44138b24e7cea84770120b459a43ae2|2013-03-21|Christopher Granade|Fixed memory leak in bayes_risk.
+fd670d4f63d62a2b9c4fa7fe50677cde82e645a9|2013-03-02|Chris Ferrie|Added dice model and multivariate uniform distribution
+42f967d46b43a55f0446c21fcee9047ed560ee86|2013-03-01|Christopher Granade|Moved SMCUpdater.est_covariance_mtx into utils.py.
+10371cd084728b31b475d20724b4f0f5955a58f0|2013-02-27|Christopher Granade|Fixed a memory leak by using Einstein summation.
+3ca5e89b24b0ba4160d428ccebc6f18fc57ade74|2013-02-27|Christopher Granade|Merge branch 'master' of github.com:csferrie/python-qinfer
+b777c6ce0eae127be5550a34061df663759051a1|2013-02-27|Christopher Granade|Added new cluster metric support to smc.py. Very untested!
+72ebc0c89adf1f5a8210a609faee97cdf97db18b|2013-02-27|Christopher Granade|Refactored clustering logic into new module.
+7bc9479020d77ce6319eb9f47d470316e6dff28f|2013-02-27|Christopher Granade|Added --no-plot option to an example.
+ac6c442ea9892f838b58a12dae1eb4f6cc09cd87|2013-02-26|nathanwiebe|Added Multiplicative Costing
+210d4a2ad342c3e6e8247319d3211e06b1e62131|2013-02-26|Christopher Granade|Added tskmon support to progress dialog.
+5f7766a209dbaa94aef6e1e1e3e758202c2d7af8|2013-02-26|Christopher Granade|Added Nelder-Mead to expdesign.
+f02b193c63aa2c3c0f1851e37b35a029a89073eb|2013-02-21|Christopher Granade|Fixed problem when ETA > 1d.
+67a94cf49d3a2a8653da795285df298ddf983ebe|2013-02-19|Christopher Granade|Merge branch 'master' of github.com:csferrie/python-qinfer
+eb3221e07b83374417b5d6ad29f882dec5c092a6|2013-02-19|Christopher Granade|Added fix to pass PYTHONPATH to subprocess.
+7d398dad679b4aac3844f6f90919192a0f3b402e|2013-02-19|Christopher Granade|Added ETA functionality to progress bar.
+9e38e55e29a1827db5c739da5707ac7664c890de|2013-02-19|Chris Ferrie|Renamed parameters to match paper
+90f2bc1e4256309aac3e47a231ff1850a3221620|2013-02-19|Christopher Granade|Fixed problem with model validation.
+7e5fd8d523709eb7ebfac9839ce34a8b2c318393|2013-02-19|Christopher Granade|Merge branch 'master' of github.com:csferrie/python-qinfer
+fbb9e84e73edd4692ef47c770f6f8c9204b322e3|2013-02-19|Christopher Granade|Added citation info to intro.rst.
+d04bc1d53933f13065917c15ccb0e2f127de3b8a|2013-02-18|Chris Ferrie|Fixed bug in estimation of KL divergence
+e4028e0693a2828503ef3d6ebd6068898457457b|2013-02-18|Chris Ferrie|Cleaned up the test_* scripts.
+860ccfea7f05077fecf1ae1f7a24adeff889995e|2013-02-18|Chris Ferrie|Some tweaks to plotting in the examples
+7529c3d2411388b7433c74590c8d055af5000969|2013-02-17|Christopher Granade|Changed fmin_ncg call to fmin_tnc.
+dd064c2221498ee68e496219b7474f8240b80abf|2013-02-16|Christopher Granade|Fixed bugs in Shannon entropy, KL divergence and HT circuit.
+af03be158e24d82581323382a615b3d8732efd5e|2013-02-16|Christopher Granade|Added smoothed KL divergence support.
+3d7ed9b1a41177c5c13a5770fa12cc998641bfab|2013-02-15|NATHAN|Fixed problem with NCG (maybe)
+e61c43b94fa97d6c4dbe34026406dace6043ee04|2013-02-13|Chris Ferrie|Reversed the last change
+2a11403a51f11510aef5492dfd3e63fd3705eaf0|2013-02-12|Chris Ferrie|Changed binary function in HT to be represented as xrange objects rather than range objects
+1b38a7c3e4777d491a32df536ead7a721c86cd0e|2013-02-12|Christopher Granade|Reduced copying by clipping in-place.
+6641f9d4657d8085122cad85ab7bae95e6b34381|2013-02-12|Christopher Granade|Added derived model to simulate ALE/MLE sampling errors.
+500e8ce803c43256f7e07fff106fdf96a37fc155|2013-02-12|Christopher Granade|Added NCG support (experimental).
+c2f49e146a59e9d03f28b07e347caa42ac9d4ee2|2013-02-12|Christopher Granade|Added (c) header and improved docstrings.
+3e7fccaeb497f33fccda9753728cf154cf247434|2013-02-12|NATHAN|Added Finite Difference Code From
+c0f1b7f29880618015800cbea7db7c28d647847e|2013-02-11|Chris Ferrie|Changed the way HTCircuitModel handles the binary function
+4ded94a6cea750e465989c89b576503e1adb3f56|2013-02-11|Chris Ferrie|Changed the way HTCircuitModel handles the binary function
+b8cf4e1f82e71c260e4b2632c1b3368d09833a42|2013-02-08|Chris Ferrie|HT circuit performance example added, some debugging elsewhere
+6c6b81c772e3b741910297614fbd2fc71de2e40e|2013-02-08|Chris Granade|Merge branch 'master' of github.com:csferrie/python-qinfer
+2d0aab2236478a8e330873089cab771691581560|2013-02-08|Chris Granade|Minor changes, new --plot option.
+e4c1886fed876da6aff49d2a9be6c0697f0cea29|2013-02-08|Chris Ferrie|qubit performance metric unbugged
+f3ae095a70342aa989a691158d987e63786e9886|2013-02-08|Chris Ferrie|New noisy coin example and qubit plotting forked to created separate performance testing
+32eaac268158d1fe73f84bc0ac7c44573c277c29|2013-02-08|Chris Granade|Upstream changes from docopt/docopt.
+bdc859edcde02f059b049b72c0039247e45f2866|2013-02-08|Chris Ferrie|Added exact calculation of error estimator
+09e7c9371e662da944eb8ba09c6732ffc35d566c|2013-02-07|Christopher Granade|Renormalized line endings to new gitattributes policy.
+0dae3f0c2baca88944fe9014ef3725e0eb6ba1a2|2013-02-07|Christopher Granade|Changed line ending policy to allow for use on Macs.
+19ce917230b1ba885e5b8936258353220fbee84b|2013-02-06|Christopher Granade|Forgot file in last commit.
+1d0de28214a86a44374bb570ae251f1ba9bd07f1|2013-02-06|Christopher Granade|Added support for task completion notifications.
+8cea8b7d2d65f93da0fdf37904348ea2d888262a|2013-02-06|Christopher Granade|Fixed major problem with dialogs.py.
+467cb7b7507bb98e8486861efd906a4aead89ca0|2013-02-06|Christopher Granade|Added progress bar UI based on PySide.
+bd7030840a4f1148281ff39a24a3ce439806c6d9|2013-02-06|Christopher Granade|Had N when 1/N was required.
+de5ea9ffd5b53d63333f8a3fa71c9e16f09e73ec|2013-02-06|Christopher Granade|More bug-hunting.
+a4bff77d0b206ecc6c5aaa0a3be107e747f512be|2013-02-06|Christopher Granade|Added Chris F.'s NoisyCoinModel implementation.
+58633f63a40cf49980ee01c582468f38937007b6|2013-02-06|Christopher Granade|Minor documentation changes.
+8269b816ce0ad178874c2f2c1c25e5d6cf5adb4f|2013-02-05|Christopher Granade|Continued pylint-ing it up.
+f142991bc426261835b1fc7e52d8794aed5ec22b|2013-02-05|Christopher Granade|Added documentation, fixed pylint warnings, slightly modified logic.
+d50d2d7931dcd786b2e03bef699926ff0863ecbe|2013-02-05|NATHAN|Modified Best guess tracking
+44750260294b854fe5c31b3ec0f297c14e31c3f2|2013-02-04|NATHAN|Added Best Guess Tracking to expdesign
+2af6e180044b600116a30f0f09c3d9026c1b0bf4|2013-02-04|Christopher Granade|Fixed critical bug in ale.py.
+af2a61380e0d24e60cff0f40c8ad3eadaa3170ad|2013-02-04|Christopher Granade|Added special case to smc.py to handle impossible outcomes.
+c52a7e302da759a460d8ccadfe899cfa67417081|2013-02-04|Christopher Granade|Added input validation, docstrings to ale.py.
+c752ce7134e89724f7cd402829317eeaa6726d47|2013-02-04|Christopher Granade|Initial (untested!) version of ale.py.
+412789798c1504b504237909bd14d1763b5d31e1|2013-02-01|Christopher Granade|Possibly fixed simulate_experiment bug, added more testing.
+0eb7f44ccf0bdf733d8f419ae9bc473926481a96|2013-02-01|Christopher Granade|Added new documentation w/ doctests. Confirmed problem in Model.simulate_experiment.
+20638e70b7b504dfcdbb9d795194ff64c2bfd4f1|2013-01-31|Christopher Granade|Added maxiter support.
+b2f0f9e6d05edd60be675d1810f3a5d49c89a6f6|2013-01-31|Christopher Granade|Added better heuristic support, started Heuristic class stub.
+256996983139f19d5399dcc8e4ceccad63b8b29b|2013-01-31|Christopher Granade|Merge branch 'master' of github.com:csferrie/python-qinfer
+5ab97d6900390b7772d231f5fb7f19a355ee36ee|2013-01-30|Chris Ferrie|I lied last time... now it's fixed
+c5db005514551423eeeec398ba949aade02d0a79|2013-01-30|Christopher Granade|Added documentation, improved expdesign.
+d1fd7d2070ca4004c8b1a6e018012966dcf58ed6|2013-01-30|Chris Ferrie|Fixed a bug with simulate_experiment for multiple particles
+673eef3d2ddf86546af0ce3839b9466d988d7819|2013-01-29|Chris Ferrie|HT-circuit example changed
+1a36168930c165cea1d20d1113ce3681ecb93d8c|2013-01-28|Chris Granade|Update README.rst
+8d85fc7d0d0bf6682cd317549eb0b40234e9ba04|2013-01-28|Chris Granade|Updated README.
+f2c7eb20a0b3c1191885f7e7241e881480a7c2b6|2013-01-28|Chris Granade|Fixed minor bugs, improved speed slightly.
+ce1186af5b576569d61acf16000fdc0805c78375|2013-01-28|Christopher Granade|Merge branch 'master' of github.com:csferrie/python-qinfer
+412e31beb6f1923840efbe951a5ac7df83fe7ea4|2013-01-28|NATHAN|Modified Ising Model and Bayes Risk
+0ffbce5435f4cde2f7e5e2652ef1b330a66dc16c|2013-01-28|Christopher Granade|Added _lib and examples to installed packages.
+cfaf96abf0d727c39610646eeddd7216e1f7db97|2013-01-28|Christopher Granade|Continued refactoring and adding documentation.
+676f771aaa5632114979d04c46655e191731b180|2013-01-25|Chris Ferrie|Last commit before overhauling HT-circuit example
+951b1ab0bbacf1d2b2735cc77d2abfbd2d70716a|2013-01-25|Christopher Granade|Continued refactoring, documenting.
+36fd428d0011d5e5a15e60101a3a5789436c8ca8|2013-01-24|Christopher Granade|Minor refactoring, documentation improvements.
+20fbcf7411d8f0e16f685a02f4ab446635885cfc|2013-01-24|Christopher Granade|Continued work on expdesigner.
+9a210c691dd21c83b24f3418894216e1f587da19|2013-01-24|Christopher Granade|Added expdesign to documentation.
+b4d97092c636352270474b756c3a2d3e2dd45af7|2013-01-23|Christopher Granade|Started work on generic experiment design class. WIP!
+aabaea49b6c42fda5470dd2a4c972263c66e4597|2013-01-23|Chris Ferrie|Vectorized ABC update
+294568ef5ea0fc5aa91ea6d18640ac283e4a4a05|2013-01-22|Chris Ferrie|Added plotting commands to HT-circuit example
+3af7c6145167810c1973dd63b75934215fe4188d|2013-01-22|Christopher Granade|Refactored exceptions.py to avoid name conflict w/ std. lib.
+6f4ed168e9f20296f83c09870692997462b7add8|2013-01-22|Chris Ferrie|Tweak in how simulator uses likelihood in HT-circuit
+0bc40b5200dcf74595137f38129f376a6f3fe9d4|2013-01-21|Christopher Granade|Merge branch 'master' of github.com:csferrie/python-qinfer
+e22133d45630a62fcc925b13cade97345c29a2f1|2013-01-21|Christopher Granade|Added handling of NOISE cluster.
+6419ad70c52c65d9643e3488c01b325763ba16ba|2013-01-21|Christopher Granade|Fixed bug with resampler kwarg.
+0aba30cd6f0edaf55c7fdbdbf3f67f4b9a08b596|2013-01-21|Chris Ferrie|Simulation code fixed
+c40f3cf8d8d2b393a5bdbdf7ca7fbff56fd13256|2013-01-21|Christopher Granade|Improved docstrings.
+73593f7f2abdeb62c1d855afd94e6b05de806ead|2013-01-21|Christopher Granade|Added packages to documentation's LaTeX config.
+a8e4d8f0d3e65395fbd198472340f1379206a7e6|2013-01-21|Christopher Granade|Added Q as property of Simulatable.
+98e70e60d764a1029a98fa832d60ae69bc3eaf25|2013-01-21|Christopher Granade|Fixed tabs in smc.py; minor edits.
+5cab679872e7e1a29547d2f6cdda0910f891607e|2013-01-21|Christopher Granade|Fixed problem w/ most recent merge.
+28f013094df525c69c17290f63190afb5d611970|2013-01-21|Chris Ferrie|Fixed a few errors in HTcircuit example but resampling is broken
+d2becd549efc0e0a68126e03a8ab59865c14f25a|2013-01-21|Chris Ferrie|Added HTCircuit model and example code
+db6d256dee3ab3863bd72c6f284a84076c1aee9a|2013-01-18|NATHAN|Fixed issues regarding hypothetical update
+0215051f9395bbc81726aac5057fc871b91109e9|2013-01-18|NATHAN|Merged changes with HEAD.
+cf5d95ea5e9a1fdfe75ca1440bc8c1b73a8dd7a0|2013-01-18|NATHAN|Lineending hell.
+06b38bdef16963d3b2f07b5b0874d1c8cc96ecd3|2013-01-18|NATHAN|Bayes risk and optimization
+06cdfdc4a814abe58e5f677841c905e249fcf41d|2013-01-17|Christopher Granade|Started writing documentation.
+b21d54263eab916fd77bb7f036f197df2acae671|2013-01-17|Christopher Granade|Added specific warning categories.
+9066cc3a75e055e5596f313df780da404488a02b|2013-01-15|Christopher Granade|Added more wDBSCAN options.
+63b0d986b31c8ba1042fd75f4918ddd2b7fde891|2013-01-15|Christopher Granade|Added --verbose to test.
+ea69e7736bc770e9b9f572518957f3b64b14d6b9|2013-01-15|Christopher Granade|Added weighted DBSCAN resampler; currently broken.
+3090689cceb689aa0b13a5bc2266c1f6bc6c6f2e|2013-01-09|Chris Ferrie|Added some doc to SMCUpdaterABC.likelihood
+fb9c7880bde2deb2e8397ab6f36398be199f0978|2013-01-08|Chris Ferrie|added test_coinflip.py: a test/demonstration script for ABC
+9291967dd7ad04452903417c5505931367727d71|2013-01-03|Chris Ferrie|Small fix for kwarg name change in SMCUpdaterABC
+56669c335b93e074b07adfb90b190faf5012de95|2013-01-03|Chris Granade|Merge branch 'master' of github.com:csferrie/python-qinfer
+4e8e895c309d8fc9b0bd0d9c202cec4981029f60|2013-01-03|Chris Granade|Adding missing super().__init__ call.
+b6e2c8816e83cb3630af3783848a61be9c3136d2|2013-01-03|Chris Ferrie|Added some density estimation code
+1bfbde012c80940d724361735006c9426277adb4|2013-01-03|Chris Granade|Added class Simulatable for LF/ABC.
+1d394032d7f86e74c20350dae6b54ff805d2fee7|2013-01-03|Chris Granade|Line ending normalization.
+3822a784e3deb9ea1910ee50270fd52637a0650b|2013-01-03|Chris Granade|Minor change of kwargs names.
+cc8408876dfde5b9919304f6200871db14bbb83a|2013-01-03|Chris Granade|Added examples folder, modified tomo example.
+b742cada379bb7549566096d1272a6c42bd8739f|2013-01-03|Chris Granade|Added external libraries folder.
+691f83ee117850ce14f03d68baac832be1326ee5|2013-01-02|Chris Ferrie|Some more test code for SMC-ABC
+a79eb698a18fe2c638e818340d90fd9308b3d103|2012-12-27|Chris Ferrie|Added SMC-ABC class, sort of tested
+3265cea38a2013cc42751f93c5ead6e11f7a805f|2012-12-25|Chris Ferrie|MVEE finally working properly!
+23a57f0c29261aed209215002667e6d41dd1cda3|2012-12-13|Christopher Granade|Added DBSCAN-based resampler.
+0ab303cb5b567c9b1e00cef9c5e5252f0e470553|2012-12-13|Christopher Granade|Added initial attributes file; should fix line ending problems.
+ad2f96af5ee22152dfd45b247020b19d581533a1|2012-12-13|Christopher Granade|Resolved conflict.
+6ac664eb9e972bfee9d397eb43bad9984b101582|2012-12-13|Christopher Granade|Added more comments, docstrings.
+fcd13c317feb722145fab7fa49013d0579482c08|2012-11-29|Chris Ferrie|Added region estimator methods to smc
+3ea4fac9d68090d102a0248ae3e561fef6c3f8cd|2012-11-27|Chris Ferrie|Only using extreme points of hull to find mvee now
+cce4d1ae513081e9fb9eaaf283b6962265cb0179|2012-11-12|Christopher Granade|Refactored resampling code to enable externally-defined resampling algorithms.
+045f8a2bd83a1f0b95f91579312bcc018a06ba53|2012-11-07|NATHAN|Fixed problem with prior size for multiple mp
+9517db93af02a0d853b8ac1cc869eacb6fa40e46|2012-11-02|NATHAN|Messages to qinfer to inform about negative Tr(Cov)
+3f9bb47c7103d9ab7feb60aaf34c41867c79687e|2012-11-01|Chris Ferrie|Fixed a bug in the plotting of the mvee
+dcb163615d9399bb47517c7eb011c1a865c0039d|2012-11-01|Christopher Granade|Fixed problem w/ refactored imports.
+adfa6ed27e16b15657ea7bb869d33d5a4fba5f19|2012-11-01|Chris Ferrie|MVEE code written and partially tested on tomography code
+680c61eb3f680034bc1a910194679c0ce843f94b|2012-10-31|Chris Ferrie|Added new class for experiment design (still needs optimization)
+be7e2c18585860b8869c823a64040b5c976c43d4|2012-10-29|Chris Ferrie|BCRB class doesn't error on test code now, differentiable model abstracted.
+a6409b425e3eac795755c79f11d4c90b32660aea|2012-10-23|Chris Ferrie|My failed attempt at generalizing the BCRB code
+c4b12c7d73b26c74baaa84b0c5d963862f6a1780|2012-10-22|Christopher Granade|Fixed vectorized resampler.
+b4574e6d8709418e699027a86462548624b7d889|2012-10-22|Chris Ferrie|Tried to fix resampler and add BCRB support
+7094582cac52a377b6780be299e316a2b273e97d|2012-09-27|Christopher Granade|Vectorized is_model_valid (now are_models_valid) and resample.
+2c34573c66c72ddd9d3d39b44c30ca9937fb5d21|2012-09-27|Christopher Granade|Added support for multiple samples to distributions.
+17992425939349206d9b4314da489f0a2e894e70|2012-09-25|Christopher Granade|Fixed sum versus np.sum mistake.
+bd0a5e1002231aa0d6dab6b6bdde7410761657d2|2012-09-25|Christopher Granade|Merge branch 'master' of github.com:csferrie/python-qinfer
+3d4034c98113b635cf54fec3ddb8a2b02afa6a73|2012-09-25|Christopher Granade|Removed vectorization from binomial_pdf; it was vectorized already.
+2d3613d212edbd23920a75f2477ae1e9d8a90961|2012-09-13|Chris Ferrie|Added est_credible_region method to smc and testing
+9af6a8b7de65c072878d8e9cf63a9670d166700a|2012-09-11|Christopher Granade|Separated out BinomialModel.
+48904378e2ef0a054a36fc606ee321c352b20e40|2012-09-07|Chris Granade|Misc bugfixes, tomography test should now work.
+0b6a3b49845871db89dcb027d54a0a7609ffd48b|2012-09-07|Chris Granade|Added batch_update, started moving to record arrays for expparams.
+0b8922e3c3b4973566453c94d98de1398b0c671e|2012-09-05|Chris Ferrie|Added header/license info to test_tomography_qubit.py
+1c42994350a474a50b327694adbb08b46338488f|2012-09-05|Chris Ferrie|Tomography and test code working now
+ce548704f28a00878cb548c556bd5c131e45e861|2012-09-05|Chris Ferrie|Overhaul of tomography.py... test code may be broken
+8bf681e34c6a786cf25711d913ca2994cce5f23b|2012-09-05|Christopher Granade|Vectorized binomial_pdf.
+44592571b4d22aa768d983673d4dd344d4637f67|2012-09-04|Christopher Granade|Changed to depend on scipy.special.gammaln.
+9314461a63a647e71360d27bc311ceed23c76a78|2012-09-04|Christopher Granade|Revised binomial model to be more generic; currently broken.
+bdab58e1c0d952b743afa4d3065edf501d538956|2012-09-02|Chris Ferrie|Added sequential plotting of posterior to tomography testing code
+92a9cf771a60d377ee2f7dce5f50bf5be9033b19|2012-09-01|Chris Ferrie|Add testing code for tomography module
+71086eef5cbf3cad20124e3f7eb5c957db57bcee|2012-08-31|Chris Ferrie|gammln and QubitStatePauliModel.likelihood now take a vector of parameters.
+16a2994aaa3b884a46989ba8193651e729b2f1ce|2012-08-29|Chris Ferrie|HaarUniform tested (at least visually)
+e75f9fcc47669199efb11369b66b64d306b6e5c0|2012-08-29|Chris Ferrie|Added test example for qubit tomography... priors don't work yet
+f99a69f23c401322287f3a0d747d7d911facc279|2012-08-28|Chris Ferrie|Starting working on HaarUniform
+947a0c1d6147091734a348e4d4db5f191011699e|2012-08-28|Chris Ferrie|Added binomial model
+20d758cb74afe2a4a0bcf2b95b66d343a12237bf|2012-08-28|Chris Ferrie|Implemented likelihood for qubit Pauli tomography and added utils.py for binomial stuff
+f85540bb0becfe6f3c79eec2e517ca8ba730b593|2012-08-25|Christopher Granade|Added is_model_valid to SimplePrecessionModel.
+570efa86bdcc7fa59abd0a6fc3dcfb64127ef198|2012-08-25|Christopher Granade|Started adding postselecting resampler. Currently very slow.
+d93e708737f6a442789688daa7fdf9debea3d613|2012-08-24|Chris Ferrie|Little typo, big difference!
+0cbac45cc1ae65771ef609fbcf0cc939cdc4b73a|2012-08-24|Christopher Granade|Added setup script.
+894599d51d6ae67ec91b312d0fb3f3dd31c31ef3|2012-08-24|Christopher Granade|Resampler should now be working. Maybe.
+d094ccb81afb19ad899a64282399578688b90e50|2012-08-24|Chris Granade|Added implementation of resampler.
+8f218711a08837d27154259ba8459a889b202d8c|2012-08-24|Christopher Granade|Copied pseudocode for resampler to comments.
+43121acd97ca2d0a787c4b9abcfd9fd11aed10b3|2012-08-24|Christopher Granade|Continued work on SMC functionality.
+fde59d51eaaf7c7bab7e6c1e6288a8e04935709b|2012-08-23|Christopher Granade|Started changing numpydoc formatted docstrings to Sphinx native style.
+4c2a4d87e74c47d7b36ed58c3a9d338f56446ee8|2012-08-23|Christopher Granade|Got hypothetical_update working with multiple experiments, outcomes. I think.
+349a698561b58775507673e30b44caf7bab4e106|2012-08-23|Chris Ferrie|hypothetical_update, update and start of resample methods
+2b7abb137f368c804094e3a0bac92fb8eed767ab|2012-08-22|Chris Ferrie|Windows interface being flaky...
+59bb91a6aae3e3ca92e06226764f82fcaf69049e|2012-08-22|Christopher Granade|Added single-qubit precession model to test inference engines.
+e22dcce51b9e72d0f637b6c30db8b42eba72cc0f|2012-08-22|Chris Ferrie|SingleQubitModel likelihood almost done
+5eb3f029d18e5e2ba3a27f8cd58b16a6a8f99316|2012-08-21|Christopher Granade|Fleshed out class hierarchy a bit more.
+45fdcd8cbfd44fb6c3218ae5c272ad193f7dd8bf|2012-08-21|Christopher Granade|Moved SMC.py to lowercase name in accordance with PEP 8.
+4a7b121cd64c708901aad216c7312efa93180f8c|2012-08-21|Chris Ferrie|helper methods for tomography likelihood function writen
+262494ad9dc4c0bb85c9a7e948cf4ef4c986ed77|2012-08-21|Chris Ferrie|Minor editting toward design
+e3cebd0eec36f17e2b1d6826c2a16e709fd2990d|2012-08-17|Chris Granade|Modified Sphinx configuration.
+e7d936c256a4888eb83f772faba4f749c0013927|2012-08-16|Chris Ferrie|Small changes toward outline of overall design
+5bf7b2bd1e8d36e5c2a127b7f8396396ef09fbb2|2012-08-16|Chris Ferrie|Starting writing StateModel class
+4166d88827d0217d6c12a678a52ebbae0dc11950|2012-08-16|Chris Ferrie|Initial creation of tomography module
+977adced47fed0561a8fb0cc8ff723dc1d95c1a1|2012-08-16|Chris Ferrie|Initial creation of SMC module
+42e7ade74c417956a9cdd294890db3074c34cbf4|2012-08-16|Chris Ferrie|Added AGPL copyright
+0f6f6eb85fdbaa8532ffc8e061f95c4c7eb9f2fc|2012-08-14|Christopher Granade|Merge branch 'master' of github.com:csferrie/python-qinfer
+f0a7f3c9a39e04d852990af2d182da6c48eda382|2012-08-14|Christopher Granade|Added Sphinx quickstart.
+9cc31685cb863658d3f833a934222132d25e3959|2012-08-14|csferrie|Update README.md
+f9adab19f708f1c33ec65f30f53f42a2c76e196a|2012-08-14|Christopher Granade|Added .gitignore, src/ dir.
+fb4096671c5e1fae94a8021047e450dd5a5e452d|2012-08-14|csferrie|Initial commit

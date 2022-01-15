@@ -1,0 +1,380 @@
+3ca1b979fc379b002ae57ac76ea9b456b45ab7dc|2020-01-08|Anton Lokhmotov|Update README.
+c50dc77231b2ca0d175e85c3f68001de9017ae31|2019-03-15|Anton Lokhmotov|Update link to Qiskit documentation.
+7e36bb84322f85ae4d7612b58f74c587e09cc04c|2019-03-14|Anton Lokhmotov|Update README.md
+390dd3b5102f691a5ec9112b27f9fd91b06c378f|2019-03-14|Anton Lokhmotov|Add link to CK slack.
+b8923ed4e315490384c76c506903994e03a1ef6c|2019-03-13|oc251|Update README.md
+606f7ef1435f1c1844bda77c0a02fe9d89bb13e1|2019-03-13|Anton Lokhmotov|Update tag to hackathon-20190315.
+b780adc46a7e451413da36b55a9da181ee70af96|2019-03-13|Anton Lokhmotov|Update qml module for hackathon.20190315.
+d855d8ca43e0185b5354c8e0a9e312ebe09b6ddf|2019-03-13|Anton Lokhmotov|Update installation instructions (Docker).
+4e14ea100aff2eae66d36855a4c3ed14b22eda45|2019-03-13|Anton Lokhmotov|Add docker:hackathon.20190315.
+ca80e98b7d6f92f9770fa9b7cd3319e6a736e3e8|2019-03-13|Anton Lokhmotov|Update link to QCK4 slides.
+39d393c3b9c7d966f7c090e2f0d6034729a10fa3|2019-03-08|Anton Lokhmotov|Link to 4th hackathon from main README.
+ed196f7998e74c90ae2e0abe1b3f0b49d6681f15|2019-03-08|Anton Lokhmotov|Add module:hackathon.20190315.
+7e6c606c59b3ce717def7bbdac9a22bb52a349fc|2019-02-04|Leo Gordon|fixing the general sorting order that should be done based on "problem_index" (avoid the non-numeric red-herring prefix)
+7ce97cdae1fbe98f2d777cd962a5649032020139|2019-02-04|Leo Gordon|added "hours_since_start" attribute
+80e395e9ec46cbaa90f91c7673f51fe21687dab0|2019-01-28|Anton Lokhmotov|Update README.md
+f382b814c653e23d8ba39d2bf3eb21216d538222|2019-01-28|Anton Lokhmotov|Add link to 4th QCK Hackathon in Oxford.
+2515e0ae4b927b79fbeba91d15d8b1bd994bdadd|2019-01-28|Grigori Fursin|clean up
+51de4b71fb6db6220432f0716911248155bf1816|2019-01-28|Grigori Fursin|clean up
+86b19fc6ad19a90eb1019f81e6f32bfea7b4efae|2019-01-27|Leo Gordon|adding vi and removing the final cleanup to speed up runtime apt-get installs
+78f869a82704a87c637b5100e603d174a73570d8|2019-01-27|Leo Gordon|fix for windows unicode conversion
+1272c9a4270bb07a8f5601e57d7cadfc5c3a9d4f|2019-01-27|Grigori Fursin|Merge branch 'master' of https://github.com/ctuning/ck-quantum
+40f83f5afba862d2e61798d5b79bf1a627323a4d|2019-01-27|Grigori Fursin|typo fix
+01e01df9706fadee7c44bd21314503d731c7c147|2019-01-27|Anton Lokhmotov|Update README.md
+4ff0955da91f46d211792bee8623a925c7350ca5|2019-01-26|Grigori Fursin|added Docker Hub image
+6f2014d28adf2993b675af4d3b0a1601515e0c6a|2019-01-26|Leo Gordon|partially reverting, since links are not allowed in verbatim code snippets
+2eb63990fe7b9c48aba92e1169f93b81a5f331f5|2019-01-26|Leo Gordon|added live links to paris repo and qiskit_primer.py
+7efb4870b13cba143c962e049942a1d598462de2|2019-01-25|Leo Gordon|Python 3.7 is conflicts with Qiskit, so we better stick to 3.6
+54ecfda25ee63ccedda5057deb1425904ffccfaf|2019-01-25|Leo Gordon|a bit of cleanup right after apt-get helps to keep the image a bit smaller
+7cea413825b84a46c1e75a3e5386970cef789613|2019-01-25|Leo Gordon|the JSON file to be stored can now be selected interactively
+b9ac8a409bb3ecd280f3ec84a3808660d19bc237|2019-01-25|Leo Gordon|added pick_a_filename() helper function
+dcdcc3e1200035172e3dc1e77a49c9df974dafc3|2019-01-25|Leo Gordon|automatic daemonization of the CK server in Docker container
+48b43117b911b67e50fcde0551212d318c4789dd|2019-01-25|Leo Gordon|bugfix: check that the DataFrame is empty
+4f802af6bf1cdfdd38a647b88efb71e239a9a355|2019-01-25|Leo Gordon|(hopefully) better docs on using the Docker image
+34b465aeb3b826ed1629b39118d8fa7ba45fa617|2019-01-25|Leo Gordon|documented how to use the tailor-made Docker image for this hackathon
+540c85aad194be64e21f8d7b39cb3ef55533fbf0|2019-01-25|Dan|Merge branch 'master' of https://github.com/ctuning/ck-quantum
+88c5537a1692ae32eb160fbe8753a2d265ab306d|2019-01-25|Dan|added link to slides and also wiki page for quantum logic gates
+348af9f9f6ba33f57c55b9f99f9b7922a55d5c55|2019-01-25|Leo Gordon|the Docker image with pre-installed hackathon files - see the Dockerfile for hints on running it
+50874c6c6d2318b55bbb336f462662dac5ee3e25|2019-01-25|Anton Lokhmotov|Update Problems 4-5.
+dabb9ccb9cea561d22eccbd0c2ca5bb7a3bd4fe0|2019-01-25|Anton Lokhmotov|Update Problems 2-3.
+67a5c2fba986838a8c70abc0674d03c3c3400b2b|2019-01-25|Anton Lokhmotov|Mention Qiskit primer program.
+1bd4dd0ba6d5931a7ea1840f7d976d03e240a539|2019-01-25|Anton Lokhmotov|Promise to teach sharing solutions via CK.
+3d750bea3168482db13f506e9b1512123c8f8e66|2019-01-25|Anton Lokhmotov|Expand on obtaining hackathon repo (via git or zip).
+fe0ab3ae95d757b7002c5048053200723897938a|2019-01-25|Anton Lokhmotov|Specify pandas among other dependencies.
+a76e1f18b28a2f539495ee683596592b4a1ca449|2019-01-25|Leo Gordon|print --> ck.out
+ee80fc3bed2d68ce9769728313c3915d0356a273|2019-01-25|Leo Gordon|only print entry names being loaded in "console" output mode
+0b3483e79d2669a1d5b24a065186528646395d98|2019-01-25|Leo Gordon|cosmetic: printing the location of experiment entries being loaded
+7ca4eea592054f0ad9cf16a42d018410483a5712|2019-01-25|Leo Gordon|bugfix: if the null value is present in the dictionary, get() does not fall back to its second argument
+9f6b44824a517da47a2a5cd47d3a7f157b3582fc|2019-01-25|Anton Lokhmotov|Update CK section on sharing solutions.
+8aa8ee5a1c9712f368a74136c4a0ac693e654bd8|2019-01-25|Leo Gordon|switching from "local" to a the same hackathon_local_repo name that we use remotely
+455db50fb66907db4617fcbe7a2b3626b5926e8d|2019-01-25|Anton Lokhmotov|Fix indent (4 spaces) for links to Problems 0-1.
+8af8ee4feea0557ddfa481905635d4532678b6e2|2019-01-25|Anton Lokhmotov|Separate hackathons and competitions in repo README.
+cf5b8ff88f37b639a925ccfd654f93dfdb3cb3a8|2019-01-25|Anton Lokhmotov|Update Problems 0-1.
+197773a8b342f8bb3931d114b6aedea1de2b123b|2019-01-25|Leo Gordon|Merge branch 'master' of github.com:ctuning/ck-quantum
+1456784451c17f417216ecccc726f8c036c707fb|2019-01-25|Leo Gordon|fix the default_repo_uoa
+bac50ff3f0a1d4c18533d96a281f1b14e8ff49d8|2019-01-25|Anton Lokhmotov|Update getting started instructions.
+61488dca76a4d77279b3577c326adcd71c89cca5|2019-01-25|oc251|Update README.md
+0868c670cab71aff4a8b6bf6548c8ce48760e4f2|2019-01-25|Dan|merging
+bdf560917ee669bf5a83544c4c5c6ffb6da171a8|2019-01-25|Dan|modified introduction to hackathon workflow desc
+93a308418bab20a56924d8f6eab13ac17ad0493d|2019-01-24|Leo Gordon|uncommenting the CK server tuning (not yet working at the moment)
+5252ebded4f2c0ef76e8140980bf1d8b3944e574|2019-01-24|Leo Gordon|updated Dockerfile
+dc39d29233b24214f2889ee2c3ff136d90eb901a|2019-01-24|Leo Gordon|bugfix: benchmark_helper renamed to benchmark-helper
+e38d5e71188cb3b6a1d0fe8a98cf1993879ee184|2019-01-24|Dan|added link to image
+02a75f56a8202b3868e75f07dd27821deb22acb6|2019-01-24|Dan|merging
+b184594d85bcb5777b876fc0f20c24eb37fc1205|2019-01-24|Dan|added problem descriptions to readme
+bcc8ce6e0693431bbb9620a7e487a00ef95915ab|2019-01-24|Leo Gordon|pull ck-quantum and its dependencies
+ac1bb83bc9effcbff74a07450a4326c4ad7bdecd|2019-01-24|Leo Gordon|bugfix: moved program:benchmark-helper to ck-quantum
+44470b71f1deaa8fe349046624b5ad666ff62994|2019-01-24|Leo Gordon|cosmetic: better code formatting
+08c44da2e5fd8852044a787e038853ab1b72e9f0|2019-01-24|Leo Gordon|added "seconds_since_start" (normalized upload timestamps)
+87a22c1f009d2cb68677040debf2bade1b905a55|2019-01-24|Leo Gordon|add sklearn to the list of dependencies
+917497dceed9d4d56ee29b3bfb6e71b0d978a90b|2019-01-24|Leo Gordon|be clearer about installing brew TO INSTALL something else
+5073574b345f5505e31013b203b63a61e4925977|2019-01-24|Leo Gordon|more smaller edits
+274db25c981586e5bed99d736aab983ca231eb05|2019-01-24|Leo Gordon|more improvements to installation instructions
+452a0db1aa0de496b7cbca3443cc55ed1d59bcbf|2019-01-24|Leo Gordon|CK installation instructions
+16df5d5105ffc2b0590fb3d8e2c408bdc918f36d|2019-01-24|Leo Gordon|bugfix: formatting in dependency installation section
+1c6c804c5a4627e03cea8a71b2afb762d1ddc28f|2019-01-24|Leo Gordon|updated dependency installation instructions
+f80bb78f3bea6f1372db3d74d6c1371b9e299820|2019-01-24|Grigori Fursin|added link to CK installation; added Docker dummy
+058659a14693e598d412d70fb6bd4b5af4b1fdde|2019-01-24|Grigori Fursin|Merge branch 'master' of https://github.com/ctuning/ck-quantum
+ea31df7e689d50c806e023c762d0d712322c37e1|2019-01-24|Grigori Fursin|added Docker as repo deps
+2cd176550ecad278795497e77022a6e1836e2b8f|2019-01-24|Leo Gordon|Sorting in place allows us to preserve this order as the initial order in the output
+db48629af99ff20f2c2409207169b7e84dff72d0|2019-01-24|Leo Gordon|make "rank" also dependent on the age of the solution
+9fafd7f8763ad14589bf1e06cf946d5068e47d4c|2019-01-24|Leo Gordon|added "rank" column (gives the "place" within each problem)
+1b3eae2c10fc8987d52d15dde917ae54ce6ce0d8|2019-01-24|oc251|Update README.md
+9c8235c10bfffed6714e34b980942a90936437d5|2019-01-23|Leo Gordon|repo_uoa is now overridable in the call to get_raw_data()
+1690bb7b44c87c937433dbfb50520e7b54a912a3|2019-01-23|Leo Gordon|switching to the training_accuracy/test_accuracy table
+3e1172884ff5024aa5c46de248fc9d687fdda0b3|2019-01-23|Leo Gordon|CLI syntax of the command line in the README file
+f2be888cc53739389ddad927716fa8ab865f9763|2019-01-23|Dan|removed doubled heading
+0d60848e41f607fc5c4f1595a5f53b00c7f5c04b|2019-01-23|Dan|updated hackathon workflow section
+b3dc577ea9f4ca4e0e9be0d7d752b6b8d92f245a|2019-01-21|Grigori Fursin|remarking display (non utf-8 characters were messing up json)
+41b61ab7ec3f8ef9223813ec31904be1e4bfa650|2019-01-21|Leo Gordon|bugfix: trying to fix the source repo for the data once again
+a76ae0c82136579dc1721e395b8907d3f0f1730f|2019-01-21|Leo Gordon|bugfix (temp): do not restrict by repo_uoa (may be too slow in practice)
+78e7d8b30733314204c4219251d3bd5deaae9700|2019-01-21|Leo Gordon|Updates to the Paris Hackathon README (CK part)
+6b4d5775bfcc8bdef93fdea83dabb1cea3f8d7e2|2019-01-21|Leo Gordon|moved module:qml to the public ck-quantum repository
+25bb7555098e829e0262e2b38a2671ea654c4d5b|2019-01-18|Anton Lokhmotov|Add pi-valued score column.
+d79702bea32551a240a13b1945bce5eb1febe8c2|2019-01-18|Leo Gordon|show "N/A" for methods that do not generate a circuit
+79a00c0d6f77dd9d934413e2432c1ffb4038adfd|2019-01-18|Leo Gordon|added filtering by "solution_function_name" (method)
+09e1087d0ab5c392c11fe8c19398522471d9bb89|2019-01-17|Leo Gordon|passing team_name around the GUI
+f2bf1c382c4c12223e91a78dcd9dc42637fa965f|2019-01-16|Grigori Fursin|added template/workflow/pipeline for soft,package,module,program CK entries
+c02c4dc6ace98a13b8697d6bd425a3a3db313d15|2019-01-16|Leo Gordon|added problem_name and training_error to the table, fixed format of some floating point fields
+42e408e2fd6ef5eaf07d40c47c0b5af405a158ed|2019-01-15|Leo Gordon|added test_error both to the table and graph dimensions
+01b36b72945f903d98535f4d0fadd9ce8f868213|2019-01-15|Leo Gordon|renamed solution_error -> test_error for clarity
+5ec40a0fb945a0ce1d7801db78ecde8f4b65f215|2019-01-15|Leo Gordon|added new properties and renamed some old ones
+5ae28833007b3f5010fc3619d1691e74c6b4e30a|2019-01-15|Leo Gordon|added Molecule and Vendor in the tables, moved Molecule to the top of filter list
+2b3fe6195ef7cb0e84c4f28c0584f8df6753693c|2019-01-14|Leo Gordon|cosmetic: cleanup of commented-out code
+dd2360c0aed8242d34fc66a838d344a532c49af6|2019-01-14|Leo Gordon|adding circuit_str to the table
+429fc1ed1f1be48fcdfd4f977e1b9a7324dccba4|2019-01-14|Leo Gordon|adding source_code to the table
+d2558c4e00d9cda7665d17971b696de510523f0c|2019-01-14|Leo Gordon|removed the "full_" prefix from everywhere
+ad715bf19401e77d5c88d271edd962254cdc0411|2019-01-14|Leo Gordon|bugfixes to make the initial dashboard work
+80d5a97c52fd23e09748138799b4aee6d9328dfe|2019-01-14|Leo Gordon|initial test for hackathon.20190127 dashboard visualization
+3dd1b4ad42a1d00868e357264e229d86726b4008|2019-01-14|Leo Gordon|added timestamps (both epoch-based and human-readable) to the dataframe
+c9badb164cbdb4ee0f87c124c7db392ac70d47ad|2019-01-14|Leo Gordon|(1) use point_id API & (2) running set_index(,drop=False) allows us to keep index columns in the data
+a91979cff2f83a8a2638497c93881caa656185ee|2019-01-10|Anton Lokhmotov|Print point_file_path and df for debugging.
+54f806366d67a4ac048bdec5f60dc2d731d18051|2019-01-10|Anton Lokhmotov|Read local repo.
+56de9ebcbbc61abf297106c9f7e6757c3e101650|2019-01-10|Anton Lokhmotov|Add modified module with meta unmodified from hackathon.20181006.
+09213c09b67b2d212c823bd91211d2e7c08531fa|2018-12-31|Leo Gordon|cutting down on the volume of unnecessary flat data (only recording env{} )
+7b5c3d90b15831135eefbc335fb17c7d4db90f2f|2018-12-24|Anton Lokhmotov|Fix measure and upload links in abstract.
+4c83aefe724eebf8d235d8d26c49a841a695d733|2018-12-24|Anton Lokhmotov|Signpost exploration via plugins.
+147b424b1628f41b8eda9041de0ef3274b3442bc|2018-12-24|Anton Lokhmotov|Ignore tmp/ dirs.
+0b79877834d600c2bea3befd565b33f6dabe304d|2018-12-24|Anton Lokhmotov|Promise to document how to launch the dashboard locally.
+a9c357c050d6c0144cc6996f801495046612fe01|2018-12-24|Anton Lokhmotov|Contribute in under an hour or under a day.
+2c12ddf44a4cfa727f5004ebb57161de5825dd9d|2018-12-24|Anton Lokhmotov|Link to how to locate and upload experimental results.
+be14b482b6d94a2ffa8164b7e7a1f372776e0bb7|2018-12-24|Anton Lokhmotov|Link to how to measure the TTS metric.
+6addee11d6d173c94a8b7956829238d1f356403d|2018-12-24|Anton Lokhmotov|Link to how to monitor the convergence.
+38d604f7c28261100f5e7e7f97202fa656c016f8|2018-12-24|Anton Lokhmotov|Get involved in the 1st Open QCK Challenge!
+b75c6c13117a274dda6610f25b02b91de3120fb1|2018-12-21|Anton Lokhmotov|Update README.md
+9900c6de002f387e2a221d82bcbb56122d7b0ce3|2018-12-21|Anton Lokhmotov|Add special Rigetti license for 1st QCK challenge.
+8187e10b54287d01f47ec7fd86bd208dcb7acfa0|2018-12-21|Anton Lokhmotov|Address various niggles in README.
+c4cda80c30f3dae177d5368ca67c01a644dfeb67|2018-12-21|Anton Lokhmotov|Update README (intro + small print).
+030026bebc3bb4816ad548dc39bc3186d09aac9c|2018-12-21|Leo Gordon|bugfix: (or work-around) - make upload() great again
+bde33ce833b5f405f44c7cbc8d831187ca97af39|2018-12-21|Leo Gordon|documented Hamiltonian manipulation commands (core CK)
+2eab0348069f5c2d0d2d5ae2aa373b2cefe4a44a|2018-12-21|Leo Gordon|how to install a Hamiltonian
+e5180f001b62c8861763b392408bd45aad631df0|2018-12-21|Leo Gordon|more angle brackets for readability
+8cd67a1889778ae4182962d237ecaa93abeea597|2018-12-21|Leo Gordon|corrections to the "Supporved values" table
+507b6d28177151534250ed2dfd3661aba7f34b1b|2018-12-21|Anton Lokhmotov|Update README (move TTS metric up).
+9e9cc7fc7e87b17f65383a3d44ec23aa091322db|2018-12-21|Anton Lokhmotov|Update vqe cleanup help.
+51f0b10bb452b32ec68257291d00dcaef550334f|2018-12-21|Anton Lokhmotov|Update README.
+f55e799f38f203c53c104e00aeec538ee1c1225a|2018-12-21|Anton Lokhmotov|Add tables for instructions and options.
+a1d9d64ef319e8c712cf52e7b1ece1fe3cdba2a3|2018-12-21|Leo Gordon|added an empty README for the Paris hackathon
+77f916ba867ebb1798b42e5273068cd7620119bf|2018-12-21|Leo Gordon|added the "historic" README for the 1st hackathon
+42c6a7aea72597dce4847025070fa403a7ed1b2a|2018-12-21|Leo Gordon|moved the badges to the "main" README
+7a8196e4a15103497e8fe9ac86d6852ff755e8ee|2018-12-21|Leo Gordon|added the "main" README for the repository
+e6a47a56bddad99c573525bd41bc6ba4e1ffe03e|2018-12-21|Leo Gordon|moved the Open Challenge README to its own location, clearing the space
+7a5b2ec68a078ac27d27d5f07b7661260566774e|2018-12-20|Grigori Fursin|added DOI
+29be7e8efcde855041ae1de31b84397214f0c613|2018-12-20|Leo Gordon|docs: reworded and reordered docs for cleanup()
+1533b10defb5c7408a8362a030b4c697ed8a9006|2018-12-20|Leo Gordon|improved the specificity of cleanup()
+148b1deaacbf510eb0520d4afb656431a5e73406|2018-12-20|Leo Gordon|bugfix: added --provider parameter to "ck run vqe" example
+ea55525d903cb891e559356bfdf99a9a086123ee|2018-12-20|Leo Gordon|Refer to both providers in the updated Open QCK Challenge README
+3eb68e091c64ca32a8629138f6c44ffa0d53711a|2018-12-20|Leo Gordon|mention --provider in the pydocs
+7ad35e136a7e485f84e3e7a8dade7819b03fb032|2018-12-20|Leo Gordon|moved the 2nd Hackathon readme to its module directory
+c048b0e4a80aeed8581dff1b583613b56b434655|2018-12-19|Grigori Fursin|badges
+6f7b7a0c97d5e1d33c3361e8fee9ce9dd9a36f73|2018-12-19|Grigori Fursin|New badge
+9f362b94cdbd4f349229b44fabb763bce6a677dd|2018-11-26|Leo Gordon|make sure the new entries are uploaded into the Open Challenge repository
+b92c68bbb298b651089bb77ebf515b5aee0e0802|2018-11-26|Leo Gordon|switched to using experiment.load_point() away from handling JSON directly
+20bbe9fdd2bbf3335270c5d7638acdff7601ec50|2018-11-26|Leo Gordon|adding the module for VQE Open Challenge (copy of 2nd Hackathon)
+cd6654ee0972262bbcffcbae7c854ae588725737|2018-11-26|Anton Lokhmotov|Remove whitespace.
+f6f2720296813bb227226a188e8b77d56867d8bc|2018-11-21|Grigori Fursin|updated links to ck-kann and ck-tensorrt
+b3bf5b00ec6dbadc125216d3808d127baf610b0d|2018-11-13|Leo Gordon|Merge pull request #19 from raduetsya/bugfix/vendor_timetosolution
+0dea47faa8f5fab53ca76887d6a1bfc4fe210372|2018-11-13|Nikolay Istomin|Add vendor to metrics table
+e6c89ea30dc632daf62e5101f34e7da18b039d3f|2018-11-12|Leo Gordon|Merge pull request #18 from raduetsya/bugfix/molecule_and_ansatz_for_metrics_table
+617ebd5ab7732bbe89cf343b8cb9d6c3d793c2ef|2018-11-09|Nikolay Istomin|Small formatting fix
+86fa86f52f55a4adf77ffd332c17114bf1f74578|2018-11-09|Nikolay Istomin|Add ansatz filter to metrics table
+879655cab77bbd630356e8269e5dc8a255ffbc82|2018-11-09|Nikolay Istomin|Add molecule filter for metrics table
+f365565e55310dc6733ee9bc34df9d5506006a2b|2018-11-08|Leo Gordon|switched to qiskit-0.6 and added more attributes to experiment meta
+7d81b9b3f54c8d434b65775642f69a202d9cfabc|2018-11-06|Leo Gordon|manually reformatted meta.json to improve readability
+4241175c9b600e1fcc0bbe09c3c453d44b9e7252|2018-11-05|Leo Gordon|more cleanup: skipping on tags was not implemented
+ab00bbe4baea686cf3291fa25f2c313c74b2246d|2018-11-05|Leo Gordon|factoring out JSON configuration data into meta.json
+488c80fdfa4aeb05e87b9101406a1e29b4eb1eb4|2018-11-05|Leo Gordon|prefer parameters from meta.json -> "meta", and have meaningful defaults for the second hackathon
+bcb30208e3f4f75627f3ddd16c2808501b44e964|2018-11-01|Leo Gordon|optionally return metadata with each experiment entry found
+883e67e55d739b4dafd4da5db81c16097b815780|2018-11-01|Leo Gordon|group relevant experiment names by repository name
+7a3744b7a82ed826eeb7b9cee4507ab465719c6c|2018-11-01|Leo Gordon|introduced list_quantum_experiments() that understands both --repo_uoa and --extra_tags
+77aa6815fa46709e2dbece84c2bb7eb11049e6b7|2018-11-01|Leo Gordon|support alternative repositories for picking experiments from
+90e6e6a86c64b549f2848de74afcd4cd9d9f82e2|2018-10-29|Leo Gordon|also adding the team into meta.json->meta dictionary (a better location for experiment domain-specific attributes)
+ec546ec02551ffb563c250743e16b0fe411806ec|2018-10-23|Leo Gordon|Merge pull request #16 from raduetsya/feature/issue9_filters
+2f45e178934cf0d5fa3d48d7ce6248e4bd7b797a|2018-10-23|Nikolay Istomin|Add "Molecule" and "Vendor" filters
+249e166affcea4b9aa6f8c115bde576f34f3857c|2018-10-19|Leo Gordon|reduce the size of flattened JSON files
+c3c15083fd00ca1ee2562d1783f32bdc1f97f8b7|2018-10-19|Nikolay Istomin|Add "Point" filter
+c6d0adfde1534c74668f136ee0d86f1107d6c801|2018-10-19|Nikolay Istomin|Add "Ansatz" filter
+a2e058aed75fe6612592e2347efda0ee63212e3b|2018-10-19|Nikolay Istomin|Rename "Minimizer method" to "Minimizer"
+68393e1c7ee0eb8be2d896277ff6231516c9e21e|2018-10-19|Nikolay Istomin|Rename "Platform" filter to "Device"
+665c9320b11f3fe3f6a444529c00a0f6c12975a8|2018-10-17|Leo Gordon|changes to allow deployed Qiskit and pyQuil ansatz functions to co-exist
+e595f04b5c3ab25b615481fd3eb08fe4c5300d6d|2018-10-17|Leo Gordon|simplify Hamiltonian plugin verson parsing by renaming the directories themselves
+4e4745c08cbb5461c931fa7ebbaadc2d7941ed3e|2018-10-17|Leo Gordon|cosmetic: formatting
+58b75070ef04f6c9e0d7f11177d63af7241829d8|2018-10-16|Leo Gordon|changes to accommodate two types of ansatz plugins
+7f91791b1af3be722955e58ff8c9c939f8b5bb43|2018-10-16|Leo Gordon|bugfix: complain about the correct plugin
+38e3ac065fa8d9754bf483f2ae8a67b81fa2d155|2018-10-16|Grigori Fursin|updated logos
+c07abf2c8975757ca14abacbd5d9103661a17147|2018-10-16|Leo Gordon|added precomputed classical_energy values to all Hamiltonian plugins
+f2599a88f73b13a96c3c24d5af65447628ec43a2|2018-10-16|Leo Gordon|added "provider" attribute to the meta data and removed "username" attribute
+a8b3a808bdb0fa570ea6161f657edef3fb69ae15|2018-10-15|Leo Gordon|improved the storage format of attributes
+9ed63ab324ebbb0b8776af6fcfb274e27d180fc2|2018-10-15|Leo Gordon|also adding the plugins' tags to the experiment's meta.meta
+4e695800ca2157cba7d97671b86d128edcb933b4|2018-10-15|Leo Gordon|uniformly record all 3 plugins' tags into the meta.json file of the experiment
+6a15755685e3ed475e125621fb94902f4999392b|2018-10-15|Leo Gordon|the extra version-based tag is now being added automatically, no longer need to use --extra_tags
+7eeaef2882ae04024d7c4340e871390e2d111e83|2018-10-15|Leo Gordon|record the specific version of the Optimizer in the tags automatically
+1cdfe7769db24c45c182b35ffb70f16d3bfe2239|2018-10-15|Leo Gordon|record the specific version of the Hamiltonian in the tags as well
+3208a3fb29bb07b251d165b593230c3546d234ec|2018-10-12|Leo Gordon|moved NumpyEncoder into vqe_utils
+1ae645203a712cf6a57b4235aa976da778c6be2c|2018-10-10|Leo Gordon|use the "Version:" field to display the selected plugin
+081ebd249669ce6e2e57dfa3c05d251982509992|2018-10-10|Leo Gordon|Added a detectable Hamiltonian plugin
+cbf230297168eea1a03936766c58ce3eb5627288|2018-10-09|Leo Gordon|multiple ansatz- or optimizer- plugins can co-exist; choose the active one when running
+d27f248cf198c3a64d2e8a5eedf0a53a3d759023|2018-10-09|Leo Gordon|pause to confirm the currently selected or default parameters; or --force to prevent the pause
+5716d92ecbdcacbe0b1e247638ea5ce6cab0e4e5|2018-10-08|Anton Lokhmotov|Update delta step to 0.01 for IBM workflows.
+bedd4f895e18b026a1575869ac12f793c13c2528|2018-10-06|Leo Gordon|bugfix: set team_name correctly
+a43ee083c743003b045950e6cea3b2daa1613532|2018-10-06|Leo Gordon|set a more realistic device timeout (and a parameter to control it)
+3a935d5caaa170e16cb6e0632e1fdfcdf2c2b96b|2018-10-06|Anton Lokhmotov|Fix indentation of sub-bullet points
+badcb4f84cd7faa3830d01ce8c46acc511156538|2018-10-06|Anton Lokhmotov|Merge branch 'master' of github.com:ctuning/ck-quantum
+4375ee6d70b7e1f40084d1374add3740327e35d2|2018-10-06|Anton Lokhmotov|Switch widget repo to ck-quantum-hackathon-20181006.
+febaa2a1e15a166b74986ebc402558009ddd1881|2018-10-06|Leo Gordon|switching to the hackathon mode
+eaf54fe54c55e21a9d7dd060ab8640e6aac32c5f|2018-10-06|Anton Lokhmotov|Ask to change institution to QuantumHackers.
+ba65b0a9166649668f961da1d490d73c0bab1bea|2018-10-05|Leo Gordon|switch between providers using --env.VQE_QUANTUM_PROVIDER={rigetti|ibm}
+b197f6021c32fadfe7fb3b896984aca3586a201a|2018-10-05|Leo Gordon|adding start_param_value to the entry name; and skipping ansatz for rigetti
+7dcf2cca96850131f18a82927b1793f2adbd138b|2018-10-05|Leo Gordon|allow the users to set start_param_value
+69b7bab2e76b42328e5e6fbe5e58ce2426b6e7e2|2018-10-05|Anton Lokhmotov|Merge branch 'master' of github.com:ctuning/ck-quantum
+976683543b9751e2b0b00e2ab659269e5405a4ab|2018-10-05|Anton Lokhmotov|Add ansatz method. Show method names.
+d950c1802d759e8a328aed2442634b7705299672|2018-10-05|Thomas Parks|Merge branch 'master' of https://github.com/ctuning/ck-quantum
+1fd79acfe3861c86f2053622b9831158422af946|2018-10-05|Thomas Parks|add numerical markers
+c6a5c7ddb5835b842b862f1f9a06cc7a9c40401a|2018-10-05|Thomas Parks|Add signal handler to allow exiting with CTRL+C as well as q.
+28f37beabf60d17885b8377df964de88716efd70|2018-10-05|Anton Lokhmotov|Recommend uploading all experiments from hardware and some from simulators.
+bd564fca6de5374ee74d3a080d38356e9e48627d|2018-10-05|Anton Lokhmotov|Recommend using at least 10 repetitions on the simulators.
+2f597bb1c08d5a90ae6e035252026b12b32fdadf|2018-10-05|Leo Gordon|require Python3 for program:visualize-convergence
+c9adb44e10b1b996ba9ab7a50b2de289d049c2c6|2018-10-05|Anton Lokhmotov|Document exploration parameters.
+ff90a7d596745cd91bcc3b31d0a7d5ffbdd8034e|2018-10-05|Leo Gordon|docs: amended README.md to document running program:visualize-convergence
+12f0e225b72afd24be546dd8dc444f9faf13a642|2018-10-05|Leo Gordon|use CK kernel to get the path to vqe_stream.json
+5edec96c331e7b1dad180dcc5d4ae425137b37b9|2018-10-05|Leo Gordon|renamed visualize_convergence.py and added to meta.json
+5c605a7b93dd3e5d5558c55204ef77920ff51379|2018-10-05|Leo Gordon|a generic way to run is via /usr/bin/env
+975cdd76287fdb52716821dd0e90eed28849915d|2018-10-05|Anton Lokhmotov|Elaborate on using favourite text editors.
+16465e6007ebbc2347cddf93f8f96c026a5e56cb|2018-10-05|Anton Lokhmotov|Elaborate on removing plugins.
+e28694d3e3752f400d14752447c4629ec924fff7|2018-10-05|Anton Lokhmotov|Change the default ansatz to universal4.
+c75954df92022f653b70467fd51122c2efbb6012|2018-10-05|Anton Lokhmotov|Locate and edit plugins using favourite editor.
+cce5763cf62cd5f3798971058f7129426457ae3d|2018-10-05|Thomas Parks|Add a program to display graphically the optimisation progress.
+fee26331a050d4c3d57aea489a3a1f8c575c9aff|2018-10-05|Anton Lokhmotov|Add placeholder program for VQE convergence plotting.
+81874b5d77f688ff7d6560bfc516648fcaa8c3ad|2018-10-05|Anton Lokhmotov|Say 'fully booked' instead of 'sold out'.
+f127897ffc8f4752c18078a646692532acd169b3|2018-10-04|Leo Gordon|cleanup() should only produce the output on success and if interactive
+f177ec3d777cd0a5e9cf55b239ae78b254bca10b|2018-10-04|Leo Gordon|output more useful info when deploying a plugin
+0863700f0a547ee0909e7873ca08be9783e9d9c7|2018-10-04|Leo Gordon|removed the input-parameters-printing debug output
+024752b8936e299ae9e2c8a09584bd7258a5747b|2018-10-04|Leo Gordon|interactively ask for team name instead of assuming "anonymous" default
+4cb5c921cb1485328acb970387d37f9837f8ae86|2018-10-04|Leo Gordon|added "quantum" tag to all experiments that we generate, for consistency with other components
+5542a5900ad183bef3358097da9940ead302e893|2018-10-04|Leo Gordon|restrict pick_an_experiment() to the experiments with --tags=qck
+26146a5b3b54062d709f09e87dba7436022f45b9|2018-10-04|Anton Lokhmotov|Merge branch 'master' of github.com:ctuning/ck-quantum
+07622be5132f3ca3596bd17bca8281d20ec835a9|2018-10-04|Anton Lokhmotov|Move #repetitions to left in metrics table view.
+87dfdc2f4e30fab58d2a4d012c0ee78514f6c9b4|2018-10-04|Leo Gordon|docs: edited the list of one-line help strings
+4565e94583e0846ea6317e8f47d3270fa5948b93|2018-10-04|Anton Lokhmotov|Copy jnotebook:hackathon.2018{0615,1006}.
+296dee31d6b0a25755f59319aa119152adefc838|2018-10-04|Anton Lokhmotov|Rename jnotebook:hackathon{,.20180615}.
+d85eb621dbb78ae16be11ab3beff2b4c3b4720ad|2018-10-03|Leo Gordon|renamed ibm_vqe_stream.json -> vqe_stream.json for potential compatibility with other providers
+0346128fd4ea74e48abee1b58e457bb25950016c|2018-10-03|Leo Gordon|delete the ibm_vqe_stream.json file before running benchmark()
+00868089f9d0bb3de99363d5052ecebac13a04a8|2018-10-03|Leo Gordon|docs: added docstrings to all the methods
+f30cd35940f0945953b4918f0ddb4185cd6e1c48|2018-10-03|Leo Gordon|docs: mention that each plugin is expected to only have 1 top-level function
+981b6d779662e04b2d4333a8cffbd8ad4c8a3657|2018-10-02|Leo Gordon|unifying&simplifying the "select_string" interfaces
+ded4eccf83ba3d20b6164fb1931ce1209b24b6d0|2018-10-02|Leo Gordon|simplified: using "selected_value" directly
+b7e03cb7296136f9e54268008457bc03f0daf37b|2018-10-02|Leo Gordon|documented the option of cleaning up a specific plugin; ansatz viewing and editing
+d5de6b52e2bbce42476317a052650f501e4129e6|2018-10-02|Leo Gordon|swapped os.getlogin() for getpass.getuser() for better portability in non-interactive mode
+107ec62a1b14b0061d9a99f4af4a06fa6aab31d6|2018-10-02|Anton Lokhmotov|Add a note on opening ansatz visualisations.
+5cbee850cd84ead6bdf0649a73da382e631fb08e|2018-10-02|Anton Lokhmotov|Show ansatz source.
+db85cf71ca61c865b162dafb97bdab63a9a13e7f|2018-10-01|Anton Lokhmotov|Get max_iterations from the environment.
+30c9a15485d395a7d4fe5b930e8367dd47f150d0|2018-10-01|Anton Lokhmotov|Get the team name from r['dict']['team'].
+73b20077a8d48f0b0aa705e3ed65af304e59c214|2018-10-01|Leo Gordon|adding the team name during the upload
+e1ef50981a8bb422e64c7eb91234d6826da3ef3d|2018-10-01|Anton Lokhmotov|Add FIXMEs: repo_uoa, team.
+a6f5db503bc9d02469ada46432c0e85ec0445477|2018-10-01|Anton Lokhmotov|Merge branch 'master' of github.com:ctuning/ck-quantum
+410426f200c955d854e72c01fdb3e831a4bbf59c|2018-10-01|Anton Lokhmotov|End experiment name with -samples.{}-repetitions.{}.
+54b606e4a3f0f3b7905cc5e0a4b902520aacd930|2018-10-01|Leo Gordon|easy setting the quantum --device (or selection from a list)
+aba78b4a25ef4fd6274ace6f894f7bc2142da7ce|2018-10-01|Leo Gordon|use the latest experiment by default
+fd746193d31a93b0330881351d0c06ec0bef046c|2018-10-01|Leo Gordon|allow cleaning up only one plugin (but do both by default)
+af8322dbf59b7ec7d3fe8bc2c66b60f74f74e02a|2018-10-01|Anton Lokhmotov|Rename max_iter -> max_iterations.
+65166453690748513fc9b2d958daf2e0549c9ffb|2018-10-01|Leo Gordon|automatic choice from 1-element list
+129d6e1b9dd0e2cc019cf726084fe105a84545e4|2018-10-01|Leo Gordon|added an extra "qck" tag to all VQE experiments
+dd2250489c6f158bf80e2a6e192ea055a2601be5|2018-10-01|Anton Lokhmotov|Remove extra dash between username and timestamp.
+d60f63a1a8a2f00df44a50385a07eade6b804f09|2018-10-01|Leo Gordon|temporarily switch to writing into remote "ck-quantum-hackathons" repo
+8efcb5e46eb735b8071903b33efcaff9f7383767|2018-10-01|Anton Lokhmotov|Redirect module:hackathon.20181006 to remote ck-quantum-hackathons.
+1c8ebb1e292ddc4974c6db3cbad6afcbcf583b3f|2018-10-01|Anton Lokhmotov|Copy module:hackathon.20180615 module:hackathon.20181006.
+b8c0b2bb3c4873e2dd445afef18bf5e1b6834b4a|2018-10-01|Anton Lokhmotov|Rename module:request.quantum module:hackathon.20180615.
+b590ce481ea519912815ca510cf41604146e76bc|2018-10-01|Anton Lokhmotov|Print unique registered emails in order.
+e1b3ce3f993fb96e1dc431490b29bcd707cc32ff|2018-10-01|Leo Gordon|fix the remote_repo_uoa in the module for potential disambiguation
+fafa473bf6d0f35bd319a3b515b3e000df9b390e|2018-10-01|Leo Gordon|added the "ck list_registered_emails vqe" command
+61f99d6e3a3ad70f87d78ba20e9fc82ca0c8f918|2018-09-28|Leo Gordon|more portable solution
+0aa40c1d02eaae7ef1fc41538e81b8534a0d6af6|2018-09-27|Leo Gordon|record current optimizer & ansatz names in experiment metadata
+d226d932bcbfb004d7e0ac8fc916c0198eafc6d7|2018-09-27|Leo Gordon|improved plugin_path() subroutine with more info
+a5492cc67ef5dcf656fa69c002a16a4b4c780e0a|2018-09-27|Leo Gordon|run visualize_ansatz outside of its tmp/ directory
+fc7f8315bf4e924910eefd8e874ebcc905e27a92|2018-09-26|Leo Gordon|show ansatz function in TTS; pick the experiment for TTS interactively
+293564d264807630183ec42f73b13f4b3f3e017a|2018-09-26|Leo Gordon|interactive mode for uploading entries
+c78b0dd03fb78c53f50fc7087f188ba700312b80|2018-09-26|Leo Gordon|documented the visualize-ansatz program
+bc15f7ee407fd40903d13f7db43c39a1a6758608|2018-09-26|Leo Gordon|changed the experiment entry name format, removed (wrong) reference to optimizer
+2dbfc46e56b4318d63027e661f4b9280530695c6|2018-09-26|Leo Gordon|added time_to_solution function (also in README.md)
+a149cf782f8d77ad9ad6a576a8dbc80f028b786d|2018-09-26|Leo Gordon|added a new "ck upload vqe" method that hides some implementation details
+5a1559ed7a8be4509225e69e1bd8415d92bd421d|2018-09-25|Anton Lokhmotov|Itemise prerequisite steps.
+e9cc0ae0118a3b6747549fa4e128520617798ab6|2018-09-25|Leo Gordon|refreshed the top level doc, referencing a chunk from ck-qiskit
+6851338787da7cb2df7616a39df598123a98dfde|2018-09-21|Leo Gordon|removed the visualize_ansatz parameter
+d9b3b4ca3efc739f2f17fe3bf1bfe27e4e632f8c|2018-09-21|Leo Gordon|removed soft:vqe.utils and left env:vqe_utils to clean up and reduce confusion
+4e32cdc7118999623ec10eb322cefb957663fa8a|2018-09-20|Anton Lokhmotov|Document python3-tk dependency.
+f67f85857c54a6d8fa3d2555e1cb7b7c06ee11d1|2018-09-20|Anton Lokhmotov|Link to obtaining IBM QX API token.
+38c16e71661a4dae0404d5df2a7b6e057b684d12|2018-09-20|Anton Lokhmotov|Document how to obtain IBM QX API token.
+8e940b0a6d80683318574e7bad648eb93a2b5f52|2018-09-20|Anton Lokhmotov|Update README.
+3e40c4368bbb3569fa0c7962bf8cafe1ecd0f86d|2018-09-20|Leo Gordon|added the remote sim test that also requires API TOKEN to be entered and stored
+198b96d6cce4d77d70e8c51ca18b589bce8e40b7|2018-09-20|Anton Lokhmotov|Update README.
+12728bc8ff0df9a56e730c563061d914a80daad2|2018-09-19|Leo Gordon|a handy method to quickly find the path to the plugin's python file
+74986cfae5ba8098780a83f196bf3f162cee0aa5|2018-09-19|Leo Gordon|Documentation updated for Qiskit-VQE
+3a2b8c228d3280a7625826832983433cba707e15|2018-09-19|Leo Gordon|added interactive selection for deployment
+834f143821237941dc2c8fee1aefe3545ee12745|2018-09-19|Leo Gordon|bugfix: typo
+d461239c7c3c754507b33fb4a9dc0673f8a70fd1|2018-09-19|Leo Gordon|simplified the cleanup procedure
+b2360acb044106fe75085a338c70bcab6492650d|2018-09-19|Leo Gordon|removed the preinstalled env:optimizers as confusing (since we have deployables now)
+9ce73a58115184d0d3b07be1f4d1a1a3f58340bd|2018-09-18|Leo Gordon|FIXME: setting shots=1 produces results that are too good
+551d9cbc644579a0fcc6e9e73c80ca6218212b70|2018-09-18|Leo Gordon|support deployment of both optimizers and ansatzen
+3d564807008cd9bd4c63dce768e73f5b485e244f|2018-09-18|Leo Gordon|list the culprits to simplify debugging
+669633dacad8118d80e46342d9c1103910900e3e|2018-09-18|Leo Gordon|making IBM the default quantum hardware provider
+1f04f5ed167e5a2e199a5095309006fa73e8cb45|2018-09-18|Leo Gordon|updated env:vqe_utils and soft:vqe.utils to support visualize_ansatz option
+4f21a5b0ec6b9d78d92ee7b258749e77d6ea6038|2018-09-17|Leo Gordon|adding the template.optimizer code-containing soft entry
+132aced0277d1e62bd910686d976203e8f2704ac|2018-09-17|Leo Gordon|remove the "inactive" alternatives, to reduce confusion
+b2d55af399e40e1f644a82787eac0baf34e70ceb|2018-09-17|Leo Gordon|automating the deployment of optimizers and cleanup (use with caution)
+f312ce4849f72d156b595c86909c87f1047c2cf5|2018-09-13|Leo Gordon|added --visualize_ansatz boolean option
+4a48033a8d745762d22c4152a0272c337bc0123e|2018-09-13|Leo Gordon|initialize start_params to zeros by default
+02ccbcba75c5d7824fc1ce0d797a87ad138ecdd9|2018-08-21|Leo Gordon|testing soft: entry as a new way of python code packaging
+f67e43691ac83755b03e7ce264a2f5c9874fe875|2018-08-21|Leo Gordon|environment cleanup to match ck-rigetti and ck-qiskit
+9c343c30ade1d1f0e0315b588148eff34695d356|2018-08-17|Leo Gordon|cleanup: removed some unnecessary module deps
+b337dd69fcc843d6470f2ddd48b856cc13386bd9|2018-08-17|Leo Gordon|support for Rigetti/IBM selectable via --provider={rigetti|ibm}
+1f42f878311e3e2d5756306b238f75628e1818e4|2018-08-14|Alexander Zubarev|Add delta & prob metric selectors.
+d0e151e77c3fab22cc4581526d9598e8b475af92|2018-08-13|Leo Gordon|added overridable timestamp without colons
+c5b7ff8607805d0c4345f132fecfae82e908458c|2018-08-13|Leo Gordon|added --dev option to switch between program:rigetti-vqe and program:rigetti-vqe2
+5825df76d5ced0fd89d6d27b7908c410e9b0a1cb|2018-08-13|Leo Gordon|a simplified interface to local/remote recording: just state whether you want it recorded remotely
+cae68d70d0d290496b76315474ec6adf9b49f3c4|2018-08-09|Alexander Zubarev|Add missing dimensions
+1424852b80846bfd91d826fbdc3f254c1a892675|2018-08-09|Alexander Zubarev|Add request.quantum module
+5f196a571b7f2b113a911f6bb34ffa0ac5f842e6|2018-08-08|Leo Gordon|added recording to remote repository
+dbfc981331858949c1ba636be1342e917de11f20|2018-08-02|Leo Gordon|cleanup: removed a test command
+b2e7d9b3821ce43a1e472991e27c3e3eac19a6aa|2018-08-01|Leo Gordon|added static environment entries for vqe_utils and 4 different optimizers (now with Windows support)
+0de7db6ba661746a8d1386fd28cd603935f2904d|2018-07-31|Leo Gordon|added static environment entries for vqe_utils and 4 different optimizers
+2dd372f198b6675d5527dcecb02324c99d109989|2018-07-17|Leo Gordon|vqe module
+a1b102914c8ddc455aff92d0fbf32e37fe28c7b0|2018-07-17|Leo Gordon|added "quantum" to the list of tags
+560cc0daa91d99bdd5f9af86024d425dd7e8f114|2018-06-26|Anton Lokhmotov|Updated notebook with an explanation of the winner. df=df_merged.
+2e8ee377f952090a5df9e1ba5d55346443020778|2018-06-26|Anton Lokhmotov|Add references.
+b97b0062f7fb0a58ebae836d1cc65c42f81b0a25|2018-06-25|Anton Lokhmotov|Add the worst entry (9.4 worse) with 100% convergence.
+c7a5515a23bac9cb0ed5e9b8ca40e884159753a5|2018-06-25|Anton Lokhmotov|Add the most accurate entry.
+664b3bb06378eda2208d398a71549aae824656f4|2018-06-25|Anton Lokhmotov|Add entries with 100% convergence.
+1a37def10d5336da325112f283d7cd9c4596be92|2018-06-25|Anton Lokhmotov|Print minimizer source.
+4b59a7229644d7b75af8902cf74d9bd23622eca2|2018-06-24|Anton Lokhmotov|Fix last marker for custom minimizer. Plot ground state.
+beb4584986c397cbaaa0f2a3355c134476161084|2018-06-24|Anton Lokhmotov|Merge experimental results with the same parameters.
+95c4be7a56932e5b8fd5f3656a203ae9462c4b05|2018-06-23|Anton Lokhmotov|Move point next to repetition_id in index.
+82263a9ee3ae9309243a2b6b22fd999f5a0d6f94|2018-06-23|Anton Lokhmotov|Support both team ids and emails.
+61ba3b8395c32caa116d2ee6eb257db21f3ebf71|2018-06-22|Anton Lokhmotov|Add conditional runner-up (sample_number=1, num_repetitions=1).
+aa50c8c7975854ca69f12cd8194c179aa317a391|2018-06-22|Anton Lokhmotov|Add absolute winner and runner-up.
+ae2d9a80ed279ad97084055a0e000e64d0777c20|2018-06-22|Anton Lokhmotov|Calculate metrics separately.
+182157dcfe839c24ea1a694b7db74cbd76b2f955|2018-06-20|Anton Lokhmotov|Describe time-to-solution metric.
+72b04ddc19603b847fafbfda875921b056bd7fee|2018-06-20|Anton Lokhmotov|Compute time-to-solution metric in notebook.
+1da755c4b1e06e4620e36a8e5c1964963824b20a|2018-06-18|Leo Gordon|improve Python2/Python3 portability
+eedde3470dd0b48ddb5722201ab206ece6cbcd26|2018-06-18|Leo Gordon|compatibility with Python2
+b31ac434c02f422834734daf66d95c8dcf58da82|2018-06-18|Leo Gordon|return all the results and control verbosity
+ab653dc2b8b1efa29cad748b82cb4b8b481b9f59|2018-06-17|Grigori Fursin|Merge branch 'master' of https://github.com/ctuning/ck-quantum
+61f2201a42109bbc78a89b570f871f24f37e6540|2018-06-17|Grigori Fursin|Fixed soft path for Hackathon package on Windows - now works
+0a3dfa2cf33597e4034d7cfe8d21c21ff967bf7f|2018-06-15|Anton Lokhmotov|Add email, point to index. Plot unknown minimizers in red.
+3c3be6f8f690df24f5092587af4678610d9233cb|2018-06-15|Grigori Fursin|fixed installation script for Windows
+9925ad8d1c90aba0a3412b3a31d8ee9c5a570298|2018-06-15|Grigori Fursin|Merge branch 'master' of https://github.com/ctuning/ck-quantum
+8c8c318208516271b3c6f069a2ff833b35b5d2d7|2018-06-15|Grigori Fursin|added repo deps on ck-env, ck-rigetti and ck-qiskit
+fdf365ffd7e6105ceb2c3810987042a89015597d|2018-06-15|Anton Lokhmotov|Archive experiments.
+bc092b460c86b96b9795e13f97da43b2deb71dc3|2018-06-15|Anton Lokhmotov|Inspecting results.
+ba4a0b7f85e5058f2f5a1a629257235934432e1e|2018-06-15|Anton Lokhmotov|Fix typo: melder_nead -> nelder_mead.
+e9b1c992cf0125bb232d291e3b9f55e8825622e5|2018-06-15|Anton Lokhmotov|Add benchmark instructions.
+f7cd3ddc380be6dd8562641deae755f254a5731a|2018-06-15|Grigori Fursin|clean up
+c4eae283c1025eef5313ce64fd3f1192fe7b35ae|2018-06-15|Grigori Fursin|update
+57f1d81e754934828069b3d28bc2d7a44afbe83e|2018-06-15|Grigori Fursin|clean up
+83349fb3363cdd0a1bec063414282b0d37ab23ec|2018-06-15|Anton Lokhmotov|Add test instructions.
+0d1f17015756674b0a48c36e6941b287dc518d7a|2018-06-15|Anton Lokhmotov|Add Rigetti installation instructions.
+00cb85936c1658f61fff0ee0e4e13b5140430bd4|2018-06-15|Anton Lokhmotov|Merge branch 'master' of github.com:ctuning/ck-quantum
+05319c20d2df3efa0e97de7bb693216fee321c8c|2018-06-15|Anton Lokhmotov|Minor update.
+a1810d021e03aa0b702524c7f7c39f6dba3a6b13|2018-06-15|Leo Gordon|added an option to hide/show extra stats
+6c696aac88bca3d2a62c37c6b806af2bc17bd0b7|2018-06-15|Anton Lokhmotov|Add installation instructions.
+01f42e0de8c005e0b3ac02314611cdae623a7774|2018-06-14|Leo Gordon|added benchmark_list_of_runs() to analyse parsed JSON file from a recorded CK experiment
+532ce0909463cf23e1a199905d112719c6a44da5|2018-06-14|Leo Gordon|separate my_random_sampler() and my_minimizer()
+c88e638aabf9743fb79063b0fb31d4449e8e28ad|2018-06-14|Leo Gordon|exposed maxfev/maxiter of my_minimizer() as a variable command line parameter
+1dbb09b420cfd933cdafa95be208f3ded9aa7a7c|2018-06-12|Anton Lokhmotov|Support qasm_simulator and my_minimizer.
+1ee0967475270ee7ed7dd051fa22f48ddaed02cd|2018-06-13|Anton Lokhmotov|Add link to sample data.
+c99b54e5f07bd25403e8fdf904bbe087d7580ebf|2018-06-12|Anton Lokhmotov|Add Rigetti run command.
+28dafa757a9b84a75c4f3fbb48e36c24ea0ea91c|2018-06-12|Oscar Higgott|random sampling minimizer
+2062467c76eb51fc923d0c380d16448b556952b3|2018-06-12|Anton Lokhmotov|Use q_device_name for platform.
+29c4302068e7ba06ffc78865175fe5a5328b60d6|2018-06-12|Anton Lokhmotov|Use marker shape for platform, size for sample_number.
+6cba68df6b8583d7b7c7a89a1f65d53d5bbf98b1|2018-06-11|Leo Gordon|moved cmdline_parse_and_report() to the common hackathon space
+8e7bc87ef6c599a5509966a25d5d0b8db2898fc6|2018-06-08|Anton Lokhmotov|Add VQE analysis for hackathon.
+b8592619c63568d24da4e4ff526f9bae8f5dbebd|2018-06-07|Flavio Vella|new metrics
+ec3a617c4487fd526a872a330e4cfca9b03909ea|2018-06-07|Flavio Vella|fix utils
+072496bc33d2560b8b0dbf8e3507d7675c3b577a|2018-06-07|Flavio Vella|add hackthon package. See qiskit-vqe how to use it
+593d7008e6e216a802d38d85ba1bfa804068158b|2018-06-06|Leo Gordon|hackathon module is dependent on scipy
+2b88b960b7346f10aea778b4a0aefeb1f1a63620|2018-06-06|Leo Gordon|added my_ minimization methods
+1767572a49ef9397a3d8755178ca60e1ddae3e87|2018-06-06|Leo Gordon|removed the inspection, left just the minimizer function
+c6d34ce54b73b4c73be72896a4ddb41d5b25355c|2018-06-06|Leo Gordon|fixed the tags of the hackathon module
+7c6fd3708ea45b6e359483eec7f845179b68e65a|2018-06-06|Leo Gordon|removed __init__ as confusing (we are not creating a python package here)
+33b935beec7dc9b29ac8b774cb1ed50a2d57ab21|2018-06-06|Flavio Vella|add func for reading src code of the minimizer
+528393319fc8ab666cdfd0ca1b9a5e834ef46e64|2018-06-06|Flavio Vella|Add the template for the hackathon module
+758f7b3df6fedb66f284b7e70a6a9983f659d71b|2018-06-06|Grigori Fursin|First commit

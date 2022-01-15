@@ -1,0 +1,617 @@
+a77c68853cc87f538552a4ac45a799e097ad3f93|2020-10-09|Sebastiaan Huber|Replace old format string interpolation with f-strings (#579)
+e00c2995a3eb13d88dff5c467ffbf81dc7628e7b|2020-10-09|Sebastiaan Huber|Drop support for Python 3.5 (#578)
+5c4b1e83059da5397ee400c2eae4558278b5c380|2020-10-09|Sebastiaan Huber|Merge pull request #574 from aiidateam/release/3.2.0
+3737f24767b1fdd5be90a50fb4004ea8215f0f32|2020-10-07|Sebastiaan Huber|Release `v3.2.0`
+a319264e9797898e0a731287dc21d06b35465512|2020-10-08|Giovanni Pizzi|`PwCalculation`: hotfix the `qes_200420.xsd` XML schema file (#558)
+bdf07789d20f23601458d32d662fbe7c61968728|2020-10-08|Davide Grassano|`PwBandsWorkChain`: incorrect number of bands for non-collinear spin (#570)
+5ca286bbeddf36e374100443ac9cfc42cc137ca0|2020-10-08|Dominik Gresch|`Pw/CpCalculation`: allow explicitly specifying `ibrav` (#503)
+7427398e66c174ce7301bebce087247f79c4af75|2020-10-08|Sebastiaan Huber|Fix the incorrect usage of repository interface of `aiida-core` (#549)
+edf4d8d01025531f382581ff73d8f50b2cd2358a|2020-10-08|Dominik Gresch|Increase minimum required `aiida-core` version to 1.3 (#573)
+0978b66b8ca468eb61eca492f63a0ed6cc63e775|2020-10-08|Dominik Gresch|Update to qe-tools 2.0.0rc1. (#529)
+7ec9eaa689cb39b6a04291892b6858b27c897d78|2020-10-07|Sebastiaan Huber|CI: revert workaround that installs Python 3.7.7 (#572)
+080113840d7092438bbdab99de44630fb3cc190d|2020-10-07|Davide Grassano|`PwBandsWorkChain`: properly mark optional outputs as not required (#571)
+d445aaac85824980018d75c12d68656f6270317f|2020-10-05|Giovanni Pizzi|`PwParser`: fix bug in raw parsing of van der Waals and stress (#550)
+cb3f5ee784a0a1041d12f15f678cd8b4667e052d|2020-10-05|Junfeng Qiao|`PwBandStructureWorkChain`: add context argument to validator (#560)
+12a979793f7af7a4b801b075680f14f33c17ee32|2020-10-05|Sebastiaan Huber|CI: add nightly build against `aiida-core/develop` (#568)
+89a44f1a119f9db37d566e5801a676ffd83b017d|2020-10-05|Sebastiaan Huber|Pre-commit: move `pytest` and `pylint` config to `pyproject.toml` (#562)
+59b957abdcb4b02e1745e262f8e2230566c65cc3|2020-09-22|Davide Grassano|`NamelistCalculation`: allow symlinking `parent_folder` instead of copying (#555)
+031b92b9c85ed01588de332f039af05738607375|2020-09-15|Lukas Botsch|`ProjwfcParser`: add support for non-collinear and spinorbit calculations (#546)
+fe75c80cecb61113641366961ced8ed5a03cf896|2020-09-14|Sebastiaan Huber|`PwParser`: add support for output format of pw.x v6.6 (#552)
+61fe3b4ec0b90df4dbc5dad7c452b47b83eef071|2020-08-06|Sebastiaan Huber|`PwBaseWorkChain`: do no assume `output_band` exists in band sanity check (#544)
+cdd212f98deaaaf2f33ef68cd95d903cc91b4739|2020-07-15|Sebastiaan Huber|Merge pull request #541 from aiidateam/release/3.1.0
+cbe91fbd3f129b579871a7c10a1f011ab35f42e4|2020-07-15|Sebastiaan Huber|Release v3.1.0
+f5c59c83ca2099958215c44a072c06cf15ead2c3|2020-07-15|Sebastiaan Huber|Build system: unvendor `fastentrypoints` and use `pyproject.toml` (#540)
+260ada41b49ff8a722bc8484fde9127a5de53f8d|2020-07-14|Aliaksandr Yakutovich|`PpCalculation`: reinstate the `settings` input node (#537)
+0031475aff4aac8677c8da31c90e5498aad24b37|2020-07-09|Aliaksandr Yakutovich|`PpParser`: improve the Gaussian cube file parsing algorithm. (#535)
+582753aec56302e6425e8ded5c6dccd0ed655b47|2020-07-09|Sebastiaan Huber|CI: update `actions/setup-python` to `@v2` and pin Python 3.7.7 (#538)
+a52266d096afe48dbc6b38b63ac17a9989dd12fe|2020-06-30|Sebastiaan Huber|`PpCalculation`: add support for retrieving and parsing multiple files (#533)
+4f75b6f899c258f24e90fde4da6314b71e324ebc|2020-06-26|Sebastiaan Huber|`PpParser`: fix whitespace bug in the `parse_gnuplot2D` method (#534)
+5e06a62756cdbae23f287a7ac9abe51a2a0492c6|2020-06-07|Dominik Gresch|Use `get_hash` instead of `id` when comparing `UpfData` in immigrate test (#527)
+48d118df3fd52ce735f794b246b73e2a78dc0563|2020-06-07|Sebastiaan Huber|Remove `prospector` and run `yapf` and `pylint` from repo (#526)
+6dd89e4a64287cc3acbbd1be5a2603e6ff4fa2ce|2020-06-04|Sebastiaan Huber|Fix import or `URLError` which has been removed in `xmlschema` (#524)
+a835a6f41ad3a0ec8aaf1a8b22dd060fecb16c29|2020-05-08|Sebastiaan Huber|Replace builtin `BaseRestartWorkChain` with the one from `aiida-core` (#519)
+72b3e9afe343302c6c80a98a9f0f98ef474fe5bd|2020-05-07|Sebastiaan Huber|Move calcfunctions to `aiida_quantumespresso.calculations.functions` (#520)
+1c9e55d51e800cc360d16f38cfcbff83b09831dd|2020-05-07|Sebastiaan Huber|Various updates in `setup.json`, `README.md` and CI configuration (#516)
+a417071b00cd5b01fc2eb7348885b22a3b39c7f2|2020-05-07|Sebastiaan Huber|Drop Python 2 support (#515)
+4ffdddd754ed877994e956957988cc2cca0d7bc8|2020-05-07|Sebastiaan Huber|Merge pull request #513 from aiidateam/release/3.0.0
+41c4383702643307d790dc3ec8ddd47071dda76b|2020-05-06|Sebastiaan Huber|Release v3.0.0
+5b1cb5bf161c69ca180f0b4f97e1f599b311965d|2020-05-06|Sebastiaan Huber|`PwCalculation`: remove deprecated key functionality (#495)
+80f49571efa7475d346dec50a9b91fd7565e7f6c|2020-04-29|ConradJohnston|Add `PpParser` for the `PpCalculation` plugin (#428)
+2481ae8e54a2f76b4e5967b613ee9c70e09bb1f2|2020-04-28|Sebastiaan Huber|Fix build status badge and update continuous integration setup (#510)
+0113e9797a9d15df999306c483b7d4d95606dd37|2020-04-22|Sebastiaan Huber|Update dependency requirment `pgtest=~1.3,>=1.3.1` (#508)
+4c5b2e9bee63368bd6295ac26516c29b76e636d1|2020-04-22|Sebastiaan Huber|Make unit test independent of the current working directory (#506)
+dfdca7e1317484afedcf522b5adea17dc3f8533a|2020-04-14|Samuel Poncé|Add the `EpwCalculation` calcjob plugin for the epw.x code (#462)
+fcedb3e8fee3355daf1259baee8f6c324998af02|2020-04-03|Sebastiaan Huber|Add support for python 3.5 and 3.8 (#498)
+193d190a60b88e88b1be49bee59c29690c9da20e|2020-04-03|Sebastiaan Huber|`PwBaseWorkChain`: do not restart from scratch after bands sanity check (#492)
+122b7b17788f82d31148abf74105618906351a7d|2020-04-03|Sebastiaan Huber|Update README.md with compatibility matrix (#496)
+109de199857d8736ba486da3f69c328f4813d2d7|2020-04-01|Sebastiaan Huber|`PwParser`: allow parsing from only the stdout (#488)
+1c8e240b6f5c2f3ca98b4cd0766a0a1ba431ab25|2020-04-01|Sebastiaan Huber|`PwParser`: add `smearing_type` and `smearing` from new XML output (#445)
+7c299a27849dfcd5f65d678dbd98e16e4306f038|2020-03-27|Sebastiaan Huber|`PwBaseWorkChain`: add handler for `ERROR_COMPUTING_CHOLESKY`
+2e047c6519afa35a94efd647748c6c7a77fd3e6f|2020-03-27|Sebastiaan Huber|`PwCalculation`: add exit code `ERROR_COMPUTING_CHOLESKY`
+1047e8eace2133e227cec3b39c81c947f6d6f5ba|2020-03-27|Sebastiaan Huber|`PwBandsWorkChain`: carry updated number of bands between steps (#490)
+ed46d1d6d6772457b7b476020f4b73f8c79ee390|2020-03-26|Sebastiaan Huber|Add custom base `Parser` class that all parsers should use (#486)
+cae67bff5e6c75b522a08334eba7d1b7c8be9e9f|2020-03-26|Sebastiaan Huber|`PwBandsWorkChain`: add link labels to called sub processes (#483)
+ce96f6d494913b5260781c3b3a296a6f6f7f986d|2020-03-26|Sebastiaan Huber|Add default resources to the `CalcJob` base class (#485)
+3bd175baa916b3ce7fbc52d053d85fbc534fc480|2020-03-26|Davide Grassano|Add `Pw2gwCalculation` and `Pw2gwParser` for the pw2gw.x code  (#464)
+d7881646010ea801f15a9ee3471f5e437eb4acce|2020-03-25|Dominik Gresch|Automatically invalidate cache of `CalcJob` exit codes below 400 (#453)
+a5cd3e021ab4e5d55bc55207b155a2f4167e2831|2020-03-24|Sebastiaan Huber|Parsers: merge basic standard output parsers (#478)
+6365f59038e3c515afd09a75eab32202003ee0e5|2020-03-24|Sebastiaan Huber|Homogenize the exit codes for all `CalcJob` implementations (#479)
+6b8a9b9f6f51435c52bd54aa17ede68750fc775a|2020-03-06|Sebastiaan Huber|`PwBandsWorkChain`: make kpoints for bands configurable
+ec24908162fe9c606bd6e491d6253f31e2436957|2020-03-06|Sebastiaan Huber|`seekpath_structure_analysis`: expand parameter input into keywords
+50e063812facbb31bf421cf619f3debbd0093c54|2020-03-06|Sebastiaan Huber|`PwBandsWorkChain`: make `nbands_factor` optional (#474)
+8343ba37624079b3818973a5c355d68fcf1b3a46|2020-03-06|Sebastiaan Huber|`PwBandsWorkChain`: do not define `restart_mode` in bands step (#475)
+1446eddad40af79da03b2d5d6eb29f7ea0ec36f5|2020-03-06|Sebastiaan Huber|Use lambdas for process spec ports that define a node instance as default (#477)
+413cfaab1ff4b476b36d625fcfe00ba02f17278a|2020-03-06|Sebastiaan Huber|`PwParser`: include external pressure in ionic convergence threshold (#470)
+77e4d6ccc54fe9f61fed75c63dd0e18f17e0aede|2020-03-06|Sebastiaan Huber|`PwBandsWorkChain`: only set nscf diag algorithm if not defined (#472)
+4ec4bde75e99b56139306cb56a71040d3411a15e|2020-03-05|Giovanni Pizzi|`PwParser`: check for ionic convergence before BFGS history fail (#467)
+df713d9c33a127068cbee2060882c8322281072c|2020-03-04|Sebastiaan Huber|`PwParser`: use input parameters for ionic convergence thresholds
+3a08d55c75fcf6fb6ac7d0e97e4098942cf53495|2020-03-04|Sebastiaan Huber|Make trajectory validation utils raise instead of return `None`
+4cf5da7ca0c1071226503f9ad12a6b1c96df890c|2020-03-04|Sebastiaan Huber|Add `pytest.ini` with ignore rules for deprecation warnings
+d57cd56031efedbb3568c7ac270ce1e090429a3f|2020-03-04|Sebastiaan Huber|`generate_calc_job_node`: use structure from input file if present
+5dbec676fda7795251aa62e1f1d79bc5b1bab6d2|2020-03-02|Sebastiaan Huber|Release v3.0.0a6 (#465)
+bde9cda7426c2fe21dc679e64735dfe9d9f39291|2020-02-28|Junfeng Qiao|Protocols: add specific `testing` protocol (#463)
+02411ec74ac1595b2f78acac5745bf41ee446b57|2020-02-14|Davide Grassano|`NamelistsCalculation`: separate input generation from `prepare_for_submission` (#458)
+01f44d724725d529d5cdd1823b9382f2cb438fec|2020-02-13|Sebastiaan Huber|`PwParser`: add support for QE v6.5 (#460)
+01ee430a550db789ad9c91a323408f35568e40d5|2020-01-23|Marco Borelli|Acknowledge support from swissuniversities in README.md and docs (#457)
+532d1a6aec1227b5096a6c0540b1498437edc6ac|2020-01-07|Sebastiaan Huber|`PwParser`: add new exit code `ERROR_OUT_OF_WALLTIME_INTERRUPTED` (#451)
+6ef6af176c8f85e43d0e32a5d673a79cb66e824d|2019-11-19|Sebastiaan Huber|Remove CI configuration for Travis
+4252927da8b6663931ea8be7a24009845c16ae26|2019-11-19|Sebastiaan Huber|Enable CI on Github through actions
+588616645d583e227d8e1496e941764683ec9e96|2019-11-19|Sebastiaan Huber|Fix small issues that will fail pre-commit on python 3.7
+ef0654962bf9a8a476a8603be8124019104aebaa|2019-11-16|Dominik Gresch|`PwCalculation`: add exit code for incorrect k-point parallelization (#444)
+c0dd7ae76d9440893bf2f46e9ff09da2e43ac714|2019-11-13|Dominik Gresch|`PwCalculation`: add exit code for negative dexx in hybrid calculations (#430)
+e6e96ef900553e7d06366a7f61a4f1411c96704a|2019-11-13|Dominik Gresch|`PwParser`: check for specific exit codes before generic one (#439)
+4e2f6f6d3c9790abecfa3ce759d585f6c7cec963|2019-11-08|Sebastiaan Huber|Pre-commit: remove `aiida_quantumespresso.calculations` from exclude (#438)
+4aef9f997999a6115a58513d854702e8f1b5f65b|2019-11-03|Sebastiaan Huber|Pre-commit: add hook to check docstrings according to PEP 257
+c0a339e383f8af0ecf11e0acacb14a35955cd1f3|2019-11-03|Sebastiaan Huber|Pre-commit: remove test files from pre-commit exclude
+b79997e89c21dca864833ee5af503228f95adc1f|2019-11-01|Sebastiaan Huber|Upgrade to `aiida-core==1.0.0` and use built-in pytest fixtures
+a0d409267bb89554676312ed90e827c545ee1b9f|2019-11-03|normarivano|CLI: improve the `pw2wannier90` interface (#433)
+ffeecb0502427df840f1f8898da2ad22994d3e74|2019-11-01|Sebastiaan Huber|`PwParser`: parser estimated dynamical RAM total and per process (#432)
+3846ceae77bbbe7b5052aeb4277c1755dded8e09|2019-10-24|Daniele Tomerini|`PwCalculationTools`: fix bug in `get_scf_accuracy` (#426)
+777eeb918305b643f5907b7ce569dd47ca2cc72e|2019-10-24|Sebastiaan Huber|`PhCalculation`: add unit tests and set `withmpi` default to `True` (#429)
+079f7ffaa87fc17bbe87cce3afa8ba3a6c9bb164|2019-10-19|Chris Sewell|`ProjwfcParser`: add default test and `ERROR_PARSING_PROJECTIONS` exit code (#424)
+36fac0601784f813b92cefc6b85771860cad00ca|2019-10-18|Sebastiaan Huber|Implement `PwCalculationTools` tools entry point (#422)
+22d54c868c3c2322a83116476ee369c07bede800|2019-10-18|Daniele Tomerini|`PwParser`: add the SCF accuracies to the `TrajectoryData` (#407)
+07a847480297f5470c04351ccd968c03b0f7382a|2019-10-18|Sebastiaan Huber|Enable checking of log messages in parser unit tests (#420)
+a0be44188ddbecff39f0e13fe043f619e8294d21|2019-10-17|Chris Sewell|`PwParser`: add parsing of Hubbard energy (#417)
+d5fd839957fba5affe993553ad2c494391d65f18|2019-10-17|Sebastiaan Huber|`PwParser`: allow parsing of incomplete XML output with new format (#414)
+6fff0c2d241beadd2f9640d284b99692fd1071e4|2019-10-16|Marco Borelli|Migrate `NebCalculation` and `NebParser` to `aiida-core==1.0.0` (#381)
+cd015faeae5cfcace688dc419451e531a9d17b9a|2019-10-15|Sebastiaan Huber|`PwParser`: fix sorting bug in parser of new XML format (#411)
+274fc4201b15a95e66f9f45b2330593031dd9278|2019-10-15|Sebastiaan Huber|`PwParser`: force integer `number_of_bands` in XML parser (#409)
+60dbc3e47d68e16184a6d4626676ae3702c34819|2019-10-14|Sebastiaan Huber|Soften empty band occupation requirements in `get_highest_occupied_band` (#408)
+875a22ef9b6d27075adea6edc13180a6e0472f0c|2019-10-14|Daniele Tomerini|`PwBaseWorkChain`: restart from previous if convergence not reached (#406)
+89172686a824d0838e0da2c017bf793184aa92ce|2019-09-12|Leopold Talirz|Update encrypted credentials for automatic PyPI deploy (#397)
+935afdbe7f9ff82b53d01901bfa5e45e97828600|2019-08-31|Leopold Talirz|Release v3.0.0a5 (#396)
+f65f3402634162a573f7f5da006e8704553f8128|2019-08-30|Leopold Talirz|Add PyPI deployment to Travis (#394)
+4a57750dba4e09cf4a1c51a391ba9e385c1318ba|2019-08-30|Sebastiaan Huber|`PwParser`: restore definition of k-point labels in `BandsData` output (#393)
+a5d0243ec041d6a63c1e5bb1ea199df528017070|2019-08-30|Sebastiaan Huber|Update dependency requirement `aiida-core==1.0.0b6` (#391)
+99ce63b33237ef0a720c3601735738800e5c2566|2019-08-30|Sebastiaan Huber|Implement support for multidimension tag in pw.x XML input spec (#390)
+b1f44a40575650dd42119463a19e67906a5e499c|2019-08-29|Sebastiaan Huber|Import physical constants from `qe-tools` instead of `aiida-core` (#388)
+6bd59fea71777a3c49ac529548763919beca9322|2019-08-27|Sebastiaan Huber|`MatdynCalculation`: change `parent_folder` to `force_constants` (#387)
+fe5d5045eacbbeeeee8dec5f267bf06f9a81d5ec|2019-08-27|Sebastiaan Huber|Renaming of `ForceconstantsData` to `ForceConstantsData` (#386)
+00f4c3f27dd982761a262c51c760b0394e7b63f4|2019-08-09|Sebastiaan Huber|`PhBaseWorkChain`: update to improved `PhCalculation`
+7b1d5ca5517aa1864012de6da272324acaf62885|2019-08-09|Sebastiaan Huber|`PhCalculation`: define exit codes and use in `PhParser`
+76928ab1ae476a5e7ebfe4b91863270658d2e417|2019-08-26|Sebastiaan Huber|Release v3.0.0a4 (#385)
+39e72e693176318b7bd81472185db3c557ae879d|2019-08-25|Sebastiaan Huber|Update the `Q2rWorkChain` and `MatdynWorkChain` (#380)
+09e8a2c1f10d4a0d994ad2c9dc1f51f56babe558|2019-08-14|Sebastiaan Huber|Fix and simplify the calculation restart builder utility (#378)
+7c9a68736168b087e9e4b6221a9a6cd3802895e7|2019-08-13|Sebastiaan Huber|Add default for structure option in certain CLI launchers (#376)
+eea8bb2ee58bd27dd982cb3b506a762ecc0378fe|2019-08-12|Sebastiaan Huber|Fix the TCOD export plugins for `PwCalculation` and `PhCalculation` (#372)
+fc1a960e5d968d88fcff74fc3323a09f01ff60d4|2019-08-12|Sebastiaan Huber|Restructure the `aiida_quantumespresso.cli`
+5334bc0e239e33e10f83be738f340b86ae64daf3|2019-08-12|Sebastiaan Huber|Add CLI command `aiida-quantumespresso data structure import`
+9d2dd84f1143cda4c0269e802bc555e9f48e3238|2019-08-12|Sebastiaan Huber|Turn `BasePwCpInputGenerator._generate_PWCPinputdata` into classmethod (#370)
+bcb5b7317bc2c494ff7b95b2a53416eab728bba0|2019-08-12|Sebastiaan Huber|Add `qe-tools` dependency (#364)
+6d881a241b4c8ebcb49e776097ae5c400ff78ca9|2019-08-06|Elsa Passaro|Add `use_fractional` to `BasePwCpInputGenerator._generate_PWCPinputdata` (#268)
+dc43ac6a797087013cfe9afb8b21e3a927111cd2|2019-08-05|Chris Sewell|`PwParser`: add support for parsing structures in crystal coordinates (#368)
+bc2bd0a84c1c87444c0f5e5506c3c13ea5853b11|2019-08-05|Chris Sewell|`PwParser`: properly return `ERROR_INVALID_KPOINT_UNITS` (#366)
+5839ec804d60d024348d63288c05c393c6e24676|2019-08-05|Chris Sewell|Fix deprecated key use in pre-commit config (#367)
+a2031e96e2282c329e1acd66c5b4362141e2513a|2019-08-02|Sebastiaan Huber|Pre-commit: remove `aiida_quantumespresso.workflows` from exclude
+e85a50fca5c1a1a731348e44f6e51ce0d479a7ab|2019-08-02|Sebastiaan Huber|`PwBandStructureWorkChain`: fix various minor bugs
+a19c5f0ac928074a30f16d20752dbc1b871b1274|2019-08-02|Daniele Tomerini|Docs: update `PwCalculation` tutorial to `aiida-core==1.0.0` (#359)
+d0a13b2fd34e566398440db7220b23917fd3a086|2019-07-31|Sebastiaan Huber|Fix various bugs
+1fc4d6cf565520f5bdb0271279fa8624461c194d|2019-07-31|Sebastiaan Huber|Remove `aiida_quantumespressp/utils` from pre-commit exlucde
+58f12b04b8fdd33606f853cda3a7974f3fb2592d|2019-07-31|Sebastiaan Huber|Add `double-quote-string-fixer` fixer to `pre-commit` configuration
+e5e1844dd48071f33e11f09608a9fb9de54f8cb6|2019-07-31|Sebastiaan Huber|Add `trailing-whitespace` fixer to `pre-commit` configuration
+b46c2415fb596c7e85443bda25852ebf2a78d279|2019-07-31|Sebastiaan Huber|Update requirements for for `dev` dependencies
+7a267becc71c9858b57c2023826dd98cda53b5ae|2019-07-30|Sebastiaan Huber|`PwCalculation`: only ever create `output_trajectory`
+4fc9e12826ed79ce5fe4c04d79259b8b9a3f82d4|2019-07-16|Sebastiaan Huber|`PwCalculation`: add two new exit codes
+891e8edf5916ecfe55363168c79091acc581a6ad|2019-07-11|Sebastiaan Huber|`PwRelaxWorkChain`: various improvements
+bcc3a7f92f035fd6c0d8f8a44a55e7d54dc4f129|2019-07-16|Sebastiaan Huber|`PwBaseWorkChain`: add error handlers for ionic calculations
+3bccdd8a2025ee05fa3f1670ee253e3061383a49|2019-07-16|Sebastiaan Huber|`BaseRestartWorkChain`: allow handlers to override exit status
+8a3d12f35b99595c7893cac81baa684869a32164|2019-07-10|Sebastiaan Huber|Skip lattice symmetries which fail in new XML
+f3b3b7cb1b07b3aeb0f408600bbbec274b5c498e|2019-07-09|Sebastiaan Huber|`PwParser`: improve the parsing of `relax` and `vc-relax` modes
+be64046d94d18d1821f6843d97221c3cce72dd00|2019-06-26|Chris Sewell|`PwParser`: ensure output structure has same kinds as input structure
+cab1a22d5c47028be35c3c9b16aa9c3f546df908|2019-06-11|Sebastiaan Huber|`PwBaseWorkChain`: reworking and improving error handling
+5441467572ac7b43569d6242130661b631d91eb4|2019-06-12|Sebastiaan Huber|Add triggered error handlers as extra to the process node
+1a1e8a9613fecae128c07b736004faedc6df4137|2019-06-07|Sebastiaan Huber|Start improving the error messaging of `PwParser`
+46df668fb2f1ab54a53a0ebb0e9b5dd586d8c893|2019-06-03|Sebastiaan Huber|`PwParser`: refactor the handling of error messages
+96bef279f98c9d23ad8a07e28420980866856126|2019-05-31|Sebastiaan Huber|Move raw parsers to sub module `aiida_quantumespresso.parsers.parse_raw`
+c3e50928c9489e3ad37e7e3be5935582b4c67ae2|2019-05-31|Sebastiaan Huber|Parsers `PwCalculation`: refactor raw parser interfaces
+4cdb8aeea613b845db8b4d21991c80af95d18f8d|2019-05-31|Sebastiaan Huber|Move legacy XML parser for `pw.x` to separate file
+a277b1ed3002716409294d166062f9d34757ca08|2019-05-31|Sebastiaan Huber|Add a test for the `PwParser` for a `relax` calculation
+4a9213451ab64b0ce94d2b4964a4c197dc501a96|2019-05-31|Sebastiaan Huber|Simplify the error parsing in raw pw.x parser
+07a1f3474425c99fa98f8eb2e7bcd3896b5798ac|2019-07-26|Giovanni Pizzi|Extend functionality of CLI to NSCF and more (#357)
+03fc01b3f487eeea5f4a7cc8d05ac48405bc4efc|2019-07-19|Sebastiaan Huber|Add profile option to the command line interface (#355)
+7cf7afdf26daedb5a72bf5dfb2be192ed2d61786|2019-06-24|Sebastiaan Huber|Update requirements on `aiida-core` and `xmlschema` dependencies (#346)
+615d699c6bb5de5578e96fe223f567e6d6f6f8d4|2019-06-19|Sebastiaan Huber|Leverage `expose_inputs` on `PwCalculation` in `PwBaseWorkChain` (#342)
+e3721a85f30c1c15f8367d9b9b4ffb8624d1923a|2019-06-14|Sebastiaan Huber|`BaseRestartWorkChain`: abort due exceeded iterations in right place (#339)
+5d807ed400a962dfeff21b4627a879257c36f038|2019-06-13|Sebastiaan Huber|Improve CLI process results display utility (#333)
+e4c4a0edd79174da13ac722b151c5c27727fff20|2019-06-13|Sebastiaan Huber|`BaseRestartWorkChain`: check for existence of `_error_handlers` (#331)
+925fef2d5bab568ffd26532ed325b58d154d34af|2019-06-13|Chris Sewell|Function to create `PwCalculation` builder from existing input file (#334)
+ad8d4238322e8882a74e006f491206b15e5a6934|2019-06-11|Chris Sewell|Fix parsing of cell volume in parsing of `pw.x` output (#329)
+02712c7a61fc41a5d1baa50431a3297da0580634|2019-06-07|Sebastiaan Huber|`BaseRestartWorkChain`: improve and adapt to `aiida-core==1.0.0` (#325)
+70d97b1cf40e3a6a4d9fe8bf0fccba09a3d4d102|2019-06-07|Sebastiaan Huber|`PwBaseWorkChain`: document spec and fix automatic parallelization (#326)
+95748bf827305666d937d97c32c94e30a813fd5c|2019-06-06|Kristjan Eimre|`ProjwfcParser`: add support for Quantum ESPRESSO > 6.3 (#319)
+4ee168f0efe38efbdf298b012788b199e961b7e4|2019-06-06|Sebastiaan Huber|Remove the outdated `examples` module (#322)
+c452fa5fd4deaa001acf48cb0cb348cb01dad04f|2019-06-06|Sebastiaan Huber|Replace custom entry point utils for `aiida-core` built ins (#321)
+294da2c30e00b4a5ceb23dd0ddddfe3d8ca71cf8|2019-05-24|Marco Borelli|Move `fastentrypoints.py` to `utils/` and add it to `MANIFEST.in` (#318)
+b02250146576eb573ccb45d05047075f54853f9d|2019-05-16|Sebastiaan Huber|Release v3.0.0a3 (#314)
+9eade0af19376b9e277a11a2b764b560a106d206|2019-05-16|Marco Borelli|Remove workaround for protocol validation in `PwBandStructureWorkChain` (#315)
+27973fc11eb3f960e550efffcc1f40f248260473|2019-05-16|Sebastiaan Huber|Update dependency requirement to `aiida-core>=1.0.0b3` (#316)
+e6e5d9b2584f871c678be627fef2f8102c62aac7|2019-05-14|Sebastiaan Huber|Abstract and deduplicate process launch code in CLI scripts (#310)
+3c3b0617409247b1c44dff6ac61d586598f94885|2019-05-10|Sebastiaan Huber|Finalize migration of `PpCalculation` and add launcher
+6876973b152ab2545d5742dac3f861e1a8815dd7|2019-05-08|Oscar David Arbeláez|Migrate the PP calculation to be compatible with 1.0
+84819849708b7085805544f192ea3b74e7a21615|2019-05-13|Marco Borelli|Add unit test for `DosParser` (#305)
+d17b46785b28cdbd862a4af07034721460d03328|2019-05-13|Sebastiaan Huber|Implement pytest fixtures to efficiently test `CalcJob` classes (#302)
+d94330571040c70291301249b8a8cac5a755b230|2019-05-10|Marco Borelli|Parser tests: move input files into 'input' folder.
+548fb12ff518617eab1ffdb8a68f6b8d3b6a2ab2|2019-04-26|Marco Borelli|Migrate ProjwfcCalculation, ProjwfcParser; add CLI launcher for projwfc.
+b26bea3a18f305e60dd42b2639dc4c1d765cfe36|2019-05-10|Sebastiaan Huber|Remove the `BasicPwParser` and the corresponding raw parsers (#298)
+1a06f4e85154c08545e32a8bb96cba2268023621|2019-05-10|Sebastiaan Huber|Update dependency requirement `aiida-core==1.0.0b2` (#295)
+4530bbc82821f02ece6ed759fd95c53c4f4f5626|2019-05-10|Marco Borelli|Fix bug `NamelistCalculation._get_following_text` and clean-up (#293)
+9ed6106e9697417b1903a56adfc91b4fd14675a2|2019-05-09|Sebastiaan Huber|Create a single CLI script `aiida-quantumespresso` (#291)
+26428a51622e7573c9a129baf190237b89348161|2019-05-09|Sebastiaan Huber|Migrate `MatdynCalculation` and `MatdynParser` to `aiida-core==1.0.0` (#288)
+8b8a89607b06e8b269d938ad58009268bd4ec7fe|2019-05-09|Sebastiaan Huber|Migrate `Q2rCalculation` and `Q2rParser` to `aiida-core==1.0.0` (#287)
+218b04c66c728fd52c49c458e54ed14d44474a74|2019-05-09|Sebastiaan Huber|Migrate `PhCalculation` and `PhParser` to `aiida-core==1.0.0` (#286)
+486a9776f97dadac92f1973423a3ab95dde996dc|2019-05-08|Marco Borelli|Bump version to `v3.0.0a2` (#285)
+04dcc7bc20f2205d197a2f28b249954c4c01cd4a|2019-05-08|Sebastiaan Huber|Merge pull request #284 from aiidateam/migrate_aiida1.0
+a1fc1df7d124a805000220bec96fc967d7b579f0|2019-05-08|Marco Borelli|Migrate `Pw2Wannier90Calculation` and `Pw2Wannier90Parser`
+b79367c72d344842fa579e75505c3878d07ea8d7|2019-05-08|Marco Borelli|Clean up `NamelistsCalculation` and `DosCalculation`
+f5a6b838fd003a695682b028f5a985b159b1f63f|2019-05-08|Sebastiaan Huber|Parser `CalcJobNode` fixture: add inputs before storing node
+4945253f879224d0679b289baa3d6803663c06be|2019-05-08|Oscar David Arbeláez|Remove unnecesary lines on cp test configuration
+3c63b93700679a6e9206ebf6747fb40f18683495|2019-05-08|Oscar David Arbeláez|Move test specific configuration out of conftest file
+b0f4c002be8c6832fd8448d9a052fbb0b465a937|2019-05-07|Oscar Arbeláez|Use plain list instead of numpy array for symbols
+4e67ff4db23530e7c9e276c62ecec24ce70c95cd|2019-04-29|Oscar David Arbeláez|Migrate `CpCalculation` and `CpParser`
+00b2dec4ec9a83ab39ea99cca22a9a068bf9645f|2019-05-07|Oscar David Arbeláez E|Use `pytest-regressions` for parser testing (#278)
+3d68cc891fe6ec6adede4b2167c77da2bf39134c|2019-05-07|Marco Borelli|`NamelistsCalculation`: make inputs 'parameters' and 'settings' optional (#277)
+7e79a7bd80f22d26f1d83a74e65d3eb2f5f99021|2019-05-06|Marco Borelli|Add SSSP 1.1 to PW protocol (#275)
+2f54943ad16ecd2e5be629c8a3b588e2ea77a03c|2019-05-03|Marco Borelli|Improvements for `PwBandStructureWorkChain` process spec (#274)
+062d96c52a7a154966e5278e974488b96a72860a|2019-05-01|Marco Borelli|Update `PwBandStructureWorkChain` to the latest aiida-core. (#272)
+8fb1a75c9df4b175197db5259f41e97ff47bfeea|2019-04-26|normarivano|Some small but crucial fixes to PW
+e5e1a4b47e7d19c59af8174157d7eb65a3b9292d|2019-04-24|Marco Borelli|Migrate NamelistsCalculation, DosCalculation, DosParser; create dos launcher script. (#263)
+75a6828198c03047a369ef89ff0c12b49f4accbd|2019-04-16|Marco Borelli|apply python-modernize (conservatively) [5]
+efce40035e11ce901c0c29b5cba8c2b28fb09710|2019-04-16|Marco Borelli|apply python-modernize (conservatively) [4]
+39350d3a97477286b24114de31b9ab2c392d1d29|2019-04-16|Marco Borelli|apply python-modernize (conservatively) [3]
+acd2ecc073eda5a8cfa8cc324171b5dd36566702|2019-04-16|Marco Borelli|apply python-modernize (conservatively) [2]
+d72a58fe450d06136cd1f9e99b84173e880f9094|2019-04-16|Marco Borelli|apply python-modernize (conservatively) [1]
+4fe62db6e22874ddb2a1a7883341dcef43f7abe7|2019-04-16|Marco Borelli|Fix pw example
+069b9c7915fe574aaf9dd28653da95e32d53e498|2019-04-16|Marco Borelli|Fix: don't modify dict while iterating over its keys.
+0a085b5e22f810aa51256a58391055223d6329eb|2019-04-15|Marco Borelli|Apply aiida-plugin-migrator to the repo
+ef0dd4493782e90dab1911ad345f7ef68f0d8500|2019-04-12|Sebastiaan Huber|Put new `pytest` based parser testing infrastructure in place (#261)
+310367df0e019658841c2879cdf98e9185d2352f|2019-04-10|Sebastiaan Huber|Remove hard coding of available XML parser schemas
+16f88ceee113ab4cc0ef2e9a8d03da06e6503361|2019-02-14|Marco Borelli|Docs: add tentative policy for QE version support.
+5dfce69a5c24d7023b5d7c82e6bc74f4750bce54|2018-11-01|Marco Borelli|Update `xmlschema` to 1.0.6 and improve XML parsing
+660b86a2745faf0fa7de64a14fa1e4804bc29403|2018-07-18|Sebastiaan Huber|Implement parsing of XML files from the new XSD schema files
+40d8d0c4e8815d87e14b01089710eb0c0deb4239|2019-04-09|Sebastiaan Huber|Replace removed `.inp` and `.out` methods
+84930701ebbbfcaf51a4aa84f11e7c452bfded5b|2019-04-02|Sebastiaan Huber|Get the pw.x based workchains up and running
+ed83c8f66284d601d0c4f7c0393da2f2cb85198d|2019-03-29|Sebastiaan Huber|Bare essentials to make `PwCalculation` run in py2 and py3 (#235)
+566e94dd9979efce825c38ee80fada5d15b0383b|2019-03-29|mikibonacci|fixing symlink problem in pw plugin (#234)
+abcb7f2cb99378afae14e1f565db40310214236f|2019-03-27|Sebastiaan Huber|Make code python 2 and python 3 compatible (#233)
+0780a502fb0f3886adfbfa3f421cff848a056b9e|2019-03-27|Sebastiaan Huber|Fix `PwCalculation` and `PwParser` to changes in `aiida-core==1.0.0` (#231)
+9230c19e5ac36fffdcb6c956a3bef5b2d19f349a|2019-03-24|Sebastiaan Huber|Remove `aiida_quantumespresso/cli` from pre-commit exclusion list
+e71f250a5b85f9654bd846f138d02ea2230eb742|2019-03-24|Sebastiaan Huber|Remove `aiida_quantumespresso/data` from pre-commit exclusion list
+1e531dd43bf4e5229364a3a78daf3ec4088564e2|2019-03-24|Sebastiaan Huber|Remove `.ci` and `setup.py` from pre-commit exclusion list
+ec08fd8ed1b100d8bbf3a4b950de7154cffc731a|2019-03-24|Sebastiaan Huber|Add pre-commit linters and formatters
+41b3e2bf1325c07dfcc57868b689707a868600e0|2019-03-22|Sebastiaan Huber|Adapt code to `aiida-core==1.0.0b`
+a5678760c4ae703dd91289a355eee17ad1b7353f|2019-03-22|Sebastiaan Huber|Replace the deprecated `_input_subfolder` with literal constant
+211612c0672e72ac807ba8d543cd4dca9320ca5c|2019-03-12|Sebastiaan Huber|Migrate `PwCalculation` to the new `CalcJob` interface
+77314634d6e7341f386dddc2374f096eb76d2b97|2019-01-10|Sebastiaan Huber|Turn `workfunctions` into `calcfunctions`
+b5d6736e1ba4df12adc8754f10643fc9140edfb7|2019-01-10|Sebastiaan Huber|Remove custom cli tools in favor of those of `aiida-core`
+8c68576c83f9d243b90f8f70529fbabd4b1eb63e|2018-12-19|Sebastiaan Huber|Adapt plugin to changes in provenance redesign of `aiida-core`
+79007b44b229170e9c12c4c679aa03e46e5499c6|2018-12-03|Marco Borelli|PwRelaxWorkChain: make `output_structure` a required output. (#219)
+28015622ad39d20a8a214df4426ff2d75e919d51|2018-12-03|Marco Borelli|BaseRestartWorkChain: fix error handlers not being loaded during instance load. (#218)
+96b2f0e3ac406c3934ac21569f28a8a8e9e1f018|2018-11-29|Sebastiaan Huber|PwBandsWorkChain: ensure inputs cards in parameters node exist (#212)
+0184bb2dd6c7968171c69fbecc5b0da2bdb2c061|2018-11-20|Marco Borelli|In md/relax, if only one cell is printed in the text output, replicate it as necessary (#208)
+1a3d01c47850f489ee48abee780d7adb986eeb07|2018-10-18|Sebastiaan Huber|Define correct matplotlib version for python 2.7 (#206)
+61aa309eee65e9cfe4257e6615ad2a626ddca16b|2018-10-17|Sebastiaan Huber|Improve kpoint mesh selection algorithm in `create_kpoints_from_distance` (#203)
+d85b423b883c7bfa1e3115963ea812824e0a6f33|2018-10-17|Sebastiaan Huber|Update plugin to work with `aiida-core==1.0.0a3` (#205)
+fbac0993bb8b6cdeba85717453debcf0ab062b5a|2018-08-24|Sebastiaan Huber|Check that PwBaseWorkChain has output_structure in PwRelaxWorkChain (#194)
+0f9951c6a633f271237a58aa53eaeac3d4d91b11|2018-08-24|Sebastiaan Huber|Do not set restart_calc when error handler sets is_handled to True (#193)
+6afbc1b499d90f25db238f46e5766ce24faee1d4|2018-08-24|Sebastiaan Huber|Ensure a handler_report was defined before returning its exit code (#192)
+f7a03009104b0ffb72b64c774b69834afaff1aab|2018-07-13|Giovanni Pizzi|Improvements to the band structure workflows (#187)
+79e5704c2a470e888c7007d52886afd3370a5e27|2018-07-13|Antimo Marrazzo|Merge pull request #186 from AntimoMarrazzo/fix_185_copy-clone
+b1e074f31cc604b43c7803344cf2cee45503c6df|2018-07-13|Giovanni Pizzi|Depending on aiida-core 1.0.0a2
+08aab0df10ed1d59cd023d5f1ea8945176c345fc|2018-07-10|AntimoMarrazzo|Replacing .copy() for calculations
+3af7750b34cc04d5374071f1cc5d337464f424b2|2018-07-10|AntimoMarrazzo|Fixing .copy with .clone
+a6647ef9212a303ab1f5ff0f5e134baecaa0d84a|2018-07-05|Sebastiaan Huber|Exclude `clean_workdir` in expose inputs of wrapping workchains (#184)
+f7489e02e700581b8283d3ff13213b700f4ffc8b|2018-06-27|Sebastiaan Huber|Merge release v2.1.0 into develop
+c8e25394767060f5f783f6cb220ef4d611d3db92|2018-06-27|Sebastiaan Huber|Fix the parser tests to pass retrieve_temporary_folder correctly
+b3ee5c6c4d193401b250b2757bf670b5d0725211|2018-06-27|Sebastiaan Huber|Merge release v2.1.0 into develop
+b7a4c3ab12e0c3b853b4b59575fa414cd2949d9a|2018-06-27|Sebastiaan Huber|Merge release_v3.0.0 into develop
+25935fc49d9054d6d051de9270854e77fb64a158|2018-06-27|Sebastiaan Huber|Update README.md with information about aiida-core version support
+d6cddc5fe36cbbc7a36618afce838fb0f409d624|2018-06-27|Sebastiaan Huber|Merge remote-tracking branch 'origin/develop' into release_v3.0.0
+f45ae51ab6f0c7236237ffd993d81c87bbb36e05|2018-06-27|Sebastiaan Huber|Release v2.1.0
+f2616843d55763d577b3f7a2ce6a89e673dccca6|2018-06-27|Sebastiaan Huber|Update the CHANGELOG.md (#178)
+3fca469946de12ecb809da9e461e88d83adbdf0e|2018-06-27|Sebastiaan Huber|Implement the new exit code functionality in the workchains (#177)
+39baac4d2e2c22acd62fcf1b468e8e6aa3a27ccf|2018-06-26|Sebastiaan Huber|Change missed `finish_status` property to `exit_status` (#176)
+8a6c154315c42bde0fbe05b762ee75cdbc0a4b1e|2018-06-26|Sebastiaan Huber|Update parser version to v2.1.0 and add parser note to docs (#175)
+8e3f66439395a8dce2c88efdd00d8ab4896aaf36|2018-06-25|Sebastiaan Huber|Fix bug in the mapping of raw symmetries in PwParser (#171)
+4f076ab9997070fa447d38eb0e470d696eecd100|2018-06-25|Sebastiaan Huber|Implement the new expose port functionality in workchains
+f077081b2756004220b8e3b72d12dd96bd7ef6d3|2018-06-24|Sebastiaan Huber|Reinstate the parser tests (#170)
+27e41fa5241b0ab6f89d84bb61b3b45babc1f5fa|2018-06-22|Sebastiaan Huber|Add support for the ATOMIC_FORCES card through settings input node (#168)
+3a3fe5213cd6ccf1699635bc3c1d1d9e29695f27|2018-06-19|zhubonan|ProjwfcParser: fixed a bug when parsing pdos files (#165)
+4a4e949a921f320a204398f4a2c3629c34e24168|2018-06-13|Giovanni Pizzi|Merge pull request #161 from aiidateam/fix_160_setup_requirements_aiida_core_optional
+658acb133cdf2afb6780039d67700d5b6480a5eb|2018-06-13|Sebastiaan Huber|Fix the requirements string for aiida-core and atomic_tools optional
+c119e000f308226c7a97650f918176ba36661b35|2018-06-13|Sebastiaan Huber|Fix missing parameter in format call PwBaseWorkChain error handler (#158)
+5f534d10d8400ef2a559454236866372e08ceb02|2018-06-13|Giovanni Pizzi|Merge pull request #156 from aiidateam/fix_155_pw_support_hubbard_v
+6507ff0831ef7928134e375e4c90fe73e0a4789e|2018-06-13|Sebastiaan Huber|Move tests and data outside main aiida_quantumespresso module (#154)
+7ecbd4a7cc75d224b46495fa183e2fa7a6469370|2018-06-08|Sebastiaan Huber|Add support for Hubbard V extension to PwCalculation
+19d3814eb557f79944e7e3c977c67cbc7fb08391|2018-05-24|Giovanni Pizzi|Update README to mention aiida-core compatibility
+0bee45725f0ef57890cc3c23214b7eefb31320d1|2018-06-07|Sebastiaan Huber|Implement support for input flags that are multidimensional array (#150)
+e927e17a17a0b4758f8da8fa13287a2b66f3eb11|2018-06-06|Sebastiaan Huber|Fix update aiida core requirement to v1.0.0a1 (#151)
+54a16de27b9bd5fc8e2848c65f5a208f65c6a4da|2018-06-06|Sebastiaan Huber|Set upper bound for aiida-core requirement to <v1.0.0 (#152)
+ba08f5e39c2bd9f067e0b94c0cae488f9fac2d23|2018-05-24|Sebastiaan Huber|Merge pull request #148 from aiidateam/giovannipizzi-patch-1
+3d4241616e07283abd007a7eba50014e5a0fd6c0|2018-05-24|Giovanni Pizzi|Update README to mention aiida-core compatibility
+084d547c369f963f80b1f8a95615048cc45a82c9|2018-05-24|Giovanni Pizzi|Update README.md with version information
+ca5e33a5da756af8fca5bb3b58ce31900a69ee7a|2018-05-24|Giovanni Pizzi|Merge pull request #147 from aiidateam/aiida_tutorial_05_2018
+4d8fdc7b174febaf62ea2219c5ea5392765bb2a4|2018-05-23|Giovanni Pizzi|Merge branch 'release_v3.0.0' into aiida_tutorial_05_2018
+6a03071b26c382c005a99f1977942a870dc9f83f|2018-05-23|Giovanni Pizzi|Upping version number to be in the 3.0.0 series (that will support AiiDA 1.0)
+4e316eff60f1b5f93fd4b15cda556c3e5f720631|2018-05-23|Giovanni Pizzi|Merge pull request #145 from aiidateam/workflows
+3b3dd8b2ec44aab001682b1811e029697fe0305c|2018-05-23|Giovanni Pizzi|Merge pull request #144 from aiidateam/merge_develop_into_workflows
+8de3c75de08fa918745ed5e8dbf9cb8bb26013be|2018-05-22|Sebastiaan Huber|Merge pull request #143 from aiidateam/fix_142_get_outputs_node_type
+61b80491f66b0aa8b3bf86b65ca1718314a7c5b5|2018-05-22|Sebastiaan Huber|Adapt usage of get_outputs to function signature change
+7399530dd5b9465dd24193188e83086fc3324a5a|2018-05-17|Sebastiaan Huber|Merge pull request #140 from aiidateam/merge_release_into_develop
+50fa8540615420b060d294ac40ebb564c5919bf1|2018-05-17|Giovanni Pizzi|Merge pull request #139 from aiidateam/release_v2.0.1
+ac4b5d887490e8d968a4026f08fb83541e926aa5|2018-05-17|Giovanni Pizzi|Updating the ChangeLog
+e7d87bb1ab25c9a566eef1c8391b8249c6799e21|2018-05-17|Giovanni Pizzi|Merge branch 'develop' of github.com:aiidateam/aiida-quantumespresso into release_v2.0.1
+8314baa18a789d6a9e8204896ac6d6f4af961083|2018-05-17|Sebastiaan Huber|Merge pull request #138 from yakutovicha/develop
+5e2b1d1502cd9323477860cfbf6435d08c8dcc2a|2018-05-17|Aliaksandr Yakutovich|Fix get_dblogger_extra import
+85ab4a4b207cd1782986ba27247f8a8b5b364b5c|2018-05-17|Giovanni Pizzi|Upping version number to 2.0.1
+3347164fffa5b562b0561c5f9bd1c82f6c45324e|2018-05-17|Sebastiaan Huber|Merge pull request #137 from aiidateam/merge_2.0.0_develop
+fa656aa40726c688416446aec0057d47b3797d20|2018-05-17|Giovanni Pizzi|Merge branch 'develop' of github.com:aiidateam/aiida-quantumespresso into merge_2.0.0_develop
+f69efecc9db8edf81068f5bcb1d915abcfe77611|2018-05-17|Giovanni Pizzi|Merge branch 'workflows' into aiida_tutorial_05_2018
+5d6eda61d8173ce337cbb330ab0abc727b137709|2018-05-15|Giovanni Pizzi|Added the NEB restarter (not tested yet, mirrors the pw/cp one)
+6db5bbe2182ffe2ad20ca09248ac48ae39c57bfc|2018-05-14|Giovanni Pizzi|The check was done too late and it was therefore always complaining
+30746ba83c6a87f8689ba7bb2eabb5580455946d|2018-05-14|Giovanni Pizzi|Better validation in the function validate_and_prepare_pseudos_inputs.
+a997a0c458950fa740b23acd4b3c3697d56bd12f|2018-05-14|Giovanni Pizzi|Also set options
+a2f626f98419ba4d4d74461205caa3778a6ee666|2018-05-14|Giovanni Pizzi|Fixing type to node_type in get_inputs/get_outputs
+d286064c98282491f700af0271136597bdded7c0|2018-05-14|Giovanni Pizzi|Adding also implementation of pw/cp create_restart, and some cleanup of the ph code.
+93d50a144ffab4339a55db0b6a78f0b1d26d2117|2018-05-12|Sebastiaan Huber|Add the Hubbard U, ecutwfc and ecutrho options to launch_calculation_pw
+01b550ec9450c8797523dd768ed9e7b57cddee58|2018-05-12|Sebastiaan Huber|Add overridable cli options for Hubbard U, ecutwfc and ecutrho
+93ff54fe69d301b4b00c1ccf452b203a37c59da2|2018-05-09|Sebastiaan Huber|Add the input helper xml files for v6.0, v.6.1 and v6.2
+a18a4fb2a74e0fbadfac76c0b6bdbbb36557b675|2018-05-09|Sebastiaan Huber|Merge pull request #135 from aiidateam/fix_134_add_new_input_helper_xmls
+d155a4c80269bf4547885d54dd83118344bde6c8|2018-05-09|Sebastiaan Huber|PwParser: parse the standard output even if xml file is missing
+c0048c7c4d7418c45edbe8a0f65b89b6611ce65e|2018-05-09|Sebastiaan Huber|Add the input helper xml files for v6.0, v.6.1 and v6.2
+88aeb453b0d2abe69f8a530ce943c2e15a43518d|2018-05-09|Sebastiaan Huber|Merge pull request #133 from aiidateam/fix_132_pw_parser_no_xml_file
+b4b78f2a4676ce54f31ee83d62a3874fdf5cfc93|2018-05-09|Giovanni Pizzi|Working on #136 - should have implemented for PH, not tested yet
+f26cbd836c3ef297cfbb2e79bee016a9cbc0f700|2018-05-09|Sebastiaan Huber|PwParser: parse the standard output even if xml file is missing
+1dad61af95599950393b282466188be359f726cd|2018-05-09|Sebastiaan Huber|Merge pull request #130 from aiidateam/acknowledgements
+07a8bc08ab089dd52183cf2dee0bd973e12523de|2018-05-09|Giovanni Pizzi|Merge branch 'develop' into acknowledgements
+21aabe12f195a08b4ec30e04c7caad26a7ce2fcf|2018-05-09|Giovanni Pizzi|Adding acknowledgements to projects.
+2ba150f9f4a04be6ced8ec57b472b0c724c850c1|2018-05-07|Sebastiaan Huber|Merge remote-tracking branch 'origin/develop' into workflows
+e9d03accec095e4b3a0d9b8cc35b8fbd11753a1e|2018-05-07|Sebastiaan Huber|Merge pull request #127 from aiidateam/fix_126_error_handlers_base_restart_workchain
+aed76a3061e15affa060f2490dd48629a6503198|2018-05-07|Sebastiaan Huber|Remove the `_error_handlers` list attribute from BaseRestartWorkChain
+33bff8a511c39a304c7c25aa66216a44eb4f969f|2018-05-07|Giovanni Pizzi|Merge pull request #129 from aiidateam/fix_128_aiida_core_requirement
+1688ad4629cb77903991627caebbb963e80a0eeb|2018-05-07|Sebastiaan Huber|Update postgres for Travis build to v9.5
+0c210940385cea960134e3e591d6771eff5d1852|2018-05-07|Sebastiaan Huber|Update requirement of aiida-core to v0.12.0
+d945a432efc2bfc5b8d45fbb8f52bb1d4531098e|2018-05-07|Sebastiaan Huber|Merge pull request #123 from borellim/patch-1
+e96904f4198140f75d8ab232da6c495e30482f89|2018-04-26|Marco Borelli|PW parser: fix mismatched argument name
+3595356894bb73f08b09fcdaec218e402b3c2965|2018-04-25|Giovanni Pizzi|Merge pull request #122 from eimrek/develop
+34b7b96b56ca0b20222ac0d618beb2dd4d0a01cb|2018-04-22|eimrek|fix namelists.py cmdline args ignored
+c177026651393a97db1f07281699e0978cf785fb|2018-04-03|Sebastiaan Huber|Merge pull request #120 from aiidateam/release_v2.0.0
+02bf71ab51334129c67842573694d0467e05bcbf|2018-04-03|Sebastiaan Huber|Update the requirement to aiida-core>=0.11.4
+01b80ce0f8a0577a0906f27b15695d283cede23d|2018-04-03|Sebastiaan Huber|Update the CHANGELOG.md
+81c1b157fe6f38267e9eb7c256155d01136189f5|2018-02-03|Sebastiaan Huber|Up version to 2.0.0 and add a CHANGELOG.md
+4cbc59a8eaebd34937c1cc0f675066667b9171c9|2018-01-31|Sebastiaan Huber|Run pre commit hook for setup.json
+ab812b852b455b8dcbe4a2a819aeba4f8e748f30|2018-01-31|Sebastiaan Huber|Add exit handler for pre commit line in travis test script
+3fe8b82b62f88d671f08632a67dcd366a3ee4586|2018-01-31|Sebastiaan Huber|Update requirement aiida-core to 0.11.0
+b16c1a38c9c0ba5f1c60f49171d9209b16d8fc65|2018-03-29|nmounet|Merge pull request #119 from aiidateam/fix_pw_relax_unwrap_node
+1623849fb66388e1b6bd7a43fcd8d95517367968|2018-03-29|Sebastiaan Huber|PwRelaxWorkChain: fix small bug with Node not being unwrapped
+ccb8fcf57c6975c274a67cef31ee9531efc833d4|2018-03-28|Sebastiaan Huber|PwRelaxWorkChain: fix small bug with Node not being unwrapped
+8fc9664dc69cec2030d593cd017c05884a1c5da4|2018-03-24|Sebastiaan Huber|Replace deprecated `abort_nowait` with returning of exit status
+028c4f8530776c543185981fb59e0645a653ef58|2018-03-23|Sebastiaan Huber|Use the ProcessSpec in prepare_process_inputs
+cc0ffe027fd1372d98caf97bea202350eb98e58b|2018-03-23|Sebastiaan Huber|Merge pull request #118 from aiidateam/fix_117_workchain_deepcopy_removal
+099215d77e22acfd6056e44d92f505e728b39317|2018-03-23|Sebastiaan Huber|Merge remote-tracking branch 'origin/fix_117_workchain_deepcopy_removal' into workflows
+f8b08ecda8db3eba4934bbcdcd36719d24f723b4|2018-03-23|Sebastiaan Huber|Do not use deepcopy on inputs dictionaries in workchains
+7791093f232933797e21a034003b4003165161eb|2018-03-23|Sebastiaan Huber|Add the `daemon` option to all cli launch scripts
+2022f5785078a2fc4bda15242c05bfa480e484ee|2018-03-23|Sebastiaan Huber|Add `daemon` as default overridable click option
+80256f28cd69583ef423284a8f03ea1ed20820b9|2018-03-22|Sebastiaan Huber|Adapt the PwImmigrant to the changes in execmanager of aiida-core
+764558436529ee4d9fc0b6561f79a6b2bb553664|2018-03-22|Sebastiaan Huber|Fix PwCalculation launch script when submitting to daemon
+fd4774965c6f9b3625fd7f15dfb40567a7c399e3|2018-03-21|Sebastiaan Huber|Default cif parser changed to pymatgen, add symmetry to suppress warnings
+2f833f03cebea86b4a544afbc27b682d0320cc45|2018-03-21|Sebastiaan Huber|Fix TcodExporter tests after changes in aiida-core
+79a3be3d8327dd5778190c7c83643b79ae11ccf3|2018-03-14|nmounet|Merge pull request #113 from aiidateam/fix_112_error_handlers
+59fea11e21c38dc27d26d8c7ad7a557327b199bb|2018-03-01|Sebastiaan Huber|Properly set do_break=True for ErrorHandlerReport when applicable
+a79e30a46045dfc0326da09a304a610d899e47cf|2018-02-28|Sebastiaan Huber|Merge branch 'develop' into workflows
+6094ae4dbd04be7ecbe56cb6eafd6f57993a6971|2018-02-28|Sebastiaan Huber|Merge pull request #104 from aiidateam/fix_083_pwbandsworkchain_seekpath_wrapper
+cb0c100dd4dce2a38973f26389f5fb07915aa426|2018-02-28|Sebastiaan Huber|Rename the 'kpoints_mesh' input to 'kpoints' for PwBandsWorkChain
+7c4041d49946fa34f71064690fa232a25990456d|2018-02-28|nmounet|Merge branch 'develop' into fix_083_pwbandsworkchain_seekpath_wrapper
+690eec5e770c8f53dd4c8a827ed67c7c87b5bb70|2018-02-28|nmounet|Merge pull request #111 from aiidateam/fix_103_tcod_exporter
+64f87a25afafaf79eaf7c0cccc655233df2243de|2018-02-28|Sebastiaan Huber|Up the aiida-core requirement and use its atomic_tools optional
+da3a9aece3df272c5b0d914d0ccefdc2d616a376|2018-02-28|Sebastiaan Huber|Fix TcodExporter tests after aiida-core updated PyCifRw to 4.2.1
+34f606773cbbc8b1e33f337f6d56bb899fb48c97|2018-02-28|Sebastiaan Huber|Remove 'retrieved' node from default workchain outputs if not necessary
+7b6fd29838ddf636624ef6d3c178e9939d7bafb2|2018-02-28|Sebastiaan Huber|Define WorkChain defaults outside the constructor
+38f4d2f7ef93b3aaa3130dd59d8bf9cd99f7ffb2|2018-02-28|Sebastiaan Huber|Use the 'entry_point' callback kwargs for the code and calculation options
+9cdc41717c2517e7e76c69e2b1a82c3ef1e8f07e|2018-02-28|Sebastiaan Huber|Remove remaining '_options' input keys for 'options'
+f152e1ce14b2fa82eccf175df9a954f125ead205|2018-02-28|Sebastiaan Huber|Correctly implement clean workdir functionality for all workchains
+ecdc036160f692ee303d27990d7816508ddd9185|2018-02-28|Sebastiaan Huber|Update the state changing callback on_destroy to on_terminated
+7c866f5b0900911ce8ffdac91e9e8afa2104bf66|2018-02-28|Sebastiaan Huber|Majority of click based utilities have been added to aiida-core
+bbb8ba25013a7fe6d53168166cc5ad14539ad1ee|2018-02-28|Sebastiaan Huber|Adapt process state properties to changes in aiida-core
+5eac84746a4fa3c142cd6fe6cc45c814713f1449|2018-02-28|Sebastiaan Huber|Update the PwParser to treat retrieved_temporary_folder as path
+5246ebad697e0a51dc4069f6ce1ab310ad284467|2018-02-25|Sebastiaan Huber|PwBandsWorkChain: add kpoints_distance_bands and kpoints_mesh
+28bc7235e646302b1e4dd63704835e9a53fed541|2018-01-31|Sebastiaan Huber|PwBandsWorkChain: use primitive structure for kpoints mesh generation
+253cb59318ac140db9f08edae4389dafca3c7c42|2018-01-31|Sebastiaan Huber|PwBandsWorkChain: adapt seekpath workfunction to use new AiiDA wrappers
+0e1ede0f45d6bd8dccd1c11c50a4ab69e93a73ee|2018-01-31|Sebastiaan Huber|PwBandsWorkChain: clean up imports and use attributedicts
+8513ababf5f0e474051703dfe79a1ef47f2a8883|2018-02-25|Sebastiaan Huber|Merge pull request #110 from aiidateam/fix_109_workchain_constructors
+4ca3622f4c57aac430d55747765315c89f66494b|2018-02-25|Giovanni Pizzi|Merge branch 'develop' into fix_109_workchain_constructors
+d010ab0b9e1f718d3d2beb2dc29e98838cece6c5|2018-02-25|Giovanni Pizzi|Merge pull request #105 from aiidateam/fix_056_pw_parser_lelfield
+67bf83d86b96d5e043a2f6c9796f77c927e919a2|2018-02-24|Sebastiaan Huber|Do not set attributes or properties in WorkChain constructors
+516c99a816233c4626f9e08f67c25b8157e094bb|2018-02-07|Sebastiaan Huber|Fix logic that would fail in case not matches were found in output
+c509108126659215721a1d7340bbfef7da67918d|2018-01-31|Sebastiaan Huber|Add parsing of electronic and ionic dipole for raw pw output
+13974189aa4a3caea0b2a14a55489190ca33b6b8|2018-02-19|Martin Uhrin|Merge pull request #108 from aiidateam/fix_input_none_error
+fcf9470c6b7afafdded5040976ca0eaabed50d9a|2018-02-19|Sebastiaan Huber|Do not pass None inputs to processes
+aab3721c23dc10d005cb384e0248b50e0311da67|2018-02-04|Sebastiaan Huber|Updating to conform to aiida-core workflows branch
+a968f0f97c5545e4851a0583d2fda29c86a09ad0|2018-02-16|Giovanni Pizzi|Merge pull request #107 from aiidateam/fix_106_parse_atomic_occupations_key_fix
+b5f4770d8075c0754344231da5221d5aa94844d8|2018-02-16|Sebastiaan Huber|Fix the wrong parser option key for atomic occupations in PwParser
+f085ae3f7104de2bc801e19f25836e300f94d4ec|2018-02-02|nmounet|Merge pull request #97 from aiidateam/fix_051_pw_base_output_array
+4c1d795972b7bc270f810ddec572fb6ceed5f766|2018-01-25|Sebastiaan Huber|PwBaseWorkChain: add the output_array as an optional output
+c3cb0ec2439ccbf9a7049d61887b6cd8da4a612f|2018-01-31|nmounet|Merge pull request #102 from aiidateam/fix_096_pwbandsworkchain_skip_relax
+e27685c43026132e7310843cb4e762bc138fcafa|2018-01-31|Sebastiaan Huber|PwBandsWorkChain: make 'relax' inputs and relaxation optional
+8458f3e6a4f3d70fa68945d7663c2f1c8f9102c9|2018-01-31|Sebastiaan Huber|Merge pull request #101 from aiidateam/fix_085_phbaseworkchain_init_only
+8932acd7d1f8264e4af1497ff064105ad5caaeaa|2018-01-31|nmounet|Merge branch 'develop' into fix_085_phbaseworkchain_init_only
+1100a5f515db639aac71b5da4bc3150b2cceef80|2018-01-31|nmounet|Merge pull request #100 from aiidateam/fix_098_docs_link_pwimmigrant
+427918b8a26a3388e12fb8db34537061e58135f5|2018-01-31|Sebastiaan Huber|PhBaseWorkChain: add 'only_initialization' optional input
+22a3bb3caaba7f61e5aab09905d94cf25eb60b8d|2018-01-31|Sebastiaan Huber|PhBaseWorkChain: removing unnecessary imports and variables
+f0805ea9224ccd0e5100a071fcd4440a1248f2b3|2018-01-31|Sebastiaan Huber|Fix a bug in the cli script of PhBaseWorkChain
+e77a577965cf4d9c0458f7376a2b56fc82f18828|2018-01-31|Sebastiaan Huber|Fix broken link to pwimmigrant documentation in pw docs
+0106b465987a0f1376527f3f04235bfc0ed0f2d6|2018-01-18|Martin Uhrin|Merge pull request #94 from aiidateam/fix_092_pwrelaxworkchain_group_bug
+3b7313438883f0a3a9a75eae151fb87ad52015c7|2018-01-18|Sebastiaan Huber|PwRelaxWorkChain cli: add 'group' and 'final_scf' options
+d7a250340a2ea9001d9422fdf8ea88ba026e3820|2018-01-18|Sebastiaan Huber|PwRelaxWorkChain: fix bug when adding final PwCalculation to group
+05beb22d2859a3a8d5198bf77668bc49689934ba|2018-01-18|Sebastiaan Huber|Merge pull request #93 from aiidateam/fix_090_q2r_matdyn_baseworkchains
+657d180a46ed7c01c007e58ff631e0f026fd9bcd|2018-01-18|Sebastiaan Huber|Add the Q2rBaseWorkChain and MatdynBaseWorkChain
+370516ce110837106a5e01c297b7657a559e7984|2018-01-18|Sebastiaan Huber|Implement optional binding of kwargs to callback function
+1a3cbd9c4261eeaa4506e8f3bc1b693b1df488b5|2018-01-17|Martin Uhrin|Merge pull request #89 from aiidateam/fix_088_group_cli_option
+7105d473df45017c0e4ecd94131a1f6ab21e5c39|2018-01-17|Sebastiaan Huber|Add a 'group' overridable option for cli scripts
+096944c146fb281db0a1208d2d81ffdcadcec5b6|2018-01-17|Sebastiaan Huber|Allow args of overridable option to be overriden
+dda2227deea8fda87b4dceb8d0b8aabb2d887c09|2018-01-17|nmounet|Merge pull request #91 from aiidateam/fix_travis_computer_setup
+49c2064e9e13171e7964452a0e6202ce1f45954e|2018-01-17|Sebastiaan Huber|Add an explicit shebang to computer setup input on Travis
+466b5a300b8fcb4419febc60e833c7140f6a4878|2018-01-16|nmounet|Merge pull request #87 from aiidateam/fix_086_phbaseworkchain_parent_folder
+e10878f044f18fb69903136e259d24ecf0003d44|2018-01-16|Sebastiaan Huber|Use `parent_folder` instead of `parent_calc` for PhBaseWorkChain
+a5bde7679f4602b3322ad72196a29443e8e0a4df|2018-01-16|nmounet|Merge pull request #84 from aiidateam/fix_cli_utils_module
+4e59d1373b92e1c9d78973ae1090acad30bd2134|2018-01-16|Sebastiaan Huber|Move cli module into aiida_quantumespresso package
+60d558c417f849e3786965c62e0bfc7e904a8628|2018-01-16|Sebastiaan Huber|Move cli utils in the aiida_quantumespresso module
+b3f10237ffddad4382692ef443a8fbf9edf99acf|2018-01-15|Sebastiaan Huber|Merge pull request #82 from aiidateam/fix_doc_string_error
+e1577101831930495bf856ee71e6a2bded0801ab|2018-01-15|Sebastiaan Huber|Fix docstring error in pseudo utility function
+740c82e3b9f23340382bdfbb1449ffc01159bd30|2018-01-11|nmounet|Merge pull request #81 from aiidateam/fix_078_cli_scripts_click
+d81746e25f8c3d40f01b6e9c0222028657e3248a|2018-01-11|Sebastiaan Huber|Precommit hook for setup.json changes
+c9c1fdf62f5aa3b8c0203dfb1db846393f750ced|2018-01-10|Sebastiaan Huber|Update the README.md to reflect changes in CLI scripts
+66e1ce3e05b4f4d10c9fc856b0ac412560a19030|2018-01-10|Sebastiaan Huber|Migrate cli script for PhBaseWorkChain to click
+f2b8493d0f20e9d15e7f74db80ea7ac57fbe9244|2018-01-10|Sebastiaan Huber|Add new cli option and validator for a parent calculation
+9bac111515feff5dc8aae724be65621eb1b77fa9|2018-01-10|Sebastiaan Huber|Fix import errors and small bug in click.validators
+d6fbd3d8be2dff19ce3bce10bf5db0b2deaf1d1f|2018-01-10|Sebastiaan Huber|Migrate cli script for PwBandStructureWorkChain to click
+a30bd81a80c0320d0a5d3233a58b4db1664d2f05|2018-01-10|Sebastiaan Huber|Migrate cli script for PwBandsWorkChain to click
+449b9c82f6e1e0f1adfb34395d929d626ba4299b|2018-01-10|Sebastiaan Huber|Migrate cli script for PwRelaxWorkChain to click
+80f32242dd249d68ab55964d0f2c2bd7ff2ea167|2018-01-10|Sebastiaan Huber|Migrate cli script for PwBaseWorkChain to click
+25a84b10af3c46bb4949d1f82073e049811e0837|2018-01-10|Sebastiaan Huber|Port PwCalculation cli script to use the new click interface
+b39d5b8ec485766714dbc6b5760a0f426c5f493b|2018-01-10|Sebastiaan Huber|Add base requirements for click cli components
+acc979dd87b25637e94b6ec58eb0095b82546314|2018-01-10|Sebastiaan Huber|Rename the 'tests' directory to 'cli'
+7172b5fcccb1941783080ff81feb3746215b65f6|2018-01-10|Sebastiaan Huber|Merge pull request #80 from aiidateam/fix_079_get_plugin_stacktrace
+9dc5deb08ffd86f6c5c5f0f659ab52a35f5ee51f|2018-01-10|Sebastiaan Huber|PwBaseWorkChain: set error handler priorities to sensible order
+b933a9bf520873785569121477a451c7dd59ea02|2018-01-10|Sebastiaan Huber|Fix critical bug in register_error_handler decorator
+0c483c1da9c2fa4f628c25d18b06825be64b456d|2018-01-10|Sebastiaan Huber|Log INFO message for each error handling plugin loaded in BaseRestartWorkChain
+bc1b05a9361b6c214c50d26e3ce3e54b833823a7|2018-01-10|Sebastiaan Huber|Include stacktrace of ImportError in LoadingPluginFailed exception
+6fd594bec0a6f108116740ddbff92eb39e8a5139|2018-01-10|Sebastiaan Huber|Merge pull request #77 from aiidateam/fix_076_auto_parallelization_output_node
+f998f8bb9a260a2ecb57f5c437d84b1b05eafd4f|2018-01-10|Sebastiaan Huber|Homogenize and improve command line interface of test scripts
+793b46b5cdeca6f8ee7b20d4fff037948b038372|2018-01-10|Sebastiaan Huber|PwBandsWorkChain: make 'settings' input optional
+68303e330d04520f030273be6e2b7bb6532e4920|2018-01-10|Sebastiaan Huber|PhBaseWorkChain: make 'parameters' input optional
+7273678f876bf4c2354785717978814b944a9c9d|2018-01-10|Sebastiaan Huber|Make automatic parallelization optional in PwBase test script
+1efa02070630d34c06d4047aeb83395ec1eb5deb|2018-01-10|Sebastiaan Huber|Return result of automatic parallelization as output node
+6ac82703d773fda02ac5b727c971c12b89f32aef|2018-01-10|Sebastiaan Huber|Merge pull request #65 from AntimoMarrazzo/fix_lowercase_dict
+e3ff54bb89780ecf3a089a371c8ccd73c7175117|2018-01-10|Sebastiaan Huber|Merge branch 'develop' into fix_lowercase_dict
+7edc22c3e116264ff11e558ade30916fefbd12ca|2018-01-09|AntimoMarrazzo|Replaced d with type(d) in _lowercase_dict Indeed, no bug just more verbose and intelligible error message
+921f713cd1c4ef63adbf23750d5a84197cac9379|2018-01-09|Giovanni Pizzi|Merge pull request #75 from aiidateam/abstract
+b3e9917c1f4480e9e4636a510b5faeaf011278b6|2018-01-08|Sebastiaan Huber|Add documentation about BaseRestartWorkChain to developers guide
+5639d7ec3d6c425ba9287ca762996771301b29ee|2018-01-08|Sebastiaan Huber|Improve the documentation of common.workchain.utils
+d63ad36f1ad2730162c0c28259756e6073466dcc|2018-01-08|Sebastiaan Huber|Reorganizing the files of the workchain utilities
+0871c9981d9a3016ece049b8e3c75768985f6b7a|2018-01-07|Sebastiaan Huber|PhBaseWorkChain: make settings and options inputs optional
+e529de30ef9d077718fdce8d0b0c9fe463c7324c|2018-01-07|Sebastiaan Huber|PhBaseWorkChain: remove unused compute_epsil input
+72543d5b46a17998ec3757eb4e48477af75e47cb|2018-01-07|Sebastiaan Huber|Update PhBaseWorkChain to leverage BaseRestartWorkChain
+63e9e475df8795fa73476abe0a949303ffcc9768|2018-01-07|Sebastiaan Huber|Make sure changes to self.ctx.inputs are used properly
+67abbbc26d7b69c40bea80ca9c9823ffa042263e|2018-01-07|Sebastiaan Huber|Delegate max_iterations and clean_workdir to BaseRestartWorkChain
+255da41f5ca5f228d145631f232c6f56fcc5f764|2018-01-06|Sebastiaan Huber|Revert testing changes to pw/base.py test script
+a6a74452228f22037f6a97ed504b133b9c30c32e|2018-01-06|Sebastiaan Huber|WorkChain error handlers now defined with register_error_handler decorator
+a4e89863e9bc9d54c43b9acc96e7e15143c534e3|2018-01-06|Sebastiaan Huber|Use more descriptive LoadingPluginFailed in get_plugin
+b5adc5d61df529e73ae574d6f06fe8a8c8c709f1|2018-01-05|Sebastiaan Huber|Rename UnexpectedFailure to UnexpectedCalculationFailure
+ab3368d31f960c1cb62374a6256e8337693fbae0|2018-01-05|Sebastiaan Huber|Turn ErrorHandlers into namedtuples with a priority
+a0b52b5ca7fd130db769e4bd4595ca682bfecd4b|2018-01-05|Sebastiaan Huber|Add basic error handler for unconverged calcs in PwBaseWorkChain
+569140d45409ac7fbcd978ec09aac2d42fd63311|2018-01-05|Sebastiaan Huber|Improve error messages in the _handle_calculation_failure method
+8cba17d776a2d3a2f4f3e952b993cc446ca76277|2018-01-05|Sebastiaan Huber|Renamed and moved BaseWorkChain to BaseRestartWorkChain
+3cd78ea26981b610ca130c954f80d3b4ac69ed28|2017-12-22|Sebastiaan Huber|First implementation of the AbstractBaseWorkChain
+dbeb0c60012927111673d59a3b053b08ddf4bd06|2018-01-03|Giovanni Pizzi|Merge pull request #73 from aiidateam/fix_070_remove_parser_state_checks
+1d30100795b07218f7b9c64a6ad4cfc4349fd8e6|2017-12-25|Sebastiaan Huber|Remove calculation state check from parse_with_retrieved
+bb5801ec1547edd3ebbda03200d30e78adc92883|2017-12-20|nmounet|Merge pull request #72 from aiidateam/fix_071_clean_workdir_abort
+907878b9f7ff6c9676372bc7fcf8c920bdffb73d|2017-12-20|Sebastiaan Huber|Use Process on_destroy method for clean logic in workchains
+1eccb1de407098066342ac8a277ae60272aae580|2017-12-15|Martin Uhrin|Merge pull request #68 from aiidateam/fix_bug_pwrelax
+cf6c4f09eaf7ceea776a621be7fb6853ae569d2f|2017-12-15|Sebastiaan Huber|Fix small bug in the PwRelaxWorkChain
+a2cf904a6cb9f6f14e100c5ca8b4bce0e76ec5bd|2017-12-14|Sebastiaan Huber|Merge pull request #67 from aiidateam/fix_bug_final_scf_pwrelax
+27f330637fec1525d6def769cf4d001ee3820880|2017-12-14|Sebastiaan Huber|Fix bug in the final_scf option of PwRelaxWorkChain
+745522bf05ad3510275cdc0b866a58d82df7ccc7|2017-12-13|Sebastiaan Huber|Merge pull request #66 from aiidateam/fix_064_max_meta_convergence_iterations
+1db4c50fc92d48646a8b64ad0078936db83979ad|2017-12-13|Sebastiaan Huber|Add 'max_meta_convergence_iterations' input to PwRelaxWorkChain
+e8c2c3480af33fdf4bb1ecc78afe4ef4f957e840|2017-12-13|AntimoMarrazzo|Merge branch 'develop' of https://github.com/aiidateam/aiida-quantumespresso into develop
+a5414d0a0cfa5f812ecb1607dce8a1761daa9b5a|2017-12-13|Sebastiaan Huber|Merge pull request #61 from aiidateam/fix_060_kpoint_force_parity_input
+598d5cef1c65f30af6e60bade7b90556fb9eb8d3|2017-12-13|Sebastiaan Huber|Add optional input 'kpoints_force_parity' to PwRelaxWorkChain
+d2d64323c5a8e73365511f2a576f62cf8f41ee22|2017-12-13|Giovanni Pizzi|Merge pull request #59 from aiidateam/fix_058_pwrelax_clean_workdir_bug
+feaa989127c893cc2ee43655b2867436d18951f3|2017-12-13|Sebastiaan Huber|Fix bug when passing both final_scf and clean_workdir to PwRelaxWorkDir
+e872e6f2ad95f19f745478f339731b6d9243355b|2017-12-13|Giovanni Pizzi|Merge pull request #57 from aiidateam/fix_workchains_minor_cleanup
+eed55341d367a7faa1b9650a589249bd4b56cdf9|2017-12-08|Sebastiaan Huber|Use deepcopy to clone inputs dictionary in PwRelaxWorkChain
+2019ec199cd3ac2bc95fb9445ecb50825caa6cf9|2017-12-08|Sebastiaan Huber|Turn context inputs for PwRelaxWorkChain into AttributeDict
+0a29fb544d8af054a9ab47f9c30070be641aef88|2017-12-08|Sebastiaan Huber|Cleanup interface and scripts for PwRelax and PwBase
+c7695fc5ae78a3e5869b1cc69bf5af7e5afb308a|2017-12-08|Sebastiaan Huber|Fix parallelization options for PwRelaxWorkChain test script
+529e1969c3777ca756832783cdda7e939c894ce7|2017-12-08|Sebastiaan Huber|Add flag to test scripts to toggle clean_workdir option for workchains
+f6a03f9d6c705d83374193374ae0c412abf393a3|2017-12-08|Sebastiaan Huber|Improve clean_workdir option for PwBaseWorkChain
+821c193223ba9244641fc5280664bdc57a117f18|2017-12-06|nmounet|Merge pull request #55 from aiidateam/fix_054_parse_atomic_occupations
+ac0c37df476d2891c3576bf03fc87b53b045fc1b|2017-12-05|Sebastiaan Huber|Wrap gettings settings input node in try/except since it is optional
+b6b7a0759270df4e54b6b1d476c2e87fef77a60d|2017-12-05|Sebastiaan Huber|Add documentation for 'atomic_occupations' parser option
+2994bf5f741698c8382fe008e79ce3039c56d500|2017-12-05|Sebastiaan Huber|Parse atomic occupations when set in the 'parser_options' of the settings
+51b3d722809c8063a48b4f0175dc161e90d5d35b|2017-12-05|Sebastiaan Huber|Fix bug in parser_opts of PwParser and pass to parse_pw_text_output
+b5b0d9263328dc1fe9f7d7aaae1cc248c3607e5d|2017-11-21|Giovanni Pizzi|Merge pull request #43 from aiidateam/fix_014_reinstate_parser_tests
+2fcc793f051ad0772a3d2c33e14db8c2a766ce9f|2017-11-20|Sebastiaan Huber|Merge branch 'develop' into fix_014_reinstate_parser_tests
+62e5bbd1e7c8a3f768c56e4faec81156e42b3550|2017-11-20|Sebastiaan Huber|Merge pull request #46 from aiidateam/fix_045_skip_relax_pwbands
+6f06706c5529d951c75266809a5b1c427463bc5e|2017-11-20|Sebastiaan Huber|Merge branch 'develop' into fix_045_skip_relax_pwbands
+1e66fb1a48c2fdde79e30c468516b6b18715b895|2017-11-20|Sebastiaan Huber|Merge pull request #48 from aiidateam/fix_044_kpoints_mesh_pwbands
+20b0dd6516af8f9fffd0e9297db6deea835c40af|2017-11-20|nmounet|Merge branch 'develop' into fix_045_skip_relax_pwbands
+1f5ca3eec367b274d59cddb658e120c735b04fd6|2017-11-20|nmounet|Merge branch 'develop' into fix_044_kpoints_mesh_pwbands
+c509a3ad60d99690ba8f43937ecf540a80962ef0|2017-11-20|nmounet|Merge pull request #49 from aiidateam/fix_047_unwrap_options_pwbase
+85243c8db8e38daf67651e5cdc257383334dc2cd|2017-11-20|Sebastiaan Huber|Properly use the options dictionary in the context proxy
+47a1f5848d33d2172e499fc10e5d8817ce64f519|2017-11-20|Sebastiaan Huber|Properly detect which kpoints to use in PwBandsWorkChain
+4884b59b6edfd9f4d9d8345e42745f2bbf6c8020|2017-11-20|Sebastiaan Huber|Make structure relaxation optional in PwBandsWorkChain
+245f962928b8413ec60039714c7b706db2adb6ac|2017-11-16|Sebastiaan Huber|Pin PyCifRW version to specific release otherwise tests break
+ef27aa33ea0cab8419f230da7d5119ecaf5beef4|2017-11-16|Sebastiaan Huber|Add spglib and pycifrw as optional dependencies
+229d64e8917e8a5a7159c681583e9ad3e2213af4|2017-11-16|Sebastiaan Huber|Add ASE as optional requirements for running the tests
+9c586254660fc11107cc33a5508623938c6bebcf|2017-11-16|Sebastiaan Huber|Merge branch 'fix_014_reinstate_parser_tests' of github.com:aiidateam/aiida-quantumespresso into fix_014_reinstate_parser_tests
+dad5ec524cf196a347d7321cb7a0c1d031d84076|2017-11-16|Sebastiaan Huber|Update the MANIFEST to reflect the new path of test data
+273e6da5a7a0ab63ebaf68bd24ec4de183c40f10|2017-11-16|Sebastiaan Huber|Merge branch 'develop' into fix_014_reinstate_parser_tests
+c8d7d82f2f475b1ad728c289413625932a90a417|2017-11-16|Sebastiaan Huber|Move tests out of legacy 'backend' folder
+93a6c7116bcbe13ae35cfe73360addb5c5d2983f|2017-11-16|Sebastiaan Huber|Remove the nwchem.pymatgen tcod exporter test
+451620734cc5b751cbd98208ff4ce4a21a740b3f|2017-11-16|Sebastiaan Huber|Enable the quantumespresso tests in the travis script
+29dc228ef34043b62dd592661c36c9441974d4a7|2017-11-15|Giovanni Pizzi|Merge pull request #42 from aiidateam/future-release
+f22b38138b68fe7b09372c42a763bdb9f1619485|2017-11-15|Sebastiaan Huber|Merge pull request #41 from aiidateam/merge_future_release
+ca01e256240ffe353617c07b3f2b0bb057458925|2017-11-15|Sebastiaan Huber|Revert changes to setup.json removing dependency links
+5bcb72294229926d1b995df28e1d269e0093e314|2017-11-15|Sebastiaan Huber|Merge branch 'develop' into merge_future_release
+98b305311f3d3b5a85a29165d73e171fe18c5197|2017-11-15|Giovanni Pizzi|Merge pull request #40 from aiidateam/fix_automatic_parallelization_test_scripts
+71f818ed5509981b5d52195a71fdb53e385cfb96|2017-11-15|Sebastiaan Huber|Keyword changed from max_wall_time_seconds to max_wallclock_seconds
+be46e5e4467947316e24f113ae546cc929f87b29|2017-11-15|Giovanni Pizzi|Merge pull request #38 from aiidateam/pw2wannier90_parser
+2a7736df0614a326416604607997cbab54a04511|2017-11-13|Sebastiaan Huber|Add the parser tests to the aiida.tests entry point
+b28dcd49b6a9b7cc72216afdb13532d3312e079c|2017-11-13|Sebastiaan Huber|Merge pull request #39 from aiidateam/fix_032_workflow_automatic_parallelization
+d7aa97a023293d065edea9c69baabe582895fefb|2017-11-11|Sebastiaan Huber|Place all input validation for PwBaseWorkChain in a single outline step
+95dab30bca1c7b62576bcc40c4e2896cd6a981a6|2017-11-11|Sebastiaan Huber|Turn the inputs dictionary in context to an AttributeDict
+b6322338b8b3cee10acbb5e64761acad5586cdeb|2017-11-11|Sebastiaan Huber|Change PwBaseWorkChain defaults dict to AttributeDict
+ca4315a7f19121f1dc9076adc03423734d140b3e|2017-11-11|Sebastiaan Huber|Change max_wall_time_seconds to max_wallclock_seconds for consistency
+63c2600c3294048a9a72af84c5ee679be269ff98|2017-11-11|Sebastiaan Huber|Automatically set 'max_seconds' in PwCalculation parameters before submitting
+dd44297264eac98eb3032f2ecdeeb6c67f0ad082|2017-11-10|Sebastiaan Huber|Use deep copies in PwBaseWorkChain to make sure changes are local
+32ac5da2b7d16dddf13e3efb7affc3cb104c5a3b|2017-11-09|Sebastiaan Huber|Improve the generation of the options['resources'] dictionary
+9ff37ce81cf99823863c51ed6a1fea90eff2bc07|2017-11-09|Giovanni Pizzi|Fixed setup.json with the expected syntax wanted by the pre-commit hook
+7fa42ff0228bd11b621a883a2166a18a82bb2d21|2017-11-09|Giovanni Pizzi|Improved the parsed with a few more info
+9da0033f8cc2832f2363cc4e934873f72bb6199c|2017-11-09|Sebastiaan Huber|Implement automatic parallelization for PwBaseWorkChain
+a0d3c18f0d030c31c77bb765a62cb2222a4732db|2017-11-09|nmounet|Merge pull request #36 from aiidateam/fix_030_parse_bands_by_default
+07e16d8b65f6d78e59cfa18e9688091b305ac844|2017-11-09|Sebastiaan Huber|Update aiida_core dependency to release_v0.10.0rc3 branch
+7818b0e72f063b4ee7a46c157b763aa28bf4ac68|2017-11-08|Sebastiaan Huber|Add a warning log message when 'also_bands' is used as setting
+cbde8714ee994ed4efeaaaf7ab59eca5ed67b7ae|2017-11-07|Sebastiaan Huber|Replace the 'also_bands' key with the inverted 'no_bands'
+0bcb16334c0a734bc85bb7638dc8ed527361dfc2|2017-11-07|Sebastiaan Huber|Clean coding style of PwParser
+64a22775477bcd22ba73944095fd94eac29603f5|2017-11-06|Sebastiaan Huber|Change the PwParser to always parse bands and create output_band node
+6e70bbc335ba9f25d4ecd716abd957f2715b86bf|2017-11-09|Giovanni Pizzi|Typo in the JSON
+9703acc0ed23a5e47e3aa8755f500e5aae0e2797|2017-11-09|Giovanni Pizzi|First commit of a simple parser
+d0f7e62d4efc6e77368717d2faf4190e214d80de|2017-11-08|Sebastiaan Huber|Merge pull request #33 from aiidateam/gitignore
+f45d9ad337c7ff817c53b564f72504b99f0abeb8|2017-11-08|Giovanni Pizzi|Adding stuff to gitignore
+f68bfbbe792db4123fbd17dd1b686107a64c6ca0|2017-11-06|AntimoMarrazzo|Improved raise error for lower_case dict
+a8a3b58fd6dcadaea89a1c295c741273d0c0309f|2017-11-02|Giovanni Pizzi|Merge pull request #31 from aiidateam/fix_027_group_name_workchains
+bae52274df00c73d8a7c504582c734fd87cd947e|2017-11-02|Sebastiaan Huber|Add the optional input 'group' to the PwBandsWorkChain and PwRelaxWorkChain
+e4fa14e1e03dce08290bddcd9013d0a0a313f29e|2017-11-02|Giovanni Pizzi|Merge pull request #29 from aiidateam/fix_028_pwbaseworkchain_output_band
+8fe6f79f4c68df62c40793f3322c3a739f1eeaaf|2017-11-02|Sebastiaan Huber|Add output_band as optional output to PwBaseWorkChain
+a728407f7fbf01cc308edcb016288c1fe4fc4268|2017-11-02|Giovanni Pizzi|Merge pull request #26 from aiidateam/merge_master_in_develop
+4e47ba16c5e23cbba1257745928f1c518879621c|2017-11-01|Giovanni Pizzi|Merge pull request #25 from aiidateam/release_v1.0.1
+c89e196b37a8c1753c635593aabc7f93bbbb0afe|2017-11-01|Sebastiaan Huber|Merge pull request #24 from aiidateam/fix_23_pwimmigrantentrypoint
+42c8b6f0d00923c01650e7a862370ad71e5c3d82|2017-11-01|Giovanni Pizzi|Fixing the JSON with the proper newline to have pre-commit happy
+679ddd5e331d8c05ecbc14c26f7adc504f14e880|2017-11-01|Giovanni Pizzi|Upping version number
+77273a17388de6b006188de58a1cb82bd6071957|2017-11-01|Giovanni Pizzi|Fixing the entrypoint of pwimmigrant
+7feb9c639d86ba18a72901bd21fd464fa024c36f|2017-10-27|Sebastiaan Huber|Merge pull request #22 from nmounet/issue_021_Q2r_ForceconstantsData
+111c6a522651b8fb24a5ef8f659e58503ebdb404|2017-10-27|Nicolas Mounet|Q2r plugin fix: loading properly ForceconstantsData class
+0576cb507c944d3289096e8cfa1e0785c81c73f5|2017-10-25|Sebastiaan Huber|Merge pull request #20 from aiidateam/merge_master_into_develop
+5f6d4f6a183303aded9101935e2b09352f6e6c73|2017-10-25|Giovanni Pizzi|Merge pull request #19 from aiidateam/release_v1.0.0
+3e4035d582122bd7c8e4c7241cee4fc62feed729|2017-10-25|Sebastiaan Huber|Install reentry manually before pip installing the package
+db4d61d37bb72e44759a5010034a5686e529527e|2017-10-25|Sebastiaan Huber|Update version requirement aiida-core for rtd
+e77fc44d0c29e239289d40ea35c706f0e433f567|2017-10-25|Sebastiaan Huber|Pre-commit formatting of setup.json
+032ca29a7f039697cfdb1913aea050a29576c111|2017-10-25|Sebastiaan Huber|Change JSON formatter indentation to 4 spaces
+acec2871c1ee49965fe21f5960fa582671bab58d|2017-10-25|Sebastiaan Huber|Update version to 1.0.0 and change aiida-core dependency
+c024f704a1f7946033a58d83e98a9066eb82357d|2017-10-25|Sebastiaan Huber|Update .gitignore to include packaging and build directories
+494201ee6335322a1f82dac4ab77bec3cafb4384|2017-10-24|Sebastiaan Huber|Add the MANIFEST.in file for the package
+ab9e156a3a41bdc55d41c53ea370a3b7ad3841fd|2017-10-24|Sebastiaan Huber|Set version number to 0.10.0 for first official release
+748cc87b8cd7ed46928c94ae8c12b45b3bfcc3a5|2017-10-17|Sebastiaan Huber|Merge pull request #18 from aiidateam/fix_15_activate_docs
+c1f2a6b665f3778522aaf63c24807ba33e0370c9|2017-10-17|Giovanni Pizzi|Merge branch 'develop' into fix_15_activate_docs
+84d0e7cfaa97047de4cf6282754cf2b4f0778ddf|2017-10-17|Giovanni Pizzi|Adding back parser tests docs from AiiDA-core.
+dacecb020d99cd6198f91f9f1ba2afb7777d0536|2017-10-17|Sebastiaan Huber|Merge pull request #16 from aiidateam/fix_15_activate_docs
+df5d7196ff23fb8b95f2c6954e89c1c7195bf118|2017-10-17|Giovanni Pizzi|Reintegrated existing documentation and tutorials
+bcab4ecfca27cdf68a9402d020b7ebd1b644c140|2017-10-17|Giovanni Pizzi|Missing pseudos
+9946c4fc22a5ec919ee9ebffbd4dafa3aeebf6a2|2017-10-17|Giovanni Pizzi|Mistake in the setup.json
+bc5dc4fd2e0128a522542c3c7ffa338e6816424a|2017-10-17|Giovanni Pizzi|Fixed a few mistakes in the testing setup
+81b71bc3a03bbd7e0d40a5a35018fa81ba45d2e8|2017-10-17|Giovanni Pizzi|Added pre-commit dependency
+1d83af99fdf915afe991abce5eb033d35fed61d9|2017-10-17|Giovanni Pizzi|Added back a part of docs (available plugins)
+d5990cf49f7e8636784e6fd8ae2f12309a6d5881|2017-10-17|Giovanni Pizzi|Added first version of tests - still untested
+0413d76d5c3c40129c7e6f96d57a5d2ea5d1617f|2017-10-17|Giovanni Pizzi|Started to work on documentation
+9eaf0f25cfd48d312dbdde4a0bdfc23e2dd40205|2017-10-17|Giovanni Pizzi|Fixing version in JSON
+340f839521c732ad01051103b7d311cd2e8c6b94|2017-10-17|Giovanni Pizzi|Starting to do major improvements (adding base docs etc.)
+b88695d010c123bef3dec8a99be3b4686e1613ca|2017-10-03|Sebastiaan Huber|Add test script for the PwBandsWorkChain
+ce3e453282a2227e8f4d7813d83b21027f607c03|2017-10-02|Sebastiaan Huber|Use the WorkflowFactory to load WorkChain classes
+414af66272bc507a16b072127b3eca2f926d760f|2017-10-02|Sebastiaan Huber|Use the CalculationFactory to load calculation classes
+6adce9e37653bbf5aa7d8510889319256c2a726a|2017-10-02|Sebastiaan Huber|Move UnexpectedFailure for PwBaseWorkChain to separate file
+e920989d6cd8233fea154069e4a75ed7024a17d6|2017-09-29|Sebastiaan Huber|Merge pull request #12 from aiidateam/fix_11_workchain_error_handler_entrypoints
+ca812d584231d398c5464b410a3f501f395a4159|2017-09-29|Sebastiaan Huber|Have error handler entry point be a function instead of a list
+b9f62f6316ad0e28f0bb4429e7d56c87e5e16a42|2017-09-29|Sebastiaan Huber|Load error handlers for PwBaseWorkChain from entry points
+084724631c2d562e4bdd1b2549970cc0377161dd|2017-09-27|Antimo Marrazzo|Merge pull request #10 from aiidateam/pw2wannier_plugin
+fc6a3c34627d4f51956f17021cfb9ca69b27be05|2017-09-27|Giovanni Pizzi|Moving in this plugin repo all the submission examples for the different quantumespresso codes.
+5671f4add6c1e7b90c6cb0925fa09bd8b6d1f43f|2017-09-27|Giovanni Pizzi|First version of the pw2wannier90 plugin
+38bbeeaaa648059785360c63b288f8b99d1f8adf|2017-09-20|Giovanni Pizzi|Making sure that upon installation reentry scans the new plugins
+e4bc02306854050c7ce7a7b12dd90237d2874bf2|2017-09-08|Sebastiaan Huber|Add 'final_scf' boolean option to PwRelaxWorkchain
+b9e3e9d7265702c44b55bb8127bb412499c1c380|2017-09-08|Sebastiaan Huber|Make the output_structure output node required for PwRelaxWorkChain
+9807e815e52968545c28f1db21df7d61b5dbbedd|2017-09-07|Sebastiaan Huber|Replace dynamic_output with specific outputs ports for workchains
+c933b9082d2bf0cbbb5ebc56ef75cb72450c4e7a|2017-09-05|Sebastiaan Huber|Add option to PwRelaxWorkChain to switch off meta convergence
+70a834abb8b38b963fc88f3a9e8fc953b4d33a00|2017-09-01|Sebastiaan Huber|Minor typo in the pw calculation test script
+c256b6fce2113bfd32350b55c137a979984ab2b5|2017-08-31|Sebastiaan Huber|Add the PwBandStructureWorkChain turn-key solution
+3044eba64397cbbbc2aa2178f4597e08adc41505|2017-08-31|Sebastiaan Huber|Merge branch 'master' of github.com:aiidateam/aiida-quantumespresso
+ff27582fd9c2849e580c1fe44eb580e6ff33418b|2017-08-31|Sebastiaan Huber|Add the PwBandsWorkChain and PwRelaxWorkChain
+c4b0355a1a357d3c51db1c313fa83ed9dee2491b|2017-08-30|Sebastiaan Huber|Migrate calculation documentation from aiida_core
+2bd49781cfda53eb6b0d14a1e929b937c2de2005|2017-08-30|Sebastiaan Huber|Moved the tcod_plugins export directory for consistency
+27a0855823959bf327ca1384144c98a129925ece|2017-08-30|Sebastiaan Huber|Fix dbexport tcod plugins imports and entry points
+c483e55c28c93d132de6320ba0388f9be23adb44|2017-08-28|Sebastiaan Huber|Abstract error handling to allow for easy subclassing
+da6cf6b953730b5264ea1e5932f95a51b2272eef|2017-08-18|Sebastiaan Huber|Add an input to PwBaseWorkChain for van der Waals SinglefileData
+153e2747a65fd7d466a00fd138022d1e84276ee7|2017-08-18|Sebastiaan Huber|Add band data files to retrieve list when calculation is set to 'bands'
+06051a0257bd443fd9cff342948c28e56648fd48|2017-08-14|Sebastiaan Huber|Fix bug in the generation of pseudo inputs in PwBaseWorkChain
+ea7c4d42a0bc566c6acc6535dec3fde1973cfd86|2017-08-11|Sebastiaan Huber|Rename incorrectly named error handler
+97d965b37e1a3a7e41e2a6ecc1e9f9c363b8d0df|2017-08-11|Sebastiaan Huber|Add dictionary with default QE input parameter values
+beaef7223ea1ecd05ce84e05422642955024d7dc|2017-08-10|Sebastiaan Huber|Merge pull request #5 from aiidateam/fix_1_parser_force_stress
+ad15d59e5efa718df677ff55440567add208137e|2017-08-10|Sebastiaan Huber|Adapt the raw output parser for PwCalculation
+5e14ce8e48ebb126d5a4c664ea6c4cfba90405d0|2017-08-10|Sebastiaan Huber|Add simple command line script to launch single PwCalculation
+77f07753f15de8a3d6ab0afa87674191bc38d9f3|2017-08-09|Sebastiaan Huber|Further abstract the main flow and error handling
+d52b3fca30da70de39c4d7d669186b6290581e2c|2017-08-08|Sebastiaan Huber|Add error handling for common failure modes of pw.x
+ba5338452af5a0ea13f39c68e971cf5783b657de|2017-08-07|Sebastiaan Huber|Improve the flow and logic of the PhBaseCalculation skeleton
+d0b35aafbe8bfc9fc685d089e2d03c997b220ee2|2017-08-07|Sebastiaan Huber|Add implementation to deal with submission failure to PwBaseWorkChain
+da2f88ebec52e466e9b854697a69ba89786c1dc6|2017-08-04|Sebastiaan Huber|Change the on_stop method to run_clean in workchains
+4aba31ba2a4ee8915011af08535ed6ea111ba22a|2017-08-04|Sebastiaan Huber|Add the PhBaseWorkChain for PhCalculation to the setup.json
+5449ef23f25d880e9c7cbb491c0102e4854a5bd3|2017-06-22|Sebastiaan Huber|Migrate all the docs from aiida-core
+7ed121d3d3963d3ee0da13f1d0b6d0e0aea41e47|2017-06-22|Sebastiaan Huber|Migrate all tests from aiida-core
+f3e2463ce0f5a6352ac743df607fee69bc3b9fdd|2017-06-22|Sebastiaan Huber|Migrate data forceconstants from aiida-core
+a4fb95678484918e04d2afd5bb3db7322831de92|2017-06-22|Sebastiaan Huber|Change README from .rst to .md
+8c9f02df27fbfc3e13c8b157e09579e28eed051c|2017-06-22|Sebastiaan Huber|Improve README with examples of how to run the tests
+595546f1ae66359f63f2d33c09dadb84738dd79a|2017-06-21|Sebastiaan Huber|Update the README and setup requirements
+78d8b542c1ed9e78d4a63ba96a5cc2f26ba32b4b|2017-06-21|Sebastiaan Huber|Migrate missing parsers and calculations from aiida_core
+ea01408ca856980dd3b8bfec09be76c44ab5aba0|2017-06-21|Sebastiaan Huber|Add a basic workflow for ph.x PhBaseWorkChain
+3b76dc24315821471b4aa7d69338b94cd3fc6fe8|2017-06-20|Sebastiaan Huber|Fix typo in import statement
+1dac40357f37ca12d93858a03b49b871ea401ef4|2017-06-20|Sebastiaan Huber|Add a basic workflow for pw.x PwBaseWorkChain
+ef25dbd7ebafa6d6970a233279af2861aefde217|2017-06-20|Sebastiaan Huber|Remove obsolete old style workflow
+25e57b7743044b296cbf00ff2c5976082308b5ec|2017-06-20|Sebastiaan Huber|Update files to match those in aiida_core v0.9.0
+0e12aa878d896d7b68f9f67a368272c99a5abf85|2017-06-20|Sebastiaan Huber|Reset the version number and update the description
+8ac0efd6cf37287f0198c74abae01bad78e34f04|2017-02-16|DropD|add description key to setup.json to be registry compatible
+5a404743660f831a873dc5699aee8469a65425e9|2017-02-13|DropD|add egg-info to gitignore
+df938c5d6b8fb14f423d7a2308d304f357f8c119|2017-02-13|DropD|put most setup information into parseable json.
+0f56a665d34752412fbfbc755e0f0b1e520ffba6|2017-01-24|DropD|fix parser entry points
+ec9310e9b9a8a5080aeba94819f4669f348eb760|2017-01-24|DropD|fox more absolute imports
+b59b329a5f3fb5c35cf11708039310edc870a731|2017-01-24|DropD|fix absolute imports
+b57d07ee9d6f14a46708414afd74a85492bae42e|2017-01-23|DropD|fix typo in setup.py
+99387acf8d402b1041e0747ccfa75a030ac9ecb4|2017-01-23|DropD|add readme text
+9a0fa6e568d64690310af123359575dfb2980dcc|2017-01-23|DropD|copy all qe related files from aiida-0.7.1

@@ -1,0 +1,695 @@
+cfd3effb49e287fa2ec356018f3da9bfc6b015b7|2020-10-09|Chris Ringrose|Merge pull request #183 from qubekit/home_Q2_testing
+a329c22a1766325b5473ef3f4b629f4bdc415fc0|2020-10-09|CRingrose94|changed atom selection criterion in virtual_sites.py
+7295b146c1f8efb9019334d8009ee483abb73a95|2020-10-09|Chris Ringrose|Merge pull request #182 from qubekit/home_Q2_testing
+e93868074f1341b072b3a860ff9af4999f1905d2|2020-10-09|CRingrose94|remove old fit code and prevent memory leaks from matplotlib
+7f65e93a53b696a9455f1b06b6788fd58e454d8c|2020-10-09|Chris Ringrose|Merge pull request #181 from qubekit/home_Q2_testing
+684c44ad14ae6e83027162101d96109cc1b11554|2020-10-09|CRingrose94|symmetry identifier changed in virtual_sites.py
+74538302ecc3c46d5d417dab1c3fdf85dcb551f7|2020-10-09|Chris Ringrose|Merge pull request #180 from qubekit/home_Q2_testing
+df06a9f580fcac022054fdccbf55b018fa3a6b21|2020-10-09|CRingrose94|no longer scanning atoms with 4 bonds in virtual_sites.py
+3494b38b98a880d617ecc09794258ae2ae768d27|2020-10-09|Chris Ringrose|Merge pull request #179 from qubekit/home_Q2_testing
+1a594faa94e6c6c1a4fdd44d49de694f06174ce0|2020-10-09|CRingrose94|Separated objective functions to their own methods in virtual_sites.py
+84f44e41d7fa2f04f397fb3df4af36c8a79f8fe1|2020-10-07|CRingrose94|changed symmetrisation method in virtual_sites.py
+23347a5d8f1bf6977462213985714d31b06ccdb1|2020-10-07|Chris Ringrose|Merge pull request #178 from qubekit/home_Q2_testing
+4b7c87c4fa79e4a548f64aee7dab19917eda0099|2020-10-07|CRingrose94|fixed closest atoms in v-site extraction
+7e8af67c85e2fcb5a593ed6a9563ec34ada69d06|2020-10-07|Chris Ringrose|Merge pull request #177 from qubekit/home_Q2_testing
+56f5550a9ea6cb5fc8f92f322bec329eaa9dc85a|2020-10-07|CRingrose94|new extra site method for saving extra sites to mol object.
+2135e5b897629a350617c86db6e7e37b55d6309c|2020-10-07|Chris Ringrose|Merge pull request #176 from qubekit/home_Q2_testing
+ed624bdb9c20ecb908c8aa5e2920b5dafcac5536|2020-10-07|CRingrose94|Handled extra_sites being None in fix_net_charge()
+7feac9d731b830d5ff1a42b6384246f981d6772d|2020-10-07|Chris Ringrose|Merge pull request #175 from qubekit/home_Q2_testing
+ff8a99cbb6272900f509d2f8320f443bc9585f3c|2020-10-07|CRingrose94|Fixed xyz writer precision to be 10 for coords, 6 for charges
+e3845e3817d442d3ec9f7b74ce3ad0eaad1f2e48|2020-10-07|Chris Ringrose|Merge pull request #174 from qubekit/home_Q2_testing
+35e74bcbb5568c3ee91fa1b814ba2e1cf0870175|2020-10-07|CRingrose94|More precision with the decimal/float conversion in fix_net_charge()
+d6b846022e5ea07da50009b7b79318708da4d33d|2020-10-07|Chris Ringrose|Merge pull request #173 from qubekit/home_Q2_testing
+ba28992a6ff2b4f1260f429118c192dd16681aa2|2020-10-07|CRingrose94|More precision with the decimal/float conversion in fix_net_charge()
+476aa7efc2ea7206be44b99d0f365cbb3cb5f347|2020-10-06|Chris Ringrose|Merge pull request #172 from qubekit/home_Q2_testing
+de392aa220576321071c9fd2437751f9ceaa5ac6|2020-10-06|CRingrose94|Fixed rounding errors to avoid MM blow-ups.
+da5f6dfe10e919660af2c840a696d7a60f8b0d9f|2020-10-06|Chris Ringrose|Merge pull request #171 from qubekit/home_Q2_testing
+7059d49a0042499659bec477d1ebd788e0007ec4|2020-10-06|CRingrose94|Fixed rounding errors to avoid MM blow-ups.
+a8d2ad5c3f8121174de9fa0d7b990f0e0a9ced72|2020-10-06|Chris Ringrose|Merge pull request #170 from qubekit/home_Q2_testing
+40009dc4f8a42d9d1abcc3e2573dce5e9d2b175e|2020-10-06|CRingrose94|All charges are now to consistent decimal places (6) to stop rounding errors in the charge fixing
+22323c2ba39e3485887d20d65df97a57e710eb79|2020-10-06|Chris Ringrose|Merge pull request #169 from qubekit/home_Q2_testing
+20d5e38f948ad1fdacfe58088b5cc1ddf3c83b14|2020-10-06|CRingrose94|fix_net_charge() now correctly moves charge around
+65163c0ed7f233ee89bf8804c7020406f8f2601c|2020-10-06|Chris Ringrose|Merge pull request #168 from qubekit/home_Q2_testing
+ee767a9c0c5534daa6ea6bc65369af75c5ba467b|2020-10-06|CRingrose94|Removed old code for moving charge files.
+d19a54d718b45a8d11455c888744f64cb97c6ac1|2020-10-06|Chris Ringrose|Merge pull request #167 from qubekit/home_Q2_testing
+52af0744fcef2aadea4b8b63790c37eed672152b|2020-10-06|CRingrose94|Moved all charge extraction and symmetrisation out of LJ. Removed unnecessary duplication of mol vars.
+c4b4f02743a26190652b80226b298da0b685f808|2020-10-05|Chris Ringrose|Merge pull request #166 from qubekit/home_Q2_testing
+7272a7bb1678454bba264d5fda0ebcae496d4413|2020-10-05|CRingrose94|Tidier charge data extraction
+a7dfb836b66a2760795b3bc3a0e319d3109bd14b|2020-10-05|Chris Ringrose|Merge pull request #165 from qubekit/home_Q2_testing
+ccb73fbecda5e2f860ab613704e9dd6364ca1c0f|2020-10-05|CRingrose94|Moved extra site extraction to file_handling.py; fixed charge smearing; cleaned old TODO in virtual_sites.py
+07e2c6b7f08afb3d2c83970697cac531dad85b58|2020-10-05|Chris Ringrose|Merge pull request #164 from qubekit/home_Q2_testing
+b57171da43e01eb8657d87f14f9c6023bc2fb2cd|2020-10-05|CRingrose94|dict access bug fix in ExtractChargeData
+e2933d93fc9506e6ed8b77d487e8b43f5468ce96|2020-10-05|Chris Ringrose|Merge pull request #163 from qubekit/home_Q2_testing
+f2279b1b44481ca18171b99c7adf625420623145|2020-10-05|CRingrose94|Changed charge data extraction to occur immediately after calculation. This prevents conflicts in the mutation of charge data at different times.
+b0edf4d6aff1b952d8b960cf980190215e7a6905|2020-10-02|Chris Ringrose|Merge pull request #162 from qubekit/home_Q2_testing
+c76b3f25143a462081be2cdc7800306d1d4162fb|2020-10-02|CRingrose94|Fixed xyz writer newlines
+c5872963178b0f1be2b4045089fee4979ebb1cee|2020-10-02|Chris Ringrose|Merge pull request #161 from qubekit/home_Q2_testing
+f05587161db9a110a2fda99609d8d52a5b424e1b|2020-10-02|CRingrose94|Numpy has a bug with claiming ambiguous truth tables when there is no ambiguity. Bodged my way around it.
+b1c2310b65c8eda3fdef5664af05e85ece5515ea|2020-10-02|Chris Ringrose|Merge pull request #160 from qubekit/home_Q2_testing
+8989e8082391bdb297898f284473d16dac43c7d1|2020-10-02|CRingrose94|fit_net_charge() used to mutate partial charges to LJ; elsewhere any partial charge changes are temporary; V-S plotting made to be per atom, fixed to correctly plot changes to partial charges; xyz writer now removes charges properly.
+f5a26c03760702e483b49cc40ad34d365a96be42|2020-10-01|Chris Ringrose|Merge pull request #159 from qubekit/home_Q2_testing
+9d6bc47150a381a0eb330196a5322af71d88c6ab|2020-10-01|CRingrose94|check_net_charge added to LJ; temporarily removed charge smearing
+b209fafc9a933f90decbae3963c104c930365841|2020-10-01|Chris Ringrose|Merge pull request #158 from qubekit/home_Q2_testing
+be0f9be78fe66a439bf6428027d2756699474667|2020-10-01|CRingrose94|fixed type of charge to float again
+2c2a0ab174c8d606297f054466563874f489da85|2020-10-01|Chris Ringrose|Merge pull request #157 from qubekit/home_Q2_testing
+c6cdba2f0bb7f31b24d1f5ad8e61663a3d1336c2|2020-10-01|CRingrose94|fixed type of charge to float
+71ae26409bd86c2f5507491bcb27cbe4cb2ac6e9|2020-10-01|Chris Ringrose|Merge pull request #156 from qubekit/home_Q2_testing
+653a774dd227aec2debe2d313adb6ecef0e6d12d|2020-10-01|CRingrose94|fixed decimal values for charges
+2487c1c168de8d51d28fb3bec14856c28c93c7e5|2020-10-01|Chris Ringrose|Merge pull request #155 from qubekit/home_Q2_testing
+9d5907f95cd56c652834019960edf488fae50de0|2020-10-01|CRingrose94|fixed decimal values for charges
+ff9152297408f87a027f98bfc375ce43bd1080b4|2020-10-01|Chris Ringrose|Merge pull request #154 from qubekit/home_Q2_testing
+6449f00385dfb61c6e894f0d7126805b4c28d083|2020-10-01|CRingrose94|Removed timer loggers
+abb4f078a68dfc440e24208bf584857db799a31f|2020-10-01|Chris Ringrose|Merge pull request #153 from qubekit/home_Q2_testing
+0a3d4188a063ba89b666b011d9d24edec42c0394|2020-10-01|CRingrose94|Remove method logging decorators; moved ONETEP param extraction to file handers; improved LJ calcs; added charge checking when using v-sites; updated v-sites to better handle multiple sites per molecule; improved symmetric v-site calc; other small fixes.
+1465de0a9e602d26000072e2d1e8cd107ee070aa|2020-09-25|Chris Ringrose|Merge pull request #152 from qubekit/home_Q2_testing
+72b6f0c427e2952a6dfed22c289f35178211dba5|2020-09-25|CRingrose94|Added symmetric option for two virtual sites case; updated docstrings
+89f11ad1dcad89758af9f0fe511a1c730ce6072b|2020-09-23|Chris Ringrose|Merge pull request #151 from qubekit/home_Q2_testing
+ee219539aa8d987e51f60f5045c7e4c0f4c653b8|2020-09-23|CRingrose94|Fixed xyz reader
+72348b5ce165c7b5b6bba4ddc34b8ec8ebce8825|2020-09-23|CRingrose94|Fixed xyz writer; changed xyz copying, moving and reading.
+75dcf2aafaa9bbebe860f80ea7152dade27827c5|2020-09-22|Chris Ringrose|Merge pull request #150 from qubekit/home_Q2_testing
+2810128848b4100aa244b6cc7b4e0d084ee5ebbe|2020-09-22|CRingrose94|Cleaner debug argument in v-sites; removed logging in v-site
+bfebcf9bee56ce230586b6dca4eedd97ca3744db|2020-09-18|Chris Ringrose|Merge pull request #149 from qubekit/home_Q2_testing
+97dc22b51dc5cb9f97631ca28d9d440946a44378|2020-09-18|CRingrose94|Better pathing for copying files; lennard_jones.py handles extra sites file properly (removed unnecessary check, moved file correctly); run.py logs v-site actions.
+ae3defacc88cb442c02c536fee0b00a8f14908db|2020-09-18|Chris Ringrose|Merge pull request #148 from qubekit/home_Q2_testing
+19161e6163d07258aa31e5754753da00b6ddf9d0|2020-09-18|CRingrose94|Updated docs for virtual_sites.py; clarified v-s execution in run.py; always call plot in v-s, either save file or display interactively.
+51b1092e3f24444214118c7d80a4fcfc55d0570d|2020-09-18|Chris Ringrose|Merge pull request #147 from qubekit/home_Q2_testing
+f50aa2449237d46b055b18f5d3db1292896cc292|2020-09-18|CRingrose94|Integrated v-sites into run.py (charges stage); amended xyz reader to handle xyz's not from ONETEP; fixed extraction of v-sites from xyz in lennard_jones.py; added execution description to virtual_sites.py; moved logic from VirtualSites init to its own method.
+47e2291842020c6ec0e7dea21618051ec4520fb5|2020-09-17|Chris Ringrose|Merge pull request #146 from qubekit/home_Q2_testing
+858ce130f859664674e54f70c28f667bd4357e82|2020-09-17|CRingrose94|V-sites updated to per molecule not per atom; psi4 density error added; updated ligand_tests.py; other minor clean-up.
+3e20a0266089a5a9f11a716bc4787db64eedb1b8|2020-08-24|Chris Ringrose|Merge pull request #143 from qubekit/charge_fitting
+45188d7ffc442b5d2e0c7b4889814decca1ce277|2020-08-24|Chris Ringrose|Merge branch 'master' into charge_fitting
+50f774c74d3c226311e5784cfb27aa41e0c3c05b|2020-08-24|chrisringrose|no symm for gaussian jobs; dihedrals.py uses bonds engine
+60e1a8215855b015202a50ea795326f90e6913ea|2020-08-24|Chris Ringrose|Merge pull request #142 from qubekit/home_Q2_testing
+30cef1806c6f29f51a6fd408cea197368d4ac113|2020-08-24|CRingrose94|general clean-up: removing unneeded class vars; better combo rules handling; better class documentation; etc
+c2677839a08e1dc38c8a61be8f75e35813133b5d|2020-08-03|Chris Ringrose|Update lennard_jones.py
+e5e3a14239285be9791f31e065aa7db7a494c4f1|2020-07-31|Chris Ringrose|Merge pull request #141 from qubekit/charge_fitting
+ac19da46484a753b4f8320f12e89037d512735d8|2020-07-31|chrisringrose|fix var access issue with dihedrals
+f8a645be8e65761454386b46ac94593308c3c322|2020-07-31|Chris Ringrose|Merge pull request #140 from qubekit/home_charges
+ee8298f0bf031b2e1057f84a53fa704f67b54f9c|2020-07-31|CRingrose94|Changed symmetrisation to occur earlier so it is applied to volumes; v-site coords altered to have an "owner" (used for xyz creation); removed old code in LJ; minor clean-up/typo fixes.
+b6181b1cbdecb96bc2ae5ea7107618b5bd297be5|2020-07-15|Chris Ringrose|Merge pull request #139 from qubekit/home_charges
+7c82d5617811debfac2413084285929e7d5a0a7d|2020-07-15|CRingrose94|Virtual sites in testing phase - ready to add data to xmls; cleanup of LJ file; fix to incorrect constants.
+0d08d5d94148b128444639d5e118df258117fb2f|2020-06-03|Chris Ringrose|Merge pull request #138 from qubekit/home_charges
+1389c1d79742f202c7adfc6172973f07fa984ac4|2020-06-03|CRingrose94|Virtual sites fitting in usable state; temporary fix for dihedral fitting; added back fixed symm_hs symmetrisation in lennard_jones.py; minor clean-up.
+6fc1799e63460a6539fe37fe8d91010f616fea4f|2020-05-28|Chris Ringrose|fixed dihedral.txt writer
+462dbc7fcee1d54621a91ec09b27f4d78539746f|2020-04-16|Chris Ringrose|Update before_install.sh
+0b3d3e89c4eb9d2b90dcbdadf83a25ccce4524b3|2020-04-16|Chris Ringrose|Update before_install.sh
+23a096410023723d574f2f37e4dec64fa93ba23d|2020-04-08|CRingrose94|Made symmetrisation optional with command -symmetry
+ae1c184ba023d105a7edbc01204b260575eee43c|2020-03-13|Chris Ringrose|Merge pull request #137 from qubekit/charge_fitting
+50453bd45aed85d3c98aef1af0bcbc168196f6e4|2020-03-13|chrisringrose|Updated readmes; fixed ordering of protein analysis; hides warnings from openeye
+0f04d3b2e78d375ea42b6d98b98e0bec06b4c56f|2020-03-05|Josh Horton|Merge pull request #133 from qubekit/travis_fix
+4143289912a63eb585d61adccd54dd494656c7e6|2020-03-05|joshhorton|Merge branch 'master' of https://github.com/qubekit/QUBEKit into travis_fix
+d2dece8f90ec91d26fbba73e507001daf61b0d68|2020-03-05|Chris Ringrose|Merge pull request #136 from qubekit/charge_fitting
+07954fe41f1c94ae53aea3ebb730c820ae0dfcc7|2020-03-05|joshhorton|removed mac 3.7 testing and fixed angle tests.
+5241c6e616e1eb5f4e976252feeaa2038d0f7747|2020-03-05|chrisringrose|mol_input fix for ligand and protein; cleaned TODOs in run
+3c5485457968a5335b699f0d0af8e2632f3a2151|2020-03-05|Chris Ringrose|Merge pull request #135 from qubekit/charge_fitting
+abcb37f83b8c07359d1d58e1a6115793da505900|2020-03-05|chrisringrose|Fixed protein run for new file handling; added info for constants.py; moved more file handling to proper place; cleaned up TODOs; updated badges (RIP 100 downloads)
+c41c3588946824125ecbf6913f37ae227e6f1834|2020-03-05|joshhorton|add the rest of the core packages.
+e3310ec0085c51a5eab1ccb63e638f38e72225af|2020-03-05|joshhorton|scipy fix added new elemental versions.
+d5bbf032232f3a62a2e5c2467614670cdcd02d32|2020-03-05|Chris Ringrose|Merge pull request #134 from qubekit/charge_fitting
+d0b9d288184faec248947844fff82ac68be56fbf|2020-03-05|chrisringrose|Moved protein file reading to file_readers.py; continuing off-site charges calcs; fixed mod_sem bug with linear bonds; updated readme for conda-forge
+223b77ba7bbffeda55101d1a003e20beb267b920|2020-03-05|joshhorton|add matplotlib-base to enviroments.
+b8f5384435d185e593d2f296f93a7698e53aa269|2020-03-05|joshhorton|updating travis testing.
+f8e3cb51a24a36e51b9c0ebb77dfd4753037c723|2020-03-03|Chris Ringrose|Merge pull request #132 from qubekit/charge_fitting
+a54afb51bb92a5b1f28341c566425e04ee622311|2020-03-03|chrisringrose|Fix mod sem method for linear bonds; clean up mod sem a little (better naming, docstrings, etc); begin breaking up Charges to allow for changes to mono esp calculation; remove is_protein arg and replace with internal attribute.
+eac6156c076b92904432504bfcaa34210e21b85b|2020-03-02|Chris Ringrose|Merge pull request #131 from qubekit/charge_fitting
+fc7786dcaff540a17ec37e6fe80ed769b65e1beb|2020-03-02|chrisringrose|Added changes to OpenFF parametrisation to better handle system exceptions; fully? documented file_handling.py; stopped ligand params being changed when unnecessary (name, topology, atoms); cleaned imports.
+fab55b248b534e3e8a0e0323c24520e0191dfc8d|2020-03-02|Chris Ringrose|Merge pull request #130 from qubekit/charge_fitting
+bfa61dcfc51a80ed2c73b39a6056f384c692269e|2020-03-02|chrisringrose|changed read_input() to a private class, now called via a method in ligand; moved more to datastructures.py to avoid cyclic imports; cleaned up ligand init substantially; removed old imports
+48401283c8eb3170375765639c7db7eadd86e341|2020-02-28|chrisringrose|file_handling.py created; most file reading methods migrated. File reading methods are now private and can be called without instancing Ligand()
+9966d9b07f57df45f65b9ddea02defdcb73af78c|2020-02-27|Chris Ringrose|Merge pull request #129 from qubekit/charge_fitting
+985b642790c483c6db93ba76f59736efc763c2b9|2020-02-27|chrisringrose|Beginning ligand.py rewrite/clean-up; moved bonded parameters symmetrisation to ModSem; long TODO added
+b86a853d23c500cfc7f763cbd55a48b98a342418|2020-02-26|Chris Ringrose|Merge pull request #128 from qubekit/charge_fitting
+75804b361ee4411b0bf528251f36082bf5f53121|2020-02-26|chrisringrose|Changed sample point generation to Fibonacci method for better distribution; fixed openff parametrisation xml; created proteins folder; better docs in ligand; minor cleanups
+03d12b3db24457cafce59d6d4e7ffd5df775fc88|2020-02-20|Chris Ringrose|Merge pull request #127 from qubekit/esp
+ed4a60d91617c067006966c499a41402f1c22a95|2020-02-20|chrisringrose|Finished generation of sample points for esp calculation (ready for fitting); tidied units file (better ordering, comments, a few more constants); removed some unnecessary arguments in ligand in favour of instance variables.
+b6356842b2d9aec35d7e03eaefa6a645952895e3|2020-02-12|Chris Ringrose|Merge pull request #126 from qubekit/esp
+d6fda241d121fb20cfded27fe57525a224562501|2020-02-12|chrisringrose|Added dipole and quadrupole to calculations of esp; vectorised with numpy; generally cleaned-up file; added new datastructures.py for CustomNamespace class; documentation largely done.
+2aed818f4346c52882b3ecc156d2c8c0e1f09f5d|2020-02-11|Chris Ringrose|Merge pull request #125 from qubekit/c8_params
+c65e4bb5993e4e9ee939d4c62e36505ac18d6655|2020-02-11|Chris Ringrose|Merge branch 'master' into c8_params
+2d99e172604987486344d97c510a818c4911424d|2020-02-11|chrisringrose|start of off-site charges/esp calcs; abstract away file reading in LJ for use in charge/esp calcs; store partial charges in atom classes; better charge checking; general minor clean-up of some other files; improved some datastructures such as in chargemol reader.
+1da21613f1b177dbc28a767df7bcf5d8a14d1da1|2020-01-27|chrisringrose|Overhauled LennardJones class to reduce list slicing and allow for c8 param calculations; added is_protein option to circumvent issues with file reading; other small tweaks.
+8f698ae0552bb4a0af793a534f33db275f4d69f3|2020-01-27|chrisringrose|Improved docs; protein pdb writer standardised; changed param engine default; fixed protein run to work with new filename-based methodology; QUBEKit now returns help when no args are given.
+86fb18198039552fdb0dff0191200a462f1c987b|2020-01-13|Chris Ringrose|Merge pull request #124 from qubekit/torsions
+5437433cacc81827c349788c1f8f31791659a18c|2020-01-13|chrisringrose|Improved docs; protein pdb writer standardised; changed param engine default; fixed protein run to work with new filename-based methodology; QUBEKit now returns help when no args are given.
+63c0801e968ce5c8220bbfba1930d0228d6dc360|2019-12-11|Chris Ringrose|Merge pull request #123 from qubekit/torsions
+97c93e211a4788b099f11c5a5a8db3b8db1dea30|2019-12-11|chrisringrose|new environment yml
+3e4b00a1ea0e64ab5ce4a38cdf4abb2ebb6f8ca7|2019-12-11|Chris Ringrose|Merge pull request #122 from qubekit/torsions
+b4299abc792a063f3d01ab2df94f0139f7d53e1f|2019-12-11|chrisringrose|parametrisation tests fix with new environment yml
+e8fdb409783533b40e5195bf64e30f028c3db6ba|2019-12-11|Chris Ringrose|Merge pull request #121 from qubekit/torsions
+9303b5641c0ae0df4cdf36811ca07d43329d79ac|2019-12-11|chrisringrose|broken up helpers into more util files; fixed pickling error in liganf
+a3f73e4bf2543d83b75a01c62a14ccf003febf11|2019-12-11|Chris Ringrose|Merge pull request #120 from qubekit/torsions
+a91ad2f800c162576d15b8ba0275fcce4f784266|2019-12-11|chrisringrose|Protein run fix for empty conect terms; xml protein file writer fix; dihedrals clean-up; removed obsolete attributes; added missing attributes to ligand; fixed protein init; fixed LJ API for proteins.
+f220731ddc7659a5c27d782298f0db4ec4f609de|2019-12-11|Chris Ringrose|Merge pull request #119 from qubekit/torsions
+03d774f850a8367bbcf0868578edc43e4198d0ef|2019-12-09|chrisringrose|Unified class / method calls when using QUBEKit as API; decorator fix for unfound log file; streamlined unpickling; implemented Michal's torsion update (minus tmole stuff); removed redundant / old comments; made RDKit class largely static methods; removed old, unused code from mod_seminario.
+c3463d887f93bb6efb162e73cf3b8e49d32fa61f|2019-12-03|Chris Ringrose|Merge pull request #118 from qubekit/torsions
+aaa721888d4a422d96aaa938e3f4efdd2bbd02b6|2019-12-03|chrisringrose|Handled missing attributes between different QUBEKit versions; fixed getting length of v-sites when there aren't any; fixed tdrive command to handle both gaussian versions; minor cleanups; potential __getattr__ change in Ligand (review later)
+96df1c6aae481e8ed69210d3a72b375165ce3fcf|2019-11-20|Chris Ringrose|Merge pull request #117 from qubekit/torsions
+7f87e8ab101f2c01f60568e1cc01d2443b09b3de|2019-11-20|chrisringrose|Cleaned up tests with new testing parameter in molecules
+beeaff176f60feed88169ee7332b368a40dbe43f|2019-11-18|Chris Ringrose|Merge pull request #116 from qubekit/torsions
+a8b8c5f6ae84747ac855dbe844339a5b5638b310|2019-11-18|chrisringrose|better formatting of readme; prep for wiki
+6898d49e18945365203d20b373b079f689e1b264|2019-11-15|Chris Ringrose|Merge pull request #115 from qubekit/torsions
+89bd85a19ced0d735ead1deeb214c0c3c7467df9|2019-11-15|chrisringrose|further removal of onetep file and references
+3c6f4d77c2ce35e8695989f25f1365706ab13eca|2019-11-14|chrisringrose|Delete old code; handle file moving between executions; better docs/reqs section; removed old/incorrect comments
+714fd162b1b740fd9c3dd724c0abb5e2c1710d42|2019-11-04|Josh Horton|Merge pull request #114 from qubekit/torsions2
+e01c08ef33fb96a128855420c468f76bca3af09f|2019-11-04|joshhorton|XML can now be provided with virtual sites. openmm energy update when using sites cleaned up openmm energy calculation with sites.
+ed35687894b470ae31b83379f3cb8f338fef4270|2019-11-04|joshhorton|Merge branch 'master' of https://github.com/qubekit/QUBEKit into torsions2
+401d3f191ea68f728122b01b44b02ba98904aef5|2019-11-04|joshhorton|XML can now be provided with virtual sites. openmm energy update when using sites
+ac0a41f34ff6e108a0619f40f09e37a2cb7a4149|2019-10-31|Chris Ringrose|Merge pull request #113 from qubekit/vsites
+d5c46c77fb2a848a012167bb302955a3796c8b4d|2019-10-31|Chris Ringrose|minor parametrisation and dihedrals changes
+1d6a5010863f7a21aa4d4b7b5733fb00454d368a|2019-10-29|jthorton|Merge branch 'master' of https://github.com/qubekit/QUBEKit into torsions2
+0f8121f5a5acdcea521cec66a444e0a32b05324b|2019-10-29|jthorton|XML can now be provided with virtual sites
+fd3aca9f2c25a51118604d9403cb435c16f9da47|2019-10-25|Chris Ringrose|Merge pull request #112 from qubekit/vsites
+815411fc9ef80cf2dcbdca1f631385a0e797ae87|2019-10-25|Chris Ringrose|OpenMM additions for vacuum energies; cleaned-up v-sites and removed unused ligand arguments; server clean-up
+52716a319d69f4eb7be12ced4515c0ab6e9f6db5|2019-10-18|Josh Horton|Merge pull request #111 from qubekit/torsions2
+ccd2478049542986ebd7c78370474f9d19d430da|2019-10-18|jthorton|Merge branch 'master' of https://github.com/qubekit/QUBEKit into torsions2
+d7aef8449636293a5ffa0dff5aa5e034baa336c0|2019-10-18|Chris Ringrose|Merge pull request #110 from qubekit/vsites
+cd7b2c982c98e838ee8fb53f0a01cb70a805b993|2019-10-18|Chris Ringrose|Design doc addition; removed old code; removed/clarified some confusing chained exceptions; bulk run fixes and colour coding; lennard_jones clean up; allowed executions to finish after parametrise step.
+b4420fbeea7db87ccd455624b2cfb013ac8ceaa0|2019-10-08|jthorton|Merge branch 'master' of https://github.com/qubekit/QUBEKit into excited_state Added function to round charges to match the net required charge. Removed partial charge calculation when reading with rdkit which would some times cause valid files to fail. Cleaned up openff parametrisation to use the rdkit_mol object and not smiles.
+12a2cb2231dc6474957f6e03fdd84e3cdf0a86e0|2019-09-30|Chris Ringrose|Merge pull request #109 from qubekit/vsites
+97488df8da4a5500098f17b96b39b54337883596|2019-09-30|Chris Ringrose|version update
+e47780315e24153f1ef9bcb789adbcaad6d07f1e|2019-09-30|Josh Horton|Merge pull request #108 from qubekit/torsion_fitting
+9ce5f4c87ef2f72fb410edaf9545ee5c45e67b6e|2019-09-30|jthorton|Merge branch 'master' of https://github.com/qubekit/QUBEKit into excited_state
+8119b526476894c9ff8f3860892f3b3144e46f69|2019-09-30|Chris Ringrose|Merge pull request #107 from qubekit/travis
+0e487ae715eec587863796e5718e150b984b8b46|2019-09-30|jthorton|Merge branch 'master' of https://github.com/qubekit/QUBEKit into excited_state Added function to round charges to match the net required charge. Removed partial charge calculation when reading with rdkit which would some times cause valid files to fail. Cleaned up openff parametrisation to use the rdkit_mol object and not smiles.
+2473611a855fd4aee2a2036a6c5dd92e252f5fcb|2019-09-30|Chris Ringrose|Added display option to get ligand info; cleaned up qm_optimise and hessian in run; removed unnecessary attribute fixing.
+1342d49a700feb050480337e0ac9d7c9900f24b1|2019-09-24|Chris Ringrose|Merge pull request #106 from qubekit/travis
+c85c43bf872ce4d4d80e3042ed3369dd39ae18e8|2019-09-24|Chris Ringrose|changed to less strict versioning; fixed generate_input bug for numpy truth-values
+91b3ee4b7950707cd3a02c83bd3f48e517e5fbaf|2019-09-23|Chris Ringrose|Merge pull request #105 from qubekit/travis
+63bb834e5e66f52b6a207aa0fe42c713301602cf|2019-09-23|Chris Ringrose|Terminal colours; removed old code and imports; added verbose option (default on); fixed progress; fixed molecules with no dihedrals failing; fixed density failing if qm_optimise incomplete; updated docs for new-style conda install
+41fb581878967f7b3ee4136a58161694328832c4|2019-09-20|Chris Ringrose|Merge pull request #104 from qubekit/travis
+15a745b8f333c70725d7818a58673d9f891197db|2019-09-20|Chris Ringrose|version update to apply torsion merge
+431a724b7720f2e4b63970b9a243a638afa2f5f5|2019-09-20|Chris Ringrose|Merge pull request #103 from qubekit/learn
+a0947d50d053978e2b2112f3a817b43f4366a181|2019-09-20|Chris Ringrose|Merge branch 'master' into learn
+8ac6e64feb647fb267c9d6275158cc0a2b4e66a7|2019-09-20|Chris Ringrose|conda install with packages; start of torsiondrive class; big tidy up; fixed qcengine for class-style attribute access;
+940b89237a1033d2a0824168078bd291afe291df|2019-09-16|Josh Horton|Merge pull request #102 from qubekit/torsion_fitting
+4431d833650e745f5f9e0f6eb45637fbe3612532|2019-09-16|jthorton|Merge branch 'master' of https://github.com/qubekit/QUBEKit into excited_state Added function to round charges to match the net required charge. Removed partial charge calculation when reading with rdkit which would some times cause valid files to fail. Cleaned up openff parametrisation to use the rdkit_mol object and not smiles.
+9ade121219febbc957fde25dc97ff918bbf2a1ae|2019-09-16|Chris Ringrose|Merge pull request #101 from qubekit/validation
+76663ea8c15629c53aea90b9205cf7ed37c80e09|2019-09-16|Chris Ringrose|short circuit execs in ligand; minor fixes; qcengine prep for update
+a671255e5e8b3b4a7e00231d1e35134a6610c327|2019-09-16|jthorton|Merge branch 'master' of https://github.com/qubekit/QUBEKit into excited_state Added function to round charges to match the net required charge. Removed partial charge calculation when reading with rdkit which would some times cause valid files to fail. Cleaned up openff parametrisation to use the rdkit_mol object and not smiles.
+92bf7acec11b00fa33d588e10f97c97eb436ae07|2019-09-16|jthorton|Merge branch 'master' of https://github.com/qubekit/QUBEKit into excited_state Added function to round charges to match the net required charge. Removed partial charge calculation when reading with rdkit which would some times cause valid files to fail. Cleaned up openff parametrisation to use the rdkit_mol object and not smiles.
+6cac08e8d64f7a312596c266f706d111111c7160|2019-09-11|jthorton|Merge branch 'master' of https://github.com/qubekit/QUBEKit into excited_state Added function to round charges to match the net required charge. Removed partial charge calculation when reading with rdkit which would some times cause valid files to fail. Cleaned up openff parametrisation to use the rdkit_mol object and not smiles.
+850685be51c7c87890c2e67905cd31d1e363e06e|2019-09-09|Josh Horton|Merge pull request #100 from qubekit/torsion_fitting
+8e1e106ccdbaa040ba8c3430b09bbaf716bff432|2019-09-09|jthorton|Merge branch 'master' of https://github.com/qubekit/QUBEKit into excited_state
+07b8c68af0fa9d93ab18281425fd742be41a973e|2019-09-09|jthorton|Merge branch 'master' of https://github.com/qubekit/QUBEKit into excited_state Added function to round charges to match the net required charge. Removed partial charge calculation when reading with rdkit which would some times cause valid files to fail. Cleaned up openff parametrisation to use the rdkit_mol object and not smiles.
+e2696008a95baca52e6a9496cc48a2acf9608580|2019-09-06|jthorton|Merge branch 'master' of https://github.com/qubekit/QUBEKit into excited_state Added function to round charges to match the net required charge. Removed partial charge calculation when reading with rdkit which would some times cause valid files to fail. Cleaned up openff parametrisation to use the rdkit_mol object and not smiles.
+488037f8e06fcdf6f51c3cac8fcf33c78258d4eb|2019-08-28|Chris Ringrose|Update README.md
+ef2a5cade3036ffe0e9b6326063fa048ca0cd648|2019-08-22|jthorton|Merge branch 'master' of https://github.com/qubekit/QUBEKit into excited_state Added function to round charges to match the net required charge. Removed partial charge calculation when reading with rdkit which would some times cause valid files to fail. Cleaned up openff parametrisation to use the rdkit_mol object and not smiles.
+c5d1aab2a11ecbde7ac70d8e8c53da03158072bd|2019-08-16|Josh Horton|Merge pull request #98 from qubekit/torsion_fitting
+3197c647e8312c468a41325478eade9372c146a3|2019-08-16|jthorton|Merge branch 'master' of https://github.com/qubekit/QUBEKit into excited_state Added function to round charges to match the net required charge. Removed partial charge calculation when reading with rdkit which would some times cause valid files to fail. Cleaned up openff parametrisation to use the rdkit_mol object and not smiles.
+605919810cadeb332ff19a16808e1bcbdfaa9768|2019-08-16|jthorton|Merge branch 'master' of https://github.com/qubekit/QUBEKit into excited_state
+ab225566baaf45cf5e970ccc0fab7eade6fedb9d|2019-08-16|jthorton|Merge branch 'master' of https://github.com/qubekit/QUBEKit into excited_state Added function to round charges to match the net required charge. Removed partial charge calculation when reading with rdkit which would some times cause valid files to fail. Cleaned up openff parametrisation to use the rdkit_mol object and not smiles.
+3d11b83cdcb56232a894ad9da5ea2424db0fab90|2019-08-16|jthorton|Merge branch 'master' of https://github.com/qubekit/QUBEKit into excited_state Added function to round charges to match the net required charge. Removed partial charge calculation when reading with rdkit which would some times cause valid files to fail. Cleaned up openff parametrisation to use the rdkit_mol object and not smiles.
+cc3dbccd7f9ef574fb0b4ee0286cceb0198b9bfb|2019-08-16|Chris Ringrose|Merge pull request #97 from qubekit/validation
+8739d4b6e6dd34c8a0902f13ac2465ef679911cc|2019-08-16|Chris Ringrose|Added environment yml explanation; clear comments for decorator; removed guff from environment yml
+30fd8bebc529fb2383307b12e0178bfde517f3a1|2019-08-16|jthorton|Merge branch 'master' of https://github.com/qubekit/QUBEKit into excited_state Added function to round charges to match the net required charge. Removed partial charge calculation when reading with rdkit which would some times cause valid files to fail. Cleaned up openff parametrisation to use the rdkit_mol object and not smiles.
+b13e79619c6e19184870dc10f67d3744a64393b5|2019-08-14|Chris Ringrose|Merge pull request #96 from qubekit/validation
+e105defc337f50d0fea2ebcc072a56911187642a|2019-08-14|Chris Ringrose|Minor test fixes and tweaks; extended gitignore to include mol2.
+53e863a4594d6803232d545c6de4b079603bc048|2019-08-14|Chris Ringrose|Install QUBEKit in travis env for testing
+d4f510b1cdb8aa8025f8435d828f5e3a55db158c|2019-08-14|Chris Ringrose|merge travis install scripts into one for easier testing
+80b3a19db161428d621d6cc8e8cb32f185ac7482|2019-08-14|Chris Ringrose|merge travis install scripts into one for easier testing
+ee1c1ef3c92c2d60ad3f078b69d91b95de842dc6|2019-08-14|Chris Ringrose|changed defaults to mixin; reigned in travis and conda environments; cleaner test and build scripts
+f28139d411839787bf089445cfc06e0899d51a0d|2019-08-09|Chris Ringrose|Merge pull request #95 from qubekit/validation
+41e6441ecee4a9474f156176750ea7cc565828f2|2019-08-09|Chris Ringrose|Improved Ligand's init ordering; fixed case-sensitive args; better documentation on some ligand operations; defaults properly set
+5fbc6ae4bb9b0105ee7be3ff6315f981851e7244|2019-08-07|Chris Ringrose|Merge pull request #94 from qubekit/learn
+591ce7606c944312c0aeead8ee441682f4ed9400|2019-08-07|Chris Ringrose|remove unnecessary args; timer logger decorator now finds log file more often; conda versioning; fix qc_json reader
+391aabf2236a8b4781705b7a7c636da077881c02|2019-08-06|jthorton|Merge branch 'master' of https://github.com/qubekit/QUBEKit into excited_state
+ca84f6262120002694a5302a5786fb824b16d1e3|2019-08-06|jthorton|Merge branch 'master' of https://github.com/qubekit/QUBEKit into excited_state
+c413210866da6aa87111eccd7eb922278ffa8924|2019-08-06|Chris Ringrose|Merge pull request #93 from qubekit/learn
+589d2752ca01b391a1a539eaab71635aa64898d8|2019-08-06|Chris Ringrose|Merge branch 'master' of https://github.com/qubekit/QUBEKit into learn
+e2031a930058db80c19cce6e1dde2d15423accbd|2019-08-06|Chris Ringrose|symmetrisation; version update; atomic symbol;
+a8894ca067d61b88faa24337f26ae8281b484463|2019-08-05|Chris Ringrose|convert read_input() to proper class factory in Ligand;  rdkit cleanup; removed element var name to avoid confusion; fixed ordering of method calls in ligand; new exception for unsupported file types.
+d9725727cc13a22ee8174197a4fc86c82cbd6769|2019-07-30|Josh Horton|Merge pull request #92 from qubekit/torsion_fitting
+5f86f46541f1e9507709ca145061bde2ad2fecea|2019-07-30|jthorton|Merge branch 'master' of https://github.com/qubekit/QUBEKit into excited_state
+11830b67389240cef3aa701d1d7635124bf0bb2b|2019-07-30|jthorton|Constants clean up, imporper definition changed in ligand
+964c2773ed6ac110f00462881d3849c70eb0fc1a|2019-07-30|Chris Ringrose|Merge pull request #91 from qubekit/learn
+ef70f48cd39f49d7b36f5dd69a47baa5a0e7b59c|2019-07-30|Chris Ringrose|Fixed str concatenation instead of os.path.join() in Configure().
+4e4532abc3f6b35a597863edcd6d6e5e2332d922|2019-07-30|Chris Ringrose|Merge pull request #90 from qubekit/learn
+4f17018f23ce4aab7504d769ed1c5327a1a649e7|2019-07-30|Chris Ringrose|Configure class rewrite; proper pathing; changed ligand hierarchy; removed refs to element and replaced with atomic_name; corrected old documentation; removed unused/duplicated variables in ligand class; better molecule printing for debugging; tidy some old TODOs; fixed bulk runs; general cleanup
+fbf48b11aacd26951c4440dd9337f4713c96c036|2019-07-25|Chris Ringrose|Merge pull request #89 from qubekit/learn
+40e6be2dbb20c3f37b13484161e49632f44a978e|2019-07-25|Chris Ringrose|Remove pty changes
+bc3106af7413684d9ad907031ad60523b59a429e|2019-07-25|Chris Ringrose|Tdrive pty
+61cb1df01b530f295262868664152787d137d662|2019-07-25|Chris Ringrose|class decorator addition for logging; minor formatting
+cf6daea10f4b0476db72754510346e8f1d096896|2019-07-19|Josh Horton|Merge pull request #88 from qubekit/torsion_fitting
+7ebf9eb57e8a41b49c4f9d03c8144e2b9aeabd32|2019-07-19|jthorton|Scan collection update
+302b82f1ed71d828537743659727482ebd56f446|2019-07-19|jthorton|Force field data storage fixed to all be numbers, dihedrals updated to use g16 or g09
+6dd8425b8fa6cc4d6486ed97cd2ea3a273b1f133|2019-07-18|jthorton|Exception logging and pathing for pickling updated. Torsions can be ran with g16 as an option
+a500e6a8fa0868e6813fbf822f1fca40eb1c3f14|2019-07-17|Chris Ringrose|Update ligand.py
+eac4d3bdaee3211d802b9a1db3a3267db95e8e68|2019-07-17|Josh Horton|Merge pull request #87 from qubekit/torsion_fitting
+076f2cec93010f83bfacb40c7ad6f48ae6eb1ba1|2019-07-17|jthorton|PEP8
+c13c156d76710fa5db94d9d063375a76e24968e4|2019-07-17|jthorton|Merge branch 'master' of https://github.com/qubekit/QUBEKit into excited_state
+3db537f53c966d17c73610c59ae7092c048a0caa|2019-07-17|jthorton|Changed descriptions order, added a new config option, also changed how new configs are made. New command line args dihedrals and constraints.
+3e11dea313e6719c1e1da404439127a723103f50|2019-07-17|Chris Ringrose|Merge pull request #86 from qubekit/learn
+5fe5cc5ab9b92ab526a3117b2fff6e0363f77849|2019-07-17|Chris Ringrose|mod sem oop; version update; atom name fixes
+a10b859123d5533784d1a182139fcc52edde62be|2019-07-17|Chris Ringrose|Merge pull request #85 from qubekit/learn
+9b09fb1b6a3aee2dcb7a2a518771a68e70dbaae4|2019-07-17|Chris Ringrose|checks for atom name uniqueness; better ordering of ligand file
+c37bbbcf2ec70d6d236bfb3d6a395b69d32ad341|2019-07-17|jthorton|Merge branch 'master' of https://github.com/qubekit/QUBEKit into excited_state
+29507480a9152e54e1d07b501482044f0a6ce590|2019-07-17|jthorton|Add max iteration error catching added a relative to global min option in fitting torsions.
+476d6f714cafe2bb97986d927f2ba45d11f52a13|2019-07-16|Chris Ringrose|Merge pull request #84 from qubekit/learn
+40bda87e5e9e987d44d7e3b1e6c683d324c3642b|2019-07-16|Chris Ringrose|install checking; tidied old TODOs; run file now correctly accesses pickled molecule only; hessian is stored to file again; better folder naming
+21f7c4aa9265a52d6a8883933d7d3cb136f22b06|2019-07-15|Chris Ringrose|Delete elements.py
+5e113cf78ac3de2f5407c055463d9cb90e2d079c|2019-07-15|Chris Ringrose|Merge pull request #83 from qubekit/learn
+19ad0b392712ebb043ae58f3e939ca82222a75c2|2019-07-15|Chris Ringrose|version update
+3124181ac834797d24f1bd369f3c859e3971c7c2|2019-07-15|jthorton|Merge branch 'master' of https://github.com/qubekit/QUBEKit into excited_state
+e72f8ac0d5ec41647b1ce9e69489219f9b2ea720|2019-07-15|jthorton|Merge branch 'master' of https://github.com/qubekit/QUBEKit into excited_state
+641f727f5824507ee886925871e92133b6d510a5|2019-07-15|Josh Horton|Merge pull request #82 from qubekit/torsion_fitting
+b61d361564685de96500c7c94fd24c809cadeb9b|2019-07-15|Josh Horton|Merge branch 'master' into torsion_fitting
+0d152879a649f7273414ea2d1976b3cc5e3536aa|2019-07-15|jthorton|Merge branch 'master' of https://github.com/qubekit/QUBEKit into excited_state
+94fb9fd911e1cbe374d8086f1961cbb972bcadd4|2019-07-15|Chris Ringrose|Merge pull request #81 from qubekit/elements
+9c0d1e80853bbfbfc53a6a7db76cbc91d9fa59b4|2019-07-15|Chris Ringrose|Rewrote Configure class; cleaned up TODOs; added more custom exceptions; mod Sem appending removed for restarts; version update
+8dce3ec489b9fe5e1549c8c646475fac369ff30c|2019-07-15|jthorton|Merge branch 'master' of https://github.com/qubekit/QUBEKit into excited_state
+a88fb0fbe03af945b00480f388469db9248f8692|2019-07-15|jthorton|Merge branch 'master' of https://github.com/qubekit/QUBEKit into excited_state
+388249e73fffa20fd910c969252c6d13c0c9f839|2019-07-15|jthorton|Merge branch 'master' of https://github.com/qubekit/QUBEKit into excited_state
+5a576a820ec244b439f8c8548a58820cfe76164a|2019-07-12|Chris Ringrose|Merge pull request #80 from qubekit/elements
+af078aa1445988692d2fd926e4ab71c848d1670d|2019-07-12|Chris Ringrose|Allow appending with mod sem files; lgtm tweaks; import cleanup
+49bd0bf3c48d9e47cc9465f303bc6622931a05b7|2019-07-12|jthorton|torsions again
+38aa4a524c71ff4337023b629e69861f4c41bd79|2019-07-12|Chris Ringrose|Merge pull request #79 from qubekit/elements
+cf7a2bae125a40ad6c5b5324f3aac93228bf8694|2019-07-12|Chris Ringrose|Merge branch 'master' into elements
+f67155994a54959740ebfa513704bbab1837d8a3|2019-07-12|Chris Ringrose|periodic table using rdkit; g16 fixes; constants file; qm_optimise fixes; removed old code; tidied formatting in run especially; removed old mass and element dicts; removed redundant printing
+9fcaf16598058047403091dabd473a9b32d3bb7b|2019-07-11|Josh Horton|Merge pull request #78 from qubekit/torsion_fitting
+1f56bf62b5da1bcd29f41671e08cd236a565fcc6|2019-07-11|jthorton|empty parameter object fix
+1c87e7ca943309ed9544bc1125c68a66a28298f3|2019-07-11|jthorton|Merge branch 'master' into excited_state
+a1494c72e5d7552b7f0c1d89f2f6a71d32cd9770|2019-07-11|jthorton|torsion drive with gaussian
+cfd8c4d2e6e6a8cfacda53960b2bc6b0fb0a5901|2019-07-11|Chris Ringrose|Merge pull request #77 from qubekit/elements
+137d55ea25a6e5161badf70b55e1bfc66bcdb152|2019-07-11|Chris Ringrose|qc_json reader; decorator fix for when there's no log file; cleaned imports; better handling of different inputs; tidied rdkit smiles reader
+d73eac1018066cf47c3f20591972e63e91af24a5|2019-07-11|Josh Horton|Merge pull request #76 from qubekit/torsion_fitting
+cac13345aeae1bf4301425639497dfdfe213176a|2019-07-11|jthorton|Merge branch 'master' into excited_state
+fffa0a59ac368c2949d7a1fc3d3ed55ec8b33a9b|2019-07-11|jthorton|Ligand can be made from smiles
+68166544899d4240ef6939fac6b2d46978f967d2|2019-07-11|jthorton|Bare xml is now made using base params class
+fdac7f7aebceaaa4f28b95d8cc7cf5c9c06bc3f1|2019-07-11|Chris Ringrose|Merge pull request #75 from qubekit/elements
+897d1f5cc1e2831d05ffa807dc654e80223d287d|2019-07-11|Chris Ringrose|utils; openff consistency; minor reformatting
+29642919b7b4ec0daed6295f8b46df0742d9150b|2019-07-10|Chris Ringrose|Merge pull request #74 from qubekit/gpu
+437109bf8386968af812d1b550cfacc028d251d3|2019-07-10|Chris Ringrose|Better handling of failed imports; start of PeriodicTable class; improved exception logging; exceptions file
+fd2a016d9bb4c1cb4fc8998bb2d1a9410b07c2ec|2019-07-08|Chris Ringrose|Merge pull request #73 from qubekit/tweaks
+5f45dd8ad94c73b0f087dfdb1f521f8258225c15|2019-07-08|Chris Ringrose|Merge branch 'master' into tweaks
+29e8257ddb58814a3ac2c8d876ea47302ff001e8|2019-07-08|Chris Ringrose|Added g16 capability; minor naming, formatting and comment changes
+be47b79d2ef04e1fb80320208163f7136e5ce329|2019-07-03|Josh Horton|Merge pull request #72 from qubekit/torsion_fitting
+5a78f40adcb825fd632c935a8e792bb3d8ade638|2019-07-03|jthorton|ini backups not shown
+31d1f30a819558152ef62703dbd08ad83e62c71f|2019-07-03|jthorton|Merge branch 'master' into excited_state
+6ed088549e8cb9f1288c0edd2d9c88a443acdb8f|2019-07-03|Chris Ringrose|Merge pull request #71 from qubekit/tweaks
+a7d7c151df08fd9f578eccda806371b823589876|2019-07-03|Chris Ringrose|updated version
+ffd1e381f98bb3fe08ee2887b5c67f4af387e1a5|2019-07-03|Chris Ringrose|openff version fix; xml import cleanup
+21af8a24de050d4c48c167cb3db9b6dbf714afed|2019-07-03|jthorton|Merge branch 'master' into excited_state
+309619b337ed39e314af507249a28e6580f5d0a1|2019-07-03|jthorton|Added excited state options to g09, added compatibility with QUBEkit-V1 scans. Torsion optimisation tweaks.
+570fd31d97fafc87418d1d313ed0d288801de025|2019-07-02|Chris Ringrose|Merge pull request #70 from qubekit/tweaks
+9f271e905ff22fbe002c5615a70a7ada765b8792|2019-07-02|Chris Ringrose|fixed pdb writer for certain molecule types; fixed Gaussian class catching fails unnecessarily; improved exception logger
+7b74ae11ebb60b5f26dd0a068a7655bf28f9eeb1|2019-06-27|Chris Ringrose|Merge pull request #69 from qubekit/travis
+59a3c6df8b4640056074837ec3c0eac25d1a3f35|2019-06-27|Chris Ringrose|fixed -progress; added version command; cleaned old TODOs
+cba5d714e8b8ab2cb9a84e48c5e26f9a6d3f5caf|2019-06-25|Josh Horton|Merge pull request #68 from qubekit/torsion_fitting
+f479cda56a648153b928b1781db6e3b6913e1292|2019-06-25|jthorton|Merge branch 'master' into torsion_fitting
+48f9795955bcba4ece891062329b0b7f33e88d99|2019-06-25|jthorton|removed files and default arguments, updaated new xml. Removed sys exit added custom exceptions.
+c8c965fd92de7bea74792cffa72144915866d7ea|2019-06-25|Chris Ringrose|Merge pull request #67 from qubekit/travis
+eebafdfe27168534c419187e14599201e1436af7|2019-06-25|Chris Ringrose|cleaned handling of failed imports; removed old files again; fixed xml bug; removed sys.exit()s from run.py
+14845a947b0c1878b6f86ff0c098b33330a6e6bf|2019-06-24|Chris Ringrose|Merge pull request #66 from qubekit/travis
+80ee426d8c7d73550843b9d511f6ed7ef663618f|2019-06-24|Chris Ringrose|update exception decorator to be more specific; reremove engines.py
+488d71700a60ea887279dfaf9382bcf31add203b|2019-06-24|Josh Horton|Merge pull request #65 from qubekit/torsion_fitting
+d17f12e0c635a340abfcca8b4a459b2caa9fc285|2019-06-24|jthorton|merged
+58a80ed2f8332f9932ad5a5b63bb18bc8a4b459a|2019-06-24|jthorton|Merge branch 'master' into torsion_fitting
+5ccd1d8adef8195381b5834e4594e549342bf1cf|2019-06-24|jthorton|Torsion optimisation update 1.
+bb4a2e65523b50394844854856ece705c79c6f85|2019-06-24|Chris Ringrose|Merge pull request #64 from qubekit/travis
+ea3e20b68f128d38c87821c1f07b027474e87e65|2019-06-24|Chris Ringrose|Allows imports and installs to be minimal per job.
+17984377b4cf83a14db7ca30a721712384c6a623|2019-06-24|Chris Ringrose|Rerun tests
+2ab61404b6d0db389c110e09463411d2061abf46|2019-06-24|Chris Ringrose|Merge pull request #63 from qubekit/travis
+b501ef27045abf0dfd1f8ea1198564e76926aed6|2019-06-24|Chris Ringrose|updated tests to run locally
+8da9ce7f2a0d1a91b25c26e0c16ab73299f2aca7|2019-06-24|Chris Ringrose|Update .travis.yml
+401c4b10ed3675aa0e431bc5f50951d22b79dd53|2019-06-24|Chris Ringrose|Merge pull request #62 from qubekit/tweaks
+2a993bae164b7d4f2230d5d2c8353baa7f37f53d|2019-06-24|Chris Ringrose|removed tests; updated travis info and versioning
+40969cbdee904317390b302f8dcbd0af582efc04|2019-06-24|Chris Ringrose|Merge pull request #61 from qubekit/tweaks
+797172b48e4021e37090597bd5b9f2102f32b6a9|2019-06-24|Chris Ringrose|removed tests; updated travis info and versioning
+2e5c8d5a41488d7a61f187a7fda9967feb351b6b|2019-06-21|Chris Ringrose|Merge pull request #60 from qubekit/tweaks
+9779872319960802386d739c1eacecea5e8a9e05|2019-06-21|Chris Ringrose|greatly simplified and improved logging of exceptions; minor dihedral fixes
+3fe51d4ffd96efbe597783be8812c8f81a4b9261|2019-06-21|jthorton|Travis tests updated mod_seminario special and scalling test added.
+a69e1f5c0cc6de6c49dae7ac6f032a7b471e06dc|2019-06-20|jthorton|Seminario conversion factors updated, indexing fixed in parameters, dihedral optimisation clean up, seminario unit tests added.
+e66522369330fe0f16927328f59719391e685b02|2019-06-19|Chris Ringrose|Merge pull request #59 from qubekit/tweaks
+a3a4d7577930f37c02acb30631835c92d701a0f9|2019-06-19|Chris Ringrose|exception logging fixes for pathing; csv generation fixes; better pathing in run file
+dc8010a963b092304e45fe0f09cebbc2b37fbbca|2019-06-11|Chris Ringrose|Merge pull request #58 from qubekit/tweaks
+ebe622c576c4c03ff5462f810e8700e51a2acd68|2019-06-11|Chris Ringrose|travis conda upload tweaks
+ac0c0d24937ad1a80d46c0c251a993a12d5cd985|2019-06-11|Chris Ringrose|fixed argparser grouping; added more travis testing; fixed file reader element finding; added a couple of optional commands
+ea86a1036a5ca1ff5ed5d02a98a732cdfd28e50b|2019-06-11|Chris Ringrose|fixed argparser grouping; added more travis testing; fixed file reader element finding; added a couple of optional commands
+3acd999a0aa398156153f1140646965fc12325ac|2019-06-10|Chris Ringrose|Merge pull request #57 from qubekit/test_set
+4fee7bd08e562c34479b2aa70dd762a9f18cb35f|2019-06-10|Chris Ringrose|Merge branch 'master' into test_set
+d97e8262eade3592dc062fe86390f8ea5a8f81b1|2019-06-10|Chris Ringrose|var name consistency changes; engines cleanup; clearer ordering of ops in engines
+a4c5765462023e6e59328a0dc2248345de2f158c|2019-06-06|Josh Horton|Merge pull request #56 from qubekit/torsion_fitting
+7d40d9998646dcd2a33ebeb1d932350e2511119b|2019-06-06|jthorton|coords fix and index refactored to atom_index
+49e1f4319daac0e35e940f8319175210d4586644|2019-06-06|Josh Horton|Merge pull request #55 from qubekit/atom_class
+153787de220bfacd012b8deacdbdfc34c7108ff4|2019-06-06|jthorton|Merge branch 'master' into atom_class
+424c69535b29162a6bb871fa5b40cfe2a3a3daa1|2019-06-06|Chris Ringrose|Merge pull request #54 from qubekit/test_set
+16844efa7efb9c9d003c9cbd5ebb98a20d1ad0c9|2019-06-06|Chris Ringrose|edited decorator slightly for clarity
+c9e3dc0504695127b4c0c26128649287d098574d|2019-06-06|jthorton|Handel different g09 errors when detected, added torsion scan zero based numbering
+f417d1221d45504fa781df582cdcfa5bf8b66b17|2019-06-05|jthorton|Mol2 typing removed and replaced with smarts, dihedrals updated, mod sem and lennard_jones fixed
+99afd82dbf1f9b1a655408e9d8a74a3a22d0aca5|2019-06-05|Chris Ringrose|Merge pull request #53 from qubekit/test_set
+7a4deddcabc237994b1295315891771e60487dbb|2019-06-05|Chris Ringrose|added option of max_execs to csv generation; updated readme
+72d410a47fb02e8744b3952beee2379c3652056c|2019-06-05|Chris Ringrose|Merge pull request #52 from qubekit/run_file
+1dbb9062f92ab4cc5c3f463face46d1775942f0f|2019-06-05|Chris Ringrose|openff defaults fix
+8a95c7e2c3e68393b8e9293611e493ea057443d0|2019-06-05|Chris Ringrose|Merge pull request #51 from qubekit/run_file
+4795d2beee77c154402c50cc9a56ccb2fcf1d117|2019-06-05|Chris Ringrose|timer logger now (more robustly) extracts log file path from decorated functions
+ed7a2e81a102e093d73fa2b84e978b08ee6368ff|2019-06-05|Chris Ringrose|Merge pull request #50 from qubekit/run_file
+ff3943d7a2a5b6ae41e05e7f6b149d3484311188|2019-06-05|Chris Ringrose|qm_optimise fixes with qcengine; better displaying of errors
+aed72b0139f8682f738662f8b4fd7b720ac183ef|2019-06-05|Chris Ringrose|Merge pull request #49 from qubekit/run_file
+6a7294b2988844c3f6e3cf8ab3e043df43f7ccd8|2019-06-05|Chris Ringrose|Merge remote-tracking branch 'origin/run_file' into run_file
+4840fbd9a210fbc9c5677f90518ad4bbbd736afb|2019-06-05|Chris Ringrose|better handling of directory changes for bulk runs
+5acb6306ccc6ffb8bf85d5f3b2bead2db7c9eea2|2019-06-05|jthorton|Atom class added to contain per atom infomation. Gaff types removed and RDKit file readers made default
+84599d74af7bc98c2fe86b0120cd12f316989708|2019-06-05|Chris Ringrose|Update .travis.yml
+5ca3952b771ba2ec2da51bbab8d2a99f6882d7e1|2019-06-05|Chris Ringrose|travis yaml syntax
+e2c41b396e8e35ddd8ca24228772a81145b3c12f|2019-06-05|Chris Ringrose|Merge pull request #48 from qubekit/run_file
+c8b844c6656fc31d278a77d5405ecd493c34e20b|2019-06-05|Chris Ringrose|travis force test
+b997a421e4bd6a9b6147fc08c38b0181be370397|2019-06-05|Chris Ringrose|Merge pull request #47 from qubekit/run_file
+dd812f96863292ec9b6778d408f50c0bad7923f6|2019-06-05|Chris Ringrose|travis and conda changes; updated version
+ecbeeb95db91f4203c985ae17198441146cabff3|2019-06-05|Chris Ringrose|Merge pull request #46 from qubekit/run_file
+3e413708dd4872e062eca2b9e1f8b760165a87cf|2019-06-05|Chris Ringrose|tests coords fix; travis conda changes; readme additions; dihedrals docs
+ec986e50e32adb37208529e9c4663038c9a61d82|2019-06-04|Chris Ringrose|Merge pull request #45 from qubekit/run_file
+8bff8e5941f08f63bbff67460515613d0dc2466d|2019-06-04|Chris Ringrose|optimised_structure() fix; geometric file write fix; readme cleanup of defaults; run reprs;
+2d19a8c4f4e6f9bd9117e19e5c01d9ccacffddc0|2019-06-03|Chris Ringrose|Merge pull request #44 from qubekit/run_file
+a565ef64fd07785239dab7740dd7962ff1c46b5d|2019-06-03|Chris Ringrose|Lots of doc additions; shebangs; some variable renaming; bulk run properly creates working dirs again; protein run config removal/fix
+25045c8ee5b6eb662c6d0dc44beb3d99b368daf0|2019-05-28|Chris Ringrose|Merge pull request #43 from qubekit/run_file
+2365164498a83d23957e5d08a63c2f945b15bf8d|2019-05-28|Chris Ringrose|Added more config options; documentation clarifications; cleaned imports; bulk analysis tidy-up
+13b717b096c35fc12509c7ca58db0fa7dc2f3a33|2019-05-20|jthorton|Progress stage added and responds to restarts, geometric psi4 fix
+1bd8ac58edc6f0f9e79c2e88663175bce81efca8|2019-05-20|Chris Ringrose|Merge pull request #42 from qubekit/run_file
+3050daa4622939eb76115ed1bce6506f1610ce33|2019-05-20|Chris Ringrose|Exception logger fix; better logging; fixed some warnings
+a6539a87c49f45ffc35ef256a931abd4ef3db272|2019-05-20|Chris Ringrose|Merge pull request #41 from qubekit/proteins
+5784debee72efe562e3687adc0fd92c6e542b9fc|2019-05-20|Chris Ringrose|run file rewrite, just like old times. Streamlined configs; better handling of all types of execution; pushed more into Ligand object
+2d2438b9ded764e770126c9a8d9d84c523ee127d|2019-05-16|Josh Horton|Merge pull request #40 from qubekit/gui
+2725cdc57ae48d038236209e1f2dc838d89ab2a3|2019-05-16|jthorton|GUI clean up
+97770c83ef730cc2eceac592de5fd835cf488a63|2019-05-16|Josh Horton|Merge pull request #39 from qubekit/gui
+4b53b60fd09af1f77903b81e6083674096aa9274|2019-05-16|jthorton|Merge branch 'master' into gui
+b24dbaad18fe4ef2d6933be3fe0d074446749c29|2019-05-16|Chris Ringrose|Merge pull request #38 from qubekit/proteins
+6503ad7e5e844ea9f2da4ad94564e46e07b46844|2019-05-16|Chris Ringrose|default parametrisation arguments fixed; import fixes
+2e9dd4f1195504ec53da1c4df8707122b1c7be3c|2019-05-16|jthorton|GUI rep update qcengine change and dihedral clean up
+6a44912ca1d8e941f09752b0691c4e2126fea554|2019-05-16|Chris Ringrose|Merge pull request #37 from qubekit/proteins
+e6bb96115dccecc5c752d242600072430490bf2c|2019-05-16|Chris Ringrose|mol2 fixes; parametrisation defaults; babel command fix; fixed onetep file reading; temp patch for readme reader
+1c6824ad17daeab19433a8205071056c2d416a16|2019-05-15|Chris Ringrose|Merge pull request #36 from qubekit/proteins
+47d71f0c170882312f9fca798f113c3c8d2787c8|2019-05-15|Chris Ringrose|Initialise Ligand objects as None; fix method overloading; fix progress bug if error on first step; updated manifest
+cfb4586d60c201e4d7cd9ae4cc9503c501e15e87|2019-05-13|Chris Ringrose|Merge pull request #35 from qubekit/amino
+32594b066ff50d44214c804f9693d8550cab9c74|2019-05-13|Chris Ringrose|Cleaned imports; tidied run file; improved messages; removed old comments
+bc6883b829d112dd1821e798e58b60d5b9b364af|2019-05-03|Josh Horton|Merge pull request #34 from qubekit/boron
+2741f0bb56ae29e76b225b38149dc7b30c4c8715|2019-05-03|jthorton|Merge branch 'master' into boron
+377092e6d43c9656b9bc707e4306d34dd474c978|2019-05-03|jthorton|Lots of changes
+6944c6048a7d59c95cf28c05620a0c542219bd81|2019-05-03|Chris Ringrose|Merge pull request #33 from qubekit/amino
+55896ea5277db82b4caafadab8e29ca5b21c5c25|2019-05-03|Chris Ringrose|Tidied TODOs; cleaned imports; improved file reading
+94ed10a8057dbb0b47b3b5b8ad3a24e75ef151d1|2019-05-02|Chris Ringrose|Merge pull request #32 from qubekit/proteins
+54bb99eef8f38396640ad61b7129e104769890b1|2019-05-02|Chris Ringrose|Integration fixes; changed import style to standard
+1efe0f0f4e46c690ada7a00fb291d12852315238|2019-04-25|Chris Ringrose|Merge pull request #31 from qubekit/integration_testing
+4af8e5c73af8acb35825d6c9d36e5b9f456e7019|2019-04-25|Chris Ringrose|bulk run fix; conda fix; progress additions; added backups instead of overwrites
+c0f986cdffe4cbeccd2e9576b59501a50edf4af9|2019-04-24|Chris Ringrose|Update README.md
+ee241193cc5a8309c6b40402cac37dfe89e5eb12|2019-04-24|Josh Horton|Merge pull request #30 from qubekit/boron
+485374a4d4fe5005f96c22569775d45184798773|2019-04-24|Josh Horton|Merge branch 'master' into boron
+d55baff8b278c5e8228b1e20939f5f173c9e5616|2019-04-24|Chris Ringrose|Merge pull request #29 from qubekit/proteins
+6a3c41bdde829f045b58b801e1a051ad879c4502|2019-04-24|jthorton|QCengine fixes and boron basic parameters added not tested
+91faedaa4608ba4b2621c0f740daeea312f81e72|2019-04-24|Chris Ringrose|Readme cleanup; minor tweaks and style changes
+6813b7c65caa90d5f22eb2a52f5f6ba60d4b1777|2019-04-23|Chris Ringrose|Merge pull request #28 from qubekit/qcengine
+8244abbf082da69d05bb7ad9b041a74bce02bf16|2019-04-23|Chris Ringrose|Merge branch 'master' into qcengine
+9eb8172c5593267870f8599c1fb4c2239f349e1a|2019-04-23|Chris Ringrose|version tweaks; conda build env changed for travis; ligand printing cleaned up
+fda4e6468927beece17abf88d9c19497b0e5bd5a|2019-04-18|Josh Horton|Merge pull request #27 from qubekit/auto_opt
+f879641f890e970be782608048fb0ac297c56690|2019-04-18|Josh Horton|Merge branch 'master' into auto_opt
+3952a0bfefb98c255e0457c7db1e2947eea1c288|2019-04-18|jthorton|RDKit engine added, openforcefield 2 support.
+6bf390474a36731621cb7613877fcfad3db9c7af|2019-04-18|Chris Ringrose|Merge pull request #26 from qubekit/qcengine
+5f7964ab21667527c96c2f44384c9afef96c2304|2019-04-18|Chris Ringrose|Merge branch 'master' into qcengine
+613604807da14fc84109477128fc53d95a91ba77|2019-04-18|Chris Ringrose|proper versioning for pip and conda (date based)
+7f16335905a17913cfbed2a769652dedbe6b83c7|2019-04-18|Chris Ringrose|Merge pull request #25 from qubekit/qcengine
+17663dd2ee34b91680615df65f962f5fc677aeff|2019-04-18|Chris Ringrose|force conda upload
+1ae712a67545367c81277f0ac9590ebfa7e351ea|2019-04-18|Chris Ringrose|Merge pull request #24 from qubekit/travis
+9313c834ac0329d77108341d479ec33ad57d69da|2019-04-18|Chris Ringrose|rdkit yaml requires
+a5c3cff280b9b1a04a4d6185fdfa6d48b742df74|2019-04-18|Chris Ringrose|Merge pull request #23 from qubekit/travis
+0bdc218c7892838d3f110395b9dffa311598d8c3|2019-04-18|Chris Ringrose|documentation additions
+d4f03d1590f0ad6948b733cf8a2f1ad9bb17cf93|2019-04-18|Chris Ringrose|Merge pull request #22 from qubekit/travis
+687ec5ea077f1862a6f95f1bc0343215e01b6352|2019-04-18|Chris Ringrose|documentation additions
+d51af217b0722d80623f7ae6114792be64f77a0f|2019-04-18|Chris Ringrose|conda upload changes
+ef2c1066483d138c98eb23c4a727a3cbc349c40b|2019-04-18|Chris Ringrose|Merge pull request #21 from qubekit/conda
+2055162b96aec8b71d11f2fc4d9d4c14e63f8d96|2019-04-18|Chris Ringrose|setup changes for travis conda build
+d8785c5adfe7aa6fddd3d76deb3e183f44ca98d1|2019-04-18|Chris Ringrose|Merge pull request #20 from qubekit/conda
+a441dd3d2873b6e4162f1d6748c79f522a45197c|2019-04-18|Chris Ringrose|setup changes for travis conda build
+4aab52ea3cfedaaeed823f918612741152697f18|2019-04-18|Chris Ringrose|Merge pull request #19 from qubekit/conda
+70acb5fcef32bbd128b342016a9adf434977171c|2019-04-18|Chris Ringrose|conda auto build and upload
+14041e30a5edf9427e7e5c8ba0433d3c5257e2ea|2019-04-18|Chris Ringrose|Merge pull request #18 from qubekit/conda
+787161c5c7ea25285614ca9970fc57d28ae3d22f|2019-04-18|Chris Ringrose|conda auto build and upload
+b8abac374d739053f5998d3d4e87cf64aad6081f|2019-04-18|Chris Ringrose|Merge pull request #17 from qubekit/conda
+7dc706a0a0a2b4ce600cd419746c2790ab1f167a|2019-04-18|Chris Ringrose|conda tweak
+fbcf81f04ed6cfbac8439171c141c25a7b00e83c|2019-04-18|Chris Ringrose|Merge pull request #16 from qubekit/qceng
+13893c5e74eb3dd73b4984d1d1f4fc5d394cd7f8|2019-04-18|Chris Ringrose|qcengine optimisation implementation; conda auto-upload fixed hopefully
+47bf2ed2c9d992220291a6891ecca5c60c0222dc|2019-04-17|Chris Ringrose|removed unused import
+d1de3b076b40f20b66d80482438e65dbce6fd568|2019-04-17|Chris Ringrose|Merge pull request #15 from qubekit/progress
+3272c2793105b24d809053bad9e8322bfd81b199|2019-04-17|Chris Ringrose|updated progress command; docs additions and changes; fixed skipping stages
+1918f74c2d5bb4b0f58c5265b1782c7133f443d3|2019-04-16|Chris Ringrose|Merge pull request #14 from qubekit/docs
+3285b761594e6aa88cc879352af836a53d342f6a|2019-04-16|Chris Ringrose|Allow constraint files; simplify run; handle xml parametrisation properly; better file handling
+555709f9e90137fdda9969cf0aa919e746357549|2019-04-15|Chris Ringrose|Merge pull request #13 from qubekit/docs
+c039e66446db2c57f00e9bbcd2a4db2ea61c58ff|2019-04-15|Chris Ringrose|cleanup of test files; fix run to work with molecules containing hyphens
+fe3c70e0b7dd7f31f06d6546ad1f44389068e53d|2019-04-15|Chris Ringrose|Merge pull request #12 from qubekit/docs
+e230ce80255103a0afa3cc06b3139ef9c906f7b7|2019-04-15|Chris Ringrose|More tests; better docs; run tweaks
+bae269fafcff84862ca6e518ef89e3bfbdb23def|2019-04-15|Josh Horton|Merge pull request #11 from qubekit/dihedral_files
+1dbd406f35f12e7f0556e64d1ebd112f8a9783a8|2019-04-15|Josh Horton|Merge branch 'master' into dihedral_files
+1b0e944ff315d7ba2bff8c48baac2ba583fe9b36|2019-04-15|jthorton|Updated xyz reader to read full traj of optimisation to work with future versions of geometric. Added param and ligand tests.
+c8a1ffc016bdddb4e1cff0c36e80c50c1a8c266c|2019-04-12|Chris Ringrose|restart tweak
+04fdca38acf5910ffe16edd90aac1afab5ba35fb|2019-04-12|Chris Ringrose|Merge pull request #10 from qubekit/torsions
+af38fb56d5fe229d1e71ede40f842581f63c5aa7|2019-04-12|Chris Ringrose|Merge branch 'master' into torsions
+547e04b3bc02647756db693318466dc1c6e1d64c|2019-04-12|Chris Ringrose|bulk and restart run fixes and documentation additions
+fc4f99d4ac181efc958f7fdb77cc326ba96f3666|2019-04-12|Josh Horton|Merge pull request #9 from qubekit/testing_torsions
+6865bdce44a78db9f0912bd8557ec96fa071d123|2019-04-12|Josh Horton|Merge branch 'master' into testing_torsions
+7977fa5fd3c627e59f6084dcdcd042ca32ce4de7|2019-04-12|jthorton|Updated xyz reader to read full traj of optimisation to work with future versions of geometric. Added param and ligand tests.
+9b5beb6719dc1e8618da68467371bf1a05c93bc9|2019-04-11|Chris Ringrose|Merge pull request #8 from qubekit/p_progress
+52757e5abf42c36b8d872194443c5665826f04aa|2019-04-11|Chris Ringrose|pypi upload fix
+fddda13f30e41ff343e5967d26ed5d4be0656ed9|2019-04-11|Chris Ringrose|Added travis badge
+f4a50d370547364547854403c8ae5bcef7973316|2019-04-11|Chris Ringrose|Merge pull request #7 from qubekit/p_progress
+1ff43e48f2ddcdbd259423d85fa51cff462dcd72|2019-04-11|Chris Ringrose|Log files and pretty_progress fixed; cleaned up parametrisation and ligand files.
+139bad2eae4b6216a7c29e603248d251b334b62d|2019-04-11|Chris Ringrose|Merge pull request #6 from qubekit/unittests
+30ab51b6ac251617a40264393368b1988aef3b7c|2019-04-10|Chris Ringrose|Removed need for pathing with unittesting
+2b504fa30d63bad1d7ed0fd9ad394474f9f8688c|2019-04-10|Chris Ringrose|Unittest tweak
+b93e5aefe496feecb2d9f7ed4ba4b9286d33f4aa|2019-04-10|Chris Ringrose|git ignore fix for unittests
+86956a6f5cf0f1924bae2492e03a03b4ccd808af|2019-04-10|Chris Ringrose|Merge pull request #5 from qubekit/unittests
+365eb818b4fe736dd2e9b04d3b7ec584c63eb88e|2019-04-10|Chris Ringrose|git ignore fix for unittests
+cc372f641dc697464b030ab4d90059d00258142d|2019-04-10|Chris Ringrose|git ignore fix for unittests
+994f2a149e0fd246f4d1019b6426f40c63b85bb5|2019-04-10|Chris Ringrose|Merge pull request #4 from qubekit/travis
+447e854c3fdf2f3201a922f8d3cb1bdc7e674f70|2019-04-10|Chris Ringrose|conda environments and travis integration
+637d3bec6a203bc10e483e5cfc69b4eaa735f69a|2019-04-10|Chris Ringrose|conda environments and travis integration
+26826c883c7c5319c312c16fa2752f20037d9237|2019-04-10|Chris Ringrose|conda environments and travis integration
+1b576b1bce60b0b991d3e58edad956f46d1b4eb5|2019-04-10|Chris Ringrose|conda environments and travis integration
+7e2b4256a79a19eaa439aa047fce23912d58eb61|2019-04-10|Chris Ringrose|conda environments and travis integration
+6f381aab4f9b05697ae6fa167de467769c981d85|2019-04-10|Chris Ringrose|conda environments and travis integration
+074461ec1519ce6d7fe810438aa60277da0e594b|2019-04-10|Chris Ringrose|conda environments and travis integration
+7373f3f9bc1fefa93470611dc234af3ff908021f|2019-04-10|Chris Ringrose|conda environments and travis integration
+45dde7935c336dc207efc20b6b3c9bf7fb1e875f|2019-04-10|Chris Ringrose|conda environments and travis integration
+94784036a1c2374ec814a88e27557d4a5dcdfaf6|2019-04-10|Josh Horton|Merge pull request #3 from qubekit/qc_stuff
+227cfd68e30f88608373953f2a3165111ca90ee8|2019-04-10|jthorton|Torsiondrive and geometric working with onetep skips
+be2e40df7ec914b6f103c5d14c346bdd50be197c|2019-04-10|Chris Ringrose|Requirements fix for travis
+823e00b10253be2faf9acfcfaa128ad30bf94058|2019-04-10|Chris Ringrose|Requirements fix for travis
+8ab468bb699861b27d6c5362eab220651c50bc5d|2019-04-10|Chris Ringrose|Merge pull request #2 from qubekit/qcengine
+562a1ad2c2d6319acb164ca346d40ba52b9b16ce|2019-04-10|Chris Ringrose|travis pypi integration; more qcengine stuff; improved skipping in run
+967bb17aa3f94f223307db43e1a3c56f1626b12c|2019-04-10|Josh Horton|Merge pull request #1 from qubekit/qc_stuff
+af74ebea3b9d660385a51a09d12dfd97f1b92b03|2019-04-10|jthorton|new repo test
+874ee5a7200de5672b4e41e1caa2d15757c2a25b|2019-04-10|Josh Horton|Merge pull request #79 from jthorton/torsion_restart
+e5b250c29c4651f32a93ddd86872566cce6ac5a9|2019-04-10|Josh Horton|Merge branch 'master' into torsion_restart
+276fe63096719e4e5f8892a674ad0b88f7dec1df|2019-04-10|jthorton|Running will now skip onetep in bulk
+69bf0a513a53eaa9fd4c6be45af483e18f71f3b0|2019-04-10|Josh Horton|Set theme jekyll-theme-slate
+3be5a952a0f5553771a1cd5f22d0b3519dff0005|2019-04-10|Chris Ringrose|Merge pull request #78 from jthorton/qcengine
+d63b66f3ba9c11f2124a871e5daecf0aab2a6786|2019-04-10|Chris Ringrose|Geometric with qcengine; travis CI
+48e0af4b7457ee35b5941847411f97d917af0dfb|2019-04-09|Chris Ringrose|Merge pull request #77 from jthorton/documentation
+43a2382f675b44beaf2f8b4da7c0719eadc2258e|2019-04-09|Chris Ringrose|Added skip options in commands; started with qcengine
+720b2fddca5328644266f64c689078e804d9da7b|2019-04-08|Chris Ringrose|Merge pull request #76 from jthorton/documentation
+9f14f63566741a9d8c70a73711c401ec5aa84dc0|2019-04-08|Chris Ringrose|Changed pickling method; removed old code; documented changes to input methods; cleaned up ligand class; fixed configs
+f6be739fc74828597182f0c5a52fb117b9091e59|2019-04-08|Chris Ringrose|Merge pull request #75 from jthorton/documentation
+b3b2c0323946d5acae2014367c64553162b70389|2019-04-08|Chris Ringrose|Working run file; logging tweaks; TODO cleanup
+78a1b0296b40c10a882149a01990380633aa067e|2019-04-08|Josh Horton|Merge pull request #74 from jthorton/run_rewrite
+23fb1195645ca6dde521a40ec378c22a839e41c2|2019-04-08|Josh Horton|Merge branch 'master' into run_rewrite
+6b0b0b2b8951e4021925cb094452e880c304bfbc|2019-04-08|jthorton|Run file rewrite and Onetep work flow skips
+cba4d1793cf9eb68fa8b0f31ed4feb492ac1836c|2019-04-08|Chris Ringrose|Merge pull request #73 from jthorton/run_fix
+6c7471a1f771e2dfe2cabce5ef02337898dec354|2019-04-08|Chris Ringrose|Tidy TODOs and suppress some errors in inspector
+fb695ef20b86c9cda2f0f4f0546dd115896ebe40|2019-04-08|Chris Ringrose|Merge pull request #72 from jthorton/run_fix
+74cd0eea515390693a5a390c187e6640e3dfcda3|2019-04-08|Chris Ringrose|Fix some incorrect error messages; sort TODOs; readme updated for log changes
+cdcc3c1ce7acc52bd5ba4079c11f24497612115e|2019-04-03|jthorton|Merge branch 'master' of https://github.com/jthorton/QUBEKitdev
+91d5b8b27eb89698b7258acb7f6a13cfc813d98c|2019-04-03|Chris Ringrose|Merge pull request #71 from jthorton/run_fix
+5585ea9111dcba19419f39a06169f5bff7b91f06|2019-04-03|jthorton|Merge branch 'notebooks'
+12fe2e3c72c2320f5c1f4311425d59bcee65ee6b|2019-04-03|Chris Ringrose|Simplify imports; remove old code; refactoring
+0c8b95a2a50e50387c75b3ef3702bbc3e2926fa6|2019-04-03|Josh Horton|Merge pull request #70 from jthorton/notebooks
+0ea74f29e135b5ff917e87bd411de019f939f4dc|2019-04-03|jthorton|notebook update
+6993e493395b6454e9df0d6385515defc0e6d698|2019-04-03|Josh Horton|Merge pull request #69 from jthorton/protein_tools
+05cff881352fa2105c7a1cde22086eb28526ee8e|2019-04-03|jthorton|ProteinTools added and example notebooks
+b23344bcf7fcf8167cd64a9ee6f90e71f5943091|2019-04-03|Chris Ringrose|Merge pull request #68 from jthorton/run_fix
+379e44878fc4749d26eebf41160630aa52e6a5cb|2019-04-03|Chris Ringrose|Simplified logging; better file walking and improved decorators
+97422b15835c217fa0a10e88a7d3b15d36793363|2019-04-03|Chris Ringrose|Merge pull request #67 from jthorton/run_fix
+4fd47b3a68e05431643a02803b90c19d06d96f46|2019-04-03|Chris Ringrose|Fixed run file navigation; removed old code; fixed molecule.molecule dict
+ed226648a460edf4c820ad88d01049a9000e8dc9|2019-04-02|Josh Horton|Merge pull request #66 from jthorton/torsions_again
+75a5d8d2165a740bdf1fa68a7a96da86b6e6197f|2019-04-02|jthorton|Merge branch 'master' of https://github.com/jthorton/QUBEKitdev into torsions_again
+40620a2d03dab97cd00a2e36fcd4ffc55929199e|2019-04-02|jthorton|Merge branch 'master' into torsions_again
+abf29083a23fe9dc8d878a7d7389b8a850900e89|2019-04-02|jthorton|Torsion drive in work flow, onetep engine added, symmetry done
+ed0585138f50a600d0e7f837d4341ac6581c54a7|2019-04-02|jthorton|Torsion drive in work flow, onetep engine added, symmetry done
+4d0937594d2f291f081a11587f844ecd9db034de|2019-04-02|Chris Ringrose|Merge pull request #64 from jthorton/conda_build
+3565d604a4b13e512af6262778498fd4dcbad883|2019-04-02|Chris Ringrose|Conda and pip install documentation info
+74fcdf3a61a0c70fdd26d1271ad8095b9648c47a|2019-04-01|Chris Ringrose|Merge pull request #63 from jthorton/conda_build
+7c77d16b1b472e6641ff459a1d843bc3c60303d1|2019-04-01|Chris Ringrose|minimal conda setup
+fad4efebf3733069a5ae6ffd42d44174c2b46900|2019-04-01|Chris Ringrose|Merge pull request #62 from jthorton/conda_build
+78be84252c4bdfcc3ac09f3948ec4c2800523ebc|2019-04-01|Chris Ringrose|conda yaml remove dependencies
+2817208d6f8374c1a6ab7b63f5ecb31b65fc6cfa|2019-04-01|Chris Ringrose|Merge pull request #61 from jthorton/conda_build
+39afc0ae396cd9f48ff9713ccd3f115fa466526b|2019-04-01|Chris Ringrose|Merge branch 'master' into conda_build
+66b8c97c1e6da705c1a024f5e021520c6b0e539d|2019-04-01|Chris Ringrose|Conda and pip additions and fixes. meta, environment and manifest
+89700648dd6a9367d3f1707aab6feba4b5bdbdc4|2019-03-21|Chris Ringrose|Merge pull request #60 from jthorton/protein_run
+3bfb0f60e0276cb230914abecb86d3c36a4e0b07|2019-03-21|Chris Ringrose|Convex hull additions; formatting; error handling.
+1b87714f65f17f207b6c75f610b3f9284fda0d1d|2019-03-20|Chris Ringrose|Integration fixes; Protein classes behaving properly
+dbad3c42953299505b68082cca985b410e8d1efa|2019-03-19|Josh Horton|Merge pull request #59 from jthorton/torsion-test
+036b997f65672ed87ab84c96a6d653bd65d38aa8|2019-03-19|Josh Horton|Merge branch 'master' into torsion-test
+3ac7f1937508d32d74381deed7bb551bf17c0610|2019-03-19|jthorton|Protein update and torsion progress
+6e774e136aac2e2adda0c514dfa3e1cf36542073|2019-03-19|Chris Ringrose|Merge pull request #58 from jthorton/conda
+6fb10316c98735a2ccf99136f58ad597b577aec3|2019-03-19|Chris Ringrose|conda build tweaks; run optimisations; PEP8 formatting; README additions
+2258a0155a92b42acacc15ddd3b76579441324dc|2019-03-14|Chris Ringrose|Merge pull request #57 from jthorton/protein_torsions
+b26d3a15d282da34f6fb3067d29e3140d319add8|2019-03-14|Chris Ringrose|Protein additions and conda build
+8db0de31574f356b9f77dc371a5df82430dc5766|2019-03-08|Chris Ringrose|Merge pull request #56 from jthorton/protein_bonds
+e864761cb33e20af49290cf4d199e06465e4e74d|2019-03-08|Chris Ringrose|Protein Ligand classes now inherit from Molecule class; more functionality for Protein class too.
+e43ee7bff8e7af10e410ed1f59adfe4c85d06473|2019-03-07|Chris Ringrose|Merge pull request #55 from jthorton/aa_torsions
+aeccb9bc1641b8cbece50440a82f4c303484a913|2019-03-07|Chris Ringrose|Identify all bonds in protein and generate graph ready for xml creation
+ed750ad47dae62e6fde222e44cf756cb5580d600|2019-03-06|Chris Ringrose|Merge pull request #54 from jthorton/protein
+b5a73007ecc9a93a7b13ee49eba5997e94176d0f|2019-03-06|Chris Ringrose|Beginning protein file; reading protein pdbs; param tweaks
+7ba3039f103a7d2d99567ec629c0a9248b2f11a0|2019-03-06|Chris Ringrose|Merge pull request #53 from jthorton/xml
+05e29f01d42e0e6f682a66b68342307ded0534ff|2019-03-06|Chris Ringrose|one line fix
+ad1d071be55d490968119f2e5069b887d242057e|2019-03-05|Chris Ringrose|Merge pull request #52 from jthorton/msm
+789f0032dfc9de94dca6cb7733b8aa0bc7891a4c|2019-03-05|Chris Ringrose|streamlined parametrisation and xml creation
+687cc700a9904c3d4d9135d45bdc7d299e8f406c|2019-02-28|Chris Ringrose|Merge pull request #51 from jthorton/openmm
+b81fcbc6ad91fe426bd40cd05a6e94eef6aa01e3|2019-02-28|Chris Ringrose|Added special case for Mod Sem method
+75bc42d6472e94091bd06d2c05903a0cf3a5c352|2019-02-27|Chris Ringrose|Merge pull request #50 from jthorton/lenny
+904a1eb34073f28aba0e0591313c4c602ffc2079|2019-02-27|Chris Ringrose|dict cleaning; ModSem speed-ups; ligand documentation; general tidying
+06c7613d5395012f6dd8673c4039f9f0239c14d4|2019-02-26|Chris Ringrose|Merge pull request #49 from jthorton/polars
+07605748a5c3a1a71f00ab88bc99304d6c1b6faf|2019-02-26|Chris Ringrose|L-J polar Hydrogen fixes
+8e76789ce62f54d3f492ea2ce6e87148056fe54a|2019-02-26|Chris Ringrose|Merge pull request #48 from jthorton/sigma
+b152b5438a6cf78be51dc5bb7ef21d088e100845|2019-02-26|Chris Ringrose|LJ Units fixing
+14d9e2f17e16ad3eb483906ad3ead0bf0b092e5c|2019-02-25|Chris Ringrose|Merge pull request #47 from jthorton/onetep
+843eb373d7462c2d6da4a9349e240850056f05a7|2019-02-25|Chris Ringrose|L-J fixes and documentation clarifications
+37a0e90afa3db151fe501dc7e637b41253a6ab6d|2019-02-22|Chris Ringrose|Merge pull request #46 from jthorton/torsion
+54c55b9e5cde54ed9dd127e7f81593bdac456b10|2019-02-22|Chris Ringrose|Calculate L-J from ONETEP files; fixed file reading in engines
+b919dc477fcce604c8e8ca7fefdfb9289ef465cc|2019-02-20|Chris Ringrose|Merge pull request #45 from jthorton/v_sites
+28495f5bdc25b69beeaae1feff667c4715aa8e79|2019-02-20|Chris Ringrose|Consistency tweaks to main engine modules
+142a37c650afc2b11ad7f663781633b9eda37bac|2019-02-19|Chris Ringrose|Merge pull request #44 from jthorton/bulk_tweaks
+f188e4f55b35323e0f74505954fc5bf39e854d1a|2019-02-19|Chris Ringrose|Simplified bulk analyses; temporarily disabled polar Hs; cleanup of old TODOs; improved docs (esp cookbook); run file tweaks
+006b89b76ab2fcc09af5b25f23565f2dfe1af907|2019-02-11|Chris Ringrose|Merge pull request #43 from jthorton/gromacs
+214a2963e59efb8d815529815e74dda6c1bcbf91|2019-02-11|Chris Ringrose|Assertion checking, documentation, clean-up.
+77665bae458bff65775002d6552609dea50ee974|2019-02-08|Chris Ringrose|Torsion bug fixes; gromacs additions; run file clean-up; f-strings; documentation; improved error handling.
+c91b01fa224cdc443d85dc1ae5b36ac71fd8a94c|2019-02-05|Chris Ringrose|Git ignore fixes
+c9c32e30764a36965cac39b354f41120dac43d6e|2019-02-05|Chris Ringrose|Removed pdbs
+ab190a1ea8b2090c7d0234085bd0bbe53e1c0f0e|2019-02-05|Chris Ringrose|Removed old pycache and zmat
+e467ad736e4433cb07eae1929d7a472ab661d425|2019-02-05|Chris Ringrose|Removed old config folder
+c21e6e7e5000821608efa4d2b0921917f35c3eef|2019-02-05|Chris Ringrose|Merge pull request #42 from jthorton/openmm
+88595e6ab31546d2661a727e3eff97668af49f9f|2019-02-05|Chris Ringrose|Fix torsion update. Changed configs, improved exception handling and documentation
+c950f5b15e6120aeb4b0f8a5368140c84720004c|2019-02-01|Josh Horton|Merge pull request #41 from jthorton/torsions
+35df021f15720a6c202a81c451a2d892ffe54582|2019-02-01|jthorton|Torsion update
+7c842b7c35f9b059c1da681903d65dd1e9709ab6|2019-02-01|jthorton|Merge remote-tracking branch 'origin/master'
+77f715c73b8c3432daa6df9150a4d5fced4b078d|2019-02-01|jthorton|ignore file
+32245a4b268d16a0155e3d1ae155b37148b9ec49|2019-02-01|jthorton|TODO Test
+ef72bb75a9d99e7683839e7b7c2cae0787abf476|2019-02-01|Josh Horton|Merge pull request #40 from jthorton/torsions
+dab2e23d18c0b90d20bb9a7f2f9a6765c4aa8fdd|2019-02-01|Josh Horton|Merge branch 'master' into torsions
+2ee72381f73f195c14a88cbc6e6f123f5d2099f0|2019-02-01|jthorton|Torsion scanner and optimizer first draft done
+46756163380ba5a008d2e09dab528ec1d130a9ea|2019-01-31|Chris Ringrose|Delete qubekit-0.0.0-py3.6.egg
+da77458a06cfe546506ae36f9c8cf6b0f132cb00|2019-01-31|Chris Ringrose|Delete nodeids
+f52ee7d3d07102b378b2090de86a23d2409951d6|2019-01-31|Chris Ringrose|Delete b8009890.xml
+b15be5f47a1f7fd4a303f6db0d2f74fcc64c4b4f|2019-01-31|Chris Ringrose|Delete workspace.xml
+da62d90ae6ac9280a24319ced277bcb18d7b947f|2019-01-31|Chris Ringrose|Delete vcs.xml
+30d056c9f25027d605e708fc5ada81b967574194|2019-01-31|Chris Ringrose|Delete modules.xml
+fef0fbd93329aa18f4793e4dd4e05de885d71b96|2019-01-31|Chris Ringrose|Delete misc.xml
+c4a9aeaee24cd756b2e01b9c9f24ac9c10538f52|2019-01-31|Chris Ringrose|Delete QUBEKitdev.iml
+c00664af151b3a1a09722684f4dbe2a1552e84c5|2019-01-31|Chris Ringrose|Merge pull request #39 from jthorton/ipcm
+b9a6d32ddca6490ef5741584e5f7e40d35a9ed6f|2019-01-31|Chris Ringrose|pickle fixes
+4ee3616ee5a586c40fb9c6a31c8ba6e623450fb3|2019-01-23|Chris Ringrose|Merge pull request #38 from jthorton/xyz_read
+067802aa4431d5ee0d3ebc3087e752a623d1ce99|2019-01-23|Chris Ringrose|xyz and symmetry additions with some added documentation for -end/-restart
+919d2b85e93b94b3a148f6cd9e2ab7e34b12efbb|2019-01-17|Chris Ringrose|Merge pull request #37 from jthorton/bulk_restart
+983a6f603842816fffb6d2d50a571c60130c154d|2019-01-17|Chris Ringrose|Pickling for bulk runs using csv for start/end markers
+3448dd051fdec10c4be39c03d061ff7f0c742f8f|2019-01-16|Chris Ringrose|Merge pull request #36 from jthorton/symmetry
+2a01e4d63847b4c982f5a4797cb5bbd317935cee|2019-01-16|Chris Ringrose|Pickling for single runs. Works with smiles, pdbs -restart -end commands. Improved logging, documentation, naming etc.
+619fbe46f0d99ad764e5c762dce53cc5783e74d8|2019-01-09|Chris Ringrose|Merge pull request #35 from jthorton/except_ligand
+1ac7decfade690b821cbcd4d983dc76be1b6acc8|2019-01-09|Chris Ringrose|Merge branch 'master' into except_ligand
+3c956c74df9b3b792743c54a7db88d55c3069f53|2019-01-09|Chris Ringrose|Imports fixes; improved exception handling; better logging; ligand/parametrisation fixes; etc.
+d1b99fe5843673d8a64b3deca84d6664ceb97576|2019-01-08|Josh Horton|Merge pull request #34 from jthorton/configs
+ff0940fefc114e5d5d72548011197843152da7a8|2019-01-08|jthorton|Config files allow QUBEKit to be used from anywhere on the pc, setup function added.
+0c3c354de789e5a8284739d7ed939eaa641eb79c|2019-01-04|Chris Ringrose|Merge pull request #33 from jthorton/print_ligand
+78382d45aad09e7164978695af7df6daeedcfd7b|2019-01-04|Chris Ringrose|Helpers git fix
+cb7d0a373d5dfd603692aac412130c6e81645c24|2019-01-04|Chris Ringrose|Gaussian09 and DDEC6 play nicely. Logging and documentation improvements too.
+f7c45510a1ebdb82c545e8547252a3c227d5a4ab|2018-12-20|Chris Ringrose|Gaussian09 and DDEC6 play nicely. Logging and documentation improvements too.
+0d9b89ffa261d4308fb7a256e5a0417ab9f03832|2018-12-18|Chris Ringrose|Merge pull request #32 from jthorton/pickle
+8c0008644fe6728c4222b6b0dcaa9521c714b09c|2018-12-18|Chris Ringrose|Merge branch 'master' into pickle
+1fcd02add6cd1e7aa72765cd98e63ccc7d7f5cdf|2018-12-18|Chris Ringrose|Exception decorators and logging
+a76bf18e2b49f909f553c13cb836201ebd78b895|2018-12-18|Josh Horton|Merge pull request #30 from jthorton/Torsion_fitting
+616660822006aa5484d094319f8b811c9af96368|2018-12-18|Josh Horton|Merge branch 'master' into Torsion_fitting
+c51f1965c5807ff29651df3d87d5c51aec643b9e|2018-12-18|jthorton|Pickle method added to ligand, unpickle added to helpers.
+607f53f2b437d1ea8346242048ef6d14cd510a6d|2018-12-17|Chris Ringrose|Merge pull request #29 from jthorton/throughput
+0288b471bd56d4fafc7e80a682e244715dfb2eb4|2018-12-17|Chris Ringrose|High Throughput fixes (proper csv handling); extended documentation; run file fixes.
+3db18666a4530bdc692829ca97fd35718ade2b1d|2018-12-13|Chris Ringrose|Merge pull request #28 from jthorton/data_gather
+8fe6ed5041da6ecf6961dee915d2b7d0156e4a12|2018-12-13|Chris Ringrose|High Throughput; config changes; documentation additions; general fixes.
+fba1069df88ab279d704b1859dbd3013e6fbd542|2018-12-07|Chris Ringrose|Merge pull request #27 from jthorton/Rocket_tests
+104634476c689eabda38f6005835e87764cc9172|2018-12-07|Chris Ringrose|Modified Seminario: Class based, massive fixes and speed-ups.
+6fbfdc7b10803cac99bd577a947398932722fd23|2018-11-28|Josh Horton|Merge pull request #26 from jthorton/store_xml
+dd682ab72033b86165870ba3d190db1365f8499c|2018-11-28|Josh Horton|Merge branch 'master' into store_xml
+894ea04144bb7fb50957e41b65ee53c810c76437|2018-11-28|jthorton|Antechamber class finished and Ligpargen xml input now works
+2c459585fe98a4b5a237c6e7ec18afc7bae0f6cb|2018-11-28|Chris Ringrose|Merge pull request #25 from jthorton/cadd_tests
+796986315d4a03e8ac57302e845f652eff3c4fce|2018-11-28|Chris Ringrose|Mod Sem changes, Lennard-Jones polar Hydrogens, run classes
+bb18c5de4568852703a26b8292ebf58af6c84dc9|2018-11-26|Chris Ringrose|Merge pull request #24 from jthorton/symmetry
+d81514692c66478284d3cf230b074bc436776933|2018-11-26|Chris Ringrose|Lennard Jones additions polar redistribution, run file rewrite
+e2117367cde2c70ee3d10c8c579ec15542bf6f41|2018-11-22|Josh Horton|Merge pull request #23 from jthorton/parameterise2
+a9fff00885577c616ed04564ec1059d1ad6dacad|2018-11-22|jthorton|Merge branch 'master' into parameterise2
+e896b1b61141292166c0f0a7604b7847926199fb|2018-11-22|jthorton|TODO Test
+b051b089c55fd876d7bcb100511d6911e72752a1|2018-11-22|Chris Ringrose|Merge pull request #19 from jthorton/Gaussian2
+e2214a26122f51bd0e625e4bddfeb2cc71631c59|2018-11-22|jthorton|Parameters can be obtained using the OpenFF class now and will be stored to molecule, molecule can now write xml files.
+905684427633a72cd3bac538e476eee7fa66b244|2018-11-22|Chris Ringrose|Lennard Jones additions, ligand updates, run file file additions, engine class refining, mod_sem refining.
+a4b605549aa06f283bffbaa36c2f5cfa57487bf3|2018-11-19|Chris Ringrose|Merge pull request #17 from jthorton/run_charges
+359afd3ce089824c3da7a06dd91777449e615750|2018-11-19|Chris Ringrose|Merge branch 'master' into run_charges
+f485122045766cdc11b4cb223980df6b8c3f0d33|2018-11-19|Chris Ringrose|L-J param file addition for sigma and epsilon; modsem tweaks (small fixes, speed-ups etc), engines class tweaks and reprs
+7b9e7b629cff1fb2c08675ffd5838f5fb59a7298|2018-11-09|Josh Horton|Merge pull request #16 from jthorton/seminario
+5b80632c74f46e352b15cdf7c1af0d91caf0f3bd|2018-11-09|Josh Horton|Merge branch 'master' into seminario
+76f56c78878774e1a6318d965cf9fda37e1a00dd|2018-11-09|jthorton|Seminario agrees with g09 results. Geometric update that now accepts custom convergence. Torsion class made to interface with crank and get qm energies.
+9c8d93818feb07f674c03faddda4731ffdf23531|2018-11-01|Josh Horton|Merge pull request #15 from jthorton/seminario_test
+3a8369d9664fefa3ead04bc13877ae30ad42c659|2018-11-01|Josh Horton|Merge branch 'master' into seminario_test
+46090730c6dfe70210ee3a7092552cb758f21fda|2018-11-01|jthorton|Seminario works on g09 output files. Convergence not tight enough in psi4.
+09b4b22c13e13ae051071ae7dbc314a0acde4f24|2018-11-01|Chris Ringrose|Merge pull request #14 from jthorton/more_run
+c68f065f4ad6ed7f8e86809492a143c845fdc792|2018-11-01|Chris Ringrose|Merge branch 'master' into more_run
+1fb01e28068e5cf412cbc7b7bd56bf572b3194fc|2018-11-01|Chris Ringrose|Conflict resolution
+c6e4eb968ce34eac1232d7e8aa90b10488973d14|2018-10-31|Josh Horton|Merge pull request #13 from jthorton/seminario
+26be6dc12845cf4ab2f4df79e276485849c82b71|2018-10-31|Josh Horton|Merge branch 'master' into seminario
+47bb0871fb56ec63053845338f57bbb7b6bcb870|2018-10-31|jthorton|Seminario method works for methane hessian to small for ethane.
+0a1f4a566989d0308934a2a820e95de2cf4044ed|2018-10-31|Chris Ringrose|Merge pull request #12 from jthorton/test_checks
+453db23e0dbfcc9a2f451d0aff62c7662dab3c68|2018-10-31|Chris Ringrose|Fixed logging; added symmetry check for hessian
+747454d8a964c6abc2178f1555e4fd70d8211b01|2018-10-31|Josh Horton|Merge pull request #11 from jthorton/seminario
+41588234930465401d26052e1511365df27ceabb|2018-10-31|Josh Horton|Merge branch 'master' into seminario
+3b37fe45f0388d87825acaa189605c22e90a7198|2018-10-31|Chris Ringrose|Merge pull request #10 from jthorton/Logging
+9b05fd6c99f639174ad0176e7ae5e9525627813b|2018-10-31|jthorton|Seminario method accepts the molecule object!
+ed4d17e75edf904ea246e43d96dc05b4f49baccc|2018-10-31|Chris Ringrose|Run file ordering and smiles optimisation.
+4b7d976ea65ba203fd099acd8d01ea8a9d4bcf36|2018-10-31|Chris Ringrose|Merge pull request #9 from jthorton/Logging
+c84da98f45ee0e3f6e20282b9924c5d8c17447c1|2018-10-31|Chris Ringrose|Merge remote-tracking branch 'remotes/origin/master' into Engine
+b8a21a8a2634a17c778afcfa8e46d631718dad02|2018-10-31|Chris Ringrose|Merge remote-tracking branch 'origin/master'
+57b92c654bdb4305939ea19a0de89412988f3818|2018-10-31|Josh Horton|Merge pull request #8 from jthorton/Bonds_and_angles
+20e7b31f0ac42e9f7769a3be18863056573b9f39|2018-10-31|Josh Horton|Merge branch 'master' into Bonds_and_angles
+dc424a7c8c810ecacffe1c361234bf1215363132|2018-10-31|jthorton|Ligand class update engine changes and seminario tests. get hessian broken
+881bd0130fb5837a1253e2d7f3e98e7e7bea1834|2018-10-31|Chris Ringrose|Merge pull request #7 from jthorton/Engine
+034a3725f7301714ae84d7829a0c65cf89939474|2018-10-31|Chris Ringrose|Merge branch 'master' into Engine
+7f9a4f25e7a1ff91f2e7d1ab938ec0c1ab689841|2018-10-31|Chris Ringrose|Class decorator
+295d8ab76c207bbbe30217223aa4ee0754af0921|2018-10-30|jthorton|Ligand class update engine changes and seminario tests. get hessian broken
+202c2514824e3802a6916a08856007b992d2d465|2018-10-30|Josh Horton|Merge pull request #6 from jthorton/Seminario
+f887a861c7af05f01762283cffdf2ecc62ab82e3|2018-10-30|jthorton|Ligand update
+4ae41087956d5ea5b2d675a63b2e70c1e7251019|2018-10-30|Josh Horton|Add files via upload
+0303b3ebfdad1cae27cb61183fd595df0feb98bd|2018-10-30|Josh Horton|Delete Molecule.py
+82f3ed031581e1b3c3c5e497317bce8c31fb917b|2018-10-30|Josh Horton|Delete modseminario.py
+29970c3701eb210f13f17be7c07ae9ebea8fc974|2018-10-30|Josh Horton|Add files via upload
+2ec72d139bb479f69eb77176ed99f871a816db36|2018-10-30|Chris Ringrose|Merge pull request #5 from jthorton/Engine
+fd8fd652cbb9fa515fcb4c79f07194ca4ee0db6f|2018-10-30|Chris Ringrose|Run file rewrite; engines file completed for bonds and charges; better default handling; active directory creation.
+604aaa59920c5050bda50dfb49cd7c78b1d69c37|2018-10-24|Chris Ringrose|TODO Test
+22711bd618be37382fae8274102a0049b5822262|2018-10-24|Chris Ringrose|Merge pull request #4 from jthorton/charges
+ba7ebb15a02ca0d7fd94e4cfe3a70efefad393ad|2018-10-24|Chris Ringrose|Added functionality wrt charges and bonds; documentation additions; beginning of class rewrite.
+9c9445bdb057bcb6a2f079287b61b30e18a33f17|2018-10-05|Chris Ringrose|Added functionality wrt charges and bonds; documentation additions; beginning of class rewrite.
+627827e4fe89e97c94e0024aedb7ab80803a73df|2018-10-05|Chris Ringrose|Removed temp files Merge branch 'bondscube' of https://github.com/jthorton/QUBEKitdev
+64189dab38d1be87812d9e812a7d045b1844b097|2018-10-05|Chris Ringrose|removed temp files
+8f1aa6a533a545086def63c12026e5e38053b0ac|2018-10-05|Chris Ringrose|Merge pull request #3 from jthorton/bondscube
+65776837662892c5ce6054b5998f3638de7da4fc|2018-10-05|Chris Ringrose|removed temp files
+3d017b9bd5adb664ef34e29ab4d97eedf574c706|2018-10-05|Chris Ringrose|no change
+79c5b80be2af682a9f3c3732538c37f0e94a08f5|2018-10-05|Josh Horton|Delete Chargemol_09_26_2017_linux_serial
+40b3067b448ef534fdd79a553f4ad77a5c510a24|2018-10-05|Chris Ringrose|Merge pull request #2 from jthorton/bondscube
+f841e7a6391e1c310340405884561e75b812703b|2018-10-05|Chris Ringrose|Config fixes and options, added timings, better psi4 and chargemol integration.
+e4e43dc54531035aa6d89a0fa478157fe8f829a4|2018-10-05|Chris Ringrose|Config fixes and options, added timings, better psi4 and chargemol integration.
+f6d4e735451e2748944629d8eb1059b6b02f2ae3|2018-10-01|Chris Ringrose|Merge pull request #1 from jthorton/bondscube
+9302e7b007b7cc48495cca67973522cdb0ae43d5|2018-10-01|Chris Ringrose|removed comment
+6dcc0f07253f943936a003e9cc613ecafbb51a74|2018-10-01|Chris Ringrose|Fixes egregious error
+210f153586c1255dd88402b32d5123d3779c898f|2018-10-01|Chris Ringrose|Fixes egregious error
+9d10008ceed8ff323fd8fef2b5e8f7adea50539b|2018-10-01|Chris Ringrose|Delete smiles.cpython-36.pyc
+d888cc5b28bac3144bcb5ecb5a55c7a601e247b1|2018-10-01|Chris Ringrose|Delete bonds.cpython-36.pyc
+90498a07fdee11642cc7c3caa4448a225a020675|2018-10-01|Chris Ringrose|Delete Modseminario.cpython-36.pyc
+55d52538df09e301a67b4631e90025fc8bdcfda0|2018-10-01|Chris Ringrose|Add files via upload
+56bab2a1524ff49fd7e7cbe3a85904ce267d9bc8|2018-10-01|Chris Ringrose|Delete run.py
+b6b1f61234121f3e6be0ecb349698e8dcaa97bb6|2018-10-01|Chris Ringrose|Delete bonds.py
+ca5bdbe483f0dc6f81c1ce08db854e95c25d8d64|2018-10-01|Chris Ringrose|Add files via upload
+7a62499a949ffbda291d8a6a9720829fffe58649|2018-10-01|Josh Horton|Delete MSM_log
+8d46ef3a093686515f9be331681ebc0be0d1e276|2018-09-26|jthorton|josh TODO
+1a3f389b2289ee28ccd26daa23261ddf49cfaa67|2018-09-26|jthorton|Merge https://github.com/jthorton/QUBEKitdev
+452c0ab069d1281f5ac60e4841ce7c94f4da7f95|2018-09-26|jthorton|first commit
+1b2ab72c9e3c6fe71a78085e1d3250c3b2c75a2d|2018-09-26|Josh Horton|Initial commit
+0b6f8d85dcea7adb6793e39f803ec09bdb2bfff8|2018-09-21|jthorton|bonds and psi4
+bb5686ea213f84a33e67daaa8c2fcbff340f988d|2018-09-20|jthorton|intial commit

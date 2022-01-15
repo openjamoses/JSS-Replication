@@ -1,0 +1,366 @@
+c2bbb9609a57cb1f9adc75458b14317796c3b4b3|2020-04-24|Lori A. Burns|Merge pull request #40 from qcdb/dipupd
+126441056212869285bc19c8e1783a32c7c6dffb|2020-04-11|Lori A. Burns|standard suite work: mp2 & ccsd. also dipole as array
+d7a94b86558a30912178aa8fd7904db0f2a4bf58|2020-04-01|Lori A. Burns|convert dipole to array and au
+3558b2d3b07eab021fa5380a74bf769d57017346|2020-03-22|Lori A. Burns|updates: AtomicInput, using(prog). allow 2-delta string cbs input
+c0e899fdeba8b25a0346f944c5e627ea5f1d1ffd|2020-03-22|Lori A. Burns|Merge pull request #39 from vivacebelles/nwc
+b0981b5152bc894eb5d7065e8702e1e25fc3db88|2020-03-20|Annabelle Lolinco|nwc:dipole fixes (array) and tce adds
+2bfd80ee55fb5d018a13931ac73137e9b5b45115|2020-02-14|Annabelle Lolinco|nwc: properties work plus small prop test, minor dft fix
+a0f69422ae3d3cac1f85b9f72efd9a4f5fcbc5c8|2020-02-14|Annabelle Lolinco|update addons.py
+4314801c08dbcd27324cb473176bba6691de8b50|2020-01-31|Lori A. Burns|Update addons.py
+da5f3b27404988b0678200f73c1ed4c72da59ac2|2020-01-31|Annabelle Lolinco|nwc: add all xcs to update
+fb7dfd949f60ae04a7b51dca3e8555393a027850|2020-01-23|Annabelle Lolinco|nwc: working mcscf QA; wip for dft xc test with multi options for dft__xc
+ea9619595863c886f3d1db18929f38f3df1f8eea|2020-01-06|Annabelle Lolinco|nwc: add mp2 direct and rimp2 into energy and gradient
+3d9dc2e0dc137c8c58610e4c3f3e5e1c0efbdb15|2019-12-06|Annabelle Lolinco|nwc: mod old top level DSL opts, fixes to tddft tests (wip)
+bee85574deef787fe3d21d8e159fa134d7633e28|2019-11-26|Annabelle Lolinco|nwc: remove unnecessary test in dft dipole
+318e7701608fd8b687662a0373219f1a461c8b63|2019-11-26|Annabelle Lolinco|comment out properties area for functionality
+ac0c4b4c3e5797f9b7a93a177b28966d57039c4a|2019-11-26|Annabelle Lolinco|nwc: minor change to tddft test, add eom-ccsd grad test and uncomment eom grad in graft
+a65f2f4b74b628cd11600a42b0bd744862b68b86|2019-10-28|Annabelle Lolinco|nwc: props prep, nwc test edits
+46ce01cad7205a7adf14bc1c61e6aa99d2ae66f1|2019-10-22|Lori A. Burns|Merge pull request #37 from qcdb/options5
+8339663b0719990c12ada0309c1b48941b7dd367|2019-10-22|Lori A. Burns|fix exp_ao
+ee1a1bcdfd37369e5d8039798670d3a76760a38b|2019-10-22|Lori A. Burns|lgtm fixes
+110667cd9965168dd9eb234af6b8b3cafb8032fe|2019-10-22|Lori A. Burns|organize fn and file names of all the muster fns
+4cfcc41195f5a21fc0e52bc6b2812cccadf18267|2019-10-21|Lori A. Burns|Merge pull request #36 from qcdb/options4
+6909cafb1435127805ec47e4df4fb2fb9882029c|2019-10-21|Lori A. Burns|small fixes
+357e98102fbaa4e6c3c916fb6cbf039dbc62f97a|2019-10-21|Lori A. Burns|standardize license on BSD-3C
+fcbb831c59030ce6ec972b19044e549444a7ac4e|2019-10-21|Lori A. Burns|isort tests, yapf and order standard_suite
+624d3e97f422418f42cfd2cdd08fba595c2da1da|2019-10-21|Lori A. Burns|move tests/ to qcdb/tests/
+12ef3429fe49ce9461014d2ef4d24ee045edeecf|2019-10-21|Lori A. Burns|lgtm fixes
+6d21d902da55743b5968163be83a4457827c84b9|2019-10-21|Lori A. Burns|various programs rearrangements
+2e95506ec54186fde54462c04dd89a2a89bf4fc8|2019-10-21|Lori A. Burns|gather programs' method and cbs lists into graft.py
+06ccb936d0e94b972ac00f2087da5a85cd7f221e|2019-10-21|Lori A. Burns|yapf! most
+1436624b2c4c193141f891144c310945d202a349|2019-10-21|Lori A. Burns|isort
+36928fe47aab5957fcf0cff05fd4a61e9c0359df|2019-10-21|Lori A. Burns|yapf read_options
+8be6dc46a8054c6febfa9012b641f0beb10a759a|2019-10-21|Lori A. Burns|rename options -> read_options, options -> keywords
+8a2009209641740afc4f54e37adb3be4746e66ec|2019-10-20|Lori A. Burns|lgtm fixes
+98cb1306a8274fcd482dab01fa74892905e98a11|2019-10-20|Lori A. Burns|fix yaml Loader warning
+4b0556d5bc77d73744e588cebcfa53688bfbb42f|2019-10-20|Lori A. Burns|Update README.md
+47532535643a84effe7aa491edc0cd1a87b39c70|2019-10-20|Lori A. Burns|fix basisfamily_list
+8bacd04e7f1d2f6274f9a51ba84fd09f491b6b5d|2019-10-20|Lori A. Burns|lgtm fixes
+e35bda4256fdd034e2c8733758331a717631ed02|2019-10-20|Lori A. Burns|more lgtm
+6ffe885a1eb304f9673567b4bc168fe97b7dae97|2019-10-19|Lori A. Burns|fix some lgtm. clear away some format_molecule_for fns
+cfe357c78e78e1973e3ed73cfa4c0eef732a0cc9|2019-10-19|Lori A. Burns|fixes
+471c22195b2cc427f4d73506d13e827c47ebf400|2019-10-19|Lori A. Burns|let's not shadow a python module
+ae881e13a8df96155da7eb576231f77516f4086a|2019-10-19|Lori A. Burns|ci: fix functools?
+45286654760615d9cca8f275ef739c2bf1259349|2019-10-19|Lori A. Burns|mild clean to driver/
+829aa4212267940a75df4146a567adcac57a9333|2019-10-19|Lori A. Burns|move vecutil into util/
+76b51cec3fa67be033b51775dc8c86ff1f9933b4|2019-10-19|Lori A. Burns|clean up moptions/
+63869a9567bdaab838a7e6d96965c08b939f5762|2019-10-19|Lori A. Burns|clean up qcvars/
+99e0bf2b007006ad86d36034317384536ffc6a63|2019-10-18|Lori A. Burns|adjust from moving basisset/ and removing import *
+661281ceb4890f4cff609d3d40235d7a166122f0|2019-10-18|Lori A. Burns|move basisset, shell, and aux lists to basisset/
+845cd294bcbd43774952a6c95aa1ab678b6f05e8|2019-10-18|Lori A. Burns|clear out unused util, covered by qcel, or updated in psi4
+9317ebfc265cd19db705cf282cbe6ac7f86b7084|2019-10-18|Lori A. Burns|pull over changes from the primarily psi4 files, remove legacy py2
+ffc95cce5287795aa19b7724a66322435255e738|2019-10-18|Lori A. Burns|move non-psi, non-qcdb files we may still harvest from into legacy/
+a0e1da800fa91780612e16bcd7a9ca809d82ab13|2019-10-18|Lori A. Burns|move vpt2 into procedures/
+603d26a6e1d3a207cede7eb80d8039c1c27ca5b7|2019-10-18|Lori A. Burns|adjustments after moving interfaces into programs/
+143152985fe7452b69c84bca848b6fb6b3c0801d|2019-10-18|Lori A. Burns|move interfaces into programs/
+819e9eafef90b911a277f14b219cec7dbd2ae119|2019-10-18|Lori A. Burns|Merge pull request #35 from qcdb/options3
+5b39cfdff13bee3bd77c035fff6c29c0fb000755|2019-10-18|Lori A. Burns|alias keywords, grid and freeze in nwchem
+01e2f2a27eb94984dd5fe8e987c945993232f10e|2019-10-18|Lori A. Burns|fix tests, remove old compare_*
+a39b09b0d3dd5178bfe369a6177b59d71b92bc24|2019-08-31|Lori Burns|testing: reform tests imports and using_*
+5f6a051a74eb6bb8d20cd6eebdcfef0c2328084c|2019-08-29|Lori Burns|ignore DS_Store
+7aeaa08cd72e8c10c0bc3ea7f5f538fa441885fa|2019-10-16|Lori A. Burns|fixes for psi4 update and ccsd std suite after rebase
+6960bd57184e7993803edf2bb0577092fb8638d7|2019-08-22|Lori A. Burns|adapt qcdb runners to work with qcengine migrations
+cfc253521a85b62e22136ff801cab18b4475c4ce|2019-10-18|Lori A. Burns|Merge pull request #34 from zachglick/lateral_grad
+93c40888042e4fe08c59a5168a2e6066347f5f6c|2019-10-18|Lori A. Burns|Merge pull request #32 from vivacebelles/nwc
+2c51851621aba6e739e6226cfc180e09e3d85cca|2019-10-18|zachglick|added some grad tests
+2312be800879a6c7a110084e3a5dcc8ac9489e00|2019-10-18|Annabelle Lolinco|nwc: typo
+ccdec7d1e78c476118ae95edf16e7a5fa2dfa984|2019-10-18|Annabelle Lolinco|nwc: add test hessian
+c36ce4c11637d0aca474932b521fd5a88e493bda|2019-10-18|Annabelle Lolinco|qcdb: rename property -> properties; remove energy part
+9bbbd73665dec1402869593525925b2408b72a80|2019-10-15|Annabelle Lolinco|nwc: hess minor fixes
+5bed01a7351e1dcdea41c93f37a2e281e86858bd|2019-10-14|Lori A. Burns|Merge pull request #31 from vivacebelles/nwc
+a760f0b2ae765909dba0cd4e62150c5feaedc514|2019-10-02|Annabelle Lolinco|nwc: most opts add for hess input build
+eda881a8b3655f4d90a1d244ca638c966bc47533|2019-10-01|Annabelle Lolinco|nwc: start add hess opts
+7809f342f541e0a4f61d58c673efb2be67b716c0|2019-09-30|Annabelle Lolinco|nwc: test fix for dipole fails
+75b4e520f76df52c8777d1ebcc664cea9eb920fc|2019-09-30|Annabelle Lolinco|nwc: dft dipole test fix
+2bda6fc0cfbccfe93457f1e8df8d7295568cfe50|2019-09-30|Annabelle Lolinco|nwc: tce ccd test fix, add terms to glossary
+7af50b7fbcfd764786bb335f20304ac98917ed82|2019-09-30|Annabelle Lolinco|Merge branch 'master' of https://github.com/qcdb/qcdb into nwc
+0522911b36240c2f528cbe29c06084759d99adcf|2019-09-19|Annabelle Lolinco|nwc: more properties updates and notes for nwc 6.8 opts and grads
+1d56566a57564f55d4914cdc948a29a8e5d6d158|2019-09-05|zachglick|cr-cc(2,3)
+e816e303694b29b4396a14f8ece44e0121e15741|2019-08-30|Lori A. Burns|Merge pull request #30 from zachglick/lateral_energy
+e47676220495696f45daf55c471f585006c0c4f4|2019-08-30|Annabelle Lolinco|nwc: first round of edits after relativistic PR
+85b98429a452bb889bd283565c93d019ee8ada2b|2019-08-30|Annabelle Lolinco|nwc: add relativistic function to working energies list
+ebb012cdeba0018984222c4474a31736b4ffd00e|2019-08-30|Annabelle Lolinco|Merge branch 'nwc' of https://github.com/vivacebelles/qcdb into nwc
+a96b68b1adb93a216d1144e4f387bbeec838c0b5|2019-08-23|Annabelle Lolinco|nwc: passing xe_zora test; adjust passing tests with update of qcdb.variable
+f3d3f700005d231ba18529b048556f82c95f13d0|2019-08-23|Annabelle Lolinco|nwc: update relativistic opts, one test case edited (incomplete)
+dd60394dc1823c0af96cf4f3f7cf41ce470fcc9f|2019-08-20|Annabelle Lolinco|nwc: relativistic test with harvest update reflected
+9671e6b75b729ca4d4e0169c7874a5f64a7f311e|2019-08-15|Annabelle Lolinco|nwc: options add relativistic block, adjust freeze opt to standard for now
+ebbac4cf67fda939df69fe093033a9713fac6aa8|2019-07-30|Annabelle Lolinco|qcdb: edit/add property into driver (inc); nwc: edit tests, try capture dipole (inc)
+806948739d4b9d190b21fcc7d5e98e442817e96d|2019-07-26|Annabelle Lolinco|nwc: edit tests, add property to test
+38fa8b951ca313b508433f5e115ebcc5e13062e7|2019-07-25|Annabelle Lolinco|nwc: correct test name, add tce ccsd(t) and ccsd[t] test
+b967a8397fffcc00195103015c17feaad2955708|2019-07-19|Annabelle Lolinco|nwc: tce glossary terms update
+0dcd7a1397e09a76a58ca7bfd1753676dc7e170d|2019-07-18|Annabelle Lolinco|nwc: dipole test add
+bfee0a31a9519a8ea732435e499462e342d4aa52|2019-07-05|Annabelle Lolinco|nwc: tce ccd adjust for optreconciliation err
+a3444e337bf8d46d8f16bbe1c1993dec78510b46|2019-08-28|zachglick|clean up var names
+55460796f91d06cb71cf615c120c5be9b6e2556c|2019-08-28|zachglick|clean up test, better fc-rohf agreement
+bd9f7e8ddf00f87ad0b0a48eea05b9d81bfe7778|2019-08-28|zachglick|ccsd(t) energy tests
+8466332c6ffc121b692c8a527976cd3a455e8741|2019-08-28|Lori A. Burns|Merge pull request #28 from zachglick/lateral_hf_mp2
+7909a34057acd26e88ce027d31b3171f56101c88|2019-08-28|zachglick|remove unnecessary setting
+491bfe899e0bf1946885f1a83df5a6f37a2a2d52|2019-08-27|zachglick|fixed incorrect scs-mp2 formula?
+0a467789a9acc457d518ad43b126f375a4394c7f|2019-08-27|zachglick|fixed incorrect scs-mp2 formula?
+a16e38ccaaec114eddcfb964f1905ef566673fd1|2019-08-27|zachglick|games ospt option, rmp or zapt
+ce68688008519f74415ec90be833cdaf613ae56b|2019-08-27|zachglick|lateral scf,mp2 almost all 1e-6
+0fca73c507e209a57f73d94c30b985791d8e4de0|2019-08-26|zachglick|lateral mp2, all but some rohf
+e9be318bf207266b5b8320f11f7529518164be70|2019-08-26|zachglick|lateral hf test, 1.0e-5 agreement
+84ffd21022e780e737e29216e3b46459546e09ae|2019-08-26|zachglick|clean up tests
+df37207e719d7b9545dc827e4ad45cd8ca4a4dbe|2019-08-23|Annabelle Lolinco|nwc: passing xe_zora test; adjust passing tests with update of qcdb.variable
+1ca6b910b4e8ca2c188163aa09734d94b512e0b2|2019-08-23|Annabelle Lolinco|nwc: merge relativistic commit, add bse-dzvp
+7bf0b8a00c93bcb037c1dc198816bb34c91ac1a3|2019-08-23|Annabelle Lolinco|merge upstream master
+dcdf42e6df20297b821d40eb72a3e4a7fe20e96a|2019-08-23|Annabelle Lolinco|nwc: update relativistic opts, one test case edited (incomplete)
+61c9b5df16a6349cec8082ae345586daffeddfa7|2019-08-20|Annabelle Lolinco|nwc: relativistic test with harvest update reflected
+db9aae883e772d713204bb1313304c17588ccc7d|2019-08-15|Lori A. Burns|Merge pull request #25 from zachglick/gamess_gradients
+bb20b58f121568794497f44bafb226bc9281ceb7|2019-08-15|Lori A. Burns|Merge pull request #26 from qcdb/ccsd
+039bae21877c0748b5f6750911dc4f0766c09e75|2019-08-15|Lori A. Burns|fix travis
+689f6f2627536ce7600b3957cc91557a6038874c|2019-08-15|Lori A. Burns|heal ccsd psivars a bit
+347b75934c7f49acc5aacb8ac4a7a15e5d38e121|2019-08-15|Annabelle Lolinco|nwc: options add relativistic block, adjust freeze opt to standard for now
+e229d6782b3d4f85001fc78d427d56e04b86a2a0|2019-08-15|Lori A. Burns|ccsd: make ccsd work for all programs
+116eba2072da9714e7bd752031af4681964eb499|2019-08-15|Lori A. Burns|add gbs file for cfour's qz2p. add test for ccsd r/u/rohf fc/full in c4/p4/nwc/gms
+298c398422a76f730b9be4a8d7cf74d6fef77d28|2019-07-30|Annabelle Lolinco|qcdb: edit/add property into driver (inc); nwc: edit tests, try capture dipole (inc)
+f38a256fda945e61f664c35a72607b6027d09eed|2019-07-26|Annabelle Lolinco|Merge branch 'nwc' of https://github.com/vivacebelles/qcdb into nwc  merge nwc changes for tests and property
+5bac80a16c4e8ba67a5ad0317620dc2e29a1b3fb|2019-07-26|Annabelle Lolinco|nwc: edit tests, add property to test
+eac84f51c33b4ae457388a4939bbc18a06e88689|2019-07-25|Annabelle Lolinco|nwc: correct test name, add tce ccsd(t) and ccsd[t] test
+6ae6324c9da76885cc9e3082520de50855e33f80|2019-07-19|Annabelle Lolinco|nwc: tce glossary terms update
+351c3188403ecc46a3a7fd3345ecfdfca52ec557|2019-07-18|Annabelle Lolinco|nwc: dipole test add
+bbd6c85e4d5e8e190f0b56a4ea057261a5f4cfae|2019-07-08|zachglick|merge conflict
+6fd3d663616bb7d6c31cdbbd339a0c2a8250f0a4|2019-07-08|zachglick|gamess gradients hooked up and tested
+0eb5d863bbc87e737804c0f3f37b1bed045b21d0|2019-07-05|Annabelle Lolinco|nwc: tce ccd adjust for optreconciliation err
+4222640b4e3eb7dcaaa12df7f54f04b017a84836|2019-07-01|Lori A. Burns|Merge pull request #24 from qcdb/nwctesting
+e064598e5df15bf10ff4354b5d345cd7d40dc121|2019-07-01|Lori A. Burns|Merge branch 'master' into nwctesting
+d6bd5e78b95919d365bd175ec6d64663a7490ef8|2019-07-01|Lori A. Burns|Merge pull request #23 from vivacebelles/al_qcdb2019
+ac5145466c86cab29473693f5cd46d31e9d3a2ac|2019-07-01|Annabelle Lolinco|nwc: qcisd test edit
+ed70c96b83c1568f57d3b44f49adef4a38679a3e|2019-07-01|Annabelle Lolinco|Merge branch 'al_qcdb2019' of https://github.com/vivacebelles/qcdb into al_qcdb2019
+22ed2eb397f5fca457ca7d53a62ff315409363ac|2019-06-29|Lori A. Burns|error testing contradictory charge
+e2a35d6ee4eb9af815fcfa427a67cfdfaa868032|2019-06-29|Lori A. Burns|fix nwchem testing in continuous pytest run
+1e8feb03d67f2773b04c9a25f27f48483d5118c0|2019-06-28|Annabelle Lolinco|nwc: passing tce qcisd test
+df4d3971e9159ddf77e420626b48f7b08099b85d|2019-06-28|Annabelle Lolinco|nwc:add qcisd (pass) and fix special char tce opts in options and harvester
+b053d159d4fd57967a68e30ba0302f02a9dc988a|2019-06-28|Annabelle Lolinco|nwc: add tce options
+46ba8625da57ec246ac2fd8fe22fdad8d04827f9|2019-06-28|Annabelle Lolinco|nwc: tce ccsd test edit, passed
+db56cf5e566a7452777d250ecdb86f427fc60f97|2019-06-27|Lori A. Burns|Merge pull request #22 from qcdb/nwc_tce_ccsdt
+3701f38023f373aac3aff145a1fcf5437a9ab0ad|2019-06-27|Lori A. Burns|Merge pull request #21 from vivacebelles/al_qcdb2019
+28377a99bc7b124dc867958101d456213a86e838|2019-06-27|Annabelle Lolinco|nwc: mpn changes, tests now passing
+55417b5f9a7803b7f91e4e5b79332fe64ca769f0|2019-06-27|Annabelle Lolinco|nwc: misplaced values for dft functionals- all 41 tests pass
+16fd6dc9624976210eac4e0a0f845ccb1f0bef47|2019-06-27|Annabelle Lolinco|nwc: dft testing adds- 41 tests, 39 pass
+2362bc75bf19cf450f69a44bf93cec989ec8d772|2019-06-25|Lori A. Burns|fix some parsing for nwchem tce ccsd(t)
+a6481d139166ae0dd34e6081ba6bbabb2326055e|2019-06-25|Annabelle Lolinco|nwc: dft functional testing (progress: 32 tests/fnals, 4 failing atm)
+df9dfaf5dfa270b39ee585c0eb3db288fcbdc833|2019-06-25|Lori A. Burns|Merge pull request #18 from vivacebelles/al_qcdb2019
+437f4417569c87c7cfbfa27f987dd2aa3549e61d|2019-06-24|zachglick|Merge branch 'master' of https://github.com/qcdb/qcdb into gamess_gradients
+d463f4f320d0fa9865b7b2d2b2b5a5d424661612|2019-06-24|zachglick|psi4 intf fix
+3ae65a6de3d4e4193f889e32dec1dc43376e3a51|2019-06-24|zachglick|first pass
+617bbd063b4baa6d7481aca4cc202c9f6ae84241|2019-06-23|Annabelle Lolinco|nwc: addition of multifunctionals dft (some); modify test opts for pass; trim opts
+2519f913081ed41080be0cfeb9df7b1a1d17f3aa|2019-06-23|Annabelle Lolinco|change where nwc psivar list coming from (qcng)
+5c0654f4658721fbbbf8b8700528796b8ccff9e0|2019-06-23|Annabelle Lolinco|trim harvester with qcng moved items
+0034886aad441a55826ed7a1c4cbcd706b9a6061|2019-06-21|Annabelle Lolinco|convert NWChem from early qcdb to qcengine harness
+3f9807f72187c36ff9f9e2d30bef5c52ecbb57ed|2019-06-20|Annabelle Lolinco|turn off scsmp in nwc test, passing. Total so far: 14 pass, 8 fail nwc files
+f7033e07c9e381c062088fceba3506a81f0284ec|2019-06-20|Annabelle Lolinco|nwc: molbasopt to examine any nest error; harvester edit and trim
+45c44d6c93652ad9e66c3555cd2bc179dddbebab|2019-06-20|Annabelle Lolinco|nwc: sp-dft-ccsdt full pass; dft-pbe0: dft pass; hf still collecting dft val and crassh
+d8699aab6a3aff10d0db163dc71302b5893faecc|2019-06-20|Annabelle Lolinco|nwc code change for tce mpn (not working)
+9a8b21f24fbb8a8c407cde6b8e8b86822bb2e7e0|2019-06-20|Annabelle Lolinco|nwc: trim harvester, adjust for multiple var xc opts to test
+05ba83135d8d2124ff9b70c6c18e8e6f264e7b24|2019-06-20|Annabelle Lolinco|nwc: harvester edit for dft functionals addition (single opt primary)
+c264030ffb3fd483f7b85660736ad79d902994ae|2019-06-20|Annabelle Lolinco|dft harvesting working with harvester add; glossary opt add passing lccd lccsd nwc test; rm nesting comment in molbasopt.py
+0c8ccad2b2865b55c20f1e9352f7cc4909f154cf|2019-06-20|Annabelle Lolinco|rm tce_ccsd_grad; tce_grads are numerical need to forbid
+8e87e8867e9f0e861a80258204d137480aeab2b7|2019-06-19|Lori A. Burns|gms: fix unique atoms basis writing
+452ba5d9592cc7fecbd81caaffaef90e5329b96d|2019-06-19|Lori A. Burns|Merge pull request #17 from zachglick/psi4_harness
+3e3c2022dd9f18e3baca92d6b951388402d92548|2019-06-19|zachglick|deal with p4- method names
+1ff034d8ddd8ee9772098cb5ed0c7d3353e450a8|2019-06-19|Lori A. Burns|nwc: fix dft
+0959f97d1034a550efe2a05309377ecf464d7251|2019-06-19|Lori A. Burns|gamess write all atoms for basis. update molecule.to_string
+3e0cd676a51569112c69477b7d59682fb21f0ce7|2019-06-18|Lori A. Burns|patch up tests
+588d21a2b3578f14579ca9bd395896c48a518197|2019-06-18|Lori A. Burns|Merge pull request #15 from qcdb/vpt2_2
+1dd70e46aaeae05e605cf33ae5860df93b33a8f8|2019-06-18|Lori A. Burns|Merge pull request #16 from zachglick/gamess_harness
+a5ddf37aebb0dd3478d5025cb5bdd00e67d07aa6|2019-06-18|Lori A. Burns|Merge pull request #14 from vivacebelles/al_qcdb2019
+bfa4052ff8c22b7c53be8a8466c1a194d2ee505a|2019-06-18|Lori A. Burns|gms: fix unique atom printing
+c737cbeb8b473cff496cf0137e4fc264ccb37109|2019-06-18|zachglick|gamess calcs use harness class
+3f86790f7158fc84a52872f4a88a20d6801e86eb|2019-06-18|Annabelle Lolinco|options update
+53f735711eefaadde12d52f9cccb12bfa567f5f6|2019-06-18|Annabelle Lolinco|nwc minor syntax error in options clear
+ca5990c717496caa5f4a06704b9dbb10cf39a5bc|2019-06-18|Annabelle Lolinco|nwc harvester comment out prop thought, flesh out options
+22051a3c0dafaddf327f8aa964be9a28ec2dd579|2019-06-18|Lori A. Burns|fix imports
+d2655aa0f899f2552dd55718fa2d6697fb5adc72|2019-06-18|Lori A. Burns|fix imports
+d277bad276fd0f7f43274113ece0e783c307131a|2019-06-18|Lori A. Burns|hide the hybrid driver fails so that non-nwc can expect a clean pass
+7ac681c76f21c10feecb5190fca1c2514f326561|2019-06-17|Lori A. Burns|vpt2 works (harm exact; anharm off single digits cm-1)
+4fd85d5902446e616a521b220ed02c60aae5ad53|2019-06-17|Annabelle Lolinco|spacing
+d9c10b5dd8bf9e742cd1398de8cdd8eeea2d5c3a|2019-06-17|Lori A. Burns|vpt2: basics
+52fd655554746f1ad579a309144fe8939526096a|2019-06-17|Annabelle Lolinco|fix space/tab issue
+e524e9b4aa8c347164762433c9f0b739915b65cf|2019-06-17|Annabelle Lolinco|mbpt = mp nwc fix
+7495b4ead0da973ecb9e2c0b0a4453abca7e5a64|2019-06-17|Annabelle Lolinco|update mbpt/mp vars, trim harvester of old opts, fix err
+99c27a2793aa26fea32754179f5f9c4cc15fc486|2019-06-14|Annabelle Lolinco|cleaning workstation before ATL QCDB-a-thon
+45e782c2657f5dde3ba5dfdf5a4824cd57750cce|2019-06-13|Annabelle Lolinco|harvester regex examine for DFT, eom-cc, trim comments, add functionality for cc and tce dipole in options, glossary update; nwc tests edit (incomp) and new ccd test
+1c429c92bbda674d2586070450063b822950a197|2019-06-11|Annabelle Lolinco|trim harvester, add more TCE opts and property, options.py add property block
+1f23cbc445acd15310621b043635ea0e740fe1c3|2019-06-07|Annabelle Lolinco|trim harvester and add options to test via tce
+8ef2f8cbf643eb6e49f08a9dd2c2dcd6c0f11e74|2019-06-04|Annabelle Lolinco|addition of singly occupied orbital options in scf block of nwchem; option reconcilation error for tce_uccsd test
+e75932c79efffd3c179a5d2d3a0f7a4550f191f5|2019-06-04|Annabelle Lolinco|nwc: add tce mp2, mp3, mp4 functionality for energies (pass) with respective edits necessary in glossary and harvester, adjust other tce tests
+4fc60d22fbf92b3eabdb58d7679fea7682fcf700|2019-06-04|Annabelle Lolinco|MBPT(n) vs MP(n) code added (incomplete- testing does not recognize)
+38f9cfa131389c9c98ff479c22696b634c60d7a6|2019-06-03|Annabelle Lolinco|trim nwchem harvester, add CI capability, passing test showcase all three opts (SD, SDT, SDTQ)
+e5e307ee0ec221c19cc108839f3a5af1b410b97b|2019-05-31|Annabelle Lolinco|trimming, adding items for more TCE functionality
+d39a0b6ce13a6c964dd329287e4bd1392d3b5395|2019-05-30|Lori A. Burns|vpt2: initial copy from Psi4
+05edf95d1748073bd20b8aafa9226b9b19028751|2019-05-30|Lori A. Burns|Merge pull request #12 from qcdb/cfour1
+960d25cbcdc81c825097cdcb4dc00be60470c096|2019-05-30|Lori A. Burns|fix CI
+c5c972aeddd1736658c042f407d96dc808bbef5a|2019-05-30|Lori A. Burns|qcel and qcng to master again
+fc8ac11ffee7ebb4bd31b882a6a8e3e7d0a58336|2019-05-29|Lori A. Burns|Executor --> Harness. upstream from branches
+6132c279a8b7ef1426f83761103498c85850f4d9|2019-05-27|Lori A. Burns|don't forget the prov_stamp
+bd26433d818ee2550815465e2a47ba3d1df5e2d2|2019-05-27|Lori A. Burns|cfour: clean and move helper fns to qcng
+d740e26b5f9638a9c4a7d75538d542c1ba406796|2019-05-26|Lori A. Burns|QCAspect --> Datum, replace vib.py with psi4 copy
+5f0c441b8663e6212c6681d8c79fba36af522ca5|2019-05-26|Lori A. Burns|cfour: simplify runner by subclassing qcng's CfourExecutor
+0454d3b877971fe80ba82492cb62db75b5c7952f|2019-05-23|Lori A. Burns|cfour: move execution and output parsing to qcengine
+2af54dacf856a3a6003b7bd270cf06a9c118475b|2019-05-29|Lori A. Burns|Merge pull request #9 from zachglick/cfour_dboc
+5c2bcff388f045e308146f54082e4fc630bf75e2|2019-05-29|Lori A. Burns|Merge branch 'master' into cfour_dboc
+f969abd8410428fa86345671ddbde74c2e472c5e|2019-05-29|Lori A. Burns|Merge pull request #13 from vivacebelles/al_qcdb2019
+34917ffbb6ee06bf8a9bee3966f399b6c9613ca3|2019-05-29|Annabelle Lolinco|edit nwc test float not needed
+b7818a391b52bab5a92e06d7e7eb137898126431|2019-05-29|Annabelle Lolinco|remove SCS-MP2(N) references
+31fbbbce6cffa6b13914b19057c1a36ece6791fa|2019-05-29|Annabelle Lolinco|edits for nesting issues(incomplete), minor edits
+3c8498381f5ed6c95cb5b0e5e25efa9dfadd885c|2019-05-28|Annabelle Lolinco|nwc tests: memory line reflect actual values; failed tests
+76651eac9a2dafa84c0315523e0c4e3fdbcc210a|2019-05-28|Annabelle Lolinco|nwc tests: changed memory line to reflect actual values, all passed tests
+7368f4c07a831ad24be613d3d8804ed9000d1fc5|2019-05-28|Annabelle Lolinco| nwc tests: syntax fixes after rebase
+b1ecf32ffbd8f23f09afe00554dc176535af1b97|2019-05-28|Annabelle Lolinco|custom SCS MP2 add to glossary
+c49a2af9d8e74022df78469bdee78e4587993181|2019-05-24|Annabelle Lolinco|nwc tests: minor change for scf parts of dft tests; tddft edit to match current syntax, still option reconciliation error
+9361d7747f313d7f16f4199bc1651fc609f6caac|2019-05-24|Annabelle Lolinco|nwc: options add dft xc (incomplete) and trying to test dft regex; add some dft xc functionals
+aeb79ce3b3e3288932fb44e8ced2d9b3c0b38c42|2019-05-24|Annabelle Lolinco|nwc tests: dft- only scf reference pass; ccsd(t) non tce pass (no custom option at this time)
+57cd3ce1e5c84dbf350f6eb5c0fd14ed58773a0f|2019-05-11|Annabelle Lolinco|minor edits to unpassed tests of nwc)
+af19484e109a1d782c6442013ad5ef89a81ef738|2019-05-11|Annabelle Lolinco|sp_mp2_grad.py pass (nwc)
+34d16a927e10ca49a81c67e04f9610c7ff17d7a2|2019-05-11|Annabelle Lolinco|redid nwchem harvester for dft; add some dft functionals
+083792ef385440c391b40032fb9ecb986aa7889c|2019-05-10|Annabelle Lolinco|hf portion of nwc tests passing of dft and update of grad hf test
+a9c5165301685606d06d00a2ac5fc64459ce5b86|2019-05-10|Annabelle Lolinco|NWChem harvester and options change reflect use of basic TCE, potential dft in progress
+488dfbac38adaf1a25cde7f877c49b345b05f9c6|2019-05-09|Annabelle Lolinco|change nwc ccsdtq test for options adjustment
+505d6c8a20b9adec5fae66620f322fa96e27afc4|2019-05-09|Annabelle Lolinco|nwchem: tce rhf ccsd test pass
+2507f9c96741bfb202a5158c86091eeaa666be1e|2019-05-08|Annabelle Lolinco|nwc harvester adjust for scs mp2/ccsd and read_options2 for tce availability
+70a6e3555b9aef1ab387763d9f4ba525131aee29|2019-05-08|Annabelle Lolinco|tce modules now tce_[cc name] and will need fix of additional tce functionality
+3d772e5513000b388cff9418bec6bba4d4f78799|2019-05-07|Annabelle Lolinco|test rohf scf nh2 NWChem pass
+942b790acbecd5d32d3cfbaa765e7b80e9c750b3|2019-05-07|Annabelle Lolinco|MP2 nwchem tests: Assertion errors at SCS MP2 calcs
+d63e8fe62d23bf26690fd52fb6c2c9c6b536105e|2019-05-04|Annabelle Lolinco|test 1 of ccsd(t) passes without SCS components
+36f5ee86c2683f0a7c93f5ffb096b6075089f8bf|2019-04-25|Annabelle Lolinco|nwc options remove ccsd(t) block unnecessary; adjust runner for mp2 and ccsd, tests forthcoming
+5bd23cb645fd573c6969ba4e22899ccd27ae70d6|2019-04-25|Annabelle Lolinco|misplaced . instead of ,
+380072dd268442da64ac3d7ea0b4eae353bb4a3e|2019-04-24|Annabelle Lolinco|nwc: change convergence opt in passed tests, tce overhaul in options for bools in module enum
+b558d90011b5e8a1ac752be3ec436ef7bfdc6826|2019-04-17|Annabelle Lolinco|nwchem tests with calculation differences
+202063e0a3c6695ec10b514c5de458a644225783|2019-04-17|Annabelle Lolinco|non-tce ccsd(t) on N2; test 2 ok, test 1 run into no var error
+4144c64289da2d15b0f26dbac09b5f985e9d1dad|2019-04-16|Annabelle Lolinco|options nwc edits to have more bools in TCE and match syntax; edit in files to fix custom SCS var issue
+d1fca63c75b8ebf2229aa20ac3d4dad68feac045|2019-04-12|Annabelle Lolinco|modified TCE task to correct option
+2a7511728d33c53d5d5a736d2185d75fab654f18|2019-04-12|Annabelle Lolinco|add tce task for running tests
+e6f168ddb039dfde55895c47d0ccbb4f419bca26|2019-04-11|Annabelle Lolinco|fix minor syntax in nwc harvester
+dd4fc6ca192c6dadc37b976058cba1849fb23469|2019-04-11|Annabelle Lolinco|uhf_scf passed in nwc tests
+1215e3d25bce168c55a0a297e09a62a78f8e947e|2019-04-11|Annabelle Lolinco|test_opt_rhf_scf.py pass in NWChem and nwchem options syntax standardized after update 04/11/2019
+ccc8c4a0458cb8dd95f78a4a96966d64ac7e8159|2019-04-10|Annabelle Lolinco|update tce options to current iteration (tce -on/off, tce_module-theory, etc.)
+9fc056e4b8a6a9f00c4f628806fffaab720e0050|2019-04-10|Annabelle Lolinco|successful nwchem test with updated env 04/10/2019
+45eb4ea7e4d269ddb9b7307c23899a341f1b0cd6|2019-05-23|Zach Glick|CFOUR "ONE" -> "FIRST"
+96d1236a641b672e122c0239202d4131884fd937|2019-05-22|Lori A. Burns|Merge pull request #11 from qcdb/modernpsi3
+1b3eb4288bec571f5ed2866785d582c5e82be294|2019-05-19|Lori A. Burns|newer testing
+c33108fb669a839cfdb3f1cb47afe478f3ea963e|2019-05-19|Lori A. Burns|fix travis
+07e53e4c12c62c9b9b1d3e30ebcbfd2569cc52ab|2019-05-19|Lori A. Burns|add devtools. switch out alignment, internal testing
+23f4f3f8da5e2a62a8c709e45ae15c03e87bcab8|2019-05-13|Lori A. Burns|pull out alignment now in qcelemental
+bf3cfd16f0f1df04d216ce6fad59ae5f700e2122|2019-05-13|Lori A. Burns|nwc: fix the memory translation problem?
+1ffde380106a074c13786b98d55710acaf4dbc6a|2019-05-13|Lori A. Burns|use which_* from qcel, make p4-mtds accessible
+b2fcfb552654c15b773ec8ca954e3e1736c59f1a|2019-05-13|Lori A. Burns|reduce printing
+b05d1cbba760ab040f63899fbd80c9ad091f0719|2019-04-01|zachglick|callable cfour dboc
+fe44f4d62b530cbde2391f10a2599e0234699148|2019-03-25|Lori A. Burns|Merge pull request #8 from qcdb/modernpsi2
+44b8c5995e20481aec3eae4e842d90971e86d5e6|2019-03-25|Lori A. Burns|get demo running
+ebe33ecd592a642ba46537e41ac47d3d84091123|2019-03-24|Lori A. Burns|nwc: update interface to use qcdb options
+dda6a9ed717f9cf701357e1cbd72d5e4c3cf76ac|2019-03-24|Lori A. Burns|un-require psi4
+30377b1478e58b7c9e58b15babcbde4b44c79d2d|2019-03-24|Lori A. Burns|turn testing into module
+bdd8cbe354869141892424bcab0b3199184af1d5|2019-03-23|Lori A. Burns|iface --> intf
+1e42b8fef2ce8b30209819c049e8682ce1e204e2|2019-03-22|Lori A. Burns|remove old fn
+652c3bf468e5f245556e520c6f61cf4e19d0a944|2019-03-22|Lori A. Burns|switch out findif from psi c-side to psi py-side (pre-DDD). mostly working but not wholly clean tests
+ea398508a8ebc1101ca627525d739e510c1f3928|2019-03-22|Lori A. Burns|work with modern v1.3 after 1578 psi4. add gamess interface partially through qcengine.
+cf48e63792149ba9c4879fe61d582cd72e623762|2019-03-20|Lori A. Burns|update qcdb.Molecule to psi dev head, incl. removing list provenance
+f1651788f75c2a571707a53f35e90faad7c84e9e|2019-03-20|Lori A. Burns|update iface_psi4 for v1.3 run_json, add more qcvars
+8a4b63f5bc571a298bca4c69ab37dc1f4c161345|2019-03-22|Lori A. Burns|Merge pull request #6 from vivacebelles/spring2019
+b044893de67069564f1655dde3cde2deb1582220|2019-03-15|Annabelle Lolinco|reduce redundant tests in sp_rhf_ccsd_t-2.py, add passed (test2) for test_n2_ccsd_t_.py
+e1d8d6007dcd3e03d25b46c055c7bfcf4ec17e19|2019-03-15|Annabelle Lolinco|edit to distinguish tce vs non-tce cc tests, add unchecked nwchem tests to .gitignore
+fafd18a00c4446aa75d90f0c4ca22902d0b37f83|2019-02-18|Annabelle Lolinco|edit and check nwchem tests, values check same
+ae976f20a87ad10fcab3f092fc094ad4a4463ac1|2019-02-04|Annabelle Lolinco|nwchem tests change to accommodate TCE options
+bab97fe3e3106de46ffd56b6765b532a38eb50a8|2019-02-04|Annabelle Lolinco|add definition of excitation energies in glossary, corresponding nwchem test
+7a6646591529d39494a722ddb1ac3c045a23cf55|2019-01-16|Annabelle Lolinco|travis change v3
+4c7c4faa7b262c2ad0621c7c88f290b7367daf19|2019-01-16|Annabelle Lolinco|update travis v2
+7690c5597aa365083b9e6795845cff204abc0800|2019-01-16|Annabelle Lolinco|update travis to run local (@vivacebelles)
+168c637cc63618e6033521307fdbe04ad2c6f7a3|2019-01-15|Annabelle Lolinco|update tests, yapf nwchem files
+c2acba4027fbf8320e315d475fc0eb35a31caed4|2018-11-30|Annabelle Lolinco|yapf nwchem files (test and interface)
+45b08d7a2e4a4878dd7a02e44f044127c464ae19|2018-11-29|Annabelle Lolinco|remove uncheck tests folder from nwchem_tests for tracking purposes
+1b4af654b8f88312b02377981de672a9fcb26109|2018-11-29|Annabelle Lolinco|rebase format with qcelemental change
+3f659988e25fb820c3f8657b06d405ea6284aa71|2018-11-28|Annabelle Lolinco|nwchem tests with arrays added with arrays, rhf_scf_grad pass; sp_mp2_grad error with scs custom
+c42d443f16f54b6aef6f4037bf340631d7b2ed41|2018-11-28|Annabelle Lolinco|nwchem harvester and options edited
+a7bdf347ac60060a5c9b88e02759dbb8cd7228b1|2018-11-16|Annabelle Lolinco|add gradient pytest to sp-mp2-grad and add mp2 helper for runner.py
+af015a810abd618cc5f3cf8ed1bcd0331e3f836b|2018-11-15|Annabelle Lolinco|update to nwc tests
+545a8a5d8110b2f9e46c186e12038e39fad34a87|2018-11-13|Annabelle Lolinco|nwc test updates
+a2dc3060c8f9aab8e82ae32d2eba928a0182244e|2018-11-08|Annabelle Lolinco|add MCSCF, SODFT, TCE-MPn, and edit SCS-CCSD and SCS-MP2 harveste obj
+4fadc8953ab540dbda5e9aa7119032ea28b6828f|2018-11-06|Annabelle Lolinco|nwc options and harvester added fixes to vars and adds to TCE options
+7be3f9dbe2632f8f34fc633bc600cbfab66b3f0e|2018-11-01|Annabelle Lolinco|nwc tests updates, edit to glossary (ccsdtq added), tce_on option add in nwchem options.py
+db3c28bfbcd7de68b84b9a66cabf1f8d706df3de|2018-10-29|Annabelle Lolinco|test edits; tce on option add nwchem
+755954a3e44ce24c2d6179f678dcd2e7503b437c|2018-10-25|Annabelle Lolinco|test updates with new build, half pass
+554e62823446445119498c03c47b026680c0ce09|2018-10-25|Annabelle Lolinco|format for CI build test
+8abaaa110431629b90c4446361287fd929f99dd6|2018-10-25|Annabelle Lolinco|tests add @using_nwchem for build
+6fab068aaf5cd3c113797890df35a899eda2ba81|2018-10-25|Annabelle Lolinco|nwc tests and glossary update
+b3a047ac3a52f5c20efa7e7a50c5c462e3bc3691|2018-10-25|Annabelle Lolinco|test updates, only asserrtion errors
+48d1278c0475c4b21915f82d24c5b0cbcd367ab0|2018-10-17|Annabelle Lolinco|nwc test update 10/17/2018 and glossary add
+8bd4a51201282a3525da1c2179f99cb6f3c0a58c|2018-10-11|Annabelle Lolinco|test edits: dft-pbe and sp-dft-ccsdt are full runs; adjust glossary with qcvar and harvester minor change
+693f9a9abcf7f671ce6da0218f943ce4b3452e7b|2018-10-10|Annabelle Lolinco|harvester and options edit update for imports and tce working
+1b88a222502534fb260a1204eb4617c2a19abdf2|2018-09-27|Annabelle Lolinco|update to tests for streamline
+1cd1c8b2b49c478485b6d5a2f665aca92fd0954d|2018-09-25|Annabelle Lolinco|nwc test edits
+7a5f4d8c0d0d2aebcaa0ad75fa74f4a024601535|2018-09-18|Annabelle Lolinco|options clean files, add dft_xc
+7ab2e2fedd0f5f12ddd44b4edcb5d24f138342db|2018-09-14|Annabelle Lolinco|update nwc tests for pytest check
+6df608636f00c27d51e16153137d686ae517bce8|2018-09-13|Annabelle Lolinco|nwchem test revisions
+8ae5c990df9a1e2b8a5c334548c7277d3f9fc54d|2018-09-11|Annabelle Lolinco|NWChem options add, nwchem_tests add and modify partial
+f3df32bc8f629832a3cea3144460712e63238097|2018-08-30|Annabelle Lolinco|rename test file
+29749945308dca9d91652d13cfd565830f489815|2018-08-30|Annabelle Lolinco|add JYL nwc tests and made prelim rohf scf test to run
+cccfa45247244d1a4bb819c58dc9dadf34d73572|2018-08-27|Annabelle Lolinco|update main NWChem options, edits to current available options
+498b03b134cc1cdfecdb5c044224f799a021c68d|2018-08-23|Annabelle Lolinco|NWChem test translation .py file
+8fcbcb572b4a1daf8a4aba5a3632c8de47120658|2018-08-01|Annabelle Lolinco|remove top level dft convergence option
+34d1513a46dfede766f393ff702b17507eb7acb9|2018-08-01|Annabelle Lolinco|fix dft convergence options
+523f6646339626fc349e31a05bb8bb032d43c598|2018-07-26|Annabelle Lolinco|fix print options (global) and clean up around dft convergence
+9b168d4f5e022ce660127fbda9e24bc69853514a|2018-07-25|Annabelle Lolinco|update dft convergence options
+e29d02d785be3d6d6bd4479503963a8ec66c5472|2018-07-25|Annabelle Lolinco|work on semidirect scf and dft arrays, dft convergence arrays implemented- first pass
+c7af8e1294262e4a346a800a74143f65a74e3f32|2018-07-24|Annabelle Lolinco|options nest of scf print options, initial pass
+c3d99d59367815290d07c884405d1100e8991ad4|2018-07-18|Annabelle Lolinco|option descriptions edit; harvester add TCE var MP + CI
+ce0e274ca6e5579a60cc52873de0a03938b13a99|2018-07-18|Annabelle Lolinco|formatted cc1 test
+45542392c03303c3df31dcb47c592ad92f15c573|2018-07-17|Annabelle Lolinco|start trial of testing nwchem tests
+c3607007e2343ec9acc0b95b22d892e3a3a0bba4|2018-07-17|Annabelle Lolinco|remove charge and fixed enum parsers in options.py
+dbd89d1acbb7bb35a3238c9314e56d45026c5b84|2018-07-03|Annabelle Lolinco|cleaned up nwc options after testing
+1052c0475652e525f49e819c56d455cf1c875daa|2018-07-02|Annabelle Lolinco|edit options.py; remove redundancies in harvester.py
+e2769b154bfaf601ea0ab34f946153d34ae6ba72|2018-06-28|Annabelle Lolinco|small notes in harvester and options
+2b4c74b22a51854e816096fe7d8c3e16a3d1c36b|2018-06-27|Annabelle Lolinco|NWCHEM Options reformatted and written- 1st pass through entirety. Save for arrays.
+c7b20f7c1019bae2d017362a7cee75f359e39146|2018-06-26|Annabelle Lolinco|add .pytest_cache to .gitignore
+45e7f8d9f917086638c4c9bcc73677297827a118|2018-06-26|Annabelle Lolinco|start options.py for nwchem interface
+f3714e72a02448d4c803c0b8f88dafd46e2aae19|2018-06-26|Annabelle Lolinco|minor search function edits to TCE functions, add SCS MP2
+6345f466ca27b32908c3c1981da2eb0eb1002a46|2018-06-25|Annabelle Lolinco|TCE EOMCC, TCE LR CCSD addition
+bbc6755a5b6da908901620909234491cd5066d2c|2018-06-21|Annabelle Lolinco|minor changes to structure
+749410724fe6582b86be3009bce595b1cb79a7e0|2018-06-12|Annabelle Lolinco|test edits
+ab289e3fa042158ca3548daf94c21edfabc020b8|2018-06-06|Annabelle Lolinco|add MCSCF & SODFT
+1664916f2adc889bd131c7455682e91baeee2912|2018-05-21|Annabelle Lolinco|working on harvester
+e6adc7645ebd2fab9ae6b5b0b384f31fd8e2a165|2018-11-29|Lori A. Burns|Merge pull request #5 from qcdb/codata
+44f2a8d2775bf2bd797db78c7c19d291f1081cab|2018-10-31|Lori A. Burns|mol: rename test files
+b479f47f7343fa9d87f35c667cd8dab639616f7a|2018-10-31|Lori A. Burns|mol: remove molparse tests covered by qcel
+f5a61435ade174a9bcb009f5b3335899d5946cd5|2018-10-31|Lori A. Burns|fmt: yapf molecule.py
+977e594b6e1437735d433639325d405eb6fe4d78|2018-10-28|Lori A. Burns|codata: switch to codata2014, qcel.molparse, all perm tests pass
+ed6e1c054b4a5164bf6502c804b759448cbd0dab|2018-10-27|Lori A. Burns|qcel: remove files now in qcel.molparse
+38e4cbabaeb578c83f0daf24538fb1bf852121e6|2018-10-19|Lori A. Burns|Merge pull request #3 from qcdb/healopts
+9aa44e8ba7fef2b8cb93f38e76c349cd930ac1a4|2018-10-19|Lori A. Burns|tests: proper addons switching
+8590eb6cbd6f3f42d8c6a99e71750a49713ddbcc|2018-10-19|Lori A. Burns|ci: py27->37 on travis. build qcel for travis
+71f215de311ca58765dbd9f59054404f94744983|2018-10-15|Lori A. Burns|test: heal all tests except for 3 options
+ad8ee3d0481aee203da58df2e85422d06b015210|2018-10-13|Lori A. Burns|fix mol tests running. fix scsmp2 for cfour
+90557156b3d2f09686b0c465818f502adbc7ce22|2018-10-12|Lori A. Burns|fix warnings on regex, ==, some qcel.util transition
+f542fc31aa18905930428d24bc2c19fd01ba07d2|2018-10-12|Lori A. Burns|following psi4, use modified scipy hungarian instead of compiled hungarian
+24efb46368f6f1e9e4501dda7a6ecd1bc096ca1d|2018-10-11|Lori A. Burns|fix a dict key, switch backtransform to B787 (not sure if tested)
+1da148ce9ec706adcc3f7388dee4715dce83bdce|2018-08-23|Lori A. Burns|Update README.md
+67bef72a62def4849d767ba14e7a33c34985deb6|2018-06-20|Lori A. Burns|Fix missing rename. skip geometric when absent.
+53fe7c6fd992218b0d226153ff282b4a0d1c6841|2018-06-12|Lori A. Burns|More syncing psi4 changes
+c7a4e8cf854eb6950f46aa94edacd386dc29e0cf|2018-04-15|Lori A. Burns|Sync with psi4 changes.
+d2f58caa29d9043132e130739afc0f521f569a39|2018-04-08|Lori A. Burns|Pull docstring edits over from psi.
+7c8963454d6c8e9473e00dfe713c1a7950dd9933|2018-03-26|Lori Burns|DOC: Doll up a few docstrings (mostly cbs_helpers)
+157d997cb2241edde8a9e72c45a5fda911342fb4|2018-03-26|Lori Burns|IMG: Add no-text images and Sphinx images
+520c54d7f90a02ff282e426790bdac970d569ea3|2018-03-26|Lori Burns|DOC: get Sphinx started again
+454fdc74b2679c095369f751199905cb4d184f54|2018-03-25|Lori A. Burns|c. ACS NOLA
+38a61a03c13a341041c7648cf5b23dd58def2601|2018-03-14|Lori A. Burns|pass grid to psi for Asim
+c9ecb861f97121c4b6b7ae119665893313cde7c4|2018-03-14|Lori A. Burns|Add NWChem interface
+91eaea09dfdfddcf29b6a3cb3d5e9b0dbfa44d71|2018-03-13|Lori A. Burns|opt, tric, HbyG, vibanal
+0cf44370bcc857c03079f5b7165d6f9f3627d729|2018-03-12|Lori A. Burns|Add missing optimize.py file
+698b99a84754c5beb335f1e6274090b899aae6d5|2018-03-12|Lori A. Burns|scs(n)-mp2, some opt
+544b05d7c677c9f22b3156be58833a935202ccab|2018-03-11|Lori A. Burns|CBS grad/hess
+b4348266a945f897ae36e641675b7b0c887f9310|2018-03-10|Lori A. Burns|NW/GM: rearr driver, access NW/GM opts defaults
+958964aaeed236ce3a9b28170f84f35a1fb460fd|2018-03-09|Lori A. Burns|CBS grad & hess; psi4 & cfour
+aa7f49db4fe48e17e2b42d53c6f1fdfd6355be36|2018-03-07|Lori A. Burns|new files
+a7e131ab945648910bca483ea06067b826eef38a|2018-03-07|Lori A. Burns|misc progress
+ab670ec3aa63f59fd9695b12c532852e2ed6754f|2018-03-07|Lori A. Burns|Cfour iface options changes, MP2 qcvars
+8a2ef6b6d099dba5ec400e64578bda88b6dcc6eb|2018-02-28|Lori A. Burns|CI: cancel py27, add logos & README
+6b1b389e33de35269148d54e8d014fa57fad413e|2018-02-28|Lori A. Burns|BS: move basis set library from psi4
+cfa1b28cd4a88516fb5518959439907765f111d9|2018-02-28|Lori A. Burns|CI: travis, take 5
+ac9f70800a61c7ee4d925c054d07137809d05d70|2018-02-28|Lori A. Burns|CI: travis, take 4
+f3ccab80159174e7f204b20734fc036b9c59862c|2018-02-28|Lori A. Burns|CI: travis, take 3
+b207ae03ef1a3550f104f419592b1910e70f21e0|2018-02-28|Lori A. Burns|CI: travis, take 2
+3e547b7b86841b70dc7f5a0e0d49e1e1fbee2d43|2018-02-28|Lori A. Burns|CM: set up build system, hopefully testing
+27388b26d4c86c3ce7bc192dfb29c82c19e4c1f2|2018-02-28|Lori A. Burns|DRIV: migrate driver from psi, rearrange, psi and cfour partially working
+e9189cfe700c5e5e9ea1c2a4db26b1299a4e7017|2018-02-15|Lori A. Burns|Copy qcdb from psi4 c. scfitertopy4 to new residence
+ed397825c9ce3df25a79e3c8a14558088a725a85|2018-02-15|Lori A. Burns|Initial commit

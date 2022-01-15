@@ -1,0 +1,586 @@
+e8ba082f453075bcbaa67185ef77e857e72fe717|2020-09-22|Alexander Condello|Merge pull request #121 from JoelPasvolsky/wrong_link
+5c56a65cf3b0b67b4009053c18e7fada30a2285c|2020-09-22|Joel Pasvolsky|Fix wrong link
+2e92bfcc82072ff30d3a71d5ee6d22549990bd18|2020-09-17|Radomir Stevanovic|Merge pull request #120 from hhtong/requirements
+d3f36efe7557eddd4bb028203c92c068ca532c6a|2020-09-09|Heidi Tong|Add mip and lp to caching in CircleCI config file
+f4060b639790f6d2e679e8048ea9895cbcf51e1a|2020-09-09|Radomir Stevanovic|Merge pull request #119 from Ryota-Katsuki/modifycomments
+e2c27865d6546d066be8f6edc2ed0a1f99caee2c|2020-08-21|Heidi Tong|Added requirements files for tests and docs. Edited .yml files
+ccb67520d0a7be2e2e6e2a50134a68c12a4e97ef|2020-08-17|Ryota Katsuki|fixed some inconsistencies in docstring
+95ba784392b688be0456676e2ecfa78aa041504f|2020-05-14|m3ller|Remove CODEOWNERS
+a5617204e83e378cc95dc0ca9df1665aae7958e7|2020-04-02|m3ller|Update mip version 0.2.2 -> 0.2.3
+06b537ae6a1c74e8cfc629d14cd8f68f1ff21514|2020-03-12|Melody|Merge pull request #118 from m3ller/fix/114-cache-fails-for-1-variable-pms
+2354063e450c3d646a943b10a2c21477657214aa|2020-03-11|m3ller|Flesh out no-linear-bias cache test
+9bb8d2b525bd695c9cbac678bec1b7ac5a0978bc|2020-03-11|m3ller|Add new test stub
+c40946dd2ee45076a09ff764babac5fb7e16d5a2|2020-03-11|m3ller|Change default bias to 0
+57b17ceb7b562a7ec001d9785f69b5a168ca1f26|2020-03-11|m3ller|Add rough version of one-variable cache test
+7f08cc00f4b78dba3596f7e17f10cdf84cdf342f|2020-03-10|m3ller|Bump up remaining dimod package versions
+09d026f0c4d0e8988f697cf46a69cec0e35dc316|2020-03-09|m3ller|Add default values for finding min/max of iterables
+2cd4167487627e03092c677543cdc49f50c5e8e2|2020-03-09|m3ller|Bump up dimod to match latest SDK
+4f7eab138be33255a2f96d3e2b4040e7a85c3c47|2020-03-09|Melody|Merge pull request #117 from m3ller/fix/113-raising-incorrect-impossiblepenaltymodel-exception
+618d7e9a76d4f8148e7298929cb54aab6d71fa4d|2020-03-06|m3ller|Fix test to account for aux energies
+09eab95faaf5e03fa862ae6ea5e5103d938635fa|2020-03-06|m3ller|Add unit test for all possible decision configs with aux
+92fe9d8bb445fdb1f349f87689a02dc0409043a5|2020-03-06|m3ller|Fix case when all decisions configurations are defined
+eba600b87f50fe50364e5889555dc49010cb8162|2020-03-05|Melody|Merge pull request #116 from m3ller/feature/move-max-out-of-loop
+ba2c5743886e373d84362bb87b6081ecf9d65677|2020-03-04|m3ller|Move this max finder out of loop
+3f286355384665ee76fc9ae24e401f892df41752|2020-03-02|m3ller|Update maxgap version 0.5.2 -> 0.5.3
+87a560030e43a8104476cccc5bc2c6b533c80466|2020-03-02|Melody|Merge pull request #115 from arcondello/pysmt-0.8.0
+e8787b2d7e08cb1f992e3852312925a87d26205f|2020-02-25|arcondello|Upgrade to use pysmt 0.8.0
+29da468810ee77d7e1eacb7cd00562f304de34d2|2020-02-24|m3ller|Update maxgap version 0.5.1 -> 0.5.2
+5f5a23a6119cbf05b6e804b66b646cf090d47e06|2020-02-24|Alexander Condello|Update cache version 0.4.0 -> 0.4.1
+0c2e0f62dfee3a8238554ec5bff06832b74a364b|2020-02-24|Alexander Condello|Update version 0.16.2 -> 0.16.3
+b82cd99e7d144daca8691406007ac42bcf7a547a|2020-02-24|Melody|Merge pull request #112 from arcondello/update-versions
+bcb04ae0eff51c11963e5a4e4b0d311eadbc5211|2020-02-24|Melody|Merge pull request #111 from arcondello/fix/subclass-construction
+4cc9001a9ac01cea4fc106f15069dfb7aead0975|2020-02-24|arcondello|Drop erroneous universal wheel tags
+5a5ef76ad8046b0cb4e1a3cdab6f14cd33a4ac1c|2020-02-21|arcondello|Fix Theta __init__ to use super
+fde12b6ede70f143782362eee1971684176f5dfd|2020-02-11|Alexander Condello|Update mip version 0.2.1 -> 0.2.2
+ea6aea82b1ad7980fcb958e5327bbe3962196ece|2020-02-11|m3ller|Update lp version 0.1.2 -> 0.1.3
+c7b28ce6eee4749b3609f6e5550d06c53ebe043a|2020-02-11|Melody|Merge pull request #110 from m3ller/feature/add-py3.8-support
+61e515b4c1dc8786428dd89294b50d0d7f0c43f1|2020-02-10|m3ller|Code clean up
+975c977fbfa77552c9b6b7bae048a5c07e073da5|2020-02-10|m3ller|Add more elegant approach to toggling behaviour
+836e32a41cb2a9f29b549f532386a7e6e32695bc|2020-02-10|m3ller|Add if-else on catch_warnings
+e52d7163a498a5ac3170390b21b5401dc0fd920b|2020-02-10|m3ller|Add catch_warnings flag
+92ea982125c15789b22a674c231d67338e26e4e5|2020-02-07|m3ller|Bump up scipy to the latest version
+3a787b56c1f193d5b3fb9a932995bb2331ca3dc0|2020-02-07|m3ller|Bump scipy in requirements for py3.8
+2b02c0c5d4c9a7243fac5bbfbe0b6993317c05bf|2020-02-07|m3ller|Bump up dimod in requirements.txt for py3.8
+313b453f52590b98ee5c21a61a41cf29cd6b195b|2020-02-07|m3ller|Add py3.8 to classifiers list
+2535e4478b265036ca04ea940a50aec5ada6f043|2020-02-07|m3ller|Loosen dimod range for remaining penaltymodels
+8e19573259721ea4973525056befc1f819d66e62|2020-02-07|m3ller|Remove python 2.7 from setup.py
+8182dcedf4eeefcffa058142e8c227d061b7ae59|2020-02-07|m3ller|Loosen dimod range to include 0.10.0
+668b6f8b4333ad7ebe27fd46e388ea80b09baea4|2020-02-07|m3ller|Bump up ortools in mip setup
+94553c08528a694864a3431b335139d3da5f872d|2020-02-07|m3ller|Bump up ortools range
+1f6f71b914dc1bde653cdec2f268ecd766a9fbfd|2020-02-07|m3ller|Update MacOS test cache key
+ca2020d04e0063e42a706a95231d194dbc670446|2020-02-07|m3ller|Add py3.8 tests in circleci
+f23c637b79a96e1d8d18edc79968a525e4e1c63b|2020-02-07|m3ller|Update lp version 0.1.1 -> 0.1.2
+5bb36bd76691c2102482b42e30a18bfce4cc8a62|2020-02-07|Melody|Merge pull request #109 from arcondello/feature/loosen-version-range
+f98db8b158082124f95627ffa666fec2ae995549|2020-02-07|arcondello|Loosen numpy and dimod version ranges
+13e63dd50b0419e463ae8952ba16fcc30d45c90b|2020-02-07|m3ller|Update version 0.1.0 -> 0.1.1
+86388b2419b97e62c5354cabc25bc7be68992e36|2020-02-07|m3ller|Clean up. Remove py2.7 from setup
+a461a6a49e59153a91487d45708130bc3dd9a62c|2020-02-07|Melody|Merge pull request #108 from JoelPasvolsky/versions
+4cf21f890dc28d90c6e6ba51a2acafc3bfcbe257|2020-02-07|Melody|Merge pull request #107 from JoelPasvolsky/unified
+9093f39b2da8cd7b5b74ac3af2828e8623667dde|2020-02-07|Melody|Merge pull request #106 from m3ller/fix/102-penaltymodel-lp-fast-fail-solution
+1d99b6d749753811fe07460195327edeba529494|2020-02-06|m3ller|Elaborate on warning note
+ba75214c5ef9900384f8834a107c09e4b7ec78b7|2020-02-05|Joel Pasvolsky|Add version notice
+839f5e6f327238eed19c4e02fdb698c99126060a|2020-02-04|Joel Pasvolsky|Fix warnings on include
+0c1b0974861cb82549bf9bd3da08bab709636915|2020-02-03|m3ller|Remove py2.7 tests from appveyor
+a597a0b4749f5c472e56f10a6667d59d3d4f7ad1|2020-02-03|m3ller|Remove py2.7 tests from circleci
+ef64962d82f5e5a02ffcf0c796c9d8834e759ee8|2020-02-03|Joel Pasvolsky|Make consistent with other SDK tools
+0588071fd0573736d28c5bc13c4c8d3aa4bb206b|2020-01-31|Joel Pasvolsky|Update intersphinx refs
+0049aaec978675ddb5d7b7505c35f4144379a343|2020-01-31|Joel Pasvolsky|Update conf.py and local references
+6ee6c923865fe2fd5088797d8b827e0bdbb57e7a|2020-01-28|m3ller|Add unit tests for warnings
+827e9de8d8dbfa49ac73c68c8fe02571edd83cb8|2020-01-28|m3ller|Add unit test stub
+cde3efd4cab3f50fa03913097dfec3527c607539|2020-01-28|m3ller|Fast fail when matrix is difficult
+d2cf6d5bd145c0d377401d2d28aeac0ff2721eba|2020-01-14|Melody|Merge pull request #105 from JoelPasvolsky/sdk
+973f0860f7d5940a6c79ea1c9eca17fd64cdd5f6|2020-01-14|Joel Pasvolsky|Add sdk index
+0a5e7cf45dc502208da48e53daefee05f1db10f8|2019-12-23|Melody|Merge pull request #104 from m3ller/fix/penaltymodel-lp-rounding-issue
+f5cab2c561fc87d0d8614d2e6b35148ca14d774d|2019-12-23|m3ller|Rename variable to 'places' rather than 'precision'
+429d8737e1540c62217dd88985f3bc21413bada8|2019-12-17|m3ller|Fix rounding issues with almostEqual
+ec95987065e018f8d98ef944aa9e50dcbcbddd37|2019-12-16|Melody|Merge pull request #103 from m3ller/fix/use-almostequals-in-lp-tests
+dfcc050a862464ba7d60d0d988c1070e0d9357d7|2019-12-12|m3ller|Change unit tests to use assertAlmostEqual
+412c1f0b6c77093d870742a3839d323b016b8408|2019-10-24|Melody|Merge pull request #101 from m3ller/feature/check-graph-and-bqm-labels
+3f27571cc128190a4fec210d479e6bb18ba47a49|2019-10-24|m3ller|Use set symmetric difference
+e788125ab33d595891b1a80ac4ff10b4e819c547|2019-10-18|m3ller|Add label check to penaltymodels
+ee81cf362a22948af54c331f9246235174b65e85|2019-10-18|Melody|Merge pull request #100 from m3ller/fix/add-license-to-headers
+351be5a169cfe8127c5cc7ee81352412928f023c|2019-10-15|m3ller|Pip install issues in macOS tests; flush circleci cache
+4f84081dcf4e72732e83fc0f787d5aa0fb35efd3|2019-10-15|m3ller|Add licenses to core
+c40d80c7d2dbdfda3a2785ee1a346e5e369ccb75|2019-10-15|m3ller|Add licenses for cache
+222c16efa15fbc0120a41eb13eddeceb4b03d209|2019-10-15|m3ller|Add licenses to lp
+0e5e0305c202014fdd9679480930a50f3dcb4f55|2019-10-15|m3ller|Add licenses to remaining maxgap tests
+e62969e1ae24551b2e406c2f264a8680185f9bcd|2019-10-15|m3ller|Add license to headers in mip
+75b3ba2be57572e2f1f00672ff281775ca11f334|2019-06-21|Melody|Merge pull request #96 from m3ller/feature/codeowners
+2d33c5952dde0cc62587122f440851e7f0ee5d92|2019-06-05|m3ller|Add codeowners
+e9075485ec642f608f88a8bbfe061a51c2befbfe|2019-06-18|Melody|Merge pull request #94 from arcondello/feature/docs-direct-links
+778202160d8588254e839b91a9defb0d364e00d6|2019-05-03|Alexander Condello|Directly link to external sites in docs
+918ce539d386a856c342fb276098d6944c82f4f8|2019-06-06|Melody|Merge pull request #95 from JoelPasvolsky/cookies
+7cf4483e9bdc6a4312c69bfb425a0cc7a1d88db0|2019-06-03|Joel Pasvolsky|Add analytics and cookie notice
+b9d343233aea8df0f59cea45a07f12d0b3b8d9b3|2019-04-22|Melody|Merge pull request #93 from m3ller/fix/92-unexpected-mip-warnings
+ed51a235465519628fdca163b7cd833e8c3c2f44|2019-04-22|m3ller|Remove hardcode
+50fb61c45b951a4227662d036cf3260220979ce7|2019-04-22|m3ller|Update version 0.2.0 -> 0.2.1
+51f49cb97012bf418a297bdb7423d3fd5bb8743d|2019-04-22|m3ller|Raise error if no solution is found
+6bdaa66fce26d0b11b95df93f60b9b885bda95ec|2019-04-22|m3ller|Clean up
+19b60b901a971d60875c64db1a5c07ac61c9f3aa|2019-04-18|Melody|Merge pull request #91 from m3ller/feature/verify-nonzero-feasible-state-support
+ec38dffbd548bee4bd129b8bd907994c3cb68e2e|2019-04-17|m3ller|Remove test that checks the non-zero feasible state filter
+8137ae8819283dd652d6040d3c50dff33e3851b9|2019-04-16|m3ller|Update version 0.5.0 -> 0.5.1
+c58f3d07a0d8f9524859e5895c41ef8a12f5f8a4|2019-04-16|m3ller|Remove non-zero feasible states filter
+62f3a6f3cbb0d33b3eb02612701be26cc796a85b|2019-04-16|m3ller|Add addtional auxiliary variables to unit test
+552d6f5e08b1b20c3ae9f8c793ed649a0cab8518|2019-04-16|m3ller|Add known_classical_gap to generate_and_check
+fb13b32224363574f4d5a32231f9b7e7f1127a49|2019-03-18|Melody|Merge pull request #90 from m3ller/fix/change-cache-version
+f792ebf652cfff07eb716c60a307b528e1b7f86b|2019-03-18|m3ller|Update version 0.3.4 -> 0.4.0. Note: versions are essentially identical. Merely want to make a big version bump to deal with PyPI installation issues
+cae425fa671aa7d60c9e046da3ea961dafc5bbdf|2019-03-14|Melody|Merge pull request #89 from m3ller/fix/update-package-version
+e97367e76e566cfbc53c11b06953fd661d90c854|2019-03-14|m3ller|Update cache version 0.3.3 -> 0.3.4
+60cce28011f756f55ecf31e857d793f7dba686e9|2019-03-14|m3ller|Update core version 0.16.0 -> 0.16.2. Skipped 0.16.1 because this file was meant to be 0.16.1 but was not changed during the 0.16.1 release.
+c31a255ce9581abe6b549f9827e5a289d9d05d7c|2019-03-14|Melody|Merge pull request #88 from m3ller/fix/update-lp-version
+1e75f469dcba4bc57dfdd3b33b1a97a0ed892c74|2019-03-14|m3ller|Update lp version
+3fce863ae22f731c426be19c03913d96449dc5f2|2019-03-13|Melody|Merge pull request #87 from m3ller/feature/add-lp-badge-to-main-readme
+e0231adf1d11786561aac3e7508bfc389c254b02|2019-03-11|m3ller|Fix pipe spacing
+2c54b854e80dd623876538a8618ff0cdaafd6191|2019-03-11|m3ller|Add penaltymodel-lp badge to main README. Fix typo: penatlymodel -> penaltymodel
+1acfe1b3567040840fc26a50b5d9c5a3a646ca0a|2019-03-11|Melody|Merge pull request #86 from m3ller/feature/release-penaltymodel-lp
+c8518dd0236cf48a30ef24ac13f2309d1c6254f0|2019-03-11|m3ller|Citing the papers in the docstring. Note that the references will appear at the bottom of the html page
+b51f4bf85f3465199c9ad2c77af89173f5f6d093|2019-03-07|m3ller|Move location of _Z3 as there was a warning that the target name, Z3 was unknown
+12315fe0739a67a4061c0b59aee650769f809090|2019-03-07|m3ller|Add lp and mip rst files into packages dir. Add lp and mip to packages/index.rst
+a003c570743ead34c79056b37b9e2516e6f3b8a9|2019-03-05|m3ller|Add mip and lp to installation.rst
+0fb1c1562ec73ea0590522f49df3455b89fc90c0|2019-03-05|m3ller|Adding lp and mip to system path in docs/conf.py
+e74d7b6c14947188021a3d5213aad7844c70b400|2019-03-05|m3ller|Change initial version from 0.0.0 to 0.1.0
+786ee43727fd00b6a4add6c4badff7204f0be3c8|2019-03-05|m3ller|Add additional set up information. Based on mip's setup.py
+28aca0b4a8aba3fb291409e8aaf8d7e432ce189e|2019-03-05|m3ller|Add README.rst. This is based off of Mip's readme.
+d27a1463531e2200986c2303f7e08823a5ec491f|2019-03-11|Melody|Merge pull request #83 from m3ller/feature/67-gap-wrt-highest-valid-state
+13f27232ad94b33062c45c6f1e2b0c22e0b457a8|2019-03-11|m3ller|Explain why doubling is necessary
+c183bc73c44102f31f04d1f6aa25c3336e07e652|2019-02-22|m3ller|Change max to account for case when dict might be empty; this is to support Python 2.7. (Python3 has a much cleaner max(.., default=..))
+f2ef3615a657c2a74afc4ce9ad3fb0d5adc63371|2019-02-22|m3ller|Remove incomprehensible comment
+9234298d2533fc65e816855f34183850ef9390b7|2019-02-22|m3ller|Add todo for generate_and_check(..)
+865c147c2d0fbf8ac150220589dba8504c79bf83|2019-02-22|m3ller|Change max to support Python2.7. Added docstring to generate_and_check(..) with a note on the gap check
+fd87d1524a08753e8a987c40525cbaf1de221947|2019-02-21|m3ller|Change max to support Python 2.7
+baa70c00d6eddda8f4333c68c1a150e93e786325|2019-02-21|m3ller|Add test to check that non-zero feasible states problems don't get run
+19b6fabaf7146c58e9e58c2c6ea1195020af7dc8|2019-02-21|m3ller|Filter out non-zero feasible state problems
+fe61bdad307f4e66e973d5ccdc9d5c232c79bd36|2019-02-21|m3ller|Make sure that the negative gap gets tested
+f01f990006a954cb8f22a2ddfcd19774b3fdbd4c|2019-02-21|m3ller|Add todo in unit test checking
+18b02a237dca0b6b284e3fea96506194f2582624|2019-02-21|m3ller|Add comments to unit tests
+12f72338775de3023daa20155b2dde312e2614b9|2019-02-21|m3ller|A larger graph with aux for the positive, positive unit test
+1e3d9061cb8d114706abb203d6263acdd69a7bad|2019-02-21|m3ller|Fix if-statement to use power rather than multiple of two
+78230e651069f4debd7a8af88e3f3c7630a46b0e|2019-02-21|m3ller|Made elegant fix to MaxGap so that gap is not wrt to zero. Remove code used in the previous inelegant fix
+8d290b6af6ce9971ef403addf5dea5253f81d5f5|2019-02-20|m3ller|Add more unit tests. test_negative_feasible_negative_infeasible(..) is currently failing. This is likely to due to the -10 in configurations
+fb999f0ad94c25e42bf165fdde14768ad5865705|2019-02-20|m3ller|Add unit test where gap starts is wrt to a negative feasible energy
+4a3c01c951ac626c31dcf04394ec8e8037946b31|2019-02-20|m3ller|Shifting gmax to be wrt to the highest feasible state
+0539206cb14d596972c3dee1233131cd14d3985b|2019-02-20|m3ller|Revert "Apply an upperbound to gap, so that we can prevent gmax < gmin. We want to prevent this as we want to avoid an infinite loop when we're finding the gap. Altering the gap_bound_assertion(..); I did not want to make a new function 'gap_upperbound_assertion(..)' as I think that would cause people to expect the existence of 'gap_lowerbound_asseertion(..)' (which was the previous gap_bound_assertion(..)). Also, I do not want to rename gap_bound_assertion to gap_lowerbound_assertion as I don't want to affect the current usage of gap_bound_assertion." Reverting because this commit does NOT fix the infinite loop bug.
+bb0b07f416ef9ea2f2d4d9ca6e8828f89ac59e0d|2019-02-20|m3ller|Apply an upperbound to gap, so that we can prevent gmax < gmin. We want to prevent this as we want to avoid an infinite loop when we're finding the gap. Altering the gap_bound_assertion(..); I did not want to make a new function 'gap_upperbound_assertion(..)' as I think that would cause people to expect the existence of 'gap_lowerbound_asseertion(..)' (which was the previous gap_bound_assertion(..)). Also, I do not want to rename gap_bound_assertion to gap_lowerbound_assertion as I don't want to affect the current usage of gap_bound_assertion.
+c12cc1f33c7497cb4fb874b4cdbdbe969b52e70b|2019-02-20|m3ller|Doubled gmax because we are calculating in spin space. Updated unittest
+a6f7f0544315f6f639df1557953b0405201ec166|2019-02-20|m3ller|Adjust MaxGap's min_classical_gap and classical_gap to be wrt the highest feasible state. Note that this fix is not elegant; ideally, we would want this fix to occur within the SMT solver.
+aa8c4c7b2899f9ee8b79b5357a37aa575ccbaf07|2019-02-15|m3ller|Set ground to be the max value of all feasible configs
+7a4c806b7ac557d751183685091aa1a160a6d451|2018-12-14|m3ller|Fixing typos
+f4421de99fb29863e596db51f7b3f9566a3b5c29|2018-12-04|m3ller|Change gap test to be wrt highest valid energy rather than lowest
+b3c5ea367cf01edfe9731083a754ccf23c124a2c|2018-12-04|m3ller|Make bqm gap with respect to highest specified energy state rather than with the lowest
+2d010a6621df38e0f4c97228f3600a70ff6fe851|2019-02-15|Melody|Merge pull request #82 from m3ller/feature/68-MIP-to-consider-multiple-energy-states
+def23702bd7665701018d5e168cbb3c8b86eb09e|2019-02-14|m3ller|Remove min_classical_gap set to 0
+45a874bd0ce5853ed94ed4f286094bb5370c5d07|2019-02-14|m3ller|Remove commented out code. Add comments
+cc1a295dba354249ba7eb213efcd8ac31ec206d4|2019-02-12|m3ller|Fix if-statement to use a power of 2 rather than a multiple
+c94fa6b114d3375d4e8d621b379b4317efa9c362|2019-01-21|Alexander Condello|Fix inf gap case for no aux
+5e4bb8c2458fe3e983923bb46bef5846c5369d0f|2019-01-21|Alexander Condello|Fix multiple energy levels in mip
+c813863a2d2a28d9aeb7dfd940b3aa536e614ade|2019-01-21|Alexander Condello|Always return aux configs
+582f30c94bc52111fc9a7c31db19fca923a8e7f9|2019-01-21|Alexander Condello|Handle all-configurations case in mip
+694aa1583d08a59d6d8f30d21f6c671cf574d741|2019-01-18|m3ller|Set default  value to
+5db11df61e37e118919af8fcd67920dba54567c6|2019-01-18|m3ller|Change unit test name and values
+6eb5f35a685ca28883da763df57c4143e0c77504|2019-01-18|m3ller|Test seems to show that using auxiliary works when all configs have the same energy states and that not all possible configs are shown
+0b1cb630b8c03f7d44e9f30a9f4aa303ab2e9edc|2019-01-18|m3ller|Add tests that use auxiliary and have a fully defined configuration of spins
+f1f1c4f33d1b34aa6e2adf7e36aa98303e69e911|2019-01-18|m3ller|Change naming from upper_bound -> target_energy
+23b39dd996586ad3ff3258d7d968400d948b560c|2019-01-17|m3ller|Change check_bqm_table(..) to account for non-zero feasible energies. Add test for nonzero feasible states
+60e42e2e5cb2f4835b897913586e8c587f168cf4|2019-01-17|m3ller|Make test function account for non-zero ground states in its gap calculation
+4351a9b1e2337e98e5e877b47d7a17416f90c57b|2019-01-17|m3ller|Add a nonzero ground state test
+d47c827334b07413ab5669cce439dd1c2bc92ce1|2019-01-17|m3ller|Remove unused local variables
+0f58a30715e13841137c9d5eaee375f57ffec657|2019-01-17|m3ller|Rename lower_bound -> target_energy. For auxiliary config case, use target_energy as the starting point for ub (upper bound)
+9c47d93923df7566fe0f624cdbe9c8967fd1edea|2019-01-08|m3ller|Change constraint from ground state with energy 0 to arbitrary energy levels. Still need to change constraint for auxiliary variables case
+e5f232d3fa8a6b3cc67810cd8c59d60d9a614870|2019-01-08|m3ller|Remove if-statement that prevents non-zero target energy levels from being passed in
+6a4d6cc0dcd1925260a8026104e4762762df776e|2019-01-17|Melody|Merge pull request #80 from arcondello/feature/unbound-dnx-requirement
+2d416c8a15f898ec044b62750f19b06a9421363e|2019-01-17|Alexander Condello|Remove dwave-networkx version upper bound
+b7b8cfe1c0dc4bd74cfbeb6fb9758cfc4f8a53fa|2019-01-17|Melody|Merge pull request #76 from arcondello/fix/maxgap-energy-levels
+661cefe90413b162fcd48214d9a0623deba9bb69|2019-01-17|Alexander Condello|Fix docstring typo
+446b9fa8cc7da48ee84a0e21a35b6bf5b5908eee|2019-01-16|Alexander Condello|Fix maxgap generation tests
+9120ea9cbb63aeddbd052fbc63f21a6be466bd06|2019-01-16|Alexander Condello|Fix gap for fully specified spec. in maxgap
+e153bca7a73fffd121116d11357f8cc629ac052c|2019-01-16|Alexander Condello|Add docstrings to maxgap's Theta object
+dc185ed0752839b28179ae4c3f3369c752ee1c57|2019-01-09|Alexander Condello|Refactor penaltymodel-maxgap
+c85a18788dd5e7d20209bd9350b74e261bf51fd9|2019-01-09|Alexander Condello|Use BQM for Theta under in maxgap
+b34b781d31a7170c2d0522c280d188d8e970245c|2019-01-16|Melody|Merge pull request #74 from m3ller/feature-70/use-min-gap-as-a-constraint-in-penaltymodels
+a77dbeeef6ab522418bcf42097a81f842add0838|2019-01-14|m3ller|Change min_classical_gap description in order to emphasize the threshold aspect of min_classical_gap
+dd255060caa36142c85da780bf3d749f94259947|2019-01-10|Alexander Condello|Use xcode 10.1.0 in circle-ci osx builds
+1490cc033663b17505c2a6ea2b1dcb8917a1e645|2019-01-09|m3ller|Add test to verify that gap constraint is being used in SQL queries
+6dbe828e8ab70ac63855a002d281d6629f117f6b|2019-01-09|m3ller|Remove unnecessary if-statements
+77986accc693f44ecdbb46c59f5410f39d785050|2019-01-09|m3ller|Add classical gap in SQL query. Remove unnecessary if-statements
+066c8b9fa87a492438edc0834b472ae51e8d1a12|2019-01-09|m3ller|Bump up lower bound oc cache's penaltymodel version.
+d9dc21ee047b0c975c9005a08ee51c1b7e6c34f0|2019-01-09|m3ller|Bump up upperbound of cache's penaltymodel version
+5d59ac6a601d1d7344576cb421c290805ec03be9|2019-01-09|m3ller|Bumped up penaltymodel's version in the setup.py of mip, maxgap, and lp
+56b106faad628bcba6fbe8c9302af0b686044fa8|2019-01-09|m3ller|Add penaltymodel-lp as a requirement in penaltymodel_core setup. Bumped up the version requirements for mip and maxgap; although this version penaltymodel_core could support the older version of mip and maxgap, the optional parameter min_classical_gap in core's specification class will be sit uselessly as it gets passed to the older mip and maxgap. This would be an unexpected behaviour, hence the version bumping.
+f53c05cc5e920b4d3a3a17b3363d8cb5143d80ab|2019-01-09|m3ller|Update mip version 0.1.4 -> 0.2.0 New Features ------------------ * Support a default minimum classical gap of 2
+bc37c5213be19cfc32ef65d98f5604a5709543c0|2019-01-09|m3ller|Update maxgap version 0.4.2 -> 0.5.0 New Features ------------------ * Support a default minimum classical gap of 2
+889ae4dfbf297a8c1ba2ca6b43000f0a11785dba|2019-01-09|m3ller|Add package info for penaltymodel-lp
+26feeacf99e0321fc86194633cefc432a202359c|2019-01-09|m3ller|Update core version 0.15.5 -> 0.16.0 New Features ------------------ * Support a default minimum classical gap of 2 in penaltymodels
+38c459002cb70f8088fadb5c2ce114a87c84f1d5|2019-01-08|Alexander Condello|Merge pull request #75 from m3ller/feature/71-remove-dwavebinarycsp-as-a-requirement-for-penaltymodel-lp
+30025be70102ccfdcfe967feff373326f752f815|2019-01-08|m3ller|Add impossible bqm test
+cd63527e3fe2a2d34cf9e94bda9d0548e63dd0d0|2019-01-08|m3ller|Remove dbc as it is unnecessary in lp unit tests. Remove test_attempt_on_difficult_problem(..) as the test is actually out of scope
+524e707e238224fdc8211a6240099ea4f681db74|2019-01-07|m3ller|Bump up the version needed from penaltymodel core; this will allow penalty models to access an updated Specification object that includes min_classical_gap as a parameter
+a8ba1a00eddd807e67d34b876f0604ce0628c0fd|2019-01-07|m3ller|Update core version 0.15.4 -> 0.15.5 New Features ------------------- * Add min_classical_gap as a parameter in Specification. This will support min_classical_gap in the penalty models.
+6cc3df4a3ba24abf8fb00feaed093b8f437fab98|2019-01-07|m3ller|Add check_generated_ising_model(..) to min_gap unit tests. Change user-specified ground states from non-zero to zero as MaxGap at the moment only handles ground states of zero
+295f8618b51a8393524fca4ab2d25c41c4e793a4|2019-01-07|m3ller|Add check_bqm_table(..) checks to MaxGap's min_gap tests.
+c0fb60fdd97790324fbac6e2c20679dccb6da8ac|2019-01-07|m3ller|Add MaxGap test to verify that a model is grabbed when min_gap == max classical gap.
+1b8282d2cbf5fdcb4ebe3980d94fa82c14ff999b|2019-01-07|m3ller|Grab initial feasible model
+ef3afb3a09e221c8d244929bc5361b21207272fc|2019-01-04|m3ller|Lowering min gap for test_multiplication
+8e2c851436f219d79beb4a76fb7d3abfdd175176|2019-01-04|m3ller|Add test for negative min gaps in MaxGap unit tests
+0cfb41c7646d581b4959a9c477e3b816ed21999a|2019-01-04|m3ller|Add min gap with aux test for MaxGap
+e2bd6a1bfc67f5a5a57ed4a8e30d5f7e759d9bee|2019-01-04|m3ller|Change the configuration to an or_gate
+28df8fe3fb16781bdde07e8eaf2951f9b57412eb|2019-01-04|m3ller|Add min_classical_gap to the initial solver model. If the model is infeasible with this constraint, it becomes unneccessary to search the remaining gap range
+8bd55bce953e9ab7f3c922cf65bb444fa73201ab|2019-01-04|m3ller|Add min_classical_gap argument in MaxGap unit tests. Add a min_gap test with no auxiliary for MaxGap.
+1ae53e3f07d6284893948e22e62e97a55ff71112|2019-01-03|m3ller|Add test for min gap with auxiliary variables
+71d6fe6eed1c39aa13eefb18108c3d50c2f408ff|2019-01-03|m3ller|Split if-statements as there is no dependency between them
+2b8843c95b1899f75b0ab59ae98a9c050e93c4e6|2019-01-03|m3ller|Add MIP min_gap test with no auxiliary variables
+de95eb35ef32b25adbd7a72417f7217e2b8adc28|2018-12-20|m3ller|Add min gap test for penaltymodel-lp
+e7dc4ac254c4a06027f8dfb296ce5438fb64d30d|2018-12-19|m3ller|Remove irrelevant TODOs
+667882fa81b647a5d060ef03ee8656302d945f28|2018-12-14|m3ller|Add min_classical_gap to docstrings
+f4a32a956c378b1a66f20fde3bbe2dc4db7970e0|2018-12-14|m3ller|Add min_classical_gap to MaxGap
+3f4741bd4b36aee236a623edad51325be8574923|2018-12-14|m3ller|Clean up. Remove unused imports
+89348a08ed5c95a1b1ef67fbc2f1b8ccf6191cfb|2018-12-14|m3ller|Change parameter ordering for Specification, lp, and mip; making gap parameter follow bias parameters
+d1c3684826c8fbc03d8924b396d46b4f22330d09|2018-12-14|m3ller|Add min_classical_gap to penaltymodel-mip
+dae8d60d03f223d53e1b863b77b980b1c272c562|2018-12-14|m3ller|Add min_classical_gap to lp and core penalty model
+200d33fb02323d2a99ee763e5feb6acc757b7c12|2018-12-14|m3ller|Gave min classical gap a default value
+934b2aad3704374852ed6eee0dc34cdacb50f0b5|2018-12-14|m3ller|Adding min classical gap into specification class
+61778cbd9602955baaf9ff9829f2cb96633bde51|2019-01-03|Alexander Condello|Update mip version 0.1.3 -> 0.1.4
+ebe5c9eb2289d0467aa73e13681fe07abd37fcd5|2019-01-03|Alexander Condello|Update maxgap version 0.4.1 -> 0.4.2
+e114c06ab524318a644824cc84a6c2cdb7f3471d|2019-01-03|Alexander Condello|Update cache version 0.3.2 -> -0.3.3
+547947f6f4487842d3d0cd0ae75867d5ba288296|2019-01-03|Alexander Condello|Update core version 0.15.3 -> 0.15.4
+5382e1bb0a9ab94fd5fde6e8e9eea8b77183114d|2019-01-03|Alexander Condello|Allow dimod 0.8.x
+98fb36311058c6fd1a3b7a8482c28cdc1d17ad9d|2018-12-04|Alexander Condello|Merge pull request #64 from m3ller/penalty-model-lp
+89e2027fe8aaeb0017672b8d5c522225b4c17157|2018-11-30|m3ller|Remove unnecessary TODOs. Truth tables get passed to penalty models, so it's not penaltymodel's job to test this. Penaltymodel only deals in ising.
+1148ed0a413b7f72891f8ab83b2a70601d8910c0|2018-11-30|m3ller|Change priority of penaltymodel-lp to something below cache, but above maxgap and mip
+022db0f81a926d3176f80975632f5e77de1f3fb9|2018-11-26|m3ller|Add packages into setup
+463eaaabe1d0e381ab7dcd954899404abbcfa7ba|2018-11-26|m3ller|Remove erroneous __init__.py
+e38d150b469e510d1409ea57cbb4a5029651d413|2018-11-26|m3ller|Change scipy version upperbound
+2b61cc6e24ef04fa6af0f276a5cfb795f5e171e0|2018-11-26|m3ller|Add dwavebinarycsp into requirements.txt
+83b18b2c95cf44d8680209630ef96ef63b68614b|2018-11-26|Alexander Condello|Add penaltymodel-lp to appveyor
+e051f85f76ec77468554027c02c7ac90c64334c6|2018-11-26|Alexander Condello|Add penaltymodel-lp to circleci
+6bc9320c9020c18933f1341e9c69193172044b62|2018-11-26|Alexander Condello|Add reference to penaltymodel-lp's requirements in the global requirements
+84e54ca4e10a4027d87ad2a2a90665b42eeb4285|2018-11-23|m3ller|Deal with using tuples as keys
+a1124b6b7e69afc3a93338c05b5971b99fd9c420|2018-11-23|m3ller|Change to proper quadratic bias range. Fix comments
+a3825f0cf336b62c331189b1a70ffb601957b692|2018-11-23|m3ller|Bug fixes: changed gap upper gap bound to be based on ising rather than qubo; and deal with single tuple error. Add some energy range tests
+7b76b99a7041315c33b9ef2308cb66f630992a16|2018-11-22|m3ller|Add install_requires and packages to setup.py
+787052738f73c059feb1a9cf3e549f2a398e58d7|2018-11-22|m3ller|Bug fix: add -1 to account for flipped inequality. Add test to verify that unspecified states are based on gap + lowest-specified-energy
+66db20590b74399c2eac71508a5840e1782d7439|2018-11-22|m3ller|Add basic test to gap. Minor code clean up
+c06421b5acc58a873ee6953c2a42aee075deaee2|2018-11-22|m3ller|Code clean up. Obey column 100
+d5c0bbf2fa053382fa64c8024b533800fab16223|2018-11-21|m3ller|Setting gap to be with respect to the lowest specified energy state
+fb35717ff6dcfd748969c0c5301ab9697b07f469|2018-11-21|m3ller|Add a test for problems penaltymodel-lp cannot deal with
+bf8db7f64c311e1f5e55433e8df6e949b7345882|2018-11-21|m3ller|Add assert to empty test
+158a5c7decbbae4d4ba33847a2899d234891931e|2018-11-21|m3ller|Add verify_gate_bqm(..) to help with verifying bqms for gates
+c5b9171d3372c120873b82c186e9d73273288b42|2018-11-21|m3ller|Change noted_bound to account for case where table is not a dict
+9986c2cb5abd7c4820fc0aaf9c55f9f2b710ab19|2018-11-21|m3ller|Clean up. Changed names *_states -> *_matrix, *_linear -> *_states in generate_bqm(..)
+71955740a7e27632839bc78f181ce499e592c12b|2018-11-21|m3ller|Add tighter bounds to gap, so that LP will still have constraints on gap even if gap is completely unused (i.e. no unnoted states). Add equality bound to noted states. Add multi-level energy test
+c041d989014aafb84d26a2eeab8321165b1633c5|2018-11-20|m3ller|Bug fix. If table was a set of tuples, the set would not be able to be properly passed as a numpy array. (i.e. np.asarray(noted_linear)). Hence first passing table as a list
+d077b6fe1d77aab55819dee2ed23c08230c0ecb8|2018-11-20|m3ller|Bug fix. nodes was passed as a set, which meant that order was not maintained. Order is essentially in this case as it is the way the LP maps back to the original problem, hence the test now uses an iterable
+5c34c7730fae157e53aa58c6516e19913e91fe5a|2018-11-20|m3ller|Handle cases where the table is an iterable
+0f03f85c3633e37b71cf1316e60032b75a02e6fe|2018-11-19|m3ller|Make gap_weight be a numpy array for specified spin states. Calrify comments
+b1cfdd85f2e2df6da9f1523211e26ea525746fbb|2018-11-19|m3ller|Name change. valid -> noted, invalid -> unnoted.
+1eb5e0b4efad463f8c3e154ebc2a5be964e33835|2018-11-19|m3ller|Add requirements file
+e4e1f65ef0ee2df174a2a6ddeb07fbd5784fabb8|2018-11-19|m3ller|Remove test_interface.py as these tests can be performed within test_generation.py. Plus the interface is almost identical to that of mip and max_gap
+8c740ab8ca3c8053dfba3dcf32be27c291e7c992|2018-11-19|m3ller|Address code review. Remove sorting decision_variables as Python3 does not sort unlike values; this means I can no longer grab indices using binary search. Now grabbing indices using a dict
+9f3d9249b2d44aa729ef51fd2c2872850084b1a6|2018-11-19|m3ller|Address code review. More conscience of memory usage
+f7fa80d462a056accbc085a97bae53ed1e7bdb39|2018-11-16|m3ller|Add test for generation.py. Correct interface so that it grabs from lp rather than from mip
+1bd7140feeb92b8b48aae571a55c3cf3c647a848|2018-11-16|m3ller|Remove optional parameters that are currently unnecessary
+1cbc2d617ce80abacb2e605bcc244278d99ef814|2018-11-16|m3ller|Add in init and set up files. Rename files from toy to lp
+de0058d5745d2010937609feaf40fab0f05c8d07|2018-11-16|m3ller|Raise ValueError to pass difficult problems to other penalty models. Add xor_gate test
+fd8daa48557b1e04df1612b8f3143d27dc140771|2018-11-14|m3ller|Clean up for clarity. Variable name change and additional comments
+4dfb3d12f304290b7da2c3693f8d46254c33f7b6|2018-11-14|m3ller|Make bounds code more concise
+b4d1ea3fd6336a9d36ce2f6c9548510773232f52|2018-11-14|m3ller|Clean up. Made a helper function for making LP matrices
+01170e1ea9d07d0e33fb9d97d8da13ef40ec6f52|2018-11-14|m3ller|Sort variables so that we can grab their indices by binary search
+5eaa462bbe010acea9565ae6a0ccefe0cd016e80|2018-11-14|m3ller|Make and-gate test into an ising test. Boolean-and does not completely work for spin values, so replace bool-and with min(a,b)
+c8ccdb0a24bc094c6be7cdbed239e2fd8bbb69c4|2018-11-14|m3ller|Add and-gate test. Remove unnecessary prints
+ead3b2a467c1867abb735eafb47537f3c6470526|2018-11-14|m3ller|Add or-gate test
+260da537e959ce43776a27a0b9f5d04279c43cd9|2018-11-14|m3ller|Rename test file
+c8570ff825d95f247b00571b01f9e26dbc074fe4|2018-11-14|Melody Wong|Return value as a BQM
+20d4a86f171b18d05aed57aa6318a97f47294fb7|2018-11-13|Melody Wong|Bug fix. Remove incorrect negative sign from invalid states. Add an additional valid state to make a proper or_gate
+4c54d755687b0e274b30927c7830cf80c28bb738|2018-11-13|Melody Wong|Add cost weights. Flip inequality of invalid states by including a negative
+4ae68f2353abc61ea5925f94614971f847ec853e|2018-11-13|Melody Wong|Add invalid states matrix
+5c71b6bf0bce55338ed52b7c651bda064a07dcb2|2018-11-09|Melody Wong|Set up preliminary valid equations for the linear program
+0acac7df7fb2b111bdbdae6407ad21bd40cad1ee|2018-11-09|Melody Wong|Add energy bounds
+3cc2b7010ba1e53e913170f4eff40840b2d32288|2018-11-08|Melody Wong|Add files to test that the current toy file structure works. Add penaltymodel entrypoint for toy
+1b67fbe6f323373e20cebaad607a6a132b005620|2018-11-26|Alexander Condello|Run unittests only once in appveyor CI
+ddde7023929f4c5e91daa86fb7905dfddeaf8ede|2018-11-20|Alexander Condello|Merge pull request #66 from dwavesystems/integration-tests-ci
+37d22beb1502be858da162890eb275e84506db7e|2018-11-19|Alexander Condello|Fix CI integration tests
+0f2f9f64335dc7ab352d06bbf9f7d22a9d17bc57|2018-10-24|Alexander Condello|Update cache version 0.3.1 -> 0.3.2
+d16be8e88d34829182b5d4922ef114a15375c1a7|2018-10-24|Alexander Condello|Merge pull request #63 from randomir/fix-cache-installer
+b61220bf4336b9a25e51d47ba2bbd29fab2bfe95|2018-10-24|Radomir Stevanovic|Include cache in penaltymodel factories
+84289a5469bf61d6af960899f667971896aa3432|2018-10-24|Radomir Stevanovic|bugfix: pm-cache should not provide 'maxgap' factory as entry point
+5a45c6497c8c1eee5c2691ac93d2c7e31b3eaeb4|2018-10-03|Alexander Condello|Merge pull request #62 from JoelPasvolsky/leap
+b63b120d23185eb9e4761ac896c1e9bf5d10c615|2018-10-02|Joel Pasvolsky|Update template
+7fcf5303f1016592048caf899f7cada7d0822aa9|2018-10-01|Alexander Condello|Merge pull request #60 from uxvrob/generate-ising-patch
+a047991583d63ba2be6e0b0576f069aaf12351c5|2018-09-29|uxvrob|Merge branch 'master' of https://github.com/dwavesystems/penaltymodel
+5a07feaae1aff9bcc762fd2684068a2e245a017b|2018-09-29|uxvrob|Removed limit_denominator.  Successful unit tests. Ref Issue#59
+8080c079e8ec1d5b7a051665201e8faac71c3c80|2018-09-28|Alexander Condello|Merge pull request #58 from uxvrob/uxvrob-readme-patch-1
+b9ce9409f24302550f5ea0a8af0fc8abbe8a5127|2018-09-28|Alexander Condello|Update readthedocs badge
+a9b59609deb1aca9ade67bf60b45e2e060498297|2018-09-27|Robbie Sharma|Fixed namespace issues
+795ef248b3a873deeeffde371947a4f8a91b11a4|2018-09-18|Alexander Condello|Merge pull request #56 from JoelPasvolsky/links
+059452b7950e5a9f654e506676df6893327731b3|2018-09-18|Joel Pasvolsky|Use intersphinx instead of explicit links
+e814b7596f443d5319712af61764d0aa8508456a|2018-08-15|Alexander Condello|Update issue templates
+15b159b4d3bf561bdb1215d5db8ad1674d901729|2018-08-13|Alexander Condello|Merge pull request #55 from arcondello/dimod0.7.x
+0708d9edce8ae3d16312fc6d35366756f92e10cf|2018-08-13|Alexander Condello|Update mip version 0.1.2 -> 0.1.3
+6ed96fef75b78eaf5d2f5f62c064ca10912ced62|2018-08-13|Alexander Condello|Update maxgap version 0.4.0 -> 0.4.1
+27d0cf50896ec33327954e5fa221230beed709a6|2018-08-13|Alexander Condello|Update core version 0.15.2 -> 0.15.3
+17fdb268f0d8b74087e85304329c9ab4956a5407|2018-08-13|Alexander Condello|Update cache version 0.3.0 -> 0.3.1
+27da776dd227ea44dba1c50b0e4421b2e7ebd520|2018-08-13|Alexander Condello|Expand allowed dimod range
+dd8dd07d5564356c480abb6d792b01ff613fe974|2018-07-31|Alexander Condello|Update core version 0.15.1 -> 0.15.2
+9e94f5eded082340cf35b3e613dcf9aa4fbbd2a2|2018-07-31|Alexander Condello|Merge pull request #53 from arcondello/remove_enum
+1078cc98e6e216f123c1aa9bdcc843538291a73e|2018-07-31|Alexander Condello|Remove unneeded dependency
+1163257d5826756608c4af38fffdad390af070c5|2018-07-28|Alexander Condello|Update core version 0.15.0 -> 0.15.1
+5a3ff1b4ad30229a565873419cae304c12ce512c|2018-07-28|Alexander Condello|Fix requirements syntax in core's setup.py
+63f88eef6ec09feb0700266cc70a380bd275e6aa|2018-07-27|Alexander Condello|Merge pull request #52 from arcondello/mip_size_limit
+72b751b68d823f857c0637470bc950a7f4d3500a|2018-07-27|Alexander Condello|Update penaltymodel-mip version 0.1.1 -> 0.1.2
+1fd33ca45a97e280dbea94944ca29a915615323a|2018-07-27|Alexander Condello|Loosen size restrictions
+5254347d9704ea32d575a3a8c8304a3e60099205|2018-07-27|Alexander Condello|Update penaltymodel-mip 0.1.0 -> 0.1.1
+e48d15766c840e5000bb5a86774603615e6bee5b|2018-07-27|Alexander Condello|Fix bug in setup.py preventing ortools install
+04540a9195f0f54485aded367bd531e55391003d|2018-07-27|Alexander Condello|Fix penaltymodel-mip deploy
+e4e89c28ec47e4e1363a79faf012defed1446a4f|2018-07-27|Alexander Condello|Fix README
+3c100bd8019191ef99f817467a18bfe0267a5f61|2018-07-27|Alexander Condello|Merge pull request #51 from arcondello/CI
+e1b345e703ee26c83ee8c3d51ee8ce763e22cc39|2018-07-27|Alexander Condello|Remove 3.4 tests
+de47431f969a1fde7e43ee83a19179277fa09fb2|2018-07-27|Alexander Condello|Toggle dimod versions based on python compatibility
+91279a73c81f77323b2e0cae41a4cd02f4f6be55|2018-07-27|Alexander Condello|Add python3.4 to appveyor
+b60fcf4a8131d3bab203a121fe4e95ba70dcaca9|2018-07-27|Alexander Condello|Switch from coveralls to codecov
+cc20e475add2e88189ec2a63333bbc575605f228|2018-07-27|Alexander Condello|Add python3.7 to builds
+ba5a680e79b05dfda4e7499f90676c0759f784ee|2018-07-09|Alexander Condello|Merge pull request #50 from arcondello/osx_build
+6a75093175bfcef58cb3b020db1977949cb7f1a6|2018-07-09|Alexander Condello|Run appveyor only on 64bit windows
+a800f472d024ad788aac8e5bff49c634a6e4d843|2018-07-06|Alexander Condello|Add penaltymodel-mip to coverage
+99ce01db4f3b8fa47d9ff31c2b410e241c58a679|2018-07-06|Alexander Condello|Fix circleci for penaltymodel-mip on osx
+1bdeb55c2f155c1d6b700f7dd47bfbca0b8bbf90|2018-07-06|Alexander Condello|Add windows filters for ortools install
+3017194a78404d452a373954e225696b083964c8|2018-07-06|Alexander Condello|Relax ortools versions to allow for osx builds
+96468556752574b9a91dd1cc4055978cbb8c7a50|2018-07-06|Alexander Condello|Merge pull request #49 from arcondello/penaltymodel-ortools
+45af5b4e5d9c502c375c43d05ee290891e8e9bec|2018-07-06|Alexander Condello|Fix python2 syntax
+176ed2e155d364ed0672f7b5fda70a2503aaf944|2018-07-04|Alexander Condello|Create penaltymodel-mip package
+1296e1b2c2844fa2e607c8ac8ad2a3ca8e2a8612|2018-07-04|Alexander Condello|Add ortools expermimental code
+10720c5dd77c9e333f392807f2008353fc9ae92c|2018-07-04|Alexander Condello|Merge pull request #48 from arcondello/pypi_badges
+ee8a3d8c45e605cddb2cb37fbfe8a53fa5d55f9d|2018-07-04|Alexander Condello|Add pypi versions to README.rst
+7ddd78db987464d3112eaf8e428d592b0f193426|2018-07-04|Alexander Condello|Merge pull request #47 from arcondello/namespace
+8fdd88c8f2d8364e89b5884c0b6b1c5ce2a242e5|2018-07-04|Alexander Condello|Update docs to reflect namespace change
+bd07b856e7a5314d9accd5695362ffe76a6e89ab|2018-07-04|Alexander Condello|Fix bug in entry point syntax
+9e39bf58695e0b67d2bd4c795bf1fcf60f702544|2018-07-04|Alexander Condello|Update integration tests to use namespace
+002f2c1117be03263d06ed93d8c8326f6ffab484|2018-07-04|Alexander Condello|Make penaltymodel_maxgap a namespace package
+79533236e4c389297c972a5113c99400de2ea580|2018-07-04|Alexander Condello|Make penaltymodel_cache a namespace package
+b1951fbad8faa528c25a7099bfaa2668d02e3ab2|2018-07-04|Alexander Condello|Make penaltymodel_core a namespace package
+9749ab9d1dd755586ab15643bf73056a252f9f25|2018-05-30|Alexander Condello|Update version 0.3.1 -> 0.3.2
+67ca27126f3d6f156b3ca866ffc085b1a39efd16|2018-05-30|Alexander Condello|Pin pysmt for setup_requires and install_requires
+5dd970d4106fb156cc2f1390efa29db4b3b5a19c|2018-05-30|Alexander Condello|Merge pull request #45 from arcondello/master
+026e3a16ac9af8259ae896fcae83719c4be42424|2018-05-30|Alexander Condello|Update version 0.3.0 -> 0.3.1
+d0a4ce428f26632b1378da569404b4e8267ab636|2018-05-30|Alexander Condello|Pin pysmt version to fix solver issues
+a504dad0d941411726df52d24e8d369864765c27|2018-05-09|Alexander Condello|Merge pull request #44 from arcondello/ci
+eabf5ed60b45fdd8de2f25715dc6075a758d6616|2018-05-09|Alexander Condello|Update penaltymodel-cache to 0.2.1
+e623ffd659a2d706524fb9c573314c455d6e1580|2018-05-09|Alexander Condello|Update penaltymodel version 0.13.2 -> 0.14.0
+4e1e9b7d442cfe5a700fbf0d2538b4fa9db07269|2018-05-09|Alexander Condello|Update penaltymodel-maxgap version 0.2.0 -> 0.3.0
+8a6ebbd0bd70748bcef34abdfaf5aecc3ce00ef6|2018-05-09|Alexander Condello|Add pypi version badges to READMEs
+d9fb584c5ce4871f83bad8978f6ec32454596ee5|2018-05-09|Alexander Condello|Fix verification step in deploy script
+f8aae237151166524be5d8143ece3b92ac0e38d2|2018-05-09|Alexander Condello|Change tag name pattern
+10292b96ef913658fff61e8d186211d24a543279|2018-05-09|Alexander Condello|Remove old CI boilerplate
+b1ed820ccf157599a67643fe44990f4c2a146dc0|2018-05-09|Alexander Condello|Add deploy for cache and maxgap
+10b11f802fa871bc8f1997d2a73453a017b01cb4|2018-05-09|Alexander Condello|Add deploy for penaltymodel-core
+8887a58b1fc4e9b88b33d68fbe0522680fde7596|2018-05-09|Alexander Condello|Add osx to circle-ci
+e7ba95d26677c1298ac26586b2b2bfc184396aa2|2018-05-09|Alexander Condello|Simplify circle CI
+ce80b7f3cd330c0ba19376a8d5735bc911131fd6|2018-05-09|Alexander Condello|Move penaltymodel_cache tests
+421b4847c714149c92b5da3b26c32b5647302dc1|2018-05-09|Alexander Condello|Move unittest for maxgap
+5c9fff2443d7a752151298b4a9dc1a3da3bf074d|2018-05-08|Alexander Condello|Move integration tests to top level
+555a3db5120b6d418b83e1692961373033a74323|2018-05-08|Alexander Condello|Add appveyor build
+be697aa42e8605a670b51068b402251daac0eb27|2018-05-08|Alexander Condello|Consolidate meta requirements
+503b20d2c68790bdd587fd36f904cdabad7c4bfc|2018-05-08|Alexander Condello|Add badges to README
+6f3f363215152151b362b1ef01e0a3ba26f84f13|2018-05-08|Alexander Condello|Merge pull request #1 from randomir/pysmt-solvers-install-wrapper
+9275971c6c721f56a64569c55900955928f48842|2018-05-04|Radomir Stevanovic|Add CI test to verify Z3 installs with pip
+de74a705941125339fbab209aef66e8673022e40|2018-05-04|Radomir Stevanovic|Fix pm core setup to work without deps
+aa16368fd20867fb95b899dd36027164363a42af|2018-05-04|Radomir Stevanovic|Fix inline literals/code in readme
+15f0eb586da63904edc37209d0431a1c4fd88584|2018-05-04|Radomir Stevanovic|Add pysmt/z3 install wrapper notes to maxgap readme
+745936945ace52bc1f04b51bf913fb86bffc3d5f|2018-05-04|Radomir Stevanovic|Add pysmt solvers installer wrapper to maxgap setup
+4553074a9a7d3fb69ec4b2fef8c3d6437c1539b6|2018-04-11|Alexander Condello|Merge pull request #42 from arcondello/docs_buildfix
+baaf8c7d28c573abb833d272e7bcea6d518d40ca|2018-04-11|Alexander Condello|Each requirements.txt now only includes external projects
+c7fbc0f0bd913e7c6f2301ecf402f28ab180fb47|2018-04-11|Alexander Condello|Merge pull request #39 from arcondello/monorepo
+357346c9dbbe780a5d9a4b16a8fa86917843403c|2018-04-11|Alexander Condello|Add doctests to circle-ci tests
+e4f45ccbea1fdfc6bc3fbffce185e8617964181d|2018-04-11|Alexander Condello|Move all documentation into one docs/ directory
+04c390fed47d38673f646fed0a6706d7b733e56e|2018-04-11|Alexander Condello|Add top-level README to monorepo and update other READMEs
+8b4dc446c38151762b8d99fe9e517407e8d6ae2f|2018-04-10|Alexander Condello|Add maxgap tests to .circleci/config.yml
+4e9b8a1a5bdc0f2456a075b5ae0fd78fe8064c0e|2018-04-10|Alexander Condello|Move maxgap logic under penaltymodel_maxgap
+0a4f48d7d036d9e70521e41fb1a64533dbeebad2|2018-04-10|Alexander Condello|Merge maxgap into penaltymodel
+2f15b54f1c0d9b1b862f4aede67f2924a3e3a4b6|2018-04-10|Alexander Condello|Add cache tests to .circleci/config.yml
+228bb0b413878207674d8abb71bba7f9b35cedde|2018-04-10|Alexander Condello|Move cache logic into penaltymodel_cache/
+a0d970a2dc1ea278d49c830bcc106c1d7418e38a|2018-04-10|Alexander Condello|Merge penaltymodel-cache into penaltymodel
+ecc5d39dd6db1ee0bdccedbf5c7885b242077868|2018-04-10|Alexander Condello|Move core docs under penaltymodel_core for now
+3cb369a4c4832f5261e329adefd07d737655f3e1|2018-04-10|Alexander Condello|Add deployment to .circleci/config.yml
+9fec19c5675f8f8bb2caeec072a6d6c1bf672349|2018-04-10|Alexander Condello|Move penaltymodel's logic into penaltymodel_core/
+20e827aea53f47bf5b56d012ce39f4d68810d30d|2018-04-03|Alexander Condello|Clean up requirements install and add doctests
+4a2b3b9c4a5251a296b72d8c3175bd171144c87d|2018-04-03|Alexander Condello|Customize .circleci/config.yml
+30ce43eaa06a738b781ce0da114b0eb890f0dd47|2018-04-03|Alexander Condello|Add template circle-ci config
+b1c73e8c17cae8984da546859ab082dffe026382|2018-03-14|Alexander Condello|Update version 0.13.1 -> 0.13.2
+e618fb58996c6964ffaabcc1dd0e51de80548c43|2018-03-14|Alexander Condello|Update extra requirements versions
+3b524716d67ceaa797e1534a3b4e02bee5c7b4ef|2018-03-14|Alexander Condello|Update version 0.1.0 -> 0.2.0
+f36d9c76cb9b3aac8e7bf75a7d96e8af6900882c|2018-03-14|Alexander Condello|Merge pull request #6 from arcondello/penaltymodel_0.13.0
+bd01ce84f36aa2e99c1fcfc2a27bddf2f60d0ffe|2018-03-14|Alexander Condello|Update version 0.1.1 -> 0.2.0
+260c65b95d562511c89b05e3136f23f839cbe20a|2018-03-14|Alexander Condello|Update to use penaltymodel 0.13.0 and dimod 0.6.3
+e0141f03240c1ba5f354f8f7746d22028571ad4c|2018-03-14|Alexander Condello|Merge pull request #37 from arcondello/dimod_vartype_decorator
+49aead8d80ea191eb3ffaad8490f45d8a84d7436|2018-03-14|Alexander Condello|Update version 0.13.0 -> 0.13.1
+43e288ce2ccc9530c3f09cd44ed96fec04368a91|2018-03-14|Alexander Condello|Use dimod vartype_argument decorator for input checking
+8c517c767f6a2bb517d297c691838e9b2b375e8d|2018-03-13|Alexander Condello|Update for penaltymodel 0.13.0
+28050aa66779ae19d02a8ee45292d7da65cc2bc7|2018-03-13|Alexander Condello|Merge pull request #36 from arcondello/inplace_vs_copy
+315841f8896062cbd9c8a964233f0f7bcdc5798c|2018-03-09|Alexander Condello|Remove extra deploys from .travis.yml
+1c4c0b316bec40b3e9fed0ccb2b580d8cd6ddefc|2018-03-09|Alexander Condello|Update version 0.1.0 -> 0.1.1
+85460974ca5053cf40e3e10d9835187a5d0c9477|2018-03-09|Alexander Condello|Fix install requirements upper bound
+75744b58749001ee0f8ebdae573777c79eeef4c7|2018-03-09|Alexander Condello|Update travis osx python3 build
+7251fd83f392ad99fce4d170af8e9f5183454a15|2018-03-09|Alexander Condello|Update version to 0.1.1
+c226dbe282b8c09ccd0200e3064dcebb354a6ebf|2018-03-09|Alexander Condello|Fix dependency version range syntax
+ea413745975481d98d9344de09efae19460b48bf|2018-03-09|Alexander Condello|Change kwarg copy to inplace
+679e0013cee739910bd8c6bfbbecc2f7c09d7624|2018-03-09|Alexander Condello|Merge pull request #35 from arcondello/dimod_0.6.0
+a40b04b30b6aa8f50a64b81d87d9dcebc30f91e6|2018-03-09|Alexander Condello|Fix documentation to reflect dimod 0.6.0
+34a6da86db154b56a20cbcf81eacf2d75dfa031e|2018-03-09|Alexander Condello|Move tests into top-level directory
+1a31ff8bff300e8461ac5beed3d779537a005875|2018-03-09|Alexander Condello|Add doctests to travis builds
+99ca081e1746c66d7ccd2e0b4a503ec5a8580337|2018-03-09|Alexander Condello|Update to use dimod 0.6.0
+e7a9ff0c3744660b6a67fde479a7da4096806347|2018-03-09|Alexander Condello|Update version 0.12.2 -> 0.13.0
+90033380521c7d4dc88cf41b6563e9c719fecbcb|2018-03-09|Alexander Condello|Update requirements for dimod 0.6.0
+2e4b9ff2477daecbb5aaf02cd981bfe09beaba4e|2018-03-09|Alexander Condello|Fix .travis.yml syntax
+f95b64c01caaf3078e3262f43f631a3487c37e13|2018-03-09|Alexander Condello|Update version 0.12.1 -> 0.12.2
+f91bde0461135559d8bf14acb95f86624d49cd6b|2018-03-09|Alexander Condello|Update travis osx py3.6 install instructions
+767844f7c2b151c1de928d7fd5cbed1c967b3946|2018-03-09|Alexander Condello|Correct requirement upper bound syntax
+8665126bdc90d396f1734e5732af03ccab2e2bb4|2018-01-26|Alexander Condello|Add deploy password for travis
+ef3a61a4c41f9d082db29e7e7936c005ff7951ce|2018-01-26|Alexander Condello|Add lower and upper bounds for requirementes
+19616183ee8eb7a848d8f7d230df421b0d4dceb9|2018-01-26|Alexander Condello|Update version 0.12.0 -> 0.12.1
+e40a091ee9bf9cb979e44f80924e36b8885ff26a|2018-01-26|Alexander Condello|Add cache and maxgap for all install path
+0c84a6eb37b1997e663e46d17f0233d57487ca20|2018-01-26|Alexander Condello|Travis deploy only once
+6d2aaa71c0cded602498c203dd5ee7b94dd65b7e|2018-01-26|Alexander Condello|Travis deploy only happens once.
+b59d3aa1601b108390907bbf758c4cf8bfab5b0e|2018-01-25|Alexander Condello|Add badges to README
+df27292487e832161b2f8d8eceeff02623ed1cac|2018-01-25|Alexander Condello|Add smt install to travis
+32d405edb9309eca56db7fe42942056431c2a0d5|2018-01-25|Alexander Condello|Add .travis.yml
+b33676220a3abb3b7dd98197532a40f8984109c0|2018-01-25|Alexander Condello|Fix bug in graph encoding
+3bc1e96b6f29882a15ac12e752fdb0e59343cecd|2018-01-25|Alexander Condello|Add 3.5 build to travis
+6a041b1aacc5be5c5f0047ed2ad64c44c737e552|2018-01-25|Alexander Condello|test now uses full database
+ff424c70226e1af1608f79dc3d852e7a135f7a69|2018-01-25|Alexander Condello|Add travis deploy password
+6a649d4b08fc0908984ba83472866bfb10756ac4|2018-01-25|Alexander Condello|Add badges to README
+32a51aebe92f4e010dd1c3a58fbad89495f8f438|2018-01-25|Alexander Condello|Update requirements
+77228a9e484e7a184ad3c2bcccdedd1ec8d4a265|2018-01-25|Alexander Condello|Update version to 0.12.0
+7c6645210831d1496b601ec872a08cc63d4389bc|2018-01-25|Alexander Condello|Merge pull request #28 from dwavesystems/1.0.0
+dfa45f8031a5b2e8b7a5a74303662ad132bb9cd2|2017-12-22|Alexander Condello|Update version 1.0.0.dev5 -> 1.0.0
+43c9d26e11894eaff5ac9055d40b0e6924f65a3a|2017-12-22|Alexander Condello|Merge pull request #5 from dwavesystems/bugfix_issue#4
+1a452716480d20bc83ecfe1369475bbcfa9c31a3|2017-12-22|Alexander Condello|Retrieve now correctly looks at the decision variables
+ae7d51de701baaa98b18fc159c51331f206b388d|2017-12-22|Alexander Condello|Merge pull request #3 from dwavesystems/cache_bugfix
+0c9dc373db73af3f61ce90428f5adcefbe5ccc07|2017-12-22|Alexander Condello|Fix relabeling of arbitrary graphs
+9b0df691db96932e224164527600f29855fda137|2017-12-22|Alexander Condello|Update version 1.0.0.dev4 -> 1.0.0.dev5
+f6be4aea147d5e80969e96ae84ee4675b670c77c|2017-12-22|Alexander Condello|Merge pull request #27 from arcondello/relabel_selfmapping
+a59f4a6c56d2948c656f433edd29fa541c5e61bf|2017-12-22|Alexander Condello|Finish inverse labeling unittests
+119ff0ed8f57c1dd50c6b6a66ca9ffc722c5cd8a|2017-12-22|Alexander Condello|Fix relabel bugs in specification
+5af82e668afccb8548791188bf892577a77e5572|2017-12-22|Alexander Condello|Add __ne__ methods
+2fa247a632e3d868ba4a7d2bd991635af3a4d364|2017-12-22|Alexander Condello|Add unittest testing reversability of relabeling
+5340eeb217093bf500f3fb6d7a2609d8bce023ab|2017-12-21|Alexander Condello|Update version 1.0.0.dev3 -> 1.0.0.dev4
+5dc74aa51766519be54bbf6b41a86c2fbb56180b|2017-12-21|Alexander Condello|Merge pull request #26 from arcondello/bqm_relabel_bugfix
+259745141a6338bf1fd37af978572a30a0731307|2017-12-21|Alexander Condello|Fix bug where type conversion led to loss of information
+81ea20df08c79ecbbfa859024aae1e19379048ab|2017-12-21|Alexander Condello|Merge pull request #6 from arcondello/extra_unittests
+b13ea3303954f32bfa7395ec6c959ba9f003d96d|2017-12-21|Alexander Condello|Add additional unittest for interface
+688212927915fe7f7d0ae93e46fd6ec48a3f3046|2017-12-21|Alexander Condello|Merge pull request #5 from arcondello/binary_bugfix
+010ac4b3a16bc0f08a1a619b12def22fd933e3a6|2017-12-21|Alexander Condello|Update for penaltymodel 1.0.0
+e60473c13d2b40a68d304507a89b6c2522f09f6f|2017-12-21|Alexander Condello|Remove requirements.txt dependency
+562eb9d23c047125ba43493143ab85fc4ffa04b5|2017-12-21|Alexander Condello|Update README install instruction
+790d2f10135733bd02b817e1dcda4a673217dfdd|2017-12-21|Alexander Condello|Update code for penaltymodel 1.0.0 release
+1efc8b4b0d48a9c57c6b42dd707e77b703a34f27|2017-12-21|Alexander Condello|Added python2/3 compatibility for setup
+86822efaf211f7d477b7686a31974aafbe1e1714|2017-12-21|Alexander Condello|Update version 1.0.0.dev2 -> 1.0.0.dev3
+c65b847b9c4dc1c562973d54c2a3077249071485|2017-12-21|Alexander Condello|Merge pull request #25 from arcondello/bqm_relabel_bugfix
+36020819e953bf487d1aaa4a96f5c149cd919878|2017-12-21|Alexander Condello|Simplify the construction of adj in BinaryQuadraticModel
+099a8cb96322e11610a59df859dcab2773b9a69a|2017-12-21|Alexander Condello|Import version etc into package namespace
+acecd72eeeca83390290121a6d0c5a3e03777fb9|2017-12-21|Alexander Condello|Update gitignore for more general virtualenv
+7151ae789ff8ce238f9560eea5acf9f59675b4ed|2017-12-21|Alexander Condello|Remove requirements.txt necessity
+49eaecdde00ac06821134ca87dd9cbfaf4afc8f1|2017-12-21|Alexander Condello|Update version 1.0.0.dev1 -> 1.0.0dev2
+409d76d977d4f88091270f2445d1daee00b3cb4a|2017-12-21|Alexander Condello|Merge pull request #24 from arcondello/specification_energy_range
+1ecd75c9c047c94da6fc81412f9297e34385cc81|2017-12-21|Alexander Condello|Add check on energy range for model
+c58080f413c4b6dfac1631835d8fccd7f9630864|2017-12-21|Alexander Condello|Merge pull request #23 from arcondello/1.0.0_bqm_doc_fixes
+49ce11c6315bbc105ace69e47af2806ad70bebdf|2017-12-21|Alexander Condello|Add some more explanation to the README example
+9df43783f7ed9f54beb8b9bd62a712283cfc6154|2017-12-21|Alexander Condello|All doctests passing
+83a7ea050e74091a5847a531dce0a3882844b286|2017-12-21|Alexander Condello|Improve BinaryQuadraticModel documentation
+faf61823d7292664ef3616e2ab8ea1b1e9a507cc|2017-12-20|Alexander Condello|Merge pull request #22 from arcondello/1.0.0_readme
+2abac7934fa636c6394c53f36348bb8ca643e719|2017-12-20|Alexander Condello|Remove \mathbf from README
+2bd0201741079c02d75adda286f20b5a9f802c85|2017-12-20|Alexander Condello|Update README to include example
+405a7dc1d5d214c30921aa8d71e6900a61349cd7|2017-12-20|Alexander Condello|Refactor of penaltymodel
+90356a9590f819346aa7b0caf882d53c8fda7880|2017-12-20|Alexander Condello|Refactor Specification
+ec9a70e2a1608e4781bd80858faf32d38953cfa3|2017-12-20|Alexander Condello|Update version 0.11.1 -> 1.0.0.dev1
+b5dc37afadfc86d34688d7071a8e429254426ab4|2017-12-20|Alexander Condello|Update README
+a3d9199f3fa5cd80002ce870763a0543d92f576e|2017-12-19|Alexander Condello|Update version 0.11.0 -> 0.11.1
+c505a878b9dd32e93cd93b3ccf085e7949ef65d8|2017-12-19|Alexander Condello|Merge pull request #17 from arcondello/bugfix0.11.0
+babc7e7e6edd14e76e891fe7dae5be649c696a47|2017-12-19|Alexander Condello|Update docstring for PenaltyModel.relabel_variables
+19af24b43421a626107f0c539cfc2dc284d98547|2017-12-19|Alexander Condello|Fix bug in PenaltyModel.relabel_variables
+cf2ede7f2909bf58b9a1cb486a42bc53f4f89f4e|2017-12-19|Alexander Condello|Update version 0.10.2 -> 0.11.0
+4433bb42e3f38624fdb519421c4915e30b978e52|2017-12-19|Alexander Condello|Merge pull request #16 from arcondello/relabel_copy
+a83c4241688429ed9285e28cd45c8852de9b2d79|2017-12-19|Alexander Condello|Add relabeling for Specification and PenaltyModel
+60af42ae8755e621d1c89ff1489aa8ce7ca4cee4|2017-12-19|Alexander Condello|Allow in-place relabelling with label overlap
+ea8f336334ff7cf31037dfc15bee95eb1acc95f9|2017-12-19|Alexander Condello|Add in-place relabelling for BinaryQuadraticModel
+0d78320f8a648234f6bb311b84008d766baa9655|2017-12-19|Alexander Condello|Merge pull request #4 from arcondello/binary_bugfix
+d0c8c0416dd919e148c4b195d56066d92f0540f6|2017-12-19|Alexander Condello|Fix bug for specification with vartype set to BINARY
+c08f3a88e519c6d0aee711b89d3450f01783fd99|2017-12-19|Alexander Condello|Update version number 0.10.0 -> 0.10.2
+8eccfc6802798d1a34c291e27a655d0165e38533|2017-12-18|Alexander Condello|Add some interface tests
+7785f2f7d34d8535e289ca9c6860966abde95fbb|2017-12-18|Alexander Condello|Fix bug in setup.py
+f38f961f7e0f9b90dd05ee5a165183f05499100e|2017-12-18|Alexander Condello|Bugfix in interface.py
+472451cbb3a0c2d257943d4049ea7704351edbc5|2017-12-18|Alexander Condello|Fix typo in setup.py
+6b71e84b1e5597815c69865f76898ce9bc514b6d|2017-12-18|Alexander Condello|0.9.1 -> 0.10.0
+120fac2308a4538564ecfbc63210dd9fc7d9fca7|2017-12-18|Alexander Condello|Merge pull request #14 from arcondello/bqm_to_networkx
+0feaadf20881d3c0e892db59f8893cdee6609144|2017-12-18|Alexander Condello|Add to_networkx_graph to BinaryQuadraticModel
+aca57e1f075c5a57bbf3aac4f21d735d62ca9c4b|2017-12-18|Alexander Condello|Merge pull request #13 from arcondello/specification_vartype
+fabc04674dd8beadb80641a974f9de7628d5a60d|2017-12-18|Alexander Condello|Change the way vartype is handled:
+005a616ee5615ea152c8e45922290b3101cc2ef5|2017-12-18|Alexander Condello|Update .coveragerc to include source
+6960fa2344720c60714a7b492bb66f43875786ce|2017-12-15|Alexander Condello|Update setup.py
+102bf97af903d7fb2877a2b6b8906f85a0fd339a|2017-12-15|Alexander Condello|Add install instructions
+9418c4fc5e3d7193113aef46c347963659aea060|2017-12-15|Alexander Condello|Add documentation and infrastructure
+de8caf75530724de1c23d9b9d9bb471de63a8960|2017-12-15|Alexander Condello|Refactor interface.py
+904b0b5fee0253892478e99227c010d6a029b4dd|2017-12-15|Alexander Condello|Refactor generation
+0d3860af393658642d57bc6ec08f1220cf6700f6|2017-12-15|Alexander Condello|Refactor smt.py
+ea471cdd64ed0f5d58e4f257fc90fee72ac6874d|2017-12-15|Alexander Condello|Refactor Theta
+6e0d211b868427b605d2a4ff6a0b1d72e9727166|2017-12-15|Alexander Condello|Major restructure, change dwave_maxgap to penaltymodel_maxgap
+e4fefdafbca529626726ceb055347cd449f560b1|2017-11-07|Alexander Condello|Interface works anecdotally
+9eaccdbb749d266a21eae3e28f37497cdefa1a8a|2017-11-07|Alexander Condello|Add clarifying comments and remove old code
+2297af67b0216af9d1769c5622c58761b73053ce|2017-11-07|Alexander Condello|Add smt_solver_name parameter to generate_ising
+8bf11818321f61c06f1a9c12383923831443560a|2017-11-07|Alexander Condello|Change the order of tests in test_generation
+30d9b221b9c3fe485f2d58a33ae7a48c004b3a27|2017-11-07|Alexander Condello|refactor generation to remove most pysmt imports
+f93f06283ccf62e93de4d7f97a91b5342c9194b7|2017-11-03|Alexander Condello|stable until interface is determined
+88a934d2edf48dc4314cddc0b17b38f295eb7d0b|2017-10-23|Alexander Condello|diving the gap range
+cef34f460ff099c93a2afff2beb991306fafbc87|2017-12-15|Alexander Condello|Add travis, coverage and pip information
+dc9adca2ae859cae35ef1232ce8366b28b235073|2017-12-15|Alexander Condello|Add README and interface documentation
+91161aaa1892456948478276f8fef16c8fb19422|2017-12-15|Alexander Condello|Add documentation for database_manager
+a70199256f891004096129f51546b66db9a0c2b4|2017-12-15|Alexander Condello|Add documentation for cache
+881f3b361a66d873652fe58a5272bff7a5d8118e|2017-12-15|Alexander Condello|Add schema documentation
+a88d05211343ad99b9d1fc36f008e484a40e0d10|2017-12-15|Alexander Condello|Add docs infrastructure
+00a3882b22fc27d1876e7d7de2e17030f3eb48ba|2017-12-15|Alexander Condello|Update install infrastructure
+01db8d5a6e75ee553d99c492ae028fbb18413d7d|2017-12-15|Alexander Condello|Merge pull request #9 from arcondello/relabel
+f57435eb779e15d268afd9c1727696e9f4c1a0ae|2017-12-15|Alexander Condello|0.9.0 -> 0.9.1
+8c373bd57fe39336061c7ed123eaf0d2a5cbfcb3|2017-12-15|Alexander Condello|Add relabelling for PenaltyModel and Specification
+e4aa6d143ea05b55c6a30dd5225b0ad519e54186|2017-12-14|Alexander Condello|Coverage properly only checks on main package
+0114c0cadbc750406e57ac6254630656825d5dec|2017-12-14|Alexander Condello|Update .travis.yml to include coverage
+e704c897bb4d0ab0f18fd56d5b437ff1e442d634|2017-12-14|Alexander Condello|Remove osx pynightly
+cc62d329e725c3205c797a93f4f1f8d5c39211d9|2017-12-14|Alexander Condello|Add deploy secure password to .travis.yml
+c3c4aa02d4ed0434a593ef202177dbfc546fbe6c|2017-12-14|Alexander Condello|Fix badges to point to correct repo
+76634af16ec8d0d8c8f57e0a3b6b28326e9d474f|2017-12-14|Alexander Condello|Merge pull request #5 from arcondello/release
+d3a89e2c8f40bb032619f7b5f7fe98a49367379c|2017-12-14|Alexander Condello|README badges
+a016581e0ed2156dd064228dab2dc242c95278de|2017-12-14|Alexander Condello|Add .travis.yml and requirements.txt
+5ab13436d7b4af74116e8846afced899013a2d2f|2017-12-14|Alexander Condello|Refactor
+e254a517a9158431b801c970b9e49399b6546d62|2017-12-14|Alexander Condello|Merge pull request #3 from arcondello/setup_fixes
+cc51b40f5ccea84a07a2eae3f9fc3320c7e90f70|2017-12-14|Alexander Condello|0.0.1 -> 0.9.0 (prerelease) as well set setup changes
+8666d103b8d239c28f262ea513c0e13174358770|2017-12-13|Alexander Condello|Merge pull request #1 from arcondello/refactor
+a1f65c43a4a8e293a38630ed03e7eda53ce1f236|2017-12-13|Alexander Condello|Refactor interface functions
+8bbe020eefe0ac05d7c07834499022dc7490af96|2017-12-13|Alexander Condello|Refactor PenaltyModel and add documentation
+977beefc5a8d831ae047434b97d912a76cc61b5b|2017-12-13|Alexander Condello|Refactor Specification
+9212120551b817731e4bf5cebd12e7bec16dcde8|2017-12-12|Alexander Condello|Add documentation framework
+3639c0d61d7a24a5edfefb0e3bbee4388b24893c|2017-12-12|Alexander Condello|Move BinaryQuadraticModel to its own subpackage.
+72b4bc683e18becaae0d75ab1e8d646b3abd9a85|2017-12-12|Alexander Condello|Move VARTYPES to their own submodule
+715d068091c234e1b56d54bb27e8c574e00a1e2f|2017-12-12|Alexander Condello|Restructure to move classes to their own subpackage
+3e56c02a018c22d8e7beddf6656d94005c24e393|2017-11-17|Alexander Condello|Update external api
+b3d0761a006c3eaff977a2d51e2dfa208e0640fb|2017-11-17|Alexander Condello|Add __len__ to BQModel
+4e48c454aa09dd3993de51d3fa9d6552b52c8917|2017-11-17|Alexander Condello|Add simple interface
+e22e6a890563909d08b9eab09f40c823905184a7|2017-11-16|Alexander Condello|Remove extra file
+b854f87465cfbdc57edd509d0ed93b5fab6e7e9a|2017-11-16|Alexander Condello|Add relabel_variables for BQModels with unittests
+539170a1504187937e8539ed6037018d8bdbbd7d|2017-11-16|Alexander Condello|Update classes and corresponding unittests
+d06290be17109dcb0caa520b7961da8549059408|2017-11-15|Alexander Condello|Fix bug for installing before installing penaltymodel
+ee3d823c387be36dfbdd9b0e723ef6c27b9b1dd9|2017-11-15|Alexander Condello|Clean up imports and setup script
+33628060e6579d49bbbff894a58e60f0b3b05dda|2017-11-15|Alexander Condello|Add module docstrings
+096f7310c72b5b9d99ee3ade25aff9b82265e7b3|2017-11-15|Alexander Condello|Add ability to dump database to a list.
+26d328050a765df0feb3aa64271ec9610336436f|2017-11-15|Alexander Condello|Add interface functions
+1f4cb872b6b3ed325fbb1d230eceba6740d9551f|2017-11-14|Alexander Condello|Add docstrings
+345c83f848169f0f52b37437fcf3e4c72b15d988|2017-11-14|Alexander Condello|Add unittests for database_manager
+3c1042c9094c477733f2e91caf00da937efda3f6|2017-11-09|Alexander Condello|Add first pass at get_penalty_model_from_specificaion
+671dacf79f3917e075923ffab4d4f39fa7a6f220|2017-11-09|Alexander Condello|Refactor database manager.
+7f84857de83269cb43538288a804a2a9ef190a5c|2017-11-08|Alexander Condello|Simplify database instantiation.
+13cbe43ce4e62b4f9f8ec421dbd20faff8bf8098|2017-11-08|Alexander Condello|Add unittest for :memory: special database name
+16c4d2d6c26e0ce5d254deadfef6d8ce5d17a283|2017-11-08|Alexander Condello|cache_manager module has all database file logic
+07930b1eb1d2d2de219a5e4c3d4c71b42d91de3a|2017-11-08|Alexander Condello|Add code for finding an appropriate data directory.
+4e3aa11d6b9243828ea8bd088a5714bf3b257ea2|2017-11-08|Alexander Condello|Add the LICENSE
+67d483c360714e34ea8f1d23e829500a4efb42ca|2017-11-06|Alexander Condello|penaltymodel.py -> classes.py
+b5d97a5f7c52c710b5597b832b29ee56cc8c2fb0|2017-11-06|Alexander Condello|model object
+7adb01107cd4591901cfa1847cc96df2d0db740b|2017-11-03|Alexander Condello|interface taking some shape
+e826901b42f9a7d7917e590feeb639f6f42529d4|2017-11-03|Alexander Condello|penalty model object is taking some form
+e56ed6fad2373dd5c109eaadd3cacab4359cab01|2017-10-30|Alexander Condello|basic, messy framework
+5d924b51440d02d297f217bddf5c561c01252050|2017-10-30|Alexander Condello|serialization was moved to penaltymodel
+6b98cfa3f05d59a7549d985affaae599e960b053|2017-10-30|Alexander Condello|serialization in something like final form
+e9e47b4ab1103acb647033034d7e7d871828d626|2017-10-27|Alexander Condello|some structure set up
+544743d693bb4cc3b89b0f9b1c5341e8610f65fe|2017-10-25|Alexander Condello|more general gitignore
+a8e4982df65b0942cf6346c5b62db031279d2bc4|2017-10-25|Alexander Condello|initial commit
+42acb2a6f3f6be6d1f6d966171e562cf6f7e66e0|2017-10-23|Alexander Condello|generation code is anecdotally working
+c4c88465b7303d65f58eb13f79b287c6d53edee3|2017-10-23|Alexander Condello|more unittest
+47043e66e0c42d2a8583c068414a99b119512a12|2017-10-23|Alexander Condello|ok, things seem to be working, now need to fix this mess
+859d587da4ff2664afa63468389778789b8bccbd|2017-10-23|Alexander Condello|more robust theta and partial refactor for smt.py
+28fe18bda6a3a32334631774d177e9ab6b7470dc|2017-10-20|Alexander Condello|aaaand all broken again
+f5b123523bfb9e0729641b36b1b585877fe80f72|2017-10-20|Alexander Condello|spelling and a sanity check
+fb4532b62f464a36ec33466ecd92db30a32127b8|2017-10-20|Alexander Condello|updated requirements for bugfix in dwave_networkx
+b46d8012e888cadd3f47f6ac940a43d851daf415|2017-10-20|Alexander Condello|added code to determine the elimination sets
+0891af9edc5bcaca8df6713731e018c8fc22f69b|2017-10-20|Alexander Condello|added fix aux vars for one config
+2893e29c0debf5a0d776b4e41a4d18a62931a408|2017-10-19|Alexander Condello|seems to be working
+3cf8f3a8794f4f8d59a8eb10d4d59afda7ebccc0|2017-10-19|Alexander Condello|first pass is not working
+c467e44351f48b6d7917c7ee0fb4a65ad07c1343|2017-10-19|Alexander Condello|theta now has a fix_variables method
+09636139be83a432155bacbfb0f13bcf60330957|2017-10-19|Alexander Condello|finally have theta in the form I want it, with generate_ising_no_aux up to date
+9b7a709fc0a89395cb318945679753d21a136f36|2017-10-18|Alexander Condello| a fair ways down the networkx direction, not sure it's a great idea...
+7d656d66c14ad3dd8c2528791660a2a1f033e667|2017-10-18|Alexander Condello|updated current generation code to just be no aux
+bcc4311d40acc70f37d5a936b0812cec6f03e22d|2017-10-18|Alexander Condello|initial commit, code scratches
+e2f590a6d47e7db02e6b4130bd4e0f30a4303d12|2017-10-18|Alexander Condello|initial commit, with gitignore

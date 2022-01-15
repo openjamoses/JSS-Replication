@@ -1,0 +1,255 @@
+84f9d3fcac29e37e36c0ea73cd54e921ceafa90f|2020-09-17|Alex Damian|Merge pull request #133 from accelerated/deferLock
+32a9ab3c5915561d7d0eef0746900234f65e1ec7|2020-09-17|Alexander Damian|Added support for DeferLock in Mutex and Spinlock classes
+f68cf6369d491d3be629673cbd4feaa1d096a0e6|2020-08-21|Alex Damian|Merge pull request #132 from accelerated/drain
+af3c4a7e29af0965e47811182d5d8f8002f5df31|2020-08-21|Alexander Damian|Return error if drain fails
+cd3f2de7534423dd419c1071f955c95dbbb1a52b|2020-06-11|Alex Damian|Merge pull request #131 from arosenzweig3/master
+7d1496495c208bc3dde8cd09d7dafa1a46899230|2020-06-11|Adam M. Rosenzweig|Correctly set writer in ReadWriteMutex::tryUpgradeToWrite(), add tests
+087555c0eea712252e86a6386b16d9cf7246c197|2020-06-05|Alex Damian|Merge pull request #130 from accelerated/upgrade-writer
+49f4b13e7d3f3c1b0d2d7b8c6be5298fc532253b|2020-06-05|Alexander Damian|Fixed assert statement in SpinLock::lock()
+9930616a78aa6de88db2b078866088bff130590b|2020-06-04|Alex Damian|Merge pull request #129 from accelerated/upgrade-writer
+2866a8e4937323aadea655a6e836ebe6d3b1606f|2020-06-04|Alexander Damian|Merged ReadGuard and WriteGuard into a single class. Created LockTraits
+b2c57b903f6f655d4c28c38cae19fe802f1dd2cc|2020-06-02|Alexander Damian|Updated ReadWriteSpinlock to be atomically upgrade-able from Reader to Writer.
+40185719397676e9627101adb3d4d85549b4d041|2020-05-28|Alex Damian|Merge pull request #128 from accelerated/coro-unwind
+6440c3be03e0601a37ecd6b108fc2839a8fe9f83|2020-05-28|Alexander Damian|Catch the right coroutine unwind exception. Terminate all coroutines on the same thread which started them.
+0a1b20eaba42591b4d33586d0ab90de3c9927ae0|2020-05-20|Alex Damian|Merge pull request #127 from accelerated/rwlock
+babb9ab0c54c14bbb87ff80428d6b8f83e02c20e|2020-05-07|Alexander Damian|Changes: * Fixed inefficient Spinlock implementation * Added TaskId and local::taskId() * Updated Mutex class to be owner aware * Refactored internal 'ISyncPtr' API calls to reduce code duplication * Fixed accidental unlocking of the ReadWriteSpinlock * Added spinlock traits and utils * Added ReadWriteLock and tests for TaskId.
+c47da2cf4c825906327f39a15828020d4397dafc|2020-03-06|Alex Damian|Merge pull request #126 from accelerated/timeout
+c7c9e8cd07bf2c5790d7aa4dcf1412bd74d6feda|2020-03-06|Alexander Damian|Changed default infinite timeout to be -1 instead of 0. Updated ConditionVariable::waitFor() to match more closely the STL behavior.
+7fa1f2590aed2eed89956031bfe4d31ea017d892|2020-02-15|Salman Faruqi|Merge pull request #125 from accelerated/master
+4575c73a7fa4ede140fc15dff6ebb2720db123d9|2020-02-14|Alexander Damian|Added varargs to support non-default-constructible types in the Promise class
+4376587d146d97b117f453075c73685ad3ec00f9|2020-02-04|Salman Faruqi|Merge pull request #124 from accelerated/master
+208dced94413beea09213062ef2522bb261ee27c|2020-02-04|Alexander Damian|Use mutable temporary duration for ConditionVariable::waitFor()
+0e38871af8815b048ce0b00dc3c7cdcae2b1e49a|2019-11-04|Alex Damian|Merge pull request #122 from accelerated/travis-update
+8a0e5b063b7e996fbe9bfb24dde1caca09815bc2|2019-11-04|Alexander Damian|Updated travis file for c++17
+4f2ff8e52375da486e48afc2c4d7107ec837ce8b|2019-10-28|Alex Damian|Merge pull request #121 from accelerated/master
+1cec52019f52403112636bfca04015971d18c947|2019-10-28|Alexander Damian|Comment out INTERFACE_SOURCES from the exported target properties
+e7872593cc7f511988c358c7836ca12b42b734b2|2019-09-16|Alex Damian|Merge pull request #120 from accelerated/master
+42b42fd7fdd1d466860d7dbf0c85e615dff417cf|2019-09-16|Alexander Damian|Fixed uninitialized union member
+f4a83582fc661d877005055135c75d6675fd2856|2019-09-13|Alex Damian|Merge pull request #119 from accelerated/master
+4b0daa1f11d28bb4c9dda17bd19d5bbba770a326|2019-09-13|Alexander Damian|Added default constructor for GenericFuture
+f7a58d79e075f94ae9d442a3461043215ee9187d|2019-09-12|Alex Damian|Merge pull request #118 from accelerated/master
+ad9913155ed8145cd7080e215339d57b6e96554f|2019-09-12|Alexander Damian|Added move semantics for the Promise class
+6abbad9bed58af8310dd7ac94abe721a2dc65e65|2019-09-12|Alex Damian|Merge pull request #117 from accelerated/local_context
+a543465faad51a4859d04ae6620ad352b65aa102|2019-09-11|Alexander Damian|Added GenericFuture class
+f1eb562d072b527d5e6851f00039c64fb69d04bf|2019-09-11|Alexander Damian|Added access to the coroutine context from within any function call. Changed namespace cls to local
+c3cd70ef0a5be8cb7a4bbe347b2442890c0a4434|2019-09-04|Alex Damian|Merge pull request #116 from accelerated/master
+31b2afd1d532ae09a52b3567262edbb01a1e92a9|2019-09-04|Alexander Damian|Updated documentation to reflect function overloads for v1 and v2 apis
+3f9be9f9922c2db20a4016740cb73e7e665a97fb|2019-09-04|Alex Damian|Merge pull request #115 from demin80/cls-update-20190904
+f90e9898ebdf52d14e0c06016741867773fe9d7b|2019-09-04|Denis Mindolin|cls variable improvements
+2e86585aa174b77fd6eb210f1d915072a53daec3|2019-08-30|Alex Damian|Merge pull request #114 from accelerated/post_overload
+a26307cf0057ab807dba6bcda0a32e5206a62e05|2019-08-27|Alexander Damian|Overload all post member functions for V1 and V2 API Signed-off-by: Alexander Damian <adamian@bloomberg.net>
+efc53a5dbae0205bdff361ff982e51e59da750a2|2019-08-28|Alex Damian|Merge pull request #113 from accelerated/master
+715c5005db43b15233eeb7c20bca2f6bdccc9078|2019-08-28|Alexander Damian|Fix drain issue when coroutine is still running
+65adb208ec0f68cf782869a262f3e05720e33413|2019-08-27|Alex Damian|Merge pull request #112 from accelerated/master
+695d3ec04be3126ebc0612b5340dab5769cd721a|2019-08-27|Alexander Damian|Added check for buffer validity in the ContiguousPoolManager and fixed move ctor
+b9e9985e3b61412824b7bfd91b9e763039d0c340|2019-08-27|Alex Damian|Merge pull request #103 from demin80/cls
+e488ecaa1207d78bcf662fa87acd2e98441e8297|2019-08-06|Denis Mindolin|Coro local storage
+e750386d9e0b75915c03e7b62809992181c0efa3|2019-08-27|Alex Damian|Merge pull request #111 from demin80/fixture-fixes
+d3d249af16785303387643b39ba0f3535f23891b|2019-08-27|Denis Mindolin|test fixture fixes
+867530454b55002245c7fcb5f1e9887ebfdc1b9e|2019-08-22|Alex Damian|Merge pull request #110 from accelerated/master
+437de94a461aad31dd224923656a735d193fb74e|2019-08-22|Alexander Damian|Added drain functionality to the Sequencer
+6bb6e734e6c7f2a5a7c2eb795ba5a7bfdff54c4e|2019-08-20|Alex Damian|Merge pull request #109 from accelerated/master
+0fab597bf96b70a39968a42e7148604b5c252ce5|2019-08-20|Alexander Damian|Added missing memory and tuple headers
+8564c3ff1f559c7f58bffba0f33e6fff4f040e20|2019-08-20|Alex Damian|Merge pull request #108 from accelerated/master
+0cf0d053eb7e33fd680354675cc0a97e1ef86391|2019-08-20|Alexander Damian|Added missing header
+c80f8df7c4fab771c8d642ed11e16a4fb47ad5ab|2019-08-19|Alex Damian|Merge pull request #107 from accelerated/multiple_args
+deac59a5ac81c41a4f54e5721d883b8916f13304|2019-08-19|Alexander Damian|Added support for multiple function arg types
+a0af3b353ad9329bc8b3f116318f67965b4e39ac|2019-08-19|Alex Damian|Merge pull request #106 from accelerated/deduce_result
+cd74331b044d484f586cc26240ef5ce102ece593|2019-08-15|Alexander Damian|Deduce return type for all API invokable functions.
+fb44d5ec6f5bbdb0365c4e318b95a935e8fd0be6|2019-08-14|Alex Damian|Merge pull request #104 from accelerated/mem_leaks
+10e480cd965be1b93d322e6f44f38b403c5938cb|2019-08-14|Alexander Damian|Fixed mem-leak and prevent underruns in stats counter
+0eb45296bbf2505547a3a7feab2750a0ae2adefc|2019-07-22|Alex Damian|Merge pull request #102 from accelerated/master
+34fa8b45af5a06fd388246facdc642a64e886e36|2019-07-22|Alexander Damian|Added string.h header for memcpy
+7c6556c3d7c824efb52ba6646ff284a88aa39858|2019-07-21|Alex Damian|Merge pull request #101 from accelerated/master
+ae3527925261f8ae324d8b6544b7b5a5c398a219|2019-07-21|Alexander Damian|Named threads in the quantum library
+b882bd0874852a5c9caaa6f5c68db5f1090faa0c|2019-07-17|Alex Damian|Merge pull request #100 from accelerated/master
+2d7e199fbfe44d25a57e9f29a2f632989b39db61|2019-07-17|Alexander Damian|Fixed INTERFACE_SOURCES target property
+f2e729af2901aca37ec84a83f48db7ffb1f06231|2019-07-09|Alex Damian|Merge pull request #96 from demin80/shared-any-coro-queue
+899fe92e6934961c5ce97b244623955df2146034|2019-07-09|Denis Mindolin|Updating the test to more convincing
+7fc2959b78315c408d1d778acc42a5497bbdf597|2019-07-08|Denis Mindolin|changes as requested
+18f51c845ca07ddef3d21516b386da0bb6bdef89|2019-06-27|Denis Mindolin|Shared any-coro-queue changes
+59e293bd80a15fa7288eb9d364d7d9d7b4e75424|2019-07-03|Alex Damian|Merge pull request #99 from accelerated/master
+229598ce6d4d033e465d09a912775b8e5e15f64e|2019-07-03|Alexander Damian|Optionally generate configuration files
+70061647be64b7f7743efc00f701f75802893fca|2019-07-01|Alex Damian|Merge pull request #98 from accelerated/master
+fd1da139d80a8edc51a02742274d3da12473f366|2019-07-01|Alexander Damian|Fixed header install paths
+55be3e640a92936e330f9f7d46086b21808df652|2019-07-01|Alex Damian|Merge pull request #97 from accelerated/cmake_config
+1f640beefdab8f4da26662ccda166fffdd55f13c|2019-07-01|Alexander Damian|Support for cmake config and exported targets files
+8da66c961e5d97165607287a95364b0c32de5639|2019-05-30|Alex Damian|Merge pull request #95 from accelerated/steady_clock
+9168cef87aab698fa1d6842b2e250a5912b05589|2019-05-30|Alexander Damian|Using steady_clock for all time interval measurements. Fixed boost-context library name in .pc file
+82944ffc25eea4af950a38da5b6ce22b49efaec4|2019-05-24|Alex Damian|Merge pull request #94 from accelerated/master
+6c8b2fb1462832ec211c5e9f620bf780768bdd1e|2019-05-23|Alex Damian|Fixed redefinition of reinterpret_pointer_cast when compiling with c++17
+8a1d02612b72129dcec7e4e03a4a3e9251bced1f|2019-05-23|Alex Damian|Merge pull request #93 from accelerated/master
+9265df342fa75fbcf11e5b3d4a44bd2b1275feb8|2019-05-23|Alexander Damian|Changed empty condition signal to be under queue lock
+723cc248458474ed626e9253d46c66c190ea7183|2019-05-21|Alex Damian|Merge pull request #92 from accelerated/master
+e3a006c079a3ee8e31b6730f0f73fb70eaceaa8d|2019-05-21|Alexander Damian|Changed method to determine bitness
+dac1d814b72475d8d2d05fbaa91cd54890dbe726|2019-05-20|Alex Damian|Merge pull request #91 from accelerated/rw_lock
+4534401ff4b4c31166bfea03275809621e728823|2019-05-20|Alexander Damian|Renamed ReadWriteSpinlock to ReadWriteSpinLock
+bc093aae0c46df6d256751d21f61239352026faa|2019-05-20|Alex Damian|Merge pull request #90 from accelerated/rw_lock
+b24175018e768e5cea31ed340dd5d67407b49be6|2019-05-20|Alex Damian|Merge branch 'master' into rw_lock
+004dcaaf74db22d06d6eb8df59474ebd59721ae4|2019-05-20|Alex Damian|Merge pull request #89 from accelerated/pkg_config
+3e1e173d80b665ff3831254f1647866c8ad6ed50|2019-05-20|Alexander Damian|RW lock implementation
+c607151462cbd81bf87a764262b3554d3be11d00|2019-05-20|Alexander Damian|Removed boost_context dependency from pkgconfig file and added BITNESS detection
+ba1b955a2161d4551fc9a496df12cefcb5ef3dcb|2019-05-17|Alex Damian|Merge pull request #88 from accelerated/master
+30a999e0be07ac7dcf36253ea4dca52c8ba56d14|2019-05-17|Alexander Damian|Set end iterator to first element of wait queue
+e398a6e64c36ccba0d5a6521aa68ccf0bff2ec95|2019-05-16|Alex Damian|Merge pull request #87 from accelerated/wait_queue_impl
+18d058b45eaa65d17c296b19b4cc2d899398f688|2019-05-09|Alexander Damian|Improved coroutine scheduling by reducing contention on the run queue Added wait queue implementation Added io task list setting to alloc traits
+906e18dde574ab2e9e80902a58d8653da4c7a5bb|2019-05-14|Alex Damian|Merge pull request #86 from accelerated/201_hotfix
+a70d2dc715cdbbdbef198c1ca3bc4b789873caab|2019-05-14|Alexander Damian|Bumbed version to 2.0.1
+107ac825669bc863dd07effb29286ff019e2171e|2019-05-14|Alex Damian|Merge pull request #85 from accelerated/201_hotfix
+bd6da4485017a965f4d6926fce346b797586ea44|2019-05-14|Alexander Damian|Fixed pkgconfig file generation
+c43889b96864e5422525039a05efd0fe05fb8b1d|2019-05-13|Alexander Damian|Fixed PKG_CONFIG expansion
+2db8e2101f8f46df31575a7d8ea32a71f1afc5b1|2019-05-13|Alex Damian|Merge pull request #83 from accelerated/master
+27003e62815723e1d5b1a14952cf19c6cb6bd7b4|2019-05-13|Alexander Damian|Bumped library version to 2.0.0
+20bbc9d5328c21d458db2b3e3e8a0739be8eb042|2019-05-13|Alex Damian|Merge pull request #82 from accelerated/V2_API
+068034c83a7aac770f8066853c515cfc0d36604b|2019-05-13|Alexander Damian|Updated readme file
+1138063922569f3e3e3b34de269be148af19ff87|2019-05-13|Alexander Damian|Fixed clang error
+00e3b56e82930a6dcf18720b20d7854dab84010e|2019-05-10|Alexander Damian|Adding support for alternative v2 API implementation which supports a simpler coroutine signature.
+65d6de69a11d7a03d70b00865d8f9e6febae65c0|2019-05-08|Alex Damian|Merge pull request #81 from accelerated/alloc_traits
+a6b33776e801806bea62ad47065f572301a574a3|2019-05-07|Alex Damian|Merge branch 'master' into alloc_traits
+d75024164ed591e002600ae01cb2f3394c2fe2b5|2019-05-07|Alex Damian|Merge pull request #80 from accelerated/void_context
+5ed98908954d2babdaf35762d454111be28f3982|2019-05-07|Alexander Damian|Passing coroutine context into forEach and mapReduce with type Void. Changed Sequencer function signature to ignore context type since it was not needed anyway.
+b8b3b3d6a0b207a2507f85535fc7e28434d331aa|2019-05-06|Alexander Damian|Refactored some allocator macros
+ca89008de4f7cb6a9ac8503a77a1f7b66d0ba1ad|2019-05-02|Alex Damian|Merge pull request #79 from accelerated/glibc_dual_abi
+9e2279f0d720125f5381d88b2e7659fb37b084ed|2019-05-02|Alexander Damian|Determine if GLIBCXX_USE_CXX11_ABI is used for std::list compatibility
+6bd4a9bd7afa3356f0ec1e1a02c5679c7fc4f197|2019-04-29|Alex Damian|Merge pull request #78 from accelerated/master
+9b36c16849f1090a2ad0415e29aa550aea2b6cef|2019-04-29|Alexander Damian|Added support for protected stacks
+c28f9b02dd8dcc9be187ca6466d2857d3cafd38e|2019-04-29|Alex Damian|Merge pull request #77 from accelerated/master
+ab207159658c89a2a8424ef771fbff63bf632eb1|2019-04-29|Alexander Damian|Rethrowing forced_unwind exception.
+0db6b7d72c3eba5d6c0ca04dd1359cd4a2af310e|2019-04-29|Alex Damian|Merge pull request #76 from accelerated/pc_config
+b3c27581b4cd353697055acf8c78552e74cb630c|2019-04-26|Alexander Damian|Added pkg-config support
+abb0bb49732bd284991eb2a407f56857bab549c1|2019-04-26|Alex Damian|Merge pull request #75 from accelerated/for_each
+e080a7851fa2f4d99749e8a52866f9e385878147|2019-04-25|Alexander Damian|Updated forEach() and forEachBatch() to take non-const parameters
+395d210197e326579262010bb895019adf43dc1b|2019-04-24|Alex Damian|Merge pull request #74 from accelerated/master
+3989ea5063f4ecacca90fe0614bad13966cc028f|2019-04-24|Alexander Damian|Added support for segmented stacks
+49134752aa3220f35687c7609c5292b88cf1f3b5|2019-04-23|Alex Damian|Merge pull request #73 from accelerated/master
+64a2d84a021c9697840517f2ebdc04422f01682c|2019-04-23|Alexander Damian|Signal only when the first task is added
+ee8b0834e5a2a3e13c3a8b90991b78fe9e3072fc|2019-04-18|Alex Damian|Merge pull request #72 from accelerated/master
+6cf311f5f9d16ee31145db72ad90b87532caf9c6|2019-04-18|Alexander Damian|Description: - Added coroutine synchronization for ConditionVariable::notifyOne() and ConditionVariable::notifyAll(). - Fixed Mutex locking so that coroutines yield instead of microsleeping the current thread.
+1e09a002ba64bb53e7a4b2b1b56f615b2d1cc4ed|2019-04-12|Alex Damian|Merge pull request #71 from accelerated/master
+65d289342b29f5d6858f0f9081737e9df8935ace|2019-04-12|Alexander Damian|Re-added missing figures
+c09f840f65a02c4594e019aaa5b5fc1c659452a5|2019-03-26|Alex Damian|Merge pull request #69 from accelerated/master
+452df71f848b6f09a4106bce787c9e63df99ba89|2019-03-26|Alexander Damian|Renamed src->quantum to eliminate pre-build header install step
+840dc7fb06630ba65376db02ccd7d4e0c5a41b32|2019-03-23|Alex Damian|Merge pull request #68 from accelerated/master
+bc339a94f4f739ad9155f122fddeda3417865c09|2019-03-23|Alexander Damian|Removed temp install folder. Headers will be installed prior to build directly into the CMAKE_INSTALL_PREFIX location.
+e2693685074231a9f44daa78c4156cb51ea9d585|2019-03-22|Alex Damian|Merge pull request #67 from accelerated/master
+3a0cfabeb0e7e26c7d40ced24677c570f1a34b64|2019-03-22|Alexander Damian|Added default install directory for headers to avoid having to run 'make install' before building test target
+c2296ca9d264d862955ae5131faf95662acd5042|2019-03-22|Alex Damian|Merge pull request #65 from accelerated/master
+d65f343e2b11248c7cf83286e14729abdbcdfcb6|2019-03-21|Alexander Damian|Added test for external promise. Removed ITerminate RAII guard when deleting promises as it's no longer needed.
+10ffd4896e27ab25750b0b5deae9015c26e5d8de|2019-03-21|Alex Damian|Merge pull request #64 from accelerated/master
+7be503dafee788641319fa7608ca8e623e9117de|2019-03-21|Alexander Damian|Fixed broken links
+9febf237f33e9da2ed36083e0e12983f226c4ba3|2019-03-19|Alex Damian|Merge pull request #63 from accelerated/master
+35826922a8c939ac42ef197f7c64a6ccba61e9b6|2019-03-19|Alexander Damian|Description: - Updated header file guards to include full namespace - Flattened quantum/src/quantum/* to quantum/src/* - Updated Doxygen API documentation
+f94148acc6bf24b8477c1e7bcf94da93e66b4416|2019-03-19|Alex Damian|Merge pull request #61 from accelerated/master
+28d732f5e9ba708422c692322c46b8afd2ddbc8c|2019-03-19|Alexander Damian|Updated quantum schema with the queue range for 'any'.
+a39fd0bab54349bb9b0beaae469775e0fa536ac3|2019-03-18|Alex Damian|Merge pull request #60 from demin80/closed-coro-thread-range
+7869fee815ed7a315d0ff2036043fb1d4759c72c|2019-03-18|Denis Mindolin|Comparison fix
+7a038307b1eb5460e49546262267e53690c468cf|2019-03-18|Denis Mindolin|changed type of coro queueId range to int, made the range end inclusive
+10233249098296a3c8c50b03ea3039e53b9348de|2019-03-18|Alex Damian|Merge pull request #59 from demin80/any-coro-queue-range
+7ffd8b49716b4ec3d693d8f8705a573e9c7528c1|2019-03-18|Denis Mindolin|Excluded the deprecated ctor test
+f5e5cba1d00b61af28bd9eb8dccdd6394b579e61|2019-03-18|Denis Mindolin|Added coro Any queue range
+2b6bc3fd6c3b8ceed25d7d342191a6be1cf760ef|2019-03-18|Alex Damian|Merge pull request #58 from accelerated/master
+07f64260d0c725c4cbe6cbac49af111136fc5f77|2019-03-18|Alexander Damian|Changed CXX_STANDARD to CXXSTANDARD flag. Also check for environment variable CXXFLAGS instead of CMAKE_CXX_FLAGS.
+b1f04b9b8350e1510cb27aee71a08cae2c838aef|2019-03-18|Alex Damian|Merge pull request #57 from accelerated/master
+944ff5276d0a7d1f9ff57e93848cb8371fb17e21|2019-03-18|Alexander Damian|Added build badge in README file
+1c879ec1213b848c9ace63a630adc414f7af0d5b|2019-03-15|Alex Damian|Merge pull request #56 from accelerated/master
+bf4d2046a85d11cd24defccadcff1edfb842bdc4|2019-03-14|Alexander Damian|Support for travis CI and minor compiler warning fixes.
+16b0f0a5f45d6be027b95cf0104dcb7ddb6b8d44|2019-03-07|Alex Damian|Merge pull request #55 from accelerated/buffer_changes
+d6b1d8f7964bdfa09efdc99e2430082e335081ea|2019-03-05|Alexander Damian|Buffer class refactoring and performance improvement to avoid less locking between readers and writers. Added SFINAE for selection of Buffer vs Non-Buffer supported methods.
+a4ec9fe16e7ae858277c2f5bd20133919eb16b62|2019-03-02|Alex Damian|Merge pull request #54 from accelerated/master
+829b7418253041e9e649c5b0481efc74aa1c97fa|2019-03-02|Alexander Damian|Don't force -std=c++14 if not in CXXFLAGS
+1c0597fb7124f5af8ce6f2da1000378e8f3c0e91|2019-02-28|Alex Damian|Merge pull request #53 from accelerated/master
+e9cbcec6e369bdc34432522c4741be2f3015b964|2019-02-28|Alexander Damian|Allow for setting compile flags via CXXFLAGS env variable
+385efaf8bf487bda02e3bdbcd55d72e87facab25|2019-02-20|Alex Damian|Merge pull request #52 from demin80/more-test-fixes2
+2c613fcfd9bbcb700cd113fb552bc4ec0d442afb|2019-02-20|Denis Mindolin|Pass-by-reference fixes + minor fixes to SequenceKeyStats
+b147f05d6611b33f08411cdd09f105fce6fac6e1|2019-02-19|Alex Damian|Merge pull request #44 from accelerated/sequencer
+dbdca82c5e31a403de0a97836d8cd96f8b5b1e71|2019-02-19|Alexander Damian|Decrement dependent stats after all waits are complete
+2b92635c4d2399f2996feb857f4072568cc94d51|2019-02-19|Alexander Damian|Do not trim when posting with the universal sequence key since it affects stats
+7916a630eadd59c09293e66fa956c91e32247a16|2019-02-16|Alexander Damian|Fixed some minor issues with Sequencer class and also added stats for total tasks posted
+34954a5ce1f413bb0dd303f7da6b1f469aab3f1e|2019-02-19|Alex Damian|Merge pull request #50 from accelerated/clear_iterator
+3e9190dfe29806298cb3a1551e9753f897b502dc|2019-02-19|Alexander Damian|Merge branch 'master' into clear_iterator
+5a88c45dab2e2e5ccb0f6e338d4f5b436c42c2fa|2019-02-19|Alexander Damian|Moved blocked iterator reset right after the task completes
+0644a2f750b5af6612cbbe5d9ca12cb299d2e8f7|2019-02-17|Alex Damian|Merge pull request #48 from accelerated/clear_iterator
+a5e238a48e3c8bf6773592f90a38581ddbfe0467|2019-02-17|Alexander Damian|Clear blocked iterator if the blocked coroutine has finished
+5a88accb2325a5ff6e1c4502cc86e40c5833dc8e|2019-02-17|Alex Damian|Merge pull request #47 from accelerated/clear_iterator
+dda53d885209408f3ce2a81d425610ab05bee8c4|2019-02-17|Alexander Damian|Clear blocked iterator when list is empty
+f85be833f63ced95b40d07ae6e359ea60045a0a7|2019-02-16|Alex Damian|Merge pull request #43 from accelerated/cpu_easing
+edfa41f2a07e5d054dff364c732dd884d12c1cef|2019-02-15|Alexander Damian|Changes to reduce CPU overload when a coroutine sleeps or is blocked. Fixed race conditions in Sequencer tests.
+3ec9f48d2a25b6604c83b865d623a7ec3ee5f302|2019-02-14|Alex Damian|Merge pull request #42 from demin80/sequencer-test-tweaks
+2ee081d9d4bc21917ded87f4e5902f67fc2c74e7|2019-02-14|Denis Mindolin|Reduce the time spent on sequencer tests
+b6d963908dcd4914b37af653d0dd57ce450b2ca8|2019-02-13|Alex Damian|Merge pull request #41 from accelerated/master
+13a8ca4bca6cbe60b5d33e166c75d1f28ee01070|2019-02-13|Alexander Damian|Refactored postEx argument positions to avoid having two overloaded function names.
+b92722575f36a95777677005dce1873450c2a002|2019-02-12|Alex Damian|Merge pull request #40 from accelerated/master
+fb470b71a1531586c4c375b15d77ae2ac543d7f8|2019-02-12|Alexander Damian|Updated README file
+4d814ae0acb3ab222714f14e071c04eb85786074|2019-02-12|Alex Damian|Merge pull request #39 from accelerated/master
+8146b60d33ba76975b513c2afc26b09d72529aeb|2019-02-12|Alexander Damian|Fixed CMakeLists.txt to include Sequencer Tests. Fixed typos and renamed SequencerKeyStatistics to SequenceKeyStatistics
+cb46be076a8c6169466ba2eeb62cc135ca7ec953|2019-02-12|Alex Damian|Merge pull request #38 from demin80/sequencer
+382667102e388f3ac09e6165eeca899c4527d889|2019-02-12|Denis Mindolin|Using quantum dispatcher for sequencing tasks based on sequence key
+d740af3b9e7c8695b7a5111271ff9d88e733f903|2019-02-12|Alex Damian|Merge pull request #37 from accelerated/master
+e3e771f9b694ebe01fb13fd35117b963bf4b541b|2019-02-12|Alexander Damian|Simplified buffer type SFINAE argument.
+68e9f7e61e3843b60eceda7e5f324b5dbe5225d2|2019-01-31|Alex Damian|Merge pull request #36 from accelerated/iterator_fix
+d1af67e8f0853255e39a338c5d41584d3f539885|2019-01-31|Alexander Damian|Fix re-ordering of coroutines
+4e9fa026f59d2bbb9c83e9de9b641459cfe3d086|2019-01-24|Alex Damian|Merge pull request #35 from shahzadlone/master
+e8d0c459987d014a8ca724006c3255be7d54e95c|2019-01-18|Shahzad Lone|Use known batch size to better optimize the array.
+4a6b0560cb4cf0eba726aef48fe50d9842fc08f7|2019-01-15|Alex Damian|Merge pull request #34 from accelerated/iterator_fix
+bcd1c10569d1840e57b4e3fea439552d5ad9e65a|2019-01-15|Alexander Damian|Fixed iterator double increment issue
+e5518cd5e0b9c2939696d349f7d619c7be41bb23|2018-11-30|Alex Damian|Merge pull request #33 from accelerated/copyable_function
+4ba573d6fcab38eadaa1afda3b46f4b332f7101d|2018-11-26|Alexander Damian|Support for non-copyable types
+c4303cdb6a62892c988f836271ef034ce61637b7|2018-11-16|Alex Damian|Merge pull request #32 from accelerated/master
+fe763bed66fc72fc94b86d7e8c485ccf1604e68e|2018-11-16|Alexander Damian|Added check for zero timeout period to avoid yielding for nothing
+283bfc780e8e1d3938cd7ba6478d7ac461bfaeff|2018-11-13|Alex Damian|Merge pull request #31 from accelerated/master
+b36292fa4d73e5f3aba19bda43b0fb5cf446d4f6|2018-11-13|Alexander Damian|Merge branch 'future_joiner'
+add1de94cddf711b3c0274c0376702c7e0ad14a3|2018-11-12|Alexander Damian|Added typedefs for ptr types. Refined the FutureJoiner class to allow the joined type to differ from the dispatcher type Converted forEach and mapReduce to use FutureJoiner class
+09c384474fea89eea93b77e75c0bef7e75133e6e|2018-11-12|Alex Damian|Merge pull request #30 from accelerated/master
+3c751756416ef2712eb47c9d21a50e6c239c49f7|2018-11-12|Alexander Damian|Added typedefs for ptr types. Refined the FutureJoiner class to allow the joined type to differ from the dispatcher type
+0747f0316cddc65634b4febca6a470a010365aee|2018-11-07|Alex Damian|Merge pull request #29 from accelerated/master
+50a66bdc85bbb6a3a49b7e7427f0924f00314bfb|2018-11-07|Alexander Damian|Added default values to schema
+6af16bea523005b5b3d031a2dbb3865a816b9bd2|2018-10-31|Alex Damian|Merge pull request #28 from accelerated/master
+df6d0e292b5ffd251c638213b84ccb150442acd6|2018-10-31|Alexander Damian|Added JSON configuration schema
+a5c21ac5d1b528bc944c84783f8cd9fff83c8e99|2018-10-24|Alex Damian|Merge pull request #27 from accelerated/master
+f6ffd7f87798e1792d732034a1a9152d9ea2560f|2018-10-24|Alexander Damian|Added typedefs for the various forEach and mapReduce functions
+d665ad3a189af93dd80bbfc87c83fcf428079367|2018-10-19|Alex Damian|Merge pull request #26 from accelerated/master
+dcc988fc8995fa5516628f4b59fa8a5920cae571|2018-10-19|Alexander Damian|Added vector include statement
+dda4c9d0e326889ed08d2d805b2521ad60c35b2e|2018-10-19|Alex Damian|Merge pull request #25 from accelerated/master
+9a4b894988fdf297fc3773957b9d74535ccecf25|2018-10-18|Alexander Damian|Added future joiner utility class Added aliases for ::Ptr typedefs
+cc6cd38a98293a6e83c10c3f84a31a790efe0d4d|2018-10-18|Alex Damian|Merge pull request #24 from accelerated/master
+8a64a10b5c76e0cc967ac68d19f4ae4498ef2fb6|2018-10-17|Alexander Damian|Added forEach methods to the coroutine context object so they can be invoked from coroutines. Added mapReduce functionality. Changed size() and empty() methods for queues to be under lock.
+0525d8ea9e32d898d147a56a2448e71ca19f21dd|2018-10-16|Alex Damian|Merge pull request #23 from accelerated/master
+ce60cfeca14d96033ef9d58f5ef51f9e24d09aa7|2018-10-16|Alexander Damian|Aliased Dispatcher to TaskDispatcher
+0476555f646ce982cdbf335ee901513c6812993d|2018-10-16|Alex Damian|Merge pull request #22 from accelerated/master
+c55c3cdc1bc0ac3730639d5bf0f92c90752f1aba|2018-10-16|Alexander Damian|Added async versions of forEach() and forEachBatch()
+65ebf21ef50a0b46f422ccfa1006ff9e4c4eb3ca|2018-10-15|Alex Damian|Merge pull request #21 from accelerated/for_each
+dd5502df70ae171be5b97fb354daaa128dba280d|2018-10-15|Alexander Damian|Added forEach() and forEachBatch() functions for parallel processing a range of items.
+70c0e8d30b53739591fd5738d049aedb59bb52d5|2018-10-15|Alex Damian|Merge pull request #20 from accelerated/master
+ae47a99d883222a7274d80ca1b5a70cf14b60d6b|2018-10-15|Alexander Damian|Updated doxygen documentation
+78ab255e060da9460f402dc30d9ddece5e85e87e|2018-10-15|Alex Damian|Merge pull request #18 from accelerated/master
+c787a9a34f739ff1b388c2ceafd1e17afb76e7af|2018-10-14|Alexander Damian|* Increased the number of shared queues for IO operations to reduce contention. This model slightly increases CPU consumption due to poll model but performance is greatly increased when posting to 'any' queue. * Added stress test for the shared async IO queue(s). * Changed blocked polling to non-blocking via try locks. * Added TaskDispatcher constructor taking a configuration object and deprecated the old constructor. * Added a new Configuration class. * Added ThreadTraits to control the yielding thread sleep interval. * Macros : __QUANTUM_YIELD_WITHOUT_SLEEP, __QUANTUM_DEFAULT_POOL_ALLOC_SIZE, __QUANTUM_DEFAULT_CORO_POOL_ALLOC_SIZE are no longer needed because now users can set values via appliation-wide ThreadTraits and AllocatorTraits. Previous values are still respected. * Added Windows support for thread affinity.
+fa231be262072613570a0f39017e02f16f1599b3|2018-10-12|Alex Damian|Merge pull request #17 from accelerated/allocator_chunk_support
+b3a532502640e643471943eb2fb95f35b6de4aba|2018-10-12|Alexander Damian|Fixed signed-unsigned comparison error
+c9641a5c792cc7c8150545b760c72bc1b3b0cd14|2018-10-12|Alex Damian|Merge pull request #16 from accelerated/allocator_chunk_support
+8c96ed25cfb7c40b1440cdffa7acfa96c879ab3e|2018-10-12|Alexander Damian|Added support for allocating contiguous blocks larger than 1
+6b54e6a378ca796a5ce8ef89aca3881d7c633825|2018-10-12|Alexander Damian|added stress test for 'any' queue
+22bd8800ba57c73266697680f271773febccdfdd|2018-10-08|Alex Damian|Merge pull request #15 from accelerated/master
+fc7259f1ac6817e3544ff612d0303b974e97bc89|2018-10-08|Alexander Damian|Removed separate thread servicing the shared queue and added alternate polling for regular threads.
+fbfb688db6fe9974b7cc796d66c298a85bd47997|2018-10-07|Alex Damian|Merge pull request #14 from accelerated/master
+cbb2a685651b92c7bf91636fcd2bf7f77a57013b|2018-10-07|Alexander Damian|Differentiate between size and index types for allocators
+420400d70c9bfca881b9bc7b7942125ca1eca04d|2018-10-04|Alex Damian|Merge pull request #13 from accelerated/master
+c1c4ff1ca0e463df3af307df4a3471d0a421531d|2018-10-04|Alexander Damian|Refactored allocator logic to allow modification at runtime via static traits
+513f9bacc10e4fa5b18cf4bc2571e2352c41d2d0|2018-10-03|Alex Damian|Merge pull request #12 from accelerated/coro_allocators
+8fa8c64aeffb614cb99b65e0d777f868220ee5fe|2018-09-18|Alexander Damian|Added coroutine pool allocations as well as heap pool mangement.
+6986dc19a0b9abc3df363a152a2cc56d9718b1a3|2018-09-19|Alex Damian|Merge pull request #11 from accelerated/queue_count
+a39c7119d6c13f3b6b22d069bca641e4e9138eba|2018-09-19|Alexander Damian|Added getters for the number of coroutine and IO threads
+39d5e7ba2dc8285ac774564fdf9c5daec901c9c7|2018-09-14|Alex Damian|Merge pull request #10 from accelerated/master
+3bb16f58bc24ef1247dca284e38bb07e80cf5d78|2018-09-14|Alexander Damian|Updated main header file
+b4e1910568e8c500be2c32630447432bab58e426|2018-09-14|Alex Damian|Merge pull request #9 from accelerated/master
+02ec18cbb61abdb428e8bf85695775980bd645ce|2018-09-14|Alexander Damian|Support for internal Bloomberg std to native_std conversion
+221a8c5298c33258dc57f9ec457a29613d709386|2018-09-13|Alex Damian|Merge pull request #8 from accelerated/master
+a7ad2ecd5e6e12e799c36fa43b016d4e49a59f2f|2018-09-13|Alexander Damian|Fixed inline directive and reduced coroutine stack size for testing
+a769f671b98a67c34328adc9e3c9885667fd5195|2018-09-12|Alex Damian|Merge pull request #7 from accelerated/stack_allocators
+615c0c3f0ee9e0a6e5912d1a4878c64a05768348|2018-09-12|Alexander Damian|- Added allocators for task lists - Static assert for the number of allocated blocks - Added overrides for coroutine stack traits - Provided default boost allocator for coroutine stacks. - Ability to completely turn off stack allocations via __QUANTUM_USE_DEFAULT_ALLOCATOR macro
+cd31e65936bb701778ddfaaae741a82443b1f603|2018-08-07|Alex Damian|Merge pull request #6 from accelerated/master
+1d28ef0c4fee976d977fc6d43130cf550e4938bd|2018-08-06|Alexander Damian|Updated readme title to reflect C++ language
+bfaba4431f71ce86149405d15148842bbe26f9bf|2018-07-12|Alex Damian|Merge pull request #3 from accelerated/work
+e975c91b26dbb24e38f36f4d55007b19a67f4ad7|2018-07-12|Alexander Damian|Updated links and disabled file list generation in Doxygen. Added MACRO definition for stack allocation size.
+45285f0d32ebc72d5b9b0ea9162ac5e6d6b506be|2018-07-12|Alexander Damian|Re-generated API reference
+ce6dee80ca2d2121a9b426798fd6d808d1134e5d|2018-06-27|Alexander Damian|Updated documentation
+9c93dce8de0808ab67e07605c7c74fb25e635303|2018-06-27|Alexander Damian|Initial version

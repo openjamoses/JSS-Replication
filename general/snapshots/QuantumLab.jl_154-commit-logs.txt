@@ -1,0 +1,189 @@
+56f4a27d613b6d8547bca0789d0d4929d16be65e|2020-01-28|vonDonnerstein|show instead of display (fixing #9)
+57a4f4ebec4ce9c4d3d01162f4a640926fbe6578|2020-01-27|vonDonnerstein|bump to v1.0.1
+90d8b0c4841462ad0e32ce6680baace28600a99a|2020-01-27|vonDonnerstein|removed deps/build.log
+49db797c1b6f5f39609b5c6034478f6e1788f88a|2020-01-24|vonDonnerstein|Merge branch 'master' of https://github.com/vonDonnerstein/QuantumLab.jl
+42800b50f576e97ec38f68ebfbb17af59393fcf1|2020-01-24|vonDonnerstein|upper bounds in compat
+58f51bb45c6ba435d789b5de73706e12108579bb|2020-01-24|vonDonnerstein|Create TagBot.yml
+4c8da5bbc44c4a7e9581e074d6a7497c1a2d79fd|2020-01-24|vonDonnerstein|update Project.toml
+94259cb52068661cc0ee41ad9091bbb0d06e9394|2020-01-24|vonDonnerstein|filled out compat section
+c453f356ccad5c2c4c6a5adf5dc8154de8d0a407|2020-01-24|vonDonnerstein|free StringParserPEG
+15d3730ee6e95893d5327eb15fa2b4a350bf24bb|2020-01-24|vonDonnerstein|Project.toml compat SpecialFunctions
+d0cdd13146beca4eeb7556610862c7640d0350be|2020-01-24|vonDonnerstein|fixing Project.toml for julia v1.0.0
+9f107b6893748c32df5a402d473a4245e5a5480e|2020-01-24|vonDonnerstein|Create CompatHelper.yml
+3bba1d5d57cf583d6d0cc94b0fdc7557b7881eb3|2020-01-16|vonDonnerstein|update tests acc to change to new BasisSetExchange
+210d8fcf52398ff12ee4156bb07e152675879a6a|2020-01-16|vonDonnerstein|fix2 readme
+5b4ad39d4c644f62304b5b72b4ee71e04ba4114b|2020-01-16|vonDonnerstein|fix readme
+a2fe63199b043d8d4c1ed6ee3fe0d9acbac946d5|2020-01-16|vonDonnerstein|upgrade to julia v1
+6832846de4d0a000c3b31dbcba8c843a72b1b8a6|2020-01-16|vonDonnerstein|upgrade to new BasisSetExchange (incl Basis parsing)
+51bc41f67827120f0e1cb824b6c53ac35adffed2|2020-01-13|vonDonnerstein|julia 1.1
+af701513fc04d02590d3dc51f1d16d3518e9811c|2020-01-13|vonDonnerstein|travis now includes win
+f47fb50c540d210f73fabdac107e4c87ac9011f2|2020-01-13|vonDonnerstein|code coverage
+22a90a09c0edf61d2308b599f19aeab8ca967db2|2020-01-13|vonDonnerstein|rotational constants with units
+f7edb75ea547ec30cc1edc14d0d41063539450e3|2019-08-30|vonDonnerstein|InertiaTensor, RotationalConstants added
+04f21e240d078f708b05afc47538478a102a1781|2019-04-05|vonDonnerstein|update to Julia v1.1
+69bde0d2ac785958344157eff821623077652aa9|2018-07-13|vonDonnerstein|initiated MatrixModule
+05ea3f3707f2f62b8c931b2e425cf060169acf1e|2017-03-01|vonDonnerstein|matrix-fcns (readMatrix,pixmap,ASCIIArt)
+d84da033feaa54909cf3b6b99119eb0a9a6d0fc7|2018-07-03|vonDonnerstein|numberMQNs and nbf extracted
+f985a4912f6b970f2256b7fc77fa4d1dfe0b719a|2018-06-28|vonDonnerstein|fix: Geometry from String in HF
+7639c86652f40bcea07c2b68ce71888c81c55c62|2018-06-28|vonDonnerstein|allow Ionization instead of electronNumber
+d8f4aebe6eecc7d1afaae9b5602242b8fc111f6b|2018-06-28|vonDonnerstein|corrected interface of evaluateSCFStep
+723e72556915448b7ad24776eef0b9719bbac646|2018-06-23|vonDonnerstein|moved computeDimension(LibInt2) to LibInt2Module
+cef7c33bfab1272327aca0a06bbb26a39e7e3da0|2018-06-23|vonDonnerstein|restructuring basis normalization (normalization as constr option)
+776fda27ae310482c18572ea3abea6b4542e3e49|2018-06-23|vonDonnerstein|clean up
+409b189739d79991f1d62383ce988b200fb6b592|2018-06-23|vonDonnerstein|Renormalization of Non Axial LQNs in (LibInt2-)Shells
+6351dd94d113fe7ad80d0d3b6ff3c6d41af749a8|2018-06-23|vonDonnerstein|added AbstractShell
+f0ede31b8c6253bc71425a9b85c4b94a3d870f70|2018-06-15|vonDonnerstein|added full ERI computation from (native-)shells
+bb23f96ba878b144ae3119bf7c4013e3f738bc88|2018-06-15|vonDonnerstein|fixing LibInt2 Integral blocks (prev. misordered)
+65cf00f021b6dc940096c59dfb51ef1e669ec1b8|2018-06-15|vonDonnerstein|cleanup
+7bdfe3a4a1ffba25120e7a653ff6b79baa126fe1|2018-06-14|vonDonnerstein|README.md with basic tutorial
+66706bc3c881191599ac2291030aa53d101ac7bd|2018-06-14|vonDonnerstein|improved interface for HartreeFock
+a44a685b1cc441091353ff868a36e0f20bfc4015|2018-06-14|vonDonnerstein|HartreeFock Fock build before energy evaluation to ensure variationality
+0f88fec0f3a9fe04da6094020beffcee0cb96a26|2018-06-14|vonDonnerstein|improved interfaces for Geometry, Basis, BasisSet, InitialGuess
+40e88710c18d74c2a30253f144cc3b2ca7f208b2|2018-06-05|vonDonnerstein|updated BasisSetExchange js_peid
+0da720704c96220f42e67c58b744342abab500e7|2018-05-30|vonDonnerstein|fixing warnings from LibInt2 stubs
+1eeb8ca3073199492157f649330e631ab363e309|2018-05-18|vonDonnerstein|Fix: prevent broken pipe error EPIPE by preventing optimizing out
+5f1628b7396acc83b66cea3f6a3fc13f64aa7ab7|2018-03-26|vonDonnerstein|added travisbuddy
+f4c8f5c35882318428b6f1e19a84ab396b8d9a6a|2018-01-27|vonDonnerstein|fix no unrecognized escapes in doc (string literal)
+feac4c27101db41b9f93f6a80850a5b0446327ec|2018-01-27|vonDonnerstein|true string @T_str was identical to julia @raw_str -> eliminated T_str
+01dd418c9e3051be9dbfb35926b4198d23eab071|2018-01-27|vonDonnerstein|Hackbusch data only available as zip anymore, adapted LaplaceModule accordingly
+318da3aefe24bad8cc48d7a34d297471009e7ccd|2018-01-26|vonDonnerstein|updated REQUIRE and .travis.yml to v.6
+19de5aefb3ed47ffc1618c0aab9c4b7c56a89aa1|2017-12-30|vonDonnerstein|integrating changes from old julia v.4 repo
+704296e1af768d7ca0c773eb84c65366bd1f31b7|2017-12-30|vonDonnerstein|upgrade for julia 0.6
+9a80b51b824a753787d2a043c6e8aa57e4c5c3c5|2016-12-25|vonDonnerstein|electron number in geo
+1d1d2acb2a5862d3412226099d33b1b93aacd0ee|2016-11-15|vonDonnerstein|a few helper fcns
+1281b1213a76f5aaabab6c36e6531d29b9578ea6|2017-05-16|Elliot Saba|Update CI URLs to point to new caching infrastructure
+7128cbc0593c79df972b751f91cd68a223d6a69e|2016-10-18|vonDonnerstein|Bugfix: #3 - BasisSetExchange
+1b4c69621592466a38aa6701f0937e5295b0c06f|2016-10-14|vonDonnerstein|updated appveyor.yml
+31a63cde05c7f2d0a2ecffe199a4ca2434c7bc19|2016-10-13|vonDonnerstein|fixing up a few things from 11c92af: Make it run Julia 0.5
+6cc01fc56f3bbaee03f0ccff44d3f7e0179aed87|2016-10-13|vonDonnerstein|adapted DocumentationsModule for j0.5
+11c92afee041a967ba0bce72cff5fb7431049768|2016-09-20|Jiahao Chen|Make it run Julia 0.5
+265eadfd4e7a5bc74daf022917959325571b3cd4|2016-08-12|vonDonnerstein|Merge pull request #4 from tkelman/nopkgdir
+bb2792a030bed6f33fa1becd5e24d01debb660d0|2016-08-12|Tony Kelman|Use dirname(@__FILE__) instead of Pkg.dir
+9a9a42905c318c1c2d931eea3dba6b8fe0c6aa3b|2016-08-08|vonDonnerstein|stubbing for NuclearAttraction
+662aadfe6855072dba008e4ad1d1723ec2625b9f|2016-08-05|vonDonnerstein|Merge branch 'master' of https://github.com/vonDonnerstein/QuantumLab.jl
+d47fc3597ddd08dbb637006dfd3d5bff61c08895|2016-08-05|vonDonnerstein|New compiled dylibs for MacOS (SSE and AVX) with correct linking
+39e376e11c33b8d68cc2ca81b34be4c5fff64cb9|2016-08-05|vonDonnerstein|Merge branch 'master' of /home/henry/devel/QuantumLab/privateer
+180a1db5c67a0361ef75572954f7748861a6ca83|2016-08-05|Joern Dietze|Merge ssh://pensieve:/home/henry/devel/QuantumLab/privateer
+1b84e7b5c3c2306af879824e02bb49c1ab1954c9|2016-08-04|Joern Dietze|Extended build.jl
+0f93fed20869615c8bda3affdb661f664a8395ac|2016-08-05|vonDonnerstein|make setup.jl independently runnable
+7e50da4c14a775a2c4a8cdc44d74ec4ce00e7f3c|2016-08-05|vonDonnerstein|added allow_failures for nightly in travis.yml
+6fa2b9b8e52fbadaac0f993c1dae8b4a313a294d|2016-08-05|vonDonnerstein|Merge branch 'tkelman'
+b93cf75ec4d31464dcab8d66b8956bc8d7c3832c|2016-08-04|vonDonnerstein|Makefile libint now with simd in filename
+5b5490c788d14338ed0298452b83f69271bfaae7|2016-08-04|Joern Dietze|Renamed libint2s for linux
+b2647c24e84bcc7b7f095d7cce61afa0272bc6d7|2016-08-04|vonDonnerstein|restructuring tests: extracting setup.jl
+311992a87008fbe2162da9d431b17b7e0e20a29f|2016-08-04|Joern Dietze|build.jl links correct shared library depending on cpu features
+5d27aee577a58ee0d15bc28dded60aa31e0dd4b2|2016-08-04|Joern Dietze|Added libint2 comiled for SSE for OS X
+c62754b36c3c55f0c790e1c6fc8a358411c868b6|2016-08-04|vonDonnerstein|evaluateSCF now with libint2shells
+a876a6896ffc77d0ed7becd9be42f3c7acd04f23|2016-08-04|Joern Dietze|Renamed Libint2s to include avx
+25bdb5600e31829e0abed66362eb99902ce1b89f|2016-08-04|vonDonnerstein|bugfix in libint2jl for MacOS
+381e5989d1526b4c8d1cf2a2e557a3e186fb5790|2016-08-04|vonDonnerstein|Merge /home/henry/devel/QuantumLab/ql-private
+933ec5b49e88464a7f2787049fc8f2a13ca8268a|2016-08-04|vonDonnerstein|Added libint2 nuclearAttraction integrals
+447cf5153de24fe38b7e45dac91164367870ed9d|2016-07-25|Joern Dietze|ctags
+c6b0d267e0b994fe19cf8ebfa38608787aa8c7e6|2016-08-03|vonDonnerstein|added SSE option to Makefile
+c07a03c445e9bc6c1ea45826fc182397da459e73|2016-08-03|vonDonnerstein|getting Hartree-Fock to work with Shells (ongoing)
+0d18c057eebd6d8c85131beee985e2cefc62ab75|2016-08-02|vonDonnerstein|100% coverage and tested w/ and w/o LibInt2
+fbbb498a0849e6d5210906288a7e7016c79c3398|2016-08-02|vonDonnerstein|scatterMatrixBlock extracted
+a5fe25d2519347d33d1e6265c0b1083fd7df5b47|2016-08-01|vonDonnerstein|new dylibs (performance optimized)
+6a769e87f80a54a11edd24a16b99dbb66beff630|2016-08-01|vonDonnerstein|reordering and renaming
+19857192edb6a27ddf9f978b16608923b5c55e86|2016-07-30|Tony Kelman|Use dirname(@__FILE__) instead of Pkg.dir
+3b412d2b38f815311b4c3b4c37cf85d83a4f0e6a|2016-07-22|vonDonnerstein|amendment
+8896bc17a17e75a79761035c5dd6760dd575b21a|2016-07-22|vonDonnerstein|cleaned makefile
+b868030c2c918e1d42f8aec34d4bfd9339f75e26|2016-07-22|KL|Adapted Makefile to compile libint2 and libint2jl on OS X
+22af29662e4ad8fba491aebd2ff38399f49a1b4b|2016-07-21|Joern Dietze|Added STO-3G for testing purposes
+43f1f82b8a68858629ecc3f601f50010d6f6b77b|2016-07-20|KL|Corrected dynamic path of dylibs
+7b66ad889c2496a98c076c64a0cf2d039ce6a94c|2016-07-20|vonDonnerstein|stubbing LibInt2Module if libint2-QuantumLab.so !exists,align Shell API
+3725baf647f739e404d3373f7cba3334306f41b6|2016-07-19|KL|Changed dynamic link path of libint2jl-2.2.0-beta1.dylib
+51e2cdefb5cdf594227d82692c699219900d685d|2016-07-19|vonDonnerstein|Preventing segfault when creating LibInt2Shell with too large lqn
+0c2dad617e714b1cf8332490f42203a5f7a0c504|2016-07-19|vonDonnerstein|working on libint2 for OSX, should be working on linux already
+5c75d58e893982ded5822e556cae6e3e861c7f67|2016-07-18|Joern Dietze|Merge branch 'master' of ssh://pensieve//home/henry/devel/QuantumLab/privateer
+9f45a6c6f2a5fdb0fc2938eb4d7ca13053fc9db6|2016-07-18|Joern Dietze|Some changes in build.jl related to linking libraries
+2afb04baed638a5ca0b0f28ae2cfb730c6c1c59d|2016-07-18|vonDonnerstein|100% coverage
+58a64173e65ae86e6b1d888b80c161e865bd0919|2016-07-18|vonDonnerstein|extending DocumentationModule (@add_doc)
+09cba7f10431f02b354067a3760ad1cec04fd13b|2016-07-18|Joern Dietze|Added stub of LibInt2 Substituition Module
+e64b76b199899e48ce3d7cd51f7ed4c2879f2530|2016-07-18|Joern Dietze|Added Geometry and basis set files in test directory as well as tag file to .gitignore
+ee43c0d7658a5f813ccd95a8c74a1c22f8326769|2016-07-17|Joern Dietze|LibInt2 working with Linux and OS X
+9ed0ec86c0ea763b4b984acc701de6b890b27caf|2016-07-15|Joern Dietze|Merge branch 'master' of ssh://pensieve//home/henry/devel/QuantumLab/privateer
+7dd7de2e40d750ae2fda91dd81777f463a28804f|2016-07-15|vonDonnerstein|minor updates to runtests.jl
+dc469c6cb7acffc65f46da5bb7aa0a1ef916fb31|2016-07-15|vonDonnerstein|Added start/stop to libint2jl for compiler independence
+ba1cff8ea107d4130f1c119d9d57265d875d96dd|2016-07-15|Joern Dietze|autolinking of shared objects for linux and OS X
+276d8576efa0a06fd8c1aab0277daa8c56939e05|2016-07-15|vonDonnerstein|compiled libint2/jl version 2.2.0-beta1
+80286010093c19f0d8e8934df685ed811406cf58|2016-07-14|Joern Dietze|Merge branch 'master' of ssh://pensieve//home/henry/devel/QuantumLab/privateer
+74b4502f63aee8e5b4f73bb8c569a6245a16e217|2016-07-14|vonDonnerstein|continued libint automation and change to API 2.2
+c7d29d542b283b505c9d516a4cb3aa23c5641d53|2016-07-12|Joern Dietze|Removed Travis Build Indicator and changed Travis test script
+736e5ddfec72d8235cc4714142cd92c13f5253fa|2016-07-13|vonDonnerstein|build automation continued
+73fbc82f52a9bb8ddc94ea06ef2df84a96942512|2016-07-13|vonDonnerstein|build automation continued
+162af6a9f3938e1e332590798c8940abb20f28bf|2016-07-12|Joern Dietze|Merge branch 'master' of https://github.com/Danzelot/ql-private
+3d9db308c2ed1669f05716012ce946f2f5c6f4cb|2016-07-12|Joern Dietze|libint2 and libint2 is now linked to os-specific file in build.jl and Quantumlab.jl
+669f4b534ff778c96974483e0d477c2f89069714|2016-07-12|vonDonnerstein|libint2 build process automation
+f999da500c6bd6c91a1522f2d8ddeaf2421abb82|2016-07-11|vonDonnerstein|increasing coverage
+427f736c3c44c81a63db4f63304e47a38cf1b9f6|2016-07-08|vonDonnerstein|fixing DocumentationModule: not every Array{Any,1} is a Documentation
+0eedc42a9c36150b2dc9c73a5bf2fb90ec8f53c1|2016-07-08|vonDonnerstein|added Makefile for local coverage testing
+6b1dbacd83273eb65f9e066f6a759a33746c5d96|2016-07-05|vonDonnerstein|decluttering RI
+e35df4b24fbdf1a0eb9ef51a878fe3ac3dc9b11a|2016-07-01|vonDonnerstein|Merge remote-tracking branch 'privateer/ri_jorn' into libint2
+9e41108c62146047aaf85d38a4ab36bbcf5e476b|2016-07-01|vonDonnerstein|Merge remote-tracking branch 'privateer/tests' into libint2
+7adf2a15dd890dd22643cf0857e8ecb8009fc700|2016-07-01|Joern Dietze|Addition of RI-Module and suitable tests
+b95b790b5835e7f111016d66e2249cbd9876e7db|2016-07-01|vonDonnerstein|Added LaplaceModule
+98d761d69065953278a4e4ddcde188654e9936f9|2016-06-30|Joern Dietze|Added a couple of new tests in runtests.jl
+0b3b358dca22d8bc2c8054cf414bb370eb70089c|2016-06-30|Joern Dietze|Some minor changes and fixes to a couple of modules; removed unnecessary prettyprint in export lines, renamed both GaussianIntegral1D functions, small bugfixes
+2052e398fb9d8bcbfe91921aa0ae47746a60b2ba|2016-06-30|vonDonnerstein|adding some utility constants (identityCGF, identityPGF, floatregex)
+55f42f995afd3df76a4a4d18607f10c27b41e3f9|2016-06-14|vonDonnerstein|added kinetic integrals from libint2 and moved libint2 adaptor to deps
+8e730631c31eb32578db6f56b0484350608d8720|2016-06-10|vonDonnerstein|corrections for ERIs by LibInt2
+a763113477285352e1fa7f5c43f3fd1c8f70ffa0|2016-06-06|Joern Dietze|runtests.jl works; added a few small changes in HartreeFockModule, LibInt2Module and SpecialMatricesModule
+f828ba95cdc040b9ffef3c2eaf1d04441fa0e651|2016-06-01|Joern Dietze|Fixed LibInt runtests (cherry-picked and modified e6f9765)
+99a157480618afb56d1b8671268f7f7a597fb115|2016-06-01|Joern Dietze|Changed order of quantum numbers given as result by MQuantumNumbers to match behaviour of LibInt, as weel as some bugfixes (cherry picked 51f6645)
+2097b994f92c79b795d31c124aafa0b8b8176ca6|2016-05-20|Joern Dietze|Removed some small error due to renaming of Libint2 functions (cherrypicked 3a26f9f)
+0fd8b86b57126e071a47cb4c24a22df3e03c316b|2016-05-20|Joern Dietze|Included copy of so-files at right position and autogenerated deps/deps.jl
+7b6ee46e3d371b7a7c459220796fb0ea26c177f3|2016-05-12|Joern Dietze|Deps fixed a little dirty with dl loaded in QuantumLab.jl; build.jl is not functioning
+4048321ff0fb4f4483f4d7b7b6b9a250f9b721ef|2016-05-10|vonDonnerstein|minor corrections and reordering of the modules
+287f61da92d87b9967fc02865d01babefd853bdf|2016-05-09|vonDonnerstein|added ShellModule and LibInt2Module and some more functions
+f1a4bd6bdfa466323f29d839f8f4c6163ca037c7|2016-05-09|vonDonnerstein|libint2jl and Makefile
+34a25d3ebf6196119129f399c5d0a87c0ed1c9bb|2016-05-06|vonDonnerstein|interface cpp->c
+c7c6d306c00f84293b18be1f78a8895bddf748e7|2016-04-19|vonDonnerstein|added LQuantumNumber(Int)
+6f738d4c360ee871684b09194e87a0d9f4fc9ea6|2016-03-22|vonDonnerstein|Added tests for BasisSetExchangeModule
+b5e3005f3307ae5bb3df0184e674fa3c5c7de1b6|2016-03-22|vonDonnerstein|updated REQUIRE
+0f38f96bea950d6da570b19830d2797799fb2136|2016-03-22|vonDonnerstein|Merge branch 'master' of https://github.com/vonDonnerstein/QuantumLab
+8a036f4beccd2bb8db92d696fadad2ffcde694db|2016-03-22|vonDonnerstein|added BasisSetExchangeModule
+e775bef74b88b348e38fd976b727ecf840b46038|2016-03-10|vonDonnerstein|Update README.md
+50ee5adb2c5f991824ec865a2c97001ef6d60f16|2016-03-10|vonDonnerstein|appveyor: don't require nightly
+304ce810cfcee367ed29cb6936ad95ef3e72ac34|2016-03-09|vonDonnerstein|require: TensorOperations
+c2736af63a4c41d94c51c8aa03058e8268588876|2016-03-09|vonDonnerstein|Performance Overhaul for HartreeFock
+4bdd604bc95eb92593f38bc7d48449f8da1b7deb|2016-02-26|vonDonnerstein|subsumed prettyprint in display and added DocumentationModule
+a260a7cb3afa9ca2c459fda0016ffba931aaa92e|2016-02-25|vonDonnerstein|scattered all functions from HF.jl and added SAD guess
+33e3bff72ebb65e304a38e32425e58fdbeaaee64|2016-02-24|vonDonnerstein|added println to computeEnergyHartreeFock
+c993e5644470e6357a7e4c4360d1298d221773aa|2016-02-24|vonDonnerstein|revised HF testing
+64b32ff0e11fe4ddadc81359a0303af7667abcb3|2016-02-24|vonDonnerstein|Debug: readBasisSetTX93 for def2-svp and others
+49ff51aac49b276ea0a6c3bc6f3be252e2d7a993|2016-02-04|Henry Schurkus|testing around
+d168c205a593926f3638236fe68c8f4aec144f74|2015-12-19|vonDonnerstein|Minor corrections to evaluateSCF (HF/STO-3G on H2O now compares to FermiONs++)
+1e974b7d3f3957dddf43b9dc730cbb3c0584f6f3|2015-12-18|vonDonnerstein|Merge branch 'master' of https://github.com/vonDonnerstein/QuantumLab.jl
+18fd0033bd08673b769013b78761bb6201863475|2015-12-18|vonDonnerstein|added heatmap
+1b38be9f9c481eeca31e436e58e101c5d84fba17|2015-12-16|vonDonnerstein|working on optimizations
+13caf1b21f718d0c73f5d282f325d1d492ee3560|2015-12-09|vonDonnerstein|Update README.md
+0bcd852183697098c63796404a0a143b777ea50d|2015-12-08|vonDonnerstein|Update README.md
+afa761fe17156d4c3407e9e81118e34a8c6c808b|2015-12-08|vonDonnerstein|Merge branch 'master' of https://github.com/vonDonnerstein/QuantumLab
+fff2960062b0f7dd1f3651fe588accad6842b503|2015-12-08|vonDonnerstein|added coveralls to travis.yml
+5d09bda0fb0c098e044d7ec6750b8865c2eb954b|2015-12-08|vonDonnerstein|require 0.4 stable instead of release candidate
+6e4ffc4d5439d1901d6fc09b2b6f70b8aed6413f|2015-12-08|vonDonnerstein|Merge pull request #1 from tkelman/patch-1
+93eb7858318d43cbf0495aed4a01b33f3eabfea2|2015-12-08|vonDonnerstein|Update README.md
+7282eb38a1f490e792b72a63f076f79ffc57a0bb|2015-12-08|vonDonnerstein|Update README.md
+ca3ca8291deb1b6c2cc00cc74ddf415d6aafb0f5|2015-12-08|vonDonnerstein|add appveyor integration
+630e60a33172b47919e7e473e9a9d6aeffd62399|2015-12-05|Tony Kelman|add sudo: required for installing gsl on linux
+8b68e0a9c74c5ea43674a98777dbf044ebda8f2d|2015-12-02|vonDonnerstein|Updated Test reference values (readGeometryXYZ)
+4f25f2e9e6487d377bbac48644fce9a99d1d2bf7|2015-11-27|vonDonnerstein|ERIs now correct
+be2b92fc9095c92d04501b61193f27caddf56c8e|2015-11-27|vonDonnerstein|Cleaned Loading Output, included ProgressMeter, added angstrom2bohr
+19cf14540364cddc2de9a53e576377b1ca7d7dc2|2015-11-20|vonDonnerstein|Starting computeMatrixCoulomb
+fd88f014d05726f00afc96b8ba37b0cd91aafe3d|2015-11-20|vonDonnerstein|Added NuclearAttractionIntegrals and ERIs (still developmental)
+d26407544d284caaa03e16c9a75c8138429e0311|2015-11-17|vonDonnerstein|fixes for julia v0.4
+74cb3a0cc74a51f2d0892f0a125d9c9112438a99|2015-11-17|vonDonnerstein|Overlap and Kinetic Matrix, some utility functions
+6007cabe59465e9a924a83272cde94b6e13c211a|2015-10-11|vonDonnerstein|Update README.md
+cac7ee094cd66f8bba9c1f93e4fc5de8688174d2|2015-10-11|vonDonnerstein|Update README.md
+a68b56e1318e693efaf4f7cbcf94ea6ca6c6c445|2015-10-02|vonDonnerstein|Update README.md
+2e478e6cddb07c9ffda8027b8a406229d650c858|2015-10-02|vonDonnerstein|Update README.md
+c4d690a64fd30740d7eb65a271fde43278783640|2015-10-02|vonDonnerstein|[DEBUG] no subsubmodules
+9059cbe72a6420e3018caf5b51cdcda2f4916e5e|2015-10-02|vonDonnerstein|Separated Code into Submodules
+f2759e2725d5b38dfd318252ea1bdb04ea14f793|2015-10-02|vonDonnerstein|Update README.md
+e2866a9d4bb5237be87742f1f340a5ebf0c861ce|2015-10-02|vonDonnerstein|shoot, windows not supported on travis-ci yet
+8e5253b07ec9037fcc21471ad4d7c796f1564667|2015-10-02|vonDonnerstein|updated travis.yml
+c0ca45c742eb2a6a09950a6509e6eabf95b7e349|2015-10-02|vonDonnerstein|readxyz and basic concepts of geometry
+796829d2577b316416503e96d2f926ccb9a34000|2015-10-02|vonDonnerstein|Updated License
+9b70f07d036274eae47cc8759a2639b411a179e2|2015-10-02|vonDonnerstein|QuantumLab.jl generated files.
+94501ea88f1a6e3ca50ebf96ea957d74107708c0|2015-10-02|vonDonnerstein|initial empty commit

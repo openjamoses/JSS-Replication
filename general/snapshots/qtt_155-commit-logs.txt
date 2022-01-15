@@ -1,0 +1,1372 @@
+c2893354e6b953c7157605f734830774b7bd1ef2|2020-09-25|Pieter Eendebak|enable python3.8 builds on travis (#672)
+f1b7c975020c27c447908e8afa3814df9ca1437e|2020-09-14|Pieter Eendebak|[DEM-NNN] Fix ppt notes size (#748)
+7127630bb3b1c05a34321f6c71914816d4349a5b|2020-08-28|Pieter Eendebak|fix for numpy deprecation (#747)
+fd131cc15a43800f7a92fced081fb5a438f1a6d1|2020-07-01|Pieter Eendebak|prevent warnings when loading M4i driver (#737)
+b3720ca667d2844e727bf56edb83b42302d25cba|2020-06-12|Pieter Eendebak|Fix Python 3.8 warnings (#745)
+07d0b65a96330ef6880d405481a9db9a4d661d40|2020-06-09|Pieter Eendebak|[OP-56] Replace polyintersect inplementation of Polygon3 with shapely (#744)
+08efb266923fee96eeb425a6303f2a33d75a2838|2020-06-09|Pieter Eendebak|[DEM-NNN] add virtual awg settings to snapshot (#739)
+53be9e57f88f75a899ebe19582f5f18836c7567b|2020-06-09|Pieter Eendebak|update installation notes to use virtualenv (#738)
+ed87f8c5cc27cb5a2b25646777cd67050feefba6|2020-06-09|QFer|[OP-NNN] QCoDes 0.14.0 compatibility (#746)
+e3a69bcbc37729e4d7376d0e355a03c43db092f9|2020-05-14|QFer|Changes for new release 1.2.2 (#742)
+05c3905fda03d7b8e6dc7ed24d8dd5c6db476b2e|2020-05-14|QFer|[OP-NN] fix issue with peak_local_max (#741)
+c2e47a4787bddf67350f01e74c101ec42c1189f8|2020-05-06|Pieter Eendebak|deprecate ttrace module (#709)
+54eae556f10e1248753d942d80e1c122d6060d67|2020-05-06|Pieter Eendebak|use least_squares in allxy fit so solve issue with covariance calculation (#736)
+67c2b9c897d3b9d59882c12f061b052a7cb42a2e|2020-05-05|Pieter Eendebak|add example notebook for mongodb (#679)
+0c33058106d9a5ff1dc62602377a056e120420f9|2020-04-28|Pieter Eendebak|Update to sine fitting (#734)
+76496d0ece799794583e0860ddaa02c733101776|2020-04-28|Pieter Eendebak|Update qtt to qcodes 0.13.0 (#735)
+4a1c35469592a514b8c179806866f4656103f842|2020-04-21|QFer|Fix/sweep values (#723)
+1dec519278043d25e7f92c748052725f4bd11baf|2020-04-15|dependabot[bot]|Bump bleach from 3.1.2 to 3.1.4 (#730)
+c1f20cf445a19370644a2da8ee332d962edb3410|2020-04-10|Pieter Eendebak|[DEM-1310] Add fitting of sine wave (#731)
+f8cd8f606cabcbb7838e88e249a91cd08d5e9aa1|2020-04-07|QFer|[OP-NN] Fix for deprecated old style qupulse Sequencer test (#733)
+35b0fbcd735fbd4564d996452091f6b860dd3859|2020-04-02|Pieter Eendebak|use lmfit for fitting a gauss ramsey (#729)
+2854e1ddedf4c10e471b5c69d4e246efd8d36ed7|2020-04-01|Pieter Eendebak|Allow plotting arguments to be passed in drawCrosshair (#728)
+786d4c783842291202ac8bbf32f3ed7ab65a1db1|2020-03-26|dependabot[bot]|Bump bleach from 3.1.1 to 3.1.2 (#727)
+9e7d149dedfcfef7624f06324d5c23a99ee9068d|2020-03-26|QFer|Exclude *tests* from installed packages (#724)
+6754ca6a11557731fb5bf0094a4dd51bfaafcf62|2020-03-25|Pieter Eendebak|Fix the gain methods of the ZI HDAWG8 (#720)
+77170e8ab00cb06e930a27b902ced0e76ba7a1f1|2020-03-25|Pieter Eendebak|add numdifftools to requirements (#726)
+07d0f71a0adf379c10bfbcfd10a7be64d9e01664|2020-03-23|bogdanvconstantin|[DEM-1368] initial investigation and destructor (#725)
+9942aaf255c6239940a65d1d941bcc8c5dc6f11d|2020-03-14|Pieter Eendebak|disable all output channels when restarting the videomode (#711)
+f3876e7cd51792ee8c12c3bac54d7fb172a6ad26|2020-03-12|QFer|changes_review_generation_of_stepvalues_for_vector_scans (#722)
+b2bf218fc9cf99fefd0e75c9855a0d88c9498f1a|2020-03-04|dependabot[bot]|Bump bleach from 3.1.0 to 3.1.1 (#717)
+41d8f2dfdd82ef77d1a97214d29e036468929d7b|2020-02-28|Pieter Eendebak|update docstring (#718)
+444b1758bdb5b75d6ae82e24149c34c893d277eb|2020-02-26|Pieter Eendebak|add analysis results to notes (#712)
+626bdfa95f2d834cc20d67c32d5f11e19a3684c5|2020-02-25|Pieter Eendebak|implement functionality for print_matrix argument (#714)
+5459b9c3f556d7a7a83f46a5961aa9b9e1b9e95a|2020-02-21|Pieter Eendebak|fix bug in generation of stepvalues for vector scans
+35f125624ff3b148f7eca36134492cf5d21fa17a|2020-02-12|Pieter Eendebak|prevent tests from writing data to the user directory (#710)
+f28627470ad1b8955059181978500477a0e71d34|2020-01-16|QFer|[OP-108] Post-release changes (#708)
+f6fdcc024bedfa8b55f919d04f40e2f1940c4886|2020-01-15|QFer|[OP-108] python notebook updates pre-release changes (#707)
+ec0cbd628949b42ca48c65b339fd62a5b9740ac6|2020-01-15|QFer|[OP-108] Changes for new release 1.2.1 (#706)
+e1c976c1a0717b4d7d9a0d2f9872ba17708268d8|2020-01-10|Pieter Eendebak|fix for period argument of sensingdot_t (#696)
+cc5e2057bcea19f47f1d8e246fb3ec50751b22ac|2020-01-10|Pieter Eendebak|Cleanup result selection of sensingdot_t (#694)
+c950aa196ede7295e4c6ec40b93e6b6318ff1541|2020-01-10|Pieter Eendebak|add representation method for virtual awg (#697)
+f59af3fda2273cfad65dace8fb5e086a07d64059|2020-01-09|Pieter Eendebak|Update dataset processing (#701)
+c16f1e7757d97b4180c6724dfa7f5794729a719c|2020-01-09|Pieter Eendebak|Fix create_vectorscan for the new virtual awg  (#702)
+284c87d45c145e13470bf0a580863a853934111c|2020-01-09|Pieter Eendebak|derive calibration exception from normal exception (#704)
+4f4c19664150c98f4c6e4e6b973dc6dc2df2736a|2020-01-08|Pieter Eendebak|use bionic as build env (#705)
+fbdb5483ffef54a580737eb9d6a911cd3fb3b46b|2020-01-06|Pieter Eendebak|fix deprecation warnings (#703)
+06f8cf19eb93f49645dc3b5a30c0f030464451cc|2019-12-20|QFer|[OP-NN] init CHANGELOG.md for new version (#699)
+c02180b6814abefc30cf79cca3ce7b441c6b16aa|2019-12-20|CumulonimbusCalvus|[OP-NNN] Small fixes after release 1.2.0 (#700)
+4a883b7d7814690c239e0c91eb142678db207e7f|2019-12-18|QFer|[OP-NN] Version number increase after release (#698)
+70869086298ed5d80d8fd2e2ac3dad5c6f68d79a|2019-12-18|QFer|[OP-NNN] API token auth. on pypi didn't work, username/password
+8cbc30b8555d7e2a68b49f9aa629628955a23edd|2019-12-18|QFer|[OP-NNN] Update travis.yml for automatic uploading to pypi
+4b40423278ed33de2167ab78cd3d6f472a762913|2019-12-17|QFer|Merge branch 'dev'
+2d808072432d380a43c37db0ba8570161461c62f|2019-12-17|QFer|[OP-NNN] changes for release 1.2.0 (#695)
+c524e398aa525d0648f1c4944cdb9fc36d2d9b27|2019-12-13|Pieter Eendebak|[OP-103] Fixes for transition of m4i to qcodes contrib (#692)
+27110d365bb62276e503f884bff9ee5f8421f5c8|2019-12-06|Pieter Eendebak|[OP-87] Use lmfit for Gaussian fits (#686)
+fb0d9d78aeeb0d304768cb84ba9d4ab10af03eaa|2019-12-03|Pieter Eendebak|[OP-102] Angle estimation (#678)
+2def206e7c05a20742c111df72d57deeeb060f41|2019-12-03|qSaevar|Instruments should get the correct name (#693)
+55208cd7d3a9785c19d2ff549aeead92f4405525|2019-11-29|CumulonimbusCalvus|[DEM-1109] Custom name for add_adapter_to_instrument_adapter. (#691)
+aae3fe97985c5b3a48b3e5be605247397752526d|2019-11-29|Pieter Eendebak|fix check on M4i (#688)
+8e2e0f3f0e25846d3baa7c2185daf3cd0346d666|2019-11-28|Pieter Eendebak|Update qtt to qcodes 0.8 (#689)
+87dddb042eafa8fb6bf02e7943570e2fb502d449|2019-11-25|Pieter Eendebak|fix for upstream qcodes
+63d3880eda36e2fa65d11f78b09c341fa00bdd9b|2019-11-22|Pieter Eendebak|add metadata if no station present (#684)
+8a4124b1c0090bba69a5ddb8c926fe54be95b588|2019-11-22|Pieter Eendebak|remove code that points to spin-qubits repo (#687)
+dd963a096b68ea0a70b0d6cfda5fd96c00d7e823|2019-11-22|qSaevar|[DEM-1205] Issues with instrument adapters (#685)
+f60ef9efdb29fa29fb0a1617cae0cb8e5d1cc234|2019-11-22|qSaevar|Changed how external adapters are added to factory (#681)
+8e5e6eb234f880fff9cff4d31398cd5f07d80b29|2019-11-20|Pieter Eendebak|[OP-96] add option to refit double gaussian (#680)
+fc8bbc8186e5401d8db6316b74afb09404b0c899|2019-11-19|Pieter Eendebak|fix typo in get_sampling_frequency (#683)
+d66137d3c20dcd115e498b58ce10515bf059eeed|2019-11-14|QFer|[OP-42] Preparation for release qtt (#667)
+c52c46b08db0c23ada70d9820d89690982d83639|2019-11-11|Pieter Eendebak|Add qtt_example to travis (#676)
+e9b7fb93ada2dbc7e1eba35d305b002c272f2c13|2019-11-01|Pieter Eendebak|use M4i driver from qcodes_contrib_drivers (#675)
+67e7a1909163558521c6fcbc6abfc2ce5b748c2f|2019-11-01|Pieter Eendebak|fix initial estimate of fit_gaussian (#671)
+835b692cd44c57229f40c9ebe3280cb9f94ddf8b|2019-10-27|Pieter Eendebak|[OP-56 prepare] update polyintersect  (#673)
+36c78d97a673c0d586149bc11878aba0bbfd2062|2019-10-25|Pieter Eendebak|Fix references in documentation (#674)
+bc9f92342f868114ea0a7a4815642483e6fe3c30|2019-10-24|Pieter Eendebak|[OP-97] Restructure fitFermiLinear (#666)
+e934f6f6a05b1c2ad77aa6294d5bbab96387098a|2019-10-23|Pieter Eendebak|add example datasets for time rabi and freq ramsey (#670)
+ddffd9af7787281bf267e53c9ed1681b2af22a21|2019-10-21|Pieter Eendebak|[OP-101] Pass chirp template name to channel (#668)
+3ef693b6f7bdab63de4cb67fad5c2cfa40a8c682|2019-10-11|Pieter Eendebak|[OP-86] Add example notebook for serialization (#663)
+f473516df380b8b3a1d0a6704b32b6a93020dccf|2019-10-09|Pieter Eendebak|[OP-95] Add the AllXY analysis code. (#664)
+84909fc1a560e6f4c7b7d3b5ac3b8f50b7a5b4b5|2019-09-26|Pieter Eendebak|fix mypy
+429af9fd1c52e7381580ff769116ae92550bc998|2019-09-26|Pieter Eendebak|add option to set dataset record labels through scanjob (#655)
+4d533f08730796c4a697cc623048ea591794a2e8|2019-09-26|Pieter Eendebak|fix matplotlib callback for NaN entries (#662)
+decda139f1b0e08e5ca4ff5b3fbbcc3c4dd3c01e|2019-09-24|Pieter Eendebak|fix awg_to_plunger angle selection (#658)
+fc17eb500a4eb43f08373922b3877ed73ef6903d|2019-09-24|Pieter Eendebak|fix bug in estimate_parameters_damped_sine_wave (#661)
+8266f0ea083f0b230e529570fa4eb174996064bc|2019-09-24|Pieter Eendebak|Add  test for NaN and inf values in serialization (#657)
+638d8556ceb8c57e00e2c8f77dd8d551364bbc6d|2019-09-24|Pieter Eendebak|add tests for directionMean (#659)
+afc0cc630a769fb184db3ce4191dedb48a0386fb|2019-09-24|CumulonimbusCalvus|[OP-84] QCodes 0.6.0 breaks QTT. (#660)
+dececf3535ae1482d699c120852909b0f25a3dd8|2019-09-19|ammar92|[DEM-951] Unify Serialization (#630)
+4d084f3c0eb53510cc32de507470529d08ad4a7f|2019-09-12|Pieter Eendebak|[OP-83] Improve fitting of double Gaussian (#648)
+10d163d17b77a4f6e1e99294cd2331507a51105a|2019-09-10|Pieter Eendebak|Update to upstream qcodes: import from plot packages instead of main module (#649)
+04a77683ea193ae1d1e79922a26fec27111b1d91|2019-09-06|Pieter Eendebak|add unittest on loading a json and hdf5 format dataset (#647)
+250876620784870e5690c87e60a556033dcda203|2019-09-05|Pieter Eendebak|Feature: add option to enlargelims to set x and y independently (#646)
+0d93a030a7cbb35ab1e2ffe54b651283460417ef|2019-09-05|Pieter Eendebak|Add option to perform filtering (#645).
+41f84a50f12dadf9b8bbe242b8222f37482306a2|2019-09-05|Pieter Eendebak|[OP-80] Improve initial fit of Gauss Ramsey fit (#643)
+2abf6d7f210d9546e2a5c73afc452d24a165c01b|2019-09-05|Pieter Eendebak|[OP-79] add smoothing to derivative of signal in Coulomb peak fitting (#641)
+0f3e622987a59ffac136113047c07fcf3e4ea231|2019-09-04|Pieter Eendebak|[OP-82] Enable all output channels for virtual awg in videomode. (#644)
+f6381aa3601cf949ce14b44636fb962c7f153699|2019-08-30|Pieter Eendebak|improve names (#642)
+c6e8df1e0c351b6c9e7347ab523806dfec35c4c7|2019-08-30|Pieter Eendebak|[OP-72] Add method to restrict boundaries on VirtualDAC (#631)
+894c67b2391d69d0044cadc1b4974139a733545c|2019-08-25|Pieter Eendebak|fix time axis for m4i acquire segments (#638)
+f01b096b5d4e9834b129f13951f20f8c156f9e0c|2019-08-24|Pieter Eendebak|enable parameterviewer tests on 3.7 (#634)
+deca445947d6f82c9d45ca44ba1ae22454889c10|2019-08-23|Pieter Eendebak|fix single step method of parameterviewer (#633)
+07d73a34de92260f55c1cf66cb4b0842d650a854|2019-08-22|Pieter Eendebak|[OP-73] Add tests to RTS code (#625)
+05d2e205d201f33fdf3a4ea2bfe47c1f997d6063|2019-08-22|Pieter Eendebak|[OP-71] fix conventions in dataset_labels (#629)
+9ec3b2c10a6458840f75c0b0749097d2f35eeadf|2019-08-22|Pieter Eendebak|Fix travis builds for VideoMode (#637)
+f4c2b825eff0193fe49d8255d48261d19810db24|2019-08-20|QFer|[OP-66] autodetect notebooks (#627)
+621d84fcd6b0451619ff15acded8a8d8d02ac6b5|2019-08-17|Pieter Eendebak|[OP-62] add re-arm compensation to acquire_segments (#614)
+d16a50a0edbd3c2b0a2066fbc5ea68048096a899|2019-08-16|Pieter Eendebak|[OP-70] Virtual gate scans with overlapping gates. (#626)
+e477d216759062ea4577608d2aa21dc6e6ca75ca|2019-08-16|CumulonimbusCalvus|[OP-63] Turboscan with the new Virtual AWG. (#618)
+9df5a225fa90d11aa208df04e2308df1231fd288|2019-08-16|Pieter Eendebak|Add dataclasses to setup.py. (#628)
+f3ce22f26a5a52456a0125897eddd9f23241763d|2019-08-09|Olaf Schusler|[DEM-1045] Fix qilib for readthedocs build (#624)
+6d7375add5090af1ec96cd064d77423b69346562|2019-08-08|Pieter Eendebak|add fraction up and down as output of rts (#623)
+cae3d07678c585eac871c1ea122b3736f2ebce62|2019-08-07|Pieter Eendebak|Fix definition of chirp signal. (#622)
+409e7b6e6f1e9cc1e01f68b3a7e7271b70538de3|2019-08-05|Pieter Eendebak|add pyqt5 to setup.py; remove pandas (#621)
+8da923cddaed12bd8c312bc5ca49d174ac01c2d5|2019-08-05|Pieter Eendebak|[OP-60] raise exception when diffImageSmooth is called with incorrect arguments (#608)
+7e45d04559a4d73851d1072bf0771cccb0561df0|2019-08-02|CumulonimbusCalvus|[OP-64] Move mock imports to unittest.mock. (#620)
+34b7479e5aa14662aa6f3a032002de23e84b5959|2019-08-02|ammar92|[DEM-1043] Resolve circular dependency problem in qtt and qilib (#609)
+d28765ce4fd609cc8b7b6a99759e678ba649b374|2019-08-02|Pieter Eendebak|[OP-65] Fix coulomb example notebook (#619)
+59c99fba8ab593e65b53e7acc0bff0395a83fb6a|2019-08-01|Pieter Eendebak|[OP-51] Videomode refactor (#594)
+d7c2c671be4d79833f789bf20b7fc90b973f872f|2019-08-01|Pieter Eendebak|[OP-61] Improve qtt installation. (#613)
+3e20fdf441e103d472f03b855d6bff1d6d42e309|2019-07-29|CumulonimbusCalvus|[OP-53] Fix virtual AWG marker on same channel. (#599)
+946b0425c4b4b9eee16d2c5181f38fc59b1d2adc|2019-07-28|Pieter Eendebak|Add dataset processing methods (#593)
+9cf060f5aa9fd09c98cf3109dc38903d377ff1ae|2019-07-26|Martin Woudstra|[OP-52] Add boxcar filter. (#597)
+4edda37ddab71c0d37feeac50b8a79b46dcd25b6|2019-07-26|Pieter Eendebak|[OP-59] Add option to compensate for m4i re-arm time (#607)
+cce0c5bd93519986aa5f29e6d71e5d6e94f5844c|2019-07-26|Pieter Eendebak|add integration tests back to automated testing (#603)
+03bf06817ede42984769f7cb856a82a790a2289c|2019-07-26|ammar92|[DEM-1018] VirtualDacInstrumentAdapter needs to set instead of append instruments (#605)
+8f6192c1ef3e4a38742183ea589ba976fc93e37f|2019-07-24|CumulonimbusCalvus|[OP-57] Fix Travis builds. (#606)
+8cae24d9f6385da9c415978288e388e1fccc4a90|2019-07-19|QFer|[OP-57] Fixes OP-40 backwards compatibility (#602).
+ebb5afff54a9a5d3adb37a3d29e3562e1e3579ba|2019-07-16|CumulonimbusCalvus|[OP-40] Make data set. (#601)
+a2b8eeddc1ffb47ad6463cf30810dba908fc2ac4|2019-07-10|ammar92|[DEM-980] Create VirtualAwgInstrumentAdapter (#588)
+76c3991da23d5fb3d10cbbd25b75fc8aa47f039b|2019-07-09|QFer|[OP-36] Split integration tests from unit tests (#600)
+166a4e6def813e1a0e95a3dd5469c6ac95bceb78|2019-07-08|CumulonimbusCalvus|[OP-48] Added a changelog to QTT. (#591)
+beaedca430374ae7f18ec1917533ae62496ec077|2019-06-26|CumulonimbusCalvus|[DEM-943] Feature UHFLI integration (#573)
+09d891f272895cc7679191b4a276110629bec485|2019-06-25|Pieter Eendebak|Cleanup of functions, add update model for markov chains (#592)
+68cf9613ad24a50de1bab0e8b416394b11071f32|2019-06-18|Pieter Eendebak|fix rtd buid (#590)
+2bba633ac6f767e0b5c457feb41dc900d083b601|2019-06-18|Pieter Eendebak|Fix issue with HDAWG8 sampling rate (#589)
+002754508319e027dcc4f206b378a7eb234ad928|2019-06-07|Pieter Eendebak|add calibration exception (#585)
+07d4c9ede522bd8ca381ea5cf724fa46535df3c4|2019-06-07|Pieter Eendebak|add load_example_dataset method (#586)
+a4af19a1ebaff8edb0ce0e4ab0669af38862fe92|2019-06-06|qSaevar|[DEM-978] Add option to set gate_map and instruments on VirtualDAC (#583)
+d3870a864b38e6fe0261e5aa9cecb9b233de8408|2019-06-06|Pieter Eendebak|allow plotCallback to operate on datetime axis (#584)
+4f9465dc2111f0b0367bfa87258c37b052e46417|2019-06-04|Pieter Eendebak|[OP-32] travis file added python 3.7. Coverage didn't omit the files because of wrong usage of --omit (#578)
+c810ed7dfb008a656c3b5063275cd99d303988d3|2019-06-04|Pieter Eendebak|add chirp signal to templates (#582)
+de446b56f222a9d795d8e682f59740f4d4487961|2019-06-03|Pieter Eendebak|Cleanup legacy methods (#581)
+100767f5ae033e4d8339c6cb4ece3e0ef430b2aa|2019-05-29|Pieter Eendebak|remove __init__ (#580)
+9ad1aed830f9e1c9ecb6875222a56352c2eecfca|2019-05-28|Pieter Eendebak|Refactor part of the RTS code (#577)
+b91d85664a6ddf82b483cda29243ac46dd171bea|2019-05-27|Pieter Eendebak|[OP-34] Move tests to tests folder (#574)
+280179ab029e1f209c34933a07aead3877ad9e30|2019-05-26|Pieter Eendebak|fix to acquire_segments (#575)
+07265e7412c1dab31c01fa1734ec446f2a32c607|2019-05-24|Pieter Eendebak|add integration tests for dataset (#567)
+9e32f3860a3a8310efb55fd0dad00acdf7dbe8a8|2019-05-23|Pieter Eendebak|fixes to cc measurements (#572)
+704fed38daa4dfdaf34835a5a37eed39bf322553|2019-05-22|CumulonimbusCalvus|Revert "Added 2D processing from left and right edge."
+ae8a7e773a3f4d2db82c097608f3313f765f4ce5|2019-05-22|CumulonimbusCalvus|Added 2D processing from left and right edge.
+c38aa75decb22fab4cc9338c8b17ec47979be5b4|2019-05-21|Pieter Eendebak|Allow debugging with acquisition methods (#571)
+46d96707985ccea2bc2875befd46d85651729910|2019-05-20|Pieter Eendebak|refactor parameterviewer; remove default min max values for parameters (#570)
+bee941232984e552fde6e57a83a019ff0fd5f542|2019-05-19|Pieter Eendebak|Allow json files in the DataBrowser (#557)
+2e9dee0927d1456e25c3f4e96199b1449beaa15a|2019-05-18|QFer|[OP-28] fixed travis warnings and tests instrument_drivers (#569)
+06114eed0496a8a04242dce733868f33024657e6|2019-05-14|Pieter Eendebak|fix default_parameter_name in scan method; fix issue with delete argument in scans1Dfast (#568)
+d230d30bd0de8cd678249171ab649d51bebb45be|2019-05-06|Pieter Eendebak|Add unit field to parameter viewer (#566)
+08dcae8ecd5a84e599acf2210b4b5848b058363e|2019-05-04|Pieter Eendebak|Add plot_dataset from spin-projects (#565)
+732f76c023b22814dadd58e505fa5c29b5330e61|2019-05-03|CumulonimbusCalvus|[DEM-888] 2D post processing (#563)
+cabf53512da192447270bd01d6bb67467a440a04|2019-05-03|ammar92|[DEM-883] Implement 1D post processing for UHFLI (#564)
+02046acf171304239513abad8e9719abdf668423|2019-05-02|qSaevar|[DEM-928] As an operator i want to measure according to Elzerman readout (#562)
+1ebb32f99e5944f3f40caba5d35074f564dd4645|2019-05-01|qSaevar|[DEM-926] An example for scan1D with UHFLI (#561)
+202f52d5b78c78a89a959724ef4f0000a66f8135|2019-04-30|Pieter Eendebak|Misc updates from QI setup (#552)
+3f921c3de8f554556c1473cf6c71780e661ae080|2019-04-30|qSaevar|[DEM-927] Implement the LockInStimulus interface. (#560)
+11a0ca2d859845234c3feb62f897cc651d7a11b2|2019-04-29|Pieter Eendebak|throw exceptions for legacy code (#551)
+2ab72a3b317a5e6c982867aa91290c404b2db63a|2019-04-29|Pieter Eendebak|add encoding of qcodes.DataSet (#558)
+66eefc51d0bc036d300a71b3c902febd9505dcfc|2019-04-26|CumulonimbusCalvus|[DEM-830] Added UHFLI scope reader. (#554)
+0eb44f0b8008bc0378dbdd326bc07cfaf674bf61|2019-04-25|ammar92|[DEM-890] implement signal processor and signal processor interface (#556)
+90e905409c5873c7b098cd3020badd7f603da090|2019-04-15|Pieter Eendebak|update documentation (#555)
+a8eb04dc8d4b094cb9edc8d70cc3db1dd88cf97d|2019-04-14|Pieter Eendebak|update docs of PPT methods (#550)
+ff6e4e81fcbc2a883af72ba2e556fd48cc0df894|2019-04-12|Pieter Eendebak|Merge pull request #549 from QuTech-Delft/dev
+6ac65f94ba2046502485a1801b38110796303134|2019-04-12|Pieter Eendebak|Fix read the docs (#548)
+2d47443c9c07885313a3dbdfe67184218846374f|2019-04-12|Pieter Eendebak|fix installation instructions (#546) (#547)
+4b38501d227341e9579d4dceafff61ffab71b951|2019-04-12|Pieter Eendebak|fix installation instructions (#546)
+99dd31c9584d8af7346097f9979448c85aeaa456|2019-04-12|Pieter Eendebak|New release (#531)
+6297beb9100aa5a857dddf424eac07fc9d0ccb2c|2018-10-15|Luc Blom|Merge branch 'dev'
+871e310d7bb8b34a0f32145302c345cfd89f597a|2018-10-15|Luc Blom|Merge branch 'master' into dev
+8c9791985acac2219cddf9696219f6fb00dbdad1|2018-10-15|Luc Blom|Updated version number.
+da34a8c1af55d3a02f0d044b13837f70e39f16fa|2018-10-14|Pieter Eendebak|add normalization function to virtual gate matrix (#465)
+fffaba04f265ff338fa1dc029d0b613c5f9468c2|2018-10-14|Pieter Eendebak|Improve simulation digitizer (#464)
+3065763d2a3069f05ba309433a9f3b1ded5c2e02|2018-10-11|Steven|add verbose option (#389)
+8a68ca53f91eaa2df3761721389e6a0e7df26b13|2018-10-15|Luc Blom|Updated version number.
+cafab81de1a62c2bfd3b522459ddce6704da7344|2018-10-14|Pieter Eendebak|add normalization function to virtual gate matrix (#465)
+f1f4121b7fcdeaf5dd55c10537a781267b9b902f|2018-10-14|Pieter Eendebak|Improve simulation digitizer (#464)
+23352b7e4e8d7780400de0fad3813449103bbac2|2018-10-11|Steven|add verbose option (#389)
+dcce80f9ad47c53da30d688857b1ae5b9bf9c848|2018-09-19|Luc Blom|dev to master (#460)
+188691115c8ed8cd984d4c6be4bd161a97d7a768|2018-09-19|Luc Blom|Merge branch 'master' into dev
+cc9281617a56417ecf777cb9c56ddc1ab8745dc0|2018-09-19|Pieter Eendebak|remove old hints at spin-projects (#458)
+13ae45372090b1f526f8d1c2c1a47566b13b82e1|2018-09-19|Pieter Eendebak|improve documentation for virtual gates object (#456)
+fbb05d573a91bb026195c852d747f520e78ad0b4|2018-09-19|Luc Blom|Fix failed test. (#459)
+91d38e1bab1bccedef17a8e5ba9be5f60bc6dcad|2018-09-19|Pieter Eendebak|improve continuous integration (#450)
+d2b52a9be521dd16bf6456dd05bdfbe437bb6164|2018-09-13|JP Dehollain|Fermi fit example review (#451)
+78e0a697320d3dc45963b32ca48fe2cd9d0ee273|2018-09-13|Luc Blom|Moved qctoolkit references to qupulse. (#455)
+a943a8f0fafe9939c3eef31521e2762a68aee8e3|2018-09-10|Pieter Eendebak|fix parameterviewer (#449)
+fa9bb3d503327fa2a2fdd8c3ea5e3f4795590ece|2018-09-10|Luc Blom|Fixed picture locations. (#448)
+4784235016c200e82733faa724a7a80a90d5c882|2018-09-09|Pieter Eendebak|mock polygon3 in rtd build (#447)
+86dd219add5eb8ca4fd7852bb1c821b611b72e5a|2018-09-08|Pieter Eendebak|rtd info (#446)
+6c600e1fcebffa96dcda3a576088e58e5e5f45de|2018-09-08|Pieter Eendebak|rtd info (#445)
+a6868a674a726ebdfe67ebfe535142f9b557ac62|2018-09-08|Pieter Eendebak|Merge latest dev into master (#444)
+7e40847c790e76b13400c2ea47efb13ed17344e5|2018-09-07|Pieter Eendebak|fix some units in datasets (#440)
+38d7f6eb3fc45f760fae7fc5f7de42c1237796da|2018-09-07|Luc Blom|add notebook for awg_to_plunger (#424)
+05f8c3a425ba526806343c781c4954fa3353287e|2018-09-07|Pieter Eendebak|Fix units in pinchoff data (#443)
+336c00b93c1f8461435f2bbbf7e4daeaf3fe7e3e|2018-09-07|AM|examples/polFit (#441)
+7438176aa24fffe5d9bd875168d0fc0862a2ba20|2018-09-07|JP Dehollain|Fit Ramsey review (#442)
+37c5cbbdfcdd1aa7dacf54da488d0c11b528a226|2018-09-07|Luc Blom|Updated station notebook. (#437)
+aabb24b961006fe15a7719d7be3bcd22ef9a2a5b|2018-09-07|AM|Examples/fit ohmic2 (#428)
+d5e3714efedfce47903e58ff78095c734d010ab0|2018-09-06|Pieter Eendebak|remove gui notebook from jenkins (#438)
+693bf6c271225de598cc34dcdb26dc08b0c8bf4b|2018-09-05|Pieter Eendebak|cleanup algorithm documentation (#436)
+03bf100b21a77edc25a71019d1e86793309f2039|2018-09-05|JP Dehollain|PAT analysis notebook (#421)
+7e0f7fc00f9108e30a6dcf6da35d7961df4288d5|2018-09-05|JP Dehollain|Lever arm / E_c example review (#427)
+0f77cbb134b5932fff54b024964c258ec01de126|2018-09-05|JP Dehollain|RTS example review (#425)
+44a00097a0146d6bf98112154d01ca30df036832|2018-09-05|Pieter Eendebak|move unfinished notebook (#435)
+bf085a543b4a8b96227f6561490cff19e2ad1d1f|2018-09-05|Pieter Eendebak|make sure units are saved and loaded with the GNUPlotFormatter (#434)
+d0af22b55c9695f77c0ef10c61e9590d4b8918ef|2018-09-05|AM|Pinchoff data was not in folder, so added new data. Changed the folde… (#430)
+5d57cbfc743e9a82d6f3d04dbc27ae563e39182c|2018-09-05|JP Dehollain|Spin qubit measurement example review (#433)
+e096ef6e1261bd64890df6f95e8d2e96cd18c66d|2018-09-05|Pieter Eendebak|add videomode to documentation (#431)
+cdacf0ea6f4d99ded1848fe06d592a6558d471ae|2018-09-05|JP Dehollain|Simple measurement example review (#432)
+1f21a12db33bc44533d7eb4960ff3a7782c57399|2018-09-03|Pieter Eendebak|backwards compatibility (#426)
+bd7c5a463684e7e672582125404b53730924682f|2018-09-03|Pieter Eendebak|improve addPPTslide and fix scan2Dturbo (#423)
+a2d95d45cb5a762b5d83c175b334a5e613b6cc62|2018-09-02|JP Dehollain|Autofit to anticrossing example (#422)
+04f469bcc6866cfb0b3eb2accf3496e829e65955|2018-08-31|Pieter Eendebak|[qtt open source session] (#420)
+7621d60ed4f257f410f26f29e73a9a75903702b5|2018-08-30|Pieter Eendebak|add link to readthedocs (#419)
+d805d32a45ba4c5e652f022d434cc73dfea2912c|2018-08-30|Pieter Eendebak|cleanup legacy code (#418)
+8002fc903225850a6baaa3dcbe82e10dea87139e|2018-08-30|Pieter Eendebak|fix qctoolkit in jenkins (#415)
+82b033664d92b516c6a9f68091b219f1bc3b1b7a|2018-08-29|Pieter Eendebak|test branch for travis (#414)
+ded98c067f2ec90e654570b9e492bb459e6b34ed|2018-08-29|Pieter Eendebak|trigger travis (#413)
+d00f27aa24dca23c8e5209e0eac5043f3db102cb|2018-08-29|Pieter Eendebak|fix docs (#412)
+0dd188e87ce97bac4014cc23386893636b28edaf|2018-08-28|Pieter Eendebak|fix version parsing on rtd (#411)
+c2ff7d32efc98c8613cbf5ca6a8e73769077fae4|2018-08-28|Pieter Eendebak|rename (#410)
+f1611a168977a105be6645c2f2bcfe83c9c6c1ad|2018-08-28|Pieter Eendebak|add rtd files (#409)
+c09e6e129be7b0f207bef8a49c6cef8a792dc263|2018-08-27|Pieter Eendebak|misc updates (#408)
+bb3eed5a1f4ca0f540fbdc0ca6688f250d2cebb2|2018-08-27|Pieter Eendebak|Feature new virtual awg (#366)
+9c1a1dda6d72f86389393232326d44ebe8584d9b|2018-08-23|Pieter Eendebak|Notebook for pinchoff (#407)
+c3553db0647e8d0e822f644f1b388bb81ee1b5cf|2018-08-21|Pieter Eendebak|Add option to save additional metadata (#402)
+182880dbb3e15e75fdc35ff62bc61be11f11f4bf|2018-08-21|dpfranke|Fix create_parameter_widget parameter (#384)
+c8b7b4eb3692e6c60f11d18c60b23bf36cad4c6c|2018-08-18|Pieter Eendebak|improve documentation (#404)
+91af81be64f8438ff781146f279d67d120243ab5|2018-08-18|AM|add extra warning for double array names in dataset (#403)
+7fbada41ab8ed49e870bc4aeaf549615e12e22cf|2018-08-18|Pieter Eendebak|Added the parameter invert to the fast_Tune function. The idea is to use it if the sensing peak is a negative peak (dip). In RF readout this can easily happen. The default is False. (#312)
+5fa0b2f03f473f7b1a7934e8e8e21250ca32696a|2018-08-18|Pieter Eendebak|work on awg to plunger code (#328)
+d1679b55cc2f623f283734a184c71ea974a1eef3|2018-08-18|Pieter Eendebak|move testdata into qtt directory (#401)
+843750dec98e749b732ea67e8a3f716211f97dc4|2018-08-16|Pieter Eendebak|clean code of one-dot scans, cleanup legacy code (#397)
+f2ff8dd3c9a5d5772d7b220b010f4e86bfcf930f|2018-08-16|Andrea Corna|Deprecate ParameterScaler (#398)
+9c5ad872ff96cbf7c1e2e51b833bac8e99797882|2018-08-16|Pieter Eendebak|test notebooks with jenkins (#399)
+2113952fdaaa6548dff156c70806db57b74c9a4a|2018-08-16|Pieter Eendebak|make sure deprecation warnings are shown (#400)
+93cd60caea21eb1a829d561a8c0c229990b268d2|2018-08-16|qSaevar|[DEM-320] Adding ZI UHFLI to measuresegment and Videomode (#396)
+4565aa17715997517695f477727d7410cc2b8528|2018-08-13|Pieter Eendebak|update readme (#388)
+ed6b353d71270be0df629eb6a762dd35f75b70b4|2018-08-12|Pieter Eendebak|add functionality to click on videomode (#392)
+1d58a196bba81e65e08e281de7f913cce0857101|2018-08-12|Pieter Eendebak|fix unittest for load_state on jenkins (#394)
+c4c24df850b5a666f0b37c7ed1c68f75a3a5cbd8|2018-08-11|Pieter Eendebak|remove debugging code (#393)
+5d4a80df185d9cf42ebcfd2fbca7f0fe0da7f8c4|2018-08-10|Pieter Eendebak|allow storing and retrieving the virtual gate matrix (#391)
+1e3a1d44a716800631f4847f2a2aa8126d527376|2018-08-10|AM|Determine lever arm and addition energy (#380)
+97aab385bc5c51cf455456fb3a615f2de0385318|2018-08-10|Pieter Eendebak|add date to PPT output of videomode (#387)
+185d71a07ce28dc48a0e97d642fcd27aa66e15da|2018-08-10|Pieter Eendebak|cleanup documentation generation; improve docs (#390)
+17a831d1c87b2a1032448a6c56d057c51d8130be|2018-08-08|Pieter Eendebak|backwards compatible semantic versioning (#386)
+c9ec15ac06ef552068429d19341835ca5d6b4e12|2018-08-08|AM|fix storage of sweeprange into dataset with VideoMode (#383)
+d883ba8475d37ec587bf2a9df0618313c8127288|2018-08-08|Pieter Eendebak|add update_ccmatrix to virtual_gates (#385)
+c3c07f6900638916cf0a23d6d030d2128475e6ed|2018-08-06|qSaevar|[DEM-175] Jenkins container is running as root (#382)
+b4e0b26aaee688a947c630282f9730433d91f6cf|2018-08-01|Pieter Eendebak|add name argument to VideoMode (#381)
+57fdc76fff20483ccc45ea1bf557281c4687c638|2018-08-01|Pieter Eendebak|add more unit tests (#374)
+f095ff01f018b50ee5fb2c794fd4f90935329fc1|2018-07-31|Pieter Eendebak|Fit gauss ramsey (cleanup) (#379)
+8638dd7eeeaea4a224ce43f88d0c3bb82bdd7f39|2018-07-30|qSaevar|[DEM-175] Containers in jenkins pipelines will need to be started as root. (#377)
+610975adb4c89c6bd5d427513b813384662fa7b0|2018-07-30|Pieter Eendebak|add function to calculate intersection of two lines (#378)
+e1bc0878bbedef01e8261f5044c13fde7ab9e983|2018-07-30|Pieter Eendebak|add docstring; add unittest; change order in acquire_segments (#376)
+b3a99885eb22142c1d0895c5213eb8f6fb789de4|2018-07-30|dpfranke|video mode import (#373)
+d74e3ccc36ce5f21f4183aa2af620e53f014b97d|2018-07-24|Pieter Eendebak|misc fixes from XLD setup (#375)
+35daca92bad8eae118085127a6c29d081911f450|2018-07-24|Pieter Eendebak|add unit test; fix some issues; cleanup legacy code (#371)
+b47ef7595b588a6f3b391ec4aad74a0f04365b8f|2018-07-21|Pieter Eendebak|example calculation for bias tee compensation (#340)
+057a0548f4bff42ed0c5888fd4116435ed953c16|2018-07-20|dpfranke|dataviewer: add meta tabs (#368)
+30776f3051791245cbeae8b08a67704224ee6502|2018-07-20|Pieter Eendebak|fix bug in rts plotting (#370)
+185eabc9bf45a818437d98e7266496713ba9822c|2018-07-18|Pieter Eendebak|misc changes to run qtt in docker environment (#367)
+e5be5c12d344f316a64ee5cde21f3ba3f424f4d5|2018-07-18|Luc Blom|Added unittesting to Jenkins files. (#337)
+14846408db799bccbc0363b3927f69e1d2ebb169|2018-07-16|Luc Blom|Merge pull request #365 from VandersypenQutech/fix/scans
+d0c8fd1ac8348c29f0d231dd03593ad9b10dfdd8|2018-07-16|Luc Blom|Fixed missing import.
+fd41a00dbe6f044361303b25bc5dcde75cc6b3fc|2018-07-16|Pieter Eendebak|Update taken_out_of_docs.txt (#364)
+89927fc32ee18356e1522216a13dc9175f3ac12a|2018-07-15|Luc Blom|Merge pull request #358 from VandersypenQutech/fix/pipinstall
+6a15a805965d402a9ac010b4cc67cb06fcaa3947|2018-07-15|Luc Blom|Open README with correct encoding.
+139188505dc153a00e840a6c987162a53f3016cb|2018-07-13|NoraFahrenfort|correct name Sjaap (#362)
+dcf6b4fe09b120ee4a2cd893572e6840c8433716|2018-07-13|Pieter Eendebak|write docs for simulation; fix some formatting errors (#360)
+22d7b856ae028d07ea6f746ee1e3e36ed2b19dbe|2018-07-12|Pieter Eendebak|do not load videomode by default to enable tests
+866273ad74ff90de15faec111774c1935907ba9f|2018-07-10|Pieter Eendebak|bump version
+7991dc570a88fc4657a5c2c52f24118719b7d034|2018-07-10|Pieter Eendebak|add pyqtgraph and friends to setup.py
+a0145d7ca8c017b70422ca25231137a9fcebce7b|2018-07-10|Pieter Eendebak|fix pip install issues
+7f3fb1422fff7e40c263e48def2cbb8ffe71a12a|2018-07-13|Pieter Eendebak|Documentation cleanup (#357)
+8bd4c1f2d45b21ed44b712788ec5012e6cea424d|2018-07-11|Luc Blom|Merge pull request #354 from VandersypenQutech/feat/dotsystem_2x2
+204bf474e2cda0ad6fbc3143da3b33c48dd746a1|2018-07-11|Luc Blom|autopep8
+e00ccdbce25cd23f2300d46122d43e89ee0274c1|2018-07-10|Pieter Eendebak|add docs
+969c2baf2500909c0480435c1f6761395608634e|2018-07-10|jpdehollain|merged with Pieter changes
+c0eacf4bed847c5f5cd5e3c1cbc8698ce85df60f|2018-07-10|jpdehollain|removed la_mat and P variables
+c772772e86e36e8e1215f29e5c2c54b5cb7ffe94|2018-07-09|Pieter Eendebak|clean up simulation code
+ed0986df07569fc1a5342b62ef9b1b6b0a29bda8|2018-07-09|Pieter Eendebak|clean up simulation code
+d2bbadb0735f7c67b1c2bdc1779eacb60f46fb5c|2018-07-09|Pieter Eendebak|add docs; remove dead code
+a8a042605b6a2bfe8a79159c7251c5ccc4bd6e27|2018-07-09|jpdehollain|added a test case
+a5f1bb21d63cea52370be7d0ae460b1a89e4543a|2018-07-09|jpdehollain|addressed comments
+d8b1a24be69798beffc5c1b713f3009139fd53f5|2018-07-08|Pieter Eendebak|add dummy documentation entry for simulation (#356)
+e58130671d31fce9be374694d596a2a6b74374ba|2018-07-08|Pieter Eendebak|move virtualdot into qtt (#355)
+478d0a5d111237a997500cd1ad10800f0ccb70fb|2018-07-06|Luc Blom|Merge pull request #343 from VandersypenQutech/feat/bfmonitor
+f3193ba58bd988e9af40423d6ebb38e4afa32bac|2018-07-06|Luc Blom|Check connection before collecting data from server.
+dddfb995ac064102e7e51f87990b9b8cd66e9079|2018-07-02|jpdehollain|Added 2x2 system and some additional functionlities
+cccc8128cd5e80f867f5f6b9679b585386e3fc65|2018-07-02|Pieter Eendebak|cleanup qtt (#353)
+a2616401ab399e8ff05386173bd9d405786ee2ed|2018-07-02|Pieter Eendebak|cleanup qtt (#351)
+2362990c440c5b9d5a2d924bce9c637a050df69c|2018-06-29|Pieter Eendebak|fix usage of qtt.time (#352)
+73effbb26a3ea6ab2711f48d92693df8e675d9be|2018-06-29|Pieter Eendebak|update installation instructions (#350)
+fad2771b931116dc1d0a1a3fdc3a3ff1b71be418|2018-06-29|Luc Blom|Merge pull request #347 from VandersypenQutech/fix/code_version
+8c770726fd7b910497287add908848242f90ead1|2018-06-21|Luc Blom|Merge pull request #348 from VandersypenQutech/Nora_first_try
+1cb9d04f3861f0d6788ea27e174c22bd08cfaaba|2018-06-20|Luc Blom|Merge pull request #342 from VandersypenQutech/fix/paramscaler
+8894fd21c7671d69995d4ffcebd15562b9323586|2018-06-20|Luc Blom|Merge pull request #344 from VandersypenQutech/fix/liveValue
+5d10adf89e471e2a2486ccfa773a0675cfaf5985|2018-06-20|Luc Blom|Merge pull request #341 from VandersypenQutech/feat/dataviewer_comment
+2f4f340da72743be1d86117cc37b0215e38d776c|2018-06-19|Fahrenfort|Merge branch 'Nora_first_try' of https://github.com/VandersypenQutech/qtt into Nora_first_try
+1b25263b116f42f836ae4049ca800e0ca66c744c|2018-06-19|Fahrenfort|fixed the function evaluateCross also learned how to make a commit
+6f61ddf5bdbf4f0801dfb5336da567796cbf5089|2018-06-19|David Franke|quick fix code version
+8e35789a890b30c542ac4514d09b86039825a854|2018-06-19|David Franke|typo
+f1a158da84362999b248dd49267915fc0c3d8fa7|2018-06-19|David Franke|treat scanjobs correctly
+bb22102f6ed1703e06cdb010d1f543d88a92e88a|2018-06-18|Luc Blom|Merge pull request #303 from VandersypenQutech/feat/add_comment
+7d457d2fa00450bbeb76c5d12ee2e22deb861390|2018-06-18|Luc Blom|Merge pull request #345 from VandersypenQutech/refactor/calibrations
+e9108fb84ead70b953e1348b7184bc5f5545d5ba|2018-06-18|Luc Blom|Fix unittest.
+78fbd3cc8600035edcf4a027c6ccca61662700a9|2018-06-15|David Franke|use get_latest
+5b4cc44e9105e99b44b44940cae2c0dc4c730d1b|2018-06-14|TUD278427|fix typo
+1a639392937b31fa29d4039fe32ba421f21a76d4|2018-06-14|David Franke|do not predefine keys
+a2db7104aaac49dc8f01b5ac322bb6e3a2422bbc|2018-06-14|David Franke|bluefors monitor add params
+32e13f15b8e77f236b5fc8b263517216eb368966|2018-06-14|David Franke|rename to set_raw get_raw
+bbb0732eb4e68401fe25cfb66944d2230a01d58e|2018-06-14|David Franke|improve array info for qcloops
+df99bde0c02bfd7fa2913b3f0e972f391b64a3ef|2018-06-12|David Franke|add comment collumn and preload button to dataviewer
+af9089f767a298ad9ff7b11daa8fa5960770e864|2018-06-12|David Franke|Merge branch 'master' of https://github.com/VandersypenQutech/qtt
+92608c7c3dbe1fdca68114c663f8473c7b0ef4cf|2018-06-08|Luc Blom|Merge pull request #332 from VandersypenQutech/feat/mc_string
+e00b43a1a70a5baf23f320019481189f7eda684c|2018-06-08|Luc Blom|autopep8
+ea750dfd2c26b6a7a1ebdee7f62f913b4f0864e6|2018-06-07|David Franke|autopep
+fd4ca3b80126b64a27dad1cffc8b363ea4b3075b|2018-06-07|David Franke|update menu, fix error msg
+82adcd053df5ee347e6870c16513b5a97e7a9153|2018-06-07|Pieter Eendebak|autopep
+beae6d6490a781e77b1d2ea19afd0803a2215e6c|2018-06-07|Pieter Eendebak|update docstrings; fix help message for measurement control
+9762cc26a1b9b3eb4ff7a5f746d5fab362a0750b|2018-06-06|Pieter Eendebak|small fix
+d72bf374453bdbdff73cf71b3581b21e30880971|2018-06-06|David Franke|add enable function
+b49491312a1967093398caf9be7c03aef4610a75|2018-06-06|David Franke|add set function
+c645786807814d394fa849f5e8d043c2a24de6f6|2018-06-06|David Franke|Merge branch 'feat/mc_string' of https://github.com/VandersypenQutech/qtt into feat/mc_string
+3776707627fc028e543dc0c2cdabbb1f3a838c10|2018-06-06|David Franke|accept text-value list as argument
+6bf820e2bae13456bcedbe635203a4fc331a9f98|2018-06-05|Pieter Eendebak|fix typo
+1e577ecd927aea6221161819faf85cdac21e7a58|2018-06-05|Pieter Eendebak|fix bug
+964aed5c6dc9b4df0e0c87523132d431ed0dc6b0|2018-06-05|Pieter Eendebak|adapt to qcodes upstream
+25b060e59babd5ba5e601547e20686adaed0d259|2018-05-01|Pieter Eendebak|add get_latest_dataset and add_comment functions
+95f809266de669e399e06226cd3cc654fe1b1004|2018-06-04|Pieter Eendebak|add example for bias tee calculations
+90678b41ed71ebc4a580024ef0ad85bab774f956|2018-06-03|Pieter Eendebak|update documentation (#339)
+9e03c624e42549ccc489857236ee3c24c6999ab4|2018-05-31|Luc Blom|Merge pull request #338 from VandersypenQutech/fix/sweepandpulse_bug
+fdd5c5944e44e6815755b4a664018fb4ad4709c2|2018-05-30|jpdehollain|Fixed bug in sweepandpulse function
+6ed2ab91d3224751f6cbbecf7d17a1f26a6f268d|2018-05-30|Luc Blom|Merge pull request #334 from VandersypenQutech/feat/contrib
+ca2d867a6699a0bf046300c6ba23b3a162b75b36|2018-05-30|Luc Blom|Merge pull request #335 from VandersypenQutech/feat/Jenkins
+a44f69bbfc76a32b49f3177bd128b98d052b2e76|2018-05-30|Luc Blom|Added basic Jenkins file.
+e1d5bb19771644ae8598c8000ab1d3f6a4b08c07|2018-05-29|Pieter Eendebak|reformat
+92b14d10c48084b24788596cae3521c94a246db2|2018-05-29|Pieter Eendebak|reformat
+14a0820dd3558eb3155b87e96c2f23ad3de0b1a1|2018-05-29|Pieter Eendebak|add contributors
+f7b0e4e9eaf7513d8a1af25cb231300273490f7a|2018-05-29|Pieter Eendebak|improve connection error message
+93e7eca4b2135c96f98d356a17c3da8cc4dd1c04|2018-05-29|Pieter Eendebak|Feat/serialization (#333)
+b841acc3b9552863529810de53c6b1aaa7ca83ee|2018-05-29|David Franke|Merge branch 'master' of https://github.com/VandersypenQutech/qtt
+33a1b6d6ea2abab421ac5799e70faa05d8512a5c|2018-05-29|David Franke|add string live value to measurement control
+0c88703cbcfa37b721a61a5b39c81c4c7ca967c7|2018-05-29|Pieter Eendebak|clean up refactor
+e8c3140143169f443eea128190c1739da6ad5e71|2018-05-28|Pieter Eendebak|refactor calibration functions
+50398b3dddec64dc3498c993e2c2319b95b2a85d|2018-05-29|Pieter Eendebak|Refactor/calibrations (#330)
+6633b4069561aea1f7cc36b5cf9633ffd7fe7122|2018-05-28|Pieter Eendebak|functionality to determine awg to plunger (#323)
+a468ccbb5afe8420bb9281e20e153b14ddcae921|2018-05-28|Pieter Eendebak|update documentation for calibrations (#327)
+4161e52753f8c48460cf8443cdf5417dddf2350d|2018-05-24|Pieter Eendebak|Feat/docs7 (#326)
+f8b26747bd61ca8186c40253a132d3d543d2c7f4|2018-05-23|Pieter Eendebak|misc fixes (#325)
+fe37b7005e7bf6c939e70b10a762de6dae067250|2018-05-23|Pieter Eendebak|fix typo
+ad7d3265b40b07fd7e188eb1c595e90fe1723177|2018-05-22|Pieter Eendebak|misc fixes (#324)
+3c552ccaecb05a54d83e8452456badf5d3eaa41e|2018-05-18|Luc Blom|Merge pull request #322 from VandersypenQutech/feat/docs
+f90fcf22495315c5130554e8a5a4f30aa3422450|2018-05-18|Luc Blom|Merge pull request #315 from VandersypenQutech/feat/pat2
+abdb0ea4de1e070c64adb5ffbd1bf1893ce9bd49|2018-05-18|Pieter Eendebak|feature: timed setting of gate values (#270)
+a189250fa2f1ee002dac00171bc2f5f411147d1e|2018-05-16|Pieter Eendebak|add package
+5143adf7049e57b53a3bf1347b28facbbdf31e29|2018-05-16|Pieter Eendebak|update install docs
+14597197ebed3d25299bb088f3bbd580e314bf21|2018-05-15|Luc Blom|Merge pull request #321 from VandersypenQutech/fix/tools
+9a9661e38d3906fee0efe5902ffff6e306fc63ff|2018-05-15|dpfranke|one line fix tools.py (#320)
+71f252ceca0b88c3903a44efcaadada1d1da505e|2018-05-15|Luc Blom|Fixes in tools and scans. (#313)
+72a97f6a7cdcbf5f59f02020caded94231c744db|2018-05-15|David Franke|bugfixes
+be1dd5920c1755b5e5ecf8f0835af61b15e283de|2018-05-15|Pieter Eendebak|add missing imagetools (#319)
+f0ddf620aa150147f31eeeb8ea9b1edfdfc02f7f|2018-05-14|Luc Blom|Merge branch 'fix/pulse_gates'
+d9ec5cefe30baa63e2142363f601860fd302c860|2018-05-14|Luc Blom|Merge branch 'master' into fix/pulse_gates
+294d1987ec3a8a636dd3025659b6c4bdd8cc796e|2018-05-14|Luc Blom|Resolved conflicts and merged with master.
+5872aea148ea11ac0fb73dba8b3dbb9f08cb0332|2018-05-14|Luc Blom|Merge pull request #318 from VandersypenQutech/fix/rts2
+66b4cbaf389fc8a02d2d93edc72262ecb3393271|2018-05-14|Luc Blom|Merge pull request #307 from VandersypenQutech/feat/single_shot_readout
+ead4f09b4ecd153b6b77df3c4a0ea3869b1afd2c|2018-05-14|Luc Blom|Merge pull request #306 from VandersypenQutech/fix/scans_with_pulses
+1133c03e0a0e62e70fc3e25027ce0b0add2253e2|2018-05-14|Luc Blom|Merge pull request #300 from VandersypenQutech/feat/load_dataset
+272be1c45216c9bc55d9be5c65aa58169d1bc6eb|2018-05-11|Pieter Eendebak|add fitting exception to rts code
+95bdb7381bebf9bc95be6d9a3f6b416e606f7872|2018-05-11|Pieter Eendebak|fix legacy code (#317)
+29126516e376088d4ae8bdd5f8b3d1fc6a4e929a|2018-05-11|Pieter Eendebak|autopep
+742459aeb6c7fac2f4e78a52f33a17afdb562844|2018-05-11|Pieter Eendebak|add hickle hdf5 backend as optional loader
+b8374aabeffbbfd959841e85a8cdbf72b4ad8978|2018-04-28|Pieter Eendebak|use load_dataset in DataViewer
+aeb39a80885a20d340e194dfd5755f119176a22f|2018-04-28|Pieter Eendebak|add load_dataset function
+8af3f685109ce674a0f67050a8644852f0fa70b6|2018-05-11|Pieter Eendebak|clean up legacy code (#316)
+05f4dec6d2d974b0cc908de88763d97acb1c0efd|2018-05-09|Pieter Eendebak|fix imports in notebook
+a489a1e99f48ccd1ab72d8ebc0c3b056febdfd3b|2018-05-09|Pieter Eendebak|update example notebook
+15a05b795f97759e8bb13cbd539197683dc23aeb|2018-05-09|Pieter Eendebak|add example data
+4c51957bacfeff28cbd0f815b17dc93d79b93922|2018-05-09|Pieter Eendebak|update docs
+90405c4a1f29da600b3b495b1c069b3249c1a63e|2018-05-08|Pieter Eendebak|add PAT fitting code to qtt (#298)
+a77b6adeeb80f1dd860b695f8479f2c01b96e0ce|2018-05-08|Luc Blom|Merge pull request #305 from VandersypenQutech/fix/pulse_functions
+da7572aaca1c5eafd52679c3ae301ced98a6e549|2018-05-08|Luc Blom|Merge pull request #304 from VandersypenQutech/fix/makeDataset
+7d1ac32c08719f1ddce2068d7414ecad431478ee|2018-05-08|Luc Blom|Tiny update.
+dca37f48fe9bb6f90e29e5abedacd7ef71c60821|2018-05-08|Luc Blom|Updated module import.
+7eeb32eef3bbda4e28e424dd1c9cf7f7f271fb91|2018-05-08|Luc Blom|Merge pull request #302 from VandersypenQutech/feat/startzero
+3ab232dbce31b6b74eff5340c1e4aacdc544d669|2018-05-08|Luc Blom|Merge pull request #309 from VandersypenQutech/fix/packages
+4253eef319239bbe01f9eb231e28f9bfd199ad31|2018-05-08|Luc Blom|Merge branch 'master' into fix/packages
+8209093926c51e96751bc690421159d79918464b|2018-05-08|Luc Blom|Updated condalist.
+1c480e35118e01aab519a40cf77d1a6fe0619eb7|2018-05-08|Luc Blom|Remove hickle submodule.
+837e7af678033e8bf57d7dfd589359bafcf9edb7|2018-05-06|Luc Blom|Missing qtt.tools.diffImageSmooth in files.
+cb344a933297f3b7ce2efd83b9d9300f104980dd|2018-05-06|Luc Blom|Merge pull request #299 from VandersypenQutech/fix/legacy
+611294261facfca2e13d9f39e342c7f0a747abcf|2018-05-05|Luc Blom|Merge pull request #290 from VandersypenQutech/feat/codeversioning
+9e9d5fe077c88d1c04ae1c256097bca49265db66|2018-05-04|Pieter Eendebak| remove .corr option (#311)
+6aacc0d8ec95395ca718686e03cc53444a39f5b4|2018-05-03|eendebakpt|In the function pulse_gates the voltages where reset in such a way that the pulse sequence was centered around the last point of the sequence. This is made optional with the argument reset_to_zero and default is set to False.
+4d941826da952a39843b41f150f7ee2afcfe7670|2018-05-03|Pieter Eendebak|fix circular references
+43a8258449b6f2d0f598b45f88deba8e27ccba3b|2018-05-03|Pieter Eendebak|import ttrace even when pycqed is not available
+a7e7feb411985c35046b6ab419d16c2edf533b75|2018-05-02|Pieter Eendebak|bump version
+71a71d42f534bff212538da173f6fa526165cf1f|2018-05-02|Pieter Eendebak|fix issues with packages
+79838c2e0be33e9ff4737b2f9a0f07dd0843d90c|2018-05-02|jpdehollain|Single shot readout acquisition
+97ce4de105d6df71dc4d97e613ef06864d7b0415|2018-05-02|jpdehollain|Extra pulsing functionality to fast scans
+5b2632626b6ba84b6be423098b7b5e4860db50b3|2018-05-02|jpdehollain|Small fixes to pulsing functions
+254cb6f5504f9c9a8689801f415dc82b2b7a96f7|2018-05-02|jpdehollain|Small fixes to some makeDataSet functions
+5cd8730ea3f04ec2e4c0834463ee7498139b36f9|2018-04-30|Luc Blom|Merge pull request #301 from VandersypenQutech/fix/legacy2
+5b11be9aa218e1bee7aa93168603095749befa44|2018-04-30||Remove qtt_toymodel from conftest.
+2a03ee0c65b9d0f34f2f7df36a83fdc2cd123c9d|2018-04-28|Pieter Eendebak|by default start sawtooth at zero for 1D scans
+1a0b36e4247eb2f5c1d66fb5913ffc6c79f4dfed|2018-04-28|Pieter Eendebak|remove legacy qtt_toymodel
+24760bf5f8f5607594f6e28ec3d29035189da931|2018-04-27|Pieter Eendebak|Merge branch 'fix/legacy' of github.com:VandersypenQutech/qtt into fix/legacy
+3b0c32ee7e89a4faf2d85eb7d6ab02044a0e6059|2018-04-27|Pieter Eendebak|clean up code
+bea038f0ebfedc731103b6564fdc59f1f9ae98cd|2018-04-26|Pieter Eendebak|deprecate more functions
+ecc9ea2b010ed8b48f1ae6a0282e84f4c84b7543|2018-04-26|Pieter Eendebak|clean headers
+84fe0fc2be17ecf68d07adf213b383b3d3232da9|2018-04-26|Pieter Eendebak|add tests to qtt.data
+e2283194acdace202ab53f75062255e7ff7597ff|2018-04-26|Pieter Eendebak|remove deepdish import
+08bee7a06f55206175c82701d15adeb7885e2ba3|2018-04-26|Pieter Eendebak|remove dead comments; add test function
+9c19d014685e0548fc02379dae47f713d31dd090|2018-04-26|Pieter Eendebak|deprecate old loadDataset functionality
+e7fdba657a72371d0cd1c571b36b6f04ee632e62|2018-04-27|Pieter Eendebak|catch warning in RTS test
+c8dd19af6b96138719567b3fb95c8fc16014953d|2018-04-26|Pieter Eendebak|deprecate more functions
+6334c89396b284be425326c848bfcf001c87a709|2018-04-26|Pieter Eendebak|clean headers
+e0f8c7b046d0bb3fc3d1407a55e418e284c85ec1|2018-04-26|Pieter Eendebak|add tests to qtt.data
+cb6a05437d66cbea8c9e3cbd64e25c5e3bfc2608|2018-04-26|Pieter Eendebak|remove deepdish import
+ec9d3244886439d2c39d905490e869a1e37c2978|2018-04-26|Pieter Eendebak|remove dead comments; add test function
+f68ee4934e29d6c49390f327a539fcd3197c7f55|2018-04-26|Pieter Eendebak|deprecate old loadDataset functionality
+8b1cedc1e24bea2606bef5835c8c3a58c704a363|2018-04-25|Pieter Eendebak|autopep
+7f2ca6e4778e77101f6e199136927a08451e0d23|2018-04-25|Pieter Eendebak|update test
+102364427e054782f1fc3ee934ad1365e17bca94|2018-04-10|Pieter Eendebak|add code_version to scan metadata
+9fb3975c0df1e84d9a52a3d0c96e6fb661d99811|2018-04-25|Pieter Eendebak|fix rts test case (#297)
+c4dfbb6c36eab022954198b73219fb9c048dc9f5|2018-04-25|fvanriggelen|implementing robust cost function (#287)
+3e1c69cc50b9b914086e069534687d311636b92a|2018-04-23|Pieter Eendebak|make parameter parsing more generic (#296)
+e98e3952328efe6dd50d24d2bb5eebfa19b818e4|2018-04-16|Pieter Eendebak|misc fixes (#295)
+bc381017188a76ddd107ea36ce53483b3863ddd3|2018-04-16|Pieter Eendebak|update to get_dataset in videomode (#294)
+1dc3c07d99db5f068b01cc6b259b719b64fabc79|2018-04-16|Luc Blom|Added repos, packages and python version store function. (#285)
+423ce83131f924009b1cbe447f5ae67d9a35b224|2018-04-12|Christian Volk|Fast sensing dot tuning using virtual gates (#279)
+d41b69e138593d526e27f7b7d98bcac95fe27da9|2018-04-12|Pieter Eendebak|fix scan parameter handling (#292)
+1b662a5ce3337a62a75ba939e6d453c72e127407|2018-04-08|Pieter Eendebak|simulation update (#289)
+7689860fe133b79279d459876f56996eb57efbd9|2018-04-05|Pieter Eendebak|Feat/anticrossing (#286)
+7d0e98240bd53d550c4b6afc4419bcd1d4d4d595|2018-04-05|Pieter Eendebak|clean up legacy code in pgeometry; fix default argument type in robustCost (#288)
+a122c5a69b307e97aca49a86b893100e2f2b1c98|2018-04-02|Pieter Eendebak|modify robustCost
+4b09a784833f2e62f96858b5b782f653c9c94b9f|2018-04-02|Pieter Eendebak|fix for backwards compatibility
+21627dfb14c6e78a1000530f5956074cbb0127fd|2018-04-02|Pieter Eendebak|fix typo
+3a66aed5a09fbc2b804106692b4509b497840dd1|2018-04-02|Pieter Eendebak|Merge branch 'master' of https://github.com/VandersypenQutech/qtt
+702c49d4eff59d895a8673d7d655c4bf8568f8f9|2018-04-02|Pieter Eendebak|add automatic detection of threshold in robustCost
+7a17cbdf6d946e9bc82fc17a3b169f6a6c73f64e|2018-03-29|Pieter Eendebak|fix bug in simulation code arguments
+9d0f50e9956e0082c72959378c1c45bd4120042a|2018-03-28|peendebak|add code_version method (#282)
+d23f1442f73a5637d046cabfeaa963e08f216a83|2018-03-27|Pieter Eendebak|update qtt_example
+3c17e3bc3cfe09141f5fe7ae1fa921726f645d72|2018-03-25|Pieter Eendebak|add static methods to videomode (#284)
+f6f5bd47fd73ca7bc003a440a66981547d65d3f4|2018-03-25|peendebak|fit ohmic scans (#281)
+0487f1f3123a3273187440343b19124fd11a1744|2018-03-23|peendebak|Feature: dataset centre (#283)
+6f4ce10d48ff0d31f16aa3d5b5e29a56dc7f57ee|2018-03-20|peendebak|fix bug in videomode simulation code; update install documents (#280)
+57707f346b3aacaf857210c8a0b416eb00ee78d4|2018-03-16|Cumulonimbus Calvus|Merge pull request #274 from VandersypenQutech/test_rtsanalysis
+7cfb082d9591f4c6ca1811f37340aebef0fb6461|2018-03-14|peendebak|Cleanup sensingdot_t (#278)
+140f148c46fd95156655a17ff83504ef1fda8866|2018-03-13|Pieter Eendebak|fix docs
+10fc92a0b9a6fb3bf19beb315f8c5d9398db47fd|2018-03-13|peendebak|videomode with both raw and processed data (#277)
+0ac83d53dd9ef17f13a3588c1ad3d944cd427e71|2018-03-12|Pieter Eendebak|add videomode to qtt_example
+c0433e6ddb726d7aa176a5339784abb50c2c3b4d|2018-03-08|Floor van Riggelen|last changes to the example, should be ok now
+37bb382fb285dd292dfce369df9868977d6e5822|2018-03-08|Floor van Riggelen|making it optional to send the figures to an powerpoint presentation in the tunnelrates_rts function
+7ef639f553405c4ad8abad71c2333cc539197150|2018-03-08|Pieter Eendebak|increaese number of data points; add matplotlib inline magic
+5bdc95c35bd7e6d393804c4e871ad9d380797fdb|2018-03-08|Floor van Riggelen|adding an example for fitting double gaussian, exponantial decay and rts analysis
+74a98dc121b728ac3ea0b3a640572d95c6a6bbe9|2018-03-07|Floor van Riggelen|changes based on comments
+a14db08650cbbb430f34724f58b319d520ccedab|2018-03-01|Floor van Riggelen|adding functions for rts data analysis, double gaussian fit, exponential decay fit and addition line fit
+989598ecff066fb1d05fe67b327d3bab7d30f92f|2018-03-11|JP Dehollain|Make acquire_segments function more efficient (#273)
+d9188e8ec25c7038057e51a8e84134e426486561|2018-03-11|peendebak|Restructure simulation instruments (#276)
+0714059e93a1a4fa87752753e8b1d7cb10c4a0f0|2018-03-06|Pieter Eendebak|update install docs
+18f25000ddab963fc540f32d332b7d31a158d12b|2018-02-28|Cumulonimbus Calvus|Merge pull request #272 from VandersypenQutech/fix/sweepandpulse_bug
+c483231257e58d4d70c27dfbf4ca9e73b36d5d61|2018-02-21|jpdehollain|added some remarks to the documentations of pulse_gates and sweeandpulse_gate
+205c6254cd001ea7eabf9360ad1de0627faf4836|2018-02-21|jpdehollain|same fix for other relevant functions
+d477dcb24951171d3520e149edc512adfbd58044|2018-02-21|jpdehollain|amplitude check bug in sweepandpulse
+fefe92821f7f66e14173ad2637e65613774fec29|2018-02-20|Pieter Eendebak|hotfix
+584d56b7ce9349c24dbbffb99f8be0ec946dbca1|2018-02-19|peendebak|Fix/crosshair (#271)
+900134cba1c015f5bd0dbe95ee2e661df25202ca|2018-02-18|peendebak|cleanup code (#269)
+d66f2354574b8aedf95373c5f7f26ac1e6114c2d|2018-02-15|peendebak|update documentation (#268)
+a126f3cb62ce2752a553b0a5b7a64e9244d67264|2018-02-15|Christian Volk|Functionality that automatically removes slow gates from the sweepparams (#255)
+5700d6c60e8fdda2a72bfd64d106a3d659842079|2018-02-15|peendebak|clean legacy code (#267)
+381450f3c96f509676470b92709285b72d28a137|2018-02-10|peendebak|cleanup legacy code and improve docstrings  (#266)
+1264133dc3234b835ef2f05fee1142779af59d49|2018-02-10|peendebak|add get_dataset function to ttrace gui (#264)
+697c23664316aa4215d6d450a67d081398613f9d|2018-02-10|peendebak|add function for plotting cc matrix (#263)
+fe9594980db44ae793d1b885a6cb58cf837ee82b|2018-02-09|Pieter Eendebak|fix future warning
+982e296b42357a329eba62fe48ab22f495114289|2018-02-09|Pieter Eendebak|add warning for python 3.5
+c1b63a030231f29f15152964cb20ad7ecf4f450d|2018-02-09|peendebak|clean docstrings; fixes to documentation framework (#261)
+c8018598dd5bd54070cb2fd706176650e12074fa|2018-02-09|JP Dehollain|smoothing filter option to pulse functions (#258)
+749d8c90ea38e9e0ecb5c5144c8e73b012ed3cb9|2018-02-09|peendebak|Fix videomode 1D with virtual gates and some misc features. (#254)
+e4f314fbc93c705d0def79864b47f58b071e7aae|2018-02-09|CJvanDiepen|Add nsegments to metadata of acquire_segments. (#260)
+59ef8477babf6dcc790444e42a321e241087e599|2018-02-08|TUD278395|Merge branch 'master' of https://github.com/VandersypenQutech/qtt
+0a35ff56203ef0d3450af8aac26baf1323816557|2018-02-08|TUD278395|Add minor comment in virtual_awg.
+c76ce27afc14664d0628fb720f0cd7f85e439d9f|2018-02-07|JP Dehollain|small bug fix (#259)
+2145121b4ad6ad7d8dda7bbb7dfcdeba7a0db542|2018-02-05|peendebak|Tmppte (#257)
+92089c4770b0016847ca417add64016b95ec1656|2018-02-05|Luc Blom|Merge branch 'feat/simple_acquisition'
+b8e3e280297cef60c657c097f49eb13cce7ab550|2018-02-05|Luc Blom|Updated comments.
+c90dd1f2a9dd45d75d16f5d62199af629c4088dc|2018-02-05|jpdehollain|suggestions by Luc
+cf5537903c4f08eac47cdcfe788a085d797cd83a|2018-02-04|Pieter Eendebak|fix missed conflicts
+ba95f8ae00975554899266f2cb35b5324f89368b|2018-02-02|jpdehollain|metadata issue + autopep8
+9bcebe666e228c66d96a43a802d5d73547068ab6|2018-02-01|jpdehollain|changes suggested by peendebak
+923c6a170ad2c88de83b62a6ed6e5c3faecacdc0|2018-01-31|jpdehollain|finished debugging in 2x2
+4648e52f8c2bebbcc8afeb17baaa10197ac93a22|2018-01-31|jpdehollain|added makeDataSet2Dplain to use in save_segments
+d402de9f093473072ed0f9d233014baa714eb671|2018-01-19|jpdehollain|needed process flag in measuresegment
+33894814616698a3ea32d866693c923d63343add|2018-01-10|jpdehollain|save_segments ready to test
+6075e315a2daf7c9739e72a47ce6486165d0145e|2018-01-08|jpdehollain|documentation
+31e2e887d0f7d341b501a04568b63af6cac3663d|2018-02-04|peendebak|start framework to automatically create documentation from the code (#256)
+405cd2126a297890afb92c5e94e617e9c1402973|2018-02-01|peendebak|add crosshair option to videomode (#252)
+9313c1d83145ed2d4fb84501a89816ec613bbd6a|2018-02-01|JP Dehollain|2 bugs in sweepandpulse_gate (#253)
+ccc9b64fefad450cfd2656bac761aa16f609c6e5|2018-02-01|peendebak|fix division to float
+33cbf98b934c076004a1c0376527a6e0c7016799|2018-01-28|Pieter Eendebak|fix error when stopping parameter viewer (#249)
+8feea0078b58f20861774c9492bca4c147fbd041|2018-01-25|peendebak|fix for init of averaging mode (#248)
+3cefe263c7d99de75497d1150b069d7d1cfa0842|2018-01-24|peendebak|add 2-electron fit functions (#242)
+046e3a1884964509bbf7d272d2c3a6832c462aae|2018-01-22|peendebak|fix for get_dataset (#247)
+aefa9fd18b6d6d43da1ce6cfaa9484d02a80714f|2018-01-19|peendebak|add clockbias option (#245)
+6b300ab6976fce31338b076b88d4cdbc29401e04|2018-01-19|peendebak|improvements for plotting ttraces (#244)
+98ef79f47e0442bfb816347071c62b8cabb1bd37|2018-01-19|peendebak|fix for videomode addPPT (#243)
+8385cb0015abda27645a33eb49845656bf604562|2018-01-18|peendebak|fix for awg sync (#241)
+344f5c8edebe0ba9eb738441a518b23643088259|2018-01-18|Christian Volk|hotfix for ttrace
+c50667596db826ee15cd52681c5cd8bac507ce4b|2018-01-14|Cumulonimbus Calvus|Merge pull request #235 from VandersypenQutech/fix/vawg
+4edd596437ad9cb7b14d97a86396857b559b81dc|2018-01-12|peendebak|add memory function to pgeometry (#239)
+f994d87cbc36e920bec85df8613e09ad7665c8e8|2018-01-12|peendebak|bug fixes for ttrace code (#238)
+10d6f2d24fb17b0f41cafdaa751018516ba4cbbb|2018-01-12|peendebak|small update to plotting (#237)
+de03edbbed77877ecc8717e22e580f649920a1ed|2018-01-12|Pieter Eendebak|fix circular reference
+712a9d767e5d3985a82e6336d247d68f1c339bbc|2018-01-12|peendebak|small cleaup of diff dirs (#236)
+7a0acfc277c23b7d12ab75896d0112dbf30c2d4b|2018-01-11|Pieter Eendebak|fix for virtual_awg with just 1 awg connected
+2050e93ccf8f5bd4a8f9d5170453e53f92194ea6|2018-01-11|peendebak|fix ttrace plotting (#234)
+c4107a7ad3582846d8bd65d8a7ea354c511027b8|2018-01-09|peendebak|small fixes for tunnel coupling branch (#233)
+b7bffdfb0d04fb78b347fd7adf20f7abeb616e47|2018-01-09|peendebak|add scanjob and dataset.io location to notes (#232)
+1d498ff2ce6ca4d56772b6e27226d4cf95b1be3a|2018-01-09|peendebak|fix length of path names in vector scans (#231)
+6d103fb2a26bb89930a240c112ea29b335e95a8b|2018-01-09|Cumulonimbus Calvus|Merge pull request #230 from VandersypenQutech/feat/FridgeProxy
+2ff05044b83ed8de7318fa2638660d9c605a553a|2018-01-09|Luc Blom|Added start/stop InstrumentDataServer for triple_dot monitor.
+c3c94554b7abb4a84c230364730f332e97285e85|2018-01-08|peendebak|fix spelling of meatadata and make metadata non-editable (#229)
+08713e0c0495b0f4c788b31b4e28d457d65d9b1a|2018-01-08|dpfranke|call super init and you raw get and set (#226)
+2ba61a15b2f6861fe6f174773f360c54a06960a9|2018-01-08|peendebak|fix typo (#228)
+3003418a2d49fd0aa8dba59c5c16e09913e59249|2018-01-08|peendebak|Fix/multi parameter (#221)
+cf46c63b22bbe966823d3d68bacc3ac77ed10284|2018-01-07|Pieter Eendebak|make code more robust
+81affcb404c5c894fbe110504654b664ad64c40e|2018-01-05|peendebak|implement averaging for ttrace (#224)
+026211bdf42b56c3993d0bed7845a94a9676494b|2018-01-05|peendebak|add convenience function for virtual gate matrix (#225)
+667d236933a83fdc1da1ffa6b66de3328d8fb77c|2018-01-04|peendebak|create add PPT button for multitraceplot (#223)
+54d9ef5ae1564285281b42a0fa23d59716e2c109|2018-01-04|eendebakpt|Merge branch 'master' of https://github.com/VandersypenQutech/qtt
+fc7b2a0d208b964799df42282c50d8b82c25570b|2018-01-04|eendebakpt|fix bug in ttrace
+10f95ae6c6c167a3d058b610ccf6a7449d476e13|2018-01-04|peendebak|fix videomode add ppt (#222)
+6bce37fd65f5ab995894f83220f4809f4c06fa73|2018-01-04|Luc Blom|Merge branch 'feat/FridgeProxy'
+4b1a1dabd2e6d1d926fe14bdba52ebc824ae8f3a|2018-01-04|Luc Blom|Fast forward and resolved conflicts.
+fa9d7c5fd7192146dd5feab825a20650183e29c3|2018-01-03|Luc Blom|Merge branch 'hotfix/combiparameter'
+85a3f11abe1e87f95a564ed0ac3e98b65b7e81a9|2018-01-03|dpfranke|fix bug with label and unit parameters
+48ade42a06d356c88418e2ac4bc5a82678104e35|2018-01-03|Luc Blom|Added status readout to fridge proxy.
+87afaec202ff12b86486c6f4da3052fcb9a01779|2018-01-02|peendebak|fix virtual awg and addPPTslide (#218)
+04ee7a783b2f62283e80da555bc7f9e9ac6b64df|2018-01-02|Luc Blom|Added status control.
+775ad26ba310878de1cc8763fb69bb4ac79ceef7|2018-01-02|peendebak|fix get_dataset for videomode (#217)
+a0793d2d93934700774154f18e4962bf78d64b27|2018-01-02|Luc Blom|Updated fridge log not found.
+7c205329165b241e3846d7a8cc9f035da2a12498|2018-01-02|peendebak|fix ttrace for 8dot (#216)
+824541992144eb827b929b2d9d3b802f6ddfc98d|2018-01-01|peendebak|allow videomode to plot multiple sensors (#214)
+1fe32b02076f49cfb6fc7bbe57a96b8fb6c30b0b|2017-12-30|peendebak|fix plotting in onedotGetBalance (#215)
+cfc009231054a0439ccb59f05e9f542dcd09d7e2|2017-12-28|Pieter Eendebak|Cleanup legacy code in virtual awg (#213)
+87d72189c281fd080c3aeb1d1ac9a300d0cef3b2|2017-12-27|Pieter Eendebak|add datestring function
+b797d9b766f578f6a1829064f999397bd5fc5e2d|2017-12-23|peendebak|add extra check on modules (#212)
+0efe6b2d998f86effd0dbcb2c08778cc222a169f|2017-12-23|peendebak|Feat/fridge proxy (#204)
+36a2d687276e2f3c608a4cf04c916346820938a1|2017-12-23|peendebak|add function for subpixel maxima (#211)
+e8a66cb5eff3f544c57312dedd78f01ff507ac1f|2017-12-22|Luc Blom|Merge branch 'fix/scan2d_updates'
+19cc8b25d82eda5639f0c555ac5ba248c83cff2d|2017-12-22|Luc Blom|Merge branch 'master' into fix/scan2d_updates
+89b39c530512e2f8bbba6a01dd3bda6108fc84ed|2017-12-22|dpfranke|add metadata treeview (#210)
+9e34918d56b85264d2da9fe5bba214d24dc9d77a|2017-12-22|peendebak|Fix/videomode virt (#202)
+e8e53909319cc6828218726f6f5da91c9aedbb0b|2017-12-21|eendebakpt|Merge branch 'master' of https://github.com/VandersypenQutech/qtt
+871341a72599eed4ad697f958dfd01acf6b276ee|2017-12-21|eendebakpt|update INSTALL.md
+543d3797b9bfda30bb5159fc60c8aef195647d33|2017-12-20|peendebak|fixes for cc measurements (#209)
+1bbb92cb351f591539106991eb384cae5b47cebf|2017-12-19|Pieter Eendebak|Merge branch 'master' of https://github.com/VandersypenQutech/qtt
+8370a4b188d54d6cffbac53b7dd60fb602d02cb9|2017-12-19|Pieter Eendebak|update docs
+4f89dc9dd8225a72c5f2c2fa03f42bf3a1fdc15b|2017-12-18|dpfranke|Feat/dataviewer (#207)
+aab1f0a8932594431d5549cb3b2f5fe7510b83b3|2017-12-18|JP Dehollain|some previously missed updates to scan1Dfast (#196)
+11939a1907255be7ce699d6bf3608ddeb912751d|2017-12-18|peendebak|example for PAT hamiltonians (#201)
+da99e54b2272a5a37b581fc9673de54092cafbc3|2017-12-18|Pieter Eendebak|Merge branch 'master' of github.com:VandersypenQutech/qtt
+c9b85d669c65c65dc8b3421b912f587582f9ab14|2017-12-18|David Franke|update and write per line, not time
+2a1906bab8109f984811b87a28f20590699a6a7c|2017-12-15|peendebak|fix warning in VectorParameter (#206)
+8ad586d5623c5e2dc29a8eb31fb5d0130be7f72b|2017-12-15|Pieter Eendebak|fix warning about get in VectorParameter
+58d3b8f387385c8c2edf7ad4476d45f5555286b3|2017-12-15|Pieter Eendebak|autopep
+cd25b0fd7df68dc0ab530443d2d75d2011eaaeca|2017-12-15|peendebak|clean legacy code (#203)
+4bc6c3fe3b3bd601bf804e2b6421e33034ff60df|2017-12-12|Luc Blom|Merge branch 'scan2D-changes'
+0a7593aad3e2c0d7a03ac68bc8037c428046ab42|2017-12-12|Luc Blom|Merge branch 'master' into scan2D-changes
+d567f587891e579ed84c2283f40999a8313448f0|2017-12-11|Luc Blom|Small aesthetic change.
+b16abcda9116b83d49d6fea04c784fed4de851a7|2017-12-11|JP Dehollain|made the sample rate check for digitizer more general (#200)
+1d4c506f942838fffee6a72ce84c6e003f149c83|2017-12-11|Luc Blom|Changed readfile method in BlueforsMonitor.
+85c348dbba3537b7dc04e5f040b4c22b2d607b46|2017-12-11|peendebak|hotfix (#199)
+185215f1d39d6891bb84a613af953cf795dc65e5|2017-12-10|Pieter|fix imports
+4f381e7de8d105724096b274e1efafb989665752|2017-12-10|Pieter|autopep; update check_version
+6df7c1b3ee46656f0dd56dcfab7af1395c90c242|2017-12-10|peendebak|small fixes (#197)
+ce2d4ef36d5b4b5fb8fb3be650d07bde8c496612|2017-12-08|dpfranke|dataviewer_update (#187)
+a31586d0ea1684cfcf81cd2d8be35010f441c2c9|2017-12-08|peendebak|small changes to the code (#195)
+3f764bf1171f845146166d1fb70abe8120eb286f|2017-12-07|peendebak|add scanjob to PPT notes (#194)
+40cef9c712764b8470edff48611c9df004d58254|2017-12-06|peendebak|Feat/chargesensor part 2 (#193)
+8efb1c3df811f2f8286664615a6fa04098e7c21e|2017-12-06|peendebak|Feat/chargesensor (#192)
+0684c6d5b3b0f100ff494af1d611e919852b73c4|2017-12-06|Luc Blom|Added some documentation.
+b62f69169ea93b9b16ccdc68a3a939278e49abad|2017-12-06|Luc Blom|Updated datetime of quantities.
+49edfae404696e07a986d13be62405dbe435e431|2017-12-05|Pieter Eendebak|hotfix
+f81ebde4556699bad43e57aeffc6c0a7fe229691|2017-12-04|Pieter Eendebak|fixes for scanning code
+2ac8c05934b254d7493a1bcf5618f0a02531e7f7|2017-12-04|David Franke|add None option for update
+e3b6bd2c4e2d7ac58721e36aee9342857852efb7|2017-12-04|David Franke|use store function in scan2D
+a56d18a473bf7faf8969707ba8845ddfd6724fd8|2017-12-04|Pieter Eendebak|Merge branch 'master' of https://github.com/VandersypenQutech/qtt
+d9db02a7da991ab329faf05d22fb26c7867cae02|2017-12-04|Pieter Eendebak|fix imports
+574c04eb6de47f52287d9ee10be554048248c7e7|2017-12-04|Pieter Eendebak|cleanup
+1765347cf3c3ee6829e9be2d29a4e78447295744|2017-11-30|Pieter|update gitignore
+20f7da8ca059f25af5c7ad20f87e46692bd4d2b2|2017-11-29|peendebak|Fix/logging (#191)
+a25ca27a4a707e982adb597242558acf7c406451|2017-11-28|peendebak|update package requirements (#190)
+a236551fc32c6a88ee852d35e3cad6ef78df5ebe|2017-11-27|peendebak|update logging GUI (#189)
+ab2e73a7531d5daafea1859ec59dd2be94df9ec9|2017-11-26|peendebak|add restrict_boundaries function (#188)
+1926a621fe20ca8e175bef3dd16faf56d8fb81dc|2017-11-24|peendebak|open empty ppt presentation if needed (#186)
+6badf5da2ae378bee55ef45b0da08049d52125a6|2017-11-20|David Franke|small fix CombiParameter
+29db7c26fcbf5db10b2ac3805e8a7363205d0f7a|2017-11-17|peendebak|Cleanup legacy code (#184)
+5b9f0b4f423c4fff83d6040a71a76047e310995b|2017-11-17|peendebak|updates to autotune code; remove legacy code (#183)
+5e88bfb32fbf424d52e8b10e831bf3d533b38fa0|2017-11-17|peendebak|updates to autotune code, prepare to remove legacy code (#182)
+861a6c09b6598213eef1a3f3a1158a730f90efa2|2017-11-16|dpfranke|small changes scan2D
+d62b1c7a71e5dc8f4521457247c5bc5c0493a91e|2017-11-16|dpfranke|adapt to 'new' parameter validator naming
+b514ea9b489b3c2c4a11b2359b7bf76f0815f3d7|2017-11-13|peendebak|remove legacy functions; updates to powerpoint functionality (#180)
+751fdd50b6443867b12e310b7e16845553152e59|2017-11-13|peendebak|oneline fix (#179)
+a006fdc387e0ff40a7617f05703aedeaf81bf0d6|2017-11-13|Christian Volk|improve notes in powerpoint slides (#178)
+7d8d48d55db5300c5040d513ee99fbb2d0c4cf24|2017-11-10|peendebak|for validator in gates, use get_latest in parameterviewer (#177)
+a58c25ebb73f9a681b719a04da6aca3b693961c1|2017-11-10|Luc Blom|updated example
+0863017745b4c83d76c51da91c1fc9119e7c57e0|2017-11-10|Luc Blom|autopep8
+b450ef9ff1baa4d582c60ecf7cff35f3567f04fe|2017-11-05|Pieter Eendebak|Merge pull request #175 from VandersypenQutech/qcodesreq
+0d9964fb3770be7dd5ada165d4be27d339db1023|2017-11-03|peendebak|fix for paramviewer (#176)
+72721634a5c586df7ab1668981b6b31cd49646f8|2017-11-02|Pieter Eendebak|update install docs
+d39fa1ee080880a9d7981456938af7334c0f4ed8|2017-10-31|Pieter|update qcodes requirements
+4a5e52cb86188e70e6745c4b20d6f71e64cc1c5b|2017-10-29|Luc Blom|Started with small program for monitoring Bluefors.
+e264889ef4ba0c4f5b5a7d57e9a64524ce0ea59e|2017-10-28|JP Dehollain|Checking AWG amplitudes before fast scans (#166)
+f7164b8734e7d822641f3f9f6560e9c1f5abe9b0|2017-10-27|peendebak|Update install files with extra (optional) packages (#171)
+465a30dfb9b3ed3a5f13338c495ebcf0efff4442|2017-10-27|peendebak|make parameterviewer more responsive (#174)
+e5f0f8494d68296673a22a884e2edf9ecb22b733|2017-10-27|peendebak|function to find latest kernel (#173)
+e8afc2fb38a65ecef0684d7fb246b8b5d0e26c0e|2017-10-27|peendebak|fix for upstream qcodes (#172)
+5230d6eec78beb146059149bdb50649813c22a3c|2017-10-24|Luc Blom|Added FridgeProxy for testing
+388510340dcd2fa4e54dd0d0d71aaa84170bdfd6|2017-10-24|peendebak|fix bug in liveplot; convert to Parameter instead of StandardParameter (#170)
+44bbcde70699fa2b524365f89c8de5d272826e9c|2017-10-22|Pieter Eendebak|add check on samplerate
+fa2cc06fdcc639c3dc751aa5b9c2944e6aa773ed|2017-10-20|lucblom|Fix/packages (#169)
+bbcbd556888646fd64bab1c8de8178f8d0196ae6|2017-10-19|peendebak|fix has_set and has_get (not available in upstream qcodes) (#168)
+076f9bc05db9e6920f7b37924287c920e0371970|2017-10-19|Christian Volk|Changed diffDataset to pass on the smoothing parameter sigma. Changed scan2Dfast param->paramname (#167)
+4a069e91c8e0825574628cff723073b68653869b|2017-10-19|tfwatson15|data now gets reshaped to the correct shape
+742b2f1cd700d70de14de9c403ebceba817f64a3|2017-10-17|fvanriggelen|Liveplotalpha (#165)
+13626463f631e7f9438b870b3e83d7b589ee1454|2017-10-06|Andrea Corna|Update ParameterScaler to be compatible with Python 3.5
+96d537eb372243f92a838bddaa7f982381af8f5f|2017-10-03|David Franke|Merge branch 'master' of https://github.com/VandersypenQutech/qtt
+12708e0bf033550383f0ff7d285219ce0cd14669|2017-10-03|David Franke|added CombiParameter class which accepts a single set paramter and sets it for several gates, for convenient 1Dscan sweeping. A similar class exists in qcodes but doesn't work
+80710affebf8d56b2b147228683a9c1f7d6efc5e|2017-10-03|JP Dehollain|Pulse function in virtual_awg (#160)
+b982cfce2a925185ca1be5e80cbf4e7da18f6f2e|2017-10-02|David Franke|2Dscan: add time format and est. remaining time (verbose)
+8268c7b1fac1278f7ab271c389e5c3a388a294e8|2017-10-01|eendebakpt|fix typo
+de8c2d6ea39d03c56239c4ef2ec2bed22c680061|2017-10-01|CJvanDiepen|Merge pull request #163 from VandersypenQutech/fridgemonitor
+827910544a0dcdb4db97851a3cb1ab7953cf7ca0|2017-10-01|eendebakpt|update for fridgeproxy
+bf7cd0b8c1d51feb9417375158c777f807b26efe|2017-09-29|Pieter Eendebak|cleanup bluefors
+f362deabc7878a91619166204df59fba1942ad27|2017-09-29|Pieter Eendebak|add driver
+6f4306326e3b6680933c5c0227048cbbbfaabd08|2017-09-29|peendebak|fix ttrace code for 8dot (#162)
+7b20029117ef1afc55031d9d7fcece2de323ded1|2017-09-29|eendebakpt|Fix typo
+ef1c634ac5b5814a1d10e4716648df93d9e0ac77|2017-09-28|JP Dehollain|Error when running normal gate scans with range (#159)
+04f4d46663493c4938544c6782092c5fd2498ef4|2017-09-27|peendebak|make often used operations faster (#156)
+42b45bf92cdc4bc9ec38433a0f558214afd15f85|2017-09-27|Christian Volk|allow levelarm parameter in fitting of addition line (#158)
+f5c3c7eb526616db0469795594bc5c450f1a6f90|2017-09-25|Christian Volk|oneline fix
+80489f58f02460aa24b13c87b5fc279775a8f79d|2017-09-22|CJvanDiepen|Merge pull request #157 from VandersypenQutech/updatedocs
+11de75513f4d5968c6e64c60b5c0bbdd9ff9f31a|2017-09-22|Riggelen|improve docstring of save_state
+6a2fc3939a1e905314e50a473d955f5a5a03b912|2017-09-20|Pieter|fix bugs in simulation code
+420ed1c7e873e01ba73b9c2137aae39d9f9982db|2017-09-19|peendebak|improvements to simulations (#155)
+5ab090e6e59c26561eae6ed6e86e126759969472|2017-09-15|peendebak|fix bug in diffImage (#154)
+ef787ce4543fb5f98cb2b7d61c6f943fa292998a|2017-09-14|peendebak|add warnings for non-existion diff methods (#153)
+6a1d1b729ca4f4ef7950150d7571c1c70298de55|2017-09-14|peendebak|Autotune (#146)
+d5d76ff9767fd6a08ee2fc0b7691d1c9e58c37a2|2017-09-14|Pieter Eendebak|Merge branch 'master' of https://github.com/VandersypenQutech/qtt
+fb546c6804c9871ec9b178ee563f73dfb659cd93|2017-09-14|Pieter Eendebak|add warning
+e007f484f496a71a5b00f6009d41397aa966ded1|2017-09-13|CJvanDiepen|Merge pull request #140 from VandersypenQutech/RTS_PAT_POL
+d8c10a8540f4ea04b8bc109e868823b12c6d18c3|2017-09-13|Sjaak van Diepen|Fix error.
+413648d1200729ae81d56b10887c444ee3218328|2017-09-12|JP Dehollain|Pol fit with nonlinear least squares (#147)
+9bada64f4660d6ba28f61bff8c7af5e9d272f616|2017-09-12|CJvanDiepen|Remove no longer applicable instruction for disabling UMR. (#150)
+f657a52c5aec38a023b72f034ed5929de3da0b7d|2017-09-12|Pieter Eendebak|fix package requirements
+ec564a7bb15005f71b30a91ac3decc358e136fb1|2017-09-12|peendebak|improve docs for fermi fitting (#145)
+5098fdb63177a15264374ba09ac486bbdbde3e5d|2017-09-12|CJvanDiepen|Fix memory leak for logging of mc temp and helium level. (#148)
+d92e8c1af53a0e4635062458766d13551e94c5c3|2017-09-08|CJvanDiepen|Fix error.
+3abd259b6ed7a71391d44a707b5e4c111d67cc6d|2017-09-08|CJvanDiepen|Put back conditional in if argument.
+599a46a5abc9a7d928a835e604158588c525b73e|2017-09-08|CJvanDiepen|Fix bug in scan2D.
+2d2ad9d42fb7cce139899eea2fd272d0f3349877|2017-09-08|Pieter Eendebak|make distinction between label and name
+71b8584e08be7bfb6098ea9b67a7c8228f22be00|2017-09-08|Pieter Eendebak|pass arguments to parent
+b92224fbae55ab36e168fb5ccc67a82988f62969|2017-09-08|CJvanDiepen|Fix bug in _convert_scanjob_vec.
+90c9a203aa88b87e5167a558f15ac1f80559cabd|2017-09-07|CJvanDiepen|Merge pull request #143 from VandersypenQutech/cleanup1
+834a0d37c4ce592e9f031ed5d802bf45b9a59a90|2017-09-07|eendebakpt|fix memory leak
+29ab3aeaeea070acfcdb32b4bccabae944453a37|2017-09-06|CJvanDiepen|Add test to test_scan2D and make fixes in scan2D.
+38cf9967c84b9cac784f0225213685e3fef5d951|2017-09-06|CJvanDiepen|Minor change.
+1dfff3ac1aaeb25638bfd0ab81f142f16c5ce187|2017-09-06|CJvanDiepen|Adjustments based on comments. Added MultiParameter to structures.
+88188a1a9eff318560b1ba53f659d6d8db100749|2017-09-04|CJvanDiepen|Add adjustments to enable PAT and misc minor adjustments.
+32c16c72e4732429087aeef7d7595f71cfa1e7a7|2017-09-04|CJvanDiepen|Add misc fixes for scans.
+38a047a999a137316daa238cd8ce0afb4ebca344|2017-09-03|CJvanDiepen|Delete temporary copies of scans and videomode.
+3d78abe4f05b2490a65f8503cc913db93d455563|2017-08-12|CJvanDiepen|Misc adjustments for tunnel coupling tuning.
+5b80390b9c1f2212096e0919cb7e6b74760a7a13|2017-07-26|CJvanDiepen|Fix minor.
+13d6edd7deb669b60b50173319d4a2c62ae80646|2017-07-17|CJvanDiepen|Fixes for videomode with virtual gates.
+669e9c307353c9e0cc3ce7b0f678057c3c7a6881|2017-07-14|CJvanDiepen|Fixes for conversion between pixels and volts.
+0867d7d3f89e27ba267263ede3da21ff2112045e|2017-07-14|CJvanDiepen|Fixes for errors with scan2Dturbo.
+d1ad0cd7cb34b209da0f1b9d31ed5c9bc6b5d59d|2017-07-11|CJvanDiepen|Add changes for tunnel coupling tuning.
+1f27f4905beef4358afa5eb527007fdccffb5144|2017-06-28|takafumifujita|fix bug that array of physical gate vals is one element too large
+a144f7226047886d9e43e4d696d16b7e496a9e95|2017-06-08|CJvanDiepen|Fix for 2D vector scans in calculation of physical gate values.
+62c3e7476154b81653cf908e52c4be24055b2be6|2017-06-08|CJvanDiepen|Add PAT scan functionality to scan2Dfast.
+15e2041008cf248ec546191846a8502d5f6dcb89|2017-09-05|Pieter Eendebak|autopep
+a548f78f1adfc8124260755463268724b6906420|2017-09-05|Pieter Eendebak|remove deprecated functions
+c242b1e01202f687c1d462f83a359c5913e50ce1|2017-09-05|Pieter Eendebak|remove deprecated functions
+59e946e38a6b1221b3b63cd8281e47d068fc0a37|2017-09-05|Pieter Eendebak|convert warning into exception
+5f16fa9efca3a3bd83078b1669441fb4adebde83|2017-09-05|Pieter Eendebak|increase version tag
+ce327f565505e439c4307033267b3a5f12bb561b|2017-09-05|Pieter Eendebak|add doc
+f572f98237e6264f6a06c97f5aeafd9f4d30d175|2017-09-05|Pieter Eendebak|cleanup 3
+08f86849733d7251c825776da00cfb02ec1019dd|2017-09-05|Pieter Eendebak|fix error in test
+40117e796266f663054eb98bba3cda64de876611|2017-09-05|Pieter Eendebak|remove legacy classes 2
+5aae8ab7de2f72e356b74abcae2f561798aa7c50|2017-09-05|Pieter Eendebak|remove legacy classes
+1304641a83378028054bdcd3298e988de26f9eb5|2017-09-05|peendebak|Docs v2 (#142)
+f73d97d431afea89a0a38706fbc49eaaa76daf9a|2017-09-05|peendebak|fix docs (#141)
+5361eaafe37aad91ea25802caa6873cf7a848ec4|2017-09-03|peendebak|logging for the triple dot (#139)
+ef0f42557e8b869bd2e13efd1d873994a45d296a|2017-08-31|JP Dehollain|AWG amplitude (#135)
+2c274a8d6025615f5e24d907c3ff4b6169ace068|2017-08-30|JP Dehollain|Reset gates to dataset (#136)
+4d4a0b734349582db0a3d4139a646c4d137fb942|2017-08-30|CJvanDiepen|Changes in polarization line fitting: added documentation to refer to literature and an example, renaming arguments and variables for clarity and added a function to convert sensor signal to units of excess charge. (#137)
+9802dbff62044361a211c1a6a53938be10e19db9|2017-08-30|Christian Volk|make scan2Dturbo and videomode work with m4i (#134)
+13778d592f75600e7238f5cc2fd23923b29a65f6|2017-08-21|Andrea Corna|Add ParameterTransformer parameter (#125)
+1446dc3d77ddae35a32f78257058cfdca70636d3|2017-08-21|peendebak|various improvements (#132)
+a148a1342ebd9024d16fbd99d4e35609d88039bb|2017-08-20|peendebak|Add function to update boundaries of a scanjob  (#129)
+0cdf2ef869057be5b1cf1de63d678ac59022cec6|2017-08-18|Andrea Corna|Finish fix for recursive dependency
+08445ac997f5d62f882568700ddfcd417b3a0944|2017-08-18|Andrea Corna|Fix circular dependency
+051371ada4e89fba355cc80043db935d43bc37c6|2017-08-15|peendebak|allow import of qtt without opencv installed (#130)
+3ff1bb0acff2b5e4ac5af02feda8e6009dc4de61|2017-08-11|azwerver|Merge pull request #131 from VandersypenQutech/awgcheck
+196a8d405175f809e4c696844d4eb75e772ed2da|2017-08-11|eendebakpt|add check on awg output level
+113dcfaea6944d1adbd27a470e4aff3d9d3ec999|2017-08-03|eendebakpt|fix digitizer readout
+3b781bf0a155df5555f4df7f1e02695a52cd43df|2017-08-03|eendebakpt|fix parameter validator
+675bbeeb2df3491a0a04f899364d59266196fc82|2017-08-01|JP Dehollain|Resample image (#116)
+916de57b6ddf4852141ec61969d34dd13f03ba22|2017-08-01|CJvanDiepen|Fix imports in scans and waittimes (#127)
+6a4fcbeac3aa5e1a3c24770d358e1b908c299bf8|2017-07-31|peendebak|Restructure the fast scanning code (#121)
+b0c97a7cd0ce2ab1fea60ba7e5c2aaf6f72c9751|2017-07-28|CJvanDiepen|Merge pull request #123 from VandersypenQutech/fix/scan1d_vec
+d0dc58e40af42d5ffb3976f55a32bf4639af0906|2017-07-28|CJvanDiepen|Fix a bug in scan1D for performing vector scans.
+69bba319f1e48b2e06e2cc57e873533ec39ea939|2017-07-24|peendebak|ttrace updates (#122)
+c742698014ee4a6287e057da397ab5240ef752bc|2017-07-23|eendebakpt|update docs
+9c031e68f6844076ff689bf894849ad84939b22f|2017-07-21|eendebakpt|one line fix
+7b0f21b83bf21a8d9076c168556873369788a0ab|2017-07-20|peendebak|Merge part of the ttraces code and the virtual dot setup (#118)
+79285088dfe378c3d47a7d6dc904edd5110436dd|2017-07-20|peendebak|add ILM driver (GPL) (#120)
+c710d1b0e6e6fee53b36ab82e3d0c24392855edf|2017-07-14|peendebak|Add functionality to store current system state to disk (#117)
+7308fbb1d132dfd3b9acb66f26c325b515c1d170|2017-06-27|CJvanDiepen|Fix error in boltzmann constant.
+9e4052300e6638dfa282c954a77d7058a2047a83|2017-06-23|peendebak|add fast readout mode for gates (#111)
+932e7d17a4e2af0d831dbedd116053ade26acb88|2017-06-02|Pieter Eendebak|fix test_scan2D
+62ead8a287a9c44bcb2967f552e01cdbf63a288f|2017-06-01|CJvanDiepen|Merge pull request #110 from VandersypenQutech/one_line_bug
+7baae19e1024a086362dde002f1002cefb58bd58|2017-06-01|2x2 group|one line bug
+7629941e54f854a496d66eb2490a7910249caca5|2017-06-01|peendebak|Update to autotune scripts (#107)
+d8cc2301b83b80e1b695a9f5bf91b294eef0f131|2017-05-31|Pieter Eendebak|update INSTALL.md
+7023cec4151e5b7c3ab3e6d16a7a052739cba031|2017-05-30|peendebak|Fixes after restructure of qtt (#109)
+d3c6a20cf872fb835563c24af37e7e643058003e|2017-05-30|Pieter Eendebak|update to README
+f0c6b6b2f8aed8d60215d15ceee46a1bbec5c332|2017-05-30|peendebak|Qtt/structure (#105)
+865dcf82d8139595285341fc7bcbcd1a09f77567|2017-05-30|takafumifujita|Function to update cross-capacitance map in memory (#103)
+9da4b527f750d580fe2a00b7946e0c4396040f14|2017-05-30|peendebak|fix for dataviewer (#108)
+e8a4b12b273641231b43a2e121e92e000265cd2f|2017-05-29|peendebak|Add code for creating and parsing t-traces (#106)
+1008f6fcf27799f30231aa934bae29d0b88002d4|2017-05-29|CJvanDiepen|Feat/vector scans (#104)
+cc24833e945d1e4532760b656f33ec390a52bbc4|2017-05-24|peendebak|Add processing for M4i traces (#102)
+b3286ceb32ca5c3543170bb4fe749cb7ed7625c3|2017-05-23|CJvanDiepen|Feat: linear combinations for scan2D (#94)
+292bb6768ed037515c30587de43800ece1240dac|2017-05-19|takafumifujita|fix typo
+070f7ea79247fdcbbf18c552eb96bb1507a0b6a2|2017-05-17|JP Dehollain|added function to compare gate voltages between datasets (#101)
+51b34ab75cf439ce8d77286e348a3b86c4dda228|2017-05-17|peendebak|Cleanup of qtt (#100)
+0d2134371766f4458589f19b9e1f9e6618e80aa8|2017-05-16|peendebak|update version (#99)
+f2b6d3d21f7580519b03bc79de89e93b368f1c90|2017-05-11|peendebak|Merging fastscans (#93)
+e6539b8d5d20a862945686cea043950cac496296|2017-05-10|peendebak|add docstrings for modules in qtt (#98)
+9bf0a324da256ed0483b944654bf799571ea49e5|2017-05-05|peendebak|fix for dataviewer (#95)
+74858bf755b91cbf4d946b56085d9e38f35c767a|2017-05-05|Pieter Eendebak|update docs
+5a252f576c0362613c043c2ee2b5db265ce32cc7|2017-05-05|peendebak|add example for Coulomb peak fitting (#96)
+cb73f47e480021c2e87e11b7a660d6f679dc12dd|2017-04-24|peendebak|Oneliners5 (#92)
+3c25bcfa8ab567f455648fdfb561efbae84883a4|2017-04-21|CJvanDiepen|Merge pull request #90 from VandersypenQutech/feat/mult_meas_scan2dfast
+ad7d3eff46c1700a34aa9ace0ae33c6716b0192b|2017-04-11|peendebak|Oneliners2 (#91)
+1c826d4971ab867dbca135a82ed3f8ffe904a59d|2017-04-11|CJvanDiepen|Fix to makeDataSet2D to make it backwards compatible.
+c428a073ca7973a7fc5e5ed2acb499dba698d709|2017-04-07|CJvanDiepen|Add scan2dturbo compatibility with readout of multiple sensing dots.
+badd4a272ccb0492c7e0361a52b634b51f231171|2017-04-07|CJvanDiepen|Fix scan2dfast compatibility with multiple sensing dots.
+b7be14b9bd2613dcbe4abd8602a11c651de65ed5|2017-04-07|CJvanDiepen|Fix compatiblity of scan1dfast and makeDataset_sweep with multiple sensing dots.
+d6a07f1f4e19d1df4416b2c5414e086f74cba67d|2017-04-06|CJvanDiepen|Add functionality for reading out multiple fpga channels for scan2Dturbo.
+e7d5aab8569e50ad13c435eb005d85d4edd97841|2017-04-06|CJvanDiepen|Add reading out of multiple fpga channels for scan2Dfast.
+6b3e3c3ec7d1c67e097b01a657273c35236f43aa|2017-04-06|CJvanDiepen|Merge pull request #87 from VandersypenQutech/feat/diff_meas_array
+6b8c0bfd7ff05d93534d3b6ed4268adeb65063e7|2017-04-05|peendebak|Fixes for parameter getting (#89)
+f7326f26f4e8944fc6719dc751f9f8087ceee6d6|2017-04-01|peendebak|Oneliners (#85)
+793041a060529d9f8ebf19097a92efe6b3505cf6|2017-04-01|peendebak|Fix for paramviewer (#84)
+6c2c2befd995efc4d476d72c64830bfbde0a4073|2017-03-31|CJvanDiepen|Add option to specify another array name for diffDataset.
+8d57b17c66a542c7520e0eb958a1309743695d5e|2017-03-31|CJvanDiepen|Fix label in gates and passing through of units in the making of datasets. (#86)
+dfe60a562f2cef867bb11694b6f9028ec2b459f5|2017-03-30|TUD278089|oneline fix
+0ed59417c72352285823d4bef4ed269ae6bbc56c|2017-03-27|peendebak|Move VirtualIVVI to the qtt.instrument_drivers section (#82)
+396b073ee9160d13c39372dbe7913650f1f495f1|2017-03-27|Pieter Eendebak|update INSTALL.md
+4eece16dd152c7122d8c2df80bcb6b0821b9fc49|2017-03-27|Local Administrator|update INSTALL.md
+c43df074417cb8379ff1fb772c023c8d953fcac3|2017-03-27|CJvanDiepen|Merge pull request #80 from VandersypenQutech/videomode_single
+406d8454792eea85596b1dc2dba40598c9f28f5b|2017-03-26|peendebak|allow multiple parameters to be measures in scan2D (#81)
+cbd620fccb6ec68b30be1eb5bdc33eb5a9c66a77|2017-03-23|Pieter|refactor liveplot and videomode to extract data
+afbfd7905376fdf09b9c8b27e8d0bd94681e29bd|2017-03-21|CJvanDiepen|Add videomode single shot and Naverage control in the GUI to the videomode example.
+9b9d20bee60f8c5f72d1446a8f19cfaab04edf59|2017-03-21|CJvanDiepen|Fix videomode 1d single shot.
+940aefe1ce83a30fd08328a2bf0b66627e75b3ee|2017-03-21|CJvanDiepen|Fix videomode single_button insert widget.
+c4299e33d6dd7d118bd9413ddffb0c586a81bb3c|2017-03-20|CJvanDiepen|Rename fpga_ch argument of the videomode __init__ to minstrument.
+63506fd211a8f20d1ccd189f1711855ce5d58a06|2017-03-17|CJvanDiepen|Fix initial Naverage value in GUI.
+098d4fa470945eef1b0382a459c31704ee6aef37|2017-03-17|CJvanDiepen|Fix plotData to be compatible with fig is None argument.
+f2261024274fea6e3feeaa0386e7fc62a9229817|2017-03-17|CJvanDiepen|Add Naverage window to videomode GUI.
+aac86b8a0894f08c5311b935afef02deeb292d19|2017-03-16|peendebak|Fixes for coulomb peaks (#78)
+d6c2344bf6fcc314c3acaab986a79484210c777a|2017-03-16|CJvanDiepen|Merge pull request #79 from VandersypenQutech/fix/gates_validators
+3f3f88d75a83fee53646cb07eb7b0bc981c9cbab|2017-03-16|CJvanDiepen|Fix the return of parameter in set_boundaries.
+7058ffdf8a1c32faa0ea5d4b71dbd9bf9a60bc70|2017-03-16|CJvanDiepen|Add adjustment of validators based on resolution of IVVI dac's.
+62efc1ad0edfb9fefe330f60b9813a49f4019276|2017-03-14|CJvanDiepen|Fix error in videomode.
+74a7518ef52e388334f97c0418556abd306d42a1|2017-03-14|CJvanDiepen|Add Naverage qwidget to videomode GUI.
+c262a196a26f76157c158015c975e5bdc30ef418|2017-03-14|CJvanDiepen|Add functionality for single scan in videomode class.
+09bc7d038577bb5a407d3e2b5338f75d08f2d84c|2017-03-14|CJvanDiepen|Fix minor.
+aa5e0ee69ddfefc0f736cb5252a1f7ff2d4dd0e4|2017-03-14|CJvanDiepen|Add some documentation for the videomode class.
+4f67648810c6bfcdbdf4c86c44066db8cccfc11b|2017-03-14|CJvanDiepen|Rename widget to layout for live_plotting GUI.
+cd3d4d867f31768d48658d75800aaacab6421abf|2017-03-14|CJvanDiepen|Add work on single scan for videomode tuning.
+2738295170ae164f70c55cb8c90108fbfb90c403|2017-03-14|Pieter|small fix
+220de5a5c84ef782ebf35621310d3b389bd7ff32|2017-03-14|CJvanDiepen|Merge pull request #77 from VandersypenQutech/fix/scans
+e04507fe7dbebebc9f311a4d88f829d1f2fd347f|2017-03-14|Pieter|show progress in dataviewer
+74b4d8eae1fb6c984fcb4a27bce700d8ed8fa811|2017-03-14|Pieter|more fixes
+57c6036f5c67491c837f222d68a90c5f5cdf95e7|2017-03-14|Pieter|more fixes for the param cleanup
+c57ffca31d3448e87f2cd108058d1d9f9282eae7|2017-03-14|CJvanDiepen|Fix replacement of gate by param in stepdata and sweepdata inside scan2Dturbo.
+c00eadf7751336d8090dca51f2a58fcbabf6ea53|2017-03-14|Pieter|Merge branch 'master' of https://github.com/VandersypenQutech/qtt
+9d289be40a8e683ed403e8edde9c7e58efd6c3ad|2017-03-14|Pieter|update INSTALL.md
+8f3c3a4020aba8ea926839276532432c4a5e25bf|2017-03-13|CJvanDiepen|Update INSTALL.md
+2da7d8d3b2a3ecc8bc5c8ae740bb1dfafcf9ccaa|2017-03-13|CJvanDiepen|Merge pull request #76 from VandersypenQutech/videomode_example
+c6f03bbfd8cdd36874c777917b3346abaa1893f1|2017-03-13|CJvanDiepen|Rename example_Videomode.ipynb to example_videomode.ipynb
+7d23322b1dc3984a014f4d55fbfe9c741ce60458|2017-03-13|CJvanDiepen|Fix conflict.
+385376a3885e980e8cd7ed843297529a30343155|2017-03-13|CJvanDiepen|Fix conflict.
+0a58b4d0632f6ef16901f383b9e7495739f8c247|2017-03-13|CJvanDiepen|Add reference to videomode notebook in README in examples.
+bdc057c239e7eaff4a8206846e29fa18986d1f93|2017-03-13|CJvanDiepen|Add example of the videomode for 1D and 2D scans.
+777706c9ba5ea8c943807b5553c7e0b7589ea4a1|2017-03-13|CJvanDiepen|Make syntax of 1D and 2D scans uniform (#74)
+d6f88490c8dba3e29d1633c48777ad9a18d17bc4|2017-03-10|Pieter Eendebak|fix import
+e3a7d7214343a93f67a87a526b296ab411a3b462|2017-03-09|peendebak|fixes to unitsperpixel (#75)
+9d821cc2ad9d7db995f26261a90cad1883a24087|2017-03-09|CJvanDiepen|Videomode class (#68)
+75e00799fe681042b075ed923a1f2dd5bdb71ec0|2017-03-09|peendebak|update simple example (#73)
+4519d54d20600c77fd488ef1c40c6a7314e8f122|2017-03-09|CJvanDiepen|Add virtual_gates and move/rename old virtual_gates class (#65)
+3ab6ebbf94b9894a30e60674af05b20395d46c7d|2017-03-08|Eendebak|remove warning
+328cb09b89c81228031743483cf85a4da2e798ce|2017-02-23|Pieter|Merge branch 'master' of https://github.com/VandersypenQutech/qtt
+ba62ce3dfa1b30f1ffcbf326d742dc1d0575a1e1|2017-02-23|Pieter|add zip_safe option to setup.py
+eca979da9951c88b5938a7cb77762472e6827ad5|2017-02-23|CJvanDiepen|Merge pull request #72 from VandersypenQutech/dynamicfirstguess
+babeaef7f968152f8aa860391971ea527deda60e|2017-02-23|CJvanDiepen|Pep8.
+ada11edcca190ca730671492b004da78ceab9623|2017-02-23|CJvanDiepen|Merge pull request #71 from VandersypenQutech/impr_polfit_test
+eceac6ce60aa01a434af33910432da0e47e1d34d|2017-02-21|brunobuijtendorp|minor change
+82181a14e790d6c6548f0f3644bc6a95e17165db|2017-02-21|brunobuijtendorp|minor change
+6819570eddd5de911ff5af2360d27b85e0516f5e|2017-02-21|brunobuijtendorp|make first guess of tunnel coupling depend on x-axis scale
+f7c29ad131976b5d22e652200ea6ef06e9f5f309|2017-02-21|CJvanDiepen|Add adjustments for the test and the example of the polarization line fitting.
+668a2ee83ba637afb616a35489614d719fa9e810|2017-02-17|peendebak|Update the documentation (#69)
+241a687f91a681ab032129be8730efc265c4e119|2017-02-17|Bruno|change set_sq_length method to parameter (#70)
+ffd0c4cd6fcf31c0a3231af23778ce0c7b6dcbab|2017-02-16|CJvanDiepen|Merge pull request #67 from VandersypenQutech/impr_polfitting
+3ae780c522c6dce9b9cbf76561000c3afe4bcc97|2017-02-15|CJvanDiepen|Add documentation to the example notebook for the polarization fitting.
+b54342671cd7afe04d7f640758ce97aa2a3e3f6f|2017-02-15|CJvanDiepen|Fix the polarization fitting functions. Also add a test, an example and documentation.
+2ac89460e67c31ad6055c6b60a51c16e8b9949eb|2017-02-14|CJvanDiepen|Merge pull request #66 from VandersypenQutech/testing_pytest
+d200b8aab3a9591cd703fd08d382949cf3dca475|2017-02-14|Pieter|add unix command
+d461955cce9532c28ec357ea66066ba100c87c69|2017-02-13|CJvanDiepen|Add previous testing, because it may still be useful.
+cd2f939c78dda63d5263cf54aa8188717374271e|2017-02-13|CJvanDiepen|Pep8
+f22315e46afe34a1590ff0db2fd7d8e84af7cc21|2017-02-13|CJvanDiepen|Add code testing using pytest.
+a62d143de65cbc273f30866e7705a3612f85a9a0|2017-02-11|peendebak|improve image_transform object (#63)
+0ee282fae61dabef1e6970f08313bbdf3124c421|2017-02-07|Pieter|Merge branch 'master' of https://github.com/VandersypenQutech/qtt
+fea10408e66b33abfb6b133514e2771d23c21e7c|2017-02-07|Pieter|update INSTALL.md
+c8550d9ba664fef3c98c5289492e7667f16759fd|2017-02-07|Pieter|add buttons to liveplot window
+d36eb6a1a3fb90b9b0161baedae4f3876f3cd7db|2017-02-07|peendebak|update NV code (#62)
+5d74798c28df68f9bb426402f7445b9716882a2e|2017-02-07|peendebak|add example ipython notebook for anticrossing fitting (#59)
+14854fc3fbd07d2f17651a057f5910f212c98454|2017-02-07|peendebak|add first version of measurement control widget (#56)
+dcf797eb253aebda910f9e27ce12bf515cfd260f|2017-02-07|Pieter|add livecontrol
+ae8f70aea6875233383059d7df1f7e59b75348d9|2017-02-07|Pieter|add docs
+88b574fa138532e07668e30020883af30ae1cbac|2017-02-06|Pieter|small fix
+e1ccc8974c844cb6e3a38b3c881deefd9ecae850|2017-02-03|Pieter|autopep loggingGUI
+79f057ccd71ef7802de7d515302976cbe8c0112b|2017-01-31|peendebak|updates to nv code (#61)
+49bf1d314a478cb3bb8e9d32bf0f24d99fd638ce|2017-01-29|peendebak|fix nv merge and cleanup code (#60)
+f491add3e0343d8879215155c68132df26f16d57|2017-01-27|peendebak|fix merge (#58)
+d5526b6a2095090a0e212c6a439cd4193102dfc5|2017-01-27|Pieter|update pgeometry
+b80b8590e86e3ec2e087c9188b9a5522ff9c7679|2017-01-27|peendebak|Merge nv branch (#57)
+f6148f48d74c08f7b824ae8121c3f837ec7adf13|2017-01-27|Pieter|small fixes
+60fafd79276cbe4d99b6dcf9ea7afe30346ed384|2017-01-26|peendebak|Merge 1dot script fixes with the latest master (#54)
+a73d0134e128b7a3d4f0e75c39d227ed841347ff|2017-01-21|peendebak|add select directory button (#52)
+c7ec083d60a23c216babc3a69f2498d5f952198e|2017-01-20|Pieter|update INSTALL.md
+e557147609b11d3d82658272c155349bbc9a7238|2017-01-18|peendebak|autopep (#53)
+54de85dc603543d7e7ec70829bf1eed140158afe|2017-01-18|peendebak|Fixes to 1dot script (#50)
+1335fbc29dce66e02ac0d2420373fba287880e89|2017-01-17|CJvanDiepen|Update INSTALL.md
+d55cb6f81dcb335b5b380ed207d515a8e215bb8a|2017-01-17|CJvanDiepen|Update INSTALL.md
+dd2158697ff63d1b7f37a22dd5258093efe645dc|2017-01-17|CJvanDiepen|Update CONTRIBUTING.md
+579ce14763385847d64291238a54e4e356909d45|2017-01-12|peendebak|tunneling fit (#51)
+d4f05ce2c9845d8d7190e8c97d2b88f4e879171d|2017-01-09|peendebak|Make scan2D use a custom loop (#47)
+e713d564bac5004922512f1d2d257b474561c30e|2017-01-09|peendebak|add estimate of uncertainty (#44)
+ac20880a2a40c91978bf1de814aeb73593c20114|2017-01-09|peendebak|make dataviewer work with both hdf5 and gnuplot (#46)
+bb90a1e154afc092b56b3e7bbf2a2ac696279464|2017-01-08|peendebak|Fixes to make the 1dot script run again (#45)
+7881d511358e7e1e054dc1f10133c502b8d3ab29|2017-01-06|Pieter|update installation instructions
+9315179a162a743b08ae9be52ff67ab60dfbdffe|2017-01-06|peendebak|start work on FPGA pulse driver (#49)
+3b7a46c0d4a870c1fb8c82c6cc6379823a5b26a0|2017-01-05|Pieter|update qtt example
+2a695b0924c7f49c7ceee7a7214c17e48799b837|2017-01-05|Pieter|fix docs
+0cfdf77061834d93d1ad3706a4f838b08a6466e5|2017-01-03|peendebak|rename pmatlab (#43)
+7a4fd3a3512898ca2d2ab0498c2ee95e34055706|2017-01-03|peendebak|Merge misc changes (#42)
+db538df3250bc57286eaecc81dddd3959aa1877a|2017-01-02|Pieter|update stripDataset to remove the formatter files
+c7ea072a4605e584fd04b49f78308dd9063572ca|2017-01-02|TheLaurens|To make it work on my laptop (#41)
+655c6a07c611e185f02903cd30bbf44638f6f7fd|2017-01-02|peendebak|merge nv code (#40)
+3fceef08ad546af43f03f3488c7e39824e00710a|2017-01-02|CJvanDiepen|Merge pull request #39 from VandersypenQutech/eff_gates_clean
+462c91f4c0991f6ccdec04070e660f2eee6618f0|2017-01-02|CJvanDiepen|Pep8 on eff_gates.py
+0c0b8db69dc7494d9edd371c86d9c5eb388c5188|2017-01-02|CJvanDiepen|Add effective gates structure for working with virtual gates
+d9bd1112f350c98269384aca010873f71c3e3c7c|2016-12-29|Pieter|add convenience function
+19e06929733c30d0200a6b73e7dbbfcfe8df4fa1|2016-12-22|CJvanDiepen|Merge pull request #37 from VandersypenQutech/scan2Dufast
+15335b39b7595c552da2a22a8ac3d0a7687fd17b|2016-12-22|Pieter|add more metadata
+e352d731818cd787e4605f73ab7ba8b65f079180|2016-12-22|Pieter|add docs
+32c34996361eb3f76573dd61548d9824af8a573c|2016-12-22|Pieter|autopep
+85f6f3b0624890838bd77d5a83d2a2ace2bdca27|2016-12-21|CJvanDiepen|Minor fix
+116a124d7929f422cb7004e7a2c87d129efda65f|2016-12-21|CJvanDiepen|Add scan2dturbo to qtt.scans for very fast charge stability diagrams using the AWG only
+3ff496a738d877cc8340a8c54b7333f2554dfdc1|2016-12-20|Pieter|fix loading pickle files
+d1f54a92bd9f300efcb5c1dad6e46772323c0a14|2016-12-20|Pieter|update 1dot script
+fb7d41638e2dc3f77dce8ddbbb107abc54b9c8b5|2016-12-19|CJvanDiepen|Fix setting wait option in sequence mode at initialization
+dc1a4219c108af28f446d870b3fef0f56de95757|2016-12-12|Pieter Eendebak|add temporary filename to debugging function
+4928b3c4502e0a4a1576615a61252d2973567ea2|2016-12-12|Pieter Eendebak|Merge branch 'master' of https://github.com/VandersypenQutech/qtt
+2ee73c3a5cada41d61ef6c6a3942028b1c49ae08|2016-12-12|Pieter Eendebak|add docstring
+35ebb3701989ea67019f0f21088cd1a377ca241c|2016-12-11|Pieter|make batch script work again
+87d00a1e366c0cc76ddd1ecce9742f95b333f0dd|2016-12-09|Pieter|fix imports
+a32364bafc54a6989b95177a069c9820a1433948|2016-12-01|CJvanDiepen|Merge pull request #36 from VandersypenQutech/virtual_auto
+5b2d0d08eca0e62648f95ea5b7da72838dd39bf7|2016-11-28|CJvanDiepen|Add work on lineScan and clicking in a figure to obtain the gatevalues
+054b9379bd645e1e46f5a53b45c2fcec1c84d385|2016-11-28|CJvanDiepen|Add minor adjustments
+62c8077550effa60cfb58a24b0d2b3eeb80c4538|2016-11-28|CJvanDiepen|Fix documentation of clickGatevals in tools
+96b9e3a37ef86059a0bb4953730fd15d9840b4a4|2016-11-28|CJvanDiepen|Add work on click functionality to retrieve gate values
+46fe29ae58a7fe5633ec559fc44f553bbd2eece5|2016-11-28|CJvanDiepen|Add work on line scans for e.g. for polarization measurements
+757c9a9eb237922a08d42ef9918fe1e34c2945cc|2016-11-25|CJvanDiepen|Add slopeClick function to qtt tools for measuring cross-capacitances
+e27270013ab53d3378d201de085450b63ce432eb|2016-11-18|CJvanDiepen|Fix style of slopeClick in tools
+bd3b4e03ead7b19a995049208f253d8606d46f79|2016-11-18|CJvanDiepen|Add 1d array functionality in pix2scan and a signedslope in slopeClick in tools
+9ef2a89f90f07126ea2e1684f94c98c41fd4df50|2016-11-18|CJvanDiepen|Fix style of slopeClick in tools
+911a89e95ff3a091664e5d5eb2ebf038c1d43c08|2016-11-11|CJvanDiepen|Add mouse-clicking tool for determining the slope of e.g. transition lines
+0d6e7e77e34c77872a327b5910737cdd9ebf7a18|2016-11-18|CJvanDiepen|Add 1d array functionality in pix2scan and a signedslope in slopeClick in tools
+5e9bb85167f5a5363c6dca425d8caceef8cec26c|2016-11-18|CJvanDiepen|Fix style of slopeClick in tools
+626ab9f76d02852fd87639faff9d596e10eadc82|2016-11-16|CJvanDiepen|Add minor changes
+9eff2c7fcc6d1589b38b74a98c780a7c9ae1ef66|2016-11-11|CJvanDiepen|Add measurement and fitting of polarization lines
+72d94c00b0082b9778771f5e0ec761700abb1c01|2016-11-11|CJvanDiepen|Add mouse-clicking tool for determining the slope of e.g. transition lines
+a497f893a824d2ec0824ca60ac56d2140415ed7c|2016-11-28|Pieter Eendebak|make travis tests work
+12bc9326defb842a3e02182bff79eccf580a9d87|2016-11-28|peendebak|Add robust initialization of fitting of FermiLinear function (#35)
+9509903a3dfaf345805da489efb3d0f6e56bf2d8|2016-11-28|CJvanDiepen|Add work on line scans for e.g. for polarization measurements
+d6138d31563ac9a3d6ab31cb395972f140318df7|2016-11-25|CJvanDiepen|Add slopeClick function to qtt tools for measuring cross-capacitances
+d7904e6660c709c7bfb0fa7b6b6283d24eac8992|2016-11-25|CJvanDiepen|Fix merge conflict
+a6a324f326ee45b2318630861826329a672a55f3|2016-11-18|CJvanDiepen|Fix style of slopeClick in tools
+2f19337ee2b33498f4d1170cf763a9d3f86fe76b|2016-11-11|CJvanDiepen|Add mouse-clicking tool for determining the slope of e.g. transition lines
+febc20562ca555f15a6093fd97bf6092cb6d8c17|2016-11-18|CJvanDiepen|Add 1d array functionality in pix2scan and a signedslope in slopeClick in tools
+b214e17bb47a41ee28377aa7aef097ed583fe39d|2016-11-18|CJvanDiepen|Fix style of slopeClick in tools
+4a2a72cb667e866717bf54612b96fca5f75434b3|2016-11-16|CJvanDiepen|Add minor changes
+77f9a345d2f2c3a343c7fe4be81c3229c1cc9e72|2016-11-11|CJvanDiepen|Add measurement and fitting of polarization lines
+af92a84f2036e68526ac1134bd99a398ed53628e|2016-11-11|CJvanDiepen|Add mouse-clicking tool for determining the slope of e.g. transition lines
+0a8b0038da189330289d067c0c6859680c4c5482|2016-11-25|peendebak|autopep (#34)
+7f01eba8f96f81e4270c804b0ff678d1cb509246|2016-11-25|peendebak|Add automated testing framework to qtt (#32)
+489d8474461f784095e02ac1fe1c74e605d2981e|2016-11-25|CJvanDiepen|Merge pull request #30 from VandersypenQutech/scan_virtualgates
+cb281648a29f118690db4bcac681f2a88e57f7ca|2016-11-25|CJvanDiepen|Add comments in virtual_awg and remove some code from scan2dfast
+c59a0c941921f13dbcd0ac1511ef69024400e3bf|2016-11-25|peendebak|Add fitting of FermiLinear function to data (#33)
+c280425be1a1abd7654f00dc31bc010bbb313a01|2016-11-24|CJvanDiepen|Fix conflicts
+a95ba4e575c0b75f96ab2db71f15c4a15d775026|2016-11-23|Pieter|add FermiLinear function
+6dd3d2119cc19c98630f758d25fd5770f75bf89a|2016-11-23|peendebak|Fix/metadata (#31)
+f03b3478003cd721c4ea0f699d845f45cf05381e|2016-11-23|Pieter|fix merge problems
+c00e1afd409e7747d6744ac427ad4102804a332b|2016-11-23|Pieter|fix merge problems
+cfa184885eadb56a309bd120348917f4d69fe0e9|2016-11-23|CJvanDiepen|Add changes in scan2dfast for plotting and data saving
+aa4ab40409c73f243945bbc07387c4dff84b17d2|2016-11-23|CJvanDiepen|Fix conflicts from merging with master
+33671f6932a1b21e7f71be235f62807cf4bde5bd|2016-11-11|CJvanDiepen|Remove unused Keithley2000 instrument driver
+a0cdc87e010d88de5fdce8d79de1a35047187431|2016-11-22|Pieter Eendebak|add freezeclass; merge fix
+1bcbeb51a0f556de4f1610676a735e42bf5d3c60|2016-11-18|Pieter|fix scan2D background plotting, still an issue with qcodes
+7ba7a335e2c9f0e38ef243480eedffc8b3d90297|2016-11-15|Pieter|add convenience functions
+b0de40de9240e37e1277b2cd02047cba0d1c9c82|2016-11-15|Pieter|small fixes
+6da5c2818d15d3ac2bc00fda59a4cf60a2466377|2016-11-11|CJvanDiepen|Add __repr__ to sensingdot_t class with information about the gates
+276122b1f667b529bb7a221cf77ccc4c13a2fa6d|2016-11-11|CJvanDiepen|Remove unused Keithley2000 instrument driver
+8d27fbf883f3f2db09afe81ece9888568102c766|2016-11-11|CJvanDiepen|Add virtual gate scans and sweeps
+eb24d8272d5e9a26460da6f9497a343bd9d245ba|2016-08-22|Pieter|improve arguments of parameterviewer
+38c3baa4ddea5c7e4652513db991bf2482cfbb22|2016-10-30|peendebak|Merge pull request #28 from VandersypenQutech/repr_adj
+42968315ff1be083854c9324776dad4f1e677526|2016-10-28|CJvanDiepen|Delete __repr__ function from sensingdot object
+661d8ec225a5ff7a1c25d6f857b557a168a95631|2016-10-27|CJvanDiepen|Fix instrument get in __repr__ in sensingdot object
+14935610ba4f41d10d97848446eee2ee97a14d8d|2016-10-24|peendebak|Merge pull request #25 from VandersypenQutech/squaredot_tuning_strategy
+73a75b21bdd6eb0884eed285da4a37813a6ab85a|2016-10-21|peendebak|Merge pull request #27 from VandersypenQutech/feat/debug
+234fa67181053243ffe574278e03b7a28bd235f6|2016-10-21|Pieter|fix wait_time argument; add precision timings
+1a594c577228fa6ca5a13b6e906834282fc89f8a|2016-10-21|Pieter|add debugging tools
+f918a54df3bc619a45fd59a6dabd3d74130cc105|2016-10-20|lgnjanssen|added some clarifications in the text descriptions
+cf9bec40e290341219e819aa9a1d3533c87fc473|2016-10-16|peendebak|Merge pull request #24 from VandersypenQutech/squaredot_tuning_strategy
+f40aba0a837cfe4ef5271f9dcd33530450d16042|2016-10-14|lgnjanssen|code cleanup of 'onclick' functions
+71f910a018b4dc613c919a5ec5111309d8cc9f68|2016-10-14|lgnjanssen|deleted slides.html
+8fc3f49e40725e4cc8f468c1a7ccee11812939e4|2016-10-13|lgnjanssen|exported to slideshow presentation
+f62d6960fa77d707c6dce8efe884a4f542fb50c8|2016-10-13|lgnjanssen|final touches to square dot tuning strategy v1.0
+be84029e050ffbd1545296f503cdbe9413c287d8|2016-10-13|lgnjanssen|updated characterization strategy
+ecd105a7af758a80ec64b1e133120334316caaec|2016-10-12|lgnjanssen|updated with tuning strategy v0.1
+adae6736f58cadb78fed774e3ebf193206e3cf31|2016-10-12|lgnjanssen|updated for correct square dot definition
+5276fc6c7049a814fff8b2afe7cd32c2f5130e83|2016-10-12|lgnjanssen|square dot definition fixed
+9185b72d51c531585198cf20cd30269238697016|2016-10-12|lgnjanssen|more charge diagrams
+04d6044338b6649e1c007499358820dfdfbbf67b|2016-10-12|lgnjanssen|honeycomb simulations
+98c3e0d52444d2449cebeaf0beede7e831302f49|2016-10-12|lgnjanssen|added square dot definition
+b420a28d3836fb0da5f334915021cb2f5cfb91db|2016-10-10|peendebak|Merge pull request #23 from VandersypenQutech/classical-tripledot
+7f6ed401afa528b3beed2d4ec69a039358e6eafa|2016-10-07|lgnjanssen|rebase with master branch
+e25c62002a78b7d511b4af1414df2fa4a0ae8404|2016-10-07|lgnjanssen|updated with N=x plane-type charge diagrams
+021d21a275d2080c2d21b506279d4a097a4f5bb2|2016-10-04|lgnjanssen|first version triple dot simulations
+488d71c5571947aab829a98822711ef939024a77|2016-10-04|lgnjanssen|solved pool pileup during succesive multiprocessing
+754aa282d019e480a6c406307decc3ed9f10f62d|2016-10-07|lgnjanssen|updated with N=x plane-type charge diagrams
+59442c84731e4fcaa4379bf61e67ee9fe7be7544|2016-10-04|lgnjanssen|first version triple dot simulations
+52333d0f969101bb0dcee53c37f96a95b26c7964|2016-10-04|lgnjanssen|solved pool pileup during succesive multiprocessing
+31461017d767a5b8de9e53acb873499c637414fe|2016-09-30|peendebak|Merge pull request #20 from VandersypenQutech/misc
+2ba6a87141742dabfc8b84d10f19e4c7f8f5d79d|2016-09-30|Pieter|show the RdaControl widget by default
+c5d3953fbe96d4e360ab7166840232c2b2e91289|2016-09-30|Pieter|add extra documentation for redis
+03387cd988284b8a508429a76fd056544ea31ba8|2016-09-30|Pieter|autopep; remove double import
+d7916f3efdfb13897f93c4480b080843065654fa|2016-09-28|Pieter Eendebak|add docstrings
+807b734908553cd8b9ff23b902afa7a7a0db8e9e|2016-09-28|Pieter Eendebak|added control gui to live_plotting
+4e2b67f390ad9f47658ccdd2d321077ca9df25af|2016-09-28|Pieter Eendebak|clean up parameterviewer code
+ce1bfc2ad1226517f026719bd353f17e93f967cd|2016-09-28|Pieter Eendebak|make parameter getting more robust
+89e2647c9f675a6876b60b7a2ff932289bb5e05e|2016-09-28|Pieter Eendebak|fix delocalization in dotsystem (never implemented properly)
+bec00747abc9c199646ae83d8427dc6125fe6bad|2016-09-30|Pieter|add docs for redis
+99569e660d4dd3e09a136c22edeef982dfc84573|2016-09-30|CJvanDiepen|Merge pull request #21 from VandersypenQutech/scan_2d_fast
+673b2fd089df491277bbe9e6fbf940d1bc9d0f50|2016-09-30|CJvanDiepen|Fix minor based on comments on pull request
+49999e4383b8b7767bd1fccb45aa43939ec30e53|2016-09-30|CJvanDiepen|Fix conflicts
+84cd73092c616876d4bf6b2768ca1741fb51db17|2016-09-30|CJvanDiepen|Fix in live_plotting
+72eb42b95ae29c6372bdbb7a47adc61b75dc6c4a|2016-09-30|CJvanDiepen|Fix speed of live_plotting
+cd737864d190c6bb838115ca2e6a135a21248123|2016-09-30|CJvanDiepen|Fix for scan2dfast
+7cfbff4405f36b56e756cbc3671d276df7e10aa2|2016-09-29|CJvanDiepen|Add work on scan2dfast
+f1cd4d517a026d056c5deb34910a42a733192130|2016-09-29|CJvanDiepen|Minor adjustment
+e24315b0735f85c4d2bb8dbc4eea9375a7bc91a6|2016-09-29|CJvanDiepen|Add work on scan2dfast
+351ec71d6c346302e59204b766a1af4f02c6225a|2016-09-23|CJvanDiepen|Fix code for making of datasets from raw data
+67b5cf0abf02577afc8bdf30b2705cb74f6bc4be|2016-09-23|CJvanDiepen|Add functionality for scan2Dfast, needs to be cleaned up!
+bcc3b11b8ce661d1e3edee193cec36b718998b39|2016-09-26|Pieter Eendebak|update docs
+85b1c3295fea1fc3f72b9edab7d717363e334e9d|2016-09-26|Pieter Eendebak|vectorize code in dotsystem.py
+4d73818ed77ed5a9ecd698888a0a1a97c75e8c9c|2016-09-26|Pieter Eendebak|add extra checks for rda_t
+d4a46dc7d5fcf8f89aaa980da33ada5b7e729091|2016-09-26|Pieter Eendebak|allow live 2d plot to with with non-gate axis
+841ff78a45d6599eec44c6abab60f7ffcbc9d742|2016-09-26|Pieter Eendebak|add convenience function to parameter viewer
+a928df09d38a7eb01ae62db04c17162428b232bd|2016-09-26|Pieter Eendebak|fix small bug
+33aabfef9512aa7381a9767265426662e5497709|2016-09-26|Pieter Eendebak|add rda object; fix small bug
+d54e1e95412ff1f207dbc4f451c6deefc5f187ea|2016-09-26|Pieter Eendebak|vectorize calculate_energies; add more coulomb interaction by default
+0cce4142e0e147ec5559e2eade74c3b71fb8b0fd|2016-09-26|Pieter|autopep
+659144e0dc434cee3b4a68c9ddd7fbba5875fcc1|2016-09-26|Pieter|autopep
+157249710cd5a439928e0e53b64d1a6c782978ce|2016-09-22|peendebak|Merge pull request #19 from VandersypenQutech/virtual_awg_video
+d455bd3b15182def3322ee9d49a71475a0918ee3|2016-09-22|CJvanDiepen|Fix merge conflict
+59851ac43d39232c774e53370746d88103346e34|2016-09-22|CJvanDiepen|Add preset_data as optional argument to makeDataset functions
+067666abd63923356bc82493bd6e99a6b1f1f8b8|2016-09-22|CJvanDiepen|Fix minor based on comments on pull request
+cd9e49123dd440166ed9032b4c6a8a1e4a7b18c8|2016-09-21|CJvanDiepen|Adjust fpga_ch attribute in initialization of sensingdot_t object
+01a3f6769ebce9b96de0e9ff6eda1b20f79e7d71|2016-09-21|CJvanDiepen|Fix processed comments on pull request
+98bfc08e90d823b438a7d578398c620743279284|2016-09-21|CJvanDiepen|Add option to keep waveforms in awg list
+527b45e3e26cc2eff103b8943271228f5af30549|2016-09-21|CJvanDiepen|Add improved naming of waveforms for fasttuning during videomode
+d9a3b7b6624691038ad46aa51b39899f8717491a|2016-09-21|CJvanDiepen|Fix consistency in code of live_plotting
+2a244a9ea0b843471eab4a40a2a598488991212f|2016-09-21|CJvanDiepen|Fix hard-coded values to attributes in virtual_awg
+6ede378a7d8147246c5c90cbc5d92174b602fb9d|2016-09-20|CJvanDiepen|Fix conversion to numpy arrays of measured data for saving of dataset
+d738dd829c2a20af065f86ce8772de1685c7ea74|2016-09-20|CJvanDiepen|Fix based on comments on pull request
+11bdf1a42349ba70360735c8cb29f03ebd5599cd|2016-09-16|CJvanDiepen|Move hardcode value to default function argument
+09f79a1da62a3332185cad87eba5ced41221993c|2016-09-16|CJvanDiepen|Add fasttuning to sensingdot object and autopep structures and fix minor in virtual_awg
+9db8cece352644109eadae22574ae9a7b55a1f1d|2016-09-16|CJvanDiepen|Add sweep plotting functions to scans and make virtual_awg fully compatible with remote instruments and fix and move live_plotting
+a5ef509ee3e6cdffa2c61bb5d5a62e49690f05d1|2016-09-15|CJvanDiepen|Add work on videomode and liveplotting code
+4bf23f7d3a2a6194124381539d36570825582856|2016-09-15|CJvanDiepen|Add make1Ddataset to data and plot_sweep to virtual_awg
+f6cbf07d640054cdfa17b260b699c86b72110a65|2016-09-14|CJvanDiepen|Fix range for 1d liveplotting
+daa6c0cdd7ff6008a4d28919ae623e2c99c1a030|2016-09-14|CJvanDiepen|autopep8 of data
+93f0caf46509566bf4e8c43d9135bf06e5a64d43|2016-09-14|CJvanDiepen|autopep of live_plotting
+83c9576a421b6f74b238b0144b4adc07304c4ee2|2016-09-09|CJvanDiepen|Fix minor
+47c90e41c703338fddff3d4fdfb08b3c1319b2c4|2016-09-09|CJvanDiepen|Add makeDataSet2D in data and add plotting of 2d sweeps in virtual_awg
+34be61d9e7cab4701f73363a752705a196620b9f|2016-09-09|CJvanDiepen|Add 2D sweeps to virtual_awg class
+249f918812e1128cf40fd405478602134e6947ae|2016-09-09|CJvanDiepen|Fix small things:
+2468b75291895c89c52cba5b4f4a029304121d05|2016-09-16|CJvanDiepen|Add sweep plotting functions to scans and make virtual_awg fully compatible with remote instruments and fix and move live_plotting
+3dfa19790857db36dec04b52315ef974dbbf815a|2016-09-15|CJvanDiepen|Add work on videomode and liveplotting code
+1215281a8b3320812a6d9947c56ddf9823cdca88|2016-09-15|CJvanDiepen|Add make1Ddataset to data and plot_sweep to virtual_awg
+b1cccb71fdb51d4907d7363d51285dc1b3036b67|2016-09-14|CJvanDiepen|Fix range for 1d liveplotting
+4570a73187868d04d7d889b9c8c151baefa96a12|2016-09-14|CJvanDiepen|autopep8 of data
+08ff30a5c6b20f6cdc334c59e393eb065457eca7|2016-09-14|CJvanDiepen|autopep of live_plotting
+5d35dfde39dc23bd304ec70a45ab2b13b1f084c5|2016-09-14|CJvanDiepen|Fix minor
+41eb9ff1a1a0e3976980db1472d94cde101cb4f1|2016-09-09|CJvanDiepen|Add makeDataSet2D in data and add plotting of 2d sweeps in virtual_awg
+cb387187dbdd345b4ee136f178d647b8ad440073|2016-09-09|CJvanDiepen|Add 2D sweeps to virtual_awg class
+31147a59caa2e9a7559cd326022323c525aa8cab|2016-09-09|CJvanDiepen|Fix small things:
+974e78c855cf66033eb8b72e9d7ee79559af4fff|2016-09-08|CJvanDiepen|Add attribute to fpgaCallback_sd object to set the channel to read-out
+60f5d1135d41fcaa3a4bb6b760726c3019bdfc7b|2016-09-22|CJvanDiepen|Add preset_data as optional argument to makeDataset functions
+d141f9d518c315a2f86b212d96eaaa44eca5e6bd|2016-09-22|CJvanDiepen|Fix minor based on comments on pull request
+8023838e127c5afecbd7cef72dfa16c0651f8275|2016-09-21|CJvanDiepen|Adjust fpga_ch attribute in initialization of sensingdot_t object
+6118a92c83bc00bd56bd62f53868ec0681a5ac30|2016-09-21|CJvanDiepen|Fix processed comments on pull request
+f113b840a151fba7bfc6fb67c5b85744e5ddab18|2016-09-21|CJvanDiepen|Add option to keep waveforms in awg list
+6b5410005dc62e0f54e9425ef5f2f7940394ca88|2016-09-21|CJvanDiepen|Add improved naming of waveforms for fasttuning during videomode
+32eddf0811cce282c7a981f4ba2ddc39d42518e6|2016-09-21|CJvanDiepen|Fix consistency in code of live_plotting
+01557820aed8376ecd44763f9507cae40cb66e08|2016-09-21|Pieter|Merge branch 'master' of https://github.com/VandersypenQutech/qtt
+fb9ef8ba981b9e3c92f6a3fb81efa6a5523a8c93|2016-09-21|Pieter|fix issues with bg
+1ee59b1803c8b3df63621de6f8b128789bdf0a8d|2016-09-21|CJvanDiepen|Fix hard-coded values to attributes in virtual_awg
+4763e07e709f0f605f11dcaf4e890edcfec1c0ba|2016-09-21|Pieter|fix setup.py
+76dea397c78cb11b69a299ece3a070562aa341ff|2016-09-20|CJvanDiepen|Fix conversion to numpy arrays of measured data for saving of dataset
+e175a364b74854175492ae74451691be86225e46|2016-09-20|CJvanDiepen|Fix based on comments on pull request
+87462374a52d9fae1d06e9fd2944edf3e5a5c467|2016-09-16|CJvanDiepen|Move hardcode value to default function argument
+f32fd57ec6c03e05b1b56e2cd0f71e9bb6dc4948|2016-09-16|CJvanDiepen|Add fasttuning to sensingdot object and autopep structures and fix minor in virtual_awg
+6623f4f3c981735de5532e724439049e20098f42|2016-09-16|CJvanDiepen|Fix conflicts
+63c391a076aceeace188a54eb0408a00b344a5ea|2016-09-16|CJvanDiepen|Add sweep plotting functions to scans and make virtual_awg fully compatible with remote instruments and fix and move live_plotting
+34bc2f5d1434ffa4602270d0e208c1f0acee7507|2016-09-15|CJvanDiepen|Add work on videomode and liveplotting code
+5fcfc87947e19fd31a3f80c72b83597e10faf518|2016-09-15|CJvanDiepen|Add make1Ddataset to data and plot_sweep to virtual_awg
+0e2cac3016ca9908ce1416962d85c719ee66dbc6|2016-09-14|CJvanDiepen|Fix range for 1d liveplotting
+f42354d2484f67179d7f3995ca0e9956bda46f51|2016-09-14|CJvanDiepen|autopep8 of data
+5d3539aaca5cb93f928ca4331d58c1d8f876a87a|2016-09-14|CJvanDiepen|autopep of live_plotting
+17572dd5a86f02ee49d22b8ee9d83b9232b76659|2016-09-14|CJvanDiepen|Fix minor
+fb764b3b51b74132c4e4afde5d79df4989995ef4|2016-09-09|CJvanDiepen|Fix minor
+c4dc397ae52b7cc7f436b0b956d34779eee9ed67|2016-09-09|CJvanDiepen|Add makeDataSet2D in data and add plotting of 2d sweeps in virtual_awg
+7f873b44641dbfd46e299c8b7c6c4b1dae7ccd7d|2016-09-09|CJvanDiepen|Add 2D sweeps to virtual_awg class
+a470ef0b566002e5d840544ab18dbaa874d0768d|2016-09-09|CJvanDiepen|Fix small things:
+b4f6b0b267e78fb3cbaddfe4d2f6fb2b29a263da|2016-09-08|CJvanDiepen|Add attribute to fpgaCallback_sd object to set the channel to read-out
+bd0b68379687ae447d90d616c6b235de08673a7e|2016-09-16|CJvanDiepen|Add sweep plotting functions to scans and make virtual_awg fully compatible with remote instruments and fix and move live_plotting
+cdd3f497c6697bf14a4fd44c7a40e43fe3901eed|2016-09-15|CJvanDiepen|Add work on videomode and liveplotting code
+f73cb3837644a60943a946bdd3d0ec7caffd31f8|2016-09-15|CJvanDiepen|Add make1Ddataset to data and plot_sweep to virtual_awg
+4395b22a9d43d0a0750950edd95d2b7f32d0a374|2016-09-14|CJvanDiepen|Fix range for 1d liveplotting
+f8d2525be9973075529b4884c813d9e5e4bd4b80|2016-09-14|CJvanDiepen|autopep8 of data
+a377720898c4d21efd120f71d10849a71cf3b8cb|2016-09-14|CJvanDiepen|autopep of live_plotting
+76fbc9bea56514be6a8a0892ff65292e604d8c03|2016-09-14|CJvanDiepen|Fix minor
+f8be4ff2e2df3e12564e998956d363302493a1bb|2016-09-11|Pieter|guard against multiprocessing issues
+a44ded4689941d3d4a4aea05a92cb4347fa6db81|2016-09-09|peendebak|Merge pull request #18 from VandersypenQutech/macOS-installation
+f2fe0f9d473df0886afe1110130576ab14adc553|2016-09-09|Pieter|merge
+b279fc7ec3c581f4576815c6b149cfbf9019667b|2016-09-09|Pieter|fix typo; add matplotlib to requirements
+d730f94472e2513a6e8efb2c1649f29a43677369|2016-09-09|lgnjanssen|install on Mac OS with python 3.5 instructions
+684ac1be89c892da6378d55de5d3f95d2bbda6da|2016-09-09|lgnjanssen|seperate requirements list for mac installations
+e00a05d8e72664805cbac52997469bdd9d366cd3|2016-09-09|Pieter|update qtt_example
+986e07df065c9fe380f5a39ec0778593e14db785|2016-09-09|Pieter|make qtt mutiprocessing safe
+5b9bf7bacf8cefd6565566cfdb577faabfea1fed|2016-09-09|Pieter|fix merge
+8ffee6a0a2b71867ff77ddf2111a47499618b64c|2016-09-09|CJvanDiepen|Fix minor
+1714d266f204f1ca3d8585bf64e9e3a8d236c5fc|2016-09-09|CJvanDiepen|Add makeDataSet2D in data and add plotting of 2d sweeps in virtual_awg
+6d2cb4afc6da35f033552c00f65d1f772cfa6661|2016-09-09|Pieter|matplotlib init in qtt
+85f0027155c203e794136751d2e3f88d56244b72|2016-09-09|Pieter|autopep8
+200b4547acf8e47f99c0f02671cdfcfac88f7c09|2016-09-09|Pieter|update docs
+24f772944a6a75da1cb295c95916f20c8b96206e|2016-09-09|Local Administrator|add init
+a3f0ff6d37b52253bfa2187596e4b9656abe183c|2016-09-09|lgnjanssen|install on Mac OS with python 3.5 instructions
+47ffe0931a7700d04a0525dff5989282d3d0e875|2016-09-09|lgnjanssen|seperate requirements list for mac installations
+e41c08964e88bbf22546672ee7bb24f17837a241|2016-09-09|CJvanDiepen|Add 2D sweeps to virtual_awg class
+b43c43903e4743de6cbb857fc0fa2d86da43f086|2016-09-09|CJvanDiepen|Fix small things:
+1c3ab817444afc83bf30c16084440ab799207e9d|2016-09-08|Pieter|typo
+4fa327e3d8b520f9b6ceb448df293d24d58b0939|2016-09-08|Pieter|Merge branch 'master' of https://github.com/VandersypenQutech/qtt
+9cee033bd23cd94c8b010d302449efa15cf3ead1|2016-09-08|Pieter|fix possible race condition
+d1b54040c676907959e4b95bb8d15d02332114c8|2016-09-08|Pieter|misc fixes
+9d990b7e886c8d68ab21b686292c770e39351729|2016-09-08|CJvanDiepen|Add attribute to fpgaCallback_sd object to set the channel to read-out
+f6ce9d72fb463e21a24aed7fd813a79e96c7066f|2016-09-08|CJvanDiepen|Fix virtual_awg in if statements wrt awg_seq
+01c098b9bc2e41195dbf1c56a50b9b993a0000f7|2016-09-08|CJvanDiepen|Merge pull request #17 from VandersypenQutech/virtual_awg_adjust
+b9089315dddec658752843fe4a208fe6be4bb951|2016-09-08|CJvanDiepen|Fix in slice in sweep_process
+6cd2a731e6c04ba4ba7ae54b4440c3b50c289572|2016-09-08|CJvanDiepen|Fix parameter names for FPGA and AWG markers
+9543f68fce1a3ffbf1a977fdd5a770d20b32f692|2016-09-07|peendebak|Merge pull request #15 from VandersypenQutech/videomode
+3a75d524bda8fd6415b0354eca63320709a0a083|2016-09-07|Pieter Eendebak|autopep8
+8b7270a596409876183876a0260571f3b3b2d8ce|2016-09-07|CJvanDiepen|Add sweep_process to virtual_awg for processing of sweep_gate data
+43e11f20ed3be35087e78822378165451fb356b9|2016-09-07|CJvanDiepen|Fix setting sampling frequency to default when FPGA is initialized
+13c6299c4ce68610e9e4ac3269ca945305d23ad8|2016-09-07|CJvanDiepen|Fix in documentation of sweep_gate in virtual_awg and first step of writing sweep_process function
+4d71ac6d6e02d32ec7276091d739a86548c08120|2016-09-06|CJvanDiepen|Fix delay parameters for markers in virtual_awg class are moved to constructor
+59d0df324e317b2738e5ad909f1e3faeff6485a8|2016-09-06|CJvanDiepen|Fix width optional argument for sweep_gate
+e0af4d4c64e2dd351ebeafcc2bf7c60413d55c27|2016-09-06|CJvanDiepen|Add optional argument in make_sawtooth for the width of the wave in virtual_awg
+40d3ca7938244c277a4b1beb232ee0e9c5a56247|2016-09-06|CJvanDiepen|Fix sweep functions in virtual_awg
+b07c78925dc8b42c15701206bb79f2f617f3db86|2016-09-06|CJvanDiepen|Add make_sawtooth and plot_wave to virtual_awg class
+34835a3b2715dc6219a1d926f05665e49e8f3bee|2016-09-05|CJvanDiepen|Add sweep_gate function for sweep with triangular signal
+9d99f2bac6470bb76698babeac768b3df9f706f4|2016-09-05|CJvanDiepen|Add sweep_init and sweep_run to virtual_awg class to sweep gates with AWGs
+d41709a99058231e865f42a1da8cc47c70b9b99d|2016-09-07|Pieter Eendebak|add missing test files
+f89bc014479b4ef1aa26fe83e7682bff16ae6fc1|2016-09-07|Pieter Eendebak|run 1dot script on virtualDot
+ca5efaea89ebe9615bdb546787735e93c445fb31|2016-09-07|peendebak|Merge pull request #16 from VandersypenQutech/feat/tests
+7c6bd2a327873e47d091f3b44aecacaca2b6e7dd|2016-09-07|Pieter Eendebak|add testing framework
+db4d242edc0d0a6cc4794386e053424913f1fce4|2016-09-06|Pieter|prepare 1dot script for 3-dot sample
+0b0f0a6590d29f15364b832f0e6e5b468e82c217|2016-09-06|Pieter|changes to 1dot script
+edcdf223963f7b51c5e389450289feb6e9e8842f|2016-09-06|Pieter|changes to 1dot script
+e0f555306e732644fb0c6bfbb926d044a9645b86|2016-09-06|Pieter|Merge branch 'master' of https://github.com/VandersypenQutech/qtt
+9222985caea3eaf395cb34129265ef74f23c1372|2016-09-06|Pieter|update README
+c81a8f81d7b3ab8325499cbb39956482908bd118|2016-09-02|CJvanDiepen|Fix flip the image shown in live_plotting
+6b16be38c69b5516d139e3ec0da5fc290ca147fa|2016-09-01|Pieter|fixes to live plotting with V2
+bf3762a99b315ec8f0a1a9b222fc9ecfd3e73325|2016-09-01|Pieter|use qtt.pmatlab
+ac656157f37a8ba9340be0f5f967f429ad3b3d1a|2016-09-01|Pieter|Merge branch 'master' of https://github.com/VandersypenQutech/qtt
+91407b9189c5cee6cb44846979261b43aad33bac|2016-09-01|peendebak|Merge pull request #14 from VandersypenQutech/awg_sweep
+9e65bd5d0e8596eb53cfe4eda7e01995a2521551|2016-09-01|peendebak|Merge pull request #13 from VandersypenQutech/tmp7
+08abc999b9da59193b107dd7de92c85cf42e5965|2016-09-01|Pieter|update parameterviewer
+574016b24261c2e781665f57a67e17c357a785ac|2016-09-01|CJvanDiepen|Add sweep_gate to virtual_awg class to sweep a gate with a triangular signal
+d74aec539050f739f0c458c43c7732b461b227ba|2016-09-01|CJvanDiepen|Add shared_kwargs to virtual_awg class
+d00c1589abc9d645684902c63878fb9154cd6141|2016-09-01|CJvanDiepen|Add documentation for sweep_gate in the virtual_awg class
+79e8cb424f32d87290de0217bdbb4db2ed624044|2016-08-31|CJvanDiepen|Add virtual_awg class and add sweep for charge_sensing_2d_fast
+3a729e794c323997b6be15ac635e54d076eceb3a|2016-08-30|Pieter|fix bug in dataviewer reloading
+eb4de0896e7a42847a0887676d02eeaddae8be0f|2016-08-30|Pieter|improve dataviewer and PPT functionality
+ff13b864832617e40c9bb80ea5c641518550a984|2016-08-30|Pieter|ignore matlab temp files
+196c2cc7e9bb0eee543707358beca33458f7ad16|2016-08-30|Pieter|added dataviewer in qtt (branch from qcodes)
+046dcf7150225c127810c02441227bda6e225339|2016-08-30|Pieter|added reading hdf5 in matlab
+a95b66e20108c9a5b5f1e13203174e79b9fcc76f|2016-08-29|peendebak|Merge pull request #12 from VandersypenQutech/tmp7
+4cadf42fbd1ebede3e5a25a778d13069e3eaeb1b|2016-08-29|Pieter|improve speed
+e57f18695c05858e65d1b670fe6bf2261c4c560d|2016-08-29|Pieter|parameterviewer
+f9a4a89e41c63d3a9e25a574ab93d49531ad009f|2016-08-29|Pieter|work on classical dot system and live plotting
+f58a520b6aff32e760a12a35b2cc3e438fbc64e3|2016-08-27|Pieter|remove unnecessary get_parser
+8852ef7ee6c16bfaf579003639807348d31338b1|2016-08-27|Pieter|added doubledot to dotsystem
+aff571106b06f9c9c56d50d17eed2d457739745b|2016-08-27|Pieter|remove warning
+ff529fadfe70c3957e7415cf5546a5e442d10a99|2016-08-26|peendebak|Merge pull request #11 from VandersypenQutech/videomode
+fd52474e61c7467133e1a57fe0e0e2399c1df3dc|2016-08-26|CJvanDiepen|Add 2d liveplotting for very fast honeycombs
+2237da7034d424b226241fe3189522da255760c8|2016-08-26|peendebak|Merge pull request #10 from VandersypenQutech/readFPGA
+6d55e013d2f90f0093385f02fbfb890f92078bc4|2016-08-26|CJvanDiepen|Add readFPGA and fix get_ch1_data to increase speed
+a66dbe11f96b3b21c85729fa058a0341a069528a|2016-08-11|CJvanDiepen|minor adjustments for 2d liveplotting
+767c4fe59e7ac9e4097da07ecf77f3a3cd2b1b31|2016-08-10|CJvanDiepen|explicitly make floatsof values for setting of gates
+7ff79ae90f02e81dd62796d0db36f271ef9d8e5a|2016-08-10|CJvanDiepen|adjustments for 2d mode
+e6fafc9c141c050e217bfed62dfb7076ba1ad9f3|2016-08-26|Pieter|added missing classicaldotsystem
+bd3b68f28be08b3a5d291978c672ff0dc350d3d8|2016-08-26|Pieter|add safeguards to instrument storage
+583ba67aea2b3891c41bba992aa39069bd7adb2a|2016-08-26|Pieter|add instrument storage
+f582334a2fd2e21fd483922aa859c192a783cb2a|2016-08-26|Pieter|update docs
+14adc4c407ff647aebb1a24868545deeba877545|2016-08-26|Pieter|fix ipynb
+7b683ccdde4b68cca24d9d152985c7e5fd96e76a|2016-08-26|Pieter|Revert "remove file that was added by accident"
+30a92fc7adfb09a278a0ae4db5e8691eec28067f|2016-08-26|Pieter|remove file that was added by accident
+32af1a6eedecf82789970b78faf9cbd9e09cad8d|2016-08-26|Pieter|update install.md
+8b46450527adc9b3997fb0b2ac8eb68970317efc|2016-08-26|Pieter|update install documentation; use qtt.pmatlab
+667dab7cd7270488ddc4e86178a1fe88589d7258|2016-08-26|lgnjanssen|Merge pull request #9 from VandersypenQutech/classical-simulation
+29652c316016414c693bf7a46ab78856b5c2f308|2016-08-26|lgnjanssen|minor bug fix
+828811c6d8801672543b68f8ad064e13e5f1c6c3|2016-08-26|lgnjanssen|merge with rebase with master
+537559df5b7adad6b53846ebfe469ba245b4e1f6|2016-08-25|Pieter|improve speed of classical dot system
+6b266cedc00174156daef5ea57196357aa11064a|2016-08-25|lgnjanssen|updated example ipynb
+22ef027d6c59214aafca40211192c67bf8c9410c|2016-08-17|lgnjanssen|added multiprocessing to honeycomb simulation
+353731ad6770548d6c7aba62aaf4f4886a030f20|2016-08-17|lgnjanssen|fixed some bugs and added ipynb with triple dot honeycomb example
+c4f4529fb901bf5e4b60b834d95a0a4fe9ada9e3|2016-08-17|lgnjanssen|removed 'exec' calls
+025c2da21f9c7d066dfa4f6886637a41a0045f4a|2016-08-17|lgnjanssen|added simulating honeycomb
+d12843b3d1bcd5213bb51ed392b91fb13f731744|2016-08-16|lgnjanssen|added calculating groundstates
+f14f6955981697ae33cf58297efdde583fd6a804|2016-08-16|lgnjanssen|Classical triple dot + example notebook for testing
+64492b9f96b2ca9e0e109375bd6edb6b3bcaefca|2016-08-15|lgnjanssen|started wrinting new classicaldotsystem class
+bd86bfca79cf2e9ebf00fee0057762a428697364|2016-08-15|laurens|type in README
+4e1836f6901ef1726312e0d9c6c0767dc7a48b52|2016-08-25|lgnjanssen|updated example ipynb
+547b0d250cfc8d6230bfeee9fab840588dbcf071|2016-08-19|CJvanDiepen|Merge pull request #8 from VandersypenQutech/powerpoint_dataset
+d11d6bc59165ae4067dac1e3509b0947ed406429|2016-08-19|CJvanDiepen|Fix some no longer relevant notes
+c813ad737420153556d7e820541d5236e6a39b3c|2016-08-19|CJvanDiepen|Fix of addPPT_dataset of implementation of reshape_metadata
+bc7c34e7d06cd3f079e3cc954d5b4bd92f930672|2016-08-19|CJvanDiepen|Add reshape_metadata to improve the readability of the metadata that is e.g. by default put in the notes by addPPT_dataset in qtt.tools
+a59fafb6bbbab00272efcf4f75b9a1696bc85732|2016-08-18|Pieter|add check on status of PPT; add dummy function for PPT
+73d118c01a2de07a4b048ca634185737d5fa39e6|2016-08-18|CJvanDiepen|Fix dataset.default_parameter_array() usage and add metadata input to powerpoint slide notes
+813a66b0272d558ef31d0816429041bb2882c029|2016-08-18|Pieter Eendebak|update README.md
+342650a6cedce6c2f8346427f845abb6d5bfb50b|2016-08-18|CJvanDiepen|Fix in addPPT_dataset in qtt.tools of array indices
+5754b834f0de626051157a59dab9514a950daa96|2016-08-18|CJvanDiepen|Fix in addPPT_dataset in qtt.tools
+c6e9cdded167db5b6114ceae8424ebc14d0a8c31|2016-08-17|CJvanDiepen|`addPPT_dataset` added to `qtt.tools` for adding powerpoint slides based on dataset objects
+38c4431a932d623a0aac846dc294251286890824|2016-08-17|lgnjanssen|added multiprocessing to honeycomb simulation
+e9363c7f82a46314ffe292d4de045704f2d711da|2016-08-17|lgnjanssen|fixed some bugs and added ipynb with triple dot honeycomb example
+521631ab5631013b5df2941d56febc28031fa894|2016-08-17|CJvanDiepen|Merge branch 'powerpoint_logging'
+a1b75366ca9208314631c927d96d5d15e033506e|2016-08-17|CJvanDiepen|resolving merge conflict in qtt.tools setupMeasurementWindows
+958e209f7660dce3d84ef68099e2983df9a108c7|2016-08-17|Pieter|clean up qtt example
+000f2d6d97b633cfa85b2485cf7d0bee89acc306|2016-08-17|CJvanDiepen|An additional if verbose for a print statement
+a120b48b48520d0c974db66eaa5fd8a3a1814278|2016-08-17|CJvanDiepen|Merge branch 'powerpoint_logging' of https://github.com/VandersypenQutech/qtt into powerpoint_logging
+086f5bf0d00fad3657a50c52e91c47156eb2bcd3|2016-08-17|CJvanDiepen|extended comments for addPPTslide and added qtplot functionality
+1812289e2437f74c0d8b6027b82d3680cf83cf63|2016-08-15|laurens|update README for installing and using QTT on other systems
+f1e1dcc72b80055772b21143c3d18945992f4526|2016-08-17|lgnjanssen|removed 'exec' calls
+d6136d098c27a11951d296038171a49f0ab65c35|2016-08-17|lgnjanssen|added simulating honeycomb
+64d4138a36edbabfad8b65fe57a1ec88ac0d94c5|2016-08-17|Pieter|patch QtPlot callback
+0fb624323c8dece3cedf9015a9cb1088dca22829|2016-08-17|Pieter|make dummy addPPTslide have the same arguments
+64b2ec2a5302d30350d0d73f9906bcb4efa69350|2016-08-17|Pieter|autopep8
+af0466b3f443d397fd2a9855667d52fbcf682cbb|2016-08-17|Pieter|add verbose options; add part of documentation
+6514ad2c7ff2bcac13d4b1a10b989ab994325fec|2016-08-17|Pieter|work on 1dot script
+744d9d8c492f973588f6632797c48ec0d8230079|2016-08-16|lgnjanssen|added calculating groundstates
+266a3525f66621d7e4df20be542e7dfb8b1c517a|2016-08-16|CJvanDiepen|addPPTslide can also insert notes and save figure as shown with matplotlib
+aa4c883ed8901a6de17d54586c70b7bbbee48216|2016-08-16|lgnjanssen|Classical triple dot + example notebook for testing
+b0c51b7ca171bd24016b0d7d4a2d164b0a5da972|2016-08-15|lgnjanssen|started wrinting new classicaldotsystem class
+bbd1e301761aa5234e3367779161e49163d32b8e|2016-08-15|laurens|update README for installing and using QTT on other systems
+730872e03421edab2f29bd0283080f3fa04738e5|2016-08-12|Pieter|remove 1dot_script
+3a437a526f783849e3678587429ccacfc56681e5|2016-08-12|Pieter|make parameterviewer more robust
+9259152ea3e32302253675622dae9e6deccf7406|2016-08-12|Pieter|move 1dot_script to fourdot_script
+6c2928f363f4c16478f19c3f3f5fe55f70a8a002|2016-08-12|Pieter|Merge branch 'dev' of https://github.com/VandersypenQutech/qtt into dev
+f7bc0bf0aed5375daaf45fede6f0c0399b75bc20|2016-08-12|Pieter|add missing coulomb.py
+b73e8fac303df45d0b2549dc429462ef320b68c2|2016-08-11|Pieter|small fixes
+fdcc06adc131befa84597ae3ae3d594dcf030297|2016-08-11|Pieter|work on 1dot script
+22d32f82fafe914007dac6a925b5f6e54a379f4d|2016-08-11|Pieter|port sensingdot_t
+e3c781d9e52a3e15f6726d446e7e254b6020f459|2016-08-11|Pieter|add locks to simulation
+87646846b6a96c7a61d02737ca2982a5e65f5f15|2016-08-10|Pieter|work on 1dot script
+fb9c45b32f095c7a2de66386b9352f32f03668ad|2016-08-09|Pieter|small version of pmatlab
+6e4bb77c0dbb3376594adce0c405856fb3b14ae8|2016-08-09|Pieter|add conversions to float
+6d229ad8a5f34d89c68f11a6f9d169278f9fd9a8|2016-08-09|Pieter|add qtt_example
+765e45c43097405b0c10cc4b48c10146f509c2a5|2016-08-09|Pieter|add qtt_example; merge parameterviewer
+2f94437b7fae0a6843169119a379a18a42f7d73e|2016-08-08|Pieter|update README
+cd406a9cce4a24545d2ab6d4b920c06ebd94940e|2016-08-07|Pieter|fix bugs in analyseOnedot
+a96cf6e3bf884fdc872fbdebf57041d73d13ea94|2016-08-05|Pieter|work on 1dot script
+d688ef743b3d64e97ec9f68f7497ccc09f9dcb7d|2016-08-04|Pieter|work on 1dot script
+d949deddb241a1378fb4a28c2431e5be021dca19|2016-08-04|Pieter|add param_widget module
+68bbb696043a5f86c666eb458024aeb5a2f7c966|2016-08-04|Pieter|clean up tno_toymodel
+7619125b4cbc36560b6e1d8d0dee22980146ebfa|2016-08-03|Pieter|update readme
+fd94a3152ac6c4b853fab6ee1590d1f9c8e4bd75|2016-08-02|Pieter|add try catch around heartbeat
+3e868e94164ea99e378c03d71f8a6f23eb0013f3|2016-08-02|Pieter|Merge branch 'dev'
+9ad4c6cf31f7b2289c57ffe20e1805cfccb63b70|2016-08-01|Pieter|fix last issues with new instrument model
+351ca4ad1565738d5e46c09edbacb62eb1753668|2016-08-01|Pieter|remove mockmodel
+c06e3b1af63abb9baccee06fd318669b96a31bb7|2016-07-29|Pieter|Merge branch 'master' of https://github.com/VandersypenQutech/qtt
+d05e63de2ca69cabaf168661f428473eccc9b6d4|2016-07-29|Pieter|update from V2
+6d57731c0a9f90947a21c5334eff223caad5b435|2016-07-29|laurens|addition to previous commit
+56ee58d4a2a420bb09f2b92c2271112dc9a68fc2|2016-07-29|laurens|added pip hickle to installation instructions
+bd57198cb4c0e7cae12aed61f01fe30766646c20|2016-07-29|Pieter|Merge branch 'dev' of https://github.com/VandersypenQutech/qtt into dev
+cec0fe084256f6c3c84396e7575d1a2497cb991c|2016-07-29|Pieter|add logging GUI
+bf97c426391b0728f057a7457ad95d964c06f4cc|2016-07-29|Pieter|update
+af7dca3801636abd07d872e721caf1460cb26a64|2016-07-29|Pieter|update installation instructions
+39c02e57fb38eebd50a5c6ee2f9c057cee8aad65|2016-07-28|Pieter|Merge branch 'dev' of https://github.com/VandersypenQutech/qtt into dev
+8cac9887f9f76c0ec73e43a166d1288fdd2cdcc3|2016-07-28|Pieter|refactor code
+082d287abe81448a93d849402bc2e3b75163d356|2016-07-27|Pieter|update
+63ec55e1731833b6df18241800d9a3241e9cb982|2016-07-27|Pieter|fix import issue
+018097f43b8abba1ad1e08158be804dba67e807f|2016-07-27|Pieter|use dac instead of c; refactor simulation
+9baa1475856bb27b1aeeba9cb059ef02f146a47c|2016-07-27|Pieter|update to new qcodes
+58a93385ab95244cb8356e9ff9556ce62f016850|2016-07-27|Pieter|update to new qcodes
+e5a6a97e41c20ea1c359249249142dde865837f5|2016-07-27|Pieter|fix hickle version
+4df50bf19d66399c6febe1e45a89bfd633050689|2016-07-25|Pieter Eendebak|fix merge conflict
+0c396c34613f1cec77f3fdb6e2fb6cb033a41ba5|2016-07-25|Pieter Eendebak|solve merge conflict
+539381c3dd3cb98aebe38d15dfb27a28308944af|2016-07-25|Pieter Eendebak|fix code for new array names
+584a3eb87aade534f70526c3552f9f1d308ca7ee|2016-07-22|peendebak|Merge pull request #6 from VandersypenQutech/dev
+35c608c5bf3acb9bfd537802e09b142f26a4eef6|2016-07-22|Pieter|update setup.py
+12ae95a265c9e2ae3befb5d08e8db6fd5cdcdf85|2016-07-22|Pieter|add markup module
+1308c7b8250b15ba9a3cb3211c11d2c518be621a|2016-07-22|Pieter|use dac instead of c in ivvi
+542cf2213ff20113500dd7a0a0dcfce24be4b796|2016-07-21|peendebak|Merge pull request #4 from VandersypenQutech/temp
+e88756e507e323e3f64d24ab3496f2d2a867a94f|2016-07-21|peendebak|Merge pull request #5 from VandersypenQutech/dev
+a7497b4811ac3d5af5ac333369e5e334d26ebf0a|2016-07-21|Pieter|Merge branch 'dev' of https://github.com/VandersypenQutech/qtt into dev
+9ffcdccf93998a4da1cacd53ff2d81266de8d35a|2016-07-21|Pieter|add keithley driver locally
+0bc5709ed57dfa3bfd0d13eb589ae46a26a42480|2016-07-12|Pieter Eendebak|fix typo
+a079141be7ce5fe7aec95c5c824985a6ee919c80|2016-07-11|Pieter Eendebak|fixed for 1dot script
+f32945bd1d87cc0f7260285e6fb5a44ffcbb4453|2016-07-11|Pieter Eendebak|make qtt work with recent update of qcodes
+e7b9e7d5ba9a624666d1a41d068995f0fe88bcbf|2016-07-07|Pieter Eendebak|start work on update widget
+3e720da7575f6dccb2eb39738a18c5b9b1e86e7c|2016-07-07|Pieter Eendebak|make example code work with new version of qcodes
+49e3d578cb85d108e7f192d0f65d55d2fffa829e|2016-06-07|eendebakpt|bump version
+a04e48f4d3109448417179f16736162a15c073be|2016-06-07|eendebakpt|update gitignore
+59c5aa7c084b0ff38ca8f7e15a8e5fb1d22fff31|2016-06-07|eendebakpt|refactor code: 1-dot part of batch script is running (results not yet complete)
+23eeaa084edcd3344512c971c3a704d4559235d8|2016-06-04|Pieter Eendebak|add live_plotting example; fix multiprocessing bug
+2350b9d4c06fe5857ac39ad2abbe65631463e27a|2016-06-03|Pieter|add loading of qtlab data
+edd83a8934b4d801ba7d0b99e966b0d23c7609d8|2016-06-03|Pieter Eendebak|add legacy module; add condalist; refactor code
+7dc4ffb6fc22c2e23447200d0dd1a3295e9bf934|2016-06-02|Pieter Eendebak|more work in conversion
+2d2a5e76543c7c39a8175e5059769826044af3fe|2016-06-02|Pieter Eendebak|add coulomb model
+93f2d2283462f84c5d6262daf2fe294a6bdd813b|2016-06-01|Pieter Eendebak|fix documentation formatting
+e549b5f7e5662fdc11792612712b211352698a0e|2016-06-01|eendebakpt|start test framework
+d7cc2205ded5adbe26b0a091d40db25a6254017e|2016-06-01|eendebakpt|more code conversion
+c7ef3a447344d34cd5470288f3be9894d5150b4d|2016-06-01|eendebakpt|autopep; work on 1dot script
+10e4390791c59ec6f6cb6fc044ce848036e0807b|2016-05-31|eendebakpt|report issue with scan direction
+bef40dd811df0d7e5b11621c05adcad7a07c7465|2016-05-31|eendebakpt|work on 1dot script
+01d0cb87b7dcc23b80d4613f17f0884126b07617|2016-05-31|eendebakpt|work on 1dot script
+3f336d7a7e1606cbbc4ec330fbd991c001c749ad|2016-05-30|eendebakpt|refactor qutech packages into qtt
+c4b258e11a2a9413682c0d809c1dd55fe3532c77|2016-05-27|Pieter Eendebak|write datasets
+5302d55063c7b67bc8df300dd72c4586572fe75b|2016-05-26|Pieter|fix
+a3236d534992db8998482c8a0eb00cf1998be950|2016-05-26|Pieter|fix background loops
+0a950d24bc275eee65192cd69ddf00f655563ab5|2016-05-26|Pieter|update docs
+fba1f9121c2113f78e2bf53ae4dc6d4356be643f|2016-05-25|Pieter Eendebak|sync
+6945fe5bdf35581c0b2e323f03ff2eee54621d85|2016-05-24|Pieter Eendebak|use tripledot by default
+67517bc29fb99386dba3fa04a4a6f8e39102720c|2016-05-24|Pieter Eendebak|refactor code; make dotsystem faster
+17e97e19b86f64a57e2f55987013142c7a50e327|2016-05-24|Pieter Eendebak|refactor code; make dotsystem faster
+63b1dd4d02a7a7c0ac0cd552afa235d1c69f4460|2016-05-22|Pieter|try to solve problems under windows
+3a7f4f47b591064336b8f943a0661d4c012b59fe|2016-05-20|Pieter|eliminate pmatlab from qtt updates to installation guide
+6a3148e8e0cca0d8f32631859e0628c7532717aa|2016-05-18|eendebakpt|update to virtual model
+17241a7905b2690695ec69d1330f2006dacfde1d|2016-05-17|eendebakpt|refactor code
+5c364b856f589da8539b171d44b93143cfe55116|2016-05-16|Pieter Eendebak|more work in qcodes measurements
+127315b48dccfeb4836c645c0c8b4f778629e467|2016-05-13|Pieter|update INSTALL.md
+2cfbc824ebf1bc63d33629f38e38899204c2d481|2016-05-13|Pieter|added INSTALL.md
+551381becab9cab3358916c6e1bdb970e67cdc5c|2016-05-12|Pieter Eendebak|add scan2D to framework; further work on 1dot_script_batch.py
+e8ac864ca8f984f38ad16739a70324e24295ee68|2016-05-11|eendebakpt|work on conversion of 1dot_script_batch.py
+8a2e22d295f93a40e3e8dd9f6483e595bac09c7c|2016-05-10|Pieter Eendebak|small code cleanup
+bbf51312e507623fd58f1eeed3cc8a15ff5bd48c|2016-05-10|Pieter Eendebak|start of conversion to qcodes
+da5c5f37277e29da424a980c303fba99fb30237d|2016-05-10|Pieter Eendebak|add travis file; refactor code
+05c8280fc5634564586ded7e957d882edf4e8f99|2016-05-09|eendebakpt|refactor code
+a7e36d5fa0e53a70be9846c4bdc65ee185933783|2016-05-09|eendebakpt|added logviewer
+fc5caa0a6f5712f323f1a93055cbd58fdbe63270|2016-05-09|eendebakpt|add visualization of virtual gates
+e0ea5465bf1f174597fac9cb42e46358827f9970|2016-05-03|eendebakpt|add virtual gatespace transformation
+ab39c3242d7142254ff42216a6c578a29ad7372f|2016-05-03|eendebakpt|fix issue with degenerate energies
+af447c020be22bbb44b8b4f27d0cb9f0b5b82ef4|2016-07-21|Pieter|add keithley driver locally
+5c59e36ce7bfdb36c605e61125ecd6bed43b229f|2016-07-12|Pieter Eendebak|fix typo
+8b2149eb77d257cbb0909e85f01bdcfbda1dbd40|2016-07-11|Pieter Eendebak|fixed for 1dot script
+1cf082f2b969916613a5fd745c94022c7ec68e4d|2016-07-11|Pieter Eendebak|make qtt work with recent update of qcodes
+3ca06cce8a106daf6f8ae5842a930ebf4ef8beee|2016-07-07|Pieter Eendebak|start work on update widget
+f0483bda3e781246a623090cdf9e8666ce7dc690|2016-07-07|Pieter Eendebak|make example code work with new version of qcodes
+9fe712b37dcfe8e9c3a049326e854774c6e0c797|2016-07-01|CJvanDiepen|added a raise to the setting of the samp freq for values higher than its maximum
+32d4a11fb736a85ccc352ad57f63135f3e5743b9|2016-06-17|CJvanDiepen|Additional adjustments to FPGA driver
+b9ea9770e1c3d25c1c99f6e8fa73ca05534109b6|2016-06-17|CJvanDiepen|FPGA driver adjusted for Qcodes
+9fedcf1011ae07ff2b6f6183b68ebb315d249190|2016-06-07|peendebak|Merge pull request #2 from VandersypenQutech/dev
+478e49757dfc5c652e1afc08be5369a28e3af065|2016-06-07|eendebakpt|bump version
+b8aa4c026f1973e88092117c89c0849a1d793dba|2016-06-07|eendebakpt|update gitignore
+7c6e96a34a55535946be214947b130fddecdafae|2016-06-07|eendebakpt|refactor code: 1-dot part of batch script is running (results not yet complete)
+e9a94b8107bb55a224e6aef7f0994c1ffe593d58|2016-06-04|Pieter Eendebak|add live_plotting example; fix multiprocessing bug
+508e3192cfaa493b447aad5976306878cd1f7b69|2016-06-03|Pieter|add loading of qtlab data
+c9f7a2ec22ae64a047b11be86e206b23f241a444|2016-06-03|Pieter Eendebak|add legacy module; add condalist; refactor code
+faee8d502a80df97e530f284759ee36dc3be5ff5|2016-06-02|Pieter Eendebak|more work in conversion
+735f9a0b0ece5732e85c250068e6db07cc9ce20f|2016-06-02|Pieter Eendebak|add coulomb model
+dd3e17775b1bdd7978ae26e45b4d006ad1765601|2016-06-01|Pieter Eendebak|fix documentation formatting
+93d3d60c33a7db61614e80a29e93e3dc2c0f9542|2016-06-01|eendebakpt|start test framework
+ce77b20fcadbcbc192948724814f9995d6f2f454|2016-06-01|eendebakpt|more code conversion
+53b5d70d0fba5d862ed7ba6e39592e170dc8aecf|2016-06-01|eendebakpt|autopep; work on 1dot script
+ba68f3b3893279f05f23b9a3263305353b16924a|2016-05-31|eendebakpt|report issue with scan direction
+9d05ba831c44bf60ffc7ab1ff9b9d0e84d6eabe6|2016-05-31|eendebakpt|work on 1dot script
+5e145c3aed8156b1fd5598e05635eb0495e76d60|2016-05-31|eendebakpt|work on 1dot script
+2865774ea6b4a8607c9542a324e9cc7a22b41a61|2016-05-30|eendebakpt|refactor qutech packages into qtt
+d669d7cc117a51f9ed666527d4dfa29f159184d1|2016-05-27|Pieter Eendebak|write datasets
+8d1161c9d9c6553124942e905590c53afed0b672|2016-05-26|Pieter|fix
+9df57023c9887f8942dbf2ffd98d918770ef07f9|2016-05-26|Pieter|fix background loops
+ae2828775e044bf6700b7d8d461e780e8ae5200e|2016-05-26|Pieter|Merge branch 'dev' of https://github.com/VandersypenQutech/qtt into dev
+72983508f7f7a2bcea3677ec2224929cf7739e6e|2016-05-26|Pieter|update docs
+97466974367a2df007cf6862c392dfe9c5b091a8|2016-05-25|eendebakpt|merge
+0d0b17fd1f8e263e675c0a54c7d40ed83d9d4a94|2016-05-25|eendebakpt|fixed for new qcodes version
+13a8b19c09e16d88d61ffb110063834d34e1e16d|2016-05-25|Pieter Eendebak|sync
+3e1f0f65d535e72abfac22bf53c41ed8abee67ad|2016-05-24|Pieter Eendebak|use tripledot by default
+cdf3f78e0748a39f966a2e45142686b9024c40a5|2016-05-24|Pieter Eendebak|refactor code; make dotsystem faster
+9526b142b65a649479352522f74dcb75b375770a|2016-05-24|Pieter Eendebak|refactor code; make dotsystem faster
+ed096724f291d4f84c3be4eb23670a449e42a494|2016-05-24|Diepen|Add FPGA driver
+2348efeda4d134cd1c8f79d2c4507cf67fddeb64|2016-05-23|Pieter Eendebak|Merge branch 'dev'
+38b932ad9f9e9b0eaf686b09484d12116afa2808|2016-05-22|Pieter|try to solve problems under windows
+5f6d18c6daf0a8b80a82e7d9993c4b105b83dcf2|2016-05-20|Pieter|eliminate pmatlab from qtt updates to installation guide
+7d020abb7e4ef537dd5f01ad4e95970a92bf5bce|2016-05-20|Pieter|Merge branch 'dev' of https://github.com/VandersypenQutech/qtt into dev
+d00f313044160ffff6e15e9b1b5719a1e8848889|2016-05-18|eendebakpt|update to virtual model
+6fafd6919942e0144a5a82483a93ec2eb07bdd14|2016-05-17|eendebakpt|refactor code
+473530197fd18dba21a6bacbf971bd9ae166c10d|2016-05-16|Pieter Eendebak|Merge branch 'master' of https://github.com/VandersypenQutech/qtt
+d4bd4e990945ae5ea9bae80740ca0179a22d50b1|2016-05-16|Pieter Eendebak|more work in qcodes measurements
+2dd6e9a631ad8baf6ed67bcb4a445a94f46c3e8c|2016-05-13|Pieter|update INSTALL.md
+fde7a8cce118ff34de1433882a39b1f74a898176|2016-05-13|Pieter|added INSTALL.md
+c904ecf968b8c65cfb0a5a0e9ceb34ecd66605bb|2016-05-12|Pieter Eendebak|add scan2D to framework; further work on 1dot_script_batch.py
+7951c4023f3353e1fb44fcf18a4953615a002a1a|2016-05-11|eendebakpt|work on conversion of 1dot_script_batch.py
+c552d031ab090d186bbb534c03142782f5a44da7|2016-05-10|Pieter Eendebak|small code cleanup
+9704ecae025bf727fa709f7ce72e0eb2fccd77c6|2016-05-10|Pieter Eendebak|start of conversion to qcodes
+8f8105653514a6c7c326cb1e303e621eb84a80bb|2016-05-10|Pieter Eendebak|add travis file; refactor code
+06fca2232c28b27acb8d8e65b187cfcf78b7628c|2016-05-10|Pieter Eendebak|Merge branch 'dev' of https://github.com/VandersypenQutech/qtt into dev
+c9406b4573fc7acc95dec76fae401b458ddca0e1|2016-05-09|eendebakpt|refactor code
+6323ad0e1ea2c00a46ddf925de68d348ca7c0e59|2016-05-09|eendebakpt|added logviewer
+a5b075d1a57aa61446480b5bd9f605668dfad281|2016-05-09|eendebakpt|add visualization of virtual gates
+3b1561282e4ea57fe4f154048c457d0cffdbc4ac|2016-05-08|Pieter Eendebak|Merge branch 'dev' of https://github.com/VandersypenQutech/qtt into dev
+9351e9e2da5b5e892e3934a397427249abc88e68|2016-05-03|eendebakpt|add virtual gatespace transformation
+c122fc02b9bfe099da562c6b15b2cf340030ba94|2016-05-03|eendebakpt|fix issue with degenerate energies
+104034686198c2df3b0d0923b538f8a455f04d70|2016-05-03|eendebakpt|update gitignore
+fab9b642d99c7ef4fc3f2b9253b1c1ed214b430a|2016-05-03|eendebakpt|add dotsystem example
+5627e522109f18c63367c3992c7869f209a556f7|2016-05-02|eendebakpt|Merge branch 'master' of https://github.com/VandersypenQutech/qtt
+592f38a835a32e13113aa615ece373d0c9313b3e|2016-05-02|eendebakpt|add dot simulation software
+f9000358206b05df317adf46b3947a01c03028dd|2016-05-02|Pieter Eendebak|small change
+8220a32aa1ef26f58e7845cb441e5586a459f1b1|2016-04-29|Pieter|test bug
+50c18e2582716d28f94b572c5ec61811d750dcc5|2016-04-29|Pieter|test bug on other platform
+666b622e79af300a75c65f0db19c7ef0a72832eb|2016-04-26|eendebakpt|add missing file
+613f12ab590f07c4b19068d3a316a6c4d0be6e26|2016-04-26|eendebakpt|added log file viewer
+128cb61afbc6bd0be4cf7f479e60f84ad7ccc467|2016-04-22|Pieter Eendebak|fix toymodel
+7db47f1c3b28d9f0242ab707c0fd0d251442f9f7|2016-04-20|eendebakpt|fix toymodel
+ff6d5cca8bcae81b4b54a2b7bc4dad90095fd5ee|2016-04-19|eendebakpt|initial commit (copied from TNO repo)
+2674a17131258742854ceb232a06d45f4e52b196|2016-04-19|peendebak|Initial commit

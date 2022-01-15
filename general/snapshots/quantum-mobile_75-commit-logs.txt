@@ -1,0 +1,303 @@
+34d60e0d2a9e56ab1475549214d1cacd4dbc7544|2020-07-12|Leopold Talirz|add VM configuration to install instructions
+4b6ccf9ea999a05bceb6b1fc7bad769346db81d4|2020-07-08|Chris Sewell|ad Quantum Espresso to Changelog
+f262ba9f9e5c4d14e7d16afe7adaba1b0f152451|2020-07-07|Chris Sewell|update changelog
+3d1cec66c2b7d24e69ef029513b77e3caab641bf|2020-07-07|Chris Sewell|Final updates for 20.06.1
+7eafef2798ebf0184c8420ed95f027a92a4d7ab9|2020-07-03|Marco Borelli|Set version to 20.06.1a1; use 'md5sum' instead of 'md5' command.
+8d23c7fdd8e9a44137b805d879df73e178fd04b1|2020-07-03|Marco Borelli|Reduce RAM to 1.5 GB; update roles for slurm and bigdft.
+529300466d6053e48b75c48a6c98934794b8359a|2020-07-01|Marco Borelli|Do not install BigDFT for now
+9d8f1dbed8073a2a49e7795df5d32f75af05e1d2|2020-07-01|Marco Borelli|Update role marvel-nccr.aiida to v2.3.1 (using aiida-core v1.3.0)
+fe619eab29f640db6460b8f43bffbf2e81674eda|2020-07-01|Marco Borelli|Increase RAM to 2 GB; increase ssh connection timeout to 2 min.
+29bea6e54298091361930a1b2073c4b7b2f08a8e|2020-06-26|Marco Borelli|Add raw SSH options: PubKeyAuthentication=yes DSAAuthentication=yes
+21f8f962467d80f5cd008cc108d51af3d66b2610|2020-06-26|Marco Borelli|Upgrade ansible roles and version of the machine
+436160c7286c40bfd60837aa682603d25f5d3e28|2020-06-09|Leopold Talirz|update simulationbase and aiidalab roles
+166bb3bdb5554b68ca98271dde802e70ebf09174|2020-06-05|Leopold Talirz|introduce desktop/cloud edition
+1d4c902196f81929a1ec9819629f978b6c594572|2020-05-07|Leopold Talirz|update slurm
+6bf31c05f80bcdbcbaf46907d7e28c033f2f5e1f|2020-03-19|Leopold Talirz|include lightweight tags in create_image.sh
+4e8211e2c46a011338dea9251a9715ff13f758da|2020-03-19|Leopold Talirz|updates for 20.03.1 release
+f58ceba7a9f092daeca1e6a2a19b3a5cbcb18672|2020-03-16|Leopold Talirz|role updates for 20.03.0 release
+5f94e69797766791c1d30772f26747c256ab0df2|2020-03-08|Leopold Talirz|update vbox version in install instructions
+c7b7f34f40f14b8bbebc66f122b731f6cb571305|2020-03-08|Leopold Talirz|release candidate 20.03.0RC1
+28b4c7e0b97e2febc07db2d0909f543577c9d01f|2020-03-02|Leopold Talirz|bump aiida role
+e8b12c68c2950c18d6dafdf9e0486be9a6419c4b|2020-03-02|Leopold Talirz|update aiida & cp2k reqs
+b9c73b57408f81b21d16c8e2a8bf12518ae22828|2020-02-27|Leopold Talirz|update aiida role
+d0b6ce8b1224c0aa4cc102ecb8f8285059dfd504|2020-02-27|Leopold Talirz|updates roles for 20.3.0 release
+b5a42519a4f69bbd9b2e07907f9f35b25c69b0a2|2020-02-13|Leopold Talirz|update qm customizations role
+afb656fceb5ac327615acaad0005c44cb62b1274|2020-02-13|Leopold Talirz|add new quantum mobile logo
+caaccfd56cd8b4e9c1921c24e1005bb6b1879e71|2020-02-07|Leopold Talirz|add filename to installation instructions
+080943bf12889e838a0b0c1a94965f3074715bc8|2020-02-06|Leopold Talirz|switch to python3 interpreter for ansible
+5dc30d275f31bf160eea114bcd34a89b0bd57228|2019-12-16|Leopold Talirz|add bigdft
+1c10ee232213e686be2cf9d856116070eb1b06b0|2019-12-16|Leopold Talirz|move upload instructions to wiki
+77f07cacadccfe9c0bf03a43361914f358036622|2019-12-16|Leopold Talirz|updates for 19.12.0RC1
+bd586e9878b3abe0c94d2914bf2ab0be272ec3c6|2019-12-07|Leopold Talirz|updates for QM 19.12.0
+96d17b84c03c319d17461a193515c91967cc8c43|2019-11-07|Leopold Talirz|move customization instructions to wiki
+b23bc1dca198720334377a8285bc0008377f9db6|2019-11-06|Leopold Talirz|update tagline + add FAQ to release notes
+4f0778e408ebafddffdc0fbf69ad4d17ee8eda97|2019-10-08|Leopold Talirz|add cif2cell
+dc9198392883e167e9ca5ea67561594a0e0b356c|2019-09-01|Leopold Talirz|update changelog for 19.09
+d6350a97c4be2e4b1cca129dd3e169c68b66a14d|2019-09-01|Leopold Talirz|update roles, bump version
+c615b851b45e583c45791c2d919c2aa5f7090b2b|2019-09-01|Leopold Talirz|switch to python3 for ansible
+e747b94df0b46f62b5cf28d9541f67623e637ce4|2019-08-01|Leopold Talirz|add tag for QE 6.3 version
+bd70dd0db8a888e34274383dd7499e1da7c6e38f|2019-08-01|Leopold Talirz|fixes to various simulation roles
+91c5259913f0ce27ae1ba5e86447b22338ed3579|2019-07-23|Leopold Talirz|Merge pull request #98 from marvel-nccr/fix-roles
+f7c47c08f1e44322902e3e725c322e6b333ac71e|2019-07-23|Leopold Talirz|further updates to role versions & playbook
+2cfc80a9cd242d20bfe85356753b70a92de427cd|2019-07-23|Leopold Talirz|remove vendored default_webbrowser role
+abc92f47080ce1114dbbc5cb5f525bb5a87a1873|2019-07-23|Leopold Talirz|update role versions
+362a9e44cae5fe557807e8266d8070c6354a87a6|2019-04-13|Leopold Talirz|fix versions in requirements.yaml
+68b82e37c6f6a661416d15ce1df6918691e03bd2|2019-04-10|Leopold Talirz|comment out aiidalab
+020b4e1a94169e3d60abdf880749850b456ba0c5|2019-04-10|Leopold Talirz|switch to develop branch for aiida role
+c8f19237e10f2bc8790de1e5b815963786ea8454|2019-04-10|Leopold Talirz|add badge to readme
+4cedf8f71d71aedc0c6ad93eb18366fc39676b3c|2019-03-22|Leopold Talirz|link to build instructions for windows
+0354fb252d84f6bf11e7b21ade96bb213130a335|2019-03-03|Leopold Talirz|qm 19.03.0
+1c1be478b06669f04d18bac30ad9b0bd75c2504e|2019-02-12|Leopold Talirz|add note on role hosting to readme
+7a62c68667416437091e2ed20fba587276bded88|2019-02-11|Leopold Talirz|add travis CI
+bc6052383894305771d95cb3f9aaab14a8095f98|2019-02-11|Leopold Talirz|remove coreaudio configuration for the moment
+c608c0ec696e133dde78a408ef0a1ee3e973ea2a|2019-02-08|Leopold Talirz|fix ansible-prerequisites
+692414c2cd179275525e64df1a660e5cff47cbc6|2019-02-08|Leopold Talirz|Merge branch 'master' into ubuntu-18.04
+2b303322ac6326ddd6cb4272545efd3c5a84b8fa|2019-02-03|Leopold Talirz|updates for virtualbox 6
+9e6a0b3a743bd6f1c7218361466aa8df04c86910|2019-02-03|Leopold Talirz|role rename forced by ansible galaxy
+d091b407c3c6c8fd059c9edbb1207eb935e7b682|2019-01-08|Leopold Talirz|switch aiida to slurm scheduler
+9ab3456bc8048e0ef604de87f439b9d74987a6ad|2018-12-15|Leopold Talirz|fix typo
+51e85d944a2575dd4af9380f7675551d2cb086d6|2018-12-15|Leopold Talirz|add notes on how to customize QM
+05fe50a2e41e1afa9b6457065951b9f67fcf576a|2018-10-16|Leopold Talirz|QM v18.10.0RC1
+5f87e7d6f3bbcea9ae53bd2a9cb9ff68dfff6988|2018-10-15|Leopold Talirz|fixes for slurm scheduler
+8a3901f03774b8cec9a73cd5e5c6c695e30e3931|2018-10-08|Leopold Talirz|reduce logo size further
+7b3ce5cc7c61406c1fac58b6ea46d0e1af0f4a67|2018-10-08|Leopold Talirz|fix logo size
+86eb4dbc86cd66f0f7b35fa346bc9ec2d246db73|2018-10-08|Leopold Talirz|add logos
+89604e0617935776c99be654dbccc79fa5917104|2018-10-08|Leopold Talirz|reduce logo size further
+c7da08c18028e6b36747320653f717b8b1b2157d|2018-10-08|Leopold Talirz|fix logo size
+95628f54ecf465b09cfbdfb37d3f94e9bf7463bd|2018-10-08|Leopold Talirz|add logos
+343904294987241bf0119a4a48301da0e287995e|2018-10-07|Leopold Talirz|update requirements.yml
+21a3aedc6c9480abafaa4ba7ba6d797cc1880954|2018-09-30|Leopold Talirz|add usb performance tests
+d963b0ff01b4accbc6c3e8877708a3817a7e4ee5|2018-09-28|Leopold Talirz|update changelog
+92e4418cc50767ce9bb983f075d729f679b9d09e|2018-09-27|Leopold Talirz|start adding slurm role
+a390f636214b4c2459e8ed7fb6d62258e6806d58|2018-09-27|Leopold Talirz|update gantsign.default-web-browser
+98cf01d95f9a4ea8cbed0272ebc9530e74b83a2c|2018-09-26|Leopold Talirz|Merge branch 'master' into ubuntu-18.04
+9a657ed17ec5e7d9782252fc0db0b94a244756bc|2018-09-26|Leopold Talirz|fix vbox version + minor fixes
+05a469643a53694afb70454b93079f76f32087cb|2018-09-26|Leopold Talirz|update qm logo
+5f2138d44e79f2f09e29637e1437404144a0e14c|2018-09-07|Leopold Talirz|add script to reconnect to vagrant
+7f95836b90b33ad9c9116bc9980e6533008b062a|2018-08-29|Leopold Talirz|slowly moving towards ubuntu-18.04
+e29b80d4c6989b41f12edc506b406630d27c91cd|2018-07-17|Leopold Talirz|add link to repo for AWS/OpenStack setup
+d384478e7188f6f8e7dc2efebf6eff423450e7d8|2018-06-08|Leopold Talirz|incorporate suggestions from @giovannipizzi
+b0d544533dbac5de411365ca90e7ba1e339f70cf|2018-06-07|Leopold Talirz|Merge branch 'develop'
+20fd79f17a1dc7d0bff86f04a9bd459c7cd8a3ea|2018-06-07|Leopold Talirz|update to quantum mobile 18.06
+1c8670a4a59d854ab440a8b4428c9e8ea62711a0|2018-06-07|Leopold Talirz|add back gantsign.default-web-browser role
+2424b663b127687b72e1774293f2d87e9d53bda1|2018-05-16|Leopold Talirz|fix chromium check
+aa4d6be57f8fde2d33491c6ec64844c6aae7dc2b|2018-05-15|Leopold Talirz|build vagrant using new roles
+c33ba7d542efc9c1a390ef00a3f440a8fda18e29|2018-05-13|Leopold Talirz|now runs using 'become'
+ad8d621358e69a369cbdae6d3b873d1e4b347a44|2018-05-13|Leopold Talirz|move aiida and current-user to ansible galaxy
+9c974e539c5f01e559be430a596f29ecc75bded3|2018-05-10|Leopold Talirz|move add_user, scheduler roles to ansible galaxy
+462b5233a61b558c4ce561b584f1e3a7f0a1c7f8|2018-05-10|Leopold Talirz|remove common, customizations, simulationtools
+65e20d4f7eddf8a7584e63a78c6dbe9d67159368|2018-05-09|Leopold Talirz|use yambo and editors from ansible galaxy
+3669b052d237b31138a4c67253ccda98f26b7e43|2018-05-09|Leopold Talirz|add cp2k and wannier90 from ansible galaxy
+0e04eac863c25b5040de446fe193e02f6aded2de|2018-05-09|Leopold Talirz|use marvel-nccr.siesta role
+5bc816607085ddbbb985116a35809031a8c9155b|2018-05-09|Leopold Talirz|add missing dependcies
+4a1b41ea273150bb30b92776507c9d97a527ade8|2018-05-09|Leopold Talirz|use marvel-nccr.quantum-espresso
+1bc6781c9df63803c96a986785fffd594226397f|2018-05-09|Leopold Talirz|Merge branch 'aws' into aws_become
+a4bfe8dae4ae9396af1daa50ea6b5be401d90740|2018-05-09|Leopold Talirz|fix variables for daemon role
+84810fa87f469b68fc1789a7df64e1fa0b6e7eac|2018-05-08|Giovanni Pizzi|Fixing the location of the various executables so that AiiDA sets up the codes with the correct path.
+ba914052576cedc29d9b2d0a1426bfa64dd09d1e|2018-05-08|Giovanni Pizzi|Compiling the jupyter part of the tutorial (using a Makefile so it's idempotent)
+0b18825ebb8663859d4c751d16c6e8c1ed079131|2018-05-08|Giovanni Pizzi|Small comment, in the future we need to check if it's needed
+1101fb47d695b2640ca255ba3460b531570698a9|2018-05-08|Giovanni Pizzi|The service was started, but not enabled. Now it's enabled so it will start after the reboot.
+2c66689d85cdac155f7490ae8687d4219d76c041|2018-05-08|Giovanni Pizzi|Hardcoding the hostname in the if-up.d scripts
+8d4b7984c6c467b5711daba4a30917422885c19a|2018-05-08|Giovanni Pizzi|There were conflicting requirements in the fix-hostname SystemV init script that were preventing it from starting. Now this is fixed and it's tested (after a reboot, the hostname is correctly set).
+7ce907ceb4b017f5c3f7acc4049448f4dffa1bf2|2018-05-08|Giovanni Pizzi|Adding a note on the disk size
+85237b602d59e806fffc48a0f7a55e7879185773|2018-05-08|Giovanni Pizzi|Adding some notes specific for AWS.
+4af7bbac780a72cb90543ad264f69a1924b1d28d|2018-05-08|Giovanni Pizzi|Fixing the AiiDA installation for the new version I removed a few dependencies (AiiDA plugins) that were reverting AiiDA to an older version. Moreover, I fixed the service with the new PID file location, and now I check out a specific AiiDA-core branch.
+198fca1da7dd5f10a643cef6775e5aa96f38b9e2|2018-05-07|Giovanni Pizzi|Changing the IP address
+bd13e6bdb73f91b219ae7f1996932231613852b7|2018-05-07|Giovanni Pizzi|Importing the data for the tutorial
+bfaaae535e564c54178cb7f6146ccdbd5d250309|2018-05-07|Giovanni Pizzi|First version upgrading to a branch version of AiiDA and AiiDA-QE to go to the alpha releases of 1.0.0. Moreover I install nwchem from APT.
+0402dc722823ebe9a803babf11b00330bfaa4821|2018-05-06|Leopold Talirz|replace ansible_env.HOME with ${HOME}
+7d639c8d2e5be1af42c93be66ddd624bf2abbc37|2018-05-06|Leopold Talirz|include_role for release_notes
+144b4b5a8d3bfb5c2d8b0e8d427352062b89f403|2018-05-06|Leopold Talirz|run using ubuntu user
+52bb2af49bc50d24d4ee88733e934b8c3b85d50f|2018-05-01|Leopold Talirz|move environment settings to .profile
+11fda1b67d20daebbfe5c098c2ce3cc2295eb0b6|2018-05-01|Leopold Talirz|aws_fixes: small fixes
+bca64ec6a853fced5b8de039debc4ffb4e0fa4b3|2018-05-01|Leopold Talirz|additions for aiida tutorial
+02f397b6c7bea0bafc42fe38d1e8c2509497811f|2018-05-01|Leopold Talirz|set bash as default shell
+1c08894eb736d4778fc60df46bc91ffb57b19c91|2018-05-01|Leopold Talirz|add credentials for postgres user
+ef42513e57ad302717a19c56a4deab302c4f0931|2018-04-30|Leopold Talirz|playbook runs on AWS except postgres
+fd54850fc023dc7a49139108db24b0d02ce8e145|2018-04-30|Leopold Talirz|install quantum mobile on AWS
+1a23171c38fa421653093ef29fc9e03112ef270f|2018-04-29|Leopold Talirz|decouple aiida plugins from presence of code
+e74ae91a369c75d036c87133a15c301f018544c8|2018-04-29|Leopold Talirz|better error messages
+06d011184d7cec2f98e1de08f20a46ba03c15a8e|2018-04-29|Leopold Talirz|move some tasks between roles
+022ed51ad3294ea11b7b54c8e6482d299876560a|2018-04-29|Leopold Talirz|further isolate individual roles
+801ff129ace5ed93a2f94ddb43339e92c3633a7e|2018-04-29|Leopold Talirz|roles no longer require release_notes role
+8d156b79f028c5ac9a706ed7ae530f5c66ff92ed|2018-04-29|Leopold Talirz|standardize namespaces for role variables
+c51320fa0828d02a42138177c303db1837675547|2018-04-18|Leopold Talirz|update aiida-cp2k
+bb08bed9cb24e5d8e701177f89025b4898f528a6|2018-04-18|Leopold Talirz|update changelog
+5d83ce9b7fe04802fd59b8f3a0e7f1edac523f40|2018-04-18|Leopold Talirz|final fixes for 18.04.0
+f279e7669f94fe89bb894d61eaf166e1e977e85e|2018-04-17|Leopold Talirz|switch to aiida export files for SSSP
+e514d1f1ac3cf1f231639e03e7f9964b49be3b7a|2018-04-17|Leopold Talirz|add aiida daemon as a system service
+9bd2ca96cc6e104b8ecec01a738a26588e78ca17|2018-04-16|Leopold Talirz|fix #59 add cp2k data dir
+bffec7be7b897fc045770850626fc9c309a532b7|2018-04-16|Leopold Talirz|move packages from simulationtools to aiida
+c2b36e87a466b9a1e0251cf6b5d5d84c67837b60|2018-04-16|Leopold Talirz|making it easier to run on different hosts
+97fe62bed9c8480fce3198d5516d1d6affc39bc8|2018-04-07|Leopold Talirz|add a few more tags
+0a8bae31b7d30bce13f170462b7855dc8a4c3db6|2018-04-07|Giovanni Pizzi|Fixing a problem with CHROMIUM_FLAGS In 9b5a00e253aae857772b7aa79a6d59b129f3ffe1 the regexp would never match from the second execution and therefore at every execution a line would be added. This fixes the problem.
+389171bee70d53b855d1c2b96cd4b17e71694128|2018-04-06|Leopold Talirz|reconnect to jupyter kernel if present
+5c3135dd68218a6f1efe73719449a54da81fff93|2018-04-06|Leopold Talirz|replace include_ by import_ wherever adequate
+82b2954b9c373a1c7c3ac251d7d23e97e57c46ea|2018-04-06|Leopold Talirz|make setup_ansible.sh work for gnu sed
+75a95627a42514f404ca5049dc13295e9e92a987|2018-04-06|Leopold Talirz|increase timeout for cp2k data download
+9b5a00e253aae857772b7aa79a6d59b129f3ffe1|2018-04-06|Leopold Talirz|chromium: do not use keyring
+fc7d344a2428ba97772a2d6e55fc0be316a970f2|2018-04-06|Giovanni Pizzi|Adding option to use chromium instead of firefox. Note that it does *NOT* uninstall firefox, at the moment.
+55307fb0ba3aefebb672a0699be7d5cc81b81f19|2018-04-06|Giovanni Pizzi|Adding a role from ansible galaxy (one could use requirements.yml as Leopold suggested: https://stackoverflow.com/a/30176625 but it makes one step more in the provisioning and I'm having problems  dowloading roles from the galaxy with my mac due to SSL problems, so I will go with this option for now).
+c148486b503191cc76d0774283a0031f2b7126f6|2018-04-06|Giovanni Pizzi|Upgrading QM version number, and aiida+aiida_qe versions.
+0d4fe9d9a5f0e7d5b95e7c9243d61c01e5af046b|2018-04-06|Leopold Talirz|add forgotten file
+c2be0afad7dea0793edc756b929344ebbaf83b8d|2018-04-05|Leopold Talirz|add sentence to install instructions
+fc9422af59821e0d5898f1783c545c08f328b40f|2018-04-03|Leopold Talirz|add flexibility for installation on openstack
+d5f159e626561f5bb87dc6a682ffa61877347b29|2018-03-06|Leopold Talirz|update readme for 18.03.0
+bc2e41a99bd88943bc7b68e68541db4696ee2af2|2018-03-06|Leopold Talirz|Merge branch 'master' of github.com:marvel-nccr/quantum-mobile
+be200e025c5f51ed119356a1a65cac142eb83104|2018-03-06|Leopold Talirz|enable autologin
+9eb51d3b0c6f8c37539d2346bd5be5c9dfe1bbb7|2018-03-06|Leopold Talirz|Merge pull request #53 from AntimoMarrazzo/master
+6ca1ebf2a56bef2c7ce4484be1d77745fa451021|2018-03-05|marrazzo|Clearer comment for yambo and xml schema
+d5c2cc88efb869bd5eeeb9a70b1fedba7408ed45|2018-03-05|marrazzo|Changed yambo configure to work with OLD_XML of QE
+7b86416c9e1729a0066b51d2e0e17448fa91c90f|2018-03-05|marrazzo|Small bug fix for w90 Bidirectional drag and drop by default now
+d8fd3a6548d273b418a8cab80cbf7466d5c0e034|2018-03-01|Giovanni Pizzi|Fixes #52 (remove IEEE_DENORMAL warnings in QE).
+e1f0f98a57ed68d40fb719afc94317ada474ee50|2018-03-01|Giovanni Pizzi|Merge branch 'master' of github.com:marvel-nccr/quantum-mobile
+1a79657de80e01f187f17cae2bf749f4d947e8c0|2018-03-01|Giovanni Pizzi|Antimo reports that paramiko is needed
+207bb04db75be20575ea2e2fa98ead32860725e9|2018-03-01|Leopold Talirz|add wannier90 to readme
+facb9706f2dee0077f5d111f8f645a0e67c3d6b0|2018-03-01|Giovanni Pizzi|Merge branch 'master' of github.com:marvel-nccr/quantum-mobile
+fdaa8487217a8348f0652bb22005ba2e58484bf6|2018-03-01|Giovanni Pizzi|Adding Wannier90 to the Quantum Mobile
+083b8ab88a6a1a8c17ad0b1fe2902628bf9cc928|2018-02-28|Leopold Talirz|add md5 to install notes
+61495739565a708c522848389c3b4a5f915976d7|2018-02-21|Leopold Talirz|outcomment lines in compact script
+2f27df1ddb7b157f531ed03eccc3c91d269b4713|2018-02-21|Leopold Talirz|add way of compacting VM disks
+8f7b6812cc59e14743adf08efc15561215703c19|2018-02-20|Leopold Talirz|add link to faq
+7af4549e8b36eaa97bceb6da7129f1bf8f1e7844|2018-02-19|Leopold Talirz|bump version to 18.02.2
+5654febaaf80aaae808dd92397050d15ad700315|2018-02-19|Leopold Talirz|move to aiida 0.11.0
+a17110b28d1c03cb6da68805a170b4d27c3d6810|2018-02-19|Leopold Talirz|add aiida mailing list contact
+7aab988a5f7605df3da5dc234f9dbf6f73bd7932|2018-02-16|Leopold Talirz|v18.02.1 bugfix release
+7a6a93e52f554d26e40871cd0f4611a7e9c694dd|2018-02-15|Leopold Talirz|fix jupyter desktop shortcut
+edf5cec67686ac351747e3b6de719be13ae6a70d|2018-02-15|Leopold Talirz|v18.02 release
+33deb5b50a0ec7af298352037a856d1c4d65d975|2018-02-15|Leopold Talirz|quantum-espresso: gitlab version
+e0d8f45aaa1c5ce940e4168f834cece6f8687edd|2018-02-15|Leopold Talirz|update SSSP links
+e84edfe5a6ebb032420d591c79fe933314491814|2018-02-15|Leopold Talirz|fix #47 qe code not set up correctly
+b78e7806ef3a4d2d0910982315be9028b570f347|2018-02-15|Leopold Talirz|fix broken guest additions in vbox 5.2.6
+ea8e33f9f333c86a587b490b17d8b1ca38c07340|2018-02-15|Leopold Talirz|get jupyter apps running properly
+885802774329a2b71c08984bdd9a7df32600b4f5|2018-02-14|Leopold Talirz|customizations: fix tags and change order
+a9719e6aa14cf525069b601a83680fa83c235a40|2018-02-03|Leopold Talirz|update qe to 6.2.1
+2c628aedf48300e610dc6680b16d05d9faa6b793|2018-02-03|Leopold Talirz|update aiida-yambo, aiida-siesta
+19a2a70a489a7f8b320f20303eae1ce7dfeb8711|2018-01-17|Leopold Talirz|remove left-over string from readme
+310901ec8bd138c93f11b6277d26d658a05f9d24|2018-01-10|Leopold Talirz|add role for aiida jupyter apps
+649d8e21b37a298147796e05dd0ec32958ba9eaf|2018-01-09|Leopold Talirz|moved note on host os
+a1ff8f3f8ddb10333b5b8e0023d58f5c73f2ec7e|2018-01-09|Leopold Talirz|update readme
+9d079f2601624594b84534cb7457d5dd8ba57815|2017-12-22|Leopold Talirz|bump version number & update changelog
+81c602b6032e391d155dc61c0b79ae14ac30fd84|2017-12-22|Leopold Talirz|fix 42
+6aa5a870bd2d6d5e8056c751f0291e5dd7324b88|2017-12-22|Leopold Talirz|add aiida demos
+0fbbd8bb05083dd2d19f7fc649e0351f69512a27|2017-12-22|Leopold Talirz|updates for v17.12.0
+1ecde66dc299754398f4d9b82a3609f45e710bba|2017-12-15|Leopold Talirz|fix #44 #45 minimum vagrant version
+194b267829bb4379ce446e052ab35209508deda7|2017-12-08|Leopold Talirz|minor fix to background
+4f9f2a645020235781972905c98c4712f1281111|2017-12-08|Leopold Talirz|update png of background as well
+af47e82669a62a130ed997517745cb309e466eef|2017-12-08|Leopold Talirz|include qm logo in background
+65a7cb67eba96d41829ea2b786eec8fdb2a62866|2017-12-04|Leopold Talirz|add VM logo
+4446b9927145efeb67f1f2d20ab2243ac5505ad9|2017-12-03|Leopold Talirz|update MaX CoE name
+be99f4e4d304f3de12918448defd52dfcabd0234|2017-11-21|Leopold Talirz|remove upload instructions from readme
+9fa6e048463712b467fe8024b3121993b43c9ed4|2017-11-20|Leopold Talirz|fix typo
+26f61c965f40691620c674bd56d5c59ae4fbca1a|2017-11-20|Leopold Talirz|further improvements to README
+024610e971e34f4464f6680301e484d5a6a2024c|2017-11-20|Leopold Talirz|update readme
+cf2bd2e5d4506cda177357403cdea923351eb6f1|2017-11-20|Leopold Talirz|fix version number check
+8631f465848d53ad49c625a2fa3a4d6bbeccd803|2017-11-20|Leopold Talirz|improve cleaning
+7a9544be4457dc0715df1f6da994a0740ff6f374|2017-11-20|Leopold Talirz|add EULA file back into VM
+a9863a61b2db08cb6f78be2368bbec5482b34e2c|2017-11-20|Leopold Talirz|bump to aiida-0.10.0
+c1d39bec47b675502c45529c9830b0505d54acb2|2017-11-20|Leopold Talirz|mechanism to clean vm before a release
+2307169e012bb0d53106733c00ec9de391ad15da|2017-11-20|Leopold Talirz|adjusting documents for release
+bd40c2c86fdb5fb867da211e48611e29501a5b28|2017-11-20|Leopold Talirz|remove superfluous slash from binary paths
+b2e27c776ad3958d0b6c6031cee7f96129c41d27|2017-11-20|Leopold Talirz|added aiida-yambo to release notes
+a3ac163b1ee492e47f8a4c40a8c53d5dcee860d5|2017-11-20|Leopold Talirz|add ubuntu version to release notes
+35be2431277bae7a0f2d7316fb2185aef19b740b|2017-11-19|Leopold Talirz|adapt wall paper to name
+a5e0fb161aad892f8a3b5717b9b3ae0201961b77|2017-11-19|Leopold Talirz|change name to quantum mobile
+1b000f8614ecfaeb3efc456c192f4400c8e87d4e|2017-11-18|Leopold Talirz|update aiida-fleur to 0.6.0
+2cd04fe999bf953807331f4eb7330cdcf91f3d7d|2017-11-15|Giovanni Pizzi|New Desktop BG (not yet put in the ansible scripts) for Quantum Eden
+67283bc8559679d0142cd2ac34cc30f233a835a6|2017-11-14|Leopold Talirz|fix error when restarting lightdm
+5cc7e22b8af006a27135111b09a97ba5ad3063ba|2017-11-14|Leopold Talirz|add license note for cp2k
+d001c79cc7aca0532e53efc39bf4b45236bd5693|2017-11-14|Leopold Talirz|fix #31: rename VM
+2cc8a9cbcd82dca1c07e01dc3a0debfc1061f1d2|2017-11-14|Leopold Talirz|fix #36 : revert QE to old xml format
+527352ecaf1c621ce0e79dc7f7e1f5b4216d4e66|2017-11-10|Leopold Talirz|add EULA
+84df7215d0890cfb813be291eea1fca31f5bc100|2017-11-10|Leopold Talirz|go back to old name for next rc
+fccc8b629f51da2f81eb820fc42460d81a1bbedf|2017-11-09|Leopold Talirz|fix #33 add sg15-oncv pseudopotentials
+d1858e414a062441f3a5be6a48250c0adafa8bd4|2017-11-08|Leopold Talirz|fix #34 make yambo work with QE 6.2
+9d205196b11f5fefb81e3195afb8ae6e942c6662|2017-11-08|Leopold Talirz|forgot to add README
+299513ed21b88bace74b50a7d1cae714c8b02a33|2017-11-08|Leopold Talirz|move to release_notes role
+305d490597cef9aa303b365f268800a3759382e4|2017-11-08|Leopold Talirz|add release_notes role
+4709dcd0214431ba4f664e0ccefd5a53aa43f39a|2017-11-08|Leopold Talirz|add java for jmol
+462a440946eb54ddc5588163fc211868ec3e27b2|2017-11-08|Leopold Talirz|fix #27 - add note on how to start the daemon
+feef3cbfd3e6c833b202b57a6678d270b4a6c2a3|2017-11-08|Leopold Talirz|add eula + use git tags
+46b8001c1da4356941a4f5aa20e99be0436f1dee|2017-11-07|Leopold Talirz|switch back to old playbook
+e8320cbc7c8243049ccef426ce6d36f092801922|2017-11-07|Leopold Talirz|fix motd + set password
+0110c6462a9ac8bf42f546f83f7e5de437d6a13a|2017-11-07|Leopold Talirz|hide vagrant user
+e8a0a8f8805c7b84f896df185eaf9c2be318f6a7|2017-11-07|Leopold Talirz|address #16
+455ecfe5b2def220c8d92a750d8bd6bf354edadd|2017-11-06|Leopold Talirz|fix #28
+4920edc9d8a0347d754f1bd2699cc7331df76a20|2017-11-06|Leopold Talirz|Start documenting #13
+e3bb528be4054dca0eafa60d0825a53787eabe9e|2017-11-06|Leopold Talirz|disable start of daemon #27
+c138c23bd8be1983b6c1761b9775bf88b449981b|2017-11-05|Leopold Talirz|repeat ulimit -s unlimited for fleur code
+9bcb442ce29f49c02ea68b8a58901d0a23e79a1e|2017-11-05|Leopold Talirz|fix examples
+ff9ef401bdf4592bfac798a6459f4ceb21b7f4ec|2017-11-05|Leopold Talirz|improve instructions for reconnecting vagrant
+9467c943f1d4c40bc78fa62f415bf868e2380fac|2017-11-05|Leopold Talirz|fix #21
+10f0e8c13080072b5959d972651adc46acf748c6|2017-11-05|Leopold Talirz|load max examples from github repo
+0b02d7bb6a647a50005083a3956355bc80ed6abf|2017-11-05|Leopold Talirz|start the aiida daemon
+c1e42216025d19fb00f07774f3c66b78fdf72954|2017-11-05|Leopold Talirz|upgrade aiida to 0.10.0rc2
+4a25c7c8f6c74d73f64ee4391cf12a32ce64cbdc|2017-11-05|Leopold Talirz|add .vimrc
+5db8eed2d9825253e103230aef7aa3fffe3e91f0|2017-11-04|Leopold Talirz|fix wallpaper
+a923d6374e4eb60405cbd3d4d668420bc76f7d36|2017-11-04|Leopold Talirz|fix source downloads + more
+313c569cc1243ca8751e3939846ac09ab59b3bd0|2017-11-03|Giovanni Pizzi|Removing hardcoded interface name, and stopping if no IP is obtained
+d71c1480d86e0b28e3815f3d93c701e93218d7b5|2017-11-03|Giovanni Pizzi|Fix for #20 - make sure torque-scheduler starts late enough
+67ffa1fa2e5620ea93e48f42128ec5cf7e931025|2017-11-03|Leopold Talirz|link examples folder on the desktop
+a990c70c182bfb28fc1ea49a867278d73969e157|2017-11-02|Leopold Talirz|add hints on shared folder
+50d859d64061191514b8169849b7d3074f4a6deb|2017-11-02|Leopold Talirz|add fleur inpgen
+64e162c6769db37d5c270d43ddeb9068edad7347|2017-10-30|Leopold Talirz|pre-configure sssp
+9f0b93ed9f3db4f927238ffa5db2ddbeb53675c0|2017-10-30|Leopold Talirz|add structure of TiO2 example
+187c15b6f2362b2b47fcd63d2d6664b0c394b49d|2017-10-30|Leopold Talirz|force better time sync with host
+c170bcb9a2823af1d0f2240281d9b398c0cf83da|2017-10-30|Leopold Talirz|added aiida-yambo
+63da0f571b051a8affbc13cc3f02cbf7f2a17888|2017-10-30|Leopold Talirz|fix aiida-siesta dependency issue
+c070959213b7642a113d049c53ff5cb3284fa094|2017-10-25|Leopold Talirz|add aiida-cp2k plugin
+79f6d2665841d9eeaadd4f5a93fe7447fcd6d080|2017-10-25|Leopold Talirz|update cp2k to version 5.1
+001a79c1a79bea4e7ff097c08245403a2efbe560|2017-10-24|Leopold Talirz|small modification of motd
+2cd5aedc0f7812008c26b8c673e235312514c115|2017-10-23|Leopold Talirz|add cp2k role
+cd88a92396303385a85c46bcb632cfb89b66c339|2017-10-23|Leopold Talirz|add quantum espresso test-suite
+7949172f522f250db4f4db6dc58bc19624179cb6|2017-10-22|Leopold Talirz|remove carriage returns from ini file
+70b318a2af45a94bf2c5682c0a9172b2fcd923e8|2017-10-22|Leopold Talirz|add rc to create_image.sh + update INSTALL
+845e1360ac226c47863382a2fa7f97497b560d13|2017-10-22|Leopold Talirz|disabling vagrant default shared folder
+05377980b5076c95eaac7419e388b665361e232d|2017-10-22|Leopold Talirz|minor fixes
+9af790838bbfe64bf16b9fcef0426e29e86c8e71|2017-10-22|Leopold Talirz|fix #14
+7205e24546ab0efe85c5f5914eb796fe29ab5491|2017-10-22|Leopold Talirz|shorten install instructions
+ee255581cbac0631397f441ab004e5344fc377dc|2017-10-22|Leopold Talirz|add aiida-siesta
+7c4e71b4ed542fcaa940077725bc545de9164acb|2017-10-22|Leopold Talirz|add aiida-fleur plugin and set up aiida fleur code
+442fe6c628074eff9ddb99d63f1b05753550edf7|2017-10-21|Leopold Talirz|forgot to add a few files
+a0f0767cbb3234b8c3ee31d24660233ba231bd4e|2017-10-21|Leopold Talirz|add siesta + tests
+117abcb4e30d4035e76b5b2ffb5c78c24d9e411b|2017-10-21|Leopold Talirz|added fleur tests
+2b9b3a55f8e9d2299a7ffde1ea175e3dd8178e80|2017-10-21|Leopold Talirz|add fleur role
+ef273b02e554e3ba0fc9e957701b50ec451aaa24|2017-10-21|Leopold Talirz|Merge branch 'master' of github.com:marvel-nccr/marvel-virtualmachine
+d8eafeba0faf90852d8f54dcf39f26a33f1b31da|2017-10-21|Leopold Talirz|move to bento/ubuntu-16.04
+5d37339e23cefcddc44a68ed50f13080226e56be|2017-10-17|Giovanni Pizzi|Adding yambo (the AiiDA plugin is not yet public, will be added later when it is made public, for now there is only a commented template)
+3cb9bfc3344ff8112d071dbc591bb56ebbe9f7a1|2017-10-16|Leopold Talirz|update object store link
+e39e9417f0921d37b9d58d93aa7cf0594754c34b|2017-10-15|Leopold Talirz|move hints from README to INSTALL
+6ec391a1daa1d5a3fd366a491df69bb4080debf5|2017-10-15|Leopold Talirz|forgot to uncomment
+b8ef282bbb4372549b766e8eefe04c13dc608494|2017-10-15|Leopold Talirz|add installation instructions
+11df004d7d2a84e3d226a48d2b0ad20bbeee788f|2017-10-15|Leopold Talirz|add hint concerning shared folder
+b80cbe0ecb2878b663afa62a22e6dbdb87ca3449|2017-10-15|Leopold Talirz|modularising simulationtools role
+d68d8f18969640db488eca7d97a3f8b442198a29|2017-10-15|Leopold Talirz|use vm_user variable for changing password
+8527716b879b7b0a016093935abce6831d141381|2017-10-13|Leopold Talirz|fix lightdm handler
+cd270e960f88c3767cf997959ff749bb5ab03cae|2017-10-13|Leopold Talirz|add apt autoremove
+2b68a49b23052ab12215feb3cb3a02210f78e777|2017-10-13|Leopold Talirz|add handler for restart of lightdm
+2399628b868715d400120a0dbe28f87f215829e8|2017-10-13|Leopold Talirz|Merge branch 'master' of github.com:marvel-nccr/marvel-virtualmachine
+816f61b2e894845c61a1e15975038f93505a8a3c|2017-10-13|Leopold Talirz|Fix #12 : configure cpus for torque
+46176b86912ce0196bd6ec6a6245b6861ef71edb|2017-10-13|Giovanni Pizzi|Number of improvements - better MOTD - MOTD shown in any shell - guest user disabled - some commands put in .bashrc now put at the top   (with reference point) so they work also in non-interactive shells - put the MARVEL URL as global variable
+cbe6dccfcc7f55c8a827eda504b375f0133dbb6b|2017-10-13|Leopold Talirz|add "apt clean" handlers
+db3e6800d1125d7dd135a8c8d2aca467d728fdbf|2017-10-13|Leopold Talirz|setting password
+12f5f563c260523347961582943a48f11fa00f61|2017-10-13|Leopold Talirz|small bugfix
+39356d553a1d7ab9ab5885f0fd8271b375afec14|2017-10-13|Leopold Talirz|additional variables for VM
+6fde1410826bd0dacf0a2f33a522c64bf4f773be|2017-10-12|Leopold Talirz|add fidis computer
+61e2cc246d5700da68a414e4827c0be0eaec1b9c|2017-10-12|Leopold Talirz|simplify hostname update
+ff97e95c37ec931a82d72335e2037a576ec9011f|2017-10-12|Leopold Talirz|cosmetic changes + new variables
+82597aa44bfab65daaa1e8fd2222c17dbfab8b08|2017-10-12|Leopold Talirz|Allow to run ansible directly
+06fa841e236609ec5d4ca42b29609df9b98b4d35|2017-10-12|Leopold Talirz|disable auto-lock of VM after inactivity
+3eb60d46ec353b88185b1a0c2db3389364a62814|2017-10-12|Leopold Talirz|enable logging of ansible output
+c77ff3d865f63e9ef49047b05a17fb14205d0c3a|2017-10-12|Leopold Talirz|move motd & variables
+3b64815f26e20441627bf920f726e159739fd25b|2017-10-11|Leopold Talirz|Merge branch 'master' of github.com:marvel-nccr/marvel-virtualmachine
+5521bd6544963b8c17024b2da2a4c7fa4562f03d|2017-10-11|Leopold Talirz|add script to create image
+0071228199f6f78f251e7a7453e22b2d71dc929a|2017-10-11|Giovanni Pizzi|Cleaned up Vagrantfile
+c233ae099b378649c850a77d52b491c6ffb3ce50|2017-10-11|Giovanni Pizzi|Renamed MARVEL VM with a sensible name (containing also the version number)
+4ace90eb6a21bbc3c25aee9c6f7f8818b9944970|2017-10-11|Giovanni Pizzi|Added release notes, version number, improved a number of tasks.
+cabb4873b73c416c72bcc6407693111e9cbeef88|2017-10-10|Giovanni Pizzi|Reorganization of tasks in roles, installing all qe codes
+47ed77b8df5f60e4e9ccfbe77a26540923809686|2017-10-10|Giovanni Pizzi|Typo fix
+0135aad16d233653467ee61512bd4951e7e096e0|2017-10-10|Giovanni Pizzi|A couple of fixes - typo, and torque needed to be restarted to accept qmgr commands
+805bae9a02663e1547c9ab608d8cf4a1b2c16602|2017-10-10|Giovanni Pizzi|Installing also torque, configuring QE and also additional improvements and customizations
+6bc2470df2fdbe00083a58ff91c21cbd667eea90|2017-10-10|Giovanni Pizzi|Added some random notes (might/should be deleted in the future)
+b5fb0946832a67b32b132ee4e75a00472f1b8dec|2017-10-10|Giovanni Pizzi|Create README.md
+7becc8bfe115ab85377cd28852ed27c69a1816ae|2017-10-10|Giovanni Pizzi|Adding the very first version (already functional!) of the VM with minimal dependencies (ubuntu, editors, custom background, compiled QE, aiida [not configured yet]

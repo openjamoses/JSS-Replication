@@ -1,0 +1,117 @@
+24fe10becc4a198d0a2bf88316d4b5b8f6da960c|2020-08-14|Kulin Sitwala|Merge pull request #71 from Perfecto-Quantum/1.21.2_release
+6b2cb5b520012a3c80f47a4a519969bb3c9f4ce2|2020-08-12|David Reed|Rebased on master branch
+5c436864ead8e87215fc63978856459f63b907a9|2020-08-06|Kulin Sitwala|Fixed the virtual device driver.close() command issue.
+f25aaec97b0362fe150c8c5d543ff62e58440369|2020-08-06|Kulin Sitwala|Fixed the virtual device driver.close() command issue.
+872636b891becbf855a6c58c4b54eb1d34aa04a8|2020-06-16|ksitwala-perfecto|Merge pull request #69 from Perfecto-Quantum/dependabot/maven/com.google.guava-guava-24.1.1-jre
+f94719be89cb3b8561a5d40b20a05371e4f139e0|2020-06-15|dependabot[bot]|Bump guava from 24.1-jre to 24.1.1-jre
+7a7e76b3bc4276982cc2b62c1e16f1933aa99bc2|2020-06-16|ksitwala-perfecto|Merge pull request #68 from Perfecto-Quantum/dependabot/maven/org.apache.commons-commons-collections4-4.1
+35c80a5c7e808d8202579b88b04feb583348ca7c|2020-06-15|dependabot[bot]|Bump commons-collections4 from 4.0 to 4.1
+3aa16bc5c1e06c218f001975f38d57a09699bc97|2020-04-08|Kulin Sitwala|Changed the Quantum version in pom.xml
+7b8efe5f52c7e7bd22c9d1a5bda4e011f2079ae9|2020-04-08|Kulin Sitwala|Changes to support custom field addition from the ConfigurationManager or testNG parameters or Jenkins Params or application props
+b16b3b806aee4fbedfaf892ade89d31e223e45d3|2020-04-08|Kulin Sitwala|Fix if the platform is null the framework will ignore the appium capabilities
+844aa5c253c3fe161701327e137447391299d9d3|2020-03-19|Kulin Sitwala|Minor fix
+7a9ad1cf58b4fb575cd237e1ddede264a16e7821|2020-02-17|Kulin Sitwala|Updates for the version 1.21
+4d3e75207f0a9c35e095b5881c92610e991dcb79|2019-07-11|Hadas Shani|remove end step - to avoid another step being created on failure when taking a screenshot
+bba4d2ceb83dd8d5ab911775c02332769ef08003|2019-06-16|Hadas Shani|https://github.com/Project-Quantum/Quantum/issues/65
+da348c5ac0ab5ac8211ec80e1d31fdad81492bef|2019-06-06|kulin sitwala|NTLM proxy report download null pointer issue fix
+1e8fbd849e48770c879fd344d19d020b66b77c22|2019-06-05|Hadas Shani|Upgarde selenium to 3.141.59 Change to OKHttpClient
+11f0c9132828b2c3ce5a2e185753df35241ff02c|2019-06-04|Hadas Shani|Fix device actual name in log. Add checks on failure reason json file format and default location
+cdb05080c5e37bd8712874e4be7e0d8660c900ec|2019-06-03|Hadas Shani|Fix Device Ids in the logger commands when have more then one device. Need to check if there is a better way.
+e91ccad407a5f146fa4b3ff097b836c2d061230e|2019-06-02|Hadas Shani|Fixs for Custom Tags for the failure reasons identified Make sure lists are not null
+dfa3ea6d23d804ced7e02e206081c9ad294290c3|2019-06-02|Hadas Shani|Remove failure reasons file.
+cd6c0f5094834c9f1d31aa0ff0576f88fb987b35|2019-05-29|kulin sitwala|Added changes for the multiple driver reportium support
+6ae13f5ed5b7e825a48b9802ee55eaaa0445426d|2019-05-29|kulin sitwala|Resolved conflicts
+f268a60c6b2bfc95cc04f7ac739c001eb2dbaad9|2019-05-29|kulin sitwala|CHanges for the next release multiple driver support & host name condition for downloading reports
+035eb00a29913baa00291fe741dc638fbf6eb012|2019-04-30|jeremypperfectomobile.com|added suite alterer
+65204fc1dc382d6cfa632b50e181a6de9e1d91c3|2019-04-17|jeremypperfectomobile.com|fixed length log, switch driver added to driver utils and device steps
+43bc720050d0c100f15ab8967e360da3ac1be14b|2019-04-12|jeremypperfectomobile.com|FailureReason tag/field - runtime field - pass deprec
+dafcb7730f3a71cdb53e047d4950ba5d4ede5044|2019-03-27|kulin sitwala|Hotfix for the arguments map getting changed
+4bee11c6bde72303c7448d466aebe4d6ebc94ff6|2019-02-25|Kulin Sitwala|Added the proxy code to the report download code
+121f3dbe2c85a3831662df8d70bc7298559e30e1|2019-02-19|Kulin Sitwala|Changes for release 1.19
+ff8b82ddf5932c66672bd66fb81b9f5118f149bd|2019-02-15|Kulin Sitwala|Bug fixes in version 19-RC
+c6658770e22a5266c9c4076c23f18a978377aa60|2018-12-19|kulin sitwala|Updated the repositories
+e04e9293ab7beb69375ad8f93707f0d4ce926180|2018-11-28|kulin sitwala|Fixes for isRUnningIOS anf isRUnningAndroid methods
+9d0a1553a44279d7e299fdc57d428a228109d938|2018-11-27|kulin sitwala|Added utility method to clear the browser cookies and cache
+ace36a1d72c5240215d6e7abc7f108529105bf42|2018-11-27|kulin sitwala|Changed the Quantum version(1.18) and reportium version(2.2.1)
+8e7669abe98a1bd1c9cbdfeb75126863f0ed1c1c|2018-11-27|kulin sitwala|Minor changes
+1a5d0bbc839b73a33c13f8a32130138e25bd3cb1|2018-11-27|kulin sitwala|Removed the warning
+004cae0cb479f7ff098ff4775fc06d19f0bc15f3|2018-11-27|kulin sitwala|Removed all the warnings
+4434ef45c9a3b628ef7b6da29c9519ad64fd6447|2018-11-21|kulin sitwala|Changed the parameter type to Object for Data passer
+e73c183fd7f82fd90d4e6cccc889adc109a4f17e|2018-11-21|kulin sitwala|Retry class updated logic with the fixes to execute all the failures when the retry is configured
+fe36104df4bf2ae821934ea075dea0226e5a74d2|2018-08-21|kulin sitwala|Changed version name to 1.17
+f08be4c6eb77e77247e1e325bc650e8c9fff3e0c|2018-08-20|kulin sitwala|Edited comments
+7ea7d4e5a961e69b81f09c5f486984bebf37ee4d|2018-08-20|kulin sitwala|Merge branch 'test' of https://github.com/Project-Quantum/Quantum into test
+dec000b5aefa976e259a55198a730ef7140d83ec|2018-08-20|kulin sitwala|Fixes for impaired parallel execution, Support for NTLM based driver, Fix for Fingerprint success step
+f092aef8196d88dfb6a5b444954a3d25473ab5af|2018-08-06|Shanehess|Added in the missing steps for the date picker
+d9bbddeccdd1eecd2065d3802b4ca0b28a36ed66|2018-08-02|Shanehess|Merge branch 'master' of https://github.com/Project-Quantum/Quantum.git
+49c6852bf3b6200e692bbaa5fd5970129a9c8bb6|2018-08-02|Shanehess|Added the date picker selection for XCUITestPicker    - Using the RemoteWebElement    - Using the locator and creating an QAFExtendedWebElement
+7c7ceab885ef8637af66ec857b11869b38036be2|2018-08-01|kulin sitwala|Added the device details on the log again
+cf86216639ddae85845f01091ab82955a40de004|2018-07-17|kulin sitwala|Corrected the assert method
+2d06ccb5b83181656a075ff3117415b61029d524|2018-07-06|kulin sitwala|Changed version name to 1.16
+1f8f2ed57afae402b90a9c21f93512d9318ffb6a|2018-07-06|kulin sitwala|Device info code commented as it fails in certain environments. - Added the code logic to wait for the resources to be populated before downloading the reports.
+3fa57fc9347cb1273850b6b99c643dd22763a836|2018-07-05|kulin sitwala|NullPointer issue fix when global.datadriven.parallel is not defined
+3f4715fd05f72cb6ebe42abf83bd01970e6f11f8|2018-07-05|kulin sitwala|Added Audio steps and Report Utils Assertion functions
+3af39bb36b770a912c25ef40366eb7f729bd7515|2018-07-04|kulin sitwala|Merged changes
+6a70c10dd7964617b6f0d64a82aa030c6ec6c360|2018-07-04|kulin sitwala|Fixes for 3 bugs - Device Info without token. - synchronized driver creation. - start application by name step def not found
+74e0af9e5b2838cec74df9136934ec8294342dac|2018-06-28|jeremypperfectomobile.com|parallel data prov and methods shut down start up after test
+3eff32a73a1b3c1234a73cd3456412cdfed05a98|2018-06-28|jeremypperfectomobile.com|added retry analyzer
+51e4a710e919bd6dd204729b157b709273aed177|2018-06-27|jeremypperfectomobile.com|parallel fixes - desktop report - large report issue - attach download +
+58932c3d42a29f2839974b48c2273d4673876b56|2018-06-20|kulin sitwala|Added skipped test unknown fix
+fccc04eb93b1e3905cf5ccb8c0b856ccb130f11b|2018-05-31|kulin sitwala|Test the CI setup
+289e7f33dfd8999ffca318a3d38dd315a5c1ae9b|2018-05-31|kulin sitwala|Updated the version to 1.15-RC
+ec67d71f984969f14451ff2ae301239463310b37|2018-05-24|kulin sitwala|Added comment step
+591ee73195474f2279d6a319094159f5fdfcc256|2018-05-24|kulin sitwala|Fixes for data driven test data information
+26c37a1a85823858e5a5c9ad2f340a2c3002fb59|2018-05-10|kulin sitwala|Changed the version name to 1.14
+75596ac2f9b129de580751062e4a9ab984c1039b|2018-05-09|kulin sitwala|Changed version to 1.14-RC1
+b9ceca909ad542ba6eff53d27cd3945e8a838137|2018-05-09|kulin sitwala|Suppressed all the warnings
+d4c289e07c40213b1eb0b965f6b1009c79a08e94|2018-05-09|kulin sitwala|Resolved the conflicts with Changes for Data Driven Test Results
+10907fe8c8f81b65ac10eabe65e17db4d630ae55|2018-05-09|kulin sitwala|Changes for https://github.com/Project-Quantum/Quantum/issues/44
+2af896f11919f8447233d8d2efe4c609bccd1846|2018-05-08|Hadas Shani|Data Driven Step names with Data in Reportium (Part 2) #43
+c4feec1e9789826bb926cfb7fa1f198616e518c8|2018-05-07|Hadas Shani|Data Driven Scenario names in Reportium (Part 1) #42 https://github.com/Project-Quantum/Quantum/issues/42
+ba810726da126266ea3a0f2ec749bdb9bcd12e30|2018-05-07|Kulin Sitwala|Merge pull request #41 from kulin24/master
+1eb4f35ed21d0c54ac5f77298bd017d53477a8bd|2018-05-07|kulin sitwala|Upgraded the selenium and Appium versions - https://github.com/Project-Quantum/Quantum/issues/39 Fixed the null pointer error in getCredentials method of CloudUtils when securityToken was used. - https://github.com/Project-Quantum/Quantum/issues/40
+295ae5b07fa1fdc62a2724092e40dc5f2d36ff58|2018-03-19|Hadas Shani|Remove Listeners with the typo Back to selenium 2.53.1
+d2342e078f1206a4af0456a402c4f45605ebbecc|2018-03-15|Hadas Shani|Merge branch 'master' of https://github.com/Project-Quantum/Quantum
+d816908c9f6fb5115d8baf7878f4daba4aa73e96|2018-03-15|Hadas Shani|upgrade dependencies
+cc3aa620d43c5b7270b5ff029644df75433e64ff|2018-03-15|Hadas Shani|Add fingerprint support Add audio injection support https://github.com/Project-Quantum/Quantum/issues/27
+8c0d2e3ff50abe392c977750094de155b726b771|2018-03-15|Hadas Shani|Listerners pack name typo #33
+fa33fe5741c0dea729c46d12d36017bef3ee1912|2018-03-13|Shanehess|Fix for Issue 34. Text check needed a time out for multiple words. Added a default timeout of 60 seconds and a threshold of 100, as per best practices. https://github.com/Project-Quantum/Quantum/issues/34
+8a506a7231c69e8fcb363fa323dfb92777f264e1|2017-12-31|Hadas Shani|Remove comments
+3a5e8d4684bad4ffe0f5d3295afc80816b521bad|2017-12-28|Hadas Shani|Add download reports
+33867b4e1136ddbde6c84ec6236b06db83673b42|2017-12-04|Hadas Shani|version 1.12-RC
+d44c1eea864087a733b25e16032c0a396372a89e|2017-11-22|Hadas Shani|Add device Utils and report Utils
+fc4e5fc2e516049dd065e1f7adbf564a29f0a06d|2017-11-22|Hadas Shani|Upgrade dependencies to latest version. Add reportiumAssert. Added functionality :  Clear element, image injection and fingerprint.
+faa27ea5211ea26bd93fca70635db82f36d8d427|2017-05-14|Hadas Shani|Upgrade reporting sdk
+2052e91375c11821063f5cb570fa0bebf2d9bdc1|2017-05-01|Hadas Shani|Upgrade to war .2.1.11 - with multi device support Add default implicit wait to PerfectodriverListener
+a87433f7b53eeeaad6c6aa352f63be0906ec65a7|2017-04-05|hadasshani|upgrade oaf version to 2.1.11-RC1
+bc3c877b456e1c1b23798a76b1c03fbe7c756670|2017-04-02|Tal Abraham|Merge pull request #21 from nstuyvesant/patch-1
+cb77faccbac0d36b5b89c3bc648dfc374e3f61a7|2017-03-30|Nate Stuyvesant|Update license to include our legal entity
+f258b787313d046033f73922be313d5cf3c230d0|2017-03-26|hadasshani|Add new steps for close app with ignore exceptions
+c711056c455dbcfb32dabc756b47c7622d50e194|2017-03-20|hadasshani|fix switchToContext bug  stackOverFlow- switch to context #20
+f128313ad318231c3f9f5ee4ef0483179929096b|2017-03-20|hadasshani|Merge branch 'master' of https://github.com/Project-Quantum/Quantum
+0e1e4ac0e52728832bb27f432d9dec1f2f54a5aa|2017-03-20|hadasshani|fix switchToContext bug  stackOverFlow- switch to context #20
+e1aa49cd44e4b084032e0ce4d30935cd27a9c11f|2017-03-20|hadasshani|fix switchToContext bug  stackOverFlow- switch to context #20
+ceb64427891794122e6462278210a203ff0de96f|2017-03-16|hadasshani|Update pom.xml
+2690b8f6f63cb0818e6616f78356cba2e08d14a7|2017-03-07|hadasshani|Add failed steps to error msg in report Add doubleClick step
+6d7f4d3c346029c1012752d872f0e2976aa97b85|2017-03-05|hadasshani|Add duble clicl step Fix visual search add context step
+ff24ab56471bd7870818b1ba607466ba9338853e|2016-12-27|hadasshani|remove perfectoQAFSteps - it was redundant. move presskey to deviceSteps
+a06cf089f22887d2e9bccb4a41edb4758e8b26b9|2016-12-06|hadasshani|Support test name in logs for java test Change QAF to 2.1.10-RC2
+be6e1cfbd0842aea2a09a3e50a6204bf977694cd|2016-12-06|hadasshani|Support test name in logs for java test Change QAF to 2.1.10-RC2
+b2b48fcffcaeb5d69cdecb263dd772d4fd28df68|2016-12-06|hadasshani|Support test name in logs for java test
+f3cfc04cb8ff9c8ff2bcebd46dd22c4f18c44763|2016-11-26|Mitch Wright|fixed bad appium version from qaf causing errors, upgraded qaf version to 2.1.10-rC1
+3298a7ff1ea6964f3471fe21ff81e5b1da6cf4c2|2016-11-21|Mitch Wright|updated classes so driver parameter did not need to be unnecessarily passed, updated mvn version to 1.3-SNAPSHOT
+9268b6d0840e979633656bcc1c4e8ce5ffcf4bec|2016-11-17|Mitch Wright|Renamed AppiumSteps to AppiumUtils because the class does not actually contain any Steps
+b6e31f584f429d464ce9fa54d3fa3a5c5829fb85|2016-11-17|Mitch Wright|Merge remote-tracking branch 'origin/master'
+c94e0c1f1bbc86be64cc68745687848f089a855e|2016-11-17|Mitch Wright|renamed AppiumSteps to PerfectoAppiumSteps.  Added error messages to help users when trying to use AppiumDrivers.  updated quantum-support version to 1.2-SNAPSHOT
+918235d261ae065c4e7c0064bd027b829f4813d1|2016-11-17|Uzi Eilon|Update PerfectoDeviceSteps.java
+82bb047669dfdcf030374768a2332e324d8cd5f1|2016-11-17|Uzi Eilon|Update PerfectoApplicationSteps.java
+07b0ba15ae9ce598b9d5d2cd0169c4502e760569|2016-11-17|Uzi Eilon|Update PerfectoDeviceSteps.java
+adfe164cb837156ff8d23751a96ca3bb34460ed2|2016-11-17|Uzi Eilon|Update PerfectoApplicationSteps.java
+229c6cc26b89939cf26e766a80ada3521e7d000c|2016-11-15|Mitch Wright|update version to 1.1-SNAPSHOT
+bdf80f3fffd6474fd0d8f0f00ad3c90139ebf598|2016-11-15|Mitch Wright|changed function name in steps to not conflict with qaf step function name
+706dbcd5a21660489b9d0452d7090771abf63dc3|2016-11-14|Mitch Wright|Updated logging to print passed/failed, updated pom version of qaf
+af42a2f6e4dcf1637547ea8915dd9f4c7d31ab58|2016-11-10|Mitch Wright|added jeremy's scroll and search functions to AppiumSteps
+8fadf1b7a636883387014732c4a90d335524d95c|2016-11-03|Mitch Wright|Merge branch 'master' of https://github.com/Project-Quantum/Quantum
+45696c22e9ed29b29aee289073a926d5ea662058|2016-11-03|Mitch Wright|changed namespace to com.quantum, cleaned up pom
+cb805c07f3df4fd1bb71eae60d0626756020a698|2016-11-03|Project-Quantum|Initial commit
+208b68e0d3f91722214cb8b767116d2ebdba77ae|2016-11-02|Mitch Wright|changed qaf-perfecto-support to maven, then added and updated all classes from quantum project

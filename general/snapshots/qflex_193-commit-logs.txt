@@ -1,0 +1,1343 @@
+ebe366617b7485f89bfb53a80fad6b898510caa6|2020-07-24|Orion Martin|Merge pull request #295 from UB-Quantic/master
+86e14c2dcaa15044c3ffd40caa7b437c2888e27b|2020-07-24|Sergio Sánchez Ramírez|Apply '-march=native' in all non-Power architectures
+e691c0d644cb5268adba494e683144259c050792|2020-07-24|Sergio Sánchez Ramírez|Fix POWER platform detection
+9dbdf236c32ed7422aa4a79f75e4e136d591317d|2020-07-14|Sergio Sánchez Ramírez|Fix optimization flag on Power arch
+8a88011b178403036568553baa86522fac70063c|2020-06-26|Salvatore Mandra|Update README.md
+e324e5edf549017a387284de5c5497fe72b3c74e|2020-06-25|Salvatore Mandra|Update README.md
+21c7ff179df9bd2b90416749bb31b53b2a3210c3|2020-05-15|benjaminvillalonga|Merge pull request #293 from ngnrsaa/add_sycamore_depth_20
+82df61ba2b5aabf84ee55a19948b5ef0615c782a|2020-05-15|benjamin|Added sycamore_53_20_0.txt
+ea1806ae283a45881e35f654402bbae1bf86113f|2020-05-13|Orion Martin|Merge pull request #292 from ngnrsaa/cirq-update
+73b05576dd27f7d3e69b5ae6ed6c4cd2f0a206b2|2020-05-13|Orion Martin|Update Cirq to v0.8.
+410e61c9ac329d8603a610f7c3a9af7d13feefb8|2020-04-20|alexandrupaler|Merge pull request #290 from ngnrsaa/tmp_files_fix
+aaeb774dad8838b3768b5ea3c02a38f1567ce82c|2020-04-13|alexandrupaler|format
+b28b17f4ea8f4a6cfabbe4dc78e0515b987a42da|2020-04-12|Kevin D. Kissell|patch applied
+7572553d1937c5458e2eeff80f224f2d99333d4c|2020-03-29|Orion Martin|Merge pull request #288 from ngnrsaa/copy-rank-zero
+765a57abe4c8bdd32a1c47a3593aad23ca200be0|2020-03-29|Salvatore Mandra|Merge pull request #287 from ngnrsaa/larger_circuits
+ccdcff2ebb33dae8fc898dea2d17e252a7a362d7|2020-03-27|Orion Martin|Support copying with rank-zero tensors.
+507882cff6164af0207d8bb1696828617534f191|2020-03-11|benjamin|Added sycamore_53 circuits with depths larger than 10
+d1806a75d0b4d2de9d9236942b21ceedebb1a4e3|2020-03-10|Orion Martin|Merge pull request #286 from ngnrsaa/script_name
+17a17a4df7a7544d4fcd551f0146ea24bb6a543f|2020-03-10|Orion Martin|Merge pull request #285 from ngnrsaa/zero-cuts
+4c73d6fe8f6a4bde895b6041b179a416ad553521|2020-03-09|Orion Martin|Update make -C src/ clean make[1]: Entering directory '/usr/local/google/home/martinop/git/qflex/src' rm -f ./*.x ./*.a ./*.so ./*.mod ordering.o grid.o circuit.o evaluate_circuit.o tensor.o contraction_utils.o stopwatch.o read_circuit.o utils.o  docopt/docopt.o rm -f ../qflexcirq//qflex`python3-config --extension-suffix` make[1]: Leaving directory '/usr/local/google/home/martinop/git/qflex/src' make -C tests/src/ clean make[1]: Entering directory '/usr/local/google/home/martinop/git/qflex/tests/src' rm -f ./*.x ./*.a ./*.so ./*.mod ordering.o grid.o circuit.o evaluate_circuit.o tensor.o contraction_utils.o stopwatch.o read_circuit.o utils.o make -C /usr/local/google/home/martinop/git/qflex/tests/src/googletest/googlemock/make clean make[2]: Entering directory '/usr/local/google/home/martinop/git/qflex/tests/src' make[2]: Leaving directory '/usr/local/google/home/martinop/git/qflex/tests/src' make -C /usr/local/google/home/martinop/git/qflex/tests/src/googletest/googletest/make clean make[2]: Entering directory '/usr/local/google/home/martinop/git/qflex/tests/src' make[2]: Leaving directory '/usr/local/google/home/martinop/git/qflex/tests/src' make[1]: Leaving directory '/usr/local/google/home/martinop/git/qflex/tests/src' git submodule deinit --all Cleared directory 'src/docopt' Cleared directory 'tests/src/googletest' bash scripts/clean-git.sh -y to new script name.
+272fc79b538ec99f4742c3856f257a6243744626|2020-03-09|Orion Martin|Add tests for zero-cuts.
+ab298680d9972bbadcecc12e2c6f226827d55dd5|2020-03-09|Orion Martin|Fix support for zero-cut orderings.
+4a1d8c79b8e8943b4863f0ac15e3553374090f38|2020-03-06|alexandrupaler|Merge pull request #283 from ngnrsaa/minor_fixes
+87093417336c4e39807aa3f30d2ccf65bcbdac0f|2020-03-06|alexandrupaler|reformulated text
+c39e730335d562bf5eac32b33a72582ac0a29740|2020-03-06|alexandrupaler|reformulated text
+aeea19976450fcb344fd1b9eded460b719d59d99|2020-03-06|alexandrupaler|more doc
+be37942984bae2fb98115e53c81a6cb20cf6b2e8|2020-03-06|alexandrupaler|more doc
+21f93b3d6a34d7b83ca576f7f5fc37198c191bfd|2020-03-06|alexandrupaler|about manifest.in
+1ad19a47a866ea430827808fe4c334f162cbdcd8|2020-03-06|alexandrupaler|formatting
+3165e9a549bfef884d9f0ef3825ba9ecf5f55f96|2020-03-06|alexandrupaler|example mini howto
+5d85b4fd26b2d49cab84df0d8e1e9ddb0b5b5d1e|2020-03-06|alexandrupaler|--no-deps flag
+de9b6b06acd17efb3b441050e3e64c9639b7eeac|2020-03-06|alexandrupaler|rootless cont
+22da31d4361a479f5ec3ba16d958f8f930a750d9|2020-03-05|alexandrupaler|rootless cont
+f9c8767f675b103620ae76ad378e9cb840dad66d|2020-03-05|alexandrupaler|min edits cirq if doc
+1c06831a1b216c829db5b6471956d1eb5209534d|2020-03-05|alexandrupaler|renamed scripts
+a036a8cf4791a56908fd8161fa18916136abea75|2020-03-02|Salvatore Mandra|Merge pull request #279 from ngnrsaa/pybind_memory-limit
+f726a70e9ea628b2ccf81bf15ea8e9e81f831ce2|2020-03-02|Salvatore Mandrà|Fix comment.
+789002fe9be50a4210f3c4413df789850e922db0|2020-03-02|Salvatore Mandrà|Fix.
+5b29aaddc2914cefe6c0935610697d705f093529|2020-03-02|Salvatore Mandrà|Fix comment.
+d8fcc6364b6ad3f4b9eaa561da6345dbbd284adf|2020-03-02|Salvatore Mandrà|Improve parsing of 'memory_limit'.
+241e0752ee584023bad089e61ef0e98e68534279|2020-03-02|Salvatore Mandrà|Speed-up compilation.
+18b8274ce7fa8245ce33e3495108d0586a02e31b|2020-03-02|Salvatore Mandrà|Update.
+36d1454ab08fa35ed61c2380a021b51faabbeaeb|2020-03-02|Salvatore Mandrà|Merge branch 'master' into pybind_memory-limit
+c411e5a373c10c7e0c711a92f457eac35794d74f|2020-03-02|Orion Martin|Merge pull request #249 from ngnrsaa/setuppypi
+9969329dbd69026616e3db95906c706545c387ab|2020-03-01|Salvatore Mandrà|Use cirq==0.6.0.
+89d0ef8bb2d5edc00d3ab21dd7f099e7efef6b10|2020-03-01|Salvatore Mandrà|Merge branch 'setuppypi' into pybind_memory-limit
+67ef4696fd1bec54f00566db87d70a272b8ff43c|2020-03-01|Salvatore Mandrà|Trigger.
+31031b583060840f524280872ac4e474972e9079|2020-03-01|Salvatore Mandrà|Memory limit can be specified in the Python interface.
+e9f25c3d92d31391af5473d59202a854fa2339bc|2020-02-28|alexandrupaler|removed commented lines
+6b46e7f5d0d5ea3ea02f0da7baf6090bfe3411cc|2020-02-28|alexandrupaler|format c++
+3408c55b14a7aa9353a0d6f74d7ae245e1121f0c|2020-02-28|alexandrupaler|c++ fix
+f2800a427d5e6a756e8a4501b1f7d36e9671e3aa|2020-02-28|alexandrupaler|python fixes
+3cba8c903039cd2678555f1e5657b43d74c88322|2020-02-28|Salvatore Mandrà|Fix format.
+98e95c64e88854dafb437108606373bb002ff905|2020-02-28|alexandrupaler|a bit more doc
+36a06d37df9fec8ac9724bdb4e06367fc2611f02|2020-02-28|alexandrupaler|travis repair?
+ebb00363fba7dbd8a78ddf0d080d636c8d5073fe|2020-02-28|alexandrupaler|format
+db5d71d0ccacddad7cee48979440d2885c2bab07|2020-02-28|alexandrupaler|remove schedules from interface
+a9d5c5dca3c62af3791c8b11402d570eef012870|2020-02-28|alexandrupaler|some documentation
+5f07d18fa4c68a0320a04bb65a5f49fc8df764a0|2020-02-28|alexandrupaler|submodules nirvana
+026c332a0a058771a3172bc86ab7383132111b30|2020-02-27|alexandrupaler|`python3 setup.py sdist bdist_wheel` seems to work
+9b35dad4689d9a4882db49d69fe81e45cd684efb|2020-02-27|alexandrupaler|hardcoded path to lib. compiles fine.
+6b08d2fb0ebfbb7c5f830b0f5ecf510e498d3af0|2020-02-27|alexandrupaler|addede manifest.in and some code that is not working
+2669dfa9765d036f95b52722d3f2e263a7e10ec1|2020-02-27|alexandrupaler|hack to compile and get over not used error for index at line 191
+e574d6e6117a99320f84ae098beddc31e83e7dff|2020-02-27|alexandrupaler|newer cirq version
+0aff641b88208449559bb28581820bbc8c1ce216|2020-02-27|alexandrupaler|correct path to qflexcirq module
+ce33cd6e0fb9e5c141086c02573091131168808f|2020-02-27|alexandrupaler|renamed the python package to qflexcirq
+9f267bf1d5d207164c0b05a3cb4cc6017bde53ca|2020-02-27|alexandrupaler|adapted the tests to use package
+1c758bf275328a6ecf67ff0a3738ea64c0d5e8a0|2020-02-27|alexandrupaler|first version of init
+a4fcd353157c3b0679a9e1e1c768a3274bc19f8e|2020-02-27|alexandrupaler|renamed interface directory
+f06ca28589933f872eec5f21acfb8762c5315e41|2020-02-27|alexandrupaler|first step towards proper module
+06de9e657f608840212d959dfa195a8f9b33314e|2020-02-27|alexandrupaler|minor edits.
+fdad487c2a2f7715fdd924e53187cb23bb9818ce|2020-02-27|alexandrupaler|Merge remote-tracking branch 'origin/master' into setuppypi
+f40a880aea2ab2311f8aabd5a2e09a8b1eef47ea|2020-02-18|Orion Martin|Merge pull request #274 from ngnrsaa/allow-lone-qubits
+4f78635ed18c3144b0bfa4a5157e1405daa713e1|2020-02-18|Orion Martin|Allow lone qubits, but log a warning.
+bc418b18815217b8aa7b76c1414ac3a7a72e74f7|2020-02-13|Salvatore Mandra|Merge pull request #272 from ORNL-QCI/master
+8ccec78d54009d3124672195166dad4295d0f711|2020-02-13|Dmitry I. Lyakh|Formatted.
+d1b60ad3abb8bdd351220a69ccf7adac8bb51560|2020-02-13|Dmitry I. Lyakh|Replaced float* with s_type::value_type* in CBLAS calls. A danger is that this will produce wrong results if s_type is not complex<float>. Keeping float* will also produce wrong reuslts if s_type is not complex<float>.
+7bd8a5e8d16560da6d19d79b0ec607e78335629f|2020-02-07|Dmitry I. Lyakh|Fixed source to satisfy clang-format.
+4a5289cd65035effb4bcba6f0b32a784155de42b|2020-02-06|Dmitry I. Lyakh|Fixed build problems related to type conversion in cblas API.
+75872176fabeae593815a70b70e33b71b0f19788|2020-02-04|Salvatore Mandra|Merge pull request #269 from ngnrsaa/improve_tensor_class
+54f98720ce300bf943feade8ddfc17286c6f1d95|2020-02-04|Salvatore Mandra|Merge pull request #268 from ngnrsaa/add_warn_function
+8164d538c1d3706f26591b3868928b02efcbff99|2020-02-04|Salvatore Mandrà|Fix _capacity in Tensor::_copy
+da872affbe8d5063ed5726785fe1a15bf6242adc|2020-02-04|Salvatore Mandrà|Update comment.
+6af1d8fbb3d124c92987d8fad7432b6889d2f22c|2020-02-03|Salvatore Mandrà|Fix format.
+65c47a0726c0f7d9453ccdec3f5fb791077bb7d5|2020-02-03|Salvatore Mandrà|Put back Tensor::_copy(). Some improvements.
+9726f148abc52c50b5094327781b1c6bb57afab7|2020-02-03|Salvatore Mandrà|Fix Makefile's.
+696828b47a655e825b3117144fd0e800188ab1ae|2020-02-03|Salvatore Mandrà|Use Stopwatch.
+a56c5d36bc152c54ef8631a4b4d8dd70eee268bd|2020-02-03|Salvatore Mandrà|Move template declaration to header. Improve Stopwatch.
+745f0a06935763997083b714530421adc44f3452|2020-02-03|Salvatore Mandrà|Add <cstddef> to use std::size_t.
+991135f8cd93fac3d94fbee63bb37db19f5e12dd|2020-02-03|Salvatore Mandrà|Fix format.
+a038389a0bacf0e47afde2b88158e6538c00bad3|2020-02-03|Salvatore Mandrà|Fix header.
+38523bfcf75c11d00ea324ce42a828589b1dcd53|2020-02-03|Salvatore Mandrà|Use std::size(other) instead of other._capacity.
+bf40c815879f29a0227e0fe934d5c148f2738af7|2020-02-03|Salvatore Mandrà|Move implementation to cpp.
+041bc88bc293a5430c826b91e8d9ae3086ead40a|2020-02-03|Salvatore Mandrà|Use Stopwatch.
+5f38ade6aedf330753f6e0658d9914fe0b372948|2020-02-03|Salvatore Mandrà|Improve Stopwatch.
+d50c81a12dca7b0d3b1f14473a46c17a1d04552b|2020-02-03|Salvatore Mandrà|It prints [time-readout error] in case of an error in getting time.
+36ca03202dcc2921b94d0add1c199f0e4308c5c9|2020-02-03|Salvatore Mandrà|Add Stopwatch class.
+75d6d33c77a8b1c6d5c618da75db9ebc1347de4d|2020-02-03|Salvatore Mandrà|Fix header.
+c0a0f6fc144ea7bdb39111225c0e90bce7def12b|2020-02-03|Salvatore Mandrà|Fix format.
+bbeb859628423994831329d86d065436a9eb8cd4|2020-02-03|Salvatore Mandrà|Improve tensor class.
+4327c0aa4e9e714fda9e4e29f16c18082a2a795d|2020-02-03|Salvatore Mandrà|Fix format.
+3efcc337b90652027fa6b6ec90a1078a5fa19cd3|2020-02-03|Salvatore Mandrà|Improve timing and warning messages.
+764cc9d47c966617a69552178d9c604e82050686|2020-01-28|Salvatore Mandra|Merge pull request #264 from ngnrsaa/openblas
+18a421a296bb7d7b043e9505c5e2a9ea9cf7da8b|2020-01-28|Salvatore Mandrà|Few fixes.
+59b71ffbd320d7b58b69fee77d0bc2cea9c7bb2c|2020-01-28|Salvatore Mandrà|Update documentation.
+826466ab5601244879d0c0d0c9f738044e5129ff|2020-01-28|Salvatore Mandrà|Few fixes.
+29518136311bf76e13c7e4b1b8d27b221ae00a11|2020-01-28|Salvatore Mandrà|Few fixes.
+35db831d648a8fb2b08b657d92cda247fdf4f276|2020-01-28|Salvatore Mandrà|Few fixes.
+51e8715438cd4a219143dfdcc0aa7cd2be9e3405|2020-01-28|Salvatore Mandrà|Update documentation.
+10a61a778404ccc929e5c8db895d9d858ff4e5f2|2020-01-28|Salvatore Mandrà|Removing OpenBLAS submodule
+a4836bbad1b9b5075c8ff59a678e83ca5c369e22|2020-01-28|Salvatore Mandrà|Removing OpenBLAS submodule
+1f2a8e41cc3ed594c867999d4eee6b9319ee880c|2020-01-28|Salvatore Mandrà|Fix format.
+0ac8f50591c726b1c3d1347f1e07e65b6ac78f18|2020-01-28|Salvatore Mandrà|Print OMP_NUM_THREADS and MKL_NUM_THREADS if set.
+a400a83fb0f1d6181605e8739afc742a471c2ddd|2020-01-28|Salvatore Mandrà|Merge branch 'master' into openblas
+3352b0e89f43e38db33d7b45ce7401164324604f|2020-01-27|Salvatore Mandra|Merge pull request #265 from ngnrsaa/improve_load
+048d262c1057f2a49ce58663c0f0f500d9f36421|2020-01-27|Salvatore Mandrà|Fix comment.
+55efcb3582c1c2624624320a6e4fa4e87d935187|2020-01-27|Salvatore Mandrà|Few fixes.
+f4f061779fd32fe4940de527ed077d22f057e460|2020-01-27|Salvatore Mandrà|Few fixes.
+9c8714332b36f3fb6a293f8faa39ac5cbdaa729d|2020-01-27|Salvatore Mandrà|Improve flattening of 3D tensor.
+a53e9d2fc85082311e72e5931db399452aa864a3|2020-01-24|Salvatore Mandrà|Move from GSL CBLAS --> OpenBLAS.
+0a7869fcf233b94ec942e24851cb4412d6986d04|2020-01-24|Salvatore Mandrà|Move from GSL CBLAS --> OpenBLAS.
+3d7e6f9099c2dedafde94d76343c45cd1c0c9148|2020-01-24|Salvatore Mandrà|Move from GSL CBLAS --> OpenBLAS.
+112f43e3a6c0a77ab40ef8b1b1ed637b5b556e1e|2020-01-24|Salvatore Mandra|Merge pull request #261 from ngnrsaa/lgtm
+2c9e378713fb5bf4020459f80d41dc5a7ac40301|2020-01-24|Salvatore Mandrà|Fix help.
+f25103b5bb3871122575b6a40c988ab8c8dde98e|2020-01-24|Salvatore Mandrà|Use strftime instead of ctime (not POSIX standard anymore).
+daf5846bd4da7f04e014c5bb72b0c2f001610fb8|2020-01-22|Salvatore Mandra|Merge pull request #253 from ngnrsaa/track_memory_usage
+5d9ad8632bc4ce625e58cc06242877aa6edea023|2020-01-22|Salvatore Mandrà|Merge branch 'master' into track_memory_usage
+784ee2560aebb168f68dbf7116c23857a9180f62|2020-01-22|Salvatore Mandra|Merge pull request #257 from ngnrsaa/fix_memory_allocation
+4559c05a953fce98f920584f613e14a2fdf7f968|2020-01-22|Salvatore Mandrà|Fix comment.
+c228da920898ad722f7900de73d4ad7b9a47831d|2020-01-22|Salvatore Mandrà|Merge branch 'fix_memory_allocation' into track_memory_usage
+a046c1ea45c550ae05dc5d0c56f273c5eeb871dc|2020-01-22|Salvatore Mandrà|Fix format.
+db74698e472d35c291437cb20e0f4ed7ae6d5e42|2020-01-22|Salvatore Mandrà|Fix test.
+e158a80290a40e6e4b021ef1d3cd1fdcd9b52285|2020-01-22|Salvatore Mandrà|Call _clear() before moving.
+6bc9c87dbae144836a126a28001f14bce373b2a3|2020-01-22|Salvatore Mandrà|Reserve enough space to avoid copy of tensors.
+0234fb71fee9ab475ca4bb6d6a082fcb64706141|2020-01-22|Salvatore Mandrà|Add move operator.
+4ed9ba3557ee23b21e2b0947339e35fba6bea006|2020-01-22|Salvatore Mandra|Merge pull request #256 from ngnrsaa/fix_docopt_default_values
+6e3d1dbd49d28378e4dacb91981acb7ae5be37b1|2020-01-22|Salvatore Mandrà|Fix format.
+b16bc5498f714d2a7854d2f24c22243f7d50c84a|2020-01-22|Salvatore Mandrà|Merge fix_docopt_default_values.
+c79eb0347747b11a8067df26ed6352688289fb72|2020-01-22|Salvatore Mandrà|Remove unused conversion.
+ac50e3b856c8201050f64555ccc0990c4c97f85a|2020-01-22|Salvatore Mandrà|Fix format.
+f63118c51656485b76553477996f42618293ca93|2020-01-22|Salvatore Mandrà|Timestamp is now readable.
+dd0e8d4a15389af293895e1f310f63f1545bdfa2|2020-01-22|Salvatore Mandrà|Move ualarm --> alarm. Now --track-memory accepts only seconds.
+d905abd7017eaf2812dfa4da3979f86490809b0d|2020-01-21|Salvatore Mandrà|Add timestamp.
+91448958af648d35894122d6e70bdeb99e6f929c|2020-01-21|Salvatore Mandrà|Fix format.
+f90621f152bf3498f8c486d23330a56708908a91|2020-01-21|Salvatore Mandrà|Fix format.
+b1f2a467ae1a83a59bff5e1555c5fc0f5c751ee4|2020-01-21|Salvatore Mandrà|Merge from fix_docopt_default_values.
+fe24ce8cfd53be4d81bbdea801c52a3650c1bab8|2020-01-21|Salvatore Mandrà|Docopt default values are now read from qflex::global.
+925058e3361b4607bf475f9934db33b4e2f62fef|2020-01-21|Salvatore Mandrà|Docopt default values are now read from qflex::global.
+c9d516a7cfcb3344bc8b54fc6b5b26a724e628e2|2020-01-21|Salvatore Mandrà|Add default value for global::track_memory_milliseconds.
+31f5bc974ddf4422dc638b3bc5034c019b895097|2020-01-21|Salvatore Mandrà|Add function description.
+df82aebcad45bb831fb3a00d20cf23bb7e239ddd|2020-01-21|Salvatore Mandrà|Implementing memory tracking for multiple platform.
+0f149fe8547e40539703ce8c93c7cf1134f6c655|2020-01-21|Salvatore Mandrà|Implementing memory tracking for multiple platform.
+06d664a6b69c7544987d16ab0d4d7c99232f7852|2020-01-21|Salvatore Mandrà|Implementing memory tracking for multiple platform.
+db925b4157ce5414a07df2b4386a937dfe653a1e|2020-01-21|Salvatore Mandrà|Fix format.
+38a919b34848a0f39032ab5517ced7e3342b6164|2020-01-21|Salvatore Mandrà|Fix.
+c59dfa073ca283361df57e1194cf3fc590dbf24b|2020-01-21|Salvatore Mandrà|Ensure that tracking is enabled for linux systems only.
+126936197064ab5800176d4f3f65bb9be13955d6|2020-01-21|Salvatore Mandrà|Fix format.
+ce527510659e5b4812b9b3d392378ef7e238067e|2020-01-21|Salvatore Mandra|Merge pull request #254 from ngnrsaa/fix_memory_cmd_argument
+e9b3a07e6f73c8934439ee61d91e8f8539ed9c4f|2020-01-21|Salvatore Mandrà|Add back default values in qflex::global to avoid problems when qFlex library is called directly.
+840a01c03e844e069526e65a095add0244168d0c|2020-01-21|Salvatore Mandrà|Trigger.
+a865ff60dae3b7b17cb18ff9de39cdba78d44fda|2020-01-21|Salvatore Mandrà|Fix format.
+6b2e9d2cb8cc82f4e5e1852260a38e918f8bda43|2020-01-21|Salvatore Mandrà|Both memory usage and memory peak are tracked.
+e4f61199b985ccac9c0f800d9a2152352f5c3758|2020-01-21|Salvatore Mandrà|Tracking time for memory can be specified as parameter.
+dbfad515cdee912dbb9729fab66b2f78b83ae287|2020-01-21|Salvatore Mandrà|Fix.
+aa5a6510613cabf941a1a5b0d2b4a9e3855e1d19|2020-01-21|Salvatore Mandrà|Default variables are declared in docopt (main.cpp).
+f606474413ed854d96bc6ab80ed0e9c79c69fd15|2020-01-21|Salvatore Mandrà|Fix docopt.
+d4da622a86e7fa51cdb044e3d1f5545d26cecb55|2020-01-21|Salvatore Mandrà|Merge branch 'master' into track_memory_usage
+c7aecbaf0471e294a103310aac5631342428cdff|2020-01-21|Salvatore Mandrà|Merge branch 'master' into fix_memory_cmd_argument
+91fb9742b1cee3ad15951654f78e3330aab0bcc9|2020-01-21|Orion Martin|Merge pull request #255 from ngnrsaa/benjaminvillalonga-patch-1
+ef216e0ecfb3aaa837955dfc18a2133e802b9bb9|2020-01-21|benjaminvillalonga|Update cirq_interface.md
+c48217236e11eadb2c480cc0987e91deb3beed61|2020-01-21|benjaminvillalonga|Merge pull request #252 from ngnrsaa/reduce_contraction_memory
+3483e33d1c1be77a381e7f92cca9a0053f46f225|2020-01-17|Salvatore Mandrà|Fix format.
+9cb7b0f95b73e2b69f121ff197ce5dbcc7430fbc|2020-01-17|Salvatore Mandrà|--memory can be a human-readable string as 1GB.
+6abf8d0d72ea0ccb77b3f21644b9efe684fc192a|2020-01-17|Salvatore Mandrà|Trigger.
+d07774982de6713b7b01bd25d164b6e326cdaac4|2020-01-17|Salvatore Mandrà|Fix format.
+de0c4ab7a2ed16f42f9dffe146caa829ea5f22f2|2020-01-17|Salvatore Mandrà|Fix precision for memory when printed.
+cc3d41b2f682398d7f1a2684595b8573d0b253e5|2020-01-17|Salvatore Mandrà|Fix Makefile.in's and format.
+dabe84179e663efb8651fde5f5ec2a0e36b152a2|2020-01-17|Salvatore Mandrà|Move readable_memory_string --> src/utils.h
+c17cd6f7ad281184ce8e69e2d3615e8b37e86f81|2020-01-17|Salvatore Mandrà|Merge with reduce_contraction_memory
+f0fca49e683c373262e10f43b2bd0c4d0d9f4c30|2020-01-17|Salvatore Mandrà|Merge branch 'reduce_contraction_memory' into track_memory_usage
+9e9cf6b24f41ad808fe89c81fe6229e7a0f18947|2020-01-17|Salvatore Mandrà|Move (errors.h)concat --> (utils.h)qflex::utils::concat.
+d41f94993d5a254a790cb340b3235d4f6beb8ee0|2020-01-17|Salvatore Mandrà|Remove use of buffer.
+e13b611ea7d4339a112acaa387fce1cd4a51e498|2020-01-17|benjamin|Reviewed suggested changes. Also changed new_size(1) to new_size = 1 for consistency with other lines.
+78054625d80e7ad25f8aaad9ad3b35eff98b956d|2020-01-17|Salvatore Mandrà|Add support for real-time memory analysis.
+2490ba97613206d5c8e326e80160ffd482bd54fd|2020-01-17|benjamin|Compute estimated memory allocation using s_type, not complex<double>
+9c8e48492c218689dc47863320f95d5ff02c0511|2020-01-17|benjamin|Reduced number of swap tensors allocated to just the necessary number, without iterating over all possible sizes
+85cdf6bbcfcdff928dd154b666e45f09e34215a1|2020-01-16|benjamin|Formatted contraction_utils.* with clang-format
+fa9bbc0806a5da0ce94d6f592ecd9ddb411a200e|2020-01-16|benjamin|Merged master into reduce_contraction_memory
+34092a4f8bac8f040661d8349c18eef1c53ebda3|2020-01-16|benjamin|Optimized sycamore_53.txt ordering
+4580e2ee13785d54c8c4a501c8a947163b754593|2020-01-16|benjamin|Change names of new variables so that they are more condensed: remove by_size suffix
+1ab89e8b30f5a86306363fff409a223d6c57e3dd|2020-01-16|benjamin|Actual sizes are taken into account for allocating space for the contraction, as opposed to ranks and the max bond dimension of the network
+48a589c05fc3e6ec5ba106d4c8c5b0be97d515d3|2020-01-15|Orion Martin|Merge pull request #247 from ngnrsaa/auto-fidelity
+9e60f6bb9f78307b11b387ae0e8a61f7855d0633|2020-01-14|Orion Martin|Merge branch 'auto-fidelity' of github.com:ngnrsaa/qflex into auto-fidelity
+bed9d08b354fb96025d24f2a3047502fd13f30b1|2020-01-14|Orion Martin|Add tests for auto-order fidelity.
+540b97c7f9af2c4961b3d0213c15f189604c9a60|2020-01-08|Salvatore Mandra|Merge pull request #251 from ngnrsaa/fix-lgtm
+758732dd8cf187e9027843a827ef3eb39b6922fe|2020-01-08|Salvatore Mandrà|Remove unused check.
+8df097424942a9965479f8b34214e185d5e899af|2020-01-06|Salvatore Mandra|Merge pull request #225 from ngnrsaa/improve-cpp-code
+59e6001f75498ab55cf3832bf0e7c2979a47be80|2020-01-05|Salvatore Mandra|Merge pull request #250 from ngnrsaa/update-documentation
+553462bfd2fd0e771cc3f6cd0a15bd4d4871d7da|2020-01-01|Salvatore Mandrà|Improve.
+36c2c74865aa3d3bedc07f34202bd2998097d4b9|2019-12-20|alankao64|Update install.md
+1702d4ae79964f21e052b7d8445fe432dcbef1b7|2019-12-19|Alan Kao|fix format
+1080865369d749aeb7a152d04611e779f0b8f48f|2019-12-18|alexandrupaler|added file.
+0ba906f8e95cbee2627b5dacf862e4621806bbca|2019-12-13|Salvatore Mandrà|Use <cmath> constants.
+1c0ff63b60ba5a57066bb14bffadb506ee3c5e9a|2019-12-13|Salvatore Mandrà|Remove buffers for strings.
+cc5256054d830438803377a86f86eefc3f35303c|2019-12-13|Salvatore Mandrà|Better error handling for ordering_data_to_contraction.
+24e9af1de555badf8d6885910cf781585d7a2035|2019-12-13|Salvatore Mandrà|Fix format.
+177b9a40b93de876fbb178789c75bb18874192c8|2019-12-13|Salvatore Mandrà|Use std::optional.
+9afcc6d98d28a4234a8db0200ec6f3262899bf84|2019-12-13|Salvatore Mandrà|Change &scratch_2D[0] --> scratch_2D.data()
+689218bf5e699af44fb55091050b2bbb8f1dbcc5|2019-12-13|Salvatore Mandrà|Fix tests.
+16eae3901edff13b9f66d474bb178d9a5493bc8d|2019-12-13|Salvatore Mandrà|Merge branch 'master' into improve-cpp-code
+90d5b6fad58712641932aa2be08ad29950b417c6|2019-12-13|Salvatore Mandra|Merge pull request #241 from ngnrsaa/improve-reorder-tests
+5ab323441f1c5cd4070f2fb500f5078e177d04ef|2019-12-13|Salvatore Mandrà|Remove extra comment.
+5445cd04d91356363a2b1c9e1989e928a9e5511c|2019-12-13|Alan Kao|Merge branch 'master' into improve-reorder-tests
+5a94d7108590e0497be48df632130b91d3acfce4|2019-12-13|Alan Kao|fix format
+b6bf2d7097d2d7434fa8e5b3cc2a4e456a2bdf99|2019-12-13|Salvatore Mandra|Merge pull request #248 from ngnrsaa/fix-ordering_data_to_contraction_ordering
+0617da723f70e532c5ae62338d2786001a6c5574|2019-12-12|Salvatore Mandrà|Fixes after merging with master.
+a89ee3d830be2a4ed6c226ace6b69e2d11f38fc2|2019-12-12|Salvatore Mandrà|Fix after merging.
+3b83aec578e87f2aa1784e2d8428ab6b6aa9f09f|2019-12-12|Salvatore Mandrà|Use QflexOrdering::load.
+6e121d4e46c4c5c7d88b0d87fe7b65b906a8ad63|2019-12-12|Salvatore Mandrà|Remove rethrow.
+1859c3952592e125a96d9287194ebde86001dea8|2019-12-12|Salvatore Mandrà|Merge branch 'master' into fix-ordering_data_to_contraction_ordering
+051b2b1f7d682ff472adebc7650e05ce550b864e|2019-12-12|Salvatore Mandra|Merge pull request #231 from ngnrsaa/try-catch
+6366977fd7a8f453a97fb529b33200efeed384f1|2019-12-12|alankao64|final fixes
+6f76bc62820438f8bb2ab696f2c275b5b6317bbc|2019-12-11|Salvatore Mandrà|Fix format.
+f0c6ba7bbddb5cbc71728524d2152974ecb9d49b|2019-12-11|Salvatore Mandrà|Change EXPECT_ANY_THROW with try...catch and EXPECT_THAT.
+6483e43c7ffe8dabadef488ef2ff5088105005f0|2019-12-11|Salvatore Mandrà|'ordering_data_to_contraction_ordering' throws for any error, rather than returning true/false.
+58f550cb2deb958e3f2d5d297ac65074f5e58d9c|2019-12-11|Salvatore Mandrà|Fix format.
+648a41804a01faaf738dbc1f66481f48b136d525|2019-12-11|Salvatore Mandrà|Change EXPECT_ANY_THROW with try...catch and EXPECT_THAT.
+18830a48f3b52d35e7215315268d0e84593f5e7e|2019-12-11|Salvatore Mandrà|Change 'std::string msg' --> 'const std::string& msg'
+e551a5f0a12663e9c1514f1c1da978d72886c476|2019-12-11|Salvatore Mandrà|Merge branch 'master' into try-catch
+71498ddc20d36f5c734a607174993fc220f25b09|2019-12-11|Alan Kao|small fix
+bc9cbb1fe061065c1f81f5ccbd9127951563098a|2019-12-11|Alan Kao|fix format
+1b670b0ddcbe51716722a9a169157ff7df925cc9|2019-12-11|alankao64|Merge branch 'improve-reorder-tests' of github.com:ngnrsaa/qflex into improve-reorder-tests
+038710060e624be27fb1a430049817491146d081|2019-12-11|alankao64|updated comments
+70557d0b883ab13accec79a1501e242a61802691|2019-12-11|95-martin-orion|Fix existing test. New test in progress.
+47c0313aa09a41de2a174a460d8a0dcd8093c1c7|2019-12-11|Alan Kao|fix format
+428a923bdb0e4922620be48acfe29cffb328b0b6|2019-12-10|Salvatore Mandrà|Fix format.
+1391b0741d17e4bbda70e84557c8e4d82a931c10|2019-12-10|Salvatore Mandrà|Change std::string msg --> const std::string &msg in catch'es.
+d18306b014170cbcb04bb94710a069f66d87fc13|2019-12-10|Salvatore Mandrà|Add description to simple_reordering.
+58af379cab01c8c8f45ed595e3e0a290fbab254b|2019-12-09|Alan Kao|fix-format
+d7383e757d67b39dfa1ec64fa82203b9ae5dea03|2019-12-09|Alan Kao|fix format
+5143e59fa8144c139a29c9eb5817b9e0336604ff|2019-12-09|Alan Kao|Merge branch 'master' into improve-reorder-tests
+e88bd2494bbd3a36f708907b962ad37b456b1894|2019-12-09|Alan Kao|fixes
+fca1a1d6becaa77945543041b8eafa22da0c5836|2019-12-09|Salvatore Mandra|Merge pull request #246 from ngnrsaa/ordering_tests
+0294d7d28c7f6d339e1d26581fb6de146833449e|2019-12-09|Alan Kao|requested fixes
+356bcb053e24867d5098d3e0f54e131c1d75d307|2019-12-09|95-martin-orion|Add fidelity controls to auto-ordering tool.
+598ac4ca52babbae3086b236d6c9904345a51c7b|2019-12-05|Alan Kao|fix format
+44527a1cf6f401b2e9992a7bee8cf0a0858ef7c1|2019-12-05|Alan Kao|add ordering_test.cpp
+5aa05d238987e36bf025f9c81c7c3c0f6cf80d2d|2019-12-05|Alan Kao|Merge branch 'master' into try-catch
+f7712659f3c8530dfcff387b73b269de9e56c6c3|2019-12-05|Alan Kao|Merge branch 'try-catch' of github.com:ngnrsaa/qflex into try-catch
+683a243acab0b2b5afdbad3e7095bf831901a5ac|2019-12-04|Salvatore Mandrà|Small fixes.
+9b1f0f40a8b67a298e389a4991c1124e7d1db459|2019-12-04|Salvatore Mandrà|Small fixes.
+5bd37222c4aa762abb39b9a4372a8595f105904b|2019-12-04|Salvatore Mandrà|Merge branch 'master' into improve-reorder-tests
+705f7fd02fd0f89f6c6c5ea203d6415290a481c0|2019-12-04|Salvatore Mandrà|Fix colors.
+5cf0a59817de8c29a28b9429c14f1f0e276bcb9b|2019-12-04|Salvatore Mandrà|Fix format.
+71d0e4d60aa6e64f51b059dca46f27d8742b1f7a|2019-12-04|Salvatore Mandrà|Add simple routine to permute axes of tensors.
+04c90769c5ae3f11cbbc4364f5e37c096e2b362d|2019-12-03|Salvatore Mandrà|Change IsOrderingValid -> ValidateOrdering.
+535c7e0e00d5915523ecd4a8f4500ef3abf44ac9|2019-12-02|Salvatore Mandrà|Update header for IsOrderingValid.
+d38dafd1bdef3a793caf6b86ab101747c1945585|2019-12-02|Salvatore Mandrà|IsOrderingValid now throws if not valid ordering.
+ecbc183700ca5a4c3184a09e1b0cb591462329a1|2019-12-02|Salvatore Mandrà|Merge branch 'master' into try-catch
+d31c1bdbb9fda80c9b65b84258607fd5e519ea6c|2019-12-02|Alan Kao|Merge branch 'master' into improve-reorder-tests
+692b1c58f5d5d69c53327e6823038b2d425b9871|2019-12-02|Alan Kao|Merge branch 'master' into try-catch
+6f306c9f7107fbb3db140fbc03b0b1a872441cf4|2019-12-02|Salvatore Mandra|Merge pull request #237 from ngnrsaa/fix-check-format
+8445a72b1c09524c009ae6fc138584e69899412c|2019-12-02|Salvatore Mandrà|Fix script.
+1bb33cdae98f6858a72c4fb64509fb36c177f5a8|2019-12-02|Alan Kao|Merge branch 'master' into try-catch
+933bcca315577167c6c1ffe7657879acbf7f457b|2019-12-02|Salvatore Mandrà|Fix format.
+724eac7f18a8d7694c086d6bb9dd963f12ee5be3|2019-12-02|Salvatore Mandrà|Fix version for yapf.
+525536d1f9102e3590c5b0def87091a666370a62|2019-12-02|Salvatore Mandrà|Improved script.
+9efba9b653b8279b7f29b46ed1afcf1e84db8eef|2019-12-02|Salvatore Mandrà|Use directly --style=google
+0b30cb3900fa98d5cfe1efca84c8e3625c170082|2019-12-02|Salvatore Mandrà|Versions for yapf and clang-format are taken directly from requirements.txt
+5730b7a4c6db597e740231e12fe9a3a08ddbb53d|2019-12-02|Salvatore Mandrà|Fix script to work with Travis.
+88d71e99ff4f2a9888f2b288b40ff1719fae024a|2019-12-02|Salvatore Mandrà|Merge branch 'master' into fix-check-format
+2498a13a72397a763c5b90c77cc23b6a3c554527|2019-12-02|Alan Kao|fix python format
+3267468926e9715246f153bfff7b87223b9af1fb|2019-12-02|Alan Kao|final fixes
+468d2ce5d0f70dd96269a9a1506b679109ca4e0e|2019-12-02|95-martin-orion|Merge pull request #244 from ngnrsaa/fix-format
+beff3f466eed52fbdcb5963b67fb627e2fc410c9|2019-12-02|Alan Kao|remove extra line
+fcd1bb03bf0ba7316facb5fdf77b82124bdb719d|2019-12-02|Alan Kao|fix format
+fc5f9ec204f053c9675fc87c51a2dd912ebedc91|2019-12-02|Alan Kao|fix python format
+516a3f2bc6da008a80695985a471edec7ca03f95|2019-11-27|Salvatore Mandrà|Merge branch 'master' into fix-check-format
+b328c7159f10265e97567c5785d2584b5e006b51|2019-11-27|Salvatore Mandrà|Improve check_format.sh
+737f8a783a4718b1e53d1d4552129aab07bd8a82|2019-11-27|Alan Kao|fix format
+cd4e29d74c7aab573958157de669a1b19247c083|2019-11-27|Alan Kao|more tests
+d54d0a82a5870bf0500c388ee143814566d4355b|2019-11-27|Salvatore Mandrà|Merge branch 'master' into try-catch
+c026e371dd0d67a1587db5f4335439086997e51b|2019-11-27|95-martin-orion|Merge pull request #238 from ngnrsaa/allocate-scratch
+399fb83f17c62cc540b261074b4087d4b835ad17|2019-11-26|Alan Kao|fix format
+c466e6d3d4a0126b7e49060e78095c19fe4870d7|2019-11-26|Alan Kao|working tests
+6044082de266aa7bfcd9b59054285d8ea2e72d2d|2019-11-26|Alan Kao|initial commit
+a874e9b9545cf552c862e339029d86b4087bbce9|2019-11-25|95-martin-orion|Merge pull request #232 from ngnrsaa/circuit-and-grid-tests
+4363bcaad31d0e702d2021c34e820e0f8c9bcac9|2019-11-25|95-martin-orion|Support dim > 2 tensors in initial size estimate.
+a4b97c07d2f680a8789a7d2c997c06d7422fa5eb|2019-11-22|Alan Kao||| -> or
+8f4f760cb8cfa7644f1dfa6cc81520406d0afd18|2019-11-22|Alan Kao|fix format
+9ebe6b3f40828e5074c85d2c35f938a091f0d470|2019-11-22|Alan Kao|fixes
+ea72d359ac53e6845487af0236f88d1adb5a917b|2019-11-21|Alan Kao|fix format
+fd39870050d87e90f4b3221939e66bfc9ab2b75c|2019-11-21|Alan Kao|clean up
+1b0f6ea2789c09921b4e72723f0160433d370c35|2019-11-21|Alan Kao|all bad circuits working
+9273fa1b7d35ed91f7cdd3d3c0c036885636837d|2019-11-21|Alan Kao|fixed error message
+1035add4af1e55a447e94861973802760dcb1df6|2019-11-21|Alan Kao|half of bad circuit tests
+a7d02a15b373f2db5ccfc3d2204fdf65973e708b|2019-11-20|Salvatore Mandrà|Fix format.
+ca6b5111d493a2a9847f46d159cbd065e51853db|2019-11-20|Alan Kao|still broken
+86eb16b0a1357bb35101a22cbdd056c44e2eb34d|2019-11-20|Salvatore Mandrà|Fix after change in IsOrderingValid.
+5086c9a952dfce5bba952d27050f87e16ccb3020|2019-11-20|Salvatore Mandrà|Fix for backward compatibility.
+0ad27fe5295e7a1be0c4f687dab798fd500212bd|2019-11-20|Salvatore Mandrà|Fix bug.
+17574402fe339149f260e0699f2c1789c7632c54|2019-11-20|Salvatore Mandrà|Add temporary test.
+3436021d95d47af34e1aeb025391077324117135|2019-11-20|Salvatore Mandrà|Fix error message for ordering check.
+e36a00594675676d13d3191093b7d8e97726ee32|2019-11-20|Salvatore Mandrà|Merge master --> try-catch
+bcfafeecf80a6c0f06cf179030fae2b20edcca50|2019-11-18|Alan Kao|remove test
+dd956dba74e6f61c82eb054c9b4095924e83487f|2019-11-18|Alan Kao|test
+c414b276bd66bfcedc5920c4a68043590dbeb340|2019-11-17|alankao64|merge master into branch
+692b2dc7ec45f29e86f1e881a7b833accb224531|2019-11-15|95-martin-orion|Only allocate as much space as needed for 2D grid.
+7405baa1f34825c41d65598bc636e1dbfd19f2a7|2019-11-15|Salvatore Mandrà|Fix to handle modules with spaces.
+1c3cd80370dd878297287ac4a214caabefb282b3|2019-11-14|Salvatore Mandrà|Fix.
+26dea9071dbacc1808a70eb7d8beebff728a2e28|2019-11-14|Salvatore Mandrà|Replace int --> std::size_t
+f2a319ab9b085fe1fc1757c857310cb61d2166c9|2019-11-14|Salvatore Mandrà|Merge master --> improve-cpp-code
+cb7c0ce952aaca38abc0ca10f78f9e6431f6fb7f|2019-11-14|95-martin-orion|Merge pull request #236 from ngnrsaa/dry-run
+e63080760321505e1932680e06aa0b5d5f6daed0|2019-11-14|95-martin-orion|uint64_t to size_t.
+84bf591fb668777d660879dca2377464c95e929e|2019-11-14|95-martin-orion|Fix format.
+37e5d5b01383e11ced4df0baf90dfbdb36c7062b|2019-11-14|95-martin-orion|Add --memory flag to prevent OOM failures.
+dfd4d2adc64525bc226ee54ececf54f46c76ee99|2019-11-13|Alan Kao|fix format
+52056bf4103f170692a67118c0129061b8d6fbbb|2019-11-13|Alan Kao|fixes
+710d3fdd6c215c78d28881ebae7b9742189d3693|2019-11-13|95-martin-orion|Merge pull request #235 from ngnrsaa/verbosity-clean
+cd3a08eba73a40a27677bcda116c85393fcfac77|2019-11-13|Alan Kao|circuit_test.cpp
+4a5140bc6f5f1969af40e96d93a28126cc7a953d|2019-11-13|Salvatore Mandrà|Fix --verbosity of negative numbers to be equivalent to --verbosity 0
+888e20802dd3777081f200404ea8e67047c460de|2019-11-13|95-martin-orion|static_cast for args.
+a38bace3a783988e9fc17e4d7a7175f178332748|2019-11-13|95-martin-orion|Simplify verbosity controls.
+db3d9e80efbe05f14654ba0dc1ccf0753d36c05b|2019-11-13|Alan Kao|fix format
+b31ffb44fa3b7c051959c48658e418e7ddc71d4a|2019-11-13|Salvatore Mandra|Merge pull request #233 from ngnrsaa/add-verbose-option
+b7f9160b11f9d94aedeeb5c660670c1248a07f82|2019-11-13|Salvatore Mandrà|VERBOSE --> qflex::global::verbose
+410c7e286b823d9d61c7a76df31540d22a3768ea|2019-11-12|Salvatore Mandrà|Fix format.
+5dc45e15b368212be91352a90da73634af89f5c9|2019-11-12|Salvatore Mandrà|Add control of verbosity.
+f02fb5583d67b1c0e65aeefce90549ec4f70ead4|2019-11-12|Alan Kao|reinstated error_msg
+5ccd42ec3146dbef215e19fc49cc2dec1eeb546d|2019-11-12|Alan Kao|fix format
+53be11caa298caa47e2da3e4d96875743fc4ab85|2019-11-12|Alan Kao|grid.cpp tests
+67c4d9f2d70df3bfbd45138f6f5cd82a34c8e4fb|2019-11-12|Alan Kao|initial changes
+8cefeff365ffbbba708554d0c57b77c0f6b95ae3|2019-11-12|Alan Kao|fix format
+593700a62e35886e94d10f222c59d918e1f71942|2019-11-12|Alan Kao|comment fix
+13b444ce2622f954ac565eece2cbaf5dbb03a950|2019-11-12|Alan Kao|format fixes
+8a20746c0f26526d080719cd989a7ca6a2d4f087|2019-11-12|Alan Kao|readded const
+18f1a960e1007bbf23907fe6d05c681b560b6f31|2019-11-12|Alan Kao|small fix
+c5b0611d7f2d22962e15e395a45db19745165c80|2019-11-12|Alan Kao|fixes
+dae94b51edc8c3db95a69e917cafcc545af4f228|2019-11-12|Salvatore Mandrà|Merge branch 'master' into improve-cpp-code
+ed70c2de305d4f0cc45d072bdefe3292e5681b1d|2019-11-12|Salvatore Mandra|Merge pull request #210 from ngnrsaa/pybind-use-list-of-strings
+a3bf7dc5f47e8060e330de29e006ed9143583b6f|2019-11-12|Salvatore Mandrà|Fix error messages.
+3a1e534d28dd5b07a45b305fb50ce0a2508574c3|2019-11-12|Salvatore Mandrà|Use std::optional for 'not found' checks.
+64d711069115a0ca00024ff945dbd8a40d6b5a82|2019-11-12|Salvatore Mandrà|Small fixes.
+3f1f4fee250103a0e0f345abb0dbf0a654738454|2019-11-12|Salvatore Mandrà|Merge branch 'master' into pybind-use-list-of-strings
+8f658ebb2cd20ba94c27cce7e8e72100f9679095|2019-11-11|Alan Kao|format fixes
+f452ffcde588cb690d5b4ac2a6a40b0fad4a67cd|2019-11-11|Alan Kao|fixes
+7fe9197aa5c9ae4ac39db1e7fa50ab845f8e42fe|2019-11-11|Alan Kao|contration_utils functions try-catch
+ef7ec307bfd271db36562884ad10af3b68284ecb|2019-11-11|Alan Kao|evaluate_circuit.cpp try-catch
+0e1f5c8fc52110a4c6d9c50ea81c4868583cca46|2019-11-11|Salvatore Mandrà|Merge master --> improve-cpp-code
+017eb86370316ea2e10e1797f1ce86a5da3cfe47|2019-11-11|Salvatore Mandrà|Merge master --> improve-cpp-code
+a43c9f7542114b3015a0f9c2060c86f1a9ed5370|2019-11-11|Salvatore Mandra|Merge pull request #227 from ngnrsaa/fix-circuit-load
+9d1b38d4addcf556999db98254dadd76e30173e3|2019-11-10|Salvatore Mandrà|Improve error output.
+887a7d9a50bcbdb3af2567c0b0222fb46028e965|2019-11-10|Salvatore Mandrà|Add QflexGate::raw, correspoding to the raw string use for tokenization.
+b363b5c3dbbdf18c856c94d7d5ee8154f467f938|2019-11-10|Salvatore Mandrà|Remove old comment.
+eeb8335ef945f885708a633d8f9369b1b7845baf|2019-11-10|Salvatore Mandrà|Merge branch 'master' into fix-circuit-load
+f13c4524a6ae86ace5958f56c291a33916bae3e8|2019-11-10|Salvatore Mandra|Merge pull request #229 from ngnrsaa/fix-index_value
+2628c6222b55b25e480780326d442ff0831190c4|2019-11-10|Salvatore Mandra|Merge pull request #220 from ngnrsaa/improve-dockerfile
+1f90478493a04f3dcdeb0270c550df501b0c8682|2019-11-10|Salvatore Mandrà|Merge branch 'master' into fix-index_value
+430c746dc0551482826cce131ca8e89db3351d88|2019-11-10|Salvatore Mandra|Merge pull request #228 from ngnrsaa/fix-string-catch
+16011204e21b5e28694cf29b73043114137869dc|2019-11-09|Salvatore Mandrà|Fix assert.
+271cdfdd908223845de9c1da3ac489321b183006|2019-11-09|Salvatore Mandrà|catch (std::string) --> catch (const std::string&)
+b2ebb8c57f14d9ab27329dad9fda095657fbb296|2019-11-09|Salvatore Mandrà|catch (std::string) --> catch (const std::string&)
+45ea02309b21b5bf1d6dde9213ced19426969d63|2019-11-08|Salvatore Mandrà|Merge branch 'master' into fix-circuit-load
+0b737c1d5edcd9439beb2a486d36ecde4a766859|2019-11-08|Salvatore Mandrà|Fix format.
+af0c5d8679be9417cab7d36b0ea4852e12c99160|2019-11-08|Salvatore Mandrà|Fix tests + add another test.
+2571dafc82ecf38fe942f1a5e9de49ef04e05421|2019-11-08|Salvatore Mandrà|Check that off qubits are actually within the grid.
+e92152c5803054520188082e4b9af4e4aad420c6|2019-11-08|Salvatore Mandrà|Add clear() as a member, which is called anytime load() is called.
+89c6469989c6a067c4ab0060f2755bdcd3f6ae57|2019-11-08|Alan Kao|format fixes
+ca3cf8bbf21f80dc64846bcec24d4e10cba57623|2019-11-08|Alan Kao|adjusted test
+82b5b894915d09f8e77ed0a0beeed132e1bb1b00|2019-11-08|Salvatore Mandra|Merge pull request #223 from ngnrsaa/update-docs
+764fd59bd048f19e00ab7f5d5d77c6b4ba79ba08|2019-11-08|Salvatore Mandrà|Fix format.
+4d310bd8c566e637fadcc72c5da3bd207852bbdf|2019-11-08|Salvatore Mandrà|Fix.
+1196259f22c1d9e2957c0c59aabf2fb26d79ee24|2019-11-08|Salvatore Mandrà|long int --> std::size_t
+493d5f8237c8bc90e3e6b07e530676aeaf9b4ec1|2019-11-08|Salvatore Mandrà|long int --> std::size_t
+2b6e909707416665c887dc32cda80c5435bfe55f|2019-11-08|Salvatore Mandrà|Fix.
+efe07f0344e773cc58ffe7dacca9dbfd366d4a80|2019-11-08|Salvatore Mandrà|long int --> std::size_t
+3b44bc7b05058901cb37f9d4e8a7d8fe09284bbf|2019-11-08|Salvatore Mandrà|long int --> std::size_t
+6682e3c5c931de229c5e98f0d0f85f952728c70d|2019-11-08|Salvatore Mandrà|Fix format.
+a775135c516f95c72fc6426cc0776e61fe0aca83|2019-11-08|Salvatore Mandrà|pow --> std::pow
+6a3c7098d5449731b2293cc0ab2728b4d3fbd160|2019-11-08|Salvatore Mandrà|Merge master --> improve-cpp-code.
+3ee609a9a038bb7f701a3b79a610841478ad3d35|2019-11-08|Salvatore Mandrà|Fix format.
+856e4b1eb80179361678e4e33a64b076823ef205|2019-11-08|Salvatore Mandrà|Fix check of boundaries for indexes.
+e903ccf8db66790e1785caecb37e4b5e41735aed|2019-11-08|Alan Kao|identified broken test
+90044d90e1dec872c981daf8f1c2885e324e89f0|2019-11-08|Salvatore Mandra|Merge pull request #218 from ngnrsaa/try-catch-tensor
+38d267b7ed83829f837ed5b019c2e62a95eb8e1b|2019-11-08|Salvatore Mandrà|No warnings on unused command line arguments.
+0fd036c967f55e9bd38c94e74effa5c4259889b9|2019-11-08|Salvatore Mandrà|Small fix to accept negative indexes (and throw an error).
+a6f45a1b714b647facd53a58b754ab973f883edd|2019-11-08|Salvatore Mandrà|Fix format.
+66d1f659e1c7020a4fca741a53b19a64a3aceec8|2019-11-08|Salvatore Mandrà|Warnings are errors.
+a318f86053fcc25d33a914cdf1b978c057dced74|2019-11-08|Salvatore Mandrà|Check cast does not overflow.
+26485e70fb7ca5fbfe0301ceb02105c62cb2cc9c|2019-11-08|Salvatore Mandrà|int --> long int
+0d857b76cba092f5e0738ed6cd1e02e057a15074|2019-11-08|Salvatore Mandrà|int --> std::size_t.
+07abf22fcd2b5dc154024c417aae06c1ea8c2adc|2019-11-08|Salvatore Mandrà|int --> std::size_t.
+b8fe23d38177db6c021d92b5efda77eda6b83247|2019-11-08|Salvatore Mandrà|int --> std::size_t.
+3bec5db2235430d3571fcc7b7123c95a035b67a1|2019-11-08|Salvatore Mandrà|int --> std::size_t.
+6dfe493160521d2c7bb1657cd10cc32edc999066|2019-11-08|Alan Kao|format fixes
+f7a55d4c7120cf3672449f06290f5a5082d650d8|2019-11-08|Salvatore Mandrà|int --> std::size_t.
+4dc809a6a0d834fae776f58c8b3c6b89b71eaaa2|2019-11-08|Alan Kao|indentation of err msg
+21a45f94b48f547b85e60395bd38694cb7829c00|2019-11-08|Salvatore Mandrà|int --> std::size_t.
+98650bfcf58284be156a11cb1099abd9850fd031|2019-11-08|Salvatore Mandrà|int --> std::size_t.
+19d35157643b701ec722423ebc455586be960e75|2019-11-08|Salvatore Mandrà|int --> std::size_t.
+b2f1869adaefedc723a9b1c953795507c7e17c34|2019-11-08|Salvatore Mandrà|int --> std::size_t.
+a6d19b81607914980682d9a79891d1b7066fde6a|2019-11-08|Salvatore Mandrà|int --> std::size_t.
+b99e2f232dc150aebd8f181c041240a7b51d06e4|2019-11-08|Salvatore Mandrà|Improve -Wpedantic.
+6ba69ab761985a9c89fa9ad84c31e5261c6c5d80|2019-11-08|Salvatore Mandrà|int --> std::size_t.
+92e45710b0dfc7d7a5031b3e5731e4a8575f77df|2019-11-08|Salvatore Mandrà|Add -Wall and -Wpedantic for a better cpp code.
+970bd2ce317e8ee546d45b287263fa6cc7849404|2019-11-08|Salvatore Mandra|Update install.md
+1933297e0693b1df2b9db03a7e245672eab7636b|2019-11-08|Salvatore Mandra|Update README.md
+112f3f0f6cf832251195b93da4f5a28bb0fba513|2019-11-07|Salvatore Mandrà|Merge branch 'master' into improve-dockerfile
+0d177240a7e25cc0018e6ad91ec789a3fda3d8b2|2019-11-07|Salvatore Mandra|Update README.md
+668b0854161dcaacff85641e8ad951778253019e|2019-11-07|Salvatore Mandra|Update README.md
+766e47da5b05adbe2c0a1214dd2c6b3264c93b7a|2019-11-07|Salvatore Mandra|Merge pull request #222 from ngnrsaa/fix-lgtm
+e0d9953b793d4599a4a3b40d35734d00f85dcaf8|2019-11-07|Salvatore Mandrà|Fix configuration.
+0a7bff0c6d110da96245089eb9f8aaeee4f601ce|2019-11-07|Alan Kao|small change
+55678d5be9cadca026f13feacfc127504c97318e|2019-11-07|Alan Kao|format fixes
+154645d2898e836c5867fc284ba20e7efa67e7ce|2019-11-07|Alan Kao|internal tensor.cpp wraps
+8f014403257dddcaec791897a36581d848ea6305|2019-11-07|Alan Kao|Merge branch 'try-catch-tensor' of github.com:ngnrsaa/qflex into try-catch-tensor
+ee5320023850bed8f451e804ee625c4c384a84fc|2019-11-07|Alan Kao|fix
+a10efa2cc9abad7959cc38d881e37d442d01155c|2019-11-07|Alan Kao|Tensor() wraps
+7932cf1da8f0db2d3f4fe0430619907bf0d42c37|2019-11-07|Salvatore Mandrà|ADD LGTM configuration file.
+a83acef19378861df3fc70588e8d2fe4edb9df52|2019-11-07|Alan Kao|Merge branch 'master' into try-catch-tensor
+45415772a593029316115dc084a87a2ffee6c78e|2019-11-07|Salvatore Mandra|Merge pull request #215 from ngnrsaa/remove-qflex-base
+5f0758226c0e61fecf57cd33b2caed7eecc659dc|2019-11-07|Salvatore Mandra|Merge pull request #221 from ngnrsaa/fix-cirq-example
+2b170b2fd74c677a0dfb7e26afc46872779dd4d8|2019-11-06|Salvatore Mandrà|Fix format.
+ebb35ae2ab84cfda54bbda0544752e43b129dbe3|2019-11-06|Salvatore Mandrà|Add relative path.
+90b7c0a2cbd10dd3347e426c8f2ac0230c189573|2019-11-06|Salvatore Mandrà|Better layering for Docker.
+62c4134f51414ca46e15315935befec605e4a80c|2019-11-06|Salvatore Mandrà|Remove unused variables.
+a11953567c7094841413ca72e4e83d9f2b566a4b|2019-11-06|Salvatore Mandrà|Fix format.
+749f0f5f5c24818e0c3c30b3fc5e0f433b4cb81b|2019-11-06|Salvatore Mandrà|Remove unused tempfiles.
+4ac853e488a36527defcb0ef7547dfad520c56ee|2019-11-06|Salvatore Mandrà|Merge branch 'master' into pybind-use-list-of-strings
+432063b1622f1693a702fe0682c7402407859bf3|2019-11-06|Salvatore Mandrà|Update reference to automated Docker container.
+231e87e3c6e49563b19b58267fb16ec5c1d889e0|2019-11-06|Salvatore Mandrà|Fail in 'git submodule update' does not kill process.
+e98a6e9bb8ef034c0551776ac9f00fed4b8a331b|2019-11-06|Salvatore Mandrà|Add 'git update'
+d22ea79eb618957b2a4f824a20eb0d4135d220d2|2019-11-06|Salvatore Mandrà|qflex-tests --> qflex-cxx-tests.
+d923c7f256edd219d4f055a5fb6522ec60fcafb0|2019-11-06|Salvatore Mandrà|Use 'git init' instead of 'git update'.
+21f9f5d32e77c945bee340f2254d8de4f4d635c9|2019-11-06|Salvatore Mandrà|Update Dockerfile.
+c61771781c49babd8604927a3ea774c3bdb05d05|2019-11-06|Salvatore Mandrà|Merge branch 'master' into remove-qflex-base
+18d37825554b18d7f309c8fe2b0d89881068722b|2019-11-06|Salvatore Mandra|Merge pull request #211 from ngnrsaa/clang
+b5022ef7c68acf4b8661fd9bc684b45f7bcf7eb2|2019-11-06|Alan Kao|adding try-catch for calls outside tensor.cpp
+c929147b8c5f0afb8e13edcb417b9a57ecc5423c|2019-11-06|Salvatore Mandrà|Trigger Travis.
+af13e101c6a84a57ec7dcefe55efa2299bed4836|2019-11-06|Salvatore Mandrà|Trigger Travis.
+32e5e7543670c6bc6ca73b4444e5b3d52e327873|2019-11-06|Salvatore Mandrà|Fix.
+e85cc4e6c152a85b3d77b9be222fbca8a696c1d0|2019-11-06|Salvatore Mandrà|Fix comment.
+d7624dc1065ba5d6aff2c85949937fb6f8f85dc2|2019-11-06|Salvatore Mandrà|Update installation info.
+4027d4e13ebbaebe2be504c6da26d757db25167d|2019-11-06|Salvatore Mandrà|Image is cloned from repo rather than copied from local.
+fcecabc913102758bf50613b9bf859cab9b323b1|2019-11-05|Salvatore Mandrà|Clone instead of copy.
+34287134a83db9529b9c751f157fc758385ac017|2019-11-05|Salvatore Mandrà|Install missing packages.
+7d16879231ead36f1c3225fa8a025468d7526595|2019-11-05|Salvatore Mandrà|Update docker-compole.yml
+16b9ee19d6f3d30a465eeb17d2853a9ea9868d6a|2019-11-05|Salvatore Mandrà|Move Dockerfile.
+c789ef56fef732ca3ffdc551df731b550a561181|2019-11-05|Salvatore Mandrà|Add default values to OMP_NUM_THREADS
+6f64606d74d70c350ebfcc61334e27dc8525c2e5|2019-11-05|Salvatore Mandrà|Fix format.
+18d7e9b6dbe6e501d15dcb9db79b0c20e324daa3|2019-11-05|Salvatore Mandrà|Better try/catch.
+a733831e0a13c94cfb6f0efb9a8b0f7319b75371|2019-11-05|Salvatore Mandrà|Few small fixes.
+9baf9c5745dfdec08d256f60afdc2bc78cf8ac64|2019-11-05|Salvatore Mandrà|Few fixes.
+e0ee202308d4df67b243c1d61d223d62d44afc05|2019-11-05|Salvatore Mandrà|Change variable names to clarify intent.
+170112b8086e81923a00f2915f53504b73181f18|2019-11-05|Salvatore Mandrà|Merge master --> pybind-use-list-of-strings
+4bb5289d63d5dc525454fc9045c25e1ced755fc0|2019-11-05|Salvatore Mandrà|Fix.
+3cc56d201a62e81c460051a488d698f3da014944|2019-11-05|Salvatore Mandra|Merge pull request #208 from ngnrsaa/try-catch-tests
+19acc0327c113853d05dd54844805510015ebb45|2019-11-05|Salvatore Mandrà|Remove qflex-base@docker.
+c331400ee38129d4e388e8332348c3f7f5c3e910|2019-11-05|Salvatore Mandrà|Automatized process for Mac OS X.
+2ef7e1d8395fc988fa27856e3f9b5f2e1a7d2c2b|2019-11-05|Salvatore Mandrà|Merge branch 'master' into clang
+d2ccfd99d0fac5775007f51c6b5e83a3761dbc84|2019-11-05|Salvatore Mandra|Merge pull request #213 from ngnrsaa/goto-cirq-0.6
+1edc7551a177709c55f4f45a81f31e366a81ed72|2019-11-05|Alan Kao|Merge branch 'try-catch-tests' of github.com:ngnrsaa/qflex into try-catch-tests
+500ec04d9fb9c190fee8c8f99c3f6badb34908e3|2019-11-05|Alan Kao|formatting
+35b93009c60edc1702e6a744fde8e9f2a0c45714|2019-11-05|alankao64|Update read_circuit.cpp
+b3201e22969235e4b93635f5131c431cf75e5827|2019-11-05|Alan Kao|requested changes
+cbd5884d42a3de12d04e210fbf5f451c75ba6449|2019-11-05|alexandrupaler|format
+fe06c9509bbd7db29b350a7b1aa9faf3db12b5b4|2019-11-05|alexandrupaler|Merge branch 'goto-cirq-0.6' of https://github.com/ngnrsaa/qflex into goto-cirq-0.6
+a25784deae60d746cd5dc8de27bcf4381eaa6822|2019-11-05|alexandrupaler|review
+fc971fba9e4e869ca253ad0da08f25eaae383c4d|2019-11-05|Salvatore Mandrà|Remove comment.
+15f3d8146a98823a13c0fdacfdfc018a1d2d0985|2019-11-05|Salvatore Mandrà|Trigger Travis.
+f404ede63dcbcc8f605f12189534e1f5ac0073df|2019-11-05|Salvatore Mandrà|Merge branch 'master' into clang
+b9d3fbbf04f05fc6f01e1b4a22acb424b581d672|2019-11-05|Salvatore Mandrà|Merge branch 'master' into clang
+81a5ca1ac0347bb6777cac4ca9752a9e6c9842de|2019-11-05|Salvatore Mandrà|Fix.
+e4318138f212c1f936b092e57f943796b67ced27|2019-11-05|alexandrupaler|v0.6 in configure
+763c749f100a7cd08975906606b528fd3deac11a|2019-11-05|alexandrupaler|format
+096478f782c628088139222b16f2ee69ef611eb4|2019-11-05|alexandrupaler|tests passed
+7fc95b04eed83e47053224591fe593331b496118|2019-11-05|alexandrupaler|deleted obsolete files
+5f28bf6d155e4f8ff1e04d4c7a0cc9a89c6a1594|2019-11-05|alexandrupaler|change requirements.txt
+3e4127b564a27da1d42a79b4a7e7d5557b585f6a|2019-11-05|alexandrupaler|Merge pull request #195 from ngnrsaa/fix-python-quality
+b698dfb7e6776ae02ce25faeb707c732a560b098|2019-11-05|alexandrupaler|yapf 0.28 format
+5dae131922b411bf49d0a8a5f164f9842ab4bb2b|2019-11-05|alexandrupaler|formatting
+7a6ffbb21dce3cc9aebeaba44f3e2b89a5588162|2019-11-05|alexandrupaler|go safe without yield
+4efec374383c2a393711bdf26060d979d0c837ba|2019-11-04|Salvatore Mandrà|Fix format.
+f7d2b9399a26c4d4cde914847faf1f3a5732d4b7|2019-11-04|Salvatore Mandrà|Merge branch 'master' into try-catch-tests
+7ca228cac924af07fc17a5819099c0d20878deab|2019-11-04|Salvatore Mandrà|Add IBM Rochester and Rigetti Aspen grids.
+8f0ca961c31f8a29a12bed640e4558a68a93a4ca|2019-11-04|Salvatore Mandrà|Fix catches.
+de5d9b39d8740819e123f90db2ad19d1feaf2a01|2019-11-04|Salvatore Mandrà|Merge branch 'master' into pybind-use-list-of-strings
+435b1c43c4517a226f853dbdcd04eb56d29cd95e|2019-11-04|Salvatore Mandrà|Small fix.
+ece6ad2490c3e8e18cb02d3074619bb5a798f07a|2019-11-04|Salvatore Mandra|Update install.md
+2463fb955839d050302bfed12240e7f33ed9b01a|2019-11-04|Salvatore Mandra|Update install.md
+0ef2e5c79aabbd61bb2bf97868e2693bc3b6d087|2019-11-04|Salvatore Mandra|Update install.md
+badac58306e7b5963977c384412b9ffe1b35f630|2019-11-04|Salvatore Mandra|Update install.md
+9b51f6f2dd2a1aea9b694778a847519eed075a31|2019-11-04|Salvatore Mandra|Update install.md
+c3716de1de115e38d1b4200fcb25d20320585002|2019-11-04|Salvatore Mandrà|Add documentation for Mac OSX installation.
+bee35e960e4edf93e8b29b2ce4c85bd566a4c8d0|2019-11-04|Salvatore Mandrà|Add documentation for Mac OSX installation.
+6aa831bb980a28d79c6d68dfd644bdec987b03e9|2019-11-04|Salvatore Mandra|Merge pull request #209 from ngnrsaa/fix-check_format-script
+fe98736c45082d769b10a7519b789d111c9b242c|2019-11-04|Salvatore Mandrà|Fix format.
+17ff7b0d50e70487dd63f19e0b5867ee3b1cc2b6|2019-11-04|Salvatore Mandrà|Small fixes to run qFlex natively on MacOSX using clang >= 7.
+a8a2c0c7d9e09cb860152e9b8ced96bc1cc27080|2019-11-04|alexandrupaler|requested edits
+ab3ede1b03c18a68d09f4fd3c0d2c8621180739c|2019-11-04|Alan Kao|small fixes
+02fd3760a50644721a4522912250a5d6968e219d|2019-11-04|Alan Kao|tensor_test.cpp
+6fd54c35aab527b95ac29910526c539362192ad7|2019-11-04|Alan Kao|read_circuit_test.cpp changes
+0455132519c3fa4578cc6b95301d300541de9887|2019-11-04|Salvatore Mandrà|Add version from where style was dumped.
+f92d24a30f048240257ed98013403cc383bb033e|2019-11-04|Alan Kao|contraction_utils changes
+035b12a6d34ed9ac70d80e570a29ddf5ae3ff756|2019-11-04|Salvatore Mandrà|Fix format.
+5de91e3527ff4ed84d38333d9b1e61675a5a6d76|2019-11-04|Salvatore Mandrà|Remove tempfiles where possible.
+ae3c55d8e34df05c0b47434f227711c71476d768|2019-11-04|Salvatore Mandrà|Python lib can get options without using temporary files.
+ba60586f87af3f35d0a2eb361d1f02623498199c|2019-11-04|Salvatore Mandrà|Use alpine instead of debian.
+f1219a0fbcb9a8bdd0b91e1c6fda2637963c2e22|2019-11-03|Salvatore Mandrà|Fix format.
+e5cfcbbc0dd4f8f0350787403f59073d74cdacf9|2019-11-03|Salvatore Mandrà|Add local format-style files (for consistency).
+c380acb36b4be0f9700fe5608a9e9ff26cc9b1d9|2019-11-03|Salvatore Mandrà|Add clang-format=8.0.1-3+b1 google style.
+3f94de3f2776559836b019bb108a52ad6ff29e72|2019-11-03|Salvatore Mandrà|Add yapf=0.28.0 google style.
+d560193c729dfa5b230b9c8b08e09aefe740471c|2019-11-03|Salvatore Mandrà|Check if Travis fails.
+c0f1bb2dc7ddd3b742ce07f85d57a05b1ec8b490|2019-11-03|Salvatore Mandrà|Fix distribution.
+f14a8b9c41a1d175d360fd8b450ef23dee100e46|2019-11-03|Salvatore Mandrà|Install dependences.
+0d0c7afe8e6ffc6f53e6720e9c9c041c2becb555|2019-11-03|Salvatore Mandrà|Install dependences.
+e1e67f5d49b47321c3167bc7e98f375521b0b04a|2019-11-03|Salvatore Mandrà|Install dependences.
+2a54f3f252e48508e9a0ef07f38c47eae6e350bf|2019-11-03|Salvatore Mandrà|Install dependences.
+ec2f9ac3930a8125a06bc292f740d73170792ae9|2019-11-03|Salvatore Mandrà|Fix.
+4c2daef784967b4220f4fa5577da0ac8898a8c32|2019-11-02|alexandrupaler|fixed coding and test
+15cb55f2002805744dc8082e0fd23b455abe5f7e|2019-11-01|Alan Kao|evaluate_circuit_test.cpp changes
+df6437f8c225101a78534a3d09a04e19d7df6866|2019-11-01|Salvatore Mandra|Merge pull request #204 from ngnrsaa/assert-removal
+8c3081136642258aa2ac2ae70cec442a2e9afb93|2019-11-01|Salvatore Mandrà|Fix format.
+29bbfac4257d5f977ce22447a9451087318183bd|2019-11-01|Alan Kao|Merge branch 'master' into assert-removal
+b5a2ea0e41a26cb6d261aa04567256bce9a3d8ff|2019-11-01|Salvatore Mandra|Merge pull request #198 from ngnrsaa/improve-dockerfile
+428d3ca9952e1674e06005fa6f51d747365f69de|2019-11-01|Salvatore Mandra|Merge pull request #202 from ngnrsaa/fix-LGTM
+22d9683b26f827153fcbe9acd40ef73e0eef7e9e|2019-10-31|Adam Zalcman|Add mypy cache to .gitignore (#200)
+d657004b297a01e84c1ee518af4efdd6b41aea98|2019-10-31|Alan Kao|evaluate_circuit and read_circuit changes
+eb3c928f1495149eb7c52bd0acfd7dde0b01bf91|2019-10-31|Salvatore Mandrà|Disable Python porting if Python is missing.
+2c96c8e75fc46a1c7298d3f19c4c2428dbb9034a|2019-10-31|Salvatore Mandrà|cirqq --> cirq.
+73398a023c4d0ac2d8db3e1a4e409a0fc434c519|2019-10-31|Adam Zalcman|Make flag names consistent (#201)
+c4fae62641d1b83cd0e141642ef01d154e9826be|2019-10-30|Salvatore Mandrà|Disable Python in case of missing packages instead of error.
+305d9ff37a9aabc107defb44933a41782efdf856|2019-10-30|Salvatore Mandrà|Improve time to create container.
+fcbadcc7099310896704d7f75c78d82de9e68266|2019-10-30|Salvatore Mandrà|Add options to skip all the checks.
+8ce9058c4e8dd30fb4ae5fcdd28fa7da92fadd80|2019-10-30|Salvatore Mandrà|Reduce runtime to create container.
+b95aaa13244e7889bb86e744c0598eb76c9417d0|2019-10-30|Alan Kao|contration_utils and tensor changes
+240326f92dbfd86e5fc9b9edc01e78929ff7e4a7|2019-10-30|Salvatore Mandra|Update CONTRIBUTORS.md
+f265135ace41bc27ec0219d5d98a73a66ad57070|2019-10-28|alexandrupaler|lgtm false positive undone
+9d7053b6044470d323a39645262e55d337aec4c7|2019-10-28|alexandrupaler|first repairs
+704d55ec93b3cf24a4d5b29235f2bb6dc6277599|2019-10-27|Salvatore Mandra|Merge pull request #192 from ngnrsaa/ordering-as-object
+3a170fdec203f7e5878d64c2b661b23709214895|2019-10-26|Salvatore Mandrà|Fix pybind.
+266bad36d24066fa027483c179461f7bf178cffb|2019-10-26|Salvatore Mandrà|Fix format.
+5e5ef1375ddbd5175e7892f58a5cbec3551435d4|2019-10-26|Salvatore Mandrà|Fixed tests.
+7efb6c43662965689e21cf572703326873d7de30|2019-10-26|Salvatore Mandrà|Ordering is now a separate object.
+ee27807fc868f13cdfd1c55b3fa8642140756965|2019-10-26|Salvatore Mandrà|Start creating ordering class.
+5ab70be70e94361375270ced1587f4b073e889af|2019-10-26|Salvatore Mandrà|Merge branch 'master' into ordering-as-object
+30eb2936430aea01ae47b083131a099e66ff5ec2|2019-10-26|Salvatore Mandra|Merge pull request #180 from ngnrsaa/fix-autoconf
+61d2cec8a561d3d5453ecae6bbffb17f9b413a8b|2019-10-26|Salvatore Mandrà|QflexGrid has its own header.
+9965cb8cae2efaf9d722c5871366a14cb566f281|2019-10-25|Salvatore Mandrà|Update.
+3e93d126afd67c325a414ab5302fda01510d95dc|2019-10-25|Salvatore Mandrà|Merge branch 'master' into fix-autoconf
+081424c3b4723d19e0662e7cbb17c058ddb996ae|2019-10-25|Salvatore Mandra|Merge master --> fix-autoconf.
+2405f1e5d9f4996052dc0f982a2012ef008235dd|2019-10-25|Salvatore Mandrà|Fix flag.
+9411f827743bf42f4f562dff5a3868fa968422e1|2019-10-25|Salvatore Mandrà|Fix flag.
+892541938d5d4c0bfe5e7cabf0652b785ab2a4c6|2019-10-25|Salvatore Mandrà|Fix.
+7fbb862dda2d3940c8934e9e07e909b89670d171|2019-10-25|Salvatore Mandrà|Enforce --disable-pybind11
+447530b5902c6dd884f6761647ea9ae14e47e11e|2019-10-25|Salvatore Mandra|Update README.md
+2cec7a6a246e2b80d5369898fe9fb799b150264b|2019-10-25|Salvatore Mandra|Update README.md
+72ee4e05fc804375c2002b436d2c7ed55765c03d|2019-10-25|Salvatore Mandra|Update README.md
+8aa77f8e459dfe866df45cd7d25e008141e21af7|2019-10-25|Salvatore Mandra|Add Travis-CI
+c0ec97be9a783e1d9c4d2288e714d74474db7393|2019-10-25|Salvatore Mandra|Update .travis.yml
+c66a6bb369c5d89c8af84bbceb45faa58feda311|2019-10-25|Salvatore Mandra|Update .travis.yml
+28bd599162dc15d250bc72642c8886059e3984e1|2019-10-25|Salvatore Mandra|Update .travis.yml
+9a0749cba77d800cc7fffddce60bd29f632057c6|2019-10-25|Salvatore Mandra|Merge pull request #188 from ngnrsaa/fix-title
+9a2737d4a9a215c00ce0c6f702d93d6bd4c480de|2019-10-25|benjamin|Fixed title on README to agree with npj article
+dc0edf3df3f392a3104c417f195b41ecfa121a6b|2019-10-25|Salvatore Mandra|Merge pull request #185 from dagart/add-nature-paper
+11fde101f38093bbc86a0160cc3e073be0ac50d6|2019-10-24|Salvatore Mandrà|Update docs.
+01a43be37f417a43fd76c877e1b3dc55d8c257eb|2019-10-24|Salvatore Mandrà|Many improvements in autoconf.
+3617aaf4856f1c0188bfa9c6c4cef1fa3929c8bb|2019-10-24|Salvatore Mandrà|Add Nature reference.
+12acf17fafbc5dc250dadb5766c1fdb837d22134|2019-10-24|95-martin-orion|Merge pull request #182 from ngnrsaa/fix-examples
+9fac490e2b270198e535d16fa0194e1ba481ad0d|2019-10-24|95-martin-orion|Leading / on rootless-container files.
+fe44a18ae942d4c10d9056442f0c6bc71bf103a1|2019-10-24|95-martin-orion|No need to install Cirq in rootless.
+09a71ad252c0c9e7f5a86be6a1f412657eab5452|2019-10-24|Salvatore Mandrà|Merge branch 'master' into fix-autoconf
+b4cbd82b83395950924d27e0a173b4a25712928f|2019-10-24|95-martin-orion|Trim comment.
+f17e41efb037abcfe55807b0af0853920026d4d0|2019-10-24|95-martin-orion|Merge pull request #183 from ngnrsaa/fix-script-rootless-container
+249471567269e17a8322e209ba5cd3c8aedfb2f6|2019-10-24|Salvatore Mandrà|Cirq is installed by default (use -c to disable it).
+f25ad4165184b4df27f0c40351cb4da1be80e84c|2019-10-24|95-martin-orion|Update README with compatibility info.
+3d188c1856a09fadc13a335bd62b65353b920d43|2019-10-24|95-martin-orion|Merge pull request #178 from ngnrsaa/fix-format
+f74fe441a706d730c22b59fd5df83c9aa4c2964e|2019-10-24|95-martin-orion|Update examples to run as-written.
+d90870c2f3ae12c286d86623bab9c13b11aab104|2019-10-24|Salvatore Mandrà|Only check for omp.h if --enable-openmp
+96e49a042656a1f8423966171b3c57f9ad1d5808|2019-10-24|Salvatore Mandrà|Fix.
+68e999f20269d058c07718289528a419a1903ac6|2019-10-24|Salvatore Mandrà|Fix format.
+7dcbf4cbee20548c6d2b014395c6720c5760c727|2019-10-24|95-martin-orion|Merge pull request #176 from ngnrsaa/qflex-cirq-test
+97344c7a0740a4461a61fc67ce74702e5f6d44d1|2019-10-24|95-martin-orion|Merge pull request #175 from ngnrsaa/icpc-docs
+c644aff98dff11ea1895ff48500f773afc77af54|2019-10-24|Salvatore Mandrà|Fix test.
+a2c131b17a9bafeb0d24c93452951349adb1a884|2019-10-24|95-martin-orion|Reset CWD after testing.
+5933ed2cc868766992f3222c1358c1ec660ba00f|2019-10-24|95-martin-orion|Warning about ICPC and python wrapper
+4697ffeabde27791d90a861a1d6ad92667056c9d|2019-10-24|Salvatore Mandrà|Fix path for test.
+0e69273057dbc7063dcacfa2abe8809950b3dc4b|2019-10-24|95-martin-orion|Merge pull request #169 from ngnrsaa/fix-memory-leak
+8505a71d2b59e8d685e23d4762149d2d0069b064|2019-10-24|Salvatore Mandrà|Add -lpthread.
+5139e9a83a9bcd02a9c3676667ae69545a099052|2019-10-24|95-martin-orion|Merge pull request #172 from alexandrupaler/fix-pybind11-dep
+cd13d8da7a89844519d84baedd90a712f0b78825|2019-10-24|95-martin-orion|Merge pull request #170 from ngnrsaa/fix-error-msg-overflow
+036e65bee4948e4409c40064c53c7b33e091966d|2019-10-24|alexandrupaler|edit makefiles
+4f5a03fa3fb486cee537aae7f48fb7fdece99541|2019-10-24|alexandrupaler|removed pybind11 submodule
+7dd3fb3110cfe7f763560d470b0b50e23cd7c82b|2019-10-23|Salvatore Mandrà|Fix overflow of error_msg.
+80e10c26fa2513befab220c6333ab705400c5b91|2019-10-23|Salvatore Mandra|Merge pull request #168 from alexandrupaler/solve_163
+595e1738675e3395655eaff009d98e11bee89f7b|2019-10-23|Salvatore Mandrà|OpenMP is now an experimental feature.
+60fe5b7d31654f5120797d2e8a8b2104e3d59d44|2019-10-24|alexandrupaler|solves #163
+b64b8a9bcfd109890245fc8593ae36393feb8678|2019-10-23|95-martin-orion|Merge pull request #154 from alexandrupaler/add_gate_types
+f7db670aa9a209e58c67404682da3f00c91b4876|2019-10-24|alexandrupaler|fsim tests changed and passing
+84d5a738f85e2d8bf8a80d1505db4c2474ec6f21|2019-10-23|alexandrupaler|24 -> 16 for bristlecone 70
+d39c4ccadfe97e13705cfa1f3150dcaeffe1bfee|2019-10-23|alexandrupaler|str missing
+deae386c2a0a11407d94d103fb5bb5433ebbef25|2019-10-23|alexandrupaler|Merge remote-tracking branch 'upstream/master' into add_gate_types
+a61d21691966028e8e170e711e4dd88f0718d4b9|2019-10-23|95-martin-orion|Merge pull request #161 from ngnrsaa/fix_scratch_space
+af96035ecdfbd0541ebfbceb83cb34f5bcff2752|2019-10-23|alexandrupaler|small example works
+f115af9531a2ec92280f783a18b122ed7e75b309|2019-10-23|alexandrupaler|fixed rz
+2cf37208394a45242b129d6c115e0f88d9c8ba34|2019-10-23|alexandrupaler|does not pass tests
+cca5cbc899129cf4a4765d3bfa73a75230d6864c|2019-10-23|Salvatore Mandra|Merge pull request #160 from ngnrsaa/update-rqc-generator-documentation
+d9a4cd700469224e153787c8cb0b1a90f8c75582|2019-10-23|Salvatore Mandrà|Merge branch 'master' into fix_scratch_space
+7528017cd039d0420d876c3cbc1b1c55857993db|2019-10-23|Salvatore Mandra|Merge pull request #159 from ngnrsaa/update-input-formats
+37c0e5cc01d73a9ec2bc5236a831508a630d72de|2019-10-23|benjamin|Added const and references where neede to the arguments of flatten_...
+96b588b8927277e38776a0d654dfcc96c985e1c4|2019-10-23|alexandrupaler|add pybin11 req
+28237658acbcbca402ebf5643c4007590105a38f|2019-10-23|Salvatore Mandrà|Fix Dockerfile(s).
+999cf31907dca6e14240cac0af01369522dd6060|2019-10-23|benjamin|Now depth takes into account fsim as a rank 4 gate.
+4917a75134dd25f8ae522fc8803842e191addfe6|2019-10-23|Salvatore Mandrà|Add --disable-python_checks
+d363fcfac695ad043d1cec78acf4d15f7abc2b68|2019-10-23|alexandrupaler|Merge remote-tracking branch 'upstream/master' into add_gate_types
+8860e74eeef746161619fe575d36ba20cec28e50|2019-10-23|Salvatore Mandra|Merge pull request #140 from ngnrsaa/heuristic-high-rank
+1eb50725e88e823a6183d6e2c27c1d0c627613d8|2019-10-23|alexandrupaler|cosmetics
+c62bde3b5917dec67743010169362357fd9b4819|2019-10-23|Salvatore Mandrà|Merge branch 'master' into heuristic-high-rank
+9c5215f995ced00cefbf6a81a02de609954aebd9|2019-10-23|benjaminvillalonga|Merge pull request #155 from ngnrsaa/read-parametrized-gates
+07d0996beba743a37aa54fa13e370c4ffe67d66c|2019-10-23|Salvatore Mandrà|Remove non-native fSim.
+1eb09e710dca8826245db4801a3d1bea245f2356|2019-10-23|alankao64|Update generator.py
+80c3753af4b8ab3e79090aca5460f2401d3c24c9|2019-10-23|Salvatore Mandrà|Merge branch 'master' into heuristic-high-rank
+41b74fb3a3411c62d1aebd3e363788f48baecbff|2019-10-23|Salvatore Mandrà|Add test for fSim.
+8fa17274469fd986b428da93c0ac4b1064bf0479|2019-10-23|alankao64|Update rqc_generator.md
+54ff71d45e687c3ac0050d1a3ab712a37524053b|2019-10-23|Salvatore Mandrà|Unused.
+d331c69d27ab9e0b88ad7d9dfb8ac9a65b44b15f|2019-10-23|alexandrupaler|update doc and parameterized test
+a39b8adffe074c5e16022a34a6973f93d9464355|2019-10-23|Salvatore Mandrà|Merge branch 'read-parametrized-gates' of github.com:ngnrsaa/qflex into read-parametrized-gates
+eb3ce2c0ad3a439ef779dc7ee3dab0c1734a8a50|2019-10-23|Salvatore Mandrà|Add fSim test.
+e8902d21e0eeea84790a1f06d771403e83431192|2019-10-23|Salvatore Mandrà|Add fSim.
+903e2e9ff5283abe991467d9ab284f3e3caf0195|2019-10-23|alexandrupaler|tested parameterized fsim and rz
+eeffef690768d68748a74123b33058edb88cb511|2019-10-23|alexandrupaler|fixed device supported gate set
+01bf6a256fb56677422d350b1a519c0c88655bb0|2019-10-23|benjamin|Add fixes to headers
+f231ef26eb4075bcad99f1be74ce58c93fc629a6|2019-10-23|benjamin|Undo fix headers
+802f97eb9ce423281536b805536f3df5b6fdf486|2019-10-23|alankao64|Update input_formats.md
+7e5b263359eca5ccfbb347630afb69693f9c8f2a|2019-10-23|benjamin|Fixed headers with info about files
+d3f2fd3957405280426d06297c99a8c86fec18bc|2019-10-23|Salvatore Mandrà|Merge branch 'master' into read-parametrized-gates
+d4637ed2efe6d140dbf3d98347262ae7362542b5|2019-10-23|alexandrupaler|typo in doc
+32d7a0cdfcad3abbc1f93ba4a2c87145aa2c36a6|2019-10-23|alexandrupaler|added untested sycamore example
+08e51a3e2fb2b7a12369996c4aa91b6e95ac897b|2019-10-23|benjamin|fSim and rz gates working, as well as sycamore contraction
+48734951ee5990f2fd6cb43f663aa4b301602870|2019-10-23|Salvatore Mandrà|Some fixes.
+e15dfc9f0bd35637fff31c06c0678fb4f6796826|2019-10-23|alexandrupaler|Merge branch 'master' into add_gate_types
+e9b5ffa23e044e02b43f94f53ae49306ad430dea|2019-10-23|Salvatore Mandrà|Fix scripts to check python modules.
+6ec3c3bd4dcf402e00992d5cc7cc8d5f2bf4f8a1|2019-10-23|alexandrupaler|rearranged sim test
+d403437233c0c714c9aeb7d949867042fbef8851|2019-10-23|Salvatore Mandra|Merge pull request #158 from ngnrsaa/reduce-version
+0c575cc1ce54ce5d2d09966870a0615d1376ac00|2019-10-23|Salvatore Mandrà|Reduce version.
+b4c1ac916fc44d0038f689adc6c7d198e8dc1b7e|2019-10-23|95-martin-orion|Merge pull request #151 from ngnrsaa/improve-circuit-reading
+0e4b7e14977c700fc7b9bdf5dc58fb752d3cb8fb|2019-10-23|95-martin-orion|Version number 1.0 -> 0.1
+7bd9644acb80a1b4291f7da30252e5bffc17c835|2019-10-23|Salvatore Mandra|Merge master --> improve-circuit-reading
+316a77272b96a5cb1d91aabcec08dac9f03b4b95|2019-10-23|Salvatore Mandra|Merge pull request #144 from alexandrupaler/py_req
+febd9df821d31734e55fc3d8efd8f1375661a9d7|2019-10-23|Salvatore Mandra|Merge pull request #156 from ngnrsaa/fix-contribution
+7b96b26f58a81256346339b8a800ab6be68d6ee3|2019-10-23|Salvatore Mandra|Merge pull request #69 from ngnrsaa/documentation_fixes
+d19326fcc82659aa9863ffecb8a390c199199f47|2019-10-23|Salvatore Mandrà|Remove duplicate line.
+8901198012d3f7ccff0dd2bc66c80c27f9b43711|2019-10-23|Salvatore Mandrà|Removed output_formats.md
+aa93963db278ab42560d7b492efdbb502d521045|2019-10-23|Salvatore Mandrà|fix.
+53a92ce882f8814810b1ce29c02ae56b5deec839|2019-10-23|Salvatore Mandra|Merge branch 'master' into documentation_fixes
+8bf593cd08dd2cb1d0a7b8386b125c78d6c99366|2019-10-23|Salvatore Mandrà|Fix typo.
+e469c4b4d84f9015f0977a2bb4058b0a514a09f4|2019-10-23|Salvatore Mandrà|Merge branch 'master' into documentation_fixes
+93ff860edf9d77e39a750e8fb6aa8c9aeeae9346|2019-10-23|Salvatore Mandrà|Update headhers.
+351c1efabb2cb452a19cb7264354a6e21ad22d4a|2019-10-23|Salvatore Mandrà|Correct typo.
+005aa80a47dc242515c6f2e7ab22b0bc9cbd9d75|2019-10-23|Salvatore Mandra|Merge pull request #153 from ngnrsaa/doc-clean
+6e5bc4de2f8392a8321427308e714c2201999e50|2019-10-23|Salvatore Mandrà|Add new options.
+e42594352c5e31ab84cb0291a3c76985e74c0769|2019-10-23|Salvatore Mandrà|Add test for sparse circuit with no Hadamards.
+8cbaa948c2d603b8b41f714185ad7066df020714|2019-10-23|Salvatore Mandrà|Fix.
+6dca1bf9f41d2663ee6c09af8f4e03f4006e6d7f|2019-10-23|Salvatore Mandrà|Add test.
+6a9ed5781359e43374c2995b5e6e8a74e1b1419d|2019-10-23|benjamin|Fixed fSim() function. Note tested.
+ff517b32bffafc5b379becf80452fab3cf83a916|2019-10-23|benjamin|Added sycamore_53 ordering file. Not tested. Following papers contraction.
+e12689aca372ab4b2d317c84f6fba4a27ef490d3|2019-10-23|Salvatore Mandrà|Fix test.
+0ff77c6ad6ef0851a9dc3208916e943ecec31a26|2019-10-23|benjamin|Added sycamore grid and sycamore circuits
+97b96bacc44829e116e776a7c4a004950464ce1b|2019-10-23|Salvatore Mandrà|Remove unused variable.
+51560f7ba368df818682ac7ca5d603e517af3df7|2019-10-23|Salvatore Mandrà|Revovered test.
+b83bdb30261a8cb29d4e1235648fad5c6a7063b6|2019-10-23|Salvatore Mandrà|Improve description.
+3fabc52fa0e3753e83fb1e1b68e606185bdd419f|2019-10-23|Salvatore Mandrà|Different errors return different error numbers.
+d5c1c85a07c0ff9335a30c52ddd831976879f78e|2019-10-23|Salvatore Mandrà|Merge branch 'master' into improve-circuit-reading
+ffe6c7106dc6b5639f02fd2e52c7c2883f1bafd2|2019-10-23|alexandrupaler|repaired tests
+bb8315daf944bceb6aa65114fde3deffbc92114b|2019-10-23|Salvatore Mandra|Merge pull request #146 from ngnrsaa/contributors
+e11a9e24e342f535a033315caf1d13aaa8155b15|2019-10-23|alexandrupaler|fix
+96b569857c272b08c3c0da19ba7e9621e7e0bd76|2019-10-23|alexandrupaler|edited fsim test to include rz and hz_1_2
+928c76abbcb76fcf08ed16b4b17ca5c6e452792e|2019-10-23|alexandrupaler|fsim simulation test with pybind, qflexsimulator and cirq simulator -- passed
+dc2bf615fa9397eda69a0986dc939596bbf51dd8|2019-10-23|alexandrupaler|fsim works with automatic ordering
+d1fec01e2ce0e32a24453dfef3ea50c7b0922552|2019-10-23|alexandrupaler|passes tests
+13b5d17606fad98ae98320a1e7c5c35bf3556968|2019-10-23|95-martin-orion|Merge changes from PR #148.
+9e6335586268acdaf6acc3c7685cf2f7c9f4d890|2019-10-23|alexandrupaler|Merge remote-tracking branch 'upstream/master' into add_gate_types
+33da446ec29d1b3fe5009a0dd660bc44dc11f36b|2019-10-23|95-martin-orion|Merge pull request #148 from alexandrupaler/cirq_doc_examples
+9b889c75baa5630f55228e361332fc6e0fec7be3|2019-10-23|alexandrupaler|tests do not pass
+84d82c99f4f48419f64911abead1ea2592550187|2019-10-23|alexandrupaler|edits
+8a8d829c661ba2f7be24c1cc7549f3376aa63dc0|2019-10-23|alexandrupaler|Merge remote-tracking branch 'upstream/master' into cirq_doc_examples
+596988bc1f69a5c3f9f4357f20374fc0a67598a5|2019-10-23|alexandrupaler|minor fix
+531fe4735e5a22ca5094d745571099ec3a811213|2019-10-23|alexandrupaler|removed obsolete test file
+87af0cb213726a8ba6383ccb25d71cd1fbfac25f|2019-10-23|alexandrupaler|Merge branch 'master' into py_req
+b909dea0c79acc73793e3ca350b572cfd5f556f3|2019-10-23|alexandrupaler|inserted ref to Cirq in readme
+6281565ce704df4053d4bc789d3a0cef31bc2325|2019-10-23|alexandrupaler|expanded doc
+595e09ec41da67c5280ec618d33dc12463e16734|2019-10-22|Salvatore Mandrà|Fix map.
+3e7789e7f055060dea80fe1f65c54dc3b337b4b4|2019-10-22|Salvatore Mandrà|Fix.
+9cc186ff2c181641e86f80f190e2dfbd8a5e87fe|2019-10-22|Salvatore Mandrà|Cleared one test.
+4a058f6b4336ca864a6864376dca0618b046f8c0|2019-10-22|Salvatore Mandrà|Remove grid_of_tensors_3D_to_2D
+9bdeef826018cd16e1d6b25a489b1b68eb660ef1|2019-10-22|Salvatore Mandrà|Fix tests.
+baabe868d4f5d9cf4f2c778043238a92ea85ee96|2019-10-22|Salvatore Mandrà|Fix test.
+78bc85b355f46c16d245b452f874b9163709974c|2019-10-22|Salvatore Mandrà|Fix tests.
+303729b4c53dd5bca2c3f74cda28cd2931752a3f|2019-10-22|95-martin-orion|Polishing doc files.
+f074678f2e83dc14984ffc9b6dccac5093f59399|2019-10-22|Salvatore Mandrà|Fix.
+b01296446525a37c0f099cece03d63ee8b2276f9|2019-10-22|Salvatore Mandrà|Improve circuit reading.
+41bb6d54c294a0a6c1acd23d70d671c76a212529|2019-10-22|Salvatore Mandrà|Add try ... catch.
+7270f275b5c74a5a5270d8f003d86971c577bd2a|2019-10-22|Salvatore Mandrà|Add error handler.
+8dab7abe55a2f80a540ddce6b5973e78459f8224|2019-10-22|Salvatore Mandrà|Embedding qflex::QflexCircuit where needed.
+bd7f26470e24893e1b912b63f225224f69bcb378|2019-10-22|Salvatore Mandrà|Add circuit class.
+dc40a074f4f003b2eef2f043b285443da14b20b8|2019-10-22|Salvatore Mandrà|Remove depth, just use auto-depth.
+693352f871d4549c7b1b9a8fccd887707f297685|2019-10-22|95-martin-orion|Merge pull request #115 from ngnrsaa/inhomogeneous_circuits
+ca21cdb083f0044e328fb33803433c1e9d6ba827|2019-10-22|benjamin|Final cleanup
+a3e193cf0a946db0cfab4fd761b04f6430146835|2019-10-22|Salvatore Mandrà|Merge branch 'master' into documentation_fixes
+863548bc42d174da9b6faae7a7bcea02ea6c68ac|2019-10-22|benjamin|Added check for gates being defined only on nearest neighbors, plus implemented suggestions from review.
+3f13f977e85ff422d0cbb7541b38f2a4c8aabc7d|2019-10-22|benjamin|Added comment on scratch space allocated for reading from file
+a7e0302176cb92dd9051e8973c3dee23e792a4e9|2019-10-22|benjamin|Fully adapted to new behavior in definition of qubits off, grid size and final qubit region. Added new circuits to test, as well as changed bristlecone_70 contraction behavior in order to give perfect fidelity amplitudes
+48f638a02e5cb28c3f3a9239abe6ceb6d13ed017|2019-10-22|95-martin-orion|Use iSWAP instead of SWAP.
+75d50e1eb7312d6697f9b75a166c4c3a0b7e535b|2019-10-22|Salvatore Mandrà|Ignore configuration
+98d46fab757f39e3bdd9492cd210acb1a0444708|2019-10-22|benjamin|Made changes to follow new behavior about qubits grid_size, qubits off and final_region
+51404efcffdddd8204bb82f187066f3d4007d953|2019-10-22|Salvatore Mandrà|Fix.
+afe4bfd74409fa40ceacf931baf5552949222e5b|2019-10-22|benjamin|Resolved conflicts
+9b185b8dc762c12bfae2f0111e91f55150901f02|2019-10-23|alexandrupaler|Merge remote-tracking branch 'upstream/master' into cirq_doc_examples
+4caed29ef958efa4633651cc8ce2c1cf0a27bd6a|2019-10-22|95-martin-orion|Merge pull request #127 from alexandrupaler/cirq_if_tests
+1907c57aae659448f51fbe3346a3dcc1e2c31770|2019-10-23|alexandrupaler|edit test
+19708be61934efeaa36263760a6d860fe12d57a6|2019-10-23|alexandrupaler|minor edits
+72bdc07e5a4e797e915a01e0b6089814a0556704|2019-10-23|alexandrupaler|solved conflict
+efb131fa4f0a6e28b29efb3bc20ecd46d9dd8897|2019-10-23|alexandrupaler|minor edits
+f32dda831b75a266f4f10c6c02467575205ac251|2019-10-23|alexandrupaler|Merge branch 'cirq_if_tests' of https://github.com/alexandrupaler/qflex into cirq_if_tests
+50c45d08dc9c34c29ad38cac6dd9f82778e88203|2019-10-23|asdflj|Merge branch 'master' into cirq_if_tests
+eb57d318da7e5a7aa79f6650d5f5aff9caeee73e|2019-10-22|benjamin|Removed unnecessary comment
+f4db35233117b29298b40f8f3111d744aab2285d|2019-10-22|benjamin|Added TODO for a maximum depth specification when reading circuit.
+2c55a324e09cfb835bc51fecd4204e2548ec66e5|2019-10-22|95-martin-orion|Merge pull request #112 from alexandrupaler/cirq_if
+30bdd734465c3060a72a812051919820937c187b|2019-10-23|alexandrupaler|Merge branch 'master' into cirq_if_tests
+643267b02c4ac3a939b52468454f91d8263dabd4|2019-10-23|alexandrupaler|Merge branch 'master' into cirq_if
+983401ed996c3e3160f14ed204c53e7c9fd9326d|2019-10-23|alexandrupaler|add gitignore line
+90abcaa18df6f161f43921a01d341808110e7b05|2019-10-22|Salvatore Mandrà|Add CONTRIBUTORS.md
+8d0d342191810b06d29d4fa56c0d66d914633ded|2019-10-23|alexandrupaler|Merge branch 'cirq_if_tests' of https://github.com/alexandrupaler/qflex into cirq_if_tests
+9146e0cbcaa403957ce13cc27ce02197adbb4c61|2019-10-22|alexandrupaler|very minor fix to utils
+19c75d5072cc336cc48cbb17df8416c8ad64b5be|2019-10-22|alexandrupaler|test circuit decomposition
+6a9e35a94c3f75476739079c7ef6b40279bd7336|2019-10-22|alexandrupaler|symol resolver test
+1ad3f79d7264c3ad7a77a406397b9a39ad02ad49|2019-10-22|alexandrupaler|test cirq -> qflex
+96edfcb62c5b1f0ec364e007a50c52a33e235750|2019-10-22|alexandrupaler|updated qflexgrid test
+864ee9eb26405b5b9a4ad582aa667dbf5a78f04d|2019-10-22|alexandrupaler|tests for qflex order
+e8a2d9e095dd8adeb276423709a95abad77c3ca2|2019-10-21|alexandrupaler|first round of tests checks the grid and reading the number of qubits from a cirq circuit
+87d0df3c5b764531c3adebac752e70ea149e0052|2019-10-23|alexandrupaler|62 -> 70
+a8beec1fd5d80e0cba3a7e231f6a6d761ea947ce|2019-10-22|alexandrupaler|pythonpath
+b9f7e44f8c8a4c87740ef9514bce8cace3f6059c|2019-10-22|benjamin|Added ore TODOs to added functions.
+64926167f3fff71938cd29e81dfeada1c363dca0|2019-10-22|Salvatore Mandrà|Merge branch 'alexandrupaler-remove-configure-file'
+ac4f1f1624d0227b851a8ab7d2efce9df7194b66|2019-10-22|Salvatore Mandra|Remove configure.
+8a0e95f97b8fbc3d0a6292907a8dc570a7142574|2019-10-22|alexandrupaler|very minor fix to utils
+065b02a22391ac81ada1b5960aae22ddc87714b5|2019-10-22|alexandrupaler|improved example
+c652fd58bd2cab44f72716b21be6b8756e35d9f5|2019-10-22|benjamin|Added bristlecone_48 with depths 16 and 20 for testing purposes. Documented new functions in read_circuit and tensor
+1f829d982632354b13907a09b0266acb04a5ebae|2019-10-22|alexandrupaler|add from_existing_file
+ba6d9c1dcde04419ee7b8c027f502bdf29775ec9|2019-10-22|alexandrupaler|how did ordering_data get lost? fixed it
+6be4042a95925ea7ec58eeae7fac2d7d4cfa1112|2019-10-22|alexandrupaler|fixed circuit
+d8f8fefa00096ffb0858ee685a984144fb2b4a99|2019-10-22|alexandrupaler|test circuit decomposition
+3eadba3cb9175d12573ed2c877a89715d02e7a4b|2019-10-22|alexandrupaler|symol resolver test
+44b2ed8990ee4dc1af3aa8f3028035d8fce53c1f|2019-10-22|benjamin|Added flattening function to tensor network. Need to add documentation and test
+a37abda784dc3ec59fefc818910fff7c5416b1f5|2019-10-22|alexandrupaler|test cirq -> qflex
+87c0e623ff77ba31cf941bc02a8c86835971374b|2019-10-22|alexandrupaler|updated order and grid
+dfef745185346e7bdd0e9be7bc4bda5b74adc230|2019-10-22|alexandrupaler|updated qflexgrid test
+6472996044f8c16b798f25ac4a62feec8c576b54|2019-10-22|alexandrupaler|tests for qflex order
+65d314ca6af666e741fe54b3a443019d85c3b3aa|2019-10-22|95-martin-orion|Merge pull request #139 from ngnrsaa/cut-unrestricted
+cd706f52d37bf2004a7aff163b4f93884c87fa71|2019-10-22|Salvatore Mandra|Merge pull request #135 from ngnrsaa/fix-check-format-script
+4ba55787d9dda55bfd4ad67563166fe6cfc4df74|2019-10-22|Salvatore Mandrà|Merge branch 'master' into fix-check-format-script
+e3217ed93262a3a10fcd5b14967d18afa925ffe3|2019-10-22|alexandrupaler|python package requirements
+3de6cdc72b2aef60632969d3c4729e679a69a716|2019-10-22|alexandrupaler|Merge branch 'cirq_if_tests' of https://github.com/alexandrupaler/qflex into cirq_if_tests
+0a91a47af15fe82911276ca92e47a936842179ec|2019-10-22|Salvatore Mandra|Merge pull request #129 from ngnrsaa/fix-autoconf
+c865d394c6fface15f1a6f4d0da06013d8b443c7|2019-10-21|alexandrupaler|first round of tests checks the grid and reading the number of qubits from a cirq circuit
+995029e2a88bd3456e5283578d76372505298ded|2019-10-22|alexandrupaler|improved cirq example
+0714408116c3c7bfa8ff7cac75f196f37dfed768|2019-10-22|alexandrupaler|fix too many new lines when writing file
+caf666fea92ad15930114d1e2b755f31223b3fe5|2019-10-22|alexandrupaler|fix 1:1 correspondence between cycles and moments
+1f52e32180d141d8b06786ad6d9311d8b3c09918|2019-10-22|alexandrupaler|fix adding last moment
+89840e2f4d33b2697f2474b6a0e6131e4d276d9d|2019-10-22|alexandrupaler|repair cnotpowgate
+779f6c14ade55f4c54df5215743d60a1e106cfd7|2019-10-22|alexandrupaler|qflex_circuit supports CX and setting if gates should be decomposed or not
+6806ad1fc117d6572645ed2ae5b6c05bd641edde|2019-10-21|95-martin-orion|Update comments in test to use SWAPs.
+fed4146c0bc4ce01e3dc3e3f34599f155635a1ae|2019-10-21|95-martin-orion|Allow higher-ranked 2-qubit gates in heuristic ordering.
+5211588981ef871d6ae1461df8aff9b32e64b304|2019-10-21|95-martin-orion|Remove 'x on cuts' restriction.
+f37a04aaf428d591e98e2b76e6e2722341c92731|2019-10-22|alexandrupaler|updated doc
+8918ed95ecaa635f8cbdba630852c25d107ac367|2019-10-22|alexandrupaler|example of qflex interface
+cc52e7a487e8df6568cd83030bf05e4895f577b1|2019-10-22|alexandrupaler|replicating issue #137
+3b76b5ee8e25f1c9a44685ef28ab9243435d8783|2019-10-21|Salvatore Mandrà|Add EXCLUDED_FOLDERS.
+f5675548fec7ae071e868ac664da0d1baf2ab6fb|2019-10-22|alexandrupaler|compiles and runs
+c77aec66141a60d44245cf3843ce15b543033d65|2019-10-21|alexandrupaler|corrected closing of file handle
+6748852dd855817f11eede211e0593842d86205f|2019-10-21|alexandrupaler|qflex circuit class
+4e5e39214d6feeb2419e3998814315dcee58d23e|2019-10-21|alexandrupaler|grid constructs and destructs files
+95e5f94044483c4f44650428ff1e02af6bbdf79d|2019-10-21|Salvatore Mandrà|Check if at least python module exists (version is only checked if possible).
+da7660384618f9fb2a7528184aabe0819a3d996f|2019-10-21|Salvatore Mandrà|Some fixes.
+91e953bf60b8e5c77f7c2b92b39c50939cb6137b|2019-10-21|alexandrupaler|first round of tests checks the grid and reading the number of qubits from a cirq circuit
+fc2c81a58f41691ef86a6090d315ae98a26c0465|2019-10-21|alexandrupaler|removed configure because it is autogenerated
+7296b8f11cac11bfe94b38d407d43bd7b5eb5f4d|2019-10-21|alexandrupaler|qflex device
+7b8b49ed561b95d60f81b479339a44b3c9f96f41|2019-10-21|alexandrupaler|Merge remote-tracking branch 'upstream/master' into cirq_if
+c7038b0e06d2f9312a3b5db41dcd9a244f276220|2019-10-20|Salvatore Mandra|Merge pull request #121 from ngnrsaa/move-tests
+fe6e4396e1b5713d04cb996c3e36161a7f696b75|2019-10-20|Salvatore Mandrà|Fix.
+fd9bce7f8d74de5e2d8222ef5d4e539f3039cffe|2019-10-20|Salvatore Mandrà|Merge branch 'master' into move-tests
+7bb0601a11d0374da23cf6de175bdb48df5b203f|2019-10-20|Salvatore Mandrà|Add test for auto-ordering.
+762a5f01b156062a7931774e5a3d2dbbcca5ef9e|2019-10-20|Salvatore Mandrà|Improved.
+cd1d6f68cbe35339f0bdc5b42bfed4996d743425|2019-10-20|95-martin-orion|Merge pull request #66 from ngnrsaa/order_heuristic
+61d72fbf0a94795b7d69795934e65f8bd024e9dd|2019-10-20|Salvatore Mandrà|Merge branch 'order_heuristic' into move-tests
+c950adb45278a97acfa935c456e236495fb0dedd|2019-10-20|Salvatore Mandrà|Fix ordering.
+64d8a7ade6dfea0961d26025850d9f8f54e8f5f2|2019-10-20|Salvatore Mandrà|Fix.
+ea13bfd375dd85b6c929aa3647374abf809bb3de|2019-10-20|Salvatore Mandrà|Merge branch 'master' into order_heuristic
+a4fb342e96f4ded9b5ce90987add5cf785eb5385|2019-10-20|Salvatore Mandrà|Fix.
+a4454de9df6f709875c167cddb67d560592f0cf4|2019-10-20|Salvatore Mandrà|Improve script.
+508daaf2fed07c4fb858484290f75d387407af02|2019-10-20|Salvatore Mandrà|Add python/utils.py
+8149d02ac88dcd7e1b605bcf844659d837afbf33|2019-10-20|Salvatore Mandrà|Fix indexing.
+66d79df6bdfe8fc6af9287272ef24d980313b6ef|2019-10-20|Salvatore Mandrà|Move from OMP_NUM_THREADS to -j option. Overall improvement.
+b9a163a44e0d16ef44365850a70acce69d55c9e1|2019-10-20|Salvatore Mandrà|Improve autoconf.
+d27b8c0a01e4188a80b7838ddd68ed9099cf217b|2019-10-20|Salvatore Mandrà|Improve checks.
+a586b95829de7c8576144062d51b49a223c3248c|2019-10-20|Salvatore Mandrà|Fix library dependance.
+2f6e981e9ea1298766d3bf3cf5d82355bbb7aeb5|2019-10-20|Salvatore Mandrà|Fix.
+ca77e84385b16fdd9b1509f48a51977b72ad137c|2019-10-20|Salvatore Mandrà|Fix.
+187da47f76412e3e6b77c2e25f2c0e9afc671bb0|2019-10-20|Salvatore Mandrà|Remove CXX check (just rely on CXXFLAGS)
+2fb737c04910e069708dffd2c3372386e884b3f4|2019-10-20|95-martin-orion|Merge pull request #118 from ngnrsaa/dir-docs
+ab7a264691d58bcc31a72dd02b4bcfb1a12c41f7|2019-10-20|alexandrupaler|updated to latest master
+f4b9bbf2c17e133195788c4c94323893af566abf|2019-10-20|alexandrupaler|simulator implementation
+f9d2269622c497f1ba030d4e34f79d8bdf19faca|2019-10-19|Salvatore Mandrà|Move all python tests --> tests/python/
+225a3647b7c1c6ec7134b9d7aa523480743225db|2019-10-19|Salvatore Mandrà|Fix format.
+c678c8f852fca03adb5beba1a23512704d175c06|2019-10-19|Salvatore Mandrà|Move python/ --> python/ordering/
+dd5a3b02df36a32e96a197ed5623a39293e1f03b|2019-10-19|Salvatore Mandrà|Add docopt.
+ad93676be82ed1b587d2d33fee1020d77bf9450b|2019-10-19|Salvatore Mandrà|Fix print ordering.
+4bb127299fb68ca0c1be8d2bc17e1c6b9d425fb0|2019-10-19|Salvatore Mandrà|Merge branch 'master' into order_heuristic
+9d363a30d1ba925ca2e7b899f2f41c1a03b68aeb|2019-10-19|Salvatore Mandra|Merge pull request #120 from ngnrsaa/fix-pybind
+1d2445c0b621f26541e50f1cbf42ffe1662fa6d5|2019-10-19|Salvatore Mandrà|cirq >= 0.5 suffices.
+5775deb3ed31892d4a6de5484ea0f0b400a446bb|2019-10-19|Salvatore Mandrà|Add possibility to call order_heuristic from terminal.
+e1bc2b8430affe45631838daab262d9de81d1e61|2019-10-19|95-martin-orion|Python wrapper from python/cirq_interface/ --> python/
+a836bd647694b4021993510ebac929f3ce8b2772|2019-10-19|Salvatore Mandrà|Merge branch 'master' into order_heuristic
+b1c76f91e6a312f45dc28d54dcdbdcf3ee123643|2019-10-19|Salvatore Mandrà|Fix example.
+1e4d158745425b7c11fe5651cb1ba10a17606d29|2019-10-19|Salvatore Mandrà|Fix containers scripts.
+e54364c9843a8b7b82d2b076fc3415d5e8d93a2a|2019-10-19|Salvatore Mandrà|Fix dependence on cirq.
+e162171e6c28ed0ee0174e18dd1f593d3b8cb478|2019-10-19|Salvatore Mandrà|pytest >= 4.5 is enough.
+207a22a85772d49b13fc41ef4121cb355586867f|2019-10-19|Salvatore Mandrà|Add simple test based on cirq. Improved autoconf.
+e69462a44962ed7a17a2d1c95b9ca97a321e6266|2019-10-19|Salvatore Mandrà|Add simple test based on cirq.
+6f368e1bd72a22b9d9594c8d7f6385f26cd0babd|2019-10-19|Salvatore Mandrà|cirq >= 0.5 is enough.
+de24995687171b8dc04c0c859bcd6e6aa5a8f2be|2019-10-19|Salvatore Mandrà|Fix bug.
+1298b9c762c3e8632186723c4ae869cbfeff5e11|2019-10-19|Salvatore Mandrà|Update example.
+a81964a2b93c38e56871fcc8b07bead27419fdfd|2019-10-19|Salvatore Mandrà|Update example.
+23f197359c502e69b88d80419aca8be0a9bad52b|2019-10-19|Salvatore Mandrà|Improve organization.
+f2c9ac5d039b9709635a7e2aa4de6d9f3b4d2db3|2019-10-19|Salvatore Mandrà|Add example.
+cf6bcbbe31f8b28d6f8d38ed9276fcdb9cc8314b|2019-10-19|Salvatore Mandrà|Improved pybind interface.
+eb796c36eb853d5b243a4625e71790fcecab2af9|2019-10-19|95-martin-orion|Merge pull request #119 from ngnrsaa/cut-docs
+f692d9f111ece6f93655da3f895f9290b62cea78|2019-10-19|95-martin-orion|Update re: utils --> read_circuit
+9336e361d68f79735a0a9bc2c9385f544151bf91|2019-10-19|Salvatore Mandrà|Fix pybind.
+a3d26f597bfb1a2c6cec868fc5a70e57fef2b348|2019-10-19|95-martin-orion|Document patch-reuse-after-cut restriction.
+f264b59b3c6aaf6b140bc1005f418a335d21e856|2019-10-19|Salvatore Mandra|Merge pull request #114 from ngnrsaa/improve-autoconf
+f40ba8ca36534ca7c815568ed323856de74ee219|2019-10-19|Salvatore Mandrà|Fix g++ versioning.
+18528212fdafad739cbb97b094643308c4977d02|2019-10-19|Salvatore Mandrà|Merge branch 'master' into improve-autoconf
+d0ee8a8ac139ac7cb6ce7b2f714003eb1ce35e6b|2019-10-19|Salvatore Mandrà|Move utils.{h, cpp} --> read_circuit.{h, cpp}.
+ecae77cb9bfe98b72c9357f5143e1216fe954a73|2019-10-19|95-martin-orion|Fix link
+00de3440cfd798fc88f171ca0020341325044981|2019-10-19|Salvatore Mandrà|Fix Makefile.in for pybind.
+50caaf00a89793fcdcf3dba88db9df1dfb0ecb05|2019-10-19|Salvatore Mandrà|Depth can be optionally specified.
+f4033e46c860e72890d38ed148721e4eab22904c|2019-10-19|95-martin-orion|Document directory structure.
+d1fe475b3c0190bac885ca3c0ae2ea9c586006f6|2019-10-19|95-martin-orion|Merge pull request #116 from ngnrsaa/final-qubit-order
+97faab75f4396554832d7486dcebf33403f05580|2019-10-19|Salvatore Mandrà|Add required g++ version.
+b08b6643a21764957f9f65fa742b460f55162e0c|2019-10-19|benjaminvillalonga|Merge pull request #113 from ngnrsaa/remove-depth-as-param
+4aaaaed5d084619e3d211612327bf565dc51ff2f|2019-10-19|95-martin-orion|Require 'x' in final state for terminal cuts.
+ddda1d035c2792eaa041c0085bc9fd80338b90ca|2019-10-19|benjamin|Added circuit_data_to_tensor_network function to read the bare tensor network from a circuit file, with the only assumption of qubits talking to their neighbors
+a9bfc85c603cccdcf71633cc57c42682df3630b0|2019-10-19|Salvatore Mandrà|Improved script.
+071380e96ac3d613d002c8bce6faa8218f870b53|2019-10-19|Salvatore Mandrà|Fix Makefile.in
+cc2589600592433dc84890f9dc7b711ec96e43d4|2019-10-19|Salvatore Mandrà|Fix containers scripts.
+bed4e93820c57b4fd6334861c1dc69422e9c9f94|2019-10-19|95-martin-orion|Adjust sample ordering to demonstrate cut behavior.
+b386d0c8de32e7f7428911d5dc5eebd6d3667b8e|2019-10-19|Salvatore Mandrà|Changed pybind11@2.4 --> pybind11@2.2.4
+c54e917be1f79e4897586536a94fee48e650d33f|2019-10-19|95-martin-orion|Partial fix for cut-index output ordering.
+56ce39ff9df484f4fa68f5dc8454c60fc5d1899e|2019-10-19|Salvatore Mandrà|Fix flags for pybind.
+5377d865ac66f7a5bd1088dee14d97cfd22d28e4|2019-10-19|Salvatore Mandrà|Assume that python >= 3.5 is required.
+4639f34986433fb99a09d8ea3a6f57cac37e3865|2019-10-19|Salvatore Mandrà|Fix Makefile.
+11ba2439705f05f90373c409bc4b4623a52b66b6|2019-10-19|Salvatore Mandrà|Check pybind11 and cirq version.
+b2b7fbbace2f575b4ee4c679b0b667134d87b897|2019-10-19|Salvatore Mandrà|Update.
+c55ff32969f0fe29f0389943b4c3b7c0050ae032|2019-10-18|Salvatore Mandrà|Fix make install.
+44cdc54c505b247f0d3ff56ee6a10ce2a671c8e7|2019-10-18|Salvatore Mandrà|Fix autoconf.
+4a9713b6ecd8286773be15addb01f7c079bbd859|2019-10-18|Salvatore Mandrà|Fix containers scripts.
+b2ff78e03209906c5e7b133066de8dafb28a1d6e|2019-10-18|Salvatore Mandrà|Fix Makefile.
+5bd57a897b34bf6d940f49867dc73ecf3ab351ac|2019-10-18|Salvatore Mandrà|Fix Makefile.
+5dd873a56b9d52553099847fd71eda6328799c53|2019-10-18|Salvatore Mandrà|Fix docs.
+2d12acb0b13a40e69b221c0ef61147da697e5191|2019-10-18|Salvatore Mandrà|Improve autoconf scripts.
+e2f5a5c9a94c24125b89f72e13b19676d43ef677|2019-10-18|Salvatore Mandrà|Add pybind11 option.
+1786a47e2279c5065aba4fc0da38fdbb8b180229|2019-10-18|Salvatore Mandrà|Update .gitignore
+51928d2036bc20cc1572a915f8b2d632ad666194|2019-10-18|Salvatore Mandrà|Add configure for easier use.
+c9c77a5652872fe117dabe3c4b0994f7ddd8142b|2019-10-18|Salvatore Mandrà|Update docs.
+d5b2ed1d2418b7716a878fdced259281ae2dc932|2019-10-18|Salvatore Mandrà|Improve autoconf (with cirq)
+32ba179097fb3a1043cf4ce933c000c5ee5ff875|2019-10-18|Salvatore Mandrà|Split utils.h --> {utils.h, utils.cpp}
+241c8e72845f39563dd872659b77fe7509b8771e|2019-10-18|Salvatore Mandrà|Fix example.
+f22a0d9fc8aa7d518f556004316de66e2743f534|2019-10-18|Salvatore Mandrà|Depth is computed on-the-fly.
+7d23ef3fb55d2a03f348248a8deec85336ea29c2|2019-10-18|Salvatore Mandrà|Add util to compute depth.
+256fdfa0b990c882d55a37014a74913a3ef63922|2019-10-18|alexandrupaler|added amplidus simulator from unreleased cirq0.6.0
+e188def0153e7cfd81c8e79cb698a0195d949ea5|2019-10-18|alexandrupaler|create venv for cirq
+007a442eaa1d49861d7b0064b77cc8affa2c82f4|2019-10-18|alexandrupaler|Merge pull request #109 from alexandrupaler/new_pybind
+d68711ff110232d60570f66525606bc4b07c2173|2019-10-18|alexandrupaler|formatting
+b488c2b72ab8e246ef49ec35e808acdf084cf27f|2019-10-18|alexandrupaler|add pybind target in Makefile.in
+86505f9f0650211250c9417720956c5fe2f881cb|2019-10-18|alexandrupaler|resolved comments
+8f3da74cd400b0d963f8b1e0afd63515c9eb584f|2019-10-17|Salvatore Mandrà|Fix Makefile.
+d1eb58ec999e2f0c43af6f8cd9eba00e4825ff2d|2019-10-18|alexandrupaler|compile interface
+fccf26735ff757b0ea5645b23685e190c2f1bfde|2019-10-18|alexandrupaler|pybind11 submodule
+a8dbdad6a114e377edcc59003e01fa50f5c57dd8|2019-10-18|alexandrupaler|Merge remote-tracking branch 'upstream/master'
+356e71efd97d6f826ce1686cbe5086384435e7da|2019-10-17|Alan Kao|removed formal grammar
+7d20a596ffd29af8ea9852e6baddba0912acf56d|2019-10-16|Salvatore Mandra|Merge branch 'master' into documentation_fixes
+23952dd82d76ece9fd4b90bedbff9abe697d0442|2019-10-16|Salvatore Mandra|Merge pull request #103 from ngnrsaa/first_line_requirement
+a2b0b28c64be164d4287b9946e1be6fe4d1806da|2019-10-16|Salvatore Mandrà|Make grid variables constant.
+063db885da6acd240ab99da456f0f9de45b23c4a|2019-10-16|Salvatore Mandrà|Fix format.
+c6587cf5b5e57fe42291756ad45d7aceeeb68c6d|2019-10-16|Salvatore Mandrà|Merge branch 'master' into first_line_requirement
+b8529150638d2da3196354be21ed751ad1705097|2019-10-16|Salvatore Mandra|Merge pull request #105 from ngnrsaa/autocut
+01a4a3721284a2dd12d499a3c52fb0fe96265672|2019-10-16|Salvatore Mandrà|Merge branch 'master' into autocut
+1387999f27294af489b06570a1350f28fd6346ae|2019-10-16|alankao64|requested cheanges
+6a3b179eb5500a7a793944bd763fb157a96c5abc|2019-10-16|95-martin-orion|Automatically reorder cuts if indices are out of order.
+d014d4f9cd00d932aa24af5ab8af9614d2ef0f9e|2019-10-16|Salvatore Mandra|Merge pull request #94 from ngnrsaa/cycle_error
+038ed2039318b7c3ede7ea2fe6c7fee63b70cd02|2019-10-16|Salvatore Mandrà|Fix format.
+4dd8dec38b2be73263b57764505db2fc23f711f6|2019-10-16|Salvatore Mandrà|Merge branch 'master' into cycle_error
+cfbdabe3e7cf1f6a9b90d5138a61d9ff1fc024ef|2019-10-16|Alan Kao|added missing number of qubit to config files
+dc07890a54fbb340caa1008a783d63342660d864|2019-10-16|Alan Kao|enforcing first line of circuits to be number of active qubits
+eefcfc5ac7ea14ff9a26439721fbc55f81937b50|2019-10-16|Salvatore Mandrà|Print line in circuit where error is found.
+2c4d89042ad786449a27968bba086bffbb44af49|2019-10-16|Salvatore Mandrà|Fix circuit.
+a6a2c3891d410803485639fb2fba6e6b7253b36c|2019-10-16|Salvatore Mandra|Update install.md
+9e2593bd2ca4292cbe795c2c05f7d248a0163d02|2019-10-16|Salvatore Mandra|Fix broken anchor.
+22845a3f3427991e39f27ce59251565f75c117b3|2019-10-16|95-martin-orion|Merge master into order_heuristic
+916c6be47a771673513bb5963bd57c3fee2658e4|2019-10-16|95-martin-orion|Merge branch 'order_heuristic' of github.com:ngnrsaa/qflex into local 'order_heuristic' branch.
+263b04d74d0bcca911ef68a6ac99987cb0df4823|2019-10-16|95-martin-orion|Add 'qubit_names' arg to allow for grids with inactive qubits.
+4d980300c5c8886e7edb04133654a4402bc66621|2019-10-16|Salvatore Mandra|Fix filename format.
+e31254da724e52b3e948ad265dd935e160302816|2019-10-16|Salvatore Mandrà|Merge branch 'cycle_error' of github.com:ngnrsaa/qflex into cycle_error
+a948d9d1b83d37253c69116a073c8d513d2c8bc1|2019-10-16|Salvatore Mandra|Merge branch 'master' into cycle_error
+787bacda8a4c817ba5135d9bf6d30b43bb7c9ce5|2019-10-16|Salvatore Mandra|Update install.md
+8f78eb9cc1805216ad6c69bdadb7bf41d0f4728c|2019-10-16|Salvatore Mandrà|Clean up.
+50d5b29caca130650e7ff3afc98f48241f2c6323|2019-10-15|Salvatore Mandra|Merge branch 'master' into documentation_fixes
+5bec1da42deacb60018f69bf97401edb4facc6be|2019-10-15|Alan Kao|small change
+0f231086a0feb04ac67e6b04d663fda0f7f8477b|2019-10-15|Alan Kao|using unordered_set
+4a45ed7244c79d47e22aad66a98d39defe967da7|2019-10-15|benjaminvillalonga|Merge pull request #93 from ngnrsaa/remove-grid-size
+fa78141067fa1797e607ea732534bfacb5aaebf5|2019-10-15|alankao64|Update input_formats.md
+772a4e20be0d30fac09df5b8fd3d0b2b22cddd2d|2019-10-15|alankao64|Update input_formats.md
+7ab5f4e8c270ff9cb2d98ea72ec68cb6bb93efc9|2019-10-15|Alan Kao|changes as per requested
+ba7c3fb849fc72b108db3d372bfac8e9634693cc|2019-10-15|Alan Kao|fixed SimpleCircuit test
+ef3366fa22faa239d048af2de16844d8a590b2e6|2019-10-15|Alan Kao|working tests
+a70a092a8e6a15eedc0c1eea84829645baa37732|2019-10-15|Salvatore Mandrà|Fix format.
+78122e8cab6d873742b8dbf22a2ac29d98ac4542|2019-10-15|Salvatore Mandra|Merge branch 'master' into remove-grid-size
+6169c25fe5c462fe80f8e299cfef8399610605da|2019-10-15|Alan Kao|merge conflicts
+65c2fa6fa3e4a77dfb50c96907f81cf1f26095aa|2019-10-15|Alan Kao|initial test changes
+9a995a812373c0bf1650d13337b5a0ace5c78081|2019-10-15|Salvatore Mandra|Merge branch 'master' into cycle_error
+998f0b3a6c0535a6550d43fce63fcde7ce13e319|2019-10-15|Salvatore Mandra|Merge pull request #88 from ngnrsaa/implement-cx
+d35c69a55eb2ab6bef215be3baf5542d1ede1207|2019-10-15|Salvatore Mandrà|Merge branch 'master' into implement-cx
+abcd1971d1441a70d3bef7431fe55e3baef0d318|2019-10-15|Salvatore Mandra|Merge pull request #79 from ngnrsaa/rqc_patterns
+7e6fbe8f63e3034537b60e544ff60c4aa6ccb3c5|2019-10-15|Salvatore Mandrà|seed is now optional.
+02630b239a0c132949a2713443d97da488ed102e|2019-10-15|Salvatore Mandrà|Fix test.
+d83461c37c202d9889b138bfb840889c41f32348|2019-10-15|Salvatore Mandrà|Update generator.py
+617732b6e81cd3d16c7ec3be8b915f0df2e1226a|2019-10-15|Salvatore Mandra|Update rqc_generator.md
+bf365df37a32159ddb7aa6713686cd8b9a507bf7|2019-10-15|Salvatore Mandra|Update rqc_generator.md
+d61263a5ba369a702e47ab35fa23741176e5d990|2019-10-15|Salvatore Mandra|Auto stash before merge of "rqc_patterns" and "master"
+ec4f9ef9e72679a1421af34dae918c609c414235|2019-10-15|Salvatore Mandra|Merge branch 'master' into rqc_patterns
+bbd32661e7a0b18342de60345177ba4d60e6567b|2019-10-15|Salvatore Mandra|Update rqc_generator.md
+70db839d786de0885a61d34337887f8b2319c96e|2019-10-15|Alan Kao|working changes
+6a7f10c07ca1694a620b48d09da44e69bb37757d|2019-10-15|Salvatore Mandra|Added few config examples.
+5c02bd17db5f2d2474febd30dc92c58352c8639a|2019-10-15|Salvatore Mandra|Merge branch 'master' into implement-cx
+9327187933ae85410803113cf5bdbeefd3f8651f|2019-10-15|Salvatore Mandra|Merge pull request #87 from ngnrsaa/autoconf
+3d8a55c28991cc0b17bc75a15dfb050c3a36d81f|2019-10-15|Salvatore Mandrà|Documentation for installation.
+560358262a282aeb7de5f5c34f6a6f2153271502|2019-10-15|Salvatore Mandrà|Improve script.
+39f17b0532d7b96dc37b1c1f5b47ea7ab430988a|2019-10-15|Salvatore Mandrà|Fix Dockerfile.
+ba6ae606220aff1fd3192a71cf7d2f604230a26b|2019-10-15|Alan Kao|initial changes
+2925cd8b389467017c2f783496ee1a3269757a71|2019-10-15|Salvatore Mandrà|Improve script.
+829e1d62c4b6501162eb163c2223e9720a6878a5|2019-10-15|Salvatore Mandrà|Improve script.
+2967b9294ed81d3200f55b8d6a7bba6fe6b7e102|2019-10-15|Salvatore Mandrà|Fix .travis.yml.
+03dc8875adf8f3561b7c8b1d3d8789478686d4bb|2019-10-15|Salvatore Mandrà|Fix Makefile.
+927859ff2454aec307200ee462a9475ec6444564|2019-10-15|Salvatore Mandrà|clean-all now removes ignored git files.
+138e8c89e213e861042634928a68694cb7a426b1|2019-10-15|Salvatore Mandrà|Improve script.
+9ad053344d83ed21bfb145aa6426071458508224|2019-10-15|Salvatore Mandrà|Add script to clean git repo.
+b33ba01e2121026ae0678d03c806039dd615a926|2019-10-15|Salvatore Mandrà|Fix Makefile.
+7447464c6d2eb02b0384ad5676236860f9d54ffa|2019-10-15|Salvatore Mandrà|chmod -x.
+9f4d47a26028d0bc88125e89fa551fbde080975e|2019-10-15|Salvatore Mandra|Merge branch 'master' into autoconf
+ad5a76b668fba8c92a4524b561612de87987528b|2019-10-15|Salvatore Mandra|Merge pull request #86 from ngnrsaa/organize-simulation-files
+7e9a9d9ca60444f4bda3b7c7054d72b9f9b6a026|2019-10-15|Salvatore Mandrà|Move config files --> /config. Move /share/nasa-cla --> /docs.
+565161ef2cc9ab23d5b6ac5988aec144ccdac9de|2019-10-15|benjamin|Added dense version of CX gate decomposed. Commented out sparse version.
+abc734a16e4a89e3af9ac80f06eef0a9658635d9|2019-10-14|Salvatore Mandrà|Update example.
+b989f0e4480509f1bfc589b1417adcddc9f965e6|2019-10-14|Salvatore Mandra|Update rqc_generator.md
+a56a789ef0cc7329350b487fd2c1aeed3870680e|2019-10-14|Salvatore Mandra|Merge branch 'master' into rqc_patterns
+0c632346ac2781a46b2aa29341f480e16d8f5894|2019-10-14|Salvatore Mandrà|Fix merge.
+158cdf3d1a41e16eb474dad3c75d26799663a1eb|2019-10-14|Salvatore Mandra|Merge branch 'organize-simulation-files' into autoconf
+7338c5a126b7d4212a947d4fffd106482ab9e489|2019-10-14|Salvatore Mandrà|Fix merge.
+c70743a920832e5da6711ebf3fa1403da2b7ae36|2019-10-14|Salvatore Mandra|Merge branch 'master' into remove-grid-size
+32b0a1416adf2cba3c1256cb9388aca15a7cb447|2019-10-14|Salvatore Mandra|Merge branch 'master' into implement-cx
+c4f237ea58c731dfbdf22dfcfb8d3a8412ff8506|2019-10-14|Salvatore Mandrà|Fix docs.
+281bdbdea87cb50c00d7f424bdbe02a44376623d|2019-10-14|Salvatore Mandrà|Merge branch 'master' into organize-simulation-files
+270ea7498635c2c09305e05c615f0c521232f3c7|2019-10-14|Salvatore Mandrà|Fix clean.
+ed96ff87e120bff28fc0e8fc2ae6c6927c43c8c5|2019-10-14|Salvatore Mandra|Merge branch 'master' into organize-simulation-files
+8996549ad5c4e30b0776bfc30cbdf1d9d26fb97c|2019-10-14|Salvatore Mandra|Merge pull request #84 from ngnrsaa/improve-structure
+3cdef35d2036a861f2d708cc977c6564e14b1753|2019-10-14|Salvatore Mandrà|Merge branch 'master' into improve-structure
+fed42167778b3dc52721668defeaa82e4f85a473|2019-10-14|Salvatore Mandrà|Fix format.
+461459b84a971791be8353b761bc1babb8ec0661|2019-10-14|Salvatore Mandrà|Move src/docopt.cpp --> src/docopt. Move test/ --> test/src.
+74645560d1755bd1d4102c06a3ff0dfdadd9b948|2019-10-14|Salvatore Mandra|Merge branch 'master' into improve-structure
+ed4514a5e95ff2ed626a40077752e339217a6f84|2019-10-14|Salvatore Mandra|Merge pull request #92 from ngnrsaa/remove-fidelity
+23a8c007f7c1ae8975948f755ef51ee212d2e894|2019-10-14|Salvatore Mandrà|Update example.
+a4918628fed60dfefc4ab24f452faa7dd9fc1423|2019-10-14|Salvatore Mandrà|Fix evaluate_circuit_test.cpp
+28a4c79fdb36cf867cdf1b42a3e269b9d6e1f132|2019-10-14|Salvatore Mandrà|Fix bug.
+574ba9fd191c1f7630bf2e5fee1cba008e2545d3|2019-10-14|Salvatore Mandrà|Users do not need to specify the grid size anymore.
+6ee3478b1282f1721e10fd29e30afa9939996843|2019-10-14|Salvatore Mandrà|Update example in main.cpp
+db959292205b00176bd5c1336fb072bc40d698b6|2019-10-14|Salvatore Mandra|merge remove-fidelity to remove-grid-size
+5c613a28eaa00143d90ac37588e892d545b5215c|2019-10-14|Salvatore Mandrà|Update example in main.cpp.
+57e670556148c8ef5004a9127d642e2300ddf9c9|2019-10-14|Salvatore Mandrà|Removed fidelity from QflexInput.
+078c6e9ece4897581d60f0ed65a22749815ea00f|2019-10-14|alankao64|Update rqc_generator.md
+c27fae93d28db2243b0937e51ae9dcb9e5998ecb|2019-10-14|Salvatore Mandrà|Removed size of grid as parameter.
+865d8e316f3defd6746092ef1ce87122aeece750|2019-10-14|Salvatore Mandrà|Update docs.
+bd65cb403e08320d98d409e65d37f575ddbf2332|2019-10-14|Salvatore Mandrà|Removed fidelity as parameter.
+bae9dbca5f46d4242fb0024a70fddf79117ee716|2019-10-14|Salvatore Mandra|Merge branch 'master' into improve-structure
+06c60fd404f5d24a5c41a38de5dddb2f8bd9a32b|2019-10-14|Salvatore Mandrà|Update example.
+7af94210d4fb12765c04d46676073a29741e6e40|2019-10-14|Salvatore Mandrà|Merge branch 'master' into implement-cx
+ab95b927842cafdb6a16211dbf372cfa403e2f71|2019-10-14|Salvatore Mandrà|Fix docopt arguments.
+d3d297996dcdf18142cdb4591b0185467c26eb97|2019-10-14|Salvatore Mandrà|Add examples.
+92754023ca5e563034f570a3f4e8a2363d212eb3|2019-10-13|Salvatore Mandrà|Update test.
+a9dfb32bcce4bc8666d4f0921d4b9065ef2758ff|2019-10-13|Salvatore Mandrà|Update test.
+58ba29881d0d67301d93c10c2a921b490bd9fa7d|2019-10-13|Salvatore Mandrà|Fix format.
+6e1ca7d372addf073c50642e90bf889de68ea4f7|2019-10-13|Salvatore Mandrà|Added tests for CX.
+ec5dd0e53b0fc29d8df09b9036c667ea9b39da72|2019-10-13|Salvatore Mandrà|Fix SVD for CX.
+810cfcdc6e123ca11c91786e03bc64d5803b25d7|2019-10-13|Salvatore Mandrà|Fix format.
+408d12c8d8f65da364fda11899f9c1be998b6ded|2019-10-13|Salvatore Mandrà|Implement CX.
+ea3a044eab88b109d956fc9d50e79378df989f09|2019-10-13|Salvatore Mandrà|Fix rootless-container script.
+0c86b8ae49ef9bc46f240afab97cabe416c335be|2019-10-13|Salvatore Mandrà|Fix containers.
+925b2dd5978d1128d141d82ec29e145d91a99963|2019-10-13|Salvatore Mandra|Update README.md
+073c742990d13940c9aaa7496ac1cd5b66ffbb75|2019-10-13|Salvatore Mandra|Update README.md
+8f8b7fdab8c4f121ddc9c4e56d21358aa75e2e6d|2019-10-13|Salvatore Mandrà|Update .gitignore.
+673fb039a9cb839fa2a8d78cea664f3a9c259398|2019-10-13|Salvatore Mandrà|Add check for git.
+1322d5c86fb72409ee1938add0d9b486826f9f51|2019-10-13|Salvatore Mandrà|qFlex can be installed using autoconf.
+c694d9081f9e1ef8a2fb521e691c76dd70f2ef97|2019-10-13|Salvatore Mandrà|Merge branch 'improve-structure' into organize-simulation-files
+325ce7dd14c0416be796e79bebd38f01cf11f99f|2019-10-13|Salvatore Mandrà|Fix Makefile.
+c35d3b11686d062091923b18587ded7b61a34f36|2019-10-13|Salvatore Mandrà|Move supporting files --> share/
+2d5d6d598e932c763aeaf1c3d3549c9a0744e61b|2019-10-13|Salvatore Mandrà|Move rootless container scripts --> scripts/
+defff8ac5b3d887eee3ecd6373fb6b17463006fa|2019-10-13|Salvatore Mandrà|Move googletest --> tests/googletest.
+91000b1264620413affd801bfb1b200ef2f20102|2019-10-12|Salvatore Mandrà|Move docopt.cpp --> src/docopt.cpp
+90b554e3c63fe474029f8d56a98a6d46f0d26336|2019-10-12|Salvatore Mandrà|Fix scripts for containers.
+f8d95c13a176be70eb563347ce6a74b7fb64792f|2019-10-12|Salvatore Mandrà|Fix travis.yml
+08b966c112a097310751202bc406f573c4570427|2019-10-12|Salvatore Mandrà|Fix check_format.sh
+412ec4a55b1644fb8d4bc7f2d11a0a4329404723|2019-10-12|Salvatore Mandrà|Fix Makefile.
+1f8fa45f0a3875fdbcbd555772712b755f1be495|2019-10-12|Salvatore Mandrà|Fix check_format.sh
+6d8070b78832ec03222dbcd319c3a38faabbe713|2019-10-12|Salvatore Mandrà|Fix Makefile.
+1d13ac4e393a11dfd0eaaacc044c8da701990632|2019-10-12|Salvatore Mandrà|Fix Makefile.
+f56a3644e84c3e471d08c95f987949ab94ce7013|2019-10-12|Salvatore Mandrà|Fix Makefile.
+526ce9175f8f11c8af382cabf4563bbba296a5a5|2019-10-12|Salvatore Mandrà|Fix tests. Fix Makefile.
+ccc4c4572196c622483802af860526f68eb8476a|2019-10-12|Salvatore Mandrà|Moved sources --> src/. Moved scripts --> scripts/. Improved Makefile.
+5daf985446cef388758df59c659b41a4f53c8137|2019-10-11|Salvatore Mandrà|Fix format.
+c60817f9dcc6673b2ca290031df7f46292f602f6|2019-10-11|Salvatore Mandrà|RQC generator can use arbitrary patterns.
+b16ebf66eb3b895d1da3b0fd8080ccb403af9db5|2019-10-11|Salvatore Mandrà|Merge branch 'master' into rqc_patterns
+7c58e9c62d40f314fee43cc7c1ef73764fffcc1d|2019-10-11|Salvatore Mandrà|Add documentation for rqc.
+1e974be588b42d1cbc957f1b512ca555f440b548|2019-10-11|alankao64|test name change
+408310d0894ae28c2bef5571be14ed5a151e5067|2019-10-11|Alan Kao|fixes for ordering_data_to_contraction_ordering()
+7d1de9ecb664efd1d3d9c0eeebb6d853ce0c7270|2019-10-10|Salvatore Mandra|Merge pull request #75 from ngnrsaa/python-check-format
+eed3ebd4b97e6ac5835dfd15687a5328c4f970a7|2019-10-10|Salvatore Mandrà|Fix format.
+6badc269da8ae7eea7822e185a3e914096a6e976|2019-10-10|Salvatore Mandrà|Merge branch 'master' into python-check-format
+ad5b33e875db54ff112c0a5bfed30cb05524a82d|2019-10-10|95-martin-orion|Remove stray comment.
+b5856be3655a7e7727a058765823fa461dd434b6|2019-10-10|95-martin-orion|Fix bug in order_func when many patches are used.
+8245387256a9dc78379d60fe51711237204b0bda|2019-10-11|alexandrupaler|Merge pull request #77 from ngnrsaa/fix-make
+b1badec51abf8916d3ca753b5e2e663242349836|2019-10-10|Salvatore Mandra|Merge pull request #52 from ngnrsaa/fix_licence
+24c12428d5260cdbf474a7546921699a049da23a|2019-10-10|Salvatore Mandrà|Fix Makefile to create docopt.o
+476325af89fbff3f85257d7d3969175e205dcfcd|2019-10-10|Salvatore Mandrà|Improve check_format.sh
+cc536b023984bd82954ce22814662296eb010b44|2019-10-10|Salvatore Mandrà|Fix copyright.
+4f10c7122e39460cf37838eac91a6671bad872dc|2019-10-10|Salvatore Mandra|Update CONTRIBUTING.md
+0589a22500ee896cb3507e491f2e3c649de7e272|2019-10-10|Salvatore Mandrà|Fix format for cpp.
+75dfb7ef7ae8b4d646798c41811acb3e31918ed7|2019-10-10|alankao64|Update input_formats.md
+bfc1864ef6a4d86da0ec795ddaf50ed1f75d42fe|2019-10-10|Salvatore Mandrà|Merge branch 'master' into fix_licence
+fd72f30289d0c6c0892e1ff845264cadb696a517|2019-10-10|Salvatore Mandrà|Fix format.
+359ef58d5bb819018e05da55e0af350fe0bcd851|2019-10-10|Salvatore Mandrà|Merge branch 'master' into python-check-format
+445cecb29337a6ef43ef216000d76d615654a5fe|2019-10-10|Salvatore Mandrà|Moved RQC generator to python/circuits.
+6c5f1e0dd15990f6510d2a7315f16984607f2998|2019-10-10|Salvatore Mandrà|Merge branch 'master' into python-check-format
+20bd9e798cde4573020e8af2f2ad2f1e7af98e9c|2019-10-10|Salvatore Mandrà|check_format.sh now checks python3 files as well.
+cff1a4a5fbc575e64858fdf2db4788bb66fb0410|2019-10-10|Adam Zalcman|RQC generator (#74)
+4697cde0e408d5952cf7871220fe0428019c2274|2019-10-10|Salvatore Mandrà|Improve rootless-container scripts.
+d274bd4c2dc9a1a2920311c5d4d104ee4688cc3e|2019-10-09|Salvatore Mandrà|Improve rootless-container scripts.
+afd31cc55b2e058bd4592de40b54cdcd434d2e19|2019-10-09|Alan Kao|Merge branch 'documentation_fixes' of github.com:ngnrsaa/qflex into documentation_fixes
+fa6c4a2904775e64a4b639db1a2e994851afb841|2019-10-09|Alan Kao|asserting contraction ordering was generated
+11a3af5ed432651cab61650dd2281bd62d14ccc8|2019-10-09|alankao64|Update input_formats.md
+bde5b73bd0020320f68bde79b2e7de3f8f49346e|2019-10-09|95-martin-orion|Merge branch 'master' into order_heuristic
+8d35012e0a0a8699d5f9dfc581b0426f4318b4a6|2019-10-09|95-martin-orion|Remove extra prints and add comments.
+80711bbc05aec366c4ee80891559ba485c7a051f|2019-10-09|95-martin-orion|Add Dockerfile and Travis support for python/ directory.
+c002c080f1194d364f85658b28d3b9f00d44262c|2019-10-08|alankao64|Update input_formats.md
+280d5442c412d29a9ab741bb6395254f26ca2550|2019-10-08|Alan Kao|updated input_formats.md
+a0aca35a5d48fc741b134fa276f7ec5eeeee54b3|2019-10-08|Alan Kao|merged new file into old input_formats.md
+6bbebe0193d3c0201fc966b1c816238f182a70fa|2019-10-08|Salvatore Mandra|Update docker.md
+ef576078a87aee25062a4720c1c285cdba8ece8f|2019-10-08|alankao64|Update input_guide.md
+35d66b39215bd6329dcce4e71d07c8f264552830|2019-10-08|alankao64|Update input_guide.md
+a9f7aab8b1c7a8115784fe8a437482213f83bdbe|2019-10-08|alankao64|Update input_guide.md
+daf5b8caade3ac3f93f366d9d487d50301bec6a0|2019-10-08|alankao64|Update input_guide.md
+cfa1685b1c00f9a883c6a225250549bfac52bfd2|2019-10-08|alankao64|Update input_guide.md
+e9f29f0f29b681c08c646f5b1fdda4b75c17fa90|2019-10-08|Alan Kao|small changes
+d06c47741f16582dc9a3352b9da3bde37eb08a48|2019-10-08|Alan Kao|drafting new input formats file and small fixes
+b966b391b2eb97fd10aa99a3c4310f7fcedf0228|2019-10-07|Salvatore Mandra|Merge pull request #61 from ngnrsaa/rootless-container
+13ff9b55a3dc34020d30f0d9aaa13d4bdf0eafa7|2019-10-07|Salvatore Mandrà|Merge branch 'master' into rootless-container
+55da5dd3043f30429004eef4c10d054da0ab2939|2019-10-07|Salvatore Mandra|Merge pull request #68 from ngnrsaa/docopt
+b2ed5fb8088117c0ae70235a4675f6d8be9dfda8|2019-10-07|Salvatore Mandrà|Merge branch 'docopt' into rootless-container
+8dbd9e502fd66428459b19af25f45e7bab468935|2019-10-07|Salvatore Mandrà|Merge branch 'master' into docopt
+34af64bf66265662e82c836acfaa4af958d81fa2|2019-10-07|Salvatore Mandrà|Fix format.
+8061186935c5045e0399eca42a35dc05d4764dc6|2019-10-07|Salvatore Mandrà|Update .gitignore
+6561b7bcc85f074c2b4179b3a2d5c4b0ce717368|2019-10-07|Salvatore Mandrà|Change single dash argument format.
+efcfe299aaab06d2d070bc159fcd87c60530fe59|2019-10-07|Salvatore Mandrà|Update .gitignore.
+158814f3a180e478a59ddf63739a236ac64bfdba|2019-10-07|Salvatore Mandra|Merge pull request #67 from ngnrsaa/rename_circuits
+f403e9998bff248863f6af6b6604f288feefcb9a|2019-10-07|Salvatore Mandrà|Update example.
+4b0010649ad500cc3addb24ef61385ab1ea964c6|2019-10-06|Salvatore Mandrà|Improved tests script.
+1de2b369590da77d3e7358dd86dac6c335edd075|2019-10-06|Salvatore Mandrà|Improved tests script.
+85d74871aeea08ba9a8972676956abf426497e2a|2019-10-06|Salvatore Mandrà|Merge branch 'docopt' into rootless-container
+5d445894cb033cacf7be9776ca1972e63ee1e592|2019-10-06|Salvatore Mandrà|Added docopt support for help.
+d70bd264ab16a1ff7d17d62c30b6756528957f11|2019-10-06|Salvatore Mandrà|Update input_formats.md
+8535a89339bffb7dfd25309253c20e8ec9f38da5|2019-10-06|Salvatore Mandrà|Fix default value for OMP_NUM_THREADS=1
+3b1a7f25f9aabe5ff9750875be15758b55ed125d|2019-10-06|Salvatore Mandrà|Merge branch 'rename_circuits' into rootless-container
+171f30a58f6483efb660a95f3c6bf587cbebbc84|2019-10-06|Salvatore Mandrà|Print simple help.
+d741531c305b77d1650695055129f21e9b37a4f3|2019-10-06|Salvatore Mandrà|Merge branch 'rename_circuits' into rootless-container
+f739a914a3953d775768edc213f3e19f87e3b98d|2019-10-06|Salvatore Mandrà|Changed example in main.cpp
+4761940bf0cd7c2902c63cf5291401a073c14bc0|2019-10-06|Salvatore Mandrà|Merge branch 'rename_circuits' into rootless-container
+a21d4167281467a7e1f8d002f6a0a06b0024d2a2|2019-10-05|benjamin|Added missing grid files for existing circuit files. Contraction files are still missing and belong to a different issue, as well as adding other circuits+contractions, such as Sycamore
+665266d89388a8b4c854cea710883e16e7dc852d|2019-10-05|benjamin|Renamed circuits to [circuit_type]_[circuit_size]_[circuit_depth]_[random_circuit_instance].txt. Also deleted useless circuits used in the past for comparison with shallowqc.
+9db2472678b572ab6223220c0aef7afec2e1e659|2019-10-05|95-martin-orion|Merge branch 'master' into order_heuristic
+2fa0c7f3dcc154ccbf005b28e2d9f9e091b133fb|2019-10-05|95-martin-orion|Added python library for generating ordering data from a Cirq Circuit.
+fedc60aa3f305b54ad44677181f2f866d3553632|2019-10-05|alexandrupaler|Merge remote-tracking branch 'upstream/master'
+46a7c76d04675229b35f8cfe90f7f86a6a3ae41e|2019-10-01|Salvatore Mandrà|Either curl or wget can be used.
+561c2a3767c103e254119f2a77afccb0d2e3a9dc|2019-10-01|Salvatore Mandrà|Improve script to create rootless containers.
+d06e388dfb6fff6ee84db8b53e514430a36cc02a|2019-10-01|benjaminvillalonga|Merge pull request #57 from ngnrsaa/testing
+39d422d17b2b48086a6c21fd23712f1278f57eba|2019-10-01|Salvatore Mandrà|Fix mv/cp of hard-links
+58879a41de05a842eaf369d5275dd3228b21eb4d|2019-09-30|Salvatore Mandrà|Correct typo.
+6479755f95f031e96dfbce573eace23b44dec79b|2019-09-30|Alan Kao|more specific error messages
+7feae60df92326fa82916288961518d18289f076|2019-09-30|Alan Kao|tests for assert
+342beee0990a2a8e62a515bbf87eb4e70f5519da|2019-09-30|Salvatore Mandrà|Fix OMP_NUM_THREADS.
+67292c91369f726d0c3a8765a142e55d4cee95fe|2019-09-30|Salvatore Mandrà|Fix unshare check.
+26f6e7d8b189facb39933a0389b0be247c24e280|2019-09-30|Salvatore Mandrà|Improve script to create rootless containers.
+62c4ff434bfe05339a1d231e6f314b393f277800|2019-09-30|Salvatore Mandrà|Add script to run rootless containers.
+09af57df409843927cccb77cb354c6f6fd071f3c|2019-09-30|Salvatore Mandrà|Improve script to create rootless containers.
+d9ec9874c2b902dd05d5a80523a26f3e6a8065e5|2019-09-30|Salvatore Mandrà|Improved script to create rootless containers.
+fd61edb173d9b49d6b160c664ed4c6307e02f0c1|2019-09-30|Alan Kao|added asserts
+5d9ca57933c761d9c6f2ab32377bee30d361d3e3|2019-09-30|Salvatore Mandrà|Improved script to create rootless containers.
+d2f810696eabf086de2b4a5bd075f4945c1e30eb|2019-09-30|Salvatore Mandrà|Improved script to create rootless containers.
+3fd7bf37ad82ffd3a9305ffcec228e4fe0315273|2019-09-29|Salvatore Mandrà|Improved script to create rootless containers.
+b5a2cdf4aad35fa13849e6968ac03817a0777369|2019-09-29|Salvatore Mandrà|Improved script to create rootless containers.
+8597534533bb8f38d0b0687c6868ed8897ce2063|2019-09-29|Salvatore Mandrà|Improved script to create containers.
+566b712ab82b9ceccb1af28e90d11d00944cfd9b|2019-09-29|Salvatore Mandrà|Working script to create rootless container using unshare and chroot.
+07f5eece3f1d599a17ebb5d14cf001dfc79a217b|2019-09-29|Salvatore Mandrà|Merge branch 'master' into fix_licence
+3c007d7f597124aeaa13a54a24ed69fabd7a9d80|2019-09-29|Salvatore Mandrà|Update Travis-CI config (untested).
+055d303ab2ceffafb2be514ef62f2d1808d4e964|2019-09-29|Salvatore Mandra|Merge pull request #60 from ngnrsaa/docker-alpine
+1e74bfab934a0676f6837891715f755b6b15389b|2019-09-29|Salvatore Mandrà|Use alpine instead of debian:stable-slim as baseline for Docker. Add OMP_NUM_THREADS in docker-compose.yml.
+b3108673963b4ba8f00db268729c5f3bbca4af8f|2019-09-29|Salvatore Mandra|Merge pull request #58 from ngnrsaa/fix-tensor-test
+c039c4b597d06fa71337a6345a7d25696951834d|2019-09-29|Salvatore Mandrà|Fix tensor_test.cpp (std::bad_alloc on alpine).
+5ba1f4c0943aa873e8b3b01e863800a79e50d618|2019-09-27|Alan Kao|actually added in the error messages
+cf90741c5f187605034e08e5dd29e55eadd81182|2019-09-27|Salvatore Mandra|Update CONTRIBUTING.md
+d4d00a687e6f84f59f04493773f146ce61d2c1db|2019-09-27|Alan Kao|Adding error messages for invalid user circuit data input
+10e29fdabb70ae824bc8bd168efcbf4524039136|2019-09-23|benjaminvillalonga|Merge pull request #51 from ngnrsaa/nullptr_handling
+a564d2b6565f6bdc83410f6c802bf1164dbeab4e|2019-09-23|alankao64|Merge branch 'master' into nullptr_handling
+c3d6e804ea22ad01ca3ecb31678d85f92a4977ef|2019-09-20|Alan Kao|nullptr asserts and tests for tensor.cpp
+59e9f9c785d6a0506a42e47e4199a6f348dbe7ea|2019-09-20|Alan Kao|valid ordering checks
+0ade49e6d2e2359bcc06226047d0ca24aa60e50c|2019-09-20|alexandrupaler|repaired link issue
+80337afed71c12e2660e5ce1e5eae825c3a0b9a8|2019-09-20|Alan Kao|changes as per PR
+815b6db6f4213d0b5d54d179cd41804be4ac70a7|2019-09-19|Salvatore Mandra|Merge branch 'master' into fix_licence
+be7aaccebeade0f8d26bf00660b0f5f3d1a1fa9d|2019-09-19|Salvatore Mandra|Merge pull request #48 from ngnrsaa/travis
+e83c82a2c5acb691743a8b65a3600ac24f756ce6|2019-09-19|Salvatore Mandra|Update CONTRIBUTING.md
+fd3a20bafa7bbe12058280e9e872733b20783ba1|2019-09-19|Salvatore Mandrà|Added CONTRIBUTING.md and NASA-CLA.
+0a3f9ed284cf4a40e5550c842c50f7fe48f7bb4c|2019-09-19|Alan Kao|nullptr asserts and tests for contration_utils.cpp
+44e663b0a40dde0c888fe2d57828c43f25053325|2019-09-19|Alan Kao|nullptr asserts and tests for evaluate_circuit.cpp and read_circuit.cpp
+9a9e77923ce04c72a063730e35c0b4c32d7776ed|2019-09-19|95-martin-orion|Re-format sync'd files.
+9833a2a1861d1f651355739f29c8a59028acadc9|2019-09-19|95-martin-orion|Sync to master.
+6e7478a11c54fddb7414590bc552557d5f9001d9|2019-09-19|benjaminvillalonga|Merge pull request #46 from ngnrsaa/assert_tests
+cec846b301234133179ed43470f4e252c98e19a1|2019-09-19|alankao64|formatting
+aa98a26402c7e8488a388d254a8a1d9db277461e|2019-09-19|alankao64|removed MKL references
+fde70b2cbbe2655b527bc466819907b188a43d3c|2019-09-19|alankao64|merge master into branch
+e2d8f3358b426a75bff5261247de927574d81e33|2019-09-18|alankao64|Fixes as per PR
+f285dc35df702f220d3ce7f49b05857545493a8c|2019-09-17|95-martin-orion|Add Travis-CI config (untested).
+5095fb8dc568e324dc18b5bf645ac8bd0b61088e|2019-09-17|95-martin-orion|Add a script to check files using clang-format, and format files.
+231419645c57556e2316a940c414e7d39a23ad4d|2019-09-16|Salvatore Mandra|Update README.md
+d67f5b0daea4f38f5464ab2672b7c1ce298954de|2019-09-16|Salvatore Mandrà|Fix licence.
+35c5d16d9133a77c05b174bc3a6a125f265b5b1a|2019-09-16|Salvatore Mandra|Merge pull request #45 from ngnrsaa/gsl_tensor
+b7dd4a6c8f79f845cdb2ccc89370e1a2cab60fd2|2019-09-16|Salvatore Mandrà|Add docs for Docker.
+fbba1de0825e6423a1acdb6a2c4ec638f7ec7a9e|2019-09-14|Salvatore Mandrà|Dockerize both qflex:latest (executable) and qflex:tests.
+470dde605fe8f9d016e5d40160a3705614a7486a|2019-09-13|alankao64|tests for assert calls
+c009fe03c6a821a6ed33cc2f605143b750eb0831|2019-09-13|Salvatore Mandrà|Improve Dockerfile.
+97596da59f53ee1f58cc5dc16aa46596787b5b34|2019-09-13|Salvatore Mandrà|Solve narrowing.
+b38ff4bc18d13f2c95ac62e0da66900eb25469c8|2019-09-13|Salvatore Mandrà|Update Makefile(s) to compile with both icpc(MKL) and g++(GSL).
+7c50f4194876359cb6d392498ed5304e499fcb49|2019-09-13|Salvatore Mandrà|Remove all references to MKL.
+5a3fc17f5b00dfb6097c4887c5c72ba4f8ba0811|2019-09-13|Salvatore Mandrà|Fix tests.
+35e64ad69c46e09d2ceb55b71cdf920dd605e3e5|2019-09-12|Salvatore Mandrà|Added docker-compose.
+6a923c80faf82259067becfbaa7100868b300fe3|2019-09-12|Salvatore Mandrà|Fixed Makefile.
+03e9e3820892489342a29dd0bdb934a75cfac543|2019-09-12|Salvatore Mandrà|qFlex compile with GSL.
+c7730fda20660582c5a7af3fdbfd9c495c1de07d|2019-09-12|95-martin-orion|Merge pull request #44 from ngnrsaa/testing
+3347500a3e8bf899c41b3911264933c930b700c0|2019-09-12|Alan Kao|Merge remote-tracking branch 'origin/master'
+cc1b66c50a14059d996285cd6a890022ccd1a865|2019-09-11|Alan Kao|small fix
+be51df54d9225d9d5d7442c188ed4b8354df87ca|2019-09-06|Alan Kao|fixed logging in main.cpp
+f11f26ce0430cf86cc7f877fc89813ab972732bd|2019-09-06|Alan Kao|small fixes
+6335e0153a4f087d2ff103bbb53fc2e50cbac96d|2019-09-06|Alan Kao|small changes
+9249153279123710c6ed6186836ac91bd486fc3f|2019-09-06|Alan Kao|added more logging and reduced function calls in asserts
+96a20680cf9ce92f97ab2af693228f622f20dce8|2019-09-06|benjaminvillalonga|Merge pull request #43 from 95-martin-orion/master
+f2e4d3ad8d94ec7912f526eb23be5ac154e75389|2019-09-06|benjaminvillalonga|Merge pull request #42 from ngnrsaa/testing
+cc62056ff88fcae23ccefdc66a1d881da6e8a5bd|2019-09-06|Alan Kao|changes in mkl_tensor.cpp
+b2a644ed43f8e599adb35774fe395d96d8df7405|2019-09-06|Alan Kao|changes as per PR
+e8f4d72cc890961c4e8737f161a9a759d862665e|2019-09-06|Alan Kao|Revert "small changes and clang-format"
+ca7e901b89e8f59e619fe39fb1a1c5c9cba1b32d|2019-09-06|Alan Kao|small changes and clang-format
+a96e2743e2f03ba6b5f90250ab7e8144851b95d9|2019-09-06|95-martin-orion|Fix some 'control reaches end of function' issues.
+429aafb9e9e4bad7f5c223d127227cc94ee3d887|2019-09-05|Alan Kao|format change
+722cd9e270ba05b6ad97ffd0449666d145ae32c7|2019-09-05|Alan Kao|requested changes
+8c2536e89d56c7b79ba8f2d80889001125b32060|2019-09-04|Alan Kao|fixed Makefiles
+6fae0587a83eda1a4fec01bb4b5fdd8e3fb9f8c6|2019-09-04|Alan Kao|fixed Makefiles
+12c2eeb31addbd2abb054fc80e490b58a78d5cf9|2019-09-04|Alan Kao|fixed Makefile flags
+6e2cf28e84d3ff26596271970096e4b735f3ac8e|2019-09-04|Alan Kao|removed extra lines and reset Makefiles
+ee0a0a6aaf585267d8ce0051fd661d30e9f308d0|2019-09-04|Alan Kao|small change
+407c01b174c697a3e39388d96db793256cd390f6|2019-09-04|Alan Kao|removed extra changes
+aaec49cb99ad51c57374a6ed01837ad701457060|2019-09-03|benjaminvillalonga|Merge pull request #41 from 95-martin-orion/master
+d6e9506d7e2dd52282bb52f8447c6325853123ce|2019-09-03|95-martin-orion|Clarify usage of order_func().
+63b497a90e97b7dd9fae492176d7719f440f662e|2019-08-30|Alan Kao|notes
+e8535ee3ac86cb0ff1ff459ec6460bd8b8a85b4f|2019-08-30|Alan Kao|adding new tests
+da1b3038e0034fc376eb532d150cee6f551ce1a3|2019-08-30|alankao64|Merge branch 'testing' of github.com:ngnrsaa/qflex into testing
+9a29abf964e82aacfc85ebe8aad26ae892ff70d2|2019-08-30|alankao64|logging changes
+746317021e0c5c976e1afef3431d41c09a20b99d|2019-08-29|Alan Kao|more changes
+3e600dcc38b05d17e4c3ab7baa9c9890a25ec52a|2019-08-23|Alan Kao|merge conflicts
+4dc77db24f3ee99a42988b8dfce9d3142362683a|2019-08-23|Alan Kao|comments
+13425dc8147256c47e2c13dd1c0c9e967ac3f07f|2019-08-23|Alan Kao|fixes
+2c4c26fc64252c9a7e6a070b9471fa0b78adfed5|2019-08-23|Alan Kao|more verbose assert logs
+2c5d6ebdfec86b03dcac4992999de4ef4190e81d|2019-08-23|Alan Kao|small change
+d6909922d32f06f2c86fceaba6eefcf3dedfedc5|2019-08-23|Alan Kao|small changes, clang-format
+f637f8dbe91ee7986fe47c60feb5b1f57c3843df|2019-08-22|Alan Kao|more fixes again
+a8a10de19c34c12cb057f8b209adffb579168765|2019-08-22|Alan Kao|more fixes
+e34222079f015ccfe4d30555019fd92717a377c6|2019-08-22|Alan Kao|small fixes
+f263aea29cd1625efa5acb3d13e81ba408049712|2019-08-22|Alan Kao|mkl_tensor updates and tests
+4285655716f9f4fb515b0bd64281689b975291bc|2019-08-15|Alan Kao|notes on assert calls in mkl_tensor
+645749137943d9c2ed2ce5cf9c09561e7024111d|2019-08-15|Alan Kao|outlining new tests for read_circuit.cpp
+abc84fadbb46bf1d3a981431564d21ced9af7840|2019-08-15|Alan Kao|added two tests for ContractGrid in contraction_utils.cpp
+153317b39822af70eb9439a1924bc103f1c8cbb1|2019-08-15|Alan Kao|adding more notes and moved a test
+ef054c53b183e1039c220e0007f5cbf3b7fcd77e|2019-08-15|Alan Kao|small fixes and notes
+8aaa5c3f53c5ddb370ece6cf09b1515062e9e461|2019-08-15|Alan Kao|updated assert calls in contraction_utils
+3a633301cb29c8c35cd380b861a2405d6ff8a58d|2019-08-15|benjamin|Merge branch 'master' into cpp_only with --strategy=ours. The cpp_only branch should substitute master: it has tests, takes input from file, follows a style-guide and has taken care of other issues.# Please enter a commit message to explain why this merge is necessary,# especially if it merges an updated upstream into a topic branch.## Lines starting with '#' will be ignored, and an empty message aborts# the commit.
+df8211c440e082e32ddaa7b53ab34daecb4ee742|2019-08-14|Alan Kao|set flags and g++
+9c8463dcc42532bba6e40d4d53992069a7971d19|2019-08-12|benjaminvillalonga|Merge pull request #37 from 95-martin-orion/cpp_only
+6b06169adce7b99b844a6649d02a9ba4e788e1ff|2019-08-09|95-martin-orion|Fix 'unsupported' note.
+8e7d25a23520cc5554659cb5330288b8ac51fa00|2019-08-09|95-martin-orion|Cleanup formatting and add arXiv link.
+f09c338515906cfb455e866ef4ecb458cfbae357|2019-08-09|95-martin-orion|Learning Github markdown.
+ed368bf9e367aea2460dc672c155a382805c75b2|2019-08-09|95-martin-orion|Added initial input file format documentation.
+b0bd18ce21f3a528009065a1b2cba6f127997882|2019-08-07|benjaminvillalonga|Merge pull request #35 from 95-martin-orion/cpp_only
+1821c96efce3b49d4ee22fd8e2dc38261e515f4e|2019-08-02|95-martin-orion|Restore deleted line in contraction_utils test.
+7221b6ddf25c41800103ba19577ea4581b1dd1cb|2019-08-02|95-martin-orion|Use composition for contraction ops to improve readability.
+dbf74d5d7eaf451ca2e59367393c4043f588cf30|2019-08-02|benjaminvillalonga|Merge pull request #34 from 95-martin-orion/cpp_only
+a62303c25aa144297ef1d6de5d2e791d740d3565|2019-08-01|95-martin-orion|Fix trailing whitespace bug in evaluate_circuit.
+60a8867cc2e2af4180645ae847c26fa060324ead|2019-07-26|95-martin-orion|Add assertions and death tests for grid input.
+7d66e3bc2371104d5fcc6824c534b96b755a85e4|2019-07-26|95-martin-orion|Extract file I/O to binary and add grid-input and circuit evaluation tests.
+a206e118f6486491cd1047de30ccaefb21ab9236|2019-07-26|95-martin-orion|Split circuit evaluation into a library and add initial tests.
+de9018d40276630e9b576f32e1f84b1d4810ef4d|2019-07-25|benjaminvillalonga|Merge pull request #30 from 95-martin-orion/cpp_only
+e08e6042c13387a5fc9e4cb83068a01d929b4539|2019-07-19|95-martin-orion|Support multiple output states via contraction ordering.
+3b46d6396462508708662125b78bc1ee99a68e00|2019-07-17|95-martin-orion|Fully generalize qflex binary by accepting contraction ordering and grid layout as input. Example of new input format can be found in the new main.cpp file.
+e2efabc98422fcd3f04b8263e9b908263d2146f5|2019-07-17|95-martin-orion|Add directory for grid-layout config files.
+794712f8bcd0cffc9ee290f85a1b9b14d0efb7b2|2019-07-17|95-martin-orion|Add directory for contraction-ordering config files.
+100ea03e2b47e48a196e0f1b5f2e4e5430995792|2019-07-15|benjaminvillalonga|Merge pull request #28 from 95-martin-orion/cpp_only
+0557cd10ad6eb4e4af08baa189b92a17c6b95054|2019-07-03|95-martin-orion|Fix namespace comments.
+728875fcf92a85a853269b3ebeb68ea914f89c4e|2019-07-03|95-martin-orion|Wrap everything in the 'qflex' namespace.
+b9d7a93866291cd54e98aea2f0d424591bef8a01|2019-07-03|95-martin-orion|Remove 'using namespace' declarations in main_* files.
+a0781c96cfae7378605c51976a5c98b81256d662|2019-07-03|95-martin-orion|Applied clang-format to all files. Disabled formatting for nonstandard lines (e.g. grid layouts).
+8a092a52fc33e81ac203507ae65422af0cc07b75|2019-07-02|benjaminvillalonga|Merge pull request #27 from 95-martin-orion/multiply
+b484a2059c6f2c847244c3da354ac4f303cfd3f8|2019-07-02|benjaminvillalonga|Merge pull request #26 from 95-martin-orion/cpp_only
+14418d90406957271450b07505b30577ec1bde69|2019-06-18|95-martin-orion|Merge pull request #5 from 95-martin-orion/multiply_data
+b5b881128fd3363fc223a012142db81f3674a40c|2019-06-18|95-martin-orion|Cleanup new code and add ContractGrid test.
+d384ad8ef67df0a645fa59850b5355c654206475|2019-06-16|95-martin-orion|Working version with all tensors reasonably-sized and preallocated.
+06588aabed3731374b2ede126ddee1bd77bb5dff|2019-06-16|95-martin-orion|Packs contraction data into a class and cleans up ContractGrid slightly.
+b57496a39a7ae1e772db5d47f0010d2369bbbfb1|2019-06-14|95-martin-orion|Generalizes tensor grid contraction, but with suboptimal memory usage.
+8732426ff2ae67cf5f14d86bcbe9bfb80371834b|2019-06-14|95-martin-orion|Saves the capacity of MKLTensors so their allocated space can be reused.
+a20151b6a387f1cf556492d70a5995a6a96c1fbb|2019-06-14|95-martin-orion|Fixed some build issues that slipped into the last commit.
+e267faa815712f8d45456007f4751f4eeec82b54|2019-06-14|95-martin-orion|Fix contraction orderings in main_* files.
+ff6e7590a03e2683443d564565e1b1ad38038a3e|2019-06-13|95-martin-orion|Adds a sample contraction ordering based on https://arxiv.org/pdf/1811.09599.pdf
+5580a4068cc0ee08e2386b38dc60795ceb31b50e|2019-06-13|95-martin-orion|Cleans up contraction_utils and adds tests for old and new behaviors.
+131a0986eea5091b93c08aa0ad15b55b3d2496fc|2019-06-13|95-martin-orion|Merge pull request #3 from ngnrsaa/cpp_only
+b80c953d14cd6f6f51a8cbdae46ec1fe88b60fcd|2019-06-13|benjaminvillalonga|Merge pull request #25 from 95-martin-orion/projection
+ef6af166552fef4b2d6f309567895aa0217eea9a|2019-06-13|95-martin-orion|Add test for too-small projection target.
+bc972ee9f7be62047ba6244631928b39cb96a1e4|2019-06-13|95-martin-orion|Merge pull request #2 from 95-martin-orion/projection
+3f62c383bdec59cd23b13e99edec5c337276d826|2019-06-12|95-martin-orion|Fixed an issue in MKLTensor::project and added a test for it.
+209347ffb7517d73a7ef697fe3f0ad8d3dd23267|2019-06-02|95-martin-orion|Create util types for contraction-ordering. These are necessary to define more complex contraction orderings, such as the original 7x7 grid.
+b10979ee960bfb1bb8b12fdd40032932e30a4c51|2019-05-29|David Yonge-Mallo|Merge pull request #24 from 95-martin-orion/general_ordering
+f7cb9b144138841faaa2528247ba25ca6ebffffe|2019-05-29|David Yonge-Mallo|Merge pull request #23 from 95-martin-orion/cpp_only
+ce67f78a7414e95c2a626a4cda0b221e073cd40a|2019-05-26|95-martin-orion|Adds a test for 3D-to-2D grid contraction, covering generalized index-ordering behavior.
+40ab7219ac561dcbe42489e1eaf091108c1c868a|2019-05-25|95-martin-orion|Adds a utility function for getting tensor names. Also reverts a couple of changes in the main_* file to avoid confusion.
+5064abfea7081a5ee466da1ac2ebe9a262842739|2019-05-24|95-martin-orion|Generalizes reordering code into the read_circuit library.
+e00be15f2785a224f95cbb7f5fa839f477a79e30|2019-05-24|95-martin-orion|Don't push local Makefile changes.
+c116fbb3ba580c4b6cf559d2f0360cc55b444406|2019-05-24|95-martin-orion|Fixes test namespace usage as well.
+c07467b53e7c681540205672994aa0dee2cec014|2019-05-24|95-martin-orion|Removed using (std|chrono) from libraries per the style guide.
+e231b3fa2ed3b88b5f1694d15ed3759a482ba5cc|2019-05-24|95-martin-orion|Extract function bodies into read_circuit.cpp file and isolate 'private' methods in an anonymous namespace to prevent external use.
+157cee93e235af72f83ee9be0a13a40f658d60e6|2019-05-10|David Yonge-Mallo|Merge pull request #22 from 95-martin-orion/mkl_tensor_tests
+7752b42fdbe2d97e459c2f389fb1db137e3bed0b|2019-05-10|David Yonge-Mallo|Merge pull request #21 from 95-martin-orion/first_tests
+111f40b9300820f08806e5498bd75146a818bd5f|2019-05-09|95-martin-orion|Tests for the MKLTensor library, plus a couple of new assertions.
+51ae0009a46168921c844394a6c14330ab681cba|2019-05-09|David Yonge-Mallo|Merge branch 'cpp_only' into first_tests
+c2bea8d08dcaaa7899170410b3c74c7cd8e2378e|2019-05-09|David Yonge-Mallo|Merge pull request #17 from dlyongemallo/add_fsim_gate
+cfe19a188b28a607ec25b06f11d2d02829abc1e8|2019-05-09|David Yonge-Mallo|Add fSim gate as "fsim(theta,phi)".
+f0ee8aa290d4c1d784be082ac461c544944e82dc|2019-05-09|David Yonge-Mallo|Wrap access to _GATES_DATA with gate_array function call.
+072a699f9d5921ed118f75c81e1bfdf6c0a9c020|2019-05-09|David Yonge-Mallo|Merge pull request #13 from dlyongemallo/refactor_google_circuit_file_to_grid_of_tensors
+78d707407c3766a65db9a854439e3a0692c148dc|2019-05-09|David Yonge-Mallo|Refactor and combine both versions of google_circuit_file_to_grid_of_tensors.
+a1bd9b56d89a6a64a0087dbc68bb896ece1fdd47|2019-05-08|95-martin-orion|Include test dir in 'make clean' requests
+c661d0efd29c7866ea22757fff6f73653c040143|2019-05-08|95-martin-orion|Merge pull request #20 from 95-martin-orion/cpp_only
+5ba77066e76dade9a37a6e60a3b257b71a90ea7a|2019-05-07|95-martin-orion|Modifies read_circuit to support unit testing, and adds a simple test.
+3902858a00d51b6460667c5242182d155ace9300|2019-05-02|95-martin-orion|Adds googletest as a submodule for future test code.
+92486fb29a9421430ad23becd73ea904cdf22edc|2019-05-02|David Yonge-Mallo|Merge pull request #16 from dlyongemallo/add_rz_gate
+e665b212c41c917b1e2ea05b2b07b2147f63c049|2019-05-02|David Yonge-Mallo|Merge pull request #15 from dlyongemallo/add_hz_1_2_gate
+f25ed09a2de8f92f32d63a3d292ae7a51abaa1b6|2019-04-29|David Yonge-Mallo|Add Rz gate as "rz(exponent)", where the phase is exp(pi * exponent / 2).
+15829906c8ec414bbf993290c3ba0d459944635f|2019-04-29|David Yonge-Mallo|Add sqrt(Hz) gate as "h_z_1_2".
+ce6223ae6a649797ede791fc352ea6dcb7fa613b|2019-04-26|David Yonge-Mallo|Merge pull request #12 from 95-martin-orion/cpp_only
+79ccef08db4b60c678d019de4e1e29c0ab6167ff|2019-04-26|David Yonge-Mallo|Merge pull request #11 from dlyongemallo/refactor_grid_of_tensors_3D_to_2D
+c32f041bd1f3c345b448172e31cfcda1d9f335e3|2019-04-26|David Yonge-Mallo|Reduce memory usage in grid_of_tensors_3D_to_2D when contracting vertically. Also fix a bug with the base case.
+5fb90b983d02711cac9ff0d12b50307fa6351661|2019-04-24|95-martin-orion|Fixes repeated "H_7_legs_b" tensor in contraction.
+d02b6d575c3c4b27df0e53a490669563fdb13b88|2019-04-24|Benjamin Villalonga Correa|Version of the code that was ran for extensive simulations
+39092c0000e74fca2df21f678c910b20cdd42f94|2019-04-24|David Yonge-Mallo|Refactor and combine both versions of grid_of_tensors_3D_to_2D.
+1d2d0224579edf0aee00816cf39d6a4479b1c1a3|2019-04-15|Benjamin Villalonga Correa|Added renormalization functionality (a bit rudimentary), and debugged 11x11x24. It works now
+539c543b3db6d2df320d0ac441480a438f42a47c|2019-04-14|Benjamin Villalonga Correa|11x11x24 runs. Results need to be checked.
+4c20effdda1b31babe74768c45128996cadc5618|2019-04-14|Benjamin Villalonga Correa|11x11x24 75% done
+1ef649deb1a13c6a1e0e306bf8ae3dfe572c5120|2019-04-14|Benjamin Villalonga Correa|Contraction 11x11x24 partially done
+2403d60e63bd820804ccd77c1b3e5824f4f026dd|2019-04-14|Benjamin Villalonga Correa|Improved scheduler.cpp for 11x11x24 larger messages
+34eecdf13dfe050b59bfabf3bb1fb74015a4a8bf|2019-04-14|Benjamin Villalonga Correa|Fixed false argument for beta=0 in XL contractions, and created 11x11x24 files
+33b47b3ce0242adf16a2488a35fda38dde37fa4e|2019-04-13|Benjamin Villalonga Correa|Code ready for preproduction
+2e355dac8c0b3659591cc2d7dd22e132b03625a8|2019-04-13|Benjamin Villalonga Correa|Added barriers to measure time correctly between talsh::initialize() and talsh::shutdown()
+a202426374ca76240d3fe90d3fa74476477da42d|2019-04-13|Benjamin Villalonga Correa|Scheduler is ready. It now reports dates and times
+5137670ce5cd87378b9d0c24fbac7a73e2032ef4|2019-04-13|Benjamin Villalonga Correa|Report peak times
+34699c338e11b235fde3046783780a60bc85338b|2019-04-13|Benjamin Villalonga Correa|Writing only at the end
+c1f629bb2f27cfebc0da2ca32b8258242a86a30b|2019-04-13|Benjamin Villalonga Correa|Fixed write last lines. Read all at once.
+d5250c09e899791daec83575868b70f46b809e23|2019-04-13|Benjamin Villalonga Correa|7x7x40 working well!
+f27043869427ae078731f111d829a2bf926f7a89|2019-04-12|Benjamin Villalonga Correa|7x7x40 almost complete
+9acf41b2eb7629f42875eefdade750ad1d52a8b1|2019-04-12|Benjamin Villalonga Correa|scheduler.cpp now runs with input arguments, instead of hardcoded ones.
+056fa3131816a07f6685089edd5bb56c2e969a8b|2019-04-12|Benjamin Villalonga Correa|Pushed issue with NVIDIA_GPU synchronization.
+ae0f758c56ae5f8158c39e420fd673c2161a0073|2019-04-12|Benjamin Villalonga Correa|7x7x40 is set up to start handling contraction
+c229a49ef238110d76df77622894b6e537866cd6|2019-04-12|Benjamin Villalonga Correa|Finished full contraction_bris_60.*. Syncronization in GPU has to be revised
+c000ae7abfe90e9f808215e0598d83a4682b05ae|2019-04-10|Benjamin Villalonga|Added two working examples of old c++ implementation (no Fortran dependencies), as well as a Makefile
+65d89f958975db00a3e475e48820827cfef3e229|2019-04-10|Benjamin Villalonga Correa|Created branch with old c++-only code
+8fca5245c368e151756b6b3c72686cd21f7bebc1|2019-04-10|Benjamin Villalonga Correa|Added contraction_bris_60.* (partially finished, but with slicing working). Also, created inputs and outputs folders, for cleanliness
+b788310151b44761049a83862ffe54f4ce591b0d|2019-04-09|Benjamin Villalonga Correa|Added Contraction_7x7x40.cpp, and started separating load_circuit from close_circuit
+6850e42b2073c003a452072790cc2a779962beb2|2019-04-06|Benjamin Villalonga Correa|Partial contraction of 7x7x40 is ready. Couldnt make slice work yet
+23c0ebe00c2241caa243abe1b1577856b3beadd4|2019-04-06|Benjamin Villalonga Correa|Modified Makefile to be able to compile different simulations
+f1024d7dc3878b619234e9ace91b1a1a597582c7|2019-04-06|Benjamin Villalonga Correa|Full stack working for 51 qubits, but pipelining not implemented because cuts not implemented yet
+94b58c63a9bc58e3e833b4abd4bc5ea5c2d47e17|2019-04-05|Benjamin Villalonga Correa|Running contraction with 51 qubits, where scheduler is used and the contraction is an object with initialization, contraction, and read-out of amplitudes
+b3141bef180bdcf90c0a737101e67e627224cdc6|2019-03-24|Benjamin Villalonga Correa|main works with MPI (and jsrun)
+c492b9ceb66bbef6afd33b716505cf3a79cda829|2019-03-23|Benjamin Villalonga Correa|Renamed files
+b26357a187d48effad62b1e12586b7fff5f48bcc|2019-03-22|Dmitry I. Lyakh|Makefile can build g++ (or mpicxx) with BLAS = {ATLAS, MKL, ESSL} and CUDA.
+b983b68acac2bb9f039f5792d599d56919fd9832|2019-03-22|Dmitry I. Lyakh (Liakh)|Added Makefile.
+91bb8551f51b4bfe873f5ea5fab7ea79bffa68f0|2019-03-22|Benjamin Villalonga Correa|Wrote pipelined version of the code: partially finished and with some issues
+9b0582bd297ce4d27a27df3bd1ff5881451059aa|2019-03-21|Benjamin Villalonga Correa|Exectued gmon-51x2 GPU contractions from a vector of TensContractions
+be6056cea81d09b6727639bfbfc97a0d8f3f0708|2019-03-20|Benjamin Villalonga Correa|Merge branch 'master' of https://github.com/ngnrsaa/qflex Issue with username for last commit.
+35e83641a155e44f1dc932584d64de9c8c8e4084|2019-03-20|Benjamin Villalonga Correa|Single contraction of gmon-51x2 with GPU achieves about 60% of the expected scaling. Maybe arithmetic intensity for this depth is not large enough.
+ad2066e91878085d41e63c4a3691bb095f07cf77|2019-03-20|Benjamin Villalonga Correa|Single contraction of gmon-51x2 with GPU achieves about 60% of the expected scaling. Maybe arithmetic intensity for this depth is not large enough.
+af55d37acd8d4e63ec31e2fb84089f6ef2819b93|2019-03-20|Benjamin Villalonga|Cleaned unnecessary files and added license header to merged files (from removing MKLTensor dependencies branch)
+08cb2415a354705ebd0cc6867e334c51a2cfa7b5|2019-03-20|Benjamin Villalonga|Merge branch 'no_mkl'
+612f9888322ff2f90f3f976266a093d8b7e0e7e0|2019-03-20|Benjamin Villalonga|Single contraction of gmon-51 using only talsh is fully debuged! (main_full_talsh.cpp)
+939faa298ff7cb6c3b10c6f64d72a6cc4ab1f622|2019-03-18|Salvatore Mandra|Create LICENSE
+a30f2ebdd62ce49c987d62aeff7dacaf2e3662e7|2019-03-18|Salvatore Mandra|Added Apache 2.0 licence.
+36a3d470c5b2feb9da17c2b3de87c252274af219|2019-03-18|benjaminvillalonga|Delete runon
+2100a6f4e62f78c9c7d15450e5bfe648155ddbe5|2019-03-18|benjaminvillalonga|Delete pin.c
+d76443593fcba16dd568ddd247eeb1ecd60c93a3|2019-03-13|Benjamin Villalonga|Contraction for gmon-51 working. Reported issue when using GPU for a particular index contraction on large tensors
+31b679f6f0a7f989ca2cfa84edd8c6977d361fa8|2019-03-13|Benjamin Villalonga|main_full_talsh.cpp working (up to accumulative issue). Keep an eye on final values changing slightly from run to run ~ 1e-3 or 4)
+f234a6b136197929255226649464f70891da8c4f|2019-03-12|Benjamin Villalonga|read_circuit_full_talsh.h reads from file using only TALSH. Pointers are changed for shared_ptr for convenience
+0286879db5cadd64faba73cb4f1ac138219459ee|2019-03-03|Benjamin Villalonga|Abnormal behavior when calling DEV_NVIDIA_GPU before and after DEV_HOST
+3d0b4f5545fba0cc01187fdd386eca61623b449d|2019-03-01|Benjamin Villalonga|Full contraction written. Tensor entries ready to check and debug. CPU contractions working; GPU complaining: "Left tensor body copy failed: invalid argument"
+e50150c1e9783e8f5620d6e46e3d77396106d3c9|2019-02-28|Benjamin Villalonga|Proper use of pointers with the TALSH interface. Partial contraction of the 2D tensor network is working well
+b68f4a851ea3e3af436bd59431dc2d5cdffc84fa|2019-02-28|Benjamin Villalonga|Reading from circuit bundles indexes for the 2D grid
+a083f3bf1dac9b6ddc38231dcc320e72e9d9333e|2019-02-27|Benjamin Villalonga|Contraction of 3D grid to 2D grid
+ec2590ce3dd645c851c02920a58b91eb482421db|2019-02-26|Benjamin Villalonga|Reading circuit from file is working well, up to reorderings. It is competitive with MKLTensor read_circuit.
+23e5fec4224eb45e5681d6f623d631ed0a1a5358|2019-02-26|Benjamin Villalonga|Added main_no_mkl and read_circuit_no_mkl.h. They are partially developed.
+11f0a73e85aa7b5b4ac994b77c084d1109067eac|2019-02-26|Benjamin Villalonga|Edited compile_with_talsh and added main_gmon-52x2_talsh.cpp
+b3204a6c0724c01f200076a507f0d97651e528e2|2019-02-15|Benjamin Villalonga|Added compilation with no cuda, for development.
+4e9509c9d4173de6302ed74df8452bbdfc13a294|2019-02-13|Benjamin Villalonga|Updated mkl_tensor.h
+3097d2179951df7c50b1009c94a4891397329f7e|2019-02-11|Benjamin Villalonga|Added main_bristlecone-70x4_talsh.cpp with call to the GPU contraction through TALSH. Updated mkl_tensor*. Added talsh_wrapper.h for easy call to TALSH.
+ac633ff62bb8484a68f7476efb5d19195c68f722|2019-02-11|Benjamin Villalonga|Removed unnecessary files
+7570ee00eb33ecd38e14d77cca04400dee35d073|2019-02-10|Benjamin Villalonga|Moved MKLTensor contractions and skeleton main calling talsh.
+a9f187c71c3910954656f5d07e770de0794c0600|2019-02-07|Sergio Boixo|Initial commit

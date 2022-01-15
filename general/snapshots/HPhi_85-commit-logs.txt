@@ -1,0 +1,1881 @@
+5e8b9d11216eb6716bd2dc151ffb39bfe2f15d67|2020-09-16|Takahiro Misawa|Merge pull request #105 from issp-center-dev/ddcorr
+3e70cce5b139a3c7e12281979e6f18609fbce6ed|2020-09-09|Mitsuaki Kawamura|Unify to mVMC
+079d2e040aaa1dab475bf4e80b1cdd61740a4b7d|2020-09-09|Mitsuaki Kawamura|Remove debug printing
+2b4b5e2d61a6ecbe3455bd23d0420a6398867097|2020-09-09|Mitsuaki Kawamura|The formula for density-density correlation was inmplemented incorrectly.
+efbcb3c2c9ce961c6bb824929751367ead764985|2020-06-02|k-yoshimi|mv samples/old/Wannier
+c9a206d355dcfb36ea94b4b29f35ce7ca6187c84|2020-06-02|k-yoshimi|fix version_patch
+24e38931c40fb4203d868b96eb81e294c10fee74|2020-06-02|Yoshimi|Merge pull request #99 from issp-center-dev/release
+46d92797f59d1e0a973bc2f743787518a84b1917|2020-06-02|Yoshimi|Merge pull request #100 from issp-center-dev/tutorial
+1e89231ef2a00bb8a40b955c5d6dfb3c4f9c4bbc|2020-06-02|k-yoshimi|update version info
+30a9e788521f5a951c521d570dab9c5beff9b32e|2020-06-02|Yoshimi|Merge pull request #98 from issp-center-dev/mod_hcor
+5244420489846d34a354e292123db8479db19589|2020-05-27|三澤貴宏|  avoid double free
+848f0ed6427e9ba1775c2376bf06305545d65f25|2020-05-27|三澤貴宏| mod output
+4fd0bf1f4b064f4e6aa0b756aac6af8bbce4b923|2020-05-27|Yuichi Motoyama|skip blankline and comment line
+72d18744ac835e1f84d6c884c78114a88e9cce71|2020-05-27|Yuichi Motoyama|update tutorial 1.7
+3634efd8ad2b3eb4a9d930c0e4e81af9dc872bf1|2020-05-27|Yuichi Motoyama|Merge remote-tracking branch 'origin/tutorial' into tutorial
+41140fb52e798e1271cebaafdf881fd7f396612d|2020-05-27|三澤貴宏| mod
+b0a0d21ce401e2d8e04049a3db65970400d32a6c|2020-05-27|三澤貴宏| mod
+401283ade027bc808ac66f7fed3802deea28e4f8|2020-05-27|三澤貴宏| add test for tutorial
+7c55991a42057c2fca46a67f6f6de2046999cf72|2020-05-25|Yoshimi|Merge pull request #94 from issp-center-dev/StdFace_submodule
+f124bfa7e15aac31ad304dc88f75078a214919da|2020-05-25|Yoshimi|Merge pull request #97 from ykonishi/mod-tutorial-222
+ad7138b349ba2703d97e2b2b182091794901ccaf|2020-05-25|Yoshimi|Merge pull request #96 from issp-center-dev/hcor
+e62f0e647aaa19dba60a2ca892da5fe713f7e1ff|2020-05-25|三澤貴宏| add test for hcor
+588824ddd1c8cc5a333de0d73e296d7fe4eeba9d|2020-05-25|三澤貴宏|Merge branch 'hcor' of github.com:issp-center-dev/HPhi into hcor
+f29f7932720ade989f49b92a0a6e848c853798d7|2020-05-25|三澤貴宏| rm *.c-e
+3813442a7d8b1a8ba642c6670fe5a45cc1ce2683|2020-05-25|k-yoshimi|update tutorial_4.3
+5613bce8b1a529be5e8202eb85e7509bdc5d07e1|2020-05-25|k-yoshimi|minor update
+bd0c74fe9dec77f4f4c34a86c04920e497dd58b2|2020-05-25|k-yoshimi|update test for tutorial
+8621f4cbd1f62fd07132bc29caaa34c253b89c10|2020-05-25|k-yoshimi|add test sample
+4745c1beb35eb8388ecc6680dda4b207ff577c1e|2020-05-23|三澤貴宏| mod input
+aa169af236616f3771432d3a812de50b9dba2a21|2020-05-23|三澤貴宏| add susceptibility
+f898732d47e34523c1ad59831d00d002c26d4921|2020-05-22|Yusuke Konishi|mod Kitaev.rst
+a14ac82e85c79518a9ffd0aff27d39d235683b77|2020-05-22|三澤貴宏| mod
+991a8d089829d39f42dbd7f171425de391674805|2020-05-22|三澤貴宏|Merge branch 'develop' into hcor
+0949b40a2b1b680e0588833b27fc3f214d6dc333|2020-05-22|三澤貴宏| sed
+7b0118fbfeb764123e6c29eb20e9f1d40e8d3f5e|2020-05-22|Yuichi Motoyama|update tutorial 1.7
+e1f529268b787d85593dfcbdc32850be07870904|2020-05-22|Yuichi Motoyama|mod tutorial 1.7
+e82d78c078f116fb205b2a7d7f15df4b15f9e9b6|2020-05-22|三澤貴宏| mod
+2075c83219bbf0472cb85195c775234d0285beaa|2020-05-22|Yuichi Motoyama|solution of tutorial 1.7
+f3a7f2b0b492ed37e535301d1b23295c783360be|2020-05-22|三澤貴宏| clean up tutrial
+ac7dd5536b02ffca6a931cb71907fa18e549ecac|2020-05-22|三澤貴宏|Merge branch 'develop' of github.com:issp-center-dev/HPhi into develop
+edc1a86e0764afed7ae6cf9a7e19c0dfbd4066be|2020-05-22|三澤貴宏|Merge branch 'develop' of github.com:issp-center-dev/HPhi into develop
+c536cf5793b555c6acd486880627f147e9e6a935|2020-05-22|三澤貴宏|Merge branch 'develop' of github.com:issp-center-dev/HPhi into develop
+253fffcad107715abe5ef71b2a39bf1adde88a6a|2020-05-22|三澤貴宏| #653 fixed typos
+943da348013f6c9e7176cb4655257ca8b3116354|2020-05-22|三澤貴宏| fixed typos
+bd09d62ffdc9e6e7f5ed22449a4e79e881d728b6|2020-05-21|Yuichi Motoyama|fixed typos in params
+0bdba2b9d18115e39ddd8ad2c83d574ec07d5bee|2020-05-21|Yuichi Motoyama|fixed a typo
+fc3b6cf4dfa583e38c97b5444774bd252f8a0411|2020-05-21|Yuichi Motoyama|update TPQ sample's README
+a39bf6ac569b9acc4ac7a43d452b5d8a9abb3c8b|2020-05-21|Yuichi Motoyama|update conf.py for tutorial (rename document to tutorial)
+ce08ae9eb09f9c2b6b5db248a20a6383772dac50|2020-05-21|Yuichi Motoyama|Merge pull request #95 from issp-center-dev/tutorial
+6013281b2568df9c39bacc516191f21db3ef5275|2020-05-21|Yuichi Motoyama|rm tutorial-1
+5ea359049865ec6ed23806fe8e6d5f166487fd64|2020-05-21|Yuichi Motoyama|restructure
+cb78e82176be1141acd11d520e1f42717f0a3cec|2020-05-21|yyamaji|tutorial-finiteT.rst is modified
+fd8bc66c6ee2dc59c0e254ab3d03f652c264c34c|2020-05-21|yyamaji|Heat_Capacity_Kitaev_12.png is modified
+1a3f0de24815d6804125e1d19c051e713414ee17|2020-05-21|yyamaji|Heat_Capacity_Kitaev_12.eps is replaced with Heat_Capacity_Kitaev_12.png
+bf86049b9f3b8357adf31e2ae0164fa240f1cf2c|2020-05-21|yyamaji|tutorial-finiteT.rst is modified
+8d17b8689776bd2201599a4fc5d6953bc37fd33b|2020-05-20|yyamaji|Heat_Capacity_Kitaev_12.eps is added to figs
+f3d8cdbcf3e552755a46a4e02b27a43aaff1565f|2020-05-20|yyamaji|Merge branch 'tutorial' of https://github.com/issp-center-dev/HPhi into tutorial
+bf91f974ae5c625c2b7fe0d0011230810b322758|2020-05-20|yyamaji|tutorial-finiteT.rst is modified and Kiteav_12site.png is added to figs
+e27916ea6a4426a613807b971fe3eac58f407e29|2020-05-20|k-yoshimi|Merge branch 'tutorial' of github.com:issp-center-dev/HPhi into tutorial
+470c0e0f3ce9256cd12cd228097c54798dc09b03|2020-05-20|k-yoshimi|add sqomega in tutorial
+60acd1abea5e48733812a8d62c34899332ac67dd|2020-05-20|yyamaji|Merge branch 'tutorial' of https://github.com/issp-center-dev/HPhi into tutorial
+35cf7183907b4d277031d64582c367f0e7cf00b3|2020-05-20|yyamaji|tutorial-fniteT.rst is modified
+142d7d30751917321254685516706050fb7da744|2020-05-20|k-yoshimi|use directory
+89de84ebd461e1d4c1d3603683664032a5b56497|2020-05-20|yyamaji|Merge branch 'tutorial' of https://github.com/issp-center-dev/HPhi into tutorial
+6df9e07d632003d090e10cbf821f2eb87a037e5e|2020-05-20|yyamaji|Kitaev cluster will be added
+fc11c3e809750fa52c44bf7cda77e656dbf2201d|2020-05-20|Yuichi Motoyama|stretch underlines for headings
+c89d87032f4715311a29bbede626b0b567e67d52|2020-05-20|Yuichi Motoyama|small fix
+307906bc3598d4dd00a3f924659b7e98e1ad74d7|2020-05-20|Yuichi Motoyama|Note about parameters for dimer
+5a8c2989c2cae62e8ba3d3bdefd34ea27a047122|2020-05-20|Yuichi Motoyama|Merge branch 'tutorial-autodoc' into tutorial
+ed7a6d58e64e3d439a311a6198bef12b33d64f28|2020-05-20|Yuichi Motoyama|fix deploy script
+1a8aff9ba44219074c6d5f160f47b65a672d1133|2020-05-20|三澤貴宏| mod
+321a3caf6acd46d0752aa6e84aabd352d0ca4987|2020-05-20|三澤貴宏| mod
+c70f52308c57676cd8043b16514d10f563458746|2020-05-20|三澤貴宏| add figures for finiteT
+5be6ea9f1247db2030deccb259b8a6616a650906|2020-05-20|三澤貴宏| add figures for J1J2
+975eadb4e67e3ba5c553836d253a9cd47bba066a|2020-05-20|Yuichi Motoyama|deploy tutorial
+2bfd0ef0e384050f737c08012eb97a314043a704|2020-05-20|Yuichi Motoyama|cmake for tutorial
+b5cfcf5688727b9721c2ef49c5950e59343c13ef|2020-05-20|Yuichi Motoyama|Merge branch 'develop' into tutorial-autodoc
+5577abc2c1a036b724235015790af6ff33febc95|2020-05-20|Yuichi Motoyama|generate png
+29ef4c9b1c043034bbbe3d99fb15c76194067d06|2020-05-20|k.ido|update tutorial
+925031ced0c74b1f4efd7bfb441ec3d4f05e43ee|2020-05-20|三澤貴宏| add
+054015a0f7167b6f2a67748090ffc69be4315d50|2020-05-20|k-yoshimi|merge tutorial-spectrum to tutorial-dynamical
+a2dd4a4448be8404db24cc30f8f575f3e3dd4c90|2020-05-20|k-yoshimi|add tutorial-dynamical in index
+c2286b90c46e720bb7980197c18e0b1173bab6e6|2020-05-19|k-yoshimi|upload tutorial for spectrum
+ad167d38e54ab0e10812320efa124d1b0dab65d0|2020-05-19|Yuichi Motoyama|update
+129b1320a1b7fc58b4860bd0bc59da0395e2579a|2020-05-19|Yuichi Motoyama|shrink
+ea933a095f5754a138cf2579b667275d5c707644|2020-05-19|Yuichi Motoyama|fix a markup
+d8b1549e9e4b4a74809f0518d3063bbab8e186a2|2020-05-19|Yuichi Motoyama|added tutorial for reading eigenvec
+d0f3a1a22d2c8567f918e97260681aed97a2691a|2020-05-19|三澤貴宏| add opt. cond.
+329694c3043be01b6a89a3b2d66dffdc9775da5d|2020-05-19|三澤貴宏| change structure
+59d46283eeaec568edf2a189d22cf463ef0cad68|2020-05-19|三澤貴宏| add J1-J2
+18a7433807592496c7ca122cec70f1a4c05d0a21|2020-05-19|k.ido|add quench
+00c5b6cefab7343b7239de7674a810ab14758b19|2020-05-18|三澤貴宏| add Expertmode
+87be9521c3e879be040fefd46bb7c3b3233f25ba|2020-05-18|三澤貴宏| add ExpertSpin
+5d35e98335877151df05822441c4037b9bd98996|2020-05-18|Yuichi Motoyama|re-enable tests
+f68992ea8d3c6c0ae92867d6c3e0e0495d19c059|2020-05-18|Yuichi Motoyama|build only html docs
+a4e86d445cf0c3a8559dd48f017e95d2c93a16d8|2020-05-18|Yuichi Motoyama|update
+600cb94f4450713afbf1520bfb5c35d9d0df2111|2020-05-18|Yuichi Motoyama|sphinx provided by ubuntu
+11190478f09ceaa27fef3f3c0fc9fa012b1500f9|2020-05-18|Yuichi Motoyama|mod
+416cbc898ba6f581e193f8968d33b62de689c647|2020-05-18|Yuichi Motoyama|change comment
+ccf2dfd9cf13c0cbc8125332d5da2e33ef41a98d|2020-05-18|Yuichi Motoyama|specify ubuntu version
+a0ee1497cf5fe07447e1131d275dde6b925c4a83|2020-05-18|三澤貴宏| add Finite-T
+ae8b5e6149c7c95cf4f8c95cd10049e197c7795c|2020-05-18|三澤貴宏| add Heisenberg chain and Hubbard trimer
+c0d2278fd52e9d1493b877f69ca7ca65f7b6fd38|2020-05-18|三澤貴宏| add dimer in tutorial
+047ec36fef5fdb1169623175585ff3b758f9e46e|2020-05-13|k-yoshimi|uplaod templates for tutorial
+1db987e367875b961b5718e36c270a02a8350106|2020-04-28|Yuichi Motoyama|added a missing option
+aa3aab72b3cc02a32e5aacb7141094d982b72772|2020-04-28|Yuichi Motoyama|purge StdFace
+d25ac5784387e5c1fec517f56b76951977537dea|2020-04-11|k-yoshimi|add finite_T_spectrum tool (using CG method)
+825b736863c009ce0373b81ee6fb4b94b59ca4c6|2020-03-27|k-yoshimi|modify conf
+5783ec536845c11ec3a8c6e06e7a91e0482a8afb|2020-03-27|k-yoshimi|add logo in pdf man
+42f5196f8120efc6c78e958666ca2e7ec2b83d2e|2020-01-16|Yoshimi|Merge pull request #91 from issp-center-dev/release_v3.3.1
+e0f99f3557d8d1e100fe281d7927ce664b308100|2020-01-16|Yoshimi|Merge pull request #90 from issp-center-dev/autodoc-autodoc
+9e0c11c10d77d1dc7508ce4ec3f3a37180a84edb|2020-01-14|Yuichi Motoyama|fixed
+10c66769a87b9400bba17a6339021024af7d94e1|2020-01-14|Yuichi Motoyama|fixed deploy script
+45b84fc285b4deccea3f6cdb57979298531db1e4|2020-01-14|Yuichi Motoyama|Merge remote-tracking branch 'origin/develop' into autodoc-autodoc
+a9d22e7d9108b224ead7763f1e71c5eb713db618|2020-01-14|Yuichi Motoyama|update autodoc
+5cd4b0dd80108ef88988f7399c17b96b83050858|2020-01-14|k-yoshimi|update version_patch number
+cd5ccf50e9af04d4183bcd06c5eaf4c53920449e|2020-01-14|k-yoshimi|update initialization in wannier90
+e956d50ec5087f539589ee9155db4f1902050ccc|2019-12-28|k-yoshimi|fix travis
+c6a4962e2365c5f981edab85b45067adb9a1c238|2019-12-28|k-yoshimi|Revert "bugfix:initializtion for Mat_tot, indx_tot and Band_lattice"
+f260629fe60fba517750f7784343ff0746d65acd|2019-12-28|k-yoshimi|update xcode10.3
+6e6d6542264ed118b5bc496c6469c6b2743faab7|2019-12-28|k-yoshimi|update travis
+316c2f7e4149e8ebcb0c197a345ab3aac8ba97b5|2019-12-28|k-yoshimi|Merge branch 'develop' of github.com:issp-center-dev/HPhi into develop
+e469775b097d53b18ed888467cb96e4b17025702|2019-12-28|k-yoshimi|bugfix:initializtion for Mat_tot, indx_tot and Band_lattice
+0c313277857b948b2eaab4a9c272ed65417bdaa6|2019-10-29|Yoshimi|Merge pull request #78 from issp-center-dev/dev_man
+c686595208f6137b4b42709330a77bdf2525e0c8|2019-09-08|k-yoshimi|Merge branch 'respack_initial' into develop
+cbbad18ea5be09636702b0a5f6e63621f6852b84|2019-09-08|k.ido|#78 add doc
+99b197067091cc174b8cef451a7e956c6f1a4586|2019-09-08|tmisawa|  higher-order correlations
+8d31f3e6fa25db2f127bcbf983868c435fd84086|2019-09-08|Yoshimi|Merge pull request #80 from issp-center-dev/rename2
+cb9f7ace4971cd558ab4dd3dcec25cce7ddf52d4|2019-09-08|Yuichi Motoyama|fix travis.yml (disable some test for macos)
+a02ad318678a0f9a07225f6464c45c2d18a819b1|2019-09-08|Yuichi Motoyama|autodoc
+56c7e37485b1a33467be1f8731b809914f80a321|2019-09-08|tmisawa| rename again
+cd54ff212e9f36319491c025d7e5b5bb6245209a|2019-09-07|k-yoshimi|upload script for AveSSrand.py
+cedda5267a814b7c0a51e75823a1c1a9bc32e083|2019-09-07|k.ido|#638 mod doc (ja, en)
+6b1c22a2356f70fa4a0f87ea06ac6125300798b5|2019-09-07|k.ido|#638 mod doc (sec. 4 jp)
+d4fdb1feae3763427971ad3974fc977edec60d60|2019-09-06|k.ido|#638 mod man (sec. 1-3 jp)
+873c946f9ff2992f9ef781a9937093384135ed21|2019-08-20|tmisawa| fixed bug 3
+d85a9979b5acb595db604ffd0d2bc79ddb98e194|2019-08-20|tmisawa| fixed bug 2
+7cf3ecff44a99912ceb670be624a585caeedaacd|2019-08-20|tmisawa| fixed bug
+6e6dcdce1c841bfb3e02f6309c70b2b49d3eecfe|2019-08-20|tmisawa| mod
+2c43002d38fe6b8edc1dc70409f2350af8e4d771|2019-08-20|tmisawa| mod
+5fc0b6ee180efd4e54c418b955dd42acd5ff2d0f|2019-08-20|tmisawa| mod
+8c7351ef46a5b8a86fd98496fe77a3908d907081|2019-08-20|tmisawa| mod
+95a33e507d4f10985ce89d3fc576f7c8b30b2478|2019-08-19|Yuichi Motoyama|Merge pull request #75 from issp-center-dev/respack_initial
+b35716d9188ad2f2094586eeb662b210d7f5e0b0|2019-08-07|k-yoshimi|delete unnecessary function and bug fix for calculating inverse matrix
+e842fe1c752030f4a4fd2c5ddcd1e7a3dfc3ff8b|2019-08-07|k-yoshimi|add initial conditions of cutoff vectors for using avec in wannier90 model.
+c1215444b48604e6175ece4b0c027d1d7a960bd3|2019-08-01|Yoshimi|Merge pull request #74 from issp-center-dev/gpgpu_nogpu
+d23751063ee679d917adc26e9afe0f1d8a6418e0|2019-08-01|Yuichi Motoyama|bump up MAGMA to 2.4.0
+5acfdb3430306fa13a0e704fd62a38a2460bd24c|2019-08-01|Yuichi Motoyama|show error message and work-around info when performing GPGPU fulldiag on a machine having no GPU device
+aeed8ec0555e54e7e902e3b131f8cf756d8c08ad|2019-08-01|k-yoshimi|update default parameter
+b1cdf8c93943c635d5710d6f3603c0fae17d89f5|2019-07-29|tmisawa| mod filenames
+ee372370d5f8c6f1878d44465ff5cf936627084a|2019-07-19|Yoshimi|Merge pull request #73 from issp-center-dev/release
+41f467b4729cd768095440c8caf2f8c498e5977e|2019-07-19|k-yoshimi|update travis to get key
+76fe41918ba7a41829bf1704065a792ffb0bc9a3|2019-07-19|k-yoshimi|updage minor number
+50865dfd3519efc445dd0922efc5a9ac6150141f|2019-07-19|k-yoshimi|delete unused variables and set initialze value
+6e67cc94ff5341053942da990cf47b218ad7b63e|2019-07-19|k-yoshimi|initialze variables
+3d32bd5958d8685af4107d68c524a66726653852|2019-07-18|Yoshimi|Merge pull request #72 from issp-center-dev/respack_merge
+169fe50a04e61e845d61ab294ca80e223a021ce4|2019-07-18|k-yoshimi|fix doc in Parameters_for_the_Hamiltonian_ja.rst
+1853c4417d66a581647a4125dd9c1dcedfe3b54a|2019-07-18|k-yoshimi|merge develop
+c3083a981bd68f4a29bab6d054c4aaf0783bc4cd|2019-07-16|Yuichi Motoyama|added OmegaOrg into standard mode
+0bcf38e7f39d1af349f64098f0a740a9e7097764|2019-07-11|tmisawa| add fourbody
+2446b3ff8fcb8aed63cb09453cb6229595476ce5|2019-07-10|tmisawa| fixed bug
+a1b2c10b9b40897b62c6ebefded659ae2b5eab96|2019-07-08|tmisawa| mod
+6ad94f25ebd3a1f03adef8a168bc1db602dc1102|2019-07-08|tmisawa| add threebody
+d3aa5a58f03ec855529e5afd489ab82310263720|2019-07-08|k-yoshimi|update tutorial for wannier
+11783b259389ac7ab1f90489644bd32a5912fd87|2019-07-06|Yoshimi|Merge pull request #70 from issp-center-dev/issue626
+e4094c0f9c9db54eea24ff2922d763828449a9a2|2019-07-06|Yoshimi|Merge pull request #71 from issp-center-dev/yomichi/respack
+487c2e5170da8577b1d4780b18d1517d685554e9|2019-06-17|Yuichi Motoyama|replace wannier tutorial with Sr2CuO3
+818715f1fda912eae350acd753c2a78a0f1c0ddf|2019-06-12|Yuichi Motoyama|update doc.8
+7871fa136fe990f81b9299c65a1d29b92f72b789|2019-05-28|k-yoshimi|Merge branch 'master' into develop
+12466662113d32086eec6be0e84327de5a057944|2019-05-28|k-yoshimi|delete unnecesarry parameter
+f0977419e9483f77b97143d51a2bb4ba6bbea7dc|2019-05-28|k-yoshimi|update manual
+a193a1f89b0cdaa29fa31551a5fd0ca26b9b9714|2019-05-28|k-yoshimi|update the tutorial for wannier mode
+8e63e8b7dd000d555d308f325cc676285f3895a6|2019-05-28|k-yoshimi|update sample files for Sr2VO4
+ce870e4f816b9c32b92192dd2fa83c880f72186c|2019-05-28|k-yoshimi|add to handle error procedure for reading zvo_* files in dir-mvmc directory
+75d9b74955947f348b7958f2bc1502528e8da8ab|2019-05-09|k-yoshimi|input initial state if excited operators are not defined
+f946f278a1e74adc702cd2def23e8cc95b9b495a|2019-05-09|k-yoshimi|update manual
+a29e3e1821527b89ac37ef4244cdf9846c87ed7e|2019-05-07|k-yoshimi|Merge branch 'master' into respack
+1070f4e8a3872131dda2307fedcd5a5928beb4dc|2019-05-05|k-yoshimi|bugfix: multiply -1 by one-body diagonal part in TE mode
+447d4d4d2133ffc132fba96e4926ecaaa93af2e4|2019-04-27|k-yoshimi|update dist.sh
+b123a9bf5b9c99d26f141ddbfcc3c8926516a28e|2019-04-27|k-yoshimi|fix dist.sh
+3d16c63714f533c82302761853e9b15dd1446904|2019-04-27|Yoshimi|Merge pull request #67 from issp-center-dev/release
+128ed8fed0d781b4f472198553008c1742f3ab1f|2019-04-27|k-yoshimi|upadte manual
+154725f637d8020b660dd95f11e9006c7848fa41|2019-04-24|k-yoshimi|output bare excited vector
+336edc7c4e24c3999c251a10fb6fe80ec12ccd40|2019-04-23|k-yoshimi|use finalizempi
+e9cf52633e10a743ef2db8da9cde2ec7dac89819|2019-04-23|k-yoshimi|judge conditions of fulldiag mode before calculation.
+dd766338d323be078656a9e20f229a730e895d37|2019-04-23|k-yoshimi|fix for fulldiag using scalapack
+906ac324f78484e21d4b37f0cef0e6d4ec9ceddb|2019-04-23|k-yoshimi|fix typo
+a19837a02be0feaf739d34e2420f2c9b03338851|2019-04-18|k-yoshimi|merge StdFace from mVMC
+73fb5c33290d5e8a464bd144f2ff7e256f37ee17|2019-04-17|k-yoshimi|merge manual (mvmc)
+19d2dbd2f76c642376e6d62386438fd3f2c4d326|2019-04-12|Takahiro Misawa|Merge pull request #65 from issp-center-dev/issue621
+2ce8a00017175de4b65999ddc107c72c47532a22|2019-04-09|k-yoshimi|add outputExcitedVecotr mode in standard mode
+fecf96a8543a3de2c5e25d1e29fc8eac7a6ce1dd|2019-04-09|k-yoshimi|bugfix for HamIO mode
+f4f9dea63af15b6b7978457da6df23aaf3b0f6fc|2019-04-09|k-yoshimi|change from outputham to hamio
+11bb6b40eb7e18c06577155cec303045a9df5414|2019-04-09|k-yoshimi|Add OutputHam mode for standard mode
+dcb38268c7db1bd112a529422fce501f013dd3e3|2019-03-05|mitsuaki1987|Wannier90.c : (BugFix) The new thresholds were applied only in the "query" function. cutof_length is separated into *_t, *_U, *_J
+2bb75a672047e86fccec4fb6c346bbd95d2b0c8c|2019-03-05|Mitsuaki KAWAMURA|Merge pull request #62 from issp-center-dev/bugfix_mem
+8d78af293e6f898f763e82b99a97ea1a071b2248|2019-03-04|k-yoshimi|bugfix in terms of wan90 mode
+762d504c64a198bbf7416222ab93c30702d9c964|2019-03-03|mitsuaki1987|Not necessary.
+04394fd77b01b3b06e05b1cd44f22f1e87f9ffab|2019-03-03|mitsuaki1987|Unify o mVMC's.
+92d937f3a74531822145528b4d7cb6da8b761f4c|2019-02-16|k-yoshimi|bugfix: index
+5c0292010a8cec1c49621d21623b8f5577690fee|2019-02-16|k-yoshimi|fix to treat index of pair excitation operator
+b779b68ce9f0c2437e6c745bd028f5facbe181d7|2019-02-16|mitsuaki1987|(BugFix?) For consistency to the serial version.
+ddd87a851711e0164967e09246db4eb8ef8c6df9|2019-02-14|mitsuaki1987|[BugFix] Standard mode, Spectrum * spectrumtype="density" for inhomogeneous Hubbard system * spectrumtype="S+S-" for non time-revarsal system were incorrect.
+11126f787aba201a669afe16f12fa28eb437cb32|2019-02-13|Yuichi Motoyama|fixed config file
+223e84b5a1e934052968b70d2fee5f234348f0c7|2019-02-05|mitsuaki1987|Cleanup
+47e17982ebb651981417e5be1f024830a097a064|2019-02-05|Yoshimi|Merge pull request #59 from issp-center-dev/output_excited_vec
+49328136817631382d053f70262bb8a2e3003faa|2019-01-29|k-yoshimi|merge develop
+52064883c67eef99b23d70b8397583156f2e444a|2019-01-29|k-yoshimi|update manual
+b51e9100b9e30433594398d2caf935ae4a740975|2019-01-29|k-yoshimi|update to output excited vector for Komega
+90a020bb67875b3c69efdf9d91e7ff5af8f07c04|2019-01-26|k-yoshimi|add test DM
+f2d3dd77555e62c105e8600941384d26247eac42|2019-01-22|mitsuaki1987|The number of k-node was incorrect.
+611ae1abaeb77be165984a3b44100a71c4032b66|2019-01-22|mitsuaki1987|Honeycomb support seconf/third nearest.
+7f137283ab58b21f20776fd2f5303e21d160a19c|2019-01-22|mitsuaki1987|The same bug as 5ea4a05d49fbaae59db385bcbd2baf68aba60415
+f85a806f3f70d1122e1ad94198efa9dcadc0ac6d|2019-01-22|mitsuaki1987|[BugFix] [Wannier] It failed when there is no on-site U.
+2060c72302c732bc3833ac71cd7860cfbe7907fa|2019-01-22|mitsuaki1987|TAB -> Appropriate number of SPC
+5ea4a05d49fbaae59db385bcbd2baf68aba60415|2019-01-22|mitsuaki1987| #615 (BugFix) This loop was not parallelized.
+5c3df38c416f9af4b0436dff7485093a5b1440bb|2019-01-18|Yoshimi|Merge pull request #56 from issp-center-dev/malloc
+7330022d4e1c42abfa7f6886fbff5f62d19f7c91|2019-01-11|tmisawa| use calloc, delete memset
+8822aa1edeb7f63f8c595b2b2f0f7420d59b2a8d|2019-01-11|k-yoshimi|delete mfmemory
+f5af08d4083c4d50b79e67b156217953d128d7ac|2019-01-11|k-yoshimi|not use mfmemory in CalcSpectrum.c
+a930264313c6e283693a9c4228dd00238420f3a8|2019-01-11|k-yoshimi|use setmemory.c in CalcByLOBPCG
+fef88a4ed958bd2cd5915a8b1ccec6c68d4bb00e|2018-12-31|Yoshimi|Merge pull request #55 from issp-center-dev/modErr
+1e7af884a5602a2f81c4dd09804bc80446ccb30e|2018-12-31|tmisawa| mod error message
+5b3c1e09559f05a8b57cd850c75cd7aefe140f7d|2018-12-30|k-yoshimi|fix doc in jp
+13c1c751b3517bd1e1fe3350b3b6f82c6edb6428|2018-12-13|Takahiro Misawa|Merge pull request #54 from issp-center-dev/modify_restart_output
+8a5ae1ddb2a189df6f1f6d36bee02bb0a99edb70|2018-12-11|k-yoshimi|update restart process for lanczos
+16e134bde56c5a2f09cb87015b1e7fbb532d4fac|2018-12-11|k-yoshimi|update tests for restart
+9f02c80b7e28c1a6d01456bf465dd886ab94c197|2018-12-11|k-yoshimi|modify to output values when convergence is achieved in restart_output mode
+075dc5e065f1e1dfbbbcabd333f400e01f4895f8|2018-10-25|mitsuaki1987|This environment parameter will be set in othe place.
+b04816043b9746220a758ae51e2751c8693a22f0|2018-10-25|mitsuaki1987|Merge branch 'osx' into develop
+fe19d2e139fb09aa6181f8fa93b25cff70ff6014|2018-10-25|mitsuaki1987|Give up to use MPI and gcc-8 in mac.
+c64c28f1d4c373f2e013a790976aba0c76b96d36|2018-10-25|mitsuaki1987|test
+1c78032e7782d99ff5c5f5717b28078b474b183b|2018-10-25|mitsuaki1987|Force using gcc
+08b0907d5d9d04dba848a223c15aefa5fce46880|2018-10-25|mitsuaki1987|test
+d602351a319f3e1a64de701d59ad22388486a51c|2018-10-25|mitsuaki1987|Add MPI & OpenMP test for mac.
+5382cd462ebf1270a71321833ee25fd857e099aa|2018-10-25|mitsuaki1987|test
+b6cb3db5909e1e2edcf486803812e43d481de695|2018-10-25|mitsuaki1987|test
+a07c584de8907e5779dd315f56f3e5d8716086dd|2018-10-25|mitsuaki1987|Merge branch 'master' into develop
+012e3b4f8566ff35acaa9f9f26ea2834338cd41b|2018-10-25|mitsuaki1987|This file is usefull to refer the built document.
+c359030c75a208088ea41acf9e45681148a43653|2018-10-25|k-yoshimi|delete needless files
+bdf7d226be7dd8af4be77aadab21e4f7cd21a9d9|2018-10-25|Yoshimi|Merge pull request #52 from issp-center-dev/release
+6e2f053d84fc13b1f415894f467d64e6f1afe85c|2018-10-25|mitsuaki1987|test
+b522b408fc1f8fe70799bc4a1409ec28f0dfb1fb|2018-10-25|mitsuaki1987|test
+2244ed974acded06cf032b36e47c5b41f03791fe|2018-10-25|mitsuaki1987|test
+ea3076010e9ab221f9860b3d569701f87c1c7cbf|2018-10-25|mitsuaki1987|gfortran is included in gcc of brew
+1eee00662db10e1c352d51664e95b98837ed1f41|2018-10-25|mitsuaki1987|osx test
+b7d8ea7b6ea2d1abdfdcff1d7dd97f210db10866|2018-10-24|mitsuaki1987|Is it possible ?
+af52dc380afee3ed82bb75c151e9fab51d2f86a5|2018-10-24|mitsuaki1987|Is it possible ?
+0ae7aed3f79bd21dcd2f0a77b18235ea2c98dde5|2018-10-24|mitsuaki1987|It took too long time.
+56228818cd6e602a73e3bc5474a6bd67c59730c3|2018-10-24|mitsuaki1987|"mpiexec" may be included in this package ?
+2d793dff32630adb76339b73b1f8e7f1e046ceeb|2018-10-24|mitsuaki1987|Only "mpirun" is accepted ?
+a8c4a361e6b2999aea00c9ec97eff32776530446|2018-10-24|mitsuaki1987|Check MPI case
+5eff9314d0160e593a34b072f50e3e3fdb970ef1|2018-10-24|mitsuaki1987|Matrix & OpenMPI
+c3ac48ff4deacd0004652d0f8653bdd69c7bd1b5|2018-10-24|mitsuaki1987|Test pip --user
+da10fa6b287308045c24d6e594b49b35ff24f5ae|2018-10-24|mitsuaki1987|"-y" is not nesessary ?
+40bb58fa0405f09c344cbdb2681e205147003b18|2018-10-24|mitsuaki1987|To test TE
+61bab6d863029a3230677ea5252ded1248183baf|2018-10-24|mitsuaki1987|Test verbose
+425d2a6a55101c7024bd2055b5b4c5e4a01dd4a5|2018-10-24|mitsuaki1987|Merge branch 'travis' into release
+dd32e11cef654e3309dd92fe74acbfa809fc420f|2018-10-24|mitsuaki1987|Fix travis
+2d1e5c92b5bc968c676002c36a1689f4bfff44dc|2018-10-24|mitsuaki1987|test
+c6ab5a14e638986544a7b7462e02ab5a23ffc175|2018-10-24|mitsuaki1987|Test travis CI
+fbce5abca4b88bd7ef1bc83e715dc00635c8707b|2018-10-24|k-yoshimi|change numbers of exit process
+e8ce8c54609adf10a028d450f7c971e65e02565c|2018-10-24|k-yoshimi|bugfix for canonical general spin
+a314e6a836853bc4dbe0d3024b139a0cc271032c|2018-10-24|k-yoshimi|#51 delete openmp flag
+4830df42c580322f04028ecb30fc368ea8701960|2018-10-24|k-yoshimi|Merge branch 'develop' of https://github.com/issp-center-dev/HPhi into develop
+535d9f460c054a251b0649b5a3a0c6d568ef6f56|2018-10-22|mitsuaki1987|Fix bugs in the previous commit.
+00545db0ec12f808c8ed06ae141f78a2350bc315|2018-10-22|mitsuaki1987|Anisotropic 2nd and 3rd nearest neighbor for Chain, Square, Triangular, Honeycomb, Kagome lattice.
+9e915a1da772cad14140641ef5488d20ffe2d345|2018-10-19|k-yoshimi|add break
+13efac3de77c6c93adfd79d2dba1eb7862ef1958|2018-10-17|k-yoshimi|not return -1 for restart mode.
+472cbbd334a848e13d7f31f90fe3a61484290308|2018-10-16|k-yoshimi|update patch version
+0f3e837777d85a5eb4b2caa10e5eb4d0a96d3177|2018-10-16|k-yoshimi|bugfix: phys.c
+98c86e5391bcebddc711865878a8b4eff61bc996|2018-10-12|k-yoshimi|use exitMPI to finish HPhi
+65c0374e4eefc02264f71161be9082cdda68357b|2018-09-10|mitsuaki1987| #600 process ID for BitCheckGeneral is opposit. GenSpinGC test contains off-diagonal J.
+29852b9e1745d288ff615b34fccc55dca301153d|2018-09-09|mitsuaki1987| #600 Two bugs when S>1/2 & MPIdouble &Jyz are fixed. 1, Incorrect function calling. 2, Cpmplex conjugate should be reversed. The initial/final spin are opposit for MPI process ID.
+30973d4a3db838e5049a155e111394594f8f56b2|2018-09-07|mitsuaki1987| #600 (BugFix) It was not converge at S>1/2, Jxz(Jzx, Jyz, Jzy), MPI
+30d0791a8a974ea74556880cee4bb30a9186c2ca|2018-09-07|k-yoshimi|update to use CMake for making documents
+e2a85de86cbde56d707921e7a79d05713a3db973|2018-09-07|k-yoshimi|change chap.7 and 8 to appendix
+3bdb253c33972f3d7c522fc75bd4e748b4c50bf9|2018-09-07|mitsuaki1987|For make latexpdf
+779217c38ab294fa8affcad1bd0a82fa85ed7b5b|2018-09-06|k-yoshimi|update sphinx
+a1699459d26d11d8ef8285eace6f5ac339233c3d|2018-09-06|mitsuaki1987|They are created by sphinx
+b141e6ff7575615b4a89062d758d9df6e34ca878|2018-09-06|mitsuaki1987|"Sec." etc. is not needed.
+2cdc8daf71ead64c82361eacc4f11a032caa6ea8|2018-09-06|mitsuaki1987|The figures were distorted.
+4f05bb4558f86defc6149f9e32dc97b4ef153c4d|2018-09-06|mitsuaki1987|Merge branch 'develop' of github.com:issp-center-dev/HPhi into develop
+50574ee0e860af0f71480930da3f5881ebc8eb02|2018-09-06|mitsuaki1987|Backup
+5004f3ee43d8c2581e8c4e46250adb4672fd0884|2018-09-06|k-yoshimi|delete time from gitignore
+d98d9bd31033288d11e9ea08f2f0229aa37dfd5a|2018-09-05|k-yoshimi|update fi-index
+ae14da4dd5b98c2b3100b4993e9cf0466e358687|2018-09-05|k-yoshimi|rename from en to ja
+88af6ead928675001a4da018cce9b438145204ff|2018-09-05|k-yoshimi|update filespecification for output files for jp manual
+32463902469a90c2d42007d6a8e5dd7a9ceb68b6|2018-09-05|k-yoshimi|update expertmode input files section for jp manual
+17d6878cc301356ffb6caa9532c3706bc5dcff6b|2018-09-05|k-yoshimi|upload coulombinter for english manual
+b2dc7643c7e82f459195c20871f9ba5a57d4d1c3|2018-09-05|k-yoshimi|Merge branch 'develop' of https://github.com/issp-center-dev/HPhi into develop
+b9d7e9f36875724c533edd421cc678190361a229|2018-09-05|k-yoshimi|update algorithm and introduction for jp manual
+9e78a71e4df3db2be824a0110850e4afd0f33308|2018-09-05|mitsuaki1987|Merge branch 'develop' of github.com:issp-center-dev/HPhi into develop
+20ed3c38e4ced744f126b0c503dacaaef610c384|2018-09-05|mitsuaki1987|green2k (Fourier) utility
+9161669330c057cd26643bb29e79a3202dd6770a|2018-09-05|k-yoshimi|Merge branch 'develop' of https://github.com/issp-center-dev/HPhi into develop
+d95498ed570cf7fbc5274ff48a81850096dedd67|2018-09-05|k-yoshimi|update tutorial for ja
+97d755bc9ea7c87589cf078ef53acc767915f641|2018-09-05|mitsuaki1987|Jp manual for Standard mode with sphinx
+b0ab0ede4f4478dc9e71be2b1ed752526f9404d3|2018-09-05|mitsuaki1987|Chapter 2 of Jp manual with sphinx
+cb19c2852bafd35c5aeda25e2d83312e91d0eb2c|2018-09-05|k-yoshimi|Merge branch 'develop' of https://github.com/issp-center-dev/HPhi into develop
+0cf58d0bc7ab8b662a1dbcf57eab9e4b92a455d6|2018-09-05|k-yoshimi|update ja manulas (under construction)
+e8f7cffcecea4b144a76ebbff527be2148b3a995|2018-09-05|k-yoshimi|update to use 1 process for gpu calculation
+b97fcd6af5d07ae1e47f4cf3fce77f905ef0528a|2018-09-05|k-yoshimi|update test for te_pulse_hubbard_square
+f200b7ed8014811cfb7afc755b363de3de8c27ee|2018-09-04|k-yoshimi|modify output total dimension for scalapack
+1a93b7b759f33f72f504b7c3b277bfc1383452e5|2018-09-04|k-yoshimi|merge
+78b21abe9428f5813d3676ec69be3363929d0d87|2018-09-04|k-yoshimi|move files for sphinx to sphinx/en directory
+6f22ce6093ef40f0ad95265790f631632269b7fc|2018-09-04|k-yoshimi|bugfix for scalapack
+b63f5986765672e5e69a6d73f5e881186ba27d52|2018-09-04|Yuichi Motoyama|revert
+2fd254cd20289bd33a7ddf58e28dbb801803e589|2018-09-04|Yuichi Motoyama|enable_language before find_package
+744b320445e4500b54fc813a5420e1e78f06820f|2018-09-04|k-yoshimi|update release version in Doxyfile
+b66cedbd72e890fc59b8a47dd71f9c30228b141d|2018-09-03|Yoshimi|Merge pull request #48 from issp-center-dev/release
+64a732b43442e4511e7922009112d8bbdf59ee72|2018-08-28|k-yoshimi|bugfix: pulse laser
+b00da368cb64b748a6a933aae90139d60f92288d|2018-08-28|k-yoshimi|fix spell miss
+08649e6678ba64fddfafd549cf8fd45143774cfb|2018-08-22|k-yoshimi|add scalapack option in sekirei_acc.cmake
+9e99f47d598807e8510247a545c71733ac347b5e|2018-08-22|k-yoshimi|modify cmake (for magma)
+ad97094763f17d0d29f6e8ae761884964244d0e4|2018-08-20|k-yoshimi|delete warnings
+19d0fc9128301d4fe4e7c79e2fead29958f764cb|2018-08-20|k-yoshimi|update manuals
+d42ddaffdece29b32953db05a511f0d0171470b4|2018-08-18|k-yoshimi|bugfix in readdef.c
+c60846b64b5e95b220c4c3a73629e5acd5d26094|2018-08-18|k-yoshimi|bugfix in phys.c
+3b65d868e8953c9259c0e9ee5d58c13d47e61d9d|2018-08-18|k-yoshimi|Merge branch 'develop' into scalapack
+8c9d46ba8174f058552924e1ee8761256313fbea|2018-08-18|k-yoshimi|not to output totalS when scalapack is used
+2e536f0e9ffcc65de2dc787fd7efb23d43131714|2018-08-18|k-yoshimi|delete totalS calculation when scalapack is used
+c3fcaf0c01cb578c9ee83ae3b13e8546ccf48685|2018-08-16|k-yoshimi|update docs about scalapack
+cfbc2762e3c7c0daae87fd31c1ed95a177e46e7c|2018-07-13|k-yoshimi|bugfix (due to modify the range of Lanczosmax).
+8cc049fc3456186faf9ad3700915a5537e2f144c|2018-06-14|mitsuaki1987|Gomi
+914f2de6dbaa9e040b42e5773ac1352d352232fb|2018-06-13|k-yoshimi|add variables for scalapck
+503772c5d8dfcde01291db2ed66d79b12e7002e5|2018-06-13|k-yoshimi|merge scalapack
+2fded8f0843bf863ab6d796a8ae9959080894b27|2018-06-13|Yoshimi|Merge pull request #44 from issp-center-dev/issue37
+3fd7c59a4bf7326858c3b3bbc904c45963e44543|2018-04-17|mitsuaki1987|I Added manual for the fourier tool written in sphinx. It is the same as that in mVMC.
+4c166cacc2a32985580538fb4c4695ffdae075ae|2018-04-17|tmisawa| #37 again fixed bug
+6d964ee0ada5b407e4561d21a2489670001aa9c4|2018-04-16|tmisawa| #37 modify readdef.c
+94584d1fa3eeb082ad6658000b3282d35fbbd72b|2018-04-16|mitsuaki1987|I removed unnesessary things (corplot, fourier, gen_frmsf) because they are integrated in greenr2k.
+3ec50ee3cf8fc727f68ca0ec22761155a5df7208|2018-04-16|mitsuaki1987|Unify to that script in DCore.
+e872037146baaad8875c64766e57cd46c0e113f5|2018-04-15|mitsuaki1987|Modifying Fourier tool * Name: fourier -> greenr2k * Use fourier interpolation to plot corr_k along k-path. * Generate isosurface
+e9d67f412e79d68f2670fa14bd70496364d976af|2018-04-13|k-yoshimi|add makefile for sphinx
+b7fbaa06c1c3e8d25230476a8dfd65d50ca09d4c|2018-04-13|k-yoshimi|delete needles files
+ad1346ded9c0fe7c7dc5067c73741d60b061484f|2018-04-11|mitsuaki1987|Merge branch 'master' into develop
+2b648ce7ad2626d5690377e953efdac22da134a1|2018-04-11|mitsuaki1987|[HotFix] The calculation of the number of electrons was fixed in the previous commit; the test reference must be update.
+80f7f41f8d2ce82e2a7cdec631ce8f8e9047a074|2018-04-11|mitsuaki1987|By using the periodicity of the unit cell, I reduced the index of the start site for correlation functions of "Normal" output.
+abc7de7f5ed1c982feeaf17ff4985f708f4f3142|2018-04-04|Takahiro Misawa|Merge pull request #36 from issp-center-dev/issue35
+dad58bcab3eb7fde2fa459c55b8f12762cd52fd9|2018-04-04|k-yoshimi|Merge branch 'issue35' into develop
+a56060ebfa7c6e71c9cd251d402389fc3c8cb974|2018-04-04|k-yoshimi| #35 bugfix to output sz canonical system
+801484d4d703e0a54ead708fd01cb89ec2596a66|2018-04-01|k-yoshimi|bugfix for output 2bodyG in TE.
+bc1962498bb0bbaddedfead3be9326a507a6fa34|2018-03-28|k-yoshimi|add sphinx document
+6f24e43f39e777a26c4bf9401a78684a8ab1b5da|2018-03-16|yyamaji|Magnetic fields in mltplyMPIBoost.c are modified
+f631433340cd66e69c998181a1cd943c5f7bb152|2018-03-12|k-yoshimi|add description to Add new calculation mode into calcmod
+d2c14372375b9c86937cca436f5ba9f9b2d5cf6c|2018-03-05|k-yoshimi|modify k_exct
+c7db5c54ee04ae1fd2ddab0ae29459e1aed61b2b|2018-03-04|k-yoshimi|modify label to Target_CG_energy
+bfbec0e895d80ae261d38186f3d5b3bbf616dfa3|2018-03-04|k-yoshimi|modify k_exct
+59796285c616cde2c622d79c8ba9ef9802e56ec7|2018-03-04|k-yoshimi|Merge branch 'develop' of https://github.com/issp-center-dev/qlmpack into develop
+c6e2790ead612285d363aa1c4b63e96f280e9876|2018-03-04|k-yoshimi|bugfix for input energy of Target_CG_energy
+7efd01b6cb5013acd1633463a52bfe45469b83ac|2018-03-01|k-yoshimi|change from nvec to ivec to restore memory of vec
+2cf702f70270ed5e8d845e9ddfcc5a60d6849798|2018-03-01|k-yoshimi|bugfix for restart
+41e6eef34c5124eee9cee427a80f78edb8abf5c1|2018-02-22|k-yoshimi|Merge branch 'develop' of github.com:issp-center-dev/qlmpack into develop
+909357879019d9c0c4a39f9e48ccbc4647a4e092|2018-02-22|k-yoshimi|bugfix: initialize list_diagonal et al.
+a2a1c30cb5c00353df21c399fc07bc1396011895|2018-02-22|mitsuaki1987|BugFix v0 should be the same as v1 (initial vector)
+8cd60df1d0179d56bc94046f26e3ff07f8abd3f9|2018-02-19|k-yoshimi|update version number for doxygen.
+961bab3391275605e8dd83d40e8b10d060198326|2018-02-19|k-yoshimi|Merge branch 'develop' of github.com:issp-center-dev/qlmpack into develop
+489d5486f3af9d7c954c0e3cb8818cf60ce46453|2018-02-19|k-yoshimi|add description to measure elapsed time for calculation by CalcTimer.
+becf8d75dcc825b736278bb549dc030f1eb9be21|2018-02-14|mitsuaki1987|HPhi should be dstoped when the total dimension < 1
+8e251d1fc994573f5d1ed0373bfc2d622b0b390d|2018-02-13|mitsuaki1987| #583 RPQ: Output energy and variance at 0th step.
+fc040c4356b72bd89afa1219c469dd26bfb12450|2018-02-13|mitsuaki1987| #583 Fix the index of output file name (cisajs...) Output correlation function at 0th step.
+c538ee3d04dd7c7b6acdd83d8fb3e0dade337164|2018-02-13|k-yoshimi|fix typo in doxygen
+c76a321b5a24d77352568b099dfa3ea107dfbc83|2018-01-24|mitsuaki1987| #581 (BugFix) Incorrect copy of non-periodic function.
+26079a9e8c368aa1fdfd7013744e4389302e99c4|2018-01-19|mitsuaki1987|Add Sr2VO4 example (2D 3 band Hubbard)
+b766895f20102ac78bf179bce05708a698d03769|2018-01-19|mitsuaki1987|Add sample for wannier
+9f050d9f22e7f5032378c31c3d34bf3bda9a716f|2018-01-19|mitsuaki1987|Backup
+474a092e601837714ef5279760a42bd08ed45138|2018-01-16|mitsuaki1987|Unify to mVMC 90187164c1fd13a71a098029cc19813494274b97
+20a96666f99f0a4df8d7ecfb9b034fda3a4c563f|2018-01-10|k-yoshimi|add description of Green's function in docs
+19ebb3b06db79f5fa5b658bb7587a3a43dd80c88|2018-01-10|k-yoshimi|Merge branch 'develop' of https://github.com/issp-center-dev/qlmpack into develop
+dc0a5aa5b2b4541a75f5237f1847852e567cbe6e|2018-01-10|k-yoshimi|fix typo in docs
+9590a8883c938e27957f558f7eec09c365c7a0a0|2018-01-02|k-yoshimi|#541 bugfix
+f6871d1dd8c0ec46a37d379ae669160fa41f5dce|2017-12-26|k-yoshimi|Merge branch 'develop' of https://github.com/issp-center-dev/qlmpack into develop
+4fd127c63000481ffc04581782bcbd637bfbd560|2017-12-26|k-yoshimi|update the date of manual
+4ab36a20c6c18a65d2f0cc9acd0649423330e39d|2017-12-25|mitsuaki1987|Add License
+2400ec0c4a2fa3c35d085f32e656253adaf82e79|2017-12-25|k-yoshimi|update release date
+55dee86ffcbc4d772a533e9292f3bd3df4a95bb0|2017-12-25|k-yoshimi|update link and delete color
+5139f412bbb821b3fb316cd734343a613ef1d299|2017-12-25|k-yoshimi|add samples for TE
+e3fe10016a531f5d7b31e276ddccf74e693f9447|2017-12-25|k-yoshimi|Merge branch 'develop' of https://github.com/issp-center-dev/qlmpack into develop
+d97c2368ce3519cad596c7d4410451fa432ec85f|2017-12-25|k-yoshimi|update README
+9beb7d82decf715e42d28f9cc40a208cc8b6bd86|2017-12-22|k-yoshimi|Merge branch 'develop' of https://github.com/issp-center-dev/qlmpack into develop
+9b70e2f65945697c0e9a43bddb73eb2785bf08a5|2017-12-22|k-yoshimi|bugfix in the case of dt=0
+e038d13aba49cfd9ca5d26e7d84b6433c82e450c|2017-12-22|mitsuaki1987| #569 For K computer: Build static library, libkomega.a, to avoid staging-in of libkomega.
+e45d929646b724b668fa45be7283579288174f82|2017-12-21|Yoshimi|Merge pull request #577 from issp-center-dev/yoshimi561
+d41ff6e4a963a6040faa8e31f6b4ea2a059876cf|2017-12-21|k-yoshimi|Merge branch 'yoshimi561' of https://github.com/issp-center-dev/qlmpack into yoshimi561
+1eadff93684a5c8df6587ec9f202530a3cee15d6|2017-12-21|k-yoshimi|add tests for time evolution
+5c96d5af2be98883e581d1f563cec1b586130ac7|2017-12-21|k-yoshimi|#561 remove ibit1_up from omp
+313ae525540d014868bf803f0bd285e0dc9be890|2017-12-21|k-yoshimi|#561 bugfix for TEChemi
+0370844ce69af89e8ea72d6548d37669bae72773|2017-12-19|k-yoshimi| #561 modify to do Time evolution even if components of TETwoBody and TEOneBody are zero.
+0cf9ca885aa6a3147aa24c508bed8ebdabb4d04f|2017-12-19|k-yoshimi|delete HPhiconfig.sh
+9bab75e12a71de466834eee6f06f0c6050e015fa|2017-12-19|k-yoshimi|delete description of installation by using make
+5d57f63bca034a8e63c7ec2c1d415e83e6e2048b|2017-12-19|k-yoshimi|update version number to 3.0.0
+fad994261dcd38be95c2ebc558c71aa1005d52e4|2017-12-19|k-yoshimi|#561 add tests for TE
+b2eb8aceb0cddeecf076cbb3b0259202b6272e7f|2017-12-19|k-yoshimi|Merge branch 'develop' into yoshimi561
+7c0ec9a0ee0d1d35e871f510c2e7b090172ddcf1|2017-12-18|k-yoshimi|update sz.c
+fbb0990619e5ad1e4e6d4f2ff18f9fd6d9bd537b|2017-12-18|Yoshimi|Merge pull request #576 from issp-center-dev/yoshimi573
+269bd767c3e2dd6e5933f285e0df7c92df7f8e31|2017-12-18|k-yoshimi|#573 add tests
+e2569e35792e745bcf8dfd0921016a47e3b8d5ae|2017-12-18|k-yoshimi|Merge branch 'develop' into yoshimi573
+9f578573416f2519ff44aee5e8fa931570c09a34|2017-12-18|Yoshimi|Merge pull request #574 from issp-center-dev/check_misawa544
+fbdac9e6d189bbd8fb6c3a79da4378a31c928599|2017-12-18|Yoshimi|Merge pull request #575 from issp-center-dev/yoshimi559
+0cef73e76e112e0efe56fd5a7fcc43fbb66b775e|2017-12-18|k-yoshimi|#559 add tests for restart
+c2e9b9c95d8834c2b87711b5fef5984239a65251|2017-12-18|k-yoshimi|#559 not stop calculation when the convergence condition is satisfied for restart calculation. (Restart vectors are outputted).
+9fc63c5195c07a3f1d9a99892a996b4ca40189c1|2017-12-18|tmisawa| #544 correct ja -> ja+1
+283f87de420da36fc98fb0642efa076ff56cda30|2017-12-18|k-yoshimi|#573 bugfix
+2be9486baa6eefa91e829b276bb6d586062ebb9a|2017-12-18|tmisawa|Merge branch 'misawa544' into check_misawa544
+05ff6ac9b8342f28e4d69bb92272642571b2ab3c|2017-12-15|k-yoshimi|updage manual
+2f07aebb7e4a68922f0683914266e7f3f37fed7e|2017-12-15|k-yoshimi|change output file name for TE method
+30d6bd179c79db139b739b06905076a3a2fca12d|2017-12-15|k-yoshimi|update release info
+00b50665d08d4fa8d7674b158f9c7223443585e6|2017-12-15|k-yoshimi|update modpara (jp manual)
+abf098c2ed0f24562ad0910f1410ed23785da356|2017-12-15|Takahiro Misawa|Merge pull request #568 from issp-center-dev/yoshimi565
+9fef8e8e4c7b684cf8d63bbb155810cc7f47db17|2017-12-15|k-yoshimi|bug fix for time stamp
+7cc27878b60143e4646c622edb147ac6577af85e|2017-12-13|mitsuaki1987|Update total Sz in *_energy.dat for lobcg in test
+ce965daee1186012e5af9bfcab3f9d3d0301aec7|2017-12-11|k-yoshimi|#560 modify description of Add new parameter into modpara
+6c3d3a84bafc5185ef08759dd2bc9026407e3184|2017-12-11|k-yoshimi|#560 Add description of Malloc vectors
+617b1ba318a485e1d8753025c417ea330654666b|2017-12-11|k-yoshimi|fix for spell miss
+d1f798804caed98f63114a3c3ea84a25bacff97b|2017-12-11|k-yoshimi|#560 Add description of Add new input-file for Expert mode.
+f9ac36b97c39c6238533ffbd3c87fb12051e1f97|2017-12-11|k-yoshimi|#560 Add description of Add new parameter into modpara.
+f586fe7fbf7caeb81dec47fb4ecd9bdd8b7c3462|2017-12-11|k-yoshimi|Merge branch 'develop' of https://github.com/issp-center-dev/qlmpack into develop
+512fbb5ce3777c74ddb3b120af27dfbfa7edc751|2017-12-11|k-yoshimi|add description of Add new keywords
+9d96db7c524b35fdbacede32964032ad895c0f27|2017-12-11|mitsuaki1987|zvo_energy.dat for canonical Spin system was incorrect.
+9b670ca43a09dc48d4e8e0b4fd6b21262a82e929|2017-12-09|mitsuaki1987| #560 Add descriptions for generating log messages.
+0bdca9d2a5d53ad0243d4518ca20868ff0136d37|2017-12-09|mitsuaki1987|#560 Add section for the new variables in Standard mode.
+c41588b516c5bafca5e33ce92683361baea145c6|2017-12-09|mitsuaki1987|Fix typo Add section for editing CMake files
+16e76091be8d99fa6ef23b07449e358fdc92672a|2017-12-09|k-yoshimi|#520 update some files
+b891c6e659f9ad9a6f9bd95a1fa8cfa0a48b0dfe|2017-12-09|k-yoshimi|#520 update PairExSpin.c
+eea7eaf051aac385612770a976539ecaa23a7b84|2017-12-09|k-yoshimi|#520 update PairExHubbard.c
+8ba04c5e3909f0bac3e9876ec45d04d127f64f33|2017-12-09|k-yoshimi|#520 update Multiply.c (delete needless variable)
+93d0026234ef878b7f76504309d8b84e36cbf1fd|2017-12-09|k-yoshimi|#520 update LogMessage.c (delete needless characters)
+69e9846fdc09f1181864a28c31a2e060df43e445|2017-12-09|k-yoshimi|#520 update diagonalcalc.c
+894dd3c3322e8d7e6c9024adcc3581d5424c1dc8|2017-12-09|k-yoshimi|#520 update readdef.c
+cd44cce2a5ce6be9862af8a2a18ced90b30603fe|2017-12-09|k-yoshimi|#520 update readdef.c
+29d0c8b3906e5f6ff737a943aa0cd6d42dff82f2|2017-12-08|mitsuaki1987| #519 Modify many parts pointed in the worning message.
+fc3711304daa60bdb1a8ecfecedf20a5056ac05e|2017-11-30|mitsuaki1987|[BugFix] When the local size exceed 2^32, xsetmem fails.
+953ef1ab9a9a04ce404ee28677f1f94785c9f142|2017-11-29|mitsuaki1987|fix userguide
+b69e6ddfb7539b680269ae4069383f47cd7318b9|2017-11-29|mitsuaki1987|For the backward compatibility
+605acdcf7ab7419c5f05ccad2d35f5b441d3137c|2017-11-23|k-yoshimi|#565 change keyword for gpumode
+50fa4179671ca886fcf0656f5f193331bec8e29c|2017-11-23|k-yoshimi| #565 add cuda mode for FullDiag
+0bb33419d0c0f2c41ed28aa871f957d00fc9460c|2017-11-20|mitsuaki1987|Unify indentation.
+cc05a883deb1dd1db922d1811c2fcc08be4a94bb|2017-11-20|mitsuaki1987| #561 Diagonal term for TE should be computed in every mltply.
+417c6bc47cfeb3ef85458f75b98e236c6fe5fca0|2017-11-20|mitsuaki1987| #561 CalcByTEM: Incorrect file-name (index) for the correlation function. Standard mode: nt = Lanczos_max
+88597c33f4faf5a0a2c613d5e6efb7c13b9d89ed|2017-11-18|k-yoshimi|#543 add procedure to terminate for calculation of two body green's functions when site1 != site2 or site3 != site4
+bcda470ddaff23637adb3f28e46acff60a140274|2017-11-17|mitsuaki1987| #561 This is diagonal term, and the number of inside is 4.
+745cc80c1186943044ca37861817834697c051c8|2017-11-17|mitsuaki1987| #561 Add ExpandCoef into Standard mode
+eb1a9dd9b1233b93c0efb3277960f229af6379fa|2017-11-17|mitsuaki1987| #561 The number of static transfer and T-dep. transfer should be sumed for mltply.
+09005198ffd35b0ed17eb40dab8e0d712ebfed38|2017-11-16|mitsuaki1987| #561 Modify definition of vector potential
+0a3434bce3ae5a6fe941eca5549b701dc9b25d28|2017-11-16|k-yoshimi|Merge branch 'develop' of github.com:issp-center-dev/qlmpack into develop
+d730a75d5d2b4eaab4f02b4244e03faf5f5a08cd|2017-11-16|k-yoshimi|modify to use ido-san's Time evolution method
+4277f65c4cebd28b79ed83d1400e3e9f842d266a|2017-11-16|mitsuaki1987| #561 (BugFix) Computing electrical field for the time evolution. It was boundary sensitive.
+78665ae339016dfd82779fb50f2c8c71b919b501|2017-11-15|k-yoshimi|Correct processing to output warning messages
+f21d66fc4ae7a0cd73a97b14d76f387b6bdbe304|2017-11-15|k-yoshimi|add rearray for calculating twobody G
+b5f1847bd3e4eac189470424a97fa5ba12c67cea|2017-11-15|k-yoshimi|delete needless files
+a66c05a705a64d2159d31ab7c6d6e9aa669aa325|2017-11-15|k-yoshimi| #520 merge develop
+940799fb5c47fe39ff5453ce5634477b66c5fc5e|2017-11-14|mitsuaki1987| #523 Add doxygen comments
+dc7b68224b40289fb3b3e0f87d7cca4602de84a4|2017-11-14|mitsuaki1987| #560 More pages for developer's note
+216d37db494b88e74cc5c5dc5414c5a6280b9f55|2017-11-14|mitsuaki1987| #560 Add new pages for the developers note. globla variables in wrapperMPI are moved to global.h
+35aa9bc517cea9fa304cfc143c20a3c1cef98c1e|2017-11-14|mitsuaki1987|Modify dist tool
+4dcf4f40a92076472d0ee4cefb0bfaf484d30351|2017-11-14|mitsuaki1987|Update permission
+72fe2e7649e0c4cdae99d799fffd7bad3aa4208e|2017-11-14|mitsuaki1987| Improve distribution tool
+9cedbd76a27ffb1cc17999a9ee1cf1ecb808ea6c|2017-11-14|mitsuaki1987|Add packing tool
+74a19406f74dfd1ea20347bea72490f20f64309b|2017-10-26|mitsuaki1987|Version ID for doxygen
+6a518f4db15f5d2e3c17c04db3ea8e7a8320175c|2017-10-23|mitsuaki1987| #558 More tuning of the threshold for the Lowdin orthogonalization.
+c2a3fe27f5938346df3443d394212c7a1f66c65e|2017-10-23|mitsuaki1987| #558 Threshold for the orthogonalization in the general eigenvalue problem was not appropriate ?
+227bce5d78754d1c02af816c8ba67f17b941598e|2017-10-20|mitsuaki1987| #557 Modify manuals.
+74f80aa840121eef85137a34c248ef3aa016d6ca|2017-10-20|mitsuaki1987| #557 BugFix for general spin at the Standard mode. It stoped at the 32 bit machine.
+bb357ce27b52616897adbbdec731516fd8425125|2017-10-19|mitsuaki1987| #557  Some legacy system does not support optional argument in conjunction with the c_bind.
+bed2d7021b757c29084a18bd9f8c5f2bed8b18aa|2017-10-17|mitsuaki1987| #557 MPI command for FullDiag.
+4f3dc21fe786158f963cd9c2bad4247659b98e55|2017-10-17|mitsuaki1987|Merge branch 'develop' of github.com:issp-center-dev/qlmpack into develop
+520252044e5b683bab1e3015c40c60c9202c7960|2017-10-17|k-yoshimi|modify to change the value of tmp_off from 1 to 0 for unnormally finished case in mltplySpinCore.c.
+4183a153556f07f6ff6b65da5d69a50949a30b76|2017-10-17|mitsuaki1987| #346 Do not use optional argument for Fujirsu.
+d157c5d95eb40133c41255572a8a5c8010c4596f|2017-10-17|mitsuaki1987| #546 Do not use the optional argument in fujitsu.
+f56e70936f8c39364ff6b5f6b4251318e70f890d|2017-10-17|mitsuaki1987| #346 Do not use c_bind and optional together.
+5affdc9b088518df12ea03615d6a61fd64370d69|2017-10-17|mitsuaki1987| #557 When OpenMP is used, it randomly fails.
+47c24e5daf4a269b29c1f22cfaaabcc4f23f5085|2017-10-17|mitsuaki1987| #557 Support HPhiconfig again. Update version ID.
+dfd081118860dc04e1e45f1c2b5600fcc915d448|2017-10-17|k-yoshimi|Merge branch 'develop' of https://github.com/issp-center-dev/qlmpack into develop
+406a3133b3bd79da348555aa3e2e57fb3b79909f|2017-10-17|k-yoshimi|update description of spin indexes in manual about OneBodyG, TwobodyG, SingleExcitaion and PairExcitation files
+596bfb0a5c4e8d1d797cf598308a019fef7039bd|2017-10-16|mitsuaki1987| #555 hard code 2^32 -1 komega_bicg.F90: When the Hirbert space of some node becomes zero, it was stop abnormally.
+c68d2839db5b64f18ba04d8af346c846d7846175|2017-10-16|mitsuaki1987|Merge branch 'issue555' of github.com:issp-center-dev/qlmpack into issue555
+0aacdde9af86a903d45aecf451dee741c5222df6|2017-10-16|k-yoshimi| #555 modify to use bit operation to obtain hlfbit and GetSplitBit function in expec_cisajscktaltdc.c
+7ade816bed5f37631cf791d300b5174ec7de1fc9|2017-10-16|mitsuaki1987|Merge branch 'develop' into issue555
+e7a0606126cc4202147eb054ae6cbae966ffd4c3|2017-10-16|mitsuaki1987| Modify permision for test script.
+e8ba73b971b9cc56d68c7c7a33c90ef4dc65f521|2017-10-16|k-yoshimi|delete needless file
+f31d98db675b205605ae883a2629dcccc1aeda37|2017-10-16|k-yoshimi|modify to use bit operators in GetSplitBit function
+6b2b6ba4c92c478858fb98b2d5d69aee01a2ca62|2017-10-14|mitsuaki1987| #549 Updatemanuals.
+4467996895b38b3281cccfaab0ffd9442b86041a|2017-10-13|mitsuaki1987| #549 New examples.
+aba31b5cc7fa8ab762f39ca222ee990fa657dd52|2017-10-13|mitsuaki1987| #531 cTPQ is now experimental
+07402232fce7a1a8fae506b56b5ad8417a1f9e57|2017-10-12|mitsuaki1987|Merge branch 'develop' into kawamura531
+25e6fdaa9958a2019387065614f642be2921fb82|2017-10-12|mitsuaki1987|Merge branch 'develop' of github.com:issp-center-dev/qlmpack into develop
+e597ae4a496db8a51f0b8b4c07f2ab5f894e8453|2017-10-12|mitsuaki1987| (BugFix) Restart for spectrum(BiCG) was broken.
+154484585f0f79ad77304f6d9f70e8bbb643539f|2017-10-12|k-yoshimi|bugfix: For SingleExcitation, when fail to GetOffComp, *tmp_off=1 -> *tmp_off=0
+c168a96c4753ff2bc8e46d53c9d62f84e5f43422|2017-10-12|mitsuaki1987|Previous commit makes serial compilation impossible
+aeba87a80b7fb2c848eb2c44d0d09e2b8f10c2e4|2017-10-11|mitsuaki1987|Update version of intrinsic Komega.
+1f3437b92b7e0dee1035353146869c5c66f751dc|2017-10-11|mitsuaki1987| #549 Use LOBPCG for test of spectrum
+f3105d2e33f59b8b3899753ebf26edd0e33b953b|2017-10-11|mitsuaki1987| #549 Add test scripts for spectrum+General spin
+78c5e44f72470ad625e45d3a9e8cb79260416207|2017-10-11|mitsuaki1987| #553 Update test script for spectrum + spin
+c3d191e48dda4d1174b29f14980e195001dceb07|2017-10-11|mitsuaki1987|Merge branch 'develop' into issue553
+b59de99673a84d1801b6cb98697473a5c631bb98|2017-10-10|k-yoshimi|#553 bugfix for calcspectrum in the case of SpinGC model
+d862edbb43fc0bde258e1c5404160be900e90daf|2017-10-10|k-yoshimi|#553 bugfix for calcspectrum in the case of Spin model
+87830f66cbf75c3135b51903a0f31274677fc55a|2017-10-10|k-yoshimi|add some comments
+ec7f0f98244e77d427a66819b03fd3d9bdecb180|2017-10-06|k-yoshimi|merge develop
+b39ce960582698751da57a519521266af630b90b|2017-10-06|k-yoshimi|#516 add comments CalcByTEM.c
+5d8ec581dedcf575aa637cc15643e3d93840d722|2017-10-06|k-yoshimi|#520 add comments in readdef.c
+6805356ff8cfff2eef96cede0963be7f92f71c89|2017-10-06|k-yoshimi|#520 add comments in global.h
+2940a2f2fccc3eac0c0fc8c1a8d8003b2ad06eec|2017-10-03|k-yoshimi|Merge branch 'develop' of https://github.com/issp-center-dev/qlmpack into develop
+63244537748424ee92533cdec3abc8f7928e2030|2017-10-03|k-yoshimi|add initial values for vg
+d8f5497ea3a9f15d02467e9dd186c0278d2162d3|2017-10-03|k-yoshimi|add comment
+665c8aa194947940dce2f49171406a012f0fe339|2017-09-27|mitsuaki1987| #554 Standard mode: Unify with HPhi. Bugfix in tthe face-centered orthorhombic lattice. Add tool for generating FermiSurfer file.
+8ba771e180fd4caca90b027ac40d70eaa2e95caf|2017-09-27|k-yoshimi|merge develop
+939eb16ca695ddaab6405c5153f13f5b8915223f|2017-09-15|mitsuaki1987| #521 Add doxygen comment for struct.h
+4e4bf01727382a2860ee13819e18d9ae35e03bd1|2017-09-15|mitsuaki1987| #549 Upodate reference
+3e32c4952368dd6f2e1131256acf14896d453a41|2017-09-14|mitsuaki1987|Merge branch 'develop' into issue553
+76f22da7d07df07995680016fb350f36210e825f|2017-09-14|k-yoshimi|#533 bug fix for counting spin
+e1d4ef8a04a98c1d92f0965338b68e114abb15a7|2017-09-14|mitsuaki1987| #549 Add test for spectrum.
+59aef21b0829ba4fd3339df042135b6112361e48|2017-09-10|mitsuaki1987|Merge branch 'develop' into kawamura531
+c68a171d30e9d4cd519ce8a54e6e4e54f416f768|2017-09-09|Yoshimi|Merge pull request #552 from issp-center-dev/misawa522
+e5ba3d4b31ad832e3b5fa87e1ed5cac0badc4d17|2017-09-08|mitsuaki1987|Merge branch 'develop' into kawamura531
+2de061c89c8feb64526b02dbb1b0646ed317a1a5|2017-09-07|tmisawa| #522 add comments in check.c, sz.c
+925525ffaaa032943bcbd1a5e5591b7e32b9a67b|2017-09-07|tmisawa| rm
+25f86f32bf0347d218fbbfb5f19af1d0af8c1168|2017-09-07|tmisawa| #522 add comment
+2d56a8bc0b08dd020eea2e04a1eb2bc83eafc798|2017-09-06|tmisawa| #522 add dx in phys.c
+c0aae2d85c6d6ab77a8f63195ce30f8015666896|2017-09-06|tmisawa| #522 add dx in bisec.c
+f8cb123274d4d75372eebbf1b74c94c1f2c72d86|2017-09-06|tmisawa| #522 add dx in time.c
+044d29e6f222f54c834020365f461af09a0f0444|2017-09-06|tmisawa| #522 add comments in bitcalc.c
+96264a0a741ae4989fc0eb3e22bd270f38f2e00e|2017-09-05|k-yoshimi|Merge branch 'develop' into issue549
+0ff122169be4c4876234cdcc50df38dd65bfe55a|2017-09-05|k-yoshimi|update test
+54ac9ebd888e79370db11017dfb6753456b976a0|2017-09-05|k-yoshimi|bugfix for general spin
+f4cfe991ab2d64e4c95a114c547e3a5ffd033812|2017-09-05|tmisawa| #522 WIP
+0f67651ab2fabc5060ad636c01ed649189b74163|2017-09-04|k-yoshimi|update test for genspin
+46e090d6fa039148f01cf07bdacfd8d06d4159cd|2017-09-04|k-yoshimi|bugfix for expec calc in spingc (single process)
+3b62c182e02148e02e2f8dbf6d66aec1a35ed889|2017-09-04|mitsuaki1987|Merge remote-tracking branch 'origin/issue549' into develop
+e421ae3a2b1ca56e633e300713a5dd07f2228b53|2017-09-04|k-yoshimi| #549 bugfix for Hubbard and Kondo
+de44882ca55670c1dc78b3b4db1c90385512e8d7|2017-09-04|tmisawa| #551 fixed bug in sz.c
+8c910f15fff57499ef60b2e23071d0872d24e351|2017-09-03|mitsuaki1987| #549 Update reference output.
+e022047dc2816537a1b4d1bad01fc190625cf50e|2017-09-03|k-yoshimi|modify list_2_1 and list_2_2 (default 0 and initial value starts from 1).
+97f35571d7aae755b448ab8d2f61a2f2edc1677b|2017-09-01|mitsuaki1987| #549 Use outputmode="all"
+db243d7be751bdd7ba108f91428237ab775b67ff|2017-08-31|mitsuaki1987| #549 Modify LOBCG test
+9bced071223bffcda8a855c94296107866ab2e7f|2017-08-31|mitsuaki1987| #549 [BugFix] TotalSz_HubbardGC with MPI was incorrect.
+8b2bb6eecb126969ba763411c02b2cb1236618d9|2017-08-31|mitsuaki1987| #549 Add test case for correlation functions
+1138c73f3d6225d3e44222fe90d5a810c78bf52a|2017-08-30|mitsuaki1987| #549 Test case should be non-degenerate system.
+e2adbecce020b9620753dc24da4a980cc49b3e7b|2017-08-30|k-yoshimi|read input from spectrum
+18f4d3a9cdf5a0e0eac9dd90c6e77d8944fe412f|2017-08-30|k-yoshimi|fix for malloc about interall
+f21579bce30a843242abbcd2a83a302a4a06b47f|2017-08-29|k-yoshimi|delete E[4] (segmentation fault)
+998ef7b7dc55e9a4f1d9740dec1d44a24613a902|2017-08-29|k-yoshimi|fix for treating malloc function
+b2b20c104ee34084abb4ed63f70424f2cd62510c|2017-08-29|mitsuaki1987|Modify definition of rho_k rho_k correlation.
+c7ea8ce850bc25b38895462a8db23657a409a257|2017-08-29|k-yoshimi|Merge remote-tracking branch 'origin/develop' into yoshimi516
+951ba32601a55ef9a78a93c7a1758880c99381c9|2017-08-29|mitsuaki1987| #549 Permission for test-shell script
+5567846e1fb8dac5409ca0b0e637137023e3a97c|2017-08-29|mitsuaki1987|The variables in modpara should be defined first
+438f7982bf19004c3221ab86441d4bd8c76981ee|2017-08-29|mitsuaki1987| #549 For degenerate states.
+c33500aee9d9c90aad45a143d2fb42938a188569|2017-08-29|mitsuaki1987|Forgotten
+4e34263fbc121dff60ad90a33a21f12d3318fe35|2017-08-29|mitsuaki1987| #549 Add test for Generalspin
+8ed64eec5fdb8bf60ba8c1d1c930e8e4f4037512|2017-08-28|Yoshimi|Merge pull request #550 from issp-center-dev/kawamura517
+0d5d64abab04f09d3c729d802ae2de6cddfe9f0e|2017-08-28|mitsuaki1987|Add LOBCG test
+a3c0899244dbe741c3e6c4f63d31747e932c78b8|2017-08-28|mitsuaki1987| #549 Test case for Lanczos and FullDiag
+14a21c4f8099aeacff6b318cc6903e1c767a33a5|2017-08-28|mitsuaki1987| #549 Add test case for Lanczos+Hubbard+square
+52236196149cfb7783a954de6162b1aa4b3cc28f|2017-08-25|k-yoshimi|doxygen: expec_totalspin.c
+237a58d542bd2781f65260d752f549962f8b590c|2017-08-25|k-yoshimi|doxygen: expec_cisajscktaltdc.c
+397df430a8a61063c22b4fbe83b98f50e1e3df9f|2017-08-23|tmisawa| #544 hacker for kondo
+0a1beb6f617c94bcebf057cd1b79f8a0099b6c21|2017-08-22|mitsuaki1987| revious commit broke program.
+7eb9d81fe504a89861eb570f492bd48748ab8385|2017-08-22|mitsuaki1987| (BugFix) in fourier utility (only for mVMC)  StdFace_driver is not needed.
+0d6e99a0c4def98146f2d57e659199cfce623b78|2017-08-21|mitsuaki1987| #547 Maybe here is criticall
+1435750c91316298ca9733ffe3aaf8e875485bd7|2017-08-21|mitsuaki1987| #546 Sz was incorrect in CG. sz and Sz are confusing !
+7c4339391b1fc117a30b85b56c04796d4646b81e|2017-08-21|mitsuaki1987| #546 (Bug fix) single ion anisotropy for ladder and chain were incorrect.
+d097a045a79ee7742b29fd09ed1d53526c90f78c|2017-08-19|k-yoshimi|delete xfreemem_large.c and xfreemem_large.h (not used)
+68ecc4ca0bcd5e3e9ca1de54f4dc85f3e0057bd3|2017-08-11|k-yoshimi| #520 doxygen: FirstMultiply.c, HPhiMain.c Lanczos_EigenVector.c, makeHam.c mltply.c and PairEx.c
+e5d3575ee8327583988809d6b6cb9f2400e0a4f2|2017-08-10|k-yoshimi|#520 add doxygen comments for diagonalcalc.c and output_list.c
+8ee16025cfff8ee89be2841ca6b84fd5ec2e3a24|2017-08-10|mitsuaki1987| #517 English manual for Standard + Time
+184202160685b8c8768771c149fe94a2c13150d8|2017-08-10|mitsuaki1987| #517 Add Standard mode for time evolution.
+b0d311b2747f4fa4674d5b00306aac5d20f83bd6|2017-08-09|k-yoshimi|merge develop
+00973c70686e0f4590b8f00f56b23ef4f854cdf5|2017-08-09|k-yoshimi|Merge branch 'develop' into yoshimi516_merge
+00b929cb780e9121db21139800ccecf00d41af98|2017-08-09|k-yoshimi|#520 add doxygen comments for calculating spectrum mode
+a7caf8960d026ee6edc20feeb5bdf6c2a8d31673|2017-08-09|mitsuaki1987|Merge branch 'develop' into kawamura531
+47488eda5791fc27308723bb0bae7d1f1f70c2cf|2017-08-08|k-yoshimi|#516 modify to sum dam_pr for TE
+9d28de57b837b1c0aa292a89758d9e83580bca79|2017-08-08|k-yoshimi|#516 add function of diagonal calculation for TE
+a0787c8805395f2c3f6d6fd727f6fd69803ea86f|2017-08-07|mitsuaki1987|Modify link to forum
+b66ca7188b02dd743e510760a065d1f536f1f1e0|2017-08-07|Mitsuaki Kawamura|Update reference in sample/
+8b6e3de529b6f37e63fc2faf0cd13e1f4dba397b|2017-08-07|mitsuaki1987| Update version ID
+7d83537a543381a6a9d55b23ba8e7d2c4296f3b8|2017-08-04|k-yoshimi|add skelton for Diagonal parts in TE
+f662d51fce39f47af2560bf6ddced85c3f7c3645|2017-08-03|mitsuaki1987| #521 Modify Pylochlore for typical 3D model
+f4141ab2a8a632bd5bdff14faa2afdadfa20351e|2017-08-03|mitsuaki1987| #521 Add  Hphi_driver for better doxygen
+591544106aeedfb90d79e21e066cdc52c81881ac|2017-08-03|mitsuaki1987| #521 Ad conding rule etc.
+ee24855cfe0b12f449cfbf59c177612d088692ee|2017-08-03|k-yoshimi|Merge branch 'yoshimi516' of https://github.com/issp-center-dev/qlmpack into yoshimi516
+ecda452b23e8d2c4831c35706124efc454ea723c|2017-08-03|k-yoshimi|modify arguments in CheckInterAllHermite
+0fd40dce3b34d2b46febb5c2cae746df20946430|2017-08-03|k-yoshimi|modify arguments in GetDiagonalInterAll
+e264d198f6670663c61880a4210fa80aa8e9b7d6|2017-08-03|k-yoshimi|update to use common function to check interall
+3ea307bf0da869333455bb4eaaaf592edc9932f2|2017-08-03|mitsuaki1987| #521 Add Howto
+add2882e22eb4d1d484199a061d6a8ff471e10d9|2017-08-02|mitsuaki1987| doc/: Modify description of restart vector (binary file).  CalcByLOBPCG.c: Output vectors with separated files.
+afc8c3251298d3420c9667a68ca625b13980d5ed|2017-08-02|mitsuaki1987|Merge branch 'multi_eigen' into develop
+9c3ea5d3839b5f10f8446c5bff3021d6ac6ab11e|2017-08-02|mitsuaki1987|Apply multiple eigenvector IO
+afd729af3b750b30c9547084e2c8f0cc2c076117|2017-08-02|mitsuaki1987| #521 Backup
+dcd9209cbcaf28d890693b8c308c34a950be5ca4|2017-08-02|k-yoshimi|#516 add dt
+0b1a2b4f0e424fd52415988c0e70c5408387c077|2017-08-01|k-yoshimi|Merge branch 'develop' of https://github.com/issp-center-dev/qlmpack into develop
+f23c0001030ad23923081b6ee17b8370cefe56b3|2017-08-01|k-yoshimi|update manual for vectors, ex. eigenvec and recalcvec
+2c55f666ea8fcad4334512254041d8ef787251e7|2017-07-29|k-yoshimi|#545 bugfix for Kondo lattice
+10c3b226fd172b54f64dba0e5a5ee52df7014a51|2017-07-29|k-yoshimi|#545 bugfix for Kondo lattice
+b9b8ce8cb5f1cf90b1c28dff03781ead03d5bf99|2017-07-28|k-yoshimi|add function for considering time-dependent transfer
+f36e907b71476072f9ec0a1bc16e9f3b76d59db1|2017-07-28|k-yoshimi|modify outputVec in TE and add restart procedure
+766040a8bf71faff1024f0cef669dfa0e935be7d|2017-07-28|k-yoshimi|Implement function of reading InputVec for TE
+8e36f6d93f2fc75c4d917f115aaeb7df717dffde|2017-07-27|k-yoshimi|update checkHermite
+115933a4e4e439f77f682e0ad98f0fc1b43d3d72|2017-07-26|mitsuaki1987| #521 Add doxygen comments
+c320593dcae1b1053e3ce859a2b28b2bd03ae6d6|2017-07-25|mitsuaki1987| #521 Add comments for doxygen
+1630906ecd8f39e15d799c9e24f944660adec33c|2017-07-22|mitsuaki1987| #521 Add comments for doxygen
+b01beea9ef6d656b80100753759ee0f26bbdc7ec|2017-07-21|mitsuaki1987|#521 Some cleanup.
+b27058d101bd6a193dac57f4d516e97b1a30e9d9|2017-07-11|k-yoshimi|add function of reading parameters for TEOneBody
+2205bd0b736b5b45486c9b3740d425bad4e78541|2017-07-11|mitsuaki1987| #521 Add commentsfor doxygen
+b58b13000faafa349ce436d98725c33510ff6be5|2017-07-10|mitsuaki1987| #521 Add comments for doxygen
+7e754904a0ce54793a7bceef89128e6177ca46e5|2017-07-10|k-yoshimi|add info of TEOneBody in struct
+02a65cd073129ddc42f29fccde750a9bd8d1abb1|2017-07-10|k-yoshimi|merge yoshimi520
+779bbcb6b0413496c58c6eb1b35ba56fd5b0ba10|2017-07-10|k-yoshimi|merge develop
+6ddd8e4123a169319a5c73a34ef6c96d9c7600a6|2017-07-10|k-yoshimi|Merge branch 'develop' into AddTEM
+9ff615cb35f9c7846b32bdb6258b074106653d34|2017-07-10|k-yoshimi|#542 add info for restart calculation
+a6a67a8fa081cf71de4e6bd814ab17a4687fc6b1|2017-07-07|mitsuaki1987|Merge branch 'master' into develop
+d09c2b6ed74a945114d7491cfbce9f870edbac03|2017-07-07|Mitsuaki KAWAMURA|Merge pull request #16 from yomichi/patch-1
+2766edbc36c5ed40813023d3ca96af4e606c8c5b|2017-07-07|Yuichi Motoyama|build `key2lower` as static by cmake
+41400a7f54fad52e280e88abac76890419dacea4|2017-07-06|mitsuaki1987| #519 Formula for doxygen in StdFace_modelutil Modify setting for doxygen
+86a0fe7416b938b9e0aa3fa73fbaa1923b8f9183|2017-07-06|mitsuaki1987| #519 Modify oxygen settings
+e32ce3b5d5d3e8a00001ae5910442637846e513f|2017-07-05|mitsuaki1987|Merge branch 'develop'
+2a7483834040e2a9b5a907a4fb55a3892fa5642f|2017-07-05|mitsuaki1987|Modify message.
+e3cd11e42b5006f21412570ff4914f9c8b5620b0|2017-07-05|k-yoshimi|update makefile_src
+614c097f33f85d0b11c1b33e24e56a69aff16606|2017-07-05|mitsuaki1987|Merge branch 'develop'
+b497bbd3041b9f30bee252f82f40544fbf084a20|2017-07-05|k-yoshimi|add description of ham.dat
+fa3977b79e0833d94a667bf4c833b681b6d9311b|2017-07-05|k-yoshimi|add description of inputHam and output Ham
+1331f8abb6686e404bfd04f1842a836b81af701e|2017-07-05|k-yoshimi|update manuals
+23fb6a2721f2df8db4f9308e972b84d5f2622b84|2017-07-04|mitsuaki1987| #535 Update version
+57a303141b660a45406bb1fce52a4f1e6d004380|2017-07-04|mitsuaki1987| #539 It was incorrect when org_sigma1 = 0.
+a0f9319e2df6562519e23e03eb38822db48cba87|2017-06-30|mitsuaki1987|Unify with mVMC
+d252cd161254bd077a8308368c2ba2580570359c|2017-06-30|mitsuaki1987| #532 Bug fix in corplot: kvec should be allocated as 3D vectors. Add descriptions of SSE2 for DSFMT.
+d95cf32c70ab66be8f80c6f41901d0d6615cf68a|2017-06-30|mitsuaki1987| #532 For a mysterious error.
+0c57f6cf0cb76c9bea7422ca17f9a04b9a0f2892|2017-06-30|mitsuaki1987|Add script to compute histgram
+bf3980ff67d81fbe459e7236e76553dd6f053d39|2017-06-27|mitsuaki1987| #531 Small modification
+bb28fb08fe45c3bf965097f6beb8b4aa99b1b049|2017-06-27|mitsuaki1987| #531 only modify case
+598c8dab482f92352940d5fff5711ab1d88d437f|2017-06-27|mitsuaki1987| #531 Delete old files
+cdb798356eaaf6cd3efb4ff1e6877b6f2f994508|2017-06-27|mitsuaki1987| #531 Add utility to compute specific heat with canonical TPQ
+9e361ed6fc43b01adb2cbdd835e188e7f76a62fd|2017-06-27|mitsuaki1987|Merge branch 'develop' into SHtools
+39ccee9a15d64370a4afb02ff734f19d5d8c5cd2|2017-06-27|mitsuaki1987|Merge branch 'develop' of github.com:issp-center-dev/qlmpack into develop
+99f07754a6d82d06e82e3dfc16d42e8e683d3297|2017-06-27|mitsuaki1987|Add doxygen comments
+91afe743c318a979ac95f3e7230db1a612828a77|2017-06-27|Yoshimi|Merge pull request #527 from issp-center-dev/yoshimi526
+05affa4dbc59691b1d3c8fa99695a6a51ac806d8|2017-06-23|k-yoshimi|#526 add error procedure
+6f942e76882b03ce3a5884c114eb9e3bab264260|2017-06-23|k-yoshimi|#526 add function of inputting Hamiltonian
+41a03d8056014d1f27a940042309177bc6efba95|2017-06-20|mitsuaki1987|Merge branch 'develop'
+f88fa8484851ab56f45e8d37374dc4b9ac0949b9|2017-06-20|Mitsuaki Kawamura| #513 Update samples and version
+3596fd31b9193e13b9e45b45f9ac4e97d37ac7f6|2017-06-20|mitsuaki1987|Add message in HPhiconfig.sh
+d2b58ab3aed6fdcde2810454f7dd8b331eb08733|2017-06-19|mitsuaki1987|Add HPhiconfig.sh
+15ea7197ce9f6ff44bf9bd3985f4c4b063a0ce7e|2017-06-19|mitsuaki1987|Merge branch 'develop' of github.com:issp-center-dev/qlmpack into develop
+5e6e349280e03eebcc42783df96b12891e1ec636|2017-06-19|mitsuaki1987|Just add comments
+cb02bbb6e8cb05d8a7ab3b157c62b4b6889c4f09|2017-06-19|k-yoshimi|delete linkfortran in fujitsu
+cee42947dd62561c4b05e5100f00b38db9e69f40|2017-06-19|k-yoshimi|Merge branch 'develop' of https://github.com/issp-center-dev/qlmpack into develop
+548ba439c459df5c545dff881560c6b9f9a875af|2017-06-19|k-yoshimi|add compile option for FUJITSU
+b0262d461cd8d014b7100492aa62faf148d17272|2017-06-19|k-yoshimi|add compile option for FUJITSU
+34c4bc88c3198a6683244057d3f3f1d17c67de83|2017-06-19|k-yoshimi|#516 add description for TEM in jp manual
+2842cfc630e8aa8b52ac2a6a30daa1b25cc3c9bc|2017-06-13|mitsuaki1987| Backup
+903ddbbbd471a77af502a82cbe568e866e1c3c01|2017-06-08|k-yoshimi|Merge branch 'develop' into yoshimi520
+230f5bbf9c6f90eccb2f2dff356cd47e6ae94eab|2017-06-08|mitsuaki1987|Modify doxygen comment. Delete function.
+10ba609ad60483e2a4f52983b4b6f096ae10c223|2017-06-08|mitsuaki1987| Add comment for doxygen. Delete unused functions.
+df2b0eeb232efa21eb591d10defe308ba1d9ca70|2017-06-05|k-yoshimi|tmp
+df06558b2f4004b6823000a5ea8ae482135c1a59|2017-06-05|mitsuaki1987|Add comments for doxygen, backup
+cbfcabf27b37b9b0797a192d3fbbdf1163a8ed8f|2017-06-03|k-yoshimi|Merge branch 'yoshimi520' of https://github.com/issp-center-dev/qlmpack into yoshimi520
+e7c97ced9b944a1cb103c0f577e85858873b7438|2017-06-03|k-yoshimi|#522 Doxygen expec_energy_flct.c
+22d52671c7d88c0e6be9ddf6588e41ce6990d3d4|2017-06-03|k-yoshimi| #520 doxygen: CalcByFullDiag.c, CalcByLanczos.c, and CalcByTPQ.c
+4c1be6d268f841b597966814ab44761cfd13cfaa|2017-06-03|k-yoshimi| #520 doxygen: output.c
+49cbcc818e6fdaee1dbcc76d94bbf1053a96128c|2017-06-02|mitsuaki1987| #524 phys.c: BugFix the number of electrons for Spin Others: Add doxygen comments
+da8ba666b1657e40912400bf8e953e890d8db558|2017-06-01|mitsuaki1987|Unify to mVMC 23ecd3b502e4c188fd860d881157f5af0099c2cc
+cd7485f5a9ac97dba6cde9c6774e5f08026f1a6e|2017-05-30|mitsuaki1987| #518 Add description for Lanczos_Step of LOBCG
+cb2556c49a470cddcc09e24c28bff2cda0ea6e31|2017-05-26|mitsuaki1987|Unify with mVMC 2b421cb97324bd9e321dc193868d5fdf5825eeef
+11811c0a68babe96b363ca35faebedd2c56b4166|2017-05-26|mitsuaki1987|Add comments for the variables in standard mode. Fix the description of phase0, phase1 in manual
+c63ce706c4d3f8cc0bc54e4eb38d19244e4afde9|2017-05-19|k-yoshimi|modify to use TimeEvolution flag
+addc9d92a5272416fd9e7e7001f306c77627ceb7|2017-05-18|k-yoshimi|#515 AddTEM
+68166bbb19e65b278d6e0cdb5fb560d14a657db3|2017-05-17|Kazuyoshi Yoshimi|update CMakeList.txt
+d589d2b589a78f0d9ff4df29a94ed0cabfd6468e|2017-05-17|k-yoshimi|Merge branch 'develop' of https://github.com/issp-center-dev/qlmpack into develop
+50b4717958d08f0a7e1e74b26eedf7cf11d3b43c|2017-05-17|k-yoshimi|modify flag for omp
+3785a49950b066c5cb5f5251ac7193a464816f30|2017-05-16|mitsuaki1987|Unify to mVMC
+c3bb2a04f8ff00ae524699f6d2eb5efe0bf4b948|2017-05-16|mitsuaki1987|Unify to mVMC
+9f0a88d6112095d08cc549ee68f8cd4ffa7a6058|2017-05-16|k-yoshimi| #508 delete message
+dd0e8f8803d6de924d2508efb04dc29dbf4a410e|2017-05-16|k-yoshimi|#511 add omp for calcHS=1 mode in Hubbard (sz.c)
+9e8c7e81bc5cb536669b09a6ba3a29933ae6ea06|2017-05-16|k-yoshimi|modify description of calcHS.
+b4f72ee1b11b870153d947dd97acfa718276a27d|2017-05-16|Yoshimi|Merge pull request #512 from issp-center-dev/yoshimi510
+039ba4ff85bddc39ec6b0933d257d20175591082|2017-05-15|tmisawa| #511 add explanation on CalcHS
+c9954e385aabb314ead2fa82a435a67bb396dc24|2017-05-12|mitsuaki1987|This file should not be commited in the previous commit.
+5712a6353a5a8d9d79d9d4d442693f69e196badd|2017-05-12|mitsuaki1987|Unify with mVMC
+4915d2c325590a388d4c543a2e531a07739b4d05|2017-05-10|k-yoshimi|modify indent
+04b0698d4230940a2d3d9fc3f210a99f80389de5|2017-05-10|k-yoshimi|#150 bugfix
+3bcdacc32aed097be3ea3d4463d39ee3975dc256|2017-05-08|mitsuaki1987| #503 Remove makefiles for building HPhi, CMake should be used.
+59d5500d7750699c2f63b7faedb4eaa4de2fe425|2017-04-25|mitsuaki1987| #507 Fix comment in calcmod.def
+0676923e3bd7ba2978b74a8fd54c94d52379c4db|2017-04-20|Synge Todo|#503 Introduce ENABLE_MPI option (defualt: ON) and add -lm by default
+abec32e9401a024687de1689738f2ed4d3dd1182|2017-04-19|Synge Todo|#503 Introduced if(MPI_FOUND)...endif(MPI_FOUND)
+5a2fcea2e9fe1289e34054e22b8d4d249231a163|2017-04-11|mitsuaki1987|Force LanczosTarget >= exct
+3708ac2018826d73b7625aaea9f42ebe918b6e49|2017-04-11|mitsuaki1987|Merge branch 'develop'
+c350c38cb8e010ad02c5d855725166e6257128a6|2017-04-11|mitsuaki1987| #460 Small modification of the makefile of documents
+4cefe5373d7b40d01e13cbdd16d9d9b4499136fe|2017-04-11|mitsuaki1987| #460 Update acknowledgement
+471921495b4bdd4d4fd72256acaf0e13a4f0e09d|2017-04-11|mitsuaki1987| #460 Acknowledgement to Y. Motoyama, Y. Kato, T. Sogabe, and T. Hoshi
+738c83c3d1723e4cfa74ac9e24c17b972f3651d4|2017-04-10|Mitsuaki Kawamura| #460 Update reference output
+1619d42156405dc5a1307b639507c9894cb328d9|2017-04-05|mitsuaki1987|Add description for the Shifted BiCG and Komega
+4dbcfc7fb8a85170ffc53f4ff83d7c5be45f2f09|2017-04-05|mitsuaki1987|Update description for the default indices of the correlation function.
+613e209ff907f1efdc44e2dd1c202da3c51d6b24|2017-04-05|mitsuaki1987|Boost -> CMA
+34ac35dff0ce3e015d12182a6aebfb827a8eecc2|2017-04-04|mitsuaki1987| #468 Apply proof to the remaining part
+845a40ae051dcdd03bb844202c857279c72c7e50|2017-04-02|k-yoshimi|modify chap06
+fc66f0d76e0dd4d18c2acf2b2e6a4b177e63210b|2017-04-02|k-yoshimi|modify chap05
+156df36111cc4c77a5d7a083e79ef99d4e95e8e1|2017-04-02|k-yoshimi|modify chap04
+4d72c0fc6c8380e848d668af222ad4a2b8e62b46|2017-04-02|k-yoshimi|modify description of singleexcitation file
+0794d70114fffffcb17448a001be376f94cdb178|2017-04-01|k-yoshimi|delete needless file
+dc3add84b4212b80df4ba431e91de95c9d1cca34|2017-04-01|Yoshimi|Merge pull request #500 from issp-center-dev/yoshimi484
+c7c7b0286f1a89cffc49ac6f3b7717ce9adcfc59|2017-04-01|k-yoshimi|bugfix
+d68c7dca182b8c1d96bb95527f6f7337b73c24a0|2017-04-01|k-yoshimi|delete not used variables
+9d1a7746ab4335556cd27621e95e5de93ed691ca|2017-04-01|k-yoshimi|add function to output lanczos vector
+cf50fb46589560495a3aecfbb0f029314aa6cf71|2017-04-01|k-yoshimi|add functions to set/read initial vectors
+bff0ec69155d7bfa1829e39152ed5f6161480487|2017-03-31|k-yoshimi|add description of pairhop
+cd6e23b981727550f9185c0868f4204c01ec9ba5|2017-03-31|Yoshimi|Merge pull request #499 from issp-center-dev/yoshimi333
+8444cde1ecff9da8a1187be9ebfe764979981ddb|2017-03-31|k-yoshimi|bugfix
+6cfd5818dc2df04d0bcd4617824921def97d84bb|2017-03-28|k-yoshimi|#333 modify format for PairHop
+d369aac3f9a3152ccb615cafaa2660051c279000|2017-03-28|Yoshimi|Merge pull request #497 from issp-center-dev/yoshimi482
+d427d25af5163e3ead3a5ae76c114ada8fe27a7b|2017-03-28|k-yoshimi|#482 bugfix
+4e052ccce349f4130831b7a3896b22ca5cc4f872|2017-03-28|Yoshimi|Merge pull request #496 from issp-center-dev/yoshimi489
+c0813727b94764cdcf2dfc8d4e72320c5499132a|2017-03-24|k-yoshimi|add description of omega for calculation of spectrum
+cbebe172e502f16248ddff3f7d6f258c9f1900fb|2017-03-24|k-yoshimi|#473 modify not to terminate for norm of excitation vector = 0
+da9e9776aaa9e284aded02714a1504e194c63f92|2017-03-24|mitsuaki1987|Add IntelMPI configuration.
+9614fdec36fd39495f410ed044710cbc213c7a8e|2017-03-24|k-yoshimi|#489 modify to add OmegaIm to OmegaOrg
+fee33891e7e02d831508617bfdee28cba87ab9d2|2017-03-24|k-yoshimi|Merge branch 'develop' into yoshimi489
+750cbe23603cf2efd1836bacdb4729c2d0c1481a|2017-03-24|k-yoshimi|modify to output frequency as omega - omega_org
+8af1a05210ffaa26401832fba8316f90e7dba9e3|2017-03-23|Takahiro Misawa|Merge pull request #495 from issp-center-dev/yoshimi494
+30219b2d8df2eaddbbfae544268834b70c2ef352|2017-03-23|k-yoshimi|#494 bug fix for 2Sz for np=1
+15823b56863dd478f080ee32956ccbf57810751b|2017-03-23|k-yoshimi|#494 bug fix : diagonalization for Spin
+14b28ef10ea0b813b53ab977a89ff489cf8f0226|2017-03-23|k-yoshimi|modify type of omega from real to complex for spectrum calculation
+bc5a214c4114c6e7b8691e598e968feb325a89fd|2017-03-22|Mitsuaki Kawamura| #493 Add -fopenmp in the Linker option in Mac
+2cd35ec349cb8f4a9d1b575e349a27b95fa5f5d1|2017-03-22|k-yoshimi|Merge branch 'develop' of https://github.com/issp-center-dev/qlmpack into develop
+46d1f50f2e8f496ea1b2343f74352858c74a27a5|2017-03-22|k-yoshimi|#494 bugfix
+ee93b222112be08459b9913a3804a339ce54b8c2|2017-03-17|mitsuaki1987|StdFace: Small fix to complete fileIO before HPhi reads these files.
+0cb048602430dde9c91f3ed8bb44f5a0423d31a9|2017-03-15|k-yoshimi|add to compile tool
+279d82974dc018de0338f4957f56a7ddabe6a99a|2017-03-15|mitsuaki1987|maki -> fujitsu
+13f2552dcdf5537143a2d7548e658a637a041d11|2017-03-15|mitsuaki1987| Modify HPhiconfig.sh  fourier utility: Add S.S   Normalization factor : 1/Nsite^2 -> 1/Ncell
+fd1f89f86c1ef0fd04ee07dd8c80f25ecb037325|2017-03-15|mitsuaki1987|Apply to SR16000
+79be8f104389ac3f072cda48cb9d5575cc963bc9|2017-03-14|mitsuaki1987|Cleanup warnnings
+1457f820b45a943c62a59914a68193362cac6943|2017-03-14|Mitsuaki Kawamura| #465 Extension of corplot and fourier       Extension in makefile's
+c1bb216f7a12e2a99f5682d29af9b01f4d0f2713|2017-03-14|Mitsuaki Kawamura|Merge branch 'develop' of github.com:issp-center-dev/qlmpack into develop
+6d5549938b02837e1c99f7ddb434b2a2807a98d3|2017-03-14|Mitsuaki Kawamura| #465 Cleanup variables and warnings in FX10       Modify make.sys(HPhiconfig.sh) for FX10
+c4cde93489b7de358462aa883c534b8cdaf3ca99|2017-03-14|Yoshimi|Merge pull request #492 from issp-center-dev/cmake-465
+0005ddff45a5018bece2cad460057868df094ad3|2017-03-14|Synge Todo|Fixed RPATH and link setting for MacOS
+3254685c8c31eb6e7e0b5db44cf8f755fe9bdcd9|2017-03-14|Synge Todo|Updated cmake configuration for gcc and intel compiler
+c20e92c682c561377235779cfbd4d3c793e2928a|2017-03-14|Synge Todo|Updated cmake configuration for Fujitsu FX10
+2394f262aa6a57aef629cafd4564f48b536e4ada|2017-03-14|Synge Todo|cmake setup for using komega
+3b735e417b2eaf1e1895d6db9e77a618fb00e237|2017-03-14|Mitsuaki Kawamura| #465 Modify HPhiconfig in sekirei
+78131191be0679e52664fc612d1d14bc95c825b2|2017-03-14|mitsuaki1987|Merge branch 'develop' of github.com:issp-center-dev/qlmpack into develop
+ed13ba76e990b10a39b062db0e8a05d252595207|2017-03-14|mitsuaki1987|Modify configurations for make
+ae8b45b487e7f647ee35dad5de49ca1a2c68b93f|2017-03-14|k-yoshimi|modify a default value of calchs from 0 to 1.
+a78f9e1d9c380eeeab4ed83fd86d2183617d20e8|2017-03-13|mitsuaki1987|Small fix
+c412e8ce1bd39f520f09cc19205572796cfc8b2a|2017-03-12|mitsuaki1987|Forwarding version number: 1.2.0 -> 2.0.0
+abba25fb927bb3f96e368f7bbe7aae75e7c3317d|2017-03-11|k-yoshimi|add new ./*.c in CMakeLists.txt
+3bc071cdbe0c9100926890ef425d3d3fa333a931|2017-03-11|mitsuaki1987|Forgotten in the previous commit
+303395c3fb096a755a8072da8cc1d6239830fad6|2017-03-11|mitsuaki1987|Documents of fourier: For buiding tex manual
+651a3881f40e14165f403e9d92d79b6bc0c511b2|2017-03-11|mitsuaki1987|BugFix for Jxy and Jyx
+c2150ba943c18357c7b6c8952a908058c8811898|2017-03-07|mitsuaki1987|Ignored makefiles for fourier
+bb18cf8998c87f016b9a1c1efbef870f2e1b8fcd|2017-03-07|mitsuaki1987|run without zdotc because the syntax is not so clear
+5236d9191d162741d8f2e319213246cc3147ac3a|2017-03-06|mitsuaki1987|BugFix: Computing LargeValue
+d2ab3b70393c767cf277cb4b20240a8c05dac886|2017-03-01|mitsuaki1987|(Bug Fix) in the Expert input file for Kondo lattice (exchange.def)
+fc7be96cc9ed6148b85994c54fd5e86313fa005d|2017-03-01|mitsuaki1987|makeHam.c: BugFix in FullDiag + PairLift
+43b45892859538c16fcc8d89350dda038628a9f3|2017-03-01|mitsuaki1987|Small update in manual Add SpectrumQH in the standard mode
+f5af48d2d4a6c3837e0dcb549ee1be7456db9250|2017-03-01|mitsuaki1987|Add manual for fourier utility
+8f0ca820dbd788912d945644c3ee41748d83c883|2017-02-28|mitsuaki1987|Merge branch 'develop' into kawamura454
+6cc65e1f94e198bd1038e8f48756d3da1183458d|2017-02-28|mitsuaki1987|Small fix
+e927a8705ac65c0a02c32f224d9409b1e220eb72|2017-02-27|Yoshimi|Merge pull request #491 from issp-center-dev/mltplyExpec
+be24eb18a1ff69d1040c3e12f0fcc7838124c6ea|2017-02-27|k-yoshimi|update to divide expec_cisajscktalt
+4ad4ff721a193d1093beeabd2f53aa67d2aa6b94|2017-02-27|k-yoshimi|update to divide expec_cisajs
+8c363740e019e67814d6e1effd78ad063ed4968b|2017-02-27|mitsuaki1987|Merge branch 'develop' into kawamura454
+d1972a2dddf22ffab175fb1da3943ca3d5194ae8|2017-02-27|mitsuaki1987|BugFix in the 1D Kondo lattice
+ac6e6e6f8721dd08d482b12c3493e0a377c608a4|2017-02-27|mitsuaki1987|Wannier90.c: Modify to choose wannier functions
+3de3f1868432d9b9329f209027f23fb2b2fcbba6|2017-02-24|mitsuaki1987|Add Wannier90 mode
+894638d0f97149e62ec3f35e864aa940ca8233ac|2017-02-21|k-yoshimi|Merge branch 'develop' of https://github.com/issp-center-dev/qlmpack into develop
+96c614ad6cb8bcf2f63afba0f935b4e9872c0bca|2017-02-21|k-yoshimi|add calchs in hubbardNzConserved
+af94338a5ee6ca2534a484470643adc3604b0d2e|2017-02-21|k-yoshimi|#490 add hacker in hubbardNconserved
+b71ab188d7abbe1e26672889c9277d5cee8d7c19|2017-02-13|mitsuaki1987|Bugfix in specifing indices of correlation functions
+541964e3f286f6ec78d1d093161eaca902dad509|2017-02-11|mitsuaki1987|StdFace_ModelUtil.c: BugFix for input of J fourier.f90: suite to new mVMC StdFace_main.c: small modification
+18467c27e14389f3fe8bcbcfc5c06bc85fc1b284|2017-02-09|mitsuaki1987|forgotten in the previous commit
+e2a59ac9fa2d9ad073dc21fa261781052d22d9be|2017-02-09|mitsuaki1987|Modify fourier for the boundary phase
+c96f454dd39611578f5b42bc7f5c5caee6246b1a|2017-02-07|mitsuaki1987|Join 2D and 3D routines
+4d82b14b74940068e06e390652f7b33d12f2e2c4|2017-02-07|mitsuaki1987|Backup
+04de8a6e8553b05c093d8e94e9f7c29e9fdc6039|2017-02-06|mitsuaki1987|Fourier routine becomes available for 1D and 3D system
+4f9912ee01108540fca2fd018551b1da58ce6fd7|2017-02-06|Yoshimi|Merge pull request #488 from issp-center-dev/mltplyCore
+bfdc0160218203209b753a6308f6296cf1137e16|2017-02-03|mitsuaki1987|Forgotten in the previous commit
+138123805793676b21677ca97616736a9e6783fe|2017-02-03|mitsuaki1987|Add Pyrochlore
+e117bac3aabd4d93fac7d297b18da60f043a4fd7|2017-02-02|k-yoshimi|Merge branch 'develop' into mltplyCore
+f29f5c78370c9fcb11ba5de60c2220233ca79cfb|2017-02-02|mitsuaki1987|Add Face-Centered Orthorhombic
+a3405d0eadb3e56584e889d2bb84199b6b44e8c8|2017-02-02|mitsuaki1987|Add Simple Orthorhombic lattice
+5985cb8e516354ffeff699d3f99d6a8e6c76458a|2017-02-01|k-yoshimi|bug fix in interall
+13a10ed4431cda26636b14dc2ba27706436730c5|2017-01-30|k-yoshimi|modify to combine same components of transfer and interall
+88f6aefe3f6d45e547876c7fd4c61799b6c523b9|2017-01-28|mitsuaki1987|Fix the sign of PairLift
+eb6e2e320844f35df4363d06fad709de73206f57|2017-01-28|mitsuaki1987|Modify Standard mode
+302f8f4be95e29125468f1c0aab75f2e1d624f56|2017-01-28|mitsuaki1987|Refactering Standardmode
+73a39838cdfff17d54d38066f474ee85f319af21|2017-01-25|mitsuaki1987| #454 Update English manual
+7421d9113d4185828ae12372309c311fa2e168a8|2017-01-24|mitsuaki1987|Modify the format for gnuplot
+b976e4db93afd413b57b231be49c80cc735b283b|2017-01-21|mitsuaki1987| #454 Number of input/output/eigenvec was wrong
+a82e5550c046083d76ffe7009b0c41aa8e17e7c9|2017-01-20|mitsuaki1987| #454 Avoiding the oom at the binary output
+263b126be565c381b26b0a842a2a4a819a4a907b|2017-01-19|k-yoshimi|modify to check Kondo and Spin in readdef.c
+db7e2cc5629d8574488d792dcdd18645b3e00908|2017-01-08|k-yoshimi|Merge remote-tracking branch 'origin/kawamura485_tag1.2.0' into develop
+13c7ec57f6a66f27e2ef6d61ab172456ab935272|2017-01-08|k-yoshimi|Merge remote-tracking branch 'origin/kawamura485_tag1.2.0' into mltplyCore
+d077ab6d6ed5daf73d1d32b6d3b8627aa966d64d|2017-01-08|mitsuaki1987|#485 Bug Fix in calling dsyevd
+1d08937be8aeb68623e8aae47fc9c819130fabe4|2017-01-06|k-yoshimi|Merge branch 'mltplyCore' of https://github.com/issp-center-dev/qlmpack into mltplyCore
+daf441968b534b31f80894027189d76842cab3be|2017-01-06|k-yoshimi|update include files
+6e0026e7840c015c22ddcb90f56b38645795bb63|2017-01-01|Kazuyoshi YOSHIMI|update to compile on maki
+14c21a1029dc9d01583f2f284fa40021d8b69b49|2017-01-01|k-yoshimi|merge develop
+60040239f69ccc52be1f56c9d2bbb1795e5807c4|2017-01-01|k-yoshimi|delete needless files
+f89d23b3b5a6d16647e0c49f74c3659fb6017d8e|2017-01-01|k-yoshimi|make mltlyMPICore
+e54dc003fdd195a86dc9f8a9dd39a9f4a7d9ddb6|2016-12-31|k-yoshimi|make mltplyCore
+757cdc90c267ef14195bbe2d095d21904e2669fc|2016-12-31|k-yoshimi|delete needless function
+58953266ae3ca4c64d338427b315621a9735c0c8|2016-12-23|Mitsuaki Kawamura|Display Brillouin zone boundaries
+c50642efc0d4c0d60c1eb9b9ec9b3d19a42cb385|2016-12-21|Mitsuaki Kawamura|fourier.f90: BugFix in the stderror for mVMC corplot.f90:
+4f88d5f6c87e26e690d626b39c36ae65a80ad37b|2016-12-20|Mitsuaki Kawamura|Support mVMC
+0d28b1ac758008f28ff4811855ae1046af3d6eed|2016-12-20|Mitsuaki Kawamura|HonecombLattice.c,SquareLattice.c,TriangularLattice.c,Kagome.c,StdFace_modulutil.c:Add Function to generate geometry.dat StdFace.def: Modify in generating greenone.def and greentwo.def fourier.f90: BugFix. It works
+cc6ec380c8f765625c221df5fffbbf24fe7eeadc|2016-12-19|Mitsuaki Kawamura|Merge branch 'kawamura454_2' into kawamura454
+261829156dc99783ffda616aca646394924e8ae6|2016-12-19|Mitsuaki Kawamura|Merge branch 'fourier' into kawamura454
+ebb821df95032260b4b2cfe623bebaad0f3e7620|2016-12-19|Mitsuaki Kawamura|Backup
+8a5676b4aae2ca0277605fe007bd262d935a7fe1|2016-12-19|Mitsuaki Kawamura|Backup
+4458504ee59bebb31bd3d03df6ce7cd881f02f4f|2016-12-13|Yoshimi|Update README.md
+8f65748f6c96fc2c59328ba2ed3add403c172dba|2016-12-12|Yoshimi|Update Readme.md
+51d37842e26bc4674a6003d8ae5319a3aae6a2df|2016-12-12|mitsuaki1987|Print residual and result at each 10 iteration
+2b5d31f6faa2c4f7ac12909ab9ac4ffc60cf83e6|2016-12-08|mitsuaki1987|Merge branch 'develop' into kawamura454
+063b072d0e054872e7a05e09ce96a165587a5ce1|2016-12-08|mitsuaki1987|Update makefile PairEx.c should be the same as that in develop
+c6fe245a2c36db99444f9d6b6df4e7833962dec2|2016-12-08|Mitsuaki Kawamura|rm test/
+dd8cd1c910106daefeb87f0ff334f9b0f5b2186f|2016-12-08|tmisawa| update tips_No1
+28e9ec94fcb8ee43d240b375849922880705b1e5|2016-12-08|k-yoshimi|merge develop
+b45bec9101b5920c6a26c95bce2f99de31306812|2016-12-08|Kazuyoshi YOSHIMI|modify to compile in maki
+6a428099714ec4134c78798459122dbd67fa2fc9|2016-12-08|mitsuaki1987|Remove *.mod file
+9b43064eca211cd8e243576841954ea2070618cc|2016-12-08|mitsuaki1987|Add makefile
+9a7ede7e006a0fd89138a827283e366f368dadf6|2016-12-08|mitsuaki1987|Add Specific heat tools
+2373b3dfbf68cae7af4a7841257e62fd36ecda0a|2016-12-08|k-yoshimi|delete needless file
+879210e402a2307fbb2c56db810c60d332c17014|2016-12-08|k-yoshimi|merge src of canonicalGeneralSpin
+2bd31474d173fdbe868d686141d627bb3c3e88d1|2016-12-06|mitsuaki1987|Merge branch 'master' into develop
+b6cba915b52d3c783bc2d0280548ffab98f349b8|2016-12-06|Mitsuaki Kawamura| # 476 Delete test/ test_tool/ in master (develop too)
+6c01d7dc1b46fb43fac1098781d742134ebea355|2016-12-05|mitsuaki1987| #454 SR16000 support
+13cd6a33c00ac81f12c00004b19feaf498aa8f85|2016-12-02|Mitsuaki Kawamura| #454 Apply to FX10
+ea2f80542859cf81906271181520999596a4275f|2016-12-02|mitsuaki1987| #454 Forgotten in the previous commit
+adf4285791202466401ec0c5d6132e015d18368d|2016-12-02|mitsuaki1987|Merge branch 'kawamura454' of github.com:issp-center-dev/qlmpack into kawamura454
+819ce98a8b24f327ca1e9e3bf0dae21bf758cb53|2016-12-02|mitsuaki1987| #454 Add BIND
+b8d9730045096e451d6e0a1658b141ad168302ad|2016-11-27|k-yoshimi|solve confliction
+4e02321441eaabd2fc194482bc9352e344f5f5ff|2016-11-27|tmisawa| #445 for HubbardGC
+d049ee0d55f363d0c8904c5cf398230470cc4c92|2016-11-27|tmisawa| #445 fast calculations for Canonical Hubbard
+00b4bf1ff0c2042982104d92300a4a05bd6dc59b|2016-11-24|k-yoshimi|delete needless files
+91fd921230c8851c31797a70ac5290a52f6c9f90|2016-11-24|k-yoshimi|#464 update mltplySpin
+17e0ac8a9411f1c59bbc38ffba30fa387857ed54|2016-11-24|k-yoshimi| #464 update mltplySpin
+1a260782af8bdf2432221d8134771b00cc9e95a1|2016-11-24|tmisawa| #445 fixed bug in expec_energy_flct.c
+6753eca1baa06d60b32b5cceeeca0a11a3fd861d|2016-11-19|Mitsuaki Kawamura| #454 Apply to mac
+ac4587ecfb260894cc45a2e4a3c2dc51d7083efa|2016-11-18|k-yoshimi|Merge remote-tracking branch 'origin/develop' into mltplydivide
+267ba3c850ce7ff69083fab32ab90fd1b2a1ed34|2016-11-18|k-yoshimi|add mltplyHubbard
+dc70b3ee3758623f575a364dd2aebf02d769f1f6|2016-11-18|k-yoshimi|add mltplySpin
+71e10beccbecd8d344a10af95613c8deb132d901|2016-11-18|mitsuaki1987| #454 Update manual
+dd67df788f6bcb3adc88f51130f72a877bd04e12|2016-11-17|mitsuaki1987| #454 BugFix Scoping of variables when storeing to L_vec was wrong
+70a39b7093ad5449b9b8b9098cd8ccfa8d051b6f|2016-11-17|mitsuaki1987|Merge branch 'kawamura454' of github.com:issp-center-dev/qlmpack into kawamura454
+93c4c825ee1539dcca5e49df9bb338cef60da2ea|2016-11-17|mitsuaki1987| #454 Update manual
+8fdffe3580a1334a48fc2d1f2e4057577b967415|2016-11-17|tmisawa| #454 add
+7a873d3e743d56c37feee0f57bc9791cee1df31e|2016-11-17|tmisawa| #454 mofify phys.c
+5a3d4df14d17b6157ee091dc29c95bffca7ae672|2016-11-17|tmisawa| #454 modify output in CalcByLOBPCG.c
+8a18db78c8a7c610dc82f30568cd988038f1aaaa|2016-11-17|mitsuaki1987| #454 S^2 should not be computed
+3681d594d21d915382119c7dc666d06a0222f284|2016-11-17|mitsuaki1987| #454 Update komega
+43859b060ea06b96310b35b942e8b55fa8f03d8b|2016-11-16|mitsuaki1987| #454 Outpu expectation value for all calculated states
+bfafe7aafb4c947eae8353d44d582f4f1312727d|2016-11-15|mitsuaki1987|Merge branch 'develop' into kawamura454
+f72e813248dd6e4438d85b2b24815fa31a66141f|2016-11-15|mitsuaki1987|Merge branch 'release1.2'
+ef55879db2cc5026006f958473b414469cba242a|2016-11-15|mitsuaki1987| #449 Update release date
+aca05f8e9049178b424c3a7eb3cb871cf5491c4d|2016-11-15|mitsuaki1987| #454 Output for watching convergence in LOBPCG
+ada7e877e2d61c9dc3661df9c14c1d00ac903bb5|2016-11-15|Mitsuaki Kawamura| #449 Update refference outputs in samples/
+f6be580f5dcd4f923dea7cba7ea040b5abf706d6|2016-11-15|mitsuaki1987|Merge branch 'develop' into release1.2
+6c8dbbb5735bd2dd86e71ade7095aaf09e1c36b3|2016-11-15|k-yoshimi|#449 bug fix for fulldiag
+96b37a3de15ba0683298d2061ff57629fa4111e7|2016-11-14|mitsuaki1987|Merge branch 'develop' into release1.2
+20af7622fe58643adafa969b1b2795ce911fee03|2016-11-14|tmisawa| #449 fixed bugs in Target_Energ
+fa8ae9cfbfded0c2e9f46d627d3db601677efa40|2016-11-14|mitsuaki1987| #449 Add version file
+f8c39dbd6c7bdcb865bddc7b226b4519f65d9c44|2016-11-14|mitsuaki1987| #449 Update directory tree
+1fbfce4153e246baea1e9ba642b53128556c62c1|2016-11-14|k-yoshimi|bugfix for indicating eigennumber in EnergyByVec
+ff4861e9c8577c8cb41b5bba65d797454f2f07bc|2016-11-14|k-yoshimi|bug fix for calculating Sz in expec_energy_flct
+ca9800de4c39253ce6f950851aee9a023e2e3d38|2016-11-13|tmisawa| #445 add pop in expec_energy_flct.c
+d15e140e4e1782d6de41c09109579eb483ac65a1|2016-11-13|k-yoshimi|update manual
+ed6d621698cb39e4eca1b5428b99c48a5f75f18e|2016-11-13|k-yoshimi|#461 delete lapack option in src
+dfac56af789e593fe09518b60c4c962d2c92508c|2016-11-13|k-yoshimi|#462 change log message from expec_energy to expec_energy_flct in CalcTimer.dat
+64b896762807a715a6613a7e5c5d1ad85801fe86|2016-11-12|tmisawa| #445 make pop for  64 bit
+beea812c1e17e6052b9182e915e6f4107d40d81f|2016-11-12|tmisawa| #444 correct typos in tips
+1374db9324edb67c2df72484d1b7f9d8da962698|2016-11-11|k-yoshimi|add info for flct.dat and calctimer.dat
+4b9162cd824a17a37ec15e797716712c8af06906|2016-11-11|Kazuyoshi Yoshimi|update version info
+66aea7e0e6e777446483e117d21d6a990bedaddb|2016-11-09|mitsuaki1987|Merge branch 'develop' into kawamura454
+7a30b08b9a0b495769c83b66b7aa8034665fd37b|2016-11-09|k-yoshimi|bugfix for SiplusSjz
+683377039ebedf03c6d73b4fd5d6742f2b48c74b|2016-11-09|Mitsuaki Kawamura|Apply sekirei
+b331e596819d2d0854be287e409ce436cbf2f532|2016-11-09|mitsuaki1987| #454 Update Standard mode for spectrum
+033892c0d8255d5860422c07a01294a3792f871c|2016-11-08|mitsuaki1987| #454 Debug in MPI+BiCG
+d7d4bf5f80a733e1af1b5ae830723b8acdc80e97|2016-11-08|mitsuaki1987| Add restart
+b7068726f760b6175481efa5d994e037ad6e54c3|2016-11-07|mitsuaki1987| #454 expec_energy -> expec_energy_flct
+b3987758d2af46ef465afbf3e477096920f81516|2016-11-07|Mitsuaki Kawamura|Merge branch 'calcSpectrum' into kawamura454
+030f8a87a9c80303bb7093fe047d072d6742c18a|2016-11-07|k-yoshimi|merge develop
+06ba5da9d3a5a0a6725afe3a72234fe38a36b120|2016-11-07|mitsuaki1987| #454 Printing required memory
+10926b6747c3e30471362cd78f7b65b86f763cad|2016-11-07|k-yoshimi|solve confliction
+0ab967edaa09f066a4189b19fa0ac2ed2d5c4f41|2016-11-07|k-yoshimi|delete expec_energy
+d95c6df5a72bfb8424aa3c64200e91cfd0e71e47|2016-11-07|Yoshimi|Merge pull request #457 from issp-center-dev/develop_calcTimeTPQ
+0ca314181b06b1e1fbf26b6792f85467f2304e32|2016-11-07|k-yoshimi|modify clock_gettime_gemeral to ignore clock_gettime in the case of MPI
+0d8c7078293afd2c55d05e9a02e85c17093c0755|2016-11-06|k-yoshimi|add expec sz and sz2 for generalspin
+f3ae80daad506b61a19a1b1f8fc6032415711bfb|2016-11-06|mitsuaki1987| #454 Add Preconditioning with Point Jacobi method
+f1e1f2f4c4172dae51f4146e4175b8c336232dad|2016-11-04|mitsuaki1987| #454 Modify standard mode for spectrum
+cfec802b3a48ae6541a447eb5668347837ecbcde|2016-11-03|mitsuaki1987| #454 zhegv->Lowdin+zheev
+b20911cbc567781169e37d0768e47b13c78ea937|2016-11-03|mitsuaki1987|(BugFix) in threshold
+4773ff1b51c27e3839027e71a1c1fc156687dde3|2016-11-03|mitsuaki1987|(BugFix) in eigenvalue
+8e89efb1e6d08c0fe973cb0f8005fc7fc8f66abe|2016-11-03|mitsuaki1987| (BugFix) for energy
+d851da38abe564db8c876eb0026408d177898d3e|2016-11-03|mitsuaki1987|Backup
+4b6611ede88fc7420d75577baad55062a32bec5b|2016-11-02|k-yoshimi|change function name
+cc9eb6b771db172ff202f77cbca2b7e228b5d7a9|2016-11-02|k-yoshimi|modify name of variable
+8bcd7d61646206392ccbe23fce27f536ec38b170|2016-11-02|k-yoshimi|modify clock_gettime for MacOS
+c5f88c3b45d63d75152fc2f747c26a9c9131ef65|2016-11-02|k-yoshimi|add calctime.h
+38298ccea2423208df617afbc96654dbda848b8a|2016-11-01|k-yoshimi|merge with develop
+3ed3371452d89035c5109479940cd2e7d2d25e6d|2016-11-01|k-yoshimi| #437 add calctime for TPQ, FullDiag and calcspectrum
+0e530e76de302189e27c97fa26592ce85797e88a|2016-11-01|k-yoshimi|modify time.c
+15abb9dd93d7e6c2c68e24d529d18c0a2a6444a9|2016-11-01|mitsuaki1987| #454 Backup. It works.
+6447edc3c19cc9d07f87cbd500b358b1f45e24da|2016-10-31|k-yoshimi|Add an function of timestamp
+56426fb50be4e7391bb5c82f199fc5cbc8c303f3|2016-10-29|mitsuaki1987|Backup. It can be compiled.
+0e12242a2a9de3635f839722bbc7572a4a52816e|2016-10-29|Kazuyoshi Yoshimi| #452 not to output files in the case of  NCisAjt=0 or NCisAjtCklAuvDC=0
+356278e48e2ff00287a7718182f18a9659855951|2016-10-28|mitsuaki1987|Backup
+bb032ad1c44b6c0cc0f419b820faebce2e74d902|2016-10-28|mitsuaki1987|Backup
+e4a41b38256754a5ba67228870641807011287ec|2016-10-27|k-yoshimi|rename time.h as CalcTime.h
+cdb16a7a1a46f1bdec38bf00adcd18042e38bfa7|2016-10-26|mitsuaki1987|Backup
+2da09922450c45d7ecd676f3379540ddc8d785bd|2016-10-17|k-yoshimi|add header time.h
+bab4cc95923a7074b343eb2a52d08de58a042459|2016-10-15|k-yoshimi|solve confliction
+28c4920727edb4f47c4de3fbd7dff7868aaaab41|2016-10-15|k-yoshimi|modify to output log for TPW
+fced2344cba69c70e55cc4cf993423c21e482faa|2016-10-14|Kazuyoshi Yoshimi|revert expec_energy_flct
+bccdc22d526f6aa39a2b92bc505181a78564b81f|2016-10-13|k-yoshimi|Merge branch 'develop' of https://github.com/issp-center-dev/qlmpack into develop
+a6c02d75f8f52ad730e0960f2df4752c8f023006|2016-10-13|k-yoshimi|bugfix for expec_flc for SpinGC
+516f38f68998c1a4a8dfe3366fe8f8ad34501ff9|2016-10-13|k-yoshimi|bugfix for expec_flc for SpinGC
+0e5a75c6cc7c43704dca4e848367be24aed8fa93|2016-10-12|mitsuaki1987|Modify figure for honeycomb
+6fa17f7cf1463689a8c1efe03543a960472d1110|2016-09-30|k-yoshimi|Merge remote-tracking branch 'origin/tips' into develop
+66dceb6c46e1213f07eb90cf0c7dc1d2f298d83f|2016-09-30|k-yoshimi|add banner
+8e8879cb20ca9f7e66fde01f045ba83c76a757de|2016-09-30|k-yoshimi|delete needless files
+ef533e185a0c126431e380359bf0e4dd1fdd0cbb|2016-09-30|k-yoshimi|#430 add install in CMakeLists.txt
+653311960bcb6bb6f979b99b89d5f7174522c39e|2016-09-30|k-yoshimi|Merge branch 'develop' of https://github.com/issp-center-dev/qlmpack into develop
+e2b120c032dc1d4897d199b9b83aeada4957c45a|2016-09-30|k-yoshimi| #422 add option for optimization
+20e882db00c0ed15a6c44bc07237ca24a0d32c8b|2016-09-30|mitsuaki1987| #441 modify nvec in standard mode
+5a1a2d2587702c6e29befc61f4a53641beb8ee8c|2016-09-29|k-yoshimi|CalcSpec for Canonical Hubbard (multi process, single)
+bb7412d188effdc796c4a006c819112337515ed4|2016-09-29|k-yoshimi|CalcSpec for Canonical Hubbard (multi process, double)
+753d3284b701498d47af1c1e1df1ec58989aa456|2016-09-29|k-yoshimi|add sample of single excitation for HubbardNConserved
+eb31f3ed529e4cd6db6824b581fe765481204bd3|2016-09-29|k-yoshimi|add sample example
+deeb3cfade6c258b180ddd29c625278918862aa1|2016-09-29|mitsuaki1987| (BugFix) Imaginary part of pairlift
+03bf2f0ed53ac10efb96108e6f6c75049a228ee9|2016-09-29|k-yoshimi|CalcSpec for Canonical Hubbard (single process)
+6986b41363d2a80e699634d7a5bc249b41c20513|2016-09-28|k-yoshimi|update to calculate spectrum for Spin model
+9d8fe14931ffb0e887b0fba0987a62a37b9458a0|2016-09-28|k-yoshimi|pair excitation for Spin Canonical (single process)
+2f24ded62697e0e79144dd8728b0dc15eec77978|2016-09-28|k-yoshimi|bugfix for using M_CALCSPEC
+de8937c612e0bd6521af945725faf219e1f1f390|2016-09-28|k-yoshimi|bugfix for calcspec for HubbardNConserved
+b04b0ef2c523d46f2071a9edc33b28e555cbaeea|2016-09-28|k-yoshimi|modify to calculate Hubbard NConserved
+33b911a241c613653ef1addc575befc1ba15f661|2016-09-28|k-yoshimi|bug fix for singleex
+349950d39158c8d9e81c59f74d7c323f0c942780|2016-09-27|k-yoshimi|bugfix for calcspec canonical
+0646e8a31e479c632cf0d1fba47872a747feaf3b|2016-09-27|k-yoshimi|delete debug comment
+54780b921f803e8d04146575e48b3a7769286068|2016-09-27|k-yoshimi|bugfix for CalcSpectrum for SpinGC
+910155524ab3d81e09d32e96ab8312523df2ef20|2016-09-26|k-yoshimi|bug fix for calculating list
+be52f6bea06b75eb90615b50d951ece0b7a0b60e|2016-09-25|k-yoshimi|add singleex
+9147f574a0fdcb4ba1201bbbb83a06a9f41b6a26|2016-09-25|k-yoshimi|modify sz
+a049c4125aff4e006f0c19003f2b31ca06a32f1a|2016-09-22|Takahiro Misawa| #444 add tips_No1
+f9c0efd6eac05083f1086aaeb1350fea91d4be75|2016-09-20|k-yoshimi|Merge branch 'develop' into calcSpectrum
+bb40d6d70b2b9cffdff229fce3f4d4b20e194632|2016-09-20|k-yoshimi|modify chap.4 in jp
+ede7094df5fde564e3c45f68e4f88db859bc0a56|2016-09-20|k-yoshimi|Temporarily
+96a5077181fc3d545655737dd6c6dc345e3afe60|2016-09-20|k-yoshimi|modify not to use nvec
+68e8b8660dfdde944f4788ba8e00ef300cea1403|2016-09-20|k-yoshimi|delete description about nvec from manual
+601d0a7bad36a44b9ae4787cb18a802b2fdb3ebf|2016-09-19|k-yoshimi|add function of single excitation state for canonical.
+14f0c7468e272a94e45900721c5b2584866c74e0|2016-09-17|k-yoshimi|Merge branch 'develop' into calcSpectrum
+aae6a6b991ad34b3296169950a59ac32a81e65e7|2016-09-06|k-yoshimi|modify doc about restart
+4b0ffd6e4c8937d841f36424208c564b9697e014|2016-09-04|k-yoshimi|solve confliction
+a502c25c9b34f2202e44b7f4db2ec98ebd941a1e|2016-09-01|k-yoshimi|skip blank line in namelist.def
+8c5572830d3ad32eae76dad76f0523f89c4365c7|2016-09-01|tmisawa| #437 add Timer
+22158de3151bcde11b7d7941f1c59d6b3f87ac3b|2016-09-01|k-yoshimi|solve confliction
+dcf57e412921f4bf500df46f10fb11bef9713c54|2016-09-01|k-yoshimi|resolve confliction
+83ac2890931b949dd75d77728d2d19d792fbb821|2016-09-01|tmisawa| tentative
+272e3123c6cd4ad86f554a48a65eb50e005c07d5|2016-08-31|tmisawa| #434 rename
+c571d3d466dae341aec64eefd95f063729df5186|2016-08-25|tmisawa| #434 add expec_energy_test.c
+e0e242dbf29cb8e682e774cc4e5da8a1ec3cc32e|2016-08-24|k-yoshimi|Merge branch 'develop' of https://github.com/issp-center-dev/qlmpack into develop
+2419accbbded77b3f342938135ca29cba35e8326|2016-08-24|k-yoshimi|bugfix for Normrand and outputting step number.
+172149301a3e3ca4f9f2c2fda299e5647ee7a8fb|2016-08-24|tmisawa| tentative
+ca168d9c966983709c568b72a0bf4eab666f8c47|2016-08-24|tmisawa| tentative
+8ec2dcc348b3cd5ad34c0f2903152578a7d813cb|2016-08-24|tmisawa|Merge branch 'add_phys' of github.com:issp-center-dev/qlmpack into add_phys
+8844c67e258a62d667331a368afe76c0e7ec6c6b|2016-08-24|tmisawa| #433 fixed bug in sdt_norm
+eef054e5a8373b795ecb4d908a4ce11f7f571056|2016-08-24|tmisawa| #43 fixed bug in sdt_norm
+80854f3a69324c7140d4d92ea6d33e3a69a5d793|2016-08-23|k-yoshimi|use fgets for readind qptrans.
+289354bc2ba68b9daf049a85f90e69cc4867606f|2016-08-19|mitsuaki1987| When "-v", sometimes it failed.
+cdd93034e2707e476c0f541dab9c1fac9ef39b18|2016-08-17|mitsuaki1987| #421 Add tutorial for FullDiag+Spectram
+c2f312a4a536698218f186ea3fe2feeccbae1ed5|2016-08-17|k-yoshimi|delete useless file in src
+bf0732c9a91be75de2587daa935d624ebb94194a|2016-08-17|k-yoshimi|delete needless files in samples, doc.
+67a6293eaeb36eae200c421cac95a37f9a5b35fe|2016-08-16|k-yoshimi|delete nvec #411
+f2a5e2c587bdf7f500ca684bcd865e6cea3d0ef2|2016-08-16|k-yoshimi|Merge branch 'develop' into calcSpectrum
+dcb2beda9dfedeafe15fb105c12f3048ec5040a9|2016-08-16|k-yoshimi|add samples for CalcSpectrum for Lanczos
+df7b6df111a9f2f89ab083c950c66e9a9ebd720d|2016-08-16|k-yoshimi|delete needless files
+5fb11235e3e92eafc65767af2e733db4cbdf2501|2016-08-16|k-yoshimi|Revert "Merge branch 'develop' of github.com:issp-center-dev/qlmpack into develop"
+1150a579ce547c2060b2d3edb715b54f81378cbf|2016-08-16|k-yoshimi|add sample for Spectrum for TPQ
+0cb34a770e7ef51cd47737d2998c0b7fb84adbe4|2016-08-16|Yoshimi|Merge pull request #432 from issp-center-dev/calcSpectrum_ReadTPQ
+c1ddb7eb560fcba70eaf01e4e3cb78992eee67a5|2016-08-15|k-yoshimi|add sample for spectrum for TPQ
+3b6420a1da5c8fd5146120563a315010abee4256|2016-08-14|k-yoshimi|modify variables
+ad2e1772f8de0c98b257751135173721e366dbd7|2016-08-14|k-yoshimi|clean variables in readdef
+412257ee7da728dd376c6ec4853a8bb37e06f590|2016-08-14|k-yoshimi|delete needless file
+0ef2365014946bcb51d4d01293695dc0a418f7e7|2016-08-14|k-yoshimi|clean variables
+2595905a2d71b3eb7d2c91bfdb895d934ace0e15|2016-08-14|k-yoshimi|merge develop branch
+a1e88bdcb66be4ad15d533fd0717367bf327eef6|2016-08-14|k-yoshimi|modify error message
+b6c21a2025562990657a30fed4b3c8016b9b0d48|2016-08-14|k-yoshimi|add test data for checkTPQInput
+dd7cc34bf1141240cb8ead9eb207e39887156dfe|2016-08-12|k-yoshimi|modify outputlog for TPQ
+7f2c0c658e5cb51fce18b19612820401a81a08c3|2016-08-12|k-yoshimi|delete needless files
+22cfd7b31fcc7875aed5b42f30582ea616fc045a|2016-08-12|k-yoshimi|modify file formats
+a3f8d7ad470d9ca36aa24e148e105b5f73d55254|2016-08-12|k-yoshimi|bug fix for reading TPQ input vector
+5e3a875dbb87687a2ebf0e53b32012b677fd0871|2016-08-12|k-yoshimi|bug fix for output TPQ
+688adab4e97542da81e232ee9fec4525bb1c26f1|2016-08-12|yyamaji|test/sampleReadTPQ is added
+e1a59ec813e600438002ee8d7fef38262bc49185|2016-08-10|mitsuaki1987|Merge branch 'develop' of github.com:issp-center-dev/qlmpack into develop
+ee83a4824c99955910d48630f401279a28d1dfd2|2016-08-10|mitsuaki1987| #429 Put the format omitted
+19eae7ed6759d51b3ed805564d0f962136f975ea|2016-08-05|k-yoshimi|modify for storing vec in TPQ
+a341adab4d89934239f96a27e404a9b92b67f513|2016-08-04|Mitsuaki Kawamura| #415 Add Na2IrO3 with Boost and InterAll
+ee89899e3a66e23018afd5c01d577cd626e7a36a|2016-08-03|k-yoshimi|add procedure for calculating spectrum for TPQ by Yamaji method.
+30f126c7266a0fc9fc68b796dc3992c200b542a0|2016-08-03|k-yoshimi|Merge branch 'develop' of https://github.com/issp-center-dev/qlmpack into test_spinMPI
+05dd497ac211916c00342eca465054998c593e85|2016-08-03|k-yoshimi|bugfix for spinMPI cisaitcjuaju
+3d2fd91987a33c5eeefdc7f37d38ed9b571d9411|2016-08-03|mitsuaki1987|(BugFix) in MPisingle + SzSx
+dc7023a022271f8d4ae2fd2cd7b119320c59fdee|2016-08-01|k-yoshimi|add description of output files for calculating spectrum
+44f752aff2950998ed9893a13c54c4acfe451969|2016-07-31|yyamaji|gKitaev32Boost is added
+cc4055125a504edf13607f5b415808ae028d4548|2016-07-29|k-yoshimi|bugfix for log message
+0b37f8eca689891726e316912064e83023ae61ac|2016-07-29|Kazuyoshi Yoshimi|delete needless files
+be4c93af54b8ca4b33adc2ef754d05d52f13abfc|2016-07-29|k-yoshimi|modify message
+ac8950a5da8d80865f96ddad8b03cce0c940e415|2016-07-28|yyamaji|PyrochloreBoost is added
+6b9c2a12e8a9dc8d53931e43d1f20814679d3cc5|2016-07-23|k-yoshimi|add keyword for target rand for TPQ
+1551dfb6cc928b09bc8b9865e750f32a18a13bb8|2016-07-23|k-yoshimi|Merge branch 'calcSpectrum_ReadTPQ' of https://github.com/issp-center-dev/qlmpack into calcSpectrum_ReadTPQ
+5e7d3a7ab62172b18d01f40da36da5ab7c59b9de|2016-07-23|k-yoshimi|add function of read TPQ data.
+61fed708ecb45f73df1b00538716c264f0276bde|2016-07-23|yyamaji|CalcSpectrumByFullDiag_mod.c is added
+98e298ffe26f21713f6b196a305cbafc362d16e7|2016-07-23|yyamaji|CalcSpectrumByFullDiag_mod.c is removed
+156b13a6283b2a4d957ed4f291c495443c6c881b|2016-07-23|yyamaji|CalcSpectrumByFullDiag_mod.c is added
+7cbd4e7cb3b4ed12e65e798cc1779f606df0c498|2016-07-20|k-yoshimi|bugfix for readdef
+85b8264b85d68bb7c1b58ac0bfc2f1e78fc37754|2016-07-20|k-yoshimi|add description of calcspectrum
+6ea9ae8c2bd24a394c5e28b512d57628884c184c|2016-07-19|k-yoshimi|add descriptions of restart.
+5552ed83268e9c8f25828228233dbd60077bd469|2016-07-19|k-yoshimi|modify input vector
+d68ba0b434fd8357049948278d021cd22da9df69|2016-07-19|k-yoshimi|Merge branch 'develop' into calcSpectrum_merge_develop
+020542312045ef274fd200f495092111c89072b6|2016-07-19|k-yoshimi|modify output for Lanczos
+defc3e86e0a10bf437d1c39f17da0ea39238863e|2016-07-17|k-yoshimi|#405 start calculation by normal procedure when input vector does not exist in TPQ
+52213a78c18e1f005436a31d1fdc32e1cc4892c8|2016-07-17|k-yoshimi| #405 add output vec procedure in TPQ
+e4a532461381533b65352f25351183b4f68e44ed|2016-07-14|k-yoshimi|remove needless files
+a9902363e3cdea7df2eb815eb70c3cfacc0a8a60|2016-07-14|k-yoshimi| #405 add keyword
+5daf1d44c9ce18a8229f3e0f89bba1b8e34eaa24|2016-07-14|k-yoshimi|fix for spll miss in doc_en
+8dd65570383cf875eab0bd99a9807e01892cdc1d|2016-07-14|k-yoshimi|modify spell miss in chap.2
+8db348be5490cdc4403c1b3e254aef249314a59e|2016-07-14|k-yoshimi|Merge branch 'develop' of https://github.com/issp-center-dev/qlmpack into develop
+6e662707c34fddc85eb2a89da980600e6094070b|2016-07-14|k-yoshimi|#389 add description of Sz non conserved system.
+e73c285ad3ca78cfa0de6b8ec73265fca09c62c7|2016-07-13|Mitsuaki Kawamura| #415 Modify memory allocations for the TPQ
+b579c22070681c54662e9b6641de847f3f2898c7|2016-07-13|k-yoshimi|modify file name of TPQ_Step to Time_TPQ_Step and add description of this file in manual.
+829d199759f13bd27cf577fa60f65424d973805b|2016-07-13|k-yoshimi|bugfix for message of i_step for TPQ
+d0701b48363dcb01729d57905efb64d6f9cc03a8|2016-07-12|k-yoshimi|modify log message for TPQ
+4f05a77145cf89bc164b9d1f45c30e26221f52fe|2016-07-07|Mitsuaki Kawamura| #269 (Fix) Samples for Boost + Expert
+0d8663e7275e2c2366951463b02065b6fdb131aa|2016-07-06|k-yoshimi|delete needless files
+6908bffe5507f5441cff13ed1048f4f993cf75b3|2016-07-06|k-yoshimi|modify sz.c not to use global list_1, list_2_1, list_2_2
+48dd69f1250242839ed35d246eee490672b77f03|2016-07-05|k-yoshimi|solve conflict
+75036e6e5dac7517fb48cb28af3b9f711e23ff8d|2016-07-05|yyamaji|samples/Expert/Spin/Kagome36Boost2 is added
+9ab1debc4967b2bf6b9be58353dcbebf40500fe0|2016-07-02|k-yoshimi|modify to use type
+b657ccaf71ddc840142bb6cf57e31b5dce345ed0|2016-07-01|k-yoshimi| #410 add treating error procedure
+6ba856084b8af19ef8d6f897a4b42f73a6bf5077|2016-07-01|k-yoshimi|clean files
+ae3a49e9a04920cebc2a1d08efa9ac39fda2f5ab|2016-07-01|k-yoshimi|delete needless file
+a1196fbb68599e48ed7bf415cf4962dd21de8e45|2016-07-01|k-yoshimi|modify convergence
+7226fb6c4e039568f9bd92f3075e2b308fe25314|2016-07-01|yyamaji|vec12.c is modified
+78975f4107f9b5b85a5d8146904886f2cbd5cf03|2016-06-30|k-yoshimi|#409 bugfix for vec12.c
+d15bc9f16893afa18fb4027ad006fe2ac7d549d4|2016-06-30|Yoshimi|Merge pull request #408 from issp-center-dev/output#407
+cd760b875c9727c570435119aef90f98601d0d40|2016-06-29|k-yoshimi|solve confliction
+6d00d7416b11d8acfcd91d242808f96224f39541|2016-06-28|k-yoshimi|#407 add log messages
+844b2fe28093ee91fe0276efb5a6d2d57551e648|2016-06-27|mitsuaki1987|Merge branch 'develop'
+26bd8187c734971c2366b760257b9d8752817908|2016-06-27|Mitsuaki Kawamura|Merge branch 'develop' of github.com:issp-center-dev/qlmpack into develop
+b9cb91293fdc100a0b236066f9bbec4cc01555dc|2016-06-27|Mitsuaki Kawamura| #406 Update samples
+be2cfae5f49170edd20aac68531b9c4debdc8f08|2016-06-27|k-yoshimi|modify the procedure to count diagonal term
+b1fef7ec5c2bae237ba47decf24e90e702599d34|2016-06-25|Mitsuaki Kawamura|Update version number
+2ecdf525bbd25d2b49b56c59eefe1b05245eb473|2016-06-25|Mitsuaki Kawamura| #406 (BugFix) In Hubbard+canonical+Hopp+MPIsingle   mask1 & state1 should be long int
+8e5a6670761c677f7e57dd786c1a6755c26b4885|2016-06-23|Mitsuaki KAWAMURA|Merge pull request #403 from issp-center-dev/AddRecalcForSpectrum400
+2b7f30bde680c009ff6676a0bd739113099240e2|2016-06-23|k-yoshimi|add test for restart double
+460d0d7cf744c0d679fcc1db0ce40db15e59efb9|2016-06-23|k-yoshimi|merge calcspectrum
+a1ccc3ac9b4f22e228bfd40157acb01709de221c|2016-06-23|k-yoshimi|merge calcspectrum
+3300c9bd192176fae0383f08792282de9d3fc8b3|2016-06-23|k-yoshimi|bugfix
+e1f358551ebc7c0e27f49b4bf8895b41829d9495|2016-06-23|k-yoshimi|add error procedure for not match the step between input vector and TM components
+4c1228dd7e05878351a31dd8413471ffe4e03ace|2016-06-23|k-yoshimi| #400 add functions to restart
+cf4d649791c1314a2e2536f7256b5a7a65f1eb81|2016-06-23|k-yoshimi|#400 add function for restart procedure to calculate spectrum
+8b2c5247cbb746e6db739864bf10dd1cc3d8e3e7|2016-06-22|k-yoshimi|modify name of output file
+c8a038087c5c66654aaacca767715664f5cb090c|2016-06-22|k-yoshimi|#400 add function of output recalcvec
+7f808a1229ad782c1840ba66109367871a71e2f9|2016-06-22|Yoshimi|Merge pull request #399 from issp-center-dev/calcspectrum_log398
+4b1329f898f43d259bb98afcd370ed1ec5bedf3d|2016-06-22|k-yoshimi|a#400 dd recalc function and test for calculating spectrum.
+e0ff0286501058ee8a3682aa88ca2be138c27aef|2016-06-22|k-yoshimi|modify X to &(X->Bind) in CalcSpectrum
+800c9b31ceae57275bd6493265b47b7c58f7fa9c|2016-06-22|k-yoshimi|modify X to &(X->Bind) in CalcSpectrum
+27b9be8b3879b5b39dc73aa5ff5177299fce0329|2016-06-22|k-yoshimi|solve conflict
+196e1bfaf60357b24d508dd17e076c1efa200a4e|2016-06-22|k-yoshimi|modify X to &X->Bind in CalcSpectrumByLanczos
+0f828ddb38752467b6cc3921c55ed10322aa6052|2016-06-22|k-yoshimi|#398 add logs for calculating spectrum
+354669aed89681196b7f9c74bc7c6e42eb6ee8df|2016-06-21|k-yoshimi|merge develp
+82400a8165a5e18dac26d55e32abef0de34f741d|2016-06-20|mitsuaki1987|Merge branch 'develop' of github.com:issp-center-dev/qlmpack into develop
+9a7944857e87525541fa3a6ebd7e3e8c0af7c0fa|2016-06-20|mitsuaki1987| #394 Delete font setting and waste line in lattice.gp
+8a92eca1860b1411d21d489da32b641004a7538c|2016-06-20|mitsuaki1987| #390 Add description for the outputmode, Bogoliubov rep.  Figure .eps -> .pdf for rapid generation of userguide_*.pdf
+f1456fa740b47f7c06181bbf1a8d70f1ed84210f|2016-06-20|Mitsuaki KAWAMURA|Merge pull request #396 from issp-center-dev/modifyCalcVec395
+787b9ece90cec7d41a99576fff00a5d08ef06970|2016-06-20|k-yoshimi|modify gitignore using gitignore.io
+b8f6c43b943e33967682554880851e67a29586d4|2016-06-20|k-yoshimi|delete needless files
+3763ad0adca79f8dfdddd8d293c878c5d3a3fe6c|2016-06-20|k-yoshimi|#395 bugfix for calceigenvec
+e7129c73ee959119459c3be5b9f9e926c8b12c9b|2016-06-18|k-yoshimi|Merge branch 'modifyLanczosOutput' into develop
+b9a5a23fe020f4415b79fb7c3913080b6532e5f9|2016-06-18|k-yoshimi|modify message for TPQ
+792d184c32e9ff8698ed76cdd3284e0ea9612366|2016-06-18|k-yoshimi|modify TimeKeeper for Lanczos
+9db8f0a807c7da81bed57baea8c9c192c132ab07|2016-06-18|Mitsuaki KAWAMURA|Merge pull request #393 from issp-center-dev/modifyLanczosOutput
+ad96086a83e167deaeeeff4615d76a58cd12884b|2016-06-18|k-yoshimi|modify output style
+7c5af337192b55c54b6ecb772240371a5b7d8f6f|2016-06-18|k-yoshimi|Merge branch 'bugfix_for_countLines' into develop
+03856544522afebfddf29c591e530df7256faa76|2016-06-17|k-yoshimi|modify from exitMPI to return in readdef.c
+bccb9544d70b0733b378c81ec3c00082ca214dd2|2016-06-17|Mitsuaki KAWAMURA|Merge pull request #392 from issp-center-dev/bugfix_for_countLines
+3baae689d42dd406ebf804cf18bf518acc34ce72|2016-06-17|k-yoshimi|delete needless files
+9815f09b2f3cc6196da45f176d9ce51707203650|2016-06-17|k-yoshimi|#391 upload test
+4a609f5fe1a561191adb097f27116731436523e5|2016-06-17|k-yoshimi|#391 bugfix
+eb64fedec1cc66f3d10d98e2de6c2207d7b66666|2016-06-17|k-yoshimi|bugfix for HubbardNConserved
+70a66f7f71b88ef5774a977cc73c0016f30fc8ae|2016-05-30|k-yoshimi|modify CMakeLists.txt to include CalcSpectrumByFullDiag.c
+2c0668d8bcdc5aa0bbabc62754368ceda1d5e729|2016-05-30|Yoshimi|Merge pull request #386 from issp-center-dev/kawamura371
+0be4cc40b43cb77d85b4eb0ca5af53028602d750|2016-05-25|mitsuaki1987| #385 Delete the second largest eigenvalue
+ec288fc1870c7a6da970960c51ec77d9fcb51a20|2016-05-25|k-yoshimi|delete needless lines
+01ad968ec6de870731eafebc1d1a7884b9557961|2016-05-25|k-yoshimi|modify to get keyword number automatically
+5cbc06f0f2e6f20d1c2345db78f86643e72d32b5|2016-05-25|mitsuaki1987|Merge branch 'develop'
+426b210890b9835b2d99114a8e40d72a17d5973e|2016-05-25|Mitsuaki Kawamura| #357 Update samples and version number
+e8d29d32c43f70d236f0db909ead0c41eb45c96f|2016-05-25|mitsuaki1987|Merge branch 'calcSpectrum' into kawamura371
+029b3b0d2d988d7e19e9a061f227134a85aaafe3|2016-05-25|mitsuaki1987| #385 Print the second lergest eigenvalue for the default omegamax in the pectrum
+c8a99a5eae4b0578b4b5db32ce96f9c457a3d66d|2016-05-24|k-yoshimi|add output dnorm for CalcSpectrum
+b4d625ce2c390b22f1e6a17e38387a1cbfdf4920|2016-05-24|k-yoshimi|delete output for debug
+a288fe99e2ae75f2b51345d5ba9b3dfa584dab69|2016-05-24|k-yoshimi|delete output for debug
+ea2dead8b9f12e11bfa3d9858e315229e1a989f1|2016-05-24|mitsuaki1987|Merge branch 'calcSpectrum' into kawamura371
+f9f6f5630677979542fb10dc47f67ae583879ed8|2016-05-24|k-yoshimi|merge develop
+3182dcc5945ae997356322b318636ee0d1f4e95d|2016-05-24|k-yoshimi|merge develop
+ea9db5ae032d62593d035fa5179ff5b5a66b8131|2016-05-24|mitsuaki1987|Merge branch 'calcSpectrum' into kawamura371
+2a4d40bf103b720ba0cc92a3a2750fb1662bff77|2016-05-24|k-yoshimi|Merge branch 'calcSpectrum' of https://github.com/issp-center-dev/qlmpack into calcSpectrum
+3a2780f2d9635db03ecefc3657524634a5746b3c|2016-05-24|k-yoshimi|merge develop
+207a1d914632e54520ffaf1a979fc911e757bcb6|2016-05-24|k-yoshimi|bugfix for checking interall for Kondo model
+347dad15b629d99781be3d84157c80518f4f93db|2016-05-23|mitsuaki1987|Merge branch 'calcSpectrum_kawamura' into kawamura371
+60be6d1ff685c193055f49f71cc1f146057c0b98|2016-05-23|yyamaji|checkLanczos0 is added
+b65a6f79e6a1d847c46f0506798c600fdb17b2cf|2016-05-23|k-yoshimi|bug fix for return value in singleex
+99cee0d622b9e4f3ffce95043178d39ce0aaf5d3|2016-05-23|mitsuaki1987| #363 SpinGC + spectrum test
+0f104537bac3b7a6ac4a7444502bf33a8938d728|2016-05-23|mitsuaki1987| #371 Small modification
+65a98f03ae498149009618de8439d774cdd471dc|2016-05-23|mitsuaki1987| #371 Add functions for computing spectrum with Lehmann representation CalcSpectrum.c : Set omega grid inside this routine. Add a function for outputting spectrum. CalcSpectrumByLanczos.c: Move parts for setting omega grid and outputting spectrum to CalcSpectrum CalcSpectrumByFullDaig.c CalcSpectrumByFullDiag.h : Main routine HPhiMain.c, check.c DefCommon.h, xsetmem.c: Add a flagSpectrumFD makefile_src: Add dependence
+c97b3b7ee561b3db61770f95234fea49cc1b4759|2016-05-20|mitsuaki1987|Merge branch 'calcSpectrum' into kawamura371
+75a5ccdadbd33c6772056ccc3bdba36055175dc9|2016-05-20|mitsuaki1987| #371 CalcSpectrumByFullDiag.c : Compute Green's function with the Lehmann representation.
+0f29847e7857e8814c0854d0aa2745e9a3b48a5b|2016-05-20|k-yoshimi|Merge branch 'calcSpectrum' of https://github.com/issp-center-dev/qlmpack into calcSpectrum
+a02d585a2663d588fb75b1a6473b0324d22fed7b|2016-05-20|k-yoshimi|move functions of getting singleexcited and pairexcited states from CalcSpectrum.c to Singleex.c and Pairex.c
+fbb895cd5c902ad0235f9774df62e1182c87c4a9|2016-05-20|mitsuaki1987|Forgotten in the previous comiit
+97fa7d9a0127fa0529a77cbdaf3f0f418d954a9f|2016-05-20|mitsuaki1987|Add MPI+gcc
+c2bda4aaf24d4c6b119eac0347375e73364b48b3|2016-05-20|k-yoshimi|modify return values in HPhiMain.c
+6aa8b781b5f8cb7998fcf3162aa66822a4abeb4e|2016-05-20|k-yoshimi|modify return values in HPhiMain.c
+fd5648410104d98c7a1b4b6b29b9f593773d613d|2016-05-19|k-yoshimi|Merge branch 'calcSpectrum' of https://github.com/issp-center-dev/qlmpack into calcSpectrum
+a3c092b23efdfc6ff77cd574fb78d0214da527e0|2016-05-19|k-yoshimi|Merge branch 'develop' into calcSpectrum
+0114266b3664a4991e0dbf7731d69fe6a4f0619a|2016-05-19|k-yoshimi|bugfix for reading readdef.c
+0ef4089c3925babbe986ac18a2b70d694b64ad39|2016-05-18|k-yoshimi|add sample file for pair excitation
+918d69fe6fde9474b56f2a6672084435740e64d2|2016-05-18|k-yoshimi|bugfix for NormMPI_dc in wrapperMPI
+8357be0027d4550557aa079062bb84ba09b615c4|2016-05-17|k-yoshimi|#379 modify function of inputting eigen vector
+68d2ce8fc216bd0fa6e97370272dd907f409d7d1|2016-05-17|k-yoshimi|#379 modify function of inputting eigen vector
+d8d3cdc60e647b9608c5a768f262414d2ddbad67|2016-05-17|k-yoshimi|Merge branch 'calcSpectrum' of https://github.com/issp-center-dev/qlmpack into calcSpectrum
+0a0bef33e0e8a9e64601771136696785eec3fdd4|2016-05-17|k-yoshimi|modify to input eigenvector for Lanczos method
+c04991f43278fb61880c6929cbed12fc82c00ea5|2016-05-17|k-yoshimi|#379 add error procedure for inputting data
+8014d755837992876992ebc0b31550eea7d4610c|2016-05-17|k-yoshimi|bug fix for SingleEx.c
+896822a4031a5a156418a79a3d1a2477c8996986|2016-05-17|k-yoshimi|Merge branch 'calcSpectrum' of https://github.com/issp-center-dev/qlmpack into calcSpectrum
+aa5e7ac4cc25ca8abdca41ae3eee83693d3a6eaf|2016-05-17|k-yoshimi|fix for closing fp
+5185d1904d08a1ba3d45b4c10b7f90f9c5f0282f|2016-05-17|yyamaji|new test dir, checkspectrum2, is added
+84a5e2dfd3ce2104acdf919e982f3fcc7bb4ebe4|2016-05-17|k-yoshimi|modify for calculation of spectrum
+54abbc99b6a38116ba39dfe702eee84d660b446a|2016-05-16|k-yoshimi|#379 add output files for calcspectrum
+bd193af3d8d49543e70ca78a9953ffb37decadb0|2016-05-16|k-yoshimi|modify output
+0511594aad608b2525c942af82972be1831f3c04|2016-05-16|k-yoshimi|modify GetSpectrumByTridiagonalMatrixComponents
+5289e7bd29de063914fbd80224b7d0264bb0ee87|2016-05-16|k-yoshimi|modify functions of spectrum
+269e3c1af14b92b2e26719567435cfe40be4bc51|2016-05-16|k-yoshimi|modify xsetmem.c
+4ccc4f7550fd835550c7c46822638572c745e6cf|2016-05-16|k-yoshimi|add number of chemi for xsetmem.c
+e9c75b01e5b51f7320d24f676b5b31c2d9ed354b|2016-05-16|yyamaji| ""
+e246fbd2c2c5d3bc294a10fa32771690cd8d8fd1|2016-05-16|yyamaji|Merge branch 'calcSpectrum' of https://github.com/issp-center-dev/qlmpack into calcSpectrum
+838a3038fe61519a58a45470862748367f3cb43e|2016-05-16|k-yoshimi|add procedure of reading keywords and files for calculating spectrum
+dc7200933ee8e6722fd92ca308c2182f208ec3a2|2016-05-16|k-yoshimi|Merge branch 'calcSpectrum' of https://github.com/issp-center-dev/qlmpack into calcSpectrum
+a9cb3292857a9fdeb2eff5a2112a4a1fabe8d6bc|2016-05-14|yyamaji|Merge branch 'CalcSpectrum' of https://github.com/issp-center-dev/qlmpack into calcSpectrum
+2b782bdef9f89db8c45bd4d0c984d15e4e64d2e6|2016-05-14|yyamaji|Merge branch 'calcSpectrum' of https://github.com/issp-center-dev/qlmpack into calcSpectrum
+8e119af316fe42417ce9a0ddc3456111bf95d4ee|2016-05-14|yyamaji|SingleExcitation added
+59fc3c6875d165f9231ab1e1e7e8cb978ebfa203|2016-05-14|k-yoshimi|Merge branch 'calcSpectrum' of github.com:issp-center-dev/qlmpack into calcSpectrum
+7d99626d23262c06b3949d370ce4eb3b5cc932bc|2016-05-14|k-yoshimi|change from v1 to tmp_v1
+3a1fbea21b04af0ea3b4a24d37dd8438863ec1e2|2016-05-12|misawa| #352 ficed bug for calcHS = -1
+35499f26e79bed46f51aa8fa05882f781cb45aec|2016-05-12|Yoshimi|Update README.md
+ec1435304c746ce1a8e9fc86ce9ec72ae0059e0d|2016-05-12|Yoshimi|Update README.md
+66ecae2bc479773c075dd980b3dd593f363d0d9b|2016-05-11|k-yoshimi|modify version info in tex.
+caa7f52d32b2cd642704a3c3a97f5e22bf59071e|2016-05-11|k-yoshimi|Merge branch 'develop' into CalcSpectrum
+91be38bfddcee2e2d5bd4f70fafdae3be527cd29|2016-05-11|k-yoshimi|merge develop
+5c3eeb1a86a6e203dfc1683e1f069e2f54fd7e02|2016-05-11|k-yoshimi|delete needeless functions
+91f4c4b5da5458756db6f908d7a9519d525d559c|2016-05-11|k-yoshimi|merge HighField
+16d8c114a2155abc928c0e8cb3150632b5c158b9|2016-05-10|k-yoshimi|#352 add error procedure for CalcHS.
+860dfc8d8fe81d14199a3caac21bdf89c0825935|2016-05-10|k-yoshimi|merge with develop branch
+854ee409b2814ed6df5209a6c8b0c941143a3e1d|2016-05-10|k-yoshimi|make function to read keywords and argv without dependence on neither uppercase or lowercase.
+1c077c0a5882eb156758829958c8127250521d49|2016-05-10|k-yoshimi|change from abs to fabs in HoneycombLattice.c and Kagome.c
+89de161b8eb6ffdc1a436690cbd03c7901c14291|2016-05-10|k-yoshimi|modify readme.md
+897b2ddd71ee2881d1e5e9af1e7479d5e66d4cd2|2016-05-10|Yoshimi|Update README.md
+324c1ae03d79ab5c633e60846089467024142fae|2016-05-10|k-yoshimi|modify version number from ver.1.0 to ver.1.0.1 in splash.c and readdef.c
+b22b6956b8a3c373d660c47f731453f32cedf234|2016-05-10|k-yoshimi|modify to use getexcited state function
+c252e31b16e6d1625b621a2eae4e5c5187056c1d|2016-04-27|mitsuaki1987|Delete trashes
+db23a6b0d981e0b27b4f6b1c574a4c7afeeb1eae|2016-04-27|mitsuaki1987|Merge branch 'kawamura370' into develop
+00c00cd001c972c1b2f83f512f87067b5180ea43|2016-04-26|mitsuaki1987|Add description for SR16000
+919d94a51144daf1df07954f452a1fd2d75fc624|2016-04-25|mitsuaki1987|#370 Apply SR16000
+7531f4d65f82e941f1b0291c6bc0a73d3bd6aed6|2016-04-22|mitsuaki1987| #376 Update manual for the random number
+d55fbc25969c31bb50ae0e3941f8f1f49fbdc133|2016-04-22|mitsuaki1987| #367 Parallelize in generating initial state
+cb9e822f2f4b514c60aa915d43e70fdca8d06e48|2016-04-21|Takahiro Misawa|Merge pull request #369 from issp-center-dev/debug_multiorbital
+a328d3609a4fabf036366b637da836d0345d427a|2016-04-21|k-yoshimi|#368 add comment
+321252230c1f1a4ae99a901e3263ab32d7b82958|2016-04-21|k-yoshimi|#368 bug fix for sign of transfer
+701296c0e247de949a568d63516fa9c0f7125ce4|2016-04-21|k-yoshimi|#368 bug fix for hund term
+e13ae7635ff48b8c45adfcb5e30d733bc9f62f67|2016-04-20|tmisawa| #368 update
+26df30c0bfb9f2fe389c90428d411329c599f551|2016-04-20|tmisawa| add  check_debug_multiorbital
+3204c7506e9cfbf2c9692410f036da5800aeca16|2016-04-20|k-yoshimi|delete needless output messeage
+1325865c7a48a9017719107afde7366022ac9acf|2016-04-20|k-yoshimi|bugfix for readdef.c
+8ea2973b091070d515868abfbe2b7baa4f822699|2016-04-19|k-yoshimi|add diagonal procedure for hund term
+1cdd7e969887b5a7d855d6472c27905d5f5cf76a|2016-04-19|k-yoshimi|bug fix for output Sz.
+d2c847ecc89e46b3ca4b243627da39634c54f466|2016-04-19|tmisawa| #368 add multiorbital
+768e9e55b67435d3ef401754159a52a93a90dd4a|2016-04-14|k-yoshimi|modify CalcSpectrum.c
+7be1c665de95f67dbe168dab1f60290b7ca0c539|2016-04-14|k-yoshimi| not test: add a function of excited pairstates .
+26b637ce3e13ec3258441c083c307ff6b1a42d86|2016-04-14|k-yoshimi|comment out a function of excited pairstates to build.
+5102b85e8b2a6989cc9285e5468f4bfd5627631b|2016-04-14|mitsuaki1987|Merge branch 'OutputHam_337' into develop
+6b34878899572addb5d7e76180e24c6a002466e6|2016-04-14|mitsuaki1987|Delete files that are not necessary
+6607a5715d75a909eb4f454cb179bd6309d9f2af|2016-04-14|k-yoshimi|modified output
+26f1ecfc40ab6d228297b5181a996596977d4ddd|2016-04-10|k-yoshimi|Merge branch 'calcSpectrum' of https://github.com/issp-center-dev/qlmpack into calcSpectrum
+06dd5b3752fcb348735ed7b320492b64d7457856|2016-04-10|k-yoshimi|merge release_v1.0
+f4652f18089a2b8939d4feb7c4a5341d71064571|2016-04-08|k-yoshimi|add pairexcitations (under making)
+ab3ff28d1fc6d39c27daff90ca6542d12cefcfe4|2016-04-08|k-yoshimi|modify MLTPLY_MODE
+eb11cf22cdb663e5c6de705ea165226b5775f2b4|2016-04-08|k-yoshimi|add function of reading files for spectrum
+9e550904bf49ba09a7098486d22c4b500b0870f5|2016-04-08|k-yoshimi|modify makefile
+3dde19b21ecd47c1bcb62174c53c22916c004b7c|2016-04-07|k-yoshimi|add skelton for getting spectrum
+7c84ecbdd911c58eb668dd19c5fb4a01fcf1caaa|2016-04-07|k-yoshimi|add a function of getting tridiagonal matrix components by Lanczos
+0ae3d2709cb740065b137589085cf09ef2f10ff8|2016-04-07|k-yoshimi|add skeltons for calculating spectrum
+f1bfef27bc30bcc0f6e638a004de4475a4bf40b7|2016-04-06|k-yoshimi|delete useless files
+9c80f214f74a7000c57b96a9ae9af692b389423b|2016-04-06|k-yoshimi|Merge branch 'release_v1.0' of https://github.com/issp-center-dev/qlmpack into release_v1.0
+86e40d19cee74cc81f32668a38c438202bb1c778|2016-04-06|k-yoshimi|add logo
+bb129499063c6ee260d5566236b39ebb1217f462|2016-04-05|Yoshimi|Update README.md
+bf2163767c3311f29a6b31746887160a5eb783e4|2016-04-05|Yoshimi|Update README.md
+eb99dc45026a511a8a5eadf723afa048057e50a4|2016-04-05|Yoshimi|Update README.md
+e30acb56f79284edc7a6a3b41580c037e1251399|2016-04-05|Yoshimi|Update README.md
+89b7b35ae6111fa38fc599b56924fc9a328e26c4|2016-04-05|Yoshimi|Update README.md
+5ff5b48f7305da8c1aafde0cfcd6cdab954c1dde|2016-04-05|k-yoshimi|Merge branch 'release_v1.0' into OutputHam_337
+7effde77556c82291f7384c94522321b1cad265e|2016-04-05|Mitsuaki Kawamura|Merge branch 'release_v1.0' of github.com:issp-center-dev/qlmpack into release_v1.0
+684a9c22d9ab87ba5d09db55688c911bca6da8fd|2016-04-05|Mitsuaki Kawamura| #353 Update samples/Expart/Kagome
+536a5498933f6545a4e33e76c1d010767524d037|2016-04-05|mitsuaki1987|Merge branch 'release_v1.0'
+150577242f8ed5c365be8154a122ffec6d91e2a9|2016-04-05|k-yoshimi|Merge branch 'release_v1.0' of https://github.com/issp-center-dev/qlmpack into release_v1.0
+0a3ba70be7d2b12108307adca3061c227b6b09b3|2016-04-05|k-yoshimi|clean files
+b45dc5fbf7fcbae8bd5ed93957d463cccc6bf08d|2016-04-05|Mitsuaki Kawamura|Merge branch 'release_v1.0' of github.com:issp-center-dev/qlmpack into release_v1.0
+74ef12f0e022ccb1a6e9039cffce8b97f9c38756|2016-04-05|Mitsuaki Kawamura| #353 Update references in sample/Expart/Spin/
+b635f13fe2727c6171d041eef65e5aee0b690221|2016-04-05|Kazuyoshi Yoshimi|Merge branch 'release_v1.0' of https://github.com/issp-center-dev/qlmpack into release_v1.0
+d6018ac03fb05c46cfcd4ecaac7b60301df9ca72|2016-04-05|Kazuyoshi Yoshimi|modify outputs for samples
+1e75c99a64d78e6105ea4341feaad4a18f8f27aa|2016-04-05|Mitsuaki Kawamura|Merge branch 'release_v1.0' of github.com:issp-center-dev/qlmpack into release_v1.0
+66c6f60e45235d005fcac45a6cf7b00e4a30263f|2016-04-05|Mitsuaki Kawamura| #353 Update reference in samples/Standard/Spin/ FullDiag
+0e2adfc67b8ce6f820948f357e94cf11dc0581f3|2016-04-05|Mitsuaki Kawamura|Merge branch 'release_v1.0' of github.com:issp-center-dev/qlmpack into release_v1.0
+bc1f2ec45fafd4c0492b4959db7535aedecc0188|2016-04-05|Mitsuaki Kawamura| #353 Update refernce in sample/Standard/Spin/* Lanczos
+67390c1f49c83cab356fcafade120f8e1ba1c92f|2016-04-05|Mitsuaki Kawamura| #353 update reslts in samples/Standard/Spin/
+6f96dfa336e065d34486ff2a601cb73e6719ede0|2016-04-04|tmisawa| #352 add Hubbard
+b42d2c025942452801d306b8e64e0b96de481ef3|2016-04-04|mitsuaki1987|Small modification
+b6dc3b05b3c5581eedf087b319c8f26a5b88d99a|2016-04-04|mitsuaki1987|Merge branch 'release_v1.0' of github.com:issp-center-dev/qlmpack into release_v1.0
+a619d545b84a427bbdb133b73d76296bfa45736a|2016-04-04|mitsuaki1987|Translate manual in English (lattice setting)
+bff1348cda5b490c27b7e60f59b312d92c58edcd|2016-04-04|yyamaji|Merge branch 'release_v1.0' of https://github.com/issp-center-dev/qlmpack into release_v1.0
+1dcaad7ec7cd0caf047dbc74375b0cf745149d0a|2016-04-04|yyamaji|chap04_en.tex modified by yyamaji
+b3dc9c464eaa1cacf2dc9f3144f5693201bfe68a|2016-04-04|k-yoshimi|delete needless files
+2f0ce183f8b1688e2d0e8cd5a4c5fc7144ac65f5|2016-04-04|k-yoshimi|delete needless files
+ea31627800b94daeed31e6dc691eaf90eabc3b3a|2016-04-04|mitsuaki1987|Merge branch 'release_v1.0' of github.com:issp-center-dev/qlmpack into release_v1.0
+eaff3c9b8e66a30c16db6e9085454e8437d97ebc|2016-04-04|mitsuaki1987| #340 Modify copyright
+e7c657ba4add9e9c78181e6c5698d6f23a8c45a4|2016-04-04|k-yoshimi|change release day
+0cdf1ea6a8e83bc8ebaf6f4e07038fa4edcdb25e|2016-04-04|mitsuaki1987|Modify manuals in English
+804ac59b8065b73c006b634fecf8d243f296a98c|2016-04-04|Mitsuaki Kawamura|Delete variables & files not used.
+f77c54aef408a6034b243f596ce9c77f6b8ab9b1|2016-04-04|mitsuaki1987|Merge remote-tracking branch 'origin/misawa355' into kawamura340
+07e6e63dea123fa8b5d14e242eb64fc9ab538494|2016-04-04|mitsuaki1987|BugFix in Spin non-diagonal part.
+b71e1cdf385dbdc20756f2c3442a4517746dc0e8|2016-04-03|Kazuyoshi YOSHIMI|delete useless variables.
+41f6896cfea024235d7805c3615aec346097b965|2016-04-03|Kazuyoshi YOSHIMI|Merge remote-tracking branch 'origin/release_v1.0' into misawa355
+beb07ee7549cd8aef9c9f0fb821332f0e015501e|2016-04-03|Takahiro Misawa| #355 delete unused variables
+fbe86a53cffe5e43243937fd5c6d488c832399ac|2016-04-03|mitsuaki1987|Merge branch 'release_v1.0' into kawamura340
+5874d7e614bab625b9cd22b67f8991c8a1689fc7|2016-04-03|mitsuaki1987|Defaults in Boost
+3df84a56d012144316dfe9485b1a343474270ec0|2016-04-02|mitsuaki1987|Default values for the Standard mode.
+d24123dffd4597b90bbca00ff7bc2db13e8855c1|2016-04-02|tmisawa| #352 fixed in bugs in hybrid mode
+8419fd02defe82fb57865410b7531b57d1a1e36b|2016-04-02|tmisawa| debug
+f2b035e77ac20ccaf84eb64e4a828b70a31f1903|2016-04-01|k-yoshimi|compile without openmp
+acb66b2cbad8cf5607a34c2ab931edee3ca50c67|2016-04-01|misawa| #352 delete unused output and add hacker in modpara.def
+5659a5e1dc050ef77551301a08796f926d9a22cc|2016-03-31|mitsuaki1987|Merge branch 'release_v1.0' into kawamura340
+5e7b9ae0cb26f0747b4c00be1cf7aaae0a5d8116|2016-03-31|mitsuaki1987|Update figures for doc apply anisotropy in Kagome + Boost
+477c788f4bc75d35dfdb5031a82e2cf7d013e18a|2016-03-30|k-yoshimi|add procedure of output Hamiltonian.
+950910b07dcbb8b034d835c8a2191da7c175c576|2016-03-30|k-yoshimi|merge develop
+da51abf0b9ce2f99de4013808169d546fc90a753|2016-03-30|k-yoshimi|change version info in splash from 0.3 to 1.0
+7ca5f53d3fbee2887daf2c8bd9881777e6fc8601|2016-03-30|mitsuaki1987|Merge branch 'release_v1.0' into kawamura340
+99bfdf8d4756f0faeb6ad6a5a5e8edce61996304|2016-03-30|k-yoshimi|change version info from 0.3 to 1.0
+6cc40d0635768650f22d5f2425f7698748ff0fac|2016-03-30|k-yoshimi|modify to treate multiple operators for trans
+e6e8346501f76e7427757f4a293a5d69e04c60ec|2016-03-30|k-yoshimi|modify to treate multiple operators
+cbe2135d1b5395582eb769073c30c5579db23743|2016-03-30|mitsuaki1987|Merge branch 'release_v1.0' into kawamura340
+58df5867033c234afbb69069784166e337232220|2016-03-30|k-yoshimi|delete needless file
+7016e7ab6e821979ab1a77ec13b8654d50f71054|2016-03-30|k-yoshimi|modify doc for typrographical error
+aeb7a21dc94042740d967076ae66d5f6ea06101a|2016-03-30|k-yoshimi|Merge branch 'release_v1.0' of https://github.com/issp-center-dev/qlmpack into release_v1.0
+6e81231fc107e2514461f177bc2f99321a96d13e|2016-03-30|k-yoshimi|modify doc foaphical error error
+52cebc43a7e9666b116e15e188e32a7a779d9d48|2016-03-30|mitsuaki1987|Modify plotting lattice
+554c2f53476d18437c917337a76ecf9efe291ce6|2016-03-30|k-yoshimi|add description for Hermite pair for allinter
+92394205aa01f6a2379544707bc22cbc08106175|2016-03-29|k-yoshimi|add description of input/output mode for en
+58984703b246925dab4144899f6a27a39603e18b|2016-03-29|k-yoshimi|modify docs
+9ab8aa8c9bee6209ba08bf0973a5369870bb5ce8|2016-03-29|k-yoshimi|Merge branch 'release_v1.0' of https://github.com/issp-center-dev/qlmpack into release_v1.0
+88c48603cef3da11c8c4adeef0fa900d3c57f52c|2016-03-29|k-yoshimi|updage manual of descripition for lattice figure.
+4e3486a1327b7658add1bcaccf8b61efb8a8a4b0|2016-03-29|mitsuaki1987|BugFix in intializing boost
+60b901e69830bf6114ce1eabd100b6f732814dc9|2016-03-29|tmisawa| #352 add hacker==2
+d443d5cb073eeb2aaae95abccf129ae7a1527cd5|2016-03-29|mitsuaki1987|Merge branch 'release_v1.0' of github.com:issp-center-dev/qlmpack into release_v1.0
+1c11c96ca0d312526cc1507e3a35411f96219fc9|2016-03-29|mitsuaki1987|update figures for document
+d87477113816c9e6352efbf465bf4d74891f581d|2016-03-29|k-yoshimi|updage manual of descripition for standard mode.
+5ef9cfb1c2fedeaaa934d72f5d8ce2a8b612d1d8|2016-03-29|mitsuaki1987|Modify sample inputs for the new Standard model
+d7c94ed6d2c33bc76b44aed5d9a0c163b1975489|2016-03-29|mitsuaki1987|Backup
+97bd006a9e59edbba02c8cfb780f3146a77ba714|2016-03-28|k-yoshimi|delete needless variables
+a89e27319c6ad44b810e90b14c63b60fc845e683|2016-03-28|k-yoshimi|delete needless variables for CalcByLanczos
+d35a66c45d4085570d42d8fa6a3b89499e01d9f4|2016-03-28|k-yoshimi|delete needless files
+08e6851a5b6a8cf7f5cc2d23fad9df45ff6f7ae2|2016-03-28|misawa| #352 fixed bug in sz.c
+0f56b892a220a436f4c6369baef48263a4fb350c|2016-03-28|tmisawa|Merge branch 'HighField' of github.com:issp-center-dev/qlmpack into HighField
+50a0556410d83ef5df308a6c1770339325ff0443|2016-03-28|tmisawa| #352 add snoob
+a90750fb95fee04d6c9760dec62879512670c304|2016-03-28|misawa| #352 modify sz.c
+47fbb146cb81b1df11a5afd9f6137cac4bc6f833|2016-03-28|tmisawa| add hacker mode
+447548921bd8cec2ad2bf34795c3657de63a615a|2016-03-28|mitsuaki1987|Backup
+4bdc9949cfb62f9fe769056e5af15d9ebd95a3cb|2016-03-28|mitsuaki1987|Merge branch 'develop' into kawamura340
+be7a6f4f22b1ae9fa33e446db144ac9bc927dc38|2016-03-28|mitsuaki1987|Backup
+9cbbda954fb34abeb2d07573d45733a6d232bfc1|2016-03-25|k-yoshimi|modify tex
+404abec839c59c154bfc3c80de9a4a88698d89cb|2016-03-24|Yoshimi|Create README.md
+af6847df9d66c4a4c2dff83d461372d730103c4d|2016-03-24|k-yoshimi|modify readme
+be0c122e892c3033834aa67676510808f6c89935|2016-03-24|k-yoshimi|Merge branch 'develop' of https://github.com/issp-center-dev/qlmpack into develop
+b01165d36a1acf9d84671d88522fa4c0eb529e74|2016-03-24|k-yoshimi|add readme.md
+bce29363ae63ddef7774739897454f1a09a5a53e|2016-03-18|mitsuaki1987|cleanup files from tex
+6833e9ea6ce4c5cd535fc7d252b05d07022105c9|2016-03-18|mitsuaki1987|It must be "ld" in FX10
+964d729b24d5531d9da67e2130692f98e9c35822|2016-03-18|mitsuaki1987|chap04_*.tex: Fix maximum nodes for Kagome samples/: cleanup
+e2834d16b521fafb1f46ba40154f18cc544cb00f|2016-03-18|mitsuaki1987|Merge branch 'develop' into BoostStd
+9d871a226fca2f19b22a9b657578cdf4daab09cc|2016-03-18|mitsuaki1987| #328 Checking MPI processes for the Boost Modify making stars of ladder lattice
+b0e70baa9d970a17a8755b50e18ef1ffed50397f|2016-03-17|mitsuaki1987| Modify chain + boost
+0237ae832927bf599600ac304741d33606d86f99|2016-03-17|k-yoshimi| bug for ladder model
+4cee3f87c4a0addc10f92e6a8d00469b6fb37793|2016-03-16|mitsuaki1987| Add description for the Yamaji algorithm.
+2ffbccce9382bd701a57b34269ef1108a72ed1bd|2016-03-16|mitsuaki1987| Add description for the -v option
+d602e66e0b2980a96658986a7be3ce8978e9cf77|2016-03-16|mitsuaki1987|add -sdry
+31d07a33341ec70143313b85a01205d711466ad8|2016-03-16|mitsuaki1987| #328 Checkthe number of processes in Boost
+b81b62680400defc5b70cb96f05cc519525c729c|2016-03-16|mitsuaki1987|Merge branch 'develop' into BoostStd
+2326644f946abd34e896b6cb43e239db6e264d83|2016-03-16|mitsuaki1987| #332 Add manual for the Boost
+c99078cffe07c40db54cc58c36264526ad997750|2016-03-15|k-yoshimi|delete ldescription of lapack libraries for fujitsuu.
+075677ca9a4f3cea1668385e5ac7073e25f7552b|2016-03-15|k-yoshimi|Merge branch 'develop' of https://github.com/issp-center-dev/qlmpack into develop
+ae186af86bfce1e3bff1b9e67c14ff4ad4d52f1d|2016-03-15|k-yoshimi|fix for library from Fujitsu TCL to Fujitsu SSL2.
+c09846fbe5fea94d5761deed2b1b56f72030575b|2016-03-15|mitsuaki1987|Merge branch 'develop' into BoostStd
+48a51210ff0565186240e81009d0d352a8759aca|2016-03-15|mitsuaki1987|Fix U
+0f7b6e688eba82636ce71c1efef2bd2ab4203690|2016-03-15|mitsuaki1987|Merge branch 'develop' of github.com:issp-center-dev/qlmpack into develop
+dc405197f4fdcd24770f43802438cd3d42af5c75|2016-03-15|k-yoshimi|Merge remote-tracking branch 'origin/kagomeN33' into develop
+2753b18665bcff3562e3af153ed411f0fbf68a69|2016-03-15|Yoshimi|Merge pull request #343 from issp-center-dev/ModifyOutputTPQ
+4714e4a94dcf854d78bc20a6cc9a725c77c382a2|2016-03-15|k-yoshimi|modify output format for zvo_Lanczos_Step.dat
+e63b22fc793e7c0f89689814a909824254434a9c|2016-03-15|k-yoshimi|modify output
+4c2618f5e8406125ab5627f9bcbdcebcba7e736f|2016-03-15|k-yoshimi|modify output for Lanczos_EigenValue
+587b90f428f1ab786891ce4d38d19ac05f991e3c|2016-03-15|Yoshimi|Merge pull request #345 from issp-center-dev/checkHund
+5d3f5d1b1c0b708c8326bbc1f8cb0472fd4bfed1|2016-03-15|tmisawa| #342 add check_Hund
+ffef28ca5ecdb2a040237da65e9e0ee837193786|2016-03-14|tmisawa| modify message in zvo_TimeKeeper.dat
+0aa28072b7a5075d0bdc2f609c578ea902f3638d|2016-03-13|tmisawa| modify output TPQ
+4168fbac113060a8e8cb0c55df92aa9e14626e54|2016-03-10|k-yoshimi|debug from abs(double) to fabs(double) in judging a condition for Lanczos.
+f212fa839a0f9ada8eca26c592f34069366c0ff3|2016-03-10|mitsuaki1987|Merge branch 'develop' of github.com:issp-center-dev/qlmpack into develop
+a400239adb24eff7bdc6c20292be7b98e5591667|2016-03-09|mitsuaki1987| #300 in the dry mode, MPI functions are not called.
+3412817c94d5d62560680dba4898680fdc26bc2b|2016-03-03|mitsuaki1987| #332 Modify the numbering of sites in ladder
+b7532779cf8b09e16958593d4442b8b460fba6f7|2016-03-03|mitsuaki1987| #332 Add ladder + Boost
+1518600de4a4d5f0dec896cb04fe8edb9e7d3d0f|2016-03-03|mitsuaki1987| #332 Add Chain+Boost
+fefe8bdebb49fe6d8a1131b8d154164a2091206f|2016-03-02|mitsuaki1987|Small logo
+bf876c8765efb1ded5301f63cead1ee123088e52|2016-03-02|k-yoshimi|bugfix for totalsz.
+1f8fb088ba816f3fc7cc6d683541e9b76bd09dbf|2016-03-02|k-yoshimi|bug fix for Sz in phys.c
+691e142d3d771c327abc795d616b060816bc0f3b|2016-03-02|mitsuaki1987|#339 Add Comment in boost.def file
+de9f8fd27582ccfd661d3c836c80434ecad4e0d5|2016-03-02|mitsuaki1987| # 339 Merge branch 'ModifyInput' into BoostStd
+4dfeeaf1126b4379fe2f917404eeff21261ff24a|2016-03-02|k-yoshimi|#339 skip 2Sz for SpinGC
+195ec8971591fc73d1033fb7736bba2d3b441422|2016-03-02|k-yoshimi|modify fgetsMPI to skip # and blank line
+69008c9dfffc2953a5f1b5fb0b68602fe15cd9af|2016-03-02|k-yoshimi|modify Largevalue from int type to double type
+07c3752620a0b33d812d7da4f7a814a045456e15|2016-03-02|k-yoshimi|modify to build correctly
+a046194a6ba5c36ba9713d9cf3eff7c460c9cc3a|2016-03-02|k-yoshimi|Merge branch 'BoostStd' into ModifyInput
+777d67bf3d6863e7fc3b0b84358b5387125f0cea|2016-03-02|k-yoshimi|#339 skip blank line in calcmod.def
+eb86c8738a639387aad1195d3b5546dee105f1ec|2016-03-02|mitsuaki1987|Merge branch 'develop' into BoostStd
+34f5dad8e1eedc6e1981200fdad3c662c3b05c84|2016-03-01|mitsuaki1987|Add Kagome & Kagome36
+c7092ca40658e630de27a7a751d80c947e660b52|2016-03-01|mitsuaki1987| #328 (Bug fix) in readeing J and H
+a6a3a6c2624eee9b8e2461165b94cb55bd806bda|2016-03-01|mitsuaki1987|Merge branch 'Boost_input_expert' into BoostStd
+385a7101a9bf9c4468bfc426382ffccc4cdde66c|2016-03-01|mitsuaki1987|MPIBoost should use X->Boost
+c05fd33e5b90fe4e76f3be262d25a133a7429862|2016-03-01|k-yoshimi|modify malloc
+8c24c902f48b3c641ab1ca4dd5c0ebc11f7fdcc0|2016-03-01|mitsuaki1987|Update figures for latices.
+233a46de5b227a0c52a30ef80d04005489facb7a|2016-02-29|mitsuaki1987|Fix misspelling in HPhiconfig.sh
+8268de330276b31f0f259bd602c35f20863f6963|2016-02-29|mitsuaki1987| #337 Add welcome screen
+7a25fc156af147f9a767a29858f18203590c461b|2016-02-25|mitsuaki1987|Merge branch 'Boost_input_expert' into BoostStd
+a22b3d27d06205992d53a3586d2503705b6e8527|2016-02-25|mitsuaki1987|Merge branch 'Boost' into BoostStd
+fc5640419960b56c8b3227de5cdafba6f8d9dd21|2016-02-25|mitsuaki1987| #328 Add sample for boost
+c81b6a0b0029ced8331731984d452c1521e13f6b|2016-02-25|k-yoshimi|modify information of version
+7bacea97220ef6c64e43f98ace1c0e12318108aa|2016-02-25|k-yoshimi| #328 add a function of reading input files for boost.
+2b75473a4b20ad9dadb44986b3bc69c94de04393|2016-02-24|k-yoshimi|delete needless files for Boost
+54de070731c22cca68e8364edc4ab1157bca864b|2016-02-24|k-yoshimi|merge with develop
+1dc1df4a94fef1f2532e45ed40a8b9e29fe9a5b4|2016-02-24|mitsuaki1987|Merge branch 'develop'
+04605abb95050369f9c3e8b7f210d28cc0411a43|2016-02-24|mitsuaki1987|Remove #file#
+216d8bcfaadc8a11ea178a0137aaef6f4e060f13|2016-02-24|mitsuaki1987| #331 Largevalue should be double (in the standard mode and manuals)
+53ce8d65986b1eb9c4be560c15960898e0a6e3d1|2016-02-24|mitsuaki1987|Merge branch 'develop' into kawamura319
+21b37b6e2d77eb9887c590972cf6d1fd22ce8ade|2016-02-24|mitsuaki1987|Output boost.def
+c0f3d2ffaabec53572c1b8c8282ebb60a5b13902|2016-02-24|mitsuaki1987|Largevalue should be double
+e807fa8d7456e41eb2911f36c9c4ca69e2edd81c|2016-02-24|mitsuaki1987|pending2
+7ea312fe54ef5183b79cb0a437704364ce4e57d1|2016-02-23|Takahiro Misawa| #331
+129630279bb1fef74635fe8aef59e1847a5e0210|2016-02-23|Takahiro Misawa|Merge branch 'develop' of github.com:issp-center-dev/qlmpack into develop
+3a1a3f83d398d2fb228891221c025e5688426638|2016-02-23|mitsuaki1987| #334 Modify HPhiconfig for mac
+6f20719f4714a00bead21fc0b4723ec55b4344b4|2016-02-23|mitsuaki1987|Merge branch 'kawamura319' into develop
+53e1cd547d6b4305ecd934be881f94b46c5095e9|2016-02-23|mitsuaki1987| #334 ifdef for maximum energy
+10c467bff05e7d4bed6d2a0acb8ac6c247c0e2f0|2016-02-23|k-yoshimi|add -Dlapack for cmake
+862112d7a72e5554d868c092a18e008038b54997|2016-02-23|k-yoshimi|Merge branch 'yoshimi_282' into develop
+c04099feb89c49a4a37a5f6ca8a211bffc9e76e0|2016-02-23|k-yoshimi|Merge branch 'yoshimi_282' of github.com:issp-center-dev/qlmpack into yoshimi_282
+777472119768c41df3891d4a590997bed00794ac|2016-02-23|k-yoshimi|delete descriptions of unsupported MPI for simple input files.
+51ce961e0ff572e2a969e1cc0ccd9dedba29a901|2016-02-22|k-yoshimi|Merge branch 'yoshimi_282' into develop
+b3143ab648a1ed6a17126d94a37beb25c5abbab9|2016-02-22|k-yoshimi|bugfix for pairhopp in Hubbard
+934affe50207afa23b9ff1cbdfb70c40b7b7ac80|2016-02-22|k-yoshimi|modify HubbardGC
+ae35eb306ac6398833a230ccbc27ec1fc8adabfd|2016-02-21|k-yoshimi|Merge branch 'develop' of https://github.com/issp-center-dev/qlmpack into develop
+db3bc972714dfe5a0ab4355d81581230e6fa5114|2016-02-21|k-yoshimi|Merge branch 'yoshimi_282' of https://github.com/issp-center-dev/qlmpack into yoshimi_282
+3b816cf848fa512c2df6057c8cc499aad7244b28|2016-02-21|k-yoshimi|bugfix for pairhop for Hubbad canonical
+12aa8746897ed07876bcc9b5f1a6dd3790f99529|2016-02-21|mitsuaki1987| #331 Add descriptions of ladder and E_Max
+e1776929dd1049d327a4af90681047bd74f95fb1|2016-02-21|mitsuaki1987|Pending
+54a9772afcf98c95236b69f752e86ebb3c676e97|2016-02-19|k-yoshimi|bugfix for HubbardGC
+19515894e772af5ceb7ef43b2296665da7fc0845|2016-02-18|Takahiro Misawa|Merge branch 'develop' of github.com:issp-center-dev/qlmpack into develop
+b201bad9c0257c0040a5e1b0055668d748c917f3|2016-02-18|k-yoshimi|add test files
+cc7804b7fb68304710e77e634a70ad1ca58c36d0|2016-02-17|mitsuaki1987|Merge branch 'develop' into kawamura319
+8466db2382f0b3bb8e578b47775ec55869809349|2016-02-17|k-yoshimi|add test scenario
+e5ecb10a6bb00cd68cebede42011352e320589ed|2016-02-16|k-yoshimi|Merge branch 'develop' into Boost
+fc1ab0b866420eb644495484576939cc89eb75d8|2016-02-16|k-yoshimi|add defmodelBoost.h and modify CMakeList
+06f73625b49e4a9b8b31814a116f9a030bc261b2|2016-02-15|k-yoshimi|delete unneeded files
+e97130cda7fb5c163b13c88a6ac019bb5f7e4c43|2016-02-15|k-yoshimi|Merge branch 'BugInImaginary' into yoshimi_282
+13e69f15866ba3c9aed36fad9c86366d2ff88af3|2016-02-15|k-yoshimi|modify tmp_J in LargeList from double to double complex
+aaf4e0aebbb577cb5c4c33ce6ac6b64953ec50bf|2016-02-15|k-yoshimi|Merge branch 'BugInImaginary' of https://github.com/issp-center-dev/qlmpack into BugInImaginary
+738bca6a4e1c2dde8afb8be0e3509f3428926316|2016-02-15|k-yoshimi|#330 bug fix for struct.h
+c76e56f292cb808aa5f2948b8528b1cf6a4f1947|2016-02-15|Takahiro Misawa| #330 add def files
+816384fba5f1fef07e431fd7a7c801501dca46ec|2016-02-15|Takahiro Misawa| #330 add img_test
+a5835cb985c540f1d49a1da880b783c0d2183456|2016-02-15|Takahiro Misawa|Merge branch 'develop' of github.com:issp-center-dev/qlmpack into develop
+6716a82585bcf8e8f60d9853c40904cdb579ea10|2016-02-11|yamaji|Boost debugged
+3310870f68f01e04072a5ca6ba3f7e32bffce007|2016-02-11|k-yoshimi|modify expec_cisajs.c to add dam_pr for j.
+6798b5cc615ff6a3adbcc566a1afd0001f308cd6|2016-02-10|yamaji|Boost: External magnetic field B added 2
+825868838c9c9ffb102b4a4167992bcabb9e3a78|2016-02-10|yamaji|Boost: External magnetic field B added
+f20e8e64db3a974c43f58fd7c0ce87f0226387c3|2016-02-09|k-yoshimi|#282 modify to use simple input files.
+b79368957117f24a3b5b5269e8140e6eaeba59e3|2016-02-09|tmisawa| #326 add kagomeN33
+23d4c19e0730cabd548ad948254ccfe575204120|2016-02-09|yamaji|Boost modified
+ea94436cdbc9552bbd3d97cf3148510217574272|2016-02-09|k-yoshimi|modify coulomb intra.
+041e00e7ccb61ae43317a47008f4d3f058eb6310|2016-02-09|k-yoshimi|modify zhund
+1be30183123d4d1c389a03fd8ac80fe88f056b55|2016-02-09|k-yoshimi|modify coulombinter
+28ea1c1134a81775227824fcd067962e2700c04e|2016-02-08|k-yoshimi|add exchange for hybrid
+85279000152cf0d2b99c8c3fbe20035194c1fcf4|2016-02-05|yamaji|Boost debugged
+a80575f0128948a862a96183ee7532404f1e9b92|2016-02-04|yamaji|Boost debugged
+d59fdcf9126e37aca278632eec01b8bc4ad2e4fc|2016-02-04|yamaji|Boost
+6f1f179cb4c09c5ef0b9cb3e43b7736ad5632bf3|2016-02-04|yamaji|test code
+4a07a1b44664253552cd8e45f6339c4826adc766|2016-02-04|yamaji|Boost
+76236a534c923ee43c250ce34b3aa5854eed2bdf|2016-02-04|yamaji|Merge branch 'Boost' of https://github.com/issp-center-dev/qlmpack into Boost
+0cc4a77aa0774650f4a73db897d864b7dd296ce5|2016-02-04|k-yoshimi|#315 debug for using MPI_Bcast
+596ba95d0c55397e9523a2cf980076f5dad4b7b8|2016-02-03|k-yoshimi|#315 debug for MPI_Bcast
+b2995f9dc7005f77fd54dfdd49d0d88f99a536e3|2016-02-02|yamaji|Merge branch 'Boost' of https://github.com/issp-center-dev/qlmpack into Boost
+7f792e33fc620e6839ce36b0b375b1984919a878|2016-02-02|yamaji|Boost
+91968ca01f5ae53a97daa284ab088d435fb88461|2016-02-02|k-yoshimi|add zgem
+cc54cd5432ac9953874cd634d74b18bda062d53a|2016-02-02|k-yoshimi|bugfix for boost
+019d6cb755a147ce4d6f7b665e853e85fb5ac632|2016-02-02|k-yoshimi|add bug scenario
+9e95d014484740924ea7ba5dafa9dc5266da8209|2016-02-02|k-yoshimi|delete         assert( malloc_zone_check(NULL) )
+d49b62a7f1ff8254ffa55d35807ce775f8be5a88|2016-02-02|k-yoshimi|delete  #include <malloc/malloc.h>
+42f292d15c1d65dfab64f3272971572e10397593|2016-02-02|k-yoshimi|move *.h to include folder
+b77a34a88b3a95f3f180d7e492e093b5d53bc7f9|2016-02-02|k-yoshimi|solve memory leak
+7a8453859eae1b220dda96e286ddc6f56450e189|2016-02-01|yamaji|Boost
+b5cc9e40be499a65ba126a771433e90e122ac952|2016-02-01|yamaji|Boost
+94f2c9adcc94091072cdf282ef3d02a49a015947|2016-02-01|yamaji|Boost
+d82364e3ba782a9b010d0382e5729e746695c159|2016-02-01|yamaji|Boost
+ac7b1ef72b222a3a36a6ba05715944da95f38f8a|2016-02-01|k-yoshimi|temp
+abc1b4fb09c7fc995610dffda4967723cd3277a3|2016-02-01|yamaji|Boost
+97a2b82ac7dde77ca794bcdc6faa98eb2776fc26|2016-02-01|k-yoshimi|Merge branch 'develop' of github.com:issp-center-dev/qlmpack into develop
+630ae88eb7be87248e782f84fc8e05ea84261c54|2016-02-01|k-yoshimi|add template.tex
+604c3fff5b1a0813e59b75b533d267da8573646b|2016-01-29|Takahiro Misawa|Merge branch 'develop' of github.com:issp-center-dev/qlmpack into develop
+907cce898a9d1bfe48960530c64e535c02bc4a4c|2016-01-29|k-yoshimi|Merge branch 'develop' of https://github.com/issp-center-dev/qlmpack into develop
+d686c716fe0e465913e253aa73ca2009fd5895b9|2016-01-29|k-yoshimi|modify a format of eigenvec file.
+c99675a12486525cad7896a86ada364673199ed4|2016-01-28|Takahiro Misawa|Merge branch 'develop' of github.com:issp-center-dev/qlmpack into develop
+cf2e80fef247b7524eff2617ee1fd6daf77fe5fa|2016-01-27|k-yoshimi|bugfix for io of eigenvectors
+5ab6f52343c8ab95a35d05c452ba0cde764f2022|2016-01-27|k-yoshimi|bug fix for giving initial vectors in CG method
+333dbfb2cbc115aeac1ae6cea1f275914ce8a222|2016-01-25|k-yoshimi|add comments in CalcByTPQ.c
+51d2e73dac66d565572f7a16310d5ab7e9a3853f|2016-01-25|mitsuaki1987| #319 Add E_max in lanczos
+da7246e9547544353ce1707c8a6b519d1b8443be|2016-01-22|mitsuaki1987|Merge branch 'develop'
+e0f4d07fbcf04f86971c4f7fc1fd636fae60fe17|2016-01-21|k-yoshimi|modify FullDiag.out
+9b1a848f4caf83dc6504e3cdef89dcd52abe192b|2016-01-21|k-yoshimi|modify FullDiag.out
+96a2ca864ce94d9860d15294f8032db4f846e4c5|2016-01-21|k-yoshimi|add FullDiag.out in Expert
+df3e519e5e007d941a6809d97689d059f2737861|2016-01-21|k-yoshimi|Merge branch 'develop' of https://github.com/issp-center-dev/qlmpack into develop
+fd0eae0fb2cd3f8538b5e164d4b491119b31d06e|2016-01-21|k-yoshimi|delete \tr in *.tex
+cef52b3d768804d52e6d9f880e86163f23ede016|2016-01-21|k-yoshimi|delete needless sample
+f4598ff41679ce0d153f1b95f14ecabf41b23d42|2016-01-21|k-yoshimi|delete unneeded files
+e824584650a2e94d3497ef8644809e767a291a86|2016-01-21|k-yoshimi|add standard output files
+7b37cf6ec38921d7a57abbfea612437a375c6862|2016-01-21|k-yoshimi|add HeisenbergChain
+bf7413f4a97446be042398ade2072a78f63259fc|2016-01-21|k-yoshimi|delete FullDiag.out
+671d895ffa4d9561ae5770f31657e2df356823e7|2016-01-21|k-yoshimi|add Standard-HeisenbergChain
+97906ceb2cbb81e5ce6a85178e2f7014d4a633dc|2016-01-21|k-yoshimi|modify files
+9ac8550f1c582f0e3134bf08ea353c206fa5700a|2016-01-21|k-yoshimi|change Lanczos and TPQ output data
+e2aefb5f6eac92897efd133482293c6d41567abf|2016-01-21|k-yoshimi|Merge branch 'develop' of https://github.com/issp-center-dev/qlmpack into develop
+538a09092339ec5e70a13a8ce578e8c4f16c6a8f|2016-01-21|k-yoshimi|modify standard Hubbard
+2aadf92e547ad66241b0788f6933dcfca25de20f|2016-01-21|k-yoshimi|delete needless files
+6d18a1724b34a6f489f4360034b2a52cc5d2240f|2016-01-21|k-yoshimi|make shell files for getting out files
+919be6d49e973b4c69e6d620cca09420c1a5e014|2016-01-21|k-yoshimi|Merge branch 'develop' of https://github.com/issp-center-dev/qlmpack into develop
+bf8be4bec32720bdb6efd0830de698f2a48bf2b1|2016-01-21|k-yoshimi|add test_tool for diff fo 1G and 2G
+5864ee7df17bd31f21665573dede3f0b5e93239b|2016-01-20|Takahiro Misawa|Merge branch 'develop' of github.com:issp-center-dev/qlmpack into develop
+75f1902b6bffe18c65416c739e6aaca33de2c8cd|2016-01-19|k-yoshimi|debug for checking double counting for trans in HPhiTrans.
+d85d36ab8a8dc4d91369a5269762b332e94e9e88|2016-01-19|k-yoshimi|Merge branch 'develop' of https://github.com/issp-center-dev/qlmpack into develop
+fdb1e27803283757a743228ce2c2259cc838671c|2016-01-19|k-yoshimi|modify ierr for MPI
+56ceafa0d5073baeb047026aed574dcc4739e794|2016-01-19|Yoshimi|Merge pull request #313 from issp-center-dev/ChangeErrorMessageForMPI
+6a8c239071b949e7c2794657c1c059f4a4fc02b3|2016-01-18|k-yoshimi|delete needless files
+7fcd805dc41500af586ac63a086f635496327974|2016-01-18|k-yoshimi|fix for link
+9e46d493327be288cff38b9c4b2c415a06a17193|2016-01-18|k-yoshimi|modify FileIO for TPQ
+7138fa6af55b1cc8d79027b76b2e617a9d49ea73|2016-01-18|k-yoshimi|#310 modify log for TPQ and FullDiag.
+9174483768a8ce4fcd878cc6a3224d1c9d3318dc|2016-01-18|k-yoshimi|delete description of output mode
+4da9c1c75dd9cbbe720fbaec297965ba18f8d143|2016-01-17|Takahiro Misawa|Merge branch 'develop' of github.com:issp-center-dev/qlmpack into develop
+bf03d6ff689018440eb5f52f7cd0c0826b58d39a|2016-01-16|k-yoshimi|#291 add error message for wrong process number for Hubbard/Kondo.
+b0c1fc7d13c421eba6a0fd575d47bb76acd49426|2016-01-16|k-yoshimi|#291 add error message for wrong process number for spin.
+3c8839a3070315fbb79363f864423e2e7776cf27|2016-01-16|k-yoshimi|use char variables for showing error messages.
+e31206a8a7d440950c24dbb71fa1411dcc0f01ed|2016-01-16|k-yoshimi|#291 add error message for wrong process number for general spin.
+9216e73fcfcaed09da49485294eb092b1ea132a0|2016-01-16|k-yoshimi|correct error handling procedure for MPI
+6cab7c2446a2c4e60256ee4ef19cdafe5d1a5e9d|2016-01-16|k-yoshimi|change logs for standard mode in jp and en.
+e2ce84bc6feb3a5b8a8ccc5972a6f1f52e1ce10a|2016-01-16|k-yoshimi|check for log for Lanczos
+a8d48f02fd6c6b931378e7e778219761a3d4728f|2016-01-16|k-yoshimi|clean log for Lanczos Hubbard
+9cb13f3c2ad50dcb5822d3b91fe259f2520cf085|2016-01-15|k-yoshimi|comment out power Lanczos method
+0c18b0c4ab0adaf0aac0abc3da5e29ab6253be32|2016-01-15|k-yoshimi|replace def files in expert mode
+4de13e7aa6ccf19e640fad1bb4399d9585fc810e|2016-01-15|Takahiro Misawa|Merge branch 'develop' of github.com:issp-center-dev/qlmpack into develop
+50b85a422a2b56f5e73ee310e889bb7d59cd9b4e|2016-01-15|k-yoshimi|Merge branch 'develop' of https://github.com/issp-center-dev/qlmpack into develop
+f42db34233e07ec6c2aa749eccaaa6884581ab03|2016-01-15|k-yoshimi|add description for mpi in en
+e8c293c068dd5b6b2af667b714fba66eaecfae6f|2016-01-15|k-yoshimi|bug fix for merge
+6448cca20ebbf3569eaf2608bdd25be35e0f8ad4|2016-01-15|k-yoshimi|merge debug_exchangeSimple
+fc9d223c5aa9ed60eede9ea03f877a3ffbb83bb9|2016-01-15|k-yoshimi|add DS_Store in gitignore
+5117dd9d4c2428ab5e18626c224a605ca054012b|2016-01-14|k-yoshimi|#308 bug fix in readdef.c
+d3018d0eb95c6e48ed34e7de9dce80435a8a57c1|2016-01-14|k-yoshimi|bug fix for notation
+91b84d02336b0742bb7c1828abac7728106dd47d|2016-01-14|k-yoshimi|bug fix for readdef.c
+77f2b6022bc625defe0e4403a4f0b9b3c13a5b85|2016-01-14|k-yoshimi|add error handling procedure for HPhiMain.c
+39af1b6d6fcbf8fa6823d685b20613dbbccde271|2016-01-14|k-yoshimi|modify X->Def.Nsite to X->Def.NsiteMPI
+089e67302fad36a65b875840c5dcdd8596f7d4ce|2016-01-14|k-yoshimi|debug for mpi at rank0
+e1f11c038c91142b1432634b57746cdb147d8c33|2016-01-13|k-yoshimi|Merge branch 'develop' of https://github.com/issp-center-dev/qlmpack into develop
+4087710d9aa63eb8f9af83181b2b0a1d89708b23|2016-01-13|k-yoshimi|bug fix for saturated spin
+0b8a95e21da38d2b93e613bdb211db8ac69cd56e|2016-01-09|k-yoshimi|delete needless file
+ca06fba66346f767b70a835e703e6ed105c20842|2016-01-09|k-yoshimi|bug fix a procedure for no Hermite space at rank=0.
+3eef4e869adaca8cea7aaa9909832c62fb041e3a|2016-01-08|k-yoshimi|delete needless files
+dd0a8c91d16a13ebc02829f4b6acce33a1a82a80|2016-01-08|k-yoshimi|bug fix for total2sz in expec_totalspin
+75d0bf0a08a44b4bcf4f1f2d87659ffbd3a3792b|2016-01-08|k-yoshimi|delete needless files
+fa477626b9656e301b03729125b114d4bcf4643a|2016-01-08|k-yoshimi|Merge branch 'develop' of github.com:issp-center-dev/qlmpack into develop
+7063675e3cb7b45ad47e3bb08f4fd3719cb261ef|2016-01-08|k-yoshimi|add description of mpi in en. (not yet)
+94bef035845ad8cd3f8b320348692d2c257227f1|2016-01-08|tmisawa| #330 delete  CalcByLanczos.
+abe4874abef9f9f304bd26df88350496c7e42050|2016-01-08|tmisawa| #303 mofify %lf -> %.16lf
+8f2b55eb1f7fe5e2f995867401f13cff89fe8147|2016-01-08|k-yoshimi|add descriptions of mpi in jp
+23e16a8f595917b1dee535d1e5888e81436fdeba|2016-01-08|mitsuaki1987| #286 [BugFix] in Standard mode + ladder + Spin
+a0a76e82f8ca28e8ebf24737acdc03112fa7348f|2016-01-08|k-yoshimi|Merge remote-tracking branch 'origin/debug_exchangeSimple' into develop
+5866277e5391091876e0db4336c18f5a7902e74c|2016-01-08|k-yoshimi|add descriptions of using method for mpi
+9c1f531e7b503fa86626c91e3cd063d4d6349755|2016-01-08|k-yoshimi|#293 add description of styles for input files for spin.
+126e7222c94b5fcf82672facd2d4c40eb36acee3|2016-01-08|Takahiro Misawa|Merge branch 'develop' of github.com:issp-center-dev/qlmpack into develop
+fa96edd74f053d8b8603a78db5d681bb6d61c862|2016-01-07|k-yoshimi|modify InterAll array in readdef.c
+3964f3eee9cf022976e580784503b894c04af7d6|2016-01-07|k-yoshimi|modify X_GC_child_CisAitCiuAiv_spin_MPIsingle to use X_SpinGC_CisAit.
+b6295240c3c9b103adc7f76c816af45107b3911d|2016-01-07|mitsuaki1987| #297 Force i=j, k=l in greentwo.def
+a88ff6bee6e496fb55fc5f641d4390db2f4e83ee|2016-01-07|k-yoshimi|bug fix for onebody G.
+ba2d261a856bbe8bd3dcd37fd87288bc9bb43048|2016-01-07|k-yoshimi|Merge branch 'develop' of https://github.com/issp-center-dev/qlmpack into develop
+d4483b8bd8330a1c70bfe506372859674ec2a49f|2016-01-07|k-yoshimi|add description of setting initial vector for Lanczos method
+7e6706aba82a3984a06da7297602a757e786736d|2016-01-07|tmisawa| #296 add  Kagome30_H10
+b35fe6e209b8a82dbbb3bfdce50747403d692a2e|2016-01-07|k-yoshimi|modify setting initial vectors for Lanczos method
+88855eaa277d8f14487423a6962f23e09ac6bd23|2016-01-06|k-yoshimi|add description of setting an initial vector in en.
+c1043d9a31b1df358943c0027e378f4f9ef2d292|2016-01-06|k-yoshimi|add description of setting an initial vector in jp.
+abee314567f9afcd0a3e31686e5c1f59e00b9d31|2016-01-06|k-yoshimi|Merge branch 'ModifyRand' into develop
+3fb7e80ad0c0707e27ccbe817606b74d25d2c50e|2016-01-06|Takahiro Misawa| TPQ in iv -> abs(iv)
+27ca8f83f087e61d16a77c08b936b42751aebac6|2016-01-06|k-yoshimi|delete needless files
+cfeb4feeeb0359bb6b4769cce8fc7e081d5af1e1|2016-01-06|k-yoshimi|modify tex to show table of contents correctly in jp
+c3021735703c55c86db0319183cf34cafff0ea37|2016-01-05|tmisawa| #294 modify seed in TPQ
+71cafbaf6e0d58b6995031f677bad6a023eeb0e7|2016-01-05|k-yoshimi|change error message of incorrect interall format for spin.
+a740e981729518deb501525819e9d3ff6b2e7924|2016-01-05|k-yoshimi|add checkfunc for SpinGC in readdef.c and bugfix of EDGeneralTrans for SpinGC in mltply.c
+eeede37718d2dd1de8e545a48770f37cf3167e59|2016-01-05|tmisawa| #292 add kagome_fail
+617f9246da2ea03a0e14f333a1ef8de87ddd52e5|2016-01-04|k-yoshimi|delete needless files
+018ede69ce7580b387c2cf1476ba54caa26f8a9c|2016-01-04|k-yoshimi|delete debug message
+0920300092a480f760b0a74404a29063ac7e2207|2015-12-28|mitsuaki1987|Merge branch 'develop'
+346e9b6285a60b8b5d409bd49c1761368bd38bf9|2015-12-28|mitsuaki1987|Move some samples to test/
+0be593806dd290871d524802e7c45a5ac6944d34|2015-12-28|k-yoshimi|add release days in docs.
+15fe8fd1c049c6dd1195743d9d0d4c93c503dd1f|2015-12-28|k-yoshimi|delete heisenbergKagome
+2072f720f86f16e65b37a81d7cb0a06996ad9013|2015-12-28|k-yoshimi|add S1Chain example
+2bd0aa6c8c81a37e50c633759e419ccb54cb537b|2015-12-28|k-yoshimi|Merge branch 'develop' of https://github.com/issp-center-dev/qlmpack into develop
+3ed78c3b99df060f1dc8293af4d6bd20e35b56fd|2015-12-28|k-yoshimi|delete common works in tutorial in en
+3460310d147df05483fe6e40635cce541eb69aa1|2015-12-28|Takahiro Misawa| modify tips in cmake
+9b545096fde3652b52a547c56fcdabff6d007890|2015-12-28|Takahiro Misawa|Merge remote-tracking branch 'origin/develop' into develop
+33e6d6d41a2aa7bbfd96798eec9ca32e26e4af0b|2015-12-28|k-yoshimi|Merge branch 'kawamuraMPI' into develop
+183da7b5469befc7dacf8e35a138fcf0326a90db|2015-12-28|k-yoshimi|add a description of cmake for sekirei and maki in en
+7d9c87ac7e4aed54a07d0ef12570f39c758913da|2015-12-28|k-yoshimi|add a description of cmake for sekirei and maki
+2d478e530e07d138e8b28fd3943e18cdefb9b594|2015-12-28|k-yoshimi|modify eigenvev to eigenvec
+a3c65f6f301b486b9fb78bb516271140eebfb124|2015-12-28|Takahiro Misawa|Merge remote-tracking branch 'origin/develop' into develop
+9b2f7d1df7df5a22a7883abd3d41467bbe4c9858|2015-12-28|k-yoshimi|add a description of input/output eigenvectors in en and jp
+74e9479adb5e0a69aeb8d59d6c8d977c29fb5043|2015-12-28|Takahiro Misawa| check manual and delete tr{
+59069f6d1e25392a06665e8ef9a506ebd8b77386|2015-12-28|k-yoshimi|bugfix for output eigenvectors
+4269c2fd4e6980f7ef55a68521edce5a27763ccf|2015-12-28|Takahiro Misawa|Merge remote-tracking branch 'origin/develop' into develop
+de0321f69b05537151e63f45b253fe10eccd4684|2015-12-28|Takahiro Misawa|Merge remote-tracking branch 'origin/develop' into develop
+947e28d79279d04a723c59910e2256c538ee42b5|2015-12-28|k-yoshimi|add description of input/output eigenvectors in jp.
+e3fc3fc77c9cf44d4ce36541f1c5c1adba81b497|2015-12-28|k-yoshimi|Merge branch 'modifyToCalcIdim0' into kawamuraMPI
+360fc4f2f75573dd1f8ef7f53d299547a0235ab9|2015-12-28|k-yoshimi|bug fix for sz.
+d85df96a883ce9175c275bf0065a3a9779aa7b60|2015-12-28|mitsuaki1987|Modify in generation of Kondo model
+b65360e51eef8832c85bedd4a1aa28c48817c343|2015-12-28|k-yoshimi|add a description of cmake.
+79fdf0020a5efa3d791528f4446a564702b624eb|2015-12-27|mitsuaki1987|Modify the order of spins in Kondo for MPI
+466674ab934e1ab0eed9685939638490dff82038|2015-12-27|mitsuaki1987|Merge branch 'modifyToCalcIdim0' into kawamuraMPI
+94665ec98ec3b6f5858184df4a24196d75226433|2015-12-27|mitsuaki1987|HPhiconfig.sh: Add MPI FirstMultiply.c: Initial vector for MPI HPhiMain.c: single process execute mkdir PowerLanczos.c: Add copyright. printf->fprintf
+5c0612602f6fc12a3ef8f281b42002415d0a45a3|2015-12-27|k-yoshimi|#288 bugfix  for TPQ.
+f1898b0791ea1562b2b55cdca580157c3563d62f|2015-12-26|k-yoshimi|Merge branch 'yoshimi_MPI_Hubbard_Canonical' of https://github.com/issp-center-dev/qlmpack into yoshimi_MPI_Hubbard_Canonical
+97e9c5b5d184f5ee66e5e71d8b55f78548ac6d53|2015-12-26|k-yoshimi|modify output for PowerLanczos
+d2e743fe40ac3a744772dc4a99608466d0bf2a55|2015-12-26|k-yoshimi|#288 modify sz for hybrid KondoGC
+77ebed56d154c845c0476073ec9f2f2266fbb359|2015-12-26|Takahiro Misawa|Merge remote-tracking branch 'origin/develop' into develop
+4eb556d3bf568949181d39d52950f96969781dcf|2015-12-26|k-yoshimi|bugfix for output messages.
+5c10de06b6f061d96e75ee488e34224386499974|2015-12-26|k-yoshimi|#288 debug for mltply
+15533e052a2129cfa05aba5ccc08dd185e5b48a4|2015-12-26|k-yoshimi|Merge branch 'kawamuraMPI' into yoshimi_MPI_Hubbard_Canonical
+5af3e531c0cee39a07ed9fbeacca21ed09bb4a4a|2015-12-26|k-yoshimi|resolve conflict
+9bfa2670de47f470047ce90cef5ef30f836692e7|2015-12-26|k-yoshimi|#288 bugfix for sz
+5f6aa2497aa2e269888cd76478933de381fddc83|2015-12-26|k-yoshimi|bugfix for bibnominal
+a9bc6dcab1ea8618ee4a3b99efc8df23ce50ddda|2015-12-25|mitsuaki1987|Merge branch 'develop' into kawamuraMPI
+67f604b529188d799a3d02273bd8a8f2f2f7d29c|2015-12-25|mitsuaki1987| #243 HPhiMain.c: A part of processes stoped because of "return" mltply.c: Add messages for unsupported interactions sz.c: stdoutMPI -> stderr for error messages
+5d3dc885ba7465eecec8916c5efd689a35f5292e|2015-12-25|k-yoshimi| modify description of cmake
+360c4bfc726747f94ea5ba31329ae2356e9c09cd|2015-12-25|k-yoshimi|add a discripttion of cmake in jp
+961413bf37aff1a7708e5aca1803f17496bfebcc|2015-12-25|Takahiro Misawa|Merge remote-tracking branch 'origin/develop' into develop
+a9518379e7c11d0f42e5d74343c3ce53c65ebeb5|2015-12-25|k-yoshimi|add discription of folder structures
+930f5db27a7064a99d9b97c12c3eb4967a415646|2015-12-24|k-yoshimi|add comments for MPI unsupported input files
+ac7c976b1ef2c0b8c3bac8ad1c323a0b78f0a540|2015-12-24|k-yoshimi|modify to calc sz.
+75585ee338e1beb513707d2ea77fab2db276b275|2015-12-24|k-yoshimi|bugfix for Binomial.
+a692afba205c745fef9368364136402342846934|2015-12-24|k-yoshimi|bug fix for hybrid Hubbard
+7c7b5840ce53c09e589559835e187f7050a60268|2015-12-24|mitsuaki1987|Add description for MPI
+315fb8871c5233cb731b5f0918e3a929b2dfca3e|2015-12-24|k-yoshimi|modify not to output debug comment
+ce23b04aa67f38a7b717d6e5aef3c293dc20a395|2015-12-24|k-yoshimi|modify to compile without mpi
+987eff385d1748efc6ba56110fbac5411fe81a34|2015-12-24|k-yoshimi|bugfix for hybrid Hubbard
+f8732b03d6c16183108e6c30ede8e642c74b10e0|2015-12-24|k-yoshimi|bug fix for mltply
+3b30b0bb2124862562a8272c114ff6867f297ae8|2015-12-24|k-yoshimi|merge with generalspin
+d9aeef8a6c930a5e414a62cfa9a1d00b08301dfe|2015-12-24|k-yoshimi|merge with yoshimi_GeneralSpin
+8d9a3be31ebf19b23d6a659a1cd1c4fcf67e770f|2015-12-24|Takahiro Misawa| correct typos in chap04_jp.tex
+f86d18047dc7807ccf0a0be34311f55cf4148632|2015-12-24|k-yoshimi|mldoify mltply function for hybrid Hubbard Canonical.
+250c3f3f495ae4144fad78eec0e8ff009309ccce|2015-12-24|k-yoshimi|bug fix for hybrid Hubbard canonical
+8937a3aaf63323e90991f197bd427c9c1ba4cbac|2015-12-22|k-yoshimi|under bugfix for green functions
+5f8e6d16367c192c63a90b84efa0f984fa104360|2015-12-22|k-yoshimi|under bug fix for Hubbard canonical
+dfdc3e1938fcbc3e690eea5411ca8e1e2ade0098|2015-12-22|k-yoshimi|make X_child_CisAisCjtAjt_Hubbard_MPI.
+10f2e4d72cb3ccf57dfb6b00a150cab913538eb9|2015-12-22|吉見一慶|make skelton functions for 2G for Hubbard canonical
+e580074c1a7071bf48e298840fb71f97e47af79a|2015-12-22|吉見一慶|modify mltply.c for Hubbard GC to use hybrid. not checking.
+e7e298e96112f77267050b2cdbb29e7d48e26896|2015-12-22|吉見一慶|modify position of headers in mltplyMPI
+46510bf80df580795f887b15e502af2f2ed7473e|2015-12-22|k-yoshimi|finish checking 2G for Hubbard, np 16, np 4 and np 1 for W=2, L=2.
+1e0b2fbb954c9df086459d0562c526a544975722|2015-12-22|k-yoshimi| under bugfix for 2G for HubbardGC.
+be0d2db5af01c9a8f126b68d6bcf4ef01f43abfc|2015-12-22|k-yoshimi|bugfix for  X_GC_child_CisAisCjtAku_Hubbard_MPI
+83c929ce921d2b532b119e9940e6b9c4186905e8|2015-12-21|k-yoshimi|finish checking for X_GC_child_CisAjtCkuAku_Hubbard_MPI.
+0ff3b2d78c3424bd55da13ba0c31b5e2dd365d91|2015-12-21|k-yoshimi|bug fix for Hubbard GC.
+bae59b6d474b7c46b1ba4b6349e7cfd2205a0f49|2015-12-21|吉見一慶| under making X_GC_child_CisAjtCkuAku_Hubbard_MPI.
+2edadaafa40a0f0f05a8ce12692bbbadc7d454e9|2015-12-21|吉見一慶|add diagonal components of 2G functions for HubbardGC.
+82bf49d9f9e6d19a6632ab60b3f4cdb5dd378a41|2015-12-21|k-yoshimi|bugfix for hybrid general Spin
+de7acaaa9c4c9b5b2f7486e119e0163c09e1f946|2015-12-21|k-yoshimi|add functions for hybrid for Hubbard
+8b0cedb033bafdfd8f10442bf9993360cdf0f908|2015-12-19|Takahiro Misawa|Merge remote-tracking branch 'origin/develop' into develop
+a23de02f059168c5272f556e06d9015b16b2d10b|2015-12-18|吉見一慶|add checkbit functions.
+5c90193aa156a18d3724fb7a06801231f7fccc92|2015-12-18|k-yoshimi|add twobodyG for general spin for canonical
+a3fb34d58b421c6a2b561ff413b6ac3f74f4c5fe|2015-12-17|k-yoshimi|bug fix at 2Body G for SpinGC
+36399c63ae559ad53bf7e229f365e0e8c11a5991|2015-12-17|k-yoshimi|bug fix at transverse-field for hybrid SpinGC
+abcc6049b5b5a572bfb42b90f712871b01f3392c|2015-12-17|k-yoshimi| finish calculating one- and two-body Green's function for  SpinGC.
+fc6dd3fe6a05e4526935e6a4eaf913c14e6eee38|2015-12-14|k-yoshimi|merge with yoshimi_towbodyG
+513fe1dcbdb8ab2f7bffab201b609c4edef20fc3|2015-12-14|k-yoshimi|bug fix for transverse magnetic field.
+19f352e699d3b350b1b5b9aa5a9f78ad4450bf8a|2015-12-14|k-yoshimi|bug fix for twobodyG for SpinGC
+f1e6a8b5e4256adbc354c1c7d36e12947b5f84f8|2015-12-14|k-yoshimi|bug fix for  X_GC_child_CisAitCjuAju_spin_MPIsingle.
+751cc6add59066adf993e29808b1ec8c9814e956|2015-12-14|k-yoshimi|bug fix for X_GC_child_CisAitCiuAiv_spin_MPIdouble
+3e557d324dc00f1c6c83c42d68fa8ffc84a1475a|2015-12-13|k-yoshimi|modify trans for SpinGC
+20076ab710157313099c2fcee39d4274fdc243ce|2015-12-13|k-yoshimi|add functions for general interactions for SpinGC.
+dceca68a38ae571385619e86b9a937b52649aa93|2015-12-12|mitsuaki1987|Merge branch 'kawamuraMPI' of github.com:issp-center-dev/qlmpack into kawamuraMPI
+120ed600692d19eab75d8e237a7a245e0042739b|2015-12-12|mitsuaki1987| #273 Add MPI for General Spin system
+cc95a6ae5b049a9a4a5d62ab0eb1574f15deb621|2015-12-12|k-yoshimi|modify totalspin for hybrid parallel for Spin
+07799195d6812956c318ca72ee967ceac45f00a8|2015-12-12|k-yoshimi| modify expec_cisajucktalt.c to adopt MPI for Spin.
+4b95a3a41f89602952f2dcf4a8a73ae1737b51b1|2015-12-11|k-yoshimi|modify mltply for hybrid.
+1fd4a1723654c2fa2de91a76c3f6d7e165bdf62a|2015-12-09|k-yoshimi|bug fix for hybrid SpinGC in mltply.c
+b1d301f6d3c7f7b21aa155e7c328e73c7f075344|2015-12-09|k-yoshimi|Merge branch 'kawamuraMPI' into MPI_yoshimi_expec_energy
+02c7c97cd427b0000b884f716ad0b3c73fafe9f0|2015-12-09|k-yoshimi|modify expec_cisajs for hybrid
+a42fc9299f177dad7a1b24676b1b292310e1bd32|2015-12-08|k-yoshimi| treat mpi for Spin in expec_cisajs.c
+826ce66348a617e9695ba80e59f362fb88c5a4ad|2015-12-08|mitsuaki1987| #273 support initial_iv >0 + MPI
+a9eb0026352b079e716885dbf6c1fce44e38144b|2015-12-08|mitsuaki1987|Merge branch 'develop' into kawamuraMPI
+d78a37987551e29e972145b4a28d955b9403e81b|2015-12-08|k-yoshimi|modify for MPI
+2309d09bc2ff233ad49499f3464496216b91be8a|2015-12-08|k-yoshimi|modify CMakeLists.txt to include CheckMPI.c and mltplyMPI.c
+8016c3a1f4dd292b4460732d46c533e7375378dc|2015-12-06|k-yoshimi|modify bug for LanczosTarget.
+634cd2bb5fcdd4c67734fbf00139ea6296d67d62|2015-12-04|mitsuaki1987| #273 Add comments
+2fb5ff8aa1ac185b3331d8a8abe6fa6c89857b74|2015-12-03|mitsuaki1987| #273 [BugFix] Target was not initialized
+ca3e9395a54b1615e377b9614cc3250713b1d4f5|2015-12-03|mitsuaki1987| #273 BugFix in Hubbard + Hopp + GC
+6061379f4cdcdab160af79553959a768ca869b46|2015-12-03|mitsuaki1987|Merge branch 'develop' into kawamuraMPI
+b0daac460a55b87ccd56889d6a940f3f6dd84d4c|2015-12-03|mitsuaki1987| #273 Add Spin + Grandocanonical
+b381b93b26d7ead5c81dff0e055aaa3a7e0eab16|2015-12-03|k-yoshimi| #274 bugfix for getting Lanczos vector at idim_max=1.
+09e8383c70eab0b3a4a58c2936f0174d76e7ec9f|2015-12-03|k-yoshimi| #274 bugfix for getting Lanczos vector at idim_max=1.
+f921ad51716d4c1f0d6fd6fa53d2e592e758d04f|2015-12-03|k-yoshimi|Merge branch 'develop' of https://github.com/issp-center-dev/qlmpack into develop
+f1d82d81a41cef7bd2ff5ecd015fa2e8d22dabca|2015-12-03|k-yoshimi|modify power Lanczos method.
+1382f98da5a4ea31a2ba115c5932471546c63bbb|2015-12-03|k-yoshimi|modify to set 2Sz for canonical state.
+e5ca3ba2d5f3edf963c03af7e6eb6b52aa96eccd|2015-12-02|mitsuaki1987|Merge branch 'develop' into kawamuraMPI
+31cd97cfbbdc779b597e362f7794258b32488a5d|2015-12-02|Mitsuaki Kawamura|Remove timekeeping files in sample/Standard
+b8732904ef0995e3ed1a74a48e85c727e9a37baf|2015-12-02|mitsuaki1987|#273 [BugFix]  In Hubbard. (1) Fermion sign was wrong (2) t -> -t
+18714181b45f3d0d6c2962249ea84cb4f715740e|2015-12-01|k-yoshimi|delete needless files
+4169521520eb9ca397cac4b08fcc43cada875713|2015-12-01|k-yoshimi|Merge branch 'yoshimi_220' into yoshimi_270
+c76974e2b419a4fe9fcae6c62f56a28926f15ddc|2015-12-01|k-yoshimi|add hyperref in tex.
+16719c7fce4724e55a0c6561456fa87b4189a591|2015-12-01|k-yoshimi| #270 modify to rearray transfers.
+5f43438ad9b449ec91aad99c8b60224922210c18|2015-12-01|mitsuaki1987|[BugFix] in Spin + Sz + nproc>=4
+a0cb232d1ab07b809d44e2750841f4979b43844b|2015-12-01|mitsuaki1987|Merge branch 'develop' into kawamuraMPI
+65858dd2112558c4ace0214222127f4f3e0ff5ca|2015-12-01|mitsuaki1987|[Bug Fix] In Spin + Sz-conserved
+a0ab5264523b19968f6d9d7a1680f284727cab20|2015-11-30|k-yoshimi|Merge branch 'develop' of https://github.com/issp-center-dev/qlmpack into develop
+de74c37687c6e6238155995925067d86c2a17d5b|2015-11-30|k-yoshimi|bug fix for spin canonical for general spin
+677b2adc1ccbeeb51bfcdb360a4599b674673ae4|2015-11-27|mitsuaki1987|Merge branch 'develop' into kawamuraMPI
+d72e8d80f1911b321803d7f5dc60e84ed167d164|2015-11-27|mitsuaki1987| #272 [BugFix] Input "D" in the Standard mode
+6ef3e0e5e6b86bdf262373e0d4b93b4899142922|2015-11-27|mitsuaki1987|Add MPI for Canonical & spin
+980c3cb7e72520af82f7033cbf7b8d0a28c5cee3|2015-11-27|k-yoshimi|set initial value for total s^2.
+3ddec5af595d7c47af0da22722a0884d03c8b25f|2015-11-27|k-yoshimi|Merge branch 'develop' of https://github.com/issp-center-dev/qlmpack into develop
+31cc248e0a6b174175b2ad02d6fa3715bae2f82e|2015-11-27|k-yoshimi|bugfix for GetOffCompGeneralSpin
+4dd676f2f12623eed862874b9177ee120ff351f6|2015-11-27|k-yoshimi|Merge branch 'develop' of https://github.com/issp-center-dev/qlmpack into develop
+742a4ad08a3a818832043e31e261f5bba0cfae91|2015-11-27|k-yoshimi|omit hermite rearray procedure for trans in readdef.
+c29bde1c4058671db4b09cce178f091b893672f0|2015-11-26|Mitsuaki Kawamura|Add MPI summary
+a7a4aa707cdc763d2bea88a938929c53d397b398|2015-11-26|mitsuaki1987|Add MPI Summary
+5794170c0c0b33b06746eafe625c4bccc49c4eb0|2015-11-26|Mitsuaki Kawamura|Modify config.sh for MPI in maki
+f789b108dad28b13ffbc7150c48fff8ad4aec7c5|2015-11-25|Mitsuaki Kawamura|Merge branch 'develop' into kawamuraMPI
+3118f6a455be305a0289aa297ec85157c922aa76|2015-11-25|mitsuaki1987|Add Hubbrard & canonical & hopp allreduce(sum) after norm is calculated
+020ad32316bb9ec34f6b90bb59590ce6f86cae5d|2015-11-25|mitsuaki1987|Add hopping in Hubbard & GC
+c96229b1c499520ba7f5af482e1bb9fd61a41cee|2015-11-25|mitsuaki1987| #243 Invert magnetic field in the standard mode.
+a3dbf50a86b9d6111fe365418d3ea926a65f69f4|2015-11-25|mitsuaki1987| #243 [Bugfix] Remove c_i c_i or c_i^+ c_i^+ EXEPTING c_i c_i c_c^+ or c_i c_i^+ c_i^+
+8f73f2e95b1788a8d09f0b11814691069661a9b3|2015-11-25|mitsuaki1987| #243 The order of indices should be opposite in hermite pair. Remove interactions that have two c_i or c_i^+
+27ad6edc5370edc47b6aa3c3b2c74c17d05dda25|2015-11-24|mitsuaki1987|Add MPI for mltply
+252d65ff9e4f611bb8754fdbf91a85b157381d23|2015-11-24|Kazuyoshi Yoshimi|add description for conservation quantities and localized spin rule
+23b93ef3df6569f6bba4288a1aa8f195fd4b7276|2015-11-24|mitsuaki1987|CheckMPI.c : Fix include files diagonalcalc.c : Fix OpenMP scoping wrapperMPI.c : Remove exponent check in this routine
+aeabb616c292449b673df3ee6a3026447436f6d1|2015-11-24|mitsuaki1987|Add MPI initialization of dimensions Calculation of diagonal term in each PE
+8e37c13bd63ea86f43a9748db1a7fa592bdeeec2|2015-11-20|Mitsuaki Kawamura|Update samples/Standard and BufFix in makeHam.c The Number of interactions -> number of Hermite pair
+e6deec6a077f276ccaf5d0041a3969a2e1925f26|2015-11-20|k-yoshimi|#220 add error procedure in the case of not exisiting input file.
+e270c1ae0be3eed85b5f7b12f5d4c648d7f3932a|2015-11-20|k-yoshimi|#220 add input and output Eigenvectors
+fba2a116888d61928cccc752315e807f2e61f462|2015-11-20|mitsuaki1987|Merge branch 'kawamuladder' into kawamura243
+e24d7854913371e125bf039fe1e3b4fce28bcc4b|2015-11-20|mitsuaki1987| #243 [BugFix] StdFace_main.c : Join equivalent interactions mltply.c : Total number of ints. -> number of Hermite pair
+d11a2703a8cbf088f2d573bc1b7f1efd95facce9|2015-11-19|mitsuaki1987|Anisotropic Cross term
+64476b28639494becacf3935d65ffec7e207beb9|2015-11-19|k-yoshimi| solve conflcition with OutputLanczos
+2dc4d71b4533e7541b91493c1f096bf45c502437|2015-11-19|mitsuaki1987|Merge branch 'kawamuladder' into develop
+6490b2103dd7aaf87cd25f2b0f535e1cb36fe50e|2015-11-19|mitsuaki1987|[Bug Fix] The number of interactions is wrong in spin + ladder
+aae850da380d29189f58aa49b82a4fc3cf41f27e|2015-11-18|mitsuaki1987|Add Ladder [BugFix] General S + magnetic field did not work.
+8b30cbf2c0788c516dd382c9b6bbc71c1345cb40|2015-11-18|k-yoshimi|modify parrays for pairhopp, exchange, pairlift intercations in makeHam and mltply.
+278bfa2df08ce76f3ffaa9bb63e1c51b4b50c1e2|2015-11-17|k-yoshimi|Merge branch 'develop' into yoshimi_243
+f9b18ca80668af02fe9ea51f30ba223925f84a08|2015-11-17|k-yoshimi|#243 modify makeHam.c
+7abd8986309803ce20c695afda06ad99fc7f812e|2015-11-17|k-yoshimi|#243 modify mitply.c
+ed5da81298148cd223161649b8eed652e32581fb|2015-11-17|k-yoshimi| #243 rearray trans and allint.
+57a4a29f2b1bcfe6cce4742ee5d1a3c57f7a9b50|2015-11-17|mitsuaki1987| #267 Skip ncond in modpara if it is not used.
+a02530a6e054bd9754eef4da051a1fec11657bbb|2015-11-17|k-yoshimi|Merge branch 'develop' of https://github.com/issp-center-dev/qlmpack into develop
+89c78026a3679b12bd02f81b7cbcbc71c33480fe|2015-11-17|k-yoshimi| #267 modify read.def
+d39a5d339969fc54e9722e813ff0494a3d4a1995|2015-11-16|mitsuaki1987| #267 Skip 2Sz in modpara if it is not specified.
+3733b2847bfada106361d65477977c6f41e9f51d|2015-11-16|k-yoshimi|modify output from total Sz to Sz in Hubbard
+dba483baea0ed42a1a4a5248aa64a4d917d56d5d|2015-11-16|Takahiro Misawa| #261 delete unnecessary files
+04a8f513fe3b2a105d8b0a63bfd3224c4dc7672e|2015-11-16|Takahiro Misawa| #261 modify bugs in spn_z for Hubbard
+746f8cd2a5af8e3477abad5509966ef14f351ffc|2015-11-15|k-yoshimi|#256 delete large value in samples for Kitaev model
+8cdccb997312c030a09c1307fc31339393701e62|2015-11-15|k-yoshimi|#261 add sz and s^2 for output
+1f97ce2b818361dda9f12eb0e14b195dbe82443e|2015-11-12|mitsuaki1987| #264 Add message for MPI_Abort
+588c0f9667473aa4d8bcebef76ac0c2b4e27dca7|2015-11-11|k-yoshimi|delete comment debug in HPhiMain.c
+1db7bf1bc5f2ed16d4158236675fe8a20c639c96|2015-11-11|mitsuaki1987|cleanup src/
+72be3a84b185383b9841bde5ffb9dace2a181527|2015-11-11|Mitsuaki Kawamura|cleanup src/
+479020f678047f3b1d1e57321191a0267f021497|2015-11-11|k-yoshimi|delete const in diagonalcalc
+117a47111d773910f1e108f7fe2e03c7497d585d|2015-11-11|k-yoshimi|Merge branch 'develop' into yoshimi_244
+7072bd0f679c021de6c6a5c12faa8faec792823f|2015-11-11|Takahiro Misawa|Merge remote-tracking branch 'origin/develop' into develop
+fd0553c4e6511c873fd8fbc6d7b86af601807ee1|2015-11-11|k-yoshimi|add powerlanczos.c in makefile_src.
+39556b494dba8f0527be3d0b833f00d5533bf474|2015-11-10|Takahiro Misawa|Merge remote-tracking branch 'origin/develop' into develop
+77b1f919318775757bc72a2bed2d9772a37df8a0|2015-11-10|k-yoshimi|merge with PowerLanczos.
+1b3db2ab2cbee8fc7c3850d4c668ef11c5ba66ae|2015-11-10|k-yoshimi|modify to use PowerLanczos.
+1d962e25258e69998b9b2f2e5196a3fc530c0fec|2015-11-10|k-yoshimi|delete needless files
+e330b9518efe0030ba8b3d904b9eb8ab1c9aef19|2015-11-10|k-yoshimi|Merge branch 'develop' of https://github.com/issp-center-dev/qlmpack into develop
+a76d582e51c7e7062e882b924290d58460a48fee|2015-11-10|k-yoshimi|#244 add function of calculation for general spin in canonical ensemble.
+bfbf824700b89a9ea62349fe401f66b554130925|2015-11-10|Takahiro Misawa|Merge remote-tracking branch 'origin/develop' into develop
+14629ceae7eb77da6978c501eef0fae2a517a6d1|2015-11-10|Takahiro Misawa|Merge pull request #263 from issp-center-dev/yoshimi_251
+a60cb4b69a55339e21ee7e1197949531fa6f78fd|2015-11-10|Takahiro Misawa|Merge pull request #262 from issp-center-dev/yoshimi_253
+d1d931d1cd6c9d85ad403f1a1d0663dedde795c5|2015-11-10|Takahiro Misawa| #253 add printf in FirstMultiply.c  (check of real or complex initial vector)
+8d6275a7710dead7cd95cf9558f6218676c573e9|2015-11-10|Takahiro Misawa| #253 delete unnecessary file
+fe6f9840efdbbb0d2b5e40e282bffd9cf70e744c|2015-11-10|Takahiro Misawa|Merge remote-tracking branch 'origin/develop' into develop
+d4b1c969907e764f1db61733e81319eb4d1c3d19|2015-11-09|k-yoshimi|#244 modify sz to addopt canonical ensemble for general spin
+e1ea34b21f637e03beee43c4762ea7e195052c7d|2015-11-04|k-yoshimi|solve conflict with generalspin
+dac41f8802547373a4a9e8794044b1af38f5a0e0|2015-11-04|tmisawa|Merge remote-tracking branch 'origin/develop' into develop
+567f9702f123ddbec1041229a3da0b1bc0fee8fc|2015-11-04|tmisawa| #260 add TPQ
+3bfa46f41b31d27f43dc23652a655917efcceda0|2015-11-04|k-yoshimi|delete CalcLanczos. file
+2ce182ab0eab8379bf7794363b591eba752ce6a2|2015-11-04|k-yoshimi|#199 add function of calculating total spin for general spin.
+97fb8303958ce34db80851c227867629529fd10a|2015-11-03|k-yoshimi|add treatment of generalspin
+f419a3a212415cfdb4c90eaefb28c89d1247cf89|2015-11-03|k-yoshimi|delete pairlift from Spin.
+f72ac160a8a818b40fa60b9b27741b371937bb34|2015-11-03|Takahiro Misawa|Merge remote-tracking branch 'origin/develop' into develop
+2f526e4f545fa93533e99ba573dc53d459768ac4|2015-11-03|tmisawa| #260 add benchmark result for the Hubbard model
+4620c967172f3080067378377d6a79c19437b92f|2015-11-02|k-yoshimi|Merge branch 'yoshimi_253' into generalspin
+e30fd8ee63026c9a241565ffdcebe4472953879a|2015-11-02|k-yoshimi|#253 modify document.
+1f2a32d1693527ec7a685427da17649019111d0a|2015-11-02|k-yoshimi|bugfix for spingc.
+b25c0c5abfe1eae24c2d85de604171b9f75188fd|2015-11-02|k-yoshimi|Merge remote-tracking branch 'origin/BugFixedCisajscktaltdc' into develop
+0c3f7967a252871f41a1c1b5648bb0342a278d45|2015-11-02|k-yoshimi|delete blank line
+b14515113fa2f379220c6ad64fea5580ea743f61|2015-11-02|k-yoshimi|Merge remote-tracking branch 'origin/BugFixedCisajscktaltdc' into generalspin
+893f3977ec930fdec60e3d4eda694008500d43e4|2015-11-02|k-yoshimi|Merge branch 'yoshimi_251' into generalspin
+7803b421cad988f039c0869efb0bd897e36b805e|2015-11-02|k-yoshimi|bugfix for generalspin.
+a94eadc765449aceb5574e3b2d4370a9863581a5|2015-11-02|k-yoshimi|modify convergence radius of beta from eps_Lanczos to 10^-14.
+83b1382147a988072309983f4a12bb70c47b419a|2015-11-02|k-yoshimi|#251 modify to calculate under Hubbard model under particle conservation.
+01442543f249d6a02e19b5d846b832bd2b6184be|2015-11-02|k-yoshimi|modify readfile to introduce HubbardNConserved.
+5d91cac42cd1e4408d84da2fa38dc53ec9604baf|2015-11-02|k-yoshimi|modify GetOffCompGeneralSpin to use int
+5562fc1a2926388d933785b4a3d962030477f062|2015-10-31|k-yoshimi|Merge branch 'yoshimi_253' into generalspin
+8ba58cb7d901ba3d357add8ffb3a903631d3c8b5|2015-10-31|k-yoshimi|#253 normalize v1[iv].
+2c3e81150a40c32ab6d2293e9cf4ec3274658428|2015-10-31|k-yoshimi|solve confliction
+2bfda4af40c945c690b3b3c05555882e420dd01f|2015-10-30|k-yoshimi|#253 add an option to set type of an initial vector
+5f7f1aac004515719694f81db7aab133accbb6a5|2015-10-30|k-yoshimi|Merge remote-tracking branch 'origin/yoshimi_228' into develop
+8d82ae458485fba444236dde443523f75c69f73b|2015-10-30|k-yoshimi|modify readdef.c to calculate on standard mode.
+d521c455080c866c24eda3f9622f4aa6b830ceac|2015-10-30|tmisawa| #257 fixed bug in expec_cisajscktaltdc.c
+f86a1c4efd9741412b3c112c9361627f8812da79|2015-10-30|mitsuaki1987|Remove trashes
+9a55c2ea9039492b53a18aa9919f77a49d8672a6|2015-10-30|mitsuaki1987|Remove trashes
+c1933b1899078049232af6f997dca7421be5d65e|2015-10-30|mitsuaki1987|Merge branch 'release_v0.1.1' into develop
+e93100f9657c6fa689a0feb2c02ef16134d9f124|2015-10-30|mitsuaki1987|Merge branch 'kawamura199' into develop
+b1be133f20b6161ed11d99cc46c93e27122f6332|2015-10-30|k-yoshimi|modify readdef to read Nup and Ndown.
+040d0527c31f38c28d93a2f45fb246d56a72f528|2015-10-30|k-yoshimi|modify readdef.c for reading TotalSz and NCond.
+a061f9fb7ae1999115f6936baa4eb34075895839|2015-10-30|k-yoshimi|Merge remote-tracking branch 'origin/yoshimi_228' into generalspin
+e0840b0b83b01d7699f028436a3ec84f6c996957|2015-10-30|tmisawa| #228 correct iconv
+59f6b6ed2e4d77b2546654c1b7aa61b414f58502|2015-10-29|Mitsuaki Kawamura| #199 Remove warning in FX10
+c37512103a66966f463cbea171e0d17fb7cb5644|2015-10-28|k-yoshimi|delete needless file
+646cc5433a15a092617f8eaac984a01be32922c1|2015-10-28|k-yoshimi|Merge remote-tracking branch 'origin/kawamura199' into generalspin
+a4d50df64b62417bd17cbb929c61e92c41c87d3d|2015-10-28|mitsuaki1987|Merge branch 'release_v0.1.1'
+b8b869f74843839a139f782677fd8d55675a3a4c|2015-10-28|Mitsuaki Kawamura| #199 Add samples
+166eb51323665b18b7502ab75a003177fa5151f7|2015-10-28|k-yoshimi|Merge remote-tracking branch 'origin/kawamura199' into generalspin
+d6cf4ffe6f241393bef9b22f917ae4904f9051ea|2015-10-28|mitsuaki1987| #199 BugFix *Lattice.def : Fix the number of interactions in Kondo system. StdFace_ModUtil.c : interaction iwas not scaled by S and sigma StdFace_main.c : Definitions of indices of green's functions. Increase figures for squareroot variables
+83f68f4a0c99ded26a8071a428ec922f343a7d63|2015-10-28|k-yoshimi|Merge branch 'develop' into generalspin
+5de67790d995c076beb6ee79bb7ba7402d4346f9|2015-10-28|k-yoshimi|Merge remote-tracking branch 'origin/SpeedUpPairLift' into develop
+e97d1d5f7cfd63c6bb463a90882d6fc4002ce2be|2015-10-28|Mitsuaki Kawamura| #222 Update samples for the expart mode
+08b886bd63e1966d1a775f79e62107998dd27551|2015-10-28|tmisawa| #252 add examples of kagome
+eb912e1e60a700bfe8c18b4e0fb8176cbb4178e7|2015-10-28|Takahiro Misawa|Merge remote-tracking branch 'origin/develop' into develop
+99dd8a0a58634a000b2570e0627a053352fb996d|2015-10-28|k-yoshimi|#242 add check function for Hilbert space.
+8670592b2a86f2adb18cf264ab5da488f9f614e5|2015-10-28|Mitsuaki Kawamura|Merge branch 'release_v0.1.1' of github.com:issp-center-dev/qlmpack into release_v0.1.1
+78d8c59cc208d2ae0341872754781fe16fb40ce7|2015-10-28|k-yoshimi|delete needless function for single thread.
+fcd2380be23ebdd51a8fdd8e52948a4cf86085dc|2015-10-28|Mitsuaki Kawamura| #222 Update samples for the standard mode
+e2c20a54573e4de96fb922e4ba8ca6cb549d45d6|2015-10-28|k-yoshimi|add function of calculating hilbert space for general spin for canonical ensemble
+55824e46698b1528773d74179679fa5eedcd754d|2015-10-27|mitsuaki1987|  #222 source -> bash for other shell (such as tcsh)
+c20fafa23a8ace0ba59e9d4103fa66282944c6d8|2015-10-27|Mitsuaki Kawamura| #222 Remove trashes
+c6aade354b00ad6be5735048028d1c97d0734542|2015-10-27|Mitsuaki Kawamura| #222 Fix typo in HPhiconfig.sh
+6e698061bfaceeecb7aa730c1836c7b5af9ce14c|2015-10-27|mitsuaki1987|Merge branch 'generalspin' into kawamura199
+c52e68dbc584180d36f2e5efbeea0876377ecfc8|2015-10-27|mitsuaki1987| #199 (BugFix) S2 was not initialized
+4762f9e2b742f26a9e2811ad48dfe0461ca1e8ff|2015-10-27|mitsuaki1987|Merge branch 'kawamura214' into kawamura199
+9dc3a43c968945ec5a89554acbdbb8d678d0ad49|2015-10-27|mitsuaki1987|Cleanup "READ" and "WRITE" variables
+4fc393f2d67ff5894f1602c206cb4d6796bba235|2015-10-27|mitsuaki1987| #199 Standard modefor general spin moment ChainLattice.c, HoneycombLattice.c, TriangularLattice.c, SquareLattice.c: set largevalue for general S, the number of interaction. StdFace_ModelUtil.c, StdFace_ModelUtil.h : Functions for add spin-spin interaction is modefied for general S StdFace_main.c : remove nup & ndown. remove Sz-nelec-nsite combination check because will be done in expart mode. StdFace_vals.h : Add S2 as a global variable.
+e9e11c8185b6d8ac6a57e99d69e78a9cbdf46c76|2015-10-27|Takahiro Misawa| #248 speedup pairlift
+336f2e88e39d8f182ec6c8b2dc4fbbc56b69aa5e|2015-10-27|k-yoshimi|bugfix for pairlift
+2494db4ef6e09760cf358e13153f6e64541c2dc1|2015-10-27|k-yoshimi|bug fix for pairlift
+d6505540118fa9328903e2f791df65a2b36e4b3f|2015-10-27|Takahiro Misawa|Merge branch 'develop' of github.com:issp-center-dev/qlmpack into develop
+64506735252fb422cdec4a65c835f78ccc1b3474|2015-10-27|k-yoshimi|solve confliction
+3e4cba55622a5b0058c8a06c526a6ff38e4b8bf8|2015-10-27|k-yoshimi| #199 modify functions for general spin for Grand Canonical ensemble.
+8f62c881ee6b76cfb87415a3bff08514f6775fb0|2015-10-27|Takahiro Misawa|Merge remote-tracking branch 'origin/develop' into develop
+674ec811dd8d29a04e7579a2c753782b7bfe439e|2015-10-22|k-yoshimi|modify gitignore.
+89e275199e47c5b26f6961764c35437607a982a9|2015-10-22|k-yoshimi|modify return error of diagonal calculation in SpinGC
+2942f1067315ceeecccffd479df207af5c46fa51|2015-10-22|k-yoshimi|add function of calculating diagonal components for general spin.
+36047ac0a5cdccbfda94118a4abddee731c15f27|2015-10-21|k-yoshimi|add function of checking spin index for transfers.
+86ebc02fa4bf6ee2ab0b374f20c488f6161bb49c|2015-10-21|k-yoshimi|add function of checking spin index for interactions.
+17c077b0ee48d0be4ddfdc725c67dde4a91f915f|2015-10-20|k-yoshimi|solve confliction
+eaf5014f735117d26a985de2985af748c80f8e9e|2015-10-20|k-yoshimi|add files made by gtags in .gitignore.
+a64a816d54788a8f389ea91b22216533a93097bf|2015-10-20|k-yoshimi|#228 add a flag of calceigenvec.
+02dcf5190f4e9c5060f688ecc22c920d3a2aeeab|2015-10-20|k-yoshimi|modify manual
+65c6baa9f9559afe2caac63ff003851679072b14|2015-10-20|k-yoshimi|solve confliction of check_list
+f92a0f37c3d5ffa9cb0dd8fb446b3bef8f405f04|2015-10-20|k-yoshimi|Merge branch 'release_v0.1.1' of https://github.com/issp-center-dev/qlmpack into release_v0.1.1
+7ac8287d8e02b13ca150d3909c7c555413bda75d|2015-10-20|k-yoshimi|modify to display a main page of doxygen
+243dafdd479c311f49aa4af10e4bbb3ff7659bdc|2015-10-20|k-yoshimi|add ignore html folder.
+07e532c4e4c592be5d81b6eb661cc8a2b4a51be3|2015-10-20|k-yoshimi|solve conflict cmake branch
+c659cfeba79e52d565738f6af19702c02dbd8034|2015-10-18|k-yoshimi|modify header not to include same files.
+f45e72b4f6f77c81fd3105c665fc04af9b2c9d4e|2015-10-18|k-yoshimi|modify setting for doxygen.
+852d96d0b6b180ad82cab72ea195d04eb8b9282b|2015-10-18|k-yoshimi|add comment for doxygen
+9d9cf0349024ad95c32268b229808427dcd6f395|2015-10-17|k-yoshimi|modify style of doxyfile.
+51923aacdfd1806a5ab2e38b4109dba1627446af|2015-10-17|k-yoshimi|add comments in readdef.c
+0b013c9fce23b2b099ae841580bb51ea69b8b5b9|2015-10-17|Yoshimi|Merge pull request #2 from smorita/patch-1
+9e9a5853c5a98e638265896ca812f5e3724a0cd1|2015-10-16|k-yoshimi|add function of getting off-component for general spin.
+487820eece869333d36f19289ad689045ad6ace1|2015-10-16|mitsuaki1987|no message
+860707d6cab95171f71d46ff7dd397e161ab2f29|2015-10-16|Synge Todo|#223 removed garbage
+d017561672c3c709f8ada00b95372c2d8387ad8d|2015-10-16|Synge Todo|Merge remote-tracking branch 'origin/develop' into cmake
+1866f50edfaaa2fe90749e5b2d6c6bd143bab0c8|2015-10-16|Synge Todo|#223 add include guard to prevent run cmake directly for 'src' subdirectory
+eedcfb0ff4a396e6e7e5b0e5d976c94e58eadccc|2015-10-16|k-yoshimi|add comments in bitcalc.c
+06d96efff692dd8e0ab068aadd629c7e0fb6fb06|2015-10-16|Synge Todo|#214 fixed configuration for fujitsu compiler
+3b1288eb6bcc184d2fc4b5a18e9cb54aca0253d6|2015-10-16|Synge Todo|#214 Support MPI in cmake
+20d815ac3e81f762eb26b40e4285e65de90cfcd7|2015-10-16|k-yoshimi|delete wrappermpi.h in common.h
+f5db5e93cdeba5800c03245d02a7d6edfbb0e4e1|2015-10-16|k-yoshimi|Merge branch 'develop' of https://github.com/issp-center-dev/qlmpack into develop
+8ffb8288e3261159010711ee434e9f147585d392|2015-10-16|mitsuaki1987|Merge branch 'develop' into kawamura214
+2981557f9fee8d9004ca8217f65975133661a755|2015-10-16|mitsuaki1987| #223 Modify onfigure script
+68e60c9028922a5fc63153c2e39fdf48ec04cbae|2015-10-16|Synge Todo|Merge branch 'develop' into cmake
+d1946b50b45dd69b95631eb6989c5f3131ab7313|2015-10-16|k-yoshimi|modify Common.h to include wrapperMPI.h
+22d8e10490c6fa099d9127ec25e30b39300e7300|2015-10-16|k-yoshimi|modify wrapperMPI.
+1a7757db6702bd68d2aa0bc9d015d3b6258f17fd|2015-10-16|k-yoshimi|create bitcalc functions for general spin.
+47e8d81a242ffa9c24db2ce4c717930e6b912e44|2015-10-15|Yoshimi|Merge pull request #236 from issp-center-dev/check_memory
+af13c0718934fe71066c3e690a1aecefddbd03f0|2015-10-15|k-yoshimi|fix character from TPQ to TPQCalc.
+2148edbc4c413ca958fa0bb1a4add4d02d1f6f1b|2015-10-15|k-yoshimi|modify value of memories for fulldiag.
+dd7e5b311ab45419bc8d52e106b12f616f46c88c|2015-10-15|k-yoshimi|merge develop
+ab5b9479bc7c9881e2ed22ee022ff0161ec2228b|2015-10-15|k-yoshimi|solve confliction from check_list
+631e025dd495426c8e9f0383d4fcd82f9328d17f|2015-10-15|k-yoshimi|#233 not for storing list for GrandCanonical Spin and Hubbard.
+d71539481052202e7a9bbab2ec9a85f4eb680537|2015-10-15|k-yoshimi|modify check and sz for general spin for spinGC.
+4213d580cf028ab2d2fb068398a7a8896416f229|2015-10-15|Mitsuaki KAWAMURA|Merge pull request #231 from issp-center-dev/kawamura214
+a5d3be9f498c9292de76f39cd11254a8fdaae2aa|2015-10-15|mitsuaki1987| #223 Add description for HPhiconfig.sh
+5f33ac3e96ed811a262ff21da0b732fb6cd44979|2015-10-15|k-yoshimi|solve conflicts
+0b99762aad23565b8aaf48469ceb4348d83259ff|2015-10-15|k-yoshimi|ignore build
+0de79dd6c4cdc70319274ecb69b0118a0d5aa64f|2015-10-15|k-yoshimi|#230 modify Locspin
+a8b6b48983b09b93fc40a2ea6377b43baef58d1c|2015-10-15|Mitsuaki Kawamura| #214 Add MPI-configure for FX10
+9f9face6a4070511ce9c38b163bd1fd1b0e68080|2015-10-15|mitsuaki1987| #214 (BugFix) in fgets wrapper
+d3ed64f80c864d424326b536429287ad3eb48dd9|2015-10-14|mitsuaki1987| #214 readdef.c : fscanf -> fgets + sscanf add MPI compilation
+52f3bde4bca61fbf258d4fa2eb82de4c97364365|2015-10-14|mitsuaki1987| #214 Revert fcloseMPI -> fclose
+6ac95efb54d1c4d7a348517b54d8f3e9baa3b6c6|2015-10-14|mitsuaki1987|Merge branch 'develop' into kawamura214
+eead1d284a50a367db9898601a277b3bd954d378|2015-10-14|Mitsuaki KAWAMURA|Merge pull request #229 from issp-center-dev/yoshimi_226
+9fb47f74eee6fd2856766bb18072eaf75ef3f691|2015-10-14|mitsuaki1987| #214 Apply MPI wrapper to src/*.c
+94c5d19468829af18fce6dcc0bb9757c22f2232d|2015-10-14|k-yoshimi|add samples for using ising type input.
+c5d0da5f357924a563c41088624fef7821588cd7|2015-10-14|k-yoshimi|bugfix for SpinGC.
+e7cc055353981a2c2edd47b1b117938895094931|2015-10-14|mitsuaki1987| #214 Apply wrapper to StdFace
+093357513aaef1cbf78e89e22a049842b3437a11|2015-10-14|k-yoshimi|modify Isinginteractions.
+dd63c926257d47118f5b59b87749d0b8750a997e|2015-10-14|mitsuaki1987| #214 Modify arguments for fgetsMPI and fcloseMPI
+398d1c111ba8c9a85a1f7b26492d3b2f2e3ddb47|2015-10-14|k-yoshimi|ignore build folder.
+d9da022b6734abb874557cf17657b48787741b9d|2015-10-14|k-yoshimi|add initialization for number of interactions.
+838684e7aa1cec2fc622619d11e22b8d8dd53723|2015-10-14|mitsuaki1987| #214 Just rename files
+6594cf5e8b4c77b4a0da9dd8997a7e22f1dd227d|2015-10-14|mitsuaki1987| #223 Modify configure script
+e27a695e2b130b7ca0da55ee73d83841a06d49fe|2015-10-14|k-yoshimi|add old make files.
+7d85c74d6935a0195155d3f6a905215518458611|2015-10-14|mitsuaki1987| #223 Ignore Makefile, makefile, and make.sys
+c2c01edcfc37ec4900bf3251c282c8cceb09ca8e|2015-10-14|mitsuaki1987| #223 rename makefiles
+0c58e7d050648024a59beda9d5c4f1bf621664b1|2015-10-14|k-yoshimi|#226 modify for using input file of ising interactions
+f142fa169648286422362a1f098b411c450936a3|2015-10-14|k-yoshimi|add description of ising input file in manual.
+dda5c8e3b4b76e29cc7ff87552374d36ede3d01a|2015-10-14|Synge Todo|Merge remote-tracking branch 'origin/develop' into cmake
+4212fa9a9a7884bc417c15af96fd2301976d1b86|2015-10-14|Synge Todo|Fix CFLAGS in configuration for sekirei
+2fd0a733ebbb659d7e168e6256f1ae64b141ff35|2015-10-14|Synge Todo|Fix configuration for fujitsu commpiler
+5e732fa2c9bb5a1c61269d5c653d2aea6cdec7e2|2015-10-14|Synge Todo|Add typical configurations
+942a02306085a4f749bd0acf744cdd6e0dd1f664|2015-10-14|k-yoshimi|#225 bugfix
+130579bdb7bcad7cbc94bc25e5cb449648704133|2015-10-14|k-yoshimi|Revert "Merge remote-tracking branch 'origin/BugFixedInCG' into release"
+e4e04d85050a5b0a73d77f99cedf8c57a2497fd3|2015-10-14|k-yoshimi|Merge remote-tracking branch 'origin/BugFixedInCG' into release
+ed0a954ef3b1dd2ff26c1b34a20884836e0259b9|2015-10-14|mitsuaki1987|Merge branch 'develop' into kawamura214
+4d0a24c6425a7392012c93624187f9ca82e188d3|2015-10-14|mitsuaki1987| #214 Add MPI wrapper
+2329080cd46af8034ea59ab55386f5d60fe0aa9d|2015-10-14|k-yoshimi|Merge branch 'bugFullDiag' into release
+e86a870282160d1d4c20627a9ba7e88541805710|2015-10-14|tmisawa| #225 correct input vector
+04aea354f77bafa3513c93ce3f0fc71d8b41ae8d|2015-10-14|k-yoshimi|delete mfmemory.c
+c929c1081dca7a66ef9d75cd1d784a9a3753412b|2015-10-14|tmisawa| #155 modified again
+bf658e7387833e55e8601f0511e958f0f3e12c76|2015-10-14|tmisawa| #155 slightly modified
+e715d9923a5b81affa2deebef86089d177cae42a|2015-10-14|tmisawa| #155 implement the power Lanczos method
+d701102da6babb4897a834ad0933077fc7cc1097|2015-10-13|Mitsuaki KAWAMURA|Merge pull request #217 from issp-center-dev/cmake
+c1e10beb94059dc28feafc0291428df5616648e7|2015-10-13|mitsuaki1987|Fix included file name
+ad7ac3ee96cf932a7d7a57c9d5f26ab2547a1013|2015-10-13|mitsuaki1987| #214 Add MPI wrapper
+1e3bc68046ae2e32e49c1d1f6e408e2853aa82b9|2015-10-13|Synge Todo|Compile each *.c separately.  Add CMakeLists.txt
+d98ad7f8ccd9bfc9674c608cf1f1964838854d99|2015-10-13|k-yoshimi|#216 bugfix.
+92f505802c3eab23c52be5068af29834c04d851a|2015-10-13|tmisawa| tentative
+76b867a7084bd96e68d69f2a842464a8df261171|2015-10-13|k-yoshimi|Merge branch 'develop' of https://github.com/issp-center-dev/qlmpack into develop
+1d7f45ef9991d793039b448a012801bcfc1f80a0|2015-10-13|k-yoshimi|#215 bug fix
+b05568ab6809dca29175c7cb399bee33454f5b50|2015-10-13|mitsuaki1987| #212 (Fix) VMC -> HPhi
+86048708d38f6d4646a6ea24be7a8b728d843a47|2015-10-13|k-yoshimi|#211 change output format for One body G.
+77f16c5a4697b1b37d4b4475079d42517aa5dea5|2015-10-09|Satoshi Morita|Delete #struct.h#
+837d4d1744c9d8869145446f34be7dbc97c21c76|2015-10-09|mitsuaki1987| #192 Fix makefile for docs
+e77954e253f30cfa4a84a8e36017302066e9111c|2015-10-09|mitsuaki1987|Remove duplicated file
+391c282a8e7dfc8cd6dd2cc07e6312351933a97e|2015-10-09|mitsuaki1987|Merge branch 'develop'
+43b79594ef3d9aed6f8225f4d5a3938e380ea4ba|2015-10-09|k-yoshimi|delete needles files
+5c26e3ae19523f90fd7680eba879cab188dcc99a|2015-10-09|Mitsuaki Kawamura|Add Name Year etc. in COPYING
+a3230c1924685cbf0ff0b142d7eb4391884e01ca|2015-10-09|mitsuaki1987| #192 Set up files
+fe80ea67e365e718b31e25b03572422fb3e3bba5|2015-10-08|Kazuyoshi Yoshimi|add LICENSE sample
+8a2c6a7fe2635c4c16f4e85e8d86f36537759c18|2015-09-11|yyamaji|Initial commit

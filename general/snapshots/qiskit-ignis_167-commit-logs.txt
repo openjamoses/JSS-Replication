@@ -1,0 +1,536 @@
+405efbcf59e2e05306680f9c335040e16cf24e5f|2020-10-01|Manoel Marques|Update github actions cache to v2 (#503)
+6a4fc385b194d434bbce7841ccd0d1975ee96cd0|2020-09-30|Matthew Treinish|Cache pip in GHA jobs (#502)
+30e35119b3d7ad36bcd18e841a8e86aee4602027|2020-10-01|Junye Huang|add quantum volume plotter for individual trials (#489)
+31fff4dc42e9734e335d639dccb0321f26009ad9|2020-09-25|Junye Huang|Add QV plotter for plotting heavy output probability vs ntrials (#493)
+ba0d4b76a0a3a83c1fa8bd2855eb10df95b97bce|2020-09-24|Junye Huang|Improve plot_qv_data in QV Fitter (#495)
+2d940c34d3526e562e26370088abd3e5988b1082|2020-09-23|Christopher J. Wood|Add expectation value measurement error mitigation (#500)
+a136e72156a20c233446ebd6108038cba7ac9f1b|2020-09-18|gadial|Small fixes for GST and entanglement api docs (#498)
+9fefa96aeaad96579c05d74c6fe47664e6790428|2020-09-15|Jessie Yu|Update email in config.py (#499)
+0af27dd1fdd5c4e4d2ef80d21d0375d11a1625fd|2020-09-15|dekelmeirom|fixed but different seed for each qubit in RB seed (#492)
+5bdc29bf43493f44cda0a8dab3f570984833edc7|2020-09-09|David Nadlinger|README: Remove duplicate headline (#490)
+b491f6470d53d7adbe89cc2964d58fc5a48972bd|2020-09-09|Shelly Garion|Update to RB and CNOTDihedral code (#478)
+eef6059a943871643fb6353b0c7b1f686547f8b0|2020-09-04|Matthew Treinish|Add tutorials job to CI (#487)
+4c0369f5ba2db074968c847d14c86a9d90e49ccf|2020-09-02|Junye Huang|Correct QVFitter confidence level threshold to 0.977 (#482)
+fbe4ee8a10a454f079cdd930a89ca0bc71bee119|2020-09-01|Matthew Treinish|Drop support for Python 3.5 (#486)
+a5e398d2f0fa4feb87016e12d44c2ee36b9db4f0|2020-09-01|Matthew Treinish|Migrate all CI to Github Actions (#476)
+d8d42e4db6d62a19fa3721fc153665c5da7c1890|2020-09-01|dekool|Add seed for measurement calibration tests (#484)
+5d02b75c2fef6a75f860c856e8945309c92d1265|2020-08-31|Matthew Treinish|Pin setuptools version (#485)
+f4b410057faae545c2e70abeb21e055278afdb95|2020-08-12|Luciano Bello|Spelling in release note 0.4 (#471)
+f148b86d9f34309cb8e78850c1d467dc674a6cfb|2020-08-11|Matthew Treinish|Bump version string post release (#472)
+76920622401743a30d74005433e588a48d570691|2020-08-06|Christopher J. Wood|Organize 0.4 release notes (#469)
+439b3ee739fde633337f89b617c18821b25da0ad|2020-08-07|Naoki Kanazawa|Fix measurement pulse alignment bug (#466)
+2c045ce472f5b65a81a42c5ede95f90cc851b43e|2020-08-06|Shelly Garion|Add prelude on RB refactor for release (#464)
+a705a6e165b86c7aec36343a146857b475bd3b4c|2020-08-05|Matthew Treinish|Replace shallow copy with deepcopy in QV circuit generation (#462)
+05f693b76536bfbca47a4f8259c8ee97d47bb20e|2020-08-04|Shelly Garion|release notes for refactor RB, cliffords and cnot-dihedral (#461)
+6fe2999ecd7459e401537474352217e5ca66105d|2020-07-31|Matthew Treinish|Migrate Quantum Volume circuits to use circuit library (#460)
+434423ea009fcbafb7f29a2530a59388298b3d2b|2020-07-22|Shelly Garion|Refactor CNOTDihedral class to use Numpy array (#449)
+15b7177bfc8af8985f75375f4207eda986f63cfd|2020-07-15|dekool|Generate json files for QV tests (#445)
+f74d59b9ed7c845a1619c6f2ecb32960f1791959|2020-07-15|dekool|Generate json files for RB tests (#444)
+3038adf7e1610ca019eacf90610cb18a72e24ac1|2020-07-10|Naoki Kanazawa|update library path (#452)
+f885a5990aab4ec4eedcf9c6d469f4d71c01382b|2020-07-01|dekool|Generate json files for meas calib tests (#446)
+a9b473af8c64c8a1c869c028da5d93a307311637|2020-07-01|Shelly Garion|Refactor RB code to use the new Clifford operator class and update the CNOTDihedral class (#407)
+8f6aad2d6cf94ee33cbc8aaeb4afabad05a8cedd|2020-07-01|gadial|Tomography multiple jobs fix (#421)
+0d9487ae2502c4f060636a78b01925c46f1dcb4d|2020-06-29|Matthew Treinish|Make logging tests deterministic (#424)
+13133b0e95dec69521a6b90e9dd83e17de2f6f51|2020-06-24|Matthew Treinish|Fix breaking attribute name change (#432)
+3b72172015f31c64f62779c4f6f5bf8602142c1f|2020-06-22|Christophe Piveteau|fixed partial trace constraint in cvx fitting routine (#438)
+f0b68e4ca72eb34fef6224c2fa5ed0f8d7e0ca52|2020-06-22|Matthew Treinish|Add scikit-learn dependency and add CI job without optional dependencies (#436)
+01e907049cf6fdd8323ff1a524a51bbee20407ae|2020-06-22|Matthew Treinish|Fix fitter selection logic in process tomography (#431)
+e8a559f7293e48193f4c665f1594e5774ce18ba9|2020-06-19|Matthew Treinish|Fix azure pipelines (#430)
+c02e83e79dffa6f59eb8014bc8b18f2340d223af|2020-06-18|Matthew Treinish|Rework trigger logic in azure-pipelines (#425)
+79efd7f8e4aa6a88365f957071fde43ce3142f09|2020-06-17|Christopher J. Wood|Fix issues with CVXPY default solvers (#422)
+64d0fe990b3e5c9a4cc54c7b91de5ccb334daaf0|2020-06-16|gadial|Raising error when incompatible inputs are passed to mitigation (#420)
+011f16e97c4acee0a65f3a4ef9b0dde49f5a9e89|2020-06-15|Matthew Treinish|Add extra requirements and document in readme (#416)
+1f45d246a88909b3e47fe6bec39eeecabad9baca|2020-06-15|Eli Arbel|Fix logging unit test failures (issue #390) (#393)
+c8754ec4ea4f4ba1bb5b3e504c422d7fc3b0160e|2020-06-15|Matthew Treinish|Add README as pypi long description (#415)
+659727d65e0c13f1e8425841ca4881f6d50ffac0|2020-06-15|jagunther|Edge case T=0 syndrome measurements fixed (#418)
+803ed03d0275d1e057f4a347ef08cf1796b68888|2020-06-02|Matthew Treinish|Remove the changelog file (#414)
+6e4692e31f52522c177861b8c86fe5b2ff43e790|2020-05-28|dekool|Pickle to json (#411)
+fcac778796029ed0a186d599c75bd240c73d8403|2020-05-21|Helena Zhang|Fixed marginal_counts (#409)
+be9b1f8f06670c65a7bbb8b72abe5a0b97dff38d|2020-05-19|gadial|Gate Set Tomography handling of initial state and measurement operator (#408)
+c3cba7324ad2c456f056e6b9bf74219d69e36254|2020-05-13|Yael Ben-Haim|Pickle files generation for characterization fitters (#387)
+03008653163937ea53ad7ba1cd0546aeba47fb3c|2020-05-12|Matthew Treinish|Fix lint issues from new pycodestyle release (#405)
+be205e24b0bf856a6e4e032f7502f675da3ee4b1|2020-05-08|Matthew Treinish|Compress docs prior to upload (#397)
+4e5d55457081e001c011a9cefc1410aa7c9b7497|2020-05-07|Matthew Treinish|Unblock CI by updating jupyter_sphinx and pinning ddt (#401)
+e3b227e0f65164c436cf899cca920cb34d58b5d3|2020-04-23|Matthew Treinish|Update CONTRIBUTING guide add reno for release notes (#396)
+8d9b0e5e441c0a89807043022cefed7186ea91a3|2020-04-23|Matthew Treinish|Copy pylint config from terra (#370)
+838bc0f750d63b4ea14789fd174f9a10f51f61c2|2020-04-16|Yehuda Naveh|Fixed entanglement test (#388)
+0115c97b485dc9e6051c8160880e87505baf2117|2020-04-15|Drew|logging: fix broken reference (#385)
+1c6f4c1eb2648341637e1ba6e390258bb3c3478c|2020-04-10|Matthew Treinish|Bump version string post release (#384)
+4457483018536ed818df6e249e1d677942d8d119|2020-04-09|Matthew Treinish|Bump minimum terra version (#383)
+2638d5c00864e2e0e4d3acf9348b2da66eaf7a8b|2020-04-10|eggerdj|Add measurement module to import path (#382)
+81f41208f9af6f7ba62bf14a33a801890f027f77|2020-04-09|Matthew Treinish|Add pip check to CI jobs (#371)
+800891368bff38339ff0384294f105ddcea3609c|2020-04-09|Christopher J. Wood|Update changelog for 0.3 release (#381)
+582e9a94244f5826845a85ffaae7512b8cbc5dd5|2020-04-09|Yehuda Naveh|Add entanglement verification circuits (#328)
+1571027ed4a44aa8e50b5b9a20f596eaf1c0be03|2020-04-09|Naoki Kanazawa|update rb util warning (#380)
+577ecb364b609fe324aebec9377e94827e855b39|2020-04-09|Naoki Kanazawa|Update pulse code to new instruction sytntax (#375)
+6b21eaaf9afaa2e58209321f546c7b23bf40a9de|2020-04-09|eggerdj|* Removed pickle file in discriminator tests. (#379)
+65ec98a35bfea36249b2293afe4a55235e5f7c2d|2020-04-08|gadial|Support for integer labeled qubits in measurement mitigation. (#372)
+b03925e2ead47db6d14577f8ce51e42b8d537567|2020-04-07|Matthew Treinish|Install git from master on pylint and docs jobs (#378)
+dd2c9265603329662f67a59a0e47744685b430d0|2020-03-26|gadial|Gate set tomography MLE optimization (#330)
+4fc0b2b4d7ad3d45dc512081bbac27ba4ae03944|2020-03-26|sethmerkel|refactor of accreditation (#329)
+a2e1f4d8cfaf78b0ee1c0f08e3c83c3fdf4e5eb0|2020-03-27|Naoki Kanazawa|Update `twoQ_clifford_error` function (#368)
+7a3f05d41dc4796d5ea7ea589aee57b07cbd34ae|2020-03-25|Matthew Treinish|Exclude new release of scs (#369)
+26d7745e3afe3331d765d667b0f5657640b006cc|2020-03-24|Naoki Kanazawa|Add modules to calculate EPG (#335)
+3a478707da18be64a4c2a52606ac42f7457b4201|2020-03-19|Christopher J. Wood|Move MacOS Python 3.8 travis job to cron job (#365)
+1739e6d530d11ebf05b85f35d92bb715e494b2f7|2020-03-20|Naoki Kanazawa|Update `gates_per_clifford` module and add unit test (#360)
+1fdce9ffad798ff8b98db4dfd02401de57b6429b|2020-03-19|Christopher J. Wood|Fix iden to remove deprecation warnings (#364)
+e8a4b14bc36dd6c1bbf11152c37e04fe597d4de7|2020-03-17|Shelly Garion|fix type in circ name (#361)
+47ffdfc5426f7cb33b7b86f7a8d66a43ca37cea7|2020-03-16|Yael Ben-Haim|Improve documentation of the coherence module (#348)
+8891270894ce436270c7cefcdf5edf925f1b2235|2020-03-16|Eli Arbel|Logging docs (#353)
+ee7507d4272812292b816141165d7e890127ee01|2020-03-15|Matthew Treinish|Bump macos version in travis (#363)
+8de952d1ccc8a17f551e91a94ccd6a93eca02e82|2020-03-11|merav-aharoni|Improved syntax of docstring in mitigation (#346)
+38dd6f9c6a3394d56d3085f06c97840aa435aea9|2020-03-10|Shelly Garion|Documentation for Randomized Benchmarking (#345)
+a372de2bf0f3e69a7aa014003ca6d78216bec46b|2020-03-09|Ali Javadi-Abhari|Use BasicAer instead of Aer  (#362)
+16ee0afe092dab4b5adf94af4ade03c9c150140f|2020-03-03|gadial|Support for integer labeled qubits in tomography (#359)
+190afd98900a0e66fc423cbd6520b7da5a86cde2|2020-03-03|gadial|Tomography docs (#347)
+004def191fe107bc153814b69747c09331159eb4|2020-02-19|Matthew Treinish|Add python 3.8 support and deprecate python 3.5 (#298)
+32be479f045fc502463cae8b621586758b02fd5a|2020-02-13|Paul Nation|New style docs format (#350)
+b2d1f78fb62e2a027314628524999610eb074146|2020-02-13|Matthew Treinish|Set a consistent line length to 100 characters (#351)
+7e7dc5169b90aa6cf8abf78f706b345fd40e5521|2020-02-13|Lauren Capelluto|Update ignis to be compatible with terra master (#352)
+20a1d0ebca6cc149555a566f4c0875e6d784daad|2020-02-12|Paul Nation|Update sphinx code (#343)
+db56f8a2e01cbe2703ed8afe11f8e730d655c1e9|2020-02-12|Christopher J. Wood|Fix travis script and requirements-dev for CI tests (#342)
+ac6e24d34c98ac4447ee0378002b247beafa7209|2020-02-05|Kazuaki Ishizaki|fix typo under verification directory (#326)
+18e2ef15194d826e2c1221f2a43fcf9fc953e7ff|2020-02-05|Shelly Garion|removed Non-Clifford CNOT-Dihedral RB tutorial (#327)
+57e426498c08ff0935208947f2f03f0664526436|2020-02-05|James Wootton|Make barriers in repetition code optional (#331)
+829207fb9bdb3215bc04f7170b8f0734fa05ea3f|2020-02-05|Christopher J. Wood|Update pylintrc (#336)
+15c5f4b952a6dba7445cb61a4f8d9238a1470855|2020-02-05|Shelly Garion|fix a bug that caused the RB test to fail (#339)
+466ff20c67d4d7c856c3d0d79deaed2181f5520c|2020-02-05|gadial|Changed misleading exception comment (#314)
+3c59f82c11e87c071bc7e84240b50e2aa995281f|2020-01-28|gadial|Max shots fix (#333)
+06ce58ed0945b4453147da832e7367f7c003ee72|2020-01-07|David McKay|Update CHANGELOG.md
+559d5b2e472b155306edc27bf3f3f011290726c6|2020-01-07|David McKay|Accred test (#325)
+31395f26bf85bd52855e845f3a7b211b56151137|2020-01-07|James Wootton|Improvements to repetition code test (#319)
+6161a159c39688ef62a355fbc2630bf878ce9319|2020-01-07|eggerdj|* Moved discriminator tutorial out of qiskit-ignis and into qiskit-iqx-tutorials. (#324)
+5400ab23f69fca8be730597cce3c52be8de46623|2020-01-07|Matthew Treinish|Bump pin to unify lint job versions across elements (#321)
+f24c8e6609cc93aad13b62f0b8a0fb2571c5d36f|2020-01-06|Kazuaki Ishizaki|fix typo (#322)
+59162f7e426ff4a52f61e48bde45f7f54a9f7cfe|2020-01-02|David McKay|Update CHANGELOG.md
+ce9d3858d21c4d776e967b98ab881d0958223331|2020-01-02|Simon Cross|Add SklearnIQDiscriminator. (#316)
+6587084a08a2e364225b6e2472ebaeeae98712a6|2019-12-04|David McKay|Update CHANGELOG.md
+cb6696a3721b6e0beeabe995389ac186e3287e2d|2019-12-04|Shelly Garion|non-Clifford CNOT-Dihedral RB (#296)
+b2c922a44593541c73c1e6b1d9ab9d37235e847e|2019-11-30|eggerdj|* Switched plotting of missclassified points to crosses. (#307)
+63316408769bfb8b0cfbfc385b7f35e52506f314|2019-11-23|SamFerracin|Add accreditation to characterisation (#252)
+d75a17a258a3b9324763b518ef6730572d0d254c|2019-11-19|David McKay|Update CHANGELOG.md
+2fa0366b3773a5682e98791eb0032b4e01570036|2019-11-19|eggerdj|Discriminators should be able to parse the results #274 (#297)
+a786cfbd243557cc0809ae66ebc232842375da33|2019-11-15|David McKay|Revert back on u gate phases (#304)
+2f59a501c6449ff3dd68aacff92dec78b2c4a4c6|2019-11-15|David McKay|Removed framechanges from the drag schedules (#303)
+e696fee3e52550f50fb240a4c6356c61c9f01725|2019-11-13|nkanazawa|fix FC rotation direction (#302)
+42cbbf8821a7d920ac44620d1e09ab48300f4be8|2019-11-13|Christopher J. Wood|Change default solver to CVXPY default for CVX tomography (#300)
+f024386c7479f10526c3bca6ebb892d335356fc7|2019-11-11|Matthew Treinish|Pin pywin32 version (#299)
+4b4ef7199934f271565dc7e43f012037124d99b1|2019-11-09|David McKay|Update CHANGELOG.md
+8bee27529555762b00c88e6ba61e13981ce3acd6|2019-11-09|David McKay|Added pulse calibrations (#292)
+6145a4e59fc4da8f4398d4c9908eb76e78a1e828|2019-11-07|Matthew Treinish|Add overview of doc structure and process to contributing guide (#291)
+c4c66591c7bccc0d94bb830239611870f38a1887|2019-11-02|Matthew Treinish|Fix sphinx warnings and enforce no warnings (#290)
+fef036ecb93c896dedaab0958da8c46ac11770a5|2019-11-01|Drew|Docs: format docstrings (#288)
+4dbcef2eb87b88e39ee1f873c1f09aa265c2071e|2019-10-24|Matthew Treinish|Add docs job to run docs build (#284)
+64425de1328d12db57546ee67ad3a0b60da4aa01|2019-10-17|David McKay|Update CHANGELOG.md
+b79bed491f7cff9bf80a8b29b858bd0480f9b146|2019-10-17|eggerdj|[WIP] Discriminator plotting #273 (#278)
+dddd183662200418017da767764edb4315faabfe|2019-10-17|Matthew Treinish|Upgrade virtualenv to pull in latest pip (#281)
+c9a470bc6d8755e71d2164b47f6a7e037f2a86f5|2019-10-10|Matthew Treinish|Fix lint failures caused by new pylint and pin (#279)
+b65da6186f1181954207e1b849fa0208bf23fb75|2019-09-19|David McKay|Update CHANGELOG.md
+99af73c59a80eb296d3499e03e13521958c4f34e|2019-09-19|eggerdj|WIP Discriminator (#238)
+e9247de37801f11ad5bc0a0f129b59573f567da2|2019-09-10|Matthew Treinish|Revert "Pin osqp version for tests (#264)" (#270)
+5d203302819356b077b651ccbcf22605c334bcee|2019-09-10|Paul Nation|Add docs locally in element (#269)
+38d9a57a6728dac04ecaea8d2671347ea9b2a191|2019-09-09|Matthew Treinish|Split up test_rb using ddt (#268)
+986fea3b602746127acaa5e11304137e70dfe08b|2019-09-07|Matthew Treinish|Execute tests in parallel for CI (#265)
+d263e64a6cdf7c2c2f5bc47f4ad1f38ed12b7721|2019-09-07|Eli Arbel|Escape Windows directory separator in re.compile (#262)
+14e29a4b5587810f18d67f68cb86c7fbd38937fa|2019-09-06|dennis-liu-1|added PR numbers (#267)
+ed6ac1c0f7a03247181a533d719945847f1d3d88|2019-09-03|Matthew Treinish|Update the CONTRIBUTING.md file (#266)
+0807d40546b0c580318e6cb44135258b122d57e9|2019-09-03|Matthew Treinish|Pin osqp version for tests (#264)
+556ca3b7b15cb0ae869c09bd82604e7737f64039|2019-08-30|Shelly Garion|Extend RB to allow other types of groups and gate sets (#255)
+d9f695dff0601b00639b88eb0e9b799ce4d2d9c6|2019-08-29|lerongil|Update README.md (#261)
+d2cc4456b060ab9f0892a442ad2a0838b205c969|2019-08-22|Matthew Treinish|Bump version string post release (#260)
+51348aa8b5c9448d633f9edaa05d03ded42f2b04|2019-08-22|Matthew Treinish|Bump changelog and prepare for 0.2.0 release (#259)
+f263d39554b8a6046a3cc28b8ee6fa8b02d96f43|2019-08-17|Jay Gambetta|Update README.md (#253)
+987b5d3463a34c1fb4c5299e01b963b2b4839cd0|2019-08-15|David McKay|Add DS_store to the gitignore
+d5e7c7b079427d30b2e3c5f2e7b66b0220e0c93d|2019-08-13|yaelbh|Small changes in the guess values of RBFitter.fit_data and fit bounds (#247)
+549f8ee735c258c6b65f46eafcdba5b788ae5276|2019-08-12|Matthew Treinish|Revert "Make azure pipeline steps fail on intermediate commands (#248)" (#249)
+e3420a6f88bc1e345cf4ba349545d290785d549e|2019-08-12|Matthew Treinish|Make azure pipeline steps fail on intermediate commands (#248)
+106371db0c03714de2aec99fb13e1e5169c6f7f8|2019-08-07|David McKay|Add a layer of u1 circuits to all qubits in the ideal circuit to preven tany truncation issues (#246)
+537c231e8c5fe4623c8036fc7b1a25eb6fcd6bb7|2019-08-06|David McKay|Add barriers to characterization (#245)
+14e7a91b80bedb3d1759bb17fa3e31cd10d76ece|2019-08-06|David McKay|Update CHANGELOG.md
+ba0ea1b3dc15fffeeeee91cea1a9deb3434b7074|2019-08-06|Eli Arbel|Ignis logging (#198)
+f55e14e4b628394f13804233af9c37e84ec3451f|2019-08-06|yaelbh|Replaced deprecated qubit[0] with qubit.register (#242)
+dc5a2a9e73284bf11fe531f6a8e0fd1da5fbd731|2019-07-26|David McKay|Update CHANGELOG.md
+45c49c2d29e3ec202e3ca3ad58ecce27e8ef524c|2019-07-27|Haruki Imai|Parallellization of applying the calibration matrices in error mitigation (#225)
+a38a3deed1f5c936408db97f50f4b792cc46f5be|2019-07-25|David McKay|Update CHANGELOG.md
+23d5ef8231d0bb95cb03ad9b1b62ee37757b24b3|2019-07-25|David McKay|Fixed some small errors in rb, add the ability to load multiple resul… (#240)
+8ec0439fa7cfe0eab1457ee107c1db6a75c15597|2019-07-25|David McKay|Delete purity_rb.ipynb
+7d28711e292fa6be3f72a907340ad7a9b5889193|2019-07-23|David McKay|Update CHANGELOG.md
+709ad78a5680ec3226accd3d298865be3d12e1be|2019-07-23|Shelly Garion|Purity RB (#218)
+cfcdb0db739f3497abae80898d1a9cdd2be46a37|2019-07-16|Ryan LaRose|Fixed links to CONTRIBUTING.md and CODE_OF_CONDUCT.md in README. (#235)
+1d5b41e8fb931126c79e26fb3bf4776fbdc73754|2019-07-15|Matthew Treinish|Add pypi automation for releases (#234)
+cb13476a86d2e0f5e72e38b0c1e88ea8506757d0|2019-07-10|David McKay|Fix error in rb fitter for greater than 2 patterns (#233)
+3694ca68abf54a03e73318e81d8932e6a7159f12|2019-07-04|Ali Javadi-Abhari|fix bit access (#231)
+1907486bc9ef7c6803d447ca2cfa02f96c297a59|2019-06-26|Matthew Treinish|Update the mailmap (#226)
+9a7024eee85f28d7c44602bfb43810c4072da6c6|2019-06-26|Matthew Treinish|Set up CI with Azure Pipelines to replace appveyor (#227)
+009b103f26f877856e863f1b5597126036ca05ce|2019-06-21|Yehuda Naveh|Added .mailmap (#223)
+ca97a7482d648e09d6951544565f51c7573e6b72|2019-06-12|David McKay|Clean up the interleaved fitter to inherit off a fitter base class (#222)
+231f2948b0e5fd1633b0a80985dedf1baa9d2a7e|2019-06-12|Matthew Treinish|Add version string to ignis (#219)
+8732f411ebd5167931f0a8a662361f5d37f7d1fc|2019-06-10|David McKay|Delete repetition_code_tutorial.ipynb
+be4fe0ed595b2ec7328cd289a798e863d9f95fc5|2019-06-10|David McKay|Update CHANGELOG.md
+527035caf75858919f179ddd574cea531c7a9326|2019-06-10|James Wootton|Initial commit of tools for qec (#211)
+41377b4e4690013c3765c36838108ed8d8ef04f3|2019-06-07|Matthew Treinish|Move CODE_OF_CONDUCT to top level (#217)
+29263249de01d8e52d7ee890a70bbcf0368bbb47|2019-06-07|Matthew Treinish|Move CONTRIBUTING.md to top level (#216)
+d3c8cb7e39e2c765e052732fab5eb024cfc0f2d7|2019-06-06|David McKay|Delete Interleaved_RB.ipynb
+b868da1016b213a1a2a02e8eaaeb51d8ec920fdb|2019-06-06|David McKay|Update CHANGELOG.md
+ce05826a06eb46273fb71266b81b02b60a2bd0de|2019-06-06|Shelly Garion|Interleaved Randomized Benchmarking (#174)
+89a2052617238985600ea93ca523f1bd35a02c4a|2019-05-30|David McKay|Update CHANGELOG.md
+6a80590b50555beaa2db5846303766e36d61a7b3|2019-05-30|Shaohan Hu|Adapt to Terra's new Qubit and Clbit classes (#200)
+96d85dcc9b312c1743094b6003de501dbea8cd39|2019-05-30|Matthew Treinish|Revert "Don't install terra from master in tests (#199)" (#212)
+d5ea2e22e525fe54e3d0f812c1e0c3d4f2b89d71|2019-05-29|David McKay|Update CHANGELOG.md
+37bf1ce4c821d235bb549264bf8b04c6b4425ec3|2019-05-29|David McKay|Allow seeds to be added in arbitrary order (#208)
+3b1c324adaec65cd060c971de8f210fec22c06fd|2019-05-29|David McKay|Clean up meausurement tests to fail less (#209)
+2eacf88e8e125cb36db56c389c04f84ec5622073|2019-05-27|David McKay|Update CHANGELOG.md
+59ecab8a13a45568b809c529c5187dd19ea6a7d4|2019-05-27|David McKay|Improved guess values for RB (#204)
+7dc8d8dd86c1aab62cb227772443c6aab188309d|2019-05-27|David McKay|Fix char fitter (#206)
+e4989e94d9218945d7f2fb2419ba50b7511de5e4|2019-05-27|David McKay|Better guess values for the test fitters (#205)
+30609f92ca9169b381885f72a5df0aca6a4ae30e|2019-05-26|Matthew Treinish|Re-enable python 3.5 windows test job on appveyor (#185)
+b2d46124f19b937b322eeae63eb3461bcb761745|2019-05-22|Matthew Treinish|Add stable branch policy to CONTRIBUTING.rst (#190)
+84681b75912f900c554a972013486c644dc15315|2019-05-21|Matthew Treinish|Don't install terra from master in tests (#199)
+d24c03f280a168e9b939c2956d36a5a6e9e0cd33|2019-05-03|Matthew Treinish|Bump ignis version (#184)
+90e2184ed2b7e38c347dda2382d1d06d47d36223|2019-05-02|David McKay|Update CHANGELOG.md
+e4e5f7f5125c121a8b03c372cc4003a8524597de|2019-05-02|David McKay|Update CHANGELOG.md
+d09115420ceb978a5675e5faf0cd56e39d082278|2019-05-02|David McKay|Added the ability to generate a new fitter from a subset of the qubits (#182)
+ba2838945f7036fbaf936b5b17492a9b2d7191eb|2019-05-02|David McKay|Update README.md
+ac78866d957e00c89300836628623be9cb6b0dc5|2019-05-01|Matthew Treinish|Bump minimum required terra version (#177)
+feb33aad6c2f57500bae7ededdeca7b3e2aa397c|2019-05-01|Paul Nation|zip_safe (#176)
+5256f0a660d3d7d343bee316ce00a0d8ec59ba4a|2019-05-01|David McKay|Update CHANGELOG.md
+9abe3e8b9e15a69523ccf172ebf2106868951946|2019-05-01|David McKay|Quantum Volume  (#157)
+ea9b83f5cbf661796fbbf24c3a47c31573c29995|2019-04-30|Matthew Treinish|Add back Cython
+ab1978dafc4dcb5009793208342d1269736ad95e|2019-04-30|Matthew Treinish|Stop building aer from source
+da02a82b6d50cf4b103184a80b8a8a3d1a4e27d9|2019-04-30|David McKay|change to 0.1.1
+fdcb14d573be7ecd0b514404b2c4ba2ee644fa37|2019-04-24|Matthew Treinish|Bump version number in setup.py
+75e8ae69132796a8fa9d86ae360bd519835f5e86|2019-04-29|Matthew Treinish|Add measure to generated-members
+62bc8df8f7fb61bcae86039d38b9e9ec1b81a2e2|2019-04-29|Matthew Treinish|Remove invalid command on new image
+7dd141d805b62c6b363dbd393badde93fbc1a4d6|2019-04-29|Matthew Treinish|Switch appveyor image to visual studio 2017
+b8604312ee775ff7f6bc69d9a16bafa5d29e10a0|2019-04-29|Matthew Treinish|Add more ms runtimes to appveyor
+f5a63c7cc4e7b25b6d1ae8dd4338e84c74aac416|2019-04-25|Matthew Treinish|Avoid tox-pip-version in appveyor
+c81f8400d0be080f59a3a8a2abef4c083141aa22|2019-04-25|Matthew Treinish|Add missing -y
+485de0c6373141d54035f40ecf4f4e8ed91ea23d|2019-04-25|Matthew Treinish|Use conda to downgrade pip
+03bee11ee79469a136936bfbe722a9280979b743|2019-04-25|Matthew Treinish|Try using user mode on appveyor to downgrade pip
+53895ebc9ae0d1c7808cfc05fe5716fb73d6907a|2019-04-25|Matthew Treinish|Try using tox-pip-version in appveyor
+3c233284f4b20454b940b72a83e18f1a8bf2ab24|2019-04-24|Matthew Treinish|Add travis wait to avoid aer build timeout on linux
+529bd027a98c4bb5bc426e9bdae9a5b67f40c8aa|2019-04-24|Matthew Treinish|Disable pip upgrade because appveyor tempfiles are still broken
+413cb151f05f98d60a6304ff32c2450c569dc0d1|2019-04-24|Matthew Treinish|Add missing pip cli args
+ec789f9b9a48a462522c264bd77e79389aed6f28|2019-04-24|Matthew Treinish|Fix typo
+41e70f557473cf6966edec1db1f62266fd705735|2019-04-24|Matthew Treinish|Tweak script and install scikit-build
+2e6b4034541498b8a01d42e72b37c6ea04b429c3|2019-04-24|Matthew Treinish|Manually build aer in a separate script for linux
+c7620b9610f95af9a9d1815182ce02ec3acf83a5|2019-04-24|Matthew Treinish|Adjust how flags are set for pip
+d2054b10c2106b254f9ba3ba3859a9e947d3cb2a|2019-04-24|Matthew Treinish|Specify newer g++
+dc4a2a20161ffa1a545f50bf404fa3392e93e45a|2019-04-24|Matthew Treinish|Downgrade pip to workaround qiskit/qiskit-aer#172
+85a4261847ffb54eee3c8b8eeef0935f416d878c|2019-04-22|Matthew Treinish|Try manually install cython again right before aer
+a5652739df894c8f1e7384dbcb3029fe7ff4307c|2019-04-22|Matthew Treinish|Try cython from package
+81bdbb4af3b9dd35cb27e2bc9f97c887e911b203|2019-04-22|Matthew Treinish|Try to get aer to build
+d16b8239f7908c7f3a5872baef4e004b87fe1042|2019-04-22|Matthew Treinish|Add more aer build reqs
+f363e5655d6cab5ccd16b4d9fe90c510b4558794|2019-04-22|Matthew Treinish|Add openblas install so aer can build
+b62f1cb84809cceae4d7a964e4353ef4d3bad26e|2019-04-22|Matthew Treinish|Attempt to unblock CI by running Aer from source
+a850254a0511350fc63420cc70acf8c0842a0386|2019-04-29|David McKay|Fixed copyright header
+053ed15739425bd1d667c411e5d4ee642f658529|2019-04-29|David McKay|Remove tensored measurement examples, move to tutorials
+3ad954267aa5d7aa8d4161b395e6c56100b19600|2019-04-29|yaelbh|Updated copyright header
+21c4aebd3a060f41a9d1c08aec4d2aacba382745|2019-04-29|yaelbh|Fixed usage of an uninitialized data member
+24404436a1c198d3e9a7e0fa5dcf6f90619955ea|2019-04-29|yaelbh|Updated pylintrc to report undefined variables and class members
+8d8d4007457029d997228c5afdb64fddb7b6a269|2019-04-29|yaelbh|lint
+695b6273b4da6fb43cd89df3684a48a1c11e1060|2019-04-23|David McKay|Changed RB to write to a minimum set of classical registers
+c7d944640f8c78d8291b12bd7b4979d45ecc7552|2019-04-22|cjwood|ProcessTomographyFitter returns Choi object
+047be94a3c7ea33994d5bb58d8198a44b28a27ca|2019-04-21|yaelbh|Removed usage of depracated compile from test_meas.py
+971eea7f04c7c8e1f1d866a337507676d46ba6ff|2019-04-18|Matthew Treinish|Install terra from git master for release prep
+bbe16f5c00ff2aa1364bfe5be0ff046d0ca3973d|2019-04-18|yaelbh|Adjusted randomized benchmarking to newest Terra
+8369c62e30df4c4264501fa886efd0e9a5b9381f|2019-04-16|David McKay|Update CHANGELOG.md
+fdcc634f123fb71271a13d611d73e3bd49ab18d2|2019-04-16|David McKay|remove print
+aec3d7a3e13c1790850e9d34e22f5612d09d6676|2019-04-16|David McKay|Sync code between tensor and complete
+34b47fb2d48ec516d0ad3d5c49db8a6be5fdc8a7|2019-04-16|David McKay|Fixed readout fidelity error that was still using count_keys
+4679580398c97c6ef3b8bde67df2071af6c7eee1|2019-04-16|yaelbh|lint
+e2c24a211b43d4184e77341c3b0c0a98d07d4de8|2019-04-16|yaelbh|Storing and exposing substate_labels_list
+8abd2aeee5b8f202efa83be16a0d1afd96e51596|2019-04-16|David McKay|Fixed lint errors
+509c1ac8ab8de53748158e4f141caa29f3651648|2019-04-14|yaelbh|Reverted a recent change in complete mitigation
+d2afe61bc36a8703c21b6095382f789b41ea8559|2019-04-14|yaelbh|Bug fix (usage of non-existing state_labels)
+ad462380ef6a55750a5cc69e47706744dc1b700b|2019-04-14|yaelbh|style and lint
+cc4feeba11f512d044670f904f01bff19b185c4a|2019-04-14|yaelbh|updated the tutorial
+fbd3228c4d5b13c912712a7278fb552fd9b3d43b|2019-04-14|yaelbh|updated doc strings
+396ddfa56eb2b1f83fb2bde9292eb1d412aad61d|2019-04-14|yaelbh|Introduced substate_labels_list
+0b055a6fc2896eed774dbdcdce6503c1df273ea5|2019-04-07|yaelbh|lint
+7591adf21dbbbd70e16366bd08673763f1b7c9d5|2019-04-07|yaelbh|Refreain from multiplying by zero
+067790527fc12ed5cb8e6fd37f0c6e42370ddf7c|2019-04-03|David McKay|Another updated to the notebook to show that tensoring the cal matrices gives the same answer
+8a7e9349a2623ea3e042ff04d59d22143629f01d|2019-04-03|David McKay|Updated example notebook to reflect changes
+4e5c32ed8f27d45f30e3f12c7024dd536e8f0572|2019-04-03|David McKay|Changed readout fidelity for the tensored case, add plot matrix for tensor
+b82dcdb37bad90c45ce61663f8b2d029284253b7|2019-04-02|yaelbh|Moved all the measurements to the end, after a barrier
+43d5956d33bd40879f4b7fed097814d6a6bed0b7|2019-04-02|yaelbh|Updated the tutorial with tensored mitigation
+eee9971b343d3a9f18e654b3fe6d837ba0f9ed6f|2019-04-01|yaelbh|Fixed pycodestyle and pylint errors
+a9c20caed89d2d2972ed2324988a25369707cf6c|2019-04-01|yaelbh|Updated comments
+019c6f34ba3b519208a97f3a300bd681c9d913e8|2019-04-01|yaelbh|Committing a file which by mistake was not added to the last commit
+c63247fbc1e5d22ee026b5ad331c388595e6cb2f|2019-04-01|yaelbh|Wrote test_tensored_meas_fitter_with_noise
+8ce6d5113ed194912842d5541a3456f5abcad68b|2019-04-01|yaelbh|Bug fixes
+ac8ccbbb0a7680346f7b352d58b20f2fe74145bd|2019-03-31|yaelbh|Fixed TensoredMeasFilter.apply
+810053e2723089c509ede515e44ab257c1a2162c|2019-03-31|yaelbh|Reverting TensoredMeasFilter.apply because it was buggy, current version of apply is not ready
+c6452c453e8a03bf1d7d1d6529ebdf7f78306203|2019-03-28|yaelbh|Added least squares to TensoredFilter
+22890340c1976cb6475a082591c7a7f0d5e92453|2019-03-28|yaelbh|Wrote TensoredMeasFilter, curently supporting only pseudo_inverse method
+1535ba305c8b8f3dfe9de6ccd7b828e7198656b0|2019-03-26|yaelbh|Wrote TensoredMeasFitter.readout_fidelity
+00d9a4bdcd0f8f5af0f6c47df7231b00d194e82d|2019-03-25|yaelbh|Wrote TensoredMeasFitter._build_calibration_matrices
+0f36c697d5ac8c79e821f4fc9a6d67c2cdf43e2b|2019-03-25|yaelbh|Bug fixes in tensored_meas_cal
+261785fe6070edca5db7a4ae2665fb1fb2d0701a|2019-03-20|yaelbh|Introduced mit_pattern
+a9346e1a2a3556704577b060edf3cfb9e326a3b8|2019-03-18|yaelbh|Making tensored_meas_cal support qubit_list
+a89c41d640039d2683838c698b918335be7d14e5|2019-03-17|yaelbh|Wrote circuits for tensored measurement correction
+58d0898b59ea035b7d8cda0cdcdf7e00544dcddc|2019-04-16|Matthew Treinish|Add OSX jobs and stage travis (#152)
+642f743b2b3bf38b976d08c62360e49d59ed5dac|2019-04-11|Matthew Treinish|Add appveyor config to test on windows (#151)
+78f46a354e6324ca914548262add4c1a244c9e71|2019-03-11|David McKay|Update CHANGELOG.md
+3015b8eb92d4879f8e8380741e30e2633b47432c|2019-03-11|David McKay|Add a clifford align option for rb (#141)
+bd91bfcc23d5bb99e46b4ae5b5975ba839d3deed|2019-03-08|David McKay|Delete readme.md
+91d777f2d1654f28f30858ace3d8c9eab72ef145|2019-03-08|David McKay|Remove examples
+da1b9b36ae64061d0181c380a466f548fc446554|2019-03-07|David McKay|some small changes
+2acac1716f85126a70013849315a49ec75f72b35|2019-03-07|Shelly Garion|Add RB overview tutorial
+2e8788319d8cc477817561593ad4e2be7086c20f|2019-03-08|David McKay|Update the example notebooks for style consistency. Tweak some of the examples
+50ebf9aa3d4d370492b582d7c7efb456f331d7ef|2019-03-07|yaelbh|Removed coherence community document because it is moved to tutorials
+3c364ecc664d8df67753d8db5b2e0ea32d5218f3|2019-03-07|Shelly Garion|Fix the iterative plot in RB tutorial
+a9f1688c82e102b93c27c851c240f8bf82cbd0e8|2019-03-06|David McKay|Remove tomography overview (move to tutorials)
+8a86e1b5f8c86405790c6073cc5be6113b0b48fd|2019-03-06|David McKay|Updated to community tutorial style, fixed typos, added PTM
+231a644334ae6645914c22c105faf4c94b3fdefb|2019-03-06|cjwood|update process tomography description
+23005d73d20a534cf72e2062e92bebaf58a785d5|2019-03-06|Shelly Garion|update the plot after each seed
+63e7a8594779342deabc38d79519d6a6141bd865|2019-03-06|Shelly Garion|added comments to RB Example notebook
+f17fd396546e72391c50da29f4dfc8b8468257ac|2019-03-06|yaelbh|Fixes in coherence-overview.ipynb
+7643f60d44ad41001d1806a0b85e35339ed21fe8|2019-03-06|yaelbh|Wrote the section on fitting in relaxation_and_decoherence.ipynb
+32c7af68ef2c5f5e34e9f251cade2a851a95ce8b|2019-03-05|yaelbh|Wrote the sections on circuits generation and backend execution in the new relaxation_and_decoherence.ipynb
+0e60c2beaaf71359b4e6a27619645c0fced3f875|2019-03-05|yaelbh|Fixing a typo in state-tomography.ipynb
+0f935c512ae6f12ec2321f3d01c799dbc44c66d3|2019-03-05|yaelbh|Erased text from relaxation_and_decoherence.ipynb
+de222b82a0476e96c858780306646c0785ad4c76|2019-03-05|yaelbh|Wrote coherence-overview.ipynb
+bef4ed85af895babb072a9429b3a39579231314c|2019-03-05|yaelbh|Fixed spaces in relaxation_and_decoherence.ipynb
+2729f642ef3d4d617c7791c41f5e20d918cd9e3c|2019-03-06|Shelly Garion|removing Clifford Group tutorial notebook
+8ee295ab8bea3b429b83f6af77ce2d30a81cf9a5|2019-03-05|David McKay|Updated the tomography overview to work with changes to the tomography api, also push all imports to the beginning
+e490612047135cdec4a90906358a7caec77afe15|2019-03-05|Gadi Aleksandrowicz|More rewrites
+5b2c0a6bee5a907237557271482022c34d4a65f0|2019-03-05|Gadi Aleksandrowicz|Small rewrites and additions
+0c9b0481524b0ae082e791bb6f8adcdf9dda3a69|2019-03-05|yaelbh|Removed calls to sys.path.append in notebooks, following the launch of pip installled qiskit-ignis
+339262d7f171ee209aa705677f96dd385efdf986|2019-03-05|Yehuda Naveh|Yehuda naveh patch 1 1 (#120)
+d21328803f66ef11d5630a7409d65b3ac15f1163|2019-03-04|Shelly Garion|fixed README path: qiskit.ignis.mitigation.measurement
+d9eb23ccb8bea94d42fa68760088879cbd94473f|2019-03-04|David McKay|Point qcvv funcs to data.py to avoid dead links when they're deprecated from terra
+2f598ed817e6bc9ec756a52ef58b0c41cd42822c|2019-03-04|Shelly Garion|added some explanation to RB Example tutorial
+9e72b3cfd5be3d31f8e68add8a99c50065d1e405|2019-03-04|David McKay|Fixed rb notebook (cleared cells with warnings), added new fitter class for gate error fits, fixed X90 gate in terms of U2
+360725b0eeb0d24ed28162c87cd1003cd297e43c|2019-03-04|David McKay|Create readme.md
+630c168e660898b2dceed3cbc486d758f87c3d45|2019-03-03|Shelly Garion|examples/Clifford_Group.ipynb
+2b00c1196a2e4925538da59323b59e270ee1b531|2019-03-03|David McKay|Put edits on top
+9e2f5f0e08591d93985239a3eff3a60371e2b064|2019-03-03|David McKay|removed self in argument cal
+e06c1b53e4c41cd7f374663c23dd0d3cb7d67c45|2019-03-03|yaelbh|Changed references to classes
+e421e5762c7d09f6b60428bfd7fde3eed630f2cd|2019-03-03|Shelly Garion|updated README
+5eeb92bb20f85b10dac577ab07633b600443a29e|2019-03-03|Shelly Garion|replaced compile/run with execute in README
+bbf95b278c04acff76db7a378a3799010a942f87|2019-03-03|Shelly Garion|fixed a typo in comment
+06a2ac7ccccf42aa6d5e51f2c0c14c707bffa863|2019-03-03|Shelly Garion|replaced compile/run with execute
+514a65258be281d51aeee8ec482c73bb928cf989|2019-03-03|Shelly Garion|updated measurement correction tutorial notebook
+9cec7059fc1ad3f6fbedeabe366e3045c5b83a44|2019-03-03|David McKay|Fix lint errors, removed time from gate cals
+22f576db4046a09ef7703ae5e8ea9d5cda8efcc7|2019-03-03|yaelbh|Added time unit to characterizatoin plots
+399bbc2fb8ae35246a28cd439c5161a374fb525c|2019-03-03|yaelbh|Removed time units in notebooks
+31a33d6de4a19250dae251c2b98a71d448b31606|2019-03-03|yaelbh|Removed time units
+60573ebd458e4c8e246a1161d84f13fb790e2e6d|2019-02-18|Yehuda Naveh|some editing for grammer and numerical typos
+f8328f1c581d73580662b4746cf9b10c2d17d95e|2019-02-14|Gadi Aleksandrowicz|Process tomography - additional info
+1a158b5852d0e73e84e48bf0977c36597cc11004|2019-02-13|Gadi Aleksandrowicz|Tomography Overview
+e27a630daa38d92432097991552fc8c024ab7180|2019-03-02|David McKay|Remove tomography readme
+6acefde595b7e4e47e835d28176f9317b129d1fe|2019-03-02|David McKay|Updates to RB, remove shots from Fitter, easier to add more seeds and datat to the fitter dynamically
+6cb0561c8a8dd8fe495e4bb2ac30e1dbea33da42|2019-03-02|David McKay|Update README.md
+1c609ea104139d0d3964c2d0c72db17bde06a75f|2019-03-02|David McKay|update notebooks
+6ffe8bed76671cd7904ce79dd26f22badea1b2e0|2019-03-02|David McKay|Fix lint errors, update tests to new api, add process tests
+1cd84ac5014a402aef8d7a319482a92047174058|2019-03-01|Jay Gambetta|Update __init__.py
+ecdfacd745cf0581896ebdc7f025cdf8955cda6c|2019-02-28|cjwood|update example notebooks
+2b949af1c8863390e751b503e59e18624c3e7243|2019-02-28|cjwood|add TomographyFitter classes
+cb9ff5bc736388b184cd47ef5aff4ef51606c249|2019-03-02|David McKay|lint error in cvx
+afe304745a7f6cb50b921591b0edf8a845665f59|2019-03-02|David McKay|Fix setup file for build, remote init file in qiskit folder
+e60d50143b82084ed1b4a0592dff5e066c023d92|2019-03-01|David McKay|fix lint errors
+a25afef913338c2d2e66954a6a57a301e745b288|2019-03-01|David McKay|Add init files
+cb2db80266f82cc730a0e6af5c34c7e2904b069d|2019-03-01|David McKay|added tests for gate cals, fixed lint errors
+8197a144b1507008b273ba9d96dbb80e81dd1d47|2019-02-28|David McKay|Added gate characterization circuits and fitters
+79bc91a62a00f9fe9f6c9853f6e8985286941766|2019-03-01|David McKay|one of the basis gates was a list not a string
+3f07500b74e3a2a60b64664b89e4da28c6442fa2|2019-03-01|David McKay|Update README.md
+25d2bc38a6859f9cbea7fd10372979fc4e8800b3|2019-03-01|David McKay|fix lint
+a906253debd23619491ff0c436f826da8b24ff0b|2019-03-01|David McKay|Fixed test
+eafe2d8d61f4bbc33e8e0271dfbf61bdab966c32|2019-02-28|David McKay|fix lint errors
+2257eca7486e3f516fb0f1dd211acdab473592cd|2019-02-28|David McKay|Added the concept of a measurement filter
+ad9cb996285da2ff4ad340ed72b00abeec3f1908|2019-02-28|David McKay|fix lint errors, changed pickle extension for consistency, shortened the tests in test_characterization
+637becc12abc086d969ee61edbccac75f8d50403|2019-02-28|yaelbh|Wrote test_characterization_fitters.py
+8713ff5d49c00b4037f7ea7b9abc635bb2252649|2019-02-27|David McKay|fix path error
+ff1d3bdbd549d42143a2e6b9b2d510f657ce1ecb|2019-02-27|David McKay|Fixed lint errors, put test data into a pickle file
+f2dfe8730a3703ab16dfb53fd19081d8bb2a53f1|2019-02-27|Shelly Garion|Fixed test_meas.py to be deterministic
+091efc5bd99e0630d9c5044c0f541cf89f355816|2019-02-27|Matthew Treinish|Add names to the travis jobs to better identify them
+80aa614e0ff9fc9f0d46d5173ce84aeb5b7e23d9|2019-02-27|David McKay|update test
+de6816ab41c05956f45c1a7e366ef1a9866d01f3|2019-02-27|David McKay|update test
+9e5e289e0bac0fcbfeae47d3e133e4221b5cac10|2019-02-27|David McKay|Add ZZ experiment
+8517599beb5f72dbd05a6d7b47ed214fc14fb9ba|2019-02-27|David McKay|Fix error in notebook
+f080fc4d72e0dbc72efd10a1d06a32d6916f090c|2019-02-27|David McKay|Fix linter errors
+50f2a26b25df173b3d2715e394a12796a81dd0e5|2019-02-27|David McKay|fix lint
+9fad482ac69d5fcacf9c3632b9d0f6159970d2d9|2019-02-27|David McKay|Update to coherence fitter - generalized to a base fitter, added multiple series, accepts a list of results, accepts additional shots, results processed by circuit name
+a9ab751dca6cba0fc061095defb72a0d16e4deef|2019-02-26|David McKay|Removed copy, relaxed bound on coherence test
+5df84533d1659d3ec71f40dc215fe8340bee7aa7|2019-02-25|David McKay|Add the ability to apply mitigation to results
+a210a8a7c16f693aa9231c94881687d24d792151|2019-02-26|David McKay|Small changes
+19cce2bae4eb6edacbcf6b2afdea0532d7c70f87|2019-02-25|yaelbh|CPMG
+130a82c315c6b00f20cf44aec37d3216cd1ac4c7|2019-02-25|David McKay|Merge pull request #84 from ShellyGarion/meas_cal_matrix
+780fff9755dc2751cd931d8ef6028548bdcd1fd4|2019-02-25|yaelbh|Removed T2StarExpFitter and renamed T2StarOscFitter
+41642765249364e3ff330f7226ca969930d28774|2019-02-25|David McKay|Added labels to the axes
+6ccf4c1e47b5bbe4b3e28ad32c5c2ba4652b6178|2019-02-25|David McKay|Merge branch 'meas_cal_matrix' of github.com:ShellyGarion/qiskit-ignis into meas_cal_matrix
+d5c8c654df1db4dbb7a1de57b272411c17733b4b|2019-02-25|Matthew Treinish|Set version to 0.1.0
+b7548e9c7b85c6dc9552eef79f62bb538f110336|2019-02-25|Shelly Garion|added state labels to the measurement cal matrix plot
+c9887e0a72397bffe2e8d38ddadcb540be873a69|2019-02-25|David McKay|Remove shots
+c9ff2ce8d336f6086c572c9795268e5a55605ffd|2019-02-25|David McKay|Merge pull request #72 from jaygambetta/master
+46a793a99fea73f43ebf656ac201d2c94faddd6d|2019-02-25|David McKay|Remove shots
+4313019fa6068ff68b038e14e82f68a9ac2c5d08|2019-02-25|David McKay|Merge pull request #52 from dcmckayibm/parallel_coherence
+1d1d6d1db4a5ca8f3274d349c40de770b3fe4941|2019-02-25|David McKay|Linter fixes
+23c0a303796ea2d76a25a7dbaae0490d57851b1e|2019-02-25|David McKay|Merge pull request #1 from yaelbh/davepr
+08253dee890cbabf9d36f9e4a726ef18bd86ffd8|2019-02-25|David McKay|Merge branch 'davepr' of github.com:yaelbh/qiskit-ignis into davepr
+8ae87efcf9ea8d781c9d2612176487b6f1724722|2019-02-20|David McKay|Add parallel coherence measurements
+e0c4875ece7e155ef7877540b9998febe27bb048|2019-02-24|Jay Gambetta|Merge branch 'master' into master
+bb75c4c269dcd4390fdc8e1eeeacb31e6419baa4|2019-02-24|Jay Gambetta|Cleaning up the GitHub
+31126b1025c528cdb584903f3209663c32ce15fd|2019-02-24|Jay Gambetta|Delete ISSUE_TEMPLATE.md
+cf36a4f3bb53bcd2d56d44f245141803cfe2da9c|2019-02-24|Jay Gambetta|Updating the readme with correct links.
+d9273418ca189dca8a3e9dbb252cdfe6f277702b|2019-02-24|Jay Gambetta|Linting x4
+45c05ab59ace98efda2e8d08f6f939b66c125c0d|2019-02-24|Jay Gambetta|Linting x3
+ddfae7976df214d64a7f5d8cecf4ef84a913ff58|2019-02-24|Jay Gambetta|Linting
+7d3e8bb4a1db7cd3a4112e144056bf14d71d874e|2019-02-24|Jay Gambetta|Cleaning up x2
+7a740982ca9a7cd72dd2832fae1d8ec20517b3d3|2019-02-24|Jay Gambetta|Cleaning up
+d01dd627bae919d0d65b28cf02d5d040791e2d8b|2019-02-24|Jay Gambetta|Linting
+67e50220403d2cdd636961d01fd95febeb966a11|2019-02-24|Jay Gambetta|renaming mitigation and small api changes
+c901633ba1f39911e69d82bf9b3a0fea3797b94d|2019-02-24|Jay Gambetta|Merge
+8f1bdb61f98c003199c808b39df62057ae0fe2bb|2019-02-24|David McKay|One file didn't get moved to test
+8b72f93b0fa7939eee0ab313ebb3fe6c636c6fc1|2019-02-24|Ali Javadi|tests folder -> test
+cd89127ef2e40ff786528cc0fcce54a2b0141112|2019-02-24|yaelbh|In coherence test and notebook, replaced damping errors by relaxatoin errors
+fbad23dbd0b7a7efc2f83621a087007fe098e62f|2019-02-24|yaelbh|Arranged measurements and barriers in coherence circuits
+6ee5d0be72d011ad4fb34eaa0dab50b31272d652|2019-02-24|yaelbh|Removed contents section from coherence tutorial, since it is not working
+e5c267903403d61b60c5b69d799f721d55f31f40|2019-02-24|yaelbh|Updating T2 and T2* sections in coherence notebook
+1cada0cdd236c7a8af957af5147e60fb76f58299|2019-02-24|yaelbh|Bug fix in T2
+03a132f1daa51a453f56eed0de51697893251e2c|2019-02-24|yaelbh|Removed imports inside cells in coherence notebook
+0608ec80eb6bf17b52603d2da7c2150d86dedd23|2019-02-24|yaelbh|Setting the number of qubits to max(qubits)+1
+768f2baf46331a78c5a0b1c569dc2279132d3da5|2019-02-24|yaelbh|Lint
+cf8c3f4f22204bb35657cd560e725f606fb9ca06|2019-02-24|yaelbh|Merging current master
+fbad244729f8dd9047ddcb94c392f05037fae2d5|2019-02-24|yaelbh|Merged recent changes in the parent PR
+e22c1f59e95b976c12794c27d1017727fb42cfd2|2019-02-24|David McKay|Added no-name-in-module to lint ignore
+204c8e371b5cc152c2ad7b07e988ad981ca0a357|2019-02-24|David McKay|fixed linter errors
+d4a4c6a1f4469f9833ebc23089ce08ce1b17700f|2019-02-24|Ali Javadi|lint line length
+6b5aa08c6743e7657cdfea4e6e53fc639950f239|2019-02-24|Ali Javadi|dirt fix of test, to be cleaned with the terra test API available in 0.8
+b663255a914ebba555452cba895041678f389e4c|2019-02-24|Ali Javadi|derive test from QiskitTestCase and use assertDictAlmostEqual
+43982ec310f512e96f2b0ab17a669a9cfce06f37|2019-02-24|Ali Javadi|clean up example notebooks
+8feb5c377a7dda765ac25d97e69634b2f5cc08f8|2019-02-23|Ali Javadi|calibrate -> apply. update example notebook
+d9bcd54cb4b94280a008ad68c8691891ccd81e00|2019-02-23|Ali Javadi|update measurement correction tests. add init file for test
+45749a1577fb57dc5ef90cba20df25a4196f0663|2019-02-23|Ali Javadi|update measurement correction tests. add init file for test
+ec2ac901e5dcdf39d5adf6d2c0ca3ef562289e18|2019-02-23|Ali Javadi|calibrate method takes string. updated docstrings and readme
+f4d5845139a314e7831d6ddc4d3280439d676cca|2019-02-23|Ali Javadi|add empty changelog
+9df8fef007ff67ff707b11e41c871288a5a0ca36|2019-02-23|Jay Gambetta|Update README.md
+c03d1bd22f49f461e7f3112cb8b854e92f6d961f|2019-02-23|David McKay|Update README.md
+59048046f8dee502509903425e9e23e0faaaf28f|2019-02-23|David McKay|Rename directories, add fidelity and plot to measurement, revise how measurement is initialized
+455a25cfc251cb087217df00859fecc7a0650440|2019-02-22|David McKay|Moved RB label into fitter, fixed bug in rb circuits if the qubit ordering was not 0,1,2,...
+1c49e536bf56ca03d94904ffb74bcec6386c47b9|2019-02-21|Shelly Garion|added measurement correction results
+1e8c98fd6038872df9e7f68cfa160315e92e9c64|2019-02-21|Shelly Garion|added measurement correction example
+e41cbde1471941374c6d76a53ce957167bd0f6e2|2019-02-19|yaelbh|Added folder .github
+2fb249c33800d7eeed68af8c47336c308bdf2263|2019-02-19|yaelbh|Initialized README
+fc162f91948631264c4cf423811f30989a4de9e5|2019-02-22|David McKay|Fixed lint errors
+23f05637b7b3d5c9333fd3f967afd9f75119eff7|2019-02-21|Shelly Garion|updated measurement correction test
+162e58c791af3621983c857db541b53072f7de7e|2019-02-20|Shelly Garion|first version of measurement correction test
+bab4384cac5f0b7755a93a03fd789916beb2237f|2019-02-22|David McKay|Added coherence limit calculation, updated notebook with t1/t2 simulation
+079bce48b4b7ab3ecdeb50f7d0780e3683cd5d0d|2019-02-20|David McKay|Add parallel coherence measurements
+7d594d28a09d848bc31444bf239cec88d2df9aca|2019-02-21|David McKay|Merge pull request #55 from mtreinish/lint-for-tests
+6c1fe45b9c38894de6175a4ad942d76723703543|2019-02-21|Matthew Treinish|Enforce and fix lint on test code
+640c2401b7d3821d77179a713b5ca14348a09b40|2019-02-21|David McKay|Merge pull request #46 from mtreinish/fix-lint
+7874dda2689f924bdeece1fc269e0739dedc8469|2019-02-21|Matthew Treinish|Update fix for tests
+21b22b79ac2f6844e205463626fb07320fe866e4|2019-02-21|Matthew Treinish|Fix py35 failure by sorting tomo_data in fitter_data()
+821f63185207a9de99b76875abce35f6f8cb18f2|2019-02-21|Matthew Treinish|Disable faulty rule for logical_xor() calls
+7473f8e2a70bbb49e04696f4f721e1d041720bce|2019-02-21|Matthew Treinish|Fix test failures and workaround requirements mess
+0e983ac32aeb238872486f484a4109e48fd0d8c0|2019-02-21|yaelbh|T2 and T2*, still need to update the tutorial
+9ad04d0b5b3f5f26d47b63ea87072409eb6024d0|2019-02-21|Matthew Treinish|Workaround to ensure numpy is installed in venv before scs because of bug
+d85ba6b60e7db6039e870a1c5d5b7b1e77069ad4|2019-02-21|Matthew Treinish|Manually install numpy before other requirements
+6c6826871aac699d38c785aa5a38af0fbd8ea856|2019-02-21|Matthew Treinish|Fix rebase lint
+d007cff505cfe2d39534fb6fa62fd7df88065fa7|2019-02-21|Matthew Treinish|Install numpy first
+2d9537fd3bf609dc5a90ae6f8eac0b5a8bfe669e|2019-02-21|Matthew Treinish|Merge branch 'master' into fix-lint
+451636a194f85dc550969588183f42a9201d23ac|2019-02-21|yaelbh|Performed modifications for T1
+408d1bd1252e145d5b1133b4e6854a581b27a94f|2019-02-21|David McKay|Removed n_qubits from RB since it is redundant
+c6e933904983de616f53f99fdb6dc4ad62be708d|2019-02-20|David McKay|Add parallel coherence measurements
+a2b57542b5a5031a80b7a7ed86e4f557ba3b949f|2019-02-20|Matthew Treinish|Merge branch 'master' into fix-lint
+1b90f340402235f405a6009612036b41f4172eea|2019-02-19|Matthew Treinish|Add travis config to repo
+62fbfda22d281c991d56ad006e2dca6594fbd651|2019-02-20|Matthew Treinish|Rebase Fixes
+978ede04fb9c9692fc6684ee95cd00880665c617|2019-02-20|Matthew Treinish|Fix the pylint errors
+eff74c4fd7f8d7baee0608d8613d353f7ed5ddd9|2019-02-19|Matthew Treinish|Fix errors reported by pycodestyle checks
+7c6d0331cb24d8b6c8dbe46b5adb5f00980afb08|2019-02-20|David McKay|Fixed initial guess in T1 test
+89e5fe083d33383d9f203ecd644a15f0d613664e|2019-02-20|David McKay|Cleaned up tests and notebooks for new structure
+1fca86317b5fc0295c23d613c770d997c74ec1a7|2019-02-20|David McKay|Move around directories to the standard qiskit form, update measurement to the standard
+63edf2e47c1186ea46e839a203b939eafc67e12c|2019-02-19|Shelly Garion|revised version of the table for 2-qubits and expected test
+54096b0945b620149389f73f5e8db1cd546a2732|2019-02-19|Matthew Treinish|Fix unit tests
+7247ebbb4d7943c20856a72ccdaacd1517ed8807|2019-02-19|Matthew Treinish|Add some boilerplate to the repo
+95bc5e8f552b43ff7bfa2712a7a7239d7da5df80|2019-02-19|David McKay|Add function to convert between time and gates
+b13edb9bb5ca123992f87d20c361d8f755c1249e|2019-02-19|David McKay|Added t2 test
+9c792573e2228e796cb66230da702ad1ce81cc2d|2019-02-19|David McKay|Added t2 echo, updated jupyter notebook, fixed error in fitter when std dev was zero, fixed t1 circuit to omit X gate at the end and updated fitter to plot the 1 state population for t1
+e44d4c3ab52bc3caa6be3756e366381229994df9|2019-02-18|David McKay|Changed label to display first decimal precision
+dd6e6c7aa6fa22a52a718408f57d8428426f1736|2019-02-18|David McKay|Amalgamated some coherence files, generalized t2star so that only one generating function needed, clean up tests
+3202fa93742f217b1fce76607f8923eba91fe3d9|2019-02-18|yaelbh|Reran the tutorial, such that the numbers in ithe In [] brackets are from 1 to 6 without gaps
+72c3cb216d2476e9f99feccf03c305ec96392306|2019-02-18|yaelbh|In coherence fitters, prefixed internal variables and functions with an underscore
+ceb9097bf9b7cfc54cb0ce5b2979aa52cca3ddc1|2019-02-18|yaelbh|Moved tutorial to examples folder and tests to tests folder
+6bdba4e8fb60cfb625378c380ede9836bf122bde|2019-02-17|yaelbh|Added T2* section to the tutorial
+a89fd5ce305b7ef15ea55ff5341b9b54026e0201|2019-02-17|yaelbh|Removed plots from tests
+a260d27c19fd0bc249f32cc5b757a276ab3cb983|2019-02-17|yaelbh|Revised the T1 section in the tutorial
+1c32c38497275a570801354826714dcd55a708fc|2019-02-17|yaelbh|Lint for coherence code
+a986817bb2d8baf45db747bc3ed1d3c2ff71a139|2019-02-17|yaelbh|Added T2* files
+28638ad959a8616a0296654306c1b3aa89727453|2019-02-17|yaelbh|A small change in coherence fitters
+bd51a94f6c2234815ee966918d8e5a46c5a10f60|2019-02-14|yaelbh|T2* measurement
+18b7e56b47726abea66093f43536095797731e78|2019-02-14|yaelbh|Moved calculation of xdata from fitters to generators
+736069852f1a432ad28c5e595804514c3313b484|2019-02-18|David McKay|Fix errors when the std starts as None
+bb6556a89e8cd57ea35ea1300b7fd8f6bfeb45aa|2019-02-18|Shelly Garion|fixed an error in RB Fitter where an std is zero
+45d2bb55e7cb9214ffff9fbe147432a994df38a9|2019-02-18|David McKay|Case when initialized with no data
+bcdb12ff2ff834b9679e16cdc26a6f664f86e6b9|2019-02-17|Shelly Garion|changed the definition of w to hs
+7b02582c2c99d03fb40bef360593f6b9811ee40a|2019-02-15|David McKay|Fixed initial table redux
+6fcfc2a16d8570152df51d19ccf8dbca4304fa0b|2019-02-15|David McKay|Fixed initial table
+37587765b8d54aa2785d5a5b98c43da1aeda06e1|2019-02-15|David McKay|Fixed rb fitter and test, added placeholders for coherence, fixed v gate
+4d4d7ed0fb5ecaba33e22e6ff4ce164d3d28ea86|2019-02-14|Shelly Garion|changed rb_fitters and test_fitters to have a class RBFitter
+717c3dcc4f3f3f0e60896d0751acdbcdf3daa96a|2019-02-14|Shelly Garion|cleaned the code of RB_fitter.py
+b58adc24dcfc67fdb0109b05c93a20794190dd96|2019-02-14|Shelly Garion|added spaces following pylint
+502f30868c25539da2bed050193a938c60166d4b|2019-02-14|Shelly Garion|changed the format of basis_gates to fit to qiskit current version
+31c7513cf0c23fa737a22d671d406e0729faef11|2019-02-14|Shelly Garion|updated test_fitters.py
+272fa72ef06543e81c8d25854f8995fb8b6027b0|2019-02-13|David McKay|move test_clifford
+186d0b949ebb3a57e70a881eb05955c04a8fc65c|2019-02-13|David McKay|Cleaned up some of the tests, still some bugs
+39f4e0d570127da6278fbe73e3e6eb2eba38bda6|2019-02-13|David McKay|Remove some of the shelly comments
+e9e62e99e0e7acf6a9c5b32fb241a7abf1c13896|2019-02-13|David McKay|Change the rb circuits to a list of lists (a list for each seed), remove options dictionary, move index to Clifford, update notebook
+13e3c2dde9544a4a1d406b19ce878b288f9f60d3|2019-02-13|Shelly Garion|added a jupyter notebook on RB
+0e44b659653a9a1e65da73fba1b9a75edfc2edc4|2019-02-13|Shelly Garion|minor changes following pylint
+df8aab94fdb4edbb9189e58f1ce82f400b3ff5ed|2019-02-13|Shelly Garion|updated clifford tableau initialization
+c3022cd85857ad53d20dbb34d3e99e4a70cc3c65|2019-02-12|Shelly Garion|updated randomizedbenchmarking.py with new Cliffrd class and utils
+c720a651bfdc9eb12ff13bb98250a547bbb7ae55|2019-02-12|Shelly Garion|added util functions that convert to/from a Clifford object
+097f35bf81537c48a77703b9c5d090c23d087cba|2019-02-12|Shelly Garion|deletd Binary Vector Class
+81e3ea24b1dc613a4dc0b6b425b20879cf56435b|2019-02-11|Shelly Garion|revised Clifford.py, clifford_utils.py and test_clifford.py to work with the new Clifford class
+9bc23808d5a87180ced07329b9a76d5a3c493da7|2019-02-07|Shelly Garion|minor correction in randomizedbenchmarking.py
+b2b3c8332c0d98fdb318a1e5cc04dd0fe7e41461|2019-02-07|Shelly Garion|added comments to randomized_benchmarking.py and rb_fitters.py
+06d76fb2f518c3d7b9c4e8f637465cfa1a4b309b|2019-02-07|Shelly Garion|updated randomizedbenchmarking.py with only 1 and 2 qubits (not using dat files)
+115d63ff04ebd11882856b2d259faefcd9e79fff|2019-02-07|Shelly Garion|changed files so that test_rb.py will work OK
+8490f9e6a2c3a3340dba6f2e4d7a11b56e398cc3|2019-02-07|Shelly Garion|copied RB files and test from ignis internal
+13886a47696e4f399b3be5cce872abaf2fb3854a|2019-02-06|Shelly Garion|added comments to functions in clifford_utils.py
+335de4ec2dc0ab48461563a4cc5eaa5137877395|2019-02-05|Shelly Garion|minor changes following pylint
+b2f6834e3791b65783c00e22e9ef7fb197fb55cd|2019-02-05|Shelly Garion|updated in expected files gates names: v,w,cx
+5e22d997d5f5a65852956cd2364b2988547942d2|2019-02-05|Shelly Garion|changes standard gates names to: sdg,cx,v, w
+35cddc6ef0b05f07e3abceff35743c0a55b4385e|2019-02-05|Shelly Garion|minor revison in clifford_utils.py
+12794fe1e8703069cdbccd79b3e71e138acaa884|2019-02-05|Shelly Garion|cleaning Clifford.py
+fa8683c70bb636e0216f06bd4bc83883c538c50c|2019-02-05|Shelly Garion|updated BinaryVector.py
+66c3aa4a6964aa30748f55b348dee7db87742302|2019-02-04|Shelly Garion|Clifford.py only for 1 & 2 qubits
+424841eee1c802ba8a91bc3e5f45b7bc13cfbdc6|2019-02-04|Shelly Garion|clifford_utils.py only for 1 & 2 qubits
+c11ac28f405d1b967ed37ef58f98102ccdd9d594|2019-02-04|Shelly Garion|added test for Cliffords on 1 and 2 qubits and expected output
+25d35f9009dccedacb42e90946e426b424578913|2019-02-04|Shelly Garion|copied clifford files and test from ignis intrnal
+b28c966e0de75a10b7d0687c8f5f40bfdc2e0b1a|2019-02-13|David McKay|Merge pull request #25 from gadial/tomography-tests
+f4a2e4e48a1c150e345f959875d550216288d5c9|2019-02-13|David McKay|added test init file
+51cf7160ae31a1a4d4256781ec3fb649f81c355e|2019-02-13|Gadi Aleksandrowicz|Tomography tests
+0e5be7ea7aa55a0add986bee1320c4d69e9f49aa|2019-02-12|David McKay|Merge pull request #22 from yaelbh/move_path
+94f8101dd1fbd77e08a1c253a9526a1595714969|2019-02-12|yaelbh|Moved directory characterization inside qiskit-ignis
+48865e6d46ce03e4ac77262831dd21d9ef985f6b|2019-02-11|David McKay|Merge pull request #21 from yaelbh/t1
+65aea0c4e50ee183e27a61820705b2ecb649de77|2019-02-06|yaelbh|Fixed a couple of bugs
+5fb351b70e66ebcbe9711fb54bde293f9fca20ac|2019-02-06|yaelbh|Detailed args and returns for t1_generate_circuit
+9fbde20b2ebe60b037e5f901937c336f6853058f|2019-02-05|yaelbh|Minor changes
+66ab7255d88e39451177a8335ded4bd1876f0bcd|2019-02-05|yaelbh|T1 measurement
+48cbef8ba36df613f1766b8af2d0ddded1b13d1d|2019-02-04|David McKay|Merge pull request #19 from dcmckayibm/master
+a04721d3eff6978f5233ceff825692d90c0444f9|2019-02-04|David McKay|Remove a file I accidentally added
+1197e556f6d16b10a1ae78bc8875a177ba35e884|2019-02-04|David McKay|Merge remote-tracking branch 'upstream/master'
+b542241748e85eed025352bce45752b6c96fdc5b|2019-02-04|David McKay|Updates that I forgot to push last time. Also update the example for the changes to the measurement correction syntax
+a0a16664ef20975e693a80e25eaa98841fb48d48|2019-02-03|David McKay|Merge pull request #16 from yaelbh/readme
+1f0618e62d3ed0c9cbfd5acadb330813a2939304|2019-02-03|yaelbh|A minor fix in the tomography README
+db9c8bfc79d6693fb56941245fbec31dce49b927|2019-02-02|David McKay|Add simple full matrix measurement correction (#15)
+f520c8ff02e5cf08fa58ca0059389c95775f012e|2019-01-26|David McKay|Added explicit solver for cvx fitter
+125af542b41608a1edeea2565be41085824d2a4c|2019-01-25|David McKay|Normalize weights
+d08814e01185c7680161dd1869b26dfda92645a1|2019-01-25|David McKay|Fixed error, added noisy measurement example to state tomography
+070ca898809f93cd8498db929ab2b03e1abd1a68|2019-01-24|David McKay|Add simple full matrix measurement correction
+c81ec99f6b53d1548c054aad27c015b619157af4|2019-01-24|David McKay|Merge pull request #14 from chriseclectic/terra07-update
+d8ffdffce5c1e5d9f94028b489981bd494a6deb6|2019-01-24|cjwood|update fitter_data function
+45756fe49bdb180b6733a1e9b02308ef848577a6|2019-01-24|David McKay|Merge pull request #13 from chriseclectic/terra07-update
+6af609ee42380add32069375e77180954c3c0e0c|2019-01-24|cjwood|Update to Terra 0.7, Aer0.1
+ec1b4ce759f1fb8ba0242dd6c4a309fa1b586666|2018-12-12|gadial|Fix to allow cvx_fit to retry and finally gracefully fail if the solver cannot handle the problem (#3)
+60a75a25c0ba5c2d21c295d9d5892ecd722752f0|2018-12-11|cjwood|updated tomography to work with qiskit-terra master
+2eab463aaa305f0f3a0fb939b9d6a7d949a2d916|2018-12-10|cjwood|update example notebooks
+ec5e99ba64f09ed8387d35f253445c008466cc4d|2018-12-10|cjwood|add ability to specify different prepared qubits to measured qubits for process tomography
+3e8c4fba09c298c332b458d8bb53ef75bc158bb3|2018-11-09|cjwood|change tomography data labels
+d39bd3e75f12f664a97ab1864ed500c9c1634dd6|2018-11-08|cjwood|move circuits to basis
+60850cbe88feb8a8be9d79adb08ec4e5840ddbc2|2018-11-08|cjwood|add state and process fitters
+9616ec4c4dae881437377f89196672a00d243844|2018-06-29|cjwood|Ignis tomography rewrite
+77ae3b11fb9309ed0d4d9f55a081688de5d22ecd|2018-06-29|CHRISTOPHER J. WOOD|Initial commit

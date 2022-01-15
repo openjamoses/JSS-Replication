@@ -1,0 +1,1016 @@
+c8373d0b7cf47adf068e44dca7413979567c3463|2020-10-07|Radomir Stevanovic|Release version 1.2.1
+aa24090dd20aaed2a7b22b17fef8f51fa553648a|2020-10-07|Joel|Fix DQM sampler doctest (#357)
+2f366488280835a1d50decf26c3bb041fd4c2374|2020-10-06|Alexander Condello|Update version 1.1.1 -> 1.2.0
+a3d9ae62c12dddbc07891649a5f48b5802270bd1|2020-10-06|Alexander Condello|Merge pull request #356 from JoelPasvolsky/compress
+f6037224075580b87be272b628201e1c238710af|2020-10-02|Alexander Condello|Raise an exception when given time limit is too small
+0bbad3cabec5eaba73fcfc71113a8d6c1f137acf|2020-10-05|Joel Pasvolsky|Update to dimod 0.9.9 (post-release)
+b898f0bdc92f47d119f52a6b3d9210ee26b6737d|2020-10-05|Joel Pasvolsky|Making deprecation message visible in terminals
+b70613c88e72f50b25ea86dd0a02563570c665a8|2020-10-05|Joel Pasvolsky|Deprecate ``compressed` in LeapHybridDQMSolver
+c2f21ce55d85c6f67cd2b0eb677913e3abbc0a3a|2020-10-05|Joel Pasvolsky|Add info on ``compressed`` parameter
+21761c17d6b9076990392080121ef36178f0fa88|2020-09-29|Alexander Condello|Check maximum timelimit for DQM sampler before submission
+9dd5c1a7867c1aceca2e821715949a25eb3a55f7|2020-09-28|Alexander Condello|Merge pull request #353 from JoelPasvolsky/dqm
+3fa4a106da885279b1d956a6bc00361989db48d3|2020-09-28|Joel Pasvolsky|Add min_time_limit to documentation
+0fa399d7fee90478d7f2a5465bb4a18e8483e4bf|2020-09-28|Joel Pasvolsky|Add min_time_limit function to LeapHybridBQMSolver
+7d89438ae308bc73751fd946c8ddb9023b281c3c|2020-09-25|Joel Pasvolsky|Add min_time_limit
+e278c341382dcb284b2d3e8999d2fa69f3aa3115|2020-09-25|Joel Pasvolsky|Add DQM examples
+59de9685319f3926460023282e801c3f3673b069|2020-09-25|Radomir Stevanovic|Release version 1.1.1
+e6b3bc029f8cdfa28c2b0a284e647256744c8861|2020-09-24|Joel Pasvolsky|Update D-Wave samplers
+2255ca8d1a1f0283fe1194cb1c8802dd2017666e|2020-09-24|Joel Pasvolsky|Update leap_hybrid_sampler.py
+a79fad83bb4f83a1c873868ac69e7148ae0afed5|2020-09-24|Alexander Condello|Correctly propagate kwargs through LeapHybridDQMSampler.sample
+4f81be83d749b1e9bab76c038428430cf8be4f8f|2020-09-23|Alexander Condello|Update version 1.0.0 -> 1.1.0
+812502edb0f99577318a2b6cf4c343dc3c7cb85c|2020-09-23|Alexander Condello|Fix embed_bqm returning a BQM that can't have its vartype changed
+b8975eb41e576e94d9b73927e91fec51f8fa3607|2020-09-23|Alexander Condello|Add LeapHybridDQMSampler
+50f24cfddd8d0425cdb51372a1f70c2de46b53f1|2020-09-23|Alexander Condello|Add chain strength example to docs
+d0d3c897d6bd52367d909cb70eb955e829000bb3|2020-09-23|Alexander Condello|Merge pull request #346 from hhtong/cs
+76e2a772c276f8270336c1d6dba5a3a4ff42d08c|2020-09-23|Heidi Tong|Update docs for default chain strength
+5c511a797311faf62c728ea915f9581100605ff1|2020-09-22|Radomir Stevanovic|Release version 1.0.0 :tada:
+83211b76177288ccbf21688fb279ae922cbc85e0|2020-09-22|Radomir Stevanovic|Merge pull request #345 from randomir/remove-order-by-kwarg
+e1f6ea659d88c8bbada5311d6a945fb70854c2da|2020-09-22|Radomir Stevanovic|Remove `order_by` kwarg in `DWaveSampler`
+1081edf6e216000d7d6cf03c21b843a10f62e8ab|2020-09-22|Radomir Stevanovic|De-dup docs, link to cloud client's description of config kwargs
+a04c59ef1ab61cd8fb5f2e9751a534705e5f2d04|2020-09-22|Radomir Stevanovic|Merge pull request #317 from randomir/specialized-dwave-samplers
+0bd039dfee03ca64c299aae2dbd16035a5ad3474|2020-09-22|Radomir Stevanovic|Update samplers' docs a bit
+5358883832b462cda0fdf29b3ff317e1ccf0d38d|2020-09-22|Radomir Stevanovic|Remove superfluous `solver=dict(qpu=True)`
+337d80a4861520d671cfaca5cdd34d96f6c2a647|2020-09-22|Radomir Stevanovic|Allow order_by kwarg override in LeapHybridSolver constructor
+f28d81407c6db7b088a8dd5dfa070ae04a512b23|2020-09-22|Radomir Stevanovic|Simplify DWaveCliqueSampler after changes to DWaveSampler init
+223587e092d980fea1b1308f2e8f699ecc2f4e4b|2020-09-22|Radomir Stevanovic|Make DWaveSampler prefer QPUs with highest number of qubits
+4f6fa227fbadc6d1d7f3e3ca25fbb4b58d75193c|2020-09-22|Radomir Stevanovic|Remove `solver_features` argument of `DWaveSampler()`
+d37e5bc1721421f278b65f6722fb10d97d269cbd|2020-09-01|Radomir Stevanovic|Deprecate `order_by` in DWave(Clique)Sampler constructor
+6c14643c9de9877ad7085dfebb076cac3a678e01|2020-08-27|Radomir Stevanovic|Fix test for base client selection in DWaveSampler
+41cbdaf17b82920fd47471a97533eba0cbd6bbfe|2020-08-26|Radomir Stevanovic|Make LeapHybridSampler prefer hybrid solvers by default
+03a414cab0de86752af07791f39cc28075223525|2020-07-23|Radomir Stevanovic|DWaveSampler construction in QPU tests
+d066ea207453d05619b08ebea0af94a6900f46c8|2020-07-23|Radomir Stevanovic|Make DWaveSampler prefer QPU solvers by default
+fd1d5936ffa5ae3fa2539e619202c3f0e07fd64d|2020-09-22|Radomir Stevanovic|Merge pull request #344 from JoelPasvolsky/fix_doctest
+1d9bcd8011acac3f8c4b5eb2e916ff8bdfdb1f80|2020-09-22|Joel Pasvolsky|Skip doctest on cliquesampler
+46f93b8126db0c86267d1a3584497100d87e6d64|2020-09-21|Alexander Condello|Update version 0.9.12 -> 0.9.13
+34e9fd14467280933f96e8ce30efa3a61bd6152f|2020-09-21|Alexander Condello|Fix backwards compatibility break with embed_bqm
+93a6a1908da96e10bf068806ce4cfb2fc5a0a76f|2020-09-21|Alexander Condello|Merge pull request #342 from JoelPasvolsky/add_mock_config
+b8e3c2edb4fb785b0a125e33e234fba4f68efd8b|2020-09-21|Alexander Condello|Merge pull request #337 from JoelPasvolsky/pegasus
+d5c3c1ec8eaabcbb6aec80cdb175dfc2624b68ec|2020-09-21|Joel Pasvolsky|Add **kwargs to MockDWaveSampler
+fc377fb48129c3d2e756c4cd7b0528f091ac01af|2020-09-21|Alexander Condello|Merge pull request #338 from hhtong/cs
+5019cc139d6941ec49d4f26b5f5f748bbb78faa5|2020-09-21|Heidi Tong|Update required dimod version and use new min/max() in scaled()
+73dd09aee272c350fb93608dad1e884cf14bb8c6|2020-09-18|Heidi Tong|Rename chain strength function to scaled() and update doc
+e53c9b590498bfc2d906938ae70c11c155860132|2020-09-18|Heidi Tong|Make namespace singular
+7a92953c5cb38e7558c3a065e0992bf43c2625de|2020-09-18|Heidi Tong|Add new chain strength function
+931ad5e9c5a57471586a1b6691c78cdc207e36cc|2020-09-17|Heidi Tong|Add example to uniform_torque_compensation's documentation
+8161cac8be26949ed895369c9f6feacc5f7f5b59|2020-09-15|Joel Pasvolsky|Implement review comments from @randomir
+74689f8fcfd96b105c8cb3db4838136ab171391d|2020-09-14|Joel Pasvolsky|Replace deprecated ``app.add_stylesheet()``
+df95995fd4b2125bafdee636d2359710c0f0c14b|2020-09-14|Joel Pasvolsky|Implement review comments from @arcondello
+7c4cd1842156e063670f9545b1b188e3079bfe50|2020-09-14|Joel Pasvolsky|Fix broken ref
+dd15776607923175313d2155c1bc85c92e632895|2020-09-14|Joel Pasvolsky|Update embedding
+7f592148923f3a2d1252fe337e0d5d800d901ba0|2020-09-11|Joel Pasvolsky|Add examples for reverse composites
+2f1cd7644dc6628e76c069815e6320740b90a0c4|2020-09-11|Joel Pasvolsky|Update composite classes
+2e86874935ded8263d7658f39e9c49e6b991fc7f|2020-09-11|Joel Pasvolsky|Update cutoff composites
+cca030dc92d5cfecdfeb3c89930102c556dab943|2020-09-10|Joel Pasvolsky|Add Samplers TOC
+bf251bdef1ba064c5dec23b86285741ede3efb7b|2020-09-10|Joel Pasvolsky|Update LeapHybridSampler
+41a5f7ac6e23f67c5cb748ca26757a1289b428b0|2020-09-10|Joel Pasvolsky|Update DWaveCliqueSampler
+b500737ebbf7b1d93b16490de786d4d48886d625|2020-09-09|Joel Pasvolsky|Update D-WaveSampler
+b52cdb06d8cec56bda0f2b333a7bbdcff39428a3|2020-09-09|Joel Pasvolsky|Add warnings
+84329b4537598680e7cafd7b466c59edaf25d9ba|2020-09-09|Joel Pasvolsky|Update samplers classes
+d5b693b97432fe63edb1ff142b75575ab7b0cf1c|2020-09-09|Joel Pasvolsky|Update stale links
+09f2dd037912f845522de860321453cbacecae07|2020-09-09|Joel Pasvolsky|Remove release version from docs/index
+aac66661959b1bf78b3cf85f010f4fc301489e65|2020-09-15|Alexander Condello|Merge pull request #336 from hhtong/chainstrength
+ca8aacdaffa9ad39b6a0183f67232690075f28b1|2020-09-11|Heidi Tong|Allow FixedEmbeddingComposite to handle default chain strength
+d8dcca6f5f9a6f2ca0c774608eb7aa33965e0209|2020-09-10|Heidi Tong|Edit docstrings
+d2a0bf5775366c27ef89529935644baa83a91879|2020-09-10|Heidi Tong|Remove unneeded import
+c21972b0a7a841a52d8a4b9fab60ac36a2a11e31|2020-09-08|Heidi Tong|Rename util function and edit chain_strength callable specs
+83b85db24e4b422ce865332295bd38497bb2a658|2020-09-04|Heidi Tong|Fix api inconsistency, rename and move util function, and add some tests
+a0a79a44db4708f334a35d5fec2017c7f0753a3a|2020-09-04|Alexander Condello|Fix docstring for DWaveCliqueSampler.clique
+11806cdf067cd404b945914675747da922d76223|2020-08-31|Alexander Condello|Add DWaveCliqueSampler.clique
+41ce2e1457a6ad3d7e1c8479a8c746acf81bef01|2020-09-02|Heidi Tong|Save chain_strength to sampleset in EmbeddingComposite
+dc0362f5a35162fc27a7ce035b3167d4e71d21fc|2020-09-02|Heidi Tong|Fix test case and add check in utility function
+13f5769c51c8b38d0f7b50deba3e03cfc4f353e4|2020-09-02|Heidi Tong|Merge branch 'master' of https://github.com/dwavesystems/dwave-system into chainstrength
+14f857bc31219240206b61ea5c207dcb27c41fdd|2020-09-02|Heidi Tong|Change default chain strength and add utility function
+b90f8bcdcf8b7fa0edcec1b554da28136200452c|2020-09-02|Alexander Condello|Update version 0.9.11 -> 0.9.12
+6dd4df13124ae9dc7919795ec1029d41390dc4d0|2020-09-02|Alexander Condello|Merge pull request #334 from hhtong/cliquechainstr
+79e24fc07c2dd031cabf2e58a31f01cbf46fbcda|2020-09-02|Heidi Tong|Fix chain strength formula in DWaveCliqueSampler
+38420a01e8a085acc0b411c3e0e23afaeb4ed969|2020-09-01|Alexander Condello|Update version 0.9.10 -> 0.9.11
+779347bc272408b1ce5676b8cc567e96efe7277c|2020-08-31|Alexander Condello|Use average degree rather than sqrt(num_variables)
+f6bafadfb573a2f1461eb1a89d72c1213806f441|2020-08-31|Alexander Condello|Fix chain strength calculation in DWaveCliqueSampler to use spin biases
+a05342edee0f66f92bb84fc4941f7696132f8689|2020-08-31|Alexander Condello|Update version 0.9.9 -> 0.9.10
+608d3f9a996d4ff9f8735e21505fda977f29d56a|2020-08-31|Alexander Condello|Merge pull request #321 from boothby/embedded_structure
+7c5b381a08e2b09f7d71307b9d55ba96b6a63bde|2020-08-31|Alexander Condello|Merge pull request #328 from arcondello/fix/DWaveCliqueSampler-sw
+b0008acac00402dc7553928b6db0c818225ba9db|2020-08-31|Alexander Condello|Move circleci cache save until after tests
+61cdfc13d737c8febaf0f48f0f87dea39dc0c012|2020-08-31|Alexander Condello|Support old software solvers with DWaveCliqueSampler
+9c9dd9bdfad2c4c5523443e518664940d96d5a95|2020-08-28|Alexander Condello|Merge pull request #326 from hhtong/cliquechain
+4e0fee0c72f25fc1f16361027740effc580b05c9|2020-08-28|Heidi Tong|Edited chain strength formula to use bqm.num_interactions
+9b0aa4f630a6ee6dabad008ea43aad3ca1dcb90e|2020-08-27|Radomir Stevanovic|Merge pull request #324 from hhtong/requirements
+5bb9e2ddc0706a08b9a8d1c64056add8a14564b7|2020-08-27|Heidi Tong|Implemented clique chain strength improvement with rms
+d61dd034b11c90efbcb7c81a0d6238202d4ee05f|2020-08-21|Heidi Tong|Moved test dependencies to tests/requirements.txt and edited config file
+9789edce673b23847bb6fd65fee6ae13a270bdca|2020-08-21|Kelly Boothby|added option for a callable chain_strength
+1a218a82675390fa7d5d2856c9903ebdc4e96fdd|2020-08-18|Kelly Boothby|added dict support for chain_strength, continued embed_bqm refactor
+60f867a45894ebfc0d0c01d743803e40e06773d1|2020-08-14|Kelly Boothby|added a final check to adjacency_to_edges
+d9edeff5782c42cd6cb7110b92a4daa3b7309eaf|2020-08-11|Kelly Boothby|reviewer comments
+a63870cf57f798d0addf3f0f6316a818050fc0be|2020-08-10|Kelly Boothby|refactored EmbeddedStructure to inherit from dict
+e3a6431b431740390c044067789ea9389e579c19|2020-08-07|Kelly Boothby|reviewer comments
+0cf36f5db89d8c16c4d36be56a7487235de15ea7|2020-08-07|Alexander Condello|Merge pull request #320 from hhtong/networkx
+ccbecf712a56aeb584991b035f41975871379144|2020-08-06|Kelly Boothby|embed_bqm refactor
+4dda0e50542b61d641aafd233981d992a9a74850|2020-08-06|Heidi Tong|Removed parameters from DWaveSampler.to_networkx_graph()
+da514bb8b14b342063aadd5b345c258421ca365c|2020-08-06|Heidi Tong|Added method to doc
+0c47efea48c476f01ed5cc28b2d038d76779230d|2020-08-06|Heidi Tong|Added links to dwavenetworkx issue
+904196f5e2485e108a631e5db9852b8e2c071b53|2020-08-06|Heidi Tong|Added tests
+1a3797c0cace13fbc1897c6024d0d28478461793|2020-08-06|Heidi Tong|Added doc and cleaned up code/comments
+9fb5f988225765c025c1a01ce1b72d7dcb6643e6|2020-07-30|Heidi Tong|Added to_networkx_graph() to DWaveSampler
+3a2ea5c1e8b2212b19e00e78e009ac2e23c0eff9|2020-07-24|Alexander Condello|Update version 0.9.8 -> 0.9.9
+5853d72f6247a6fd14ac2016fef71fdf423ede44|2020-07-24|Alexander Condello|Merge pull request #314 from arcondello/feature/index-labelled-bqm
+edc72ec3e160a3193a19bafd145134dbd0afe3a5|2020-07-24|Alexander Condello|Merge branch 'master' into feature/index-labelled-bqm
+c9fbd54ce574912b04d11d48d3b8136dce2a2503|2020-07-24|Alexander Condello|Fix tests to include order_by
+79ef6ec7f5af84fd4747fef991a95fa79c87cbf7|2020-07-24|Alexander Condello|Pass kwargs through DwaveCliqueSampler
+60a36292f4648729590b50f0994f9cf2832ce789|2020-07-24|Alexander Condello|Minor doc fixes
+0d61ce4c5fe158cd5c3885add4debe65f30ad8ac|2020-07-24|Alexander Condello|Update required versions
+b6cfdcf9a1988baf4b7c0d5d94b18c58168e6c75|2020-07-24|Alexander Condello|CliqueComposite chooses the sampler with the most qubits by default
+9d252daa7306498d520fac5217b7882242390b95|2020-07-17|Alexander Condello|Add order_by kwarg to DWaveSampler constructor
+b84fccd055189e1d14b2f893289e9cb4e67e6d38|2020-07-10|Alexander Condello|Raise a better error when BQM is too large and set chain strength correctly
+f81e4a3dbc0e00f386a216fd881c562d3f5ca362|2020-07-10|Alexander Condello|Add missing parameter to docs
+a7ce0fa13424c12b2a0e6d1599605452e91cffe0|2020-07-10|Alexander Condello|Add DWaveCliqueSampler
+cfec1fa6e34631403a3fcabd556ec954e14f7d29|2020-07-20|Alexander Condello|Update version 0.9.7 -> 0.9.8
+183be60d6f132ed3714decd6bb50f101354b3337|2020-07-16|Alexander Condello|Default to hybrid solver with the highest version
+a10db3a7ac75771feccb25bc78c1426db4f97b90|2020-07-16|Alexander Condello|Submit integer-labelled large BQMs from LeapHybridSampler
+2315092628ac7bee1d4e8c5619449689796ba0fb|2020-07-03|Alexander Condello|Make EmbeddingComposite and subclasses non-blocking
+b7bd0d26462fdc474346a90a29942369aaec657e|2020-06-29|Alexander Condello|Add dimod BQM tests for EmbeddingComposites
+ae19ec131cb4897b406ce4c935f3b63d720b3820|2020-06-29|Alexander Condello|Merge pull request #274 from joseppinilla/validate_anneal
+40e0fead1fd22b039103c07ac8173f6a174bad36|2020-06-29|Radomir Stevanovic|Merge pull request #309 from randomir/fix-mockdwavesampler-topology
+b21a8f37f6c9ff176a9470c8176bf365ed5bd611|2020-06-29|Radomir Stevanovic|Fix topology.shape in MockDWaveSampler to match C4
+8a7bc443b77bbb6d10fcdec3f49fafd955e0232a|2020-06-23|Alexander Condello|Update version 0.9.5 -> 0.9.6
+d043ddc834f99e7c5f3f5b82f1836a08ed3de2db|2020-06-15|Alexander Condello|Merge pull request #305 from arcondello/fix/LeapHybridSampler-problem-type
+236a509ea9a75dc3f0054b46a8db38a4909b5799|2020-06-15|Alexander Condello|Add missing property to MockLeapHybridSolver
+ddfd17540fe501e404803a2229648e0781d05025|2020-06-15|Radomir Stevanovic|Ensure explicitly named solvers support bqm problems
+0af4d10cbf950cd6fda06098dd1c5f52547c69b3|2020-06-11|Alexander Condello|Specify problem type in LeapHybridSampler
+f7926eccf117c3a9959a0b8dc86f2c46902ff344|2020-04-23|Alexander Condello|Merge pull request #281 from boothby/pegasus_biclique
+9c447fe73589e9ee4fee713a8b6d6eed1ff63366|2020-04-22|Alexander Condello|Document default chain break function
+fd13f2b6c6776e01428df59352e4a4392a32ae8b|2020-04-21|Alexander Condello|Update version 0.9.4 -> 0.9.5
+ed1a79e77a225446d5a96fa2691d49c22d4370bf|2020-04-20|Alexander Condello|Update EmbeddingComposite.sample docs for multi chain break methods
+1f2c3e7839bd64df1e5faf60cbaf3990d53f2b48|2020-04-20|Alexander Condello|Allow the user to specify multiple chain break methods to unembed_sampleset
+64d355a1791d628ead94aa66633c45a4502ee969|2020-04-15|Radomir Stevanovic|Merge pull request #285 from JoelPasvolsky/mocklhs
+bccc045c3fd8fa24e69808da27a5b570bcb02479|2020-04-03|Radomir Stevanovic|Update version 0.9.3 -> 0.9.4
+c46ffdf97f677ecc2efb07171db15a12838d7ee6|2020-04-03|Radomir Stevanovic|Merge pull request #287 from randomir/fix-dwavesampler-sample-qubo/issue-286
+f7b80db456ac2283128e401fdcafa261397eed34|2020-04-03|Radomir Stevanovic|Test DWaveSampler.sample(bqm)
+f62374e59b88fa782e843dc8dfa9d67bc2cf6532|2020-04-03|Radomir Stevanovic|Verify #286: test with non-zero Ising problem and check response
+4ccce99e1aa493c0945cb4638f089d13406a8ba0|2020-04-03|Radomir Stevanovic|Upgrade cloud-client (fixes #286)
+9a9316452daaecbccec01e264fcc0866ff0959a5|2020-04-01|Joel Pasvolsky|Implement comment from @randomir
+25107b357de7432c8b0751c44d4da403566ba564|2020-04-01|Alexander Condello|Update version 0.9.2 -> 0.9.3
+39c246b3c3d4d85765e00a0197fd38bbe2f54ed5|2020-04-01|Alexander Condello|Merge pull request #282 from JoelPasvolsky/tabu
+cebf1d6ffca293a38ede7adff660ba5f9a88337e|2020-04-01|Joel Pasvolsky|Add tabu to setup
+d3a3d361686497d4c8c7a6936341cd06d333613f|2020-03-30|Kelly Boothby|reviewer comments
+80a37338de7f882bf610c2dbd17a1511e438c246|2020-03-30|Kelly Boothby|docstring cleanup
+2d2b7cfcb46016eefa3298b2f71a911a26171e3d|2020-03-30|Kelly Boothby|added biclique support for pegasus
+082c95b2d48c481a7dcf9d72d16a118a06735c68|2020-03-27|Alexander Condello|Update version 0.9.1 -> 0.9.2
+0affd9cffb8f52852ba73ca5dc59fb4c0994046a|2020-03-27|Alexander Condello|Test with dimod 0.9.1
+ceeb53d892e5b2ab8c77a3752ac1f4ed5e747372|2020-03-27|Radomir Stevanovic|Merge pull request #279 from randomir/hybrid-sampler-use-correct-client
+f4947620ade0d7dd050f3467933464f1aab5a5b4|2020-03-27|Jose Pinilla|Using round() with arbitrary ndigits=10
+f5c89d4b3bb7d7750348a8db3c6a9609697becf8|2020-03-27|Radomir Stevanovic|Minor refactor
+d61a96541e97134f1d9aac28ef3542cd5137b05d|2020-03-27|Radomir Stevanovic|Force the base client which supports hybrid solvers
+c9d1698336625d77226345f0d23b88935c9c0a39|2020-03-27|Radomir Stevanovic|Verify LeapHybridSampler fails when client=qpu (#278)
+d0fd4c0163e984dfd2adae43f7bc7ee7f4edc829|2020-03-27|Alexander Condello|Merge pull request #276 from arcondello/fix/chain-strength-warning-with-len1-chains
+6d2ab5fdfc166d43e6ac3afbe27bb7876c5ac04f|2020-03-26|Alexander Condello|Raise correct exception when embedding with zero chain length
+2d0aec8cb0f40d1516848475e1c766e8176e31f8|2020-03-26|Alexander Condello|Update to use dwave-cloud-client>=0.7.1
+0ba90e25e1892b3f9f688bf8edad4643db275c83|2020-02-26|arcondello|Remove old test MockSolver code
+c717bb3aa34e230148eefa9bf035ac1e29f4dc64|2020-02-26|arcondello|Use the dwave-cloud-client's Solver.sample_bqm method
+84eefbc5903059a9175a736c3d484fa9ddd8770e|2020-03-26|Alexander Condello|Don't raise a chain strength warning when chains have length <= 1
+6b4c9f790f41fda29b6391fbb7add702fa4d582a|2020-03-25|Alexander Condello|Merge pull request #275 from JoelPasvolsky/mock
+30179cca4d5c93ed4dfcbfab2ff6448404b162d9|2020-03-19|Joel Pasvolsky|Update common_working_graph
+1a2ba9d8977a972f54c1ea41b2cd500d86837e43|2020-03-19|Joel Pasvolsky|Fix bug in scheduling example
+783c7d701a6a0b04312d31fd079700fe5f97537e|2020-03-19|Joel Pasvolsky|Move MockLeapHybridSolver to testing.py
+7efeef973db73713409512fcd3b7e822fa0c0012|2020-03-19|Jose Pinilla|Naive fix of floating point error in validate anneal. Added test.
+314a083c830d8fe5e15a0405e45be04f04c17e74|2020-03-19|Joel Pasvolsky|Update dwave_sampler.py
+27e67dde5a86b9005923439e26bbc07fa9dea70c|2020-03-19|Joel Pasvolsky|Fix edgelist formulation in MockDWaveSampler
+34140ddb21c836bfb7c4a42570edcd7d1de7f2db|2020-03-19|Joel Pasvolsky|Update virtual graph
+2a9b85a261f320b98c6d676c633ed4590a890c34|2020-03-19|Joel Pasvolsky|Update import path
+510b3e2bb4759cce71995e1ea26d36ca3c1f854e|2020-03-18|Joel Pasvolsky|Update composites files
+e9214eb054f2ee1f8e386f778cd362cb1297c5c8|2020-03-18|Joel Pasvolsky|Fix missing colon in result
+3cda5d08461059f1d5c236f10de4a2f40032463f|2020-03-18|Joel Pasvolsky|Update embedding files
+1afb8d2d0382e4cfe63155d8587853a5275b5baf|2020-03-18|Joel Pasvolsky|Fix unrelated doctest failure
+fa5d1333dd6afe9d3ce8d8526474ff3c9abf0824|2020-03-18|Joel Pasvolsky|Add *kwargs and some properties to testing/MockDWaveSampler
+30615dad241860ddf03e5083d5e18dbf1501b07d|2020-03-18|Joel Pasvolsky|Update conf.py for mock DWaveSampler
+482492f8c3411103fb2891ca3da191af496815b6|2020-03-18|Alexander Condello|Merge pull request #271 from JoelPasvolsky/sdk_int
+05d664e696025f30fec5b279c6c416f0e5590da5|2020-03-05|Joel Pasvolsky|Add missing colon
+e4ff2b1b4568e46d5408862af0879de104592683|2020-03-05|Joel Pasvolsky|Update to use SDK concepts
+ff7f1f5866547220bbea503f50652e3c33a9c998|2020-03-05|Joel Pasvolsky|Break save for a meeting
+970f3fd6c544ad889191b0f843600956470f67a4|2020-02-25|Radomir Stevanovic|Update all-chains-broken warning to match others in style
+f675d7d20e23dd6ecd4e49c413214c00fd9234d2|2020-02-25|Radomir Stevanovic|Merge pull request #267 from mdecandia/master
+263c3cf0f0053ade092c4b72c22d4201148f7ec6|2020-02-24|mdecandia|Updated warning description for broken chain in lowest energy sample
+8e7ffe9e9fa209572d508e7515d36aced2929a5f|2020-02-24|Alexander Condello|Update version 0.9.0 -> 0.9.1
+7d4e4ab1d2210230a33a2e46d3e5e74e1cc3f2ba|2020-02-24|Alexander Condello|Merge pull request #264 from randomir/support-cloud-client-0.7.0
+93d774631f42796cc1e31b50284774741e55462e|2020-02-24|Alexander Condello|Merge pull request #265 from arcondello/fix/docs
+671bb5ea12522a2c826d72b2193abf0c0ce4c0b4|2020-02-24|arcondello|Fix some broken docstrings
+8aedc55f772365bd9cceb4ea521b484de611b32c|2020-02-24|Radomir Stevanovic|Work with `dwave-cloud-client==0.7.x` as well as with `0.6.x`
+6a07f12b0bba6eef5734023948186337fe7c6ae1|2020-02-24|Alexander Condello|Merge pull request #263 from JoelPasvolsky/intersphinx
+ddbfc952cab5459e58240f7f2cf1b09466561c34|2020-02-24|Joel Pasvolsky|Fix links
+ae1f88079e9ba42c019b948222a8741b17f6c4fe|2020-02-24|Alexander Condello|Update version 0.8.2.dev3 -> 0.9.0
+ecc820a1fa16d72d138237d86ad8af5e976cef9f|2020-02-24|Alexander Condello|Merge pull request #262 from arcondello/leap2
+0c1736ac7fd77f2662f67d60da8fd9b9b61bd1cb|2020-02-24|arcondello|Fix embedding test and edge ordering
+dc7639fc0e7d46e21389c75e9667fdde0d002af3|2020-02-24|arcondello|Update requirements.txt
+ec6531cc1a22843259365cc350bb3a60cc95b28b|2020-02-24|arcondello|Update python versions in CI
+4884dbcab2b8401419fdbb9e7c300b5782afbd1e|2020-02-24|arcondello|Deprecate python 2.7 and 3.4 support
+85becc02e64ad0ee49ab844db18ac470b74407c5|2020-02-24|arcondello|Support dimod 0.9.x
+b6a6c75eb1663d0a9a4ebbdd66cb6b7ed84f4e3e|2020-02-23|Joel|Merge pull request #6 from JoelPasvolsky/unit_tests
+da52768099b6c6b5a01723ea2cebafcd0a047fa0|2020-02-23|Joel Pasvolsky|Update for commments from @randomir
+53fb610b275845df2aa06db77536d414316c2e7c|2020-02-22|Joel Pasvolsky|Clean up unit test code
+4aba628428e5f9e21035976b84c15fe70d1fd3a6|2020-02-21|arcondello|Update version 0.8.2.dev2 -> 0.8.2.dev3
+a0d8ffa4738f4b03471b086b85eb7a4d6d3af33b|2020-02-21|Joel Pasvolsky|Update unit tests for connection_close
+fe19c6b9565188a9edfa3e2500ced73ba2e93658|2020-02-21|Joel Pasvolsky|Change init for proposal from @randomir
+1ab553fcbba69a8fc67850b0675d2ebf700827a2|2020-02-21|Joel Pasvolsky|Set default category to hybrid
+95c9e5ddb0e798192f6186f1608d2d24a519dde5|2020-02-21|Joel Pasvolsky|fix unit tests for connection_close default
+273ec2099384409c8663542b579cc468ed75efe8|2020-02-21|Joel Pasvolsky|Fix Future breaking FileView
+164fee5087c0ac63a3c60584f05d8204155ddf58|2020-02-21|Joel Pasvolsky|Select default solver, some minor changes
+4191e53e2aeecea6d63064265e308745a7403d8d|2020-02-20|Joel Pasvolsky|Restore fix_627 (used wrong upstream earlier)
+e86b3a9c23f37e38d525d2c69cddeee682832910|2020-02-20|Joel Pasvolsky|Update for comments from @randomir
+2cb2a17a0b3a03aa8cdcb2f9fee004db2b6b2b2b|2020-02-20|Joel Pasvolsky|Update conncetion_close and as_bqm
+0c686763d508d0f1147469dd290c1b310cbc0e3f|2020-02-18|arcondello|Update version 0.8.2.dev1 -> 0.8.2.dev2
+6767197e0b65c1e2f702bb17abe861b28d28e35e|2020-02-05|Joel Pasvolsky|Update from Alex's review comment
+33757f9529c7b5a601068de1ce4ce2114f98ac91|2020-02-05|Joel Pasvolsky|Fix for test case  sampler.sample(bqm,'1')
+565be5752b1a71986ed9c6255a0daf791139057f|2020-01-31|Alexander Condello|Update version 0.8.1 -> 0.8.2.dev1
+783c2cf36cf33fd179feb5cf47253f5e2909eab8|2020-01-22|Joel Pasvolsky|Update for review comments from @arcondello
+5ed86f3871bfd3a5902611c4af8036a4ce2b8dc8|2020-01-21|Joel Pasvolsky|Updated for @randomir's comments
+68f7ba9a949b921779f1d50b3324171a373ee13d|2020-01-21|Joel Pasvolsky|Add workaround to unittest for FileView input to TabuSampler
+579dddb62569667a36b2a513c1796daadb3e1151|2020-01-21|Joel Pasvolsky|Add support for FileView format
+978060721beb9626f2f0de9f8d3eee19dbb714ca|2020-01-17|Joel Pasvolsky|Uodate for PR comments from @m3ller
+83751b0d45f68a9994f7058e8ece899335f3aefa|2020-01-13|Joel Pasvolsky|Add more unit test on init
+fe85a69328cac94d15cd9f8647adbe9e008d7713|2020-01-13|Joel Pasvolsky|Fix KeyError for no-argument case
+17a64d25dd2b8b300e541c75d9b72a667116ee07|2020-01-13|Joel Pasvolsky|Update example for change to sampleset
+34bc505269c376fb605f2fbf554b31181e35f3eb|2020-01-13|Joel Pasvolsky|Add some documentation
+c69d444b221f364e823eaf017777c7e335ad0ac9|2020-01-11|Joel Pasvolsky|Fix unit tests
+b64ff287b91c3dc2ecfcfa76e912aec080423cea|2020-01-11|Joel Pasvolsky|Add other sample methods (unittests WIP)
+9b538602df461cbf00307f903014804163a06ea2|2020-01-11|Joel Pasvolsky|Updating unittests (WIP)
+60a3f4cd64fc01f0047f81ab1e318f974cbd27cb|2020-01-10|Joel Pasvolsky|Update for @randomir's comments (pending unit test)
+4c51c8d9dd52d0d6582c48d5fb07ac4530f77d44|2020-01-09|Joel Pasvolsky|Clean up code
+622f7348b1640c8ff126af09dc9c1b8320d3df97|2020-01-09|Joel Pasvolsky|Add working unit tests
+db60d391390a2d7f4c190376c0bf17f3206b053c|2020-01-08|Joel Pasvolsky|Add unit tests (WIP)
+cedf923f40e8a8305eba4c9dbd03b5be1d4b362e|2020-01-08|Joel Pasvolsky|Add min time calculation
+5146e84fba2eaf723251fe75363c21b8c4c14fd3|2020-01-08|Joel Pasvolsky|Working minimum code
+f8426032ee695aa8354e237f0192128aee7304f2|2020-01-08|Joel Pasvolsky|Add bare-bones hybrid sampler code
+c3ecb8c29913d001f3ffe5eba23daebb980852a9|2020-02-21|Alexander Condello|Merge pull request #259 from arcondello/dimod-0.9.x
+d6dcbdf089c980d8593a11a014ca0885d97a0284|2020-02-21|Alexander Condello|Merge pull request #242 from boothby/issue240
+ff4c00d5768e120bf6946b9d3a59020affcd9a2a|2020-02-21|arcondello|Iterate over bqm variables more explicitly
+da566306f18792981e604e46ec5989afc4a43a76|2020-02-21|Alexander Condello|Merge pull request #258 from JoelPasvolsky/sdk_links
+5af1c10c72bfbd8130e943260103a5f70f11a9a8|2020-02-20|arcondello|Support dimod 0.9.x
+50233422363739739186933e66ed4f3b597fd0fd|2020-02-14|Joel Pasvolsky|Fix links
+7e8c975b231c0455fa8b2583a934fc2e803acf70|2020-02-12|Radomir Stevanovic|Merge pull request #257 from randomir/register-contrib-package
+7840bbd9589153c1f8108ced5ca735d91b1a736a|2020-02-12|Radomir Stevanovic|Add reminder about dwave-drivers contrib in setup.py
+8f63c787e5c4f94d4f05574744408bbf28d49175|2020-02-12|Radomir Stevanovic|Register non-OSS dependancy as a contrib package for `dwave install`
+9be3fd51c5769e080ab76770a5c213ab687748e4|2020-02-07|Alexander Condello|Merge pull request #256 from conta877/TooFewSamplesWarning
+35b6a19deb38b6d882c3c853e84a5f1f62cbf1ef|2020-02-07|iozfidan|remove reduntant info field update
+c47970cc53598cb7046824aefc64a2b416d80fbe|2020-02-07|Alexander Condello|Merge pull request #253 from JoelPasvolsky/versions
+1dee7ae76888cbab0c92a1a8de2b319619641105|2020-02-07|Alexander Condello|Merge pull request #247 from JoelPasvolsky/sdk_build
+4ed16eff5d21092e8effd56e65a2de4e1b517740|2020-02-05|iozfidan|fix warninghandler bug, add test
+e99e56ce70abfcb0649d8da8db1d39745ee2c818|2020-02-05|iozfidan|add toofewsamples warning handling for sampler object
+58ac44db96248d99564b1e6f654848c6bff23de1|2020-02-05|iozfidan|add function definition and remove tolerance for toofewsamples warning
+ec7d79e29d8d2003c3225e4c3c92c7306e274f6d|2020-02-05|iozfidan|add TooFewSamplesWarning to handler
+15deedf8b1009f1f410a1aee5775b01f8f6689dd|2020-02-05|Alexander Condello|Merge pull request #255 from arcondello/feature/energy-scale-warning
+1d558e3fd78d302fc22ca1fb31c67581bff6fda6|2020-02-04|Joel Pasvolsky|Add links, slightly revise
+06b5e9883b2f62051b17db4359f9bf9ad93b946a|2020-02-04|Alexander Condello|Let user overwrite WarningHandler.default with string
+64234a71486801e64d4e6ff3baefc5483de358e4|2020-02-04|Joel Pasvolsky|Fix warnings on include
+15cac8d41dc6d0aefe58a2db3261a536f80b25a5|2020-02-03|Alexander Condello|Rename WarningHander.action_default to .action
+6f4c7f60c1134dd4e15ea3fc0d19bd15fcdf1079|2020-02-03|Alexander Condello|Add EnergyScaleWarning and ChainStrengthWarning
+d51a930dec6a8c5abd776407dc8b6e4fa57b8b26|2020-02-03|Joel Pasvolsky|Fix index --> sdk_index
+b8834989352158c191b0e2109bdd299220eb694a|2020-02-03|Alexander Condello|Merge pull request #239 from boothby/issue238
+f22586abfc1990ff442adcb7b6913d3146620eed|2020-01-31|Alexander Condello|Merge pull request #254 from mdecandia/master
+ac3547d22af82952319261d50bed8b56e953a074|2020-01-31|mdecandia|Capitalized warning descriptions
+a8dccc430ce9752aadd331ad854838b023e3e803|2020-01-31|Joel Pasvolsky|Add version notice
+427840abe96c7557cda6e16cbfd06ce05e632063|2020-01-24|Joel Pasvolsky|Update links for unified docs
+369b1be31c18c29e82a45bc2d61f34cf359227d9|2020-01-20|Radomir Stevanovic|Update version 0.8.0 -> 0.8.1
+fab564d737e9f2fbf9fff0d400a65f472a72ae46|2020-01-20|Joel Pasvolsky|Updated for review comment from @arcondello
+ee07960385d9ccb69de134767400220b252cde9a|2020-01-19|Radomir Stevanovic|Merge pull request #248 from randomir/bugfix-warnings-generation
+4490bfbab8d4049538f88661c2641e2dd50faf6d|2020-01-18|Radomir Stevanovic|ChainBreakWarning: store relevant sample index
+cbf85e20953bc60de0945f5c94bfb559119a72e7|2020-01-18|Radomir Stevanovic|Broken chains warning: fix predicate
+d26ad7505581e52bc75c8b6bd03961231cfe32ee|2020-01-18|Joel Pasvolsky|Disambiguate refs
+569dc41b16b2c5306f0824edcdb4c9e2c24b66ea|2020-01-18|Joel Pasvolsky|Fix duplicate targets warning
+c9410ac5e28527b69b8b84152b86cf3d98695d0a|2020-01-17|Joel Pasvolsky|Remove build warnings on READMEs
+24e4ecc324b289e318011e16b7eb6a758d19b6ed|2020-01-17|Alexander Condello|Add warnings_default class variable to EmbeddingComposite
+b391700829fe05804e6c55267ba10c1ca3fc9834|2019-11-13|Alexander Condello|Support type, level and data in prototype warning generation
+19a5f9a6469726ce240032ed84481ba7476c9694|2019-11-13|Alexander Condello|Prototype warning generation in EmbeddingComposite
+c91cd7636584f6d11fbf527944fbf434589faccb|2020-01-17|Alexander Condello|Add return_embedding_default class variable to embedding composites
+a2fdfd40826d85ec43ad6dacbca2639771e92eb5|2020-01-17|Alexander Condello|Nest the embedding context inside the SampleSet.info
+6ec6201e9f3a403d2ed51b8a70c9114256ba95a6|2020-01-15|Alexander Condello|Return additional parameters from EmbeddingComposite
+150fa052d80732b4087d29c8c20e89161eca0ab4|2020-01-17|Radomir Stevanovic|Merge pull request #245 from randomir/problem-id-to-sampleset-info
+0d39b3cb17daccc6f17d962c2d450adb49c98998|2020-01-17|Radomir Stevanovic|CI: update macOS image, fix osx/py3.7 builds
+ed00ad05b3afc0abbe69c2d8d1be2a792f50e631|2020-01-17|Radomir Stevanovic|DWaveSampler: add problem_id to sampleset.info
+8d23742a9b69daba9e6bd5f967b0f1ee48224a8d|2020-01-03|Alexander Condello|Merge pull request #243 from JoelPasvolsky/sdk
+89bba5bab0498fcd3bfcfde316a2be24c629e043|2019-12-24|Joel Pasvolsky|Add sdk index and move _static images
+4829e4bb549e888c850c511776f443681528f4ab|2019-12-23|Alexander Condello|Merge pull request #233 from conta877/master
+05ada6b9d4c1af644d287a736638d6f3d7cab0b2|2019-12-23|Isil Ozfidan|fix abc import error
+15c48ee22c81f001110736213b0e45c4cbea853c|2019-12-23|Isil Ozfidan|update to address reviews
+97f4250c11a1abe0e633a2884aec2b10f91d571c|2019-12-17|Kelly Boothby|changed embedding diagnostic to play nicer with overlapped embeddings
+b021a8cbde19cf2d661a943dd1cfacaffaed6e6c|2019-12-04|Kelly Boothby|fixed issue caught in CI; typos in unit new unit test cleared deprecation warnings regarding coordinate converters
+cb5457a068b358d562e84ca8faeea2b0aec28a38|2019-12-04|Kelly Boothby|bumped dwave_networkx version number
+aaabf9f9bd549baa021bacd9e490322b157c0b48|2019-11-28|Kelly Boothby|fix issue238, broken chains in find_clique_embedding when target graph has missing edges
+c89e5e44ad245942b605fe298c7865655795c734|2019-12-02|Alexander Condello|Merge pull request #235 from arcondello/feature/failover-sampler
+cef1c0ab0b4e546d184740161c583fa490db8339|2019-11-19|Alexander Condello|Replace DWaveFailoverSampler with a DWaveSampler kwarg
+8325e2af182dfc57d2da6c04f7d3f8d307cc14df|2019-11-18|Alexander Condello|Default retry_interval to -1 in DWaveFailoverSampler
+0a7ad5bfdbc3e7ea379c21672d2dcf32122b5fdf|2019-11-18|Alexander Condello|Fix unittest failures in python<=3.5
+b201b6d77c7b9f63387e6bf5bcc981d06f4d1948|2019-11-18|Alexander Condello|Add DWaveFailoverSampler
+95e63f1fef6b80f52683bbf32ce731ce285471e5|2019-11-18|Alexander Condello|Merge pull request #236 from arcondello/fix/networkx-2.4
+6246a37fa8db33b8d3ed702224aece146672d461|2019-11-18|Alexander Condello|Support networkx>=2.4
+405f5c4408839049aa5c3599510ccf85735dba13|2019-11-14|Isil Ozfidan|change function description
+f69aab3002dce19181ff1ab2bc397b4e4aa84a6c|2019-11-13|Isil Ozfidan|name changes
+5d2132015fc7a305ed69dddde0e289cf07b50d37|2019-11-13|Isil Ozfidan|bump dwave_networkx version requirement
+0e73c60f4859b5c21291ef51907fb6d0dc4b456d|2019-11-13|Isil Ozfidan|modify data aggregation handling
+b02e1933b1f477fefafbf46e6e8f03975ab26c3d|2019-11-13|Isil Ozfidan|add documentation for reverse composites
+815d8a6be2853b99674fd65172456c142c55d126|2019-11-13|Isil Ozfidan|add tests for reverse composites
+27e2b0b3b131cceead1d8e481165c6a47b219114|2019-11-13|Isil Ozfidan|bug fix, all variable handling
+f568647ae6c557e57a76e6c0dc19d85beb2f422c|2019-11-12|Isil Ozfidan|fix bugs on proper state handling
+6e158ff2de53ddafbfa41b67b2246e28039624e2|2019-11-08|Isil Ozfidan|add reversecomposites
+e8a1fefc86f560799ded9dfc19b54e70964db17b|2019-09-27|Alexander Condello|Merge pull request #230 from randomir/bugfix-embedding-composite-initial-state-sampling-test
+6263036cc9eb78d0a3ca7a97423b77e7ef27cb33|2019-09-27|Radomir Stevanovic|Embedding composite test: ensure all solver parameters available
+7cdaa751353e9e9e2ccccde6d27a8120fbf2190c|2019-09-27|Radomir Stevanovic|Bugfix: embedding composite initial state test
+90b2d4d9a00910e32ac54d82654c90b41a895cdd|2019-09-26|Radomir Stevanovic|Merge pull request #229 from randomir/master
+2a87a70871f7017e3242dcf5b4e6a8b209dc77ad|2019-09-26|Radomir Stevanovic|Update version 0.7.6 -> 0.8.0
+f7bc3ecb9e599b125952ec58f270ee31fca973fc|2019-09-26|Radomir Stevanovic|Upgrade to latest cloud client
+6d896f5fbddcea7cf3a85fb34da3904634d399d2|2019-09-20|Alexander Condello|Merge pull request #227 from arcondello/feature/change-return-embedding-default
+aa779d82f4da2155771db6f16ad4cf98860495ef|2019-09-19|Alexander Condello|Default return_embedding parameter to False in EmbeddingComposite
+7b90cb0c1b5666e18bda1d257d2ea6e9fa35b4fb|2019-09-10|Alexander Condello|Merge pull request #225 from arcondello/feature/return-embedding
+f3c03c82f03e624a1d080ec3b299e3559a7bcfa0|2019-09-10|Alexander Condello|Add embedding to sample sets returned by embedding composites
+59c5fbe754f181ca1063c2c78ce4082b0ed4d3dc|2019-08-22|Alexander Condello|Update version 0.7.5 -> 0.7.6
+13f601125007d0332edb312c8ba8beaba117ae0a|2019-08-19|Alexander Condello|Merge pull request #223 from wbernoudy/fix/two-var-clique-embedding
+bc556e60be959d2b563ea3b03a4c18088b1d4ab3|2019-08-19|William Bernoudy|Fixes #222
+28a21dd4b3f72935b5c9397f50250148d26a68a7|2019-08-19|William Bernoudy|Add unit tests for k1 and k2 to edge list
+21be9a868a156cb3d8f929285d67470331da8ad8|2019-08-13|Alexander Condello|Merge pull request #221 from arcondello/fix/fewer-qpu-tests
+a8e0b3b0e6a12941d224abfa389d463aafc127e9|2019-08-13|Alexander Condello|Merge pull request #219 from arcondello/fix/autoembedding-child-structure-dfs
+f50b7dea3180909f5b4603d1d443f44ebb6a4652|2019-08-12|Alexander Condello|Fewer reads in the VirtualGraphComposite smoke tests
+9bd56c5316f590fe084a0f992d29ffae8505a099|2019-08-12|Alexander Condello|Run fewer QPU tests
+73793ce2dfc313180369dcf6a904438dffb90a27|2019-08-12|Alexander Condello|Catch the correct exception for child_structure_dfs in dimod
+105a722e93e94bcc530f37c09283c64076f708c4|2019-07-08|Alexander Condello|Merge pull request #215 from JoelPasvolsky/cleanup3
+491890f2da020f91a80ff15bbcc29d2e3621a248|2019-07-08|Joel Pasvolsky|Update chain functions
+65ef45c89eac73afbd3b2c8bc43bc5a19d05bc9f|2019-07-08|Joel Pasvolsky|Update diagnostics
+a75971f7e459755420d2d94c1fa2791fb63c5383|2019-07-08|Joel Pasvolsky|Update embedding: chimera, pegasus, utilities
+2ce48ef9e08148a9112d3df7fae7b80feadf99c5|2019-07-08|Joel Pasvolsky|Update virtualgraph and tiling
+159681dc6a3dfb602a5aefd090a3f6c89041061e|2019-07-08|Alexander Condello|Merge pull request #212 from JoelPasvolsky/cleanup
+e8386e3013df708aacbc37d6e1298897c57bf722|2019-07-05|Joel Pasvolsky|Fix some misses on previous commit
+04448cdad43e578506788f984efb0c1d53d0e498|2019-07-05|Joel Pasvolsky|Implement @arcondello's review comments
+cdf4a43ca1d3064c9a79d6b540406487b53ba43a|2019-07-05|Joel Pasvolsky|Update embedding composite classes
+0c7666944e43a9ce6af428e1ce99f8c786541c58|2019-07-04|Alexander Condello|Fix isolated variables in PolyCutOffComposite
+64b0af86214abfba20c1692dd447725ad9febf86|2019-07-04|Joel Pasvolsky|Update EmbeddingComposite
+011d3590604f698bb076e7875f7601d41f201a13|2019-07-04|Joel Pasvolsky|Update cutoff composites
+735f1860a96480e313aec8122326ade8f728f2ae|2019-07-03|Joel Pasvolsky|Update embedding in intro
+76f1db468e22d58b0b30cb2145462838f0cc3a1b|2019-07-03|Joel Pasvolsky|Update sampler
+dcfe402f7c8e0ac221b5e063bca26399ca88a0ee|2019-07-04|Alexander Condello|Merge pull request #207 from arcondello/fix/MinimizeEnergy
+14eb8b44140ac798abbb00fa38180afe2dd3eed3|2019-07-04|Alexander Condello|Merge pull request #204 from arcondello/fix/dwave-sampler-cloud-client-consistency
+93cacbb3e3b0a029dae8f59a78f8914eb93f78ad|2019-06-27|Alexander Condello|Fix chain break methods for py2
+2aa2e9372f374afd38f25756365aa1491dd7c254|2019-06-27|Alexander Condello|Simplify unembed_sampleset by using newer dimod interface
+243ef31ade168012ccd0a0b8aa84e6491771e6e6|2019-06-27|Alexander Condello|Update unembed_sampleset to use chain break methods samples-like args
+2948f1bf6cdb5fc6048229ec6cd7f352ca5c0e79|2019-06-27|Alexander Condello|Refactor chain break methods to accept samples-like
+fe9c4c46e0a62e5acfe3bd389f753f5f8df9846b|2019-06-27|Alexander Condello|Add unittests for chain break method API
+4587ce8d791e1e6981344632d1222b5d1f6d8279|2019-06-27|Alexander Condello|Add missing apache header
+2fd17e757a338783e4da210f7c2028d5c2e20e2c|2019-06-26|Alexander Condello|Add failing unittest
+8cd03567136fe1ce456ad2988fb40e7ea4889d97|2019-06-23|Alexander Condello|Merge pull request #205 from JoelPasvolsky/k_error
+7b59861698f79e68d812cf6cbc6243c152196037|2019-06-22|Joel Pasvolsky|Improve error message
+84fb29964ca342b233fc7cb27125e165f58e5337|2019-06-21|Alexander Condello|Match DWaveSampler.sample_ising behaviour to cloud client for h as a list
+973aede7f39e4744552617eb5cf7de10356b5ebc|2019-06-21|Alexander Condello|Handle label sorting in SampleSet.from_samples
+cd8ea7d2d8ad18dd559e8daed0942212e50a6e48|2019-06-21|Alexander Condello|Lazy creation of DWaveSampler.nodelist and DWaveSampler.edgelist
+1e4f7ed53c9cb89021785ef3dafb86ae00fb181b|2019-06-21|Alexander Condello|Rename test/test_dwave_sampler.py to test/test_dwavesampler.py
+c03475de9f1a825ec81710ab3c9b6a3d425fde86|2019-06-21|Alexander Condello|DWaveSampler.sample_ising accepts a list with 0 biases
+e3a8da83d8c312316c4b9d17666aa93a144457d9|2019-06-21|Alexander Condello|Merge pull request #199 from arcondello/fix/faster-tests
+0896f7b61b2ff8d17f7fe170f5a527867d6dd08d|2019-06-20|Alexander Condello|Refactor integration tests
+e36e0baf28c82594b88607680931f006ef624886|2019-06-20|Alexander Condello|Merge pull request #177 from arcondello/fix/run-doctest
+d6a79c3036a981c1d4d927ddec430775258b5814|2019-06-20|Alexander Condello|Speed up pegasus embedding tests
+47ab0d061db37095eb223ede053f9a3e1b6aeeee|2019-06-20|Alexander Condello|Fix some docs spelling
+59a9bae9bfd34b3e7d6312a067f338b548f87fdd|2019-06-20|Alexander Condello|Update version 0.7.4 -> 0.7.5
+e83f632479ec51e425f62305f58ecf284b557a7e|2019-06-20|Alexander Condello|Merge pull request #197 from arcondello/fix/dwave-sampler-mismatched-problem
+f1c800538df354b1e212ae4d52b972f27514841a|2019-06-20|Alexander Condello|Use the underlying Solver's nodes and edges rather than check_problem
+7292cb7b8c7bac3538a725f4a10f1b1e51a07ec5|2019-06-20|Alexander Condello|Raise BinaryQaudraticModelStructureError for mismatched QUBO
+a6eea58bc72c6ea9deb7021b80f30e5d692caa03|2019-06-18|Alexander Condello|Fix broken docstring examples
+357a5199ad1afc5f833a1b3cfd1a748ad59c6daa|2019-06-18|Alexander Condello|Refactor samplers doc structure
+cfc07cb2b8e77bc1967fb3c514891ad64baf6662|2019-06-18|Alexander Condello|Refactor composites docs
+81ed49a9ce7f8f956a6b6deb716a1a2466e5422d|2019-06-18|Alexander Condello|Update version 0.7.3 -> 0.7.4
+cf94911b2ae6225d4942b514d9da849e8d278d85|2019-06-18|Alexander Condello|Remove old docs boilerplate files
+580648e91510f6c4e9f2e67a8be6ea3dca084d96|2019-05-02|Alexander Condello|Build the docs before running doctest in CI
+0355a4e0a870cc4946ee9d731e09b4332c0595f6|2019-06-18|Alexander Condello|Merge pull request #195 from arcondello/virtual-graph-refactor
+59d898841d2b118165c11955e5e48d0b227d076d|2019-06-17|Alexander Condello|VirtualGraphComposite correctly uses the chain_strength parameter
+c259b7ac1e469e83dd18a6ebdfc0a8729d64ec96|2019-06-17|Alexander Condello|Change VirtualGraphCompite to subgraph FixedEmbeddingComposite
+d4fd4432fd402c8f08235dbe1391fc5753bfc63c|2019-06-17|Alexander Condello|Simplify VirtualGraphComposite QPU tests
+709ee86ea4269ac7e0fd26dd4e43766407553cb1|2019-06-17|Alexander Condello|Merge pull request #194 from arcondello/feature/AutoEmbeddingComposite-unstructured-children
+9d23602228c302767053596f6c52197ce2bedeb6|2019-06-17|Alexander Condello|Add check_problem to mock solver
+a09f2998b99405934b27f23cf8e211aac3804332|2019-06-17|Alexander Condello|AutoEmbeddingComposite now tries to solve the problem without embedding
+46e362e2f5b482cf418f2c8c3cac5b49f5a20a51|2019-06-17|Alexander Condello|Raise exception when problem does not match the QPU
+3733aa58ab66744530e43edc2d627a75de327bb3|2019-06-17|Alexander Condello|Make EmbeddingComposite scale_aware
+9a21e63b1f9142d76281a66036c2143f4c815425|2019-06-17|Alexander Condello|Accept EmbeddingComposite kwargs in FixedEmbeddingComposite
+6fc4505d60bb4b988edd94009a3c4b4e2d7337dc|2019-06-14|Alexander Condello|Use dfs in EmbeddingComposite to find child structure
+05511a472189e80f8cefa6c7aa97dcd80e119a2b|2019-06-14|Alexander Condello|Merge pull request #190 from arcondello/feature/autoembeddingcomposite
+0815d0b3476ca13e22a1ccace4ff3863e7b77aea|2019-06-14|Alexander Condello|Add AutoEmbeddingComposite
+1486c8e3ec76e0408cb4b7c0bfcec5a578706a86|2019-05-27|arcondello|Add ramp schedule
+81760298d25508e6416b8e61cede7b4869917c6e|2019-06-14|Alexander Condello|Merge pull request #188 from arcondello/unified-embedding
+3690da1b3fe30fc35017ae43b59d05b3f34a7e30|2019-06-14|Alexander Condello|Fix typos, add comments and simplify code in EmbeddingComposites
+854f5dd7f68aa2e4a7f28627330d0ff47c705262|2019-06-13|Alexander Condello|Fix embedding docstrings
+384b4bf2d5c60bfa0b9b66e2c19c9e0d4011b430|2019-06-13|Alexander Condello|Restore behaviour that LazyFixedEmbeddingComposite.nodelist et al. start as None
+c073a2680fbf56f6b997ce233b60fe9fb4a1e29c|2019-06-13|Alexander Condello|Fix broken test for FixedEmbeddingComposite
+34f9b6850223f0d6500f483171a5eecbc42c03ce|2019-06-13|Alexander Condello|Deprecate source_adjacency parameter for FixedEmbeddingComposite
+17c55222cbc7dfba82bafd499212f721ed2fd124|2019-06-13|Alexander Condello|Remove ParamEmbeddingComposite
+bbec34f846b1e7402be1837009dfbb2b865b00a3|2019-06-13|Alexander Condello|FixedEmbeddingComposite subclasses LazyFixedEmbeddingComposite
+ddb10d655d7177b1128b58184c63e0214e92d7e2|2019-06-13|Alexander Condello|FixedEmbeddingComposite subclasses EmbeddingComposite
+6ae28c9480a82791bac2b38e47316ee2cfc7a8d6|2019-06-13|Alexander Condello|Test against dimod 0.8.14
+11cd85a4bfa9e59692e2adc0158c28d1f5a6fed9|2019-06-12|Alexander Condello|Require dimod>=0.8.13
+6366f58b80438d53b020d26d709952ff343d148f|2019-06-12|Alexander Condello|EmbeddingComposite accepts a find_embedding function
+25b01b3f08c0e60d32fe6832cc4b81c73bf45927|2019-06-07|Alexander Condello|Merge pull request #172 from boothby/nicer_coordinates
+5fd6dfe07ef274095d0ea33637639169e32c5d73|2019-06-07|Alexander Condello|Require dwave-networkx >= 0.8.0
+4900ef179c3a54e2a04a57db231c536981c26c8f|2019-06-03|Alexander Condello|Merge pull request #186 from JoelPasvolsky/cookies
+7bbd8934cd09b232c013f87364eae159155677e0|2019-05-29|Joel Pasvolsky|Add analytics and cookie notice
+f83b93d6cbc3c7bc2178c366c0c780a06c7fcd3d|2019-05-23|Jose Pinilla|Added chain_break_method to ParamEC Some tests
+61eb854ed33acf242653bf2a6abade3066fcc7c5|2019-05-23|Jose Pinilla|Merge remote-tracking branch 'upstream/master' into param_embed
+afbf9015f1650330790821886fcc15454a848988|2019-05-21|Radomir Stevanovic|Merge pull request #183 from randomir/add-chain-break-resolution-method-to-composites
+b81c9c6ac7a8e4a5d768e67a6b689db2a2add6c2|2019-05-17|Radomir Stevanovic|Test chain_break_method in embedding composites
+d69715a900263c2f7b5f31be6d659ecf7fcae253|2019-05-17|Radomir Stevanovic|Add chain_break_method to all embedding composites
+2fe8941831ca2bd9e94b338d38960ec8003627bc|2019-05-07|Alexander Condello|Update version 0.7.2 -> 0.7.3
+43d9f430ceb9337f59f4583907d34692a6a84d0a|2019-05-07|Alexander Condello|Merge pull request #179 from arcondello/feature/common_working_graph
+1f3a03766b8bbe74ec5e68727f3d4d8ca943cace|2019-05-07|Alexander Condello|Add common_working_graph to docs
+ae2d6dad0e47e0517950f565bfcacef4d86135ac|2019-05-07|Alexander Condello|Format common_working_graph for dwave-system
+7c42c43e258f9cb724eae0c1b43493d9321283f6|2019-05-07|Alexander Condello|Rename common_graph to common_working_graph
+944f7491099660f8cadcd602b45567de6da47cc7|2019-05-07|Joel Pasvolsky|Add common_graph function
+846331f69211fb1bdae4989bf1012ab04029eb2a|2019-05-06|Alexander Condello|Merge pull request #178 from JoelPasvolsky/info
+e488fa98125d399d68330f2de1255aaf03e8b023|2019-05-06|Alexander Condello|Revert version number increment until pre-deploy
+bd857e534556e846f0dc2bbf97f09f1b76cf76b9|2019-05-06|Joel Pasvolsky|Add timing info to TilingComposite
+bdf2b5356dbd34507dedc0e51325a90cb1c4a8b1|2019-05-02|Alexander Condello|Make doc links direct
+956cb0a717f104370cd4463b6d52d271e6af17da|2019-05-01|Jose Pinilla|Parameterized Embedding Composite
+67129ce21080f47419e1c78cba61c44d4d70b86b|2019-04-02|Kelly Boothby|updated to reflect change in pegasus nice_coordinates
+86a1698f15ccd8b0ece0ed868ee49292d3f67f5b|2019-03-18|Alexander Condello|Merge pull request #167 from jking-ca/master
+9e1b30eac1cca18f3b828bacbf84bc5910c11b87|2019-03-18|Alexander Condello|Merge pull request #156 from davage/draw_chimera_bqm
+52f5db671283d2f97ece3711c8c1263ac2c8d109|2019-03-18|Jamie King|Fixed incorrect use of random.randint, used random.randrange instead as it's more intuitive.
+56495adfa48db65a8b8bb46f867cb4560c3d4171|2019-03-18|Jamie King|Removed numpy dependency and made efficiency tweaks.
+57d58b5f30f9956b5ebd62dd1913fa070a431e07|2019-03-15|Jamie King|Removed two unintentional calls to deprecated methods in tests.
+75436dac2fc3567c8e64688dafb4ca002242859d|2019-03-15|Jamie King|Added special logic to return optimal embeddings for small k.
+6afc031ba47a270cc69bb8e7a3ef2a7f4612e1d8|2019-02-19|David Johnson|draw_chimera_bqm
+0646265928fa786871b79f4eb85bcc8cc27136fe|2019-03-13|Alexander Condello|Merge pull request #165 from arcondello/feature/chain_break_frequency-num_occurrences
+4198deececc63a292f8c2489665addfb7dd3e2f4|2019-03-11|Alexander Condello|Weight chain_break_frequency by num_occurrences
+50cf24ec720942f72e83a115536082d2b837ada7|2019-03-11|Alexander Condello|Better organize embedding utils tests
+7f63d7d0d5c769c6a103b21197f26f52b88520fe|2019-02-28|Alexander Condello|Update version 0.7.1 -> 0.7.2
+0713bfb88bf1b19aea51a93d56e747635f52d934|2019-02-28|Alexander Condello|Merge pull request #160 from arcondello/feature/cutoffcomposite
+8d8a08d017942c4a11a9e2394308e16640d7521d|2019-02-28|Alexander Condello|Incorporate review comments
+a5145ca75c2155ce1a7c78908025ff040835dc1f|2019-02-28|Alexander Condello|Fix linear bias bug in PolyCutOffComposite
+61f547c0bff23376ced9a4f78700514a1ba74eb6|2019-02-28|Alexander Condello|Remove old commented out tests
+5761c2bee8cdc4a3bb75e84031d80658ab5642a4|2019-02-28|Alexander Condello|Refactor cutoff docs
+d33d5bfb27e25552e558d68bedc884db53427955|2019-02-28|Alexander Condello|Add PolyCutOffComposite
+6a5bac7aa4e75ce54cad5b18f01bf304b01e6ed2|2019-02-27|Alexander Condello|Refactor CutOffComposite
+2878a40e72994d77995228fa2dfb5385ffe938e5|2019-02-27|Alexander Condello|Require dimod 0.8.6
+208d4c7c51f45772532eb1bacd50ea8b975653f6|2019-02-27|Alexander Condello|Merge pull request #159 from boothby/nice_coords
+bb2d226b0d2b1029662da6dbec67e32a21dc873a|2019-02-27|Alexander Condello|Require dwave-networkx 0.7.1
+5ec49a66279593ad010cc7f009bd8cceab161ca2|2019-02-26|Kelly Boothby|added clique-embedding support for nice pegasus coordinates
+9e2cf48f32c084217fc36a7c76d08cc7677054a5|2019-02-25|Alexander Condello|Merge pull request #158 from JoelPasvolsky/issue157_virtualgraph
+f44881932fa23921fcd586efbd5974ace9d9ad0e|2019-02-22|Joel Pasvolsky|Close issue #157
+7f04a946f3e99cd8e31dcd960a534d6c85d7a708|2019-02-22|Joel Pasvolsky|Fix some broken stuff
+5920ed852c44eef25fa6b2f5409513373e8b0d23|2019-01-30|iozfidan|Doc improvements, deprecation warning
+ed436895a5d770011ee69c1ea34f51142fdd6e02|2019-01-30|iozfidan|update requirement version 2
+fab73bbafe27aad3b18a4fc59c6cc0b0c224aa8a|2019-01-30|iozfidan|Merge branch 'feature/cutoffcomposite' of https://github.com/conta877/dwave-system into feature/cutoffcomposite
+febc701d13f2f36587c038521d491a70ac757147|2019-01-30|iozfidan|update requirement version
+8f3bafda983c8a4150a6f57e2833624e5eff6959|2019-01-29|iozfidan|Add cutoffcomposite
+b899077ce024e666fe6de6b9c4a8f2d42cc7a991|2019-01-29|iozfidan|Fix minimizeEnegy function, add test
+e087f448e55ac31e721ec51839badd6c5cbf2303|2019-01-29|iozfidan|Fix minimizeEnegy function, add test
+e73efbf22f09202e7c52f885059720cbefcb089e|2019-01-22|Alexander Condello|Update version 0.7.0 -> 0.7.1
+7c137377c0fce5a8f5c985dba87c9ab4dc7f6861|2019-01-17|Alexander Condello|Remove dnx version upper bound
+e8dff22d7229ef741baea229cc8cbc737e1e663c|2019-01-16|Alexander Condello|Add LazyFixedEmbeddingComposite to docs
+17890f6c6ebb6ccb54d3cdd141efd2497315e64d|2019-01-07|Alexander Condello|Update version 0.6.0 -> 0.7.0
+9745301ca9ffed9b2fc5b86395baa45652918456|2019-01-07|Alexander Condello|Change unembed_response to unembed_sampleset
+77cc8986fb49ccdd49be9c2aa2a48255ce3c5ed9|2019-01-07|Alexander Condello|Use dimod 0.8.2
+f7ebf45e4700645930b508037f54ba29bf6a216a|2019-01-04|Alexander Condello|Reorganize tests/
+bbcd06b5e8a50fe7761c25dc1dcd2ebcaf14c0f1|2019-01-04|Alexander Condello|Fix typo in chain_break_frequency docstring
+1acde36bc292d7e3c58be182e40a3e92a5fe8d32|2019-01-04|Alexander Condello|Add global doctest setup
+cd4947a9ac69a87c3d5edda5b48de46ceca24e45|2018-12-31|Alexander Condello|Merge pull request #142 from arcondello/use-dimod-SampleSet
+f1cc9a956b53a9af03d9ac85b44fd6ff26bbd165|2018-12-31|Alexander Condello|Use dimod>=0.8.1
+436510568255b1e43667f7969125f22ecad9ed3a|2018-12-24|Alexander Condello|Merge pull request #141 from boothby/issue137
+37e0fd9eec8f633c3ed0ec594759eefc58bacc7d|2018-12-21|Kelly Boothby|missed a couple of spots in issue#137
+41b0014a49bf356cf03c85986669b9ab48138e3d|2018-12-21|Alexander Condello|Merge pull request #140 from arcondello/feature/dwave-embedding-exceptions
+9ff05f9bf45d6e7bed1048be96f65f9119cf4588|2018-12-21|Alexander Condello|Use exceptions in embedding utilities
+d6686f94d1d6bab45ee6381879b606423d8c86af|2018-12-21|Alexander Condello|Add documentation linking
+1ebf591254451a98731c53b978b37ed5f33fe882|2018-12-21|Alexander Condello|Refactor embedding docs
+d4c7b411820157b08772280dd3d9b1d07c125d1b|2018-12-21|Alexander Condello|Move embedding exceptions into their own namespace
+e813120d1bab543de4dd8d917fbeee58074bf446|2018-12-21|Alexander Condello|Pep8 for dwave.embedding.diagnostics
+4eec36e366b7f8e600a2e57e61ef785bd9f2168e|2018-12-21|Alexander Condello|Merge pull request #128 from m3ller/refactor-pegasus-k-example
+02e1d2e7382d3631be27e29c69b2174c9c8f20ba|2018-12-21|Melody Wong|Add test for a pegasus graph with missing nodes
+a6d5fe6ee9a201f5af358e2333a1868128c5adce|2018-12-21|Melody Wong|Bug fix. Remove unnecessary duplicate requirement
+05a856adaf58fb423c24b2434de04f2cf713ef8b|2018-12-21|Melody Wong|Change requirments versioning for dwave_networkx
+b00a38015062037e59a0cf52d52b780a059260d1|2018-12-21|Melody Wong|Remove unused import, pegasus_coordinates.
+f6548d22743ade9cf3d2e65620c37c3c5312e39c|2018-12-20|Melody Wong|Change variable name 'emb' to 'embedding'
+235604975a2e3aaba46fdd194e169c64fe30cc38|2018-12-20|Melody Wong|Add back_translate lambda in order to deal with differences between ints and coordinates in the target_graph. Add unit test to check back translate
+0bc6f4457288cda3eb4d33902e572b701f47862d|2018-12-20|Melody Wong|Adding tests to verify the different types that the k parameter supports
+0e8ea41148a765d5593b8aee0be10020eb5356c1|2018-12-20|Melody Wong|Change docstring to show that 'k' supports multiple types
+26a721b122c89e53b73725009a228f0734722396|2018-12-19|Melody Wong|Changed 'n_nodes' to 'len(nodes)' because k may be an int or a graph. Changed unit tests so that 'pg' is a graph in terms of coordinates
+01f21149852015335376dad56d2bd28fc97ec583|2018-12-19|Melody Wong|Change 'Warning' for nonexistent cliques to 'ValueError'
+f39148177b9f19c93d0c3eaabb8bf72fd1f60105|2018-12-18|Melody Wong|Move fragmentation tests to dwave_networkx/generators/tests
+b0a4b08a1cd1ef93d2aabf4ea3960c55d9508e62|2018-12-18|Melody Wong|Raise warning for impossible clique embeddings.
+840d34a23d878ba7151add5c8e53d062784e15f8|2018-12-18|Melody Wong|Added zero and one node clique unit tests. Changed pegasus graph varible from G to pg
+2eb6187317cfb308eefbe49e844b468e3a17814e|2018-12-18|Melody Wong|Add test to verify clique
+afa546f7847445215354237d01e8f2db83f30ed7|2018-12-17|Melody Wong|Add unit tests for defragmentation function
+b9eee598b108475e7a43402a3c243779bf76a707|2018-12-17|Melody Wong|Change variable from G to target_graph. Add to docstring
+13c3dc4ecc45bdc7ad24dab17bbc32c9159c2c7a|2018-12-17|Melody Wong|Move get_pegasus_coordinates(..) to dwave_networkx/generators/pegasus. Function is renamed as get_tuple_defragmentation_fn(..)
+23c0c565dfb3b3c71866659a0dfdeb831259aa83|2018-12-17|Melody Wong|Move pegasus fragmentation function to dwave_netowrkx/generators/pegasus.py. Update unit tests accordingly
+96f1979a707ad12586f5d2f79be13633bae03b9c|2018-12-13|Melody Wong|Add decorator for k parameter to accept both iterable and int
+bc761f1df046d3441727adff413fee4f5ac1120e|2018-12-13|Melody Wong|Changed function to solve for a k-sized clique rather than for finding the largest native clique
+1e055588a097f210ccc24fbf78e0f7781228e788|2018-12-13|Melody Wong|Rename chimera fragment coordinate from ck to r
+68877d4663c19bd459b99ba3c3eff5570063142d|2018-12-13|Melody Wong|Adding a list of coordinates test
+e75b23f298111dfff28aa281ffaa90f67c985885|2018-12-12|Melody Wong|Rename find_largest_native_clique(..)-> find_largest_clique_embedding(..)
+42ebf18777599a5e12d492bd82c5149f7c781773|2018-12-11|Melody Wong|Add some tests to get_chimera_fragments unit tests
+1646fdaa2c3bc02d159515cdea0c2b78635bb428|2018-12-11|Melody Wong|Add test stubs
+db79de4ad193331cd40b664785e98355f84aeacd|2018-12-11|Melody Wong|Make a more elegant toggle for shifts
+12e3a65ac145c663a631caa9419057c1e0878d75|2018-12-11|Melody Wong|Bug fix. Adding perpendicular shift to calculation
+2374742c0d5b7cc4836172a03bd88e12ba181c1e|2018-12-11|Melody Wong|Change naming and modified code in get_pegasus_coordinates
+47c8323a62cb7c5f5a83f272f9eafcbed3d2daf5|2018-12-11|Melody Wong|Write doc string for functions
+c0620a83b36ca83d7f74bdd02b8e38b00315244f|2018-12-11|Melody Wong|Made fragmentize and defragmentize more general to use. Variable name changes
+66d289f118274889e602e30ae673e42e95ef94f8|2018-12-11|Melody Wong|Changed variable names for clarity
+0b26502c73a128bf2756ff3ffd9248b2af89fc61|2018-12-10|Melody Wong|Code clean up. Changed some variable names for clarity.
+684466b6c5c30e1b6a26684d38ffdefafd34abf1|2018-12-10|Melody Wong|Rough transfer of ksample.py code to dwave-networkx. Adding fragmentization and defragmentization code
+1d794bdece5bc6dd2df317da9dda072aa5bb4be2|2018-12-06|Melody Wong|Add clique embedding processor
+22e4a9b7f254c70b2fb19d2dd576b8f3563699da|2018-12-06|Melody Wong|Initial rough sketch of pegasus embedding code
+f065d4ae967960cc39a34426c4742cbfb8386f4e|2018-12-21|Alexander Condello|Merge pull request #138 from boothby/issue137
+76c755439ebd815a296d0b2c495f3f8f50305575|2018-12-21|Kelly Boothby|added unit tests for embedding/diagnostic.py and fixed some bugs & annoyances that cropped up
+dde4cfebc215a3e535aca789b0ea1ecafc1d20e8|2018-12-21|Alexander Condello|Merge pull request #134 from arcondello/feature/move-embedding-utilities-from-dimod
+26534af5e860cc63521e67b3f237b545f3bd0008|2018-12-21|Alexander Condello|Merge pull request #136 from arcondello/feature/appveyor-caching
+18ae131cb572934c4e3789a1b68ccbcfc960bba6|2018-12-21|Alexander Condello|Speed up appveyor build
+7f8ffbfa3e9b66539b5bbbb3efba6b4ef8608bbc|2018-12-21|Alexander Condello|Update composites to embed in spin-space
+f094e010867eb23407f44c9be1cb1e037780754a|2018-12-21|Alexander Condello|Add documentation for embedding
+1f1dae336953d44fe66bdae388d858491053b8dd|2018-12-20|Alexander Condello|Use dimod>=0.7.7
+cb148463c64e7b34f9259c0b0b8573f55e94aeb9|2018-12-20|Alexander Condello|Move dimod.embedding under dwave.embedding
+0a71b7c7ab5f03843e64bf3b7c944bb8cf04c077|2018-12-19|Radomir Stevanovic|Merge pull request #133 from JoelPasvolsky/features
+d6ae28de5a610882f3fc476fbea86940d9ec6ae7|2018-12-19|Joel Pasvolsky|Update sampler
+6ebd3e64fbf181fbca8d555ad4f993067744920d|2018-12-19|Joel Pasvolsky|Fix links
+90e55bcefe4d277c3fd060b86d652bef9fdea6f7|2018-12-18|Radomir Stevanovic|Update version 0.5.4 -> 0.6.0
+8aaa1e7a55d0dbdd622ea78feaa2b40ae79d4ab9|2018-12-18|Radomir Stevanovic|Merge pull request #132 from randomir/minor-tweaks
+cddf769880490124c8e498aaec9961122afa88be|2018-12-18|Radomir Stevanovic|Ignore doctests on PR branches
+5fe44441b0da7e820bc9cf2c128a96de1c8a026e|2018-12-18|Radomir Stevanovic|Simplify dwave sample deprecation test
+1801d7a771b97c7ee3ad53924390c7c8b7348faa|2018-12-18|Radomir Stevanovic|Avoid using deprecated 'solver_features' arg
+fd565491251bb51fbdaf207d20354bb60c86d471|2018-12-18|Alexander Condello|Merge pull request #130 from JoelPasvolsky/install
+06ed9603f0b44d67958fc15657c0a11836f21a61|2018-12-18|Radomir Stevanovic|Merge pull request #131 from randomir/feature-based-solvers, closes #122
+a9e88cdb488c28243e92a9af9a106d6217dd03e5|2018-12-18|Radomir Stevanovic|Fix dwave sampler deprecation test to work in offline/mock mode
+abe3b468938d54eb1791fcac1b6f3a1e08b469df|2018-12-17|Joel Pasvolsky|Fix missing cmd
+94d1bfb2dd41af9df6720d4e35dadd9339c7ed19|2018-12-17|Alexander Condello|Merge pull request #129 from randomir/testing-utils
+99070a8a08a238c7c1d489b96cb7c0aa0fda75a6|2018-12-14|Radomir Stevanovic|Fix warnings assertions in Python 2
+a0062ef541aed48001abe794e78143175a782a93|2018-12-14|Radomir Stevanovic|Use dwave.system.testing.MockDWaveSampler in tests
+e2bed3546c44595718cdc73b7a15e4c8f110ce8b|2018-12-14|Radomir Stevanovic|Expose DWaveSampler class mock in testing submodule
+66a68157c48930af425abeaa0aaefcbc9dbd10a1|2018-12-13|Radomir Stevanovic|Feature-based solver selection requires the new client
+f908cedf4e6ac5af1a08638949e0d5a18d77e97e|2018-12-12|Radomir Stevanovic|Test new dwave sampler init, deprecation
+85bdcd86c52b6e656cea8f15f87a13876a6a8d8e|2018-12-12|Radomir Stevanovic|Simplify dwave sampler constructor and allow custom kwargs propagation
+ffa8424a5a1c6c2edf0f11b63f22556236a2d836|2018-12-12|Radomir Stevanovic|Add feature-based solver definition in DWaveSampler
+677ead58fc5993ad4218fe28f975baf662fffefa|2018-11-23|Alexander Condello|Merge pull request #124 from JoelPasvolsky/refresh_embedding
+4d2a9473fe2c523139daeeb75179239b8a1884ad|2018-11-23|Alexander Condello|Merge pull request #127 from boothby/master
+2564d9a873dfb52d3323cbf14d75f82815c89807|2018-11-23|Kelly Boothby|added embedding diagnostic functions
+c42bc0c3d1eeb2f8dec6d60d69f8ac964a509986|2018-10-25|Joel Pasvolsky|Update for review feedback
+6a71ef48a44dbd9a4bea56a24074ebb54f6bf6aa|2018-10-23|Alexander Condello|Merge pull request #123 from JoelPasvolsky/refresh_composites2
+a39b47b1de3a1c85c39003551034721930e2c468|2018-10-23|Alexander Condello|Merge pull request #125 from m3ller/ADTT-398/LazyFixedEC-and-FixedEC-args
+1af47bce2de402b5dc3c7d2416c962ec253bed21|2018-10-22|Melody Wong|Remove backslash for line continuation, use parentheses instead.
+85fdc9ff46e9428c31a6b940004d715572b5cff3|2018-10-22|Melody Wong|Add LazyEmbeddingComposite and its unit tests
+ec929e712ec14ce2e62056e86c08f6d84c3a36f8|2018-10-19|Melody Wong|Add test for source adjacency input
+a4fa0eaf3d683f9aa52742e50b9122dfe1f32c9b|2018-10-19|Melody Wong|Change raised error code. Add tests for no embedding and/or adjacency
+bd96d19dfc5d3dc6f33283640749a13536c83431|2018-10-19|Melody Wong|Remove hardcoded class name for message
+c3eef9b8deebd3e0ad49099334a544b3c570b294|2018-10-19|Melody Wong|Add code to switch between embedding and source_adjacency
+c28b4fb2dfa3c71dffb5dc6f220cecb4f7d4bac7|2018-10-19|Joel Pasvolsky|Update chimera
+487b53d533773c40f634091fd836beba4a3e8dfa|2018-10-19|Melody Wong|Move child_sampler related attributes to _set_child_related_init(..)
+dc2cb438b15031fae32946b6f361505e40b96013|2018-10-19|Joel Pasvolsky|Fix broken autosphinx link
+0a43fcc4e07a6c934a69aaf2dbff345056a33fb0|2018-10-19|Joel Pasvolsky|Privatize polynomial
+794d9171ee0499706bed7fdedf8faa192cd99d22|2018-10-19|Melody Wong|Put common init code between FixedEC and LazyFixedEC under _set_child_related_init(..)
+24cb9eab13302c7e21250dc00aaaed4e67bfa179|2018-10-19|Joel Pasvolsky|Remove draw_tiling()
+bf8340edaf16c8cd84141d795ed5814bf775351d|2018-10-19|Joel Pasvolsky|Update tiling composite
+9aced533c31b0669c4f69af3cc43f9968a4ead77|2018-10-19|Melody Wong|Add line breaks to conform to 120 column line
+96bf3f07ad2357f6cc58a5b2a9075545b6acaf17|2018-10-18|Melody Wong|Name change. LazyEmbeddingComposite to LazyFixedEmbeddingComposite
+946a62b111e7cbb950323ed7095521d3fc1c5d2d|2018-10-19|Melody Wong|Merge branch 'master' of github.com:dwavesystems/dwave-system
+f7bcbe63a501e0968743e581d0a87a845244c663|2018-10-19|Alexander Condello|Merge pull request #120 from JoelPasvolsky/refresh_samplers_intro
+f1de2b628c0961c54dbd2e45160a80384d43f6c7|2018-10-19|Alexander Condello|Merge pull request #121 from JoelPasvolsky/refresh_composites
+9553b59a5870fd8fbc3dcfc3091c898b4d8e28ff|2018-10-19|Joel Pasvolsky|Update for Alex's review
+0b177c7d425529ea86828a8acbf20bc3fbaa6de3|2018-10-18|Joel Pasvolsky|Update embedding (without LazyEmbeddingComposite)
+54d2aea084611055066d0459ee311e6ac2bdd51c|2018-10-18|Melody Wong|Merge with upstream master
+eecd0f083a5614a550ef60e972d9403c65bbd3cf|2018-10-18|Joel Pasvolsky|Update intro
+76d026b667d9146dfde0d4aaf4a8fcc7bf8eb067|2018-10-18|Joel Pasvolsky|Fix old link
+320019f7ef9a56633648e876f0a67d63146f3932|2018-10-18|Joel Pasvolsky|Update sampler
+6e01891375878b48b368ff531aa900c22ee5cc6a|2018-10-18|Alexander Condello|Merge pull request #118 from JoelPasvolsky/annealsched
+9de47165ff756bdb008a65e7e4bfc5cf1a3a25fa|2018-10-18|Alexander Condello|Merge pull request #119 from arcondello/issue117
+70a719d154c9fe33d8f1229c92d666d93a1f3b7a|2018-10-18|Alexander Condello|Fix error message in chimera.find_grid_embedding
+cde06e4c425fe905b0a656a95eccc1232f2083c9|2018-10-18|Joel Pasvolsky|Fix validate_anneal_schedule() for monotonically increasing s
+02ddb5c5a7960c46d3efc0d5ab65a303a504d53b|2018-10-17|Alexander Condello|Update version 0.5.3 -> 0.5.4
+4e5f4f5cdfb15efba16ae05d75bbee79ad8addd5|2018-10-17|Alexander Condello|Merge pull request #116 from randomir/master
+6efb18090fc2bb259fa38e01ed5e18c5374c7b21|2018-10-17|Radomir Stevanovic|Don't modify solver features reqs (bug #115)
+f679cba67d7844d81ff29ebb2075c93369500c34|2018-10-16|Alexander Condello|Merge pull request #114 from arcondello/grid-embedding
+2f9d472c769c36d1a2e9244dea29a23a2acfc1c8|2018-10-16|Alexander Condello|Add find_grid_embedding to chimera embedding
+38e5b5bae6527e812a316a829fc19f43bb380f7f|2018-10-16|Alexander Condello|Merge pull request #111 from arcondello/embedding
+dc76e7fb63d2fd8a47a2838a6808b8f5d1c79f06|2018-10-11|Alexander Condello|Merge pull request #112 from m3ller/ADTT-392/lazy-embedding-composite-v2
+da5bf873e285c379fc3c010823166dc5b99c4f14|2018-10-11|Alexander Condello|Address review comments for embedding
+a38a174fa2f5a7f01ccbfbc2a873793669b4b260|2018-10-11|Alexander Condello|Fix dwave.embedding import behaviour
+a342b59b1973faee92a528db7f13e2585d169a77|2018-10-11|Alexander Condello|Remove nondeterministic embedding tests
+afa8303fb1b6290c2f9eea6232207b7cad7629b5|2018-10-11|Alexander Condello|Update documentation to only refer to embedding interface
+d763e96ef06badf6a8a0903f98c4847ea5a67a4f|2018-10-11|Alexander Condello|Add interface functions for biclique and clique
+84ad3fc9be703fccb4228378729754896295cba3|2018-10-11|Melody Wong|Replaced child_sampler with self.child
+ed969de31031f39b1741a1bf80afd872a94f3047|2018-10-11|Alexander Condello|Move chimera-embedding source code under polynomialembeddor.py
+665f42f3f63bdbcdbc2e1e102c581ffb6113f1a3|2018-10-10|Melody Wong|Set to old version of super
+f0b336023a41f675114e1fa73586016a8a029cdc|2018-10-10|Melody Wong|Added super from future
+e9fe51e68e53b966e49e29a66b5d34f6da4b28ed|2018-10-10|Alexander Condello|Fix unittests in python3
+754bea454b2365bbc2b65d6c77ecb1a22cff4d97|2018-10-10|Alexander Condello|Add python3 compatibility
+8490c73827ae93fa170579627355ba269b5ac40c|2018-10-10|Melody Wong|Removed dwavebinarycsp import
+0ce23f112c18c6f00510f0dab156b4b342d286f5|2018-10-10|Melody Wong|Removed dwavebinarycsp from unit tests
+6f108de2a46259de92888027e16a6d4b64957af0|2018-10-10|Melody|Merge pull request #1 from m3ller/ADTT-392/lazy-embedding-composite-v2
+d3df25228a2c307002d20324291636674b0126ea|2018-10-10|Alexander Condello|Remove old chimera-embedding boilerplate
+7c8fe2aff40e35e938d67c1dc076486e72900c62|2018-10-10|Alexander Condello|Add chimera-embedding docs
+4a4c44b54aa22155ccaba0778461ba52d07443b2|2018-10-10|Melody Wong|Removed comment
+2982a0162bd8bc9dc71c39fa5669d4b5983801c5|2018-10-10|Melody Wong|Checked response
+d47e3fcf368a90add9856afff5477e8a42c468c9|2018-10-10|Melody Wong|Added sparse QUBO test
+9d927ef77a987ed4ed4e76e0e76ed28dfea89da6|2018-10-10|Melody Wong|Added tests to make sure ising and qubo embeddings are formed
+39a7d5810d14f2d62e56b9d2c65dfa62503072e7|2018-10-10|Melody Wong|Seperated instantiation test from same-embedding test
+f98d7949937de1ef5d67295d4b85b2bca76bae74|2018-10-10|Melody Wong|Added a test for LazyEmbeddingComposite instantiation
+db101f197ef97c7013b622b1a9950639eb2bc7ff|2018-10-10|Melody Wong|Add additional comments to the sample function
+6081589cf9cbd84e6e4e348f95ce7a51327c3e9a|2018-10-09|Melody Wong|Added comments
+028c15a7765c9331f6c0f954c28f38f0d37a0eca|2018-10-09|Melody Wong|Cleaned up code
+4b3ae0bf53f141ac030b62d3de35a09c348f38cd|2018-10-09|Melody Wong|Alternative implementing LazyEmbeddingComposite; no longer passing an attribute as an arguement
+4bfd82b80dcd8878f9a228546351b43db2f00a65|2018-10-09|Melody Wong|Added LazyEmbeddingComposite
+d9a3e0fd3ffec5be29ea75f1e076292a073b9da2|2018-10-10|Alexander Condello|Update author credits
+e42079d5e0aba3c6a262daf6b940ce391d82962e|2018-10-10|Alexander Condello|Add unittests for chimera-embedding
+47583d5ad1a1cd06d2245b0e040ece97ae87c6f3|2018-10-10|Alexander Condello|Move chimera-embedding under dwave.embedding namespace
+7b645c8c16e6ff266a7f14d0d9aa133f96c170ee|2018-10-10|Alexander Condello|Merge chimera-embedding into dwave-system
+e7746cb48b5dc878eaadbddd85ffd85de7d02a55|2018-10-10|Alexander Condello|Move chimera-embedding into subdirectory
+637a3c1823d608e24c04ee355ae43b2590388216|2018-10-10|Alexander Condello|Merge pull request #4 from jberwald/lambda-fix
+909d02c049b8771876e0e3b0940614537e0f6216|2018-10-02|Alexander Condello|Merge pull request #110 from JoelPasvolsky/leap
+965fdc980f56ab2a49a6061025216352c692ac6d|2018-10-02|Joel Pasvolsky|Update template (move intro)
+a56f9eea598a0ae856891d695f3fd8a2f15bbc3b|2018-10-02|Joel Pasvolsky|Update template
+5efc000bd4c448bb09ec07615b617cd5e46d1df5|2018-10-01|Alexander Condello|Update version 0.5.2 -> 0.5.3
+9c8c4747451655c35d364c6d9a1ee1f001a0ec09|2018-10-01|Alexander Condello|Merge pull request #108 from arcondello/virtual_graph_initial_state
+06e422c78e5763a80e02e38d91c0fadff25e0a4e|2018-10-01|Alexander Condello|Fix initial_state parameter with VirtualGraphComposite
+71e771855d453416a397fb2b2d2ce0778d5619b9|2018-10-01|Alexander Condello|Merge pull request #103 from arcondello/tests
+5084641efd01d43bf5f65d709038e923dabc3f19|2018-09-28|Alexander Condello|Fix ci tests
+785fd14fba423a70f84cc7c346ba4f3d5e3fd580|2018-09-19|Alexander Condello|Use solver feature selection for tests
+a305de25ca343ab9d412079e443f04a10e088bdc|2018-09-19|Alexander Condello|Add integration tests to appveyor
+54051aab0b424bdf37a81fadbdb77eb8f9169c3d|2018-09-19|Alexander Condello|Remove dwave.conf file and use env variables
+1cb7a4346532f1d496869d40e92ddbb342759108|2018-09-28|Alexander Condello|Merge pull request #107 from arcondello/issue100
+750b52039db6b407698bb782e2230159009315dc|2018-09-28|Alexander Condello|Update the readthedocs badges
+6042c0a47996e07c9e9a49e83e7f2f87c9ce830f|2018-09-27|Jesse Berwald|division bug fixed for py3
+4b678256b10658059334d8e388d546d7cb8ffce3|2018-09-26|Jesse Berwald|remove itertools that cuase Py3 problems. fix a relative import issue in __init__
+bf905f27e3a2ed1e032978b1c68e2241c58f8ca6|2018-09-26|Jesse Berwald|added local-scope function to replace lambda due to py2 vs py3 issues
+fc6089ed04f8bf041baef53bf1b7d7b60e33042f|2018-09-26|arcondello|Propagate chain_break_fraction to sample methods
+ef441cf8e0b9d42fcc389ae5dd46672fb8e89dce|2018-09-26|arcondello|Add chain break statistics to embedding composites
+9056307e51964eaa60e18aa825cbb90b5713cef9|2018-09-19|Alexander Condello|Merge pull request #102 from arcondello/headers
+53620347f6b809dfab6d946a181ff57ad6605470|2018-09-19|Alexander Condello|Add apache license headers
+75360c7d310e19219b83fb92f41d72bef0e0e3e4|2018-09-18|Alexander Condello|Update version 0.5.1 -> 0.5.2
+9a0bf75356fb3945d692a593d7351b121a3f624c|2018-09-18|Alexander Condello|Merge pull request #99 from randomir/feature-based-solver-selection
+274762d3e49e1ad562cc937e43dad0d055dfc1fe|2018-09-17|Radomir Stevanovic|Add feature-based solver select to DWaveSampler
+6174e68a8c3399a027eef0558ddc35e04a2bfe44|2018-09-17|Alexander Condello|Merge pull request #98 from JoelPasvolsky/links
+5f73afb58e340f557ff9a6b54ac632b76f34e737|2018-09-17|Joel Pasvolsky|Fix some build errors
+e5a99eaac6a60131e252cc6c46890522cd4f725f|2018-09-17|Joel Pasvolsky|Use intersphinx instead of explicit links
+1800782a0f2c34212f1fcdc0888d1f95c521ee86|2018-09-17|Joel Pasvolsky|Add draw_tiling function
+c3a7597de110aaf624ad7237ae0253eee080d0c5|2018-09-06|Alexander Condello|Update version 0.5.0 -> 0.5.1
+58b29511d2361e39030f7682f354d83c4fa2a6d8|2018-09-06|Alexander Condello|Merge pull request #96 from arcondello/anneal_schedule
+bae8cbf336565b6e3c90b28ba1c5d4523d7e96e3|2018-09-06|Alexander Condello|Fix anneal schedule tests for python2.7
+09f16a4f4214972816e881328f418161f21b9fac|2018-09-06|Alexander Condello|Skip initial_state tests for no QPU access
+f6c9042adca62999dd732d30cf6cfabc5e9436fc|2018-08-31|Alexander Condello|Add validate_anneal_schedule_parameter
+5e59a66759f2e394aab536e4aa911a130e82e334|2018-08-28|Alexander Condello|Intercept initial_state kwarg for embedding composites
+ab08451a021e212c9638cb9c4f313f9ab83e8a84|2018-08-15|Alexander Condello|Update issue templates
+1e89585239f0b8bb4dfa5de3f384b6e3e6607d78|2018-08-13|Alexander Condello|Update version 0.4.0 -> 0.5.0
+0d224f8d64ab4dddf986b9056e8760604c0373e4|2018-08-13|Alexander Condello|Merge pull request #94 from arcondello/dimod0.7.x
+dc14350a8bd741c265e683cf6cb11f596466e822|2018-08-13|Alexander Condello|Use dimod 0.7.x
+0ee6a631bd54b94b08f8f1c264d6a08c210a9ad5|2018-08-08|Alexander Condello|Merge pull request #93 from arcondello/circlecodecov
+6ecc7e886d1a150a054c174594af849c7f5b6063|2018-08-08|Alexander Condello|Use more recent version of minorminer
+5808bfbfec5f1b56e14cdcca202ceacd44de0cfd|2018-08-08|Alexander Condello|Refactor circleci for speed and use codecov
+a8a233b68ee45ba4cbaba837cf85f8f904409dce|2018-08-08|Alexander Condello|Merge pull request #92 from arcondello/appveyor
+aae6632dc3e0bfc04f861362b72a918d963e214e|2018-08-08|Alexander Condello|Add appveyor badge
+fc263c3bfbe04bb6ec5d908e80a8979e8a62c87e|2018-08-08|Alexander Condello|Add .appveyor.yml
+feba9e06c4e8861271a0cb932b2d4e96fa1d0bf6|2018-07-19|Radomir Stevanovic|Merge pull request #90 from randomir/master
+9970a0c002eff571e48e288fb72f42416f98894c|2018-07-18|Radomir Stevanovic|Clarify install instructions for dwave-drivers in readme
+b60c31783cd7167e4d1b6f5075e851ffac4c04de|2018-06-28|Alexander Condello|Add long_description to setup.py
+8dc75e2097ab89d308ae8cbdf2ab3cfbaeaf2d71|2018-06-28|Alexander Condello|Update README to reflect dwave-drivers change
+841a9b8cb60640f2f0947378a3b6d6d5162c30c3|2018-06-28|Alexander Condello|Merge pull request #84 from arcondello/build_fix
+bdbc1875f34bc765dd5b8c805096e02964df146a|2018-06-28|Alexander Condello|Build sdist as part of CI tests
+7e08ed86f52f305df9b18e8ee804be60ecc9c44b|2018-06-28|Alexander Condello|Fix package list in setup.py
+6445f015da64a20ea31e807c350a762318d5bcf2|2018-06-28|Alexander Condello|Fix package_info path in setup.py
+6156628a90a22e19eb47008a33b9d02c97053dcb|2018-06-28|Alexander Condello|Merge pull request #82 from JoelPasvolsky/link_fix
+e9058c16676e35015df8a46938c5175024024717|2018-06-28|Alexander Condello|Update version to 0.4.0
+40742928b1704fbb4c48a14fd0626a75402c2120|2018-06-22|Joel Pasvolsky|Closes Issue #81 and broken link to Ocean Overview
+85c9cf331be9f9b6cf180d7196873dd10e92e125|2018-06-07|Alexander Condello|Merge pull request #80 from arcondello/virtual_graph_drivers
+01ab699503e324406c98ac645d5c12671f114ade|2018-06-07|Alexander Condello|Fix python2 utf-8 encoding issue
+6ba83f7de14a606f31104555578e80fe0e01cb4a|2018-06-07|Alexander Condello|Fix some docstrings
+80f2882017f173d5659ab516a55f95cf8b1e9849|2018-06-07|Alexander Condello|Remove old embedding caching
+fba5a044a2e1ac26a98f5476577ab3051d4bac86|2018-06-07|Alexander Condello|Refactor VirtualGraphComposite
+018e476b0e8ba65049b396835cf67084b0f2acb5|2018-06-07|Alexander Condello|Make embedding a public property of FixedEmbeddingComposite
+bd97f376b4bbdddf256ec94fdb03cd107ed357e1|2018-06-06|Alexander Condello|Pull system and composites into dwave.system namespace
+23f5d9d76672b84168370663cd7ffce6f1bf0def|2018-06-06|Alexander Condello|Fix database test
+af7328dbf98cfa96b538bbf3a43646fbe870dda0|2018-06-06|Alexander Condello|Restructure tests
+fffc80783bc8e469eeb048573d35a0a8b23b1355|2018-06-06|Alexander Condello|Refactor dwave.system.flux_bias_offsets
+2d67a00fd7f640662b0d7101d3db032a2fda4444|2018-06-06|Alexander Condello|Occupy dwave.system namespace
+fb4bcfb028c7075316c4f18739a704a810b4ade6|2018-06-06|Alexander Condello|Install dwave-drivers rather than dwave-system-tuning
+6bcf7fac6d29a311ac57e4b70b57146a9cae4f29|2018-06-06|Alexander Condello|Fix integration tests
+f6c81c99d0f6e870f2a6d40c4db64520757d04bb|2018-06-06|Alexander Condello|Merge pull request #78 from arcondello/keyerror_FixedEmbeddingComposite
+ad3ebcb4cf4cf7667cb089529ecb9470faf9872c|2018-05-31|Alexander Condello|Update to dimod 0.6.10
+db8017eec7057b675c13ac6f59b6d80f976e7447|2018-06-02|Alexander Condello|Merge pull request #79 from randomir/master
+af1e7d94263ffdf7a97eea87916c220b3abfbe36|2018-05-31|Radomir Stevanovic|Use latest and greatest Client
+ba16678da1128bcae26cd9ab3450004752a25de7|2018-05-18|Alexander Condello|Update version 0.3.1 -> 0.3.2
+69ffc3780461833ba7422c684d8ac759fd75fe9f|2018-05-18|Alexander Condello|Merge pull request #74 from jking-ca/master
+9ea8f1966189432efb86f98cb16a03fcb758b1bb|2018-05-18|jking|Fixed error happening when flux biases are an empty list.
+469945800e5170187d554a59b53fe0a28cc50348|2018-05-18|jking|Warning if dwave-system-tuning package not found.
+d91e3a6188e968d564ac3fd2c53df4938743904e|2018-05-18|jking|Passing chain strength properly to get_flux_biases.
+f7e0fdb3ad2a2f72f2a80ff783947b2fb517b084|2018-05-18|Alexander Condello|Merge pull request #70 from bellert/contributing
+14e24e4eaf53a3fe95a382c3645735b58256911b|2018-05-14|Bradley Ellert|Fix link to main contributing page
+f006b9756718c99d1b146202d0b7ec345f8d8298|2018-05-10|Alexander Condello|Update version 0.3.0 -> 0.3.1
+8e80c39c0e725f6a6df66988eeb5e41375bddc6f|2018-05-10|Alexander Condello|Merge pull request #69 from arcondello/apply_embedding_composite
+a13de8a68da58b2e690e068e81b02a846fd9424c|2018-05-10|Oren|highlight change in install step (#68)
+39de30c7b22e544e74a59fdfdfbb2ac410ea4bf4|2018-05-10|Alexander Condello|Add FixedEmbeddingComposite
+7c60ca5f1b5ae57b263361c5ab29cc7593ecbb53|2018-05-10|Alexander Condello|Update version 0.2.7 -> 0.3.0
+dcf71ff1f6a6e6574b47e7996455b9d18c4352f8|2018-05-10|Alexander Condello|Merge pull request #66 from arcondello/remove_extra_index_url_requirement
+128a8d95d3d9c8444dfba2cd52a0e2f1b1925239|2018-05-10|Alexander Condello|Install dwave-system-tuning as an extra rather than by default
+681d7eaa21109dd2351319a26e3b1afc4f08787d|2018-05-07|Alexander Condello|Merge pull request #65 from arcondello/chain_strength
+5215946864bd886c95b3473564c539ec9c321d56|2018-05-07|Alexander Condello|Add missing import to integration tests
+cfefd9c4f55a145577438e75e312dc663b977a5a|2018-05-07|Alexander Condello|Update version 0.2.6 -> 0.2.7
+cb20af0f0c69839668d942abd5b70bbca36e86a9|2018-05-07|Alexander Condello|Add chain_strength parameter to embedding composite
+2b38b2707d3c74a6990ba4018fbbc9d1a347ff2b|2018-05-07|Alexander Condello|Merge pull request #64 from arcondello/deploy-fix
+c617daf2792a6aa9ee393ab9053ee80b766349e4|2018-05-07|Alexander Condello|Put twine in env
+b7e8e74aeaa4a9286b21c197fb6d624888c8abc3|2018-05-07|Alexander Condello|Add twine install
+64579989e70ab70780e529ccb02dd4c6e3d33541|2018-05-07|Alexander Condello|Another bash fix
+8ca95af6f378b8eb992c32f09dfa794b0adf164c|2018-05-07|Alexander Condello|Fix version check syntax
+cad86472774330a4aa8d6f3145c62fdce3f09f26|2018-05-07|Alexander Condello|Add .dev builds
+0df0ba670c36f50f0237f3dd0a682530cb66c4c7|2018-05-07|Alexander Condello|Decouple deploy:
+f46695701565dc7880b0c60ec1e9ab8ceb3985bd|2018-05-07|Alexander Condello|Add deploy
+38dc365af3cd82f481deb2348c20c7adc346d111|2018-05-07|Alexander Condello|Back to basics
+019c9ca8e8622379ae149728e05bdce77bc4f26e|2018-05-04|Alexander Condello|Fix deploy
+3d782ec122382820abb44703fb11285caf673153|2018-05-04|Alexander Condello|Update version 0.2.5 -> 0.2.6
+ead9ff3fecd661f53c0b823a5a23da1f2b55d984|2018-05-04|Alexander Condello|Merge pull request #63 from arcondello/deploy_fix
+7392cf9685bf7c39717249ca21a5003a7684e5e7|2018-05-04|Alexander Condello|Fix bug in CI deploy
+a846bbffc71202c7011b133b97fd24a7bdbcea17|2018-05-04|Alexander Condello|Merge pull request #62 from arcondello/circle-ci
+629884bc125374a6aa7cd0500d7ffbd828b8f698|2018-05-04|Alexander Condello|Add version check to deploy
+711a1b1cdb6ebe46cc5d89b4513a737e0b821df3|2018-05-04|Alexander Condello|Fix docstring
+1c69a2b2c9a5dd4c45811d715a99303d10594d8e|2018-05-04|Alexander Condello|Export config file location for doctests
+826a81edfb7746f38bc8a1e446e4a77002551b69|2018-05-04|Alexander Condello|Add clean to docs Makefile
+fc95a95521d4a21d7353fd074ef264123d499d1b|2018-05-04|Alexander Condello|Update to use dwave-cloud-client 0.4.x
+d0981509c7c5c7975532eb4ef09badcc77b70a64|2018-05-04|Alexander Condello|Quiet sphinx builds
+74dbaa71bfddc5edd838c8d9d3c648c3cdb9a8fc|2018-05-04|Alexander Condello|Update README badges
+d13f4ad67d34b1bb41d8d9a58d6ea7ced588ecc5|2018-05-04|Alexander Condello|Remove some integration tests
+6c71c82a0afe523cabac8f85aa2df55735d0014f|2018-05-04|Alexander Condello|Consolidate requirements.txt
+b268d813562e5f41a5d8b3eb5fdcd0eef911e19e|2018-05-04|Alexander Condello|Add dwave.conf
+1017462879d73dece11115fcfe024a66c77a3bf1|2018-05-04|Alexander Condello|Add .circleci/config.yml
+54b46fa1c75e395a84e32fac8416ae45c12a0069|2018-05-04|Alexander Condello|Remove .travis.yml
+2aae920ceabc60923f050bebea662ede17e0e09e|2018-05-04|Alexander Condello|Add --extra-index-url to requirements.txt header
+f14ae1eff95697fa8ff88e84fefe123f00ef3bf8|2018-05-04|Alexander Condello|Add additional integration tests
+77945b820625e46e6fca86eaa906c34905b8fcf9|2018-05-04|Alexander Condello|Merge pull request #61 from bellert/handle-singletons-EmbeddingComposite
+ce32d1c8ed9895dad8a1716c383ee864e1541df0|2018-05-04|Bradley Ellert|Fix for Python 3 compatibility
+b32e987449c82a3de9db8ee5daffdeafaf4b16f8|2018-05-04|Bradley Ellert|Add test case
+c87fcbff52606c8b7ab23f7114de9f4d966409a6|2018-05-04|Bradley Ellert|Don't use `to_qubo()`
+3a969af73df12ed45d1e84ac5de867214738d8ec|2018-05-03|Bradley Ellert|Send qubo representation to minorminer
+8e49901eb76dbb9d1751410433aca0230388f67f|2018-05-03|Bradley Ellert|Remove check for list type
+4759c7b15df4cb8e2d2b9f464cee110d027be397|2018-04-23|Alexander Condello|Merge pull request #58 from JoelPasvolsky/master
+0f185039366a2059600121814d1a673667330730|2018-04-16|Alexander Condello|Update version 0.2.4 -> 0.2.5
+2ff7db9fc3b826df3fea021f1e68b41657b5f1d0|2018-04-16|Alexander Condello|Merge pull request #57 from arcondello/dimod_0.6.5
+4720e60ceaed490977cc21722bfe4d133ef35f60|2018-04-13|Joel Pasvolsky|Fix ising --> qubo method
+55e37d6dc8f36e27f64383eb01a6b317e1cfbf96|2018-04-09|Alexander Condello|Use dimod>=0.6.7
+b95bf73d3132330bbaade068d443b2b31892c480|2018-04-05|Alexander Condello|Merge pull request #56 from JoelPasvolsky/virtualgraph
+ab5296028e4d59c7bc050a9478121a99025f0689|2018-04-05|Joel Pasvolsky|Update method
+27ee7fb033ad6834d7381a1d28358beb0a98c278|2018-04-04|Joel Pasvolsky|Update properties
+2e657738e038c80edf2befe3cffed2d7356fc941|2018-04-04|Joel Pasvolsky|Update package and class
+c21f618096e750857c6c2bd92b714f575e21a554|2018-04-04|Alexander Condello|Merge pull request #50 from JoelPasvolsky/compositesTiling
+520c41e70c72424d39a29cc8aa676710c2160ded|2018-04-03|Joel Pasvolsky|Add sample_ising example using updated version 0.2.4
+c342063eda9ab869901f627b03ed395a7d1d5be1|2018-04-03|Joel Pasvolsky|Fix spacing problem
+23fc3bde39ae8d8eee72c58199f5cd3ba8fd7d2b|2018-04-03|Joel Pasvolsky|Remove \xe2 occurences
+7a6072f2d4d25c4935415237190f66596b69cf17|2018-04-03|Joel Pasvolsky|Update tiling
+083e079c2f83e780f3279a321c4e72083bc1a706|2018-04-03|Alexander Condello|Update version 0.2.3 -> 0.2.4
+4959e167aab28dc12d12a127281a71246e862199|2018-04-03|Alexander Condello|Merge pull request #49 from arcondello/bugs-#47,#48
+674fc720301a8418a11c87d89f13a3a2f2b7604e|2018-04-03|Alexander Condello|Fix bug where TilingComposite was returning too many variables
+f6e95f278bfe99490da581d762419ece2dd8b362|2018-04-03|Alexander Condello|Merge pull request #46 from JoelPasvolsky/overview
+15274ef638f15fd969054062df0623e9e0dbe0dc|2018-04-03|Joel Pasvolsky|Update links
+051214449bf4d6ebb306c3e0c6b263f205b44e31|2018-04-03|Joel Pasvolsky|Add Intro
+8731624ef7b8365ccca17204db18779f125609a3|2018-04-02|Alexander Condello|Merge pull request #45 from randomir/travis_python3.4_fix
+490c899ea83e56a83b175afaab9a2ca9843ff736|2018-04-02|Alexander Condello|Merge pull request #44 from JoelPasvolsky/master
+f8b6206ecc170eaf691d90ec64bd7e3f78fd3f0a|2018-04-02|Alexander Condello|Merge pull request #39 from randomir/python_2.7.5
+ed4c912b0441bfcf31a992d349c93cdf064789df|2018-04-02|Radomir Stevanovic|Fix Travis build for python 3.4
+215853456c8ee6dacfe8b199eeb58582729ee596|2018-04-02|Joel Pasvolsky|Fix rebase mess
+4b8b91d232d4916e0062c50fc3e78d8da4355f39|2018-03-23|Radomir Stevanovic|Run tests on Travis with Python 2.7.5 only
+24dd372d3aa422a399afb3d42a89f0bdae0766d7|2018-04-02|Alexander Condello|Merge pull request #42 from JoelPasvolsky/samplers
+cf5233279e785a5ab2f8fbf47ad3edd8e8349227|2018-04-02|Alexander Condello|Merge pull request #43 from JoelPasvolsky/compositesEmbedding
+82fe8c9e34dc8f6f5c87ef37bb08d0a9d1d3611e|2018-04-02|Joel Pasvolsky|Skip doctest for sampler responses
+db87422775dce9db7a4a1d5df852178f152c9841|2018-04-02|Joel Pasvolsky|Fixed link and edited
+0a6f92c2437b4fd0c57c8ef29d8b1507100ed34f|2018-03-29|Joel Pasvolsky|Fix link
+b419fed1311d1e9934cba49c3ea0f589a29d2339|2018-03-29|Joel Pasvolsky|Remove '\xe2'
+40a95f4fe5d8249e11eb443d2dbb454908d8ad7e|2018-03-29|Joel Pasvolsky|Update sampler
+bf2e8fa21090a792b00bfb435c91ef9b52175ccc|2018-04-02|Alexander Condello|Merge pull request #41 from JoelPasvolsky/overview
+4c05c4a7844fbad31972f687488abf6db2955005|2018-04-02|Joel Pasvolsky|Remove empty line in example
+475b10930962b65a6564e563e1a97b0e42b3d082|2018-04-02|Joel Pasvolsky|Update embedding
+aa0eeffe3dc860794bbc2b85d763de34e2061d6c|2018-03-28|Joel Pasvolsky|Update overview content 2
+61421352cf1701eec2e092e4c212e0f0521ec6d6|2018-03-28|Joel Pasvolsky|Update overview content
+d25a8fc12a3eb76155f5309b7eac7e4103fd671c|2018-03-22|Alexander Condello|Merge pull request #37 from arcondello/bugfix_#36
+b60d44d2d332ebe20bbcf271340ed2f5aceaa258|2018-03-22|Alexander Condello|Add unittest and integration test for DWaveSampler
+5bf5b4361bfd0a942e62f2dd073edd68c0156135|2018-03-22|Alexander Condello|Update version 0.2.2 -> 0.2.3
+e16345ce35de53985cd631fcaf08fe3d9dee2b59|2018-03-22|Alexander Condello|Fix bug where DWaveSampler was not correctly setting Response type
+27cbfa33fc06d2ea029e25b15c515232f992600c|2018-03-20|Alexander Condello|Merge pull request #34 from arcondello/permissive_ssl
+6151d86d0d7fa4c58b7e44a10f9bc0918d7c1f6c|2018-03-20|Alexander Condello|Update version 0.2.1 -> 0.2.2
+68c61c5b7a7e49b6585bd023dc498392ab6a1c69|2018-03-20|Alexander Condello|Add permissive_ssl flag to DWaveSampler
+687024f17b202d586d7f9007c75a5a0601137c97|2018-03-16|Alexander Condello|Merge pull request #33 from randomir/master
+a1df25322a9a88dd940578d68419a93f14f4030c|2018-03-15|Radomir Stevanovic|Travis build fix, another issue
+30e033465cf7fbbd5ef7a8bf48e3b85440d9e906|2018-03-15|Radomir Stevanovic|Fix Travis build for Python3 on OSX
+45ef1564930d53d8f4f5268b20e07d7a20b7cdfc|2018-03-15|Alexander Condello|Update version 0.2.0 -> 0.2.1
+2542719757c85d6fd8c9b236c9307c496af67235|2018-03-15|Alexander Condello|Merge pull request #32 from arcondello/master
+f0d9254d3414a49f95890e844a09ed081ffc1e2f|2018-03-13|Alexander Condello|DWaveSampler's Response now includes timing and num_occurences if present
+fa386e7519cfcb40f68a7b708160c11a4c118ee6|2018-03-08|Alexander Condello|Add deploy password to .travis.yml
+fb068e5d96f692c392d35a92887c4f1348e2d04f|2018-03-08|Alexander Condello|Update version 0.1.0 -> 0.2.0
+72b1696a9643b2d8fd80f404854840158a46bea1|2018-03-08|Alexander Condello|Merge pull request #31 from arcondello/cloud_client_0.3.1
+1c6be1a1420ebcfbdcc5b91633d546091fe8648d|2018-03-08|Alexander Condello|Migrate to dwave-cloud-client 0.3.1
+62cbf4d411952e1075a86a8db1c9ffa4b6fd3ec0|2018-03-08|Alexander Condello|Remove system-tuning from doc requirements
+0c34844d87867a1fad1eabd4f0b69cdfcf803fd4|2018-03-05|Alexander Condello|Add .travis.yml file
+8aa762a553002da3421c9bd5a87c93746ad06bf1|2018-03-08|Alexander Condello|Add .coveragerc
+049f11550d2f5e4f2e5b7564dd844b9bf4fb4309|2018-03-08|Alexander Condello|Merge pull request #28 from arcondello/faster_virtualgraph_tests
+9a15568b3bbf5d4a7e1f6a855f25d8dfc956244d|2018-03-08|Alexander Condello|Change virtual graph unittests to run faster
+9183391a801d5898407b1331bae768ad831433fa|2018-03-08|Alexander Condello|Update tests to reflect dimod 0.6.0
+b5f9c57f30d00792a0505f95c94a4e3a34874d96|2018-03-08|Alexander Condello|Update requirements to use released dimod and system-tuning
+61405f8c2cf7ef99b01dda01410004462c512026|2018-03-08|Alexander Condello|Merge pull request #26 from bellert/requirements
+3c11a34bbb9fd3db845faf737ae85dcbec8adf5d|2018-03-08|Bradley Ellert|Minor docs fix
+7cfe163b239b09dc1a608515f41d3c32d6b35110|2018-03-06|Bradley Ellert|Add test requirements
+dad4147671d374096bbcac7e2c668e7dcb43e266|2018-03-08|Alexander Condello|Remove erroneous install instruction
+ceabdabf27100d62f6695a3c5aa93ad7903d0391|2018-03-07|Alexander Condello|Merge pull request #25 from arcondello/docs_refactor_1
+cad6403e2604431436c34c01affe9e54ebffe767|2018-03-07|Alexander Condello|Incorporate documentation review
+4a1571a0ecd206b1e9b0de2da0ba6a06b36f24f8|2018-03-07|Alexander Condello|Add generated docs to gitignore
+477fcd38ead53378f35d73a1dedbfa6a6fd38713|2018-03-06|Alexander Condello|Merge pull request #23 from arcondello/docs
+603bb8a0f1a377e6747436f9787f943f308a7fa7|2018-03-06|Alexander Condello|Update README.rst
+2672b1eb2c93873abbe1eda88524a1abe27f3350|2018-03-06|Alexander Condello|Add documentation for composites
+09298b9e552a7395957d0265e299d577d350ea67|2018-03-06|Alexander Condello|Merge pull request #22 from arcondello/docs
+41371d224e3dfe3d429553f2f10fdcd772da3b84|2018-03-06|Alexander Condello|Document DWaveSampler
+9b278a6ea43363ea3cd07754f83081be75d67cff|2018-03-06|Alexander Condello|Get docs building
+b4016a9182c59a88fc248ab86b58836f3d934185|2018-03-06|Alexander Condello|Add template README.rst
+d08a5004984d6d18794f37a8efcc2d18ffdafa8a|2018-03-06|Alexander Condello|Overwrite PROJECTNAME in conf.py
+9716d0503cd9b439d878901a2a0ef79ed61ca656|2018-03-06|Alexander Condello|Add template for documentation
+76ca24770e0b51675716841ed68352ee460b02fd|2018-03-06|Alexander Condello|Remove erroneous print
+8003236987bb88fa64703c6529642f7592e249e8|2018-03-06|Alexander Condello|Merge pull request #21 from arcondello/not_full_yield_bug
+9dcddbaf0d52a37dd2c39c9bb1ef2891e98db582|2018-03-06|Alexander Condello|Correctly track variables from J
+1261a2613d981d6a4649f4adbfb681aa56baa9c8|2018-03-06|Alexander Condello|DWaveSampler now removed redundent edges
+4ee3b86c65803d7a0e689560a5d320b9717dac01|2018-03-06|Alexander Condello|Update setup to make tuning a dependency
+181f1293755f8efa7d5c27d6ad78179a4ed64ac0|2018-03-06|Alexander Condello|Merge pull request #20 from arcondello/VirtualGraphComposite
+9f96f7d766ce967651af1f6f9e79eaababc6bc24|2018-03-06|Alexander Condello|Change VirtualGraph to VirtualGraphComposite
+89dc358ec2672bdb7bf11d16709f14812cebd60f|2018-03-06|Alexander Condello|Merge pull request #19 from arcondello/submodule_namespace
+c32e9bb08e4d095ecdfd82d74fabdef4229e0409|2018-03-06|Alexander Condello|Make submodule package_info.py a subpackage
+5827e180c2e5aa16bf8845e67acd8e7bb4207617|2018-03-06|Alexander Condello|Make submodule flux_bias_offsets.py a subpackage
+3f9c58fb99b5507d1ac84ef12e026003020c1259|2018-03-06|Alexander Condello|Make submodule exceptions.py a subpackage
+19734928af0ddf2e2370917470e516895dfcdf1c|2018-03-06|Alexander Condello|Make submodule embedding.py a subpackage
+5c3719cc5d14eb3fd5b79fe91bc994d3bb93c4a6|2018-03-05|Alexander Condello|Update for dwave_system_tuning update
+51d6947a0702626752bc8d67031f5a9a853f15e6|2018-03-05|Alexander Condello|Make system-tuning optional
+22d24cc30e43f0441b8920058cdb71eb250a3c29|2018-03-05|Alexander Condello|Add all of the requirements to setup.py
+86752394f95125462917eb23553eadcea3c53df1|2018-03-05|Alexander Condello|Remove erroneous Structure import
+1bdb22618eac85c99e3b1682df37d1ff6a5105ad|2018-03-05|Alexander Condello|Merge pull request #14 from arcondello/dimod_0.6.0
+57450fb95572c461fc6287471973920fcddd09b1|2018-03-05|Alexander Condello|Update DWaveSampler for dimod 0.6.0 and cloud client
+2b30e59c67e73b34ae7bac88d6fa5bb6772a4381|2018-03-05|Alexander Condello|Convert to use six
+f324dc6b50bbe815ba3b10c350f74258cfebb70e|2018-03-05|Alexander Condello|Clear system/__init__.py for namespace package
+e8a3550a0a0cf0dd324d6619eb8e67d1f908fea6|2018-03-01|Alexander Condello|Update EmbeddingComposite for dimod 0.6.0
+8afcdaf71eace8ef8ebe42b2346389bc7e124fef|2018-03-01|Alexander Condello|Remove integration tests
+940ee4088bf8390d9db1f1f4869689fa51bcc4f3|2018-03-01|Alexander Condello|Update VirtualGraphComposite for dimod 0.6.0
+0945c0720cbfe4fb7382d14eef9230460cb0e061|2018-02-28|Alexander Condello|Update Tiling for dimod 0.6.0
+655e06167b3250e07ee2700bfd7354d1dde05d9f|2018-02-28|Alexander Condello|Update mock_sampler for dimod 0.6.0
+da6965dbe4959c39ee1b5c02a7ebedeaafb1b3c7|2018-02-28|Alexander Condello|Move tests that use the system into a separate directory
+5c84622e092a9a84b3d346eb52d84d8964bb927e|2018-02-28|Alexander Condello|Update dimod version in requirements and setup
+5dd4339c6792840b4f1a763320f7d3dd17d8ca4a|2018-02-28|Alexander Condello|Merge pull request #12 from orenshk/feature/add-setup
+db3963e64bb57a774d752804e9882ac337ed39bb|2018-02-27|Oren Shklarsky|add setup files
+621ed918d6c6e3f02ac771a33dc3720b5ad671be|2018-02-27|Alexander Condello|Merge pull request #11 from bellert/master
+b085cea7d8cad28b2270793f9c5f076159c8df9c|2018-02-26|Bradley Ellert|Add contrib and license files
+18d0c0b1309277b28edb354e7cddf2947f7abec2|2018-02-22|Alexander Condello|Merge pull request #5 from arcondello/migration
+5d306c0c35cf7ac9d3f8c06fbf50fab355d1c259|2018-02-22|Alexander Condello|Move dwave_virtual_graph contents in dwave.system
+1dca71b0d848c6a22830571c6b1c91e511da691f|2018-02-22|Alexander Condello|Move dwave_micro_client_dimod contents into dwave.system
+8e1b5cbdb36d549076929d1b6478f37727b60594|2018-02-22|Alexander Condello|Add boilerplate files to dwave.system
+d7c3341ce576e3c6a15dfc8bf06ebc3092a2dbde|2018-02-22|Alexander Condello|Add empty namespace package
+a02937d2425de8ba3b011f07081d3dd6ccc4a368|2018-02-22|Alexander Condello|Update requirements so that all tests correctly work
+08a6f8295af6cdcca5d0ae5c80e5f96da0be5311|2018-02-22|Alexander Condello|Merge test folders
+228d538fdc9ced9c070949f715391ff8495e54d8|2018-02-22|Alexander Condello|Remove old boilerplate
+dcd839777d87f030f927cd8ae831ec5caf5c32c4|2018-02-22|Alexander Condello|Update .gitignore for sublime support
+e04607069cb6a637df6805671fc2ad5aedfd8d0d|2018-02-22|Alexander Condello|Merge remote-tracking branch 'virtual_graph/master'
+beb589012b6436bbbd58b68063f29cf4b099845f|2018-02-22|Alexander Condello|Move old micro_client_stuff into subdirectories
+c00703c9ad104ac09553a1ecc8e3e609b537c96a|2018-02-22|Alexander Condello|Merge in micro_client_dimod
+e999cc1fb0920fff041ba61e370a5e6e5adbb270|2018-02-19|Alexander Condello|Initial commit
+2454abd6f0c3e4d54e56e04f32d64693d4cf798f|2018-02-16|Alexander Condello|Merge pull request #17 from frechette-alex/master
+c6d437b7b435346aa4574e384548712f3ee4e1e1|2018-02-15|afrechette|- Preserve ordering when un-embedding samples.
+13dd51cf966bbb94ba89a486c7a465e357e8791c|2018-02-14|afrechette|- Change `change_break_method` so it does not require any additional arguments (unifying its API). - Change `minimize_energy` to be an object, now providing its additional neccessary state (i.e. linear and quadratic coefficients) on construction instead of additional kwargs. (Satisfying `change_break_method`'s new unified API). - Added pycharm's folder to gitignore.
+9fe2c12917c7edea2d55308cfee4f2c7066b69cc|2018-02-13|Alexander Condello|Update required version of dwave_micro_client
+38629d04e0e33a3a2c69ff5c85938aed49356ce1|2018-02-13|Alexander Condello|Merge pull request #16 from dwavesystems/initial_state_kwarg_bugfix
+329931ed056018da13d2eccd638f68a381155c71|2018-02-13|Alexander Condello|Fix typo where initial_state_kwargs was not correct iterated over
+228573e71bbfbd9220af0e4edd242b3197437779|2018-02-10|Oren|Merge pull request #15 from jking-ca/master
+b579104869c071c0d2f23b72441abb4ae3fe60a1|2018-02-09|Jamie King|Fixed flux_biases kwarg name and converted flux_biases format.
+f642bec380cae6dc320362249b598d38bfb2651c|2018-02-09|Alexander Condello|Add dimod.Sampler inheritence
+85e10cb3335311955ddcb4eae02ca222713b23e0|2018-02-09|Alexander Condello|Merge pull request #12 from dwavesystems/1.0.0
+b2bae3db5eb2f4a7395bf6a1c7060f6acaafaa2d|2018-02-07|Alexander Condello|Update for dimod 1.0.0.dev5
+309e5b788e95a0718997b7ac8f81afcc2fb60762|2018-02-09|Alexander Condello|Merge pull request #11 from bellert/patch-1
+fb0f1f2c9e37a2917ea67eb832c95b5ba1f59342|2018-02-09|Jamie King|Merge pull request #1 from dwavesystems/master
+50f3da85cbcc7fd7030c27183400f66301348e7f|2018-02-08|Alexander Condello|Merge pull request #14 from arcondello/dimod_1.0.0.dev4_update
+367a3d4ab95af3d8629b29ef762e5c7d228741f4|2018-02-08|Alexander Condello|Update all of the samplers
+871c3544c3511f79e1d03480aad4adc1b3a7f209|2018-02-08|Bradley Ellert|Need patch in dwave_micro_client 0.2.2
+61a57cb95fed01196c07f7ffc84e82bbe2e20207|2018-02-07|Alexander Condello|Merge pull request #9 from arcondello/batch_tiling
+82685841fc8bb61d1ae5477e6a95c02954bf73e9|2018-02-07|Alexander Condello|Update requirements.txt to be more specific
+b2a570e21548577c0c71ac60532b00f3d107abce|2018-02-07|Alexander Condello|Merge pull request #12 from jking-ca/master
+8c4522342f20e83aeb9de4519de5e5bc9aa1dfec|2018-02-05|jking|Updates to comments.
+a58718ba107d84f6d0950d7f365273ffa9980f19|2018-02-05|Alexander Condello|Merge pull request #11 from orenshk/make-setup-location-independent
+582fbebedfdcf14955be4ec7d6602ab4efdb29a7|2018-02-03|Oren Shklarsky|Make it easy to call python setup.py install from any directory.
+2d25a738be337584043d2508f7f6537d9cb9ba60|2018-02-01|jking|Hacking in unused qubits to avoid a downstream bug.
+e768df7cc16b6be8c54eeea15fc8eb6fbc683095|2018-01-31|jking|Updated kwarg name to flux_bias
+87ba6eacb514218985d417a47658d5a4aa30d40f|2018-01-26|Alexander Condello|Tiling composite exposes num_tiles
+f6f20acc4dd11b8eae5c066ad8a34d88b21f5843|2018-01-21|jking|Added initial state embedding.  Not yet tested.
+277360e5fa4a7fdf66b937374b2af191facddacb|2018-01-19|jking|Added proper handling of chain_strength parameter for VG constructor.
+3b54eace848fc9df8ae5963b79dee0b9629d1d28|2018-01-17|Alexander Condello|Update version 0.2.3 -> 0.3.0
+f6075b0628e2d56c9191f3d0ecab3f64d9cd53e8|2018-01-17|Alexander Condello|Merge pull request #8 from bellert/tiling
+383517a570c7e9388bb93088f474adc58ac5ba0b|2018-01-11|Bradley Ellert|Fix error in Python3 AttributeError: 'range' object has no attribute 'remove'
+ae040363f07c60983738c00908d52b2d447db6f0|2018-01-11|Bradley Ellert|Add error for 0 tiled embeddings Leading question for possibility of incorrect sampler
+da11ed1b918a7dd1523a90da9cbd512b3966812f|2018-01-11|Bradley Ellert|Expand docstring for `TilingComposite`
+72d727ccfe62d4951e6a67ff46a8a1ecb67a3670|2018-01-11|Bradley Ellert|Fix mock test case to use named tuple
+8a1292007f38fdf293c5e70174fb40e0f9a2cf3a|2018-01-10|Bradley Ellert|Update docs
+cb7f4640d2b84135b7700fd33e803dede10acbbb|2018-01-10|Bradley Ellert|Update docs
+2f9c064699f0c883fedce28f4a9de3a99663f2dc|2018-01-10|Bradley Ellert|Add function to draw tiled Chimera
+699bdda2431f37d9f1a6ca34f0b0677baf358ce4|2018-01-10|Bradley Ellert|Use field_names from Stucture namedtuple
+7a8a16351b27fe45c9c195bdd3c670fdbc2e3841|2018-01-10|Bradley Ellert|Add documentation
+47b58f856d83b43a1f85d265415df63f770506ed|2018-01-10|Bradley Ellert|Add dwave_networkx to requirements.txt
+446328b1f30ba91f517ee9792df41b05588c6df6|2018-01-10|Bradley Ellert|First pass at unit tests
+ff87a425ddc6f146b42e89f3a4898b640e7ecac7|2018-01-09|Bradley Ellert|Add default t; clean up comments
+ebe7a6792663775d9354c78ccd83c04e766c47f3|2018-01-09|Bradley Ellert|More cleanup, bugs, and docs
+a356de97c1e8ef4e4c6cc9754ed29fd47f21c249|2018-01-09|Bradley Ellert|Add tiling to init
+3f5b084dfd995b86c61eb20659ef0a0746fde5f1|2018-01-09|Bradley Ellert|Delete old code
+1cbabeb9f95a9c4b36b378df52dbf1fd432477ce|2018-01-09|Bradley Ellert|Cleanup
+217eae6145d04024d5cbb2f6552ceb0918170932|2018-01-08|Bradley Ellert|Start of something that might actually work
+a36ead1fd11ecbc73b9750ab17802d717bb3ead8|2018-01-08|Bradley Ellert|Initial commit
+799a0c0a2a87fb97130952fe7b54dbd0ba873e5d|2018-01-09|Alexander Condello|Update version 0.2.2 -> 0.2.3
+bb64c28ac8dff902dc0b954dbcd8cf7a9b8ba59d|2018-01-09|Alexander Condello|Merge pull request #7 from arcondello/structure_named_tuple
+c1adf2c5da44a0b088fe4ccf21df11c358b0e081|2018-01-09|Alexander Condello|Separate system and mock tests
+03685947188a911dd51ad4ab19ae11d1699fa123|2018-01-09|Alexander Condello|Change structure to a namedtuple
+a1b39048f56eb82ee5af5c0436d96c91b9ebe74c|2018-01-08|Alexander Condello|Update install instructions
+e794204135686666c584448c7fdd7a4cb20d12b0|2018-01-08|Alexander Condello|Fix typo in README
+7289fa9dbfc4bf86546f05bd1a71d374610d9f37|2018-01-08|Alexander Condello|Merge pull request #8 from arcondello/embedding
+a3c21954355bbe1c93ec10974eecd0cacd34cf76|2018-01-08|Alexander Condello|VirtualGraph now can pull from the embedding database
+04c4af7935d1c791b487ef38d1395ee3189c0349|2018-01-08|Alexander Condello|Add cache for embeddings
+30bcb1870f187df44cba267deae49e2853a7d351|2018-01-08|Alexander Condello|Add cache for graphs
+069b3aea9075abcce2fb6d836762342f5f50e9ff|2018-01-08|Alexander Condello|Merge pull request #7 from arcondello/cache
+c9573da211467d4c1fa2384d4edd745f6ee1bb88|2018-01-08|Alexander Condello|Add documentation for VirtualGraph
+dc01c32f18cc09ac40986af23a5ad7c002108d19|2018-01-08|Alexander Condello|Add module-level docstring for schema.py
+05539cea96666e33a0bcbf3a79b47a3fc66c0a46|2018-01-08|Alexander Condello|Update/Add docstrings for database_mananger
+f2129c914037192520efd92418c1e2a960c288d4|2018-01-08|Alexander Condello|Add connection to flux bias cache
+8baae9e750b992a590e1e8ce930ac1022b9e14ca|2018-01-05|Alexander Condello|Update .gitignore
+9351e2a9f12c7e87aeab6bd223f7bab636111111|2018-01-05|Alexander Condello|Remove pynightly build
+073b4c074f4e19e350936b23eba6df45efc330b5|2018-01-05|Alexander Condello|Merge pull request #6 from arcondello/no_cache
+95a9715491dd96dd302d13e57bf145eb46f206e7|2018-01-05|Alexander Condello|VirtualGraph determined flux_biases every time
+6e6e5c0140f55be4e8af7a51b9a137c76c857bee|2018-01-05|Alexander Condello|Fix bug with unicode parameter names
+b0c3aa5b6576ff293d2ba8a204b2b28b99afa626|2018-01-05|Alexander Condello|Remove legacy code
+e35f619350ada42c81572abad0d5687738941ccc|2018-01-04|Alexander Condello|Add subpackages to setup.py
+50e4106300fa5293bf4bbb92d5cf987f2a1888a2|2018-01-04|Alexander Condello|Add compatibility functions
+28ecdb34bf51f617f79c3ee01d61511002d1bc37|2018-01-04|Alexander Condello|Add install infrastructure
+4050d488f3d6ffd0a828d531127a0231527d2b6c|2018-01-02|Alexander Condello|Merge pull request #6 from arcondello/incomplete_solver_bugfix
+d43b676e8c6ac6844e58ad188d65df39fab3b8e0|2018-01-02|Alexander Condello|Update version 0.2.0->0.2.1
+19c2c2f2af62e31094687fc3f68e6bb6bae049b2|2018-01-02|Alexander Condello|Fix bug where broken nodes were included in samples
+a45a3dc15a962b4e1150302f69f1c57914c8753e|2018-01-02|Alexander Condello|Merge pull request #5 from arcondello/response_done_flag
+e3b96bf8439b9876366d8efdfbbac05408daba71|2018-01-02|Alexander Condello|Merge branch 'master' of github.com:dwavesystems/dwave_micro_client_dimod into response_done_flag
+72d34cc5afbe166dc7f4ad07faee2538855e4f9c|2018-01-02|Alexander Condello|Add skiptest
+56f2952a70333c0710bae889a1d8cf97765d2775|2018-01-02|Alexander Condello|Update version 0.1.3 -> 0.2.0
+6be4600c74f9f29d8602fcd24d518385801d1704|2018-01-02|Alexander Condello|Merge pull request #4 from dwavesystems/response_done_flag
+eb9635f4e4debda332dc283bc2226ee996754155|2018-01-02|Alexander Condello|Add done flag to FutureResponse
+4851cacc3d11afbffa7f3d723914ef4271c32578|2018-01-02|Alexander Condello|Update version 0.1.2 -> 0.1.3
+18b8d6612f821c703bbe3e9fd72a424850bafe77|2018-01-02|Alexander Condello|Update dwave_micro_client dependency
+7816487c918396c14845112d0b7fd1c5b22de47c|2018-01-02|Alexander Condello|Merge pull request #4 from arcondello/restructure
+2f4f27b6e3e380ba6d737f52acc238306caa2190|2018-01-02|Alexander Condello|Disable all unittests
+4b996970e5bd7f90fbbdc220319f22049d8dd6f1|2018-01-02|Alexander Condello|Restructure package
+44bc58a1d3e36aae1bd6fbf17d5700929416ef67|2018-01-02|Alexander Condello|Add requirements.txt for now
+b6c3958bd72441b16e9bef508eda5a8c51642285|2018-01-02|Alexander Condello|Merge pull request #3 from arcondello/flux_offsets
+8e84f7d9ea3b695c4560580c4936a41e312e32ba|2017-12-28|Oren Shklarsky|try travis encrypt
+5760e75688a8bd102ab67fcd06de7f23ff2d33fb|2017-12-28|Alexander Condello|Update travis password (again)
+2b4e3472afc2332a6fd2193eeafcddc6bd26a4fd|2017-12-28|Alexander Condello|And secure again
+f05e08d854c883881d8136b1b5409d6d2d3c32fd|2017-12-28|Alexander Condello|New secure password
+09e6f0977fa90021cd68b73682b5459d3d102b41|2017-12-28|Alexander Condello|Add error for no embedding found
+4a49999ff811fa7eeb187a353cd89a9dfedaaadf|2017-12-28|Alexander Condello|Update secure password
+c31ab2e39891f30a0b88d3ddc8312b348f3fccdb|2017-12-28|Alexander Condello|Update requirements for dimod and minorminer
+c064e06729331ac7bff17a75e1ca9dacbd624e43|2017-12-28|Alexander Condello|Update .travis.yml deploy
+33ee8b14454d9f3852c597838241dac2362bd396|2017-12-27|Alexander Condello|Catch IOError in test_composite.py
+cc3dc39e8bd79f80d25361ce09f9b02d1cb3d5e8|2017-12-27|Alexander Condello|Fix typo in .travis.yml
+eab9d68b74e1c3f8c15055b6c0637438015f8d80|2017-12-27|Alexander Condello|Catch configuration errors
+921fba5bae75abace4d3d108e4720e684260998a|2017-12-27|Alexander Condello|Add mock to setup.py
+6258b6a240e1612ec578e6d80ea98566203281d1|2017-12-27|Alexander Condello|Add deploy password to .travis.yml
+a56d82d1113d579e096687e2a8cb0dad47fad1c7|2017-12-27|Alexander Condello|Create setup.cfg
+771778dd05831deaf7595684518e229cf2dacf46|2017-12-27|Alexander Condello|Merge pull request #3 from arcondello/refactor
+0e58d46ad36d0a522f32f4578471b6844f5e3f90|2017-12-27|Alexander Condello|Add .travis.yml
+3000903e590784e4ba5ba2da54191dbeb5d3245f|2017-12-27|Alexander Condello|Add documentation for response
+aeb7bca0a6ac2b578f7731204d3b2885a599c522|2017-12-27|Alexander Condello|Add documentation for composite
+dbbdfa99a8201b296e3eb560997fb1474dbe3426|2017-12-27|Alexander Condello|Add documentation for sampler
+00b45b9354935a52426f2cd82313c793932b88aa|2017-12-27|Alexander Condello|Update README
+653b1b6c4756bf0ada42ee6bfb7f8d1c07c2b163|2017-12-27|Alexander Condello|Add composite
+0bce6237c26a71a1cbbd4a62c453a7167a866f89|2017-12-27|Alexander Condello|Add minorminer and embedding_utilities dependency
+f0c18ac07ad475942869bc00f043f350eebe63c0|2017-12-27|Alexander Condello|Refactor sampler
+50eb5e45f4f5cce338b719027585ecc2e809a9b3|2017-12-27|Alexander Condello|Add coverage to test requirments in setup
+c05a1c4a81160d108a657570b93296ba4e32eb0c|2017-12-27|Alexander Condello|Add source for .coveragerc
+05a527643255e1392019cc9b8878fe1113a9b19a|2017-12-27|Alexander Condello|Refactor FutureResponse
+c2f1a9e27d2392b76768736c9ff65cd1a6de621a|2017-12-27|Alexander Condello|Move tests into top level directory and separate by submodule
+0eccb1a8e94a8b67e7b90bd80647e6d644eb1ab2|2017-12-27|Alexander Condello|Restructure submodules
+3589d8cd1ce09339cbc0d347cd25d83ae4d5949b|2017-12-27|Alexander Condello|Update to master
+f71ba66984099822ceaca0a1574ad79e20fa35a7|2017-12-27|Alexander Condello|Update setup requirements
+1ffbe77ca61f6060076b81b4464e4de2f172dfe0|2017-12-24|Alexander Condello|Merge pull request #2 from arcondello/setup
+4e9b42fd2d6be776501cd913050c6ce34a22b6e1|2017-12-24|arcondello|Add setup script
+3512dcc5d79b64dff8c63f0f8fb73cdc9765195d|2017-12-22|Alexander Condello|Update for dimod 0.5.0
+2f6982730cffe624c4b6afc4a74d39468f9dcdc4|2017-12-22|Alexander Condello|Update setup method
+ae11d24a1c005acc25862400bb3b8c85e7f023cc|2017-12-22|Alexander Condello|Merge pull request #1 from oneklc/master
+6ad2f5da40c8d165005699df51ecc7656167a724|2017-12-22|oneklc|Merge branch 'master' of https://github.com/oneklc/dwave_micro_client_dimod
+3bd7ea443127340a149e9d41bfecaa3266c84836|2017-12-22|oneklc|added ResponseFuture to delay blocking
+43a9d4b5cd0e84b198b9ba712cb8e4a28a498c85|2017-12-12|Alexander Condello|Remove call to embedding database for now
+851bb9b366a53bad3afb6e400ac216f4f10e195b|2017-12-12|Alexander Condello|Move the mock_sampler to its own file
+705847a2db5d489a9ac32450842c4e92efceac83|2017-12-11|Alexander Condello|Add preliminary schema for embedding
+173d6c5fe659211f804d58a353c17465b4acf119|2017-12-08|Alexander Condello|Add framework for embedding
+15d888208518971c22058597d6df58aa26a24232|2017-12-07|Alexander Condello|Add code to determine the cache location
+bbeb133005d04fc3b518eba7d348cb162fe0baca|2017-12-07|Alexander Condello|Add some structure for flux_biases
+d1c6a1a1b5fb6aa646b802cc090e8cae15d7aa7c|2017-11-29|oneklc|added pycharm dir (.idea/) to .gitignore
+d110c4ca765535dc40899e19026a428341c7ed38|2017-11-29|oneklc|added tests for adj matrix creation
+87b123956db34bfa6809ff0a7d60311fe77995ad|2017-11-28|Alexander Condello|Add structure for composite
+614ccdd1f3496e543f49c680fc77c7af75a50fce|2017-11-28|Alexander Condello|Restructure
+a41f9149a23b59b5b3338b18fa0eb6592f73b56f|2017-11-28|Alexander Condello|Add infrastructure for embedding.
+d1cc6a504ce5f9d512ede50970ac985b0f80e14d|2017-11-28|Alexander Condello|Add infrastructure for bias offsets
+dcece839d100aa20f2a1ce6ee29dfe958bec6f6b|2017-11-28|Alexander Condello|Restart
+6bda1a4c2065b7da2bd2d72f1492ddf65b56edf7|2017-11-22|oneklc|added  adj matrix to structure and added sapi name
+310263a3507a244f70cb2c3d77ef498a42aeadec|2017-11-21|Alexander Condello|Add README and .gitignore
+6e9172bb6f714200b1681f8292d6ce33e4dc6753|2017-11-21|Alexander Condello|First function in the embedding utilities
+4d432e3199251f131bfafcc746569a4c47735648|2017-11-07|Alexander Condello|Add license
+032260f40c668c93c9e241c94d3dfef083d4274c|2017-11-07|Alexander Condello|Clean up __init__ by removing composite import
+663c3a20663b12efd994c656863b0844a77437c7|2017-11-07|Alexander Condello|Add docstrings for the wrapper
+d5c0d7dc177960114836a9f98744d9cbff3a3e3d|2017-11-07|Alexander Condello|Remove unittest until mock can be set up properly
+1bc2af8f3e290bc176945905cabca773f11b6b56|2017-11-07|Alexander Condello|Add warning to setup.py until it is implemented
+828ead8a6eb3f75b012c895343cceb0e410c44a7|2017-11-07|Alexander Condello|Remove .coverage and update gitignore to match
+8000f90214b1719cdcbc6d9c226a6b9e9dd2e075|2017-11-07|Alexander Condello|Remove complete graph composite file
+ad83c3db50358e4da47e100fd5fe4913d4df5d18|2017-11-07|Alexander Condello|Add barebones README.md
+afdafeeb231b5f99252be0dd6316ea95b4ffbbf1|2017-11-02|Alexander Condello|basic framework, unittests not correctly running
+c0992ede8c8b6615cb8e038500f0c6f353c42300|2017-09-19|Kelly Boothby|changed qubit locations in draw_tikz to match other DWave utilities
+56f91b8d2f56019f8bd7f12fa353be3239d4b509|2017-02-03|boothby|Merge pull request #3 from adam-douglass/master
+33fd03affd45561076d79d688971be8603db5683|2017-02-03|boothby|Merge pull request #2 from shinichi-takayanagi/master
+58cd5893a5cc7c2d51509437c8cb9464aa6e728b|2017-01-27|Adam Douglass|Fix switching to bipartite when cliquesize is a pair.
+3945c8e3e85c03504e1c080a7fbe688ae159cc71|2017-01-27|Adam Douglass|Switch command line to using an argument parser.
+6ea60b206e8f5fa375e56b1c088e835f5c15cd1c|2016-12-19|Shinichi Takayanagi|Merge pull request #1 from shinichi-takayanagi/feature/remove-gh-page-ext
+1e799ed5c07af6066a48e0e333324025de784e3c|2016-12-19|Shinichi Takayanagi|Remove githubpages extention.
+86e2afbd463d1068ba9c5a55942cb47fc5339aa6|2016-10-14|boothby|Merge pull request #1 from boothby/master
+4754b0c1512f7e74fb73528aa0ed791a57180d3a|2016-10-14|Kelly Boothby|removed always-false assertion (leftover from debugging)
+2708b8b5315d7adafe1d4f3ff7bcd5a93d5cde80|2016-05-13|Marshall Drew-Brook|Initial commit

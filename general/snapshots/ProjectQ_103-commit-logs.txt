@@ -1,0 +1,203 @@
+ae376fdf9c47b4975b89bdd81f8b8030dc32db0e|2020-09-23|David Bretaud|Update on the ibmq client (#379)
+ea99d74b4fa9eabecd9508ceb49daaede9bf6390|2020-06-05|Nguyen Damien|Merge pull request #370 from Takishima/release/0.5.1
+dd8199fa03be41d6132117d69b2ba0ff3e82ee8e|2020-05-07|Damien Nguyen|Bumped version to v0.5.1
+6ef8a0eeb06267b27bbbe9207b71013e9cca65d4|2020-04-30|David Bretaud|bug fix on ibm example; new aqt example; updated the main README file (#368)
+f88a0f620f71f724a9acfab684f9cffc84e72f61|2020-04-20|Ari Jordan|Add histogram plotting feature for simulator (#362)
+dfaf7256feed6f08a3119a1115c9855a37a8345f|2020-04-20|David Bretaud|IBM backend update (#366)
+86cd1d298b57576be004f68bdbdcdc7a084b94a8|2020-04-20|David Bretaud|Aqt Backend (#353)
+67ce24bd5d4aa06eb43c8e094c551c89567ef57d|2020-03-25|Ari Jordan|Fix bugs with matplotlib drawer (#361)
+dfff0f35294c9a9081359e484fe20e972547f157|2020-03-25|Ari Jordan|Fix generated documentation (#360)
+89cb7fdf800e36cb66a8f7ab868ff4495960518b|2020-03-19|Nguyen Damien|ProjectQ v0.5.0 (#356)
+63af3bfe043690fd7ea65778a3b15a83bde06c18|2020-02-19|Nguyen Damien|Update setup.py (#337)
+d5bf14e378e1b1d63d217cfbbaa382dcca83dfd7|2020-02-05|Nguyen Damien|Automatically generate documentation ReST files (#339)
+7da50cf7a126a29c21d7c935c71684e86132b522|2020-02-04|David Bretaud|Ibm backend v2 (solves #318 and #347) (#349)
+a80fa84765904650df38970440262c232d0230e7|2020-02-04|Cheng Li|Matplotlib drawer backend (#352)
+93f2d7938b423c51258ac584c13dcb0f734e9330|2020-01-14|David Bretaud|Trapped ion decomposer setup and rotation gates improvement (#346)
+4bd6e6fc055777e308feefcc6d6a73cf4f31e6df|2019-10-25|alexandrupaler|Allow selection of drawing order in CircuitDrawer (solves #333) (#334)
+44ba35baf84b08741c51c5d96460df4d0a802d31|2019-08-23|Nguyen Damien|Update constant math documentation to include list of pre-conditions (#331)
+f27286f520ff8b1ca2dec9142b01b59a2490fcd5|2019-08-20|Melven Roehrig-Zoellner|C++ simulator performance improvements (#329)
+9db33835239eeaf1e1eb1a318ab3a471646d726d|2019-08-14|David Wierichs|3 additional 2-qubit gates (#330)
+f3582b7456d2ef860d810bd2ac7a272146467b18|2019-07-18|Fernando|Amplitude Amplification algorithm as a Gate in ops (#327)
+6a46f45bec528ccb342661a07db09cdd2d8ad8a2|2019-07-18|Fernando|Correct statistics in qpe test (#328)
+3ac3c2c73519391c528cb32a41db92dd9eafbace|2019-05-06|Fernando|Phase Estimation as a Gate in ops (#260)
+6db7038abb37d2cf02bcc2a0b51fb67125b74617|2019-01-31|Damian Steiger|ProjectQ v0.4.2
+f7bef17eb17d98001701352f2de567d4a8278292|2019-01-30|Damian Steiger|Merge branch 'master' into release-0.4.2
+22d368db8baf4909a044c847bfb97a0e50db1f3d|2019-01-30|Damian S. Steiger|Bumped version number to 0.4.2
+eaf1334eda80d9115b99e96aa92e9838e1273bea|2019-01-30|Christian Gogolin|Implement MatrixGate and simplify __eq__ in BasicGate to improve performance (#288)
+ef99f4897cb6f565412ff7eb5d470d2127f3f6c1|2019-01-30|Thomas Haener|Don't accept controlled single-qubit gates in restricted gate set. (#301)
+a87039e97825da41e9edd73f8cd6c48ad6868e56|2019-01-14|Christian Gogolin|Expose num_retries and interval in IBMBackend (#295)
+04fd0a3eb14f2a23c0ed33fdd6683f77a6f4d410|2019-01-11|Christian Gogolin|Avoid 502 error when waiting for IBM Q results, resolves #291 (#294)
+abe86ed61697fe656de2b6120f54566d2b51c471|2019-01-11|Thomas Haener|Fix strings with invalid escape sequences. (#300)
+867e68ec22e54a3e14a050f30abf61930b9da0f0|2018-12-22|Christian Gogolin|Add FlipBits gate (#289)
+e5cc9885ce0bede6187191ed0cfe5be76bf868af|2018-10-29|Damian Steiger|Update docs of decompositions. (#281)
+78bfb923ceae39174d5d982360292d0a53ff7efd|2018-09-23|Damian Steiger|Add VQE example (#274)
+86f2e221a1b1a3b3ec619647ca755db4f9336d63|2018-09-18|Mathias Soeken|Update to newer RevKit version. (#271)
+a655909d27aac2372507a0a1b7f1d4b80e5abaad|2018-08-26|Damian Steiger|ProjectQ v0.4.1
+24d0cbf344b11b5ade79b3e8ed96dfa2abdf84ac|2018-08-26|Damian Steiger|ProjectQ v0.4.1
+9a25e7f09353cfabb9231858de9dcbb41b321634|2018-08-26|Thomas Haener|Merge branch 'master' into release-0.4.1
+704cb171e06c22cd677dea20c488678b829d9a79|2018-08-26|Damian S. Steiger|Bumped version number to 0.4.1
+95cd679776460041e070c7db518b03a76819fb1a|2018-08-26|Damian Steiger|Quantum Algorithm for Spectral Measurement with Lower Gate Count (#264)
+371ead650594b4a81601849521b0165ab3d87d81|2018-08-26|Damian Steiger|Allow to apply unitary qubit operators to qubits (#263)
+3eaab56f6b8a6497a6ccc586b9f08d5ba228728e|2018-08-26|Thomas Haener|Allow running trivial circuits on IBM Q, as long as there is at least one measurement. (#265)
+e0917d14f818a334cc41371d8f85ac05bbf923e1|2018-08-20|Damian Steiger|Decomposition for SqrtSwap (#262)
+db8bee59a34b69bcfd934079a0a2105e4e813d6e|2018-08-14|Damian Steiger|Check for more user errors (normalized state) and extend collapse_wavefunction input (#256)
+11f45873e20c2fa78fab2b59b5b460ac5f595fc6|2018-08-12|Damian Steiger|Fix StatePreparation division by 0 and update docs (#255)
+0d1a78f3e147e3f69651261498d43730da08308b|2018-08-09|Damian Steiger|Add state preparation (#254)
+d3631e23f9825a35959fa5155ad053fbdb87d435|2018-08-09|Damian Steiger|Adds Uniformly controlled rotations (Ry and Rz) (#253)
+4674e11baa58e08e1544bd8ac606dde1479802a4|2018-08-07|Damian Steiger|Change BasicGate __eq__ to test for matrix attribute (#252)
+d6306458c278244a086ceb7a7e078481ca8f5d92|2018-08-03|Thomas Haener|Specialize the CnU decomposition rule for Pauli X gates. (#251)
+bba67f2cdef9b7050a05623a1be885e9a6365268|2018-07-23|Thomas Haener|ProjectQ v0.4
+32d9482b09c984761981dba73c28f87458c545f2|2018-07-23|Thomas Haener|ProjectQ v0.4
+a72fd63ba812246702482fc5fae97ff01fa86355|2018-07-23|Damian Steiger|Merge branch 'master' into release-0.4
+20f45669389b818093049602c84eb18a172a074b|2018-07-23|Damian S. Steiger|Bumped version number to 0.4
+b18dc35cbf0fed7c405bb2a2ceff25ffbbcfd8cb|2018-07-23|Thomas Haener|Add new tutorial on how to use the IBM backend. (#246)
+8191f8fb00c78578755a35952fc62557889e1ecf|2018-07-23|Damian Steiger|Updated README and paper references (#245)
+a989adf252c3e45d4119f4a724cd40307813f266|2018-07-21|Damian Steiger|Add a Mapper Tutorial (#243)
+e98e980cdef0678c3b55305abf625ceb841af6c6|2018-07-21|Mathias Soeken|Add RevKit interface (#241)
+536e1fe09ba48a19657e0de07cc35dea5201bc23|2018-07-20|Damian Steiger|Add LogicalQubitID tags to allocate and deallocate of mappers (#242)
+d026fe93818a7847c92ae84d2f061626aff8e469|2018-07-20|Thomas Haener|Add grid mapper to ibm 16-qubit setup (#240)
+ab110bebd8b1afb186343682d9bfae85695e247a|2018-07-19|Damian Steiger|Allow arbitrary backend qubit orderings in GridMapper (#238)
+963bff31464e22ce52d95165a8f5f3cacd2605ca|2018-07-19|Damian Steiger|Update compiler tutorial (#239)
+fc7b683eaca25a6c5f9b0155ac4d1ae25d4ebefe|2018-07-18|Damian Steiger|Add CZ gate (#237)
+eb3d72e6a79840791cb11536a10b3d59722d84c0|2018-07-18|Damian Steiger|Renamed SquareGridMapper to GridMapper and fixed docs
+fb67ade705aa7ac8b6052043e35a0dfcd47eaac7|2018-07-18|Thomas Haener|Update IBM mappers to new mapper standard. (#235)
+e142a99f6286abc80c720fbd56bfa58e2c85b2cb|2018-07-17|Damian Steiger|Added new setups for mappers and restricted gate sets (#234)
+66bf23511f8017a7b9e5ca192f09647ad3507646|2018-07-15|Damian Steiger|Change setups and MainEngine parameters (#233)
+1411ef89237d3f3a743229320393a56e9e6a1c65|2018-07-15|Thomas Haener|Update CNOT direction of IBM mapper. (#231)
+e041ac7aac5225f339211d848d12b407e0f29f99|2018-06-27|Thomas Haener|Change optimizer from list of lists to dict of lists. (#230)
+5f1ef04aaa6b129abf545b6a3b04150d05989c83|2018-06-17|Damian Steiger|New pybind11 version which works with pip >= 10.0.0 >= 10.0.0 (#229)
+a52236114ed1ba00b3612480dadff771577ca915|2018-06-16|Damian Steiger|New 2d mapper (#228)
+e607c52b87d7eb34c6878bc256bd3c9f0f6359d7|2018-06-14|Damian Steiger|Feature/1d mapper (#227)
+46f0c113bc96be04848f0c306052e1d0a8587fb2|2018-06-13|Damian Steiger|Feature/mapper (#226)
+4bf9fd0a647d4a09eeb57f0d96a9aab54e6fda9a|2018-06-13|Damian Steiger|Change to single qubit measurement (#225)
+b58af00b8b76ad9e6809eb9edca126bb0c8c2f14|2018-05-31|Damian Steiger|Added missing hash definitions (#223)
+5853a25f242b5cf30e656226598a3daac33cace5|2018-05-23|Thomas Haener|Option to allocate qubits at x=0 when drawing circuits. (#222)
+539b3bfb076f7dd6e409901fe3d55b7cc18ac4ee|2018-04-29|Thomas Haener|Fixing teleport example in docs. (#219)
+cdb263f765f9d9fb8a9cb5c1d30d256c2445df37|2018-02-28|Damian Steiger|Update docs of simulator init (#213)
+27e91c352e0779cee333a7b4d6188d9a49c968b5|2018-02-28|Damian Steiger|Increase default seed range of simulator to (0,2^32-1) (#211)
+635f6ae62c0bc068c5a17c5df01ef9d863b09589|2018-02-26|Damian Steiger|Improving the docs (#209)
+2d4fe5321a572a1a003382dbe32be5c7e1f93cda|2018-02-13|Thomas Haener|Make the selection of setups (and default engines) more explicit. (#208)
+74f679d86f6cbd5f6978f15333e135d728ebc0c0|2018-02-08|Damian Steiger|Improved error handling (#207)
+afb310e9737331c76889cf35b5d516279565bd2b|2018-02-07|Damian Steiger|Remove manually deleted qubits (by calling qb.__del__() from active_qubits in MainEngine (#206)
+bac22778c802da4571713dd6a262d7638d603527|2018-02-06|Thomas Haener|ProjectQ v0.3.6
+fa484fe037a3a1772127bbd00fe4628ddba34611|2018-02-06|Damian Steiger|ProjectQ v0.3.6
+a24aee7734efe06f3e89a76eb14b0673992693c7|2018-02-06|Thomas Haener|New line at end of file.
+5563228905bb82235fe3a9e2edc710daf153e916|2018-02-06|Thomas Haener|Merge branch 'master' into release-0.3.6
+dba7f9b83c2ed4e0572acadcaa5d8c19ba70d436|2018-02-06|Thomas Haener|Bumped version.
+62d3fb11578a06131b0105b220651520b2a7338b|2018-02-06|Thomas Haener|Add fix and test for emulation of controlled time evolution. (#203)
+5f938c16c27b31f099870b8c10885a67860a01ec|2018-01-31|Thomas Haener|Add hash function to DaggeredGate. (#200)
+bc7d4343cbd8bc5b703f7aae3aa7a3ed264e4162|2018-01-15|Kevin J. Sung|Add gate class counts to resource counter (#194)
+7a95ccb79bd67b1d2a1428352ae3703bfeb52e7e|2018-01-15|Leo|new square root X gate gate and square root Swap gate (#185)
+4a90e07c4eec6adea11ab8fcbbd0ae35f45cad13|2018-01-12|Kevin J. Sung|Define hash for gates; use gate objects as keys in ResourceCounter (#190)
+c703417beb3c97f73514d6f39320251a1c7dadab|2017-12-20|Damian Steiger|Fix possible infinite recursion loop and drop support for Python 3.3 (#187)
+e6e42bfad0fd783d5907b2cb0bc6f7c4fe093cda|2017-10-31|Thomas Haener|Register measurement results from classical simulator. (#184)
+d4b81bedadd54e036963d4d7079f4ba4eccd5c0c|2017-10-24|Thomas Haener|General linting. (#180)
+475827527dd483c5884209a7d7163d49655278ce|2017-10-20|Damian Steiger|Convert arbitrary Rx and Ry rotations to arbitrary Rz rotations (#177)
+2f643865d403487e50b57a6349942e2a49136d23|2017-10-20|Thomas Haener|Add support for barriers and rotation gates when using an IBM backend. (#179)
+234025aa4e9f4b35edccb8b3175e4177553cd34e|2017-10-18|Thomas Haener|Adding basic support for the 16-qubit IBM chip. (#178)
+cf0a2ddae9aea29915d2a55778c5e5e2c76041df|2017-10-10|Thomas Haener|Add simulator exception for incompatible gate size/qubit count. (#176)
+16e635d46f7f9b986ab239563f695d7ae86754c1|2017-10-03|Thomas Haener|ProjectQ v0.3.5
+7cc25e1beae60a6d2fcb0904441b4cbcbda53072|2017-10-03|Thomas Haener|ProjectQ v0.3.5
+38469d3bc1c0d0e436bf7bd9ea27733f15ad117b|2017-10-03|Thomas Haener|Merge branch 'master' into release-0.3.5
+fd532015c4693f3907faf9eccd041e39f20ea9b8|2017-10-03|Thomas Haener|Bumped version number.
+ba48b71830a6f46acb3e9efc97f8b2f4b31bb7db|2017-10-03|Thomas Haener|Add support for both 5-qubit IBM QE chips.
+713ad283e8218c7a6fee56064fe3fcdd12e5f2cc|2017-09-17|Thomas Haener|Allow newer versions of pybind11. (#169)
+41dbc702024410ca07256948fcff589cdbc17474|2017-09-11|Thomas Haener|ProjectQ v0.3.4
+f8e1a70803d8846c3282ebf3b2274bd288638087|2017-09-11|Thomas Haener|ProjectQ v0.3.4
+4101e7c364f8df328b96f7fbde84eb417a666374|2017-09-11|Thomas Haener|Bumped version.
+b7e9997d92e32dbcac52c5208f278592c86a1c03|2017-09-11|Damian Steiger|Compiler tutorial (#166)
+8040b8d9ff33a8f7ee070f0d1bcf88cbb99dd895|2017-09-11|Damian Steiger|Decomposition of arbitrary controlled single qubit gate (#165)
+41d3b0ee1c5414463165e7003ae2b19b281a8f08|2017-09-11|Damian Steiger|Decompose multi-controlled gates into single controlled gates (#164)
+1b5cc3420ffd71d7b04a38d5b069513c851806b1|2017-09-11|Damian Steiger|Decomposition of arbitrary 1 qubit gates into Ph, Rz, and Ry. (#163)
+51f351601e81174f99439311155122ff845118cb|2017-09-11|Damian Steiger|AutoReplacer checks parent class for replacements. Simplify Compute. (#162)
+83e9a5969084bf2aa0dd9e45f96e98208effe061|2017-09-11|Damian Steiger|Updated header (#161)
+443ae0b4f8fb84e455991d8d7bf8d26f00f2a3e0|2017-09-11|Damian Steiger|Ph and R gates are now correctly 2pi periodic instead of 4pi (#152)
+8d354de6026851bf81d410301533ecfa84cd9da8|2017-09-11|Damian Steiger|Additional badges (#160)
+93f2546b746b39bef094b6fd230723c8f67ce78d|2017-09-11|Damian Steiger|Turn Warnings into errors (#159)
+b13748d3df2dd11b6181929c1ef0a571e61ce7f9|2017-09-11|Damian Steiger|Fix sparsity problems which cause warnings by switching to csc matrices (#158)
+0f914ce08f8c11d69ce36032598fe72a6eae9f24|2017-09-11|Damian Steiger|Added k-qubit gate feature to simulator. (#157)
+760db897d195fa6addc72e15482fccb68560e086|2017-09-11|Damian Steiger|Allow for complex coefficients when applying qubit operators.  (#156)
+7562521ed755ec1f88b31df58c28fb3553e43423|2017-09-11|Damian Steiger|Readme for docs folder and QubitOperator substraction (#155)
+c1fa7f6dfe981ac5c168cf07b28d8df2d3294125|2017-09-11|Damian Steiger|Allow applying QubitOperators (even non-unitary). (#154)
+a246d8127beeef9a0da2f5839feb12f7129f4d6f|2017-09-11|Damian Steiger|Additional note about hardware specific compilation of the C++ simulator (#153)
+e7eb0ffc336e112a2653ce4fd843ab33f39432a0|2017-09-01|Damian Steiger|ProjectQ v0.3.3
+5d2aa2276f7019ac3759dd8f0781dea4b1425511|2017-08-19|Damian Steiger|Bugfix set_wavefunction in pysim (#138)
+44506ea735271f65b9e0b7c700a523d6fed63258|2017-09-01|Damian S. Steiger|Temporary fix of pybind issue and bumbed version number
+0de46299ed6c5d0e6d78e08854da3c991f30b9e5|2017-06-28|Thomas Haener|ProjectQ v0.3.2
+a1958cdf3307a03bbfb5f1d71bdc197999637616|2017-06-28|Thomas Haener|Merge branch 'master' into release-0.3.2
+171b2c850566d2f84e5aaf14c9eee3bbf4a70f9f|2017-06-28|Thomas Haener|Bumped version number.
+e8c4c9d7d4e64c044644e28c1b532f387181e1d5|2017-06-28|Damian Steiger|Added more tests and got rid of some pep8 warnings (#127)
+8c79ff3f157d6adb8569ddb78b6ed2faec40fc71|2017-06-28|Damian Steiger|Added simulator tutorial (#126)
+fee189527ecea79e717f4afb689b137c4b6ab349|2017-06-24|Damian Steiger|Check if get_expectation_value receives correct input  (#125)
+88e2f1823748a82d1f3ad5e877b3a9b1f2aa43ad|2017-06-20|Damian Steiger|Bugfix OpenMP flags in setup.py (#121)
+fe48ac8061c9211db12da190c836caadb525ccb7|2017-06-20|Thomas Haener|Added collapse_wavefunction to simulator. (#122)
+22259a15997e64d5d43d4d6f3c8336aac68636fa|2017-06-14|Craig Gidney|Add insert_engine/drop_engine_after meta utility methods (#115)
+74e593c9c009fa50b32f3b3451d91b6c669164c4|2017-06-14|Craig Gidney|Edit tags directly instead of using CommandModifier in BasicEngine.allocate_qubit (#114)
+4b60fd0a8c3452bc88fd35d48efc006af2adbe88|2017-06-12|Thomas Haener|ProjectQ v0.3.1
+6a31e578bdc98b3b51084ef23c61cade17e3f6fc|2017-06-12|Thomas Haener|ProjectQ v0.3.1
+5a68930840eee15d410fd239766f86c888d349fd|2017-06-12|Damian Steiger|Merge branch 'master' into release-0.3.1
+5337addbd09c156ed4d9989fb514f75d95dd8dad|2017-06-12|Damian S. Steiger|Bumped version number to 0.3.1
+0472c41e30704827fb5c58c04544c86240ee0d34|2017-06-12|Thomas Haener|Added set_wavefunction to simulator (including tests). (#117)
+144c8d1cc06214ff4be2a4ed79d5fa9753c8265b|2017-06-08|Craig Gidney|Fix no-iteration loop running once (#113)
+3a800e74b3dd7120066b4a7fc70faba0f5b9257f|2017-05-21|Thomas Haener|Added probability and amplitude functions to simulator. (#111)
+e0203345c626eff8a87ff7bd4e56ee49d79fa854|2017-05-19|Damian Steiger|Added note for minimal pip version number such that dependencies are installed in the correct order (#110)
+ed62fd9e3b7801e9b1da74a8ea73dc60aa3e568a|2017-05-19|Damian Steiger|Added new test for Compute Uncompute (#108)
+12c0a5fb71144d913421eb4fa365201b84959e06|2017-05-14|Thomas Haener|Update readme doc links. (#104)
+bfccdfb98b1c65a11f8b7d2e9c4df2854db75122|2017-05-14|Damian Steiger|Setup: Read requirements from file. (#103)
+a35904eca33a57c252c337de70ec20e6f5812374|2017-05-14|Thomas Haener|Make conf.py work with readthedocs. (#102)
+ad257dbffec598d4ef67f3967d7de2eb2b27533f|2017-05-14|Craig Gidney|Simplify BasicEngine.deallocate_qubit (#92)
+72569989899493f7862e7acb4622e3220f1ff918|2017-05-14|Craig Gidney|Minor cleanup in LocalOptimizer._optimize (#90)
+81f94d479612418552d3b1d628d661dac6a1206c|2017-05-13|idk3|Fixing small TypeError bug in TimeEvolution (#101)
+dbd5997b67639a5185d239391dc8aed799763e9d|2017-05-07|Craig Gidney|Combine sequential ids into ranges when describing quantum registers (#75)
+ce0b836fb7c6256cb8a42a8cae2b910e627245bd|2017-05-07|Craig Gidney|Cleanup LocalOptimizer._send_qubit_pipeline a bit (#88)
+58dc4604843ea9e670a5579c42cb9984d211305f|2017-05-07|Craig Gidney|Prevent Qubit.__del__ from running more than once (#95)
+374bdd9e4165699a45c2223a757cc8ca060ce1a8|2017-05-06|Matthew Neeley|Add python 3.6 to travis test matrix (#87)
+d5ccfe1a5b78f1f5d4fe0117bf14382b2c68e66b|2017-05-04|Damian Steiger|Update develop from master.
+16d2902e22bca842ecda39396f2f4e7a5ba09e13|2017-05-04|Damian Steiger|Merge pull request #82 from ProjectQ-Framework/release-0.3.0
+fda1e09cef28fd8e055615d19dc7683195f38562|2017-05-04|Damian Steiger|Merge branch 'master' into release-0.3.0
+3c100525676169829cadf208387eb0133f83f282|2017-05-04|Thomas Haener|Bumped version. (#83)
+71d7136e0745dd3d8bff4e66b47d3d646b129910|2017-05-04|Thomas Haener|Bumped version.
+91b50e6a2e260031daa59b064c6f736650714351|2017-05-04|Damian Steiger|Bugfix of DaggeredGate tex_str (#81)
+75e7a7fefea232e61327e7d7a7b09345e494c655|2017-05-04|Thomas Haener|Fixed bug in setup.py: raise exception. (#80)
+3b2cd4e56a039a14a3c0108eab4122c39d0ee2ca|2017-05-04|Damian Steiger|added string for empty operator (#79)
+3deb00bf58111f0bab4c39d081bd205ed8f41e36|2017-05-04|Thomas Haener|Update QubitOperator: init and compress. (#77)
+32b2d03b12acbfe97beb39484e015c45ba55209e|2017-05-03|Thomas Haener|Add a first version of time evolution emulation (#72)
+efb7d1c6d4335fb752b31d20b77f6ab45d1e6c27|2017-04-25|Craig Gidney|Add ClassicalSimulator for faster testing of non-quantum circuits (#51)
+7ecef4c61b266619bcc67b37ef80134723b5a678|2017-04-24|Thomas Haener|Add expectation value function to simulator (#68)
+4e2b8c5b3c5e9b1e9002edd0787f8bb5d50c239e|2017-04-24|Damian Steiger|Add TimeEvolutionGate and decomposition rules (#70)
+f76ab048a3ec1ab26c6869ad113a7a2069a29c0b|2017-04-21|Ryan Babbush|Adding new QubitOperator class.
+2ae36086ea39cbe6677eeda6080c8b42822c46a2|2017-04-22|Craig Gidney|Add 'controls' and 'tags' parameters to Command.__init__ (#57)
+d8b1d4278c02ca7ea73cdfe42284fdd4860485b0|2017-04-22|Craig Gidney|Mark SwapGate as a BasicMathGate (#66)
+0e2113b64d616ec303bfff22a38af05a74583bbe|2017-04-22|Craig Gidney|Fix ControlledGate failing when a register is empty (#49)
+d2b735151e567ba338a83fe53114707d9992ccc1|2017-04-20|Damian Steiger|Merge pull request #63 from ProjectQ-Framework/develop
+a9570e9da33ebf780ebd2ae155755916cd6611c8|2017-04-20|Thomas Haener|ProjectQ version 0.2.0 (#62)
+76c169b740765252a13c9c530ba181d47ac9722f|2017-04-20|Thomas Haener|Fixed a few bugs in docs and updated readme. (#61)
+d724a28edc3725a6dbbfc126756e6e60a500180e|2017-04-20|Thomas Haener|Add mapper supporting bow-tie connectivity (#59)
+dd34daa10b91e68b89be14c6b375f869ac9d04a2|2017-04-20|Craig Gidney|Fix BasicQubit.__hash__ not satisfying a==b implies hash(a)==hash(b) (#44)
+c4feb98d4a1fe033051fffe81396794641a6632c|2017-04-20|Thomas Haener|Fixed bug for large gates and added CZ & Swap gate specialization for latex drawer.
+bd8ef09c783804e5153be507049655d05468ea11|2017-04-18|Thomas Haener|Fixes the controlled gate shortcut. (#53)
+7c1f33ed06a2fdc53b96311c08f068fd40591fc1|2017-04-13|Thomas Haener|Shallow copy of engine list. (#47)
+bf9cc22d7de6fa81ecba7066c178b775441eb29a|2017-04-10|Damian S. Steiger|Fixed docstring location
+eacc44b68d5ceca20d0cf79bf2e6b197e59d55a4|2017-04-06|Craig Gidney|Simplify angle comparison in BasicRotationGate.__eq__ (#15)
+fa1b690a8fe1b61bdc33c194bfe4e738e2e8c9ea|2017-03-28|Craig Gidney|Deglobalizing decomposition rule sets (#22)
+533f237358a38d432585fcb17c9bf908d4ec5a57|2017-03-20|Craig Gidney|Fix ResourceCounter returning None from __str__ when empty
+81752a9880a6527fbd3b6ebf17ba00fc564979f3|2017-03-20|Craig Gidney|Fix cpp-simulator not being installed causing many unrelated tests to fail (#25)
+2e9a69a7a61da63e2ada7b4cd0a2cc46d93f87ee|2017-03-19|Thomas Haener|Made everything PEP8-conform. (#29)
+180eb52aeb5f52bce48eb6cd1f023e755cab6377|2017-03-17|Craig Gidney|Fix CommandModifier forwarding the unmodified list
+57caa4764e8003b2db01b109ea2d5ce275e10fea|2017-03-16|Damian Steiger|Merge pull request #17 from maffoo/u/maffoo/gitignore
+4dafe9c0176d18d391dd98774dcb03172a014887|2017-03-16|Damian Steiger|Update .gitignore
+23187acd020289608092b896db08cfd1902ceb46|2017-03-07|Matthew Neeley|Add basic .gitignore file which includes .pyc files and pycache dirs
+6eb3ff1c97cdd57f7e19bad6bae2af819819e0a6|2017-01-19|Thomas Haener|Updated the IBMBackend to work with the new API.
+a5b0228b649595bc3b637ae7b847dc1def48fd33|2017-01-19|Damian S. Steiger|updated ibm functional test
+3c4ecf7e8ac4ded28ccbc5b2a38b771535ba3797|2017-01-19|Thomas Haener|IBMBackend: get_probabilities and facilitate accessing the back-end from the MainEngine. TODO: Fix test.
+fb687a415e33f9f99fcbba7197b574561fc93169|2017-01-19|Thomas Haener|Order of returned measurement results.
+445393ce9dee10bd4830b7a1fda8f2d6595c04a2|2017-01-19|Thomas Haener|Merge pull request #6 from IBMResearch/master
+c73992c06a62eb95e0c26c7298adc13aaaf22ade|2017-01-19|Thomas Haener|Bumped version number.
+ff1aa9233f6a4377de1ecd72fc7cd8a571c5085a|2017-01-19|Fran Cabrera|Fixing test vor v2.0
+e174fa365a5f3189cc1bf53a9c1fc6285f054aa6|2017-01-10|Fran Cabrera|Preparing the IBM format for QASM 2.0 API (it still works with 1.1 API)
+722104c40e9526e92a71a2161cb5f2d8757bcbfe|2017-01-03|Thomas Haener|Hotfix/main ibm api url (#5)
+0c55553b3dd12ff4dcb7cf277a3d30abf2050e44|2017-01-03|damiansteiger|Merge pull request #4 from ProjectQ-Framework/hotfix/pypi_manifest
+d54d9a794072388c61eb30bd5f8b816f51aab7c9|2017-01-03|Damian S. Steiger|newline at EOF in Manifest.in
+1ec05e73696d67672a5455a17f312e2d58764c2f|2017-01-03|Damian S. Steiger|Bumped version number and added Manifest.in for pypi.
+72517e9e18c51057a4a906bacd55aa14511428ad|2016-12-28|Damian S. Steiger|ProjectQ v0.1 developed by Thomas Haener and Damian S. Steiger at ETH Zurich in 2016.
+944051d7d34a1387f137a7e8e55e43750dfdd915|2016-12-28|thomashaener|Added Apache 2 License.

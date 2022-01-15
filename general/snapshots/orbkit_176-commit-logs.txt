@@ -1,0 +1,478 @@
+83957d624cbc545ae78d97d99463cee8f4320423|2020-09-08|Vincent Pohl|Merge pull request #30 from orbkit/vp/install
+c58ca5122060785305af1c70bf69fa1dfb7d1548|2020-03-06|Vincent Pohl|BUG: Fixed trailing whitespace
+497329aa5bc538847ed81736084dcadf8754d9ff|2020-03-06|Vincent Pohl|ENH: 1.1.0.dev2 -> 1.1.0 in setup.py
+d6bb7e65670a36c383611d598202159d3675dba5|2020-03-05|Vincent Pohl|ed
+e3b85a1843cd814d705b7d9787be6c79c1f30352|2020-03-05|Vincent Pohl|BUG: Added handling for MO indices larger and smaller than boundaries
+0280ce9a581d4231323cd818a8643cbb2de8e0b1|2020-03-04|Vincent Pohl|BUG: Fixed minor bug in orbitals
+ce1d3c5f7a4ff86d029909e21d3982198866f07c|2020-03-03|Vincent Pohl|BUG: Copy of version to setup.py
+86cf7a08b695db0c23403bb38e9c541672dff69a|2020-03-03|Vincent Pohl|BUG: pip install -r github ci
+5d5eb0ad30fae14f87ebf368cb7c5799fe2997a8|2020-03-03|Vincent Pohl|BUG: Added missing Cython install to github ci
+75cba17af2b1f7a56cdc79a485fa690788c61ad0|2020-03-03|Vincent Pohl|ENH: Added information for pypi. Removed omp for wheel
+99bf1d0c47d036e730d6c110e0418d9457d4285e|2020-02-25|Vincent Pohl|ENH: Added support for cube.gz
+b34642132e2669d689c0bde063be76a4c7f446ef|2020-02-18|Vincent Pohl|BUG: Fixed minor bug in molden reader
+cc17072eac4d2e5bac1eb3acaeda6921dd46e75b|2020-02-17|Vincent Pohl|WIP: continued working on install
+05498a2e79a59ea8fde98d77de8745ad50a34b2e|2020-02-12|Vincent Pohl|ENH: Added language_level=3 to pyx files
+459f6e741fbaa9c657e4573f6aca904531bee88f|2020-02-12|Vincent Pohl|ENH: Added missing requirements to setup.py
+035b9a3cf402c963819980f0f03472be11820116|2020-02-12|Vincent Pohl|ed
+2bec82a85dd2e17d8d9b676c02d5daaebc9353e2|2020-02-12|Vincent Pohl|ENH: Added MANIFEST.in, improved setup.py
+ad0573513deb7c176ed400e35b102146747d286b|2020-01-06|Vincent Pohl|Merge pull request #29 from orbkit/fix_pyflakes
+f5e59d6a1f3b378d86a6aebee6f6d026d2c6d010|2020-01-06|Vincent Pohl|Merge branch 'master' into fix_pyflakes
+9bc17b089d28877ba2a7f2fd12bcc3b327533418|2020-01-03|Lukas Marsoner|Test updated CI configuration
+2dd28e585f717b388b15b57f6dc18b9b3fbf8f84|2020-01-03|Lukas Marsoner|Add Orbkit standalone program to the Path
+705d98bae555b500a75eddf0a6399664b3d0bff3|2020-01-03|Lukas Eugen Marsoner Steinkasserer|Add orbkit standalone program to the PATH
+2664f07a16f917d0c5cac9062c0333083c0df2de|2020-01-03|Lukas Marsoner|Fix Bugs from Pyflakes
+fdf8bbd8ae315fb9ba268399dbdf1ca2b019e543|2020-01-03|Lukas Eugen Marsoner Steinkasserer|Add dependencies
+81f22a6844b2520b733d1cb84b047c95797d9f54|2020-01-03|Lukas Eugen Marsoner Steinkasserer|Well...
+a29fbd56171e3104b696d3c4f84fd2b870cb8de5|2020-01-03|Lukas Eugen Marsoner Steinkasserer|More path corrections
+2da89b8cbaa13115daca47c495f657f3463e4c6f|2020-01-03|Lukas Eugen Marsoner Steinkasserer|Adjust path
+992bb1e70239ce1c0ab2399a77326b0fcd5748cf|2020-01-03|Lukas Eugen Marsoner Steinkasserer|First attempt at using GitHub Actions for Orbkit
+32c6fef79fd99aa633a3e8eddc79cb60e4f8fb34|2019-12-20|Gunter Hermann|BUG: Minor changes in qcinfo/apply_threshold.
+43b300fb10cc35d4509c6247cea5bc35d254378c|2019-12-20|Gunter Hermann|BUG: Minor fixes TM reader.
+e7179b704f2ed4caddad1774be33a80298fb6502|2019-08-22|Vincent Pohl|Merge branch 'development' into master
+a9f1e2926bd4d4af6c5340b84b811b5486624d70|2019-08-22|Vincent Pohl|Merge pull request #27 from orbkit/vp/cbobs-bug
+95941c243850da9a2b2c1bba224671a2c669cf95|2019-08-21|Vincent Pohl|BUG: Fixed minot python3 compatibility issues
+1f86b3179e300a43dcb01ba0d88246d83f5a004b|2019-08-20|Vincent Pohl|Merge pull request #26 from orbkit/vp/gitlab-ci
+d2aeb039a0f3eecb7c99db8884c479c7f4f367e1|2019-08-19|Vincent Pohl|BUG: numpy save added allow_pickle=False
+a88f145b4b9a2a1da29589c7a61e34ad7f274e64|2019-08-19|Vincent Pohl|ENH: Added orbkit.__main__.py
+c6dcc9bd865f7a7bed703db795dbdac633f40891|2019-08-19|Vincent Pohl|ENH: python:3-slim -> python:3
+90ab5143b0ed64f2b3ac63020d84c0c5a16caf13|2019-08-19|Vincent Pohl|ENH: Removed mayavi from requirements.txt
+7ef9136b5e8c4f89284f3a0c0d1af90eed36b32c|2019-08-19|Vincent Pohl|ENH: Added .gitlab-ci.yml
+049c5554f73d32e5e832a248e82e8d7e6c68ba44|2019-08-19|Vincent Pohl|Merge pull request #23 from orbkit/molden_reader
+d34af7eb7bb1cf89e10236bca31e164e12593471|2019-08-19|Vincent Pohl|Fixed bug with view_with_mayavi outdated map call. Thx @mcrav
+8aa124e58b986dbe797124084e2029a6baa729c9|2019-08-08|Christian Stemmle|ENH: use regex to parse MO coeffs not separated by a space
+1eca7334234ad89f0cc75787934d28fa9e07fbf2|2019-08-08|Christian Stemmle|BUG: Fix two issues in GAMESS reader
+7c4617b8f16ce5c4f9c17349ba43b11c1fa2c901|2019-06-12|gunterhermann|ENH: Improved TDDFT-Reader for Gaussian:
+82cd1c0550dd5224cf22aa127398ff6581c5d36a|2019-02-07|gunterhermann|ENH: Add conversion factor.
+0acb61db7a7aa35929cf75653e123a2cc182383d|2019-01-30|Christian Stemmle|refactor molden reader
+64acfc9c622710e2bc9a3a7b4b8d1acc3b0e757b|2019-02-05|gunterhermann|ENH: Renaming of variables in escf-reader.
+7c9625a5ae8f942b4ad7a343847698f65c68773c|2019-01-30|gunterhermann|ENH: Improved tmol-reader:  - Add new functionalities
+ad25828648169fe9b4c1e7c67e93230760d09164|2019-01-22|gunterhermann|ENH: Drastic speedup of Mulliken routine.
+53eb067574748dbd19d5a36bfbad8080b076baf4|2019-01-21|gunterhermann|ENH: Added functionalities for tmol_escf reader:   - Reads transitin dipole moments between ground and excited state   - Reads dominant orbital contributions
+c61a77820818328c92b40f1959169a5142218433|2019-01-18|Vincent Pohl|ENH: Minor changes in multiple_files and mayavi_interface
+5a4d75884d2051b8f1887bbdb96ab1b9b575b1dc|2019-01-11|Vincent Pohl|ENH: Minor improvements
+dc26b484e8bfec6bd8f6df239bbffaa84b14c01b|2019-01-11|Vincent Pohl|BUG: Made example files compatible to current dev stage
+ae13cf8c83476373a0502b14f4c88b5f3da202c4|2019-01-11|Vincent Pohl|BUG: Fixed multiple files example file
+f064918aaea6b24808d33601a4d215c61f17e0df|2018-12-06|Vincent Pohl|ENH: Changed authors to UTF-8 in doc/literature
+8206b74b067611a836b691b9c736392bad56d202|2018-12-06|Vincent Pohl|ENH: Updated doc/index.rst and doc/licence.rst files
+5a28d68f41068704a77aa8b5f2279c5da9d7278a|2018-12-06|Vincent Pohl|ENH: Minor change in doc/conf.py
+af89b5b18f96e48eb59dbbbb84bd04e23382bacc|2018-12-06|Vincent Pohl|Merge branch 'development' of https://github.com/orbkit/orbkit into development
+f6399272a7a65edc218e4180fb89da53a104208f|2018-12-06|Vincent Pohl|BUG: Fixed minor tab inconsistency in doc/conf.py
+329351531e3afc7cc77db5e6c5c2862120a78491|2018-12-06|Vincent Pohl|Updated ORBKIT literature entries
+5859d264aabe8e96cbd027493d90e138f2864a60|2018-11-23|Jean Christophe Tremblay|BUG: fixed minor bug in Gaussian log parser
+13e3b487e85bcb3d1b87f42b1cbf3e4c09594fb8|2018-11-08|Christian Stemmle|BUG: fixed two bugs:
+f66163803e4ef56caf3e0428c11bbd295f7d602f|2018-10-26|Vincent Pohl|Merge pull request #14 from orbkit/vmd
+e10e76ff7d35719109185630f9b6f3dab2df1199|2018-10-26|Vincent Pohl|ENH: Fixed several Python3.X compatibility issues
+662cf78c1ebf3de39b65836216b098fb74dd1e34|2018-10-26|Vincent Pohl|Merge pull request #21 from jctremblay/vmd
+7b080f7b7dbaa7332956cfb6e0d2fcd5dc2904d9|2018-10-26|Jean Christophe Tremblay|ENH: update det CI readers
+da71b1931dfade1483c592d2c382c227d8c671cf|2018-10-26|Christian Stemmle|Refactor recognition of flags for spherical and cartesian basis functions
+3695c2f3802e4456d54ec7e200984c38dfcc2069|2018-09-10|Christian Stemmle|FIX: Python3 incompatible print call
+aabda9d84bdcb3abcef262ab797b382ab48fe285|2018-08-29|Vincent Pohl|ENH: Replaced indirect imports from tools fcns by direct ones
+12a0d381e608552bf893742069e0c1b208856c27|2018-08-27|Vincent Pohl|BUG: Fixed minor bug for orbitals restart w/o spin
+f81bb76689a46b0135b591393980b6afa2f666b1|2018-08-24|Vincent Pohl|WIP: Improved implementation of spin into mo_spec (Issue #17)
+5e61cadc4bc0b48d76385bc68d5c6f1e3e843a89|2018-08-13|Jean Christophe Tremblay|WIP: added gaussian-tddft reader, minor bug fix
+a82abdbbcd8e904de2fec61373779a7d626a312c|2018-07-10|Vincent Pohl|ENH: Moved hx and vmd drafts to output
+15b833848c0f40017a53134f46dfa9466fffc69e|2018-07-10|Vincent Pohl|ENH: New keywords for mo_spec.select
+10c5f146b6159c0c9411d64f48e2efdbba45a6ce|2018-07-10|Vincent Pohl|ENH: Several minor improvements to native output
+540388dfd9d782fe31eeaeb2916697ab51ab1bf5|2018-07-09|Vincent Pohl|ENH: Added cube file based test for density, MO, and derivative calculation
+b7980c674b974f1bd6117327d9b9a449f577845e|2018-07-09|Vincent Pohl|ENH: Support reading 'new' native format
+aa1e6ed62661b81e127f61defd59cabe0d0c8a90|2018-07-09|Vincent Pohl|BUG: Fixed support for slice_length=0
+a17d5ecc000a7f7a33b4f51dbea72a357820b44f|2018-06-27|Vincent Pohl|BUG: Looser criterion for non-normalized AOs
+e54d1e1f6b7c682bcdc3cfb008d1eaea218df793|2018-03-14|Vincent Pohl|Merge pull request #19 from felixplasser/cython
+859c0fc95fe3b1adb6dadf45170d3aa195e065ee|2018-06-27|Vincent Pohl|Added test files for cube output
+fdeb6e741c0cbd8780cdaaf8ea567f6c59ee4e79|2018-06-27|Vincent Pohl|BUG: Looser criterion for non-normalized AOs
+110d518dc2413e0e7908f3e11b2c4260f2e551f0|2018-06-05|Vincent Pohl|BUG: Fixed minor bugs.
+7f89c8d575b38391211d4bb4d2938ee810b4d141|2018-05-04|Vincent Pohl|ENH: Improved HDF5 output (+ support for npz) & Added calc_jmo
+c8c043f11330c26c4ba4e9e416910d2945b20d98|2018-03-23|Vincent Pohl|ENH: Added support for multidimensional Cube files
+b19e51181703043b1f62dacf19e53d3cbb6d7e33|2018-03-22|Vincent Pohl|ENH: Several changes in output interface
+268c6be2973dfbeb693b37d5ec28d0c148fbb112|2018-03-20|Vincent Pohl|Added support for writing native HDF5 output into group
+fb07fff044bbaef173616b3a6da9b003c28eb3d5|2018-03-14|Vincent Pohl|Merge pull request #19 from felixplasser/cython
+5e53843b93bbd4ea0738aef2e373d9e582977757|2018-01-23|Vincent Pohl|WIP: Restructuring of output calls in extras.calc_ao
+14cea2bb0506f1b11c1463b43f70c52e818215fd|2018-01-18|Vincent Pohl|WIP: Improvement of output calls of orbkit.extras functions
+7c06ae8095d40731ca8adc3ee39ace7120f0b963|2018-01-18|Vincent Pohl|WIP: Continued improvement of output interface
+c3af0a726d97b90b434a4f54b3c9a985e3689ec9|2018-01-09|Vincent Pohl|Merge pull request #16 from orbkit/development
+a049596f061ce50b51f6d5001e449f515e43abd8|2018-01-08|Vincent Pohl|Removed outdated feature: z_reduced_density
+55770f9fd81258cab69fc44d92780e64c7436130|2018-01-08|Vincent Pohl|WIP: Continued improvement of main_output
+199e26784b5e037a80ba124ca0943f9d27b31176|2018-01-05|Vincent Pohl|WIP: Fixing/improving high_level output functions
+0af4ceb167cbbd3e931272a3725d41c7a20fa29d|2018-01-04|Vincent Pohl|Merge branch 'development' of https://github.com/orbkit/orbkit into development
+c756c37300cb2dccaedfa3ef839d31fba47eb310|2018-01-04|Vincent Pohl|detci: Fixed two minor bugs
+5eb4e304c6f1726d3b2b48e567b810471f3f6fb9|2017-12-14|Lukas Eugen Marsoner Steinkasserer|Merge pull request #15 from jingjingshao0103/development
+499749e5892653f1cdaaa4e3322d6ee914618eab|2017-12-13|Jingjing Shao|Changed variable names in units module
+110e0d322f8c24694e7ad304c9e5c3b2662fb1e7|2017-12-08|Christian Stemmle|ENH: More parameters vmd_network_creator:
+be1882797dcddc9450a19f63d9b2127879afc9c5|2017-11-30|Christian Stemmle|2 minor corrections
+0dae95ed04f7ac3cff8f93aad58109a094968ba9|2017-11-27|Lukas_Marsoner|ENH: Slightly improved symmetry selection
+bdfeb3718102d00c4ecec7eef32a9a11b32f7d6b|2017-11-24|Lukas_Marsoner|ENH: Add option to select orbitals by symmetry
+1a99c277337147bafbb0a9e565e62e01b22beb07|2017-11-24|Lukas_Marsoner|BUG: Fixing mistakes in handling of spins
+aab616a1ce104c622760852296890e7cf810ada6|2017-11-24|Christian Stemmle|Combine restricted orbitals and fix up_to_date
+dc575574fe27541a0398fc54b8c0da6a845eb606|2017-11-24|Christian Stemmle|DOC: Update name for module libcint_interface
+8cce75a87a3197de5297917e5ec6c90d38a3820e|2017-11-23|Christian Stemmle|BUG: Fix beta orbitals in get_spin_index()
+a4c5dae70c3ec59b9c05821d81f24f8df1a881a6|2017-11-23|Christian Stemmle|Fix check for libcint when testing
+610871a3722fab1a4c856dc7760da3ab5fea1392|2017-11-23|Lukas Eugen Marsoner Steinkasserer|Merge pull request #13 from orbkit/orbkit_write
+2c6d8a87f07578751e73590af7a67a17c0bb8e90|2017-11-23|Lukas_Marsoner|BUG: Fixing bugs in mo_spec select function
+a15315ffa76e81620505615e428b057306a230cc|2017-11-22|Lukas_Marsoner|More small fixes
+cf4141589c314415b3b134b8735f3ba1ba9d1d9e|2017-11-21|Lukas_Marsoner|Bugfixes for merge to development
+35e67e25396cea603dd64fdab11146139f9f0cb4|2017-11-20|Lukas_Marsoner|Fully integrating new libcint interface
+7c7f91cf319b313669a57a5e7ac07c873e247606|2017-11-20|Lukas_Marsoner|Merge branch 'libcint' into orbkit_write
+e8d86d4b4d489cbf8a13e5fdb0251921a47bd1d2|2017-11-17|Christian Stemmle|Transform sliced index in _ao2mo_slice() last to reduce memory requirements
+4182af22a55386c083b9862d8d7745fc27f99cf9|2017-11-20|Lukas_Marsoner|Small renaming of function in native IO
+769e0efd06301a23032b61c00a7f9c94d57f2c91|2017-11-20|Lukas_Marsoner|Merge branch 'development' into orbkit_write
+bdb4b79669b4805249a7b1ade4c962157284f2fc|2017-11-20|Lukas_Marsoner|Python3 compatability
+5f6fdefc29da155ef90495344c0c36dd8fba043d|2017-11-07|Christian Stemmle|Add some logging output and remove explicit symmetry from fcidump_generator
+6dce371dc8d40bad067782c429271a4e07e33081|2017-11-13|Lukas_Marsoner|Deleted C-files by mistake
+3c909435ab3f6f066ace14e8abda1a31ed593b01|2017-11-13|Lukas_Marsoner|Small bug fixes in readers and testing module
+175b2fcf0a8233f02212ae22b932d14d2f4673ca|2017-11-13|Lukas_Marsoner|Merge branch 'from_libcint' into orbkit_write
+a074d8b07ca1828be742bd59ae1abd215ab666f0|2017-11-13|Lukas_Marsoner|Merged changes from libcint into orbkit_write
+af80a7241ee464dc2f8881813bb86bd05ae58fdd|2017-11-09|Vincent Pohl|FIX: Minor changes in install.rst
+da22965d80b15a08bab606778e0c16e23f760ba6|2017-11-09|Vincent Pohl|FIX: Corrected some typos in install.rst
+6d3f8a7ccb0c15dfab48edc9f65a0410fb1d6327|2017-10-27|Christian Stemmle|improve FCIDUMP generator
+58ba8fbc815c9c0a7f008bded07acb0053555bca|2017-10-24|Christian Stemmle|Add paramter max_mem for int2e
+cb21d49ff28510e1e15ebe9a6754f4ba1c6ad305|2017-10-23|Christian Stemmle|Fix parse_irrep for psi4
+fca82f6453fce2105055ae7e5c145d5d53850ef4|2017-10-23|Christian Stemmle|Some code cleaning
+617becf606e86fae6c00b81e73577dc7602d31e1|2017-10-19|Christian Stemmle|Match order for real spherical harmonics
+b071ff0a9a363765d3bdd8f6bd9ffe665d07f0d9|2017-10-19|Christian Stemmle|Merge remote-tracking branch 'origin/development' into libcint
+9013049c5e27c57038dcfd6bd147477c73a67de6|2017-10-19|Vincent Pohl|ENH: Uploaded missing QC output files
+5acfbdaf79036edb439ff416cad1467f4f4b8155|2017-10-19|Christian Stemmle|Add some logging for 2e AO slicing
+a367708fa4e974825d4132b07b5cbc80c9bc7a9f|2017-10-19|Lukas_Marsoner|Merge remote-tracking branch 'origin/development' into orbkit_write
+a6f74f986d3378c5b1be74e5c59da60168f0f084|2017-10-18|Christian Stemmle|Restructure Code and fix support for arbitrary AO/MO ranges
+a988cc9b4444583cb7058ab2056447670a26c9e2|2017-10-18|Lukas_Marsoner|WIP: Python3 compatability changes
+029eb32211b7bc31276442fe27c781c980dc5b25|2017-10-13|Christian Stemmle|Fix for shell=True in add_AO_blocks
+60d870afb29c137f4c9b7f501212079b73708087|2017-10-12|Christian Stemmle|Some integrals documentation improvements
+2ef1412756518ca652f3df6e04b9dc34bd7ae303|2017-10-12|Christian Stemmle|AO/MOrange shortcut for add blocks
+106736c4b76145e1144e18ed7312c4cba5f7fecf|2017-10-12|Vincent Pohl|detci: Fixed minor bug in molpro_mo_order_ci
+c8c87ec761a814885a708ce0b9a6ffcffdd74bf4|2017-10-12|Lukas Eugen Marsoner Steinkasserer|Merge pull request #12 from orbkit/improve_calc_ao_dev
+e8fa81d4d482b05459eda740a0395317b8a5049e|2017-10-11|Vincent Pohl|ENH: Removed unnecessary import commands
+82b7eee447021a222a70bf6ea577a66e29f28a36|2017-10-11|Vincent Pohl|Deleted outdated test file for new AOClass
+7dc711548a7d55a9e32dce6740abd1c811e087d4|2017-10-10|Christian Stemmle|Documentation "Integrals with libcint"
+f61d3e7b5828267b21f87638f790357d26036a74|2017-10-11|Vincent Pohl|ENH: Removed force keyword from all update functions in AOClass
+0836d737d09e856941e54bb6858728aff3271385|2017-10-11|Vincent Pohl|ENH: Added tests for analytical_integrals and dipole
+5ea6d62840e5f2032c79cc69131ef3002387d94d|2017-10-10|Christian Stemmle|Merge branch 'development' into libcint
+328107153bd06798c57dc82500e9e4282c368ebe|2017-10-09|Christian Stemmle|Add some tests for integrals
+90cfdc99b6980c90ce887e46a1ad81ddf2cf774b|2017-10-09|Christian Stemmle|Add QCInfo.get_elec_charge()
+9b09611659529517511f4c07db11c97a8b7ee00f|2017-10-09|Vincent Pohl|ENH: Added analytical overlap test for many input formats
+7a4cae2dd74c4ba10f359cdc862eac65ff4efb8a|2017-10-09|Christian Stemmle|Support symmetry in FCIDUMP generator
+f0c6a670c317e7fb3971214406c6fe4bbb3e91d2|2017-10-09|Christian Stemmle|Add FCIDUMP generator (no symmetry yet)
+370897d63d6c9f575e6fb6c9c4031be138691c46|2017-10-09|Christian Stemmle|Import FCIDUMP code
+055891c68a3b03af23aa7aaf38dbe82cb117ac5b|2017-10-09|Christian Stemmle|Rename integrals.py to ao_integrals.py
+f7d36aa60d27808b4344c60d50f577148a42f3f3|2017-10-09|Christian Stemmle|Use numpy.ix_ for indexing sub arrays
+be79315d0be136436268e639f9b031d018a48fee|2017-10-06|Christian Stemmle|Bringing back AO slicing
+3e24201ad6d6e976eeaf77efd1250a885f2c3fcf|2017-10-06|Christian Stemmle|New interface to define AO and MO blocks
+214d95d46e13e9c1044352afe0e05306665b052f|2017-10-04|Vincent Pohl|WIP: Restructering of ao_spec
+d0d8fe637c610ee5886bdcf2f139c9fe3dc4846a|2017-10-04|Vincent Pohl|WIP: Fixed multiple ao_spherical issues
+510ef39b11d877600575ed9ff15919acc10e6eb7|2017-10-03|Christian Stemmle|Allow individual MOranges for each index
+df3eb2c5c73451fc799937205b2e34fdb08a2b93|2017-10-02|Christian Stemmle|Calculate MO integrals in AO slices
+77cfbcaa5c893d48386e605047eba296f0bd7a38|2017-10-02|Christian Stemmle|Faster ao2mo for 2-electron integrals
+4dad4479f1f53f34fe4f03902522adccd121f0ee|2017-10-02|Christian Stemmle|@property for cartesian flag
+f7b2fe8d40336257eeb5fce0ee33f56853e3cf95|2017-10-01|Christian Stemmle|Enable libcint's optimizer for 2 electron integrals
+01f573147c632ab7db18eee4f3f6d8c57e45883c|2017-10-01|Christian Stemmle|Various minor optimizations
+a04ab3a499fceddeca39686a4d5bc829243f4787|2017-10-01|Christian Stemmle|Slight speed up by caching cartesian renormalization factors
+2f59edc5eeab636a27b416963315425517690603|2017-09-30|Christian Stemmle|Add N2 test for libcint
+0f3677bc58e6c646eda01aa1116aa725d9cba9a0|2017-09-30|Christian Stemmle|Add MOrange option to ao2mo
+5a59cbfe605dbb8497ba6794c032859fbfd2d381|2017-09-30|Christian Stemmle|Reorder basis function to match orbkit
+853c71bde1f06fa470da702a10e6d170c18392e7|2017-09-30|Christian Stemmle|Fix reshaping of libcint output
+bd46b7e1e4655be3642d1198c3485ed0dd58f098|2017-09-30|Christian Stemmle|Merge branch 'libcint' of https://github.com/orbkit/orbkit into libcint
+c6992bb44830a522b698430f2d9f5d57edaac8fb|2017-09-30|Christian Stemmle|Correct scaling for coefficients passed to libcint
+51886f06f4e5d1e7dd7d629dcf97ccecfbb38658|2017-09-29|Vincent Pohl|ENH: Continued restructering of ao_spec
+b9abb1b5c5308f59246cec16fded97210249a720|2017-09-28|Christian Stemmle|@property for nuclear_repulsion
+3881dbc31b40d6a529c86fe17b0e93b1a132b839|2017-09-28|Vincent Pohl|ENH: Transferred cy_overlap.aooverlap to cy_core.aocreator syntax
+e64122d02bd67883a4e798340f3f1df0bcce92f6|2017-09-26|Lukas_Marsoner|WIP: Refactoring of Orbkit writers
+8d6b5cbdb714dd293616c2db441fd1cc81662d0d|2017-09-22|Vincent Pohl|ENH: Started transfering cy_overlap to the dataformat of cy_core
+817c9e5efaa1a9ab2f923978ec666bc91b267bbc|2017-09-22|Vincent Pohl|Applied changes from improve_calc_al
+ffe443884c18b09a184f58b8be7f8b5c4ddaa7ce|2017-09-11|Lukas_Marsoner|BUG: Fixed moveindex function from tools.py
+bfe1d76b5c24c286a3faed1a28995d6eddb8ac4b|2017-09-11|Lukas_Marsoner|BUG: mo select now again accepts lists of integers
+8ecf44cb3eeb986a3a8d3933f888ac918b5b6e75|2017-09-11|Lukas_Marsoner|ENH: Added list testing to mo_spec.select
+f068b3be0c59660d1315eb847a9d93b68e4d57d0|2017-09-08|Lukas_Marsoner|BUG: Fixing numpy compatability issues
+0c81cb5850c2c459ae040eaa354cacdfcf7adb6b|2017-09-08|Lukas_Marsoner|Merge branch 'development' of https://github.com/orbkit/orbkit into development
+c47eb5d09b5c7ce954cac4dd00152a59002511bb|2017-09-08|Lukas_Marsoner|Missed files in last commit
+305cbaf781d00696577ed4e2050a7318f86328da|2017-09-08|Christian Stemmle|Merge remote-tracking branch 'origin/development' into libcint
+c057b814d775585d632231e5becd2673dec55e38|2017-09-08|Lukas_Marsoner|Missed files in last commit
+4b512d13e999d3b5cd8e5b70ef1775543ab8c8d3|2017-09-08|Lukas_Marsoner|BUG: Fix bigs in orbitals.py
+eb6fcd6d1e41a60526f48be2d9c7adb0cb34a7e9|2017-09-08|Christian Stemmle|Calculate nuclear repulsion energy in QCinfo
+276e529176789a386f8b1ca77add4e56b743b4c4|2017-09-08|Christian Stemmle|Fix transposed MO coeffs for 2-electron integrals
+02e680b6ee7a2a78d0f4314fa9bff04f5e7f699a|2017-09-08|Christian Stemmle|Calculate HF energy in NH3 test
+f1b897e41655c9656d63483ba260357224ea7fd7|2017-09-08|Vincent Pohl|DOC: Corrected version in documentation
+03dbd01da4643a2dc639b3edb1361f2e635b19bd|2017-09-07|Christian Stemmle|Add Integrals unit test
+cb290045e670add9be2c695c122ef33c6a030869|2017-09-07|Lukas_Marsoner|Merge branch 'development' of https://github.com/orbkit/orbkit into development
+f644184d43fcff24f6b44a746fc6c24b174c0ad0|2017-09-07|Lukas_Marsoner|BUG: Fixing mistakes in orbitals.py
+98e59d5c8ee49963a839091d618c5c3e856370d0|2017-09-07|Christian Stemmle|search for libcint in $PATH
+b3e3af06ba96f2e76ed0afa6308ca3ea5283406f|2017-09-07|Christian Stemmle|Fixing some errors
+1219d1791cc9dcd79b7dbe70a340c84a608424f4|2017-09-07|Vincent Pohl|BUG: Fixed address of development website
+f4695b818ebeb37687f0b29f058949a8995536b3|2017-09-07|Lukas_Marsoner|ENH: Make version selection available on Webpage
+e72caa8c57df31333857a405224956a368c44bbd|2017-09-07|Christian Stemmle|AO integrals with libcint
+bbe83d1291b9b9b45db8ee90a9460df29d5cfe6f|2017-09-07|Lukas_Marsoner|ENH: Literature on Webpage
+5276d2eebeac7b35418b1f3eb1c4073d652104b2|2017-09-07|Gunter Hermann|Merge branch 'development' of https://github.com/orbkit/orbkit into development
+bb89eb0ceed96e7deb9e37b39e404818ba066eb2|2017-09-07|Gunter Hermann|WIP: Fixed minor bugs in documentation.
+eb08ae3a26d9beb52ba07543a76581b370cb7bca|2017-09-07|Lukas Eugen Marsoner Steinkasserer|BUG in orbitals.py - get_spinstate()
+abc48943016730d912fc0b850d047ddb27af97b6|2017-09-07|Lukas_Marsoner|BUG: Fixed mistake in doc
+221742ad3f2cb5059de92223d4992a7ba7aca7f5|2017-09-07|Lukas Eugen Marsoner Steinkasserer|Merge pull request #9 from orbkit/refactoring
+96b1818eab8d2e2a317a6517994f3dd504daea80|2017-09-07|Lukas_Marsoner|ENH/WIP: Updating webpage
+c8073a0bf8f5b290ef627af711c9e3ecfdc4934c|2017-09-04|Vincent Pohl|DOC: Merging changes from stable (v1.0)
+5264201e8e450e26fe545fed2b2565d385abc809|2017-09-04|Vincent Pohl|ENH Merged changes from stable version (v1.0) into development
+8fc521f59489e664280bb575d46661920c588034|2017-09-04|Vincent Pohl|DOC: Merging changes from stable (v1.0)
+49d136992e831a9c319729b89cb3ab9ce919a650|2017-09-04|Vincent Pohl|ENH Merged changes from stable version (v1.0) into development
+c6afbe93521021e2a491b2d941325bb56fe87acf|2017-09-04|Lukas_Marsoner|Missed import in DetCi __init__
+17e2c642686c13b91eccd196748a265c46263c4f|2017-09-04|Lukas_Marsoner|Removed SOC from Refactoring
+6b6dbab24ce5932260c60a2cde818b7362970376|2017-09-04|Lukas Eugen Marsoner Steinkasserer|Merge pull request #8 from orbkit/so_coupling
+e266a05937c74aa8e49ae6f9604de5897ec24ad8|2017-08-28|Lukas_Marsoner|von Neumann entropy
+51d48b8a331d99072f8c9efd5641e57d20d01838|2017-08-25|Lukas_Marsoner|Update documentation to new features and API
+8d398e61f774ffcd8d417117bb9f9ef8aa4a4b2c|2017-08-25|Lukas_Marsoner|Vanity changes
+8adcb55f15652ef027a8fec86145aa2583ce5731|2017-08-24|Lukas_Marsoner|WIP: Starting work on a implementing Tij
+61b3e33cde3fa65ab740540523bd4fd5a67b1a4e|2017-08-23|Lukas_Marsoner|BUG: Fixe bug in CIinfo copy()
+4fdd715b30b5106704a95c596a75252bfa952ebc|2017-08-23|Lukas_Marsoner|ENH: Added test for Gamess reader
+8a97e8f794f66690622e34cd822b8a421c0a6fa8|2017-08-23|Lukas_Marsoner|Bugfixing in orbitals module
+c96c7d6f01936d00de36b02ed6f96aaf2536db5b|2017-08-18|Lukas_Marsoner|Bug fixes
+0670753ca58352fa4a5305f82dded77e71144aa2|2017-08-16|Lukas_Marsoner|More Bugfixing
+b16e2e9c32fdc7f73c385deece0c4549e47878e6|2017-08-14|Lukas_Marsoner|WIP: Interface to MolSOC
+a90757ac78f7a6e102a82636921b4c950ddb9624|2017-08-14|Lukas_Marsoner|Fixed Bug in h3x test
+8e4e2aafc97ee3636fe17bc1e1682d46dc1f2995|2017-08-14|Lukas_Marsoner|Looking for bug in h3+ test
+f87349f075a5a247b04520d85461e3bfd1a3b7ce|2017-08-14|Lukas_Marsoner|WIP: SO coupling in Orbkit via MolSOC
+a01b329bc9852b32ab496a3f11bff280444395f0|2017-08-11|Lukas_Marsoner|Some work on SO-coupling and bug fixes
+1fb20d4e29f6f74e6820f67eb9e291891f21297d|2017-07-17|Lukas_Marsoner|More work on MolSOC interface
+4ad2a75477cf037d2cb747e9b1d867bc0ed4f858|2017-07-07|Lukas_Marsoner|Fix small bug in reader tests
+0f9f32c6b722d3e71f49056e8c3c1edbe33e8db7|2017-07-07|Lukas_Marsoner|Revert part of last commit
+fbf03721f89f90e468371d4f24e87baaa945834d|2017-07-07|Lukas_Marsoner|Small improvements to testing
+3abc09ca3450330a6f3063cb2a0ec09c93883c5e|2017-07-07|marsoner|Update units.py
+47ddfe7310af5e31dc69fb4e57d2caec9ba8229e|2017-07-07|marsoner|Merge pull request #7 from marsoner/Refactoring-of-reading-functions
+6e2e7d4632c9fa66f3b9d2c692b4e050de324b58|2017-07-07|Lukas_Marsoner|Reference data for rho_compute updated
+a9d071a0c1261cf83ce986af1a68623ac58d143a|2017-07-07|Lukas_Marsoner|Final bug fixes and DetCI test added
+64b09e638692f9fb348106a02efd4c82419d78cb|2017-07-07|Lukas_Marsoner|All examples should work now
+a70d75c25dd785ca42ca34728e14bc11640031a7|2017-07-07|Lukas_Marsoner|Fixing examples continued
+5c8427b0210d8e9a97a1264ffa6e7aa9202b01df|2017-07-07|Lukas_Marsoner|Bug fix in MOClass
+2b5906a5b6eae08d08234fa00d72023d312c1fc8|2017-07-06|Lukas_Marsoner|Small bug fixes
+a09c94c4cc80bc21094c747cd205a9e6d4eac271|2017-07-05|Lukas_Marsoner|Moved mo_select to MOClass + various bug fixes
+4d8ebb25c86ee1e012deda4396d81fccaef7f797|2017-06-30|Lukas_Marsoner|Small addition to previous commit
+5aa5202da5c63babf67950513fed5828d0d400f9|2017-06-30|Lukas_Marsoner|Major update to QCInfo
+47514da5ada6b16cc48c126e581a45955ee360ce|2017-06-18|Lukas_Marsoner|Corrected bug introduced to QCinfo
+f62dd52d67ef03f2f1ac86880b605950f2269f4e|2017-06-18|Lukas_Marsoner|Added new write and read function to QCinfo
+623a6f6a78b378212fc8c4e1fc06af23b7fb8c5d|2017-06-17|Lukas_Marsoner|Minor cleaning up
+513e90db9cbe2595ce9239100332ab7ac9fabb9f|2017-06-16|Lukas_Marsoner|Mention new testing module on web page
+146c27254d1c6968663b49b1cd891d67ee7b42ec|2017-06-16|Lukas_Marsoner|CI Readers now also test reading from .tar.gz
+8d68f985265963f39a974b89b8f198d7fee6ad67|2017-06-16|Lukas_Marsoner|Added tar capability to ci readers
+90b00ff742175b625e2af9886398bda837b9864b|2017-06-16|Lukas_Marsoner|Better reference data for rho_compute test
+c0f5c9a51e2b36dc3a7da8755eee9657561cdcd9|2017-06-16|Lukas_Marsoner|Work on tests
+3061b72283304465837716419e60aa3b466fc6c6|2017-06-16|Lukas_Marsoner|Addition to previouse commit
+8b1d90c065cc2df951de2ca3e1b674ded12826aa|2017-06-16|Lukas_Marsoner|Some more work on reaer functions and testing
+fdaca5111779e16f15e7bd6fc1376d8b5741092a|2017-06-15|Lukas_Marsoner|Minor additions to previous commit
+fbc033298116e14ae8877aa6187aea003b6cb53a|2017-06-15|Lukas_Marsoner|Major Refactoring of reader and helper functions
+a768bc1e416ef34a68562769743c0c443efbcba0|2017-05-08|Lukas_Marsoner|BUG: Fixed Typo in output.py
+0c2ba00843c6666e88c918cc9d9f650d1b051623|2017-05-08|marsoner|Merge pull request #5 from marsoner/cython
+a13a89a7ae2014f515b8dbf77c18ad87ce291205|2017-05-08|marsoner|Merge pull request #4 from marsoner/units
+4c82822a433468c2cc929b972bdb7cb33d4cab0a|2017-05-08|marsoner|BUG: Fixed Typos in units.py
+35c63d729b1dbadc39bb6b0076e55d3008ab6afb|2017-05-08|marsoner|BUG: Fix stuff in units.py
+b5a502152771de3df83c06a287e334f92e6f1aaa|2017-05-08|marsoner|BUG: Add missing __init__.py to test module
+e987e2e0d05b2486aa376ca6d7b1d5fcf3aa2062|2017-05-08|Lukas_Marsoner|Merge branch 'cython' of https://github.com/marsoner/orbkit into cython
+4436f01de7cf1f02d93a092e10aa6a650a137b5a|2017-05-05|marsoner|Merge pull request #2 from marsoner/units
+274c31854d2011d49e9efd86b086b5ab73e949de|2017-05-05|marsoner|WIP New Molden reader
+75c97ef95c5d037c753c710484d8ca462b7511ff|2017-05-05|marsoner|High level function based on previous main_read()
+ffb88bb392bdc8254637d0737971fe82a6ee2399|2017-05-05|marsoner|Merge pull request #3 from marsoner/units
+8180da2581e5ec20da8521c352434952ae0601d0|2017-05-05|marsoner|Merge pull request #2 from marsoner/units
+50b57acf90a5c1f9e385a46ce6b6e6376eb86a89|2017-05-05|marsoner|Also test Dalton definition
+adfd861e8f16888e74e0053773d01294f555dc3e|2017-05-05|marsoner|Correct stupid mistake in units test
+e2dee8228e3134769a229e3cf94ccb2bb1e736cf|2017-05-05|marsoner|WIP Refactoring read
+ae4fd5a61cd5dc169d3802e7ab0bc230c78a791b|2017-05-05|marsoner|Fixed Typo in high-level.py
+5ac8ce4377e9db2ed5baa0d0f09968f8559bc320|2017-05-05|marsoner|WIP: Reading refactoring
+cc34c92c45ea49a32572c83710b37ddd7543fdd9|2017-05-05|marsoner|Refactoring read functions WIP
+a0f960b5eb9eaf780f6970b6b372135eec8ffcf1|2017-05-05|marsoner|Merge pull request #1 from marsoner/units
+482bd2567679839b1d3663ee0d77c900073cecb1|2017-05-05|marsoner|Add equal() function to be used in testing
+6161cda59ef4999344873efa0b6fa24e806fbf95|2017-05-05|marsoner|First attempt at setting up systematic testing
+f91e96348638fb7c4e291320cbbba0f03d10ac09|2017-05-05|marsoner|detCI: Use orbkit.units in ci_read
+57a748a746b29ca0762b4c5d45a365f1e1ae8f73|2017-05-05|marsoner|Made divisions work without imports from future
+8568575956b49a46fc6d3a5ed03457d710ef0e66|2017-05-05|marsoner|Corrected units.py and added Debye
+4db247802b416e66509223591b566dff40f9f203|2017-05-05|marsoner|Readers now use new qc.format_geo() functinoality
+321466efaa74681d838807fda99a4aff65901162|2017-05-05|marsoner|Use units.py in qcinfo.py
+1e9de69d100f18494659f81c4ce163e5e74f6b4c|2017-05-05|marsoner|Forgot comment in units.py
+4aa2044b58ffb62ae7f2298e7bfa49e25a902959|2017-05-05|marsoner|Use orbkit.units in output.py
+a9f322c4e12e1799b616d437bc62254c87ba6ad6|2017-05-05|marsoner|Added units module
+94560acd39ddd947d5b7c76e6fc961cb79e5fafe|2017-03-07|Vincent Pohl|Minor Changes
+f36e3830728c2b1d3d86ac41b928e5051ba61b34|2017-02-28|Gunter Hermann|Merge branch 'cython' of https://github.com/orbkit/orbkit into cython
+3f64f5a09b2daa64f7ed35a9f051d16e6fd71ac0|2017-02-28|Gunter Hermann|detCI: Minor changes.
+76bd9c2075d34ec6b93f2c3016f2f70567c55fc1|2017-02-08|Vincent Pohl|detci: Minor improvements
+6b9764d9f862c43269060a8c0822da4c9ec03688|2017-02-06|Gunter Hermann|detci: Add TDDFTreader for GAMESS.
+d8e8403512dd78ce97039f38df2b3f34667960e1|2017-01-31|Gunter Hermann|detci: Minor changes in TDDFTreader.
+e7784e5007bf38a4e9b2a03b8993ab513927e660|2017-01-30|Vincent Pohl|detci: Fixed bug in occ_check
+5d870ba81cdf07cf66a9d259d0febfccfe739795|2017-01-26|Vincent Pohl|detci: small improvement of mcscf reader
+c0fdf0deebb86bac51aad64c60eeeba4ee986c69|2017-01-25|Vincent Pohl|detci: Added arXiv link
+93121cfe3c2826ccfd03354c0e11d1dac17b5410|2017-01-24|Vincent Pohl|Add kwargs numproc,slice_length to calc_mo,mo_set
+69a42720821380136c6f8bc696b808425a4d5eae|2017-01-24|Vincent Pohl|Fixed bug SP orbitals in FChk reader
+d705d6d4ea8cf24698ddc9af28301393da33fe47|2017-01-24|Vincent Pohl|detci: Added Documentation and tutorial files
+0c7e0fc454d3e3366f6d38170227a8258f484c1e|2017-01-23|Vincent Pohl|detci: main_ci_read returns now QCinfo instance
+b4ad6dc1e2b1b092e06805f90aa6b40cd958640f|2017-01-23|Vincent Pohl|Bug Fixes in atomic_popultions
+7b717d086da342697b0b19e8bb3d7c503b511633|2017-01-22|Vincent Pohl|detci: Fixes and docstrings
+86f8b7b91a53214c13100fac87641bc3f4ad8620|2017-01-16|Vincent Pohl|Minor changes in analytical_integrals
+cb50d0b099db8be697d36497a658dbfb6eebc7c9|2016-12-19|Vincent Pohl|detci: Fixed missing import of prange
+7e9212c7dbeb154c9c4b958f2854447c9beddac4|2016-12-19|Vincent Pohl|detci: Added functions for full coefficient matrix
+0c2a2282f5eb08db99a2737275be33374ddf71e8|2016-12-15|Gunter Hermann|detci: Added escf-reader for TDDFT data from Turbomole.
+fe30e0fcef798af0585ff2a26a7e2be3222d6f25|2016-12-07|Vincent Pohl|Added Convenience Functions to analytical_integrals
+15afb09675fca81bc5b2372b2d4b40e557982a21|2016-11-25|Vincent Pohl|detci: Added docstrings and a generic CI read function (main_ci_read)
+772e177e616e56bc166f18c379b1d3f8cb76f75d|2016-11-18|Vincent Pohl|Added Link to arXiv and to the BibTex file
+0787a03d20ea96edd7217397aee84ce72523b325|2016-11-18|Vincent Pohl|Added bibtex file
+2626af6e78b670f78301fe00f865f15342d71ae8|2016-11-18|Vincent Pohl|Fixed minor issues
+1d11f6ba55b504a6b255fa90167c2d7d7b39667b|2016-11-04|Vincent Pohl|Minor changes in qcinfo
+40a507fe356084abd4a1edc075e00bb31fefd77a|2016-10-18|Gunter Hermann|detci: Corrected TDDFT-Reader.
+211239dc15260a986211faeb004558e17f1d74b6|2016-10-18|Gunter Hermann|Merge branch 'cython' of https://github.com/orbkit/orbkit into cython
+278dc426626584868963c5ced5359cf36b338d65|2016-10-18|Vincent Pohl|Fixed Minor bug in grid.adjust_to_geo
+4cc6d896f63759fa312cee280cf8de440dc00619|2016-10-17|Gunter Hermann|Merge branch 'cython' of https://github.com/orbkit/orbkit into cython
+298ba113c5dadc651d06b4f8c5e906607407dfea|2016-10-17|Gunter Hermann|Changed TDDFT-Reader.
+679147a429c1c256241f5393ce04d15687544c6b|2016-10-17|Vincent Pohl|Minor changes in qcinfo
+8f7ff23b63953971575831a3043e53232b74d2a2|2016-10-04|Vincent Pohl|detci: Initial Commit
+a73e81a00bafdfec3427382b760737a24c246882|2016-09-14|Vincent Pohl|Added simple interface to ASE Atoms Object
+40b290cd97929392223dd34f96fcda30f4a4a848|2016-09-14|Vincent Pohl|Minor Bug Fixes
+85a93ccf9de0a0717f22779348aaabca048ec4e0|2016-09-07|Vincent Pohl|Added svg file of orbkit logo
+c630701515c6c494d11b48b38043ed7ff2f77341|2016-08-15|Vincent Pohl|Merge branch 'cython' of https://github.com/orbkit/orbkit into cython
+d4617615a717a487cc33739de8b9578df7024dde|2016-08-15|Vincent Pohl|Several changes in analytical integrals
+be2f873045753d1f508423c6df38a47decb32e96|2016-08-15|Gunter Hermann|merge
+f29112b19fc02723bd800bfa909894876f9efcc1|2016-08-15|Gunter Hermann|Minor Changes.
+ac1af40eaa8f8e4aa0f984161e67f4e658efde75|2016-08-15|Gunter Hermann|Minor Changes.
+d1776ad00375688fdc1b09b2b0431478c2042f98|2016-07-22|Vincent Pohl|Fixed support for molden files created by ORCA and PSI4
+1ecf253ac4867f4b933e7a8b6cb15c51f151e10c|2016-07-11|Vincent Pohl|Added --itype=orbkit.dump as command line argument
+891a74205fa70820f9e34b803155d04c0ae9cef0|2016-06-21|Vincent Pohl|Several minor changes
+f7c91ee3151a7c585d955f90e2d6fd9ecc4bc1b2|2016-05-11|Vincent Pohl|Resolved Python 3 issue
+d041582bf5febe8b6ea00a409d825d44f174e2eb|2016-05-11|axelschild|Updated cubature examples to work with new cubature version.
+bc47fad38dc2c0a470286eb5840ce5f505c8aeb8|2016-05-11|axelschild|Updated cubature example to work with new cubature version.
+11307f3fe2b6aecc774c6fe357167cd94ce1aa10|2016-05-04|Vincent Pohl|Minor Changes
+05289876ff702666012df74ff4b2c4157c2a0fa4|2016-04-23|Vincent Pohl|Update README.rst
+861bf4402fa01c50fea1307e4c9a9b3685dc4b89|2016-04-23|Vincent Pohl|Update README.rst
+4bd479b84b7f20b6a3b18985f1a45e07c00eceee|2016-03-29|Vincent Pohl|Minor change to documentation
+45080bc33eaff7ccf6774cbe5f1f40dc25352fa6|2016-03-29|Vincent Pohl|Added VMD scripts for orbkit applications
+7734dc6cfcd2cd3a0ec46b0dda08e7d44eba8f65|2016-03-24|Vincent Pohl|minor bugfix to core, changes to mayavi viewer
+48f6cac587191504f44339d1b3e857b9522dbe71|2016-02-29|Vincent Pohl|modified cclib parser to use default order for atomic basis functions if ccData.aonames is not present
+585b327ac8b639775e0f7ac3f25e83ee03c9cbe2|2016-02-29|Vincent Pohl|Merge branch 'cython' of https://github.com/orbkit/orbkit into cython
+275d7cb7baddaee66f6815e93fda4278b6825e83|2016-02-29|Vincent Pohl|Added spherical basis functions to read_molden
+c38501d977f2c8746fd48348a222a7e4bc3eb877|2016-02-29|Gunter Hermann|Merge branch 'cython' of https://github.com/orbkit/orbkit into cython
+031214f0486c0c736416758d1da225926b898121|2016-02-29|Gunter Hermann|Minor change in Gammess-Reader
+3f98e817d625e591b506c4931ed8b6b85474f625|2016-02-19|Vincent Pohl|fixed minor error in orbkit.__init__.py
+92a61eb0024b0e5388ddb74a64778efef01ea17d|2016-02-16|Vincent Pohl|A few smaller additions to the examples
+fc1e61c7cef4701b2c2583232a92ef65f4adf52c|2016-02-16|Vincent Pohl|Fixed some Python 3.x issues
+6d778cc5877f6555a8e13de5c1d40c5380131a8c|2016-02-16|Vincent Pohl|Finished porting weave to C/Cython
+1df085fef9ac1ac31ab141b6e15e2a7392883675|2016-02-11|Vincent Pohl|ed
+e647f14c037c869327b995c8e0eb1438710ca8a8|2016-02-11|Vincent Pohl|Continued proting weave to cython/C
+300dee66f9b08d0c547ee81ab7892053fdca092e|2016-02-08|Vincent Pohl (Laptop)|Fixed problem with variable types
+2256217e32ce00372a6834b281cdd759b4541654|2016-02-03|Vincent Pohl|Added wfn/wfx support to analytical_integrals
+06295bd22421334ea02ec87177210bb9ad1b7652|2016-02-05|Vincent Pohl|Started porting weave.inline to cython and C (for compatibility reasons)
+ff7cadb35c1b9d11cd66ea90833433a3edea93c1|2016-02-01|Vincent Pohl|Fixed minor bug in gaussian.log reader and in calc_ao
+829623df7d90055a100eccc37e1a3405bbe66666|2016-02-01|Vincent Pohl|removed print
+e81758132bf7339b68fab68599f29e6e6b99c3d8|2016-02-01|Vincent Pohl|Merge branch 'master' into vector
+e1cc62982ee5eb75e1a01ba2f4a661606661bdd1|2016-02-01|Vincent Pohl|Added options to output.view_with_mayavi and Added check for resource module
+ff53f934849212960d422dc31c64ade7edc7ea9c|2016-01-26|Vincent Pohl|Added .wfn/.wfx support, added spin-density to the documentation
+7c123d1d41db4d5b5370bef4c55b9416b66a77b8|2016-01-08|Vincent Pohl|Minor bugfix in extras.gross_atomic_density and vmd script creator
+d1d7b27d499021f5eb2d36788c8b428364e30c4b|2016-01-04|Vincent Pohl|Update README.rst
+193549695bc54aa44d4db616220f8dcc7ca01ed9|2015-12-16|Vincent Pohl|ed
+864daf272d3c73e23260c1c1a942d926a29ff0fb|2015-12-16|Vincent Pohl|Added application example files
+709698759e04eba5a32eac9b95f792843cc4a5cd|2015-12-15|Vincent Pohl|Implemented all output formats for regular vector grid
+823739d5f20db95eca71a02d25a77cf1e322eefc|2015-12-15|Vincent Pohl|Removed double check
+268374451b276837dbbd9687ab2e0ae3573c0b20|2015-12-10|Vincent Pohl|Fixed a minor bug for --adjust_to_geo and read.mo_select
+082dab85417f43597aa90afaa2860b5b9cf1f2da|2015-12-04|Gunter Hermann|Removed doc/_build
+661353f274e4ced50f00ccccd7f9d5522dde4072|2015-12-04|Gunter Hermann|Merge branch 'master' of ssh://git.code.sf.net/p/orbkit/code
+b62a3c8992e29fc19d09bb5bd32bee397e06b946|2015-12-04|Gunter Hermann|Improved and restructured documentation. Added function for Bary-center.
+b4c838f0a53b1534496f95d64ec242c8030cd857|2015-12-01|Vincent Pohl|Minor changes
+2f4fa54ad017baf3ec7507fb196b1aef779d43bf|2015-10-16|Vincent Pohl|Replaced "atom projected density" by "gross atomic density"
+df187691bac518ed493ef10e6e1b3d4f966928fe|2015-10-15|Vincent Pohl|Merged Gamess Reader
+7ed0fd9a43669e177c03dd97e6db8c1a1fe690fa|2015-10-15|Vincent Pohl|Some changes in doc
+142859ab22a3a888c07c0592cebf30dbdcdac0d2|2015-10-14|Gunter Hermann|Gamess Reader for structure optimizations and unrestricted calculations.
+b7ca403a4e3ca5a27f5b9937076f6956b23ec817|2015-10-13|Vincent Pohl|Fixed minor bug in output.cube_creator
+6f96b24a10f165f73e21a6e7f2ced93f50f3260c|2015-10-06|Vincent Pohl|Added tutorial for cclib and updated html doc
+872aebc311f62cc60d38d4736f4feea5ccd87865|2015-10-05|Vincent Pohl|Added short note/sketch on ordering of 2d data
+b275b8fda431039515c67726c202dfdab7f17e72|2015-09-30|Vincent Pohl|Merge Changes in Gamess reader to current commit
+0f6be971f72becccd0d49929cd7672184fd8188a|2015-09-30|Vincent Pohl|Support for cclib and UHF/UKS
+225dd85784ca94dd9e1caa37e7d3a466e6a4b598|2015-09-18|Gunter Hermann|Small improvements in Gamess Reader.
+7ec6d35d306d8bfa792fb32ba646e1278e2f9d6f|2015-09-02|Vincent Pohl|Bug fix in output and tutorial for population analysis
+f976619539567625c51f5632137a087410547c4c|2015-08-31|Vincent Pohl|fixed bug in analytical_integrals and extras
+0fa3c54f5d2cc68481039d7e756c22c4b47e2061|2015-08-26|Vincent Pohl|Merge branch 'master' of ssh://git.code.sf.net/p/orbkit/code
+3233997a0ddc69bf2f9e10be6148e3d093018001|2015-08-26|Vincent Pohl|Started tutorial for Atomic Population Analysis.
+550ae689e7e30e910df102b22f72433ce670f0f3|2015-08-26|Gunter Hermann|PDB and XYZ file creator.
+b0b10f51971097383323a53ee8205173ae79e0fd|2015-08-05|Vincent Pohl|Fixed bug in AOMix reader
+578048320152321e8f51da72eef204ade566bdc8|2015-07-31|Vincent Pohl|ed
+eaeddbfb261f6159fb0c91e7cc158ec9933f7d73|2015-07-31|Vincent Pohl|Completed documentation and implemented general analytical derivatives up to 2nd order
+bb4e0689e1765ff728ce89b4fffbb6bb927743e3|2015-07-13|Gunter Hermann|Several changes:
+5ea8e45f1fe87c5de91b4db4f918951c436e94a8|2015-07-06|Vincent Pohl|Changes in documentation and in docstrings
+f45a7baf085aaf74fc389b85aacdfff00707a37d|2015-06-22|Vincent Pohl|Spherical Harmonic Gaussian basis sets
+e3e693e088874e41218d712e1ec2bbf2b4d2dc30|2015-06-10|Vincent Pohl|Several Changes and Bug Fixes =============================
+2b58d15eeb6f81fb9a4084ed7c56776b0a603c7c|2015-02-18|Vincent Pohl|Fixed minor bugs in 'read.mo_select()', 'extras.calc_mo', and 'extras.mo_set'.
+cf6060dc9d95f2bf8688067e105ad3aa18b7aac0|2015-02-16|Vincent Pohl|Minor Bug fixes
+1ac0ede0ce967d5ffa2b48f39f7b58d01fdacd23|2015-02-11|Vincent Pohl|Merge branch 'master' of ssh://git.code.sf.net/p/orbkit/code
+44dc02249cfac8181acd3e893c4d42d622ceb031|2015-02-11|Vincent Pohl|Added minor option to analytical_integrals.print2D
+3b78dd5a811b79ea42b3787917902f85494b086b|2015-02-11|Gunter Hermann|Fixed slicer.
+11367f887779b2b47466ac81f9f04d9d652e6926|2015-02-11|Gunter Hermann|Merge branch 'master' of ssh://git.code.sf.net/p/orbkit/code
+af534874fde9d337ade70768814deb3ce0697162|2015-02-11|Gunter Hermann|Fixed slicer.
+3fd8ff58968bce94004c6026bcba928a625a3876|2015-01-27|Vincent Pohl|- Added the option --calc_ao in order to enable the user to compute and save   the atomic orbitals exclusively. (parallelization over AOs and not over the grid) - Fixed a minor bug in read.py and core.py - Added orbkit/omp_functions.py, a simple interface to multiprocessing
+321a428f74ac86a939bc94dfc395637d5c01b289|2015-01-15|Vincent Pohl|Added an example for using orbkit with cubature (examples/interface_to_cubature.py)
+f269d78cb255b48184b4f9e79eac6d5d9d16da4e|2015-01-15|Vincent Pohl|Merge branch 'master' of ssh://git.code.sf.net/p/orbkit/code
+9d0a3733deda2c91df91661375bcf1937c667c59|2015-01-15|Vincent Pohl|Fixed bug in core.l_creator
+213a14d4fc75e20fa9e01e8399b7580f772956ff|2015-01-15|Gunter Hermann|Small error fixed.
+1019fa9ffcff41c5577982e474c14668dc1967d4|2015-01-14|Gunter Hermann|Remove print commands.
+f86b99b3ee3ef36e2445f1a559fa182d37e2e005|2015-01-14|Vincent Pohl|Merge branch 'master' of ssh://git.code.sf.net/p/orbkit/code
+1fab4fba233604d87f5e105a88c7bef42a60b22d|2015-01-14|Vincent Pohl|Minor changes
+d36cfb2d7674fde43dbca726eff2ba1b274f2c24|2015-01-14|Gunter Hermann|Reading AO exponents in gamess reader.
+39a02902027a4138a7145577a91b1ae750f997d8|2014-11-26|Gunter Hermann|Merge branch 'master' of ssh://git.code.sf.net/p/orbkit/code
+f3b59a8d3d6e435967b8a49e1e1fc50bbfb413e2|2014-11-26|Gunter Hermann|Small changes
+f6aebc2e9b7eda96be2c810db4a2b737f653f023|2014-11-26|Vincent Pohl|Implemented some additional features to --mo_set and --calc_mo   - Support of direct input of molecular orbital list, e.g.       --calc_mo=1,2,3   - Support of the keywords `homo` (last orbital in input file (!) with     occupation number > 0.0) and `lumo`, i.e.       --calc_mo=homo-2,lumo+3   - Support of python range using the colon sign (`:`) as seperator for the *args, e.g.       --calc_mo=1:3,4:9:2       (compution of MO 1,2 and 4,6,8)
+d9fafaf348030ffe34bfece82d6b2497e5115114|2014-11-13|Vincent Pohl|Fixed a minor problem in analytical_integrals
+5d4ac744f6185b1440859befbc7e00ae5a9b9967|2014-11-12|Vincent Pohl|Merge branch 'master' of ssh://git.code.sf.net/p/orbkit/code
+a6ae9af0661427e46edeb6621c16f09855603fee|2014-11-12|Vincent Pohl|Added missing adjust_grid variable to options, added new ZIBAmira Colormapcreator, started commenting qcinfo
+4706143bbc0a4d9820a551c5bfdf1f46b80a48c7|2014-11-12|Gunter Hermann|Merge branch 'master' of ssh://git.code.sf.net/p/orbkit/code
+22c3cfe0ec9152607f73f1dfce805673e3de9cb2|2014-11-12|Gunter Hermann|added slicer to core, parallel computation of mo overlap
+11abd5d62c8bb7d29b8e3f796f0b29518908de34|2014-10-27|Vincent Pohl|Added an option (--adjust_grid) to automatically adjust the grid to the molecular geometry.
+f3ae1c61609b1d0f1271d4f4ce3373090d247628|2014-10-10|Vincent Pohl|Combined extrapolation and MO-overlap calculation for ordering routine.
+e0c4d94fbfff7fdcad3babd847e2204c883fbe8a|2014-10-09|Vincent Pohl|Fixed bug in orbkit.multiple_files.
+03718d0d404abc34868c7590afe0bd110ee685ea|2014-10-08|Gunter Hermann|Merge branch 'master' of ssh://git.code.sf.net/p/orbkit/code
+95b14e3f005c26e4b05bc94c17f49387d9314e25|2014-10-08|Gunter Hermann|hdf5write added to output.py
+0944a4dff907ca77f4a7e1af9db2f6ef26e8c975|2014-10-07|Vincent Pohl|Merge branch 'master' of ssh://git.code.sf.net/p/orbkit/code
+025786a27690686c04a16e2d2739e2b15df70554|2014-10-07|Vincent Pohl|Some Minor Changes
+0899a360da375e09ee3e4f0b7a0f97a800fed66b|2014-10-02|Gunter Hermann|Merge branch 'master' of ssh://git.code.sf.net/p/orbkit/code
+1fbf2c6d292020c633acd678383850ac5d094a22|2014-10-02|Gunter Hermann|Small changes in orbkit.read and orbkit.grid
+efa17213bd9188e81ccf87af76095cbde7fbec4c|2014-10-02|Vincent Pohl|ed
+54a61989f431d658b92804da118691693aa54e87|2014-10-02|Vincent Pohl|Minor changes
+4cdf2c8fda0ebeb9ee17ada4b1ec5760b73f8859|2014-09-12|Axel Schild|packed NaCl_molden_files again
+a8487e350f0808f758d30668d512417c118dd679|2014-08-14|Vincent Pohl|Converted qc.geo_spec to numpy.ndarray
+51bfae77598b7488272403a231752668570b65a4|2014-08-13|Axel Schild|Small changes in README file
+3e92b0389bd828590ace8ee43d89ccb14a0bf01d|2014-08-12|Vincent Pohl|Ordering & Analytical Integrals
+f259adc3d9414fb706a79c5b669564446b5ad3fe|2014-06-27|Axel Schild|Merge branch 'master' of ssh://git.code.sf.net/p/orbkit/code
+89906b139382fdeec95fb152126788b225d36f2d|2014-06-27|Axel Schild|scipy.weave is deprecated
+e0792eaa151144849162bead8b3e3a1afca018f9|2014-06-20|Vincent Pohl|Added computation of analytical Overlap Integrals incl. example for STO-3G water MOs. Modified ordering routine.
+aaa6cfebfbb40b6375908189d9b2ebe7cc3cde32|2014-06-03|Vincent Pohl|minor changes in the documentation; added a __version__ string to __init__.py and orbkit
+d28aa8ea8d0ae70bd37ff718bacbfde0bd48f56b|2014-06-03|Gunter Hermann|Merge branch 'master' of ssh://git.code.sf.net/p/orbkit/code
+0255a830f50fd2c9b4a6523492663f870d7d4821|2014-06-03|Gunter Hermann|wfn reader
+28bb223ffcf84d4dfafb70ad74b0ba1d255e4408|2014-06-02|Gunter Hermann|Delete unnecessary variables
+6e548145b870d81d8a2402cab96454fb683d154e|2014-05-27|Axel Schild|removed unnecessary variable
+dd731f7cd50cb02d4bbead19faf00f6d094a46e8|2014-05-27|Axel Schild|minor changes
+b713bf629468830c1d15750eedbb558628154527|2014-05-27|Axel Schild|fixed ugly tabs in extras.py
+e2a9b54c562986eeed09a44b8ced256360568963|2014-05-26|Vincent Pohl|Added set_grid function to grid.
+a47d027542d77bc7ca61822c9608ae8765f77d7a|2014-05-23|Axel Schild|Added simple center of charge calculation
+b885ac14f6e5783d98a09e7c7753e0b74a15608a|2014-05-22|Vincent Pohl|Corrected some qc class issues.  - qc class has been initialized multiple time  - used qc.todict() for functions in extras
+7bd7a7a42c551a52ee3a7c757808dfd588dc18a6|2014-05-22|Gunter Hermann|Merge branch 'master' of ssh://git.code.sf.net/p/orbkit/code
+54b4c38dcf07a0eb1f3a60cec988912c812be30d|2014-05-22|Gunter Hermann|1. pdb and xyz file creator. 2. Reading Mulliken and Lowdin charges from Gamess output files. 3. Minor changes for reading dipole moments and energies of excited states from Gamess output files.
+90218e794e45797ef71ee6b1775572bba968456f|2014-05-22|Vincent Pohl|Merge branch 'master' of ssh://git.code.sf.net/p/orbkit/code
+6f1e4fb6d08d3ce2c8331da1a25205aa37f0db04|2014-05-22|Vincent Pohl|Added todict function to qcinfo, and some implementation of qc class
+8cd1f81d863eaeed5a5c2ef92ef36d32f5146d8e|2014-05-09|Axel Schild|added pool.join() to prevent some possible warning
+a753e7cbe28f868a7fc3d4d3e1d33da0717bd492|2014-05-07|Vincent Pohl|Added a documentation string to ordering.py
+a0cefc02f7bdf7f5c5c397ee0c36a8f9edef568f|2014-05-07|Vincent Pohl|Added 'from scipy import integrate' in main.py
+8550055e5bd4e3871c755d5df7bd857e27d4a6c3|2014-05-06|Axel Schild|Yes, you may integrate...
+afaa6cb2690d64b69f7ee392ad0ce1ebf2a25878|2014-05-06|Axel Schild|Fixed some compatibility issues:
+a7ee7d78e2310cf6b20e2f1e308a7934a625d565|2014-04-28|Vincent Pohl|- Fixed warning for (5D,7F) in read.read_gaussian_log - Added routine to convert symmetry labels to MOLPRO lables, e.g. 9a -> 9.a, in read.read_molden and extras.mo_select
+4d9b3a0b0d9ad287feeaf7b9ca51baf8266da20c|2014-04-23|Vincent Pohl|Minor change in orbkit.qc_info.get_com()
+7d89404771e188034568dffec6e618a76f43ab28|2014-04-23|Vincent Pohl|Introduced **kwargs to orbkit.main_output, changed sec_flag = 'unknown' to sec_flag = None, and simplified (incl. extension to all atoms - Added supporting_data to orbkit) qcinfo.standard_mass
+9c97c65e70b569f0a3aac520f12e8efec8f3c590|2014-04-14|Axel|Added center of mass calculation for QCinfo class
+4216e8dbdcefe9a931dedaf6f3c1fb8c788a7fc3|2014-04-14|Axel|bugfix for new Gamess reader feature to get the transition dipole moments
+2531dffd2b0070003b08e627ae63308c5f2cc549|2014-04-14|Axel|* minor change to all readers
+bb76fcaa21bc3ca26b8b14660803e181cfbcdf1f|2014-04-11|Axel|bugfix: corrected qc.etot in read_gaussian_log
+f49aae655588126c6eed2e396794fea9e23e6b00|2014-04-11|Axel|Corrected examples to use new QCinfo class, initialized geo_spec, ao_spec, mo_spec and geo_info in QCinfo class as lists
+7ced6ddb2bf03b37ff15b0afa8c13010bd1ded70|2014-04-11|Axel|introduced class QCinfo used by main and read
+2164db55e906faf64463dded0369336952b77c7f|2014-04-10|Vincent Pohl|Removed unnecessary `orbkit.options`
+6928538829728fbe6490b74130507c7485ce7305|2014-04-10|Vincent Pohl|Removed unnecessary `orbkit.options`
+6950bad4fe28300cab05529ca16e495597edfbce|2014-04-10|Axel|Replaced all tabs by whitespace (1 tab -> 2 spaces)
+497cc66fbd95575b330cc5354190c73cd6230a3a|2014-04-10|Axel|Added etot, yeah!
+41a40a5e5fdf520ef38285d3238775215cea8b8d|2014-04-10|Axel|Merge branch 'master' of ssh://git.code.sf.net/p/orbkit/code
+ac0fe2c1b61e71e45bbb529db98a24133470ed30|2014-04-10|Axel|added QCinfo class
+9bc260e1bfd56fcaafc3e4f15a503344fdc862cc|2014-04-07|Vincent Pohl|Merge branch 'master' of ssh://git.code.sf.net/p/orbkit/code
+8dbaeb296c4d19e11cb660eb4daa8754b08faddd|2014-04-07|Vincent Pohl|Very first implementation of MO ordering routine.
+f12e848b8c8dc10f9bef64e2dca1e9fd127462b3|2014-04-07|Axel|replaced numpy.count_nonzero in read_gaussian_log for backward compatibility (numpy version <1.6)
+f8a20fce7188979234969940e72c6e936cd547b3|2014-04-02|Vincent Pohl|Added SP atomic orbital type for Gaussian
+dcf164a7dce9bd274ea35e2571718fb296db0df5|2014-03-28|Vincent Pohl|Added SP atomic orbital type for Gaussian
+e005d47afe2bbc4e1a0ea554139d812c16fd8c52|2014-03-27|Gunter Hermann|Documentation update
+c3126cfe782f4f16e9466577820afa47489d6a75|2014-03-17|Vincent Pohl|ed
+99128b7aba7ae467351b3be29cbdb5f268d3ec9b|2014-03-17|Vincent Pohl|New Release 0.2.0: Completely new user interface (parser) and sphinx documentation, improved examples, removed redundacies within the functions, revised folder structure, simplified grid specification, derivatives for nearly all quantities
+5617877d5f3bd0e504aa8199c59a7eac585bb893|2014-02-07|Vincent Pohl|Added atom-projected electron density and molecular orbital transition electronic flux density
+766a6abd9eab23e499c2d121101c8e807bed5730|2014-02-06|Axel|Removed 2 more MDC
+b4a6b6c5dbecddbf8da9565bf8431a7bee0cd7b7|2014-02-04|Axel|Slightly changed tutorial for readability
+8dd499918cb5eaddaf0cd5e5aa0d0e5019b1ea21|2014-02-03|Axel|Removed last MDC occurences
+93ff222cb01994e1bd1e30f162e499470726b957|2014-01-31|Vincent Pohl|ed
+aa295379f25a10d58f9fad6cb31e9da37496e450|2014-01-31|Vincent Pohl|ed
+0d38a4d52e09db31c0a97d3a1cf371fe67b7bc50|2014-01-31|Vincent Pohl|Initial commit

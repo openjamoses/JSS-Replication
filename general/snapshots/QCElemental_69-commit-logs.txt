@@ -1,0 +1,858 @@
+1e2bbb10ec675d20023cb412b59270e0ac2fab43|2020-10-07|Lori A. Burns|Delete .travis.yml (#243)
+9710bf7d6d96c1517e7de0b2f05f3d1c70a3f038|2020-10-02|Levi Naden|Merge pull request #242 from MolSSI/loriab-patch-2
+1c8c93fb96e879a6eca41fa3cbaadba08da1d4cd|2020-10-01|Lori A. Burns|Update changelog.rst
+dfba73464e590c2acd55ede687a286c03ea23350|2020-09-08|Lori A. Burns|Merge pull request #238 from MRChemSoft/mrchem-molecule-to-string
+2b21479ab6437bf3e187e74dd34f66dd59c2fafa|2020-09-08|Roberto Di Remigio|Add tests
+c682b472d0211de8dc9e82d1884a20ef8c6e1698|2020-09-08|Roberto Di Remigio|Add mrchem dtype to to_string function
+43cc238402ded53462fc973fa09ff5f08f2cc953|2020-09-08|Lori A. Burns|Merge pull request #239 from loriab/black20
+3331b0acde600eeaced5433cfe2969c95018121c|2020-09-08|Lori Burns|update formatting for black v20
+1a73ecdeb43a24341aca74fdfc71d09e9a1b708e|2020-08-19|Levi Naden|Merge pull request #234 from MolSSI/loriab-patch-1
+a6e2620d7be66bdc6a87c9becdd73de446c0ff4c|2020-08-18|Lori A. Burns|Update changelog.rst
+d5b2334a89249d9315756f780229b32f68800099|2020-08-18|Lori A. Burns|Update changelog.rst
+b0bfa0b7c58ec4defbc3509e23623c501847d71f|2020-07-30|Benjamin Pritchard|Merge pull request #231 from loriab/compare_phased
+314984d06626c98aba64f4aeadd11557b69125d9|2020-07-21|Lori A. Burns|add equal_phase option to testing
+fc13b57501f9731faec7225acb582fd7bdd278a3|2020-07-08|Lori A. Burns|Merge pull request #229 from exalearn/align_docs
+53d04fbec68014e45fe7910dbcc3b976a3875d11|2020-07-08|Logan Ward|Improve documentation for .align
+f87f79f574cfd533d3bd5990c10559b2e4617ea4|2020-06-25|Lori A. Burns|Merge pull request #228 from MolSSI/loriab-patch-3
+03b63ae152932a43b716783ddc05e12431d11b61|2020-06-25|Lori A. Burns|Update changelog.rst
+29dbd18fc3d8d358f43d79b016f74d46cd9d2c3a|2020-06-25|Lori A. Burns|Update MANIFEST.in
+5ad222a7f50ce86182470e7826788a129eb8da08|2020-06-25|Lori A. Burns|Merge pull request #227 from loriab/misc_0_15
+8d9f72dde7b0cdd9eae44061189de952aee8bfe1|2020-06-24|Lori A. Burns|v0.15.0 changelog
+2b11ac93bc2858ea0db383955134bfdab9457f59|2020-06-24|Lori A. Burns|fixes #225 by strict elem-only info and expanded nonphys masses
+ef560d6f01b2a5c9abe5fc25962683d88ab3ff49|2020-06-24|Lori A. Burns|expand nonphysical masses through molparse from_schema fixes psi4/psi4#1903
+94e1b4ad9407e4b7bc17f1e95ef384d35387b685|2020-06-23|Lori A. Burns|fixes #214
+7f6518803e2b3825d84284cea9a45f7f147b59a3|2020-06-24|Lori A. Burns|Merge pull request #186 from muammar/orca
+4f07b7087417de3082a31fd21397d8db15b9f11f|2020-06-24|Lori A. Burns|tidy up orca to_string method
+d28d455c4408b0535630e61e0363883c93cd818f|2020-02-13|Muammar El Khatib|Fix LGTM unused variable warning and angstrom Cartesian values.
+cd1e675b0349558a811e6ea81877524ceb39fd8c|2020-02-06|Muammar El Khatib|Addition of Orca tests.
+5f6c51fce54d900821fb56c085795ff83ffc4f67|2020-01-09|Muammar El Khatib|Blacked.
+789a922b62981ec3ed462a0c814e90934545fd56|2020-01-09|Muammar El Khatib|Using Bohrs instead of Angstrom.
+1984efd0e048808e0e904043fd12f6ffc5d3b384|2019-11-15|Muammar El Khatib|Added "orca" as a dtype.
+625744b139c504834b175b9118f6906c9d3a8ba8|2020-06-23|Lori A. Burns|Merge pull request #182 from exalearn/error_retries
+673dfda24f25b494061647ce8750b37defae4977|2020-06-23|Logan Ward|Warn that error correction policies are experimental
+cba4538997cf57c430f4cd6a09418810c9b8f81c|2020-06-17|Benjamin Pritchard|Merge pull request #226 from loriab/namespacemodules
+0273fbad017083356265340341b7ca3bf777470e|2020-06-12|Lori A. Burns|add changelog
+d2f5fb6b7bc8d1f9448597ef123b0f4d489f8c35|2020-06-12|Lori A. Burns|namespace for py36, too
+7cba957f6d665c288ef80ec04ea33f06a59e59a4|2020-06-12|Lori A. Burns|acknowledge namespace packages
+fa22de7eda5aed7c85751d54f328be98999a1ef0|2020-05-21|Logan Ward|Merge branch 'master' of github.com:MolSSI/QCElemental into error_retries
+846928c80b686e88f2ffc9c3375195db0394f865|2020-04-23|ahurta92|madness molecule w/ test (#223)
+2859581cfc262d06ba229f6fed994aee17c8f8c4|2020-04-17|Logan Ward|Merge branch 'master' of github.com:MolSSI/QCElemental into error_retries
+d11c14135f67d635f80ca8e63ccabf608cc71d31|2020-04-15|Benjamin Pritchard|Merge pull request #222 from MolSSI/loriab-patch-2
+04e6b719a7af1776e95f2439ba076d76ba1df8f2|2020-04-15|Lori A. Burns|Update before_install.sh
+b17840b71054a8fe261ac68d0ca7274f200200e4|2020-03-27|Daniel Smith|Merge pull request #221 from MolSSI/dgasmith-patch-1
+dce392c27a8c8654136a056dd8788c1d42d287c8|2020-03-27|Daniel Smith|Update CI.yml
+050a9e15bd280f4e93d5230292a1493391faff42|2020-03-06|Matthew Welborn|Merge pull request #220 from mattwelborn/14_0_changelog
+aaf266530fd262904e51f8163b3b681e9ee8367b|2020-03-06|Matthew Welborn|Changelog for 0.14.0
+58e9185430b046323581171d47d00028eb8579d6|2020-03-06|Matthew Welborn|Merge pull request #207 from MolSSI/loriab-patch-1
+960a22ab5112c29adfb08e8f9be54a9f50593eac|2020-03-05|Lori A. Burns|changelog
+04cb6122456496fb443f772ce9c768928925b53e|2020-03-05|Lori A. Burns|None shall pass
+edabf46f5cdac1088a0d3fddd1999a8d9212e5f0|2020-03-05|Lori A. Burns|json dict for properties
+e3ebedf10f8e5a5edb1a0a994f0c6f0f7933b0cd|2020-03-05|Lori A. Burns|reshape multipoles upon validation
+df1a4859d9a0bd0162280084a860050e75d010e6|2020-02-09|Lori A. Burns|Update results.py
+2553d172767da37f63b47a8e1914ce4d1b3efdb3|2020-02-04|Lori A. Burns|Update results.py
+19002b81b0021e0e5c55a0b60cc48e4a3a519f3c|2020-02-04|Lori A. Burns|Update results.py
+ea52c1a71f74c95f6e886092d4fc92e3f188a896|2020-03-03|Daniel Smith|Merge pull request #217 from MolSSI/loriab-patch-2
+813bdbba824a4f18b48cb92cde99ea0a30c1a2f3|2020-03-03|Lori A. Burns|Update align.py
+b59ece524f805e68f99159cc5cae78daff090276|2020-03-03|Lori A. Burns|Update types.py
+4d6e61f20581922d6b37792fb95af2374ab65137|2020-03-03|Lori A. Burns|Update types.py
+ca2cb206c93a6296d9cff62de874d0d774f49c8b|2020-03-02|Daniel Smith|Merge pull request #216 from loriab/codata2018_3
+48a8a7ee21e6f6c85b58bf8dc36d3ce8191bc434|2020-03-01|Lori A. Burns|more units testing refactor
+d9ec5d666c21073b56785cbd0fb89554e2e727ba|2020-02-29|Lori A. Burns|separate units tests for codatas and prep to_string for 2018
+02c99acc266534d3db5829517aea7512a403ff59|2020-02-29|Lori A. Burns|parametrized fixture
+f1009cd2c57fc38c9e523cb436a3862ea980a205|2020-02-27|Lori A. Burns|relax figs to check for inverse conversion factor
+778473406c934abc760d30a0a5afda093b04e163|2020-02-27|Lori A. Burns|test codata2018 unit conversions
+618efb7798077bafb56599ad4afd090bb1ca78f0|2020-02-26|Lori A. Burns|test the constants in different contexts
+2fa8479e8c1187a19775d4ccd2e256542d079fd2|2020-02-26|Lori A. Burns|alias codata2018 for conversion_factor, fixes #215
+778250f69caa1cb2d6300ffda27833a566fdc736|2020-02-10|Logan Ward|Refactor to store "is this allowed" logic in qcelemental
+a91fd69e159444277200e76b3e13d2ea190e11e4|2020-02-10|Daniel Smith|Merge pull request #213 from dgasmith/ci
+c4c1db2eb3cf6792a38388b7cc7bc46668f346da|2020-02-10|Daniel G. A. Smith|CI: Renames lint to format, isort seems a bad idea due to flakey testing
+7e37de11ea0b6b379bc48b643adc69c1a41d9791|2020-02-10|Daniel G. A. Smith|CI: Updates GHA workflow to use explict matrix builds
+a47be4ae373ef4cb5e57838da5cfd6a8dad6c3e3|2020-02-05|Daniel Smith|Merge pull request #212 from mattwelborn/typos
+368b1e084c5a5a4a22051448ef85f09166cc4230|2020-02-05|Matthew Welborn|fix typos in Parameters
+334d96ec25ecfcbce50d68bc90cce62447ebd795|2020-02-05|Daniel Smith|Merge pull request #211 from mattwelborn/pubchem_busy
+558c3a2ea9931305b09774484ce85450b21b9c23|2020-02-05|Matthew Welborn|testing: xfail if pubchem is busy
+d80c727dd7bf33ed51b3c6436c701e294bb1d493|2020-02-05|Matthew Welborn|Merge pull request #210 from mattwelborn/13_1_changelog
+30c48d70485c8e5ab4c6d59d1f1038fee49640e8|2020-02-05|Matthew Welborn|PR comments
+52a896e7f167d8d8ae286dd97ded211a17fc20b3|2020-02-05|Matthew Welborn|Changelog for 0.13.1
+b383e2727f995e216e703b703e3f21e0b1778908|2020-02-05|Daniel Smith|Merge pull request #209 from mattwelborn/molecular_formula_order
+c0be0f16752499b78a3d58ed943dbdacdb5a61ec|2020-02-05|Matthew Welborn|Remove unused imports
+62e6b4f7be3d627f110303cd802d611fa9592baa|2020-02-05|Matthew Welborn|PR comments: move formula functions to molutil
+14fd36eb3fa5f38e34c51a548552e911c03b99dc|2020-02-05|Matthew Welborn|PR comments
+38a43a122dbe8af2fd73ce37fc451c8a3013e763|2020-02-05|Matthew Welborn|Molecule: guard against unsupported formula orders
+01fdec154e72d2a1521bfd8aadf7a64706790af4|2020-02-05|Matthew Welborn|Molecule: remove vestigial docstring
+edafe62bd383e6841ecdaf0d9532d9d3efd87c4f|2020-02-05|Matthew Welborn|Molecule: added optional hill order to get_molecular_formula and added Molecule.order_molecular_formula
+1bf44c50c2378e27ba58cb14859fd2e58708d96f|2020-02-05|Daniel Smith|Merge pull request #208 from dgasmith/hash_canary
+758828529aa1f76975dc6434b22b6b0190dd18e7|2020-02-05|Daniel G. A. Smith|Molecule: Reverts to previous hash canary orientation order of operations
+cd1eeeffd8655368d5fa884047f1e8eddc4c1988|2020-01-29|Matthew Welborn|Merge pull request #205 from mattwelborn/013_changelog
+d4c8281de9815c9a632c5d9d3b709aa9d825dbcc|2020-01-29|Matthew Welborn|Changelog: add pr #203
+53b005ceebccea3c63098ffc3a35bd92d482fafc|2020-01-29|Matthew Welborn|Merge pull request #203 from MolSSI/loriab-patch-1
+01e28b9124c0aa5427688ecb707615634473481c|2020-01-29|Matthew Welborn|PR comments
+4b6c9932affea67b57d0749ea2263bd9c03721fb|2020-01-29|Matthew Welborn|Typos
+4ec6a0dbe220e6b5fdece08aaddffc676494ba19|2020-01-29|Matthew Welborn|Changelog for 0.13.0
+b49c6a5feecf7ad615a6ce3f8e22fc84ae44a471|2020-01-27|Lori A. Burns|Update CONTRIBUTING.md
+385547da9aa5e618d2a95f7cf9fc57b7019e2859|2020-01-27|Daniel Smith|Update CONTRIBUTING.md
+40591ee585b82cc20ad4d186b4ce29c6dd0020aa|2020-01-27|Lori A. Burns|Update CONTRIBUTING.md
+d521f2dca8966332d758bec154932da5027f250a|2020-01-27|Daniel Smith|Merge pull request #202 from Lnaden/cookiecuter_fragment_fix
+820c676048035c11b2584d8c84512a0a7b67a42f|2020-01-27|Levi Naden|Fix the project_name fragment from cookiecutter
+6bb6d46bbb300d8ab59e84c3ae96e5288bd844c3|2020-01-23|Lori A. Burns|Merge pull request #201 from loriab/molinresult
+a65b7f124d109083155a2385fb6a68986716240b|2020-01-23|Lori A. Burns|test more models
+3bb8fbea764b051f5e997f7806688faddc60e611|2020-01-22|Lori A. Burns|fix locally
+f72a5d4ac9416bedac415005201f728cbeef7808|2020-01-22|Lori A. Burns|trigger slim mol in AtomicResult.dict() in test suite
+308836ffaa24493c31db78814646c12a09c6952e|2020-01-22|Matthew Welborn|Merge pull request #199 from mattwelborn/au_aliases
+49851d2397e96e357fa6d01a3b435e9690a9c668|2020-01-22|Matthew Welborn|PR comments
+78ef793acaa871cb6c3ce6f454d4cf9019570780|2020-01-21|Matthew Welborn|Units: alias `plank{s,}_constant`
+8d7c5ac49df31f4ea5a8f89cb36effd4c044dd24|2020-01-20|Daniel Smith|Merge pull request #200 from mattwelborn/constants
+d57096501ba4d0422c710d9bfb670d2a29ad08fb|2020-01-20|Matthew Welborn|Units: comment dipole moment
+9102f02c453688942cd4292be4b49597807f137e|2020-01-20|Matthew Welborn|Revert "PR comments: attempt to ensure unit name is not changed"
+2627d4f85c775d4a7515bd0db90a22821dac8351|2020-01-20|Matthew Welborn|PR comments: attempt to ensure unit name is not changed
+05e9775bf5d9473903ab627c40807ab2909010d9|2020-01-20|Matthew Welborn|PR comments: add au_pressure
+327a687f12ccdb6ab9fe7c6e90c8a0ae1364e189|2020-01-20|Matthew Welborn|Constants: add hbar and fix (?) some units
+6e95c5e0549394ecb69d5836cafe936078bfd5c5|2020-01-20|Matthew Welborn|Units: add au_action (hbar) and derived atomic units
+3bd53fa65b1265a2fe98f94dc5bad4137b3568cd|2020-01-20|Matthew Welborn|Merge pull request #197 from mattwelborn/add_au_time
+e6db01dedf61327617ed50b7c784611058b31230|2020-01-19|Matthew Welborn|Units: add atomic unit of time
+4764baa7542e6cdb1061411ddfe48f3afaa0e43d|2020-01-17|Logan Ward|Remembering to run black
+82ace20e9a740d172cfba168d0da68214ddcb3f1|2020-01-17|Logan Ward|Simplified how error correction policies are specified
+515bf92ed5baf59df22d2ee59743a28b8d62284d|2020-01-17|Logan Ward|Use a global and per-error-type policy for error correction
+1439744e3be23a603235f5caca51858d977382de|2020-01-07|Logan Ward|Added protocol for controlling error retries
+9d02a284ab16362a39979bb81c2f94d32070564b|2020-01-16|Lori A. Burns|Merge pull request #196 from loriab/codata2018_2
+565ed52bce0d766d13c82000e007f5534a64babb|2020-01-16|Lori A. Burns|save ascii codata files
+3411f6e2093235d6b629231bb4f55798614e5c3c|2020-01-16|Lori A. Burns|move comparison and header fns off user class
+04457c95b6c811a1e4b296e2a60ff45f4a909980|2020-01-16|Lori A. Burns|fix capitalization, fix units
+79dedde16023821042e9f5aefd41690f41c275b6|2020-01-16|Lori A. Burns|codata2018 now superset of codata2014
+e54c42c16ea13c03008031e732ac5621d425ce1b|2020-01-16|Lori A. Burns|fix codata 2018 and compare it to 2014 and reconcile names some
+40fca7c06ce267efc67c2fb2b060c607cc81ab95|2020-01-16|Daniel Smith|Merge pull request #191 from loriab/smollmol2
+e1c74a08edadcd080fe60adaa2b02a3b34ef7487|2020-01-16|Daniel G. A. Smith|Model: Map model.json() to ProtoModel.serialize to skip pydantic layers
+61cafb85982a1f644e2f07fbc0a7006a8cb80761|2020-01-16|Daniel Smith|Merge pull request #195 from mattwelborn/cpu_names
+7a6934daf339bd53aa17a9c1133d9461fa863fe2|2020-01-16|Daniel G. A. Smith|Molecule: Adds spare molecule field tests
+ad7afad36aa6436de9e1a0451bb6dad8f3f1a808|2020-01-16|Daniel G. A. Smith|Molecule: Removes extra alias settings and cleans up init
+696b3ee8841982be83647dd846edb25b482392c9|2020-01-16|Daniel G. A. Smith|Molecule: Test for massless input orient
+11877579ccc84ca984a1e50e72dcb8ccc558339c|2020-01-15|Lori A. Burns|always drop atomic_numbers
+a44adbb29da84055e0b2245a3680297ec809c1a3|2020-01-15|Lori A. Burns|actually check filtering some
+406cbfba79a9fae681bc5264b5ba8b32c4dbdc60|2020-01-14|Matthew Welborn|CPU info: add names
+3900c891ad0045917e4f88af5521d7083e559d21|2020-01-14|Matthew Welborn|Merge pull request #192 from mattwelborn/more_cpus
+50fdc010b8f73f5e82bd842509fab56430f2c096|2020-01-14|Matthew Welborn|CPU info: add LRU cache to get
+db33b01032c7f05a206815c8bd330a94c396a2de|2020-01-14|Matthew Welborn|CPU info: add fixes for missing data
+e48fbca00583da0c0fb89afb0907e020107b3c73|2020-01-14|Matthew Welborn|cpu info: make InstructionSetEnum castable to int
+448949132bde25c4d4d020d319ef8d7614f991fa|2020-01-13|Matthew Welborn|make format
+7e9bbbdc31b6b29ff6e86687b9cebd54c5d6a80e|2020-01-13|Matthew Welborn|Info: add more CPUs
+0c03e4b0177f1954e1274ae150a2ebdf85d26fa1|2020-01-13|Lori A. Burns|getattr does the trick. and connectivity is None, not []
+ce318ac4ddb7944eb66ac4b6b53737fd041c7022|2020-01-13|Lori A. Burns|add but 3 tests
+fd4bdfbb4a70104cc05075cf3a126dc620d45f69|2020-01-13|Lori A. Burns|simple fields
+55e3102fe44063e24049c08e699f5f22d2daa01f|2020-01-12|Daniel Smith|Merge pull request #190 from loriab/smollmol2
+4c343d9007123cfd57da367f3d24c1d7d9773010|2020-01-12|Lori A. Burns|and json, too
+dbefdd99116b09ecbdca08ab0e6e9aaebbf93034|2020-01-12|Lori A. Burns|heal up more tests
+1fbd1412990beb099fdafad582478c75a05b7932|2020-01-12|Lori A. Burns|try minimal storage mol for atomic_number
+8904f1c9c63bedc861c9bf5a525730daaab5d1f8|2020-01-12|Daniel Smith|Merge pull request #187 from dgasmith/info
+c324528752b25de1be0c391bb30f00329df6cba1|2020-01-12|Daniel G. A. Smith|Info: Moves tests to base test to prevent issues with the name 'tests'
+fc61113efe0b20cbb5eaf0382a794c0a8626c8c3|2020-01-12|Daniel G. A. Smith|Merge patch
+fd11e09c43e280a80d6a16d73317d755aa5e548a|2020-01-12|Daniel Smith|Merge pull request #189 from loriab/codata2018
+801d2b539d7e1a3370942a29b4edbef034f105eb|2020-01-12|Daniel G. A. Smith|Info: Adds dft replace suffixes to the data and only replaces off this information
+3092a00e75b10372f4801e01868cb22007f1c0cb|2020-01-11|Lori A. Burns|format off
+72d30b459a9a9c002b0ab877259fc8bfafaf8722|2020-01-11|Lori A. Burns|codata2018 added but not accesible
+887e35bd8fe3316d654924bd682b502583af0c3c|2020-01-10|Daniel G. A. Smith|Info: Cleanup from reviews and LGTM
+c40e91d557baee9f152bba7d54187413c89d6f8f|2020-01-10|Daniel G. A. Smith|Info: Adds tests for the cpu info accessors
+8942c2a0648253b2b4d8cf8201b1ed9e13a8197b|2020-01-10|Daniel G. A. Smith|Info: Adds a cpu info accessor
+662a2b03438476055739aef9a905839d870a2723|2020-01-10|Daniel G. A. Smith|Info: Updates cpu data blob creation
+6c493e634fbc57dd6768cc408dad784d5dad03b2|2020-01-10|Daniel G. A. Smith|Info: Adds CPU raw data
+e2b8a2d71610b9be22b3e5a4b0a2f1c0bfe2526d|2020-01-09|Daniel G. A. Smith|Info: Moved data scripts to correct raw_data folders
+5a13490cb5abdcbdb20d1add36185fe538489045|2020-01-09|Daniel G. A. Smith|Info: Moves DFT data to new info pane
+3d1b8c32309d13f4dd7f609af54e7e4b029f2e92|2020-01-08|Daniel G. A. Smith|Info: Recreates build files for nist data which were accidentally deleted
+7f86dea1da265a4bf4f02ed226a34362a90065dc|2020-01-08|Daniel G. A. Smith|Info: Moves nist data to subfolder
+178e97b384c6bd6281150cb0f1dd18c7ccb6f653|2020-01-08|Daniel Smith|Merge pull request #183 from mattwelborn/dft_data
+2e260d966997a5fd00c0f9cb8c5c180c252b0340|2020-01-08|Daniel Smith|Merge pull request #184 from mattwelborn/pubchem_id
+6fbc15572a2fb1a13f5d8ee821fb7aac8420fedf|2020-01-08|Matthew Welborn|PR comments
+c7416664e73d11e4f7e8d89241771144bc5ad6cc|2020-01-08|Matthew Welborn|PR comments: remove more dispersion suffixes and fix string formatting
+0341b4fb85a15543b727431233338f3111691e6b|2020-01-08|Matthew Welborn|Molecule: add pubchem identifiers
+60f2e202c85588598bbef63b7f61ff827a1c9185|2020-01-08|Matthew Welborn|PR comments: remove dispersion suffixes, move devtools/nist_data to /raw_data, change ansatz doc
+d39e49095f2afb0e33fe719459aea8404b20ee7a|2020-01-07|Matthew Welborn|PR comments: delete import for singleton and doc what ansatz actually does
+4a478d309cdc7620baacd9627792377d9c111dac|2020-01-07|Matthew Welborn|Edit description of c_hybrid
+4795faad617b5f0241136011b82ae0454f06c0b9|2020-01-07|Matthew Welborn|Add dft functional metadata
+d42111eea08a953047d35d66df289648737fdc28|2020-01-07|Daniel Smith|Merge pull request #181 from loriab/np12
+437d67eec9eb81d6ef9cb355e611f28fe924e6f8|2020-01-07|Lori A. Burns|mention numpy>=1.12 constraint inherited from pint
+7627bbb6ff5c81e519b51524041a3adbc41b6d9d|2020-01-06|Daniel Smith|Merge pull request #180 from loriab/run_molutil_tests
+1f59e033ca26adbb1bf30bab85c8f6efc31bdcbd|2020-01-06|Lori A. Burns|fix wrong pr number
+db917c8169ea23d191ac7db6cec2e56f5f516e61|2020-01-06|Lori A. Burns|catch molutil tests and warn why tests skipped
+8e0424be94d4f202a5a969efdb278a728104c6b6|2020-01-06|Daniel Smith|Update README.md
+7c859400f9b1e689cda2f3a09c6837732d7d667e|2020-01-06|Daniel Smith|Merge pull request #179 from loriab/pint10
+66c4d7555e9b1b6ca9ab279bff266c7095b56bb7|2020-01-06|Lori A. Burns|now let's try to get py36 minimal working
+210df2e898b2707a410f6055b6bc34ee95a7569c|2020-01-06|Lori A. Burns|fix minimal CI check for py38 for real, drop py37 testing
+02ba100732d7a00ab1501ec04650ae0c9df3eb0e|2020-01-06|Lori A. Burns|fix minimal CI check for py38
+77f394958af9623447aeb95e89724515b3696b69|2020-01-06|Lori A. Burns|pint 0.10, python 3.8, year 2020
+2c64214187df27d5e1444a4121c0cf98caac1f6b|2019-12-12|Daniel Smith|Merge pull request #177 from sjrl/small_update
+fff8cd45942be593167d954ee856512c1edbe068|2019-12-12|Sebastian Lee|Ran make format in base folder
+201261440381707b5b0e56c92c884c49277dcd5d|2019-12-12|Sebastian Lee|Adding imports under if TYPE_CHECKING
+6adff47eafc5f501e513596da1f21028387d7966|2019-12-12|Sebastian Lee|Missing import and typos
+c0a2b5c8ece94a204cd57b4ec2758b34027f17a1|2019-12-07|Daniel Smith|Merge pull request #173 from dgasmith/ghav2
+cd76a341c1c7e288725a3221c619eb0c9655d2f4|2019-12-07|Daniel G. A. Smith|GitHub: Adds lint request to the PR
+e3ab2a19e4c0fba5f12f72632d638e0b52b176d7|2019-12-06|Lori A. Burns|Update PULL_REQUEST_TEMPLATE.md
+13abba7733807bde32edeec8181536f23e0f8052|2019-12-05|Daniel Smith|Merge pull request #174 from mattwelborn/compare_recursive
+2d232add74805e8cb59970f2061ade8a0e58ceca|2019-12-05|Matthew Welborn|testing: fix compare_recursive when expected is a list and computed is not
+3d287a0438170922b44bfb813dd99395af4ac2c0|2019-12-05|Matthew Welborn|testing: fix compare_recursive when expected is a list and computed is not
+5f16cb1348ff37167082133159bd041bd2dd875f|2019-12-01|Daniel G. A. Smith|CI: Adds a lint check
+e741b1fd935aa6247155f809ec337b50733f13da|2019-12-01|Daniel G. A. Smith|CI: Adds new CI testing badge
+c4855dbd64f1862c3bbd3a4c9d3bd170836a0e0b|2019-12-01|Daniel Smith|Merge pull request #172 from dgasmith/gha
+b18ac6db9ab2f1edb232c997b0af13f34acbdc3a|2019-12-01|Daniel G. A. Smith|CI: Color output and bug report tweak
+827e3e6faf9ba08f327bafff87e893b8f8d559fa|2019-12-01|Daniel G. A. Smith|GitHub: Updates PR templates
+60ee4d5ab795e7a237b0d4d49c5d18a87f639f6b|2019-12-01|Daniel G. A. Smith|CI: Adds a conda list step
+34fc1a93bf705ee6060a644ba2ab16b8504a4460|2019-12-01|Daniel G. A. Smith|CI: First pass at GHA CI workflows
+3dbdd32d538e60609bb72b75151b7172d751ee5c|2019-11-13|Daniel Smith|Merge pull request #171 from dgasmith/changelog
+596780d5350255a1f327edac3a776a421136cda7|2019-11-13|Daniel G. A. Smith|Docs: Updates changelog
+7506530b49f11816ec3944b01cf9db8bdc9a0911|2019-11-13|Daniel Smith|Merge pull request #170 from dgasmith/repr
+462b2f69b237287e936e8f641f531ea877d032f4|2019-11-13|Daniel G. A. Smith|Models: Allows repr/str passthrough in new repr overloading
+67f2e16db28e26b40f4e40dd9d13d17528294201|2019-11-12|Daniel Smith|Merge pull request #168 from dgasmith/classmod
+701fcef22ef22f4c3859ffb705f09fa2ee053a8c|2019-11-12|Daniel G. A. Smith|Models: Changes deprecation to full class structures
+52c81715d0975a444d419f85e2e681323755f566|2019-11-12|Daniel Smith|Merge pull request #167 from dgasmith/modelnames
+59d3d98bf2727542f7e3ea0159c602b75a8a62f3|2019-11-12|Daniel Smith|Merge pull request #166 from dgasmith/nglview
+9d177220e4cf00927f96f03dabbfb6550b6d5bbb|2019-11-08|Daniel G. A. Smith|Models: Renames result properties objects
+a060abaf9c2406c8dcb331e28c9a41c2fa4ab7b0|2019-11-08|Daniel G. A. Smith|Models: Renames to Input/Result nomenclature with deprecation warnings
+dbe1c3e5a738f5232343c54417095e2b2930d030|2019-11-08|Daniel G. A. Smith|Molecule: Fixes SDF tests after spacing change
+7ccb6f74d32ce592e2f728c37a81f722df831d8a|2019-11-08|Daniel G. A. Smith|Molecule: Updates nglview-sdf to_string to correctly handle string widths
+16b2de82eb603c8d868a9c5e27a696c769f1f6ae|2019-11-08|Daniel Smith|Merge pull request #165 from dgasmith/lint
+f7badac67ad071d7bf639e008b0ec6a5d80f2e51|2019-11-07|Daniel G. A. Smith|Lint: LGTM settle down
+099e9fcf7e7be5091ab39ba23783843c4cd2186e|2019-11-07|Daniel G. A. Smith|Lint: Adds autoflake
+be62c0378ceb881242e4183987699459fe70ad0b|2019-11-07|Daniel G. A. Smith|Black: Standardizes quotes
+00f04769313dc4174fff3a77950a5dee4807740d|2019-11-07|Daniel G. A. Smith|Black: Turns off data files and final config tweaks
+c6cc93e45ccd49578c501e9493c8bc95559cbe8b|2019-11-07|Daniel G. A. Smith|Lint: Adds isort into setup.cfg
+17f97a7aab4e3648c4390fed0a9e6c7b03687816|2019-11-07|Daniel G. A. Smith|Black: Final pass and new make file
+4daff4cd35145f58f0145b83fe44e2f19516775f|2019-11-07|Daniel G. A. Smith|Black: tests
+a1b29dd70adddbb76d30551a126eae77139727b6|2019-11-07|Daniel G. A. Smith|Block: molparse, util, constants
+22420ed8f9f651b1dfcb17810456589e28f5fc16|2019-11-07|Daniel G. A. Smith|Black: Models
+a55e16385e1d18ba72c181947de780ea89eb7526|2019-11-07|Daniel Smith|Merge pull request #163 from dgasmith/repr
+3e529e86e8ecdca38ec2e4105c0449c5b767dd14|2019-11-07|Daniel G. A. Smith|Models fix align string reprs
+6810b3747fbb284b72ddf276b60185c95f4f0ec0|2019-11-07|Daniel Smith|Merge pull request #164 from dgasmith/nglview
+431c9694c5ad76a3303645f931498a280e932d5a|2019-11-07|Daniel G. A. Smith|Molecule: Centers molecule before SDF rendering, fixes #161
+ecd81ac240d35a74ed0b6912912510a30cd69ea1|2019-11-07|Daniel G. A. Smith|Models: Updates reprs
+8a2224ea205fc69aa9e5c9b9af0b2267e8523a7e|2019-11-07|Daniel G. A. Smith|Model: Remove base repr style
+d97c113211512e63572ee33c52b83815cedec6a4|2019-11-07|Daniel G. A. Smith|Models: Updates repr based on pydantic changes
+6aa0c2e73cdbdffe3a7d1811db3fd92b66925456|2019-11-06|Daniel Smith|Merge pull request #162 from loriab/logfile_protocol
+87536a1efb3324f84970bfd124f1635822db9fed|2019-11-06|Lori A. Burns|address review
+eed69ae312ff5f0d72c19267655aa53f65bd3c09|2019-11-05|Lori A. Burns|add ResultProtocols.logfile
+abcbc004873ec1ee403cccf51772965ba3958707|2019-11-04|Daniel Smith|Merge pull request #160 from MolSSI/loriab-patch-2
+c733f54b4d4beba7c9e84dab5084b920491c2dac|2019-11-04|Lori A. Burns|Update physconst.py
+b3934bfe46a925b6f0146cf20cb3bf295f6a793c|2019-11-04|Lori A. Burns|Update periodictable.py
+53e997d57917fdf4024b41fd22a9d09d1b8b3418|2019-11-04|Daniel Smith|Merge pull request #157 from loriab/qchemmol
+ed3cdb73bffbf7f5f2afcd08f6d04c903da9fc1c|2019-11-01|Lori A. Burns|qchem mol
+3447ddcbff868a4b67c28046bb8f9c1b450821ed|2019-11-01|Matthew Welborn|Merge pull request #156 from mattwelborn/native_molecule_hashing
+9b186e9cc81fe512f6882a2bc3a04996133ecbc7|2019-11-01|Matthew Welborn|Update changelog.
+14101ecdf737b3ecb82ab363a4d0b12d13d9b27c|2019-11-01|Matthew Welborn|Molecule: compare based on get_hash, implement __eq__, deprecate compare
+b747493f01f2446de9ff118ecdd534956ef52fb8|2019-10-28|Daniel Smith|Merge pull request #153 from mattwelborn/11_1_changelog
+337de278ea9ce592f69dc0c117a5d88f75d855c7|2019-10-28|Matthew Welborn|Changelog for 0.11.1
+b850909794171501ac4c2a65434e26bfc7c3bb05|2019-10-28|Lori A. Burns|Merge pull request #152 from mattwelborn/molecule_charge_spin
+6c69e9c8d962d0ef36c40055fb66c38f14a32010|2019-10-25|Matthew Welborn|PR comments
+0c38090bc98186240f5a7f17c6436f329b15b2de|2019-10-25|Matthew Welborn|Molecule: read and write xyz+, implement kwargs for from_data/file
+be1b2e7400ae6a597c4b51aae36a7fb467f309bb|2019-10-24|Daniel Smith|Merge pull request #151 from dgasmith/docs
+a9da64b9b576b90321dac0c406224ac0a5db1352|2019-10-24|Daniel Smith|Merge pull request #150 from dotsdl/bugfix-which_import_submodule_forreal
+56a332ba0bf466e28fdd9de6e9946f31fe818f85|2019-10-24|Daniel Smith|Docs: Updates radii items
+80f8535f66321717ddf234293aa4cefb227e2485|2019-10-24|Daniel Smith|Docs: Additional model doc stubs
+32e69f5f9fdcf51d416889971ef01075d3e3d3ce|2019-10-24|Daniel Smith|Docs: Updates changelog for 0.11
+75745b38854cb96105965d80230aaab771d21fdf|2019-10-23|David Dotson|`which_import` now really handles submodules correctly
+67568689ebd6a00164c2f87a919a1d3f758a2b3a|2019-10-23|Daniel Smith|Merge pull request #149 from dgasmith/debye
+749159d53e85b9aad107fbe3247d1fee3c5b7daf|2019-10-23|Daniel Smith|Units: Adds debye
+3f474e262de9964e4d6b7214f44058c1684bb26d|2019-10-23|Daniel Smith|Merge pull request #147 from dgasmith/pydantic
+edc88d3d2f32f8400d308772963d8bd5ddab5e39|2019-10-23|Daniel Smith|Merge branch 'master' of https://github.com/MolSSI/qcelemental into pydantic
+63029d1f8cf625098ac122e4a169c86d5fcfbfb9|2019-10-23|Daniel Smith|Build: Updates minimum QCElemental pins
+82d048f0e764d7a6394ea893aecbef8fb5620237|2019-10-23|Daniel Smith|Models: Pydantic 1.0 final pass
+e612fc200b486b875dee738fab8efe53bf0a26a2|2019-10-19|Daniel Smith|Merge pull request #148 from dgasmith/mols
+a94c9894cbe2cf1a2347acf25391deb6939f0132|2019-10-19|Daniel Smith|Molecule: Connectivity exception handling moves
+0596485cb3415d2a2a9e23f78466057eb0419a14|2019-10-18|Daniel Smith|Update .lgtm.yml
+6f5c86555b24627839d2186ae69a72306acbd5a7|2019-10-18|Daniel Smith|Molecule: Switches to nglview from py3dmoljs
+553e7c67e7dee00618920ca3ede8e206cceec01b|2019-10-18|Daniel Smith|Molecule: Clearly state this the sdf parser is purely for nglview for now
+5d776706bca6d4e8ccf07d8f00c7fa9ef1fb8603|2019-10-18|Daniel Smith|Molutil: Tests for guess connectivity
+980467877062279f45476cec83f05741b5c152c8|2019-10-18|Daniel Smith|Molecule: Can now guess connectivity
+b503e6237ffa67aba52d3d2914fa25d7f183a61b|2019-10-18|Daniel Smith|Molecule: SDF complete for molecules with connectivity
+a82d40b40e6cee5b8009bdbc32abbee30f3599c2|2019-10-18|Daniel Smith|Molecule: Begins SDF files converted
+674c2475511648826526d226420a3e18dc002b0e|2019-10-18|Daniel Smith|Models: Adds connectivity test
+3e98d1e3de0d9fd077ef1a158394810a033c303d|2019-10-18|Daniel Smith|Merge branch 'master' of https://github.com/MolSSI/qcelemental into pydantic
+9fb28bd842821c8bf5e8f124493f9c0bd55cb1cc|2019-10-18|Daniel Smith|Models: Finishes repr testing
+8dc5abc579d2a003eff49186588b8a7cb707b13a|2019-10-18|Daniel Smith|Align: Apparent node singular is no longer on a Graph object
+2423435e54fd26abae9a77d1ec31432b6c5dabe9|2019-10-17|Daniel Smith|Models: Updates to new pydantic repr_types
+4694ba3b0adb588ebefafc287c97b98f1ce2819e|2019-10-17|Daniel Smith|Models: Updates autodocs shapes to pydantic 1.0
+6496d9eb3623b684a4dafbfaaf1b40127ddfc56e|2019-10-17|Daniel Smith|Models: Pydantic for_each is False by default
+5611e6ac914c72ebc1f83d19f8d23795c378fa34|2019-10-17|Daniel Smith|Models: Pydantic whole -> each_item
+bceb148045e94ab3f6f20dc074c6bcb148dcfb3f|2019-10-17|Daniel Smith|Models: Pydantic Schema -> Field
+29fda275ba29b3ed490c86f3d5f6fe632b6a5952|2019-10-16|Daniel Smith|Merge pull request #146 from Lnaden/0100ChangeFinal
+085ee2f84ece3592b7648ca758d4be74f66af474|2019-10-16|Levi Naden|Finalize changelog for 0.10.0
+7f1c115445c7a22c39bfed9f37a039cf579f5fe3|2019-10-07|Daniel Smith|Merge pull request #145 from MolSSI/loriab-patch-1
+1279b0185a797e4dec7ee58cfedb36f04fc6631c|2019-10-07|Lori A. Burns|Merge pull request #144 from dotsdl/bugfix-which_import_submodule
+a4f74c74d86976f05497d0abd57ef23780c08108|2019-10-07|Lori A. Burns|Update changelog.rst
+f5f16f19652fa8f74725f63c42c0e719033b2324|2019-10-08|David Dotson|Switched feeding `package` through to `importlib.util.find_spec`
+580da205d7939366a911c34343859e6ca50dde3e|2019-10-08|David Dotson|`which_import` now handles submodules correctly
+b4e814512255222b96e25582e5452a48c836279b|2019-10-07|Daniel Smith|Merge pull request #143 from robertodr/patch-1
+3ae1e873f43ba5ebc4836a6fadf4c5e8fda123cc|2019-10-07|Roberto Di Remigio|Use NumPy's iscomplexobj to check for complexity
+d677cfc0dccf16e84083daa96913c3f10feeedab|2019-10-07|Roberto Di Remigio|Allow testing of complex number
+175ac8e97fcf4cb5583a9abebc22213e32fd6a78|2019-09-30|Daniel Smith|Merge pull request #142 from Lnaden/changelog090
+8a83d8423b8150a7f0f35f6c76e8ca6647e851fe|2019-09-30|Daniel Smith|Merge pull request #141 from dgasmith/wavefunction
+1d35695c2f91a844001ace59186710342f6bdaa5|2019-09-30|Daniel Smith|Models: Force skip defaults for protocols
+0898900255d77c934ef6eac035ee4a3b434e2a77|2019-09-30|Levi Naden|Update change log for 0.9.0
+f51ceb9f1862ea16922f0b44da79c029ad603df4|2019-09-28|Daniel Smith|Merge pull request #140 from dgasmith/wavefunction
+363924d8ae333362b56441a8226d9ace53e29adf|2019-09-27|Daniel Smith|Models: Adds result protocols tests
+53613ad565846ccdcbdeb744550b55002be942b1|2019-09-27|Daniel Smith|Models: Adds protocols to results
+209ebbbef73e3a44f079f6aac7f75fb7cebb85a0|2019-09-27|Daniel Smith|Models: Updates basis model to check if a shell is contracted or not
+eddb28d72a06151608afc8634feb0a202ad80587|2019-09-27|Daniel Smith|Update README.md
+e691d0ff38ea8854c6e79bcec80adade470692ec|2019-09-27|Daniel Smith|Models: Renames protocols to match the field and removes warnings
+ba8a54044a6137a34f25da4d3574fb35a49a2143|2019-09-27|Daniel Smith|Models: Uses init_subclass instead of metamodels
+83184400b4f2b1d3da16945bc5db5543652a5448|2019-09-26|Daniel Smith|Models: Result protocols for discussion
+e8e3791e7e5d8b5b7e19b5d2935be2bd1eb8e51e|2019-09-26|Daniel Smith|Models: Adds optimization protocols
+c612e0a8a66bd245584a97d373964b77827db31f|2019-09-26|Daniel Smith|Merge pull request #139 from dgasmith/wavefunction
+ce6c800ef2e9ce1e70a2dcbcbefb5c8ad75a0fc6|2019-09-26|Daniel Smith|Models: Wavefunction review responses
+b5c27fd5d6f95da1174205cba44dc9b15de0161f|2019-09-26|Daniel Smith|Model: Wavefunction review comments
+f8f7261ffd102cf6270e3443e4902386ddf99865|2019-09-26|Daniel Smith|Wavefunction: Model validation and tests
+7f409b3d3ece771643c70565ebe4a3b5678d2abf|2019-09-26|Daniel Smith|Models: Wavefunction Validation and testing
+2933f295750050e375aa5829add8447e57328aee|2019-09-26|Daniel Smith|Models: nbf as a BasisSet intrinsic property.
+48b670e10cd47b168f34d2df234df3a5ae81748e|2019-09-26|Daniel Smith|Models: Adds nbf to BasisSet
+8052bf2b7c0a42f5e1f1065658311bb2f103190e|2019-09-26|Daniel Smith|Models: Refactors wavefunction data to be within a result
+a162390fac2718857b653881f473e18bbed611a2|2019-09-26|Daniel Smith|Models: Patches up basis validators
+9cd825a187b18fa94883022bcd4e10c9b1d7a15d|2019-09-25|Daniel Smith|Merge pull request #138 from loriab/turbomoletostring
+058fddd2c16fa64e2181f99497db73ef5364be7d|2019-09-24|Lori A. Burns|handle turbomole case where element at end of line
+73fbb87dbc8e9d71e83121f333fe77eaed9dd3ec|2019-09-24|Daniel Smith|Merge pull request #137 from eljost/turbomole
+7c6a220b5c6d34518fc0a22d3155b804903071e5|2019-09-24|Johannes Steinmetzer|added turbomole test
+2cd94943bd835efcdb7e90cf5743c4ee2c2b61ac|2019-09-24|Johannes Steinmetzer|bugfix: used wrong geom data that didn't consider the requested unit. fixed formatting of coord file
+53d5f5bd99753e1e3bb726bcd158d7edb725a9b6|2019-09-24|Johannes Steinmetzer|added remark regarding ghost atoms
+2feb1d3115c12f1a729f634fb1928f759c8af3cb|2019-09-24|Johannes Steinmetzer|to_string can now generate a coord string in TURBOMOLE format
+fdf8b757aa6380f599b5253bb90b43706179a44e|2019-09-19|Daniel Smith|Models: Begins Wavefunction model
+c6de3a330f686f5dad0a7f4cb0fcf2bf55a549e2|2019-09-19|Daniel Smith|Merge pull request #132 from dgasmith/wavefunction
+fd967df8b2aa31d552ef9a3e0ae464c6eb367797|2019-09-18|Daniel Smith|Models: Slight basis changes
+dc04d75d9225ccf864b0557c2ba402eb1c75146f|2019-09-18|Daniel Smith|Models: Optimization model error fix and isort cleanup
+1b9e7d42f4d72213bee18a0910315b7fb40a815b|2019-09-17|Daniel Smith|Models: Documents the optimization model
+92c2faa1b1fd03f98c1a9146939a5aac7aa9dda1|2019-09-17|Daniel Smith|Models: Documents the results model
+42b117319bd3142dd50c7191a15b5f1cf8855c5e|2019-09-17|Daniel Smith|Models: BasisSet validators and tests
+dfe6f518cd210e9f876cd74192664c594bcf9d3c|2019-09-17|Daniel Smith|Models: Finishes basis set module structure and begins tests
+de9f15c125eff9b42a22b366e4a550a086e93745|2019-09-17|Daniel Smith|Models: Starts basis definitions
+b9b6857661a0843a1bfc1504027c0606cc83f6f3|2019-09-13|Lori A. Burns|bump v0.8.0 release date
+c6ae551f0d6f51c5857c15b7e841945ebe9ec7f6|2019-09-13|Daniel Smith|Merge pull request #131 from MolSSI/v080
+c5107dddaad41c09ae7d523c5f2ef72530907049|2019-09-12|Lori A. Burns|vdW: vanderwaalsradii.get --> vdwradii.get, VanderwaalsRadii --> VanderWaalsRadii, other touch-ups
+4f5e2a51604e691359e64b5ac225d5ae53162f12|2019-09-12|Lori A. Burns|Merge pull request #130 from MolSSI/v080
+e1f31f4b80b50cc3166c345d937eea20da5497ba|2019-09-11|Lori A. Burns|docs for vdW, update README and CHANGELOG
+f52830d481e87ff1d84eafe0495ab8b2b58dfaa0|2019-09-11|Lori A. Burns|Merge pull request #127 from stvogt/VdW
+60fabc137a979724d84434d5a75007a5c9325425|2019-09-10|Daniel Smith|Merge pull request #129 from sjrl/molpro_update
+02dce84b84a91e5c19e6c0953ca3648e054f0e29|2019-09-09|Sebastian Lee|Molpro: Changed how multiplicity is set for Molpro so it is actually used by the program
+d9f2283885a1696bce55308ac28e507217cd27b6|2019-09-09|Daniel Smith|Merge pull request #128 from mattwelborn/more_tests
+8a78f9b76b581243f971ae392b02170c3b098714|2019-09-09|Matthew Welborn|Merge branch 'master' of https://github.com/MolSSI/QCElemental into more_tests
+722182af4819c16751813551ac5cb55dce055b67|2019-09-07|stvogt|fixed minor issues
+7d695c41e410a4d2492886e8d2e10b4f2ad49e8d|2019-09-06|stvogt|included the tests for vdwradii
+6c5981d3ea76d0fad891e6cf54b5b52765727c87|2019-09-05|stvogt|added new vdw files
+f025404b72a12f23963f0c3ea94997f3948d31c6|2019-09-05|Daniel Smith|Merge pull request #126 from MolSSI/loriab-patch-1
+4cf12a3d413ec167f23a0c2fa9782ab3a92fafc5|2019-09-05|Lori A. Burns|Update changelog.rst
+3f402f5fa13c0bd595c233ded8d8e9bbe1f946c7|2019-09-05|Daniel Smith|Merge pull request #125 from MolSSI/schemathrows
+ec7a52fe252021a2260ce73bdad038773becad80|2019-09-04|Lori A. Burns|catch dropped atoms early again
+3a31c68a932c724e0845f11124da9de4fc7e42e8|2019-09-03|Matthew Welborn|Test aliased functions in periodic_table.py
+7cb0fc8f8454fc35402c92bd595de994b723e7de|2019-08-29|Levi Naden|Merge pull request #123 from Lnaden/mypy
+a4750a9be8fe72df8d88cbb6d444b2f1bcde95a3|2019-08-29|Levi Naden|LGTM cleanup
+0b1fc37bf9212edf139324f87ad5ef237b81b16c|2019-08-29|Levi Naden|Update from comments
+efe3e95fe9b1a6bcdc84765362eb6e9e5902e751|2019-08-29|Levi Naden|Cleanup some unused imports
+1418427d9f8e0027586246c77219ffca7d0db92c|2019-08-29|Levi Naden|MyPy, lots of MyPy
+711f6fe04fb06280d452ee695226883e73eb2f01|2019-08-23|Levi Naden|Merge pull request #122 from Lnaden/lgtmcleanup
+6ff046814e640af73864eb97640635497a31a84b|2019-08-23|Levi Naden|Fixes from review.
+9f3bbf0f4614e1b66ddd7e8df74ccb7be5a72ac3|2019-08-23|Levi Naden|LGTM Pass
+b4104a0165398d29c804475c85b7c057a305d342|2019-08-23|Levi Naden|Merge pull request #121 from Lnaden/yapfed
+33731de4e8e071fa0845712fdc3d5bbe02608cfc|2019-08-23|Levi Naden|rename file from review.
+96d525a27d16d193122acc0883cd29cdcfd7fb7e|2019-08-23|Levi Naden|Small organization tweaks.
+eb3e327a088775d2a986342bfa5f36ee461250dd|2019-08-23|Levi Naden|Update chgangelog
+61a6012dd303519a7857f3b171d1f19a753e5d34|2019-08-23|Levi Naden|isort? isort!
+d54908086590abc1516b9c47a9cbb72d20c537ae|2019-08-23|Levi Naden|YAAAAAAPPPPFFFFF!
+815a36b4eaa52650ed0d309eecaebc9b742f916a|2019-08-22|Lori A. Burns|Merge pull request #119 from MolSSI/molexport
+442a6ea881af968612b85311d6397f203ef700a8|2019-08-22|Daniel Smith|Merge pull request #118 from dgasmith/models
+e3db49a84765c483eb6a8ce0df8e82d303555836|2019-08-22|Lori A. Burns|really trivial yapf
+6d8476e856bdeb6fd16bc2a3649473826dead201|2019-08-21|Lori A. Burns|add data to `to_string(dtype='nwchem')`
+e7f0d2cb108bc13aa47edf2f57fb0cefff1413d9|2019-08-21|Lori A. Burns|yapf on Molecule Schema
+2547524b8c6fd9093dd1e75db1fbf08c4305dd0b|2019-08-21|Lori A. Burns|export options from to_string(dtype='gamess')
+5f5935a9c73ee2c31248b785e1ac620365792f86|2019-08-22|Daniel Smith|Merge pull request #120 from dgasmith/autodocs
+c1b0c6ad0ff707bf554c5f2fad76b23803604fd1|2019-08-22|Daniel Smith|Docs: Molecule doc truncation fixes
+0b83e152658ab107c7b0b5c6c18e9012f8d76753|2019-08-21|Daniel Smith|Docs: Adds covalent radii docs
+77c297c75e5c70e00dcb2b90713d3f45b765ee76|2019-08-21|Daniel Smith|Docs: Removes community page to prevent duplication
+b59b5c2ecd709ec03b1a9a2be10e4288de753db3|2019-08-21|Daniel Smith|Doc: Proper metaclass autodocs for ProtoModels
+6c305589fcdc9bc942b62e875310e53875f2873f|2019-08-21|Daniel Smith|Docs: Several docstring fixes
+5308f55cae6806548105530e3b327268bac77770|2019-08-21|Daniel Smith|Models: Autodocs all ProtoModels
+1d204ea202e988f5d037c4ff6e69611af11592cd|2019-08-21|Daniel Smith|Models: Fixes ResultProperties string repr
+dd8096878cb83b6939445325cbec22ca9d0967eb|2019-08-20|Daniel Smith|Models: Better string representations
+33987ed9ad1c7155c33ce987198b0a997e58b3d3|2019-08-20|Daniel Smith|Models: Result and Optimization str
+c19cefa1091182f9397fd022bdb3cd7b8e637888|2019-08-20|Daniel Smith|Models: Adds a force skip defaults to override skip defaults behavior always
+273e5396820f4a16c6ec8efdddad24de45c85da0|2019-08-21|Daniel Smith|Codecov once
+f07eaa4f3e8c9e243062d03c82ccbeb03d29b8c9|2019-08-20|Daniel Smith|Merge pull request #117 from Lnaden/better_install
+d054b33b9889778e2e7935bd2eea48a99722d1cb|2019-08-20|Levi Naden|Fix a small typo
+a8232c818bdf901f9c7eb3e5055bc5bc3188c8a2|2019-08-19|Levi Naden|Merge pull request #116 from Lnaden/061docs
+450902f3eb2ff2680ec5b328b763778a135b7c8f|2019-08-19|Levi Naden|Update master docs for 0.6.1
+0a8bd846482a1788203dddc662bf65ee647f0617|2019-08-19|Levi Naden|Fix some wording
+50673272aacdd7babced11e8a8550af7ddbaff84|2019-08-19|Levi Naden|Small grammar typos.
+fc8b14eac3f15eb609fb2112396461a5d844b2f0|2019-08-19|Levi Naden|Better install instructions
+82416ffcfd2177813ad7f965d6e85433d3a15bc9|2019-08-16|Daniel Smith|Merge pull request #114 from dgasmith/numpy
+9a09da1672948b1b22c70f29edf215a299f642b4|2019-08-16|Daniel Smith|NumPy: Calls top level functions and not core C functions
+6ae258fd9ae326b19e9e12cf0dca43d26c6c282d|2019-08-14|Levi Naden|Merge pull request #110 from Lnaden/060docs
+1228599034746238a081ea67eee8b84afdfe5ee6|2019-08-14|Levi Naden|Edits from review
+5b9161e08eabdd39326b33f88ca1df62d7f970c7|2019-08-14|Levi Naden|Docs for 0.6.0 release
+ff38a3e43cf9908ec747f397034328ae28a0b26e|2019-08-14|Daniel Smith|Merge pull request #87 from dgasmith/msgpackv2
+48bb4dba484eaacec8f805482cf80d4d28d1a512|2019-08-14|Daniel Smith|Merge pull request #109 from Lnaden/autodocs
+d9277d2418615455288bdf42f6b8c8a9a19f88b4|2019-08-14|Levi Naden|Fix doc builds
+75a9f90027834ae4c0aa551f4ecb796d38844c73|2019-08-14|Daniel Smith|Lint: Isorts the code base
+0111d3df22917fabcf0422516566a5fea0e938b7|2019-08-14|Daniel Smith|Molecule: Fixes molecule tests
+b72e9f3190f4eda938bfa9d4a7a2e82fd57ea4b3|2019-08-11|Daniel Smith|Molecule: Patches compare fixes
+7665052bda2b606828395d3fe45c18d892152162|2019-08-10|Daniel Smith|Models: Additional tests and compare functions
+5c1e2c7a87e943216cedcb22d072e185a57ad43f|2019-08-09|Daniel Smith|Serialization: Docs strings and formatting pass
+59a2b5256c07aa9c94ff2054f0b3a8fe1fafd952|2019-08-09|Daniel Smith|Util: Adds custom serialization for msgpack-ext, json, and json-ext
+98c80d05cc49a294678574a5c68a411dc3338daa|2019-08-07|Daniel Smith|Pydantic: Version bumps
+b810e83948c5c9863d2b759fac8a9b10ea4d801d|2019-08-07|Daniel Smith|Molecule: Ensure validation occurs even after from_arrays
+d43c9b0d4e2e7d235dca9a10518077bf20b20070|2019-08-14|Daniel Smith|Merge pull request #88 from Lnaden/autodocs
+6b432b89a6ed66f3b2fade5207c45d6e3717f347|2019-08-13|Levi Naden|try to silence LGTM on these
+adb4a580866b5255185d39affba3bd0124fb80ef|2019-08-13|Levi Naden|Update based on comments, add the model docs to the actual docs.
+df5e5b74e50643aa06ca4acc1a692ca4a7cda5aa|2019-08-12|Daniel Smith|Merge pull request #106 from jsarka/patch
+9cc2e49cca3ca61e7c33cec507e56bd42ac63adb|2019-08-12|Daniel Smith|Merge pull request #107 from sgreene8/changeset_9_fix
+5d34bbaa86d1ff130ba989779010189787c4bc4e|2019-08-12|Daniel Smith|Merge pull request #102 from gbarbalinardo/changesset-1
+560b1da0274782afeb80246dc73a10cd951bbd6f|2019-08-12|Daniel Smith|Merge pull request #105 from laurennk/Changeset6
+6ede0c092e05f15ac87f512f53b1d86178e0d9e7|2019-08-12|Daniel Smith|Merge pull request #101 from jaclark5/my_change
+fb78605d62a155ee8a560b71e6413f9bc85d5cd2|2019-08-12|Daniel Smith|Merge pull request #100 from hannahbrucemacdonald/documentation_change4
+53c47270701967d53d0fba129f5461f26f5632cb|2019-08-12|Daniel Smith|Merge pull request #104 from wcwitt/changeset2
+0b9346e0dd654568e2c66ac394159d2c43e32135|2019-08-12|Daniel Smith|Merge pull request #103 from tuckerburgin/change_common_models
+c99cf2e32a1e291b5f3e0373120f890713981e8e|2019-08-12|Daniel Smith|Merge pull request #99 from zhi-wang/changeset5
+abcb68ddedacf5740177ef239f2012c3f8f2ad0a|2019-08-12|Janos Sarka|Comma added
+417956e74ea07251a5b34555d3444b30e78229aa|2019-08-12|Jennifer A Clark|Change qcelemental/physical_constants/context.py to reflect doi and raw_codata attribute.
+6b29dc99169a53e8cce9186407dddf4ffc5cd53f|2019-08-12|sgreene8|Implement FailedOperation class in common_models.py.
+6e58c250c48626c7f1798ea9e8e78520dbc2b082|2019-08-12|Tucker Burgin|Modify qcelemental/models/common_models.py
+64045cce8f3d38d3c95adac702d241b6541a1b85|2019-08-12|Janos Sarka|I changed the qcelemental/models/common_models.py file.
+36574431232fa79431c381f4258ecd9ba1dc0fed|2019-08-12|Zhi Wang|To follow YAPF style
+16cb2528691b8fd74710e2fe8551d64c5e7d0f34|2019-08-12|Chuck Witt|implement changeset2.
+4c8a4f78d4fe4b1da429dcbe0e7a1766b49c7796|2019-08-12|Giuseppe Barbalinardo|Change description of to_E method, this fix  #90
+11d712c60cedba6887e64cf16d659b34e6631d5f|2019-08-12|Lauren Koulias|Fixes spacing in function declarations in covalent_radii.py
+671421b40c9b906e0187cf561bf551941d7b4704|2019-08-12|Zhi Wang|Apply the proposed changes to covalent_radii.py
+14292e96e8309e2a12d8c0a5e2a0d2effae3e006|2019-08-12|Hannah Bruce Macdonald|Adds documentation changes to `physical_constants/context.py`
+89242f23bdc02acdda7d43a65cfda330b62a37e4|2019-08-12|Levi Naden|Update from comments, more will need to be done yet.
+8c8d317d51a6c2778c03e583338f488e60eda5c8|2019-08-09|Levi Naden|Port Fractal Autodoc to Elemental, Autodoc Molecule Object
+fd6e008da0f2885109f99eb518ee165f9dd7d82e|2019-08-03|Daniel Smith|Merge pull request #86 from dgasmith/msgpack
+91a5ee634ccb5eba2ad83552883002f9e0306709|2019-08-03|Daniel Smith|Molparse: from_schema updates to ensure shortcut path is equivalent
+9a6788fe9b2f32c89cbc15576691eaff06030da9|2019-08-02|Daniel Smith|Molparse: Copy options in nuclei/geometry validation
+85e95b9500db16c0b3dd83237ee3927497cab3e3|2019-07-31|Daniel Smith|Molparse: Adds a copy command where applicable
+538411ab2711be12bf0392aea986815358d3a007|2019-07-30|Daniel Smith|Models: Adds default Repr to prevent pydantic recursive string from getting out of hand
+131efc36815ac27751a83581124b78f94620875c|2019-07-30|Daniel Smith|Molecule: Ensures to_schema always uses units
+3c35cf4d7c2dabebaa0060902c1378da3d015992|2019-07-28|Daniel Smith|Molecule: Minor benchmark fixes and import tweaks
+06ebc36f8bd909daeb3a1de8da30a86ad88b26ab|2019-07-27|Daniel Smith|Molecule: Adds a validation flag to the molecule to prevent duplicate validation
+387a7de8df019a79c8801f68d2dc71c1cc63a562|2019-07-27|Daniel Smith|Units: Adds LUR cache to conversion factor
+371a32cd5d1a36d5c2be6f71a398af97ae536f7b|2019-07-27|Daniel Smith|Molparse: Prevents unnecessary copies
+1a11f057b8a57d666d2a76e27e795085902e8af0|2019-07-27|Daniel Smith|Molparse: Allows a validation level in the parsing
+261b52732d47c90589bc091b49ac59d9d1987eb8|2019-07-27|Daniel Smith|Molparse: Faster distance matrix checking
+3b0f8b1622c8c8bd337f2904fd1b56fb5f2df3af|2019-07-27|Daniel Smith|Molparse: Prvents extra logging in charge mult
+c542d43b211ba4e4d14f1130ab4c1dab6e3aa77b|2019-07-27|Daniel Smith|Molparse: Chargemult now 500x faster once the cache is built.
+58f431a29266c823c5fe9b508a46882302bf1b1d|2019-07-27|Daniel Smith|Molparse: Prevent unused string creation
+a092f3746cedfe2a8dc66fd8c8019797722f943f|2019-07-25|Daniel Smith|Merge pull request #85 from dgasmith/msgpack
+3fe0351b3cb35df4d782b40dff52c71dd820e47f|2019-07-24|Daniel Smith|Msgpack: Cleanups and simplifications based on reviews
+0257e94c51898aef250329b6e6224e3a7c224a41|2019-07-24|Daniel Smith|ProtoModel: Additional parse to file tests
+fed05a09016b6f8fb539ade09466b832e0999cc6|2019-07-23|Daniel Smith|Molecule: Creation optimizations and additional tests
+91cf4397a3ccf6bd789aed551fcf48bef5e786b4|2019-07-23|Daniel Smith|Molecule: Final tweaks for skip_defaults
+9e522228f4a48ceed3ccceabbc1949d50a06074d|2019-07-23|Daniel Smith|Molecule: Removes several Arrays and moves them back to list due to their short length
+7a41ec33399a276cfb261dc891ff2634afb17c50|2019-07-23|Daniel Smith|ProtoModel: Overloads the parse_raw functionality
+866fe201967d23e875b521ea37103455dd9762a2|2019-07-23|Daniel Smith|Result: Validates return_result and migrates json_dict to base
+c1957c4f35bebde071e7ac004faa975c04233640|2019-07-23|Daniel Smith|Msgpack: Smaller types where available and includes array shape
+016eb044320516bfc25f647dabbafcfb8f04db17|2019-07-22|Daniel Smith|Testing: Cleans up msgpack test failures and isorts the testing folder
+d7d6867f6a78124979cd61a990f328dd9efe3349|2019-07-22|Daniel Smith|Models: Adds the ProtoModel base class
+48205612760afd04c7e01ae24cc5124c867a98f2|2019-07-22|Daniel Smith|Models: Adds a new types file for QCA defined types
+f8ef9ed2a883e9a7095fd38324a6fa3e4b0e00ac|2019-07-22|Daniel Smith|Msgpack: Adds serialization/deserialization routines
+63ddb435fa3cf8efd7bba68750bb3a8f540681f1|2019-07-22|Daniel Smith|Molecule: All list quantities are now arrays
+fab353a35cd8fd09282eff355cbbf8e078478c71|2019-07-20|Daniel Smith|Models: Dtype param Array model
+000b5c69c2afd19bb245610d1bf9cee872748299|2019-07-21|Daniel Smith|Merge pull request #84 from MolSSI/nointernet
+a4ebccaa512c24515f18679d35a17c5b2c6eacf4|2019-07-21|Lori Burns|don't test pubchem if no internet connection. closes #83
+9a14834b8fcb176f64db3276536554111ad3635e|2019-07-21|Daniel Smith|Merge pull request #82 from dgasmith/group_frag
+7422123d86cc584419b0908d753cafa125cc3f80|2019-07-20|Daniel Smith|Merge pull request #78 from psi-rking/vectorGradient
+212aab754df4a5dcafc506544275ba3c84b06205|2019-07-19|Rollin King|remove tests from module proper
+d4fbedeaa4394633518902e4393693e0433b1324|2019-07-19|Rollin King|changed arguments in and out to be organized by (3, 3*Natom)
+71b0c81be3c1daee94f5b32baf5ceae7f89d0d6a|2019-07-18|Daniel Smith|Molecule: More robust test case for group fragments
+ad327dbb15b5291f7a36f412693b5422427ea052|2019-07-18|Daniel Smith|Molecule: Sets group_fragments=False to match expected behavior
+1212332351e919df19e1df6b598650eb9c215c72|2019-07-18|Daniel Smith|Merge pull request #81 from MolSSI/loriab-patch-1
+2489dad14b67786afd52826d193ef530bd382021|2019-07-17|Lori A. Burns|let's edit the right file
+94cecdc1c2715de884ca4c36430557388ed28a3a|2019-07-17|Lori A. Burns|Update base.yaml
+9711d64ee5c435ea4f54344d36f0a5cd30a9ed7a|2019-07-17|Levi Naden|Merge pull request #80 from Lnaden/050docs
+0defef0a6f368702505b491dcd8dce760af564a8|2019-07-16|Daniel Smith|Pubchem: Database change, picks another test
+9c9277662dcdcf02006ae39b19096e97e2ca4487|2019-07-16|Levi Naden|Update changelog for 0.5.0
+03848aaaa4edf7465836140817214570d2e3ec8b|2019-06-27|Rollin King|Reorder atoms correctly.  Use GRD geometry and note that.
+5059d8e674054c206ba1d527bb7664d626a36bf3|2019-06-26|Rollin King|Merge branch 'vectorGradient' of github.com:psi-rking/QCElemental into vectorGradient
+d2d0f8369de464beb5633fc32727b5ebb0a1fde8|2019-06-26|Rollin King|test case works, but atoms numbering in c4 is mysterious.
+d008c3f9394e269315c6191ff3a8d090169557f1|2019-06-26|Rollin King|first pass to initiate pull request for a function to align for dipole moment derivatives
+130d31b53e0d3bf60d3a819aa2107fc6975cd5ce|2019-06-26|Rollin King|first pass to initiate pull request for a function to align for dipole moment derivatives
+fba10bedea7e077f710d49e9af2324238da1fe8f|2019-06-24|Daniel Smith|Merge pull request #74 from MolSSI/trivial
+75c7b2ed92caf35e2c144229808f45e917220884|2019-06-23|Lori A. Burns|get_fragment: allow both group fragments or preserve order
+a1882cff6834ae2b6e363ade3fe6104b01bfaf17|2019-06-20|Daniel Smith|Merge pull request #76 from dgasmith/tofile
+9b9982ac17f9d847d2b65a31290139a91d69545f|2019-06-20|Daniel Smith|Molecule: Removes os.path in favor of pathlib
+f1faf921f836c00bdee6a93560f033b84f655562|2019-06-20|Daniel Smith|Molecule: Adds a to_file function
+6b34bb23b757332a61ce1a6f4a63ad9b5c5b5f7b|2019-06-17|Lori A. Burns|start testing get_fragments(group_fragments=False)
+c6523bc2bb15ce1e7fedf77af66cec3cdea1f5b9|2019-06-14|Lori A. Burns|get_fragments() switch to preserving atom/fragment order
+58a036543f35b13eb7e8a906d99597af2e68d18c|2019-06-13|Lori A. Burns|better variable naming for Kabsch
+bb4aea34103cf8f4c7b837abcea1c82e44327fef|2019-06-13|Levi Naden|Merge pull request #73 from Lnaden/master
+4dd4085be5bcf40f19a68bad5bffa6a0963c738e|2019-06-13|Levi Naden|Update changelog for 0.4.2
+8a0f029bd9330ab9fef05c15ebde9d416674364a|2019-06-12|Lori A. Burns|trivial testing change. prepare changelog (#71)
+abb6da71d4b6b27ba57fae560feaafaac244cff8|2019-06-12|Daniel Smith|Merge pull request #72 from sjrl/molpro_xyz_update
+984f38eb708e765d5981f8e558f15e3cd71f6527|2019-06-10|Sebastian Lee|Molpro: Updated dtype Molpro in to_string to support symmetry and orientation molrec keys.
+a1f34ee6748c29bc67c943eb848aa9ffac28dad1|2019-06-06|Lori A. Burns|Merge pull request #70 from sjrl/molpro_xyz
+57cf01a307ee625d43b2dc2e45be7ba908511446|2019-06-06|Sebastian Lee|Molpro: Added test in test_molparse_to_string.py
+606b749bd94f87b4205144f3474e90e0f1979ac2|2019-06-06|Sebastian Lee|Molpro: Simplified ghost atom write and write charge and multiplicity in to_string function
+cf76d2e4a77bfb3e664258e203639901ab11045c|2019-06-03|Sebastian Lee|Molpro: Added dtype molpro to molecule.to_string function.
+0396f21164648b50014f676a3098f63721f4f8ae|2019-05-31|Levi Naden|Merge pull request #69 from Lnaden/master
+d2dee122434299a17e146fc4e76a48645e5af3a7|2019-05-31|Levi Naden|Update changelog for 0.4.1
+22a7c9b91a7cfeedae61beb47e3a2c3faad0cec9|2019-05-30|Daniel Smith|Merge pull request #68 from MolSSI/cfour1
+11e3424e8468b66480ec5d250a81b827137cf9e1|2019-05-30|Lori A. Burns|datum: allow non-numeric
+60eac5a950cb884bf0c312690f6f8012dc21809c|2019-05-28|Lori A. Burns|add options info to molparse.to_string
+b9f28c19f671213cadc01fc3e80aa2772ee484e8|2019-05-28|Daniel Smith|Merge pull request #67 from MolSSI/loriab-patch-1
+94bae3e1b7dd417b389160659f350ce8827cd799|2019-05-28|Lori A. Burns|Update testing.py
+a9026b6478dc10a40332b4cec225be4f4e71d851|2019-05-15|Daniel Smith|Merge pull request #66 from MolSSI/polish_testing
+8bba04026589b287c2da4d2792bbb7ca962d7f7c|2019-05-15|Lori A. Burns|setup.py update and changelog
+b75cb4fd0430bc19caa4099c3b429b87320fa13a|2019-05-14|Lori A. Burns|add DECIMAL to regex, avoid some warnings, set a trap in case min pydantic changes
+b85d99f6462fe4a4ca7efc317857d83cad89aa06|2019-05-13|Lori A. Burns|ci: guess travis still hasn't got py37
+006af2528c6803262375ac66d73af797fe4d41d2|2019-05-13|Lori A. Burns|testing: docstring touchups
+9d2c52e24e80fa341ab1c8cf0c131b45e3b41d4b|2019-05-13|Lori A. Burns|testing: add a minimal deps travis test lane and add missing selectors that motivated the previous
+3e8eb6a9d7964d6e7868eb543efc4edfd4ba19f7|2019-05-13|Daniel Smith|v0.4 changelog update
+1bf7d8af12932c07149cf539f94d25bdd0be75d1|2019-05-10|Lori A. Burns|Merge pull request #65 from MolSSI/polish_testing
+c3ca0427189bac8b215715b66939ed3e2a2e2fed|2019-05-10|Lori A. Burns|changelog
+981b03f5aaed626915e1a3caa4ebec3e5a543d7d|2019-05-10|Lori A. Burns|changelog
+41cdc67690bed9ab0ae6cb010fa518fe465657b9|2019-05-10|Lori A. Burns|test: add forgive to compare_recursive. error out 10**-atol in compare_recursive
+becf1b8eec2be9b0f610e3192b9696f35973cbeb|2019-05-10|Lori A. Burns|adjustable backends to testing fns, hook up alignment to compare_molrecs, fix printing, test compare_recursive
+b621d2a5c1fb5f4d732b9d5c7d88e04ac9837209|2019-05-07|Lori Burns|add raise_msg to which* fns
+8b4643ecfd7b84b5570f279faad9c3f2024a385d|2019-05-07|Lori Burns|import: add raise_error
+ee7f30d0de14a5e1cdbe08ed168e0cb23f4bf67b|2019-05-08|Daniel Smith|Merge pull request #64 from dgasmith/viz
+6cec808e327f09c67bd0c0585177b9d7b70d5e30|2019-05-08|Daniel Smith|Molecule: Add hash head to repr
+6587d2a618f766c03d0726e2d29445270b75573d|2019-05-08|Daniel Smith|Molecule: Adds better reprs for notebooks
+9bb3d4510e87a0cf9164927ffd20330d2970ca0c|2019-05-08|Daniel Smith|Viz: Renamed to show
+5ca9caae9acea7f6a033f3c2da2f8b6fda4144b5|2019-05-08|Lori A. Burns|importing raise_error and molutil (#63)
+d32c669684f9f31a53223e959a4311c542cbbd2c|2019-05-07|Daniel Smith|Merge pull request #62 from MolSSI/star
+1b415817f3fc26a57fd42469f38fce42ad27b226|2019-05-07|Lori Burns|type: more typing changes
+7e50a145094a37cfa05c40b90389da2a81764b8f|2019-05-07|Lori Burns|star: more mypy checks
+a43cd3f0e624f1237c967b3df00df79109217ac0|2019-05-06|Lori A. Burns|type: add keyword-only args, fill in typehints, reveal some tests
+7b9e92679ed5312e895abcaaac56cfaaaecd17af|2019-05-01|Daniel Smith|Merge pull request #61 from dgasmith/viz
+bf1bda44188535bf023c439dc762990ba3462b36|2019-05-01|Lori A. Burns|simpler psi4 format that observes formatting params
+2926822ab4c66914043eb506bcdc23a107ad9647|2019-05-01|Daniel Smith|Review: Several fixes and extension in response to review
+b3316db7d7429c9d18e51c285d64122b4276d30b|2019-05-01|Daniel Smith|Testing: Adds py3dmol to the test envs
+0c83b49533093e28883ffddf635113e1a9804529|2019-05-01|Daniel Smith|to_string: Sensible unit defaults
+f949d37be9a095b324d3f5a9bc7f7d3a7530e8e2|2019-05-01|Daniel Smith|Molecule: Adds molecular visualization with py3dmol
+7eb373ce4b77ddc2cbed22f232c5061007a6b145|2019-05-01|Daniel Smith|Molecule: Allows xyz filetypes
+846221c066c58646c20f69b014814f386bcd60cc|2019-05-01|Daniel Smith|Merge pull request #60 from Lnaden/whichpath
+11a6f8fa70af5dfba4da5802b8c9c4d54c1da4e7|2019-05-01|Levi Naden|Add the python binary directory to which's PATH
+b19d1621b309f0c52ae2b04ebc380b66b40dbe25|2019-04-29|Daniel Smith|Merge pull request #56 from MolSSI/b787
+b052e1732457675af58ef8d4bf0d7332e918bac9|2019-04-26|Lori A. Burns|b787: give up on appeasement
+2c7dce0433a15dbf728ee3ade99a6a7fe5f0ca7b|2019-04-26|Lori A. Burns|b787: try to appease lgtm
+82128471554078e9b16c687cdad8884176956b5b|2019-04-25|Lori A. Burns|b787: try to appease lgtm
+06bbf0e3171ea1e920ec95b8096e96e1269a3044|2019-04-25|Lori A. Burns|b787: Molecule.scramble returns mol
+e232a87aa142b7857e1b4e2b88f3c6027a1b9ea9|2019-04-25|Daniel Smith|Merge pull request #59 from MolSSI/dgasmith-patch-1
+75c3cdba3643db7582afee5d770cf8484d237ca7|2019-04-25|Daniel Smith|Update results.py
+f3ab235dee49c01dfdba8507ffec254656cf4810|2019-04-25|Daniel Smith|Merge pull request #54 from sjrl/ccsd
+92cf8acdff5a934aa39b8519926cfb40cb035937|2019-04-25|Lori A. Burns|b787: rebase which_import changes through
+96498ab8c9d83e32ccbe604e74619def574c1a80|2019-04-23|Lori A. Burns|b787: changes after review
+3772289ded63ea8b0f2b47a831c770aa8f15f291|2019-04-20|Lori A. Burns|b787: add hessian align test
+5f16af9b59a265a108a03bf61e38e270bdd81db8|2019-04-19|Lori A. Burns|b787: more testing
+310cf91606895e401f41905d79b6d44c0c2445ae|2019-04-18|Lori A. Burns|b787: add scramble to functionality
+42ae5ace7ef9fdd915db00c7d246e6a5e8c81db3|2019-04-18|Lori A. Burns|b787: add models.Molecule.B787()
+6f8d27a62fe42b0c01a11dc03c6b923bbdb0b51c|2019-04-17|Lori A. Burns|b787: ci scipy
+74a441fa409feeab330cc99496ab340b40a75b86|2019-04-17|Lori A. Burns|b787: uno algorithm2 needs scipy. not used for aligner
+1095e166837e730c9c74c63965be7549cb4f611c|2019-04-17|Lori A. Burns|b787: test hungarian and uno algorithms, lazy load networkx
+d8b1e3718fe3efe9cdaaf5477ae90dc597c869b2|2019-04-17|Lori A. Burns|b787: tests scipy's hungarian
+4d2e357b5a56b3d776c89598d9a64a066918fd2f|2019-04-17|Lori A. Burns|literal copy of hungarian testing from scipy
+7aa0104f0090a35dfb6ec57cc9d5ded9d870f929|2019-04-17|Lori A. Burns|b787: remove old algo, fix ci
+10879ad39811d99058fa5b721e6307e8d853946e|2019-04-16|Lori A. Burns|b787: basic working and testing
+a4d3f4949fa56e93886a0dbda18d982b6e4ac713|2019-04-16|Lori A. Burns|literal copy B787 aligner helper fns from Psi4
+9db5bcdd09fa4be95f6710dc978876ff5467b463|2019-04-16|Lori A. Burns|literal copy B787 aligner from Psi4
+31707df1696deae39c8d1c05b2818f67205c8a46|2019-04-24|Sebastian Lee|Results: Removed CCSDT and CCSDTQ keywords from results.py
+be3f93b8c7371832844cbb7e105ebcd65a7a8eab|2019-04-24|Sebastian|Merge branch 'master' into ccsd
+510ae69ac92820c77456d03ead162b78aeafe4a2|2019-04-24|Sebastian Lee|Docs: Added line to changelog.rst
+8a82175a1bda2b9d1633792f80e74b6a560912bd|2019-04-24|Daniel Smith|Merge pull request #58 from MolSSI/importtools
+08f0194405da1c1a235219fe4937413e1c431600|2019-04-24|Lori A. Burns|return pint import
+ecd250ad245cdc879a545af17e23ae4cf98f447e|2019-04-23|Lori A. Burns|adjust import positioning
+1285db01f8ee49937e9c87e4890daed1f6e69c22|2019-04-23|Lori A. Burns|migrate which, which_import from qcng for use in soft import of deps and testing
+c3773ec4777131c981b48e340e5b66ad90e25b31|2019-04-23|Sebastian Lee|Results: Updated mp2_total_correlation_energy to mp2_correlation_energy to follow QCSchema
+06eb3992712ba70a0a499b775fa45aa9b21c22b5|2019-04-23|Sebastian Lee|Results: Added CC keywords to results.py
+feea2b1dd4ebe87286d4d331b8a2fc9232e7a740|2019-04-17|Lori A. Burns|Merge pull request #55 from MolSSI/terachemmol
+c91113f52594999901350422d96876b796d8d9d0|2019-04-17|Lori A. Burns|Merge pull request #57 from ffangliu/terachemmol
+aa232b59b56f9db0d4d2d420956ae30b8c9bfc28|2019-04-17|Fang Liu| TeraChem: Fixed test case
+c9dc2f5098038f1509312eb6962166ccdd9ebd48|2019-04-17|Fang Liu|TeraChem: Added Lori's PR for to_string(dtype='terachem') and added unit string to first line.
+8d0817dbed09cf72d35347715317228600948dd1|2019-04-16|Lori A. Burns|start to_string(dtype='terachem') formatter
+167e8b831ffb5a403030bc5d768df1dc40a90026|2019-04-11|Sebastian Lee|ResultProperties: Added keywords for CCSD quantities.
+0d1dc4e5c87f916c9e210b1e0f51618d85e06dcf|2019-03-24|Lori A. Burns|Merge pull request #53 from MolSSI/nre
+82304b03dd1146a589098f72db0b3888813f9e38|2019-03-24|Lori A. Burns|typehint new models.Molecule fns. yapf
+c320c9853baaa5e98398fafbab001c802c4fe9b2|2019-03-24|Lori A. Burns|test nre and nelectrons fns. expand nwchem to_string from docs
+d36d7603be058820efc55430e9ff2479015d2c8a|2019-03-22|Daniel Smith|Merge pull request #52 from MolSSI/nre
+52461cab16946602078ece1dff96c4b6158d41af|2019-03-22|Lori A. Burns|add model.Molecule.nelectrons()
+0e9d772988502cfd941d5df18ee1329a4f009be4|2019-03-21|Daniel Smith|Merge pull request #51 from dgasmith/conn
+2a015a31bcda5d3cabac1ffc54bb841c20216110|2019-03-21|Lori A. Burns|add nre and to_string to model.Molecule
+f08f06ceef01b896860045348ba34360b91567d0|2019-03-21|Daniel Smith|Molecule: Changes default connectivity to None. WARNING this will change most molecule hashes
+d7caae4c84a3dafa066cc9e3e508cadba2cd2577|2019-03-13|Daniel Smith|Docs: Updates QCElemental capitalization
+1b1812f697b27671f9da4413ba3e174ca351562e|2019-03-13|Daniel Smith|Merge pull request #50 from dgasmith/license
+eccf9c93ae3b8e319c32337365d9d1171e399fb6|2019-03-13|Daniel Smith|Docs: Automatic year increment
+e7292716857125f63892e0b1e190606d9ab2076d|2019-03-13|Daniel Smith|License: Standardization MolSSI/QCA authors
+befdacaa852cde813f1905f7e76255a64e021b23|2019-03-12|Daniel Smith|Merge pull request #49 from MolSSI/kernprof
+b5643f5095c38096f139fcb8a272100562182e91|2019-03-12|Lori A. Burns|Update changelog.rst
+0fc96ef048bf76e590076151bee9ae56a626d030|2019-03-12|Lori A. Burns|precompile regexes and recompute massnumber/mass dicts for faster mol validation
+1bf6a9419d132f7fd77d0833568c1a52990529e0|2019-03-11|Lori A. Burns|Merge pull request #48 from dgasmith/mol
+b5b77f0e9ba427cd9626b99859bee64acbef6298|2019-03-11|Lori A. Burns|0.3.2 changelog
+d7d2e9fe2bcb7750423debd47d131b6eedd1e32d|2019-03-11|Daniel Smith|Molecule: Fixes an issue when building ghost fragments that carry a charge
+7ecf13aad773a7f66d662d477f8aaa454995f0e5|2019-03-11|Daniel Smith|Molecule: Prevent duplicate validates
+4564cb9040125379089f5a80ff78388c13fe2ce0|2019-03-10|Daniel Smith|Merge pull request #47 from MolSSI/d3incidentals
+5592afe32467833cb557e45de8b221d185600a2a|2019-03-10|Lori A. Burns|rename to DriverEnum.derivative_int
+ea102e90272d71f878768d7736df44b2838b5f79|2019-03-10|Lori A. Burns|derint fn and fix_symmetry in Molecule model
+5666baeef5e971c29f2be7f12e447c3c8c69eac3|2019-03-08|Lori A. Burns|Update periodic_table.rst
+a4d6e122628893b36e4fa70ae9e0b780995dad0b|2019-03-08|Daniel Smith|Merge pull request #46 from dgasmith/docs
+9ff5d0cf1719b531ab3f4bae41ce55f92cf00564|2019-03-08|Daniel Smith|Docs: Additional physconst information
+58443ff105b0e6bd30fbfab224fb0c638be6fdbb|2019-03-08|Daniel Smith|Docs: Starts periodic table
+7beb24e732b357ccd84847c21344516410e8795a|2019-03-08|Daniel Smith|Docs: Updates from feedback and typo pass
+087bd8fd8506f661189b3f8c28ea3a10abaceb9f|2019-03-07|Levi Naden|Merge pull request #44 from MolSSI/tweakslab
+6e6deeea0999c5ccfb6883ac1f82d4797bbe0eec|2019-03-07|Lori A. Burns|hide unused var from lgtm
+ac3a292938067e9df6956aab1c8586e601ebbf07|2019-03-07|Lori A. Burns|dtype=2 in Molecule model
+77838bfe317f16258e713dfbd00394294850e6ef|2019-03-07|Daniel Smith|Molecule: Does not allow sparsity, still issues in retention policies removing too much data
+16095a8f314ba5d1bcd87bb48f76f83bd76a4f20|2019-03-07|Daniel Smith|Testing: Patch up after increasing model strictness
+2d947cfb634589e9c5df20526897a371561ddf0e|2019-03-07|Lori A. Burns|Update test_molecule.py
+dca85c96aa562db4209d4dc0ef98615f0ab68e05|2019-03-07|Daniel Smith|Models: More strict output validation of required fields
+94397a3fdee257d9382937157757a51d5efc4bd3|2019-03-07|Daniel Smith|Molecule: Always validate schema and fixes fragment multiplicity issues
+1dfc90605a297696ec31aa1594e8e32b7bc7402d|2019-03-07|Lori A. Burns|Merge pull request #45 from Lnaden/doc_update
+2255811d6dfe4c6f569b7dc6686d6d4ac01d6c0f|2019-03-07|Levi Naden|Update changelog for 0.3.1
+bcc7a282e18443b4b91b448cbdd35ff7b5c7a168|2019-03-04|Daniel Smith|Merge pull request #41 from MolSSI/setuptest
+e1b86e7cfa087ba498bb054062cf98b3764a65f5|2019-03-04|Lori A. Burns|py ver in setup.py
+2c7f47c39d151c0534f55dfe55d9a1cf85589e6c|2019-03-04|Lori A. Burns|explicitly require pytest >= 3.9.1 for tmp_dir
+ed446b4e896903e0c5831f32827de78490336525|2019-03-04|Lori A. Burns|remove unused internal conda-recipe from repo
+ed139523f91cdc2eb08009f9c83fb457d6d328d6|2019-03-04|Daniel Smith|Merge pull request #39 from MolSSI/setuptest
+633a8a67b215f1a4f85a62410a1fe6bc6b01898c|2019-03-04|Lori A. Burns|conditional install
+033d45abc34123506bfa19b686b59a2d834c96a6|2019-03-04|Lori A. Burns|make `python setup.py test` work
+1506197dbd771c2a41996b9425d254d722387a82|2019-03-03|Daniel Smith|Merge pull request #37 from dgasmith/tweaks
+c4b686740bcada6fa1fc110dcf4266631f03f2fd|2019-03-03|Daniel Smith|Docs: Updates to QCArchive theme
+8e185723263d5d7e0144013f03bf8525b13163b0|2019-03-02|Daniel Smith|Results: Exposes property object for use elsewhere
+ea12090c31742817f88869922106b3e22b3ad81a|2019-02-27|Daniel Smith|Merge pull request #36 from dgasmith/changelog
+8b0b4544fdfbf1b987d4fafd893121ff887a01e3|2019-02-27|Lori A. Burns|Update physconst.rst
+4c4d3fe514b010ec9b3aa08b4e421483bb201b23|2019-02-27|Lori A. Burns|Update molecule.rst
+f6a7d888f261e7eb43216364ea858f91a1f6a63e|2019-02-27|Lori A. Burns|Update models.rst
+50c9f7e17778d0a31bc9bb0d8a2d24d5ed3dd3da|2019-02-27|Lori A. Burns|Update community.rst
+ad1124884d901a69c4ee876f514c16a9957d90d6|2019-02-27|Daniel Smith|Docs: Adds Molecule model documentation
+98ab66b35451daecfaf11d1c0d7ec3e89d9104d0|2019-02-27|Daniel Smith|Docs: Creates a models.rst to cover the basics
+3ca9bd9f897cbc2c9597e020c40d6fee50750e1f|2019-02-27|Daniel Smith|Docs: Physical constents documentation.
+7ef0648b6fd2f4bb52868bfbe908e7bb54221468|2019-02-27|Daniel Smith|Docs: Adds community stubs
+023a826c05a352a12b153eae14359b7c9cb96ab0|2019-02-27|Daniel Smith|Changelog: v0.3.0
+5547de235e7a94febea4890ac69310086fec4f9a|2019-02-26|Daniel Smith|Merge pull request #35 from dgasmith/model_upd
+37bd3c5a4273e9da20eadc4d1f62f67d63e92524|2019-02-26|Daniel Smith|Models: Patches up base models to allow stdout/stderr and extras defaults
+5f03b04c661365048c34ecf969c5c9a89b9ebd0d|2019-02-26|Daniel Smith|Models: Tighter constraints on base keys and extras field
+a2b8fe51adaeb33a319604dabea39c236d0dcfd9|2019-02-26|Daniel Smith|Models: Adds a ObjectId model
+7e9ecdaeec05459d68aa64b1eb9de291cfd25138|2019-02-25|Lori A. Burns|Update setup.py
+21f88e134a59b2438b1ebd121a8fede5867cc262|2019-02-25|Daniel Smith|Merge pull request #33 from MolSSI/molschema2
+54729a0ee9c01b75aba1a23ca0b498fd12db82ed|2019-02-25|Lori A. Burns|v0.3.0 changelog
+7ff2298ca62267c7e7f3e9b5d89d11c55fd8aa06|2019-02-24|Lori A. Burns|add qcschema_molecule schema_version=2 to pydantic models
+7f866bd4efa2480b5a664acd16097b1b70b63dc2|2019-02-24|Lori A. Burns|implement internal molecule name/version dtype=2 for molparse.to_schema / from_schema
+bd6971c0cfff0d140750ff23ec466688544011e7|2019-02-25|Daniel Smith|Merge pull request #34 from MolSSI/pydanticdatum
+a4c7e7e89b84781826cbf040f433728e4c3d358d|2019-02-25|Lori A. Burns|placate lgtm
+3e4a8e69637019236db68a5ba95405f4d92c2d17|2019-02-25|Lori A. Burns|turn Datum into Pydantic class
+c8f7b1702e16a89d40a5c0d070ad9e466b5fe52e|2019-02-18|Daniel Smith|Merge pull request #32 from dgasmith/pyd
+02a3a047518bd7e5669dea70101bd4bf92357aee|2019-02-18|Daniel Smith|v0.2.6 changelog
+d3a75392bdf0975b7787da2de446098f6eb1bf0b|2019-02-18|Daniel Smith|CI: Bumps versions
+c502de85d8d477afa1f60a7a67b974d0953cea3f|2019-02-18|Daniel Smith|Pydantic: v0.2 upgrade conflict fixes
+68ef5ccf7a56b5bd61c742c8d0abacb416188884|2019-02-18|Daniel Smith|Pydantic: Ensures include/exclude is sets not lists as expected
+a8c93ba5f75562caabcc4006d8d8bae35a9de6af|2019-02-14|Daniel Smith|Merge pull request #31 from dgasmith/tweaks2
+b4fe8d6879731e864081218c16b482e9268018c9|2019-02-13|Daniel Smith|Changelog: v0.2.5
+b7124aef24f3d27d1d8056c29a6324de9807f292|2019-02-13|Daniel Smith|Lint: YAPFs the program
+21c1144d0bcf6a0874b82624de6446c9c6b45c63|2019-02-13|Daniel Smith|Lint: Sorts all testing imports
+902ed41d9c97244a8969005a530855a6806bcd11|2019-02-13|Daniel Smith|Lint: Sorts all imports via isort
+474a30b0bd0f8f6e8ab86101667040a523ce806d|2019-02-13|Daniel Smith|Testing: Enhances tests
+9785c353f12632834e13afb8d2673e92629559fb|2019-02-13|Daniel Smith|Merge pull request #30 from dgasmith/dihed
+a28f9962c582880d8105c26f2932bb6c2c54c6fa|2019-02-13|Daniel Smith|Models: Additional serialization tests
+c5b28717576cbcdebbcc7c1ddb2be58c4d3d00d2|2019-02-13|Daniel Smith|Measure: Fixes dihedral computation
+e4fc7f9daf8bbb4c52648685c0e1f9e64cf07a5f|2019-02-13|Daniel Smith|Models: Minor cleanups
+f4c629f8d66e7906485b31ad48e5acc8fb9bfffe|2019-02-08|Daniel Smith|Docs: Docs cleanup and conda note
+ae488cf3e565a9267ceb2060a23aabcd4503caed|2019-02-08|Daniel Smith|Testing: Ensure rtol is always 1.e-16 default
+2ce08cb794e8f508d58fd098b8904865465767de|2019-02-08|Daniel Smith|Docs: Changelog for 0.2.4
+2a56b834cfacedf99f5a6db1aa7857889bac17b2|2019-02-08|Daniel Smith|Pint: Correctly uses new find_spec
+21d0c7ced8b853021e556b660c24bb1dc01ebceb|2019-02-08|Daniel Smith|Dep: Fixes small deprecation warning on pint import
+d9d827d62fe7c1f16833191cd8a7a7ed307b63fe|2019-02-07|Daniel Smith|Merge pull request #25 from MolSSI/testing
+92bfbc8c71f5ccf324ecdf7c802b85449bd51e72|2019-02-07|Daniel Smith|Model: Minor changes to the models with json_dict
+41ba4bc0f702357be1a3c0abf8d44dd344a2cfa8|2019-02-07|Daniel Smith|Testing: Changes compare_values signature once more based on community feedback
+fe8ee0b68961e85c4c2e2c8d89c9b488d37b6eef|2019-02-07|Daniel Smith|Merge pull request #28 from dgasmith/lazy
+148cb11129cc7f1d001278fa9b0498121e153ccc|2019-02-07|Daniel Smith|Lazy: Locallizes urllib
+b998a7ffc08f9e06c3ac89152223d783a3de5561|2019-02-07|Daniel Smith|Lazy: Prevents git version information from being executed multiple times
+55d9206cad395c3c775837759955e7f534849ac6|2019-02-07|Daniel Smith|Lazy: Lazy load of pint decreases load time for 1.1 seconds to 0.4 seconds
+12d5c580a5361d01d19c18e8767aba728fadbe0e|2019-02-07|Lori A. Burns|testing: adjust back to p4 compare_values sig. return specific tols to tests
+7395de696371fe077edca2229811e21a35bea005|2019-02-05|Daniel Smith|CI: Removes deepdiff
+7c527b95f5f26a44c4a8ae8f520cd4f44e3af319|2019-02-05|Daniel Smith|Minor cleanup after rebase
+1ac6ee93ae645cfdae7d3e8789e865c6248320e4|2019-02-05|Daniel Smith|Testing: Finishes removing old utils
+0bc99eef05df3e958807cd9dcea0f137ed64d530|2019-02-05|Daniel Smith|Testing: Molparse and dict testing integration
+c6ebebbb1cc892070ec284642088948b6186756d|2019-02-05|Daniel Smith|Testing: Further integrates new testing module
+bbe8b3cd763a7629d9dcc7d6dbb6714b6edfd0ce|2019-02-05|Daniel Smith|Testing: Moves testing.py forwards
+9ab39eafb0a7659b88a691752e38e0997424b898|2019-02-05|Daniel Smith|Pydantic: Updates to new Extras enum
+8a1782a7ab7dd28db45136773feef420266af9a5|2019-01-29|Daniel Smith|Update testing.py
+10ca179ccc8c941de1c28ec74b8ce7870f9bbf34|2019-01-29|Lori A. Burns|testing: put into tests/ for now
+221598fc0dbdedc7bbcd4ff5996422ab9dfe6adf|2019-01-29|Lori A. Burns|testing: compare and compare_floats in testing module
+014aa2429a68d256cdf4a8e5e6f2b58070e40bfc|2019-02-04|Daniel Smith|Merge pull request #27 from dgasmith/measure
+c0a262883b1c98ecdc5b5aee23884186c4bd7e23|2019-02-04|Daniel Smith|Molecule: Adds a measure command for observing units
+107da8e1c6cee6cfb352ec0a7501ac78ef41da10|2019-02-04|Daniel Smith|Util: Testing for geometry functions
+9d6dfc99f1a26f4de7e51b67252d48e36eed99e8|2019-02-04|Daniel Smith|Util: Adds distance/angle/dihedral routines
+8b60c6ccbad998a71f29076551548c16ad5b48af|2019-01-29|Daniel Smith|Merge pull request #26 from Lnaden/master
+8c014522686c5103c9c7253bf17366552f2d5938|2019-01-29|Levi Naden|Update changelog fo 0.2.3 release
+57e759dc6f69c2d37cd30de7bca6c5e8e9b0ac41|2019-01-29|Daniel Smith|Merge pull request #23 from Lnaden/master
+1d3b7bc134e760f4648f80a070275406ebbfdeec|2019-01-29|Daniel Smith|Merge pull request #24 from dgasmith/quickfix
+6adfc1152eec0f5f8a31d3473fa2e49c2e49bc0c|2019-01-28|Daniel Smith|Model: Ensure ids are popped in molecule, recursive pydantic dict passes in defaults
+e16356b512675acb46bccc5d28590cbbc8b8db47|2019-01-28|Daniel Smith|QCFractal: Updates models for compat
+010526e693f3619caece34dc16fb0edb5e1db77b|2019-01-28|Levi Naden|Update changelog
+741c5e1d2da777603776e0a71dda0b057a029c47|2019-01-28|Levi Naden|Ensure json encoders are passed through qcelemental
+20782a912bd89ebd85313f2acf42268bb3e862ed|2019-01-27|Daniel Smith|Update setup.py
+04c95f9888d6409ecc39380db61a4b7b2969837d|2019-01-27|Lori A. Burns|Merge pull request #21 from MolSSI/loriab-patch-1
+ec4018bc401b3f68307e537aa0552fcedfb97018|2019-01-27|Lori A. Burns|Update from_schema.py
+fdf62393f9c733c1ae11f7eb49e536293fdb2ba9|2019-01-27|Daniel Smith|Merge pull request #20 from dgasmith/molpass
+41ddd600d52c7815d617b683df12aacb63c654b5|2019-01-27|Daniel Smith|Molecule: minor tweaks based off review
+d64d947b389a350d04b46ecd9af4f43b67010ee9|2019-01-27|Daniel Smith|Changelog: v2.0.1 changelog update
+b014074d178adbf422f897c1b09cacc38305994e|2019-01-27|Daniel Smith|Molecule: Moves to molparse where possible
+8d958ae5b3202d9e0c0bd699fbb69686875ac0cc|2019-01-27|Daniel Smith|Molecule: Starts molparse shift
+05f6e09447ff0034aeb03fd0f70cca96c16ba965|2019-01-27|Daniel Smith|Tests: Removes test helpers folder
+6c7a3e838a3df917bc252ba3ea33699eb1b687b4|2019-01-27|Daniel Smith|Test: Adds molecules explicitly  the mol_test.py
+60f4dedd0d1d49bf20e102302f6389214e3f70fa|2019-01-25|Levi Naden|add pydantic to setup.py
+11f62d70e3169598521594f1c44f02416d08c213|2019-01-25|Daniel Smith|Update requirements.yml
+954966e6ffe83fb37a448862ba0aee9a7cfec712|2019-01-25|Lori A. Burns|Update changelog.rst
+46e626ba1c6580a6ca84dc2e319fec52b2e7b940|2019-01-25|Daniel Smith|Merge pull request #17 from Lnaden/elemental_models
+ed0e6b1ed82ce0500500476ebed7e1da29898992|2019-01-25|Daniel Smith|Update procedures.py
+922f222bf59a5dc9c1e1cfbd460c060695fdc9ad|2019-01-25|Levi Naden|Update changelog
+7b183652710fb1ef4488eadc733466e4e78fff1b|2019-01-24|Levi Naden|Remove all the old constructs and bad imports
+65962c4834aa90e014d557fca1ea19d311b3ef84|2019-01-24|Levi Naden|Make changes from comments
+7f6c88737b7022c1a78377b697490c29afe766a5|2019-01-24|Levi Naden|Reworked the Results model to to generalize a few functions and have graceful errors
+bc584425a0548a27ec1d8049317ce1572565a3e5|2019-01-23|Daniel Smith|Update base.yaml
+9dc0d830aad4ef55352a2956093e92c7fd289fa6|2019-01-22|Daniel Smith|Merge pull request #16 from Lnaden/results_models
+efdaff3d91b542c0dd865a2ac60ea3382e2c7127|2019-01-22|Levi Naden|Convert Results -> Result Import the models as part of the top level qcelemntal
+20c076d8f99a85b1f4ff7f8ec833958e7a6f616f|2019-01-22|Levi Naden|Error type is non-strict now, but still must be `Dict[str,str]` Results now allows arbitrary additional keys, but still disallows mutation The return properties now permit arbitrary keys
+8aae0f5910d00e7ff5abada20b24018bcfa1d9c1|2019-01-22|Levi Naden|Make all the properties optional Make the Results immutable
+cb865bc8d9c24035c7e5408664b727bf490fb9df|2019-01-22|Levi Naden|Add the ID field
+1ab5252868325a3cf6788fe75781c7267a286330|2019-01-22|Levi Naden|Add the new Results and ResultsInput models to Repo
+9a519f94eff0de8695815156095947d09182ac62|2019-01-21|Daniel Smith|Merge pull request #14 from Lnaden/moleculemodel
+dc2bb3a18d5b3ad909370da1c6862918eda10ad2|2019-01-21|Levi Naden|Remove old import
+36371b1b7b0a38869a03ce7959d659050fdbc946|2019-01-21|Levi Naden|Remove the old orient method Fix spelling error
+e9892feeb454ac5483f97ea8020cbb1d80dc1eb1|2019-01-21|Levi Naden|Re-added the `orient` keyword and no longer infer it from `fix_orientation` Moved Pydantic to pip install Removed the Python 3.5 from Travis testing
+ab04746e65c7c1604362052f8a15ab6a84f59027|2019-01-21|Levi Naden|Merge remote-tracking branch 'refs/remotes/origin/moleculemodel' into moleculemodel
+693df3fac931015de8369d374953278956b3aa90|2019-01-21|Levi Naden|Add the internal fields for emitters
+bfea064d4c7540dd802b8dbf5d8fa1bf2080bb25|2019-01-21|Daniel Smith|Molecule: Cannot round geometry on every set
+054b55042f4319bfa15ea8a7a6f982d0a4615826|2019-01-20|Levi Naden|Finishes this first implementation of the Molecule class as a Pydantic object in QCElemental
+34df1689c07fc12755a1789300582d0df97a0758|2019-01-20|Levi Naden|Finish adding all the base functions to the Molecule object.
+81c65d815fbb18b8bb689e4a1c4c2b2c896d5c56|2019-01-20|Daniel Smith|Merge pull request #13 from MolSSI/unnplist
+8f278391752dc33092c5e2644c86030a94e5c27c|2019-01-20|Lori A. Burns|move pint import guidance
+ea1549f9c2ddeff4d2664750a83c3b369e053b42|2019-01-20|Lori A. Burns|Update __init__.py
+aff488ea5e857df640d78694be49dc36389394d7|2019-01-19|Lori A. Burns|hide private fn in testing
+81baf7b0b51d6ef45bc877f523019bbab296639e|2019-01-19|Lori A. Burns|help users find pint
+b8a7782b0fa09fb3a810a4795eb7adc5897d4b66|2019-01-18|Levi Naden|Add Molecule Pydantic Object
+9c55fe679e18c0849124923e387c7e540a50efdb|2019-01-15|Lori A. Burns|Recursive ndarray-->list fn now handles lists and flattens
+d540fd5746e84c3748b926e7f94721d370a91e1f|2018-12-17|Lori A. Burns|address some lgtm alerts
+a260f92ae0074cbce7dcd1a664cb9c659da5ede4|2018-12-14|Lori A. Burns|changelog for v0.1.3
+9196144f4ca4cd7eb0811428e26214a6f6fcf597|2018-12-14|Daniel Smith|Merge pull request #12 from MolSSI/dictprov
+27d94f3708fb31b602c42fdda259feaa3d8cc04b|2018-12-13|Lori A. Burns|prov: test connectivity
+0a233a3f4f36e08d1cd53a16c8f496ef580cc612|2018-12-13|Lori A. Burns|dictprov: patch up tests
+291db997985fddffcccb701d0ac441c4d6555635|2018-12-11|Lori A. Burns|prov: crude adjustment of list-o-dict provenance to dict provenance. also add connectivity.
+0ac5566f9889242c2daba21921984b548d5e2bc2|2018-11-03|Lori A. Burns|Merge pull request #10 from MolSSI/covradii
+c3e7e0939ca2f878dab79a87c90b6570d4d37742|2018-11-03|Lori A. Burns|covrad: add missing parameter to covalentradii.get()
+12e63528275f208e7b5c26bb90a97bf23e304295|2018-11-03|Lori A. Burns|pt: add to_group and to_period functions
+d0fdd762a59912979d5a3c33258b54cd9bafcc3c|2018-10-31|Lori A. Burns|covrad: default to bohr with `covalentradii.get`. fix C header
+cf232aba0dda549b7f12c779b11ab35840f1613a|2018-10-31|Lori A. Burns|polish covalent radii
+f4f0fceb41e7eae04e2711e95b72431613078e99|2018-10-31|Lori A. Burns|add covalent radii
+4e09c22d82416f92fa2e6de125fda49270d577b1|2018-10-31|Lori A. Burns|add units conversion to Datum
+8c3a73c41b63e5f49f9df810c4964dd36f04cfc8|2018-10-30|Daniel Smith|Merge pull request #9 from MolSSI/provfixes
+28f4ba1ea1bf9feb086e36f618574f990402eb41|2018-10-30|Lori A. Burns|provenance fixes. prepare for 0.1.1
+465f4e3ed1832d9152ef889b6d3c7c5654d7d6f4|2018-10-26|Daniel Smith|Merge pull request #8 from MolSSI/pytestinstalled
+55bb2a14dfa50b32e1bdca675593becd2342e88d|2018-10-26|Lori A. Burns|test: forgive comparison tests for installed repo (ref data not installed)
+68aa6846170bbfcea62d42706598965127d6f189|2018-10-26|Daniel Smith|Merge pull request #7 from MolSSI/provenance
+0bf082c263d4294052b0ed930e9bf3d23e2a6706|2018-10-26|Lori A. Burns|molparse: test to/from_schema roundtrip. provenance testing
+6363d3723bc5334e7475751c71006c66804773f3|2018-10-25|Lori A. Burns|schema: make to_schema emit outer metadata, not just inner molecule dictionary
+f4113c4858a19a9c8b123ba0dabb00a599f5835b|2018-10-25|Lori A. Burns|molparse: basic addition (tests pass) of comment and provenance fields to internal repr
+ace3a0ba028a09ddd5b0b3de026fa1fe93bdcf68|2018-10-24|Lori A. Burns|test: get auto test name through function
+93fff9cf15b0883e46fcbf0a44c8977fa0249c85|2018-10-24|Daniel Smith|Docs: Inserts README into setup.py for PyPI
+de5e9e6a1db0c7e87ed30b4bcc0c4cb0fed01c7d|2018-10-24|Lori A. Burns|Create CHANGELOG.md
+e6545e3db3afed9477b7d9e9bb483988227a65a1|2018-10-24|Lori A. Burns|Update index.rst
+7fe701970b7a7ec80d61176d9d011d2597e4f94d|2018-10-24|Lori A. Burns|Update README.md
+3e3002685a1b55f66b7a60837bed9de5e5eb51a9|2018-10-24|Daniel Smith|Docs: Quick README update
+d43e67debb701512bb459e08a1ca12725eab681a|2018-10-24|Daniel Smith|Docs: General cleanup docs pass
+76b1aad6d7e92aacdae6989d5fe7b8733db3c0df|2018-10-24|Daniel Smith|Docs: Adds some basic usage in index
+ea55d8f29d30777b7dc9148f4c4d329ea9c874cc|2018-10-24|Daniel Smith|Doc: Adds install changelog docs
+b316559c4fbb0133ab8ce168e992fdd17f1dc9ff|2018-10-23|Daniel Smith|Adds a codecov file
+d57670e5e233ec2a1f06a73bd84814a07cd63e4f|2018-10-23|Daniel Smith|Merge pull request #6 from MolSSI/molschema44
+a32fa7d728a4f1f8207ecc29d7c23abb9cd08204|2018-10-23|Lori A. Burns|remove stray file
+6b005a46fe242f63f79d6733a61266a6bac8f4a9|2018-10-23|Lori A. Burns|fix testing and Parameters/Attributes order
+d3f14ee73c83afa907177aaf38dd503b463c6771|2018-10-23|Lori A. Burns|molparse: adapt to_/from_schema to molssi/qcschema#44
+3e6fe2dbb1a7d3d8f430e54f3f4ade3d49535497|2018-10-23|Daniel Smith|Units: Moves conversion_factor into constants
+27da422971c1705c2b42be5abf6a1fe7525ee1b2|2018-10-23|Daniel Smith|Units: Moves around phys consts
+d8c011cdbd32999509c9cfbb6c7042baf70888ee|2018-10-23|Daniel Smith|Merge branch 'master' of https://github.com/MolSSI/qcelemental
+fcc5d79d6964d55dcbdd7e3d7faf7b82b521b2b3|2018-10-23|Lori A. Burns|Create CHANGELOG.md
+f5caa843606a3dddbe2690b4b360c17ab6ab6c9c|2018-10-23|Daniel Smith|PC: Allows contexts to be created and from a single CODATA
+352103555559a485b07358ba5fd49ff660951020|2018-10-23|Daniel Smith|Testing: Small pytest change to enhance output printing
+f59f5c2aaeb62c93476e33efcb55087ef9dba7da|2018-10-13|Lori A. Burns|address lgtm items, add units testing
+2575f31d85a086c5408243f57cc5f692403b6013|2018-10-09|Daniel Smith|Docs: Adds RTD builds
+afc7057aa1d53b9a3802b05595a905260a7ef925|2018-10-09|Daniel Smith|Updates README badges
+0fad6b637be5546dd8cd8b7e666e92eb6f3e3f3d|2018-10-05|Lori A. Burns|periodictable and constants singletons back into modules so accessible within and without
+4f36d944fe535eeaf9873fc3ed9c89c9a65853b7|2018-10-05|Lori A. Burns|test line so I can change it
+6f87cc139cb562afd0d01c80c1b8056774c7a93b|2018-10-05|Lori A. Burns|units: add Bohr/Angstrom alias. expand to_string units
+457feac8bf65cbc63ff5b581fa7645979b88c1b7|2018-10-05|Lori A. Burns|molparse: add contiguize fragments function and from_schema
+af6ef8612b1fda1d69529838d2f82d720d099635|2018-10-04|Lori A. Burns|more little fixes and tests
+23cec9ae439f7cebe522a2b1832fe6098fc9e339|2018-10-04|Lori A. Burns|test datum class (so syntax error fix will test and appease codecov check)
+1cc25e3c781ae3f6ab53fcca5a66cdc271f1963a|2018-10-04|Lori A. Burns|Update datum.py
+e57f6a7c50a69166a534fb21702a24cd5f688048|2018-10-02|Daniel Smith|Pint: Additional tests
+761d3abbf8f722c0469a73b6007e2a4789eaa425|2018-10-02|Daniel Smith|Pint: Finishes out special conversions for pint
+333a311abc45bfebc5293230f76fd6263d3e23c6|2018-10-02|Daniel Smith|Pint: Adds conversion tech to chose the correct NIST conversion
+ffecd6ad4c6439cf16284ad851ff8beb69886655|2018-10-02|Daniel Smith|Units: Adds all physical constant conversions
+772762745fe71ca726553cd46dde24fbfd6a15bb|2018-10-02|Lori A. Burns|Update LICENSE
+fb766bae21142edaa128be7bb9fc3119aecfd6a9|2018-10-02|Lori A. Burns|add lgtm badge to README.md
+9ba5cdccb9da688e20a85195df3bb8ac3f37ec73|2018-10-02|Lori A. Burns|heed lgtm advice
+a9e1359272e77548d7d108cc315fc1e4002e21c9|2018-10-02|Lori A. Burns|fix up links qcdb-->MolSSI. remove stray qcdb
+0d7e625ecd3d4059df73c3a3083ea26447a9f5ce|2018-10-02|Daniel Smith|Fixes LGTM script
+dfb568b9034a05105dd8c427df43de045d6a7d35|2018-10-01|Lori A. Burns|fmt: yapf
+31db9c7ccd937030918e6b4ca1b16041191f58d8|2018-10-01|Lori A. Burns|docs: molparse docstrings cleanup
+1d5b2c276816d29bf53ba4cbb4867e4cce425bee|2018-10-01|Lori A. Burns|clear up == [] deprecation warning
+94ef6569ea8299027467f9d45fadc4b2df1006b8|2018-09-30|Lori A. Burns|add pint to setup.py deps, to inform downstream
+2872811fca8f63afeee7f09a523e4cb0939b6c20|2018-09-30|Lori A. Burns|ci: reconcile pyver testing with MolSSI/QCFractal#66
+fcd85a295d404f2af2042691b0355716588c2418|2018-09-30|Lori A. Burns|molparse: more from_arrays and to_schema testing
+61187ab720c777f5b2dc92a1f0af3b11f90dd740|2018-09-30|Lori A. Burns|molparse: stil more from_arrays testing
+377471b44ca9157fae1484d2dc4d8a714f1bb2e0|2018-09-29|Lori A. Burns|molparse: further testing from_arrays
+3713b6c6d49a5ec006360393430968cfa1977594|2018-09-29|Lori A. Burns|molparse: pubchem tidying and sep tests
+b3bf9f5f1ab961c180b77715d8cea32dad41a20c|2018-09-29|Lori A. Burns|ci: let's actually test different pythons! (#4)
+a921742689e74b5e3fcb52fd6888eaaf78c0c2e6|2018-09-28|Lori A. Burns|molparse: revamp pubchem, make `benzene*` work again, make CID searches better, collect charge
+9445f3499689b69e0f77aac31d949143eecce7cd|2018-09-28|Lori A. Burns|molparse: plug more testing holes
+0d28416e96fa04ec4793c2ada1a85bfadec5ff50|2018-09-28|Lori A. Burns|molparse: name pubchem mols
+b8917874b038664db06e711e084fd8ca9192eaf8|2018-09-28|Daniel Smith|Merge pull request #3 from qcdb/molparse
+9d7e4d5b6f962c02b73b7493f8c97e6cc86a3e46|2018-09-28|Lori A. Burns|molparse: more tests, incl efp standardization. fix compare_molrecs by splitting out file again.
+050dd6eefcb087353787441b67ac7c1eedd0dcb8|2018-09-28|Lori A. Burns|molparse: move unique_everseen to utils, more chgmult testing
+ac1fc1120b6b12dcf367941801cbb3f3891f546c|2018-09-28|Lori A. Burns|molparse: more to_string and nucleus testing
+4aaeb73a66c2eda081f764542118d2679b6b31ec|2018-09-28|Lori A. Burns|molparse: add to_string testing
+a853a00a242c4f106cb0587f07a153439428f1eb|2018-09-28|Lori A. Burns|molparse: refresh pubchem
+465de413203c6e56a8734adf5a450811c1c337b9|2018-09-27|Lori A. Burns|molparse: little more from_string/array codecov
+0851ec82dae9229e316fdd9132638549582f11e0|2018-09-27|Lori A. Burns|molparse: to_schema Bohr/dict and misc
+976f92aa2af7d741af9098ae061350d9b4518c29|2018-09-27|Daniel Smith|Units: Tweaks ureg
+d11c5c7945f9b52ed51b6e99e9dc596d85df3a14|2018-09-27|Lori A. Burns|test: parametrize some molparse tests
+15475c0c3ac7df0e609350d599a4a002885f3491|2018-09-27|Lori A. Burns|molparse: remove psi4 license
+313686cbe6e264b2cbdcbb88cd4a9c2e4341b3c3|2018-09-27|Lori A. Burns|units: use conversion_factor
+27e808f042d06d97855aaed1dcc6bc6a547515c7|2018-09-27|Lori A. Burns|ci: add deepdiff
+b4b0cddaf5e704f11c5df008919b33a5da201535|2018-09-27|Lori A. Burns|molparse: test molecule
+e025d21d0f2a6cda1d18ae652cb0e9f372218423|2018-09-27|Lori A. Burns|molparse: utils and exceptions
+b02ea196f77cb3bbeb9894909659255fb036ab3c|2018-09-27|Lori A. Burns|molparse: straight from GH:psi4/psi4/driver/qcdb/molparse. checked against GH:qcdb/qcdb/molparse
+0c54e791ecbf6e6f20325f514a38c32a88d49703|2018-09-27|Lori A. Burns|molparse: add nucleus tests and compare_ testing framework
+8c0985be73f25bd6d9cdd944eaf00fc19dc10590|2018-09-27|Lori A. Burns|Update base.yaml
+9518cd525be64fa34fbcd98a51ecf1d877220111|2018-09-27|Lori A. Burns|Update base.yaml
+1479451eedcb01664666894d00814dc00652aec1|2018-09-26|Lori A. Burns|Update base.yaml
+935098f4023ca71667cee86236d5f186c1d3d526|2018-09-26|Daniel Smith|Adds units and tests
+b4587cd7026cfdde8757999b7a5ad474568b081e|2018-09-26|Daniel Smith|Units: Adds a units registry
+3fc5a2aad6a7140a7a9d96129b38713bbfb51e7b|2018-09-26|Daniel Smith|Patches up atomic weights
+12be37db65a5eec57494a1be1911defd134c3ee6|2018-09-26|Daniel Smith|Patches up atomic weights under new scheme
+ad17052d3ec79446a632c5c477fdcb18c27bc9a9|2018-09-26|Daniel Smith|PhysConst: Tests now pass
+0a4b28d58f6700a85a4d522c460b412227b6df16|2018-09-26|Daniel Smith|PysConst: Moves new nist data form data into qcelemental
+e643a0502e9d954e98d1f53122c45bdc7446c1f7|2018-09-26|Daniel Smith|Const: Physical constants builder from website
+ca8b4947c589dfa19420f9fbb306a83009d51f9e|2018-09-26|Daniel Smith|Moves NIST data outside qcelemental
+739cac8fa9b137e6b735bbc06541cdd9fe88b641|2018-09-26|Daniel Smith|Test: Moves tests to PyTest
+ce8b50255a1c473aa239be0cf625fe277b9429cf|2018-09-26|Lori A. Burns|Update README.md
+d3ac6438543b255cdf6124beae58d2f46a3efd97|2018-09-26|Lori A. Burns|clean up docstrings and README links
+24ee2cbcf0d84b9358d813b0ade50a70ace4f5cb|2018-09-25|Lori A. Burns|alias the PeriodicTable fns from AZE to IUPAC names
+a14463282aa750d181ac31ee7852e212295049e7|2018-09-25|Lori A. Burns|Make psi4 C headers into generic C headers
+b28aa1b5ab23f0247a7e4c77c6bd209f1e53833c|2018-09-25|Daniel Smith|Tests: Removes temporary files
+cc046edfdad3bcc3458b1415b3072ba9de7ec9c4|2018-09-25|Daniel Smith|Minor changes from discussions
+e286141551266150b98af34925cccb0a86877a77|2018-09-18|Daniel Smith|DOI -> doi
+eacc73dd1c91696347cafe47219750b916722be5|2018-09-13|Daniel Smith|CI: Removes MKL
+49a5617e7f6278b06a74ca8afd410b1de42e9e6d|2018-09-13|Daniel Smith|Travis fix
+c9d34d3a50028550d1ee5243a170532523273048|2018-09-13|Daniel Smith|More canonical names
+ceed7b6b65057cd7b24659ff1dbef4b325b295e2|2018-09-13|Daniel Smith|YAPF file cleanup
+df3bae919017c3d738cb43b7cff60dc169064e57|2018-09-13|Daniel Smith|Static analysis cleanup pass
+cb48766e317f7dbd59c7a7cb3f53568e6da9f9cb|2018-09-13|Daniel Smith|CI: General dev tools pass
+f714c5d92958fd3393aa0d9307ba6339d2ef53e8|2018-09-08|Lori A. Burns|adapt to py35
+b5c930df3099b7caddd99a97636e466cde9bd4cc|2018-09-07|Lori A. Burns|ghost Gh --> dummy X
+067ccec10c5637f71c37ec3e08378a3c480d7ce0|2018-09-07|Lori A. Burns|Install correctly -- data yes, checkup_data no
+f0dc0c7ab36679a93dde655a24e8479239d1fd6f|2018-09-03|Lori A. Burns|rename QCAspect to Datum
+628084ea3232c3a696cf958cab442e270d7f85a9|2018-09-03|Lori A. Burns|Update README.md
+26c4cfe9031c9d62ebe321348ac1c81692611b5f|2018-09-03|Lori A. Burns|add demo. return_object-->return_tuple
+e8c9c2ed304a026c313bb0d2b1a9b161d19c7362|2018-09-03|Lori A. Burns|docs: start api docs
+d149600b369b882d19b184a1a24e536b2ff9b890|2018-09-03|Lori A. Burns|slight docstring fixes
+005956cd76ff59ec656edb12a07cd786ff965425|2018-09-03|Lori A. Burns|test: more physconst testing
+54e832c156b00dca6eaea661e00afca04132537a|2018-09-03|Lori A. Burns|test: add physconst tests
+8a3e4f8b7ebd9b59142ac16103cea6e78a5fdb04|2018-09-03|Lori A. Burns|data: NIST phyical constant data. also psi4 for comparison
+10430fe2e5fd666c63ab593e784bac1d79d3216e|2018-09-03|Lori A. Burns|enh: decently working physical constants class
+5de6fb5d8f6ba7af48ac4a2749e75d2ad381be33|2018-09-01|Lori A. Burns|Update README.md
+91d36cb7eba2bcc7956e01897d3a73d30c81549e|2018-09-01|Lori A. Burns|test: name test correctly
+78d2283558db4669571264b8c816ef5be866db04|2018-09-01|Lori A. Burns|add checkup data and run the checkup and header functions
+4e4ed5133a8de8a35c3324d58fff94062469d13c|2018-09-01|Lori A. Burns|get travis-ci working (#1)
+1b0eba59a822c81f5ae4cdab92884c4c7fbfa1b3|2018-09-01|Lori A. Burns|add setup files
+3c471e19cedf647129c0d4f622803b73255469b3|2018-09-01|Lori A. Burns|adds versioneer
+1bd4f1ce2b15613ac8b9bffd187e6d8bec9b89fc|2018-08-31|Lori A. Burns|enh: decently working PeriodicTable class
+9aaaacd4422160ca39cb9af235e04ec54852e186|2018-08-31|Lori A. Burns|data: NIST periodic table data
+79fd99b2c057c2481d601a95fb726b3d332f79a3|2018-08-31|Lori A. Burns|Initial commit

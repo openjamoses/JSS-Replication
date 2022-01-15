@@ -1,0 +1,920 @@
+d655a88747a55240e026ca5796240c5879118620|2020-10-09|Benjamin Pritchard|Merge pull request #123 from MolSSI-BSE/zorrilla_fix
+47bbb929232de5859c1a49693f0e7e7f04114b62|2020-10-09|Benjamin Pritchard|Fixes for Zorrilla basis sets
+010dc095c39d18c0c1b50365578ad49f05fac9a5|2020-10-09|Susi Lehtola|Update g94.py (#122)
+ef89c487f2eb6e5c28142960e0a1a8e32cc928ba|2020-08-14|Benjamin Pritchard|Better validation based on AM
+1d08aea9f0040fd6f2319d4c6c62d3fd8f4c185a|2020-08-14|Benjamin Pritchard|Add some more validation for function_types
+05a946cc9d00524851c6090a64001b7778f09aea|2020-07-22|Benjamin Pritchard|Upgrade pytest version
+f95d2e48a31d4a88cd9caf4f030f81f8ebbd74ae|2020-07-22|Benjamin Pritchard|Add LICENSE to pypi package
+595942b1f764d5d7d6af5d540fccaa1ac74b60b8|2020-07-13|Benjamin Pritchard|Fix reference tags for zorilla basis sets
+a4df2e623c7331b1cd515e5e139af8b79a3bc302|2020-07-13|Benjamin Pritchard|Add 6-311xxG(d,p) from Zorilla
+e843d0ad571dcb271f96bd7163a865926e574fac|2020-07-12|Benjamin Pritchard|Fix some formatting issues in docs
+5fc26202a8b93a363c6005dcd288621f80f2be39|2020-07-09|Benjamin Pritchard|Update references for SBO4-DZ(d)-3G
+45f3d49be11e3c617f7087b44c416f2de8fcc243|2020-07-07|Benjamin Pritchard|Add "object" type to some entries in schema (issue #113)
+8d349dc0330bd137fc2cb0ba9de7aa436e5a63ae|2020-07-07|Benjamin Pritchard|Change "page" to "pages" in refs (issue #114)
+fed6dc035cd65aa3942fe2ec01e2cde6e327284d|2020-05-07|Benjamin Pritchard|Add (A)HGBS and SAP basis sets of S. Lehtola
+be3246abf13622b15ef8c92fd5d64f0f0ddb1a06|2020-05-05|Benjamin Pritchard|Add 'guess' role
+795aea5148eb82fe52b6ee1e1290dda8732a73d8|2020-03-19|Benjamin Pritchard|Add v1 of (aug-)cc-pwCV{D,T,Q,5}Z-RIFIT
+48daa4c09b7acbba30b1c594841d339080c3ccf2|2020-03-18|Benjamin Pritchard|Add cc-pV5Z-F12 and cc-pV{D,T,Q,5}Z-rev2
+893a8019fe6d7486168c96bea3f44f3eb99c217a|2020-03-16|Benjamin Pritchard|Update copyright on docs
+9e24940b25f6e336ba9af2600a9f681157d3c687|2020-03-13|Benjamin Pritchard|Add docs for dunning modifications
+0e317e26460505bd14ef25d7b7c21475b9fec596|2020-03-12|Benjamin Pritchard|Add function to create Truhlar 'calendar' sets
+b2999bff7fca79f9bb47fcc00436a9f97541d969|2020-03-12|Benjamin Pritchard|Add extension of dunning augmentation (d-aug, etc)
+d7b66c1d332de34d0b19ac4c0836272ab0578963|2020-03-10|Benjamin Pritchard|Update travis yaml based on build warnings
+3bdf86ca5f37b79b9b3c685d91a5b8d8d221a75b|2020-02-26|Benjamin Pritchard|Add max_am function to misc
+e4fcd0262fedc31f345d35191b0669236595d425|2020-02-24|Benjamin Pritchard|Add aliases for maug-cc-pV(X+d)Z
+bee9a47c97d565682c63d4d798d4ac687232b7b8|2020-02-21|Benjamin Pritchard|Fix molcas writer (issue #104)
+e59b1e99d6b520bfd8fe837c92dd663f1ad1ffe9|2020-02-21|Benjamin Pritchard|Slight cleanup in manip/optimize general
+46a6db18508d4fbd100772284d6de0531fc56b17|2020-02-17|Benjamin Pritchard|Update changelog & license
+107e4a932d102caeec83ed420034dc24adb91ebb|2020-02-17|Benjamin Pritchard|Move pytest ini and conftest
+21a9acaf31731945f1c532bb4d4ca210c5f2e64a|2020-02-15|Benjamin Pritchard|Add/update/clean up some documentation
+0e5e8dd0a085c75f7a89226d003acbe1b8c379bf|2020-02-15|Benjamin Pritchard|Export conversion functionality to top level
+e97db605a2467737cb6d40e0fb3656a202332946|2020-02-15|Benjamin Pritchard|Remove unused devtools directory
+806cd56ac688c07859d0b0c6248998fc0714490f|2020-02-14|Benjamin Pritchard|Remove debugging output in test_curate_roundtrip
+58ebe39002aac6e84773334c150bbfe96df2cbf8|2020-01-22|Benjamin Pritchard|Add conversion functionality (issue #76)
+ef41a46db15d026bbf793fe014f5108b8f2c0f98|2020-02-12|Benjamin Pritchard|Add name/description fields to read basis sets
+b31d16f72e0982552ec380e790f0c0f94ed2997d|2020-02-12|Benjamin Pritchard|Add min_after option for partition_lines (fixes genbas reader)
+25d0ef5cf5c2b7976689f682e3a7997c9ed6c0a5|2020-01-22|Benjamin Pritchard|Handle missing fields in qcschema writer
+bf4ad03bb990b2366c95a19dcfcc5cad4559124b|2020-01-21|Benjamin Pritchard|Slight cleanup of readers/writers
+c9d4fc680d41b1248466b0460e3707943668a1f0|2020-01-21|Benjamin Pritchard|Small fix in api docs
+89fd26bc42de9820de3f82f55be74cc8f8fc40cd|2020-01-17|Benjamin Pritchard|Slight cleanup of readers
+ce295053964a78b50e6afa26916e03cfcd1cc46f|2020-01-16|Benjamin Pritchard|Fix a few more LGTM warnings
+1707a314a608b3dd1ebe8dd852967c1d4339259f|2020-01-14|Benjamin Pritchard|Update ref zobel2019 -> zobel2020
+f8a85ae42d445ab261f138a58a78fd46e699e9ea|2020-01-14|Benjamin Pritchard|Update changelog
+957cad3e5fa63a58c87c616b721a9320c9281bd7|2020-01-08|Benjamin Pritchard|Split ANO-RCC -> ANO-RCC-{MB,VDZ,VDZP,VTZ,VTZP,VQZP}
+ca489bf801246c4e2717232017ba339cb8760d58|2020-01-13|Benjamin Pritchard|Fix LGTM warnings
+31eeb1357d14b799d3c0bea867fd51690d24ed18|2020-01-13|Benjamin Pritchard|Reduce duplicate code in ref handling
+95dedc428485d55127a43ef1de5e2019d8ab410f|2020-01-08|Benjamin Pritchard|Split ANO-R into ANO-R{0..3} (issue #100)
+a6a5e47a8bfee6e0cf6bcebc7f1e8ef9ddab5490|2019-12-20|Benjamin Pritchard|Add ANO-R (issue #100)
+61f01562a5b6663720e4b86e8acc1108400ce8fc|2020-01-09|Benjamin Pritchard|Update changelog
+b1cb0ffd3b0aa1d1284e5cc79dfdd6aee35cc803|2020-01-06|Benjamin Pritchard|Improve the validator and schema
+c11fe3780decb33a2f0e50e0a39c0441540306b8|2019-12-20|Benjamin Pritchard|Reorganize readers/writers
+f1e8507b64649b00218ee82deef4a2de5d883089|2019-12-20|Benjamin Pritchard|Refactoring in basis set readers
+8c6cdd8ee92c671d01127237c45ad296bc9aacb7|2020-01-04|Benjamin Pritchard|Update test_get_basis_1 to use common variable
+f2f2966edf8b5e935c2ce3bca2cdb614d05aa199|2020-01-09|Benjamin Pritchard|Add note for Cs/3-21G (issue #101)
+ca198677a18074e3e8a55f7d835b02512b253c8b|2020-01-08|Benjamin Pritchard|Add RIS to docs
+7ce4c88975df833e6545e9f3453758b0453881f1|2020-01-08|Benjamin Pritchard|Fix unhandled fields in endnote/ris
+a3fd033cacb78366aaaaa7f06c9bb3746d7cb471|2020-01-08|Dominic Barrett|Add RIS reference converter
+8c8c4e77393bd9cd692778b94380167ce1966f51|2020-01-08|Dominic Barrett|Modify notes for Wachters
+4d67ce713e5f69221e28907c92c908305ecf86bc|2019-12-19|Benjamin Pritchard|Some small travis fixes/improvements
+89ba9944e3289b10266e34c8b6d154ae7294a69b|2019-12-19|Benjamin Pritchard|Add transpose_matrix function
+ace7f73d743b19bd6d641c3ac5e4fe6fef5dcae4|2019-12-19|Benjamin Pritchard|Add as_str function to some lut functions
+c1df6592948cc140c6310d947b57ee96976c6f40|2019-12-18|Benjamin Pritchard|Fix incorrect number of general contractions for acv5z-j reference
+51ff613a254c5aedf38e74e2dd65d808a7921441|2019-12-16|Benjamin Pritchard|Fix minor errors in test files
+38e3b3a397a0551996374b0dbd0d1ca3ae927d4c|2019-12-03|Benjamin Pritchard|Use cbas, jbas, and jkbas in turbomole output
+93c41e522c2e7d89d7da52dd9c76edb71f9d4b90|2019-12-03|Benjamin Pritchard|Add $cbas,jbas,$jkbas to turbomole sources
+6724b670be19ebe9f8eff963cd436cea438b449c|2019-12-02|Benjamin Pritchard|Fix errors in authoritative sources for pcH/aug-pcH
+6e681f826465a4ff5fca7b5ab182b3ad3bee8c69|2019-11-28|Benjamin Pritchard|Handle BOM in readers
+48fb58589bf0507d06198a251163db5f27b901a1|2019-11-25|Benjamin Pritchard|Fix cc-pwCVQZ-DK3/Sm (from K. Peterson)
+44bc374a137790fe17415f304443599f3617cfb4|2019-11-25|Benjamin Pritchard|Update BSE ref to include vol/iss/page
+9c1e7f3fc90d034f9411913562eb8b432e078714|2019-11-24|Benjamin Pritchard|Fix duplicate shells in pch-4
+f2a6c6b309dc8123efa676fb95fda9e786af1e27|2019-11-24|Benjamin Pritchard|Catch errors with duplicate shells inside a general contraction
+ea9067d0cfae622b6d2bea18688b973daaad2541|2019-11-25|Benjamin Pritchard|Merge pull request #99 from e-kwsm/cleanup
+56f6e95633bf160403ae3fb497fb79526bcef9c0|2019-11-23|Eisuke Kawashima|Clean up
+335fc8865265d99f0a59a546bd379e01c125ed7a|2019-11-14|Benjamin Pritchard|Add jensen (aug-)pcH basis sets
+74c105e1c42edb22bdf5537824e7d61f5059086c|2019-11-11|Benjamin Pritchard|Refactor dalton converter
+ceb144b3ec653fc113da058dbfc6b068da1b5899|2019-11-06|Benjamin Pritchard|Move basis sets from dunning_optri family to better places
+90ec1e6f465585b08bdc3be4380ce6f267479767|2019-11-06|Benjamin Pritchard|Fix roles of cc-pCV{D,T,Q}Z-F12-RIFIT
+209500c5ea66911a26253907fb924db905884f50|2019-11-06|Benjamin Pritchard|Add v0 of dunning F12 RIFIT
+8ba61236d4b18915ac819b59ddf4d748fa87bbb8|2019-11-05|Benjamin Pritchard|Add reference for cc-pV9Z
+789032e536e83796e1693515ff2ffe8d370126f9|2019-11-05|Benjamin Pritchard|ROOS ANO TZ = DZ + additional functions (mostly)
+16ac8d84c2a9fc5de4f70669da264d2e5a44e5af|2019-11-04|Benjamin Pritchard|Add v0 Roos augmented ANO DZ/TZ
+4b0f41a62b7232ba722c2fe64423b7daef51fd5a|2019-10-31|Benjamin Pritchard|Bump version in changelog
+909189b8ee68b612be9f0e2d3904ec69b425930d|2019-10-30|Benjamin Pritchard|Prune useless primitive from ANO-DK3
+9f0051cb08c4598b617b07db90b33d4eaad89e30|2019-10-28|Benjamin Pritchard|Update docs for endnote
+7f9b701b4ace8688051b2413bcfe82091dd39ed5|2019-10-28|Benjamin Pritchard|Few more fixes for endnote (and add to converters.py)
+522dd270eeeb824f80b96a9c40decc8bc8d971ca|2019-10-28|Benjamin Pritchard|Update changelog
+9f9b083368536a068088fa06792f01366b67855b|2019-10-28|Benjamin Pritchard|Add link to DOI in README
+0806c6745a37ee3bbb90492bca01c4bb71e9e560|2019-10-28|Benjamin Pritchard|Small fixes to endnote converter
+3e27c86528771924016978951632e3658543f74c|2019-10-09|Dominic Barrett|Add reference converter for endnote
+9a73e80f767b1f550e80cd9af48dec62a0b216a9|2019-10-09|Dominic Barrett|Add notes for sapporo family
+6a336aba62dab272ab1672522cc9edab6e0b4a3d|2019-10-24|Benjamin Pritchard|Add v1 of ANO-DK3 from dalton
+d21069c14f7f94bab83bea0116647a408de12551|2019-10-24|Benjamin Pritchard|Add FockOperator option to molcas parsing
+4de2f37a94ff644d9b6413b5ccaea2eb4e3ecfa1|2019-10-24|Benjamin Pritchard|Update reference to BSE paper
+912c75be50b4acce8fad8569445bb34588ee854e|2019-10-18|Benjamin Pritchard|Fix general contractions in DFO
+c49824980e42e86d0f6a74ef40ff36bb0ddd3bc1|2019-10-18|Benjamin Pritchard|Add DFO-1 and DFO-2 (issue #89)
+b60232bbcd98d3ba3be6e1ed72aef3d2f7495860|2019-10-17|Benjamin Pritchard|Add v1 of Zorilla SBO4 basis sets
+17257262d83b6f6199747f1a266c73b38fc69072|2019-10-17|Benjamin Pritchard|Fix bug in sorting of shells
+447ab4e033f66286214472d209519a948f860009|2019-10-16|Benjamin Pritchard|Apply scaling factors in gaussian reader
+d6cc38c1f2bebfbcaaffb68647180a552f6a8f56|2019-10-16|Benjamin Pritchard|Add PQS output converter (issue #96)
+f3ddb281d88847bcc5de1f39acefd56f1c6308a0|2019-10-16|Benjamin Pritchard|Slight refactor of gamess/orca and fix LGTM warnings
+1f2233f6ebb7afa8b13e792517407823c5c4da53|2019-10-11|Benjamin Pritchard|Actually compress zipfiles when making bundles
+9d8411f7338a3a9c71c26f0632f4fd501e1c64ad|2019-10-04|Benjamin Pritchard|Fix error in Er/cc-pwCVTZ-X2C
+b0d0dd44ce8593734c5341321605372eda192312|2019-10-04|Benjamin Pritchard|Update changelog
+03b9ba9ec4b26bd2f1d0800b279a9192c77be30e|2019-10-04|Benjamin Pritchard|Add updated dunning x2c and dk3 from ccrepo
+82b401ecf750513ae0a927df867fcfde8be0e085|2019-10-03|Benjamin Pritchard|Add v0 of dunning OPTRI basis sets
+bc247be954a8e256177821a34f22d47ce5273258|2019-10-03|Benjamin Pritchard|Add OPTRI as a valid role
+87b2bf28a4c5163e286db720ad2db3545822b9dd|2019-10-03|Benjamin Pritchard|Fix famlies for some dunning/hay sets
+b92fe14df57335b52a761129b51d8bfcd4f11ec6|2019-10-02|Benjamin Pritchard|Add jgauss basis sets from cfour (issue #75)
+49f87a10211cdd8ff5dd9fb1863bb1929858a643|2019-10-02|Benjamin Pritchard|Move testing of valid data dir to slowtests
+31066e9a4b523b6c7287bbb377676d17e2561781|2019-10-02|Benjamin Pritchard|More descriptive errors in gbasis parser
+94aad56ba26787ae73f4a50d6944204a9d0559f8|2019-10-02|Benjamin Pritchard|Merge pull request #94 from e-kwsm/update-url
+b62708b3cf722dac098c1c5a22ce166723aa46f0|2019-10-02|Eisuke Kawashima|Update URLs [skip ci]
+a220779981e73cafd64f8720c0ab941f827640e3|2019-10-01|Benjamin Pritchard|Fix issue with AcesII and negative exponents
+324760b5091340a34ba94a92393200d0ad16977c|2019-10-01|Benjamin Pritchard|Add x2c ahlrichs for NMR shielding (Issue #90)
+0a8005667eacdc60208f56c037a41d26ae41bd56|2019-10-01|Benjamin Pritchard|Add aces2 converter (issue #78)
+c911fb325138ba8cc7631881f786f3aec07106db|2019-10-01|Benjamin Pritchard|Merge pull request #93 from e-kwsm/README
+73505f6e748ea4e8084c862089c150ef4564de08|2019-10-01|Eisuke Kawashima|Update README.md [skip ci]
+48c350e903e5d5cb17e71fb8ddc07fd3ad8a59ac|2019-09-30|Benjamin Pritchard|Rename display of Gaussian94 -> Gaussian
+2334058bb87c4ba89a684e94ae4262c1ef6fc5c8|2019-09-30|Benjamin Pritchard|Add newline before ECPs in gaussian
+b2d2bef369c0e0ead61b996efac85cd7044956f8|2019-09-27|Benjamin Pritchard|Merge pull request #87 from MolSSI-BSE/bdf_converter
+46ef4374f7f40dc39df31f4ab7f3475ba034fc26|2019-09-27|AndyC743|Adds the BDF format converter
+01e09ddb7b985004e8c1677aa8dde9a8637fd06b|2019-09-26|Benjamin Pritchard|Update qcshema output converter
+c6963c41de033ab88216546ce702034bc1ab26a8|2019-09-23|Benjamin Pritchard|Add ORCA output converter (issue #81)
+3e3d273462ba0491390cb4541f9cfdbacd7ef2de|2019-09-23|Benjamin Pritchard|Refactor gamess_us format (used for ORCA)
+5578b399e43b62cea9887791b2fd1bbd6af5cae2|2019-09-25|Benjamin Pritchard|Rename diffuse-RIFIT to RIFIT-diffuse for pV6Z
+4bc0ccef8d5e30054070c729344792948a6326cf|2019-09-25|Benjamin Pritchard|Add v0 of (aug)-cc-pwCVXZ-RIFIT (X=D,T,Q,5)
+2b467866196ce29f49f92d853c91dcec4a3baa48|2019-09-25|Benjamin Pritchard|Add Cu,Zn,Ag,Cd,Au,Hg for cc-pwCVXZ-PP-RIFIT
+a5a875ab4d9925994cf8cd3e223a9c29ac6ada31|2019-09-23|Benjamin Pritchard|Add v0 of dunning PP fitting
+044463a1b66cb4b3a28c173134b7cd50e7484917|2019-09-25|Benjamin Pritchard|Add aug-cc-pwCVXZ-PP (X=D,T,Q,5)
+8bb43afb8fb84b62a0ba0198ba8fdc01ff0e3dc8|2019-09-25|Benjamin Pritchard|Turbomole uses hik ordering
+ead3ee8dead4651dbb638ac9b422057ecbae29f3|2019-09-20|Benjamin Pritchard|git ignore all code in data dir
+01337b18cbd16824c132ae1de6bc63a5a2a2a26c|2019-09-20|Benjamin Pritchard|Rename functiontypes -> function_types
+34c58e1eb724cfdfa030fe703d429723ddf505a0|2019-09-20|Benjamin Pritchard|Rename flags -> tags
+a8277c0f9b9beae93bbe53002b656b96efe0c248|2019-09-11|Benjamin Pritchard|Update changelog for v0.8.9
+ae8a3b2b4cdde388829642992e2ab61e9cf61ec5|2019-09-11|Benjamin Pritchard|Remove temporary python script
+790cde78ef05de5a555731ff9b13862d253fc602|2019-09-11|Benjamin Pritchard|Add missing tests for cc-pV{D,T,Q}Z(seg-opt)
+8d67909bb2f7f63bb8b7183b234dab4ecae36e5d|2019-09-11|Benjamin Pritchard|Add v0 of aug-mcc from original BSE
+69be882b543c2c064e5019b78f7be0e045c47405|2019-09-11|Benjamin Pritchard|Add Wachters-f from original BSE
+766f95d97690015b6a0344ef1f8a4c3828278221|2019-09-10|Benjamin Pritchard|Add v0 of dunning segopt
+ca33415eb84c15d201fb42c76aa88eae8305b100|2019-09-10|Benjamin Pritchard|Remove temporary script
+9f3eaaabea94686098e98117a93ad15e06a2f15d|2019-09-06|Benjamin Pritchard|Add v0 of Binning/Curtiss basis sets
+daa07eb1b0ad8fcc8b8e28d77521a194cbd8b7c6|2019-09-09|Benjamin Pritchard|Add function in curate to create from components
+7ac2953c295a92e0a476f5e655f1ef1df40bfde7|2019-09-06|Benjamin Pritchard|Update changelog
+9f3f55b76a9e780feafd6c68219e91d7a51599e7|2019-09-06|Benjamin Pritchard|Add flags to overall METADATA file
+054041cf6ada72b2b3c954fe18fbbf392003d022|2019-09-06|Benjamin Pritchard|Add original (pre-2012) versions of Sapporo
+cab823bf016ef8fc3e545b0df26a52dede307d80|2019-09-06|Benjamin Pritchard|Add references for original Sapporo basis sets
+c5a24f8cf7b60f0858d3058448b708d99a8343eb|2019-09-06|Benjamin Pritchard|Move sapporo 2012 basis sets to subdirectory
+15a43e155b965bfa2f62bd19d5db1b6afb1c387b|2019-09-06|Benjamin Pritchard|Add deprecated flag to schema
+6ca8bc45b71fed9476dc87e2b24951addce4adaa|2019-08-29|Benjamin Pritchard|Add notes to Sapporo basis sets
+ffc4001274d3a50183d5e3172a8838fcf3613585|2019-08-26|Benjamin Pritchard|Add v0 of Dunning SV/DZ/TZ
+35a8f306bbb6bd433a1752d2abdd764522be092b|2019-08-26|Benjamin Pritchard|Add v0 of NASA Ames CC
+6897c1123d6871a00a0654f55bfbdbcbbce327af|2019-08-26|Benjamin Pritchard|Add refs/notes to NASA ANO/ANO2
+a0311bf767cbc16ba5ec9a72c7cb546bd61f1889|2019-08-26|Benjamin Pritchard|Add v0 of partridge uncontracted
+ccf5d365b718a03b46ce35975a9868fa6844fbe7|2019-08-28|Benjamin Pritchard|Fix some refs in pople
+1d21b28cbd043aaccf11d0b01ac3da22e28c4c08|2019-08-22|Benjamin Pritchard|Add Q-Chem output converter
+55fee77ca3b0ea3b1abae5d19397b87f69267ce3|2019-08-15|Benjamin Pritchard|Update metadata / clean up notes slightly
+0a522264f2d58fcb4fc084ed4485a9be87e0d99d|2019-07-12|Dominic Barrett|Adds descriptions/notes from Dominic Barrett
+8831fb698e6ce4c263b1b3f02eba09744b46d64b|2019-08-15|Benjamin Pritchard|Remove unused variable (via yapf)
+6d361285fce527076d805b00a2abb579e6571ed9|2019-08-15|Benjamin Pritchard|Formatting via YAPF
+191b2480dcf7ea1b6b9f80f8c0ecac6d0cc29632|2019-08-09|Benjamin Pritchard|Update changelog
+a07b916251187a9355052a971abcdf309c8db8c7|2019-08-08|Benjamin Pritchard|Fix {cartesian,spherical}_gto misnaming
+353c47d83c6ccd77296ae25d123b04665597f043|2019-08-08|Benjamin Pritchard|Add acvXz-J basis sets of Rusakov
+84df492a9217cc5fd6bb427838f8769d927ee138|2019-08-08|Benjamin Pritchard|Add cfour reader
+277bd6db83b8052b813226cd0796d160895ab666|2019-08-08|Benjamin Pritchard|Update changelog
+94ce247994232069e6050d37deaf08ef61708a46|2019-07-31|Benjamin Pritchard|Add ORP basis set (issue #73)
+00ec30af39c3e8f311687ff8f112cc7a89721683|2019-07-15|Benjamin Pritchard|Initial v1 of sapporo
+431824103fb31ae6adc50a196d7dd354f8f1af72|2019-07-14|Benjamin Pritchard|Add refs for sapporo
+05d46a96c6fb0e47118a9c18d82c9a7fe086e965|2019-07-22|Benjamin Pritchard|DOI is optional in all cases
+67bdb946e502aa292900c90fc608b14cf9d650ab|2019-07-13|Benjamin Pritchard|Update changelog for v0.8.7
+f1e796148df94cbc8eb841bbbc9faa098a443fa3|2019-07-12|Benjamin Pritchard|Implement better basis set name transformations
+8fe75afa2896676f2217efbb43dc282a2707e6c1|2019-07-12|Benjamin Pritchard|Remove unused import in cp2k converter
+bdca676bc009dcc5a8aef7e13ed454c355dfde26|2019-07-12|Benjamin Pritchard|Condense txt references similar to bibtex
+5b1e6ff7575eede88e93f56c779c1bad2176d8a6|2019-07-12|Benjamin Pritchard|Fix PytestUnknownMarkWarning (again)
+6a938316a398318c9f777a6d23bfbdc9d8b880a4|2019-07-12|Benjamin Pritchard|Update metadata
+e77ca365fa2e8c06a51c0c2a5952a42c8fa745c2|2019-07-11|Dominic Barrett|Add descriptions for LANL family
+ebb5745a61cd1bea91cd705940642b631cd0f6aa|2019-07-09|Dominic Barrett|Add description/notes for Lehtola_emd family
+a4b82e94e316063102599c05bc9de5e803f87ac7|2019-07-01|Dominic Barrett|Add notes/description for Jensen family
+326359157221f1edeb25163a17e753cb6fe44698|2019-07-12|Dominic Barrett|Add jorge family notes
+bf42d847fdc492d9ef4263fbbbd2f272f3383a3d|2019-07-12|Benjamin Pritchard|Ignoring emacs temp. files
+a4c924c694d387afcc97e939c1b98324292bec7d|2019-06-18|Dominic Barrett|Added descriptions/notes for Ranasinge {2-7}ZaPa
+caa0773e07b9a776930abce7ecb4c22032d8daa6|2019-07-12|Benjamin Pritchard|Update changelog
+32927ce97aebf1b1f25683d59ef6ca306920d648|2019-07-11|Benjamin Pritchard|Fix doc
+c82653c82d1ac98bc9e2a13bee508ae86bcd8ba0|2019-07-11|Benjamin Pritchard|Add v0 of dunning d-aug
+12347c09abc952190c9bdbf858c799a52fcfe7fa|2019-07-10|Benjamin Pritchard|graphviz required for docs, too
+a1ee2fad77e9c37cd56331f0945704dfa4e70e9a|2019-07-10|Benjamin Pritchard|Fix typo in readme
+e869cfe725eb0c3178323a4c903c994e8b00c9fe|2019-07-02|Benjamin Pritchard|Add v1 of Sadlej pVTZ and Sadlej+
+cfb709948a8c608413d6fd9eae6c805d90846c3d|2019-07-03|Benjamin Pritchard|Few modifications to molcas reader
+a9e4763ee71d6204fc78d5e1e4b929349a45b189|2019-07-02|Benjamin Pritchard|Add v0 of Sadlej
+76b38f3543b7f682e9e96015a1993e052cce92ba|2019-07-01|Benjamin Pritchard|Add CP2k converter (issue #70)
+c991e9be6b1852acc85729d272995eb1bf7216f5|2019-06-27|Benjamin Pritchard|Update changelog for v0.8.6
+09695f4e58d826c14eda734223fef46abc92b573|2019-06-27|Benjamin Pritchard|Clean up notes slightly
+3b3d247ba96b012610412b6d6b63ae9b699bbf6d|2019-06-26|Benjamin Pritchard|Fix non-float values in cc-pwCVQZ-DK
+493433a902c812fc737136571b9500cc9e7321b2|2019-06-26|Benjamin Pritchard|Add cc-p(C)V{D,T,Q}Z-F12 from old BSE
+9fba7f3974f34e3b1b77085c89b98b33a852e0ce|2019-06-26|Benjamin Pritchard|Add (aug)-cc-pwCV{T,Q,5}Z-DK
+d1a0a2d8e5b0d54338d749fd4de51c4f36d5829b|2019-06-26|Benjamin Pritchard|Merge pull request #68 from foeroyingur/update-dalton-converter
+00c98748ef39a666ee5ee2b3bc45f9d83e077d82|2019-06-26|Benjamin Pritchard|Add v0 of Paschoal basis sets
+b8b4ab674fa6c22d51bac6c458fb3167b55b232b|2019-06-25|Jógvan Magnus Haugaard Olsen|Adjust Dalton converter
+d73a937bc81b91e3adb47d4505d458c501e7d50c|2019-06-25|Benjamin Pritchard|Add (old) pV6Z and pv7Z sets
+b530d08992b7692cf334fb167ddf087dcbacb3db|2019-06-25|Benjamin Pritchard|Add sauer_j basis sets
+b6d6a1bb2d0085b3f3a8bc4bfd0d8e1bf3774459|2019-06-23|Benjamin Pritchard|Add initial v0 of dunning SF
+457ab372e73da0a6072e0cf7a82187e9d77a72c4|2019-06-24|Benjamin Pritchard|Test for unused/orphaned notes files
+690bd9b3de5298d31eaf46fd3a7dadd790ce1efc|2019-06-24|Benjamin Pritchard|Fix filenames with slashes again
+4c61f95e21092559b2ea554d146cc9af9e1bf745|2019-06-23|Benjamin Pritchard|Fix LGTM warnings
+6ec63a731f24f17a0944ef7208adc8e02aed599a|2019-06-23|Benjamin Pritchard|Fix unique exponents in aug-cc-pv7z
+a40e6899d1d31b957e1246adcabadcd603125a04|2019-06-23|Benjamin Pritchard|Add v0 of aug-cc-pv7z, cc-pV{8,9}Z
+bc4e61b6d482a29d03dde66d545f7c3bd068cf49|2019-06-23|Benjamin Pritchard|Add v0 of blaudeau 6-31G
+56b3bd26a8a8c3343435f415efae15ed64778196|2019-06-23|Benjamin Pritchard|Handle slashes in basis set names
+c05581e6afa748e980cacc56cb8fb5123c49a799|2019-06-23|Benjamin Pritchard|Add v0 of dolg/cologne dkh2
+d071bbe2794a546b7bcbc1b48884e2ca0aedd1a2|2019-06-23|Benjamin Pritchard|Add v0 and v1 of sto-3g*
+a9d0f738645c8133a87d5f58ea5734623a8d1ea3|2019-06-23|Benjamin Pritchard|Add the "Ahlrichs" basis sets
+99995697572b7fcea4dc06fa655b738a59c4f52d|2019-06-21|Benjamin Pritchard|Update changelog for v0.8.5
+f1bb8c6887a7d238639513441bb7b8752bed7b2b|2019-06-20|Benjamin Pritchard|Add contrib, etc to notes for stuttgart and WTBS
+30b6d44ad6221367efe6bd834a7396200c809652|2019-06-20|Benjamin Pritchard|Add huzinaga WTBS
+64ed11456c230613eb6eac948aeeb5fb7d5d49b4|2019-06-20|Benjamin Pritchard|Add stuttgart refs/notes
+65c433e60eea8d3193c6644ba3b9d03df140b142|2019-06-19|Benjamin Pritchard|Add stuttgart from original BSE
+8f485a63fdf580a434a9fce7016c1c98ea5e3b3a|2019-06-19|Benjamin Pritchard|Add elements 119,120 and Ha alternative to Db
+2f7fd63f831627f33d9608d1f0bfd5fe57ffe22e|2019-06-19|Benjamin Pritchard|Add more stuttgart references
+dd94592ee9dcd16a54a4d3b2a6a7f3ee1ee68c5c|2019-06-14|Benjamin Pritchard|Removes pytest warning about unknown mark
+1f8f3cf95db89b0d106245226dc67342f82a7847|2019-06-16|Benjamin Pritchard|Fix more LGTM warnings
+9b9db7b536dce7598b05db8947e3822d118e9b21|2019-06-16|Benjamin Pritchard|Fix duplicate exponents in raw data (issue #66)
+0c22bb88db18c64e13cd8c932674b691cea58426|2019-06-16|Benjamin Pritchard|Test for duplicate exponents in shells (issue #66)
+40b18b113115c22b658d5351f42f5d1e49e909eb|2019-06-15|Benjamin Pritchard|Better sorting of contraction columns
+a0ff0b8650d7d28283516cef94cfec16b419b480|2019-06-15|Benjamin Pritchard|Move to a much simpler optimize_general algorithm
+447160875ed92f4bf2ca69695f92984e1c15910c|2019-06-14|Benjamin Pritchard|Always work with maximally-contracted shells in optimize_general
+15a9e98b60ba7b7311cf9eabcaaa303b0f420a42|2019-06-14|Benjamin Pritchard|Add skip_spdf option to make_general
+8a78dbdd6cd4b1dc8d7ad5aa95ce32acd264294a|2019-06-14|Benjamin Pritchard|Small improvements to bsedebug output
+739ace8ebbdb99202a0e4305bd8d2eba98ce7597|2019-06-16|Benjamin Pritchard|Export basis_comparison_report from curate
+22dec7b9c93f0d963c91de0005bcfd91b568c8bb|2019-06-14|Benjamin Pritchard|Update references and ref handling
+31eadcd3b3022a4c98c4d18ccd8e23622b7811cf|2019-06-12|Benjamin Pritchard|Update changelog
+df9ed49400d59f12d83e0b0c9af39b78cca9fafa|2019-06-12|Benjamin Pritchard|Some cleanup via yapf
+164bd6af4ba9fc3f2b1d31c3ad8cec734a57b7b2|2019-06-12|Benjamin Pritchard|Fix LGTM warnings (unused variables)
+5fbc434bc02cd0416a7f990e007ae20867235e2c|2019-06-12|Benjamin Pritchard|Add refs for stuttgart basis sets
+c05701986d6e1f51485f376de1eff14459e6c3df|2019-06-12|Benjamin Pritchard|Add molcas output converter
+db8d6ee218ff28166081fb66e2928b8286153a15|2019-06-12|Benjamin Pritchard|Don't need additional copy in nwchem
+13db008ed93b64cdbb9d19661ae99f4a62c04e9a|2019-06-12|Benjamin Pritchard|Fix gamess_uk converter for SP shells
+c51334e9921281f0116432a4e1d4358a8e0bf886|2019-06-11|Benjamin Pritchard|Fix display name/extension of qcschema output
+779a56fba4a3a216c14fd7dba6483b4ec13a9b92|2019-06-11|Benjamin Pritchard|Add QCSchema to travis
+5aed680672e0df43ca5129d953ed5086717572f6|2019-06-11|Benjamin Pritchard|Use existing bs_names in test_bibtex
+48b71c8f948fbc8cfdd3ecf38a32a4206eb5cc61|2019-06-11|Benjamin Pritchard|Add QCSchema output converter (issue #44)
+3c8f40ae50e04760547cba59e8a0ece85048637a|2019-06-11|Benjamin Pritchard|Add v1 of *ZaPa-NR-CV
+3eeb271c149a6b8c994cbd3582c97149a1ba6780|2019-06-11|Benjamin Pritchard|Add NASA AMES ANO test files
+1916e1b06c452d63d0dff7ac0c12d9b8d7e94587|2019-06-10|Benjamin Pritchard|Add NASA AMES ANO/ANO2 from original BSE
+40ee9675fa913f1b4b6ee0d531e74319ea86a65a|2019-06-10|Benjamin Pritchard|Add v1 of Ranasinghe/Petersson *ZaPa-NR
+3ecc1473ec063fbdee05061e34b48fe5b7fc116a|2019-06-08|Benjamin Pritchard|Update curation tools and tests for revision_date
+ef2ffd58b1fc01d99bddb8af45c44b70a21bd223|2019-06-07|Benjamin Pritchard|Add revision_date to table files
+1bbc1be968cf6bd16c6eed6b5c60848830cd4c05|2019-06-07|Benjamin Pritchard|Add contributors to notes
+ccf39a1d47d4604443c6f4d6c6d2fdf38e508deb|2019-06-08|Benjamin Pritchard|update changelog for v0.8.3
+80156887493717a913f80ba29a1e542377893ce0|2019-06-07|Benjamin Pritchard|Add demon2k converter
+a5f115993773492f335b7ffb8d107b78ce724e2c|2019-06-07|Benjamin Pritchard|Add xTron format
+b37e6a3bf341ced3f3c4e5e6860f77af9489cb00|2019-06-07|Benjamin Pritchard|Add GAMESS-UK converter
+21c3753fca0e0a051ff3cff74b8bd9e1f392f58f|2019-06-06|Benjamin Pritchard|Update changelog
+ebe7673a4ee8bc86c32f58fcb3fd7e619732649b|2019-06-05|Benjamin Pritchard|Fix family of 6-31G(3df,3pd)
+68b636a0e1b1c51c61655ac576b1e5f92dfba12b|2019-06-05|Benjamin Pritchard|Add calculation for shells covered by ECP
+533067c6a7a3c93e2fcfbc9728ac530219cefd6d|2019-06-04|Benjamin Pritchard|Add lanl08 and lanl2tz basis sets
+c64d3971da3002165b3c6c553a45eabf91b7c3f4|2019-06-03|Benjamin Pritchard|Add lanl2dzdp from old BSE
+5d87eeb3779de5975ad80588937c922a82e26eee|2019-06-03|Benjamin Pritchard|Add dalton format
+f7936b0059b83ea88bfef03aeb7565f899187df5|2019-06-03|Benjamin Pritchard|Don't force one space at the beginning of a line
+2e2e48bebdb604ca0f1cf0647d875291cb8be0e0|2019-05-30|Benjamin Pritchard|Update changelog
+aa5bd0ea822b1d3af37527f07bd3f97000bc0621|2019-05-29|Benjamin Pritchard|Add (aug)-cc-p(wC)VXZ-PP (X=D,T,Q,5) from old bse
+8d88d4a316de6d87170832381f687ab9b93ff7ca|2019-05-29|Benjamin Pritchard|Properly sort shells when comparing
+05c27e6d06fa0e9e8edebfa91c62d5b3382cea7c|2019-05-29|Benjamin Pritchard|Don't print anything if no output from CLI
+650202da7e81138aa861265f5f9fcff562da2068|2019-05-17|Benjamin Pritchard|Fix doctest
+66fbfe8bfb04a904b32630546e2c26fde3aa84cd|2019-05-17|Benjamin Pritchard|Clean up pople slightly
+894d59a92a3500918e57fd94817f7f4e9f05b547|2019-05-17|Benjamin Pritchard|Add rest of v0 of 6-311 subfamily
+e9e4d8ac0dd6d0a4e75a40154b051b29698cc288|2019-05-17|Benjamin Pritchard|Add v0 of 6-311G(2df,2pd)
+1ae3febcb8e7554ea14ed90de20e4701f195f13a|2019-05-17|Benjamin Pritchard|Add v0 of 6-31G(2df,p) and 6-31G(3df,3pd)
+c4d6f0a72610e757e23dca0a4c879a0c27c8e96d|2019-05-17|Benjamin Pritchard|Remove unused test file
+3e216c81a4206ae48a56207db40ea765e146d661|2019-05-17|Benjamin Pritchard|fix name and filename of sbkjc-vdz
+e5bf97dacb4e40ce5c80b7c9027b37b766702900|2019-05-16|Benjamin Pritchard|Add stuttgart refs (for future additions)
+d5ee8a219d46d2c895c9ad5758636e0e705a6972|2019-05-16|Benjamin Pritchard|Add v0 of sbkjc-ecp
+c640cf96f412efbfeba4a30a4881fdf8470d70bf|2019-05-16|Benjamin Pritchard|Update notes for SARC
+b43daaaf0df426dc1dee63a80c36cc9cb7bd2e0b|2019-05-16|Benjamin Pritchard|Add v0 of SARC basis sets
+d66e35003129ce400722e0e07c5ebccb93730f9a|2019-05-08|Benjamin Pritchard|Fix LGTM warnings
+d675107b142ae174c8f2daacdbe9b2e598f83024|2019-05-02|Benjamin Pritchard|Update doc
+01ce10ca88bdb79623120d73b44ac77c72e9ca39|2019-05-02|Benjamin Pritchard|Add v0 of {2,3,4,5}ZaPa-NR-CV
+18f741a324e78e6e7850ed669bc90f8cd4ce72b8|2019-05-02|Benjamin Pritchard|Add v0 of {2,3,4,5,6,7}ZaPa-NR
+c7392a98d015ea554b55aebc844098ab0aefc784|2019-05-02|Benjamin Pritchard|Force hij when reading gbs files
+d50c760335e1acd9f0e481058e6932047e58aac3|2019-05-02|Benjamin Pritchard|Add modified pople sets s3-21g, s6-31g, m6-31g
+d3141558bba779441f8ddb9433b53914b23b53da|2019-05-02|Benjamin Pritchard|Allow filtering of basis sets by a set of elements
+d7919b8759ee86921c24b5b4ed8bdcf44ad9723f|2019-05-01|Benjamin Pritchard|Update reference to (aug)-pcX
+27e720de4ee479852f960ebc25c3a3f1bfb6c73f|2019-04-26|Benjamin Pritchard|Update changelog for v0.7.0
+e79110aaeb65f392ed5032420322dee3336948f7|2019-04-26|Benjamin Pritchard|Clean up comparisons and sorting
+4ca5e4dad9910e4c0a43743f8184624faa454050|2019-04-25|Benjamin Pritchard|Remove old fix script
+b2a6951208902a5d02580f44c11bfa3dd9b8e3f6|2019-04-24|Benjamin Pritchard|Update changelog
+f6aa960817d23f56b1bf72815c342530d1a7c7fd|2019-04-23|Benjamin Pritchard|Add cc-pwCVXZ-DK3
+9f6438c61f6bc05dd2a6b9745ee81141789b4a53|2019-04-23|Benjamin Pritchard|Add (aug)-cc-pCVXZ-DK
+90a1726d0ec2d0e3cd5e9e4a81e9aee2f9ac5eab|2019-04-25|Benjamin Pritchard|Slight modification/cleanup in tests
+5cc57875866b9a84cf91cf4603c08cd29e7a15e2|2019-04-25|Benjamin Pritchard|Clean up sorting and fix bug in make_general
+2c3aed371902fa0e271c1a8533af3ca1a7a7d436|2019-04-24|Benjamin Pritchard|add ahlrichs_x2c; fix ecp type in alhrichs dhf
+36ed4c33cc0dc017c28e076dfc392ea1728b6572|2019-04-24|Benjamin Pritchard|Add dhf basis sets from old BSE
+09cb5a84b0bed018a1e60f579042ebfabde43221|2019-04-23|Benjamin Pritchard|Add Sc-Zn to cc-pwCV{T,Q,5}Z
+896bcef92a38a307cbedbcdc5cad3c9b7a13bcb0|2019-04-22|Benjamin Pritchard|Add quick note about jorge-ADZP
+e9421f30902ef790f7f00e13c1ca53d6febb4b70|2019-04-22|Benjamin Pritchard|update changelog
+9c40aac63183a3fac843e8e5c2eaab227cde7c6c|2019-04-22|Benjamin Pritchard|Add v1 data from F.E. Jorge
+e6bfd8b861a5f917de2b17d6034cd3cd2580f692|2019-04-19|Benjamin Pritchard|Add v0 of basic cc-pwcVXZ
+02c430f3cf588bb610eca6da230c2e55b2775688|2019-04-19|Benjamin Pritchard|Rename tight->coreval
+bd4b9fd7ea7678cdb2e9c7fab582561cd0e43c78|2019-04-19|Benjamin Pritchard|Fix sorting when comparing shells
+ca50670790e064b802269a8642e694ee15758c45|2019-04-18|Benjamin Pritchard|Update doctest
+4228214c523a1601035f0ab3a9638da1e39c00ed|2019-04-18|Benjamin Pritchard|Add DOT file to gitignore
+e466b43e8112f17105bcce144245e5630f6800e1|2019-04-18|Benjamin Pritchard|lowercase filenames in sources
+3d04a302feaa5b7958465d595258f6dd63d5341c|2019-04-17|Benjamin Pritchard|Add basic (aug)-cc-pCVXZ of dunning
+a2084aaae6ce60d2f3740d60802012225175eab3|2019-04-18|Benjamin Pritchard|Better error message for missing elements
+95bd552f70ad4c9fe54e836668eb159d7d04cc9d|2019-04-17|Benjamin Pritchard|Add dunning DK3 and some missing notes
+ab07da182eef52c58491a22265f37fa9e14ecb5b|2019-04-17|Benjamin Pritchard|Add basic dunning DK
+42f84cd0273afe3faf2c76626750c08e542b2a45|2019-04-16|Benjamin Pritchard|Add CCJ basis sets from old BSE
+132367b41099ce27f9cbd49538b37d83a2262df4|2019-04-16|Benjamin Pritchard|Add the EMD basis sets of Lehtola from old BSE
+e4e05941c94a0441fc19439b038d80a5f8b6afcd|2019-04-15|Benjamin Pritchard|Add reset of jensen v0 from BSE
+61189a3159e9282a478ffad4282c98a5e26345da|2019-04-12|Benjamin Pritchard|Move harmonic_type to function_type
+0ad0146a99404028b1abda55b8dc148ac175fea2|2019-04-10|Benjamin Pritchard|Rename pople polarization file
+a80d2b3c0fbe7693bdfff5dc1e86e37d2bbc5e7e|2019-04-08|Benjamin Pritchard|Add notes for modified LANL2DZ (issue #53)
+f74ceaf9fae24ebbf4b376545de41d2b1a6d36aa|2019-04-08|Benjamin Pritchard|Fix name issue in basis_name_from_filename
+199ca4823acec98d003ca5c153221b64f96cb582|2019-04-07|Benjamin Pritchard|Fix metadata (due to modified lanl2dz)
+26658be1d447055e1e4a7aa5d9e6dd7b9c65d3e0|2019-04-07|Benjamin Pritchard|Update changelog for v0.6.8
+ca3062a136f4a9d458b1f2f25c4c8196e9ae891a|2019-04-07|Benjamin Pritchard|Fix family in modified lanl2dz
+23d9433b06f84e34a0923f2f3316a12df8de817f|2019-04-07|Benjamin Pritchard|Normalize paths in test_unused
+e92a456d076e65d2d2bffdbddfb36df1fef85b79|2019-04-06|Benjamin Pritchard|Force utf-8 encoding most of the time
+cc3b22deed7763740382f36a7e4853ebceed6934|2019-04-05|Benjamin Pritchard|Fix filenames to not use *
+b85a1fc5b8ef5c5a649b8487eb4956ee84381b35|2019-04-07|Benjamin Pritchard|Disable text processing in subprocess in tests
+1954250172bf0214e342814f8ac1417dae5f106c|2019-04-07|Benjamin Pritchard|Change dashes/spaces in references to ASCII
+3db741f04281e7b26c27733d3e6165052501f658|2019-04-05|Benjamin Pritchard|Fix missing.py to use aliases
+11ffd3eb7c1f64cc6b4e0520d112d8cd16011764|2019-04-04|Benjamin Pritchard|Catch basis set differences where only one has electrons/ecp
+1dc7474f197eef43a07a208746b627c010040271|2019-04-04|Benjamin Pritchard|Fix missing import in cli/check.py
+35fc7c533f13d47ed7c544c2499669c11ac90feb|2019-04-04|Benjamin Pritchard|Add modified LANL2DZ of Couty-Hall (issue #53)
+f3d39fe7ff7d860b1c6a2dfd7141e1647106d93d|2019-03-29|Benjamin Pritchard|Update changelog for v0.6.7
+2c3baf28b79c9fcc68e416692e7ffdf184d9cf7c|2019-03-29|Benjamin Pritchard|Fix LGTM errors (inc. bug in printing)
+68219a6ac809946cd292041826440881b206ec59|2019-03-29|Benjamin Pritchard|Fix import in tests
+1eeb27465a505826117c19ea86d815433c8dbbeb|2019-03-29|Benjamin Pritchard|Clean up and speed up tests
+d2340c4d51b9ee2678178b265bd7bbb951a28f63|2019-03-29|Benjamin Pritchard|Remove useless copying
+acb5fafdabaa4d106a3dc02de6a73f3efd3b3ce8|2019-03-29|Benjamin Pritchard|Remove debug printing from cfour output
+20f5a2cb6e07787a56fc4f10a8c2fe444c6807a4|2019-03-28|Benjamin Pritchard|Update changelog
+e33731baef3bbc65b7ac329d4a4b80b31128b1fa|2019-03-28|Benjamin Pritchard|Fix doctest for refs
+448621b686965010d65ad74117dee91189fe7270|2019-03-28|Benjamin Pritchard|Remove dummy function that I didn't actually use
+8254cf7ffcfcfb960b6b6a551a474a6012b6eef0|2019-03-28|Benjamin Pritchard|Add citations (both new and old)
+dc0f6e7768c09d4213d54944971259d29ccc5f21|2019-03-28|Benjamin Pritchard|more spacing when printing bsedebug
+7d214ee11c9b1429769f7016a5da78aabad79811|2019-03-28|Benjamin Pritchard|Move where basis sets are sorted
+e282d288c1bc7e8bbc480e8bcb2d04ddc5a3dd26|2019-03-28|Benjamin Pritchard|Removed unused local variables (lgtm)
+7ba9a602212fc39a03306c8fce4aed9334228e6a|2019-03-28|Benjamin Pritchard|Clean up printing and add bsedebug
+db09468b8b73ab15b7d3773a1203c837b4459448|2019-03-27|Benjamin Pritchard|Rename element_ecp_electrons to ecp_electrons
+3bec5f325285a5f8cbdc89b26852caf8a043b26a|2019-03-27|Benjamin Pritchard|Add cfour output converter
+d15194f68adc0ac2587821bd803f0b84ba2e5263|2019-03-27|Benjamin Pritchard|Clean up sorting
+50580795e4029b28ef21a4553937560ab7ad78e9|2019-03-27|Benjamin Pritchard|Fix make_general to be smarter
+17aa3c784409599aa77a82208fac109d5ac6334b|2019-03-27|Benjamin Pritchard|Add ANO-VT and FANO basis sets of Claudino and Bartlett
+fe530dec0125a0d349933158ce46bb18f88b0e89|2019-03-27|Benjamin Pritchard|Add MIDIX/MIDI! from Truhlar
+69c8ec93402d6fa0ad48dc937fc831fde62f5366|2019-03-27|Benjamin Pritchard|Remove useless stars in txt refconverter
+354aa23e04e52c1620b3f4542e01f6efe713da66|2019-03-26|Benjamin Pritchard|Add refs for MIDI-family from D. Truhlar
+5d4a22a554958e0113128de0ef634866f5424d0d|2019-03-22|Benjamin Pritchard|Update changelog
+27a7ebad05787c7cd6dec436b6d878ae320419ed|2019-03-20|Benjamin Pritchard|Enforce python3 via pip
+40313007b5bf05a0ae6d837a8958b8639133158a|2019-03-20|Benjamin Pritchard|Clean up LGTM warnings and add check for python3
+993c101faa4cf2fea36e3a7573a2d4f332902426|2019-03-14|Benjamin Pritchard|Add aliases and flags
+6bfb5d76144c80cb82909e860e2ceca9e765d9a0|2019-03-13|Benjamin Pritchard|Fix issue in test_duplicate slow test
+871213d4673707cb14634083b1ae98f776ba64c6|2019-03-13|Benjamin Pritchard|Add Sc-Zn dunning RI fit from bse
+d7c230338faf168df34c11ab5d70915d73b6d573|2019-03-12|Benjamin Pritchard|Finish adding v0 of 6-311G family
+058a691a1ed238e360b2a54bb6b16e2a47c09ef1|2019-03-12|Benjamin Pritchard|Finish a few more user-friendly error messages
+ba64cf1ca3f8fd1c2fb03238f77d374af0410b46|2019-03-12|Benjamin Pritchard|Last few renames that I missed
+49c391438b05867c1b8666766078a5b32be6f173|2019-03-12|Benjamin Pritchard|Don't use xfail in tests - actually test execptions
+63a433f58aa29976805167fb162c4b12e041f894|2019-03-11|Benjamin Pritchard|Slight cleanup of tests
+2903033d084dec367ecae43bb8dd335c557fd5ff|2019-03-11|Benjamin Pritchard|Remove useless 'element_entry' dict from tables
+d235e1c811cf0bc56e106f5e798069376690df20|2019-03-11|Benjamin Pritchard|Add component-file-refs functionality
+81f61ec4e1e257d0dd60a2b472b6f98e7d933260|2019-03-11|Benjamin Pritchard|Finish 6-31G family v1
+4aa766cdc930415c67e20eb7c216537f804fa8f4|2019-03-11|Benjamin Pritchard|Add data_source to add_basis
+f0de92fc2c2ad1602f18b04ee6e2afc5425d301e|2019-03-11|Benjamin Pritchard|Indent only two spaces and support writing bz2
+5ef09a550a9fe375c67f3d6220f7ae18f801dd4f|2019-03-11|Benjamin Pritchard|Remove prefix from keys
+af5a5884c552588596cd08cbba3f2ceb3ba8bf0e|2019-03-10|Benjamin Pritchard|Fix URL in readme...
+e3e8234dfeca363d061406bc4475042fe1770485|2019-03-10|Benjamin Pritchard|remove unused import from molpro converter
+15eb43031b0d913384e2ddccaea8cfc1ad39a42b|2019-03-10|Benjamin Pritchard|Add website link to readme
+fccf3d3bffa225a5c1c1412a0895e4c26ad43c7a|2019-03-10|Benjamin Pritchard|update descriptions, etc
+dbc764e2d3ccf3604e04645dd6731b4187d0a0e5|2019-03-10|Benjamin Pritchard|Rename dftcfit to dftjfit
+22fbbe8998c01d27315e3ba11659f05dd1a77e03|2019-03-09|Benjamin Pritchard|Add basis_set_data_source to components
+292ea203a0abcbbf5037d257a4f12a12bcbb1e6a|2019-03-09|Benjamin Pritchard|Merge data files
+dde1e79c4258e01053f37e82c511e852a467921d|2019-03-08|Benjamin Pritchard|Remove underscore from dgauss filenames
+f0e36af199aab043c9896cadccc0f7a35ad40fcd|2019-03-08|Benjamin Pritchard|Specify references per element
+5e36a476d578c6743b1fed2bb541d551e2ab7907|2019-03-08|Benjamin Pritchard|Add v0 of Jensen basis sets
+720c23640deb1e77e0a2bae3cfd4e38cb74a2f4e|2019-03-08|Benjamin Pritchard|Fix exception if graphviz is not installed
+16cb6fa832594fbfa8649bc46982a0c7785dac28|2019-03-08|Benjamin Pritchard|Update changelog
+13120c793b75606248289e2dcb996c3a25a3dc5f|2019-03-08|Benjamin Pritchard|Remove extraneous coeffs from ano-rcc
+f9f44a86ddb566606d57d837951df8c7883192ac|2019-03-07|Benjamin Pritchard|Be explicit what notes references mean
+87ffd231a39e36d603d7512d5425bdcbfae81905|2019-03-07|Benjamin Pritchard|Add v0 for ahlrichs from old BSE
+53cd164c70b0db25d5af0604d3c4d2d3e80726c1|2019-03-07|Benjamin Pritchard|Add molpro converter (issue #50)
+747ea9b89f54760db2d02fb979931793778b3dd2|2019-03-06|Benjamin Pritchard|Remove duplicate info in ref file cc-pv5z.1.gbasis.bz2
+e7e6c65213fa50f14ccc1f686566804ccc11bc7e|2019-03-06|Benjamin Pritchard|Make dunning +d basis sets apply to the whole table
+52dd6856b22aee7fbc0cddbe9ebe70b48b948bf4|2019-03-05|Benjamin Pritchard|Add truhlar basis sets as single files
+481565c2c3f651b2d8c5fb1fa4b085094793fb8f|2019-03-06|Benjamin Pritchard|update changelog
+5a6792efcd89f1e7b20da907b94fcdd452b8785a|2019-03-06|Benjamin Pritchard|Move dunning +d sets in bse_v0 to similar structure to v1
+27b66bd7410c2972a602fb80f2984026603b3468|2019-03-05|Benjamin Pritchard|Delete unneeded __init__.py in data dir
+81958acfc2605d8446948b6448a438bb876bf317|2019-03-05|Benjamin Pritchard|Add rest of jorge basis sets from BSE
+685f54b6b7a742d97323f792fdd044dfeb8e1b26|2019-03-05|Benjamin Pritchard|Add v1 of ANO-RCC from OpenMolcas
+437ba7e93602ffd1e1dc725cc82727b17495338d|2019-03-04|Benjamin Pritchard|Add UGBS from BSE
+2d9e03b03b674cd76919475eadb14b447be2e3c0|2019-03-04|Benjamin Pritchard|Add IGLO basis sets from BSE
+9d4bb3e6f5273cc099cee84e7133137162a6b2cf|2019-03-04|Benjamin Pritchard|Add ANO-RCC from BSE
+4cab7bae1751d2b13363df98bbda86152808521c|2019-03-04|Benjamin Pritchard|Add molcas reader
+b8ac41bf50efaa0b4539c0cb35897acd14651c44|2019-03-04|Benjamin Pritchard|Update changelog
+d2436a4d72683c04141d54871fe6eb852fcbd976|2019-03-04|Benjamin Pritchard|More tests for duplicates plus better pruning
+c9baea00a4b06f9a6ec982e6b498ab7b4ae7e581|2019-03-04|Benjamin Pritchard|Remove duplicate data found by new test
+a8b8009237eb278bbd43d1029cd353db72a542b6|2019-03-03|Benjamin Pritchard|Remove unused data found with new test
+256818ad05d31d00f8875facb19d3f85bedf9c74|2019-03-03|Benjamin Pritchard|Add tests for unused or duplicate data
+4145b48b69722364f3f6f1af797676c1688c0603|2019-03-03|Benjamin Pritchard|Remove unused test in lut
+03acc7c925cc17e75ecd5bdabd7d297252af7a32|2019-03-03|Benjamin Pritchard|Remove debug_data_sources - not needed anymore
+2e44b320f5048b72281a0a9e57a02d8aae355a50|2019-03-03|Benjamin Pritchard|Remove useless function in compose
+c5d11dac1bfd99fb3b11fe955eee74f4a4df006f|2019-03-03|Benjamin Pritchard|Remove unused entries in schema
+dc68226eb9f42aad49698c353501554dd2f1075c|2019-03-03|Benjamin Pritchard|Remove empty file found by new test
+7cdfc8604ea874976a927707e4e26fe60fcfbf6f|2019-03-03|Benjamin Pritchard|Check for empty files in validator
+a322a7abfd548a41752a701dbdb39c3b1cc6b66c|2019-02-20|Benjamin Pritchard|Move dgauss data from old BSE
+7babc29e4fbbeeeec0a5ddc711797e6f06c3dc02|2019-03-03|Benjamin Pritchard|Support handling dftcfit and dftxfit
+d354985a1a0e8571cdf40180355f03f14c1a4bc5|2019-03-02|Benjamin Pritchard|Fix get_formats bug caught by LGTM
+b03726f8f8a8f65ec2a042b975f210f93a398492|2019-03-02|Benjamin Pritchard|Include all versions in bundles (closes #47)
+b1f786695dd913b691ffb24000dadf767094ecd1|2019-03-01|Benjamin Pritchard|Small fixes for jensen notes
+9ad508011aaf65fa10467818705f02624c107a7a|2019-03-01|Benjamin Pritchard|Forgot to update changelog :(
+f07d87bde40ebcaf0edc4909c9e6938502076d92|2019-03-01|Benjamin Pritchard|Fix doctest
+3e444ea0932ddfbeb07e56db13dd99b4dab551fe|2019-03-01|Benjamin Pritchard|More pople notes
+177ab23b45db0d1b0d4e356a728461903ebd0770|2019-03-01|Benjamin Pritchard|Copy some notes over from old BSE
+033530c92dc3611531369ccc139cb45f0c7af035|2019-03-01|Benjamin Pritchard|Add notes to pople family
+dd560024021b6e539a2c729c76984f02d81db671|2019-03-01|Benjamin Pritchard|Test has_*_notes functions
+6881af5f7207c7c21a07bbf8ab59d6d7221e892e|2019-03-01|Benjamin Pritchard|Fix descriptions on pople
+9b88a31d35be976e6550167bbe24635d6e920169|2019-03-01|Benjamin Pritchard|Add has_family_notes and has_basis_notes functions
+fe6ae799b7d82d327e9837e2b3097ff311e24f8b|2019-02-28|Benjamin Pritchard|Reduce doc test/build time by not doing bundles
+8108371654d975caa56c0b32099c4a873c3cbdf0|2019-02-28|Benjamin Pritchard|Make bundling of real data a slowtest
+6887ff22470118e131b1abf6051d19356738215f|2019-02-28|Benjamin Pritchard|Update metaschema links
+08c389b234cedd5769153ae73c4c6b044955ae09|2019-02-28|Benjamin Pritchard|Update changelog
+46830bf385cad9563068095b917a391c01a2aecd|2019-02-28|Benjamin Pritchard|Rework getting formats a little
+a338511dbc7bee40e1da311b6df284e1c54dceac|2019-02-28|Benjamin Pritchard|Fix spherical/cartesian for pople
+0893d61945e99b75c63876df7e25d767583f0a90|2019-02-28|Benjamin Pritchard|Better system for function types in basis sets
+b98723dc555459f7a2f8f3193588732a462849c1|2019-02-28|Benjamin Pritchard|Update license
+3ff7eb5f1100eaed38fdea91ee9f53917b92b2d8|2019-02-28|Benjamin Pritchard|Reorg doc a little
+5b12e0bd10dbd09f32ead776083d9188be9ba308|2019-02-27|Benjamin Pritchard|Remove warning from readme/add changelog
+cf7116bfef15653d9418b1e9b50e3f252e9d1fde|2019-02-27|Benjamin Pritchard|Remove doc-generated dot file
+a0e903394163d47df94a084636d10a9031c2f83a|2019-02-26|Benjamin Pritchard|update documentation
+d284a6fea2da10d34fdcb163d9490881dca010a0|2019-02-26|Benjamin Pritchard|update doc with pople basis
+ab9d0f7fb7d2f7ddd1ba7fe1e1187838dfc0945f|2019-02-25|Benjamin Pritchard|Add more authoritative sources (and fix aug-cc-pVT+dZ)
+15e0f912ed638a55c188e19f3afe04c9cfbe686c|2019-02-25|Benjamin Pritchard|fix jensen coefficients on v1
+ca944c8e71875be14186e2751ebdc91b738ca89f|2019-02-25|Benjamin Pritchard|fix dunning coefficients on v1
+ca325a85a62fd1215e736dbbe0d5810b0a0d4677|2019-02-25|Benjamin Pritchard|Fix ahlrichs coefficients on v1
+c756e216c7f9947796a50003203792e559678cc8|2019-02-25|Benjamin Pritchard|Add test files for mini/midi and remove v1
+37040d6a08dc923aa2fef18c834887bfcd023764|2019-02-25|Benjamin Pritchard|fix v0 of aug-cc-pv5z and add test
+fcc84eca99764ebb1edd99e40fe3090425d40264|2019-02-25|Benjamin Pritchard|Add v0 tests from emsl bse
+477c4783b293c9283db054ee91b9755708564a38|2019-02-25|Benjamin Pritchard|Add 6-31G polarization
+ae9268a0220d904277203d0fa8dbe2ec8dceb998|2019-02-25|Benjamin Pritchard|Rename valence->polarization for test file
+0a5cd5b96dc2304aecd5565a4d877f79f6eafc1e|2019-02-22|Benjamin Pritchard|Fix gaussian ref again
+9c29dfae8c79d580c2d9f7f8020b5e06eac3af0e|2019-02-22|Benjamin Pritchard|Use 6-21G core for Na-Ar in 6-31G
+7bf15c14e6a041b275b051f880b47c352015f1f5|2019-02-22|Benjamin Pritchard|Add 6-31G
+c9e09dc3ba6acbed54f27c9ea3d40db4d93761b1|2019-02-22|Benjamin Pritchard|Split out H,He from 4-31/5-21 element files
+2a21738e3912dd1d9346331b3ddf10e8adc734e0|2019-02-22|Benjamin Pritchard|Move 4-31G/5-21G element files
+39c52e070504c98fcb39779703e9c8172d4c7667|2019-02-22|Benjamin Pritchard|Fix gaussian ref for 431G
+3e293d4e86d57caaab5df150e7ba78c8f8ec7b30|2019-02-22|Benjamin Pritchard|Gaussian 08 -> Gaussian 09
+71f71cb40d7a1303f7a75e931e98341599b4bbac|2019-02-22|Benjamin Pritchard|Add 5-21G from g09
+3a02263bb7981a29e0159f60b709751daff56312|2019-02-22|Benjamin Pritchard|Add 4-31G
+19f1ab12a4619d83be2caf9a19c2ef1101a3d3a0|2019-02-21|Benjamin Pritchard|Split 3-21G into core/valence
+f77956a9c6bec5a34d2566c74551b532d5ca588c|2019-02-21|Benjamin Pritchard|Split 6-21G and fix error in gaussian
+b423f0ef868bb56f1b2a47e44c63219c4610c99d|2019-02-21|Benjamin Pritchard|Add 6-21G from gaussian 08
+b5a45e920517ba5c8750aa0b8fac69519c069bce|2019-02-21|Benjamin Pritchard|Add 3-21G basis from gaussian
+f44a381c3b73693131f78f55295718409d0931e8|2019-02-19|Benjamin Pritchard|Remove old v1 of pople
+e62edea2132840acef7056f65b68245a37b347d4|2019-02-19|Benjamin Pritchard|Change paths for pople to bse_v0 subdir
+b3547e13d82f692ee1c9b436432f48b292b5a86d|2019-02-19|Benjamin Pritchard|Move pople to bse_v0 subdir
+d5e34e1ebe5ec304b4204d4efc4315565e1c0922|2019-02-26|Benjamin Pritchard|Fix errors surfaced by the previous commit
+a9ce8fa6aa702ec8044c39ec61fd5e34e2ce3770|2019-02-26|Benjamin Pritchard|Modify/export basis set comparison functionality
+fbaf77340b117df067a5435539ab959bb40075e4|2019-02-24|Benjamin Pritchard|Fix tmp_path for python 3.5 in tests
+74cf793141ab62f0a339c589560a03146ce9aac6|2019-02-24|Benjamin Pritchard|Add test_data to setup.py
+35563f4ff4bd9410a33012b0c5857b3e5e5a4707|2019-02-24|Benjamin Pritchard|Remove unused imports
+e46d46a67eae7f553e12733e66ca4c3f5e33ea35|2019-02-24|Benjamin Pritchard|Add doc for bsecurate cli make-diff
+bbc46aeaf33d00f09d48e9cd0933689f81f392c5|2019-02-24|Benjamin Pritchard|Add ability to take diff of json basis files
+8ae0638c8ea4d0aff645b586727591a709371b89|2019-02-24|Benjamin Pritchard|Support bz2 in reading json basis sets
+be19c26424f05d00617a8b0678ccda86ea895000|2019-02-24|Benjamin Pritchard|basis set name may not exist in curate
+3d355b7be17cb1021387c6ffca7e4ce11fd99142|2019-02-23|Benjamin Pritchard|Move fixing data dir to better-named function
+41f02e7a627430f5124c41a3bd3ca083add4f54e|2019-02-23|Benjamin Pritchard|Documentation for bsecurate cli
+309de06c7ed50f5f7df5f05446de33f4d24f1fff|2019-02-23|Benjamin Pritchard|Add ability to get the default data dir
+50eb3b6baba776cbfd6d12eed73fc3dc6e647ea3|2019-02-23|Benjamin Pritchard|Add graph curation functionality
+e4dba0a35b3fcde71556e984623651e99460ffa4|2019-02-23|Benjamin Pritchard|Start working on curation cli
+2b6d2b567b3356adb372b3155887fc09ded10f86|2019-02-23|Benjamin Pritchard|Some slightly better naming in cli
+88221a3afbf8daa692a344ab7bb7f8d396d547f8|2019-02-15|Benjamin Pritchard|Make get_archive_types visible to top-level
+45503b122cc74e900a8a31ffbe1a05a789b4b941|2019-02-15|Benjamin Pritchard|remove unused variable in setup.py
+600e0edcdebda011280338eb6d25ccf1a83fe0e1|2019-02-15|Benjamin Pritchard|Allow querying for bundle archive types
+a5885a9a30c136f3b6ecf3334010ea828be2944c|2019-02-11|Benjamin Pritchard|Remove unused imports
+32e1c8ac071dceed5fff3726e265f987048eb086|2019-02-10|Benjamin Pritchard|Few more small tests
+78894b2429631d7b3f0e1329fcaffa189d3419a7|2019-02-10|Benjamin Pritchard|Test some xfail
+5e9214a1e9a5bda8975704fd9d93347ea793148e|2019-02-10|Benjamin Pritchard|Remove unneeded replace_basis_data
+6b6232bc68f14246c235a8eca720f6f3561355ef|2019-02-10|Benjamin Pritchard|Improve testing of add_basis
+3bf0851c7705c4a5c29ffef4848f2165f6b196d6|2019-02-10|Benjamin Pritchard|Slight cleanup of setup.py
+6a2b56a92dfb5ef72f54368a455abb679757fb46|2019-02-10|Benjamin Pritchard|add debug_source field to sorting
+c8d60244522d141cc1be472807055af20f6b51fa|2019-02-09|Benjamin Pritchard|Test refs in add_basis
+4fdf1cc61afbc0555cb5d3ca7134986551bde5a5|2019-02-09|Benjamin Pritchard|Fix codecov uploading
+f0787300b35d64efae41181456ce7f54b30ce148|2019-02-09|Benjamin Pritchard|Add test for add_basis
+366ebcde3c8193095d1d280b46b35756e4c1128f|2019-02-09|Benjamin Pritchard|Add missing modules to developer doc
+a64f1754375488dcb89071ad0cd0ec395547183c|2019-02-09|Benjamin Pritchard|Fix test failures for python 3.5
+3b9ddb108b74d649cc5bac13dbe735c84eb63f2c|2019-02-09|Benjamin Pritchard|Fix handling of norefs in add_basis
+b1866dc29cd11957db7dde9b2f45df0786401fb3|2019-02-09|Benjamin Pritchard|Use pytest tmp_path rather than manual tempfiles/dirs
+b27c8b0d7d76ed6916eb86a98597217ff3397741|2019-02-09|Benjamin Pritchard|Automatically create subdir in add_basis
+99cf89e5db125398295efe2af0f055008cc394f8|2019-02-09|Benjamin Pritchard|Move fake_data_dir, auth_data_dir to common_testvars
+a52bfd348caad56f2407e8679d73770036ee0c75|2019-02-09|Benjamin Pritchard|Remove unused imports/variables
+f7b41ab4f0c542c84af338f32e5f9ffbcc23ec30|2019-02-08|Benjamin Pritchard|Last changes to bundles and bundle tests for a while (I hope)
+aa1e2ab7678bb82846b78cb327089a46da5a2c59|2019-02-07|Benjamin Pritchard|Even better testing of bundles
+be52f8b7afa9f33f2e0d3a46c576df73d930b286|2019-02-07|Benjamin Pritchard|More testing of bundles and memoization
+80b2591cc7d28bd838df01742f8e00fe6873fc1d|2019-02-07|Benjamin Pritchard|Replace access timestamp with version string
+0ed1bc257b2acb0ad036ad6b8a7265728440153d|2019-02-07|Benjamin Pritchard|Make memoization slightly less fragile
+5ce93baa86d19a8128b6ad880f4cc74fcfa5ad62|2019-02-07|Benjamin Pritchard|Add documentation for bundles
+bf556b09385187e832b834d3b5344debc952f65d|2019-02-07|Benjamin Pritchard|Add cli for create_bundle
+9f8ce1453b2b3316eba1e890f8c5494568767068|2019-02-07|Benjamin Pritchard|Add functionality to create bundles
+66d138b339d53cbdf3480217bff12d9d2726c293|2019-02-07|Benjamin Pritchard|Fix docs for notes
+6fbe9719f9bbf239dcd70d12c52c65d9b558b8dd|2019-02-07|Benjamin Pritchard|Return empty string from notes functions if the notes don't exist
+b3292e1d03db5843e30df1a7954680220b0c2567|2019-02-05|Benjamin Pritchard|Use transform_basis_name in cli validation
+0f9da561ee64f906f0d13f2c507c91fa80ec3de5|2019-02-04|Benjamin Pritchard|More hardening of element strings
+90ef2c0873c29f7e7b35eba97a0c84a084e97a8d|2019-02-04|Benjamin Pritchard|Better handling of passing of elements to API
+8e23ea055f89d1af946d20e6bdf05b4b552ea1ba|2019-01-31|Benjamin Pritchard|Fix one more warning from LGTM
+4c2a7ef627456cb464bf6a3389a1cfa767d42db1|2019-01-30|Benjamin Pritchard|Clean up some lgtm errors
+f8d7564ca47a74ea165fc7002af328200921c743|2019-01-28|Benjamin Pritchard|Bugfix: basis sets and references won't be sorted under some versions of python
+7030484d63ba9c563506742b62832119484ed6bb|2019-01-28|Benjamin Pritchard|Update README for CLI
+37fddf44db1ae197f78dac32b39cd7c500eff354|2019-01-28|Benjamin Pritchard|First attempt at cli documentation
+dca8f2c19a09e9ee8a493a5dec6dd6904dcac310|2019-01-28|Benjamin Pritchard|Add tests for CLI
+7e7e3420b2624b9e16efbc5607981d32dca14179|2019-01-25|Benjamin Pritchard|Add main CLI to the project
+8900671d17261d573ddbee603476084143dedccb|2019-01-28|Benjamin Pritchard|Small bug fixes in api
+1486f8603fdc75918109236f51d9201ae3dd593a|2019-01-27|Benjamin Pritchard|Slightly better error message in api
+7d284df7c5907431b7fb7e5779f6798b545f0276|2019-01-27|Benjamin Pritchard|Check for existance of family when getting notes
+d98fbcdf8dbc390c15d90c4cc324a4be6c0a9fe0|2019-01-27|Benjamin Pritchard|Small fixes to api
+7bc396beb7892672e18f3e149d701652511094ca|2019-01-27|Benjamin Pritchard|replace get_basis_names_by_family with more general filtering
+38fab10c64f5b864e3ad472ee13ff24e5175bc0e|2019-01-27|Benjamin Pritchard|Remove unused import
+83c963a994336f4ca597adc00b8bd7d0a4fe5e33|2019-01-27|Benjamin Pritchard|Add missing metadata test
+de1588f5a5bc6df0f944531d06092e30edb44b57|2019-01-27|Benjamin Pritchard|Add description back to METADATA.json
+03d9c825bb7e86550b3d6fa9afd39c126cb9034d|2019-01-25|Benjamin Pritchard|Add simple function to get the version of the bse
+49ee022ef6a1d046d959b4dbaffa3bbe62d68def|2019-01-25|Benjamin Pritchard|Update URL for the project
+d2637bb0562f51041fdc66702c7397d599bd2e52|2019-01-25|Benjamin Pritchard|Make expand_elements more flexible and simplify api slightly
+68c41011bb538c624da51461381422999ba13b33|2019-01-24|Benjamin Pritchard|Add some tests and clean up a bit
+ca291cede75a1273b109b862d80e58cc28958a21|2019-01-14|Benjamin Pritchard|Fix 2 small alerts from LGTM
+6fb14f9c7542605d53365715566134402b611498|2019-01-14|Benjamin Pritchard|Update/fix documentation
+f84c5fcd7aec9dadd9621572d6d6cade8102bc2b|2019-01-11|Benjamin Pritchard|Update code to handle new metadata files
+dbf4611414c0d5d8882a2ed446fa126d4469aea8|2019-01-11|Benjamin Pritchard|Split metadata out of individual table files
+7ac1278a09abe83698ebb43a8aa4e8b4867b62fb|2019-01-10|Benjamin Pritchard|Add missing roles to fileio sorting
+177f1d7a84a9a2264e87f21e824be1a7e14321aa|2019-01-10|Benjamin Pritchard|fix inconsistent version metadata
+2ef5204ebae98f2a7491155cd74a53b0458683d5|2019-01-10|Benjamin Pritchard|Check for orphan aux basis sets (and fix errors that it surfaced)
+5b2611838db18379fd40fbdc698c4f664072077b|2019-01-10|Benjamin Pritchard|Add ability to get a list of all families and all basis sets belonging to a family
+71e9fe54c8706826ac9499d0ca560e81c632d65e|2019-01-08|Benjamin Pritchard|Add v1 of RIFIT for dunning, including references
+c07b19905bcfbd1a54fa065c9a549009186bb524|2019-01-08|Benjamin Pritchard|Fix name for cc-pVDZ-RIFIT components
+18831f0c3aeb86df08aacc4e227d3d37826a90c9|2019-01-08|Benjamin Pritchard|Add cc-pV{TQ5}Z-JKFIT from Turbomole
+541f6b0516d409152b42098acfed940b227b75cc|2019-01-08|Benjamin Pritchard|Enable email notifications for failed CI builds
+e8be7d55f5bc330dbbcdd1bb8cd1c3d85df2a159|2019-01-08|Benjamin Pritchard|Only run codecov for a single build
+117479421649a0405e4abcd180121433ceb4a07e|2019-01-08|Benjamin Pritchard|Add python 3.7 and fix pytest dep
+9396b0a75ab0f41f78218b778dc9b65b25e5134c|2019-01-07|Benjamin Pritchard|Fix names of jensen basis sets
+99b014021e046d84413befd90b3462e9a02945d8|2019-01-07|Benjamin Pritchard|Fix names within ahlrichs universal fit files
+df4d93d0f04764ebd04cd6c32066258ff4faadd5|2019-01-07|Benjamin Pritchard|Adds Jensen basis sets
+1178583c440b7b0b643c65640ee8582093e08f5e|2019-01-07|Benjamin Pritchard|Fix integer exponents in def2-QZVPP-RIFIT
+162496977ed4a7db1442130d97fdb929454af807|2019-01-04|Benjamin Pritchard|Fix testing of references against schema
+8d456fa76234e97205dd0cda0b5dbe63dfcd7f2b|2019-01-04|Benjamin Pritchard|Better error messages in dalton reader
+362cffb9ef27eaa1fee479366f44c10804ba8149|2019-01-03|Benjamin Pritchard|Add ADMM fitting role
+1a0341f88245c979f3407a9f2d9e86a1fd86b90c|2019-01-03|Benjamin Pritchard|Check for zero general contractions in dalton files
+e6ed71429f2997aa4eea0bc993a8c11b546512fe|2019-01-03|Benjamin Pritchard|remove unused imports
+e625419a08975917c885db21a4d5a792226627ee|2018-12-19|Benjamin Pritchard|Clean up imports
+a0f4eca22214b2b4ffdecb1527ab85a18115eb29|2018-12-18|Benjamin Pritchard|clean up add_basis
+723f930ca5861e6cf7599547528fc5215138e991|2018-12-18|Benjamin Pritchard|Split validation functions to allow for validating just data
+fbaaa6112f0f88a2fc7d468a953d23b93b6f2a1c|2018-12-18|Benjamin Pritchard|Add function for creating skeletons of JSON files (fixes issue #35)
+3665a414e86679c17c712d64b66e80f4209217e2|2018-12-13|Benjamin Pritchard|Add rough function for adding basis sets
+e3c9ddef7fa516a18655dfaa8ccbe0ab7a69370b|2018-12-12|Benjamin Pritchard|Add all refs for jensen basis sets (issue #33)
+097faff3246235d560f626de882ecf8d558411b9|2018-10-24|Benjamin Pritchard|Fix bad return blocks in docstrings
+0fc984f7717a35435f50b3b2f2dc807da800dc45|2018-10-24|Benjamin Pritchard|Enumerate formats, roles in documentation
+03270f53c8d4c136e09ef3a688f3701e0b6d3d19|2018-10-19|Benjamin Pritchard|Fix example for get_roles()
+bc01beb153eab9c5963d5f6acffba167f701a50b|2018-10-10|Benjamin Pritchard|Add fitting for ahlrichs def2 (jfit, jkfit, rifit)
+2a57e9453ee2d8da4128ceb2f2b346f19d976675|2018-10-16|Benjamin Pritchard|Don't do verbose tests - there is a limit on travis
+5da9e179d94d06808d8ee979265b2f76f78b5999|2018-10-16|Benjamin Pritchard|Remove unused imports
+ed5e1c1536ee249fb0b630175d8cf790e4bab423|2018-10-11|Benjamin Pritchard|Fix installation of authoritative sources
+a723bff5446777b557f8ca2a7ad06ee865833335|2018-10-11|Benjamin Pritchard|Add tests against authoritative sources
+5b43eb8ab5f2ceb2012e2781fb0452b56b45ffe8|2018-10-09|Benjamin Pritchard|Add ref for hill2017a
+be4ce39f26c0963e1128b9355f863d9f6f9c3f6d|2018-10-09|Benjamin Pritchard|Add lgtm badge
+24b0fa9f120f24ba792a71095a366ebd674db261|2018-10-05|Benjamin Pritchard|Add get_role to docs
+de621ab43f37a606dd94c34b1ff7b4285dc0e112|2018-10-05|Benjamin Pritchard|Add get_roles
+25d83f47e74de66f1e13251cbaa7a912a1ca7a72|2018-10-05|Benjamin Pritchard|Update usage doc
+c10c57996f1b573f579b8b2f8d9d0a218c0d9c98|2018-10-05|Benjamin Pritchard|Test sanity of aux links (and fix errors it found)
+aa6ef9c0427d7c17a874972a9d520e72e34a7057|2018-10-02|Benjamin Pritchard|Add ref for weigend1998a
+8c584092ada19ffe82019cc0ba68e09ca5132bec|2018-10-01|Benjamin Pritchard|Add jfit basis for all ahlrichs
+51f1b1194abca32f09796ef037a5f78fc37aa3a2|2018-10-01|Benjamin Pritchard|Add ref for hellweg
+2d14ee5fe794559b879274fd2de18896fd6b0cd6|2018-10-05|Benjamin Pritchard|Make sure test_valid tests all files
+3aa62ea5658aa92c9d769288aa2e3e66660881af|2018-10-05|Benjamin Pritchard|reorg dunning_fit and add (aug)-cc-pV6Z-RIFIT from BSE
+5091e863f7f3478db7d73e80015e61a7e5cdc645|2018-10-05|Benjamin Pritchard|Fix incomplete testing of filenames (wasn't testing recursively)
+95ab3c15c02b1b9243f09e119d06f9d14b45236d|2018-10-04|Benjamin Pritchard|Clean up a few last mp2fit conversions
+936f7a6b42cf30bd9613769fc2e409f8fdececc6|2018-10-04|Benjamin Pritchard|Bit of cleanup with dunning and dunning_fit
+dd2098d5b70a91fa4ff968fb97ee88bea6f319f9|2018-10-04|Benjamin Pritchard|Add (aug)-cc-pV5Z fitting and add as auxiliaries
+b4eea5a2ff61a044cc07aa7d98308e0341c874f5|2018-10-04|Benjamin Pritchard|Some renaming for dunning fit
+a82066a8837bea53062f51dbb85f75888c662c9d|2018-10-03|Benjamin Pritchard|Fix doctest problem with dunning
+9745bfdee586906c4dc913b8282c0f5fbc5867cd|2018-10-03|Benjamin Pritchard|Fix metadata for dunning
+8d92fe88d821c4f52a3220818f31f4773a270723|2018-10-03|Benjamin Pritchard|Add (aug)-cc-pVn+d basis sets
+e2f3995fc0d10d9be731a00f23b4de8f85fe4f4b|2018-09-28|Benjamin Pritchard|Use data from ccRepo for aug-cc-pVnZ (n=D,T,Q,5,6)
+e669b0354fa27216584a5e55751a3a13a2261cf5|2018-09-28|Benjamin Pritchard|Use data from ccRepo for cc-pVnZ (n=D,T,Q,5,6)
+9c99f7830e151dbc7a5d6b880c48dcf4c8cf22a7|2018-09-28|Benjamin Pritchard|Old bse uses another ref for Li,Be,Na,Mg
+3c86947381b6984ee18a19b32e558585042fbddf|2018-09-28|Benjamin Pritchard|Fix ref in peterson1994a
+28cb40900b6757e7bace65516bbafbbce4811792|2018-09-28|Benjamin Pritchard|Add refs to old BSE (needed for some basis sets)
+67453210c66afa9425e1b54bbbfa33e2e16e235d|2018-09-27|Benjamin Pritchard|Complete references for dunning
+cdf1e7ccc751b3d91256d5325607797a90c4640e|2018-09-27|Benjamin Pritchard|Copy data for dunning v0
+b91555882066828f87c0e6b22a7b9f5286b9750b|2018-09-27|Benjamin Pritchard|Remove v1
+feaea7f2c3ebee424e1ddcbd906a1e9b5d05f4ab|2018-10-01|Benjamin Pritchard|Use python capitalize rather than roll my own
+5dfa2f4a688587e5f83aae4943f281aa01351ad9|2018-09-28|Benjamin Pritchard|Allow for uncontraction in compare_ref
+f0ea8bcd966daf05a5a9eb4c988196a9c41bb64e|2018-09-28|Benjamin Pritchard|Use better reldiff function in vector compare
+94f9844618c5aedc07e00b21629b60dfd5505045|2018-09-28|Benjamin Pritchard|Fix issues with unpublished ref type
+53fb2ad0f7b2aa20d7dda2a5a5fe1d0bf2a1e459|2018-09-28|Benjamin Pritchard|curate: Less printing when comparing
+e697ee4379a944f7f001110440e8e6b6e22c68ef|2018-09-27|Benjamin Pritchard|add handling for unpublished reference type
+82cc238911ab6b4dbc47afdb8bece21098663407|2018-09-27|Benjamin Pritchard|Fix minor issues in compare_ref
+8548bf189a66127cebe8c88baa4b1ef02bd7fcf9|2018-09-27|Benjamin Pritchard|Add gbasis reader
+a418cd1f1cfea5ceacc8e3680486921d0ddf7a79|2018-09-27|Benjamin Pritchard|Add round-trip conversion testing (and fix a few issues it found)
+a55723eba1a33ce8e090d38093d7cf742f8315fd|2018-09-27|Benjamin Pritchard|Use a true temporary file for test_metadata
+1aac29cd91dbf6b9b07a29b7be444788a7c4bc5b|2018-09-26|Benjamin Pritchard|Add ability to get extension for converters
+84a1130f0a566b59599ff1038ee1880fff8d2886|2018-09-26|Benjamin Pritchard|GAMESS does not support spd, spdf, ...
+1de2ae404f579e10b4c9fdabcde3f728109e59ba|2018-09-26|Benjamin Pritchard|Add NWChem reader (fixes #29)
+515b373dcd603be2c5ab58ffec0c3d01a92fc55f|2018-09-25|Benjamin Pritchard|Recursively add data files and test with CI
+972805b12c074ae02b4c41a738477f0483a5d37a|2018-09-25|Benjamin Pritchard|Remove unused variable
+a7a535763eca9e07ba2cf4893ec114ecab675528|2018-09-24|Benjamin Pritchard|Update documentation with OrderedDict stuff
+ae1b2408c020ccbbdebeb2e8a9a2dd058a856a58|2018-09-24|Benjamin Pritchard|Consistently order converters/refconverters with OrderedDict
+0ba92ea59733d29994fe23767c2857ee9505c1c6|2018-09-24|Benjamin Pritchard|Format/reorder json ahlrichs json files
+4dd4ed19e02d866c79728990ca9b37bfcc23c30f|2018-09-24|Benjamin Pritchard|Add turbomole converter (fixes #28)
+28c798d353c32988264c1b2c0d83a0d63292d180|2018-09-07|Benjamin Pritchard|Curate the ahlrichs basis sets
+c731e0232b0104744265a839551d963b62ddcad5|2018-09-21|Benjamin Pritchard|Return true/false from comparison against ref
+a62c0c6ffb51344cb7bd829bcc10e820c6700abd|2018-09-21|Benjamin Pritchard|Harden tmol reader a bit
+cef741f1393dde60290b64c2a3cea28f598f0145|2018-09-21|Benjamin Pritchard|Fix unused imports
+e0814bbe0036a6d069b75c5349ff88715c5fea2a|2018-09-20|Benjamin Pritchard|Fix problems in curate
+e64965c791abda4e0af60a1fd3c126e8c3374454|2018-09-20|Benjamin Pritchard|Update output from getting notes
+7497279bb6ed5126d0c7270213a341347eee7a2d|2018-09-20|Benjamin Pritchard|Move global flags memoize_enabled and debug_data_sources
+0f0e29c8120822990ee855685d62313cfe94277c|2018-09-20|Benjamin Pritchard|Fix return value from refconverters
+b55e5b768954a60672a55bc24b623b9598ea5277|2018-09-20|Benjamin Pritchard|Reorganize and clean up imports
+e0b5cb8c194d9ebe1ef8730579a2068065ba8fb0|2018-09-20|Benjamin Pritchard|Clean up imports in curate
+e70489eae416fddb0d6538e35914342cfa85f881|2018-09-20|Benjamin Pritchard|Have pypi use readme for description
+888a9c8f1822fc5fe4d2da3b10f611254beb26b7|2018-09-20|Benjamin Pritchard|Fix import * in a few places
+e81a810b9b85b2f61dc848fa0cbd61cad8d6e0c3|2018-09-20|Benjamin Pritchard|Move transform_basis_name
+50a23be50f825824604645a064898f17a8981c37|2018-09-20|Benjamin Pritchard|Fix bug with create_metadata and filebase
+0cb2d0e74687acb6142a4fa53004a88e37c34959|2018-09-20|Benjamin Pritchard|Remove unused variables
+0747f1be708c7d04184d6dd83cd7cf8bbfd6febc|2018-09-19|Benjamin Pritchard|Add LGTM config
+100344dce6ae27e7ba44dbf6906bfbd602dfa3a4|2018-09-19|Benjamin Pritchard|Cleanup and fix some lgtm suggestions
+90773b23e7fc4ee8267a0bfbca5f161353a16f4f|2018-09-18|Benjamin Pritchard|Fix G94 reference in read_turbomole
+d9031fff2cda22be2bf89bfc39811dc40574e473|2018-09-18|Benjamin Pritchard|Add functions for replacement of data
+9df0e836e11954b5a6e13abb22faa0d45c236a75|2018-09-17|Benjamin Pritchard|Add shell subtraction to curation
+5c0044006c9009639c55f71d0f9d09f3938a688d|2018-09-07|Benjamin Pritchard|Fix bugs in read_turbomole
+09e91c64cfb1eb1ef43eda2e64dbce79cf47fa7a|2018-09-12|Benjamin Pritchard|Add relative tolerance to curation functions
+5c4c1e4632fc0dfca33cbd6ecd9b86fad477b8ba|2018-09-17|Benjamin Pritchard|Update metadata
+809f96974fcb292e3d9f7f092ab90d5134dbc04c|2018-09-07|Benjamin Pritchard|Code for comparing ECP
+0682be266cd94e89d761dc6ee5f48b17dec53cac|2018-09-17|Benjamin Pritchard|Add ability to see sources of data for debugging
+7a110b7d7a3140e9ec0f07a5a50e58ec0c7c0310|2018-09-17|Benjamin Pritchard|Add some functions for comparing against another source
+de0953501af49870342397c4aea9deefb70bb3a9|2018-09-17|Benjamin Pritchard|Allow for nested directories of data
+bed5b40661c97feec2f17c98151fee953a162c0a|2018-09-06|Benjamin Pritchard|Store def2 as optimized general contraction (same as turbomole)
+bdc3608381bc335515dcbdf01a5fd21d64ae52de|2018-09-06|Benjamin Pritchard|Return inf for extremely different shell lists in curate
+ba7d94a40a1dd92729ed5b7633a2ec7bcf4b064b|2018-09-06|Benjamin Pritchard|Add reference for def2 for lanthanides
+c2a04e20d4c70c32b97d8dd306216a00af941dcd|2018-09-06|Benjamin Pritchard|Add note about milestones to doc
+8ffe68161e8b5cd62de7921862b322bdb7b97ff4|2018-09-06|Benjamin Pritchard|Add computation of shell diff to curate
+846fc056d9cadc0719ee8809c7fa89b16b599661|2018-08-17|Benjamin Pritchard|Revert "Split optimize_general into separate functions for shells and basis sets"
+539f48b566d95fbf03783bddbacd8ac0a90a0cde|2018-08-17|Benjamin Pritchard|Split optimize_general into separate functions for shells and basis sets
+ecfc0d17530452907e5438e45f7bfd9789c4707a|2018-08-16|Benjamin Pritchard|Canonical journal abbreviations and fix authors
+48aa86a85fbe28e2d1de2241233cbf0ee560a81d|2018-08-16|Benjamin Pritchard|Use display name if notes are not available
+924cbc1d07f947a991988b3f6913ce7f480fedce|2018-08-16|Benjamin Pritchard|Convert scientific notation to D for gaussian
+8218149c5e980f24d0079af4ecb60790fa4d84e3|2018-08-15|Benjamin Pritchard|Few more doc additions
+eaca610a94ccab8d00a885ff503d88e284691731|2018-08-15|Benjamin Pritchard|Add contact info for community engagement and add design docs to README
+85cc69bf49db92932bfec2be4ab793caff75457b|2018-08-15|Benjamin Pritchard|Add project documentation
+abb8ca13490df1c2db2b6a818607cfcca045c5f1|2018-07-24|Benjamin Pritchard|(temporarily) remove additional D functions in K,Ca/6-31G
+3d10fc5084e5cf4755fa5039c4d8be68eba4d272|2018-07-24|Benjamin Pritchard|Rename _francl to valence_francl for 6-31G
+9ea350017577de973e7b6efc985dcb20d9585462|2018-07-22|Benjamin Pritchard|Use literature values for scaling STO Cobalt
+abff95be0f116fd95e61801db10788426ba3b1ec|2018-07-20|Benjamin Pritchard|Merge pull request #22 from loriab/patch-1
+3a4364c8857d380b3d63a69b0dd142164900439c|2018-07-20|Lori A. Burns|Update README.md
+2c56210c930bde319f5fafa15e4aa08c1d752e54|2018-07-20|Benjamin Pritchard|Update long description in setup.py
+043475c5ebb40eb39a6fbb6aa0ad47ac18bcecc8|2018-07-20|Benjamin Pritchard|Add psi4 output converter
+f27c6262b4e4c03617cfa03b8332d1bf3e8b6f6c|2018-07-20|Benjamin Pritchard|Remove shell_region information from STO for now
+e772c9396e78f65119adde4cb4b4c604439d23aa|2018-07-20|Benjamin Pritchard|STO basis sets are spherical (fix v0)
+6b9ab6a2c65fabf3ccbe14bfb17348bf406794b8|2018-07-19|Benjamin Pritchard|Fix failing doctest
+6ec4926e2b8b7f6765925095783993a08ceba458|2018-07-19|Benjamin Pritchard|Update readme and import readme into setup.py for PyPI
+7290852f52191bee29901efd44f44425efc208be|2018-07-19|Benjamin Pritchard|Finalize STO notes
+7e329c61c0c30b779ea4fc69c5b67e036b227d05|2018-07-19|Benjamin Pritchard|deprecate comparison of v0 with old BSE
+6ed89ecefb0541e1595ec530630836107519ba08|2018-07-19|Benjamin Pritchard|Fix sorting of shells
+f3e2337f0150d0115d82f32da6d7c2ed3b01cdd7|2018-07-19|Benjamin Pritchard|clean up gamess converter slightly
+762bba82c5f0f0d6d49d116aa463c2931f5e7bc0|2018-07-19|Benjamin Pritchard|Code formatting
+1bde529f4f89d8a63f0bd6580999c9324f2d5e0f|2018-07-19|Benjamin Pritchard|Finish describing STO basis sets
+cacb9238d744b7550d8f1332fcbe60306badaef5|2018-07-19|Benjamin Pritchard|Form spd shells in STO basis
+a35fc52511d9eb73bd16fe0459b7d5eb9d16a201|2018-07-19|Benjamin Pritchard|Remove GAMESS STO sets and update notes
+06724bf2db99fd773300aed9b5f4a66304b80a65|2018-07-18|Benjamin Pritchard|Replace sto data with gaussian
+d5f5da110cfa8ec0d04b0218443081c7db3b3100|2018-07-17|Benjamin Pritchard|Add ability to read g94 files
+cc6d6e490d1c051f650bfd7e5617110d33c87d6b|2018-06-26|Benjamin Pritchard|Don't put initial ***** in gaussian output
+931fecf9f3d4a862a6c7078f34a5d977122158e8|2018-06-21|Benjamin Pritchard|Update some documentation
+072e4311245c308d4c5f43b984a3aca20950f7b6|2018-06-21|Benjamin Pritchard|Update README with pip instructions
+3df080fc89b1c0e376a48754a3eeac76fb5c46c2|2018-06-21|Benjamin Pritchard|Add pypi badge
+26a539d5f8d3f01c9e02d48e45eb32ceb92f6991|2018-06-21|Benjamin Pritchard|Fix codecov
+c8addf06fbb84bcfe70bdab3e4e4d951b7713344|2018-06-21|Daniel Smith|Adds a manifest file
+f57a7c535179ea622dc2a20ed7cfdc65a815aeec|2018-06-21|Daniel Smith|Build: Adds correct version tag to conda-build
+52091dd63f42739b08f9654c498bee27b69a124f|2018-06-21|Daniel Smith|Build: Adds devtools folder
+0d008c41a5cd8a1c986f5c588915291027564a20|2018-06-20|Benjamin Pritchard|Do regular install on travis
+29980772f93392c72987329c38dc0cab38251006|2018-06-20|Benjamin Pritchard|Add data files to python packaging
+5089c8a348f44a4741ab94be78f81ce0fbf34c65|2018-06-20|Benjamin Pritchard|Remove version limit on sphinx
+dc9d75bf459ba4e96cf1918dcb7a000c42d78b0a|2018-06-20|Benjamin Pritchard|Update badges
+5089973ac9694ac190ae5f3f3096c7b029d12d1d|2018-06-20|Benjamin Pritchard|No need for conda in travis
+b24c2359c0106a15289ab47e1cd11439b46e23b0|2018-06-20|Benjamin Pritchard|Code cleanup via yapf
+9c28ba01775260e40b4cc46fac7a95e35f4aa040|2018-06-20|Benjamin Pritchard|Move conftest again
+2af5a99969170214218abd5aa1bb6089487c8f06|2018-06-20|Daniel Smith|Adds inits to data sub folders
+5bd4952b56e704cc3dc053d917d3db44d83931e3|2018-06-20|Daniel Smith|Adds versioneer
+10c7a66ad7d08d6323483fc4a687df28eae379b6|2018-06-20|Daniel Smith|STY: Moves yapf data into setup.cfg
+9c9900af30903c5432963047544c79b8e0a32143|2018-06-20|Daniel Smith|TEST: Moves into bse main project
+bf1ffea3804747d704918ae605bf13fda05b0c98|2018-06-20|Daniel Smith|TEST: Updates relative imports
+582eb29deb32af49d48b0dfb4e0cefdb3fe1b094|2018-06-19|Benjamin Pritchard|Rename actual python project from bse to basis_set_exchange
+a3815a07161f152e1ecf279b15d378ceb4fbb92b|2018-06-19|Benjamin Pritchard|Bump to v0.3
+6bd0d8aefcfb0fb994147ad5cbc42012cf615c1f|2018-06-01|Benjamin Pritchard|Update doc link in README
+cf0d0e7a448f52e110b33828f8b84cd0b8021f53|2018-06-01|Benjamin Pritchard|Make headers be proper comments in the output
+3b2e5b79162cf61c759279d5519957609c16d631|2018-05-31|Benjamin Pritchard|Add extension information to the converter maps
+f314b42128a26596872d276fef2867c12e1f6db2|2018-05-30|Benjamin Pritchard|Never put header in json output
+d76a4e39693d57890cd92e108c3dfd9d505c24a0|2018-05-29|Benjamin Pritchard|Update doc link in readme
+51ef29e951e90ec3910933b8707f955d2f5e15c8|2018-05-24|Benjamin Pritchard|Add option for making basis as generally contracted as possible
+a238e866c3a168a321e6c6a758960717741f212f|2018-05-24|Benjamin Pritchard|Update docs
+aa80a817e2b1fcc268a901ab017b0e401be5eda1|2018-05-24|Benjamin Pritchard|Remove blank line from schema
+f2c5ee72cbcf3d92b03188791010632c5d02643b|2018-05-24|Benjamin Pritchard|Clean up converters a little
+f38e2ba1611f23c75aaab61b29d014a52d872657|2018-05-24|Benjamin Pritchard|Re-add headers, but make them optional
+a8bd2ef6b605fb79cbab218109fcca93174d3d1c|2018-05-23|Benjamin Pritchard|Add gamess converter
+1d6f7cbbf506a95b1ec81e93e8afff160b89d575|2018-05-23|Benjamin Pritchard|Strip headers from library output
+6b87ebe209c1ac056b99851cd07e5f94607c80b2|2018-05-22|Benjamin Pritchard|Move functiontypes to top of metadata for a basis
+057684b3a6dc3e36abdc3ad7ad8a9635c5a6c747|2018-05-22|Benjamin Pritchard|Use filio for get_schema
+9eb946c3e4f6eba5108ba6898ff27a63c5654cbe|2018-05-22|Benjamin Pritchard|Also move versions to be strings
+bc4a852eb00b239cdd4941a1650d27767a2ab0d2|2018-05-22|Benjamin Pritchard|Make some fast tests, and mark some as slow
+8603ede7285040d03af7e9ffe46cc2b55c76fe69|2018-05-22|Benjamin Pritchard|Use strings as element keys (better json compatibility)
+942f52afa50cae25a2727ddb698b58677c8540ed|2018-05-22|Benjamin Pritchard|Add optional memoization to certain functions
+88d2fc0b529665af7d65b5d57e817b29a2cf143d|2018-05-22|Benjamin Pritchard|Add optional memoization to certain functions
+979908b35453406abbd1b6cdf9b83f172d9fc29f|2018-05-22|Benjamin Pritchard|Remove old bibtex 'type' key from docs
+72c03dd83b6401651b6ddbafd1562de0c86f7c10|2018-05-22|Benjamin Pritchard|Change roles of mp2fit basis sets
+6f70f2443e065b5eb7cd78b7760fe566c4c64cfa|2018-05-21|Benjamin Pritchard|Don't use type key in bibtex output
+ff52341e13c632d4d98b67d4fa9c06a5ca2b5c34|2018-05-21|Benjamin Pritchard|Add notes module to docs
+5cf3439fe76fc5666102b9c0fabb75989e7eadf4|2018-05-21|Benjamin Pritchard|Don't put reference block at bottom of notes if there aren't any
+cbaa4fde29e410d6ccfb831de22c35096d967ebb|2018-05-21|Benjamin Pritchard|rename basis_set_exchange_historical to basis_set_exchange-historical
+30ad69ca5a3d22fba1bf39a19fb35e4b3af2ccc2|2018-05-21|Benjamin Pritchard|Add references to the bottom of notes
+2d97452bfefe1e967810f39c8f0b18942055c14f|2018-05-21|Benjamin Pritchard|Add ability to get notes
+04d01b36b5b50bf48e6a6de47cd23cb49b7a0f98|2018-05-21|Benjamin Pritchard|Move notes
+aaea1e55509206a52defb1d1cdde4ff04d45a184|2018-05-21|Benjamin Pritchard|Fix json files in data.raw
+bd214304cc2808e083c10f82341b84ef60e7831c|2018-05-20|Benjamin Pritchard|Add doc for lookup_basis_by_role
+451599bbf1f9ec83ef0c4610654e98f77ab8ca70|2018-05-20|Benjamin Pritchard|Adds MP2FIT for (aug)-cc-pV{DTQ}Z
+fd9e0239bf7ad713e7c3a7fbe0625f5bf7087c00|2018-05-20|Benjamin Pritchard|Adds role-based lookup
+677fa775f683222ffeb76822ac526fee07791445|2018-05-18|Benjamin Pritchard|Move displayname to top level in metadata
+44ffc31ae1bfa06b9797d7437bfa3da8acbeb120|2018-05-18|Benjamin Pritchard|Use doctests for docs
+86c1dbcccf898b65fd5eea3cca1500c1ce4545f2|2018-05-18|Benjamin Pritchard|Test and document using symbol strings
+cdfda9201d7071b283e31458fae3efd45f14270b|2018-05-18|Benjamin Pritchard|Update README
+cfd930e9492703bc6331a3f6d6e1e23d32ffa45d|2018-05-18|Benjamin Pritchard|Work on documentation
+e0d7988a6b1406d2a4d74befd1fba2e9bf1eed91|2018-05-18|Benjamin Pritchard|Some cleanup and reorganization
+33829407fd88e2262e06e1f0e28c60c12e3295ce|2018-05-18|Benjamin Pritchard|Make global paths a little more protected/hidden
+b394f39903336cc0a082fa112d560c64d0124125|2018-05-17|Benjamin Pritchard|Allow for element specification to include strings
+5c8cdf2882689264c30b9e269c8df5d4cbf096cc|2018-05-17|Benjamin Pritchard|Work on docs
+9ecd44dfe48eddc4d20bffef387b75a54b9264fa|2018-05-10|Benjamin Pritchard|Skeleton of sphinx doc
+cd8a83ffbf346ecbb9e3bdaec84809d2f656edd8|2018-05-17|Benjamin Pritchard|Add LICENSE
+887881886bfa34b03944431204125eb41a498c73|2018-05-17|Benjamin Pritchard|Rename get_basis_set to get_basis
+0ba67a060397401ec3fdc7e27583253d7c8ba7bd|2018-05-17|Benjamin Pritchard|Add non-optimized back to v0 test
+7e97e2d57810bbed6b866c0b12da132f08ea3d33|2018-05-17|Benjamin Pritchard|Fixes coefficient for V in (aug)-cc-pVTZ (issue #18)
+4982a7c245b8158438ab6a41f541172beab58584|2018-05-16|Benjamin Pritchard|Implement 'optimized general contractions
+5ec438cbbe536111c86c01368ab44f5317565d2e|2018-05-14|Benjamin Pritchard|G94 output matches old BSE
+f6c717bdbcbb80ae8ba77f928ba117c04ef8b2a7|2018-05-12|Benjamin Pritchard|BSE v0 matches old BSE (and adds optional test)
+6a3a3ce5647a8c2dc5d546a5b32bb038628a5945|2018-05-12|Benjamin Pritchard|Remove init file from tests (apparently a bad idea)
+e9f7e0766f1dfdbbb398d60f3355cde518189517|2018-05-11|Benjamin Pritchard|Test getting subsets of elements
+adcbca985c4bdd780b8fda4d75fb6a350cc56296|2018-05-11|Benjamin Pritchard|Remove debugging statement from txt converter
+96e8b70b72a52391829a710bcb38ba6a95fc4d0e|2018-05-11|Benjamin Pritchard|Fix editors in bibtex
+25add0c10dcb78d07a14ddb8ad314b29f3b73f3f|2018-05-11|Benjamin Pritchard|Add 'publisher' to reference schema
+57d1d65420e4783c344fb4c3199c8896f55f3e2e|2018-05-11|Benjamin Pritchard|Redo testing of bibtex files. Optional, and uses actual tex commands
+a5cbf199932d39e5c3b3536eb08a2502d50028d9|2018-05-11|Benjamin Pritchard|Move closing brace in bibtex to new line
+f9388680a08dd042427591c5eca083a3a665343f|2018-05-11|Benjamin Pritchard|Test bibtex in travis
+f31187f284968b23ad98934f39d09a6924a79a33|2018-05-11|Benjamin Pritchard|Add bibtex output and clean up slightly
+5f8354b2301afce08264639dbc015bdcd1719a8b|2018-05-10|Benjamin Pritchard|Start of comparison with old bse
+ecf09e199a1dc03eaa7ad58f77865fd4d2de5ba3|2018-05-09|Benjamin Pritchard|Test writing of json files
+9c2fc0b60d1d557a58a20c53a1c1120166d72003|2018-05-09|Benjamin Pritchard|More testing of curation
+2d7c121e612a11bf35ecd594ab53619ca53bb439|2018-05-09|Benjamin Pritchard|Small cleanup of tests
+283034b9e3a9e8a59c135a9f0c7542a480c0aa02|2018-05-09|Benjamin Pritchard|Test curation functions
+75630351e9fc61f2c56c2ed9a39750948e770948|2018-05-09|Benjamin Pritchard|Update tests (and fix reference on one file that was found with the new test)
+727076e906d63234e8558a2754f82a8a364ce51c|2018-05-09|Benjamin Pritchard|Fix error with element 114 in CRENBL/CRENBS
+eb7bbfb6f05ade50c079a522c9bdf79dfa683986|2018-05-08|Benjamin Pritchard|Finish some cleanup
+9d45bb4dd396c0e000503abbe34734aba0c2ff1b|2018-05-08|Benjamin Pritchard|Remove python2 support for now
+0d7a2ffb80d5e2e93ba88a2dda825b45c06e7904|2018-05-08|Benjamin Pritchard|Cleanup io and lut files
+37014ce98dc38386b1d290f4bc0123c764826a99|2018-05-08|Benjamin Pritchard|Remove crossref function (for curating references)
+2473928afb9d53e13d03a8c4c5168bf4cf505c6b|2018-05-08|Benjamin Pritchard|Make basis set names case insensitive
+7b7b1e93f0ae48237c8f3c2335601ec874c1f445|2018-05-04|Benjamin Pritchard|Add descriptions to each reference (issue #15)
+c1d4b3d4661cd01b92c1fcf0d6127741426338c4|2018-05-04|Benjamin Pritchard|Add real data for 6-21G (issue #5)
+448201bc85b767418e137b7bcfaa137860cee891|2018-05-04|Benjamin Pritchard|Add reference for 3-21G Rb,Sr,In-Xe
+677a2ac172d61f7423ede826d10ad6ee5151fbdb|2018-04-27|Benjamin Pritchard|Curate CRENBS and fix some CRENBL
+13a952e5ccaa7780a4faebd6a7d7aedfd8d8ec3e|2018-04-25|Benjamin Pritchard|Curate CRENBL and fix U in LANL2DZ
+148128980d22ddbdf05ad8894392f8a268db4768|2018-04-24|Benjamin Pritchard|Fix support for ECP-only basis sets
+5d87c2604186a5e7b39614c2b42036284ee9cef9|2018-04-24|Benjamin Pritchard|Curate LANL2DZ
+8600e9299848bd07c1a90a9d70568d0d83f196c0|2018-04-24|Benjamin Pritchard|Curate Jorge basis sets (DZP/TZP/QZP)
+b7b83445325a765fea07194982a60ce47434aebf|2018-04-20|Benjamin Pritchard|Add (aug)-cc-pV6Z
+ce8a3b065829c228ebd7f62220404726965d1e95|2018-04-20|Benjamin Pritchard|Add (aug)-cc-pV5Z
+e2c760348e66c3c009ea994110806e481c6eaf8b|2018-04-18|Benjamin Pritchard|Finish adding all STO from GAMESS
+5dda642e5c652f4afd82d7ab56d4eb0914308d7d|2018-04-13|Benjamin Pritchard|Add STO-4G and 5G, and NOTES
+008f1676c1da1b102e271f4158dce84132fd6902|2018-04-13|Benjamin Pritchard|G94 should use hij angular-momentum convention (issue #16)
+1d9f24602ebf32843b7ecbce3d364329ade32245|2018-04-06|Benjamin Pritchard|Add (aug)-cc-pVQZ
+578a0dfa355f438c5badc2556c15b7051017a933|2018-04-06|Benjamin Pritchard|Add aug-cc-pVTZ
+be73f5be3648faadba66bd47df7db0daaebb2d09|2018-04-06|Benjamin Pritchard|Add aug-cc-pVDZ
+6b112532c2445c45b90d4925655c96b33fb49d3c|2018-04-05|Benjamin Pritchard|Finish cc-pVDZ and notes
+27db11dc78ce0f33a5aff69c6f59120b929c5f43|2018-04-05|Benjamin Pritchard|Fix dunning references
+4bfac8c70f287440876ffdc72e7653fb97a05155|2018-04-04|Benjamin Pritchard|Curate first part of 3-21G
+abc04baa8a04d867a07c5512bde9ad0db6ecc62b|2018-04-04|Benjamin Pritchard|Remove useless uniqueItems tags from schema
+6ae27a0d3071c07923b8c73babbee393500af60c|2018-04-02|Benjamin Pritchard|Rename json fields to snake case and add schema versioning
+d10f0feeb9be35a1faf75e8cb5b0905db9e0388b|2018-03-30|Benjamin Pritchard|Split definitions out in component schema
+338ff7139151b3b756899f80a6b533853c6bc067|2018-03-30|Benjamin Pritchard|Rename v0 of huzinaga to v1 and add original BSE data
+41ec31b55a56a54197216d5004e955dc375f2592|2018-03-29|Benjamin Pritchard|Add Huzinaga MINI, Scaled MINI, and MIDI basis sets
+f780f310a9b1ec99fe104efc23ad7ba5d9f4af13|2018-03-29|Benjamin Pritchard|Add references for huzinaga (and handling of techreport type)
+c1eec10edde7e0187b8573047b016225d6669754|2018-03-21|Benjamin Pritchard|Add dunning notes
+8c688de482813bfd6dc5e3120fd2ba26ad946e30|2018-03-20|Benjamin Pritchard|Reorganize notes
+e751d47e7089cf8fec7da95947e0a600e0dd0bc8|2018-03-16|Benjamin Pritchard|Run yapf in curate
+c1423054d4ca33983b8ed835f0bd42ca27d69e28|2018-03-16|Benjamin Pritchard|Fix metadata testing issues
+a6a646dec44b2eb613cac9c143cf6c7770f738e8|2018-03-15|Benjamin Pritchard|Fix testing of metadata - hashing is too strict
+08ff098826752367d5eed402e657110290efd107|2018-03-15|Benjamin Pritchard|Use default paths from bse in tests
+53bb75e4b1fa2dfedd366402638ef17a23634bd4|2018-03-15|Benjamin Pritchard|Clean up api tests slightly
+4b080618bedc34615150cd76e853a9a094b84cbe|2018-03-15|Benjamin Pritchard|Enable reading metadata from a file (+ tests)
+854cf01e4bc8d7c8c42b8452b034bb13af89f722|2018-03-14|Benjamin Pritchard|Merge pull request #12 from doaa-altarawy/master
+b7ea4cde920a69add4cbd4cfb76c651ec77910ce|2018-03-14|Doaa Altarawy|Create __init__.py
+9cf386ef2b5b4b208ed660a9a0376b2ae672bcdc|2018-03-14|Benjamin Pritchard|Better return from get_formats and get_reference_formats
+6848910178aed15a8de50f27a0388f984a15dd3b|2018-03-14|Benjamin Pritchard|Move versions lower in get_metadata
+96b3d5cfcc41e4d59caf66144fff11dca1c59591|2018-03-14|Benjamin Pritchard|Return more metadata
+4207bce1ca7aa1652006e21788dc761abe7f0196|2018-03-14|Benjamin Pritchard|Add ECP to metadata
+f637f3f842247d8748ecb921e643e728685db165|2018-03-14|Benjamin Pritchard|Return display information about converters (and make keys case insensitive)
+cce1cc27f9d6565679519ff33db226ac4ff1ecae|2018-03-09|Benjamin Pritchard|Change get_basis_set to use 'display' names. Change get_metadata also to return that
+2307ec1ce06e464c7efebfd9db86dd43514f8273|2018-03-08|Benjamin Pritchard|Curate 6-311G* and 6-311G**
+d1e5c5798f139fd6786cce35c32b8718c5cef57d|2018-03-08|Benjamin Pritchard|Better error messages from get_basis_Set
+29cf8b3b36a91137a27d2bea65909af1a65114f1|2018-03-08|Benjamin Pritchard|Fix contraction strings with generally-contracted shells
+b9f08c329f3a1e35f112fa52fe2232edb9bfeed9|2018-03-08|Benjamin Pritchard|Rename SVPP to SVP-P [is actually SVP(P)]
+6a035204b91c1ebfc453824ea0f2b8848fc6457b|2018-03-08|Benjamin Pritchard|Fix errors in curate comparison functions
+0d7960474eada5edf21bb1643302688beb9861db|2018-03-08|Benjamin Pritchard|Remove fix script
+6193974f9321908e128f7464fb9d875e61b8d17b|2018-03-07|Benjamin Pritchard|Fix bad mistake in pople notes
+e04c412d83af2df3690c4889f46fcf0886aedb8b|2018-03-07|Benjamin Pritchard|Curate alhrichs and fix some file names in the raw dir
+ca51aadbb6f0747380664ff2fbc82de3e092ec03|2018-03-07|Benjamin Pritchard|prevent duplicate references
+dfd277f4a9037656d71cfe4ac66cec4ec4e3cfa9|2018-03-07|Benjamin Pritchard|Sort data into a more meaningful directory structure
+3a1217d491c1f3c9a942497790dc4ff7368d8053|2018-03-07|Benjamin Pritchard|Change some handling of names/notes
+9a95f92c3e9a6f1046b5bf73b2a899a178a7c94f|2018-03-06|Benjamin Pritchard|Add remaining pople diffuse basis sets. Fix some issues with K,Ca in pople
+0984b41897dc1cadcfb48ecfd639674a074648ae|2018-03-06|Benjamin Pritchard|Modify converters slightly to match old BSE output
+85aa60a0f5262a773bcb4a499b6556308a62994a|2018-03-06|Benjamin Pritchard|Some changes to match old BSE and add G-31++G**
+8eef470a645e0adce5996b1e226dfb45cd9bd896|2018-03-06|Benjamin Pritchard|Add missing reference to some diffuse functions
+b6d539198deaa037ccbaa1443b7549220dd54e96|2018-03-06|Benjamin Pritchard|Add 6-31PG and 6-31PPG
+d4e401c9e58b32e73c2b13c8f345ce0650997efc|2018-03-05|Benjamin Pritchard|Add 6-31G* and 6-31G**
+f5633d5ebfbff80408528a18f2c3e1e76f67b2cf|2018-03-02|Benjamin Pritchard|Update pople notes
+7426604b4c63b4986b0c84caf4487deb8b8fb2e6|2018-03-02|Benjamin Pritchard|add 6-21G
+96d7b9ac5d137ac1cdf8d72e3a2034affa884793|2018-03-01|Benjamin Pritchard|split out more pople stuff and add notes
+199bb80f26e697e905ce4e1118f0973e42a23ac2|2018-03-01|Benjamin Pritchard|little work on 6-31G
+246082e8c7429cc0af23ea3b15ced65b2f80033d|2018-02-28|Benjamin Pritchard|Adds versioning information
+c8c4d3827aa614a5da4295cfefe5e176c923c08f|2018-02-27|Benjamin Pritchard|Work on pople basis sets
+6cb9e56532aa262e592246c1046f7c095d52a34d|2018-02-27|Benjamin Pritchard|Curate STO-6G similar to 3G
+ab908350406da5510d9346b4829c6a423a206cfb|2018-02-27|Benjamin Pritchard|Put STO-3GS on the back burner
+ed9f80f683d6f59a8a1c72d72ee74b74d701eab8|2018-02-27|Benjamin Pritchard|Add pytest cache to gitignore
+bb1c5b19e19bdaf387c1bcc3ac04302fd8ed6940|2018-02-27|Benjamin Pritchard|Curate STO-2G to match STO-3G
+ef0dcf75279a93975a816e534693af1229876d75|2018-02-26|Benjamin Pritchard|Add gordon reference (will be needed for STO-nG for GAMESS)
+cad029531bfea9f70dfd99266c901cf20ca159c9|2018-02-26|Benjamin Pritchard|First pass at STO-3G
+b3df39353d4b32f35daa7829a4d29f0f61f59411|2018-02-26|Benjamin Pritchard|Add notes fields to components
+70082c6920624d821720d04141b5ed85f4d7c894|2018-02-26|Benjamin Pritchard|Add 4-31G
+3163cda1a47f3b24d44aa5701aba81a18f1b077f|2018-02-25|Benjamin Pritchard|Add unicode support to basis set converters
+6ea1dda294546361acef21224bc9bdff986d6762|2018-02-22|Benjamin Pritchard|Convert references to UTF8 and add proper handling
+8e7640b2d3e3d7f54bc73b2b5518d952239d191c|2018-02-22|Benjamin Pritchard|Revert "Fix some non-ascii characters in references"
+98173ad54748683388f55f4cda1b7ed361b76a43|2018-02-22|Benjamin Pritchard|Add CRENBL
+df1f3019b62de128b8a8d2a0481928eee1e1e31a|2018-02-20|Benjamin Pritchard|Fix D vs E for scientific notation
+40f6c5e7e048c01638683502ee81eef82f6e6762|2018-02-20|Benjamin Pritchard|Add basic DEF2 basis sets
+728668db0b48ca0cb1b5b6e89248083d47813f23|2018-02-20|Benjamin Pritchard|Proper handling of some key filtering in get_metadta
+3839083f57ab360d114b358aadc113d4b574fd10|2018-02-20|Benjamin Pritchard|Fix some non-ascii characters in references
+12bc28dacec66cbb0af5b11df81180f2fdc3591e|2018-02-20|Benjamin Pritchard|Add 'raw' data pool for basis sets
+a4c5223acfd715f2675bf9665185ec4ba37a3ff1|2018-02-20|Benjamin Pritchard|Add some pople, dunning, and (DTQ)ZP basis sets
+d6b6a97fe48a45c3f815b98cdfff9217987fff15|2018-02-16|Benjamin Pritchard|Update setup.py
+01779c211bf3fee871dfaf081296be08dda17b25|2018-02-15|Benjamin Pritchard|Fix indices in test_api
+9f7d58054a82eb9ab33162948ad5751ed50b5071|2018-02-15|Benjamin Pritchard|Fix readme. Element 6 is carbon, not oxygen...
+ce2d8acc839576aeb444ed2eaa7c933320692e2d|2018-02-08|Benjamin Pritchard|Remove awkward string concatenation
+c60b1751cce16212ce16e5c1204bd179717a92f5|2018-02-14|Benjamin Pritchard|Update badges after repo move
+80f2bf67967be1e55d7eac08e01fa01b1857b429|2018-02-07|Benjamin Pritchard|Fix LANL2DZ ref and add handling for incollection references
+6aa4b50e2c914c63e48c67ddbfc297c8da052671|2018-02-07|Benjamin Pritchard|Update readme
+ff81598fcbc6ad0516dd166cf6c4a71225489499|2018-02-07|Benjamin Pritchard|Testing of reference conversion
+b343e9a676634004cc33fc1468bc7f8534b0c391|2018-02-07|Benjamin Pritchard|Add names for 'new' elements
+9f5903337db46725eb74038abcf39750f816bac4|2018-02-07|Benjamin Pritchard|Add LANL2DZ basis (useful for testing ECP)
+ef0b7df7e5d4c713cccf64f5896dad1caff2224b|2018-02-07|Benjamin Pritchard|Use option for normalizing symbols/names in a few places
+268177bd07ab6cef403da5b96ca39c71a202329f|2018-02-07|Benjamin Pritchard|Test element string compaction
+ff4be5606b763832b43771345a119b5602304eaf|2018-02-07|Benjamin Pritchard|Add schema for references and fix regex in others
+64178d024c04446024817992b32db89a04543967|2018-02-07|Benjamin Pritchard|More documentation and cleanup via yapf
+9cd37c8fbea6a7465e25d4b0f041f39cf64067cf|2018-02-06|Benjamin Pritchard|Remove numpy info dump from travis
+d57ff982672885d155334c76ffd07b7b37911296|2018-02-06|Benjamin Pritchard|some documentation and cleanup
+269ba03b8653b16002456d08e5916c55b158d7ae|2018-02-06|Benjamin Pritchard|Clean up some issues with get_metadata and re-add converter tests
+d0fc1667214173e103ee42e92f1f8c93e87a3ac5|2018-02-06|Benjamin Pritchard|Remove numpy dependency
+fe916b19f90a5e378ec6e5013c2fa51d7c23512b|2018-01-18|Benjamin Pritchard|Skip testing of REFERENCES.json for now
+cc697aa9246bba0df14c66f32f7577a6b97b9f54|2018-01-12|Benjamin Pritchard|Initial work on getting references
+33f02ebf4548304ff36f72c84a0d5f3acaa0ce4b|2018-01-12|Benjamin Pritchard|Add references file
+978be58f11b785d37bd8262cf083f1a0675b5165|2018-01-12|Benjamin Pritchard|Replace preliminary basis set data
+0f7858e8184a5c7bf3a9d37d47b50f3409a064b3|2018-01-12|Benjamin Pritchard|Move references for components
+db44979406eea05ace0a6c89e31c7d4a6fc59db3|2017-12-16|Benjamin Pritchard|Some cleanup and more curate functions
+00edf8c986daec7abbbb0bafcf98e8b9068cd6ac|2017-12-14|Benjamin Pritchard|Don't import curate module by default
+f4a93ba6c4477be501b88fe814536595db23e6e7|2017-12-14|Benjamin Pritchard|writing of references file
+80b769fd8edcbe3aac5cc59d74f7aad1a8910600|2017-12-14|Benjamin Pritchard|Bit of cleanup in curate
+0e5bab7668ad3609ab235b8f83caccf7c1a21573|2017-12-14|Benjamin Pritchard|Initial commit of some curation tools
+e1109e11632c4ef3180a41d80f560a5aa23033c7|2017-12-14|Benjamin Pritchard|Add swp to gitignore
+70143a64d703baf64ae91553bd336985e4edf771|2017-12-14|Benjamin Pritchard|Make names in io consistent
+d2311e2b89255641f1a5f5500d1c6e97003a6ea6|2017-12-13|Benjamin Pritchard|Change ECP RExponents to integers
+3fce8a0ae4dc3aabcd04d072c5ed5d1dc071245e|2017-12-12|Benjamin Pritchard|Update schema and tests
+ce569e70a8d3c2d5839b69bd910900c0d858e5c8|2017-12-12|Benjamin Pritchard|Add/replace test basis sets
+568f9d34291e9ff7c71787101fa1160053f1304f|2017-12-12|Benjamin Pritchard|Reorganize io/api/compose a little. Full filenames referred to in json
+4ee43a40c5ad18796ba78815918a641387513630|2017-12-11|Benjamin Pritchard|Add jsonschema to deps
+3aa5470017e094eef85ac8f7a80666a290be9f80|2017-12-11|Benjamin Pritchard|Crude testing of validity of files
+1810eb9706e0da0cfffa62b450729f3490c7949b|2017-12-11|Benjamin Pritchard|Initial attempt at a schema
+ff18125fc11b47a8c36c5e92164698cdbc3336b7|2017-12-11|Benjamin Pritchard|Rename format -> fmt
+99ecddd9574fdafa04f33f21440b7dba92725c8d|2017-12-11|Benjamin Pritchard|Small fixes for warnings
+a3ee07eb30cc555d9cbe75aca0a33177d06a55da|2017-12-11|Benjamin Pritchard|Move element data into the python file
+2106c929abf6a59aefef0ba6b9e8f8b2b4b8bd05|2017-12-11|Benjamin Pritchard|Add test of element lookup and AM conversion
+94c1dfeb1930a66a9f8604f885f6447e5f5ddddc|2017-12-11|Benjamin Pritchard|Add element comment lines to nwchem
+d917544604a65dbdfa60247ce70117d7ba43a3cb|2017-12-11|Benjamin Pritchard|Add tests and api for formats
+d4bd6578d9030abd877ef838aecd03b727a1229a|2017-12-11|Benjamin Pritchard|Add NWChem converter
+8fc5b431f73863b876b9a9009fa7856b4c255d54|2017-12-10|Benjamin Pritchard|Remove old g94 to json converter
+aaaf57d041b93cadbb9b68011f52ba3dfec2284e|2017-12-10|Benjamin Pritchard|Add more API tests
+31701c9704584a735df37807c9f763bc6e387ee6|2017-12-10|Benjamin Pritchard|Force coefficients to 1.0 for uncontract_segmented
+0d496f57f120a657748febbbbb769f670fcd3ec4|2017-12-08|Benjamin Pritchard|Bit of cleanup and fixing of manipulation code
+d24c5d762bcb05e5bea3c075430853383b0c771b|2017-12-08|Benjamin Pritchard|Add more uncontraction options
+9f079711213df16c3e541efd32c940c1832a3397|2017-12-08|Benjamin Pritchard|Initial stab at G94 output converter (+test)
+f60fe11653d71f278aa04e71a522a89fc86c284a|2017-12-08|Benjamin Pritchard|Switch which name is used as a metadata key
+127187bf2750f7e6eb21bc048f1047aa1a773192|2017-12-07|Benjamin Pritchard|ECP and magic numbers
+a815ddd89ff58a94f7818fb992289afe58ce8f04|2017-12-07|Benjamin Pritchard|Sorting of ECP fields
+1566910fe1cd8f4589abbe9cddba72d6f858737c|2017-12-06|Benjamin Pritchard|Add old element names to lookup
+c25f30c3d591dea4ca06718595c53b7efe313f25|2017-12-06|Daniel Smith|CI: Travis and cov README badges
+9f5b3eb0e0214abbece3ebd913f8468502d83e55|2017-12-06|Daniel Smith|Shuts up codecov (round 2)
+fd3b29fca3df5679a4b2292282023e80f7915174|2017-12-06|Daniel Smith|Fixes pytest coverage
+87f08cbd08ae36ab6eb73aa4fd6eb2a23ef1cfc9|2017-12-06|Daniel Smith|STY: YAFP'd BSE
+4daf4fa1f3ca10cbfbb697e63a53358110567e87|2017-12-06|Daniel Smith|Quick tests
+f487043f2bd7f1076d5a0e0d15ea5706f0a79700|2017-12-06|Daniel Smith|Cleans up relative imports
+faf2ffdebbe63c6f4b62f6b3cbb96c696fba08be|2017-12-06|Daniel Smith|Shuts up codecov
+e063e599e9c19aa4c929cc7b35494dce46f619f9|2017-12-06|Daniel Smith|Adds a travis yaml
+94ffa87f4e6126839b44bf5bbf5bbed50e385443|2017-12-06|Daniel Smith|Adds a YAPF file
+57a3b71607cafe2574694238492c39ec64a56609|2017-12-06|Daniel Smith|First pass at a setup.py
+4caa646bf43bc0dec7892393bf964286fa372ef6|2017-12-06|Daniel Smith|Moves README/ISSUES
+00f8e293f02ca67003294d785a08e47b7a7cd996|2017-12-06|Benjamin Pritchard|Some small renaming
+d5492e66af76b49b7aac99378c37b2ea6c4ed3db|2017-12-05|Benjamin Pritchard|Add get_metadata and remove problematic basis set examples
+e797ba6255476e5c1e158f3ba31be7e3f82f98e2|2017-12-05|Benjamin Pritchard|Add some more data
+aa0c69399582e1607453ac885f173036d4c7b277|2017-12-05|Benjamin Pritchard|Fix duplicates
+1f7b1737c3ae2ae57c49f014ddc211f0108fdc8a|2017-12-05|Benjamin Pritchard|Work on file IO/basis set composition
+274df3237776795ef86f4a159c467ab431c76033|2017-12-05|Benjamin Pritchard|Some cleanup of directory structure
+e42ae521980a21d2eed86e15370852216e3c17a8|2017-12-04|Benjamin Pritchard|Add sort field for elementEntry
+33dd31a5981e576b644d661b40907bbbe087b729|2017-12-04|Benjamin Pritchard|Remove xml converter stuff and reorganize
+35ca3d011f3df054b0eaf767ba57eb175be5d4b6|2017-12-04|Benjamin Pritchard|Update gitignore with github's default
+af9134afb4791e80a205fd04fbd2ce10cef66b0a|2017-12-04|Benjamin Pritchard|Add start of compare script
+2f446f745afea1c5defb747067762c5ceeb07281|2017-12-02|Benjamin Pritchard|Remove dead code
+ef914b078a9c55e5c847b0792b343d3be020ab69|2017-12-02|Benjamin Pritchard|Documentation and cleanup
+309a94396ff59b10e6d27130f63a3a5250a4dc88|2017-12-02|Benjamin Pritchard|Add example files
+33d6f6c4a189d7ec1010b6bacd93925f056591c1|2017-12-02|Benjamin Pritchard|Able to create agg json for non-composed basis
+6fe1f92d4494c9a7209b65be400bac67eeb299fd|2017-12-02|Benjamin Pritchard|Sort dictionary on output to file
+eed2e546be8e799f09fae847764ce055fa3b6e10|2017-11-29|Benjamin Pritchard|ISSUES
+b3eba39214286bf39eb6c00c7cde7095bc3a930d|2017-11-29|Benjamin Pritchard|Some rudimentary parsing of BSE XML
+8bf7e01fb3ad86e6d09cea3c3a04f0a57521fa66|2017-11-03|Benjamin Pritchard|Add readme
+112e8e186a1decf003347973cca905e02691daff|2017-11-03|Benjamin Pritchard|initial commit

@@ -1,0 +1,835 @@
+cdcc7ad1a5a6ef55679674e9a43612658717e3ab|2020-10-07|Piotr Migdał|Merge pull request #240 from Quantum-Game/mobile-layout
+b2dd26a60d620be4eaccc8074047d45449ce0405|2020-10-07|Frizi|wrap home page buttons on mobile view
+8722abfa357d204991a442d6dd576da86e7ac43f|2020-10-07|Frizi|support continuous frame picking with touch device
+5754b7f63524422d8da094efa0bbd1083e2866a1|2020-10-07|Frizi|encyclopedia layout rework for mobile compatibility
+710040b3f72f93d20685e2daf17893484c5fd1b6|2020-10-06|Piotr Migdal|v2.2.14
+d5d94045b5c2e55f1a453ed922c28779fa54dbfe|2020-10-06|Piotr Migdal|docs(README) small adjustments for the new version
+07f5343a655fd66e42a6b9a9659338ab2f5cf4d4|2020-10-06|Piotr Migdal|docs(CHANGELOG) v2.2.14
+6ef57c3dd2a793ddabc5fe768a45069b5ea74580|2020-10-06|Piotr Migdał|Merge pull request #238 from Quantum-Game/homepage-oct
+1ed5fe71db7ecec2fef48918360fb34288fc4c4a|2020-10-06|Piotr Migdal|fix(homepage) amp encoding
+98a553e2116f45ad2235c7f7922e743074a787f1|2020-10-06|Piotr Migdal|feat(homepage) more publications and awards
+76d8a3399b0e6ee0dab9460b2ae33b4182928196|2020-10-06|Piotr Migdal|feat(homepage) faces for testimonials
+1f338741097279db894324f9c3aa7f263652a5fc|2020-10-06|Frizi|remove empty script tags
+72c4dbfa9b37f02009a6a9d8236c93e86bc6a859|2020-10-06|Frizi|responsive testimonials
+07d895172a968bea5a1189d649c9fe3f37b5cd7a|2020-10-06|Frizi|testimonials layout
+7d92cfc9a0a493214b8a588717e4c92bd39f42b3|2020-10-06|Piotr Migdał|Merge pull request #239 from Quantum-Game/anim-compatibility
+7f868cd0964c6c8da42f33c5a1ad696ab5e59896|2020-10-06|Piotr Migdal|fix(homepage) Faraday rotator link
+9fb62c5e5ea2cb1e0484639be2a29b2c2dca7b35|2020-10-06|Piotr Migdal|style(homepage) testimonials columns try
+e7b21a2b2e5d3e9ae5839dabdf322bc15d2a0120|2020-10-05|Piotr Migdal|refactor(homepage) compositional API
+921dc726de8615a9cb14462bfc9c12dfc6002e90|2020-10-05|Frizi|automatically stop after animation completes
+a8a3c5bf2863670682154f98e917b8f6091813b2|2020-10-05|Frizi|fix displaying level hints on board
+e449a0ce0740e64599bc09aa14454311390957b6|2020-10-05|Frizi|make photon masks firefox compatible
+c4df3c1c79e1d89719683f9adf5dde51776864d7|2020-10-04|Piotr Migdal|style(homepage) darker background for readability
+8f438123c9912ff659c6fd73309c4c9784d88554|2020-10-04|Piotr Migdal|feat(homepage) interactive board - mach-zehnder
+6373d9abc0f1d183056377a4329202649aac2f82|2020-10-03|Piotr Migdal|feat(homepage) testimonials, links to interactive, authors
+5a2d1c60bf9e7b1e506abd3866792ca3d332ffc5|2020-10-03|Piotr Migdal|text(homepage) play and lab buttons
+b5a597021889be8857ec6daeea92e247cdab7f15|2020-10-03|Piotr Migdal|refactor(homepage) split into components
+a0d4639a6f4af634d4fbfa64ab9a43f5ea01b139|2020-10-04|Piotr Migdał|Merge pull request #236 from Quantum-Game/photon-animation
+1a73d06c6941251821c2dad6df082ee993a9e9df|2020-10-02|Frizi|do not trim empty frames in encyclopedia board
+3f1464f28785b16710cb1c1f531f4b0dc6a6c93e|2020-10-02|Frizi|fix encyclopedia ket viewer and matrix
+460cf830e7d54565c871d2c2a59a20ea29395d28|2020-10-02|Frizi|remove frameAdvanceTimer
+179364530a95c262e7d0e1056dc4da13bec38326|2020-10-02|Frizi|remove unnecessary double tweening on detection goal
+bda81e6787fc8e4e22e06897b3a55fc6619d1817|2020-10-02|Frizi|fix last frame rewind and win condition logic
+0bbafe6c21160d8ac30d8357b9b298498db57fdd|2020-10-02|Frizi|move interpolation and clip code into separate module
+b68150f8db7273379984a1b2bf68308b70bbf44c|2020-10-02|Frizi|offset interpolated state by half of a frame
+925e756931e599159f5708ba110e54132dd4d6ed|2020-10-02|Frizi|better handling of partial reflection interpolation
+77f4ce938ef7ad5ae9603fd448f24d8a77037efc|2020-10-02|Frizi|smooth photon propagation
+abb67db2f6d568b1e53d0d6f34fe1d1acf8eab67|2020-10-01|Frizi|new photon wave rendering
+6971db8912319e4afefa4e9be1abb980530009b2|2020-10-01|Frizi|display correct particle probability and direction in infobox
+ee5b4ac07888825ee85a87696bf675970fd61df9|2020-10-01|Frizi|fix sandbox level
+0c91287c828ab7385a14c037e2e359b84aadd0dc|2020-09-29|Frizi|rewrite photon component to composition api
+2853289702595d0af04fcf94084423b67c5a66fd|2020-09-29|Frizi|force specific inner svg size for cells (browser compatibility)
+c4c8cc88b649b32dcf86265f1ec8b69d2b3e9028|2020-09-29|Piotr Migdał|Merge pull request #235 from Quantum-Game/board-animations
+6e2d449717179ac0b00f20f41878e87061b6b5c0|2020-09-28|Frizi|fix mouse cooridnates when scrolled
+982444e39f49854d75eb8528a415a7feb7376e72|2020-09-28|Frizi|rock eye movement animation
+3a7398e1b7122b03dac08eec3571bd40b6ec5573|2020-09-28|Frizi|prevent unintentional board animation on level change
+74adaffc31c24ad2589ff01df1b4d33f6e40f0d1|2020-09-28|Frizi|use true board scale for toolbox and dragged item
+7fb3d1fe98ecdbf8e7502a3030d80c3b210da165|2020-09-28|Frizi|ease piece into the grid space on mouse release
+3556be7a14afb997b331b9ce9b1c4d2a8fee26c3|2020-09-28|Frizi|animate detector energized state
+6599c4344fcf64d30c9f70bee8846d8346dbe1c8|2020-09-28|Frizi|tween cell angle on rotation
+3727f31768020a42fcbc6c563fe0c573c6d23641|2020-09-28|Piotr Migdał|Merge pull request #234 from Quantum-Game/qt-update
+2dd88ef31fb3fbd4873cd90b7a49791b53a5dd1f|2020-09-28|Frizi|update(package) quantum-tensors@0.4.11
+3b0d523c3c00e3c176518fbf1ed280890395eb3b|2020-09-28|Piotr Migdał|Merge pull request #233 from Quantum-Game/playhead-rename
+e8593bdcf67e2f38333af1be55fc04cbfc1a2a50|2020-09-25|Frizi|rename incorrectly named controller to Playhead
+b9d4bf5cdf94fffa7c273f0a2f4a29988a49020d|2020-09-25|Piotr Migdał|Merge pull request #232 from Quantum-Game/model-refactor
+4881dd04560b17174fc333a8086b1862ff970f3a|2020-09-24|Frizi|finish level download and upload logic
+7e4c85f1b9b0199573bc2950ad6bc44106f09943|2020-09-24|Frizi|level data model refactor
+784455472ed37b0e11f9c2b2768d24c57bf84461|2020-09-23|Piotr Migdał|Merge pull request #231 from Quantum-Game/cell-manipulation
+7683b535a5da9c9007caf51d78708d2acf240eec|2020-09-17|Frizi|remove element classes and define element data statically
+4a27ab0dc9c650a0d52a267ce8d15715b7dbd34b|2020-09-17|Frizi|fix fate bubble animation
+cafdc84d9947afd87a29d51f1bf6e3fb317e7b8d|2020-09-17|Frizi|update cell components for consistent cell state management
+fbac47389f37fd693c7c0cb4b37e8a92b2f62dbf|2020-09-16|Piotr Migdał|Merge pull request #230 from Quantum-Game/gamepage-refactor
+7575a81872bff2ea8893dc05e762be69aef769e3|2020-09-16|Frizi|fix win condition after manual level change
+101c07308472889471990592fb0bff79e9c405e5|2020-09-15|Frizi|refactor grid cell storage and manipulation
+94034e2acb47c0370223d3d865760bc101a7df05|2020-09-14|Frizi|only run simulation on level grid change
+89e16c59c57b4a1fb7f4e061e62e5f1e22bdb694|2020-09-14|Frizi|fix win condition and prevent double win screen
+1971db15971be01069c5413dd70ab37d889b9671|2020-09-14|Frizi|compute new fate on every play
+9a73e4aa4ebd6b07ba3d69b9978162babdb6bbe4|2020-09-14|Frizi|remove wrapper size assessment from speech bubbles
+774e6b8ebfba7591601ce2a0d84fe3cd51d2c989|2020-09-14|Frizi|refactor app menu
+550165d23b082bc707ae2443162a1be465208246|2020-09-14|Frizi|fix soundtrack volume computation and make it a singleton
+f116c2caa24b1db47fef840bcf0d32954d838244|2020-09-14|Frizi|fix lint issues
+6f40012f16d78a895de6d9fdaf074a56fd65f21f|2020-09-14|Frizi|finish GamePage refactor to defineComponent
+9264b4c80e4e56b671399984f40ac6768f557164|2020-09-14|Frizi|add ResizeObserved based size change detection
+127db9c2044a63b8bee3807a72a2c02c5c1d5a1e|2020-09-14|Frizi|refactor GameLayout and use named media queries for "<large" case
+c28b4eecacf57e4a7105b2dba5d6ae5098e4850b|2020-09-14|Frizi|add responsive layout attributes
+39b659d5dbe5caed9f17503e85e31dec3b2e15cb|2020-09-14|Frizi|start refacoring game page
+ff0193781b99db0baab6da276ad78c6888f7845a|2020-09-14|Paweł Grabarz|Merge pull request #228 from Quantum-Game/dependabot/npm_and_yarn/http-proxy-1.18.1
+456eaf5d059b67dd49b32477edfc1e65a8e199e7|2020-09-11|Philippe Cochin|Laser migration (#229)
+bfb58d1e24d1e13c2907d855c63a46f72f87e713|2020-09-10|dependabot[bot]|chore(deps): bump http-proxy from 1.18.0 to 1.18.1
+ebd3493c8891de8758d316fb3d456e3695dff291|2020-09-10|Piotr Migdał|Merge pull request #227 from Quantum-Game/vue3-migration
+2bc86898c4eeddb3e8f3d1382db3595272325764|2020-09-10|Frizi|make component-store interface type safe
+e42dd3a96c4a3cc0b535688014f8d9ae35da2486|2020-09-09|Frizi|upgrade typescript to make the build pass
+992ddd0f1b70c1cde0f11438d1f5e68b9c11fb94|2020-09-09|Frizi|fix lint errors
+bd1e8f77dddafea478697ca9f3927fe40ac18868|2020-09-09|Frizi|remove unused ComponentCustomProperties
+6775138e51edaf85f0880569a5534a5f684745e0|2020-09-09|Frizi|move useStore into setup function
+7b67aa3a2c3d77370f5753a093cfe9523de3de7c|2020-09-09|Frizi|readd confetti on the win screen
+3f7e42d67dec34b1037a4a150008067dc73c8526|2020-09-09|Frizi|migrate refs and emits
+f0e88ddb0fb16e6b777f2b7998c20526591e2874|2020-09-09|Frizi|use class-component's setup for router access
+f5abe538e704d994144effab7246231e2d30edcc|2020-09-08|Frizi|all components migrated to vue 3
+87589b6d7dfaec7e19e15b02c25ef95a02f0454b|2020-09-07|Frizi|migration to vue 3
+6c244f6ed0c05ec0ddd35b89ca88b51ef0606760|2020-09-07|Philippe Cochin|Cleaning quantum-tensor connection code (#226)
+6126d7d7ea57f0fe4c4ae59c77460a5cde8cb5ec|2020-09-07|Piotr Migdal|v2.2.13
+cd462c8c19e9339f3aa452b9bc5f3436411c3648|2020-09-07|Piotr Migdal|docs(CHANGELOG) v2.2.13
+10071e0cbcbc50e4557218c41c8dc1220c9e8d5c|2020-09-07|Piotr Migdał|Merge pull request #221 from Quantum-Game/board-perf
+d91abd1a3269ca236652892a04d2cd6a675bcb4b|2020-09-07|Piotr Migdal|fix(Simulation) qt 0.4.10 fixes exploding amps
+93234e52b3384059475114e01f744f62eee8d4c5|2020-08-25|Piotr Migdal|perf(Simulation) qt 0.4.9 for speed update
+7ef6a8f6ed156c30db124a07721a481861f79c6d|2020-09-07|Piotr Migdał|Merge pull request #225 from Quantum-Game/translations
+45e37653c9178533d32c9eee6949767de083b5e3|2020-09-07|Frizi|more robust language selection and pluralization
+69b5aba59ddd88a1b67626f9212e35c61b12fa84|2020-09-04|Frizi|save locale in localstorage
+c7e3c0546e846291b242217776282bac40d2a3c6|2020-09-07|Frizi|implement translations and use it on options page
+ce3409bd140075c8856361e58f82a1932d3a097f|2020-09-07|Frizi|fix(gitignore) do not track package-lock.json
+c3c58cacddcc5fc8f43eb2d2831a77346920f926|2020-09-03|Piotr Migdał|Merge pull request #224 from Quantum-Game/volume-control
+8843104972b3ade72cd44af955cf450d5775dcee|2020-09-02|Frizi|Persist options in localStorage
+fdd25b8f105b0027f9176068f04b50ccdc72a551|2020-09-02|Frizi|Introduce top-level sound controller and add volume control to game options
+22d4322881fb92147ccca8e030f1567b880cf601|2020-09-02|Piotr Migdał|Merge pull request #223 from Quantum-Game/eslint-update
+1539ff6d76e9cf3cf0ffd0e9189fc64be880dbce|2020-09-02|Frizi|Update typescript eslint and fix all resulting errors
+eb83074d0499a4a084dd0b1cf280d18d0b51bd1a|2020-08-24|Piotr Migdał|Merge pull request #219 from prvdph/bugfix/209-confetti-does-not-stop
+31c10fa785ab2d2f37ea72645aad0e311a33ef59|2020-07-31|dependabot[bot]|chore(deps): bump elliptic from 6.5.2 to 6.5.3
+8adc1c1a3685ab52afb96a9e0cbc49bee44a5984|2020-07-18|dependabot[bot]|chore(deps): bump lodash from 4.17.15 to 4.17.19
+10966befb22c59ee58b1e21c8dcc04828ddf751c|2020-06-07|dependabot[bot]|chore(deps): bump websocket-extensions from 0.1.3 to 0.1.4
+5df49188affac095a3e3a2afd7e83611115e6744|2020-07-31|pejotr|fix: stop confetti when overlay is destroyed
+4e2f60b8e0c77a5868ca65503541e709c63d595e|2020-05-19|Piotr Migdal|v2.2.12
+3d0b7e2c92cec4471b464b947981909a9ee9718a|2020-05-19|Piotr Migdal|docs(changelog) update for 2.2.12
+fd7645340c72f1b5b337727006bfdf6a8987731d|2020-05-19|Piotr Migdal|feat(encyclopedia) added HWP to the default screen
+577eab659b9885bf6b465f218485d907f40eaa4e|2020-05-19|Piotr Migdal|fix(encyclopedia) made elements fully visible
+9b11dc8f8053144a5e7bfc3964aed34b7f59feb0|2020-05-19|Piotr Migdal|feat(encycopedia) Faraday rotator olive oil
+c5f29f9ca3e81a21a4db72223303ee2bfabc3354|2020-05-18|Klem|typo
+64644a7aa63d1c0efc2d98abd78b0e78f82b00c0|2020-05-18|Klem|Change log update
+3e90f09e928e4db814be13eb264c444cfde2d01c|2020-05-16|Klem|ket-viewer width in encyclopedie
+b9c5395e970f4bc6343463518817bc6d5361294e|2020-05-16|Klem|fixed encyclopedia link icons
+cb0bf2489ce9b3714eb5eaf76c1a1de7a5dc2a9b|2020-05-16|Klem|added levels with polarizers
+cb3830bb15187496ad6fa63371d9e78d72f50340|2020-05-15|Klem Jankiewicz|Polarizing elements graphic (#213)
+187bdd89f5a780e86521f3b0bed4fea2d4ad3354|2020-05-08|Piotr Migdal|v2.2.11
+5dfcf20b24a84ad3d93f24b59f3c35851130aca4|2020-05-08|Piotr Migdal|doc(changelog) added changelog for 2.2.11
+f9a3f735f8c1747ccc31f1ff917f39d9c3001584|2020-05-08|Piotr Migdał|Merge pull request #212 from Quantum-Game/ui_changes
+57e3b97583ea86404c9e07c1cbc403b49b8836e5|2020-05-08|Klem|goal % bar
+1687e31e356f704f2698cb133c1aedfd57708977|2020-05-06|Klem|my account small ui changes
+d214ee20e970458f0cb5825ba700ab3945f1c5b2|2020-05-06|Klem|homepage ui minor changes
+f5f64ff303eedc6921b411969915f020b4b6d0e1|2020-05-06|Klem|encyclopedia small ui changes
+30a7373e3af35eed06f34bbbb28b54f2fba1ff21|2020-05-06|Klem|ket-vierwer background
+7fe0516c4fa661710ee57b2337388ba84214f9b1|2020-05-06|Klem|lint /cleanup
+0feffbd12542fd6fa8066822632a044fb3ceeb3a|2020-05-06|Klem|control buttons minor changes
+80070ee63bf6ba42b099fd51581b6635ab581cd3|2020-05-05|Klem|Toolbox&Infobox look update
+28753bf9bccfb653aa2593d0dba66a1a5c002a69|2020-05-05|Klem|levels icons
+0ce53f99b157e4367a37b4c9436e674644e58fac|2020-05-05|Klem|Goals new look
+2382d1d25dc5e780f92a451af8b1811aae3b122d|2020-05-04|Klem|rock-overlay line changed
+2a4f62463f2457c914c7a61bef993c02f42c657e|2020-05-04|Klem|button hover color adjusted
+957d8e423cb60f187817f6eb381738972f96e3f6|2020-05-04|Klem|speech bubble - added "x" for closing
+61ef5d0cb7712795f768f08fc5fc513cfa2a41ad|2020-05-04|Piotr Migdał|Merge pull request #211 from Quantum-Game/polarizer-2
+def14d90b895984bd8e1433bf823931e5d273d9d|2020-05-04|Piotr Migdal|feat(elements) added half-wave-plate
+2c67c5c1a6db162b4a8ad2aed17b55bb2ce190c7|2020-05-04|Piotr Migdal|fix(board) .native is valid on components, not g
+f9de46a4d1d526279be0ddaa4898f21b2d23eb45|2020-05-04|Piotr Migdal|fix(toolbox) viewBox cannot be empty string
+60963eadfdd9e0cacbcb831f53821ad71c4f8996|2020-05-04|Piotr Migdal|chore(package) yarn upgrade-interactive, all
+ea9eedb4ecc936cb23fad0c9531ec8b33a184a13|2020-05-04|Piotr Migdal|feat(qwp) added a all-dir quarter-wave plate
+92c0d913ef96a6ba4bb5f28b11f2cdfc34dae198|2020-05-03|Klem Jankiewicz|Photon style polish (#210)
+46dc0a589b2c5119cbce47c02aa2ac23af5b4e16|2020-05-03|Piotr Migdal|fix(package) eslint-plugin-vue-scoped-css upgrade to work with node 14
+05d52c8ca44cafd67c66221d4bb69d99df5d6472|2020-05-03|Piotr Migdal|style(polarizer) angle graphics convention and style
+dd87279b475d4679bedcd0a39cf7ec0e705aa312|2020-05-03|Piotr Migdal|feat(polarizer) working in all directions
+10d19781f1c482fced5c833ecac5431086172380|2020-05-03|Piotr Migdal|fix(game) only game levels are winnable
+fe760c143078930e7bc2c4c36c833b97bf059d26|2020-04-28|Piotr Migdal|v2.2.10
+4faa4d916a5d262172eb22940973284cf7141756|2020-04-25|Piotr Migdał|Merge pull request #208 from Quantum-Game/more-rock-talk
+dfb923a5cfd23d414230097ac39ebd09b3e834e5|2020-04-25|Klem|rock_talk in the game update
+07bd6a8d9578f1fd4472bf9a7e6ddf54bf931737|2020-04-25|Klem|rock with drinking problem
+ffe57e676229adb2033e2673a4a8774ed75a0e75|2020-04-25|Klem|More rock emotions
+a080104c2ba7ee716b7647ccfcd62f7c5fcf94c7|2020-04-25|Klem|graphic changes to exisiting overlays
+7fa4538c7adaa4bd1bdb9b99b46d9ed976470dce|2020-04-19|Piotr Migdal|v2.2.9
+ff0057a876a074a64831869f68a4ebb7aef0bddd|2020-04-19|Piotr Migdał|Merge pull request #207 from Quantum-Game/public-levels
+59fe9c0df5f540be995a9a0da794eb82e5b59649|2020-04-13|Piotr Migdal|feat(save) types for firebase store
+5f5907bda4cc92cfa68ef5072dcade9ab7d8f050|2020-04-12|Piotr Migdal|feat/fix(save) consistent listing, dates
+2b6acad07e6226453ae33337446ab91047789215|2020-04-12|Piotr Migdal|feat(save) single database for priv and public
+786b54979d1611f213852b456e9bf37f144d8107|2020-04-12|Piotr Migdal|v2.2.8
+cf1667ad53c746abc8b8781692d77a1eb1eb8ade|2020-04-12|Piotr Migdal|fix(rock) next level link add not append
+14e3c38bc1c0dc808704c007c7b2fc64392fd990|2020-04-11|Piotr Migdal|v2.2.7
+1cf1bfc6d1cc558092b66111c986eb685128467b|2020-04-11|Piotr Migdal|fix(ts/lint) after-merge fixes
+7e2f183c90aa8985a13d310a2c3f73fb4b5a85c8|2020-04-11|Jakub Jan Strebeyko|Level loading (#194)
+c29f504f71e09e2d7e50b2f749e5fb4be13b796a|2020-04-11|Piotr Migdał|Merge pull request #202 from Quantum-Game/rock-talk-2
+59188a1ddde116fc669235733e3275de647fc1f1|2020-04-11|Piotr Migdal|feat(rock/encyclopedia) Mach-Zehnder interferometer
+63ebed6ed9316f92f9baad0f56ce0f1306330a17|2020-04-11|Piotr Migdal|feat(rock) two new entries
+0699717e2f9db16cdee807258fbac9be665adbc4|2020-04-11|Piotr Migdal|feat/refactor(rock) now data is loaded from JSON file
+77b2a09713244e5813209b9271b8e9a7fedf6afc|2020-04-11|Piotr Migdal|fix(rock) data semantic, not raw HTML
+921a0d729c5e1d03e0754bb25ba0bc043554f68a|2020-04-06|Piotr Migdal|refactor(rocks) greatly simplified interlevel dialogs
+09e03db29a2349c42c5118d643ccce8f534e826d|2020-04-07|Klem|text style (game page) - minor
+2011fa344d942f9ff8ae062439cd937e6de3e0f2|2020-04-07|Klem|fixed (level 15) - trivial solution
+480752d323971a1f5924a3dc28492121ef8c8468|2020-04-07|Klem Jankiewicz|fix(homepage) fixed typo (#204)
+a9c630065b375bdeb7b41ad66010c2751cdcd7d8|2020-04-05|Piotr Migdal|doc(homepage) notes on mobile and CQT release
+a30f25f1f42996844f376e4526be8b1cc04de173|2020-04-05|Piotr Migdal|v2.2.6
+3cd3238c078d1e393aa8af32e916b3f940abc9e7|2020-04-05|Piotr Migdal|doc(homepage) mobile not yet, CQT post
+faa23bc9b168f89c0a7808d6dcfaae91d9fd857c|2020-04-05|Piotr Migdał|fix(lint) prettier trailing comma style (#200)
+12f9f7e1249d3407c83128f8b8269dfdbb2ec72a|2020-04-05|Piotr Migdal|style(home) more compact homepage
+93a5bb3098edeccca01d43d108695be663713c6a|2020-04-04|Piotr Migdal|feat(index) google analytics
+d32dcd8ce9660fcc613d592668cc62ae537acbb7|2020-04-05|Piotr Migdał|fix(README) img paths
+d7bf855ea4b34eb9ca1d3e53dd5f44efc8704b6c|2020-04-04|Piotr Migdal|v2.2.5
+d8976aa3553df0776dd6f670c9629e159ba332ac|2020-04-04|Piotr Migdal|v2.2.4
+02fe7cbdcf8dec04f3025978cf317047d711d750|2020-04-04|Piotr Migdal|fix(index) img url path
+4a569d03611dc233d65e35670bf8cb9e5511c168|2020-04-04|Piotr Migdal|fix/doc(logo) logo in png, also in readme
+98810332559b651ac2b2eed96a512d53cde9437d|2020-04-04|Piotr Migdal|fix(index) fb path fix, twitter summary type
+e322ec25bbf3d99b318a7712e83484e17d14ef72|2020-04-04|Piotr Migdal|v2.2.3
+7eb957b26f26df3b83c5f7b7f18ad58aff6041ac|2020-04-04|Piotr Migdał|Merge pull request #198 from Quantum-Game/open-graph
+b5a8bff36b0ae71b69c84bd7d6f6bb4240333811|2020-04-04|Piotr Migdal|doc(readme) misc gram
+c89170a577ac47f9df4290fcee531c58eee2fcf8|2020-04-04|Piotr Migdal|feat(index) screenshot for social media and readme
+152fc9ebd4b4da64d0228e2d691e97612148639b|2020-04-04|Piotr Migdal|feat(index) twitter and fb social metadata
+730e31b38caf2d661338276e22d5d2fe8b0021b0|2020-04-04|Piotr Migdal|style(index) prettier
+3a2e56cf340b7a9c698105fa0b8afe66afaf88e6|2020-04-03|Piotr Migdal|v2.2.2
+328cdbf1614daa586ec82691e33602549a7fbb72|2020-04-03|Piotr Migdal|Merge branch 'master' of github.com:Quantum-Game/quantum-game-2
+55ee0dba4da3ddabd2589629dc2ec710a3e52f50|2020-04-03|Klem|fixed goal in level 2
+d1c9509d4c4e697dcacf09f736595bf0da4f2117|2020-04-03|Piotr Migdal|v2.2.1
+007336b5c0ed95aa7c832654289459cd69298deb|2020-04-03|Piotr Migdal|fix(board) cell tool false for enyclopedia
+a7ac86d5d4a9e13cf5a1afa24f55ccc5e4540786|2020-04-03|Piotr Migdal|v2.2.0
+6192122ca8cdbe769d7f5cdfe0034ddbb564d037|2020-04-03|Piotr Migdal|doc(homepage) beta and how to contact
+d0fee07d29f9e7d2d46bb5ece43d3092f9534e44|2020-04-03|Piotr Migdal|feat(level) two rocks for level two
+6eb72bad62bf65b30e75b0977670c9183d96a76b|2020-04-03|Piotr Migdal|fix(board) non-frozen cells can be on board
+b202bf519b785f7758426bcd9e70b8f191ba1715|2020-04-03|Piotr Migdal|v2.1.32
+f6471fd5ddb78d4440fc91a6c038aad9201030ae|2020-04-03|Piotr Migdal|fix(level) lint + rock-talk this
+b5c1a8b2b6257e658171546df16b2741527e4988|2020-04-03|Piotr Migdal|feat(encyclopedia) lfs imgs
+36bc8e445ff0b41230df9a91d9b8787d5e4ad0ce|2020-04-03|Piotr Migdal|fix/feat(goal) safetyThreshold for mines
+08b4098eb6dd988445c9c0e1900fd4b01297b24c|2020-04-03|Piotr Migdal|fix(game) play by clicking on laser - resets energized correctly
+34605cb0e1972de114c33171d7aa16c7df1d25af|2020-04-03|Piotr Migdal|misc(levels) typo
+c7036db59062332657ee0dd5626f50e1991f1742|2020-04-03|Klem|deleted the 'next level' button
+c0017df5f3d874b058b1c773186f0dd1a19b05ca|2020-04-03|Klem|rock-end
+aab7d2c08028879829aa49770832325a3f6cfa06|2020-04-03|Klem|Rock-end
+828202dc01fc3b1ffe65631309e55585b787a50b|2020-04-03|Klem|Level 13 - added Mine
+e854a8477dd24998dcfc08b995223fd44521246d|2020-04-02|Piotr Migdal|feat(game) game status displayed
+b2ff0bb55835eb0e32e11859ae5d5a766cac3f57|2020-04-02|Piotr Migdal|fix(victory) showing once, partial fix
+516df02891d6832affe4aa97a5d7d2e948c36c67|2020-04-02|Piotr Migdal|fix(grid) setEnergized for non -1-1
+1c2b1dac5e98b1f50eb2f00cdbb93570c7b16b9b|2020-04-02|Piotr Migdal|Merge branch 'master' of github.com:Quantum-Game/quantum-game-2
+526a168b52b592d86de0e868ec13431abc7f13cd|2020-04-02|Piotr Migdal|chore(encyclopedia) update
+4f5f452702c0d3cf10d225463750300a8f793354|2020-04-02|Klem|moved Polarozer Levels - not visible in the game
+abe6e0f6c3d8fcf0d93fd611d23ae39f240985e1|2020-04-02|Klem|loginStatus - temporarly not visible on mobile
+5fc8c2bc224bb3f3c77241ca9dfd42d2d54d7775|2020-04-02|Klem|typo (RockTalk Interference)
+a232f4fbc0013a8ab68467bb80bf06d0c0c0d12c|2020-04-02|Klem|lint fix
+5d47b5820458c4aae30d6f3cf6560410ce8330d1|2020-04-02|Klem|login style
+9c5dcc1a0fbc7cca09b471e70129682227cb3d39|2020-04-02|Klem|rock interference
+c8bba7f28bc991e7dbe8de93b7de78fb7c86b989|2020-04-02|Piotr Migdal|fix(game) pause button works
+06ec7203276bfea3e90ac5e6bdee8c5257718443|2020-04-02|Piotr Migdal|fix(fate) fate cell met its fate
+f07d2b174af0c5935a7de21ea732e1bc01b005f7|2020-04-02|Piotr Migdal|fix(fate) classic/quantum sort-of-works again
+7f4800ae1b9491b44cc1a198fb79750b2840640a|2020-04-02|Piotr Migdal|fix(board) no laser when simulation
+747b463aec93c7ee862410ea263c0c514c72095f|2020-04-02|Piotr Migdal|feat(infobox) also for toolbox
+2750ce63328a38728aa05a5471aa03c2ec96eacd|2020-04-02|Piotr Migdal|feat(game) infobox also for UI, and room for photons
+46da42d11f2fc1a408bd3bd0a44729ae2f6c1fc0|2020-04-02|Piotr Migdal|doc(README) components, issues, authors
+fe31d7115411e96388b0ac149ad3e25d58293adc|2020-04-02|Piotr Migdal|feat(music) soundtract plays by default
+dc887ec9d2eadfa78ffd4cbb3ac6d21704ca4097|2020-04-02|Piotr Migdal|fix(controls) level reset
+6ac2dd8f776c5cad6a2f41a54641e4bf5a8dcb42|2020-04-02|Piotr Migdal|fix(toolbox) cell box dragable quick&dirty
+be359c2738db6a761f5492444325034e57bbe097|2020-04-02|Piotr Migdal|style(toolbox) only the current number
+50bec89b106e8789eb42c428ccc46c45f2e1087a|2020-04-02|Piotr Migdal|fix(meas) fate blink only once
+6cbca6f4abfc1e25dd039bb99d77cc65f69b7335|2020-04-02|Jakub Jan Strebeyko|Add login/playing as.. button & other minor fixes (#186)
+a6289334a50f9573752692b9d7e2f83ef1b4bb83|2020-04-01|Piotr Migdal|Merge branch 'master' of github.com:Quantum-Game/quantum-game-2
+16cc78ff6dbaf8e99058dbb86adca68ae03d0ce0|2020-04-01|Piotr Migdal|doc(README) fix/removes
+e9ca80678bb95b3e256274e229d2f90319f515e1|2020-04-01|Klem Jankiewicz|Levels changes for release (#184)
+9ae5b4f208274699d4707c816c5dbd1e8b55fecd|2020-04-01|Piotr Migdal|2.1.31
+3d2c1b0de00c12ac7666c96ba8a9ef938c5b1c32|2020-04-01|Piotr Migdal|2.1.30
+3cb5439e0ae13abc13761b3c79dc45b8ec3fc17c|2020-04-01|Piotr Migdal|chore(encylopedia) qg-encyclopedia update
+cc7f45f232ce51df7b73b451b663c5e474365efb|2020-04-01|Piotr Migdal|refactor(style) hard-coded toUpperCase to text-transform
+6d009bdeee7771205ac7499e7185d6a3579db3b7|2020-04-01|Piotr Migdal|feat(encyclopedia) fontawesome icons to links
+305debee36ba8480a0ddf7f87a929b1eca920fbc|2020-04-01|Piotr Migdal|feat(encyclopedia) make active not required
+ceb81b2876e1e117a2a2203f0586e1d61a7aefae|2020-04-01|Piotr Migdał|Merge pull request #183 from Quantum-Game/qg-encyclopedia
+2b1500bf43a8f83da63e61a9cf65021be98293fb|2020-03-31|Piotr Migdal|fix(ci) custom lines to use submodules in travis
+1e8cd1c8650c0a4e1265e504bee73dc39de43823|2020-03-31|Piotr Migdal|fix(lint) misc
+a236e88ae463b8f12d1ff0ef2d5635b5a86ebf58|2020-03-31|Piotr Migdal|fix(encyclopedia) back to simpler concepts list
+04219e37126fcc04272037b377782304857f664f|2020-03-31|Piotr Migdal|feat(matrix) section-like style and operator properties
+02ad819eeaedcb468d1d936aeb17dedd3e797a80|2020-03-31|Piotr Migdal|update(data) encyclopedia
+064825a134de7f57e3488cc52000dca57a07b10e|2020-03-31|Piotr Migdal|feat/fix(encyclopedia) parsing, loading, matrix, menu
+f89a82eeadd7448608d90341b96f233543c61afa|2020-03-31|Piotr Migdal|fix(encyclopedia) matrices only for existing elements
+a3fb7612dc835d8d7752df18239c2994dfc9c336|2020-03-31|Piotr Migdal|feat(encyclopedia) submodule from a dedicated repo
+97a52e722fe56d2b635a85f65cd1a793175e437a|2020-03-31|Piotr Migdal|chore(lint) eslint fix
+c6a5ed0a40d51eea93cc4a95efc831d7fb2f8d45|2020-03-31|Piotr Migdał|Merge pull request #181 from Quantum-Game/cqt-release2
+614f21588812c07ace1082441dfe575023798430|2020-03-30|Jakub Jan Strebeyko|Fix text hint reuse (#180)
+1ef10103302b0e108a797dfbf5d741cc1160c6c9|2020-03-30|Klem|style (encyclopedia entries) minor changes
+2d9889fba1885d43e44b1d4842fcf9300dd383f7|2020-03-30|Klem|fix menu bar (bars diagonal)
+38160e5fca3a4c1c66baa3523e664fa4ff163f24|2020-03-29|Klem|style(game page) - minimal
+0201a866cfc8719196b3cc3997031c3f626b46d8|2020-03-29|Klem|ToFix - unfrozen cells disappear on the board
+2b764d5c0bf1e473951ea758e423cd8b23685e86|2020-03-29|Klem|levels redesign
+2eeaa89763a2e2ad89b8215d633caa5717d7fdd6|2020-03-29|Klem|Rock Talk Superposition - new text
+8773a891389340206bceeb3498a6c870beaa2de0|2020-03-29|Klem|lint fix
+b129034a76ebf366882f3a64fde14b74d86a2869|2020-03-28|Klem|style(GameGoals) Added goal % on the donut
+178614fcd53762eb129954956d83e03686a1df39|2020-03-28|Klem|style(GameToolbox) more prominent
+61f8c1d22a5d39bd91bf10871b904d99d89a6f68|2020-03-28|Klem|style(game page) redesign
+71e12a56a7f2d471beb5d4237dd5fa1b17ded8b8|2020-03-28|Klem|style(404page)
+82f1178dfc3f334cb3c2a2baae7eb630f6cb45cb|2020-03-28|Klem|new: rock overlay - superposition
+f1db8018da3d6aae115d6f62a28649e47e94906f|2020-03-28|Klem|level redesign: new levels, some old changed
+4510d5094eebc99f41a5afbae371b318fbc76515|2020-03-28|Klem|typo: fuchsia
+b98c2408c8905936dc7e5ac7c3b5b9fcb64a3912|2020-03-28|Klem|typo: 'fuchsia'
+f31398dcb9dca020aa90c5b692b597336757b727|2020-03-28|Klem|Style(GameActiveCell)+initial descr: toolbox cell
+25d47d0f5f9f168b46441d2d99da7da81e53916c|2020-03-28|Klem|style - mirror color more visible
+ecddd99b64a312fb8fb201334e854514fa9f83db|2020-03-27|Klem|style - thinner font
+774e28ec2e0b92569dcaeefab6c289f0e8265d7c|2020-03-29|Jakub Jan Strebeyko|Take code out of rock talk assets (#177)
+cb4d145d2775dd5f2e497d79cd61e415309e31ae|2020-03-29|Jakub Jan Strebeyko|Fix board size assessment - for hint texts (#179)
+f5c591f7e362ba0cc46843dd9d8babfe495df2a6|2020-03-29|Jakub Jan Strebeyko|Prepend global styles (#176)
+98980723f0bd0a3a2f83aaf09128b51f2905dd8d|2020-03-28|Piotr Migdał|Merge pull request #174 from Quantum-Game/bkv2
+e5f22804b32285a0b985bc1e35eeffdb28667eaf|2020-03-28|Piotr Migdal|chore(package) bra-ket-vue 0.2.6
+e4a2299b1329418538f186e08bae18e77830616a|2020-03-28|Piotr Migdal|feat(transition) using default basis a from matrix
+c73542659c2c30166b37e803c826488b1375478f|2020-03-28|Piotr Migdal|fix(transition) re-rendering works again, no loop
+406f8996e7d1e38c82374e1fd06541f66cb733fe|2020-03-28|Piotr Migdal|chore(package) bra-ket-vue 0.2.4 - circles work
+b9af9dddceabc0be61e671014a6ac9e5203d3f82|2020-03-28|Piotr Migdal|chore(package) bra-ket-vue 0.2.4
+2bcb052f853fece1eac36d36c81269f93f4ba060|2020-03-27|Jakub Jan Strebeyko|Inter level overlay (#175)
+7590b49f5b2329f8de075e4aea7bb1eec26236d8|2020-03-27|Piotr Migdal|chore(package) bra-ket-vue 0.2.2 -> 2.2.3
+42a20d384d29e4190e3483e39d2a605adadb62b1|2020-03-25|Piotr Migdal|chore(package) bkv and kt upgrades
+fa89862ebeb995b1a0761d081c6ec96621c934f6|2020-02-27|Piotr Migdal|style(ket) bra-ket-vue 0.1.2
+73c3809e0cf3ec066e80ea878bf091f7031638cc|2020-02-25|Piotr Migdal|2.1.29
+e2556ddb4630ec01e1366b0fcab837ae05de31a3|2020-02-25|Piotr Migdal|feat(encyclopedia) trans matrix demo for all bases
+bca53a77f22f6b0bbbd8ba54ff11afcfc78c5bd1|2020-02-23|Piotr Migdal|fix(encyclopedia) matrix - board interaction
+8b39c1ba9a711993a845aea2c69112c86a9b08ab|2020-02-23|Piotr Migdal|style(encyclopedia) trans board and matrix in line
+3d9864008d8bfa4ef8c2e073c5c2db83c03f62fb|2020-02-23|Piotr Migdal|refactor(encyclopedia) matrix from bra-ket-vue
+701bf387b0cb78e9c8eb29c327d3347a781bef43|2020-02-23|Piotr Migdal|refactor(ket) ket viewer from bra-ket-vue
+215ed58a7f155b949974ee0279600b90dfdfd4d6|2020-02-20|Philippe Cochin|quantum-tensors 0.3.0 update (#171)
+611f1f2bb11c1de37032fa76cae38c395d6cf172|2020-02-11|Philippe Cochin|(fix) Fate display (#170)
+38cd285ffb20a59bd353134981ff06185d6bbde0|2020-02-07|Philippe Cochin|(fix) linter and bug fixes
+a143dd72669ef69940210fb5b4ca323a7f7cee7e|2020-02-07|Philippe Cochin|(fix) Non existing element in encyclopedia
+2aa2a4a26f7d5591ad2f4fd66a258148eece09b3|2020-02-07|Philippe Cochin|Lint
+9bae47b6a3460789e70b60e3d4bca6785b20b58a|2020-02-07|Klem Jankiewicz|fixed + style for progress bar (#167)
+958f45c7bc55a79aedd80c2d7d790998c6b9c399|2020-02-04|Piotr Migdal|docs(README) badges and misc
+00f7b7aaa05a6e6d17191e7c1c899fdc3722b4a7|2020-02-01|Piotr Migdal|style(ket) kets stay on all screens
+30a2758eb631844c52a98b93ee10be6936583c94|2020-01-31|Piotr Migdal|2.1.28
+af1d26be5312f8c371564a62bfcf35be5ae345b5|2020-01-30|Piotr Migdal|feat(deploy) showing date of the last commit
+ae18f892a93f0303da34fcf95190a78a76958e02|2020-01-30|Piotr Migdal|fix(deploy) quick fix to include version
+701401f8c32e6671ad10072dcb2da1f9cae2d44a|2020-01-30|Piotr Migdal|2.1.27
+106c85662acdb597b85c3462a3727f92c368e52e|2020-01-30|Piotr Migdal|fix(lint) console.log is now fine (lint/build consistency)
+1137a7785d269870b349c2e8ebd5966f062b8555|2020-01-30|Piotr Migdal|feat(test) travis ci init
+b0cb30106ea7743d3151dc1753bcbb63e85daf29|2020-01-30|Piotr Migdal|feat(lint) lint a few small impovements
+2929176f229bf5f2f82289753e54274ff7374825|2020-01-30|Piotr Migdał|Merge pull request #163 from Quantum-Game/feat-soundtract
+04f6311513be42f20899323413ffa8d6b2ac20b0|2020-01-30|Piotr Migdal|fix(sound) console.log now optional (default: false)
+0c14e6a137d9bfc3dc800556871e5658ab89e4f4|2020-01-30|Philippe Cochin|Merge branch 'feat-soundtract' of https://github.com/Quantum-Game/quantum-game-2 into feat-soundtract
+5993ee656b83a91d83f070e45f0af6bc79c91817|2020-01-30|Philippe Cochin|Merge branch 'feat-soundtract' of https://github.com/Quantum-Game/quantum-game-2 into feat-soundtract
+dd78f7a9b46881b09f7b1c00a577230f1ed2965d|2020-01-30|Piotr Migdal|refactor(sound) no holder, just this
+3a29c998463b9e118d3840f12eb6655998e5cd0e|2020-01-30|Philippe Cochin|Seems to be working
+d73695156bf4e406b4ffa45c6986cd0a106bb8ad|2020-01-30|Piotr Migdal|fix(sound) make let not var, killing js file
+ca73cb6cf0d9de770f5f37a1b05831b28c692d9b|2020-01-30|Philippe Cochin|Seems ok
+42edce289a8d5f4519847ee6456f59105afe98a9|2020-01-30|Philippe Cochin|Still working...
+69d714ca74bff60b52106fcb1bd3c36fd82f3a91|2020-01-30|Philippe Cochin|Before serious changes
+a4e6f2874597ec6444805db9ba814a30774533de|2020-01-30|Philippe Cochin|convert to TS in progress
+2fd166eebc709741225d4483e5f2c0cf9af9b3a2|2020-01-28|Piotr Migdał|feat(landing) display QG version and git hash (#164)
+1e2dfcbd5880e5485319c51cb9d27c3146057f94|2020-01-27|Piotr Migdal|feat(package) each Firebase deploy inc patch ver
+f0a556eb929bb373de750f023d08cd435d211b8c|2020-01-27|Piotr Migdal|doc(soundtract) Pawel Janicki in credits
+79c0eca8480f7323f2e0130d97b0e4d0627a6c5b|2020-01-27|Piotr Migdal|feat(soundtrack) Pawel Janicki's sound init
+08c49d3f04f93f163cce41c0b90b7e37d464732f|2020-01-25|Piotr Migdal|chore(package) quantum-tensors from qithub to npm
+666fc22dda2dabf61c2a50d051384c9657733651|2020-01-24|Philippe Cochin|(fix) donut goal (#161)
+17e6d3455e59202f978cdef8ad2704bb639c2735|2020-01-15|Piotr Migdał|Merge pull request #159 from stared/dependabot/npm_and_yarn/npm-6.13.4
+ed585da886540446a10cafc0b0910fdad600257e|2020-01-06|Piotr Migdał|doc(README) CQT and Unitary Fund badges
+bc196459e10c0192b5f80f26bd1e607c8614e487|2019-12-13|dependabot[bot]|Bump npm from 6.13.1 to 6.13.4
+603c09474c624035c2caea8c05c38a0f6158b126|2019-12-12|Klem Jankiewicz|style pre-Quantum Garage changes, some temporary (#158)
+011220bca463eb617e4cc5b2df0c07c3fb2eb481|2019-12-12|Piotr Migdał|fix(Matrix) column reset when pol-dir
+318659807984f2a5e2b9e546054dfc8f6eb0c10c|2019-12-12|Piotr Migdał|feat(Matrix) output labels highlight
+ae04fdd3c3c353422b8348559cc9894291f1b02b|2019-12-12|Piotr Migdał|feat(Matrix) input labels highlight
+a892e2b65c94eaf757f75875ffaa527995569e86|2019-12-12|Piotr Migdał|feat(Matrix) interactive r-phase legend
+fba5e81e1e014dfcf83610ce6754524a5e286af6|2019-12-10|Piotr Migdał|feat(Matrix) hierarchical labels
+fc6f72a42d1362333da45d3fc2ddc1b536982260|2019-12-10|Piotr Migdał|refactor(Matrix) coord names passed per dimension
+fff8e8b3b93a36afcbcb67fbde092620566613b0|2019-12-09|Piotr Migdał|feat(Matrix) reduced params, dim labels and swap
+af4c34656f39b40d46986e513f02b54be788ceef|2019-12-09|Piotr Migdał|feat(Matrix) circles, grid, letters
+376509513487ae2fd9bc3591dc1b799cc6a0c6ed|2019-12-11|Philippe Cochin|fix(EncyclopediaLanding): Changed transform for Chrome compatibility (#156)
+ce4141ffbb2f039c2ec316e0486c01fdd7bce6c1|2019-12-11|Philippe Cochin|feat(EncyclopediaLanding): Working clickable encyclopedia landing page (#155)
+4e0c37bcc7c4bc2044c2476531b46d7357b123dd|2019-12-10|Philippe Cochin|Usable download/upload
+9fff1c60738c418218285a1f4c61ebbcc5a451c3|2019-12-05|Klem|style GameKet selectedStyle buttons
+03371d14b9b755b762f4c670b5092bd2eccf9284|2019-12-05|Klem|style EncyclopediaBoard buttons
+fe2cc2a97c3595e72d62f9bdfd1ea55fbe169b3b|2019-12-04|Philippe Cochin|File Upload Init (#145)
+f0840f8905a28dcb14e344dc57ec3ced161f4446|2019-12-04|Piotr Migdał|Merge pull request #138 from stared/level_merge
+67c9ba7d3d112703ddd1b8297107e48573a23a8f|2019-12-04|Philippe Cochin|Fixed sandbox
+7a2fd25a78f12998e220a5889bbc368b9021d0b8|2019-12-04|Philippe Cochin|Remove broken elements from sandbox
+386549acf59d0be57c4424d5bb8551a35a9fc758|2019-12-04|Philippe Cochin|Merged levels into single file
+ca7d74e2c054afd0715d87524ae384f3ff8e77bd|2019-12-03|Philippe Cochin|Linter
+058c3d55c149bb1660338c44e33d57b98d408eec|2019-12-03|Piotr Migdał|Merge pull request #136 from stared/errorless
+519f64b3e89da946c86e2d8d0c05c15d31231491|2019-12-03|Piotr Migdał|Merge branch 'master' into errorless
+fa4c6ba747adee5fa21716f0ece7a734f2d9ee0c|2019-12-03|Klem Jankiewicz|Game page style (#137)
+02850808b6e5736cea2e93702e144628bb0ab214|2019-12-03|Philippe Cochin|Fixed coord refactor
+cabdabd03412b93fae644eaf11005b0d926bccdc|2019-12-03|Philippe Cochin|Fixed double moving
+8a3391f37b57156be631d6e6f5363f99baada70b|2019-12-03|Philippe Cochin|Percentage suffix
+cf6906e8d7ae5d0c1b858e7b7f47fd1f9a99c75d|2019-12-03|Philippe Cochin|Added Percentage suffix
+6ce9ec83e0b74b91f0e9b0d415a2ec39704a4d26|2019-12-03|Philippe Cochin|Renamed default obj, json to better name
+d312ceeeedafcbbad805af90f06f3630e8b4a943|2019-12-03|Philippe Cochin|Added I to interfaces
+fae98dc389345edc8e306d35ad0a5d176d38a32e|2019-12-03|Philippe Cochin|Cell, Hint, Goal, Particle extend coord
+892a3dc697f7809e4651e179fe6b81b67b896d44|2019-12-03|Philippe Cochin|Change *Interface to I* following eslint discuss
+62135600ac764868f1099720884475294b5be33b|2019-12-01|Philippe Cochin|Added type
+b4504628dadb16a554e11b62b006992e4ac9aae8|2019-12-01|Philippe Cochin|Wen through TODO and FIXME's
+7a963d4c1e8e703f4afaf8d0490b8477cf9fefb9|2019-12-01|Philippe Cochin|Changed to vue-property-decorator
+ffb6b0edffe776b807384d26c6a313528550b382|2019-12-01|Philippe Cochin|Went through eslint-disable
+20d7dcd100b71046a73a5d76ac8710e9c01a1144|2019-12-01|Philippe Cochin|Cleaned rules
+3f65704979aad72424481ae05687135ab16e7232|2019-12-01|Philippe Cochin|Conversion script JS -> TS
+c93cbac4ff0e480a39798d62644c24b339470757|2019-12-01|Philippe Cochin|Finished setting types
+6a7e01555d18d278bb3ebb00d9628bde8da18762|2019-12-01|Philippe Cochin|Adding return types on vue
+cac44e242973547e65ba8d106c56c3b2ca56c3fd|2019-12-01|Philippe Cochin|Linting
+ccfde915220db45858a688121f542a860680cb7a|2019-12-01|Philippe Cochin|added MIT license
+29d694ac752f146c8ea48b21a2b76da5aacf8d70|2019-12-01|Philippe Cochin|Upgrade vue
+2dd300d306a979fe90fb2580a74fea2381f9fb78|2019-12-01|Philippe Cochin|Linting finished
+5cb01b91954f2f42460013c2539f280e660216ef|2019-12-01|Philippe Cochin|linter
+174824cc987159a0860ee17cc644f931fc678019|2019-12-01|Philippe Cochin|No errors
+91da470ffe234fd18ddb6951f73ef4781d7a5e5f|2019-12-01|Philippe Cochin|Cleaning and refactoring...
+a8abf128af65a2bdc0d53a9df444a84069788bcb|2019-12-01|Philippe Cochin|Removed unused imports
+613587ec4d58926aeb8603a2f219664ed6f7556b|2019-12-01|Philippe Cochin|Added eslint to element transition
+452ca0d31367818e9ac5c720bba4b8811f3fe778|2019-12-01|Philippe Cochin|Refactored elements
+b0fc43218b90f30c62517c8a3598ce25baa085ad|2019-12-01|Philippe Cochin|Refactoring engine finished
+545ce066563eb6739574f635ee8c3cbc4f855416|2019-12-01|Philippe Cochin|Adding return
+0320a066c326b81b89b75c77e3d49a0f6c83f561|2019-12-01|Philippe Cochin|Fixing the 500 bugs... from new linter config
+d5af0970e75e84fed07b18677811e31c51127818|2019-12-01|Philippe Cochin|Removed unused functions
+232fcd2fd4de5369275ecb902b348ec4387eab63|2019-12-01|Philippe Cochin|Added hardcore eslint
+be4fd38db10681d74b7d326f41e58aaffce8f779|2019-11-30|Philippe Cochin|Remove trailing semi-colon
+e69d8a8f25237d0ee49c1aacdc49e364df700c76|2019-11-30|Piotr Migdał|Merge branch 'master' of github.com:stared/quantum-game-2
+4cb3a0f65a702caf8128c73dd0c5b36cfdfdb1c0|2019-11-30|Piotr Migdał|doc(README) initial version
+34bcf5ece1bad850fd109cd73174c79ed1ae5b6c|2019-11-29|Piotr Migdał|yarn lint
+23d369c786dfee727f1dacfb8d4f53926b69c6cc|2019-11-29|SektorDV|responsivity fixes for 320px displays (#134)
+afa927745d150c71751c10f3b95d5e912a17fca0|2019-11-28|SektorDV|responsiveness v4 (#133)
+ed3c45ca93393cf196b5e05f00bfdd2f031aa89e|2019-11-27|Piotr Migdał|Merge pull request #132 from stared/detection_event
+559a31d4988eb9ea30e12a4d8504c7a81d0081f6|2019-11-25|Philippe Cochin|Consistent namind of computed properties
+05561f6704e23f752070b498fa0186271648f089|2019-11-25|Philippe Cochin|Cleaning CSS
+77446f299b62dc903912063c034f66152c6131ee|2019-11-25|Philippe Cochin|Fixing styles
+dd115da1134e8d482c1ec44f692abc78eabd5d24|2019-11-25|Philippe Cochin|Removed unused ids
+0f224651c12eb8d4fb28a2eb7684d5292c5dccb0|2019-11-25|Philippe Cochin|Moved overlays to overlays folder
+fbc94dfe898c6e9b104814c38d9a1b17b10f6c56|2019-11-25|Philippe Cochin|Nicely working controls
+fb01c9b048cd080cf65db4b898c7a6752c6d6e8a|2019-11-25|Philippe Cochin|Moved svg icons to icons folder
+c91998583a81add670310fecb24e1ed3b62d4396|2019-11-25|Philippe Cochin|Renamed b-button to icons
+41e99c4fcd4932e0cefa93cc76ca67ec41df04f4|2019-11-25|Philippe Cochin|Add hover effect
+eb9d063a709c2010a0742f9c86bcf6c49c17600d|2019-11-24|Philippe Cochin|Corrected partially entries.json
+ef7564e73179a3e4264e4b4be190f3407128e37f|2019-11-24|Philippe Cochin|Prettified SVG
+64860ed72410c572974215afd946ce192d8294fd|2019-11-24|Philippe Cochin|Scaled buttons
+416e62f66f4f7234b6459014488fdb6d3d1192d1|2019-11-24|Philippe Cochin|Reworked controls
+4296fdac2ea9756486419cdf7a47cca22e523cec|2019-11-24|Philippe Cochin|Working game controls
+7253a8fae229ddb296bf079ce6e9294cc62f8443|2019-11-24|Philippe Cochin|Fixed whiny eslint
+3c73e468b70d076e7276507f399aee388f541706|2019-11-24|Philippe Cochin|Random fate event ;p
+83f5a9f2ce3dcfd255ef5882ca4758d885493487|2019-11-24|Philippe Cochin|Added fate indicator
+4f77308673ad82aea2368d137e3057c0a69b30d6|2019-11-24|Philippe Cochin|Refactored encyclopedia board and transition
+4c13b97fb6428678ad48f60de291ec63277ee079|2019-11-24|Philippe Cochin|Fixed nasty typo template error
+7fa63e14f629cff23f74e1e90a8bd3d4ce00a503|2019-11-24|Philippe Cochin|Attacking the encyclopedia grid rewrite
+070463e99a65baa5e368c0618e48a2fd8859900f|2019-11-24|Philippe Cochin|Reworked indicator and simulation init
+8443a6a052b88e4399b0f9aa94833d3160fd7aa1|2019-11-24|Philippe Cochin|Cleanup of quantum simulation
+e011c0901ebabd6c3dffd12d1a985e2fb0a3746b|2019-11-23|Philippe Cochin|Removed debug coords
+2eeb2f8e6beb05b78d4739d4ff1524b08d739e18|2019-11-23|Philippe Cochin|Fixed qwp and polarizer
+1d0160240a22499c3e193f62a0bdb5ed19237a6b|2019-11-23|Philippe Cochin|Working display of polarizer and quarter waveplate
+3d344c6989cabb0e9d9df6dccf3eab5030830bdc|2019-11-23|Philippe Cochin|Fixed the polarization grid bug
+2f96e30953647fa638b4dc8586dfc7dedec25255|2019-11-23|Philippe Cochin|removed lodash named imports
+74f380d6dfe1e845ca6c1d103d5a93eb32113f8e|2019-11-23|Philippe Cochin|Removed named lodash imports
+9d5726c79f93f9cf544725c8bc06fe9c079578ce|2019-11-23|Philippe Cochin|Reworking levels
+0f17d78becbae19e558e7c0c26c7cdec8b53c313|2019-11-23|Philippe Cochin|Added opacity to pbs
+a9ee5829113688a5fec029e403d2996335f9e55d|2019-11-23|Philippe Cochin|Added elements to sandbox
+dcce054a16b296bba328e2aa19af8c0ad2456bb5|2019-11-23|Philippe Cochin|Added operators return types
+ebd74867ab10e584c417718c1379802aa020f22b|2019-11-23|Philippe Cochin|fixed levels
+5e367dc7308b816d01c2e5b469b8d2d48a005cce|2019-11-22|Philippe Cochin|Fixing levels
+1af8dc4084a7ab37ae49c793f3aa2d59fa606516|2019-11-22|Philippe Cochin|Added options with dedicated interface
+50adfc4bcb4c5573dd5a489dc1ee0a9015c9db2e|2019-11-22|Philippe Cochin|Element transition class heritage
+092c9092e2b4db038d82e53f5b2fa6926f7d6e80|2019-11-22|Philippe Cochin|Reworking operator
+9d8a91d5d7d09e24e2b49cff3853fc6d17aefe18|2019-11-22|Philippe Cochin|Massive refactor working
+ab53a9cdd241393fc8a1b9f181202984a706980d|2019-11-22|Philippe Cochin|Fixing transitions
+3334f07695d0e7db50ff158bc09dc9e3c2572881|2019-11-22|Philippe Cochin|Extending parameters
+d3f17b6a90f0aea9a780773ccb2dc5db61e1c47b|2019-11-22|Philippe Cochin|Massive element refactor
+43f0ad7b9191ce7ec0a02386f99b5305fca27fab|2019-11-21|Philippe Cochin|Display pulsation on Victory
+2473aabbf2989eba840931625d836e1d0c2a403e|2019-11-21|Philippe Cochin|Reverted styling
+f28b602bc797d6cfb182200d4d0bcc3921dc6732|2019-11-21|Philippe Cochin|Absorption styling
+7bdd8a1bc00eb566d783d2b2519997c723ef2eed|2019-11-21|Philippe Cochin|Avoid vuex event polution
+b774a505a355646672bd0c4dcb5ac7a656739a87|2019-11-21|Philippe Cochin|Hide legend if no kets
+fabe334ed099a33ce9b986cda2811b69852b4d5c|2019-11-21|Philippe Cochin|Repaired template flag
+5cefe5ab45d8849c304b3d31ac72344f19e2cd26|2019-11-21|Philippe Cochin|Added two game states
+43b1d94e2f65ab5f4da4f5ac7df100b5d484fc2c|2019-11-21|Philippe Cochin|Refactored setting energized  cells
+80578b3ae5c8593efcd5a6adfebc25d4983d7790|2019-11-21|Philippe Cochin|Working goals
+0ce17d31e8da35d591337aef07c31cb556d93ef2|2019-11-21|Philippe Cochin|Fully computed gameState
+f4be49e4459096c4411f8c605332b56dab2d7895|2019-11-21|Philippe Cochin|Absorption renaming (probability, detection, etc.)
+d949d8fcb78120430846e16eea1ed40e3381d049|2019-11-21|Philippe Cochin|Refactoring goals, absorption and gamestate
+771873efa094cbdeb68eff660bb4ef97c4f59e32|2019-11-21|Philippe Cochin|Fixed responsive eslint
+7caceb0b3a38f23eef3561edb6eb9afd5a533a0b|2019-11-20|Philippe Cochin|Corrected particle coord dependant functions
+4d1e38f83d87a8b8ad5f9a00d0a806d120b711d3|2019-11-20|Philippe Cochin|Refactored ParticleInterface and deleted QParticle
+7be4830fdce5091a93364480c7790822a1725186|2019-11-20|Philippe Cochin|Cleaned Particle class from classical things
+16a85dffa52102a7d9c920ab54e3e3b8abeaa66a|2019-11-20|Philippe Cochin|Refactored AbsorptionInterface
+003f62d56eacb55d40f7c96e5fd0855ee85e2bab|2019-11-20|Philippe Cochin|Refactoring goals and gamestate
+21bb75995261d9f96276518c97e9dd80042f9aa9|2019-11-20|Philippe Cochin|Changed gameState strings to enum
+ad426c6e2cb9ec0abccf10d173cd2d39286e5a35|2019-11-20|Philippe Cochin|Went throught TODOs and FIXMEs
+23afbab35f4d49f10839532f0f5e14ab700a3fe2|2019-11-20|Philippe Cochin|Added mutation shorthand + cleanup
+35ac86470f58b816ca0694734c47fe0f77a65a8d|2019-11-20|Philippe Cochin|Updated .gitignore for typos :x
+88fb14318a436f0def43f18a028316cd66be4ab9|2019-11-20|Philippe Cochin|Added pulsating circle to laser and pointer cursor
+d44124169657aed0a0ef6a87758d99e6af519b6c|2019-11-20|Philippe Cochin|Refactor multiverse graph
+15d6c4c40eda1ab9c80eb1bd2fd82b30634020f9|2019-11-20|Philippe Cochin|Removed console.log
+a80164769d1aee990da71f1c1907654274568ed3|2019-11-20|Philippe Cochin|Fixed whiny toolbox
+fd055b4d7dccef8892a678c531e92e76a5ba766b|2019-11-20|Philippe Cochin|Click laser to start simulation
+3915a6b437f181f36b4f598deaf3199e3682f811|2019-11-20|Philippe Cochin|Moved b-button svgs to graphics
+b2786ee63f75b5fa17f1367291e215a58a472e5e|2019-11-20|Philippe Cochin|Moved asset svgs to graphics folder
+0e650d87f54ed67d489ac67d03f104f4c56315e6|2019-11-15|Klem|style(LevelMapPage)
+8b7b70bb4e3794d86b17154f21dc9f44a5dc1c2b|2019-11-23|Piotr Migdał|yarn lint
+cf8dbea5dfd1cea4971c84d9aff686006d31254e|2019-11-23|SektorDV|Making the game layout take up less vertical space, plus encyclopedia article fixes for mobiles. (#129)
+2c7a9d48f9f52b20bd7afbe0a1bb8a5bdf5e5478|2019-11-22|Piotr Migdał|prettier lint autofix after PR 128
+ce24ef7ec831485fbf8ec6549f854d5851c15405|2019-11-22|SektorDV|additional responsiveness changes (#128)
+0b7f7ac73e87e10e70bcc40953ce4ce8879594d2|2019-11-21|Mateusz Orłowski|mobile d&d (#127)
+a2b438cb18947b8d9434e7d16b2bd8515b72ebe0|2019-11-20|Piotr Migdał|lint fixes after PR #124
+2d4164e703a6befcfe0251a75e44c2e96fe85537|2019-11-20|SektorDV|responsiveness changes (works phones, but not general) (#124)
+de2e787144ecb82e7dded79e1be12ae352ed9a68|2019-11-20|Mateusz Orłowski|Toolbox improve and optimized drag and drop (#122)
+7a607ed0aca5f2355258de2b5c6b77be38b3b1f4|2019-11-20|Piotr Gajcy|Save button greyed out when not logged in (#123)
+f933aac89992b3a6178fbf8768743da896bce6ad|2019-11-14|Philippe Cochin|Showing only photon or element tooltip (#118)
+06c16bb58ba5e29351a45ebb729d585086641fa1|2019-11-14|Piotr Migdał|fix(Toolbox) opacity fix when deployed
+4f19fedbbcd86a517b9b0e6be5292258957cf51f|2019-11-14|Jakub Jan Strebeyko|Misc in save level and other (#106)
+793bcbabb8fdec5d7bffff17227257b24db4eb7e|2019-11-14|Philippe Cochin|Probability display fix + misc (#116)
+01884a663bc55c55d3b4d1e0eb450df8b871ff69|2019-11-14|Jakub Jan Strebeyko|Add related concepts + lint (#112)
+0535c777139e0c0572d35401bae9268307118f86|2019-11-14|Philippe Cochin|Numerous level, level map, and level loading changes (#114)
+7d19488a63956bffdf8bfc31c71f0946690d90ae|2019-11-14|Piotr Migdał|feat(EncyclopediaTransition) mouseover init
+d87dcddf0e92b70240b82bb5cfe31310a053a2a8|2019-11-14|Piotr Migdał|feat(EncyclopediaBoard) initalize from init
+702694561360b562a4b6cec81beea4f742402362|2019-11-14|Jakub Jan Strebeyko|Encyclopedia update (#110)
+c5b7dd1d3e072d5f705edbe98df4ee261364c102|2019-11-14|Klem|Style Overlay button
+eea06bc616f9955ef930f7c020b0f42d7ed5a64a|2019-11-14|Klem|Delete Multiverse from GameIndex
+b0f0a9521c7f9c056536e77667010a252a044d6b|2019-11-14|Klem|Style/New entries Encyclopedia
+70acda165a45c395a5948895ef7ee5873fd75f2c|2019-11-14|Klem|Style Encyclopedia links
+0a514b3caccd8c1a85f1d038e28ed454d1a675a2|2019-11-14|Klem|Style Overlay bomb and victory
+1a24e0e3b65f509612f0c81f2d49106fdad27732|2019-11-14|Klem|Style GameKet colors
+9fc9dd8dfc4078974a0d6426b94201708fde1f7f|2019-11-14|Klem|Refactor GameLayout deleted logo
+1e9fd2578e3184b43c2a4695ee048dce684153d4|2019-11-14|Klem|Style Homepage CQTlogo resize
+7fef497a42db31f69509a1d155225c6f601cd5e4|2019-11-14|Piotr Migdał|fix(GameKet) OutOfBoard absorption name
+55b416b901e5a47b396edb6f34422562b2f2228e|2019-11-14|Piotr Migdał|fix(Elements) Laser and FaradayRotator ops
+39650ae707a5fa073561159441875207cdc9eeee|2019-11-14|Piotr Migdał|feat(QuantumFrame) filtering out too low prob
+688dd8dc716c015f07f5a339724ca1fbf75e973e|2019-11-14|Piotr Migdał|Drag & drop fixes and updates (#107)
+80e49fb42fc6158ac51245590b1d004df0fa1f08|2019-11-13|Piotr Migdał|Merge pull request #104 from stared/style-game
+b812fd033967b6f1f43b225a23fe8ea28dd9255f|2019-11-13|Piotr Migdał|Merge branch 'master' into style-game
+05e26587d1bcb164873b0e1848ff6cfcb42de881|2019-11-13|Jakub Jan Strebeyko|Various fixes, cleanup and stuff (#103)
+eda9ca99d958f0fc790ac5ac158430014e521e4b|2019-11-13|Klem Jankiewicz|lint fixes
+8c55e52b6a6c9c40e74e5bc985e9de63a4acf846|2019-11-13|Klem Jankiewicz|Style/Refactor GameKet
+0382f8a3c0ed5da9fca8c1d0150ab72e60bc7bc8|2019-11-13|Klem Jankiewicz|Style GamePhoton fonts
+bcf64e50211c8d3f3fcdfbdd2e7c9d37d0db327f|2019-11-13|Klem Jankiewicz|Homepage Authors
+a95ecc377c4f2a1f83f588a4b3c5369a0a0060af|2019-11-13|Piotr Gajcy|Firebase saved levels (#88)
+dbda0b95cef5030915d5b227f6b13aad229d3a9a|2019-11-13|Klem Jankiewicz|Style GameKet color-disk buttons
+235329f750b10735c848713928bc6fc9bef30b97|2019-11-13|Klem Jankiewicz|style change red to QG-red
+9462f2bacc30e3378b547c88cc65e563a3e3ad84|2019-11-12|Klem Jankiewicz|Feat/style Ket legend
+5df8457bbafb02db5cfbf7121d65663512b43288|2019-11-12|Klem Jankiewicz|Style AppPhoton color,size
+55b3cbbb99e2120f0d2aad6a174fab2f8d14da38|2019-11-12|Orłowski Mateusz|drag and drop
+7defa09573c0b0369ed6ce8ddcd0f21bce09dc60|2019-11-12|Philippe Cochin|Non linear crystal element and misc changes (#98)
+e84f0cc6e2b4bfef642843dad46f1fd5995e56bb|2019-11-12|Piotr Migdał|feat(sandbox) linked sandbox
+e87c7603600edd7e024694adee353fb6a0e9ee8b|2019-11-12|Philippe Cochin|Responsive fixes + small tweaks (#94)
+cca88947c7d68212fc7aa8af6f53c55609df9d44|2019-11-12|Klem Jankiewicz|photon color fix
+c096996f57ee87cc3e6a2398008ca305f47e0d4d|2019-11-12|Klem Jankiewicz|ket viewer fix
+bd126003d92098fc4f97a25a817a804e9990bec2|2019-11-12|Klem Jankiewicz|New Vue component - NonLinearCrystal
+feeee0c202ab293036e54d887feecc9f15a78a14|2019-11-12|Klem Jankiewicz|adding ket viewer to enc. white line fix
+80cb059c2fb413f1195f1e0b430fc5bade872b4f|2019-11-12|Klem Jankiewicz|Cell description style fix
+7816ee14fb16dd2b1db4cdbd0e9f54d6af714612|2019-11-12|Klem Jankiewicz|Detector Four changing states fix
+043073ef45d60e6a1c7647f568f3a2f440e51f47|2019-11-12|Klem Jankiewicz|temporary goals fix
+b84d3bb12ea7efcfc4c21106caefe45d68500169|2019-11-07|Klem Jankiewicz|merge
+0b24151a61bbe26f52be9c7a98e9c085cb470a2a|2019-11-12|Piotr Migdał|feat(Photon) electric field color configurable
+00560dc4cfc7b70dfb8eeb3859727821f2e82547|2019-11-12|Piotr Migdał|feat(Photon) waveform normalization prop
+fbfa0da955bd64351bcee598a4cd9c03a4122856|2019-11-12|Piotr Migdał|Added responsiveness (#92)
+51628b99c871430bae40e7aa4218d6e198cac2d8|2019-11-11|Jakub Jan Strebeyko|Cleanup check (#90)
+ce0eebe2f7b30ba15ecd3a5aea2d7774603343ae|2019-11-11|Klem Jankiewicz|Active Photon & goals color
+9c998758aabb0cc83af80a2eaf08f16ba5606b2c|2019-11-11|Klem Jankiewicz|ket viewer in progress
+dea4958d3e76ec2f09a8a9d5aa9c2ed50404fba3|2019-11-11|Klem Jankiewicz|cqt logo
+afd49cca700754282bceaff0999111cf644ffff6|2019-11-11|Philippe Cochin|Visual cleanup (#85)
+4f1b274e25335a4410cd5933a02578004e5061a7|2019-11-10|Jakub Jan Strebeyko|Update entries' content and update mechanics (#86)
+eccdedfcd326d07c2a2791c2181ecaa0abbae24a|2019-11-10|Philippe Cochin|Initial version of multiverse graph (#84)
+8da956e1bb3265b1928a8ad078ad2eb5c7bcd555|2019-11-09|Philippe Cochin|Encyclopedia fix reconnecting matrix and boards(#82)
+3668cb917ed85c2f502800b987e22771b03264c1|2019-11-09|Jakub Jan Strebeyko|Migration of board logics from vuex to emits/props (#78)
+413b169a7fed346bba8c5bddeb13ec3541096f68|2019-11-09|Piotr Migdał|feat(QuantumSimulation) sampleRandomRealization (#81)
+ea3a5260b4bcbd7e6f4fc56eee903c5510d8fcc0|2019-11-09|Philippe Cochin|Photon hover info + photon line misc (#80)
+1fa34376745c09ddb6935b33a777614c285f31ec|2019-11-09|Philippe Cochin|Photon line update (#79)
+fb102e19cc033037f3b8f4c19a380c877e9bdcc3|2019-11-09|Piotr Migdał|Merge pull request #76 from stared/game-board-style-2
+c298c4b95215e08a007dec0a9cbf95943ccb6d6e|2019-11-09|Philippe Cochin|Added polarizer and mouse over cursors (#75)
+1e15a30e75b67327dfa8d818caa6f4d20230a2e3|2019-11-09|Piotr Gajcy|Fixed typescript errors (#77)
+ad32fa0f62add7892b936183e675d9f0e7c1c227|2019-11-08|Klem Jankiewicz|Ket viewer
+b60d652095a33a7c8061d6720d4bd1d5b7bb57f7|2019-11-08|Klem Jankiewicz|added mine icons
+03d593be4052d4a2a8622bc539d907b80e2e6d72|2019-11-08|Klem Jankiewicz|goals fine tuning
+63b4e87eb50ed43673c29181934009e57b81e407|2019-11-08|Klem Jankiewicz|laser+probability style
+88b71948789deb67ee31ccda086a36ec12ea2edd|2019-11-08|Philippe Cochin|Added simulationState and energized elements (#74)
+03ba986d0529eda974870022c6a0279404ecae2f|2019-11-08|Philippe Cochin|Energized elements (#73)
+ea0995984b126853731f25ef869d04eff1ff7d6b|2019-11-07|Piotr Migdał|fix(Ket) linting issues
+8d5d4127165bac4d4987b7ec2a6a1fc1cbd063a3|2019-11-07|Philippe Cochin|Game states (#72)
+4ba58e36448a001b2cd3ae5ee8e35c562594fbf4|2019-11-07|Piotr Migdał|Merge pull request #71 from stared/ket-and-stuff
+df87f653029e71b1a004176eed2c57f9e2f2c164|2019-11-07|Piotr Migdał|feat(Ket) absorbtion object name, polar/cart
+7441f7fbea3ee9a1282a6afb594b496e35c4be4d|2019-11-07|Piotr Migdał|feat(Ket) ket components data to GameKet + example
+28aeb87ed4778dbcd2dc7f6255c8c87412617d9e|2019-11-07|Philippe Cochin|Goals refactor (#70)
+5ce58cd21ef95c1d9848d509d0f0e661f3353715|2019-11-07|Philippe Cochin|Changed default value of interface
+829417d6920a97eb01dbcc85ef033a007385d8a1|2019-11-07|Philippe Cochin|sandbox level
+e455f7153c82ef1bbe8eec933eb10255ed438662|2019-11-07|Klem Jankiewicz|photon opacity change
+e068576487cc95eec7b39e1557c97fc2d6a2f037|2019-11-07|Klem Jankiewicz|toolbox font change
+66ff5156cd93a71f1c6989d4972ac9240c98d963|2019-11-07|Klem Jankiewicz|game controls update
+51efc0e8db90248e875e537e1dfdc984e4e40e21|2019-11-07|Klem Jankiewicz|0 level: rock and speech bubble
+ea4ca99711c0fa6b1ab61c77894f80f642c84c75|2019-11-07|Jakub Jan Strebeyko|Create OptionsPage (#65)
+a2b44dcd1d27650ebd964db68b7c9a37df9cb2eb|2019-11-07|Jakub Jan Strebeyko|Add login to menu (#62)
+2e291998c313ad9435afc363e0fad828d3058a8a|2019-11-07|Philippe Cochin|Added ket viewer
+d2bc7eac119728bacd3466275caa2eaf8178455f|2019-11-07|Philippe Cochin|Toolbox fix
+8fc8c2dbb145dd95d7cccbb15916893a85d360c8|2019-11-07|Piotr Migdał|Adding absorption (#66)
+28a51d625b0cd213a628227a83343edb8ff7af26|2019-11-06|Philippe Cochin|Moving particles (#64)
+0f07724c893a89e89c5abd48f867084ebf3f89fb|2019-11-06|Klem Jankiewicz|Encyclopedia style (#63)
+1d60651d5784cd45178500b5f0b8b3abbac9dc5c|2019-11-06|Jakub Jan Strebeyko|Flip frames on play (#61)
+524fa28e7cb09b1c22c9b1730c745c3dfdfd294c|2019-11-06|Jakub Jan Strebeyko|Entries from markdown (#58)
+75551efaa62598388395932d4d546c3b9d9d7314|2019-11-06|Philippe Cochin|Laserpath graph (#60)
+7055184392e9c25c07d1f1ed886af4f3a7e919e2|2019-11-06|Klem Jankiewicz|active cells, speech bubble (#59)
+2af858bf4d693b08ec8a9dcd84a8a84098804f42|2019-11-05|Philippe Cochin|Quantum Simulation integration + board modularization + Firebase TS (#57)
+712102fa81bb2dda87694a62c619a1fd8504c607|2019-11-04|Philippe Cochin|Firebase linter a few fixes (#56)
+a5c007a7581e811a3b9055b0f81abf911bcb78e9|2019-11-04|Philippe Cochin|Updated all the moving logic and improved vuex compatibility (#55)
+7c7c3eaee2cd82c2082451a3ec8a11084f655529|2019-11-03|Piotr Migdał|all(EBoard) states, big cleanup, using new sim
+7aa675565d03e27464346d78bb57b45a2245f0b2|2019-11-03|Piotr Migdał|feat(engine) created lightweight QuantumSimulation
+ce6fbf7b3138446f61253170193f8f1708f7311d|2019-11-04|Jakub Jan Strebeyko|firebase module linting fix (#52)
+0bf8ce10837dcc1f193e9ec2e82863ebfc808967|2019-11-02|Piotr Gajcy|Fireabase login (#51)
+39f349e4d735dbff007e395ed4570788a99055f9|2019-11-02|Philippe Cochin|Nuclear renaming rebased (#50)
+188b3d33b175a1d93df007238ae46899d7536809|2019-11-01|Philippe Cochin|Merge pull request #48 from stared/LevelSizeFix
+5679ff0ea94cc10457e6ff480108e45f3d138f9f|2019-11-01|Philippe Cochin|(fix) level size
+6c43211f462a9bcaeaaa561b01672a28abe0e08a|2019-11-01|Piotr Migdał|Merge pull request #47 from stared/cells_style
+ddc0593e05718c19ba3836ae1c7ada8a7b8b9b35|2019-11-01|Klem Jankiewicz|fixed transparent outline
+8e2c18664a221849024923db8e8502b82161a215|2019-11-01|Klem Jankiewicz|color movable cells
+b213c2d65ecd438fa80361b2cb76cf1525c4dcc0|2019-11-01|Philippe Cochin|Merge pull request #46 from stared/FixEntries
+2e62c6bcbc8f9c24dcd4cdb185ddaf2aff70771f|2019-11-01|Philippe Cochin|(upgrade) detector entry, refactored encyclopedia
+06b7648f87faf581b4b8569e0f9cbe4e784b9b66|2019-10-31|Piotr Migdał|Merge pull request #45 from stared/laserFix
+0b2d9da39bddadcd584efa9e91afbdb9eca33556|2019-10-31|Philippe Cochin|(fix) Errorless lasers
+ff74edd1ac4542645dff8f32d8726c9a6e851520|2019-10-31|Piotr Migdał|Merge pull request #44 from stared/kuba-fix-rebase
+d056b63d158e045b894b8d3d1abb705f87de22f6|2019-10-31|Jakub Strebeyko|fix: removed remaining quantumweasel imports
+8d6b3e7407fb2ba78c47f1e92215b2fb84e5c812|2019-10-31|Jakub Strebeyko|Kuba, fix the master!
+3bac6476318f68fa92e0acd5f25d5861af610598|2019-10-31|Jakub Jan Strebeyko|Merge pull request #43 from stared/clean_readme
+97eb647ed72665b8c61a00e110ad1194ac45edb7|2019-10-31|Jakub Strebeyko|clean readme
+fb4e805d32860f541badf4b4ce09d76fee234bd1|2019-10-31|Jakub Jan Strebeyko|Merge pull request #41 from stared/tool_addition
+c612465ea888f209e19f49afe9c10002c770caa8|2019-10-31|Jakub Strebeyko|add tool addition; - [x] QGrid cleanup; -[x]  lint;
+4d03b44eafa7e8752a956b43979d3203a81f8fe9|2019-10-31|Jakub Jan Strebeyko|Merge pull request #40 from stared/tool_substraction
+4ff2be34de54e4cf5e2311433b2bfd194d3890bb|2019-10-31|Jakub Strebeyko|Add tool substraction functionality; -cleanup in toolbox
+da95982dedebb15541292b96bc0d699484a8853d|2019-10-31|Klem Jankiewicz|Merge pull request #39 from stared/tiles_style
+3c5c84c67be7ea172b7dfb9c47a6c52c8169e35e|2019-10-31|Klem Jankiewicz|Qcell style
+4d5d910885a20105098d16149a6915f2b2836f52|2019-10-31|Piotr Migdał|Merge pull request #38 from stared/SlimWeaselRebase
+91c2dc6cc16bdc3efede9821118a6ccc5e6c48c5|2019-10-31|Philippe Cochin|Merge with working cell movement
+d26be3ba4150d0da24cab456aae17e02e318a539|2019-10-31|Philippe Cochin|(fix) eslint fixes
+5ac6c0ec2c687a69e73be2ef6eeafa0c862e5cf6|2019-10-31|Philippe Cochin|(lint) linting progress
+009b75bc7af60391c05043446cf1993e0a7eed27|2019-10-30|Philippe Cochin|(fix) changed qt.Operator
+f7b6930372b3c39e1a6fa4e7c6fcc3c2c58323f1|2019-10-30|Philippe Cochin|(fix) switched console.log to console.debug
+cd05ff73bae9b277044e380cf0c9348334a6949a|2019-10-30|Philippe Cochin|Removed d3-drag
+c801c940f0b0c292a0b315fc396aa18bead66b29|2019-10-30|Philippe Cochin|(fix) remove circular dependencies
+e4e0652fb2c61733c99684bd4d97486ab8e226f0|2019-10-30|Philippe Cochin|SLIMWEASEL 101!!
+74b6818aabcf6234698bc94d673e0816c23afa0f|2019-10-30|Jakub Jan Strebeyko|Merge pull request #37 from stared/movement_indication
+599356fa5527042cdc770553bcbef7a56156e1ed|2019-10-30|Jakub Strebeyko|Add movement indication through borders and tile highlighting; - [x] cleanup in grid; - [x] type swap in getPosition mixin; - [x] lint;
+5e6b561545e53ed4cb56515ab219fe7f8ef51a13|2019-10-30|Piotr Migdał|Merge pull request #34 from stared/connect_toolbox
+b986f23b733915f50bcd637794cc3faf6654d7f0|2019-10-30|Piotr Migdał|Merge branch 'master' into connect_toolbox
+24deb256b0a96e843db0b54213d23cdbb7e29141|2019-10-30|Jakub Jan Strebeyko|Merge pull request #35 from stared/remove_level_list
+774f84d20983bf4cbe846c2dd8bd3d874adce09f|2019-10-30|Jakub Strebeyko|Remove the links on Game view
+da2b687680307ca0ef5db736382b85c6af50a19b|2019-10-30|Jakub Strebeyko|linting changes
+6e04b9f4025dd582ade777c472c0324f68bb0938|2019-10-30|Jakub Strebeyko|- Connect toolbox to vuex; - Add moving & rotation; - add vuex-class - add comments to Speechbubble, minor wrapper adjustments;
+c405e3c825b594de113d0612bfab8f3ea291821d|2019-10-30|Piotr Migdał|fix rock error
+59d20773a7a5479f76435666b513f37c491c468a|2019-10-30|Piotr Migdał|Merge pull request #33 from stared/Encyclopedia
+8dbfe72ddf2576731760399453d08ccc9c434c97|2019-10-30|Philippe Cochin|(cleanup) working game
+455f96546349c45768f8723deef40ffc9dd39f1e|2019-10-30|Piotr Migdał|Merge pull request #32 from stared/Egrid_style
+a981b1f201bb64b24b332662109d147d2b7ce664|2019-10-30|Philippe Cochin|Merge branch 'master' of https://github.com/stared/quantum-game-2 into weasel
+8a3ab341b5d40386cb646cfe6015d71868f945d8|2019-10-30|cqt|Encyclopedia grid styling
+cdb914253e04c08d07ca035c244c35720b5888c6|2019-10-30|Philippe Cochin|added encyclopedia entries
+5dfd9d258d417313eedd97ba853d4ff3c3446239|2019-10-30|Klem Jankiewicz|Merge pull request #31 from stared/style
+6aacc76016254cda83f55506efabe4e2731ae45f|2019-10-30|cqt|speech bubble
+aa21d827f4906ceb8f3470733d968d9cec3e9103|2019-10-30|cqt|speech bubble styling, overlay styling
+d817cec44afe0d8960c87c9c58bdce1ba104501f|2019-10-30|Philippe Cochin|Merge master
+59d0e6ef9a7cc00a15862b33616bd815a511e713|2019-10-30|Philippe Cochin|(hotfix) repairing the board cell position
+942cfafa3d21e40ab8b5e15d0c060ea619b6b316|2019-10-30|Philippe Cochin|Merge from stared master
+56b9800ed1e240739f7f924fe0b5427567a115d3|2019-10-30|Klem Jankiewicz|Merge pull request #29 from stared/404_weasel
+8ff98841a17ce990b0efabc2e4d6481c6307e672|2019-10-30|cqt|lint & svg path
+a178649c964378d8dba3356a93b995f32e9a0f8f|2019-10-30|cqt|merge
+7f4970fdf950dcb33cd089bea09407741cdf88bc|2019-10-30|cqt|not found and weasel
+b61391ca14ee65a89afe7287d12f01e225d269f1|2019-10-30|Piotr Migdał|Merge pull request #25 from stared/equation-viewer-rebased
+277f3a8c508f17bb6ad5ec979f4f0d477f9765b6|2019-10-29|Piotr Migdał|not tabs please
+86ade797f1ff952a255f9c4a54108d008d430972|2019-10-29|Piotr Migdał|feat(Entry) parametric loading grids from one file
+16c56eba113a6060cc7f61a26fbdfab7ad4615b8|2019-10-29|Piotr Migdał|fix(Entry) miniboard visible again
+69f211c50cdaf8290cd60af7eede6734c89b66d1|2019-10-29|Philippe Cochin|(upgrade) equation viewer (cherry-picked) weasel
+536b458b8f50f5693a57a9722403a285e22c604d|2019-10-28|Piotr Migdał|feat(Entry) added mini-board to matrix viewer
+cab9903ddbc6182bef8177c09307ecd2e039b567|2019-10-28|Piotr Migdał|feat(Entry) operator viewer init
+8042b26c2f8378e8c7c3024ad1714bc90f626604|2019-10-28|Piotr Migdał|chore(yarn) yarn lock change
+5f855d875362c39ea6be153f1bb78fc434715da3|2019-10-28|Piotr Migdał|feat(EGrid) ket state list init
+85bafaca5130854272fec7b142522277066e18a4|2019-10-29|Jakub Jan Strebeyko|Merge pull request #24 from stared/add_speechbubble
+0b11c20738bc80ae8680b3db88a28cc49bdceeed|2019-10-29|Jakub Strebeyko|- add SpeechBubble; - create hint types; - move positioning into a mixin
+ea4c050a99de4af7d3c192e457df4994cd5cfadf|2019-10-29|Jakub Jan Strebeyko|Merge pull request #23 from stared/fix_toolbox
+5ce8919256103b2a9df1b2134ebe29ec2ad5b527|2019-10-29|Jakub Strebeyko|- Re-implement toolbox; - Move activeCell functionality triggers onto the cell (from QGrid); - space the names and max-width the Explanations; - lint;
+c092991e95a6968402f29186ad8326f1febc351d|2019-10-29|Jakub Jan Strebeyko|Merge pull request #22 from stared/implement_explanations
+798c49c5135edd1c28779f9b53b67a522eeaa676|2019-10-29|Jakub Strebeyko|Merge branch 'implement_explanations' of https://github.com/stared/quantum-game-2 into implement_explanations
+d1d3ffe4af791e0155186f46dcfa50e3bbababd5|2019-10-29|Jakub Strebeyko|- Re-implement activeCell logic, this time through vuex; - Re-add explanations, this time with camelCase to hyphened url conversion; - following cleanup
+f6e1edcf7be81520e02d502ada0ad430f3fcfc74|2019-10-29|Jakub Strebeyko|- Re-implement activeCell logic, this time through vuex; - Re-add explanations, this time with camelCase to hyphened url conversion; - following cleanup
+b5d8d14479a16e8509c0b478e1b4f080756d27e1|2019-10-29|Philippe Cochin|(upgrade) equation viewer
+3bff7dd6a1babd80550426c9da40a9d4bc947498|2019-10-29|Klem Jankiewicz|Merge pull request #21 from stared/update_home_page
+71149f78005e6b9bb7726b83860f10fdccde13ee|2019-10-29|cqt|homepage update
+6f6cffb1f69f1986e276b1cb2877757069bf6401|2019-10-29|Piotr Migdał|Merge pull request #20 from stared/add_levels_page
+10fc18ec1320b39afc775cc2e215bc20317f075f|2019-10-29|Jakub Strebeyko|Add levels view
+e65718c053e5abd081ed8f84d938e7714766229f|2019-10-29|Philippe Cochin|Equation viewer
+1283f48fed5d3a31ebddca00b80840156cfae087|2019-10-29|Philippe Cochin|Updated yarn
+6b48f732093ddf0441d3298dcd0204715fb2d855|2019-10-29|Philippe Cochin|Merge master
+e1dea0335126f3b6288540dd026b706f02723afc|2019-10-29|Piotr Migdał|Merge pull request #17 from piotrgajcy/circle-progress
+47e1fc303e750e22e526f73932784a850ce08830|2019-10-28|Piotr|replace tween plugin to es6-tween
+008ed1e0853b6ae4947e69dbe4fbfd366792e117|2019-10-28|Piotr Migdał|feat(Entry) added mini-board to matrix viewer
+2dfa2a674fd3a0d95019d9cb8356c847f50d9f03|2019-10-28|Piotr Migdał|feat(Entry) operator viewer init
+12a752a03e412c0b49b32eb8955f66185aec98f3|2019-10-28|Piotr Migdał|chore(yarn) yarn lock change
+d9a1d8aa73bfeaef639a45e101b8fc2c1eb58d04|2019-10-28|Piotr Migdał|feat(EGrid) ket state list init
+49d2cb6423e1c17476f6a12ad22208d6bead179b|2019-10-28|Philippe Cochin|Kinda working mother release
+59eb3ab9809e69207b380aac8d394552dde59fa4|2019-10-28|Philippe Cochin|Moving cells is working
+75f43d20cd053c26308c9fd1037cb839aaf744f8|2019-10-28|Philippe Cochin|Modified entries and explanation
+cd34d9d8928742d467b53445ed98fe89e7f3ea57|2019-10-28|Philippe Cochin|Fixed explanation width bug
+52de2c37a8cc20a3e718a60f396b3c923f833699|2019-10-28|Philippe Cochin|Added dynamic explanations
+109979f0eaf2869c603d114c5818a23e169d8979|2019-10-27|Piotr|merge with master
+1238e82b280c9640f533472133cfe8d97f6c881d|2019-10-27|Piotr|fixed import
+62896a8583ff5bc7cba5d13bf3b4a72bad2cb4e4|2019-10-27|Piotr Migdał|Merge pull request #14 from stared/weasel
+3eeb8e11374584e65aeaa621e3877ee048460cae|2019-10-27|Piotr Migdał|Merge branch 'master' into weasel
+64df36741964126a2f85740f595c85385bdc1631|2019-10-27|Philippe Cochin|Functionnal Egrid component
+38c9c7af2c1407427eb7085ab5113c9ebb1863bd|2019-10-27|Philippe Cochin|Working steps
+29fea75ba40ede52a376dce539ac6155afc5f8b2|2019-10-27|Philippe Cochin|Self-contained Egrids
+e5ce2b99559f29e2f5e7f62557df099cbdac0c2b|2019-10-26|Piotr|Added circle progressbar
+6baf64f72e923cbbef175a6fc1728c2f65f852d9|2019-10-25|Philippe Cochin|Working game
+89ae6ce8020c4a4e384203f2b94b2fdf30bb276c|2019-10-25|Philippe Cochin|Working confetti
+f0f6b356d0be376e95871b7699530925731fa15e|2019-10-25|Philippe Cochin|Nice Goal
+8ba29cd2b0cd62b28d636c03f81562c4a87b9c66|2019-10-25|Philippe Cochin|Working donut
+dc59da3361d8806b616d95e2ab8c78cad0450922|2019-10-25|Philippe Cochin|Working on the donut
+31c329fd337e0f9f4c9a8b1e95aef3faf4b5bf11|2019-10-25|Philippe Cochin|Merge branch 'dev' of https://github.com/JStrebeyko/quantum-game-2 into weasel
+7b778ab52ec9a7e23f19ae6d2b4ac25fc96de7de|2019-10-25|Jakub Strebeyko|uncomments Goals
+daeb65e8ec14f6a7809376f371e1b4f012c245e2|2019-10-25|Philippe Cochin|Merge branch 'dev' of https://github.com/JStrebeyko/quantum-game-2 into weasel
+8dbd837d7260713246dcc1cdeede015ba83fb375|2019-10-25|Philippe Cochin|whatever
+f2d01d5880d3e0b71e6433442e69a546134d6f80|2019-10-25|Jakub Strebeyko|merge with klem
+83de117031c9d116f5e50a9199718dadd32d861b|2019-10-25|Philippe Cochin|Changes
+1d3f0dafdb17418342bbc4a86902be005d205a68|2019-10-25|Jakub Strebeyko|halt work on responsiveness add default prop to tool prop on QCell
+a73b870c69f640d61dadbb76e34e89e825edd48e|2019-10-25|Jakub Strebeyko|add refs to grid, cellSize variable name change, get rid of photons
+224db92dfd3451310366ff57cfce29b0d5375270|2019-10-25|cqt|changed overlay, homepage, commented upper goeals
+3b1a931057ca28aa408c5ac7f40ea8ce5833ef8b|2019-10-25|Philippe Cochin|Merge with kuba
+29eaa0032e1a9c4877b3eb1267bea736afe5815f|2019-10-25|Jakub Strebeyko|lint changes
+5373dc72f4c43d71d24fb020035be04ae7bdc725|2019-10-25|Jakub Strebeyko|fight off merge conflicts
+e40f99ffa653cc5fb3b1c966a566c7cf7d25f377|2019-10-25|Philippe Cochin|Working with weasel ;p
+67de35c31da9afc58c805de7d737d1abd6d67ec2|2019-10-25|Jakub Strebeyko|merge
+3e42c2c0c190f32edfb98769bef68188c1c29132|2019-10-25|Jakub Strebeyko|- Responsiveness [WIP] - Comments in Game.vue
+dc845d403247c21197b12e0ce4dbe5c333760d0e|2019-10-25|Philippe Cochin|Updated types
+c983f4aca8e786fe423ee3c710bf5aa80c946eb3|2019-10-25|Philippe Cochin|Upgrading types for qw
+f737a582c5dffb14c8e78682d11236c03debf741|2019-10-25|Philippe Cochin|Merge kuba
+2adab82ad1b7fbf3f92a12ae1b8d7619fbccab4b|2019-10-25|Jakub Strebeyko|have the piceces the descendents of a general Piece component
+64dfb9eaf24c6f9d8d013a779f42877968b9b3d4|2019-10-24|Philippe Cochin|Working laser path after rotation
+1866c26612248d2432776d16091820833d323cc4|2019-10-24|Philippe Cochin|Changed the interfaces
+3fed92d127fa5184b61c37a53b4048f5489d271b|2019-10-24|Jakub Strebeyko|minor updated: SpecchBubble WIP, Piece.ts WIP
+3ef57071b938a8b8336688906da972e7e335c7ed|2019-10-24|Jakub Strebeyko|merge
+ef86aac8ccdce05034585d3515e92a153c31573e|2019-10-24|Jakub Strebeyko|adjust
+17cddd1c60c513b83eca0c61f6a9cfc1e1fd1f43|2019-10-24|cqt|vue svg elements working properly
+cf1e5f2d3c70b9c4e265c6738b91bfbae72be21e|2019-10-24|Philippe Cochin|Working laser
+f60942fe44bf40e8d0ecf4bdf680838f55c6f977|2019-10-24|Jakub Strebeyko|Merge branch 'klem' of https://github.com/JStrebeyko/quantum-game-2 into dev
+75b911a57baadc5817e2f6388241e23d1bc1f604|2019-10-24|cqt|mergeMerge branch 'dev' of https://github.com/JStrebeyko/quantum-game-2 into klem
+4c1ce8c42b7d2a6a92a6d378df3999b8597e50c0|2019-10-24|Jakub Strebeyko|fix detectors
+faf842af5f731331fcac6f4008db574a32b3b16a|2019-10-24|cqt|mergeMerge branch 'master' of https://github.com/JStrebeyko/quantum-game-2 into klem
+34daeaee0ceb09feedf7f33fcf4b55d38e2d30be|2019-10-24|Philippe Cochin|Merge pull request #1 from JStrebeyko/weasel
+b20b794443437cffca249bc812448723acb0e7e4|2019-10-24|Philippe Cochin|Merge pull request #12 from JStrebeyko/weasel
+9508dd9e01aa12cbe3af2bf3e9479a8d7a9bd822|2019-10-24|Philippe Cochin|Updated paths
+e105406cb3e536ecef30b5cbfad332bdc8a1ea96|2019-10-24|cqt|merge
+01a55ec4d4783869a312c078b9f8bed56e10ebfb|2019-10-24|cqt|wip homepage
+d7fcfbdc59d78db94d7031f7eed727da26cff4c2|2019-10-24|Jakub Jan Strebeyko|Merge pull request #11 from JStrebeyko/master
+8994ea7de751899e12d2fdf61cb7a1d5ec66d051|2019-10-24|Jakub Strebeyko|comment  out donut
+3df8a12bcbb0005636d1175168f0cdcfb96a3dc5|2019-10-24|Jakub Strebeyko|suggest defeat
+f0d489a278483818ddf62f88fb14eeaa9cb2e642|2019-10-24|Philippe Cochin|Refactor svg
+bb2f07e45c847e2eefa7d8f7fa26f810d950a35a|2019-10-24|Jakub Strebeyko|put cells on top of lasers, add conditional for rotation of tools
+12e7fc500d4ba78da393e33e6b91246568076d05|2019-10-24|Jakub Strebeyko|addd keys to controls, stard figuring out cell for toolbox
+56d9511131142403b782829ebfde229c6d4003a8|2019-10-23|Jakub Strebeyko|make sure grid merge was successful
+efb01001547204657f721b8ef7d8e9e0ab6bfec5|2019-10-23|Jakub Strebeyko|merge
+5b74854df884820571b2dc5b10d0f1cd42202e8f|2019-10-23|Jakub Strebeyko|refine elements, cleanup, naming
+8a19dda073aef0f30f23d00e228db697f1b76b6c|2019-10-23|Jakub Strebeyko|Refine piecies + cleanup, fix naming
+820102c5cf3e31c24884b32d8d538abb95ef85bd|2019-10-23|Philippe Cochin|Dynamic laser paths
+f5ba0d20b6dac961246b6c6473b5c5f782d796ef|2019-10-23|Philippe Cochin|Added dotted laser paths
+b44f3b1d3d424c00a7b3b131bb3f8f18fd5d8c94|2019-10-23|Jakub Strebeyko|Merge branch 'weasel' of https://github.com/JStrebeyko/quantum-game-2 into dev
+cae0e357b306d4be0eb12c8e8b199aaec97b948d|2019-10-23|Philippe Cochin|Rotation working
+e5c4b4c0de5d994235da52910405dcf966e3ca74|2019-10-23|Jakub Strebeyko|yet another merge
+dbf2c08a062cf749b899f5409021f03ac27ddb72|2019-10-23|Jakub Strebeyko|merge
+31a17c920c72a2539c571cb503a02f5d9ee38045|2019-10-23|Philippe Cochin|Kinda workin svg grid
+ea73e98192a2536418fc47d6eb7b0431a8d39df5|2019-10-23|Jakub Strebeyko|fix the grid after some experiments
+d65574dc55b8b635f50ae0443dd7b068c806793b|2019-10-23|Jakub Strebeyko|try to recreate gird as divs
+fd414dac694d777b21ac2af3904e03e2d95c1dce|2019-10-23|cqt|lint & allow for outline testing
+31b646f1037d8f5173f9072b658156bb05593be0|2019-10-23|cqt|merge
+444f7e136652cda5491e51cf79b70b30dcf9f223|2019-10-23|Philippe Cochin|Commit from kuba
+913485dba873e021ff2633b281bacc48be127ed6|2019-10-23|cqt|fonts, controls, toolbox, c&q buttons
+9ee8b1c8e4ccd8f15a83d6497c74c29d2d1cf378|2019-10-22|Jakub Strebeyko|svg shim, style adjust, deploy
+c852c7734583491dcf2f374661eb1d6007852caa|2019-10-22|Jakub Strebeyko|Overlay rename, extend interface
+e55d12ef840abca4ef22a6de65bddb075e0f4873|2019-10-22|Jakub Strebeyko|add win overlay
+229815eba661393d826cbe65347ab5e7613fb589|2019-10-22|Philippe Cochin|Connected goals and probabilities
+1dd0a50ebdac934a520ba0cb6606b345b953a9e5|2019-10-22|Jakub Strebeyko|merge
+68dac878bf81017623288bc209fd03a1ef39abd6|2019-10-22|Jakub Strebeyko|Merge branch 'weasel' of https://github.com/JStrebeyko/quantum-game-2 into dev
+7195bd2551569f5d7f0e8da8b6ae5662c640f938|2019-10-22|Jakub Strebeyko|remix the entry system to be able to shuffle contents' images and text.
+3dfcb9a5e828d64778fb3dbee8fe8608172e4ec3|2019-10-22|Philippe Cochin|Added goals to levels
+494cf61f05fcb1e188de661aaf3778bb96f2019b|2019-10-22|Philippe Cochin|Added gameState and photon quantum probability
+72c14d07c871a27c41021d70c9fc212d6fa68bec|2019-10-22|Philippe Cochin|Pulling from Klem
+385c21d5512a6f4c159cffd69cf915dccc34ef10|2019-10-22|cqt|dots, buttons
+eb5b62953cb3449893f2601861423d3aea7f4a5f|2019-10-22|Philippe Cochin|Added particle intensity and frame gamestate
+0fba31ccc1ded5e909d2858120daaf043a6f31ad|2019-10-22|Jakub Strebeyko|encyclopedia folder renaming
+7a76676e3e553208d1aca27b6d8616ea21618485|2019-10-22|Jakub Strebeyko|final merge, lint
+62a71c85c7142e0425b3dc9634a55df538fccb53|2019-10-22|Jakub Strebeyko|merge
+dcc9a3651062f98628b97e91308e76beb0dcf287|2019-10-22|Jakub Strebeyko|merge from klem
+d86e18aaa7447ce64a59c68b45be7c697eb37bd5|2019-10-22|cqt|merge
+ea9026c99bc0804b0b4abe55401714ae4ff86bb0|2019-10-22|cqt|merge
+e03627f1f8fedcbac7a27794d42ee10d64acd366|2019-10-22|cqt|game page changes
+1dc701368195fac7ecf86e00de4491c18448e120|2019-10-21|Jakub Strebeyko|merge
+39dbbc683ad20c7f79a99c2a55373695dc334955|2019-10-21|Jakub Strebeyko|-prepare tray, controls, goal meter
+088b75f4f7f1f983fef70993be4f40fb7f5074a2|2019-10-21|Philippe Cochin|Laser lines working
+e95dd8655a08a50105d1827f22aa1eda8316a5b8|2019-10-21|Philippe Cochin|Merge
+0c95b85bb903ab01897d2c74f7abf2c73844e815|2019-10-21|Philippe Cochin|Laser lines
+517ee46d9e31e02544d65b97baa8cdc9d4ccbd0e|2019-10-21|Jakub Strebeyko|merge
+7863726eaab9921e094e272d009d6a1fc08e53f6|2019-10-21|Jakub Strebeyko|lint
+15dad63e189f9ec51297b94423cf9ddf7501f308|2019-10-21|Jakub Strebeyko|Merge branch 'weasel' of https://github.com/JStrebeyko/quantum-game-2 into dev
+07bcebcba7975ec2e0d9820f3224719ebc126ba7|2019-10-21|Jakub Strebeyko|Merge branch 'klem' of https://github.com/JStrebeyko/quantum-game-2 into dev
+a65e3e711dfdc2af1dd09a54c9682ff65ad98abe|2019-10-21|Jakub Strebeyko|start with the goals
+b0644de1afd47309cb0e4805f1f50c4690811957|2019-10-21|cqt|updating the game page
+9b9c928ab943f1f8450ff4c264c3fca5d1e7cfa3|2019-10-21|Philippe Cochin|Added correctly rotated elements
+51b95e1333795a26d7958c6b94f35ea881f08173|2019-10-21|Philippe Cochin|Added levels
+deabb6df82c9950ffd6e1938ea169f3b3fd863dd|2019-10-21|cqt|i this is a merge messageMerge branch 'dev' of https://github.com/JStrebeyko/quantum-game-2 into klem
+c38a3292a035cd930a19ea5237b5f2342469e922|2019-10-21|cqt|merge
+687c9dd8a294499a96b1ee602eb929da4f963e85|2019-10-21|Jakub Strebeyko|-turn qbuttons inline element to true; -update Readme; -add next/prev buttons and clean up the Game.
+2fb32ef04612ab2018f7f24b4dce3535abc99698|2019-10-21|Jakub Strebeyko|update firebase cache
+eb1606411029ab0026668c31ca9d7443313394a9|2019-10-18|Jakub Strebeyko|add level list
+94e5c2aad7328500053db54b76d09a9c37fafd36|2019-10-18|Jakub Strebeyko|merge
+53994b27088554ac12dd5ceafe67a1e120a6534b|2019-10-18|Jakub Strebeyko|adjustments after the dangerouse merge
+351c283c8038ff2aed7179a5df2d2cdbda79f7b7|2019-10-18|Philippe Cochin|Level loading
+56607d08fa68d1dfcc06e65db9d48ac9e3f00373|2019-10-18|Jakub Strebeyko|merge
+7af99e7e7ebf56ec311fd5e20804d132792f1fe4|2019-10-18|Philippe Cochin|Working photon and sim
+d7f0f0d6c44b7aa2202ae782560657138b806953|2019-10-18|Jakub Strebeyko|merge
+196c52e3aa30ce36c5740e057f774f7b56ab6e40|2019-10-18|Jakub Strebeyko|dangerous merge
+901065af9b6eec3ead467c1471da2004c06d21e7|2019-10-18|Jakub Strebeyko|create sections
+0e27e7e9ef844438c08d8f2d82a424fb512d1448|2019-10-18|Jakub Strebeyko|scope styles, move game files to game directory
+f69e1e34351fc437a2658bd485d83c4207a84fdf|2019-10-18|Jakub Strebeyko|Merge branch 'klem' of https://github.com/JStrebeyko/quantum-game-2 into dev
+2f0f51fa030976227c4e8194523bcb6a77242999|2019-10-18|cqt|merge
+c762db19b4b88ebd5b75f8679f521697dc181bb6|2019-10-18|cqt|commit my changes
+45bb2874be340f09777c3027ecd901ad6cf7966b|2019-10-18|cqt|merge
+e6e25a19be95176174c392045eac4ee3ca4354c5|2019-10-18|Jakub Jan Strebeyko|Merge pull request #7 from JStrebeyko/weasel
+40ee7a11dd8c1a08daaa0d59bdd8001f3b4223e6|2019-10-18|Jakub Jan Strebeyko|Merge pull request #8 from JStrebeyko/dev
+9ab5de519854a0b5291caf2a16914534e30b722b|2019-10-18|Philippe Cochin|Removed h3
+89fe54214844f409c040a905d3700194ecd8ccd8|2019-10-18|Philippe Cochin|Merge Klem
+42c4d913d3387f25491fedd086d0cb2923dc2671|2019-10-18|cqt|remake enclopedia main page
+8d9cf8930bbaffddd7025368a63a269da9903893|2019-10-18|Philippe Cochin|Photon from dev
+c506fcbaef313ce863952ca1e4098a8fac69d5ff|2019-10-18|Jakub Strebeyko|start doing the you photon view
+2dd755a7f1ff79bfe508927f7a26a174315fc5c1|2019-10-18|Philippe Cochin|Merge incoming
+cd1ed64690f3f87fa3845237f1bf46b8bf9504ff|2019-10-18|Philippe Cochin|Working grid display and 20 first levels
+0610d34d8f0cf1c0086e54e119c15b2eb02f5bd6|2019-10-18|Philippe Cochin|Forced scoped scss and corrected names
+4fceca5041dcb4ac80b54b88b382c8abb2102a2d|2019-10-18|Philippe Cochin|Refactoring...
+5f6b317e682be99bd410516086318d7a94204b48|2019-10-18|cqt|add links
+b9e352f2c5d80ade7f010405a5de28180c7a458c|2019-10-18|Jakub Strebeyko|lint
+425a61ddd63981c4ec6828044aebfe159ca0baae|2019-10-18|Philippe Cochin|Fixing grid
+1a4372bc4a961a2571ba0b282d8e1d9d92e3de8a|2019-10-18|Jakub Strebeyko|Create Game View Layout + fix problem qith QButton props syntax,
+8451dc3b47627af87d8aa3f223fd448e63320b39|2019-10-18|Jakub Strebeyko|Begin working on game layout: - enhance q-button with inline, - engance simulator viewer -tweak layouts
+1dc8e48dc5e7bec2041bc55206c18e3ec04e199b|2019-10-18|cqt|merge
+17de6f6e893c30394f79bbd68249a1c9f6dbc15d|2019-10-18|cqt|links, background
+bc21e3eec1839212910546eb337b1417061d6951|2019-10-18|Jakub Strebeyko|disable eslint rule for dynamic require line
+eb8a26713feb6b144ae432723852137f388d7c9c|2019-10-18|Jakub Strebeyko|add firebase cache
+0378c9d152201cdb970e57d27eaa56466d9d4d07|2019-10-17|Jakub Strebeyko|have the simulation going, add a photon, simplify cells
+abd9507eec3dd5b2929738150c8b4e45715cdebb|2019-10-16|Jakub Strebeyko|remove a newline :P
+7a1a9ca41dddc3a31a0ecb1d96fe8a04e80fc467|2019-10-16|Jakub Strebeyko|add types for levelData
+b670cd3df65d40719f2e33c84a143048d23316f7|2019-10-16|Jakub Strebeyko|merge klem changes
+6e6ace5defd7b979dbe8fbbe070ec1b753c98f0f|2019-10-16|Jakub Strebeyko|merge
+66321783f05a3244c735525a7e2efbca8c174da1|2019-10-16|Jakub Strebeyko|start small with the board (third time)
+5d86309bc6b93dda8097453cd1f7988c99084a4a|2019-10-16|cqt|Encyclopedia+homepage
+6556d8a14d9c59e2919ea1b0deab70dddc6237f1|2019-10-16|Jakub Strebeyko|Add firebase honsting and other minor improvements
+7c5afc0186a30dd125620881a502a279278cfd25|2019-10-16|Jakub Strebeyko|add entries listing logic
+b57e6243b6e775a8f5786218e28a46d86d89d869|2019-10-16|Jakub Strebeyko|add some more styles
+882378919f3f4153734a76f7666efe2832573e0d|2019-10-16|Jakub Strebeyko|add styles to encyclopedia
+c1c235ebadce1a617ccb8bb5a3d95de57fc437af|2019-10-15|Jakub Strebeyko|- add main layout max-width; - adjust App's positioning; - delete qMenuIcon as a separate compoenet; - add qManu entering/leaving transition and ESC keyup eventlistener; - uppercase entry section's titles programatically;
+19a39a8330319ffc2fd5ca1ce34d35b14d5a7f9a|2019-10-15|Jakub Strebeyko|make it prettier
+e1b224f4a7cfc0c35f850514c8c8dae75d2b22c4|2019-10-14|Jakub Strebeyko|merge
+dda43bce579e5539b31201df796f781a64ed84e9|2019-10-14|Jakub Strebeyko|Scaffold menu, -serve images in entries, -have the isOpen for entry section be props derived, -autolint
+58c2968c3208f54fd638f65d8f4395ae0ceec3c3|2019-10-14|cqt|klem changes
+9aad900d436223a599f52afab3ea634a5f672a21|2019-10-14|Jakub Strebeyko|Cleanup and refactor
+6e8b27aa3b72b56ccd180f9d8c602c9c328a883e|2019-10-09|Piotr Migdał|Merge pull request #5 from JStrebeyko/dev
+2bf0cd8a21267992dc48ba136ac94afba4362a48|2019-10-09|Jakub Strebeyko|Add original work's classes for reference
+9a3e9fc3e9b9cbe0981041095a67ff9fc1bffbbb|2019-10-08|Jakub Strebeyko|lint files, add prittier and pointer clas
+9d5bf6d36eab32a11a8f91b175c592ea3c67038b|2019-10-08|Jakub Strebeyko|deteing yarn.lock as it included some crazy, non-exitent dependencies
+a857c2b2303c1f60dc6bed1ab16e4b4939c49126|2019-10-07|Jakub Strebeyko|Add pieces, add levels,
+80bcbc3aa9ce11b016d377ccc401597108f44892|2019-10-06|Jakub Strebeyko|- Fix Board and Toolbox loading strategy after levelloading; - Clean up a bit
+6fb984c38920498ecb0b08af08492ae3e295b1c7|2019-10-06|Jakub Strebeyko|- Simplify a bit, - Use eventbus for board-toolbox communication
+568a9c7f1916e63ee6f15b137b78398cb6feb74f|2019-10-03|Jakub Strebeyko|Implement level leading logic
+0d0469d0b74ea7ab7a835432cfa6b7e17083ceaf|2019-10-02|Jakub Strebeyko|- fix octaDirectional elements' bug; - sync routing and state in preparation for level loading
+890668c45b8088a3b721bb1ca3ba5dea0b6a6e72|2019-09-28|Jakub Strebeyko|- Add rotation functionality: - Create cell and adapt graphics -  Improve toolbox with quantities tracking, proper event handling
+2faa6625b1dd64804aa8fae880ea191c5f87314a|2019-09-27|Piotr Migdał|Merge pull request #4 from JStrebeyko/dev
+1f018bd884380f13d4e35a901fd6cc2e3c90d9d0|2019-09-27|Jakub Strebeyko|-Refactor code for BE communication compliance; -Abstract some of the dragging functionality, which allowed to disable dragging frozen elements and block ability to drop on a tile aleady occupied; -other, minor improvements
+4ba20d3b3588668f55df297df595e14f0910c09f|2019-09-25|Piotr Migdał|Merge pull request #3 from JStrebeyko/dev
+5009f530036b4ea4c5d2d4a9daeb472d8bd779ea|2019-09-25|Jakub Strebeyko|Introduce Drag & Drop + create ToolSlot;
+c2848ad1e2132348b1f035f5a71857c9dde7aba1|2019-09-24|Piotr Migdał|Merge pull request #2 from JStrebeyko/dev
+534278a8a8c84baa7b919994e73672255680f56c|2019-09-23|Jakub Strebeyko|- stub the positioning system; - create a board with tiles; - add VCC & VPD devDeps; - tweak eslintrc; - toggle experimentalDecorators to true; - enhance store; - start with minor styling
+080ff2092704077b4c49c7600111a48cf00e82fc|2019-09-17|Piotr Migdał|Merge pull request #1 from JStrebeyko/dev
+867282b24832bf7a865f0e694f974aea3ebadc8a|2019-09-17|Jakub Strebeyko|Scaffold the app
+660775e347db434df27f97c5555e187bd69daa78|2019-09-16|Piotr Migdał|Initial commit

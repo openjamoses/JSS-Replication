@@ -1,0 +1,476 @@
+f9a015a5664dce88ca99f6de85eaf5376ae0cf3a|2020-10-06|Antonio Martinez|Updated install instructions for new TF and Bazel versions (#343)
+3c2e5099553cbab47e60ff049065d0fba1a16f85|2020-10-06|Antonio Martinez|Update deprecated Cirq names (wavefunction -> state_vector) (#403)
+1f3f532d8a8324791d7afcceb958246bb21de663|2020-10-05|MichaelBroughton|Updated build_pip_package_test.sh to use requirements.txt. (#401)
+44cfbb7cb5879adec7fb4f69d241b71dab28595f|2020-10-03|MichaelBroughton|Bump cirq to 0.9.0. (#400)
+c7023a472ff5b4b0286776f62309adb49758f60b|2020-10-03|Roeland Wiersema|Spin dataset (#304)
+b60a0a9d9102f7d3a62417d97ed592192a8f9ed3|2020-09-30|MichaelBroughton|Upgrade to TF 2.3.1. (#398)
+a8e71f8cb4dec517365a93c5f81ebb9e2f89776d|2020-09-30|MichaelBroughton|Removed unused release files. (#399)
+99ea744eec0b7f01a23eabaa70789cca6d6c0169|2020-09-21|MichaelBroughton|Added missing docstring for inner product. (#392)
+11e7eb7b559fad907c341a70721eb0719da8965d|2020-09-21|Antonio Martinez|removed unused eigen library (#396)
+1fbca34290e98289ae3e0ba6bc294b9531725864|2020-09-17|MichaelBroughton|Inner product (#387)
+dd0b42ea676438b00b4540bf24d43f7eec0ae6d0|2020-09-17|MichaelBroughton|Fix certain invalid inputs causing segfault on expectation ops. (#388)
+18c57af24f60eff4011ecd1985f906f1c951fdd6|2020-09-16|MichaelBroughton|Parsing functionality for program-program. (#382)
+0712199eed1ce77a3b736d886c757ea48d41987f|2020-09-15|Mark Daoust|Merge pull request #385 from MarkDaoust/update-book
+e04ad890ee0f640dc5853fec2ba0144505d01f77|2020-09-15|Mark Daoust|Update book for api gen changes (cl/331666270)
+b910f19d5e0fd13350db12fc2d3c855f87ebed1f|2020-09-15|MichaelBroughton|Fixed memory freeing issue. (#384)
+5e5ed34a97d05b331a5354e45bdf22e707a03d44|2020-09-15|Sachin|Implement rotosolve optimizers (#247)
+bb8dfb8ba14582bba6ca7741b43e4c64e4ee68f9|2020-09-10|MichaelBroughton|Final removal of dead qsim code. (#378)
+9c786f5076a800f1bcdca11a82070c0e724c4d65|2020-09-09|MichaelBroughton|Expanded differentiator tests. (#376)
+89504e0a621e7602a042173113ce6fbf4899a604|2020-09-08|MichaelBroughton|Moved unitary onto new qsim. (#375)
+6faa832684a67fc697020e39de65cf52ffb36c98|2020-09-03|Antonio Martinez|Remove stochastic differentiators pending diff interface update (#372)
+dd209265ea32d00fb9b38682b89b0556204b9ce0|2020-09-03|MichaelBroughton|Speed up adjoint. (#374)
+1cfd843831d83dc7987d701c9e94c0d9cbbfe663|2020-09-02|MichaelBroughton|Added locking ability to unitary op. (#370)
+67faf64d9e984acb29330ccd6bebe0acb463ae47|2020-09-01|MichaelBroughton|Move GLOBAL_OP_LOCK to quantum_context. (#369)
+4d36041d88b92d06ae08adc4ee78aae3c3627cbe|2020-08-29|Jae H. Yoo|Merge pull request #366 from tensorflow/cirq_bump
+c3a1c0f84aa17e59355f0061d2e98277f2de2f8b|2020-08-28|Michael Broughton|Bump Cirq to 0.8.2.
+5644b457e2a904887a0f5e3c7a6d006d054af698|2020-08-27|Jae H. Yoo|Merge pull request #365 from tensorflow/adjoint5
+6fbb82bc315656eba6ba93192194413d0fa85760|2020-08-26|Michael Broughton|Changed default differentiator to adjoint in layers.
+521e0d40bb9405576d86fded50be234d0de8c0e9|2020-08-26|Michael Broughton|Added missing entry for adjoint module in build_docs.py.
+14d9f8a401b2b31971dc39b5a80b0cf72137869a|2020-08-26|Michael Broughton|added missing import_test.py entry.
+231b2e21e4482c347d95b977c9907743e2f7c24c|2020-08-26|Michael Broughton|Adjoint 5/n: Added tfq.differentiators.Adjoint.
+2b8ad8d9b86dec0aed015106a0eb8e5098610492|2020-08-25|MichaelBroughton|Adjoint 4/n: Added basic functioning op. (#362)
+8c85ab228c9cabceacfa0438d7886a7eca307016|2020-08-24|Jae H. Yoo|Merge pull request #360 from tensorflow/adjoint3
+3945cc7dea6735294f92a63a220cd5197d98030d|2020-08-23|Michael Broughton|Adjoint 3/n: Adding parsing functionality for adjoint needs.
+c41fa9f7c460343ec2272a09beb01444923f9801|2020-08-22|MichaelBroughton|Adjoint 2/n: Expand parsing. (#358)
+45a8335839dc348b633641949bc6540c0fadb2dd|2020-08-21|MichaelBroughton|Adjoint differentiatior part 1/n. (#356)
+3d6837a15b53656844031decace0ad78399e7a86|2020-08-20|MichaelBroughton|Enabled low_latency_op_mode logic. (#337)
+314c5785103d4a2aa08f1e216659ecf661de2980|2020-08-20|Antonio Martinez|Added emacs backup files to gitignore (#349)
+1b22033b680b86421f8fdd122fed4878075e3ac0|2020-08-20|MichaelBroughton|Fix Eigen3 download. (#355)
+d9c14b24628cf34ebf6c52bce278ed02b4003ab0|2020-08-17|Antonio Martinez|Batch sample fix (#316)
+e8c5260fada234ce243e594199794e9898cc99ca|2020-08-17|MichaelBroughton|Upgrade to qsim 0.3.0. (#346)
+838d6b05b514951cf93c4ef266a4030f2359c012|2020-08-17|MichaelBroughton|Fixed spin system download issues. (#347)
+eebd2c40ff3750673d4ffa5dbe75724f73030498|2020-08-17|brett koonce|notebooks: minor spelling tweaks (#342)
+a54f5cb44f3fa25308584adfe176253fa49f8c29|2020-08-13|MichaelBroughton|Updated nightly to tf 2.3.0 and bazel 3.1.0. (#340)
+59a658fdef34ca5f5c53398f1e4fbf148bc8c092|2020-08-05|MichaelBroughton|Added tf 2.1.0 under extras. (#333)
+a757648981dcb0a7a32e89ca0c00d21b01824532|2020-08-05|MichaelBroughton|Added quantum_context. (#188)
+fb161a36d24af36aedb17abf958942e1e5036359|2020-08-05|Antonio Martinez|Circuit parameter filler (#322)
+027ec31419c65e0fee7619664597ff9031bbcf6c|2020-08-04|MichaelBroughton|Use all cores when batch_size==1. (#329)
+6e1a023e46d6c3a7c42e3f423324a180749f8615|2020-07-24|Jae H. Yoo|Merge pull request #320 from tensorflow/win_fix5
+1a5581b9b2ca5ec14174820c47037e5b3c9d488f|2020-07-23|Michael Broughton|Missed ptrdiff cast in sample op.
+7605cacb273d125040f6a01f3877bb3dfc24fe0a|2020-07-22|Jae H. Yoo|Merge pull request #318 from tensorflow/win_fix4
+2946c2bea344e95f089fd96e3db735b274c7f05d|2020-07-22|Michael Broughton|More windows fix attempts.
+4739a390cd51d9d09bf3d376ff58f67b5991aeda|2020-07-20|Jae H. Yoo|Merge pull request #314 from tensorflow/win_fix3
+201ee1b3419f9dca036784dee27c80ed0b77ae0f|2020-07-20|Michael Broughton|Removed some templates in tfq_simulate_samples.cc
+dc7fc3bc3383fd3ab454e935975920efb1ce3f44|2020-07-17|MichaelBroughton|Better sampling op. (#311)
+358a934f63235053047deff3fdfb25725c856f52|2020-07-18|Jae H. Yoo|Merge pull request #313 from tensorflow/win_fix2
+954ab15d3a7ca54a31fb2ecc7e00ef04078aa7ff|2020-07-17|Michael Broughton|format.
+cddee4d8b23570001a26b107190e6e9de01654d9|2020-07-17|Michael Broughton|Removed third template arg in simulate_state.
+c2c3e6a5929b568c9aad5453d131955bcc0f7474|2020-07-17|MichaelBroughton|Upgraded to int64 type on expectation cycle count. (#312)
+ec7077d76a6c640e319cf4f27e586d259d834be8|2020-07-17|Jae H. Yoo|Merge pull request #309 from tensorflow/s_expectation_parallel
+b74370e860ee81c89b6c59212299aa79e6002434|2020-07-16|Michael Broughton|Merge branch 's_expectation_parallel' of github.com:tensorflow/quantum into s_expectation_parallel
+58e2edd0f9793ca7d12e7e383b841eecf431b54a|2020-07-16|Michael Broughton|again type fix.
+8a21ec94153da40fbbaf70f13f2c1f63929dab23|2020-07-17|MichaelBroughton|Merge branch 'master' into s_expectation_parallel
+a068f2a34fcc1bb69e35c9926976f07ebdb76d8b|2020-07-17|MichaelBroughton|Added missing reserve. (#310)
+d04dcd38e214e81e1d4cca5528200fcda3177549|2020-07-16|Michael Broughton|Merge branch 's_expectation_parallel' of github.com:tensorflow/quantum into s_expectation_parallel
+9bb3610c3c4a1dadae3c5ea93a6771acacb84235|2020-07-16|Michael Broughton|type fix.
+fd5dce4b875dc0848f35ac895f17279339fd0bf2|2020-07-17|Jae H. Yoo|Merge branch 'master' into s_expectation_parallel
+c6b0d901165d560cd9a93f22892ca06383c40a94|2020-07-17|Jae H. Yoo|Merge pull request #308 from tensorflow/expectation_parallel
+13928f8a86bc4c85c54646c5514e84f6a641506c|2020-07-16|MichaelBroughton|Merge branch 'master' into expectation_parallel
+33463210239e9309dc534129ee1d7300245832db|2020-07-16|MichaelBroughton|Smarter parallelization of state op (#307)
+e7a8602803cdb1ae2b708f839780d069b1dbe1e8|2020-07-15|Michael Broughton|Parallel upgrade for sampled expectation.
+a7c0244cb14d1d17252daae490a3d11041bfb308|2020-07-15|MichaelBroughton|Merge branch 'master' into expectation_parallel
+a6f7381b83cb8f04777c528bd0609210538cc391|2020-07-15|Michael Broughton|Expectation parallelization.
+1bccab0e8751fa062b728ab150ac15420217a881|2020-07-14|MichaelBroughton|Moved Sampled Expectation op to OSS qsim. (#303)
+646a1cbfd34c945834f66198c9f3920c957c5bc0|2020-07-15|Jae H. Yoo|Merge pull request #302 from tensorflow/parse_safety
+afe46c69fe5f21040d90f5c4d3277e8e53a14de9|2020-07-14|Michael Broughton|const.
+d0cfb45d70e106b6aa8cad53d550ad437f6fcc66|2020-07-14|Michael Broughton|Fixed SIGSEGV in symbolmap parsing.
+93f1e2400466a27d62c41f16372e65515971301a|2020-07-14|Jae H. Yoo|Merge pull request #301 from tensorflow/compute_sampled
+de3277c301b213686c3919df12f657c10429530b|2020-07-14|Jae H. Yoo|Fix minor typo
+e701197a7109f517aaa2eba7e6996e6bc6fd5f44|2020-07-14|MichaelBroughton|Merge branch 'master' into compute_sampled
+1cde92108625600716e80708551aa7b58304c3a2|2020-07-14|Jae H. Yoo|Merge pull request #300 from tensorflow/zbasis_qsim
+d4a02ec9017f11bfa76123d8a8e29d5ec5f00031|2020-07-13|Michael Broughton|Jae feedback.
+a12358fc68081592043ae0fffa8f332d0da0a487|2020-07-13|Michael Broughton|Added SampledExpectation feature for OSS qsim.
+028925b6a90b0386bd66ead7e48c3f54d1d3856a|2020-07-13|Michael Broughton|Ported Z basis parsing to OSS qsim.
+d1078aa87fd4aeb3ecc47383e257eb6e6027e707|2020-07-13|MichaelBroughton|tfq_simulate_state uses OSS qsim. (#297)
+8e8b236cf859c04080e77bcaf7d42e98dcba81a1|2020-07-12|Jae H. Yoo|Merge pull request #289 from tensorflow/MichaelBroughton-patch-1
+d4f1798f29c05bb081fe7b8f0725a7ba74b7fd9a|2020-07-12|Jae H. Yoo|Merge branch 'master' into MichaelBroughton-patch-1
+2fe078b0c0d2a4578df671f40b93a0a6313d1d21|2020-07-12|Jae H. Yoo|Merge pull request #295 from tensorflow/qsim_changeover_expectation
+daec8dcb6ccb03fa0e4ce1465512a88c3de25c0f|2020-07-12|Jae H. Yoo|Merge branch 'master' into MichaelBroughton-patch-1
+8e4bab5268592de565150814a4efc6700b0107c7|2020-07-12|Michael Broughton|Merge branch 'qsim_changeover_expectation' of github.com:tensorflow/quantum into qsim_changeover_expectation
+74b117d7bed9d702501a10fff204590061e7a532|2020-07-12|Michael Broughton|attempting to fix forward declaration issue.
+499e13e9ff8306ba444d2c2434a4f7d244f80e35|2020-07-12|MichaelBroughton|Merge branch 'master' into qsim_changeover_expectation
+132e097928e07054f8c48c40ce532b6aba80e02c|2020-07-11|Michael Broughton|Added Expectation support for OSS qsim.
+5ce2df448516a7fead341690743a74832e20668c|2020-07-11|Jae H. Yoo|Merge pull request #294 from tensorflow/deserializer_rounding
+2e0cef4103dab564fdc44e88361eceee8e628e5a|2020-07-11|Jae H. Yoo|Merge branch 'master' into deserializer_rounding
+b96c88347e5f0c514779088573a3d4be1e71c40f|2020-07-11|Jae H. Yoo|Rollback pathos (#293)
+701e697e98892cf8f14a27e75c0b1c9d1a91117e|2020-07-11|Jae H. Yoo|Update serializer.py
+66e3f489eef186002afebdb74f6899d4802fb6c0|2020-07-11|Jae H. Yoo|Update serializer_test.py
+81510154e839a3b8db8ad41669bfdf7977a6b5b9|2020-07-11|Jae H. Yoo|Update serializer.py
+5336e5e3d7099e3001bfa053841e3665dccaa236|2020-07-09|MichaelBroughton|Update util_qsim.h
+6411bd30276432316f1a0a2f036c687859d82090|2020-07-09|MichaelBroughton|Updated simulation work estimates
+cd21f1c607e50899dc327fca7aaa60bb98c7b4cf|2020-07-09|MichaelBroughton|Qsim changeover state (#288)
+361d861e24df1086d2c199678a3f16af54eac99d|2020-07-03|Jae H. Yoo|Merge pull request #283 from tensorflow/parse_cleanup
+00440f53ec53421ae82565c583cb2aae9b7084b0|2020-07-02|MichaelBroughton|Merge branch 'master' into parse_cleanup
+ac1fa09b8cb19a99fd65d75bad668370663b4b58|2020-07-01|Michael Broughton|More robust parallelization on doubly nested loops.
+45ee43825f5ae760749a9d9c9d391bccd528ef4b|2020-07-01|MichaelBroughton|Removed dead code. (#282)
+23f2571bad1204aeef71e3f6f0353888fa8a4e1f|2020-06-30|Michael Broughton|Parallelized parsing operations.
+55d217750ddc2da467473b316df2113fae994620|2020-06-25|Jae H. Yoo|Merge pull request #278 from tensorflow/pauli_parse
+59314fb1b282a1858e942750b77b447b400be666|2020-06-24|Michael Broughton|Add pauli parsing for new qsim.
+c9564b2dcea475f328c8c8cc0b238f2d5ff5a724|2020-06-23|Jae H. Yoo|WIP Fix minor typos (#274)
+5982d37c9040df01316eec0460730aa17402b15f|2020-06-22|MichaelBroughton|Added Proto -> OSS qsim converter. (#269)
+db2eac4e598f614a8c0e157c56313a23ef1943fb|2020-06-18|Roeland Wiersema|Uoft data (#222)
+8a12d3eae7fb0fae01e740481812c465b7021fb7|2020-06-17|MichaelBroughton|Fixed Hello Many Worlds images. (#268)
+0c90033d8763478300a6626b038c7c7ddacb7a4a|2020-06-16|MichaelBroughton|Rename qsim -> qsim_old. (#265)
+4b7f6ae8fd3ebb9206435d75620dbace406f954f|2020-06-15|MichaelBroughton|Upgrade sympy to 1.5 (#262)
+19cd38e63146d3aa59c5cb8b96c7b1a3159cdf03|2020-06-10|MichaelBroughton|Added msan script and CI test. (#258)
+467bd7abe2f4e3ce26ea9bb13d070e648942dde4|2020-05-27|Vinit Kumar Singh|Updated two_qubit_unitary function (#246)
+cdb6153ab1f000f6bd9ec95510ed90b32a8f7f92|2020-05-19|Antonio Martinez|Exponential error patch (#245)
+4ab3d8a7c79372d7878e9b3dddaeebfd479528ba|2020-05-11|MichaelBroughton|Version bump (#240)
+1f050a8ca3217adb56bdd3bf29255a4e8d610ceb|2020-05-11|MichaelBroughton|Prepare for 0.3. (#239)
+41be90dbb13ec35048c99f40df708d869e7bb9c2|2020-05-08|MichaelBroughton|Bumped Version to cirq 0.8. (#234)
+82270b3d43688bc88f283f47ff7f32873780e32b|2020-05-08|MichaelBroughton|Added Unitary Layer. (#233)
+85a75b5166e1746feaf90591a06765bed6defb41|2020-05-08|Rango Yuan|For test examples, use len(x_test) (#237)
+ad828f4492cef6531afc3fdff5d8b6b86c90b022|2020-05-08|MichaelBroughton|Precision fix (#236)
+7dc3140c7acf31e5391ca58d8c7ee264e8cecd86|2020-05-06|Jae H. Yoo|Fix cirq.unitary(np.exp(-1j * op)) (#229)
+0202da77c6bc7565724bb523a25ec065d4874106|2020-05-05|Mark Daoust|Merge pull request #231 from tensorflow/MarkDaoust-patch-1
+dd8610cd6c326bb2715d99b7cfaffb24b42cc19f|2020-05-05|Mark Daoust|Fix gradients.ipynb
+cdee16de8a5a06415b79b397b68e77744d24651e|2020-05-05|Jae H. Yoo|Merge pull request #196 from zaqqwerty/sampled_expectation_backend
+af62b46a1794df089131950486a1281fc1431125|2020-05-04|Antonio Martinez|Merge branch 'master' into sampled_expectation_backend
+2294622aeaca0d302ad15d670d39c4fd6fdc7556|2020-05-05|TianchengHu|y_train_hinge must be paired with y_train_nocon (#211)
+a78c79a460d128e841d1c768a0d07a10ffd1dcab|2020-05-05|TianchengHu|x_train_bin may also be filtered (#212)
+2187b363652c75fb54a7f5a8df7353f24ac7d99a|2020-05-04|Mark Daoust|pin cirq versions (#226)
+ffad92799c031a9c31375d1a68320efee682998a|2020-05-04|MichaelBroughton|Fixed Cirq version problems. (#225)
+a2e96f1513227454354f1996b7b3c4d60dda767e|2020-05-03|zaqqwerty|sweet spot
+649b5b99e83b27b3f91bd0556e1742bc34c77385|2020-05-03|zaqqwerty|revert superfluous change
+6c14b4ab4a61ab72c97d5d305f5a9168fb9da95e|2020-05-03|zaqqwerty|formatting
+c983751508a3db187911e46aa22a97f8259cfae7|2020-05-03|zaqqwerty|upped number of samples
+2bb572fb2006c75004e18b89248152b5fd9832de|2020-05-03|zaqqwerty|all sampled expectation layer tests passing
+4a7090dcbc72dc5e29b613a57aa33a36516227f1|2020-05-03|zaqqwerty|Added check for repetitions less than 1
+574dd74bc8b35187908b5e37e89790a41efdd9bf|2020-05-03|zaqqwerty|corrected typo
+05bf1004c6547c1e3b849ebb0a0cccc44031bc4f|2020-05-03|zaqqwerty|reverted differentiator tests
+74537b27e0192944c60cb1cbda60b53ff8ccbdbc|2020-05-03|zaqqwerty|added back the tets
+8ad702e4b78edf89f55c504b73510108ea4fd673|2020-05-02|zaqqwerty|Commented out other tests
+26b1e3e99187ae1cb6eb69ff9db59b6480c7ba90|2020-05-02|zaqqwerty|max size error
+23826efc51a5cb260c5f80040e46a529b18d35b8|2020-05-02|zaqqwerty|formatting
+4dd711d218f75f8edff64e6e88614b8176dfeb0d|2020-05-02|zaqqwerty|try ints
+5c383e61386c531684234a2294630c8d4979398d|2020-05-01|zaqqwerty|tweaks
+8c953de242c508ad3b687e55ac3942d74f83ad8d|2020-05-01|zaqqwerty|Corrected input error test
+bba260eb1cf58769afc094d0421d553a8091d9c8|2020-05-01|zaqqwerty|Update to pointer
+8f9583fc36e6fa3c03291e6b7949b310ba98f6fc|2020-04-25|zaqqwerty|Merge branch 'master' into sampled_expectation_backend
+21c19693daf0cea91863e4a42ca3a70b3cc02108|2020-04-24|zaqqwerty|Merge remote-tracking branch 'upstream/master'
+ddf4b18a87ff405729e148117b3f3573842d7be4|2020-04-24|Antonio Martinez|Input check refactor (#220)
+21c6a67602d0da143ae159447742cb5e6c16ba5d|2020-04-23|zaqqwerty|Merge branch 'master' into sampled_expectation_backend
+16846e6f6cc885083db70a8e5f1ef3f5c754b9e6|2020-04-23|zaqqwerty|Merge remote-tracking branch 'upstream/master'
+6efc39a2ab73693d3417d40516935788188306b3|2020-04-24|Jae H. Yoo|Change size_t to ptrdiff_t (#219)
+856e198227ad3e4777528cf1b90c09d0f6dd2f4c|2020-04-23|Jae H. Yoo|Merge pull request #218 from tensorflow/win_fix
+482239db53c84de53e942e84443d6ce96cc6014a|2020-04-22|Michael Broughton|Fix windows compiler warnings.
+42d04622e67dd5f122ef9c423e7678e7a8c98d50|2020-04-21|MichaelBroughton|Added tfq.calculate_unitary op. (#215)
+c55b0af391f2245c52198c289e23f01664130cbd|2020-04-21|MichaelBroughton|Added python version support. (#214)
+dee7653864f2ab0ed2cb38e9be9f1c9593e0439f|2020-04-21|MichaelBroughton|Added support for Cirq.I. (#209)
+7ff60baee7f7da0d2e09a5fa51f84c5ed951f35e|2020-04-21|MichaelBroughton|Pinned version of google-api-client. (#216)
+c1c23dbff2b81cd4ae0d5ce021be04af42e87c69|2020-04-20|MichaelBroughton|Add Unitary calculation to qsim (#205)
+18e9cb70a14d6cb64891222f7042561f6a94ba3d|2020-04-20|MichaelBroughton|Fixed formatting causing autograph problem. (#207)
+f2bab10e114592d6461393d0649565f34eec27f4|2020-04-20|zaqqwerty|Merge remote-tracking branch 'upstream/master'
+19c41fd6aa48ae7523142b9d4367e7347edb225e|2020-04-17|Billy Lamberta|Add Dev Summit talk to landing page. (#204)
+a0d95f01e4002de03614481dd2d8f381a98bfe84|2020-04-16|MichaelBroughton|Cleaned up sssssmart poiner usage. (#202)
+4d80eeb627fb397f2b9760d8be8295ef5e45c7c2|2020-04-15|MichaelBroughton|Cleaned up SSE expectation. (#194)
+c595e0a7c6093095a0866751de13aeb053b4ac2f|2020-04-13|kristenrq|Update meta description (#201)
+ce2f1b0354383e0238ce1c718b70a0b6d26dc276|2020-04-09|zaqqwerty|try adding other checks
+8604f7260ed3f3016cbe5131564023451accc51c|2020-04-09|zaqqwerty|Updated docstring
+f19808674cf3ec08336426344fa1826569f49019|2020-04-09|zaqqwerty|updated type
+c6594aafe894656773198890ac7560b87dade7ca|2020-04-09|zaqqwerty|uint
+d7404c212a6e7da23bb1e442cad04cffc0ffe806|2020-04-09|zaqqwerty|add int
+21259edccf068bb6d644b3b293e0604642147641|2020-04-09|zaqqwerty|lint
+fd2872ae1d2417766af3a1e2e815f1b2bc83c079|2020-04-09|zaqqwerty|rank
+2200483f94933d2a1e8cbdf9e78258fc211d7c4b|2020-04-09|zaqqwerty|formatting
+668499deb2b7f9a62fe080b51127dba544d91899|2020-04-08|zaqqwerty|Update build
+f3aa60da964fa595c68bda92bfb5fb32cdc4f047|2020-04-08|zaqqwerty|Change to portable int
+539c6968f4744919d11a6bea37202aa1072a1054|2020-04-08|zaqqwerty|update build
+64c83993c0685c34c1a58c4d9f7a3f8f88362198|2020-04-07|zaqqwerty|Merge branch 'master' into sampled_expectation_backend
+4adaa3a0a97bc51ddbf3595778d1d0b7894fb241|2020-04-07|zaqqwerty|Merge remote-tracking branch 'upstream/master'
+c24b8f51d6228bd33dba82f4d9741506d9068c22|2020-04-07|Antonio Martinez|Sampled expectation calculator (#189)
+1a752b1b5dccfdfd14278147f1657ddfd36b60d0|2020-04-07|zaqqwerty|Merge branch 'sampled_expectation_calculator' into sampled_expectation_backend
+0d650c058c43f6886446d4dbe2d9ee25974a26e1|2020-04-07|zaqqwerty|adjusted test precision
+e05bca9657b756faea597c2469110fa1f7be2556|2020-04-07|zaqqwerty|Formatting
+3b8bc3941a406a5c797bdcf67d14e59fc72414dd|2020-04-07|zaqqwerty|Merge branch 'master' into sampled_expectation_calculator
+49bbe618338a5d3176093594ac3f56d552a566f0|2020-04-07|zaqqwerty|Merge remote-tracking branch 'upstream/master'
+2abffda7573635bb974b92d8f217c007d79b8252|2020-04-06|Antonio Martinez|Localize endian conversions (#192)
+9b37d16a1003ffa13e5e4ec417750e91f49f61b3|2020-04-05|zaqqwerty|added test
+bbe882688ba4d32212241cb0b53c4fdea6fbb3aa|2020-04-05|zaqqwerty|changed to one lineer
+e743b6a03c53340578fe198e4990af0902842387|2020-04-03|zaqqwerty|updated variable name
+0276c950165a172fe8e4b540b6ab5d57d36c1cb0|2020-04-03|zaqqwerty|Merge branch 'sampled_expectation_calculator' into sampled_expectation_backend
+edb32607a62bc8813cbaa2e83c9a696cec3b096d|2020-04-03|zaqqwerty|Fixed tests
+443192b44c7aa902f2669678975d850244633b87|2020-04-03|zaqqwerty|Added bitmask function
+7d26f54984ebfed24986f9e1e5a60dba7ccbbd01|2020-04-03|zaqqwerty|lowered precision and samples
+3ed118af437069d8a9e37cb9509272ed5d4e432c|2020-04-03|zaqqwerty|removed double
+578da49aedd6b0b0dd226ff5ecd42afe4a27dade|2020-04-03|zaqqwerty|formatting
+4184699eb75ad084cb63d4322e9e7c7ed4097409|2020-04-03|zaqqwerty|Removed old comment
+e4e35c244b9e47a17a1e883625eaf4b7f84eea56|2020-04-03|Antonio Martinez|Needed expectation value reset
+cb6aaf94d92a7f3d76fc7b1585a4e1cbaec3ce52|2020-04-03|zaqqwerty|Try explicit test
+9cf07015ff07610e585484ace3922956afdb418b|2020-04-03|zaqqwerty|Sampled expectations make no sense
+53edf586d898e13351cb495eca60157eebabe8e4|2020-04-03|zaqqwerty|removed hash set
+78bfe4152026d1ae352a5f96af980d29dce8a7c9|2020-04-03|zaqqwerty|Removed unused header
+457fe4948154997b9ac6f342a5b23927435e3ba4|2020-04-02|zaqqwerty|Merge branch 'master' into sampled_expectation_calculator
+c6bf4a88b2d1c153735a2ced80a6843493a46dca|2020-04-02|zaqqwerty|Merge remote-tracking branch 'upstream/master'
+66b5deca719086641cab98d0df816056daf1b26f|2020-04-02|Antonio Martinez|Parity checker (#187)
+b399127f5b1b84de79ac32d9935c0ceafb27416a|2020-04-02|zaqqwerty|Removed unneeded file
+0d8f6317096ead988f61ff7d1cd714e11de74fbd|2020-04-02|zaqqwerty|Merge branch 'parity_checker' into sampled_expectation_calculator
+8306c383250b3c97be1ae4aa2ebd50035c9bd38d|2020-04-02|zaqqwerty|Removed unused header
+3efebae5a89a8c17c911429a8b4df5acf264d89b|2020-04-02|zaqqwerty|formatting
+e3278456a0d7eac89104ecca6fc865689bb5fe51|2020-04-02|zaqqwerty|tests passing
+ed9d103cb00dc205cd19aaa088411eec45029fd4|2020-04-02|zaqqwerty|Update test
+d29a4b1f99bd10fd2c59d90fb6572c6e6eb5ed05|2020-04-02|zaqqwerty|updated imports
+2ad43c19b7097e63b7c26970255e76d3706165ee|2020-04-02|zaqqwerty|Added Michaels faster bitmagic parity checker
+ffca4cb5508fa3da944ef534a57ab7e5a68e0dcc|2020-04-02|zaqqwerty|formatting
+6aeca5df53f115995a7ccd8c47d20fa596ffa29d|2020-04-02|zaqqwerty|brought in parity checker from main branch
+a5aaec126bac5266eb3ee6ee9969f4650b619e60|2020-04-02|zaqqwerty|updates
+9c30dddf75f85f6416b2ee65c95b495debbe6cd6|2020-04-01|zaqqwerty|Added comparison test
+9253a8bea4aea3b54573a6baa4c65debfe511605|2020-04-01|zaqqwerty|Finished test
+99b472ab9e4b89097f38963d74c6d62c5811c76b|2020-04-01|zaqqwerty|tests added
+8c2e892809c3c3f07675ef5e78e7e83fefcf3d7b|2020-04-01|zaqqwerty|Initial test
+95943da3793f701a56d948ad31bbaf3a3843bc51|2020-04-01|zaqqwerty|Initial util test file
+2d1812eec4e9c5410b05f9f55dab0c79c29b5004|2020-04-01|zaqqwerty|Update build
+0f4e9891b3410079c0d87b07343cdcc1c28d4037|2020-04-01|zaqqwerty|update build
+1cd340291af1be5f9e0fe683160c7b64a96adc48|2020-04-01|zaqqwerty|Sampled expectation function finished
+870f0e627a974f8c1f2a51a62d5c2026eacd40fb|2020-04-01|zaqqwerty|Added parity calculator to util
+95b2b333afa7f0e60963211d6fbc32b9f625a6ba|2020-04-01|zaqqwerty|Initial sampled expectation function
+d97faefc5ac0fdd47a5201161caa97a77930208a|2020-04-01|zaqqwerty|Merge remote-tracking branch 'upstream/master'
+519c55fd9ecdc5bf5c2de51cc69dbbf2094fe911|2020-04-01|zaqqwerty|Made num_samples 1D
+ff62b3aad10c3ec51120025e94b6bf8727f81f22|2020-04-01|zaqqwerty|Added num_samples parser
+1cac4ed2c227c4cf1c2a131c4bdafe84d2b0b7f3|2020-04-01|zaqqwerty|updated dim size
+f6a97e0a66194d652fec18c3df151e5d948f164c|2020-03-31|MichaelBroughton|Update install instructions (#182)
+2447acce66d2eb823429e5a2d85ff692a891e51a|2020-03-31|zaqqwerty|Initial sampled expectation op file
+f4cbb49c680050ec71ffc85144e28bebe32d01e1|2020-03-31|zaqqwerty|add sim op
+450ada13afd00c8690c5c1977b889d5fb58085f6|2020-03-31|zaqqwerty|reorder material
+fede3b76e191780731fc0f06d2356781fe665ada|2020-03-31|zaqqwerty|Added sampled expectation tests
+c75af8c0088dcd46b8d336645ea35b17296812e2|2020-03-31|zaqqwerty|Added tfq sample op code
+03d04e2c129ebd415c3e60c930eb93cbd9c3da42|2020-03-31|zaqqwerty|Merge branch 'master' of https://github.com/zaqqwerty/quantum
+b92ebb5a23b40a9143235a17f0e12ebf083d66ad|2020-03-30|MichaelBroughton|Fixed state op shapeinference shaping. (#170)
+46aa11bf64664174d5d725b4aec22da7f0d8b7b8|2020-03-30|MichaelBroughton|Added Symbol values function to PQC (#177)
+37d7d0d661950b0904123678aba43b65e9a86e47|2020-03-30|MichaelBroughton|Fixed small oob error in sampling. (#178)
+c483dcde96bceca6fe1dd0d9dad3bc4e8fb49c34|2020-03-27|MichaelBroughton|Fixed bias in sample. (#175)
+650309fbd2ebffd57fd6105b2fe49199a97d2ffd|2020-03-26|Antonio Martinez|replaced tf version (#174)
+92780555fc86c0ac64015c8cfc32f393d02ac9d3|2020-03-26|Antonio Martinez|Merge remote-tracking branch 'upstream/master'
+723e460e1ef2afecfbb545a85b54519a405d3642|2020-03-26|Antonio Martinez|State space tests (#172)
+32bcf5ff19b0fc0289abd9c9f40f94b0767a045b|2020-03-21|MichaelBroughton|Added symbol properties to high level layers. (#167)
+3461d74a6f5cf6f1b8c0309c80140e7b78310961|2020-03-20|MichaelBroughton|Modified layers to use .shape instead of len when dealing with Tensors. (#168)
+88cc029bc3c8a0c931add8425a9cb9d6be7490de|2020-03-19|Antonio Martinez|Merge remote-tracking branch 'upstream/master'
+260ad7e4631ed10109eab9fc34f242cfc1aac3af|2020-03-18|MichaelBroughton|Some small util ops cleanup. (#165)
+fe81a992cb94596a7796c3db05a720fa8388dcc1|2020-03-17|MichaelBroughton|Change from multiprocessing to pathos for windows compatability. (#161)
+4fbd426f0a2d7180d0ea3c0eac5ec3bf4642d289|2020-03-16|MichaelBroughton|Added z basis transformation to circuit_parser. (#162)
+7ab25b12d7f8e5838c0e1aa033e94e9d8ce562ee|2020-03-16|MichaelBroughton|Added Stack Overflow tag to readme.md (#163)
+d5c02073e011ffa8e69eb55d9791cc2fce6b76df|2020-03-12|Jae H. Yoo|Merge pull request #159 from tensorflow/windows_math
+396ffa15917caeda89f842bfd4abd6359cadd463|2020-03-12|MichaelBroughton|Added flag to enable _USE_MATH_DEFINES on windows
+a0ef76b80e33e64b6035e3a31322958fd2e8e945|2020-03-12|MichaelBroughton|Move sample (#158)
+953cf0d93930f2fedafcb1dcaa804cc00aadf722|2020-03-12|abhinavsp0730|Update barren_plateaus.ipynb (#141)
+3b934bf3ae623a8996c040ecc3e18f592c54dfdd|2020-03-11|MichaelBroughton|Added ability to sample from state vector in qsim. (#153)
+c40af6bdcf8bc642e43bbeb00bcbe3906742128a|2020-03-11|MichaelBroughton|Hello update (#156)
+b75e063b8baf0224273926e44a7ff5e533070ef9|2020-03-10|Mark Daoust|Reduce mnist runtime (#155)
+22cf3058ae5bfb4f0ca7ed70cb691bd7be650e61|2020-03-09|Mark Daoust|rm api_docs/, these are on tensorflow.org now. (#147)
+c53610ebbf7971083ea71b3b4433142f529e4eb4|2020-03-09|Antonio Martinez|Merge remote-tracking branch 'upstream/master'
+1a16097ebb0a1d1bdcbf9bcf9b1343c84533ce4f|2020-03-09|Mark Daoust|no-restart (#146)
+51add1f495476595ca53281851f838f83257c4a5|2020-03-09|Antonio Martinez|Merge remote-tracking branch 'upstream/master'
+8c22f207674e223f6c6ab75517670bff9a7cef39|2020-03-09|brett koonce|tutorials: minor spelling tweaks (#145)
+6548f7bd980f389d9c7eeac2c2f29ceec8507b62|2020-03-09|Billy Lamberta|Add links to landing page (#140)
+ff1a84b67e79f791bebda4a49f9eed7440e4e6e0|2020-03-09|MichaelBroughton|Disable slow notebook test. (#143)
+cc08c9b824dfdde948ae11112564ea6da1ea7a04|2020-03-08|MichaelBroughton|Added Link to paper. (#139)
+5db00112a241b43dd6708974aa365e84c02acce6|2020-03-08|Billy Lamberta|Add link to readme (#138)
+f93cdf9e0fae2352c60726c005653681df8b3e04|2020-03-06|Billy Lamberta|Formatting (#137)
+1e07b6e8e615b4253b1efd315058e784c5f318b2|2020-03-06|Mark Daoust|Review mnist.ipynb (#134)
+2a1c0340ef70e3c437f4eac948aebd620225708f|2020-03-06|Jae H. Yoo|Update install.md (#133)
+78a7a301491fab70870688b690be8a2abc608140|2020-03-05|MichaelBroughton|Added logo to README (#136)
+3c911aa587f61853fd59e4740a2cb45126f96204|2020-03-05|MichaelBroughton|Added logo_images directory. (#135)
+5683dea591fb9c59ecb7c9c98c015f3b81d987cf|2020-02-29|MichaelBroughton|Small tidying. (#132)
+6890f377a9a2a9c9638a305ba3e9e4f9345b27d4|2020-02-28|Billy Lamberta|Update language around package install (#131)
+2e8703cdf636268f706a22a708ac2a918c3a3657|2020-02-28|MichaelBroughton|Version bump to 0.3.0. (#130)
+9034bc8fe2dc129a5cfa13836ac6140b59788849|2020-02-28|MichaelBroughton|Moved tutorials onto 0.2.0 release. (#129)
+e792ff4393b600be7ac5d9120a4a018d7c9e4fdd|2020-02-28|MichaelBroughton|Bumped sample number in executions ops. (#128)
+d43f6a313509d76c7cf0705d232d9723e0e06843|2020-02-27|Yash Katariya|Use %tensorflow_version and remove cirq install since tfq will install cirq. (#125)
+63eee3900563e3fe6431b05a17b835e96a170662|2020-02-27|Mark Daoust|Fix download links (#126)
+08113559763cce40fe143d16d9cf9d16ffc77a86|2020-02-27|MichaelBroughton|Fixed Memory Issues. (#127)
+6ab0fdfab4ffefff9a8fd8e1eb5076f90905a10e|2020-02-27|Billy Lamberta|[docs] Concepts, design, and overview updates (#124)
+d6b135648da9a39e0444bcc4a4e506f64b5ab28b|2020-02-27|Mark Daoust|Run through of hello-many-worlds. (#123)
+5e2c3fd50802e4e9a9a1730fcd7a5d2eccb9393d|2020-02-26|MichaelBroughton|missed one. (#122)
+137cbc3de00f503f3cccac5ba4383630bd42f89b|2020-02-26|MichaelBroughton|Moved install headers off of old repo. (#120)
+8bf1ba9c838a313309897b13b80017fb1a998cbb|2020-02-26|MichaelBroughton|Added new API docs build. (#119)
+cbaadac6a7b1569e37924f53e53a86f83c8eb452|2020-02-26|Jae H. Yoo|Merge pull request #118 from tensorflow/bug_fix
+bdf4b1a4215a54d63bbfe8b217a141f3b268c74d|2020-02-26|Michael Broughton|Fixed typo.
+33510da5d13ae003d9818da7cf51d86e3c8213fa|2020-02-26|Jae H. Yoo|Merge pull request #117 from tensorflow/add_nightly
+5bed521f5bfd607a8b5e8cdbb70d862708e9bb7d|2020-02-26|Jae H. Yoo|Merge branch 'master' into add_nightly
+09b0fc926e24aa30dc2e40e62e56e5336180f9ea|2020-02-26|Jae H. Yoo|Merge pull request #115 from tensorflow/add_long
+840dcb8d9824cd11ac230050461261603af267f9|2020-02-26|Michael Broughton|Added nightly versioning..
+1e7c177d0c50e5ff80c5455716dc5292064eb6ae|2020-02-26|MichaelBroughton|Merge branch 'master' into add_long
+82bc30222aa829bef96d28381773c32e50d24e0d|2020-02-26|Jae H. Yoo|Update build_pip_package.sh (#116)
+e55765d01b4a40e5f31475e243c546337c4d8c57|2020-02-26|MichaelBroughton|Merge branch 'master' into add_long
+b3d32e8cddd878d953c70fe280ea7cbeb7429588|2020-02-26|Michael Broughton|Added long description.
+48509c2a7af5e9ae884fc573e4be5169e95f01c5|2020-02-26|Jae H. Yoo|Revive double dashes in setup.py (#114)
+705e4151c17acf97a63d5722683777ed673ebe65|2020-02-26|MichaelBroughton|Removed wheels directory. (#70)
+f86784f7f2f8c65c27c82daf13e040e9ab5db0fe|2020-02-26|Jae H. Yoo|Add nightly in setup.py (#113)
+3d43a4e5c5315d1aa9cf8e0b3953d84653307c57|2020-02-26|MichaelBroughton|updated required packages. (#112)
+f1847b0c812fbb60723b2baf30fe89c1727724b9|2020-02-26|Antonio Martinez|Removed sensing demo. (#108)
+f464e530db9b63007fef1e8eddb01ccabf867335|2020-02-26|Jae H. Yoo|Fix setup.py (#111)
+edaae9fa43122895c07b5c5bf2853b63a6213bc1|2020-02-26|MichaelBroughton|Removed capture for doc debug. (#110)
+c4f2e7855908b3ab36538705e562202009c2960d|2020-02-25|Jae H. Yoo|Remove slash in MANIFEST.in (#107)
+472348da25f8a09a1f2af4308494faa5d3d30888|2020-02-24|MichaelBroughton|Resolved source of autograph warnings. (#105)
+69838d5d8ec63083268faf64a0818f701d7e4f57|2020-02-23|MichaelBroughton|Updated qcnn and hello world images. (#104)
+436a10e8d05ccc5eaab5b46b56df77b1df4fdb17|2020-02-22|MichaelBroughton|Removes user access to python and core module. (#103)
+8b8b064073a19a80b2e623f79ceb2905a1bf3f48|2020-02-21|Antonio Martinez|Formatting fix (#97)
+8112d48b6b559fc8c789ce24fa8d9bd4d735f08b|2020-02-21|Yifei Feng|Bring in windows support from custom op repo (#102)
+7883f6b7c4ce61750f4b5cebf21e7147b9024283|2020-02-20|MichaelBroughton|Changed stance on datasets. (#99)
+ef78e195a42ee29474c038c4789507e5b3746de8|2020-02-20|Antonio Martinez|Test Calc4Matrix (#100)
+4cc3aed141d157892524f2ee005c761415d71360|2020-02-20|MichaelBroughton|Updated landing snippet. (#98)
+7c473ee3081831b89ff6d00c018fa40e5a89e7db|2020-02-20|Antonio Martinez|Swap cleanup (#96)
+e1a08c972dc58a8658260e98f16d92f17f2e4270|2020-02-20|MichaelBroughton|Prevent serialization from modifying user circuit. (#95)
+ebfaa476f1fd3ad5108aa74424c2529f92820fd5|2020-02-19|MichaelBroughton|Added support for PhasedISwapPow. (#91)
+ba369bccd361b7d138e2b0064714fd207db2d2fe|2020-02-18|MichaelBroughton|Improved memory allocation. (#88)
+c2a6a66368afd6821b314f0ce0ec4ccc07476885|2020-02-18|MichaelBroughton|Memory optimization. (#85)
+c552659f9630339134eab9e5fc59b6faa27470ee|2020-02-17|Jae H. Yoo|Merge pull request #84 from tensorflow/jaeyoo-patch-1
+11609256bb522ffa6dea6189e51553b5636cd334|2020-02-17|Jae H. Yoo|Remove print in tf_configure.bzl
+2579a9d031b31afdc514e4c42ed1882a2d0aad58|2020-02-17|Jae H. Yoo|Merge pull request #83 from tensorflow/jaeyoo-patch-1
+daaaf46a99be1307ec9f81f69587b145c2764977|2020-02-17|Jae H. Yoo|Update tf_configure.bzl
+9f6bb17ead01b8c44fe905895f70d495981585af|2020-02-17|Jae H. Yoo|Merge pull request #82 from tensorflow/jaeyoo-patch-1
+92e631dfff99da0ee4735dc7077b507d4b5e6b42|2020-02-17|Jae H. Yoo|Update tf_configure.bzl
+fcce13aead00ae6692b335280c30b8b368925518|2020-02-17|Jae H. Yoo|Merge pull request #81 from tensorflow/jaeyoo-patch-1
+8d7af06ad988bd3a4c6e2b8139f74b5d10a742ad|2020-02-17|Jae H. Yoo|Update tf_configure.bzl
+1c27e7bde77ba53ed8fc2bd5b1fca83107216475|2020-02-17|Jae H. Yoo|Merge pull request #80 from tensorflow/jaeyoo-patch-1
+24ef657d6e123083da51ab450e08aefd80659dbc|2020-02-17|Jae H. Yoo|Update tf_configure.bzl
+dc58d594fe0582fedbfef3c98dae75fd9b01c2fa|2020-02-17|Jae H. Yoo|Merge pull request #79 from tensorflow/jaeyoo-patch-1
+361a1559729197ade94ced2c549bb7888c060aa6|2020-02-17|Jae H. Yoo|Update tf_configure.bzl
+cfebf38815a81544dc1f416e6628181e4f72ff62|2020-02-17|Jae H. Yoo|Merge pull request #78 from tensorflow/jaeyoo-patch-1
+908e27b0ea6053980b74bf0f0bac7e7fa1d9d6f2|2020-02-17|Jae H. Yoo|Update tf_configure.bzl
+cb85a05982a072fae87c8aeb80c70fb716e5c344|2020-02-17|Jae H. Yoo|Merge pull request #77 from tensorflow/jaeyoo-patch-2
+2c632d4eca2cc1e6c23bd0c007e85f4c538ecf32|2020-02-17|Jae H. Yoo|Update tf_configure.bzl
+4c1e3e809bfc67f748a48508fa590a6dc3a5e31d|2020-02-17|Jae H. Yoo|Merge pull request #76 from tensorflow/jaeyoo-patch-1
+0a0ceed5f9a83814c3794aba57741965d12febd5|2020-02-17|Jae H. Yoo|Update tf_configure.bzl
+6d3db5093cedc7f6919f68e3751a159fdd24c38b|2020-02-17|MichaelBroughton|Remove accidental allocation of state that is too large ? (#75)
+8d84ad36350160f48b2cd34f7becc0826715f29b|2020-02-17|Jae H. Yoo|Add debug print in tf_configure.bzl at line 69
+2e8dc93d27436cf7cc3d6b1c7521bd3404a7c772|2020-02-17|MichaelBroughton|Leak fix. (#73)
+3e8cc3a2479e81cf3c172220f6da5226570e2fd4|2020-02-17|MichaelBroughton|Trying to fix actions. (#74)
+2e9cb2f6c9f80de93930df975df7c1302e3053fb|2020-02-16|evan|Serial ci, enables tutorial tests v2 (#42)
+9a48cb0923ff9fa145381acbfc397ec20a147a3f|2020-02-15|Antonio Martinez|Program resolution tests (#71)
+e54c14eb749215b67eb2e1d4361da6e9a68d3c20|2020-02-15|MichaelBroughton|Remove qstate functional [Running] (#50)
+c9ecbd9c917b3d2e3bfc4fee560d788d8f0e9acd|2020-02-15|MichaelBroughton|Remove accidental promotion of float to double. (#51)
+747ebe04dd0de77fbb1f1795cf16e28a63f1c222|2020-02-14|MichaelBroughton|Fixed some AutoGraph warnings in serializer. (#49)
+29e09518c1ac4ebae0a285e4da9f8a24498a296b|2020-02-13|MichaelBroughton|Re-ordered sensing demo. (#45)
+8b79ca3c24820c057f98218eb470a6798f16e632|2020-02-13|MichaelBroughton|Fixed ordering on QCNN demo. (#46)
+423703b0cd4c2a55832da2e9cf0778b98750a8ad|2020-02-13|MichaelBroughton|Add version (#47)
+850b216304ebe58ce6f00830f98562da71503580|2020-02-12|MichaelBroughton|Updated manylinux1 to manylinux2010. (#44)
+dc68476698db0e8e48d289229e3a045a6a9a761e|2020-02-12|Antonio Martinez|Remove statespaces (#43)
+be49550f786559253313ef5be24bf8f5446507d7|2020-02-12|Antonio Martinez|Two qubit builder tests (#41)
+fd00865380103ddd0dbe5c37bfdf1a03155d03fa|2020-02-12|Antonio Martinez|Delegate statespace to simulator (#40)
+e474e3e8ddb5f8c8ecdd464519dff2fcfcd0cdcc|2020-02-11|Billy Lamberta|Update landing page copy (#36)
+1853c630ff172cb9b6da905d57b55a685b45d474|2020-02-10|Antonio Martinez|Adds tests for the single qubit gate builders (#35)
+fd7513372250d97d09ad9139205edc05f675bda8|2020-02-10|Antonio Martinez|Merge pull request #17 from tensorflow/hmw_updates
+f313a870f996bd6c4c0cd95dc225b6c56eee50bb|2020-02-10|Antonio Martinez|Merge branch 'master' into hmw_updates
+446f6e5b12d82f646afc1e5bc34cb5b81dc3c521|2020-02-10|Antonio Martinez|Merge pull request #19 from tensorflow/gate_tests
+88571767cd8e4e5c23a5c53d41bb00e80276ac2a|2020-02-10|Antonio Martinez|Merge branch 'master' into gate_tests
+f4f2831fc5c9f4d716449883ee18df433058e8f7|2020-02-10|Antonio Martinez|Merge pull request #31 from tensorflow/glog_to_tf
+48ed70dcddfa047488c2a6bb7f4b2fe3009ea45a|2020-02-10|Antonio Martinez|Merge branch 'master' into gate_tests
+712cb0334b16adbe2b9bdafb6ef56ef6c4b2af68|2020-02-10|MichaelBroughton|Merge branch 'master' into glog_to_tf
+56670f587e24f8f7e14517a1a64b0d552270df90|2020-02-10|Jae H. Yoo|Fix int to size_t (#32)
+61951eda11df65f7bab2f6c7265fcbe1d736a792|2020-02-10|Antonio Martinez|Reverted links
+5acfd2aa5d7247c418808c201f8449d6bdd0264b|2020-02-10|Antonio Martinez|Simplified batching description
+d32b30bfad2f28d6c9272011e692db56a4517357|2020-02-10|Antonio Martinez|Removed we
+008f56d684fb0b561542b7ed3a89d6efd5af03a2|2020-02-10|Antonio Martinez|Capitalization
+177623ea6b1657d015f3a02718cad8a5e63beb9e|2020-02-10|Antonio Martinez|Update links
+199205a471ea2679de9540bcca7781bc64458e37|2020-02-10|Antonio Martinez|Added links
+610f94ca21e6d400bdc2ad2016f13ecc4cd4505f|2020-02-10|Antonio Martinez|Convert we to Cirq
+6ac927afa98edf08a85ef61c85fd1e0d8b9d4e3b|2020-02-10|Antonio Martinez|Removed double spaces between sentences
+95667a30491060e1c4b3c15623521f900afa1053|2020-02-10|Antonio Martinez|Update docs/tutorials/hello_many_worlds.ipynb
+5158207f3ed0f0439cf7145978331ce9cf171244|2020-02-10|Antonio Martinez|Updated rotation gates to new syntax
+244ec39dec1a7d3e0bdd703c9623040bc492c994|2020-02-10|Antonio Martinez|Notebook render error corrected
+f55c773686a39a860bb3ec56bd7ec3b7cdcd317e|2020-02-10|Antonio Martinez|format
+bfdb78a89260cc1680b3faf8fb187f7c7dd20e61|2020-02-10|Antonio Martinez|typo
+0705e154e8c651686002e9fcca4a67c4675c5541|2020-02-10|Antonio Martinez|Simplified eq op
+ea05159ea8f0c44fef0656a2795633ed31f23c9b|2020-02-10|Antonio Martinez|Reverted test style
+87c26a3d2dc9d49039fd04ac43bde99bbe015e6d|2020-02-10|Jae Yoo|Migrate from glog to tensorflow logging
+3b4f1c5d73ad29abdc93eee9ec7e1fa6a3f85401|2020-02-10|Jae H. Yoo|Remove all debugging prints.
+3e662e8902d8d02f997e6b49aadbebcec0b7a9ed|2020-02-10|Jae H. Yoo|Fix abs, use fabs
+7764a0fc258cae8ab3222c35ef592bfc40b06de8|2020-02-10|Jae H. Yoo|One more debugging print in operator==()
+0dd7c0951b330d557b39a97d3b5b13e295c478ff|2020-02-10|Jae H. Yoo|Apply temporary debugging print at operator==()
+d49337b7a7c6ac86480eb9127fcd6f12d47a930b|2020-02-10|Jae H. Yoo|Add temporary debugging print in gate_def_test.cc
+1600e12bab79e21409450fcb6b3a83876e88fc2a|2020-02-09|Antonio Martinez|Made equality check more explicit
+cc552be7441e36f67fa4fdd494e4d35a1b113663|2020-02-09|Antonio Martinez|Remove dependence on real obj in matrix test
+ce7472e8467fd84ba0b288fa59cf70c3f35ba3f3|2020-02-09|Antonio Martinez|Tests modified to use floats
+4e60bfb7cd0498cd39c131a9b3ffe02576f5907c|2020-02-09|Antonio Martinez|Call eq ops explicitly
+749b6ca5789f7793f40947d86c7b23f1a8028651|2020-02-09|Antonio Martinez|Change to EXPECT from ASSERT in hopes of overcoming gtest bug
+d250458958af92a4e0ffc1b02d1ec75c5af65420|2020-02-09|Antonio Martinez|Made equality operator external to Gate
+c78bfc76c25eb2fa61cc7e118fd0d48afc397411|2020-02-09|Antonio Martinez|Merge branch 'gate_tests' of https://github.com/tensorflow/quantum into gate_tests
+63e3a4bab9963fec04e0c7c49cf2d06f24f559a2|2020-02-09|Antonio Martinez|Went to two argument equality op
+5c3d44e282e67de03e7f13987520439440f9cdcc|2020-02-09|Antonio Martinez|Merge branch 'master' into gate_tests
+43c2a52f73ab6d87d75fb4367adfb3501293a71b|2020-02-09|Antonio Martinez|tests passing locally
+2135ba1cad1e8c5953563f4f959f0bd90796236a|2020-02-09|Antonio Martinez|typo fix
+43508d5788f7ed75f93a589abac19adbd0615d22|2020-02-09|Antonio Martinez|Merge branch 'master' into hmw_updates
+7cfd73790f1a602fa1e5e8b52030229581729ea6|2020-02-09|Jae H. Yoo|Update links (#26)
+21b67bc3b17f292870a490e0772db848b80cc988|2020-02-09|Antonio Martinez|Update equality check
+52b934bbf443b51f8c3b540b2b3688dae5f936be|2020-02-09|Antonio Martinez|Merge branch 'master' into hmw_updates
+5b6e713ca27b4de148cc10e9cddc92228b9afb52|2020-02-08|Antonio Martinez|Separate circuit into h and cc files (#21)
+d40b86ec5ebac5405254e08ad30b1439c7d4933e|2020-02-08|Antonio Martinez|Added inequality test of first element of matrices
+819f6170715e18f7d1b64b42613b3dcbcae815b6|2020-02-08|Antonio Martinez|Typo
+16800d5924d992cc02cedffa61c8d39aaf98d97d|2020-02-08|Antonio Martinez|Merge branch 'master' into hmw_updates
+b2a83dd5850e280cd5bc1c877eb90124a6ab7e01|2020-02-08|Antonio Martinez|Merge branch 'master' into gate_tests
+4a0d54f1b36da44105e7d22ea0eb10538d7caf14|2020-02-08|Antonio Martinez|Remove dead code (#14)
+7a3b40debb083629b73709eff7fe3bad96a328ae|2020-02-08|Antonio Martinez|No end newline
+72fb675a224ea24b01bbbae95e205c424de0c81c|2020-02-08|Antonio Martinez|Formatting
+36104bc43f5cbdb624f03a6ab05b576e5254697f|2020-02-08|Antonio Martinez|Formatting
+827563bd4021e93af73d9d2a78306e8fd4cf1288|2020-02-08|Antonio Martinez|Formatting
+6f12dd31f738da7588bf04158946fc34f7b73e10|2020-02-08|Antonio Martinez|Indentation
+2d50f0f28d7e78fc908e0aefe727dcfc4d303cf5|2020-02-08|Antonio Martinez|Formatting
+26796d492c5b6ba80af2598659419abe0c38728f|2020-02-08|Antonio Martinez|Formatting
+50c5a9acbb88fd5c45a1f3ec4efb2eb1de91314f|2020-02-08|Antonio Martinez|Formatting
+caf3d35f0f18cc1086e25dbf48dee84c03862de6|2020-02-08|Antonio Martinez|Formatting
+1ea6b0f33c8b9915c8122157d8db106d39a4b924|2020-02-08|Antonio Martinez|Indentation
+74dddffd62ee672bc3619e919ed45fa26e151fd2|2020-02-08|Antonio Martinez|Output deletion
+bababb8cc7877dcf7d2fcfe72acb8448d696657c|2020-02-08|Antonio Martinez|Formatting
+076af9e4717dd75f2454626c33b18e05090fdf38|2020-02-08|Antonio Martinez|Formatting
+492bed37a88ab92e2ccab76bd75456a76fc1bff8|2020-02-08|Antonio Martinez|Install update
+27a3a12e2ea1d177c96ce81543aa3fb804299c5e|2020-02-08|Antonio Martinez|Update pip installs
+ae61e44595d1c1b159482e405bd47e30b60f14de|2020-02-08|Antonio Martinez|Execution counts
+0b1b4a732a9d2853a536792dc7a699ccce3e9a4e|2020-02-08|Antonio Martinez|Indentation
+61069fe219ab27d794434255f179423dd3565cfe|2020-02-08|Antonio Martinez|More indentation
+42631a0184ce8d67c64ed35743ee2eab29b3f194|2020-02-08|Antonio Martinez|Indentation off by 1
+920cd40cad53d5cee5273b223f270fe9296f729d|2020-02-08|Antonio Martinez|Added back preamble
+115c1add438b5b44c65d50e3cef75c5defc8cd80|2020-02-08|Antonio Martinez|Merge branch 'master' into hmw_updates
+35e89afb5bef6d539bdf3507e93826c04402e9a6|2020-02-08|Antonio Martinez|Merge branch 'master' into gate_tests
+0b096f739535668eb67e9c4234fc01b472f50223|2020-02-08|Antonio Martinez|Merge pull request #10 from tensorflow/MichaelBroughton-patch-1
+38a0e00c338fb3ea8df51d633834ab46c02a6182|2020-02-08|Antonio Martinez|Merge pull request #18 from zaqqwerty/gate_tests
+8271320b89b0989c36cb638ccc6965c42d579527|2020-02-08|Antonio Martinez|Merge pull request #16 from zaqqwerty/hmw_updates
+aa067aaf70f78cb6c096263ab645488195eca2e7|2020-02-08|Antonio Martinez|Merge branch 'hmw_updates' into hmw_updates
+c9dc4f96909996fa4e33fcdc2a8b59db5a87d0e9|2020-02-09|MichaelBroughton|Merge branch 'master' into MichaelBroughton-patch-1
+2922d15afcbee8ca7fd37cfe69812c7d6c2e072d|2020-02-09|Jae H. Yoo|Convert throw to CHECK in google logging (#12)
+e2938969f0864da3ff0ad2598edcadf60df15a14|2020-02-08|Michael Broughton|remove sympy and use whatever cirq0.7 wants.
+7c2585be7e939edbf01efa9cd52d53f5d06953c4|2020-02-08|Michael Broughton|added requirements
+73940db5421a16fdc4c2e92f3b384e8830fc8554|2020-02-08|Antonio Martinez|Merge pull request #1 from tensorflow/master
+76bba31122bd00bf421362cb6b5f8f297638681c|2020-02-08|Michael Broughton|ugpraded to use requirements.txt
+50abe55f7ec6ca9d4958b105aa007cf3ca0425bb|2020-02-08|Michael Broughton|formatted file.
+1c734bd1c91489a83e55126cf419872c7e3329a7|2020-02-08|MichaelBroughton|Merge branch 'master' into MichaelBroughton-patch-1
+a45a0d60589be80bcbc6992eff8803ca2c0b4a55|2020-02-08|MichaelBroughton|Creates a Stale Issue and PR checker
+9a106cef327dbdac318bf61f2c05af2b24a9c0e2|2020-02-09|Jae H. Yoo|Merge pull request #8 from tensorflow/return_value_lint
+e72faf9545d5c11046916568b0975bd8432093c3|2020-02-09|Jae H. Yoo|Merge branch 'master' into return_value_lint
+6a7add183a7fdc4aa7e6aa2b326c2292decc45ad|2020-02-09|Jae H. Yoo|Merge pull request #5 from tensorflow/ci_test
+2a36be6c553f4d65385d3aa2a57ca6e6945fc010|2020-02-09|Jae Yoo|Merge branch 'master' into return_value_lint
+1e3678628eb6483da23673f415b2b3235f0a260e|2020-02-09|Jae Yoo|Add process on return tensorflow::Status value
+b41477a441b2d9b2a4ed24bf508a99c66544f856|2020-02-08|MichaelBroughton|Merge branch 'master' into ci_test
+dcdcf77e4cf8b44b1b228db6d1274cdf81131415|2020-02-09|Jae H. Yoo|Apply clang-tidy result (#6)
+285e2026ebc62146bdbc121cc5af977849fa95b4|2020-02-08|Michael Broughton|Updated use of old TFQuantum to new quantum.
+f7c2a8ddbbece87df7bdcc47619675febffe041a|2020-02-08|MichaelBroughton|Merge branch 'master' into ci_test
+5e1f75c35ef8fdd188f632692731dffa060f8a9c|2020-02-09|Jae H. Yoo|Clean build (#7)
+4d20133b24744dafa367b824cf3d1da2edda8ca2|2020-02-08|Michael Broughton|full teests?
+bf101fc12a78f4e9079b897fc77578b3c41c7800|2020-02-08|Michael Broughton|fixed up pip scripts.
+3994b51b54e125965356694e90032b9ed9cf78f0|2020-02-08|Michael Broughton|Adding wheel build.
+7f76694f241a2c93463aaa840247664282bc3fb3|2020-02-08|Michael Broughton|add .pylintrc file.
+762ec0ef137ea2533bf35b04d79fa3e808eb7ffc|2020-02-08|Michael Broughton|Added lint checker ?
+15d3871e11ae15b7d9560c0ec83e857d3db50a5f|2020-02-08|Michael Broughton|workaround ?
+db13930b72b4ed9c2af613dd99df44d4e6cab75f|2020-02-08|Michael Broughton|deubg match.
+805686895b5014ed993d8efff25b2bceb7080b2a|2020-02-08|Michael Broughton|more prints.
+1c69c4e369584773e76e277b21da603c62f98b52|2020-02-08|Michael Broughton|moved.
+c449996377c17f29bd7be45b789be201e72e33bd|2020-02-08|Michael Broughton|format fix.
+d96c4d264cd35e65187fee56c30489e5e6aa4b78|2020-02-08|Michael Broughton|New CI tests.
+c003598494219431718d06a6aff53a31135c1bce|2020-02-09|Jae H. Yoo|Update asserts (#4)
+2672905603411b57f52b2dc593395f2e74fefc01|2020-02-09|Jae H. Yoo|Add licenses to BUILD files (#3)
+b9bb839c01719808bb002ae2fbbf664bab7d1067|2020-02-08|MichaelBroughton|Merge pull request #1 from tensorflow/testing_pr
+55b39c6820943c6c14988f4c9a9a7fe24aff1ec4|2020-02-08|Michael Broughton|0.7 Version bump to merge immediately.
+e4d4321cd928d2aaca293f80c082676aa73850d3|2020-02-07|Antonio Martinez|Removed outputs
+50e61fe2783fed56168d129670b3a78cd813e319|2020-02-07|Antonio Martinez|Finished content updates
+ccadc8d11695a4878895d07a417c1db019af994a|2020-02-07|Antonio Martinez|Updated section 21
+4c6855b1b6a1b98f12bdb13ab60e82da4ca23d47|2020-02-07|Antonio Martinez|Finished section 1 update
+5c0812822dd5b31f084ac864c37de9571048035d|2020-02-07|Antonio Martinez|Updated introduction
+a278acd328f0c4b844f4065fd39b8c61524ae11d|2020-02-06|Michael Broughton|Small dummy PR for Git Testing.
+b081a7db6cdbc2d02dd7ac5b8a1def2b109356cf|2020-02-06|Antonio Martinez|formatting
+94fbc2f8ec6d938ff9130df7b5f7eb7e850f40d7|2020-02-06|Antonio Martinez|tests passing
+7cc609e86726839d9210c30810e9f5e671dbaafc|2020-02-06|Antonio Martinez|Updated build
+3aa235184264fb08e4425e0e2bae048d8a78dc3a|2020-02-06|Antonio Martinez|removed dead code
+d0d6d79e6317920cacfdbdcfde8058a6d7cb6f46|2020-02-06|Antonio Martinez|Added equality tests for Gate
+1f19d7f055acdc7c088c474752a299a9156f5bf0|2020-02-06|Antonio Martinez|Added gate constructor tests
+09ac0964fddf68d4023574457d39515214cf1104|2020-02-06|Antonio Martinez|Moved gate tests to new cc filke
+ad4f7c9b895765b0058db57ca1a39149ddcf163f|2020-02-06|Michael Broughton|Initial copy from staging.

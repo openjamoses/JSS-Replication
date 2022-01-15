@@ -1,0 +1,567 @@
+6202f0ee829cac59ea4e13d7c61d98aa543589d2|2015-07-22|Alex Parent|Changed rotation gates.  Had X and Y gates confused.
+8fbd627fabe95a998c137e89084dd85dba2ff8b4|2015-07-20|Alex Parent|More cleanup of unused files
+585c42ce1bb92368e1cc42b9d819d6945cd31ac6|2015-07-20|Alex Parent|astyle
+a029921f435ca113e0a4c01fd5c6cc18220e4ab9|2015-07-20|Alex Parent|Removed unused code
+4b1be5621c9d03cbac1cd6b7eac2a33535d36b27|2015-07-20|Alex Parent|Added a credit
+0193b2182ae2a4af3c1589c707974d9d19d7355f|2015-07-20|Alex Parent|Update version number
+b4b682dedc689ebc5c07d3b67e42f75a6f5b402d|2015-07-20|Alex Parent|Build cleanup
+e846c37a26d32e0035cc85e28409c96627749ea1|2015-07-20|Alex Parent|Linux build now working
+b1aa655152c746e7acbebfc63d7c1d30aefd2875|2015-07-20|Alex Parent|Fixed windows build.  Some problems left with linux build.
+78b3f8756877e20086728e92d7e0bc3cc02e3e31|2015-07-02|Alex Parent|Removed an unnecessary draw
+f1795e9ef194952a396a27ea06101c50e73b770a|2013-06-03|Marc Burns|Fix bug reported by Jonathan Bailey
+4f757d25799a637c6023bcde515149c6607c471b|2013-05-25|Marc Burns|clean up
+e5d6422bf0ec0e187f3b07107e7768dabce11832|2013-05-25|Marc Burns|Touch up comments. Implementation of parallel construct output is infeasible.
+005221c99433ae015001c74eaa445308d10d7d51|2013-05-25|Marc Burns|Finished qc->quigl converter modulo parallel construct.
+29a59812c7ef101d2c7c45843c36ac78427be95e|2013-05-25|Marc Burns|Initiali qc->quigl translator. Still needs parallel construct.
+0585fc4429e2bebf27ef14a7ae3f45c7cf1ff6be|2013-05-22|Alex Parent|Fixed up poster for TQC
+22b8bd4575cf80c5cc737f5f56f33f5845ec07fc|2013-05-19|Marc Burns|Add compiler from full quigl abstract syntax to subset representable in .qc
+b5ab6b0b43b9745e5b9fd273eee672e18979bcaf|2013-05-19|Marc Burns|Strip down circuit datastructure and move around.
+b281fa0d7949c03832aa10a1e2b7d695538e05db|2013-05-12|Marc Burns|Separate circuit datastructure into circuitkit.
+ce16c9d3c1dc1a0102d35d38516caa9d441d88a4|2013-05-04|Marc Burns|Update TODO for tonight's work.
+4e89d195caebcdd46753b262eaad274494e0eade|2013-05-04|Marc Burns|Update TODO.
+d6d086e6e65f6cb8027defa1cc5d9262e4a2d89c|2013-04-15|Marc Burns|Merge branch 'master' of github.com:/aparent/QCViewer
+ce3e10257c59951f5444da2ee01f073ef938cee9|2013-04-15|Marc Burns|Populate circuit label editor with current label.
+e59fc92171d456704fe044bc2b69f5ff9b4724ef|2013-04-04|Alex Parent|fixed spacing in poster
+0786856243c677ebba7e1630d9ec49e5c75b0910|2013-04-04|Alex Parent|Fixed up some fomatting in poster
+07317224514eae68e64da6f13e9a534fa9aacddc|2013-04-01|Marc Burns|Test hpr and remove some debug output.
+197cb6cfcdcd7e5873620487eb0acd51f72428a9|2013-04-01|Marc Burns|Revert unwanted changes to build script.
+728392392ca969a181158d5be6ab52f938fd842f|2013-04-01|Marc Burns|Reformat.
+5f99ad369cdfd427ed94fafabd750c412bfeb6e5|2013-04-01|Marc Burns|Update deps in readme. Various touchups.
+0d8b92ae26ecc028c1a7a7f8ec9e268e5dbe051c|2013-03-31|Marc Burns|Symbolic and high-precision unitary computation.
+50052118489174ab3d62bc9fac909193e64d5f8d|2013-03-19|Marc Burns|Update TODO
+9398059555a9a537651e32b83c5f234ff9eebb4d|2013-03-11|Marc Burns|Reduce normalized circuit size by removing redundant swaps.
+10c891bb5f455cc2c9f105c955bff56693dbde0d|2013-03-04|Marc Burns|Build machine upgraded. Tweak env.
+1f0cbe7450a80e283ba20537ee097083acff0608|2013-03-04|Marc Burns|Cannot initialize std::wstring from std::string.
+0ebc681d57b2a66b6345521aac12046bd7bba65a|2013-03-04|Marc Burns|Clean up Windows package.
+37cc4dd963cc56c86adc2e7757bc06b86e51837f|2013-03-04|Marc Burns|Windows QCViewer will now fall back on bundled miktex installation.
+717188bd5b03cf705c03bf6c78c122da8cb586b3|2013-03-03|Marc Burns|Rename mat.cpp
+9bf6c390d15a20223310a2af38185c5bd7992965|2013-03-03|Marc Burns|Unitary matrix generation for arbitrary circuits.
+3419b35e8089530effe8ae9b7bdfdccd4b3a1451|2013-02-19|Marc Burns|Remove extra space from circuit edges. Fix LaTeX render bug.
+576191710a6a13cab6c0860faeb2f59149d49913|2013-02-19|Marc Burns|Revert "Remove extra space above circuit in exported image"
+5932c0eb1131c9438b366c96efa2b62f2c63a49e|2013-02-15|Marc Burns|Merge branch 'ti-changes'
+d978acd0fb8817fc1e5b60e580539eb8ba539ff7|2013-02-07|Tsuyoshi Ito|Remove extra space above circuit in exported image
+531b56ea6cbdbb09752618bf4459214213c5b58e|2013-02-06|Tsuyoshi Ito|Make Enter key work in dialogs
+eaa48125f6262ccd8f5bcdff36aa2d1f34630d69|2013-02-06|Tsuyoshi Ito|Allow circuit file to be specified on command line
+6aac2ff3f79a66f35d2f65f96a35c47449829d24|2013-02-06|Tsuyoshi Ito|Do not open window when --help or --version is specified
+5d55b4dd4936fd9ddc5df8254d369d40c08f8a50|2013-02-06|Tsuyoshi Ito|Remove accelerator from [Diagram]-[Save Picture] submenu
+687329734e72f4b9759b5658d7d1f34787f76dc2|2013-02-06|Tsuyoshi Ito|Fix typos and add missing dependencies in README
+bf3ab7e0f4c3ae6b792972f481adc98aefab2e25|2013-02-13|Marc Burns|Format code.
+deaa94abef6e3694d55fb2aa6c69ec79ffff06f9|2013-02-13|Marc Burns|Printf broke Windows build.
+0887837d8bd947c41c76866646ec77c0c30cdc3d|2013-02-13|Marc Burns|Update build environment, fix bugs, continue matrix implementation.
+c2521177dfefeac50caed01e336ba28b8f560f87|2013-02-13|Marc Burns|Missing routine.
+68b78a06df0f18d76492b7d26f8cb447540cf69e|2013-02-08|Marc Burns|Add initial linear math library for unitary computation.
+8e4f13582306fecaae0824a4a41407f79f29e3c8|2013-02-05|Alex Parent|Fixed example
+80cbee2fd00960d42ecb48939caabf1d6427157b|2013-02-04|Marc Burns|Trying this.
+04ffa455d1435ecf283f1b20a83abd23e9d49e86|2013-02-04|Marc Burns|Proper build clean.
+25b81db3e73d7ffa091170238902b9e60e56fdd8|2013-02-04|Marc Burns|Add poster makefile.
+c47ca8cf81aef519750d3dbbf4a87cc6e7401c07|2013-02-04|Marc Burns|Touch up doc build.
+982e56df190eee29d043cd4e51c0d9210bf88c00|2013-02-04|Marc Burns|Vector IQC logo. Build system builds documentation. Documentation updates.
+bae93c9829536819afe2faa400c808e6c2b58cfc|2013-02-04|Marc Burns|Review poster abstract, fix diagram.
+a5657e565598cae3d8efcbcf97a0e2bf4f394102|2013-02-04|Alex Parent|Submission doc is now 2 pages.
+fd080bb2ed1aa55ee6a11ca5b7c30ab0e5ab6f6d|2013-02-04|Alex Parent|Fixed subcircuit names not drawing properly in latex mode. Reduced the length of the paper form QCViewer documentation to 2 pages for TQC submission.
+555f4af1a892ee37f9290850e1e5c01a5249249b|2013-02-04|Alex Parent|Merge branch 'master' of github.com:aparent/QCViewer
+6c54147f49f0076061985adbc3ffe4cee12c9d41|2013-02-04|Alex Parent|Documentation updates and cleanup
+d1bf92c23dac0c0219b1805bc0260978457d6a0d|2013-02-04|Marc Burns|Fix empty subcircuit bug. Add option to qcimage to render with LaTeX.
+6dd6fa408eebd3de7034bbe05f37be6c0617224f|2013-01-30|Marc Burns|Working quigl->qc translator.
+d60ed5cbf4ffb5aa1e120345ebcbe2ba5b2584e2|2013-01-30|Marc Burns|Merge branch 'master' of https://github.com/aparent/QCViewer
+53a50489d7d51e703b05a65719898c4265280437|2013-01-30|Marc Burns|Add rough code for quigl parse.
+bb8889df5c1514e6c50ebfbe71d19a2f29f7159a|2013-01-29|Alex Parent|Fixed a bug with drawing dashes when saving image to a file
+b0d7b20c17b5aa22451f912609e17642b90273a0|2013-01-22|Marc Burns|Fix bugs introduced by render speedup hack.
+a05ffc5a3a7af6d2ed349838f0db6112e9dc83a2|2013-01-21|Alex Parent|new version number
+28d4fb528164e1cde535101d97e639ac08887e51|2013-01-21|Alex Parent|Merge branch 'master' of github.com:aparent/QCViewer
+b4026876625b010ee28af80107f05a3d6d50d2bc|2013-01-21|Alex Parent|changed version number
+c8d7dc1e9457bda401fa2517d926b01ecd22811a|2013-01-21|Marc Burns|Add double-click editing support for line labels. Optimize render.
+b677b9ad361f5c6baa5a52241b825fca2a82516e|2013-01-20|Marc Burns|Merge branch 'master' of https://github.com/aparent/QCViewer
+8b87588e6af059f084908eaa76961c68babd886b|2013-01-20|Marc Burns|Return gateRects for line labels from CircuitImage::draw.
+159c888be359d8e386f4c08738b3f0a39d0e5f63|2013-01-20|Alex Parent|Quoted Strings now work in file format.  Need to fix file output though.
+70753e5ad6395cfd93d1052eaf0a3f36ba72228c|2013-01-20|Alex Parent|:Merge branch 'master' of github.com:aparent/QCViewer
+bdcb87ba0c7b94b0de50e19c8f183cfd906a3431|2013-01-20|Alex Parent|fixed bad assert
+0fca435fc66f0f249d17d41e75d725691c5420d1|2013-01-18|Alex Parent|Switched use of | and : in circuit parser
+f10dbb26e87dd66f98b9507a4d6500411f8181cf|2013-01-18|Alex Parent|Removed gate type.  Now inherited type is determined through dynamic pointer casts
+f311f847738b8f7d39e2963e8dfad4975572fc5f|2013-01-16|Alex Parent|Made it so rot value is calculated from numerator and denominator if it is a fractional rotation gate.
+b95200bd819ed73449ce16a5439dd38ccadb2dbc|2013-01-15|Marc Burns|Fix segfault-causing bug.
+7781b579b70269a97468ba5773dce7a53ff5f9a5|2013-01-14|Marc Burns|Strip release executables.
+96273bf228ccc1461b3368041ac516d715e635c3|2013-01-14|Alex Parent|Merge branch 'master' of hfcs.uwaterloo.ca:~/QCViewer
+2e7f0776dc00951e4c7b46644f954428e7622fa6|2013-01-14|Alex Parent|Changed one bit gate format to not use spaces and only allow gates with one char names (plus an optional * for inverses)
+9dc21f80582c546b1fd17ff67ac7397e367bca18|2013-01-14|Alex Parent|Cleaned up parser and added some comments
+8bcda7891a5e729cae7fac8de1cbe99d08e210b7|2013-01-14|Marc Burns|Merge branch 'master' of https://github.com/aparent/QCViewer
+47327f408e369a7280a313f3bb33640c8e3cb1af|2013-01-14|Marc Burns|Touch up build system.
+3922dce58cc3b644f7436409e96309322011a9ca|2013-01-13|Alex Parent|increment version
+7a87708e911e74e2e9d336a72c8e09e6d6e35fa7|2013-01-13|Marc Burns|Remove deadly call to abort().
+b5ea0163e01cbf130050f7c74bd2d67fc633a8cc|2013-01-13|Marc Burns|Fix LaTeX bugs. Batch LaTeX rendering.
+859db582f660c6591cb4040266d7a65e299ef8ce|2013-01-13|Marc Burns|Clean up CMakeLists
+0599c87fe6301be1b833be830a53a4bb76220ce9|2013-01-11|Marc Burns|Add my name to LICENSE (modification to test build system).
+c52748e90b58d8f86e2701270e29e266f2a1dc7c|2013-01-11|Marc Burns|Update gitignore.
+0bd10108865212ab8ad4dd11008b01f00aac730f|2013-01-11|Marc Burns|Tools for nightly builds and packaging.
+cd4715c7bea3c44aed53f20c61b61d7c298f537e|2013-01-11|Marc Burns|Clean up cross tools.
+edc5e2966b46a33837ea5a9f734b103c0fedaa97|2013-01-11|Marc Burns|Merge branch 'master' of http://github.com/aparent/QCViewer
+790d2459de2941fadb91aba6d420802aaf11b812|2013-01-11|Marc Burns|Add tools for cross-compiling to Windows. Fix small bugs.
+0ca8943f7066c3d85645e98fafaf27ca191f7882|2013-01-11|Marc Burns|Merge hfcs.uwaterloo.ca:/scratch/m4burns/QCViewer
+1147dccc47bd29b05a15c902e55dc8238a4a7c36|2013-01-11|Alex Parent|Made depth checking display in UI.  Added Marc to list of authors.
+b57c154fd6ebf6964c3bcad901aa3f531eb8c56f|2013-01-11|Marc Burns|Fix LaTeX support on Windows (partial changes).
+4302a435db6a2459c623a7f1b36bc5bd26e9c53e|2013-01-11|Alex Parent|Added a function for gate count of a specifed type.  Changed one bit syntax to use | instead of +
+3b42bddf6a69350cd914ee11288bde4b7d0d1362|2013-01-10|Marc Burns|Merge branch 'master' of http://github.com/aparent/QCViewer
+5708df0e064cd0318778d80c1fc23b097967507e|2013-01-10|Marc Burns|Add toolchain file for cross.
+be158cde0122de0811495dab4d7f04be30cf7d49|2013-01-10|Alex Parent|Fixed problem with not rechecking circuit size after toggling line labels
+39ae2216224def344b1d2897f2aeeb156f378070|2013-01-10|Alex Parent|Changed gate rectangle combination function into an operator
+811b16e13d60cd9834cc5b5ff3f0c900f32491ec|2013-01-10|Alex Parent|Fixed issue with rotation gates not saving properly.
+ec36f5e893868577bca85ed09600f8bd41020d90|2013-01-10|Alex Parent|Added latex name to gate library
+fc98d5175d42bb45d87434e2fad60efd2ae65f4a|2013-01-10|Alex Parent|Cleaned some redundent code in statewidget
+0ab2b27c76726bdfc76eb348cd0e9774cc90748f|2013-01-10|Marc Burns|Clean up smart pointer use. Successful windows build.
+f7aae784d047802549b0fcc535e5ad201f1efbb5|2013-01-09|Alex Parent|Fixed issues found by cppcheck.
+73c69cc6bc88e0a0be0452409887f177e15760e5|2013-01-08|Alex Parent|Lots of code cleanup.  All text is now drawn by the text engine.
+6eb90ff88ee0c7c88968b3924347a8b154a1cd1d|2013-01-07|Alex Parent|Added a toggle for drawing line labels
+c4ab327d24340b3d2aedbd46d5d997307e003fa5|2013-01-07|Alex Parent|Added missing options header
+2a35b083fe3b95138309c7b472962ec4f3055601|2013-01-07|Alex Parent|Config file for dot size added.
+e7d940156d5df1f049a854759295fa25392cb99c|2013-01-07|Alex Parent|Fixed linking with boost_filesystem. Started Rewrite to eventually move draw options into a config file
+e963343b047a06cd21c5d2b5777b953fb5735aa8|2013-01-07|Marc Burns|Add boost::filesystem header. Needs link against boost_filesystem.
+d829c2ab6086c0ce9470ce9af3499ce8a7438980|2013-01-07|Marc Burns|Merge branch 'master' of https://github.com/aparent/QCViewer
+280a37517e331a0230a4dfc4f0e382311a2e6e38|2013-01-07|Marc Burns|Resolve concurrency issues in text.cpp. Fix up missing destructor for TextObject.
+5102f9c6d1d855f38a9d9f4a1b72b88670dda8a6|2013-01-07|Alex Parent|updated README with new deps
+1046908cfd901c127041b8160115571933fc189c|2013-01-03|Alex Parent|Added pre and post selection gates
+d74d80c2c6063526b6a0403d5deb7800f1b4c7ac|2012-11-25|Alex Parent|Changed Version Number
+52fb2b44dc922cec4dd8d6d1164ba817c99f601a|2012-11-22|Alex Parent|Merge taurine.uwaterloo.ca:~j3parker/src/QCViewer
+fb69067812a65bbb619efc0d7b730040c545bedc|2012-11-22|j3parker|LaTeX
+51889bdf8964f13e8879a0c2c271995843535556|2012-11-22|Alex Parent|Measurement gates now work in simulation mode
+4dcd42c2dce1b3360eb1f1eea97ade7b8e791109|2012-11-21|Alex Parent|Added drag and drop for measurement gate.  Fixed bug in Fred gate drawing
+05f2fe6fe958d7c184de2d298839b525dbe5bfc1|2012-11-20|Alex Parent|added a triangular gate for measurement
+0ca42014bcefdca435de18f0ba3ba48238982f40|2012-11-16|Alex Parent|removed unused code
+c5989436928e33f308d9e2c798e7d4adb2548e39|2012-11-16|Alex Parent|cleanup
+d0f20a86b676485f246b57091756e16921c42e2a|2012-11-15|Alex Parent|Made randCirc produce random circuits with more of the gate set.  Some cleanup in window.cpp
+b0dba46ad734e0b82b85b9301e48e52b5ce3de3c|2012-11-13|Alex Parent|Returned sub/superscript text
+addb3cc8203444fc71828a77976947cae18e294c|2012-11-13|Alex Parent|some fixing up of documentation
+7cbb6f00e63f3bb87774d2e21fa12da5ad8b9185|2012-11-09|Alex Parent|Now statically linking libgcc to reduce chance of library incompatibility.  Also more cleanup
+a9dc63c56dde114946f6a9d0743fd3492ede4a64|2012-11-09|Alex Parent|Added a karatsuba example circuit
+c0fa6aa8d3ce59543ee7ebb2b4e4fe5e6812ce67|2012-11-09|Alex Parent|Cairo now fully removed from actual draw commands
+feae7d48404edce93279acca2f27b583bc31bdfd|2012-11-09|Alex Parent|Merge branch 'master' of github.com:aparent/QCViewer
+5ac15a3333df9218494b75ee6b447315521d74ed|2012-11-08|Alex Parent|cleanup
+8bc35e1171226b64bb3145f0dbd225916a8d1dc0|2012-11-07|Alex Parent|More cleanup
+bd473d6d6dcfa320174f4096de3c8e944ed02006|2012-11-07|Alex Parent|Changed QFT6 to work with the new rotation gate notation. RGates no longer print out a numerator or denominator if it is equal to one, this makes gate display nicer
+6b4753af9c6687b7114b47ebe66ebae301dfa4c1|2012-11-07|Alex Parent|code cleanup
+28ffbc60c339d0ba9e1b73a06298656aada29572|2012-11-07|Alex Parent|added a test for R-Gates with fractions
+1c6df3f988c507e8c911274822821b081e029fd7|2012-11-07|Alex Parent|Added syntax for displaying R-gates as fractions
+889cbfb7deb629f59057b0138ae137677ffc56e6|2012-11-04|Alex Parent|-increment version number -now statically link libgcc in Windows
+0d0486e66d9777c934013acb19cee435d14d0351|2012-10-24|Alex Parent|Fixed bug in drawing circuit images
+32a80b3fbc5eb7857d543932a3bc27802c87faec|2012-10-09|Alex Parent|moved logos around
+8d1bb21df3f804998c0ac9b7a5146138122d2904|2012-10-09|Alex Parent|Fixed case on png names
+cc1d77e7f712b8e35c2c8f1eee5325a31960e4c2|2012-10-07|Vincent Russo|Modified Poster
+65482caf036061b965613c1e4a0c89d3f87e232c|2012-10-07|Vincent Russo|Added Poster figures
+ef37088ebc80782c64be8d8378afbdf823421bb3|2012-10-07|Vincent Russo|Added Abstract
+8269a9cf7ceb52d697acf169a48b1ce8988164cc|2012-10-02|Alex Parent|Merge branch 'master' of github.com:aparent/QCViewer
+4c48ccaaecb686c896fa51cb54c3001262080cbf|2012-10-02|Alex Parent|Added an inital outline for poster
+40f7a02470c62f27e73bec66807c8e83289dcf6a|2012-10-01|Alex Parent|Some minor changes to docs
+7efd7f4c529d08829e9c92c8d760acf535d5f628|2012-09-26|Alex Parent|replaced more cairo code in circuit image class
+acc7d6c718a873807d8ec981873bc60fb0e94faa|2012-09-25|Alex Parent|Moved cairo calls mostly out of the drawing code.
+955bec3f0d2fb51ead4eb01e95cc784f225d62d8|2012-09-20|Alex Parent|Rewrote drawCU to make drawBoxed redundent
+f3e071f461668923ae72a797cffdafd832d4c3d1|2012-09-20|Alex Parent|Moved drawing code from gate classes to CircuitDrawer
+c1910672992e6ce4dc252678d5da984d224e3725|2012-09-17|Alex Parent|Lots of cleanup on parser utils
+f34036b0d2a03b17207e5d30a59fd8e13955c702|2012-09-17|Alex Parent|changed subcircuit lineMap from an stl map to an stl vector
+9018d182490d27dd47c73aee1ae4be22766c3312|2012-09-13|Alex Parent|added an example of a possible .qc format addition plus some cleanup
+5b651f77c3074521c881ceea0f4b9fe5d1a1ae36|2012-09-11|Alex Parent|Added a new circuit definition and removed an unused file
+4c476e11a2aeb9182dd5f1425d724a14bfc00b13|2012-09-11|Alex Parent|Parser Cleanup
+df3dcbe10d1b7783f96dd96eae0008c2611383f7|2012-09-10|Alex Parent|Added a condensed notation for one bit gates.
+cc2d7b5d7e55961e758eb5013e2ef7ee6ee04c17|2012-09-02|Alex Parent|-Some cleanup on QCParser
+9040f04ec815b00dcadb33add1a7c5fb97d9577f|2012-06-28|Alex Parent|-Major reorganizing of drawing code. Now separate from circuit --TODO separate drawing code from gates
+8efb5e5171341f66b11c7b2b853eecd0a1aaa08c|2012-06-18|Alex Parent|Merge branch 'master' of git://github.com/aparent/QCViewer
+e13200138eaec4b64fa9b82c41d473abb62dc884|2012-06-16|Alex Parent|-Fix for gcc 4.7
+b924eea1979f3d3ab6be0ca4a7c41a11df9d2ba1|2012-06-15|Alex Parent|Merge branch 'master' of git://github.com/aparent/QCViewer
+e815fbe4a018afd9416eae93de4ef5ca43054435|2012-06-15|Alex Parent|Returned to original sizing for control dots.
+bba6fd13bda544b21cf8bd3e22746d787b4b1bdd|2012-06-04|Alex Parent|-Changed dot size back to what it was before. --Maybe in the future add some sort of settings file for this.
+af90bba80e0a9f968aec138f189cb1ea1a6d8bd5|2012-05-31|Alex Parent|-Fixed CMake to work with windows -Changed version number
+38b3eda962349570a887dfa43510fb71accd242f|2012-05-31|Alex Parent|-Various prefromance improvements
+a25975b30057408614735d1a94710c532b5d7683|2012-05-30|Alex Parent|-Added some definitions for windows and did some minor cleanup
+89ed5440e4c9f5276181b86f84cd4b4a3e67b037|2012-05-30|Alex Parent|-Fixed drawing of controls on expanded subcircuits
+78e83b082e82d5c92d437a0e26c0d19ffe2c4bed|2012-05-29|Alex Parent|-Made gates and circuits use smart pointers to make code easier to maintain -other memory leak realted cleanup
+028421a2de6e6b699ff707073025a22af1acaafb|2012-05-29|Alex Parent|-Deleted some unused code -organized demos better
+8c979d331d66e1f12ecba8825eaaf87a2975c89c|2012-05-29|Alex Parent|-Fixed a bug where the fred gate was not drawing the line between the X's -cleaned up some unused draw code
+da74e0f27fabce967fa0e984bf5058159a6f1094|2012-05-26|Alex Parent|-Fixed doc version number
+8cd474a6b99dbab8d9356116991c5ec09f35e678|2012-05-26|Alex Parent|-increment version number
+88c80f81448d522d95219283a16da2ed6ad9f2a4|2012-05-26|Alex Parent|-Fixed conflict
+920f8c0421a846572087e1c1dc2cfee20baa8b5c|2012-05-26|Alex Parent|Merge /home/aparent/repos/QCViewer
+b38dbb2b810ac0c8c84f3fd4b39ab7b85b1d6409|2012-05-26|Alex Parent|-Documentation updates
+f551171971aeea624d627ff5660eb0e5b4ffcebf|2012-05-25|Alex Parent|-Updated TODO -Fixed some minor memory leaks
+c98c5829b27e76c83996a95ba15b9852bc7bc8c3|2012-05-25|Alex Parent|-More cleanup: Subrects also no longer a pointer
+5aa80ee420d426afd86f0c91c0bf61ed814344e2|2012-05-25|Alex Parent|-changed subselections so that is is no longer a pointer.  This allowed some code cleanup and is likely more stable
+8b998311607ebb26e052f93093439b4f1d054df2|2012-05-25|Alex Parent|-Made the delete button delete the selected gate -Fixed a bug preventing gates in subcircuits from being deleted -Fixed a bug which could cause qcviewer to crash while deleting gates
+39f63381fa4c235fcb1295374d68c0917a8ab814|2012-05-24|Alex Parent|-Added png for docs
+2c9fe205c920149a987279f7f4e4767d486e2f44|2012-05-24|Alex Parent|-Made drag and drop work better and greatly simplified code -Added a few more demos
+9760eb8de8fe49cee1c7e1be28046f9a7bb336a6|2012-05-23|Alex Parent|-Fixed drawing in expanded mode.  Still looks a bit weird though -a few documentation fixes -added a todo
+2316f3c4e2cb26364cf19935b475fe844cfff03f|2012-05-23|Alex Parent|-Fixed a bug that could cause qcviewer to crash when loading circuit files containing undeclared line names -more work done on documentation
+c6d7b8b7dc65131128dd6fac73ce066d416b2bb3|2012-05-18|Alex Parent|-Added an expand all button -Made subcircuits stackable
+61f6f8f377034762999425d87dc458cec475e088|2012-05-11|Alex Parent|-more work done on documentation
+5e03a11739e5aa185173fbb493f57c101db6e221|2012-05-09|Alex Parent|-Added some user documentation.
+5492cd43b3c39d2c704e60fb981145bde20dad94|2012-05-09|Alex Parent|-Lots of documentation added
+689f98ad60d3e7c76bb2f221682482920f96aeed|2012-05-04|Alex Parent|Added documentation
+55e24032de54aab012fa53f3cb2e4bdb9bfcc478|2012-05-01|Alex Parent|-Fixed a drawing bug where subcircuits inside controlled subcircuits would aquire the top level subcircuits controls as targets. -Fixed a bug where gates could not be added to the end of a circuit with drag and drop.
+d0921a6f57328960552ffc182bb5c1c60825f152|2012-04-27|Alex Parent|-Fixed bug with drawing controls on subcircuits.  Use new ":" notation to do this now
+9a95701969abbd17395ebea26c2be0606d4789a6|2012-04-24|Alex Parent|-Fixed a bug where outlabels did not display
+16362b895ad24644fa5111e0654c1f6deebc5e7d|2012-04-18|Alex Parent|Documentation changes -removed some unused pngs -fixed up a few of the images
+62c9c5a87fcc2bce1c9549498826a7383ef6ff38|2012-04-18|Vincent Russo|Replaced .png files in QCViewer manual with vector graphics equivalents.
+aa67f5e651d637dc2a240c2f3b17ddcd6f0e6b8c|2012-04-16|Alex Parent|-qcimage now produces a metrics file which has the number of gates in the circuit -qcviewer now displays the number of gates in the status bar
+618f34f6d57380a8e31709134033a95ef84b1191|2012-04-06|Alex Parent|-Fixed issue with spacing in circuit file not adding a break
+17cfba5c177cd4828e89855c824c4eaefd6874ce|2012-04-06|Alex Parent|-Version incremented
+e50deb0c6490ebdfb40f456fe7e428406a5e9581|2012-04-06|Alex Parent|-Fixed drawing issue
+7c8c5644e91832d43c815ceb292333bcc90ff427|2012-04-05|Alex Parent|-Fix bad commit on circuit
+310f29b457a41ab843d504ee6b3287b92c8bcbe2|2012-04-05|Alex Parent|-Breakpoints now be added and subcircuits can now be expanded in unrolled mode
+01777680007e9a09092c34005f928c80eec55493|2012-04-05|Alex Parent|-reverted ordering change as I am not sure it is corrrect
+6e28b389e3e7caf3c7e773698d6bdb070d9e1fd5|2012-04-03|Alex Parent|-Removed test code
+027872ce21ad1c23443cb4ca387bbc9f78f622c5|2012-04-03|Alex Parent|-Added V gate to gate library
+119a0f216f4249699fe6090376637e8a43349b29|2012-04-03|Alex Parent|-Fixed up command line utility so that it could output eps and svg formats
+4cb1668478dea6aa373c449e69be07fcf160e2e4|2012-04-02|Alex Parent|-More fixes for breakpoints in circuits.
+b3adb36c0e2b929e67cc2c5ab15bedcebd94ddb6|2012-04-01|Alex Parent|-Fixed size of breakpoint lines in subcircuits
+f643084dd5e711dace7ee9ed7043bd11dcc4ecfd|2012-03-30|Alex Parent|-Breakpoints working somewhat
+0e99a44c71f6d76ae10b3167a31dbcf5b1b34e2d|2012-03-30|Alex Parent|Mostly fixed gate placement bugs
+429094ca5c208698ea03bb689c79d3a62170518d|2012-03-29|Alex Parent|-More work on breakpoints.  They are now mostly placed correctly but some gate placement bugs have been introduced.
+e4b430b11f7fb5d3e620025968f6f65642ba93ba|2012-03-28|Alex Parent|Started work on breakpoint fix
+ad505695afd8d00d6e18e8f2ca7c61c2456b231d|2012-03-24|Alex Parent|-Fixed state display ordering bug. -began adding code for adding gates to subcircuits with the UI
+221d3fee0b2a1ff5e3112883b0c8b8c88ed10ed3|2012-03-22|Alex Parent|-Gates can now be separated by placing a comma between them instead of a new line. -Added documantation
+4029cca8d79766aed727037c7d473ddf82d75289|2012-03-21|Alex Parent|Deleting gates in subcircuits now works
+208658913b05479cda8fa4840f65d2246c03e0d3|2012-03-19|Alex Parent|-Fixed fonts.  Must have latin modern installed to have nicer fonts
+f5b1a62b7a58e191bd3ad40aa35e49d950129bd5|2012-03-15|Alex Parent|-increment version number
+05baeaafce1789f7922cf1aeaee57aa292d291fe|2012-03-14|Alex Parent|-Fixed some memory leaks and a seg fault caused by the addition of loop unrolling
+886c6a03f737e4b7874ab1ed04d7dde95537dac4|2012-03-14|Alex Parent|-Fixed a memory leak and a seg fault
+681f666d623a969ee2e677bd88db015ac9d6c0f4|2012-03-14|Alex Parent|-Added loop unrolling
+afba87d8a17284a0ad60cd23a586b8cf9ab67334|2012-03-14|Alex Parent|-Made subcircuits display loop count in boxed mode.
+ef34887da208aee6c78dd0aadbe8a238addf0133|2012-03-13|Alex Parent|-Simulation fix for subcircuits complete
+e4c1e3061b78a38db053f945c22d93ab01ffaf90|2012-03-12|Alex Parent|Merge branch 'master' into simfix
+79e7506fb0a8720dbc58f84d616d29dad455a7d8|2012-03-12|Alex Parent|Fixed font on pi symbol
+b1c37b9cf8ef05ce93240e76461994f7c4145dec|2012-03-08|Alex Parent|-Added error messages when unrecognized gates are excluded.
+4db2bf7c1702ddc68c6b83ee559fd5b6749ca2d8|2012-03-08|Alex Parent|-Added a new demo
+d05d3abd549280217e519fa89cac997b1839b134|2012-03-08|Alex Parent|-Fixed issue with R-Gate menu -R-Gates now display that they are rotating by pi times the number entered
+091568578d99281462fbeb66c348fb3617a3c63f|2012-03-08|Alex Parent|-Fixed bug in simulation
+10b980e270b3760d7af6cb68f9ee82308f92761a|2012-03-08|Alex Parent|-Some initial work on making simulation part of the circuit class
+3dac28c0e05b0513ef8beb5c76d5970c7835d428|2012-03-07|Alex Parent|-Changed to pango font rendering.  We now support UTF characters as well as super and sub scripts. -Added a DRAWNAME setting to the gate library so that formating information and gate symbol (which is used in circuit files) need not be the same.
+38e3942341cf7b03e94d5434be93ef2d29fde69a|2012-03-05|Alex Parent|-Restuctured build so that qcimage only links with things in QCLib
+0b8a4dcc812975a714eb962858506eb126778c14|2012-03-05|Alex Parent|-Removed pan mode as it is now default
+b6bb5f99aebd9166471e236aca5e2255195fc519|2012-03-02|Alex Parent|-Added more recognized gate types
+597c710eb2ed90bab2f7a143f1b5dd2a6c07e46f|2012-03-02|Alex Parent|-Fixed a bug which caused a crash when the last gate in a circuit was deleted.
+c137079db3bdfa9a8cdfdca7c13d8dba64fbbdf4|2012-03-01|Alex Parent|-Minor fixes --Set a return value for an error in circuit parsing --Removed an uneeded value from the initialization of LayoutColumn
+fbcae57fb110808c3b114f239ba3dac58a9d767a|2012-03-01|Alex Parent|-Unknown gates no longer parse -Added V phase gates -Fixed some error handling
+0eaa9691ed6428993946a215a3fab5204392f3cf|2012-03-01|Alex Parent|-Can now produce png with no dependancies on GTK
+0377c176d7fc2d47d40fca87c7d307adb34a0b3a|2012-03-01|Alex Parent|-Reorganized circuit drawing code into the circuit class -Removed now redundant code.
+bcd8db6fb28c8d666ef50bc81fa2c0da8e24a990|2012-02-29|Alex Parent|-Changed drawing code to use draw function in gate class.  Removed old gate drawing code.
+b8f475ca0b86e900bcf03b9a409fc6c62435f422|2012-02-29|Alex Parent|-Added drawing functions to gate classes.
+bb3b0f311909d9643c420ddeb40e8c71be2d3717|2012-02-27|Alex Parent|-Minor spacing fix -Added Doxy config file.  Now using Doxygen for code documentation.
+c72ec6352ab6da134c9e6eb160043066cf6b5e51|2012-02-25|Alex Parent|-Fixed gate iterations so that all gates can be looped rather then just subcircs
+c766fce43348b4d1b913d627cf9dfd7d4c6cf7f7|2012-02-24|Alex Parent|-Made build process faster by building a static link lib for everything in the folder QCLib
+8fe79f3c4fceacebe3de0e0561d3950e94ace243|2012-02-23|Alex Parent|-Fixed circuit linking bug -added a utililty to generate circuit images from the command line.
+fb615f2fdbf1b96ef32a67a56c3293faefafb9ba|2012-02-21|Alex Parent|Fixed a bug where circuit maps were not being set correctly so subcircuits would be drawn out of place when expanded.
+b8259ef6d403423f4c07f8e0775628cf06ff3e7f|2012-02-21|Alex Parent|-Fixed some bugs in the drawing code that were causing spacing issues.
+e7c45db879c8a3cbea36faa8aab89b945200d9a6|2012-02-15|Alex Parent|-Fixed gate parsing to properly put in breaks. -Other minor code cleanup.
+9149f7bf691b25fed664996357fa204eb3dc5220|2012-02-14|Alex Parent|-Increment version number
+459a385c11fa4a58ab3062961baedc00a749a1d5|2012-02-14|Alex Parent|-expansion of subcorcuits within subcircuits now working
+a021f1ec4be2d2b52a31212851fde527460cf035|2012-02-13|Alex Parent|-Simplified code using some pre-existing functions
+011ea73cf8a0062f094f5b36bb5a1422d2e95b7b|2012-02-11|Alex Parent|-Gates should now receive the proper iteration value parsed from the circuit file. -Removed qc.h as we are no longer compiling QCLib separatly. -More general code cleanup.
+22cfb6cb8052c5dce267fa0dd5d4534f32978614|2012-02-11|Alex Parent|-Reorganized subcirc drawing code. -Formated everything and added a bash script that formates the code.
+1e09885fa2607955762a830161f7870089e057ea|2012-02-11|Alex Parent|-Made interations a property of gates in general rather then just subcircs. -Fixed UI button for setting iterations
+811e3b2e0f7cdb321be4d9c34d8f961b50cdfda3|2012-02-09|Alex Parent|Updated readme.
+39c420611941e4e0deb2625ec9e9aeefa5593f5d|2012-02-09|Alex Parent|-Major reorgainization of code --Getting rid of separate QCLib static link lib in favor of just using a subfolder to simplify build -Some more code added to enable selection within subcircs
+4076cbd2683da2106026e755f62194b0de8fcac6|2012-02-04|Alex Parent|-Added some UI elements for subcircuits -Used astyle to format code
+bc9234135b99cc723c508755a16c4f166a6cf7f7|2012-02-01|Alex Parent|-Subcircuits now expand and contract -Removed a lot of old loop code
+cd94f283196bd35f54f1bcdee1bf253bf71927e4|2012-01-30|Alex Parent|-More work on subcircuits: can now draw in expanded mode -Some fixes from Vincent implemented
+ee04f6cac8155fb697f010250e65671e4a4a615b|2012-01-26|Alex Parent|More changes for subcircuits. Simulation now partly works (still needs some debugging).  Next task will be getting things to draw correctly.
+fd678778fe1613ec5f6acb127accc9c8d90faf6d|2012-01-25|Alex Parent|-Many changes to add subcircuits -Continued to add const to functions where possible for code maintainablity
+fad54dfe4264c14c36a6996929dde247dc8c2809|2012-01-18|Alex Parent|-Rewrote a code to use less pointers and make better use of const to reduce chance of bugs
+40f60dfd3a44ffc776163fecb597136f840578cd|2012-01-18|Alex Parent|Added some .git ignores and simplfied building on linux with bash scripts
+54cdc878951bd8d3fa680267af1c241adc5e6cd6|2012-01-16|Alex Parent|Merge branch 'master' into subcirc
+e92c06503857a57035752ca797c823a69c3c9f95|2012-01-16|Alex Parent|-Changed gate parsing so that t# is a c-not and t alone is a T-gate
+4684e59d5649c28647c82105d038b96ea635d4a0|2012-01-16|Alex Parent|Negative values should now work in gate settings.
+485a68b8e96b09658e5aef780556ccb6d2b0fa8d|2012-01-16|Alex Parent|-minor spelling corrections in slides
+cacfbc86af2f83d78241ceaf1ad96889d8e38067|2012-01-15|Alex Parent|-Changed circuit parser to be case sensitive for line names and subcircuit names -Added a script that generates random circuits
+0cb0b8cfb56dab4d3a083500d8f76e6d5233e16c|2012-01-13|Alex Parent|-Added text to presentation. -Fixed a minor error in documentation.
+1d27b3a14be53aa01998eb1b03857f590670a9c1|2012-01-13|Alex Parent|Added a presentation draft
+58736e93a00d90bd15ef5e7eabd9b7154bc32ec4|2012-01-13|Alex Parent|Quick fix to make negative controls work  again.
+d429e001a69786e36d9b04b1aac9fe99bf9e4ed3|2012-01-13|Alex Parent|Merge branch 'master' of github.com:aparent/QCViewer into subcirc
+4662d54dfb44ff63510d2e1c7645f9b9b85c2b8f|2012-01-13|Alex Parent|Basic data stuctures for subcircuits added.
+109b8ac8b182b2a5e126b7521ab0e66ba1e1b212|2012-01-11|Alex Parent|-fixed ambiguous error in state entry
+1284df95ac8b4cc57d1f716a94b07a1cc558edca|2012-01-11|Alex Parent|-Now only 3 stateview windows may be open at a time. This was done because opening many windows was causing problems in the windows build and since there are only 3 possible views there is no reason to have more then 3 at a time open.
+e60d5a999bf60817bded7163517338ba52f59d27|2012-01-11|Alex Parent|Added documentation to git repo
+6aa4ebc67796ba9cb0a32e22740cb606d7891d68|2012-01-11|Alex Parent|Updated TODOs
+5d19e3c1cd9d30e5d8dec6b34256ab5d3d250908|2012-01-11|Alex Parent|Adding license notices to all code
+ac74bff607084d498bcbd53d0c801d3e33a8cf21|2012-01-05|Alex Parent|Increment version number
+f5bdec2c174f8f3e3074204ee347385a513c2b74|2012-01-05|Jacob Parker|Merge /repos/QCViewer
+5045e3c78a8b34cfd1fcbf7ac27fc10f8fa8b2c1|2012-01-05|Jacob Parker|eps support`
+e89ddf1951cd1700e3c630452f4b2011084fedd5|2011-12-28|Alex Parent|-Fixed to a demo file -incremented version number
+eef42bc7ac03dfc5a434df2b1766d2b816cdf7e6|2011-12-28|Alex Parent|-Code cleanup: --Removed uneeded test code --Removed unnecessary dependencies
+4b687435df896b9c110d135af0f090e9c59f8327|2011-12-28|Alex Parent|-Fixed issue where 'sqrt' and other symbols used in the math parser could not be used in a gate name. -Fixed some memory leaks
+831c00e099e29eb50d6a21f6ab4c3eb78ea6830d|2011-12-18|Alex Parent|Fixed a bug which could cause a seg fault if a state was entered with invalid syntax.
+9ca7b6817736bb6e3d9da9648e41f7fda9884337|2011-12-18|Alex Parent|-Not gates are now recognized only when the input symbol is t/T or t/T followed immediatly by a number. This should keep backwards compatability while allowing gate names that begin with t to be used. -Some minor fixes for better error recovery in the parser.
+ed9f2cf3a6c072adb8edf66b5173c8252836a922|2011-12-17|Alex Parent|Forgot to add the parser utils
+b43f67c5d7b97d16361430a93ad4fe07cf7309a9|2011-12-16|Alex Parent|-New parser code now working -Circuits now save correctly
+f79d050a17dbb5d7b18a0355f2de8b84b2a034af|2011-12-14|Alex Parent|Circuit Parser rewrite:  Now accepts the file correctly just need to write functions to take care of the data.
+e1d41b7dad6474c3e70beea06873b906b3b2f95e|2011-12-08|Alex Parent|Fixed loop indexing.
+93e0568e37527e0286077a71d956ae60e1710cd3|2011-12-08|Alex Parent|May have fixed the memory bug that caused the "matrix not invertable" crash on startup in some builds
+f6c627cac9d2ad5af0428e4048b9901fe04cafac|2011-11-17|Alex Parent|Formatted all code with astyle --style=k/r
+628708645eb0dde753a12b816303b153caef1381|2011-11-10|Alex Parent|Implimented suggestions 7,11 from Dmitri's email.
+07ae00bc14d2e1c007caaee384db26e44b3c2f8c|2011-11-09|Alex Parent|Fixed the bug in non-optimized builds.  Other minor stylistic fixes
+0e68d36a542996d040c0bef43ca19c9bd27cee06|2011-11-04|Alex Parent|Minor fix to build to make compiling on windows easier.
+572bdcbece96c2d6cebb654787edcb8b523c092f|2011-11-04|Alex Parent|Merge branch 'master' of qcirc.iqc.uwaterloo.ca:/repos/QCViewer
+d5db2e3e1436ac1504117be5c7f1d7ff256e6d39|2011-11-04|Alex Parent|-Rotations are now by pi rather then pi/2 -Breaks now auto inserted before subcircuits.
+abcbdf0caf8a91a4c161befb49fe693360b64b2d|2011-11-03|j3parker|ifixing demo
+0ac53c569d7b8a3fedf4bbe056b5178c49434867|2011-11-03|Alex Parent|Added line breaks to parseing
+fa9864eb24bec36efea7cb3e9058964e72812302|2011-11-03|j3parker|capitalization in grover.qc
+f59580b937eae188c2060e782f90ae161e3c1a57|2011-11-03|j3parker|Changed grover.qc back. urg.
+cd099d7e05f838ffe246c77e98a58d80297135c5|2011-11-03|j3parker|changed grover.qc to use column breaks
+748349e2a565bf5e0c3be835d0b7bd57fb07efc4|2011-11-03|j3parker|column breaks in the draw code
+11e97abdb5927f584067bbc22ff72be2962532c7|2011-11-03|j3parker|demo tidy up
+380682dc612a0a51f24bcfaec727ad58fa0329d9|2011-11-03|Alex Parent|Now proper state entry works for sim and display
+d25ea8752bf311085b76ce6fe07cd32642a46ba8|2011-11-03|Alex Parent|Fixed state ordering
+88a7a29c3607a833deff1cd5bc48b4392445625d|2011-11-03|Alex Parent|Semi Colons can now be used to put muliple gates on one line.
+ffd93169d116d97a8a2ba8b4b548439e41d58986|2011-11-03|Alex Parent|Added the ability to specify a line order when making a subcircuit
+cf5a8b4e08122e0df37016b8ef37fc2b6cfb540d|2011-11-02|Alex Parent|Fixed drawtype in clone
+17e3b36c457239680abdc24bb97d405075633c1e|2011-11-02|Alex Parent|Fixed a bug with adding subcricuit gates messing with input ordering
+137cf589f8b9716a2620c0a654d540e48593b18b|2011-11-01|Alex Parent|Subcircuits with no exponent no longer show up as 1x loops
+62f43454ca960ec6dbc563cd96a7a167b5a5fd83|2011-11-01|Alex Parent|Merge qcirc.iqc.uwaterloo.ca:/repos/QCViewer
+7b10569f60c471e7899102f48f17871e9fa3619e|2011-11-01|Alex Parent|Fixed parsing code to work with loops
+1874f56e661747e0d035fceb154f91e775de1e04|2011-11-01|j3parker|loops in simulator
+9186b5eec3ee0c9f84bacd16b063703ca54dc2ac|2011-11-01|Alex Parent|Merge qcirc.iqc.uwaterloo.ca:/repos/QCViewer
+e8aa53fe677304c7caadacb2beecf091f8f4fea7|2011-11-01|Alex Parent|Subcircuits working
+0cf120ef729cdb3780f7d2ca711fc495fc407e1f|2011-11-01|j3parker|prettying loops
+fb526dd63b8337dc8afcefcf025eb0f282874e37|2011-10-31|j3parker|loops
+c0c27a44dab0992c5a1ae3a0fcd05e177d3171d8|2011-10-31|Alex Parent|Removed metion of TFC from the code as our format is QC.
+c4f7769cbd20f12e8771a0c1f21ac7d8c8aabbd3|2011-10-23|Alex Parent|Exponents now supported in state entry plus some minor cleanup.
+4b14aef7b7c3c1979d1bc296e6596a0011b40cde|2011-09-11|Alex Parent|Merge branch 'master' of taurine.uwaterloo.ca:~/QCViewer
+8c9f1d4889d9cb9bdcc41e24792b1055d2f61249|2011-09-11|Alex Parent|Minor fix to make F gate stop appearing.
+c34645f0111b1d1d4cb9f136a96c94f2275fe57e|2011-09-09|Alex Parent|Moved information such as version number, name etc. into a header file
+df426509cb2ff96129a540718bba714e593f661a|2011-08-30|Alex Parent|Cleanup. About dialog. Pan Icon.
+270fcbffbcad22f1cc00f0a5ec79ff645eb38862|2011-08-25|Alex Parent|Added icons for custom gates and did some code cleanup.
+bc933aadaa91cc1b22fe0a451eed435e28879fb5|2011-08-18|Alex Parent|Added filters to the file chooser.
+1b2abb28e5962b7cdb69ccc882b4c3a9af11ac04|2011-08-18|Alex Parent|Some minor changes to the circuit file format in QCViewer.new
+64a5b59967e075f61e77b48ceead4ac7d87597d7|2011-08-16|Alex Parent|Parser finished, tested and seems to work as intended.
+4c66c8daa8c9e4865ac48fce209614ecbb4cc63e|2011-08-16|Alex Parent|Added and debugged grammer files for circuit parsing.
+79e18a2531acad5f14a2ed27ec0755a4ae97dff2|2011-08-15|Alex Parent|Added files written for a major rewrite of QCViewer.
+24d6771c93f83908cdf439fb1a11e57e30aa5457|2011-08-12|Alex Parent|Added error meesage when a state with the wrong demension is entered.
+62c778084ddfe02caf826116e3376c5e2b8b98e8|2011-08-11|Alex Parent|Much more cleanup and some minor changes.
+d623ad6b80295b9f4e91c0ba5897fee6c463bf64|2011-08-11|Alex Parent|Merge branch 'master' of taurine:/users/j3parker/src/QCViewer
+1de3022656d6632e6414a395fbdd8f4d281e72ea|2011-08-11|Alex Parent|Lots of cleanup and a bugfix in the circuit parser.
+98ae205a1ddd498a0754baf281a9dd92424ec762|2011-08-11|Jacob Parker|Merge /users/aparent/QCViewer
+b95304381c68528e8a27e3156ea72c10fdd8d6b3|2011-08-11|Jacob Parker|bug fixes, tidying and cursor icons
+868ae15f8e8d033338261bb74cbc4886618d42f9|2011-08-11|Alex Parent|Cleaned up Console/QCLang files which are no longer needed.
+555821feb4d4d5c923da9f9c395279b5fff851f7|2011-08-11|Alex Parent|Merge branch 'master' of taurine:/users/j3parker/src/QCViewer
+919ffe1bde838a86231a043c74bcf81d2989f3f6|2011-08-11|Jacob Parker|working on subcircuits
+2ecd5fbb01506b2533583c2d0ac14a14f9cfd821|2011-08-10|Alex Parent|Minor fix to the build system to make sure it puts the viewer binary in the correct place.
+60d02bd04d52f7091e103fedbab7f68baae7e120|2011-08-10|Alex Parent|Gate library parsing complete.  All simple unitary gate definitions moved out of code.
+c3ef54bd3e3f5296a663cdbb910d158f34b8b1e4|2011-08-10|Alex Parent|Started work on a parser for gate library files. And example of a target file that should be parseable when it is finished is gates.g
+2e78fd671819ba2830742511f0ca350a54262f6c|2011-08-08|Alex Parent|Fixed up the build system as well as some minor issues. Found a circuit which causes a fault and added to the faults folder
+5f81a3105f9c7b9279ad99ea794354f0da14c7dd|2011-08-08|Alex Parent|Fixed up build system. You should now build by going into the build folder and typing "cmake ../src && make install"
+a02d4d760e8c0ddddc7cf8fc05ed8cf6573348a4|2011-08-08|Alex Parent|Removed circuits in faults folder as they no longer cause problems
+3dfd11893284cbe348a28f268933d744a42922bc|2011-08-08|Alex Parent|Renamed .tfc .qc on all circuit files.
+9cae7913406b210f203171878fbd194cf0dc0d7d|2011-08-08|Alex Parent|Added a docs folder and removed some leftover circuit files.
+fd4ef92a288b72c49cdd60a18aa34933946ec4a0|2011-07-29|Alex Parent|Finished changing build system and added a readme with build instructions
+5b0ef44d8a8a1f71373cf8cfe123bd4b4235e091|2011-07-29|Alex Parent|Started work on fixing build system
+2ab8925b8c9e69354d2a39516119251bc33fb1a7|2011-07-29|Alex Parent|Merged QCLib as a subdirectory
+7671de9191fb27b4285dd5287c6156095f271324|2011-07-29|Alex Parent|Added a M_PI def for windows
+2d2bc218f36904fb3b5d7b3606a8d5ad79a27eec|2011-07-15|Alex Parent|Changed version number
+d53abde672f490857995ac962ccb107c5d83bff1|2011-07-06|Alex Parent|Fixed the issue with wires not scaling correctly
+d5e2d05f2a61a2ee4306eec04508b067d4eb6981|2011-07-06|Alex Parent|Fixed a seg fault due to invalid input on command line
+a1d7aa6929d9ab82bed31ebf3191f5b62061f505|2011-07-05|Alex Parent|Merge branch 'master' of taurine.uwaterloo.ca:/users/j3parker/src/repos/QCViewer
+9b5134b6fad876bea687de371776cc9a28e7b1c4|2011-07-05|Alex Parent|Added some logging for debugging
+061d9af177564aa097ee6f69b1f72d3878d7cf5b|2011-07-05|Jacob Parker|scrolling
+47daafb1513110084ebcb6131d7cc0d35efa7064|2011-07-05|Alex Parent|Some changes to formatting and some fixes for interpreter
+4c7bcb15ec625fea3036047360a5923a4ffbd414|2011-07-05|Alex Parent|interpreter working minus scrolling in window
+d891314eda92109a3f7e25f53836998b3883670a|2011-07-04|Alex Parent|Added in interperater code.  Getting strange runtime error
+cc761d2c4f654ea0f6d84452231edeb0eaa030f3|2011-07-04|Alex Parent|Minor changes to interp
+94e949357a393b498ca717964de6053a67eb76bd|2011-07-04|Alex Parent|Began adding interperater to UI.
+1eea0662120f93ef6f82ea228307da9826a9084d|2011-07-04|Alex Parent|Changed output of evalLine to string for UI stuff
+024b675e245f1f267347b21c50754739883a1e69|2011-07-04|Jacob Parker|Merge /users/j3parker/src/repos/QCViewer
+f0bed152c26a2af84c422195e8164a294b86366a|2011-07-04|Jacob Parker|console widget and some tidying
+ecbf59da1ca1894c010a7e525116b38d266e4de2|2011-07-04|Jacob Parker|console widget and some tidying
+90c19a2c3cc34ac6273983c84bd7e581239db713|2011-07-04|Alex Parent|Moved stuff around in REPL to keep related things in its namespace.
+7846060c0093b9e30fbdacab4d4189a47e5aef97|2011-07-01|Alex Parent|Minor fixes to issues found after running ccpcheck
+17a8a0845d49a42ab5c9dc4d728b210da6a915cc|2011-07-01|Alex Parent|Some cleanup and minor changes.
+3e6cd4baf7219112f10dcd6fa12e6d27597dff47|2011-06-23|Jacob Parker|demo fix
+91d32e075038e732191f10ba817db675fd74d647|2011-06-23|Jacob Parker|demo
+518d4b5a0afb94c39b4f737ead0c82b85f4791fa|2011-06-22|Jacob Parker|Merge ../repos/QCViewer
+49189008a10af7f146da1affaa3f15b9dd3d5f07|2011-06-22|Jacob Parker|looking for drawing bug; not sizing wires properly?
+af01c3af2cd61557b215ba762f56cbe8057d888b|2011-06-22|Jacob Parker|Merge /users/aparent/iqc/QCViewer
+f39dd5e9634bd0a504176327714088fc8a50bcf5|2011-06-22|Alex Parent|Added a QFT demo
+b20d55e681c5d79af54ba38ef5733c107991e767|2011-06-22|Jacob Parker|fixed bug introduced in  68b96067ef9a17e10927482454e89dd6d8eb232b
+ef6955362af2056c0b39d6dc5fa3da8f8ea292d0|2011-06-22|Alex Parent|Added preset arch LNN
+051faad68c7bf36e2cb2b65e03962fae4689f53f|2011-06-22|Alex Parent|Added preset arch LNN
+5da931a28d194872558a1bcb298d37d28f3e5bd8|2011-06-22|Jacob Parker|fixed bug introduced in  68b96067ef9a17e10927482454e89dd6d8eb232b
+75ce876836fd5bb8b4c4cffe06852812b3fb17cf|2011-06-22|Jacob Parker|add new circuit
+1db48dff73a5bdd2c6f1f9289abc13e35ac15e3b|2011-06-22|Alex Parent|Merge branch 'master' of taurine.uwaterloo.ca:/users/j3parker/src/repos/QCViewer
+dead6d590f65574b568dd84d644ece758a8c02da|2011-06-22|Jacob Parker|unbroke the build
+e2123ef12dcb67c19be52d8c0d2dfbfef4882bb0|2011-06-22|Jacob Parker|Merge branch 'master' of /users/aparent/iqc/QCViewer
+bcc3077411576af3df7b88252ccf39f68d423225|2011-06-22|Jacob Parker|tweaking visuals
+ca52aba4a5bcdca00cc6fdf4f2d65f72353c21ce|2011-06-22|Alex Parent|Merge branch 'master' of taurine.uwaterloo.ca:/users/j3parker/src/repos/QCViewer
+b874ba1a172b8ec1a0db0f31055644d8b41ffd38|2011-06-22|Jacob Parker|better stateview
+85af48f30f31e445694151b252fe7390d411b2ca|2011-06-22|Alex Parent|Rotation gates now work? Need to make sure the direction of rotation is correct.
+68b96067ef9a17e10927482454e89dd6d8eb232b|2011-06-22|Jacob Parker|fixed up draw bugs, improved stateview
+3edc5306baf56202b3bacd42930d1358b9c37ed8|2011-06-22|Alex Parent|Merge branch 'master' of taurine.uwaterloo.ca:/users/j3parker/src/repos/QCLib
+f8e6c6e2be4bb965c4129bca1497de0f6650358d|2011-06-22|Alex Parent|Many changes to REPL, some work on, rot gate, added save circ stuff
+6bfd01e23e111d71051f8c0b8305e832e5478af7|2011-06-22|Alex Parent|Merge branch 'master' of taurine.uwaterloo.ca:/users/j3parker/src/repos/QCViewer
+ebd96182a731b05b03b07a08e30f0ff6ea72dc79|2011-06-22|Jacob Parker|added rotaiton UI
+fd8e245d2fb74d0d13f9fd5489583c19b4da2551|2011-06-22|Jacob Parker|generalizing gate rotations
+f3723e05db6dee00cbe79cfbb9603cf2657ec223|2011-06-22|Alex Parent|Fixed uninitalized values which were causes problems in Windows draw. Added ability to save circuit.
+7b1fd5cec22fcb7713acb9b8ab065cedc326072f|2011-06-21|Alex Parent|Some fixes to interperator
+8cb593f50248b0f985319e864da308dfdb66471f|2011-06-20|Alex Parent|Merge branch 'master' of taurine.uwaterloo.ca:/users/j3parker/src/repos/QCViewer
+0a20842541d42d83d096efa84fa139c96649bca7|2011-06-20|Alex Parent|Merge branch 'master' of taurine.uwaterloo.ca:/users/j3parker/src/repos/QCLib
+f8e11059d5f22d918f862c376b0439eaff384e37|2011-06-20|j3parker|wire editting, many bugfixes
+7ef589306c21f3a0f6834a3015684c5b6d8b23aa|2011-06-20|Alex Parent|Added stuff to return a ket for use with "Get Ket"
+94d7c37b7d00388cd28ef14b47c384b74405dbc9|2011-06-20|j3parker|added Circuit::swapGate to assist in editing
+8ff82304431744a33e231e524d58226cb2cf4ee2|2011-06-20|Alex Parent|Merge branch 'master' of taurine.uwaterloo.ca:/users/j3parker/src/repos/QCViewer
+7cc23b795d02287c7121a4affc19dfab0ec7605e|2011-06-20|Alex Parent|Removed useless files and added the ability to draw expectation values for partial states
+4067f782122455bd09dcbc722e9123ec0092940e|2011-06-20|Alex Parent|Merge branch 'master' of taurine.uwaterloo.ca:/users/j3parker/src/repos/QCLib
+dfb979ecbc7eb37104a33d34813aa55317e26b64|2011-06-20|j3parker|fixing some UI
+82fbd19b353ca2a540f009f2a7bac0aca879f15d|2011-06-20|j3parker|fixed type warning from qcviewer
+acb91ecea7ddfa2e92377226208f1bc6c585615e|2011-06-17|Alex Parent|Merge branch 'master' of taurine.uwaterloo.ca:/users/j3parker/src/repos/QCViewer
+5ef2fcdeb8c6aa7832147258712dec973c2eef09|2011-06-17|Alex Parent|Merge branch 'master' of taurine.uwaterloo.ca:/users/j3parker/src/repos/QCViewer Plus some fixes for windows
+9fcbb9bb7855f1dfedd661b366a7c6d54aed439e|2011-06-17|Alex Parent|Fixed some stuff for windows.
+bf4619ab9d8c53a82ae29c5572ba1ffa6047366d|2011-06-17|Jacob Parker|breakpoints
+767c7b28923b2e18248e39fe97fa8e750c19d3a1|2011-06-17|Alex Parent|Merge branch 'master' of taurine.uwaterloo.ca:/users/j3parker/src/repos/QCLib
+f08ab31b36bed44e39bd88f6f859c7591a026c7a|2011-06-17|Alex Parent|Fixed img number parsing and cleaned up the interperater a bit
+5bdca524674d5f940f93047fc7ab8132a1e814a6|2011-06-17|Jacob Parker|bug fixed
+2611b882db2fb46acfcaea5b80b49eea7f40c591|2011-06-17|Jacob Parker|planning bitstring stuff
+6ded628deb9af7ad4e0bf9e31f0d7609b7119d74|2011-06-17|Jacob Parker|changed up state viewer, moving to another computer will fix dnd bug
+114093dfebbdf9965f650b56f3edb4122035dc4e|2011-06-17|Alex Parent|REPL parser and evaluater mostly done.  Now only needs the addition of a function/operator table
+3a4d1686789f141a4256f119e835808a73964fa1|2011-06-16|Alex Parent|Fix Lang parsing code now making a subset of it for REPL parser for DEMO
+57be83f81b00f3658545c046515f703200839210|2011-06-15|Alex Parent|Parser now seems to work
+c453042c70b7574a9e73f0dc50fe99c4fae612ca|2011-06-15|Alex Parent|QCL parser is close to complete need to write a description of the parseTree
+df5c8f4729a60e7612e0b73496234193dbb3e638|2011-06-14|Alex Parent|Worked on some QCL parser stuff
+ba75933c742e73af6317c73fb65b66c7d86e9a1b|2011-06-13|Alex Parent|Fixed some unsigned int warnings.
+155558981373185ec2820cbcd88e903c3f1a9b80|2011-06-13|Alex Parent|Made gate icons more pretty and fonts now use the true type font stuff in cairo.
+e65657c652acd43118196de07c66c14651e0a0d4|2011-06-10|Alex Parent|Merge branch 'master' of taurine.uwaterloo.ca:/users/j3parker/src/repos/QCViewer
+1f93bb9aafc71e702db85f61b7535d0f78883e0e|2011-06-10|Alex Parent|Nicer default window sizes
+d319828ed5f41be361b528b402cc43c2053d7c0f|2011-06-10|Alex Parent|Changes to appease compilation on windows.
+7232cb0ceecb4f260dfcc00084511567fea60c36|2011-06-10|Jacob Parker|Merge /users/aparent/iqc/QCViewer
+151501a720d3ee56de08eac9d1d11420e574f236|2011-06-10|Jacob Parker|drag and drop
+21bdfeef34b824b0f7b74f5a8689391fd9d8678e|2011-06-10|Alex Parent|Merge branch 'master' of taurine.uwaterloo.ca:/users/j3parker/src/repos/QCViewer
+b8b0019865f13ea03863374f99870200abf4fb0e|2011-06-10|Alex Parent|Cleaned up by moving the draw functions into stateWidget and removing the old draw function files.
+e246ab3e26b359efab14ad876ad3a0d3b6fc9201|2011-06-10|Jacob Parker|mmosca demo
+76a73971fdc5d9bc2a3df8d23159bd0524f6ac98|2011-06-10|Alex Parent|minor cleaning
+92090addbb0526c5361accee91294a695377ebd5|2011-06-10|Alex Parent|Minor fix for state function returning by value. Also added a version number since code will be distrubuted for evaluation purposes soon.
+fb24d1b823c134420551d18f406adfa3ea30b687|2011-06-09|Alex Parent|Dirac now outputs a state. Added better notation to dirac. Removed armdillo dependency.
+232221d1efeda825e1f53819e6926fa3369a74d5|2011-06-09|Alex Parent|Merge branch 'master' into dirac-state
+40b9fbdd4d266ee6c68cd9169b747d47a9fca6d3|2011-06-09|Alex Parent|Debugged parsing code.
+ffb5cedcba9d0935ed5e0cf1c4654725c49bc68b|2011-06-09|Jacob Parker|some ui stuff
+7e68662d33d317a8eb281d5e72d9f2f642473e24|2011-06-09|Alex Parent|Merge branch 'master' of taurine.uwaterloo.ca:/users/j3parker/src/repos/QCLib
+82e8138383afb02e0fe4819de5f40bb900ce980f|2011-06-09|Jacob Parker|formatting i think?
+9934f2be82afde53b9fe80071b22d7e5cec7b296|2011-06-08|Alex Parent|More cleanup plus TODOS
+19e695298fb38bed0c0d806441e63b8f85cbd735|2011-06-08|Alex Parent|Some inital changes, need to add the required operations to the State class
+5e67270f0e097a09b992ae1972afc0f038264fea|2011-06-08|Alex Parent|Added a TODO file
+65ca44a2bbeb2feb527b8f7a8d0ab7b6f80ecd26|2011-06-08|Jacob Parker|Merge /users/aparent/iqc/QCLib
+05538ec3b0b6831aefbea88b9f35e49a4ef89116|2011-06-08|Jacob Parker|Merge branch 'master' of csc:~aparent/iqc/QCViewer
+d87de84f20b84c94862948dc9dae512129143ad6|2011-06-08|Jacob Parker|minor bug fixes
+ad8f5acf7d7576168d084148d81430f1857776cc|2011-06-07|Alex Parent|Merge branch 'master' of taurine.uwaterloo.ca:/users/j3parker/src/repos/QCLib
+70fc258b5453d2fb91683f3b10bbf83a7307eb36|2011-06-07|Alex Parent|Cleanup
+99908991ae1b57d48e42095ca7e31e09d204f829|2011-06-07|Alex Parent|Rotation gates now working as well.
+c436f40fe0d2668209aa488619f75148b75ae031|2011-06-07|Alex Parent|compiles and works for UGates
+b8d2c02844cc51fb285af72613f1af79bb8b3228|2011-06-07|Alex Parent|Compliles and works with UGates and QCViewer
+9c25bff5b546b711c46d34655297ded52aa8e209|2011-06-07|Jacob Parker|mend
+13a9231710ebff6166f538185deb40b39e660608|2011-06-07|Jacob Parker|mend
+22252e6f02beddb115ec34f53cdfe27c93fcdc28|2011-06-07|Jacob Parker|Merge branch 'master' of csc:~aparent/iqc/QCLib
+14a458781306929785d748531c5d023297ec5b44|2011-06-07|Jacob Parker|.
+fc6f182a2b49c015fbf51ebcac02293173db567e|2011-06-07|Jacob Parker|Merge branch 'master' of csc:~aparent/iqc/QCViewer
+02fa6095c8448cd92a0a81c1a3c499c248d1d90b|2011-06-07|Jacob Parker|fixed zoom/pan, rejiggered ui
+e138a2d58b81655b52a879a39b1610c476fbbfbd|2011-06-07|Alex Parent|Fixed unsigned vs signed int problems and added a drawtype to the new generic UGates so the Draw code knows what style to draw them in.
+694403dec457ac0a35e650ed96f775d7746e8fec|2011-06-07|Alex Parent|Improved state graph and moved minmaxwire to QCLib
+f5e5dddd2082107b9ca874627e7047fd5faf3d56|2011-06-07|Alex Parent|QCLib now compiles and links
+7512c23927c347afd896e3a61285c5c63cc59af7|2011-06-07|Alex Parent|circuit parser now compiles with new gates
+1f9d82e9d386b645895aebac246b3028b44289c6|2011-06-06|Alex Parent|Partly implemented UGate and added UGate library function.  (this all still needs debugging)
+d7d5e5d37fc955baddab23e4815689ec4aab759a|2011-06-06|Alex Parent|Respecification of gate.h
+4f4c00ca46c8e3b55ba4dccc2039313dc904d028|2011-06-06|Alex Parent|Added parsing of rotation gates.  Commiting now before doing a major redefinition of the gate class.
+bfb9aeaa344f046852341c06bb744b4ba2df41c0|2011-06-05|Jacob Parker|moving to csc
+e80510024affbbe3f60886bd16ad95d689dcd9f2|2011-06-05|Jacob Parker|moving to csc
+97ffb618680d95133b2f6b5f22ae84a8662e515b|2011-06-03|Alex Parent|Bug fixes
+f0cff4326bd20b75dd4db906b3b5b55e7e20aa09|2011-06-02|Alex Parent|Some fixes to make sim work.
+1b31f55bc2b370e3edb0939c0b625a3449839615|2011-06-02|Alex Parent|Mostly fixed simulation (Fred gate still broken)
+8cd200d273e3f4567e1049ca2e7adadc071b0af9|2011-06-02|Jacob Parker|minor changes
+dbe37cb31e1493880174053ff992bc1311359c25|2011-06-02|Jacob Parker|this is broken, don't pull yet. will fix on other machine.
+9016a3dee1897a898c2c7529dfa72ed809a5fd4d|2011-06-02|Alex Parent|Glued sim code together and added a box to input states.
+86ce4a8ca278c769027010ff3acd4d2469305bbf|2011-06-02|Alex Parent|Added headers for sim plus various fixes
+3b838c790d636eb6c3be80a07df6ada624741fe9|2011-06-01|Alex Parent|Merge branch 'master' of taurine.uwaterloo.ca:/users/j3parker/src/repos/QCViewer
+bed000d2703df0b3755b3c28982f550650e5a24b|2011-06-01|Jacob Parker|Merge branch 'master' of csc.uwaterloo.ca:~aparent/iqc/QCViewer
+dccb1d015cf05ac31d00dd656035bbbc1eefd195|2011-06-01|Jacob Parker|various
+112aedae76c198107b9c1299e8558de9d6b3e169|2011-06-01|Alex Parent|Cleanup
+c1ffa4b8d6dbc1bf83ddb5ee45e3c3d681d0fb5c|2011-06-01|Alex Parent|Added state visualizion to viewer.
+40435f4ba05df785e3144aad8d6a7ce64004575d|2011-06-01|Alex Parent|Merge branch 'master' of taurine.uwaterloo.ca:/users/j3parker/src/repos/QCLib
+b170555175da78f031af860d335d5d113e1c2218|2011-06-01|Alex Parent|Made some changes to things to make more sane for viewer
+5b4dcca4f5f60528f56e7e04a6c4590352bb5b05|2011-06-01|Jacob Parker|simulator "done"
+279a1fbb9e75e91484bd73b43a876fbb1b9ec5e7|2011-06-01|Alex Parent|Merge branch 'master' of taurine.uwaterloo.ca:/users/j3parker/src/repos/QCLib
+3fbc95b084ba9a9421a5eaf693fd7b55312e753e|2011-06-01|Jacob Parker|minor changes
+475a3b4b4b3647da6661579eab773be3463cd5ee|2011-06-01|Alex Parent|Added getGateMatrix for sim, made a stub simulation test.
+06825e45f6ae879fb8040a04c5aa908c6ebd5d5a|2011-06-01|Alex Parent|Fixed parsing code.
+52bbf982b99ee903a4c74a5d1fae4d097030193b|2011-05-31|Jacob Parker|removed templates for simplicity
+40901584ba4d984c7ffca755f637c50fe50c656d|2011-05-31|Jacob Parker|added (sparse) state class
+5318686c9e08c7e5e78b94f0290767d2db04a494|2011-05-31|Alex Parent|Merge branch 'master' of taurine.uwaterloo.ca:/users/j3parker/src/repos/QCViewer
+b8e713ed7db0d6bb0fab6e333e16c3e4e11a34a2|2011-05-30|Jacob Parker|Merge branch 'master' of csc.uwaterloo.ca:~aparent/iqc/QCViewer
+eb78f109e4e79dabf69ad98dffbaa8f1448f32ae|2011-05-30|Jacob Parker|made scroll wheel zoom
+363e90955cdf1c8100f80525613966f08142408a|2011-05-30|Alex Parent|Merge branch 'master' of taurine.uwaterloo.ca:/users/j3parker/src/repos/QCViewer
+e1de8dc9f48cd7b1314007c09d745396f590af6e|2011-05-30|Alex Parent|Fred gate stuff
+0e995ea2944fa1e4931a4c733fe122b69fef8266|2011-05-30|Alex Parent|Added status bar and fred gate drawing
+2c0e720527142c55c59643ce266deca7bb368109|2011-05-30|Jacob Parker|panning, picking. pan+zoom are together broken.
+e511e67da30b6fd1cc398f94faa1a5e60bd3f2a5|2011-05-30|Jacob Parker|no longer resizes on load
+26979d6e08826408a8f6e7b0ebd6957a9803a701|2011-05-30|Alex Parent|Merge branch 'master' of taurine.uwaterloo.ca:/users/j3parker/src/repos/QCViewer
+fcfad2f3e35e18efd54fefac337bdd29bae41bd8|2011-05-30|Alex Parent|Various fixes plus negative controls now working.
+0990b85e6361661c0515b733c5826948345b33e2|2011-05-26|Alex Parent|Merge branch 'master' of taurine.uwaterloo.ca:/users/j3parker/src/repos/QCViewer
+fa25773e7de3853d76acb7c7efb504919affab9f|2011-05-26|Alex Parent|cmake file fixes
+d00cc365958809ab6133aca975d844841720cf34|2011-05-25|Alex Parent|Added another header in order to apease windows
+7c1ef880ae83476242c5c70f5fd2f69215538b53|2011-05-25|j3parker|zoom functions. still lacking pan.
+4770c8fa42a237d4dcd595e6fe5ca7456707cc78|2011-05-25|j3parker|saves images, draws circuit more nicely (polish) and proper error dialogs now
+95fa59645284d16f20ac208da8517132a7a87c4f|2011-05-25|Alex Parent|Change to cmake file for windows compatiblity.
+fe6841526d64ab8ee79fc9fd4a9e71723188460b|2011-05-25|j3parker|eliminated warnings
+11e0ddc24788dbf40a582661aae9b60ad7dfead1|2011-05-25|Alex Parent|Merge branch 'master' of taurine.uwaterloo.ca:/users/j3parker/src/repos/QCViewer
+09fd3ee60c221073be3643d0a655108b96f301ad|2011-05-25|j3parker|some better ui before final windows push
+541457c35f4a3bba118a6c5c3bff0c91af82f527|2011-05-25|Alex Parent|Cmake works on Linux now.
+3365eebb2e7435f338f2bb3dbb7e36bb0ce8e620|2011-05-25|Alex Parent|Merge branch 'master' of taurine.uwaterloo.ca:/users/j3parker/src/repos/QCLib
+b0e21de0a199cecfffe1731498c39818b5f312fc|2011-05-25|j3parker|Merge branch 'master' of csc:src/working/QCViewer
+a455017cfb3e3bb77e334335cbd660ea8b8a8c91|2011-05-25|j3parker|arch parsing
+fe70d6b5c5fcebf4e9ef28f54a93742771cb6693|2011-05-25|Alex Parent|Final fix for windows code. Compiles now!
+2024bc171c9f7d3e275d7b841c2af7f92bab7a9b|2011-05-25|Alex Parent|Removed externs that may have been causing a link error in windows.
+c46f3faf997620f03e5e499b07909d16c3307134|2011-05-25|Alex Parent|Merge branch 'master' of taurine.uwaterloo.ca:/users/j3parker/src/working/QCLib
+8a33309581657ffdcbfe73c896e934961bdec9ad|2011-05-25|Alex Parent|Fixed parser to not use glibc function fmemopen.  Also fixed a bad return in draw.
+c1e8f918189c1df69d8d9db7118d24c0e0d87d26|2011-05-25|Alex Parent|Added generated files since there are problems with flex and bison on windows
+d1ba6eb40e0ddf027c99d2cf2e463c73fc343202|2011-05-25|j3parker|moving from csc machine to here
+443c4d007bba1e6f84d675759663734951cad41a|2011-05-25|Jacob Parker|urg wrong machine
+318b3d84d0e456ff4e98be3862682bc14f6ddb9a|2011-05-25|Jacob Parker|gtk rewrite
+8fc9066da3f51fccb10c5aff2ec6bbbb75cb2892|2011-05-25|Jacob Parker|cleaning stuff up, finishing move of draw code
+02bcebcf1d689bdec77318867cb2c9a9e43e43be|2011-05-25|Jacob Parker|warnings have been genocided
+ab22c9b1946ba098d81ac1921e0c141efc66b2a6|2011-05-25|Jacob Parker|Merge branch 'master' of /users/aparent/iqc/QCLib
+b58289f9cb929e0d34a03b722bf2b9d7ba4b6ef4|2011-05-25|Jacob Parker|reorganizing draw code for gtk move
+68bb44cf37950df7515b591d30e5b83a5af1fd72|2011-05-25|Alex Parent|All generated code is created correctly now.
+b3f38361586e750a0805b59787cc0ce3af25b017|2011-05-25|Alex Parent|Now builds using cmake.  Armadillo files added to repo to make cross platform stuff easier.
+2bf023f187a709867ae93caf0ac12383d410b5ee|2011-05-22|Alex Parent|some fixes plus getStateVec for dirac parser.
+a47aab1865a2c74f4f2cb30dd4b0660e72475c3e|2011-05-22|Jacob Parker|glueing dirac parsing
+880307a4174d35853e808d6898cf4035d18cdb53|2011-05-22|Jacob Parker|command prompt started
+39e8e8745a3ab558286d1281a429fe15d982a111|2011-05-22|Jacob Parker|Merge branch 'master' of /users/aparent/iqc/QCLib
+a64fd5ec507fefbaafe33a30af51aa2c73fbeb92|2011-05-22|Jacob Parker|tidying etc.
+23f18caa1df59ed661a4adea8f0029f5898bb561|2011-05-20|Alex Parent|Merge remote-tracking branch 'j3parker/master'
+69ae61e177ff99643290f10648a93c9ebb998a29|2011-05-20|Alex Parent|Dirac stuff appears to work.  Needs more testing and maybe more functions.
+d7cc8c48afdcd6341c295098f9294f5d8462482d|2011-05-20|Jacob Parker|parallel stuff, U gates
+d0e6047ea7cc163c4c9e02565a3b00f5757656de|2011-05-20|Jacob Parker|Merge branch 'master' of /users/aparent/iqc/QCLib
+a244fb22742942875fe6d63005959909dfd619ce|2011-05-20|Jacob Parker|another circuit
+62f02343211e43fd248f57feb91a818f3e8195df|2011-05-19|Alex Parent|Dirac Parser now ready to use, also fixed fixed up makefile.
+313e8a3404e923d23db01a936d8f882369f374d1|2011-05-18|Alex Parent|dirac parsing code added.
+c023a546a8070024faac6b21314e113011168777|2011-05-16|Alex Parent|Merge remote-tracking branch 'j3parker/master'
+edc62379aae1cf05e2e258ed577d05cb450631f7|2011-05-16|Alex Parent|removed some unused functions + minor formating
+fe342a76a388136f8e8a91bf4af996e0f7c0168c|2011-05-16|Jacob Parker|arch warnings
+15b259cab7aa82191f74ae255af3a819c2b8303c|2011-05-16|Jacob Parker|arch warnings
+7b85648357471ba84777d5aa87333e4468a23597|2011-05-16|Alex Parent|re-did parser using flex.  Should now be more sane
+f2dc1e29a6faa9ffbc0aac0e8d6cf6b17176d923|2011-05-13|Alex Parent|added parallism lines to circuit drawing alse added an H gate to gatetypes and made the parser detect it
+dfeb64d81d249c6c3ef299fede9798730a157e44|2011-05-12|Jacob Parker|stuff
+22fac6a6e562d7664a24a7fc36be8a6421caa69a|2011-05-12|Jacob Parker|stuff
+bd9d73e5653b214befca34b82e0fa73d6b104057|2011-05-11|Jacob Parker|Merge branch 'master' of /users/aparent/iqc/QCLib
+1cfc2ca40018ec2ba9921dceda1674657493a700|2011-05-11|Jacob Parker|added more drawcode
+fc9704c6e825e9b8f80ca526a39b3d0499876a28|2011-05-11|Alex Parent|Changed parseCircuit to return a vector, made the makefile output a static link library, and some minor fixes
+669ba5ccb082137b01ab1ccc381fa4d926c5c2f4|2011-05-11|Alex Parent|Inital commit for QCViewer. Loads files makes a picture and displays using QClib.
+b109b7d8566749fab24d9ec8c4cc1bbb54a7f5bb|2011-05-10|Alex Parent|Merge branch 'master' of corn-syrup.uwaterloo.ca:/users/j3parker/src/working/QCLib
+bf980046d28c16f70a10bca67b2fea1264c3ec58|2011-05-10|Alex Parent|Merge remote-tracking branch 'j3parker/master' Not working need the draw.cpp file
+293711bab3e4104415fa3ad27f595baf8168fd26|2011-05-10|Jacob Parker|whoops
+c3fad1c5479e129c949fd0d9b51036c5f4f92e79|2011-05-10|Jacob Parker|drawing
+2c6bc9d9f22a15287dc8d6caa0060386f39f59e0|2011-05-10|Alex Parent|Merge remote-tracking branch 'j3parker/master'
+211a79a2afe3fc6be60f18d89e851a747366ca37|2011-05-10|Alex Parent|Added a QCost function for the CNot gate.  Also many fixes and cosmetic changes
+6d7a8d7730fc5104cc6329b7b7fd4cb206adc0ee|2011-05-10|Jacob Parker|Merge branch 'master' of /users/aparent/iqc/QCLib
+b0b1aff499e713b8dc38121fdbfe582fb1726671|2011-05-10|Jacob Parker|gitignore
+59ba0a1eb50b2f9f91aa1bf59617b9334582d1ff|2011-05-10|Jacob Parker|nothing
+00b92b3470dbba5f388446d01f44cfebec6a7ad3|2011-05-10|Alex Parent|Parser now seems to work correctly other then the old bug which requires string cleaning
+440af6698ebb68a68dc6e7a781c0d8ddea687e43|2011-05-09|Alex Parent|Fixed up the parser code for some new data stuctures
+5b361fd16cff08a50d9aa0e8e1271412a6f685ba|2011-05-09|Jacob Parker|changed up some classes
+89d3c5988ddf99dc4f81cc0727bbc535f71e7469|2011-05-09|Jacob Parker|Merge branch 'master' of /users/aparent/iqc/QCLib
+535e551d9f10fd7df9cc5c75027c3ac98c92d9dc|2011-05-09|Alex Parent|some changes to the circuit interface and minor fixes
+b5b8221039b06140cb670e7071e89da922613ff3|2011-05-09|Jacob Parker|Merge branch 'master' of /users/aparent/iqc/QCLib
+16a7504c55864840cdf8b545935120aa13b633fb|2011-05-09|Jacob Parker|some drawing tests
+c06672e24ac532b68205150621cd1a3509741b12|2011-05-07|Alex Parent|Made some string stuff in the parser saner.
+af2a2c3edfb199b50a320170c6abd84deac8fb7d|2011-05-06|Alex Parent|Parser now works but may have some ghosts to fix. It is worrying that I have to remove invisable charactors from some expressions before things will work
+14c5175bb32385cf078b34ab7dd31bf956b32b62|2011-05-05|Alex Parent|Started parser and tested it for inputing line names correctly
+0e3d19d167610861f3af83d02fd2fa6e28f64fab|2011-05-05|Alex Parent|Inital commit

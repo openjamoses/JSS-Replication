@@ -1,0 +1,193 @@
+56417d9f69737c033715dab4957436bdfef91589|2020-07-24|Matthias J. Kannwischer|clean-up interface
+cb2caa2044574815af6fd2d0589677c9f37d65a3|2020-07-24|Matthias J. Kannwischer|remove non-round3 schemes (#162)
+c32bcd017b202d418c9135e2df77be73a69044a0|2020-06-15|Ko-|Revert "clean up Makefile"
+b64e5f1073cc24097579417a91bcee3ee85eb260|2020-06-11|Matthias J. Kannwischer|clean up Makefile
+28eb2d83ee763095e09f0b50e5fad877a32aee19|2020-06-11|Matthias J. Kannwischer|New Dilithium Code  (#159)
+aac104e26fd2fcbc21a208d2d26638f612f6c28b|2020-05-30|Ko-|Update NewHope to v1.1 (#158)
+1cb728bd1b94cee9fd1b78bc6db7758cd014257b|2020-05-30|Ko-|Update Round5 to new version (#157)
+bfef406e70c01d6541179e4d91f071698feee5b1|2020-05-29|Matthias J. Kannwischer|add gcc10 benchmarks
+af4b38f747c5c0613f3b26b3df827518df95a516|2020-05-29|Matthias J. Kannwischer|update mupq (more robust result parsing)
+84c5f91a0f7dc2257096f72fd93c4e5e2958d00c|2020-04-28|Ko-|Update ROLLO implementation (#155)
+a1bbbd9c541b972740ee1a1fba6d80958a916927|2020-04-28|Matthias J. Kannwischer|fix lac to adhere to the new aes keyexp api
+479f4a5b829083ccf0169bb76387d2b1ced2d0fb|2020-04-27|Ko-|Fix {sntrup,ntrulpr}761/m4f such that they compile
+7aa3be88486eea5aba72a69934c9bbe3ea540f9c|2020-04-22|Ko-|Extend SIKE M4 benchmarks
+87dd5c1384dec6d9accc2ec7cf566f8f7b9917f7|2020-04-22|Ko-|Update RQC implementation (#153)
+e1c6949eafbf7d9345efd9f0fbd5f1baff245a4e|2020-04-22|Matthias J. Kannwischer|Add m4f Implementations of ntrulpr761 and sntrup761 (#150)
+1da151868d23dd6dd7c72d9c3486353aa8f57bca|2020-04-21|Matthias J. Kannwischer|LACv3 Benchmarks (#147)
+1a6ee85e630c04121ad33ad04b7c8a175daf7e3a|2020-04-21|Matthias J. Kannwischer|Update PQClean (#148)
+04a8be2cf8a9afff9c28a86e06d343e9cde9b45f|2020-04-17|Ko-|Integrate SIKE M4 implementation (#146)
+90754b17fb0e50eb4aad6531c7cee3f1903d259a|2020-04-17|Matthias J. Kannwischer|Faster SHA512 (#136)
+20f1dffccac5fbdd82f23f2341baa21b66338462|2020-04-05|Matthias J. Kannwischer|Update libopencm3 to fix build with make >= 4.3
+7e7703ce280779c834f43592229207c042deb16a|2020-03-25|Ko-|Update Round5 to third round (#135)
+3b0ca85f2500dda99887df23cdc076bb550e2dcc|2020-03-05|Matthias J. Kannwischer|Update mupq to make serial output processing more robust
+09726167f3f0907a5e822e99a41e3271bbff3ff4|2020-02-15|Matthias J. Kannwischer|Fixes #132 (#133)
+7b37f04e03e06569f352f0be81362c4860cb2ce5|2020-02-04|Matthias J. Kannwischer|Take clean CPA three bears from PQClean (#131)
+2f3b8bdde924070db277213bdc33220cc64479c6|2020-01-30|Erdem ALKIM|Remove unneeded file in NewHope m4 (#130)
+f0f573eb7b17cdf1d1d2c0081c59bd78c3a02046|2020-01-30|Erdem ALKIM|Integrate faster NewHope m4 implementation (#129)
+944b3c30072e59afdae0b6b73d18b4fbc1839849|2020-01-20|Yusuf Alper Bilgin|Integrate faster Kyber m4 implementation (#128)
+8136c82eb327a9faca1378fb9e52360bb9106883|2019-12-03|Ko-|Fix Round5 CCA KEMs (#127)
+89e9eb125d2f6dea52fbbc3898fbfb509ce243a8|2019-11-25|Matthias J. Kannwischer|Update libopencm3 (#125)
+1624ff12e48436ceea4ae02672594627b5c52fbe|2019-11-18|Matthias J. Kannwischer|add benchmarks of clean threebears (#124)
+6ba5207a16625f65266cb903a9c9f1b140ef6e67|2019-11-15|Markku-Juhani O. Saarinen|len and flag were flipped (#123)
+670ec38af504700861f32b6dabfaae789728fab7|2019-10-29|Matthias J. Kannwischer|update mupq (#122)
+f25922b3a88f86f1e2f7cc6ee0313dc44198580b|2019-10-08|Ko-|Add RQC{128,192,256} ref implementations (#121)
+20bdec1d191ef47798742453651cb458baeb11f4|2019-10-08|Ko-|Add ROLLO-{I,II,III}-{128,192,256} ref implementations (#120)
+970afc2593e4a2903c04b4a185084a666d4d791e|2019-10-07|Matthias J. Kannwischer|Add optimized Kyber-90s and update Kyber-90s from PQClean (#119)
+fdd41fa629f9076bf133d8e06c3537c0367327f9|2019-10-07|Daan Sprenkels|Add missing fields in benchmarkclock struct
+667d80b0550085e5fb507575bdaef0db8e5457c7|2019-10-02|Matthias J. Kannwischer|Update PQClean (#116)
+7514870c4d84ec29840454cd29a8e6c2117ce40b|2019-09-30|leonbotros|Fix kyber (#115)
+b4fea3fcfefc503144199fe4efedd41b6824e9b0|2019-09-25|Matthias J. Kannwischer|Update Falcon to new fixed upstream version (#114)
+8a1a4762c4508a2eaa7a29f899f1eac336d9e50c|2019-09-24|Ko-|Update LUOV to v2.1
+8e662d7530df37adc993bbc04786a90e99337b01|2019-09-19|Matthias J. Kannwischer|update mupq to fix Python 3.6 compatibility and dubious use of printf (#112)
+3f2f58a7df8d99b039baf916080703ad7e1ae975|2019-09-10|Matthias J. Kannwischer|fix incremental sha512 (#110)
+f5198cb4cc94cc1620ddbaf2f66f99aab1ed742a|2019-09-09|Ko-|Fix hal_get_time()
+60e418f5158b880fe3f05493bcbc4f06c81515d8|2019-09-05|Matthias J. Kannwischer|fix sphincs-haraka-192s-robust benchmarks
+be0c421aaecaad4443071bfcf62ad397d4f40832|2019-09-05|fragerar|New ARM assembly optimized code for NewHope (#108)
+da6104fc0d6e8cee6c106619d3da37c9db101775|2019-09-03|Ko-|Fix broken links in README
+93cfaf475516aa6b1560559e43d9ff5ca26fa960|2019-08-20|Matthias J. Kannwischer|remove withdrawn qTesla parameter sets (#107)
+b87b354d350d32fa8a0d37c5465321425445602b|2019-08-15|Matthias J. Kannwischer|Merge pull request #106 from mupq/posix
+64468e6b4576a647f22473f1f76388f22c058787|2019-08-15|Ko-|Don't use any sed flags
+b2d4a8af821f49074fa89e92e309f7fadeb86651|2019-08-15|PRASANNA-RAVI|Optimizations of Dilithium's signing procedure (#105)
+93d444af0f5931025b7b1b15e66f08f1d6300ded|2019-07-22|Matthias J. Kannwischer|Fix Kyber assembly for older compilers (#103)
+f8408c0f43929f31ee62c46b6e652d91d0124017|2019-07-18|Matthias J. Kannwischer|Add Falcon (#102)
+cd3d685816b4a3749d174865641d3514c19367ec|2019-07-06|Matthias J. Kannwischer|Update qTesla code (#101)
+b5fd63b972b5ccfa6233ff2b7a052d6e2782739a|2019-07-01|Matthias J. Kannwischer|Skip pqclean implementations of ledakemlt{12,32,52}
+7e000ce6f395a3e4b4b7ac756c2f911c8b010147|2019-07-01|Matthias J. Kannwischer|update mupq to add release function for AES key schedule. Fixes #98 (#100)
+35331049d0fbee8b911bfa781a12b6b4ef86bd74|2019-06-27|Ko-|Add Round5 (#99)
+ee9fdb068dddeae9e76dcef680012726818403f3|2019-06-13|Matthias J. Kannwischer|Merge branch 'frodokemround2'
+972aa9208bd8536f3d5c20b93a87dc3dc582e5df|2019-06-13|Matthias J. Kannwischer|Merge branch 'frodokemround2'
+c46a47b035671170b8b1bc22024f43c4284abc1b|2019-06-13|Matthias J. Kannwischer|frodo benchmarks
+f84574db9fa6626f266050c93e860f058d5bd7c9|2019-06-13|Matthias J. Kannwischer|frodokem640aes
+711be16618a8246089596746bfe62f8a9adc6b2a|2019-06-13|Matthias J. Kannwischer|reduce stack usage to make frodokem640aes fit
+9a12821c9f127f1ddd03b9be6066f1ec3c52dd23|2019-06-12|Matthias J. Kannwischer|optimized frodokem640shake round 2
+cd1c7e4a7ff8134a712d10a31cb68157967c5e3b|2019-06-12|Ko-|Update README with cSHAKE
+6e4d959b6f33983c4ed5c2625f615146008ee87c|2019-06-12|Ko-|Add ThreeBears (#96)
+23623199b99b1d4915e402229e971c38e4e701a1|2019-06-12|Matthias J. Kannwischer|Update README.md
+93c5c866965ee541cca9adf64a2d47dea2e27749|2019-06-12|Matthias J. Kannwischer|Merge branch 'dilithium'
+5e62e8253cf73a4840808f78f3df000e77ad157f|2019-06-12|Ko-|Add LUOV (#94)
+2b67625b4dd3aff23a4ded6de3b01624c29ab2bc|2019-06-12|Matthias J. Kannwischer|update dilithium
+50b6e0c60edf987b360bddbc1ca90638efcd5766|2019-05-21|Joost Rijneveld|Fix typo in ldscript Makefile selection
+4525a4b4edc5040545cb07b2c97201d4995c1bca|2019-05-21|Joost Rijneveld|Allow implementation-specific linker scripts
+3ba50298335b8d2171e28dafd2ebf97905615e00|2019-06-10|Ko-|Allow AES to be called with non-aligned pointers (#93)
+375bf995885b5068215222d869edc374c432cfd0|2019-06-05|leonbotros|Cleaning m4 implementations of Kyber (#92)
+79579db88552b6d2c83da90cb5993c79fe484ed2|2019-05-31|Matthias J. Kannwischer|rename dilithium to dilithium2
+0f29c2a69b58d6c86b5e0c815df70929c8a74e46|2019-05-29|Ko-|Update NTRU Prime to Round 2 and add parameter sets (#91)
+7b01d1d0fc0aeda24911ecebbebe814373d47a68|2019-05-27|Matthias J. Kannwischer|update README.md
+9e86604bfde8867999d6617ee7acb0e8cc9324c6|2019-05-27|Matthias J. Kannwischer|remove old m4 implementations
+99a9a9eaee76fc94c44d8f9c529ebb236ff9842f|2019-05-26|Matthias J. Kannwischer|benchmarks frodokem opt
+48772d04aeb49e45ea408031b6e48603a3587c26|2019-05-26|Matthias J. Kannwischer|update mupq; update skip_list
+e20975503b48098cf4c40e8a4ebe47cb3bf63c10|2019-05-21|Joost Rijneveld|Fix typo in ldscript Makefile selection
+1f1b96f464c6cfec139201ecd54a97d4435a7a57|2019-05-21|Joost Rijneveld|Allow implementation-specific linker scripts
+2cc2be9ac8d0d45648d8cb3edefed6c7c10a7341|2019-05-21|Matthias J. Kannwischer|update frodokem to r2
+31280bc339f704d65dfe9da1e50a1d40c55d5160|2019-05-26|Ko-|Update mupq/pqclean and port the opaque structs for the hashing API (#89)
+0da66bc0e4222af70085d16093e434267ca84166|2019-05-21|Matthias J. Kannwischer|Update README.md
+3a581d731c97c57145b174d1ea3999c8134ab766|2019-05-21|Matthias J. Kannwischer|Add NewHope Round2 (clean+m4) (#87)
+ab68fb4956c25c3f10b5178202cdfef6fc41d6da|2019-05-20|Ko-|Fix interface.py
+bca2a0785e2ff64894894f8b7a7a089fd4013ed4|2019-05-20|Matthias J. Kannwischer|add optimized ntru variants; add benchmarks (#86)
+bfb9144fd749e1b77be96755989b9346f5c1908e|2019-05-18|Joost Rijneveld|Add SPHINCS+ benchmarks (#85)
+83e9906c6890ee56f52a44e4b22afa7b4c8a09cc|2019-05-17|Matthias J. Kannwischer|Update README.md
+94230ecf6d65e51a39bb1a5da0449002bc4fe838|2019-05-16|Matthias J. Kannwischer|properly check for errors for signatures
+d99fe3285ba342f400c5bbe8a50fd50d4ecfe524|2019-05-15|Ko-|Add SIKEp{434,503,610,751}
+99b58d9695a1c565800dbbbd03cd7ff7cf494e3f|2019-05-15|Ko-|Add LAC (#84)
+5926ab31baf6f0d022c7cc1f0ead368364336de3|2019-05-15|Ko-|Add LAC to list in README.md
+65f7a29de3e884d5bbe0487ac0a67675225c9ff1|2019-05-15|Matthias J. Kannwischer|update mupq to include lac reference implementations; add benchmarks for lac
+4fe0327b5218398cb87b391e9b4e6321f7a225a6|2019-05-15|Ko-|Update SHA-2 API in README.md
+03153eabd4cea6d8612c4946f3dd7d2bf1263216|2019-05-15|Matthias J. Kannwischer|Update SABER to round 2, add LightSABER and FireSABER (#81)
+4457e5baaa6230df16b2212b00f4535ff2c68665|2019-05-15|Ko-|Add option to skip other types of benchmarks
+4b9c6e38ec027504ff994c6fe3ad67f285f9ff34|2019-05-15|Matthias J. Kannwischer|change ntruhrss701 back to clean
+188fd795772e6109442198659b1bef1c012c5c49|2019-05-15|Matthias J. Kannwischer|Merge branch 'master' into saber
+13579e454863516dc85f9200f5f842d7f4fe6dac|2019-05-15|Matthias J. Kannwischer|allow filter in build_everything.py
+90fdaca21a43502bc80a949fa0082bdeb94d2702|2019-05-15|Matthias J. Kannwischer|Re-benchmark with arm-none-eabi-gcc 9.1.0  (#82)
+530f4cb113a7c0e2b6a33ecf6f4d4f720ed56ecb|2019-05-14|Matthias J. Kannwischer|update mupq
+b85ef8453038860145bc112b05fc02469b3ebf0f|2019-05-13|Ko-|Update benchmarks for SABER
+7be7ce214476c88bfad2a95883a5234e36250899|2019-05-13|Ko-|Update SABER to round 2, add LightSABER and FireSABER
+0bec37d284f6c17645069306751291a3ba35d07e|2019-05-13|Matthias J. Kannwischer|Update README.md
+a04f89af45362ac53fbd47c13b2736d448e4ad59|2019-05-13|Matthias J. Kannwischer|Add memory-efficient high-speed Kyber M4 implementation (#80)
+1a0c3a9199939054100e31ac3db35af4e3e6ca53|2019-05-10|Matthias J. Kannwischer|update kyber512, kyber768, kyber1024, ntruhrss701; add ntruhps2048677, ntruhps4096821 (#79)
+8627f530f821a00f6e924a7f998f55604c6b5864|2019-05-01|Matthias J. Kannwischer|pqm4 V2 (#78)
+eaf7c6e7b0717c423bff7c7f45912471a5c11228|2019-04-06|Henry Case|Fix typo in README: 571->751 (#74)
+ae06d3dfc39e62f24a6dbb62d8e15a198b536d29|2019-01-31|Matthias J. Kannwischer|Add kyber512 and kyber1024 (#35)
+c5890967a8010e78d7348779f593731125539026|2019-01-25|Matthias J. Kannwischer|fix flashing retry
+60aba47f61f6482d82759f977bb8adba99c2fa2a|2018-12-17|Matthias J. Kannwischer|Add M4 version of Dilithium (#34)
+a1c5babed62bddd7e740318fbadde84f1ffd0660|2018-12-17|Matthias J. Kannwischer|Add M4 versions of frodo640-cshake and frodo640-aes [Fly, you fool!] (#33)
+9ba479311c021e7702566e0cfd131d0debcfad50|2018-12-11|Matthias J. Kannwischer|add some canaries in tests to detect implementations reading/writing out of bounds (#32)
+402048b9e44351f28627ce96dd4ff0c2617a6af9|2018-11-22|Ko-|Fix 2 typos in README and more consistency with -ise/-ize
+bc61119d8036a1b255579145242b1e3b6230462d|2018-11-22|Ko-|Refactor crypto_hash_sha512 and add sha384 (#31)
+d5727e18163701a5ccd3d3cdbb6c8883ea7e78eb|2018-10-23|Joost Rijneveld|Check for incorrect keys when benchmarking KEMs (#30)
+9c52e351f02617d56c06fd428c6935244137f408|2018-10-19|Joost Rijneveld|Add license references for saber and kindi
+c367f6ffa95f2d05aef3cc54497b34e6e853f0aa|2018-10-19|Matthias J. Kannwischer|Add Optimised Implementations of Kindi, NTRU-HRSS, NTRUEncrypt, Saber, and RLizard (#27)
+2bae04e2b13a0d240bbc49ef8836c94db9df49dd|2018-10-19|Matthias J. Kannwischer|Add RLizard-1024 (#26)
+d66799f1e7a1a07aec4744efcec41ec29a49421c|2018-10-17|Matthias J. Kannwischer|Centralise flashing of binaries (#25)
+17253f77dd6697a8fdd9bdebbe0a0ddca00a49e7|2018-10-17|Matthias J. Kannwischer|Add NTRU-KEM-743 (#24)
+b03b5fddd640562f7a2951e7c31c435e2b52c974|2018-10-17|Matthias J. Kannwischer|Updated benchmarks with arm-none-eabi-gcc 8.2.0 (#23)
+ac3e242fefe1b931ae63299acd80b74ab34371f9|2018-10-16|Joost Rijneveld|NTRU-HRSS: rotate by k using fixed memory pattern
+fcf7344ccc94a1ca146d18a5fceb8cd1d3cc1f12|2018-10-15|Joost Rijneveld|Fix potential branching in NTRU-HRSS ref
+abc55c05bf55d17d8dac7507a95b687f91d6cbce|2018-10-13|Matthias J. Kannwischer|fixes markdown generation if benchmarks are one line off
+f58c06a894dd5b00ae8b50c357ba8d559fe3aa9c|2018-10-12|Joost Rijneveld|Add bibTeX
+dc46471e8731c23a5e2a488e53a98a738bd29cae|2018-10-11|Joost Rijneveld|Check for .m4ignore in makefile (#22)
+9a7890c422b2bf12ae96f9445c8a756952a979c9|2018-10-10|Matthias J. Kannwischer|Centralise SHA512 (#19)
+4e8b88d9ef45bbd8d0a8f12baa4440784ee7815d|2018-10-10|Matthias J. Kannwischer|Refactor kindi256342 to not use dynamic memory allocations  (#20)
+8a83a1e2cc1c6713c37253aed1b0f3b22176e9ee|2018-10-04|Matthias J. Kannwischer|updates libopencm3 and adds while(1) at the end of each main
+770b7db736d86665ff1acf62a11a75f61b0c3b8e|2018-10-01|Peter Schwabe|Small update to the setup and build instructions
+109e19119a91f0e2f5ae1a07493b581666d25124|2018-08-13|Matthias J. Kannwischer|update libopencm3
+133c0e8378db97fddb4851a048bcb208fcd10e5d|2018-07-12|Ko-|Clean up and reorder License section
+254cc69346a71297fa9237b7b328f9d5c79ff346|2018-07-12|Ko-|Also fix headers in Makefile for qTesla-I
+7e61b0fa1a6d7d36b3e6e08febcc8ac5167464e0|2018-07-12|Ko-|Fix erroneous newlines in signature speed table
+f9948e5a504ccc89a029347b4cf3d12f9e7d3155|2018-07-12|Erdem ALKIM|Reference implementations for qTesla-III_speed and qTesla-III_size (#13)
+a08c06f46c95a62de830952e240a394350e76812|2018-06-21|Erdem ALKIM|qTesla-I reference implementation (#12)
+425aedabde9e4ed7429e2d50c5687aebb5eafd41|2018-05-28|Peter Schwabe|Updated README to extend beyond PQCRYPTO primitives.
+5cf3fc6f01226b359e60173d7a8ec7a03fe72caf|2018-05-28|Peter Schwabe|Merge branch 'qteslaref' of github.com:mupq/pqm4 into qteslaref
+8022f97ed50bfae4b08a398c46ae4df833226c0a|2018-05-15|Matthias Kannwischer|corrected LICENSE for qtesla
+08e2873ae02ebe60af68791b5bcd377e0de2df44|2018-05-15|Matthias J. Kannwischer|Add qTesla128 to README
+dc6c2f1a482011ba5be5e39d39376c596c09e005|2018-05-15|Matthias Kannwischer|comment on temporary workaround
+13d70017538b0b77476d91d241bf22e0b867399c|2018-05-15|Matthias Kannwischer|temp workaround for broken llrint
+3654e7effc76b0cd057bf9faa9f369316028a8c6|2018-04-04|Matthias J. Kannwischer|qTesla128
+95ef35cd20dd9669f5952f0eea3c0621ae6ef48c|2018-04-03|Joost Rijneveld|Revert "fixes cshake"
+93c3915b3ee04a7be0a7da86e17ca522dbae5d75|2018-03-30|Matthias J. Kannwischer|fixes cshake
+c99e7d332dd532bdfa94e9c3f7391997a1db198b|2018-04-27|jowlo|Minor errors in sntrup4591761 (#7)
+fe29bbf4a144c9a3d4d08e9cdd5dcc006ca27c6b|2018-04-19|Peter Schwabe|Added comment to README about number of executions
+1f374f95c983d5c99ffbf0a54e62c031ec03d167|2018-04-11|Peter Schwabe|Added comment on benchmarking frequency to README.
+cfec5162ec7bc5b11c2a79ef62e8e0aac414d95f|2018-04-12|Ko-|Fix error in enumeration display in README
+f4ceffaaa54695581fce4b9a84428323bdfc36ef|2018-04-11|Ko-|Increase KEM count in README
+76bb70891631ea7802bb94d4d8f922d0673c892f|2018-04-08|Peter Schwabe|Merge pull request #5 from mupq/ntruprime
+1ad0d35d3932e0361983b25c1a072766e1dfbccd|2018-04-08|Matthias J. Kannwischer|Update README.md
+084ead729dca8576616a41fbca7b9253fceb20fb|2018-04-08|Matthias J. Kannwischer|add sntrup4591761 ref
+2a508262df75eaee0a37695071bf38084aa0743a|2018-04-05|Peter Schwabe|More text in README
+78e60612effd44b8f2574555ba42144d7dad8326|2018-04-08|Matthias J. Kannwischer|skip non-existing dirs
+92c571c90bcd8127a1ba52d050eab03b83f42785|2018-04-08|Matthias J. Kannwischer|Update README.md
+61c6ce02010fa5001a20047d3ed7c3c4422b7667|2018-04-08|Matthias J. Kannwischer|add sntrup4591761 ref
+bcb8571b5b438f820615cc0240b0c46d8d291b1b|2018-04-06|Joost Rijneveld|Fix CSHAKE (#4)
+dfa5f5792e1997974b5a15a24b980030a92f5505|2018-04-05|Joost Rijneveld|Fix a typo in hostside Makefiles
+5f83586605c07f35f8509b95bdefbab71d499299|2018-04-05|Matthias J. Kannwischer|cosmetic changes to readme
+035fad29d05b629cd4881d0298b60e43c0632b2d|2018-04-05|Matthias J. Kannwischer|add api description
+39bf28d6c4ddef22738b9c230f40cecc8bebe443|2018-04-05|Matthias J. Kannwischer|add running tests and benchmarks to readme
+12b48eb7c1cb41f4263f24214a9edcd0943e7557|2018-04-04|Matthias J. Kannwischer|qTesla128
+036bcd4742e688819916d907217fb0a4887ab81a|2018-04-04|Joost Rijneveld|Remove stray communication signalling token
+059373b70a13206453a5f471965ed96e43a62eb2|2018-04-03|Joost Rijneveld|Zero initial cshake state and absorb separator
+3e4a23bab4aa3fabfa70bf5a8eb3f1c3b94e32a0|2018-04-03|Joost Rijneveld|Revert "fixes cshake"
+c297bf797c7045edfb445b63ac604fd22a94051e|2018-03-30|Matthias J. Kannwischer|fixes cshake
+993bd6737c89d14967c0645b545758884b53b159|2018-03-28|Peter Schwabe|Small tweaks to the README
+46071ba3c82cd5db0d902bafaeb45d6a757d1573|2018-03-28|Peter Schwabe|Documentation of how to add new schemes.
+73b19bc8e10d52afa584fe415975caf902ef7b49|2018-03-28|Peter Schwabe|Updated documentation
+928789102bb80e92d7412d8a2d3b7d5fc20e6971|2018-03-22|Joost Rijneveld|Sort schemes in benchmark output
+68e7d5bfc32b021e6850176e48c1b43c826d5479|2018-03-22|Matthias J. Kannwischer|Merge pull request #3 from mupq/testvectors-on-host
+5dc34f9364549ceeaf5f5406cb09f42d54008b35|2018-03-22|Ko-|Fix compiler warnings
+843d3d8a7fdb92663d929101472205f94aede3a9|2018-03-22|Joost Rijneveld|Update benchmarks; revised SHAKE, Frodo, SPHINCS
+dccefa23d810b720f27b7623cd07e171063f22b4|2018-03-20|Joost Rijneveld|Add Frodo reference implementation for comparison
+ffd4a29ffc472e4d4c4c7eae14735ef86ff3d4e6|2018-03-16|Joost Rijneveld|Compile and compare test vectors on the host
+26269d1195236d5e4641fc3a4fe2ff401467f61f|2018-03-21|Joost Rijneveld|Update SPHINCS+ after upstream fixes
+3a13378a33e9b2c0f023594ea7a0e38643341e7e|2018-03-21|Joost Rijneveld|Add pip requirements.txt file
+0c1edee302b49c62ce08084ccee755d96b2a5023|2018-03-21|Joost Rijneveld|Fix FIPS202 to match test vectors
+27de34120b58a2d3531e6d1bde479088755fc6f1|2018-03-20|Joost Rijneveld|Remove old way of skipping slow implementations
+7c5a93a2ce01090700081d09dd572a3999b289da|2018-03-20|Joost Rijneveld|Skip implementations with .m4ignore files
+57b8cee5024baec17477d999ad80a6bd174cfa52|2018-03-19|Joost Rijneveld|Merge pull request #2 from mupq/fixstack
+11f5eb4929e331c5c24131653f531b2f380b93dc|2018-03-19|Matthias J. Kannwischer|fixed stack measurement - now working for all schemes
+60fcda4242d08345ce07dc2715a014af580bd3a6|2018-03-19|Joost Rijneveld|Add TODO clarifying recursive Makefile deps
+8d78bba710e7666951d8b197d62448c878e3375e|2018-03-16|Matthias J. Kannwischer|benchmark data
+2fe2914db4cf101d0e2b3fc3834518cf5fbfd4fb|2018-03-16|Matthias J. Kannwischer|minor tweaks
+75356f6eacf9c3f4cacd9445f2efccdb29c66ed7|2018-03-16|Matthias J. Kannwischer|automated test execution
+a1dea8307d9a1911d25750445f0d92cf840c9fb8|2018-03-16|Ko-|Add libopencm3 as submodule
+bd5d6191fb012d109bfefc9ccac7184826d37f28|2018-03-16|Ko-|Add KINDI-256-3-4-2
+d30bb31026acbb164a6df72ae6fd620564ef4828|2018-03-16|Ko-|Add .git* files
+a31c64c568f7b9cdbc04796ddd950bdbec6133ee|2018-03-16|Peter Schwabe|Initial commit of code; edited README skeleton
+6eb10b3204af0e20813c9913cc1f3fdfcc502284|2018-03-16|cryptojedi|Initial commit

@@ -1,0 +1,440 @@
+f76b77e4039e3ca54cd8df52447c5895efef8686|2019-09-05|Jesús Rubio|Merge pull request #88 from danbev/cloud-test-fixes
+26232c82c265dea79904a3971638eb9451cb47b8|2019-09-05|Daniel Bevenius|fix qiskit-cloud integration tests
+18db4333112c05e0cb165707661872ad1f5a54e9|2019-09-02|Jesús Rubio|Merge pull request #87 from danbev/webpack-fix
+ed826c98af1aaca8fc60619b7c508f4092244c9a|2019-08-31|Daniel Bevenius|remove init script from package.json
+5f1a8240f447994c08c8032023cbf6a7ecb8331d|2019-08-26|Jesús Rubio|Merge pull request #85 from danbev/deutsch-oracle-example
+12ff394ab0b9f2390bc23773e696e85bf5ef9656|2019-08-24|Daniel Bevenius|add deutsch-oracle example
+2111438fa1ddb629162459da73514f25f44813c0|2019-08-15|Jesús Rubio|Merge pull request #84 from danbev/webpack-example
+28e200e98c6ca68d4128a0c0974e5aed14e30479|2019-08-15|Daniel Bevenius|squash: eslint ignore examples/webpack
+4eb840da4b6968688ab41d94178794c6ce0012f4|2019-08-15|Daniel Bevenius|add webpack example
+ecbeec1398311b2c74359644a89e5d51eb42f39f|2019-07-06|Jesús Rubio|Merge pull request #83 from danbev/qasm_add_core_to_files
+1d03a91c83779fc286d28e14aa9eb50b952d49e7|2019-07-06|Jesús Rubio|Merge branch 'master' into qasm_add_core_to_files
+e07ec4f8438158a62affcc5d841bf8983d8bd0a6|2019-07-06|Jesús Rubio|Merge pull request #80 from danbev/bin-warning-typo
+ef99fd0e92b4e028d05eea9f688e8627f23b683d|2019-07-04|Daniel Bevenius|add core directory to files in package.json
+ff5e9c9d97cbeae9c0f73a6f38e251c018a87c95|2019-06-20|Daniel Bevenius|fix minor typo in parse.js
+0c554dd15e73c0bf73f3cb62201a11447dfb47e2|2019-06-13|Jesús Rubio|Merge pull request #79 from danbev/qasm-grammar-indentation
+fb02465e593fedfc7e23d31e56540df2caec9358|2019-06-12|Daniel Bevenius|fix indentation in grammer.jison
+ae9b7fc5b18e6f7dffde030d10f5c4f35e375566|2019-06-13|Jesús Rubio|Merge pull request #78 from danbev/npm-travis-issue
+2a199c52764edbff434883857a840b89f9370760|2019-06-12|Daniel Bevenius|add name to root package.json
+d99cf5d2087946efbd686aa0d8546f444d7aaad5|2019-06-12|Jesús Rubio|Merge pull request #77 from danbev/qasm-grammar
+9f152ca592004e076a47b77ece77624e50bc2746|2019-06-12|Daniel Bevenius|make registers const in grammar.jison
+44ea60ae5c421f7400fd5a3ff58a3e5fbe63fa66|2019-06-03|Jesús Rubio|Merge pull request #76 from danbev/overwrite-custom-gates
+5d74c5e01d8032bc499f96f0019e55f03401df9d|2019-06-01|Daniel Bevenius|allow custom gates to be overwritten
+85a20e83654fb263e718c34b27aedf688e91e7f9|2019-05-24|Jesús Rubio|Lock files re-added to make Lerna happy
+ba41b108231451d6253ab3aad6a3c2c958a8327b|2019-05-24|Jesús Rubio|Dev dependencies updated
+f6d5df6eae0513f98e442f41e261e4e4dc132cc4|2019-05-24|Jesús Rubio|Minor improvements/fix in CONTRIBUTING
+63ada0f709d45f7ec96e8262bf62bc132274090d|2019-05-24|Jesús Rubio|Drop all npm lock files
+7df2d1763d1d5bc1b2fb44b7a39ec1028fc53d29|2019-05-24|Jesús Rubio|Merge pull request #75 from danbev/qasm-remove-unused-addGate
+2b51c2d02ddf186cc2216ff876a51982f0190711|2019-05-24|Daniel Bevenius|remove unused addGate function in grammar.jison
+349fc36b85b59f594e57f902273def558e302fd2|2019-05-23|Jesús Rubio|Merge pull request #74 from danbev/custom-gates
+46067a6cec9091b1d7101d738e4ffbd339a40b87|2019-05-23|Daniel Bevenius|add gate to gates map in constructor
+e4749497a9e83bc7febc601e0aa7a3980f0af722|2019-05-22|Jesús Rubio|Merge pull request #73 from danbev/add-pretty-matrix
+063e71619154bc2cb8d211f75e6634f9adfc62e1|2019-05-22|Daniel Bevenius|add prettyMatrix method to Gate class
+fcef410bde0377ee847a79cac3884282db5b910b|2019-05-20|Jesús Rubio|Merge pull request #72 from omarcostahamido/master
+f30787915d992bb6c35724b547fa309cd90633c5|2019-05-19|Omar Costa Hamido|fixing links
+4a2979f3f564309e9f1fe3bbf2cf395a8989f7de|2019-05-19|Omar Costa Hamido|Merge pull request #4 from Qiskit/master
+5babc21230f58ec404e38d828a68a9196829c90d|2019-05-17|Jesús Rubio|Merge pull request #70 from danbev/qasm-make-parser-member
+32177c287a56f0202eaf79675f595c365d8f7fe1|2019-05-17|Jesús Rubio|Merge branch 'master' into qasm-make-parser-member
+df12fa0258a2a955275eac9cd46dc2b4bfc8c754|2019-05-17|Jesús Rubio|Merge pull request #71 from danbev/qasm-parser-typeerror
+daaedde7ebebc309b2db68cba804dd51242b53fb|2019-05-17|Daniel Bevenius|Use TypeError as error for incorrect type
+f68c3e470696608a39934bf87963c45902a6875c|2019-05-16|Daniel Bevenius|Make parser a member of class Parser
+b54c494e299c8902ad1fae01fceca68a66efb512|2019-05-16|Jesús Rubio|Merge pull request #69 from danbev/qasm-error
+705b627b050b2f948f362bf5178565efc0d1901c|2019-05-15|Daniel Bevenius|Use QasmError for jison error handling
+70a64f3e74cc52a6c74b484829dd6d1c89b59494|2019-05-15|Daniel Bevenius|Make QasmError a class
+4f0a49b4c3347fbee053e2123f7a1d16f6d8791d|2019-05-13|Jesús Pérez|Making the deps linter happy
+9099fb6929176ed8a2e3291da6a2aa70ea062d3e|2019-05-13|Jesús Pérez|ESLint and prettier setup in package.json
+a629669e50749f2a915e60639afbb7b676afcf9c|2019-05-13|Jesús Pérez|v0.9.0
+93cc5b062b500c81fdf3ae69e29db6acb6642af3|2019-05-13|Jesús Pérez|Finishing CHANGELOG changes to release
+b42b54fe04ae287d57afcf109e8e1741d30f36d2|2019-05-13|Jesús Pérez|CHANGELOG ready to release
+3f123310595875830168ea7af3809da3f2f0042c|2019-05-13|Jesús Pérez|Doc improvements after last package name changes
+c6249315dd6b1bae6bc185c97beffd56a3cc47a5|2019-05-13|Jesús Pérez|Dropping npmignore files
+75e5b9a84064892bab1a8708fff469b2317e6d43|2019-05-13|Jesús Pérez|Packages *dev* renamed to *algo*
+1689c43f053b2fe99822a4c9947a2512c289caa3|2019-05-13|Jesús Pérez|Fix tests after last API changes
+d3710392c47c64d238a7528f9fe3ca98cfa94573|2019-05-10|Jesús Rubio|Merge pull request #67 from danbev/qasm-to-sim-circuit
+c9195e15bb4d7de654fddff13f02c53a9845cfa3|2019-05-08|Daniel Bevenius|Add fromQasm/fromQasmFile functions to Circuit
+454fa5f1cbb221c93ff7793e547091bed9e07c59|2019-05-08|Jesús Rubio|Merge pull request #68 from danbev/qasm-add-gate-type
+d25f499289dddfa87a261c4c1f04bd7b8ea238a7|2019-05-08|Daniel Bevenius|Add name to the gate type in qasm parser
+2d415166b7f4e834cbc5ac27cd63bbe491dc1fa8|2019-05-07|Jesús Rubio|Merge pull request #66 from danbev/printCircuit-bugfix
+173306400eecb35de190a61f0a7884379f42050f|2019-05-08|Daniel Bevenius|Fix connection bug in printCircuit
+76233a51e67436977b4ea4f389a56cf8cd9c5b6f|2019-05-06|Jesús Rubio|Merge pull request #65 from danbev/qasm-missing-modules
+e6d0ca3087095e7e717581c27aeab630ab1f4f90|2019-05-07|Daniel Bevenius|Add missing require statements in parser example
+1e57634c79eca6bd054a098c82bf2651251b73d1|2019-05-06|Jesús Rubio|Merge pull request #64 from danbev/add_add_method
+fbdaf7b7118d1fa9fb48f995033ab5d4f82f6bc3|2019-05-06|Daniel Bevenius|Add 'add' method to Circuit class
+8b2d6ee97e8568d4ebddcc61dbc6acf44fd4d8da|2019-05-05|Jesús Rubio|Merge pull request #61 from danbev/add_print_circuit_readme_api
+dc83760e8e8b7f5c5c89559d104d1dc2b7f5d2bb|2019-05-05|Jesús Rubio|Merge pull request #62 from omarcostahamido/master
+6b821eae266b04f09fdb19f7fa80952f99a1f8b2|2019-05-04|Omar Costa Hamido|updating dead link
+7bf4138d3a34d3094435a744512fada7b503c931|2019-05-04|Omar Costa Hamido|updating dead link
+c0a1ce3f369aabb0d35d579afba3ac8c9c2a3bab|2019-05-04|Omar Costa Hamido|updating dead link
+f5689e1d49f06a0adb8b1425ae0b477b63a49ecd|2019-05-04|Omar Costa Hamido|Merge pull request #3 from Qiskit/master
+c1e82525882bf83138f04de4d0a12ee2d5724154|2019-05-04|Daniel Bevenius|Add print method to Circuit API documentation
+884fc445d5a462fa68496b0776fe12b6e4ecf12b|2019-05-03|Jesús Rubio|Merge pull request #60 from danbev/addGate-spread-operator
+95e221ae550876d21c1bc79e38831c0ef83379b7|2019-05-03|Jesús Rubio|Merge branch 'master' into addGate-spread-operator
+f9657c511b2762b791222464f6e34cc3cfa02fec|2019-05-03|Jesús Rubio|Merge pull request #59 from danbev/printCircuit
+c74c8fa030772eb97281b2796386e4d0ae6e1a90|2019-05-02|Daniel Bevenius|Add print circuit method
+2178204c14dd92ef50a24963fb65a6fc0efea52e|2019-05-03|Daniel Bevenius|Use spread operator in addGate
+00cc7e7576e12e9201849265335fa1ebc930f339|2019-05-01|Jesús Rubio|Merge pull request #57 from omarcostahamido/master
+9f1a90ee4faa774b0022ec80454d3aec2b68242d|2019-04-30|Omar Costa Hamido|small typo on readme
+06aa91c401e09c0991ff752cad58e19d6433c329|2019-04-30|Omar Costa Hamido|Merge pull request #2 from Qiskit/master
+db3b56fb42d5b556650901130726189127fac954|2019-04-25|Jesús Rubio|Merge pull request #56 from danbev/addGate-api-doc-update
+26a8fdd827d1c7ae57d389d229648e6b215da244|2019-04-25|Daniel Bevenius|Add Gate as option to addGate API in README
+848603f011587abcc06901bec60e710ea5ae8e24|2019-04-25|Jesús Pérez|v0.8.0
+95fe6a290f6665ef45c12bed78d0f0219621cd0f|2019-04-25|Jesús Pérez|CHANGELOG ready to release
+d4690b44e2f1eabed710125e22fe3f885ab17236|2019-04-25|Jesús Rubio|Merge pull request #55 from danbev/t_gate
+291e49c88dbff0ceaf2e043bb922e6aaa56a44c0|2019-04-25|Jesús Rubio|Merge pull request #54 from danbev/share_matrix_r2_s_gate
+b4fee5d91b74791134e18020e6b4098b558c56e8|2019-04-24|Daniel Bevenius|Make r2 gate use the matrix of the s gate
+4748feef70140ee57010293442fd1821859599cb|2019-04-24|Daniel Bevenius|Add t gate as an alias for the r4 gate
+ec31e5fa0e75dd9610c419947b02be0fb4ede865|2019-04-24|Jesús Rubio|Update CHANGELOG.md
+c403105e5c6ba4867dcca667f85ad570d1471b06|2019-04-24|Jesús Rubio|Merge pull request #53 from danbev/phase-gates-helper
+e6ca40f90b48e45bee01fb68648e56533efb93df|2019-04-24|Jesús Rubio|Merge branch 'master' into phase-gates-helper
+402726b0e62a3ab748002c1efdfb069c43628862|2019-04-24|Jesús Rubio|Merge pull request #50 from omarcostahamido/master
+1eaa4ee24cde06ac51627419a771dd51dfe634c7|2019-04-24|Jesús Rubio|Merge pull request #52 from danbev/initial_values_fix
+ab0ab86f2b8d957339e9e8fb2cfffabbb712a295|2019-04-23|Daniel Bevenius|Use Gate.x.name for initial values
+19a1be40248faae15d4289fafd6a7fb452c828af|2019-04-23|Daniel Bevenius|Add phaseShift util function for phase gates
+a964f8450d9fa9e44ec45605a7aa65ba6b7716cc|2019-04-23|Omar Costa Hamido|fixing link for complete example
+aa150040d6e16b696efdb492c5d2a2092666ffc6|2019-04-23|Omar Costa Hamido|Merge pull request #1 from Qiskit/master
+568dcb2f4e8f330f862aa3e946c14f93200114ad|2019-04-23|Jesús Pérez|v0.7.1
+f5b242a69a5510291c0c2467132dbf5496a5cbdf|2019-04-23|Jesús Pérez|CHANGELOG ready to release
+f870a6a67b3bf2e271979729af17c4b296cf55f9|2019-04-21|Jesús Rubio|Merge pull request #49 from danbev/state
+a8bd93ed0924181c45e3392a002e683bfda3e4ad|2019-04-21|Daniel Bevenius|Allow for executing the same circuit twice
+d8931de8458feb8a1fd1011281712b49d7daa054|2019-04-20|Jesús Rubio|Merge pull request #48 from danbev/curcuit_constructor_clear
+b32f99090053251c50f23be7295f9a51e9023872|2019-04-20|Daniel Bevenius|Remove clear() call from Circuit constructor
+9f4308d2036a8a3e82ac9676bab4088fe5372da2|2019-04-19|Jesús Rubio|Merge pull request #47 from danbev/amplitudes
+8ddca338d509ccb324fc5d9b74b7e32e0648706a|2019-04-19|Daniel Bevenius|Make amplitudes a member of the Circuit class
+137eab3d15ba9a6249421f3235592f105741c352|2019-04-17|Jesús Rubio|Merge pull request #46 from danbev/createTransform_unused_wires
+49c19f3c45d733ccb8e8d607472e1376988c904d|2019-04-17|Daniel Bevenius|Rename qbts to unusedWires in createTransform
+df6501bfaa78e20830888084955a2d73495950b4|2019-04-12|Jesús Pérez|v0.7.0
+151e3aa28dcfec7cd2f00524df552f44cb74edd9|2019-04-12|Jesús Pérez|Fixed last changes in CHANGELOG
+aab8fc2142ee1a24db488a2c74966de8cca43bf1|2019-04-12|Jesús Pérez|v0.6.3
+82d4a77b71661646d19a93c37610a87f2a001766|2019-04-12|Jesús Pérez|CHANGELOG ready to release
+68416f349873c1beb395d5fe3c31660aee819a3b|2019-04-12|Jesús Pérez|Dependencies updated
+8b13cfc421bc1da6ac875b4363c292ec00f60dd7|2019-04-10|Jesús Rubio|Merge pull request #45 from danbev/initTransform
+3299f0b4ff6445a2b5333b6f348af2ff5da6db99|2019-04-10|Daniel Bevenius|Add dimension parameter to initTransform
+242d67242c63b59e65e8335d65cc7af2b5483a69|2019-04-09|Jesús Rubio|Merge pull request #44 from danbev/sim_mov_utils_functions
+b6731d087129a007362dcf499ad2fa67539adb48|2019-04-09|Daniel Bevenius|Move utility functions to utils
+d48d47e9a138e65ef4ae1854e7e1bb1cb30c9cd8|2019-04-09|Jesús Rubio|Merge pull request #43 from danbev/add_createcircuit_factory
+d88e87d4eb7b0b69ec85aa3762b5773084c583ed|2019-04-09|Jesús Rubio|Merge pull request #42 from danbev/support-method-chaining-addGate
+400e19dad4f3e03450378f565a1b923f38ecdd70|2019-04-09|Daniel Bevenius|Add createCircuit factory function
+834b8cc2c8aabd87f809a678a93db64a2fdff150|2019-04-06|Daniel Bevenius|Support method chaining for addGate
+daca6d51a2c556193896a97a2e652f1a65f34643|2019-04-05|Jesús Rubio|Merge pull request #41 from danbev/add-identity-gate
+04b94ceaa294167c5e89870721e84bdcc41d42df|2019-04-05|Daniel Bevenius|Add the identity (id) gate
+d7121dedef743cc365a0b8dce2daf732562bc7cc|2019-04-05|Jesús Rubio|Merge pull request #40 from danbev/qiskit-dev-readme-packages-link
+d24a02e134983eab7132ef2eff604d136c71cd10|2019-04-04|Daniel Bevenius|Update packages links in qiskit-devs
+1b5443f3bedfdee56e8c312b497697471bc2c251|2019-03-28|Jesús Rubio|Merge pull request #39 from danbev/update-node-readme
+844fb38c1589edfc16a8346a35faa29a547570ec|2019-03-28|Daniel Bevenius|Update Node.js install instruction in README.md
+d680cfd44c85649a4eecd8ddf4fcb3eb502e02f3|2019-03-27|Jesús Rubio|Merge pull request #38 from danbev/gate-class
+a98163e284ab480b15b75e6407baeaf1aa22ec10|2019-03-27|Daniel Bevenius|Introduce Gate class
+e057e86d10204c833a598a44553b0e7eb85849d4|2019-03-13|Jesús Pérez|v0.6.2
+f28be165443f85ca5f5f1475d9aae6aedb542ab0|2019-03-13|Jesús Pérez|Merging
+387cb298e8643d892e97eab8cca9356d47dd1ed9|2019-03-13|Jesús Pérez|Drop unused npm scripts and lerna updated
+8626b81135c364288c05c645df93c1b20d6e7109|2019-03-13|Jesús Pérez|KISS lint and prettier
+3d02223fd58f1a1dc0a216ddee34f81e60895d49|2019-03-13|Jesús Pérez|Improve return of backend related commands in the console client
+135f1d01c7d8dc5b1ee6d311b097788121d461c8|2019-03-13|Jesús Rubio|Update README.md
+79486a2c578327f44fa1f02d374aca3349ef750f|2019-03-13|Jesús Rubio|Update README.md
+94b2e478c8bd6424d34bb1d278af33256a89590e|2019-03-13|Jesús Rubio|Update README.md
+19cd8e1bd7bcd3c0881e7264c29fba9818caaab2|2019-03-12|Jesús Rubio|Update CHANGELOG.md
+b2f3439b3f2aafbbd67eadd24e1b0d6609e010c0|2019-03-12|Jesús Pérez|Update README.md
+90c8880c996d2fdf3fbbce0cab8e4f78f98485ce|2019-03-12|Jesús Pérez|Minor type improvements in the README example
+a644b721648f62f012e8804700f78c35e2974285|2019-03-12|Jesús Pérez|Update README.md
+079287905d693cb6120f492fae99699be2762a25|2019-03-12|Jesús Pérez|Update README.md
+bba52a1f00321800552f9e21a92c46f4cf449a2f|2019-03-12|Jesús Pérez|Update README.md
+2d8c6845b8fe202727e862b5333c360c845e54a9|2019-03-12|Jesús Pérez|Better example for qiskit-devs-ibm README
+f4b0433b6a32bc11852c7df9749d34a64bb1b451|2019-03-12|Jesús Pérez|Update README.md
+a06fc60bfd9e9316c17a21f9071912fbbda80ad0|2019-03-12|Jesús Pérez|Command line client help added to the README
+389312fefd4dfb24696c887443519e9c6422b85e|2019-03-12|Jesús Pérez|Update README.md
+b57b453d80487c3c392d228aa7ce9de25096a7bb|2019-03-12|Jesús Pérez|Update README.md
+9dbe11e5bb0e3bd7a09b368ff04d23307395289f|2019-03-12|Jesús Pérez|Update README.md
+4b8d027b2296f68f7abe40757fb0f224cecf98f7|2019-03-12|Jesús Pérez|Finishing last commit
+3c9828686ee4dacf344119264fea412ea1c296fb|2019-03-12|Jesús Pérez|Example updated in the README
+22f91686e87d11aadc1f5008975905e51c9c7d73|2019-03-12|Jesús Pérez|Merge pull request #34 from danbev/sim-openqasm-link
+bfcdb8c61d6edbe3644fd145eb3b105dd1ffc7c0|2019-03-12|Jesús Pérez|Merge pull request #33 from omarcostahamido/master
+95f91023dfdc59bda6890b1cc2a54e318a209a41|2019-03-12|Daniel Bevenius|Update OpenQASM link in qiskit-sim README
+ac41ca9157da333525aa1e9da70ac6f9af416486|2019-03-11|Omar Costa Hamido|small typo on the readme
+a0750c5513b1f47638e9335215244fe628625427|2019-03-11|Jesús Pérez|Update CHANGELOG.md
+a75739556847f5b14ad5e47e12fd1d2849fff113|2019-03-11|Jesús Pérez|Travis badge updated
+592788206cd36f9d6be50dac3771e0e88c64e3bd|2019-03-11|Jesús Pérez|v0.6.1
+aadbb3430cf8273492fed5dc2f8c69218adbda01|2019-03-11|Jesús Pérez|Using new jsqubits version
+bed087ac165950d94483e9d890321041de496b34|2019-03-11|Jesús Pérez|v0.6.0
+7cc744b98a557841cc14e21ba726a175624d7135|2019-03-11|Jesús Pérez|Lost npm lock file
+a92b5b70535a88cf3fccd0e75783a161bb344bf5|2019-03-11|Jesús Pérez|CHANGELOG updated after last change
+c0f0002b6718cde7cd10774f89c5f007759245a6|2019-03-11|Jesús Pérez|Logo in the README
+92bbb526ff7f13add25e46f575e25002abb653d6|2019-03-11|Jesús Pérez|CHANGELOG ready to release
+f6c8a8839fcac6dc7d2e541f64e773b960eac4b2|2019-03-11|Jesús Pérez|Only stable Node.js in Travis
+72cafba16759e2d5121ba6da20a54b1c69ce7b51|2019-03-11|Jesús Pérez|Build badge goes first
+925a9908772008d224b9bb47273cc3db2d033ce8|2019-03-11|Jesús Pérez|We don't support browser releases anymore
+463419208405a6a666fafe645a88a9aa86d90fdc|2019-03-11|Jesús Pérez|Rename package @qiskit/sdk to qiskit
+3ed542bd100326df386a770a123a0f10bfd82e7b|2019-03-11|Jesús Pérez|Unskipped a forgotten test
+7ea0947e1a0f1ce63a632bbe406c4b60bb71e0f1|2019-03-11|Jesús Pérez|Update the tests which need a key
+6eb7280448bf9923905205c319e686270b86b662|2019-03-11|Jesús Pérez|Node.js version update
+3e32b0535349cc11e6f78b89f19476f4c51632d4|2019-03-11|Jesús Pérez|New Travis URL
+963b6cd029436163fad49cf467e5518d6bf057b4|2019-03-11|Jesús Pérez|Merge branch 'master' of https://github.com/Qiskit/qiskit-js
+f31ad5865201f5db47fd8907ed4641d6c692f4c3|2019-03-11|Jesús Pérez|qiskit-: Minor fix in queue tests
+56aa916f8ea3ef246243ac5fa77520eeb3d2d31b|2019-03-11|Jesús Pérez|Fix https://github.com/Qiskit/qiskit-js/issues/30
+47be82fd0be67784703bbb8d7550f33eef101b8e|2019-03-11|Jesús Pérez|Fix link to Qiskit site
+9057bb52e84d3dca226210e573b6ac795f844547|2019-01-21|Jesús Pérez|Update CONTRIBUTING.md
+25faaa78f7f77bedf997945227e6781b08928429|2019-01-07|Jesús Pérez|Merge pull request #28 from wh5a/patch-1
+3c8e855d17cda585b23c5f03c1086610edeaef84|2019-01-07|Wei Hu|Fix the @qiskit/devs-ibm link in README
+ca05e3463df467d8dd87a33f6a3b5ef5822a20dc|2018-10-20|Jesús Pérez|Making depcheck happy
+feaaacad018edcada7082bae4e95b11f9daef946|2018-10-20|Jesús Pérez|Pushing npm lock files
+0b018b2ef9f6722c56ee51deaa3c5d857ab74518|2018-10-20|Jesús Pérez|v0.5.0
+59eaa085510d4118a22e4d3132f312b18d41c1c6|2018-10-20|Jesús Pérez|Updating one test
+4e4f0aa4cefa64044de78aa233eb22d614593e13|2018-10-20|Jesús Pérez|Command line simulator related command tests skipped for now
+3acd50d5d47f9ab6dd1848d84c798b5ff376ad36|2018-10-20|Jesús Pérez|CHANGELOG ready to release
+63385a6385b0e18f19847794e61186e72672e5fc|2018-10-20|Jesús Pérez|Easier command line client
+9b297b1e68316f48736e2b5a5a5edde16c4eb4b4|2018-10-20|Jesús Pérez|Making the new linter happy
+be281adfb97fae688b25de4ee9a86eb7c7c8167f|2018-10-20|Jesús Pérez|Simpler auto-lint setup
+ea4d949e95909e70c47a7f7eb380b75008957ecd|2018-10-20|Jesús Pérez|Order in the main README
+a55db994e0e0ecf7395d051b4c4636ff561dbf91|2018-09-10|Jesús Pérez|Changelod updated after the last release
+1c7e9122ea021cc30f873aba2fd2758c441ca164|2018-09-10|Jesús Pérez|v0.4.2
+8bc46d3fb25710a6d1cb62fbf81c672397257ff8|2018-09-10|Jesús Pérez|Using the async alternative to init the storage
+ef78f7e4c98794e9c694de506874514ce77d7ed2|2018-09-10|Jesús Pérez|Imroving error management
+2fa926b5073daea1a3eae61df8595d227febc6da|2018-09-10|Jesús Pérez|More detailed comments in the "factor" method
+f092182c487fa6ad786fbe5c24374b0a6b1b00ab|2018-09-10|Jesús Pérez|Typo in the alias of "cloud-jobs" command and other minor ones
+6bdcb7771c980b253c0a7a8ad293fb6680f88dca|2018-09-10|Jesús Pérez|Minor depedencies update
+ed4334f3bbf35a2a39ed2382e31cd1229bf9619b|2018-08-24|Jesús Pérez|Fix in relative paths to files in deps
+594ec8e4bf13c9cdf406c4b41eaf721f394d0acb|2018-08-14|Jesús Pérez|Fixing tests after last API changes
+d9cf62bd715e29d1f68dc79533608398442aaf31|2018-08-14|Jesús Pérez|Updating the tests after the change in credits method
+9f3ce0e369dbbb1beaf7ff2ad844e8c32683a8ed|2018-08-14|Jesús Pérez|Changelog updated after last changes
+2435ec239f4962ece0bb0e52276c06cfa6894b18|2018-08-14|Jesús Pérez|New command into the SDK: devs-result
+d9a515153df1773466b4ffa9e569b1ff9080e07d|2018-08-14|Jesús Pérez|New command into the SDK: devs-random
+3d59897875a3ea6be6efdbde278ae4e6fe6077bd|2018-08-14|Jesús Pérez|New command into the SDK: devs-factor
+c7a2cbbdbb9c6b1ec962dc12e46893d53f8a5210|2018-08-14|Jesús Pérez|New command into the SDK: cloud-credits
+7db80fc983cda9b4573f84b5b41fb56db485ed2b|2018-08-14|Jesús Pérez|Changing a default parameter to be consistent with the doc
+ae76b5efea3e2e48c258b209e676f60c94e45000|2018-08-14|Jesús Pérez|Changing lost old names
+e8d5097761c4beb0462aaa95af6a72f857763618|2018-08-14|Jesús Pérez|Minor good practices
+6d31a81d3d4aa8e2e491c1a3c34067cef2393740|2018-08-14|Jesús Pérez|Keeping the interfaces consistent
+a32c8ba0ef360823e986100816ab5fcb87a6eefe|2018-08-14|Jesús Pérez|Minor main doc improvements
+b870f50889ec3d37c56bba05bafd3180916cca8f|2018-08-14|Jesús Pérez|Documentation for the credits method
+b99d4fa7ff207cd3c957527efcace5cf81f3b1d1|2018-08-14|Jesús Pérez|Fix in credits method, userId related
+fcc73f28246835c2558a5c6dbd7b0b3fbe6837e5|2018-08-09|Jesús Pérez|v0.4.1
+bc64523c36d721286733221a71d09fbf729a0484|2018-08-09|Jesús Pérez|Changelog ready for a new release
+75cb06d362c6626fab74ef83c304ae882e69af8d|2018-08-09|Jesús Pérez|Non licensed dependencies dropped
+b4822a08c7d57ac1ea0cd4f4b2ec02043fcb403b|2018-08-02|Jesús Pérez|v0.4.0
+4293c4b87add8bb9c1170e81801a52aca0916ae7|2018-08-02|Jesús Pérez|Fix in last changed tests
+13e7aee736e6d30c718647f940687362c12055fa|2018-08-02|Jesús Pérez|Changelog ready for a new release
+214c3930a91a3b5dab3a090381d7414eaf38ea8e|2018-08-02|Jesús Pérez|Mocha retries to some devs-anu tests due to API inconsistency
+a44911fd58fc35c6236eb6cbd09550a8d6493464|2018-08-02|Jesús Pérez|Fixing and adding tests for devs-ibm
+67cd2807eb3399759366af6005f3bb48eab356e7|2018-08-02|Jesús Pérez|Fixing factor method implementation in devs-js
+319962a997b816b4635cd7328bf6fa18bcd02f45|2018-08-02|Jesús Pérez|Completing doc of devs-ibm package
+0d442102e321f8ab8de6c11df524811f4ee705f1|2018-08-02|Jesús Pérez|More timeout for cloud tests
+2123e686d50378c9e05a40c4b9051d78d9c1e12e|2018-08-02|Jesús Pérez|Linting stuff
+49120a54d7055d4ba5c22421f962eefc019a71b9|2018-08-02|Jesús Pérez|Minor improvement in devs package tests
+86c372b0652d47f107cfc4b1fe78db9bc061e319|2018-08-02|Jesús Pérez|pachage devs allows to pass an instance and other minor improvements
+c527405589e613c77df8217cc34c324807d6886b|2018-08-02|Jesús Pérez|Updating main package.json deps
+79d998fdd1f9d20e1624be3ce9a854e56112fb94|2018-08-02|Jesús Pérez|More consistency for cloud package tests
+3d421d3aeda89fbfe55589e94b7bbbe3283b4070|2018-08-02|Jesús Pérez|The genhex method has an unit test now (dev-js)
+95eb9a641bf2f63341640d4a0a774ce6519bfc37|2018-08-02|Jesús Pérez|Minor improvement to beautify a CLI output
+0549143d43910a8120aa48bd9c899e2f7bd4b8c6|2018-08-02|Jesús Pérez|Old sim unrolled circuit example dropped
+05a68abc524a418e278be8ae9d4067998e2968d7|2018-07-30|Jesús Pérez|Changelog updated after last changes
+737a0d6adc3ae3efea2f4c9b6dbccb15ce1e224a|2018-07-30|Jesús Pérez|Old comments dropped
+3870cc5c201cda1e796d99ddadc8986b0ba4321e|2018-07-30|Jesús Pérez|Refactor to drop repeated code and more consistent doc
+151004d38bccdd07e3efcf2a662c6d45d1d95b76|2018-07-30|Jesús Pérez|Clearer tags for some tests
+ea30330c37483c76e72e21120e5cc3506961f1c0|2018-07-30|Jesús Pérez|Clearer readme example for the new simulator
+5a578bcc7650eecd4f3b7f0ad24fd8980c291fc7|2018-07-30|Jesús Pérez|Color in the tests
+6acb88d09adf3bed86bfd7efd61a32fcfb3317fa|2018-07-28|Jesús Pérez|Title fixed in "utils" README
+38c67d7fd02d17fc58d30739267ade26c80f30a9|2018-07-16|Jesús Pérez|Update README.md
+b0c3ffc1037f35a89a25b3bcf28d277be6fe4aba|2018-07-16|Jesús Pérez|Merge pull request #19 from Qiskit/guidelines
+c3f945a4c9fdf1da7655577b97c55c5da3e786da|2018-07-16|Abdón Rodríguez Davila|[skip ci] Update templates and changelog as dev guideline
+568fd6a8733dbd869eeb1f59e949278fc1182d1b|2018-07-16|Jesús Pérez|New simulator implementation and API (WIP)
+8f116dbfd0cbcd911b79b8466a3c7423cbccc647|2018-07-16|Jesús Pérez|Minor cosmetics in the main README
+6e83138f1209bf9580c07e513547ba872a68ca24|2018-07-16|Jesús Pérez|JS dist files out of codebase from now
+3a9afc55856fb2c8c85352c0de925d18b1218066|2018-07-16|Jesús Pérez|Changing the name "QISKit" to "Qiskit"
+197ca604e7b6a5419ae0351e681b27e9dd4038ff|2018-07-16|Jesús Pérez|Merge branch 'master' of github.com:QISKit/qiskit-sdk-js
+862bd236a5c019e0707b2aa6a1a4fc05cacfd747|2018-07-16|Jesús Pérez|More consistent debugging across all packages
+dbe41e01f332e68e0a56507b5d48aa9259fc269b|2018-07-16|Jesús Pérez|Fixing some lost old naming
+e438a641c5ae55870827453d8f750db2814fa1ea|2018-07-16|Jesús Pérez|Making prettier happy
+0f0db99ce3fbdac0a3b81a653a498b78e9dc2ad3|2018-06-19|Jesús Pérez|Merge pull request #16 from QISKit/abdonrd-patch-1
+7c9d6c731a9e079be4488a310cce61043e8407a5|2018-06-17|Jesús Pérez|Minor doc fixes after last package renaming
+0b1ce21539e2451592851a6feb5f8ab8c44302d2|2018-06-17|Jesús Pérez|Minor doc fixes after last package renaming
+cad0ec8d5e78e0f62d08e9a8c100859363761982|2018-06-17|Jesús Pérez|Bad link fixes in "devs-js" README
+f4ef4919a3fb45159e8b5295b47209bb595b5be8|2018-06-17|Jesús Pérez|Dropped redundant info from "devs" package.json
+010d32ae6c0ed2dc4209ee73cb154ba2cee417d8|2018-06-17|Jesús Pérez|Minor improvement in the doc of "algos" package
+2ff5a6fd2bc5accdf0e6105d83cadfbc021b332b|2018-06-14|Abdón Rodríguez Davila|Add description to type of changes
+3c0f04cf9482e4057573b0811f98a7064e9d43b5|2018-06-14|Jesús Pérez|Experimental badge in the README
+8de17dec80d823bb4083fba782d304ac8d173151|2018-06-14|Jesús Pérez|Prettier bagde added to the README
+e2f12e164d3e48fa25936a60e4636b11bac5bb96|2018-06-13|Jesús Pérez|Minor styling in the README
+02c1d6681a94ca163a97ef5fbeab3f5b639cb754|2018-06-13|Jesús Pérez|Beta disclaimer added to the README
+e33084320281771b38ad7ebfe3978ed0a3b4e5de|2018-06-11|Jesús Pérez|Merge pull request #14 from QISKit/license
+2e862411a1cc62cf93c59e882324f6ec98af5000|2018-06-11|Jesús Pérez|Merge pull request #15 from QISKit/coc
+b9ca2c52e89566afabd155750698a24d46902d37|2018-06-11|Abdón Rodríguez Davila|Move the code of conduct to the GitHub folder
+4a36563baa796d76ab1f7b5ee4a51e0c9c10e992|2018-06-11|Abdón Rodríguez Davila|Consistent license across all the project
+a3ccb1178e152c19489ab5eed1d1a0241443fef9|2018-06-07|Jesús Pérez|Merge pull request #13 from abdonrd/templates
+31b417280738310c4bb09369138f92bf01442626|2018-06-07|Abdón Rodríguez Davila|[skip ci] Update pull request and issue templates
+bcebae8cd7b938e3e05e5dac99343a593bab0f6a|2018-06-07|Jesús Pérez|Travis badge updated after the repo rename
+309eb214b2c10caac11d412b6a1e5bd672cee77d|2018-06-07|Jesús Pérez|Making prettier happy
+1c7266bb7d45d0fda385f08bf4561416af6bcc50|2018-06-07|Jesús Pérez|Repository URL updated everywhere
+8db49f3ae6d92b596d08077c4d8b9046beb9b75b|2018-06-07|Jesús Pérez|Renaming "Software Kit" to "Science Kit" everywhere
+eb40ca2a9330681ba6f93e5dd3764b8ff38bd6ba|2018-06-07|Jesús Pérez|Adding some lost parts in the "devs" package README
+78c964c948b63fd11419eda5b81a63fe82932a4d|2018-06-07|Jesús Pérez|Another minor fix in the CHANGELOG
+6c470d27ffbebf10a4ac18e82f787ef1caaace7e|2018-06-07|Jesús Pérez|JS distribution files rebundled
+06b43ea0d0f982b0ecd7dfe8798df3da71404c0a|2018-06-07|Jesús Pérez|Another minor fix in the CHANGELOG
+08d545a4f461f6f6b86b61220f1bef14fde6d9bf|2018-06-07|Jesús Pérez|Added lost links to the CHANGELOG about the last release
+11700b4fc59cdbdcc4dfe732f5a41021955e5b00|2018-06-07|Jesús Pérez|v0.3.0
+bc565bdb5734352eb44a5163b16eb2724efdde62|2018-06-07|Jesús Pérez|Minor style improvements in the "devs" package README
+96aa8ee1dc9b876a7c2159f94ddb180d04d876ca|2018-06-07|Jesús Pérez|Package "devs" README re-added
+3c5be407c29f14fce34a6d02a8345c479868b42d|2018-06-07|Jesús Pérez|CHANGELOG ready for a new release (0.3.0)
+f883171a454ba3a822226e9ad6f7c95cbf4a68a0|2018-06-06|Jesús Pérez|Merge branch 'master' of github.ibm.com:jesusper/qiskit-sdk-js-next
+bdd91a89b6c405eee6b4ec047d2ae877f24d2bbf|2018-06-06|Jesús Pérez|Package "qiskit-algos" renamed to "qiskit-devs"
+a5b8f0a4f75668806c664d277296239fab5cda5c|2018-06-06|Jesús Pérez|Merging after rebasing
+c630ffdbace3bef3bd09dede2a27f4d273302291|2018-06-04|Jesús Pérez|npm task to run "algos" package tests
+2378dd943b1371f1711456a2e041555e57a21d5a|2018-06-04|JesÃºs PÃ©rez|Link fixed.
+4d0dfaada3b3783fbc67fa61bc444e04fdf1f4d3|2018-06-04|Jesús Pérez|Multiple engine support: ANU, JS
+eb037703608451b23b66f78a1712c998a39faeb5|2018-06-04|Jesús Pérez|Update issue templates
+ea570beb8dbbeda2dd26c54f1035c10d1b213e5f|2018-06-04|Jesús Pérez|Emojis added to the CHANGELOG and consistent order
+9f8682a8ab218698f4e6ccb2fb59b3728484d02d|2018-06-04|Jesús Pérez|Old issue and bug templates dropped
+90b1c592f1608aa545242b2421a1444e1fc46a7c|2018-06-04|Jesús Pérez|Merged
+684136ab2eb0277816984f03ff9a33606a0f050a|2018-06-04|Jesús Pérez|npm task to run "algos" package tests
+78e30f259685ca0df6cce7836690d657d2f19431|2018-06-04|Jesús Pérez|Merge pull request #7 from juan-cb/master
+47e815c604b1791cfa7c4a86a8e11d4e8a2634e3|2018-06-04|Jesús Pérez|Update issue templates
+cf68843e5ceb0fda9cf20e31e711f70e3a572d50|2018-06-04|Juan-Cruz|Also updating the 0.2.0 to unreleased comparison link
+a46366c903991b25c2c825ea0a4e4e41d087ecf4|2018-06-04|JesÃºs PÃ©rez|Link fixed.
+409fbc0b22ef6ae0e70c776297a36eba4ffbe48b|2018-06-04|Jesús Pérez|Multiple engine support: ANU, JS
+c4e6af7ba90e56b85129a4f8e733f0cf9b46aeec|2018-05-30|Juan-Cruz|Fix the link in version 0.2.0 of the changelog
+c7d514c27c6225791996c28b29710794ade4a2c6|2018-05-25|Jesús Pérez|License header consistent with the rest of the projects
+c38f8a09a5f3e39cbc2128b0c10c95cee726e939|2018-05-24|Jesús Pérez|Minor improvement in the main README
+6a5a88e243ba8cb456038ee21d8637a83be2aa9f|2018-05-24|Jesús Pérez|Actual release archive din the CHANGELOG file
+bfd2cec648398a48ad7b6c9485d732afce8f113a|2018-05-24|Jesús Pérez|v0.2.0
+a69d091aa4766e519cd627cdab85f199c418ed0f|2018-05-24|Jesús Pérez|Fix to support the new simulator name.
+0485b7fc00779ba84dddf318e84ec88247ce2901|2018-05-24|Jesús Pérez|Fixes in doc
+387563e12e4008616c958cbfbd3c140020dfdeaf|2018-05-24|Jesús Pérez|Package "qiskit/qe" renamed to "qiskit/cloud" and other related fixes
+3dc3fdb545d9a2a046835dc17011c887433cffbc|2018-05-24|Jesús Pérez|Insecure dependencies updated and changelog improvements
+cc462569f6afff4940156ac5242eac078a00a9e6|2018-05-24|Jesús Pérez|nsp dropped because now npm supports it natively
+629d0f74f952a6516c624d1d23d76fabf432e4fa|2018-05-24|Jesús Pérez|JS distribution files rebundled
+0c927cb275e122c2e89702da5beaad0b907b7ab9|2018-05-24|Jesús Pérez|All JS code formatted by prettier
+67537a2d936a8da2749c7c8a91f1e1214e68038b|2018-05-24|Jesús Pérez|Prettier support
+af705d97ec5ff2704307b481165ed01d3a7d0fd0|2018-05-24|Jesús Pérez|Merge branch 'master' of github.com:QISKit/qiskit-sdk-js
+e8b6041c0d72a7759b7f9901bfe91e56f05c805c|2018-05-24|Jesús Pérez|Following new dev guide
+4a344bb1f866ca32d32e89cde0cc14cd08262526|2018-05-23|Jesús Pérez|Merge pull request #4 from QISKit/add-code-of-conduct-1
+3033c71a8951447c06552dae2b8901f92415d7fb|2018-05-23|Jesús Pérez|Create CODE_OF_CONDUCT.md
+4aa57edcdc1b7618b358f0dd9676e9ae6705951c|2018-05-22|Jesús Pérez|Update issue templates
+5bf70753ecc9c118900d28cba28298cd006e9f61|2018-05-21|Jesús Pérez|Info about releases for libraries.
+17726328b73ad4718716bf3569959673941a50f1|2018-04-27|Jesús Pérez|Merge branch 'next'
+83ba402a9c6a73a20a83d76455740b2b44d8d83b|2018-04-27|Jesús Pérez|Minor typo in the README.
+e4ce9ac39b0c3d7d4ef0bd5ac77b0b6cddb61be6|2018-04-27|Jesús Pérez|v0.1.9
+1ad133d66a08bb5ff1441ccfef62dee490add4d0|2018-04-27|Jesús Pérez|Fixes in some old tests after last changes.
+1204b447ba66e146c4139240c8e24db02d57a384|2018-04-27|Jesús Pérez|Package "qiskit-cli" renamed to "qiskit-sdk".
+834d3079b0f8a41af1370ac6da62a1b89cc0607d|2018-04-27|Jesús Pérez|Ignoring npm lock files in git from now.
+ccdb065dc92404e54fbb2b7441eee14c82abbfa5|2018-04-27|Jesús Pérez|Dropping all "package-lock" files.
+d774987852a306c16ef7862b35f013afcd4c4c24|2018-04-27|Jesús Pérez|Adding node.js v10 to travis.
+cfae83370f7ce2f273c42b2bc4902a32b21d93d2|2018-04-27|Jesús Pérez|Other minor improvements/fixes in the main README.
+e5b690b98b8f222b8b425c55c5f6930c6f3eb0ee|2018-04-24|Jesús Pérez|v0.1.8
+799b9b86a91d44defdb25ff63aa30d8f98a686a2|2018-04-24|Jesús Pérez|New npm lock file.
+76ba957fa95e66a3be24b0a5b226a4a4fd03c13b|2018-04-24|Jesús Pérez|Minor fix to avoid a break when options not passed.
+dd2ee49a45516f55bbbaf9340a47d9da003ed06d|2018-04-24|Jesús Pérez|v0.1.7
+72e7e2ce52577b512cbd14d099078369c5de24e8|2018-04-24|Jesús Pérez|Publish scoped packages support for npm.
+6353144b4320fe19cbbc6f92b62a1169890454ca|2018-04-24|Jesús Pérez|Copy/paste error in the main README.
+d71435b596b451148af0c4a58013e10a14f47e84|2018-04-24|Jesús Pérez|Lost npm lock file.
+4c3e392bb32ff292e840c167ae0b777e9e4a33dd|2018-04-24|Jesús Pérez|v0.1.6
+eea7630724640d002b633e0e4b0683d3f070a415|2018-04-24|Jesús Pérez|Merge branch 'dev'
+6a5348062b2d256fa7c4f92da7283c5227791790|2018-04-24|Jesús Pérez|Merge branch 'algos' into dev
+b8e682f8725b1544d9944eedb413abcc19c55464|2018-04-24|Jesús Pérez|Package "qiskit-algos" added.
+5d10155a7af594454bfdd23913ed2ecd2e2cefd4|2018-02-20|Jesús Pérez|Merge branch 'master' into dev
+5f118339589d0f6d14bee9a5aac0ba7b60b17da8|2018-02-20|Jesús Pérez|v0.1.5
+00145afd9710428d8ae3fe6cbdc82eb891827ce1|2018-02-20|Jesús Pérez|Merge branch 'master' into dev
+f089a09fff27007cd8e91561ee5dc545c6ce224f|2018-02-20|Jesús Pérez|Dropping old not needed stuff.
+36e2adc1e690a537f4bfcca349e357552be2f827|2018-02-20|Jesús Pérez|Merge branch 'dev'
+87f5c0f823bf59bc5b644388fe90b9b42224e72e|2018-02-20|Jesús Pérez|Using native util.promisify.
+7d1fef57181a83844ea450d000103c16ae4dfc79|2018-02-20|Jesús Pérez|Changing jest for snap-shot-it and depcheck for npm-check to KISS.
+9cd9ea568a472dd011a91e89bc4afb5495153168|2017-11-28|Jesús Pérez|Client side libraries rebundled.
+315d30a6742ffc5eda026924e14f6e296cfd38c5|2017-11-28|Jesús Pérez|Minor test fix discovered after last changes.
+10701489017e7d88110bda662ded3df1ed85d83f|2017-11-28|Jesús Pérez|Minor change in lerna setup.
+524b583beac72c8194be1b74fea651649581d4e3|2017-11-28|Jesús Pérez|Still not used dependency dropped.
+a60e0153737333f7b373f927ad12b8fadb4afedd|2017-11-28|Jesús Pérez|Travis badge updated.
+ca91c05ab45fabd0a28a9a3c0dcdc13c45da021f|2017-11-28|Jesús Pérez|v0.1.4
+496dd5fd86a6eef76f74d32e3a8e5c51d21b3a53|2017-11-28|Jesús Pérez|Description improved in the package setup.
+a6e21e86ca5783451d29f05af7df608246988ca9|2017-11-28|Jesús Pérez|Typo fixed in the main README.
+2a91037d374cbad977cddefc812d03eca353fee4|2017-11-28|Jesús Pérez|v0.1.3
+9126ac68237e828ec89975b99ea07a2e344390a1|2017-11-28|Jesús Pérez|Doc fixes and improvements to look pretty in npm website.
+518b458431a928ba1620c7b351e6f5a54aeb16f2|2017-11-28|Jesús Pérez|v0.1.2
+df221e7fa39a27b6e7951bc3dac19ed5471c2699|2017-11-28|Jesús Pérez|Final touches to publish to npm.
+0143b0a16290cc70dc7d59da609141aea9dd5191|2017-11-28|Jesús Pérez|v0.1.1
+8a57168146063e10190aef1976c8e3b21ce51aef|2017-11-28|Jesús Pérez|Dropping "private" tag from all packages setup.
+84d9ae872b800ff5163e7ff4da223137c4dd43a4|2017-11-28|Jesús Pérez|Minor doc improvements.
+46022ed6a396b2cab109337bf56b77b419ff0e07|2017-11-28|Jesús Pérez|Client side rebundled.
+247365413232a7af56a5970876d895de51c7ac71|2017-11-28|Jesús Pérez|A couple dev dependencies updated.
+f969777d1ff72f5f0f018a8b45efb99a2aa522e8|2017-11-28|Jesús Pérez|Merge branch 'npm'
+1082b36b49cc23d5360b7587d2820a782aed5d35|2017-11-28|Jesús Pérez|Fixed pure JS stuff.
+e46cc4535a2be8e9067140a340d3f7d389953d20|2017-11-22|Jesús Pérez|Package names changed to support npm organizations.
+5d0404df2f586d232d56e5654a544a507895fb7b|2017-11-22|Jesús Pérez|Assuring Lerna relink before tests and publish tasks.
+dfc6869a8bac7169aa4cafb6116c6f65d7ef25d9|2017-11-22|Jesús Pérez|README changed to be ready fot npm publication.
+66cf86f50b7a2f824794e024543b4598ddf2ea76|2017-11-21|Jesús Pérez|Minor fix in the command line client needed after last changes.
+bb1bd38092feb1ea14f4672c4cceb7ebcaeed21b|2017-11-21|Jesús Pérez|Merge remote-tracking branch 'origin/master'
+a06b808b85ccea287da6625a115b6b858bcb025f|2017-11-21|Jesús Pérez|Finishing last commit (dep updates).
+4891bd5ee7fd24974ca4de0a28030efea278c8b6|2017-11-21|JesÃºs PÃ©rez|Merge pull request #13 from IBMResearch/feature/contributing
+07025dd429a7a2f37d26e492afaace3cb428ea08|2017-11-21|Jesús Pérez|Some dependencies updated.
+e8474b7300fcd248b7447783a1599e75f89f462c|2017-11-21|Jorge Carballo|Add contributing file. Add templates for Issues and PR.
+1ecc82b30a5c7a25921168bb6fcdccdf1d4445c4|2017-11-21|JesÃºs PÃ©rez|Merge pull request #12 from IBMResearch/feature/jestTesting
+a77f8362d409e996e6163f25e1a4ca02680f4bdd|2017-11-21|Jesús Pérez|Some changes in the main doc to be consistent with the rest projects.
+25fda8b4cdfa8e213a0b8afbcbc3bacfd673656b|2017-11-21|Jesús Pérez|qe module pointing to the API url.
+b4f98c656b70a6f2f5e443e6295f5e8284b0a9c1|2017-11-13|Jorge Carballo|Adjust eslint with jest tests
+c0be45b79fbfc105bf8ebd1da489a5475e0b2536|2017-11-13|Jorge Carballo|Add jest as dev dependency. qiskit qasm tests using jest with snapshots.
+d66b16368433f99600534a61803269590b6514f5|2017-11-13|Jorge Carballo|Merge pull request #11 from IBMResearch/feature/opaqueGate
+37d6ec16c9dc8d72c4d166796d681e1420dfd0ec|2017-10-10|Jorge Carballo|Add opaque gate to the grammar
+6cceaec369d148989f3e594d574dd376bd8df475|2017-10-10|Jesús Pérez|Fixing client side stuff.
+0758a97cf1a745717239a59dbd0ca3ec34b769f8|2017-10-10|Jesús Pérez|Finishing last commit.
+4466f8371d327d58ebfe8140473513ced5658ff5|2017-10-10|Jesús Pérez|Improvements in the bundlers and the doc of the web version.
+d8f54b1930413438eb72e2aeb51055a72acda7f2|2017-10-10|Jesús Pérez|QISKit url updated in the README.
+9b95a316ad334a5196ec650a1e509902950ee084|2017-10-10|Jesús Pérez|Merge remote-tracking branch 'origin/master'
+069117cf56e1cbc84e3bb3d688db369400b69024|2017-10-10|Jesús Pérez|Fixing an error in the "qeLogin" command setting the token.
+dcf1487cb99ecd6f37d01c68f7405211c686fc1f|2017-10-09|JesÃºs PÃ©rez|Merge pull request #8 from IBMResearch/hotfix/fixReadmeLinks
+8f0938afaa5c560cb9956ecc0ed05e4743a8f5cc|2017-10-09|Jesús Pérez|Adding temporal instructions to install and use.
+4b0e18d8f593ac76ee253b04840ab75db61648d2|2017-10-09|Jorge Carballo|Fix some README links
+45a37aca380778b58aabe9fb36030779a8cc3690|2017-10-09|Jesús Pérez|Avoiding a dot in the command line exec.
+e8e84bfa5d240e7ad1945e25058a2b5102db825d|2017-10-09|Jesús Pérez|Lerna badge added to the README.
+8deb4d372ddf72e69fd77b6ebfb195e2c53d0091|2017-10-09|Jesús Pérez|Fixing the binary path field for qiskit package.
+c7a8fe8b2c51f7c3d8909fed747c9e3046834be1|2017-10-09|Jesús Pérez|Supporting only Node.js v8.
+17d7f0ae124c977d1003acd4fd47703cf3cadc52|2017-10-09|Jesús Pérez|Fix in the tests.
+bd97cc38b0efbe3923359ab29d3a140f77babe91|2017-10-06|Jesús Pérez|Hiding the entered token in the console for the  login.
+c1e9d26fca5aefb283af456a92336e47b4e6f21b|2017-10-06|Jesús Pérez|All commands added to the command line client.
+9e19019e79bf61dfcc8f3a6d534bc2dbacd9580c|2017-10-06|Jesús Pérez|Multiple improvements, fixes and refactor in the command line client.
+f537f753a7e76e823238bb8a9820489a4b5fbc11|2017-10-06|Jesús Pérez|Making the deps linter happy.
+436cc08e53df52ef476154ef3e9cacd6d502790a|2017-10-06|Jesús Pérez|Refactor to avoid code repeat in the sim.
+41f6512358177d0bd04f1c7a4d612aac07dc9efb|2017-10-06|Jesús Pérez|Finishing last commit.
+5142ebba879f717a6004be9ca9f6aae483ff0da5|2017-10-06|Jesús Pérez|Minor change in the integration tests setup to support new defaults.
+a623f5e996142c36d7f50d31b624197378cd3e0d|2017-10-06|Jesús Pérez|More minor editorial improvements.
+3031eee85bb5f5429853e990622e7dee09e63f31|2017-10-06|Jesús Pérez|Dropped a still not implemented comand in the client to KISS.
+468a304c2179dedf079e1a023ef767b68dc23d07|2017-10-06|Jesús Pérez|Note about partial implementation of the parse method.
+5eb735517de34621a26dc0bd4f99142adb15be2a|2017-10-05|Jesús Pérez|Making the linters happy.
+51458c961cec7be22a4f91dd1c5f7ce1a4cd6f23|2017-10-05|Jesús Pérez|Pointing to temporal HTTP API for now.
+70f4f60c1f8620ac30835df948d209407155cd40|2017-10-05|Jesús Pérez|Tests refactor to abstract the integration ones.
+aa9d1c477838ec9a7ea089826d1831a6098f3f8a|2017-10-04|Jesús Pérez|Minor refactor in the libs, tests and a couple of unit tests.
+975379a24dbd00ec4a2dcb10b258cbfd42cfc4cc|2017-10-04|Jesús Pérez|Example fixed in the README.
+9d312bd86fcea14be50457326939b87bd04712e8|2017-10-04|Jesús Pérez|Dropping some not needed setup to KISS.
+838addc6a43297f6465e3354976997da860b76cf|2017-10-04|Jesús Pérez|Lost file in last commit re-added.
+05fcbfb852825d6cb299b3cb2583f7bb3055570a|2017-10-04|Jesús Pérez|Minor READMEs structure changes and other improvements.
+2d8392572cec0f66c42a491d7f40d5b7787851de|2017-10-04|Jesús Pérez|npm lock packages updated.
+697ca73e70cff5ce291e2a821c9fe5cc90cc5432|2017-10-04|Jesús Pérez|Minor editorial improvements completing last commit.
+6ab2a1c49da17382a44e76758cebfddd8c68d655|2017-10-04|Jesús Pérez|All methods in qiskit-qe package implemented, tested and documented.
+76dcbdeda016db72c0d3bec9c33efe64d49378fd|2017-09-28|Jesús Pérez|Minor cleanup refactor.
+89bf90ab6a6026b0cba57f6a87095904da551595|2017-09-27|Jesús Pérez|Making the linter happy.
+2df957544bf386388862a2c97e7148563513826a|2017-09-27|Jesús Pérez|Some tests to cover all implemented errors.
+f2613a7aecc683ba7780ae8dde3eed6550eaaa77|2017-09-27|Jesús Pérez|KISS regarding the auth stuff.
+bbd1cc349b5637c4965e085dd5aebd469e448916|2017-09-27|Jesús Pérez|Keeping simpler the name of some methods.
+a675bc87df6e56386c975f42f76132923957ae45|2017-09-27|Jesús Pérez|Minor editorial changes.
+f24aa6c60f1f1b5157d1f4b72336bccb4624b561|2017-09-27|Jesús Pérez|Fix for a problem in the client ("parse") after last changes.
+dd0cdb8b82fc9395a3d0e67979ba0e8da7a9c0cd|2017-09-27|Jesús Pérez|Making the new version of the linter happy.
+41b3702cc673f330e0ef21891502034e8c81a5c1|2017-09-27|Jesús Pérez|Upgrading dependencies and dropping not needed ones after last changes.
+196ff9dc3c9576073752dda599a070bdead37b49|2017-09-27|Jesús Pérez|Removing debugging stuff.
+c0262cce6b75d22e9c3e7dba62e2713a912d4cb2|2017-09-27|Jesús Pérez|More consistent response when a backend doesn't exists.
+344ccc898074c9016d23718660a9082ac0049179|2017-09-27|Jesús Pérez|A couple of test to confirm the auth is working properly.
+8b2f5728eb67eb740a18cd7dfef407ccd818343e|2017-09-27|Jesús Pérez|Merge remote-tracking branch 'origin/master'
+b22a0338f6290834822f921af1bffe26e626cf5a|2017-09-27|Jesús Pérez|Minor changes to order the methods having in account the auth.
+34e2a0b91f60625de0cad89162a0fbda16b9688e|2017-09-26|Jesús Pérez|Doc updated for qiskit-qasm after last changes.
+85eb1739d3015fb8e8fa9d4672bccc07634e26de|2017-09-26|Jorge Carballo|Enhance grammar (It's not finished yet)
+987803b8f5473b7a9b4df8ada8222baf7693568f|2017-09-26|Jorge Carballo|Adjust QASM parser.
+d546f1222e26157a9729303b981f5d6255c57105|2017-09-26|Jesús Pérez|More methods added to qiskit-qe and doc for the old ones.
+d99f65508461fd4bc965aebdd2712e4e97875e25|2017-09-18|Jesús Pérez|Some minor typos in last commit.
+4c0fe125315b7d9ec23c39c183a1e7e7c097868e|2017-09-18|Jesús Pérez|Documentation and little changes in qiskit-qe module.
+37f94055a39ea8014311bb7e8e2686331cf00e54|2017-09-13|Jesús Pérez|Correct Travis badge.
+33a93bce75e6a7a15ec3b98fed52a74e37394ebb|2017-09-13|Jesús Pérez|More consistent tests.
+628459700d0cfc233e200d644bba966f33c66710|2017-09-13|Jesús Pérez|First "qiskit-qe" methods added.
+26e5f033cdd2749b46c747009f443c49aa3d0b89|2017-09-13|Jesús Pérez|Minor cleanup of debugging stuff.
+d1b44031739305d9be5a0353a33c2b5b6ff94a67|2017-09-13|Jesús Pérez|More consistent doc.
+283c1a349f7405dc699bb64b69545499a90fa21a|2017-09-13|Jesús Pérez|Proper "npmignore" files for all packages.
+8b8618fe0b53983e5f0471be65395841f34c9c40|2017-09-13|Jesús Pérez|Some lost scripts to run specific tests.
+2d307db10cf0e8ab433ee9561181fc4962e84299|2017-09-13|Jesús Pérez|Official supported versions are Node.js v7 and v8.
+933be66e45efafc5d4169efef9fcfd8be704b3a7|2017-09-13|Jesús Pérez|"qiskit-utils" package abstracted.
+8c6d1bb43d5d25bcd4bf1d536dc4ce30240e5298|2017-07-21|Jesús Pérez|Fix in the README, the unroller is now part of "qiskit-sim".
+84ea8d8636cb726fade6dd0e4893970f415e4e0e|2017-07-21|Jesús Pérez|Package qiskit-sim re-added.
+b4aabe3ba13ba7875e528f40252326d91f5ca728|2017-07-21|Jesús Pérez|Git submodule dropped.
+09cad7b7f24d1657378b6b1a1d78c3bd22605e3b|2017-07-21|Jesús Pérez|Hi world! :)
+170b827423cb605c99c599a0be2ab526359bac76|2017-07-18|Jesús Pérez|Initial commit

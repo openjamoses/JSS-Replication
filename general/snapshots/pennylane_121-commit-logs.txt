@@ -1,0 +1,1647 @@
+f82bf708dbbd98d030c8433cf82c058e84a8df4e|2020-10-09|Tom Bromley|Fix applying operations in default.qubit.tf when using 9 or more wires (#841)
+7283e5ed0cbcf980956f15439dbd6bbad2aa717d|2020-10-07|Josh Izaac|fix black
+0c245c729da9ad13494fbc364310bbe859819a55|2020-10-06|antalszava|Autograd numpy for qubit ops (#839)
+278122b545886c3ccd8aa109b0585bed48e10fac|2020-10-06|Maria Schuld|[WIP] Make a separate base quantum tape class (#829)
+29be04282080c1f72fff0eeea6cc2542e839604f|2020-10-05|Josh Izaac|Update README.rst
+fce19fc82a3c15ec6fb844649e8fc83dbcbc475f|2020-10-05|Josh Izaac|Modify coverage.xml filepaths to fix codecov (#837)
+317f82ef00c752beeef7d2412b88119a753467b4|2020-10-01|Robert A. Lang|Measurement optimization utilities (#761)
+b07b42adfdf9939b9c9b34f3d03757cf30944b23|2020-10-01|Josh Izaac|fix css
+635b19ea2fd843fc504d89c179e837badc7cc2e8|2020-10-01|Josh Izaac|Fixing compatibility related to scalar NumPy tensors and hashing (#833)
+c156959940023d05beda0512fc8fe87c696c038a|2020-09-29|Maria Schuld|insert skip test conditions (#831)
+299517d6100f5b67732e1220c7f15a2ff622d8da|2020-09-28|antalszava|Faster QubitDevice.marginal_prob (#799)
+379c45a1f6a7ad25cb581db2a4d90cf2fc95e133|2020-09-28|Josh Izaac|[TAPE] Incorporate the tape refactor into core (#823)
+9ac47c8f938b02c1f764beb535f210562e3284ee|2020-09-26|dependabot[bot]|Bump tensorflow from 2.0.1 to 2.0.3 in /doc (#826)
+409eff2f013f63202358bca0803dd08f7636033d|2020-09-25|Nathan Killoran|Update index.rst (#822)
+936a5cf626b2f933dbb6a766bb1baa78a739cfcc|2020-09-25|agran2018|Fix error in the calculation of  'v_core' in the 'two_particle' function (#825)
+27dc0362bdf5705a113c6cd7ddbbcdeed2255fc0|2020-09-25|Tom Bromley|Cache tape executions (#817)
+d237ab44227da57c7653a35f4ad89b2bc711d965|2020-09-25|ixfoduap|Adds a mixed-state simulator: part 2 (#807)
+4002287dbdb346c109175de4d2ff6da87a2333b2|2020-09-25|Josh Izaac|[TAPE] Brings the new QNode in-line with PennyLane core (#820)
+6b77015dbb4d4f5cc11637bdb731ac989fa6eb16|2020-09-24|Tom Bromley|Allow returning the state (#818)
+58fda4513b68e8406f58d8155ad3592f259d519b|2020-09-24|Olivia Di Matteo|Fix typos in documentation (#821)
+c0fbd3e0e6c714554c8df94be29b642102380833|2020-09-24|Josh Izaac|[TAPE] Adding a reversible backprop tape (#815)
+1c81d5dc133fba6ac8842b5d989e84d63f3cb678|2020-09-24|Josh Izaac|[TAPE] Adds the CV parameter-shift tape (#811)
+79d50e7aa2b18206af0588ac1b1569d0075b022e|2020-09-23|agran2018|Generates tables of indices and matrix elements to build electronic Hamiltonians (#809)
+99bd629228cb1229905b7298a19304e630f5999c|2020-09-23|Nathan Killoran|Update __init__.py
+5b4aa7b3b02796b87545d32d26f06cf5674d08c4|2020-09-22|Josh Izaac|[TAPE] Adds the qubit parameter-shift tape (#810)
+b83c8ca863bc4670ed4e8a22d403ff439086fe29|2020-09-22|Josh Izaac|Bump required PySCF version for QChem, and make it an optional depend… (#814)
+aa2e495527359f6102e8e95ad51cb60f6e0ec987|2020-09-21|Maria Schuld|Add ``__add__`` to Wires class. (#812)
+3dfd0fe4ffa8e181d24703c839872dd682b1dbe7|2020-09-19|Josh Izaac|[TAPE] Adds the new QNode which uses the quantum tape (#808)
+800b47d6ab196c222d7269852f15d37bf62f8f7b|2020-09-18|agran2018|Generalize observable function (#791)
+927287425b0742c6e92e245942df0db9617fa272|2020-09-18|Nathan Killoran|Update adr.rst
+a84955224a73e330c9a4a826999aecb148ffc0d1|2020-09-18|ixfoduap|Adds a mixed-state simulator: part 1 (#794)
+1b527eb6338b3d9ef2de35a89a87aa8907e64720|2020-09-17|Josh Izaac| [TAPE] Adding a Torch interface to the quantum tape (#805)
+47cb3914735e15e3130c53cd242bf3740a57380b|2020-09-17|Josh Izaac|[TAPE] Adding a tensorflow interface to the quantum tape (#804)
+d8fb17b3152fd5a33ffb3abac453ba6196a71913|2020-09-17|Josh Izaac|[TAPE] Adds an autograd interface to the quantum tape (#803)
+843ece7752c5c328345d0241791011dd5421cafe|2020-09-17|Josh Izaac|[TAPE] Add support for tape gradient bookkeeping and Jacobian computation (#800)
+d9353365ad9572343f952aab75aa788174275e1f|2020-09-17|Josh Izaac|Add qml.CY operation (#806)
+7e5986b7373dcc9f0247a561336195834eb202b3|2020-09-16|Jack Ceroni|[QAOA (Secondary)] Adds Cost Hamiltonian Components (#775)
+4892fa30bb143f5acb57ab83a1abecdd64e62c27|2020-09-15|Jack Ceroni|[QAOA (Secondary)] Adds Bit-Flip Mixer (#774)
+78baf91078bf85a61af12b86586841262f585e4f|2020-09-15|Josh Izaac|[TAPE] Add support for tape execution (#796)
+5f8064f269698cf83c2c274039096f2a80dcf8b2|2020-09-14|Maria Schuld|[WIP] Redesign capabilities dictionary (#781)
+3e293c24a31d27c989b4dd08a36ea09f199eed70|2020-09-14|Josh Izaac|[QUEUING] [TAPE] Adding quantum tape (#792)
+15381bb5b4ebd8db24152a4a40e89d95c3503c91|2020-09-14|Josh Izaac|Attempt to fix codecov (#798)
+94678eb54108093155f8abf2ff7cad6831f9a7d1|2020-09-06|Aroosa|Add custom qubit channel  (#778)
+cd000a4f68ff43d1047db276d172819625e04f93|2020-09-03|Nicolas Quesada|Update cv.py (#786)
+01de8fc2d941dee2bb2620b51d639d83aac20f9a|2020-08-31|Tom Bromley|Speed up default.qubit by using permutations to apply some gates (#772)
+d7802b02405991624e29909552c230915a50a3b8|2020-08-29|Aroosa|Adding known Quantum channels (#766)
+566a630d2549e5aefe3bf48efc071014b4165b26|2020-08-28|Jack Ceroni|Adds Arithmetic Operations Between qml.Hamiltonian Objects, Tensors, and Observables (#765)
+bd1ad5af32da540073cb57fd46a73fe556522e36|2020-08-27|Maria Schuld|black code (#782)
+ef9afeadddfc1cdc5593fb31aea83527d7d4fa41|2020-08-25|antalszava|CHANGELOG (#779)
+daa97d306050be1f8e0429dac5d4ec2502bcfc3a|2020-08-25|antalszava|Use lists to store variable values inside BaseQNode (#773)
+d02ad750f4f7414e70c7bdcf738e80e12eda2ffd|2020-08-24|Aroosa|Add quantum channel operation subclass (#760)
+56f4135bdb2150accee26b63f974e4781d702f5e|2020-08-22|antalszava|Update amplitude.py (#771)
+14bda6ac0b7768250571e0564865b0c8f40ca1fb|2020-08-21|Maria Schuld|Clarify terminology plugin/device in docs (#770)
+068a5f3177495513bfb36172f9d33cd0af1fc04f|2020-08-20|Josh Izaac|Update broken PennyLane links (#768)
+23cc4064e5e3d40cafd3deb24ff020ce4d0d7864|2020-08-20|antalszava|[Queuing] Changes measurements and tensor products to use AnnotatedQueues (#740)
+781b322aba9a3f34353a2fc3a2db631b41870a15|2020-08-18|agran2018|Refactor the templates used to build the UCCSD ansatz (#748)
+9113e6987e1c206d1254648359f1455a85836bf2|2020-08-18|agran2018|Refactor QChem functions required for UCCSD (#742)
+c93b2dc737bed5a64bd25e6a2b82dae67d2242a9|2020-08-18|agran2018|Refactor functions used to construct the molecular Hamiltonian (#735)
+10f2a1d2c37337478ff73b4a97cb891a12da1788|2020-08-18|Josh Izaac|Increment to v0.12 development (#762)
+5cb0994faba23ce7e8e8dc7512b9e477a92138ff|2020-08-18|Josh Izaac|Tidy changelog (#755)
+d6ed14b45f7fa86651118c423d45bc4d74f38bd6|2020-08-14|Jack Ceroni|[QAOA] Creates Example QAOA Workflow in Docs (#757)
+15cc4fe5b08e01eea2e4e8d6e40fe4cf28d6ccb9|2020-08-12|Jack Ceroni|[QAOA] Documents Changes  (#754)
+0748f248f4ba8fe78a97c5c0e0d0cae340dcf360|2020-08-12|Josh Izaac|Updated the interface documentation (#753)
+4727ccba3bf4b12fd6ab2fd07c88200f5611e13c|2020-08-12|Jack Ceroni|[QAOA] Creates qml.repeat Method (#723)
+f91bc31b89678503c1819109d0e46d596ae7a399|2020-08-12|Shadab Hussain|Fixed Error in code on qml.VQECost page #751 (#752)
+38ffcb4bab6fc63f3a6e3c4e1eeb364a8b78ed7d|2020-08-11|Maria Schuld|[Wires] Add new custom wires feature to docs (#745)
+a04382f477b0db79cb4c8fd38ea0fdad4c792f58|2020-08-10|Tom Bromley|Fix test_wires by specifying atol in np.allclose() (#746)
+7e994e84dbcc4b33a295193bfcbe29af320058d9|2020-08-10|Josh Izaac|fix pl tests
+27b1bf62e523383bbd73aea25d7d0d57e2f55f77|2020-08-07|Jack Ceroni|[QAOA] Adds Cost and Mixer Layers (#720)
+9d584f9d49790ea35793a5036a77c07777ae86ff|2020-08-07|Jack Ceroni|[QAOA] Small Changes to Cost Hamiltonians (#741)
+61bc47b2b84b6c4cd9483d589a70825d15ebf0b5|2020-08-06|Josh Izaac|Fixes the OpenQASM serializer to work with the wires refactor (#744)
+13b9d50d9c0953be5ee1ecf90580be0d520db94d|2020-08-06|Maria Schuld|Increase precision of unitary in device tests (#743)
+23a8e788d00f51ecef587816389af089b313cabe|2020-08-06|Josh Izaac|correct setup.py
+ca00766963e028949c6135fe973203ea9b54a6d7|2020-08-05|Maria Schuld|added file (#739)
+92c6b62f65d181471a99f3f261a7fd07abd53d1d|2020-08-05|Maria Schuld|[WIRES] Delete a wires test  (#738)
+378467cfa6b140490d09d0272f1bf706e8517006|2020-08-05|Maria Schuld|Rename plugins folder (#726)
+c2d27ccc005e46bba584b3f6a18fb9eed4824f88|2020-08-05|Maria Schuld|[WIRES] Allow user to define non-consecutive wires for a device (#666)
+601358a53711163bf4e7398ba44a55798ac94308|2020-08-04|Jack Ceroni|[QAOA] Adds an ApproxTimeEvolution Template (#710)
+851ab1100b4bc824726194accb1e93335ccf3f72|2020-08-05|Josh Izaac|Adds CLI and Python invocations for the device test suite (#733)
+474982e97caf0987a05bc980600e4c3fc9f348a7|2020-08-04|Josh Izaac|[Queuing] Adds AnnotatingQueue() (#728)
+51dd8b4aa05a14ca8770dc59ba968c0664d78a6a|2020-07-31|Jack Ceroni|[QAOA] Adds Built-In MaxCut Cost Hamiltonian (#718)
+485677c5aa9186ddd8b5fca96c952b6c9ba7f4b1|2020-07-30|Jack Ceroni|[QAOA] Adds Built-In Mixer Hamiltonians (#712)
+3a3ed68a01c1f7eb4a85f66de3e4b8aa7b024125|2020-07-30|antalszava|Skip unsupported ops tests (#724)
+5c859da238162ddd392cdf20be730f9568b3912b|2020-07-30|Tom Bromley|Add Toffoli gate to operations page (#731)
+9f7581890d832be46b8a5fc8fe6182b6c1f1d19e|2020-07-30|Josh Izaac|Adds default.qubit.autograd qubit simulator for use with the PassthruQNode (#721)
+f7eccce5ddc32fd4f4b51a9eb6185b7e8eaa3756|2020-07-30|Maria Schuld|Make templates input checks less restrictive (#727)
+ed68e1f2827170932bfdf8020f86c7e29d7e1009|2020-07-29|Josh Izaac|Adds support for TF 2.3 and Torch 1.6 (#725)
+d99b2f9e20ce04b4b733fd57f5ccd10612c7eace|2020-07-29|Tom Bromley|Fix allclose() test in test_qnn_torch (#716)
+fb625a979f0cd13b9a009e3e88b9d0b802261ea3|2020-07-29|Josh Izaac|fix ci
+b22a60ddbc2fc4c11ab7cafdd89d42b2106cce3f|2020-07-28|Nathan Killoran|Update queuing (#722)
+028205c192c2114237453e1afc469d513455c241|2020-07-28|Josh Izaac|update badge
+b6b88c716d2404c28908b93597839edb45f710f4|2020-07-28|Josh Izaac|Switch to GitHub actions (#717)
+c1acac050537d998485ad2af64aa17780c5791ba|2020-07-24|Theodor|Renaming Operator.params to Operator.data (#719)
+968963a7c114bfcfa50a6da5c467c547e310398a|2020-07-23|agran2018|Refactor implementation of the Sz observable (#711)
+cf1a308b1bfe8cbc7ff475fe405c90dd54ea6b27|2020-07-23|agran2018|Refactor implementation of the total spin observable S2 (#714)
+4b08b58089a83bdcc2f2a2a4980f83f0115765ff|2020-07-20|agran2018|Implement the particle number observable in PennyLane-QChem (#698)
+cd233b4a964e612eb65b46e4a49bf65277b45fad|2020-07-09|Maria Schuld|change (#708)
+f9736de2b0673339562bb14970ccbe99215154c3|2020-07-08|Josh Izaac|Allow interface functions to convert QNodes with pre-existing interfaces (#707)
+0b0a702468a04eaf19d2dcfea096960367efb98a|2020-06-30|Maria Schuld|Adding a shared device test suite (#695)
+c0b4abd781ee70c25e12b07440732718e5d4874d|2020-06-25|antalszava|Use cutoff for CV base state probabilities (#699)
+6de144567e0e71b4042300b20c57eb9bd5a174da|2020-06-25|antalszava|Update _device.py (#704)
+ead5d1c38e094789ba3a796c465d9b5d7791a8a1|2020-06-23|agran2018|Implement spin projection observable in PennyLane-QChem (#696)
+09e0992ee9bf5d885e601b043cd4b81c978b3c10|2020-06-23|agran2018|Implement total-spin observable in PennyLane-QChem (#689)
+69fbb1a97022cb2a68bb2c959b749a2c47127308|2020-06-23|Nathan Killoran|Benchmark for short-depth nearest-neighbour circuits (#688)
+4260abd6d3cca54ed29c7ca9b20c9f49beac761d|2020-06-23|Maria Schuld|Fix config.toml file (#702)
+d6c601943380c1f8b0236963a542908a27074394|2020-06-22|agran2018|Map the indices of 1p1h and 2p2h configurations to an arbitrary set of wires (#679)
+db298837a2d3fc651b2863a1096d6bf99f0b2fa8|2020-06-22|Nicola Vitucci|Revamped code for hamiltonian decomposition (#671)
+ff58c04fadc82368818ab6d2c100c2d2e54bd586|2020-06-23|Josh Izaac|Bump version number to v0.11-dev (#701)
+9b4668fc01ce80b1dcf3856191b00103b829e7c8|2020-06-23|Josh Izaac|fix requirements
+c7e213feb0c36fc850684e589f9a20050470be86|2020-06-23|Josh Izaac|Bump version number to v0.10 (#700)
+522baacbfaedd18e7b9f85867fe80763b413092c|2020-06-22|antalszava|Architectural overview (#682)
+319d9b659da2c33a52aa4f1cae8ded7a1483682d|2020-06-22|Josh Izaac|Added ArbitraryUnitary and ArbitraryStatePreparation templates to the templates gallery. (#693)
+f8257522739aa5461c8db9e187f91571acf31581|2020-06-22|Josh Izaac|Adds details on ADR structure to the documentation. (#694)
+d151a8bf857611ec432c416a7f4815384880d532|2020-06-22|Nathan Killoran|Update CHANGELOG for release v0.10 (#687)
+8863809509d5f38f44880cb76105b8b50df89dca|2020-06-17|Nathan Killoran|[WIP] Jacobian benchmarks (#678)
+a1b3091f410dcca3e29d5f14ec4eb27b746e081e|2020-06-16|antalszava|Update base.py (#686)
+d9afb759984f4580185e85c56c3fe7e4e4c312bd|2020-06-16|Maria Schuld|[WIRES] Undo PR#653 which made operation.wires a Wires class object (#684)
+2590bbbe69e8539eb9628ca76f8ad3e630a29b7d|2020-06-15|co9olguy|typo
+bcc4de1b2af476ed0e05ea0ded54ab57a3cd3754|2020-06-13|agran2018|Rename function 'convert_hamiltonian' to 'convert_observable' (#677)
+4bb69afc1cf5783856cc8f9a18e8574b41885117|2020-06-12|co9olguy|fix rendering bug
+4169aa5fcb67c74bfeca30ba00b11cd080763aa1|2020-06-12|Nathan Killoran|Add ReversibleQNode (#670)
+3a4053e892ce8f244c7328d4980ef4c490f2f866|2020-06-12|Maria Schuld|[WIRES] Make qchem templates wire independent (#673)
+7ea3da59fa661637775375940919978448fcb971|2020-06-11|Nathan Killoran|Update `default.tensor` plugin (#599)
+ee8249a57874aad5a5632ffe795235a62edab394|2020-06-11|Maria Schuld|[WIRES] small tweaks to wires class (#674)
+1d7944f9a6c0698d067d5a417310f2c3695fe1e7|2020-06-11|Nathan Killoran|Update benchmarking suite to support running on older commits (#628)
+2be326b640abedd382c7f2d1b6dd8f4f67b3d323|2020-06-10|Jack Ceroni|Fixes CHANGELOG.md (#675)
+1004bf7c84e717ac4d40113d433c04c5dfa758fa|2020-06-10|Jack Ceroni|Adds Decompositions of Common Gates (#668)
+5ae6b33bf133f961d6a5d24ae350a2c071fc8007|2020-06-09|Maria Schuld|[WIRES] Include wires class in documentation (#672)
+3abc013b37df685a2d3b6e3dfbffd8addfa8bbfe|2020-06-09|Maria Schuld|[WIRES] Use wire class in operations (#653)
+1a882984c8f5bc3ce13b74f8f395ce9262c0a975|2020-06-07|Josh Izaac|Graduated default.qubit.tf out of beta (#669)
+50a60a5c2990f604f1daeefa69a736e3a51f5cee|2020-06-05|Josh Izaac|Adds a new `default.qubit.tf` pure-state simulator with PassthruQNode support (#662)
+f066b06893f01fc44b92b37eb110a28a656fa691|2020-06-05|Josh Izaac|Tensor variable refactor refactor (#660)
+8e1401caa3bb74980c09db219c88eebb666d056f|2020-06-04|Nathan Killoran|fixing latex error (#665)
+43ff4c51eec56a1fba2b39380117c1098b354ee2|2020-06-04|Tom Bromley|Add fixture to skip if torch v1.3 or earlier is present (#664)
+588c42f85069dbd3f400224bf6ff084fce5f570e|2020-06-03|Maria Schuld|[WIRES] Use new wire class in templates (#645)
+03a6030c68cb29f1297229ef701830aae1ffcf75|2020-06-01|Theodor|Update Rotoselect and Rotosolve examples (#663)
+ac3084edbb7787b657c53921dd55217ebecfc047|2020-06-01|agran2018|Fix bug in the functions "test_single_ex_unitary_operations" and "test_double_ex_unitary_operations" (#659)
+9fcfe30cbdb27f447252bffe0270c9d9c8277db4|2020-05-28|agran2018|Uccsd template (#654)
+c552141e134e1746d4eeff0bbc89511017100f62|2020-05-28|Maria Schuld|change require wires in docstrin (#658)
+3ad60700f6ac2caad8780d1fa45546bd9a4c6e27|2020-05-28|Josh Izaac|fixes (#657)
+34a04e02ab0fb3b1d6920c562b89bede52ba7ae9|2020-05-28|Josh Izaac|[Tensor refactor] Updates the Torch interface to exclude the quantum gradients for input tensors where requires_grad is False (#652)
+d9a36d76cd131942a528df491ac4ee00ef49df93|2020-05-28|Nicola Vitucci|Add MSECost (#642)
+c44a3c07e138e984b8de2cb6691107ceaa142b73|2020-05-28|Maria Schuld|[WIRES] Make tensor observables wires a flat list (#656)
+f118b5a8dbce3b544ef1e3a02c34dfa979030b38|2020-05-28|Josh Izaac|[Tensor refactor] Updates the TF interface to exclude the quantum gradients for input tensors not watched by the GradientTape (#655)
+89992193941c5fd962b7a6805fa15cd06b7d2e57|2020-05-27|Maria Schuld|[WIP] introduce wire class (continuation of #615) (#651)
+4d1cc6e16d6b0d0681a0145b8e71c029f92e7f4b|2020-05-27|Josh Izaac|[Tensor refactor] update the Autograd interface to use the new PennyLane tensor class (#650)
+afc45969fc0f399f29ac089e9a9d13f1837e3fb4|2020-05-25|Josh Izaac|[Tensor refactor] Subclass ndarray to allow marking of trainable parameters (#648)
+8cb3dc42cb54e57dc009811bf4decf4b260a700e|2020-05-24|Josh Izaac|Extend the development documentation page (#641)
+b1d93fa87b496af725d222421cee4b998129c393|2020-05-23|Nathan Killoran|Update operation.py
+8018d5ad20c528298e09ac412bc34eb8e3a6179d|2020-05-23|Nathan Killoran|Revert "[WIP] Introduce wire class (#615)" (#649)
+1ebb9e5c44adf9d79d74a3627af093fc0be52daa|2020-05-23|Maria Schuld|[WIP] Introduce wire class (#615)
+02be2e846ba65594b81ca896dfaa4599b4f1eec8|2020-05-21|agran2018|Add the new template 'DoubleExcitationUnitary' (#638)
+e80dcf3fd39a0ba8618a41cb9cea5780bc75c73b|2020-05-20|Josh Izaac|Officially remove Python 3.5 support, update TF1.X support to >=1.15 (#639)
+7d7cf662de3ba535fc380c007c58c346fd7eb492|2020-05-19|Tom Bromley|Add Torch layers support (#588)
+606e2b0b1b038f1e193a1dd83c282d36c3c95739|2020-05-19|Josh Izaac|Fix a typo in the TF interface documentation (#640)
+3b727d85f7dc27d9dbfa80287a84305e3f8c0d64|2020-05-17|Josh Izaac|Fix Python 3.5 failing CI
+5833308f8714e7605090ddf35bec1af055c480b3|2020-05-16|Josh Izaac|black
+123ba7ee6c0a9ef3350b6f49852b58e80365b84d|2020-05-16|Josh Izaac|Fix incorrectly added file
+99b406ae63c0bb6feb96af1b73344bccb865bbbe|2020-05-15|agran2018|Add the new template SingleExcitationOp (#622)
+f1e650339d1e269fad512741f1477c589c8f9e58|2020-05-15|agran2018|Add function 'hf_state' to 'qchem' module (#629)
+37220619f3c86c12ecaef63cc0520eac721a6d8b|2020-05-15|antalszava|Pin pyscf 1 7 1 (#637)
+390fa14358eb121340e6bd9ba945e657c3d568b2|2020-05-15|Josh Izaac|Serialize CircuitGraph to QASM (#623)
+b71a47cad1991a0dd097f97ae2ce2e40202a4763|2020-05-15|Josh Izaac|development bump
+51d3bd43eafda43744b2e2dd1cb063840e544494|2020-05-15|Josh Izaac|Release v0.9 (#634)
+7b1359241cb64f16ea6d2f9fdb924dfa8b8d5d5c|2020-05-14|Theodor|Rotosolve unflatten fix (#636)
+1b11fc2cc43e5c55ad6cef09e833e09baa0c71dd|2020-05-14|co9olguy|typo
+d7634c513fd925df8013ce4e736ee31761ed3c94|2020-05-15|Josh Izaac|Rename the classical diff_method to backprop (#635)
+53b739d24ec93fb66c1e1e9c83c2ff4031ef561a|2020-05-15|Josh Izaac|Fix string representation of devices (#633)
+178b772435e1f22e19afc8aa828d9221d20ad719|2020-05-12|antalszava|Fix passthru decomposition (#631)
+f17ce4749416345c2ec172fb46f9b6c9cb839a85|2020-05-08|Nathan Killoran|Update README.rst
+6e7f09a1e3ae65e980137a2ac37e0b185b5950c0|2020-05-08|Nathan Killoran|Update README.rst
+4b780ac225baeb01fad75a1fa3ec98d98b14468b|2020-05-08|Nathan Killoran|Update README.rst
+3b638c35e94a9187ae64168dad206cd777630635|2020-05-08|Nathan Killoran|Update README.rst
+14bc46b7060c30dc49b6b10ff91901d4646a8190|2020-05-08|Nathan Killoran|Update README.rst
+3822a2846f629b996896a4a0379270d83bc7c8df|2020-05-08|Tom Bromley|Fix TensorFlow's jacobian when applied to a QNode (#626)
+54ec4caf946a6adef360874a743fa90bfa8c27d8|2020-05-07|antalszava|Adding tolerance test for Amplitude embedding (#520)
+549abd5f5e754503798c869dff878380e755bc9d|2020-05-06|antalszava|Remove unnecessary line of code (#621)
+202cd5e72d7937be0d1495a11c15f7806ece77fa|2020-05-06|Johannes Jakob Meyer|Improve default.qubit performance (#567)
+f6689fe2ee115a7bfef954e7aea02b44b011445f|2020-05-06|antalszava|Adding the TensorN observable (#608)
+a8dc265b367f2f33af94788a7f87ddbcae9fdec9|2020-05-06|Johannes Jakob Meyer|Add templates for arbitrary unitaries and state preparations (#590)
+64e689f625b609d6a63fa600b3998480dd44bc94|2020-05-06|antalszava|Adding classical and device differentiation methods to the qnode decorator using a factory method (#552)
+30dd7d4cbbc7d8625ec643fbc6dbceb10e8364f9|2020-05-06|Maria Schuld|Use multiz in qaoaembedding (#609)
+349221782c932efcba76d512c817e86596c87215|2020-05-05|Hannah Sim|Fixed contributor list (#619)
+b6eb44ae6b047fa466ccbe0ab632ca14df54cd46|2020-05-05|co9olguy|cleanup
+1fae4c3412d60e1a792836551d7071f0ffd0fae0|2020-05-05|Hannah Sim|Enable QNG for VQE-like problems (QNodeCollection with same ansatz) (#618)
+32adf3665a50b2c210c63b915664fd29930f190d|2020-05-05|Josh Izaac|fix rendering issues
+231b9d94c3053ae0a13d6550e5fdd93a00ca9d1f|2020-05-05|antalszava|Update the default behaviour of the example configuration (#610)
+1aaaa174f51e8e1887e94d487da0b19e0d93b953|2020-05-04|antalszava|Correcting small typo (#616)
+dba35f82fbbde77b50f1ad1f257a682c147d1000|2020-05-04|antalszava|Updating the documentation on the device method for gradient computation (#611)
+a352d66fbb4f11a7ae80911e1497eda83336efc9|2020-05-04|Maria Schuld|Add iqp template (#605)
+81d934ea9d52d1cfe5efc151e90a2992911571e6|2020-05-04|Maria Schuld|Refactor old Wires class (#614)
+3d52b4b0e456dbb0f397123ae33a155f97076476|2020-05-02|Johannes Jakob Meyer|Add script to compare commits and additional benchmarks (#568)
+fb3044d85c5346c8750244bb1a6fae602a615437|2020-05-01|co9olguy|removing cluster
+9e4aff382d4effd518e85a4f5001859520438075|2020-04-30|Maria Schuld|Add edge cases to initialization function checks (#606)
+37eb78f82d802110d1a31773ae197af4cd59f6aa|2020-04-28|agran2018|Add function 'sd_excitations' to 'qchem' module (#604)
+8be49d93c7c49fa358bf9d97ae18a430a1944a62|2020-04-27|Maria Schuld|Add custom pattern to ``broadcast`` (#603)
+488bdd7d309ada24f2dd49f4dbc5d0c7f04edebb|2020-04-24|Theodor|Development hub (#596)
+f542738a9d89b375cbf8b08970da66981bfdc113|2020-04-24|Maria Schuld|Fix Issue 532 - Bug in RandomLayers (#597)
+7607783ccf089d745c7802a01fb5fffccad7bcf9|2020-04-23|Nathan Killoran|cherry-picking noinfo changes (#598)
+8a5a164b6b83fd54a141bae5f604c32ecbaf9ba7|2020-04-22|Josh Izaac|Update travis.yml (#595)
+0f2e8cf23c6f7a9c994c086772e5aaeade9f5e86|2020-04-21|Nathan Killoran|Update CHANGELOG.md
+7664a34aed5bd4e5bf81a132d80f53cae91e2652|2020-04-19|antalszava|Fix estimate prob (#594)
+f3b5ed3997b425550cc5ecf38b9d618c2603e440|2020-04-18|antalszava|Update measure.py (#593)
+56e321a2c3259854e8c70f4bb8d100bf33d360d6|2020-04-14|Tom Bromley|Expose the finite difference order when creating a QNode (#587)
+a89edd8e2d00e2ee537014be4a5a9c7ad69553d6|2020-04-14|Maria Schuld|Improve template integration tests (#583)
+fe72524729ae6011139364fb48458286c233a8c6|2020-04-14|antalszava|Kwargs in qml.map and VQECost (example of passing step size) (#585)
+aad8991a910bedd674ebb338668280099cb73fc7|2020-04-14|Josh Izaac|Update broken documentation links (#586)
+9356b1d6ea1de49f893577f319e92f33a0778cd6|2020-04-09|Maria Schuld|Improve RandomLayers docstring (#581)
+2e063a030e22a291242fa5626c9dfaf68f99170f|2020-04-07|antalszava|Modify analytic_probability from being abstract to raising NotImplementedError (#579)
+544b20c756523ecaf70ab90fc2ca84ff4d0432f9|2020-04-06|Theodor|Modify QubitDevice to support estimating probability (#573)
+cadb472420745b6d47b85f928076cb2b60fc76ab|2020-04-06|Maria Schuld|Move template tests (#578)
+6ac7a3b81b0fd680408a6880408c11543104cbba|2020-04-06|Maria Schuld|Unset attribute in test (#576)
+c7ac33fa3996665a96cf2672d8482188211af097|2020-04-02|Theodor|Add support for non-analytic return for DefaultQubit.probability (#563)
+1e1e5015edef5102418aab397bc07eb2adfb90f5|2020-04-02|Tom Bromley|Speed up KerasLayer tests (#570)
+ad5f58746bbb867c056f7c50cf5699a566fce652|2020-04-02|Maria Schuld|add PR 566 in changelog (#569)
+40d480d0c3b7c433d99ba544e4ab454f0d9784dc|2020-04-01|Tom Bromley|Add Keras layers support (#529)
+50a103d5a220c0c730488cba6b29d4db178a7b4f|2020-04-01|Johannes Jakob Meyer|Add PauliRot and MultiRZ gates (#559)
+24290bda3ffa2cea5415bd05f784dddb8ad6b4ff|2020-04-01|Maria Schuld|Refactor template utils function to be public (#566)
+154448f545e4d658f7c49bb8d0ef7426390cce75|2020-04-01|Maria Schuld|Add developer instructions for new templates (#564)
+b96a52d2cbfc71e250c7438ef94859f97bfcbc21|2020-03-26|Maria Schuld|Add coles template (#556)
+e862dfaae19e57e64ba623143a7eb1547f8e457b|2020-03-25|Ville Bergholm|New benchmark measuring QNode _construct efficiency. (#560)
+54daf6b518260cf971f248304eb7f14593f18366|2020-03-24|co9olguy|update .gitignore
+5a97b3e158fadbc1ed3fc10020c6f09e36091b68|2020-03-24|Maria Schuld|Add CnotRing template (#555)
+6bacb84173cbfba0bf5fe979f0ae85a1fffa04e4|2020-03-22|antalszava|Update configuration file logic for the analytic global option (#549)
+a65c1e7e26f76c0e3558f17723a9f7a21237d797|2020-03-21|Nathan Killoran|Updating readme (#551)
+92cfa2eef791559eee22b42f97034dfb041a1737|2020-03-21|Ville Bergholm|Benchmarking script, two benchmarks. (#516)
+a3d86873bcaa9c7515a65392a599e99ee5a2136f|2020-03-16|Johannes Jakob Meyer|Adjust wording of QueuingContext docstring (#550)
+a76f103695e15668c22005a86a6d8e31d9b3c236|2020-03-16|Johannes Jakob Meyer|Add QueuingContext for queue interactions (#548)
+9207a4ecadc2303ffa974931fe96073e4cd16e6d|2020-03-16|Theodor|Rotosolve and rotoselect optimizers (#539)
+9979c9043060ab564098ca3dc7440f5f974ada10|2020-03-16|Josh Izaac|Update README.rst
+b7cb1fa8f36d7c31b4009e0ee62e07120fa7e1ba|2020-03-16|Ville Bergholm|Operators string-represent themselves. (#508)
+179211d079d500f5b9079700e55a8ec83c3be427|2020-03-15|Josh Izaac|fix doc rendering
+dd92ecc2bd1e2d40b6c5c3ef57498bce8fec73b0|2020-03-15|Johannes Jakob Meyer|[WIP] Simplify decomposition of CRY (#547)
+a71122fcccc42eef7a849804be3f7020c98b9497|2020-03-14|Nathan Killoran|Fix typo and adding missing arg (#545)
+1de545dd1df74e7c20eb06f86f1ecb2aba9e28dc|2020-03-13|Johannes Jakob Meyer|Fix inversion of decompositions (#543)
+7e784b0ef0aa91446894192519fa03a03cc73a1d|2020-03-13|Johannes Jakob Meyer|Fix print_applied for Probabilities (#542)
+e580a6d82a59509ada156e68bd14db4d5d421397|2020-03-13|Nathan Killoran|fixing typo (#546)
+b02adf378d288fbc78f334947c64a4894929395b|2020-03-13|Josh Izaac|fix pytest travis bug
+032ea13e5a68eea1c4be729503ddb01b2d836d67|2020-03-12|Tom Bromley|Fix bug in single qubit strongly entangling layers (#544)
+6ad998b2d17bd9265a70519470b0ca888d07f4f3|2020-03-11|Johannes Jakob Meyer|Add inverses and probabilities to CircuitDrawer (#540)
+f7ad64a39187a577ff33d1cf3abb57e345eb317a|2020-03-10|antalszava|Adding step size for finite differences method, adjusting kwargs in QNodes (#530)
+d1ebe0df6b541e796d42bc7d1ab60a84241ea002|2020-03-10|Josh Izaac|Update author list (#538)
+8076c18b301dbc5aa2bd40fd858d7ed403afa831|2020-03-04|antalszava|Correcting typos (#528)
+2f81a7678eb229bda4a75e045612a2b4b8858b3c|2020-02-28|Maria Schuld|Add broadcast function (including 7 base patterns/templates) (#526)
+7f8eaa4c45aeffa327af85850650853c06395977|2020-02-28|Josh Izaac|Bump to v0.9.0-dev development version (#525)
+2003ce70e82af489566669c3dd1a4ada3ca42250|2020-02-28|Josh Izaac|fix incorrect link
+39cc06cf257ee5cb06cc67c9ce6a55877a39defb|2020-02-28|Josh Izaac|Version bump to v0.8.1 (#524)
+a76140d842298845fa3623d3f5612af9eedf8d07|2020-02-28|Maria Schuld|update navbar (#517)
+854192509c6ee558a2efe1df3404adf630f5931b|2020-02-28|Josh Izaac|Temporarily rename `VariableRef` back to `Variable` (#523)
+81ce08e57f6971489cce4561f2b5d32e1d349db7|2020-02-24|Maria Schuld|change tolerance (#519)
+a01c32ec0b13b26266e85c7661f2993efdb931d6|2020-02-24|Maria Schuld|delete list of init functions (#518)
+a776dbecfb0c1d32bb04012a69ee0e559d58c3b5|2020-02-18|Josh Izaac|Added black formatting CI check (#511)
+842a5ec6b093137075fccb1c8ebeb3367c5c94af|2020-02-18|Josh Izaac|added coveralls support
+c9d7688180a2fede08b7b21ee1177b98cb88ae27|2020-02-18|antalszava|Fix multiple evaluations of mutable QNode (#505)
+d3d18d9b7446611d125c16bf40e5002b692863aa|2020-02-18|Maria Schuld|Amplembedding docs hotfix (#513)
+a17b0ed1824462a0e9e26901dd6789db3b60493a|2020-02-18|Ville Bergholm|Fixes the divide-by-zero bug in Operation.get_parameter_shift. (#512)
+08d1dd36d3132412846016c5f1b1fa335aba9e54|2020-02-16|Maria Schuld|Improve templates integration test (#503)
+c266f1a6e53ddd854967f52bb16732bbd7484d84|2020-02-16|Maria Schuld|Make template gallery (#499)
+beccbd73370a8be280407f3834ee0e9318a39f40|2020-02-16|Ville Bergholm|Make QNodes context managers for qfuncs. (#509)
+c678dabdf82faba85a36182856aa5b1fa0551f61|2020-02-13|Ville Bergholm|Implement PassthruQNode (#488)
+719e27c7d046e7d488b8c68685fe803f4f5afa9f|2020-02-09|Josh Izaac|Check Python 3.8 compatibility (#501)
+f4127f442f2a72989e15e699744129666aa35518|2020-02-07|Josh Izaac|Update to v0.9.0-dev version
+18c5f349bec4ce00fc9f72f45b2fe0c83c84400a|2020-02-07|Josh Izaac|dev-bump
+bca4a0d9e8ab0fa9b9daa98cfa271bad06ebb630|2020-02-07|Josh Izaac|update changelog
+b93905fb375871f91a94b7878dbf224c8402bfc6|2020-02-07|Josh Izaac|fix doc styling
+8cccf8681ccfc81f46a771092fcb4442e0319512|2020-02-07|antalszava|Incrementing the version number to 0.8.0 (#500)
+2df31e4266fbf5943d3d4be6f55dfbc36e1e2a76|2020-02-07|Josh Izaac|docs styling
+06e5ecb033b33effa2e8847906b4a07380de9796|2020-02-06|antalszava|Create Tensor prune method for removing Identity instances (#498)
+e180c7ed5a005277a986222879ed9b569b83bb7d|2020-02-05|Josh Izaac|Update copyright years (#496)
+b4fbe0e399dbbce9952971d7b08117e22556b831|2020-02-03|Josh Izaac|Rename expt.tensornet device to default.tensor (#495)
+2096a60c3f94fa9c06dd6a414f8d93b690f136f6|2020-02-01|Josh Izaac|Adds an introduction to QNode collections, and fixes a consistency bug (#494)
+36dbe2799cf2194069c05265fe7e12864b5044c9|2020-01-31|Nathan Killoran|Update CHANGELOG.md
+5edef8551ed2b139ad6012c755067b09c2492279|2020-01-30|Johannes Jakob Meyer|Include qml.inv in operation docs (#491)
+04b2fafa691b75eccfd6a221f460704f51d5cfe1|2020-01-30|antalszava|Removing the setting of device._samples in generate_samples (#493)
+42dc9a450af9b32de4f857b61b890425e26d35e5|2020-01-30|Maria Schuld|Split templates to separate files (#486)
+9279a3d1a812874c9ec9774e3a32ff7afc51a3a1|2020-01-30|Josh Izaac|Move collections module to its own subpackage (#492)
+a1f22b10ee968ade10488c6c42a7b153553cf628|2020-01-29|Josh Izaac|fix circuit drawer with interfaces
+717c384ae4da0d632b3bf12606b679cab3d81459|2020-01-29|Johannes Jakob Meyer|Import inv into qml namespace (#490)
+ebe3e94e46856d8be292425ff8ad3154ae9b5ea3|2020-01-29|Johannes Jakob Meyer|Add a text-based circuit drawer (#446)
+90733d17219eccd9c5be00ec4a1f5dfb1ab69b2c|2020-01-29|antalszava|Setting shots when instantiating Device (#489)
+2d8d5fe45c83030270dae20f3ffc0460e056bfe1|2020-01-29|Josh Izaac|Update the developers plugin guide to use QubitDevice (#483)
+bcdcc41e84f59603c0d8b33444c2a0ab7689a914|2020-01-28|Josh Izaac|increase image size
+41602040af25f6eb782b8cc138fc9ef99be89864|2020-01-28|dependabot[bot]|Bump tensorflow from 2.0 to 2.0.1 in /doc (#487)
+35562db775f38908343b99f284a361af5b6c4243|2020-01-28|Josh Izaac|Add support for asynchronous evaluation of QNode collections (#484)
+a20dad29f15bfeded3ed30e58d4231ef7fadd218|2020-01-27|agran2018|Adds figure sketching PennyLane-QChem (#479)
+e41a3e10bdfbe43fea7ca99e33d3ebd01dc31493|2020-01-26|antalszava|Adding keyword arguments to QubitDevice.execute and QubitDevice.apply (#485)
+f45d0e6b60b1380c674bf39ccd26598ae0337671|2020-01-24|Josh Izaac|Update README.rst
+7feacd4b786828fbfd36922f9df116bb42784c17|2020-01-24|Josh Izaac|Merge branch 'master' of github.com:XanaduAI/pennylane
+3c45aed8ae88c96bd35955e25b826fa3da5dec67|2020-01-24|Josh Izaac|update image
+8836426058ca520bce632ad5ab18ec2b79e02b70|2020-01-24|Josh Izaac|Update README.rst
+fa3871ae46ec29d95c30ccde8bfc545551a7c8bf|2020-01-24|Josh Izaac|update image
+d6ea8b514d41125471b82e821e15ab270003f71a|2020-01-24|Josh Izaac|Fixes a sampling bug affecting QubitDevice (#481)
+f9c37aa6f848984c03c89f3666b13155e15db12d|2020-01-24|Josh Izaac|Clean up default.qubit (#477)
+7cd9d938fc210054b1e6dec8841849cb010ec616|2020-01-24|Josh Izaac|Added a pull request docs check (#482)
+9245e6799dbd39048e3073e37337bfaf31440cff|2020-01-23|antalszava|Remove unnecessary print statement (#480)
+888de1acf1a149f316393c63afafc73dda0df061|2020-01-22|Ville Bergholm|CRLF line endings normalized to LF. (#476)
+7ddac7442c112cd6c61b22f4e5af71386c82a748|2020-01-21|Josh Izaac|Refactor the execute method of QubitDevice (#473)
+1f6b672358800187feddf05548a166f6f98b9110|2020-01-21|Maria Schuld|Improve measurement intro (#472)
+93dfd53a781ab71d02542508c88741724037aa15|2020-01-21|Maria Schuld|Improve input checks (#475)
+04088f289612632fb6c5670e2b47bfb40bb09a3a|2020-01-20|antalszava|Adding delimiter for when the Variable index is built into the quantum circuit string; this helps in cases when there would be an ambiguity between the index of the Variable and the argument of the operation (e.g. both would correspond to being 1) (#474)
+2e82a25acd047e57d6bf51e383ff5b0fa96e6f14|2020-01-20|Josh Izaac|fix building bug
+1542cf5efa9b88fa81c75775d2c30cade0360e68|2020-01-20|antalszava|Circuit graph hash (#470)
+d80e904b5d8ca52eaa2d022e1ae1faaea915a381|2020-01-18|Nathan Killoran|Update chemistry.rst (#471)
+aa4435197920c2cc9f454b0a9961c2c0ba08c8c8|2020-01-17|Josh Izaac|Graduate VQE module (#467)
+bc58276cedda4f4345f82a18af65c2db16f6a942|2020-01-17|Nathan Killoran|Update qchem.py
+25a6d3120cf8fd41a85e3ae9a21ed25a0106db93|2020-01-16|Johannes Jakob Meyer|Add an inversion function for templates (#462)
+61e8191c20166b0298a64bc9cddcd48ca5e08c1a|2020-01-16|Nathan Killoran|Update CHANGELOG.md
+ba456e306c0d80f2677b09db23515950735b3c2a|2020-01-14|Josh Izaac|Adds release notes to documentation (#469)
+e5e41cf2c82a8e8216859ad6840fe6e237be1131|2020-01-14|Josh Izaac|[WIP] Unify sampling (#461)
+9449c652921ba7f07a5df8d1b80beb0d54c5e074|2020-01-14|Johannes Jakob Meyer|Add pyquil loading convenience functions (#459)
+a6217ed4225ea9ec7a06940905efe14c825fbfdb|2020-01-13|Josh Izaac|fix doc building
+be932944df403fed7f980e6f1f4f2dd68c6300c0|2020-01-13|Josh Izaac|Adds QNodeCollections and map-reduce functionality (#466)
+bf311845be4eb5c2982dd31853f83ddb7430a627|2020-01-09|ixfoduap|Change output of generate_hamiltonian() (#464)
+7d432a0d8aa2b3d1bc2971b1241deba51c7dfd11|2020-01-09|antalszava|Remove duplicate definition (#465)
+11d52cc23f4dac3f3e87fef7faccbfb381ea66b4|2020-01-09|ixfoduap|Refactor function names (#463)
+c42d435ccbf5506e0ea82b08d32a738aa46954d1|2020-01-07|antalszava|[WIP] Creating the Qubit device class (#452)
+55b9d586636fe1e5863832af8118d5663055b894|2020-01-07|Josh Izaac|Added quantum chemistry quickstart (#458)
+b33712a36a25a562f289384ea8c81ce7a794f773|2020-01-03|agran2018|Use `obabel` to inter-convert molecular structure files (#457)
+19c7f4cccd80dd5673290f6ab6fdb380248a16f5|2020-01-02|agran2018|Make PySCF the default electronic-structure package (#455)
+da44b4d87f11ac30e25fbd99bdd45f8276d0a62e|2020-01-02|antalszava|Adding the diagonalizing_gates method for the Tensor (#454)
+8a36c2e1c668b496506d9d9eeea422c470079abb|2019-12-26|agran2018|Adds the Qchem package (#453)
+8f3fa4b4eeae415d35bc2f9ec919ca0a76f6b053|2019-12-24|tedde|Add methods to Hadamard class (#450)
+00a3000319629e2892123d73ca23bb00e677585a|2019-12-24|Olivia Di Matteo|Added matrix representation and eigensystem to PauliY class. (#445)
+5dbbdccc2c7f6ebde196a7cfd2b60eaceb5cee78|2019-12-23|Josh Izaac|Adds a convenience `prob()` measurement function to return the probabilities of all computational basis states in a single QNode evaluation (#432)
+664281775ef9fb88cc164f2bff2b4fbbedf549e0|2019-12-20|antalszava|Adding the Identity option for returning the eigenvalues of a Tensor object, adding test (#451)
+2483d0d097d1528189b15060afeafb8ff1e198e8|2019-12-20|antalszava|Adding eigenvalues for observables (#449)
+767a0673216b530bba1dc46701b1ce9d786e528e|2019-12-20|Maria Schuld|Add adaptable template (#442)
+9b45702c427807e5a533bac140a376dbe2468011|2019-12-19|antalszava|Revert "Pin scipy to version 1.3.2 (#447)" (#448)
+0be12ce3c7a760c8665d6985c5ae5f303a7babfa|2019-12-18|Josh Izaac|Pin scipy to version 1.3.2 (#447)
+5de272a1ce6ed39b5c6ee34035f11f8c309266ee|2019-12-10|Maria Schuld|Improve amplembedding docstring (#441)
+e8decee40617ed0c9af3f134e1bbf5b06256c38f|2019-12-10|antalszava|Reordering and adding pennylane.qnodes to setup.py's packages (#443)
+493d41995e1174761ce8dcffec0d292327a67310|2019-12-06|antalszava|Deprecate old QNode (#440)
+375d25acc7bd2e6d5243b5273958b26513c33189|2019-12-05|Josh Izaac|update copy css
+3862206ff513ad2fe6f156174bb24ec9d28073a6|2019-12-05|antalszava|Adding the copy button in sphinx (#437)
+c61183d9e62119e33c4daaa2256511a0587914c2|2019-12-05|Maria Schuld|Add differentiability warnings to the embeddings documentation (#439)
+238309fdcbe819bb20b17ca1cf284dd0da2bb036|2019-12-05|antalszava|Correcting link urls, placing the correct links (#438)
+a54d32b19b335035323bfc7dae5ad7a87b43b61f|2019-12-03|Ville Bergholm|Fixes the CV parshift-order-2 gradient bug. (#433)
+4f969a6b5e2ac530e73a9e908d87a20630e864d2|2019-12-03|antalszava|Decomposition for CRX, CRY and CRZ (#434)
+dc46a501c3b6132653d1f83a30a60be0941e4d16|2019-11-27|antalszava|Correct typo in configuration file (#435)
+a9fd0c8b10666fa50773b1023dfbac71594b8eb8|2019-11-19|Josh Izaac|0.8.0-dev version bump (#431)
+b11abe6c29eac7c816d5dc4b816e816b4ae0fe9d|2019-11-19|Josh Izaac|Bump the version number to 0.7 (#430)
+02227f56c76c578715a2288aa9b6293cafc8edbf|2019-11-19|Josh Izaac|Moved experimental features to the beta folder (#429)
+320f67df19687512ed63fba819bdba0387f9849d|2019-11-18|Maria Schuld|Template checks and signatures (#419)
+3c321b474e9224e661ef7be47866a454b0e06d01|2019-11-18|Josh Izaac|Merge branch 'master' of github.com:XanaduAI/pennylane
+cc3533143f2dff32fff8ccba7127303517ec4f49|2019-11-18|Josh Izaac|update copyright
+4158cc1b4a3dd0238bfa7d4f92506c9366a98677|2019-11-18|Josh Izaac|Add a `expt.tensornet.tf` device (#427)
+bd691e980513e03884b87809788422be86a0fdcf|2019-11-18|Josh Izaac|Replace pinv with np.linalg.solve in the QNG optimizer (#428)
+54fef48e833dc9a87b6450b5b9fa24fe72075d3f|2019-11-15|Josh Izaac|Adds Device Jacobian QNode, that delegates gradient computations to the device, and renames QNode to BaseQNode (#425)
+7a4d376431b3403804963722c3f68dae8a27b315|2019-11-15|Maria Schuld|Improve initialization functions (#412)
+2d16475d84f64d08ad65ac812eff2703d9e82907|2019-11-13|Josh Izaac|New-style QNode decorator (#420)
+2cf566fa53eb3036b9b9a746ace1412e62fda8c5|2019-11-14|antalszava|Qiskit QuantumCircuit to PennyLane template (#418)
+5cfb043c619cd4582b92cd5c97d10d1fc89b7d22|2019-11-13|antalszava|Tensornet simulator sampling (#416)
+df41c35a30396eb06d30b600dec39a66eb1cdeac|2019-11-13|Maria Schuld|Make layer private (#413)
+3acf0ecff2485f940eab7cc02cdd655c734fc3c2|2019-11-13|Maria Schuld|Refactor template tests (#409)
+9c4eb722baecf4b38ef7be1a324ab04ec73c1c11|2019-11-13|Angus Lowe|Issue #286 default qubit state prep. consistency with other plugins (#346)
+9668b0038b2e2d80b9336c8dda9368bfaf9c427f|2019-11-13|Josh Izaac|Creates QubitQNode, CVQnode out of JacobianQNode (#415)
+291537cf2acac9ad05d0bf16cf9aa15d97ae7686|2019-11-12|Johannes Jakob Meyer|Add decompositions for state preps (#414)
+ab8fa7f06c736c8c145f3259672a8fb9e5bedb9f|2019-11-13|Josh Izaac|Fix class docstrings in documentation (#411)
+41d29481753761369e9bafcd2803e3149ad5b468|2019-11-12|Josh Izaac|fix docs
+6efc8d4510d76ca145646ddedaacfc6850feb23d|2019-11-12|Johannes Jakob Meyer|Add state preparation (#336)
+4905c7e99fc8d1b8ab9ca4d7d0b50e3984789ffa|2019-11-12|Ville Bergholm|QNode refactor, part 3. (#398)
+22f9995f1940fd7a81aa92cb131cdbf2f338c9aa|2019-11-09|Johannes Jakob Meyer|Fix setup.py (#405)
+722ea39297f69fdbfd6b1e7e1e974a6441f60997|2019-11-09|antalszava|Add inv() method to the Operation class (#377)
+4c68c798461446d4e7a90eece3a888250141a645|2019-11-09|antalszava|Refactor getting the operator matrix into separate method (#410)
+9393fc5c776d67e6861dcf73a93610f7d63ecd45|2019-11-08|Maria Schuld|Import templates from parent module (#408)
+9d08c86bb0647c2f38e70e45697ff718c330989d|2019-11-08|Maria Schuld|avoid iteration in template (#403)
+230795cf807074f863de92f09c08e01e7f81df3d|2019-11-09|Josh Izaac|Adds the U1, U2, U3, and Toffoli gates to PennyLane core. (#396)
+cde584afc1d26f41cafb6de692732dd3a0d61545|2019-11-07|tobeyOguney|Bug Fix (#393): `qml.about()` function broken with latest `pip` update (#404)
+0951800daf6fad47e663ae69d1e8c8033eb761ea|2019-11-07|antalszava|Adding variance to tensornetwork simulator (#406)
+17cda5f365ecd7a88c3281f0c004177a3d26775c|2019-11-07|Josh Izaac|Removed examples folder, updated readme (#401)
+6f7449ce6529c4a35a6a07915bdbd7088f51b1d9|2019-11-07|antalszava|Adding 'Raises' sections to docstrings throughout PL (#400)
+1ae9b7cfcd7f2c90b2ad5c4428c814793132ca26|2019-11-06|Israel Ferraz de Araújo|Update function get_angles. (#399)
+9b091a9306b9037df8308524df5f6f48acb6e24c|2019-11-05|Nathan Killoran|State preparation ops for tensor network (#395)
+cdc3776a2afb9c1d23fa063d4b4e69540ce3ea8f|2019-11-05|Nathan Killoran|Adds _state property to tensornet simulator (#394)
+a88fc87da744f1e76e518433dc66baf4594305d4|2019-11-05|Ville Bergholm|Qnode refactor, part 2. (#354)
+edfe18eae057d94926763d10516f4191ed34cde5|2019-11-05|antalszava|Adding tensornetwork to setup.py (#397)
+95c6d57161dcf7bc4454cfeb07867dff08923c96|2019-11-05|Josh Izaac|update footer
+070353522e9992eb675940434c31a5baff9bd97c|2019-11-03|Josh Izaac|Bug fixing
+ecf659d0ffa8835a7bc8bc456efee0dbd833e9f9|2019-11-03|Josh Izaac|Adds an operation recorder for inspecting templates (#388)
+7628fd7205f128c5e68af9da76ee662a2d5a88ae|2019-11-01|Nathan Killoran|Tensor network simulator (#380)
+e0ee093a2cc7ff2db4c0c538445f77bf6af0de42|2019-11-01|Nathan Killoran|Add primitives for vqe submodule (#357)
+71e251bd0a314f7773b141df4bba9012cad94dfe|2019-11-01|Josh Izaac|add newsletter
+1cfc126fc250a648cdc878d51a522b854b408c24|2019-10-31|Shahnawaz Ahmed|Bugfix barren (#392)
+06078c207255e089a6785c11ce65406ed75dc90e|2019-10-30|Josh Izaac|bump to dev version
+82d813548be40ef6a68af33c33ccd60293d6ce7e|2019-10-30|Josh Izaac|Version bump for bugfix release (#390)
+fefd5d7a7ca337a46bfb5cde30ce22f76afeeab4|2019-10-29|Josh Izaac|final bug
+4a299075039dc70dc87e3eadc8f353d4ae0a9e6c|2019-10-29|Josh Izaac|fix css
+7a056d02e72d371c00808b5fa444afe9df941903|2019-10-29|Josh Izaac|fix css
+52f6340cf07e87fd8954eb650a09d35bedc01e06|2019-10-29|Josh Izaac|update image
+334140a522c82d1e6bb8eca1b8ee0549a00de874|2019-10-29|Josh Izaac|Light polishing of the introduction section (#387)
+4d5ce6ce11c416b68f0918e7e3ef74e1a75d8b55|2019-10-29|Josh Izaac|Fixes bug to allow interface tests to work without TF/PyTorch installed (#385)
+877f022c6d91c4746e6b9a37b59375ab844ea096|2019-10-28|Josh Izaac|update readme
+cacc3d8eb72e405f1418515939e94c87e9c60bd9|2019-10-28|Josh Izaac|update readme
+ed8f25070f6814e8c70d37013f8ebe7402eb51b4|2019-10-28|Josh Izaac|Updates the development guide (#382)
+8c8f79802262f52d54904bdac35368b7a09fd549|2019-10-25|Maria Schuld|Fix amplitudeencoding (#376)
+34d4646169314fc9727dd47971057a590040ed78|2019-10-24|Nathan Killoran|Adding interface gradient tests (#381)
+09be43a03e48ea80eed9964a48fde1776dcad456|2019-10-24|Josh Izaac|Updates the building a plugin guide (#379)
+d3cc053113023f348727bf4257f9923c46346549|2019-10-23|Josh Izaac|first commit (#378)
+1953725d4fcf7506b64607974ccf83123273e5ff|2019-10-22|Josh Izaac|Update footer.html
+2b8e424b7893babaed76eb23b539799641156544|2019-10-22|Josh Izaac|bug fixes for readthedocs
+911043ad7c2306ec14cce8cecdb874c49374e584|2019-10-22|Josh Izaac|Adding missing modules to documentation API (#373)
+1c478d128e3cacc82e08ec7c21ff0247d81d1fb1|2019-10-21|Nathan Killoran|Extend intro docs page (#375)
+e3c1bb591a6758b967d3898efc07e950ee99146c|2019-10-21|antalszava|Operator base class (#355)
+814e4b30351bc7f87cb73d8c415a0ec9e6ef8204|2019-10-21|Josh Izaac|Updates measurements page (#372)
+b26016d73687e67b8e3e069a606a65afd176ec84|2019-10-21|antalszava|Changing deprecated abstract property definitions in _device.py (#374)
+5bce2a09ae8a6b13d8d31e8e91579a59ea1dc4d1|2019-10-20|Josh Izaac|fix scrollbar issues (#371)
+cbef15840c33d44d2e781bd20937ed086c3d5d6d|2019-10-20|Nathan Killoran|refining interfaces page (#370)
+337bc0c2e6350709c8d3da784bc3c227c1d2c82a|2019-10-20|Josh Izaac|fix searchbar
+3f2e0029d29da0c9a31c256f3e43a208c7171550|2019-10-20|Josh Izaac|fix spacing
+816e674dabca46c5cf94c6d734536d52c3ad1a08|2019-10-20|Josh Izaac|fix spacing
+610108bef8318070047b6b773c73347f5eb9ad20|2019-10-20|Josh Izaac|update readme links
+07b55be527bb95e2fc46a35e796e0a630b227454|2019-10-20|Josh Izaac|fix tables
+9fabc5848f9365225a4a673da8d0a8ed5b1e0ab6|2019-10-19|Josh Izaac|fix tables
+2ee714b5471690652b7833fca100b9db1e693b1e|2019-10-19|Josh Izaac|update tf logo
+a6ececec52aea8f5ce5a88ce0cd6e38fd5ccc632|2019-10-19|Josh Izaac|fix search
+f0e85b716576f54710eb1a1ed551e528c817fd27|2019-10-19|Josh Izaac|fix scrollbar
+1fc45d4a65c70690b297cffa430e9c3241b25e75|2019-10-19|Josh Izaac|fix scrollbar
+45863aaa16a2e7adcf350d12b8275c3423942d4b|2019-10-19|Nathan Killoran|Update optimizers docs page (#369)
+d53a18c8df3d730fe2396382d20c7227873c36eb|2019-10-19|Josh Izaac|Rewriting the documentation landing page (#367)
+78f9492396a25bd3f6644b95b941b95670754752|2019-10-19|Josh Izaac|fix docs building
+a274c5a333cbf2620c6de99be23659ab4a1ac9e7|2019-10-19|Nathan Killoran|polish config page (#368)
+bc9515653713d0e167f8c9e626e32fc5f9dc9504|2019-10-19|Maria Schuld|Make quick reference a top level section in docs (#364)
+9bf0452121a1ecf0103112961f1bba7472cbd9ac|2019-10-18|Josh Izaac|Increment to development version number (#363)
+06a495ce25e585327e188197c8c7a6f19dd58a26|2019-10-18|Josh Izaac|Fixes autodoc, removes redundant pages in the docs (#358)
+233a0671838ea32538606c49f5b924db1ea2b6b0|2019-10-18|Josh Izaac|fix broken links in readme
+a4a66e519778eaba19f41d7a1b6ffc9bf904286e|2019-10-18|Josh Izaac|Version bump to v0.6.0 (#361)
+092efe243aa8c23c3f9e2f78bc5678e44bf8d9ab|2019-10-18|Nathan Killoran|Makes specifying `do_queue` unnecessary for ops outside of QNodes (#359)
+0888e9f81e494bb7f7627bdf9ba7965ccddc95e2|2019-10-18|Ville Bergholm|Remove unnecessary uses of autograd.numpy. (#356)
+b45ed9c92701a221c62e1d2efb549b18b56974af|2019-10-17|Maria Schuld|User docs refactor (#314)
+1cf5cd67382ac399de120daa0e94e7b828f3f6ac|2019-10-16|Aroosa|Add the ising model examples to pennylane tutorials (#319)
+02b26491b2cda46b8f55792641ac2398d1964f86|2019-10-16|Josh Izaac|added xanadu logo to navbar
+1c31526cd4565360c08fa61044f55dfd1ecb306b|2019-10-16|Josh Izaac|fix plugin url
+b3c1db8cdfd3b51204fef471c73dd3abd724b51a|2019-10-15|Josh Izaac|Adds a top navigation bar to match PennyLane.ai (#352)
+81bb276ed97f7a076d289b7159fc221d527feda4|2019-10-15|Ville Bergholm|CircuitGraph refactor (#344)
+2e3804ffc0ca130449231cdc39a6a5ecc5bdd6b5|2019-10-09|Shahnawaz Ahmed|Tensor observables (#267)
+6e6bc135a2662613d9a870cdfd816e1d7df884b8|2019-10-08|Ville Bergholm|CRLF line endings normalized to LF. (#348)
+423f03d35856717af906c6bf0ba380dc8f7027e4|2019-10-08|Ville Bergholm|Migrating the rest of the tests from unittest to pytest (#310)
+4ec29e1802f6822ad09078a4fcc3addce8652411|2019-10-07|Shahnawaz Ahmed|created a random seed (#345)
+445c6f701343d8e5837198bd74e1d9203e2b6a0a|2019-10-04|Josh Izaac|Update xanadu_gallery.css
+15cbbf4b7f1bc05af7e41aaee1c3e2a0486e8edc|2019-10-04|Josh Izaac|Update pennylane_run_barren_plateaus.py
+fb7e1ae1bb4985c741f5b440836a09183f16a964|2019-10-04|Josh Izaac|Fix small formatting issues
+381a630c0d6b080b8fe74c9477ea508ddb2fae8a|2019-10-04|antalszava|Adding the S and T gates (#343)
+49d3269aeca5708dc9842a8a68f51f929fd8fa03|2019-10-04|Shahnawaz Ahmed|updated samples reduced qubits (#342)
+ee1a193f15b175b57de6ba54924b052e8cd9760b|2019-10-03|Nathan Killoran|Update CHANGELOG.md
+cc96ed9d5d323284f8a6b5478287af9592e3fe74|2019-10-03|Shahnawaz Ahmed|(Tutorial) Barren plateaus in Quantum Neural Networks (#332)
+ad7ee0abad7eb5994137bb76c2fb610851e22752|2019-10-03|Angus Lowe|Fix formatting in measurement type error message (#341)
+597a631182c45367e387514c8324d185d4dab3e2|2019-10-03|Josh Izaac|Updates tf interface to be TensorFlow 2.0 compatible (#337)
+92f1138a5b5c55b41f25df6dd2bf91b0826a6a9a|2019-10-02|Josh Izaac|fix docs building
+10d2ebb2d7813ddeedda7a38ccc80c5f002a6d64|2019-10-02|Aroosa|fix 2 typos in CV operations (#338)
+88be74f409f61414020a2ad7a45945d88cd14996|2019-09-27|Angus Lowe|Documentation change: add QAOA tutorial (#328)
+f091bf1c90a698cfad3f608e674209fdffa3fc70|2019-09-26|Aroosa|Add figure to QGAN tutorial (#333)
+d82e44c685c2b806d258158aebe947717cb7a143|2019-09-24|Zeid Zabaneh|Create circuit_graph module and tests (#322)
+298aed1f584f21565910a5e5da774bb45db7debc|2019-09-24|Aroosa|Add missing figures for gallery thumbnails of state-preparation and QGAN tutorials.  (#326)
+46904d6a4a7b09bc46492305c6d35075058d6618|2019-09-23|therooler|Pseudo inv (#331)
+565250db1358afcc402d57d1d616d993ce703e57|2019-09-20|Josh Izaac|fix incorrect links
+28f7e97ae03693bfe8ab7da3e2aa81adf67c7825|2019-09-20|Josh Izaac|Update research.rst
+a587229ce1945fbfb326f16fe064bc71986ecbd1|2019-09-20|Josh Izaac|Update CONTRIBUTING.md
+9e4fe02f3ebc0110bba56aaf4e9963edfc4167fb|2019-09-20|Josh Izaac|Update README.rst
+5604b338074ddcd76a2e0ebf2f71b0398c447437|2019-09-20|Zeid Zabaneh|Expand DAG usage in QNode (#306)
+387d7d32aae6b253f638813d31fa53062a3bcb67|2019-09-20|Aroosa|Add C-SWAP to the qubit operations (#330)
+d4b0426a0e65a1c68f6f8b597199b5b0c65e88cc|2019-09-18|Angus Lowe|Fix #300: unify import shortcuts to qml (#329)
+96b1513e149a12eac506b910136ef5d105050d0e|2019-09-19|Johannes Jakob Meyer|Remove parameter from device.sample, make device.shots changeable and add an indicator for analytic mode (#317)
+5dfae3ed78b0e7c4b9006c9ae58b371698d2329d|2019-09-18|Josh Izaac|Adds tutorial on quantum natural gradient optimization (#312)
+9ca48e0025784652cde1e01c7f56d4b62107ee29|2019-09-18|Angus Lowe|Fix #324 Missing plot lines in VQE tutorial (#327)
+bb537a58d3c6bbf13621dd9ea2b5478ad8daddaa|2019-09-17|Angus Lowe|Fix 2 typos in state preparation tutorial (#321)
+8f8f195b7ba9fbc6cd3d20d2ee2c37c88667ac82|2019-09-17|Josh Izaac|Fix punctuation in the data re-uploading tutorial (#320)
+a068057459d8f7d03bdf447b4ee6a9b706516abe|2019-09-16|Aroosa|Add embeddings page to key concepts section of documentation (#309)
+c08c95a52a75a18393cc4f13f4c7e9874f6098ba|2019-09-12|Shahnawaz Ahmed|Re-parameterization and better hyper-parameters for Data Re-uploading example (#316)
+5b9b66ebcd7f81aa7d614d3299760d1d99018b15|2019-09-11|Nicolas Quesada|Adds support for homodyne sampling in `default.gaussian` (#289)
+5ea05fd195c43f05fac2cb4063022423b832de7b|2019-09-11|Shahnawaz Ahmed|Universal classifier with data-reuploading (#274)
+342e47673e6de9dd27eaf5844021d69686a01a85|2019-09-09|Josh Izaac|updated version number to v0.6.0-dev
+0e04906a2fd898518aedaadf4a7adecf9e1e0fae|2019-09-09|Josh Izaac|Updates the changelog and version number for the 0.5.0 release (#315)
+266bb57bf5d9392d0d06be61e153a47338abd344|2019-09-09|Josh Izaac|Add generators to the controlled rotation gates (#313)
+f146baf745c0dc18e75482b3367d8abfd34ba4f4|2019-09-06|Josh Izaac|fix doc building
+9abe6fb3867a494f19e55f9a613e3fc746284422|2019-09-06|Josh Izaac|fix doc building
+587f108ec8544aa43b437cd3a94a2f8d2081355a|2019-09-06|Josh Izaac|Rename the Quantum Natural Gradient optimizer (#311)
+87c69b434d35ded33840cd65254b84f0351051fd|2019-09-03|Josh Izaac|fix doc building bug
+1962b5609d6f3f060a59d9e5ac70a0e06f28050b|2019-08-31|Maria Schuld| Fix#304 - Add sample to explicit members in automodule  (#307)
+e81c41ba750473088a4bf076eb8245994268adcd|2019-08-23|Josh Izaac|Update utils.py (#301)
+d8d2f93184b87f8ca40c30e4b84eb2b749a17a6c|2019-08-23|Josh Izaac|Add quantum geometric tensor optimizer (#295)
+ba9985974c30870ff71a320ba02bf0cb27aecf0d|2019-08-22|Josh Izaac|Doc refactor (#291)
+0ca8e7d122e9f629ad01f4f016573d888cba5607|2019-08-22|antalszava|Added enumerations to represent Observable return types #280 (#290)
+442fa66f663d96723edaf9f7ec5a9f65a01abe54|2019-08-19|Johannes Jakob Meyer|Refactor test_default_qubit.py (#285)
+9e4217839a8fc1d48ef5483c4fd3c8c98cf8240e|2019-08-19|Maria Schuld|Fix for Issue #250 (#258)
+2c84b6bb0bfc907cb8d2f063a5d420aedbe26a66|2019-08-19|Christian Gogolin|Jacobian allow list argnum (#162)
+7f33a456f2c59480aa5e11f38c7b4a12646bffa8|2019-08-19|Nicolas Quesada|Update qubit.py (#296)
+67da9800603376fb0291ddb6afcce4a8e9882764|2019-08-15|therooler|Implemented Pauli matrix exponentiation without expm (#292)
+1788fc4831a50570589c5fc6ccfffee1a41ec0ca|2019-08-14|Nicolas Quesada|Wrong description in gaussian_state (#293)
+ac029c910c62cfc97600f1c8436bb21e22f69e51|2019-08-12|Josh Izaac|update travis to test against pytorch 1.2 (#288)
+271b0cd6ebfcd444162eddb98391e98e0d0e35fc|2019-08-05|Johannes Jakob Meyer|Refactor test_qnode.py (#281)
+472ae12b271bb8eba92a76cdbfdd95305e6d47c2|2019-08-05|Josh Izaac|Update changelog, and simplify PR and issue template (#284)
+e1db0c77393441045097852a8119e899507a2b95|2019-08-02|Josh Izaac|Added enumerations to represent All and Any wires (#277)
+9a2c76430a6cb020d9321fdc7517b21d1f0c512b|2019-08-02|Josh Izaac|Adds `Device.parameters` so that devices can access free parameter mappings (#283)
+52c5c19d60a311f14797a9b57098e30697582c21|2019-08-01|Johannes Jakob Meyer|Refactor test_device.py to pytest (#279)
+22b485111b0d77390a0a674c31b2496b0858f3db|2019-07-30|Aroosa|Adding padding option to amplitude embedding function (#275)
+0de7eac437b7f22d781b015c4ab1ff8523d7c3fd|2019-07-26|Johannes Jakob Meyer|Replace device supported with separate methods for operations and observables (#276)
+f1708363dabade5cc22a96ec40d1d028a32ace86|2019-07-26|Aroosa|Fixes to QubitUnitary and QubitStateVector operations (#269)
+b8d9ff728ed1a317f993b745c6d7d03e31b8e572|2019-07-24|Johannes Jakob Meyer|Introduce qml.sample to sample from an observable (#256)
+77769482273b9c2874839ea9375241e5ae68fb3d|2019-07-23|Johannes Jakob Meyer|Refactor test_torch.py (#265)
+7678c64e68dea0b45df449e86a16303df8420f45|2019-07-23|Johannes Jakob Meyer|Clarify gradient recipe documentation and fix incorrect gradient recipes (#253)
+2268ed581bd87454ce6fdcea2373028bf032ed55|2019-07-23|Johannes Jakob Meyer|Refactor test_tfe.py (#266)
+0f67e0bbbdd3b50bd0379784e2b78c78f14c0027|2019-07-19|Johannes Jakob Meyer|Fix test_classical_gradients.py (#264)
+7e14291d718909e203f8d27155cda8c58be3cb3f|2019-07-18|Johannes Jakob Meyer|Refactor test_configuration.py (#263)
+be174df884f31fb5a6fe7e208d325b0e5f018c94|2019-07-13|Simon Cross|Remove unused shebang and imports from setup.py. (#262)
+78874a547cabd4bc65142b4cebe92fe246c219d9|2019-07-12|Josh Izaac|incremented version number to reflect development status
+1d2b7002fa810142a5cec7e929e892b7a112ec32|2019-07-12|Josh Izaac|Update code screenshot
+e41de20d57904ac7d2c7eb25e769ca2517537e37|2019-07-11|Nathan Killoran|Update CHANGELOG.md
+5d992af64c72145f13bbc8c01917e30496746262|2019-07-11|Aroosa|Controlled Rotation gates added (#251)
+f557d211e591c44dbd09cbfacb20636cc709ca0d|2019-07-09|Nathan Killoran|Shoring up docs after measure refactor (#259)
+4f53910d471a48e9a6978e374b09f284f711d050|2019-07-03|Johannes Jakob Meyer|Add .vscode directory to .gitignore (#252)
+348aac04114afd5b87504fd4643f821a11bd2ce0|2019-06-26|Aroosa|fix sign in gradient recipe and fix code snippet in measure.py (#248)
+7fb38642b73414aaad5de19c74e93b7253c54010|2019-06-25|RohitMidha23|Fix for Issue #245 (#246)
+478e0fa6fd692768105002d8a09d99e70ae7644b|2019-06-22|Nathan Killoran|Update _version.py
+9bbaf1b0aa0842f58a65783a28de532d7daf42f4|2019-06-22|Nathan Killoran|Polishing up CHANGELOG
+51c3eb40c4d5b5bfaebfbcf52c75aab601734ef7|2019-06-21|Josh Izaac|Add variance function (#240)
+d1f6cf4f45c1f690351f8edf11531484090149ca|2019-06-21|Nathan Killoran|Refactored default.qubit for more speed (#241)
+03b1b779ea1614cab2c8ee036eaa3d9831749e3a|2019-06-21|Josh Izaac|Observable refactor (#232)
+4953c9d11dd98ab30753a0d6e66c68b38fe5ec29|2019-06-20|Nathan Killoran|Switch default.qubit to use tensordot (#239)
+2455829b6f697a3a7ff57f1235fa1c596e8c2626|2019-06-20|Nathan Killoran|Pinning tensorflow version
+22efe4c5d6f3fdfd6d24ad57a4bc8e526950dba7|2019-06-18|Josh Izaac|Turns off QNode caching by default and makes variable values available during construction (#209)
+a450af0f91a161179752b6dc1ff080c496b14e4a|2019-06-18|Josh Izaac|Updated the changelog and version number (#233)
+24bd8475388de78d2967dcb386006aae31c2863b|2019-06-14|Josh Izaac|Revert "WIP: Top level module `pennylane.output` for `expval`, `measure` and `var` (#230)" (#231)
+737348c6d19dc656a93c41f30e232b08d59944c9|2019-06-14|Shahnawaz Ahmed|WIP: Top level module `pennylane.output` for `expval`, `measure` and `var` (#230)
+085053455b5f02cb9a30eeece465c59f249018bf|2019-06-13|Aroosa|Documentation: add more details to Interferometer initialization functions (#229)
+b0d2f5b49842b308018180074c7c51ded6702765|2019-06-13|Nathan Killoran|fix typos
+1ddf632238f4d9878dfc78f3ba0796d8d12dd997|2019-05-29|Maria Schuld|Add templates (#195)
+483c7b9383b537403ec3700d01477f7f90c84d13|2019-05-24|Josh Izaac|Allow reference plugins to use > 2 wire operations and expvals (#202)
+2b40a027bab6da30b6587ebb8ba3d28603c05e30|2019-05-24|Shahnawaz Ahmed|Refactored classical_gradients test to pytest (#201)
+6d36390382f4588acf34e91fb5123f4aab624d41|2019-05-24|Josh Izaac|Fixes QubitStateVector bug in Default Qubit plugin (#211)
+e1628c634e8b177d37b470ff718d97cdb6f79ab1|2019-05-22|Josh Izaac|Cleans up logging in PennyLane module files (#208)
+504c58d74a6496d9dc72fe1667bac656f2ada18b|2019-05-21|Josh Izaac|Keyword argument bug fixes (#206)
+137d17494f61e7490b7b3384cb595f13998fa5cf|2019-05-21|Nathan Killoran|Merge branch 'master' into bug_fix_keyword_wires
+be468c9ee0567b3de91cc2ae597eacbea84ed56e|2019-05-21|Nathan Killoran|Merge pull request #203 from XanaduAI/fix_bug_supported
+01476298cecd51e1acfb2c8cf2e3e898eafbaddc|2019-05-21|Josh Izaac|move where bug fix is
+4d4b8798984109dc5a87054e73bb5e4ca41f36ee|2019-05-21|Josh Izaac|bug fixes
+e37ef1558fcc216c181a94185b489fcef5c5d54b|2019-05-20|Josh Izaac|added check_validity test
+27b2a1b3c17981024a22e305e43c722e8edd9eec|2019-05-18|Josh Izaac|bug fixed
+8def0bbc4b55832ed144cf9ac1ea8a2ae0b476e3|2019-05-13|Josh Izaac|Merge pull request #194 from XanaduAI/qnode_pytest
+369fbf4de616e91ce49372fc7174d352554fb24d|2019-05-13|Josh Izaac|Merge branch 'master' into qnode_pytest
+63acb1a8bcbbb0c14d0d70677405862c30390da0|2019-05-13|Josh Izaac|Merge pull request #192 from quantshah/multi-exp
+4db37ffb143c67e98ca921556efecfc493b64904|2019-05-11|quantshah|addressed codefactor issues
+d20bc1b2336aa2d29a9e7b9062d339676509d2e7|2019-05-11|quantshah|Blacked code
+c33edb0e8b8bcc0c62c0f04df2177b3f9c92bb47|2019-05-11|quantshah|doc string updates
+36a2b1c69734547bd25923e3d80dbe91094a0a1e|2019-05-08|Josh Izaac|port qnode gradient tests to pytest
+f4447a7f852af493e0290b9522dd46ee98efcd35|2019-05-04|quantshah|Added test for two-qubit obs
+b3f4f14d0f8b356b4578da2538478cd6bcb40360|2019-05-04|quantshah|Added check for > two qubit operator
+c51047572023b6abed3e974ae7dd73d8f21d28be|2019-05-04|quantshah|added warning for > two-qubit expectation
+0d642948ec3bcbf1ba2fb0e5bf7167f0784e9442|2019-05-04|quantshah|multi expand add
+bc9ed12080c4ab220e1d2129fd2cc06555673b49|2019-04-25|Josh Izaac|Merge pull request #186 from quantshah/about
+ec393ab0ce14425e65e896c0f0df87c42e14c4e4|2019-04-25|Josh Izaac|Merge branch 'master' into about
+468033d33548985af6f9d72fac7c03e9ca64a734|2019-04-24|co9olguy|fix typo [ci skip]
+308daf3604a13b984b434de37346732b9fe2e123|2019-04-24|Josh Izaac|added Q# plugin
+8176a08b3189ab1f7ef339088e04e7975ae6ad07|2019-04-24|Josh Izaac|Update README.rst
+80d4cecc06bd453b64e3425288891c36dbf01463|2019-04-19|quantshah|unused import removed
+bd95b132768ca42921274a67002c40b4d24624c7|2019-04-19|quantshah|blacked
+7a98cf8a5251ce3838d8258520884c457069f272|2019-04-19|quantshah|Resolved codefactor issues
+3ee7b5897b212ae0f7477ddf30fc132eb993ff75|2019-04-19|quantshah|Minimal testing
+62d8f44196c04a7c73660314250188a0c5a092c1|2019-04-19|quantshah|Added plugins
+8c75dc5f3291aa639df943bc9020ba0e428b11d9|2019-04-18|quantshah|Merge branch 'master' of https://github.com/XanaduAI/pennylane into about
+aeeb45e33311a99e743082ffb7bd5c91971e025d|2019-04-18|Josh Izaac|Merge pull request #188 from riveSunder/master
+91fcb79c047269a2b3f908ae5bf497cf94218d02|2019-04-18|Josh Izaac|merged in master
+efe5822da61fdc78b6f86740131148aa2a303751|2019-04-18|Josh Izaac|Merge pull request #189 from quantshah/rftest-expval
+a2f19cfb90fac744501bee810169ff61cd48d5e1|2019-04-18|Josh Izaac|Merge branch 'master' into master
+ea2bf3d13d3c3e40dca2cb519048414e92fbbbfc|2019-04-18|Josh Izaac|Merge branch 'master' into rftest-expval
+908817b93f00a389e60e305536c1bd447c2223c4|2019-04-18|Josh Izaac|updated test docstring
+3236ba991ad63577cafbb45a96f85cfca5d30a6e|2019-04-18|Josh Izaac|added additional test
+a1dbefa2261470fab25b598c9c5abab38972b7db|2019-04-18|Josh Izaac|Merge pull request #185 from quantshah/rftest-variable
+e340fe5717671bbd1a677842715877c8a829e4cc|2019-04-18|quantshah|pytest refactoring of expval test
+51e962f5630a1c9b8d9406d97aea82c5510287ed|2019-04-18|quantshah|Added seed
+b391eedce3bdbd76890f7ad7be488a88b1730976|2019-04-18|quantshah|Merge branch 'master' of https://github.com/XanaduAI/pennylane into rftest-variable
+cc444d59424dcf26bfd555ba43e345bff1000e1f|2019-04-18|quantshah|Test for a single kwarg value
+e7e22576513201b8380bfd7c74cd59318825471e|2019-04-17|Rive Sunder|Merge branch 'master' of https://github.com/riveSunder/pennylane
+a69781fa15caa0cedfeac6b8277808233f158dd6|2019-04-17|Rive Sunder|fix test_expval iteration over non-iterable error
+6ca4ad9924346b89930f89eef992904bc8ab5fe0|2019-04-17|Rive Sunder|Merge remote-tracking branch 'upstream/master'
+9605a23feb93a8e13dc39020173208de1fcc3143|2019-04-17|Josh Izaac|appease codefactor
+528d3b4650d147ac3af23eaa6067b0018c7401c2|2019-04-17|Josh Izaac|merge master and update tests
+50ddf6bde972a2d093877f7fe84afd142f366580|2019-04-17|Josh Izaac|Merge remote-tracking branch 'upstream/master'
+2f7a47d1f94b0318594f77a0cf67e3c65e0d0faf|2019-04-17|Josh Izaac|Merge branch 'master' of https://github.com/xanaduai/pennylane
+27781a3e07dba1c94d8ab7f7da40a8ab0242fde7|2019-04-17|Josh Izaac|fix pennylane traceback on travis
+7c6d7f89d99ab673822744b668b38d72c33aa77f|2019-04-16|Rive Sunder|add unit test to ensure passing wires as positional argument to expval is retained
+e2a17abefc857a97adafcf0409252666af18b30f|2019-04-16|Rive Sunder|restore ability to pass wires as positional argument in expval calls by overloading __init__ in class Expectation
+989e5fc139c3b8ea6e8ac0ffdc23aaea02bdb888|2019-04-16|Rive Sunder|Remove logic that allows wires to be passed to operations as a positional argument (issue #187) However, now missing the desired ability to pass wires as a positional argument to expectation value functions
+e9b9b38936a9c6a79c5c84d7051ffacfa481c89c|2019-04-16|Rive Sunder|fix typo in QMLT repo hyperlink in docs
+6d602d5caa4c7fdca1cb2aca6cb20f381d35e201|2019-04-12|quantshah|Used the .val method to get values from Variable class
+0e0d3db754c5a9d06a3df9075cef520a27b7a3ba|2019-04-12|quantshah|A minimal pennylane.about
+333d0873eb06fc5d32a0f76b0dcefd2497b2a204|2019-04-12|quantshah|RF:test_variable
+d9b2098d95969b83b00fcec4d19df92e96ffb542|2019-04-08|Josh Izaac|Merge pull request #183 from quantshah/rftest
+97269cc72cf39cd7640a7624d8edd55c1478f046|2019-04-08|quantshah|blacked
+a71836427422d5ffa43ffc086b1b46038062027e|2019-04-08|quantshah|Merge branch 'master' of https://github.com/XanaduAI/pennylane into rftest
+f232a62f00a052afc5ceabecea8ede423ecad2cc|2019-04-08|Josh Izaac|Merge pull request #184 from quantshah/scipy_import
+921770e26c63285b9d0949cb1500a37028ed444e|2019-04-08|quantshah|explicit import for scipy.linalg.block_diag
+43f19c3404c81a1fc84f217baf0466a1f85e9da0|2019-04-07|quantshah|assert np.allclose
+8808aacadde393d075b3a605ccac6c0c845e72ad|2019-04-07|Shahnawaz Ahmed|Merge branch 'master' into rftest
+ca861ccb16a38bbab4cd1862f3d11c85ae81be8e|2019-04-07|quantshah|pytest styled refactor
+597afa2cb1fecaec6d3586599e4f01a37dbb47d6|2019-04-04|Josh Izaac|Merge pull request #179 from XanaduAI/feature/variable_division
+7dcd2374e97c9d3cb136c7da486374f91e3e2aca|2019-04-03|Josh Izaac|Merge branch 'master' into feature/variable_division
+814683e22777588019c306917a6b07578cd56ee1|2019-04-03|Josh Izaac|added note about left division
+aebf1d7175cd91015cee12a83dedc3cbf9c31253|2019-04-03|Josh Izaac|supporting scalar division
+0e725a5ba39ecadad9b3efe5da8e1d2a1b2c8d9d|2019-03-26|Nathan Killoran|Merge pull request #173 from XanaduAI/Issue#167
+7ea7926c482da7ccb5503d6e9f5108849897f511|2019-03-26|Nathan Killoran|Update pennylane/template.py
+ea1460047e442c784bf3a1c43bf3bb63b4d82f4a|2019-03-26|Nathan Killoran|Update pennylane/template.py
+27580ae39f6b61f1028ae42c98d4af806c7e7933|2019-03-26|Nathan Killoran|Update pennylane/template.py
+085d57e9e22054a6746359d1f632ab8d32aa3afe|2019-03-21|Josh Izaac|correct docstring signature of CVNeuralNetlayer
+ae7444fb2079882dd95c3025a72d81e93db305cb|2019-03-21|mariaschuld|Fixed error in CVQNN docstring and added some more explanation
+e0a7e4c43cb9d77761b09220ee231c1bfd6e9c0b|2019-03-09|Josh Izaac|Merge pull request #172 from XanaduAI/bug/add_interfaces_setup
+e40dc241d1a7594bd28cdfb4898fd1386ab76d9f|2019-03-09|Josh Izaac|update default plugin versions
+2ae60d3f2da565dec2971f024914cef98af9b024|2019-03-09|Josh Izaac|interfaces setup bug fix
+194ccd00a9a7f7075c37680c970e56bab4808e60|2019-02-13|Josh Izaac|updated changelog
+7a3918869e60ed7f54797e31c689adf932946848|2019-02-13|Josh Izaac|update travis
+dfe33bbd0435d7fc2327162edfce4369c13af0b7|2019-02-13|Josh Izaac|Merge pull request #165 from XanaduAI/feature/interfaces
+3cdc763f6da33e23627192be81aff6fc20d15f8c|2019-02-13|Nathan Killoran|Apply suggestions from code review
+bf666df7f456dd35a1a1be2ef889eb90c21f0d1f|2019-02-13|Nathan Killoran|Apply suggestions from code review
+cab67af43e1e0da4ffaa7a495a5cc8a604d08422|2019-02-12|Josh Izaac|forgot to add new rst files
+aca53e1a244b164335589e33a0740a0f8ab07bca|2019-02-12|Josh Izaac|version bump
+5a1ef1f5c445d3eebae04a20e049996aa6ee9f11|2019-02-12|Josh Izaac|added pytorch tutorial, updated author list
+4ce3e1dfe7ba6b7cf2dd8e1dd34d9cfa048a8619|2019-02-11|Josh Izaac|mark as no cover, the torch backwards pass
+335e8cbd49bdab4f35f04d553261cbbe737af062|2019-02-11|Nathan Killoran|Apply suggestions from code review
+ddf145bfbd2e9697d10255c4ac0fee86186133d0|2019-02-11|Josh Izaac|requested changes
+6b046c108329bd6434441e05fac441e185ba966a|2019-02-11|Josh Izaac|fix test bug
+a69df9747707e5e4303e4fd17499da287aa6ab6a|2019-02-10|Josh Izaac|requested changes and added str representations of qnodes
+ca1755dd1a64ae5fb0debad1b9c43ce114b2cb39|2019-02-10|Josh Izaac|Apply suggestions from code review
+bad133fc53d819323a02c2677abf1deb21cde8bf|2019-02-10|Josh Izaac|keyword arg support for pytorch interface
+da47c8a1d3cb501ed64ba97fb02642891be4a075|2019-02-10|Josh Izaac|updated readme
+5275a6825e08c8c6a6717e0a5d6b3ff3e559b0b7|2019-02-10|Josh Izaac|docs bug fixes
+a0dc9729266db131e31e1ad803ea51657bd2c03b|2019-02-10|Josh Izaac|add kwarg support to tfe
+1d4f5f09b15443e1d8ac05a1dfda936303fd3dfe|2019-02-09|Josh Izaac|updated travis
+2fd37e93ddadbec631e400248e5ae3a090598d91|2019-02-09|Josh Izaac|torch gpu fixes
+09b9048bede6cccefee20b48f3f2facd65ae119e|2019-02-09|Josh Izaac|torch gpu fixes
+57545e5f8bfaebd1836df35455552a57498d8d7f|2019-02-09|Josh Izaac|added tfe tests
+5ce171bc8b54c3eadfaff116b8df12a6ca734a18|2019-02-09|Josh Izaac|Merge branch 'master' into feature/torch
+1d583084c86585c3df2c92bb46426dce8841cae2|2019-02-09|Josh Izaac|updated readme links
+a3781893b7e40390622f47978475cb68a8bb9ffa|2019-02-08|Josh Izaac|cuda check:
+bfa995e772ab5dd78c4ba00b10035c14930e1a3e|2019-02-08|Josh Izaac|added tfe interface
+e73aaacc243e1fd35123b6f50b96b69943646ba9|2019-02-08|Josh Izaac|refactor docs
+3f385def8b8b8677f800e2c202a80ea0946890ad|2019-02-08|Josh Izaac|finished tests
+f9f5e6417c80d948442d4423a529c73474b8b736|2019-02-08|Josh Izaac|finished documentation
+865ad2fff715bf27bb91724a8084904ee0f7c16d|2019-02-08|Josh Izaac|refactor, add submodule for interfaces
+43f5959ebedc466ffde5c37353436e9b72ab263c|2019-02-07|Josh Izaac|first commit with torch support
+1c40513a52adebe5be2707b6d0df9002b5190df2|2019-01-29|Josh Izaac|Merge pull request #164 from XanaduAI/docs_fixes
+4452be6f95b86b95060d571863483be3eaa4b9ba|2019-01-29|Josh Izaac|bump plugin version numbers
+5cf205513a0c18335da1166592c1bb95906b39db|2019-01-29|Josh Izaac|Some docs fixes and version number bump
+ce5e00861f32fa9aed14392e17d02acf74fa5fda|2019-01-29|Josh Izaac|Merge pull request #163 from XanaduAI/len_par0
+787886040a15ac73eb81b33f0d917da088b81802|2019-01-29|Christian Gogolin|actually use n=len(par[0]) to make code more readable
+6ddaa9ace01fc5136dee9f993249b382ce8211d0|2019-01-28|Josh Izaac|Merge pull request #149 from XanaduAI/interferometer_operation
+52875001a77255f9a41a247e4c2ccf3265036143|2019-01-28|Josh Izaac|addressed comments
+bed9cef748807dec1078eb7766b51a8182a98552|2019-01-28|co9olguy|Apply suggestions from code review
+4a43f32a05b5c747c6d29f802ce8c35f69e9ca47|2019-01-28|co9olguy|Merge branch 'master' into interferometer_operation
+a86cffb7985ac6174ad3e4e6469e585d0cac9b94|2019-01-25|Josh Izaac|Merge pull request #159 from XanaduAI/feature/stepsize_setter
+88baf80fb75561cf2ef1cda6ddc8356114d5e443|2019-01-25|Josh Izaac|added update_stepsize
+a40a0512e7478e74e48c4d5931d45bb866d40db3|2019-01-24|Josh Izaac|minor bug fix
+0173f54aa4c2de1015394505cfb062c2f754ae3b|2019-01-24|Josh Izaac|whitespace change
+b7a74dfae184e205945d15e21db5fe6f2991ea8e|2019-01-24|Josh Izaac|addressed comments, added test
+9bd8faffc6b241dcd48e1a50212c16c24c02833a|2019-01-24|Josh Izaac|Merge branch 'master' into interferometer_operation
+36eaccefa4bd12aca4e602195d1e817ebe139101|2019-01-24|Josh Izaac|Merge pull request #134 from XanaduAI/qml_models
+363b8b399eb73344aa13e940229b1d5f2f13325c|2019-01-24|Josh Izaac|added warning to template doc
+e366bcbe198eaf78d2961759c5e6f35bec33fcbd|2019-01-24|Josh Izaac|small docstring typo
+5e61c728b7fe16fcb67634a08186f252b93e924f|2019-01-24|Josh Izaac|test refactor
+ad5446b22d5a4efb2f7e40efa2969ec7a0d1c236|2019-01-24|Christian Gogolin|pylinting
+399e62ff8ffdc1dc74d83d8a7134a60fca73eab7|2019-01-24|Christian Gogolin|avoid infinite recursion if strings are passed as qnode parameters
+2985dee86042ec9a48670e89b407960f28953f56|2019-01-24|Christian Gogolin|added exceptions in case unsuitable parameters are passed as Variables
+3449cd54994a7044d5505bc02036c4adc2b94632|2019-01-24|Christian Gogolin|polishing docs
+6c52989636ac8b590ab0e8acb940aee7eb05940b|2019-01-24|Christian Gogolin|added test for the special case N=1
+6e41517653830de56a15bb8d7f71ae74f81dae2e|2019-01-24|Christian Gogolin|fixed ordering of gates in the triangular mesh to match documented behavior put special treatment for N=1 back in, N=2 is correctly covered by the general code added integration tests for all meshes added check of all wires of all operations to integration test mark kwargs correctly in docs
+30ca58d238ddd2ae034bcfd92c64c26a46a8e33d|2019-01-24|Christian Gogolin|added
+80db7274d1a32a64fab7f766cca060834728342a|2019-01-24|Christian Gogolin|added integration test support for clements_convention=True
+9ea62a1967895a90697a067b1781d039334d887f|2019-01-23|Christian Gogolin|Merge branch 'qml_models' of github.com:XanaduAI/pennylane into qml_models
+74c00d083c05322d1ac6b29ff92aee676e688ff1|2019-01-23|Josh Izaac|added reck decomposition to references
+c9501db02db4561dc9be47ea1fde088031cda66e|2019-01-23|Christian Gogolin|fixed tests for len(varphi) = N
+eb0d9b43d688f5f93adde9274defe7da1b341aaa|2019-01-23|Christian Gogolin|adapted joshs implementation of the Interferometer
+53a401752dee26e609758712ccd9a0c6b195d010|2019-01-23|Christian Gogolin|Merge pull request #155 from XanaduAI/heisenberg_check
+3f946a201fd44aabbbd1f6f18a6c4a1f2edb894f|2019-01-23|Josh Izaac|Merge pull request #153 from XanaduAI/interferometer_operation_ignore_pars_of_identity
+b53d32af86a00e624d7eb8aa790b5cde64b2087b|2019-01-23|Christian Gogolin|undid the self->cls change as pylint doesn't like it...
+6216c8ba359ecc09f9adc3adc6ac8a1776792b2d|2019-01-23|Christian Gogolin|fixed naming error introduced during merge
+86eb38bf716a0fd93927aee0ea6d91a363f30484|2019-01-23|Christian Gogolin|Merge branch 'interferometer_operation' into heisenberg_check
+69f4efc18850de9ae6379fcb1caed41c4562ea10|2019-01-23|Christian Gogolin|check whether ._heisenberg_rep has been implemented in .supports_heisenberg without having to call the method changed attribute of @classproperty methods from "self" to "cls", because this is less confusing as they are actually passed the class and not an instance
+ad7b32b189d510b84590f7e1b5d0d336d01fdd04|2019-01-22|co9olguy|Update test_default_qubit.py
+9083f17644a428b23e0a58d8e8c4d7c2b5e79ec2|2019-01-22|Josh Izaac|addressing comments
+f48fbadd5de6591ac8f71f8cc52960fca4e89712|2019-01-22|Christian Gogolin|Update tests/test_default_gaussian.py
+4e05c959bded55461f94746b4ca8b1b65d9843ed|2019-01-22|Christian Gogolin|ignore the unused parameters to identity() in the default plugins
+904725f84f136459f32bf73e17c5049cddca793c|2019-01-22|Christian Gogolin|pylinting
+ac4d40acbd8073bad93d203ad55386db40050f37|2019-01-22|Christian Gogolin|improved docs and variable naming
+f6420624dab687962f11ccb1f2e4bc9e0179d560|2019-01-22|Christian Gogolin|Merge branch 'qml_models' of github.com:XanaduAI/pennylane into qml_models
+036ac6f059e86af4831f1824f9813e2050780e33|2019-01-22|Christian Gogolin|added rotation gates to BSs in Interferometer added note to explain this in the docs adjusted unit tests
+fcad5514bd5cc5ba743003579462b603a06ea0df|2019-01-21|co9olguy|Update test_template.py
+a34bb0266ed9bdb0bd6b4e376e53f91892eec03a|2019-01-21|co9olguy|Update template.py
+6c4bcbac9d74a0a0dfb627a3d2557359d9b525fb|2019-01-21|co9olguy|Update template.py
+42fd2d29e5084e0d52dd0ab1c28bd15fc58f3f3b|2019-01-21|co9olguy|Update template.py
+ed5c287e62508816cf11629deda45c7532d50dc8|2019-01-20|Christian Gogolin|added integration test for StronglyEntanglingCircuit
+7160d149fb6322e11a68971b665c361e7039d14a|2019-01-20|Christian Gogolin|use execute() instead of post_apply() also in the interferometer test to make this more a unit test and less an integration test
+29afa8725ba926feefff9e32b5b83eba968a66ee|2019-01-20|Christian Gogolin|unified naming of angles in CVNeuralNet
+42cb1b5322b1d50eb989e6ee1043dcb85805bd62|2019-01-20|Christian Gogolin|added integration test for the CVNeuralNet
+d0b897167112574fba11c7605bcf56bb21e143f7|2019-01-20|Christian Gogolin|added proper integration test for the Interferometer
+8a5344f1dbbf586144fd5a710ed118846a48941f|2019-01-20|Christian Gogolin|removed blank line
+a00b435dbe37a608ef5079b0b6a0c3a7b90b674a|2019-01-20|Christian Gogolin|updated and improved docs
+2872f270bc9f29aede7cb3192834aa8ddc4f76f5|2019-01-20|Christian Gogolin|made the change from CircuitCentric to StronglyEntanglingCircuit
+20bed7478858da1c1062458f4bf4614e0498fe93|2019-01-16|Josh Izaac|Merge branch 'master' into interferometer_operation
+da2e06cf1b29764ae3d78955352969e1c13d5cd9|2019-01-16|Josh Izaac|Merge branch 'master' into qml_models
+252612be180f97eb0aec14ddd6b3a77d2a381f30|2019-01-16|Josh Izaac|Merge pull request #151 from XanaduAI/feature/support_Variable_wires
+51b10d3aa1fec6ac404e657453f2bb43be79d157|2019-01-16|Josh Izaac|fix corresponding test
+401f7adfc45b25b0b0c94fb10823b779d3283a5e|2019-01-16|Josh Izaac|update wire exception message
+9df0e2c565ac2a092635c17c6f4fb6318339574a|2019-01-16|Josh Izaac|Merge branch 'master' into qml_models
+a30ed03972b27106373c86f7f9c582e507c5d354|2019-01-16|Josh Izaac|Merge branch 'master' into interferometer_operation
+84acee9aa4385629bbd0dba58771f9d4f8b6036f|2019-01-16|Josh Izaac|fix travis
+b271ff8a101ccdef784b74369d9824fdf876ddb6|2019-01-16|Josh Izaac|Merge branch 'master' into feature/support_Variable_wires
+8cdf651f92c21b81bf8ffbf521c8faa44bfe9fd4|2019-01-16|Josh Izaac|refactor to allow default keyword arguments to work
+8d68755e78d3541c672949175969554857a0f5b8|2019-01-16|co9olguy|Merge pull request #148 from XanaduAI/fix_#146
+8125bc93867f57b9ad3e520a17a1247be80a4097|2019-01-16|co9olguy|putting hats on operators to avoid notation clash
+daa6b1593b3e6af178ecdc7132855eb3166cfd98|2019-01-16|Christian Gogolin|Merge branch 'fix_#146' of github.com:XanaduAI/pennylane into fix_#146
+d260c5935253b07141a7555e11b7ffc5bcacf0df|2019-01-16|Christian Gogolin|switched from r to a in Displacement()
+6e7dede28fd4ed9b0b213cb98229e262fe31911e|2019-01-16|co9olguy|Update pennylane/ops/cv.py
+0a8ffa185220228ee6ba657698b3dec53d27df47|2019-01-16|Christian Gogolin|added squeezing angles to CVNeuralNet and fixed test
+8c42c4a752607a7359649334bf00c69205d0adc2|2019-01-16|Christian Gogolin|Update tests/test_qnode.py
+2241b7e6e5381183fe9b389a6331e328a6cbf9d7|2019-01-16|Christian Gogolin|Merge branch 'qml_models' of github.com:XanaduAI/pennylane into qml_models
+e9df6d14ccff38fd41b2d2b4ea5839dae4da0027|2019-01-16|co9olguy|Apply suggestions from code review
+c87ffc73d4f564e69626e7ff6ab9f33664c2b924|2019-01-16|Christian Gogolin|allow for displacement angles in CVneuralNet()
+f75900ae31bc06cb9cd2d847799b1de16ecd9e7a|2019-01-16|co9olguy|Apply suggestions from code review
+b50b75c14bed72103bf8bf6a08d6cca31efdedac|2019-01-16|co9olguy|Update pennylane/template.py
+1b6b2bc049db65b2dc806be9b092c6ef4f589391|2019-01-16|co9olguy|Update pennylane/template.py
+661669deea4ed0abc27b0ef6de46f8698248ea45|2019-01-16|co9olguy|Update pennylane/template.py
+b296e42af5538b8baf80cac1f496d876b09335e1|2019-01-16|Christian Gogolin|fixed typo
+784d8bd64cced1033820e11819d045d625a14a2e|2019-01-16|co9olguy|Update tests/test_template.py
+b9e9b3c17efe358bcbaf72521f031abb039caf45|2019-01-16|co9olguy|Update tests/test_template.py
+372390110c127e40f763daffeeb377fdc12f38aa|2019-01-16|co9olguy|Update tests/test_template.py
+f6e5b4d9a94c7995457fc94cb9e05fb865c65291|2019-01-16|Christian Gogolin|improved the parameter checks in apply() of default.qubit
+21237b42bfd100b362a3dc40e36c9c3a60f0d9be|2019-01-16|Christian Gogolin|Merge branch 'qml_models' of github.com:XanaduAI/pennylane into qml_models
+df5c107628fae90816215bcd688022c914a0bbfb|2019-01-16|Christian Gogolin|fixed bibentry
+eea88b73700df0c72520e067e46ed7bf7a9bc512|2019-01-16|co9olguy|Update pennylane/template.py
+ae334c97da23a71f96495388154c32b985a438e2|2019-01-16|Christian Gogolin|Merge branch 'qml_models' of github.com:XanaduAI/pennylane into qml_models
+f3f59e2a70f1d7b9a7552e34ba9e07ff89e3c698|2019-01-16|Christian Gogolin|fixed unclear "each"
+d91f70d8e7f147951ad14b0033d0de3d295b3efd|2019-01-16|co9olguy|Update pennylane/template.py
+b2df9e2d627c4341b4285e5651a04b5c2467012b|2019-01-16|co9olguy|Update pennylane/template.py
+87a9e719bbf153abb21870049871187697cabe5c|2019-01-15|Josh Izaac|Update test_qnode.py
+892c133d84087222feb87f52408e04cd30c8a932|2019-01-15|Josh Izaac|added test for wire as variable
+8e78539f0698e211b5195fc17fe1bb97e8cb6073|2019-01-15|Josh Izaac|fix travis
+862a1ed880ea7fe1d777d1b771e80ded0c59d5f3|2019-01-15|Josh Izaac|support wires being variables
+e7da858a19485b407616e341a171c5f8eed7cd98|2019-01-15|Josh Izaac|increase coverage
+b069aeff1170d8a9d112e2ac4accc7f6c0af184e|2019-01-15|Josh Izaac|finished adding interferometer and cleaning up tests
+365d93bdb9d174ef020fb56373084608bfd661c7|2019-01-15|co9olguy|Update default_gaussian.py
+e2e13fbe3164b7dfc25a1ea21710b852abad0c34|2019-01-15|Josh Izaac|update catstate num_params
+b7e72a80304f8f885480eb956b679f4ad58cb5ff|2019-01-15|Josh Izaac|update collections import from deprecated python2 approach
+b832849aa5c8b0acc91911298d2001368fced0b6|2019-01-15|Josh Izaac|update collections import from deprecated python2 approach
+0a50e9644ac5a8246966c036a8e673ad046a92b9|2019-01-15|Josh Izaac|removed numpy sum of iterators due to deprecation
+af18e49447861f32cc325608d2ca747a96cdcc8a|2019-01-15|Josh Izaac|upgrade all pytest-cov and pytest
+656020fcd99984d3a177dcdcff4ac03926c56135|2019-01-15|Josh Izaac|pin pytest-cov version on travis
+b1bc855a4349bc663f595cab8ac37fff883d18b8|2019-01-15|Christian Gogolin|pylinting
+8b608efb6622034839fa236c7b093c250e9c804c|2019-01-15|Christian Gogolin|fixed the tests
+c6057cff21e413fedb7950aa75bb88e618d0dd22|2019-01-15|Christian Gogolin|fixed the problem described in #146 by replacing complex arguments with real (abs and phase) ones
+3230d4c0029dec283fa43927837ce67aaeec04f1|2019-01-12|Christian Gogolin|started implemeting the classes in qml.domain
+639bdeddaa433cbf2e0dbade4d6a810f374aa36e|2019-01-12|Christian Gogolin|correctly export subclasses of domain submodule implemented a very basic first test of the classes in domain
+273acbdf6b4033f219995d73d41169ea4545c069|2019-01-12|Christian Gogolin|Merge branch 'qml_models' into interferometer_operation
+b1f439dbf7705fcb8a9003d38c5f41b1dd50aa3c|2019-01-12|Christian Gogolin|fixed doc string of test
+8107ac8efc582b4800aebe758cfd63bffa827d3b|2019-01-12|Christian Gogolin|added comment to Interferometer in cv.py
+f3bb388a25f27a328ea3791810660b80824b7325|2019-01-12|Christian Gogolin|added stub domain class and stub test
+e7a55ad4a1fda58b606e28c045b78c7b9bf38831|2019-01-12|Christian Gogolin|added todo
+b8ef626690f3d85df5921a8b610ff4696721dbd5|2019-01-12|Christian Gogolin|removed outdated assert added comments and todos
+ec9ace0a0f2aef2021341e4fb800cf44caebf8d2|2019-01-12|Christian Gogolin|switched grad method to F for Interferometer
+23f83f8da66d33327d6a1a80ef640b69215acb06|2019-01-12|Christian Gogolin|Merge branch 'qml_models' into interferometer_operation
+2f169bbdf0de86886391d439ecf9e3524fc05909|2019-01-12|Christian Gogolin|removed logging module
+eb34831905cd6d928bd84cc3e6b8b7afc19dbe8e|2019-01-12|Christian Gogolin|resolved merge conflict
+ccb42a5ce7e43727204042d8c90b609c6b255f32|2019-01-12|Christian Gogolin|Merge branch 'qml_models' of github.com:XanaduAI/pennylane into qml_models
+64260da8a5e93255b257a00698afc3cd229e4de2|2019-01-12|Christian Gogolin|pylinting
+b342f328da8427a3f8b0f33653f7ca990efc8142|2019-01-12|Christian Gogolin|removed the now unused tolerance argument
+ef7ee29cf4c06c091a9ae6d1c2d26f0ddf459c9c|2019-01-12|Josh Izaac|attempted travis python3.6/pytest-cov fix
+abdf7aaee302d1db0c7f1b7c82eadfc057696830|2019-01-11|Christian Gogolin|started implementing the _heisenberg_reg of Interferometer
+17a822f5c74ca84d88ef2170540a51fbcd90a191|2019-01-11|Christian Gogolin|added a very basic definition of an interferometer operation
+f89a65b0a5743d71be773556bdaa62e7915be4ed|2019-01-11|Christian Gogolin|removed commented test code that is no longer necessary
+d4ab7c11e035918e1a09e933d2f4ef90b1ac4406|2019-01-11|Christian Gogolin|improvements in documentation
+e56a812a3a86f180f51b15d51e789614bf1f5efc|2019-01-11|Christian Gogolin|added sample code that uses Interferometer to docs removed references to the clements decomposition fixed docstring of Interferometer
+393f105964e2ba49c17b961966a9e09d4c4b9d49|2019-01-11|Christian Gogolin|removed the clements based interferometer from templates
+565e50fd31a277de25a82967d64a4d5516112515|2019-01-10|Christian Gogolin|made note more assertive
+6bf5be5d42fd0a5324d7560c3060c1c47d5be188|2019-01-10|Christian Gogolin|make the test also compute the jacobian of an interferometer
+916d5347caca04fdcf4998e2946e5b8d5fb729fe|2019-01-10|Christian Gogolin|renamed CircuitCentricClassifier -> CircuitCentric
+78e1e459c7036ec192dde39fec6cd6359ddc2437|2019-01-10|Christian Gogolin|fixed title underline length
+dd1ff4bb51cc7af7541caa3a56a32d15ba96bedb|2019-01-10|Christian Gogolin|fixed typos and references in the docs
+be0238acb478ad9903bdec104e23193474b63c32|2019-01-02|Christian Gogolin|code cleanup
+d869d56614ae959acd25bcae8d7f946be89a38fb|2019-01-02|Christian Gogolin|import as "template" rather than "model"
+86902146c007174c39897fec90bd1c5e90ed1700|2019-01-02|Christian Gogolin|Merge branch 'qml_models' of github.com:XanaduAI/pennylane into qml_models
+61c89ce8e4cc7876fd9bafe109559a57c3ed0199|2019-01-02|Christian Gogolin|renamed "model" to "template"
+b388930d7152261e6e99f7423d02612f4ba461b6|2018-12-20|Christian Gogolin|Merge branch 'master' into qml_models
+a84a8c2f70b94f177e29966a8992f31e694f1900|2018-12-20|Christian Gogolin|denote CNOT as qml.CNOT in docstrings
+e8b4e10c63c1c902011a2565006fad8ec55d4dc6|2018-12-19|Josh Izaac|Merge pull request #145 from XanaduAI/doc_of_qubit_exvals_refer_to_defs_in_ops
+258643e319a0bdf364326dd13d4155eb4a226d04|2018-12-19|Christian Gogolin|added references to the corresponding ops from the qubit exvals so that, e.g., the normalization of the Hadamard observable is easier to understand
+00789ae968dc5b86e82543b26d6a922422012657|2018-12-19|Christian Gogolin|Merge branch 'qml_models' of github.com:XanaduAI/pennylane into qml_models
+bb17be57e1f48e4d74738306cae3165ff4073ba2|2018-12-19|Christian Gogolin|final pylinting
+e5c557bffb6ea756409f7fde9a1c06d4a4900e1f|2018-12-19|Christian Gogolin|Merge branch 'master' into qml_models
+604309c832258702d20d764a23da9224582e3d44|2018-12-19|Christian Gogolin|fixed the tests
+28650564cf09ded568e779e7c39020b92949f1e9|2018-12-19|Christian Gogolin|improved function signatures in doc strings consistently mark all python formulas in doc strings
+925dcac3b92cd5f90ec6dd8fa9e28eef13dc1d2c|2018-12-19|Christian Gogolin|Merge branch 'qml_models' of github.com:XanaduAI/pennylane into qml_models
+11eaa69cbc743f63f2542d04a0f0c451ee4276d5|2018-12-19|Christian Gogolin|document clements further improvements to doc strings
+9945ac0730a9437fb6249d868a9d935347de5937|2018-12-19|Josh Izaac|Apply suggestions from code review
+7eaf4d5f0638ba7483db9f28ef75d38a1ae2b9fe|2018-12-18|Josh Izaac|Merge pull request #143 from XanaduAI/feature/queue_peak
+f485e83c7224f375b64f61d82ba638fcd9fb62a6|2018-12-18|Josh Izaac|Merge pull request #144 from XanaduAI/allow_return_sequence
+64d3e8e3472904930efccc7ec86ee28cd6068dfd|2018-12-18|Josh Izaac|added op_queue and expval_queue tests
+33c034ed38bd72e5db1d494b296e8d102b04df65|2018-12-18|Josh Izaac|change op_queue and expval_queue to properties
+07a8a7179e338c8356722cf073f011f47f650bfc|2018-12-18|Josh Izaac|Update pennylane/qnode.py
+a80055dc562a53867067500b25dbb47e551d015b|2018-12-18|Christian Gogolin|improved documentation
+73532e5dae7e929f50a55d16dbe72a07f353df2d|2018-12-18|Christian Gogolin|Merge branch 'master' into qml_models
+17d89e9f589e8ed73d044d61959c52828f4dfded|2018-12-18|Christian Gogolin|linting
+686fed6f7351a3007d114577b6aa3a035439731b|2018-12-17|Josh Izaac|Merge branch 'master' into allow_return_sequence
+5454bbaf64bbfdcb7849c2e2a5421cc126107ef7|2018-12-17|Josh Izaac|Merge branch 'master' into feature/queue_peak
+0830b4cb839e3afa8f00dd52bd1561b8e4e28d41|2018-12-17|Josh Izaac|changed from kwargs to attribute
+269cc969378eca81feb616151f2af81d1dc1bc9b|2018-12-17|Josh Izaac|fix tests
+b76a95c5052588db67f9b58610e3f5a2c9357761|2018-12-17|Josh Izaac|Update travis badge
+da08582513ae511ac10cc6548326d787097aada1|2018-12-17|Josh Izaac|added Hermitian expval
+0d9e677bea7e616c4e4dff6a3dd02435fc3af213|2018-12-17|Josh Izaac|provide a minimally-breaking attempt to allow plugins to peak at the queue before application
+049a05ccc131aa91e6905412bcbb195e5ee82d33|2018-12-13|Christian Gogolin|implemented general Interferometer operation that can take both a unitary or angles as parameters included all models in docs added reference to Clements work added unit tests to keep 100% coverage
+b852962d66b161e669d29a40325aeb3ded79e7aa|2018-12-13|Christian Gogolin|Merge branch 'qml_models' of github.com:XanaduAI/pennylane into qml_models
+83775af89c09fb6b6b674379316d9cdee4718e0d|2018-12-13|Christian Gogolin|added general Interferometer and corresponding unit tests
+4d8845440e709cea527e9ad861ff64bd75341c09|2018-12-13|Christian Gogolin|Merge branch 'master' into qml_models
+db85e9e495684b3312bd2914f5ba93bcda6c79d6|2018-12-10|Josh Izaac|Merge branch 'master' of https://github.com/XanaduAI/pennylane
+c55231aa6a2077b0488930e9949098b4fc388e99|2018-12-10|Josh Izaac|configuration update
+8c54d5c16d8a455a757655ced84d4178da866097|2018-12-10|Josh Izaac|Merge pull request #141 from XanaduAI/use_only_5_weights_CV2
+d955d4fbe13d53240efbd02123eb45d94055f483|2018-12-10|mariaschuld|Change 7 weights per layer to the correct 5 weights used
+33897063d9af0eea112e005ad5959bd6a5d46d19|2018-12-06|Josh Izaac|fix broken link
+3667598e9250d7761fb61d218fe7541e3fd56ad5|2018-12-06|Josh Izaac|Merge pull request #140 from XanaduAI/docs/competition
+3e20da30f468c625a075cbe89e174d729ff0b8b5|2018-12-06|Josh Izaac|updated readme and contributing to include link to the Xanadu Quantum Software Competition
+c4cb07e1a470e98782e20f9c2fa3ef996186177f|2018-12-05|Christian Gogolin|Merge branch 'master' into qml_models
+9323612f6d3155214fe746586dbeb18d2c6777b7|2018-12-04|Christian Gogolin|Merge branch 'master' into qml_models
+f8e385d510a79452592d51ee9e4dfc7ee2f101d2|2018-12-04|Josh Izaac|Merge pull request #138 from XanaduAI/identity_fix_par_domain
+9b68883119e7f02c59942807506d56baa0706e45|2018-12-04|Christian Gogolin|fixes the par_domain of the newly introduced Identity Expectation
+12eb9f90e4cbef57e31af967ec314c6f878ccbb3|2018-11-30|Josh Izaac|Merge pull request #137 from XanaduAI/docs/add_qiskit_plugin
+f9a039be045de5690c0ae9a74450ad289347b9df|2018-11-30|Josh Izaac|Apply suggestions from code review
+b22dd9612c47171e7d87c03e1435bf8d3458cf45|2018-11-30|Josh Izaac|added qiskit logo
+f9236a51e0774e1041ea04149769f545e29276ec|2018-11-30|Josh Izaac|added pennylane-qiskit plugin information
+1579a0a308e7c207a5bbfdf61989b30349fc9594|2018-11-30|Christian Gogolin|stated implementing a model for the general CV neural network
+5a5a633d1a4a93d246acd975289b69819e97b87f|2018-11-30|Josh Izaac|Merge pull request #135 from XanaduAI/identity
+c37883a2a11a0892673ef5dbd02e40f7c82e3b92|2018-11-30|Josh Izaac|Merge branch 'master' into identity
+8f1d0291780cfe815dc94b5aef839619ce5ac748|2018-11-30|Josh Izaac|added import statements for clarity
+fabe68f76cb85bcd3bc51a6e5e1f44f6a0e4905a|2018-11-30|Josh Izaac|moved class attributes to identity placeholder
+661531784a5f438d69491fb4a6b8cbaf44fd7169|2018-11-30|Josh Izaac|Merge pull request #136 from XanaduAI/mini_cleanup_in_default_gaussian_expval
+7c536948ae0ef3bb84556ce2bc95b62ead9da3a1|2018-11-30|Christian Gogolin|renamed to PlaceholderExpectation
+97c7b3a1e381a5d1b142aaa4a98f6d06f0d3f3fc|2018-11-30|Christian Gogolin|introduced generic PlaceholderOperation class
+49d253071e8fbeb09eccaf8d7e93c7eb15731ee4|2018-11-30|Christian Gogolin|added an explanatory back-referencing comment to expval.Identity from expval.cv and expval.qubit
+775e2938ccebaccea1a6ac4b35470b6cfec549d2|2018-11-30|Christian Gogolin|fixed string expected in test
+ec43ecbcf0d9b7c187d2b4adde7df131440ff9fb|2018-11-30|Josh Izaac|Update pennylane/expval/__init__.py
+1b81bf306ed93fec4244adeaaaa38a93ee4be97a|2018-11-30|Josh Izaac|Update pennylane/expval/__init__.py
+8daa044a0d71e195052568c8f956f45df0dac592|2018-11-30|Christian Gogolin|made the imprimitive gate customizable
+fa625f58db726ceab74c70b7d70392b6fe42ea88|2018-11-30|Christian Gogolin|renamed the classifier to CircuitCentricClassifier and added references and documentation
+b119ee2d7fe6c6394127850b975a2bddf1a0dfbd|2018-11-30|Christian Gogolin|actually added the test to bring coverage back to 100%
+66fe992a5ef03d5dc12db7d0de84a772cc583fcd|2018-11-30|Christian Gogolin|removed two superfluous lines of code
+283bdc53e9dabfa47180c3fb61180f7ea3bb3610|2018-11-30|Christian Gogolin|bring coverage back to 100%
+4743dabf3837b11cc12a00723f8db2ffdeab1dd6|2018-11-30|Christian Gogolin|include Identity in documentation of expval.qubit and expval.cv do not repeat all Expectations in the documentation of top expval (now matches the way ops is documented)
+ebbbcbf624dbf49b726cd614596aa31f6faa76fd|2018-11-30|Christian Gogolin|added unit tests of Identity in default plugins adapted existing tests (now use expcal.__all__ instead of inspection)
+7065705b8f8f48a094a2f42aaa408c27f619c211|2018-11-30|Christian Gogolin|linting
+397c0dfd3e688ef053fe45ab4d081a4733700322|2018-11-30|Christian Gogolin|fixed importing and generation of expval.__all__ enabled Identity in the default_gaussian by renaming Trace to Identity added stub *par to Identity in default_qubit
+e845613860c96628a7c9c383f5ef0ba5750756ef|2018-11-30|Christian Gogolin|implemented placeholder for Identity in expval/__init__ that returns a CV or qubit Identity as appropriate
+19925f5018e2568fccfea239018806b6af3cfadf|2018-11-23|Christian Gogolin|renamed the CV Identity to Trace for now enabled the test to work for num_wires=0 operations
+86f36ff92ae1b8adb021f07b1a463aeee91f76a2|2018-11-23|Christian Gogolin|removed ;
+a800135ba8041f92308326e99f009233bb9f3be3|2018-11-23|Christian Gogolin|fixing test by avoiding list subtraction
+95a0f6822e07ee85338749540dd0b8e41b944fe7|2018-11-23|Josh Izaac|updated travis yaml
+597b5ec5ad3406295ab060f766cfd7eeb548ae35|2018-11-23|Christian Gogolin|implementation currently broken because we cannot have a CV and a discreet expectation with the same name
+05376b01b3214ef686acfa4cda943e49ee9f5ef7|2018-11-23|Christian Gogolin|added specification of the CV identity
+21ae17a7085d9ddaa6248e9c082ad512a25aa9bf|2018-11-23|Christian Gogolin|linting
+10c5c72b9e366d7345b69457a4777dd3bc1cdc18|2018-11-23|Christian Gogolin|added unit test for pennylane.model
+c671d6d2c0b67c5c96e0da89fae8ef8cc74ca47f|2018-11-23|Christian Gogolin|fixed test of BasisState, which used to test BasisState([1,1], wires=[0]) improved value error in BasisState
+257e4897db66e08d4443fe5cbfb9ccd88c2e2cd2|2018-11-23|Christian Gogolin|docstring improved code cleanup raise exception if par of BasisState does not have the correct lenght in default.qubit
+9f8fd92e06c4274b95c09dcfcaaf2fcc5fa75e63|2018-11-23|Christian Gogolin|renamed models to model and expose in the same way as expval renamed the VQC to VariationalClassifyer
+1d630b1a22128760019f1ee476ebaf8c4321bbc2|2018-11-23|Josh Izaac|allow qfunc to return any sequence of expectation values
+8129208ad6ed4cec5ed25a3020cdc6f291dc009a|2018-11-23|Christian Gogolin|add models module for providing templates for easy construction of qml models documentation added
+58ba8c672133d82e300be188764937a2df6299ee|2018-11-22|co9olguy|Merge pull request #132 from XanaduAI/variable_optimizer_offset
+84a2d8a67ce7408d901d0a059f723acae55a4b03|2018-11-22|mariaschuld|Updated docstrings
+a38f84ed5a3dbcf8ca1b00c518c6dc13c378d30b|2018-11-22|mariaschuld|Make numerical stability offset user-defined
+4aeb842f09ec3795ef9208ace13fc7c46e60d43d|2018-11-20|Josh Izaac|update docs and contributing based on latest readme
+dea9a60136eb473a0030579a1a34c6fae6678463|2018-11-16|Josh Izaac|Update README.rst
+f2a4f1e278f6089b49fbc9e59d7c8878d5f6a003|2018-11-16|Josh Izaac|Update CONTRIBUTING.md
+a650ae19a80a322c7573a53e53a8c678c58b9407|2018-11-15|Josh Izaac|Merge pull request #129 from XanaduAI/fix#128
+67c2d61b892062c09993dc102bf19664fdf5e90b|2018-11-15|mariaschuld|Fix batch typo
+dc4944c2baee099cea5ca1908adccb3e51bcafe7|2018-11-14|Josh Izaac|Merge pull request #126 from XanaduAI/python3.7_travis
+4f930bc50179e7e0ae45fb897f89163b41e028ca|2018-11-14|Josh Izaac|remove redundant else statement
+8b73ebbb770a069c48a6bbec88b837b9b885dc35|2018-11-14|Josh Izaac|testing python3.7 builds on travis
+4826a39d6b7377f98709af53a39d2f1600ac28ec|2018-11-14|Josh Izaac|update logo
+2095cd8eaac98914598a4443beb2923a2480d106|2018-11-14|Josh Izaac|updated whitepaper placeholders
+dfbdac3f4fdfbd3c39f8f0f1bd9acc0234a0f106|2018-11-13|Josh Izaac|update lintrc
+1bd199b32da1bec05ba7e9dab325d991956224b6|2018-11-13|Josh Izaac|remove 3.7, not yet supported
+a182bb4ce689741256d448169cd345f71284c509|2018-11-13|Josh Izaac|add python 3.6 and 3.7 to travis matrix
+7ca1545ba625e5b9257f03fa7c2852ad226b0d29|2018-11-13|Josh Izaac|update development status
+9f50404530435e5e73db5bad5232f0b5e4410354|2018-11-13|Josh Izaac|support python 3.7 in setup.py
+da75b72bf6430163f52065ce3c15ba2ccb9fe932|2018-11-13|Josh Izaac|updated travis badge
+47a76ef2cee2fd102ff4925968a9b8a6dceee0f1|2018-11-13|Josh Izaac|update codacy badge
+e15b588cad731675f73ee07b983108c88a7dcb9b|2018-11-13|Josh Izaac|fix broken link
+6be7d5c40ec8c82495e6a95de33ae040bec8a089|2018-11-12|Christian Gogolin|reverting back to compact python set notation
+e69e47bbe93062887e4882b5e30e55799c5829c7|2018-11-12|Christian Gogolin|important fix in the documentation of the operations and expectations property
+4a81752c70a071db16bed847bcc0be4050c02254|2018-11-12|Josh Izaac|turn off disqus comments
+9dbd3824312cad20338762d4b4aa31605947110c|2018-11-11|co9olguy|Merge pull request #124 from XanaduAI/remove_api_attr
+0394a108a85ea12cf55b5be9007eb317e701010d|2018-11-11|Nathan Killoran|updating docs to reflect latest tutorial structure
+25f85cbd40b3a9fb67f41c7cc195b3fdb21da8c3|2018-11-11|Nathan Killoran|updating example scripts to match notebooks and replacing CV2
+bf5552f1fb87527098d8de2ebac6a97a5f1369c7|2018-11-11|Josh Izaac|merge master
+a4031e1a6e421f31f0f4d2554895d01a049e4655|2018-11-11|Josh Izaac|Merge pull request #120 from XanaduAI/remove_expectation_and_operation_map
+c796185f8e889b7ad3dab71a25a942eb27572edd|2018-11-11|Josh Izaac|linting
+7fc9282ea24b243b122675d5831e847bfe99f8af|2018-11-11|Josh Izaac|merge master
+1f78e36823eecfea3159dc52624aa5dead3af01c|2018-11-11|Josh Izaac|renamed api_version to pennylane_requires
+79ec4aa022883463d5f4fbcf407ed6b7148b4872|2018-11-11|Josh Izaac|finished fixing TOC bugs
+53ee9a31c9ad0e36ebb410932610c07b472b0ea2|2018-11-10|co9olguy|minor editing for style
+9082537cca49bb69a88a8ea82d818b94c2c9acec|2018-11-11|Josh Izaac|updated byline
+842737f1406acc609c055780cc9311ad2e211be6|2018-11-11|Josh Izaac|TOC bug fixes
+37911f393d7b50a3e536367f57734a134ef99cfa|2018-11-10|co9olguy|Merge pull request #121 from XanaduAI/api_version
+6e379e4c065bddb2af17c2e2c63172537ce798a7|2018-11-10|co9olguy|restructure default qubit plugin to show up in docs better
+20cdf3938994d970a02c64a9e0aed913f02cbd43|2018-11-10|co9olguy|added autograd gotchas to docs
+1b917cce84f5d8a0ff959b3b423159757f7fd029|2018-11-10|Josh Izaac|allowed plugin developers to specify range of supported pennylane versions
+a0f4cb7c6c74fbae9fdb712883eaf52112d3825d|2018-11-10|Josh Izaac|Merge branch 'master' into api_version
+78ece0c218444ea9849b904c5201b7953302fc88|2018-11-10|co9olguy|revisions on optimizer docs
+a3453fb7b75ebf062074a4280de23352adf28f85|2018-11-10|Josh Izaac|Merge pull request #122 from XanaduAI/required_device_attributes
+915faaed239d96f870c6964ec09fa68cfacfe33a|2018-11-10|Josh Izaac|small fixes
+25215957e7e2edb8ca071ec27551569f8cc41dfe|2018-11-09|co9olguy|removing todos from showing up in docs
+c28fd4093f5838e199d6a761abca3494959e74e8|2018-11-09|co9olguy|more editing, nuking qfunc from docs
+5cd5a07a3e5c006ed1c0a0d429ac724f9ebe833a|2018-11-09|co9olguy|more edits from internal review
+e3a2b2085f9954478cc50d4667021406539842d8|2018-11-09|co9olguy|doc revisions based on internal review
+e7f4b9b4f8b69e39abd77cbb12218426d8578a38|2018-11-09|co9olguy|adding required attributes as abstract properties
+7ebcfb9b569dfd0dc95c46967881725fb7a651f6|2018-11-09|co9olguy|edits related to PR #119
+db2d353858686dbaa8e104f4597ce97b9eacebd5|2018-11-09|Christian Gogolin|added __supported_plugin_api_versions__ and now throw DeviceError when loading plugin which targets unsupported api version, resolves #117 adjusted the unit test to the new behavior
+18a438cfd4344c305b04c35f3cee1fd56d7a924c|2018-11-09|Christian Gogolin|Merge pull request #119 from XanaduAI/doc_improvements_cgogolin
+8c03599f73e9623ca5a60cc2d42f053b538b8f78|2018-11-09|Christian Gogolin|removed claim that all built in operations must be supported by plugins (this is unrealistic and not the case for the SF and PQ plugin)
+fb7a9648376178003ef72acd362c27708210b316|2018-11-09|Christian Gogolin|Merge branch 'doc_improvements_cgogolin' of github.com:XanaduAI/pennylane into doc_improvements_cgogolin
+e064f43b92b7fa5954295d52f06aad76347c536a|2018-11-09|Christian Gogolin|removed todo
+d00938fc78f1db43b6996e5d96793f1a1a847343|2018-11-09|Josh Izaac|Update pennylane/operation.py
+036330a9e1c4bbc6a711dc1b3d700414af7b6555|2018-11-09|Josh Izaac|Update pennylane/_device.py
+bbf533557d37cba80704963eb6ebdae8561bb6e2|2018-11-09|Josh Izaac|Update pennylane/_device.py
+96cfd4e70024d3ec51ef41602df88269ad7aa8c0|2018-11-09|Josh Izaac|Update pennylane/_device.py
+afceca80f86a15b9feae7605fc1e31be931d738a|2018-11-09|Josh Izaac|Update pennylane/_device.py
+a8c729f4c7c3014a72ca756af4dcd60f81cd406d|2018-11-09|Josh Izaac|Update pennylane/_device.py
+c8225af26d3017954e5e4645b91ef0cdcc9f856c|2018-11-09|Josh Izaac|Update pennylane/_device.py
+522e9f2f04383f9e2d65b3903d47a8f98f973793|2018-11-09|Christian Gogolin|Merge branch 'doc_improvements_cgogolin' of github.com:XanaduAI/pennylane into doc_improvements_cgogolin
+b9b32f81a6345a7c52f3161b678c7877b38cfeca|2018-11-09|Christian Gogolin|renamed gate_name and op_name to operation to implement the change remarked in https://github.com/XanaduAI/pennylane/pull/119#discussion_r232139708
+aafda49900bfdbf5dc21fcae87f73c97b3c750a2|2018-11-09|Josh Izaac|Update pennylane/_device.py
+63479b4af2b448c298d11347942c5019f5e2f945|2018-11-09|Josh Izaac|Update pennylane/_device.py
+a11ef7299cbf124e869b96f177ffac6733e95bcb|2018-11-09|Josh Izaac|Update pennylane/_device.py
+409087bb9257b2afff349f1f6beaa253299555c5|2018-11-09|Josh Izaac|Update pennylane/_device.py
+c6f7369f629d4835563f342e2b3df3790f3d7313|2018-11-09|Josh Izaac|Update pennylane/_device.py
+c12d4c28ca3b6599a3040e8e67b0a773ff1acb9f|2018-11-08|Christian Gogolin|implemented the documentation changes for #117
+8899d29329f6b2acb32854cb67703e5f13589ebe|2018-11-08|Christian Gogolin|implements the necessary changes in the docs (notice how things get easier to explain)
+e2fca9a6ef16a56be6f9df79edc051aaae2d19d8|2018-11-08|Christian Gogolin|Merge branch 'doc_improvements_cgogolin' into remove_expectation_and_operation_map
+4e05b57da9ccdd33b7c91097e9ff20d2f6978c1e|2018-11-08|Christian Gogolin|implemented the changes suggested in #118 in core
+11c17e33040d1ba66264e501eca095d0b8fe7763|2018-11-08|Christian Gogolin|Merge branch 'master' into doc_improvements_cgogolin
+dd3b444b80dd512ba8d34d369938b88fd63e3995|2018-11-08|Christian Gogolin|Improvements in documentation of Device
+66ada2059318f79de5796a478889431e87f2b5fd|2018-11-08|Christian Gogolin|some restructuring and improvements in the description of the plugin API
+289503c81b2aa91fded24f33b10fa7beb7215fbd|2018-11-08|Christian Gogolin|some restructuring in the docs and a todo added
+61cd31f0bb18e893364fe8bc8f2a30359a473cd4|2018-11-08|Christian Gogolin|minor doc improvements in variable and operation
+b81a10bba67812d32c7f812098a6999fc1bfd6ed|2018-11-08|Christian Gogolin|discreet -> qubit to unify notation
+9563d1345fc5b61a6965f4e5c20082eeb6594ae0|2018-11-08|Christian Gogolin|improvements in the default qubit docs and mini fix in default gaussian ops
+d0cacfa3772a8cb75b7b9ce56ad4f6584f1bd44f|2018-11-08|Christian Gogolin|improvements and minor fixes in the default.gaussian plugin
+1c7e37e2bfd3d2c0597f87e9d9f393b0aa68c986|2018-11-08|Josh Izaac|additional disqus comment corrections
+0bfcf77513cc990da10a0d8dd7aefb03c4b41c2f|2018-11-08|Josh Izaac|ensure reference file is parsed last by sphinx
+01dca5783866783964a3ca83176d08e69a8b367c|2018-11-08|Josh Izaac|Merge branch 'master' of https://github.com/XanaduAI/pennylane
+e81f9af072e083146ac3d277465fa8e3c29e359d|2018-11-08|Josh Izaac|first round of documentation corrections/comments
+290ebe28457db755dc9a0bdc3b0d5123a4f85f55|2018-11-07|co9olguy|fix typos
+2b5ce0f63bd210d72e6041dcec3e791525276ad5|2018-11-07|Josh Izaac|added page for notebook downloads
+bcd9adb0dcf9b95266e022a2444ea81ed64cf4f4|2018-11-07|Josh Izaac|fix broken links, add URLs to all references
+20cba931dccef3459671f55ee9664844b7b8604f|2018-11-06|co9olguy|Merge pull request #115 from XanaduAI/docs_varclass
+7301eb5f6609dcfcf4a66fedad52b57cc72f0130|2018-11-06|co9olguy|Merge branch 'master' into docs_varclass
+4bcb0132660bb462dd28c8154b7cb82465a60082|2018-11-06|co9olguy|minor edits
+3c20245b41ca12fa3588621584e46185cf2490e2|2018-11-06|co9olguy|polishing key concepts
+78efd98b98b0ce3ca4417eb463e30a190895b0d6|2018-11-06|co9olguy|Merge pull request #114 from XanaduAI/add_and_refactor_examples
+5094ace6f86eaf08ce819ea3bf54a31dbb1e5cd9|2018-11-06|co9olguy|adjusting training time for variational classifier
+47630e240e9f69b68e60c6cf3ad4d6acca6fb8e8|2018-11-06|co9olguy|updated QNN training time
+b9b345dd38555bee9c94bd2971c8fe240a89d96f|2018-11-06|co9olguy|fixing typos and setting number of steps taken to the number specified in markdown
+3bbd005272d78c3f1143f26e271a46b56e78f374|2018-11-07|Josh Izaac|updated references
+80e1e50813dcc041e57334e94248c2c782d3ac07|2018-11-06|mariaschuld|Fix conflict
+1e24728ba5f74fd0678dce5e7eb147c92c0fc125|2018-11-06|mariaschuld|Merge branch 'master' into add_and_refactor_examples
+e0144b10036e9cc4e5e157b122571c30ff68d454|2018-11-06|mariaschuld|cleaning new concepts section
+89b930f630938470ef1bc15f9beed164cf98a399|2018-11-06|mariaschuld|add ref to pierre-lucs paper to QGAN py file
+d3dee34e814e6377804216308050b737d5505ab5|2018-11-06|mariaschuld|Rewrite concepts section
+76a4eb145d4d435265b8bcc0647da21f9a617087|2018-11-06|Josh Izaac|bind jacobian and qnode attributes to the decorated qfuncs
+9db4c6628061958a4074b8167833737aab9b2f5e|2018-11-06|mariaschuld|Random seeds, fixed old text, increased iterations
+d946999d944e21944dd16cca81640a38ee173bd1|2018-11-06|Josh Izaac|last touch sphinx theming
+55450c8dbd12c0d516e6f3dc8489438a53dc4025|2018-11-06|Josh Izaac|Merge branch 'master' of https://github.com/XanaduAI/pennylane
+7fa0f1fe7a75cfc9c8134318bfa1b05025afa879|2018-11-06|Josh Izaac|fix reference formatting and add URLs
+2145beb18f9d0224a301302244c2b0d3a8c229ec|2018-11-06|Josh Izaac|fix optimize link heading, add logo to front page
+bc82a2730cef8ce514eb575a0955c68c0741f37e|2018-11-06|mariaschuld|merge master, solve conflict
+998ae61958b9eb37fa88317c554fcd508c966f1d|2018-11-06|Josh Izaac|Update README.rst
+e9e6356c7420ca46d14ef94d07949f66e1cd9b4d|2018-11-06|Josh Izaac|added pennylane logo
+d214660e52150a9c8edb1cecc0c16b42eb391121|2018-11-06|Josh Izaac|added code image
+756dc9cd16aa84086d6f6679a8d3cd9c673f7ce8|2018-11-05|co9olguy|lots of editing and polishing example notebooks
+2f5dab4e19e8c7663eab532366f090fce7b1255f|2018-11-06|Josh Izaac|Merge branch 'master' of https://github.com/XanaduAI/pennylane
+49bd106aa888fae6211ba15ae467de94b3f3b51f|2018-11-06|Josh Izaac|updated docs requirements
+f36e4b10beef3214c627009829f0d7e336da69ff|2018-11-05|co9olguy|fix typo
+6d5c62300fd7b32bd848e9ca4c68231d25d685ba|2018-11-05|Josh Izaac|fixes a very silly title underline bug I introduced in the previous push
+733c04912a875d086bece17b96b4c6446f55e52d|2018-11-05|Josh Izaac|small formatting fixes
+72bb14927224481fbcb7f4df60e582f1d8956898|2018-11-05|Josh Izaac|added disqus comments
+6a90000ec08520c53516fca35d803018e10bdbce|2018-11-05|mariaschuld|restructure qfunc -> varcirc
+7dc33694da476a2f8760796aefb942f92365332c|2018-11-05|mariaschuld|Add rough varcircuits section. Not connected yet to tree.
+e453b80e2517f0f4421317c410ec500e00dce4c1|2018-11-05|mariaschuld|Merge branch 'add_and_refactor_examples' into docs_varclass
+28ce3083d3088d889062501cbbf8a16b223ff5b2|2018-11-05|mariaschuld|rename files
+4b3f55a32e22b16a9f693c63aa69dcc2d806c890|2018-11-05|mariaschuld|Ported Nathan's QGAN solution to Tut files.
+2a6373d3376b42a21edb627a741d14603c5c1eb9|2018-11-05|mariaschuld|QGAN still not running on my PC
+4d45f24630600957802f9d92411dc785dac1afd2|2018-11-05|mariaschuld|Merge branch 'add_and_refactor_examples' of github.com:XanaduAI/openqml into add_and_refactor_examples
+02ca90d88c41c462d52b6ee21041eb0f8cd5cda9|2018-11-05|mariaschuld|Merge branch 'master' into add_and_refactor_examples
+9af65b4d2e2685cc3c594cbfdcf39106adea2fa1|2018-11-05|mariaschuld|add code to adv tut keyword section. minor fixes
+c7cd604aa0e69586dab96fb44be87c8e1bb6c8ea|2018-11-05|mariaschuld|Iris example working
+130b5158a5f79115fc2690cc5c222be64dff9615|2018-11-05|mariaschuld|Tutq3b running.
+d6fc80931cb051544b4d215317495c70c2ead054|2018-11-05|Josh Izaac|Fixes #110
+385a31985a17c6e726d3d9c14e9231da5853ff13|2018-11-05|mariaschuld|finish example
+a98dce99a3f2834574e2191bd7361c3c1c47d250|2018-11-05|mariaschuld|Merge branch 'master' into add_and_refactor_examples
+53d680b742f0cd188f3bcda536c59e6dfe15bd97|2018-11-04|Nathan Killoran|fixed QGAN issues
+f579df7fd22bc138c1bced59176de0b9cd0fd6a2|2018-11-04|Nathan Killoran|wrote advanced use tutorial
+665483ccd71fe43434462b88b1fc714e13479d4d|2018-11-04|mariaschuld|Merge branch 'master' of github.com:XanaduAI/openqml into add_and_refactor_examples
+c419a40e22bbaf0c705ecab99ccf4914686c621f|2018-11-05|Josh Izaac|merged conflicts
+0be7328b01f8e3f63b198e9b828c30d0512ab285|2018-11-05|Josh Izaac|fixed some broken documentation links
+ce0054b79db3c3484b7b87cb2ff9d072c3ad64cc|2018-11-04|Nathan Killoran|final edits to key concepts
+ff0763a43aacb008356c03177a4d0294f8268f8a|2018-11-03|Nathan Killoran|editing existing key concepts sections
+7dd4fc172eca0b67f7d0fb0acd2282cc5f4b695e|2018-11-03|Nathan Killoran|editing of Getting Started section
+bb63c74071b935e412c80790b068e9f36c580105|2018-11-04|mariaschuld|Merge in master (delete redundant photon rotation example)
+e40e209cbc54339bc100c7fe58e8904bfd36c37e|2018-11-04|mariaschuld|More polishing
+4fffd2a590c470761f996ce649b867ec252de15c|2018-11-03|co9olguy|wrote hybrid computaton section
+1a11622862c0736e483833f1d0b5008271146dda|2018-11-02|co9olguy|fixed linking
+83ba473ee57947260994a148394caf15603fb35a|2018-11-02|co9olguy|added Gaussian-only tutorial, edited hybrid tutorial, and put in skeleton for advanced features tutorial
+1048837c001d3b91dc21c765c868595ec98161a1|2018-11-02|co9olguy|Merge pull request #111 from XanaduAI/docs_plugins_and_ecosystem
+7029ca571e36fc3f8a5983642045543627941c2d|2018-11-02|Christian Gogolin|Update plugins.rst
+121459e02eca432ad1c9e38f71bbe770341007d4|2018-11-02|co9olguy|some editing
+e8c350ab3365c08765bfb75ac02d6f44b2fb027e|2018-11-02|co9olguy|Merge pull request #109 from XanaduAI/mini_fixes
+32d0f87ffd5fcabcc2f77a21eb4416049f1a809a|2018-11-02|Christian Gogolin|added an overview of existing plugins
+1c7073d69348ebf143305d833c40f5669c21c0d3|2018-11-02|Christian Gogolin|various minimal fixes
+84ff8fa1080d784a8fa0a5ce92832c623559ceeb|2018-11-01|co9olguy|replacing references to SF with PL
+1291c45e6edd4e26ee8dd23d580a2a9994f6bc9e|2018-11-01|Josh Izaac|added toplevel jacobian function, fixed bug in qnode.evaluate_obs, and began third tutorial
+71dd1d698730c270a817bd46b1cd0f722123510a|2018-11-01|Josh Izaac|vars->var
+f9d613147a9cfd0ceba2f83a9d8b51fa945fb775|2018-11-01|mariaschuld|Merge branch 'master' into add_and_refactor_examples
+e2a1a6f693007745c063569e9bc76d8a2e112782|2018-10-31|co9olguy|editing docs
+17a282a2e48b5dd8ba25bad14a2b2925ae1287ca|2018-10-31|co9olguy|polishing tutorial 1
+6bfa55f42904693f086d98561ca301b1bbd38b6d|2018-10-30|co9olguy|forces top-level grad function to specify argnums explicitly and adds tests
+f2d0de667731165e94842afce607c24a6b81d476|2018-10-30|co9olguy|Merge pull request #103 from XanaduAI/optimizer_test_inputlist
+d4d1029ab8430dc1878dcf1ac1fd77703416853f|2018-10-30|Josh Izaac|keep some flattened parameters as generators where possible, fix up docs after name change
+bc90617e63ae5bddb647164418a6781272562829|2018-10-30|mariaschuld|More refactoring. Changed all imports to autograd.numpy
+a5588f3bebaebdb55dfff64ee0133cc96003bbcb|2018-10-30|mariaschuld|Changed folder structure and data imports
+c99d20007104bfd01957ac6cd8ac0bbde795ce20|2018-10-30|mariaschuld|Added SF examples and refactored
+3e26693c9c467e23a2af32200b0e83e5b1151156|2018-10-30|mariaschuld|added and refactored projectq examples, now all running with default qubit backend
+96ad27cefa4ff0391f71ea1bde2feed88c3c7636|2018-10-30|mariaschuld|Changed _unflatten to unflatten
+6b8eba30ef53238bacd708447281873e73a6ed8a|2018-10-30|mariaschuld|Added test comparing array and list
+b957dc4863d6c0719336d5110b1b3274e2fef8e0|2018-10-30|mariaschuld|Add test comparing nested and flat lists
+1adaba02cc066215f720a7c406d4c677e87c1550|2018-10-30|mariaschuld|Fix merge conflicts
+9672470a501aef65901fc0d6b9c59b8612f018da|2018-10-29|co9olguy|Update README.rst
+9a3e0aad82c5200dc1d6ceacf6ae375d2db33cdf|2018-10-29|Josh Izaac|Merge pull request #102 from XanaduAI/pennylane
+4f058e654a187b0119c8c34319bb5122fb7294f5|2018-10-29|Josh Izaac|Merge branch 'pennylane' of https://github.com/XanaduAI/openqml into pennylane
+63afb2c02bc7f87b5e9a0084dfeff8afb1e64342|2018-10-29|Josh Izaac|requested changes
+8c48712695bb07f9d9a5760984c199ddbd1e23cc|2018-10-29|co9olguy|Update README.rst
+e14c575d1a5f665af6519f8eab360bc8f9a675cb|2018-10-29|co9olguy|Update doc/research.rst
+7e4ecc090e9362d3d91ef2f120bc94f757f409b5|2018-10-29|co9olguy|Update pennylane/plugins/default_qubit.py
+3485ae501b353f495405703c695bd27d6a0ac2e5|2018-10-29|Josh Izaac|added utils module
+9b62b6720a4b1f0cedb2f8b11c60723a7fc8f376|2018-10-29|Josh Izaac|Merge branch 'pennylane' of https://github.com/XanaduAI/openqml into pennylane
+f338b610971b5f3b666675a0e374d88384e04fa2|2018-10-28|mariaschuld|Merge branch 'master' into optimizer_test_inputlist
+da19fa857b018a545eaaad5b40b1417a61d8cc2a|2018-10-27|co9olguy|Update pennylane/optimize/__init__.py
+470ef8540fff58e9f30f5d7c90214e53ca2b2512|2018-10-27|co9olguy|Update doc/research.rst
+3eeb50160ea9c21af0ceb84fe183e1c82950a43f|2018-10-27|co9olguy|Update doc/index.rst
+7a10868ff3d3b61beecd6b5de55d3a372a741450|2018-10-27|co9olguy|Update doc/index.rst
+29a0a66b2769084c74c67a50d2028d62ae54e69d|2018-10-27|co9olguy|Update default_config.toml
+45d447cc3a780310676a421618a9759310d8c2b6|2018-10-27|co9olguy|Update README.rst
+c4345494426be4a2477186a447e56081212303d7|2018-10-27|co9olguy|Update README.rst
+9ae76b47398d83aef46876414eab0fa9826115a5|2018-10-27|co9olguy|Update README.rst
+9b6ad1e9350cb6ca64094fe3a0d63b2bf5085723|2018-10-27|co9olguy|Update README.rst
+78a2fa1b34b84d264df14b30070c1cd94665961c|2018-10-27|co9olguy|Update README.rst
+64254f272e4d762a58835c3661caae821ce8a9af|2018-10-27|co9olguy|Update .github/ISSUE_TEMPLATE.md
+e68a54ce9d0abdbdcebd69fa34763eb1cfcf0170|2018-10-27|co9olguy|Update .github/CONTRIBUTING.md
+ac3c16bc0559fa76109dcb312f6b87bf04068c29|2018-10-27|co9olguy|Update .github/CONTRIBUTING.md
+a54fcfd4702d43741852e3ee5ba76bdec58d6bc7|2018-10-27|Nathan Killoran|some missed references to openqml
+385a5a510e82e4b24d0b64d0e90647b757124833|2018-10-26|Josh Izaac|added readthedocs and travis config files
+c9e77083fecebbc1acfd141e1bb71b59bb270d8a|2018-10-26|Josh Izaac|wrote the readme and doc landing page, added .github community folder
+57757f994a2ec3c65d9d17609c2d3375ef130b22|2018-10-26|Josh Izaac|name change to pennylane
+967475b0566e286d3beedf282924d9fad85445fb|2018-10-26|mariaschuld|Optimizer tests pass. All optimizers should now take lists, tuples, arrays and reasonable combinations thereof.
+8ddfc036c35cbfa9582c467e4d9ce0fb15b3f776|2018-10-26|mariaschuld|Graddesc and Momentum tests pass for new feature.
+b43a22e6709c32b5fbe0ac971a4654e482f59e84|2018-10-26|mariaschuld|Add test for mixed array-like objects
+80c3a1855554d0fa17078a798641e8b65b99786a|2018-10-26|Maria Schuld|Merge pull request #100 from XanaduAI/make_qubit_rotation_py_asymmetric
+92a77bbf016b5d8985085ef8f2ac3dbb3b22c48d|2018-10-26|Christian Gogolin|made initial values asymmetric
+a2d29d9d1da175889642a3a73a205afe9100f0e4|2018-10-25|Nathan Killoran|added simple QGAN example
+b7b185d2138b7c3b5eb65417f9c1ed3f0a6c4bc4|2018-10-25|mariaschuld|Merge branch 'master' into optimizer_test_inputlist
+022d937c0d5e2b020ee06a96d14833b934225222|2018-10-25|Nathan Killoran|unifying all user-facing examples to all have wires
+9ef350e93349819e5626516ebf64760c4deed529|2018-10-25|Nathan Killoran|unifying latex macros
+4bc67751aa1eb75812ead3e837377ed9eb034912|2018-10-25|Josh Izaac|rename PhotonNumber to MeanPhoton
+45b2482e03118114a7733a8158482ba367b8839f|2018-10-25|Josh Izaac|Merge branch 'master' of https://github.com/XanaduAI/openqml
+9a307c6b1091396993bb0597dd0876303f851cb2|2018-10-25|Josh Izaac|udpated readme template
+0b869664eec43c59512b49d4591f097a0c5664d0|2018-10-25|co9olguy|Merge pull request #98 from XanaduAI/operation_tests
+a67f9d18acde6acf5c099f7455c8347c4c586e89|2018-10-25|co9olguy|Merge pull request #96 from XanaduAI/number_state_expval
+633f98b368b48591f0ea2d89248341bdcd71b59b|2018-10-25|co9olguy|Update openqml/plugins/default_gaussian.py
+42a1975b6e95af532e5ea7189c595807be390688|2018-10-25|co9olguy|Update openqml/plugins/default_gaussian.py
+2afa9fa6ba8106d44222b0620b28af1c9df4c173|2018-10-25|Josh Izaac|added hamilton reference
+8d08e8567dd76955038ff80aae39d528aecdb07f|2018-10-25|Josh Izaac|corrected small formatting issues in the docs
+5811db18611b802e49892eb0b6b1c12cbc2fd479|2018-10-25|Josh Izaac|Merge branch 'master' into number_state_expval
+841bfb4f59bd1c476d0252cdcd60bc20b810658b|2018-10-25|Nathan Killoran|commenting out line which is impossible to cover without DAG rep
+4ca047dc09601c4fc850a3226e4d96f53691dbb8|2018-10-25|Josh Izaac|Merge branch 'number_state_expval' of https://github.com/XanaduAI/openqml into number_state_expval
+947c4ab961e0f3fc70d66eb4e7a8c3ef7af0f163|2018-10-25|Josh Izaac|requested changes
+9df23d3a118523a0987403dfb4e8fb78f72fa5e9|2018-10-25|Nathan Killoran|cleaned up some tests
+a926c6cfd592e9a546b65fc452b40ef9997067ca|2018-10-25|co9olguy|Update tests/test_default_gaussian.py
+2bb5af2759cd4cfc93e8ac64f4c5689fa4efd056|2018-10-25|co9olguy|Update tests/test_default_gaussian.py
+845e6ae92db761cbdeb4567057e432be67bedef3|2018-10-25|co9olguy|Update tests/test_default_gaussian.py
+3aec6bf3b554e3a183fe45c04ea4b2877dde4ea8|2018-10-25|co9olguy|Update tests/test_default_gaussian.py
+5748b5c9a7771859b170005207f7c91b2320c1f1|2018-10-25|co9olguy|Update openqml/plugins/default_gaussian.py
+2367eb654a992df4d7d62e584f62d7b93cfd5fb7|2018-10-25|co9olguy|Update openqml/plugins/default_gaussian.py
+407b05939ac8e6ee578a9090fe6f95f426ce3490|2018-10-25|co9olguy|Update openqml/plugins/default_gaussian.py
+6d26c94cc8b3f02c3bfc3b0ee78f0f163625b836|2018-10-25|co9olguy|Update openqml/plugins/default_gaussian.py
+1a4e4897cb1498c6ccc977210fc372608cfa60f5|2018-10-25|co9olguy|Update openqml/plugins/default_gaussian.py
+dea0cd91ec568a31d3f00b638ae7a8543365bdb2|2018-10-25|co9olguy|Update openqml/plugins/default_gaussian.py
+5ec7f4efde786a1130030341f66f373e376b49b8|2018-10-25|co9olguy|Update openqml/plugins/default_gaussian.py
+2ea62827007e1e784ff5494b3e93fa188a2fd1fe|2018-10-25|co9olguy|Update openqml/plugins/default_gaussian.py
+6302047e2e91bd2e1de3a8bb1c46de6a2fb5363b|2018-10-25|Nathan Killoran|fix typos
+eea1e6d98b586a685e4f40a537b395e55be17faa|2018-10-25|Nathan Killoran|added logging
+9132f50f6faffdad811bdca9e86b72e59c6d2a9c|2018-10-25|co9olguy|Update openqml/plugins/default_gaussian.py
+64443e98b5e7d393b861cfe98b4ca5904e20adb8|2018-10-25|co9olguy|Update openqml/plugins/default_gaussian.py
+53983e2aacd1bfcf7e9035e14397c05f420324b2|2018-10-25|Josh Izaac|added 'developer-style' custom operation integration tests
+5874c22da30755db5a682f9c9d3a16e7913ff5dc|2018-10-25|Josh Izaac|added variance calculation
+3b0e0fb8e6c8321a0c1b2251a031559c7c93084e|2018-10-25|Josh Izaac|added additional test, linted
+c581932bd443b9bde339ae954f6adb58492f18e9|2018-10-25|Josh Izaac|fix typos
+f9c49190dc9e4605f9350fe1b429b21fcd409463|2018-10-25|Josh Izaac|comment out unused functions
+695d42c7b00814788498f0cc2e0af50181904f94|2018-10-25|Josh Izaac|updated numberstate to work with multi-mode fock states
+75c998f1d741191432f73172073729c0df716e84|2018-10-24|Josh Izaac|fixed some small formatting issues
+d342ea6a7af71f213aa83a834de663df69a70f70|2018-10-24|Josh Izaac|Merge pull request #95 from XanaduAI/tutorial2_edits
+740d3e8bc93b06e2c4cd77cf14ab5e5c771b0e62|2018-10-24|Josh Izaac|added number state expval
+72e19815e70bb15b80bccc450ba83b0ec07d2ca9|2018-10-24|Nathan Killoran|edits to tutorial 2
+e5a4d734fa43654802f800aa7adfc55a54902a2a|2018-10-24|co9olguy|Merge pull request #94 from XanaduAI/tutorial_edits
+bde8212e720a0d6f1969f167196ec4c3eb9803d8|2018-10-24|Josh Izaac|Update doc/tutorials/qubit_rotation.rst
+a55e223c0e40c9184912cac582832c8c805d1e45|2018-10-24|Nathan Killoran|editing first tutorial
+a448cf54eeeab57eb4394c95cb96d8698a6dde8d|2018-10-24|Josh Izaac|added tests for operation queueing
+74544c125d7848e3e9e8314a768645d26daf09d6|2018-10-24|Josh Izaac|updated makefile to work with pytest cov
+22ce1b68c063d943dcf12491935f33cef115fc9c|2018-10-24|Josh Izaac|added figures for hybrid computation tutorial
+739fcced577bd05b748e970352d3a0fe5b4164bd|2018-10-24|Josh Izaac|small typos
+2a3ffb369a1b05e84486a79d7882ab4603b34e53|2018-10-24|Josh Izaac|Merge branch 'master' of https://github.com/XanaduAI/openqml
+bb07405ce6cd05b7b6c694529e39f141167548d9|2018-10-24|Josh Izaac|finished photon redirection tutorial
+3669067c1473bb0f0543e39d6b8a451cce55fc84|2018-10-23|co9olguy|new tests and updated makefile
+b62080003ddbea450d73e02b0477ef8fe0ee616e|2018-10-23|Josh Izaac|finished basic qubit rotation tutorial
+12ec622ab2c03286d318db0c8243b454b2778f28|2018-10-23|mariaschuld|Merge branch 'master' into optimizer_test_inputlist
+067c9ba5acdf84bbedc6e9c0c90a6f82d3a3a024|2018-10-23|mariaschuld|qfunc to qnode, np to onp, try in optimizer
+a86a92e34e1ee507790b2e0a02a5ad473a0e5f39|2018-10-23|Josh Izaac|updated see-also style on introduction
+daa6094cd0a8cb295215ad1108281355e463b455|2018-10-22|co9olguy|updated top-level grad function to allow specification of which arguments to differentiate
+7bd4ac2195be83ce0aca939b03c199afcc78c554|2018-10-22|Josh Izaac|first half of qubit tutorial done
+7f8364f61a9e68475c950f509eb0c4724d6e7096|2018-10-22|co9olguy|fixed bs docstring and test to match SF docs
+dd18cc21b30be12e1ed8ba037e97e1b5df9a260f|2018-10-22|co9olguy|added tests of heisenberg rep
+8147e94ef44bb4b984f9796a6a936ff162a1c9f5|2018-10-22|co9olguy|reorganized test classes
+ee7a52f368a174ab793d2d8c3bb232f0c7ee4590|2018-10-22|co9olguy|removed first person error message
+322a6261ce37665a5095c1adb3696194f92773af|2018-10-20|Nathan Killoran|fill in heisenberg matrices and remove redundant/useless docstring
+5a4b0102401957a3d49fae8f6b06219d4d155021|2018-10-20|Nathan Killoran|editing and reorg of supported operations
+e4c8e9995809dc1dfb91c65b1f96a1f79a9aea84|2018-10-20|Nathan Killoran|remove unused conventions page (will be superceded by supported operations pages) and other editing
+54c4cf4f19f148a5a5b72b893f62ed16b86e4bea|2018-10-19|co9olguy|editing docstrings
+2be662da4ea0e130f3eeb2e107f2087f1debf94c|2018-10-19|Josh Izaac|halfway done
+7ff9603d368efeb6c3d322f28bbf754278526b2e|2018-10-19|mariaschuld|Merge branch 'master' into optimizer_test_inputlist
+11ad9c5e6ffd32ddb52c0fb7e20943b59387d8e1|2018-10-18|Josh Izaac|began working on the basic tutorial
+5a62c9bc95b28231d952cde767b83395e4888fb2|2018-10-18|co9olguy|Merge pull request #93 from XanaduAI/gaussian_grad_recipes
+9dd7d9537d1f9147aaf94c98ccb8cb86630263a8|2018-10-18|co9olguy|add logging to ignored coverage
+bab8c967b1441277ac64d10e4317fe11321ac5be|2018-10-18|Josh Izaac|updated TMS heisenberg construction
+5cf2ed717636083d33b2c9e52874ce8a59f317a2|2018-10-18|Ville Bergholm|QNode tests and bugfixes.
+8d73e313556734a549f917e33bd3dcfd334279ad|2018-10-18|Josh Izaac|added TMS gradient recipe
+5360b2a13e69cc87bf332a38d59fba95e864bf64|2018-10-18|Josh Izaac|added gradient recipes for CZ, CX, and quadratic phase
+16b37d8dd60c2df6466b817ed4fac61a35010748|2018-10-17|mariaschuld|Added test to feed list into optimizer.
+7b86b580d596eeb192f64cd2df56d6f3fc40cc92|2018-10-17|Josh Izaac|Merge branch 'master' of https://github.com/XanaduAI/openqml
+22685e1191d57d445f9ec4fa460a52a5124e1348|2018-10-17|Josh Izaac|fix docs after PR #90
+a46fd26035d4456d35e37ed29d0fd75505391cc7|2018-10-17|co9olguy|Update cv.py
+3e3d4f3047f5f100112f7bfebc6afbdcc2496167|2018-10-17|Josh Izaac|fix accidental latex replace
+455c9d3b21e4e5511130f67d9e7de75d40a5a717|2018-10-17|co9olguy|Merge pull request #91 from XanaduAI/remove_builtins
+6c5108452a9d78ca5a200450fb7df327a8ce40a9|2018-10-17|Josh Izaac|fix rst references that were affected by breaking changes
+8bc58f68cb9f077b48ae7e3c91f53ef463c9d21c|2018-10-17|Josh Izaac|change filenames
+9d5ac8c9d1878ab1cb34c2d837b68c6304e81538|2018-10-17|Josh Izaac|Merge pull request #90 from XanaduAI/basisstate
+17ace0d1b4ff7fcd716e0451a587ebd923bfbb5e|2018-10-17|Josh Izaac|update docstring list->array
+ca4742d0b5b35ec9f956d3fb2a3349f76ecf6ff5|2018-10-17|Josh Izaac|Merge branch 'basisstate' of https://github.com/XanaduAI/openqml into basisstate
+3472e88206575376a914e3fc208e2bce6bdbbd0a|2018-10-17|Josh Izaac|requested changes
+498e1f62ca5efdce51104e0466383fb1b4e31cc7|2018-10-17|co9olguy|Update openqml/ops/builtins_discrete.py
+090b1af2fdf73a662e5ef5a7aeb697ad948117c3|2018-10-17|Josh Izaac|Merge pull request #85 from XanaduAI/doc_code_overview
+620100029788b496cf777d5a7c67211ccea27d56|2018-10-17|Josh Izaac|solving merge
+1c96b1d0d90761647c63ac63ac8b0a8fb3f0aac9|2018-10-17|Josh Izaac|fixed the qnode decorator example
+f0b387eb73be55bd19a91d13f1a930bb7b91c95d|2018-10-17|Josh Izaac|changed pre_exp and post_exp
+46ec0b56ef500ccd7074165163d00f42567bd92c|2018-10-17|Josh Izaac|added contrived hybrid computation example
+e3c32c3128a729472031cda090c6d44bd15a9627|2018-10-17|Josh Izaac|added hybrid computation example
+fc71ea381d2baa37f5d68d97fd27eaa5f555d4b7|2018-10-17|Josh Izaac|Merge pull request #89 from XanaduAI/operatortions
+c8b5a4f113b21d642253a4b79d57caf876fade94|2018-10-17|Josh Izaac|Merge branch 'master' into basisstate
+164a9292d96fccc51caa65f6b2bba44e488daf17|2018-10-17|Josh Izaac|fix basisstate and Rot
+1543fe9c7cd6f98d421b8a23f17e4ba39c34adfb|2018-10-17|co9olguy|operator -> operations in many places where it refers specifically to the openqml class
+cd7996c476d1fb6e317e76e530f3030dc9ff20c4|2018-10-17|co9olguy|Merge pull request #88 from XanaduAI/rename_observables
+4448a204035ec7c947b86fd8e337e770826df5c1|2018-10-17|co9olguy|Update openqml/plugins/default_qubit.py
+c10f98e59913b23e76d259c062085f72bdacec32|2018-10-17|co9olguy|Update openqml/plugins/default_gaussian.py
+771b4c81ed96a41aee29c56f2c87952a78d666de|2018-10-17|co9olguy|Update openqml/device.py
+09f09ba794af030199d0d3a56138abcb506e8fa3|2018-10-17|co9olguy|Update openqml/device.py
+2f02934469bbb126fd8662d707ecc17c270f8b6d|2018-10-17|co9olguy|renaming observables to expectations in devices
+d6cb608b293fbe0ed7cab10e3334c809f0f5a311|2018-10-17|Josh Izaac|Merge branch 'doc_code_overview' of https://github.com/XanaduAI/openqml into doc_code_overview
+891033495583fa35e6b3623da3bbbd7f114809c5|2018-10-17|Josh Izaac|requested changes
+fb33140e8c00b646618bb7f9e3ba1c7d0cb0a9e8|2018-10-17|co9olguy|Update openqml/qnode.py
+202686b7608a52930e5c35fc647067db3a60666c|2018-10-17|co9olguy|Update openqml/qnode.py
+87fdcfd307674f168c01b1693a3b9476d4723fc5|2018-10-17|co9olguy|updating numpy imports (addresses #63)
+f4185bba54820a76ff3a621c213db62593bc84ec|2018-10-17|co9olguy|changing to pytest
+cf06ea0e8cd9bd96a8c572b8d53eda98af8615c2|2018-10-17|Josh Izaac|small fixes
+7a6cf6b86fe34291a76c8d1edb243325d79677f9|2018-10-17|co9olguy|Update openqml/variable.py
+f6ec46d8e058832dc68629147cc94c4a5c95cbd8|2018-10-17|co9olguy|Update openqml/variable.py
+da0dfd4277b94e306d74f3b48a64495941297095|2018-10-17|co9olguy|Update openqml/__init__.py
+436ce268dfebdd9f3a2d37ea92212ed0c89976b8|2018-10-17|co9olguy|Update openqml/__init__.py
+92a134f405f67bc3c325a03c967d9c6665dd7a6a|2018-10-17|co9olguy|Update openqml/__init__.py
+939fcf49057cee731fa90b49b7ddcc642086a989|2018-10-17|co9olguy|Update openqml/__init__.py
+0b49b88f2476a8969837f58236af5c74b423c6f1|2018-10-17|co9olguy|Update openqml/plugins/default_gaussian.py
+62a3736726c9b7986829daddc53d6b2b64dd98da|2018-10-16|Josh Izaac|final linting
+443e30f88a73ef2a678889a6f005ff9585200bba|2018-10-16|co9olguy|resolves todo about PhaseShift
+bb114c8a431097fed56242c1f6dc5b4f000904ab|2018-10-16|Josh Izaac|documented and linted variables
+36cb5c0f2b7279c6d2a58a0898e653e52f1c3a3a|2018-10-16|Josh Izaac|documented and linted decorator.py
+59e2bd3305d5643a70d6263e6c6fb5f3500e58bc|2018-10-16|Josh Izaac|linted and documented qnode
+61858ca58ef3128dac31fb60ce381779a8466ecf|2018-10-16|Josh Izaac|started fleshing out the docs
+b24eb128e4453e77fe7143b3f5ffeb67c584696b|2018-10-17|Josh Izaac|Merge pull request #84 from XanaduAI/ops_attributes
+5207b03942e3003174343b64514521a3f8ed3d84|2018-10-17|Josh Izaac|Merge branch 'master' into ops_attributes
+d4a5075f14738af475fdb4908c8e343ed55878af|2018-10-16|Josh Izaac|doc fixes
+50a54db499ee1d3d855604a418a2acdf598e11f7|2018-10-16|co9olguy|added test for multiple multidim positionals
+da60c7beee1042f4448f52dbbeb45f7fc10a33e3|2018-10-16|Josh Izaac|requested changes
+586ceda98e66f0b4bda9c284795be21515a4d26f|2018-10-16|co9olguy|added tests for differentiating all positional args
+6d65fcbb7ddbef3b6dc2afa6441e0651cab1298d|2018-10-16|co9olguy|added multidim test
+c4c729087d8cf806f1da0c2e23058d4d5ecaf143|2018-10-16|co9olguy|cleaning up debug
+e0e526be87fb2e9b9478808acaf2efb54b4108a7|2018-10-16|co9olguy|not sure why these reverted... :thinking:
+2a4142b0bee77f8f0d115a84e35cf2b15d81e446|2018-10-16|co9olguy|fix typos in tests
+7409fd90d64e7f8f6f7b2c5ce14927b16f4aaaf1|2018-10-16|co9olguy|fixes for PR #84
+ce16b0ecadf6bd4642135b53fa299d2a367fbf5a|2018-10-16|Josh Izaac|Merge branch 'master' into ops_attributes
+e6e0b2eb4be6224955b829cfa7ff53cb91b4484a|2018-10-16|co9olguy|Merge branch 'expval_typos'
+cad2ea416fc034cec04500c3d478c463d29f8e26|2018-10-16|co9olguy|fix typos
+6fa7de9f18a1f3becad8f2163c7a601180585a32|2018-10-16|co9olguy|Update decorator.py
+d1e753cd621de0ef56bb6e3761dcf5e71ef06555|2018-10-16|Josh Izaac|Merge pull request #83 from XanaduAI/args_tests
+2c74b99b66319ed74ec5e7563cc0dd8b5c30288b|2018-10-16|Josh Izaac|finished linting
+27332a8480375558b54e65c35ab9ea1550370093|2018-10-15|mariaschuld|Added 6 keywordargs tests. All passing fine.
+450345a7b2c82fc792f7a2f7b4330cc007a78a4a|2018-10-16|Josh Izaac|some fixes
+9a039b8f6b4f622573aaae8f3c4ef6e89cb5d942|2018-10-16|Josh Izaac|operation is now an abstract class
+adeaad8143357f7d3e7cb015de574c1a2039ebd9|2018-10-16|Josh Izaac|refactor expectation->expval, qfunc->qnode
+a339e4d4bbdb45c2358af6d01bde51d6a9f35f1e|2018-10-16|Josh Izaac|fix rotation gate docstring
+58a2acc91d51755f8f29561f6710f08c22c7238b|2018-10-15|Josh Izaac|Merge pull request #77 from XanaduAI/op_conventions
+621db95ebccb8e3f10b957d7b45f4f0d7cd677e5|2018-10-16|Josh Izaac|Merge branch 'master' into op_conventions
+058f52d0893a1222c0dcaf1f56a59eefd4bed2ff|2018-10-16|Josh Izaac|requested changes
+8170f89f7f94b17c6f0c8c89d3111fbf79fe692a|2018-10-15|Josh Izaac|Merge pull request #80 from XanaduAI/kwarg_fix
+08b4677b2b99a6e3c910be9583d3b3b2b7fc3a8a|2018-10-16|Josh Izaac|futureproofing for eventual full kwarg support
+738c00ed221d90eb2a8a57acece5eff4ea86714b|2018-10-16|Josh Izaac|keyword arguments work!
+a74830fa548e7b1dcb7c474edce99a16292ffebd|2018-10-15|co9olguy|Update builtins_continuous.py
+3b12c8c50ce2c46783df4927b90710ee81872db0|2018-10-15|co9olguy|Update builtins_discrete.py
+13f914a0b949664961e578fc4e5db2223682cf8e|2018-10-15|co9olguy|Update builtins_discrete.py
+048472f8b9e6e6a5931fe4e8b868cef3306ac253|2018-10-15|co9olguy|Update builtins_continuous.py
+5b0741bdf51ee6e0e26ab7a7157ac1bd8c14dd63|2018-10-15|co9olguy|Update __init__.py
+374ec7cef4435625ebaa898a6508c7beb7e886a6|2018-10-15|co9olguy|Update __init__.py
+a356a72c74abaae7d321a155c878430b2c9cc5cd|2018-10-15|co9olguy|Update __init__.py
+ec26982f134a7e3a79cc6aa0dea18d363eb4f028|2018-10-15|co9olguy|Merge pull request #78 from XanaduAI/device_fix
+040a3580b243647826c23ae72c8731a837e6d2b8|2018-10-15|Josh Izaac|fixes #58
+59554dafc98b1565021b7d554669a69697c06003|2018-10-14|Josh Izaac|Merge branch 'master' of https://github.com/XanaduAI/openqml
+390a7ca8c256359ac530e974ba4033aa5f8af2f7|2018-10-14|Josh Izaac|added tutorials to the docs
+1c43384ad894fca5fbb1a70ff8d7655cc8c2f0b4|2018-10-14|Josh Izaac|Merge pull request #79 from XanaduAI/make_gaussian_demo_run
+051b85ec582c81445a3d67f826f594ad4db6f5ac|2018-10-14|mariaschuld|Changed name and description of gaussian example.
+0b895e09e2e6498f055019a233bf7f7fe82f2a66|2018-10-14|mariaschuld|Change nuclear demo to learn displacement.
+29cf39c58226c2a2398d385e07fee1531f6371b7|2018-10-14|Josh Izaac|Merge branch 'master' into device_fix
+ed0fe47be97ad8ac78061c5fe16ef7f6b46ce47a|2018-10-14|Josh Izaac|Merge branch 'master' into op_conventions
+afbeb30a62ff0f2794a6a16d54edb31b2549464c|2018-10-14|Josh Izaac|Merge pull request #74 from XanaduAI/default_gaussian
+1be8f92adceedd712d75dc16bae158c2078e17c5|2018-10-14|Josh Izaac|updates device.py docstring, and fixes #76
+939e445dc0c6db54b4feb0bf2987a3cede335870|2018-10-14|Josh Izaac|added warning about numpy import location
+16346ebe47fc6bd3986c7b92540d8113e6e7ce43|2018-10-14|Josh Izaac|final touches
+55e38c396a078390ce13fff1aa3e1b231c635991|2018-10-14|Josh Izaac|fixed merge conflict
+d803e54caf2aceacf2971ed848a6a47bf580a4db|2018-10-14|Josh Izaac|fixed typos
+1f42131503122fa71d6cb9599e0491239c7a838f|2018-10-14|Josh Izaac|added developer device tutorial
+c007bb3bca4fe5296ddc25a131d3af1eb33dda54|2018-10-13|Josh Izaac|added expectation section
+d09dab1e533ea360b6f9a7348fe7ce187392e2a9|2018-10-13|Josh Izaac|added tutorial section and plugin overview to docs
+6d91263e24eadcd9e539ebd811c1e1dcda8ee23c|2018-10-13|Josh Izaac|finished adding conventions to the operations/expectations
+04cb1bd97c8cccb8e3149bca9caa89ccbea08121|2018-10-13|Josh Izaac|Merge branch 'master' into op_conventions
+bddfa8646426308f61e6576ff93ada9e1c8aac1f|2018-10-13|Josh Izaac|finished operation docstrings
+52a28f341b5561016de0426a1b26028ad394f846|2018-10-13|co9olguy|added another test checking for corruption of internal attributes
+2edf4dc05a6635f200814ccbcaf657a50f0f2dff|2018-10-13|Josh Izaac|finished CV conventions
+43129536d67d4d6087bbccd6cbe35d29bda18f4c|2018-10-13|co9olguy|modifying error message
+d012c13e16e2eb9ea5b6625cd2f14e74e6211a3e|2018-10-13|co9olguy|MOAR COVERAGE
+31f5a60309c39d1dd405a9a17aedb43f464a4374|2018-10-13|co9olguy|tests for flattening/unflattening
+93bec336e5c2ec95892213daee441c48b7b2b8ec|2018-10-13|Josh Izaac|Merge branch 'default_gaussian' of https://github.com/XanaduAI/openqml into default_gaussian
+86b02a83a7507e6c40a0e6fd8f27a48aaf222dbf|2018-10-13|Josh Izaac|began work on conventions
+dec930ee4f7ad2437a5f46a93eb2999708540c9c|2018-10-13|co9olguy|new tests for internal edge cases
+1c1ba85a61697e5349263ea474a18002d804cfd5|2018-10-13|Josh Izaac|requested changes
+d1ff24b8102c8265b219ec8c6ba8868a9def5fa7|2018-10-13|co9olguy|added sanity check tests for wrapped autograd gradients of purely classical functions
+ed475914ca2e95d7dcab677b5fc259ecc1c4867a|2018-10-13|co9olguy|Merge pull request #75 from XanaduAI/minor_optimizer_and_examples_changes
+493a1138be8f613ea9ec99e47c3b4b1bed6ae254|2018-10-13|co9olguy|fixing typos
+f0f124d9505a26ffadd3a573e55be27f7afa0f33|2018-10-13|Josh Izaac|started adding operations to the docs
+9b007bea1cfa040defbc677552d0a50bb357f43c|2018-10-13|mariaschuld|Merge branch 'master' of github.com:XanaduAI/openqml
+5ded7ddb800e262426ebc4e0af66541f20ddcbbb|2018-10-12|Josh Izaac|small cleanup
+95660a81265e0a08c23e0b51a55ba9bd6cc1b8bd|2018-10-12|Josh Izaac|removed strawberryfields.fock
+d1dd3203ca7a79554b06e4a962dcd007975c0ff8|2018-10-12|Josh Izaac|added default_gaussian test
+2328a905026365437892c2ff7b8513bf94d0689b|2018-10-12|Josh Izaac|Merge branch 'master' into default_gaussian
+807396bf715d9892ace48eea4f11cdfb265b0b5d|2018-10-12|Josh Izaac|finished device test
+fd917bc571812de33ef5240b4dc2bc1844b4e227|2018-10-12|co9olguy|--amend
+d0e66ddb74a73d420b5e1526587a2a45aa43d636|2018-10-12|co9olguy|work in progress test_device.py
+6f3bfc216009b68a0815c9c3fd1f06519e607037|2018-10-12|Josh Izaac|fixes for the test logging
+4a33eb9cf7cb09f61d47ea06e45679168b95711a|2018-10-12|Josh Izaac|Merge pull request #71 from XanaduAI/qubit_test
+801995769ef73fd8d37da7cfe58a21cccbd8bebf|2018-10-12|Josh Izaac|fixed up docs
+6333e58aad478d5d45f6eb4a32bfb1f6fe480642|2018-10-12|Josh Izaac|working
+c68bbd1baf67597105a64dae46bbf34c0aa467b6|2018-10-12|Josh Izaac|renamed gradient -> jacobian
+c6e78ee03d5f48825228e08305cf06e1d773d176|2018-10-12|mariaschuld|Delete reshape in graddescent now that multidim array issue is fixed..
+ffdf90d9aafb2814eed5866f1dd039ba8d95b9f0|2018-10-12|mariaschuld|Merge branch 'master' of github.com:XanaduAI/openqml
+68054f5db2cb85300d69ba957f950761c8f4a280|2018-10-12|co9olguy|Merge pull request #72 from XanaduAI/f_jacobian
+d25125a7427f1f34db059ff53d54cdc1be757441|2018-10-12|co9olguy|fix typo in test
+7ec0252d0325f43aaac2db38517104eb0f88857f|2018-10-12|Josh Izaac|added in gaussian plugin
+c36bbe1da1bc2c5b901c2f7fe062a2afcac2d60d|2018-10-12|co9olguy|Update test_default_qubit.py
+21d94bc22fe46f196c99466a55e84b0e2981e3d8|2018-10-12|co9olguy|Update .pylintrc
+721025867176d129803bdc7b0302534614f5de36|2018-10-12|Ville Bergholm|QNode_vjp fixed. QNode.gradient now always returns the Jacobian. Bugfixes.
+910b9714c5ce5e1b04ddcc6b5cc74e4bf3da6d75|2018-10-12|mariaschuld|minor changes I actually want to delete by rebase.
+fce2638f0f85ab9f5fdfc0e91b70683b8513d369|2018-10-12|Josh Izaac|fix typo params->par
+58fd8492ab605e67063758a2af75bbca4c139ff7|2018-10-12|co9olguy|Merge branch 'master' of https://github.com/XanaduAI/openqml
+6855ed5dc3c34f2d2b957d5ca3181a747e40b764|2018-10-12|Josh Izaac|Merge branch 'master' of https://github.com/XanaduAI/openqml
+b4ad78cca5739300306fab3ee52dd2fb8a3ea2b7|2018-10-12|Christian Gogolin|fix for "ImportError: No module named 'openqml.optimize'" when importing openqml
+f18bc757fbd894574ecb44de47d738ebf1ad8572|2018-10-11|Josh Izaac|linted test_configuration
+4d4a6491ab83fa39de3f45321d02b98b862b4d76|2018-10-11|Josh Izaac|finished default.qubit test, linted
+d87cd9f428b9ea3116d8509e9322ec8f2bfe09cf|2018-10-11|co9olguy|working on device tests
+c66f13331c572b5acd88cd0435c99e31d6152e5d|2018-10-11|co9olguy|removing unused private function
+231c85e09cbc367774ab43ef6c246f099fa34e2e|2018-10-11|co9olguy|migrating cv gradient tests to test_quantum_gradients.py
+0958d2927547e3357cb83897249f35a14b0524e9|2018-10-11|co9olguy|putting cv gradient tests back in openqml proper
+9fd31c167100e55b30aaa27b87aa25a888680810|2018-10-11|co9olguy|Merge pull request #70 from XanaduAI/delete_examples_again
+112d36a0e34cbe2c2328e080a1ccdee76c36de97|2018-10-11|mariaschuld|delete old examples from openqml. thought I had done this already...?
+6215618a8b1a32db0695e68a4273bf0255ffdd8c|2018-10-11|co9olguy|Merge pull request #69 from XanaduAI/coverage_optimizers
+5b0d43ad4d2098982fcf3d19acf8fbdc57016937|2018-10-11|co9olguy|deliberately forcing incorrect gradients in tests
+8cfbd81ad46161167805e517d00ff94964e4cd99|2018-10-11|mariaschuld|Merge conflict:Deleted reshape in optimizer
+420757fc8808e44252031a19b0f98988c588c5ef|2018-10-11|mariaschuld|Split tests, write tests for multidimensional weights, write user-provided grad tests, delete weight reshape.
+db316c01d0cc7b31573ab135ff9cea792acf8cae|2018-10-11|co9olguy|removing test that seems to have only been used for debugging
+d7796acd13f203746ea385f9a3d16f05afec5a89|2018-10-11|Josh Izaac|Merge branch 'master' of https://github.com/XanaduAI/openqml
+67c58471ece79b10fe9bf49d7f4dc3da5decbe72|2018-10-11|Josh Izaac|moved openqml-pq to its own repository
+28fce566fa4f6020cb9328dfd0d22756a7a2b819|2018-10-11|co9olguy|test_optimize.py now runs correctly
+bb002adb3d439a6d4c688fccf6dccc03af8e7729|2018-10-11|co9olguy|Merge pull request #68 from XanaduAI/optimize_docs
+8dbbef5b75a576e33dc611f12e2f594ce5dd29ad|2018-10-11|co9olguy|Update adagrad.py
+5435ed0a1cfdd3eb4a6fe633295d2296bf547093|2018-10-11|co9olguy|Update adam.py
+1c5c3907ee22d503885f7063fd3c348f91bb5d80|2018-10-11|co9olguy|Update gradient_descent.py
+ed65a02f7856c655283066f44c7f0f13633e87b4|2018-10-11|co9olguy|Update momentum.py
+4c3ea025766af448a7a43d8c88dab9c839437ab7|2018-10-11|co9olguy|Update rms_prop.py
+aeb9094e947765e4a06568aecca43e581122b2d0|2018-10-11|Josh Izaac|moved openqml-sf to its own repo
+25a59819d335cf00330b78b143ac0067c7280da3|2018-10-11|co9olguy|Update nesterov_momentum.py
+1cf7328249b8bc3653ed1f76c6faca879ec712da|2018-10-11|co9olguy|Update momentum.py
+d53416827400856c0fdea38211b2e85cfa09a300|2018-10-11|Josh Izaac|fix Adam bug
+ee55162329e28fc26fc4237a91c19866cc632814|2018-10-11|Josh Izaac|added back test_optimize
+99396dc884444a63784d1f19eb57305c97b4a893|2018-10-10|Josh Izaac|linted the optimize submodule, bug fixes in introduction
+76c784b0fc539607f9ec8b94d92246ce26b16445|2018-10-10|Josh Izaac|Documentation refactor - establishes the documentation structure
+ea0ee9977fa100c8415dd5c961d5f7f0e8b8e0bb|2018-10-10|Josh Izaac|Merge pull request #67 from XanaduAI/optimize_submodule
+cf1f5576214b9765a9e9ebf3fdb17198c99633d4|2018-10-10|Josh Izaac|removed old Optimizer class, refactored new atomic optimizers
+43310f54d19d576f17c7e1f1ab81c35417237b12|2018-10-10|Ville Bergholm|BS docs fixed.
+11598a68f4c6f92ddae4370e6d5fa8670a9ef560|2018-10-09|co9olguy|fixed Josh's typo
+1fbb7d462c29fe142a35a09d9cd052075bfef5a7|2018-10-09|co9olguy|fixed BS
+739daaec3da0c4a760edf61f71d645ff96bcfcc5|2018-10-09|Josh Izaac|fixing broken tests
+513cdd7a538f44a7e71ba01ce5c0674f31782fe9|2018-10-09|co9olguy|Merge pull request #60 from XanaduAI/f_heisenberg2
+a2615df72125568ed48e4f6690d8fb0dd46ce2be|2018-10-09|Christian Gogolin|Merge pull request #64 from XanaduAI/projectq_support_multiple_measurements
+15a173807590e52f5fb572f33598a32f966cbe87|2018-10-05|Christian Gogolin|fixed typo
+0556e36c04973760a15c1b8ce11c1b96e99a843a|2018-10-05|Christian Gogolin|disabled deallocation in the IBM backend because it now seems to produce an error
+3b8d5524c12817a9318bf4fa09e137380ed98ebe|2018-10-05|Christian Gogolin|changed calculation of expectation values in the IBM backend fixed calculation of expectation values in the simulator
+a79b4212749d31b203d844e6108a4a354a7aa1f5|2018-10-05|Christian Gogolin|implemented pre_expectations to support qfuncs with multiple Expectations disabled AllPauliZ Expectation fixed generation of DeviceError
+a047151f5ceaae08a09745fde6d7226d3250cb31|2018-10-04|Christian Gogolin|Merge branch 'master' of github.com:XanaduAI/openqml
+2441056a0680d03cb778e2d407632af43b2262b0|2018-10-04|Ville Bergholm|openqml-sf/examples/photon_redirection.py fixed.
+a915b91d8b98cb7556e952fb6dcd5bf3f1490bc6|2018-10-02|mariaschuld|Merge branch 'master' of github.com:XanaduAI/openqml
+89b1a3f62c317fd20effc9860dca51f3746657bf|2018-10-01|co9olguy|finished off quantum nodes section of intro docs
+99e356ad5c5fb23666d132addffa1228c1d409c0|2018-10-01|mariaschuld|Fixed Adam bug
+5689eea0b7d3664689f3b34fd20507365a9a7569|2018-09-29|Ville Bergholm|More functionality for Poly, updated tests.
+5ba6bb9abe10a52126976d9695f2c1324f4fa738|2018-09-28|co9olguy|finished Gaussian gate example
+19a69605e119b5141f9001c1f51aa833878e071a|2018-09-28|co9olguy|finished Pauli gradient example
+d108d5b34a69d9ae2c5e246f2647c0ea85187774|2018-09-28|Ville Bergholm|Better test for flushing out the bugs.
+8a5e15af763832906bb83de9c42e7037bfb6eadf|2018-09-27|co9olguy|improving docs
+77ed944c5b9a7037d7583ab4d44d73d717b3e4d3|2018-09-27|Ville Bergholm|Merge branch 'master' into f_heisenberg2
+51277583c2894abbe5df3130590cec4f4d16694e|2018-09-27|Ville Bergholm|Tests for gaussian CV gradients.
+758937731501c2305e460187d8cb7dd13a5b3278|2018-09-27|Ville Bergholm|Docs, bugfixes, tests, Poly changed into a normal EV.
+8aecd7f0391172631085cca72e1184f1fd15133f|2018-09-27|Josh Izaac|Merge pull request #59 from XanaduAI/examples_maria
+f38495579dc51128557e5dbad5ed09484ae5b3de|2018-09-27|Christian Gogolin|slightly improved initialization of _observable_map
+844610c2108db24a25c1be24412c68944697e032|2018-09-27|Christian Gogolin|fix how Operation is imported to be compatible with the changes in master
+0001b98a2443bc89f8675a792c137443824257a5|2018-09-27|Christian Gogolin|pass wires and shots as named positional arguments because of #58
+9b3d9bf44148ce9dbc27de174ee8916efd59aac3|2018-09-27|Christian Gogolin|pass wires and shots as named positional arguments because of #58
+c4819515ba490f90c73f7144596b62e6aaae3aa7|2018-09-27|Christian Gogolin|fix how Operation is imported to be compatible with the changes in master
+82bd05699ef048a92f5d164d2a72e65326b6e7d5|2018-09-27|Josh Izaac|Merge pull request #54 from XanaduAI/bug_projectq_states
+93bf5206a842b8f978029c104a86c1c40422ae63|2018-09-27|Christian Gogolin|made deduction of class name for plugin provided ProjectQ gates more elegant
+82cc5dbcd63d532ed94eea9f9a24686b44924957|2018-09-27|Christian Gogolin|Actually made Rot() and QubitUnitary() work in the ProjectQ plugin Introduced BasicProjectQGate to have a more flexible way to add new ProjectQ gates and to keep a record of a gates name.
+860f1357ef6f36f0bdb85be8ce6f19b7df6af481|2018-09-27|Christian Gogolin|implemented Rot and QubitUnitary in ops.py disabled error message for state preparations on a subset wires
+cafb70c2db8f541536393412a7d2c59ba888d7ba|2018-09-26|Ville Bergholm|Bugfixes, order-2 CV gradient method, tests.
+acc5fb0a9dd18c73ead6ea84fe46ce70e542f3e9|2018-09-26|Josh Izaac|fixed the heisenberg2 branch to work with the latest SF API changes
+14f75f56f50846ed536844aa28a9a21b10e6b4f5|2018-09-25|mariaschuld|Renamed tutorial 3 -> 2
+349acd5ec0b25b7a04b39b4223c96ee45cd01449|2018-09-25|mariaschuld|Cleaned cv tutorials
+c878ad780b97808253a58e8ab451dd1ca595f493|2018-09-25|mariaschuld|Add plotting to iris classifier, improve notebooks.
+a6f131944ca1ebb526f479f24cf74ccbee421ede|2018-09-24|mariaschuld|Worked on CN QNN tutorial and some other things
+c9b47845df7ab73b452086ebb43334acf2cf814d|2018-09-24|mariaschuld|fix merge conflict - remove update circuit hotfix
+ca3dc428cf6ed458c5730ce8a71593c45b311a26|2018-09-24|mariaschuld|Fix merge conflict for added section
+56d4d9930c0cef6a969e72efeba8f47ed69c0eef|2018-09-21|Ville Bergholm|openqml_pq updated , tests pass.
+76d2ebc4928961c3cfc9a1bda0387ced514dfa47|2018-09-21|Ville Bergholm|openqml-sf tests fixed.
+3ef39da10f708b058a33dc2c19ed1359a1e87b45|2018-09-21|Ville Bergholm|Free parameters inside arrays passed to Operations.
+e40945eeca7c797549728c863a40c908176fb02d|2018-09-21|Ville Bergholm|Tests, undifferentiable ops, make EVs differentiable, more circuit function and gradient call validity checks.
+54d60440000f90066e979c35f16f03c451f42a69|2018-09-20|Josh Izaac|Merge pull request #55 from XanaduAI/f_heisenberg
+ff5cdfef8bd5e281318a179c086eb161c53cdd18|2018-09-20|mariaschuld|delete irritating print line
+53a8e5cb659528147ef880f2b61a608941d6917a|2018-09-20|mariaschuld|Hotfix - reshape gradient output to deal with multidim weight arrays
+c90d5137cd25069eeae6e5c64837c8e77c950d04|2018-09-20|mariaschuld|add dataset for variational classifier example
+ca732b8fac99ba3306fd2b2dbc368b8ed72de683|2018-09-20|mariaschuld|Coded up running supervised learning example, but updates do not make sense yet.
+1d4ea37958ada3ed5532851ec1aadc4f2a862d7f|2018-09-20|mariaschuld|typo
+0b7c721ac853df92dcfc56793a38663f22ea0094|2018-09-20|Josh Izaac|fixes #17
+ac7f3e5b2c02794da778c8e294ad3685a5b1a9f8|2018-09-20|mariaschuld|Merge branch 'master' into examples_maria
+b784c94864068e4a6eaad16ed1ac7ba571a1c812|2018-09-20|mariaschuld|rename vqe example, start classifier
+be97ae69ede4d573f5546669f1ef1472e6583003|2018-09-20|Ville Bergholm|Merge branch 'master' into f_heisenberg
+54c70f73517c2da9daf3273f6d9a17865c3142c0|2018-09-19|Ville Bergholm|Only allow grads wrt. real scalar parameters.
+13b6b14f0aa942c1b7c6562319e020269151895b|2018-09-19|Josh Izaac|removed random test parameter
+8e744843fe529d90e059fa62baa103533f58982e|2018-09-19|Ville Bergholm|Documentation, some bugfixes.
+1aceaa7a04ce737690f1fac5eed239d649dbed29|2018-09-19|Josh Izaac|Merge pull request #49 from XanaduAI/sf_tests
+ffb428fe8c17e0b76ad0a20f6b5cd5d7be6eea53|2018-09-19|Josh Izaac|requested changes
+5097795f78d79bba46e99e188fcabc01958dd3e7|2018-09-19|Josh Izaac|couldn't help myself sorry
+5a459d956f046ad1fbead17e4baad9664c4c71ff|2018-09-19|Josh Izaac|fixes QubitStateVector bug in ProjectQ
+12ccb6a24f2da1dafaf7040565b48267346de41f|2018-09-19|mariaschuld|Tutorial 2 qubit - VQE
+d4137e5e62ede653bf526b2941d8fa0537c83b59|2018-09-19|Josh Izaac|added hadamard gate, fixes issue #52
+719329bff464a8cd4d10fb0bf22a5dd6995a63d6|2018-09-19|mariaschuld|Update examples
+90ae774e4265b71371fdc49a2aee663f11c6fbd4|2018-09-19|mariaschuld|Merge branch 'bare_opt' into examples_maria
+4af36381ce95376e964ff676c5e02f254f8c4d9f|2018-09-19|mariaschuld|Merge master
+67878de778fa516ef79f38b41fa971a35432c5f3|2018-09-19|Josh Izaac|included simplified plugin API naming #45
+8ae6e0230fb96ccaa9a88b3d122031b076b2316c|2018-09-19|Josh Izaac|merge master
+63e3f75692992a3258730fd0f790cade61d97766|2018-09-19|Josh Izaac|Merge pull request #48 from XanaduAI/op_map_class_attr
+2a8e17e5f4b391d2b7005a2dc512af7a3c534533|2018-09-19|Josh Izaac|requested changes
+db09059dbf669789ccd3208b2936bef3b3e616f2|2018-09-19|mariaschuld|Qubit Tut1 done
+20aea33ba813eb1e167735a9c7f002e428308831|2018-09-19|Ville Bergholm|test_optimization fixed.
+98a9b2a8e409591039ae79774f6467b212656532|2018-09-19|Ville Bergholm|Tests, input checking.
+a1ad3ea3897c528d61041b339fcba3f9fa239077|2018-09-18|Ville Bergholm|Plugins updated.
+55276c3ce4b599fc075ee855537879e8712e52c2|2018-09-18|Ville Bergholm|Operation: Heisenberg-picture transformations, tests.
+5dd3ecae05aca5866cdb64b57ab303058755d6f7|2018-09-18|Ville Bergholm|QNode updated.
+689baaaf7368d571cbb7a172ed06a970671af6e2|2018-09-17|Ville Bergholm|Docs updated.
+603994053b1d4a4f7a10888151071be65847b4f4|2018-09-16|Ville Bergholm|Par domain checks, docs.
+cd430823b80e1fe9cd9172deae213898f7bd0864|2018-09-13|Ville Bergholm|Heisenberg-picture CV operations.
+340f9fb424a9a6188d703bd363612d6feebe12c0|2018-09-18|mariaschuld|Merge branch 'bare_opt' into examples_maria
+c2e5922b80c9c1664006548f7548e10e3aba0e93|2018-09-18|mariaschuld|Extended optimizer tests for all optimizers, testing one and two steps. What a nasty piece of work.
+409763307a87e3d6004c0afe2867c98d39a3a296|2018-09-18|mariaschuld|More mistake fixing.
+e60dd7c574171068ba145b2cbd1c94e116e5b463|2018-09-18|mariaschuld|Exclude ipython checkpoints
+296608a5a1a706dafb2d0f5929d5cc8a6e275161|2018-09-18|Josh Izaac|added tests and bugfixes
+cbe4449c8ba2507517d6f9960b262ad808133195|2018-09-18|mariaschuld|add reference for classical optimizers
+8d43853d8255b74d5037cafe2c6da2792a7a4fae|2018-09-18|mariaschuld|Some typos, added Nesterov.
+8e406740007857b6957abe717fa9742bf74616ae|2018-09-18|Josh Izaac|refactored plugins and devices such that operator_map and observable_map are now required and are class attributes.
+d5662f183e5f4433b13a1cf95386c01a57771c38|2018-09-17|mariaschuld|Merge branch 'bare_opt' of github.com:XanaduAI/openqml into bare_opt
+5c65893321c9af12e5c73e8a3da97f3acf87f1e1|2018-09-17|mariaschuld|Restructure conventions section, add optimizer conventions.
+5e115c1e272d622055fb97eaa4527f7c34a6e2ab|2018-09-17|mariaschuld|write notebook and make plots for tut1-qubit optimisation
+d4a02c881ef3ea00474060fc681bd5b6f189b52a|2018-09-17|mariaschuld|Test with new API
+a908562111148f54610cba4543f6a30c55a85863|2018-09-17|mariaschuld|merge master with new UI
+5a52d876bf2112e182c9ce4bfa9a94c6393c5168|2018-09-14|Nathan Killoran|working on primitive mathematical optimizers
+1563ca3a564cba44f34c2407017d82cb7c4e0515|2018-09-14|Nathan Killoran|updating strawberryfields.gaussian to use new plugin api
+80b3b010815feaf9d45968f3ee7b2d64e224c29f|2018-09-14|Nathan Killoran|removing duplicate file
+e6223402b3fae9f247481b75db8a7af210f74e64|2018-09-14|Nathan Killoran|removing deprecated test
+68ce77d0bc728e2a880fc31b16181a7fe06a5d8e|2018-09-14|Nathan Killoran|typo fix
+02a994dad27b25a1c2e378ad13c80c81d496f715|2018-09-14|Nathan Killoran|removing  folder from docs
+1776d7a40c9b2af3fb648223df492bb6450cd3c4|2018-09-14|Nathan Killoran|merging new_user_interface back into master
+b49c45700b11ebc2fdca1eae5175bcd4e09169b8|2018-09-14|Christian Gogolin|turned AllZ into an Expectation
+cca7fd2fd7514511e456c68881c09dbed6ce64f6|2018-09-14|Christian Gogolin|Merge branch 'new_user_interface' of github.com:XanaduAI/openqml into suggestions_for_plugin_api to resolve the remaining merge conflicts
+bcc08c365566d801662fc79c638bf778cfd98927|2018-09-14|Christian Gogolin|introduce a few more callback methods that plugins can overload to make it possible to run the engine only when absolutely necessary (see the fock plugin)
+0489ad49f2f4bcdefb0af27e508fac2b080e4495|2018-09-14|Christian Gogolin|fixed the same typo in the projectq plugin added todo in test
+fb4bc952f353d47eb374b36c9b3a34223e1a1e50|2018-09-14|Christian Gogolin|fixed another typo
+04e67001368d66753443ba2fd770c65963cf871a|2018-09-14|Christian Gogolin|typo fixed
+05f3dfc6dc044fcfd376124b0ed4e78d46ffd209|2018-09-14|Christian Gogolin|make supported behave reasonable
+4c13dd0413190c7a4aa09e6d69a24fb39d1b0c88|2018-09-14|Christian Gogolin|removed commented __init__ methods in projectq ops
+2c21fd6e301baae58142bf6edf7b92cd690fd2f6|2018-09-14|Christian Gogolin|removed batched argument also in the SF plugin
+037dd874940a7148c7ba4094418952188ae3c7b0|2018-09-14|Christian Gogolin|fixed typo and removed batched argument re-enabled Squeeze gate to demonstrate error
+4ff8e1b79ead85913a58a0c7c27a658be3bceb1b|2018-09-14|Christian Gogolin|do to check observables against the device_map as the latter only contains gates improved unit test of installed plugins
+dfc8dc9f758c77a2faa40407ecb01b28dcec4ff4|2018-09-14|Christian Gogolin|run the engine only once per execute()
+b94d19ffc3f01782f569f70c9668029fa1c325b9|2018-09-14|Nathan Killoran|resolving merge conflict
+cf820feb3011dd7f6d99301a7c527373234ff345|2018-09-14|Josh Izaac|bug fixes
+a063f74fee92452d4b0c403bec687e6af453d919|2018-09-14|Josh Izaac|more edge case considerations for autograd gradient product function
+55fe94c0652927b26ac641f9675d45a661faf7e1|2018-09-13|Nathan Killoran|fixed jacobian test
+b173d727db887a185a100b563335e8c62303c73c|2018-09-13|Nathan Killoran|fix for QNode gradient and vjp function
+f8744f6668249a90b89fe4840358e34a5adc629e|2018-09-13|Christian Gogolin|made plugin specific operations of the projectq plugin use the new syntax
+39455830a33bfd5b6d081865166d065370d74d93|2018-09-13|Ville Bergholm|Small changes.
+d221f0209869592a1f6cab03f90128fafa49cca7|2018-09-13|Christian Gogolin|added some docstrings
+3d6dc5ad9919fad13c41605cd43fdd3feda289a5|2018-09-13|Ville Bergholm|Merge branch 'f_qnode_nested_params' into new_user_interface
+10d21d4c402f2f48178b9e97b78da9ae730d5984|2018-09-13|Christian Gogolin|fixed pass on of paramters of observables
+2485cb211b4880a25880a15b508f97743d513325|2018-09-13|Christian Gogolin|fixed definition of expectation() in Device and the projectq plugin improved example
+6c44d248153b3a4879ecaf95b1e058c4c5383373|2018-09-13|Christian Gogolin|fix of device error in gaussian plugin
+458a6070232abe30dffa27c1fbf27d52ec3660ba|2018-09-13|Christian Gogolin|repairing expectation() and fixes in the projectq example
+477a965b7a6532b3993518eecc63d58c724c126f|2018-09-13|Christian Gogolin|get parameters in the new way
+bed8a9af2c17df90b5774d5d6b06901b5bfab8c4|2018-09-13|Christian Gogolin|pass on queue and observe to execute_queued()
+20b25b1987234bdcca90b6b735c3567bbd2b45db|2018-09-13|Josh Izaac|deprecated Device._out
+5ef1940884f7b5722c7e2cab1dd72ff8d5c57c50|2018-09-13|Christian Gogolin|return the expectation values from execute_queued()
+43c27b7d6459b61e197c0ef8b61dbeb954177173|2018-09-13|Christian Gogolin|return numpy array from execute() fixes in the example
+96beaa1222fe97fde61f109941621753ba73e7b7|2018-09-13|Christian Gogolin|Merge branch 'unittests_for_installed_plugins' into suggestions_for_plugin_api
+ee1e593cf7ca949aab7b6944787a5ea01fd18b2f|2018-09-13|Christian Gogolin|Merge branch 'new_user_interface' of github.com:XanaduAI/openqml into suggestions_for_plugin_api
+6091c44dfaffb70717e83ed78bc3aec38e169140|2018-09-13|Josh Izaac|addresses #25
+105bc044a0a35684ec961310aca212d49ba5c451|2018-09-13|Josh Izaac|fixes #35
+3e2d5dd2ee7d9ed08c8be9bc65f0e341fbd77b43|2018-09-13|Josh Izaac|bug fixes following nested parameter branch merge
+a501e2378c652befaf69ecea6054ea9a50a30d7b|2018-09-13|Christian Gogolin|fully make use of new Operation class properties
+37ae47ce12af4a250f4561ad6017e3384ce9651c|2018-09-13|Christian Gogolin|implemented new self._observe logic in expectation() of the projectq plugin
+8e9bc0b704fa80121f57170e9848e794cea35b49|2018-09-13|Christian Gogolin|fixed expectation in the fock plugin
+a351981b8af6826a9c0c5728e8421e233fef52f5|2018-09-13|Christian Gogolin|fixed wires attribute also in squeezing example
+f1f3e07922addc67583f1373a27184196cc72ba8|2018-09-13|Christian Gogolin|fixed wires argument in example, which is now no longer positional
+1a749c5060d20f4e717c5eccfbee3c3f6cb0972a|2018-09-13|Christian Gogolin|use the gate.n_wires property to determine the number of wires per gate
+66decc795a8fc254c1b25b7056adb46c86013242|2018-09-13|Christian Gogolin|Merge branch 'new_user_interface' into suggestions_for_plugin_api
+64393aec8135a86f9e126156c3c3b7400bf7a600|2018-09-13|Christian Gogolin|Merge branch 'new_user_interface' into unittests_for_installed_plugins
+c8ac70d86dac363c2963e6316b46999162425c68|2018-09-13|Josh Izaac|Merge branch 'new_user_interface' of https://github.com/XanaduAI/openqml into new_user_interface
+9713e459f02106fe8005657df8bc4365fe94de23|2018-09-13|Josh Izaac|Added nested parameters, slight refactor of operations, removing device context manager (#42)
+817782f1149c11d1f92a2af50302f3028c550d97|2018-09-13|Josh Izaac|Merge branch 'new_user_interface' into f_qnode_nested_params
+979362c7f1856a47da2fb700a121d9eb6dd1d5ae|2018-09-12|co9olguy|rewrote accessible section on quantum gradients
+9b280540f8e76af97c2b560d4f25c506a482cb1b|2018-09-12|co9olguy|added new figure
+fa9d8bcf0a345d4db79aad225eeda07c4f4342cf|2018-09-12|Josh Izaac|updated doc requirements to install toml syntax highlighter
+5ab05be295ea85930159b56a0c3e4d0f11c079f3|2018-09-12|Josh Izaac|Adds a local or global configuration file to OpenQML (#40)
+6befe4459c218db17e83f23344f03c6fafbd6706|2018-09-11|co9olguy|drafted quantum functions page of docs
+fc2ec00e7f35e36681bacd7737d43e2db2d6be15|2018-09-11|Ville Bergholm|Some tests fixed.
+946c692566313b3bbd3b8932df7e35460a59ab80|2018-09-10|Ville Bergholm|QNode, Operation and Device classes updated to handle nested input parameters.
+d4a2b04dd9b86e303197e6170546771edfd35c8a|2018-09-10|co9olguy|added gradient tests for gaussian gates (Issue #26)
+33135d19d51ad03fd812cecde4b9610ce614c471|2018-09-08|Ville Bergholm|Merging openqml.optimize from master.
+56d91d92f5e494f13139c7c9e0d444b22384ba0f|2018-09-08|Josh Izaac|Allow for multiple expectation values, check circuit jacobian works, implement qfunc argument wrapping for sequences
+c0b8f1f2d0ab783cd7bfee10f1100b9b099b09f5|2018-09-08|Josh Izaac|bug fixes for CV gradients, and changing cutoff->cutoff_dim
+2adf05ecbe64924c1a444b0dd381a7b388c86aa2|2018-09-08|Josh Izaac|Merge branch 'new_user_interface' of https://github.com/XanaduAI/openqml into new_user_interface
+51ce7310b5ced74ce621a3deb761a33326aaa7cd|2018-09-07|co9olguy|change cutoff kwarg to match SF conventions
+6a8858dc30c5c4b6649ab8788618babe92f40b9f|2018-09-07|co9olguy|fix typos
+1ce7900f9c37c216e41dc53181389982cc56779c|2018-09-07|co9olguy|Merge pull request #34 from XanaduAI/default_cutoff_in_fock_plugin
+643b2b6a8ae1a8081e8a3fa43284e9963067eefa|2018-09-07|co9olguy|fixed fanout gradient test
+1b68705c00a9c9e1069de78b62ddec4c1ec866a7|2018-09-07|Josh Izaac|added variable test, added gate recipes to built in CV gates
+7b6ee50aa1c145ab554e0233029ccf7481473f96|2018-09-07|Josh Izaac|Merge branch 'new_user_interface' of https://github.com/XanaduAI/openqml into new_user_interface
+efc6b0a839a6ae90ccd78e4bed2bc220ec803938|2018-09-07|Josh Izaac|began porting CV gradient code over
+2ed7b658ed7d23295ea1f9ab174884f07729f50a|2018-09-07|Christian Gogolin|Merge branch 'new_user_interface' of github.com:XanaduAI/openqml into new_user_interface
+a1d9b08fa3b4fbb1ab61827dc90d0d63dcdb0cf3|2018-09-07|Christian Gogolin|raise an error when an non-implemented observable is used in the gaussian backend
+9e3bee2037566c5025c72ea2f937eb5b46dbf86b|2018-09-07|Christian Gogolin|added comment
+26d634bcc9ed3ced9e943886207ce9c2e3ea741d|2018-09-07|Christian Gogolin|adding a gate
+bfc970b5705282e9999ce6ebc09685d69d6bc0c0|2018-09-07|Christian Gogolin|working on parameter initialization
+357730ab3a32b16e58ff1ee7be14838e517b42b8|2018-09-07|Christian Gogolin|remove default value for cutoff
+31e06e63c5ae6be59b549b42e736e432c1e5cb6a|2018-09-06|co9olguy|make equation more readable
+6ea51d27d76f0abb77a1395e993740ec672e6b49|2018-09-06|co9olguy|added tests for circuits which reuse parameters in multiple gates
+06a461f1b37c097372d9d029aa072545a7253d21|2018-09-06|Christian Gogolin|set the default cutoff to something the fock backend can actaully work work
+0e5b168f9d85421af3aeea857af1f395dfff660c|2018-09-06|Christian Gogolin|first steps towards general unit tests of plugins
+620d0a41bbb133b5df3be3faa41ce0957d08c230|2018-09-06|co9olguy|further cleaning up of gradient-based tests
+9ecfdb4739c5730c197837354f89ac134b5ff008|2018-09-07|Josh Izaac|Merge branch 'new_user_interface' of https://github.com/XanaduAI/openqml into new_user_interface
+444c836fd4ecc265525944734562db5baf5dbae3|2018-09-07|Josh Izaac|added QNode.construct() JIT-style circuit construction
+8b3a9ecf5e0a637998b300343abde5a61b032f8e|2018-09-06|co9olguy|migrating gradient-related test and making tolerance uniform
+d64ceeb7398230cc30bcb425d6ad61c49339a86e|2018-09-06|co9olguy|cleaned up test file and added logging
+08c2e3b858dbd8d8e4000e85e7aeeb02f2f37fa8|2018-09-06|co9olguy|Merge pull request #33 from XanaduAI/fix_random_initial_values_for_unit_test
+26fc86a3824ade07ee4ab833338a6e980ea872a1|2018-09-06|Christian Gogolin|fix "random" values for the unit test to make it pass/fail deterministically
+c287e9074a66db31b8ac88e55d35c228598d99b0|2018-09-06|Christian Gogolin|Merge pull request #32 from XanaduAI/projectq_additional_gates
+35f5183781f246fddb8e7343a1927e7b5f38d5b2|2018-09-06|Christian Gogolin|corrected AllZ operation
+fedb210f29ad937c777cd9fbcc3cf8967964075e|2018-09-06|Christian Gogolin|added classes for operations special to projectq
+c419ff519198f7a2957a810233d5d0258bd4c2fa|2018-09-06|Christian Gogolin|enabled additional gates
+8b390323fcbfbe2329378d21751a0cb50aa73552|2018-09-06|Christian Gogolin|removed todos as they did not make sense
+2e2303a3a87b2a739da515478991f3b8b91783d2|2018-09-06|Christian Gogolin|removed commented code
+68869eeefb9b87b61850a4b4ebd1a7547f4defb0|2018-09-06|Christian Gogolin|finished implementing the new plugin api for the projectq and the fock plugin
+72b0fa1c86491691cea8967179229de7946c4a4e|2018-09-06|Christian Gogolin|made call to qm.grad() in example compatible with api changes
+5dcafe10c414c70354c04c4933d039c5fdb97277|2018-09-06|Christian Gogolin|made call to qm.grad() in example compatible with api changes
+120b879ae5bb1b0c6e33496c9f14c916c072ec0d|2018-09-06|Christian Gogolin|half way done proposing a more "abstract" plugin interface that does no longer require overwriting execute_queued()
+7746d446577cf53c31731c8d6c193ae6874ad522|2018-09-06|Christian Gogolin|added "syntactic sugar" return statements to be consistent with style guidelines
+a359a4fff9a9d1087c1882dd93cebe31f925897c|2018-09-06|Christian Gogolin|lazy load import projectq.setups.ibm more explicit requirements on projectq to be able to remove fake gate that was necessary because of https://github.com/ProjectQ-Framework/ProjectQ/issues/259
+6d577ec161b0fab42a16ab1e415f5f253d71a26a|2018-09-06|Christian Gogolin|Use self.gates also internally code cleanup
+93ee9431d8c196aadf542c874dd3cfaa6588429f|2018-09-05|co9olguy|added test for Euler rotation (Issue #26)
+bfeed84caf333662dbf00983d4add786f020aecb|2018-09-05|co9olguy|added first tests for automatic gradients of qubit gates (issue #26)
+839ff5d69356fa00b21dded93ef1d68046298dc1|2018-09-05|Josh Izaac|Merge branch 'new_user_interface' of https://github.com/XanaduAI/openqml into new_user_interface
+54cf0f616175793b2882d1df9738ae6f238e8b5e|2018-09-04|co9olguy|polished intro page
+67b02152d3c0972ee8ee3e9484e05fb3d97147d3|2018-09-04|co9olguy|fixed typos
+7b3d21575b698d98b6c1d080ae776d49b7ab59db|2018-09-05|Josh Izaac|Fixed up tests and examples
+bdfbbc608f05fecfa3a5bf39f7e691aac41c1ddc|2018-09-04|Ville Bergholm|Optimizer methods updated.
+0a2806f73ff92e67fae4e8bc172da30de869739b|2018-09-04|Josh Izaac|bugfix: have plugins return expectation value rather than setting _out
+92f64afada2760b6901626afe2a60a3c933b0d78|2018-09-03|Christian Gogolin|Unit tests for the ProjectQ plugin (#24)
+e08c7a0b2dc5002a935737e661a6e8e8c9040de3|2018-09-03|Christian Gogolin|Execute queued (#22)
+a04aad4c762a5abf314600f823c0d6c5b2a0af58|2018-09-04|Josh Izaac|Merge pull request #21 from XanaduAI/new_user_interface_with_projectq_plugin
+aeee4f6f07a91e34a47f0ae59e3ba73b0bdb4870|2018-09-02|Ville Bergholm|Optimizer class: bugfixes, more useful return values.
+1f0e9855f57e281b323db2bf76cf2282554b7ed2|2018-09-01|Ville Bergholm|openqml.core renamed to openqml.optimize, Optimizer class reorganized.
+eb0d941864269f38910656012a1a433257386d6f|2018-08-31|Christian Gogolin|removed superfluous double call to device.reset() addressing #20
+57fa61c189e4a3e918c5f5291f9a31eea7f0a9a5|2018-08-31|Christian Gogolin|renamed measure() to expectation() fixed typo in call to backend.get_probabilities
+6d01c195d59909fc1de0d9b5a91910aab145dfe0|2018-08-30|Christian Gogolin|do not call reset() manually as it is superfluous
+ab4f518e5317277c4b7d7e63a39eae9f4644e8a7|2018-08-30|Christian Gogolin|moved conversion from gate names to gates into apply() added some default options for testing the ibm backend
+808359092a86c132882f20a3aac45875cc03e5a2|2018-08-30|Christian Gogolin|allow the use of different optimizers in the example
+f3dab1d47721af200d0ec91dbe0b153ba5020d56|2018-08-30|Christian Gogolin|implementing measure() for the ibm backend fixed docstrings
+07e1fdf3e79f5c5dd37530bc81b0f34ea18bc43c|2018-08-30|Christian Gogolin|added check for user and password in the ibm backend added code to example to read user and password from command line
+33e58e58be119c68ddcdb0f851942f3229ab0dc5|2018-08-30|Christian Gogolin|moved initialization to reset() to play according to the rules of the new API first version that successfully runs the example
+ef7d7b016ddfbab1c112e0bd465c90a08dc31104|2018-08-30|Christian Gogolin|implementing measurement logic
+6279bb9ea78d79432af5d255448d76bc583aef2d|2018-08-30|mariaschuld|Tidy up examples
+1e33b7083db2222d9c04a515c76abde990a1664c|2018-08-30|Christian Gogolin|moved initialization of engine and reg to __init__()
+ba7f408a068b9a22b70d2b666f0f3b0d86f89054|2018-08-30|Ville Bergholm|Merge branch 'cv_gradients'
+e73516b858c9a239d99821ace8f179c7e13481fc|2018-08-30|Christian Gogolin|untangling the parts of the ProjectQ plugin for the different ProjectQ backends
+2563fbc94a8f49849df8bb1dfef7074fe065ebcf|2018-08-30|Christian Gogolin|new style mapping for gates and observables
+4b37f491e53efcc3fc9325c9c52a0dd067d28fb0|2018-08-30|mariaschuld|create files for all examples
+2ee3767ee5dc59d730cc6535012a9873cf25dea3|2018-08-30|Christian Gogolin|Merge branch 'new_user_interface' into new_user_interface_with_projectq_plugin
+ee52daa752ea1b7c14a891d5fd963db9553ad855|2018-08-30|mariaschuld|Improving second vqe example.
+860cfdf9fa995214d7a4e02367b465ce86e8c6ca|2018-08-30|mariaschuld|Pseudocode of CVQNN example (does not execute)
+72d33c95618c7dfdf15d3098c464cc81c3df0c28|2018-08-29|co9olguy|Merge branch 'new_intro'
+7a6f53c0c9fd2d93ddbde595b95f14ba20b97f42|2018-08-29|mariaschuld|Merged user_interface updates from JOsh
+2a83e66947822befa689c954bbb15661bc8b1c72|2018-08-29|Josh Izaac|weights are copied into the optimizer
+7dc681ec7c77a191b9145fbee288aad0151b9fdc|2018-08-29|mariaschuld|Bugfix: Delete arguments of expectations in cost
+fd80cd97c7414d0055da12379944d224cf5d4b1a|2018-08-29|mariaschuld|started coding new vqe examples
+45f502f1c76c4b48b4ee220e8f5f1fa8192aff3f|2018-08-29|Josh Izaac|merged changes suggested by Christian
+9112f6e7fb61ac52deda9a714572b5c1ac806dcf|2018-08-24|Ville Bergholm|Derivations for CV gradient formulas.
+147559af093fdb3a15531a4b890f00d3cad8e67e|2018-08-23|Christian Gogolin|miving around code
+ece7fea809137c3cfedad3d809c1f17a48e83567|2018-08-23|Christian Gogolin|adopted openqml imports in ProjectQ plugin added _version.py
+87847e9c95bef27da9da5fee715d231391ab4657|2018-08-23|Christian Gogolin|started editing the plugin to adopt it the API changes
+dab306ffd0aba0e7de0012757a0effbee03767ce|2018-08-23|Christian Gogolin|deleted the energy minimization example from openqml_pq
+5f5301f10c8a0c8449ccbfa23a1067f54a6f8136|2018-08-23|Christian Gogolin|added __init__.py and an example which does not yet work
+c7ef1d7ba2b6dd1d86957558abae05ddd57276a9|2018-08-23|Christian Gogolin|adding license, readme and a few stub files
+81b2973e65db9e941b03cfb8c9b0b3ee7cb41f6e|2018-08-23|Christian Gogolin|moved projectQ plugin to new location to prepare putting it in separate module
+5aece55c92fff12fa401cb8f4b3071e29dc26a62|2018-08-23|Christian Gogolin|Merge branch 'projectQ_plugin' into new_user_interface_with_projectq_plugin
+5805a074bc7316d1460edd5bd92a1bb3230e98a7|2018-08-21|Josh Izaac|fixed readme
+5ed084c286231b388f1ee72f1c332c791203efdb|2018-08-21|Josh Izaac|first commit of new interface
+968286cde9f65355ea238ac3bee47f6486c66a1d|2018-08-18|Christian Gogolin|implemented methods for the new parameter pass on code reasonable cleaning of received paramters improved __repr__() and __str__() write warnings to log instead of raising a warning make requires_credentials() an instance method
+42812d58930b3f70a7e732c16d57549465222934|2018-08-17|co9olguy|wrote qnodes page and more restructuring
+23db5be03fee6b44c80012c9141f2e5bbc46675c|2018-08-17|co9olguy|restructuring sections
+96391dd5c6c3234c432b9334bc6de5cd150172d5|2018-08-17|Christian Gogolin|removed the with Compute() statements minor cleanup
+af639182941b9f5500ecacdfde54e0851c9e53f9|2018-08-17|Christian Gogolin|Classical backend now works more demo circuits
+a1f12445b275ad5fa180bd4b9292fcaf9ecf2248|2018-08-17|Christian Gogolin|all tests now run with the Simulator and IBMBackend code cleanup and debut output removed
+17e3429c553edd69b85718aed1421f840ea0908f|2018-08-17|Christian Gogolin|workaronud for measurements failing on trivial circuits added do deallocation also for the IBMBackend as it needs it as well removed debuggin output added a proposal for a requires_credentials() method to the API that can be called to exclude certain backends from automated tests
+deafc3d1f5a4f130e383230367fe554d2656879c|2018-08-17|Ville Bergholm|strawberryfields plugin: Heisenberg-picture gradients work for the D, S, R and BS gates.
+aba16689c5377bc7186d5c983e068f7c4a0da066|2018-08-16|co9olguy|started drafting autodiff section of docs
+606e3988366c8e203e7c512cfa385316b00bc021|2018-08-16|co9olguy|fix typos
+ef6a1d802617dd8611464208a5846e5370e523e6|2018-08-16|co9olguy|fix typo in circuit.py
+6f2d02fc65dff8ecbad6ecbae58efe97fb67a3ba|2018-08-16|co9olguy|added new page for quantum autodiff
+059b9cd36a760a3f989177b8bcae18e527293f7a|2018-08-16|co9olguy|actually add images
+b003e395f40b953589c7268c7e7c9a3847274a8f|2018-08-15|co9olguy|fixing sidebar
+cbe610de9fb690aab7ec797e50e34c025123b43e|2018-08-15|co9olguy|polished intro and figures
+ce0930b18dd24c0ec96f59b9e2223e9f6a10ee7f|2018-08-15|co9olguy|added node and hybrid graph images
+67a896e497f2723fd27eb890ff35c9e19d057e95|2018-08-15|Christian Gogolin|implementation of execute() for Observables in the IBMBackend still missing
+cdf2a27c4d1781d2ac60f9277d8479eb3f515bf7|2018-08-15|Christian Gogolin|first version in wich all tests pass with both the Simulator and the IBMBackend
+4b64aea84d609205dbe3d9a666dd68f428330818|2018-08-15|Christian Gogolin|improved qureg (de-)allocation to make all backend happy at the same time commented out the code that is suppose to estimate expectation values during measure() for the IBMBackend
+9f051839ce48f5f99675734d88bd42c57156b54e|2018-08-15|Christian Gogolin|finally made measure() almost work with the IBMBackend
+015b5ff29dd63081c36c384b4371901c46411679|2018-08-15|Christian Gogolin|remote circuit execution on IBMBeckend now works
+3b3eaf016d29eee0bd7fdf42b0cbe764deaab8a2|2018-08-15|Christian Gogolin|added AllZ gate ane AllZ measurement as good as currently possible
+b4dcfb24ef278752c66a3de19ae9f95c6d984596|2018-08-15|Christian Gogolin|IBMBackend now working up to login
+e82819eb22c5496aa11f06eedf03a6925ff5719d|2018-08-15|Christian Gogolin|fixed pass on of parameters to the IBMBackend
+65cd4cc8cdccdc4db3cf325520fbeccc2fb80522|2018-08-15|Christian Gogolin|classical backend now essentially work
+2056310e0c824ac3d20a7b82379e3ae6903b2210|2018-08-15|Christian Gogolin|further cleanup and docstrings improved
+81d5d84206949024c23071ca51670f09bde32f7d|2018-08-15|Christian Gogolin|deallocation issue more or less solved
+7a78866cd3e1695cd22e8e562ac9ae2ee21e86f9|2018-08-15|Christian Gogolin|in the process of fixing the deallocation problem
+9a9b5a72d0c0a6a6cb6cf1db021210dcd9b50b92|2018-08-15|Christian Gogolin|code cleanup and fixed many pylint errors
+5938ff6113eb5763847bb8c2fb21b39b623e71f6|2018-08-15|Christian Gogolin|Merge branch 'master' into projectQ_plugin
+b0783bcd3711771888eaf8a7617b55ba87ec5bbe|2018-08-14|co9olguy|draft of key ideas for new intro
+50ff0d619743c3c6ddefe33cdd3a22ccb62cd014|2018-08-14|Ville Bergholm|ParRef scaling, tests.
+13fda84dfed72b99d9272cafac676f07b1854bee|2018-08-10|Ville Bergholm|Docstring fixes.
+f110ce21d18ef3ddde630c05c11b0f9013d60225|2018-08-14|Josh Izaac|started fixing up docs for release
+18ccf6394b3b5565e1025ebba4f17d42453ef4bf|2018-08-09|Christian Gogolin|added code and comments to demonstrate the deallocation issue with ProjectQ, simply run tests/test_plugins.py to trigger the error message
+990809efc9082d8a912fd04b7378a34e0e31492f|2018-08-09|Christian Gogolin|Most single and two qubit gates work now
+48b4a562a7a985933683b40eface850c8c7a06fe|2018-08-09|Christian Gogolin|new gates now working: SqrtX, Swap, SqrtSwap, Rx, Ry, Rz
+6ecbd793c94e2048f76e4956ca31774cb40c1095|2018-08-09|Christian Gogolin|trying to get multi qubit gates to work explained why only the Simulator backend can be enabled at the moment fixed names of single qubit measurements
+98652d851314e8738fbcb4dca45032c132d5d1de|2018-08-09|Christian Gogolin|first version that passes all tests for the standard Simulator backend
+3dab06c443be66d10bc4772aa7b529b1fefdd093|2018-08-09|Christian Gogolin|use pq Compute() and Uncompute() to during execution made demo circuits compatible with those of the SF plugin to make tests run more easiliy
+cf3997cbc554167cc589eb168f1601f45ac29da7|2018-08-09|Christian Gogolin|implemented circuit execution and expectation value collection added MeasureX, Y, and Z
+b5ca4ecdf870f118c56d2c4d5060b9f992892288|2018-08-09|Christian Gogolin|fixed gates and disabled some more "problematic" gates for now
+9bdf4181b3d29e426c594b539787ae24eb0da3a5|2018-08-09|Christian Gogolin|implemented initialization of engine fixed demo circuit fixed plugin name fixed typo in initialization of _capabilities
+9cdcc1485c4a7622cab72facc232ccc07a8cf2a0|2018-08-09|Christian Gogolin|added gates and started modifying the implementation of the PluginAPI class
+bab81753a7bfa469b0b8c02aef189530ab9c7d1c|2018-08-09|Christian Gogolin|improved documentation and started coding
+167dc39cb8010e4db1fbe9bb264fd745d9d701db|2018-08-02|Christian Gogolin|added stub plugin file for the ProjectQ plugin
+45331a2560a5d18e0c4acf304f18bf82add3e9b9|2018-08-01|Ville Bergholm|Better gradient computation. Now uses the proper method for each gate/parameter separately.
+0e219d7df187bc56b96e493965c92a5219c652e5|2018-08-01|Ville Bergholm|Quick fix: now autograd works with SF.
+e56dc363c85dc556b8967edd487876a7f1b174a5|2018-07-31|Ville Bergholm|Docs, tests, photon redirection demo.
+b43db9adcef5fcff0710e4e01ec7e32838695069|2018-07-31|Ville Bergholm|Non-float Gate parameters. More consistent logging.
+a6c4bb7cf7ed69c7e5c1515a6ceaa7daf9c6edf5|2018-07-23|Ville Bergholm|SF expectation values, plugin docs.
+f2fdc357ed0b768e7c2bd59873945b8bb72af8c0|2018-07-21|Ville Bergholm|Notes on how we estimate expectation values of observables in the plugins.
+7fe0f3d21fe87712ecd7e249ed1f865cd0fe6042|2018-07-11|co9olguy|Merge branch 'conventions'
+41eb46d371a38e8fef66b858f0b56cd74fb47327|2018-07-07|Ville Bergholm|Optimizer improvements, docs.
+47cc5554e5c37b3f48232bdf568300989aa764b3|2018-07-06|Ville Bergholm|Gate and observable sets given as dicts. State preparations for SF plugin.
+137597f652ae883d28267beea8a7298fbe0ac109|2018-07-06|Ville Bergholm|Optimizer class updated, optimization tests pass.
+53582b7c9c0bda68a34f5d14cd8bb33f4df6cdcd|2018-07-04|mariaschuld|Resolve merge conflict: Divide appendix into Ville and Maria section.
+6245d1966e02cebc77bc00f8f3fc229b74549488|2018-07-02|mariaschuld|Merge branch 'master' of github.com:XanaduAI/openqml into conventions
+8dd7f0d9daccfc55705b047568205d66a1dd7c7f|2018-06-29|Ville Bergholm|Autograd test works.
+0550d667bc484f5e9fc5d31afe855d01051b5f97|2018-06-28|mariaschuld|Merge branch 'master' of github.com:XanaduAI/openqml into conventions
+97a106d6bf4bebbf76af442f7311c1bf7a88b8ea|2018-06-25|Ville Bergholm|Simple optimizer added.
+5b13f98a171875d2a7884303d7e9ea6b828fb299|2018-06-20|Ville Bergholm|Multiple backends per plugin. Docs.
+711d7d121dfc07346d335ecbafbae0f3ea9b8bc4|2018-06-20|mariaschuld|Merge branch 'master' into conventions
+6214b20009d2141328abffdec63bf570d96ec588|2018-06-19|Ville Bergholm|2nd order finite difference gradient added.
+842ac04e91f0164d85b9f25202c949e63a4ddba6|2018-06-13|Ville Bergholm|Strawberry Fields plugin, better handling of observables.
+33e200292c177e1bba6835e79422ad68c4f6de1c|2018-06-19|mariaschuld|Whitelisted image in gitignore.
+3bb5323c0662f307ac348e4e88121427f0a9dd31|2018-06-18|mariaschuld|Develop hybrid model graph language.
+642d2cc8b9fb365d9cfe4afff5186f0a9527f437|2018-06-11|Ville Bergholm|Autograd almost seems work...
+0319ac4656558cde60344bd6c85ed1358ed4bc84|2018-06-10|Ville Bergholm|Quantum nodes.
+cfb065afb3b56a535de43f1a6406c448737879b4|2018-06-08|Ville Bergholm|Subsystem index mapping.
+25fd52139b0f4e93ee61899e2e97090ff016c0c0|2018-06-08|co9olguy|started intro page in docs
+11dd50b0fb9b852225c20b5be82a6c4accd20ba2|2018-06-08|co9olguy|organizing literature into bibtex file
+73a17d884e13488c31af77aa1834ef4cc00a2182|2018-06-07|Ville Bergholm|Expectation values.
+dd95b0540d623563a2c73277b402e7af4a3578af|2018-06-04|Ville Bergholm|Reference, gradient computation formalism.
+3c434fc0be59dbbedb88d5a97a7519af7a6a00d5|2018-05-30|Ville Bergholm|Logging, basic circuit gradients, bugfixes.
+4785dd8bc2a68645a70de68b3bd2b681d527b16a|2018-05-29|Ville Bergholm|Basic features of the dummy plugin. Circuit class.
+737f46bb5191f5493b811bbe420787dfd251bd5c|2018-05-29|Ville Bergholm|Gradient estimators.
+fdba4549da60613e36bfb09477fc2ac6d4dfdd66|2018-05-25|Ville Bergholm|Single-qubit gate gradients.
+17ae15da06fb6c316e295520a58cbbfa78f9f6c3|2018-05-18|Ville Bergholm|Dataflow graph ideas.
+7ab6b3d4bd342fbde808d3fd7b5b5601a7cead53|2018-04-27|Ville Bergholm|Edits to the formalism paper.
+6a20d512140bd74b752ddd254511d17f98772885|2018-04-27|Ville Bergholm|Latex files cleanup.
+4414636f251d43cc8704a2e511d503035b034d8c|2018-04-26|Ville Bergholm|Conventions file added.
+52b60be1d3f40d25eeb75ab1ef6822bcae969aea|2018-04-26|Ville Bergholm|Merge branch 'plugins'
+3ae82bb48ec9bc3d52f2686f29b5c15a5ad7cf19|2018-04-26|Ville Bergholm|Plugin interface ideas.
+d4c10b93d4ef07d52d5b352c65fdb055af02f99f|2018-04-20|mariaschuld|Typo
+478b65698205373bd27182cadf2070ccf12ca787|2018-04-20|mariaschuld|Added Variational Circuit section
+212f135d04bc410684326980e3bc21f6c702a861|2018-04-19|Ville Bergholm|Circuit gradient stuff.
+8a3143dc2006a411a9529c5ab2294b13bc7a9feb|2018-04-18|Ville Bergholm|TODO updated w/ optimization tasks.
+0ee72ad1ba50bebcc2901825af3afeefe46c1fdc|2018-04-18|Ville Bergholm|Plugin tests.
+a5d854922a6d6f4fce51638e818203441f589135|2018-04-17|Ville Bergholm|Basic plugin system.
+31c8548a38977df19afea2d29a8db5f8a1506b3c|2018-04-17|Ville Bergholm|README added.
+cad1b4fb5012d5adad65545fade091cefd32821c|2018-04-17|Ville Bergholm|Initial commit.

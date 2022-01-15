@@ -1,0 +1,909 @@
+5f094c92c225213b9d69dadd555eee541236e06f|2020-10-10|Daniel Strano|Remove "test_base_case" (#512)
+69a5323188091f9675f1aa579ee2dc5160498ac4|2020-10-08|Daniel Strano|Virtual destructors; compile variant debugging (#511)
+7a67dd52e614062ab3f1ef2665fa20472614ffa1|2020-10-07|Daniel Strano|"time()" is a C function (#510)
+5dbcafe248462e6adf4245c977d6f5b85115c4bb|2020-10-06|Daniel Strano|No need to filter QUnitMulti sub-engine types (#509)
+7f79c52f37c61b1099cf5deed30e5ee3a6960feb|2020-10-03|Daniel Strano|Skip QUnit::SeparateBit() if QStabilizerHybrid shards (#508)
+301fc4e3b3f46822f15298c20457c636bf9d66d0|2020-10-02|Daniel Strano|Replacing QINTERFACE_OPTIMAL with QStabilizerHybrid (#506)
+3f2aeb524de11b3cb7d55fe9caee15c6d404d925|2020-10-01|Daniel Strano|Restore buffering with QUnit -> QStabilizerHybrid (except CommutePhase) (#505)
+57b375f8b73ede901f4444656efa72bfda88e244|2020-10-01|Daniel Strano|REAL1_EPSILON is likely to be common limit of systematic error (#504)
+e6b562173277dae7dd0c2a98f15fabef6dcd1840|2020-09-30|Daniel Strano|QStabilizerHybrid::ApplySingleBit() fix (#503)
+22f6717e2b734d75722fea2689c7f9299c2bbfa4|2020-09-30|Daniel Strano|Skip buffering for QUnit -> QStabilizerHybrid (#502)
+f75cd7a2114324754c40cef60ff565dcfba37596|2020-09-30|Daniel Strano|Refactor "real1" rounding threshold (and remove dead code) (#501)
+92ecdc90955ea09de3c9244ce10f27e9d0d7184e|2020-09-30|Daniel Strano|Cover X basis buffer stabilizer edge case (#500)
+615ee0c95cbc8293f01f531bf9e7788d71abc84c|2020-09-29|Daniel Strano|Missing QStabilizerHybrid edge cases (#497)
+62686401960d172c662fe82ff00f226fab24dab7|2020-09-28|Daniel Strano|Move QStabilizerHybrid logic from header into .cpp (#496)
+70d38dc3e9c33983bb41c624f715b86fe181c03f|2020-09-27|Daniel Strano|Revert skipping QUnit buffer is QStabilizerHybrid shard (#495)
+48c118968509ba97da1cc81f53923ed901459129|2020-09-27|Daniel Strano|Skip end of QStabilizer::M() if redundant (#494)
+88b75f08a3457b1e5d12f74f4b2b7c910e88f427|2020-09-27|Daniel Strano|Don't except control if IS_SAME_UNIT() (#493)
+1a0d3511bf9dc56089d845933c68932cda564d97|2020-09-27|Daniel Strano|Skip QUnit buffering if two shards are in same unit (#492)
+ae48f78ea22f4842caf843ed8bfcd70867cc2cdf|2020-09-27|Daniel Strano|Skip QUnit buffering, if QUnit -> QStabilizerHybrid stack (#491)
+554db94f62d386fb7861f97671fde71cdda316d5|2020-09-27|Daniel Strano|QUnit -> QStabilizerHybrid stack (#490)
+0a62499e33a193144c94f313d81e30d67efcf900|2020-09-26|Daniel Strano|CCNOT/CCZ overrides for QStabilizerHybrid (#487)
+2cc78196e262a77bbf1c8c1c17240830cf861b30|2020-09-26|Daniel Strano|QStabilizerHybrid (#484)
+d15b10506a4d21025df3334af32fcb7cc60beb13|2020-09-24|Daniel Strano|ProbBase: Separate remaining single shard in Z or X basis (#486)
+c886ca48712108c461412f5b2c065e587c8dd0a3|2020-09-24|Daniel Strano|Sweep all shards for isClifford update after QUnit entangle (#485)
+b032ed8201d32abcc3863ee52cd33776da024ddd|2020-09-23|Daniel Strano|Update isClifford before 'bit' (#483)
+2492bf592aef8e5196503bafb152061cd48b9a01|2020-09-22|Daniel Strano|Fix offset and pointer bugs in QUnit::Detach() (#482)
+421a3350376d659ea94cb57aabe5677908ba3a80|2020-09-22|Daniel Strano|Remove redundant 'length' param from Decompose() signature (#481)
+89aa60be1c97ef02d13dca34d8219e0d1999581d|2020-09-18|Daniel Strano|Simplify Z to Y basis transformation to 1 gate (and inverse) (#480)
+1b9fbb0a618cb1c6cf8b0e3c7ee0995daf85fa8d|2020-09-18|Daniel Strano|QUnit::ProbBase() debug (#479)
+07267d495a5065318a250125e0aa09ad23c857d9|2020-09-14|Daniel Strano|Update README.md (#478)
+0782b6876f2b7438530c3d6cd8c27cc4f23983c7|2020-09-14|Daniel Strano|QUnit::ProbBase optimize (#477)
+f2909b90ee1fd33247a23a7fff5f2c25ac47eb86|2020-09-13|Daniel Strano|Check for |+>/|-> basis in ProbBase() (#476)
+ad056bc8f1346bc985bff746a2283250adbbbcb5|2020-09-13|Daniel Strano|Controlled Clifford cases
+45aa99b09f9bf30b92b0bd3118dfeda9a1cf0311|2020-09-13|Daniel Strano|CY is Clifford
+adb3757355b03139e39fc9d407888483c714691d|2020-09-13|Daniel Strano|Clifford set optimization (#475)
+c1eed2ffa6009db4b0e18c732eb9aa1c156aea46|2020-09-12|Daniel Strano|Optimize AntiCNot()
+4cca026489d1592502b09d3b88530103ade1cfb9|2020-09-12|Daniel Strano|Revert GHZ optimization attempt
+b3d708737cc239f320158cbed222703f18eef4dc|2020-09-11|Daniel Strano|CNOT debug and optimize (#473)
+abf5243f6d3bf1e2fa63d8061475cc76c3cc4be2|2020-09-11|Daniel Strano|Restrain CNOT commutivity
+1e6c62f205f13c4978d876fca61aff2350fccccb|2020-09-10|Daniel Strano|CNOT optimization (#472)
+2a269316ee30558c124071792e37ce1cd3b9da03|2020-09-09|Daniel Strano|QUnit CNOT: control bits commute (#470)
+6b57a1c97e4b295568667a7d54f6dafab95312d4|2020-09-09|Daniel Strano|More commutation in QUnit::ApplyEitherControlled()  (#469)
+071f71666794587a5b40c66b830460d25471a214|2020-09-08|Daniel Strano|Remove redundant QUnit::SetQubitCount() override (#468)
+298c4ca3fdf219d2aaf3d7dba508ea48c39d0fce|2020-09-08|Daniel Strano|Clean up QUnitMulti:EntangleInCurrentBasis() (#467)
+767835448009ec0f69cbe49e151153910500fe61|2020-09-08|Daniel Strano|Fix benchmark --proc-hybrid-multi switching
+8d168f334add4a21fe9a62f221c6a099df961d5b|2020-09-08|Daniel Strano|Fix QUnitMulti/QHybrid tests
+4d47b8705f6d9a12eb780d56875cea8b280f361d|2020-09-08|Daniel Strano|Hotfix: reassign unit1 after EndEmulation();
+17ec119e4ea70c175120e68feb966211475d753c|2020-09-08|Daniel Strano|Hotfix: EndEmulation() before checking unit
+c15648009c0be8407d7afd9bc7a5edc831e1dc9a|2020-09-08|Daniel Strano|Restore QUnitMulti device limit checks (#466)
+14a91f906dbaf6b1bfe713693763595fe3b78d49|2020-09-07|Daniel Strano|Enable QUnitMulti layering over QHybrid (#465)
+faed092b407ef9c29cd618854c81e42f80952a21|2020-09-07|Daniel Strano|QHybrid: disambiguate factory params
+7d7f0f50652a821f1dded3ef5b057779ff1dcae3|2020-09-07|Daniel Strano|Avoid redundant std::find (#464)
+0550078ffc858bebd0b1b207e56cf97bf43d3ae1|2020-09-07|Daniel Strano|Add QUnit::thresholdQubits
+23aac68805ad1b509a84989a78ddde083f41cee9|2020-09-06|Daniel Strano|Restore disabled QUnit optimization code (#463)
+7bdbf5a2cc4f1bcd2fa1b17e43c49eed991719d5|2020-09-06|Daniel Strano|Make QHybrid default engine type (#462)
+3e910a18705aaa81f18eb2f168af160e06caac13|2020-09-06|Daniel Strano|WIP: QHybrid (#461)
+f12432b76003d404bffb9f8aa9db86168b81c096|2020-09-04|Daniel Strano|Option to disable OpenCL memory guards (#459)
+dd11ace60a1ad771a8e7d2b65585c09d443a48a8|2020-09-04|Daniel Strano|Default -DENABLE_QUNIT_CPU_PARALLEL=ON (#458)
+638b391be6d645dc567d9124707b7e8c5709aed0|2020-09-04|Daniel Strano|Right-size QEngineOCL::powersBuffer
+cb3925400bc6fb2398bb863f12d8e84dceb5c67f|2020-09-04|Daniel Strano|Hotfix: qPowsSorted
+5d89684ec84d13b901964ff2079dbf9d3abef847|2020-09-04|Daniel Strano|Lazy QEngine initialization in QUnit (#457)
+57dbb3546de49f8968ad94b2ac3f1370366c9bbb|2020-09-03|Daniel Strano|More async QEngineCPU methods (#455)
+5c7608a9cb57d67d5fefee499951fe59a2998d88|2020-09-02|Daniel Strano|Hotfix: Remove junk from last PR
+db7f8f7f157a6c7358d0e8debbc1749cdf10e2b8|2020-09-02|Daniel Strano|Remove DispatchQueue in favor of std::async (#454)
+78c0dba17ee6e7dbd72fb76838252e901f4b2005|2020-09-02|Daniel Strano|Only use DispatchQueue below par_for width threshold (#453)
+f8d6ae9639097c1e010ecd21bf7ede45036501ed|2020-09-02|Daniel Strano|QInterface::SetConcurrency() (#452)
+9f297372fc0b55db0da9dc52c3d37252ba807da0|2020-09-01|Daniel Strano|QEngineCPU: Async dispatch (#451)
+e9fb5ecd045ec94a5aed56588c4afc6fa91e3c05|2020-08-31|Daniel Strano|Not necessary to capture Stride (#450)
+5adfdc86116e79c8954851f3c7a3a81206131549|2020-08-31|Daniel Strano|QEngineCPU optimization (#449)
+53f6166e3a97a0b1198f98c25ad7bbbb67d962c9|2020-08-30|Daniel Strano|Debugging for Android NDK (#448)
+7d7494508209dfd0a13cd7e1d022dbbf471c473a|2020-08-25|Daniel Strano|DLL TimeEvolve() (#446)
+ffae0b1b9a245cff784cbb79775428fa04a69d1c|2020-08-24|Daniel Strano|PInvoke expansion (#445)
+5f7b2d02bc8a2930c62ff9e95372be0f914d64ed|2020-08-17|Daniel Strano|Fix paren cast for Windows (#443)
+4723dafb114117e47ad709df38d5a7518fc90525|2020-08-10|Daniel Strano|QPager::SingleBitGate() optimization (#442)
+ff53c79c6d02831dc7998928d93a97a8957858d3|2020-08-10|Daniel Strano|QPager::SemiMetaSwap() (#441)
+3a3e2c527464d0f5ab39df3f47fe85a9f064201f|2020-08-10|Daniel Strano|QPager device ID default (#440)
+e3cc71e7e4182c1f6430bc91ecb3febca3921b84|2020-08-09|Daniel Strano|Lock wait events queue on dispatch for all QEngineOCL instances (#439)
+bda5434e7ee841590766567051d0de632bf0f70f|2020-08-09|Daniel Strano|Partially revert commits from today (#438)
+8a6150ffc3d52e4807e2fab3984839eda3b0b50c|2020-08-09|Daniel Strano|Hotfix: Fix OCL DispatchQueue()
+3d0831b0e45d53a7e7a544df63025d57791ee16a|2020-08-09|Daniel Strano|SetDevice() should respect ZeroAmplitudes() (#437)
+ea4ea6496dfb3f518d1e0907d89558fa761207f2|2020-08-08|Daniel Strano|Fix QUnit->QPager benchmarks (#436)
+f9df49e39689895a01794a364cc1c1fdfe5b047c|2020-08-08|Daniel Strano|Hotfix: Flip device_id and context_id
+bdca949856ee5adf026ff11f00e0d2c3bd3d6352|2020-08-08|Daniel Strano|Hotfix: 3-layer factory calls
+e0a1a5cc674e51ce855fc1a453af4ce2b43803ae|2020-08-08|Daniel Strano|QUnitMulti debug (#435)
+fc13e53351f5575636053bc545677a341c53d6eb|2020-08-07|Daniel Strano|Debugging/optimizing QPager::Swap variants (#434)
+ba5c0412101e16cb9fd12bb2bd227ba7724c9b84|2020-08-07|Daniel Strano|QPager Swap debugging, and optimization (#433)
+4be1887891e7f63efe7e787f7d90b4eda7a22f3b|2020-08-06|Daniel Strano|Tune default QPager threshold for OpenCL (#432)
+5b5d693348e9d3810fad15eef328066652864e46|2020-08-06|Daniel Strano|Lazy separate for QPager (#431)
+eb2d5ac35c369ddac3c3905c651d06ac05ae7c83|2020-08-06|Daniel Strano|Optimized QPager:ZeroPhaseFlip() (#430)
+6f2aa4cc0368e790ea2dc31a7d6657febf215f3d|2020-08-06|Daniel Strano|Debugging QPager Swap variants (and drafting ZeroPhaseFlip) (#429)
+52cf3b44a62154b6c794fe86ce381a85fee5db51|2020-08-05|Daniel Strano|QPager swap optimization (#428)
+d61140ccbc06e1db68d14d5f36c27474347fe9e9|2020-08-05|Daniel Strano|Temp. disable Pennylane while reqs ood
+58bde05fc923ad615ae170b5cb8c3398585fe363|2020-08-02|Daniel Strano|Unit test fix (#427)
+712b828f3ced2a06dcf7197a4635211eb0fd2a6c|2020-07-21|Daniel Strano|Remove unused methods from QEngineOCL (#425)
+69d285ca97829b72dab39d6dfad2910e0230c787|2020-07-19|Daniel Strano|Remove extraneous emplace for wait events (#424)
+37fb23f2a57ca8b67f1ee43809aa86dfcf9d829c|2020-07-19|Daniel Strano|Remove usages of OpenCL host pointers (#423)
+368e06a785f9fd2bee82427eb23327b0ed29c183|2020-07-18|Daniel Strano|Use different (C++) clock for benchmarks (#422)
+0479a630b1d7e36659b5d2fd05901a5f2c606e5d|2020-07-13|Daniel Strano|Remove OpenCL host pointer instances (#420)
+c3edf8a0b5bb589b56fb0f1a4085b4c37afa2cc4|2020-07-13|Daniel Strano|Temporarily disable default QPager tests/benchmarks (#419)
+ab0ac73afb4d0c89e087f8f8b181fd1d28bc3fab|2020-07-12|Daniel Strano|Don't reimplement OpenCL buffer migration transparency (#418)
+9870efc20d6aabf4c396626b74e0239e2a5a5001|2020-07-12|Daniel Strano|Don't use (OpenCL) host pointer for nrmBuffer (#417)
+eb5f95983b3fb08d64598e666d7c9f54d60b8b1b|2020-07-12|Daniel Strano|Print SnuCL CMake info (#416)
+a66bc2670254c2c937b664bb7933ccd5d3cfb3e7|2020-07-12|Daniel Strano|Simplify and correct ~QEngineOCL() (#415)
+37559780536b34a48e344441fd123ef3f8486fd7|2020-07-12|Daniel Strano|#413: OpenCL v1.1 support (#414)
+86ba684308e35145ece4ec03d2581ce6494067e1|2020-07-10|Daniel Strano|Accept device list argument for QPager multi-accelerator (#412)
+e1f79a051bb93fe4094e30dd8d89ad58bc748a1e|2020-07-08|Daniel Strano|QPager controlled phase/invert optimization (#411)
+8c01e8efe44269958c894db0a8967ab9ccc66ab4|2020-07-08|Daniel Strano|Debug QPager lambda closures; QPager::ApplySingleEither() (#410)
+1ddeb96182c61968a498d47e9c040e625983e4be|2020-07-08|Daniel Strano|Fixing QPager benchmarks and automatic paging limits (#409)
+49eff6b513b530bf369aff3dcb512d27b5af05d8|2020-07-07|Daniel Strano|Hotfix: initialize QPager::thresholdQubitsPerPage
+504fe89c1f2d878ddfef841f1de088545536c9a8|2020-07-07|Daniel Strano|Hotfix: no randGlobalPhase for QPager pages
+6ea040156ee1dad31fc5ac1e145dd4c55df22c11|2020-07-07|Daniel Strano|Feature: QPager (#408)
+ef39709426d054cb778008ad4abeebf703fbfae0|2020-07-02|Daniel Strano|Fix bug in ApplyAntiControlledSingleBit() (#406)
+7b7abe89ac0bc0919d12cdfbbe7cda1d0cd17f9b|2020-07-01|Daniel Strano|Define constants in Decompose() kernel (#405)
+68780abf2eb9b14cfc02294f714a2c06185dd724|2020-06-30|Daniel Strano|Remove gratuitous parallelism from QUnit (still partially async) (#403)
+1d6f4a414da8b3755f841723e7c62fcd8b80186b|2020-06-30|Daniel Strano|Refactor QUnit for performance (#402)
+14190fe6266be11c9905c70eabffd184af3d0aa7|2020-06-28|Daniel Strano|Implicit OpenCL buffer migration; default device env. var. (#401)
+1fb11f9dba7da031e76a4d68547b74a7a3c0783b|2020-06-28|Daniel Strano|Removing old OCL kludge (#400)
+0d16fc51c090c03cb3d02a3871eddf684e1f1c87|2020-06-27|Daniel Strano|OpenCL cleanup (#399)
+82fa236e708ba5f309933f3b45af546550d769ec|2020-06-27|Daniel Strano|Triggering CI
+e9e74daf86c6432302ec72a3f1ac429eb5bae3a9|2020-06-26|Daniel Strano|Optimizing OCL work group sizing (tested on NVIDIA Turing) (#398)
+8831e6d7afe67c719c8a12f65bb03f9b12fe1cfb|2020-06-22|Daniel Strano|Remove unused argument from TransformBasis1Qb (#396)
+176eccacc2989e221593fd97b670c444ebb023fe|2020-06-22|WrathfulSpatula|Backwards arguments in TransformBasis1Qb()
+99e99427239387675227942dd31cbaf11e4e4a7b|2020-06-20|Daniel Strano|Refactor of #392 (#393)
+74c67540759581d851ca4db05de7536e3b847c8d|2020-06-20|Daniel Strano|Flush phase buffers when efficient (and fix CommuteH isOpposite bug) (#392)
+b69f3a636a87e53c480a70e529ef98d70a3b1005|2020-06-16|Daniel Strano|Flush H on target to compose phase/invert buffers (#390)
+0afc4e7e6b6f15f5ec18ba90c29b3d7add56fb01|2020-06-16|Daniel Strano|Improved commutation of phase/inversion buffers (#389)
+1aff52cd0e97ff4ce30ec1311ebbcb694f2cd7a1|2020-06-15|Daniel Strano|bitLenInt/bitCapInt bug (#388)
+d799194c8752c5eca61ee448b206c8cf145ea6b0|2020-06-14|Daniel Strano|Fixing QNeuron layer controls (#387)
+7b539f8e2abb19b41c06dbdea663f5d34cc74666|2020-06-14|Daniel Strano|QNeuron classification refactor (#386)
+349a0ae466b5812d5e3aee0a890ee5f712394ed3|2020-06-14|Daniel Strano|Adding missing values example to qneuron_classification (#385)
+95d602e7c8ea1b5d4d0915705f0480735b8df653|2020-06-13|Daniel Strano|Updating qneuron_classification example (#384)
+1355c752ef8ba762f031eb23d84a579d693c2669|2020-06-13|Daniel Strano|QNeuron ROC from CSV example (#383)
+14c78d6c597a95438306ff50e26251c14e593865|2020-06-13|Daniel Strano|CI update (Qiskit) (#382)
+1345da527b461d82d725e1c85f7bd7e7c1c57f11|2020-06-12|WrathfulSpatula|Hotfix: remove unused QHybrid headeR
+47263b0245bf8640d8b4b7d4084e61a0cba583e8|2020-06-12|Daniel Strano|QFactory cleanup (#381)
+6f9a17f828e3871b4884c42c501166cfa1d59cdb|2020-06-11|Daniel Strano|Flush buffers when efficient; better default PSTRIDE setting (#380)
+f6a79813030d46d14bb509adbe11aa045abac77a|2020-06-10|Daniel Strano|More H gate commutation (#379)
+789779ae07747135ba8212badcdaf41a6022d03e|2020-06-10|Daniel Strano|Inversion buffer commutation (#378)
+4f69d0a001784ddd0d6c35937d01c1e7fc8ce49b|2020-06-09|Daniel Strano|Directly "AddInversionAngles()" for CNOT (#377)
+8b153dbb2baf3415500c1758f05228d972dbc6c7|2020-06-09|Daniel Strano|Relax commutation rules on phase buffers (#376)
+c08080ec92c2f75cb350b7e42c428ce61750bae6|2020-06-08|Daniel Strano|WIP: Remove unnecessary commutation restrictions (#375)
+759c9ed8a1d827cd99228718af75aadd1dcc25b8|2020-06-07|Daniel Strano|Loosen restrictions on OptimizeBuffer() (#374)
+4638269452c1763b3b5360ac2e8631b80e205b98|2020-06-06|Daniel Strano|Swap variants: remove TransformBasis1Qb() calls (#372)
+4e98b4332985f2eac50a1118abfa577d8d23b86d|2020-06-06|Daniel Strano|Optimize 2 qubit ProbBase() checks (#371)
+e50b8e459eda3dffb9d8ee77e483eed11a8282f7|2020-06-06|Daniel Strano|Buffer controls can control inverts and phase at once (#370)
+b346222f1cd442e08e9c21a0cffc3081f5fd2bc2|2020-05-31|Daniel Strano|Option to load random number files from disk (#364)
+e07909457080a1b60aac7607399617e6892d8ae0|2020-05-28|WrathfulSpatula|RdRandWrapper refactor
+d8134e952a9b82ab7c170849ec94e1668a05bde2|2020-05-26|Daniel Strano|Fix QBCAPPOW; add test_qft_cosmology_inverse (#363)
+709b903a7c3eb9425c78aa3e69aac6144dab3583|2020-05-25|Daniel Strano|Optimizing QUnit::Swap variants (#362)
+7cca5951131ebf8bf2a01320b335c983e00d525b|2020-05-24|Daniel Strano|QUnit buffer debug (#361)
+39f78d4a0294e4d30d87e668de25d0f1a40d864f|2020-05-23|Daniel Strano|Issue #357: Fixing CommuteH() bug (#360)
+6798d3b374ea62ce1f75073b379bb1aefc29968c|2020-05-21|Daniel Strano|CommuteH optimization (#359)
+76bce32bee141a9a0cc82aaab14806b1bf5b202d|2020-05-19|Daniel Strano|Analagous fix for inversions, as 1e0dfd2 (#356)
+c5cefb89a09618c0402d9b96d61ff16f9d0e056f|2020-05-18|Daniel Strano|Adding FSim gate (with unit tests) (#355)
+1e0dfd2699eb983053e9a9b74b6cb21380f3720f|2020-05-17|Daniel Strano|VQE debugging (#354)
+62f8d2eec9611c1ebdbe1971e9016fb30787b48f|2020-05-16|Daniel Strano|Simplifying and debugging Sycamore circuit couplers, per issue #351 (#353)
+d97aec71bc988fe0f11dd2e7dfd31f5de3bd2ab2|2020-05-15|Daniel Strano|Optimized controlled-H gate for XACC interface (#352)
+7632a249f0d6c88fd9e7cf901d5d72bc63b749fb|2020-05-11|Daniel Strano|Better commutation (and small memory leak fix) (#350)
+bca2ee1425140fe7787209bb8d5542c9d4664264|2020-05-10|Daniel Strano|Reverting cross entropy unit test stringency (#349)
+8bfd9edf7a5f02549a66c27187b8b1e207410265|2020-05-10|WrathfulSpatula|Hotfix and DOI badge
+c99e55988ee6698f69674c57855f5baf3415148b|2020-05-10|Daniel Strano|Debugging CZ/CNOT buffer commutation and anti-controlled buffers (#348)
+5c4c206b883fe8053d54f84501bc2d90b839d56c|2020-05-07|Daniel Strano|CommuteH() improvement (#346)
+74727425259a4343a868836541d6de8eb2e08c78|2020-05-07|Daniel Strano|QUnit refactor (#345)
+e0facc93624aefcb51556cf86a7cb52401135748|2020-05-06|Daniel Strano|Issue 342 - "Anti-controlled" buffers (#344)
+a6f263932c08d1e3de455b2bd24436b89dafe074|2020-05-04|Daniel Strano|CommuteH() isOpposite bug fix (#343)
+dc3feed77f0cfd33932d107221126a112bfcba9c|2020-05-04|Daniel Strano|Ease buffer commutation restrictions, subsequent to Swap() bug fix (#341)
+16ae353b2ed9fa9a6d480ba6a6e5490dcbbbe297|2020-05-04|Daniel Strano|SWAP() buffer dumps; add "identity gate" option to cross entropy test (#340)
+bf5dd9bc0c88dc0f9a301490b6a0d0203cc8fb9c|2020-05-03|Daniel Strano|Debugging buffered "inversion" gates (#339)
+c8eaa138d3e3e33439623dc5f9d746f7ef225f96|2020-05-02|Daniel Strano|Add CCZ API (#338)
+f4ad4e16b0f1546b08e103f91462284173ef0bc8|2020-05-02|Daniel Strano|Missed cached |1> phase optimization (#337)
+a7951f4eb26f2f75977a96878655a3a2a8d3189a|2020-05-02|Daniel Strano|CZ and ApplyControlledSinglePhase optimization (#336)
+9230a3b14d60335e4886794fcf1c6e81e9135c14|2020-05-02|Daniel Strano|Flush H buffers before swap variant optimization checks (#335)
+31082ab43ae2f6b7b4bb16bed867bffe95cc573c|2020-05-02|Daniel Strano|Swap variant optimizations; "quantum supremacy" cross entropy unit test (#334)
+a5dede564d053feb3a7f8cf604b521cd41bf88ac|2020-05-01|Daniel Strano|Phase optimizations (#333)
+ce8c0e116d4f99aec514374e9a368fa5832fc349|2020-05-01|Daniel Strano|Fix Qiskit version in CI (#332)
+f461f7d4c575d5e2c695e71150ca7600573459ce|2020-04-30|Daniel Strano|Add cross entropy unit test; Remove QFusion (#329)
+a3ce16b749ba68298408802dcaf95e901a557da0|2020-04-29|Daniel Strano|Remove TryDecompose; refactor TrySeparate(); remove isConsumed argument from Compose (#328)
+f305e1df344239dec45a770a373870e7f1a97c04|2020-04-28|Daniel Strano|QEngineOCL::Clone() optimization (#326)
+b7920bc77f6cd05e3c84111090a1dfea3ee607bc|2020-04-28|Daniel Strano|Fix Apple build support (#325)
+50e814255342099cd42488b893ca2f8a2b664abe|2020-04-28|WrathfulSpatula|Fix SetDeviceID() context check
+cd68bee57088a827f55bed031364d355efdf46bf|2020-04-27|WrathfulSpatula|Hotfix: NULL check for DecomposeDispose destination
+0d5449c183c7527ccaddbe5b3b6cffb0eb45b7b8|2020-04-27|WrathfulSpatula|Hotfix: NULL check for DecomposeDispose destination
+8aa036d57cae4432ee1e67e528e5f94cccba9716|2020-04-27|Daniel Strano|Windows/NVIDIA debug (#324)
+70f9872d371a299c7f1fc9d4fe180c7f40ecfc32|2020-04-27|Daniel Strano|MakeDirty() on X/Z; divert ApplySinglePhase() to Z() when appropriate (#323)
+d28b69660618e865d21d13bc6128087c3f830511|2020-04-26|WrathfulSpatula|Triggering CI
+06cd9017d87aca83f5ff9bd637883f4624f1ef0d|2020-04-26|Daniel Strano|Remove QUnit::CommutePhase (#322)
+6dfcb31a718aa7847939e5830612716be6fd0cd5|2020-04-26|Daniel Strano|Optimization (#321)
+c3548e6d1253e1aeb4b03d9af629b887ff6cf21c|2020-04-26|Daniel Strano|Issue #319: Fix phase buffer float denormalization (#320)
+5bc1e041857252ccc8ca96f5b8856fc554015587|2020-04-24|Daniel Strano|Removing redundant optimization case checks; QEngineOCL::clDump() (#317)
+43694fffb2311125ca7d84de5d1d66276fc6c926|2020-04-24|Daniel Strano|WIP: Optimization and debugging (#316)
+332aa3dbb77b96d215d0dba8059d26cc11fcec0a|2020-04-23|Daniel Strano|QUnit refactor; benchmark garbage collection (#315)
+ab1001e2a326252a24616369e28ebe61835223b8|2020-04-23|Daniel Strano|Dirty bits after CCNOT (#314)
+81c250b9508cbc09bd2bf4f7dfbb3ca779817910|2020-04-22|Daniel Strano|Cross entropy debugging (CNOT edge case and TryCnotOptimize refactor) (#313)
+0b49622d670b3be4d1dbf683d2640c3d0bd2d92c|2020-04-22|Daniel Strano|WIP: QUnit Cleanup (#312)
+d669fcc7174bee6b44b326137bcc7a9cddac45b1|2020-04-20|Daniel Strano|Cross entropy benchmark for test_universal_circuit_digital (#311)
+55fabab8d246e93cdf9749bb217584dcd60d141e|2020-04-20|Daniel Strano|Measurement and CNOT optimization (#310)
+880727eb21434303b50ec5967180819a87faf747|2020-04-19|Daniel Strano|Update RP3/VC4CL support notes
+e2fddd7c617e1e2a5dc331ac448d8c3f1e989bff|2020-04-19|Daniel Strano|CI Update (#309)
+754249f135127c84f77f2e379aec01e573a9f1b1|2020-04-18|Daniel Strano|Remove sparse state vector read() locks on probability check methods (#308)
+393701e17be245f16c07d0cef489c3d86d0c3954|2020-04-18|Daniel Strano|Sparse state vector optimization (#307)
+d2708d3c67ccf47211008cbe06894a0ed9334b39|2020-04-18|Daniel Strano|Optimizing QUnit Hash/INC/DEC (#306)
+b8dc320d5f0dbf119bf002ef5a0ab30684955406|2020-04-18|Daniel Strano|Debugging QUnitMulti GetQuantumState and GetProbs (#305)
+b489cfc6aed852a5017e4a3c870fa1851d905484|2020-04-17|Daniel Strano|Fixing intermittent unit failures (#304)
+29539d76f2b285d11669472bf3db7c6aaeb7c0bb|2020-04-17|Daniel Strano|Asynchronous OpenCL cleanup (#303)
+32d8c919367fab7227825892419c2a794e690b42|2020-04-16|WrathfulSpatula|Triggering CI (failed on PennyLane AerDevice)
+108be454addd44ec4675ea997b7b3936d5440de6|2020-04-16|Daniel Strano|Don't floor in sparse state vector (#302)
+770b45573bfd0b49b72b15237a71165565d44eb5|2020-04-15|Daniel Strano|QInterface instance arbitrary qubit allocation (#301)
+9c008812be71335c6399273a1432e9bbf18cd2d2|2020-04-14|Daniel Strano|Fixing ENABLE_UINT128 build (#300)
+dcec2240e4a8793589e54dd7c2c6b406c4439022|2020-04-14|Daniel Strano|Optimizing sparse QUnit measurement (#299)
+1e9fa41db782f131b3d2b13ddef1bbbdb13b72a8|2020-04-14|WrathfulSpatula|end() is not const const_iterator
+fcccb6cf65c653576f611e3e18b120548705d325|2020-04-14|WrathfulSpatula|Sparse state vector concurrency, (testing CI)
+7503f2add7a0aa7bc7211d5fb4f28e67c7c7ab87|2020-04-14|Daniel Strano|Sparse state vector and hash optimization (#298)
+2ad232e7cee84b1176e35e66642f1cdac21392d4|2020-04-12|Daniel Strano|Hash API and 32-bit Pearson hash example (#297)
+427d761f4f848cf9eafc95124fa3e749869ae13f|2020-04-11|WrathfulSpatula|Triggering CI (failure in PennyLane AerDevice)
+3538796939506ca27c6bc81223cdab4996b72ed8|2020-04-11|Daniel Strano|Various optimization (#296)
+e393cee9c338e3360337315ba89062476bcd4f86|2020-04-11|Daniel Strano|Measurement optimization (#295)
+43fa15c3c91c515e6e305b50d5f1b57c20d2feee|2020-04-10|Daniel Strano|Testing CI (#294)
+2c21d4b33a67ba1244d19312fe3f0d9407b2a63e|2020-04-09|Daniel Strano|OpenCL Optimization and debugging (#293)
+d6bb06775aac4989d32ddf6da9a92a1c5960c06c|2020-04-09|Daniel Strano|Optimizing OpenCL LockSync() (#292)
+0a3b4e228284cf54e4474ae2ac7c87353e38171a|2020-04-06|Daniel Strano|Debugging SetDevice() (#291)
+c3190999e9dbfd0d0e01ad58df4d0fbd21214a89|2020-04-05|WrathfulSpatula|QEngineOCL::SetDevice() hotfix
+046187b67bb97b784836df6c5a7ab3ea503d01af|2020-04-05|WrathfulSpatula|QEngineOCL::SetDevice() hotfix
+9c906c1296c671e862c59bde3a92ecbda5408195|2020-04-05|WrathfulSpatula|QEngineOCL::SetDevice() hotfix
+7256924ea0ea497c02d0e0767d458d6d0b7d98d1|2020-04-05|Daniel Strano|QUnitMulti (experimental feature) (#290)
+79b96d2c97964419f9759fb440db1f0f507659d0|2020-03-07|Daniel Strano|Q# bindings (#288)
+9f66ec6dc6e18b0130799a4a1ceec9f34fdc81c9|2020-02-22|Daniel Strano|QUnit controlled gate commutation optimization (#287)
+aca3a2fde5619d8ce3ec128b18cf7477b4c0655f|2020-02-18|Daniel Strano|MSVC does not need "atomic" library (#286)
+efcd9ace0515e4639e528308d4970cd0039f4af5|2020-01-29|Daniel Strano|Update README.md (#285)
+f61e7961d1de4243aa7747c9434bf1423ee9a5f8|2020-01-26|Daniel Strano|ProjectQ QPE optional xFail (build-trigger-only PR for Qrack) (#284)
+dd65702e5ccfef6bb3e87832d3833119ea5f9e74|2020-01-26|Daniel Strano|Readme typos (#283)
+696b1f0e3e06bff75e9421adcde8f820ebbd26f7|2020-01-22|Daniel Strano|CI Python version update (and README changes) (#282)
+0313a40cf3b0ba5d0065fa2e5bbd2b79892418af|2020-01-19|Daniel Strano|Explicitly add 'atomic' library for certain compilers (#280)
+74db738feddbafc65555b619f19bac89255fbdcf|2020-01-17|Daniel Strano|TrySeparate() hurts performance on benchmarks (#279)
+ec329839fda36aec5b10c0919bba74427eb35746|2020-01-16|Daniel Strano|Updating test_quantum_supremacy tiling sequence (#278)
+5fcb8c6b32e2e69e00056ccda7bcc55f0a51f2a3|2020-01-14|Daniel Strano|Full stack unit tests (#277)
+ffb9da5064f31fd3612ec1c62e63da4f6c9f73e0|2020-01-12|Daniel Strano|Sycamore benchmark updates (and Rx gate phase sign correction) (#276)
+71272922b95f51c036f28863ce3afb7bcbc40f70|2020-01-07|Daniel Strano|Qiskit debug (#275)
+24b8c89eec9d55a36f6671d0def6f2af87cfd049|2020-01-03|Daniel Strano|Qiskit provider optimizations and normalization improvement (#274)
+fbe1494ea5ff4330ceb4ac80544336fff9281e37|2019-12-29|Daniel Strano|Fixing RX() convenience method (#273)
+aee868dc85dab9dd81ac724c6cbd5a08984f2be6|2019-12-23|Daniel Strano|ONE_BCI code standards (and QUnit::ZeroPhaseFlip optimization) (#272)
+7643f753b56e26b285a00b0c79b3a0cbba34e82a|2019-12-15|Daniel Strano|Controlled inversion debugging (for ProjectQ unit tests) (#271)
+cd3426d876294b2f41c7fb5fe39f8b442155a434|2019-12-13|Daniel Strano|CCNOT optimize to CNOT or X; ApplySingleBit optimize to H (#270)
+dd265bdbc1c3ad835b48da946cdde73c70cb9dd8|2019-12-10|Daniel Strano|QUnit optimization and minor bug fix (#267)
+5ad4b8ad13945dcdebe26dde14aa8d6e37903784|2019-12-08|Daniel Strano|Fixed Raspberry Pi 3 unit tests (#266)
+a23d4dc31f606d6ef7c7e87a66ac283af06e0d54|2019-12-06|Daniel Strano|Universal quantum gate set test (#261)
+ade701f4aa8bc033def090c14bbf96630844ebc4|2019-11-29|Daniel Strano|TryHCommute() for QUnit controlled phase buffers (#260)
+4c3cb26155d80d921c4100bc5732b92d543cdcf9|2019-11-24|Daniel Strano|Triggering CI (QPE test in ProjectQ)
+377a40615e102815538959b6bf644be0dfa01757|2019-11-24|Daniel Strano|Triggering CI
+202bb5effce4934c66e8a95416407f1ec159914f|2019-11-24|Daniel Strano|Windows debugging (#259)
+8e79128760f76771f0b77cd3efc63eed577b78ae|2019-11-23|Daniel Strano|Fixing mem leak in ApplyControlledSinglePhase (#258)
+149f86c29d6ebd666528d36449110e3e8f9f9b17|2019-11-21|Daniel Strano|H / controlled phase optimization commutation; "solved circuit" demonstration (#257)
+cd0323356fb5166683238ff6e8ff78a8b6bf3e9a|2019-11-20|Daniel Strano|Unitary Fund badge (with a minor performance "tweak" and coverage) (#256)
+3094e6f661b82a3e365deaa4db9fb05e2387eac0|2019-11-17|Daniel Strano|Sparse state vector optimization (Gottesman-Knill) (#255)
+c286ce3ce55233bd2f642a98eee15f643c1df811|2019-11-14|Daniel Strano|Generally extending coverage; cutting dead code (#254)
+4fad86a62a9ef3f89cb4e59564fce06ef0261fb5|2019-11-10|Daniel Strano|Phase optimization (and cosmology benchmark) (#253)
+54dde8c8e70fc3277bddf1e7ec5a4dfc2c8e8b5d|2019-11-08|Daniel Strano|QUnit arithmetic optimization (#252)
+dab402eb1d8b388c22bca8dba1574029552d3ea8|2019-11-06|Daniel Strano|Experimental uint128_t support (#248)
+e0fd22c41d6c5a19c447467da031f8ee152f5aa8|2019-11-05|Daniel Strano|Issue #245: Implementing measurement output option (and updating Catch2) (#249)
+922212302308778e93a2d103b444bf8734f7cd14|2019-11-03|Daniel Strano|Remove control/target symmetry optimization (#250)
+dc901c8fe34c1d3b8509f1dc03763b8d3c59d9dc|2019-11-03|Daniel Strano|Phase optimization and "quantum supremacy" benchmark (#244)
+bcd5c0b5eec7171c64fee346524bcb1d30796ca7|2019-10-22|Daniel Strano|Minor bug fixes (#243)
+c1beee48533ae0f5d7ab3d6d0a1e70397f4aa8ff|2019-10-20|Daniel Strano|Phase gate bit symmetry optimization and debugging (and API extension) (#242)
+75dd5195689981e818dda51fb05a30c29f51b2b3|2019-10-06|Daniel Strano|ProbMask and isEmulated debugging (for ProjectQ) (#238)
+242abe38d46175766bb79fd9c6c7c5c47d6e9346|2019-10-04|Daniel Strano|CNOT Optimization and Cleanup (#237)
+e0451f82941b102020bd64daff1a8f98fb5ea83f|2019-09-29|Daniel Strano|Controlled phase gate optimization; > 30 qubits fix (#236)
+fa76fc899af04823cef884a2c78adf3517c78604|2019-09-25|Daniel Strano|CNOT optimization ("Gottesman-Knill"); "isEmulated" edge case; phase gate optimization  (#233)
+015026de9d6ea27900b037d2c60711731d9580e0|2019-09-11|Daniel Strano|Issue #230: Variable qubit selection for benchmarks (and related improvements) (#231)
+cf9c56867a4311861bd1601c10513edb82066df5|2019-08-20|Daniel Strano|Adding DOI badge (#229)
+18d76886298827370164e74f50b9127c690f3e05|2019-07-18|Daniel Strano|QFusion debugging and optimization (#228)
+3ac78ac0ccceccafe83fb22bbd7c4719ccbfda9b|2019-07-15|Daniel Strano|Cleanup of Windows build (#227)
+1df8b5e8b5d0e2f0e39fc738ef3d38dc31561bc0|2019-07-13|Daniel Strano|Removing QUnit::Z() debugging (#225)
+94cd38b7feecc62a33975ed803e38dd0f4fc15d0|2019-07-09|Daniel Strano|Removing quantum-to-quantum-subtraction; adding controlled FullAdd (#224)
+81544332b004d54ed39fa3e03b9cb361f312de3f|2019-07-08|Daniel Strano|WIP: Quantum integer addition and subtraction (#223)
+9f54422d975e19c86a872dde9e57d19ef8cbea26|2019-07-04|Daniel Strano||+>/|-> basis optimization for QUnit (#221)
+fb800cf7f2a5201c72da91350c728018e3478ca4|2019-06-28|Daniel Strano|Travis CI Python update (#217)
+5584e2408abed1acccee09154e92668025fef3f1|2019-06-28|WrathfulSpatula|Fixing CI
+079feeca0e7044f1ab7e5f10507193b97264daf8|2019-06-28|Daniel Strano|Adding QEngineCPU option for sparse state vector (#216)
+b21c3da962c760b5c0974261ced7cee82995b5cc|2019-06-26|Daniel Strano|Refactoring (#215)
+15660f3045b27d18e2b246c77d57cc52eda83d7d|2019-06-26|Daniel Strano|Bit skipping for UniformlyControlledSingleBit; IndexedLDA/ADC/SBC optimization (#214)
+f6ff9cd6ee835cae25cb29c8e115ab00fdcbb8a0|2019-06-25|Daniel Strano|Simple QUnit::UniformlyControlledSingleBit() optimization (#213)
+f21223338b40c1d6824969a7821d2b0d5632bbb5|2019-06-25|Daniel Strano|Shor's factoring algorithm example debugging (#212)
+773be19f459f748436e38ecea24d0605ad87f724|2019-06-23|Daniel Strano|QUnit: Can cache ApplySingleBit() (#211)
+32e3d4521b96a770a448e61ace23670e6a3ff93e|2019-06-23|Daniel Strano|Coverage (#210)
+b47192e317cc0bb9591253bd7f4cdfcc14ab66b7|2019-06-23|Daniel Strano|QUnit Arithmetic (#209)
+78fb4e90ec4ddf6565844457ef49c0dedf2f1d60|2019-06-22|Daniel Strano|Type safety and standardization (#208)
+8dbd011eb2b4f1e9b1edb0c851f5f887be92858f|2019-06-21|Daniel Strano|QUnit classical bit emulation (#207)
+2a6c401768219c81dcebde905e0ca35368fe365b|2019-06-21|Daniel Strano|Projectq CI (#206)
+0d4c8e3201e9b5ed13e93b27a8e341b0557155bb|2019-06-20|Daniel Strano|Debugging Decompose (for ProjectQ) (#204)
+c9d0e40d6a073b8888510e3c645f54d076fcfd24|2019-06-20|Daniel Strano|Cleanup (concomitant with ProjectQ debugging) (#202)
+113445ddc55c9537ef5c934cd0290d6248fe53a8|2019-06-19|Daniel Strano|QUnit stabilizer optimization (#201)
+de3beb57b87ad7d037f3a2159f91c952e7307cad|2019-06-17|Daniel Strano|Arithmetic refactor (#198)
+bfbeaf3e0ee4281dbd3f89ec653d245482a0b9ca|2019-06-14|Daniel Strano|QUnit arithmetic separability (#196)
+bc894dbf089d485502afdc1b4db40bec0d5974d1|2019-06-14|Daniel Strano|MULModNOut and POWModNOut (and controlled variants) (#192)
+20bcb15cbd73ef3c451965e69a386667ab7e4c13|2019-06-12|Daniel Strano|More QUnit optimization (and pointer safety) (#190)
+e530625035676f41484d5a37ef2d72473ac44a64|2019-06-12|Daniel Strano|Cleanup: Font info and tiny bug (#189)
+a08d9b2b8441e1a59a701288425319d6d022eee9|2019-06-11|Daniel Strano|Vectorizable OCL matrix multiplication (#187)
+e637c25b187a3cee97e8813e09fb0c0480ae6acf|2019-06-09|Daniel Strano|Totally asynchronous OCL gate dispatch (#186)
+7b4a783b9c75bcb5bffe0b583b442da73cd98664|2019-06-08|Daniel Strano|Fixing Apply2x2() controls bug (#185)
+ca63afcab9a23548bec075ed6a2a50a9b8ac1212|2019-06-06|Daniel Strano|Coverage (#183)
+f25d1c220344022f0213a2c11ae85008623ab5bf|2019-06-06|Daniel Strano|U and U2 gates (#184)
+da73acf412c4762665e9716e8094213d84ada3a0|2019-06-04|Daniel Strano|ApplyEitherControlled refactor (#182)
+ee304e689b438edc3f69e69e38ebf00679cc7b12|2019-06-04|Daniel Strano|QUnit permutation probability optimization (#181)
+051093eb112459bbccff16e35996faf521440637|2019-06-01|Daniel Strano|Device selection CLI option for appropriate tests (#177)
+5703301fca2878c7302a8883c43ab6b39bab5806|2019-05-23|Daniel Strano|Precision testing (correcting test, removing flooring) (#176)
+8ef65ead4bd2359138bfb807088dd5cb3ff3226d|2019-05-21|Daniel Strano|Smaller optimizations (#175)
+eeeebfd74933f6c9587046611d23ca2e3d442f9d|2019-05-19|Daniel Strano|"Wide" Apply2x2() Optimization (#173)
+b00cf3758d3889b0136edd6cc4099dc487770c7c|2019-05-18|Daniel Strano|Optimization (#172)
+a92bb06ebe59ead08c1507ede807f5b8c46b0780|2019-05-11|Daniel Strano|Change SetQuantumState param to const (#170)
+26f8e4d09aeef37f7525e4f788918346059227da|2019-05-08|Daniel Strano|OCL precompile option (#169)
+8a7ada18bb8ce994a02e50194098fbb1db84586a|2019-05-02|Daniel Strano|Adding uniformly controlled gate Hamiltonian simulation (#168)
+6e6eef1ff14ee7fb6c1b200709b427f56e05c9f7|2019-04-29|WrathfulSpatula|Fix include for rdrandwrapper.hpp
+b0bfdec50b03581ea275a0fc4ce57caa91ca7665|2019-04-29|Daniel Strano|RDRAND option (#165)
+4f013bef10c7db4afb3e6bc9a7f8ab9ce20dac5e|2019-03-20|Daniel Strano|QNeuron initial conditions (#164)
+df6132df9c68bf07a48190042fad9bc63a88b228|2019-03-09|Daniel Strano|Baseline of QNeuron output set to 0.5/0.5 superposition (#163)
+18cc8b70a4a5de71161b688d41bdcf92fd9320c0|2019-03-09|Daniel Strano|QNeuron get/set angles (#162)
+6561d7ca16dfaf6ca1a628a3fc079346533eb1a9|2019-03-07|Daniel Strano|Optimizing and debugging QNeuron (#161)
+41aaa2d89c31cdd52c634e4b36650e0f05624366|2019-03-04|Daniel Strano|Removing polar() macro (#160)
+d544bf639a6f6bac5f7c16286fd387ecc70a8a3b|2019-03-03|Daniel Strano|Fixing QUnit::GetQuantumState ordering problem (#159)
+92d931e913806c2cca6b73570db59de3439d94e9|2019-02-27|Daniel Strano|Removing (deprecated) ENABLE_VC4CL option (#156)
+b1b45a40da6cef9a7c435cb150b4759cf178525f|2019-02-23|WrathfulSpatula|QNeuron: tolerance parameter; exact angle reset on fail; (improved stability)
+967592bdddc0ea86ec15cdbffc224b2ca7ba08ed|2019-02-23|Daniel Strano|Simple QNeuron example (#155)
+a784caaf3a75cbe568259228e514bab9f51e7e43|2019-02-16|Daniel Strano|Update CHANGELOG.md (#153)
+0ce4667646e8749eb5713ae7a46f2796c5b149bf|2019-02-16|Daniel Strano|Fixing bug in QUnit ApproxCompare() (#152)
+f1fd99ca1d63bb94510018e18778e18c1a7537fb|2019-02-13|Daniel Strano|Debugging on Windows and cross-device (#151)
+5b0bd1e9a66c3c900330cad70402eabc9f1ce948|2019-02-12|Daniel Strano|Debugging on Mac (#150)
+074a808aefa549992d123ea58d535b8a773b4b19|2019-02-08|Daniel Strano|Updating CHANGELOG.md for vm6502q.v3.1 release (#149)
+2f5af5c797b3385ba755ce679822a04c5da92026|2019-02-08|Daniel Strano|OpenCL refactor and wider platform support (#148)
+e8ab30cdd8bb44a5b1ff612604df6798bc9c7859|2019-02-05|Daniel Strano|Debugging on Raspberry Pi (#145)
+27499496e6e426090553c953b111b74d4d27d0aa|2019-02-03|Daniel Strano|Wait events debug (#144)
+3c555a34cb709098cfef5e6b872fd6baa375bf16|2019-02-02|Daniel Strano|QEngineOCL support for Raspberry Pi 3 (#143)
+704b9797ff158d031ecdb2580d813ba896460be5|2019-01-28|Daniel Strano|Default UniformlyControlledSingleBit (#141)
+448062aa77146f9006329040eaa27dde76ccbac7|2019-01-26|Daniel Strano|Locksync bug (#2) (#140)
+ed378db37c2e0f19cc072d3efdf1bef549c1b442|2019-01-25|Daniel Strano|QFusion buffering threshold bug (#138)
+492bba108e0398e30dbb0cab7e157b9007fc5208|2019-01-23|Daniel Strano|Abstracting out random engine, and replacing with Mersenne twistor (#135)
+38f78dde9452ee1f5ab5911abda1654b53fffa10|2019-01-23|Daniel Strano|Replacing cl.hpp with cl2.hpp (#136)
+2274a3521c94192a814db27b8c7c6fc690fdec48|2019-01-23|Daniel Strano|ProjectQ Debugging (#133)
+e1bd43f9722e5df351a82f93c53c0554f624848e|2019-01-20|Daniel Strano|Uniformly controlled gates (#131)
+ac62850868eaf3bffde95509782d14e66f7353e6|2019-01-20|Daniel Strano|Wrong OCL flag in GetQuantumState (#130)
+0191f867d6bcf853714da9b57a9150f31bf2b1de|2019-01-19|Daniel Strano|Fixing Mojave Build (#129)
+f13483fe49a969797cafc1018f1a5b6857a172d3|2019-01-17|Daniel Strano|Debugging OSX Mojave build (#128)
+5192f5f8d0fde9f7f38bd1af4767e8087fb0ddaf|2019-01-16|Daniel Strano|Compose(): useHostMem and cross-device debugging (#126)
+aad155ac9c98332e544db9931e182a55e87db044|2019-01-11|Daniel Strano|"Cohere" naming is more accurately "Compose" (#124)
+9f6b67159ccfac0be2c92c13c6516c1a345e5f29|2019-01-08|Daniel Strano|Adding CHANGELOG.md (#123)
+67f90f1f3d13c172be11d087401b53a4b0acf51b|2019-01-08|Daniel Strano|Typo in "Backport to C" issue
+3ebbfffb49f102f76a6d5468ef03047cb68533e0|2019-01-08|Daniel Strano|Typo (self-evident)
+c910d4e7e5a2fcaafabff7fa1d15f29318b34d22|2019-01-08|Daniel Strano|CONTRIBUTING.md (#122)
+8a624d858723505d985196ec5585f477ced0e237|2019-01-08|WrathfulSpatula|Updating README (Discord server)
+d08450ca5f18e30e1779fd3a567822847992a740|2019-01-07|Daniel Strano|Accuracy and stability improvements and tests (#119)
+fadccd5c7544314c379570e3092d2ff2cd1a8105|2018-12-26|Daniel Strano|WIP: Adding logarithm of gate method (#117)
+3d263954e033441af70fd1861e975db641ee708d|2018-12-22|Daniel Strano|Debugging for ProjectQ (#116)
+aefb6dcaed6f4dbc9c6b569783774e0b6731a7f3|2018-12-18|Daniel Strano|Fixing QEngineOCL deconstructor (#115)
+e23913c3a6d67f100103aac6b10af7e78dfed24b|2018-12-17|Daniel Strano|Debugged across various systems (#114)
+eda1122f917d07cf62b3b669dfd21f9dcee97c44|2018-12-17|Daniel Strano|Separability debug (#113)
+b22b7a2adb1ef9594dad95a1e040eef7dab4a6d9|2018-12-17|Daniel Strano|OpenCL Optimization and Cleanup (#106)
+745b9ff673a7763493180451305ccba59ef23042|2018-12-09|Daniel Strano|Fix install (#107)
+1f4e325ec5a86015adf386453b3dfe298756bae1|2018-12-01|Daniel Strano|Better QUnit Schmidt decomposition (#104)
+d30e6abc690a266a155081ea9b0bd9e63be375b4|2018-11-26|Daniel Strano|Changing docs URL
+558c797d8739a4277ac6cd3599ac1bf4267a8d91|2018-11-25|Daniel Strano|Wrathful spatula patch 1 (#100)
+6296962ec5dd767e3be598378e45c73feb4c2d13|2018-11-24|WrathfulSpatula|CLI options with 0 intersection
+0266511e85ac31a85a938bf089cb47d0434880bf|2018-11-24|Daniel Strano|Better unit test CLI (#99)
+b1ccaa1661e8d29632139d26d25317ac4590c905|2018-11-24|Daniel Strano|Qfusion optimization (#97)
+cab845bf90bb407265c688105a3eacefb938fcb8|2018-11-24|Daniel Strano|QFusion Optimization - Discard Buffered Identity Operator (#95)
+1e10787bac174784438ebcc7538e6017fa783228|2018-11-22|Daniel Strano|Awesome mention badge (#94)
+c362cb0d12580c220cb4ace29bae642855fa3287|2018-11-22|Daniel Strano|QFusion semantics (#92)
+c60cad7144c63596c0acac5e0c0ea64c8eb82995|2018-11-19|WrathfulSpatula|Blame: WrathfulSpatula. Reverting inconsequential differential
+fbb3dc0e6b02eeb56764b4c41200b0a1b6dd5ae6|2018-11-19|Daniel Strano|Merge branch 'master' into master
+1842dc8e29488b4859f09287bb0c40563ea12e93|2018-11-18|Daniel Strano|QFusion controlled (#90)
+cb00873bcbd242b3d34a2e9f772c5a3d69eddfd2|2018-11-16|Daniel Strano|QFusion (#89)
+ff4c35e4a8385b9024605b06d5846d3288a443b7|2018-11-12|Daniel Strano|Typo fix in README
+65e37cad07cb759bae2e1e45cdfc4e12e2e80f45|2018-11-12|Daniel Strano|Reverse Complex2 components (#88)
+f913f40b63309995eefb9fcc9ff50364095bf784|2018-11-11|WrathfulSpatula|Shunting flipped SIMD intrinsics matrix multiplication
+2ec091c6e80f87c7b8f9bee5c574bcc40a071297|2018-11-10|WrathfulSpatula|Licensing change for review
+4e1c2e7ebbf00556d09133fd1a8152a9af0d29fe|2018-11-08|Daniel Strano|Fixing includes for library installation (#86)
+48113f9d5f54c3d1c39fa70c3629a46579c7fbe8|2018-11-08|Daniel Strano|Generalized API (#83)
+e056fc47209fc44f1422220813e838a278e908ce|2018-11-07|Tomas Babej|README: Add link to documentation (#85)
+431e9ed84fc55e17f0c112d46eaa6a0e954d18f6|2018-10-30|Daniel Strano|QUnitMulti Proof-of-Concept (#82)
+00cc5111033bc75448f95876f6e98e44762bb9e1|2018-10-30|WrathfulSpatula|QUnitMulti par_for
+c5df02fa706d4fd4fbdafa7655db8da7a8024f3d|2018-10-30|WrathfulSpatula|Merge
+09b11c61ebf62025e20129c5706d7148aebccce3|2018-10-30|WrathfulSpatula|Parallel register for loops
+a9d85b8afc7cee58e5df6b60dd006df9591e6c0a|2018-10-24|WrathfulSpatula|Fixing include path
+00ea0be61dbadde32081bec3397c7fcf743d2bb0|2018-10-16|Daniel Strano|Merge pull request #13 from WrathfulSpatula/qunitmulti
+0d129b8151f23c38434a934a3f1dd36abd2cfccd|2018-10-16|WrathfulSpatula|Adding missing header to OCLEngine
+bc769fa7ffb555262471bbb984c9759e0f562115|2018-10-16|Daniel Strano|Merge branch 'master' into master
+c8204b623f484cfe78d70768e5adb1d306476f3b|2018-10-16|Daniel Strano|Merge pull request #12 from WrathfulSpatula/qunitmulti
+33473a2d2a8ac0fdd9b9eff0dbeedfad73159774|2018-10-16|WrathfulSpatula|QUnitMulti proof-of-concept
+f1eef054d251e1833b0faf0149324ffe24d10483|2018-10-16|Daniel Strano|Asynchronous OCL (and quaternery search example) (#80)
+367cde6837944eded93d5c6afd87d10e000263c8|2018-10-15|nlewycky|Fix typo in comment, and reflow text. (#81)
+0cec353e226ed738f014085a3e0f48973b4022d1|2018-10-07|WrathfulSpatula|Removing undefined prototype from QUnit
+ab262543ae5be5c45813ecdf97f59d96e74b999c|2018-10-07|WrathfulSpatula|Make format
+b5d31aea68191d926e6d4a9fb574d3d8b1d50985|2018-10-07|WrathfulSpatula|Fixing white space
+6720f461c9bc97cd0e758f4fb1a951d7c80fe9bf|2018-10-07|Daniel Strano|Merge pull request #11 from vm6502q/master
+90524cc3e072c2d098427ccdcf43ee86ec4c32e1|2018-10-07|Daniel Strano|Merge pull request #10 from WrathfulSpatula/ocl_events
+9db136a9528345173f7be170372241d0c469cec2|2018-10-07|WrathfulSpatula|Completely removed queue.finish() (except for hard clFinish method)
+cd0a1cf8436b127c6b26edfa89648fc44f22000e|2018-10-07|WrathfulSpatula|Reimplementing asynchronous execution neatly, with support for QEngineOCLMulti
+adddbcea57cc2fbdd761111dbf514178ff70445f|2018-10-07|WrathfulSpatula|Reimplementing asynchronous execution neatly, with support for QEngineOCLMulti
+b148282895ce4f190ac005cfdbfc8fed1930219d|2018-10-07|WrathfulSpatula|Debugging QEngineOCLMulti
+e2d6f9779e3cc2d03bab813c4006a60071aa3091|2018-10-07|WrathfulSpatula|Debugging QEngineOCLMulti
+70b536e0bc96aafd96522e5fff2bda652d034752|2018-10-06|WrathfulSpatula|OCL queue based on event dependencies (does not work with QEngineOCLMulti)
+f0022465f9716cd24978fa101dded0a7ef50e82e|2018-09-07|Daniel Strano|Merge pull request #9 from vm6502q/adaptive_grover
+37e7c89a513f94b02d9a83f25c392bf93eba638d|2018-09-07|Daniel Strano|Merge branch 'master' into adaptive_grover
+0f81f8fb41d404b95f16d076a681272986eb5ae3|2018-08-28|WrathfulSpatula|Fixed bug identified in last several commits, in LDA/ADC/SBC
+6e031abe6bc1df0accda9c72a29db665daf1210d|2018-08-27|WrathfulSpatula|Full 6 bits for alternate gate oracle example (issue appears to be with loading 5 bits in ADC/SBC)
+589e16a2465de5d49eaa70b8268cd0f3470581f4|2018-08-26|WrathfulSpatula|Works with two iterations (but fails on multi and OCL with 3)
+d72a60c82dd669f5c33dbf038f1a8041650b0065|2018-08-25|WrathfulSpatula|Better commentary on quaternary search
+9e273b5f6feba5ebe75ff9fbbf2a97cd15518720|2018-08-23|WrathfulSpatula|Debugging edge cases
+05e10e00ce7df6660d4a6a77828e815c3452d173|2018-08-23|WrathfulSpatula|Debugging edge cases
+e042934451acf820e19bf2ef30d450159831ec4d|2018-08-23|WrathfulSpatula|Debugging
+b8ddcbb80c912616159169d7b32acc8806cf278c|2018-08-22|WrathfulSpatula|Adding boundary check to quaternary search, like classical binary search
+2aece891d9d56e0914369042b6dc78a5fd039f49|2018-08-21|WrathfulSpatula|Debugging edge cases
+6fb1c6c1e2de3ff5995cb23dde14b09c19807f9b|2018-08-21|WrathfulSpatula|Debugging
+3ed988b0c889ca83b226412635a2ada19bce05a9|2018-08-20|WrathfulSpatula|Working 4 bit index (2 iteration) quaternary real ordered list search
+5e627983a216db8f3d55e954185c8b369bfa3255|2018-08-19|WrathfulSpatula|Debugging
+79c903906b9abd62964764733ce0c16fd3e3759d|2018-08-19|WrathfulSpatula|Partial revert of last commit
+9270ea35f04f0c0c7c21b7f76dad3076a0551762|2018-08-19|WrathfulSpatula|Cleaning up, generalizing
+c7d16d2ad0e864aeb7df138159f4cf27af44b169|2018-08-19|WrathfulSpatula|Removing dead code
+467dc265f4523f4b0263e007e0f30a9752b3888d|2018-08-19|WrathfulSpatula|Better comments
+00ab4019e0e730bebd3cef4265fbe9a533a3d95e|2018-08-19|WrathfulSpatula|Removing requirements of extra bits and PhaseFlipIfLess
+9c433a2bd038b4607d019b3e640f2df97be6cbcc|2018-08-19|WrathfulSpatula|Removing dead code
+0f0f3c1789a8e6ee7d885c60b610f36d9a18bd4e|2018-08-19|WrathfulSpatula|Restoring Grover's oracle
+41ef3e98aba4b7c5ee163c8583be199579ca2b1b|2018-08-19|WrathfulSpatula|Fast Grover's search, with memory trade-off
+9e1f594ce867495b25ec69cfc873703bdf675f7d|2018-08-18|WrathfulSpatula|Multiply modulo minimization
+5862682c97456f40ecdaf78b1512c8e8be85159f|2018-08-18|WrathfulSpatula|Fixing comments, 1/2 goes to 1/4
+8498a554281da5ed6c81ffff44d65345e5f0df45|2018-08-18|WrathfulSpatula|Exact result for one-to-one function
+ab95d0a26d2d661449bf1f9b6c3b701cde32dcbf|2018-08-18|WrathfulSpatula|Unitary version of example
+a63fcbbf07c97d32812c4181d00173957fef73e9|2018-08-18|WrathfulSpatula|Cleaning minimization example
+341c5f176f67220e308c381669f6188646350732|2018-08-18|WrathfulSpatula|Cleaning minimization example
+5f57673375860a3b753141d9833c56198dd075a6|2018-08-18|WrathfulSpatula|Adaptive Grover's search, or quantum annealer analogue.
+21d4f973fc85d63c56d4cd899de3afa62e463003|2018-08-15|Benn Bollay|Update Doxygen project number to 2.0
+42d297dc0c87dcf7b36bc45f86386ae4fa53da5f|2018-08-15|WrathfulSpatula|Additional phase separability can be recovered during measurement
+cf9e91bd2f0b5b435dd60e1bcc3a75f00b0cac2d|2018-08-14|WrathfulSpatula|Fixing phase separability caching
+2c8404d48f2e4e480fb5df4b3fbe526149db0a7f|2018-08-13|Daniel Strano|QUnit Schmidt Decomposition (#78)
+a6889daad1e260a6616eb39a9faeb2a1aae98e90|2018-08-10|Daniel Strano|QUnit bug fix and Inverse Quantum Fourier Transform (#77)
+c31e8bd810d244c624f58c7ea948016e12da6eea|2018-08-03|WrathfulSpatula|Reverting last commit
+e80bb3a683817ea72b7f02fc02bf40fd45d069ed|2018-08-03|WrathfulSpatula|Cloud benchmarks
+956dff8685b6959c5a3f2d501d21741a5e5ea03b|2018-08-03|WrathfulSpatula|Fixing compiler warning
+c64c335a1e157efc04d6609b3a2526001111592b|2018-08-03|Daniel Strano|Use OpenCL Device Memory When Possible; SetDevice debug (#75)
+9e8b4ba22f58398b21624c788ecd4e65c21c8efa|2018-07-25|Daniel Strano|Fixing vector index
+08fff5fb9e80ad68092fcc95896a613bef7cf143|2018-07-25|Daniel Strano|Fixing multi-device OCL platform initialization (#74)
+da8049b9dc3afdfcfff28dcddcadc19d08bd4c96|2018-07-24|Daniel Strano|Shors 2 (#73)
+ec5cb5d95b5eb1ac72ee2953f35bffae6ad71de5|2018-07-22|Daniel Strano|Unitary integer MUL/DIV operators (for Shor's) (#71)
+22396442c2b409669305fe0bf1915f7a69c48e0d|2018-07-21|Daniel Strano|OpenCL Single and Multi Coverage and Optimization (#70)
+f13804bfa7f9f64a1641303fb3ba6d1dd7ae70e2|2018-07-14|WrathfulSpatula|Reverting need-to basis calloc
+f4e832ff0977804f2ff8cee2738a012ffb0be3ba|2018-07-13|Daniel Strano|Multi-device platform bug (#69)
+1b758b2b11020f1617e025c4c7eccb5b0cb21adc|2018-07-10|WrathfulSpatula|Documentation-only change
+71775e557611a8f1cce4f8f1f080ffa3474cfec4|2018-07-10|WrathfulSpatula|Documentation-only change
+bf85e4e708af4b26c77ba635e850e6e2513c04d2|2018-07-08|Daniel Strano|Moving preprocessors defines into header (#68)
+8054d3f392f30866be6e0d9066832bcdeccd2248|2018-07-08|Daniel Strano|Slight changes to oclengine.hpp inclusion (#67)
+e0d6caa4deeab7678fb5c45d38058451380b63c9|2018-07-08|Daniel Strano|OpenCL Device Selection (#66)
+4be9902285aa533711fbc90d1949c877d67a9eb4|2018-07-06|Daniel Strano|Fixing typo in cmake option in README
+3ace41b537056aa869a275ec1a15420971c49c35|2018-07-06|Daniel Strano|OpenCL with multiple devices (cluster support with VirtualCL) (#65)
+7f6847c99b42e74a4b98414078aea78605d26517|2018-06-12|Daniel Strano|OpenCL coverage and optimization, optional float accuracy (#64)
+ffc01e49f190725512a66d707639f7f9b48d7713|2018-06-03|Daniel Strano|Mac build (#63)
+f209e469984ab7159b89a6a3824a770a2fd6f9f2|2018-05-24|bennbollay|Set project version to 1.7 for doxygen
+8b604de58d37398e0c35b34829a9bb2f0752ce8e|2018-05-24|Daniel Strano|Update README.md
+123a2c480871bdd7d89e96c5d785b3e64fd6feec|2018-05-24|Daniel Strano|Copyright notice
+83b29e8eaa1f80f194443a513818615625377f0e|2018-05-24|Daniel Strano|Update to copyright
+962b694eb05916bdcaae470a4e6407184010efb1|2018-05-23|bennbollay|Adjust some comments from SuperposeReg8 to IndexedLDA and related (#62)
+4c424d93b6927c3f546376d9a7b9dabc65d0f72d|2018-05-20|Daniel Strano|Const reference parameters in complex constructor
+25ff081b94bb2ca11278860c437d7013b6e4cf69|2018-05-17|Daniel Strano|Benchmarks (and incidentally found bug fixes) (#61)
+20b7b58382c44239546600e300f81f078919f277|2018-05-08|Daniel Strano|Avx optimization (#57)
+e9f66691e65f9d578607cf6f81d337f7065bbda4|2018-05-03|Daniel Strano|Merge pull request #8 from vm6502q/master
+13ca1c033cba9017891beb04f81c186ba06dbf62|2018-05-03|Daniel Strano|Merge branch 'master' into master
+d6930898b7b3c0b65a51b3ad998b3651952a5f1d|2018-05-02|Daniel Strano|Unit test coverage (#56)
+f64c8fecf251c37f9b013d1e6e49460a8b2350ef|2018-04-30|Daniel Strano|Faster complex multiplication (#55)
+ecc5437d07fc65403f12dcf94e01d0473e3e4174|2018-04-30|Daniel Strano|Merge pull request #6 from vm6502q/master
+af0c7816d8dff228e6dc56dff79eda6aebf1f1fc|2018-04-30|Daniel Strano|Improved SIMD complex multiplication
+335daf972dd86ad0c3b0f61808fdfd5827bc73b2|2018-04-29|Daniel Strano|Fixing read/write flags (#54)
+66b91961e00206ce7a6d77bac661bfdd15c5fed6|2018-04-29|Daniel Strano|Fixing read/write mapping
+0df6c174b82b23c96d80e38ef4e8f1af72f3a63b|2018-04-29|Daniel Strano|Fixing over-constrained READ/WRITE flags (#53)
+cd53f4daa95d36323d55820484655acb57605c67|2018-04-29|Daniel Strano|Fixing over-constrained READ/WRITE flags
+66d1d53e31c6add9a965cb1d9daee661d2ee1ecb|2018-04-29|Daniel Strano|Merge pull request #5 from vm6502q/master
+2053f594cab172b7489a2d7a375c6a458b04a431|2018-04-29|Daniel Strano|Better fix for function hiding
+42002bbd39525dc4f236af5fd3c082061f08d3e4|2018-04-29|Daniel Strano|OpenCL coverage (#52)
+6172797e9dff774917fcdf50f79fbb83d2f1a35e|2018-04-26|Daniel Strano|Revert "Removing branching from OCL INCC"
+f62d628e723c416a78b49ba8f9088991b7227d3c|2018-04-26|Daniel Strano|Removing branching from OCL INCC
+bb541fd92a0e863b50b9d76f4be87a320559c550|2018-04-25|bennbollay|Coverage and Format support in CMake (#51)
+47baa267a8bb2d862c9bca6e45f4a03e5fbb5cca|2018-04-25|Daniel Strano|Merge pull request #3 from vm6502q/master
+a216096bf4be31b172db6ba2f81cf0714f01ed05|2018-04-25|Daniel Strano|Indexed generalize (#49)
+2fbea567a2f1ee4d90184a6765f5de15740565d8|2018-04-25|bennbollay|Some documentation touch-ups
+87f66ec17c04b1ef4612c5d51e4fb8d46e5dbae7|2018-04-24|Daniel Strano|Merge pull request #2 from vm6502q/master
+dc21eb7d05aaef845470e7a02454e19ae4a77a36|2018-04-24|Daniel Strano|Fixing partial collapse of entanglement and Qunit optimization (#48)
+1d73c875bb1a57da4c855f079ad0af1b70cba04d|2018-04-22|Daniel Strano|Fixing controlled gate matrix operations (#46)
+6a21c446f4913d34d8eb37dd5791554feb1ed3a3|2018-04-22|Daniel Strano|Normalization, par_for stride, fixing 2 and 3 bit gates (#44)
+6ce658fd151d78799b046842b0471462ec722b9f|2018-04-21|Daniel Strano|Incorrect allocation in Dispose
+8024b19cfcd9dbf283d2398cdc9f278b483620a2|2018-04-21|Daniel Strano|Removing Swap with length=1 calls
+a247799c2d88bc745cdd5ae5925ce796cfc68854|2018-04-21|Daniel Strano|Fast Forward Qunit (#43)
+f6c36984ab053a765bffbaeb88141495bbccbff5|2018-04-16|bennbollay|Refactor and rename classes
+1e80f33d420b19556a67ab2cbcbfc2573e9053dd|2018-04-13|Daniel Strano|Merge pull request #38 from vm6502q/doxygen_fix
+b5425759287c1550ebe680bec8d8fa69afb2cad0|2018-04-12|Benn Bollay|Update with the correct new paths for qregister.hpp and complex16simd.hpp
+77286a251ccddaf18cf42ef45ff6d8564219e63a|2018-04-11|bennbollay|Merge pull request #37 from vm6502q/lookup_table_search
+9f2fd05ab1ef24ffd23e91ebab861f6eb428388c|2018-04-11|Daniel Strano|Simplying algorithm
+c9528336a2d770a5f80e3177a34bb59dc778ef21|2018-04-11|Daniel Strano|Including old Grover's example
+90b26f4561dc394829603849e2bcd50b57a06194|2018-04-11|Daniel Strano|Grover's search of lookup table and SBC bug fix
+70077e76b54339ea93c1cdabc3c26a07cc6db277|2018-04-11|Daniel Strano|Merge pull request #36 from bennbollay/cmake_3
+94071f64dbc3dc9b286d71648ba1d13af6ebe9b1|2018-04-11|Benn Bollay|Add 'make test' support
+01706ce0b8be240e3e2820fc534de92c1a4e1298|2018-04-11|Daniel Strano|Merge pull request #35 from bennbollay/cmake_2
+ef6db95f6e2d8997c010c2b920401712083f3ca8|2018-04-11|Benn Bollay|Header to common/complex16simd.hpp
+88ec75e5c684e95c7c31bfaf7b185da8d1110090|2018-04-11|Daniel Strano|Merge pull request #34 from bennbollay/cmake
+d208430e34cfe5ff29ca6462cc566fda36024786|2018-04-11|Benn Bollay|Add missing -std=c++11 options
+a83ce0cbe6a8fb0c104a8c374c3e6b579ff30eb5|2018-04-11|Benn Bollay|Configure travis to use cmake - take 2
+0339462125ba251bb8673dcd24bb065a3a20c7ad|2018-04-11|Benn Bollay|Configure travis to use cmake
+9de379ae640b896d0a0477c3cd71629c66634868|2018-04-11|Benn Bollay|Move OCLEngine into the 'common' path, and push catch.hpp to test/
+6b9b4db728b70df14df579ace1865928ff355d4e|2018-04-11|Benn Bollay|Add cmake-built files to .gitignore so they do not get checked in
+a696d0941aff719a19b05258b147d137a23423d4|2018-04-11|Benn Bollay|Support building and installing via cmake
+ff2e8bea152109dac34cfb575b3ea0b2feb03657|2018-04-10|Daniel Strano|Merge pull request #32 from bennbollay/par_move
+1ff8d0a4f1e3c0037efa2bc16acc75c054eeea28|2018-04-10|Daniel Strano|Adding numCores initialization to SeparatedUnit
+33e83c13add113f4e9ad0ecef83cc3d717db5510|2018-04-10|Daniel Strano|Merge branch 'master' into par_move
+a22a1f4eb744b39b26aee57035a94a5c33eb7f54|2018-04-10|Daniel Strano|Merge pull request #33 from vm6502q/separated_unit
+dc8c885cb97ed564cbba47ac3be91557db6568bc|2018-04-10|Daniel Strano|std::shared_ptr best practice
+11703320d9d119f9f7ce958ab27bce05c6854fdd|2018-04-10|Daniel Strano|Fixing std::default_random_engine allocation
+9f4a81a5f71e306044df835a8e216e6e8b6194cb|2018-04-10|Daniel Strano|Orthogonal engine types
+46445ef7c1f945d1ae527d4e7025c515538fdd8a|2018-04-10|Daniel Strano|Multiple cohere
+402cdd8d59649b60128396b247d05e620f55724e|2018-04-10|Daniel Strano|Fixing carry/borrow convention
+c50b3de418cd1641d944ea182fcf9eb16f90a6a5|2018-04-09|Daniel Strano|Small review changes
+76c88afa26a984c776f00325160db1e1775c99fb|2018-04-08|Daniel Strano|Fixing cohere
+74c7002d2cd1f302a2ccc01268d4c1e7eadb2bea|2018-04-08|Daniel Strano|Decohere/cohere
+8d942616529e1bd949a45f407bb12cd223b47f14|2018-04-08|Daniel Strano|Optimizing ProbAll
+e836db0380cfb6feb251c94ecf55a5e16e80ae7a|2018-04-08|Daniel Strano|Grover's, Decohere, MReg
+f6524fe06e16a37cde14bcef347c9d0a222cc076|2018-04-08|Daniel Strano|Fixing phase relations
+afb1c6f62f64e265768c43c33bdc739e2f77d652|2018-04-08|Daniel Strano|Phase methods and QFT (broken)
+56bebf833513926472971a60986b512ee7ec2794|2018-04-08|Daniel Strano|INC/DEC methods
+e1927b3441720af2653d3ff144dbb647668c8482|2018-04-08|Daniel Strano|Shift operations
+3022e6f7d9ddcd76917b892ca94f5fef0a157e1d|2018-04-08|Daniel Strano|Fixed measurement and unittests
+c32a4be82e94e9936e8a6256b995f5c88cc72467|2018-04-07|Daniel Strano|Various changes, commented CLAND/CLOR/CXOR in unittests
+412fdca06cc531c612cd0c1335547ca291617180|2018-04-07|Daniel Strano|Missing virtual keyword
+3805feae006f7341258e81778128db24134ab37b|2018-04-07|Daniel Strano|Fixing off-by-ones (still segfaults)
+f48c9bf942eaf0aa650d3a3d3b44b1d0f0481382|2018-04-07|Daniel Strano|Bitwise parallel gates (stack/heap corruption)
+9abdad38b556c87182b257f2383a47bf83b3b6b3|2018-04-07|Daniel Strano|Adding support methods
+5f95e3f6cc4f4cf41990feec939dbb9c9c883582|2018-04-07|Daniel Strano|Implementing support methods
+8a78d2ecb8587377eeacf16a44d642f37589e769|2018-04-07|Daniel Strano|Removing API redundancy
+727b08c09f099911b7a6ebb627d964eb76357884|2018-04-07|Daniel Strano|AND bitwise parallel entangle example
+e142c67e9c43a86d47cb8c2d1da447e63665ff10|2018-04-07|Daniel Strano|Fixed OCL superpose methods
+c1f0c30f06ed36991a6fe6e9d250dd0d06339e66|2018-04-07|Daniel Strano|Fixing engine selection
+7f411fabe0cb061eb029223e16eb7c982dcf5bad|2018-04-07|Daniel Strano|Fixed SeparatedUnit SuperposeReg8, segfault in OpenCL
+70b62d355bfe0991d98207f8d09755d2dbe01d53|2018-04-06|Benn Bollay|Adjust format
+baba4ff1842fad96c81e239d28057d9e018357a8|2018-04-06|Benn Bollay|Move par_for functions into CoherentUnit
+e7629141decdf0977da8764f0414348d3819bdc8|2018-04-06|Daniel Strano|Fixing conflicts
+dfac02ff2f8c2a5c99ef4ab9a15efa05647f3fb6|2018-04-06|Daniel Strano|Rebasing
+c89e23ca3e7c65100e5ff641b7b07a6337b8e4a3|2018-04-06|Daniel Strano|Provisional SuperposeReg8 (way too much RAM)
+8cffee4896943ced7fd98d65c746f55408096435|2018-04-06|Daniel Strano|Converting inverse lookup to vector of vectors
+b8f6b70c388dff148f683edc6d5702c147b2eb9c|2018-04-06|Daniel Strano|Inverse lookup table
+52e63638eb57fc089f7fd937b81459d5f5d07201|2018-04-05|Daniel Strano|Pointer to lists
+f7cd31b245c8b71df6911b23c87038b21d8df2cc|2018-04-05|Daniel Strano|Fixing MReg
+80722c6c0f0775669d857553d5b4f874d4175916|2018-04-05|Daniel Strano|Changing rng to reference
+0e7a42caa061ec69c0fde74ab66a6dde91944a72|2018-04-05|Daniel Strano|First working unit test
+5298978d2b42ba5a51be41ebed232e67191cf69f|2018-04-05|Daniel Strano|Optimizing for length=1 case
+1d4aabb713ff5b18336ac02a61410685da422d98|2018-04-05|Daniel Strano|Bit list reduction comments
+c02e6c0632ec5f4d7f597da3627478af708189ea|2018-04-05|Daniel Strano|Ordered and parallel list reduction
+d54d1988e467f0bc02aa8d7284ad5858b78940f5|2018-04-05|Daniel Strano|Single bit measure
+509cf5526e3911fff0614428de43691289c2749d|2018-04-05|Daniel Strano|Single bit measure
+54d7fdab63e90a62e811b2ff94978ce2bc270911|2018-04-05|Daniel Strano|Lookup struct
+4a57eaf9c7942d07a5da4f5fe25a0c37a6870a40|2018-04-05|Daniel Strano|SeparatedUnit constructors
+45deb3713011e4595df15c2fa94d40ab21a95c2a|2018-04-06|bennbollay|Merge pull request #31 from bennbollay/par_norm
+5ae25e77feb54ab291734e5f93cb9eb92682a563|2018-04-06|Benn Bollay|Refactor the par_for methods, and adjust commentary
+06911129db96d811a20eb5fda4c1418632c18fa4|2018-04-06|Benn Bollay|Add the headers as dependencies for the source files.
+1a591a48773896c56d463b1a9ee7c05d1833a9a0|2018-04-06|Daniel Strano|Provisional SuperposeReg8 (way too much RAM)
+44f14d0f9c57f633296cdfd7f3b8bd3f4da5d6f6|2018-04-06|Benn Bollay|NFC: Adjust header comments and style.
+906a31e349656bfbd8b4584030ac60b802ff9e8f|2018-04-06|Daniel Strano|Converting inverse lookup to vector of vectors
+0462b49d38f54f437e5bb1dcbb56a75c8e805b7d|2018-04-06|Daniel Strano|Inverse lookup table
+d690670b2c93adfe995ba4b2ee10e7cbf73683db|2018-04-05|Daniel Strano|Pointer to lists
+c9844da8e5009b1a4a56633befac879f1dc97f84|2018-04-05|Daniel Strano|Fixing MReg
+a5de72bddef484d93cc445a0cc4fb70211777360|2018-04-05|Daniel Strano|Changing rng to reference
+ba0b241bab8a24041ac18201db4406c6240014e9|2018-04-05|Daniel Strano|First working unit test
+e93b513b30b4f0d73dcb2ebf841ad69b005cca62|2018-04-05|Daniel Strano|Optimizing for length=1 case
+fbb97466518f2923329c7e4deca1abf2d70168b8|2018-04-05|Daniel Strano|Bit list reduction comments
+5669ca928735a40d26c20f7124722aefcd039f9d|2018-04-05|Daniel Strano|Ordered and parallel list reduction
+885b6be11ae180f591128d159312ec667e57d7b0|2018-04-05|Daniel Strano|Single bit measure
+e3ca8edf74d0fdb23772c578294d93183e304e72|2018-04-05|Daniel Strano|Single bit measure
+3146e4df59b48d252807d83021f720eefdf44eca|2018-04-05|Daniel Strano|Lookup struct
+4326147d499539683fe02dd4b1c1649e30cf34ac|2018-04-05|Daniel Strano|SeparatedUnit constructors
+d75b7982aa268b18ea374ff0da65955065a2e5d3|2018-04-04|Daniel Strano|Merge pull request #27 from vm6502q/optimization
+e539fe3f091687205ee54e10c8f7bd3d3f03c0bc|2018-04-04|Daniel Strano|Merge pull request #28 from bennbollay/docs
+f820d7c34aaab61c8a0cc4b84a441022252ce52b|2018-04-04|Benn Bollay|Documentation updates
+dd5d2ffaf159ab1cfd1a387246ef29dde33b5932|2018-04-04|Daniel Strano|MReg8 optimized, make format
+c12a3672d5e7d2e89f4553e38ec5194f31c8e852|2018-04-04|Daniel Strano|Fixing for Travis compiler
+6d450edb533c3a2563a156cf4141f7927bed672e|2018-04-04|Daniel Strano|OCL, removing dead code, fixing unit tests
+f6dfe9a22a090e4881c6d9e2600c7d917bb67180|2018-04-03|Daniel Strano|MReg optimization
+19d7c96f23ef5f1bc0a914f442083354685525cd|2018-04-02|Daniel Strano|Parallelizing superposed operations
+616a3555b3f98f20bbf4230948fd4f2e5c25df27|2018-04-02|Daniel Strano|Parallelizing normalization
+c1947584a5bf9fa12fdd67fb639eca3655f681fd|2018-04-02|Daniel Strano|Make format
+a69ec591f6ef2ffd4ed977b6727b7795c0d7033f|2018-04-02|Daniel Strano|Parallelizing Cohere, cleaning unit tests
+a3980c38d029276379dc63950977dd3603d6d52c|2018-04-02|Daniel Strano|Fixing cohere, decohere, dispose
+041d9e63a4574885c4a10ff1d001bec5942ef075|2018-04-02|Daniel Strano|Cleaning bitwise logic and stubbing in multiply
+3b03ec1096aada8554e5e2d89eb1543064d54ede|2018-03-31|Daniel Strano|Merge pull request #26 from vm6502q/removing_ehx
+80320326562a524d8a2615d39fb29341c7c26f55|2018-03-31|Daniel Strano|Removing unnecessary array
+313b58d8572f5e61071c9e69ff5607ed31b193a7|2018-03-29|Daniel Strano|Removing 'entangled Hadamard'
+aa8b3403fbe85d334b98c101a183d7d46e690529|2018-03-26|Daniel Strano|Update README.md
+934760d49d68f9345e84eadb9c1431ca27215b26|2018-03-26|Daniel Strano|Merge pull request #25 from bennbollay/travis
+7c9aad5d40a595aefd743ff81794bfd400ee28e9|2018-03-26|Benn Bollay|Some filename adjustments and makefile tweaks
+cbe1629142c46bb9061e79d7830e3478da447ad5|2018-03-24|Daniel Strano|Updating docs
+2994382d7b6af56bf09a7ba7e2e6aa5b21e18629|2018-03-22|Daniel Strano|Typo fixes in doxygen
+0fb6407d45662f34aaf3e97df6722146f1e140a3|2018-03-22|Daniel Strano|Refactor
+eb629f8dfc730c546722422c1ccf22c52f5d9839|2018-03-22|Daniel Strano|Update README.md
+be832ea85320cde4b528426815c4c9d3c265d5bb|2018-03-22|Daniel Strano|Update README.md
+4132ee7ea1d894b980aa3db47f71eabfeddfe750|2018-03-22|Daniel Strano|EntangledH documentation
+5ed0d49c1738222e98f27f6b31802640a5470fa8|2018-03-22|Daniel Strano|Update README.md
+c14ff3ac53b1cf073029ebed176d4a0f02006d11|2018-03-21|bennbollay|Enable XML output in the doxygen configuration
+813bbdc5ed606f72d754aad2240c61c176b9266e|2018-03-21|Daniel Strano|Update README.md
+0aa74c343a031979bb0cda8cbd0b5f702db6adcd|2018-03-21|Daniel Strano|Adding inline register X documentation
+788cc8d02985413a75b29ed846025de06c47e184|2018-03-21|Daniel Strano|Update README.md
+f3856c315c38b8dc7e35e6695396d8beb623d54d|2018-03-21|Daniel Strano|Merge branch 'master' of https://github.com/vm6502q/qrack
+8afc702ae9a38f8aacfab124480888914fdfcee5|2018-03-21|Daniel Strano|Moving CoherentUnit header into README
+e0f3e5dd316c7f2c9dd757215b684e445d5d990c|2018-03-21|Daniel Strano|Moving CoherentUnit header into README
+f249a12b3252c1548b14d3010bf04578faec6db9|2018-03-21|bennbollay|Merge pull request #24 from bennbollay/travis
+4caa46a0c445d4ee92d165e30b9411e46f52a3ae|2018-03-21|Benn Bollay|Disable OpenCL for Travis builds
+2792445221656ef8253b6d2d3dac8b0766264fe9|2018-03-21|Benn Bollay|Some README touchups
+b9c7a69e0e253b9d43d178d7416c143550a78a1b|2018-03-21|Benn Bollay|Add a basic travis.yml file
+758ce3d83e8f785a6bf3e731fbb77f1b79a8b7d4|2018-03-21|Daniel Strano|Superposed ADC/SBC documentation
+2fd84b5d50adfb48120cfe644c4d2599607a5b35|2018-03-21|Daniel Strano|SuperposeReg8 documentation
+086f62ffa0b1269ec2c68076e247c8a0734741c0|2018-03-21|Daniel Strano|Updating Decohere/Dispose documentation
+6f02f0f0d27cd203d2262aec9e93107af9dff2a1|2018-03-21|Daniel Strano|Cohere/Decohere/Dispose documentation
+3a3b6085a111339e0466128fe360eedf7fd37926|2018-03-20|Daniel Strano|Adding measurement documentiation
+633c4afa6a77a641a9059c014159e2b709e40866|2018-03-20|Daniel Strano|More introductory documentation
+1587b5cc152147c49bb11e7a8a20bfcbcbe2ec21|2018-03-19|Daniel Strano|Update README.md
+afe789798fdc852a0fa6a448ed524562d41e4286|2018-03-19|Daniel Strano|Update README.md
+ec981131886622c9c00d44005009eac7bd0884e0|2018-03-19|Daniel Strano|Update README.md
+5faf722c8741de435712adb1390f8fc519e17f1e|2018-03-19|Daniel Strano|API specification
+22373bccae2411b06d295210ce4dc95b1ad76be1|2018-03-19|Daniel Strano|Fixing doc. formatting
+de858b26b184e0edc0b39982cea8928da025b13c|2018-03-19|Daniel Strano|Introduction documentation
+414f25250bf4da0a45df3c9a3d02bfe157e644e5|2018-03-18|Daniel Strano|Correcting documentation
+a7a53e3deea1e324ba12347ce431506e4c33ec26|2018-03-18|Daniel Strano|Correcting documentation
+1c1f60d594ecdb700305e3548d82998c51e6b573|2018-03-18|Daniel Strano|Merge branch 'master' of https://github.com/vm6502q/qrack
+0e35e09e6c9cfbcc3b20cc1163795b12b230a3d7|2018-03-18|Daniel Strano|Adding introdctory documentation
+3a833d5101078596dbfcea747bed64b9189526e7|2018-03-18|Daniel Strano|Update README.md
+ce772ac04d0d73f1d4c58375778e4df176c339d3|2018-03-18|Daniel Strano|Overloading flag methods
+4204083ab9fa4633261c7d5140aefe67736bf9e0|2018-03-18|Daniel Strano|New INC/DEC overflow overloads (with bug fix)
+133a685f77913f70fdb62091e083bcf098bf119a|2018-03-18|Daniel Strano|Adding phase flip method
+ea0673c38452cb984b7db690f8e62c7845edce9c|2018-03-17|bennbollay|Merge pull request #23 from vm6502q/adc_sbc_superposed
+b229356e28854acb7dfc3d5785e90b9a052bcb52|2018-03-17|Daniel Strano|Improving ADC/SBC comments
+b4d9598f3134d0076006f2fd2cb6172394a2c0a7|2018-03-17|Daniel Strano|Adding ADC/SBC expectation values to unit tests
+87003dabed75323b0e363678cf072af2abf776c6|2018-03-17|Daniel Strano|Adding comments to ADC/SBC
+e0051d445b8198c4b316e4d6e594ac31d425dbbd|2018-03-17|Daniel Strano|Ran make format
+602d0bda2d6fa5a275350a396fc0861a742d87c6|2018-03-17|Daniel Strano|Adding bitwise CNOT
+c48876287aaaf6e856adaccb07d20ad70493bec5|2018-03-17|Daniel Strano|ADC/SBC semi-classically superposed
+dccfd516788de117a40fd69b988419f8f4a603a8|2018-03-16|Daniel Strano|Merge pull request #22 from bennbollay/xor_or
+a7ba904e3d3eef37c324b3ae743809d3988c1f2c|2018-03-16|Benn Bollay|Set the expected results to the correct value.
+01919dc4010844bef27ba9468ed040d075ae6deb|2018-03-16|Benn Bollay|Force-set 'length' when it's unset so that describe() accurately prints out the number of expected bits
+439fa4eca022d6fe4489fc30dd99e28f7d4d7a11|2018-03-16|Benn Bollay|Style changes
+073b40f460e679db505a27fd6c80c72bda867ed7|2018-03-16|Benn Bollay|Remove old cout's.
+51bba2ae0a8d7051df368d5671b5bf4a87912370|2018-03-16|Benn Bollay|Add qregister.cl to the formatting.
+efb41219efc1cf21d266f0d26717be3984ff47b1|2018-03-16|Daniel Strano|Update README.md
+ec87f57bda1af37434d77e3581a8b8cb75921dc4|2018-03-16|bennbollay|Merge pull request #21 from vm6502q/logical_compare_correction
+e29f4b97833cb8e56420943a90dee477ec06b373|2018-03-16|Daniel Strano|Removing XOR throw
+6552a8b7fab85eede430ce521027b4dd4fe3799c|2018-03-16|Daniel Strano|Updating unit tests
+cc49937acffc2b031f01eced74a31f026b943abc|2018-03-16|Daniel Strano|XOR invalid parameters
+24441a940ae276045aa76e06daca95cfd53ba397|2018-03-15|bennbollay|Merge pull request #20 from vm6502q/incc_decc_fix
+27bc04bcd3bba26ff15d5838f754940027eff09d|2018-03-15|Daniel Strano|Correcting logical comparisons
+ff14b94e99b3556c1ad6a019ba610e4a1f71beb2|2018-03-15|Daniel Strano|Fixed seg fault and cleaned up
+a461f19199a473dd96d3294f91383a384b8d42ff|2018-03-14|bennbollay|Merge pull request #17 from vm6502q/entangled_hadamard
+fafc5456859cfc81e8148a8b6ad2f28c29644451|2018-03-14|Daniel Strano|Merge pull request #19 from bennbollay/entangled_hadamard_2
+9421b3fa86ce1f227bd1a0fe0ed19d717707b123|2018-03-14|Benn Bollay|Clean up grover's output and add additional output variations
+bd02a75a067c44bbb398d24fac0ccfdbfd7534b5|2018-03-14|Benn Bollay|Attempt to get slightly faster compilation times
+fd9c402db6840d93442fd20d6c4619593f101238|2018-03-14|Benn Bollay|Support disabling the software mode tests as well.
+be1ba4f1075c9efb467141e0d803ef269d14ede5|2018-03-13|Daniel Strano|Nontrivial lookup reversal
+26f31555b97cd5dc4d2cb2cab9d85f68ddb52e6b|2018-03-13|Daniel Strano|Correct, fast entangled Hadamard gate, with lookup table reversal
+d2292f8b73f4d57eb72c53caece04169703c7cdb|2018-03-13|Daniel Strano|Optimizing entangled Hadamard
+ad7094e1e1683f87dc8aef961a445ecc66e64366|2018-03-13|Daniel Strano|Optimizing entangled Hadamard
+25c2b186011c691ed55c1386e1e3eea0513045b0|2018-03-13|Daniel Strano|Slow entangled Hadamard implementation
+7a900272b11cf0a8093961b2ad9b0613f6ea43cc|2018-03-12|Daniel Strano|Fixing bad single bit gate sign convention
+673852d5ee585ada4495f970d1444c4a28feb7a9|2018-03-10|Daniel Strano|DECBCDC bug fix
+98e3bb20b52074207d959d04e13e0de682fac552|2018-03-10|Daniel Strano|Fixing SetReg and SuperposeReg8
+df643ba7b5cf52295112162af10f026cd6128336|2018-03-10|Daniel Strano|OpenCL bug
+5f9a511ffa908d133c32220e95362f539e076dff|2018-03-10|Daniel Strano|Update README.md
+6a71ab615d09c5cb925327eb053284bb77565842|2018-03-10|Daniel Strano|Update README.md
+7d112986018c327319b2d5b74fe5483564697ab5|2018-03-10|bennbollay|Merge pull request #16 from vm6502q/ocl_optimization
+8f01e8bb4c12f67ef57ac2fe5b09dae863e58ed5|2018-03-10|Daniel Strano|Merge branch 'master' into ocl_optimization
+af0306e3b9f2949338fcff557b38f880afc90ba1|2018-03-10|Daniel Strano|Clang-format
+9007af43badd8f121c2dbe4c62a9e7cd85d05e11|2018-03-10|Daniel Strano|OpenCL DECC and debugging INCC
+c721d26de4393c441631aaacce5b5c0bdde13129|2018-03-10|Daniel Strano|OpenCL INCC
+7490675cdfe2920408feba066693297efc2e7190|2018-03-10|Daniel Strano|Pruning dead code from par_for.hpp
+8661f39b1a0d239724a52ac3cbee9b97dd4bdc36|2018-03-10|Daniel Strano|Optimizing flag memory usage
+9093775a3ac1fddf664d886d71a1e1c035631706|2018-03-10|Daniel Strano|Correcting unit tests
+03d81a0d809615f058cdf8ab11544adfdd6abfdf|2018-03-10|Daniel Strano|Correcting unit tests
+bfd8daecae19e322933f7474599d3594497641d4|2018-03-09|bennbollay|Merge pull request #15 from vm6502q/quantum_carry_flag
+3576d4e36d93cde8865696ac6a77c02198238e08|2018-03-09|Daniel Strano|Correcting CMP carry flag behavior
+cdcc00aafec010b88daeb746e4dae84a10cc24b2|2018-03-09|bennbollay|Merge pull request #14 from vm6502q/quantum_mode_flag
+f8fd0f9de87afe800257cd6adf6277b3cf0d42bc|2018-03-09|Daniel Strano|Adding check, removing comment from Grover's unit test
+d4809041217b43376e58102359b2cce351e7913a|2018-03-09|Daniel Strano|Removing Grover's lookup table
+bf15ceebc14131103e8c89cef8f0041af29f1524|2018-03-09|Daniel Strano|Deleting obsolete unit tests
+9756f2183764168294d843d8a0e980c4b055c98d|2018-03-08|Daniel Strano|Merge branch 'master' into quantum_mode_flag
+767f572357b90221eb22d15a581698d6ccd60973|2018-03-08|Daniel Strano|Restoring catch.hpp
+53e8a7fe9fde113d83ce6f74969285988ad5fd33|2018-03-08|Daniel Strano|Switching flag flip from X to Z operator
+a5d827132725561547b90685dd9ebfaafef62fb3|2018-03-08|Daniel Strano|Merge pull request #12 from bennbollay/small_cleanups
+e0e89af8b41ee51a6055843ad1715ab48f57c328|2018-03-07|Daniel Strano|Clang format
+49b84118540c64ea1d1da351d2b8ea8cd1425a3c|2018-03-07|Daniel Strano|Carry cleanup
+dd09b1a49444d42604eab8d50ebdc1e866fcd8de|2018-03-06|Daniel Strano|Quantum flags X instead of reset/set, for unitarity
+577c0fb825d3671bc8658d4b2ba6dc8383d041f8|2018-03-05|Daniel Strano|Merging README
+cede4e30285acf969daf7273a5a79d977833db3c|2018-03-05|Daniel Strano|Fixing flag unitarity
+fac0d4ab708c2183435299f46765c29266be73ed|2018-03-05|Daniel Strano|Update README.md
+7365b78a72629f1cab6d0721eecd09f3da93aa27|2018-03-05|Daniel Strano|Grover's debugging/optimization
+fe4751a04f647d118c2581a955b7b095df9224df|2018-03-04|Daniel Strano|Grover's test with a lookup table
+d147d6bfde2ec96d632aa404494e2910226dfdba|2018-03-02|Benn Bollay|Add small cleanups to running and logging tests
+18584307849a95f47531a4a2260cbb4c4cb867eb|2018-03-01|Daniel Strano|Merge pull request #11 from bennbollay/randseed
+eef01c42a8032c8d56872f0179f629ef7986012a|2018-03-01|Benn Bollay|Log the random seed used in the tests, or specify it at the command line
+c22dffcc74e2f2864d2f73628c1824f8faca2ac4|2018-03-01|Daniel Strano|Merge pull request #10 from bennbollay/refactor_3
+320a5d1bc5e4a887a93cb149bb782188ec75daf5|2018-03-01|Benn Bollay|Adjustments to use a factory method and create an archive
+9074bf9e3926c3248ec37239cdd6c422f4d3acb6|2018-03-01|Benn Bollay|Some touch-ups to support the AMD SDK on VMWare
+74ee3f2a5b2731e88851dce72fdbb6c73194ccad|2018-03-01|Daniel Strano|Merge pull request #9 from bennbollay/refactor_2
+e149a3647fbef4b3bbf7112b0c2cab8519eaa57a|2018-03-01|Benn Bollay|Fix an OpenCL compilation error and support the software target on OpenCL platforms
+e3b15c99a94409a38989b22ecb42b01922a69b7d|2018-03-01|Benn Bollay|Add more tests
+6094a921f3c8d1e43c21dde93c3a547b80b82707|2018-03-01|Benn Bollay|Add a operator<< for a std::unique_ptr reference
+014e7512c51548811f6174c0667119760e3265cb|2018-03-01|Benn Bollay|Add a 'make format' command to auto-apply formatting to the appropriate files
+697d7031cfaab11eac60141a5280c67a8007ff6a|2018-03-01|Benn Bollay|Merge branch 'master' into refactor_2
+1eaae1992292615f5a8e35c534bddbcbd4095d59|2018-03-01|Daniel Strano|Merging upstream
+bbbb0dd85b619195d3ed809336173d689bcb60b2|2018-02-28|Benn Bollay|Commit merge using refactor_2 with the grover changes as the primary
+ea19b2237c6ab170fe953ab690764ab5f17f8e12|2018-02-28|Benn Bollay|Improved .gitignore
+b41e7a2b8b4cd02456139449094a1356150aad52|2018-02-28|Benn Bollay|Updated with new grover test
+3d7dfe97427a70237e3cf061775ec503d019cb84|2018-02-28|Daniel Strano|Fixing merge
+59f13970311a9cc9821d1ffee1a03b506000f9cf|2018-02-28|Benn Bollay|Instrument tests
+42be7bf20e8e5d0cb5105824f4f09b2ae56ead8d|2018-02-28|Benn Bollay|Addition of probability test utilities
+f011e94702d334c6dd0381f07c4d04b72f7e123e|2018-02-28|Benn Bollay|Checkpoint
+62533e45082ef61076ea6ccd5e9d66b9cb78889b|2018-02-28|Benn Bollay|Checkpoint
+63f487f5bdc3f8e4a2aadc7ccf2a1926bd8c14fc|2018-02-28|Benn Bollay|Correct a typo.
+1f9a6836626878048949d67ce15291e14c72e5fe|2018-02-28|Benn Bollay|More style changes
+360e6afefccfbe012e55dfe4ed21ecf6169a30c7|2018-02-28|Daniel Strano|Merge branch 'master' of https://github.com/WrathfulSpatula/Qrack
+0e9d32cb2eb7d356b3aedfc9d922ad31c6f16049|2018-02-28|Daniel Strano|Trivial Grover's example
+d83c0604c5986680b7efdc6f3e7e3d03f8b0e94e|2018-02-27|Benn Bollay|NFC: Clang Format
+c7ddaa0b1cf3e81fde5e942c7fee09a9f5310ed6|2018-02-27|Benn Bollay|Move code all over the place.
+5e43fa1efa7d6113d0098970196020271773ff6e|2018-02-28|Daniel Strano|Merge pull request #8 from bennbollay/refactor
+76bcf0add2c3946899368a01f168e3b62dc23025|2018-02-27|Benn Bollay|Style adjust.
+878ad4c78f7be86670e52060ae50edc1385852aa|2018-02-27|Benn Bollay|Refactor to eliminate duplicate code and allow for both OCL and non-OCL executions run simultaneously.
+bc86b4c3ce82fc40e38d3f03225cca6568dbfb3a|2018-02-27|Daniel Strano|Merge pull request #7 from bennbollay/master
+05d69ee90bae017f67fb292db33f351cff57dcd2|2018-02-27|Benn Bollay|clang-format for example.cpp
+e28d0fb93f8ba5c64e5037f2cf5f4b2a25373e74|2018-02-27|Benn Bollay|Use the right makefile to set the ENABLE_OPENCL feature flag
+416d11dad0dbd58cf97e6bfaeac822b46b38c4e1|2018-02-27|Benn Bollay|NFC: Whitespace and comment adjustments.
+d38bf7caca75f6d3e29aaf3d59c31dacc7f83bf7|2018-02-27|Benn Bollay|NFC: Comment adjustments
+7fff1085af2e62447af8ae0df22ebe9cb5cc5392|2018-02-27|bennbollay|Merge pull request #1 from WrathfulSpatula/master
+4bead2a7c622fa70cb36b69fccb1305d46c071b2|2018-02-27|Daniel Strano|Fixing #ifdef ENABLE OPENCL
+10804adbdba1d8191d674f28f886e33f0b6fa4db|2018-02-27|Daniel Strano|Clang format
+fc1634dd1eabf89c8067fe61bcdaa69d247db421|2018-02-27|Daniel Strano|Remove qrackcl.hpp, clang-format
+9a463022d8777a5c1f0d6c6c06707daac34f93d8|2018-02-26|Daniel Strano|Merging .gitignore
+c6fde66c5f12b9be7bb0e9c7ca2a06f373be945c|2018-02-26|Daniel Strano|Merge branch 'bennbollay-qrackcl'
+c73a47fe62b1fcd648c2b682a240b93c394e90d9|2018-02-26|Daniel Strano|Merge pull request #5 from bennbollay/clang_format
+b575ef5bf12f8fe0149156c7d1e02cb90c4527e5|2018-02-26|Daniel Strano|Merge pull request #4 from bennbollay/optional_opencl
+cd60f6372f5e36b3cbb757e08f460b4856585ac2|2018-02-26|Benn Bollay|Remove the now-unnecessary kernel_code tmp.
+bb6917afff27fa70db871b5c0d8d2ef8afc50369|2018-02-26|Benn Bollay|Move the OpenCL code to it's own file
+d06b3beff9a630845bc0a8412b650c05d2ec3d38|2018-02-26|Benn Bollay|Set the clang-format ColumnLimit to 120 characters
+8556986d1a63a4ed41ed609c11840ab787df3bf8|2018-02-26|Benn Bollay|A collection of small non-functional changes
+6d33167f2b56fc5f7550ea8a22d9c930311edca4|2018-02-26|Benn Bollay|Support building for non-OpenCL targets
+e57e7944e6e2b97f58d706135df9c60120bcd0ce|2018-02-25|Daniel Strano|Sign flag method
+4e1c51d8f8f182c11ea44cdd39a6095cdc2ced2d|2018-02-25|Daniel Strano|Shunting INC/DEC parallelism bug
+e060bd0de42a5a2821811f3433a0c1649d180a30|2018-02-24|Daniel Strano|Fixing GPU ROL/ROR bug
+d16b41942ec7cd40aa2e8c2c2f2deb70c508bf6c|2018-02-23|Daniel Strano|CLAND logic fix
+67c3f4dfa57280fa32504dc468e71142f02a4e4a|2018-02-23|Daniel Strano|Fixed CLAND bug
+f57f9b96da7eb7ccf620a864a5daf22f023d830c|2018-02-22|Daniel Strano|Updating README
+ec24b1145cff4fafde486de8aeaba4f0a3f9040b|2018-02-21|Daniel Strano|Correct but serial SetReg
+706823bb0b7ea45f10b56905a708e3508b6f5ecb|2018-02-21|Daniel Strano|Fixed SetReg bug
+f13142c4109969fc4b009cd906643369f385814f|2018-02-21|Daniel Strano|Fixed load superposition bug
+fbb101254b68985961bf602060fda00a60aa3cbc|2018-02-21|Daniel Strano|Fixed INC/DEC edge cases
+2eb4435d317b5071fef7fc1ee445114d9d665cf0|2018-02-20|Daniel Strano|Swapped ^/& in superpose
+c579af275fdcb21bb39ac6efe0896dca63a5ef6c|2018-02-20|Daniel Strano|Debugging load superposition
+b774fd0597c44cce727f7e01a4ca1a55095b7589|2018-02-20|Daniel Strano|Adding support for loading superposition from classical RAM
+69a4dae7d0984513706071539e2c44d72ea37df6|2018-02-20|Daniel Strano|Debugging
+10f844d9e847be5bf82fb43b052d31cbf746a0f1|2018-02-18|Daniel Strano|Register measure
+4bc081346cd865a048fe8d3ee4a40b31fc688ea9|2018-02-18|Daniel Strano|Cleaning (all) warnings
+83a8919df07750eb958f60402420ad0133fb2f55|2018-02-18|Daniel Strano|Set register operation
+b28cbbd1fb1847cc6c06e0d131eb83cd61a377f6|2018-02-18|Daniel Strano|Sign/carry bug fix
+699565e18a907345cc9abfc20a67561effc4a415|2018-02-18|Daniel Strano|ADD/SUB with overflow
+2126df088cddec89392a2a025e81f2a184f6ac49|2018-02-18|Daniel Strano|Fixed overflow bug
+f14b488ffa8b2696b70a790f24df8ec65ad6c30b|2018-02-17|Daniel Strano|Overflow bug fixes
+7fc1e44ad185d2f122b4a84e2812e3e85c340565|2018-02-17|Daniel Strano|INC/DEC overflow with carry, bug fixes
+67af14dc1259406d80f8015f9cbf58b4fdf268dd|2018-02-17|Daniel Strano|CPU signed overflow
+21001d3035ad2d655a9ca994b04c83d9f2ee3516|2018-02-16|Daniel Strano|INC/DEC for BCD with carry
+e184edadce5115405f8692106344ef26693a389d|2018-02-15|Daniel Strano|INCBCD/DECBCD
+7d8276f434bec831840ed7962c094801557294b5|2018-02-15|Daniel Strano|BCD bugs, INCBCD
+7aeb8c8b7ab55961f222f4a5f530cc4ecdf4ce73|2018-02-15|Daniel Strano|Zero flag check
+a7ae06359d53994555a1d1778ae12ce7971bda14|2018-02-15|Daniel Strano|INC/DEC carry and carry bug
+7638eb18e3be0f21d989b3d29403e016f5b46fdc|2018-02-14|Daniel Strano|INC/DEC bug fix
+53909e3a1d28cc4c6e161de75503825efe924b51|2018-02-13|Daniel Strano|Optimizing serial implementation memory
+0e5abb2e3e7fa41e6995ac43c0fc63ae44a0b468|2018-02-13|Daniel Strano|Debugging carry
+bbedcb52d1ab430ea3acf91e94c19657674d715e|2018-02-13|Daniel Strano|Debugging carry
+256d22dec8fb69da3f8269dcaa7ec3b053b4b972|2018-02-13|Daniel Strano|Replacing GPU carry with CPU carry
+0c97cfbdcb1ec4fea6f38c3ab78bcae68f8cb40b|2018-02-13|Daniel Strano|SUBC replaced in OpenCL version
+a16c66ee2a5858c08cbd376a9904a2cc63c0c9c7|2018-02-12|Daniel Strano|Fixing carry edge case
+af2f0f7071554b715065ca0ffc70401a067b6a75|2018-02-12|Daniel Strano|Debugging carry
+e80b695f541f31f8238c43484046de3602016f86|2018-02-11|Daniel Strano|Debugging BCD
+27fe55a654bf5d03600773d5a810cf916c560107|2018-02-10|Daniel Strano|Debugging OpenCL carry
+4f0658c640cf6b663bea4b6e22b190439ea3323b|2018-02-10|Daniel Strano|CPU-parallel BCD carry & bug fixes
+6a8c6de7fb174d84f5af340f984bb474cc01db9d|2018-02-08|Daniel Strano|Serial BCD carry
+d0b05299ad9e83e7f9a545527b7ccda55446c986|2018-02-08|Daniel Strano|Fixing OpenCL carry
+7653bbc3ae46770349421376edc3d0c5be60c211|2018-02-07|Daniel Strano|Debugging carry phase
+542a62a77bbc1494ec34a52ad55ed1d47dfd3eed|2018-02-07|Daniel Strano|Fixed minor GPU carry error
+99f49608040753ac5fe0d6c2268d35609322b8de|2018-02-07|Daniel Strano|Fixed GPU carry
+8cdc37994239c950b952fa943d5353f03400b160|2018-02-05|Daniel Strano|Debugging carry arithmetic
+b6f19291cca72a49baef5b2e22605e90e53eea41|2018-02-04|Daniel Strano|= to += in addc kernel
+16ffebdce62446bf16a49c197dfdf0f33c453f01|2018-02-04|Daniel Strano|GPU add and subtract with carry
+1983436fded5dd48ad028ed5f95a0b990bf99ec1|2018-02-04|Daniel Strano|Serial and CPU parallel ADDC/SUBC
+b2396ad18264eeb7a82e8634bb4120a9547b83f9|2018-02-01|Daniel Strano|Adding GPU ADDBCD/SUBBCD
+221731d87655af4e799418924fef78d6e4fe806a|2018-02-01|Daniel Strano|ADDBCD/SUBBCD for POSIX parallelism
+68cddfc40c2f15c344e383493ac4afc148313606|2018-02-01|Daniel Strano|Replacing modulo with bitwise AND
+1038c7ae9f011e72145f632b528cc02c58cb6664|2018-02-01|Daniel Strano|Bug fixes
+b8cd8d079ba7eabbebb5a46c9cf5793294a464ab|2018-01-31|Daniel Strano|Add/Sub BCD serial implementation
+fffcc94c7ad6584b8527e4bb876a0c21dc7e9545|2018-01-28|Daniel Strano|Adding class./quant. mixed comparisons for address space comparisons
+9452bc9bc5056a409c8461177511565f6265276d|2018-01-22|Daniel Strano|Adding register-wide rotations, etc.
+ece5c74b5edbbf0ccbe908812f8ea8acc53ab1f1|2018-01-21|Daniel Strano|Resolved naming conflict
+9fe45e5a3058b8890d3536bd4c75b6d0be935b54|2018-01-15|Daniel Strano|Adding register H and X
+c27017b5386d8570774104a59c5d62b692909417|2018-01-14|Daniel Strano|Pedantic fixes
+6bff018343a09e45bfd6c1da5a7323cf01c48804|2018-01-14|Daniel Strano|Pedantic fixes
+43e5bb0150b93aa776555c8888a93ba5bbfbafea|2018-01-14|Daniel Strano|Updating documentation
+ef71824909c0d297b5ea8883c4d5e7fd55d96855|2018-01-14|Daniel Strano|Separating class declarations from definitions, adding make
+59b0b89e4a31e99452c3c6aad4b282ae02b5f42f|2018-01-11|Daniel Strano|Offloading SUBC from CPU to GPU
+3dfc8038657455b6d0c1d61cc756b5858903c4c4|2018-01-11|Daniel Strano|Offloading ADDC from CPU to GPU
+72321c4eb64dbb91879b8f2e02d0c62f02cea0dc|2018-01-10|Daniel Strano|Offloading SUB from CPU to GPU
+b3572f8265cb793dc8d087f448045f68b127149c|2018-01-10|Daniel Strano|Offloading ADD from CPU to GPU
+7643633bab7875696c3c22042958d87b088f20f4|2018-01-10|Daniel Strano|Offloading ROR from CPU to GPU
+a9880e56422bc9ac877315a937402b3d6af35c8e|2018-01-10|Daniel Strano|Offloading ROL from CPU toGPU
+4e580b501bf1325efe06687fb603c76bdb6f023e|2018-01-10|Daniel Strano|Reducing # of args. in parallel for loops
+7fd3ad5d924a922202667987c3f3f9e5cea04283|2018-01-10|Daniel Strano|Optimizing CPU ROL/ROR (to be followed by GPU)
+b5c2461b44fa0a57281f8729d05b15c4d4fc2917|2018-01-09|Daniel Strano|Optimizing ADDC/SUBC
+69926abbc3ca7bdd2c44a337047df2c9ab85ee94|2018-01-09|Daniel Strano|ADD/SUB with carry
+82dee98e8ff7c40e5146e05dee15579d5f03f2d5|2018-01-09|Daniel Strano|Debugging ADDC/SUBC
+53af692d5e606599a5e9c7a62280b34dda7f3fb9|2018-01-09|Daniel Strano|ADD/SUB with carry
+d634b4e460ae0ed8886b6205c998b5bfe353de28|2018-01-09|Daniel Strano|Cleaning ADD/SUB
+f51cf02f235aa85d7d9b005add3d8f02f2065cc4|2018-01-09|Daniel Strano|Debugging ADD/SUB
+41e42ecbea0b006341e5992035bdf3834e4bff6c|2018-01-08|Daniel Strano|Debugging ADD/SUB
+4f4d13f033090a5277e06b1db593a4f5d2299421|2018-01-08|Daniel Strano|Parallel ADD/SUB
+74dba82af3078b720448da0e3991342663074fd9|2018-01-08|Daniel Strano|Optimized and non-destructive (serial) ADD/SUB
+b5a0b8ce7889a14690edd6d6e2b853cdaaeb1fb9|2018-01-08|Daniel Strano|Debug. and Optim. ADD/SUB
+916a927803d9a106fc954b5bc4c93e4e3b4f4f1e|2018-01-08|Daniel Strano|Optimizing ADD/SUB
+65b90e05fab2e0342a9994426bea81df5c0654f7|2018-01-07|Daniel Strano|Updating documentation
+2bffd1bc811a89afdd0e2844937bb1612d118498|2018-01-07|Daniel Strano|Updating documentation
+0faba2a8af1470bf743a162a22628d8894904355|2018-01-07|Daniel Strano|Optimizing SUB
+ff9eeea6937c18afc13dbb1736734deb00c50593|2018-01-07|Daniel Strano|SUB two quantum integers
+28fa76fd4bb7140e8dbc0c1e5293b802f4d1c3c5|2018-01-07|Daniel Strano|ADD two quantum integers
+d12d786efb5d369b723f97c63a52081358c5939a|2018-01-07|Daniel Strano|Found initialization problem
+094ca7a903ad7bbdd69ab77801397a0da3bf5124|2018-01-07|Daniel Strano|Debugging (still bug in non-OCL)
+5d1d19ad0b9afd255bf09efb8c282b6ecd13efd3|2018-01-07|Daniel Strano|Pruning 'junk' code
+3fc8201e494cd000b76ac68257273c42eecb92ed|2018-01-07|Daniel Strano|Debugging INC/DEC
+538dbdef21784cb253052527e46d5aff1cb2d8a4|2018-01-07|Daniel Strano|Debugging
+bd1686ab7af179d62e7fbb9c07b8c7121b4d4571|2018-01-06|Daniel Strano|Debugging
+71945f3c07fd9a0daed5e7a430ddd4f3e1e1e16e|2018-01-06|Daniel Strano|Debugging
+726bd8a2923b9f35ba9a1f45e6c540b0c3a7c022|2018-01-06|Daniel Strano|Correcting OCL buffer mapping safety bug
+7482bd32ffe78eadb85b49cd1131d7286df9af11|2018-01-05|Daniel Strano|Fixing OpenCL parallelism safety
+839f6c4d0adef9755d83a1954683743a6e17673d|2018-01-05|Daniel Strano|Debugging. mem. corruption
+ac215cb2bea48aee8ddd31177a26b934805cf4e0|2018-01-05|Daniel Strano|Debug. SINC
+14632a716aae31e800cc98d692a437d99c6a830f|2018-01-05|Daniel Strano|ADD and debug. OCL
+0944c2e209be18c8386e3d5633ff21916ac78b6e|2018-01-04|Daniel Strano|Seeding random numbers
+62aa6049ad939f67f445901fff86944584bd849b|2018-01-04|Daniel Strano|Reducing norm. truncation error
+95e77027e4505e8b17f37c6efacae5ddc8e95c9d|2018-01-04|Daniel Strano|Making norm. 'shunt' safer
+c483fc966bdc4c7d1a064231277eace8ce4f0cc6|2018-01-04|Daniel Strano|Shunting normalization error
+e622a183c5da39a6bf0194e049db2db6e9099a16|2018-01-04|Daniel Strano|Shunting normalization error
+a0373967198895f10e2634c526ad2a0d9b05741e|2018-01-04|Daniel Strano|Alleviating double truncation error
+f7c70cf58f2f2af2e9e599ff9f1728cd1439b693|2018-01-03|Daniel Strano|Condensing logic
+d7bd5f3a6da578e1dce47953350bc95bc9bde024|2018-01-03|Daniel Strano|Optimizing CPU parallelism
+562604895e8682291e89188f3fbe39293a60622e|2018-01-02|Daniel Strano|Optimizing OpenCL
+5c3e44769a6a176e779a35c0d11eb8cd5929e58e|2018-01-01|Daniel Strano|Doc. and logic consolidation
+2d3afbe32501616f23dc3929790904d687c27c08|2018-01-01|Daniel Strano|Consolidating logic
+b46a43de7c719e7b9a58a399b6fe0d5663ffd956|2018-01-01|Daniel Strano|Adding OpenCL support
+70f6cf3cccd0c1cfac6ce711484e976df48d0211|2017-12-30|Daniel Strano|Optimizing
+d3604901cfbbbb1c1b7ae76b74bb2622d79dd3b1|2017-12-30|Daniel Strano|Optimizing
+81c172be961f4aa9e9887170113c94c3c3392cd4|2017-12-30|Daniel Strano|Optimizing
+3d5853e3e4f4b809ac24004a06bcd9c9b375ba99|2017-12-30|Daniel Strano|Revert "Optimizing"
+de275f9f2b9b2e3b60d10cdf4db5f9d166e52afe|2017-12-30|Daniel Strano|Optimizing
+0770e577aaf5e1625b610d048ef366d2c0110fcd|2017-12-29|Daniel Strano|SIMD syntax simplification
+7a9a3a7387c23f2bfa61de99a6e2678edd2d5d81|2017-12-29|Daniel Strano|Syntax simplification
+38acbf863743bb54b4f81a7b24dacb42339102f9|2017-12-29|Daniel Strano|Debugging SIMD
+d746c12a1405253d26f16da3c117d77d580606f3|2017-12-29|Daniel Strano|Adding operators to ComplexSimd
+bbe36c16fd16f14e69c2bd4b91a6303bee9a9803|2017-12-29|Daniel Strano|Debugging SIMD
+dbc019d0e824bf0d1ca95da745536e2f65f0ce86|2017-12-29|Daniel Strano|Optimizing SIMD
+935875358ec4502215f03ffef733d70dc99b2743|2017-12-29|Daniel Strano|Complex type header
+66904170b6801649c71f25864898642ccbf15fe9|2017-12-29|Daniel Strano|Parallel example
+7547c9a20f4ce1c2cca5c8725cad2ce53327149c|2017-12-29|Daniel Strano|Complex SIMD intrinsics
+27c18e0eadb76dff0f1a36659f4ac4e32add240a|2017-12-29|Daniel Strano|Optimizing AND/OR
+a5f68c7d64dcd442df7922082466e5d60a11fc93|2017-12-29|Daniel Strano|Phase precludes quantum AND/OR
+6a550b05e9c439ef4bc14b0e03fe65ee42ef1934|2017-12-29|Daniel Strano|Phase precludes quantum AND/OR
+8f7e13a902d10b8c9d1a6720d82acfaaf0781813|2017-12-29|Daniel Strano|AND, OR gates
+024e1d08fde359562d806461faac9b6475366e77|2017-12-28|Daniel Strano|Fixed segmentation fault
+a4bc9691a786413d398711e8f4e8118fef57c791|2017-12-28|Daniel Strano|Converting to smart pointers
+e00b4753470212a218f7a1fad40ea38d3bedf088|2017-12-27|Daniel Strano|Cleaning up pointers
+033d76e5df563d4e18826c1c3ad980e1ae60c556|2017-12-27|Daniel Strano|Safer params and pointers
+44e62a097608d8b053670bd690271ceffa8773a9|2017-12-27|Daniel Strano|Debugging pointers (decohere broken)
+5b8ed8d1e7de2e5681ab06fb2dbad71ad180dfd5|2017-12-27|Daniel Strano|Debugging cohere
+8d508fdfd8c41128be99287f152256df8467bf47|2017-12-27|Daniel Strano|Add. Cohere, debug. Decohere
+12ceeb94801f88e911221e7857e40907ef2c5e82|2017-12-27|Daniel Strano|Debugging Decohere
+3f8318a229e2e9575813ddb3bd00fef114b1db66|2017-12-27|Daniel Strano|Debugging Decohere
+48819f6f78da623d17b4ac2d11d137bc769102f3|2017-12-27|Daniel Strano|Decohere method
+ccc67d121c3095e6086a3c812748c0316b4ce6bd|2017-12-26|Daniel Strano|Debugging and optimizing
+4d6d6c8e1e5f9df9c5e6d47dfcf933058808806e|2017-12-26|Daniel Strano|Fixing inc/dec
+cdbc48dfa2eafe66da06fcd6441a5e399be14c01|2017-12-26|Daniel Strano|Register access methods
+92f37f4c1f820c53519ef4c474f28506bc979fdb|2017-12-25|Daniel Strano|Debugging, adding register dim.
+b1417bed32641a18ea9c0e3ac306394c21e6d0af|2017-12-25|Daniel Strano|Updating README
+67a000c9dfe941b86fb98b4f309115610ea046ad|2017-12-25|Daniel Strano|Generalizing register object
+32c867a329bcd12bab3990a5e979613b6a15d0db|2017-12-24|Daniel Strano|Correcting carry bit
+60eb84279781974eb2da32506d81a23a1673a0d1|2017-12-24|Daniel Strano|Correcting carry bit
+e82aea92749ce110b4911d3ae1d9461dc2795d93|2017-12-24|Daniel Strano|Updating note on carry
+2ec9e6bb79eb8f684eca8a83558c57ef66ad584a|2017-12-24|Daniel Strano|Optimization and cleanup
+f20b72bad0411a9bdd636a10e7531919b5209bf6|2017-12-24|Daniel Strano|Moved sign bit
+dac16d2357cc29a520f4952f9216a3833fe0d09c|2017-12-24|Daniel Strano|Two's complement
+e0d3194067f310211f8dc7977e184d26fea3572f|2017-12-24|Daniel Strano|Signed add/subtract
+83121e466dddcc35a1b9e0b9bfed82622f4bcf87|2017-12-23|Daniel Strano|Add/Subtract ops
+8edb39693c2e91835d4f68764209be44389ca4da|2017-12-23|Daniel Strano|Arithmetic shift ops
+70b35b9924efee4392dacb6e9335d9586eb9ef4d|2017-12-23|Daniel Strano|Optimized shift ops
+a241800b40f6fd69f71292fc451d26e47555a145|2017-12-23|Daniel Strano|Updating reference implementation
+2e5289226ff4c595218df0f53adf99d363b14279|2017-12-23|Daniel Strano|Float error in measurement
+ad6e41c2f1641f8e431e12c1cd11cd6f43e6a6f2|2017-12-22|Daniel Strano|Updating licensing details
+590b42027980de6f7da3fc0fb919698078856188|2017-12-22|Daniel Strano|Updating licensing details
+6be4413540ad682475756d6498cc62974d6076a2|2017-12-22|Daniel Strano|Removing ignored doxygen files
+4b7cabd73a8d89b3f73c3787109aceb68ff85a5b|2017-12-22|Daniel Strano|Cleaning project
+1adc7aade730efe711708b0dd4a9dfcf6c4b73e2|2017-12-22|Daniel Strano|Adding doxygen
+17fc9fc7ab47dd4e87e252123e856a8fe9218d41|2017-12-22|Daniel Strano|Future-proofing types
+cf6202d59349bea4314fd41f75f7e9ea75f74a70|2017-12-22|Daniel Strano|Fixing measurement
+fa278d2f16409ac668f2bcf79cd27f7a64f0bf2a|2017-12-22|Daniel Strano|Future-proofing
+ac73d3f3f968a527c44af079a6f3c0eed9608e3f|2017-12-22|Daniel Strano|Added LSL and LSR
+a0b740c15f4ab2fa6c77f21225a2b4b5c7bead94|2017-12-22|Daniel Strano|Added QFT method
+1b0831f3a37946aaec5944a0f45a0be35b0d0c37|2017-12-21|Daniel Strano|Merge branch 'master' of https://github.com/WrathfulSpatula/Qrack
+06ab2b96aaffe9a658f1d7bcaa1bc66108a75a2f|2017-12-21|Daniel Strano|New gates for ease of QFT
+04b2b06d78c1e9c6f6a242a6d40a5545358aa4e4|2017-12-21|Daniel Strano|README grammar
+af98d0a81540a9ff0c0c43b8d1601db5a8a257e2|2017-12-20|Daniel Strano|Updated README
+82744ec67adbc0e3096eba411bf3a6f08572c895|2017-12-20|Daniel Strano|Initial content commit

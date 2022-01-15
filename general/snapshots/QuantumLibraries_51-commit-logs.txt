@@ -1,0 +1,370 @@
+c4f69418a55f3c93f1725a7b090523af28d08885|2020-09-24|Mathias Soeken|Various additions and improvements to Microsoft.Quantum.Arrays (#330)
+fdd6b964c1da5cf19f589d71bd223e0a14194ee3|2020-09-19|Chris Granade|Add API design notes from 10 September 2020. (#328)
+827554ed66c4380832bdce3ee52f8f814bf8d3c5|2020-09-16|Andres Paz|End-to-end build (#325)
+b802b254b7cb98049573a367ed399e23ad784e59|2020-09-08|Mathias Soeken|Improved assertion for PrepareUniformSuperposition (#324)
+687692d75af05709f0f418f8f9715cdd67c9e572|2020-09-08|Mathias Soeken|Fix several warnings (#323)
+0b02a6a57be8b00de5ddcdff56a69d81ced97d2b|2020-08-28|Sarah Marshall|Update C# callable implementations to use new naming conventions (#316)
+505fc27383c9914c3e1f60fb63d0acfe60b11956|2020-08-21|Chris Granade|Improvements to M.Q.Diagnostics namespace (#302) (#314)
+e8ecbc0bf714123ce4cb8b5bfde14d6f1b875646|2020-08-18|Raphael Koh|Add custom GetRuntimeMetadata for CX, CY, and CZ (#310)
+26ae8b963f7f92d46c818b49c28105a22cac5be7|2020-08-18|Chris Granade|Improvements to Microsoft.Quantum.Random namespace (#311)
+144c3fb103da50270088a877f4813a4d07a7b836|2020-08-10|Andres Paz|Tweak tests to decrease their duration (#308)
+0a8522d4900fa893711d609328c0e28ee1045584|2020-08-06|Chris Granade|Added design meeting notes from 2020-07-24. (#305)
+36e8246d851603f4c94883bd5d3ce2e992eacda4|2020-08-06|Mathias Soeken|Update feature request possibilities in README (#307)
+1c8620c10cfbf016d315668e22766c091502eea4|2020-08-04|Mathias Soeken|Fixes bug in CDKM adder (#303)
+4da27d2460432f2eed70426d3382c074166b855b|2020-07-30|Kartik Singhal|Correct URL for standard library (#301)
+c0e3d34d4173a9a3d03c51d61909f0c2b9dc7278|2020-07-27|Mathias Soeken|Small fixes. (#299)
+12afc64bd2c451a3d52d4ecbf89d24abb82ac6a8|2020-07-24|Raphael Koh|Implement GetRuntimeMetadata method for `ApplyToEach` and variants and `ForEach` (#296)
+0db888d7f8ddb58d40a655bf01e451186207773c|2020-07-23|Andres Paz|Port chemistry Python library to QuantumLibraries  (#293)
+1600e05fecdcee722c955ec701712254caea856f|2020-07-20|Ryan Shaffer|Disable .snupkg generation for Metapackage (#298)
+5f8579c07e474cd9f9d69387131d0c14f7343ad9|2020-07-18|Ricardo Espinoza|Replacing icon for packages that were missed in the recent asset update. (#297)
+43b770badffa3175ccfa16d3dfd329e6d615111c|2020-07-15|Ricardo Espinoza|Replacing deprecated IconUrl with Icon and updating the assets for NuGet packages. (#295)
+101b7dfaba102dfdcd0212e6e50c120b525849b6|2020-07-06|Mathias Soeken|Simulate ApplyAnd and ApplyLowDepthAnd classically (#292)
+50d1844b8f9da967b64a92afb9351d20430e6a25|2020-06-25|Chris Granade|Move NoOp, IndexRange to qsharp-runtime. (#290)
+52e4c10a90aea243ac53f51bae5149e53b2d1458|2020-06-25|Mathias Soeken|Apply permutation to state-vector with decomposition based synthesis (#277)
+84732161ce83272c5a2419559d41d69d11dc9cd6|2020-06-24|Andres Paz|Creating Chemistry Metapackage (#285)
+e9e5fe6a9503ac965412820f566ce81b1d0152bc|2020-06-24|Chris Granade|Addressing feedback on conversion tool. (#288)
+fc24b3ef5fc47e5050993adade32ddeb04a0ee3f|2020-06-23|Chris Granade|Chemistry data conversion tool (#280)
+13b49100ae280f56670bd0ac5fac16c124f58b46|2020-06-19|Chris Granade|Add Repeat and DrawMany operations. (#276)
+eb6c073e7fad4d4506ca8c38559cf8830d12c004|2020-06-19|Chris Granade|Add new automerge action. (#281)
+eeb59eb437400c77cc1adfe5e1d4c2129147e716|2020-06-19|Mathias Soeken|Apply X controlled on truth table (#271)
+7d3f96ae7fbab1edf4c0b4a49a3840bb5beba723|2020-06-18|Chris Granade|Fix #262. (#273)
+d997370a3ac6c15bfde5a283737a58556a960826|2020-06-18|Bradben|minor copyedits from external contributor (#257)
+e20855578fabfc984e5bd86b606ce7e491bfeef9|2020-06-17|Chris Granade|Merge pull request #275 from microsoft/msoeken/synthesis-namespace
+ffb1b5d67962f4ff7f939938094f77f8bef3292e|2020-06-17|Chris Granade|Merge branch 'master' into msoeken/synthesis-namespace
+bb75af3caa54b99b6e68989fe9fb1de0cc6d0b65|2020-06-17|Chris Granade|Merge pull request #274 from microsoft/cgranade/fix-261
+06ede4d5a05c2414d0e779a15a000b10bcc24ff1|2020-06-17|Mathias Soeken|Namespace info.
+d594c3d80853360fc78ab40b259897279187e7a3|2020-06-16|Christopher Granade|Fix #261.
+4f2aa9a3ea9bf359603a7e6c4ac961a204629147|2020-06-16|Mathias Soeken|Apply single transposition to state-vector (#267)
+89976d2e95643ed4c2e2eef2f1655865b94aca2e|2020-06-15|Mariia Mykhailova|Fix typos in API documentation and code comments (#256)
+2cee8ed1dc03082fad07a2949eaeae3ac4fa0c74|2020-06-13|Mathias Soeken|Transformation-based synthesis to apply state-vector permutation (#264)
+199b96f20405afbe32c8794799b924bb84175b73|2020-06-03|Giulia Meuli|Fixing a typo. (#259)
+6ee5ba035558406a9771c0811b798b798a0e1d21|2020-05-18|Angela Burton|Switch to latest images for build agents (#247)
+dd2505a10b9e86beae9302331d81f3c0493b01e7|2020-05-12|Chris Granade|Fix typo in build script. (#250)
+5f44ed34176a7e99361247b5a63db4e26bc14c71|2020-05-12|Chris Granade|Remove Reset.qs, move to qsharp-runtime. (#248)
+0cfe0c910bd54375913fd0cd914069aafb616e8b|2020-05-12|Chris Granade|Merge branch 'master' into cgranade/move-reset
+fa00dc1acfcc8585be8e08a743d873d5c667eb49|2020-05-12|Christopher Granade|Use beta from qsharp-runtime.
+793e4662b5243059d3b52adae845b44c59939d0a|2020-05-12|Chris Granade|Add assembly manifest to libraries. (#249)
+de8734b94838477a12d7d8798178adbd060fab64|2020-05-11|Christopher Granade|Remove Reset.qs, move to qsharp-runtime.
+55df2709294f27a55f286bab799d60ae81e829d3|2020-05-12|Chris Granade|Convert _ functions and operations to use new access modifiers, remove 6-month deprecated callables. (#240) (#246)
+2a985e89b45ded7e775540bdfe0373cfe3265180|2020-05-06|Chris Granade|Provide named items for Fraction and BigFraction. (#242)
+d3719dc7c59005455a4b1da59f3eebb6e0ea8db5|2020-04-08|Chris Granade|Update to Jupyter Core 1.3. (#241)
+f7658a66cb9fbca31c6107aceb4a9772c39587c1|2020-03-20|Chris Granade|Merge pull request #237 from cgranade/cgranade/devcontainer
+a3cfcc51530a65c630c5db42c7c6c696bd58a356|2020-03-20|Chris Granade|Merge branch 'master' into cgranade/devcontainer
+abc475a04c9af2e6f7c2183b0301bafee5e29c45|2020-03-11|Chris Granade|Update API documentation for Filtered (#231)
+1a76287623210f25b1f40450e6881a4ac47d4eed|2020-03-10|Chris Granade|Merge branch 'master' into patch-2
+445feb72d590f1b793dfa282a1d79f61fcc5f876|2020-03-09|bettinaheim|updating to 3.1 (#238)
+4e427fff42597333469e10e40d622112e5804798|2020-03-09|Christopher Granade|Initial devcontainer config.
+ca2f44ecabd6b227cf3d2ea85a81be5b81b463de|2020-03-09|Chris Granade|Merge branch 'master' into patch-2
+7e3c9c956ca11e5287698fe962daf2d85ade8914|2020-03-03|Chris Granade|Add function EqualA for testing array equality (#236)
+985c52167e93a729610f146987c8ae9f239bf1dd|2020-03-03|Mariia Mykhailova|Add examples/tests of different types
+e6a78c0a2492ed717110ed273232217f679ae9bb|2020-03-03|Mariia Mykhailova|Apply suggestions from Chris's code review
+a4b1093063662ca76e4b710d42e3a9f29e322c0f|2020-03-02|Mariia Mykhailova|Add function EqualA for testing array equality
+6d2e54fbb630972d1bf39dc568ebf0889d123a56|2020-02-28|dhanaji.more|Update API documentation for All (#230)
+f7f357b65efbedae34ca883ec9f085f8f4bf6572|2020-02-26|Chris Granade|Merge branch 'master' into patch-2
+73bdd0d6627ffa5a9efde00159007622b1be40c4|2020-02-25|Kitty Yeung|Moved the added example to above the source code
+8706abea604ab74db94992c69cd726a268d5c309|2020-02-23|Chris Granade|Slightly refactor bias updating to make TrainSequentialClassifierAtModel easier to use from C#. (#235)
+2f510aeeb3b9dd5f151dac08e966eac85e28b5da|2020-02-23|Chris Granade|Merge pull request #176 from microsoft/feature/qml
+df27b30bde182daf7ccd8914f817ee84b85db1d0|2020-02-22|Chris Granade|Add verbose option to TrainingOptions UDT, cache state preparation (#234)
+bdc04baac085a0708464ec8439255b824ad0c016|2020-02-23|Christopher Granade|Fix type of Ignore.
+01dc4e17db64a8cfca6d43fe9690e6ebc1697637|2020-02-23|Christopher Granade|Addressing @bettinaheim's feedback.
+1feae2db7c9b7367ccace02e15f5b1bb30b94b00|2020-02-21|Chris Granade|Merge branch 'feature/qml' into cgranade/use-udt-perf
+61d5e4f4da3986a04e80ca2a79945c40139b8dfb|2020-02-21|Christopher Granade|Cache state preparation using BoundCA.
+22e61d74fe8475f18a5184f2d76cd952fc5c4fc5|2020-02-21|Christopher Granade|Added new verbosemessage training option.
+86712bdf7eb6fe3b3b3d2aa72b10a8bb87ee3a26|2020-02-21|Chris Granade|Addressing feedback from @bettinaheim. (#233)
+398220683f6dc3ab194b633519d35953a3545d82|2020-02-20|bettinaheim|Merge branch 'master' into feature/qml
+1c44a2a3d7f9e05f06e546cdebaaf9b8b1c9f4df|2020-02-20|Chris Granade|Merge branch 'master' into patch-2
+3a8c018a30cd9fc041c35d54a253f9b0c40cb30f|2020-02-20|Chris Granade|Updatating API documentation - Adding examples for Microsoft.Quantum.Arrays.Any (#232)
+1aeb00f3ae6b12816639ba715f013feca946fa57|2020-02-19|Akshob Gopalakrishna|Update Standard/src/Arrays/Any.qs
+b5d8242539427044571ae69b4c12c0b9ca3bbd05|2020-02-19|Akshob Gopalakrishna|Update Standard/src/Arrays/Any.qs
+377f88b046b42056a2eee60eddaeb53bbed2aa98|2020-02-19|Chris Granade|Merge branch 'master' into arrays.any.qs
+263933b6215fb351ad18b27c9d146d8af11a7aaa|2020-02-19|Mariia Mykhailova|Update API documentation for ConstantArray (#229)
+2c57f5baccf0ab675bb49a5f25f601721567f9e2|2020-02-19|Akshob Gopalakrishna|Remove reference to instrinsic Replace operation with function
+68f9eeb7e0ea2a15330ce3abbcf313296f7df44d|2020-02-19|Kitty Yeung|Update Filter.qs
+6d273b13e0f02efd4c806a7a7530f6605e122455|2020-02-19|Kitty Yeung|Update Filter.qs
+59359cf73795e23462a2bb5be6b68dcffafaa84a|2020-02-19|Kitty Yeung|Update Standard/src/Arrays/Filter.qs
+d2ded2e742593293a7541cee94bdf12c30825222|2020-02-19|Kitty Yeung|Update Standard/src/Arrays/Filter.qs
+4b39afc81e5c3d0b19e31874abf9b22dfeea4efb|2020-02-19|Kitty Yeung|Update Standard/src/Arrays/Filter.qs
+1005e646afbcbfed67f6013bc2e811ba8bd7df45|2020-02-19|Akshob Gopalakrishna|Adding commit suggestions. Following Q# styling guide to remove underscores in function names
+ee79d6d411b1272bfacc712944522dc380bbcae5|2020-02-18|Akshob Gopalakrishna|Adding examples for Arrays.Any
+5639fbfe52c405954b0fd975fa45cd8d18b0d979|2020-02-18|Kitty Yeung|Update API documentation fro Filtered
+9741ff42e72851dfc3ef276924be15c972400b86|2020-02-18|Chris Granade|Merge pull request #228 from cgranade/cgranade/fix-term-types
+94f4821ac4b595701fc500398ab8c5286a350cdf|2020-02-18|Christopher Granade|Promote IntegralDataFormat back to being top-level enum.
+73a3686fb38609c46f0dc7d23e3c2a6a7f3f6b72|2020-02-11|Chris Granade|Merge pull request #227 from cgranade/master→qml
+d2de0e08e4c23a16e6462ece649a053d31dbdbe5|2020-02-11|Christopher Granade|Merge branch 'master' into master→qml
+daec81b75e8f4e01440f9851f4d12462f7516941|2020-02-11|Chris Granade|Improve QML test coverage. (#224)
+d9ff81615f2a2c46d07afc75693a90abf24b23e6|2020-02-11|Chris Granade|Update MachineLearning/tests/ClassificationTests.qs
+1039a0d13a5c717b9df6b12ee9617e4434b7a3b2|2020-02-05|Christopher Granade|Undo printf-style debugging.
+a387017c95452fb2ca67a29d89c1dd2ae52dd67d|2020-02-05|Christopher Granade|Tests for InferredLabel and InferredLabels.
+dc9f97621da0f38eaf08f695761f9cb5dcb7c7be|2020-02-05|Chris Granade|Fixed QsharpDocsOutputPath property in build.ps1. (#222)
+748d129b422a6466d55b5ccc693a3e7e55af1f4a|2020-02-05|Christopher Granade|Further warning elimination.
+fd0b40ae42a3f4cbe19a72bb5a86d18e5d6a80ec|2020-02-05|Christopher Granade|Fixed test and eliminated some warnings.
+1c85c75992ff06fad4ab4e895a975ba2d0aeca2c|2020-02-05|Christopher Granade|More tests of structure functions.
+1e626e737bf6755b8b65a6921448cc39fcea6c45|2020-02-05|Chris Granade|Update all projects to 0.10.2001.2831. (#223)
+cfb10d3ebe3becc15bdea26af38dcc81712baa6d|2020-02-05|Christopher Granade|Reduce warning count.
+2076e8c10be6fd44615e8832f33b05da637a62c7|2020-02-05|Christopher Granade|New test for applysequentialclassifier.
+7997c9a9ffe9325586585e089114725b97d1933a|2020-02-05|Christopher Granade|Began adding more tests.
+482e25f995fe5765d890ece24dd39eb1b50f8fa2|2020-02-03|Chris Granade|Merge pull request #220 from cgranade/final-qml-api
+063948a6d835272df90270c0e10756d1fb1b4f2e|2020-02-03|Christopher Granade|Merge branch 'final-qml-api' of https://github.com/cgranade/QuantumLibraries into final-qml-api
+89511e05b7d98a8a70d0cac8a9b0dd6abc085b5a|2020-02-03|Christopher Granade|Addressing feedback from @bettinaheim.
+e61441a29b831ca449f184e003575b9cb52ad706|2020-02-03|Chris Granade|Update MachineLearning/src/Types.qs
+c66bd7d21832ea17545ed239aba359b9565891ac|2020-02-03|Christopher Granade|Fix build properties to use latest QDK version.
+fa31ab598b9052a00d2ebac5c085b0927e57f372|2020-02-01|Chris Granade|Merge branch 'feature/qml' into final-qml-api
+4bebaec5509dae1a1a968a7c918bbcc09c50177a|2020-01-31|Christopher Granade|Validation.qs ☑
+d9fccf28975d6007fafd0d67a73a43e0b2712f51|2020-01-31|Christopher Granade|Training.qs ☑
+8a3188a29aaef237ce51177564b853f00104d26f|2020-01-31|Christopher Granade|Structure.qs ☑
+a1771fbe9040e17506a18562f2e7706ec8682aa8|2020-01-31|Christopher Granade|InputEncoding.qs ☑
+a158b39ef92a920fdd53feb3807fd40fe376d47b|2020-01-31|Christopher Granade|GradientEstimation.qs ☑
+c3889e37bcc8453be9e605e8a92490cb14256814|2020-01-31|Christopher Granade|Classification.qs ☑
+5590c97fd9cfbebe0c64eec3d6968e852674633e|2020-01-31|Christopher Granade|Types.qs ☑
+b0da363a38b1b8cc356f00068324082d4e2a1144|2020-01-31|Christopher Granade|Combined GateSpan and ControlledRotation.
+caee3d64593b655045b9c9e652fdc80e9b20978c|2020-01-31|Christopher Granade|Added model structure to SequentialModel.
+bf09e3e916878852df4e2f3173108395b5470277|2020-01-31|Christopher Granade|One more project file update.
+a8a2a951fcc2af97a58aafae103235e5314046af|2020-01-31|Christopher Granade|Update project files to newest QDK release.
+f1e9ade52408f1bb0a52a3649a93a0a0227f1455|2020-01-31|Christopher Granade|Merge branch 'master' into final-qml-api
+7ccf6c2ccc8851a72e42aa4c6853fd243f1b27cc|2020-01-30|Chris Granade|Merge pull request #216 from microsoft/cgranade/fix-199
+a2532cc2b4d0dd5ebf2e24cdd176e4c1a4bfd411|2020-01-28|Chris Granade|Merge branch 'master' into cgranade/fix-199
+459021d8d9f02c2749a2fd57568319377fbfa3ba|2020-01-28|Chris Granade|Merge pull request #214 from microsoft/cgranade/sign-numerics
+2b622b9bfbd7821ae7b09df72ad8ebd84c774cd4|2020-01-28|Chris Granade|Merge branch 'master' into cgranade/sign-numerics
+1b5f0eeb74c0187069fa9193b0eee5897b7a4a2e|2020-01-28|Chris Granade|Merge branch 'master' into cgranade/fix-199
+9b60589af6dcdc9816909431f3ef949c0ef6137b|2020-01-28|Christopher Granade|Adapted test to reflect decreased call count.
+0c1baff89bafda485d6135f5dde9d3ba15aa0e22|2020-01-28|Chris Granade|Merge pull request #218 from microsoft/mariia/delete-old-issue-template
+27cae563426215ff4fe43702ee4b053a2c6f63ff|2020-01-28|Chris Granade|Update QML signing for new pipeline. (#217)
+b0dc05b53ad7f7913ff9cb363d3db0dba053eb11|2020-01-28|Christopher Granade|Merge branch 'cgranade/fix-199' of https://github.com/microsoft/quantumlibraries into cgranade/fix-199
+69f36e4c3e7cba2e1481c5be4f1410bdd85c03da|2020-01-28|Chris Granade|Merge branch 'master' into cgranade/sign-numerics
+e403062b2f94fd4fa5d60be4c44e744d2a07b379|2020-01-28|Christopher Granade|Minor fix.
+7aa4d65431d22f63437ae91a62592262e4cb2a96|2020-01-28|Chris Granade|Merge branch 'master' into cgranade/fix-199
+b56b649250c0b37470a2600c58dcd4fc779f973f|2020-01-28|Chris Granade|Merge branch 'master' into mariia/delete-old-issue-template
+35497c79b19c21026ec114cf2fe6cf79147b4fbe|2020-01-28|Chris Granade|Merge pull request #215 from microsoft/mariia/api-docs-controlledonbitstring
+cafca84d30c8aa60f4a4c1edb306ed27d57568ac|2020-01-28|Mariia Mykhailova|Remove outdated version of issue template
+1c44e337dc754e6ab48610b8a430ea8feef6cd33|2020-01-27|Christopher Granade|Ensure all code paths return.
+57d518a6c6e681aea25d4b140670a7d4ab38f463|2020-01-27|Christopher Granade|Incorporating discussion w/ @anpaz-msft.
+dc932c1ebcc8d0774df17f4225425eac71a9ef97|2020-01-27|Mariia Mykhailova|Add formula to describe the effect of controlled version
+d27d41f0c65263ac6a5280e1e07f201002636ed7|2020-01-27|Christopher Granade|Fix #199.
+f27ff7bdb7f1e176a19a49a027e56f42d96f50e9|2020-01-27|Christopher Granade|Use same delay-signing technique as standard.
+7294b04b8e2b1a451d2d169c559921963b4b53b3|2020-01-27|Mariia Mykhailova|Apply review comments
+6e4ae537858563e069e078c924e72fa67f8d35cf|2020-01-27|Mariia Mykhailova|Improve API documentation for ControlledOnBitString
+baf40d8d610828faf63a7e9c9e32f6871e1b1742|2020-01-23|Christopher Granade|Sign Microsoft.Quantum.Numerics.dll
+99ddbae7b848f78d0f487b4424c9e3553f437c6a|2020-01-23|Chris Granade|Merge pull request #213 from microsoft/cgranade/fix-qml-key
+d8c437194a5d6ef980dee2a112e66e555d5b9a7a|2020-01-23|Christopher Granade|Fix path to pubkey for QML signing.
+d38bc75bb73ecbd317b7b3a0d91feaed047a0c88|2020-01-22|Chris Granade|Merge pull request #210 from microsoft/cgranade/jupyter-core-1.2.29857
+146dbb60f01a405795adc908a22ec7069e0ec2c5|2020-01-22|Christopher Granade|Update to 1.2.29939.
+0c37527566a6fdfbf382557e9da8b8b1b6ea4e51|2020-01-22|Christopher Granade|Jupyter Core → 1.2.29857
+ffb4749f4978fea534883ddcd9230b536f455ac0|2020-01-21|Chris Granade|Merge pull request #207 from microsoft/cgranade/fix-206
+680c52eccf9a7b2abeabc2db1ee9b50b0b4c4d94|2020-01-17|Chris Granade|Merge pull request #208 from microsoft/cgranade/master→qml
+0ba232721b4fd0b001ef9737ee5358454b3178c5|2020-01-17|Christopher Granade|Merge branch 'master' into cgranade/master→qml
+36943b81359ceabbd0b7e9a2d0211107aacda99f|2020-01-16|Christopher Granade|Expanded and corrected ///.
+a35aa5fe50a77afde01660476d7bcd54245a53b2|2020-01-16|Chris Granade|Final prep for QML review (#205)
+e90beb5fec7d94f285a3033e26b482568f81d9f5|2020-01-15|Christopher Granade|Code quality, added remark about � vs 2�. Renamed to adjective phrase.
+a23e3eafb20365e1cef00a499e73fe3df9281541|2020-01-15|Guang Hao Low|Fix high-order Trotter bug (#178)
+4bec1d5701efa60d6db37af681008043d68c07e8|2020-01-15|Chris Granade|Code quality improvements (#203)
+3e1e4619e6cc5ae829feef1d657262b5878e7f63|2020-01-13|Chris Granade|Simplify gradient estimation and classifier structure generation (#200)
+866f2905cc94959e5f9791c289bf887bd1f92b34|2020-01-08|Andres Paz|Build pipeline tweaks (#202)
+67cd36914e6be9aa5047c518bc2999ed60be18df|2020-01-08|Chris Granade|Update QML feature to master. (#198)
+f2bb6111058b6b90f954acc79d453edf88ddbe32|2020-01-07|numpde|Minor doc fixes (#190)
+1e645cc7ed251fbe1b2e9cb33d9181d17f508cc1|2020-01-03|bettinaheim|Switching to using the new Sdk (#194)
+f1bd9d272de16382adb5d1356afe5e5d801cef52|2020-01-02|Chris Granade|Refactor AA namespace to use Q# style guide (#197)
+38120f20de54dbf53b71d98e21a064de7148b151|2020-01-02|Chris Granade|Use new UDTs to consolidate and simplify training / validation API. (#187)
+39358f70b72f6c7695708ceb7fcfd76f97166581|2020-01-02|Chris Granade|New Hadamard and SWAP test operations. (#196)
+a01973adf9f67d80153acdc90cae80ed748c8288|2019-12-31|numpde|Removed comment ref to IncrementByIntegerPhaseLE (#189)
+6c9561ac8143b5b2b1790b2525c2a8071afc90ff|2019-12-19|Mathias Soeken|Quantum AND gates (a.k.a. CCNOT with constant target) (#186)
+f7be904516686d1fe0d87ac86cb8fcdaf9398a07|2019-12-17|Chris Granade|Update QML feature branch with latest master. (#191)
+d746df20ce7e3673b4c4e7fb66a0e6baa447d5a6|2019-12-12|bettinaheim|Package updates (#188)
+c10eea421667873bba110d3a07d2c18e76e7af41|2019-12-09|Chris Granade|Consolidate exact and approximate multiplexing logic. (#184)
+0e3b5f9eeef602c8f0c5f6baf5403f0a04e489db|2019-12-06|Chris Granade|Add placeholder for QML unit tests. (#185)
+cae0050a860fb5d4964f2814b8a1300b3d16ba2f|2019-12-04|Chris Granade|Bounded univariate minimization (#183)
+551acb8c6c7e6246b1a98db17488144e2709ec8b|2019-12-03|Mariia Mykhailova|Clarify the restriction on the number of bits for IntAsBoolArray (#171)
+1423acaf84194a21bd21771614849ca3ec16e03d|2019-11-26|Chris Granade|Simplify classification API. (#179)
+22a3dd59e5c27cf319f5df3fe6552015635560eb|2019-11-22|Christopher Granade|Fix merge conflict.
+7e4440a92b7509412ef5b66da6570f55e21d4572|2019-11-22|Christopher Granade|Merge branch 'feature/qml' of github.com:Microsoft/QuantumLibraries into feature/qml
+929478b921dce1e8b094d67b00d959099eb5ffa3|2019-11-22|Chris Granade|Add repeated operation (#153) (#180)
+3201cde63d434ce30d4536c3748fcfd727d09b35|2019-11-22|Christopher Granade|Merge branch 'master' into feature/qml
+8ff71150ed5644ba1e494c4cdf8bb4de98b08c66|2019-11-22|Christopher Kang|Add repeated operation (#153)
+3e0517d6e2ec7a2438376fc0b53d0285552d770a|2019-11-22|Chris Granade|Merge branch 'master' into feature/qml
+837c8968447d0d3643a610e91f7b616f2a57b40e|2019-11-21|Chris Granade|Added initial pre-commit settings. (#92)
+20529cfce23d0fd35d8e95b0c0faf8073a9e08fc|2019-11-20|Chris Granade|Merge branch 'master' into feature/qml
+6d23ce3b4710f5c104039eb433e2a6152a5ee320|2019-11-20|Chris Granade|Unit tests for new operations and functions in M.Q.Standard used to support QML (#177)
+267484d870e959e590f2a1b30e3f0edf5938891e|2019-11-19|Vadym Kliuchnikov|enabling all source inclusion with source link (#164)
+cfb2ba47286ae743ccf8e228c786217aaa410c1d|2019-11-15|Chris Granade|Merge branch 'master' into feature/qml
+7f626735f623ec19b106a2fe8675a6dd40837970|2019-11-15|Chris Granade|Merged PR 2339: Initial development on QML library.
+ac997e86f1c09947c84e04d9c3d05ef8421cf474|2019-11-05|bettinaheim|updating package nrs (#172)
+f15fd15e8b0f0c6f1ac79bf6dbfa2e8e2f15a973|2019-10-24|Guang Hao Low|Update docs
+b4be0cc10453381db41f937f04f501c72bd438dd|2019-10-23|bettinaheim|Deprecation warnings & packaging (#169)
+61ae13003a6bfa6a62dd1455a00ff7b51f857f86|2019-10-21|Chris Granade|Update packages to avoid downgrade errors (#168)
+d1545853552e327551e7a08907db34f8e6b7e71a|2019-10-17|Andres Paz|Updating qdk to latest alpha. (#167)
+7fafdb7db85ef35bfe8d75e886967de14a04fbd8|2019-10-16|bettinaheim|Updating to .NET Core 3.0 (#163)
+f2167f6f54ca695a40b03d106725ff3ee2fed6b8|2019-10-13|Andres Paz|Updating projects to 0.9.1909.3002 (#161)
+f2714cc16c54c0e29a9a735d537b71bd8d3fc4b1|2019-10-07|Vadym Kliuchnikov|adding support for SourceLink and enabling XML documentation output for C# (#160)
+6899af4bf7444bd9d0f56098427acc128be20e06|2019-09-04|Vadym Kliuchnikov|updating signatures of ApplyIfZeroCA and ApplyIfOneCA (#156)
+19394701881b50f3e899914125a3322c5ca99000|2019-09-03|Chris Granade|Functions for arithmetic, logical, and bitwise functions. (#152)
+4490ba8295e18d2ddbfb42dee584c6fcb3101c45|2019-08-20|Vadym Kliuchnikov|Adding new variants of ApplyIf combinator into Microsoft.Quantum.Canon  (#143)
+2f01908f8eed5e8fcacc8694543868c88256cd38|2019-08-20|Chris Granade|Update README and bump version for using prerelease feed. (#151)
+97996122a75ce2bcfdac3ac599f896695ace7703|2019-08-14|Christopher Kang|[Small addition] Added Fermionic SWAP (#148)
+1372b95bb837f10297814df867d6c01dccaf7a12|2019-08-13|Nat Kershaw (MSFT)|Fix incorrect Hamiltonian href (#150)
+e8158ac050b5e8e92d485bc66c086c748cb4129a|2019-08-07|Vadym Kliuchnikov|Adding Delay combinator with a functional form (#145)
+b7d9016ca173371e49179006eaea49909f02eefd|2019-08-02|Mathias Soeken|Array initialization functions and range conversions (#140)
+e9ee389d250fb68f0949706e4cf94fa856d044ac|2019-07-31|Vadym|Revert "Adding several new variants of ApplyIf combinator" Pushed into master by mistake.
+fe46133ea76269ee0d5832b2dae3022c67d8d529|2019-07-31|Vadym|Adding several new variants of ApplyIf combinator
+3023acf7f617f65de37f6dd483f2bae65ecba6d0|2019-07-25|Chris Granade|Remove Python host client (moved to new repo). (#133)
+deddc063780aae3de6448ef75624a71435e2b240|2019-07-19|Andres Paz|Preparing for 0.8 release (#137)
+0da4601378d6bca4dc28fab863f656fce9ecddae|2019-06-21|Chris Granade|Added metadata to libraries as well. (#130)
+4d1c1b962212a83e4e6f259272dc0b0ef02b6de3|2019-06-21|Chris Granade|Fix #126. (#129)
+84030c5b7f4dbcfd9e5ccd2f89d392b70da5b278|2019-06-21|Chris Granade|Minor improvements to Python docstrings. (#128)
+42849db47caeea5bae1278f94c391532c28b3ea5|2019-06-21|Chris Granade|Add new skip tests variable. (#124)
+e7b20ec02d96f12e5fd26913e24a071fb21dadc7|2019-06-14|Chris Granade|Add toffoli_simulate method to allow Toffoli simulation from Python (#125)
+de2dccd7e8340a88d21e163bcd559f93fb4a9bb2|2019-05-31|Andres Paz|Merging release 0.7.1905.3109 into master (#123)
+154df74705d9ccc88ed36bb5b9c4c264af98d759|2019-05-29|Thomas Haener|Add more numerics functionality (#102)
+208b5b6bc5d2266f1917505a8ebcd248614240a0|2019-05-29|Chris Granade|Added new Apply{,A,C,CA} operation. (#118)
+e7f41f29998e13427d5bbecf8daaf967f452335a|2019-05-24|Chris Granade|A couple minor fixes to Facts api docs. (#112)
+5309f7bfcb40c8e71013efe00eddbe8954ebe78a|2019-05-24|Mariia Mykhailova|Fix two small issues in API documentation (#111)
+97c4cc08564f2b96a0c62d6bce2d5a1a832d713c|2019-05-23|Andres Paz|Add user agent and mock client to Python. (#108) (#110)
+6822fac22e4f32942c6deb824e2e632805159928|2019-05-21|Andres Paz|Support for signed build. (#105)
+864821e65bf1fdbc315b3dec4ea7fcee06a63f65|2019-05-13|Andres Paz|Removing pending warnings from tests (#101)
+85d18f42fd140fd2c5bba954e22de519e25fdf30|2019-05-13|Mathias Soeken|Update depecrated use of InverseMod. (#99)
+e6885b1949f485c669a7eeebb2bd878af29d796c|2019-05-03|Chris Granade|Release v0.6 to master. (#98)
+5a72d9956b22e53904bdbe08a537d5b0ea1c338c|2019-04-12|bettinaheim|modifying contructor calls for QArray in preparation for a simulation framework change (#78)
+42900b614913edd28389327b1c0d22f629337aeb|2019-04-12|Chris Granade|Prevent loading Q# modules when Python client is busy. (#71)
+17db6d62a548c7faf0835b2425283172054e2b9e|2019-04-10|Chris Granade|Change Assembly.Version to Python.Version. (#64)
+c1f112c304923277a8558faf469ae9fa60451d4f|2019-04-09|Andres Paz|Missing return statement when compiling more than one Q# snippet from Python. (#60)
+996a598b662e9743892a799b11b2446cddf928b1|2019-04-03|Andres Paz|Making IntegralData as public and making it friendly to json encoding. (#52)
+cbf36bc4d8efcac9f4f20bbbc2b87ca302611c91|2019-04-02|Thomas Haener|Clarify docs and fix normalization in Random.qs (#48)
+0145cae056d7956d4fe4d8a056ca7c1c0eae7ddd|2019-03-29|Chris Granade|Update Python interoperability library to enable new tomography sample (#47)
+f97df9aca7e1e6159d356e4d632d95020601b25a|2019-03-29|Andres Paz|IQ# auto-restart for Python and debug messages. (#50)
+54180555b090aca807150e6cef6ad848042a704b|2019-03-28|Andres Paz|Updating to latest QDK version (#49)
+7cb7b09b3fd858d6863a901b487804280132775c|2019-03-26|Joe Clapis|Fixed a bug with RandomReal generating out-of-bounds results, and added a unit test for it. (#28)
+11c71781b70679852e3cbaa77dd0ca6552817333|2019-03-25|Andres Paz|Updating to QDK 0.5.1902.2802 (#44)
+c3ffe826f71ddc6f61d07565c6dfe9a2ed250afc|2019-03-19|Chris Granade|Merge pull request #42 from Microsoft/arithmetic
+67f786b6f3e254aba2b3c72aeb17c7bd93d732de|2019-03-19|Chris Granade|Merge branch 'master' into arithmetic
+44326a6ede381565be7ae3641341d88aa3cbe966|2019-03-19|Andres Paz|Merge pull request #43: Fix bug when decoding Q# UDTs as tuples in Python.
+23da28f847745a7ff18c86865c2ebb06d9cd72d4|2019-03-19|Michael Naehrig|Copyright header and namespaces.
+2f814c36ff69fa239fbe419be93ddd316b72d133|2019-03-19|Andres Paz|Fields are case sensitive
+e19f4a93a2740c3e01e512327a39e27592cdc858|2019-03-15|Michael Naehrig|Added integer adder tests
+a81f675947eea7149e2dabc36f2d0baf27033bed|2019-03-15|Michael Naehrig|Added integer adders
+f19aa9bdb834902e2bf1cf3abc97542f9758a248|2019-02-26|Andres Paz|Merge pull request #36: Cross-platform client for Python host
+851f24037baf7f71ae1a060755457536a38d5fc2|2019-02-26|Christopher Granade|Removed old build steps.
+0569457c2d15d96accafceb279bb95b3592a87fc|2019-02-26|Christopher Granade|Updated README to reflect focus on contributions.
+102cd5d9de4f5b7790da24c8df1f8ce389817d8c|2019-02-26|Christopher Granade|Fixed docstring.
+947f06525dc9fbdb40223bdde486117721760d70|2019-02-26|Christopher Granade|Removed files that should be in samples instead.
+e6a73cb6cce9b32c153e083ca43226051e4c65a9|2019-02-26|Christopher Granade|Clarified a docstring.
+b6caf25817a59e317c54dd42ac942f6d70e176f8|2019-02-26|Christopher Granade|Fix double-printing and other minor bugs.
+e2d2f3728ae5b2bb027e5302418c31e564b1cfd9|2019-02-26|Christopher Granade|Add support for querying workspaces and wrapping exceptions.
+7730a64447e6f6abd856e52b79e335b369a2b433|2019-02-26|Christopher Granade|Small fix to serialization format.
+3b88a424159ffad6ff6ff32603ac3cfeefcbb9f6|2019-02-26|Christopher Granade|Merge remote-tracking branch 'public/master' into cgranade/python-xplat
+4acc80efbde4117f95552a181ce919124edfa395|2019-02-26|Christopher Granade|Updated package request magic.
+dd4155d880d03566407797224d2eb9d8dcc9617a|2019-02-26|Christopher Granade|Copy over documentation comments.
+b3aa5ea9242ba4bf155cd9b713ffa98f2e4bd1c2|2019-02-25|Christopher Granade|Added back the atexit call.
+7f1d9692392d15f3c947b5592376bc65a702bfe0|2019-02-20|Christopher Granade|Docstrings, stub out fetching operation metadata.
+9e0a0c7b89f076f3679015a1b6fe6048f86750b1|2019-02-19|Christopher Granade|docstring and type hints
+9e2169fcaeeb4d8363972afecec6b5ddda947d32|2019-02-19|Christopher Granade|Added Packages object to qsharp package.
+f070d05623bdc431a0d9e013a80a0e3c9c16d786|2019-02-14|Christopher Granade|Started adding more docstrings.
+4e7c0490cdf2c53397921c14cc716795d9974e7b|2019-02-14|Christopher Granade|Add support for new %estimate magic.
+10910d7c19175bd931cc891bf2efbf29198db5ee|2019-02-13|Christopher Granade|Slight fix to README.
+c7a2616bf324faa8402796bebba114ac1366300a|2019-02-13|Christopher Granade|Updated README.
+65abd80f4672d145b6af729a6f21b5386355da40|2019-02-13|Christopher Granade|New setup script to propagate CI build numbers to PyPI metadata.
+847f2487817a4a0b450cfc774e19d6485a768f43|2019-02-13|Christopher Granade|Removed outdated Python build pipeline.
+070bf455745f2860ba5c3ce9d8306106d2b6463a|2019-02-12|Christopher Granade|Moved Python host lib to src/ and added build recipes.
+a872d05008c81b3e416e275270e97e71332f74ac|2019-02-12|Chris Granade|Merge pull request #27 from Microsoft/release/v0.4.1901.3104
+0ea3b7fe0dc41edccda54910a805d3664b001d4e|2019-02-06|Christopher Granade|Initial version of new xplat interop.
+b9df2750c8fb477ce7e846e7611e0bb4dcb7d759|2019-02-06|Christopher Granade|Removed Framework-dependent Python interop.
+808f9f2cb0903f198e86eeb4b6458cd905e058cd|2019-02-01|Andres Paz|Updating projects to
+5f0ed134f1bb6403c5eaa5ffa5b1b6b44dfd1ef6|2019-01-09|Mariia Mykhailova|Expand the api documentation for several operations (#25)
+2b8eea8f7a857dceee97f96d065d02e5e2c25cf0|2019-01-08|Chris Granade|Merge pull request #24 from Microsoft/mariia/fix-formulas
+e09cc674eb8f193739c235ca5011a0197bcb5055|2019-01-08|Chris Granade|Apply suggestions from code review
+8e7a5ba5e4924bc24fe02fcd8d4e72e0514ea09a|2019-01-08|Mariia Mykhailova|Do a round of spell checking on the Canon code
+beecfce969cfbfe21b47e8d3b0aaeb05997911ea|2019-01-07|Mariia Mykhailova|Fix several broken formulas, links and formatting
+0380842488cc67005a4402219212e0624a6506f2|2019-01-08|Nick Schonning|Typo: Remove the double word "the" (#10)
+1bdc3a28b292fb40f611bf30244857a6deb16468|2019-01-04|Chris Granade|Merge pull request #12 from Microsoft/anpaz/unicode
+401bc3e662032f176258e01ed5eebdf163eb29d8|2019-01-03|Andres Paz|Merge branch 'master' into anpaz/unicode
+1dce88b12e384c777230db6e10cf555397486be6|2019-01-02|Mariia Mykhailova|Fix rendering of several StatePreparation formulas (#22)
+78b5028a89dd4852844e183e3786054b03f2def7|2019-01-02|Andres Paz|Merge branch 'master' into anpaz/unicode
+932e820157715e49efd924b6d7cbc93bc5d5705d|2019-01-02|Andres Paz|Merge pull request #21 from Microsoft/anpaz/python-build
+6cbfde59a0ae917c7ba72111fd0f1d9a1bc0fff7|2019-01-02|Chris Granade|Merge branch 'master' into anpaz/unicode
+a336edfed8525d5c1891e31ab401bf1b220fac0f|2019-01-02|Andres Paz|Re-enable unittests
+f13e53b312bf40dd2efb291904660e267381f316|2019-01-02|Andres Paz|Using Python 3.6
+ffa60b37aaf78538b55fd625d1687e632122e6d7|2018-12-21|Alan Geller|Merge pull request #20 from Microsoft/mariia/fix-formulas
+dd37b95ee622d9489c3310422f1c08e22c30060f|2018-12-21|Alan Geller|Merge branch 'master' into mariia/fix-formulas
+873edab42e525680868eae6bffec5fd4486791a7|2018-12-21|Alan Geller|Merge pull request #19 from Microsoft/mariia/fix-example-headers
+cf13976d9aa5889be9ef3c01467ede910781637a|2018-12-20|Mariia Mykhailova|Fix several formulas
+c8585eb6d63bba47a9af5a6999bf6ce23000e739|2018-12-18|Mariia Mykhailova|Fix "# Example" tag in documentation comments
+93b5004b4a75c4ed2784023056102e4f49f4959c|2018-11-07|Andres Paz|Merge branch 'master' into anpaz/unicode
+04e52e2ebf3986dfd722e404d44bf8440150d3ab|2018-11-07|bettinaheim|Merge pull request #13 from Microsoft/bettinaheim-selfadjoint
+eb84930c90000feada0c4757f83c07fd943f8b01|2018-11-07|Bettina Heim|trivial change
+cd7d5726cbbc2888e837fcb5a688b39504070af5|2018-11-06|bettinaheim|Update Arithmetic.qs
+db36dce6e41ba4ab1bedef68f9833dde703e6d7b|2018-11-06|Chris Granade|Merge branch 'master' into anpaz/unicode
+97c55232486585cbd443bce1df097748ccc054ae|2018-11-05|Andres Paz|Updating version to 0.3.1811.203
+57a6c72ea3cdcf6a88af3e641a2700d5e0fd144f|2018-11-05|Andres Paz|Fixing corrupted unicode chars
+56bab56886bd8cac530d7f90ed127ef2dd0fc415|2018-11-05|Andres Paz|Merge branch 'master' into release/v0.3.1811.203
+dd526be6f28f48807b6651ae17adc4c33b00af24|2018-11-03|Chris Granade|Merge pull request #11 from nschonni/double-all
+a07de28125aa01ccb8cba6db9cf36921e985420f|2018-11-02|Nick Schonning|typo: AddFermionTerm summary text cleanup
+c9550c623fe2c76d46159478888dc7bc742114d7|2018-11-02|Andres Paz|Updating version to 0.3.1811.203
+49beef31be3ccf3287483b9ef6f8103dfe43309f|2018-11-01|Andres Paz|Merge pull request #8 from Microsoft/ageller/comments
+28812709e96edfff4a1ca6a8edd6d88d998dfee0|2018-10-31|Andres Paz|Merge branch 'master' into ageller/comments
+a8e204a1d24516f6a8c8b630c0526af5fcb333fe|2018-10-31|Andres Paz|Incorporating feedback
+4079de6bccdabc4afb1c35be848d23446dc347d5|2018-10-29|Alan Geller|Utils and a last fix to CommonGates
+0adc92fd7982dcd9262613efef2071dc98baac11|2018-10-29|Alan Geller|State prep doc comments
+f6109d873aebfb903f1e5862feae54322c03075e|2018-10-29|Alan Geller|Simulation doc comments
+7538bea40fea1b5df3cff55aad061d3b545fad89|2018-10-29|Alan Geller|QECC doc comments
+5254f993d4fb9d3e01c8afe4678bb7554687b4ff|2018-10-29|Alan Geller|QCVV doc comments
+75b7439fce014630ed33d69734f57d6aaaf9c4c0|2018-10-29|Alan Geller|PhaseEstimation doc comments
+bed747dd80819d3d27a3c1f4d21518c46d61cefb|2018-10-29|Alan Geller|Math doc fixes
+298f3e72bd7aa855a9cc05a508b40d85344e816b|2018-10-29|Alan Geller|Enumeration, plus some top-level sample code I missed
+57efc725d6a6ff9c578cc069320c52dc0dee85c8|2018-10-29|Alan Geller|Arrays and Data doc comments fixed
+c1b4ca10b02e415c057b06618d38f9f3e391f2b1|2018-10-29|Alan Geller|Combinators doc fix-up
+0bc4c7451c07af68a58f779fad6662730cfa78ec|2018-10-29|Andres Paz|Disabling creating drop as it fails for external PRs (#7)
+25c2f04666403048aa5efd7e6917cae8985fe815|2018-10-28|Martin Roetteler|license headers changes to MIT license (#5)
+1821172b20faf37823ba24017e5990e0e935cd35|2018-10-28|Chris Granade|Updated README files. (#6)
+b96ba2bf8c510426fff09f65e83f8b5068c01374|2018-10-27|Andres Paz|Point build status URL to Azure DevOps
+302047847c5122ae6e4952978d33daadacf8b285|2018-10-27|Andres Paz|Point build status URL to Azure DevOps
+b3a67aca5652702f1a091122d41485f2ce1f370a|2018-10-27|Andres Paz|Merge pull request #3 from Microsoft/cgranade/to-operation
+2df9a3f36256b9e19ebf80d232911a9d858f7343|2018-10-27|Christopher Granade|Fixed syntax error, deprecated syntax.
+1732bb7075779fc280eaa8bfeaf0132a93141294|2018-10-26|Andres Paz|Merge branch 'master' into cgranade/to-operation
+f078919c88fa1ad5c1521888f86ac1a92cd9c71a|2018-10-26|Alan Geller|CHanges for the Asserts folder
+5b2c4a735aa42ec2b87165025fb60f0777d24ab5|2018-10-26|Alan Geller|Updated Arrays folder
+ab935f40e71ef3f70a986dc857923c2df7859f41|2018-10-26|Alan Geller|Arithmetic folder
+728de6ea39a617b13f412eb47d6fdcdb27be1f0b|2018-10-26|Alan Geller|AmplitudeAmplification folder
+4d6169acd536ed9392431b14388309b5825c39be|2018-10-26|Alan Geller|Edits to top-level files
+e3342339d87ee2be60a6ec3b4f31a7dbde7563ac|2018-10-26|Christopher Granade|Added tests.
+172dbbed5a8c2b805f36009c13f0f44bea5777ae|2018-10-26|Christopher Granade|Added Call, ToOperation. Tests forthcoming.
+1e892d3a7f0900c6d33e99eef5ba3d1fb3b460d7|2018-10-26|Martin Roetteler|README.md: pointer to chem libs and docs added (#2)
+038ddfd42ed939f9542e97dd6700f35d666a3ad7|2018-10-25|Andres Paz|Release/v0.3.1810 (#1)
+e8743d675f0780ea5ee3719100b39fa485a27fd3|2018-10-24|Andres Paz|Adding yaml configuration for Azure DevOps build (#98)
+ef92fe1a4edd3f5d69b35bb733d2c9a901a5192c|2018-10-24|Lee James O'Riordan|Some typo corrections in comments and functions (#96)
+0c01ba243df1ed34c309aa70a8f8b11c21850dab|2018-10-17|Andres Paz|Treating markdown files as text for diffs (#93)
+0cf34789a13ae56484d3322d7b8cad1c1518d2a6|2018-10-16|Chris Granade|Upgrade electron to 2.0.8. (#92)
+b0ec52d5ad6c19da8de480689c69963e660643c3|2018-10-02|Andrew Helwer|Add CHSH Game to Samples (#84)
+f25b797a800d16ca8a868565a6e30435e3c4ae95|2018-09-18|RolfHuisman|QASM->Q# translator (#58)
+5dc18387fb16e4d1b380df1ee9cbc55b1a854c77|2018-09-10|Andres Paz|Updating to 0.2.1809.701 (#82)
+cb3c4dd6c6d9ff249abe48d833046835fc4387e1|2018-08-02|RolfHuisman|Update to latest IBMQuantumExperience interface (#71)
+a7f574fc941efa37cae0e93394cf8b689de7cb50|2018-07-02|RolfHuisman|Update dependent libraries to latest stable (#67)
+7d0dbbe44c5047d37398e8273db7e054c508b5e7|2018-07-02|RolfHuisman|Change the stored seed to a seed based on a hash to improve build resiliance (#65)
+49d87345cbfb17e8ab71e8a46a8b27e63d77eb59|2018-07-02|RolfHuisman|Workaround for travis environment for suspected OpenMP concurrency bug on ubuntu 14.04 (#72)
+9a8973ec567c0089fcd3e0f1a2eccd6ec23f664c|2018-06-30|Andres Paz|Updating to latest QDK version (0.2.1806.3001-preview) (#70)
+e7a675f2ce306d53d73e42f6a9e4a25fcb85b4fe|2018-06-29|Andres Paz|Uupdate QDK version to 0.2.1806.2802-preview (#69)
+f5685e8334f1df4aa9a69e6d53595dc1f0b12f1e|2018-06-26|Russell Taylor|Grammar indentation fixes (#23)
+9e8c74831032cf89888fbfc37039397fdc386683|2018-06-26|RolfHuisman|Hadamar should be Hadamard (#64)
+f87f1e4e794c60ebe4e5dd9a032d38adb0f74ab6|2018-06-25|RolfHuisman|Space in the class name accidently made the test use a random value instead of using the fixed value required for the test. (#63)
+27a2e2b3055eada587b679080f135013cda4db81|2018-06-25|Andres Paz|Updating to latest release version (#61)
+e179e61f5110752850b14c1fed7996fd66d55506|2018-06-22|Andres Paz|Fixing links to xref docs (#60)
+c63705375562b33c8c9d84ee7565faa1bfa38626|2018-06-21|RolfHuisman|Open quasm runner, to allow Q# programs to be run on the Quantum Experience (#59)
+10e61fa425a33f8f7d3ac3d4ac0eb9b46a91178a|2018-06-12|Andres Paz|Adding RunQDocGen flag to Canon (#56)
+519c2a736ec06314f833feb7ad7e46ceb191366b|2018-05-09|Sarah Kasier|Adding CControlled function to the cannon, w/ unit tests. (#53)
+805c727dc8d10e89fae7396251c7b01d4031d5fc|2018-05-09|lemj3111|Fix quantum phase estimation (#54)
+f81d0a113ab1f2a428224f575ce42a77688ac000|2018-04-23|Martin Roetteler|license formatting fixed (#49)
+ff9550b369de37650ea9f65b92ee5deb5bd76d3e|2018-04-19|Chris Granade|Inline BindA and improve unit testing. (#47)
+2186d1a01b75f2c72352ab1ead12feebfa4e7be3|2018-04-19|Chris Granade|Included RLS.csproj into main solution, improved docs slightly. (#46)
+e97818bac11561546fb2af31d91afe9358b434c1|2018-04-12|Chris Granade|Added a new Compose function. (#43)
+81dd07bc6e740d69f1025dc8ef8456ad900d122f|2018-04-10|Guang Hao Low|Arbitrary state preparation & multiplexor quantum circuits. (#40)
+13eea5d649251ec4cd98c37b28d7929b9370c1d7|2018-04-06|Mathias Soeken|Implements transformation-based synthesis in Q# (#41)
+ed3f635ae50b136f334d464f4a3e282d35f53fef|2018-04-03|Chris Granade|Update GCC on Travis CI to enable Linux build. (#39)
+091aaf4d4d81218bfa195b200739c635a96755f5|2018-03-30|Andres Paz|Creating .travis.yml to integrate with http://travis-ci.rg/ (#38)
+bf27332e45a55b29db41f20b0bd9d466497ceb17|2018-03-08|Andres Paz|Small version updates. (#36)
+4b17eb2e430bd2165e9d0806197056f0fdae0534|2018-03-03|Mathias Soeken|Fixes bug in BindAImpl (#34)
+1e10e2557ef9f491bc43a699520228a3d6b900d7|2018-02-27|Tama McGlinn|Teleportation example: dispose QuantumSimulator (#20)
+cd2eaecc4d23859f98d54250ba215a94837d9b8f|2018-02-27|Bart J.F. De Smet|Fix link to style guide (#3)
+1789de8b7384d48e8cbecdf6efcda13ff164c860|2018-02-26|Andres Paz|Release 0.2.1802.2202 - netcore & python preview (#32)
+18cabfe46b7c7757dd798c77b9afbf4b549cb603|2018-02-26|Andres Paz|Switching repository to MIT License (#31)
+c9f9a712fae9ab80742931226278540f06fa9d8c|2018-01-18|Chris Granade|Fixed typo in SimpleAlgorithms. (#28)
+1a3703ef8ba85c6109496324a27254d0063da16c|2018-01-18|Andres Paz|Updating QDK version to 1801.1707 (#27)
+a72ef50a9132e65ade211d1ea20ab16f7f7e1dcd|2017-12-13|Andres|Adding Feedback info. Clarifying our current contributing policy.
+7e4e28573b9c07f8e855e36feaf770abcb2d568b|2017-12-11|Andres Paz|nuget cleanup. adding build status badge. (#5)
+565e09cdccfd5b309857e5276671b886f9f645e6|2017-12-10|Andres Paz|Populating libraries & samples
+d8bc70ce40689e4ec21980c39895f57723fb7931|2017-12-08|Andres Paz|Initializing quantum libraries repo

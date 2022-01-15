@@ -1,0 +1,902 @@
+cc20d26dad78691d34c67173e5cd67dcac94208a|2018-12-18|Michael Goerz|Use `twine check` to prevent broken metadata
+af31bbdaeee8e713e4a32cf5b514e3a2d03f1d60|2018-12-06|Daniel Wennberg|Fix faulty gauge process in heisenberg eom
+96b153216d08121575bcdbf0ae44c299b7a22b7f|2018-12-05|Michael Goerz|Never consider indexed LocalSpaces as disjoint
+e92fd99d80c1514d2bfa4f6ef5ba19e2598902ad|2018-12-04|Daniel Wennberg|Make context managers robust against exceptions
+f5f988f41a9091926a99adfee872167f2f0989af|2018-12-04|Daniel Wennberg|Write context manager exception teardown tests
+04d309a07474d8c4c9f248a67873228dc531ae33|2018-12-04|Michael Goerz|Use latest mathjax
+3efa43b74dfbfbbf4ee33cd8754a21c396bb9422|2018-12-03|Michael Goerz|Use PseudoInverse implementation analoguous to Adjoint
+7430c20a58b0c17ee5b63ceb4c053f658d10c078|2018-12-02|Michael Goerz|Explain why Adjoint doesn't use rules
+df8b6f0c8c1a7a2994b7e5c56715341918637572|2018-11-29|Michael Goerz|Fix wrong docstring of temporary_rules
+eb94aae30aedc8f523a4fb1f5d1f33ad147d39ed|2018-11-26|Daniel Wennberg|Make expand_simplify optional for move_drive_to_H
+c68b0184881feaa40eae51139255d51a1cc9f8c4|2018-11-26|Daniel Wennberg|Remove erroneous substitute special case
+e7eb705e3d5a23bc8a179a198a9205b62842a72a|2018-11-26|Daniel Wennberg|Write test for SeriesInverse visualization
+bf9bc83a89a8eb5a2ee6d7c6bf34445dbda05c0c|2018-11-26|Daniel Wennberg|Refactor visualization tests
+1ce7f6c44578b53ff9d8bd51fb4d77806645f289|2018-11-26|Daniel Wennberg|Amend pyx latex preamble to make \rhd available
+a0e6e02bb38d9f9a837d7633884f3a8672a5a557|2018-11-21|Michael Goerz|Update dollarmath plugin
+3868d5b526d6bb446b3d0169eb211af9f6475d10|2018-11-21|Michael Goerz|Configure mathjax in conf.py
+c3f3bb8f74d79186c0f4ac35a453e91c827e8727|2018-11-21|Michael Goerz|Update intersphinx mapping
+d1d27b1e4d4a9aa886e2411c1326d1fae4d77d4d|2018-11-21|Michael Goerz|Add Github badge, badges both on README and index
+6e76413c87cca7076ab9125b8460c5fd9f01e1ca|2018-11-06|Daniel Wennberg|Consistently use raw strings in printing tests
+9e683b1cb86dc32b31cc60700b5f2e9d9e291580|2018-11-06|Daniel Wennberg|Use current pytest convention in Makefile
+8b0285e5039017b4ef0439091778f4c5e2c38a15|2018-11-06|Daniel Wennberg|Make coveralls a dev requirement
+ec9eab033b98cff8d9f26dd1246e0658ec97a410|2018-11-06|Daniel Wennberg|Avoid editable installation in CI
+600b8b145156493f61a10ab0fe3bd3fbd68872e8|2018-11-06|Michael Goerz|Fix some more advanced sums of KroneckerDeltas
+7aa76b46edfd0df7d97b80acccc80b807af8e411|2018-11-01|Michael Goerz|Add (failing) test for advanced sums over KroneckerDeltas
+ee812cf250b0b8a04c286a8bf78f74ca409d9329|2018-11-01|Michael Goerz|Add IPython to dev requirements
+22b31a4a4fe3efe5802f5a160e09311e8222e4a7|2018-10-29|Daniel Wennberg|Implement recursive tuple transform for containers
+c5045303ae869acd18eb2db9dfc0b0a222ce75a1|2018-10-29|Daniel Wennberg|Don't make SLH look too much like a container
+a2d8690c07b2ca9de8e5e9ee3a14dc35d883660f|2018-10-29|Daniel Wennberg|Require sympy version, and align make test with CI
+19c02409f89f5eff3d60a4e070bf816e18ff4be0|2018-10-14|Michael Goerz|Merge branch 'feature/appveyor' into develop
+37b7c44e43e79ec6751d3b228ab3ab1970455e7c|2018-10-12|Daniel Wennberg|Streamline .travis.yml for faster testing
+efd09aa5e52f4d2baed95085d5555f1378171a68|2018-10-12|Daniel Wennberg|Use os.path.join for all path concatenation
+9ba7b0ab2c72fd54b50296f31d057e8dc42beff6|2018-10-13|Michael Goerz|Update README
+7c7e28dce9bf34a60f5f4ac87ae10055afcfcc55|2018-10-13|Michael Goerz|Remove run_tests_win.bat
+50f7c8d38b1f9456cad2c6d7d1e0b69d48711dab|2018-10-13|Michael Goerz|appveyor.yml -> .appveyor.yml (matching .travis.yml)
+be6fe83fad9d0a439ec2496a13c6ab11941a3c28|2018-10-13|Michael Goerz|Clean up appveyor.yml
+dd7cc292ec2295f053435747cb454a8d33a0557a|2018-10-12|Daniel Wennberg|Make latex work
+af139968bdda78f48d08b7e2d0d0e1897537a5b8|2018-10-12|Daniel Wennberg|Require sympy<1.2 for tests
+3469689e31962340df69bfadff5c860278ca4707|2018-10-12|Daniel Wennberg|Merge branch 'feature/appveyor' of https://github.com/mabuchilab/QNET into feature/appveyor
+5972842b9a6f752d3145d2636242c55c230a1e91|2018-10-12|Daniel Wennberg|Get tests to pass on windows
+0b05d58248e2c1708b8f2a82505aad26763e4c4a|2018-10-12|Daniel Wennberg|Merge branch 'develop' into feature/appveyor
+63639b8b9102264a639ce38bd4eb8689988d952b|2018-10-12|Michael Goerz|Merge branch 'develop' into feature/appveyor
+4118b5394f8a158c488f10edec8e5355544b7a99|2018-10-11|Michael Goerz|Get tests to run through
+d0cf2e72e15fd1fe4c7291d201f8f52d5e0342e4|2018-10-11|Michael Goerz|Install Miktex in appveyor
+59bc9cb7b536e4afcf5ee4bfb9072a220fe428db|2018-10-11|Michael Goerz|Add %PYTHON%\Scripts to PATH in appveyor
+a5f14a39aca37f5c115580110f6bb2682d18dd6e|2018-10-11|Michael Goerz|Use Anaconda on AppVeyor
+b78d771baec4adccfc95baaa3135455b8b127674|2018-10-11|Michael Goerz|Try to do pip install / run pytest
+b8aa980710702f55d0884cb61e2541c49ceaee99|2018-10-10|Michael Goerz|Add badge to README
+cde7caedfd79a6011a74a8695534907ec356b6af|2018-10-10|Michael Goerz|Add appveyor.yml
+a5bbab96cbe08aa4983f92fac40e3a20db3809a4|2018-10-09|Daniel Wennberg|Look up ghostscript executable for pyx
+7f4d237f2baaf19b11fac43fac8729af381820f1|2018-10-08|Michael Goerz|Allow LocalSpace to have a symbolic label
+da9ee8695c613a38e259e781bb6bd9ec56df1af7|2018-09-10|Michael Goerz|Automatically simplify KroneckerDeltas
+6da6cbe0aa8f10c0dc33a81c7afa475f2eb68345|2018-09-09|Michael Goerz|Fix orthonormality of basis states & KroneckerDelta
+324cbe51935c3cea8560e7385ec8c7ba67a72685|2018-08-24|Michael Goerz|Fix bug in apply_mtd_to_rhs of Eq
+765e8252413b59fe8d67a2cf445502ad255b791b|2018-08-18|Michael Goerz|Render symbolic labels via `substitute`
+25f253d829d8541b2f4d73530b0eb542b9b0ffa9|2018-08-18|Michael Goerz|Fix label creation in SpinSpace
+f2ed448ac7da67c4b8bdecc8443cb6ac7b55d39a|2018-08-18|Michael Goerz|Doc fixes for state algebra
+8e9810a4287571cd3292a44da0cc8096cf2989d4|2018-07-21|Michael Goerz|Implement Pattern.finditer
+d01f6b184a233a9d913119c5acff651e343aea87|2018-07-20|Michael Goerz|Refactor LocalProjector to be a function
+d31f4ec2c61d6672857f4767403dc2f4d3946134|2018-07-13|Michael Goerz|Fix printing of Commutator
+8a3e1248791d7ed43426f3d12789162239c4b458|2018-07-12|Michael Goerz|Wrap sympy.symbols
+315989f33bce7bd5abb3da4fc6cac725cf5a7ded|2018-07-09|Michael Goerz|Fix collection of terms in sums
+d005d6f060bec1e19d7762ebabb75d9c901cc809|2018-07-06|Michael Goerz|Implement `doit` for OperatorPlusMinusCC
+a9862933bfcfc7093130107402d5c1a2c09b5b6f|2018-07-06|Michael Goerz|Implement a general `doit` method
+47d0151514877cf69e36487df1c757182329654f|2018-07-05|Michael Goerz|Improve documentation for simplifications attr
+e8ded2ed79caa854ca8bd87168280a65a757857e|2018-07-05|Michael Goerz|Freeze simplifications attr in temporary_rules
+6eddf3258eefe0484535041cd22db3c420fed9f9|2018-07-05|Michael Goerz|Expose `simplifications`
+41ffa4828862e810cbc48c10f682ee73a2e52012|2018-07-05|Michael Goerz|LOG_NO_MATCH for binary_replacement
+13ec12702cc1fc0840a16d82236cc3b26b86cd87|2018-07-05|Michael Goerz|Update pattern_matching documentation
+eb05ee6330ea515bdbf4bba71fc8c0d2bf1683fd|2018-07-05|Michael Goerz|Simplify context managers for temporary rules
+0ebe0ce1ef9b82ff2bc0122cf20ddfb5c1dff305|2018-07-04|Michael Goerz|Class methods for manipulating `create` rules
+bb76e7ddfd17e7d3a4cb8a1fa88f6e3715d4d981|2018-07-04|Michael Goerz|Number rules consecutively
+7f66de2d8b5b28ade5eb9eb4e508b005a364c3cf|2018-07-04|Michael Goerz|Add doctest for apply_rule
+2ebce87898cefec30dfc62513495f9ec9541aa05|2018-07-04|Michael Goerz|Generalize indexed_sum_over_const
+40ce581950444d53bb183f70dfcdd1d585a94dc2|2018-07-03|Michael Goerz|Fix printing of OperatorSymbol with StrLabel
+9a350c1a9b981082f84d34c361c4fa70d4f86a58|2018-07-03|Michael Goerz|Add apply_rule method
+2463248065a1db38098d2826fe091a6e49b9c88b|2018-07-03|Michael Goerz|Rename simplify to rebuild, apply_rules
+1c0e1d48b95a8c6f39a94d8aa24ea1b03efe9fd7|2018-07-03|Michael Goerz|Clean up circuit_algebra module
+ba46407c2a793f92b605c8bbca5cfbddbc44b2a8|2018-07-02|Michael Goerz|Fix confusion about real/imag/conjugate/adjoint
+dfda253ee9ddb5910583713d4d2b757902ba258f|2018-07-02|Michael Goerz|Remove ImAdjoint, ReAdjoint
+f695773910da681543a86e7ea7a47191189730c0|2018-07-02|Michael Goerz|Tune class docstrings, remove P_sigma
+e5f7ac1f8d8c207018628c04b9b9357d0334a7bb|2018-07-01|Michael Goerz|Derive NonSquareMatrix from AlgebraError
+5bcfff16e8dd946d6a683b5a01ca0c24594f57c7|2018-07-01|Michael Goerz|Clean up exceptions
+2eb9298e34fc1a818693d20d3d89349caa7eac96|2018-07-01|Michael Goerz|Update RTD environment
+4685cf9837d2261145cf6927df3710474f805d24|2018-07-01|Michael Goerz|Use autosummary in package docs
+b2b9d39edeee1d856563d5281fbf3f557af6cf10|2018-07-01|Michael Goerz|Add a map of all classes to the documentation
+51301196e8b2b1ecf5067734996b028a1b3c28a5|2018-07-01|Michael Goerz|Define __qualname__ for Singletons
+8362b99dedec2d4ded52decf196016d6f83125c5|2018-06-30|Michael Goerz|Allow clusters in inheritance diagrams
+df63dac8916206086982f704e8255c883aacc899|2018-06-29|Michael Goerz|Merge branch 'feature/rstdoctest' into develop
+eaa8c316bfe61ab4a12ea60ada1e39ebc90a3bca|2018-06-29|Michael Goerz|Fix doctests in documentation
+ad7648732e5e8eb7d2dd212fb0a8d5c4702fd5cb|2018-06-28|Michael Goerz|Merge branch 'develop' into feature/rstdoctest
+8c7351089da8ecb342257f09203738f4bd9973eb|2018-06-28|Michael Goerz|Fix doctest
+c639b5d458d4e43d281a7f9c584d0ac2d675d047|2018-06-28|Michael Goerz|Automatically initialize sympy printing
+fbc5b0c0e5aa735c03a05eaa4a030a1c00fbc213|2018-06-27|Michael Goerz|Export sympy.symbols through QNET
+dcb226dbeec4444aa0b7c8a161f5800acf60966c|2018-06-27|Michael Goerz|broader regex for labels
+618b841631270185876138237bdfe3221496ca81|2018-06-27|Michael Goerz|Add Eq class
+0273ca476819b88ed0e5ccd600752f8273b7deb6|2018-06-25|Michael Goerz|Typo in PhaseCC docstring
+eea26103cda479c95b4e9861eefb9e04263a78c0|2018-06-25|Michael Goerz|Add `apply` method
+9020536246278d501077ad8e074b42f8099a39ec|2018-06-25|Michael Goerz|Instantiate circuit-components with kwargs only
+9c05954097ea8835daaf20271ea9270efa38fa8b|2018-06-25|Michael Goerz|Allow circuits with duplicate components
+1c75edc6af249521c7aaadd7719dc92a5bd1cbd5|2018-06-25|Michael Goerz|Removed space attribute from general Circuits
+09756fe2020ed5c0d1808fa454feab4cddefd568|2018-06-25|Michael Goerz|Subclass circuit components from CircuitSymbol
+3caffc5de594c19762b8bf040076cb0e9ee8fb5c|2018-06-22|Michael Goerz|Allow CircuitSymbols to have arguments
+a96bbbfc20f4205c5bc31e530a97fbc2f00e69f6|2018-06-22|Michael Goerz|Reformatting for circuit algebra tests
+ab2cf245452b3a5963ec9398864f778ce96a357f|2018-06-22|Michael Goerz|Rename CircuitSymbol 'name' to 'label'
+8af7dd820b3ad1f7306d94bfe9413e1e804ed4f7|2018-06-21|Michael Goerz|Require cdim as kwarg for CircuitSymbol
+a626e791af608309a42fcb73441d869820312404|2018-06-21|Michael Goerz|Check validity of LocalSigma labels
+d77ebdd834c7bfbbf86025d2757963da5f022965|2018-06-21|Michael Goerz|Refactor and fix PauliX, PauliY, PauliZ
+776c6d7f0d1e616232d451a31ce840c0a2ed1d54|2018-06-20|Michael Goerz|Merge branch 'feature/hilbert-spaces' into develop
+741566a9dd64c750ed3487d2043f14e07f0179b5|2018-06-20|Michael Goerz|Documentation
+03d123b3d04dea647d8ad4c41359fdae29982ae1|2018-06-20|Michael Goerz|Test error conditions on SpinBasisKet
+c7f67f68faf5941ce9eac136267731b5c137427f|2018-06-20|Michael Goerz|Add test-module for spin algebra
+51f15204d8f26ee14c71da74c475761507bc329c|2018-06-20|Michael Goerz|Allow "up" and "down" labels for spins
+3f12f34181e814b44fd9e495aef3f16480d5ea57|2018-06-19|Michael Goerz|Allow custom basis labels for spin systems
+2d1478fc34bae9a501ebf1cae596eac31eb6b7e5|2018-06-19|Michael Goerz|Test that SpinSpace('s', spin='1/2') works
+2c506e2e15f795411b726d0f2a902af4fa4d887b|2018-06-19|Michael Goerz|Eliminiate FockSpace class
+8ecc077163e0fbd0de7d442b0769582d0408082d|2018-06-19|Michael Goerz|Restructuring
+ea3b9552245998cf1a82d6773c0507fd556247bc|2018-06-19|Michael Goerz|Define FockOperators, SpinOperators
+1ed2cbe0d27e5212e610868b045253688593f73c|2018-06-14|Michael Goerz|Define FockSpace and SpinSpace
+f8ddeea77037f8d9f0db9de5238b33c92828ad76|2018-06-14|Michael Goerz|Small refactoring
+1c19095368efd267fba2a835107a1faebc996da8|2018-06-14|Michael Goerz|Fix printing of IdxSym in SymPy
+cdce9908dbbfd6acaa65fda0927793f24d9c20d2|2018-06-14|Michael Goerz|Remove ABCD class
+d14755d35f9525e35f689ee06a4b0854e96adb2f|2018-06-14|Michael Goerz|Forward unknown methods to ScalarValue.val
+f6f29bc23797b5404dc0b593807e14d58d9488fa|2018-06-13|Michael Goerz|use ellipsis in sqrt doctest
+59032aa95fa13e0b2e91d3c52bb9c77e0833a524|2018-06-13|Michael Goerz|Allow Symbols to have scalar arguments
+079283e557cb2f9bc87fdd7ca3d66415c3e1a607|2018-06-06|Michael Goerz|Set LocalOperator properties through a decorator
+185cf74795dd21df0c7480792bc39d93e749e251|2018-06-05|Michael Goerz|Fix defunct circuit algebra test
+6a9ba39f51a057cd78ebeffd592531c855944567|2018-06-05|Michael Goerz|Add abstract derivative
+6f876e865aa6488c21499f441e44a97c435720d8|2018-06-02|Michael Goerz|Fix internal use of _diff instead of diff
+57dc1b09e80d7388aa8518845371680f0f96aad0|2018-06-02|Michael Goerz|Return zero from diff, not _diff
+05e296c4682e9e75b6a5eb6dac178f62880165ee|2018-06-02|Michael Goerz|Add all_symbols property
+8c9d1f34dae2fa55548a83841f54640d9b1d70fb|2018-05-24|Michael Goerz|Do not assume default constant Expression for diff
+4e59fa6f4e9f09a3f9d4fd8938645b5128085f55|2018-05-24|Michael Goerz|Fix handling of kwargs in _simplify_scalar
+349667995371dd38f070fc26b0de6cefceecaf9c|2018-05-22|Michael Goerz|Add Sum instantiator
+4c0273b38437302526457c90a142efd465d8addd|2018-05-21|Michael Goerz|Test equality and hashing of neutral elements
+1e5a83ba189401722fbed3657fb914d83a53332c|2018-05-21|Michael Goerz|Merge remote-tracking branch 'origin/develop'
+95e24c343e3818f1e8b1bee43934aed03eee8f55|2018-05-21|Michael Goerz|Implement scalar algebra
+986353166008dcddc3f752ef69ddfdf07939c0dc|2018-05-17|Michael Goerz|Add qdyn.__git_version__ attribute
+8401c530767314dfb6f3cc8dac170059e99ca1ba|2018-05-01|Michael Goerz|Create abstract_quantum_algebra module
+9facd498ca9c489dfe948dd5797ed43009dcc0d6|2018-04-26|Michael Goerz|Add sphinx_autodoc_typehints to RTD environment
+73355bffe238429a780b488a8db6ecdf868a3f62|2018-04-22|Michael Goerz|Major Restructuring
+f4b1260b08f063e8fa5117d7d9bc4d48a9815152|2018-04-21|Michael Goerz|Tweak Graphviz extension
+5fed088d352ad3afb038d06c96d2ae546dcf0ff4|2018-04-19|Michael Goerz|Use custom graphviz/inheritance_diagram extensions
+a6e0cf5c542ffe6fd2127f2d22c5739de2900a20|2018-04-19|Michael Goerz|scroll long math expressions in docs
+514c794142068d12d1d4e8876aad2eb3f93c9a92|2018-04-19|Michael Goerz|Use SVG for inheritance diagrams
+659a1c70ba3705fbdbbf145f0243a511fd06c806|2018-04-12|Michael Goerz|Extend "flat API" to entire package
+ea06af51022f1272c580f075e9f5f297781fda81|2018-04-12|Michael Goerz|Request to build latest PDF and Epub docs
+2c8f788036660f65591058b04ce73cfd7b139c66|2018-04-12|Michael Goerz|Refactor from algebra to utils
+62ec9b8b02760c7d9c051b734be40f31e5eef4ad|2018-04-12|Michael Goerz|Expose printing submodules
+531c494d0979638262fc9452bbe79b199d8538ae|2018-04-12|Michael Goerz|Remove copyright notices from test files
+eb8f539dc1e12a485b704d6768f6671ebf440c59|2018-04-12|Michael Goerz|Remove circuit_components
+84977e9950c7d393cd1f81a609fd1804bf492da4|2018-04-12|Michael Goerz|Remove copyright notices in all files
+ef63a1f2b7732d0da44de6bc33daab64be242bbb|2018-04-12|Michael Goerz|Fix RTD docs
+1cc9b415f66cc53fbaad149b57cd2501fe4a857b|2018-04-12|Michael Goerz|Extend flat API beyond algebra sub-module
+fe340c20fb19babe99d7a35693e8e6a16a6b11cc|2018-04-11|Michael Goerz|Eliminate misc sub-package
+b47e476e07eb492c3bf61dcbf9742d83d03ecf1c|2018-04-09|Michael Goerz|Remove conda-forge channel for rtd environment
+f2d66454911df4133a020792990eb6bd8c0506f8|2018-04-08|Michael Goerz|Directly edit with RTD "Edit on Github" links
+c6fd4e19b4e5ea805e5bceb39206b691a43c245b|2018-04-08|Michael Goerz|Fix "Edit on Github" links for documentation
+17fe82ba2aa0b2126bef44019854857e455546a9|2018-04-08|Michael Goerz|Add custom "breadcumbs" RTD template
+518f837a27cd4c9d9a2abe76271fc55bb6e0cdeb|2018-04-08|Michael Goerz|Add :autogenerated: tag to API templates
+8d47f6603411b76e84bcf84a41d83580c8c1a4c2|2018-04-08|Michael Goerz|Revert "List separate rtd packages in setup.py"
+df4b354255c3be2341bf0e18c01ae6238ba7673c|2018-04-08|Michael Goerz|List separate rtd packages in setup.py
+6a123ed318488e3bf60e9cd718a78858ef56abd8|2018-04-08|Michael Goerz|Revert "Don't use pip to install into RTD env"
+cc55fe4d789c32ee25436af4749a2d7d9bc6c2ad|2018-04-08|Michael Goerz|Don't use pip to install into RTD env
+a8f7e2deddeded041a702e305db6da64607209c5|2018-04-08|Michael Goerz|Don't list sphinx_rtd_theme in rtd_environment
+c9a1a2c9f3c78268dc90d035345dd7f6c32cfcd4|2018-04-07|Michael Goerz|Update intersphinx address for matplotlib
+0404715224e32c9a80168b7d796fb4edecea20f5|2018-04-07|Michael Goerz|Add logo to documentation
+d49add8b449fa4ebf6bfa793f46c8caa5ea8ffde|2018-04-07|Michael Goerz|Try to enforce latest version of rtd_theme
+bf3ed7c93b8bfcede27bc9ef7ad5f3a1698adf1d|2018-04-07|Michael Goerz|Remove search from RTD index page
+385398173ac6b003b5f9b0d49f728b67b558e106|2018-04-07|Michael Goerz|Show coverall badge for develop, not master
+ae03bcd58005a82fe542d0c94b3f63a4095f17da|2018-04-07|Michael Goerz|Merge 'origin/gh-pages' into develop
+72905fd83f742e4091f08286bf6e996b343b3aae|2018-04-07|Michael Goerz|Restructure package, and documentation
+163ddb113a6ce28af3fe5256cb9696c36a42245a|2018-04-06|Michael Goerz|Update better-apidoc in RTD environment
+7facfc32c4658e3892d6dc0a2276497ea2304a1a|2018-04-05|Michael Goerz|Adapt tests to pytest>=3.4
+3010e7812c79d5dd48ed783b8e94491846ba92e4|2018-04-05|Michael Goerz|Remove test for qnet.cc
+27f51c5f7180a0880883829a4217dd9458506f6b|2018-04-05|Michael Goerz|Remove requirements.txt
+63775ca941ad1925a5451c7c4b63cb7eae701fa8|2018-04-05|Michael Goerz|Remove qnet.cc shorthand module
+a2200fd72bb284066079fc269a26abee533e1b09|2018-04-01|Michael Goerz|remove misc.qsd_codegen and misc.trajectory_data
+cb9be58d151e11e434756830a32a84b585ab8fe7|2018-03-31|Michael Goerz|Bump version to 2.0.0-dev
+0ce12cca5d4c71f524cf5ab35705d3a50091a408|2018-03-31|Michael Goerz|Clean up documentation
+89ab866f9de99788fb95e4bc6e86bd4451f58c1c|2018-03-21|Michael Goerz|Excise QHDL
+d6acce467c767587e05f0aead026bf472bcbf41d|2018-03-21|Michael Goerz|Merge remote-tracking branch 'origin/develop' into develop
+5dd7c51e3608d6d8d856be33ef8309350d90267a|2018-03-21|Michael Goerz|Merge branch 'feature/indexed_sum' into develop
+703f4d750ab359e441d6ac9e2312616333fa5225|2017-12-21|Michael Goerz|Make qsd_codegen work for older version of SymPy
+b18dfb66b39f4e510f1773abbbad01aa2e85b5a8|2017-12-17|Michael Goerz|Test that norm can be recovered from IndexedSum
+64d2712711da6de547e5d99f3ca0e7f5586875af|2017-12-15|Michael Goerz|Implement Ket-Bra product of IndexedSum
+ef0c1bcdf73d37d8109d94eccda05fbb42b91cf0|2017-12-15|Michael Goerz|Implement Bra-Ket product of IndexedSum
+732cf0f034e8fac9082720c58229f7adbfb80e78|2017-12-14|Michael Goerz|Implement special op methods for IndexedSum
+3f09c64dfc822c34bd73a14f911c26e96d00fde1|2017-12-13|Michael Goerz|BasisKet.create(i, hs) -> ZeroKet if i not in hs
+b998b65112c0e8c5b90ca28d9d39c23732dd1783|2017-12-13|Michael Goerz|Implement partial expansion of indexed sums
+81fc78392d3a5e6da5c4cdfc3c86de7427e19236|2017-12-13|Michael Goerz|Fix printing issue with ScalarTimesExpression
+37f7fdd96042d964c34687fce25ef8658e1334e1|2017-12-13|Michael Goerz|rename IndexedSum.expand_sum method to `doit`
+4626522f64d91ecc3eaec0922d5573e7f47df2ba|2017-12-13|Michael Goerz|Define general ScalarTimesExpression, IndexedSum
+09b37223a542a41c265cf0fdea1efcf4df61c0ac|2017-12-12|Michael Goerz|Add KetIndexedSum.make_disjunct_indices
+3f5a030d82e48a4b41c58dfd84075501bb87b8e7|2017-12-11|Michael Goerz|Fix all_symbols/substitute for indexed expressions
+0a5be4b5f453326fe5850bd42b1fe013f7b46b05|2017-12-10|Michael Goerz|Add test for double sum
+87cb556ad02680f13098d48d36c8d20c0596f0e7|2017-12-10|Michael Goerz|Improve rendering of multi-sums and indexed symbols
+070faaa3255dabfc2b336086e85f7101721e45b1|2017-12-09|Michael Goerz|Add test_coherent_state
+c700ffb446aac15246251aaa50ee6147570ce176|2017-12-07|Michael Goerz|Add CoherentStateKet.to_fock_representation
+72075c0bec23682d2d2a4f0504ad16939e9472a7|2017-12-07|Michael Goerz|Implement IdxSym class
+89d41c7ed081f6d37645151fd9e5b64c756bb2de|2017-12-07|Michael Goerz|Implemented indexed sum of bras
+9983dd6d685ffd65dc6d5286be579a1455478472|2017-12-06|Michael Goerz|Extend and test use of symbolic state labels
+745930b1c24b1d4c5d4844bc9550a2c7e461542f|2017-12-06|Michael Goerz|Implement KetIndexedSum
+99fcc8748a6d7f4d3e8d8306ffc6894b9673898d|2017-12-04|Michael Goerz|Initialize printing for printing.rst doctest
+4066b5689229304a75b0fbdde91d02fbd3e4cd39|2017-12-04|Michael Goerz|Enable rst-doctests on Travis
+960597a946b03341dfba98e8245717fcb88710b3|2017-12-04|Michael Goerz|Activate automatic testing of *.rst files
+f5d759a9bbe844d616e82e621dcd2d773fe08297|2017-12-03|Michael Goerz|Add 'identifier' property to LocalOperators
+6682d2db85a1fa70a80964f479eaff2acf63604f|2017-12-03|Michael Goerz|Adapt to pytest 3.3.0
+e38f9ed99966174d57a5e6f23313947b326ba4bd|2017-12-02|Michael Goerz|Keep custom LocalOperator labels in LocalSpace
+e6ce9f52e04181a02206e423d4899a4f4e7cc8a5|2017-11-25|Michael Goerz|Fix automatic latex rendering in the notebook
+65bbb5f4d5ff74bd7756c11b2074462a3ca66aeb|2017-11-24|Michael Goerz|Merge branch 'feature/printing' into develop
+3659b770a9d620d397781046c4da03ee551b5023|2017-11-24|Michael Goerz|Allow to configure printing from INI file
+a4a2a7cc8b444e2842e5e4a0a0cc739b8c5c50e1|2017-11-23|Michael Goerz|Pass through sympy sub-printer settings
+09a985f7b8063a815b654c4fb861d9ddd1dbaa37|2017-11-22|Michael Goerz|Use space for product in unicode printing
+5f1ef35fcf278eb93436d5d0266ac0424908300e|2017-11-22|Michael Goerz|pep8
+46156c63decd0cdfa3e6aeb8962c981edc3f4c3f|2017-11-22|Michael Goerz|Documentation
+6070e4edb9b8f33d5dff75559cf89456fa53f708|2017-11-22|Michael Goerz|Rename tree printing functions
+5f9de2c48bba8675ff93a256e40fc53a925cacda|2017-11-22|Michael Goerz|Expose dotprint function in qnet.printing
+05f3be624058de4327e0795ebb9f8cf61b837996|2017-11-22|Michael Goerz|Rename settings
+2c250112a8914ec78908c37f477537695ecc6e42|2017-11-22|Michael Goerz|Reorganization / renaming
+415efffdf25e50349b0671455e2f007f16afbc4c|2017-11-22|Michael Goerz|Remove duplicate code
+2238279a55b25a17c5a25d6b9ca46bd7fc1b8667|2017-11-21|Michael Goerz|Fix doctests
+afbb321b51f857c88182f83b5444676b9d15b6bb|2017-11-21|Michael Goerz|Fix sorting in QSD codegen
+90873b873023e8dc0019c74f4a4a1da245e6d74c|2017-11-21|Michael Goerz|Don't unnecessarily pass 'adjoint' when printing superops
+2e79b030e472e81a52916a5fb711ee51de0001c7|2017-11-21|Michael Goerz|Fix unicode printing of Sympy symbols
+08ef65771d260210b6374ebeb7eabee0b0f6945f|2017-11-21|Michael Goerz|Fix some doctests
+babc8cd138ff7efca2ca5974f7db3597c2275b82|2017-11-21|Michael Goerz|Test Error for bogus print options
+942cbd30d541b5ba1ad70978984ef825c299baa4|2017-11-21|Michael Goerz|Make printing system configurable
+678c4a2f24af7171d6226323b05a4a11bb610a19|2017-11-21|Michael Goerz|Do not allow sympification of QNET Expressions
+5dd8cb97e24a94a97c660ae54e10753b1bb0516b|2017-11-20|Michael Goerz|Fix printing of circuit components
+5400214962a039927269005be79afc1b25480d3a|2017-11-20|Michael Goerz|Implement tree printing
+de91c08296838abdfafb43b9bcce70104377ca28|2017-11-20|Michael Goerz|Fix hashing problem with CoherentStateKet
+29dd3d9e94c4b23ba1555b9356d30387f3d5dead|2017-11-19|Michael Goerz|Latex printing
+33762f42e99f20603e0174012ff4e7b2cbc0923a|2017-11-18|Michael Goerz|Complete unicode printing
+a6ad6bd938f80abd388999d315f953c459ea04ff|2017-11-15|Michael Goerz|Implement unicode printing of algebra elements
+d7ab177cb376cdcaae50a6b79bc16dbc1812e21b|2017-11-11|Michael Goerz|Implement ascii-printing of Matrix
+c7649ce379777b8a2810050b73f45b72fee38d74|2017-11-11|Michael Goerz|Implement ascii-printing of superop algebra
+d66dd563ffb60ac1d0fff42954ca313955db9ff9|2017-11-10|Michael Goerz|Implement ascii-printing of state algebra
+687f8e39273f40c7083b657e6e101540181fcf22|2017-11-05|Michael Goerz|Implement ascii-printing of Hilbert space algebra
+1bcc28105d4a0e94b106cc1f92a14868f1ab18ac|2017-11-05|Michael Goerz|Implement ascii-printing of circuit algebra
+5e09876b1788fe2f89e124e2711912e85dfb3d87|2017-11-05|Michael Goerz|Implement ascii-printing of Operators
+136a55f831bec2cac76bfad6bda92122d18b9c26|2017-11-05|Michael Goerz|Implement ascii-printing of atomic Operators
+4a78853db2d71d7c324e52e5bdc98ca6dfd045c9|2017-11-04|Michael Goerz|Flatten out settings in print routines
+c67c6db810c5fad20ae5a7ceb4c0db64aa93b7a7|2017-11-04|Michael Goerz|Rename dot -> dotprint
+5070b8ab65ef7e7bc89ea698f9ab45bab28388e3|2017-11-04|Michael Goerz|Fix srepr printing
+3730e819f17ed701ee43c714ec437e93cff648d9|2017-11-04|Michael Goerz|Merge branch 'develop' into feature/printing
+6061d93f7102292bf6be78a3abfbb90978d04906|2017-11-04|Michael Goerz|Restructure printing system
+0ca4a298792e42274e7d5c1b3e480ed17c6d6fab|2017-11-03|Michael Goerz|Merge branch 'feature/named-rules' into develop
+f9a6926ac63a7f1da62382ece407bcfb9563be8a|2017-11-02|Michael Goerz|Add logging for creation of Expressions
+7b6227f72913ccf2b8f58f48ea3417e48ebea3b5|2017-11-02|Michael Goerz|Use named replacement rules
+d6f416c857574ae5c150e243c43e13f634bb6a1f|2017-10-30|Michael Goerz|Add tests for substitution
+beded50d857e901df78a7ee60a65a95063f5a8a9|2017-10-30|Michael Goerz|Try texlive-full installation
+3e917caa51caaf00be10bee9968f80184fe7eb8f|2017-10-30|Michael Goerz|Add test for adiabatic elimination
+d8c30cc9b9ccb1d0617c0720646fa1c8aa836adf|2017-10-30|Michael Goerz|Use max-norm in qutip conversion.
+c03944fcea4ef81064ebdb6f6476cdf9fe0eece1|2017-10-30|Michael Goerz|Prefer to use string labels in LocalSigma
+2097d0b1ece6af3e32dade2e58dcb0815af7c021|2017-10-30|Michael Goerz|Fix bug in raise_jk method of LocalSigma
+ffa4cf549410fc6c3992498ca6fa85725d03c269|2017-10-29|Michael Goerz|Fix substiture for Matrix instances
+bc94b7997fcb1e9674e64102cc67008adea903d8|2017-09-07|Michael Goerz|Fix incomplete expand for KetBra
+c1d74d3e76b449bfef1272638cf7201a1ebc67f1|2017-10-29|Michael Goerz|Fix wrong call in try_adiabatic_elimination
+c7f487d71809f4c027117538bf9b92683124efa7|2017-09-07|Michael Goerz|Add custom Sympy str and latex printers
+c114c49de5a1a7288b9e2d419b2459a888d18fc4|2017-09-06|Michael Goerz|Don't use tensor symbol for op products
+f3052ab43f8cff84bfb05d15046d56c7a6f5b443|2017-09-06|Michael Goerz|Add custom Sympy printer
+e60ee921983be3e3c530e19310fac42e8be608d5|2017-08-31|Michael Goerz|Merge pull request #58 from gitter-badger/gitter-badge
+c0ae6076c56d4e55e074a57ac4a742591e8cb106|2017-09-01|The Gitter Badger|Add Gitter badge
+c4494e39e087e8431b265e52314b675d5c186b64|2017-08-23|Michael Goerz|Fix LocalOperator being distinguishable by identifer
+d7f497c4a624dba0c62cfbb4889e9802d9ff6e04|2017-08-22|Michael Goerz|Fix qutip conversion of tensor kets
+895555961b6deb62d9e6e68db5ccfb2d92c1573f|2017-08-07|Daniel Wennberg|Catch series expansion around singularity
+c6beabffbf4d7a31ca5827492a4d6cf03b169a31|2017-08-07|Daniel Wennberg|Fix series expansion of ScalarTimesOperator vol. 2
+2991c67ce4c0aa586cc520ccde5e6e6a21373563|2017-08-02|Daniel Wennberg|Clean up iteration over Matrix elements
+6d27a87cf0b5cd0acae73122011c93dd1bc8f4ea|2017-08-02|Daniel Wennberg|Enforce operator valued elements in SLH triples
+25796eaba2b0190097f0dc2e06d487bfc9418a6a|2017-08-02|Daniel Wennberg|Use create method consistently in operator algebra
+432ebb8491cd572c9d56bb7dc8cd73b81d463ea3|2017-08-02|Daniel Wennberg|Let IdentityOperator compare equal to scalar 1
+6017e799f5fe0132aaa7c0a23c65fae8c9fd8b29|2017-08-01|Daniel Wennberg|Fix error in SLH feedback calculation
+1bf62b22079a883f6ce53aac92d2c57d2b965505|2017-07-31|Daniel Wennberg|Remove unnecessary __class__ invocations
+6514a77350b7303340410ee8e37f075698515ea0|2017-07-31|Daniel Wennberg|Remove hash inequality tests
+ab948a057e382bc05cf9defb137ede02b9149093|2017-07-31|Michael Goerz|Merge pull request #52 from Chronum94/patch-1
+d23d20263f4f702d1b0abe69f14e4e24347ba765|2017-07-30|Michael Goerz|Fix KetBra.expand method
+13529a6b82bd1c71abba64dc711817c32043cf54|2017-07-29|Michael Goerz|Separate Expression equality from hash
+53c983b0b9ae4013bec61d1dc3be86c74a4e2ae9|2017-07-05|Anubhab Haldar|Update circuit_component.rst
+1b98b35c70c33de901863cf7648639f54b9d865a|2017-05-23|Michael Goerz|Remove DEBUG code from dotprint test
+3969ad3cf503f48566de91df59739f88ca1227bb|2017-05-22|Michael Goerz|Add dot printer for expressions
+ee30cfaa54de326b04d63978a0c292f2d0c0e525|2017-05-12|Michael Goerz|Fix printing of complex numbers
+3edc64e5e63ce7890db3c0fa0adca171c03a1985|2017-05-12|Michael Goerz|Fix `create` method of IdentityOperator
+30add43dc63ceee521fc11e073de061e6da360c3|2017-05-12|Michael Goerz|Don't use sympy.nsimplify in printing
+a971249be0ee3bac3202ac409ad80fca2b8117d8|2017-05-11|Michael Goerz|Include Expression hash in pickle dump
+76b0410b110f8dcb5797322f339f597699195c2f|2017-05-11|Michael Goerz|Refactor Expression.create for better debugability
+d44fcd7e65ed18835d0e9a8e1e9b95052ac5ee7b|2017-05-10|Michael Goerz|Don't use ascii rendering for _order_key
+b5ad3f695b2f5dd179f06bb687ec8037057688bc|2017-05-10|Michael Goerz|Implement recursion-free simplify
+3cd480cfd02823608cefe1a7db194babf79e9657|2017-05-07|Michael Goerz|Add "toolbox" functions for Commutators
+aced3ba4745f868d56e63335f7e145e9b9fefcb8|2017-05-06|Michael Goerz|Add Commutator class
+c0089b42e6450eb25c2f0d7c1a0205ccbe1e8872|2017-05-06|Michael Goerz|Fix series expansion of ScalarTimesOperator
+72d8ffc4fc9365b92a20269b319aa7e96ab204c8|2017-05-06|Michael Goerz|Fix missing import in algebra.ordering
+8de9c1425d79f9f44895e4d51687eda333503b99|2017-04-15|Michael Goerz|PyX is now on PyPI
+706786c08743b50e3079b96ff6ae9ace5449b8f9|2017-04-11|Michael Goerz|Use custom matplotlibrc for testing
+d17ce9c2c3d043f363f608fb62f58fe01034ad79|2017-04-08|Michael Goerz|Fix broken default matplotlib backend
+55b5db6be8f50233ff7bd9f3e0de40608c1bf84e|2017-04-08|Michael Goerz|Don't install default packages from condaforge
+1e783480a8e987be9fe8c627ac8c1a51f9441723|2017-03-25|Michael Goerz|Allow to obtain basis states of Hilbert space
+868bdea06849fc68f985cc0100d685a32c68d579|2017-03-20|Michael Goerz|Improve error msg for invalid circuit feedback
+c2e2fb07991f898fa9b6f4bbc505017a8f149cbb|2017-03-19|Michael Goerz|Add expand_in_basis method to Operators
+040bf827f62a4bb14bdfc21cae4bfa3723cb62db|2017-03-18|Michael Goerz|Allow to obtain basis_states of Hilbert space
+f8368e12de63e8b08850b0c399f62973a5a159c2|2017-03-18|Michael Goerz|Print parentheses around "+ c.c." term in sum
+3d85c1726023a36db1dbbcf7aa89d38ccb680326|2017-03-18|Michael Goerz|Distinguish between basis states index and label
+b05f85c13db81f8193790684f5ce3b3a1d0e8ff9|2017-03-12|Michael Goerz|Document how to tell Sphinx about Singletons
+4e637b18c53cbee598ed58c3b7f7820dd54216db|2017-03-12|Michael Goerz|Fix documentation for SCALAR_TYPES
+5ec57342563a4aa5d895e5ee4afd108fb59d5682|2017-03-12|Michael Goerz|Update required better_apidoc version
+00fe51051d61a7b7c20985a0698e25343b1f6032|2017-03-12|Michael Goerz|Add autodoc support for singletons
+737a78fed1cc2598a130a4f6b58b627293666a78|2017-03-12|Michael Goerz|Add dummy SingletonType class
+2df9e3d8f5159bb86eaf0faddb725f3b601a2773|2017-03-12|Michael Goerz|Update required better_apidoc version
+9f1248d13c78c30a7dcc2e530e311503de3b9046|2017-03-12|Michael Goerz|Fix documentation links
+7ad3b20795c9c630048f77416578916c608587d7|2017-03-12|Michael Goerz|Add __name__ attribute to Singletons
+2e9eddef6afd490979d5eabc0657abeed447af32|2017-03-12|Michael Goerz|Subclass OperatorTrace from SingleOperatorOperation
+e6a14da437176693e436b1a1c6b8af9b19b66279|2017-03-12|Michael Goerz|Update intersphinx links
+64489ee586f67be6df7c5040f8dea771a11adf3d|2017-03-12|Michael Goerz|Update algebra overview
+0127365614fab51e67d25a024d5bb3ee48bc9747|2017-03-11|Michael Goerz|Define scalar_types in separate module
+8cb1775396b1ceab69a498001cef33d063344f9d|2017-03-11|Michael Goerz|Proper handling of instance attribs in Sphinx
+6a115ec3c06d779f39e5fc6ebdb2d2b974de6b56|2017-03-10|Michael Goerz|Set navigation-depth to 4
+0c473f83bca14f12283a6938699569587b665a69|2017-03-10|Michael Goerz|Add better_apidoc to RTD env
+5951d872c9ecf773c3eae84547f774f827ab432b|2017-03-10|Michael Goerz|Generate API doc automatically
+67f1fde240affafcbf8e3661b4da5b77025f5595|2017-03-10|Michael Goerz|use setuptools.find_packages
+45ed264a00e3612fed3b1a1f7c05c8515de42af5|2017-03-10|Michael Goerz|Add RTD yaml configuration
+814c165f2d93c704c2e7cd4aae0a0b11759801f4|2017-03-10|Michael Goerz|Restore latex via apt-get on travis
+049859ae5d0d95683de9ebd69d26beae2a2c2139|2017-03-10|Michael Goerz|List available bins in travis test-env
+226a154dd034277e0bf260f944aee2984d386de0|2017-03-10|Michael Goerz|debug travis texlive failure
+93862b03ec2ea2cd3e355fa2a3930a78dd9f6f7c|2017-03-10|Michael Goerz|Try to use conda texlive on Travis
+7c0639b2e14ccd806780f8f6b82a174ce7ab80d4|2017-03-10|Michael Goerz|Fix some links in the doc index page
+6260485cc1c9ae8cd98192b80475f8f92861fec8|2017-03-08|Michael Goerz|Define SPHINXAPIDOC from .venv
+b29ce8913216e6fa2f09054495edc6feaa3015d5|2017-03-08|Michael Goerz|Attempt to fix get_leaf_modules
+ecbd424273869ac62ea57d9c9d17523b1ab60f50|2017-03-08|Michael Goerz|Don't make parser__CircuitExpressionParser_parsetab available
+dca78f4a7a38a5fbfce7544c78728ff013a06e7e|2017-03-08|Michael Goerz|add test for get_leaf_modules
+5244ecaef5d8e80c5ca72c2978ba4b86ff103212|2017-03-08|Michael Goerz|Drop support for Python 3.3
+52c9d6ace850400d83a42b7139a31f181b125efa|2017-03-08|Michael Goerz|Allow to import qnet without qutip installed
+59f57c8e9b94084f6f7548d10ecc6ab83ea7afb6|2017-03-08|Michael Goerz|Remove import of parser__CircuitExpressionParser_parsetab
+101117e836713c28d3091477eb67e0f6cf758138|2017-03-08|Michael Goerz|Don't make docs on Travis
+9fdedef04c1304da6d8e94fd5c5e165a275720a9|2017-03-08|Michael Goerz|Do not import qnet in setup.py
+6b79798c9570e6274e4037df1c4d000203646730|2017-03-08|Michael Goerz|Implement "flat" API
+3a31417ce2f4413473dba1a26c41fee8ea0dcfb1|2017-03-08|Michael Goerz|use better-apidoc
+ac78b40a2e8290592598f61d92addbda2958ddf3|2017-03-05|Michael Goerz|Better error msg when symbols in SLH->qutip
+9697dec804783ac42304415900676fa74703f156|2017-03-05|Michael Goerz|Add test for move_drive_to_H for "passive" circuits
+81da631156005c7d0a892225aab228e86f2a3319|2017-03-05|Michael Goerz|Avoid inhomogeneities SLH->qutip conversion
+64610ee98217519f5b2a65c78ac1eae37e408e75|2017-03-05|Michael Goerz|Fix import of unittest.mock
+95b0a458dda2f28de0400f76e9f9f7637bad4df3|2017-03-05|Michael Goerz|Return orig slh if no drive in move_drive_to_H
+8b38f3a021134c9a24c9bd951d180354176cefed|2017-03-04|Michael Goerz|Merge branch 'feature/doc' into develop
+21ef9740626f0508ca939f73919fc575a2d51b1d|2017-03-04|Michael Goerz|Indicate dropped support for Python 2 in docs
+2c42dcb2c99b2a11c052ea783f57af6eb797d909|2017-03-04|Michael Goerz|Fix various rst errors in docstrings
+b90efb159c236d2bf92f5d643f05ba5f1723c0fd|2017-03-04|Michael Goerz|Customize mathjax
+3b7e89cc99d6e4a3b5cde46fe262d613ef4afcb2|2017-03-04|Michael Goerz|Fix import errors during doc generation
+3efbdd51558047cf976930f106883b5a4eb53ba4|2017-03-04|Michael Goerz|Remove manual headers from module docstrings
+5d1586581c0827c6dcbbc5bb0b091e0a379255ee|2017-03-04|Michael Goerz|Switch doc theme, auto-generate API
+29c5b7f394e7db4f269eb6cfb0b64866a721089a|2017-03-04|Michael Goerz|Add test for move_drive_to_H routine
+b2af67cda6740a5e6c36a05a6d4d3bdaf0955235|2017-02-28|Michael Goerz|Extend documentation on OperatorPlusMinusCC
+0411f24af7d09a1ad1e7b5555ccb4407cf6d01d8|2017-02-27|Michael Goerz|Fix substitute method for Singletons
+121213508c6ae16b01de068ebf88dbb329ea4aa3|2017-02-27|Michael Goerz|Fix wrong OperatorSymbol instantiations in SLH methods
+f0eed73e911b8a54c20685976c952047029203d6|2017-02-08|Michael Goerz|Preserve custom identifiers in Adjoint
+703d4d7ec74e5f41b1e43dd660ae37ae1eadcd69|2017-02-02|Michael Goerz|Merge branch 'feature/qutip-check-hs' into develop
+1294c0cf1e5b45099c45b16333a772ac6a25d463|2017-02-02|Michael Goerz|Test qutip conversion of TrivialSpace objects
+0506b82b146063207a311c432e784359cd280b37|2017-02-02|Michael Goerz|Catch TrivialSpace in qutip conversion
+620af14d13e48f4267e97a441e343f5cfd88b6bc|2017-02-02|Michael Goerz|Fix error msg for unknown dim/basis of HS
+bc5833da6cd37ab55beaf1b77ff1edcc9ac36dbe|2017-02-02|Michael Goerz|Improve error msg why `convert_to_qutip(slh)` fails
+e716061b3804f88094ba041201697991c93ca847|2017-01-27|Michael Goerz|Catch singularities in FB reduction
+8db56c1f694753d6f1c706aae2c8b8fea539ea5a|2017-01-26|Michael Goerz|Add `Ls` property to SLH (Lindblad ops as list)
+f813dd78d817afcc2f10127ec5e1aefdea0b9f89|2017-01-18|Michael Goerz|Fix substitution of circuit components
+d3dadc89af83cdb80e64da91bca5f1e9bce0602a|2017-01-05|Michael Goerz|Try to fix YAML syntax error in .travis.yml
+3517f472343b37f052c8e461c2da81e9a007d219|2017-01-05|Michael Goerz|Update travis config for new qutip
+4c38bcb4ee955afa4f1ec9523a05e0ef2681096b|2017-01-05|Michael Goerz|Adapt to new qutip release
+c5ed02f7906d8320b9870db9ab619c65a25d6e71|2017-01-04|Michael Goerz|Add implicit_tensor option to init_printing
+4207ac716fcc0f4d03bc96b3274a24f74a144eed|2016-12-20|Michael Goerz|Add 'is_zero' property to matrices
+5ed5fbc2967997eea64d9f663fed77f86edd57db|2016-12-18|Michael Goerz|Collect operator ordering code in new module
+7358155997335b30eea34f013e8ead207d4d58e5|2016-12-18|Michael Goerz|Remove some Python 2 packages from setup.py
+13d6c622c79fa7d5c497c6fa3b184c055e22944c|2016-12-18|Michael Goerz|Add pytest-xdist requirement, for future parallelization of tests.
+95837c00344b7ce05b46758875b027553b1f8ef4|2016-12-18|Michael Goerz|Reimplement operator ordering
+a1f0e7ec8f2753762144fe30a37c2cb31b26b4c3|2016-12-14|Michael Goerz|Improve rendering of sums and products
+f50aef47168c4058c77af9400df9dc21e3c39d29|2016-12-12|Michael Goerz|Fix _delegate_to_method and Adjoint creation
+8f8fe9069d2a8b60fa5f0df43b7db18024a876b6|2016-12-02|Michael Goerz|Add OperatohhhPlusMinusCC
+85a47cb7796e5f1761363ff8c380461b4efdea6b|2016-12-02|Michael Goerz|Fix test for new tree format
+67c07d4253fe9154261641b2a99cc3434944a3ba|2016-12-02|Michael Goerz|Add click to dev requirements
+c85ff14caaeba43ada87839388fcd7bd84c455d2|2016-12-02|Michael Goerz|Avoid long lines in tree printer through ellipses
+05d4a61fbe511dc6adc7f26e02f9177f03e89f45|2016-12-01|Michael Goerz|Match ProtoExpr in patterns from pattern_head
+c36c603e01b2070cb4c14b05d0b5bb6999e4a09a|2016-12-01|Michael Goerz|Make ProtoExpr hashable
+e4b65951551e74d8508d19ff160621a5dd674d84|2016-12-01|Michael Goerz|Implement findall method for Patterns
+7de4b7ea9bc2d9e8cf324232e600a0d28dd80d06|2016-12-01|Michael Goerz|Add simplify routine
+f6f1917534f093bd287813c83cd49811f448b77f|2016-11-30|Michael Goerz|Add context mgr for controlling creation rules
+140f079c71dc1c6d4034aa9e194bf249cf94f05b|2016-11-30|Michael Goerz|Add context mgr to control instance caching
+3755f05c3e961f8832db4ab15d4bfcc2d1e1effd|2016-11-29|Michael Goerz|Verify "identical" subcomponents can be told apart
+088496a9981f0b246ca46c0a21749474ad5426bf|2016-11-29|Michael Goerz|Fix kwargs for circuit components
+19a7db72270bdfc3ec5e79887a6ac7923454b6bc|2016-11-29|Michael Goerz|Restore testing all circuit components
+60358e19568752ccdeaa2a46e543ab2b654a605b|2016-11-29|Michael Goerz|Allow to register expressions in Printers
+9319a442ca9c938cdfb043308a1a4ebaf1b1d52a|2016-11-28|Michael Goerz|Give Feedback I/O ports as kwargs, not operands
+84bb9ddf56a4200a52676f5e2b0f4ede5e3aa669|2016-11-28|Michael Goerz|Merge branch 'feature/printing' into develop
+94b401e1c7310a3f7fffca22f24e4e18180762e9|2016-11-28|Michael Goerz|Add 'indented' option to `srepr`
+801a810852f3817bc004fc211d3d350e984eb794|2016-11-27|Michael Goerz|Implement new printing system, refactor algebra
+a617b257a880347708e1af39c1ef00fcbc6e0de6|2016-11-13|Michael Goerz|Separate out matrix_algebra module
+154596d1d1e096d6de03be8c4ba2e17804c917c3|2016-11-12|Michael Goerz|Move singleton definition to separate module
+41243ca8290c5a3925115cec1f96de528a843c23|2016-11-11|Michael Goerz|Revert "Add missing recursion anchor in _match_replace_binary_combine"
+dcf6da1d7e3fdad46eea440ebeb032808f7c2874|2016-11-11|Michael Goerz|Add missing recursion anchor in _match_replace_binary_combine
+8ffd5833656749126507876efda0083db07189fb|2016-11-10|Michael Goerz|Include trailing filter_neutral in match_replace_binary
+28aa1128c9f2e53a4c6255600bf80353f1e4887e|2016-11-10|Michael Goerz|Use divide & conquer algorithm for binary matching
+8642ffe1fdc06edcc6fb648929be1cf41836e131|2016-11-10|Michael Goerz|Cache the results of create method
+073cac0d7407df487d318585cea6a1dfb49aa005|2016-11-10|Michael Goerz|Reimplement Singletons
+7832f10b154ed653f60fbd9c9943be9ad289fda1|2016-11-09|Michael Goerz|Improve str of Operator expressions
+da9a189b5645da7feef37c9aa2a42f67cf676841|2016-11-07|Michael Goerz|Make Hilbert spaces immutable
+0c3487f2bcb0df56926b4b9b45f2be0b91f2e887|2016-11-07|Michael Goerz|Do substitution also in kwargs of Expression
+f755a6aa5a8af11d4c73b2560ac22aa75f943e29|2016-11-07|Michael Goerz|Fix doctests
+9cd732e0dd8d452cb49a7462b0ccb6216851ea2b|2016-11-07|Michael Goerz|Fix Python3 incompatibility in pad_with_identity
+0dd2a6be9091fb790f85b2f44b776644bb63f06a|2016-11-07|Michael Goerz|Ensure X << X.series_inverse() gives identity
+099e5b0811c05b0170a335c6d244cd94184aea6b|2016-11-07|Michael Goerz|Refer to components directly in connect
+5348e6385f73640a5aa5ee58f82db8ea212205fb|2016-11-07|Michael Goerz|Reflect change to Python 3 in README
+ad150f7dd346e039cd344301f0ff64a21672bf58|2016-11-07|Michael Goerz|Merge branch 'feature/algebra_rules' into develop
+9f03ba71697c3763fd20659b36735702cfd95d11|2016-11-07|Michael Goerz|Major refactoring of algebra code
+909fdd1535b5be5dc573dbfbad2ab27175102bd4|2016-11-07|Michael Goerz|Drop Python 2 support
+484a020be02a5a313b771c06fcce49870f6fda7b|2016-10-20|Michael Goerz|Merge remote-tracking branch 'origin/develop' into develop
+b249f7c4194a5a0cf211bb39d066aaf3943ec848|2016-10-20|Michael Goerz|Merge branch 'feature/convert' into develop
+1044bed69d4a31efc1e237fee0c6c3de83e77793|2016-10-20|Michael Goerz|Do all qutip conversion in convert.to_qutip module
+d2f8c8efcb78957971035daaff7f5c5d18d33e1e|2016-10-19|Nikolas Tezak|added template
+96d45412773017f05d47791da119d35327e2b063|2016-10-19|Nikolas Tezak|fixed py2->3 error :
+387504f57e0d98c10ea7827ca28229e2619d1170|2016-10-19|Nikolas Tezak|fixed py2->3 error :
+27c49b91191f44fe78a5ef49f8d9c311d3972350|2016-10-19|Nikolas Tezak|fixed py2->3 error :
+b761a39d64d3ab86d0d76776fc4428b7e742ac93|2016-10-19|Nikolas Tezak|Merge branch 'develop' of github.com:mabuchilab/QNET into develop
+a7074124a437161a26a250c83ea31515b14ee687|2016-10-19|Nikolas Tezak|fixed print statement in parse_qhdl.ph
+483b415c6b12c22918c86b05620716e1dc01853d|2016-09-17|Michael Goerz|Fix tensor product in convert_to_sympy_matrix
+91644524a4f96402d409730ab858f15e610c2ab8|2016-09-17|Michael Goerz|Fix LocalSigma -> Sympy conversion
+61be602c1a6463e40ba729edea66ed8699666ac0|2016-07-22|Nikolas Tezak|Merge branch 'release/v1.4.3' into develop
+774a7b6b25b8796aad1ba834653eedc3ac1c57c2|2016-07-22|Nikolas Tezak|bumped version
+d869b80f0b7a7ab359427a6931ee3f909bd42a69|2016-07-22|Nikolas Tezak|fixed test
+b3c7e8cce77ae1f2ceb8f4b671a97e20ae1c53d8|2016-07-22|Nikolas Tezak|Merge branch 'release/v1.4.2' into develop
+cfa02b060da114c5981a77c212cffb7f9ee98c8c|2016-07-22|Nikolas Tezak|bumped version
+01bd1b245462ee4a95f9f07897fc8ed9a13e9310|2016-07-22|Nikolas Tezak|modified represent_symbols_as
+6b463a9bcf6c98b0372d7ab2bfef4f6492500488|2016-06-06|Nikolas Tezak|fixed naming bug
+24d4cfebb2285c52c187a9243d83903518b4b9a0|2016-06-01|Nikolas Tezak|Merge branch 'develop' of github.com:mabuchilab/QNET into develop
+3844a15e6377e9619e03ea66229091aea60987db|2016-06-01|Nikolas Tezak|fixed parentheses bug when printing (using str())  expressions with nested sums of operators
+35d6c2c0bd1c2761040793640e5541916f7737a6|2016-06-01|Nikolas Tezak|fixed parentheses bug when printing latex expressions with nested sums of operators
+2e36b44e828f933a3fbd769b649e8fc079da6386|2016-05-08|Michael Goerz|Move to_sympy_matrix module from misc to convert
+94da63880b02671dbd5b69c5875f812a7ca5cc4f|2016-05-04|Michael Goerz|Attempt to force texlive installation on Travis
+85a0aa453e552e65aea02f3364fff59d81ca841c|2016-05-04|Michael Goerz|Utilize multiple cores when averaging trajectories
+8e30bcd6cc0b5951d61f92817dedac0bdfe40ef0|2016-05-03|Michael Goerz|Convert QNET expressions to sympy matrices
+bacf29a3c4ebaf6eed804faa7a7ed9c4a5395339|2016-04-23|Nikolas Tezak|fleshed out tests for symbol->qutip conversion to ensure that it works inside nested expressions
+daa52b377c04ea39efc361c028e21b13fa2df75a|2016-04-23|Nikolas Tezak|Added a method to define custom qutip conversion routines for OperatorSymbol objects
+fcd7dad72456968081699097ec07ff14919c7b6d|2016-04-22|Nikolas Tezak|fixed definition of how spin basis indices are interpreted
+765c0f9d5ae593ceea6ed124eb93ad4a965fe6bd|2016-04-22|Nikolas Tezak|tried to clean up some mixed convention docstrings
+d880d648aed7c68e1b0b70763eca525ecb7404e4|2016-04-22|Nikolas Tezak|Merge branch 'develop' of github.com:mabuchilab/QNET into develop
+c757f49fb17fedac595cbd9cc3f69992c82c6eea|2016-04-22|Nikolas Tezak|improved hashing such that it does not lead to problems when pickling objects
+315ca99716699977b48fe9694a9df1f9d8191f5c|2016-04-20|Michael Goerz|[QSD] Avoid repeating seeds
+bcd527642ed22f8d45f48bcc91fc353ab39b079f|2016-04-02|Michael Goerz|Activate coverage
+aac5f54dab22c77923e6b4e5c23455f52a96d2f8|2016-04-02|Michael Goerz|Moved tests out of qnet package
+f8164e356ef8fdae2102098c6368630e2004beb2|2016-04-02|Michael Goerz|Merge branch 'feature/timedep' into develop
+cc97aca628169be3b8bfee66da9022f7d7d48cee|2016-04-02|Michael Goerz|Fix qutip converstion test
+8745a74be290e97652b6b0f8c9891b0db21d3b45|2016-04-02|Michael Goerz|Add test for time-dependent Hamiltonian
+9e8f375867279dd79c25a1dbddc2aa57a779f994|2016-04-02|Michael Goerz|Fix pyfunc signature in _time_dependent_to_qutip
+9980577d711c0560008230df5802960b57b1198a|2016-04-02|Michael Goerz|Update tests
+fdf77d4727940ba313529dd9e3a258f85c692319|2016-04-02|Michael Goerz|Fix code generation for time-dependen functions
+38cc739967f170500aa13dd70e2720867f5f214e|2016-04-02|Michael Goerz|Make compilation more debuggable
+d0bbef78f4e2aa9b88a50239ebcff69a0c06d563|2016-04-02|Michael Goerz|Fix  _scalar_str method
+930db2f8141f1c2f850cde207b000bd278955170|2016-03-30|Michael Goerz|Fix Python 2 problem
+4ec0536ced468dc2115eb57ecb99dec5dc3fa2d3|2016-03-30|Michael Goerz|Add time_symbol, convert_as to HL_to_qutip method
+d864644a88e561d2cf5e73a8f61a5da94b326c7e|2016-03-29|Michael Goerz|Error of Hamiltonian is too complex for qutip
+a1f46acc4bad931a7dad4477858f7afd2cfeb1a1|2016-03-28|Michael Goerz|Update test for time-dep qutip conversion
+4d82aa122dca347858f3c926b29c6cab282d48e5|2016-03-28|Michael Goerz|Always specify full_space in qutip conversion
+9c78e81099d962f4308d9761a532330da8bd5093|2016-03-28|Michael Goerz|Raise error if converting TrivialSpace identidty to qutip
+e5b57c037f75150cd68e499c0bf1bddb8b45f8d0|2016-03-27|Michael Goerz|Tweak _time_dependent_to_qutip
+d7f740eb9aaa8ef4282070c76695322f0a9c61d0|2016-03-21|Michael Goerz|Fix imports
+67c8101dc9e2838f4366efd1b8f7bebfb3c5690c|2016-03-21|Michael Goerz|Add _time_dependent_to_qutip routine
+be8fc06f9337ec0bd6f8b8259699a5292729738e|2016-03-21|Michael Goerz|Take into account time-dep coeffs in operator_str
+16787733247f996abeeb49f7562c53347ffe941f|2016-03-21|Michael Goerz|Add time-dependent function to QSD program
+a00eeeb169f508c23dd0cfb81b132e52ca9d10a6|2016-03-20|Michael Goerz|Add time_symbol parameter/attrib to QSDCodeGen
+a0058a08560b1008fea99ea7df63767bde87dc08|2016-03-20|Michael Goerz|Move QSD {PARAMETERS} to define params as global
+484f83495137b2d88b5ebe7391d5b89eae173577|2016-03-16|Michael Goerz|Merge branch 'feature/qsd-parallel' into develop
+6c46543ba5401985d1dc27f7c54fa27e0b97e82f|2016-03-08|Michael Goerz|Improve robustness of QSDCodeGen.run_delayed
+a94bf667647b6883b92c47d5ac426c2e9cf0e608|2016-03-07|Michael Goerz|Fix wrong variable name
+bce3d06ba647046daec5de3ed92618d143e1f26e|2016-03-02|Michael Goerz|Don't crash in qsd workers if folders already exist
+c711310fd4bfdaac36a098f0ea202c734493eaae|2016-03-01|Michael Goerz|Average parallel trajectories in one swoop
+3d953aa7785326d7dafaaecaf8097e2510e3061b|2016-03-01|Michael Goerz|Allow passing multiple args to TrajectoryData.extend
+eeab6950e0f2a1bbec357b351714b947d4ce0f85|2016-02-29|Nikolas Tezak|Merge branch 'develop' of github.com:mabuchilab/QNET into develop
+f19f7c537dac8f10d2264089019d2a79664106fa|2016-02-29|Nikolas Tezak|fixed python3 related bug (range(x) != list(range(x))) that arises the dimension of a hilbert space
+9456f9d11c20075e1af0e5aece4777ae3ea1abc3|2016-02-23|Michael Goerz|Improve documentation
+eea40d2f7ba1da78d25984a7771d88591ec54467|2016-02-23|Michael Goerz|Allow for remote compilation
+f06ffc1a2e86fa492681416a8144955ce38ded0f|2016-02-23|Michael Goerz|Fix test
+3c622deef32d3b5a3709b534a0a4d7322aa5ae97|2016-02-23|Michael Goerz|Add QSDCodeGen.run_delayed
+1fedf46ac5c0a439d270f615d269a9b2ede8188e|2016-02-23|Michael Goerz|Add `delay` option to QSDCodeGen.run
+b22fe6a068399b538bc5f9fa3abf24461c12f66e|2016-02-13|Michael Goerz|Revert TEST options
+4b13911f8b00a0f840dbc4275e768e0dcb65545d|2016-02-12|Michael Goerz|Use google-style docstrings in QSD related modules
+4f7803a2901d771b8cec889604de99f208790a5d|2016-02-12|Michael Goerz|Activate instersphinx mappings
+0b8c854d1be2b8a61715cfbbf497edb111e26713|2016-02-12|Michael Goerz|Avoid :param: for Google-style docstrings
+9e549d7767a1e6dd68bccb2398ffed24dfd50df3|2016-02-12|Michael Goerz|Clean documentation with 'make clean'
+27ec89f29cd8a4442858bd97d440e93cd1647dc3|2016-02-12|Michael Goerz|Activate nickpicky option
+505e6e3c5e311c45c5e80ccd917c9eb65aa2e910|2016-02-11|Michael Goerz|Enable napoleon Sphinx extension
+404b75053295cfe392e0117616999a09704331f3|2016-02-12|Nikolas Tezak|added tests for differentiation and did some debugging
+0ae1f540c06ef35e5e1eee58dd48897180295cb9|2016-02-12|Nikolas Tezak|Merge branch 'develop' of github.com:mabuchilab/QNET into develop
+2dead3733bb0e2cdf13707d06c6eb74fcf27199d|2016-02-12|Nikolas Tezak|Added capability to symbolically differentiate Operator expressions by scalar parameters. This assumes that the operator is defined (complex) analytically in the parameter of interest, i.e., nothing fancy is done
+24e91227ba7a6a435cc007e9d885431fa5362de3|2016-02-10|Nikolas Tezak|Update requirements.txt
+b0c2ce73316c73ffea2b84aa00d296f8bcce7123|2016-02-09|Michael Goerz|Revert mocking sympy
+5e2b75490fe49dfc83cf9eab27c2a50e6121d558|2016-02-09|Michael Goerz|Add 'sympy.printing' to mocked packages for autodoc
+f2a9508af7b298d30a6bca2308c4ee1824ebe36c|2016-02-09|Michael Goerz|Add 'sympy' to mocked packages for autodoc
+78bdd46a69ea347e5959740fe6c72590376a8360|2016-02-09|Michael Goerz|Mock missing packages in doc generation
+b2ccb1ae3d1146f3fe640a5f909bff6d4524a9e5|2016-02-09|Michael Goerz|Allow to create tgz of doc with `make doc`
+e0ce96c843f1ad0fc9e49ac2622025b0bd10d898|2016-02-09|Michael Goerz|Fix syntax error in .travis.yml
+e78d24feb928bd08b469db9fa1599142c23dc997|2016-02-09|Michael Goerz|Debug which sphinx executables are used on Travis
+59b977559307fbbab0d3fd35cb0b04a7dd541dc0|2016-02-09|Michael Goerz|Make documentation as part of testing
+0e31e3a56bcb090cbb16b833bd5fa8a675b94c63|2016-02-09|Michael Goerz|Try to use stdlib mock module
+6222efd184b71cfbf93ad17961f7846e43a824e0|2016-02-04|Michael Goerz|Ensure numeric basis states in LocalSigma -> QSD
+b07a3ac84f1d2c723cb85e00b7756a8eff4c16b2|2016-02-04|Michael Goerz|Require defined basis for all QSD Hilbert spaces
+aa0230632204a91431fddf9d8242292956bd8ba6|2016-02-04|Michael Goerz|Better error for op not in circuit's Hilbert space
+be41ccc92fff8774eb1fcc5eec65d811b45fdbe5|2016-01-28|Nikolas Tezak|Merge branch 'develop' of github.com:mabuchilab/QNET into develop
+0ff8f2443eab0cde16b26d055b96c85e13bf4bc3|2016-01-28|Nikolas Tezak|Merge branch 'release/v1.4.1' into develop
+09777950eb88c63c6c2354b6ee1946def243b44f|2016-01-28|Nikolas Tezak|bumped version number
+bb6d58de4587898e37c900f1b90816e49c329719|2016-01-28|Nikolas Tezak|Update README.rst
+6f165ebf46834bdee1bd908071478bd206eed0b3|2016-01-28|Nikolas Tezak|un-mocking six package
+76a2b7bd2d284ad85c5cc5957c2f2958548641ab|2016-01-28|Nikolas Tezak|trying to get docs to build
+fc42b8ab99c0d3c8e94c986d598d751f6b15cc94|2016-01-28|Nikolas Tezak|Trying to use mock package to ensure docs can compile on readthedocs.org
+6d5cce01863dff808ced667338ef599885f286ff|2016-01-28|Nikolas Tezak|Merge branch 'release/v1.4.0' into develop
+ebda6337d0067701cde255caf308a616837f4bf2|2016-01-28|Nikolas Tezak|bumped version number
+fbefe7480c6d20bf4b398ef0a3dcc7da581e0bdb|2016-01-28|Nikolas Tezak|Made the Sphinx documentation import the correct version number and adjusted copyright string. Fixes #13.
+3302b44552422a390e9860a9d499a32c43a16243|2016-01-28|Nikolas Tezak|Merged changes
+ee18168352c8b648b7678cf3ee34e7bb4e24f7d3|2016-01-28|Nikolas Tezak|Added symbolic operators representing Spin degrees of freedom.
+1b963b1bfd81bc325b4bee3c4e3c61e9537f6d1b|2015-12-23|Michael Goerz|Use sanitized symbol names everywhere
+bb539187904ad53c32cd5ef050e0e8cebe48b044|2015-12-23|Michael Goerz|Fix typo in variable name
+bb71b1b18b802fb6c7721158a01fe0162db2e4d3|2015-12-23|Michael Goerz|Install dev requirements in local test envs
+70ab01b1890c9145826a24f2eaed82c548d4dad1|2015-12-23|Michael Goerz|Merge branch 'feature/qsd_sanisyms' into develop
+3e4b3511c06656d261942c49cb0769a21fcdd9a2|2015-12-23|Michael Goerz|Sanitize variable names for symbols
+745693aa60d2ff2d68836ca55558592f02c43da4|2015-12-23|Michael Goerz|Add test illustrating issue #15
+ac21d2a89fc4b918e8c05fa08dddff57a91a0a72|2015-12-20|Michael Goerz|Merge branch 'feature/QSDcodegen' into develop
+18a237c48fda169b9c68a70d285513c4c5105068|2015-12-19|Michael Goerz|Add test for QSDCodegen run method
+27b587b9178758da8de98ee8d7f3692649479991|2015-12-19|Michael Goerz|Check for unique seed in QSDCodegen run method
+a961e11c5b3666f2504cf2a0d46028b5957cb9bf|2015-12-18|Michael Goerz|Fix doctest
+e387d60e27e39ca677226526c7f704285553cc8b|2015-12-18|Michael Goerz|Refactor tests to use testing_tools
+cdc8b7a6561d14748425b42c3e5a1a85509ffa18|2015-12-18|Michael Goerz|Add testing_tools module with proto-fixtures
+af6b7b781e20a76df9367e5f81e90ba1fa284730|2015-12-18|Michael Goerz|Add mock package as dev dependency
+edfc8abddbd706ab7bd4648e95c2c06694bf20f1|2015-12-18|Michael Goerz|Add test for compile method
+8280636464edb5398a8925650ef69bad2e4b3449|2015-12-18|Michael Goerz|Fix compile_cmd property
+6d1ab4fca917c88d9cba2af4ec94b00bfd2e7184|2015-12-18|Michael Goerz|Correct checks in compile method
+72884226e1c76e4000be88fc9ffcf857166e2fca|2015-12-18|Michael Goerz|Add accumulated traj_data attribute
+83adc549bb26cf886f165bec6e41c63794ad5b63|2015-12-18|Michael Goerz|Add missing data files for test
+50245a4f5c1a3d8669230ccfa7918d5931b5e8d7|2015-12-18|Michael Goerz|Avoid Python2 scoping bug
+cc54468f5b0c2e9bfa70bdf345d0d1e8ea083ade|2015-12-17|Michael Goerz|Add test for qsd_run_worker
+43add5014432a54dc916c7f8975ab20776422f02|2015-12-17|Michael Goerz|Move 'keep' option to qsd_run_worker
+339a8ae0215a340fe448eb16dc3eff197e7d3da3|2015-12-17|Michael Goerz|Add and use qsd_run_worker
+fc6f4adac3e496b22f363586b019ca8938511c4b|2015-12-17|Michael Goerz|Allow TrajectoryData.extend same seed, other ops
+238cbd0176e79cacee94714e49d7fb51ed7c1978|2015-12-16|Michael Goerz|Fix typo
+3b821caa94b27a71c1d25276a628dee9e2b5cd53|2015-12-16|Michael Goerz|Install dev dependencies into test env
+c463732b634787b1683e7ccbef8ab5e92ecdb57d|2015-12-16|Michael Goerz|Allow for delayed compilation
+cc6a158021c8dc2bf4f590705affa0c7d251b20f|2015-12-16|Michael Goerz|Set default for executable name
+5192a16fdeb8d1f421a395824f39b962817d99c1|2015-12-16|Michael Goerz|Set automatic filename in add_observable method
+2a078fab6c6d2add167c3189f8cfe67346375156|2015-12-16|Michael Goerz|Add pytest-capturelog dependency
+66491eb569822399558b8ab5f70f25768dcebf78|2015-12-15|Michael Goerz|Set seed only during 'run'
+db3fd313a5539d3d064588a450a21d79de3d591e|2015-12-15|Michael Goerz|Disable adding to existing trajects at QSD level
+0234756da02d80238750842bf715bc46b9c950ab|2015-12-15|Michael Goerz|Remove unimplemented operator_record method
+b53e5adc0535ce6565eb8f644e242455b37e6322|2015-12-15|Michael Goerz|Implement read method of TrajectoryData
+b532513a7807b668d88b215ad5805613d0a913f8|2015-12-15|Michael Goerz|Fix texlive installation on Travis CI
+0ddd70f8e75101dd6de911c5ab20fbe220a8e9d1|2015-12-15|Michael Goerz|Don't confirm add-apt-repository
+382fe1c6672b180982937fc1067d46c78967331c|2015-12-15|Michael Goerz|Attempt to fix texlive installation for Travis CI
+0465edb0c7a71ebe69f5867c130adb955868fb14|2015-12-15|Michael Goerz|Fix regexes
+a0434d7e53727af3687faa28c4f697b2ebb4bb01|2015-12-15|Michael Goerz|Dynamically adjust col_width
+66b48f529697db471da3c023287ae4d7f9dd34ea|2015-12-15|Michael Goerz|Collect regexes in dict
+7111e9c9f146e2fabee8dfd61d999fb09cf26a99|2015-12-15|Michael Goerz|Improve checks in TrajectoryData.__init__
+4dd3411a6bd42adb2a427511e39194082ccf0904|2015-12-15|Michael Goerz|Fix Python2 incompatibility
+3c3c7ab5604d13dee62ac67a9d7e0674173d1ea7|2015-12-14|Michael Goerz|Add "+" operator for TrajectoryData
+8bd2736b74cf83f6e8f511c166ae85cf723800f6|2015-12-14|Michael Goerz|Add seed parameter to QSDCodeGen run
+5a8bf2dcd737eb22c1d8e8d8e18a09017448c446|2015-12-14|Michael Goerz|Generate ID in extend method deterministically
+b6e57b0baca5684f1bb33f9dfb8f621650a1e5e9|2015-12-14|Michael Goerz|Ensure from_qsd_data ID independent of file order
+a5bbea255f19c779fb842e8195760dd903383a53|2015-12-14|Michael Goerz|Improve TrajectoryData data encapsulation
+6eccb921bd2ebe63c48f543d5e704f4ca422952f|2015-12-14|Michael Goerz|Turn TrajectoryData "operators" into property
+e5d7276c15f0c7141b273c0e5e709d3befe4310b|2015-12-14|Michael Goerz|Implement "extend" on TrajectoryData
+3084d0d10d69dc6de16fb9c70353c22f26cf1347|2015-12-14|Michael Goerz|Implement copy, hash, __eq__ on TrajectoryData
+41b42f288916a5f843a083f08acc6a8ddaf2dbaa|2015-12-11|Michael Goerz|Add missing data for test
+30ddf60f8dbecc1a2da1270eff2652a0a585aed0|2015-12-11|Michael Goerz|Check for missing data in from_qsd_data method
+6e109b7c1d624f2a74475a5c9e6ee16fdf3024bc|2015-12-11|Michael Goerz|Implement writing out TrajectoryData
+331169ff949a8f16e6798bb901ebfd7648218424|2015-12-09|Michael Goerz|Add trajectory_data module to documentation
+851cce3d23ab895784d8915da0ebe70b0a1389f7|2015-12-09|Michael Goerz|Partial implementation of TrajectoryData class
+67b3e14a07bf9afa85fbcb7906f4847af7fbee95|2015-12-02|Michael Goerz|Don't write out expected code in test
+29298051b05eb4ec805a0b6735768624a99df863|2015-12-02|Michael Goerz|Fix type of moveEps variable
+99b84ff3765398f4c8efae2d321691bc8fd90ece|2015-12-02|Michael Goerz|Fix mixup of FieldTransitionOperator param order
+8b4e11a716931f6d78c4825274c6193a06cd965b|2015-12-01|Michael Goerz|Ensure moving basis not used with imcompatible ops
+f41946b2f2b3a76e149eedbcfe2d736c589a1110|2015-12-01|Michael Goerz|TransitionOperator -> FieldTransitionOperator
+3d26d3604194ebc123a67cdb4541770e315b1a0d|2015-12-01|Michael Goerz|Add methods for compiling and running QSD programs
+84f0bd5438397fef6e41e15ca6f212757d7012f9|2015-11-23|Michael Goerz|Fix order in which QSD operators are defined
+aef5986ffacc82e50d233feef5f6fb1f874be80a|2015-11-23|Michael Goerz|Fix C++ syntax errors in QSD generated code
+e70c52487a64cc63b1de7ec93a5ce8291f12b123|2015-11-23|Nikolas Tezak|Fixes a bug that occurs unexpectedly when creating complex KetPlus objects with sympy coefficients
+f6fe380efa9e477dc980566eeea9318cbc4b33df|2015-11-23|Nikolas Tezak|added comments
+d6f61d66f58e818908e05e76c7ec7bb11f01cf16|2015-11-23|Nikolas Tezak|Fixes a bug raised when printing complex Ket vector expressions
+4e350a4f464a57d3276e33e3706d20fff67930ea|2015-11-23|Nikolas Tezak|Added facilities to singleton() decorator that enables Singleton objects to be pickled.
+104d81c67a11de08a3cc66b71487c4e382720033|2015-11-22|Michael Goerz|Add missing comparison file
+a6516cea8fd38d58d0869c4bb5c394ccd725ed61|2015-11-22|Michael Goerz|Test QSDCodeGen.generate_code
+760d127417772954d2e07653f4029cb38e906591|2015-11-22|Michael Goerz|Implement initial state in QSDCodeGen
+5f5750997459e33d361bf6fe640dfaf32eb10834|2015-11-22|Michael Goerz|Fix all_symbols for CoherentStateKet
+8410cd3da329ba3b98951c8a2c8cc126e527826b|2015-11-22|Michael Goerz|Check _qsd_states property
+d85e8faff4a36eb091eece80eecba41099421bbd|2015-11-22|Michael Goerz|Add _define_atomic_kets method
+4637247fa421221c605bee8f9a1fd28902ed7d98|2015-11-22|Michael Goerz|Add _ordered_tensor_operands method
+505e3f5bae2687db9579d055814a2c33a13b1517|2015-11-22|Michael Goerz|Generalize local_kets -> find_kets
+37f752ea8630619403cb27cb9d3ceb8455ad5c7d|2015-11-21|Michael Goerz|Add local_kets routine
+dc118e112ea516a918cba9520f3d382c378abb44|2015-11-21|Michael Goerz|Ensure adding observable extends ops & symbols
+6df05baefff86dd981f3c4f0bb64b8bfc05f948a|2015-11-21|Michael Goerz|Implement trajectories in QSDCodeGen
+3e16585b51d5194677760b55adb79fd8f16aa7c4|2015-11-20|Michael Goerz|Keep definition of nL together with Lindblads
+7961b67f2c06badf4a4f293e0084ed6a137364bf|2015-11-17|Michael Goerz|Implement observables in QSDCodeGen
+c88edf81c62e27e4e6d5bc16552970a5db9e657c|2015-11-17|Michael Goerz|Fix missing semicolon in generated C++ code
+2764e6a33ab189b9b8bd82af5cfc03e4217ff6c1|2015-11-17|Michael Goerz|Correct order in QSDCodeGen operators
+b551daba8529ee57a413a9d180f1cc062a6ebee4|2015-11-17|Michael Goerz|Method _build_sqs_ops => _update_qsd_ops
+e8d115459a5e88a3dd0760eae22cdd218a5b829f|2015-11-17|Michael Goerz|Test using QSDOperator as dict key
+c2f59ef379985ae0a870052350ab69c7f288174e|2015-11-17|Michael Goerz|Make QSDOperator hashable
+943d5c00a18e0790f08c28446a816b0a957f27cb|2015-11-17|Michael Goerz|Clean up QSDOperator attribs managing local spaces
+e6e549a2aa5ea3ac2095b1b3e66ae8386b456b03|2015-11-17|Michael Goerz|Test missing values in QSDCodeGen.num_vals
+aff60666eb2056dd31213e08362df7aff95eddd7|2015-11-17|Michael Goerz|Handle missing values in QSDCodeGen.num_vals
+78e993065b90ee290924cd479ae19fb3c2733fde|2015-11-17|Michael Goerz|Remove local_ops property
+1ad2aa9887b6b75f93c756264ea2eafda10499cb|2015-11-16|Nikolas Tezak|Renamed KetZero->ZeroKet to be consistent with OperatorAlgebra etc.
+80cbf68923ee7d74549087fa1221e5b5bfe86c91|2015-11-16|Nikolas Tezak|Fixed bug when multiplying the KetZero by an operator would raise an exception due to a faulty substitution rule
+0066030434480e55fb82951c1f84725928add3c6|2015-11-16|Michael Goerz|Improve documentation of QSDOperator
+0984f6d7691e2cc63cb6a85b4b00bc4810fa46ab|2015-11-16|Michael Goerz|Implement class QSDOperator
+82038b8ec13119e3bd3caab3b61372d939269582|2015-11-16|Nikolas Tezak|Configured qnet.misc.qsd_codegen automatic documentation
+3966e267c0736742cae205d10d7175d35001ba20|2015-11-16|Michael Goerz|Implement lindblads_lines code generation
+ba6b57a1e38707bc589f497ece1b6933fa22017f|2015-11-13|Michael Goerz|Define NLINDBLADS in QSD code generation
+9b40cfa246c5c8a7a9a53f63270891913aaa2fed|2015-11-13|Michael Goerz|Partial implementation of QSD code generator
+7fa0d8c70c2a6e70f96a00c39963b9272735cd20|2015-11-12|Nikolas Tezak|Merge branch 'develop' of github.com:mabuchilab/QNET into develop
+b6653a0aa0a6f55b46f8e38b910ab86f5ab9c7fd|2015-11-12|Nikolas Tezak|fixed that OperatorZero.all_symbols() returns a tuple instead of a set(())
+1c387926cb59d705d006c5fdf186982316b8efa2|2015-11-12|Michael Goerz|Add 'make doc' target
+0bc102a5b0a98ae9d579818807764c11285a6e94|2015-11-12|Michael Goerz|Include Sphinx dependency in Makefile
+35a011e1f88323ee98c61360c7b839e245a67319|2015-11-02|Michael Goerz|Add Travis badge to top of README
+7848e07df30ba2ecdbc091bd115586d6447688b4|2015-11-02|Michael Goerz|Add Makefile
+9b672de179e1bdd13ef723032df237e69a463441|2015-11-02|Michael Goerz|Install texlive in Travis environment
+b17638d29e19544f855ab01b7f26ad46d2e65cf6|2015-11-02|Michael Goerz|Add Travis configuration
+7c1827f011506f9520697388ea429da7aed2cd28|2015-11-02|Michael Goerz|Fix typo in setup.py, add matplotlib dependency
+3c4e42b86f52555b4f2c94740826fa3aad9d7b99|2015-10-15|Michael Goerz|Merge branch 'master' into develop
+f850e498b8cdbb7333797837015af2be982d5551|2015-10-13|Michael Goerz|Avoid importing __version__ in setup.py
+1d34340c7008a44a16a338e99164b6f9d8ea7e56|2015-05-19|Nikolas Tezak|Merge branch 'release/v1.3.0' into develop
+bfa96c6531035c3a4f5f9a7fb97b35b8ca5018d0|2015-05-19|Nikolas Tezak|Merge branch 'release/v1.3.0'
+9e00e2de1c39b2df466644b2b87f1513d30629db|2015-05-14|Nikolas Tezak|bumped version number
+9ab6419c7d3ec0131dd19b5e375ff6e7c3518956|2015-05-14|Nikolas Tezak|Made QuTiP and PyX optional dependencies
+fe0360e65a0761f10e46bac97eeb2ac8ad875cd7|2015-05-07|Nikolas Tezak|Merge branch 'release/v1.2.6' into develop
+63c535c094011c22f6e2ebf47bb185e1c7dcef91|2015-05-07|Nikolas Tezak|Merge branch 'release/v1.2.6'
+e09cb2ec1f63f26c6ef86e093212b1bbd7260207|2015-05-07|Nikolas Tezak|bumped version
+51fa63264f4bf8f0d88272cddcf1d9f8d534a331|2015-05-07|Nikolas Tezak|fixed again
+49e30b604c230948cc6ba33f0e5f70088d8d9fff|2015-05-07|Nikolas Tezak|Merge branch 'develop' of github.com:mabuchilab/QNET into develop
+c74eee8e901cc59ac2058271bb839b0382ae9aec|2015-05-07|Nikolas Tezak|Merge branch 'release/v1.2.5' into develop
+1b63cf0329e60d53b100bf711d11757d1f9ab261|2015-05-07|Nikolas Tezak|Merge branch 'release/v1.2.5'
+a31f87cf5efc8eb203be981b754026abb525f940|2015-05-07|Nikolas Tezak|bumped version
+7eea4b153c4e80a3ccee7d46dab1191d3a26f1a2|2015-05-07|Nikolas Tezak|changed get_coeff to return integer when possible
+0badd9e729d85fc9dbfa737b9ed32a9c09a996c3|2015-05-02|Nikolas Tezak|added schematic
+0b8dd82d33d35e166077db368796252c90bcf012|2015-03-24|Nikolas Tezak|Merge branch 'release/v1.2.4' into develop
+101ed98fc5c212c399babbca5fbe249a42ea8ab8|2015-03-24|Nikolas Tezak|Merge branch 'release/v1.2.4'
+6786061f0450a0e7254280faa1bedd180344f1a2|2015-03-24|Nikolas Tezak|bumped version number
+8e0960e69ca53d070f1c19c789bd2908a4a37539|2015-03-24|Nikolas Tezak|changed how ABCD matrices are extracted
+365db403b1151567861b60030ebbe23e6e3a7740|2015-03-24|Nikolas Tezak|changed how ABCD matrices are extracted
+ae040e3e07f5cda10882a34b1e32e3038fe5ce32|2015-03-24|Nikolas Tezak|modified visualization
+0684a3e3d54aa18f3e862e0591f568f74716941f|2015-03-24|Nikolas Tezak|modified visualization
+0a3c735fe44d68c2b791cc5555ce541386e39807|2015-03-24|Nikolas Tezak|modified visualization
+ac14010ededac760a55ab8141a129edad59f9608|2015-03-24|Nikolas Tezak|modified visualization
+143df9cbf1f6840026b7c760be6224be9f1cc886|2015-03-19|Nikolas Tezak|extended connect() function
+b30ffeea41b3b4cb6c3e39ae1784482a4255b692|2015-03-19|Nikolas Tezak|fixed getABCD
+3db7e1d1e8cb9aa4166980d01e52a70e2b32dc16|2015-03-18|Nikolas Tezak|expand() bug temporary fix
+efcac2f45abaf370688db492114f83902c7e9f3c|2015-03-16|Nikolas Tezak|Merge branch 'release/v1.2.3' into develop
+eab183dc8079625466a9aaad3c043b4db583b732|2015-03-16|Nikolas Tezak|Merge branch 'release/v1.2.3'
+376d10fc068d82a802900a5164093d8a1afa57ed|2015-03-16|Nikolas Tezak|bumped version number
+0ed8ed7a5877fc5cb0c6159a280f55bf79da4be8|2015-03-16|Nikolas Tezak|fixed strange operator product bug
+235e072250a03e80c6f87214ba5dacfa0ab8483e|2015-02-24|Nikolas Tezak|Merge branch 'release/v1.2.2' into develop
+d3a94deef9aaf4dd96be767e054db412941439d9|2015-02-24|Nikolas Tezak|Merge branch 'release/v1.2.2'
+563843ea708e6016920ad8c6551bc9a8b43a5f42|2015-02-24|Nikolas Tezak|bumped version number
+bc128a7de1ac0c48879f34c503ed14a4e8cfbecf|2015-02-24|Nikolas Tezak|fixed p3k bug in symbolic liouvillian function import statement
+a319cf68662370d245a1eb89be161692d80626cb|2015-02-24|Nikolas Tezak|fixed bug in automatic adiabatic elimination
+e1264cca7c74acc8eb419340ba696b168618bf32|2015-02-24|Nikolas Tezak|Made SLH.symbolic_heisenberg_eom() expand and simplify by default, added automation tool for adiabatic elimination when the Y-operator is diagonal and only acts non-trivially on a single d.o.f.
+c9b2a150799ac2a8e73e966ba2eb51d6e2304f43|2015-02-24|Nikolas Tezak|fixed py3k bug in hashing of ScalarTimesOperator
+903615c93696c86adbd11c0fbc918ae60283769b|2015-02-11|Nikolas Tezak|Merge branch 'release/v1.2.1' into develop
+ba9a0ffa743505611ab722758f70ee4f2ebd2e1b|2015-02-11|Nikolas Tezak|Merge branch 'release/v1.2.1'
+80dffcac1830d9a3bb69a7a4b854040c33d26162|2015-02-11|Nikolas Tezak|release version
+925761ee5b4d6bc4a5ee31ab28fd3c97227d60e2|2015-02-11|Nikolas Tezak|fixes for pyx based visualization
+06b229cbd1366994016b0279078f182b347371cc|2015-02-11|Nikolas Tezak|Merge branch 'release/v.1.2' into develop
+de5cf6e65a0a510b70417b764906eb3602d9db41|2015-02-11|Nikolas Tezak|Merge branch 'release/v.1.2'
+fd662d864e340717c802b1cd3cfc707f2e843780|2015-02-11|Nikolas Tezak|added pyx link to setup.py
+a94fc0160681f453ad05dfd82a6db6ed2f82bcbf|2015-02-11|Nikolas Tezak|python 3 compatibility
+3e63dba8a96a29349d3aa368fb770c2cabf428cc|2014-12-18|Nikolas Tezak|Merge branch 'release/v1.1.12' into develop
+6fb86d7866fceb5801735b3fa8766a88cee96646|2014-12-18|Nikolas Tezak|Merge branch 'release/v1.1.12'
+d87b69588e3548acdba6f9c37cda15ccfaaee9de|2014-12-18|Nikolas Tezak|bumped version number
+de6f83c383c18a093ded312f5f474a7336ac8e1b|2014-12-18|Nikolas Tezak|reformatted line
+5c7ee57b353555462fe8a8d9717b80c2fab60520|2014-12-17|Nikolas Tezak|corrected the SLH._feedback method's inversion of scalar S-matrix elements
+4bcc8eb30dc3a75b3025b00129750d61a041a3e8|2014-12-17|Nikolas Tezak|corrected the SLH._feedback method's new Hamiltonian
+6834efba825f99765fa3a4cd4c195f58774720e6|2014-12-03|Nikolas Tezak|added connect function for circuits
+38b7af606ab78e765caa47a5b703975eacbb79b3|2014-12-02|Nikolas Tezak|Merge branch 'release/v1.1.11' into develop
+92fc3245a81bdd0925488a7737f20379d0175de1|2014-12-02|Nikolas Tezak|Merge branch 'release/v1.1.11'
+bb7833dec7d8036fde4480356aba3dd3ede3d54b|2014-12-02|Nikolas Tezak|version
+c6dafe7afb5c3e01ebd01226f5ba464f14ac90d7|2014-12-02|Nikolas Tezak|template name changed
+602914ae8aa904cc8a4680396a8c6025b95f05aa|2014-12-01|Nikolas Tezak|added plots for docs
+46313128f6499d196d63f173b5fa82efe5373831|2014-12-01|Nikolas Tezak|updated docs static path
+bab99ac7ca00859a3a08dc2843413bb958e79684|2014-12-01|Nikolas Tezak|updated docs static path
+f23c65da726536032b405bcc8b9ac55fcb5f03d5|2014-12-01|Nikolas Tezak|Merge branch 'release/v1.1.10' into develop
+0a93b163c6bfbf8219e292082e1a17c332be5917|2014-12-01|Nikolas Tezak|updated version
+d977bae83564764ebb4e2e64e628f72e79107fe8|2014-12-01|Nikolas Tezak|added adiabatic limit helpers, fixed some bugs
+bf4d609ac66a404abc7ee3146515165cbe450ab3|2014-09-15|Nikolas Tezak|Merge branch 'release/1.1.9'
+552ece9866d730ba2f672ee9d0b0fda295093877|2014-09-15|Nikolas Tezak|changed version
+a36286b5262e310d120b365671b3bb702eb1899f|2014-09-15|Nikolas Tezak|removed print statement
+cc9bf86b9b5954effa0721deedd70c80a2745930|2014-08-27|Nikolas Tezak|renamed zprobe model
+9c882c2ae538819c2461ca8c14f0227a500445b3|2014-08-07|Nikolas Tezak|fixed check_permutation import in operator_algebra, fixed printing of operator products
+83a33874e422c609b608715725f8cbe8531b464f|2014-08-07|Nikolas Tezak|Merge branch 'release/v1.1.7'
+4e334073d3f23ecc8ecf1287f82ea240506daa9d|2014-08-07|Nikolas Tezak|bugfixes, readme, etc
+2c1b96b1b7fbddede24dd222d4e4a9975ccf415b|2014-08-06|Nikolas Tezak|fixed bugs
+f851d8aba03f5ab68c3af8063caaa010e0eaa4c3|2014-08-06|Nikolas Tezak|tutorial files
+25b246a0dc546041345551d4081b2874ed5ab0ca|2014-08-06|Nikolas Tezak|Merge branch 'release/v1.1.5'
+99bde308286a2e319353569e935c550e75db711f|2014-08-06|Nikolas Tezak|bug fixes
+6c06efdc50b7736c14f4554629d0c1a8b3d445c8|2014-08-06|Nikolas Tezak|fixed name
+2218a443eedf702f06310dd923ca8736737935a5|2014-08-06|Nikolas Tezak|added tutorial files
+c9e135502d0c90ad61a66f9b6e162edec009006a|2014-08-06|Nikolas Tezak|typo
+6f7bc2b6dba5fea4242f89add1d132bce0c89693|2014-08-06|Nikolas Tezak|updated page, removed doc to read the docs
+7c7234c7e1170143153a0c622f658aa8ff4f4423|2014-08-06|Nikolas Tezak|Merge branch 'release/v1.1.4' into develop
+266972be9ccff61e2753d722156e9371edd6d253|2014-08-06|Nikolas Tezak|Merge branch 'release/v1.1.4'
+22a1b83a413ad826bdc5be352615efca53632e47|2014-08-06|Nikolas Tezak|improved depencies, bumped version
+647473f9dfb02dc2981aac6fea75b556663f07c1|2014-08-06|Nikolas Tezak|Merge branch 'release/v1.1.3'
+6aeda26541c8ea417a4a3960fb541442b21023fa|2014-08-06|Nikolas Tezak|updated version
+59acb806e71eba7dc3558c1b48bdf7831d127de4|2014-08-06|Nikolas Tezak|updated docs and readme for new way of installing the package
+a050636c6619efc91e1c40199912d1efea6b69b9|2014-08-05|Nikolas Tezak|Merge branch 'release/v1.1.2' into develop
+035ced238e90e38d36dbd1b03d580030e770383a|2014-08-05|Nikolas Tezak|Merge branch 'release/v1.1.2'
+f49b32515ec4997b1a8b258a33067b9ca5cebefd|2014-08-05|Nikolas Tezak|improved PyPI stuff, setup.py
+7732ccd006cec58acd96c5e3933f44e1f6c32c53|2014-08-05|Nikolas Tezak|release v1.1
+09aeac0ef27591b065d425925cfca02caa66c185|2014-08-05|Nikolas Tezak|release v1.1
+5ac2b41dd02db321c4ad0808110eaef7bc80d147|2014-08-05|Nikolas Tezak|preparing release and PIP installation
+7aed489d19e80cd9011ca4da401aca317d34c482|2014-08-05|Nikolas Tezak|preparing release and PIP installation
+ae7ec9aa78ca6a7defe8c4cc8b7b794ca8e6d297|2014-08-05|Nikolas Tezak|specific imports, added circuit_algebra.getABCD and operator_algebra.get_coeffs
+ed4a0c1ecc350fe3d0ab186ca37031c480cc8206|2014-08-05|Nikolas Tezak|small changes
+7382d7ae8989f2f796acb08c1de3b80869aa8b7c|2014-08-05|Nikolas Tezak|small changes
+a01fce99df5efa3a5762bbaf539b240ae7fa5c05|2014-06-30|Nikolas Tezak|OperatorTimes._tex and __str__ did not wrap first operand in parentheses if Plus
+06a4f160ef5a5ec36525edddae59c7756fd0e8b7|2014-02-07|Nikolas Tezak|Merge branch 'develop' of github.com:mabuchilab/QNET into develop
+f0c2bb6b49193a83a083f57a02e9d9abef995e41|2014-02-07|Nikolas Tezak|added some gschem files related to the KerrAmplifier model
+2d9951da71bb05727ec73b648dafc062eb153341|2014-01-31|Nikolas Tezak|deleted parsetab
+673df8c1d9667c45da0940b6bbab6cbeabeee96d|2014-01-31|Nikolas Tezak|not really any chnges
+71404ced6438d62420e96758656a09d9e3cac397|2014-01-13|Nikolas Tezak|added semi-classical kerr sde code
+35a6e306d2fcbe4683a8298ee5841bf1e19be7bb|2013-12-10|Nikolas Tezak|renamed some things to avoid clashes with numpy array functions
+67e2d9f015a069a374fecc1ac3603f862d775e2d|2013-10-24|Ryan Hamerly|SymPy isn't in the free EPD
+73a6fbeeaaf9bf4e2ce4ee2f688647f001cff2a7|2013-10-10|Nikolas Tezak|corrected output noise increments
+3cc2c4cd87e5a9a5323d0f893e512e51b75a713e|2013-10-10|Nikolas Tezak|corrected and and inverting fanout circuits, updated all example files
+f03a50f6692dc24b61333dfc14e43ee12b7862ff|2013-10-09|Nikolas Tezak|algebra fixes
+6f02c4574914e3d88b852f7f87dfe108c30c8732|2013-10-09|Nikolas Tezak|correction
+78ca3f104bd977052e1bca8789eb0e492c85f45e|2013-10-09|Nikolas Tezak|fixed and
+e736807aef332b326c02716ea2ebe59c5d08764d|2013-10-09|Nikolas Tezak|added latch and and gschem symbols
+4247673fe3d46655131ad31cdd13a074c5907d93|2013-10-09|Nikolas Tezak|added py-files for latch and and
+a5c8b69a3e63ba57f2fefd036acd4943ad8df2f1|2013-10-09|Nikolas Tezak|added latch and and schematics and qhdl
+83f01940549df1751fbccaccbd4e65cda8d89ab8|2013-10-09|Nikolas Tezak|added AND-gate
+4263d86014dbeb06a7d61b8ee638eff7ce29051c|2013-10-09|Nikolas Tezak|fixed inverting fanout
+f079513a27c513ab9205846cbb10139e3f1df421|2013-10-09|Nikolas Tezak|added component symbols
+778c4d5affe0ce0116aae7e46fc24397486e027f|2013-10-09|Nikolas Tezak|updated euler stepper
+e32845d0b1a4716fb57945a51af921815f385011|2013-10-09|Nikolas Tezak|parser now supports numeric generic assignments
+814bc8063eb2bc3252ff1eadf60080aa17198838|2013-10-09|Nikolas Tezak|added inverting fanout component
+fcb44b6f12ac210a2bdc12cb5b5097cd9b3a8f15|2013-10-09|Nikolas Tezak|fixed bug in parser where parameters couldn't have negative sign
+9d5f45dded3637d4875b036d0ea8700a90e90d99|2013-10-09|Nikolas Tezak|added Charlie's inverting Fanout
+7cc0ba56eedc9a4965b49733f5c4f7e08348d432|2013-10-09|Nikolas Tezak|Added explicit 2 and 3 port Kerr Cavity models
+c2e93ef408a05ba3fb2eabd2105460752bc875da|2013-09-24|Nikolas Tezak|added/updated kerr semiclassical sim tool
+988690204b3e26855e175856dfbcbb65dc15eabb|2013-09-19|Nikolas Tezak|cleaned up a little bit, added kerr_model_matrices.py for extracting SDE from Kerr-Cavity-based SLH model
+e84da029ea13238b8f6d9beb21c9e320d0b98855|2013-08-30|Nikolas Tezak|corrected .gitignore
+d2d30755dfb74fdd340419379e6d2bd7591ff937|2013-08-30|Nikolas Tezak|added doc/_build to gitignore
+cfc0cfa1f67402af62715853a81436be8c08543c|2013-08-30|Nikolas Tezak|added .gitignore, COPYING.txt
+c4c07463c9d7e48041bad6f28fabcc618d84ff1e|2013-08-30|Nikolas Tezak|Merge branch 'develop' of github.com:mabuchilab/QNET into develop
+e84046663f69029a93f5890b56e3629fe183718d|2013-08-30|Nikolas Tezak|Made decay rates for Kerr cavity model positive, fixed sparse qutip matrix export for zero operator
+ec73f6f47e0ea3d9d26426661ca4a1674fbe7017|2013-06-27|Nikolas Tezak|corrected how zero operators get translated to qutip objects
+6fb0c071821eedd78821b5505e9ed83bd44071b8|2013-06-12|Nikolas Tezak|changed substitution for ScalarTimesKet and CoherentStateKet to allow for sympy values
+319045cac442c3cce16d8f8b2937fc46e50e91a4|2013-06-12|Nikolas Tezak|corrected Tex'ing of coherent state amplitudes to allow for sympy values, fixed ordering of local factors in kets
+ec74efe20f3d896a19cbada9372ed1efe060e43e|2013-05-24|Nikolas Tezak|Merge pull request #4 from bitdeli-chef/master
+cea0b0db79ceecb8bc88557bbe268abfc430eec4|2013-05-24|Bitdeli Chef|Add a Bitdeli badge to README
+d01ceec0bd35a7ffb74357e818e63bf6011b9bab|2013-04-01|Nikolas Tezak|Update README.rst
+2ec5b2cd031032891a26119b387edbd2faf01267|2013-04-01|Nikolas Tezak|Create README.rst
+4ae24f57ca99078186bf6ba3f69dd39969b3e967|2013-03-12|Nikolas Tezak|fixes to doc
+773127deb70448497967b6b84d6089ece9e22d27|2013-03-12|Nikolas Tezak|bugfixes to algebra code
+d58dfcd81c3e8bd4e3d5ae8cd2ebab6bd62c5a83|2013-01-16|Nikolas Tezak|changed mobile styles
+1becf931e0f44b63b67b7d4cef70457242a9c3b1|2013-01-16|Nikolas Tezak|updated config + corrected some docs
+4cc43484091ce935d45a8bc28c0aa4824f5dfa12|2013-01-15|Nikolas Tezak|fixed wiki url
+6bb111b502da67fe5525bccbc4eeae78029d7924|2013-01-15|Nikolas Tezak|updated hp and docs
+ac8056e8d1008ab491aaddf2f9d8aaf78c4088fd|2013-01-15|Nikolas Tezak|Merge branch 'release/v1.0.1'
+4a7cad449c3c45f5286d9b37c65d7bd9361d3f85|2013-01-15|Nikolas Tezak|Merge branch 'hotfix/readme_docs' into develop
+42d1946e610545d86ffbbb62f120051ac0a0251b|2013-01-15|Nikolas Tezak|README edited
+7b456dc84038c6211ac52b22cb3bc0f8729c2de8|2013-01-15|Nikolas Tezak|updated version number, copyright year
+bbf87f5e31db884297b207784a9627ffe7693514|2013-01-15|Nikolas Tezak|cleaned up, added examples
+804cad238021875de13b8a5b00a78dd53b91f42a|2013-01-15|Nikolas Tezak|moved example
+055ee25ad5053d830af020a23458529db66a55fa|2013-01-15|Nikolas Tezak|fixed parsing script
+98ebe9bc8bc16c8586affea3ad0bc472724c173b|2013-01-15|Nikolas Tezak|improved examples
+11a48e27ff91e32e02e42e751a73f77ae81a92a7|2013-01-15|Nikolas Tezak|Added IPython notebooks with nice example of analysis part of workflow
+fe6c6bebc28e6542a56df6b38d23c6be49ae08c2|2013-01-15|Nikolas Tezak|Added IPython notebook with nice example of analysis part of workflow
+0fe6fc81938657801f75fb77933ecbc249247f18|2013-01-15|Nikolas Tezak|doc enhancement
+5b6760965d2fcb4f744f96d170d57603a27fb057|2013-01-15|Nikolas Tezak|Algebra bug fixes enhancements
+b47e1494cd3cb078447e683ce9bb9e6e23f29fbb|2013-01-14|Nikolas Tezak|nokjekyll
+9a8d9d3809bd1fe4f2ec18f0a18b85c48b96e2c4|2013-01-14|Nikolas Tezak|underscored filenames missing cause of Jekyll
+0a5c12822993292c801b4335c8cb81e540871a89|2013-01-13|Nikolas Tezak|first proper version
+511359d042ed7c899fae06ce6d26a67042320a0f|2013-01-13|Nikolas Tezak|Merge branch 'release/v0.9'
+9447697fd9adb87e306e53de9c5f0215ff08479c|2013-01-13|Nikolas Tezak|updated content
+f67be950d5f512ddb8a721eb504ebabe79c895d5|2013-01-13|Nikolas Tezak|added some css and js to sphinx template
+55e71e8bf6333e174000074ad3c2db6bcc20e4a2|2013-01-12|Nikolas Tezak|updated README
+de73e3c3e064cb1d92d2c37e29ce03c5165de7c7|2013-01-12|Nikolas Tezak|Merge branch 'develop' of github.com:mabuchilab/QNET into develop
+b9cb856b755845a8238fff15d0947821460a4f5a|2013-01-12|Nikolas Tezak|updated README
+b098a3fd8d0f7dbdb14d71663db69b956d70ef92|2013-01-12|Nikolas Tezak|updated copyright year
+c0c240e6a913e7ee359267f1e1c074d16f1670ab|2013-01-12|Nikolas Tezak|Update README.rst
+565824a8398d46cddbd03484606326bd8b85a1b9|2013-01-12|Nikolas Tezak|Update README.rst
+f7f324e4e03a673eee967340f2217989c840eb12|2013-01-12|Nikolas Tezak|updated + renamed README
+e07d12f4d9ff2f6424218ab2198feacf965a688e|2013-01-12|Nikolas Tezak|updated + renamed README
+f89506dea29951cf812b5911cd6310594590bb8e|2013-01-12|Nikolas Tezak|Fixed Matrix.substitute when elements are not actual ScalarTimesOperator objects but just sympy objects
+6f52af30cad0a1a5fee454e16a9396850ad90979|2013-01-12|Nikolas Tezak|Added comment to delay component
+3cbdd176c5bc21ff903e3de28cacdc5b9c53125c|2013-01-12|Nikolas Tezak|DOC update
+5fb00ba5cca3b3ac4b59660847a4f54d8e13b51c|2012-12-14|Nikolas Tezak|DOC update
+9dfb0f31efa03872bde2fa8772910e6cd23d9723|2012-12-14|Nikolas Tezak|minor edits
+9a5ac4d85acbb186dc60583c7f29de3dd7db46d7|2012-12-14|Nikolas Tezak|added graphics files
+ce4020958448ac021e3814333c7ba09c6fa144d3|2012-12-14|Nikolas Tezak|Updated README to avoid problems with setting up environment variables, etc.
+dd12a06aaeff3e4ae1f2caf4b07ba82a1ad4da08|2012-12-10|Nikolas Tezak|corrected rst
+0f5f7d48f9b16a4110595153e61ceede3ef544f7|2012-12-10|Nikolas Tezak|corrected rst
+aedcba53eb2644aa034dce9644c003050653e13d|2012-12-10|Nikolas Tezak|corrected rst
+d04655b5057fbb452c8af170a171ee08072091a3|2012-12-10|Nikolas Tezak|corrected rst
+1662786cabff756d2288bdbfb7a3494d69be4539|2012-12-10|Nikolas Tezak|corrected links
+15dd29a2978e997730cabfdc850a90088a4665e3|2012-12-10|Nikolas Tezak|corrected links
+98a31a2acb6e2a1cdcfc1c37285e8ddb6a5a313f|2012-12-10|Nikolas Tezak|corrected links
+1495a5b77cdc8af225ae43e3c9e11443b9db8686|2012-12-10|Nikolas Tezak|corrected links
+dfc75359aeacaa55ee3c078f05950f7dc731cdbd|2012-12-10|Nikolas Tezak|corrected links
+e1cf101de5322fd65ed37a73e0a1a9a0f1d1f3d1|2012-12-10|Nikolas Tezak|corrected links
+81f4ac322bf5b371dee9e21d7a24a6ea4e05c464|2012-12-10|Nikolas Tezak|updated readme
+fe8e4d5db516fccc12dc499095af18ad7703ba01|2012-12-10|Nikolas Tezak|updated readme
+29eaadfd59d5432404550a035e501fb979a424f9|2012-11-29|Nikolas Tezak|reinserted download links
+f317f1833c1aaa81db548774d836d105f210ef38|2012-11-29|Nikolas Tezak|removed index.html
+5175b3e4dbec768a3bce53518e147a7f3aaf0492|2012-11-29|Nikolas Tezak|removed download links
+5bd591cb721d06fd34c6fdaaf4fd0c7566d91562|2012-11-29|Nikolas Tezak|removed download links
+4687cd0c5d2f1da1595a1074cace740e36223cae|2012-11-29|Nikolas Tezak|parsetabs
+2822defd83377a0e105b1cf5ce6df1a88976f6e3|2012-11-29|Nikolas Tezak|Create gh-pages branch via GitHub
+e2337dcaab835283c5da278fe4ddab255eec71cf|2012-11-29|Nikolas Tezak|Create gh-pages branch via GitHub
+08a2ac64a316aa0a36c31e6863fe37b09ec996c6|2012-11-29|Nikolas Tezak|changed library paths
+c557943756cafba27918f5774106a41644c7a9b1|2012-11-29|Nikolas Tezak|Added two mirror jaynes cummings CQED component model
+4c100c0ba7dcc9279480148d0c3e184fb61e76dc|2012-11-29|Nikolas Tezak|DocChanges
+f9bbac4fdf8c130b3b0c0d2439ab5221fbb27d65|2012-11-29|Nikolas Tezak|Added delay component for approximating a time delay with N=1,3 or 5 cavities (untested)
+839c5779a48f07a63ba0b462a684e220b42e3470|2012-11-28|Nikolas Tezak|Extended / cleaned up algebra's Added tests for state_algebra
+376ba3bdc7904734b72b431771f1f0979b365d75|2012-11-28|Nikolas Tezak|QNET comment (added copyright/license comment)
+fdad2297e063f4e7ce490ae439e9b7e5a6e51abc|2012-09-27|Nikolas Tezak|By default 1-d arrays as argument to a Matrix constructor now become single column matrices. fixed inconsistency of Circuit._space property/method type for subclasses of Circuit.
+660214a36fe82aa95cda09cadc98a5038b7c99c5|2012-09-27|Nikolas Tezak|added an SLH.HL_to_qutip(full_space) function
+2d58cc622110b0a3c0154cb632c43db0586b8f5c|2012-09-26|Nikolas Tezak|Added documentation
+d735af3292125fc879560d1095ff84b5dc5a4e81|2012-09-26|Nikolas Tezak|Extended documentation with stubs
+fa8b728a8b3bfa21f6c0422156599dc495fe0d0e|2012-09-26|Nikolas Tezak|algebra documentation
+96db1cb84ca3611e5131de7748148d5f25efd0a8|2012-09-26|Nikolas Tezak|added docs to qnet.circuit_components
+7f6809b767747a80871536d3fbb248ca1cf415d9|2012-09-26|Nikolas Tezak|Added placeholder docstring for qnet
+6b2b2803fcd30cb792c1ce31ee4a984f730ff4dd|2012-09-07|Nikolas Tezak|everything seems to be working, docstrings fine too, need to be expanded
+c6820cf191169e96fc5289b897a9f3fad2e370f7|2012-09-04|Nikolas Tezak|renamed things
+799bdd8a5993407be3fac2c04b8c47614e728069|2012-09-04|Nikolas Tezak|Tons of changes, proper docstrings
+c4ffd3a999cc789a3040e990d28a94ffa506d6dc|2012-08-29|Nikolas Tezak|added features to operator algebra: operator traces, added tests
+4be80c77bfe8f7cdbf4bf454a5f923b4cdcbc46c|2012-08-27|Nikolas Tezak|added more docstrings
+1edad91c2b64558f0112e53259650c540d63f30c|2012-08-24|Nikolas Tezak|added documentation to most things except circuit_algebra, added additional local operators
+48876d4748d614743f95e745018e57ad1822c1d0|2012-08-23|Nikolas Tezak|algebra re-write, tests all pass
+fb1ac96ca533d12ec6f707d084a6489fec51b1ea|2012-07-04|Nikolas Tezak|algebra rewrite with tests for abstract, operator and hilbert space algebra
+e172a61d69b04e9832c479bec3b024c854acd9bd|2012-06-19|Nikolas Tezak|removed old lib
+28407557c4a0eb50ae67718e1cfa9fa391313427|2012-06-19|Nikolas Tezak|renamed /lib to /qnet and made it a package
+87dad4b5a3f3df043493e955e16eb9ff4d43b4a8|2012-06-12|Nikolas Tezak|Minor cosmetic edits
+665255a6d98aeca5c05b65b4854bb8c83bea5363|2012-05-27|Nikolas Tezak|single sided OPO model
+de76d681d7db3c3f32f9e3339447f09bc5ea8997|2012-05-26|Nikolas Tezak|Merge branch 'release/0.1.5.1'
+defd59d8b1f270508d5002fffc284765673aa74b|2012-05-26|Nikolas Tezak|additional edits for last commit
+47aabd984f09562a37046a48e1b53ab592a58a2f|2012-05-26|Nikolas Tezak|edits to notebook visualization routine
+e92b0f806ccec79439f4ea8c6456764550c7af53|2012-05-26|Nikolas Tezak|added symbols for OPO systems
+b2e429648f398a27c7d7632b2c3726ec92613570|2012-05-26|Nikolas Tezak|recompiled some circuits
+1ccca3cd2f7bb85b29d6ab1a10f52b207291d3b8|2012-05-26|Nikolas Tezak|Added OperatorMatrixInstance.trace() method
+60f8aca20c7ded93248881aa78a07f8d3a32713a|2012-05-26|Nikolas Tezak|Added support deriving Heisenberg EOMs including dA noise terms
+34f77beae5952a38430f32c1ff80a71ea42a84f9|2012-05-26|Nikolas Tezak|Fixed minor bug
+ac8f925cd30144445899da8afca3c9dc159f5790|2012-05-02|Michael Hush|added/updated symbols for OPOs
+d6c2574033b6087a6cd23e6ba3f1cf19f25268e1|2012-05-02|Michael Hush|added OPO circuit component definitions
+ef344b4512064708aac5f3e52eb079132992983b|2012-05-02|Michael Hush|added double sided OPO symbol
+39bd5786257357812b99295ac4f5cc40100e15fe|2012-05-01|Nikolas Tezak|Merge branch 'release/v0.1.5'
+2082a627fb461f2991f219ddb37f905157de184b|2012-05-01|Nikolas Tezak|fixed gnetlist bug: it is now possible to have no entity generic parameters
+3a032a1e3e3f930a1eed6454893e98eff21dd5ee|2012-04-27|Nikolas Tezak|fixed simplification bug that occurs when two ScalarTimesOperator factors have cancelling coefficient
+138c62689de4b9722246b4f6998670171416dd74|2012-04-27|Nikolas Tezak|Merge branch 'feature/mathematica_export' into develop
+e1b5263474a22d87428eb19ab3e4e05ce7d14243|2012-04-27|Nikolas Tezak|fixed false commit
+26e6124d1e47b9fd1b0d710621bee214bc740672|2012-04-27|Nikolas Tezak|cleanup
+44d56d917a1511ccb4f060b396926355cfa0a5f9|2012-04-26|Nikolas Tezak|improved default component mathematica export
+5ee6ee8b420ca341c8574b4ad95cff79d269461e|2012-04-26|Nikolas Tezak|improved mathematica elementary circuit component export capabilities
+adf29ee1593060771f7b425ff91dc81e58da6c12|2012-04-26|Nikolas Tezak|mathematica expression export support
+3add0ffd5b2eb391583ea07a14f4815384605683|2012-04-25|Nikolas Tezak|merged
+091f69dda6e5c4ce5a25907f55af3b63a812a61b|2012-04-25|Nikolas Tezak|added automatic loss insertion for signal netnames ending with '_ls'
+e18ce285cac18d8f34509d9e69982eacf47551ce|2012-04-25|Nikolas Tezak|added automatic loss insertion, still needs some testing as well as unittest code
+d07d8c9447ae5457818e897009adb182dedd7cf6|2012-04-25|Nikolas Tezak|added automatic loss insertion, still needs some testing as well as unittest code
+83a010ea1ab3b9460875b01d624d0bcedd402c93|2012-04-25|Nikolas Tezak|PLY parser now accepts LOSSY_FIELDMODE signal types (not for ports) as well as INOUT bi-directional ports if they come first in a port list
+a3d5c1a7668f0ff4b35d4875ebb8da1795cca596|2012-04-25|Nikolas Tezak|fixed some refactoring bugs
+b126a43c36c0a05658fce543ba4e6eaa268c3ec5|2012-04-25|Nikolas Tezak|changed netlist parser to block-concatenation followed by iterative feedback, added support for implicit component ports
+105be2ccb0928ec24bde126457a6dd812e5c7fcc|2012-04-19|Nikolas Tezak|Merge branch 'hotfix/cosmeticFix' into develop
+ee7096d8cc0dc824d69119127c8ab582a766c86b|2012-04-19|Nikolas Tezak|Bug in circuit expression parsing
+b572b65ffca20792838cad1e5a4d08a043905a5b|2012-04-19|Nikolas Tezak|minor changes
+a9c49c0291684f0e8af9ca7a7c81e19199ba3a1a|2012-03-26|Nikolas Tezak|minor edits to parse_qhdl.py
+1bd6741d69f1056e73d90fff1f10d0f05ff3026c|2012-03-26|Nikolas Tezak|prettier QHDL output
+c540439e3fa7c5ea450e224b3c3cf5ce75810871|2012-03-26|Nikolas Tezak|Bug fixes: For Symbols, existing Identifier exception, For Powers, reference to Fractions removed
+d3009fabe40a8159cd8c5c90f1de6bdcc4f0598f|2012-02-01|Nikolas Tezak|Fixed circuit visualization to support library components
+7ac75e2c4e770e24847b747f1b7001f3431c3c68|2012-01-25|Nikolas Tezak|corrected tex() behavior
+4db2496683904a1a54e0c168fd1781e4bca854eb|2012-01-25|Nikolas Tezak|corrected tex() behavior
+ced672cc6a1ca5d918eaa230ca1d3eb89e0933ab|2012-01-25|Nikolas Tezak|added default tex() behavior to components
+5dcf7598cdb590f7e1e054bf29313972fe247eae|2012-01-16|Nikolas Tezak|Merge branch 'release/v0.1.4'
+a0663fbcb7feb9e9b9933a8105e9797a2ea98e83|2012-01-16|Nikolas Tezak|removed unnecessary evalf() calls for S-matrices when concatenating circuits
+25f3c45f2533e28e775dfc7942a54febffa6b42d|2012-01-16|Nikolas Tezak|Merge branch 'release/v0.1.3'
+122c4587e0818c15b59ff6d1630e2ae5bc7faa8d|2012-01-16|Nikolas Tezak|Fixed Issue [2], 'ca.' prefixes were still in code after moving symbolic Lindbladian functionality to another file.
+c7df871fd82de6088837f4b08d5b35620e6ab723|2012-01-16|Nikolas Tezak|Merge branch 'develop'
+8eb9231fb7fab267223907cb43eab3dcfd032326|2012-01-16|Nikolas Tezak|removed test.txt
+3cbe8b099879e07cb21ac2144842b28364e07d7e|2012-01-16|Nikolas Tezak|Merge branch 'develop' of mabuchi410:/var/lib/git/QNET2 into develop
+64e59c4d221757923fc1620ff3fb1dc6025835ae|2012-01-16|Nikolas Tezak|removed test file
+53e741617df7aa8e6c5ec297af5e684af0c22fe8|2012-01-16|Nikolas Tezak|Merge branch 'master' of mabuchi410:/var/lib/git/QNET2
+a24227ada3756b20f1b23d865572886363d10d2e|2012-01-16|Nikolas Tezak|test
+d81afc86fa014b18e4220b12c3f099c09b3207f0|2012-01-13|Nikolas Tezak|Merge branch 'release/v0.1.2'
+e0b795efc457fc0f6f051ce09e0f1c5a243815c1|2012-01-13|Nikolas Tezak|added bi-directional beamsplitter component
+2b80c8ae2622755f48f21eeb56c8b77881d37b49|2012-01-13|Nikolas Tezak|Merge branch 'hotfix/feedback_toSLH' into develop
+578c18fd2125cf1747dc7ea4e2f3d1cb3e8f4a2b|2012-01-13|Nikolas Tezak|Merge branch 'hotfix/feedback_toSLH'
+19a2075be19521d27a7c66b4e78d9e5e82d5b51a|2012-01-13|Nikolas Tezak|Fixes Issue [1]: wrongly specified instance attribute that should point to the operand of a feedback operation renamed to the correct name
+dbc15e020718b511976e6358d2fb21cf69fcddef|2012-01-08|Nikolas Tezak|Merge branch 'release/v0.1.1' into develop
+a1f989502d81d9422fcda02387081428342b0a2d|2012-01-08|Nikolas Tezak|Merge branch 'release/v0.1.1'
+ba886f5b0de99918348d2481d0f6d48541d9bb35|2012-01-08|Nikolas Tezak|added some info about the usage
+22c8850f0374749589baa2cab67fcf49dd3f2b75|2012-01-08|Nikolas Tezak|removed dummy file
+5f86860e09ca60f1b151ce05fb9643752613cdb0|2012-01-08|Nikolas Tezak|Merge branch 'master' of https://bitbucket.org/ntezak/qnet
+9539ff5fc235c45b7fb7d4a9655dd8b734ac2d08|2012-01-08|Nikolas Tezak|Merge branch 'release/v0.1'
+197710cb2dc48d6c53a585357fdb5b77bd322752|2012-01-08|Nikolas Tezak|removed qsolve
+f2b94cb571eae8170d65dbd5285dc2fd46b31ff4|2012-01-08|Nikolas Tezak|initial test commit
+b9776ef885f973f79e16cd7d7fe213f5a7919bf1|2012-01-08|Nikolas Tezak|added an example for solving the master equation and quantum jump trajectory simulations using QUTIP
+d8cb1a81b5335bf01c07b2fc9139c53eba880cf2|2012-01-08|Nikolas Tezak|minor edits
+6ad77f8dec2182cd3fbe0268a2f394f514b6e1bd|2012-01-08|Nikolas Tezak|improved conversion to numerical objects
+854023ac937fb150657ffd5cbd8cda125ae38104|2012-01-07|Nikolas Tezak|Merge branch 'feature/qutip_support' into develop
+1f1d2c361d818085ba294b5c646ae8f239cf9aea|2012-01-07|Nikolas Tezak|deleted qhdl example
+f81fb13b07f0d2fc6c2f5fb4eea5a3dab2f24333|2012-01-07|Nikolas Tezak|added qutip support
+dd29f02b6312160ed6e682a9f27666c7e0928ae7|2012-01-07|Nikolas Tezak|gEDA support
+f384f266d26ccc06bafb8c6bc4e2016fdc54b810|2012-01-07|Nikolas Tezak|INitial commit
+39601b0a53bd4e1595e766491bb8df5ec1c9e167|2012-01-07|Nikolas Tezak|Initial commit

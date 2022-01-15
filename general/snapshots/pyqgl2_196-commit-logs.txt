@@ -1,0 +1,1307 @@
+7acc8b244ee7799c21df03ecff8325e15cdb94d3|2019-10-11|Aaron Helsinger|Fix links
+059079ff55389300ab457353e450ea7526377c2c|2019-10-11|Aaron Helsinger|Clean up code links
+3f8436b372f1ff5b8d87e86a2b8556f565206c5a|2019-10-11|Aaron Helsinger|Merge branch 'fix/qreg-set' -- adding qregister unit tests in particular. But not done.
+e867bb59b73d8b26fb1d85d3bedc521e3326b076|2019-10-11|Aaron Helsinger|Working on issue #32; add some unit tests and make QReference hashable. But sets still fail
+923e2a2401a39951856c12fa220510ef88eba422|2019-10-11|Aaron Helsinger|Merge branch 'fixbasicseq.rb'  - Updates to working BasicSequences and notebooks, and up to date documentation  - Addresses issues #55, #38  - Also addresses #35, #32, #31  - Also #26, #25, #21
+6d251cb0ab02d223cda265bd6e5b22b3401d89e2|2019-10-11|Aaron Helsinger|Add comments about keeping requirements in sync
+12330dfea9c645d56da06de0f95b47a1d644a084|2019-10-02|Aaron Helsinger|OK, 3.7 fails due to watchdog. Stick with 3.6 for now
+a96a26072a3d117b76af8a783f92edd7f21c04f7|2019-10-02|Aaron Helsinger|QGL no longer support python 3.5. Start testing with 3.7 too though
+0eff29fe9265719578cc1f8ab304cc08880f7384|2019-10-02|Aaron Helsinger|ignore .md~
+3c04fe8295dfc4ac9778a7dbe7f49309a8cdb08e|2019-10-02|Aaron Helsinger|Add a SingleShotNoArgs for showing how to use main.py to compile
+69637b7eae113a830fa13c067714ceef1283f19c|2019-10-02|Aaron Helsinger|Clean up documentation to try to avoid lies. Gives basic instructions.
+e9f4a0979fd464f79ecaa90603502274c64d0b74|2019-10-02|Aaron Helsinger|add a FIXME for an enhancement
+2fafcfaab3c4c54b9c599f3b8494b15e9dd53095|2019-09-26|Aaron Helsinger|Issue #38: update the sample notebooks to work with this code
+c912ee395ae27832003b6d152c435bda8a56b33d|2019-09-26|Aaron Helsinger|Pre compiled QGL2 for use in sample notebook
+aa9fef6a94209054f860318c5c3fb4237dd4a4cb|2019-09-26|Aaron Helsinger|Fix filename for HahnEcho to match QGL1
+91ecf1456789b8d7b2bfcc7894979d78a06d507a|2019-09-16|Aaron Helsinger|Supply axis_descriptors and extra_meta data to QGL1 compile_to_hardware, matching QGL1 versions
+516aea6ebbc7912f00e0930a89ecb39efddf057f|2019-09-16|Aaron Helsinger|Ensure delays in delay_descriptor is an np.array, so can multiply by a float
+e69b2d64c34d7874ebad02ee707d55c7dd929c14|2019-09-13|Aaron Helsinger|Clarify which is the filename arg to compile_to_hardware
+4072dc707c2c2f832e4aaa94ff061cd79cc3e979|2019-09-13|Aaron Helsinger|Add other QGL1 compile_to_hardware args that basic sequences use
+2204ad7f8b33b7ae2971e077fd5b391db6f9f7d9|2019-09-13|Aaron Helsinger|For clarity, name args to qgl2_compile_to_hardware
+917a97f4a34398c3a7d8a5d4e2e4e54ef599ab7d|2019-09-13|Aaron Helsinger|Helpers to generate axis_descriptors
+fc86e40edd9744dd60fecc9a130ef15bffe9196e|2019-09-13|Aaron Helsinger|Allow specifing the axis_descriptor, and make sure the suffix goes in the right argument
+56502c354463901ccb10cdb6318b356341611954|2019-09-13|Aaron Helsinger|update README on status
+af36f9d395d2df5d0ac899748ea1b68947062390|2019-09-13|Aaron Helsinger|comment about expected warning
+e49f367ea90c010d899341fb11ed3095ad3c9faa|2019-09-13|Aaron Helsinger|Add import of qgl2.QRegister to avoid compilation warning
+3a016d8ee3404a53b9da8d4b35cdba34d6edc68b|2019-09-13|Aaron Helsinger|Bug fixes and cleanup, so SimultaneousRB_AC and SingleRubitRB_AC now work, and comments reflect the issues elsewhere
+75266a602ec73245deb1b25821fe2aa90df1ddfe|2019-09-13|Aaron Helsinger|comment cleanup, preserving thoughts for future conversion of more to QGL2
+bc3b21ab6c5b4b247cd632cc581cf9e0301a1b14|2019-09-13|Aaron Helsinger|Add tests for remaining RB functions (SimultaneousRB_AC and SingleQubitRB_AC). To do so, support a test library with HW support, and support turning PulseBlocks into list of pulses for comparison purposes.
+d94600322b5a992cc2086f830e1010108dff2349|2019-09-12|Aaron Helsinger|QGL2 copy of some Cliffords pieces, but clifford_seq remains a stub (and the methods only it uses are left in QGL1)
+ebf88aeda0758a5a0c9a8b1b386573e7fca2f911|2019-09-12|Aaron Helsinger|Clean some debug messages. Start at supporting a qbit arg that has a default of None, but not working yet
+19638552c3a8e2399a050c83cc4e0a24ae79d652|2019-09-12|Aaron Helsinger|use a QGL2 cliffords for some functions, and a stub for clifford_seq
+2e0f4094659d433a1f073b347d41d6ac463e98da|2019-09-12|Aaron Helsinger|comment about wanting to make measChans be a qreg
+e93e97f7d5fd95d404afc7832e78157d45f06a18|2019-09-12|Aaron Helsinger|Add primitives used by Cliffords as stubs. For now, clifford_seq remains a stub
+ef101589a68a6cf182e82a75489ff49d93580d7c|2019-08-16|Aaron Helsinger|add, test more - working on RB functions
+e606db6fa368ffea7720e17ede71bcf19b1c27d9|2019-08-16|Aaron Helsinger|comments & more info when cannot represent as AST
+0a6a77c169d7af5c4dd2dac7e23919a5123581c1|2019-08-16|Aaron Helsinger|comments & cleanup; still need to redo Cliffords in QGL2
+2be4234461b4bd2af1f75c8f8fa483e5a80407c1|2019-08-16|Aaron Helsinger|start at updating Feedback. Cannot work until QConditionals work
+fb0ea3f51684e66f577e263e7674e48f837d2b4a|2019-08-15|Aaron Helsinger|clean comments; RabiWidth works just fine, no need for local_tanh
+4f88f89684171f024eb415bb1b642ab44f444012|2019-08-15|Aaron Helsinger|no longer need this local definition of tanh
+a0b3e924f75c03feced4d3506379a04d7c1c0858|2019-08-15|Aaron Helsinger|shapeFun is now shape_fun
+5428eafec3bbbf7d05622c429727620b88247917|2019-08-15|Aaron Helsinger|comment cleanup
+718fd84e435f86a42c970389e82b7699260aed36|2019-08-15|Aaron Helsinger|clean up comments and README to reflect current state of basic sequences better
+93d8c6dce27f080dd70cdf27ca05d2545fa3a5ef|2019-08-15|Aaron Helsinger|comment cleanup
+d0bbc7cc0c42609a2618a68ff6bb6a037f3dc644|2019-08-06|Aaron Helsinger|move import of QGL to avoid pyqgl2 compiler errors
+e40df754b4e2c306d7151a4383e22162f4d02b7a|2019-08-05|Aaron Helsinger|add helper stripWaitBarrier to remove QGL2 added Wait and Barrier, for easier comparison with expected QGL1
+d1e05426b802ebe0ec2f0e2321f92e88a732ea1d|2019-08-05|Aaron Helsinger|support calling create_cal_seqs with a tuple as is done in QGL1
+afc3b7c5dd51f4926535a0dc82f4c8226408112a|2019-07-16|Aaron Helsinger|shape function parameter is shape_fun, not shapeFun. Boy I wish the error message told me that!
+c91f259ee0759e5bdac3eb2d96327667006f284d|2019-07-16|Aaron Helsinger|Add word to warn message to distinguish 2 cases
+d06e9a42f9596c48ace82ae82c1df4d249715de9|2019-06-27|Aaron Helsinger|comment that this thing is OBE: there is no gateDelay on a genrator
+ce51c3da3e5924e22bbbe958258a7042f1cf7a51|2019-06-25|Aaron Helsinger|first pass impl of RB sequences. Uses an uncommited CliffordsBare in QGL that is all of Cliffords without clifford_seq, entangling_seq, generator_pulse. Need to figure out right solution
+3ab4830fb522094de6426478ec051c5ed0cb4a55|2019-06-25|Aaron Helsinger|trim blank line
+9b79c87699b33f1b9acd81a2baf499769fb899d2|2019-06-24|Aaron Helsinger|fix Rabi unit tests, plus create QRegisters from the matching Qubit directly; less error prone
+cda56a922723f87a7a6d39af3a862553609f2927|2019-06-24|Aaron Helsinger|Single clean Rabi implementation. Note compiling RabiWidth to HW gives an index out of bounds error
+322c306829bd1123c4df21340342d534ac2a0762|2019-06-24|Aaron Helsinger| - Fix issue #35  - if a single arg and it is int, handle specially  - else for each Arg, allow it to be a tuple, list, QRegister, String, or a Qubit   - QRegister: Append all qubits in the arg to the local set of qubits, ignoring any duplicates   - String: Try parsing as 'q#' and append that to local set if not already present   - Fix issue #31: Qubit: Try parsing name as 'q#' and append that to local set if not already present   - Fix Issue #32: list/tuple: Recurse
+1e82c887088d9486d959b82cf601552b4c0c005b|2019-06-24|Aaron Helsinger|comments - no longer needed? Plus add int() call QGL version added
+18bf238c4abfc3dc50eec0b858afd860f148661d|2019-06-21|Aaron Helsinger|turn idPulseCentered into a more generic pulseCentered
+dd9394c625a7c6c5138f3534431a34add267f79b|2019-06-21|Aaron Helsinger|simpleminded implementation of BlankingSweeps with a QGL2 function for the sequence and a QGL1 function for the loop compiling to hardware. FIXME: Test CL has no phys_chan.generator, and the sweep params may not be reasonable in the test main()
+85a6fe61ee17c89e7f412b637faf6a5d23dfbb33|2019-06-19|Aaron Helsinger|comment that the number to Id() is called 'length'
+29302b00c0c43ad4b98ca18e095fd51cddd26bf3|2019-06-19|Aaron Helsinger|Clean Ramsey and InversionRecovery methods
+9217721da958f15856927c4f9695c61f2fdad3f1|2019-06-19|Aaron Helsinger|clean up SPAM basic sequence to have single implementation with test main()
+d5259010741db8ab055c5384c6bcba80eebfddd8|2019-06-18|Aaron Helsinger|clean up a single implementation of FlipFlop
+88f4d4d75392c65a6783af8225be5c20f3225172|2019-06-18|Aaron Helsinger|Merge branch 'fixbasicseq.rb'   Update QGL2 basic sequences to compile with latest QGL, pass unit tests   - particularly using latest ChannelLibrary   - Including adding a helper to create a test ChannelLibrary for use in main and unit tests   Drop qreg_list   AllXY, CR, Decoupling updated to match latest in QGL2, provide a single clean QGL2 implementation   - other Basic Sequences pass unit tests but need to be updated   Fix miss unit tests to use qreg, not qbit    - other code tidbits under test/code remain out of date and some OBE
+90cee6454d7911872816d8abb64c51311859ef0d|2019-06-18|Aaron Helsinger|use __file__ to name the local file as containing the QGL2 to compile
+39305cd69ec192acd0d702be7874490c90e702f1|2019-06-17|Aaron Helsinger|cleaned up Decoupling. Now have a single working implementation of each, synced to latest QGL1
+9ce555da4a391c77392a7c81bdd1d76c3ed254e9|2019-06-17|Aaron Helsinger|unused
+83f10b6c9be041bef0d5ddec23f1acdb02164c0f|2019-06-17|Aaron Helsinger|add helped to get a centered Id pulse of given length. See issue #37 and CPMG()
+b8e2e96934317ff22b1f06088dc02a8e826312e7|2019-06-17|Aaron Helsinger|Comment out OBE qgl1 style function calls in a helper file no longer included
+8548ed932f569c303a3f209193ea5c7a6e8a5897|2019-06-17|Aaron Helsinger|comment on usage
+cfe1f35afa7f46c80e11b1cc915868d58b77e5b0|2019-06-17|Aaron Helsinger|Use new clean CR implementations in CR.py
+bca8536feff2be7b199139d76cc61a3668f864eb|2019-06-17|Aaron Helsinger|replaced by clean versions in CR.py
+ec5d2493b4d497df8407a5be031bc5df6971c364|2019-06-17|Aaron Helsinger|Complete redo and cleanup. Now contains working QGL2 implementations of latest QGL1 CR functions, plus a main() that compiles & runs each of them, as a sample/test
+bb9c84bf80034d4ac76fffea84b64a0d363de97f|2019-06-17|Aaron Helsinger|create_cal_seqs now allows diff measChans than qubits. Also now adds the optional delay before MEAS and waitcmp after each loop, as in QGL1. Also added measConcurrently which creates a QRegister from its argument, does a Barrier, then a MEAS
+40a5995b32ae2290dbf897ead844b3f1fe7cce70|2019-06-17|Aaron Helsinger|flat_top_guassian takes an optional label argument
+519d5a70fcfd6e8a270398359b7bf95484407093|2019-06-17|Aaron Helsinger|Allow creating a QRegister from a single other QRegister. Allows passing a QRegister to a function that promptly creates one
+f1893f65d6fafa345ea5c1a79f1a817d1c1a9e0e|2019-06-17|Aaron Helsinger|print arg count to qgl2main on error
+6c3376ed1d6b33ca98339b323c9da0799b35c978|2019-06-13|Aaron Helsinger|fix up comments; compile to HW by default
+4406bfda6402b7710b1d015c8f0904969991d5c0|2019-06-13|Aaron Helsinger|ChannelLibraries rename fixes in comments
+99067039861c823ef2ccc4f44cfb8680ba762929|2019-06-13|Aaron Helsinger|fix obe camel case in comment
+39188a72c8a2484e3a13f5fb4c3eb65131889f29|2019-06-12|Aaron Helsinger|qbit -> qreg
+424b8959957267c68e2832e10bed2168e9af90c8|2019-06-12|Aaron Helsinger|Dropped AllXYMin so unit test on AllXY
+2b1458eb04bb1aba1e1ffad24355ab5fa71888bc|2019-06-12|Aaron Helsinger|minor tweeks; still can't do this in QGL2 cause we don't have parameters of the real Qubit
+ce4252b38c69a4d52eadbd4454de6c051c90be8d|2019-06-12|Aaron Helsinger|redo AllXY to drop the OBE implementation attempts, get working with QRegisters. Also added a main() for self-contained testing
+baf708c6e624f8c1271336391ee2cda6bdc19fb5|2019-06-11|Aaron Helsinger|change qbit / qbit_list to qreg
+1ebdb539ee352cb9ff78f38b08205c50ff612299|2019-06-11|Aaron Helsinger|Start fixing unit tests of basic sequences to use QRegisters, etc. More to do, though the tests don't give errors
+d652682248d68ed17e06249858a0d071bef60461|2019-06-11|Aaron Helsinger|Use new test_cl to create the testing ChannelLibrary
+b9b68c36a74ee01b5a7fa0763e6634188793b875|2019-06-11|Aaron Helsinger|fix comment
+2e89a9d65c25c114e3461b4d561f416a32ca558d|2019-06-11|Aaron Helsinger|drop qreg_list (unneeded and unused as a QRegister already holds multiple qubits); fix comments; add signatures for MeasFactory, MarkerFactory
+b86d08ed8c4d1ff11f55f85d440625ec4278d5e0|2019-06-11|Aaron Helsinger|Add '-cl <CHANNEL_LIBRARY>' optional argument to use a named CL if it is loadable and nonempty; Add 'hw' optional argument to compile sequences to hardware; otherwise just print them; Use test_cl.py to create the test/default ChannelLibrary, when requested; fix comments
+88add230f0b5aab97676855a8556987f29f96464|2019-06-11|Aaron Helsinger|Tweak QRegister() constructor to error check q1 style names and improve error messages
+138d0850af1a32891ee18bd737427c9f849fc959|2019-06-11|Aaron Helsinger|comment out QBIT_LIST / qreg_list
+2ed15330f4c378f5f3a9556d73779d97ed990e0b|2019-06-11|Aaron Helsinger|Add debug logging tracking local variables
+9ee25bc196eedf29b02e6aef7ca73534b3c955c7|2019-06-11|Aaron Helsinger|comments
+72c31b07579fa4e44a834190e914ab7be693f9c2|2019-06-11|Aaron Helsinger|tweak function description
+4ba3335c8deb6ad87eda3f1eeb1e71dc4cc71f52|2019-06-11|Aaron Helsinger|tweak comment
+b7d4266a35ca394b1675d77cf9fc1bc3dcfa27d5|2019-06-11|Aaron Helsinger|Helper functions to create a default / testing ChannelLibrary with 3 qubits and a bidirectional edge between q1 and q2, to be stored in memory. See create_default_channelLibrary()
+1111ddf736da46dc38079c8fa503089872a6a7ea|2019-02-25|Daniel Ellard|remove python 3.7, until miniconda groks it
+09d8a149bd0acc11e9883d12a05746cc06f83d4f|2019-02-25|Daniel Ellard|updating travis config
+89a36bdcc00e21236b85715e83a67997d37e0b21|2019-01-17|Daniel Ellard|Merge branch 'f.22.update-unit-tests'
+8f26f6e138c3b4483c3719a37cd5bdff2335cda0|2019-01-17|Daniel Ellard|initialize the ChannelLibrary as "blank"
+d3ead6d832e550ea71511f6814a626e3648ddf3a|2019-01-17|Daniel Ellard|fix calls to qwait to use channels kw
+30ecc1f528c973a326d224463ff6f94ef4de01f9|2018-10-10|Daniel Ellard|change ChannelLibrary -> ChannelLibraries
+f2d86e7ed1cfa8b475e9a73b621da17fcfc1e2c4|2018-10-10|Daniel Ellard|make sure the channel library is initialized
+7edb7b396cef97ed9f41affcf41bcc1e396e4015|2018-10-09|Daniel Ellard|update name of channel library
+b48dc66f25b9f7b3dd7fa92a8ddc085b0711a834|2017-06-08|Blake R. Johnson|QGL1 compiler expects a list of lists.
+0e7e8e8ff241f716689080a17461a72dd4c93aca|2017-06-07|Blake Johnson|Merge pull request #12 from BBN-Q/feature/qgl2-compile-to-hardware
+403f8ca7cc9b1ca8be023b680e96790293ca06bb|2017-05-25|Blake R. Johnson|Dramatically simplify qgl2_compile_to_hardware.
+4239941daf5946739b3ecb33b3c4eddb92860a01|2017-05-25|Blake R. Johnson|Update compileAndPlot().
+7098441aa176061b7d7b22fa9350f1d219005645|2017-05-25|Blake Johnson|Merge pull request #10 from BBN-Q/feature/qgl1-barrier
+66ed22c49453a5aa49f7866faffbcb0efa22df35|2017-05-15|Blake R. Johnson|Move Barrier to QGL1.
+c015e99accd94fa5aad94ff27a4158931399838b|2017-04-14|Colm Ryan|Merge pull request #5 from BBN-Q/readme-examples
+1e7764f714eb68c38b6a534e662f8ca1e069519c|2017-04-13|Colm Ryan|improve README example with @blakejohnson suggestions
+f0a6327c5cd7531873d5e6ccd9783a479919718f|2017-04-13|Colm Ryan|:memo: add examples to README
+4e461be33d2581661baed41673a4c196aff60d3f|2017-04-13|Blake Johnson|Merge pull request #4 from BBN-Q/feature/expand-return-rule
+19f090f0b17ed60b9195793f183eae5fd7b73a2b|2017-04-13|Blake R. Johnson|Choose argumnet expansion rule using return type annotation.
+5ddcc0675d43fc674824a5dcafd0ea9e63470070|2017-04-13|Blake R. Johnson|Pass return type annotation thru to call sites.
+38b05ccffa0adf9d37a5870d308248e6a8634bad|2017-04-13|Blake Johnson|Merge pull request #3 from BBN-Q/feature/qbit-to-qreg
+a76459f972ef3d91648f774e2d5982c4ed1dafcf|2017-04-13|Blake R. Johnson|Rename qbit -> qreg and qbit_list to qreg_list.
+4a2a0aa6fef753bc8451d0f0d0293bed7fbd3ec7|2017-04-12|Blake R. Johnson|Minor tweaks to QRegisters.
+e999c68326aee0ef4d94c1f1cea9bc22f6fa3fd2|2017-04-12|Blake R. Johnson|Remove new_helpers module.
+356749f00b05fc4ae7521f49c9f90680a38a452e|2017-04-11|Blake R. Johnson|Pass channel thru init() to Wait().
+dced4de17ced5dda99cc709bf797364fd6c2d27e|2017-04-11|Blake R. Johnson|Remove labels from Barriers.
+66d23e76bd4fbccadb0493b9523fae70327fbd04|2017-04-11|Blake Johnson|Merge pull request #2 from BBN-Q/brj/concur-cleanup
+3f53a0c1f7d168ac2783c2bf3ac004ab4b548e29|2017-04-11|Blake R. Johnson|Test (and fix!) QReference toplevel bindings.
+032f0241eb969870a941956a7db8a17a86e76aa9|2017-04-11|Blake R. Johnson|Only accept QRegisters, QReferences, and iterables of QRegisters as toplevel bindings.
+57699994fc8284b9f07054bd8a6f4c8e2379b4ac|2017-04-11|Blake R. Johnson|Remove "concur" and "seq".
+f0383484d070f82852999cd2e94cf671ee4c9645|2017-04-11|Blake Johnson|Merge pull request #1 from BBN-Q/brj/qreg-iter
+530ff82ff7e2cbb7ad5a3262477407be7db0b186|2017-04-11|Blake R. Johnson|Refactor multi-qubit basic sequences to use registers of width > 1.
+5de37b00d7247ad9f82eb4986a2f86dc1249873c|2017-04-11|Blake R. Johnson|Make QRegisters iterable.
+efde7ec9a45dee048dde974a5daa3e6069c6e108|2017-04-10|Blake R. Johnson|Fix indentation errors in Travis YAML.
+1b8992b13b4e6ac725d914da72431e48a7dd2743|2017-04-10|Blake R. Johnson|Add Travis build badge.
+c6d3e47763e666a8bf2869e245fba6fe1fb42378|2017-04-10|Blake R. Johnson|Fix scope tests.
+ad92004a1d9ac5486d13bedf05369e88f86d2a8b|2017-04-10|Blake Johnson|Merge branch 'brj/qregister' into 'master'
+a6c2ada49436328d123db30d07e165dfdce470e1|2017-04-10|Blake R. Johnson|Add some comments.
+37c5ee691d7cee1490d038bb881f688d4b866a8c|2017-04-10|Blake R. Johnson|Allow QRegister subscripts at call sites.
+4526baa3d1c92af4c8e563334674eb58d0ab93a1|2017-04-10|Blake Johnson|Merge branch 'test/scope-checking' into 'master'
+007809886ea2b0ba82be8bc17002f9761dbfde36|2017-04-10|Blake R. Johnson|Handle more generic subscripts.
+77b56c4f5915d00483d92b608e7161e6867f5d59|2017-04-07|Blake R. Johnson|Allow for slice ranges in QRegisters.
+10ec37bc54b130fcc47c8f92e2d35bebd453b8fb|2017-04-07|Blake R. Johnson|Fix QRegister(args...) where args are QRegisters.
+ed5b27345dd774e95430c3ed4aa55996718c345a|2017-04-07|Blake R. Johnson|Progress toward accepting QRegister slices in constructor.
+232fe6aa404c73b84b9a8efe3daa8be0227869b2|2017-04-07|Blake R. Johnson|Introduce some uses of broadcasted gates on QRegisters.
+7a723075e6434424a14dcf042a5b48c0383da6e8|2017-04-07|Blake R. Johnson|Add basic QRegister tests.
+50f54a51379fca7af4c8eb31f076d1db71fa036c|2017-04-07|Blake R. Johnson|Fix last few tests.
+07be88d591eb5acbfe8ec602dcc92d8840623c85|2017-04-07|Blake R. Johnson|Make QRegisters hashable.
+3391175511edfe746a3f461b105a99798d3e1916|2017-04-07|Blake R. Johnson|Handle expansion of multiple QRegister arguments.
+3ff029724ed8b2f026b1fb81ac3b7e3290ba07e1|2017-04-07|Blake R. Johnson|Handle tuples of QRegisters in expander.
+736e89a232db36b5772f6fb70831afce77361794|2017-04-07|Blake R. Johnson|Refactor basic mins test.
+a01b8a0a67574d86a037d69d326f16eb6e5bdb60|2017-04-07|Blake R. Johnson|First pass at updating tests.
+f6cccb6d914f39b609a4ffcf0031ca81da52f3c0|2017-04-07|Blake R. Johnson|Fix handling of QRegister subscripts.
+bfb4909d003907498efdc50306aa0872c0d4bc4b|2017-04-07|Blake R. Johnson|Modify SequenceExtractor to expand QRegisters.
+c73b10dd90b67e1376274b13bc24008ae08b36ba|2017-04-07|Blake R. Johnson|Define repr() and eq() for QRegisters.
+99174590189c3bb4480b5fb6f6e9c01f3b5e47bc|2017-04-06|Blake R. Johnson|Replace QubitPlaceholder with QRegister.
+8d28c3033a98b06b18cf4f307345adbf8764d750|2017-04-06|Blake R. Johnson|Add Apache License v2.0
+a7d46fd690f63f96ceecf8e7e9fb0738b2178035|2017-04-06|Blake R. Johnson|Update README.
+01ce0e0df358e1eff6e6c543fed7003b64aca25f|2017-04-06|Blake R. Johnson|Update README
+ff3c9e51fdf012c291b8eaa852eb6f83cd03c8a1|2017-04-06|Blake R. Johnson|Update TravisCI script.
+910be001c6c529423618a0d0c065a68429b62701|2017-04-06|Blake Johnson|Merge branch 'brj/cmp-with-register' into 'master'
+ee4fac6b4af31c640b3fad195241a656177735f3|2017-04-06|Blake R. Johnson|Remove another dead file.
+f6164de8ec7318a1b1117fc9cf2059b3b2c75d6c|2017-04-06|Blake R. Johnson|Remove dead code from compile_function.
+dcec0cd0e2780ee6db1ec0037a3dcc3b7fb120e3|2017-04-05|Blake R. Johnson|Remove dead code from Flattener.
+e31145b3337acdf8917932119e192f4448733704|2017-04-05|Blake R. Johnson|Emit registers with CMP instructions.
+48c2e0f824be6ace018a77fcd260c8f6f00f3dba|2017-04-05|Blake R. Johnson|Skip emission of `LoadCmp()`.
+f3cae015e5aae23a7dd09a20d56a473faca26293|2017-04-05|Blake Johnson|Merge branch 'brj/more-type-coloring' into 'master'
+52cd9024f9101fe038f361e645f65e4720b9d229|2017-04-05|Blake R. Johnson|Add 'qgl2_type' property to other statements.
+5ac645d651444613745ca65e3c3473324a1a4b41|2017-03-31|Blake Johnson|Automatically import control flow symbols used by the flattener.
+bb728282e2365260f4ebd992c1c79b1c6e550856|2017-03-30|Blake R. Johnson|Add basic support for runtime calculations.
+d322cbb3f468fd60bc6e4b9b5a7d312796b4f0a1|2017-03-30|Blake R. Johnson|Move preamble module into the attic.
+d0c2180aa9adf557e134650c824453549e904b0a|2017-03-30|Blake R. Johnson|Remove notes.txt
+182775d6778082e94af6cc832d2c4f2a7f258f0a|2017-03-30|Blake R. Johnson|Remove defunct builtin_decl.
+9eb53d5150223e975335820cdf66bc0d14a438f3|2017-03-30|Blake R. Johnson|Move BarrierIdentifier to grouper module.
+535ddb21a7f0c73c4b9d34afd84322d2e5a6135f|2017-03-30|Blake R. Johnson|Remove defunct test_QGL2_Sequences.
+f06a4bb7e76c0d249011af452a02e292465362de|2017-03-30|Blake R. Johnson|Expand what NameRedirector can replace to include simple iterables.
+bb00b99e1e4d75bc9b830dc31b1dec1992755866|2017-03-29|Blake R. Johnson|Keep measurement assignments as assignments until the flattener.
+db33780ca9ad78d73a3e47e70656887d6dd47410|2017-03-29|Blake R. Johnson|Skip over runtime variables in replace_bindings().
+16766622902ba4d9c88add3bb205992671b3d223|2017-03-29|Blake R. Johnson|Add a couple tests of scoping rules in the inliner.
+e2bcfa2804b3adc898d0a5a3912651b3470e4f77|2017-03-29|Blake Johnson|Merge branch 'brj/type-coloring' into 'master'
+b5d0488efb1c22aabd075608614a6e2ec2ded0bc|2017-03-29|Blake R. Johnson|Error on break/continue inside runtime conditions.
+5f2a10548f68dbf3408f82b9b0e40447482a5b45|2017-03-29|Blake R. Johnson|Add test of break/continue in EvalTransformer.
+91b34ced66e3c7df3030aadb2e0ef9e07b8a6049|2017-03-29|Blake R. Johnson|Fix after removing WaitSome.
+27f82084b3176663baa8375a9d5bc013479f51be|2017-03-29|Blake R. Johnson|CNOT_CR -> CNOT
+e8df332390c43ef03a49416b41381afd03cef82b|2017-03-29|Blake R. Johnson|Remove the now unused "WaitSome".
+17e96f5d2e64398881ad5427d3f1740d8c055a66|2017-03-27|Blake R. Johnson|Remove Sync() from init().
+99383104088c9c381d8b4404bf264da24d94fa00|2017-03-24|Blake R. Johnson|Allow numpy scalar types to be rewriten by the NameRedirector.
+a4defbf6fcb4282276e4dc6c9283ac5e4e19c751|2017-03-24|Blake R. Johnson|Test new runtime value functionality.
+b5deb055dbe96125cf5d79e743e8345add39222f|2017-03-24|Blake Johnson|Merge branch 'brj/break-everything' into 'master'
+38edd331d90d55c723fd4cd098dbb42932b1f402|2017-03-24|Blake R. Johnson|If we cannot find a function's AST, assume it is not a QGL2 function.
+2046d547729c7d5669507b6cbae46aa69a3746dd|2017-03-24|Blake R. Johnson|Fix instruction ordering when flattening conditionals.
+9898452226f3d4e6b4b4ceb826474c9e0443dc9a|2017-03-24|Blake R. Johnson|Support a wider set of comparison operators.
+ad76ab4ac298e83e49d22d3bcfeb3c28ac24eddc|2017-03-23|Blake R. Johnson|Support basic runtime values.
+9800d938f4f5f08f003c6d16ece745e6e8273bb2|2017-03-23|Blake R. Johnson|Cleanup of qgl1.py
+60227f5d493445cb5f1476a4ffdbcca17fb327e3|2017-03-23|Blake R. Johnson|Introduce a qgl2meas decorator
+060ad79c1eaf5f4e2bbacb5f8af7316eb1ad7df4|2017-03-23|Blake R. Johnson|Drop support for while loops on run-time values.
+5a183e7ff4b06cdcd96b3af39a62b77d4329146c|2017-03-23|Blake R. Johnson|Fix syndrome test.
+232aa6630dee440efd89b8cd05d67e0a35fbe264|2017-03-23|Blake R. Johnson|Fix test_basic_mins.
+d8accbb9ab7498018af7026cdfb5fcb6e0f7689c|2017-03-23|Blake R. Johnson|Fix CRMin.py
+c3e8a4a8e1abef53e1fb09e4aa9e260e8a54a5be|2017-03-23|Blake R. Johnson|Fix up calibration helpers.
+c687a1ddf1228fa2f885c6988c9906a00a516adc|2017-03-23|Blake R. Johnson|Missing piece of removing infunc annotations.
+18ffdb59d6d0d0fb09ff3994e89a38f7f0aafe76|2017-03-23|Blake R. Johnson|Fix test_multi.
+04786fcbd27db36af9ab5760e9b90ae18958fe74|2017-03-22|Blake R. Johnson|Fix QFT test.
+480d7b93e215f1e3ce84cb563f09df82ff9bcdcb|2017-03-22|Blake R. Johnson|Fix tests 90 and 100.
+9c0ce6f0fff79d660166c55a299465390c4cde31|2017-03-22|Blake R. Johnson|Fix tests 55 and 84.
+232a7e379b0311f1d19d505b525193629a2598e3|2017-03-22|Blake R. Johnson|Fix edge test.
+0ef68904abf9cbec8dab18502224194e82f87f14|2017-03-22|Blake R. Johnson|Fix toplevel_binding test.
+987e1e67bda13a4b7777ee23c2268f2885d42aec|2017-03-22|Blake R. Johnson|Update tomography test.
+722cebfeda7fadce9a4657971bd7731fc85ca74a|2017-03-22|Blake R. Johnson|Produce a single QGL1 sequence stream.
+2be86b9f2efc07aaee0906d0f4045ebb1b34dca6|2017-03-22|Blake R. Johnson|Comment out compiler stages we don't need.
+e3df2cefc4c56f2d5810c89dfea0ba0f90079d24|2017-03-22|Blake R. Johnson|Don't bother with "infunc" annotations.
+cbd421f6cefc2dbd63d696b0ca92698054324459|2017-03-22|Blake R. Johnson|Don't bother with Qiter and Qfor nodes.
+ef42a9b1125661d6997032a6199dae71ffaf7362|2017-03-22|Blake R. Johnson|compileFunction -> compile_function
+b89bf1d120c8da01a56d925816c828803f7dd20e|2017-03-21|Blake R. Johnson|Print something at the start of each compiler stage.
+954002b8dce2a90127a146d839fca186c3e4a5fd|2017-03-21|Blake R. Johnson|Minimal documentation of compiler steps/stages.
+93e91f3cb853321899340850a241a5c237f40b31|2017-02-16|Blake R. Johnson|Simplify feedback examples.
+9f497d1901e476d0567ff461aeeb3e5b243f6b61|2017-02-16|Blake R. Johnson|Follow QGL1 channel parameter renaming.
+75daac8ad91aa96e310dc17aa2877cdcc4b8d694|2016-11-18|Blake Johnson|Merge branch 'f.setuptools' into 'master'
+dbec97b7449b77d03a7a3754d51765f968fb8e4a|2016-11-16|CoherenceController|Added setup.py for easy install. -MW
+d1b934f122ae57bcc4b13d919b1e9490bd9b810f|2016-11-14|Blake R. Johnson|Add top level README
+a37e616fcb0824ece4c02772f2a271b9aa080947|2016-10-24|Blake R. Johnson|Add QFT test.
+bd97ff67a424a24ff9a2a6bfcd3314471f7c5f05|2016-10-24|Blake R. Johnson|Remove some dead code.
+9fd85daa0d5a6264d5579ecff5af149c7d607d94|2016-10-27|Daniel Ellard|Merge branch 'f.109.detect-qbit-errors'
+fa489ce07d9993cc1ea19e1606344b4da6f5acbc|2016-10-27|Daniel Ellard|check for missing channels
+a4bec43f9a9b1a3912e08b386dda76dfe4a352c6|2016-10-14|Daniel Ellard|Merge branch 'f.107.basic-syndrome-test'
+4a308bccce870ba857a5ef9b134b9597cbb1a468|2016-10-14|Daniel Ellard|make the qbit names closer to "normal"
+f25e8b071bad4a94db6ab159b45040815168b0a7|2016-10-14|Daniel Ellard|very basic test for syndrome calculation
+969459834e92ebef2e115df9e432854d56cc510c|2016-10-14|Daniel Ellard|making a directory for syndrome tests
+33b817dfe7a03232d53f7db1bc0d18d98a364854|2016-10-14|Daniel Ellard|replace pseudocode with more realistic pseudocode
+6173885ffac94b6562a130971c76fa0b719ae7cd|2016-10-13|Daniel Ellard|Merge branch 'f.106.fake-channel-lib'
+5fedc3f741202f5a0209858aef39fa476f920fe2|2016-10-13|Daniel Ellard|add -C flag for default channel creation
+0f75a5d81f2995a839dba3e2c8ae4443346fd182|2016-10-13|Daniel Ellard|fix call to sys.exit()
+39e3932cd90e5ef914db10f83a30b0dd04f434d2|2016-10-12|Blake R. Johnson|Update DecouplingMin methods to take arguments.
+968345dae11e8dbf983c06dc26cd22c6cac38aa4|2016-10-12|Blake R. Johnson|Update AllXY to take an argument.
+17021746105e99bbf6361f3c75564e5655048faf|2016-10-11|Daniel Ellard|Merge branch 'f.105.speedup-checks'
+89ce070f145292b0276f72ccf8cf9fbe7cb59ba5|2016-10-11|Daniel Ellard|fix name resolution; short-circuit sym checks
+d21eea83b61377bb1a57dd6b0a0f8b88be57bf8d|2016-10-10|Daniel Ellard|Merge branch 'f.55.array-tests'
+7cb634dd515ac6ad148ba5e261e563d8c833f0be|2016-10-10|Daniel Ellard|add test of append -- currently fails
+847c6d602db69e680c482b6de83d806bd09ce0ee|2016-10-10|Daniel Ellard|tests for some side-effect operations
+411705e2808ad36face67aa753a5d49c5911c87a|2016-10-10|Daniel Ellard|Merge branch 'f.103.handle-empty'
+68f72663587af789e5a3c944b841e0932255add8|2016-10-10|Daniel Ellard|fix test case for empty program
+a65b9479f6dc37d81e38f6f5ad495865b8f93fc4|2016-10-10|Daniel Ellard|don't crash on the empty program
+3b84f66feb59170687f19c9ad09473771286e5d4|2016-10-10|Daniel Ellard|Merge branch 'f.99.filename-as-code'
+013cb3bf12a78cf63f021e8e89f600829bc97852|2016-10-10|Daniel Ellard|don't try to interpret filenames
+e05331b74e9a9a0e44f3ed5585678b5e8b227040|2016-10-07|Daniel Ellard|Merge branch 'f.104.speedup-grouper.rb'
+9acaad7dfede78fb06880fa7b4cc0f7af97cf2c2|2016-10-07|Daniel Ellard|improve the class comment for QbitGrouper2
+0151c5d99395750d260bef24bf188e51195c3183|2016-10-07|Daniel Ellard|reduce unnecessary copying in the grouper
+c07ad45f0d29d88ac0b32f92cdc5b94b35cfd80e|2016-10-07|Daniel Ellard|QbitGrouper2 doesn't need to be a NodeTransformer
+a4e9b584ec2385271b2a8b174cd697da236dd543|2016-10-07|Blake R. Johnson|Add arguments to FlipFlopMin functions.
+5c12dd53a964fb5e4ea4bc1ef5110358b8bb404c|2016-10-07|Blake R. Johnson|Update SPAMMin to take arguments.
+d1933f993494b1ef04d79cd39d3165009d62dff4|2016-10-07|Daniel Ellard|Merge branch 'f.90.scope-issues.rb'
+f4bcceefe28a94524afdc79032588fed6ffc2964|2016-10-07|Daniel Ellard|added test case for completely empty program
+666d5a68107cebbc708a030d40c307e514aacb03|2016-10-07|Daniel Ellard|simple tests for issue 84
+a236c99bf96716c6aee8142c16e9a2663ae47a2d|2016-10-07|Daniel Ellard|tests for issue 100
+2c991f9217fcaa19ebc5cdae6865417719956f16|2016-10-07|Daniel Ellard|make rewrites transitive
+3eea02db2ad3d45b8770afe2570e532740fcae61|2016-10-07|Daniel Ellard|remove the bandaid application of the rewriter
+c3f3f7558e751d3dc21a3ffcc3f63444ec9fcc95|2016-10-07|Daniel Ellard|tests for issue:90
+c021be39f57eb221305e1b987d332ce5d1ad165c|2016-10-06|Daniel Ellard|make sure the current rewriter is applied
+7f140d94808dfcfe9aa3d166e655ed117e48c3ea|2016-10-07|Blake R. Johnson|Update T1T2Mins to take arguments.
+9589e07bf9bf4718438097274d9b66baedd3e222|2016-10-07|Blake R. Johnson|Update doRabiAmp_NQubits to take a qbit_list arg.
+971df15c1c3578d09c6479daaa8007647ff07a3c|2016-10-06|Daniel Ellard|Merge branch 'f.101.handling-format.rb'
+cf0bada178af4dea3dbba067b34440de6e6809f9|2016-10-06|Daniel Ellard|escape format markers in strings
+28a7257716b607c1c09b7e2cffffb032a8a6d4b4|2016-10-06|Blake R. Johnson|Merge branch 'brj/simplify-do_for'
+ee8c1d0b16cae0fcac2f2a0214b9097666325280|2016-10-06|Blake R. Johnson|Simplify iteration in EvalTransformer.do_for()
+ab6499e15b8af7ef04ff900bcd6293c94d9bcf5c|2016-10-05|Daniel Ellard|only keep non-empty with statements
+e19f55ee26bba0bc9cafe134544c98d2ee9201c5|2016-10-05|Blake R. Johnson|Merge branch 'fix/qbit_list-args'
+e25b68d34688f9f8c909288b056b3dfef2359b4f|2016-10-05|Blake R. Johnson|Skip copying in fake_assignment.
+71a0dbb1d730f495266876b5aa16ba0587f0f8d4|2016-10-05|Blake R. Johnson|Split up expected sequence into single-qubit sequences.
+90c81c363a73d170b2e5f84abbd305dd3434d50b|2016-10-05|Blake R. Johnson|Need to keep all elements of the statement body.
+c29bc08398a92f7b26312c08f6665865cbab437b|2016-10-05|Aaron Helsinger|Merge branch 'fixCPMG.rb'
+de08d6b7a6c50a16115fd77999eb35612693c630|2016-10-05|Aaron Helsinger|remove test code now that doCPMG works
+cc6ccf6dfba0070af18a5f6226741156cfef8ad4|2016-10-05|Aaron Helsinger|update comments now that qbits are real but read-only
+b3bff13f83081af9987d1d91ce1ba2df96836a9c|2016-10-05|Aaron Helsinger|Issue #65. Make doCPMG read real qubit length. This does not yet work. Added debug printouts, to be removed when this works.
+e996b57229624dbbec6191cc5e73c17569e9597a|2016-10-04|Blake R. Johnson|Construct the tuple after explicit QubitFactory assignments.
+8c8062e62bfdc6ef728d8128e44fef382daa3cb6|2016-09-29|Blake R. Johnson|Attempt to fix qbit_list top-level args.
+0a2d00c97f489253bc2966d44e991bccc4d4317a|2016-09-29|Blake R. Johnson|Add a test for qbit_list top-level args.
+b818c774957b78c3b3c443563225eace003c5bd7|2016-10-05|Daniel Ellard|use QubitFactory instead of Qubit
+77d7b19a9e3e70d605be586cea582cf522e41766|2016-10-04|Daniel Ellard|Merge branch 'f.60.make-paths-relative'
+745140265882c402267fbce13d157de034e1d99b|2016-10-04|Daniel Ellard|make sure filename is relative
+ef2db0ad5893390621c4bcf2e348be1394acc7f9|2016-10-04|Daniel Ellard|Merge branch 'f.96.qbit_list.cleanup'
+4611edd714d596507beed2a26db2471c20df2d03|2016-10-04|Daniel Ellard|use new use_name() method; revert to Placeholders
+d68d8b2be4baeb6f093b55e5374a29c26b7b0aaf|2016-10-04|Daniel Ellard|insist that qbits are QubitPlaceholder instances
+593f76a84a24b93029bbc18e15a83edc48a698bb|2016-10-04|Daniel Ellard|comment qgl2_check: we insist on QubitPlaceholder
+83a0a189df522fc4e101fc80f1989dd5ad08c4d9|2016-10-04|Daniel Ellard|check that the label is well-formed
+7efd718ffcd5f3c32725d92a0a9cb93beeaeba9d|2016-10-04|Daniel Ellard|revert to QubitPlaceholder, but with new class
+c1ea1b08865aefe9c63ba68d47e10c53e46709bc|2016-10-04|Daniel Ellard|QubitPlaceholder subclasses QGL.Channels.Qubit
+ad545e053dab391e567b59e2ba672b39b8a337c6|2016-10-03|Daniel Ellard|starting change to real qubits
+8ecf32fcfabce60513bc2810137d518d89084f0b|2016-10-04|Daniel Ellard|resolve merge/rebase conflicts
+9a9208211be9de5c36e37e2f12d3c9e194909919|2016-10-03|Daniel Ellard|start of support of real Qubits
+535d2a950f6b1e146eea1898dda3f31979f4a5b0|2016-10-04|Aaron Helsinger|Merge branch 'testCleanup'
+2039148c0479387a4147c430a84c9d39f53a895d|2016-10-04|Aaron Helsinger|remove fixed FIXMEs, and remove more wrapping of generators with list()
+9bb712f1237a856a6319e7d96bbfd6bba9932b7c|2016-10-04|Daniel Ellard|Merge branch 'f.63.iterate-over-generators'
+1393dcecb5d7ed65ed27a129039d51c53b215e6b|2016-10-04|Daniel Ellard|test for allXY the "QGL2 way"
+cf7820b16fd2d366ac7e784076b2b9a0dc93682f|2016-10-04|Daniel Ellard|handle generators as iters; lazily create values
+6306f5adfd154ce2ef7e5c9f3893305e1f669022|2016-10-04|Daniel Ellard|add Ramsey test with normal generators
+03c26455781c778d70212f5a02c80c30bc4bbb06|2016-10-04|Daniel Ellard|test_tomo is now expected to work
+b9bca508b730daacc01aac8b13a0f3b9a6ebfa9f|2016-10-04|Daniel Ellard|add Ramsey no-list test, now that generators work
+4a0f034d77dd23e43683f4ab2f7cdea1f8aefdb3|2016-10-04|Daniel Ellard|Revert "add a test that we can can loop over generators"
+3d064f4623cb66d0b38e504ed474822214fc7e23|2016-10-04|Daniel Ellard|update comment about generators; they work now
+2756fb1d8bef073ce882b03aafd7eaed431c14dc|2016-10-04|Daniel Ellard|add a test that we can can loop over generators
+8b5f919088c437d6ceb215b24ceed3f58334acc7|2016-10-03|Daniel Ellard|Merge branch 'f.96.qbit_list-basic'
+61ddfc7d0ff3f986ee0214c8bc407a56cc378ce7|2016-10-03|Daniel Ellard|permit qbit_lists to be tuples also
+491977725804cd0e8aced74dd8cd46f672229ef4|2016-10-03|Daniel Ellard|add check for qbit_list
+720f9c5451e35ff1fddab56b97c998e179469dac|2016-10-03|Daniel Ellard|force qbit marking recursively in the final pass
+52667241f29fa6d7dc65c77411ea3368eeba4bba|2016-09-29|Aaron Helsinger|Merge branch 'noSequence.rb'
+73d3663612c5127c1e6b036a9f40e86089645906|2016-09-29|Aaron Helsinger|Issue #78: remove sequence return annotation usage
+3bfe751db8d3c46463119be914a2cac7094da49d|2016-09-29|Blake R. Johnson|Add arguments to functions in RabiMin.
+4d4482de68da8dfcd9a3683e4eabae12988943e6|2016-09-29|Blake R. Johnson|Remove measChans from create_cal_seqs.
+ac31024e699b1029e5abdaa3d10005badf488f4f|2016-09-29|Aaron Helsinger|Merge branch 'calSeqs.rb'
+6a434ccb0431faa3f3da1d2f4be6ab3da446285a|2016-09-29|Aaron Helsinger|Update tests to test sequences with calibration, using the new helpers
+a5654152dd88df7882c8e1564bc4b405316cc281|2016-09-29|Aaron Helsinger|Add 2 helpers for generating calibration sequences when there are 1 and 2 qubits
+f50249dc82f3502d5234037fb5eb0fa22ed41ce7|2016-09-29|Aaron Helsinger|enable calibration sequences
+38d7e74ff3da509312382d8117d86fdb4745bce7|2016-09-29|Aaron Helsinger|cleanup. Work around issue #90: conditionally setting measChans doesn't work, so always replace measChans with qubits for now. This makes calibration sequences work
+3e0f8b30e048f342aba527de2f05d90430e40a1d|2016-09-29|Aaron Helsinger|use quickcopy not deepcopy in inliner
+2dda94cc53f72247ed39ad3cf7637162f81f2f64|2016-09-27|Blake R. Johnson|Get create_cal_seqs closer to a working state.
+415ecdf4aea7ea39905f78fc2c06b9a399aeeda7|2016-09-28|Aaron Helsinger|remove 2 swp files that crept in
+7bb096e8f244ba9924eff4a1a3ac26bf7a7f1243|2016-09-28|Aaron Helsinger|Merge branch 'f.runtime-ah.rb'
+706341fa677c38073a5e5cc6ec85fa771b3418bd|2016-09-28|Aaron Helsinger|rebase errors fixed
+84a76946f6980331a4153dc9af13e5b6ad766f2d|2016-09-28|Aaron Helsinger|rebase errors fixed
+4bb20c45b541d7dba6456cded56932f628f99851|2016-09-28|Aaron Helsinger|rebase errors fixed
+1bc598b356621ea0baec225b640f0a8a092bb671|2016-09-28|Aaron Helsinger|Check for None loop_values in do_for: Causes obscure error later if we don't catch it nicely.
+1319777c1cc8972ba40595e08dfd3a7627cb7837|2016-09-28|Aaron Helsinger|remove more FIXMEs that now work
+e07e07028cf66d29fb7ffd1f437550ed8c89a033|2016-09-28|Aaron Helsinger|HahnEcho now works more fully
+c62613279d611bc2e4384e16daa118759833f5c0|2016-09-28|Aaron Helsinger|remove fixme comments
+e45e88637feb3c1b3fe7dcba676b6ad8ad976c22|2016-09-27|Daniel Ellard|fix location of test code for edges
+d6d6e6c68520ad1763d656298cc169ad93443073|2016-09-27|Daniel Ellard|test_RabiWidth and test_AllXY expected to work
+62409cd6269ea8644472010e2a7636ff556b76d7|2016-09-27|Daniel Ellard|move compileAndPlot to plot, to fix tests
+68a2c89dafa19dc73b7b221abfcde55245394383|2016-09-27|Daniel Ellard|move tanh to pulses; mark RabiWidth as working
+71b371604c2d63f47c4086975dcb83836cb241eb|2016-09-27|Daniel Ellard|move pulse shapes out of RabiMin
+ebbe7b3dd394d01a709cb375e67c1c95353e9ce3|2016-09-27|Daniel Ellard|fix call to compileFunction; preserve local state
+07113d389dc8436af2e2a96661375cbb8ec16f0c|2016-09-27|Daniel Ellard|new utility for grabbing the local state
+822dacd6f543615fc8cb0bbf74b523abf179c4d4|2016-09-27|Daniel Ellard|move test code; no more expected failures
+b342fd4cdb7bc1f6c28b6ad823c01e08086d12a9|2016-09-27|Daniel Ellard|move toplevel_binding test code into test/code
+9904439ab96c4e0289d8c33d7506ff63ba8d336c|2016-09-27|Daniel Ellard|assign the expr value directly to the temp
+0ea2e6e31197db97d0fdfbb5afc4b3dc0fb19e38|2016-09-26|Daniel Ellard|fix how call-by-ref builds its with-infunc
+4c34db8fff6964b79936963d2841f795c74f856f|2016-09-24|Daniel Ellard|noted possible error in if/break; needs review
+8568b6e6b78eb719cde3f2d969e347cbced2c7fd|2016-09-24|Daniel Ellard|when we add checks, mark it as a change
+4ab7da4826dc5ede7c520bf03d6b14242d8dbc99|2016-09-24|Daniel Ellard|fix path to test location
+60ff672fe63657948385d69b9f33e497f58ef28b|2016-09-24|Daniel Ellard|remove import of create_cal_seqs; fix Id() calls
+42f5e63fc9cd40e7678004f4cd4c544cb35761b0|2016-09-24|Daniel Ellard|remove refs to QGL; copy over tanh; fix Id calls
+7d51040821a2b7be9aaa1a326f4053500b375814|2016-09-24|Daniel Ellard|fix typo in flat_top_gaussian_edge stub decl
+aad5b4c678ff6da9931bbea524699a2be4756938|2016-09-24|Daniel Ellard|add the QGL impl of flat_top_gaussian_impl
+42bbab0943065a0535b5daf85482e9a1b3db6d14|2016-09-24|Daniel Ellard|make flat_top_gaussian_edge_impl a stub
+bc7fd1089b8dfc8828c10db3ea0d003060c6915e|2016-09-24|Daniel Ellard|do not import QGL's qwait; unreferenced anyway
+d465584177b0261ff6d42152c55b257ac7bb8f19|2016-09-24|Daniel Ellard|def measConcurrently here, rather than importing
+a29ad125d1662023231fef50e27ee697ded4c333|2016-09-24|Daniel Ellard|remove unnecessary create_cal_seqs; fix Id call
+c0c19b3177f13755d7e2cc341a5bd5a901bb051b|2016-09-23|Daniel Ellard|split qgl1_util into stubs and implementations
+a22ef357d24769a3f6913c0ab97967d80a4fb315|2016-09-23|Daniel Ellard|add imported symbols to checked scope
+6c9e4ef845ad4c297d46b9196fe714f752a8781f|2016-09-22|Daniel Ellard|new impl of init, as a stub
+07de565eb23a4063117818f44b0c1993800f5c30|2016-09-22|Daniel Ellard|don't emit single-qbit barriers
+09dd93a8aa98726aed7083952cff3ed3c0afa5eb|2016-09-20|Daniel Ellard|fix path to test source
+c2141967280aec3b34745815a2b49776ceedbdb1|2016-09-20|Daniel Ellard|extend to handle things that don't pickle
+1232d7c5d4d443c6e367c3643e17422800cf7e39|2016-09-20|Daniel Ellard|reset errors in compileFunction; print parameters
+24c647d0cc1c287df45536fa8d57705d1e4bf6ec|2016-09-20|Daniel Ellard|soften warning about failed inlining
+da710b993ff14915935d4b92176187fded25f651|2016-09-20|Daniel Ellard|Revert "Revert "resolve merge conflicts""
+f3ca23047910d5752c2207031afa83ce1cd24295|2016-09-20|Daniel Ellard|move the old tests to test/code
+48a6251c9b96234ed08c2bc9d16a085f5d815586|2016-09-19|Daniel Ellard|detect and fail on function expressions
+567e7b44cf7cdf514a4dc5b9330ad4bfe6866588|2016-09-19|Daniel Ellard|let reset() set MAX_ERROR back to NONE
+7dfd483ce04c8a50399506273e659c0da1e95edd|2016-09-19|Daniel Ellard|force file close rather than letting the gc do it
+6848fc22a83b00082c9e0e1895e6463c8a90c033|2016-09-16|Daniel Ellard|only paint control statements with call info
+4f4b71beeaba6a1f2e9d945f2a3e50eaddf54876|2016-09-15|Daniel Ellard|QGL2check is no longer a top-level helper
+dca7b6b4edc1742d814495d456128e10beffa88f|2016-09-15|Daniel Ellard|remove unnecessary imports of qgl2_check
+2c565e27b101cc1f6e4548996b1cd78e841e997b|2016-09-15|Daniel Ellard|changed literal QGL2check to use lang name
+46c795c32302219a312d0e21167f3110dd1b9a9f|2016-09-15|Daniel Ellard|move QGL2check into pyqgl2
+c7497df9f519ff1b808cbc2bafae21752051fe1f|2016-09-15|Daniel Ellard|removed old code; move to new call checker
+eddbb6b024af7745bf53edccef6bd53f910e6e6f|2016-09-15|Daniel Ellard|add constants for the checker
+30ad36a9c9dd5f41f765fa0395d5c664a10e3455|2016-09-15|Daniel Ellard|more docs for call_checker
+ad66aad5919b9be3fa1666414ef6b33de1936a95|2016-09-15|Daniel Ellard|rough version of new type checking calls
+b7cd8659d0b8aa4cf22a882feca7cbef1eae340b|2016-09-15|Daniel Ellard|remove extraneous diagnostics
+28a519b4f9985b4dfd7d332029d81bb7f3248eb3|2016-09-14|Daniel Ellard|trying to give better feedback for import failures
+7c9bf9cf77fad4ebb09b5b5ba2ff654a13e58be5|2016-09-14|Daniel Ellard|improve the diagnostics about ignored imports
+ef02f8a3487b20756caf665b6d764d0c1920770f|2016-09-14|Daniel Ellard|exec qgl2 imported modules against native_globals
+9866273da547f0772f35b2adce4094a1652af501|2016-09-13|Daniel Ellard|do a native_import to bring in local symbols
+4d1336e092148ce229b13d716336dc9ad5a279ca|2016-09-12|Daniel Ellard|use new interface to add_runtime_checks
+f45d6e98217225d4b81f47d7f554f581e9851781|2016-09-12|Daniel Ellard|fix typo (commented out wrong statement)
+b880f02b6abe665fa8c3f300b0a0e674620a3488|2016-09-12|Daniel Ellard|new combination checks (not referenced yet)
+72cacc79eaf15d058bcd932607d06d6b3d8d175d|2016-09-12|Daniel Ellard|fix position vs keyword args
+5630289a9f2409856304d4dc5b49c22098da1da1|2016-09-12|Daniel Ellard|notes about decreasing memory consumption
+5d92ef4212c54230918036bcdfb8313bd7ee2342|2016-09-09|Daniel Ellard|test program based on Aaron's test-cliffords
+25980e477b48585bbd28f64ca216507ee8069aaf|2016-09-09|Daniel Ellard|removed inadvertent debugging msg
+b26ba3037661c276113a7c3b7a5a52aac00773e1|2016-09-09|Daniel Ellard|handle references to from-as qgl2decl functions
+d72caa7df364f7f1ce6cc4ccc78b1089e07bce8f|2016-09-09|Daniel Ellard|add real Hadamard; change fake CNOT definition
+5f42bc28867d93359a63a480da3904dfd7d33bb9|2016-09-07|Daniel Ellard|may revert - remove check_symtab from main
+b2006dcfb60688d49d2f83c1bdc702c23b1601ef|2016-09-06|Daniel Ellard|don't treat undefined function names as errors
+9cc453db37ae8a16a4f86469caa7bc2dc9651b85|2016-09-06|Daniel Ellard|comment out unnecessary diagnostic
+2699c9aa7e3fbfa8287e3ac1b6c6db8b62ef7449|2016-09-06|Daniel Ellard|clean up how function refs are checked
+c6dbd2b3879e4d99dc115d4c03a845f2d6ffd78f|2016-09-06|Daniel Ellard|add function name: make QGL2check more informative
+e1676dd3857d49811eddde4e419c36cb867b96f9|2016-09-06|Daniel Ellard|inline qgl2 funcs by references/no err checking
+7d3717bbc80e3b3d6451ac2ff837ae754ea28e9d|2016-09-02|Daniel Ellard|sketch of runtime expansion of func refs
+2e6ce391646c6a0ee41c0b9591c21d330fcfb5e9|2016-08-31|Daniel Ellard|disable qbit checking until it is fixed
+ed4043265dbb168f871f0912624a38de895fe127|2016-08-31|Daniel Ellard|don't assume all calls are directly to functions
+9edea011b124607c51e3a4c78ebbc7590129b854|2016-08-31|Daniel Ellard|clean up and add some comments
+e308dd01ef23bb10ad5873c871acd6675670dad1|2016-08-30|Daniel Ellard|sketch of syndrome calculation
+dd5bd31fd9f4d72e1ca008ecb54869c75ac6f8e3|2016-08-30|Daniel Ellard|fix typos in use_name -> new_name
+2c05aa20f9e62c8d0109e39da2b1db2915861a3d|2016-08-30|Daniel Ellard|don't deepcopy the local state--it breaks references
+4c7a814a0aed61c4361ed0dee5b4586c8b424c4a|2016-08-29|Daniel Ellard|method to eval a single statemnt (i.e. assignment)
+dc3cf36f7d3749770848fcc440337e487c29cdda|2016-08-29|Daniel Ellard|handle subscript element assignment in eval
+afbbade7e99bb424b40a75aea68bc77f16ab6d26|2016-08-29|Daniel Ellard|add subscripted/arrays to find_names
+2e89b67c2a84a0d1a44bb4a83773ae9e827a2ad0|2016-08-29|Daniel Ellard|add facility for finding subscript names
+9893d27abe63fd75f77b1e374bee0a64f9530c83|2016-08-26|Daniel Ellard|sketch of syndrome computation
+8c8cca897c43f56f7bc0504add6d441b7d09fecf|2016-08-23|Daniel Ellard|detect bad calls (i.e. redefined parameters)
+fcb16bfb7c3979dd923dbed02665f8a9afd222ec|2016-08-22|Daniel Ellard|prototype of type checker pass; probably not used
+5431f01e6410ba93273db439d5f781b99fde3774|2016-08-22|Daniel Ellard|fix type of what a "qbit" is
+0aca44a93f0b0a3e99de37886ed0b3786db085ce|2016-08-19|Daniel Ellard|return ERROR instead of False if failed
+9cb2afe9dc9f927591a260e226984540d3370116|2016-08-19|Daniel Ellard|remove error msg if we call a "library" function
+589e28d94e99a2d4f9b04cbdfb9615d5635f050d|2016-08-19|Daniel Ellard|add original name to check; remove diagnostics
+cafe6269726ce6481a33f9aa2bcd854c87fe38c9|2016-08-19|Daniel Ellard|prototype of the QGL2check procedure
+65fa5a9942c61ca2b32d92d9e6f48f4e70cd8ff6|2016-08-18|Daniel Ellard|cleaned up how the runtime checks are added
+362b36d9e9f9d57a6e63552b78b5524049c52b13|2016-08-18|Daniel Ellard|fixed runtime checks for stubs
+2c7267243798adbacc4f07368be0e438b009bb94|2016-08-11|Daniel Ellard|clean up inline checks for param types
+ada4818fa41409cfdb4f4ad246d1f122e852209d|2016-08-11|Daniel Ellard|basic checking for annotated fps
+9f605dd820a879a0285c425e6a98c7d00685202c|2016-08-11|Daniel Ellard|prototype of checking code (for args, not kwargs)
+f47fedc4e00943e990d6aaa102546ccf0e461b40|2016-09-27|Aaron Helsinger|Merge branch 'replBarriersPerf2.rb'
+efedc08ec3dee24a1dcc58842709815e79863a13|2016-09-27|Aaron Helsinger|use copy.copy instead of quickcopy here; it's good enough. Also do sorted() many fewer times (don't sort list of length 1, sort positions once per sequence)
+014ad9839d16fd8d10cbc5705fd460497003b1f1|2016-09-27|Aaron Helsinger|Merge branch 'replBarriersPerf.rb'
+6785cdccb960d6740112ec1b0a46f387e1f98417|2016-09-27|Aaron Helsinger|Performance improvements to getNextBarrierCtr and markBarrierLengthCalculated
+3624bb55bbe1ad664147c5c7aae7e53b110afa73|2016-09-27|Aaron Helsinger|unit tests always replace any existing channel library.
+c2a70bfb52c034efb97fae09c9dfa5ca729cc220|2016-09-23|Blake Johnson|Merge branch 'feature/toplevel-bindings' into 'master'
+930523c1c525de0ee25bb06fe0f8b079be64d795|2016-09-23|Blake R. Johnson|Catch wider variety of argument errors.
+90fde9aab208cb7b0e764de20009e46678c59ae6|2016-09-23|Blake R. Johnson|Replace deepcopy with quickcopy.
+53aa630dcdcbce14118eaebd0ff211582e489ad9|2016-09-20|Blake R. Johnson|Mark failing tests.
+8708104fbfa3257a0d462741b1273259f9f08332|2016-09-19|Blake R. Johnson|compileFunction should still work with toplevel_bindings = None.
+00c77f4e1d8b528cf330c8a965dc44ef248cfcfd|2016-09-19|Blake R. Johnson|Try a functional handle as input.
+0b93b5de5824af6abfbe5d6f44f47ede5dcc917b|2016-09-19|Blake R. Johnson|Remove some uses of kwargs in resFunction.
+cc6d6bc7882fe4742346762ceabd214a384d8f44|2016-09-19|Blake R. Johnson|Allow Qubit parameters in top-level bindings.
+75894bc5b969108afc285651c4f80c4c77465425|2016-09-19|Blake R. Johnson|Copy top-level bindings to avoid unintential modification.
+3677c10a9f69f01971dbdb8eb67a0aa0f8d5161e|2016-09-19|Blake R. Johnson|Initial attempt at allowing top level bindings to qgl2main functions.
+5ba8e6f1dce4fcbe7c75e2558c62e313138c9353|2016-09-23|Aaron Helsinger|Merge branch 'develop-ah0921162.rb'
+5cdb43a5023f0831d69fe58459bf81d5e81c23de|2016-09-23|Aaron Helsinger|Make init a qgl1stub, so QGL2 doesn't get confused by this function that uses no qbits
+05b10c44be155cdae2b4ba8eac4d1e74d9501a24|2016-09-23|Aaron Helsinger|Add rewrite of assertEqual for pulse sequences that uses difflib.unified_diff instead of ndiff - MUCH faster when the test is failing
+ba44e93a6b3eb9e243b85dfa3c447705e22b0572|2016-09-22|Aaron Helsinger|speed up barriersEqual() function by using a hash, stripping useless code, adding a try/except instead of trying edge cases first
+5ab97ca3f130d68309300d395b2419cde2913ad6|2016-09-21|Aaron Helsinger|Merge branch 'develop-ah092116.rb'
+b44db5a4c9d492a26f3be6714f35d35fa905668b|2016-09-21|Aaron Helsinger|Move creating channel library for testing back into test directory
+952dd989e3bea2f3543d7cd9e7d97f05aa035a3f|2016-09-21|Aaron Helsinger|Merge branch 'develop-ah091516.rb'
+d4f4f6887422e5821c1b299e022f0d79357584a4|2016-09-21|Aaron Helsinger|move test channel setup code back into the test dir
+87e99fa5b60c95e5005cda6f28e1491bcf79bf9b|2016-09-21|Aaron Helsinger|trim trailing whitespace
+956212e98268257196d918fd4c6841aecca8f654|2016-09-21|Aaron Helsinger|Add tests for test/edge.py
+a7d763c536918c55d62a28563770cba2b27a6a43|2016-09-21|Aaron Helsinger|Add another edge from q2 to q1 to support edgeTest4
+42ac0100eee487900b748cd5f7b5e287bb6e924b|2016-09-21|Aaron Helsinger|we flatten sequences before comparing them, so flatten these that use echoCR
+5c76ad62ff8f8eaf65da5717506e20d98578ec7e|2016-09-21|Aaron Helsinger|Add flattening of sequences to make them testable, so we can support echoCR
+348ef91c136834c516e89fd54f48bdfcf4591a4e|2016-09-21|Aaron Helsinger|Make tests for Swap and RabiAmp_NQubits work
+1a21dd1faaa1a563ad8ce349d3ef5c87ca3d8132|2016-09-21|Aaron Helsinger|RabiAmp_NQubits: dont re-assign measChans (fails). Replace zip with enumerate (more readable). Make MEAS work on measChans (despite bug in QGL1 that does differently). Swap: Assume the QGL1 intent was to do the Xs and Ids as fast as possible; the QGL1 function may be meaningless.
+1f74a81deb8aeca2cecfbd778661508c9d2600ed|2016-09-21|Aaron Helsinger|typo in comment
+62e6d0793036a0e1811e0ced7c898e1380c01c40|2016-09-21|Aaron Helsinger|unit tests to run test/multi.py
+693d76d959e5944ed3a39f3afc60734e1162d12d|2016-09-21|Aaron Helsinger|Add a 3rd qubit to the test channel library
+64740a570fe942e2acc5ca955fac1bba67553f81|2016-09-20|Aaron Helsinger|debug code for Swap, fix import of channel setup functions
+db6d3739e75272be796f25530cdfa878edb0b53b|2016-09-20|Aaron Helsinger|move test functions for creating a channel library into pyqgl2 so main.py can use them
+337228264a2260fb9f9b3d5dcc15e3cd947f72ab|2016-09-19|Aaron Helsinger|absolute import of helpers to support other run modes
+51074226af6a68525168ff88c5e230eea7ce0918|2016-09-19|Aaron Helsinger|creating the test channel library for unittests replaces any existing channel library, so we get consistent test results. This allows test_tomo to work where you have a channel library with q1 and q2 having different lengths.
+3337c7e54bca2f5217d95353cf6c3b6a128c9dea|2016-09-19|Aaron Helsinger|replace another deepcopy with quickcopy, where it showed up as expensive timing test/tomo.py
+a07929ec22c3296626eccd7332acc393b66825f8|2016-09-19|Aaron Helsinger|document that you should use a pure python function where QGL2 is not needed
+377842760633691247681a3c022f1c3b08d45802|2016-09-15|Aaron Helsinger|Merge branch 'develop-ah091216.rb'
+ccfba4e830540ea96330370ae8278a4a0630159a|2016-09-15|Aaron Helsinger|remove blank line
+d3de87fa0b4eb305fb1d6eb07a59ed0a68cdd27c|2016-09-15|Aaron Helsinger|add tests for most of the basic sequences, reflecting current status. So no calibration sequences are done, RB.py tests not included, and various #s are hard coded. AllXY test is disabled (should work soon). Haven't quite finished tests for Swap and RabiAmp_NQubits.
+f06e488c973c0dcffce8f9ce3f6550baac451962|2016-09-15|Aaron Helsinger|comment on slowness
+5c756b507688cff353ca027bc7711bbcb738ebce|2016-09-15|Aaron Helsinger|typo in param name
+fbfa3804c8964c4400d5690624477e6e8bd001b3|2016-09-15|Aaron Helsinger|fix import of quickcopy
+81e486cb656228addb724032cc1d8edb04d721ce|2016-09-15|Aaron Helsinger|rename FlipFlopMin to doFlipFlop for consistency, and rename a parameter for clarity
+467892d4bf102a5486ba18dc5b848f510ef6ca9a|2016-09-15|Aaron Helsinger|Various performance improvements. Use pickle (in quickcopy.py) instead of copy.deepcopy. Suppress debug printouts if log level 3+ (-D3 or -D4) and if didn't specify to save intermediate output.
+2b099279cb339afbc5e464e40c3fbed00c8f48be|2016-09-14|Aaron Helsinger|update lists of issues
+2b97b7b7b9d61af51144b25413c7843a67de7c76|2016-09-14|Blake R. Johnson|Merge branch 'test/rabi-cleanup'
+91418d1bd17b7684e7eb06f405b68ae7d9b31396|2016-09-14|Blake R. Johnson|Fix whitespace in test_compiler.py
+e591628c28a1072e9f4ad6875d07d72dcb6a06a1|2016-09-07|Blake R. Johnson|Cleanup of Rabi.py
+bf8cfaf8ddcd4c3e3a0cd3ae4cc1031cc8378d72|2016-09-13|Blake R. Johnson|Remove dead doRabiAmp3 and doRabiAmp4 tests.
+8ef163c973be2334f5f7850ca6e25148da2e43ac|2016-09-13|Blake R. Johnson|Fix a simplified version of tomo test.
+8b177b46bd5def6809ff6d2d37f00ba3218323a2|2016-09-12|Aaron Helsinger|Merge branch 'develop-ah090716.rb'
+f2828e3bfe933a2d4b9111a7125f5207cec6a038|2016-09-12|Aaron Helsinger|clean comments on what works & doesn't work.
+54f882a9e98ca017fc3b027ff85c003fe97b4a9f|2016-09-12|Aaron Helsinger|clean up FlipFlop, get it working. Instead of setting new dragScaling val on the qubit, set it on the pulses
+03077bcf6b8ee1f962d0b8a881384b9b16b65fef|2016-09-12|Aaron Helsinger|typo in method name
+878be35fcde09a64716aeaba75cc9c83e9386411|2016-09-12|Aaron Helsinger|comments/cleanup. SPAM works (with fixed args)
+9690375f0473337f0aa3593260803bdb26444a62|2016-09-12|Aaron Helsinger|add missing Swap and RabiAmp_NQubits. Comments/cleanup. RabiWidth still fails, and you can't do calibration sequences
+258626ae0b8cc4848cf347b13ef5132e5f737dd8|2016-09-12|Aaron Helsinger|comments/cleanup. Add list() around zip(). Add a missing import. With these changes, doRamsey and doInversionRecovery work (without calibration sequences)
+1195b2ce634600cf44babc441b894500262dee9f|2016-09-12|Aaron Helsinger|typo in body of qwait stub
+17844923d90d765349921d6974d7e5febd3d3c52|2016-09-12|Aaron Helsinger|basic implementations of PiRabi, EchoCRLen, EchoCRPhase
+b5ab11e9758a6e4870d324e35294429264aae691|2016-09-12|Aaron Helsinger|new stub / function to do a flat_top_gaussian on an edge, to support PiRabi et al
+fe32d06a1abd6c3410156b04cfff00b12201c99d|2016-09-12|Aaron Helsinger|comments on making this work
+36f8ad5bfeadb0f22c9b87998692d0de0b0c04ce|2016-09-12|Aaron Helsinger|Add timestamp to some printouts, and in verbose mode print memory usage at start and end
+bdd8683903b9fe4f6803259b76e5ee72ad7ffeed|2016-09-12|Aaron Helsinger|Comments. Wrap calls to zip and product in call to list() as you can't iterate over a generator currently.
+736e28cd113ab3ed78568a82a5f831ab845f6e27|2016-09-09|Aaron Helsinger|wrap a few more logger calls in isEnabledFor
+6577998beb36fc49b99e50a9253d5e32226ef37c|2016-09-09|Aaron Helsinger|Put a potentially expensive logger.debug call inside an isEnabledFor block
+e937c1ca91d90f2028ad1d12dadac85fea2e1e58|2016-09-09|Aaron Helsinger|Move creation of AWG to sequence map to after we remove empty sequences (if any), to simplify code
+967712573ed696e5d8ab581dd5e570188dec5118|2016-09-09|Aaron Helsinger|Add stub for CNOT_CR and a test of it
+d5f2789d7813c76d64040a7630985264e5b9517c|2016-09-09|Aaron Helsinger|shuffle around call to replaceBarriers in anticipation of more cleanup
+4398d8b4744a167af3a2712c7e695f44945484e7|2016-09-09|Aaron Helsinger|When a barrier becomes Id(length=0), hold the place with the literal 0 until we're done replacing barriers, then remove that. Hopefully that reduces memory usage (addressing Blake's concern).
+eb8267fa50dd04aa061ac838f90fc58336626f48|2016-09-09|Aaron Helsinger|Turn down warning when core inserts a barrier between the sync and wait
+1b9522bacb877a410d65fe4c3f6e13695e32d20b|2016-09-07|Blake R. Johnson|Add test of tomo.py
+c3de65667d0c27921cc7c7329a2561267656ecd4|2016-09-07|Blake R. Johnson|Try to fix unit tests by creating a test channel library.
+15b3f9d04b37a70afaad3685a1fdb3f7dc51309a|2016-09-07|Daniel Ellard|Merge branch 'feature/autotest'
+f791681624d5ec22b1a3a0005a83b1bfa31330a9|2016-09-07|Blake R. Johnson|Add tests for the remainder of RabiMin.py
+4a0def98ddf0534aaf9dd4a7fc333e418450b54f|2016-09-07|Blake R. Johnson|Add missing test_setup.py.
+daf8488bffbf033a1ff2252dd3a15a08c37d9f7d|2016-09-07|Blake R. Johnson|Add docker test image launch script.
+29f3ee10cc95e01fd170d70ad6685a929349aebb|2016-09-07|Blake R. Johnson|Minor README updates
+1bf90265d83b75301896f1bb20e1991487e05827|2016-09-07|Blake R. Johnson|Move some test files to top-level test/ directory.
+e0cb60ff052d72ac7398a9b6d64ebed17f9fdcf3|2016-09-06|Blake Johnson|Limit coverage reporting to QGL2 code.
+491f282f69521cbb33d22ae9810af8053694df5b|2016-09-06|Blake Johnson|Try generating coverage report inside src/python.
+bc3ea9371c6a94dc0a05a23470b1c07338b93dba|2016-09-06|Blake Johnson|Move most of the setup into a docker image.
+c3e0b19850ba83593c8d675b0b251480d6e5c0e7|2016-09-06|Blake Johnson|Add Dockerfile.
+5d37a4729256da8654900c2fd2fd48b3498b0862|2016-09-06|Blake Johnson|Generate coverage report.
+fcab9d5e65a1b068f3a5c5ed99ff178daa343250|2016-09-06|Blake Johnson|Fix bad import.
+3d2bb2828899bc4be7e3c4acf837bcd0f5409dce|2016-09-06|Blake R. Johnson|Add Travis and GitLab CI YAML files.
+940bd940dd9341d40b72f18f0afb862c7d0e78bc|2016-09-06|Blake R. Johnson|Initial start at testing with unittest.
+935970e78d73640cab650a0016548f72f3c2eeb9|2016-08-26|Aaron Helsinger|Merge branch 'develop-ah081816.rb'
+b8ff0910fe61d135b330e97df31656e4b5e2d477|2016-08-22|Aaron Helsinger|np.linspace and np.arange working. A use of numpy.pi seems to work. zip() fails.
+ff865dfc645334e85b215d0cfa98a0abb3787c54|2016-08-22|Aaron Helsinger|using np.linspace works. 1 use of pi seems to work, while another fails still.
+6deaaa0373cc4830a1a5dc236271b48589d2fb4d|2016-08-22|Aaron Helsinger|using np.linspace now works.
+be22af1c91b4634ee4f2e868f8e14b159d8792a2|2016-08-22|Aaron Helsinger|using np.linspace now works. But using pi or calling len() seems to still cause problems
+e08e4758609780bee2fb20c8fe7c61fbc786fbf6|2016-08-22|Aaron Helsinger|sample error message for how using product() fails
+b5ad2f88d155f15bf456de242e90f020cd0b0249|2016-08-22|Aaron Helsinger|clean up comments & tests to reflect current status
+1fbdf53f5f3820c324ee2ed34f83f068eddd04f7|2016-08-22|Daniel Ellard|remove bogus check for functions we don't have
+ab5c9378101d58fdde3a347a7fa4190c93f783d1|2016-08-18|Aaron Helsinger|Merge branch 'develop-ah072916.rb'
+63924cc3fddb459ff4bb13e21d5aaafbbd547d2f|2016-08-18|Aaron Helsinger|Test file for testing edges / 2 qubit stubs
+3494b2e054574a2034bbae5830c0bced3e555d50|2016-08-18|Aaron Helsinger|Support an original function name for qgl2stubs that is different than the name of the stub. importer.py supported it already and the comments say it is supported; just need to add the optional named parameter
+1fd84313e44d1e74d3ea86ee9885263719001685|2016-08-18|Aaron Helsinger|Large refactor of qgl2_compile_to_hardware to use more helper functions. ID which sequence is which qubit using new group_marker barriers. Supply new args to compile_to_hardware to tell QGL1 explicitly which Qubit this is (and so to ignore others), and which Edges to include here (and so which to ignore). Log a warning if in the end there is overlap in generated HD5 files. For picking where to compile each Edge, match with the sequence with the same AWG if any, else compile with the Qubit that is the source of the Edge.
+c099cce83ea753676736fcfeae657a06fc8cea6b|2016-08-18|Aaron Helsinger|When grouping statements by channel (qubit), insert at the beginning of the block a Barrier named 'group_marker...' that marks which Qubit this group/sequence is for. qgl2_compile_to_hardware can look for this later to know which sequence is which.
+15b004ebd829e0f5ff08ca652a8bc9c5e58d6619|2016-08-01|Daniel Ellard|Merge branch 'f.57.main-parameters'
+522a13254d886951e9f504c6a1fd258974f105b2|2016-08-01|Daniel Ellard|don't let qgl2main take parameters
+fa4efeb5da59e32f66814efed18886d60641371d|2016-07-29|Aaron Helsinger|Merge branch 'master-combine'
+5aa1d6e75925b16b3370d86bf7a46536422e6c5d|2016-07-29|Aaron Helsinger|Merge branch 'f.54.function-barriers.refactor.rb' into master-combine
+5e432d31ed6c2e8902316d0c7f2cca7c871c4c86|2016-07-29|Aaron Helsinger|restore missing import from error manually correcting rebase
+938e1fa75b790771829e5c1ab12fd4beee3e6bb9|2016-07-28|Daniel Ellard|start to fix metaprogramming problems
+604df34f56aec9719c476e98ac77a99a3544616b|2016-07-28|Daniel Ellard|fix qgl2stub decorator to be general
+4b1ad56a0d5299353a2c03aa47c3394967e87601|2016-07-28|Daniel Ellard|removing some diagnostics
+e61a8731b1c6a6fecb2e5a73a79dc7a96337535d|2016-07-28|Daniel Ellard|fix the import for the real QGL1 Barrier function
+f7d4cf77312b6c2efe33a5f108bcc901f3f6b792|2016-07-22|Daniel Ellard|simple "implicit import" handler
+e65c71895c086478340865b1994d6ee6c62b245b|2016-07-22|Daniel Ellard|add "implicit" Barrier import; fix qbit marking
+ce80fe23ee599e86ce112369f9612cda433695d4|2016-07-07|Daniel Ellard|more tests for barriers
+96ba32c894075dee8727fb1565dc534a32235f6d|2016-07-07|Daniel Ellard|fix qbit references after barriers added
+efaf4cc96730d04477115c190e8962326d8e1dfc|2016-07-07|Daniel Ellard|simple barrier test programs
+339c185078bc4c6974ee501387f6d40a5ae607e4|2016-07-07|Daniel Ellard|handle case where we have an empty orelse
+97fd6c72c341dc6233339e59cc528f71bddb52aa|2016-07-06|Daniel Ellard|continue prototyping the eval-time checker
+0094db642e169ec3415149e4b37222ee4767b893|2016-07-05|Daniel Ellard|some cleanup of inlining parameter type checks
+1e2bff01dc361528f8bf090d99d0785cd1b18f7f|2016-07-05|Daniel Ellard|restore genChanLabel from the attic (find_labels)
+94ecc65f1c35bc0258853e0877423adf56f3a4c7|2016-07-05|Daniel Ellard|salvage genChanLabel from substitute.py
+ef34821180c730d6da7e53761953d24dc60dd654|2016-07-05|Daniel Ellard|move the specializer to the attic
+c6dc418e52f3e0ec594dcc80d20e1c0f1ab2609a|2016-07-05|Daniel Ellard|remove references to the specializer
+022afbb36c95327aa27cb4da8c1e6cf990df8dda|2016-07-05|Daniel Ellard|experimental code no longer used anywhere
+ec749b42b532d39855a3a6d9b8bbfd6d9127f703|2016-07-05|Daniel Ellard|process sequences in lexical order
+78a0b3164e05616a366846fe724c3becb816a257|2016-07-05|Daniel Ellard|remove obsolete addition of [seq] to seqs
+40ae09d6154f1bb93e06bde16472b61c7c3cc270|2016-07-05|Daniel Ellard|initial version of runtime type-checker
+78a711495977d34db74e175d0e3201585bac5fe6|2016-07-01|Daniel Ellard|fix bug in detecting variables in AugAssign
+6b74157b25594835d243b7fa57a37fe892c5afae|2016-07-01|Daniel Ellard|changed seq elements to be named by channel
+9a71e54fc5cb200c46d5b192d2ebe318eb40607d|2016-07-01|Daniel Ellard|removed some unused variables
+a88e93486f7f38084ee198ff864ad043cd39023f|2016-07-01|Daniel Ellard|minor pep8 formatting changes
+3c99f4af70fffe2f5f8413c249c2de9a8d9cef43|2016-07-01|Daniel Ellard|refactor _make_msg so we can use parts
+35857b77e836a35e1c8b480cca366924db9a79ed|2016-06-30|Daniel Ellard|comment out obsolete diagnostics
+e554c3f7bbedefaf90732698d75652eb37a78032|2016-06-30|Daniel Ellard|archive versions of these dead classes
+5204ecd0473c66ee812039244ace1e5a35cb22b7|2016-06-30|Daniel Ellard|move find_all_channels to find_channels
+414cd64baafc0c61d385d48dd2c34fcc851ad4c7|2016-06-30|Daniel Ellard|rename to find_channels (the only remaining func)
+afab6733b31db6aac6fe2ccb150aafa5fe239980|2016-06-30|Daniel Ellard|move dead classes to ../attic, fix formatting
+2967b2d3a212bb88fd554a38cca098b866d25e43|2016-06-30|Daniel Ellard|don't gripe about non-ast.With nodes
+065efcd80a6c65a9b814c178446eb65adfe0510c|2016-06-30|Daniel Ellard|invoke the scope checker on function defs
+2a5d9eda26de6714a4d38bce019b60933aa91f28|2016-06-30|Daniel Ellard|differentiate between module and builtin symbols
+18b794f15d6189ae57aece74b90b55be0718e63a|2016-06-30|Daniel Ellard|improved the unit tests
+d846317069ec3cfec09975c8ddf7408030ff3baa|2016-06-30|Daniel Ellard|add hooks for adding names in the local module
+32ecb54cab0aa6684473b1c0a6e04a3aef839a73|2016-06-30|Daniel Ellard|add convenience function; add module scope
+059a777243981f98d2dfcaf9c8b29926c2a8bf83|2016-06-30|Daniel Ellard|add utility for recording msgs for examination
+b79de7d4ad2794b039d1f4f77653e8a7dbe8d7b6|2016-06-29|Daniel Ellard|basic functionality complete; still missing stmnts
+ddf2ffdc616044f860033bc77b47704d00958a61|2016-06-29|Daniel Ellard|prototype of scope violation checker
+d6af00f88a8977a72366860560c799c3d61cad10|2016-06-28|Daniel Ellard|use new is_with_ functions
+c03503dc1ede4e02062cb0d079dee674538d59a6|2016-06-28|Daniel Ellard|add more with types
+27ec2ae35a64a78107dfcb30e0c9d5e1009c9684|2016-06-28|Daniel Ellard|debug msgs if parameters have unexpected types
+5b9aaebdae76cafbff53de01cf8607777f39c259|2016-06-28|Daniel Ellard|fix typos in DebugMsg constants
+3083b39c6dfa5347c3678f989aa90cec5d409238|2016-06-28|Daniel Ellard|deprecate find_all_channels
+1076516228cea52a79eae11ec5a1473127b9298a|2016-06-27|Daniel Ellard|name barriers in a more readable manner
+f363a7bf1f9f3c912196ed1807905282125a0b57|2016-06-27|Daniel Ellard|remove obsolete AddBarriers classes
+24e85f9147619dd95605bca8b12d33932ca7c412|2016-06-27|Daniel Ellard|remove obsolete AddBarriers calls
+0b2de90291611a6282d22a52cadfb837a874f2d4|2016-06-27|Daniel Ellard|move AST with-concur, with-infunc, etc to ast_qgl2
+514731d3fa32ffa1d4cfdbf7c1bf70bda60a5258|2016-06-27|Daniel Ellard|utilities for examining AST of QGL2 statements
+b8698c89c60ea38c8313dd86ae0fd5044d10bfa3|2016-06-27|Daniel Ellard|add 'infunc' for infunc blocks
+5330a66565fb71ea127e0753b7160c181e4a2231|2016-06-24|Daniel Ellard|placeholder call to Grouper2
+256612663974a239a56ec092780236210164dfea|2016-06-23|Daniel Ellard|remove AddBarriers - absorbed by AddSequential
+22e4ab7eafadedc1f02b9419ff20608aa5fa27cf|2016-06-23|Daniel Ellard|use 'with-grouped' for top-level grouping
+5a54e19c1cf208c0cafedeb8b03037ea9bfa47c8|2016-06-23|Daniel Ellard|remove dead code; use convenience funcs; error checking
+5529eed5daa11b86263c7d1393349ebfaede5aa4|2016-06-23|Daniel Ellard|start to update flattener wrt new grouping/barrier
+0a311595509dcfb579f59b7672ca1f2dc68198bd|2016-06-23|Daniel Ellard|sort groups lexically by qbit ID; add qbit label
+27a480251f41147f42a98593feb1964ef98f980b|2016-06-23|Daniel Ellard|correct class comments for AddSequential
+2546ec4677a6fbeb30d46476d4f9b17c29add300|2016-06-23|Daniel Ellard|some cleanup/commenting
+76822b6ec2c20317277c6d9dea82eedaa55c8ecb|2016-06-23|Daniel Ellard|put BarrierIdentifier back in inline.py
+15828dab7365f60555dbdaa0632ca4140f87f1d1|2016-06-23|Daniel Ellard|add function name to infunc parameters
+722be81387aecd78fc2f2e5e08a3cd43e061dfe3|2016-06-22|Daniel Ellard|insert call to AddSequential - prototype
+a909069892de1c660acff723571e2043632ec785|2016-06-22|Daniel Ellard|prototype of AddSequential working; needs testing
+3e317a747a48325612aa748bd4c7d38080951ed0|2016-06-22|Daniel Ellard|move convenience function is_with_label() to global
+baf5f8b2e3dd171f03c5a05a12d0106dee3491ce|2016-06-22|Daniel Ellard|fix whitespace bug in indentation level shifts
+1e4c5580f67255583e94351cbc7acf9766a0a06d|2016-06-22|Daniel Ellard|improved comment; added error for AugAssign
+bbeab821bc5829d8adc43e8560beabdb4790990b|2016-06-21|Daniel Ellard|initial fix for the AugAssign bug
+ab3b38a7721c6ed4065589340f32575eb94d7f6d|2016-06-21|Daniel Ellard|AddBarriers: fixed how barriers are created/named
+acee3cb5c75ca170ff3396c6543e666a72111439|2016-06-21|Daniel Ellard|adding "sequential" barriers for non-concur code
+c0d5ea433c8e8954b3964a32bb5947b5527057ab|2016-06-21|Daniel Ellard|add AddBarriers transformer
+ffb03129c741bbf455de32cfecd95a234eae1243|2016-06-21|Daniel Ellard|removed debugging names for barrier funcs
+141f38dc180b56885275749fc1338692f9122093|2016-06-20|Daniel Ellard|new transformer to add barriers earlier
+1d046f55c5c629409d9c323799fb4d3668eefea8|2016-06-20|Daniel Ellard|remove repeats for now: not sure how to handle
+c95beb85530a6e25463c0278da1c0534765c6325|2016-06-16|Daniel Ellard|fail if grouper detects an error
+cb975217c053138d4e6f20abc0f3cfc91dc8a1cc|2016-06-16|Daniel Ellard|use the new grouper
+353925864e04c01b8bfe65e537a1a2537a89668e|2016-06-16|Daniel Ellard|finish grouping of main function
+2939142124e4dbc448cd2ceeb02484602e5c2e7d|2016-06-14|Daniel Ellard|add param to force recursion when detecting qbits
+6ae62cf281d89aadaebba28ed24fe7cd176e809b|2016-06-14|Daniel Ellard|don't recurse past processed nodes
+1b0488f40fb5ea8adf25db9c7ca12ddebebf3ee1|2016-06-13|Daniel Ellard|prototype of new format for function inlining
+f40d398390b0998ec36c58ba1b2fdf70e1df2e07|2016-06-13|Daniel Ellard|some scaffolding for new grouper/barrier code
+9647af5ff43791293b3749caf83fb8a17c07eccb|2016-06-13|Daniel Ellard|added comments about new routine to add barriers
+31bc08fe845e19eb6d2141d5835dd6a15a69e5b2|2016-06-13|Daniel Ellard|changing to use with-group/with-grouped
+f8cc371f9533693ca41474ec9ff47f6889874e13|2016-06-13|Daniel Ellard|basic functionality except for qbit creation
+27fcf7a781036856178a705f31c4d6397cea04b6|2016-06-13|Daniel Ellard|new grouper code to augment/replace concur_unroll
+69bce9b8adc838bd7d6c15fecdc4feb925eff0fb|2016-06-09|Daniel Ellard|add check for multiple use of same qbit
+1d7ef261e6ca139d2ac75deaaeb5dca2ec801a5a|2016-06-09|Daniel Ellard|mockup of barriers at start/end function
+25e17f4a3ffba3de3864d5a68574e0ad3165d4c8|2016-07-29|Aaron Helsinger|Merge branch 'develop-ah0513162.rb' into master-combine
+f89379eb8ad7825966c4949e5e004500953a9352|2016-07-29|Aaron Helsinger|minor doc cleanup
+33067f585ad40ad342a80c3ddb2eadecf750346b|2016-07-25|Aaron Helsinger|edits so tests work
+956225b652eb80b56aa726a830a1f4768eff67f0|2016-07-25|Aaron Helsinger|clean up basic sequences, comment on current state of affairs
+d3b983ea87b19a1a5ad45089e78773e8573603aa|2016-07-25|Aaron Helsinger|updated comments on what currently works
+0a3dd3eefe1d6d139cfa6d86c04061961f13b606|2016-07-25|Aaron Helsinger|fix comments to reflect more closely what now works
+345bbaa10272315e59e2d8134726d6c9671ed6f2|2016-07-25|Aaron Helsinger|comment on an expected failure
+22dda2d3d247952c772a6bf91905307ae8af9e1c|2016-07-25|Aaron Helsinger|supply a bunch of qubit names to cover common cases
+e530517756fb8e97d69c1cecb336782a1de6e210|2016-07-22|Aaron Helsinger|remove OBE comment
+2bd50cffbc1c5a76b2f83a2d1abe6934db7bd505|2016-07-22|Aaron Helsinger|a multi stage call of a single qbit function
+44fdaf434bf43bb42fd49f4ceb62fccc232cdb47|2016-07-22|Aaron Helsinger|remove the old barrier subsitution code
+8dcac7bae4a4b3ac5f40f4245d8f3bfc8440c632|2016-07-22|Aaron Helsinger|start cleaning up test files
+dabe675ff8918039179cf53f1b22c7d99597ee52|2016-07-22|Aaron Helsinger|Move implementation of Barrier and WaitSome into QGL2. Barrier should only be used within QGL2, and WaitSome doesn't exist in QGL1 yet.
+b1c4760d64e22ef20536af773c73f7ba64de45fa|2016-07-19|Aaron Helsinger|comment cleanup
+e61e79903f9c44aad7abe0bf104710adea2baf2e|2016-07-19|Aaron Helsinger|clean comments
+15cfd751e27195c5f669dcae125e4cb0190723f7|2016-07-19|Aaron Helsinger|redo pulseLengths; with new QGL somehow Pulse objects appear to be a list, since they extend namedtuple? Also, Qubits don't have a .equals, so set comparison is failing when looking for the previous barrier with the proper subset of channels. Perhaps the problem is really something in the way pulses are created from QGL2? For now, compare the string representation of Qubits to find the barrier with the superset of channels
+bc4722240b0ee0c4509d3a5eba4eb07b04f86bbb|2016-07-13|Aaron Helsinger|cut short searching for barriers to replace when they've already been replaced
+185d56ad04f32b81f1c3988324339bdc79c39ae3|2016-07-13|Aaron Helsinger|fix some log statements; fix tracking Sync/Wait replacements; fix detecting 1 length is NaN; add testCMP() test sequence
+d0b7e03ba8ce86e581d677e743d62ef36f8c30ef|2016-07-13|Aaron Helsinger|document wait counter format, cleanup
+0aed8a16950da4f7d3e8995ebec4aa0ac5ef2418|2016-07-13|Aaron Helsinger|clean log messages
+70f0c0eaf36135fa53a2724dffd1958cfe243672|2016-07-12|Aaron Helsinger|* copy barrier dicts so isn't same object between dicts so marking the version in barriersByCtr calculated doesn't update the others * add an == comparator for barriers * Avoid double marking a barrier calculated since we now add values * Waits now have a ctr that is the channel list and the counter of waits on that channel since the start; this should be comparable across sequences, so we can properly find the waits with existing logic * Reworked logic for getPrevUndoneBarrierCtr
+1d7caae5a1909e00e7d63c4125133d2a028faa8f|2016-07-12|Aaron Helsinger|add comments on what is expected from test cases
+999fa4c3a5ac3c379350abc94b06130813521f9a|2016-07-11|Aaron Helsinger|* Fix some log messages to be more clear * Do not bail early on calculating proper lengthSince for Wait/WaitSome barriers. Instead, in replaceBarrier() that actually does the replacing, only actually replace the Pulse if it isn't a Wait/WaitSome. * Fix logic in getPreviousUndoneBarrierCtr to consider lengthCalculated and prevCtr * Add a new testWaitSome() test that includes explicit WaitSomes that cause problems
+9dba10fb01fb955bcb462e30314af49d12b5292c|2016-07-07|Aaron Helsinger|more unit tests; fix 1 log statement
+395f3a901018b3208958b1ae0859880e3dce68d1|2016-07-07|Aaron Helsinger|Bug fix: When updating barrier objects after replacing them with Id pulses, don't replace the lengthSince with the Id length, but ADD. That way if the Id pulse is length 0 but there is real length since last pulse, you don't lose that length. See testCall unit test.
+95bc42df89afc143ad25d53b1ac50588b8414eb0|2016-07-07|Aaron Helsinger|Improved debug log messages. Catch case where Wait isn't on all channels sooner. Fix printout of replacement Id's length. Catch 2 more cases of barrier not being on expected sequences. Add a couple unit tests - more to come.
+9a9f0640ccef6ba4e6bc87c71db79c91995615f9|2016-06-24|Aaron Helsinger|many bug fixes, adding debug printouts. Current status: testing with multi.py/anotherMulti2 fails because q3 never does init() so has no WAIT, but my code assumes a WAIT blocks on (and is on) all channels. How should I handle this? For now, raising an exception
+dbae35c327dd3e4cefdc531ea303718a17c69b8e|2016-06-24|Aaron Helsinger|update comment to indicate an empty sequence could be just a qubit that does nothing but is in the program
+a60feff81ad5c8a4bb1c3c3ec9132245ed35d9b1|2016-06-24|Aaron Helsinger|Ensure Barriers are constructed with actual Channel instances, and string barrier IDs
+9ade3a7c693ad77c43f5aa23278accef63ff6971|2016-06-24|Aaron Helsinger|delete dead code
+ce8a436ec9dae4e45cbcb513b8ec4ceb7441e578|2016-06-24|Aaron Helsinger|Make my new evenblocks be the new/current one
+dd692464df3a04560fe3a229a9e734dfb77b084c|2016-06-24|Aaron Helsinger|several bug fixes, more debug logging
+ea575afa1f01af217fa203ceb5fca085dbf555ff|2016-06-23|Aaron Helsinger|bug fixes, better documentation
+456a4ce7b7e0878be4fdf342474c311523b63f3f|2016-06-22|Aaron Helsinger|current untested code to handle barriers
+69de8ccae327e22ebe374cbb83519755655f5922|2016-06-10|Aaron Helsinger|remove bad test file
+5faa6ac5e6e2ba9e516886ba00c9e4679a84ba61|2016-06-10|Aaron Helsinger|init comes from util
+482e36e12eb50cd029a17af3d2518972859dd058|2016-06-10|Aaron Helsinger|Use real qbit names (strip leading QBIT_)
+b39d88a3615dbec591fb248a713ce1da509ea9e8|2016-06-08|Aaron Helsinger|remove duplicate CmpEq definition
+636398387db14da08e2c58a533b9fb9d72bdde22|2016-06-03|Aaron Helsinger|If we get something not inside a with concur but it is only a single channel, then tack it on to the proper sequence. We think with Dan's fixes this won't be necessary.
+e430d3d21e6d57b56d2089aadc697c5c6e3df131|2016-06-03|Aaron Helsinger|Barrier now takes a counter and channel list, and there's a WaitSome (unsupported really). And sync.py uses the new barrier appropriately.
+749167b84aef793a81aebf049b20d8e014384207|2016-05-27|Aaron Helsinger|add test doign repeat of block with Barriers that fails as expected at the moment
+c1e7ad8ac4577fe6426c7a72d601a22c62352106|2016-05-27|Aaron Helsinger|fix printing of float lengths
+b8cfa4a08503d7736630005f6bdd02ff6988feb6|2016-05-27|Aaron Helsinger|couple bug fixes handling repeat blocks. Add some test code.
+57327193ac48193bb8c5cfca6b333bce94f3a562|2016-05-26|Aaron Helsinger|add more debug logging
+f2d7e2c28813deeef204a03abe4219450c29bd83|2016-05-26|Aaron Helsinger|add another test with some explicit lengths that differ
+d3378ba814f5634ebabe9724cf0c5fd380f31e7c|2016-05-26|Aaron Helsinger|concur blocks now start and end with Barrier() instead of using sync and wait. Code to replace waits is now code to replace barrier messages
+c73264c05aa9a22635eb3cdfe1b9a58948910366|2016-05-26|Aaron Helsinger|add stub for Barrier()
+2842a813ea5925ac14f6d987425f928bc7e00f70|2016-05-26|Aaron Helsinger|skip just the 1st WAIT and complain if there's more than 1
+465eb5b797205ab90cdaa1d6a96d792b2e84a181|2016-05-23|Aaron Helsinger|comment updates
+d5473a57ff46e031f05aeb87eebff36e89f6b0c8|2016-05-20|Aaron Helsinger|Clean up, logging. 1 logic error on skipping initial wait pulses fixed. Code works for simple cases.
+4d65c2eacfe3640e03ff028c987317b11919e8ec|2016-05-20|Aaron Helsinger|More hack code to skip over empty sequences
+aa810ac7ffb3239ca094256f1df59233fc12c6cd|2016-05-19|Aaron Helsinger|skip empty sequence earlier
+531561bbac6870cd85c2c2a8121e0f2752401929|2016-05-19|Aaron Helsinger|fix typos so it runs at all
+012e2047959d9361522b90985f1b363a697b4897|2016-05-19|Aaron Helsinger|clean spacing, logging, and remove 1 unused variable
+cffae29a6419082dada5e6ab378782958b5390c8|2016-05-19|Aaron Helsinger|First cut code to look at generated QGL sequences and replace Waits with Ids where possible, before calling compile_to_hardware
+d81ae7ec7a0474a82a435cc60a3cf11c9a187ed2|2016-07-15|Aaron Helsinger|Merge branch 'fixinit'
+8cdf50e3f3c97e91dabf592fb4bb44e5ed4cef5e|2016-07-15|Aaron Helsinger|init moved to util
+5dbad6f0e840cf2dcde52a16c4d44cb067cc96e5|2016-07-15|Aaron Helsinger|qgl2_c2h must return a list not a set
+5d1038fdb5cfdbddc2d73aa30a9e3c4f20aa47f0|2016-06-06|Daniel Ellard|Merge branch 'f.41.constant-propagation.rb'
+9328f819d887cecd9334502182fe23c8862b0529|2016-06-06|Daniel Ellard|change the qbit names to fix tests
+1ed390c3a3b42bc6a5313a9ce21d57a2544645b4|2016-06-06|Daniel Ellard|add code to insert the setup statements
+f5ccd1ce8f086e4b45de37a3f0bf267889fdfcc1|2016-06-06|Daniel Ellard|add the setup statements prior to the per-qbit sequences
+7e614db443b5ca057207d6474fb2f994821ccaa3|2016-06-06|Daniel Ellard|fix formatting botched by merge
+004cfe4cc309423fca105f556f76ca4c4bf89277|2016-06-01|Daniel Ellard|integrating qrepeat transforms
+5b0316f4a59eac571e590a95fefafa014d7b3f02|2016-06-01|Daniel Ellard|fix typo in qrepeat ; invoke qrepeat flattener
+9554d34ff2639c458f7e04c9072e0b65b0578fc3|2016-06-01|Daniel Ellard|prototype of AST transformer for qrepeat
+017b82de79e3d02d2aeaf715494e7f973d7398d6|2016-06-01|Daniel Ellard|basic repetition detection working, but not in AST
+a398c0db878cfc8111a007e57b72b03f601550e6|2016-06-01|Daniel Ellard|take the leftmost match, not the longest
+7b4622e19f989ed296373662591601a7e8f25eaf|2016-06-01|Daniel Ellard|wip for repeat detection/optimization
+a9a2dd937596e816e711ebab7a82b50033d5d691|2016-05-31|Daniel Ellard|fix import of init
+2e6122cbfa173ebbeff0cea74d62f86c96830ad1|2016-05-29|Daniel Ellard|handle Qfor/Qrepeat when there's no with-concur
+d8bd1ce6444dee95ffc9b239d6937cdf4582eb2d|2016-05-29|Daniel Ellard|handle statements that aren't ast.Expr instances
+15ac4c990fd3027ad364bb7e7292799ed57ea936|2016-05-29|Daniel Ellard|handle sequential/singleton stmnts at top level
+453b25fb17c17e7d3f04390a1d7bfab3bc4efca0|2016-05-29|Daniel Ellard|add more info if we get unexpected types
+874d95a0031a4a625a74b0cd73fd2069a580549f|2016-05-27|Daniel Ellard|fix bug in use of copy-loc
+a9dd7f112a122a61fbef6fd6fa436f008a55b98f|2016-05-27|Daniel Ellard|skip over empty statemnts
+058bfc790852e629427cd48ace879c09eaf492f6|2016-05-27|Daniel Ellard|deal with optimized-away loops
+f4e18097d15a7152836080bc2e1043548c61bc0c|2016-05-26|Daniel Ellard|removing some noisy debugging printouts
+5e5ec4c308bc020a1a2f6659460ab75879fb1225|2016-05-26|Daniel Ellard|remove some noisy debugging diagnostics
+a0c25933ca0172f52e0a7ac07dc4a7065f81b1de|2016-05-26|Daniel Ellard|save the output of the evaluator/rebinder
+e86b8d2bc34d900e8697630275ec19c18cdbae38|2016-05-26|Daniel Ellard|functionality for break, continue
+3bf4dba28f1b624e9342e98e4821788001ed5aa6|2016-05-26|Daniel Ellard|fix bugs in empty statements, quantum conditions
+a75d9fb40268df5edef39ccc535737b39a5debb2|2016-05-26|Daniel Ellard|basic functionality restored for Qfor/Qiter
+833ba1184087fa3627f658ae5abc1237fe14c0ff|2016-05-25|Daniel Ellard|add location info to synthetic with nodes
+395aca7906d60ceae9afeead847df29ecd4a9e5f|2016-05-25|Daniel Ellard|handle Qfor/Qiter (in a simplistic way)
+718a3d9a3a12e92ce382bd73a4048991b7aaf039|2016-05-25|Daniel Ellard|don't use specialize any more
+723f811b69b0c896073a5fd79b60684b59b8f768|2016-05-25|Daniel Ellard|draft of code to flatten Qfor/Qiter blocks
+ba8eb39f23f8c7bf5f4dc5425d6596d56461859a|2016-05-25|Daniel Ellard|adding new blocks for unrolled loops
+c5e1724225fede74eb1fbb631c60e6268c04ec04|2016-05-25|Daniel Ellard|starting to work on new grouper
+8c808fab3df3b1e961bc6d307f4ae6aee057d213|2016-05-25|Daniel Ellard|minor reformatting; no functional changes
+a94f8f81e3772ff7bfc2547d5a44f9a27781e467|2016-05-24|Daniel Ellard|make sure each ast node is marked with loc info
+ed1dab94ff08b6512774cf48028a0e27bb7cdecb|2016-05-24|Daniel Ellard|mark the AST for a new qbit as qgl_is_qbit
+c5544809471d93e1a157356ee81e7cac5761b4c7|2016-05-24|Daniel Ellard|track known qbits by use name as well as var name
+7049b38da4c002dd828f8666fceec215dbfe3361|2016-05-23|Daniel Ellard|sketch of using the QubitPlaceholder
+14c1e7d1a1122961a1e2a91e6ac4dcbd0048287b|2016-05-23|Daniel Ellard|prototype of fixing qubit allocation
+82ccfcf926c56d7fad1eb7681790a34d1af966d4|2016-05-23|Daniel Ellard|add QubitPlaceholder; fix rewriter, redirector
+e07657aac6635047e7571e79f7b6617d28ac6453|2016-05-23|Daniel Ellard|temporary fix for cgoto -- needs deeper changes
+5424cd50d267bd4628904a79bb4bad84fa5b6846|2016-05-20|Daniel Ellard|address quantum vs classical conditions
+b0dbde7afd20b58f045222929a9cd703af17c35b|2016-05-20|Daniel Ellard|handling classical break/continue
+c34cff6f4079aa3ddb2d5961765cb3aa0d1df688|2016-05-19|Daniel Ellard|drafts of tests for different interesting cases
+a661828fd4fec56a8c62418c841267239f584bd3|2016-05-19|Daniel Ellard|move init() to its own file
+444e95042d4d5875f0f21e72c06476362ad3e544|2016-05-18|Daniel Ellard|cleanup the main loop - remove dead code
+250fae91ec783c6cb52121e595e9d74e651a90bf|2016-05-18|Daniel Ellard|use the new preamble, not the list of assignments
+588663e793fa7c2d19344083ca3eb20988bfdfbf|2016-05-18|Daniel Ellard|setup to save the precomputed values in a table
+89559491966bfd0bcece21896b8bcbf40203372d|2016-05-17|Daniel Ellard|permit builtin functions
+e6c722dbc35cb906b4b019733a05094b648eb7c6|2016-05-17|Daniel Ellard|starting to add while loops - very buggy
+837972554d9869e97702a0d91b32af83f4c4b888|2016-05-17|Daniel Ellard|represent simple things directly
+443dc36a357cab819eaf9330f620510128dee388|2016-05-17|Daniel Ellard|handle quantum conditionals (in if statements)
+6eb72ec72bd75379fdc3205f542f21ec3311fb48|2016-05-17|Daniel Ellard|start to address problems with if-MEAS
+9e41daaf2971453d6e0df0b56f1252a00f9a9ba9|2016-05-17|Daniel Ellard|added stub for CmpEq
+fc49e4a49c848db370cfa211e235bb34b1330a74|2016-05-17|Daniel Ellard|accept 'not MEAS(qbit)' as a conditional for if
+b40ad8cb74d29d9ffe9ee480e6c9a404467a16ef|2016-05-16|Daniel Ellard|copy over info to new Qcond news
+9864616317c02db858472e4f861f282e054683ad|2016-05-16|Daniel Ellard|restructuring to deal with quantum conditionals
+a89c35fbb9ccca279610aa222cb3f08b446a9b3a|2016-05-16|Daniel Ellard|exit if the evaluator detects any error
+d6609429fab293865800b39da43c68af66047894|2016-05-16|Daniel Ellard|add function to test if an error has been detected
+b4922b49f21b871128ffa09d7598ba556bc8a097|2016-05-16|Daniel Ellard|format warning/error messages more cleanly
+1dd819781dc5ea1d251c54db9dec259c752b8810|2016-05-13|Daniel Ellard|prototype to convert syms to table lookups
+144a79f1b2df8d24599208d3e30c9093521712fe|2016-05-13|Daniel Ellard|replace symbols with redirection through a table
+69c651c52ee37938817d9307ffcd25a9914f7454|2016-05-13|Daniel Ellard|NameRedirector: replaces symbols with table lookup
+a8b1df24c286d3bc0d42251460a82be1aa73cb21|2016-05-13|Daniel Ellard|add ast2str to simplify diagnostics
+1a7c61d8629aaac62c00b6152f4e4cfd36b78d52|2016-05-13|Daniel Ellard|fix the specialization of the orig_call field
+ddbaf39ee4162f676ebf53b94da3e98c1181d857|2016-05-13|Daniel Ellard|remove/comment out many diagnostic prints
+e29c4ebb9b01cb9e29c766c2990862919f88324a|2016-05-13|Daniel Ellard|move evaluator after the loop; remove unroller
+cefc4f899781371bb829c5cb37cc8406169fd2c6|2016-05-12|Daniel Ellard|handle "with" statements
+812b0053e882196346e61e4c68e48a68cbdbee89|2016-05-12|Daniel Ellard|rewrite var names in iter before evaluating
+e9c64b74c266dfcdb61d282e6723cd1973fa4bfa|2016-05-12|Daniel Ellard|an improved name finder
+7d91ee99c852dc019fbee029833348e067773324|2016-05-12|Daniel Ellard|defer rewritting variables until necessary
+be92b87f356331e38626a06ed71a3836560ef326|2016-05-12|Daniel Ellard|rewriting names for all assignments
+da88677fdfd8aa7e84b664f399ae1f76db1bce09|2016-05-12|Daniel Ellard|don't supress warning messages
+a9d4236458a27cdb1f42b22e7d266ce0161d526d|2016-05-12|Daniel Ellard|almost recuring properly on ast.For
+7ed7827c4de9422d3b1ff995760badf0199a7758|2016-05-12|Daniel Ellard|add the setup sequence (aka the preamble)
+0f4b6c56ec50070a8b713d6b028eddf89b0a368a|2016-05-12|Daniel Ellard|don't copy calls in expanded for body statements twice
+c63f9abd605a701d527d107ebc418f3c8f801a96|2016-05-11|Daniel Ellard|create the evaluator outside the main loop
+2358e1d67873108382c3119d15ccf0d4f804990e|2016-05-11|Daniel Ellard|basic for loop unrolling
+57d9203f7bd9c8767f302e7e79864895889c1279|2016-05-11|Daniel Ellard|progress on pseudo-evaluation of calls
+03dd8d3924bd2da8a962d0d24282f89b6842c0c2|2016-05-11|Daniel Ellard|additional subscripts, with complex expressions
+86d01d68a3b80c09e89c89799a1fb650bda67646|2016-05-11|Daniel Ellard|handle subscript assignments
+ad77dfde389ad2d9da2ccb22eae1ca046fbd6d8b|2016-05-10|Daniel Ellard|first step in ability to "playback" previous eval
+32511a386686284e4dd5503eeea6b92eb3f90a80|2016-05-05|Daniel Ellard|separate compiletime/runtime code
+eff0faa7b0cf86800679aeb80aa7a400b69e47c2|2016-05-05|Daniel Ellard|minor reformatting
+650e09fd6357617c6878a3558f733ed89dcf1cf4|2016-05-05|Daniel Ellard|improve temp; don't mangle qgl_fname on new nodes
+81266a663f1a63f06470ee23530ed76aaff0b4fe|2016-05-04|Daniel Ellard|more error checking for for-loop expansion
+c2886289544e8a30088c0cc11caf8fc6f4203953|2016-05-04|Daniel Ellard|somewhat generalize concept of simple iteration
+832bbb92824bad5904f9f3ca8d8e70c2628eff6e|2016-05-03|Daniel Ellard|add evaluator to the main loop
+df5c4375105e76e542ea234a4c3d8dba6af9a649|2016-05-03|Daniel Ellard|remove code for handling range iters
+f66da62a9fc81d12625243e1380045e01b3c8ea3|2016-05-03|Daniel Ellard|remove iters specialization (done in eval now)
+99aa4a127b3cf94737f8e806e30e0873d3d093ad|2016-05-03|Daniel Ellard|improve the way the change count is calculated
+c514d7d527ff184ef54472df1752605326ee0b9e|2016-05-03|Daniel Ellard|add native import for the "base" file
+c6282bb9fc588fb2e5f7121a21440be5208914af|2016-05-03|Daniel Ellard|basic functionality works, but still clunky
+f16e6fa922ac9ad5c4e5a17f3f7d2923c7b82034|2016-05-02|Daniel Ellard|testing assignments
+3b31a3ecf49fb20b15d38883465414f14336ce36|2016-05-02|Daniel Ellard|move is_qbit_create to its own function
+5ef8bad1610c96a35f31b0ae8e9cc4d56a2b2cdf|2016-05-02|Daniel Ellard|fix typo in return from native_eval
+230259845f6dc59a50f7e77e1bd637e9d379906b|2016-05-02|Daniel Ellard|clean up interface to native_exec; docs
+d4c5be0d5320963642cc958433f72f5a6bc68911|2016-05-02|Daniel Ellard|simplify native_eval; add native_exec
+e07051fa4679c40d5356bffd59a99eb2aff613b7|2016-04-29|Daniel Ellard|computing actuals seems fairly complete
+a97e80c677ef84918a2ecfafd74c5a6c1ee9fb15|2016-04-28|Daniel Ellard|test program for the new evaluator
+a95f88da05f8914a847b2a2aaaeeacc6fff1f100|2016-04-28|Daniel Ellard|draft of routines to manage variable tracking, eval
+be00e5ce8a507df5a79d7190607fcccef78cfcfe|2016-04-26|Daniel Ellard|change to use QubitFactory
+1b2292dd3e866e3080f526213092cb05a61dda9b|2016-04-26|Daniel Ellard|invoke the specializer
+fc5ac19d2d25fd7bfbebe35569e8fba06bc205b6|2016-04-26|Daniel Ellard|added example of expression expansion
+2ff5de43d404191b542cdb3a1e9a768bfd0d34bd|2016-04-14|Daniel Ellard|try to expand a for loop iter clause
+165c491db0e5bb75fcb5d3ce6b7e7b996e53e106|2016-04-14|Daniel Ellard|utility to safely convert a value to ast
+8643eec62ceedbf03f2a6aa86075b06f2755f178|2016-04-14|Daniel Ellard|ignore system imports
+8bc9a561f38f6c1e4bde77a2fec360e8638892ea|2016-04-14|Daniel Ellard|the unroller now needs an importer
+bf7ee0fe3a688c3b16eba56fb937494f800c87a2|2016-04-14|Daniel Ellard|work on evaluating "pure" iters
+911736e07dfafc594092684b941a3970f804d8c7|2016-04-14|Daniel Ellard|fix problem with evaluating AST
+8ae22d8242a539dcdabf013285a8dd2e42451ab7|2016-04-14|Daniel Ellard|draft of native_eval
+8cb75c6563199fb636afd4483d50c9ec873797b0|2016-04-13|Daniel Ellard|fixed out-of-date comments for native_import
+be7caa4cde15e70454c4293c30592b7591427b77|2016-04-13|Daniel Ellard|fix decorators so they can be imported
+8c26dc6db09a579c467d38169013f358e6a78927|2016-04-13|Daniel Ellard|remove constant propagation scaffolding
+800348874f8ff7df95d9cac7aab21fc8e794ad9e|2016-04-13|Daniel Ellard|move import_native into NameSpace class
+4c1529f1121da6a9fed0ab50409df323d194545e|2016-04-12|Daniel Ellard|starting add native imports to populate globals
+a723a827d1f433b17483951ca177d8a3cac4b05b|2016-04-05|Daniel Ellard|start of prototype of constant propagation
+58032c6fd87afb94b34dd35f808eff47cbdd2e91|2016-04-05|Daniel Ellard|placeholder for a call to constant propagation code
+bed2cd9268c15e81a8a1897d98c7221b1e5f5cd2|2016-05-25|Aaron Helsinger|Merge branch '0525.rb'
+7b419b5f185a2baca627c4b6da772de6d1d06c5f|2016-05-25|Aaron Helsinger|comments to better explain what these things are
+1039810d60a5c875f7ceda44c5ff5c830c83b6df|2016-05-25|Aaron Helsinger|Add stubs for LoadCmp and the various Cmp functions
+7200fbaf85f52665436e845712407bad9ee5757a|2016-05-13|Aaron Helsinger|Merge branch 'develop-ah051316.rb'
+3027bc0a9c4ae5cdcad7c0d53e0908e06a2454af|2016-05-13|Aaron Helsinger|use only absolute imports. Move init to qgl2.qgl2
+11ba6a179809a327c5b096d5e35c05853fa19b96|2016-05-13|Aaron Helsinger|remove bulk imports from the basic_sequences __init__ to reduce extra stuff being sucked in
+26e5f34431e1cb9719436e9bd96101df6c7eaa00|2016-05-13|Aaron Helsinger|Move init() from qgl2_plumbing to qgl2.qgl2
+34586fbf652215762ef3c1c573914174e0e02788|2016-05-13|Aaron Helsinger|comment out debug printout
+da9e19319ca556ea95f93b50a95956410a2d6db8|2016-05-13|Aaron Helsinger|minor cleanup
+09266976d0f4b5aa32ef70c055761e421114391a|2016-05-13|Aaron Helsinger|Merge branch 'develop-ah042816.rb'
+2592a6e0d6f662ba969be6d416a7085870a5c113|2016-05-13|Aaron Helsinger|Error checks for there being no slave trigger. In compileFunction, support the filename argument actually being the text source of the function to compile.
+adfcf31a67c6575eafe034ed8cedc3e7baba37f1|2016-05-13|Aaron Helsinger|when creating NameSpaces, handle empty path or path set to stdin, for case where caller supplied text of the code
+809241af26d59ed76e81fb5c908ff2e7e262c84e|2016-05-12|Aaron Helsinger|add missing import
+3f2ea3d243268ee50c8dd32c1d313616815a625f|2016-05-11|Aaron Helsinger|Add cleaned up multi qbit function creator and use it instead of single.py
+62bc4470539cf15ac0eef9662feb0652957622d8|2016-05-06|Aaron Helsinger|use the new qgl_chan_list on each with_seq to ID which qbit it is for. Build up the sequences as a dictionary by qgl_chan_list. That way a 2nd with concur can add content to the sequence for a particular channel that was started by the earlier with concur block. With this change, my more complex multi qbit programs seems to work.
+c71c4573938072e9fd43c073be9f87bfc3a16650|2016-05-06|Aaron Helsinger|with seqs now have a qgl_chan_list that is a list of channel names - expected really to be a list of 1 qbit name. This includes blocks with no qbit. This allows us at final compile time to ID which qbit gets each with seq block and append them together.
+0527f57fb9d8fb427497f729f752f80e8ea41a6c|2016-05-06|Aaron Helsinger|Sequence creator is not really used. Add comments on steps in the main compile function
+3bde1cac6163d90287d2bef2d0ca551c8d544488|2016-05-06|Aaron Helsinger|add more multi qbit test programs
+7ff7d4403f219798f183239d1e07df601baa9344|2016-05-06|Aaron Helsinger|clean up calling compile_to_hardware and comment on digitizer
+376981202e56dab3c048c7d6877b21aef9cac7e8|2016-05-05|Aaron Helsinger|New qgl2_compile_to_hardware that calls c2h once per sequence, collecting the filenames. It also passes the new flag specifying to only add the slave trigger for the sequence whose qbit shares an AWG with the slaveTrigger (or add it to a random channel if none uses its AWG). Use this c2h not the qgl1 version. New test program in my multi.py. Quiet down debug printouts in single.py. With this, my simple multi qbit program seems to work.
+edd7dfb9ddaf002b5904dc200b73e4a3f86785c5|2016-04-28|Aaron Helsinger|add a measurement to my test so I see the digitizer
+13f077a78ad4daac717f9002226e0b77dbe79682|2016-04-28|Aaron Helsinger|hack to allow simple single qbit programs to still work
+408f8a78b0496142fb92f7565223dc1dea32ff36|2016-04-28|Aaron Helsinger|test file for testing multi qbit program compilation
+d898e0c46e8c73fbcea9448087435b9d751bd404|2016-04-28|Aaron Helsinger|hacked up single.py that treats every 'with seq' as starting a new sequence. Almost certainly fails for every other case.
+c2ebb06c2682c0b7de6d9f17b98466dc9679a6f7|2016-04-29|rblazarus|updated to use QubitFactory
+4229bdd1cf2cab1582781e9f0b14a945c205e4a8|2016-04-29|rblazarus|Mergine in master to pick up lastest updates.
+973b760eb073a33e73d7b7674ff28fedb0249d5a|2016-04-28|Aaron Helsinger|Merge branch 'develop-ah042016.rb'
+0339297462577559fbca509b9ba06a2997828742|2016-04-28|Aaron Helsinger|pass the qgl2=True arg to compile_to_hardware
+82df4b7c87b138637bc316e247548dead8866b61|2016-04-28|Aaron Helsinger|pass the qgl2=True arg to compile_to_hardware
+5d2cf767b1282b50c1a2ea8cabfdae2358623bcb|2016-04-28|Aaron Helsinger|ignore notebook backup files
+2b2edf218bfd09f80c60f8ec5056919f8c5c4305|2016-04-28|Aaron Helsinger|note latest status
+e936727ad6a4a95fc2cd8da3792c346abe18b4cc|2016-04-28|Aaron Helsinger|remove commented out stub for compile_to_hardware
+a99fbc838c186178e25d78686802f93eba1c1df8|2016-04-25|Aaron Helsinger|use new Compiler (in a PR on QGL) for verbose debug logging, not a special local one
+b42a5c1100ba54c0b516c92c70bcb6a5d4acf6c5|2016-04-22|Aaron Helsinger|merge fixes to Waveform printing from QGL/master
+e4a839d82086e90654caa4eb80b551b07274de0e|2016-04-25|rblazarus|update local from master
+fdae54f0395f781df8993bf119bf37a62dec5c39|2016-04-25|rlazarus|Example test file for nested for loops. 4/25/16 code base supports one next, but not two.
+33717cbaf6c2d0c05ba3d60cc619cce834408aa7|2016-04-25|rlazarus|Merge branch 'master' of qiplab.bbn.com:dellard/pyqgl2-exp updating from master
+8f250af9e4dc09538c344185ccb2a8daeee778e2|2016-04-22|rlazarus|Added 3rd embedded loop
+9abd7de75169e1e65acb9afcffb520a98ffa39d6|2016-04-20|Aaron Helsinger|Merge branch 'develop-ah0411162.rb'
+aeb80edee57487014837931862d9aa617e949fac|2016-04-20|Aaron Helsinger|use QubitFactory not Qubit
+eb31178265da44b649a8f07f861debdeadc788ac|2016-04-20|Aaron Helsinger|add missing change to QubitFactory
+fd37a60783482b749656e3a30c21f88487e7dded|2016-04-20|Aaron Helsinger|fix comments
+48f241e225aefb0576662297ea290f68b0c9fb00|2016-04-20|Aaron Helsinger|convert basic sequences to use QubitFactory to create qubits
+ff4d3749290f55f783502b3f8ff6e0b5e36fe2b4|2016-04-20|Aaron Helsinger|Support QubitFactory as a way to create qubits and use that instead
+6aa0822aa786a03660822ff5bf1013e632d87f5f|2016-04-20|Aaron Helsinger|make the label argument to Qubit be a kw arg (bug fix). Support QubitFactory stub (better way to get qubits)
+0024e44a9ebbf347bbad90151d759fc2060656da|2016-04-20|Aaron Helsinger|cleaned up notebooks that use QubitFactory and the renamed compileFunction
+790b784d40c340c915e54eba740ccd3f3aba5e87|2016-04-20|Aaron Helsinger|Add FIXME that lets Id() work for now but is wrong
+e3989d7514231679f7be5c8c52c28901f8e44584|2016-04-19|Aaron Helsinger|further cleanup of sample notebooks
+e695735349c259a143aae1fd71754e5fa2dd4012|2016-04-19|Aaron Helsinger|rename main() as compileFunction. Create channel library before doing compilation. Use QubitFactory() to get the qubit in __main__.
+69c2c4942dfb11f130ec8e278f79ce5639806a52|2016-04-19|Aaron Helsinger|add new qgl2=False arg and add fix made in QGL repo
+8782508880d376c2039a62e7d513657cc8e3bc5b|2016-04-20|Aaron Helsinger|refix adding missing kwarg to ztheta
+4b71e7930d7bffc3194c6300ae28812b63db2318|2016-04-19|Aaron Helsinger|add comment on calling my custom compiler
+83efd98e03ac4ba373c5785b04aa401b71065d2b|2016-04-15|Aaron Helsinger|typo
+d53082bc53ac520ca47355f1fa6663973c3c16a8|2016-04-15|Aaron Helsinger|merge latest from master, adding some comments in substitute.py
+62fffa8b37a9411beee686c93e97dff0ed32d90a|2016-04-14|Aaron Helsinger|print the channels we have in compile_sequence
+94c08a3447fb65afe7540230a2ca6580cda38785|2016-04-14|Aaron Helsinger|clean up verbose output
+1b1217e427e6762fe40a3705630f5682834a045d|2016-04-14|Aaron Helsinger|pull out inner functions
+0b70edcd5fd36af91c14c555fb4e1566168988fe|2016-04-14|Aaron Helsinger|clean up list to highlight things we'll fix
+38df060d0b1cea8fe56c7afdef176a0181b5630d|2016-04-14|Aaron Helsinger|remove bad return
+ae0b9abfa7834d0c81df89dead52582af0db29b0|2016-04-13|Aaron Helsinger|update dependencies
+131b779ea18d9aadd30bbf3316c9b8715c1063aa|2016-04-19|rlazarus|Added file to test for loop with nested for loops and one qubit channel
+0c6da23361448b8f9b88727fedfbfd3fe00b748a|2016-04-19|Blake Johnson|More missing QGL1 stubs.
+a13cdc090b12b5a7f80f53dc9ca7bec6abf2032c|2016-04-18|Blake Johnson|Add some missing QGL1 stubs.
+e9b9bdd2868994f62fe0d3e5eaad4551d12556e3|2016-04-15|Blake R. Johnson|Simplify RabiAmp notebook.
+f7d234f0a9805d44894c19367fed9291ade69170|2016-04-14|Daniel Ellard|don't recursively substitute calls; just copy
+4061e42aa068650e05e63518c5640489290c7ca9|2016-04-11|rblazarus|Merge branch 'master' of qiplab.bbn.com:dellard/pyqgl2-exp Updating local from master
+8c365f8deb3be9c8444c005d4722ef35833e002e|2016-04-11|Aaron Helsinger|Merge branch 'develop-ah041116.rb'
+479ff3b17446485d0c5e518a9c0bbbb3593848c3|2016-04-11|Aaron Helsinger|get rid of extra with concur block that is no longer needed
+b5a127b838047bdf249a13c6f88763aaa4e305b6|2016-04-11|Aaron Helsinger|Merge branch 'develop-ah040616.rb2'
+1162ba5035f3c69db1e8f9eba577d647409f8450|2016-04-11|Aaron Helsinger|clean up notebook renaming on rebase
+3b93923a27736d085f5c325c7dcbc669e24e42ae|2016-04-11|Aaron Helsinger|Note we need a pull request on QGL for this to fully work
+cec97bcecca89a3ebb34cc0282db6072fa5507eb|2016-04-11|Aaron Helsinger|document that unit tests need compiled QGL2 really, don't work, and may never
+945ca6dfa3c86170146275b8b8374421eed44996|2016-04-11|Aaron Helsinger|Document state of QGL2 and limitations
+760cb116fef3fad9b43195f1ab4154429b4733c3|2016-04-11|Aaron Helsinger|comment out use of create_cal_seqs. Eliminate a use of an inner qgl2decl. Make 2nd arg to Id() be a kw arg to try to eliminate an error, at cost of accuracy.
+46d73ada6bf61b80f1938453376bdc0830f087a2|2016-04-11|Aaron Helsinger|add more single qubit sample notebooks
+74102ff0446ef0a5604bd3ea73aa741b85f51d48|2016-04-08|Aaron Helsinger|add some more minimal single qubit qgl2 basic sequences to work on
+3b36c7aeab46aa255af2ba14b4a464e50c636987|2016-04-08|Aaron Helsinger|create_cal_seqs should not have a return
+26d504237207c53c42d1e22fce61d4a5c81db159|2016-04-08|Aaron Helsinger|Add copy of QGL Compiler for debugging and refactoring. Currently not working quite right - get no plotted sequences
+972224cbcae928ecd07eb1d45e547bd931c2f68e|2016-04-08|Aaron Helsinger|ignore notebook checkpoint files
+5c9fcdfb78b71fb2283dd954bc0542f315aa454b|2016-04-08|Aaron Helsinger|Rename notebooks for clarity
+102ba7d564b5b98134c4f3aad5a4920139e7b14a|2016-04-08|Aaron Helsinger|comments, spacing
+f1248f13fdc974e8867ee361ab1bb200d4b99b10|2016-04-08|Aaron Helsinger|start at a RabiWidth for QGL2
+405248dbc32969e1c80bee93248ad7f9d755099a|2016-04-08|Aaron Helsinger|simple test files for the minimal QGL2 program of RabiAmp and AllXY
+df76b970d2cf6f6eb62b55346a55b6c5dc2aff54|2016-04-08|Aaron Helsinger|Cleaned up minimal RabiAmp and AllXY
+05986ad2609d505914caaaf63bb9d64ce17a9460|2016-04-08|rblazarus|Merge branch 'master' of qiplab.bbn.com:dellard/pyqgl2-exp
+b3b608672997734ea9b9ea257303525cbe5edf3b|2016-04-08|Daniel Ellard|Merge branch 'f.43.demo-cleanup'
+aa26adf868fff3486042cdb63d1c37a45ca8ac27|2016-04-08|Daniel Ellard|comment out unnecessary prints; fix diag for range
+7424e5d489e10e4e48ec5aab8fe7e965d8f388a7|2016-04-08|Daniel Ellard|use new idiom for parsing simple exprs
+f72bf864ed14524c37805b74c50f87a7282c5450|2016-04-08|Daniel Ellard|if there's an orphan stmnt, print it
+b51d99d96b2a0206489cef8593763ae39ea369a1|2016-04-08|Daniel Ellard|idiom for parsing an expression
+7fd1c5a76fc05da4e5ce323ce8681e1cab90b202|2016-04-08|Daniel Ellard|remove Sync calls at the start of the sequence
+fa0f0a128f6ab01246571ebe16c5ff334d36661f|2016-04-08|Daniel Ellard|add more halt-if-error-detected checks
+2e56196f4ba58a0ec597f2d4d3e35bf98fc4211d|2016-04-08|Daniel Ellard|flag orphan statements as errors
+c260910c0c46b7cb9d6b9d799bf34fc7f892e14a|2016-04-08|Daniel Ellard|permit expressions to be singleton sequences
+ba8f5118cb737526462cd0bf46c519aada4a78fe|2016-04-08|Daniel Ellard|Merge branch 'f.21.debug-levels.rb'
+ac6c73abd2bd4c98bbf7a08882cd19e14ce39d01|2016-04-07|Daniel Ellard|warn if inline fails; treat internal errors as errors
+f9e615c9e7526e3b0dbb949ac9f236de49da8675|2016-04-07|Daniel Ellard|fix error msg (should mention 2nd arg, not 1st)
+fecc8b40397ea99119fe4b0a32b74e88beaab126|2016-04-07|Daniel Ellard|add debug level to commandline
+86952e64513c684d47f817784a8dfc0ae1b0cd40|2016-04-07|Daniel Ellard|open the intermediate output in 'w' mode
+0d5953cfae64c729ecac1086ff403495241503d9|2016-04-07|Daniel Ellard|remove obsolete diags; change others to warning_msg
+aa535546e640cdfe1597e29eeb4ab89a615277d3|2016-04-07|Daniel Ellard|save final function to the intermediate output
+aca5e4103b097e2873fa3b8d061f6bde72f2b3fc|2016-04-07|Daniel Ellard|unmute low-level diags if -v is specified
+b606cbb8c986d094d2f60470567f9957a7710c62|2016-04-07|Daniel Ellard|add mechanism to mute msgs by level
+94250b99d38edd67798a85a10aa51289b898fa34|2016-04-07|Daniel Ellard|save most of the intermediate output to file
+501738a62853ebeaf4ed86099077da14e71952ff|2016-04-07|Daniel Ellard|fix bug in whether input dir is added to sys.path
+f97498bbbbd8b136660e6736b322f47c777ff858|2016-04-07|Daniel Ellard|add new commandline params and reformat
+170e720cbfa5069f523c4eaed7d550185e33eb6f|2016-04-06|Daniel Ellard|change diagnostic prints to DebugMsg.log
+9a821ed0853081096597d096ff9ad3344f3c0762|2016-04-06|Daniel Ellard|make sure isFirst is always reset
+c1ca2f051f40ec7f16a6c338ecf33f30a4e18af4|2016-04-06|Daniel Ellard|use DebugMsg.log instead of prints for diags
+0603a2df7054001c969a55526f7e76fe1b7e4833|2016-04-06|Daniel Ellard|rename debug_msg to log, for consistency
+ae3b9b5e65e726585442559f1f8215eb3093a873|2016-04-06|Daniel Ellard|remove unused diag stmnts
+80c66a55cd4a1fd64afdaa72dea2ab42b2fe5c80|2016-04-01|Daniel Ellard|clean up diagnostic prints
+8a224933e9a6512a0bc8a5e2e10ab2e6d2d85a3d|2016-04-01|Daniel Ellard|removed prints/changed to logged msgs
+4fd8f8fb2e51f89506b9161102ca4cb85cbc068c|2016-03-03|Daniel Ellard|eyeball test for debugmsg
+618cde70fdb2bf01ba58b170045563b4463f9060|2016-03-03|Daniel Ellard|rename module to avoid conflicts
+d3b70552de6ef1a650ed4c9054f442ce781ec8c2|2016-03-03|Daniel Ellard|changed defaults and interface
+a1006b4d5356de8b46740145fa7e1a6f6aeeae41|2016-03-02|Daniel Ellard|improve documentation; add level -1
+efdb682cd96ad71dee0ce3072a2e1b27fec377b6|2016-02-29|Daniel Ellard|better debug messages
+7748910e5e76d718722d7db3b5f906b36e621345|2016-02-29|Daniel Ellard|move debug_msg to debug.py; clean up flakes
+6d013fa62f8050da64be893e54a924186de05993|2016-02-29|Daniel Ellard|cleanup of some of the noisy diagnostic statements
+ecb2c66c7033372fcfa0a60672b5b9a7431d9ef3|2016-02-28|Daniel Ellard|prototype of debug message printer
+4526c98058166eabdce7fd7e719b929c1efdf445|2016-04-06|Daniel Ellard|pass the shared importer into SingleSequence
+078bb270283b4aef27dd21da0ace8cbedbb56cbe|2016-04-06|Aaron Helsinger|remove my output from checked in notebook
+5a7b61719fbcec211328642670e84d9eed90b72f|2016-04-06|Aaron Helsinger|remove ipython checkbpoints directory
+a7ee69577d6f5edd57e644fd769eff16a1e238f0|2016-04-06|Aaron Helsinger|Merge branch 'develop-ah040116.rb'
+8f1f712a724996a92d3f7fd5cbb4b39b29afb8bb|2016-04-06|Aaron Helsinger|add a notebook for running Ramsey
+ac172b20d4620715b3cd9278df1ade1133329aa2|2016-04-06|Aaron Helsinger|be robust to an empty entry in sys.path, which seems to happen when running from jupyter notebook
+fd72bc0dd9fab5e7190054525e9a70310315fe50|2016-04-06|Aaron Helsinger|comments on doRamsey
+5da3bf36f1f05553fb713a14cc55fa46424b2cd8|2016-04-05|Aaron Helsinger|fix params for doRamsey
+909f090d686165c7e5103db5c603e23ef24ce89e|2016-04-06|Daniel Ellard|Merge branch 'f.40.handle-implicit-imports'
+482eac587e274550fd02d8310b03b3e6556d1fed|2016-04-05|Daniel Ellard|remove unnecessary imports of Sync/Wait
+561bb35044b9bc3f7026e8201239ac987772389b|2016-04-05|Daniel Ellard|add Wait/Sync to qglmain namespace, if needed
+33a6b8a98e349ca52c08c83b778a720771e8bfad|2016-04-05|Daniel Ellard|add new utility for adding implicit imports
+ddcac9f4b6462353e220d31122be6894d5977b8d|2016-04-04|Daniel Ellard|misspelled qgl2.qgl1; error not detected
+1625d995d8c24a2e68b372cc03a3fe939e00a4de|2016-04-04|Daniel Ellard|clean up creation of injected Wait/Sync calls
+5cc6a5af0f25c13df7f2f5281cdee1c2d2fad080|2016-04-04|Daniel Ellard|remove importer from SynchronizeBlocks
+6b744c3ea8d97417cb27f0f1c8b20b7b5d6b05d8|2016-04-04|Daniel Ellard|improve the diag msg when an import can't be found
+7535de8805c2506a1bc19259065423bbf7e7a135|2016-04-04|Daniel Ellard|fail if Wait()/Sync() undefined in qglmain scope
+8fdf042cb5dc1cdc761eeea3288b792e79756ad2|2016-04-01|Aaron Helsinger|Merge branch 'develop-ah033116.rb'
+09ca916589707db44d306d29d62648f863ef358a|2016-04-01|Aaron Helsinger|start on a doRamsey function
+4358a144499eaad62afe2e7aea18873442c95534|2016-04-01|Aaron Helsinger|define doRabiAmp that takes no args
+7f4a29da2b40a21f72485bc2ae158602c93c7fb8|2016-04-01|Aaron Helsinger|Use QubitFactory, etc. Try using an existing Channel Library (if it has a slaveTrig), else use the canned one
+1da9e478d6b0086076f17d9ce7f7a9727f974518|2016-04-01|Daniel Ellard|Merge branch 'f.37.track_inlined_qbits.rb'
+caffb91cf4e5a7529961afc48633b39d9dfd40a4|2016-04-01|Daniel Ellard|correctly import Wait/Sync from qgl2.qgl1
+006af8155a47e7e9de5da5ef124a3e82479c07e7|2016-04-01|Daniel Ellard|make a copy of the preserved call for the inliner
+1b3b25ee248459f65bc560442fd4dff796c04d20|2016-04-01|Daniel Ellard|have init(q) do a sync and then wait
+cfbc6234d4ea25c70bf86724bfb3cc1d92da7868|2016-03-28|Daniel Ellard|when searching for qbits, look in orig_call
+5f346e6230800711e72ddf0d4b98220281a0d1a2|2016-03-28|Daniel Ellard|do substitution on orig calls of inlined funcs
+c8fd7832f12319688e7b628fe2568200dbe4eb31|2016-03-28|Daniel Ellard|keep a ref to calls that get inlined
+6238c644a75783f6fa724161fd787b67aa4d35ab|2016-04-01|Daniel Ellard|Merge branch 'f.39.smarter-stub-imports'
+dcd2bfd93d1abbb86f385a360790a3fad7cd3519|2016-04-01|Daniel Ellard|fix from Aaron, when saving a copy of the code
+405d4f545ba6a13bf973f700b4dc952760dea045|2016-03-31|Daniel Ellard|emit only the imports we need
+114aa392d8ae4dee30b88866e651050e4287f93b|2016-03-31|Daniel Ellard|keep track of parameters to stubs
+15ffa5bc196aed990e7b27ac057b4189476738e9|2016-03-31|Daniel Ellard|remove import of PulsePrimitives; add control stubs
+96178b3bd09987e99f74f3d6f0675a23ceeed5bc|2016-03-31|Daniel Ellard|permit the qgl2stub decorator to carry import info
+18cc45e1f935c5f4fb282b8bbc45cfde79c1cfe5|2016-03-31|Daniel Ellard|single import for all the "control" stubs
+6590fa7704526ae87459c5311c937b3b83173ff6|2016-03-31|Daniel Ellard|add import information to the qgl2stub decorator
+3ea88b1ae9d635b875a43c86c424f932f033cf40|2016-03-31|Aaron Helsinger|Merge branch 'develop-ah032816.rb'
+fb49c022247dca4776cc28650e077e8efc5ecd83|2016-03-31|Aaron Helsinger|comments marking test code
+2df719e8418b6cd4f090cc02e0075d97278bff13|2016-03-31|Aaron Helsinger|for unit tests, the main here is not a qgl2main. The new model is you take the output of pyqgl2.main() -o and make it into Fooqgl1 and import that here
+2a68ff3280ba3627a35c7d1741992a613a54c567|2016-03-31|Aaron Helsinger|Add -o option to save compilation of Foo.py as Fooqgl1.py. Note this is only the qgl2main() that gets saved
+a6c36438b1b3a250dc4f180c2cf71f145c01242b|2016-03-31|Aaron Helsinger|note limit to aps2 call stack
+c16764c2105be1dc3d45200de7498c1618a8c38d|2016-03-31|Aaron Helsinger|more helpers to set up channels, make things runnable
+c407e7f4d939f700ec1d7a88173a58f91e56d169|2016-03-31|Aaron Helsinger|take out the 'about to crash' message
+cedc9d570fc216988c9209f7dc50f83b3896d73b|2016-03-28|Aaron Helsinger|Merge branch 'develop-ah031816.rb'
+e8869d31e5329a6781f8b9f75c44265c045d706a|2016-03-28|Aaron Helsinger|use proper Qubit creating function and the proper label. Hack to add in QGL1 imports
+63756f13d45cbd3c7ff192cb2196e32b4d814764|2016-03-28|Aaron Helsinger|refactor finding the qubit channel name into a helper function
+6f4a0dc83d0e0da165b4871f0637089449a7bb2a|2016-03-28|Aaron Helsinger|use Sync not SYNC to match QGL1
+fb4bee82a00e664668fbdfd3e3f69576d8e397c2|2016-03-28|Aaron Helsinger|more gracefully handle the multi qubit test files
+20dedec964618edd7efd65e1f5180555a0a0bda9|2016-03-28|Aaron Helsinger|fix doAllXY() to create its own qbit, for easy testing
+6c66c74c4ac75a1a79638485ef3c33e83bd0f610|2016-03-28|Aaron Helsinger|Don't use WAIT(QBIT), but instead Wait() which matches the QGL1 function
+036d64348b517226421a6f352e7890d051cec0bb|2016-03-28|Aaron Helsinger|merge with Dan's stuff for getting a single sequence. try to infer the function name, and return the (callable) function
+a89acfe5108e89bb8efa763dbbdc387000b47d80|2016-03-25|Aaron Helsinger|* Note in restrictions state of things * pyqgl2/main: make it when run directly try to run the result as QGL1, take options to pass to compile_to_hardware et al * AllXY: create a new doAllXY() that is what we want to pass to the new pyqgl2.main * clean up basic_sequences to use Qubit() not Qbit(). Haven't reworked these for new model of how to make things runnable * get rid of GATHER_SEQUENCES * compileAndPlot is no longer a qgl2 function * compile_to_hardware no longer has/needs a stub
+da564d457d909f6b46b1c1212d75834d5bb548f0|2016-03-24|Aaron Helsinger|noted 2 more restrictions / limitations / todos
+842f83cd43d4dcf57c49eadd6882dc2e27a2940f|2016-03-22|Aaron Helsinger|add a file to note/document known gotchas / restrictions / limitations / todos
+30b22f27f5b740f388e8ed7a01f2efacc086f507|2016-03-21|Aaron Helsinger|Use Qubit() stub not old Qbit(). Comments on things that are intentionally or still errors. Some cleanup for recent language changes.
+156bd7901b7dc52a897fe637ff23b7d4e90ee9a2|2016-03-21|Aaron Helsinger|test file for ways you can and cannot create a qubit
+91289c513cd602de0c54cc86750fdd80b98de779|2016-03-21|Aaron Helsinger|clean up imports
+4d360b2fa2ea73387efcfb7132343bff79a6d09c|2016-03-21|Aaron Helsinger|* improve some error / debug messages * If you include Qubit() in a Call instead of an Assign, log an error * Try to support functions with kw args when mapping qbits. Before it gave an error if the # of args (not *args or **kwargs) in the method signature was different from that # of non kw args supplied in the invocation. Now be a little more flexible; if # of args supplied is more than the number of positional or keyword args declared, that's an error. Or if the # supplied is less than the number declared that do not have defaults, then that's an error. Otherwise, try to do the mapping - just bail out with the first formal parameter for which we don't have an argument
+8ce7dd9777fe90b73d9123685d95de97489d10b9|2016-03-21|Aaron Helsinger|comment on kwonlyargs
+5d90941cb879212d5043e1f5222d59022e24488b|2016-03-21|Aaron Helsinger|fix comments to reference Qubit() not Qbit()
+f2ddef629359f6b4fe29c60ed9cede38f00c2fa4|2016-03-18|Aaron Helsinger|use a constant for seq
+632ffa724e9a3445fefa60375bd0d79b85d899b8|2016-03-18|Aaron Helsinger|Qbit -> Qubit in a couple comments
+9b7a544414650f8d04e88697397a27578208dcdb|2016-03-18|Aaron Helsinger|Change from requiring a method Qbit() to create qbits, to requiring one named Qubit() that takes a label - a string, either as the 1st positional arg or as a keyword arg. Also, use some more of the constants from lang.py for the argument types
+5093efbf5f24f46aa5f606a0ae2348b7e501ea42|2016-03-28|Daniel Ellard|Merge branch 'f.37.phantom-qbit-waits.rb'
+c83f2f16110457d4512a757486ea2ba0ed87e77a|2016-03-28|Daniel Ellard|add diagnostics to SingleSequence
+bea950bfe270f237d05fa3b588bc6d17f677f7ba|2016-03-28|Daniel Ellard|create a QGL function from the compiled output
+e90b3311d9a820e4c98ff5ee1bd465298f2f080e|2016-03-25|Daniel Ellard|use the returned func from single_sequence
+1ca96adee995154e8d97684e1d05fcb93b3ba516|2016-03-25|Daniel Ellard|returns a nameless qgl1 function
+13f98aaf9bc5cae4002ef0616c72683c52f4f3be|2016-03-25|Daniel Ellard|with a helper function to compile the output
+d9b9288543d1cce7b178a985ac657105cc202372|2016-03-25|Daniel Ellard|simple function generator for a single qbit
+e98d6b981f858b7a222a12f34b758a5fcce8e687|2016-03-21|Daniel Ellard|description of ast attributes added by qgl2
+97b27ab4452c4b0d0602a99dffebd9ab2bc709d8|2016-03-18|Aaron Helsinger|Merge branch 'develop-ah030116.rb'
+7775f56f5e3743a9b6b73f33a063cfd3ed1a8871|2016-03-18|Aaron Helsinger|improve a couple log messages comment out a log message and empty block for handle_builtins (unused)
+490b816642fd857bb1e26fedecbbc7c142aa5945|2016-03-18|Aaron Helsinger|add stubs for the other ControlFlow functions that Dan uses
+71f94a2cfa6119e8227b7a06fc59faad26741a79|2016-03-18|Aaron Helsinger|per Dan, wrap the whole thing in with concur. And cut an old version of the function
+774cbf867dcbcde02c73bebdb7be21b65a1d19e9|2016-03-18|Aaron Helsinger|quiet down a warning message processing qgl stubs
+86c45050dbbb7149fe86c4ec5697249eb15f4871|2016-03-17|Aaron Helsinger|do not specialize / inline / rewrite qgl_stubs. So the call looks like X(QBIT_1) and not X__QBIT_1__qgl2_tmp_056(QBIT_1)
+bbfd3d55979979d6e62ada9c339de5018169f9f6|2016-03-17|Aaron Helsinger|Support qgl2stub as a function whose args we check but do not inline the body. Special case when inlining a function: if the first line is an expression that is a string, skip it - it's method doc.
+8fef60223a508b19c549dd1d2938e5a7486b3878|2016-03-17|Aaron Helsinger|Fix return from things like IdId annotion to show it is a sequence. Comment out return from compileAndPlot; cannot inline something with a return. Cleanup.
+5db9a0bd92135038df4120e79f0a8fd1d8e01546|2016-03-17|Aaron Helsinger|strip unused plumbing stuff
+4f8cc5e1f1ea5b131cd472dd99ded14e823eea25|2016-03-17|Aaron Helsinger|Define GATHER_SEQUENCES: a method that should not be executed, but be replaced with the cumulative listOfSequences in place. Define @qgl2stub for a qgl1 stub function whose params we should check, but do not inline the function. Define sequence and control as valid annotation types.
+f355f020707b416513f9120d4875848236ba0deb|2016-03-17|Aaron Helsinger|2 minor import cleanups
+dfeff9718044d39e2db6701c2aad2617fab113c2|2016-03-17|Aaron Helsinger|add notion of CONTROL and SEQUENCE params, and notion of QSTUB for qgl1 stub functions
+615352f7b26ba981e27b58c382d9565184fccadd|2016-03-17|Aaron Helsinger|strip all the no longer needed stuff. working on imports of the qgl1 stubs
+3158bc6348a3a381b74a26dbe1209c7c34525445|2016-03-17|Aaron Helsinger|python3.4+ stores varargs and kwargs as arg objects not strings, and the annotations therefore hang off of that. Try to handle that
+7fb2079fe254e3bb6e93901d9e840fce4e28f31f|2016-03-17|Aaron Helsinger|stubs for QGL1 functions used in BasicSequences. Note that class init methods have been turned into functions, and *args and **kwargs have been replaced with explicit args where possible
+fc671a7e59d780c580dac208bf43dee11440b942|2016-03-10|Aaron Helsinger|2 small typos
+5e2ef7cc03f3755ee697f4814c681d3bbee47c0d|2016-03-17|Daniel Ellard|Merge branch 'f.34.control-flattening'
+3e95679944b3e26a5a82e4169f0ec9dadfd03b33|2016-03-17|Daniel Ellard|add the wait/sync commands as the last step
+e801c2cc56a229981d9687b67500aa52d9218de9|2016-03-17|Daniel Ellard|annotate new blocks with location info
+72b30f4db8b1393528baff040a9b0646eb114c18|2016-03-17|Daniel Ellard|annotate seq block with location information
+bf713a5122df21dee2c30206903af8dc8f7c13c6|2016-03-17|rblazarus|Merge branch 'master' of qiplab.bbn.com:dellard/pyqgl2-exp
+9c5a62b338523833d8bd2036ea2f829f1e726743|2016-03-16|Daniel Ellard|support break and continue in REPEAT blocks
+4778e78488f7e7a45b60c39a4e7155f254d2ec74|2016-03-16|Daniel Ellard|permit "break" and "continue" within Qrepeat blocks
+e4840430c5e6d3398179df32e749f987b9e5d0c9|2016-03-16|Daniel Ellard|add diagnostic msgs about "repeat" disqualifiers
+9dbbe24dd3d13da980348daa251ca943bcfa06b0|2016-03-16|Daniel Ellard|fix/cleanup imports from concur_unroll
+0a2b29593cf05b46c34351c3a25329326534fd22|2016-03-16|Daniel Ellard|move find_all_channels to concur_unroll
+1ddecbd66f8ed61f87e6aefb7dfbdf3613f94fe7|2016-03-15|Daniel Ellard|first draft of code to insert WAIT/SYNC
+112558d1601c587de9c92c6eb71a93b41a6ffdbb|2016-03-11|Daniel Ellard|add is_seq predicate to find seq blocks
+f78855ddc720412f6bf05d5f08b69ad273786d78|2016-03-11|Daniel Ellard|sketch how sequence pretty-printing
+34297064cb4871e8504ea3588f4d01a4cfa51508|2016-03-11|Daniel Ellard|prototype of sequence-creation functionality
+0bbe80a220c1121687475914e061ead01f6a8e0c|2016-03-11|Daniel Ellard|fix text of Return and LoadRepeat
+31c66fdb42102b67299084069fbceef4fe7d3068|2016-03-10|Daniel Ellard|stubbed out a prototype of repeat blocks
+06a08bd650997ece86188246d62da8b773e34643|2016-03-09|Daniel Ellard|add 'repeat' to the grouper
+3a39bcac63dff15c8318508b136108fff6f75596|2016-03-09|Daniel Ellard|use "repeat" instead of unrolling simple iteration
+cad7b15acca6e715c5b0923440f354fd47b1376f|2016-03-09|Daniel Ellard|add ability to recursively add location
+deb76c4db75874c954110632919551dbd419a57d|2016-03-08|Daniel Ellard|use QGL functions for labels, goto
+a8f18d395029abc763d10eb1deaaedb2b56d9984|2016-03-08|Daniel Ellard|improve comments / remove typos
+a5a7739bfc9f382ceb696288223075cc470f5a74|2016-03-07|Daniel Ellard|remove extraneous "if" blocks
+a343512707afe9c177089cc904c0eb50fe4087fe|2016-03-04|Daniel Ellard|change pydoc to ordinary comment
+e4b99b809a40ba6ca7807c29b4e1d295df5c7454|2016-03-04|Daniel Ellard|example input for the current (broken) flattener
+2019ed77591b824855a46a938f51dbed0f10c46d|2016-03-04|Daniel Ellard|added flattener; flattens, but result is wrong
+9a15e9deb3b45bb80de99428b564937ae864f0ff|2016-03-04|Daniel Ellard|cleanup: remove some diagnostics, dead code
+072803ac808aed256055e8f2de2e39e42806dd0c|2016-03-04|Daniel Ellard|generalized to deal with nested bodies
+22824054d1310481e62467223f9aa36339597259|2016-03-03|Daniel Ellard|optimize "if" case when there's no else
+93e2e1c23b1c16560385875311bdc867cb8d5d00|2016-03-03|Daniel Ellard|add prototype for if/else flattening
+ee239911931d312a9c7e4d47729ac2efc852b085|2016-03-03|Daniel Ellard|prototype of flattening code for control stmnts
+f0529a30383e9d6aa74b8bb5bf34e78c89135108|2016-03-01|Daniel Ellard|fixed other calls to func.id; use collapse_name
+fea2cfd0d3a388a517db3307734738f1dd5dcbde|2016-03-01|Daniel Ellard|fix error in extracting function name
+0f3fe4d4f8f2f8d1230feecb85c8c9244d9a5a20|2016-03-01|Daniel Ellard|use the new form of the specializer
+e2f8e8dbb3969de855447d253bc9ed0772d58f20|2016-03-01|Daniel Ellard|store specialized funcs into callers namespace
+6ddfbeb5853cd285086b4b7087a716036d5e358e|2016-03-01|Aaron Helsinger|Merge branch 'develop-ah022916.rb'
+853d88257383734c38522454933a77f3bf15510c|2016-03-01|Aaron Helsinger|marke functions that do pulses as though they return a pulse. New version of AllXY that should work sooner
+08042a2b7040f1c41c34ae52da6a4c4ba3960862|2016-02-29|Daniel Ellard|Merge branch 'f.32.unrolling-tuples'
+52a2fc3c4ab98f296bc9e39159ccbe45102d3dec|2016-02-29|Daniel Ellard|typecheck tuples at for loop targets
+1abc87da346942932efbeb246acc6fb821a13148|2016-02-29|Aaron Helsinger|Merge branch 'develop-ah022616.rb'
+faed54ad9b90e3ad6ef9a772754cfc4335cc12bb|2016-02-29|Aaron Helsinger|switch to the 'real' AllXY for qgl2
+8ad1e8b1a0c5bee00bcb887b748bfe15f224ef68|2016-02-29|Aaron Helsinger|init now does ControlFlow.Wait
+9ec29deff531fc72960e07682ce61962b7ffdbb7|2016-02-26|Daniel Ellard|Merge branch 'f.16.check-unrolled-functions.rb'
+760cc9add70c097b1bb732f791d454d42fc8cf32|2016-02-26|Daniel Ellard|test new expansion functionality
+804d6f6fe7fb830f0bf06f73365be1124c31e4e5|2016-02-26|Daniel Ellard|for testing the latest expansion code
+cb52749fbdf212d4a6d996d954ac11631c351033|2016-02-26|Daniel Ellard|move error checking into the expansion loop
+b24538119fd6d1243f08b19ab30a159522b8abe9|2016-02-26|Daniel Ellard|iterate expansion steps until convergence
+f782658e06b511bc2ad181bf2e03456a03cc0625|2016-02-26|Daniel Ellard|change change_count to change_cnt for consistency
+a98488ed25ebbacd02789388f37940c60dc8be9f|2016-02-26|Daniel Ellard|fix call to copy_all_loc
+ab2543752e96fb9cbdb18f181a03aa5f5e3305b0|2016-02-25|Daniel Ellard|add a second substituter pass after unrolling
+e9291c43ef1f7699221b17647d9e1d2d27ce4c88|2016-02-25|Daniel Ellard|better diagnostic msgs for type errors
+3d27005908129abc1d2b8739e4f53af9520302c2|2016-02-26|Aaron Helsinger|Merge branch 'develop-ah022416.rb'
+5753af8170f4f2558ed4e905a420cb62ec060f15|2016-02-26|Aaron Helsinger|export init
+714e04f946598a495c356c6904353b1e1bd48cb1|2016-02-26|Aaron Helsinger|last RB function
+dc38648e7543d7e7a8772ee327cedd83445708c8|2016-02-26|Aaron Helsinger|initial versions of most RB functions
+4cf47b421ad55b4f420741d0e56c7a850d2b728f|2016-02-26|Aaron Helsinger|move init to a new helper file, fix some imports
+447a1cb1247747e32ef9a4d07b342767108d2f93|2016-02-25|Aaron Helsinger|allow specifying file suffix (default empty string)
+90274ec6285379f09771a7746dbdd8b5f5d2e099|2016-02-25|Aaron Helsinger|add missing calls to init(). Also note that QGL2 version once compiled will need to return the sequences
+c6adcb737e0b8c15c8b1427d038ad764e0484b41|2016-02-25|Aaron Helsinger|add missing call to init()
+ccb54dbe588819f0c6c5acef356b351ad09489ee|2016-02-25|Aaron Helsinger|add missing calls to init()
+dbfea6fc8dfcb606096760b241714e0fbaf92920|2016-02-25|Aaron Helsinger|comment on what init should do
+08910a1e20a8307ccd5eb617c9e684e223a3ee6f|2016-02-24|Daniel Ellard|Merge branch 'f.18.conditional-import-warnings.rb'
+7d065a3a611ac34789fdae147c7d0bc58a76bc24|2016-02-24|Daniel Ellard|warn about conditional/deferred import statements
+395e39cbef7ae90119157b3b0065cb4d2095ebbc|2016-02-24|Daniel Ellard|fix some sloppy error handling in imports
+31d48fb43fdbd443960af8f599388e4f0ddd9a01|2016-02-24|Aaron Helsinger|Merge branch 'develop-ah022316.rb'
+e07aa94fd1889401e09156364033d7f3156e7461|2016-02-24|Aaron Helsinger|initial versions of the Rabi functions
+af2f9abb22ef2956c04ced351d6df508b16b4f9b|2016-02-24|Aaron Helsinger|compileAndPlot returns a handle to the window for callers that want that
+e374ecadb7afdd4648883674a2db0c15c8dc27de|2016-02-24|Daniel Ellard|Merge branch 'f.16.unroll-more'
+b782c2ee3ede6dd1a410ad7e6feffe520a7db586|2016-02-24|Daniel Ellard|fix location info in expanded range list
+bdc34bc6474839cd491978f1c95e4836861e9fd8|2016-02-24|Daniel Ellard|use new ast_util.copy_all_loc function
+25c0fe7f39be0012c94771e4101c40c05e2a491f|2016-02-24|Daniel Ellard|add better routine for copying location info
+6284ef1095ecc8180b7f6ee11011e79bd83faef2|2016-02-23|Daniel Ellard|handle simple range() calls in unrolling for loops
+e20663b192f842137de3fdb6243732442d5cbb6c|2016-02-23|Aaron Helsinger|Merge branch 'develop-ah021916.rb'
+bcaafd1e4e5917cee2475f366c7b3d99e587b571|2016-02-23|Aaron Helsinger|initial rewrite of T1T2 functions
+3cc3601557981c29d7bda35d7dd7d65e3f734186|2016-02-23|Aaron Helsinger|fix a comment
+80492201f1eaa3661441f5cce01ab3985afb8dda|2016-02-23|Aaron Helsinger|initial qgl2 version of SPAM
+06e71427909def2dd8c70d48a69c852899a863d8|2016-02-22|Aaron Helsinger|first pass rewrite of FlipFlop
+5271a92b91f026b55ea241b4dda434a6e9f309d7|2016-02-22|Aaron Helsinger|add an intermediate version of Reset - not sure it helps, as it leaves in some of the harder bits. Also add missing import of qgl2.qbit
+e039c6e8a0bb7e0d55d010185a800bb7c3f514bb|2016-02-22|Aaron Helsinger|remove sequence_list attribute since QGL2 compiler doesn't like it yet. Move init(q) into new_helpers.
+f6ac5ed28452f93ab346afa45549f4b497f8db5a|2016-02-22|Aaron Helsinger|Merge branch 'develop-ah021916.rb'
+96ca20343ade16a8a732051bc8292ca24529c086|2016-02-22|Aaron Helsinger|comment on next steps in producing intermediate versions of this function
+817843074bbf8b617efa588a21520586498deebf|2016-02-22|Aaron Helsinger|clean up test mains to match QGL2 compiler status. New AllXY variant matching current compiler abilities. Remove measChans from the aspirational Reset.
+26be132f45e36f65cd78634cbff17a8eb188bde7|2016-02-19|Aaron Helsinger|add Blake's version of Reset, with FIXMEs and stub definition of init
+22bbef8bdfad55c947004b79dc18ef792eafcdba|2016-02-19|Aaron Helsinger|Merge branch 'develop-ah020516.rb'
+8f1c86075cd1d0646742c33010f523380b020bf2|2016-02-19|Aaron Helsinger|Add a main() to each so we can test more directly
+93f28bcd1a72f82ff7287dfd3a3245b86d27b14a|2016-02-19|Aaron Helsinger|add missing import of concur
+93c10c9b909171fad737051c8473cdd28d44c773|2016-02-18|Aaron Helsinger|re-order args to qreset to match args to Reset. Pass in the measChans to qreset so we measure the right channels (in general)
+1cfbe6a5f9fe6597899e0654141da646ff601b2e|2016-02-18|Aaron Helsinger|include Blake's rewrite of Reset, and then a qgl2 version of that
+17b73b294d515538d7936547f2e8b250bd60131f|2016-02-17|Aaron Helsinger|comments to help explain what is going on here
+aad9ff28bb3c75b8e286222accc1bcc390e9e839|2016-02-17|Aaron Helsinger|Initial implementation of Reset() for QGL1 without the multiple nested list comprehensions
+321e06bf32d596eb3d3bb1d6b50e13275214ed18|2016-02-17|Aaron Helsinger|cleanup, plus ensure we give tuples to MEAS
+00c13d2072512aad3b07ab405fc933a25134cd0b|2016-02-16|Aaron Helsinger|first pass at clean qgl1 and qgl1 versions of CPMG and HahnEcho
+ab859dd9846f2eca95dd95d7e7e70317ac68a1b4|2016-02-19|rblazarus|Merge branch 'master' of qiplab.bbn.com:dellard/pyqgl2-exp
+cbaa342171d12f5f34b16eeeeef8f5bd07fdd8b5|2016-02-18|Daniel Ellard|Merge branch 'f.12.concur-for-integration.rb'
+d76040ae3c0c26e56a9f49cebfc6556034b8c5dd|2016-02-18|Daniel Ellard|remove ConcurUnroller; use Unroller instead
+f03e760c0e294bee6e042ec3d5915ddd47faea7f|2016-02-17|Daniel Ellard|handle more cases with nested bodies
+21bfcc5d5adf36c0a809ed7c897d83afb3c99d6a|2016-02-16|Daniel Ellard|replace concur unroller with generic unroller
+f3cb640f9318ffc5e2710fb8bbae1198d60f7303|2016-02-16|Daniel Ellard|move the unrolling engine to its own class
+dfd3a5cd6b790efa8291d692277cda476b870e0e|2016-02-16|Daniel Ellard|omit printing the namespace
+626669397b8d6ad7bb524c1f3d7d9a6bbb0b11e8|2016-02-15|Daniel Ellard|fix bug with non-for-loops in concurs
+82c4ae6159402d9a1076db0eba9ed737fb2f1e01|2016-02-12|Daniel Ellard|simple tests of 'for' unrolling/grouping
+6a01e34fb3b4d364db7b56b96337b3db02869075|2016-02-12|Daniel Ellard|more complicated test of 'for' grouping
+697f7464e490a6d54e333324832314b58f65285b|2016-02-12|Daniel Ellard|sketch of adding statement grouper
+0b7edf6eef0f2928317789d11f6d318d1a1a07dc|2016-02-12|Daniel Ellard|move the statement grouping to its own class
+8ebe59f49d5a01bd2bc058e8bea9b1b168b2b7c7|2016-02-11|Daniel Ellard|return a more useful representation
+067ab5ef521187afa37b170ee860c083b4d5b570|2016-02-11|Daniel Ellard|basic checking of the grouper is working
+c3c4d3499c875a3718483f5f80d71de69a6e1d09|2016-02-10|Daniel Ellard|prototype of code to group stmnts by qbit
+3b137cc24697cb7a25d7fc32def28f96738ea4c8|2016-02-16|Aaron Helsinger|Merge branch 'develop-ah020516'
+8b121b8a30185f2435a8309881941805d0987099|2016-02-16|Aaron Helsinger|swallow the necessary error redefining EchoCRPhase so it works as QGL1
+66e2d55d703d4fc3e8c0ab6149bea7cd7b1f3f4b|2016-02-16|Aaron Helsinger|Merge branch 'develop-ah020516'
+4d534baa977af5f119a5af91d7d7da10e41af3ac|2016-02-16|Aaron Helsinger|comments, cleanup so we have runnable QGL2 code here
+202d3e05c3af1c4c5c9e4072ae020d2e3b48c348|2016-02-16|Aaron Helsinger|rewrote create_cal_seqs so it is good QGL2 (with a simplified QGL1 variant in comments)
+509de1607c281765471c80200c96729719a05cf3|2016-02-16|Aaron Helsinger|rewrite all functions so they are QGL2 functions, with simplified QGL1 variants included for testing
+aef4175cc70ab3498c8828fe7c662120b0f3f486|2016-02-16|Aaron Helsinger|comments, cleanup. rename things so as checked in, it tries to be a compilable QGL2 program
+76a17a4e9006f7c22b0d0306827707093ddeeaf7|2016-02-12|rblazarus|Added copyright statement
+9046381bf7aa4029331bc13864685269acbb182c|2016-02-12|rblazarus|Added copyright statement
+200d480eda5e4279e6192d1dae034fc7f5af99ff|2016-02-11|Aaron Helsinger|revised AllXY to use blocks of statements not python lists, and a new decorator to try to help the glue from QGL2 to QGL1
+6f42ffbe5159a6c272d0b52cc930e84c40dc8813|2016-02-09|Daniel Ellard|Merge branch 'f.11.broken-import-from-as.rb'
+000993cedd3d5f0f3ac1ff532a9cb03706146fdb|2016-02-09|Daniel Ellard|add (unused) function to resolve directories
+e57ed44d4a076aaced4afbee3f4f8784e82830ea|2016-02-09|Daniel Ellard|relax handling of import 'errors'
+c4400a5c4f42c5c6c4f5b766a2c2bd871e42cb76|2016-02-08|Daniel Ellard|improved logic for relative imports
+479541cded5e160bc146161d14fbf56ac6f14d08|2016-02-08|Daniel Ellard|handle the case of a "from . import"
+0d536afaa91937b0e715a35e018ecdd2a98877f3|2016-02-08|Daniel Ellard|correctly print dots for relative from imports
+960ebc53027973267019fee3066a9bd20750b220|2016-02-04|Daniel Ellard|fix from-as imports with relative paths/no modules
+135b679f98778cddcaea66ea8581636eabb76686|2016-02-05|Aaron Helsinger|Merge branch 'ah-rebase'
+eedd04eea773ef0dd11d7db7c0d6d7e9af0bbb94|2016-02-05|Aaron Helsinger|Clean up my helpers. First implementations of functions in CR.py. Note these don't use with concur yet, nor use functions instead of pulses
+7e100f49509143f211dac0439665a913cf6ba997|2016-02-01|Aaron Helsinger|Cleaned up and working helper functions. Cleaned up AllXY to use the new helpers. Much cleaner.
+a59f1e29a8e520daa4159934228ca75ffd88ba95|2016-02-01|Aaron Helsinger|whitespace
+e99faba68b296f45d44329d127ea863c4614297f|2016-02-03|Daniel Ellard|Merge branch 'f.10.add-NameConstant'
+51821968714ce3496458434978ae4b1bc8f543d3|2016-02-03|Daniel Ellard|handle NameConstant parameters for builtins
+977fc8c5f1e188d5cca8cc758a9c85460e5969f9|2016-02-03|Daniel Ellard|handle NameConstant parameters
+4cd67b66b8e8fa4b8c330b07aaa21f18e87d6f43|2016-02-02|Daniel Ellard|handle finding the 'value' of a NameConstant
+934bea36f6b7ddef84e4164b37b336deb747894d|2016-02-02|Daniel Ellard|handle NameConstant actual params
+56a0b6385c9ac7e2bebbb6cae05abde4c88e8528|2016-02-02|Daniel Ellard|add pretty-printer for NameConstant instances
+a1f0e00fd9045d294475501127d2116fd4a88ff0|2016-02-01|Daniel Ellard|Merge branch 'f.7.concur-for-unrolling.rb'
+d6aacdf26184476f6aee4969a831f8983d32d90d|2016-02-01|Daniel Ellard|embed some simple tests
+9229e97de194c663a44b3870e30d65f052bc1027|2016-01-29|Daniel Ellard|handle tuples; do simple sanity checks
+22bd61a52126ae4ae663859c5d1511a3a40d5b17|2016-01-29|Daniel Ellard|handle files that don't have qgl_fname
+b23cc2a0f8812536b6ffbfcaf0d8bc4014a01e47|2016-01-29|Daniel Ellard|handles nested loops; doesn't handle tuples
+8bb27d5f14b9bfb195eb004ed6e6ab9dfe7f2a21|2016-01-29|Daniel Ellard|basic functionality for 1-var/1-level loops
+141c57349541664f3e52444c803cb107923d8d23|2016-01-26|Daniel Ellard|very early sketch of concurrent loop unrolling
+35e13d3f5a96373c4d15c07e5a966ea2f72bbe6e|2016-02-01|rblazarus|Merge branch 'master' of qiplab.bbn.com:dellard/pyqgl2-exp
+8bf48a852b8acaee9f656d529869c17eb6fc4463|2016-02-01|rblazarus|updated the import statement
+656d3d21ec32980c7e3cad0e6f0fcfd8866d955f|2016-01-29|Blake R. Johnson|Add "demo" test.
+30a338a0dc92473ac3a8a6265055130972490b76|2016-01-29|Aaron Helsinger|Merge branch 'develop.rebase'
+e637bcf305da160c4e144b1482d4bcbe0970d130|2016-01-29|Aaron Helsinger|move the imports outside the main() and make them explicitly list the methods we're importing to be clearer. Add redefining of a few more methods.
+346a111f096e594b1b3f8234f5e429a5496604e2|2016-01-29|Aaron Helsinger|comment about a couple methods not being exported
+bb3fde982a8fd9fca8b70ee3aeb7c60f2e8abea0|2016-01-28|Aaron Helsinger|clean imports, declare a qgl2main
+3b9f6ae7cf67708f5a36fbc4ca46f540c858744e|2016-01-28|Aaron Helsinger|add try/except clauses around null invocations that were meant to test that the preprocessor already ran, such that we are robust to typical errors if that is true. Tested by using the original code.
+5cd0a1d3659b834a9b4c89e73710168ccd882e5f|2016-01-28|Aaron Helsinger|add in correct imports. Add in commented out old implementation for reference
+6819b64e042f26e35002cd1b0f795064fe676922|2016-01-28|Aaron Helsinger|first pass at re-implementing AllXY. Does not yet use the helpers I want to add
+2ba366d758f4290be5941d9f6a62e2e4ab827262|2016-01-28|Aaron Helsinger|start at some possible new helper functions for lots of repeated code
+097152c1727891087469a1405a895e142c4ab6c8|2016-01-27|Aaron Helsinger|2 minor tweaks based on feedback from Blake
+4e14e678595bfa7cca38e2f49d4d773a48f2bdd0|2016-01-26|Aaron Helsinger|for unimplemented basic sequences, raise a recognizable NotImplementedError. In test_QGL2, catch the NotImplementedError and the AssertionError (about calilng qgl2decl directly) and in these cases, stick with the qgl1 version of the method. This lets the unit test work (sort of) before compilation or where the method is not yet implemented, so we can incrementally flesh this stuff out
+5e72603a27a7ef02791a8c9c442fb6eea80f4bf0|2016-01-26|Aaron Helsinger|whitespace cleanup
+bcf6928ae5052ee76a07e47399c7c083f8e530b1|2016-01-26|Aaron Helsinger|decorate and annotate basic sequences for qgl2, and import those functions/tags
+bc0e4a142f6bebe3670eaacde69adeeb224b77d1|2016-01-26|Aaron Helsinger|show more on import errors, update comment
+d785eac5b6ee96f679414a910afaac817e3cc490|2016-01-26|Aaron Helsinger|comment on other setup steps needed
+d04e0574a9799a61bc673c534a4f0f3d8dface48|2016-01-26|Aaron Helsinger|Initial version of test_Sequences for QGL2 and python3, along with initial python3/qgl2 stubs for the basic_sequences. Also add a .gitignore
+ae28a86460f5f0ceff5a3f11bda3ae4377ea0709|2016-01-28|rblazarus|Here is another examply of "with concur" for qubit initialization.
+f4b85a2c179bc8fe0f172d0225915780af716cc4|2016-01-28|Daniel Ellard|Merge branch 'f.8.relative-imports'
+6bad37b24e9bbe64b5d4273273fb2a801e124e84|2016-01-28|Daniel Ellard|don't try to import "system" modules
+0ab2a2db3f2d2c3af5e35e5aabd20f338a28679c|2016-01-28|Daniel Ellard|handle "no qglmain declared" correctly
+26d13df5143ec8d7adf205b6a1871be4e9962120|2016-01-28|Daniel Ellard|handle error messages w/o file, line, or column
+7e7d8f8b9ce5b14d3398abab60a816f7103c2244|2016-01-28|Daniel Ellard|fix recursive loop in handling fatal errors
+b2b4f76cbe5e49dbe79de70342cd29d8cce7fe67|2016-01-27|Daniel Ellard|fix typo in alt_namespace for "import *"
+fa77aa7397a246c22b4f290c8cb792c3c97e7a21|2016-01-27|Daniel Ellard|allow relative paths in the import path
+c9e4defe456de9df5ac9944f90c1c6ca7dce67f5|2016-01-20|Blake R. Johnson|Add gitignore.
+1b0a5b50398de2efe0ec2bd31af0e891f34ba19f|2016-01-25|Daniel Ellard|Merge branch 'f.6.directory_imports.rb'
+5d16ee8a0f754181d063f06108b567dc9573d88a|2016-01-25|Daniel Ellard|handle relative imports of directories
+9265f051b5c7f4df1edaff3c30029e4f3e3a8c90|2016-01-25|Daniel Ellard|handle relative imports
+8db82a413fdaa013dabf739c5fe1d85b1cc05479|2016-01-22|Daniel Ellard|look for "directory" modules
+cb3c04cf1c98d6c67b9018d31c48fcb637ae0874|2016-01-22|Daniel Ellard|use realpath to find scriptdir, just in case
+4d76db9314c35b7cfebe5825ed3332ac582879dd|2016-01-25|Daniel Ellard|Merge branch 'f.5.python3.5'
+dd9ef22f7ff485f29905d659d3af6de44b3a437d|2016-01-21|Daniel Ellard|deal with *args and **kwargs in inlined functions
+0e6eebc74ae5af9dc983bee2ef648828291b09e2|2016-01-21|Daniel Ellard|remove misleading comment about return value
+d2d371f122fb02f53f98192f118f508091a2192b|2016-01-20|Daniel Ellard|add support for 3.5 AST
+2e28a739e8fe6adb6f7ad1a296bf19edb14cc632|2016-01-19|Daniel Ellard|fix broken call to error_msg
+6d77c31c1c681d3b68581a37b4c9601e3d828cf7|2015-12-15|Daniel Ellard|notes for January
+441e972cacf455284cd521def63cb92a72525cf8|2015-12-15|Daniel Ellard|example that uses more operators (with, for)
+e91e4b867239d0fe00c3362e4aaebf9512ed274f|2015-12-15|Daniel Ellard|adding script directory to the search path
+622d3dc9f8749adf42dd4dc5ef9d5f5e945a9284|2015-12-15|Daniel Ellard|a simple example, using the current syntax
+06de51e238484a3a2bc71408d11f11f869276a55|2015-12-15|Daniel Ellard|cleanup/doc the name resolution algorithm
+7b46f7dbe5ff212d1683cf68bc7a516a0b924da3|2015-12-15|Daniel Ellard|collapse names of function names in other modules
+9219cc02cd83026c424fd5360a49dce092eaf262|2015-12-15|Daniel Ellard|enable NodeError to work without a node
+e938a81b26f7a4d3df15af463a6d076dda57dea2|2015-12-15|Daniel Ellard|neatening up out the inlined code is printed
+21e78ce60057ebf2a97e3626232b73e38614a3fd|2015-12-14|Daniel Ellard|not a fatal error if a definition is missing
+0086876dc057a441ec04f91f3fedb4d986c976c2|2015-12-14|Daniel Ellard|use new NodeError.halt_on_error() method
+ecbb4b555430abe51da447cd001212b5796bc092|2015-12-14|Daniel Ellard|convenience function to halt on error
+4a4ff9153ae5dddae5c33777a0fb5b92888e0f59|2015-12-14|Daniel Ellard|small additions to test FindTypes
+e9f53ed95e3d5af23d95d8e6a4b1f9538a6e79a5|2015-12-14|Daniel Ellard|starting new type analyzer
+a0b8a5cdfafcb13a123c7a810e2c857095b945d2|2015-12-11|Daniel Ellard|don't consider undefined funcs to be an error
+996228b23a7311edeb3d0e528f1454a302d30806|2015-12-11|Daniel Ellard|reworking how qbit variables are detected/tracked
+30f7569b113ce66b0c9e5746412fa3a9cd37dc50|2015-12-11|Daniel Ellard|it's not an error to have more than one qglmain
+141cf4c1da1851044917184ba1747ed0a03bc07e|2015-12-10|Daniel Ellard|use new CheckWaveforms interface
+a7895d9422cf21b9beb83be6c650e1809fba5e48|2015-12-10|Daniel Ellard|start to use type declarations consistently
+9cb318b7571c04e45f01390200822782cafe3311|2015-12-10|Daniel Ellard|changing how type checking is performed
+abdc780c7167ad270480570ca10d918f7b629049|2015-12-10|Daniel Ellard|add diagnostics to never-happen case
+673d4af48598e6cf070394c538e19c3facb4f69b|2015-12-10|Daniel Ellard|clean up how the specializer is called
+e841d3f099ff3b035919fff5a9cc0202010a9286|2015-12-10|Daniel Ellard|add later checks, post optimization
+e281e54b46fe09121fa92f0c28e909cf522672f2|2015-12-10|Daniel Ellard|propogate qbit definitions correctly
+b909fc78a71a33f4461b180585bdbfa61ff8b763|2015-12-09|Daniel Ellard|be more graceful about being a module
+910eced8ea0d5aba83e8cb61715cbe11da1d6f9e|2015-12-08|Daniel Ellard|integrate the specializer and print results
+d0437a814b773474eb1b069c9c46f7b6bd3888dc|2015-12-08|Daniel Ellard|add methods for pretty-printing a namespace
+d1a77b24ebeeffa7f5470bd041b84a470ba3ac3a|2015-12-08|Daniel Ellard|add inlined functions to the namespace
+c2fc217df593a3e024b9ff80acb3017a069c6b56|2015-12-08|Daniel Ellard|adding specialized functions back to namespace
+bb3608b6d7638f22ade047baf404c589784d3d76|2015-12-08|Daniel Ellard|add inlined versions of functions to namespace
+1211bbefce3f770fe77fe78fd7a72297a9d123a9|2015-12-08|Daniel Ellard|recurse the inlining through called functions
+2343939e5e65d994bb327472f1e894d5c5194562|2015-12-07|Daniel Ellard|clean up some sketches no longer needed
+39891a454c1e80f642b9f860eaf2a2ebed014977|2015-12-07|Daniel Ellard|more commenting; commenting out diagnostics
+48bee6ec82fd9cafc298c3678d47a70e0f0ccb42|2015-12-07|Daniel Ellard|adding comments
+66b114bedaae9ad7e9428ab2b59b394fcd76bf35|2015-12-07|Daniel Ellard|change the way 'temp' variables are named
+b83bd733bf2546c3a530ff8e47593113db873163|2015-12-07|Daniel Ellard|make the function inliner an instance method
+177186e25c5451c066eecd377812a574333102b1|2015-12-07|Daniel Ellard|Merge remote-tracking branch 'origin/master'
+b315d6ab3e7ca4bc2756fe6bf0400cf2e0f2a7ce|2015-12-07|Daniel Ellard|add iterative inliner to repeat expansion steps
+c61a8629542da409076c68d2b27bd2d6783a7d0f|2015-12-07|Daniel Ellard|allow variables to be passed through
+8ad70bafc2ec24b08347d77e70a7f980440e779d|2015-12-07|Blake R. Johnson|Add tomography metaprogramming example.
+0852f8af94c8b208acf80b12de8cdc3fa9590bcd|2015-12-04|Daniel Ellard|improved the commenting
+2ae99b8615b5956acd5b58480da47dc57587d875|2015-12-04|Daniel Ellard|add renaming of all locals during inlining
+facc6ccc72cf72ba359a3bb7c0260e570045977c|2015-12-04|Daniel Ellard|add 'seq' statement
+b0ecccb54e82ff0273ba0e3d14a212f5b9c5485f|2015-12-04|Daniel Ellard|copy methods referenced here but defined elsewhere
+35e1f806ccbf2bf1c53f2fc7ab94eadb226d435f|2015-12-04|Daniel Ellard|track changes to names of functions, constants
+1011c23b64bc4f09a532f841f973e4ba7b8cd8c3|2015-12-04|Daniel Ellard|more hardwired pulse names, for testing only
+df1a66d81703dff93e18d6719cbb13db4f9e5599|2015-12-04|Daniel Ellard|add ability to read from a string instead of file
+b46c1f7da33cf747a2f3bb8be03a3f31264a3200|2015-12-03|Daniel Ellard|have reset() empty the set of emitted messages
+0e1a0c5bbe1e832b4ac3586eb15f221a4c80abdc|2015-12-03|Daniel Ellard|fix bug in seeding the constants list
+8ab6a5da55ee8728b1add116b6cd613e0d7ea719|2015-12-03|Daniel Ellard|add warning messages for fishy parameter shadowing
+41fd039f3c723e999d10bc3f1d5626242bd335d7|2015-12-03|Daniel Ellard|squash multiple repetitions of the same warning
+d2097d286109e4e81b1706aef116ca7d8406d37a|2015-12-03|Daniel Ellard|basic constant propogation
+2b109095e098683dbeb6c22d0c8d65428f2eb31a|2015-12-03|Daniel Ellard|fix bug in inlining over with/try blocks
+ddac889c64f980519b1938899c0f149b26a20494|2015-12-03|Daniel Ellard|recursively inline nested statements
+988bc84f6002f49aa56b8fef77c44d3f4cbe476d|2015-12-02|Daniel Ellard|added base type for 'concur' and 'seq'
+fe23589da046428c73d2d75aa0673efb81a8f475|2015-12-02|Daniel Ellard|add inliner for nested statements
+b311ca1c2772fe7c4dce0041d08785c4e06a35e1|2015-12-02|Daniel Ellard|fix to work with Python3 'try' statements
+780b3d7167958f2de31fad69bc8c1a14462a0287|2015-12-02|Daniel Ellard|add utility for pretty-printing AST trees
+80b278013265c4476c18f186802fdbd4d89e70a7|2015-12-01|Daniel Ellard|adding module from meta, with bugfixes
+e7671ebd3d6e1b2275d3a9f8f3086f016584d810|2015-12-01|Daniel Ellard|waveforms are any functions that return a pulse
+da8b8b3138cca7be5e19596da9c38ec6f977cc87|2015-12-01|Daniel Ellard|fix errors in conversion to argparse
+628f2240b0142a48606abcc1606cafc1b34191db|2015-11-30|Daniel Ellard|change to use argparse; remove unused logger
+399fc16ebed980e6374c4c06248e6559daefd613|2015-11-30|Daniel Ellard|start of "main" program to simplify use
+db79ae0c888da35548a01c745e17138187e83bce|2015-11-25|Daniel Ellard|simple class to help metaprogramming
+30eb3a2e55d4b9aa451b2da20aa3a5592a480bc3|2015-11-24|Daniel Ellard|reorganizing the tests
+0410ea63691c7f77873ad86a16168d4c48479abd|2015-11-24|Daniel Ellard|sketch out the inliner
+3dec7b1af18c7a1e2361a1b79df1e9f56a9f24f6|2015-11-24|Daniel Ellard|make the error message closer to Python's
+b6e5b37ed95a2b3fc693b6efeccd6522c938ff6d|2015-11-24|Daniel Ellard|record last msg at each log level
+9001a985cdefea174528403884e7a11513765c21|2015-11-23|Daniel Ellard|some clean up of tests, diagnostic msgs
+5d32a8c08665f93e0d298671105ec4417f59ecca|2015-11-23|Daniel Ellard|cleanup 'path not found' msg
+f45dc8c6d9e5b88c00dff2547a96f53a9643943f|2015-11-23|Daniel Ellard|cleanup diagnostics messages
+1ecea1bbb15f45bd43bb584e80dea65a605633ee|2015-11-23|Daniel Ellard|fix up the AST annotations
+1488c06458baae3683a7d0251be02586393e22a5|2015-11-23|Daniel Ellard|started to consider inlining optimizations
+800224a355776ae3d817e0b425574317eae3d4a2|2015-11-19|Daniel Ellard|sketches of routines to inline functions
+3d7684c52e971ee5e1db1dd858a2a387230acea1|2015-11-13|Daniel Ellard|deal with 'from *' imports
+9533a1d056ad635c8419957ea33b36ee1acda87c|2015-11-13|Daniel Ellard|examples for the current preprocessor
+58ee91e79e50b9a96bfdf3fa48355c0b1c48c121|2015-11-13|Daniel Ellard|add . to import path
+be86b0afcd96d12ba190ba091158877f3f817ca3|2015-11-13|Daniel Ellard|updating the dummy language stubs
+299573fe97c35ab2533f95095492d162e15f0448|2015-11-13|Daniel Ellard|updating language constants
+8ca9d01574f29d7ddbfc80b5730c8859bbe6b126|2015-11-13|Daniel Ellard|cleaning up abstractions
+ee605da2e7adbd5202696c1e5ba4bb90c088b663|2015-11-11|Daniel Ellard|add hook for specifying main func name
+10bb55d2cf6dc8c9fbe9c0ccb060e788da443876|2015-11-11|Daniel Ellard|clean up error messages/add module variables
+a3bc39be4ebb3aff3b2158c80e79a4ebef2674ef|2015-11-11|Daniel Ellard|gripe about/handle undefined methods
+50484fd936266b841bc4155d1967b408ea4a4f0d|2015-11-11|Daniel Ellard|start to spec the preprocessor language
+07c61e2c9f4588a395f95fc9e433267c24c9c60f|2015-11-11|Daniel Ellard|remove decorator parsers (now in importer)
+29a39b1368276c16fd654acd1aa1a5cc68da6623|2015-11-11|Daniel Ellard|search decorators for qgl2main, qgl2func
+11d7381d9ff00f5f005352d0902d27570c6ad14e|2015-11-10|Daniel Ellard|add more useful comments
+24c142ed6f812c7d98b7e107758e0f77f469c889|2015-11-10|Daniel Ellard|remove dead code; fix type nits
+068d11d6e1a890282073b176d8b63672ccad2802|2015-11-10|Daniel Ellard|use the new NameSpaces importer
+5b6d59d06703388764770dec0f09cc6a260c0114|2015-11-10|Daniel Ellard|remove dead code; add convenience returns_pulse
+9c5bde1898650ca5be0c2680a7c055f773e2ea08|2015-11-10|Daniel Ellard|using new NameSpaces importer
+50673f0f0fee2a96e38bad053f57243f70996db0|2015-11-10|Daniel Ellard|resolve functions in assignments
+c569f7f12e652cbe6c9fe939b134024fd30368a3|2015-11-10|Daniel Ellard|fix resolution to find Qbit creation
+42855ec601664de8d132fa579a868ebcc2e3dda9|2015-11-10|Daniel Ellard|changes to use new importer, diagnostics
+7e58178bf4985c8739959575378b7bb7d21b6f72|2015-11-10|Daniel Ellard|new importer almost complete
+6707061c1c5e4ea31bee04903baa1bfc6d7b5309|2015-11-10|Daniel Ellard|minimal edits to use new importer
+72ef3b9b49e57df642940c280a5a0a5e22373943|2015-11-10|Daniel Ellard|minimal edits to work with new importer
+7ef047cf8ba2c04ab03fb8262eb1337a57e04bcd|2015-11-10|Daniel Ellard|more cleanup of the general diagnostics
+9fd00f045a66b4db21318320aeb74e973935a172|2015-11-10|Daniel Ellard|removed some lint nits
+1db148f56dd9c107b0c4e6c670fc4ca07a15f477|2015-11-10|Daniel Ellard|cleanup of the diagnostic msgs
+4dea0b5e8cb550ffbe09d9e960cdfcaa5b96160f|2015-11-09|Daniel Ellard|move away from the custom visitors
+4e8f94ba97d643e3c4bb483c024f85e55a146548|2015-11-09|Daniel Ellard|begin reorg of import/namespace utils
+de966a014ccfcdb33674cf00b694beb01d73c40b|2015-11-06|Daniel Ellard|beginning of 'import-from'
+183b0c372c530bd2222fdcbe3bf86cd1f7de6d5a|2015-11-06|Daniel Ellard|add importer to CheckSymtab; fix error msg
+53db27637e4b66d965ed74a9dd7d5c46dbf978e2|2015-11-06|Daniel Ellard|handle local symbols properly (w/o from)
+c577ee5e3961137491303cf2f65a1d91af0689c8|2015-11-06|Daniel Ellard|partial changes to handle full symbol resolution
+2896ce970bc79a8ed742cf4bfc07c10c1bbc920d|2015-11-06|Daniel Ellard|handling str 'qbit', 'classical'
+415ae1f94938180403b91a1d4a07576c25927543|2015-11-05|Daniel Ellard|use new importer-base name resolution
+a4b19dc9ec7008b01891e777d88e2cec9abefe67|2015-11-05|Daniel Ellard|deal with imported symbols
+69618dae0d1e8b0b5d31fcf2eed97fa38dd6feea|2015-11-05|Daniel Ellard|add methods for collapsing names, getting fparams
+e664ae1facfd6addf11f3b859328841d9534ae6b|2015-11-05|Daniel Ellard|handle context in def lookup
+f8b0e39f7bbe41898f057b426ac6458bf46650f4|2015-11-03|Daniel Ellard|begin resolving symbols in imported namespaces
+9451b372d0152e5a3be442ca10b87dcac8ecefca|2015-11-02|Daniel Ellard|remove seeding of the initial context
+8e2a3b0f300fc550de370dc39fc8549ef32ee204|2015-10-22|Daniel Ellard|handle Qbit allocation
+d54eef5f9caf8fb6c8b964661e2bd697917e0b73|2015-10-22|Daniel Ellard|basic substitution working for qbits
+b776ab7aa7c234f16985b06929ea609830a1ddb5|2015-10-22|Daniel Ellard|added 'Qbit' function mockup
+b878da2722144a34d7c0e9a78cf4d4c57ff58968|2015-10-21|Daniel Ellard|sketch of functions to in-line functions
+d5204011ed02416bf5406b93ed3c5746ff450d4c|2015-10-21|Daniel Ellard|changed some type mismatch warnings to errors
+6f7bb5d286b965f6c3fa68fc861a501125bee616|2015-10-20|Daniel Ellard|fix bug in context stack; detect as-name conflicts
+1d070afb4c5fa5cf7eb3ad1bf50c6208cd486b7a|2015-10-20|Daniel Ellard|use importer; use QGL2 lang constants
+5f579e4c4cf8e674a0743ab0563a3993c5639960|2015-10-20|Daniel Ellard|cosmetic change to indentation of diagnostics
+b5683f14edb5b1221634eea1b59ec2c893e9a5ee|2015-10-20|Daniel Ellard|get the fname from the node, not the parser
+3338c4dafcb8986964bc3c24fedb6f1b603a4492|2015-10-20|Daniel Ellard|fix dependencies on import/stmnt ordering
+ffad3beeffa8fc7585a067b8e2e2171b3018c2a0|2015-10-20|Daniel Ellard|cleanup and commenting
+3489e14eee54663fe3b2745e79d0747118910338|2015-10-20|Daniel Ellard|mostly correct, but needs doc/cleanup
+ea89890111bff988e92b0c9260d15d244469291f|2015-10-19|Daniel Ellard|routines to walk through imports and build a queue of AST structures to process
+d82c5036752cfbc8bb49decc8717685833cc90e1|2015-10-19|Daniel Ellard|use the parameterized names
+0c7d9002550459a9867fee893b314063a028211d|2015-10-19|Daniel Ellard|parameterize the names of the QGL2 syntactic sugar
+68247976460954f47703e527a9244408e4184694|2015-10-19|Daniel Ellard|updated names per discussion last week
+2ac21c47f37e72605037fc66f90c079e05335ee7|2015-10-16|Daniel Ellard|temporarily comment out noisy diagnostics
+22d291105e893a6358330b08e3fa1c8daa01a1fd|2015-10-16|Daniel Ellard|initial draft of check_waveforms
+9ecc634ba618a2d92c12dfe998bab00033a1e30b|2015-10-16|Daniel Ellard|cleaning up the parameter/local scopes
+321f895002fb9f3aad5cefde57f3b6ed1d91938e|2015-10-15|Daniel Ellard|starting to address scoping issues
+2a85685e09084ad4434d7bfe94997a23eb486dec|2015-10-15|Daniel Ellard|starting to break out functionality
+8e7c4ff76f0a92320f53a7ed70bb0dd1f44ccd7f|2015-10-15|Daniel Ellard|routine for copying an AST
+366567b4d725acd0c00d4b51db25449519d70673|2015-10-15|Daniel Ellard|checking formal params vs actuals in calls
+0522bce54a848d15881dcf6848e9c3fdfbbbf9ac|2015-10-14|Daniel Ellard|cleaned up some diagnostic prints
+cd7cd07036892418f0406c5a0f6cb312fe835a19|2015-10-14|Daniel Ellard|constructing the call graph
+4048020a86e3066a2ce9517373fc05056bb03580|2015-10-12|Daniel Ellard|Merge branch 'f.1.type-annotations'
+4d702cbc44df1d3ef0020abb41e68a28567f76ce|2015-10-12|Daniel Ellard|use python3 parameter annotations
+dbc6d8089474ba45b53c33dc517863b7ffb2786f|2015-10-12|Daniel Ellard|port print stmnts to python3 exprs
+37fb478da28a2f403e5d83d85f08549035532ad7|2015-10-12|Daniel Ellard|add simple example files
+0f8ea31365689e39b82f6d1ea2c3f51ec0e18c9b|2015-10-09|Daniel Ellard|start of waveform checks
+84ffb66daf33f2cb15dfe620de877cfb1111fe14|2015-10-07|Daniel Ellard|testing the validity of QGL code
+4a49eae565db99bcbb7c5ad6dfe5b070c6156c17|2015-10-07|Daniel Ellard|extensions to ast.NodeVisitor, NodeTransformer
+3ae151330dd1bc9b33bcde284f09204f10f600c4|2015-10-06|Daniel Ellard|basic boilerplate for QGL2 programs
+e03164d80e93d44695b08d1e2eddd18353d1ccc6|2015-10-06|Daniel Ellard|added a simple logger
+67ffe24a0648aa7760659e0defe9d3c223dc8108|2015-10-06|Daniel Ellard|generic boilerplate for a python program
+6b9de7c947fab5f5cfe19fcdbc00a1433bcbaee8|2015-10-02|Daniel Ellard|add scripts directory
+d7bec5a61e919f083c3b4ca37666d71f47b7c636|2015-10-02|Daniel Ellard|first commit

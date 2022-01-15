@@ -1,0 +1,1489 @@
+09d9fb8196a9f69b2f383aaeccccc574b89aa5e5|2020-10-06|jvanstraten|Merge pull request #358 from QE-Lab/remove-test-dependencies
+352835617d92329673d17cebe4043d8be2cf8ad9|2020-10-06|Jeroen van Straten|Additional fixes to test files
+7db8caf3f735c16e390326a5930ab406d9749c9a|2020-10-05|Jeroen van Straten|Spam set_option(output_dir) and ensure abs paths
+9596f0ea9347c5b7e1821162360441852ae6f118|2020-10-05|Jeroen van Straten|Remove test deps, remove classical reg alloc
+47e68023c65e5b1eed3a26066fbddfa196e1717e|2020-09-07|razvnane|Merge pull request #353 from QE-Lab/fix-cc-files
+6106e58468113f87b0e80334cd92c1cefbf50c83|2020-09-06|Jeroen van Straten|Revert libqasm rewind
+f6e1d06e1e9975ed5ac44ed1a0d5e24506efd7cd|2020-09-06|Hans van Someren|Took out FIXME comments from CMakeLists.txt; new commits to libqasm
+eb67c01ca3197d83b04c9695104c19324c9aa350|2020-09-05|Hans van Someren|Added examples and tests that didn't work because of use of deprecated features etc. after updating the former.
+c6c69b3cd05c3fe714c455716b4e52cf13242858|2020-09-05|Hans van Someren|Deleted deprecated set_platform interface
+e24f8369ea100c4bb7624dd4096f7a551924c8e6|2020-09-05|Hans van Someren|Deleted deprecated set_platform
+3aaf95f456a6755478bfb697d58c88beb63250a9|2020-09-05|Hans van Someren|Deleted deprecated interface set_platform
+5dd1e2f923ac00b8743d15929116496c1dde70c4|2020-09-05|Hans van Someren|Update test_179.cc
+96ae3c52d5eaaf6c0b8bbb6789d68d2a2d0dc45d|2020-09-05|Hans van Someren|Update test_179.cc
+1ca76c7330771cbe06017dcc7b8a9002627689f5|2020-09-05|Hans van Someren|Update test_179.cc
+d3a970db70dcd8c853862733018f3a672fdff1f8|2020-09-05|Hans van Someren|Update program_test.cc
+de7bfa3dc6f37245ec71b99001796617450e1051|2020-09-05|razvnane|Merge pull request #351 from QE-Lab/issue-347
+e0e3fde299b32e0234f8bba277f58e45c513ac81|2020-09-05|razvnane|Merge pull request #348 from QE-Lab/doc-improvements
+fc2cd2cad0cf467bd8baeb45e208b19bb86e1edb|2020-09-04|Jeroen van Straten|Rename expected output files in tests accordingly
+18aa1a6648221c58bb842d9fad5c6bc937998543|2020-09-04|Jeroen van Straten|Write input qasm file as <program>.qasm
+bd8d4e645b18bd73c1d7b2fa2b421e52927f3dee|2020-09-03|razvnane|Merge pull request #350 from QE-Lab/fix-setup-py-license
+de51277baba553ad4248dce7201894f45c429fa9|2020-09-03|Jeroen van Straten|Fix setup.py
+af5734da13eb12c74e64ba80ecf5a93ba4822622|2020-09-03|Jeroen van Straten|Changes requested by @razvnane
+6893d089811f6222af9e5b758c5030f55188cc53|2020-09-02|Jeroen van Straten|Update install instructions for initial placement
+fcb229055956f1ae3bae9613d3474a7cd835c430|2020-09-02|Jeroen van Straten|Minor fixes/additions to tutorials
+9584ad80afd273712b2628dbfa33a62799838926|2020-09-01|razvnane|Merge pull request #346 from QE-Lab/fix-winflexbison-dep
+653431a8bc3a3a1f9221f6e01e13036131c8cb30|2020-08-31|Jeroen van Straten|Fix winflexbison dependency on CI (upstream broke)
+f338a402c16d5ad62dcd01436cfd6c938a986ae6|2020-08-25|jvanstraten|Fix typo in README.md badge URL
+f6f6bb93caea5cb4a3cf1614594edcea98e8cdb1|2020-08-25|razvnane|Merge pull request #345 from QE-Lab/fix-release-process
+3172edff2e26a1555f297c2a104b9871913a2535|2020-08-25|Jeroen van Straten|Add appropriate badges to README
+e2c6adc4b06cba6e43dee24b65ee7f39a26f66fc|2020-08-25|Jeroen van Straten|Fix broken path in macos wheel upload
+f43680544cc8529a051f1df9628d200bc84a9fe7|2020-08-25|Jeroen van Straten|Fix release workflow
+6182c794b9931a06bb70bd0a94945aea85d4314e|2020-08-24|razvnane|Merge pull request #344 from QE-Lab/release-0.8.1.dev4
+5e02eb3d3f3df10ff1e5a844481c685e061c7243|2020-08-24|Jeroen van Straten|Bump version to 0.8.1.dev4
+80fba188bec7c07ddd9a8294bd253a6eb5414249|2020-08-24|razvnane|Merge pull request #340 from QE-Lab/build-system-cleanup
+f302d681cc4d15c0352567637360e696420d8482|2020-08-24|Jeroen van Straten|Update conda username in install docs
+7af4b466923a5078389f062b3988fcf6a87fb155|2020-08-24|Jeroen van Straten|Improve RELEASE.md
+5a2d187df51344c4935f47e01ccdc6152c1c1c8d|2020-08-12|Jeroen van Straten|Attempt to make editable installs work
+744c9152380e407d33279320a60dd1ada0256dc6|2020-07-29|Jeroen van Straten|Fix mistake in RELEASE.md
+ea7d9513eb3e36c471c9aab6ed545880e231c282|2020-07-28|Jeroen van Straten|Fix docs for C++ build
+386a4f1f3e9e64bd31233f3fd3e71213a9877bde|2020-07-28|Jeroen van Straten|Improve and CI standalone example
+d58ca65ce96ee1d9a29681c976eed344fd16a059|2020-07-28|Jeroen van Straten|Add conda to assets, fix PyPI upload
+bb16b8efc6f4fa6a4d00a019b43a7c894d1c5079|2020-07-28|Jeroen van Straten|Remove glpk from dependency list for OSX assets
+ce5d2cb0b0762ee722257ea4213abbb60f9ba12a|2020-07-27|Jeroen van Straten|Work around what's apparently a conda bug
+5abd8ad22d321cb21a805482af687e0be57b2b66|2020-07-27|Jeroen van Straten|Clean up conda build files
+c1d3b4a65fcca00f15b25aeb1956d7bd27fffd04|2020-07-27|Jeroen van Straten|WIP on conda
+ecb6b33bbf45e8fc774ce6877fca119b2a9b984f|2020-07-27|Jeroen van Straten|Fix windows conda dependencies
+ac793b5d54cd45cca909d0ec365d983988bd941e|2020-07-27|Jeroen van Straten|Fix conda recipe
+fe0aec98e947c5ba3c7c9ec63868dfbde44682eb|2020-07-20|Matthijs Brobbel|Trigger actions
+cbacc3b29cf04df7af3d7d1f48253c2bf7c448b2|2020-07-17|Matthijs Brobbel|Merge pull request #341 from mbrobbel/gh-actions
+458c801e357776fa5246f0f0129c0849ab32f6a4|2020-07-17|Matthijs Brobbel|Merge branch 'build-system-cleanup' into gh-actions
+9aaaf89cf4a4df08579d76c6d569d7e6f0ebfd9c|2020-07-16|Matthijs Brobbel|Setup GitHub actions
+2b490dc2f1290910a788108eb2fff9be7106a5f3|2020-07-17|Jeroen van Straten|Add MSVC redist dependency on Windows wheel
+3e4de6898e435d685e8a74b3ebc92a5a070b68df|2020-07-17|Jeroen van Straten|Remove print statement that shouldn't be there
+f6878464e6b5edb7022435bdda53700a5d08c075|2020-07-17|Jeroen van Straten|Enable initial placement on Travis
+eacbfdf9be75c99ca525ec2d1ef2da2a1271bee3|2020-07-17|Jeroen van Straten|Put initial place behind feature flag, default off
+5ba55e0f0bbdb1e90e660b928c69ca20dcadfadf|2020-07-17|Jeroen van Straten|Revert suppressing policy warning in lemon
+be28fb09bd5d676162dae14d8e25b62e33be8af4|2020-07-17|Jeroen van Straten|Patch lemon to work with COIN
+89711f298451c2d6b427e4952e4623225f4524f7|2020-07-17|Jeroen van Straten|Auto-clean when built in tempdir by pip
+f527ddcb7e30312d7fa79fa4c0756ac729caff08|2020-07-17|Jeroen van Straten|Clean setup.py imports
+dcce98c44d4e694b2e22e635027644d4914e6d84|2020-07-16|Jeroen van Straten|Suppress CMake policy warnings
+5e86db84ea949bc74d974b3b9ebc33c3e3d43733|2020-07-16|Jeroen van Straten|Temporary fix for MSVC, should be fixed in libqasm
+1f6ff694130049f5435a3a53fb4a1ea9149b73c3|2020-07-16|Jeroen van Straten|Fix invalid writes, more or less
+5183aec231366224f551d4e50d48cd105a3be763|2020-07-16|Jeroen van Straten|Merge branch 'build-system-cleanup' of github.com:QE-Lab/OpenQL into build-system-cleanup
+c402374268223f3c56e865431d62c680f71bc5e8|2020-07-16|Jeroen van Straten|Replace Eigen patch with sanity
+7082d18088bdfdc78c327c0ec755637d82eafb4a|2020-07-16|Jeroen van Straten|Improve comments slightly
+47f9d9268b065ae978b10ddaa64b2d4cc429a3b0|2020-07-16|Jeroen van Straten|Include GLPK in Python wheel on win+MSVC
+23795b62294eacba1fb4b03cc4950de0538e26e5|2020-07-16|Jeroen van Straten|Preliminary fix for GLPK "install" with MSVC
+68d3c5f62653d9b6d9c9c55ade863eff94432b20|2020-07-16|Jeroen van Straten|Find and link against python lib on windows
+592c1d5b0993a4e9a52a6ace9e77a28a705b99da|2020-07-16|Jeroen van Straten|Fix cmake --build from setup.py for MSVC
+8d7e09d14b0ac1ae327a7aa92ebfa7187dd9f4b9|2020-07-16|Jeroen van Straten|Fix missing LEMON symbols in MSVC build again
+d702aaa490f5bbc18c16bf0b2331d77820d6a10a|2020-07-16|Jeroen van Straten|Fix missing LEMON symbols in MSVC build again
+33cc1d95fca5426ff4f67c6b48b36f141ee0187c|2020-07-16|Jeroen van Straten|Fix MSVC not building in Release
+cedd73aeb0d937deec34b215f914c8625fb2c4f5|2020-07-16|Jeroen van Straten|Add env var to tell setup.py to run C++ tests
+eae24695f916dc844cfbcc284325881ec684ecb9|2020-07-16|Jeroen van Straten|Allow debug builds to be done through setup.py
+a5e73c390ecf04e9af050ff766a7bfbd6c06f99a|2020-07-16|Jeroen van Straten|Fix some CMake weirdness on Windows
+00fb03f3a777cd2cbc280f868267497d68f0a297|2020-07-16|Jeroen van Straten|Add incorrectly ignored directory
+cc83d17387fd17e6054d90d9e5b57185d855c936|2020-07-16|Jeroen van Straten|Merge branch 'build-system-cleanup' of github.com:QE-Lab/OpenQL into build-system-cleanup
+1fef4645c158b1b8628b33bf38fb04cbf2d5937a|2020-07-16|Jeroen van Straten|Allow disabling unitary support w/o breaking tests
+c750ba58b1205d72f9866f570dfde14369bdcdf9|2020-07-15|Jeroen van Straten|Fix MSVC build
+8fa740ff8a9d4ac190e1e0057188fbc601ca0b88|2020-07-15|Jeroen van Straten|Fix MSVC compatibility issues
+6766e338229eabad8b62e02fbf70e013acd6ea0d|2020-07-15|Jeroen van Straten|Fix cmake version check
+e5265cdf2909550217a033a43f9005ec86fb82f2|2020-07-15|Jeroen van Straten|Fix CMake compat down to 3.1
+6c2202e301606d6d58768729041753ccb7cab1bd|2020-07-15|Jeroen van Straten|Modified python include dir search for venv
+89d4208aae5e9129e9affc2c3d5addd438fd5131|2020-07-14|Jeroen van Straten|Suppressed additional CMake dev warnings
+d3ca5558358d2d5efb4d7236a80b50b7c2f8263a|2020-07-14|Jeroen van Straten|Add cmake_policy command
+10cf4b8569fbecdeefc42cd2195bbd0b0836712b|2020-07-14|Jeroen van Straten|Finalize manylinux wheel build + test
+37d74ec8e84e6e8b3d453436d0a2a80f08944e6a|2020-07-14|Jeroen van Straten|Py3.5 compat: string interpolation is 3.6+
+cae33230302d54f5755c0965e2d3e5b7cbd77253|2020-07-14|Jeroen van Straten|Skip tests rather than fail when deps not present
+5cf4deac03ead86fb3eafc32463061cba7cd5306|2020-07-14|Jeroen van Straten|Add manylinux build logic
+e2e43d19774b96ba964cf60c3dae5895341e4cf4|2020-07-14|Jeroen van Straten|Fix clang compile issue v3
+583476bdb19de3c65deb82de6af08e7135406934|2020-07-14|Jeroen van Straten|Fix clang compile issue v2
+bb223dfba42b2dea08dee41684fdfeab764d8a09|2020-07-14|Jeroen van Straten|Fix clang compile issue
+dfe7ce3e5a672a7c180847373d94e5800b65ddd2|2020-07-13|Jeroen van Straten|WIP on manylinux build
+7fb8dc81c7a691ed00eea85fe0ef4633a6f1d565|2020-07-10|Jeroen van Straten|Improve Python lib search
+be99033840869f4c74321bfe24744ec681b7b59d|2020-07-10|Jeroen van Straten|Re-enable test_cc and deduplicate some test logic
+f5ea968cdeabf07684b79c1fc8d95fc82ff4625e|2020-07-10|Jeroen van Straten|Merge remote-tracking branch 'origin/develop' into build-system-cleanup
+21cfed3636c0f0090c4cdb3332319dae5a03fa8e|2020-07-10|Jeroen van Straten|Fix entire build system on own Linux box
+cd105db982bbd90dd13c91526bb47ffff2e60faa|2020-07-10|Jeroen van Straten|WIP on setup.py (commit prior to big revert)
+492bbca34e1848584accfe3f380142bd733f9174|2020-07-10|Jeroen van Straten|WIP, various fixes:
+7d9e084cd3ecd237c9ea280801529d96cf67369a|2020-07-10|razvnane|Merge pull request #339 from QE-Lab/test-new-libqasm-compat
+54390a5e5112bb86c87e940cac100ad7a9cd6e6c|2020-07-10|Jeroen van Straten|Merge branch 'develop' into test-new-libqasm-compat
+7adf86e9bde782864f719676cb23bb28a30ed420|2020-07-09|Jeroen van Straten|WIP on setup.py
+ff4c47268e741bfaac4d0f75e5b209dc3631d487|2020-07-09|Jeroen van Straten|WIP on setup.py
+da9e4160dd05d3f91b5de07fb72ca0403936c8f3|2020-07-09|Jeroen van Straten|Bump libqasm
+634a75588774e4d2084358f80fa62faf06de0822|2020-07-08|Jeroen van Straten|WIP on new setup.py
+cda75294e400a3517a920999d55b921ebc87a219|2020-07-08|Jeroen van Straten|WIP on build system
+3483664c0fec2ad3d24621a10f9ccf092e5dbef2|2020-07-08|Jeroen van Straten|Merge branch 'develop' into test-new-libqasm-compat
+14426baebf6f5075a783fdb1e3b154f960454527|2020-07-08|razvnane|Merge pull request #338 from QE-Lab/cpp-doc-generation
+bd212de3837e67489bb0720187729e22463cf65b|2020-07-08|razvnane|Merge pull request #321 from DiCarloLab-Delft/upstream/dcl
+70a298466fc678f774bbd619843bae5bd1f6374d|2020-07-08|Jeroen van Straten|Add doxygen to documentation build
+f7d702ff0d4fac00014ae7338df89f66e2fe181c|2020-07-06|Wouter Vlothuizen|cleanup
+81aabf53a7cec7e4ccd853e6541461d96a442c8c|2020-07-03|Wouter Vlothuizen|almost
+a47b77b371e3929a356df02dfa61dd820836afb4|2020-07-03|Wouter Vlothuizen|small fix
+89bab3f0d4c8a34a4a8635ba532321aee1ebbcfa|2020-07-03|Wouter Vlothuizen|getting there
+53740b0412c1a90d2fed5705c463348e278e8b9a|2020-07-03|Wouter Vlothuizen|cleanup debugging stuff, fixed failing test case
+a38a9da2e235f79c933e779dba9fadefc84fe952|2020-07-03|Wouter Vlothuizen|corrected YAML syntax error
+d8d18b238f7bf1899912fa05742a1d83d7a82a9f|2020-07-03|Wouter Vlothuizen|sigh..
+4b8631fa5eeb2129410ba4e97f2dd5b05e59b6ee|2020-07-03|Wouter Vlothuizen|still debugging CI
+beb10330771df7189cc2b272ac9449c58b56b61a|2020-07-02|razvnane|Correct name glpk for conda-RTD (#337)
+107100896f5b713fbab4d81a70ace0ffb3da4049|2020-07-02|razvnane|Merge pull request #336 from razvnane/develop
+cf48c8c4e3ebc422a92744c0464b02a7208dc40f|2020-07-02|Razvan Nane|add libglpk-dev to RTD
+bed92bbf450e7fc40000e03afcfea9df3277707d|2020-07-02|Wouter Vlothuizen|still trying
+a9400c0a968deb0b7bffc6f0d8f4f1ef09a6ccc8|2020-07-02|Wouter Vlothuizen|Merge branch 'develop' of https://github.com/QE-Lab/OpenQL into upstream/dcl
+d46f01a909d48e157949444b937c666232b3b230|2020-07-02|Wouter Vlothuizen|and again
+2bb379768cfe2f970dcc8ecd07183bf9406d527f|2020-07-02|razvnane|Merge pull request #333 from razvnane/develop
+8f65c0a1c206a1bbfd49cafad327e0693bdc0084|2020-07-02|Wouter Vlothuizen|and one more ...
+7ada4e53b6a9d164b208fcb6b79a4cce88102252|2020-07-02|Razvan Nane|Solved Wouter comments
+85347a867b9365bdbbe1d279d2a10b7fad8041e2|2020-07-02|Jeroen van Straten|Bump libqasm to hopefully fix CI build
+f0b7cc7043d2832ddd249310c729e9d86c3d9b95|2020-07-02|razvnane|Fix documentation API generation (#334)
+deed79f928a6bc7e49e8a4cdd8471a24107a229e|2020-07-01|Wouter Vlothuizen|one more ...
+7a10f4f01838ea726b310de6eda7214f139e6558|2020-07-01|Jeroen van Straten|Update expected error string in cqasm reader test
+db0b6d25b72e4536c9526a91c3b32092e28057e2|2020-07-01|Jeroen van Straten|Removed references to lexgramstatic
+e494604c06e55199c3eeda599b7450cde732fc34|2020-07-01|Jeroen van Straten|Test libqasm PR #105
+791243bac1b27840a28b29442dd5ce7a27bf2b97|2020-07-01|Wouter Vlothuizen|one more try
+a2af7a53d60a02f265483d21e294a20e38901d32|2020-07-01|Wouter Vlothuizen|attempt to fix CI
+5c1bbdf2f1e2daa9cf376e956a711646d6ea2e4b|2020-06-30|Wouter Vlothuizen|legal version number
+60cc96ad6925eeca90315e4b414c50cd2f9d3879|2020-06-30|Wouter Vlothuizen|Merge branch 'develop' of https://github.com/QE-Lab/OpenQL into upstream/dcl
+2a9e1e69c57af19906b591831eb45de2a5042954|2020-06-30|Wouter Vlothuizen|coorected version
+e7f1637a7da5562d7a4b04ba2993f110102763bc|2020-06-28|Razvan Nane|more CI fixes
+2b4acdc3f201dbcc97ac7f7c00d3a1fd06ee289d|2020-06-28|Razvan Nane|Added documentation for compiler class
+05bfb1ff4ea43d293a06174af1c3b71e693553fa|2020-06-28|Razvan Nane|correct update used libqasm & qisa for travisCI
+8811d8a78af2b4db5f942babc91b3938352086aa|2020-06-28|Razvan Nane|update used libqasm & qisa for travisCI
+b6470102e97bed484b8383f92ee6e50d2aec36f8|2020-06-28|Razvan Nane|fixed 2 more tests
+d03ce9c09e4c3fcee9853636da9ef279c3a3698d|2020-06-28|Razvan Nane|test CI 13
+f2d3ef097406fc71a1fd4bfb369f0f5617d319df|2020-06-28|Razvan Nane|test CI 12
+cd345d3a3939372c35c61bb54faa74de85a61d78|2020-06-28|Razvan Nane|move write sweep_points end compiler
+f6c658a210a1a74eda9b8bbdd3c9319a693f7fe7|2020-06-28|Razvan Nane|test CI 11
+28edd7c91be3dac08dcd2088a0a1b184c876dcd3|2020-06-28|Razvan Nane|More unit test updates needed for modular implementation
+3b3dd5539ac11d4f72d381783429135af901ef65|2020-06-27|Razvan Nane|Fixed CI for modular implementation
+cb275174bfb3bf27477f2cf2d7bb9c76a7818466|2020-06-27|Razvan Nane|test CI 10
+4b18a07ff40319fcb08fa60b3d05ba20ce0038fb|2020-06-27|Razvan Nane|test CI 9
+1cc833b04a3f15f4c8b7b943ec471592bdc7d272|2020-06-27|Razvan Nane|test CI 8
+6b46b1ecd8316f88afc58b25d220b85f0ffefc20|2020-06-27|Razvan Nane|test CI 7
+6a9f55c2b0d425574afc53a9635499160e0b8a1b|2020-06-26|Razvan Nane|test CI 6
+9e186999f6b9f3ed6399aeb9681f3bd60cd75215|2020-06-26|Razvan Nane|test CI 5
+1ca0f3e48ba513d838d1a33f0e16f7439224787d|2020-06-26|Razvan Nane|test CI 4
+e9202d9ccefce41839a15562f5595660e39e2f7f|2020-06-26|Razvan Nane|test CI 3
+d252fe4855d14518c4f7f56217e78d74bcc321c2|2020-06-26|Razvan Nane|include init place to test fix glpk
+1549d6c5f9fc5ed41d7b37f08b7141ec7c1fe1fa|2020-06-26|Razvan Nane|test 2 fix CI
+4dba62d859a0d8bc3a5a8bfd04ed19f1a7c28f5b|2020-06-26|Razvan Nane|Add glpk to Travis CI
+de73f77afaa06335507378342f291e09d02f3e47|2020-06-26|Razvan Nane| debug CI 1
+d795e5a7eab475f58d5539547dc99ef8250f117b|2020-06-25|Razvan Nane|Merge branch 'develop' of https://github.com/razvnane/OpenQL into develop
+7c28368737d9fe5a54f9157dfa109054936cd9df|2020-06-25|Razvan Nane|comment out initplace until fix build for this
+f78988d85f2da12ca2868864dfad096c9cc1fead|2020-06-25|Razvan Nane|comment out initplace until fix build for this
+ebf06ae886531dc3f1b40912205bcef338687b32|2020-06-25|Razvan Nane|Merge branch 'modular' into develop
+1e54ba2a26c6a2a63a9cce1b0f0f655eaa6d7a09|2020-06-25|Razvan Nane|Updated tests after remove CBox & add modularity
+41e18208e41c8d2b99a4f0c107f7a5394065d253|2020-06-25|Razvan Nane|Created individual passes for CC_light
+342effb123b15f93ea49f38289cf1ed2cfa0e6a3|2020-06-25|Razvan Nane|Take out CBox tests
+9af6ee8524e3f1210b123c22d337855e8957b141|2020-06-17|Razvan Nane|Pulled updated libqasm with skip instr
+12f7a8193a1129dea547ed2a7485664ba29676d8|2020-06-18|Hans van Someren|Replaced assert on cycles_valid by one that reports where and why it is asserting
+e3c776c4fed25020ba37ebb863c6ef927816f785|2020-06-18|Hans van Someren|Test_mapper, test_dpt decomposition of rz manually
+8f7897f27071dd8b4df0d778fdc5c36823243368|2020-06-15|Hans van Someren|Many more entry points in cc_light compiler
+136270124a3c1777d996e0ae4914f503f7a2dadd|2020-06-15|razvnane|Merge pull request #332 from jvanstraten/fix-unitary-compile-time-develop
+b3610563bc60588e5d2862e38a2baa34ad96e8b6|2020-06-15|Hans van Someren|Turn cc_light_instr attribute setting checking into separate pass, waiting to be removed on gate cleanup
+6f32103dc96ff768f53a25ec680a8d7aa10cd3ee|2020-06-09|Jeroen van Straten|Move unitary logic into separate compile unit
+9aa0e47d1dcd4af8ba841e593d3a9589698c9948|2020-06-15|Hans van Someren|Took buffer_matrix (old cbox stuff in cc_light) and load_hw_settings out, mostly all redundant.
+ba7b95c9a900d1bb693fe8ad09084d6714043549|2020-06-14|Razvan Nane|Fixed linking problem initplacement
+b01198469a06284b563cac593fd41eb6e043fc37|2020-06-12|Hans van Someren|Add annotations to compile() function of cc_light backend what to do when converting to passes
+bb365b645d69f3a4e57e52428bbe921f20a161f1|2020-06-12|Hans van Someren|Made the clifford optimization more readable, preparing for validation and extension.
+da11ae902bd340346ae75d24d7fa7f3d4af94e23|2020-06-11|Hans van Someren|Merge branch 'modular' of github.com:QE-Lab/OpenQL into modular
+07af440b9a92b4cd48d4b7cf6cf312c48d242a55|2020-06-11|Hans van Someren|Test_mapper_s5.json updated to create decomposed gates immediately, on creating the IR
+d438b26884ca2a31a32c377f9bf5866279a739ce|2020-06-11|Hans van Someren|Disabled initial placement compilation by adding two slashes to first define
+f03c92d55e29e21835dc4b783f5426cd6f063176|2020-06-11|Hans van Someren|Split off clifford.cc from clifford.h and src/arch/cc_light/*compiler.h
+87277f44705146b8bcbc9832f8dcdaf80871ac5a|2020-06-11|Hans van Someren|Added custom gates for rx/ry/rz
+17dee91fe23039f9b8636c66df3bb0142a9d8094|2020-06-11|Hans van Someren|Added test_dpt, and added s5 starmon config file
+9ff10c93f1648dff198cb86f3a8159bc57406124|2020-06-11|Hans van Someren|Added test to run lee yang zeros for Intel.
+143c0212cb34488540c966235c825d8a96fd9073|2020-06-11|Hans van Someren|Mapper on internal gate copying, forgot to copy angle so rx/ry/rz lost their angle; corrected.
+e6faa054bcbdb857e6d64c30231eaba156e81aeb|2020-06-11|Hans van Someren|Added private definition of PI (K_PI) instead of using M_PI to avoid a name class with PI definition inside lemon
+a81a0dae4812962f8e5085411b4ed1b03f8a5591|2020-06-11|Hans van Someren|Clifford optimization treated rx/ry/rz with arb angle as clifford; correced.
+d10e8d82b00ca716168955b97f6b291fd63686da|2020-06-11|razvnane|Merge pull request #328 from razvnane/modular
+2d62f8f53ab43cca6bca2ea8036d2ba22742d848|2020-06-11|Razvan Nane|Merge branch 'modular' of https://github.com/razvnane/OpenQL into modular
+469c8bb9e544a9ae1f814f1cfb7000685476dd58|2020-06-11|Razvan Nane|merge develop into modular
+cab06156360baef8ed9a2882c33164c73fd7efdb|2020-06-11|Razvan Nane|Merge branch 'develop' into modular
+ee8278987b10a4dca2fb9d745e526935a7e18a99|2020-06-11|razvnane|Merge pull request #325 from jvanstraten/fix-unitary-compile-time
+7e920c26e3eb08ee1f2713716113f7e4ce0baebd|2020-06-11|razvnane|Fix Windows compilation with MSVC (#327)
+240660d395cf33e687709b6534f9349441798f72|2020-06-09|Wouter Vlothuizen|changed version
+4c06a1e08eb1026e05e5e8da7a600bf5f9d1bde2|2020-06-09|Wouter Vlothuizen|correction
+963b1cc6688f5915fc32050baa3a8f409801fa26|2020-06-09|Wouter Vlothuizen|solved conflicts missed before
+5a639894c4e160639b398ee6e7d6ecab59fb5291|2020-06-09|Jeroen van Straten|Move unitary logic into separate compile unit
+dc42916d7e96e88ec7218e0954919bc6e141b701|2020-06-09|Jeroen van Straten|Revert "Removed unitary again to speedup compilation"
+55c78cbce88b61010d6600d7d2d27e6230c966e2|2020-06-08|razvnane|Merge pull request #322 from razvnane/modular
+2978e6dfe53b17167554d8a1ba512687f572780b|2020-06-07|Razvan Nane|Implemented pass options support for modular API
+1e9d776a87d83182b673950aa3d689490307d3ed|2020-06-07|Razvan Nane|Removed unitary again to speedup compilation
+45e80761b9ca2119b2c073958cdec29f17a6c525|2020-06-07|Hans van Someren|Split writing sweep points off from program.compile()
+0e34bc68bc11771386e6f81c0fea6b2e4a14eec4|2020-06-05|Hans van Someren|Moved latency compensation and insert buffer delays out of (rc)scheduler to separate passes
+93d4ec48507f6ee51be9eba806f4e56b29954d13|2020-06-04|Hans van Someren|Split off buffer_insertion and latency_compensation from the rcscheduler
+6a3c1dca3c62b0cce12284a3729aa714bb5ccb35|2020-05-30|razvnane|Merge pull request #320 from razvnane/modular
+e936c0d6dd0b1f5b80fa9541bab6677992ad3b96|2020-05-28|Hans van Someren|Uniform scheduler is run when just scheduler_uniform=="yes", i.e. ignoring value of scheduler option
+4e758ed2233a1aeecba26013a34ee83b29f2e57a|2020-05-28|Wouter Vlothuizen|Merge branch 'develop' of https://github.com/QE-Lab/OpenQL into upstream/dcl
+a762e6deab3eec648f529efb176894305126c804|2020-05-28|Hans van Someren|Added test_skip.py to test cqasm reading skip and then prescheduler to produce skip in bundle
+8bfa5373ecfb479062130dc3dc322668a9f0436d|2020-05-28|Razvan Nane|Extended the modular interface
+3f2eaf6321255ad450931a13a1f096a5f75ba4a7|2020-05-28|Razvan Nane|Added modulariy code back
+0257656802ece8bf009f105f58a59656614420df|2020-05-26|Hans van Someren|Cqasm_reader ignores a skip when reading it. Wait is interpreted as a wait gate.
+de45aedb452908894881e9050c6be2f7255fdc8f|2020-05-26|Hans van Someren|Added option issue_skip_319. When value is "yes", issue skip instead of wait in bundles, otherwise just wait.
+5fd96581da0005b16de7ceffcbbb8a22074331c2|2020-05-25|Hans van Someren|Forgot to rename one report_ir to report_qasm
+0875dc6c62fa935d9b7dd320fb69047c8f132c44|2020-05-25|Hans van Someren|Defaults of write_qasm_files and write_report_files changed to no again
+e9670db33cdda383334e0fcb6bb4555e48870c47|2020-05-25|Hans van Someren|report_init changed from pass to function called by program constructor because MUST be called before any writing
+1be3991bd32e3169917e20f45560ab691d24d0c8|2020-05-25|Hans van Someren|Deleted program.qasm() interface from swig prototypes and from tests/test_Program.py
+1fefdb6b86d90f5bf0bc227d3af4424c18818aef|2020-05-25|Hans van Someren|Deleted old compile(circuit) interface and cleaned-up src/program.cc
+ff65ef16def835e3b381b0d353621686e0d9e10e|2020-05-20|Hans van Someren|Split off decompose_toffoli into separate header/implementation files.
+432eafb058f2260c2225b35acaaaed5d4d18d918|2020-05-20|Hans van Someren|Made optimizer into a separate pass (rotation_optimizer) and implemented it in a new file src/optimizer.cc
+11f9da543f1a05e9f4a36e27abba363f1ba326a4|2020-05-20|Hans van Someren|Updated program.compile() method so that calls are proper pass entry points
+7afee3008817295d8d3d4bc4ad1281e26071fd66|2020-05-19|Hans van Someren|Reorganized scheduler code to just 2 entry points, for the prescheduler and the rcscheduler
+d0106025d714647612cacfac9f7d6e4f6e13ad51|2020-05-18|razvnane|Merge pull request #318 from jvanstraten/dqcsim-tutorial
+87f7727cabcaf34667ef477e975e89d72135e16f|2020-05-18|Hans van Someren|Cycles_valid after mapper and after MakePrimitives
+c6339c66e2eebc6224b1fa74630890c3ea9e7faa|2020-05-16|Hans van Someren|Renamed cc_light_schedule_rc to cc_light_schedule
+f2c47f2e0e21fccf50710e349cc8b3f805ef9069|2020-05-15|Hans van Someren|Merge branch 'modular' of github.com:QE-Lab/OpenQL into modular
+271fff99458e04bba27f8247976c784278bfbe30|2020-05-15|Hans van Someren|In OpenQL's ir, kernel.c is the only construct that contains gates; kernel.bundles has been deleted.
+e82f90ecfcd5f8e9afecb9634ab608960626a2ce|2020-05-14|Jeroen van Straten|Fix typo in DQCsim/OpenQL tutorial
+82e1466e5dc7d8d5c38251e4214e244004673128|2020-05-14|Jeroen van Straten|Wrote tutorial on using DQCsim with OpenQL
+5e422a5a858d98215a79a7b184d6bb9bf2fc312d|2020-05-12|razvnane|Merge pull request #316 from razvnane/modular
+07b43958b2a22967da3de10a8d763c1d01ea36a3|2020-05-12|Razvan Nane|Temporary disable unitary to speed-up compilation
+e04556371f90ae87b448aefcc3076c090b56d0a3|2020-05-11|Razvan Nane|Updated Modular API & add not tested reader pass
+7eddf34b171058394753d914fccf960c8636d4d2|2020-05-11|Razvan Nane|Extened API with add pass and set pass options:
+42e5492fe79465182a355c4807ce3cedfa21efab|2020-05-11|Razvan Nane|Fixes compile shared-lib mode (#306)
+d20f023b33cf442577e86c45bd031451741e87f3|2020-05-11|razvnane|Merge pull request #315 from razvnane/modular
+783460d73dbca9e069595132a2ee6379f8546905|2020-05-08|Razvan Nane|Merge branch 'modular' of https://github.com/razvnane/OpenQL into modular
+be52b4944c46b1d490221dd78f13cffa793dbe7d|2020-05-08|Razvan Nane|Updated CBox test to fix failing modularity testing
+906d4334cb594d9718e3f620c40f659458dd5f87|2020-05-08|Razvan Nane|Added modularity APIs and initial pass manager
+f11922e8404b1f1b2acf1b15d393de6aa0cddc7e|2020-04-30|Imran Ashraf|Merge pull request #313 from anneriet/develop
+21eeef35c396106bb8ef29bd80421fec3da36ccb|2020-04-29|razvnane|Merge pull request #305 from QE-Lab/modular
+90c5d88c92242a9f720da21517a5c33c616f69d1|2020-04-29|Razvan Nane|Merge branch 'develop' into modular
+272562583cc75597baa9667cfa60fc500ca5b72d|2020-04-29|razvnane|Merge pull request #314 from mmoelle1/patch-1
+74fccce5ffaa54a9bb08f3647cb9ebb088f37ed9|2020-04-29|Hans van Someren|Merge branch 'develop' into modular, now with newest remote develop
+c484cc3e4a92fcf7bd3e81127b4a4abbb8fe8c19|2020-04-29|Hans van Someren|Merge branch 'develop' into modular
+48d7fe339f4ce00b9df31c04ef82b8cb30124035|2020-04-28|Wouter Vlothuizen|Merge pull request #10 from DiCarloLab-Delft/hotfix/for_loop
+730124db0372b509b397a62ab32a0c6230f1b0fc|2020-04-28|Wouter Vlothuizen|updated version
+bd8daad1234ac39d9d6a5c0345e3f03dca2a83be|2020-04-28|Wouter Vlothuizen|fixed register used for FOR loop
+636a7a924cf53b5986eaa11f5664f7d03104eca9|2020-04-28|Matthias Möller|Update CMakeLists.txt
+22a9ffcf84aed0e652873b788b3e6d202e2072c2|2020-04-24|anneriet|Removed or changed unnecessary print statements
+3efc4aae91f68208ddcae0ea11abdcc745a08b5e|2020-04-24|anneriet|Changed all decomposition tests to use qxelerator
+71163d20050209d5f565acad6692be578e07c3d5|2020-04-23|Imran Ashraf|Merge pull request #310 from QE-Lab/doc/unitary-decomp
+11334cd26c4b8b28172d961108129261f862e90d|2020-04-23|Imran Ashraf|mentioned python as code snippet language
+739797b9dcd77a93a77ba805bf17899ebce514ea|2020-04-23|Imran Ashraf|Merge pull request #311 from anneriet/doc/unitary-decomp
+00c1af4a473aa6a1ed7341f89793fd84ce01bb64|2020-04-22|anneriet|Fixed one typo
+ff6ae591381a5df4cc98a392b799f2868731159e|2020-04-21|anneriet|But now with the reference link from the tudelft repository
+55b3cde626f6c2bf1347922ef34d520f7d045a12|2020-04-21|anneriet|Added QASM and link to thesis
+c1e3803352f4bf34a8813f15642894c4c5a0de7e|2020-04-21|Hans van Someren|Deleted mapper.Bundler() and unused bundler() inside src/scheduler.h; standardized on ql::ir::bundler() to produce bundles.
+6a8b275bcb41199c1f085d4f529e7877d3f9a654|2020-04-21|anneriet|Added documentation for unitary decomposition
+b1d8903c91f0f0da08f8118bd6991eebf10f2f0c|2020-04-21|Hans van Someren|Updated documentation (esp. of scheduling) to reflect post179 only. Deleted mentioning option scheduler_post179.
+f44977c14bc783c5c4fc2d487d2153f3d30ca4d3|2020-04-21|Hans van Someren|Took out from src/scheduler.h scheduler_post179 option checking and reduced the code after that.
+ec347cdd653a876e4315f5508fa954869bf314e1|2020-04-20|Hans van Someren|Updated the documentation to reflect having made scheduler and mapper cc-light independent.
+c4ff23736258c12925e147e14b66263fff991740|2020-04-20|Hans van Someren|Created get_operation_{duration,type,name} in cc_light_resource_manager.h. Tidied up this file for retargetability.
+77587752f71f25f3dc7487466e2f17653d30db98|2020-04-20|Hans van Someren|Platform resource classes such as qwg_resource renamed to ccl_qwg_resource to prevent clashing with CC resources.
+6ba6bd377b2d0aa310b9cd3ed1de4d69c61f91fe|2020-04-18|Imran Ashraf|added anneriet contribution
+b98c7f31f30403e024c7b333ef72bb7df4d91d2d|2020-04-18|Imran Ashraf|Merge pull request #307 from QE-Lab/enh/unitary-decomp
+06e086c8c0669e17d4711420e4773084186e665b|2020-04-18|Imran Ashraf|removed non existant qx del call
+ff1024c201bd0d418bc4f5293ffa661a3c7e563e|2020-04-17|Miguel Serrão Moreira|Merge pull request #8 from DiCarloLab-Delft/fix/remove_wait_hack
+d00e88cedc457bc95639effba42f33b0ce567c3c|2020-04-17|Hans van Someren|Added basket class resource_manager to dynamically deal with platform specific resource_manager
+5aaea50f1bd91a7ca3fd17f836695402f39ddac3|2020-04-16|QFer|remove wait hack
+1c094dc91a37e424f9fdf67049a3f046c6ba83f9|2020-04-16|Imran Ashraf|added qxelerator package dependency required for unitary functional testing
+484a26d6dfcee189847977e20937119428043d61|2020-04-16|Imran Ashraf|merged develop
+bf1683f8bb697eee3c5ae630e893a0901b0d135f|2020-04-16|Imran Ashraf|disabled C++ tests to avoid Travis CI hang
+55d59f238578408541259fbc49145f05ad870ec4|2020-04-16|Imran Ashraf|Merge pull request #227 from anneriet/enh/unitary-decomp
+5a6baffa08f26c193f4363de03b10e1922456c0f|2020-04-16|Imran Ashraf|Merge pull request #297 from DiCarloLab-Delft/feature/deadcode
+76861449f291e9edfcdca2dcdb784d36fad642b0|2020-04-15|Wouter Vlothuizen|Merge pull request #7 from DiCarloLab-Delft/feature/decompose_builtins
+29bff5ba2734ec3c557324f89e424a3f79b05633|2020-04-15|Wouter Vlothuizen|tested OPT_DECOMPOSE_WAIT_BARRIER
+aad94073bdfeef3584e96ba8c2b6476376e1231c|2020-04-15|Wouter Vlothuizen|merge
+a533dd3319f11f756e237ef4770e650e2dcaed19|2020-04-15|Wouter Vlothuizen|Merge branch 'develop' of https://github.com/QE-Lab/OpenQL into feature/deadcode
+152921d27c5377ccb4d4078054916063a7fb7708|2020-04-15|Wouter Vlothuizen|changes log level in test
+db71970b8a565303a9764284bb19ac978a332cd9|2020-04-15|Wouter Vlothuizen|added test
+edd62c87f571231ca581fc933396a87343f76706|2020-04-15|Wouter Vlothuizen|fix
+aadce12e639b1e039a87c40f7f768965417a8679|2020-04-15|Wouter Vlothuizen|allow builtin gates in gate_decomposition (untested)
+55dae3e9697a00212e0fd77848ba295fc9196097|2020-04-14|anneriet|It builds, but no qxelerator yet
+df0aa5e75ab9cbb3d61893824ca8ef51331b9225|2020-04-14|anneriet|See if CMakeLists is correct now
+5375da0ee6cb76981266e33bb1ef6dba2e6ef53c|2020-04-14|anneriet|Fixed some leftovers from merge
+f7c73d4f82dee1964862b205aaea2fd7ea984f35|2020-04-14|anneriet|Now without Eigen local files
+7ea218c9cc213368bc9abdada3bd30c35fd82833|2020-04-14|anneriet|Now with eigen as submodule hopefully
+0b00fc29f506f0d374149fb74729e020f4a90a9a|2020-04-11|Imran Ashraf|added eigen as submodule
+43e211780b9a880d8200a073c58883a3274eb574|2020-04-11|Imran Ashraf|merged recent changes from develop
+c7f2f93d35a226c086aef681e8ea6eacc074588f|2020-04-09|anneriet|Merged with develop
+c39c0e4aa6d99476178db975226ff3b560309dbb|2020-04-09|Imran Ashraf|Merge pull request #304 from QFer/feature/cqasm_reader
+bfd6d08506db2af236a2aa148dcc66fc6b924b83|2020-04-08|QFer|removed test_cqasm_reader.cc and changed libqasm repo
+cd5841c6081a593f32090710c3dec61ec836b8d5|2020-04-08|QFer|update submodule
+dc8d50de6bb63e0f2bc0fe432197f6e20da74c25|2020-04-01|Wouter Vlothuizen|correction to code generation for OpenQL for loop (thanks Martin)
+3bc226c07e7c8372a357512aac1fa4643ee8cd1a|2020-03-31|Razvan Nane|Merge branch 'develop' into modular
+ca3dbba05325c7d62eb94e8302e5124a74762f7d|2020-03-31|Wouter Vlothuizen|improved check on trigger bits
+6391bb4f3cf70f727d0d0f6cfa8baa5f7a7b8a2c|2020-03-30|QFer|libqasm branch change
+de34d9dfd51246151f6f66377adcad9363795d3c|2020-03-30|QFer|url changed for libqasm
+5c2a341f17e17f4750445f308f1cb4c0bd45c988|2020-03-30|QFer|libqasm submodule branch updated
+b56893bf05deb43e20d96cc4a516fbd6a0c9dd51|2020-03-30|QFer|libqasm updated
+e0c2c76df641498d01a6aa748cd933cfc244e40d|2020-03-30|QFer|Merge branch 'develop' of https://github.com/QFer/OpenQL into feature/cqasm_reader
+72069fd894bc20d352f46610a7d19fb0758c2f58|2020-03-30|Imran Ashraf|Merge pull request #301 from QE-Lab/enh/mapperdoc-294
+736df1aa428e63d46335ff95a7b71a93005370ba|2020-03-30|Imran Ashraf|travis CI should now be passing on linux and osx
+497ec01fe906779f49c98a678f2a693ee98789ce|2020-03-30|Imran Ashraf|travis CI fix
+28e2aa58f9e27bac74f89261079530729172ebad|2020-03-30|QFer|adjustment installation.rst
+460cd933eef40ad02618ec90b82d48cf286e48fa|2020-03-30|QFer|In clifford.h solved referencing empty vector crash
+c9f37dfdec9956f4bf99a917cec25a8e21456bd2|2020-03-29|Hans van Someren|Made src/scheduler.h and src/mapper.h independent of cc_light configuration
+b6928e62cd327b0203717f2ab2d91ffc1f088819|2020-03-27|Wouter Vlothuizen|Merge pull request #1 from DiCarloLab-Delft/feature/cc_5
+296527e8069e4f13b9e70634a46c225fe2055ec0|2020-03-27|Wouter Vlothuizen|Merge pull request #3 from DiCarloLab-Delft/hack/adding_waits_around_2bitgates
+71dd16ab5ad68cf122e28b5efcefcfd420c7f908|2020-03-27|QFer|Changes for compiling different platforms and reduce warnings
+41abef1f7b08c52cad26c246745345a33dac351a|2020-03-10|QFer|merged changes to  develop
+897caf452cc515f219be0e9652e7689127365a32|2020-03-10|QFer|cQasm Reader interface
+bce2541cd5bc8f65422ac3cdee4670e1fb4421bf|2020-03-27|QFer|Merge branch 'feature/dcl' into hack/adding_waits_around_2bitgates
+013f4906bc5be123943e1f69150ccf1ffe5baf36|2020-03-27|Wouter Vlothuizen|Merge pull request #4 from DiCarloLab-Delft/feature/qasm_reader_in_openqldclab
+0808dd4d7cd036db08c85d3f17e5495ecfe69b21|2020-03-26|QFer|changed forward declaration because of fail on mac
+0895d5ee679cd2fe07564435ce2c1cbe55c7d310|2020-03-26|Wouter Vlothuizen|cleanup
+6faf3aa861c8c60e2054a57f414e82964cb2040a|2020-03-26|QFer|Linux environment adjustments
+eaac621ccd74414122546512db11b2103eac60da|2020-03-26|Wouter Vlothuizen|added more JSON verification
+156b724d6dde6eb261c2c09b77b813d226f37686|2020-03-25|Hans van Someren|More corrections and typography
+410a85fc87262d4801b8e73d7f56589df9ee8291|2020-03-25|Hans van Someren|More swaps/moves
+cc3cd5db2899a0adf09ae72e215908c436b3762f|2020-03-25|Hans van Someren|More polishing
+4121976b950fa53b9348d359bf435879199d5fe5|2020-03-25|Hans van Someren|More polishing
+e2b8cdfb5a4d61213de54eeadf5954cb203a412d|2020-03-25|Hans van Someren|More polishing
+8038cfb9b5ab8ef7a4259e0a8d1a3032131cd6b2|2020-03-25|Hans van Someren|More experimentation
+0dd81396f2ddb65edcc075f3f67eeb63c4de61c2|2020-03-25|Hans van Someren|Experimentation with ``swap``\ s
+be6a0be76abe0a37612c3948a24fbde21d8a655a|2020-03-25|Hans van Someren|More polishing
+6e49ce6234488865b584e979d35d4105333eb9a8|2020-03-25|Hans van Someren|More polishing
+24b7dd996f8f09a77a297762209c68341e2b888c|2020-03-25|Hans van Someren|More polishing
+96050e6b66c487708feb5857f152be43a805a32b|2020-03-25|Hans van Someren|Typography of several terms updated
+c167860571382bc28344346dc4e437e7c74171cc|2020-03-25|Hans van Someren|Merge branch 'develop' into enh/mapperdoc-294
+31d04ba9a86ca41ee95c6c392227431877a6db88|2020-03-25|QFer|Adding a wait gate before and after each cz, cnot and swap gate
+5055e6a2d11999d262e610a8e0d5210d7691a2be|2020-03-25|Imran Ashraf|Merge pull request #302 from QE-Lab/fix/eqasm-branch
+bcd54c56374e4ffeca98c5b39fca2a4bc914e7ff|2020-03-25|Imran Ashraf|fix for eqasm branch
+6b1e5d7c0e7389c71b8495880b1fb651026b387b|2020-03-25|QFer|Added cqasm_reader to OpenQL
+6abe31be0aa2f4bc705082904aad2f038cb9b222|2020-03-25|Razvan Nane|Merge branch 'enh/mapperdoc-294' of https://github.com/QE-Lab/OpenQL into enh/mapperdoc-294
+802900534460d269480702530cc77692372ed453|2020-03-24|Hans van Someren|More polishing
+bdc2295ade5c1bf0e12f9400336923d184d40a7b|2020-03-24|Hans van Someren|Some polishing
+157753fb1717552b54797cdf214c6a56b2ff69b1|2020-03-24|Hans van Someren|Typography of gate names adapted to documentation convention.
+a9ad20e7a3387e184db9eb7486ac9338f40027fc|2020-03-24|Hans van Someren|Finalized mapping documentation. Still to do: polishing, typography, reviewing.
+b856e13c48d329b504245fe0ae246c786d8205fd|2020-03-23|Hans van Someren|More documented except options to control recursion.
+d39ccf29b50751360d7c3ed5391f067b829a844f|2020-03-23|Hans van Someren|More mapper documented. Still to check docu and to document recursion.
+5fd606dc2dbf9033fcd03bf2c75163d520d32578|2020-03-20|Hans van Someren|Partially wrote mapper documentation; half way.
+f965c40fefcfebb29edd8503d9fa2f3db561f162|2020-03-16|Hans van Someren|Initial version of mapper documentation.
+1ea68194c4cef29fb4024a94904dfd1f65d0c9bf|2020-03-24|Hans van Someren|More polishing
+1b08646d63b70470a71e2a87705d729ecd0a35bf|2020-03-24|Hans van Someren|Some polishing
+39b486fee3e639487ac14f7f39ddd80d7012227a|2020-03-24|Hans van Someren|Typography of gate names adapted to documentation convention.
+23ae8d37e7af072ba474bef5877ffed3d895f81d|2020-03-24|Hans van Someren|Finalized mapping documentation. Still to do: polishing, typography, reviewing.
+e1a487d700267a9acadeba315392e0445c2358bc|2020-03-23|Hans van Someren|More documented except options to control recursion.
+4ef478e1d03a87c6369207c6b2af70a8e5592212|2020-03-23|Hans van Someren|More mapper documented. Still to check docu and to document recursion.
+801a338fbe4ffc1d74d9b053593b23f313d2f244|2020-03-20|Hans van Someren|Partially wrote mapper documentation; half way.
+18e93501a0560814d024b77449477cbd8316dd19|2020-03-18|Imran Ashraf|Merge pull request #299 from QE-Lab/enh/travis-osx
+3e4864fef519e6efc8a7e0fe0fda041e00f4e956|2020-03-18|Imran Ashraf|travis osx build support
+d11b1a361ff2818955d248ed1ec0b26144b052f4|2020-03-17|Imran Ashraf|added travis ci badge
+8e584fd3d4b76b100c4a83d1e8f2ba9d9d4badd3|2020-03-17|Imran Ashraf|Merge pull request #298 from QE-Lab/travis-ci-setup
+1238ecabb0d762f1fd7a2a2f0c7a4af852dac349|2020-03-17|Imran Ashraf|merged develop
+f5eadf0899327bf7d1dcd1fc9114ca4d947b2bc4|2020-03-17|Imran Ashraf|skipped one more test and minor modification in travis script
+ba3eb26d97419bdfed05e0cf3c29e8eb87272270|2020-03-17|Imran Ashraf|skipped some tests for now
+7f48b6b30a4b6b45964261e56e2bd5f1202855c5|2020-03-17|Imran Ashraf|cleaned jenkins files
+555bf07ec98dada28de41332c0548bab89ed8860|2020-03-17|Imran Ashraf|initial travis setup
+a3b5fa71265deaba51ac8a83efb0a63e7a2d54b1|2020-03-16|Hans van Someren|Initial version of mapper documentation.
+954b9e3abfc4762efeef73c8f01446914c5b588f|2020-03-12|Wouter Vlothuizen|removed OPT_LACKS_SWIG_INTERFACE
+794be8ae8405a7cbfe47d4c59b9de028a921063f|2020-03-12|Wouter Vlothuizen|removed OPT_CUSTOM_GATE_PARAMETERS
+4f68ad134ef58ab7760533b7ac12579c9e57bad9|2020-03-12|Wouter Vlothuizen|removed OPT_CUSTOM_GATE_EXPLICIT_CTOR
+c898e4b8e41c40a4cfce3d5b4b74b68c353e5dfa|2020-03-12|Wouter Vlothuizen|removed OPT_CUSTOM_GATE_OPERATION_TYPE
+a593574312eb45e02fac2476a97364c215812648|2020-03-12|Wouter Vlothuizen|removed OPT_CUSTOM_GATE_LOAD
+e259fe353bd3b2050b5fa565121926b22c7c7cd3|2020-03-12|Wouter Vlothuizen|removed OPT_USED_HARDWARE
+cd758199dbf5e8e60054256165686e9849a39562|2020-03-12|Wouter Vlothuizen|removed OPT_UNFINISHED_OPTIMIZATION
+286d8bdde73bcb22bcb75c733c34e96eabca639d|2020-03-12|Wouter Vlothuizen|removed OPT_TARGET_PLATFORM
+c0a9a1877c48628ec9d40e281828ddf83b4ae7bc|2020-03-12|Wouter Vlothuizen|removed OPT_MICRO_CODE
+6e6f8a75033c06dda182ef51ec0552946f8c964c|2020-03-11|Wouter Vlothuizen|improvements to handling of JSON files with incorrect information
+ee1cabba140f3a5205c938210ef6f46c85759b92|2020-03-11|Wouter Vlothuizen|cleanup
+6e91179c6c5fb5a5628281abd2b166437d16e5ed|2020-03-11|Imran Ashraf|Merge pull request #244 from wvlothuizen/feature/cc_4
+1636cd193eaa104f5cc118fc9a3eb58acfc8b579|2020-03-10|Imran Ashraf|Merge pull request #295 from QFer/fix/option_decompose_toffoli
+6ed4eeeeec32880fb1d17e2b10810f4f89048a6c|2020-03-10|QFer|Option MA should be AM
+24a1b8981927034ee998ec68ffce114d224d6c71|2020-03-06|Wouter Vlothuizen|builds again on Linux (Ubuntu)
+fa9f17815131bb0e3739a79ab3a4eb912c0a9d14|2020-03-06|Wouter Vlothuizen|Merge branch 'develop' of https://github.com/QE-Lab/OpenQL into feature/cc_4
+c07fb239c5460267c9b35ea4e58e1dfaef894187|2020-03-05|Imran Ashraf|Merge pull request #293 from QE-Lab/mapper
+bfa0bda4021c628853e647c1eb96821864efd487|2020-03-05|Imran Ashraf|addressed Wouter's comments
+47ce0395c0efb1140dce0492ada53afe12175584|2020-03-05|Imran Ashraf|fixed issue with win build for cmake > 3.12
+e19a075a60a9e921d3de496773905db3232bd7ba|2020-02-27|Imran Ashraf|updated parallel trigger test
+387facd4e7897fad00f5fccc550aa54ec55461f9|2020-02-27|Imran Ashraf|moved grover to examples directory
+4724caca39c9ed051f3e419c50a3cd8f946753fc|2020-02-27|Hans van Someren|Parts of the documentation specified that they reflect the mapper branch; this has been adapted.
+94d3cb639c038f08232308d614b01e6ade1e88a1|2020-02-27|Hans van Someren|Updated documentation to reflect replacing imm_value by gate.int_operand
+8971d2abe4d5413caf1aefee1a46d72da349853d|2020-02-27|Hans van Someren|Solved bug in tests/test_bugs.py by replacing imm_value attributes of classical[_cc] by gate.int_operand
+e20a371c495176a46fb46ebf1db9036b895434a2|2020-02-26|Hans van Someren|Updated documentation to reflect the new internal interfaces. The functionality of the mapper itself has not been described yet.
+c38ca9cf3edb80cd8626b7ea6132929aab1732e6|2020-02-26|Hans van Someren|Merge branch 'develop' into mapper
+1b6bd45974264ea7adce738b22f8684d1d452fac|2020-02-26|Hans van Someren|Updated some test files to comply to new interfaces
+ed6da110c388d22170079e3f634243f212b75157|2020-02-26|Hans van Someren|Imported documentation from develop branch
+e1a28d2db6a434328ed662a65205834bd8314186|2020-02-26|Hans van Someren|Classical and quantum gates can be mixed in one bundle; bugs on this repaired.
+e7ceff039cc3ce3b6676ca1c3a3dae22e2594850|2020-02-26|Wouter Vlothuizen|trying to fix CI, attempt 9
+d447403fad1785ceb1f1c88f379dbbc68db03e4c|2020-02-26|Wouter Vlothuizen|trying to fix CI, attempt 8
+1c4ea221752c9a08fade9f1faedc5231d29dcef6|2020-02-25|Wouter Vlothuizen|trying to fix CI, attempt 7
+d9d96eff5c8d43c81e24890233a96bf1af6d68ff|2020-02-25|Wouter Vlothuizen|Merge branch 'develop' of https://github.com/QE-Lab/OpenQL into feature/cc_4
+f18b238e60bc92c6a2ba28f3b0a0f34945d073a3|2020-02-25|Wouter Vlothuizen|trying to fix CI, attempt 6
+92c3404b37f267bc515e9f600337f6e165c560ec|2020-02-25|Hans van Someren|Updates to pass the regression tests. Still not ready with tests.
+b7fdbbe4b17ae18fa2bcff32d082196c85f83c73|2020-02-25|Imran Ashraf|Merge pull request #283 from QE-Lab/doc/scheduler-ccl
+f247d17628380d831441bcb374b2b23bf7346110|2020-02-25|Imran Ashraf|fixed conflict
+34605655de2d7362a3fb6ead4c874037347fcb1c|2020-02-25|Wouter Vlothuizen|trying to fix CI, attempt 5
+47e3f0716f33ac9b5334131c300885c885635868|2020-02-24|Wouter Vlothuizen|trying to fix CI, attempt 4
+ca70837b6bf58b0c24958bca0c38c2c7126a3a26|2020-02-24|Wouter Vlothuizen|trying to fix CI, attempt 3
+597892415e92806b04767a0a7168a64aae8b7ae2|2020-02-24|Wouter Vlothuizen|trying to fix CI, attempt 2
+79e4ed83614c2ae404f07fa5831b1b022a27ef3c|2020-02-24|Wouter Vlothuizen|Merge branch 'feature/cc_4' of https://github.com/wvlothuizen/OpenQL into feature/cc_4
+d07fa25b448320325d16a1b154d6487abd3e7da1|2020-02-24|Wouter Vlothuizen|trying to fix CI
+a6e11e923e04381cfb7457882c8aa869d178a073|2020-02-21|Wouter Vlothuizen|small addition to docs, corrected GIT author
+f9135edce50603fab871a5ec53ec9814ea7430ab|2020-02-21|Niels Haandbaek|changed WOUT to DOUT for default gate, to prevent spamming log with notes on "wait" gate
+38ed36b182d9f432dcc354affbf44697cf0ba965|2020-02-19|Hans van Someren|Checked test_1 of test_alap_rc_schedule.py and updated golden accordingly.
+d4a8e506fb280719a5cf3d26339f03fa9c724361|2020-02-19|razvnane|Merge pull request #291 from razvnane/mapper
+7ebe8082fc001ceb802c99cabc38abad7f8c9a18|2020-02-18|Razvan Nane|Change the name of the generated quantumsim scripts.
+5b3f2a7dbbbafdb88e6c0279a48b91ae929f7ae1|2020-02-18|Hans van Someren|Catch-all in depgraph creation so that scheduler and mapper can handle strange gates like fmr coming from cc_light.
+e27d3d2df7a9cb13ecdc70121c51c2f26400101c|2020-02-17|Hans van Someren|Merge branch 'mapper' of github.com:QE-Lab/OpenQL into mapper
+37ded5a332e6bff9385375dd2ddd8c37bf05ee8e|2020-02-17|Hans van Someren|Quantum operands in gate.operands, classical operands in gate.creg_operands, etc.
+1f0e1cf6951815608e7085556c0b1de878eaf896|2020-02-17|Hans van Someren|Quantum operands in gate.operands, classical operands in gate.creg_operands, etc.
+3cf2a718a5c760ecb8aec4aae9bf429e78fe190d|2020-02-11|Hans van Someren|Deleted tools
+b03dc3b5a8881a6790686c2c6f818d39d0968199|2020-02-10|Hans van Someren|Use renamed test_mapper_s17.json file in tools/compile_all_files.py
+f66c2559c2297fe932f3d9a46b7d9a99c5f0eaa3|2020-02-10|Hans van Someren|Deleted unused files: tests/constraints_configuration_quantumsim_sc17.json tests/hardware_config_cc_light_s17.json
+608a29f7f528bb934d704cff7eaa7c1f7a2539f2|2020-02-10|Hans van Someren|Deleted openql/openql.py
+d456550c9f32495f62e9fe6a8a6b03e28a58f7da|2020-02-10|Hans van Someren|In test_mapper.cc, use_default_gates="no"
+ba5ff489852b422116f9983332e379943364389e|2020-02-10|Hans van Someren|Default options: use_default_gates="yes", clifford and mapper="no".
+12fd4eccaffc9063307b9912b7d746994f9e2cf9|2020-02-10|Hans van Someren|Standardized on comma separating operands in json.
+0b29e3c27affd34504133a37d18ed598bff2773d|2020-02-10|Hans van Someren|Take qubit operand separator code convention from develop assuming problem was solved there.
+34c4a6b0ed290a7b965adfe74039126291766303|2020-02-10|Hans van Someren|Only comment changed inside clifford.h
+51ab8993d36ccdcf835a479c7124aa169f29913a|2020-02-10|Hans van Someren|Renamed tests and config files to start with 'test_mapper_', and added golden versions of them. Disabled Initial Placement.
+2aaf2b4ddb18919269e611cd07922493689860d4|2020-02-06|Hans van Someren|Link errors resolved by putting LEMON_LIBRARIES after ql in linking
+5dc5591ca24b2ccb92762c7dd0d9f2737fd883df|2020-02-04|Imran Ashraf|Merge pull request #290 from QE-Lab/doc/qx-example
+c047150afe22ee1855caa07e913b10cec1d967d6|2020-02-04|Imran Ashraf|added tutorial for qx simulation
+14eb4971fc871533c06d0ffaf1c6bf9f01ac63aa|2020-02-04|Imran Ashraf|Merge pull request #289 from QE-Lab/imranashraf-patch-1
+e18230631ba004a94c1755a4e639429582f28c0c|2020-02-04|Imran Ashraf|updated readme with docs link
+edbc6bfe32ead0118c0bdcd2461378c7bedd3f92|2020-02-03|Wouter Vlothuizen|trying to fix Jenkins against libqasm PR #100
+cf954d42b01f2fe1295deee83e677b1731689949|2020-02-03|Wouter Vlothuizen|retry CI
+bbf64b674b88cc87e27c235b954f1a905a29ccfb|2020-01-31|Imran Ashraf|Merge pull request #287 from QE-Lab/fix/swig-warning
+deb890bba5ef1179fcb5237a8818aa3bf83f40e4|2020-01-31|Imran Ashraf|fixed swig deprecated module warning
+da5d71298e4867b8612c33afc1f9d567b261a6da|2020-01-31|Wouter Vlothuizen|Merge branch 'develop' of https://github.com/QE-Lab/OpenQL into feature/cc_4
+181bcbffdce5a8e8073e5bb8ea3fababa2a36c9a|2020-01-29|Wouter Vlothuizen|compiles again
+756abc5edd549f566b7d2110cddbe0d5ad18abd1|2020-01-29|Hans van Someren|Some updates to scheduling.rst
+f7f556225a148a3e9e4889cab1369b6cdace7506|2020-01-29|Hans van Someren|Trying to get Initial Placement made but failed during link phase of make.
+a662532e8125e2a3ad951ea3208c247d8c116f2f|2020-01-29|Hans van Someren|Updated eqasm_backend_cc.cc to work with various schedulers as they are in mapper branch.
+6643c897af5600403ee5bf11f17debf1c9c3d62f|2020-01-27|Imran Ashraf|merged develop to fix auto build on RTD
+c61ecf5a3a6d14ae653bb0f62a9e0b909ebd91d7|2020-01-28|Imran Ashraf|Merge pull request #286 from QE-Lab/enh/api-autodoc
+34a090c09bb1f420756bc705d30c331ffe19ec22|2020-01-27|Imran Ashraf|fixed typos
+a9e1cbbe4ed3c0a0901531df67230631147d550d|2020-01-27|Imran Ashraf|fixed issues related to buildin auto api for RTD
+601b9a9a1d71198d98f960e8217c25045c418aa5|2020-01-27|Hans van Someren|Got the merge of develop into mapper to compile/link.
+1abd833a97052551d580b0d68a3801e800ee9490|2020-01-27|Hans van Someren|Merge branch 'develop' into mapper
+ac5e423bba146d984d44183b2afe89d02f1a3c8c|2020-01-26|Hans van Someren|Resolved comment by Adriaan.
+5e2be38437123261d17682e198fa749b18b92b47|2020-01-23|Hans van Someren|Some comments dealt with from Adriaan.
+c8092ade4d8e6c021ce5a664660349bd835969d4|2020-01-23|Hans van Someren|Reorganized chapters and made entry to documentation more gentle
+4c1735342f24de9fd08a1e418ea4fa24b15fd18d|2020-01-23|Hans van Someren|Stabelized before merging
+31321a26fe0467eb98fdc1e5b8914ca32960d173|2020-01-20|Hans van Someren|Merge branch 'doc/scheduler-ccl' of github.com:QE-Lab/OpenQL into doc/scheduler-ccl
+ff2f43d5006dbc7f025f422afcd5380c446a4064|2020-01-20|Hans van Someren|Updated compiler_passes
+059802d99afefb2d93bb5e474b0a3cd743a363a3|2020-01-20|Imran Ashraf|referenced notebooks/examples/tests in documentation
+fc012b9b4711dc9b24413233a6661ba2a97aebd2|2020-01-20|Imran Ashraf|removed deprecated doc
+50d5d1f1b18df26cc5b2c54f19d0b540b9fd94da|2020-01-17|Hans van Someren|Merge branch 'develop' into doc/scheduler-ccl
+f8d35a83e4ef9a5a5f372ea4e914f524dbf0d78c|2020-01-16|Imran Ashraf|improved api autosummary
+3f2b633372d550e225b6fc08a516cbeeaf82f4be|2020-01-16|Imran Ashraf|Merge pull request #278 from QE-Lab/cpp-example
+5b2b9beab459e8bd4831e903e906fd340acc75fb|2020-01-16|Hans van Someren|Added setting loglevel and setting an option to tests/test_mapper.cc
+41ba879895108a8dce2c9b1ff23f56884ab99575|2020-01-16|Hans van Someren|Explained combined scheduling of classical and quantum code.
+68c1dedad45845d08425fd9fc380b3d8a66a1a3f|2020-01-16|Imran Ashraf|added mapper test
+31b7ef59cee4e451cb8c4d41af052d33f59da9b9|2020-01-16|Imran Ashraf|used autosummary for api
+c98cdd151d5004a0853f8186007f1e0c1e82c461|2020-01-16|Hans van Someren|Applied review comments of Wouter.
+4f776717b53af4b920f779997946769b4cf03d03|2020-01-16|Wouter Vlothuizen|cleanup
+f03c2e5a9443a56991e38345612290958372e3ff|2020-01-16|Wouter Vlothuizen|changed JSON key "ref_signals_type" to "signal_type"
+3072dce8911bb34ae1f8e31234ef08d280918e0b|2020-01-16|Wouter Vlothuizen|changed JSON key "signal_ref" to "ref_signal"
+f6cc0ca79796ba32c44409f1105293af471d71b7|2020-01-16|Wouter Vlothuizen|replaced copies of json sections with pointers
+cfc73068b799cbe78759a30953e5d44287b43fb5|2020-01-16|Hans van Someren|Comment Wouter on platform dependency
+7dfc9f1557fe336040a7e4c098fed56b55809aa5|2020-01-15|Wouter Vlothuizen|documentation additions
+11571382fd89542334c05b3f1b3665fc4cb2aa23|2020-01-15|Wouter Vlothuizen|more cppcheck cleanup
+9b7fd754ae0d83c4cae9b5dc27a2d1d2a61fb537|2020-01-15|Imran Ashraf|Merge pull request #285 from QE-Lab/example-update
+afcba1899d4d51a49b1918211fae76afddcbd56f|2020-01-15|Imran Ashraf|better tables for options
+7935a2b720f0eaf973332b4b425a326f8d5f97cf|2020-01-14|Imran Ashraf|initial setup for autodoc api
+471790b9c1d545bfa5e65748e1e39bd86c87976d|2020-01-13|Wouter Vlothuizen|cleanup based on cppcheck output
+5b99ee06946cfb7e6ec80c03c227f914579a6e4a|2020-01-13|Wouter Vlothuizen|update for new seq_bar semantics
+6819ca91cfef84347a504c4cd9c9b2a83938d245|2020-01-13|Wouter Vlothuizen|converted existing CC documentation to RST format
+dc5b9fa78aa5aef6c155975ffb0842891ae88ede|2020-01-13|Imran Ashraf|updated rb_single example
+5b9a38f4cf3f14a21b75a598d9a6c79604550e43|2020-01-13|Hans van Someren|Added tests/test_mapper.cc
+c88ed0f44867301ce288d6795c663cf80bc24035|2020-01-13|Hans van Someren|Minor
+40b16593d4953dc69fe8d8dd41e46e3119a48b73|2020-01-08|Wouter Vlothuizen|working on doc
+60203ba23a7c0fc22dcf89eda4bb972c9674e3e6|2020-01-07|Hans van Someren|Moved all control flow doc from classical_instructions to kernel and improved it
+ba8d0faf916382eb7896ec78da65835df6e1fd9b|2020-01-06|Hans van Someren|Classical gate documentation added.
+4dfda16c8e8be4134793c8d6b7eb10a8ca0a0039|2019-12-30|Hans van Someren|Extended the documentation. Various small updates.
+1da47825f49968e04b8e59dee88520734d94957d|2019-12-19|Hans van Someren|Scheduling documented, including resource manager, and related configuration file attributes.
+6b1e70358380ef8f327a3a0c2ce34273cfa3fad4|2019-12-19|Hans van Someren|Updated authors and contributors to include Hans van Someren
+f771732fe39652cb787ea87f8cd39c9629be82d7|2019-12-19|Hans van Someren|Corrected some mentioning of control gates
+c5b501c4d564e6a56638049a028407859a95af72|2019-12-19|Hans van Someren|Described kernels and control flow consistently with the implementation
+58f3dbca13ef1ae3e3a9f154f5e8c4c5aa480b2e|2019-12-18|Hans van Someren|Added part of scheduling documentation, and bundle IR.
+2ac842e6f39d5f226a15d7fd14a6b40d239deff9|2019-12-18|Hans van Someren|Merge branch 'develop' into doc/scheduler-ccl
+ce9580066a62fa8cf9013f2a5f63ea70c03b2b88|2019-12-17|Hans van Someren|Many improvements and additions
+549feb7f76a41304114f3b5ff2fecd0d94561307|2019-12-12|Hans van Someren|Merge branch 'doc/scheduler-ccl' of github.com:QE-Lab/OpenQL into doc/scheduler-ccl
+6e68d3cd7c56b932f52d925780a7c204c010ae66|2019-12-12|Hans van Someren|Added overview at start of documentation; not ready yet.
+b0a19284eaefbbb5ed6232545f6c09b445f4163e|2019-12-12|Hans van Someren|Update quantum_gate.rst
+243304b1c15b577faac749d87194d3f696dda290|2019-12-11|Wouter Vlothuizen|first step towards new sphix documentation
+a2d1e18755a230833798a2957a14de3529fcc4da|2019-12-11|Wouter Vlothuizen|Merge branch 'develop' of https://github.com/QE-Lab/OpenQL into feature/cc_4
+e5f22b8af21906bcc5f64e5763412114e78a5ade|2019-12-11|Hans van Someren|In ok state again.
+bf86bf6b98c06d5e92b125f92a4b777eaa926d04|2019-12-11|Imran Ashraf|Merge pull request #276 from QE-Lab/enh/pypi-packages
+f69ae0c82a0b4aaac5b6b17ac14fb5ad4031f717|2019-12-10|Hans van Someren|More documentation on quantum gates, and the internal and external representations.
+cb69c9b3f64ab73579cecaebbc311a8ea0b95519|2019-12-07|Hans van Someren|More details
+a09381a959c2a46f91b0d8ac3df073b485c429b4|2019-12-06|Hans van Someren|Added unitary decomposition
+468d7b78bcda233053350184b482c169dbfde01a|2019-12-06|Hans van Someren|Reflected the mapper branch passes
+cae54f2b8c3db0f5e16b0ad4504a4c4de7355c60|2019-12-06|Hans van Someren|More and not the final issues with lists.
+fb1d997f2dfd2962db420aa7cb8a41fd027bd339|2019-12-06|Hans van Someren|List issues
+2811dc2f2725b9e9fbc4d735b9f6ea6ac651d38a|2019-12-06|Hans van Someren|compiler passes summary
+03ca7b9e5a5f237122d24480e02d13464bb3c941|2019-12-05|Hans van Someren|Done with cclight platform doc
+4fe792d80d8bfb32eda7e2c158fbbdff9c62ae46|2019-12-05|Hans van Someren|More code-block rubbish
+12980ec8249df2cc92fc511f79c119c440f18996|2019-12-05|Hans van Someren|Experiment with code-block
+8b3359059dc97d8a556a16dd31ef96566486fc27|2019-12-05|Hans van Someren|Done till qwgs.
+11913c6200f077039840868fb5d3ff1ebf6bf9dc|2019-12-05|Hans van Someren|Typo
+d0ff53adfbd83322c5b39c8d510567558933c3a0|2019-12-05|Hans van Someren|Typo
+a8910364368643fe155b8ab9e84dd6e403230987|2019-12-05|Hans van Someren|More on ccl conf file
+cbdc7bdf2bb2534c8d565f79920da46f6958ca28|2019-12-04|Hans van Someren|Topology section description updated.
+a1dc5d5c2bf692d42fbf7a507b397e9bf6f28560|2019-12-03|Hans van Someren|Updating platform cclight text.
+fe8083bc75dea9655ee068506ca946f01b0a3b8e|2019-12-03|Hans van Someren|Typos and corrections
+ebb52f9ea11875a2879c97adcf92a73fea6a2b16|2019-12-02|Hans van Someren|Added HvS
+41f7f5c2e1d8b3e1a80a3ddd2c32cc64ad7abb13|2019-11-28|Hans van Someren|Also report virt2real map after initial placement in report file.
+727a31b1f0a8dbdb029da775bc6403046ce1e98b|2019-11-28|Imran Ashraf|doc scheduling for cc-light platform
+d720dab0528bd6ebbfbf9607b99e6f63927f4e33|2019-11-28|Imran Ashraf|updated distribution name for pypi
+a1c57d0366939b29514c056c365c8a14baefda75|2019-11-27|Imran Ashraf|updated based on PR comments
+5122ed5750ce91a040f87747a72cd58fb2a9ea5f|2019-11-27|Imran Ashraf|updated docs to compile cpp example
+447476b7f165b9f20741a40fb83be356b26e31a2|2019-11-27|Imran Ashraf|cpp example update
+24a4ce642db0801b9163006bc97cf1f6e0fb0c0f|2019-11-27|Imran Ashraf|minor modifications
+8e5bc0bd9d9f50aca7bd5cac1f3f6431bf9f0576|2019-11-24|Imran Ashraf|pypi wheel upload
+884036a98c443c8b3b24d1990d8cc4cd03474b8b|2019-11-21|Imran Ashraf|Merge branch 'develop' into doc/platform-cclight
+ee5e3b2b93d0842d02cacd6eb6ef8228643331f4|2019-11-21|Imran Ashraf|Merge pull request #275 from QFer/fix/jenkins-build-and-tests
+60afb5190a761576d66e1e5fa7d2a344cb62a31a|2019-11-21|QFer|fix jenkins build errors and test error
+ad327b521a1dd893b54f06a98d4420a89e9728b0|2019-11-20|Imran Ashraf|further details about resources
+f4f44ea5d7e1c64b8e4eebaa8cd48ea7a5dfaeda|2019-11-20|Hans van Someren|More inconsistencies on empty circuit solved.
+6cadfa0ada00bc44a0549b29dc966c6f600ce735|2019-11-20|Hans van Someren|Bugs repaired for empty circuit
+2c015d4856175789480ad30287c7a0382862e160|2019-11-20|Imran Ashraf|documented cclight platform configuration
+e155054f46e25230b3fa10edba3213f75a338a90|2019-11-18|Imran Ashraf|Merge pull request #273 from QE-Lab/sphinx-docs
+b142fbe5bc15f70632762fc7568bd1da8e109bf4|2019-11-18|Imran Ashraf|sphinx-docs: more structuring
+1bb1fbd91b378f8d90231ce081f73e91c8135f92|2019-11-15|Hans van Someren|New option mapprepinitsstate default "no" to turn on/off that mapper exploits that Prep leaves the qubit in \0>
+770980858a2af9f7ff42227beafaa6857987a36a|2019-11-14|Hans van Someren|Bug in last commit, more debuggability added
+ca8614f48d12b9f25cb703e4d4a3182e763bc36e|2019-11-14|Hans van Someren|New option mapassumezeroinitstate default "no" indicates assumption that all qubits are inited to zero state
+0ad5b2ff7f4fce9508dead1673edfc84da4a0ae2|2019-11-14|Wouter Vlothuizen|Merge branch 'develop' of https://github.com/QE-Lab/OpenQL into feature/cc_4
+39cd732cf6f58cb9b5fb77c311e95ac515553ca9|2019-11-14|Hans van Someren|Merge pull request #263 from Astlaan/metrics
+f3e06bb27f3d868830fdff79023fb55a889f961e|2019-11-14|Diogo Valada|Bug identified on MoveGen
+d76b9d38fefcc69c6540dbea81b977e6720f91f5|2019-11-13|Imran Ashraf|sphinx-docs:added readthedocs path in readme
+e629ab97bcfa241050e43e4cfcafc9c5942edc59|2019-11-13|Imran Ashraf|sphinx-docs: added bage
+6d22ec83b8ba23671d0dd22e88ad0b1a9225d3bd|2019-11-13|Imran Ashraf|sphinx-docs: more documentation, structure, getting_started
+655a82b1b8a656f02614c70babfc0c36bda0fdc9|2019-11-13|Diogo Valada|qsoverlay syntax fix
+1936c1c3b015a1a9f77741b9ea227b0331f14fab|2019-11-12|Diogo Valada|Merge branch 'mapper' of https://github.com/QE-Lab/OpenQL into metrics
+f2a46df4c621759d33ac7b804be087db4c001899|2019-11-12|Diogo Valada|Minor readability changes
+42a6bea0cf65fc6b69df1b33c9876214d49e0f83|2019-11-12|Hans van Someren|Created tests/test_rcbug.cc and replaced test_mapper.cc by test_rcbug.cc in tests/CMakeList.txt
+c2cbba72f1f3ab81f53ab8cf52da2a1ff5cf5bae|2019-11-12|Imran Ashraf|sphinx-docs: updated windows instructions
+cc3cf4f7d9c5c4fc4e848202f01ac6446d3290f1|2019-11-12|Hans van Someren|Additional recursion test and more debugging verbosity
+4346a62da4e71929474fe1d7c7f6b24aaca1f60f|2019-11-11|Diogo Valada|part 3
+4f09ce91b69312ce6841a3e4354b119571481d7d|2019-11-11|Diogo Valada|part 2
+d117577c5e064ee76ce39fd9f117d87e6916cf51|2019-11-10|Imran Ashraf|sphinx-docs: fixed configuration issue to point to correct master doc
+b3023dae6f8c9f8216b03932ad8dca1e56767026|2019-11-10|Imran Ashraf|sphinx-docs: added requirements to fix readthedocs build
+b788897935a293839633fb23aa85b7ef0dc72223|2019-11-10|Imran Ashraf|sphinx-doc: updated installation instructions
+d40d837bfe61a8c04cf5268e58f406a58e8c0e21|2019-11-10|Imran Ashraf|updated documentation
+621ea0db8a6996a2016bc2778275634b4cedf616|2019-11-10|Imran Ashraf|Merge pull request #252 from QE-Lab/enh/bdist-wheel-generation
+e9cba59fe4c6e633acd4f5f7e908c159005204d9|2019-11-10|Imran Ashraf|fixed generation of non-pure python wheels
+33458303279b716a66fff8837fc028d7ca4a1a37|2019-11-10|Diogo Valada|Compiler validator testing part 1
+0fd92c13ac99596dbf269fd8d85e935dfebe8486|2019-11-08|Diogo Valada|Compiler validator
+337fd0ec95a837987efc01ba88a35e20b0e0f572|2019-11-07|Hans van Someren|Added unique_output option to make output qasm/report files unique on creation
+5e7bd1fa7be03d385ee5a1b839a0849e444af2aa|2019-11-04|Hans van Someren|Merge branch 'Astlaan-metrics' into mapper
+89deafdaac8ec0fa62d5cc90e7c3eb80d01bd9e4|2019-11-04|Hans van Someren|Move src/arch/cc_light/...qsoverlay.h to src/qsoverlay.h
+5c241d0b76f5b6ec2ceecb7d9ad6ca42d0d9ce05|2019-11-04|Diogo Valada|.
+97b6622e13a968613b9bf543e3ae7ff55258632d|2019-11-04|Diogo Valada|.
+a1e031b5c7195ec0d100b3b33941ea44aea3f495|2019-11-04|Hans van Someren|Merge pull request #249 from Astlaan/metrics
+93a80992c8cba3b6ae1f81181896238cb0d2483b|2019-11-04|Diogo Valada|Changed qsoverlay function arguments
+0a0dfac730016780ce8dd434b08d1706aec70a32|2019-11-04|Diogo Valada|Some qsoverlay tests
+c919fddc7a54d39bd2c06a240373e7e915e73ca6|2019-11-04|Diogo Valada|Draft of qsoverlay.h is finished Moved qsoverlay.h to the correct place
+1eeb9cafd2a8ae84b3c1a94f67cd4651bc141e12|2019-11-04|Imran Ashraf|initial sphinx setup for documentation
+8b54a69582ef010c14b3a21092c01cc25a668df1|2019-11-03|Diogo Valada|Added qsoverlay support, testing required
+020bdb5ebe364fb4e0cb67a828685d9ad9e6e9c0|2019-11-01|Hans van Someren|Deleted src/arch/quantumsim_compiler.h; deleted quantumsim related code from src/program.h
+b26e669793b40d1d2573239b52b89e3933328ff7|2019-11-01|Hans van Someren|Merged quantumsim generation in cc_light compiler, execute it when option quantumsim!="no"
+b8eeb5d15d07fe90835f3fe767de48b262faddd3|2019-10-31|Hans van Someren|When mapper option equals maxfidelity, MakeReal generates _prim primitives immediately, updated json files
+4c457d23bd9d5cf5f130a3e629d835e5c3a0866a|2019-10-31|Hans van Someren|Integrated metrics/fidelity of Diogo, updated test_mapper and options to toggle
+9cc4a07471a881cf56ce47e49847aaaf5615c555|2019-10-31|Hans van Someren|Preparation for maxfidelity support
+48259556238e4f19cbfb94805142062f48a8d7fb|2019-10-31|Hans van Someren|Various details
+442aa001371e30320aa448e2f614fdeed6997905|2019-10-31|Imran Ashraf|version bumped for release
+114e7d911be38fc3f6aa4ada7042d9241a7a6a7e|2019-10-31|Imran Ashraf|Merge pull request #247 from QE-Lab/bug/duplicate-kernel-names
+dfc439a75943ee8a7a3ec9d27914cea3466d2cf8|2019-10-31|Imran Ashraf|fixed duplicate kernel name issue
+0512170464c77b999285a8a0430bec02d15a0945|2019-10-30|Hans van Someren|Try to reconstruct Diogo's problem: see tests/test_mapper.cc, function test_diogo, check options, make it, in cbuild/tests run it, look at .qasm after rcscheduler
+f0ceb3f0ac6e186d397ac2ddf7e89932a8c6877c|2019-10-28|Hans van Someren|With option print_dot_graphs=="yes", also print depgraph (as dot graph) that the mapper uses
+e6619fe40e33f6662adf8be65818401f257ae4e2|2019-10-28|Hans van Someren|Replaced size_t cycleExtend by double score as field of class Alter.
+30c5c582b20d3213d5f12315da7a3ba8649eaddf|2019-10-28|Hans van Someren|program::compile now passes kernels by reference instead of by value
+49e99eda5a494050ab3d8849188ba4c170fcbdcd|2019-10-28|Hans van Someren|Experimenting with lingling7 to find out mapper odd behavior
+c3a324b36016e88931e33e87ca2500f1572af9af|2019-10-17|Hans van Someren|Better DOUTs, added more tests
+bb3ab86ae59faead6c4ede38760496cbcc87db17|2019-10-16|Imran Ashraf|updated json header to fix mac build
+c14f630d62561ac9930b409ce100d244b4932799|2019-10-10|Hans van Someren|Added rigetti test to test_mapper.py
+d6708f56c7e576980747f64bf38d112c21435be6|2019-10-10|Hans van Someren|Solved issue with post179 dot printing; added tests to test_mapper.cc to test dot printing ASAP/ALAP/pre/post
+cff2fef42362220d37eb4dbb97f279214974046c|2019-10-08|TUD278056|added suppport for version suffix
+9d87c529f16616a91ed9adeeae7b8233ec5494ac|2019-10-02|Hans van Someren|deleted copy of kernel's gate creation, now use kernel's one debug printing related simplified Past lists of gates added recursion in selecting an alternative with copies of Past and Future this meant two new option for the depth and width of the recursion:     mapselectmaxlevel (0: old behavior, 1, 2, inf) and mapselectmaxwidth (min: only help to find best among best, minplus... for more) cycle extension is computed wrt to base past at any recursion level renamed initialplaceprefix option to initialplace2qhorizon added tiebreak option value Critical to select most critical 2q gate when having a choice renamed maplookahead option value from critical to 1qfirst MapMappableGates got a parameter to select eagerness in recursion of handling 2q NN gates additional option maprecNN2qopt to select eagerness of dealing with handling 2q NN gates during recursion renaming of some options values some new options support for finding most critical gate in a list added rigetti example circuit and config file rigetti configuration file
+10fd8378a2cc7efec1517533f18cc79ea566f4e7|2019-09-26|Imran Ashraf|updated cclight classical demo notebook
+9dd067791ed2caf4e3eba6039cf677519bc9ece4|2019-09-26|Imran Ashraf|fixed merger with head
+01eca5f6c5986029745c17c5c3e5e0ee4a386618|2019-09-23|Wouter Vlothuizen|Merge branch 'develop' of https://github.com/QE-Lab/OpenQL into feature/cc_4
+cde0fb7df4446d816ed907a09044739321ca4eec|2019-09-23|Imran Ashraf|Merge pull request #221 from wvlothuizen/feature/cc
+5feab46b79bca9d03fd7b579f8b2dad753b5b4f0|2019-09-12|Hans van Someren|Enabled gate creation thru kernel.gate_nonfatal instead of mapper.new_gate
+59dbf666f612a9e0d2c5b2b89caa76cb08c068be|2019-09-12|Imran Ashraf|decomposition now properly uses specialized instructions
+eda9f635406225f252278a1192d6f9e343d0fa82|2019-09-10|Hans van Someren|Minor, only better debugging and cleaner code
+0bbdc3f7b8824956f0eef34456b719e000aeedc0|2019-09-09|Hans van Someren|Minor stuff.
+331bac6fb0e198019baad5d5a1ea1d5a537993c3|2019-09-09|Hans van Someren|Added gate_nonfatal; standardized on spaces between operands in json (perhaps temporary); swig thing added from develop
+29d6551d5f5098aff7dd30407c294012d501ff8d|2019-09-09|Hans van Someren|Prepare for new_gate being a kernel method: have kernel reference ready at all calls to new_gate
+6e8f21d27d764c0e33fb28f26fff397f888a9101|2019-09-06|Hans van Someren|Added rigetti support including a circuit and a configuration file.
+74e58196c24942cb5d2a740c5a68b65743aaa36e|2019-09-06|Hans van Someren|Standardized on space separating operands in json because of various inconsistencies.
+2b3556e9968ac8079c2732ae58fe01af6c7a87b2|2019-09-05|anneriet|now working optimization and practically all tests passing (except for one filecompare)
+4be0d200632db56c73fa09593dd39fe032f1a4d4|2019-09-04|anneriet|fixed a test
+10a8652480c6ff282901b843bc9f259a85f0222b|2019-09-04|anneriet|marginally faster now
+e81ae0ff29e85ad9aacf818e3cbe81facf7cce7c|2019-09-02|Wouter Vlothuizen|minor changes
+019b99366c2cd2fde30de8bf6f2567f48c0f9c59|2019-09-02|Imran Ashraf|bumped version number
+df2b9bd5fe38e2ae5c1e0f34079c98ff271fc295|2019-08-29|Hans van Someren|Kernel.h diff with develop reduced.
+8106bd4f88734ac451a12c94d2c9ddfa80768915|2019-08-28|anneriet|More optimization (not doing much) and fixed the toffoli decomp!
+aea97a05e51cb39060757c5657193e8254c8bffa|2019-08-27|anneriet|Tried to make it faster, moderately succesfull
+da08aa822ce9b090326fe0b4f86f192462173e8b|2019-08-26|Hans van Someren|Quantumsim interface updated to make it run. Generated python script not tested yet.
+127d63907e67eff8de169c3c08ed8cda66110c0c|2019-08-26|Hans van Someren|Added report generation to quantumsim compiler and in generated python script.
+a001a0f0fc77d3b6125457641e766c287c80bbd2|2019-08-23|anneriet|fixed tests and added lookup table for GenMk
+3627e4909b9fee00eb7add0d01e2b739d5cf1e50|2019-08-22|Hans van Someren|Minimize diff with develop::src/program.h; new test_mapper.py implementing tests of test_mapper.cc, untested
+40c5e5abbc206d9070ce4f4db5cfd237c4c78e3e|2019-08-21|anneriet|Fixed some issues and some tests
+503182e0e60c7684f620a928cbea97d048aec298|2019-08-19|Hans van Someren|Mapping reports (both kernel-specific and totals) moved from end of qasm files to separate report files.
+59f1f51192dc5514483cdec7ca2c8f9e7e03c3a5|2019-08-15|anneriet|Cleaned up teh code, and some minor optimization
+d98538e3607dd6aa5e85d461142ff1e13fa548ee|2019-08-09|anneriet|Added check for double eigenvalues
+254c12bf2e124a799398e25bb8cbc1e5d6f5d171|2019-08-08|anneriet|Found the issue
+13d94b305141d528164004ce178ae78409a17dc9|2019-08-08|anneriet|Added some tests, found some bugs, now working on them, this version mostly works
+3f40c40cb47a3e31cac058888a8e96b5e459fc7a|2019-08-02|anneriet|Removed old code and fixed tests
+e478ed68a0861d912bdc5100a39f10e8d315600f|2019-07-31|anneriet|Trimmed back debugging output and remade a test to check the new qxelerator
+eecd2c8ec8b2ff3f7c0d5c8ebe2397fa7def1aa8|2019-07-26|Wouter Vlothuizen|added option OPT_LACKS_SWIG_INTERFACE to disable stuff unused by SWIG
+84093a19f2e9cebc45614dfe275986e9525f9707|2019-07-26|Wouter Vlothuizen|updated OPT_TARGET_PLATFORM to exclude set_platform, which is unused
+0ffbd34e404eb744c373c175cc56e258a8bb1290|2019-07-25|Wouter Vlothuizen|disabled unused custom_gate.parameters using OPT_CUSTOM_GATE_PARAMETERS
+3c6b7c99d796faacc99944a1d683fd4f96467909|2019-07-25|Wouter Vlothuizen|disabled unused custom_gate constructor with OPT_CUSTOM_GATE_EXPLICIT_CTOR
+54314458d4f93747bb26b851363793b6ed6c9453|2019-07-25|Wouter Vlothuizen|disabled unused custom_gate.operation_type with OPT_CUSTOM_GATE_OPERATION_TYPE
+aff5d8a3d6780200cac51187904736e7d66db24b|2019-07-25|Wouter Vlothuizen|disabled unused gate loading support with compile option OPT_CUSTOM_GATE_LOAD, removed other unused code
+132000fa49c7a1477aae80232bd971a82beb0b74|2019-07-22|Wouter Vlothuizen|updated comment
+4f10e26b728e32a870815b20e4c28439e6af8fdb|2019-07-19|anneriet|Updated Eigen Library, added some unit tests and added/changed the optimization process of unused qubits
+2746887140bddebbdfc95baf5452abf35aaf6bc9|2019-07-18|Hans van Someren|Branch consistent again
+873c7dc35a3c2868bd46c0a262d3adfab52a3c82|2019-07-18|Imran Ashraf|Merge pull request #242 from slavoutich/enh/cmake_pick_right_libpython
+0d57588e19fdbc320101eb53573628928ff4a243|2019-07-15|Viacheslav Ostroukh|pin python libs version at CMake
+94895c28e8d450332d015be15a2c0342adc1c5c0|2019-07-16|Wouter Vlothuizen|Merge branch 'develop' of https://github.com/QE-Lab/OpenQL into feature/cc
+972a9293cd7552c89cdb57eb66a6d0ca9f104d45|2019-07-15|anneriet|Added and fixed unittests. Note: only works with QXelerator
+2b1aa01191ffc6fdbf48e2f4637df948a79fb675|2019-07-15|Hans van Someren|Trying to make new gate creator call working by making related functions static; failed on default gates.
+3ae5b6794624268dd48eee606de01bd357195a2b|2019-07-15|Hans van Someren|Half-way in mapping mapper::new_gate to extended quantum_kernel::gate (extended with circ as 1st parameter)
+447547958c209a2adc94f2e4c2e3d850601262c0|2019-07-11|Hans van Someren|Deleted unnecessary updates to minimize diff with develop
+f6a3b2a701adb04688a08a7f94228b64b7a5137a|2019-07-11|Hans van Someren|Decreasing diff with develop by removing unnecessary modifications
+8df06980192578eb9fe72886ddc7f9c99aaf90f3|2019-07-11|Hans van Someren|After merging, make it compile and run the tests.
+eb81df905931afbde92af6ab3f7b217126e9f03c|2019-07-08|Hans van Someren|Merge branch 'develop' into mapper
+c2845aa55a99cbe5329dbe2f44e461c8185e669f|2019-07-05|Hans van Someren|Split cc_light_resource_manager_t and resource_manager_t: updated these to cowork with mapper.h (virgin constructors esp.)
+6185d8f6f9ea946313df58d0c83e11366a35f10e|2019-07-04|Hans van Someren|And deleted the old ones from git
+1792eb22fead8d5d10fcc99f64f458cba3f948c4|2019-07-04|Hans van Someren|Split of arch/* to arch/cc_light/* etc., split of cc_light_resource_manager to common part.
+c6aaa053899649d20881b69575f93c2743b53667|2019-07-04|Hans van Someren|Split of openql/ to swig/, openql/, and swig/openql/ Updated files to follow this
+bfaa216b47c30fc42719fbe4a6c93e785e8621dd|2019-07-04|Hans van Someren|Added the examples/* and src/* which were untracked after the rename
+2bbee39e4a31fe750a50b9527f1692327a8131a2|2019-07-04|Hans van Someren|Renamed ql/ to src/ and programs/ to examples/ Updated all files with these renamings
+52952812b6c0b112a85cf3b7b01f05181184c47a|2019-07-04|Hans van Someren|Only additional comment and update of test_mapper (test_allD only, no clifford, optional prescheduler)
+89abc973664453f25bf94a6d889a234487dcc5a7|2019-07-01|Hans van Someren|In initial placement, use distance-1 as cost instead of distance.
+de23b77621bf46134af68ec232f7ad5de9ceb486|2019-06-24|Hans van Someren|Use option write_qasm_files to control qasm file printing.
+9c61f8e3d98c49eef6b5bf6afa94e2439e078d33|2019-06-24|Hans van Someren|Printing to test_output/... only when LOG_LEVEL>=LOG_DEBUG except for [rc]scheduler.qasm
+06052e63ca6d01b9f20037b094b05577f7285f19|2019-06-24|Hans van Someren|get_qubit_usecount interface changed. Added dot graph printing for post179. clifford_prescheduler option renamed to clifford_postmapper. Quantumsim only uses used qubits. Quantumsim added butterfly etc. Added options to run initial placement for 0,1,..19 two qubit gates.
+7ae65f7da7a3cae022241220dfe6ccb735fe3ca0|2019-06-21|nyxus|improved error message on missing static_codeword_override
+7b70eb88f5715224940a8c03518f96134e27f2b2|2019-06-19|Imran Ashraf|Merge pull request #239 from alxhotel/refactor-folders
+3898ad0c203d03fef2bb008234c4996da0b092ac|2019-06-18|Alex|Update README
+8bf4d4f129093486008b522651041d4fc56ae63c|2019-06-18|Alex|Keep cleanme.py
+a8c436c44a5b5c8a4efc2234a5f74e8167a9a41d|2019-06-18|Hans van Someren|Renamed option clifford_prescheduler to clifford_postmapper for clarity, avoiding confusion with prescheduler
+f78bf2f631176d3f3a91cbdd90548a53f93983cc|2019-06-18|Hans van Someren|Option prescheduler default set to "yes"
+3d24acd9a7cbafc16430812e6acfa92848f3def3|2019-06-17|Hans van Someren|Added timing of passes
+963f22373cf6cda1b71c693513fd2017eb4f1080|2019-06-12|Alex|Fix swig folder
+80e016684c348cde23262edc800aa2162ef81785|2019-06-12|Alex|Fix setup.py
+d4cc9ff80c923d6c42d220d8eff3b16cfcd040dd|2019-06-05|Alex|Refactor folders
+0beb732a7ca9988a1016756ad7e633e938fcf74b|2019-06-12|Imran Ashraf|Fixed NPROCS and updated clean instructions
+c02d343aba4a691d317ff639f296dc565f904299|2019-06-11|anneriet|Fixed ddemultiplexing optimization
+23df51d64f1d1b994cf518cbea0261e7505ec8d6|2019-06-11|anneriet|Basic arbitrary unit gates workgit add ql/!
+25e000d051792fb059fa5ad1e2acbacf5a94fe1c|2019-06-07|anneriet|It works! At least in two cases
+e3e66e5e3e8e19ddcfb44d3e5aefd1f16eaa9d51|2019-06-07|anneriet|Works for two-qubit gates, and gives output for more than that
+d1d509e3ce3046434094c4f8b7944609f10368db|2019-06-06|Wouter Vlothuizen|correction to JSON control mode "uhfqa-9ch"
+e47ce82e49ef0be23aa4044b8af83a257a216623|2019-06-06|Wouter Vlothuizen|added codeword output to VCD file
+845f0795b9dcda2c9c061e6498f28a90da484b08|2019-06-05|Wouter Vlothuizen|added signal output to VCD, corrected VSM definition
+a3299d19a90ef3c7b8af5d50a88a816f2335f37a|2019-06-05|Wouter Vlothuizen|have ql library generate position independent code
+3c5e5963982040e0068235c9904ac09cae9a720b|2019-06-04|Wouter Vlothuizen|Merge branch 'develop' of https://github.com/QE-Lab/OpenQL into feature/cc
+355b39059527283a285a22cb56d806d6e7b3869f|2019-06-03|Wouter Vlothuizen|before merging develop
+b07a76977e4c4892040afc2f2df912bbd949a4db|2019-06-03|anneriet|Non-90-degree angle gives correct results :)
+68e2057b525c8753b80674a194d7ef031f40a480|2019-06-03|Imran Ashraf|bumped version number for conda release
+573de55976b6a2d75de2cd8d7fa0a86fa04b07ab|2019-06-03|Imran Ashraf|bumped version number and updated CHANGELOG
+d03f58115040e825f09a595353fa365282ca1d3a|2019-06-03|Imran Ashraf|Merge pull request #235 from QE-Lab/enh/conda-recipie-32
+bebb81f1f20e3548d96b4798f34fbbfaeff2a0b0|2019-06-03|Imran Ashraf|Merge branch 'develop' into enh/conda-recipie-32
+fec717bb6a6c984cc066b1d43c10e07ee7c5492d|2019-06-03|Imran Ashraf|updated conda install documentation
+b5ed05ac86bcd68a49e86c797bb5b781195536e6|2019-06-03|Imran Ashraf|Merge pull request #238 from QE-Lab/enh/single-qubit-flux-224
+810f222c93cdfa5b9fb2dd5ab28cb71156e795a8|2019-05-29|Hans van Someren|Trying to find bug in initial placement that after mip.solve sometimes the class.this has changed; but otherwise still functioning well.
+2cc810dfd4c6569eb94fe5f54eebdc97436c3869|2019-05-29|Imran Ashraf|Merge branch 'develop' into enh/single-qubit-flux-224
+b4d73d971cc6ea99cf3007962d1d3135379d362b|2019-05-29|Imran Ashraf|fixed tests with extra space generated at the end
+17d48d110228977254517172c2fd03a3b13e9448|2019-05-29|Imran Ashraf|Merge pull request #237 from QE-Lab/enh/dot-graphs
+e4097e8828f7b34cb0e7522f66b40ae3a4340486|2019-05-29|Imran Ashraf|fixed typo and updated tests to include right option
+c7daa9113bf956a816f76b3bdc1d517881542f89|2019-05-29|Imran Ashraf|merged develop
+86f86bc0e895a076502d9aed2764dab1dd8c02a1|2019-05-29|Imran Ashraf|option to control qasm file generation
+6846ff215686e1faccaf8bdbda763ee44e042747|2019-05-28|Hans van Someren|Solved bug in ir.h qasm(bundles) to print multiple gates in single section, visible when printing rcschedule.qasm
+b15b7808957b377de74a176dc48ba3df2834ec70|2019-05-28|Hans van Someren|Updated quantumsim backend
+bd0c0a9bfab1031516e3d1867b68b0009fda5e69|2019-05-28|Hans van Someren|added writing rcscheduler.qasm added more DOUTs to cclight resource manager
+6c235601eab2e10037da50bbcaac09addab0b6c5|2019-05-27|anneriet|Tried to fix inaccuracies in computation
+afc65ec998180c1b5537d9aea4b8508a23b26150|2019-05-27|Hans van Someren|Return(c) => return c
+600933e37122aadf2aa539a90baddb974abee2a4|2019-05-27|Hans van Someren|Comment out initial placement
+10f08c52af05503c780dc67ef35f55a59d3a35e1|2019-05-27|Hans van Someren|Bug in quantumsim compiler repaired
+831a13923aa8b1010797f252b55e3000b59cb836|2019-05-27|Imran Ashraf|updated cclight config with detuning contraints
+261da4a12bd37b889978453bee761895d25bdd47|2019-05-27|Hans van Someren|Repaired bugs in quantumsim compiler; updated json files to correct for measurement decomposition and duration.
+97c5eeb6907f8fcac2ea191dd6bb52f7f5f735b2|2019-05-27|Hans van Someren|Undefined INITIALPLACE, tiebreak=first
+f5e1551028bef13de95a1f23a88ae8f85cbdfc11|2019-05-27|Imran Ashraf|updated documentation
+b2ababeb126e3ce226b7605f68a9c252087e62cf|2019-05-27|Imran Ashraf|added tests for single qubit flux operations (auto/manual modes)
+d4005d6c2330892b9541b1d156a7c4155af2b5a3|2019-05-27|Imran Ashraf|Merge branch 'enh/single-qubit-flux-224' of github.com:QE-Lab/OpenQL into enh/single-qubit-flux-224
+4dd58766c759a3892c864e18fbc1ff6c8e501cd2|2019-05-27|Imran Ashraf|functional single qubit flux operations in auto mode
+9c37dc1abf3730fcbe752dc6d3f62b7d13606bc3|2019-05-27|Hans van Someren|Single qubit flux gates only need qubits resource, not edge and detuned qubit resources
+a4c6b17ae4f48d58ba0d0418e11ba0122467a9ec|2019-05-27|Hans van Someren|Update cc_light_resource_manager.h
+f1de9e2ad73ec0632db08b2101cc0f0ad911b383|2019-05-27|Hans van Someren|Update cc_light_resource_manager.h
+00a9ebd65db33f9dd27e12f7f0070bfeeb95315e|2019-05-26|Hans van Someren|Improved configurality and information on initial placement.
+5d175169fd0152dc65ec4f5c08b97fc2344355f7|2019-05-25|Imran Ashraf|incomplete single qubit flux operation (auto mode)
+93245c15a7a9ae7fdccc4babb8eb06a89f7a9b05|2019-05-24|Hans van Someren|No debug printing is done unless LOG_LEVEL (set by option) is >= LOG_DEBUG.
+a91cf2220c614073c2c6beaa187426c38e2ba315|2019-05-24|Imran Ashraf|implementation of manual mode
+e6eda0b35b37b897cf7c715e7b0b913046485ae5|2019-05-23|anneriet|Added test and removed bugs, prints a lot of debug info
+2d51ad56fb61e18b3b4b237e29681bee625289c5|2019-05-23|Hans van Someren|Standardized hardware_config_cc_light_s17.json; default options are the best ones for running the mapper; so no options need to be set anymore to get this.
+22b91f1ac0ee6da4c851514f20766b8381ff40b9|2019-05-23|Hans van Someren|Inconsistent use of resource constraints in past ASAP schedule resolved. May have led to wrong schedules.
+3714653ff70e80f3099bcd0f9bebbb63d90fef90|2019-05-22|Imran Ashraf|conda recipie tested on windws 10
+74dafb2caf0a1e56c8edd80a9c096cc83517fa5d|2019-05-21|Hans van Someren|Optimal configuration for HCL and test_mapper*.json, as saved with models; including options in test_mapper.cc.
+4a71a87d75248cf1a6dfbbe97ddcc4e103efa807|2019-05-20|Wouter Vlothuizen|corrected VCD timing to include kernel start time, added kernel to VSD
+1ead51db7fa1b3c3b666a7102498598a5bf557cb|2019-05-20|Hans van Someren|Took map2primitive option out; put clifford optimization by default on.
+fe272b990c5a1f28a25d4f689a8664d7a929beb4|2019-05-20|Hans van Someren|HCL with commute=yes and clifford both before and after mapping is best compilation strategy
+38fbce7b30b44ccb49142cfa82c1dd04ecfb932d|2019-05-19|Imran Ashraf|initial version of conda recipe
+a436feb99b206948ec1f1270eb1afee281b0e7cd|2019-05-15|Wouter Vlothuizen|initial VCD support
+3c961a1ad2adc43522f8765c8561c52fa932307a|2019-05-14|Imran Ashraf|Merge pull request #232 from QE-Lab/enh/sweep-point-array-76
+6373f8c611a986c4e00aab6f5948b5ae079c5a36|2019-05-13|Wouter Vlothuizen|cleanup
+af175d0bb95f7e4af2eaea2a22869c0f3d0bd277|2019-05-13|Wouter Vlothuizen|working on error reporting
+3e8396bcca6c79e6796ed55dc34746d99b86e9cd|2019-05-13|Hans van Someren|Updated mapper decomposition interfaces, added clifford-sequence optimization
+ddb525b0047451e6af2aa36ddaee24b85f8f06f8|2019-05-13|Wouter Vlothuizen|cleanup
+11a7ec07c43de824ee3ba7aceaeb736efbbe2362|2019-05-09|anneriet|Makes a Bell pair
+e2c35aeff49937fd8e5a3ec68d4c65f337c3707d|2019-05-09|Wouter Vlothuizen|cleanup
+9d9dc97b120eeb53802904089747caf641afa209|2019-05-09|Wouter Vlothuizen|added missing file
+ce07f72d812f219f810322b3fa5be6786e92e8ed|2019-05-09|Wouter Vlothuizen|split program.h into .h and .cc
+70c215e5958f61120dc2b371cb16ac88569e9a78|2019-05-09|Wouter Vlothuizen|added missing file
+7d98043921964a3fdf6e7ea6695bc539f67491e6|2019-05-08|Wouter Vlothuizen|corrected indentation to 4 spaces instead of 3
+f5ace7e03f25bb96dd16d1a1e31d8ac2837dbd47|2019-05-08|Wouter Vlothuizen|cleanup
+49c67369af861a28c84895eca9cffa3286dfbb44|2019-05-08|Wouter Vlothuizen|made .h files suitable for includes from several .cc files, by making functions inline and removing variables. This works, but there is work to do to seperate other classes into .h and .cc if we really want to have an advantage in terms of compilation speed
+01e029b7b2c173b8d2b034cd1138a4ac1786c89b|2019-05-08|Wouter Vlothuizen|split off platform.cc from platform.h
+227ce82cb5f61ee69886b8e464a6b0d3f052a71b|2019-05-08|Wouter Vlothuizen|separated CC backend into .h and .cc files (breaks linking for now because of duplicate synbols)
+75db2e80e3bed37035658795e965515c94bc4320|2019-05-08|anneriet|Correcct signs
+73115a75ba11e9b4079c28ad7b6d4059244e7374|2019-05-08|Wouter Vlothuizen|cleanup
+469e69eba88bbb6f4b47e9100b996b7859568cb9|2019-05-08|Wouter Vlothuizen|moved unused file to attic
+ce348024fba6b2743707ef88ae6001cce84eec96|2019-05-07|Wouter Vlothuizen|working on passing pycQED tests, improving reporting
+8befadfd525eb8a9591f1e9c54dc1fd70174ce88|2019-05-06|Wouter Vlothuizen|cleanup
+c6bba3fd7dc2cfa03605984f0c2f6a2561277c54|2019-05-06|Wouter Vlothuizen|cleanup and small correction
+2e8a3fdf5f11d1bda92c9b853ede187927102776|2019-05-06|Wouter Vlothuizen|adding configuration specification for CC
+b31c830a23c427eccc818837511c235a31383e95|2019-05-06|Wouter Vlothuizen|changed qubit numbering to match that of pycQED test suite
+5f5720268eb7060d26971e5579fc9cb12f6ec1b8|2019-05-06|Hans van Someren|MapCircuit renamed to Map, different default values for options
+665b43514b3ef2a863aab7b43389d2ed95d27c56|2019-05-03|Wouter Vlothuizen|Merge branch 'develop' of https://github.com/QE-Lab/OpenQL into feature/cc
+efde853923db1176874f48833dbe7695e4ed9f3e|2019-05-03|Wouter Vlothuizen|replaced accurences of 'std::map<std::string,custom_gate*>' with the existing identical type instruction_map_t
+5b9d05fbcd8d1724ae40a4b3b4ee787d7ff7aef8|2019-05-03|Wouter Vlothuizen|added deprecation option OPT_USED_HARDWARE
+ae1008896a043912639f930294d30c07b397d29e|2019-05-03|Wouter Vlothuizen|cleanup
+fb208b11c2affac3c5e48589e7e94e9d34eab79a|2019-05-03|Wouter Vlothuizen|as demoed
+5848a970475a24b3675b979430d4a65590b7bd79|2019-05-02|Wouter Vlothuizen|demo time
+8c9103342411584b9b955092a006a1b4842fa6c7|2019-05-02|Wouter Vlothuizen|demo sort of working
+06fbc0f29beab038b0b33d367c0ce3fe63b1f5a1|2019-05-02|Hans van Someren|In test program, provide prog.kernels to operate on kernels.
+7fe7323b30609e7d30479d9359e03f509d3ce194|2019-05-01|Wouter Vlothuizen|improving JSON error handling in CC backend
+1c034d46d0cd13336b7de4eea3c8a5b96d077337|2019-05-01|Wouter Vlothuizen|improved compatibility with pycQED single_qubit_oql.py
+f90d407f9f3e10072284d71a326ddf5038bc5386|2019-05-01|Imran Ashraf|Merge branch 'develop' into enh/sweep-point-array-76
+2c4a909ea4b4ff53566fb9c4748054490b5303da|2019-05-01|Imran Ashraf|Merge pull request #230 from QE-Lab/enh/parallel-compilation-229
+0c670fc865c1d93ec56ea9ed032c60087dbbc477|2019-05-01|Imran Ashraf|added deprecation warning to set/get sweep point api
+17c687f1a5f9d621a165a68af27c69fdcbf61417|2019-05-01|Imran Ashraf|updated readme to document parallel compilation
+dccc57874071a85d870d457ccb2ca400161e9b36|2019-05-01|Imran Ashraf|Merge pull request #228 from QE-Lab/enh/barrier_all-225
+3efb24bc185ce90d5ea2a333f63b388e915d4030|2019-05-01|Imran Ashraf|updated wait/barrier documentation for duration 0
+ac1912f53318f7a5455f1abcd5a7a996073d424d|2019-04-29|Wouter Vlothuizen|renamed instruments in JSON file to match device_object_CCL.py conventions
+1d6f11ded6da0dfe6be11a1030533b56b9d24a3d|2019-04-29|Hans van Someren|Added duration/2 to start time of each gate in quantumsim compiler
+16153f729ba759fe1356aabf55988c90e55c0fd0|2019-04-29|Hans van Someren|Metrics partially integrated, and added option. NNPath renamed to Alter. Added targetgp to Alter.
+8b81f221cbbebc92086cd715ee5e4a5fb0301b05|2019-04-26|anneriet|Added the /deps folder in the hope that it will build on the server now
+81eafd3c3ac34eaa9c7d7758f820951105eac2e8|2019-04-26|Imran Ashraf|added barrier tests and updated documentation
+37af432027d8581d343db0f9bf72078bc8c0b9d9|2019-04-25|Hans van Someren|Some parts of metrics added
+0d45f4306daa6a4612dd58499544473d6a47af16|2019-04-25|jvansomeren|Merge pull request #223 from Astlaan/metrics
+4ecfe8d55225c1b98aefbe49a2fe629b3d7efb36|2019-04-25|Hans van Someren|Prepare for selecting from multiple gates
+5a2bbd17a827c235e1b046f3812d314a085ff0ee|2019-04-24|anneriet|finished merge
+495386a19293eea47fe1f31ee91619db59a41179|2019-04-24|anneriet|Merge branch 'enh/unitary-decomp' of https://github.com/anneriet/OpenQL into enh/unitary-decomp
+21d92e6818b2754228c17a382ba3c234b64c8ac5|2019-04-24|anneriet|remade fork
+00873d407899e0a845dc946963f12a03ecdd241d|2019-04-24|Imran Ashraf|initial implementation of barrier on all qubits
+079176c2511f676f99af8b90886eb24f641d8912|2019-04-23|Wouter Vlothuizen|changed extension of CC generated code from .cccode to .vq1asm
+40fdfe7121a2306b05a446f7bd9b535896b13af9|2019-04-20|Imran Ashraf|NPROCS environment variable for parallel compilation
+2d2801c8eda79059ee41e92d2ffdf3e031f50cb7|2019-04-20|Imran Ashraf|Merge branch 'develop' into enh/unitary-decomp
+ba67e75d586dad4a5c83497b84ffa5d207b158ec|2019-04-19|anneriet|Fixed the bug in the decomposition and the unitary check
+90ba73a1fda10bafae1c1f07f50685c18f8d07a4|2019-04-18|anneriet|added some gray code
+d4b87505f5b647b03d9ff42ba3addbc3fb066c9b|2019-04-18|Wouter Vlothuizen|cleanup
+222667269d90a29714569dd2dc10c3dd2ad57c60|2019-04-18|Wouter Vlothuizen|cleanup
+77fa6ae34e2d7b315f400834a76a399d300175c5|2019-04-18|Wouter Vlothuizen|cleanup
+b213d5949b6eb4fbfbbcca513cfbe570100f0792|2019-04-18|Wouter Vlothuizen|cleanup
+9afd023b8355f2780e4d331b723f81039416469b|2019-04-18|Wouter Vlothuizen|cleanup
+8f7f1700d31556ec025501a3aaabbe4efcd097d8|2019-04-18|Wouter Vlothuizen|docuementaion and cleanup of configuration file
+792abd86e1be7c404fd8a845a37d0b7a5a1feaf2|2019-04-17|Wouter Vlothuizen|Merge branch 'feature/cc' of https://github.com/mjwoudstra/OpenQL into feature/cc
+b6d40e6a53161358d0c4258c9ae9b78bd59b56dc|2019-04-17|Wouter Vlothuizen|one more small change
+ab7b60c94d84981a0f5ae4fdd0b57ea91c1fd75b|2019-04-17|Wouter Vlothuizen|small change
+c03d860360173cf6ed2ca09e5f8863e6efdbf40a|2019-04-17|Wouter Vlothuizen|cleanup, allow use of input map file (option backend_cc_map_input_file) for CC to predefine codeword assignment
+034f258c22ff2291a44bfc603b167e5d6f50fef8|2019-04-17|Martin Woudstra|make CC backend compile on Windows
+e2e744b00220fb995f5d84d0619536ca547605f2|2019-04-17|Wouter Vlothuizen|cleanup
+d5113bce79c574b47f0c95f8f27c21de1047512c|2019-04-17|Wouter Vlothuizen|some reorganization: moving code pieces around, naming improvements, cleanup
+fbc6e575614a58e244169ed51214b1cf31f5d13d|2019-04-17|Wouter Vlothuizen|cleanup and added comments
+5d81ad9b2fdc985606f3b17c3b3e8492282c4377|2019-04-16|Hans van Someren|ANd also committed the 2 json files.
+8b16f0dc8bbaf476892b36864e61ecdfa777ddcc|2019-04-16|Hans van Someren|Redefined form; use "xy" instead of cross or plus. Refined grid support.
+3943b42193596ca4938ba799407d3d2f3b105d5b|2019-04-16|Diogo Valada|Lower_bound fidelity estimation
+4e08f2f8f385b1fc942de179f597e81ccda57000|2019-04-16|Diogo Valada|Lower_bound fidelity estimation
+2be95202d7b34752a9071488c38c22bbf7d2ea8c|2019-04-15|Hans van Someren|See previous log entry; updates done while committing.
+7717e4fb5a3b99cfa3fe352ae36238e0a49094bc|2019-04-15|Hans van Someren|Added support for irregular (Poughkeepsie/Tokyo) and plus (Crossbar) grids.
+d01febcce8bc04eee6b4e06436ce5d24198dc0e6|2019-04-12|anneriet|Should correctly calculate al the angles needed, needs some optimization still
+51936f4d427edee44fa838531a5ae70425b8f483|2019-04-11|Hans van Someren|Added grid.form: cross/plus/irregular to parameterize distance function; allows crossbar support.
+8bac85c8f68700a784358b849fbfbd59b8899c8c|2019-04-11|Hans van Someren|Added "noroutingfirst" and redefined "critical"; former prefers mapping NN2q gates first
+08f2dbc90a2a86e184c18e8acda21c0e12471646|2019-04-11|anneriet|Working CSD, I hope
+7cba782c8dbe6057b8dbedc2718096ec72f84c69|2019-04-10|Hans van Someren|Added option maplookahead={"no","critical"}, with no to map gates in circuit order and with critical to select most critical one to map next.
+d3aed6c7901f38424a080cb8f078387867c4e835|2019-04-10|Wouter Vlothuizen|moved some functions from kernel.h to circuit.h, because they weren't real class members and only dealt with circuits
+3f327cd534417e789297c4612487a807ad9f872c|2019-04-10|Wouter Vlothuizen|cleanup, made some stuff private/static, added some comments
+26f9d5ec74aa7f31552eec812285fe6f1d886b34|2019-04-10|Wouter Vlothuizen|solution for issue #206
+885b56c8e839943843d531781a51f5d4ca7154cb|2019-04-09|anneriet|Started on CSD
+5c62ae967ed8b54737cd69bf13b77208d0e07430|2019-04-09|anneriet|Added Eigen library for matrix computations, nees to be installed before this can be built
+dcc9681c8973be6d8bdac58fb20a136cae6b5293|2019-04-08|Imran Ashraf|fixed typo in cclight 17 config file
+776807d40a916b6634926df25b84065ec3ed88ce|2019-04-08|Imran Ashraf|added cclight 17 config file
+611813e5a8c972c13f926518333d399e8231e3e5|2019-04-08|Wouter Vlothuizen|added utility function time_to_cycles() to platform.h, removed copy of platform variables 'qubit_number' and 'cycle_time' from CC backend
+b258cdf8cc4278982b28d7df2c048c290857eea7|2019-04-04|Hans van Someren|Have one function which selects next step based on future/past/strategies; integrated future.
+6f73fe3bb7732af5dc9764c02a2d39e3db269aa7|2019-04-01|Hans van Someren|Busy to add future.
+8a38436cc809230af0c04f8542df44120dca367e|2019-04-01|Hans van Someren|Added mngmt of qubits (mapping and real state) and allow state to be passed on from start to initplace to heuristics
+5fd020569894d388863c9bf4660b2bd6bd778bb4|2019-03-29|Wouter Vlothuizen|demoed to DCL
+540865bef1679a281710747d7989811df22557bd|2019-03-28|Hans van Someren|Almost there with new state, have still to interface global v2r with mainPast.v2r
+7d6b45c2e2258fbc4576229d152de2302ce555a4|2019-03-28|Wouter Vlothuizen|JSON syntax cleanup
+24be1b68fce1d339dc2ee6f36552a302f747cb32|2019-03-28|Wouter Vlothuizen|Fully switched to new JSON syntax
+66e8f84adf4220c0dd5f8150638409662bd52678|2019-03-28|Hans van Someren|Half-way while changing virt2real state representation
+bd359da736ce07af464a38a065d94ff93c052247|2019-03-28|Wouter Vlothuizen|tested new JSON syntax
+0ca39269a905e9feceaef8ccef078a42f3569d28|2019-03-27|Wouter Vlothuizen|first latency compensation implemented
+7f57cf7a1c23e64a83980b7956d70b385930880f|2019-03-27|Wouter Vlothuizen|workaround wor k.wait to assist scheduling
+7f688e8fa8cfb4ff87aa8f4d7689ee55256547e0|2019-03-27|Wouter Vlothuizen|wip
+c6abb2b881aa6e3554f5d54a2c52bd078a441851|2019-03-27|Wouter Vlothuizen|Merge branch 'develop' of https://github.com/QE-Lab/OpenQL into feature/cc
+eea16cfd4eabb0f12ab08a52034cee714ce44ef3|2019-03-27|Wouter Vlothuizen|moved some functions to utils.h
+2467cbf04646a91db46a5f4829dad2e1f876691f|2019-03-27|Wouter Vlothuizen|changed identifier naming, working on in strument latency compensation
+84520307a58ef3dc6deee61a327e877bb11fa12c|2019-03-25|Hans van Someren|Half way change representation of Virt2Real for inter-kernel communication
+a1aaa3a2d54f39817e283bc4c40f1e2c17082ddf|2019-03-21|Imran Ashraf|minor scheduler code refactoring
+7237cfc3ddab02ae841274bae31a8f7916f85ac7|2019-03-21|Imran Ashraf|dependence graph printing and addition of option for dot graph printing
+913adcffe85d4ff0998f1a0da4d73ad3ecf75ce4|2019-03-21|Imran Ashraf|scheduled asap/alap graphs are now properly printed in dot format
+92a3962326d6255abf19aa71e24df93155bf81e0|2019-03-18|Hans van Someren|Added deterministic path selection, following only borders instead of all shortest paths
+661b92fa70c8862095b2dcb3b220d84084f779a8|2019-03-14|Imran Ashraf|merged develop
+00d5df44fe3ca446ef82eadc019519aa5e30fa44|2019-03-14|Imran Ashraf|golden tests comparison for commutation
+e7f7bb570f721d0e96b8eb1229c370a5904abc6e|2019-03-14|Hans van Someren|Also updated test_179.cc to have same tests with same names as test_commutation.py
+dc17d6173779677cc537a160bebd2135dbf74ef7|2019-03-14|Hans van Someren|Add 3 more tests to test_commutation.py (cnot_target, cnot_mixed and cz_any)
+44eba510bbedc9ccc1c8d92b8a30c49c9f264eca|2019-03-13|Imran Ashraf|switched commutation to yes in tests
+ede6d022c373bb59b82baa116480457c8d8c5bed|2019-03-11|Hans van Someren|Moves are generated when possible, assuming ancillas are in defined state
+1502cbf027cdb76d8d66ae5c9d31bf73bee42d2e|2019-03-07|anneriet|Added more tests
+e215e8e3fdfe61badf7007c295649519993cb396|2019-03-07|Hans van Someren|Scheduler had problem with wait not in .json file.
+0b628e7522b04f929ff8f577fe18ac0f704c0e51|2019-03-07|Hans van Someren|Added test_wait, only test run.
+c07c99e1171e5e638832985fa56043d4726cae94|2019-03-07|Imran Ashraf|small modifications with options values for commutation
+4a7eb86be58da4312a79e5f72f43ea8ce918f928|2019-03-07|Hans van Someren|More of future in it, however it is not used yet. Mapper still uses circuit directly.
+161431347fb72fbeb389985ba944de3d708c67c7|2019-03-07|Hans van Someren|Only comment added how multi-kernel mapper should be implemented
+ade9cb9aaede76d921e99b631d8657eacdd5a5b6|2019-03-07|Imran Ashraf|added commutation test
+333e341df057a36d1b7e301d69fb955119ff91f2|2019-03-06|Imran Ashraf|post 179 tests passing
+2d55927d98a8e8e07493c5e6bed7ec4dce8d322b|2019-03-04|Hans van Someren|Started with adding Future
+79e2b24fbc5f411a933db0cd8994f5bc775f6efc|2019-03-04|Imran Ashraf|only 4 failing test, need verification if post 179 is correct
+32ee8632c5bcf3082dff7bf9772065eb93f04447|2019-03-04|Hans van Someren|Revised test_mapper to prepare for new mapper extension
+1b4bdc1b1f88ab844b03f51b8ffb83356eaf41e1|2019-03-02|Hans van Someren|Target is cc_light, don't generate opcode/control-store because it crashes because codewords are incomplete with parameterized custom gates
+a109a2340cf33bb56b7d7838d4653d9713550459|2019-02-28|Hans van Someren|Some more DOUT
+0280d8895922feab6342b117e1190dadc37bda0a|2019-02-25|Hans van Someren|Updated test_179.cc to indicate which tests should be converted to golden tests.
+f9a38cba88084a524c3bbee16cf8e1353fbca535|2019-02-25|Hans van Someren|Use post179 scheduler
+654078297ca8e8e1b7b177452cbc93aee055ee23|2019-02-25|Hans van Someren|Polished, updated comments to be consistent and more readable.
+35200f4fb56ffa3946238574ad56d1db413a7971|2019-02-19|Wouter Vlothuizen|Merge branch 'develop' of https://github.com/QE-Lab/OpenQL into feature/cc
+9dc5f2b7bff77c3c76690b118184311386b1c8be|2019-02-19|Imran Ashraf|Merge pull request #214 from alxhotel/fix_instruction_name_json
+925243a59ec5a67944de947f812f167c3bdd2592|2019-02-18|Hans van Someren|Enabled all tests (some were disabled), and ran all tests; results are ok.
+1f322d68c4d378778c09c5ce08b1ba303460c074|2019-02-18|Hans van Someren|Added option "scheduler_commute", values "yes"/"no", default "yes", to let scheduler commute CU/CZ/CNOT gates when possible
+227a94982e00ed142ad6d84c6ed189fdb823462c|2019-02-14|Imran Ashraf|Merge pull request #218 from mmoelle1/develop
+fbf9b4336553488789ca82d69fe31731c23f6ed1|2019-02-14|Hans van Someren|Added comment at top of scheduler.h to explain what is in it.
+8624e0fa43c8ab1839c09346292db174b24ea36f|2019-02-11|Wouter Vlothuizen|changed JSON configuration te be instrument based instead of slot based (WIP)
+6d6040a400494d0dcf4d3afdfdeff554f55bae66|2019-02-11|Wouter Vlothuizen|simplified JSON syntax for CC instrument definition
+eb1e4c8f8c2d4d4b00adb253352a1b31519e0d80|2019-02-11|Wouter Vlothuizen|cleanup
+5591c7166627ff1813a7dfdc1ac9e7c1715fce50|2019-02-11|Wouter Vlothuizen|Merge branch 'develop' of https://github.com/QE-Lab/OpenQL into feature/cc
+4048df2e31a8b9ae420db3d88df44cb9ad2ab3a1|2019-02-11|Wouter Vlothuizen|corrections to CC config file
+a66817a01408774dce1b0ccda35c3b7f1c3bf9e1|2019-02-11|Wouter Vlothuizen|cleanup
+b7fe0ec7bb284b16e53efa38648e668a57d5f330|2019-02-11|Wouter Vlothuizen|updated code generator to new CC syntax updates to JSON configuration file
+61597e3a0001be2407fa3c3d8e5de7c8cccd5b30|2019-02-10|Matthias Möller|Merge pull request #1 from QE-Lab/develop
+aab7d0d8d4f16ef9ab61746d3904c9c86d005adb|2019-02-10|Matthias Moeller|Fixed 'bug' in CMakeLists.txt
+6858acc75b0a59335db9cd7a7487b04cbf16e575|2019-02-10|Matthias Moeller|Merge branch 'develop' of https://github.com/mmoelle1/OpenQL into develop
+4acd0da48905605811e31b0dee029ea95963e8c3|2019-02-10|Matthias Moeller|Changed all occurances of 'catch (ql:exception e)' to 'catch (ql:exception &e)' to overcome the compiler warning
+81e77e6471494486152e487a1c5be4e6d43ae004|2019-02-10|Matthias Moeller|Fixed compiler warnings and added swap() method to kernel
+c053e2eb3ec0327e939393cec4e60b2e4c350ea2|2019-02-08|Imran Ashraf|Merge pull request #217 from mmoelle1/develop
+db21ab088e3e6761a2251b0996a6282c8ea5c855|2019-02-08|Matthias Moeller|Update CMakeLists.txt files
+eb6545663e920e7e1d912ffeebb57191fce7f185|2019-02-08|Imran Ashraf|Merge pull request #215 from alxhotel/refactor_resource_manager
+b05fbac6c8722763bffd9402314a37a9e3a897bf|2019-02-08|Imran Ashraf|Merge pull request #216 from mmoelle1/patch-1
+5cdea38672c8cdcef9a00333f80a6b3a77ea4447|2019-02-07|Hans van Someren|Scheduler.h bugs repaired
+f89355041501aa999d307ed4a2b2356fea010554|2019-02-06|Matthias Möller|Update CMakeLists.txt
+eef9b4d374afe0a4fdeae44017d22b5ab40bc397|2019-02-05|Wouter Vlothuizen|cleanup of unused code
+56312bb3156f20bfe95a2b4403ddbed17fb43aef|2019-02-04|Hans van Someren|Renamed T event to D event in dependence graph generation (for 2nd operand of CNOT)
+a7cced0386d3762e962d56698b4a9a7616bd9a94|2019-02-02|Hans van Someren|Added commutativity on the target of CNOTs, and more, but only for post179
+86f434a582cf3968b2bc2661c510da1697354859|2019-02-01|Alex|Refactor resource_manager to have a common one for all architectures
+15aa889dbc905ad25daf811edcbe4353222fdf0d|2019-01-31|Hans van Someren|Polished source code.
+d862f4fde982f87c4fbd2cec58986be4778b9c37|2019-01-31|Hans van Someren|Deep-critical path scheduling (ASAP and ALAP) working.
+450f4eced17130a9556b4394ae3680f149b4ec80|2019-01-29|Alex|Fix instruction names in hardware config file
+4d69a2bfaf10a3993fa4c55d9523b4fed45a4cb1|2019-01-25|Hans van Someren|Dependence graph creation updated to reflect flow-of-value model with gates as modifiers.
+6cba865f4d0fbfcecc86d82e229b626459f8903d|2019-01-24|Hans van Someren|Before enabling commutation, after experiment with many queues in scheduler; but the system should work.
+f345cbdf51bd726d368418a135c4b48d9f4bf459|2019-01-22|Hans van Someren|Uniform scheduler done (code and tests)
+2a271c87bdd8f6fbdc09fb2e7dd389c69979e472|2019-01-22|Imran Ashraf|Merge pull request #202 from wvlothuizen/feature/cc
+0473bdd36e6bc81ddef644f2afc5f4e3e9e27041|2019-01-17|Hans van Someren|Almost done except for uniform scheduling and polishing
+436ceea3d52f16139a13db7773e8084f3d2674da|2019-01-15|Wouter Vlothuizen|added warning about disabled CBOX microcode support in main code (CBOX backend unaffected)
+8026d4575c3e8ceb61d032fa11485b7439e9b19f|2019-01-15|Wouter Vlothuizen|exclude building test_cc from default make target
+31f9a55e059621c883b2aa8d5837bb07aab311a2|2019-01-14|Wouter Vlothuizen|Merge branch 'develop' of https://github.com/QE-Lab/OpenQL into feature/cc
+f2de1d5756ce7e4eac1fa50ef5309a3386b60e97|2019-01-14|Imran Ashraf|Merge pull request #212 from QE-Lab/enh/test_cpp_update
+ceb4eb39005a18a3867ba94705929cb3992d1a17|2019-01-14|Imran Ashraf|removed duplicate cpp tests and updated a simple tests to serve as template
+b6b862b5a5dfc92524348d1594160cf063b731c4|2019-01-09|Imran Ashraf|updated c++ examples in programs directory
+c8bdb1dae09daf021178c563e5d9216a161aa627|2019-01-03|Hans van Someren|ASAP/ALAP with rc implemented using available lists
+49f169fe292953023f9f0e46bbdf471dbddf9aa7|2018-12-21|anneriet|Kernel implementation for unitary decomp
+85b38ff01c4b38f3a2451b809417e7a7e970ce95|2018-12-20|Hans van Someren|Now with rc, still to be tested
+ebf6bd5a62dfbfff2ffcc057583f59c2acb1e4ca|2018-12-20|anneriet|Added decomposition for single qubit unitaries
+d419c97bf241954a227cbb3da1a7ed9485e201d4|2018-12-20|anneriet|Changes part 2
+6b3b7bb1a7b5f84c14d900b446596144b54c14c5|2018-12-20|anneriet|Changes from enh/unitary-decomp
+011a4d6a8c0ac01ff387e56fa15f667fb9e9065a|2018-12-20|Imran Ashraf|initial unitary implementation
+9fffe1031d2db9ad3df21d093a971d174716d6a7|2018-12-18|Hans van Someren|ASAP/ALAP scheduling without rc done, with rc and uniform to be done; separate entry points for pre179 and post179
+e9f27cf196102e172132f7fd5fd493d416d812bb|2018-12-17|anneriet|Tried to implement a Unitary object so decompositions can be reused. Gives error: module 'openql.openql' has no attribure 'Unitary'
+66725744317ba5e7fcc36043e38bb2f93e5a9069|2018-12-12|Wouter Vlothuizen|corrected handling of bundle timing (issue #208)
+fa8c50362d4ed8a29748e122c207a11720b53068|2018-12-11|Wouter Vlothuizen|added comment on bundle_t member variable interpretation
+ed1da47aaf434f24c82200833beb98811a57a34d|2018-12-11|Wouter Vlothuizen|additions and corrections to test program
+719753bfdf330676a859922f8f8b450b120e8f4b|2018-12-10|Wouter Vlothuizen|working on Bundle timing (issue #208)
+2b3081dcf89b8ed5c39f1305009ae57dc1693ccc|2018-12-10|Wouter Vlothuizen|added contributions to CONTRIBUTORS.md
+7aadf885ded0d2119ffcbd87750e6d71fd2c4cd0|2018-12-10|Wouter Vlothuizen|added one more #if OPT_MICRO_CODE
+d468151873577bb3f979eaeb7cf170f3050e6cb7|2018-12-10|anneriet|implemented gate definition in openql.h
+c5fb5e9c8d69980b2a7b1b147c6c31b63d9d3847|2018-12-07|Hans van Someren|Commented out the define of INITIALPLACE becomes that became the common case
+af6f031a486eb3c2bf8c48e5c3a00802cfedad2f|2018-12-07|Hans van Someren|Updated mapper internals such that mapper=base maptiebreak=first gives the old behaviour
+7d095aec8faa99dac30d15edfc1e8ab054fbb14b|2018-12-06|Hans van Someren|Added test_179.cc and test_179.json as tracked files
+725bae7143c84c4c9c286b5b815fb75f482081f0|2018-12-06|Hans van Someren|Changes to get a stable test environment.
+c3a4d15448e95bc13fb962513b6ae206a13ae86c|2018-12-06|Hans van Someren|Added Lingling's 2 short-code circuits to test_mapper.cc
+f98dd0562d1a7d934ae998e3c3ab786ab5d8c61b|2018-12-06|Hans van Someren|Print kernel statistic 'qubit cycles use', for each qubit the sum of the number of cycles it was busy executing gates
+96b87dcee46b4928eed58e1e5642b2616d2b64c1|2018-12-05|Wouter Vlothuizen|some support for 1 and 3 qubit flux gates (issue #176)
+03b720b2ba052a66273fc58762a7f4baf2430140|2018-12-05|Wouter Vlothuizen|improved reporting og JSON errors
+d850aa798b2d1632cb972073e26be4735214d207|2018-12-04|Hans van Someren|Option maptiebreak(first,last,random) applies to all strategies (mapper options: base, minextend,minextendrc)
+ac0a024b4b845807447431ea88a2dba4ee8c876e|2018-12-04|anneriet|Updated test
+f2304e9c33f93e7e0e9c430f1f220cad4f39e38b|2018-12-03|Wouter Vlothuizen|updated CC python tests
+6691f1efb06355a4f28c1fa244d4f1b724a5fa34|2018-12-03|anneriet|Merge branch 'Anneriet_unitarydecomp' of https://github.com/anneriet/OpenQL into Anneriet_unitarydecomp
+f14e6e7e098b8f2b45be3de2a827ed4f8cebca00|2018-12-03|anneriet|added test for unitary decomposition+older kernel change
+e2fe2c3575d75fb3e1e11f63c95fd4d455320cee|2018-12-03|Hans van Someren|Mapper base strategy optionally chooses random, use option maptiebreak=random
+e60a10649c01b146dc64d646b9cde9e937b29ba4|2018-12-03|Wouter Vlothuizen|working on backend
+3ff0ef6b3ba2b28305ab8ee8a806eec52b0e7c51|2018-12-03|Hans van Someren|Random choice in base
+740c69819fd0961da2bffcb7bea27679cc778cd6|2018-12-03|Hans van Someren|Added sc17 configuration file
+86f3574e0e13b3f18ba5fc396b050f05f06a4515|2018-12-03|anneriet|Update rb_single.py
+0e869c92093fc154f96622c442591f30e21aa9ce|2018-12-03|anneriet|Update getting_started.py
+1421b1438d255560336a28811a6cc6cf2c9d3094|2018-12-03|anneriet|Update circuit7.cc
+bc8729ccae022822c561c56aa5656a6e3725ece1|2018-12-03|anneriet|Merge branch 'Anneriet_unitarydecomp' of https://github.com/anneriet/OpenQL into Anneriet_unitarydecomp
+16f5a71d8d5c44193491bf7806f5e87995d094f2|2018-12-03|anneriet|Merge branch 'Anneriet_unitarydecomp' of https://github.com/anneriet/OpenQL into Anneriet_unitarydecomp
+cdc57b6df02fd79528da870aa5a98022f43f793d|2018-11-30|anneriet|Merge branch 'Anneriet_unitarydecomp' of https://github.com/anneriet/OpenQL into Anneriet_unitarydecomp
+e47d533694b84ec8bad4d89d74efb8b9b85a8774|2018-11-30|anneriet|Merge branch 'Anneriet_unitarydecomp' of https://github.com/anneriet/OpenQL into Anneriet_unitarydecomp
+fa50cddf776ca21ddf078ea736a4a12f2aa2b5a3|2018-11-30|anneriet|Changed gate name to unitary_decomp
+7e850180759d482571209ad2e1b5ff92201e5f2c|2018-11-30|anneriet|Merge branch 'Anneriet_unitarydecomp' of https://github.com/anneriet/OpenQL into Anneriet_unitarydecomp
+392341b86cc9fd1229eeaa7319f76a2f9ab6b3eb|2018-11-30|anneriet|now running at least
+5fafcbc0546ce543c7ce29e9e64c142ef733a380|2018-11-30|anneriet|uncommented the new code, so now it gives errors
+8963fa67921c5fa4af5da3ca4d13edb8c1b06075|2018-11-30|anneriet|First small changes
+1ea3b24fa5290ee340dffe6caa43a10178bbec66|2018-11-30|anneriet|first small changes
+748358ecd0c8bb20d60fd6f44141a38f1f30f10c|2018-11-29|Hans van Someren|Added constraints_configuration_quantumsim_sc17.json to tests for sc17 testing
+98b0961d19a9f75eb9c69c069a508b739cf7f450|2018-11-29|Hans van Someren|Tests modified to demonstrate raising of exception on timeout expiration of ilp solver
+6976f4395225ee381b3df7e7a95abbdfbbcb0a62|2018-11-29|Hans van Someren|Use glpk-4.65, which is thread-safe
+345b3e826cf664f64db6851455e96bf90947262f|2018-11-28|Wouter Vlothuizen|made more code conditional on cpp define OPT_MICRO_CODE
+2b43a125ee8985650c72987feacb4b465e5619c0|2018-11-28|Wouter Vlothuizen|moved definition of instruction_map_t from hardware_configuration.h to instruction_map.h
+20d2b565107b1565d01fb58bf7a911637160ef7f|2018-11-28|Wouter Vlothuizen|improved JSON error messages to contain line number and position within line
+6863a6d2932991aea8dcba50e6e30cd736a35684|2018-11-27|Hans van Someren|Added timeout support for initial placement, and then stop or skip/continue
+dbdcce7933dc3122a113d016aff2b4bc42a68078|2018-11-22|Wouter Vlothuizen|Working on CC backend
+4e6c05c68ec96218ba253304663270d98efc2c46|2018-11-22|Wouter Vlothuizen|small cleanup
+505e9b7a25979cd080c48e0ae60926230c60c273|2018-11-22|Hans van Someren|Allow option mapusemoves to be an integral value 0..20 to be threshold of cost of move init cost
+52ced7ad1ee2030d90c20a652376b6bc55b80018|2018-11-22|Wouter Vlothuizen|one more OPT_MICROCODE
+a13d7bd5070f5bab5c26bb4b73a1858d904fb467|2018-11-21|Wouter Vlothuizen|introduced define OPT_MICRO_CODE around handling of CBOX microcode outside of CBOX backend
+eaf2fa94515f4af8db733fa54a60e8cba7ea5c9b|2018-11-21|Wouter Vlothuizen|more white space corrections
+cc08812040541f679f951bacc3c6d5a46f6db318|2018-11-21|Wouter Vlothuizen|white space corrections
+a086c9dacc77de5d61abdd9eafc6e85329fe3ec0|2018-11-21|Wouter Vlothuizen|cleanup of platform.h
+252debfe6349d04dd0758eacd513b973be781e9a|2018-11-21|Wouter Vlothuizen|moved away unused transmon.h
+c8c5f42fa9b7655968c81ae57cf8b5203afeb649|2018-11-21|Wouter Vlothuizen|moved std::string qasm(ql::circuit c) from openql.h to circuit.h
+de01877dbc95a8ab59ce0dae7deda8307360b514|2018-11-21|Wouter Vlothuizen|removed unused define
+89266ca1c598bd5d4380188510ab82a32c710d75|2018-11-21|Wouter Vlothuizen|removed option DECOMPOSE, which was commented out and not implemented
+0b38323a9c0e91f8015753767b723f3dcc064e84|2018-11-20|Hans van Someren|Other test set
+00e4ac7abbcca9f5867dcc0d87a923ad5bf57c18|2018-11-15|Hans van Someren|Use moves instead of swaps for unused virtual qubits when option mapusemoves=="yes" (default "no")
+847ff7d373b5fe7ce23c0669cb194c79525aad2e|2018-11-14|Imran Ashraf|Merge pull request #181 from wvlothuizen/feature/cc
+7da2b3888780ed411a4d03c1a8e8f695b238a574|2018-11-14|Wouter Vlothuizen|added tests/cc/test_output to .gitignore
+acea1d4b561086559b0d1aaafa30ecf2e2a04be5|2018-11-12|Hans van Someren|Move support added
+c7450b959a4d70382fa5c7ff3e866c87d9888f28|2018-11-12|Hans van Someren|Print number of moves as well; still have to add code to add them
+53743961770d96f02399a32dcb808eec38448cde|2018-11-12|Hans van Someren|Also when plain qasm printing, print statistics
+d78bde7509dbfd307e64f90f9c19fc7680523adf|2018-11-12|Hans van Someren|Print swaps_added, also at program level and also in quantumsim python file generated
+800427f38928e49f15b27566441fb43215bb3b3b|2018-11-12|Hans van Someren|Forgot to add to commit after merge
+50f64d2ce5a4d44219cdafc96782b6e08d391a8d|2018-11-12|Hans van Someren|Merge branch 'mapper' into mapdev
+34eaf10031045e19c175f4f7928104f09db439db|2018-11-11|Hans van Someren|Cleaned before merge with develop
+d48c1474096d3856d628b86ec117bc34bee5bf35|2018-11-07|Hans van Someren|Number of virtual qubits is made independent of those in program or kernel, it is taken from platform instead
+4d7b3c110202c2cbb61bf354a28009acd9577003|2018-11-06|Hans van Someren|Reporting of nswaps corrected, got drained into mainPast.Init by Decomposer
+fa7e42454e3a1727b13547de0c2bb79c06e811c7|2018-11-06|Hans van Someren|Solved bug with unused location used by swap path, but now for v2r map created by initial placement
+83ac1839870ace53804716cb80edb3bd24fcef05|2018-11-05|Hans van Someren|Bug solved when routing used more qubits than there are virtual qubits
+05e314c20fc76f5d699e2e0ad1fe080fd7929938|2018-11-01|Hans van Someren|Added statistics, upgraded quantumsim compiler
+417580780a053cfe73eb99908c55a66350f02cbf|2018-10-29|Wouter Vlothuizen|added Python test for CC
+58d0411501058e58ee6641df83d0c5e7c92978d9|2018-10-29|Wouter Vlothuizen|made json& const to prevent changing
+3c73959bd45f99ee43d6a87f24a5bb2a66f820fa|2018-10-29|Wouter Vlothuizen|Merge branch 'develop' of https://github.com/QE-Lab/OpenQL into feature/cc
+afd5505c95d23a2232ab0c907c927d628c1e1735|2018-10-29|Imran Ashraf|bumped version to 0.6.0
+027e4f3dae289808832caf059baf35f17c7f4617|2018-10-29|Imran Ashraf|Merge pull request #201 from QE-Lab/enh/test-options-168
+1602ae37471959f0c65e45871e59d715193d54ee|2018-10-29|Imran Ashraf|updated option testing, closes 168
+79c0174c67803a7bc2c87d5223756370ad330c6e|2018-10-29|Imran Ashraf|Merge pull request #199 from QE-Lab/enh/libqasm-integration
+79521eb5b9c108995432e7e0d0efc2440335a6f0|2018-10-26|Wouter Vlothuizen|cleanup
+562823657983416d7e1ab4bd580511f6fca0724a|2018-10-25|Imran Ashraf|merged develop and manual fixing of conflict
+56f26c5fb832f9a14b0900c32905d536ec46db68|2018-10-25|Imran Ashraf|Merge pull request #198 from QE-Lab/enh/empty-program-164
+39d434abb237e8962a3c47e3c64275238efba03d|2018-10-25|Imran Ashraf|Merge pull request #196 from QE-Lab/enh/make-alap-default-193
+adf2063460efd5d9d174ff03f386c749e44ba586|2018-10-25|Imran Ashraf|bumped version number for hotfix release
+db7b3c62af041da5eb36a5219806b32186455eca|2018-10-25|Wouter Vlothuizen|added gate decomposition definitions, better handling of signal definitions (including macro expansion)
+f1b6f76b485218ef49bb3ccb479d337188f437cc|2018-10-25|Wouter Vlothuizen|adaptations for ql::quantum_platform& being passed as const now
+15536ddc417407694669d8e15a3a20195042d014|2018-10-25|Wouter Vlothuizen|restored stuff lost in merge
+b841fffc94e34e2dc6d775599bea09a712656ddd|2018-10-25|Imran Ashraf|fixed failing test
+095e509e1d73e4fcf0eb47a86cee08422d5dc9ed|2018-10-25|Wouter Vlothuizen|Merge branch 'develop' of https://github.com/QE-Lab/OpenQL into feature/cc
+3c3220b39bb164c3d4df202520354748cfe41348|2018-10-25|Wouter Vlothuizen|cleanup
+bdbfc017b411e1cdadec20c0972a2dc0c3c25b9d|2018-10-25|Imran Ashraf|Merge pull request #194 from QE-Lab/bug/stateful-behaviour-171
+ef4dbfd7846613c0c272baf3e6caab992f0ce5bb|2018-10-25|Imran Ashraf|resoved merged conflicts manually
+007bfec9cd94e9bb598e74a7644b0f3de7a6a499|2018-10-25|Imran Ashraf|Merge pull request #195 from QE-Lab/bug/argument-order-190
+560731b6434c5e6a3e102d2da631d423d4c1052b|2018-10-25|Imran Ashraf|mentioned that sorting is performed alphabatically
+0c863fa0cbf7e1c3560da749c65b8d6b67fbd800|2018-10-25|Imran Ashraf|updated test to use standard way of testing the exception raised
+6aafea5efb12431d2fcd4a104b0d952952fef8cd|2018-10-25|Imran Ashraf|added test to check default scheduler
+aa79a065483584828a003fd8835f948d49e0423c|2018-10-25|Imran Ashraf|Merge pull request #197 from QE-Lab/enh/simple-sweep-points-interface-184
+9d21db0f27ee67a1512eb27af697e4ee21d28525|2018-10-24|Wouter Vlothuizen|automatic code word generation (WIP)
+312179388195f05a711b6d18fc05f0af5b84df37|2018-10-24|Imran Ashraf|compiling an empty program raises an exception
+149ee5c2ad9dbbcca3fef2e74e6c1a3481699592|2018-10-24|Imran Ashraf|simplified interface of set_sweep_points() API
+1500f5f6d4f859b242aebc8e7b2d8d624a56dd34|2018-10-23|Wouter Vlothuizen|we now emit code for custom gates
+f1314e6a70d8931abe1dfbc4916776b2f811fdc8|2018-10-23|Wouter Vlothuizen|cleanup
+4f71abaca17024ad1da082379859ab0bd37320ec|2018-10-23|Imran Ashraf|ALAP is now the default option for scheduler
+571c40b70be3a82f2de7610ca0277f253106119c|2018-10-22|Imran Ashraf|sorted operation order in parallel sections
+23081ea27f1b48964389c011f35ea2d2daf7f5af|2018-10-22|Wouter Vlothuizen|working on code generation for custom gates
+e8b2b17e969eb2949ba3bf92ea02e9f843194b37|2018-10-21|Imran Ashraf|fixed the bug causing stateful behaviour across various compilations
+a497b155b003f0a72b20a6d8be744c4a18116168|2018-10-19|Wouter Vlothuizen|we now handle N qubit gates
+dd8ee5cd938985efdb4f16e6b01eb84f4eb7ba01|2018-10-18|Hans van Someren|And also the json file
+da3f09e48118c1ada4564f2413ed9af6f931788e|2018-10-18|Hans van Someren|Quantumsim compiler, added support to specify qubit_attributes and relaxation times
+16bcee4536b704d9b0f45f48a432ea106967be5b|2018-10-18|Wouter Vlothuizen|moved handling of code stream to code generator
+e722661499fc3ab9eb9d64091f8b853adc588bb7|2018-10-18|Hans van Someren|Harmonized quantumsim and cc_light_eqasm backend compiler.h files.
+0db1fafcb93f90b7c9fbf62283fea8c624200eea|2018-10-18|Hans van Someren|quantumsim_eqasm_compiler.h updated to interface passing kernel vector
+a6b9e07f13c4825275ebe25f02d102b5d28189c6|2018-10-17|Wouter Vlothuizen|Merge branch 'develop' of https://github.com/QE-Lab/OpenQL into feature/cc
+6eb792b39854409b42a1fb6f56ded66e58fe9913|2018-10-17|Wouter Vlothuizen|Cleanup
+b2e8235b4ae28809ac90fc7748627344aaf44a70|2018-10-17|Imran Ashraf|updated version for hotfix release
+c6fe4aa39e0bea19536a12a3b88894e6f79ffb70|2018-10-17|Imran Ashraf|Merge pull request #192 from QE-Lab/bug/argument-ordering-190
+39183273314060b29c7b705d2874ea8cb6854838|2018-10-17|Imran Ashraf|operands ordering in SMIS and SMIT instructions
+4d2a1db7b30fcd65b961349dbb6508748810ebe6|2018-10-17|Hans van Someren|Quantumsim_compiler: added mapper, merged with develop, etc.
+d3c47baf8d653e325f61949265c625e463baca45|2018-10-17|Hans van Someren|Improved printing qasm files, started inter-kernel mapping matching
+0f7df64c2e8d8078f4efb1503333b4236fd13d00|2018-10-16|Wouter Vlothuizen|still working on JSON
+a828c96d37e33e43fa0c95ffb753baeba331ef9f|2018-10-16|Imran Ashraf|updated golden files to cQASMv1.0 syntax
+2e8dd28a20c37ef210cae8e04826622ca1c8e068|2018-10-16|Imran Ashraf|updated cqasm tests to use libqasm
+faeafbd48418e52d5e40f16d08289b42fe33e4a0|2018-10-16|Imran Ashraf|Merge pull request #191 from QE-Lab/enh/file_compare_test
+e66e6f59f7af76c5e94d9677d4e80addb1b3c901|2018-10-16|Hans van Someren|Qasm printing of statistics improved
+3c1ec9f8b3d53a59f46a096d4f5a3b641f956121|2018-10-16|Adriaan|new file_compare function
+0fa147b2caaa793284b0753bc83005dec7a16536|2018-10-15|Hans van Someren|Collect and print statistics in qasm files, per kernel and per program
+21c4482f43aa4ac272d32509bb57336f7d315c81|2018-10-15|Wouter Vlothuizen|Merge branch 'develop' of https://github.com/QE-Lab/OpenQL into feature/cc
+5435e25e8108ae97097781d60bbaae625cc3d42b|2018-10-15|Wouter Vlothuizen|working on JSON
+a04b274061f9fe98312c05b44e1ecb97ddf80f11|2018-10-12|Imran Ashraf|removed qasm loader in favour of libqasm
+a6ca47e07ad6e861d17f2498cc39919cbe6194b5|2018-10-12|Wouter Vlothuizen|working on JSON
+36dbc26c3b00df0882a816db56c8a83e2768dc53|2018-10-12|Hans van Someren|Restructured program/kernel handling
+8318194d25bb7262c7f7afbc8cfc65a0a73e3659|2018-10-12|Imran Ashraf|updated tests to use unittest setUp/setUpClass facility
+976ddfb34b9c2306a1afb728d86a09aadfe949c6|2018-10-12|Imran Ashraf|merged changes from developed
+7587a7a621dcd280df09f9f765e2d37bbc738721|2018-10-11|Hans van Someren|Merge branch 'develop' into mapperdev
+350644583da5081f95ff5dff206e99a75f091a79|2018-10-11|Hans van Someren|Just layout
+b03b4b6f92c2271dc31fa3b567b1e2b5211664aa|2018-10-11|Imran Ashraf|updated changelog and bumped version
+c0fc500e35437b5d81d149d5abd34a4122831a20|2018-10-11|Imran Ashraf|Merge branch 'develop' of github.com:QE-Lab/OpenQL into develop
+6d53981700575aa795d4340a0060d3d0b8a71917|2018-10-11|Imran Ashraf|Merge pull request #186 from QE-Lab/bug/alap-schedule-166
+f64f213dfa74b0c48bfef2a1d118e00b9d32557d|2018-10-10|Wouter Vlothuizen|cleanup, working on CC backend configuration
+47d811d979bca154b8ea6f4c3859e9b57852610c|2018-10-10|Wouter Vlothuizen|condensed JSON instruction definitions
+0da3482be816213a2d26cc7c69b095ad791c9498|2018-10-10|Wouter Vlothuizen|cleanup
+d1bbde6a124ba864eae7c22ee572735fa4dc9652|2018-10-10|Imran Ashraf|bumped version number and updated CHANGELOG
+afbebbe2e87b932004be666318a1f0edc00c1a82|2018-10-09|Imran Ashraf|removed alap c++ test from cmake file to pass build
+aa25c43478f346c9dd07634c983219eaa0e4843f|2018-10-08|Wouter Vlothuizen|splitting off code generation
+be45d7417967d48660a4347cf23d899a17b9b326|2018-10-08|Hans van Someren|Merged develop into copy of mapper, compiled and tested it.
+0f542bfd8a73bc4e059de60d8fc3d2e4b177c34f|2018-10-08|Wouter Vlothuizen|Merge branch 'develop' of https://github.com/QE-Lab/OpenQL into feature/cc
+a470999921b0ddceef8c86863a965e241114070a|2018-10-08|Hans van Someren|Merge branch 'mapper' into mapperdev
+cd85af1247d51a2c5c1b5e62a03874528a8e0428|2018-10-08|Imran Ashraf|removed c++ version of test_alap_rc_schedule to avoid duplication
+1ab6d57919ae270d7e966d28e1b1edf23adb7af5|2018-10-08|Imran Ashraf|used setUp() to set unitests options
+e7aae98ebd654fb487542e8d50eec66fb1e2e508|2018-10-08|Imran Ashraf|tests updated to assemble generated qisa
+24dbfa2980e9e6bc7a88e5190f12c5d16fd8ed2c|2018-10-08|Imran Ashraf|alap scheduling output is tested against golden output
+d4d956ecee31a85575b284c49e9463fc432ccf14|2018-10-05|Hans van Someren|Mapper: move call from program.h:compile() to cc_light_eqasm_compiler.h:compile()
+f8b39fc5192ff8c756c9a18d672d7b3f58c023a4|2018-10-03|Wouter Vlothuizen|improved reporting on JSON parse errors fixed indentation
+2db7de5405dad20d9d4f662152a236efd03c39d6|2018-10-02|Hans van Someren|InitialPlacement is not run when in current mapping all two-qubit gates are NN
+219a66c83af1f942ff83d91a8e1625c8602a6743|2018-10-02|Hans van Someren|Initial Placement in mapper: bug solved when having less virtual qubits than real qubits (locations).
+76e81b437a703098187b893a6822170191d327ef|2018-10-02|Imran Ashraf|Merge branch 'develop' into bug/alap-schedule-166
+feeb478a32d541e90fac910e503508f2d3e22e08|2018-10-02|Imran Ashraf|Merge pull request #182 from QE-Lab/bug/155-attribute-names
+49042eed849995e1b7113406583c2823fd099eaf|2018-10-02|Imran Ashraf|Merge pull request #183 from QE-Lab/bug/wrong-target-qubits-174
+4751a53c6b0dc1fc19ecce3749fe506431c835d4|2018-10-02|Imran Ashraf|fixed tests and minor modifications in comments
+e98ad4ca5d90cc395adb9de70e9632dc98297c63|2018-10-01|Wouter Vlothuizen|working on code generation
+3f484213f1a4615d3ecee7619d68472acb7a4b34|2018-10-01|Hans van Someren|Update label in qasm code after cc_light rc scheduler to contain the program name instead of "fused_kernel"
+f9460f452fe5bbfd68e8ff21cdcfd36048eefd81|2018-10-01|Hans van Someren|After mapping, program.qubits should not be the actual number used but the highest index + 1, since that is how everyone interprets it
+f1db294d7b7f0e1541ead626759df3551a51ebdf|2018-10-01|Hans van Someren|Mapper: compute number of real qubits actually used and update program.nqubits by that after mapping
+20e07a13aec90f899ae922495d2427d94061ca2d|2018-10-01|Hans van Someren|Before scheduling in program at eqasm level, generate qasm before scheduling
+ddb64e301182ffe7d0a150ecf484e7abe113cc49|2018-10-01|Hans van Someren|After mapping, the number of qubits in the class program is changed from number of virtual to number of real qubits.
+5eae1e2c833b4934b449f86712a8102cc919dfc7|2018-10-01|Hans van Someren|More debugging
+bd5d2d29b1fe93bf88189a6f38f323f2aae53837|2018-10-01|Hans van Someren|Debugging: more DOUTs again
+de8490a5bff01b8a87e99efcb37cb3268ec0cd85|2018-10-01|Hans van Someren|Debugging: more DOUTs
+1863d2472d789898187658eadec899255600c974|2018-10-01|Hans van Someren|Debugging ... more DOUTs, sweeppoints in test
+f3d6c911d7db0a8454d5b1bb8d95240dd105eddd|2018-10-01|Hans van Someren|Updated name of initialplace option: now it is "initialplace", with values yes or no
+0692c74f3376f73c1126e4786f1784a88dc7112a|2018-10-01|Imran Ashraf|added/updated tests to check class attributes
+45fe4f209e80c81db80f016cfec86ba7555ba124|2018-09-28|Wouter Vlothuizen|cleanup
+3444f1cc4d7642ae76c4b8a83d96dbd6f4c13b25|2018-09-28|Wouter Vlothuizen|added missing files to GIT
+cb41bea85a5a10ac4ecf60828882c7251d8ad9ff|2018-09-27|Wouter Vlothuizen|Backend produced some valid CCCODE for the first time
+5049ced0b87ce5f2054ecdbc6b8210facd107dc6|2018-09-27|Hans van Someren|Tests modified, some DOUTs for grid testing added
+a0a32d28768e5f8615f72feb24469daaafad5536|2018-09-27|Imran Ashraf|fixed wrong target qubits in ccl config, closes 174
+d7f5ec7fd9102184399952707358f7e05d8e039a|2018-09-27|Hans van Someren|Initial Placement tested
+97363b67aaae1fd95cea65029b276ba719d73ab9|2018-09-27|Hans van Someren|Mapper: distinguish number of virtual qubits and number of real qubits
+22fbda64ce1dc90449102110a404db135e2adcb4|2018-09-27|Imran Ashraf|removed underscores from program/kernel attributes, closes #155
+5b90ed8d57ef8e691aac5121fd0133558d40a44a|2018-09-26|Wouter Vlothuizen|working on classical operations on kernels
+ff41b58d39b29b49928473a0523cf2fae19a77a9|2018-09-26|Wouter Vlothuizen|some cleanup, working on CC backend
+3cebe0e8491c2d2f80e272833513d9e29fd26221|2018-09-24|leon|Added Python tests for alap rc schedule. minor modifications in cc light resource manager.
+97b191450992ad859fcdfec62338ec7263029e06|2018-09-24|Hans van Someren|Took out set_platform call from test program; was relict from the past
+f1ba21d3a46d75288a5b3d6b862f300a81002bc2|2018-09-24|Hans van Someren|Corrected wrong alap hardware resource constraints checks.
+3066ede920867a5d047da6c86d2b9e4f3debd8e5|2018-09-24|Hans van Someren|Updated tests to reflect testing the issue and the updates done.
+4c78230adff6f7716e6104a68df21767f47cf711|2018-09-21|Imran Ashraf|Merge pull request #178 from qSaevar/bug/170/test-against-assembler
+0800b31a54dae35f14cad57bec328b15e470196b|2018-09-21|qSaevar|Adding libqasm to Jenkinsfile-v2.2.0
+9fcb7f40b9df8a0061e5cd899547ea2364332c60|2018-09-21|qSaevar|Adding libqasm to Jenkinsfile-master
+ac1920e6f9208aab26af722c0a1a6fe9e32dc73c|2018-09-21|qSaevar|[issue 170] Adding missing Jenkins files
+a3b2632c28326fde62e5ab542107392c934ff435|2018-09-21|Imran Ashraf|Merge pull request #177 from qSaevar/bug/170/test-against-assembler
+1ac81933b7ffad25abedaf7cbd1efb7c97faef5e|2018-09-20|Hans van Someren|Added ALAP scheduling with RC and latency compensation ...
+8ce9d242d503dcd65af0790dc66702687789f00c|2018-09-20|qSaevar|Adding a tag for v2.2.0
+4ae5c85c72c61f68ff394eb3c3e34f76c544c41e|2018-09-19|qSaevar|Adding install of qisa-as to Jenkinsfile
+e162a5f613db8a3752fe8e6a434aef6330f93e9d|2018-09-19|Wouter Vlothuizen|fixed some typos in comments
+eda549506fe6ac0d9d964c286167e67e7e23e8cc|2018-09-19|Wouter Vlothuizen|moved cc_light backend into its own directory
+3659b20c62f3182f07403cb2cd08d3d77a9f6b22|2018-09-19|Wouter Vlothuizen|part 2 of move
+6c18ae69c06e7991ef71d6345b46828f7dc1e0d2|2018-09-19|Wouter Vlothuizen|moved CBOX backend into its own subdir
+b1e81fc6b84617732ee9d5928d9021d032fc4ab8|2018-09-19|Wouter Vlothuizen|added CC backend, based on copies of existing files. It compiles and runs, but does not know about CC
+f59388955a7a612d5c5b713ff1392aa1b8b66e4c|2018-09-18|Hans van Someren|cc_light resource manager extended to support backward resource management, e.g. in combination with ALAP (backward compatible change)
+62f784b6e386102376257d635832c42a754fb1f5|2018-09-17|Hans van Someren|Added -fPIC compilation flag to lemon cmake rules as a hack; now initial placement compiles.
+35432d6d8901cfdfe37cd8b7ae1e896d5583c051|2018-09-17|Hans van Someren|Resource manager: backward compatible construction, direction added, not yet to state
+f34c0d9ac66055344e8d3f2b2e42f0f5f5c442fe|2018-09-17|Imran Ashraf|Merge branch 'uniform-sched' into develop
+29077d14a0096a7ee4c2110e49da6e602aa88efa|2018-09-14|Hans van Someren|Mapper: updated gate name mapping and replace '/' characters in program and kernel names when to be used as part of file names
+422efeddcef338c733b94865ad2a2df2d56b34d6|2018-09-14|Hans van Someren|Mapper make initial placement code conditional on #ifdef INITIALPLACE by #define in first line to allow make experimentation
+d26cfce1d88a44eb422319c987969c7517aa4108|2018-09-13|Imran Ashraf|added mixed classical/quantum programming demo notbook, closes #163
+6a4b2c5e8830c4a79d94d2c1a24066418bc77fd8|2018-09-12|Hans van Someren|Mapper initial placement added; doesn't link yet
+e0d47da9f05730d1f3761b45077f544c4d54c85b|2018-09-12|Imran Ashraf|bumped version number and updated CHANGELOG
+ea3f2739352de351bd5c4c7d8cb7f4eee6e9fbdd|2018-09-12|Imran Ashraf|API to obtain version number, closes 153
+225bf55f12696a29b25a283167361ba50ff1baed|2018-09-11|Imran Ashraf|Merge pull request #156 from QE-Lab/bug/151
+ae1ce7c0f682b1dacc3d2260ad4ed9881e1acdfe|2018-09-10|Hans van Someren|Split off grid definition as a separate class from class Mapper
+7fd70e57d112c4a64c73afdc42c012e5b0b4722b|2018-09-07|Imran Ashraf|fixed eqasm syntax error, closes 151
+3e67355ae237f18c068cf36b18560212d919f1fd|2018-09-05|Imran Ashraf|Merge pull request #152 from QE-Lab/cmake_macOS
+22938b0e77095e1f6287800465aa15603340019a|2018-09-05|Imran Ashraf|updated README and removed temporary files
+ea87474fa42de04d13fe60a6257bd43f1891d36a|2018-09-04|Hans van Someren|Allow fair comparisons of mapper results using a post-mapper decomposer, and relying on a final resource-constrained scheduling pass.
+0563ceb7d25ad0bce3348f58d315fbbe975db9aa|2018-09-04|Nader Khammassi|Added Grover Algorithm Example and Updated Single Qubit Randomized Benchmark Test
+8533a719f4040b2ae3dd32e5a2e7cf5206245bd4|2018-09-04|Hans van Someren|Added detuned_qubits resource and report kernelname, circuit depth and number of swaps
+54cd99f310ea208159a99ee8935cb039a22630e5|2018-08-30|Hans van Someren|Mapper: corrected .json file; previous one was wrong
+95c65d618a67532c46b206598cc9e84f8662a673|2018-08-30|Hans van Someren|Mapper: use custom_gate interface to create gates and map virtual gatename to real gatename
+82ce3b895a49c1a4cf7f8f88109ec8c75bdcf9e5|2018-08-30|Imran Ashraf|libqasm integration for cqasm v1.0 syntax check
+e1911f21fb5b5ffcbfe75efc4e7edfb3156b3c46|2018-08-27|Hans van Someren|Use custom gates instead of plain gates to allow resource constraint scheduling
+61e0adb6b4b3941ff64da94fc6bd9e98fda154ce|2018-08-20|leon|Merged uniform scheduler with current development branch.
+4a0e501d53c5b59e295f8f10bc6ab9c12875ea58|2018-08-20|Hans van Someren|Resource management support added to mapper's past
+a76cd2987a4bafcdc5682b055e31746e1e089226|2018-08-14|Adriaan|added if statement for CMAKE install on macOS
+65bade582c6c34e937bc51fb9c993985166a9c2e|2018-08-13|Hans van Someren|Mapper evaluates all paths and selects one minimally extending It does this under the new option minextend. Scheduler accepts option "no" now: it doesn't schedule then.
+9188c9f6726dee3004374ba0755edaab5d429663|2018-08-02|Imran Ashraf|Merge pull request #150 from quantumkoen/feature/run-jenkins-as-non-root-user
+244df7d9c782b81335cd0f47852ee917b6eccec3|2018-08-02|Koen Martens|Jenkinsfile: run as unprivileged user
+8bfbd9d7d1beed473404f71656701dcb50b0a8cd|2018-08-02|Imran Ashraf|Merge pull request #149 from quantumkoen/feature/run-jenkins-as-non-root-user
+0793f75b12c2fe0bfdc72e60e549cb53fa9f2a4b|2018-08-02|Koen Martens|Jenkinsfile: run as unprivileged user
+1506a3a3e7ee2a250fda25d176216618fd430ac9|2018-07-30|Imran Ashraf|Merge pull request #148 from qSaevar/develop
+ebc2dbd0c201f5106fcd7f669c091ebe620a1ea8|2018-07-30|qSaevar|from tab to space
+59dcf07d4afb9486c51ba1a54da18ebb532c7387|2018-07-27|qSaevar|Containers in jenkins pipelines will need to be started as root.
+855d3c48926dae9af3aaea843cb1e5ecf3ca7988|2018-07-05|Hans van Someren|Naive mapper stable, functionally mapping
+49b8b1010cb70d3d8fdbc94555e1105806d9ed40|2018-07-03|Imran Ashraf|Merge branch 'master' into develop
+503a1cbc76e6fef6fcc5f210dc0c76fee649b230|2018-06-28|Imran Ashraf|Merge pull request #144 from lucblom/jenkinsfile
+abe123df6c086c92d2feae5b2a967698e5d0b0f1|2018-06-28|Luc Blom|Added Dockerfile.build
+ad9b14b6384c53ada6ea2e8c088b0144f0242e8b|2018-06-28|Luc Blom|Added Jenkinsfile
+62a8e0292b5bdb13e040a11958dafd88152f9c9c|2018-06-28|Hans van Someren|Mapper: added test_mapper.py
+ee57ddcca195d7ae2a57787d73efebe972ebea65|2018-06-28|Hans van Someren|Mapper: ready for multi-kernel support, better error reporting on grid configuration turned virt2real into a class, more tests
+5e8f5ead75889d47c0eadecfd485a388a415fa35|2018-06-26|Imran Ashraf|merged hybrid classical/quantum support
+4bc453fb22753e8d0c31a7bf7b72d1ebd0ff8f5a|2018-06-26|Imran Ashraf|update documentation
+b5fff231f8742c48d9b7d06cc0dde04eb0f1455c|2018-06-26|Imran Ashraf|updated tests. all tests passing.
+cdd74b21d51c58dc410cbedaeb0bd73637861c37|2018-06-25|Hans van Someren|Mapper: split program-wide and kernel-specific; print qasm before and after mapping
+d0167cbce36e463f21c86d89096db390a7d7d30b|2018-06-25|Hans van Someren|Uniform scheduling: improved debug output.
+3e8e34417b9c944598c339eb4e0f5c5a6a7fcb73|2018-06-25|Hans van Someren|Uniform scheduler: python test, no change; adding option requires setting up python again because swig interfaces are not updated in cmake or make
+e0ba54d268e2565a5c104224aefb2ae03c38fc79|2018-06-22|Imran Ashraf|extra instruction insertion to compensate latency for FBR and FMR
+c0290891fd382d6ae77f618e4b21fb6f08dd808e|2018-06-22|Hans van Someren|Uniform scheduling: new option because uniform is orthogonal to alap etc.; fixed issue at start of circuit
+bef81038af6b0ed83e345ef047ee86ea21696414|2018-06-21|Hans van Someren|fixed conflict
+f294791539b714a4e046783d59e1aa4502bd9674|2018-06-21|Imran Ashraf|ckt is an argument to MapCircuit
+e1079b8023aeaf523a51bf0194e787748f878b14|2018-06-21|Hans van Someren|Mapper, taken out prints of qasm at start of scheduler
+17b0ff8375d5e27c747dca4272b43c3d9041bcbd|2018-06-21|Hans van Someren|Mapper, tabs taken out more often
+e5322b634bd32b608871728afa2a9b193581847a|2018-06-21|Hans van Someren|Mapper, printing improved, tabs in mapper removed
+a76066a3a73b080f583dac74e5ca55dfc48bcc9f|2018-06-21|Hans van Someren|initial mapper implemented
+52b3ea625ef9013fcf4072cedc3d492a9736fdda|2018-06-18|Imran Ashraf|update pre-interval syntax and misc modifications
+6683d99995768adbfdacec5ccdbbc6ee643a67e6|2018-06-15|Hans van Someren|Mapper: base-line version; needs further testing
+7a5f1bcac8b5c64b3d2417ff9995b563b87e682c|2018-06-13|Imran Ashraf|classical register manager implementation
+a312dc64be85ed6153fb139220dfe22e0eeab15b|2018-06-12|Imran Ashraf|fbr/fmr decomposition for branch/measure
+31409bffc3f0bdad17ba48621480c5052db190ae|2018-06-11|Hans van Someren|Mapper, grid initialization done
+dcaa46cb2d2a945b614d3b3b0c23085917d84ec2|2018-06-11|Imran Ashraf|Merge pull request #141 from quantumkoen/feature/set-project-name-in-cmakelist
+8d183e37f1c6474fe2fab021dee1b9a1ac72f5d7|2018-06-11|Koen Martens|CMakeLists.txt: set project name (was Lemon template default)
+ae892f9d7551db914082d855859ff40997fc3237|2018-06-11|Imran Ashraf|Merge pull request #140 from quantumkoen/fix/#139/cmakelists-mismatched-if-endif
+3615bb3bba9d1f664f485139e123073df3419967|2018-06-11|Koen Martens|fix top-level CMakeLists.txt mismatched IF/ENDIF (fix #139)
+15f977b73d83c4897af314e378d06c0a6ec3e858|2018-06-11|Hans van Someren|Added three tests for uniform scheduling: empty kernel and two with many preps/meas, all critical.
+efeb615a3c0bc1c8e9b86f2b2c193e5ab40cca00|2018-06-11|Imran Ashraf|basic cclight control flow support
+f814fb37d3ff4643c481b9b25253ff5ce3331a8c|2018-06-11|Imran Ashraf|nop insertion between meas and fmr instruction
+ca7ffc90f9cccdd600f0d2cb3aae8d1547dcbb27|2018-06-07|Hans van Someren|Uniform scheduling, improved target bundle size computation
+ef35cab5987e21bf835c6b47e5b0ea574b428559|2018-06-07|Hans van Someren|In uniform scheduling, use as target bundle size average over non-empty bundles
+bc59df9e9ee2a33e83c279f9bd99c1d9c1c69a5a|2018-06-07|Hans van Someren|In uniform scheduling, target buffer size is rounded up to create room for local fluctations and prevent iterating around mean
+6a039fd5261cb6179690bc1f09904c6f60b15424|2018-06-07|Hans van Someren|With uniform scheduler, adjust target bundle size on the fly to cater for local bundle dips caused by local dep chains
+38361e666f3780f3650572c9074f9c330db82bc0|2018-06-07|Hans van Someren|Forgot to add ql/mapper.h
+b68afd7ea137e88efd6ee6ca918c493670cbacc4|2018-06-07|Hans van Someren|Mapper class, include file, initialization and test added in most rudimentary form.
+1e3007a2bbad57c1895225e480f04903ba4683d3|2018-06-06|Imran Ashraf|arithmetic instruction code generation for cclight
+6f3cbd2c83c3e95e1e88c87b7dbbd548c6796eb7|2018-06-06|Imran Ashraf|qisa generation for multi-kernel program without fusing circuits
+bf822ec08ed0c8c237a3b1773605d1e8b63bff67|2018-06-05|Hans van Someren|Added python/c++ tests for uniform scheduling and did minor improvements. All tests pass.
+b42a4048babe20b6f185f67ef65dbfe718e48b5f|2018-06-04|J. (Hans) van Someren|initial mapper commit
+86b3e1772932661bf5dc7a4ea58bc42b38058f9d|2018-06-04|Imran Ashraf|added a simple uniform scheduler test
+40124a1b6056be679a7d20188a980707893d6dd5|2018-06-04|J. (Hans) van Someren|implementation of uniform scheduler
+5866a5dff36b9f052fecb81236744b555fa311e5|2018-06-04|Imran Ashraf|updated measure to provide classical result
+51f66ea3fe38581f80ab8a91da01d60b50903c8d|2018-06-02|Imran Ashraf|proper handeling of classical resources in scheduler
+b6841e1f39e579fcc1c717c7e599afa7b2af00ff|2018-06-01|Imran Ashraf|added classical register count to program/kernel api
+069bd6383b06c2e3d812f12cbdaa673723cadce4|2018-06-01|Imran Ashraf|added unary classical operators
+020300fcb40a67da6b01129189aee1e6ad3ec1bc|2018-05-31|Imran Ashraf|updated getting_started.py to reflect recent changes, closes #136
+52f0d0f1ec2ccfa32489bf649c4474a82f3bc573|2018-05-30|Imran Ashraf|added support for classical operations
+49f48fd3e8047425e29552c2799a0d4aadbc51a8|2018-05-29|Imran Ashraf|added support for control flow instructions
+adee1c03017274a382ed1df3b2e4272034baeb6c|2018-05-23|Imran Ashraf|branching support in scheduled code
+b91b645c8192ca84df8d9adb3e977486434968f5|2018-05-22|Imran Ashraf|initial support for conditional branching(if-else/while)
+9f0e266bec6c66d93f95d850337f9dfbb864d379|2018-05-19|Imran Ashraf|updated version number to 0.4.0
+c35144597f09e8426c60ef772f7faab0930d5b1c|2018-05-19|Imran Ashraf|fixed a compilation issue on windows OS
+93dfdceccf7740f54ee7dc53872f85c685b6902f|2018-05-19|Imran Ashraf|fixed compilation on mac os with newer cmake version
+cbc1f7fb6c1ba6077a5267a48d152c63f96298ba|2018-05-19|Imran Ashraf|added changelog and updated readme and contributing
+e41eb915257c592ed9f61e82c91b7bac3f63dcc4|2018-05-19|Imran Ashraf|implemented kernel conjugation feature, closes # 128
+5af220a7eeb76fb4faa34527e6cab73809d0d87c|2018-05-15|Imran Ashraf|Merge branch 'enh/multi-qubit-control-127' into develop
+83a6f534ba138b318b2ffc7a6992bdc17669b40e|2018-05-15|Imran Ashraf|multi-qubit control decomposition feature, closes #127
+68878c5eb2ef423e5e20bdc06a0450d8d792bcea|2018-05-06|Imran Ashraf|fixed inconsistent error reporting while setting options
+5b543250d7b084646ff14c6695537792b3114e90|2018-05-04|Imran Ashraf|added CLI11 files as deps and cmake version test
+c14c979b081da1702962560f41d36f96a5d04297|2018-05-03|Imran Ashraf|proper testing for option names and values, fixes #125, #126
+7d8aa6111f8fd637cf497c7439f5cf524a5d09f5|2018-05-02|Imran Ashraf|fixed qx display bug and typo of prepz gate name
+75f375f88f8df2831ef3f82ca296e3838040e9f2|2018-04-23|Imran Ashraf|small fix to omit printing of iteration count 1
+9b1cbe56deead245e5a7a5e1d7890a15c446ad0c|2018-04-23|Imran Ashraf|Merge branch 'develop' into enh/115-kernel-repeat
+896ef0c7b4e7c89beabbd78e3056cdcf27c6de76|2018-04-23|Imran Ashraf|support for static loops
+d3f33726e0329a57780bcc66ea0d9150233ff8cf|2018-04-23|Imran Ashraf|support for updated qisa-as
+e146f47eceaf8c04e48b959a6e0da62b2d433563|2018-04-22|Imran Ashraf|added Nielsen and Chaung toffoli docomposition
+0093935994b48adbe6ab5ecadc311a679a8110cc|2018-04-20|Imran Ashraf|implementation of toffoli docmposition
+0a6045455260845c96d422754289a200bd0bccfe|2018-04-20|Imran Ashraf|merged work on develop branch
+09b9c7e3f668df1870b23a7e0e0c7e07b5a2593a|2018-04-20|Imran Ashraf|better implementation to get/set openql options
+3165d0d5624325d172593a69f8c9e136de7f1726|2018-04-18|Imran Ashraf|support of controlled kernel generation
+c8902beecec6ed6c612de84a1c5ad8ce1acc8724|2018-03-22|Imran Ashraf|added text api documentation in doc/api/openql.txt
+5e037c0c233050e49aa444a15a51bffdaf618874|2018-03-22|Imran Ashraf|support for qx display
+3f365047b2952e9820d827fab24e96fa4107151e|2018-03-21|Imran Ashraf|fixed rotaion angle printing in rotation instructions
+c6ee509127af042e70b533ec989a13b3d3fdcb83|2018-03-07|Imran Ashraf|updated getting started example and readme file
+38f33cc73a611bf854a7371bf7836eac41bdaf81|2018-03-07|Imran Ashraf|Merge branch 'develop' of github.com:QE-Lab/OpenQL into develop
+fd806c1872a8f77be7e95c527cbd7aa0f9dae70f|2018-03-07|Imran Ashraf|added support for quantumsim simulator
+224eb7ec008c7f23975655434ffd28c94683f49a|2018-03-02|Nader Khammassi|Merge branch 'develop' of https://github.com/QE-Lab/OpenQL into develop
+9c30377bc047d4a4d6a21cb99cd43065470a035a|2018-03-02|Nader Khammassi|Fixed Qubit-level Dependency Anlaysis in the CBox backend.
+bdc751cea292cbf1b54fe34dff3e7e8e43380cf1|2018-02-23|Imran Ashraf|interermediate representation(IR) implementation
+a8dbbc103289c825e428d871f3a339370831433e|2018-02-19|Imran Ashraf|Typo: two_qubits_gate -> two_qubit_gate fixes #109
+741f65fe92a2843e69cb3b253159a6a5fc203834|2017-12-21|Imran Ashraf|Added verbosity levels as discussed in #61, closes #108
+da9e9cf768c63c7cb8b6f43ad78584772544af17|2017-11-27|Imran Ashraf|implemented specialized gate decomposition
+a064020f2edd690f19871a1b27c764efe9ea4a6a|2017-11-27|Nader Khammassi|Added Alias Section in the Hardware Configuration File
+ce8899db3ac21f260be760f79b37aa0ca8f453ee|2017-11-24|Nader Khammassi|Added Total Execution Time to the Waveform Sequence File in CBox Backend
+1389da2d48d91ae16c0cc582a5dd4403aeb9e86d|2017-11-24|Nader Khammassi|CBox Trace File is now Generated only when Verbose Mode Enabled
+8b9aa83fdeb72c799d2e112788c58a19dcc36e0c|2017-11-22|Nader Khammassi|Changed the Waveform File Extension from JSON to DAT
+3aa9e6659f51d5028e628a6dc7f97691085c58dd|2017-11-22|Nader Khammassi|Fixed Latency Compensation in CBox Backend
+e6ef3bd0b7e53f4f516faf12ea811d738268ae2f|2017-11-21|Nader Khammassi|Implemented Long Wait Instruction for CBox
+8ceb63bd509fb07f5e9c3b53060ece5084494cf6|2017-11-20|Nader Khammassi|Added Automatic Waveforms Sequence Generation Support to the CBox Backend
+21bc4b7ca18c51c9263d7db421f11ef1bbd9bbbe|2017-11-17|Imran Ashraf|Fixed M_PI issue in windows install, closes #106
+cd878496c18f82c6e9a77cbf83d2ce501820a755|2017-11-17|Imran Ashraf|Merge branch 'bug/107' into develop
+9a443a2ddd15349d2750edcf5b9cbbbef82e5929|2017-11-17|Imran Ashraf|fixed prepz duration variation with its type, closes #107
+6b558d181eb44335cfef75e20b313d490f9ae707|2017-11-16|AdriaanRol|workaround for OpenQL breaking install
+056dde58b4baa0910202f3601eeacf55ef4c06b3|2017-11-15|Imran Ashraf|keyword arguments support and updated getting_started.py
+4b590b379db6ce84718a215025d834973ecc71f5|2017-11-15|Imran Ashraf|added barrier instruction
+bfa87ad0ec026e24cb968706e1d136cee1c81265|2017-11-15|Imran Ashraf|readout fix and wait() enhancements, closes #103
+abacf47e9b65881f8d4e504c369e6963460be4ec|2017-11-15|Nader Khammassi|Fixed Trigger Order in the "trigger" and "codeword_trigger" Operation Mode
+e62adb5216f04ffb126490b1a58a23d2f6b48820|2017-11-14|Imran Ashraf|fixed problem with last qwait printing
+78791ba642763e34587de446ec44df0b7c1009b6|2017-11-14|Nader Khammassi|Fixed the Trigger bits order in Trigger Instruction in the CBox Backend
+a647b3dbcb3282862ed01e81c98838dfd41b54f4|2017-11-13|Imran Ashraf|QASM v1.0 complaint resource-constraint scheduled qasm generation
+6d3a99f2356e8b0bec3bda98f9842533abd08215|2017-11-13|Nader Khammassi|Merge branch 'develop' of https://github.com/QE-Lab/OpenQL into develop
+3d3f2283e21420a55c516778624ca03a986872ae|2017-11-12|Nader Khammassi|Tested Trigger Sequence Code (Long Measurements)
+404ea8fb030eed52bd86863c3187ea277bf36c5b|2017-11-11|Nader Khammassi|Reversed Bitmask of the Trigger Instruction Instruction in the CBox Backend
+f5ade728557dd6bebbe4b5bb7732001a73fe932a|2017-11-10|Nader Khammassi|Fixed the Codeword MSB of Pulse Instruction in CBox Backend
+bbf686daefa5a6fedd0ced75baa766477546a9d9|2017-11-10|Imran Ashraf|proper support of bundle merging, closes 96
+9552605b0aa8115098999fd48f2405d9db21888d|2017-11-09|Imran Ashraf|small memory usage enhancement
+35fd4258c67d705eff41d2149b9b541c8d123bc9|2017-11-09|Imran Ashraf|better error handling, various other enhancements
+0d69eced8a61612592476c5dbc03c3b6e6b0e019|2017-11-08|Imran Ashraf|fixed a bug in resource reservation
+1e66403ea7486c30fb9afd8d3bf233d60258e199|2017-11-08|Imran Ashraf|api to print list of available custom instructions, closes #100
+58267ad3dc37cb841b45aefcbe3f8f41b48fd891|2017-11-08|Imran Ashraf|updated python api documentation, closes #99
+e4708a93842f23c93be133a8fd75bb8869c623ea|2017-11-07|Imran Ashraf|documented setup of qisa-as to pass all the tests
+9a5f61a4baa68b6680424545683650837a40c4e7|2017-11-07|Imran Ashraf|added sweep wait test as per #86
+9722968a0c698566376ff6fe8cba658868683634|2017-11-06|Imran Ashraf|fixed printing of wait duration, closes #85
+87e249ade816a2f958f66cc4dd9e02d0469a6434|2017-11-03|Nader Khammassi|Updated all Tests with QASM Vailidity Check
+6ade2771f3068b03ad20b6ebbe5dbe14cfaf0783|2017-11-03|Nader Khammassi|Shut Off C++ Compiler Warnings and Minor Reformating
+448402d39bdcf7a469cf65c637fb7c20911bc9d1|2017-11-03|Nader Khammassi|Added Python Interface for the QASM Loader
+7fc95859c62af1ca44a9ec382e9e5cbfd2bdf5a0|2017-11-02|Imran Ashraf|fixed explicit qwait timings, closes #86
+abc1bef47e932a93f718033b7e3bd96e3068d883|2017-11-02|Nader Khammassi|Fixed Syntax Errors in Scheduled QASM and Updated Golden Tests
+261d7a4f2676f297c83bbceeb2b8408387381c8e|2017-11-02|Nader Khammassi|Fixed the Bug Causing Indeterministic Out of Range Exception in Trace Writing
+8627aa1184ee6ec07900327debf694145e7553ad|2017-11-01|Imran Ashraf|merged changes from develop
+61c1b0a82edbda8403bf29c7126b991bc5da6a6d|2017-11-01|Nader Khammassi|Fixed Small Bug in Usage Prompt of the QASM Loader Test
+bc18fc3ec79cdf390d1d2d6b1f05c56ebd251177|2017-11-01|Nader Khammassi|Added QASM Loader for Syntax/Semantic Check of QX QASM
+abb1ac465d92b96222494247bef9eb6531e49125|2017-10-30|Nader Khammassi|Added Timed eQASM Generation to the CBox Backend
+f9b40aa659a29eaa7fe448b572e21b66b46fce1b|2017-10-30|Nader Khammassi|Added Iterations Setting Support to the CBox Backend
+cb7b4c1213e8c92bd61cd39a62184200e5ddc0b6|2017-10-30|Nader Khammassi|Added CBox Backend Test Example and a Configuration File Example for the new Features
+a2b259213affa6a21f433c3df6987b75ebb68523|2017-10-30|Nader Khammassi|Reversed Trigger Channel Order in the Hardware Tracing Diagram
+b69a9a50f54d1dc803c554364ef2f5a03caa61cb|2017-10-30|Nader Khammassi|Added Trigger Sequence Support to the CBox Backend
+df6262d59d0071bb3121090460143814cab142e7|2017-10-30|Imran Ashraf|documented case-insensitivity of custom instruction names, fixes #74
+ca4967aa2c85d4d55cff7a980f4725650cd5129a|2017-10-30|Imran Ashraf|explicit timing specification using wait
+b049de84825e0c5e4df73ef2e5bc9a0b722ef440|2017-10-30|Nader Khammassi|Reduced CBox Backend Verbosity
+921c9d03b8d8c3ce9e53253a983d6edfc03a586e|2017-10-29|Nader Khammassi|Added Concurrent Triggers Merging / Splitting to CBox Backend
+e89de7a1a7a646a4564a8991e42a1e33232ae23b|2017-10-27|Nader Khammassi|Fixed Trigger Inversion Bug in Ext. Trig. Pulsing Mode
+4bb2b2939c6243eb21b749e078423c84d96f0488|2017-10-27|Nader Khammassi|Added AWG External Triggering Support to CBox Backend
+ed635157e857ff5a55eb3f52f5f9c47675c56475|2017-10-27|Imran Ashraf|proper use of stderr and stdout for generated output
+5f5b34d441740881a40394ad79b6b877e56af024|2017-10-27|Imran Ashraf|successful implementation of wait to specify timing
+72253e91944b4dd4aff22950e5bb8d7f00e936b6|2017-10-26|Nader Khammassi|Fixed Compilation Warnings on Mac OS X
+545748fdcd7dce98427df5987718239a61b2fda9|2017-10-24|Imran Ashraf|Merge pull request #75 from quantumkoen/feat/fix-set-sweep-points
+ebe5146ce46b7f3e8bdb3c78468582819d2ffb8c|2017-10-24|Koen Martens|Update existing test-cases w/ set_sweep_points.
+ad777cd401398105cc3e69e236913e3b38279f75|2017-10-24|Koen Martens|Fix signature of Program.set_sweep_points
+5b019ee054d045f076de02e0b286dd3be0d5b13a|2017-10-24|Nader|Merge pull request #73 from QE-Lab/hotfix/version-authors
+3f361d94d53508f847937851031d7c02d3a9f420|2017-10-23|Imran Ashraf|updated version number and author details
+c07445c8a97061babbb569d76796a84086feb48f|2017-10-23|Adriaan|Merge pull request #65 from QE-Lab/v0.3_cclight_eqasm
+cdff5e3302716478ac525a6736831fbcaa5a7468|2017-10-23|Imran Ashraf|support for 'none' type instructions
+766ce9fac6fb2fd489aa24b05ce4c165e910804b|2017-10-23|Imran Ashraf|Merge branch 'feat/generalized-decomposition' into cclight_eqasm_compiler
+cdad2ce71ffc3d282d2ac9db3c04b0fdc88fa1e4|2017-10-23|Imran Ashraf|fixed multi-kernel qasm printing
+7f9d7fc3f97fe2a688aba746fb833c92bfceca13|2017-10-22|Imran Ashraf|documented parameterized gate-decomposition in configuration_specification.md
+813d881dfab6d5b580aa85014acfe05b57d80604|2017-10-21|Imran Ashraf|merged recent work from cclight, all tests passing
+6cb19a6e37c1d7c5efd64db76d482e46946b636f|2017-10-21|Imran Ashraf|raises exception for different opcodes of same cclight instruction
+39021338339265788b34d2a23dc70bce570bfbca|2017-10-21|Imran Ashraf|reduced verbosity
+822bab673f1816a3a0035dbb2fb762d63df525b7|2017-10-21|Imran Ashraf|Merge branch 'feat/cc-light-buffers' into cclight_eqasm_compiler
+2f46efa6e5978ee3e623d8033164c86fd6d5c773|2017-10-21|Imran Ashraf|added buffer-buffer and instruction latency tests
+7b413aea856dfe7c75d5c3e7d3d74c674ba6ab0c|2017-10-20|Imran Ashraf|Merge pull request #67 from quantumkoen/feat/disable-parallel-make
+6d9607c8e3edda47c5ee65320be1f72d7fee3dfa|2017-10-20|Imran Ashraf|Added support for buffer-buffer delays and instruction latencies
+a71979ecd73db60bccd41c16b9c7cc8a2b809717|2017-10-18|Imran Ashraf|more sanity tests for input qubits
+d1a3958f2e547a519735c04fb2ab8b505948735b|2017-10-18|Koen Martens|setup.py: remove -j option from make command
+7606c382ac0a721e98a9e24fb29d3a965e228493|2017-10-18|Imran Ashraf|initial implemetation of latencies
+0c2ff5267fd83d1d186eddc0b57cbf2d19b33983|2017-10-16|Imran Ashraf|merged with cc-light branch
+b73e3ffdce0686ab502cda249200577af2ef85a2|2017-10-16|Imran Ashraf|updated cc-light specific instruction configuration details
+40765ded4669175a08da2eefb6ce2b3baae6ba24|2017-10-09|Imran Ashraf|better error/exception handling for supplied gates, kernel and program
+462ed2a4d1629ba241669475c53667267f8da8f7|2017-10-06|Imran Ashraf|added paramaterized gate decomposition test
+8a986b3ef97817972614adafd1cb05ab7dedd64e|2017-10-06|Imran Ashraf|support for parameterized gate decomposition
+b1f1696f96df7c23290baf290d07ad6265bfc0de|2017-10-04|Imran Ashraf|just before modifying the semantics of gate decomposition in hardware config
+64db4c137b64cdb616cb04d1e086ebc09cae929e|2017-10-02|Imran Ashraf|merged bug/type-cast to fix #62
+a8494680613fc0912aa4bb9184d0a4d8b1f94a08|2017-09-27|Imran Ashraf|Resolved type-casting bug to allow different int types for qubit numbers, fixes #62
+85d4b8b2a64f5fb8b1fa14b08cdadf8eb644428b|2017-10-01|Imran Ashraf|tested first working version of buffer to buffer delays
+0c2c5f0100dc87c51b302b059b54a9a68d1a6b80|2017-09-28|Imran Ashraf|fixed readout delay addition
+951263be660b9f08f96b83cc9e98456c53ed4b9c|2017-09-28|Imran Ashraf|generation of qwaits instead of nops in the generated qasm
+27ea35e75712255a138d7bb9707f40a8ae96879e|2017-09-27|Imran Ashraf|updated the recent qisa-as, test passing on linux
+7d1b38a10b2187265a3a12e15c366e95533cdb00|2017-09-26|Imran Ashraf|Merge branch 'cclight_eqasm_compiler' of github.com:DiCarloLab-Delft/OpenQL into cclight_eqasm_compiler
+143dd541f57a81dd172a591e4e89ef2ae3caf643|2017-09-26|Imran Ashraf|fixed tests on windows platform
+0d33f432a4ff780efc3145be5b4599e852f2d4e5|2017-09-26|Nader Khammassi|Merge branch 'cclight_eqasm_compiler' of https://github.com/DiCarloLab-Delft/OpenQL into cclight_eqasm_compiler
+444208059d723b598bcc10d2648ed1e48c68aafb|2017-09-26|Nader Khammassi|Renamed the Assembler Instruction Opcode file to "qisa_opcodes.qmap"
+2e55705beb6a83dd6fe054d98b90c668b06c07bf|2017-09-25|Imran Ashraf|Merge pull request #58 from DiCarloLab-Delft/cclight_eqasm_compiler_resource_constraints
+588d1075953916ffc4fedf5085c53b953f08eb31|2017-09-25|Imran Ashraf|fast feedback test
+ba71c4601e0c6a12ebfa95b17278c65c6317ad8c|2017-09-25|Imran Ashraf|fixed failing tests after merging
+6d47925ece88f38d9584b166612bdf898beba6fa|2017-09-25|Nader Khammassi|Fixed Failing Test (Incorrect Gate Decompositions)
+d7feb0978491554dd6c401858daae416d3063b4d|2017-09-25|Imran Ashraf|proper testing for measure resource availability
+da7a1b407f17ede77eefb693d26a56af521ae6da|2017-09-22|Nader Khammassi|Added Gate Decomposition and Alias Support
+38f36c20a646b96c3d3bb22f2081111c52a33e6f|2017-09-21|Nader Khammassi|Added Arbitrary Rotations Interface to the Kernel
+ceb1b7e43494a6ba4e3e1958309e862923fde3f8|2017-09-20|Nader Khammassi|Merge branch 'cclight_eqasm_compiler' of https://github.com/DiCarloLab-Delft/OpenQL into cclight_eqasm_compiler
+51e479e5f507c60875dbd0efb3a6766ecb09fe3d|2017-09-20|Nader Khammassi|Added Arbitrary Rotations Gates (Rx, Ry, Rz)
+464c77ade1a984d82075f7ed0216fe4765ac0885|2017-09-19|Imran Ashraf|updated configuration specification to document platform resources/connectivity specification
+d2b976531acbafd075c55991383e4c683782faae|2017-09-18|Imran Ashraf|added test for resource-constrained cclight scheduling and compilation
+772097392751d1a3cbd4ad81b5c321f0cf3b86a4|2017-09-18|Imran Ashraf|platform constraints and topology specification in cclight configuration
+7f98743fdaa2b8751a760f8018da760353f1a1eb|2017-09-18|Imran Ashraf|resource constraint scheduling and code generation for cclight architecture
+dd2df622eb77b7682226ba0db96b6a19fc15ffaf|2017-09-13|Imran Ashraf|exception is now thrown if configuration file is not found
+92993c04968a2647436ea7dbdb56ca0603d7ea02|2017-09-13|Imran Ashraf|parallel/faster build for Windows as well
+97dd4fc5d3f360888e7831ad239c91181bafa1d2|2017-09-13|Imran Ashraf|fixed issue of wrong exceptions being raised
+40ad97dbffa9925e78af0f7f2587c1ee9e34d4ef|2017-09-13|Imran Ashraf|Added notes for installation on windows
+ed9a3983f9a2b5d3d39236722dd176022125fceb|2017-09-13|Adriaan|Updated CCL config
+0d12da249f0d8c2c574c9efdc7656120e0b18be6|2017-09-13|Imran Ashraf|use of cycle_time in the platform for instruction duration conversion, closes #45 and closes #54
+83b9bbeb2dd4daddbb9ffca97fe627cf403b3e4c|2017-09-12|Imran Ashraf|4x faster compilation time, at least on my machine
+893e291b737d9f54f26593e7f4d5c82204dd9653|2017-09-12|Imran Ashraf|actually throwing exceptions
+5aa87e3890984ffcf02217f59e4f3e3201b3d67a|2017-09-12|Imran Ashraf|custom gate preference, multi-kernel testing, fixed configuration
+099cdc977a9faa9eab63e22e91b879deef60e991|2017-09-08|Imran Ashraf|correct cz opcode in json file
+c7e0e1541ad94d768e3e3ee41b3a9b9407c4397a|2017-09-08|Imran Ashraf|proper treatement of measure instruction
+1ee0c47e75647dd8c4a4ea3247406ec321d0c954|2017-09-08|Imran Ashraf|platform can be asked to return qubit number
+1276f6a0336e87de0657884bc7be37dd5495191c|2017-09-08|Imran Ashraf|addition of br and nop instructions in generated cc-light code
+668ea77b5e3a08ffcde06f88f44bf5e4437323dc|2017-09-06|Nader Khammassi|Added Opcode Validity Check in the Hardware Configuration Loader
+6c2dfbaec902b2b7c5dec860ffbdfb1291229504|2017-09-06|Nader Khammassi|Fixed Syntax Error in QISA Instrution Map Generation
+0f19ea0218136b0f161c117b13bbb07119fdfdfe|2017-09-05|Nader Khammassi|Merge branch 'cclight_eqasm_compiler' of https://github.com/DiCarloLab-Delft/OpenQL into cclight_eqasm_compiler
+3933b27b3b94edcdc6a0856b1ca8e381e5c63889|2017-09-05|Nader Khammassi|Added QISA Instruction Map File Generation
+60bd79ab42ed5ff905d301b71d2ab1bd75231802|2017-09-05|Imran Ashraf|fixed custom gate naming for generated qisa
+f96517f861103a9ea72f2e50595086a789842f6a|2017-09-05|Adriaan|renamed ccl test
+8cc50d3960a39016412cdd7afbb5c1174f8b08d5|2017-09-05|Adriaan|looking for qisa extension now
+a8c474c7816b5190c0e5355b4ea9e48bff40f950|2017-09-05|Imran Ashraf|finally the correct qisa file names
+2b22a7a6872cc73e1eec58d66132d994d7a8cd4a|2017-09-05|Imran Ashraf|Merge branch 'cclight_eqasm_compiler' of github.com:DiCarloLab-Delft/OpenQL into cclight_eqasm_compiler
+b28c907fbc2ceadcc51e91612f64ba4126785ec5|2017-09-05|Imran Ashraf|proper vervosity check
+2ad3ec9e2083254db54d5b676ef17dae9b1eaaf0|2017-09-05|Nader Khammassi|Merge branch 'cclight_eqasm_compiler' of https://github.com/DiCarloLab-Delft/OpenQL into cclight_eqasm_compiler
+8a3bf26a060d00e15979f3f5b2506adbeef438e1|2017-09-05|Nader Khammassi|Added Binary-Controlled Gate Support and Fixed Control Store
+23f7c823b5a0e8ca8ff22d5b8f07f330cba71950|2017-09-05|Imran Ashraf|consistent name for generated qisa and time stameped qisa files
+6c6dc377565a73b8ff383ad5eb136fa2d8586970|2017-09-05|Adriaan|New config for CCL
+5e4f48722ea15631ad8fe327dd6b6e017bd55b18|2017-09-05|Imran Ashraf|Merge branch 'cclight_eqasm_compiler' of github.com:DiCarloLab-Delft/OpenQL into cclight_eqasm_compiler
+483cb69264c243a9ebf87efda031d06ec9b9bf67|2017-09-05|Imran Ashraf|fixed qisa timing issue and other small fixes
+10704bb94f6e8290e39d199db2acda5d05d178e9|2017-09-05|Adriaan|Changed assembler tests a bit
+6d318bcd8096ce08a116ff80ff3fcf53a822001f|2017-09-05|Adriaan|Merge pull request #46 from DiCarloLab-Delft/CCL_assembler_test
+e47178f4f82765cca5835b3d2316d40493381346|2017-09-05|Adriaan|Added tests using the assembler
+60fcd7656af9e5631866aa8a1396cfd7f9662ab2|2017-09-05|Adriaan|Added some info to the QISA readme.md file
+adebac99a2e31f4d3dd7346a81da16bc454932f3|2017-09-05|Adriaan|Copied the qisa-assembler from the CCLight repository
+1cbeaf302d39062fe3786392ab725474b4d8823c|2017-09-05|Imran Ashraf|time stamped qisa generation
+bc0d1c7981a71349d6b1fd816276df8645dfc010|2017-09-05|Imran Ashraf|changed starting pre-interval to 1, fixes #44
+1a5dd470a6c8826ab0a06936bbd0f58befb72182|2017-09-04|Imran Ashraf|added various single/two qubit cc-light tests
+1252f826d39ec84b1fbe5a2a8d51db363b018ccb|2017-09-03|Imran Ashraf|two qubit mask generation support for cc-light
+ff18b27fe8c10b66f2f4e1338f60d6f75efc13bd|2017-09-02|Imran Ashraf|initial implementation of cc-light scheduler
+68aa3603fb9444089a9548a89dc2b96b88cef290|2017-08-29|Imran Ashraf|Merge branch 'develop' into cclight_eqasm_compiler
+a361c94a2ecb6785916deb39495a58453d98c227|2017-08-29|Imran Ashraf|updated scheduling based on duration and cycle time in configuration file
+8a06f2a6e8b5aa1fb645887a990f3fb91031755a|2017-08-29|Nader Khammassi|Added CC-Light Control-Store File Generation based on the Hardware Configuration
+1d3cbb167a92638bdb69397634c3383be23e74dc|2017-08-28|Imran Ashraf|proper makefile for quick testing of feature under development
+0717d659937e92e62e184d77508264280025c1f1|2017-08-28|Nader Khammassi|Removed unused Code
+01ae38071e16cc12c8844e2c5226cd6ada658f07|2017-08-28|Imran Ashraf|Compilation/installation progress display and fixed warnings
+91954b718a47be93c9c4fb35498639c3b1ccded2|2017-08-25|Nader Khammassi|Added Single/Two Qubit Gates Support to CC-Light eQASM Compiler Backend
+81977aa248b7103277dd7527af11fcc9f1600f52|2017-08-23|Nader Khammassi|Added CC-Light eQASM Backend as Supported Backend in Program Compiler
+e59b558f48d27a7f227236c874025668f7c6e975|2017-08-22|Nader Khammassi|Added a new Hardware Config File for CC-Light
+2a2d009992a24ca6a043359e627725157ff45b83|2017-08-18|Nader|Merge pull request #33 from DiCarloLab-Delft/develop
+20b339ffc9efdaf39c7362730b73b94be4647454|2017-08-18|Adriaan|Merge branch 'master' into develop
+2f9ae76ef3ec4d3269c760a84e60de68fb95b2ca|2017-08-18|Adriaan|Merge pull request #30 from DiCarloLab-Delft/cbox_eqasm_compiler
+01cbc0031f70a65cfb198ece3d9a83a0270860cf|2017-08-18|Adriaan|Maded golden scheduling tests known failures
+1758ce9948760925f37faf87b90bebb893babacf|2017-08-18|Adriaan|fixed comparison to golden for qubit test
+492021d5378f9b7ed83f0a5e996b3a2282af25f5|2017-08-18|Nader Khammassi|Fixed Trigger Instruction Code Generation
+fb1442e0a63464ff51b5659b64a14b9f0d2bff30|2017-08-17|Imran Ashraf|Proper handling of exceptions
+f3277679eb6949557e8721030cf52b62aba7c219|2017-08-17|Nader Khammassi|Added Deep Syntax/Semantic Checks and Associated Exception Raising in the eQASM Compiler
+b97064ba49bf5c0363dff9634c26df0e4a928bc6|2017-08-17|Nader Khammassi|Fixed Code Generation for Triggers and Codewords
+63d08260ede26b78d8352cf294fdd625f5fa9627|2017-08-17|Nader Khammassi|Fixed Code Generation for QuMis Pulse Instruction
+12c12ee532ad56e781264ba81a03fd16b62d0dd9|2017-08-17|Adriaan|Fixed bug with broken jump at end of qumis
+16f14399ab69b7ba262b7d5d18c7f1909f64c79e|2017-08-17|Imran Ashraf|Merge branch 'cbox_eqasm_compiler' of github.com:DiCarloLab-Delft/OpenQL into cbox_eqasm_compiler
+b1d7ffcc18d44c1409ab9e5f57e03896a17f42f8|2017-08-17|Imran Ashraf|wrapper for ql configuration exception and corresponding test
+ad261f02cf3b0c6223099e17a5fe4565f7555a3b|2017-08-17|Nader Khammassi|Merge branch 'cbox_eqasm_compiler' of https://github.com/DiCarloLab-Delft/OpenQL into cbox_eqasm_compiler
+ac9657eb3bc669c68ac755a3bcb919b5f2b97f5b|2017-08-17|Nader Khammassi|Added Exception Throwing in Custom Gate Loader
+2877622181f635665889d745629aa3dfd2ee1747|2017-08-17|Adriaan|Added CBox assembler to test against
+97f14d432ab5d274b0501a29db1ca991fe636336|2017-08-17|Nader Khammassi|Merge branch 'cbox_eqasm_compiler' of https://github.com/DiCarloLab-Delft/OpenQL into cbox_eqasm_compiler
+64a84cba86da5c35072961a7a846cea3bc80ddf7|2017-08-17|Nader Khammassi|Added Proper ql::exception Throwing in the Hardware Configuration Loader
+886cb29b54d8063f3e10810e1ef1756f7fd6b02c|2017-08-17|Adriaan|cleaned up test a bit
+a1f9422fb78c62c0d6f5c3a97945ef1d041ede2e|2017-08-17|Imran Ashraf|support for (portable) testing and creation of output directory in python wrapper.
+a78493fd48a14aacb46aa00f4ef58601acb2ffce|2017-08-16|Nader Khammassi|Merge branch 'cbox_eqasm_compiler' of https://github.com/DiCarloLab-Delft/OpenQL into cbox_eqasm_compiler
+cbb14191d5981829c6c50c72303719220171c649|2017-08-16|Nader Khammassi|Fixed Segfault Error during Compilation
+6661fbc615deeb00523baf1de70acb7ae152f9d4|2017-08-16|Adriaan|added one more use case
+47ab5fdd7c4c6530138ba5f6d12c7863415223d1|2017-08-16|Imran Ashraf|got rid of init in tests
+d074f2208682294252575b8b791c4874799cd79e|2017-08-16|Imran Ashraf|Merge branch 'cbox_eqasm_compiler' of github.com:DiCarloLab-Delft/OpenQL into cbox_eqasm_compiler
+16f07967bcb149a2cd626fcbf8c69d28a1dd2e67|2017-08-16|Imran Ashraf|schedule inside compile
+68f31296f9141fd2bf935461e2f3453578fb469c|2017-08-16|Nader Khammassi|Merge branch 'cbox_eqasm_compiler' of https://github.com/DiCarloLab-Delft/OpenQL into cbox_eqasm_compiler
+035e3e286278e86d58e70a9300612bb17572fba3|2017-08-16|Nader Khammassi|Removed Deprecated Initialization and Instructions Map
+7307411945f1b4b9969ceff1b1a3a5996106ce68|2017-08-16|Adriaan|Added default output dir
+5a6a517b123b925c8194e868afdeaaaaa1636551|2017-08-16|Nader Khammassi|Merge branch 'cbox_eqasm_compiler' of https://github.com/DiCarloLab-Delft/OpenQL into cbox_eqasm_compiler
+cdc48310d15ad49b68cf1ddcdb5e244396dca3f6|2017-08-16|Nader Khammassi|Removed Deprecated Initialization
+d934bd836d2846682140a4a3440877dcc368b602|2017-08-16|Adriaan|Merge remote-tracking branch 'origin/develop' into cbox_eqasm_compiler
+5e92f0f111c7490a57653b907a9c68d9fb9dd348|2017-08-16|Adriaan|Fixed missing import
+f41050975527d41a85baf0b81616cafe6111caba|2017-08-16|Adriaan|Fixed build script after refactor
+ad8e31d76b4acaec31ff3a36dc5ebff1ba80b913|2017-08-16|Adriaan|testfile
+6a18341139460b72a89cd478ed43a34674fe897d|2017-08-16|Adriaan|single Q experiments
+1b46649367bf9601af84f88011bb6ced540362f8|2017-08-16|Imran Ashraf|merged changes
+28a3e2fd54b2dc3582deb4c4454734760be42f5f|2017-08-16|Imran Ashraf|set/get output directory for all the generated files
+01e9db44f754ed267dba92a36b8c2654a77e1660|2017-08-16|Nader Khammassi|Merge branch 'cbox_eqasm_compiler' of https://github.com/DiCarloLab-Delft/OpenQL into cbox_eqasm_compiler
+b32be9733d95790fb3e6d8e88981e5b85f8bded4|2017-08-16|Nader Khammassi|Removed Output Folder
+63a45d299e9488286528ceb3aa94dc339dc447b8|2017-08-16|Nader Khammassi|Fixed CNOT/Toffoli Gate Name Errors
+d23e7088d4015e2f5eeff3b19068dbe619be69e0|2017-08-16|Adriaan|added some getting started hints to the readme.md
+b2be6e970c323a260bc77b18950624c0d457e0f1|2017-08-16|Adriaan|Added AllXY sequence as test
+240aecce26f6747bce05716d73a9e7561866f297|2017-08-16|Adriaan|better docstring for openql platform
+759c2892815a4c28ae74ebde8a90000a0f780f9c|2017-08-16|Adriaan|Added back test cfg
+09293b98f376c4f346379c60c88e1678296d6c96|2017-08-16|Adriaan|big cleanup (deleted double files and only one config)
+518b4671c93e6d2b73a8a17e49f07befcf602842|2017-08-16|Adriaan|removed old test file
+b244e5d927c78b00308fb08308a567558675b704|2017-08-16|Adriaan|minor fix readme
+87324fbcb4df3d43e057583e1c7b40017c8ab2d7|2017-08-16|Adriaan|Updated install instructions
+4f20d6fc497f03090bf1952a325b81b057792f10|2017-08-16|Imran Ashraf|updated python tests
+0397ae2bc2a4e8ffdb7f9ebd903497769051862b|2017-08-15|Nader Khammassi|Fixed "Unsupported Gate" issue, Reduced Verbosity
+5a7d8fef6a28480a5721984eced8ece9bd91d72a|2017-08-15|Adriaan|OpenQL basic test script python
+506072da5a4740de6349807b2048f27a2d48f9cc|2017-08-15|Adriaan|Updated tests to work with new platform spec
+59e88d97c18514ae7374d98be09acacfc10fe16d|2017-08-15|Adriaan|Converted tabs to spaces in test files
+321e972a53e3d8ad23215bb19d2aee0a2e3e7c4b|2017-08-14|Nader Khammassi|Fixed Default Quantum Gates Naming
+6cba9154fd28384a1d566110cf00b9ed7cb33cfd|2017-08-14|Adriaan|Updated readme and fixed python install
+9d06687a26c606fc0b1f9011f4a1ab3929817d51|2017-08-14|Nader Khammassi|Implemented Automatic eQASM Backend Selection in Quantum Programs
+dd41eaad96d58f5ffc9946677beff37f3405d812|2017-08-13|Nader Khammassi|Fixed Python Module Compilation on Mac OS X
+e6d016046463e81aa34346a95ef44bdfbdafdefe|2017-08-11|Nader Khammassi|Merge branch 'cbox_eqasm_compiler' of https://github.com/DiCarloLab-Delft/OpenQL into cbox_eqasm_compiler
+0b24ddd5a0f74516da67de2d60d1b532f3702176|2017-08-11|Nader Khammassi|Adapted the Tests/Examples Code to the New API
+1f3cb728760b533240061fe06484061006128877|2017-08-11|Adriaan|Added more explicit instructions to readme.md
+5382e775b27ebdf1d31a055c72082dd2e64e1b32|2017-08-11|Adriaan|Merge pull request #29 from DiCarloLab-Delft/config_specification
+59380ba188a9cf36f83ca00aa047e4b41ebddf67|2017-08-11|Nader Khammassi|Added Qubit Dependency Analysis at the eQASM Level
+7d87f818a57d4166557b12c3a91d95ed1f36029f|2017-08-09|Nader Khammassi|Simplified Custom Gate Programming Interface
+0d8509cbeac44add474eab5a4be6985e615f1a64|2017-08-09|Nader Khammassi|Added Buffer Insertion Support in the Scheduler
+62701467d2c036847b4fdb3726d749fdcd976331|2017-08-09|Nader Khammassi|Implemented QuMis Code Synthesis
+ac3e2570e65c85d82044a000a1ccae3480786288|2017-08-09|Nader Khammassi|Fixed Latency Compensation Bug for Measurement
+24990711d39273b9117260cc99881fbda44bf995|2017-08-08|Nader Khammassi|Implemented Instruction Scheduling, Dependecy Analysis and Latency Compensation
+a75893d56a423febe9c5999e22697c1dda4269e7|2017-07-31|Nader Khammassi|Implemented the main Compile Function of the QuMis Compiler (CBox eQASM Backend).
+098d10e5eb8274fac875dbabaebecad3bed56c5a|2017-07-28|Nader Khammassi|Implemented the Custom Gate Loading from the Configuration File
+45c665181538e7965c17c0b208e54c97af080ea7|2017-07-27|Nader Khammassi|Added Qubit Number Field to the Hardware Configuration File
+3d4640f02412358d26900a4160290081e14b00f4|2017-07-26|Nader Khammassi|Added CBox eQASM Compiler Module
+86d3bf6f1061b169d88467bbad1ac84f700e713e|2017-07-26|Nader Khammassi|Added 'ql::quantum_platform' Module to Load Hardware Setups
+db6fd053e76d2eb639b60c72fa469656527bdedf|2017-07-24|Nader|Merge pull request #27 from DiCarloLab-Delft/example_config
+c09db4fcee3d19d917df63b226904d9e9cf0e9c1|2017-07-24|Adriaan|example config
+0653be7b06f4a943ec3a04e83007476bc7dccfeb|2017-07-24|Adriaan|Merge pull request #25 from DiCarloLab-Delft/xiang_config_spec
+e1f135cd5c61f39250cd11166870cb9ac9526590|2017-07-24|Adriaan|Merge pull request #23 from DiCarloLab-Delft/config_specification
+9cb265a11a5844529f8f793abe0b56de7dfeb5b1|2017-07-14|gtaifu|corrected the edge number in the figure.
+6938f14988848b262d9b52d09d9acca83548f1b9|2017-07-06|gtaifu|Added configuration specification for CC-Light.
+96254eb147313886f71975f62b10a83c1def2ba3|2017-07-03|Adriaan|Proposal for configuration file structure
+c72e4264f651ef4bbec61e4c94518ff894397c4e|2017-06-27|Imran Ashraf|cleaned temporary files from lingling's commit
+8dac42b218f14e62589fcc5371787f4ce532ac3f|2017-06-27|Imran Ashraf|Merge branch 'imatrix' of gitlab.com:qutech-ce/openql into imatrix
+bb75743af007511f14e37cecb0d3985e05b33ac2|2017-06-27|Imran Ashraf|added support for T and Tdag
+0f0f4d46897119a91415b4daecbbd79a07b9c9c9|2017-06-22|Lingling|Lingling's test
+cc5f8b1f72700251d99c1097557d8c05b95749f9|2017-06-20|Imran Ashraf|interaction matrix support for lingling work
+bfd44671b47863ced3b6cd3c50b670b228dc7264|2017-06-19|Imran Ashraf|Added docstring for the python api, closes #4
+f3c82c086505975418194039f6d2fdc0774ed7e2|2017-06-17|Imran Ashraf|added multi kernel test
+2fdc247aa543e634763d4e7defc8d1de16b8d922|2017-06-17|Imran Ashraf|testing various dependence cases
+ee1c97f9606a3c1da31e5c16b5ca3d66af73e8e4|2017-06-14|Imran Ashraf|cutom gate interface closes #9, closes #5
+41239b83a3770cf75a3fb50e365875434b1d7c23|2017-06-14|Imran Ashraf|miscelleneous small modifications closes #12
+319cdc47aa50cb46afe3191aad9a745823e1e6d9|2017-06-13|Imran Ashraf|added basic compilation/qubit tests
+50a6d9079da037b22bc789960378a53cb8f9a141|2017-06-13|Imran Ashraf|Merge pull request #8 from DiCarloLab-Delft/enh/tests_and_examples
+ac6a0bb3ee0f7e2d6a01a7a6f6cea139e56b0b6d|2017-06-13|Imran Ashraf|Merge pull request #7 from DiCarloLab-Delft/enh/gitignore
+625fdd48ac8ffb3876ef145cf6f71d9f60960611|2017-06-13|Imran Ashraf|Merge pull request #2 from DiCarloLab-Delft/enh/install_osx
+b2bd464d0dcf966eced4e7edef18ae704ab5a4be|2017-06-13|Adriaan|More tests and some non working examples
+37b61eda99b3cc167b2261ccccab15a3c1e00561|2017-06-13|Adriaan|autopep8
+9f1426de70a4a20ca763d7f8394115f48c295322|2017-06-13|Adriaan|Basic tests
+ab32466b445324a8249f8646497660db9e413314|2017-06-13|Adriaan|Updated gitignore and removed files that should not be tracked
+73779752dc134f079a42d41ddc6cbb68ba2b0d50|2017-06-13|Adriaan|Basic tests
+d0259cc6aafc0981d390bc7fd15c541db47a768b|2017-06-13|Adriaan|Updated gitignore and removed files that should not be tracked
+ff99e59d5e3d39840abb0cfd464b48f8410e2bfc|2017-06-13|Adriaan|added nqubits as keyword argument to make example more clear
+79d01f6e1d84f8e1dd0a11e14b339dd3ee33dccb|2017-06-13|Adriaan|Tested installation on mac osx and made a few changes
+cbf673c82cb8d1c6abf911874b3c73cd2a916160|2017-05-18|Imran Ashraf|fixed warnings
+b2ab89145ae0686c6e9db709500c61dbae2c2659|2017-05-17|Imran Ashraf|alap dot graph printing
+5d75beb98738681205363e02dea82c80130149be|2017-05-17|Nader Khammassi|Added Multi-Qubits Randomized Benchmarking
+b8f210d1d60ee6ceab6d94786740172c6e591bc3|2017-04-30|Nader Khammassi|Added a quantum kernel programming interface for user-defined instructions
+1ecd60050df6c94a623a45f031eff101a00b1505|2017-04-27|Nader Khammassi|Split main openql header into modules.
+a01a33bd0dd5c77ba4ad5ad9bb232d139e5d8037|2017-05-02|Imran Ashraf|Updated instructions for python package setup
+bb108b20ce2798694c2de58d6cbe308ca0d1f557|2017-05-01|Imran Ashraf|Extended python api
+07fc8480cff8a63c6e3c1b81d89525cd850e137b|2017-04-30|Imran Ashraf|OpenQL now available as python package
+2bac74f783b404700f55e09720f71b1cb8abfce4|2017-04-26|Imran Ashraf|working version of initial python api implementation
+985f05ff7329b80da5c62eaea494ef1a34be33f8|2017-04-25|Nader Khammassi|Added Mac OS X Compatibility in CMake
+6981b3d3e78dfe2e4a656909a7a12009bc3e3e1f|2017-04-25|Nader Khammassi|Added custom gate support
+3c0d55db46e925224ce00920c7724758ce166340|2017-04-25|Imran Ashraf|no need to install lemon separately
+ae71acc3e7a71acf1935d995a414c9e16024b089|2017-04-25|Imran Ashraf|initial api implementation
+564426e3ccfc264622183189c343718fa44f81d4|2017-04-20|Imran Ashraf|successful build on windows
+0d412d53acea2d317cba1eecc989cf9575180bb2|2017-04-20|Imran Ashraf|cmake based build
+6313c8ed1c82e65599b7abefc8d119aa3ffeec54|2017-04-19|Imran Ashraf|detailed dependence testing
+3b4e32984856cbf9558773cbd4b0e41c3a9a169a|2017-03-13|Imran Ashraf|ported scaffcc:squareroot algorithms and necessary support
+43d99d2eb1e86c5a71ccf590c4f705918df87ee0|2017-03-01|Imran Ashraf|more 2 input gates and support for gate latencies
+1b9cbcfb816577f33651f21c28a35daba7cb4d00|2017-02-21|Imran Ashraf|ASAP and ALAP qasm generation
+3263cbc68d5a2c312186048e1df023193291eca5|2017-02-21|Imran Ashraf|Implemented and tested ALAP scheduling
+887b734ab450628b92d7f4dfae824cae9ef04b9b|2017-02-13|Imran Ashraf|support for parallel qasm generation
+99d973d8e53ce830b1e2a6c14a4e7e15b89959ce|2017-02-10|Imran Ashraf|initial implementation of ASAP scheduling
+d2ad4a189b97350401fcbab964a50f4bb52c5be7|2017-02-03|Imran Ashraf|Added support for 2 input gates
+10b2741086bf63b98202799ecc7148a855c5588e|2017-01-23|Nader Khammassi|Initial Commit

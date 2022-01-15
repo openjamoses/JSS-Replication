@@ -1,0 +1,573 @@
+ed593b832c512cd8aec4b1b6f9dba7e3126e4895|2020-06-22|KAWAKUBO Toru|Merge pull request #238 from qulacs/dev
+2d0a2502ad62ff0cba2916ce1a496921549c8450|2020-06-22|KAWAKUBO Toru|Merge branch 'master' into dev
+3f64b2e57e2f38dcd57856d17bcafc734eb4bc81|2020-06-22|KAWAKUBO Toru|Merge pull request #237 from qulacs/update_version
+82361eaef1d9736db67a08f134b589c52a27fe61|2020-06-22|KAWAKUBO Toru|Update version to 0.1.10.1
+4f462cae81c44bd1c2fa9366ba3c30291238f337|2020-06-22|KAWAKUBO Toru|Merge pull request #236 from qulacs/update_eigen_download_url
+81fb94943c6803479cc6be928e998456d3f3ab31|2020-06-22|KAWAKUBO Toru|Update download URL of eigen
+5681759ec6a16979c2e72b17dc75ea8844e2f69b|2020-06-22|KAWAKUBO Toru|Merge pull request #235 from qulacs/dev
+5beb3fbcfa18837c5825f16e895a931953940701|2020-06-19|KAWAKUBO Toru|Merge pull request #234 from qulacs/update_version
+ef4fd96753dece2592fe42ecf82e8c8b020c034f|2020-06-19|KAWAKUBO Toru|Update version to 0.1.10
+973b5b41c36e3c623c4c0391917e4b76bf58262b|2020-06-19|corryvrequan|Merge pull request #207 from y-yu/add-contributing
+7fff29a2dd3efc0f2738466f0ea6bbde01724271|2020-06-19|corryvrequan|Merge pull request #233 from qulacs/build_wheel
+10d2fb8b4a902a040065f3a9eed7fe8ebec6507d|2019-12-30|Yoshimura Yuu|Add CONTRIBUTING.md
+e6b55618d0955136a19b16cdd37a4fe5ff893d8b|2020-06-19|corryvrequan|Merge pull request #229 from qulacs/fix_gcc_version_detection_gpu
+224ceb945557e3ccb4a815590412ee2c2619c84b|2020-06-19|corryvrequan|Merge pull request #228 from 5c0t-qi/bugfix/typo
+12f1f4678998048b92ead09b330da6e1fd00c949|2020-06-19|corryvrequan|Merge pull request #232 from akpc/issue-228-gate-flats
+133fa6cb4ccaba732ba6bc575721cb4e157551d7|2020-06-19|KAWAKUBO Toru|Fix delocating dynamic libraries in osx wheel
+de3fb3db5d1c00a33ff34e78a2ad55f4d100cd38|2020-06-19|KAWAKUBO Toru|Add settings for uploading sdist/wheels to PyPI
+fc74312579a85acc3cb813033d58482650cdde06|2020-06-19|KAWAKUBO Toru|Make optimization flags for wheel build less restrictive
+a73a9a379870eda7128c66d0e58f8e744b07bd25|2020-06-19|KAWAKUBO Toru|Fix passing environment variable to cibuildwheel
+b8ecd78aefa2e6e55ad1776457ed95dedda6091c|2020-06-19|KAWAKUBO Toru|Temporarily disable build ad test stage
+f43d0f6644119ebfd227b5079954a9d7068c70d6|2020-06-19|KAWAKUBO Toru|Pass compile optimzation flags via environment variable
+a8748a101b442d1f8b068a9e297a58baf9642e27|2020-06-19|KAWAKUBO Toru|Try to fix wheel build
+4aa3bdf59db1916eab15d16bf1fe56b03bf1e12a|2020-06-18|KAWAKUBO Toru|Add more settings for wheel build
+ed2c20ea63fbd5715621ca03e02ee2420f138595|2020-06-18|KAWAKUBO Toru|Add wheel build settings for Linux
+2e27c69751aa3750812b52f5e91b67bf20f1d951|2020-06-18|KAWAKUBO Toru|Add wheel build settings for Windows and mac
+d178ba9ea8e0740a9d0fd42874d86703bc21cf3f|2020-06-18|KAWAKUBO Toru|Add stages and empty jobs for wheel build
+ac0e36ff8bb116a7b0b42b40ba7ebd15efa5aeb7|2020-06-18|KAWAKUBO Toru|Refactor .travis.yml using YAML anchor/reference
+854841a0eec06856892c6ad0b93f72886752d974|2020-06-17|akpc|add FLAG_Z_COMMUTE to S, T, Sdag, Tdag gates
+9f048cf958cb508976e1dbf99bd7b3ff813f8cae|2020-06-17|J. Chen|Merge pull request #1 from qulacs/dev
+21f1c15c134400858863a58cb65c3d92349291d5|2020-06-10|KAWAKUBO Toru|Fix compiler specification in setup_gpu.py and setup_singlethread.py
+0cc0ea55c43716b7510b07c65b83df7894626c27|2020-06-09|KAWAKUBO Toru|Merge pull request #225 from FullteaOfEEIC/mybranch
+a975965d2c77c0741a052f85aad1fa5022469be4|2020-06-06|5c0t-qi|PauliOperatorのexampleのtypoを修正
+7f45550b01b873d8436740abbba7eebad8c4ee57|2020-05-21|corryvrequan|Merge pull request #216 from qulacs/fix_gcc_version_detection
+e35759b2adfc0034076fa3203cb8bfa84421e26d|2020-05-20|KAWAKUBO Toru|Search gcc-9/8/7 if C_COMPILER/CXX_COMPILER environment variables are not specified
+3f1f7f4fa5b5934d62476832259901da7e010ef9|2020-05-16|FullteaOfEEIC|fix: Dockerfile
+2300144ce4fc116784d438024917c82f3b3497d6|2020-05-01|corryvrequan|Merge pull request #223 from corryvrequan/bugfix/remove_unused_prototype
+8762320accbb9630cb15fc62c264d73930044df3|2020-05-01|corryvrequan|Merge pull request #222 from corryvrequan/update/readme_20200429
+5d5990675b85a5635cc5818228cf5b07a1935b36|2020-04-30|corryvrequan|remove unused function
+53faf1bb285a1d1e706dae2049506c41675c2c8d|2020-04-29|corryvrequan|update readme
+14747f959474f0342032f96f84f97a8ad4e7ef90|2020-04-29|corryvrequan|Merge remote-tracking branch 'upstream/master' into update/readme_20200429
+8738012d4895c118ab48c9b73af62ff7ed308e0b|2020-04-30|corryvrequan|Merge pull request #221 from corryvrequan/feature/diagonal_gate
+2f3519f75f1d68ccdcc0167a1873af051463763e|2020-04-23|corryvrequan|fix wrong prototype declaration
+ecb03776aa20ee8773ae1b677ee328669ceaff01|2020-04-23|corryvrequan|fix cast for linux
+aeb7c54c7055f5858bedea955fd29c6f86963892|2020-04-23|corryvrequan|add diagonal gate
+5a0500d923813560f128a2fd6381e46d46de7c10|2020-04-23|corryvrequan|Merge pull request #220 from corryvrequan/feature/three_qubit_gate
+a1eb7cd2fb62243d28fc1ebd4da9fbd8126cf126|2020-04-23|corryvrequan|add toffoli and fredkin
+a2d3ecd5632015fdbd9c1a64e4d7c34c8baac18f|2020-04-23|corryvrequan|Merge pull request #219 from corryvrequan/feature/add_functions
+a5401eb92e2873b1c5411cd78a1e8d09a6dc3560|2020-04-23|corryvrequan|add protptype declaration
+c858bb4dd549fc56d98b8364b586952689fb0449|2020-04-22|corryvrequan|update double dense matrix gate
+698101d3c79980eb350ee3fbbb963222ed205ccc|2020-04-01|KAWAKUBO Toru|Fix compiler specification in setup.py to respect environment variables
+7a1e43985d874039843051581df291324c0d4377|2020-03-11|corryvrequan|fix bugs in linux
+e256f849bbc7966c9a68fd254c10e2b205a2d2b6|2020-03-11|corryvrequan|add light gate fusion and optimize two qubit gate
+9de1d5e689eb8a9733a9f7d999a300026658d1c4|2020-03-11|corryvrequan|Merge pull request #214 from qulacs/enable_opt_flags_override
+9326912eb1a22d6101005c40b7a8ff59b12c6990|2020-03-11|corryvrequan|Merge pull request #206 from y-yu/patch-2
+1c6c2f09616163eb92669cb7e9fb1ee78b7c2e42|2020-03-11|TenninYan|Update README.md
+a541e8b9f5ab67a7927fa37c6ee394c8d979d697|2020-03-11|TenninYan|Update README.md
+0cfaeff7962c2a6341f98ab1d9409787bd9ca4d0|2020-03-02|KAWAKUBO Toru|Fix setup.py for Python 2
+1d8ad416ed1d1741ba84c807cc03399c6d319a8c|2020-03-02|KAWAKUBO Toru|Add support for override of compiler optimization flags
+970a443bc06bb61bf6c7486bad0592d0a1436c54|2020-02-24|TenninYan|Merge pull request #213 from qulacs/TenninYan-patch-1
+1f2bc7cb46bfd7252cd834a02510eaf3ff965cf7|2020-02-24|TenninYan|Add how to cite in readme
+6caca514ac4e96c5ec2ca1034e940227e50cb357|2020-01-27|TenninYan|Merge pull request #211 from qulacs/TenninYan-patch-1
+5fdd5e38d81ba2381609069f8c09f903bce2bdfe|2020-01-27|TenninYan|Update README.md
+f8b13516a652dc6b10668c2ce5994eb3b3ae88d5|2020-01-27|TenninYan|Updating Benchmark result
+2ee7bbdf44d26a0fd0c0373661f37bee94685823|2020-01-23|corryvrequan|Merge pull request #209 from corryvrequan/feature/add_argument_name
+7c6370e5e6e95410fab1b911c52f8470e8d48d1e|2020-01-17|corryvrequan|add constructor argument
+1a50b03a13204bb2786a14c59c8ea947bb1fd863|2020-01-17|corryvrequan|add argument to gpu class
+fa2180a75415f806689f81744903b98b7da6b6cb|2020-01-17|corryvrequan|add argument names
+ed7fc24a7899e08fe819375693216759837432b9|2020-01-13|corryvrequan|Merge pull request #208 from corryvrequan/bugfix/coef_grad
+ffba28e9b162c63ddc550c89d99f7ce713fe6008|2020-01-13|corryvrequan|fix code
+f6df730a52be757c68b93a4272ec4298aadc3b15|2019-12-29|corryvrequan|Merge pull request #205 from corryvrequan/feature/random_seed_sampling
+38c32d497f148b22706d306f5709f21e0ea8f935|2019-12-29|YOSHIMURA Yuu|Remove `sudo: false` to use Linux infrastructure
+fa9751ddd41069935bf3067189944950f823e516|2019-12-28|corryvrequan|add features
+99ccdc1b8a07898bc69218a1ba3b08086b5437cf|2019-12-26|corryvrequan|Merge pull request #204 from corryvrequan/bugfix/density_matrix_sampling
+976a780882669274a557fc42290c6ea9f84b0bb1|2019-12-26|corryvrequan|fix bugs and add tests
+2e95b146788f7d75c438d2311c988da7001780d8|2019-12-25|yibe|Merge pull request #203 from qulacs/dev
+9f5465e581bc3adde97b1e2da27964f5675cc1a7|2019-12-25|yibe|v0.1.9
+c1d9ae44a8d85a94022b70fc9b159ae9ffbd3c2e|2019-12-25|yibe|v0.1.9
+8d3b940a27d4e020474278c7a8b31fac5003f92c|2019-12-25|yibe|v0.1.9
+a3ca25a10c9686b50d689468f6d963a70a4e8c6c|2019-12-16|corryvrequan|Merge pull request #197 from puyokw/multiply_diagonal_matrix
+73f58a8b9fb18d7c401c82e00b6e34dac9f9b224|2019-12-16|corryvrequan|Merge pull request #202 from corryvrequan/fix/trace_preserving_noise
+87b737c39af8fb3bf2d581623e94cea91083b9bf|2019-12-16|corryvrequan|make noise map cptp
+83c475fe0109341d78a9822d9a4790ea1f782bd8|2019-12-14|puyokw|rename multiply_diagonal_matrix to multiply_elementwise_function
+6c5c31386392f7a7dfdab4628253e336d586b869|2019-12-14|puyokw|Merge remote-tracking branch 'fork_master/dev' into multiply_diagonal_matrix
+116d99fbf718ddb49eb4ec3bb7ebe2e9d8225544|2019-12-11|corryvrequan|Merge pull request #200 from y-yu/add-set-pipefail
+f0580f3a48bcf2d540bc592c2c931ee49529d271|2019-12-11|corryvrequan|Merge pull request #121 from y-yu/gcc8
+f130d8a91027cb8854d0497b4dfe9b78e45ba7f0|2019-12-11|Yoshimura Yuu|Merge remote-tracking branch 'qulacs/dev' into add-set-pipefail
+8b52686d9485caba7f3b69406613f9dd160af2ca|2019-12-11|Yoshimura Yuu|Merge remote-tracking branch 'qulacs/dev' into gcc8
+e44ed018d83c3d23ffa4309bcb9edb803845bcbf|2019-12-10|corryvrequan|Merge pull request #196 from corryvrequan/bugfix/gpu_multi_control_20191125
+5395489437f5b66b080ec5ef32baec49ecdc9d4a|2019-12-10|corryvrequan|update travis
+2e271a8ef4a24da44a2859b871486c1d7e69c86b|2019-12-10|corryvrequan|update travis
+dd6c8b9b055642ca27da098f47dc736ee8e115d8|2019-12-10|corryvrequan|bugfix literal for gcc8
+b511b31a69602de370e95095e16885a0445ddf09|2019-12-10|corryvrequan|update CI file
+379c278f969271e667fb2b2d50e0892d4afeb041|2019-12-08|Yoshimura Yuu|Reanimate gcc7 + Python3
+56450f4d803eaa0ddaa4699e18780c2fed369bf3|2019-12-03|Yoshimura Yuu|Apply review
+35c5325bc89bdd2756c0a906f139b004789348d1|2019-11-30|Yoshimura Yuu|Fix a test to be able to compile
+dd339b102ef8c46d66d9475aedd4c20d0dbf19b7|2019-11-30|Yoshimura Yuu|Add `set -o pipefail` to fail CI when failing tests
+71b8502f2ddec6649074689811b4b209638f0cc0|2019-11-30|Yoshimura Yuu|Add a recover code with that pyenv does not have the version of Python
+523dee72c6ed6cca6c9c3608ec44e87ec46fefbb|2019-11-30|Yoshimura Yuu|Merge remote-tracking branch 'qulacs/dev' into gcc8
+2d1747f7f27cbe224ad813cd30ebbcb970278fa6|2019-11-25|puyokw|add a function of multiply diagonal matrix
+c7019ae4619d1dbdc72bffa7ff093f7a9f172b70|2019-11-25|corryvrequan|fix gpu bugs and add tests
+eb70e09d83203b88e40ffa96ea922e9221e53a46|2019-11-11|Kawase Yoshiaki|Merge pull request #194 from puyokw/multi_gpu_implementation
+6d4c6f87c463a98e1aef43fc4927eed35bad13fe|2019-11-10|puyokw|omit winsows.h and add some tests for multi gpu environment
+026a46ea8952c32668e3df8ebe1d18ac9b754d7a|2019-11-10|corryvrequan|Merge pull request #191 from corryvrequan/fix/update_tutorial
+333baaa073ae63e6ec2f4c6b2d17461555525d44|2019-11-10|corryvrequan|reflect comments
+13119c1bdf96fb9df9030485a2b19c042f0a7d27|2019-11-10|puyokw|modify tests in order to deal with the changes in the QuantumStateGpu class
+9070130e0d765f9f98c9e5d603e426aa589c3775|2019-11-10|puyokw|merge QuantumStateMultiGpu into QuantumStateGpu
+96b9e7c9a25c5efd00120582435b359720780e39|2019-11-08|corryvrequan|fix typos
+200a06a56b56054059ced4151151500ad7925446|2019-11-08|puyokw|add multi gpu implementation
+d80147fb06cbe971f1d9e422a2e02076cb3effb6|2019-10-28|corryvrequan|update adnvanced tutorials
+c6e01959d7af8d4bd374e2e3db5deb7473a7dd4f|2019-10-28|corryvrequan|Merge pull request #192 from qulacs/bugfix/projection_test
+31ba8dd4f69ce662e6cb94bcfa84e0403801a1af|2019-10-27|corryvrequan|fix bugs in projection test
+f2bc309e2d1b46efc8017a452f52d2675250ad3f|2019-04-30|Yoshimura Yuu|Update gcc and macOS versions
+3710de4f75c58bad307633bcefd319321ec50986|2019-10-26|corryvrequan|update readme advanced
+c01aa189509dd67f978840063312ee603d9d00b3|2019-10-26|corryvrequan|Merge branch 'master' into fix/update_tutorial
+d064822e49de20c0c3af9a965f0415f9da55d569|2019-10-26|corryvrequan|update tutorial
+3a9098d03271fe99068a4850781f25e6201d0058|2019-10-26|corryvrequan|Merge pull request #189 from corryvrequan/fix/gcc_8_C++14_error
+5894b87506447a3e124a0efa14f960616e1ef437|2019-10-25|corryvrequan|update travis
+6085a51e2ef9a9f9d698053d71acce68c7598402|2019-10-25|corryvrequan|update travis
+b3e50ec98db7f87ddf467f8ca2007956ad3d046a|2019-10-26|corryvrequan|Merge pull request #190 from corryvrequan/fix/mac_stdio_bugs
+25bcdfa893ec5ef9bdf3347858fffbd360383f00|2019-10-25|corryvrequan|add gcc-8, gcc-9 tets
+c9374f1e8a5f11554330255ba31145a95c2883f7|2019-10-25|corryvrequan|apply C++14 flag also for gcc-8
+11213d1d7dfe438a2cdb36263b5217b38463e965|2019-10-25|corryvrequan|add include stdio
+2b30a7fec89c7cfbb98cba65f9ace452b7002880|2019-10-24|corryvrequan|Merge pull request #187 from corryvrequan/bugfix/crash_when_AVX2_not_supported_windows
+ddd2314fd187259f4bd8e1116b5055bcd75d8673|2019-10-24|corryvrequan|check avx2 support
+d96caa80c1ea7adf27a434b0de97d932c1974abe|2019-10-24|corryvrequan|Merge branch 'master' into fix/update_tutorial
+5a17f03237f276e2e02cbc6f120e680c82957558|2019-10-24|corryvrequan|update tutorials
+2f3c1afe42a23ba46d69bed4fd729211c52b1090|2019-10-23|yibe|Merge pull request #186 from qulacs/dev
+e622b0e79136a3e134308c626e803009faebdddc|2019-10-23|yibe|v0.1.8
+4dbebbc9ef87bfce42fd90e5b89c0f524a08615f|2019-10-23|yibe|v0.1.8
+cea985dc1288e2f76a56e3e05fb78b40476871fb|2019-10-23|yibe|v0.1.8
+84b6227e4fe8f12c055f22b0a3f3e151e4564cc5|2019-10-23|yibe|v0.1.8
+5d2f6ad7da71fe7c04a4574027da3186703d70c4|2019-10-23|corryvrequan|Merge pull request #185 from corryvrequan/fix/readme
+db0b4b1116c8a8ff8bf1105aa6d422d13c22acac|2019-10-23|corryvrequan|update readme
+fda9a40cbf3f706acb0f31b97a2dabf9e17d055a|2019-10-23|corryvrequan|Merge pull request #184 from corryvrequan/fix/norm_definitions
+1d49538c82bbe01531d6f1c49e4907d67113e178|2019-10-23|corryvrequan|Merge pull request #183 from corryvrequan/feature/add_gpu_tests
+eb6e86e79d62b05b6d2988bc3e66812717eed9e0|2019-10-22|corryvrequan|change get_norm -> get_squared_norm and state_norm -> state_norm_squared
+26146d692cfdcf5dd1c4469a73a98e73d20e9061|2019-10-22|corryvrequan|fix linux compatibility
+8a584e09d79cc7d86adbc9b17777497a372ec95b|2019-10-22|corryvrequan|add tests
+d8090be87cefa7f4e39ebb066bc1d73e5030ace1|2019-10-23|corryvrequan|Merge pull request #182 from puyokw/debug_dense_gate_gpu
+7cc4faf39dbc274a3aa23f0918e7fb2d64519189|2019-10-23|puyokw|change d_sorted_insert_index_list to sorted_insert_index_list_gpu for debug
+e4028bfebe79d91ad516069d31c9d0da5a67bd62|2019-10-22|puyokw|debug gpu function
+20f988642a584f1c6ce535ea840ab8493765dba5|2019-10-22|corryvrequan|Merge pull request #181 from corryvrequan/feature/optimization
+70074a9b2e851286666b6c043e8ee9d327a62f08|2019-10-22|corryvrequan|default from no-simd to simd
+d5fc8df4a50262d69644aba17d369df731d781de|2019-10-22|corryvrequan|move prototype decl and add a lot of tests
+d24db78bae82778236d0079bff7251b2431242e7|2019-10-22|corryvrequan|Merge pull request #180 from corryvrequan/bugfix/const_gpu_index_array
+50f1061e0fa233578b83eedb7a2ef1d9feb5261b|2019-10-22|corryvrequan|fix bugs in unrolled functions
+a0b715ee904b403d5b1f900191a1a67700c826c0|2019-10-22|corryvrequan|fix indent
+06dd48544477fa855a2d2e5f523834bee37ce155|2019-10-22|corryvrequan|make compatible to AVX2-unsupported environemnt
+041fb36fa2e3d3d19d59a4775e531a588118f607|2019-10-21|corryvrequan|add apple flags
+4344d75da2c477f9bfc89005d1647eed624f9936|2019-10-21|corryvrequan|add apple flags
+53d6b7910709b63089d54e44912cba4c486e1d73|2019-10-21|corryvrequan|add apple flags
+67da590780783ed26b2f1074a253e0f14ea6aa53|2019-10-21|corryvrequan|update readme
+8a348d5178db3c19f9a131bccf986a8c82ce0b73|2019-10-21|corryvrequan|fix prototype move
+1c54308d83a323bee5d8a63898b01b02c96a8f29|2019-10-21|corryvrequan|fix prototype decl
+7973a30bed838235c116f06bef2e3b81ff1eb3d9|2019-10-21|corryvrequan|fix include bugs
+6afe9c24d612d376491c3e4fb83b5a0c2b3f0525|2019-10-21|corryvrequan|add prototype decl
+fe1e920ffede7d79a8c5e6a91f2345b4270ad062|2019-10-21|corryvrequan|fix unsufficient includes
+21d74ec326624e3e578089eeb27da764e56a322e|2019-10-21|corryvrequan|fix unsufficient includes
+ca1c6db5ee7d8940e83a97bb98416039b2f3bac8|2019-10-21|corryvrequan|remove unused includes
+4591f87a65630b900b05c465ca616dae97ac994b|2019-10-21|corryvrequan|fix linux compat about eigen2
+532dfc2cbe9fd78a7a0af30bb6f56c5f316708a5|2019-10-21|corryvrequan|fix linux compat about eigen
+1ec26283293a27aecd85e22f0341db34a573abde|2019-10-21|corryvrequan|update ops
+a53b3fc00925f2e5511de41e8a55902adfddbc23|2019-10-21|corryvrequan|fix gpusim const
+e43b1ecc011536bf0d4dce49609a299639e33dd2|2019-10-21|corryvrequan|add controlled single target
+df839bb19599c8f08beb49bfdf350170bccf0716|2019-10-21|corryvrequan|split files
+5e3ab4c467062359a3ff0f172cc803b8ff72cc8d|2019-10-21|corryvrequan|fix ctype in gpu test
+d7db571e180833ae5c3ce7ae83c2ab867cad0685|2019-10-21|corryvrequan|fix bugs in gpu test
+ec1ba1942149fb522c755a1897205d49ae2c4a01|2019-10-21|yibe|Merge pull request #179 from qulacs/dev
+24951a985e6130258f365a54759148fe04a3212c|2019-10-21|corryvrequan|fix bugs in build with single thread
+4597defe01920d1e806515dd609978269be80b71|2019-10-21|yibe|for v0.1.7
+fae75c3c76dc7b5dcc1a3044f32e9e34b6d22967|2019-10-21|yibe|for v0.1.7
+5c6fef100fbb2ae51a5163ec7adbbe9be5fa68cf|2019-10-21|corryvrequan|update single matrix gate
+e83ce6a4929aee99dd379a7e798b59a16f393283|2019-10-21|corryvrequan|update includes
+24f8f8f3f935943ddad4cf650a83d4d210814a1f|2019-10-21|corryvrequan|split files and compatibility to linux
+ddc6d648bb7d18f1c8e348d737e993aca8e7b21f|2019-10-21|corryvrequan|fix include
+100cf0869e48e6998bcef36ca5c298786cefab50|2019-10-21|corryvrequan|update single ops, split files
+9f92d3c5821052e286343beb81cdbf11401ce0a3|2019-10-20|corryvrequan|test simd add
+fb3a410f9b2d02b0c7c8e80647e3a01c8e5829ed|2019-10-20|corryvrequan|Merge pull request #178 from corryvrequan/fix/change_option_for_gcc9
+4073137cb09e96b40b937ffd809f66b62c29e914|2019-10-20|corryvrequan|fix C++ 14 support
+d61ff2f652eb5df94bc7767485c3f72e680d0a7f|2019-10-20|corryvrequan|add if-branch for gcc<9 and gcc>=9
+5d1930c6586f58af358141bd0f9fb341de8a537c|2019-10-20|corryvrequan|Merge pull request #173 from corryvrequan/feature/change_behavior_of_data_cpp
+cbc6f3a2a09594feaa3ab30c8d162ffe68265e64|2019-10-17|corryvrequan|Merge pull request #175 from Roger-luo/master
+9132e3386c16eb760a11abfc46c772265b75d2c1|2019-10-16|Roger-luo|fix compilation
+1e6add1a2b54c399600f4dea299fcfc71dc4533a|2019-10-15|corryvrequan|Merge pull request #171 from corryvrequan/bugfix/qubit_order
+d19f25c7e83e97f8b6273a28ef38e6d99467986c|2019-10-14|corryvrequan|change ownership of data_cpp/data_c
+4f9606bcaf6b09a6e874fcc15bb3c3ae4810226f|2019-10-14|corryvrequan|update CI script
+6555c69b49b78d4b6d66e109fbfa6e2888b8de64|2019-10-14|corryvrequan|small fix for test
+c9c8a91069d53b3db606160d569f91355261f9ec|2019-10-14|corryvrequan|make gpu dense matrix gate compatible for not-ordered qubit list
+84e31ac71cf33413d3070601edb08a3127eecb09|2019-10-14|corryvrequan|fix install bugs in windows-gpu, fix curand flag for gpu
+00ee432cdf91e680e841b27340a1085d538c000e|2019-10-14|corryvrequan|fix bugs in normalize function in gpu
+a584bcdf900cae781afbedb48e52e9fce705336c|2019-10-14|corryvrequan|resolve conflicted definition of inner_product for gpu
+c4d990ff6ab6bafedf381d8e23f629eba18e6e6b|2019-10-14|corryvrequan|fix bugs in dense matrix gate for pure state in gpu
+e8b0ebd28f77edd7906f7bf31a2128be2137feec|2019-09-27|yibe|Merge pull request #170 from qulacs/dev
+d6ab8bb01ef7678744543d76fba232449f35f91f|2019-09-27|yibe|Merge branch 'master' into dev
+ae432972a0e32f6bdc9f2fb837392bab27fd6af2|2019-09-27|yibe|Update documentation top page
+2c4ac9181bf715e9cd032542dbbf995642790b34|2019-09-27|yibe|Update setup_gpu.py
+f7e20f75d315bede0cf7beba11b5d87433c74b08|2019-09-27|yibe|Update setup.py
+e03b7fb35c3287bc32d34e7e64930b4cb231aea5|2019-09-25|corryvrequan|Merge pull request #163 from puyokw/debug_state_operations
+4c5e82ad2797f6f4bf8951793f81ecf2a72f3a0d|2019-09-25|corryvrequan|Merge pull request #164 from puyokw/debug_get_norm_gpu
+a6bb77a118e6ae58d438f6fbdebc4a798015cc18|2019-09-25|puyokw|debug: omit sqrt() from state_norm_host
+1ba175486b14de5cb29cbf7087dc2403e302ffd5|2019-09-22|puyokw|make add_state and multiply_coef functions callable from python
+59407e7c24a000d4767201587152451c4bd9e683|2019-09-11|yibe|Merge pull request #161 from qulacs/dev
+36e6d9477b22b3f21b32a18320669b24ef3cbac4|2019-09-11|yibe|changed version number
+c953bd1025398ad5dd6c547aaca8a796fb3f2367|2019-09-11|yibe|changed version number
+6141129a79600c3561f0c81ee9f67a06fe420045|2019-09-11|yamamoto-takahiro|Merge pull request #153 from corryvrequan/feature/circuit_get_qubit_count
+14f0f8a070826cca8f0042a2b20b2a15815c3d8f|2019-09-11|yibe|Merge pull request #160 from puyokw/debug_inner_product_gpu
+b922d58ad1afbe1b50e3e0824dcd1d95331b5cc8|2019-09-06|corryvrequan|Merge pull request #159 from corryvrequan/feature/add_stderr_to_duplicated_target
+4f2a275090f6b2b912681cae1ed31040b4f168be|2019-09-06|corryvrequan|Merge pull request #157 from puyokw/debug_sampling_gpu
+1ef8caf148845ecd9c796e50efc5ed4403f9dce8|2019-09-06|puyokw|add _USE_GPU flag for debugging compile error
+ec730778bdcf2d6cffcb4fa5711b69f8e3ab6836|2019-09-05|puyokw|add gpu version of inner_product to python
+d115401fbb64c2a984f4431ad4c4cef617937820|2019-08-29|corryvrequan|add python wrapper
+b249039c1ca2b5188b5f8797e426767d9ce3eab9|2019-08-29|corryvrequan|add feature and test
+893f9657f08e1801fbd1775c84e4f9045d2dc6ab|2019-08-29|corryvrequan|Merge pull request #156 from y-yu/remove-unnecessary-chmod
+2df908d4ea20bf47d0e07c18ed0a3ec7a5f17bf5|2019-08-29|corryvrequan|Merge pull request #155 from corryvrequan/bugfix/cmake_build_with_src_path
+2a0081a3b0bfecfb24a341e945d988c0de273814|2019-08-08|puyokw|debug: free unreleased memory in sampling
+1537b4eae560327e3dffa488f45c9094e2797c3b|2019-08-07|Yoshimura Yuu|Remove unnecessary `chmod` in .travis.yml
+0f90e6f019b3e061370edbf41a422b37f3c874e4|2019-08-01|corryvrequan|update cmake script
+ab996b7218b83b2095f14e00a3fdf1556e8256cd|2019-08-01|corryvrequan|Merge pull request #152 from corryvrequan/bugfix/density_matrix_and_parametric_gate
+e2725829b0796a26bd8a2530062b95f342f5dc25|2019-08-01|corryvrequan|Merge pull request #150 from shukob/fix/cuda-build
+7177778085f87e9558b6d73a91d054c0af422269|2019-08-01|yibe|Merge pull request #154 from corryvrequan/bugfix/gpu_state_load
+8fb80d45178aa41d088d4f703b6a8657923546ed|2019-08-01|corryvrequan|fix bugs for non-msvc
+6dc8effd4e2a8e4cc729a1d00dce29cab4bec239|2019-08-01|corryvrequan|bugfix and add tests
+1cbc79e61bc95184cb34f7c2dd2d6f8667dedd2f|2019-08-01|corryvrequan|add function
+93c857645f30c31b98f81d2ef57b98d34f73cb12|2019-08-01|corryvrequan|Merge pull request #148 from corryvrequan/feature/two_qubit_depolarizing_gate
+3300ebebfb6ed115fdb1df6e1d472bf330b7fca2|2019-08-01|corryvrequan|Merge pull request #147 from corryvrequan/bugfix/two_qubit_dense_gate
+abaca7d850dc6a07281a4d5c76807356405e6083|2019-08-01|corryvrequan|bugfix and add test
+b9795ceb274db2595210e4fb00f2a2b58905911f|2019-07-16|Shunpei Kobayashi|Fix gpu build on ubuntu 18.04
+f0b7acf5a011a9025160f761fc9b474d1fd41802|2019-07-12|corryvrequan|export to python
+b9f2aabfa33f912abb2d9cae5b1896cedca518f4|2019-07-12|corryvrequan|add two qubit depolarizing gate, and add test for it
+40712e56238efd607e2bbd72d4bc3d8fa2d21496|2019-07-12|corryvrequan|fix bugs in two qubit dense gate, and add test
+e766db87bf3109d317f2ffb7696da9bfe0c33269|2019-07-09|yibe|Merge pull request #144 from qulacs/issue-143
+82738b9d847d0d7b655a79d0bfc0676bc6dcd8ec|2019-07-09|yibe|#143
+27ba582f789345c2d5925cc3c1ab59dc44ff1bca|2019-07-08|yibe|Merge pull request #142 from qulacs/dev
+712df765772144578ac4b998840ab0656b692e24|2019-07-08|yibe|for hotfix-release v0.1.4.1
+b61859d41d65faac66cf2cd739c8713033606b18|2019-07-08|yibe|for hotfix-release v0.1.4.1
+931b254d8a79f6ba6a3c254ab6819941bb32b297|2019-07-04|yamamoto-takahiro|Merge pull request #140 from corryvrequan/bugfix/parametric_circuit_cpu
+512d542a2e152d81e740a0d154e614d9c3ea029c|2019-07-03|corryvrequan|fix bugs
+d81f3884d4af8550718b9dc5b84fc7d68416ebef|2019-06-27|yibe|Merge pull request #139 from qulacs/dev
+e988156c51e8662f6ed2ae95984f83208f0a91c8|2019-06-27|yibe|Merge branch 'master' into dev
+746c48e93ca256b7086649aa452b47069bc9e63c|2019-06-27|yibe|change version number
+7608727dc8ddb3a0df302dc6a6b0ffe9159d39f5|2019-06-27|yibe|change version number
+27559df8c8a7d98761d05f4e19ef1a5bdd678ea6|2019-06-27|yibe|change version number
+ee001c1a63842fea1a14b5d954d88765faff0355|2019-06-27|kosukemtr|Merge pull request #138 from corryvrequan/bugfix/parametric_gate_gpu
+1d5ceca2717905bea102de11f26e35a71baaf0a1|2019-06-26|corryvrequan|fix bugs in parametric gate for gpu state
+79547cae35d22bb4125270835a811ee89fb9e0a9|2019-06-20|yamamoto-takahiro|Merge pull request #135 from qulacs/issue-0133
+74d1e9edc1d325f97a37eb58a2c056c31f7ad78c|2019-06-19|Takahiro Yamamoto|fixes bugs for member method
+f0bba41c99b098d9a87ea7629ea044a8ee61fce2|2019-06-19|Takahiro Yamamoto|adds 'get_name' method for QuantumGateBase class
+d6f5b3b827db91067ca7c96ddca75da904099390|2019-06-18|yamamoto-takahiro|Merge pull request #134 from corryvrequan/fix/readme_update
+5133a5f8aeaa3b469febd443ecf964b6c7933b82|2019-06-18|corryvrequan|align indent
+009a434ac67c368342c3c53b37fa697adc83ecd8|2019-06-18|corryvrequan|Merge pull request #131 from corryvrequan/feature/density_matrix
+f24607d028710e487bfd30e3feb662d5776f8232|2019-06-18|corryvrequan|check sample codes
+c1033012b65f49523ea883909fa503b93e9a7597|2019-06-13|kosukemtr|get_qubit_count
+0f6ef85a5aa24c7611f1e79422cdf957618f501a|2019-06-05|corryvrequan|export amplitude damping to python
+e2b156d9c51535236f00d7240b94656dce44c7ff|2019-06-05|corryvrequan|add gate tests and bugfix for independent_XZ noise
+082dc05a7c251646fb3599d989907925dba8272c|2019-06-04|corryvrequan|add tests and fix bugs
+4bf4496257bc0564c386e85baa2906245a20359c|2019-06-03|corryvrequan|Merge pull request #130 from puyokw/add_cuda_stream
+429fc569b32df9a15db2a8d292153f06c3068cc1|2019-06-03|corryvrequan|add general gate features to density matrix, and write test for stat function of density matrix
+a75ab2dc55be60feacb7a3e4d4f5dfbcffd1f755|2019-06-03|corryvrequan|fix heap corruption
+6f6282412b0609d4a017babc2cb8159fc91baf2d|2019-06-02|corryvrequan|Merge pull request #129 from qulacs/add_dockerfile
+3617c2d4c8c79aef0fdedc50468ffbdb94419c5d|2019-06-02|corryvrequan|fix for linux
+fe49ddfd4fc35bf21a4b1971ddf121d181e0ed28|2019-06-02|corryvrequan|bugfix heap corruption
+00888a51fee2446305f1dcd5205b00b2339617b1|2019-06-02|corryvrequan|apply openmp
+ba9883aa0e562313a4b97a81feb872ca924bd786|2019-06-02|corryvrequan|fix bugs
+534c38a90dcc417d0e29ad8fcbfae1852434d1d3|2019-06-02|corryvrequan|bugfix
+c8027d201862653198697b7314fd8324d41fc3fa|2019-06-02|corryvrequan|add density matrix
+7599ba15158525deb532528f74ba56da151c4549|2019-05-23|TenninYan|Update README.md
+7bd6c58d8352cfdef3ee58a623ad372c1d9df1e2|2019-05-22|puyokw|change cudaDeviceSynchronize to cudaStreamSynchronize in order to be faster
+873851d96156264d7134b9a58d3971c7d17d95bb|2019-05-21|puyokw|debug load function of gpusim
+e2c252d33e821c5ba3b23b8d737ee290f2961e9b|2019-05-21|puyokw|add tests for gpusim
+ccc0739cfcef972c0d7c54f5c6863a7db4030d87|2019-05-21|puyokw|add cuda_stream version
+c9a3e73c406c6e8e81691b861fed06a1c47a5e34|2019-05-21|puyokw|debug gpu version of transition_amplitude_multi_qubit_pauli_operator_Z_mask
+f123457f097b54cb80fc2264d95c9606462f9e19|2019-05-19|yurisan|Fix typo
+c061b29b03d5e60157793a749f00f587df683b0d|2019-05-19|yurisan|Add Dockerfile
+a28051d2c414769f87367a1f99c1d0925daaf061|2019-05-18|TenninYan|Merge pull request #128 from yoooopeeee/dev
+f4e9200534697e6082814cdad94d16cf8801df7b|2019-05-18|yibe|delete unnecessary files
+911b40ac1de016d2b981ee411ead838a622752f8|2019-05-18|yibe|fix footer
+eed482e27b0592a4fe645b7054252b9c35d8b577|2019-05-18|yibe|fix footer
+14b84ec8a2e247b7b8a70b6aaf8a61c1edb19eb6|2019-05-18|yibe|Merge branch 'dev' of github.com:qulacs/qulacs into dev
+c112a1985bba29965ce97301f1a2d8e91257f6d1|2019-05-18|TenninYan|Merge pull request #127 from TenninYan/change-doxy
+d09911abb2245e363dc76a94fc2d2907840ef5e3|2019-05-18|Tennin Yan|update to new doxygen
+871749909b42d04adc59c5ce7e7607699820bd3b|2019-05-18|Tennin Yan|add index.html
+4bf2896e148c3e66bb0c05a7b3b386915c048be3|2019-05-18|Tennin Yan|output html to root
+25276cbfc448572ab57e30df84afddc24132b53d|2019-05-18|yoooopeeee|Merge pull request #125 from qulacs/dev
+4233588feaf7618cb8b05fd54895e269013918d4|2019-05-18|TenninYan|Merge pull request #126 from TenninYan/dev
+8f91aa79ef4b3c1fd4888015f2229777724e31f1|2019-05-18|Tennin Yan|changed version number
+c4a46a3438b959c8a0e2a884c9bc2acfafb5e4de|2019-05-18|Tennin Yan|Merge branch 'master' of github.com:qulacs/qulacs into dev
+a5005ee6f883f2062617cb1d311dd138a675d6ea|2019-05-18|corryvrequan|Merge pull request #124 from corryvrequan/fix/parametric_gate_export
+f8580edfcee8d59794ac919b4de7d3982919f5f2|2019-05-18|corryvrequan|fix tabs
+a123adabd1855bcbc37345ffdd74584a71c3b487|2019-05-18|corryvrequan|bugfix and add functions to quantum_gate_base
+4875e3daaf4abeaed76b9e0aec828528e03baaa7|2019-05-06|corryvrequan|Merge pull request #120 from corryvrequan/bugfix/gpu_feature_20190427_2
+d3d47944abf751c7ab417c5591a61e26b2937cba|2019-05-04|TenninYan|Merge pull request #123 from qulacs/TenninYan-patch-2
+15213326c92e85f64058bcab9f54f54d4cfddcf0|2019-05-04|TenninYan|Update LICENSE
+6c9608b3cb808014048f51ca6ff2ab5176697bc8|2019-04-28|corryvrequan|check gpusim compile in windows msvc
+395e6646cab6e6f56746276787ba1834a7cdce88|2019-04-27|corryvrequan|bugfix for gpu
+49675161cfec8af40788a0e41f76054d568bf34a|2019-03-16|Tennin Yan|changed version name
+eaa916ce99ec0be2affa5ae36546954b27dba532|2019-03-14|corryvrequan|Merge pull request #115 from puyokw/fast_expectation_value
+998a84694c97d7ad1afe30cac2ee840bfc4d0f70|2019-03-14|corryvrequan|Merge pull request #118 from puyokw/add_feature
+57014e8a7ec06e7438c37cf20ffbeb8eee4ecc82|2019-03-14|puyokw|add test for add_state and multiply_coef
+20687548f849ce9ec1c445ef0b031da535053ded|2019-03-14|puyokw|add gpu version of state_add and state_multiply
+e2ab087f8b477ace288e2016ebd2e57b1dbe6a9d|2019-03-14|puyokw|fix load function in state_gpu
+a716a6dc4545ec26e0578383e5bb3c5afc3e44c7|2019-03-12|Yuya Nakagawa|Merge pull request #117 from qulacs/dev
+6b0448cc10ff57218da9634be8e08d65649590ea|2019-03-08|puyokw|add tests for gpusim
+ffc230714efeabe31838f68a0a11c87d43966261|2019-03-08|puyokw|tuning parameters of the number of blocks per grids and threads per blocks
+0131368f35f8c7d5dc77851d9760c14211781229|2019-03-07|corryvrequan|Merge pull request #114 from puyokw/debug_expectation_value_gpu
+d03e40abb27c57faa5365b6d4ac063e436e7dc7a|2019-03-07|corryvrequan|Merge pull request #111 from corryvrequan/feature/add_state_add_and_mul
+fbfcc7c4dbacd849322d2fb12a9d989d4583d344|2019-03-07|corryvrequan|Merge pull request #112 from puyokw/multi_qubit_dense_matrix_gate
+e08a154d11d0e46b2e21d6e6a7f9f7e0b56b5d8c|2019-03-07|corryvrequan|Merge pull request #108 from corryvrequan/feature/add_reflection_and_sparse_gate
+e3d561bbf6482541da549cf7e2a7fbb399f668ad|2019-03-06|puyokw|fix the bug of not called the gpu codes when calculating expectation value
+acc426dc5f47ad714fe840884e4b824053f20e73|2019-02-27|corryvrequan|add tests
+e8a7e0f118da30777110024ed2980bed4b1baa91|2019-02-27|corryvrequan|fix not consistent tabs and spaces
+0c141efc7f0e46b24430ce483a7e4c964cde6107|2019-02-27|corryvrequan|make compatible with gcc
+edb0600fd3933ccee05a30d67618d7fcf67a9a96|2019-02-27|corryvrequan|add gates and python binding
+8469711195af47a133d1dc05c023baa09b2e65e3|2019-02-22|puyokw|add 2, 3, 4, and more than 10 qubit gate to multi_qubit_dense_matrix_gate
+52f42f8f1703a64dfce2bf62b71b39beeaede3df|2019-02-18|Yuya Nakagawa|Merge pull request #109 from corryvrequan/bugfix/marginal_probability
+fbc67966a8dcd7aa07edf7cdab15fa8501989837|2019-02-17|corryvrequan|small refactorin
+e4249c1a1c956bb7d53f8d515aa8eaf12988709c|2019-02-17|corryvrequan|add test
+25d51f05bce97ee82c3d39d6748e7b889475582d|2019-02-17|corryvrequan|fix gpu codes
+744e452b9c8e22b88e8082ac04ac133b3b1c616f|2019-02-17|corryvrequan|fix bug in marginal probability
+e4c139cad4416ecbe669b1379e5773a9e0a9132c|2019-02-16|corryvrequan|add python binding and python test
+8d45f3c8d05659f34714d4d869f9318e7b2dd7dd|2019-02-16|corryvrequan|add gates
+886e1893a7d5bf041c7c94bf5bb120bec01a64a4|2019-02-14|Yuya Nakagawa|Merge pull request #107 from corryvrequan/bugfix/get_zero_probability
+f62175d01bbba1c9ef13f82bb6eab3b521c9814e|2019-02-14|corryvrequan|Merge pull request #104 from corryvrequan/feature/add_reversible_boolean_gate
+d506070e70ea6cac87f88ce498286729b871d7ec|2019-02-14|corryvrequan|Merge branch 'dev' into feature/add_reversible_boolean_gate
+969d1457316013a8719674226bed2e5553e2486a|2019-02-14|corryvrequan|Merge pull request #101 from corryvrequan/bugfix/take_ownership_of_new_gate_instance
+beb87a53990ffd3de02aa17c8593209653345c09|2019-02-14|corryvrequan|fix bugs in get_zero_probability
+2f57eb3f2205b2b968f6d72c7ee161264d68a486|2019-02-14|corryvrequan|Merge pull request #103 from hal0taso/add_constructor_for_pauli_operator
+7e245ab0832910a95506488b969651d1d30eb39b|2019-02-14|corryvrequan|Merge pull request #100 from y-yu/feature/add-retry-for-windows-ci
+f7c9be5dd91d4f36eaf49379b52c07152e3ed435|2019-02-14|corryvrequan|Merge pull request #105 from puyokw/debug_cuda
+4b502e9e453f4c1c2566c4063d94ab739764a2c9|2019-02-14|corryvrequan|add parametric circuit test in python
+b12fcececdeea32243e9e3c358e288acc3ca67f8|2019-02-14|corryvrequan|fix ownership bugs in parametric quantum circuit
+e0cf495b61ec96ac0f49ab938d7a2956542974aa|2019-02-13|Kawase Yoshiaki|Merge pull request #8 from puyokw/debug_cuda
+a46f8550cdb56dd94d3369aeae0cbb93aee4fbc9|2019-02-13|puyokw|debug gpusim: add initialization to expectation_value_single_qubit_Pauli_operator_host
+84cb91b5283c4c1f1f77dfe17e8a73c5cd776d11|2019-02-12|corryvrequan|fix ownership bug in get_term function of quantum operator
+da22b63570fb9d9aad1872fe38e6d6bc3dada47a|2019-02-07|corryvrequan|make compatible with python
+a9993264225bc489693cfa97541a0318e8414021|2019-02-07|corryvrequan|add reversible gate
+28dbce9f5178b6a5fb9121b2ccf8e2105267c8c2|2019-02-05|hal0taso|make constructor of PauliOperator to take complex coefficient
+a2ea6e81b1a718bbe243c2d0f04f6662e823ef4b|2019-02-05|hal0taso|close #102
+9f0c5a92f051d0fd02ff30cec949d935f6dfdb82|2019-02-04|corryvrequan|add python test
+6e3928dc3c90bb52132a71a8ecd4653bbe8122c8|2019-02-04|corryvrequan|fix policies
+9c135595806fc9953720dc6dc24a8f8854fc1e56|2019-02-04|corryvrequan|Merge remote-tracking branch 'upstream/dev' into bugfix/take_ownership_of_new_gate_instance
+b7f08b631442b39fcdd931e609ea71326100797f|2019-02-04|corryvrequan|Merge pull request #92 from corryvrequan/feature/add_random_unitary
+ff1a0ec8dc86c200dff80878d4fd2631bbb6d68b|2019-02-04|corryvrequan|change return value policy from automatic reference to take ownership
+d7780f317b9da0d25e3a17fba66d029a5e691080|2019-02-01|Yoshimura Yuu|Add retrying for the Chocolatey commands in Windows CI
+583147ac53286305cdd894a22c7cca8e79b389f2|2019-01-25|hal0taso|add function for python
+195d0f987505d211173890c66837277437cd639e|2019-01-22|hal0taso|add constructor
+f7011010ae0acb64e4c72117a5e221e8176c70c8|2019-01-20|TenninYan|Merge pull request #98 from qulacs/dev
+fa1d6a96e4e10d253c13f3bd6dc7aa32c76e32fc|2019-01-16|corryvrequan|Merge pull request #97 from corryvrequan/fix/readme_gpu
+04c75dd3a31ce682ca7ee57f16dc09f9d5f0b9ad|2019-01-16|corryvrequan|update readme
+4d0729d191d30a7bc231162c14f5bbbaff891d0e|2019-01-16|corryvrequan|Merge remote-tracking branch 'upstream/dev'
+f34cb0b8bb8ec003a8223cff40fc402149c5aafa|2019-01-16|corryvrequan|Merge pull request #95 from kwkbtr/fix_build_instruction
+7a7f7edbcd2a56e34056a10cb396392266be1d01|2019-01-16|corryvrequan|Merge pull request #96 from yoooopeeee/fix_README
+39e6ec96ef7297fceb7952ecb33e0d48cd84a9cb|2019-01-14|Yohei Ibe|update README.md
+5026b2d9f391d5b9724fe740a13956c3bb259cee|2019-01-14|Yohei Ibe|update README.md
+c3fbd289cf9c57d547513c34a0bd9ebe17e608f2|2019-01-14|Yohei Ibe|update README.md
+752896c796aa0770fedfb4f7ace541a76b1e1d10|2019-01-14|KAWAKUBO Toru|Fix build script paths in documentation
+05ecc4950eaf5767d402f92ae41bf43db3a37743|2019-01-14|KAWAKUBO Toru|Add execute permission to build scripts
+3bce15268cd42dea66e1fc0e83786eb97bdee724|2019-01-13|TenninYan|Merge pull request #88 from qulacs/dev
+cbb8ff3638743f9217d92bd8ef038c6018b61a48|2019-01-13|TenninYan|Merge pull request #94 from TenninYan/setup-update
+ce8682e77b7c0672a8399a7e11760eedd7f6342f|2019-01-13|Tennin Yan|set version to 0.1
+ab56ea7e25ded124228deee25c02bf64373d31d0|2019-01-12|Tennin Yan|Revert "gpuのセットアップもsetup.pyに統合する"
+9d23ae43830d17d30328ff0381403b4afdbce141|2019-01-12|TenninYan|Update README.md
+473b6dd877900cc63eb97a9752ee6ad7ca0f4b88|2019-01-12|TenninYan|Merge pull request #93 from TenninYan/v0.1
+d9bb69bfee6c6e719ccacce19aaa8051c66cbfe7|2019-01-12|Tennin Yan|add GPU support in readme
+97811556c401a69430984145baf78466890ffd76|2019-01-12|Tennin Yan|Merge branch 'dev' of github.com:qulacs/qulacs into dev
+6f10469b156ddfd243a8d2efcfca8015fbef0945|2019-01-11|corryvrequan|add sqrt2
+b19590b0cabe09b24d742e5d03ade10f556c272b|2019-01-11|corryvrequan|Merge pull request #91 from corryvrequan/fix/unordered_index_gate
+65de8976b6b4a55580bc66d8841352bfe79c6a73|2019-01-11|corryvrequan|update code
+2bb3e08dd8e784aeeec05e3b222c9fbbb28eb5b2|2019-01-11|corryvrequan|Merge branch 'fix/unordered_index_gate' into feature/add_random_unitary
+7cdcf85075d86c4404ad2b8d4a2ece351d164f6f|2019-01-11|corryvrequan|fix error in unordered gate
+e84d890c24886c2c5196f95fe2faaae70c12f28f|2019-01-02|Tennin Yan|made setup.py to switch btw w/o gpu
+aeecbcaaccf829b69a717f1e87dde50ed20505c5|2019-01-02|Tennin Yan|gpuのセットアップもsetup.pyに統合する
+53011edb2cac2116b36437fdaaa855946895527f|2019-01-02|corryvrequan|Merge pull request #87 from corryvrequan/fix/linux_gpu
+24669b001a36c8e54fbc1af3582a96b4452c1eac|2019-01-02|corryvrequan|add gpu setup file
+9a943347a43a6e63dc01ba10719e0db7ffad85fd|2019-01-02|corryvrequan|Merge pull request #86 from corryvrequan/fix/linux_gpu
+2fd042b47c657a54f36f87252653631bf7b7d4a5|2019-01-02|corryvrequan|fix gpu cmake
+3ed4f8cf5bd301053e669eabf6ca60522ad4ab22|2019-01-02|corryvrequan|fix gpu files compatible with linux
+f51e6518992d59881fc5a9a221f8564f70bfd4c2|2019-01-02|corryvrequan|Merge pull request #84 from hal0taso/feature/observable_return_expectation_value_as_real
+41df1472b330b6941ca8ee9c59e55934fde29723|2019-01-02|corryvrequan|Merge pull request #85 from y-yu/feature/add-pip-install-test
+a21bcc528371098af38cbdd9596b80fcc76f91dd|2018-12-31|Yoshimura Yuu|Add `pip install` test
+ba6493f396978fe551897d8c25109fdcb082d5ff|2018-12-31|hal0taso|add header to python wrapper
+d38f0339b994792202cd1cccfdf05929dfd3aa8d|2018-12-31|hal0taso|separate file
+fc82e112809a1b32bfc1b6e26cfec412d6c70b9d|2018-12-29|hal0taso|fix making pair function
+44490fb03f83133ca6af78ad4efb1a02f3d2d63a|2018-12-28|hal0taso|modify parser of quantum_operator
+15164624c5913b71aa0f84b58bde98943be09fb5|2018-12-28|hal0taso|Merge remote-tracking branch 'upstream/dev' into feature/observable_return_expectation_value_as_real
+a9bfb318523f881ead565867d978061a967de7fc|2018-12-23|kosukemtr|Merge pull request #83 from corryvrequan/fix/remove_automatic_ref_state_memory
+5262e2bdd0db36f3e864b91819cae508f9b2bd38|2018-12-23|TenninYan|Merge pull request #82 from corryvrequan/fix/pip_install
+6942575f777d562cf76845ab1608433ca2ec7643|2018-12-23|corryvrequan|change cppwrapper
+2ac7cfff4cf7f3793073474fd71b59f3567da160|2018-12-22|corryvrequan|switch lib output directory with pip or cmake
+4f7f794842d72b1b54263919324c45bb54790413|2018-12-21|hal0taso|add messages when function called
+4bb64dc0166e45619831af60fd4c4dcc82cc359d|2018-12-20|corryvrequan|Merge pull request #81 from corryvrequan/fix/fix_manifest
+2ae4ebd515b2ba0d7b6f681b4deef6858b61e0c0|2018-12-20|corryvrequan|fix manifest
+e054e08853c7cf4e6f9dae3c53415ef38652df43|2018-12-18|corryvrequan|Merge pull request #76 from corryvrequan/bugfix/instance_copy_reference
+3eadd9a3dcefb22a247ba1ad4342093232e27bed|2018-12-18|corryvrequan|Merge pull request #77 from corryvrequan/merge_gpu_qulacs_PR
+6a1ff2d756696bf6cdbcadbe812da4ee576d6f8b|2018-12-18|corryvrequan|fix gpu-binding code
+f00f5ca0dbdfae1ee1aa963e285507ee88e4bd32|2018-12-18|corryvrequan|fix CI script, and add readme about GPU
+e954e443258892fde2d7eebadbcefba2c80419c6|2018-12-17|corryvrequan|fix bugs
+acc9cd6b7d1e87da9dc301c7a8b7a7c06bd8ee43|2018-12-17|corryvrequan|Merge pull request #73 from hal0taso/bugfix/create_observable_from_openfermion_text
+cfbc811bfe9f3b229f08d20afe5be84af3a06369|2018-12-17|hal0taso|rename namespace of generalQuantumOperator
+a442f759fa8d87cfd0a56da9e06dadd12c8dad35|2018-12-17|hal0taso|rename RealValuedQuantumOperator and python generalQuantumOperator module
+04b98505614d2adfb8a700f9a90a2f67704f9f83|2018-12-15|Kawase Yoshiaki|Merge pull request #7 from puyokw/cuda_faster
+157da85f7aa92d976c2398977fd466f04ada13f2|2018-12-15|puyokw|Comment out the parts whose performance depends on the model
+4181ad138a2a9e62732072ede721e20158395eee|2018-12-15|Kawase Yoshiaki|Merge pull request #6 from puyokw/cuda_faster
+78d9ed2df3a7a8178e58d4a3b15502fbef09c24f|2018-12-15|puyokw|add faster version of single_qubit_dense_matrix_gate and multi_qubit_dense_matrix_gate to gpusim
+491e02fbfa99aa085a9aa43e5035a3ca980b8243|2018-12-14|hal0taso|change name of namespace
+02871201b9b7880de2aefe199fb49d7df605b848|2018-12-14|hal0taso|add python bind
+cf896b1a4f5420ac8c7bbdc91d702b95ededfc43|2018-12-14|hal0taso|create GeneralQuantumOperator class and RealValuedQuantumOperator class
+f52d8b163493532fbe2e241c8eabf94a76db83dc|2018-12-14|Kawase Yoshiaki|Merge pull request #5 from corryvrequan/merge_gpu_qulacs_PR
+9b725a8031755f079645f1b2eddd6c502d403677|2018-12-14|corryvrequan|Merge remote-tracking branch 'upstream/dev' into merge_gpu_qulacs_PR
+4862da9bdfc25d497c50adfecedabf94434fb42c|2018-12-13|corryvrequan|add test and check test passes
+328105ac328f03bb99371de95012c9afb7d10e58|2018-12-13|corryvrequan|fix script and bugs
+a1b2abf29b21acc00c6f24b37bf1121fcfb9ed2f|2018-12-13|corryvrequan|finish compile
+bb61ce944d052892a908b0adef9ecead4a6a8210|2018-12-11|hal0taso|modify to get pauli string
+9c864d27361eba888f52ccac1f9099ba29004a39|2018-12-11|hal0taso|change failure rule for rotation
+bb2dd4287792ac5b204417b8ce985be2887c95ab|2018-12-11|hal0taso|add python binding
+af3cb30ac19d400f5a72bca182e4d38bcbe3e8fd|2018-12-11|hal0taso|Merge remote-tracking branch 'upstream/dev' into bugfix/create_observable_from_openfermion_text
+ab04d61e9ae63dc8ac5e81e7330ec941a53df052|2018-12-11|corryvrequan|Merge pull request #71 from corryvrequan/feature/add_parametric_copy_and_change_2factor_in_rotation
+9cb4cad36c8be03c13d50f20cf5a06ec5669dac1|2018-12-11|hal0taso|change to output error message
+05da417ee898129d6ab0ed97e3161e4db7971a8d|2018-12-11|hal0taso|Changed type of coefficients of PauliOperator from double to std::complex<double>
+62637ca7207354389177b86d735566f7b75fecc6|2018-12-10|corryvrequan|rename copy_as_parametric to copy
+26087a6ada1c9e4ba121ce9cd49eb7890c6963f4|2018-12-10|corryvrequan|add excepitons for python
+6739c1ac3dc4a6fee96dd6d204f44d438c451b9d|2018-12-10|corryvrequan|add tutorial
+aa42d0817a80c02c1b1d29b6e5d16e1af2d557cf|2018-12-10|corryvrequan|add functions
+b673d0cab1e3f9ffb17ea70d99c613c7d59290b1|2018-12-10|kosukemtr|Merge pull request #66 from corryvrequan/feature/add_Adaptive_gate
+618808e4498ba8ab345a634ff3ec34a120828bec|2018-12-09|corryvrequan|add include for lambda function call
+a31ebd6b464a57abc38eb94e6e9b220548ecbdb5|2018-12-09|corryvrequan|add_function
+0e6c4b22678effed137333d376474c06207114e4|2018-12-09|corryvrequan|Merge pull request #64 from kosukemtr/bugfix_63_add_gate_kosukemtr
+e32459235cff50bf1d0477879e3a7843f4af7bbb|2018-12-09|root|bugfix for add_gate
+9abdc7888a857c72660bee08cd902ae73366ae52|2018-12-08|Kawase Yoshiaki|Merge pull request #3 from puyokw/cuda
+d808cedf634e164ade54b02395d58f71bfcb10e5|2018-12-08|TenninYan|Merge pull request #60 from qulacs/revert-56-fix-yan
+6f6b8db4cd16997dc83827fd0de21169420946cf|2018-12-08|TenninYan|Revert "いらない行削除"
+8e12317f19479b760673976a81a523fa7a5e574e|2018-12-08|TenninYan|Merge pull request #57 from heyaroom/fix-ken
+cef5175ef5a9bd4c5b2d951b0aa398a144de3e2c|2018-12-08|TenninYan|Merge pull request #56 from TenninYan/fix-yan
+50beed60bd6162fa228b4887198a94472fead97a|2018-12-08|Tennin Yan|説明変えた
+eaf83a05988e22217fe133b3dc24483013ac6a3a|2018-12-08|heyaroom|deleted space
+7bb21893d0f43fb17508f23245767238cec15ce4|2018-12-08|Tennin Yan|いらない行削除
+b104e40d23f0b20727dd7863d9c74370b147868d|2018-12-08|kosukemtr|Merge pull request #55 from corryvrequan/feature/add_get_gate_feature_fixPR
+1ddf6209028e6eef7ec8b55e6c6c993d1c183034|2018-12-07|puyokw|resolve the conflict
+6d3a0aa2ce2b7cfce87ed51a602bfc05f122b232|2018-12-07|puyokw|changing the number of blocks when calling the rand_normal_xorwow
+5e1027eb41764bdd905dac36ab3f91020fcb5f8c|2018-12-07|puyokw|debug shfl_down_double and add cublas version of state_norm
+b55f8368ae06aebb2d7754076a84e4f3a56bbcfd|2018-12-07|puyokw|debug swap_gate_host(Modifying the order of arguments)
+b0c834b8c6d34dca34b8641aaa3a994fe155a4bf|2018-12-06|corryvrequan|fixPR
+9412659ae53f6ac645d342cde8ce9397750c67e3|2018-12-06|corryvrequan|fixPR
+c0ab75b0bcc786652aad197d49491a3d76956a99|2018-12-06|corryvrequan|fix PR
+7114191b3181c6ee4e3eee5151d5690dc955167a|2018-12-06|corryvrequan|update many things
+a4d2e78d07d8ed069bf901d679639e20a03bbe7b|2018-12-06|corryvrequan|add get_gate function to circuit classes, and change return value policy for copy functions
+c1fd12a3642ca77b4cf197ae2ecc913cc7d9f295|2018-12-05|puyokw|use state_norm_cublas beacuse state_norm_gpu has bug
+5c280a11e709acfcefbff42161dcd016f3024b57|2018-12-05|puyokw|I forgot to reflect the latest version.
+1296a08b7e6d5fe1dc8dc8c4a9cf49ecbdc4378b|2018-12-04|hal0taso|fix to continue if real coefficients is 0
+76f143322a9e5f720b9cbd14b7721e87d1c5ec89|2018-12-04|hal0taso|small modify
+dd861ddf9caafe02093bb6baf108364fa89b5df1|2018-12-04|hal0taso|fix #51
+8e3368adac408712f28ae4d7735e7bccd0fb3331|2018-12-04|hal0taso|fix create_observable_from_openfermion_* to check coefficinet has whether real value
+2a4492c6e797116c291d212198ebab64a0e272fa|2018-12-04|puyokw|delete unnecessary files and add CMakelists.txt
+2a52cb37218abd3d84afb08edad0753058777725|2018-12-04|puyokw|add code for using gpu case to cppsim
+c8e54d70a18d5c8b338443f099c48c8e2e3aa017|2018-12-04|Kawase Yoshiaki|Merge pull request #2 from puyokw/rebase
+fec9c190cebf3fe1e413d9d2ef8f7c8b3a6e9ad3|2018-12-04|puyokw|add gpgpu files to gpusim folder
+0df55d633de968dcd0eef0b64faad9d517e6567f|2018-11-26|kosukemtr|Merge pull request #50 from corryvrequan/update_tutorial_variational_circuit
+5caebcda16d365b92bf6745d2fdc58f3894188a8|2018-11-26|corryvrequan|fix typo
+a849861381fa3fd4d5e33010de840175b2d500b8|2018-11-26|corryvrequan|fix typo
+51d3f34ef408155463bc8a3622c9e421edbe8e53|2018-11-26|corryvrequan|add tutorial about parametric circuit
+7e81e8bc18f67b922c5876cf7b289782d9800bf8|2018-11-26|corryvrequan|Merge remote-tracking branch 'upstream/dev'
+1a8c58e9137ae89e9e52f8f3484c345811516620|2018-11-22|mshrn|Merge pull request #49 from corryvrequan/feature/add_state_set_function
+bdf50d16d603122bf4ac33f0d10fbd1b0a683472|2018-11-22|corryvrequan|add state ste function
+ee0281889d628d85ccda7cde6f215ce499a161a7|2018-11-22|TenninYan|Merge pull request #46 from qulacs/dev
+ad0355572c6f95300a0a44d2fd104e1f5aaac1f4|2018-11-21|TenninYan|Merge branch 'master' into dev
+8d720da184ba0a5260b51542ac4df80ae235396b|2018-11-21|TenninYan|Merge pull request #47 from TenninYan/dev
+3b73403bfd8e659c43928efcb5db30c2da341608|2018-11-21|TenninYan|Merge pull request #45 from corryvrequan/fix_invalid_probabilistic_target_eval
+5285ce5ffaef8171e102ee980b1b4c9242fb009d|2018-11-21|Tennin Yan|release for 0.0.4
+225e1762faef086e9f6f65d7897aba3a76419a23|2018-11-21|Tennin Yan|Merge branch 'fix_invalid_probabilistic_target_eval' of github.com:corryvrequan/qulacs into dev
+10d201ba77212e0784d491d15d19536632564d3e|2018-11-21|corryvrequan|remove warnings
+734b46ba37861121df17f5980da478ef73b89399|2018-11-21|corryvrequan|change default behavior of gate_add in python
+6d3d4f7b052d7b8038c0292adb9e7936a2a4dbe9|2018-11-21|corryvrequan|Merge branch 'fix_invalid_probabilistic_target_eval' of https://github.com/corryvrequan/qulacs into fix_invalid_probabilistic_target_eval
+82ee2a14c3100d2ff29ea069195849e75609ff0a|2018-11-21|corryvrequan|quick fix for release issue in python
+79524ab90c458ad28f767086f9dc65ec7553bdb9|2018-11-21|TenninYan|Update test_circuit.cpp
+c1fa50ede018f2ad37e401e2e24872755a67926f|2018-11-20|TenninYan|Update README.md
+76dd01d64c23c11c02346e55d183d1f277e131ed|2018-11-19|corryvrequan|ignore probabilistic gate in depth eval
+a7512330f45e4adfcbbb8298ab53783e819f567c|2018-11-12|corryvrequan|Merge pull request #43 from corryvrequan/add_bind_pauli_operator
+0fbc4dceb2a2e05d9d99424e85a79b94526ad6fd|2018-11-12|corryvrequan|Merge pull request #44 from y-yu/feature/add-windows-test
+edbeed8df5747bea50d719b1de1376753fcd9a8c|2018-11-05|Yoshimura Yuu|Add windows test
+ff8a535d6ff3604d31bb7779729f24d328c6beef|2018-11-12|corryvrequan|replace tabs to spaces
+ce817f4e0a2f05f4dc3c0870caf373073f504a4d|2018-11-12|corryvrequan|add binding functions
+a0d2baeda5c967b7f245b977e2ee19abd6f65bbd|2018-11-11|TenninYan|Merge pull request #41 from TenninYan/dev
+76c3894f7246ad257f73bbbd4f9f123f42a32381|2018-11-11|Tennin Yan|add japanese document
+0d8c021a9dc53c998c66d13eb98de74b681db9a2|2018-11-11|TenninYan|Merge pull request #40 from corryvrequan/fix_readme
+aa29a346b53ccd0f35b81da5c21f0ce6efb92129|2018-11-11|corryvrequan|Merge pull request #37 from corryvrequan/test_transition_amplitude
+05dfea3a0224a1995767d837953b44c494676fb1|2018-11-11|corryvrequan|fix typos
+83c2232d4eff89917d7a5c20ca0bd36c652d55ac|2018-11-11|corryvrequan|fix typos
+9eaf1c59ddb3bdc80228605d0a5fc6e7b4527daf|2018-11-11|corryvrequan|fix typos
+7cf75bb2394b0d62f5b7c67a9992765561522bf9|2018-11-11|corryvrequan|fix typos
+8bfd55ab7219fd421784acda3696a2b3a97de529|2018-11-11|corryvrequan|fix typos
+eacf2455e55f60f910fee880c58ff0bf2ffc22c9|2018-11-11|corryvrequan|fix typos
+c0f15affedd7ce4a5a633285ed1a858320ff466e|2018-11-11|corryvrequan|fix typos
+978fe474c24efc9e1303a3e52d66a20011a4a7a2|2018-11-11|corryvrequan|update readme
+2d60f368e56b31d3da3c068322d23fff7e30bef9|2018-11-11|corryvrequan|Merge branch 'test_transition_amplitude' of https://github.com/corryvrequan/qulacs into test_transition_amplitude
+ac68fafe23b5f880d5fd67f162073a7da40781d3|2018-11-11|corryvrequan|fix real/imag function compatible to gcc
+5de85f7bfe9507edcef8f796fd4efd491283567b|2018-11-10|TenninYan|Update stat_ops.c
+7235fb2d2d2143cf9f2fcaca9810fafa403fb9e2|2018-11-10|TenninYan|Merge pull request #38 from corryvrequan/translate_troubleshoot
+05723386fcef47d7bcde0b7031743b36a6156672|2018-11-10|TenninYan|Update 4_TroubleShooting.md
+d084cd5c116774d4c8df96fe168bf02f8b01427f|2018-11-10|TenninYan|Update 1_HowToInstall.md
+99f36f3d158c3356c7082239622b99c7036fe9a3|2018-11-10|TenninYan|Merge pull request #39 from TenninYan/travix-fix
+a3851bb51171da2b7f02f6cc599570daf9e54af8|2018-11-10|Tennin Yan|no neeed to reinstall xcode
+a0e1937da663a7f8d3554e68f00f1f5adc9be45e|2018-11-10|Tennin Yan|fix to xcode10.1
+4fad9d1a0ed16c70ecb7c2c670d0bd4c781d1be0|2018-11-10|corryvrequan|add renamed document
+29e1ac4af26a331b6a9683d563f77fa61d566c7a|2018-11-10|corryvrequan|translate document
+6155bbabf1e5a3e01927c5bd56931d5821f832ec|2018-11-10|corryvrequan|fix bugs in transition amplitude, and add tests for them
+9f6ea9f0d99f12ea162c7dbce5387327fb697e8d|2018-10-31|TenninYan|Merge pull request #36 from qulacs/dev
+2fbe8b5f27c093278d33bf6c44c63a09d6332437|2018-10-31|Tennin Yan|change pypi version
+a13b6e6b027402ec030ec189e1cbe754a146cec5|2018-10-31|Tennin Yan|Merge branch 'dev' of github.com:qulacs/qulacs into dev
+0455ba624d5254aa32e8fe946020fc6005169fa6|2018-10-31|TenninYan|Merge pull request #26 from qulacs/dev
+5d60de1e27a2610fe1b5f81b0dbf975a0d461843|2018-10-31|TenninYan|Update README.md
+6fed290a1ebc1302d5f46a606dab4092341efa97|2018-10-31|TenninYan|Update README.md
+f9e6448cbcf52de808a5606acc6ba61475eb1ea9|2018-10-30|Tennin Yan|export xml
+8aeceabd80aa3020dca0b115aa6433c8802f606d|2018-10-30|corryvrequan|Merge pull request #34 from hal0taso/bugfix/observable_add_operator
+93d44536cc8e58bc956cc64eccf27d0b61d68b9b|2018-10-30|corryvrequan|Merge pull request #35 from yurisan/installation_small_bugfix
+67e693eb845204af224f3b58975ebb0f82e555b2|2018-10-30|Yuria Hiraga|Fix bug in Installation
+993de37bc9e33dfcda531cb1b46f9aa4562a1d1a|2018-10-30|hal0taso|bugfix for qulacs.Observable.add_operator(PauliOperator*) - make argument to const
+9477a62cb974b97461534a093278748df6924cb4|2018-10-30|TenninYan|Merge pull request #27 from TenninYan/fix/no-cmake
+b5280ea22153bf0d8079f2fd59bb26c1eefcf9c3|2018-10-30|TenninYan|Merge pull request #32 from TenninYan/fix/gcc-8-error
+c041a8fdcaa18632007ac28e2cc4392627af2df9|2018-10-29|Tennin Yan|update setup.py
+af3c116d1cd73e447fe2a8b37a8c351a58b4ac27|2018-10-29|Tennin Yan|add test
+9a5ed1e09b1cb377f1f6ca12afbbc9cc91985a79|2018-10-29|Tennin Yan|Merge branch 'add_manifest' of github.com:corryvrequan/qulacs into fix/no-cmake
+23712404331691ae6c7df3f0a285b0e542161d46|2018-10-29|Tennin Yan|Merge branch 'dev' of github.com:qulacs/qulacs into fix/no-cmake
+80498cb01299fe9af164ac1a5df2a214fc60251a|2018-10-29|TenninYan|Merge pull request #29 from corryvrequan/fix/confusing_space_and_tabs
+6624d996e14868e6cc07f502ba277b989947059b|2018-10-29|Tennin Yan|error in exact 8.0.0
+2e0ff61a08f3e0368a6ddb7316ebb366271bd77d|2018-10-29|TenninYan|Merge pull request #31 from TenninYan/fix/gcc-8-error
+69c75ccf3f4bf439dd904c5d3973655867c335c7|2018-10-29|Tennin Yan|use gnu++11 if gcc>8.0
+fa2ea4bd0994c1da11b38cd3252fa3efe99d174c|2018-10-29|corryvrequan|replace tab to spaces
+a0fec5ac34ee069d0e7a1efb135a4023e2fff722|2018-10-29|corryvrequan|remove cmake_version_compare which require ver3.7
+0bff5923ac9fb13b99623d6ef120ac64f3aa14d5|2018-10-29|corryvrequan|add manifest.in
+d54a5c18445ea85150bd5f7a5d8ac2d9a09d9ece|2018-10-29|Tennin Yan|add package automatically
+e7f2bba8c237a2287b45cafe5936161299192864|2018-10-29|Tennin Yan|Merge branch 'dev' of github.com:qulacs/qulacs into dev
+821a4a51d34a4694f3f026c76dfb159f708eff1b|2018-10-29|TenninYan|Update README.md
+ae74acd66f2afdab21f60d82ffcf9b4a434b000f|2018-10-26|corryvrequan|Merge pull request #25 from hal0taso/create_observable_from_text
+a8bba6ecc2fb2fb61aedefbff07ad903c79e214c|2018-10-22|hal0taso|add python binding
+ec209706fc82e2421cac1caec3057e51dc00fb98|2018-10-22|hal0taso|add test for previous modification in hamiltonian.cpp file.
+2487219c9d239207ebc42e1502c22a2d4d57fd12|2018-10-22|hal0taso|add/move following 3 functions in observable namespace, [add] - create_observable_from_openfermion_file(file_path) - create_observable_from_openfermion_text(text) [move] - create_split_observable(file_path)
+29f2b9f8e722d08db1fd1c239c97f5677a162a5d|2018-10-20|Tennin Yan|Merge branch 'dev' of github.com:qulacs/qulacs into dev
+7055237bd2f17df42e2e2cfc0a61ac036afe562b|2018-10-20|Tennin Yan|Merge branch 'master' of github.com:qulacs/qulacs into dev
+90776a11e422b66a11854e5f7311c0e2b1537e5e|2018-10-20|TenninYan|Wrong URL. Use http
+0ab5fd85a976efd4a56bb83f4ff844ae6f2f4258|2018-10-15|TenninYan|Merge pull request #20 from corryvrequan/fix_readme_tutorial
+57dda9bab4add8c45d63b87de011962e9c2704cb|2018-10-15|corryvrequan|replace pycppsim to qulacs
+279bb59d25f1fece4bf09707a4f589c642d7d7e2|2018-10-15|TenninYan|Merge pull request #19 from corryvrequan/more_binding_functions
+b7aa3e820e0c113210470593e564f5a0e5e24e49|2018-10-15|corryvrequan|update readme and tutorial
+b0d6e4cd1548f37fc687b8ebd7df23a5d19cd9d6|2018-10-15|corryvrequan|Merge pull request #18 from corryvrequan/change_lib_name
+9bf1c7a36edede6732a715689e684d5ac2e38fbb|2018-10-15|corryvrequan|add options
+9df7a2e0cacaaf296e8d63d5a8feb4c952d4d678|2018-10-14|corryvrequan|fix literal
+d09c1ff60b18105335e83c9501b55abf4e117a23|2018-10-14|corryvrequan|update literal state
+c1b32dc94823ca3ee52e6f413c2c5e6f42261fed|2018-10-14|corryvrequan|fix function declare
+10ab5efc6746740654b09f6d0036a750dbfa37f9|2018-10-14|corryvrequan|add binding functions
+1228ed6cf91d6af259c62cf4f44da2aceb45c329|2018-10-14|corryvrequan|change Hamiltonian to Observable
+3839d5ac50621b2c519559ca30c80771e8f61378|2018-10-14|TenninYan|Merge pull request #17 from TenninYan/doc
+34a2937f52457d292a26ebd3a11f573fed415b45|2018-10-14|corryvrequan|fix pythontest script
+2024d3dca23421c946e02ab5415ca179dc3c60dc|2018-10-14|Tennin Yan|use mathjax
+3af87aa3e6f41c661711508dc7597c45f84dcf96|2018-10-14|corryvrequan|fix python cmake
+6ff3c7a0bb673aebeb893bf1b7c74b6883e31ab4|2018-10-14|TenninYan|Merge pull request #16 from TenninYan/setup
+0b000847dbf2c1983a013f07fc134ceb516a051c|2018-10-14|Tennin Yan|changed e-mail
+8e9afd65f1a74abee640975a5b7f806095ef7dfb|2018-10-14|TenninYan|Merge pull request #15 from TenninYan/readme
+afff61c35f3d6de0c0c9c20e5e7b47ef2bdf3f0f|2018-10-14|corryvrequan|solve conflict
+8245f3337f4898f2a533d3898f978741ec0ebc7d|2018-10-14|Tennin Yan|add travis-ci
+3e50a5e10c752464fc7f401ef08c0a83fef6fbb4|2018-10-14|corryvrequan|change lib name
+a16f8b216d494abe06f64aacf1e5db8485d435bd|2018-10-14|Tennin Yan|change readme to english
+7de2630d43642353481636450b4f4541995c3e69|2018-10-14|TenninYan|Merge pull request #14 from qulacs/dev
+53a2c8ff0aa2b15dd9eb7dbb4a507a1a64ff05b6|2018-10-14|TenninYan|Merge pull request #10 from TenninYan/document
+d83721c946117d68f4cd4ac8040ae39cdcbbb2b2|2018-10-14|TenninYan|Merge pull request #13 from TenninYan/travis-ci
+1114e84007ad85d90a949bb25641d9c116d97413|2018-10-14|Tennin Yan|changed travis and setup.py
+4bf5686fa34971364c107d3ca0753f8903c7791a|2018-10-14|Tennin Yan|enable mathjax
+2c1ec12a00e17d5bcd3ac956db08a4fea7d4af70|2018-10-14|Tennin Yan|changed footer
+c26c8fec0700397f37237b788ee47f7ecddc643a|2018-10-14|Tennin Yan|changed design using bootstrap
+142ffab926ec762209dde4df0d506c967a6b1304|2018-10-14|TenninYan|Merge pull request #9 from kamakiri01/fix-typo
+3d999e0b77a677d44daac081a113ab7d7e3608e3|2018-10-14|kamakiri01|fix typo
+b034bc5db1f7f90a9723927d2ae42cc04b986568|2018-10-05|TenninYan|Set theme jekyll-theme-slate
+5585b046581d11720d5db65f344544abc91117c8|2018-10-05|Tennin Yan|Merge remote-tracking branch 'origin/master'
+731dbbf1b9395036c0ea00a4962391ffee901dcb|2018-10-05|TenninYan|Initial commit
+dddd1087ffb78fe7be42a02302361f62e8b3797a|2018-10-05|Tennin Yan|releasing version 1.0.0 dev

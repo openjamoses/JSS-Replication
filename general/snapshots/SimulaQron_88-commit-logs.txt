@@ -1,0 +1,799 @@
+c39ed49d7616ccd551cc958d8ebf52991429e63f|2020-08-25|Axel Dahlberg|Fix deploy token
+8829451fb756ff7d1d9a16ef011c19ee7198e364|2020-08-25|Axel Dahlberg|Fix deploy token
+989f1454ca273b28589e9a53d1aabf96e2f97cc6|2020-08-24|Axel Dahlberg|Merge pull request #263 from SoftwareQuTech/Develop
+6b6390e6c8703926aeccf64b5296c7f33a331f70|2020-08-24|Axel Dahlberg|Ignore ambiguous varible in linter
+c9e529a6ecba2de925c011bc6aa94f91fc32f58d|2020-08-24|Axel Dahlberg|Bump version: 3.0.15 → 3.0.16
+9f83bdcebda08f842e0f0f627b2de8c25ca20de5|2020-08-24|Axel Dahlberg|Merge pull request #262 from SoftwareQuTech/261-noisy-qubit-option
+cba0082d0c8c19af0cb62a92695fe33c566be1c6|2020-08-24|Axel Dahlberg|Fix bug with noisy-qubit option
+6bed7ec59162291b6a0a9e38b85edadc0f04b7ca|2020-08-24|Axel Dahlberg|Merge pull request #258 from SoftwareQuTech/master
+43df0ed87bb0905fb3a2f1e7e25f6fc2f46f46b1|2020-04-01|Axel Dahlberg|Merge pull request #257 from SoftwareQuTech/hot-fix
+6b5bd76433d92836b3c3abc44e7bf98ef4159dc4|2020-04-01|Axel Dahlberg|Bump version: 3.0.14 → 3.0.15
+ec6008b7b1562001e76cd92001acce7b3f22c142|2020-04-01|Axel Dahlberg|Security patch, require twisted 20.3 or higher
+67c17b75786f6583f649ea061b66f701476a3769|2020-02-23|Axel Dahlberg|Merge pull request #256 from SoftwareQuTech/Develop
+121cb3051d05f1f46efd30403d787229ad033700|2020-02-23|Axel Dahlberg|Bump version: 3.0.13 → 3.0.14
+6cb20bdb4d2a4685aa440f959cb87a3213349c89|2020-02-23|Axel Dahlberg|Fixed some old tests and improved Network.running property
+3697c29ce6b7673aba52bef44f60eff40ef9e9e8|2020-02-23|Axel Dahlberg|Merge pull request #255 from SoftwareQuTech/master
+d9517184a3d799fad0d9cb68a8e227397a8768ac|2020-02-23|Axel Dahlberg|Merge pull request #254 from SoftwareQuTech/hot-fix
+e4a6c1dde131a827640126e06ac5c2905fc9c045|2020-02-23|Axel Dahlberg|Bump version: 3.0.12 → 3.0.13
+4def6d019920dc2981f2dbc3e23be6cd640ec662|2020-02-23|Axel Dahlberg|Fixed bug in boolean gaussian elimination in the stabilizer formalism
+40264e58da79fed16390ffde6fe97ce63fe0474f|2020-01-31|Axel Dahlberg|Merge pull request #253 from SoftwareQuTech/hot-fix
+f9df5dd9bbfbba5e978f2b83f15f30472f013a78|2020-01-31|Axel Dahlberg|Add .nojekyll on deploy
+a992b38cdef415c18aebcd2ede9d3b30301dcbcc|2020-01-27|Axel Dahlberg|Merge pull request #252 from SoftwareQuTech/master
+70ef5df905ee16792547534cd0731be80a6d32e2|2020-01-27|Axel Dahlberg|Merge pull request #251 from SoftwareQuTech/hot-fix
+5faac84a89a627deb117b88faef6a3b1192e6e5a|2020-01-27|Axel Dahlberg|Better run-script for the performance test
+179d0fe6564fbe526bee455ea846353f3dc4e8e1|2020-01-27|Axel Dahlberg|Bump version: 3.0.11 → 3.0.12
+be26507c1ec1ed0812c68f7c93587a8771f42e2e|2020-01-27|Axel Dahlberg|Made boolean Gaussian elimination in stabilizer formalism even faster
+6d3573a933baffec00e5b3b0811633c82e7ca85b|2020-01-27|Axel Dahlberg|Merge pull request #250 from SoftwareQuTech/master
+faeff789655c706ada71959c42f6aada94e6db87|2020-01-27|Axel Dahlberg|Merge pull request #249 from SoftwareQuTech/hot-fix
+687a1bc4731dccac84a2ae2410a01c991c760b6a|2020-01-27|Axel Dahlberg|Bump version: 3.0.10 → 3.0.11
+6c3b66b64627096635c9748f881f305ae797d24e|2020-01-27|Axel Dahlberg|Made boolean Gaussian elimination in stabilizer formalism faster
+656af0ca67710bc6545943def73538b237f7acb4|2019-12-13|Axel Dahlberg|Fixed native mode examples (#247)
+a966e7680242c84d8e23545bc826b4814bb86213|2019-11-28|Axel Dahlberg|Merge pull request #243 from johanvos/242-pidinfo
+b12061f0caf64feeec8c257b4e7007c0940569b2|2019-11-28|Axel Dahlberg|Merge pull request #244 from SoftwareQuTech/master
+db1dade6c9c7f2f610d8def320bafc742408a0cd|2019-11-27|Johan Vos|When a pidfile is detected, the network is considered running. However, when simulaqron is terminated in a non-normal way, that pidfile will not be removed. This fix tells the user where the pidfile is, so he can remove it in case he's sure the network is not running. Fixes #242
+4aed7088c321f56fdb87f6940845545c01016fd7|2019-11-14|Axel Dahlberg|Merge pull request #241 from SoftwareQuTech/hot-fix
+cca9624d5f73a9f5391897059412f1bbc65a966f|2019-11-14|Axel Dahlberg|build(CI): Pipeline now uses CQC from pypi rather than the Develop branch
+d42bf6811aadf73d8145aeccbd9a28e74a33737e|2019-11-14|Axel Dahlberg|Merge pull request #240 from SoftwareQuTech/hot-fix
+f5d976bafb9468645b81d243d9fd5e4581c878c4|2019-11-14|Axel Dahlberg|docs(docs/conf.py): Added extension for github pages so that .nojekyll is added
+44647466bc02777e1ba8b5d781d7a870e77dc9f7|2019-11-07|Axel Dahlberg|Removed html files, now using gh-pages branch
+ea134f5de43cd2c917bbfae04da6c081e7791d9e|2019-11-07|Axel Dahlberg|Merge pull request #238 from SoftwareQuTech/hot-fix
+80ea0425c3e570aecdea3fadad0a40c2c2b9a4ad|2019-11-07|Axel Dahlberg|Updated example for starting network in python
+5a8260b60d5a42af80ca849bca8aeb92e2e4b3ae|2019-11-01|Axel Dahlberg|Merge pull request #236 from SoftwareQuTech/Develop
+df354ede5a46b1c96b8bb1915dfada5157847ece|2019-11-01|Axel Dahlberg|Fixed build conditions
+a2cfaf62a0b3fa68e1603a0518a4ffb57676c016|2019-11-01|Axel Dahlberg|Added before_deploy to build docs
+2e9bb02e0479180d0924020609946582fca9fbbd|2019-11-01|Axel Dahlberg|Merge pull request #235 from SoftwareQuTech/Develop
+a2a27d80ef149ae7fddb886239de0afeeaadda37|2019-11-01|Axel Dahlberg|Added back the old html files for now
+21da1996ff53971a0daea30458be991bd58176ef|2019-11-01|Axel Dahlberg|Added encrypted deploy key
+a8fabd771e6e85a60052fbe2da379ce40dd502c3|2019-11-01|Axel Dahlberg|Merge pull request #234 from SoftwareQuTech/Develop
+385ef8e6a0e9cd6883161b174274ce5d2a7c64c4|2019-11-01|Axel Dahlberg|Merge pull request #233 from SoftwareQuTech/230-cqc-docs
+5f0d1a8525904996bbd25786bc086498a30d0c65|2019-11-01|Axel Dahlberg|Deploy docs/build instead to keep same url
+5631ba9db0db7d1b8065dbdaf1229cea108b875a|2019-11-01|Axel Dahlberg|Moved cqc specific docs and added docs to CD
+560d268abe20a123f5d6e42740c94a9ea980a6a4|2019-10-29|Axel Dahlberg|Moved docs to CQC
+6f0dc310837396030f4ceb03894c9473264b8c03|2019-10-30|Axel Dahlberg|Merge pull request #232 from SoftwareQuTech/Develop
+9c40f25c66601b529c849da718e63690aa28c72e|2019-10-30|Axel Dahlberg|Bump version: 3.0.9 → 3.0.10
+7d65fd19d693b26c57b37d00b4fcfbf064bcb7c1|2019-10-30|Axel Dahlberg|Updated requirements and CHANGELOG
+569eb680dcd1865d7763c7219b58a3ea6711f095|2019-10-30|Axel Dahlberg|Merge pull request #215 from VictorPrins/Feature/CQC_conditionals
+d5e4f5955668316ebfce8f3b3ae4ebd6a3584dcb|2019-10-30|Axel Dahlberg|Merge pull request #228 from SoftwareQuTech/Develop
+98b6439379e1a2641e57f33cd879a6767f0eddcb|2019-10-25|Victor|Fix failing tests
+544c5e015a8fcb3d0cc7ead00bcf8a3eab03f0c5|2019-10-24|Axel Dahlberg|Bump version: 3.0.8 → 3.0.9
+2df6051c8a0ea5cdade00e6e76134e128fa7a36c|2019-10-24|Axel Dahlberg|Updated CHANGELOG
+fbf816e848a74952e835c0f752f6b3a14a9e88fc|2019-10-24|Axel Dahlberg|Merge pull request #227 from SoftwareQuTech/master
+21ba9a36ea221f1edbf4d78ac77b29dd32571508|2019-10-24|Axel Dahlberg|Merge pull request #225 from SoftwareQuTech/221-measure-eigenstate
+cbbb385e56b2325d48cf276119ef051c2870fd75|2019-10-21|Victor|Merge branch 'Develop' into Feature/CQC_conditionals
+5bb2c47cd1c19da341a07c92a6b85f8001b8a036|2019-10-04|Victor|Adapt tests to new API
+267c2188013a30d7e4f665727225be1781671254|2019-10-01|Victor|Support reference IDs
+e5a7b3e030de38a28a45b6be92f552c1c429c8ed|2019-10-16|Axel Dahlberg|Merge pull request #226 from SoftwareQuTech/hot-fix
+8be716d1a96f1e0fec030e3803e198ff08fde2eb|2019-10-16|Axel Dahlberg|Fixed linting issues
+a76a792226aadd5d1a9f312c9304e9c8705bb5c6|2019-10-16|Axel Dahlberg|Bump version: 3.0.7 → 3.0.8
+2eccfe7db3ed67fc3c2a2e35eef109de6781b59d|2019-10-16|Axel Dahlberg|Now requiring cqc 3.0.4
+1b86d16fc72bb261a762f8ef26fb25243a8ead11|2019-10-15|Axel Dahlberg|Fixed bug in the stabilizer formalism which can occur when measuring a qubit in an eigenstate of Z + tests
+080532c836dd31ba81c54318cd68cc2b5e055828|2019-10-14|Axel Dahlberg|Merge pull request #224 from SoftwareQuTech/master
+d8bb752e410a03f116e7f0e37a580d1c1bf17fe3|2019-10-09|Axel Dahlberg|Merge pull request #223 from SoftwareQuTech/hot-fix
+da9dbb6e3fa4aa2e87f273a52ba702c5140b8509|2019-10-09|Axel Dahlberg|Bump version: 3.0.6 → 3.0.7
+15ad3487c546413611701d1b77eb4e4ae24b0831|2019-10-09|Axel Dahlberg|Upgraded to twisted 19.7
+f27f137df4793d470390331b3979d91e7a0022dc|2019-10-09|Axel Dahlberg|Merge pull request #222 from SoftwareQuTech/hot-fix
+69fa2b0c654a1ebfeadca4d216ca1999e72bbfb3|2019-10-09|Axel Dahlberg|Bump version: 3.0.5 → 3.0.6
+b671c20fbad0f43ac78aeaf1a4456a9694b99005|2019-10-09|Axel Dahlberg|Updated requirements (now requiring cqc 3.0.3
+26979a3f1dda9f206777026b4de137a160396f61|2019-10-08|Axel Dahlberg|Removed only deploy on tags but instead always on master
+1c76113bd30d5f286d45b0f28bab7728c703d630|2019-10-08|Axel Dahlberg|Merge pull request #219 from SoftwareQuTech/Develop
+99e3487be39ecaf82c0ba709e5bec1df25117453|2019-10-08|Axel Dahlberg|Bump version: 3.0.4 → 3.0.5
+63703cfccd38d2942f132c67a71b44d2d598b657|2019-10-08|Axel Dahlberg|Updated CHANGELOG
+b3c0eb738979ea70095d56ef648efa55e08c0961|2019-10-08|Axel Dahlberg|Added bumpversion
+c37f0bc9aadce3986ee91ff59332d7ec35679ffb|2019-10-08|Axel Dahlberg|Merge pull request #218 from SoftwareQuTech/217-return-different-app-id
+8611c3167e10983ca85594beadd47c7b900d7e39|2019-10-08|Axel Dahlberg|Changed return_messages to be a dict with return messages per app id
+79c0402d8a13d915ea33d6d0b2bcb314e56d527c|2019-07-31|Axel Dahlberg|Update README.md
+c4e11940456b91ae6d91950eddbbcd951b604dbf|2019-07-30|Axel Dahlberg|Merge pull request #207 from tai271828/pr-add-travis-badge
+88181959c4b3ab385d4279ad2bedbc260a2caa3a|2019-07-24|Taihsiang Ho (tai271828)|Add Travis CI build status badge of Develop branch
+9f4d076c397dae91ca760b2e423f0a94d6d72855|2019-06-03|Axel Dahlberg|Also deploy wheel (#205)
+3da2d686dbd9d9deb43532567cfb19a2e683723f|2019-05-30|Axel Dahlberg|Merge pull request #202 from SoftwareQuTech/Develop
+5f38959d3e359c51251df67c5584bf967a68a9d9|2019-05-30|Dominic Jodoin|Fix Travis CI branches safelist (#201)
+77324262a68173736e84baf9e5cc788f22152880|2019-05-29|Axel Dahlberg|194 get time test (#200)
+ddbc4f45e6bff11ebcf71160b209875a808efa2e|2019-05-29|Axel Dahlberg|Merge pull request #199 from SoftwareQuTech/Develop
+9d50010b66ae82777898f33a5f5ba1ad346f16cb|2019-05-29|Axel Dahlberg|only build in one job (3.6)
+3e17c54d47c53b7178a3b5eab6258e5f91d7bda2|2019-05-29|Axel Dahlberg|Merge pull request #198 from SoftwareQuTech/Develop
+6560c0644ac80a684ca3a1c9a5be9071197d5a39|2019-05-29|Axel Dahlberg|build html
+3baa8364c19a174afef04bda9ca9b409d956150b|2019-05-29|Axel Dahlberg|Merge pull request #197 from SoftwareQuTech/add-make-docs
+0b080cc97bce195207ee7e6b135944f9a8a69e06|2019-05-29|Axel Dahlberg|Moved only before
+a89867f0d50363f152d78c5ac2509046cf0c93fa|2019-05-29|Axel Dahlberg|Added make docs in docs folder for building the html docs
+552fef6e90eb4afb59119cb447b4bb1074e8af68|2019-05-29|Axel Dahlberg|Merge pull request #196 from SoftwareQuTech/Develop
+cf0887ceb310f924e732a947a668793dd848457d|2019-05-29|Axel Dahlberg|Merge pull request #195 from SoftwareQuTech/deploy_ci
+7c6810e0cb27ee43f71ad612785ab9b50e7aabfb|2019-05-29|Axel Dahlberg|Added deploy to ci
+388b633cb8cf1bab526ea12d6b4a90dfb70cac36|2019-05-29|Axel Dahlberg|Merge pull request #193 from SoftwareQuTech/Develop
+42be0e7e9253b9f4eb77e89a6e48323902f476ea|2019-05-29|Axel Dahlberg|fixed lint errors in yml
+3836b15a911a8e57ae896179ec59a937cc67a4a9|2019-05-29|Axel Dahlberg|Removed jobs not in matrix
+f9dadddd8cc8043bab80600869ba652b6e27299a|2019-05-29|Axel Dahlberg|Merge branch 'Develop'
+1560e3e6052b3fe4b3b61a469d08196cac5fd6dc|2019-05-29|Axel Dahlberg|Merge branch 'master' into Develop
+fa1c0620ffc02b64f48b9b011e3dc1c81884132b|2019-05-29|Axel Dahlberg|Build latest cqc and also test on macOS (#191)
+82a5d7210b1837268bf1f831534350dc24bc2168|2019-05-29|Axel Dahlberg|Removed only master and Develop
+24d67f095eff3c170075fc689ace0c2498a34d81|2019-05-29|Axel Dahlberg|Removed depenency for black (#190)
+53cccdfc90cde1e4a80e03973aa689b12786765b|2019-05-29|Axel Dahlberg|Fix ci (#188)
+9c62f46fe24ac08ed5c7ebb60389f388da598c0a|2019-05-28|Axel Dahlberg|Added travis.yml for CI
+9cc8f84102a422333a1751b993cc9d836811e66a|2019-05-23|Axel Dahlberg|build html
+e7273dfaf1d2102dd36c0bf118888086fc0acdb9|2019-05-23|Axel Dahlberg|Merge pull request #187 from SoftwareQuTech/Develop
+61f9c495be202a0b562c6a4cc059b09b62bf92cd|2019-05-23|Axel Dahlberg|Merge pull request #186 from SoftwareQuTech/180-simulaqron_folder
+84868e412380f24326b0f2fe8d6db2a06e1d1ede|2019-05-23|Axel Dahlberg|fixed bug with keeping the folder .simulaqron_pids when installing from wheel
+7502020fee68403a1e4ea45a5600c4fee5a6d134|2019-05-23|Axel Dahlberg|build html
+8b29fc534fb2abb1d23e22db2729bb7847a6fabc|2019-05-13|Taihsiang Ho (tai271828)|Ref issue #180 Add explicit error messages
+e46e6e6bdc010257814d9c97387e674352fda586|2019-05-23|Axel Dahlberg|Merge pull request #184 from SoftwareQuTech/Develop
+9ddb2e37d671b06f0f8f04ba1c2f2e720bceac7f|2019-05-23|Axel Dahlberg|Merge branch 'Develop' of https://github.com/SoftwareQuTech/SimulaQron into Develop
+7e9d59dd10e47af8fdab3fd7ba85826efda6fef2|2019-05-23|Axel Dahlberg|Fixed bug with getting the settings for noisy qubits
+72007616bf99999633d74572f4218979eadf77ee|2019-05-22|Axel Dahlberg|Merge pull request #183 from tai271828/dev-pr-doc-typo
+49e3e8d8edc5083339feb721556aeba95fb4909a|2019-05-10|Taihsiang Ho (tai271828)|Fix doc typo
+711ebc7d384284d61bb15b5edf29b4fcc63cef1b|2019-04-30|Axel Dahlberg|build html
+9189d079ffd2341562727c4766e5fee3f40e81f1|2019-04-30|Axel Dahlberg|Merge pull request #177 from SoftwareQuTech/Develop
+f63e932f0a3f2049aed393ac7831188d7fe05d8b|2019-04-30|Axel Dahlberg|Removed secondary requirements
+128d4fb47bcf8e1d902617806d5b586ab4aa0705|2019-04-27|Axel Dahlberg|Update README.md
+4ff2a3d4a9ceb21ff990edf46c8e2e3eb2f65155|2019-04-27|Axel Dahlberg|Updated html docs
+dbab91e23cc7ab808231018232e698f7bc116cab|2019-04-27|Axel Dahlberg|Merge pull request #176 from SoftwareQuTech/Develop
+cfe066de3fe1423fdc0bc3db8564101d94b6736d|2019-04-27|Axel Dahlberg|Moved merge tests from quick to slow
+d4154467b3488a554529ede2f1d8e882cba62c75|2019-04-27|Axel Dahlberg|Merge pull request #175 from SoftwareQuTech/151-settings
+5b514d9b4f6f479e53a7be184c2791094e99c97e|2019-04-27|Axel Dahlberg|Updated docs and fixed bug with missing folder when installing through pip
+60d9d9d805df787963f9634bd6890befcea7b0a5|2019-04-27|Axel Dahlberg|Updated docs
+0379c588fe7fb34cb0ed47932951824ce7fd916a|2019-04-27|Axel Dahlberg|Final doc-strings and fixed bug with checking open ports
+e949a42542f8ed2807ed73b34312a9628428ffbb|2019-04-26|Axel Dahlberg|Doc-strings
+ae29271e03d8d507056f113296781254d3982049|2019-04-26|Axel Dahlberg|More doc-strings
+2dbceb923e6fb5dfc046e1ac53f40b8a14177c30|2019-04-25|Axel Dahlberg|Fixes from review, removed some commented code and references to old files. Both 'yes' and 'y' are now valid positive answers.
+f9c9ea02321646f9fa292178c0607d8bdefae655|2019-04-23|Axel Dahlberg|Fixed bug with setting log level
+0de203f8e25338ac0366cc7453dd172bb56d0bc0|2019-04-23|Axel Dahlberg|Empty line
+33b2be472024b4c75264621446dd4eda2f9a1826|2019-04-23|Axel Dahlberg|Fixed reset and MakeFile
+03449147d3390feb09819e5d97e9b301161ee4d3|2019-04-22|Axel Dahlberg|New way of handling settings, network configs etc is now tested and working
+bf184efb0133e26ab667bca3ec7c05c38f44e0e7|2019-04-22|Axel Dahlberg|Networks are now configure with a single json file
+4710fab5d3a0a4556315866b55d24c319c7e04ce|2019-04-21|Axel Dahlberg|Changed how settings are managed
+65a8873c984d88a5a88c5e57dce6227e78485386|2019-04-09|Axel Dahlberg|Merge pull request #173 from SoftwareQuTech/163-dockerfile_update
+ee04c6bab7172d728bb4ea1de894b7f801c377d5|2019-04-09|Axel Dahlberg|Updated docker file to do 'pip3 install simulaqron'
+0161475f88035d493a929a9194ac8c21480e3010|2019-04-08|Axel Dahlberg|Rebuild html
+53fcf2f1925c1251a9b8c95cc1ce181e980302a5|2019-04-08|Axel Dahlberg|Merge pull request #169 from SoftwareQuTech/Develop
+050531e7e44b15e81d118d7f3a46b354ea2fcf54|2019-04-08|Axel Dahlberg|Merge branch 'master' into Develop
+35f112b8dc95e947cc86a81da748afa7cc5702ac|2019-04-08|Axel Dahlberg|Merge pull request #168 from SoftwareQuTech/comments_leon
+864013c1d7188e0e1a7ef433f15d2604c7fc89f1|2019-04-08|Axel Dahlberg|Updated version to 2.2.0
+d23b79a4a453348bdd0733b63bcb46ddfc39ec1d|2019-04-08|Axel Dahlberg|Moved simulaqron.cqc_backend.cqcProtocol.CQCProtocol and simulaqron.cqc_backend.cqcMessageHandler.CQCMessageHandler to CQC repo and some other small things
+37931000a8234098104869eed5756a51f401699e|2019-04-05|Leon|Version 2.1.2
+98216629fce4144ba888a075b67670531ee6c4ba|2019-04-05|Leon|Moved new_ent_id up from simulaqronCQCHandler to CQCMessageHandler
+5985ed7d1b11fca8bff309db07a9227f9f5b6481|2019-03-29|Axel Dahlberg|Updated requirements to cqc>=2.1.0
+e2db74e16a7fc3ec3f0888e6c6525f55164ddaf9|2019-03-29|Axel Dahlberg|Rebuild html
+1880ac83e65bfccc29db74de711b1336d6f5aa20|2019-03-29|Axel Dahlberg|Merge pull request #166 from SoftwareQuTech/Develop
+3a61e42b7e63bc04eff42cc0c065946ce1251453|2019-03-29|Axel Dahlberg|Merge branch 'master' into Develop
+5884cab7b0aa1c355b9a62f938a53c67ad534623|2019-03-29|Axel Dahlberg|Tests fix v2.1.1
+4a740589f966adf08e768acd9b089e3fbcd470ec|2019-03-29|Axel Dahlberg|Merge pull request #165 from SoftwareQuTech/bug-fix-tests
+441796dbc3dcab82389f8370eab37fe0587b4aff|2019-03-29|Axel Dahlberg|Fixed some linting and the make tests
+800ba181669df7d8bd4d57f71c233a0b3dad1349|2019-03-29|Axel Dahlberg|Fixed bugs with tests and MakeFile. Tests can be run through python as simulaqron.tests()
+64e246ce43fcc3f8117c5c8fe837676390b5f7de|2019-03-29|Axel Dahlberg|Changed how to setup CQC
+50ee32a03344fd9dfa52fd1013454b9da543236e|2019-03-28|Axel Dahlberg|Don't setup CQC everytime simulaqron is imported
+c2a815ce0d12e8a7d6b0a6634459cfd9bd71b8ce|2019-03-28|Axel Dahlberg|SimulaQron now sets up CQC directly when being imported
+f3d7c224c7aeb2b4ba0128e00375e8ce6a3a0184|2019-03-28|Axel Dahlberg|Network now uses the settings for CQC and APP file by default
+59e35ef1e3c010eb1dcf5a9db3136160f281af10|2019-03-28|Axel Dahlberg|Fix bug with tests (was missing config files)
+c61434640929f3007d854282c58d686ba912b7f0|2019-03-28|Axel Dahlberg|Updated the CHANGELOG
+4643609f351faf553275a32e0b49a184bce84ff4|2019-03-28|Axel Dahlberg|Rebuild html
+28e908d5a9eaa2235b1e4085bb49716064dc7f67|2019-03-28|Axel Dahlberg|Merge pull request #164 from SoftwareQuTech/Develop
+a45402ab168d9bbea0b74a91480b3f7236b805a0|2019-03-28|Axel Dahlberg|Added link to arXiv version of paper in the docs
+cccb8d3a378eb5b39f52484e6e348a496b0ecec3|2019-03-27|Axel Dahlberg|Build html files
+749f0990e1546e2f9361cde26249b08fb93fdd7b|2019-03-27|Axel Dahlberg|Merge pull request #162 from SoftwareQuTech/Develop
+429c136e0838577a249ea723736d815b2fa6d298|2019-03-27|Axel Dahlberg|Merge branch 'master' into Develop
+ca256745eda7f71cd58167dd4584ca6321de10be|2019-03-27|Axel Dahlberg|Merge pull request #161 from SoftwareQuTech/133-pip_install
+1d72ad5577b972bbc84426067ef48768fce5cebc|2019-03-27|Axel Dahlberg|Updated the CHANGELOG
+b5d559193a1a52d3942abb180dc1d09b1b6e65aa|2019-03-27|Axel Dahlberg|Updated docs version to 2.1.0
+5061671a06a1d470ec3dd0bad95b22d1f7d41a51|2019-03-27|Axel Dahlberg|Updated docs on how to set port numbers for applications
+0290b09cdac4643e125a14dc6e8ed1f3a5fb6afc|2019-03-27|Axel Dahlberg|Updated the docs
+43cf0baea32f63b0370cd882103fe9634b216092|2019-03-27|Axel Dahlberg|Changed the command line interface to use lower case and added a reset command for when things go wrong
+c0e4fa62e674b4d95ea12f5067eb9e5d1ec9b0a8|2019-03-27|Axel Dahlberg|Moved examples of how to use the python lib from here to CQC-Python repo
+eafd3b08862af6ac681dd4b29ce8507ff2b58be1|2019-03-26|Axel Dahlberg|Moved CQC files to different repository and made it possible to pip3 install simulaqron
+de82df7be40b0067cceb17d42203a4360b34e42b|2019-03-15|Axel Dahlberg|Made build scripts for simualqron and cqc
+05317aba6e8737e21708e7e0bab83386ef8ea8d9|2019-03-15|Axel Dahlberg|Started preparing for making pip install simulaqron
+bf918480b23bc86327725b5c94806e7208eda44d|2019-03-25|Axel Dahlberg|Merge pull request #157 from SoftwareQuTech/wojtek242/rustLib
+0661e3873b689e081e41e0fa94fa7343f7875c86|2019-03-25|Axel Dahlberg|Merge pull request #156 from SoftwareQuTech/wojtek242/dockerfile
+0c2f16f5ad41f216c1c6fb87f0498c9a9689fd65|2019-03-24|Wojciech Kozlowski|Update e-mail address
+911b769ede1d45223ea72884a97a955fc792fd68|2019-03-24|Wojciech Kozlowski|Update rustLib to cqc 0.4.0 which supports CQC V2
+d17b28bee2fb717aae797d37846c5f0c796017e7|2019-03-24|Wojciech Kozlowski|Remove spurious word
+a692c78735dbf38a7e558738e05f0b468b5b1565|2019-03-24|Wojciech Kozlowski|Update Dockerfile to use python3 instead of symlinks
+014c06ddc3711272cf9908db54f77d88f74b9d7f|2019-03-15|Axel Dahlberg|Updated docs to version 1.3
+90c6c9ea5eb2ffe3c8d37b2fe20054003b643db5|2019-03-15|Axel Dahlberg|Generated html files
+1951bd031b5703dfc3c2bc18b426dbf1fbd1b3f2|2019-03-15|Axel Dahlberg|Merge pull request #155 from SoftwareQuTech/Develop
+a9d8115dd8b35047f9d8c306112a33a770a92d55|2019-03-15|Axel Dahlberg|Merge branch 'master' into Develop
+cc9e6c7d78fcbc7a78065ff076770f9d9f052a7a|2019-03-15|Axel Dahlberg|Fixing merge conflicts of html files
+09631f25143b0f18e276fb1f0c0833f3f1c3d307|2019-03-15|Axel Dahlberg|Updated the changelog
+dc33edb20a3882a6bfadb10a9717e45f4c4b51a5|2019-03-15|Axel Dahlberg|Fixed some small bugs with the tests and the MakeFile
+d1aa89bfd6cceae6e4c9c08de4e45872b5c3eb24|2019-03-15|Axel Dahlberg|Merge pull request #150 from SoftwareQuTech/Network_and_cli
+63bf37fc21050db297c9cd334d10138350c49cc7|2019-03-15|Axel Dahlberg|Update the changelog
+b33dcd739c4b2c07844465892e44f9fb5dfda14b|2019-03-15|Axel Dahlberg|Updated docs
+d463d19c59c80f31e0fee6439feb09c2eeb8ff5c|2019-03-14|Axel Dahlberg|Started updating docs
+7d57794958b9723f0399c0897904bdcb94c51682|2019-03-08|Axel Dahlberg|Merge pull request #154 from SoftwareQuTech/config_file_settings
+cedf078d9b7024b5d7bd5154726c23e6a1b0cd26|2019-03-08|Axel Dahlberg|The path the config files are now part of the settings and can be set and get using the cli
+ab82dcb31e93fcb5a451c86122279d0740b82458|2019-03-07|Axel Dahlberg|Started adding the path to the config files as settings
+79e02a084f2a6b25d1a13be220fcaaeab9d44739|2019-03-07|Axel Dahlberg|Remove the quiet and verbose options since they didn't really work with the current logging anyway. Loglevel needs to be set beforehand
+4253bf343823463b3d55cbfc694ddc06e4643f84|2019-03-07|Axel Dahlberg|Merge pull request #153 from SoftwareQuTech/add_nodes_cli
+760ff0cc21b39e57a045b9bd1be44cc33e2c7aba|2019-03-07|Axel Dahlberg|Added options to add an remove nodes using the CLI
+766ff6308db2c2574e272a64679e0075313b2fb1|2019-03-07|Axel Dahlberg|Remove .py extension from CLI and started added commands for removing and adding nodes to the network
+f1b7b4f14d812431877a561e97f61d3fbec7e65d|2019-03-07|Axel Dahlberg|Merge pull request #152 from SoftwareQuTech/fix_background_process_bug
+8f7f2bcbbd6695258ba2bf30373a7d0422b69c32|2019-03-07|Axel Dahlberg|Made simulaqron a daemon such that one can start and stop it easily
+aafb0acc5a532476532c94e317516bbb8ca3a9da|2019-03-06|Axel Dahlberg|Removed some of the hirarchy of the CLI and added set and get commands for settings
+92a3fcae9ef0808edc5518e473d0ed28be1369dc|2019-03-04|Axel Dahlberg|Updated changelog and remove commented code
+0fbeac2f2703d33c1c8613b5c99332f78774bd6a|2019-03-04|Axel Dahlberg|Removed doNew.sh files
+c7b09c0845831903e22e632cf5ded1a700a42124|2019-03-04|Axel Dahlberg|Major update, all shell scripts are now gone and replaced by python scripts. A network can now be started through the script cli/SimulaQron.py, or by instanciating an object of the class simulaqron.network.Network and starting it. All tests are not unittests.
+e401cc603852151c5bbee71c4286e046fd7ddfb3|2019-03-02|Axel Dahlberg|Fixed types
+d51a36763e9f65fb020216db7d344f736b2938bd|2019-01-08|Christopher McIntyre|refactor: overwrite old startCQCLog.py
+a54c051e548f3a8df4c93939acdb769500813056|2019-01-08|Christopher McIntyre|bugfix: broken shebang in run/startAll/sh
+afaa6f32177103aa9b0b30439cabefa3ec02cdc7|2019-01-08|Christopher McIntyre|refactor: startNode and startCQC use main function
+e450fc2ad56ece412b0dfce9b64b2855be1bee23|2019-01-08|Christopher McIntyre|bugfix: missing imports
+7cb5fa596613bcad532115e21a6a658d13aec566|2018-11-22|Christopher McIntyre|bugfix: missing signal import
+fd2ea1a951bd663ffee12cb028ead5f6b83eee57|2018-10-21|Christopher McIntyre|Create Click CLI for running network
+53c0c4908809bc166fbd32dfa454b2865f9473d0|2019-02-12|Axel Dahlberg|Merge pull request #145 from SoftwareQuTech/136-move_files_to_simulaqron
+6b375a85503be9893c70b4a6b7d895fe7e371f66|2019-02-12|Axel Dahlberg|Simplified installation of python packages in DockerFile now what qutip and projectq are not mandatory
+ec71e61c5f15d5b768f456f221648c503f7a3690|2019-02-12|Axel Dahlberg|Made stabilizer backend the default one
+fa23c701f1a6c359489cba23bb22f8b4091cdcfa|2019-02-12|Axel Dahlberg|Fixed correct path to get_simulaqron_path of rustLib tests
+ce0e14d1197eb2b7bec9e9863e7c856f1973bb3c|2019-02-12|Axel Dahlberg|Fixed typo of simulqon
+3734ef302e9a6bcb86e3206b700d2f7d80ac3d9a|2019-02-11|Axel Dahlberg|Updated README to mention the changelog file
+859d3ea5f506734325ab40a2d0474cb0713efb80|2019-02-11|Axel Dahlberg|Added a changelog
+6e73b3cd2ec817686bea728ef93e3731bc637a4a|2019-02-11|Axel Dahlberg|Updated all import statements to reflect the new location of files
+7dd9b42d736fcacb0718b6f3c47c15160e60697a|2019-02-11|Axel Dahlberg|Moved things to simulaqron folder
+0b64eeeccaff2b1bbafd46952f4de9b8946d492a|2019-02-11|Axel Dahlberg|Merge pull request #144 from SoftwareQuTech/142-reducing_required_packages
+1dec8dfde5637f2cef0099c44f5f607e0c01c78d|2019-02-11|Axel Dahlberg|both qutip and projectq are now optional
+aee5b8aef304d98b307c2ade585c5510f35c8445|2019-02-11|Axel Dahlberg|Merge branch '103-remove_quantumRegister' into 142-reducing_required_packages
+6b4a02ba288627e2943ada65b261f26b83cadcfd|2019-02-11|Axel Dahlberg|Removed quantumRegister and cleanup the backend files
+75f58509fc236127757d052def6edf68fffc87a4|2019-02-07|Axel Dahlberg|Started making qutip and projectQ optional
+f679f2a259fbc9deaa65700291e06f07df400075|2019-02-11|Axel Dahlberg|Merge pull request #143 from SoftwareQuTech/134-remove_NETSIM
+a1c742b264917dc89263215862f97497755d14f0|2019-02-11|Axel Dahlberg|The NETSIM environment variable is not used anymore
+4dbda493ec1911d495dddb4bda803d5c30ebab67|2019-02-10|Axel Dahlberg|Removed the NETSIM environment variable
+767d35727226487d7909e8907ec9cf62e6b7cc0d|2019-02-03|Axel Dahlberg|Merge pull request #141 from SoftwareQuTech/140-remove_pdfs
+73c9ad9eaca22325159c402fd71aa72c3fd66970|2019-02-03|Axel Dahlberg|Removed old pdf files
+f25e5f2e978a580c3943141a987baf946ed4f162|2019-02-03|Axel Dahlberg|Merge pull request #139 from SoftwareQuTech/138-python3
+bea8ab8f409d9e1bb500b31705f20a9ef1319901|2019-02-03|Axel Dahlberg|Updated the docs after changing to python3 calls
+affa0ef1f0ef7b04f440461e0eec21c7e4bfcf0f|2019-02-03|Axel Dahlberg|Changed all calls to python to be python3 and made the lint call in make verify to come after the check for python deps
+c3c3baca766ba6d34c54c4fc9e17e422fd99a026|2019-01-16|Matt Skrzypczyk|Merge pull request #131 from SoftwareQuTech/Develop
+48f8450603fbb4056e09b7f949b66e2fec6b57ce|2019-01-16|mdskrzypczyk|Issue #130: Fixed checks in cqc sendClassical
+3d8b371bf3d5fdeff53cba2991cc9013db476f81|2018-12-20|Axel Dahlberg|Updated ent info header lengths
+9c6880c5b6af7badc5b1c567000dc4b66f2b40cc|2018-12-19|Axel Dahlberg|Updated the html files of docs
+581a26f1cefc5ae9bd09e04c098f6ca2767ea033|2018-12-19|Axel Dahlberg|Merge pull request #126 from SoftwareQuTech/Develop
+309add8dbcfe50aaf35bee2756ff386829c63f3c|2018-12-18|Axel Dahlberg|Merge pull request #125 from SoftwareQuTech/124-entinfo-basis
+fa083f40fd22ac86314f739f69b4fc8a50b00ad9|2018-12-17|mdskrzypczyk|Issue #124: Updated EntInfoMeasDirectHeader to have 2 bits for the basis instead of 1
+5e2899bb70942f64a90c116feb96fa68e0db267d|2018-12-04|Axel Dahlberg|A ValueError is now raised if a faulty headerBytes is passed into a unpack method of one of the headers
+8529e8d272649dddec08d492f6de5b380f078eed|2018-11-28|Axel Dahlberg|Fixed typo in cqcHeader
+13ee2c2113bf63593fcf9595664f235ae93acd1c|2018-11-28|Axel Dahlberg|Merge pull request #123 from SoftwareQuTech/122-check_before_pack
+930b2452351247815b7c3cf4d2362ad4746a0d60|2018-11-28|Axel Dahlberg|Styling issues
+6626f93421df6b7d220119219bcc933b96b63ba8|2018-11-28|Axel Dahlberg|Fixed bug with starting log server
+2e42a95abf24982e472f4dab8feebcde23c6dd79|2018-11-28|Axel Dahlberg|Refactored the Headers and combined common things in the abstract class. Also made it so values are checked when set to prevent errors when packing
+a411be95c7d60d11328714b7ab35a8a24d81cb49|2018-11-27|Axel Dahlberg|Fixed typo in docs
+6815b5e7f3831ec54578b083a359fad8a9193047|2018-11-27|Axel Dahlberg|Updated docs to v1.2
+9cdaff78a7fb8ec6b6eb7a83938382e2e94f0954|2018-11-25|Axel Dahlberg|Merge pull request #121 from SoftwareQuTech/118-notify_headers
+55d030be085b42ada5741f536a5fc038d0088c4e|2018-11-25|Axel Dahlberg|Doc-strings formatting for docs generation
+209b4ebeefed9c26924136db1aa0bc6ec4d702ae|2018-11-25|Axel Dahlberg|Changed so that the Python package requirements are checked and installed one-by-one in order to avoid dependency issues
+75cd54ea438fdc02d440d589c782f192e99ce2a3|2018-11-25|Axel Dahlberg|Updated docs w.r.t CQC version 2
+72dd9ca44c0d2e7378ae0fe64cce95a633b29ce5|2018-11-24|mdskrzypczyk|Added atomic flag to CQC Headers
+841d044d60851ad05bed7a9633905d57fa8dc2e1|2018-11-23|Axel Dahlberg|Pep8 issues
+b9813267b67e244c3a7cc9056346725783d81dd5|2018-11-23|Axel Dahlberg|Fixed typo in startAllLog.sh
+e795874d65b4266ef7e4a862fe53d184509bf16b|2018-11-23|Axel Dahlberg|PythonLib is now compatible with CQC version 2
+1996af81ad24720a83c60541196b13a6c8a7f216|2018-11-23|Axel Dahlberg|Added the lengths for the entanglement information headers and had them subclass from Header
+c98854a911e31caa6249df45f7a1873824d410e0|2018-11-23|Axel Dahlberg|Fixed bug with keywordargument
+581118540bc5ecd78a67815eb378b58c9fc66202|2018-11-23|Axel Dahlberg|The Log message handler is now also compatible with CQC version 2
+32a2e9283f73e003954ddddd4f14fdbe6b232953|2018-11-23|Axel Dahlberg|Added an abstract class for the headers
+02a996a0eb9403194ae3abd8674acf9e2dfdbea8|2018-11-23|Axel Dahlberg|Backend now sends back messages with the same version as it received
+44e19e342a44d40529f8b80e47a9a54751070eee|2018-11-23|Axel Dahlberg|CQC message handler for SimulaQron uses CQCXtraQubitHeader, CQCMeasOutHeader and CQCTimeinfoHeader instead of CQCNotifyHeader if CQC version in the incoming message is less than 2
+63ee924f7aed8a139c9db1a3b13c55b71881a621|2018-11-23|Axel Dahlberg|Added CQCMeasOutHeader and CQCTimeinfoHeader and deprecated CQCNotifyHeader. Also changed the order of the fields in CQCCommunicationHeader. Old order can still be used by specifying a CQC version less than 2
+f9cf68d1b37648329b32afbab045980ec8202b76|2018-11-20|Axel Dahlberg|Merge pull request #117 from SoftwareQuTech/Develop
+35e3d37bb7cc879838e31d88afbdc86d605b4e64|2018-11-19|Axel Dahlberg|Merge pull request #116 from SoftwareQuTech/115-pendingdeprecationwarning
+49ec805d0bba602c321c47426674be97ae29325d|2018-11-19|Axel Dahlberg|Fixed ResourceWarning in test_context and made the numpy requirement to be <1.15.0 to avoid PendingDeprecationWarning of numpy.matrix
+5c893a0ee6a65b9bfa39146c235e3ce97ed56e15|2018-11-16|Axel Dahlberg|Merge pull request #114 from SoftwareQuTech/Develop
+084f1ec11653d0b63ceecb94e59c60ded9d22cd0|2018-11-16|Axel Dahlberg|Merge pull request #113 from SoftwareQuTech/99-pip8
+315bf94df33ae9a6fd27ecb850c6a8320675acfa|2018-11-16|Axel Dahlberg|The whole repo is now formatted to comply with pep8
+73873ef4fa5fff21d48615820faac6b57c07f5d9|2018-11-15|Axel Dahlberg|Updated docs
+3de2beb7104f654058a771e77896bdbae3d96167|2018-11-15|Axel Dahlberg|Merge pull request #94 from Wojtek242/Develop
+466116c7b6bf2fb2db24b1c73b4c25e949c9367e|2018-11-15|Axel Dahlberg|Merge pull request #112 from SoftwareQuTech/stabilizer
+aaa4bceadd3943f248a08225c664481af543287b|2018-11-15|Axel Dahlberg|Some formatting
+2aedf0cea01f51cc3b0be9b228de053e597fc6e4|2018-11-11|Wojciech Kozlowski|Fix typo
+9c18322f84e776180933fabcf5d87ef7e91a6614|2018-11-11|Wojciech Kozlowski|Review markups - add docs and parameterise error in test_gates
+5298aeaa48fce3dac5764c9c7298738bf362792f|2018-11-09|Axel Dahlberg|Fix bug with trailing \r for input to startNode.py and startCQC.py, occuring on Windows
+872a6b49b5cbe8ebe1f505e47ef42a9f1bbb85b6|2018-11-08|Wojciech Kozlowski|Update Dockerfile and run_tests.sh for rustLib
+f7224e48f9646253912457ffdbf1e344c4900bc5|2018-11-07|Axel Dahlberg|Merge pull request #110 from SoftwareQuTech/108-update_CQC_epr
+7b575b578fee4261fbf20a96ae47fc8c58ebc256|2018-11-07|Axel Dahlberg|Updated EPR Request and OK headers
+962f6e5cbf65609600bee1ce8aa5b0302779bc33|2018-10-29|Constantijn Molengraaf|Updated random_Clifford_operations
+ecd1f3cab19ba07d6c428ffb57338b835c0ffd33|2018-10-29|Constantijn Molengraaf|Bug fix in measuring and in apply_CZ
+b8a5abc211036075130cd235cd96781ff56e0d4e|2018-10-28|Constantijn Molengraaf|Added teleportation and fixed bug
+935b651bdd01b92a255f67feafd3212dd6bf9d42|2018-10-28|Constantijn Molengraaf|Added test for checking teleportation
+83c0da974feb6ec23704c05bb3cd8b8f8d07a504|2018-10-27|Constantijn Molengraaf|Fixed bug in Gaussian elimination
+f1cbf0dc7102dd511643e808a313a407f42d0013|2018-10-26|Axel Dahlberg|Started updating the CQC headers
+3235f8a78bc1af235b8a930b77edf0b764c4352f|2018-10-26|Axel Dahlberg|Added a EPR request header specify more info to the entanglement generation protocol. Header is not yet used
+2e07df3603d16d1fa74dbd55973083daedd1b3b5|2018-10-24|Constantijn Molengraaf|Bug fix with phases
+af3254b4cb7092db387dd5e18d30fa2803876048|2018-10-24|Constantijn Molengraaf|Added returning operation to going to a graph state
+c0f7966987ee5dc447c767f5282d913dafc91cab|2018-10-24|Constantijn Molengraaf|Fixed typo
+eb388254b377eb976ed5a88b063ee310f01655bd|2018-10-24|Constantijn Molengraaf|Added going to graph state
+3dcbdd9cd117a09cce9fe45b506042d5f56b7dc2|2018-10-23|Leon|Merge branch 'Develop' of https://github.com/StephanieWehner/SimulaQron into Develop
+cc0d3ac8fead86713e32a354cb13eb51beaa97fb|2018-10-23|Leon|Added some extra error handling in the cqcMH
+5efddfb89ff5e66d27d38c10610fc407259cda9a|2018-10-23|Axel Dahlberg|Added test_contex to tests and fixed warnings due to not closing the CQCconnection
+c2de5423428bac75f7bb653745689a0da3136738|2018-10-23|Axel Dahlberg|Fixed bug after removing +/-i phases for the stabilizer states
+fd75e08b03abf7de53e24437c3bd4d45313a4a55|2018-10-23|Axel Dahlberg|Removed possibility to have +/-i phases of the stabilizers, since this doesn't make sense
+76f099f5f25bfa9252eb56f625501a3354339f5e|2018-10-23|Axel Dahlberg|Fixed two small bugs that came from the merge
+433e8abb57387683f519397bbaa5c095f044f9a3|2018-10-23|Axel Dahlberg|Merge pull request #102 from SoftwareQuTech/Stabilizer_backend
+d89a708814bbee067a934ff754918b09cc0505ae|2018-10-23|Axel Dahlberg|Merge branch 'Develop' into Stabilizer_backend
+86fa5fd427a3d7f8d2f87d475faebcbac48b3334|2018-10-23|Axel Dahlberg|Added new ways to construct stabilizer states, from list of strings or networkx graphs. Also added optional test for checking if all stabilizers commute
+a6e342098a2ef78d1376a92e26c2331a35d4dfab|2018-10-22|Axel Dahlberg|Merge branch 'ProjectQ_backend' into Develop
+a949b5731ce2853f167db1f5b801cffa14b99a72|2018-10-19|Axel Dahlberg|Added projectq to requirements.txt
+ec4e6926f8ab7d392c81cc7577b8cbbbca0686e6|2018-10-19|Axel Dahlberg|All tests for both project Q and qutip now work, ready to be merged to Develop
+bedbb8e7374a27a71a035df04c1afb747ff1c855|2018-10-18|Axel Dahlberg|Made it easier to set settings by passing these as arguments to the run/startAll.sh file. One can now easily run the tests from the Makefile with either qutip or project q as backend
+1658f82d501c068a48b174e5d02f91e0ce53a5b5|2018-10-16|Axel Dahlberg|Removed print from w state generation
+b48f68fb50cdb80c7ef716312b27a170e4b3bbf7|2018-10-16|Axel Dahlberg|All tests pass using the projectq backend, which is default in this branch
+3338b660c8caede30c3316a811273183cc2fb3e2|2018-10-16|Axel Dahlberg|Fixed merge tests for project q
+c67ef830acac91376531f1de84e3b8175042479b|2018-10-16|Axel Dahlberg|Project Q backend is now implemented, still need to fix merge tests
+44b738790b411ba9618cfacc3a35ad3de7953548|2018-10-14|Axel Dahlberg|Made replace qubit raise NotImplementedError
+f74c261f07d945bc0283b9736bfd82a123972488|2018-10-14|Axel Dahlberg|Started adding project Q backend to SimulaQron
+ba7bc48235c68f8e7518428c2faf24b9e7931736|2018-10-14|Axel Dahlberg|Made a abstract base class for engine and started making a netsquidEngine
+304a4435d9bb31a64b5f4f99938391d6138d2fa7|2018-10-14|Axel Dahlberg|Cleanup pep8 issues in basics.py and crudeSimulator.py
+f3d3ae611b4691bd8a045631a4561c63ad930bac|2018-10-22|Axel Dahlberg|Added back the settings.ini file
+b25486f9f2fc96e3c7e12bc4b5f2e3f156e297c6|2018-10-22|Axel Dahlberg|Removed commented methods
+5813497c8c755747ef88059baf3929b97a9d0fe4|2018-10-22|Axel Dahlberg|Made all tests for the stabilizer backend work, also some pep 8 cleanup. Ready to be merged to Develop
+531d46efaf753df8c8f3fda6ed31292e538e2b89|2018-10-22|Leon|Add missing parameter
+935987e52978971f2ebca3d930e10fac41ce8eb6|2018-10-21|Axel Dahlberg|Added backend using stabilizer formalism, as with the project Q backend this can be used by setting this in config/settings.ini or as the argument '--backend stabilizer' when running run/startAll.sh
+2be17961f7518581a80558beec6e9734b8d9eb7b|2018-10-19|Axel Dahlberg|Added projectq to requirements.txt
+46257a9c4e63788058cccb76a83c869dc3491807|2018-10-19|Axel Dahlberg|All tests for both project Q and qutip now work, ready to be merged to Develop
+b674e1f9ae7fc341747c16d7c438718bbc95aa86|2018-10-18|Axel Dahlberg|Merge pull request #97 from SoftwareQuTech/96-settings
+4bc74b10f3a0ed9476b7a4e7f60f3e2199cb64f4|2018-10-18|Axel Dahlberg|Made it easier to set settings by passing these as arguments to the run/startAll.sh file. One can now easily run the tests from the Makefile with either qutip or project q as backend
+f44facfe85cec88284b8057777aa9d11ed139a9f|2018-10-16|Wojciech Kozlowski|Rename README
+c0ddad0dd89d43e02eac65c618d4cec950c70c0f|2018-10-16|Wojciech Kozlowski|Update rustLib to use cqc crate which support version 1
+fe9fae48358ba431c17c98f507be120c266c2cce|2018-09-01|Wojciech Kozlowski|Add a README
+368e08ba5026f8272e80cb690b4394c2d7270bba|2018-09-01|Wojciech Kozlowski|Convenience Dockerfile update
+51f4a494cced6452562f997f8f2832109436f3ec|2018-09-01|Wojciech Kozlowski|Re-implement using external CQC crate
+f950a20e2c68db1ccd5c4b219b136552db1d6b24|2018-07-03|Wojciech Kozlowski|Apply rustfmt
+240f0c37579244d2dca72c2a7ddcd4a6e5b8b5a8|2018-07-03|Wojciech Kozlowski|Clean test output, remove build warnings and unused code
+3426d0ecf42a67cdb03a8b4e463e079d66adbb16|2018-07-02|cylammarco|Changed println to asset/assert_eq/assert_ne. Added shell script to start nodes and run tests.
+f5a2728c26f1c2d1e66cc11f4e51909a44859a21|2018-06-01|Marco|apt -> apt-get
+8b8c6814a5760d4b91afc06394dd00e3aa74d2b9|2018-05-31|Marco|Installing rustc and cargo in docker. Tidied up the test files.
+8657fe91e64efd09408d6bfd17e3b6a164d914f3|2018-05-30|Marco|All tests translated. All tests but test_recv.rs run because the receving test has nowhere to receive from. The error module has to be public in lib.rs.
+127db8d77c786cddf8d3f080d51929cde94d4319|2018-05-29|Marco|Remove redundant inline comments.
+ac7dae1f0822f0a3de24c58e73520a4d6ef53f6f|2018-05-29|Wojciech Kozlowski|First integration test passing
+75f08405b21d9ce10f493690b385e7acd365e724|2018-05-29|Wojciech Kozlowski|Disable dead code warnings in cqc_api for now
+9eaf369e64eeb028daccff0705abbeeeb01df805|2018-05-29|Wojciech Kozlowski|Implement the API
+3765ccaeab6bf059a2da46c57019e1c16cb7a898|2018-05-29|Wojciech Kozlowski|Setup TCP Stream
+da21d61530cbd7afc4fd30858d37d78a563331c7|2018-05-29|Marco|Changed the name of the test function. Removed argc. Cqc::new is taking hostname and port number up front. qubit_id is renamed to qubit.
+7baea4d15adff7ff097567f14991aee43abb43ae|2018-05-29|Marco|testing integration-test.
+0d8d676fa4337de591315f072f7684ddf5d92d57|2018-05-29|Wojciech Kozlowski|rustLib skeleton
+e7645515e89c9f09a5c63d423b3f89b5117eb167|2018-05-28|Wojciech Kozlowski|Create rustLib project
+2a7d87e7f71db8b0f2f0f84f8af62ded00a6bb14|2018-05-27|Wojciech Kozlowski|Add a Dockerfile
+a69091d481cb0540364b00d844e5c291de1eef75|2018-10-16|Axel Dahlberg|Removed print from w state generation
+293fc9e7d21b0bcffd8f59e1fde12dcb2ac9958e|2018-10-16|Axel Dahlberg|All tests pass using the projectq backend, which is default in this branch
+06fdf9d03898b94840b91a51040247ec9b65b4b9|2018-10-16|Axel Dahlberg|Fixed merge tests for project q
+6897eda6165a34bca73ce8b1f5a6c50b9118202f|2018-10-16|Axel Dahlberg|Project Q backend is now implemented, still need to fix merge tests
+05ea60129cc8733316760d42a43568210fe736b8|2018-10-14|Axel Dahlberg|Made replace qubit raise NotImplementedError
+98143578926cef6b657f75e4fdce116d0378fb9b|2018-10-14|Axel Dahlberg|Started adding project Q backend to SimulaQron
+c3dd115023cd426b37b496f7861bc9059161f0f5|2018-10-14|Axel Dahlberg|Made a abstract base class for engine and started making a netsquidEngine
+4794ced066950be3336e4cb432eb4a5240c17261|2018-10-14|Axel Dahlberg|Cleanup pep8 issues in basics.py and crudeSimulator.py
+dbc170d097a1761010c190f29104ae91b3ac58f1|2018-10-15|Axel Dahlberg|Merge pull request #92 from asbjornst/ipv6-support
+1d0bad10de4c65a76d381e9918a4735f2770e991|2018-10-14|Asbjørn Sloth Tønnesen|use getaddrinfo for address resolution
+722be7a7bbe20e26d5df748420f9079faccf854c|2018-10-14|Axel Dahlberg|Merge pull request #90 from akarazeev/Develop
+df4794686790585921d053ea2e51eacb3b7ef94b|2018-10-14|Takaaki Matsuo|Review markups
+d8d0ce2fe89df1426b02c910c72dc6e5bd598a3a|2018-10-14|Alexander Mikhalevich|Add more docs
+8c27bf05dd90baf32f5fa7ffa2e415bf933ca963|2018-10-14|Alexander Mikhalevich|Add docs
+3aee14e743e10a15944264d9d4982e08c2cf1d0f|2018-10-14|andersrehult|Add docstrings
+ab8ec6265bc7c9d595605391e0cec33b90bba457|2018-10-14|Axel Dahlberg|Merge pull request #91 from asbjornst/fix-repo
+4a5fd5a3e7b01dc36d49d49226bb41894beadb4e|2018-10-14|Asbjørn Sloth Tønnesen|cqc: clib: add .gitignore and fix make clean
+cbfd64714111f808033beb30f1d638194347e76c|2018-10-14|Asbjørn Sloth Tønnesen|cleanup: revoke executable permissions on all non-executable files
+73349b70ea42b5b930b9d91f53c064ac2dedae33|2018-10-14|Asbjørn Sloth Tønnesen|cleanup: fix add shebang header to executable shell script
+a36582eeb5b0f5e87532b5a24d96d74f952bcd21|2018-10-14|Asbjørn Sloth Tønnesen|cleanup: remove Vim swap files and fix .gitignore
+a425cb2e3e8e90d7b8d14b380a2ea7f2e30334c4|2018-10-14|Wojciech Kozlowski|Rebase on top of upstream
+6a1d77482ff1b433b0f8cad6fc2505541018a5cd|2018-10-14|Wojciech Kozlowski|Add a README for the coin flip leader example
+80e006ebbb1473d91e8f70d5b6df28b34217b0ed|2018-10-14|Wojciech Kozlowski|Undo some unnecessary changes
+37ee2517abb8627fa909280521afbd6dd521a22c|2018-10-14|Wojciech Kozlowski|Move files back from nested directory
+0bdacb1e4347f2cf04904e63613b31efe4f9439d|2018-10-14|Wojciech Kozlowski|Move files to prepare for PR
+dce1b0a31afef2b0a69384cd3ed7a425fa66deab|2018-10-14|andersrehult|Remove debug prints, set amount of runs to 1000
+7beecaa212584cc0736d18a64cdccdcf5703f8a9|2018-10-14|Wojciech Kozlowski|Organise files for PR
+20e0313750c17675cb9c1e5c5135bb47a65af07b|2018-10-14|andersrehult|Change names, make fourPartyCoinFlip run 1000 elections
+aaeed1b1db2c4ed8b33907af6403d76f4492114d|2018-10-14|Takaaki Matsuo|Wstate leader election
+153a1f253d1d39e44dc169f2d72ecc18b54e5b61|2018-10-14|andersrehult|Modify bias for coin flips
+e7391541009560bfac33677648fb64e124936a88|2018-10-14|Alexander Mikhalevich|Bugfix
+ddc597240a7919c69a0767202c173aff7be207b4|2018-10-13|andersrehult|more bugfixes
+55dfd8118ef14a089f087d5f09cbfa22d1fbc385|2018-10-13|andersrehult|bugfixes
+6aaf09bb2bd6ff1e3256842dc8c344c9838296ef|2018-10-13|Alexander Mikhalevich|Add bias
+ed687df93f047b6d99010cf1abee1868f42e4fd1|2018-10-13|Anton Karazeev|Refactor
+d223930986a4f5388b06892b2b72890484bb8ae0|2018-10-13|andersrehult|Up
+6ca4525e63c19f913c22590047b393b3f7ea3b82|2018-10-13|Anton Karazeev|Fix queue
+4c2c929a972e1d78decde6151322e4981743bf0d|2018-10-13|Anton Karazeev|Add coinflip-consensus
+b43dc20607acc06efeffa0832ab1de1accb059d5|2018-10-14|Axel Dahlberg|Merge pull request #89 from asbjornst/fix-endianess
+180413bae98cd0ab6de1d8043a9931aa7594c519|2018-10-14|Axel Dahlberg|Merge pull request #86 from danielquinn/add-cabler
+587f67fae5e9066fc0ce58ae197d501ac9c19f53|2018-10-14|Daniel Quinn|Check for ports on remote hosts too
+fe64486589eaecb253aff79f4dd5c5200e06180b|2018-10-14|Asbjørn Sloth Tønnesen|cqc: use big endian aka. network byte order
+bef2f16eec32ec8d970a9054c3f99f313c548959|2018-10-14|Axel Dahlberg|Merge pull request #88 from przemyslaw-pawelczak/Develop
+5d1ccf0471e8e9628102176697d24a8ecc3b86bc|2018-10-14|Axel Dahlberg|Merge pull request #85 from asbjornst/clib-fixes
+a81ca7254750739b7dd080209165d15955ef2e36|2018-10-14|Asbjørn Sloth Tønnesen|cqc: clib: refactor CQC header generation and sending
+de11d94c476620124a2ccdc25000c0e76b3e7f58|2018-10-13|Asbjørn Sloth Tønnesen|cqc: clib: clean up
+a229370d484cd23e3dc0b58737232ad2e19e8ba1|2018-10-14|Daniel Quinn|Make get_random_port() public
+83ffc7c823ae31cadcf3d489b3467ccc7fcaa5fa|2018-10-13|Asbjørn Sloth Tønnesen|cqc: clib: upgrade to C11
+3e283f7502e085e28c6aee0be7eaaad1d293d1ab|2018-10-13|Asbjørn Sloth Tønnesen|cqc: clib: remove dead code and enable -Wall
+272b28e4c13b7d10198d7f1ac9fbd11b7566b0d0|2018-10-13|Daniel Quinn|Add the 'cabler' script
+415934fc01cb5b20aaa3e539b309734c7c666515|2018-10-14|przemyslaw-pawelczak|Fix reference to right constant names of config/settings.ini in documentation file docs/gettingStarted.rst
+99ad2f9ac29c766c308d926cabcb831b136d94b6|2018-10-13|Axel Dahlberg|Merge pull request #84 from asbjornst/fix-progressbar
+09b0a0e970381c198ea93d1a978563a347da7cb5|2018-10-13|Asbjørn Sloth Tønnesen|ProgressBar: detect terminal width
+aa58baef8e5f0ce8397f2a2091e80bfbf9a3b9f6|2018-10-13|Axel Dahlberg|Merge pull request #81 from asbjornst/license-fix
+01b085a4fdf2343b8f784942b09363eb136d7844|2018-10-13|Axel Dahlberg|Merge pull request #83 from SoftwareQuTech/spec-errors
+cf65a0c80f4f59d7be186ab1831f3fc141591028|2018-10-13|Axel Dahlberg|Update html files after CQC typos were fixed
+1b5d52bb8ad21026fab798418e49607933df7d0f|2018-10-13|Axel Dahlberg|Merge pull request #82 from SoftwareQuTech/cleanup-1
+7e19046c0ef048bd194807c4677c13d860d23a7d|2018-10-13|Axel Dahlberg|Fixed bugs with imports in startCQC and startLog
+580e0426abcb7d19908278662dc1ffe0bff2c647|2018-10-13|Asbjørn Sloth Tønnesen|LICENSE: revoke executable permission
+b10e688735909a98dd2df01c4dc41be8e353d47c|2018-10-13|Michael Cardell Widerkrantz|Fix anomalies in the the CQC spec. Went through the struct.pack() format strings and verified that the spec and the format strings describes the same headers.
+8e1387df68bde184b7d66aab3928c2d922c3a2c7|2018-10-13|Daniel Quinn|Conform to pep8 (mostly)
+d0aeecf71ddb1f15036bd40e3c7faad100e33d5c|2018-10-11|Axel Dahlberg|Changed the logging when connection over cqc is made to be INFO
+18007da9c4d85e42a620b5b225d95e63918d6d2b|2018-10-11|Axel Dahlberg|Fixed it such that one can create a cqc connection, even if there is no appFile, without getting an error but simply a warning that the built-in classical communication won't work
+5768029a440ed5d3c5931b301b854f6c5d32c5bf|2018-10-10|Axel Dahlberg|Merge branch 'master' of https://github.com/SoftwareQuTech/SimulaQron
+636da20f1eb4e43ad5915de302f7ae26546a7b82|2018-10-10|Axel Dahlberg|Fix typo in teleport example in docs
+87fe03c8097d896549e613551b6d8fa9f691439e|2018-10-09|Axel Dahlberg|Delete index.html
+76a2df4a661331fdd2efa038a6f234881f1fadd2|2018-10-09|Axel Dahlberg|Merge pull request #77 from SoftwareQuTech/Develop
+0019ff25c2bbf3f462a4a515412b0643f7cd93b2|2018-10-09|Axel Dahlberg|Added info logging for starting and creating qubit
+aa3cf5813a4e666e5e4c03bd46080e2595ffc985|2018-10-09|Axel Dahlberg|Added functionlaity to log the qubits at at node when receiving a HELLO message
+1cef3770af57b9962ca0bc290170bcc5961d9039|2018-10-08|Axel Dahlberg|Made it possible to give remote socket address
+dd4a71e1bd30976dd52a18d0a3ee05810305bbf8|2018-10-08|Axel Dahlberg|Merge pull request #76 from SoftwareQuTech/75-kill-help
+b11ef5d5c1cd726286d2d36a6e01e9e3bdf631a5|2018-10-08|mdskrzypczyk|Issue #75: Fixed a sh parsing error in two scripts
+52fe31355b0f6ba2c514bfaa05eb1350c6acc8e3|2018-10-08|mdskrzypczyk|Converted all shell scripts to check if any PIDs exist to be killed before trying to pass them to kill
+3aa91008f80090f0c58bbe42ec66a08b177f0653|2018-10-08|Axel Dahlberg|Fixed bug with QBER test if Alice goes faster than Bob
+26b409e2fcb4e296a607506feb9ef5f85da28e23|2018-10-07|Axel Dahlberg|Added the built html files to the correct folder
+93063019b343fd7a0b5e19fa53c70fda33592e30|2018-10-07|Axel Dahlberg|Merge pull request #74 from SoftwareQuTech/Develop
+c8380fa766526d9f2d82932a75f685718a4852d1|2018-10-07|Axel Dahlberg|Merge pull request #73 from SoftwareQuTech/30-update_docs
+ff01d8bed086f2f0284741c0123a9e251f2fa244|2018-10-07|Axel Dahlberg|Finished QBER example and added figure of random network to docs
+5893da9bbae1c5d55ee44678d90ff1c6f84661fb|2018-10-07|Axel Dahlberg|Added example for estimating QBER
+00f8e325de192436ea264b31c6bbe8343847c067|2018-10-07|Axel Dahlberg|Updated gettingstarted example in docs
+fb3400edf36d27f23f1341ecf3057f5a75a963ef|2018-10-07|Axel Dahlberg|Merge pull request #72 from SoftwareQuTech/71-socket_address
+442fa46793ac396531c1ccbadf5864d8365d5a97|2018-10-07|Axel Dahlberg|Made is possible to specify the socket address directly in the CQCConnection
+611658ca95036b42a234febc575e66ff369099df|2018-10-07|Axel Dahlberg|Merge pull request #70 from SoftwareQuTech/69-examples
+32e46112945bc928389ff3435e5f0bf3595ebcdb|2018-10-07|Axel Dahlberg|Updated examples to use the with-statement
+d9434ea4e24568bc1cf39892d6cb9d4cefc80623|2018-10-06|Axel Dahlberg|Removed old manual test
+368f88c5a3c0aa3124052df4aa2d776f09b4cd9a|2018-10-06|Axel Dahlberg|Conflict
+e4ed2ae252f0ef43987ce875e2c34d542bbec304|2018-10-06|Axel Dahlberg|Added context for CQCConnection, should now be opened using with-statement such that qubits are released when exiting
+dca2cb395e996a1c03aed5e3910adce26770d35b|2018-10-05|Axel Dahlberg|Started adding context for the CQCConnection
+5cf1dc3606bcfae90cafa49929d2bf6a8a796eb0|2018-10-06|Axel Dahlberg|Default entries in settings.ini
+124a52662fea2f3ead470dc5a562c45e6a2e46d7|2018-10-06|Axel Dahlberg|Removed accidental comment
+86b6bf0224ee0f25c7417b42a58e0b536a4c28b6|2018-10-06|Axel Dahlberg|Fix max virtual qubits per node and therefore a lot of other bugsgit status Including better error handling
+b6e8c813ee334eb4629bca6a1491d472ceba1ba3|2018-10-05|Axel Dahlberg|Started fixing maxQubits but there is still a bug
+c0a98bb6ef6e3bda62614fc514e68532b90611f6|2018-10-04|Axel Dahlberg|Merge pull request #65 from SoftwareQuTech/Develop
+efbc9766e1dd9560d2695860ae0f0632029b3f19|2018-10-04|Axel Dahlberg|Added Cython to requirements
+5aec1e65a351ec04256749baca07d4dfebb7a79c|2018-10-04|Axel Dahlberg|Merge pull request #64 from SoftwareQuTech/30-update-docs
+2288aa2745d26f2427b6f9dd8e8b342c037f6875|2018-10-04|Axel Dahlberg|Remove PreBeta from getting started docs
+4eec1c6a95e3047148703ad2c06cd1f3141d4da5|2018-10-04|Axel Dahlberg|Merge pull request #63 from SoftwareQuTech/Develop
+6724452737a62fc8fd92be0093cc89f3152e4eed|2018-10-04|Axel Dahlberg|Merge pull request #62 from SoftwareQuTech/30-update-docs
+f1a0d96eaaf4950a6f60e60a86a6b34fcba9bf86|2018-10-04|Axel Dahlberg|Fixed images by converting them to png
+7382a2fb587d6f1f68ecb02407efd7036f4cdaf4|2018-10-04|Axel Dahlberg|Added the built html files
+bf1f7637e46f03fe435d5a781535e199fd064d2b|2018-10-04|Axel Dahlberg|Merge branch '30.1_update_getting_started' into 30-update-docs
+0f787872c7db2c79cc1b7a87524b9f3790724ca5|2018-10-04|Axel Dahlberg|Written documentation for how to configure the simulated network
+073f80ebae25977f333b978371aa4b4530c8d67c|2018-10-04|Leon|Fix some indentations in tables in the docs
+9e45233c532092ff43134b91b8e31aa3a3a3ee28|2018-10-04|Leon|#30 added doc comments about the sequences and factories
+99cc09c86d45a1b8017a391b3c912ee772f8bbdb|2018-10-04|Leon|Merge branch '30-update-docs' of https://github.com/StephanieWehner/SimulaQron into 30-update-docs
+544607d3bcc196792fd9d64dd9198181f4b49219|2018-10-04|Leon|#30 updated CQC docs
+0a6f5bf2ee31008273601daae047954a10e3a74c|2018-10-04|Axel Dahlberg|Update getting started and started adding a configuring the network section
+b15480ae9d737a10c1b7ea4d0e8ccb3ae6f75147|2018-10-04|Axel Dahlberg|Updated docs version
+94b2ea7d4566d00ab0cbe1a01f67a239d1971e8f|2018-10-04|Axel Dahlberg|Updated Overview section in docs
+ffb124db66cb2f9f26dec8b779f22225d2ae200b|2018-10-03|Axel Dahlberg|Updated index.rst
+02942f2744596de3bc62258716cf8b1a3e36f4ce|2018-10-03|Axel Dahlberg|Merge branch 'master' into Develop
+365553286230b8445bc520c9f21eebcd5155c2eb|2018-10-03|AckslD|Update README.md with new link to docs
+f0c451a80350b8b803b44e3670968c6e904ba8b1|2018-10-03|Axel Dahlberg|Deleted old html files
+2278578ad5c2e252c7a1605d50442e8cbde0e145|2018-10-03|AckslD|Merge pull request #60 from SoftwareQuTech/fix_docs_link
+a5d990d3729a18d923be81ee6f0c6670aba9f39e|2018-10-03|Axel Dahlberg|Made a new folder for the docs
+0ce78a65a360f0b9f8f96adb0978d500cc5e80d2|2018-10-03|Leon|Merge branch 'Develop' of https://github.com/StephanieWehner/SimulaQron into Develop
+7f019d458b485dd7144193bb0a863139674a28c1|2018-10-03|Leon|Move noise to be done before gate operation
+e1e9639216f42fb6274b1ae2c23b4b316443b8a3|2018-10-02|Axel Dahlberg|Made it possible to run a quick or full tests by doing 'make tests' or make full_tests', since the full tests take quite long
+839e6489e2608783edac5c909660c5e2a33bca24|2018-10-02|AckslD|Merge pull request #59 from StephanieWehner/58-optional_noise_test
+437452a9726c5dc830ffc1f4247207eaf87e5f6a|2018-10-02|Axel Dahlberg|Added unit-test for optional noise
+5cadd863a2661b2cda03dc57fb17dc73328f01b3|2018-10-02|AckslD|Merge pull request #57 from StephanieWehner/error-handling
+2b16cc3d2167fa7476eb2661314edbb7f60fcf1e|2018-10-02|AckslD|Merge pull request #56 from StephanieWehner/QI_Hackathon
+2a3eb0df9be38d9fd284a4bd5acd8f567b7346e5|2018-10-02|Leon|Fixed tests
+3811b8b85a608c0a367ada53c07fd0e0b8a5e3cd|2018-10-02|Leon|Remove double square brackets in sh file
+68fee23cb05c129d8d8ba6aa60d5a74bec86c3fb|2018-10-02|Leon|Add noisyness to configuration
+ce31fca39e14a56361949fc921e47cbefc0d91a0|2018-10-02|AckslD|Merge pull request #55 from StephanieWehner/54-random_topoligies
+aa85561bd2e8b5e9c2bc0962933ac76badeb0a7b|2018-10-02|Axel Dahlberg|Standard config files
+c96a7e015c12e090555a620834fa46d1fb0c6909|2018-10-02|Leon|Merge branch 'QI_Hackathon' of https://github.com/StephanieWehner/SimulaQron into optional-noise
+f248bb4e1615982073c80f0c2bf290e401cbe0a7|2018-10-02|Axel Dahlberg|Added functionality for creating random network topologies and save the network graph to a png file
+d27b9040edac4221e044d51be01a01dab113db7e|2018-10-02|Leon|add simple (optional) noise to simulated qubit
+c0a16747eabb47c6844f0d56a729676fccea232d|2018-10-02|Axel Dahlberg|Have settings.ini be what it is after running the tests
+19573ed65a90ef3a81517e1aa8f650408e4ab269|2018-10-02|AckslD|Merge pull request #53 from StephanieWehner/QI_Hackathon
+4223bbfc6f8319e6497147a4d8fe1a865a3a9112|2018-10-02|AckslD|Merge branch 'Develop' into QI_Hackathon
+d5a573eea6b5999a804522889912159aea2babe8|2018-10-02|AckslD|Merge pull request #52 from StephanieWehner/Develop
+87cc2c4daa2bb1e14dce8d1afa695077419ce0f7|2018-10-02|AckslD|Merge branch 'master' into Develop
+e338c6c90159454a1cc36452c8689ed6f9a4ebfd|2018-10-02|AckslD|Merge pull request #51 from StephanieWehner/BetaRelease
+b36f47ef9f14106387da94270b59c8332cdf8a83|2018-10-02|AckslD|Merge branch 'master' into BetaRelease
+db3698c7bcf758a8d1d1f2173f4a2cd8b2f80856|2018-10-02|AckslD|Merge pull request #50 from StephanieWehner/49-restricted_topology
+6e9f956235acba87706af896000277f81339bec4|2018-10-02|Axel Dahlberg|Added changes to config/settings.ini which were not tracked before
+bd96d648e88372d47b30e95fe1f20ae6281b2e37|2018-10-02|Axel Dahlberg|Added the arugments --nrnodes, --topology and --nodes to run/startAll.sh
+87850b55ec2bda78291760ad877ec152d1d65a4d|2018-10-01|Axel Dahlberg|Added such that we can also handle cases where a node is not in the topology config file
+4667e2cdf1ff4e8618ca6e496bf022ae360726c8|2018-10-01|Axel Dahlberg|Removed unused nodes in topology config for test
+8b6100ae947a4aeecd95ad3569127121a2305629|2018-10-01|Axel Dahlberg|Changed dependencies to use >= instead of ==
+a9edabdf58a5034c0e58ce3237bc6b91d1a3c81a|2018-10-01|Axel Dahlberg|Added Makefile such that one can easily run tests or check dependencies, finalized the unittests for the restricted topology
+a16f785d8a9b28bcfa5b4baf2a078802cd172485|2018-10-01|Axel Dahlberg|Finalized restricted topology functionality, including unittests
+5de63ecc8150eb69db865276d385facf42d9339a|2018-10-01|Axel Dahlberg|Continued restricted topology functionality
+0fbc44f35b21db852cb388c48333ee9e7fe48347|2018-10-01|Axel Dahlberg|The cqc message handler now checks if a remote is adjacent when sending a qubit. This information is held by the factory
+0d6ae0d2246ade03cdfc92548c32889821d785d9|2018-10-01|Axel Dahlberg|Added topology.json for configuring the topology of the network. Also made the path to this file a setting
+bbbec57d07011c33ee3cec01e7031da7f62c6284|2018-10-01|Leon|Merge branch 'Develop' of https://github.com/StephanieWehner/SimulaQron into Develop
+5ef1af2fb68030582778e2f7e0e27c0c4ae4fb3d|2018-07-29|Axel Dahlberg|Merge branch 'Develop' of https://github.com/StephanieWehner/SimulaQron into Develop
+f13758f490e54e8cc2a000b303511ddb1c03e489|2018-07-29|Axel Dahlberg|Added debugging for classical communication
+d33783fea541cda57314293a3241e7b192f410a4|2018-07-27|Leon|add classicalNet to config file
+22d13ba7492f126200fa43f73c9df211d1d76f40|2018-07-27|Leon|Change readme into .md file
+85797c576c6d65075eefa24f68062473609bf6e6|2018-07-18|Leon|Fixed the name of the single qubit gate test
+911ae4eb9aba37ea26243064d45578949ef2cd90|2018-07-18|Axel Dahlberg|Fixed bug with applying two qubit gate on a simNode which is already locked due to register merge.
+1d1e86f56ad2263ccbb6aa9a6b87488c8116c18b|2018-07-17|Leon|bugfix: releasing qubits now correclty remove the qubit from the qubitlist
+df4b9b858e967132271fc9860ac58d9724f8973f|2018-07-17|Axel Dahlberg|Fixed bug with waiting for locked qubit while performing single-qubit operation or measurement.
+bac7bd7d933fc1c6c7359f69585ca4c3de06c209|2018-07-15|Axel Dahlberg|Added toolbox, currently only containing functions for doing parity measurements.
+5db2ec0c6e24c51c8a5e83809d23f161c042f0f1|2018-07-15|AckslD|Merge pull request #43 from StephanieWehner/fix_startup
+9d6ffbd3a8e1d0cbb25610e0a8c10ea39924c115|2018-07-15|AckslD|Merge branch 'Develop' into fix_startup
+84b1ecac382999fa8d81835a48f4fd56cc3896fa|2018-07-15|Axel Dahlberg|Config files
+570de16aca12fb81fb85e458354927e1a3ee8cb0|2018-07-11|Axel Dahlberg|Fixed bug with createEPR
+d76c4a2cd337ac95709d56c7561d0a4898381094|2018-07-11|AckslD|Merge pull request #42 from StephanieWehner/41-pythonLib-logging
+b3937664609869490fd2b6a5ef3814fa410ea3a2|2018-07-11|AckslD|Merge branch 'Develop' into 41-pythonLib-logging
+959cb1b87179a3d66cc076bf41f25d4c96231fd3|2018-07-11|Axel Dahlberg|Changed print-outs in pythonLib do use logging
+3733530ad1fefd4eb5ed8efa702c0fed46b13a3b|2018-07-10|Leon|Merge branch 'fix-receive-timeout' into Develop
+f9ee2d7ecc144361278d6266dbe791d053476ad8|2018-07-10|Axel Dahlberg|Better error handling
+a765ecaab9e0d3df08944e8e1b8c11fab519f3b2|2018-05-24|Leon|Merge branch '40-log-backend' into Develop
+a9039ff5d60e999b8b7f10014ddb72c77a397fe6|2018-05-24|Leon|Merge branch 'Develop' into 40-log-backend
+36bdc9f58302c7edcb3412050b21abae05459263|2018-05-24|Leon|#40 adjust tests to work in one process
+042cdd1e9020f4bc7431973b790556c0527c2148|2018-05-24|Leon|Merge branch 'unit-tests' into Develop
+c3b9960d9682a57543803a0511e485840f28cf82|2018-05-24|Leon|Merge branch '40-log-backend' into Develop
+60b256f02f03ad0f1e85fe2e8e024fefc120c605|2018-05-23|Leon|#40 fix tests and start up
+c57754078a68145c29cae064c91a6adb3d24d899|2018-05-23|Leon|#40 log backend now runs in one process
+ff903e5f5d01cc5346805d5ad6ff9cf23ac99bca|2018-05-18|Leon|#38 unittests for single qubit gates
+8430d910d6c28b1d12e674bac1daa8c4567b38f4|2018-05-18|Leon|#38 unittests for two qubit gates
+f56461bd3d897f7c2970e65f4e1613f1c7a33ec8|2018-05-18|Leon|#38 unittests for test_other
+c9bb0db4dc57dcb1731dab9c9b5204703288e925|2018-05-18|Leon|#38. Added unittests for factory_gates
+939298fe13a60824a0dc2d40cace70927dd10cfb|2018-05-17|Leon|Release qubits on .close(). This is done by default, if this behaviour is not desired, use .close(release_qubits=False). #28
+6877b00e6a381ef04fc59867f521f415d333aa6d|2018-05-17|Leon|Optimised qubit_id allocation. qubit ids do not increase indefinitely anymore. It will take the lowest id available, so ids of released qubits will be reused. #28
+0081b1bb97990b929093f512bc4e59699841cfcc|2018-05-16|Leon|Remove sendfactory from tests
+49dc17e5439381d78acd7476eca6754e46a1df4b|2018-05-09|Leon|#28 Test releasing qubits in log backend
+e1b41609f9a1826db8080b61a2c0bc73e217b69d|2018-05-09|Leon|#28 test allocate in log backend
+1059dcce747068beb76f6a6778f8d60fa2110679|2018-05-09|Leon|log backend can handle allocate and release
+ad33ee1a58c27d55c674a4fd8fab055c917bed88|2018-05-09|Leon|#28 qubit.release()
+f705db9930c26e6ce2e01b613c361022768dc2fe|2018-05-09|Leon|Release qubits
+c9c2a7eb2c9cef09483a3ab99a0f01f9657fb4cf|2018-05-01|Leon|close #37, throw error if trying to do a 2 qubit gate on qubits at different nodes (at python lib) and if target and control are the same (both at python lib and simulaqron)
+ed58dc8886f88793776d704e47afcb4c1e123b73|2018-04-26|Leon|#28. allocate_qubit() is functioning. Within the simulaqron backend it just calls cmd_new n times
+cea01dbd4d0a93d785b112d99631de0386e71cc0|2018-04-26|Leon|Merge branch 'Develop' of https://github.com/StephanieWehner/SimulaQron into allocate-qubits
+f84aff4ae2daa17625b58674bf57a1121d21ddca|2018-04-26|Leon|Merge branch 'lock-sequences' into Develop
+459d77481008fe2e4303122a40a7e90348c7c274|2018-04-26|Leon|#28 Setup allocate and header command identifiers. Started writing .allocate_qubits()
+ec2f53cdd2a9e90b78e11f98e6378bf8cc2f6513|2018-04-26|Leon|#36 moved the code of _process_comand and handle_factory to the main CQCMessageHandler, as these methods should not differ in the backend. Within these methods a sequence lock is acquired and released. (So on cqc backend level)
+7efcc42d26497a425ac34af6ac2cbc39b5f5cec9|2018-04-26|Leon|Merge branch 'error-handling' into Develop
+a3d8761d4d05b25528fb5ab8870b36cf8abb236c|2018-04-26|Leon|#27. Added try catch in cqcProtocol.py
+0af84b37e1d36536e2441c3a69bcd3ee626d8013|2018-04-26|Leon|#27 Added try catches around all yields in cqcMessageHandler.py
+0824dffc48c12c97d1df169528fc7f2db770495f|2018-04-25|Axel Dahlberg|Remove duplicate tests in testEngine
+68f4de7b65fcbfa52f01e0df963ea3914430b691|2018-04-25|Leon|Fixed settings and imports. close #26
+a41b9b0d8b6283bcf737abae5cc226199fcf34b7|2018-04-25|LeonWubben|Merge pull request #35 from LeonWubben/version1
+8e0104bf9004cc4691de8e5eaa53d5ef42dc6026|2018-04-25|Leon|Merge branch 'cleanup' into version1
+1014d53b16f16fa98221164bee8b5d453aa92313|2018-04-25|Axel Dahlberg|Merge branch 'experimental' into Develop
+3d2cbd8f9838ed9f6411c3fd9e5176002ad87b04|2018-04-25|Axel Dahlberg|Merge branch 'start_and_register_fixes' into Develop
+20394b170f9490853f566e121946a1e45050c1dd|2018-04-25|AckslD|Merge pull request #24 from StephanieWehner/fix_startup
+87710405957c7035e2e10f8723fb63eb6f4fc370|2018-04-25|AckslD|Merge branch 'experimental' into fix_startup
+c94be29438034ac5a2ef62bb0032f70df378b941|2018-04-25|Axel Dahlberg|Fixing conflicts
+3c26f435513cf47e99db0bf66e395038ffb04b5b|2018-04-25|Axel Dahlberg|Fixing conflicts
+166d40e8f6c712df7ed1e83090858b4ac6eb38c7|2018-04-25|Leon|fixed indentation in settings (which broke all settings making them default)
+66c08f3b1b70f09dda0aa25ecbe4742bd3173381|2018-04-25|Axel Dahlberg|Merge branch 'new_registers' into fix_startup
+5ef243bfbb8c620918bd88b39ff08645dc14bd0c|2018-04-25|Axel Dahlberg|Fixed error if remote node is not found when printing cqc messages in pythonLib
+1b060bf3037b2d434847032da7cf89cff0b55322|2018-04-24|Axel Dahlberg|Fixed bug with merging registers
+e9992ed250626ceac78943d34521017772bcbd6e|2018-04-24|Leon|Revert some removed imports
+8e982a2e89d869aca5da2b2bd35426b64463c644|2018-04-24|AckslD|Merge pull request #23 from LeonWubben/version1
+0c95154b2fbde17d0f9a0cc71c4a8d8ce28707b8|2018-04-24|Leon|Removed unused imports
+3f4a3151f52cd20dc9b3f4a72dd05bc5e6350914|2018-04-24|Leon|Change settings file so it has defaults
+ed6cbf5b1f7c4dc28afc81189bb115796342ba33|2018-04-24|Leon|Check last nodes if no arguments are given in startAll
+f4da599e7c114686c4666e83aade8663d1c46ede|2018-04-23|Axel Dahlberg|Fixed tests to work with the new handling of registers
+bc100f7f46c6c42b7c4901f69a384ca9f55c85b2|2018-04-23|Leon|Create settings file if none exist, and add missing values
+0b3d07ba7c71796dd66e9e826b466bc684023bc7|2018-04-23|Leon|Change start up so configFiles.py does not change the .sh files, only .cfg files. Now to create new nodes you can do sh startAll.sh <node1> <node2> ... <noden>
+321c9ddf5a12667a874ffdf6a584704dd7172665|2018-04-23|Axel Dahlberg|New registers when creating qubits
+a48445a341c77eebba62a652c82f53ea16c9caf2|2018-04-23|Axel Dahlberg|Removed gitignore of config- and run-files. To not track changes to files use 'git update-index --skip-worktree FILE_NAME'
+b449b4e387bb1af803ee92192f6cd6223111d2a6|2018-04-21|Axel Dahlberg|Working test for teleporting between different computers
+0fb965c314e82040b3ae5d7ea570b2b8a46c4201|2018-04-21|Axel Dahlberg|Tests for number of qubits per node and teleporting between two computers
+a102b0ee4900900fb1e4556130b9a0c08de94d9c|2018-04-20|Leon|Merge remote-tracking branch 'upstream/fix_startup' into version1
+a6ca6a454f30448d900bac478f3b41a1f0e3d50d|2018-04-20|Leon|Removed some unnecessary brackets
+6e8f1307ddd6870e076beb7b7b5a217912fd8732|2018-04-20|Axel Dahlberg|Removed ouput text during tests
+86fc17afb8a35b5e98d476241994eaeb87e80ff7|2018-04-20|Axel Dahlberg|Fixed bug with merges and other operations starting before connections are up
+714a467886beb51ede172067298d299ffda64b1e|2018-04-20|Leon|Block factory in factory header
+8479eae358267c27b15ae8a13296f5a81bb1c810|2018-04-19|Axel Dahlberg|Added option to print_info in __init__ of CQCConnection
+ead2f6554f3c8200622f402b8a6269804b0ef89a|2018-04-19|Axel Dahlberg|Made some more changes due to more bugs when starting up. Now it seems to work very well
+e8f4b7cb0e41f9a0c7edcef1afc47871abe44e4a|2018-04-19|Axel Dahlberg|Changes how vNodes CQCNodes and appNodes startup, connections will be retried until they are up. Thus not need to wait to start CQCNodes some arbitrary time x seconds after starting the vNodes. Also quite some changes how errors are caught when something goes wrong while connecting, removes some of the annoying 'Unhandled error in Deferred'. Also added settings.py where one can set maxQubits for nodes.
+f632928bb4ca74d13d255c5c5b8244217ed59a11|2018-04-17|Leon|Change test_factory_other to work with flush_factory()
+b3f209778a80557eadd2bde47025f4785a0afd88|2018-04-17|Leon|change test_factory.py to use flush_factory
+f2e9be57035c39b229a53b8a3a932ca4b63217df|2018-04-17|Leon|Test sequences with flush and flush_factory
+204009d6c184bf301aebe83a463577d406c2a093|2018-04-17|Axel Dahlberg|Added configFiles.py to help setup networks with different nodes
+fe5e326ffcac8b1874732cd5132a2529e7949c2b|2018-04-17|Axel Dahlberg|Added configFiles.py to help setup networks with different nodes (docs)
+c8e772fd8786517bccde77166fa806843816ee18|2018-04-17|Axel Dahlberg|Reverted change to /docs/conf.py
+133512bd56a789badc1ea3381293d22a4da0b9be|2018-04-17|Axel Dahlberg|Added configFiles.py to help setup networks with different nodes (docs)
+eab0d7f09657d3d74ad73482c36c2849005cbdc7|2018-04-17|Leon|Fixed create/recv EPR when pending messages
+d8d35f0bc22f97b8abb63a5a03b5eacf0c0b4bdc|2018-04-17|Leon|Rewrote flush_factory such that qubit references are updated on new, recv and recv epr in sequences. Factory is not supported for this (yet) and will give an error
+92aab5a13b061c49fea4a05e2965e95e26f8a8e0|2018-04-13|Leon|Flush_factory, will do the current pending sequence an n number of times
+9c17fa6ddbc29306fafe80c79f2b2ecf62a37e77|2018-04-12|Leon|Changed code so simulaqron should still works fine if messages from version 0 come in with extra headers
+5b22e1d4301f347cd723d06f5138694c37198972|2018-04-12|Leon|sequence header added. Also the feature to flush (send) multiple commands at one go to the backend. If the cqc connection is in pend_messages mode, it puts all headers in a buffer, which are send together as a sequence to the backend.
+17daa9dc16412ef3824576ba704503bfd6828553|2018-04-12|Leon|Added rotation header
+a6251049f46cdf622f617097f6efc0323a448eaa|2018-04-11|Leon|Xtra Qubit header for two qubit gates
+c10ae4c4ce4ae6e2a80ac3c4d7a08270901c3333|2018-04-11|Leon|Add communication and factory headers
+4d40bdeae2e71e9b13370485f0a4541cf7a5be09|2018-04-10|Leon|Some work on sequences
+f3db4a1fdb864e5dabc3a7a09579a31fbc60af49|2018-04-03|Leon|Add method to perform a sequence of cqc messages
+e8c3a4cf68f59a0cbed34b22f4acfd1eac98bf68|2018-03-29|Leon|run test factory in automated tests
+b161860dddcf4f7dbf1889704f602adb4f88d0de|2018-03-28|Leon|Added factory tests for other commands such as new, measure, send, recv, and epr
+d313039ec2e3be7a9dd2e58db92e176eb1b3bfa8|2018-03-27|Leon|Added simulaqron tests for the factory using gates
+7520966488d2f469e1f9fcf858b44b28c61724b2|2018-03-27|Leon|Tests creating EPR pairs in factory
+0d9ecdade209161c21280ca01da746f98d64b08e|2018-03-26|Leon|Added more factory tests, made factory RECV working
+090f843db80b9098a27f127b4ac407d5ff4b2b72|2018-03-26|Leon|Fixed FactoryNew test
+5b32cc4565289e1658f3dee428c2c5206bdeb418|2018-03-26|Leon|the factory of CQC_CMD_NEW now returns the list of qubits. Added some extra tests for the factory
+53588b5fe9e2e1c3369cde87681b5855dcd79e94|2018-03-23|Leon|Added a few factory tests
+d702f23005d73c08a2a257f8a122947b0ed15013|2018-03-23|Leon|Removed unnecessary log file
+9af12bb395a1d9270068d48de93c2c1c5b684e62|2018-03-23|Leon|Now waits for a DONE message to be send back from the server in factory, before continuing..
+8168cff8dd135ee4cbb568251a536702fe24ffff|2018-03-22|Leon|attempt at logging factory
+c6da0a94147a845a02f2339245e7731de80f5ed5|2018-03-22|Leon|start up server just to log when running automated tests. When done, starts up the simulaqron server. Currently done quite ugly, can probably be improved in the shell files
+d17c3a3404f831e10601152ec4d753714e279065|2018-03-19|Leon|cqcLogMessageHandler now also does not use the protocol anymore
+5d06e7ce5749d757be86fc13b7facc5c6ed99305|2018-03-19|Leon|Removed protocol out of the message handler (only for simulaqronCQCMessageHandler for now), it now returns a list of messages that the protocol should send back
+13bb071cbf7ca4ee80915f9d3dc271af91128775|2018-03-19|AckslD|Merge pull request #22 from StephanieWehner/Develop
+90e4d6735f796449f4bfcc4163087060afb863a3|2018-03-13|Leon|Added automated tests. Still need to make sure you do not have to change the CQCMessageHandler in cqcProtocol.py for that
+3651fcbf3448c8fea122b297113d9c3022feb195|2018-03-12|Leon|Logging sending
+8b6374cd84cec42bea47772dfee96fd7aa88058b|2018-03-08|Leon|Added CQCMessageHandler that logs cqc messages to a file. Does give a correct measure result on measure for now (rather gives back None). Also did some basic reformatting.
+72f1b2d7178635ce7e4314cfc65917ac011c612e|2018-03-08|Leon|Added documentation
+eb336a40705dfbe4d8dbb0bb414a3d22287d44f2|2018-03-08|Leon|Refactored cqcProtocol. Extracted the way how cqc messages are handled into a new abstract CQCMessageHandler class. This class can be inherited from so that the messages can be handled in different ways. (For example to call upon NetSQUID, or for testing purposes)
+919c3d2eaceeb5c0b36a069ca041f06c97dd48ae|2018-01-29|Axel Dahlberg|Merge branch 'Develop' of https://github.com/StephanieWehner/SimulaQron into Develop
+5acf0c0f0973cce0041751fc922e24aa64d5daff|2018-01-29|Axel Dahlberg|Added possibility to easily check the remote node of entangled qubit. Also added example of network coding over the butterfly graph.
+660c52e032e6818ecf9bf0d0d3df61c061167ce0|2018-01-26|Arie van Deursen|Merge pull request #21 from praseodym/remove-vim-swap-files
+9f030a45d3580176c7ba1ef2557a5d76d4b52a86|2018-01-15|Mark Janssen|Remove Vim swap files
+58196438db1effbf783ad397511d12bb870f8357|2018-01-12|Axel Dahlberg|Fixed bug with sending qubit to simulating node and added timeout for RECV_EPR
+5ad292bcc0e2c6b721ba679118a31a3c2136d6e2|2018-01-12|Axel Dahlberg|Fixed bug with sending qubit to simulating node and added timeout for RECV_EPR
+d4c3ba3cafc43c6e63bc6629d30c8e0b1d734559|2018-01-12|Axel Dahlberg|Added the cqcConfig file
+f19add57ab174fccde7f3f39f3f1775865ed4008|2018-01-12|Axel Dahlberg|Added a timeout for recvQubit
+f6c759e287ba0faed6b35b858eba2981e88624fa|2018-01-12|AckslD|Merge pull request #20 from StephanieWehner/Develop
+84aa9d319bd598c84cd332be081bcb0d16d0d4f9|2018-01-12|Axel Dahlberg|Fixed problem with startClassicalServer when running program multiple times
+8c4ff558b069b7599a2d8740d6086a17d74f6b5b|2017-12-28|StephanieWehner| 4 clause -> 3 clause
+a5d303d2ecd17972f08ef2bc436df18107869e7e|2017-12-23|AckslD|Merge pull request #19 from StephanieWehner/BetaRelease
+89f713d49f3fc3b9eca1ded9ca2973b98e1609a2|2017-12-23|AckslD|Merge pull request #18 from StephanieWehner/master
+f3cdd7ea5fed7ae9ce70e857805da41b5ee9cf79|2017-12-23|Axel Dahlberg|Fixed bug with cmd_recv
+635d3da9250f73accfc823183bdb6980ed0cc121|2017-12-22|AckslD|Merge pull request #17 from StephanieWehner/BetaRelease
+cd225103ce65605ec0448e12a0a428372146f85b|2017-12-22|Axel Dahlberg|Merge branch 'BetaRelease' of https://github.com/StephanieWehner/SimulaQron into BetaRelease
+184e5ec4a4b7d3faea62b07499272f35926ec3ac|2017-12-22|Stephanie Wehner|Updated headers
+cc8b6f149714b6663b738b5325f42fb5b8a95d00|2017-12-22|Axel Dahlberg|Merge branch 'BetaRelease' of https://github.com/StephanieWehner/SimulaQron into BetaRelease
+66fe7d396cda88e8b9d6c0c116c6e2b1736b3233|2017-12-22|Axel Dahlberg|Fixed bug in pythonLib and added paper url to docs
+7e92ef415173b6efdf970d14ca6ce3028ce291d0|2017-12-22|StephanieWehner|Merge branch 'BetaRelease' of https://github.com/StephanieWehner/SimulaQron into BetaRelease
+296dcc56051081b38a3d998bb6508f0f228dd600|2017-12-22|StephanieWehner|Updaed header defs
+cc8d663bfc620c2d917e39fa444c27a7e41f8600|2017-12-22|AckslD|Merge pull request #16 from StephanieWehner/BetaRelease
+2bf9b6788247eee3424893ed400e5eade7a81eba|2017-12-22|Axel Dahlberg|Added note about notify
+61428287cbfc076db6683ab413c1c242346e64e6|2017-12-22|AckslD|Merge pull request #15 from StephanieWehner/master
+9e46dc65dbce59ed452139064f68a7f8225619c1|2017-12-22|AckslD|Merge pull request #14 from StephanieWehner/BetaRelease
+d62fda97a7e54ec2553b53b24b0ec308fb88efad|2017-12-22|Axel Dahlberg|Merge branch 'BetaRelease' of https://github.com/StephanieWehner/SimulaQron into BetaRelease
+96aa349dfeaafe36a3e41a6baa1e7b77fdd7c055|2017-12-22|Axel Dahlberg|Moved docs to BetaDocs and changed the getting started to mention the Beta branch instead
+13f2ab21fa0b51311b181cbe279fa47fcef3523a|2017-12-22|StephanieWehner|Synced c lib
+479cdec433cd243298c86fda7a9c6893b46f78fe|2017-12-21|Axel Dahlberg|Updated to Beta docs
+8ed5d81d278755a3975a3074f038ccc4454fc233|2017-12-21|Axel Dahlberg|Merge branch 'master' of https://github.com/StephanieWehner/SimulaQron
+a2ecb42548313fd7aeae6bd08f37255ca3d7d5bd|2017-12-21|Axel Dahlberg|Updated docs
+604bcce43f8c7bcaf11f2258f19ee2772b623aa0|2017-12-21|Stephanie Wehner - EWI|Added competition
+f7748a93d3fe2c953fea0c0534896ecfef35fb5e|2017-12-21|Stephanie Wehner - EWI|Added website
+ebd6f14e8da846e1072c2446d9ec0999fbdaec46|2017-12-21|Stephanie Wehner - EWI|Added ifthen
+23ea1045707192ed7ecb3bd6c049188c6ee4ab36|2017-12-21|Stephanie Wehner - EWI|Upodated header files
+c1ae4080d639816cce1acaf4b98365da3a27844b|2017-12-21|Stephanie Wehner - EWI|Entanglement header
+8fd2e50ae6eed7cfb05507e952e99938f20dd4e2|2017-12-21|Axel Dahlberg|Fixed bug with CQC_TP_INUSE
+d4c3dd234005406dcbe48253036a4844c371b5cc|2017-12-21|AckslD|Merge pull request #12 from StephanieWehner/PreBeta
+d2e3ee3b6b5027b3b50a29d6aa482ae5c09f12a5|2017-12-21|Axel Dahlberg|Updated the docs. Moved the pythonLib documentation and the CQC interface. Updated the CQC interface docs.
+d6efd927bbf599aac6573c948397de3b4d85f8be|2017-12-20|AckslD|Merge pull request #11 from StephanieWehner/PreBeta
+d76aa8323e0569a510c359e4f72e4056c4816557|2017-12-20|AckslD|Merge pull request #10 from StephanieWehner/Develop
+1513bb1d6a8ebc8c781d77e98ceb0b7a427af548|2017-12-20|Axel Dahlberg|Added example for the MOOC
+29aa56b23c8c7b21b6a99475b778a4a427f27805|2017-12-20|AckslD|Merge pull request #9 from StephanieWehner/PreBeta
+a68693b5452ead1455dd37f7fbc74b9b7680292d|2017-12-20|AckslD|Merge pull request #8 from StephanieWehner/Develop
+a7ede4277790c4c90d1adb9bd4234a27787a71ab|2017-12-20|Axel Dahlberg|Updated docs: Added two figures and documentation on using the Python library, especially how to do classical communication and some useful commands
+b8231346e87c86027ad2e81e3cf7d016d74a4d50|2017-12-20|Axel Dahlberg|Tiny change in Bobs code for teleport example
+7d7a7fc4ac8fff34cf069c43ecb2dbcf4a2c85b9|2017-12-19|Axel Dahlberg|Removed CQC_TP_INUSE
+59176011252f7917d81444f15a09d5e82939fba7|2017-12-19|Axel Dahlberg|Added message type CQC_TP_NEW_OK which is returned when a new qubit is created followed by a notify header containing the qubit ID
+a44a77635922ed075ab1c236bb8593c53011ae4f|2017-12-19|Axel Dahlberg|Added a startAll.sh file
+adf852b6656620bb7b30ce663c94af1c9162de72|2017-12-18|Axel Dahlberg|Updated tests to work with the new way of creating EPR-pair. Also fixed a typo
+b9c0b7d9091145e2da2f3c35bc1a19d3c4d591d5|2017-12-18|Axel Dahlberg|Classical message between applications can now be int or list
+20e72ef46feb0b4cfcf24c910c06d7446d355fd7|2017-12-17|StephanieWehner|Fixed transfer_qubit - incorrect usage of Twisted PB before
+de6c05646b0734848f600b5938da13d474fe4a9b|2017-12-16|Axel Dahlberg|Added Eve to the nodes in config
+87227dcd2fde5d2207e695561a872afdddfc2e5a|2017-12-16|Axel Dahlberg|Fix bug which mixed up roty and rotz
+f45e203f3e3f7c9f89189258626709f8a9b0b5d8|2017-12-16|Axel Dahlberg|Changes to how cmd_epr is handled. Added cmd_epr_recv which retrieves the qubit that is part of en EPR-pair with another node. This also returns a header with the entanglement information. The entanglement information header is defined in cqc/backend/entInfoHeader.py. Made necessary changes in pythonLib and in the examples using pythonLib
+c2a40e09c5f227f8751939e19051005f5d00a867|2017-12-15|Axel Dahlberg|Started adding recvEPR and message about entanglement information in the CQC/Simulaqron
+3b75761631072178e76230c1d2e4ad16b1269778|2017-12-15|Axel Dahlberg|Fixed better classical communication in the application network
+2376f589bab7c53edacf174dd632c01a046c1700|2017-12-14|Axel Dahlberg|Added a entanglement information messages sent to Bob (in the app layer...). Also added directionality flag
+76c3216d18f56c2d306072e53884d8105b94af17|2017-12-14|Axel Dahlberg|cmd_epr is now asymmetric and returns a entanglement information header, currently only to the node initializing the command
+aa8ffed0eb141e233c860328d41af39d14d11d59|2017-12-14|Axel Dahlberg|Qubit identifier are now choosen by the CQC backend and cmd_new and cmd_recv are now not specified with a qubit id but one is rather returned
+21a50884651bb9f83eaad3bea5f3cd902d5b0105|2017-12-12|AckslD|Merge pull request #6 from StephanieWehner/PreBeta
+46d8568ad8a2d23c7745133f12b6074914afe624|2017-12-12|AckslD|Merge pull request #5 from StephanieWehner/Develop
+5b42c798f13a35fd65ea1ccc425655afb2c6614d|2017-12-12|Axel Dahlberg|Fixed bug in cqc.backend.cqcProtocol.CQCProtocol.dataReceived when multiple messages were sent in one package. dataReveived did put them in the buffer but didn't execute them until a new package was received. dataReceived is now called recursively.
+0b84a2b890bb7434a72f8ce358ae1e1699f6079f|2017-12-12|AckslD|Merge pull request #4 from StephanieWehner/PreBeta
+3f0d92132bbaa9958a2ae8cc02eaa53c9cef9c5b|2017-12-12|AckslD|Merge branch 'master' into PreBeta
+14c8717e19cdc97d1a282b6853e34bd7948e268b|2017-12-12|AckslD|Merge pull request #3 from StephanieWehner/Develop
+1740b7d2e36eae11831fbf3c83e94f44a61d90e5|2017-12-12|Axel Dahlberg|Fixed error-handling when maxQubits in a node is reached. This includes typos where Error was written instead of quantumError and made it such that the cqc-backend now returns a CQC_ERR_NOQUBITS message if this is the case
+a2a0f098cbab74edaa3ec471f93a747bbc865753|2017-09-21|StephanieWehner|Merge branch 'PreBeta' of https://github.com/StephanieWehner/SimulaQron into PreBeta
+fcdb1f1391bb83d0e3bfd0c4bc9ee2345a186927|2017-09-21|StephanieWehner|Added note on purpose
+7a70bc9fc8a81e6c7adca14ca9197ad03c03b18e|2017-09-21|Axel Dahlberg|Added instructions to use develop branch to contribute
+ecfb9bffaa368b49e91410e74564682b590c3473|2017-09-21|Axel Dahlberg|Added instructions to use develop branch to contribute (also as html)
+652820a397a3c38653e5bdc3737580ac8d5078ce|2017-09-21|Axel Dahlberg|Added instructions to use develop branch to contribute
+af8b1a779284134d781b31aaaea9e0182c1cc431|2017-09-21|StephanieWehner|Added git instructions
+c24651b239036a63311b60239b6b4ea8693b1e2c|2017-09-21|StephanieWehner|Added git instructions
+2c8ede4ce4d4ad392d5328806593b493c5053cee|2017-09-21|StephanieWehner|Added URL to README
+d0c6fbe6da097a09f249269947262395aea0462f|2017-09-21|StephanieWehner|Fixed URL
+4b3802637f79e553b9e0f87c90942e443db582e1|2017-09-21|StephanieWehner|Added url to README
+83dec490a1efc717e30ee71f111e6a3b607ffde4|2017-09-21|Axel Dahlberg|.nojekyll
+d0571db83a90af5b79885f088f7593e6146ac397|2017-09-20|StephanieWehner|Saved Pre Beta Docs
+f3d8b27749dab1649ceaa1bb9ddfd467a2172474|2017-09-20|StephanieWehner|Added index file
+837ce5fbe021853708f1388efd27faea4335b8f6|2017-09-20|StephanieWehner|Merge branch 'master' of https://github.com/StephanieWehner/SimulaQron
+73cb79a369bb0137305ed5aaf5c6f7d95008417b|2017-09-20|StephanieWehner|Removed index test
+1b65a03722aefe081e67cbb51c2b3112dbfb8d16|2017-09-20|StephanieWehner|Testing it pages
+b2853626a617c862ed4aac917ce4c882f6af7c13|2017-09-20|Stephanie|Set theme jekyll-theme-slate
+0b5d8ac9f12bef7ae43205620d9d23dd020aa5c2|2017-09-20|StephanieWehner|Merge branch 'master' of https://github.com/StephanieWehner/SimulaQron
+03784c7a9326df6352186c0d998e8dc53441c50b|2017-09-20|StephanieWehner|.
+4236246d9ec87c4366f856d25989dba23f66b861|2017-09-20|Axel Dahlberg|Removed some old temporary test files in pythonLib examples
+80f2e6383c8386c72d40fd367d7cea26e4e83e0e|2017-09-20|Axel Dahlberg|Changed some typos and made some small changes in the docs, also fixed an issue with running the tests from outside the folder
+5231bff2dbe1984a90edeefa67754ba0e475e3da|2017-09-20|Stephanie|Set theme jekyll-theme-slate
+506606529abc76ad2f7faf5c265dbf09eb33baeb|2017-09-20|StephanieWehner|Added note on debug output
+800f09779f82c21a5a42cecd73c232b4a5524422|2017-09-20|StephanieWehner|A
+82e7af8b8e22d21443491c065e9ff8f9b42168c9|2017-09-20|StephanieWehner|Added c lib specs
+c859af8ec79ce6418bbd923fe1e691a196b48355|2017-09-20|Axel Dahlberg|Made the list of arguments for methods in pythonLib in docs more readable
+2cbfc0d6ca98d1d81d9de51458991d9ddc6be3e9|2017-09-20|Axel Dahlberg|Merging docs commits
+5eadbdfaa4ecad45febd780a2a9d8c15a6df0c58|2017-09-20|Axel Dahlberg|Added cqc packages to doc
+8759fe6119eb1f00af20979b017a3bf1d9bb6cd9|2017-09-20|StephanieWehner|Added header format
+455e4e7e7d8fb47811b8f21337c24f9972f417c6|2017-09-20|StephanieWehner|Readded testEngine
+9234b285eb87650cc21a7366ebb62cf672e638bf|2017-09-19|Axel Dahlberg|Changed getting started in docs
+9d0b1207a0bb11e2e5c105cf9f2f5cad3770a510|2017-09-19|Axel Dahlberg|Changed licence, added how to report bugs in docs and moved start-file for cqc servers to the run folder
+d048cc99ad43bb5dd7196333d1667cd21b340f54|2017-09-19|Axel Dahlberg|Changed license, addded how to report bugs in docs and moved the start-file for cqc servers to the run folder
+b121cd5f7ea30a4c7fbbd60a0d4380f408d9592a|2017-09-19|Stephanie|Set theme jekyll-theme-slate
+c9081dc9cbec7d37205b603a9dfccf9e4471d5db|2017-09-19|Stephanie Wehner|Added a few more single qubit tests
+554320728955fa07c94d95004481fa7242190aed|2017-09-19|Stephanie Wehner|added test file
+862f778e2a55049808bf217845a368cc6e815b1d|2017-09-18|Stephanie Wehner|Added picture to doc
+90f645576d207e2934181ef58552c6851576b792|2017-09-01|Axel Dahlberg|Moved the pythonLib tests to the test-directory
+4ac2ec3b73fe2f57f62136c5eaa9635f757675b2|2017-08-31|Stephanie Wehner|Merge branch 'master' of https://github.com/StephanieWehner/SimulaQron
+9edd531e977a5754d7cf01dbf856463190808f5a|2017-08-31|Stephanie Wehner|Added tomography based testing function to cLib
+82e1eed03bd7e8b0b9d0b76137204a369269d728|2017-08-31|Axel Dahlberg|Added more tests for pythonLib and made factory functional in the CQC interface
+7b23efc3c24bc09f0be61dc4121069fc18f231e9|2017-08-31|Stephanie Wehner|Added K gate
+7cf99629a2cfda31777da7465782e84ecfc1019e|2017-08-30|Axel Dahlberg|Added automated tests for pythonLib
+5089d0252ddafb3f48088bf69093dd33be435d7f|2017-08-30|Axel Dahlberg|Not tracking files in docs/_build anymore
+8f123e9b875d95b48c7852d082059a43b9d366b7|2017-08-30|Axel Dahlberg|Not tracking files in docs/_build anymore
+d57817fb068089749759e1832514d82d1f641136|2017-08-30|Axel Dahlberg|Started adding tests for pythonLib
+64486555cfbbbd0ea43fdf27ce34dd2c295aa4ba|2017-08-30|Axel Dahlberg|Added documentation for examples in pythonLib
+73d48103f22dd704ec227838ef87bbe14547548d|2017-08-30|Axel Dahlberg|Added documentation for graph state example and removed graphStateSimple
+f0cf3b5c1b853404272d0d0b56779609bcc8a9f9|2017-08-29|Axel Dahlberg|Qubit is now removed from list of virtualQubits when measured
+51647d9df358cde6932ee86b3215e51fdafb4da2|2017-08-29|Axel Dahlberg|Fixed bug with cleaning up old registers when merging
+6faebffc7d4e4671e51039829609a5e97f479ea3|2017-08-29|Axel Dahlberg|Added extendGHZ example and some more documentation for the examples
+38de8d0c9121938f3a96c8da83a9ac80f0ab6b5c|2017-08-28|Axel Dahlberg|Added teleport example and also added possibility for classical communication in the application network
+23daae85e59365c0ca1025107069e866fc11405d|2017-08-28|Axel Dahlberg|Qubit ids are now released after measure and send
+4eb7d136abb99a122eebae46d02f734383a9ee63|2017-08-28|Axel Dahlberg|Fixed bug with cmd_recv, when waiting for a qubit to receive.
+cacef9e5af19e654b95cb989de9a10ead1901ae7|2017-08-28|Axel Dahlberg|Fixed bug in measure inplace, cmd_epr is now implemented and fixed incorrect length specifications when calling cmd_recv from pythonLib
+e2a1de1321413fa31e6ced92ad84e794ba34d40a|2017-08-25|Axel Dahlberg|Added possibility to measure inplace, fixed reset and started adding tomography
+e6baf3ef5be13425c959e35f678081ea04a027b7|2017-08-25|Axel Dahlberg|Added more documentation to the methods in pythonLib
+122b94701955cf043adfc9825f43a36bfd147a9c|2017-08-25|Axel Dahlberg|Added some documentation for rotations
+6e2a96193abfbdac59e79e252577e62fb9b8c0c0|2017-08-25|Axel Dahlberg|Changes in cqcProtocl and setupCCQ: The remote_node and remote_port are now the ip and port of the cqc network.\n Added more clear output messages for pythonLibrary.
+e695428987e5bf7ed303c517f4b10f264ace378b|2017-08-25|Axel Dahlberg|Added correlated randomness generation example
+6ae60cdcb7448106846fed60d3902ae666a9ed10|2017-08-24|Axel Dahlberg|Added the rest of the methods in pythonLib, send, recv, epr, get_time, factory. Also fixed the handle_time in cqcProtocol which was faulty.
+a79d1d91a404a9a5e4f406b3420c0874b0e2cd52|2017-08-23|Axel Dahlberg|Started adding recv and send functionality
+c5da44e4c1495266084c756afcf062e1119020d2|2017-08-23|Axel Dahlberg|merging commits
+14196409f32f442f2ec5cd57bc18d64aba274349|2017-08-23|Axel Dahlberg|Added single-qubit rotations, cnot and cphase in pythonLib
+71e6666d4b7ebf3f8f5b3c63683df5ec6baba245|2017-08-23|Stephanie Wehner|Automated tests
+a4bce82094d52b8d18ce5bebaf008094eba228bf|2017-08-23|Axel Dahlberg|Changes in cqcProtocol: done notifications are now only send back when notify=1
+06db52cc2f36b1a543686293eba6f3fd0d0ad496|2017-08-23|Axel Dahlberg|Changed names for gate-methods and set notify and block to default to True. Also added to not track .DS_Store files in gitignore
+5ee99581060587c35501c2c27994e3f55b14dbf6|2017-08-22|Axel Dahlberg|Fixed small bug in CQCConnection.sendCmdXtra in pythonLib, rotations around X now implemented
+d5b5e18a80c9e54dda9f3de758f826b5654abc36|2017-08-22|Axel Dahlberg|Added more conditions for hasXtra in CQCProtocol and moved some files in examples
+26749e64d26b8e16e49e3fdc2ccdd02162a8a97e|2017-08-22|Stephanie Wehner|Fixed xtra header
+1a7ea846d918a7dc46855b2faeca5fd79745f6e4|2017-08-22|Axel Dahlberg|Addded more gates and possbility to send Xtra headers to PythonLib
+dd9bd7c6dd2fd0443f0d132a55d5a797d1f195eb|2017-08-22|Axel Dahlberg|Renamed CQCsocket and CQCQubit to CQCConnection and qubit, also renamed some methods ffor qubit class. Moved the examples in cqc.
+aeebd8c641bc6a26dadaa3f47af2cc3a2751cf06|2017-08-22|Axel Dahlberg|Changes in cqcHeader: Changed a typo in the __init__ method for CQCNotifyHeader. The change is self.unpack(self,headerBytes) -> self.unpack(headerBytes)
+30176c6906db674bf5a7a9d446eff8b8f8480ff9|2017-08-22|Axel Dahlberg|Changed how the return message is handled in pythonLib and clean up among the examples in examples/cqc
+f980b3365eed76c9dd52bff8d44f9290c4b70cff|2017-08-22|Axel Dahlberg|Merging commits
+67b97d9edfff65019c139fbe7c2af8f012f481f0|2017-08-22|Axel Dahlberg|Fixed a small bug in pythonLib, extended the receive method of CQCsocket to be able to receive notify headers and added possibility to measure qubit
+9b0735faab9225e79ef43739f6a70a69522c729e|2017-08-21|StephanieWehner|Added files forgotten to commit in tests of c library
+90843694b6bd3cb5bc3c5216e978a1aa4d95c30c|2017-08-21|Axel Dahlberg|Started added cqc python library, not finished
+58d798c9b8bcb0c553e2a7992d2d2ac4c1f6f79d|2017-08-21|Stephanie Wehner|Extended qubit ids to 16 bits
+b2b52217ce3a4dca9d64ab7ab36924656ec6e95a|2017-08-18|Axel Dahlberg|CQC examples for sending HELLO message and creating a new qubit
+eccf7b61b44c39834520250f49f4e0cbed97e109|2017-08-16|StephanieWehner|Fixed typo in outcome handling
+d8e226ad4d889444562cb8b4f0c1aa6cd3606519|2017-08-16|StephanieWehner|Test send/recv
+c2293ed60c3dd0046b41f667e2a7a0902cc01fd3|2017-08-16|Stephanie Wehner|Made makefile
+a7c723374b160d9a62757fe4aa3a00994ec747c4|2017-08-16|Stephanie Wehner|Some bug fixes
+4e93cd7c699b2e9a74c6e0cdfa0ab491b9b498de|2017-08-16|Stephanie Wehner|Added send functionality
+2e4292429f3d63b8d466e9ba21eb1ca2400e5568|2017-08-12|StephanieWehner|Measure functionality
+3452da99544fd0ad74ea2ac9908378598cf68b0f|2017-08-12|StephanieWehner|Carved off library functions
+9f348a90898c6b03dd5e1e7cf269126c31bbc06a|2017-08-10|Stephanie Wehner|Added more comments, gate functionality.
+0b7cda0ae620d7684d9155cfb9bc9064686dbfe8|2017-08-09|StephanieWehner|Added cmd code
+7b9a0b60fbc26a9b8c4cbffe4d0e96f6f0e9f3d7|2017-08-09|StephanieWehner|Fixed deque typos
+31c11c0d8e3671bbbfdfbdf9c9c2a8b0158c7b3e|2017-08-09|Stephanie Wehner|Added command parsing.
+a363ec8eb10fd647a94c48d75ad1b24b5a4836f0|2017-08-08|Stephanie Wehner|Added comments.
+c5d6e1dba7f1fdc43e00a6348ad31b9808fa7442|2017-08-08|Stephanie Wehner|Added remainder of CQC Header definitions.
+c4ad633c371b6d1b37fb41b28b0008f459076e96|2017-08-07|StephanieWehner|Added further CQC headers
+8eeba8ee6b632f2537f7eb71f01ba81be01f9e07|2017-08-07|Stephanie Wehner|Started adding CQC lib
+781991f578d3ac08d7624b78e1c1e01444d8f282|2017-08-07|Stephanie Wehner|Added CQC Message Types
+e5ecc938c69958e2aaebd2ca01ab8623304a6703|2017-08-07|Stephanie Wehner|Added CQC Config file
+d52f6c4819a7e985ef4445ebdbfd2eb533416d80|2017-08-07|Stephanie Wehner|Updated docs. Started adding CQC
+01fd289b38015fbea1a383e32e269ebbfca84ca3|2017-08-01|StephanieWehner|Fixed directory reference in example files after renaming directory.
+d150dbd13a0b38eb24b3c8c26f753aeb9c756ad8|2017-07-31|StephanieWehner|Added more examples to the documentation.
+cbd1a37107dd31fb542a92f6d47512e7152f459e|2017-07-31|Stephanie Wehner|Added documentation on template
+e61df2ad5a4b3ce4173da5a40a6d7550b317ae03|2017-07-31|Stephanie Wehner|Merge branch 'master' of https://github.com/StephanieWehner/SimulaQron
+a4450a82f2d611e0b5bc777d71c527451e8e0e21|2017-07-31|Stephanie Wehner|Moved native mode examples to examples/nativeMode
+5fa7d6d0625e0657a3ab696a16a507fdd751a702|2017-07-31|Stephanie Wehner|Merge branch 'master' of https://github.com/StephanieWehner/SimulaQron
+cbfbf9936ae87d32741a3492bf4f3137cca3ac6b|2017-07-31|Stephanie Wehner - EWI|Merge branch 'master' of https://github.com/StephanieWehner/SimulaQron
+ff91c97957aa1f85e8d261db0a73e1ad19403b8f|2017-07-31|Stephanie Wehner - EWI|Updated documentation; Changed qubit to simulatedQubit for clarity
+fda7b0f09dd1f217f773499bb3cc180aa0bd291d|2017-07-28|Axel Dahlberg|config files for graphState example
+fa82e3b2ccbd05ff5f65d164845ce63eb072ff5d|2017-07-28|Axel Dahlberg|config files for graphState example
+3098849ed411091dab56fb3ef6f1b58a72ab75c4|2017-07-28|Axel Dahlberg|docstring for cphase was wrong
+54b3e760d371bb38164b0a06357d82c4758cc0f5|2017-07-28|Axel Dahlberg|Added gitignore to not track .pyc files and removed __pycache__ folders
+4e2bc44f7aebd12e96036c298206ca96dd653675|2017-07-26|Stephanie Wehner - EWI|Added examples from Axel
+e0cbc98b982b4a3b62d9fb9ce0fc2a4d8f20cb29|2017-07-26|Stephanie Wehner - EWI|Added more tests for the various situations in which register merges can occur.
+c4f56cbaf4dbcbd7f9f25b4a64b4af909c37b790|2017-06-25|StephanieWehner|Updated docs
+cd0fdc0104d452144a79c09f10707e70e9689436|2017-06-25|StephanieWehner|Updated docs
+f713becb9299880f0dbc32ccf8b16d4bb0026b0e|2017-06-25|StephanieWehner|Updated docs
+69ee2fa64d5f259e24a94f65ed8ce64028a6cef0|2017-06-25|StephanieWehner|Fixed link typo
+b566e66e9b182be7e40ca4de9cb32b956912cfbb|2017-06-25|Stephanie Wehner|Updated documentation
+e18faf810f49d5676bd6db8e68e88cbad0803175|2017-06-25|Stephanie Wehner|first commit

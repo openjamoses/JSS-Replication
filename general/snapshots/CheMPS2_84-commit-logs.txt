@@ -1,0 +1,652 @@
+d8ac508d87517d5b47f1961438c5681d96b89760|2018-12-01|Sebastian Wouters|Additional example
+4a6579a77979a8ae1b82e921d3bdc97dd175f386|2018-10-29|Sebastian Wouters|Release v1.8.9 LTS
+741168dd0facbb19e742cfd5f8728630934ed01c|2018-09-26|Sebastian Wouters|Release v1.8.8 LTS for Molcas interface
+fc77bc4b40a996b94ecf371c1fdfc4215876a144|2018-09-01|Sebastian Wouters|Merge pull request #66 from loriab/cmakefix
+73bd9ddebe95cc367ee44fd967ccb336599230d1|2018-08-24|Lori A. Burns|cmake: allow deliberate skipping of tgt::lapack detection
+36c36fc67fbe2374d2f487016091e02fa3743004|2018-08-24|Lori A. Burns|cmake: hdf5 and lapack really ought to be public, not private link dependencies
+0c612e46d5ef45541d2f591e6911ce300083ce5f|2018-08-04|Sebastian Wouters|Better be clear :-)
+8b4f43d20427059f6034101dc0cd5c128b4e4963|2018-08-04|Sebastian Wouters|Print the number of MPS variables
+971c111151e024d84fc249869b860e905fa37939|2018-03-25|Sebastian Wouters|Bump up SO version
+65f590af39720330c5d44e7fbe1d1b9a231a49f3|2018-03-16|Sebastian Wouters|Release setting initial guess to ROHF
+5654aad741a32dc4d0a4829e2d29318fd7cfcc6c|2018-03-03|Sebastian Wouters|Update Travis CI params
+600f70888a5a00399a6e5a65131deeed46c64677|2018-03-03|Sebastian Wouters|MOLCAS_OCC => ROHF contribution singled out in left-normalized MPS
+11874159516167a8385af14c45db89c6414e1375|2018-03-03|Sebastian Wouters|Quick and dirty ROHF dominant corrected
+ab6d28545bb4a10cfa4858fa54d491872bd86b08|2018-03-03|Sebastian Wouters|To start from ROHF (D=1)
+4a908e55a4f09caccf22e2cdacf80f6cda832246|2018-03-03|Sebastian Wouters|The quick and dirty hack to enlarge a ROHF determinant
+6e3cdaf405f8235cce19238bc952fd2f27805aca|2018-01-14|Sebastian Wouters|Version number
+87f787ea74428f6dc27c6a74f16f91e1b3996501|2018-01-14|Sebastian Wouters|New packaging version debian
+d2852d734c8480fd376bc6721dfd1bf68b3f7ba3|2017-10-23|Sebastian Wouters|Add mixed compilation info to sphinx
+f1b7989226892db7369f3ebb2e97722bc69314b4|2017-06-02|Sebastian Wouters|LICENSE file in top directory suffices
+fe7dc19f0a4bc71f9cecfc3e9ed74d2de721cc78|2017-06-02|Sebastian Wouters|To let github detect the LICENSE as GPL2+
+77aa4e7677c874babfc1cd005b7da510dc4fb6a1|2017-06-01|Sebastian Wouters|Bug fix build system
+107647db89d18fbcc5554716d0d110fffc6f49f9|2017-05-23|Sebastian Wouters|Version 1.8.4 LTS update
+183a3896704b9090780ddd4fa60232dbd5d808c9|2017-05-22|Sebastian Wouters|Updated changelog
+76b6978c04e7fc00086c01ec27fe948c1a2f1d48|2017-05-22|Sebastian Wouters|Fixed name error :-)
+628488e48d2ce3e54668a7363be3b2df05e55a9b|2017-05-22|Sebastian Wouters|MOLCAS: state specific N-RDM of intermediate roots from executable
+55d6b3819c27ccfd912ee1a2fe3c773416e30767|2017-03-28|Sebastian Wouters|Proper version number
+c0de831ceb1e371687e4f44cef4fba264e0878f5|2017-03-27|Sebastian Wouters|Numbering and date
+dff6387c3c2394f71da95e0238208cded50a38ae|2017-03-27|Sebastian Wouters|Bump up a year
+782430f789bee39fd9c6e916fa147e361762435d|2017-03-26|Sebastian Wouters|Merge pull request #58 from loriab/config6
+241e1121244d46e1421b8a54293b79102ce9959a|2017-03-26|Lori A. Burns|update plugins for KilltheBoost, Dimension rewrite, Plugin reformation.
+9dfa582b96f55b62db5be05644c81a729c7e25c2|2017-03-26|Lori A. Burns|cosmetic CMake changes plus a slight fix
+ab2ad217a6d72fb8f7edd5e1b9fb75ae40aed304|2017-02-12|Lori Burns|condense Config formatting (and test gpg)
+0b465598f38e8915775da4da6f58ed2700fb548d|2017-02-12|Lori Burns|fix Mac install name to @rpath/libchemps2.dylib
+9f1e86eff0ca18fceb3ae0b5fa1d3c2e25dbb316|2017-01-28|Lori A. Burns|private linking updates
+b654c129941ff25f532b24346c2e17d40840c9de|2017-01-27|Lori A. Burns|try private linking
+252338a36929d119a8cebb2e6e947ff509b57554|2017-01-27|Lori A. Burns|updates
+ae3fda18442e5932ac388e32aea93ad09db3e8fa|2017-01-25|Lori A. Burns|move LAPACK and HDF5 dependencies to targets
+d451db763eb01315c1a25d9f6098558e4c2b70c3|2016-11-15|Sebastian Wouters|Version 1.8.3 LTS update
+80c181ce39049b192220b44e7299d3ddc2d755ca|2016-11-15|Sebastian Wouters|Warning deprecation MOLCAS_REORDER & list length MOLCAS_ORDER
+ced8b84e479e75d6aec34c9b622383388026ee4a|2016-11-15|Sebastian Wouters|Merge pull request #56 from loriab/configpy2
+40c46a13bde886ee2f9a54bcb9aa3972202862a5|2016-11-14|Lori A. Burns|fix up normal lapack linking
+552870297dbf983c492f2adf602e48b7ce858f8e|2016-11-14|Lori A. Burns|allow -DLAPACK_INTERJECT to signal static libraries for exported target INTERFACE_LINK_LIBRARIES purposes
+89d203247d5833a74bddf107ba56478764da2d15|2016-11-14|Sebastian Wouters|Check for list length MOLCAS_ORDER
+e4e055d58dc6a3d2db200210ede268ddad3689c7|2016-11-14|Sebastian Wouters|Custom reordering MOLCAS interface
+b4d65f1ada6f83ba86be9632e3e52609bd7dc7e8|2016-11-14|Lori A. Burns|fix str encoding of pychemps2 tests for py2/py3 compatibility
+f613bb4cd631e0cf8f0fbfc37df0aa37afc57a4d|2016-11-14|Lori A. Burns|make pychemps2 test printing safe for py3
+29c997d14cf3894fd92ef0c7a025baf767f63088|2016-10-30|Lori A. Burns|undo explicite linking. defer dylib link to hdf5 as link opt not lib
+c36fa0f6a38b920cd0b9b64bb96412bc35084d44|2016-10-30|Lori A. Burns|try explicit link for PyCheMPS2
+236ebb59fe9b069e80d691e6ce993ced8cab04a7|2016-09-20|Lori A. Burns|fixes SebWouters/CheMPS2#53 , places Config in share/
+19cae1e81ecff13f69c84912fe283fac0dba1129|2016-10-26|Sebastian Wouters|Fix missing libraries
+74699ac8b188fe7491e2384bcb6003322a76c109|2016-10-25|Sebastian Wouters|Release v1.8.1 LTS update
+6f5c4850bcdb600027462f13773a93d554abeae6|2016-09-11|Sebastian Wouters|Youtube video :-)
+cf2e67eb02a650ce1b08c651cc05841e09187343|2016-09-07|Sebastian Wouters|Update CHANGELOG.md
+72a9286ef997f92e218f38d223252f262f9d66e7|2016-09-07|Sebastian Wouters|Move CheMPS2Config.cmake.in to CMake/
+ad853dc9027706c76cd1fbe3d485a326627025f7|2016-09-07|Sebastian Wouters|Adjust style merged files + add information
+bea80e6a1950e800afea8001eb16482dc06d7b71|2016-09-07|Sebastian Wouters|Merge pull request #48 from loriab/cmtarget
+5de53107d6226bb1e656e24b5e180e67c6cfb740|2016-09-05|Sebastian Wouters|Merge pull request #51 from loriab/ompfix
+3542044a93c48bd0ce07d7ac7db63271a16242b9|2016-09-04|Lori A. Burns|chemps typo
+67d850781d4ac360ce0ae17a0377ea0fb287327b|2016-09-04|Lori A. Burns|apportioning of link libs among private and interface
+28e0635d3dd8a97e405568babc6586f00d91d8f0|2016-09-01|Lori A. Burns|skip ATLAS-directed omp call that's troublesome for MKL if MKL. fixes SebWouters/CheMPS2#50
+c88e5a68ca94a4df5f57b74cb2a3982826f605d0|2016-08-27|Lori A. Burns|used alias library to unify stat/shar target properties. simplify dependency spec.
+74f16f191e61816fdc8b187bbbdda599efb25f63|2016-08-26|Lori A. Burns|add BUILD_FPIC. address SebWouters/CheMPS2#50 openmp segfaults with Intel.
+83d0d306306ae3494c6162f8960c05541799a259|2016-08-24|Lori A. Burns|fix temp Config variables that could lead to odd detections
+1fddcb190de23a73e87c2d4192ec8f78fb2fd335|2016-08-24|Lori A. Burns|openmp optional. remove clean_direct_output unnecessary in >= 2.8
+81061cb64ad80d33f152d842100de53fa8139f2c|2016-08-13|Lori A. Burns|inital CONFIG mode. also CMAKE_BUILD_TYPE
+f641c13076f48672298a7d4d6b13c27835f52bf0|2016-09-05|Lori A. Burns|skip ATLAS-directed omp call that's troublesome for MKL if MKL. fixes SebWouters/CheMPS2#50
+07fc50846f1d5943b9a1de40dcc9951573205cf3|2016-08-29|Sebastian Wouters|Store Fiedler reordering on disk together with MPS checkpoint
+235013fd46c46ca06b883382f9e76d36885aad9a|2016-08-28|Sebastian Wouters|New option MOLCAS interface
+e63f11c6cf53a6434ae9a1f5278ea218517e2f2f|2016-08-24|Sebastian Wouters|Update references sphinx documentation
+8bf3b2d71d54233aa1f385bf2a4e79f1859eeecc|2016-08-24|Sebastian Wouters|Release version 1.8 Long-Term Stable
+3d0da335af883560d4937c768b983c48cf3a4578|2016-08-22|Sebastian Wouters|Added irrep conversion between molcas, molpro, and psi4
+039092b6e18bb20fc3e075287f9721bd0a4baf4a|2016-08-18|Sebastian Wouters|Bug fix MPI executable
+e124374ba05faa93bf7fe4d96e9125ba48a5fb3f|2016-08-13|Sebastian Wouters|Allow switch on/off debugging symbols with CMAKE_BUILD_TYPE
+42b1b080fa5b58c9fff4838cf1f1aa6c5622ed35|2016-08-12|Sebastian Wouters|Adjusted WRITE in fortran example integrals/molcas/example.f90
+ee5c2684881a1f4bbc46e6d8e2695cb907e5f35f|2016-08-12|Sebastian Wouters|Correction printout binary
+09e6f527499f3429c2969c448fc35e1cf606b677|2016-08-12|Sebastian Wouters|Added fortran example to read in CASPT2 intermediates MOLCAS
+c11cb703fb766631146cb31a139d9769dabadd31|2016-08-12|Sebastian Wouters|Added interface to use chemps2 inside molcas.
+ea34df86c205065882b0adeb7d77cad47c7b9a27|2016-08-10|Sebastian Wouters|Limit printing Davidson
+69c68e4589cb63f3e6b313bc7c71e262c40c28e7|2016-08-10|Sebastian Wouters|Keep multiple vectors at deflation linear Davidson
+0ebea0a2d33fb93d325122b205da699e91128c85|2016-08-08|Sebastian Wouters|Updated CHANGELOG.md
+2affffda3237ffeaf356121290486dc9a17c7bf5|2016-08-08|Sebastian Wouters|No excessive printing in Davidson :-)
+940cd49ac05ef9636bce48a69a7aa139d5a1e038|2016-08-08|Sebastian Wouters|Bug fix Davidson solver
+77fed80d8867e7c92510aa856324d14dc6b32fbc|2016-08-08|Sebastian Wouters|Fix linear Davidson solver!
+6e32a410133bbaeb116ccc56545bc34ca4fbdefb|2016-08-08|Sebastian Wouters|Added journal reference to sphinx/publications.rst
+2c4ad36839710521bfdfb6b829f4b96512ed3016|2016-08-05|Sebastian Wouters|Allow to skip F.4-RDM calculation for PSEUDOCANONICAL as well
+f70eb270303fa8510c544568769d21ae21160091|2016-08-01|Sebastian Wouters|Fix redundancy logical statement
+f3b8d60887a5467f47e6dbbd40435868f8ea5ba5|2016-07-14|Sebastian Wouters|Tag for new debian release
+2ea489d925254ab181baefb450d67decc40d3f7c|2016-07-09|Sebastian Wouters|Added DMRG-CASPT2 results to hands-on tutorial
+d4efd0d7e93a365991623c9247d8be7c1d4de533|2016-07-08|Sebastian Wouters|Typo fix!
+a5a7542aee4b02eb94edf158f7130361354e282c|2016-07-08|Sebastian Wouters|Updated hands-on to new (final?) version
+262374a4969a4b0e926bd900eb6f2d178ece2034|2016-07-08|Sebastian Wouters|Updated hands-on to new (final?) version
+b8553ac5c63c31c4d7d2cc0b3be15e54754157e3|2016-07-08|Sebastian Wouters|Updated the hands-on instructions with comments from Ward
+4670285c1bd007845f30558b71d16e48d432a6d4|2016-07-08|Sebastian Wouters|Another update of the hands-on instructions :-)
+0397b2d4560f5651f4ff9987236945777aca0627|2016-07-08|Sebastian Wouters|Ready to compile hands-on
+f73b0fdfdedc57779b5e25dee59a61f3b776c516|2016-07-08|Sebastian Wouters|Documentation for hands-on session updated :-)
+f4a3414556571cbe69f64a686350bfa98d844cb9|2016-07-08|Sebastian Wouters|Add file for DMRG workshop (instructions will follow)
+06067e11c76aa2702cf629dfc764694a66d4c9ad|2016-07-07|Sebastian Wouters|Tag v1.7.2 for DMRG workshop
+d8c67b195ddd815ccca32eff31ca43af27699227|2016-07-07|Sebastian Wouters|No cout stream from Molden class
+31bb0bb85a3ed3a020b35c3eec8cbb47287d1973|2016-07-07|Sebastian Wouters|aargh @ continuously switching psi4 irrep conventions
+e6931216ba96fbc325ad0ab4ed8dc715155267f7|2016-07-06|Sebastian Wouters|Rotate R(O)HF molden files to DMRG-SCF orbitals in executable
+eedb60e7a47424cf50d632f2057459567a60d3d8|2016-07-01|Sebastian Wouters|LLVM is back online
+5991b9104276483d07979aff64affadbd95f533e|2016-06-29|Sebastian Wouters|Tag for psi4
+631e0142a21bb63ce3c5f9ad236ac99e45c0a88d|2016-06-28|Sebastian Wouters|Added CASPT2 to sphinx manual
+a7a40a9b5e33a8c8a39c66fd10b6a4e85b94ef78|2016-06-28|Sebastian Wouters|Adjust text sphinx/resources.rst slightly
+19ae3cc966d2879ec911065d62f72db83bff48f5|2016-06-28|Sebastian Wouters|Add images for sphinx/resources.rst
+7845df0dc8b90d96ec6ea6ff55651bb30b1fb0e5|2016-06-28|Sebastian Wouters|Update sphinx/resources.rst
+4ce8f77401e690378cd3897a11cb858ae242e45b|2016-06-28|Sebastian Wouters|Update FILES.md (last part)
+0841c3c23b7e010380367e758bf0fdc9520324d9|2016-06-28|Sebastian Wouters|Update FILES.md (part 2)
+a12f249b9db8c09a8cb62b2a20b584496d65c76e|2016-06-28|Sebastian Wouters|Update FILES.md (part 1)
+a84f4220a00b250468dd9c6f245b595ae06c7fc2|2016-06-28|Sebastian Wouters|Redirect to sphinx/sourcecode.rst for installation
+79990f35d9e5cf80d9474581a282d02452984644|2016-06-28|Sebastian Wouters|Merge pull request #42 from loriab/keywords
+baab87fc70349cafd365b8ef9e1bf63850fab4c1|2016-06-28|Lori A. Burns|keyword name docs update and warn about psi4/psi4#414
+4acda53e07ea63b924c5ed4084f0fa96485dc4de|2016-06-28|Lori A. Burns|updates input files changing keyword names
+f8f414f4ab924277df7ea597d32d78b11148ad28|2016-06-28|Lori A. Burns|realigns all psi4 dmrg keywords with chmps2 binary. references psi4/psi4#150
+8c7effb15d2f31e242991f51b610d94aba870ad0|2016-06-26|Lori A. Burns|separate interject libs for chemps2 bin
+0fee9a8347bc0fda5b095893193afd5e02e00571|2016-06-23|Sebastian Wouters|Update changelog
+2dca37bde42612ed127f3f2103cb4aed12c1a3aa|2016-06-23|Sebastian Wouters|Add info active orbital selection
+26b9a8c856cce34e6ca69b4e5085c57ee4eb996a|2016-06-21|Sebastian Wouters|Update text chemps2 --help and manpage
+4e968b1bd3d3e6725454c9d73f5082176fdf20ff|2016-06-14|Sebastian Wouters|Allow to build only the shared library (fedora requirement)
+f536ec6866c4602016143b5159f410a16ce41f4c|2016-06-14|Sebastian Wouters|Print error if FCIDUMP file does not exist
+e2510a1d6623d97a5809ffd84d0e716bc1405e1f|2016-06-02|Sebastian Wouters|Remove clang from travis build because http://llvm.org/apt/ went offline.
+71c55d6bdda286e2cf3097eba5759a212a0888ce|2016-06-02|Sebastian Wouters|Allow switching between Conjugate Gradient and Davidson for CASPT2
+3d08226729948d352ecbd41349a653a36b741fd4|2016-06-01|Sebastian Wouters|Throw out annoying eigenvalue warnings in Correlations
+e085a5d2b9228389ad6429e9bf0c67217b9a71f9|2016-06-01|Sebastian Wouters|Also throw out GSL for travis
+64bafc829c6262f34970bd7bd13a944e9c8eb332|2016-06-01|Sebastian Wouters|sqrt_fact only called in wigner3j and wigner6j; max factorial = (4j+1)!
+b2efeddb9bdaba7dd2b6d761919fbebafb2fddda|2016-05-31|Sebastian Wouters|Reordering orbs AFTER calculation of active space ERI
+4478a4bd3dfd394a5abeae80f6d9d89241157217|2016-05-31|Sebastian Wouters|Also allow for global Fiedler vector reordering in CASSCF to PT2.
+79fb7c6f2b4cc2d628e5593fc8aa548c572a9e83|2016-05-30|Sebastian Wouters|Global Fiedler reordering
+baab96097ace9db88177bacdcbf4964d097cad4a|2016-05-27|Sebastian Wouters|FCI blocksize assertion only relevant if loop is executed
+3e906839bf2815dcb4e3f816a2fd2d867c894881|2016-05-25|Sebastian Wouters|Print statement "DMRG::solve_fock : Accuracy" corrected with multiplicity
+01e5ce2ee76a6bc080c14ef9f48a7f2c4913d3cf|2016-05-24|Sebastian Wouters|Official version 1.7 release
+5e995c30fe8cacb3c1be1c4dc8fbe5b0a32f3be8|2016-05-24|Sebastian Wouters|Allow to use the 4-RDM cumulant approximation with the binary
+002818006570601b737a1c290afd875394c116b1|2016-05-24|Sebastian Wouters|Faster Wigner routine - deprecate prime factorization
+f259ba4ab5bc62813a4ad788e09459d7e9600b1c|2016-05-23|Sebastian Wouters|Version update
+1e2e4d901e7a45146d8cae88b100e545b2df0180|2016-05-23|Sebastian Wouters|Replace gsl_sf_coupling_nj with CheMPS2::Wigner::wignernj
+4389aa3017afdb9d5ed6082f7e4df6cb729d5af0|2016-05-20|Sebastian Wouters|Allow to only reorder the orbitals, without localization
+52b0f38be0585c873f2b3981560af6bc9539fe59|2016-05-19|Sebastian Wouters|Add link DMRG-CASPT2 preprint
+11bcea0921d43283dd5cea18b5574cd790f09c76|2016-05-16|Sebastian Wouters|Version update
+0b3c18344f85587dc7416bd0aba98aa961944544|2016-05-16|Sebastian Wouters|Delete some memory not needed for CASPT2 solution
+2195b9b0c450fafd1abd07cfcb8220d1c62dd922|2016-05-16|Sebastian Wouters|Run large CASPT2 calculations with less memory
+c29e7761c01c809142084d61f2924bacce3bf22c|2016-05-13|Sebastian Wouters|Thread concurrency bug fix in disk version of 3-RDM
+102beefceb6e09f4981b2ecd7b9ba0802ffd43e6|2016-05-13|Sebastian Wouters|Allow for 3-RDM construction using disk
+00348b233ce6cc54dd18625fe994d25b09ed9b71|2016-05-13|Sebastian Wouters|Reshuffle 3-RDM internally
+210e4100d3c545e85b62e5257dcc521f45935de3|2016-05-12|Sebastian Wouters|Option --version in manpage and help.
+6e51fb5d7ae3a7c721811dc5f95cc67b18cda55a|2016-05-12|Sebastian Wouters|OMP parallelization CASPT2::construct_rhs
+4ed938c724b0a27850e1765a4247f91f698550ec|2016-05-11|Sebastian Wouters|Version printing in binary
+b26609b335d4e0856e22a7e3ce3a87500b1bf63a|2016-05-11|Sebastian Wouters|Version numbers set to rc1
+222e1d7900654ed92ba8b3d102c44f42c1996d37|2016-05-11|Sebastian Wouters|OMP parallelization CASPT2::matvec complete
+f4f1952f1ec2f66fc59f9557c2adeb9b0deb0a54|2016-05-11|Sebastian Wouters|OMP parallelization CASPT2::matvec by dgemm_ i.o. dgemv_ (part 3)
+f12b976434e3087e6e3915347fb1f0e8fd536602|2016-05-10|Sebastian Wouters|OMP parallelization CASPT2::matvec by dgemm_ i.o. dgemv_ (part 2)
+4bbd202d9f51faccd4043fa19e8fafbe0087b396|2016-05-05|Sebastian Wouters|workspace per thread in CASPT2::matvec needs too much memory
+13cc831086dd5171b3e07cd4e3b5e68ce71fce68|2016-05-04|Sebastian Wouters|OMP parallelization CASPT2::make_AA_CC
+2f90cf00d926483ab85539cea8c72651b19b4963|2016-05-04|Sebastian Wouters|OMP parallelization CASPT2::matvec and CASPT2::diagonal
+3f4cfaab7daf28f7bf54a04364eb491f1ffc0124|2016-05-02|Sebastian Wouters|Skip calculating 4-RDM for zero CASPT2 vector size.
+beefab42ed9b01d81fbf15d13a53951c9e941cdd|2016-05-02|Sebastian Wouters|Fix Intel MKL ERROR: Parameter 8 was incorrect on entry to DGEMM.
+be5a208e8dd2a2ae70c85291b371bc646ebf152e|2016-04-29|Sebastian Wouters|Only master stores DIIS, so only master should attempt to delete.
+05cc65783bb4826fc6cad65a81e5fe91ce38fe94|2016-04-29|Sebastian Wouters|Path fix in README.md
+9ac26915c196995cec970fb994b1413ef44dd7f2|2016-04-29|Sebastian Wouters|Fix MPI errors in executable.cpp
+608c7fb1a14cc8b3fe5f8de8ad9ad5e932401fd4|2016-04-29|Sebastian Wouters|Layout README.md
+28b07dc03a17011ff2f4e33f1e0625ec0c9797b3|2016-04-29|Sebastian Wouters|Adjusted documentation for new binary
+3c962faa1afdb1b896ae11a5e927bff54c9b93f4|2016-04-28|Sebastian Wouters|compilation error fix binary
+a649f309546048f02a9325bf349e035187c9e399|2016-04-28|Sebastian Wouters|DMRG-CASPT2 with binary
+949489b988cf0db862d22e5fea579d57d00c89ce|2016-04-22|Sebastian Wouters|Fix doxygen warnings
+59c2118e474cb151b381d68950f444cd762e4f56|2016-04-21|Sebastian Wouters|Created checkpoint file for contraction Fock and 4-RDM
+42a0e8d0495f6df83c9ac44cf6a2371494d4829b|2016-04-21|Sebastian Wouters|MPI bug excitations fixed
+3a1f592bf1e0f610c1b3b67dbd87302be21fc338|2016-04-21|Sebastian Wouters|MPI for DMRG-SCF
+af1dc28e32f0599ee960696002d53e1fceb98c71|2016-04-15|Sebastian Wouters|Bug fix int DMRGfock.cpp. Wrong BK used in left_normalize on line 271.
+54cd53a579e39f61734b4a395fde66867f21ec7c|2016-04-15|Sebastian Wouters|Update test 1 for signed FCI coeff & check < S^2 >
+55dbfa3d3c5111b6d2619890f9b3ed4b091e37da|2016-04-15|Sebastian Wouters|Longer timeout for travis-ci
+210f7bc456a251069882a62722dbfd250efec1bc|2016-04-14|Sebastian Wouters|Fix bug wrong bookkeeper deleting in DMRG::solve_fock
+5aa4a5d6a2a74b23541d77bf2d84ccde7f28f316|2016-04-14|Sebastian Wouters|Bug fix symm_4rdm_helper
+9fd492793c91aeb5c3e04854aca28622abdecdfb|2016-04-14|Sebastian Wouters|Fix bug psi4 plugin for different number of symmetric and molecular orbitals per irrep
+18383cd3b24fb340fb452f3d3554ad70c443f1b1|2016-04-14|Sebastian Wouters|Merge pull request #26 from wpoely86/travis2
+0854d9b4efb5d3066ef65c1e38a3513c1362cfd5|2016-04-14|Sebastian Wouters|Update psi4 plugin to latest commit
+295ddce1727aeb7def5f0ba38a58d0aef20a10d8|2016-04-14|Ward Poelmans|Make tests of travis verbose
+c0244c3b3bf4a70677f6cd8aef7c7c9f9eb7520a|2016-04-14|Sebastian Wouters|Merge pull request #25 from wpoely86/master
+a2925d9fe8a42f7dd94c23786018dd8b074419d6|2016-04-14|Ward Poelmans|Put build logo on top
+51ff34fdb2ef12b3034419c8a892deb611243233|2016-04-14|Ward Poelmans|Add build status logo in README
+6d319c7e716dc581d1ff63c9971594bdc0b50af1|2016-04-14|Sebastian Wouters|Edit spelling error and trigger travis
+e787e11c8370c98203ffe61ab00e61ad9cc55745|2016-04-14|Sebastian Wouters|Merge pull request #24 from wpoely86/travis2
+8ea7fb7c26ce47d5864118c2c9c259989fd96b26|2016-04-14|Sebastian Wouters|Thorough rewrite Sobject
+dbf21d75897bfd3bfcf97c09eb8d77fd8069621e|2016-04-13|Ward Poelmans|Final working travis config file
+7174df974952ba8ec489acacbe6c75eddf29fc80|2016-04-13|Ward Poelmans|Nicer travis file
+68697f76bd6d5d7d660da40b37f1a89ba58354e1|2016-04-13|Sebastian Wouters|Fix MPI compilation
+5196319d106e9f029b3456677a5f2acd618b1691|2016-04-13|Sebastian Wouters|Virtual dimension is last argument in SyBookkeeper::restart
+04bbb658a4c2a566ce07b0cc0e11e4a229fa9f5f|2016-04-12|Ward Poelmans|Fix wrong Clang version
+c39b1423766ef470b9a2b6a9ca4ac1b82a3f08fb|2016-04-12|Ward Poelmans|Improved test
+6eb1ceb4f458b61e3f0e110dfb7856ccdcce969b|2016-04-12|Ward Poelmans|Another Travis test
+e0d04d74f67572b3898e2702734cd18aa1d727d7|2016-04-12|Ward Poelmans|Longer timeout for tests
+f955d4c76b607934d5da17125ff71500d7b45b59|2016-04-12|Ward Poelmans|Use travis wait
+d34cb54a7890ce933b654cb5359328648f72ec1e|2016-04-12|Ward Poelmans|Limit build matrix
+a3390e141b8b653ada7c56976e3f0cfd04364f95|2016-04-12|Ward Poelmans|Don't forgot to actually build
+d5fd04115d0888440ab1b8813ec8a17662f4eb29|2016-04-12|Sebastian Wouters|Throw out test9 and downshift other tests
+14fc8297312269651f038a6ccc6427ca1062e68a|2016-04-12|Ward Poelmans|Let travis use trusty
+47f3fa187c3feed70330a4c9762d0adc43c38640|2016-04-12|Ward Poelmans|First test of travis
+d300aa15e822273c56b175e82d128588a107cfa0|2016-04-12|Ward Poelmans|Merge remote-tracking branch 'seba/master'
+d2d71e1d13a7d5bd661a6ac8eeb8824d82b24005|2016-04-12|Sebastian Wouters|Fix pychemps2 for new API libchemps2
+6b93651ca7149e3079dfbd4e33ef1d4126147445|2016-04-12|Sebastian Wouters|Updated files list for test15
+efc4f865e11710641e2b502855cde93bc989694f|2016-04-12|Sebastian Wouters|Updated the files list
+5000460481e1a57e2afe693799db387921705872|2016-04-12|Sebastian Wouters|Full DMRG 4-RDM for CASPT2, with a trick :-)
+1f156f1a24a7a7faabc414103d2c0e256d2f0cc6|2016-04-12|Sebastian Wouters|Valgrind mem leak error fixed
+357e75ec4b8ea309512348b9338bb2b546a7182f|2016-04-11|Sebastian Wouters|Small error in Excitation class
+4456d44d47784cc977b7d9e17fd86e69c7416ec5|2016-04-08|Sebastian Wouters|Matvec routine for point-group conserving single-particle excitations
+ad47be8f1f5dbc84a3edc7fc5c732409e099c4e3|2016-04-07|Sebastian Wouters|Better implementation invert triangle functions
+fba91843b9c58c729002150881c364675307c8a0|2016-04-07|Sebastian Wouters|Starting to work towards solving A | x > = | b >
+26eab8e66dc8b1dacdfff7bf1f9adca9c5eecbac|2016-04-06|Sebastian Wouters|Double check cumulant contraction with fock
+6da844ec26d91f8fc29db7ef8951ae0ea344566b|2016-04-05|Sebastian Wouters|Allow to use DMRG cumulant approximated 4-RDM, in any orbital basis
+3e519a73a0031605a8fdc39b6941e13d966772b2|2016-04-04|Sebastian Wouters|Removed explicit construction of CASSCF Hessian
+1d74241404d68f695e48bb57309ee3f01f519e95|2016-04-04|Sebastian Wouters|Reshuffled augmented hessian some more
+6fb646e3d854f17cb9027088e1717f0b356ae1c2|2016-04-04|Sebastian Wouters|Further rewrite AH NR CASSCF
+eca87eafe444ca779ef6793fd448da09a73de46d|2016-04-04|Sebastian Wouters|Working adaptation of augmented Hessian rewrite
+fc720f131222ea170ea26935ce1ac04dbbfe4603|2016-04-04|Sebastian Wouters|Working rewrite of augmented Hessian DMRG-SCF
+84374ab32f1fe0d5bbb39e73d4494621d6bc4225|2016-03-29|Sebastian Wouters|Update FILES.md
+53cbb36f8f94f4869a01857e799e5b3ddfc20c67|2016-03-29|Sebastian Wouters|Wrong links fixed
+3bd4109a386e3c4c9574ec4f5b23abe8f97eaaa2|2016-03-25|Sebastian Wouters|Avoid looping over sectors with zero size in FCI
+b4638b97158bf3694abe4b9190c4c17070f053f6|2016-03-25|Sebastian Wouters|Reshuffled IPEA parts some more
+cb271688318488c024fc337331a8df9c73d45566|2016-03-25|Sebastian Wouters|Reshuffled IPEA in CASPT2 class
+62dc65afc1884461aa257955351dbf512349ece7|2016-03-25|Sebastian Wouters|Molcas has no IPEA for off-diagonal blocks D-type excitations
+b222b7c97a339e6b71073be854dd67436f06e288|2016-03-24|Sebastian Wouters|Check that the correct number of orbitals are loaded for each irrep
+745cf260fdf231e806dc8d1d4aa8828d6e3ea61a|2016-03-24|Sebastian Wouters|Class Molden to rotate molpro/psi4 molden files to new orbitals
+9988f0620ae4738f0bc70c4479a0b974e99aa45a|2016-03-19|Sebastian Wouters|Include MPIchemps2.h in DMRGSCFmatrix.cpp
+4c10d10131abf325e0032c2cde5f897239af54d0|2016-03-18|Sebastian Wouters|Adjusted API for pychemps2 as well
+af34a37b0be8141d302140011d5049d09e8649ae|2016-03-18|Sebastian Wouters|Got rid of the long long's in FCI.
+e068aabca74295b5cc2267f635982ff37a8e32d4|2016-03-18|Sebastian Wouters|Avoid divisions by zero
+ade1e1abb9e70ad12c5bb178fe4bbafafc6d8dda|2016-03-18|Sebastian Wouters|Lookup_irrep_{up,down} not needed anymore
+90f5287be1a1479e0320a28c37d79d7d580e869e|2016-03-18|Sebastian Wouters|New check of the FCI matvec workspace
+6ae721e0456eb38d0be408cc84c24585ce50e305|2016-03-18|Sebastian Wouters|New FCI matvec -- OK with tests and valgrind
+088602bb3acb9c86a7a1d2bcac1e14217b137ecf|2016-03-18|Sebastian Wouters|Preparing to reshuffle HamTimesVec
+e8b0c4a4a8b003d0caa753f52028c7a37c219b84|2016-03-17|Sebastian Wouters|Added spin densities for spin ensembles
+88dd66ab22368e9c8fc2c1662768b42f9aaa470c|2016-03-13|Sebastian Wouters|Package and unpackage the coulomb groups.
+4428786d6cb126d9914b7fae4c7f59e2306142a0|2016-03-13|Sebastian Wouters|Changed API blockwise functions
+c3feadcac09698e4dd42b013ff4f7f50d56946b9|2016-03-12|Sebastian Wouters|Updated exchange as well
+cb0c9f60e849b4eeb4c06ba8ad31dcc3eeeeee3f|2016-03-12|Sebastian Wouters|Partial adaptation towards common rotation interface
+2eadae80f89c65ce14d8e2891b2eb33899c67d7e|2016-03-11|Sebastian Wouters|Always use DMRGSCFVmatRotations::rotate. If block is small enough --> io free.
+74bf9da274de2737b1ae06a929de39fc2f5bca63|2016-03-11|Sebastian Wouters|Updated changelog
+22fb68dbe1c4bdad1fb56ad71b2926836a633e52|2016-03-11|Sebastian Wouters|Shuffled things in the DMRGSCFVmatRotations class
+4292874e105faa95f5dc45fe890ba2a2ef337a75|2016-03-10|Sebastian Wouters|Made the DMRGSCFunitary a type of DMRGSCFmatrix
+a7922d6821c70f6e75ce5855ab10bb18b7115762|2016-03-03|Sebastian Wouters|Update python interface
+b440089908be789e147d8e3d2f7b2f66b58cbd25|2016-02-26|Sebastian Wouters|Debug check added
+1a554205a085ca49a1b83d36dcbd9bba56cdbf1a|2016-02-26|Sebastian Wouters|Hamiltonian and core, active, virtual consistency check in CASSCF::CASSCF
+99741a09f5af8075a1ce1a491e37b2936e89be42|2016-02-26|Sebastian Wouters|Small print bug fixed
+d6c788e73badff4946ef702105e150b31c08c612|2016-02-26|Sebastian Wouters|Intel 12.1.3 warning #186 "pointless comparison of unsigned integer with zero"
+887aaa39851e76c3d6f90e3d28868235c43b9b76|2016-02-25|Sebastian Wouters|Allow to set the residual tolerance via the convergence scheme
+601de080ca38e01574a918bf0990e0592ef8fc06|2016-02-24|Sebastian Wouters|Quick test update 2
+b0d39b26abd3291877318ba076e0376d64dad83d|2016-02-24|Sebastian Wouters|Quick test update
+75cb700a7e75226ebc8e7bcfa9d61d68cfddd45c|2016-02-23|Sebastian Wouters|Quick test
+3b5d4b1037adec42e30ae3c25e9e6eb27350f8d2|2016-02-23|Sebastian Wouters|Update sphinx manual
+d6d416c26cdaac3eedb3eadb3cdb2c1cf864a572|2016-02-23|Sebastian Wouters|dmrg.cc plugin: AO 1-RDM & pseudocanonical molden
+1bb1badc707209f047ad28b41c6330f6cb294680|2016-02-19|Sebastian Wouters|Intel MKL complained about zero array sizes
+934827ec6de412d7eaac6233f4e314f4f298ec5c|2016-02-19|Sebastian Wouters|To make CASSCF work also with non-ordered Hamiltonians
+2ac122475c2a8c994129fe49a20e519b2a702fc9|2016-02-18|Sebastian Wouters|Updated the documentation for the psi4 plugin changes
+1d6968f8a822573cb7754f0531cff7d7da0fd443|2016-02-18|Sebastian Wouters|New example files for the psi4 plugins
+c085733767296f7edfee456ae971ec403a525ed3|2016-02-18|Sebastian Wouters|Updated psi4 plugins for psi4-0.5
+60fbf188fa25d986558325bd3a1f54a0a4d7c05a|2016-02-16|Sebastian Wouters|Update of file list in README.md
+58849453418edcd3374ecfc450f6d90ce0eef1e8|2016-02-16|Sebastian Wouters|Added tests for CASPT2
+9f1d1fdf728c92ee594b471ba9221c2292ef209c|2016-02-16|Sebastian Wouters|CASPT2 IPEA and imaginary shift are debugged
+a82c38592d18b5d3e56147c039c4ad572637e1ec|2016-02-16|Sebastian Wouters|Doublechecked IPEA shift
+ce684c0b4cd889daacb93f7fbb59c6c8d1fa016a|2016-02-15|Sebastian Wouters|CASPT2 IPEA shift implemented!
+24fda4e1132b61dbbee0f4003c8e02dce62e614b|2016-02-15|Sebastian Wouters|Squared the CASPT2 linear problem
+862a1af54fdc374e4f73afdb645756f95ddcc9fa|2016-02-12|Sebastian Wouters|High accuracy value test13
+a709cfdd9dd2b9e5730681be7a05871ee2199402|2016-02-12|Sebastian Wouters|To get test13 through valgrind...
+f4710e2aed68e07aa752fcabd098307a66d2aa35|2016-02-12|Sebastian Wouters|Overwriting mx elements requires reconstruction complementary renormalized operators
+d012d835781cd0f540640309ec846c6b0c5c0324|2016-02-12|Sebastian Wouters|4-fold hack requires reconstructing renormalized operators
+2d76a579e926a2468c6542d63c22f6f00e12d2c4|2016-02-12|Sebastian Wouters|Added BCS Hamiltonian example to test 4-fold permutation symmetry
+59ae7051dea0a7225aa73b0b83b57d6fd0d62bf0|2016-02-11|Sebastian Wouters|MOLCAS's overlap matrix threshold for CASPT2
+996cf55c21eafb6f76bce2a38555d85d57480655|2016-02-10|Sebastian Wouters|part4rdm not required if IPEA only in part proportional to overlap
+b56ac9b307d1b731f653f8a2d4c15ca662ca0046|2016-02-10|Sebastian Wouters|Join diagonal block overlap and fock operator terms
+9efd09fb541f1ff582d25ea81f3e221de79151af|2016-02-09|Sebastian Wouters|Join overlap and diagonal fock matrices: part1
+82e650e026fcb0f296902d50fe729b772b11582f|2016-02-09|Sebastian Wouters|Preparing for IPEA
+96ba1c7b805c7cbbc9bc79b12cb24321113d6b2e|2016-02-08|Sebastian Wouters|Shuffling things in the CASSCF class
+5b44d4da88d09fa9dfb063d72f1a5d4fba1d854a|2016-02-08|Sebastian Wouters|DMRG diag( 4-RDM ) added to python tests as well
+291b29f568d9ef922b5bcca68f5b442ab95bb6f9|2016-02-08|Sebastian Wouters|Doxygen fix
+4a3d9c55aada38ef02be40cc2183ec04438d8e5e|2016-02-08|Sebastian Wouters|DMRG diagonal 4-RDM: Gamma4(i,j,k,z,p,q,r,z) with z fixed
+5afbdfda1caade92f4d7855df51c4b20aaafe024|2016-02-05|Sebastian Wouters|FCI::Diag4RDM calculates Gamma4(i,j,k,z,l,m,n,z) for fixed z
+c27a5767f0c754a1347db575682f5cb791dbc70b|2016-02-05|Sebastian Wouters|CASPT2-N clean-up
+d9754bfb99fb9dee7d7d39fce59bd1fbdd5ea0b8|2016-02-04|Sebastian Wouters|First steps towards Andersson's g1 correction for CASPT2
+08504aa80d8e27ec416e19633af5310c857ad8c6|2016-02-03|Sebastian Wouters|Weight of CASSCF reference in 1st order CASPT2 wfn
+65a1f110c9156840abbe34c06652f75f22e32c15|2016-02-03|Sebastian Wouters|Update changelog
+772dab678e890ac4eb282bff8f48a00b576a6b8d|2016-02-03|Sebastian Wouters|CASPT2-N fully debugged :-)
+6a6cdb6b51521e267df5753ed1d29c47eb67d1d8|2016-01-29|Sebastian Wouters|Full check and clean-up of first 6 CASPT2-N terms
+fb4613c49e8481e14b824007cdf6f933c2c435e3|2016-01-29|Sebastian Wouters|Second bug fix CASPT2-N
+6b37909cb2754ab7141f69b6d7b0132041d26ceb|2016-01-28|Sebastian Wouters|First bug fix CASPT2-N
+2e7c51522eaa0298b3d4ab26938e2b4f79ac7d80|2016-01-28|Sebastian Wouters|Grr @ bugs CASPT2-N
+2b629520d504b48fdfe1a2016e889219fe7d02fb|2016-01-27|Sebastian Wouters|Corrected an error in jump_B_nonactive
+e5c1a05baae3df953170b132e34a9d3785afdc89|2016-01-27|Sebastian Wouters|Deleted unused variables
+6788f66fd158ba0db1299d777f8681ed84d01369|2016-01-27|Sebastian Wouters|Add ConjugateGradient.cpp to CheMPS2/CMakeLists.txt
+89912cb57673d550f919aa4e4434dc6bf1011a38|2016-01-27|Sebastian Wouters|Adhere to daxygen's complaints
+a9c843e06f46e2de3367a1bbf1d65c4e9a8c8a2b|2016-01-27|Sebastian Wouters|Conjugate gradient solver in the style of the Davidson class
+89d19c3b036f25f910a2fd0f51d649282e71cd77|2016-01-26|Sebastian Wouters|Part of CASPT2 matvec
+eef6068d21a46db9354649434068946b82a3ea80|2016-01-26|Sebastian Wouters|Last class variables for CASPT2 matvec added
+f36e7050ad023cfc1d005f44b4d2b01c3be29e21|2016-01-25|Sebastian Wouters|Towards CASPT2-N
+96f30a8e362380ebe00e9a9fa9ebc3a6a8944263|2016-01-22|Sebastian Wouters|Off-diagonal CASPT2 terms via Operator[ IL ][ IR ][ w ][ left + SIZE * right ]
+613f0dcadfed851088d3af0caa342f62240eb3d2|2016-01-22|Sebastian Wouters|Change in normalization singlet H terms
+cb348951b2670a7c6527a14caac31bf126c536f5|2016-01-22|Sebastian Wouters|More convenient normalization for singlet FEH and FGH terms CASPT2
+f155cd493a274f2ca0d9626928d25fbb502c9c59|2016-01-22|Sebastian Wouters|New normalization singlet B, E, F, G, and H CASPT2 excitations
+98687c257bf7332729bc9907aeb9c72c02cacb93|2016-01-22|Sebastian Wouters|Changed the CASPT2 diagonal calculation
+7c11fbc7c17bd5fbf1cd6dac1229f66ba0672bdc|2016-01-21|Sebastian Wouters|For Davidson & co, explicit diag(Fock) in CASPT2
+55cd16fa23dd186b63490ddde62488b586245fb8|2016-01-21|Sebastian Wouters|Rotate orthonormal basis CASPT2 with eigenvecs( blockdiag[ Fock ] )
+24e7369433e50e463ce0e95d8ee837e521db6424|2016-01-14|Sebastian Wouters|Augmented CHANGELOG.md up to CASPT2-D
+2c75fccc789ace6369737f73cced3edc6d86f92f|2016-01-13|Sebastian Wouters|Full clean-up of the CASPT2-D contributions
+a593e2ee38a52ba02aec013e63d171fba3591c31|2016-01-13|Sebastian Wouters|Found a bug in the VB and VF terms of CASPT2
+94cfbbed373fd900e9cf2c0ccfabffc8652284bc|2016-01-12|Sebastian Wouters|Molpro result...
+2b0cb41cd22b99e3c7f9b97943b868e953925539|2016-01-12|Sebastian Wouters|Where is the remaining bug?
+38955e93b8459294c2bf4b8d425e5186839c4cf4|2016-01-12|Sebastian Wouters|Found an error in FFF_triplet
+717f52048e8961d9aaa907f6ee5d3fd7f586612e|2016-01-12|Sebastian Wouters|Found a little error in CASPT2 -- VD contributions
+107c0496979efb357abfe3a1a39982edb0382fd3|2016-01-12|Sebastian Wouters|Found 1 bug in VC term CASPT2
+1308060c6e388603898c9cfb64124ce38f32dd09|2016-01-11|Sebastian Wouters|Why is the VC contribution too large in CASPT2?
+75670f94133f5a58d622ca9d22be6ffe6381f980|2016-01-11|Sebastian Wouters|Remove the overlap matrices from the CASPT2 problem
+8e668b8e11b437bf3a463945eae13b63c4394dec|2016-01-11|Sebastian Wouters|Merge blockdiag inverse and blockdiag in CASPT2
+1edb1708a1730e1bd4eacd3c458deefa150703ab|2016-01-08|Sebastian Wouters|Bug tracking
+1affc58fba9b181ed6af2f31d8d1a059ba4482c1|2016-01-08|Sebastian Wouters|CASPT2-D implemented
+ce156b3ac12dc67f1eef7cff5cd2abe2f6873901|2016-01-07|Sebastian Wouters|Added FDD, FEE, FGG and FHH blocks of the CASPT2 Fock operator
+c98b1f546cabb98776142af04a57bef4d4d08dd4|2016-01-06|Sebastian Wouters|Minus sign error fixed
+8f57e5a805e153036c60f025bc3ed8d6d095c925|2016-01-06|Sebastian Wouters|Started adding Fock operator contributions
+f486903feef026d5f0b19ca7f514666bc36e9757|2016-01-06|Sebastian Wouters|Happy new year!
+0bfbcee747cb0fba8eaff500892e9b72bcaa1984|2016-01-06|Sebastian Wouters|Happy new year!
+338107b7da06d031ef9346dc1e9b605f9cd6ad2e|2016-01-05|Sebastian Wouters|Happy new year!
+7c3b4dc76449d1498d215f9a0e11cee50f04a95f|2016-01-05|Sebastian Wouters|Added overlap times vector multiplication CASPT2
+6301c5d334fd6c97a65ca4a5021975a2e03e055f|2015-12-18|Sebastian Wouters|Added VE, VG, and VH terms of RHS linear equation CASPT2
+0cd40ffab58c98fe35fdf541c5ace7a59a6ad8b0|2015-12-18|Sebastian Wouters|Added VB and VF terms to RHS linear equation CASPT2
+bfd773abd19bb9a061268fc0d82c5397c8ff7b99|2015-12-17|Sebastian Wouters|Added part of the RHS of the CASPT2 linear equation
+d7a2bd0d68562ea85a86bb703f373be69cc2bcf6|2015-12-16|Sebastian Wouters|Double checked formulas for the RHS of the linear CASPT2 problem
+1b8fb1fca2a0f8a081f4daaf0d82b73c2e814e39|2015-12-11|Sebastian Wouters|Fix issue #19
+dc0c33ac580cc53691fd9f49b7916e8b1f5c8ba4|2015-12-10|Sebastian Wouters|Doxygen width formula
+81b4f215b1bd5c533ae28ae89ae7849f348d234c|2015-12-10|Sebastian Wouters|Efficient contraction FCI 4-RDM and Fock matrix
+7dd227cd4e0dfc6fe8a5b5f47e8d334cef307b37|2015-12-08|Sebastian Wouters|Added python interface to FCI 4-RDM
+905eb02f4892aa3ae5313a389c70069b315a5253|2015-12-08|Sebastian Wouters|FCI 4-RDM
+9b17bf410ff01bac6f915924b5d05e4ad459e648|2015-12-08|Sebastian Wouters|lower case
+4d3de1e66c0a32cd0da30afab7161e5970a2d8ea|2015-12-08|Sebastian Wouters|Change API CASSCF
+75f6505427402005aa40b726b7f6d897fecf02c3|2015-11-27|Sebastian Wouters|Workaround bug icpc 16.0.0 20150815
+5d70d6e3a27df459df4497600c3004fde69cf9c7|2015-11-27|Sebastian Wouters|Contraction CASPT2 Fock & DMRG cu(4)-4RDM in O(L^7) time
+333c4a730444ccaf9e7105851443de9b5a4e519e|2015-11-26|Sebastian Wouters|Slow contraction of cu(4)-4RDM with CASPT2 Fock operator implemented
+e0393468af2bf845ecc42455ff53e8f234fa305e|2015-11-26|Sebastian Wouters|Cumulant approximation spinfree 4-RDM
+16b94ce9b306c0bd89e39a2616893af5fa27c072|2015-11-26|Sebastian Wouters|Added slow cumulant approximation spinfree 4-RDM
+1d0640ff905d455ea75b83565aa3910ff859b370|2015-11-26|Sebastian Wouters|Save for cumulant approximation 4-RDM formula
+b70b42e92811e2a26994984fafe45b364b2ac36a|2015-11-26|Sebastian Wouters|TwoDM now also contains the 1-RDM
+efe29cff00703f96ed12f05338720ed1b77135d8|2015-11-24|Sebastian Wouters|Clean doxygen and sphinx build
+83d02c2e4ee7fb97e61b7456e708931249c95f0d|2015-11-24|Sebastian Wouters|Python test11 didn't match completely
+8a8a16d94a8e99787610ca69aebf1546b0898fbf|2015-11-24|Sebastian Wouters|Added the 3-RDM tests for python as well
+f8ad37cbbcfe4a26bbc9ae1bdc14907edd2ef6b4|2015-11-24|Sebastian Wouters|Further update of the documentation
+82d9455eb06c67bfdd326f4a3c242a424685c77d|2015-11-24|Sebastian Wouters|Updated the documentation partially
+f25da620ce4adcaebf58e3dd090d92a5a71dc0d2|2015-11-24|Sebastian Wouters|Brackets in changelog
+8a8b658346dc9f83a13e19a6c088b36389aab3b1|2015-11-24|Sebastian Wouters|Added a test with higher multiplicity
+13679ccdec9b43ac9e39964fa592782636668210|2015-11-24|Sebastian Wouters|Reshuffled 3-2-1 terms
+0504cb15e272b9c33eab347199f5996849cd5a38|2015-11-23|Sebastian Wouters|Ready with reshuffling the 2-2-2 terms of DMRG 3-RDM
+a7e1a31054209c8271db742f934639fca2d5a3ed|2015-11-23|Sebastian Wouters|Partial rework of 2-2-2 partitioning
+0eb5bc000b953cecb2e6ae8f33190d86d071a5df|2015-11-23|Sebastian Wouters|DMRG 3-RDM fully implemented now
+27ea4f03b4df0420f27558c979d8bc37a9ab2069|2015-11-23|Sebastian Wouters|Reworked diagrams 90-99
+0d7a152ea9e289beae80bd6d5296096185f34904|2015-11-21|Sebastian Wouters|omp
+179069f1af0389c0d0d7e35bbead77f98a4ae17c|2015-11-21|Sebastian Wouters|Reshuffling 3-1-2 terms --> with ddot_ i.o. dgemm_
+f9c233a7b626c3b3810084c5c5e4db260d9f0167|2015-11-21|Sebastian Wouters|Bug fix FCI::Fill3RDM
+82deff82f9b451cb81e7ed3826b6a4218194bb37|2015-11-20|Sebastian Wouters|Almost there ...
+38d364886c3528396106242415e1f837851581bd|2015-11-19|Sebastian Wouters|Make checks 2- and 3-RDM readable
+2f1b41a7cd45f3b78b17ef3abb167a670e0fa36e|2015-11-19|Sebastian Wouters|Forgot a few spin prefactors in ThreeDM class
+c6c3a91438348a14242e0ac7d741498d235f4bed|2015-11-19|Sebastian Wouters|Next batch of 3-RDM diagrams added
+6e226897908c21a7f339a996b27d96e330e13650|2015-11-19|Sebastian Wouters|Implementing the DMRG 3-RDM: halfway there
+01e62c7a50f386e1e8a089577630271ea04f43b3|2015-11-16|Sebastian Wouters|Simplified 2-RDM storage
+a01ea41a29d69bdf3edbeb7cbf50fa7ec27f6265|2015-11-06|Sebastian Wouters|Particle number check pyscf dm3
+97852077ad24978678a36619df5cf0b6ef554303|2015-11-06|Sebastian Wouters|Using the full 12-fold permutation symmetry for FCI 3-RDM
+7f67c5e2d6a1529255175f638d28d0898ff97c1a|2015-11-06|Sebastian Wouters|Used part of the 12-fold permutation symmetry to speed up the 3-RDM calculation
+3235eacf39f5cbfedf955a56365ee6d7201c626f|2015-11-05|Sebastian Wouters|Added 3-RDM (slow) to FCI
+48ba338965fb65479639eb9a01c34d5c26b96852|2015-11-05|Sebastian Wouters|Made the 2-RDM calculation in the FCI class faster & more generic
+83d447a8834aefd3faf81911e9ec26604e3e8880|2015-10-16|Sebastian Wouters|Transitioning for 3- and 4-RDM (part 5)
+6fc0fb988683a60ac41f75f73c1db53ed41fd07f|2015-10-16|Sebastian Wouters|Transitioning for 3- and 4-RDM (part 4)
+e2f85a8d842359e00bc07208f8fd94b306f48820|2015-10-16|Sebastian Wouters|Transitioning for 3- and 4-RDM (part 3)
+dcc371f1639db1d71662f26992f1c319797797e7|2015-10-16|Sebastian Wouters|Transitioning for 3- and 4-RDM (part 2)
+aaabf96a641ec735f8b2dab51288f932b1715a6f|2015-10-16|Sebastian Wouters|Transitioning for 3- and 4-RDM (part 1)
+cfa6205e9ab2cb2f27c9ddaee220c7a767746f43|2015-09-22|Sebastian Wouters|Comment from Qiming adjusted
+c9b9e269797618ffba3c8be435528eb037a5157f|2015-09-22|Sebastian Wouters|Fix issue #18
+a7fabdad9922316f07b9777377c72b71c982dff4|2015-09-05|Sebastian Wouters|Namechange manpage for debian not adjusted everywhere
+0c68cc362588a0b3e82a993e6fdc188b43e78351|2015-08-26|Sebastian Wouters|Yes lintian, yes
+e1a8b50c36399306165c129530f138388478fad2|2015-08-26|Sebastian Wouters|Update version number to v1.6
+15a7cbb7e64a10b76c7d4b2ab48106301ce338ed|2015-08-26|Sebastian Wouters|Preparing v1.6
+74c00c0b80fbcb6ed825a50cd275b01bd1372908|2015-08-26|Sebastian Wouters|Make small titles in changelog
+1bf9906c4c4bc6f8e10d8f9802656f23e47d0d9a|2015-08-26|Sebastian Wouters|Changelog looks better with markdown
+c8103d1d9f85f63eaf29a570d2a6d13c7b24dd4b|2015-08-26|Sebastian Wouters|Added changelog
+8c5cdf4c9f708e050ec80b00e9c7a3322d2b4b83|2015-08-25|Sebastian Wouters|Added executable info to README
+ce48b512fffa052ad70ec2f739a47a3445020944|2015-08-25|Sebastian Wouters|Augmented description manpage
+5ebe2eec584088b9f3b5600d7d60be91e0ad1abf|2015-08-24|Sebastian Wouters|Adjust comments manpage
+b24bb7ae5179cdd7cddd4581e2b3b0c085abe15b|2015-08-24|Sebastian Wouters|Read default NELEC, MS2, ISYM options from fcidump for executable.
+9adbf8f3a7b790d73e7333b4dba8a38180a84a71|2015-08-24|Sebastian Wouters|Added manpage info to test instructions
+944bb613fc64943ecd0d5962c38d761d840d4094|2015-08-24|Sebastian Wouters|Added a manpage
+29bc72a12d7772dc5ad9358dc6cb4371429bbc8c|2015-08-23|Sebastian Wouters|Pass orbital reorderings tp the binary via the command line
+af16dda9c75b938d11152549b0b5f6bbf0d170d2|2015-08-23|Sebastian Wouters|Updated the sphinx docs and README.md
+f4e010dc976c67c203b9dec5b8c4dd7bbfac9199|2015-08-23|Sebastian Wouters|Started to adjust the documentation for the binary & MPI
+82c3f83e922a57973e230b6708aad936ac98daa5|2015-08-23|Sebastian Wouters|Allow to pass tmpfolder for renormalized operators to executable
+1c5de70c9e1c196b4c84deb7a2a4bf11ee6b40d1|2015-08-23|Sebastian Wouters|Added copyright statement
+a5f41d4ada86828ea6bfc37320ac8ac40fb7bbd1|2015-08-23|Sebastian Wouters|Do not loop over unnecessary variables
+2c694660c05c6e7bb7662a1c058907c94710027d|2015-08-23|Sebastian Wouters|Now with executable!
+f9ef1316bafc494c7e0a3313e908e94de666944b|2015-08-22|Sebastian Wouters|Simplified some more
+14f92c6ae299d332ff763fec7185d34ecb9db264|2015-08-22|Sebastian Wouters|Throw some unnecessary stuff out
+5ede1204323126d4614c4e66286526f9108a8bd1|2015-08-14|Sebastian Wouters|Only master needs to print orbital reordering
+58d28cb6aa9ffd794600529d6d25c76c3de73205|2015-08-13|Sebastian Wouters|Tab
+5c43e46a4a14b6d81ad8cd227cd898313e8b75d2|2015-08-07|Sebastian Wouters|Time improvements (part 2)!
+b7dff583e1f12b1e2ebc015209563ceeace35e77|2015-08-07|Sebastian Wouters|Added custom orbital reordering option
+e46511819660b958d8bb94e315232a30d0edd434|2015-08-06|Sebastian Wouters|Now always print the NOON when 2-RDM is calculated
+406b44dd8837e4ff2abba795c44e39edbfac7ca2|2015-08-06|Sebastian Wouters|For PyCheMPS2 the FCIDUMP is now also read in in C++ for speed
+e475a7a8f8b4cdcc8df87ed339df503e4b65bf67|2015-08-06|Sebastian Wouters|Added FCIDUMP write function to Hamiltonian class
+8570351a4eec11c83e3b6507e44d5a54c9ac3481|2015-08-05|Sebastian Wouters|Molpro can decide to split ORBSYM over multiple lines
+f0953199263ee33f0bfbb1e807d41a31b305f3af|2015-08-04|Sebastian Wouters|Deleted obsolete variable
+446cd33e61b762e3f9f0e87a3b4319500d722904|2015-08-03|Sebastian Wouters|Static allocation of irrep arrays in test files
+0fd011a324298dc3509bcdf5a4d25bafbd36dac8|2015-07-25|Sebastian Wouters|Time improvements (part 1)!
+045393b439821c81d800328c0b4b8b1732da47f8|2015-07-23|Sebastian Wouters|Reshuffled the storage of renormalized operators on disk to solve the slow runs on GPFS
+94f223f6f04906a60267ade00984794466bd3c7f|2015-07-22|Sebastian Wouters|Reshuffled bits and pieces in diag(H^2) based on Wick's theorem
+efab55f5ca806a3dbbe769f64c1c21d2f943a926|2015-07-21|Sebastian Wouters|Use Wick's theorem to calculate diag(H*H)
+c080f06f24d32ff950af49f73422ae383cb2c89e|2015-07-21|Sebastian Wouters|Started adding performance counters FCI
+2accd28817cb16ad1c84360cd4c4245438e1c029|2015-07-19|Sebastian Wouters|Added disk read and write bandwidth calculation
+78c5e15e87ad1d35da8feae5af21148e8acc84c2|2015-07-19|Sebastian Wouters|A few extra timers
+1adb283a218e66b66c12e15b88df85d4b6c820da|2015-07-18|Sebastian Wouters|Probably the best efficiency boost in a while ... sigh ...
+b6ad818e1bca9e48c8fbc39ba3addc1345f50ea1|2015-07-18|Sebastian Wouters|Added comment from Michael Banck about the HDF5_INCLUDE_DIRS option
+b1cdfe814eedc4535121802c1e3b573848714b15|2015-07-14|Sebastian Wouters|Started adding timers
+9168fa3f54184d52c023d6e2d209f03384820339|2015-07-10|Sebastian Wouters|Cheap orbital reordering for heterogeneous dimers
+02768c77db3d3c41e88c3a8d1e44e1ad978ac0d8|2015-07-07|Sebastian Wouters|Passing different tmp folder in PyCheMPS2
+050bb830d031f3925ac1e81f315cb73537f8dd77|2015-06-18|Sebastian Wouters|Passing exotic HDF5_INCLUDE_DIRS can be done with -DHDF5_INCLUDE_DIRS=/path/bla and CPATH=/path/bla for CMake and python, resp.
+779b26dba89630f081836a410d950bd25779dd28|2015-06-17|Sebastian Wouters|hdf5 headers moved in debian/sid
+5cfb007b2addfe7d3fe7fd2391ab7790caf2278a|2015-06-17|Sebastian Wouters|Added MPIchemps2.h to file list
+6bbab8d3b7ff89c765b7ce9d6bc507248522b1dd|2015-06-14|Sebastian Wouters|Back to SO 1
+2468b307b9cabd91a558d83bd651dc27982dd522|2015-06-14|Sebastian Wouters|For debian packaging
+226b04dfc07589804fbf7bf2b78b409b08d937eb|2015-06-13|Sebastian Wouters|Compiler warning unused variables resolved
+2a208560c91eea933042337effba9a99163bdeb4|2015-05-29|Sebastian Wouters|Added MPI to DMRG routines -- preliminary
+b11fe7b420d37a7a291a22b7e747b09017c253c3|2015-05-27|Sebastian Wouters|Hamiltonian automatically initializes to 0.0
+39642d39e30c0e4ad30c6efed7dd99f57d41d71d|2015-05-27|Sebastian Wouters|Initialize the Hamiltonian matrix elements to 0.0
+b095cdcf96cbf37f464e2929c524c08c978aa9d4|2015-05-27|Sebastian Wouters|Safe parallel build of shared library?
+cb6bda29a75df774843727822c136314381d1c0f|2015-05-22|Sebastian Wouters|Paths of python tests adjusted in README.md
+895e086d7f7f4315a127189f4ccd152edc73945c|2015-05-22|Sebastian Wouters|DMRG can now handle 4-fold permutation symmetric matrix elements.
+51bfd75205f4b18b94ba346a6e44c58de2b1286f|2015-05-21|Sebastian Wouters|DMRG routine should work for 4-fold permutation symmetric Hamiltonians now
+6d06f5bb952c6e8c99400eac1ce4f4c5d053eb26|2015-05-19|Sebastian Wouters|Adhere to clean build with gcc 4.8.2 :-)
+8b9948992cc69b96ee9c4b02cc198e184a1c7ea7|2015-05-18|Sebastian Wouters|Perform DMRG-CI calculations with psi4 with the dmrgscf plugin
+ea571682a326f09663cfa52657a1078b675b186f|2015-05-08|Sebastian Wouters|Loosened FCI and DMRG determinant coefficient comparison accuracy
+80d6db9d5890d6feb236cd5cbdcf58480a69dea6|2015-05-08|Sebastian Wouters|Adhere to a completely clean build with clang++ :-)
+8c53aebbd5a19c966aaba611fe115b61e5565e81|2015-05-08|Sebastian Wouters|Added c++ test comparison FCI and DMRG determinant coefficients
+b113710b638ff487a83f74741938923866ce1836|2015-05-08|Sebastian Wouters|Changed folder structure for packaging PyCheMPS2 for fedora & debian
+c5509dcfb1b594fc32492e12d5720525ebd3624f|2015-05-08|Sebastian Wouters|Added proper test FCI and DMRG determinant coefficient comparison
+8cfcbd125101f3da5bd7a2390ac77ad2f4ca5a2f|2015-05-08|Sebastian Wouters|Implemented FCI coefficient printer.
+84528a0aab866e177f80c8bdba46aad7c5dae84c|2015-05-01|Sebastian Wouters|Fixed FCI crash for small symmetry sectors
+3beaf0c09d22de95c5ecfe433b45ec7611d66fb7|2015-04-26|Sebastian Wouters|:-)
+2a6515bf0a54dd9c4c00ddb4fc2fd6a29a59c97e|2015-04-26|Sebastian Wouters|And some other typos
+2947269060a138f14418d041b0d6ee99fa654c03|2015-04-26|Sebastian Wouters|Typo corrected
+fc0aee37586a00f18327d318fb5cf61e9a98be00|2015-04-26|Sebastian Wouters|Typos
+b139b5402ae0c3d4f837a29ba2a83d1277d1c877|2015-04-26|Sebastian Wouters|Minor changes manual
+7921e9e50a40a9fc3a344acab1b4359db5738fbd|2015-04-26|Sebastian Wouters|Merge pull request #16 from tovrstra/master
+00620282a5d6b1e11c3fd3b4f6013e2a9a12fc08|2015-04-26|Toon Verstraelen|Minor corrections in PyCheMPS2 installation instructions
+af1870983ce1127664079c9b5f0d0f068bcce665|2015-04-26|Toon Verstraelen|Make PyCheMPS2 installable
+a59de1f71b2edbaa0fe0628c1a1144c781a28e7b|2015-04-25|wpoely86|Merge pull request #1 from SebWouters/master
+a19a134ef772a34b5b3edb21a6fc890ea371192a|2015-04-23|Sebastian Wouters|Better way to handle PIC flags
+e26b304a3bf014cd8ece86dcfbe30cbec34d31e5|2015-04-23|Sebastian Wouters|Make the build work for g++ / clang++
+4c7cab9c678b6ba852ee2368e091400ba4be4dfa|2015-04-23|Sebastian Wouters|Merge pull request #15 from loriab/master
+9d919774ff6b28700b032424992d45dbba269bb6|2015-04-23|loriab|Enable forwarding of any of the dependencies
+317869503e56f83f28c2ac493b1657ab0672149c|2015-04-23|loriab|avoid double compiling source for static and shared libraries
+b1de16aac84f96039cb183ba939f06679e649e0a|2015-04-23|Sebastian Wouters|Link to user manual added
+cc7a520377b6c56ef3af17eb42fd20f87ef0edf5|2015-04-22|Sebastian Wouters|Added info on typical resource requirements to user manual
+f8ddf8915c1caeb965b5bf66dcc3ea74fb45be88|2015-04-22|Sebastian Wouters|Little bit more info
+c5962e45f1810e76afa842d8d763d0befe060585|2015-04-22|loriab|Merge remote-tracking branch 'upstream/master'
+e52c1dd0027c1549bcc9c6381cecbe51981f30d4|2015-04-22|Sebastian Wouters|Deleted obsolete option container in DMRGSCF plugin
+89968de4e28bc3e2f68181f826a567a3b7f2bfa3|2015-04-22|Sebastian Wouters|Allow to set TMPpath with creator DMRG object
+c9b0e1ed3b2617fed0f04defba847500ee70b58c|2015-04-22|Sebastian Wouters|Provide the FindGSL.cmake from CMake v3.2
+fb36176ca94b5498e2cc44447637d2f61e44d226|2015-04-20|Sebastian Wouters|Typo corrected
+56cce00cfefe419f470deed8942f398e6bff17c7|2015-04-20|Sebastian Wouters|Removed double lines
+b5cf3b2fcfe19f39e66509eee8521a9588498528|2015-04-20|Sebastian Wouters|Merged with Lori's changes to the CMakeLists
+30ab1aa00ed90bf94af6d61565601af33fcdbe67|2015-04-19|Sebastian Wouters|White logo goes better on the classic sphinx background
+b10c8018bc5d011498521145bc21f580237a298a|2015-04-19|Sebastian Wouters|Mini changes sphinx
+24adcf831bd7f7ae2a216b9b8c3d57f38a5c29f0|2015-04-19|Sebastian Wouters|Added a user manual which can be compiled with sphinx
+927d18b202e3f1d62fc37ca9b1145f469bbfd1d5|2015-04-17|loriab|add cmake flags so xhost and testing are optional
+7820299820c2d34ecdbdcde9679370de16f187bb|2015-04-17|loriab|make tests depend on library so parallel build works
+23e02dc122e5b137b59602e3e63df77a53b039d1|2015-04-16|Sebastian Wouters|How about changing the README.md to README.rst?
+37e3f738c39120fa7311f77ab38faa64b60f79d7|2015-04-16|Sebastian Wouters|Broken links
+78e16d262bc5cd02bd0e1af40b1875bf787fec50|2015-04-16|Sebastian Wouters|Bash code has no line breaks in markdown :-(
+ffdf12616e84659f7184a557748c6ceb70473f3a|2015-04-16|Sebastian Wouters|Copying the installation instructions from the sphinx manual into README.md
+f8ae0519672a331940a06da5a683ad705921585c|2015-04-15|Sebastian Wouters|Little error corrected in the CMakeLists.txt
+1b1266d5cf1900fd869d48ebb5bd9779d10f340f|2015-04-15|Sebastian Wouters|A few minor changes for psi4
+b7e31cf9fa5b6367fbcfb485778d20aa2ea1599d|2015-04-09|Sebastian Wouters|Forgot to delete an array
+bec1ce166a27e4caabf460da4af332f86910041c|2015-03-29|Sebastian Wouters|Safer and better interface python <--> c++
+8b5482882d31e6a685ad26444b341a9c640b849b|2015-03-29|Sebastian Wouters|Adjusted the python tests to use the FCIDUMPs now.
+a1f2d6bb1c4f12b8c1dec98c9b71bb167f40a763|2015-03-28|Sebastian Wouters|Adjusted README.md with the updates
+b18576247645256ff29a9b11154104c4447c7351|2015-03-28|Sebastian Wouters|Now able to read in FCIDUMP files
+a7b4e6a526cfcacb47e935e8ee043491518e8e3a|2015-03-28|Sebastian Wouters|Create FCIDUMP files with a plugin to psi4
+22af5a98ccb07d9efc29a735be3d857466465ac3|2015-03-19|Sebastian Wouters|small caps
+6230f2b115c3c59d2e97125c32a9f13cfaaf048f|2015-03-19|Sebastian Wouters|Some more info in README.md
+3382c86afada03dcbdb549d0087b3ac6879d8cc7|2015-03-19|Sebastian Wouters|Link added in README
+2bd6d988a1c1d91970acecb0f4c107815a32d287|2015-03-19|Sebastian Wouters|Small update README.md
+20b6f253577cc3b65a082297ad0e49a4e94d71e0|2015-03-19|Sebastian Wouters|Updated the README.md
+5df18bae8b136141102e1586765e926f7e78ae05|2015-03-19|Sebastian Wouters|Updated the psi4 integral dumps as well
+916f4fb64e74bad1ecc58f91f465199ab80ca612|2015-03-19|Sebastian Wouters|Library line in Makefile for psi4 plugins has changed
+a9c307168d6cf0ce44c914d91be8ea9cb8e0fc59|2015-03-19|Sebastian Wouters|Updated dmrgci & dmrgscf plugins for new PsiOutStream in psi4
+61495c13d5d14880c3e3daa059003ff6526eb54d|2015-03-06|Sebastian Wouters|Single particle FCI Green function as a matrix
+2bf41d4508d8cbcb9dd50d16e1f89f5a22027ab1|2015-03-06|Sebastian Wouters|Calculate Green's function parts without also calculating the 2-RDM
+bb9be55b3db8142736e7fe719546e3d0fa4161b7|2015-03-05|Sebastian Wouters|Added equations for Boys localization
+5991884b0981049390488d5d941f799407fa2563|2015-02-12|Sebastian Wouters|GF FCI functionality extended
+ec07440781221e8c1df2777db10d31541af8c8e3|2015-02-11|Sebastian Wouters|Broken URL fixed
+788604bc9bae68819afe9865487a100a249590d8|2015-02-09|Sebastian Wouters|Cleaned up version of the dmrgscf plugin to psi4
+00687e9aa79b1aa8d6b7770cb9c612378934919f|2015-02-09|Sebastian Wouters|DMRGSCF plugin for psi4 works :-)
+2fc34dc266e9797818db515a03a15a5dd413372b|2015-02-09|Sebastian Wouters|Shifted a few private functions to static public for Psi4's DMRGSCF
+b93c7621b3ef2f699adc289b06db73dcaac8d7bd|2015-02-09|Sebastian Wouters|Have gotten somewhat further with psi4 & DMRGSCF
+7437ec2ecb884eb77700ceffadbe355deab4f877|2015-02-08|Sebastian Wouters|Little error corrected
+0a241eb7544f94bc3b44dcdd19ec447cfb7b563c|2015-02-08|Sebastian Wouters|Halfway to DMRGSCF in psi4
+c3ecf0aeccd422c2553775d74b7ba88742c42585|2015-02-08|Sebastian Wouters|Changed a few things for easier integration of DMRG-SCF into psi4
+96232d7fe55970260e08256e52db3ed4ec642b4e|2015-02-04|Sebastian Wouters|No assignment of variables in fetchJK_mo (python)
+0cc742393bd3cd09f22f8321721fa288d919e506|2015-02-03|Sebastian Wouters|Used JK matrix construction from psi4's libfock
+22efe05fba293fde038b0144cdb0ac7a9825a5ab|2015-02-03|Sebastian Wouters|Better way to construct the active space Hamiltonian in pyscf
+260cc6a4dea08219b19b8b31ee0eb74bb038447d|2015-02-01|Sebastian Wouters|Changed the augmented Hessian update calculation to Davidson's algorithm
+58654350123af1aef8084d126521a07905e518a7|2015-01-30|Sebastian Wouters|Only calculate the necessary parts of the wtilde tensor
+e63566474c9c21201c7d791474d0d8ccbddacacf|2015-01-30|Sebastian Wouters|Fixed icpc warning #186: pointless comparison of unsigned integer with zero
+cfb870df87aab37761894cf8530adf9b94e1720c|2015-01-29|Sebastian Wouters|O3 makes a difference, even with the intel compiler
+ead57ee28caf102ca8c9a1af3997a5149b910799|2015-01-29|Sebastian Wouters|Created a separate class for Davidson's algorithm
+8a59c647e9672e675f7e2210bc65850e4a42e55b|2015-01-27|Sebastian Wouters|Sparse storage for required matrix elements DMRGSCF
+83cd349380f10f810b586bd1315cdd3ba102b1b1|2015-01-27|Sebastian Wouters|Prelude to DMRGSCFintegrals object
+029ff4977476c9f26b4a740be3d39624974a1aa1|2015-01-27|Sebastian Wouters|Updated files the files list
+c8e97e08e129bb716d7447b1ad9ee50b34bf4eab|2015-01-27|Sebastian Wouters|Reshuffled the CASSCF class
+5911330a3f6fc5df8b72b2d796011333f284a03c|2015-01-23|Sebastian Wouters|Fixed the FCI class properly for few-electron systems
+42b93c2bd63cdd77ec9a081732b2fa2a5c1b85cf|2015-01-23|Sebastian Wouters|Removed double brackets
+af2c7a4657cf0e7a5cbe3b3d4026203e6075745a|2015-01-22|Sebastian Wouters|Reshuffled the new text in CASSCF.h a little.
+99085723752688dbb296bbbf443001810e1e72d4|2015-01-22|Sebastian Wouters|The CG preconditioner in FCI was wrong for 1 electron in the active space: solved.
+a973a7289b20df5ef0d3fd46a4b10730de75f1cd|2015-01-22|Sebastian Wouters|Moved the 2-step DMRG-SCF equations to the doxygen comments
+53defa3c189c4b1ebbb9d125a36674d8d4fcf312|2015-01-22|Sebastian Wouters|Equations implemented in DMRG-SCF
+470c7da207efbd8799551e9d8e47b7ffef5ae10a|2015-01-20|Sebastian Wouters|dmrgci plugin psi4: rotate only core + active (no virtuals)
+4e7e7dbba1a80aea9200dfb1bcbe4645b95abb86|2015-01-19|Sebastian Wouters|Changed API of psi4's dmrgci plugin for readability
+5a9896b34b2ba0a120f83cff800170691dcb3d6e|2015-01-18|Sebastian Wouters|Link fixed
+c74c8d3d9d1f402dd5043674fb93c011d9bab784|2015-01-18|Sebastian Wouters|Irrep specification in example fixed
+be581c29a20c6dd687488e8c73ab097333a09d4f|2015-01-18|Sebastian Wouters|Typos corrected
+f1c8965238c2bfa2fcd3418364483564dece618b|2015-01-18|Sebastian Wouters|Adjusted hyperlink
+73a0b38bbbe79241fad00bd61c0b8b0c4b6b38ad|2015-01-18|Sebastian Wouters|Added pyscf integral extraction and DMRG-CI calculations
+b81905f742a1a31232d0d5b61d06158cff8b8baa|2014-12-17|Sebastian Wouters|Better ini guess for CG algo FCI Green's function
+da5cc9994684552498b3f0b17f8a654c3116c878|2014-12-17|Sebastian Wouters|BiCGSTAB added
+23ba3e1b7e141f423f647890c523e5acca69f0df|2014-12-16|Sebastian Wouters|Numerical stability Re(FCI Green's function) solved
+4425445dedcf8bcd8551637497b15798b86296b6|2014-12-16|Sebastian Wouters|Factor 2 speed-up in FCI Green's function calculations
+4e8ea36573cdcbd49c8e7cc898272c2c61bb27b8|2014-12-10|Sebastian Wouters|Proper redirect of CheMPS2 output to Psi4 outfile
+f502d80f5d9c758642dbd9a0d1feb02b5b5a4e57|2014-12-10|Sebastian Wouters|Corrected a link
+c5bd5949d2c5e98cc8fd2559e5448a36d14e3ebb|2014-12-10|Sebastian Wouters|Little error corrected in documentation
+975ffc15e10ea2d7afc6cb32da49870cb23b0fa4|2014-12-10|Sebastian Wouters|Added some doxygen documentation
+440e45a7fdf3440da6b2e422f1bef7260c9dac2b|2014-12-04|Sebastian Wouters|Python access to 2-RDM of intermediary vectors during GF calculations
+586e732da7ff250228fcacc1191b01f6a6bf80bc|2014-12-03|Sebastian Wouters|Now the 2-RDMs of the intermediary vectors in the GF calculations can be extracted
+4f0bb217040ec1032790a86992e357f1f1cf4557|2014-12-01|Sebastian Wouters|Small-case library name
+da74fc2b2f3724dc4f015babd09a4572fda7ba0e|2014-11-29|Sebastian Wouters|Debian naming convention adopted: small-case names
+2b20b68c1500b55909fd6ddbcea8ee0689e51fff|2014-11-29|Sebastian Wouters|Make use of CMake's CTest
+384900a8f584f84559f4504d72ed18acdc5531a4|2014-11-28|Sebastian Wouters|Library specification
+e6509e17686ea34ecfdcf49af0c7a24d565f19ef|2014-11-24|Sebastian Wouters|Running PyCheMPS2 when libCheMPS2 is linked with MKL
+2eadb6fed25f9f8780bae95a22c308a91de94f09|2014-11-24|Sebastian Wouters|In response to pull request 13
+4ebad1bf7efedee4dde66d296caa1b5e73c34d12|2014-11-23|Sebastian Wouters|Fedora packaging issues meueueuh
+8a5e15fd6e9f8a67f7fe9e4f5c8c7c4d5468550c|2014-11-23|Sebastian Wouters|Paths....
+8d932e2def30cd60449eba82f9ced41f4cece15e|2014-11-23|Sebastian Wouters|Delimiter
+03fb072490f8ab8609c2253adef4f99e557d7193|2014-11-23|Sebastian Wouters|Error in the comments
+408b3e2f84785c903b19fb424d10cc9a640a9b31|2014-11-23|Sebastian Wouters|In PyTests/test4.py the FCI initial guess should be random
+74dd982c8a54a037a80814a22917e754aeec48e3|2014-11-23|Sebastian Wouters|CheMPS2::FCI python bindings
+420cea77dae259fcb8e581d4193e9de8f01d1b23|2014-11-22|Sebastian Wouters|Info on test 6
+eb266951a9f2e14e4ffdbe66319b93787b4577f1|2014-11-22|Sebastian Wouters|State-averaged DMRGSCF is now possible
+902b5b9de21de14ccdb1cdce0cdb78095a05b39e|2014-11-22|Sebastian Wouters|No destructor dependencies anymore in the DMRG object + multiple usage of calc2DM is OK now.
+f36388d0e2410c2292d9b6c185db683b048c70df|2014-11-21|Sebastian Wouters|Easy Hamiltonian constructor for it is stored in HDF5 format on disk
+70f7a717308af00092c4ccd6220b9080f15fc7f9|2014-11-20|Sebastian Wouters|PySCF now also contains an interface to CheMPS2!
+45e5332b9a104e5a3aec4dc0d2e4a7cc78cd9f10|2014-11-20|Sebastian Wouters|The direct product of 2 point group irreps is a bitwise xor
+1a337cc751f51cd0ab1b423d25a1ba4eac09ce01|2014-11-19|Sebastian Wouters|Better way to ifentify a process :-)
+be830d4e57f9306684e6ee89fd0b56a4b27b2d6c|2014-11-19|Sebastian Wouters|Restored link
+df238431d85f869a9414a674b727a3af3e042cbb|2014-11-19|Sebastian Wouters|Instructions PyCheMPS2
+8e01f64df4c56e98d3ed69de492ffbd5c98fd9bf|2014-11-19|Sebastian Wouters|Plugin to perform DMRG-CI calculations directly from Psi4.
+1433406aa63db7bf4240a8baa443ee4a4c0544a0|2014-11-18|Sebastian Wouters|An update of the FCI class
+9f44b0278224a116226bd7f8146fd44b81b304de|2014-11-18|Sebastian Wouters|Little changes in CMake
+8e428b491b6f9b8e096a28c448a51edeaf1c1fea|2014-11-13|Sebastian Wouters|With Green's function: local density of states (LDOS) and local density-density response (LDDR)
+da0365f6843de8b5087c0ec4602f8aac28b91572|2014-11-12|Sebastian Wouters|Diag of operator of couse...
+1a7a0b8145ea098fadbd929656f53936da3050d0|2014-11-12|Sebastian Wouters|Merge branch 'master' of ssh://github.com/SebWouters/CheMPS2
+ce1d9e9f5423cecf7ae610123e75cbbc6c70bd37|2014-11-12|Sebastian Wouters|Another step closer to Green's functions
+eeccf4e636463745e8e21422267d39564e85a072|2014-11-10|Sebastian Wouters|Doxygen should now be OK
+72f2d02e178b8c313863da31ec14a56c20f4b0db|2014-11-10|Sebastian Wouters|Prelude to FCI Green's functions
+47eab082e967be281e75a940983ba77242099787|2014-11-09|Sebastian Wouters|Assertions
+a969100079d5776aed243a483dd6a4e359ccd2a2|2014-11-07|Sebastian Wouters|Else we'll never find intel's MKL...
+aaf43b085ca8c15d10be52789d6083ecade0ad7b|2014-11-07|Sebastian Wouters|Destructor dependencies...
+cde40742d5f84c868e40c4325026d54e89123551|2014-11-07|Sebastian Wouters|Added the FCI files to the README files list
+0d33d0882184336cb4471a839017f993483102f1|2014-11-07|Sebastian Wouters|Added a FCI solver
+6deffc7159ebd667d034382807d40cd573d872c0|2014-10-22|Sebastian Wouters|Obsolete include
+8fa67d7652b78bfbea89edc4188cbca42fad6ef9|2014-10-20|Sebastian Wouters|OpenMP parallellization of 2DM calculation
+87ef5a965530c5428bd340af959a2ec2554e9031|2014-10-03|Sebastian Wouters|A few changes in README.md
+82da371834e1f5611ddc50cebcf9d496014d4699|2014-10-03|Sebastian Wouters|Added the possibility to start from a random unitary for the Edmiston-Ruedenberg localization procedure
+f1dc986769bce0badf7c1984286cc15e31011ca8|2014-10-03|Sebastian Wouters|Extra variable to do reverse schedule energy extrapolation
+5dd938c8d4ff8fab13a80c143f3b31f48b9677cf|2014-10-02|Sebastian Wouters|Adjusted the citations
+0dfc7074aac338a07490c1fdeaea3f4e3f84b2a3|2014-09-25|Sebastian Wouters|Little error fixed so that python setup.py installation works :-).
+dc4d22dc893fcee4e2cd4bc7c836f3e7443a1ad8|2014-09-25|Sebastian Wouters|Merge pull request #10 from wpoely86/stuff
+f78de456b3e645ea827ae4edfa2aac2f944e31ae|2014-09-25|Ward Poelmans|Undo wrong fixes in README.md
+3c7527bcaa01043aa085c4fa9f2762ef7966f0e7|2014-09-25|Ward Poelmans|Update PSI link
+b410959dc9c1d734b94a734f49ea3b128ec1434f|2014-09-25|Ward Poelmans|Add links to README.md
+f00932280fb1e814e7cec7ef6d6d75c6d6b3f434|2014-09-25|Ward Poelmans|Small fixes in README.md
+51c6f12cfa930fbe5cbd9b04c61bb467e0ecbdb0|2014-09-24|Ward Poelmans|Merge branch 'master' of https://github.com/SebWouters/CheMPS2
+5f43e2a77cfe4744befe684ef9e96c60e24f0f45|2014-09-24|Sebastian Wouters|Python interface to CheMPS2 added (called PyCheMPS2).
+6d583db8f7f38d2b8b0937179288abfdab7bbc01|2014-09-24|Sebastian Wouters|Updated headers
+0480a8fc80ca4e101995328bd4ea337d443eb1de|2014-09-24|Sebastian Wouters|Little text error corrected.
+a402fa7aeb834af5e89bbc942496d0fa1956bc76|2014-09-23|Sebastian Wouters|Added extra functionality for PyCheMPS2.
+4a0803e15e95abf44b23fdb8194b2a21f3146c33|2014-09-18|Ward Poelmans|Merge branch 'master' of https://github.com/SebWouters/CheMPS2
+afa0b71d2923af7dea1b7add1db94c5191b38fde|2014-09-18|Sebastian Wouters|Added the singlet diradical correlation function
+5dccc597154910bc154a81346dccaa032e3f8335|2014-09-17|Sebastian Wouters|Install instructions
+05399ead356a94415be3bfa53646963e8b7c3065|2014-09-17|Sebastian Wouters|Installation instructions
+19de6d5cfc04d3dd6675b5cdcb8f4e3800f55f2c|2014-08-28|Sebastian Wouters|Print the correlations and two-orbital mutual info during DMRGSCF
+21bbafc47e08dfab9f025c1b54f62acb3085a3b5|2014-08-20|Sebastian Wouters|Localization and ordering of the active space added for DMRGSCF.
+4c306b19f4517ad8eaa413a79047dac3dd7951f1|2014-08-19|Sebastian Wouters|Irreps table now also in gh-pages.
+4918698817a4ad6505b44264b0e239cb6698b5dd|2014-08-15|Sebastian Wouters|Added test9 to README.md
+6101e26aad779d4258c6f74ab34d6d72686229ec|2014-08-15|Sebastian Wouters|Added the EdmistonRuedenberg class.
+a982c0e2da622b7c7bcd4b74ab16ad1d04d439a0|2014-08-14|Sebastian Wouters|Reshuffling stuff as a prelude to Edmiston-Ruedenberg.
+8e013fe3bef72a8dd09ff96397c427fb80381a9a|2014-08-12|Sebastian Wouters|Little error corrected
+6f4bde7d38c8b19a1be353e0c5a6e2d6f2cf8c08|2014-08-12|Sebastian Wouters|Printer for the correlation functions and mutual information.
+082c576eb2b65b8fee3fe11f1f96e4344db9a43c|2014-08-11|Sebastian Wouters|Two-orbital mutual information is now added.
+87c748b86ff6188e747f1a2fbdb76fd0123fd04d|2014-08-11|Sebastian Wouters|The tensors required for the two-orbital mutual information.
+d16c9d078f756f8c86b34b5ec902555d94c728ce|2014-08-07|Sebastian Wouters|Adjusted det(unitary) = -1 for the logarithm.
+11645712d110745a6949c8cc417d098fab2418e3|2014-07-18|Ward Poelmans|New logo link
+d520e9e5af1c16621537f2bb51f3ae6f398c3ab8|2014-07-17|Sebastian Wouters|Wall time measurement
+fedf2633b4ba99a6e1c1d405254c9317f1430893|2014-07-17|Sebastian Wouters|Doxygen OK
+fbf9a9c04718e10c0b6cbfad29cf38a0bdfd9614|2014-07-11|Sebastian Wouters|Forgot somethind in README.
+38ba0c9268eadeaa4585e739db5c3e118520acd8|2014-07-11|Sebastian Wouters|Forgot to add a file in README.md, added in the DIIS commit.
+6e0080de68ee79363fef30499946ac192a52bda8|2014-07-11|Sebastian Wouters|Added DIIS convergence acceleration for DMRG-SCF
+826a5de0109165123b9116daa4c5095d7e3aa002|2014-07-04|Sebastian Wouters|Bits and pieces for optimal OpenMP
+7614aa7716bd7fa3ec6c92afa4a72dddaffe4495|2014-06-20|Sebastian Wouters|Created an HDF5-based 2DM-A and 2DM-B storage in the TwoDMstorage class
+0b4e5a332752255d090e17828e9708083610ca75|2014-06-16|Sebastian Wouters|Yes, Clang, yes...
+1351ca7611b4283aa3547b322969959a6a88262c|2014-06-05|Sebastian Wouters|mointegrals.cc_SAVEHAM generalized to all irreps now.
+18a651a9dbf21d871d012aa13aeb68dc36b4137e|2014-06-03|Sebastian Wouters|Replaced the branched lookup of directProd by a deterministic array read.
+730a3a9aee8bc6ce0ec2f7ef9b156d6be9b96380|2014-05-21|Sebastian Wouters|An irrep with 2 orbitals needs special care in the DMRG-SCF routine.
+a34b83c6c28094ae009588a6de3e4ba1d45265d0|2014-05-20|Sebastian Wouters|When using CASSCF for FCI.
+20299a82faf0b41008799c3c78542881d2dea295|2014-04-11|Sebastian Wouters|Journal reference added
+ca4f175efa7739b878aa3d036a748d1e39110692|2014-04-08|Sebastian Wouters|Unused variables deleted
+3afd610d494d9c5390ee728ad47080e926eb0ded|2014-04-07|Sebastian Wouters|Reshuffled a few things to make the MPI implementation easier.
+81bb0aa3c630f1091168e2aad2d8ff46e70e45c1|2014-04-03|Sebastian Wouters|Cleaned up the FourIndex object: only one memory allocation required now.
+85ab20b84c08a4e8a99c83b8d3e05fb72ed86d4c|2014-04-02|Sebastian Wouters|Merge pull request #7 from wpoely86/master
+f80b11873df6e430bc79d7df76e5a9b43e8f944b|2014-04-02|Ward Poelmans|Updated Doxygen config file to 1.8
+046d5da17fad2e4776c5d56f3c73b9d3ce1d641f|2014-04-02|Ward Poelmans|Documentation update: remove duplicate mainpage definition
+74a1f9433680c16588b0b29d73af38126819fb19|2014-04-02|Sebastian Wouters|Cut corners at two-body rotation.
+04a092719cd2340ff61a87ef08ca947a72cf605d|2014-03-25|Sebastian Wouters|Separated DMRG and Hessian matrix elements construction.
+3681ca66d44a27ed5e0c10758425c24a5538c843|2014-03-18|Sebastian Wouters|Resummed the Coulomb and exchange interaction of the occupied and active electrons.
+949128e1db3fe745f0e4777ea2aff319f07d0719|2014-03-18|Sebastian Wouters|Reshuffled some of the DMRG-SCF functions and variables.
+ad4c60297a9b133361242c0796778f9206eb6b1d|2014-02-26|Sebastian Wouters|DOI link corrected
+9b29c90ce8d8944c30f0d714ff7ffab18c55e1ce|2014-02-26|Sebastian Wouters|Digital object identifier added of the code release paper.
+0b8f687153ac6f22b114891cd015d53f4196e698|2014-01-20|Sebastian Wouters|The MoldenWriter has changed in the post-psi4b5 version on github.
+3ea9dbb33b6b174fab060672762681212f61e4bf|2014-01-17|Sebastian Wouters|test7 added to test the modifications in 4-index, 2-index, and Ham.
+3ee6044a7325adddae26eefa3a87451bc5f894bf|2014-01-17|Sebastian Wouters|DMRG: use correct HDF5 header
+3d961d5f39904459ea946c6ab07e174f1248ae6d|2014-01-17|Sebastian Wouters|Merge pull request #5 from wpoely86/master
+c963cae5ae1b09a6b8e34d1a19be5cb7275d520a|2014-01-17|Ward Poelmans|Now with the actual header file
+461f8821ee76ca7cce2ba9748d417cbd30fbfa1e|2014-01-17|Sebastian Wouters|Merge pull request #4 from wpoely86/master
+4bfc76a14b5f9398572f33ecc541286e665cfc7f|2014-01-17|Ward Poelmans|Force use of HDF5 1.8 API
+124a20630bac761379cbdfec8ed575ed36c4c153|2014-01-03|Sebastian Wouters|Github markdown viewer acted strange. Hopefully resolved.
+c29eaeda701f4782ae654214ab9808fc70124f98|2014-01-03|Sebastian Wouters|Updated the CMakeLists.txt and README.md.
+6b7b500ce2f84030b91b68b43941fe5372570bdf|2013-12-23|Sebastian Wouters|The active orbital space can be rotated to NOs in CASSCF.
+fac4f4fc6372572c01454b5affb7de47a2c4ffb0|2013-12-11|Sebastian Wouters|Added online HTML documentation by Doxygen (link in README)
+582feb80aa15fce3d49d1cf5ad727751c132225f|2013-12-11|Sebastian Wouters|Added online HTML documentation by Doxygen (link in README)
+b7767a8badfc490d581a410668bdff4cc42a73a8|2013-12-11|Sebastian Wouters|CMake now searches for libraries
+0fe196793bb8ede051f0ee0d8a69e62bf44cb987|2013-12-11|Sebastian Wouters|Fixed bug in finding the HDF5 libs
+2adb6837ec50e81e99ee3d950ef7a5e4386f4d21|2013-12-11|Sebastian Wouters|Merge branch 'master' of https://github.com/wpoely86/CheMPS2
+7fb7b85fa09fcc06e1825257fc71f6531606420b|2013-12-11|Sebastian Wouters|Auto detection of libs failed. Reverted the CMakeLists to minimal version. Kept the adjustments to Doxygen etc.
+bec42178a3713a7c647a0fa959e69898fe5e7e1b|2013-12-10|Ward Poelmans|Added logo in README
+783e0ce4feef28bcb597b58b85b0f698be915d87|2013-12-10|Ward Poelmans|Small correction in README and Doxygen
+9847e10481047b3ad86d38773fda0844c0c6e2b7|2013-12-10|Ward Poelmans|Improved Doxygen options
+839d579799af3d8056298256daf1a3e2b0c8755b|2013-12-10|Ward Poelmans|Updated CMakeList to find GSL, HDF5, LAPACK
+114099601099ba1ee8d05c55a8eebdeabb235b1f|2013-12-10|Ward Poelmans|Added links to README
+59a509ede582161c884f26a44b1fc416bae5ac48|2013-12-10|Sebastian Wouters|arXiv number added
+568e83d70d608b05a9a1ecf423c3477b274029af|2013-12-09|Sebastian Wouters|Something went wrong with markdown...
+f1190b14a0eb108a54b51b432c770eaddf3892f8|2013-12-09|Sebastian Wouters|An updated README is desired as well :-)
+69e4f2064be31a4f95d7fb84c307fa719d52f5c7|2013-12-09|Sebastian Wouters|Initial commit for github
+5117a7d5974cdc0e29fa619f6e145612073a849f|2013-11-18|Sebastian Wouters|Now the width of the README file is acceptable (max 80)
+5f0765e39d8156da83aff0898ec9e5f6147ec0e9|2013-11-18|Sebastian Wouters|No markdown for now
+2ca5e291c58cb065122f46b69552090c01c282ab|2013-11-18|Sebastian Wouters|Initial commit

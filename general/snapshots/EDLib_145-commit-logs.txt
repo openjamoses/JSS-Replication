@@ -1,0 +1,354 @@
+863b98f3ef26ed6fd48ffd9d67dc94067ad5ea7b|2019-11-26|iskakoff|typo fix, constant shift in H
+4df5ea0a93745f0a2d4d4559a3eb733f38fd6305|2019-10-16|iskakoff|Save nonlocal part in hdf5
+7517dfb4a7d0072decd7f49ed3e09ae0aa2ee16c|2019-10-16|iskakoff|Mesh customization
+1a0863c85996f1cebb188e3e5b71602a2ee60b39|2019-10-15|iskakoff|some fixes
+d38fe23c26370b9ed37a399a52e7534a8bf3e7db|2019-10-15|iskakoff|reformat headers + fix some tests + revert to cmake 3.8.2
+c7a852dd258dec9234d8f97dadc6efca09341c4a|2019-10-15|iskakoff|reformat headers + fix some tests + revert to cmake 3.8.2
+5c9366cf7f292f32f1fe38484dcc490805f7f34c|2019-10-15|iskakoff|install targets
+d8ff60e5b7b9cc4e3ac4cb45d952de6dc86f8c63|2019-10-15|iskakoff|add hdf5 dependency
+e300534106961c189ed86554e5d322afd546fc26|2019-10-11|iskakoff|Sector printing
+cf11cee383b8168bcced8d68ce3bc477816ccf01|2019-10-11|iskakoff|Sectors sorting
+5f6646b30534719952405ea854e2e311d645a7e5|2019-10-10|iskakoff|Spin dependent interaction
+b5117f45be1bc993824749845a0211d20ba2d9b0|2019-10-10|iskakoff|Small refactor of the SIAM part
+df0d3fb3c66b558f26d5f062411c58a1a6ef7c63|2019-10-10|iskakoff|Small refactor of the SIAM part
+a04761e1178ae20269ef6007a968e73c3370fedd|2019-10-10|iskakoff|Small refactor of the SIAM part
+156119394dcb3a5e843999b15de43c294f2b1bc1|2019-10-10|iskakoff|Small refactor of the SIAM part
+b010fed7f89864e4495aadf9887aa4b09ee80d50|2019-10-10|iskakoff|Off-diagonal hybridization in SIAM
+8adfb930e44a662deb9e7cdb7a555ec503fe78b4|2019-08-05|iskakoff|Add diagonal orbitals for GF to be able to compute offdiagonal part
+ddbaca02f06bf4dc7d129788b19ac642868eb80a|2019-08-02|iskakoff|Set boltzman factor=1 for ground state calculations
+47413c998e22426e53dfe5a79e64dcdd8bb25c30|2019-04-05|Sergei Iskakov|Merge pull request #12 from katherlee/totalenergy
+8a12652dd89451a7195b786c464562361ac02754|2019-04-05|Jia Li|Remove link to gtest_main when MPI is enabled
+2b3661648b6abe3427cdfb51b2b012ee50af2747|2019-04-05|Jia Li|Fix typo
+d330564c5b208e5495d5718c7cd66689f02f180d|2019-04-05|Jia Li|Make tests compile (for me)
+6460bdd8d6cb9aace26b3453783a765fc511ddec|2019-04-05|Jia Li|Added energy evaluation
+3ea9be15030f0dbdf842cddb704a1dca5508e75a|2019-04-05|Sergei Iskakov|Merge pull request #11 from katherlee/patch-1
+7ae3a21ce61abdf4ba236f5838c2b89a7706fb60|2019-04-04|Jia Li|Remove duplicate definitions when using MPI
+9ce44caedc73755e522feabf8167ecc440c08a1e|2019-02-25|iskakoff|We have 't' with minus sign in the Hamiltonian, so it should then be plus in the bare Green's function
+408cb1a1df72fafabaf3b2ea5f8ade8abc5fa187|2019-02-25|iskakoff|fixed output
+40581010eafabb84971a56154ba81766795620df|2019-02-22|iskakoff|Merge branch 'master' of https://github.com/Q-solvers/EDLib
+304fdf0c4c85431dddd7613d6894f90368f76681|2019-02-22|iskakoff|Proper evaluation of self-energy for hubbard
+ad247369a7f6e99263bbcfc6bb37120899f49d07|2019-02-22|Sergei Iskakov|Merge pull request #9 from mike402/master
+6bd40114d82c031b5e47fbe064e028a1a9ac7558|2018-11-09|Michael Danilov|Test for GreensFunction and ChiLoc.
+e2b5ed17785c063ac00235869575c3d4e1376f81|2018-08-07|Michael Danilov|HubbardModel: make magnetic field per-site.
+2864fd3f4c80ed144bdbdc8b024e269582bb1c09|2018-07-11|Michael Danilov|ChiLoc: G_ij by analogy with GreensFunction, copy G into G_ij
+5dcb77381bb956e203199868e3d757e9be7c423e|2018-07-11|Michael Danilov|ChiLoc: rename some vars, update comments.
+c59c64a0facfedd7731cfb8196b619e619152122|2018-07-11|Michael Danilov|GreensFunction: copy G into G_ij
+bddb8ea729f62a253f426d3131da53d7f995f73e|2018-07-11|Michael Danilov|GreensFunction: rename some vars, update comments.
+f2730b57118c33ed8c9af159eead150cde94c886|2018-04-24|Michael Danilov|GreensFunction: separate lesser and greater Green's function.
+6b79967d16c7a3becad157e5da8ab40b83bd30cb|2018-01-02|Michael Danilov|EDParams: fix description of SOCRS vars.
+4dd850a15f1bec2d0267acce159a9fcd97b71544|2017-12-21|Michael Danilov|StaticObservables: typo in <M_i M_j>, document the constructor, add info messages and partial test.
+74f2d9d0150f60cd1f586ba15da9ff4fb2619f04|2017-12-14|Michael Danilov|DensityMatrix: moved to mike402/EDLib-4x4.
+81e00c2962c266e64ac7c39eee276afef0df899a|2018-01-08|Michael Danilov|GreensFunction, ChiLoc: Revert changes by "GreensFunction, ChiLoc: orbital select argument."; crash instead of forcing calculation of diagonal.
+0fcffd85e0f4f3f493241297b669c33ab11cd32e|2017-12-11|Michael Danilov|GreensFunction, ChiLoc: orbital select argument.
+ce0297e85374e07585dc5cccfb5fd3fab6cb14f4|2018-11-06|iskakoff|Fix static Chi
+f62089b3e8ac013c4357b456a4fdabeb71364d47|2018-05-01|Sergei Iskakov|Update .travis.yml
+b0b050b55bdd2117ccb759c7315a4fa0a9e3df04|2018-05-01|iskakoff|zero matrix element handling
+6f1605d8c356a9f2543732103722edae9e8eea5d|2018-05-01|iskakoff|deadlock fix
+1fbfc91fe6a455a5ad3bf1d83cbb178bd1009d5a|2018-02-19|iskakoff|release communicators + cleanup
+1f7c926b01bd31887e202ffc8d8484d442cd8b07|2018-02-18|iskakoff|Merge branch 'master' of https://github.com/Q-solvers/EDLib
+dbba13a90bb29a4eb2b23a6cb6dda86cbe1f6e16|2018-02-18|iskakoff|release communicators
+258e065e46d1ef5a9728bf4f5b69bc9a55e3f0b3|2018-02-18|iskakoff|deadlock
+e510f9734e4a159b253972402fe7f58f8663b327|2018-02-17|iskakoff|deadlocks
+539609fff319018f515d3dc60969451dc1db5723|2018-01-03|Sergei Iskakov|Merge pull request #10 from Q-solvers/CPC
+a4486d85223ec32063438e88d1cbc642ad60a4d7|2018-01-03|Sergei Iskakov|Update SpinResolvedStorage.h
+6035ffe3e3279f0175e13fdcb0cf6610a0cf9844|2018-01-03|iskakoff|fixed GF MPI bug
+6160d0a020ac0b56d62ef1f7da50d6e7e160a6c6|2017-12-08|iskakoff|make input consistent with CPC paper data
+b01008732a30c82907abc2d552697ccefe04e46d|2017-12-08|iskakoff|make input consistent with CPC paper data
+236a3e97c40c60a63388950d017ebbf540db7847|2017-12-09|Michael Danilov|Examples for the article.
+33a9474a334ebd3477d8a3085c726b0f014f1038|2017-12-08|iskakoff|off-diagonal GF symmetrization fixed
+d1cb859b1681ecb221e9a7e2c24381171f21cca8|2017-12-04|iskakoff|Holstein Anderson fix
+ed46a731171944fba860076ec22d656926cb0dff|2017-11-21|iskakoff|fixed impurity input parameters naming convention.
+b0df83fed7021d0a3c91df23e0449326abd5a3aa|2017-11-21|iskakoff|fixed impurity input parameters naming convention.
+1d1ca66c816e5e2b3f310098f3ae749e1e66cdc9|2017-11-20|iskakoff|fixed impurity input
+2593fbc71f8475c90fc9ebe32c8af662573dd005|2017-11-20|iskakoff|overcome openmpi bug with incorrect non-const send buffer
+089c58d363d06df94154090c536929c49681efe4|2017-11-20|iskakoff|cleanup
+2eb8d30c358b378a2a081c057a38d611a9ebeef6|2017-11-20|iskakoff|merge
+1b21773d74415d00029d7d34d9513c2eebc4a268|2017-11-19|iskakoff|holstein changes
+95a9b175ab7d431ea6278176255f2741da2db383|2017-11-19|Sergei Iskakov|Merge pull request #8 from Q-solvers/nonlocal_Chi
+d4ff1cc9618ad23f7d4379e52684066a2c95d1ee|2017-11-19|iskakoff|holstein changes
+61837b7ebdfefe49a5d54c3b712f6db215aa649c|2017-11-19|Sergei Iskakov|Merge pull request #7 from Q-solvers/nonlocal_Chi
+c4a32dd225ef37b5bada6531496dad303e0b677e|2017-10-25|iskakoff|minor changes
+3ea430b1bef02d0edc5c4de667fd9ab8ccd87887|2017-10-23|iskakoff|Proper accounting of correlated orbitals
+f775b34ddff892a438a614711af1d8c9119a6f57|2017-10-21|iskakoff|parameters
+93c479e5121d2d6241b51a55a420045a5c8a2884|2017-10-20|iskakoff|1. interorbital hopping in SIAM; 2. Cluster Holstein-Anderson model.
+6a3fcb9d4c34c22e002af556095333a96cde3db1|2017-06-30|Sergei Iskakov|Update SzSymmetry.h
+75d056ece1b52097c073bf6d8e9dff532bb8e6a3|2017-06-19|iskakoff|Cmake refactor
+9c48ddbc765be07c5ea0688c8921a11219d19491|2017-06-19|iskakoff|Non-local susceptibility
+5f4de008ebe6b07f4fbf5b8860ac63148eea3265|2017-06-18|iskakoff|CMake refactoring: Conditions for parallel libs
+137623644ccb0c3d7a3b8b2aed77e1d575fe3e7b|2017-06-13|iskakoff|Typo
+d0c35cd1c5681a0bf338c4f4def74c053838868c|2017-06-11|iskakoff|Merge branch 'master' of https://github.com/Q-solvers/EDLib
+2b48e9b605375ff4215c0ec2081fa58a7b535f87|2017-06-11|iskakoff|Merge branch 'master' of https://github.com/Q-solvers/EDLib
+c0e00c50a8cccc031275a8d6135b53a50521db3f|2017-06-11|iskakoff|comments
+e13c34c141c8ddcfea6d62362c78754267a93328|2017-06-10|iskakoff|Explicit output filename type
+467cfd0c186324cd42b5fed3959e1a9847b34e65|2017-06-09|iskakoff|Code comments
+c79be30b0a0f59e0081c38f2541aca9e2632a3b0|2017-06-09|iskakoff|Templates simplification
+8ba624e75439f0d4c55e86c0edf9d98995e02410|2017-06-07|iskakoff|Holstein non half-filled occupancy
+438aca27621c29f7a76b487f739b6c75501ab0b6|2017-06-07|iskakoff|Holstein non half-filled occupancy
+3bca9aa0c81f16e89d490d5fa1f46d26d79a2934|2017-06-06|iskakoff|time measurements. temporary
+a935c500ae11a604c1c630739ca57b54228aa737|2017-06-05|iskakoff|Parametrized average for susceptibilities calculations. small bug fix
+7af3dc6f1cf98c8bee28dab3477e77a5f6c4a306|2017-06-05|iskakoff|fix
+69403d42985d13194d8b3cf9a454129eb4c9081a|2017-06-05|iskakoff|Holstein Adnerson Model input files
+c996d9d3bb8b5ccaef9433e97fee767477b22441|2017-06-05|iskakoff|Holstein Adnerson Model. Naming refactoring. Static observalbes HDF5 storage
+752b925c8c315618d6be135227c8faf9e68ff4af|2017-06-02|iskakoff|Holstein Adnerson Model (serial version)
+0cce3f60feb38da48480d2bb3f6b4171b6bcfcef|2017-05-04|iskakoff|cleanup
+96b2d6b26169507691e380d179cd8e64ed1945ea|2017-05-04|iskakoff|Merge branch 'master' of https://github.com/Q-solvers/EDLib
+ab134c94c6a50294078df5e1bc268777ac3cb840|2017-05-04|iskakoff|Refactoring and execution time measurement
+311882aec339bc6826041c0c7afe706a144e30b1|2017-05-04|Sergei Iskakov|Merge pull request #5 from mike402/master
+851822652a74c45dc6cf73392be7a2177434cab6|2017-04-20|Michael Danilov|StateDescription: typedefs.
+f3c005121d10424756889cf4cb5fe081c92a97a7|2017-04-20|Michael Danilov|StateDescription: MPI precision; print only from root process.
+54f0ff9eb5a30be4605c9a8970f2e5419dae3a4f|2017-04-19|iskakoff|Merge branch 'master' of https://github.com/Q-solvers/EDLib
+db2fabfa9f84bccecb2aba9e75d6e0a431e6b128|2017-04-19|iskakoff|Refactoring
+24f21317738945d7fd8a2c377317892e74d58d94|2017-04-18|Michael Danilov|StateDescription: improved observable calculation.
+aab9df511b57a16b4a79979a9ba0643052fe5671|2017-04-11|Michael Danilov|StateDescription: average occupation number, corrected.
+98c66059372f8e61ef8df698419e6cbf48dffc8e|2017-04-07|Michael Danilov|StateDescription: average occupation number.
+b7314152552f0b7abf52b209f9f45b370d093d3e|2017-03-03|Michael Danilov|StateDescription: do not store _ham.
+4e231867a2582ccef7611f00761889eade5c8f07|2017-03-03|Michael Danilov|StateDescription: same.
+c93ebcd6cc97bc1d5bbd437033dc77df8991e30d|2017-03-02|Michael Danilov|StateDescription: split out the search.
+197086bb003d86c5e1c27afe1958608bee6f9fad|2017-02-02|Michael Danilov|StateDescription: fix MPI hang.
+4bfff37686efc4fbc54a61a6af292686daff74fe|2017-01-28|iskakoff|jekill tags
+8f9e948b9ccc51c46bcf0dc44aa4183a12189b3c|2017-01-28|iskakoff|jekill tags
+c94aa62a5f9ecccf9cdbc7e3a3b0cd2241f994ad|2017-01-26|Michael Danilov|StateDescription: print only from root.
+91ab6edf02d585d36930455b1bed9a6b53f45391|2017-01-25|Michael Danilov|StateDescription: fix MPI.
+8d3419356edc85f41f4738d169138c67dcec999d|2017-01-20|Michael Danilov|Open ar from one process
+ead9053b9b765d1b61170ab7e8a11546d1cba6c8|2017-01-18|iskakoff|Examples
+8a96dd7ea788cd44439768a788a1c4008db97868|2017-01-18|Sergei Iskakov|Update Anderson.cpp
+1960f7e944c6b79271c719fad39f7c452d86e46c|2017-01-18|Sergei Iskakov|Update Hubbard.cpp
+98c624cc4f809f0a761ba08942d7c24429af78c9|2017-01-18|Sergei Iskakov|Update ChiLoc.h
+4c1713ede6e301a0e0700211aca0ac0a9326233c|2017-01-17|Sergei Iskakov|Update ChiLoc.h
+b47c64ddc14cfc2576aa88716d12b52472bfee41|2017-01-17|Sergei Iskakov|Update Anderson.cpp
+c70a60787358580297c7aebc551837bb3c776e2f|2017-01-17|Sergei Iskakov|Update Anderson.cpp
+8e43718d16c594b1ee34cece59ed97389190ca0c|2017-01-17|iskakoff|Examples
+619a0b3603f7bd48954911f8eb5d10a0c66a6b36|2017-01-17|iskakoff|Examples
+84471f44a890562bb3bee5747d7f58ff06b06448|2017-01-17|iskakoff|Examples
+22186f53d97defcf0492f051401069cc85e8e582|2017-01-17|iskakoff|Examples
+56bf69a9cdbc2f3692cc7cc4f34b556caffbd957|2017-01-17|iskakoff|State description
+dedd61ef2d4dde4e44f13fd3664e558014ab6d98|2017-01-17|iskakoff|Custom frequency mesh
+f18fd245eb9a7afd593f10a4f88354a5b3fb3dbe|2017-01-17|iskakoff|Custom frequency mesh
+65f7eb8370df2d53299dcde20923a5514bba9b64|2017-01-17|iskakoff|fix
+67e8c9812c0b2b12b8af28d7c285051cc6150c9a|2017-01-17|iskakoff|fix
+ebac8c59569ce8cadc2bcb0c992025bb07e8e03d|2017-01-17|Sergei Iskakov|Update Anderson.cpp
+67f99f56cb95bc5e2c32efa128e16e2fe3a399c9|2017-01-17|Sergei Iskakov|Update Anderson.cpp
+e9ab11cff6e47656252f0d3fe1e26e804a7d6dd8|2017-01-16|Sergei Iskakov|Merge pull request #2 from Q-solvers/iskakoff-patch-2
+f421a8a6641ef5146ddf06916d4bc7249368c8ff|2017-01-16|Sergei Iskakov|Merge pull request #3 from Q-solvers/iskakoff-patch-3
+b5d8a25267e01fe0460fefffa07d1da910cf0345|2017-01-16|Sergei Iskakov|Update StateDescription.h
+13222f6f7aec94d6924175d01deb842ffbd77498|2017-01-16|Sergei Iskakov|Merge pull request #1 from Q-solvers/iskakoff-patch-1
+d50bde38f3234672e62f533a6e2cf1f99ea2c2d8|2017-01-16|Sergei Iskakov|Update StateDescription.h
+6aa3f5bd177dbe1832ffe0cac2928599c8f46839|2017-01-16|Sergei Iskakov|Update Anderson.cpp
+0fd6a316a6252692db36153285e8b3b16aa6d29f|2017-01-16|Sergei Iskakov|Update StateDescription.h
+79ffa0bd625c510cd21e90be8291f0a5a1c3a04f|2017-01-16|iskakoff|comments, cleanup and fix
+0fae4876e3857f68e24a9d6ea91fdb24633d40b1|2017-01-16|iskakoff|fix
+ff96ef078deb0829b260fa907c05019352a5caaa|2017-01-16|iskakoff|fix
+d97681543c64467ce701e34fd028e50751b6017d|2017-01-16|iskakoff|Merge remote-tracking branch 'origin/master'
+7518a004e42f29847344e824cc31838e956625eb|2017-01-16|iskakoff|fix
+2b2e77b263d245de9372ebdfa819676152197cc4|2017-01-16|Michael Danilov|Merge branch 'master' of github.com:Q-solvers/EDLib
+9ca88e0e1a740fb06a789b16497e78ed30e04345|2017-01-16|Michael Danilov|StateDescription: print basis vectors.
+09380eee7adcc9667a34dd7916c5ea264fb1e333|2017-01-16|iskakoff|Merge remote-tracking branch 'origin/master'
+129ae233f28e31593079bdd269ba5954c12fef62|2017-01-16|iskakoff|Add comments, made methods private, fixed possible dead-lock
+4986af64cf558600b6dd31e936dbc4ccd5c3c60d|2017-01-12|Sergei Iskakov|Update README.md
+b257234577a175535c27cb9d9f45580770da4ab9|2017-01-12|Sergei Iskakov|Update README.md
+4f7d257f9a2ce054032ff8615aae9cf7c182c903|2017-01-12|Sergei Iskakov|Update README.md
+64e7330996c8f2fa58213ba44657a4248dee81d4|2017-01-12|Sergei Iskakov|Update README.md
+18963095a9dd453b303880aefa8d7458d63d2cf5|2017-01-12|iskakoff|High-frequency tail for Susceptibilities
+d2ce24e242c2cc0ecdbc96231fb2de78dfbbcbc4|2017-01-11|iskakoff|HDF5 output
+0c95b3edecd5e466767a06f076fd1f331b88c7a4|2017-01-11|iskakoff|SRS fix
+c9bcdb83f186c60da986b28e2a07aa1598ea143a|2017-01-11|iskakoff|revert
+1560b4cadb74f120fd2ac8edd933f1476ba3e974|2017-01-11|iskakoff|Multi-orbital fix.
+1e1e3c83d7264f170f4f3d3448655a847c704436|2017-01-11|iskakoff|Merge remote-tracking branch 'origin/master'
+99252147f8cd2d53b12f8156ee93b891d4a70b59|2017-01-11|iskakoff|Simplification
+8a488a1914beb3319b4fc886f0e5c7e890e8ae27|2017-01-04|Sergei Iskakov|Create CNAME
+be8ad94bdf78e15df00fe13584c44887bbba13f8|2017-01-04|iskakoff|git ignore
+ff6170040ced91f9c6f9f2e3b6b858efea13d76d|2017-01-04|Michael Danilov|HubbardModel_Test: check only the groundstate.
+3ef35986ae5c522a25dbd0aef20ba2ec82ecc704|2017-01-04|Michael Danilov|HubbardModel_Test: disable some tests for now.
+d2846efeb36d54d279b97330a22683ef8f869119|2017-01-04|Michael Danilov|Simplify test.
+392a93ef65e6f7e7e28ebb417095a4d26becb768|2017-01-04|iskakoff|remove .idea
+1405ec584384bd8f22ca63017ca5cb05801d0181|2017-01-04|iskakoff|DOI
+81f26ba1395ca730ae33f4c4f248ae650ff3fa5a|2017-01-04|iskakoff|DOI
+f36bacaae2eda5c4a318121629d1df5b5a8d3243|2017-01-04|iskakoff|optimization flags
+bbe12e05de792dd3b8f4a0a505b43a28cd75e64f|2017-01-04|iskakoff|cleanup
+9eb0af19827fb9fa74a666623ba9c3d93e420eaf|2017-01-04|iskakoff|cleanup
+97917e7b036b774d2f30fe4daae31f943fa60ff0|2017-01-04|iskakoff|1. Spin-flip interaction in SIAM 2. MPI fix for GF calculations
+55738ee83edcccbe0b44476819669b782b0ecc00|2017-01-03|iskakoff|Charge susceptibility
+657407bafab03f5809d9399a90e5f6dbfed0104d|2017-01-03|iskakoff|cleanup
+e4fb1316614f8d063f0e6299316f1f4c84de8611|2017-01-03|iskakoff|cleanup
+c9058a853e1e3ee446a593e62747524f52a8ca1f|2017-01-03|iskakoff|simplifiaction
+0d62252d97d2ec2c313ad7907c438e767e9da8a1|2017-01-03|iskakoff|simplifiaction
+1e698cb9939a3fb9d478aae75de431ec45e56b99|2017-01-03|iskakoff|clean up
+d05e8b485acd4a8ca2ab8b5cd34b6733acc291e6|2017-01-03|iskakoff|Merge remote-tracking branch 'origin/master'
+f31767e9f3f325a8f1a4587472fbb9e37151a482|2017-01-03|iskakoff|clean up
+59a8ea779592da426eebcce594ef8c8c039e0d6e|2017-01-03|Sergei Iskakov|Set theme jekyll-theme-slate
+02b7a9b5c5aa4118d21c70486c7841d667a468aa|2017-01-03|iskakoff|clean up
+c3d69841e22bfced5633e4fb358dd6c9f2b7ce48|2017-01-03|iskakoff|clean up
+44617c39bce012ac299198a14866304db54b12e2|2017-01-03|iskakoff|clean up
+8824e0516ddb4d35a2d90bc6581beeab80396641|2017-01-03|Sergei Iskakov|Create README.md
+074f43953718364e788475fedf79bb554698436a|2017-01-03|iskakoff|clean up
+73d8a726393f4caaf28867e1ccc244a1840f83d3|2017-01-03|iskakoff|clean up
+a29610e23fbd54b5676389b708e0aae9b5f9f84d|2017-01-03|iskakoff|clean up
+3e9f6bae62228d005540e59afaff6cebecdacecd|2017-01-03|iskakoff|fixes
+5deb4262c2c3b5aefea7a315526512d055d9b1ab|2017-01-03|iskakoff|clean up
+2e933c291039387b209856963103681e1fc33d75|2017-01-03|iskakoff|Spin susceptibility
+ef6d153cbb152ae2c4cb199aea9e7008d7233d2a|2017-01-03|iskakoff|fix warnings
+eb089b0b5d7f762bd13b084372fd5e7d0fd51606|2017-01-03|iskakoff|travis integration. mpi build.
+61a249c5f3fc1a4fe017b127272a7ba48913c230|2017-01-03|iskakoff|travis integration. mpi build.
+a6feffc060da056bc9c6d51dd0a33fb2f1468a4f|2017-01-03|iskakoff|travis integration
+9964130cc0548ccf80f85ed5192486cd937b0cd7|2017-01-03|iskakoff|travis integration
+3bdd662e780e73e3e7632f692fd4bf655e1bd7e7|2017-01-03|iskakoff|travis integration
+46535a28ddc81825eacccdf43c119462336cfe88|2017-01-03|iskakoff|test parameters setup
+e8e803bbd096c7d9fd0a85e58056b79192b07a5b|2017-01-03|iskakoff|travis integration
+c64965611a1cab3a6f3afc4d830d8066b9ff04be|2017-01-03|Michael Danilov|CMakeLists cleanup
+b1bfdc6e1c60aa82642700763ed51284748989c8|2017-01-03|Michael Danilov|Merge branch 'master' of github.com:Q-solvers/EDLib
+bdd844131b10d2c4e9edf2fa96bf82f17d362f96|2017-01-03|Michael Danilov|HubbardModelTest: test case
+c6befb7f7154a18606f8e1fda365d5b5c3080ac4|2017-01-03|iskakoff|travis integration
+cbf2fa4e096a8c4bbb830ebfb9c78617cc17f446|2017-01-03|iskakoff|travis integration
+68650aabbc94137e144fab3e64c73424523f4c88|2017-01-03|iskakoff|travis integration
+9bd90a3192c1752418bfbde27f2699fc59f94645|2017-01-03|iskakoff|travis integration
+6d2fb9bbe3b1b78a287bb4efff4ac90c020d3841|2017-01-03|iskakoff|travis integration
+65f1779a9c75f8ddaa76fc33ef52a7b97c0d33e6|2017-01-03|iskakoff|travis integration
+88e2b71ea5f9e1486442f323a5d1791bdf567729|2017-01-03|iskakoff|travis integration
+29072879d256ab6dc84033a2c3385622937af930|2017-01-03|iskakoff|travis integration
+a54f972cec96110174239df25b019d2a18072b27|2016-12-15|Michael Danilov|FindARPACK: fail if ARPACK_DIR set wrong.
+8f1035ad6d4b903a7c6c7cf7383c092c11c43302|2016-12-15|Michael Danilov|FindARPACK
+b13dc7340f646b2db8b080f49e46bf53207881f9|2016-12-13|Michael Danilov|FindARPACK: prefer user-specified ARPACK.
+6f5ad84d4ff8d6c064bb80201ff98455c6ebbad2|2016-11-22|Michael Danilov|SOCRS: fix print().
+98c526fcddb781ea3c66844b21b588563cc9fb7a|2016-11-22|Michael Danilov|SOCRS: fix print().
+0b7d6147fe524ba5f0347c81ff00e91f7c7d30f8|2016-11-17|Michael Danilov|SOCRS: resolve low av() perf, simplify print().
+32abe2e2628329b6208d513eab8b9bb2f14db5f4|2016-11-16|Michael Danilov|av() debug
+291a5fadf1d6ffd9ca5063d41104905fe32c3f4f|2016-11-14|Michael Danilov|SOCRS: fix race.
+7dda102d3bbc04fe810beb111445c06672f1bd73|2016-11-10|iskakoff|remove loop over thread numbers
+3ac77231fef2b8aba9bfc7182c7ee397b501cd84|2016-11-08|iskakoff|communications optimization
+d4f4694d0b4be98d4f003b895e6f49e6a45c37a1|2016-11-08|iskakoff|eigenvalue sorting
+20a4e6b467c8254cb9d6a33c1d5360a423a6831d|2016-11-07|iskakoff|make magnetic_field to be an optional parameter
+f6b755d04e3e36e09282d93109c22c6293eceadd|2016-11-07|iskakoff|degeneracy problem fixed
+d6845edee57606f15a39341ca47af23e20c84ead|2016-11-07|iskakoff|Merge remote-tracking branch 'origin/master'
+c8e6d4f57d245dbf2ed69e8c0319f97958d07cfa|2016-11-07|iskakoff|arpack debug info
+cc001ebcbe22360e5298720f8da351d736bcf48a|2016-11-07|Michael Danilov|HubbardModel: oops, wrong sign.
+2ce76150cdf145c211389bc04326d2e94c231ec4|2016-11-07|Michael Danilov|HubbardModel: add magnetic field. SRS test: add MPI ifdefs.
+7eac392f9e1cdf15e5b4242fa0adf74bc7730506|2016-11-04|iskakoff|cleanup
+f09eae6960d91a9c49517bc6b0355bbf0c3d2b8c|2016-11-04|iskakoff|fixes for MPI
+500f052b6de3c0d3aa6a3a6069a3ef4f7dbcec35|2016-11-03|iskakoff|proper index shift in col_ind
+f2710651c593fa64b66dab84c14bf95318defb2e|2016-11-03|iskakoff|mpi fix
+19e139d9e4363b3207713454063ff512925debcb|2016-11-03|iskakoff|mpi fix
+3487d5661d1bc6312dd0ce91b962c8bf31dcd7e3|2016-11-03|iskakoff|remove alps comm
+7e3411ebec547cf1f33f0b5b6f0b435cd0b036da|2016-11-03|iskakoff|remove alps comm
+c3cf7cc03cd32d68ae4ff9d43e0ffe05db05da31|2016-11-03|iskakoff|remove alps comm
+850967f24e1c39d59a04e19107b3426427e7a65b|2016-11-03|iskakoff|remove alps comm
+3b16cd93757e9df52eaf26f389bcf30d24e0478f|2016-11-03|iskakoff|cleanup
+bb3ca8800cadf1e54aced7c5eeb6d699ea6e5019|2016-11-03|iskakoff|cleanup
+60570d6a7830ed3c990707c279d356ba52adcba5|2016-11-03|iskakoff|cleanup
+8e9a19bf84070d4c59049e8883dbae8bafa3a076|2016-11-03|iskakoff|cleanup
+09741f1ac3d0a1e376188515e63077e96b7f2ab4|2016-11-03|iskakoff|Merge remote-tracking branch 'origin/master'
+52a8875c2999d979bab3f7076091fce3e413c6f2|2016-11-03|iskakoff|cleanup
+fe7baf70210369a443c5f05c7b95b02a3b17025b|2016-11-03|Michael Danilov|SOCRS: check max_size properly for every thread.
+c795fb14397587361c659e061c1b27004919bf54|2016-10-28|iskakoff|Merge branch 'master' of https://github.com/Q-solvers/EDLib
+d13a703ece7f133ea4558c594ded0b2fe80a788c|2016-10-28|iskakoff|density-density part for SIAM
+62e2d49a5173f7bf66c8bb711cfc87f5ca7c4e0d|2016-10-28|Michael Danilov|An ifdef left out? Not sure about the right placing.
+8217f3b4d79dc339a6ae4904da74e131d8d8ca5c|2016-10-26|Sergei Iskakov|density-density part for SIAM
+924945e76701f185801bc562ff5fdadebbf6f596|2016-10-25|iskakoff|cleanup
+1a771764fd0b2bc424de5ff086e68655a9b3bda0|2016-10-24|iskakoff|remove debug info
+e411025eac246ecf3b80e50017fec61f74d77472|2016-10-24|iskakoff|Refactoring and MPI Green's function
+4f070101f25f630ade00ceb8e7a6a576b8e47f61|2016-10-24|iskakoff|Refactoring and MPI Green's function
+f49e5f733f82243018989e04184dac06fa364811|2016-10-21|iskakoff|refactoring
+61e22524cbeda538e1eb4f95eb96fbd24caf9800|2016-10-19|Michael Danilov|Actually, that line was ok.
+6b99e3319a77649e7b01efe5569afa15b94257c4|2016-10-19|Michael Danilov|s/EDParams/alps::params/
+707ca2293dac1d16ba2c1493f2ae828db89318b3|2016-10-18|iskakoff|refactoring
+554cb59f0fab041c0fdb65c470f71c504146a0f3|2016-10-18|iskakoff|refactoring
+bc6783c692c60b4a809e430e60a37e16b6c8513e|2016-10-18|iskakoff|refactoring
+a25898cff0e8b73f3b3fbbe4f9f6c979daacbf2b|2016-10-18|iskakoff|Merge branch 'master' of https://github.com/Q-solvers/EDLib
+cf225499c6da4b87cca89327b6f5d7d4c3dd4c68|2016-10-18|iskakoff|refactoring
+1e327be61fd66683149558bfe750d05159438375|2016-10-14|Michael Danilov|SOCRS: parallel fill()
+0fd6ed7751f312656b8c879f66ab3a43c6df06f1|2016-10-10|Michael Danilov|Print eigenvalues from one process.
+d46c235b1ea1725811ab293e63702d22d9a324bf|2016-10-07|Michael Danilov|ARPACK linking order. Somehow it changed again!
+0996996f9ef505b1798f125d788bb4f5333469e4|2016-10-05|Michael Danilov|Got bitten by int.
+9e37a368266f34cc8a41f8b8fb3a701218581f25|2016-10-03|iskakoff|Change methods access modifiers
+8ea9d2912cbd22529e730d8981af5005802ae889|2016-09-30|iskakoff|Make methods private
+a61b2544114eedbdbd540dff39ae1f4b712df3c1|2016-09-23|iskakoff|input parameters
+d294a1c81fe2e563f086699bc3660fd8a72bc1bd|2016-09-23|iskakoff|refactoring
+2d83f22706b446f049aa50acf26479ef903e190a|2016-09-22|iskakoff|refactoring
+1d83beec77147fbc3dede35464408164dc1d9958|2016-09-22|iskakoff|fix spinresolvedstorage without mpi
+97d18417bac422271e651760bed161503ab25bb4|2016-09-22|iskakoff|refactoring
+765de1fb6948d1c6f0d1790678a84ed2d08a63a9|2016-09-22|iskakoff|removed copy-paste; cleanup
+f366ef50f66eaa7d663ba06573f7fdbfbf6b6f05|2016-09-22|Michael Danilov|Merge branch 'master' of github.com:Q-solvers/EDLib
+f58ad5f2d163754a995ebafa96e51f53952b7281|2016-09-22|Michael Danilov|SOCRSStorage: support OpenMP
+de6688f7b0605997aad8331f923d28493888d237|2016-09-20|iskakoff|Eigenvalue broadcast
+454b0bc47107c3d261381a20b34ed20a17e0d19b|2016-09-20|iskakoff|Remive parpack
+136ffba33c22e46fac4c7120f3cf1254d13607ed|2016-09-15|iskakoff|Patched parpack library. Keep while arpack-ng will not fix the bug
+9e7ae77e5b7ad95487974e03b44c3e64357b9b32|2016-09-14|iskakoff|MPI Support
+19567e75eb154af43652355b55940a33b3d4213d|2016-09-05|Michael Danilov|Merge branch 'master' of github.com:Q-solvers/EDLib
+6dd0fe8b6b061841137444b002a13c69d8da53b3|2016-09-05|iskakoff|Fixed nan in GF
+fe1eb12db78738f4577956813e13b2ada8da065a|2016-09-05|Michael Danilov|Linking order for ARPACK, somehow else clang is confused.
+6462cd9ac8b3e898ff7f9c588884ae2b6b97a79d|2016-09-05|iskakoff|Functionality to compute only eigenstates
+c12d6d5811ff13aae79c0618679d370e9f09570b|2016-08-28|iskakoff|1. initial mpi support 2. SIAM
+48e99000129e7ae123b78a5fed046e436ba8d260|2016-08-28|iskakoff|1. namespaces 2. initial mpi support 3. SIAM 4.
+9b1467b49a5654e79e7e5ba07800abe31c3a0068|2016-08-25|iskakoff|remove c++11 features
+03ace9c357c13bd7f65050d45ce19caa53a9dfb0|2016-08-25|iskakoff|cleanup
+a8b0474f14cfb0ff8ae9f2cc9b484f9de63a978f|2016-08-24|iskakoff|fixed input; fix for sign in H_down; integration test for Spin resolved storage;
+f3911c9c47587e7c0c4bb0894b2f3c1265cea5f4|2016-08-24|iskakoff|Spin resolved storage
+bcd0074a95e0b355e1ed03ebd9098f2fc6c2233e|2016-08-24|iskakoff|optimization flags
+4344797cc3c291174345e85ca7b2979292b9c396|2016-08-24|iskakoff|Merge branch 'master' of https://github.com/Q-solvers/EDLib
+5298f88d7a9f68beac9d433705474555290491ff|2016-08-24|iskakoff|Spin resolved storage
+5f16ec07e507eccb89d16fe43d07a7a4d4e488e9|2016-08-24|Michael Danilov|Moved chemical potential to input
+eec2fb4e2b44f20ebfea37b3e71015afd7541805|2016-08-24|Michael Danilov|size_t instead of int in CRSStorage
+af0c22856935113f77c6d03f288e8f64ade2f16d|2016-08-24|iskakoff|Spin resolved storage; SIAM
+53458e7370307371aef576007d26fe15ceb6fb01|2016-08-23|iskakoff|Merge branch 'master' of https://github.com/Q-solvers/EDLib
+b56c5248edd7eb1df13e7132f257a95c297f6995|2016-08-23|iskakoff|move Matrix filling into storage; remove const & from primitive types; add some tests
+1d733a23af1bcb857b8a9b95eafad22c0cdef2a4|2016-08-23|Michael Danilov|First try at documenting
+73cacceb5efd00e00ffa6ad73807ada045e58ff6|2016-08-22|iskakoff|Holstein-Anderson Model
+ce2a6ebace7534be66697787c9ffc15ac8323708|2016-08-22|iskakoff|Holstein-Anderson Model
+569b8ed98ba5ad659c5653bcd1661805a0d08c1b|2016-08-22|iskakoff|SzSymmetry loop test added
+42824870199608fb76b00b363fce3b3c9579b4c3|2016-08-22|iskakoff|return back optimization flags
+30498b3e49da86c40d0b0a074337781c06a34e77|2016-08-22|iskakoff|cleanup duplicated functionality
+1139a73c2a75fe897aa98f60c356be723bed4c2d|2016-08-22|iskakoff|remove unnecessary operations
+ab7db5a974aab7e76a27022a16c025ba250f0880|2016-08-22|iskakoff|Different types of symmetries
+d6836cd803be2cfe79a039ae7a2ca0e0d91b2d18|2016-08-19|iskakoff|added BOOST_DISABLE_ASSERTS
+f6dccd74a2a07cd860507a4f6360f5a97b17e505|2016-08-19|iskakoff|some staff
+7990e731f2905523a2f049030fee4901f91da93b|2016-08-19|Michael Danilov|Merge
+83c35fe18c11d726213a6a417ec1d022c041fadb|2016-08-19|Michael Danilov|Attempt to use float. Fails to build.
+2538da05cee45bd03582ad3f5548d7f439e80e97|2016-08-19|iskakoff|High frequency GF nan value fixed
+d1bba450995c3f7662067b41614fbb41c15a07ec|2016-08-19|iskakoff|cleanup
+9820d9c34d59208c2eaf7b35371728c7f7bf5357|2016-08-19|iskakoff|1. small sector GF fix. 2. GF wrong spin output.
+b33c849cd7805960f4700744d347145e5eb9eec5|2016-08-18|iskakoff|default Hamiltonian types
+f79e4687d22a3d2ccb8c16b7a87bd20abd48d16a|2016-08-18|iskakoff|Separate parameters class;
+4a7d25598c7441df5a13d552d1af13231f363441|2016-08-18|iskakoff|1. move symmetry into model 2. remove symmetry dependence from Hamiltonian and GF 3. remove unnecessary template arguments
+b098a5baa8586c82f0fbe0d88544ac486decdeb2|2016-08-18|iskakoff|cleanup
+128e0d0bd0abdc443fe0e37584008f8fb88a507e|2016-08-17|iskakoff|Partition function normalization
+e42e35174af713b9e89ef93205758ae7d5cf5001|2016-08-17|iskakoff|Boltzmann-factor cutoff. Expectation value fixed
+7054b16e5fe2bcc12824763d20de122c1c942c54|2016-08-17|Michael Danilov|Make signs in SOCRS consistent. Fix CRS storage.
+656bc2a4ea659847b6cdd17896e79c6ced6f2770|2016-08-08|Michael Danilov|Correct Arnoldi nev
+e9b6977872ad81e908481bb922de2127559c91bc|2016-08-05|iskakoff|1. indexing from 0 2. Matsubara Green's functions
+f9285e2b4a0118fd2ed4bde7845ce2866ec0d221|2016-08-04|iskakoff|remove unnecesary std::cout
+8ef1578a1843bf7f6656c2cbbef95c1475fff271|2016-08-04|iskakoff|Merge branch 'master' of https://github.com/Q-solvers/EDLib
+9cd09f40adc01c275c9772b4e65dc1929d523966|2016-08-04|iskakoff|Green's Functions
+c3b539b69051755580b9265b5b5f9063b3bebf81|2016-08-03|Michael Danilov|Reduce NCV and NEV if they are too large for current sector.
+4f286fca850229f2ddb7e2a720888a2f7016cae9|2016-08-03|Michael Danilov|Revert default NCV
+ba51ec6c3647ce37807d15443f379d1259725b4f|2016-08-02|iskakoff|Merge branch 'master' of https://github.com/Q-solvers/EDLib
+1300607286afbc6cfd8601683e79c2a268445ff0|2016-08-02|iskakoff|Green's Functions
+5343c9c7eb1d46263f2b4f9c9b8fdd8838980cec|2016-08-02|Michael Danilov|Shebang generate_input.py
+31574ae770cb1062c1796a9ad43a38f0b791e436|2016-08-01|Michael Danilov|Defalt NCV
+e687454ecfc5abf8cccc35ef130afd9bcb8e33f7|2016-08-01|iskakoff|input data script
+4d5ba8883b0b0c4a9440afccda7986e5415315a1|2016-08-01|iskakoff|"make test" support
+84c51f7a929346a6597cc5a5e378fdc0444f1ce9|2016-07-29|iskakoff|cleanup.
+92fbb495128a8e9ee4daf5ac23a8a43c51b4093a|2016-07-29|iskakoff|cleanup. remove any model specific behaviour from Hamiltonian class
+a7720a23862915ab3cca0867f280be26c6ca8985|2016-07-29|iskakoff|1. Introduce model specific behaviour. 2. Created Hubbard model
+aca4ce45cd7e5f19de8080b927c1c81301ead6a2|2016-07-29|iskakoff|Cmakelists.txt fix
+cd6bb919d1e60f3f8225a3c8a99f93d4dc3568fb|2016-07-29|iskakoff|Cmakelists.txt fix
+542d68a69a5f9d0fba2b95046664ee55450fe692|2016-07-28|iskakoff|Reading sectors from file
+b7253c2ea8381d4337594583a9d3c5bb559ddee9|2016-07-28|iskakoff|Reading sectors from file
+defdb1088e4376e62b7a825ce76881c3eea2e1b9|2016-07-28|iskakoff|1. simple input file for 2x4 Hubbard model with periodic boundary conditions. 2. Cleanup
+6ce7e9faa86c6c00038f973e48fd4854cb628182|2016-07-28|iskakoff|remove conditions
+087dd1b0623e848961b9e5d6326efa9d37fd09df|2016-07-28|iskakoff|some comments
+478ff8b6f3fb3b76428cf0de0858ce8b625dabb1|2016-07-28|iskakoff|compiler and linker flags
+205a3658ab074b4baf05b76bbae4588b2ed08ead|2016-07-28|iskakoff|all memory allocation with size_t instead of int
+7dc156d1382c2c44d801c985b12027e8d0c2c2b0|2016-07-28|iskakoff|memory boundary checking. matrix sizes moved to parameter file
+655fe947a3b0abcdf1ea90ef70a1e92b36ace18b|2016-07-28|iskakoff|signs only bitwise-storage
+5a79fb96d8f557617be79c986105eab3282fdb95|2016-07-28|iskakoff|hdf5 input. bug fixed. signs only storage
+67c1d1335f645b0a5ae0bf78ee3b0c0f557a5463|2016-07-22|iskakoff|tests
+925ba621ce538ee797d971854e3e12058b7d6863|2016-07-21|iskakoff|cleaning, structure changing
+839059dc1d2854cb1545b1f9a33ba91684aedc58|2016-07-21|iskakoff|cleaning, structure changing
+4da5517c7cadec6dc8b4133e39ac22bf5e45a0b8|2016-07-20|iskakoff|move arnoldi preparation to c++
+f0a5a75fc533a7c1916bb66ceb382278c055676e|2016-07-20|iskakoff|cleanup
+4a82cc4f32c1bf7ea29b1d265c25ebdf8699a8f4|2016-07-20|iskakoff|import cleanup
+7cb09b19a05a767bdb7f5b140b047cd99a9c57c9|2016-07-20|iskakoff|ARPACK binding
+de4b7002524d40f7f565ff83cedb722e926c2c0d|2016-07-20|iskakoff|CRSStorage class
+68680f53c4d0ea3f84e7707739a2cb6eb4b193c2|2016-07-20|iskakoff|CRSStorage class
+47b30ea0539fdb44a0c995f855ad9622318c32d5|2016-07-19|iskakoff|idea support
+3762f132dc7cf1f252ebb80ae084da663cd59ae3|2016-07-19|iskakoff|initial staff
+4ca00b89f44b819c74ec7ee17546e78f3c63032a|2016-07-19|Sergei Iskakov|Initial commit

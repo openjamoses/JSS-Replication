@@ -1,0 +1,177 @@
+70e66d76f2e5f518ff2d8b78bc93b65779182c9f|2018-04-27|Diego Ristè|Define sequence_files_path
+74716d54912b91d833cc33262d06de68b096114f|2018-04-24|Diego Ristè|Merge pull request #29 from BBN-Q/feature/yaml
+244aaba32d2b3f4540c6d32015e912d6a27a72a7|2018-04-20|Diego Ristè|Add reference to include!
+b0e398a480c26ba36b3d27b2a209c21b54f582df|2018-04-19|Diego Ristè|Relative import
+201c3d8bc7183f3d01e376e7c8174625df6f6964|2018-04-18|Diego Ristè|Fix path
+ef4fd204be00306d61bffb014f3565fb06101961|2018-04-18|Diego Ristè|leftover
+988698abb573d56e9afaea1aa08e3bdfda39de92|2018-04-18|Diego Ristè|Try simple fix for test config
+7c4b5ff4f449f2d69315a5c61341c4a862be887d|2018-04-18|Diego Ristè|Fix handling of Z gates on shared chs
+88ed7e995df7c86414e60ba69809820a20817a2b|2018-04-18|Diego Ristè|Add CNOT
+b908201066b1df2603f8b412bb2324d23ed8c9c1|2018-04-18|Diego Ristè|Nothing to restore yet
+e02e2dfe6afab902f5fb74e79d05fe0f0638ef2f|2018-04-18|Diego Ristè|Temp. solution for cfg path
+e2c7ab84ab878418378e7180f2c79766bb7c3e78|2018-04-18|Diego Ristè|Fix hdf5-tools
+208c37e7f2a18be5b6686a4224e24c39905f1b17|2018-04-18|Diego Ristè|Basic config for tests
+85dee5b80fbd99de8553e571d989a6bacf29f5a1|2018-04-17|Diego Ristè|Compile and other fixes
+0c45cc6a665bda64897567f80cd4b150b8152aca|2018-04-17|Diego Ristè|Read config from yaml
+552d13c01888d2873d62a982cf29970d22769040|2017-07-26|Guilhem Ribeill|Merge pull request #28 from BBN-Q/fix/Z-shared-chs
+b09eb3d76c53186ed67b9ff1860d07bbedffbbf5|2017-07-20|Diego Ristè|Fix non-concurrent Z pulses
+2e0a41745f35c1e5e36eaa192d0f591c9339c1fa|2017-07-20|Diego Ristè|Fix indentation
+73ad17f790ef3a1690f112e5ad3530c51d9bda80|2017-07-20|Diego Ristè|Deal with Z rotations on shared channels
+f3a799b7145dc2bb1e87e9e7a66ae1c619725875|2017-04-03|Colm Ryan|Merge pull request #13 from BBN-Q/feature/AC-pulses
+a99ab039c415443957833be7ab322d0a572b4fc3|2017-04-03|Colm Ryan|:bug: use qubit specific pulse amplitudes for U90, U190
+b6cc494e647620772f27c1dfcc7c4be0612d33b8|2017-04-03|Colm Ryan|:bug: AC pulse 10-11 are 180 pulses
+045111eccd04d2a18be40504346686ee132b7aec|2017-04-03|Colm Ryan|:memo: update doc string for Id pulse at pulse number 0
+44500dac794546e8e3d6c91726c17ba3f9718e4a|2017-04-03|Colm Ryan|Merge branch 'master' into feature/AC-pulses
+728a65b0525435f3ab2bd0f4a341fe989e017b29|2017-04-03|Blake R. Johnson|Fix promote_rule on AbstractPulses.
+4f121f989b3fe1535736649a252d0abecf02f08f|2017-04-03|Blake R. Johnson|Default fallbacks for empty keys in config.json
+c984070e1dde71635b75d5c276f688816263a862|2017-04-02|Colm Ryan|Merge pull request #23 from BBN-Q/brj/review
+8165ca56852c3fc0071ce8c1ac295a45e52c835f|2017-02-17|Blake R. Johnson|Make sure all ControlFlow objects print *something*.
+7f181f8ec8e24c9636e94581b7b62d439ca78ee9|2017-02-17|Blake R. Johnson|Don't clobber Base.convert in APS2 module.
+6403ac15a7e3ffcfe78a0d6ccf927f2708304842|2017-02-17|Blake R. Johnson|Cleanup AC.
+9f8ab3f3cc57204d88200181ab5913ce59e53c05|2017-02-17|Blake R. Johnson|Insert AbstractPulse above Pulse and ZPulse.
+61ab2d0ad61812d3423063aeb8482a77d06d21ad|2017-02-17|Blake R. Johnson|AbstractString -> String.
+eb8d005cde6243643a2301a293ffc74cc8b64765|2017-02-17|Blake R. Johnson|Fix abstract -> abstract type depwarn on julia 0.6
+88d45eb5aadcfaf13d5e8675f7066a75352377ad|2017-02-16|Blake Johnson|WIP review.
+9ec290a7e3b1f68c2f6ab5f289e3cdcb4738026e|2017-03-29|CoherenceController|Making the null pulse 0 length after discussions with Marcus.
+652b0c529614e8e50152f25572d1abb4d39d45c8|2017-02-23|Colm Ryan|:bug: use add AWG delays on top of channel delays
+32438393e83921f27e67f6befac18cc51892010b|2017-02-23|Colm Ryan|refactor sequence_file_dir -> sequence_file_path
+9264ca7022710e8aa13de729989331deb14286af|2017-02-23|Colm Ryan|:floppy_disk: create sequence directory if necessary
+44fe56556362d203c8a5dcf6a592b5356f0a2b9e|2017-02-23|Colm Ryan|consolidate config from JSON files into a module
+30271b786eaa8372a950d7bcfd4f831b3d9ab826|2017-02-23|Colm Ryan|pretty print GOTO control flow
+ed9801c9592ade14dd83f71851f5f98620416fe5|2017-02-23|Colm Ryan|elide empty channel delay blocks
+b567f9159eeb10815732d2ff55add9d749987fe1|2017-02-23|Colm Ryan|try to find a non-zero length pulse to add slave trigger to
+1cadc30ddac25bf7ad7035eafb85529d3b1eb593|2017-02-23|Colm Ryan|fix typos from 1f0d87a
+1f0d87a6e262fab54383ab674ee0c4a0ae9f6083|2017-02-23|Colm Ryan|:bug: fix APS2 instruction ordering for sequences that start with a ZPulse
+3f8d2ff37bcd747a31f4d63067d51045c6faa790|2017-02-21|Colm Ryan|Merge pull request #17 from BBN-Q/feature/aps-path
+df9fc11d30895f1009bfdbd29792a86f656d83dc|2017-02-21|Diego Ristè|:floppy_disk: Default sequence path
+e12307061f9749f677bdc8ff9bff3fc1af7d4d83|2017-02-16|Blake R. Johnson|Pulse constructor cleanup.
+6c7db882b6dca47cee971191d75dc76a7f5d23a9|2017-02-13|dieris|Add frame change
+c386880d12a88bff5969977dab7049c00d965053|2017-02-07|CoherenceController|GST sequence helpers.  -MW
+a868268b02ce8359b437284bef3ee39ed9532fc6|2017-02-07|CoherenceController|Adding simple characterization sequences.  -MW
+64267a8199efef7cee0563f9a8149da37baa5a59|2017-01-26|Colm Ryan|:racehorse: more smaller typed functions rather than typeof checks in bigger functions
+e26357bcbe2f887add9d4f9e6d35e7c9ee576fdc|2017-01-26|Colm Ryan|:memo: update benchmarking section with multiple samples and current times
+8fbbee606021380aaf1e21ac033aaa32fafab943|2017-01-26|Colm Ryan|:racehorse: elide noop pulses when pushing a single pulse onto a PulseBlock
+b4cb74710d8c8e4ebb77b83199f0385ad8da287a|2017-01-26|Colm Ryan|:racehorse: elide zero angle Z rotations
+e3c22da0265bae9402e87730a6cd5cb6453f055a|2017-01-24|dieris|:bug: Nutation frequency
+0f29a4e0afa822f037e5b86888aefccdeab40adf|2017-01-24|dieris|Renamed angles
+6b29dd37771b2a30edd048488383f3b18637b000|2017-01-24|Colm Ryan|:bug: amplitude is built into arb_axis_drag pulse shape
+241ee9b4534409ab8062375038fdaa2baab04025|2017-01-23|Colm Ryan|:bug: ↑ is parsed as a binary operator
+6b1f70f8c4b9d0a5c6ff6e10221f312310ff81c9|2017-01-23|Colm Ryan|azimuthal angle is not used in pulse shape but in Pulse phase
+69b8d3311393c8de0661c77400de34a391020e57|2017-01-23|Colm Ryan|:art: stylistic tweaks to AC pulses
+6c9ff08b9d20fb41ee7c914f44ff19116c33e8b0|2017-01-23|Colm Ryan|:memo: remove PyQGL dependency from README
+7b6ce70149cf35b56ece3d69ec11355e7ed2b130|2017-01-22|dieris|Fix typo
+fc0a13f4c3fd9b67f420f13a2e9de649fe4eaff9|2017-01-20|Diego Ristè|AC pulses
+e2ad63cddeaed76d66689146c5374efb28d3d6ec|2017-01-20|Colm Ryan|Merge pull request #12 from BBN-Q/fix/drag
+ebfa4fffafc90b62c72a7dada1291d6f669f2466|2017-01-20|Diego Ristè|Drag shape output
+f5c42fb026b30553ba887cb76f58df85f3c354bb|2017-01-20|Diego Ristè|Typo on num_pts
+f49be2affd0117f3035c1694a0c453e2f4f49450|2017-01-20|CoherenceController|Length is now a symbol
+8bb525a48b29f2e2cae0c21eb83852e45c963ce1|2017-01-19|Colm Ryan|Merge pull request #10 from BBN-Q/feature/CI
+a0ca31d2e2c9686eb36cd4b994877c0e8e520b3e|2017-01-19|Colm Ryan|Merge pull request #9 from BBN-Q/feature/no-python
+68c598c13907f29280503bdd169754417530e969|2017-01-19|Colm Ryan|travis badge in README
+a454b1400ca05a0e51a7c865a3ad491d9f0eccd4|2017-01-19|Colm Ryan|fix up basic tests
+625be1ca460bef5303e26c9037dea5ef45cab444|2017-01-19|Colm Ryan|make cfg folder if necessary in testing
+7fa54db9aaabde2a8e8cdcf22a35be53225423d4|2017-01-18|Colm Ryan|backup original then create new cfg file pointing to test ChannelParams.json
+fe348e86590feb36d1bb1a0538557a1606281d9e|2017-01-18|Colm Ryan|:white_check_mark: setup travis CI and codecov
+f50ec88049b1eea9ad204e7af16cd2fc15633134|2017-01-16|Colm Ryan|update `channel_json_file` if passed from user prompt
+a574046c88cec9c64b5ee0ab658184292b438772|2017-01-16|Colm Ryan|:bug: fixes in flat_top_gaussian and UΘ
+4c951f58022c9889bf42a3ddc02074a27cf5a4e4|2017-01-16|Colm Ryan|drop python QGL dependency from compiler
+07bb92ca709df37e2b1e9a4754f7fc72dc97bc69|2017-01-15|Colm Ryan|drop python QGL dependency in pulses
+b00ad0645b518b14b9c6d261557c70f54b0097e0|2017-01-15|Colm Ryan|drop python QGL dependency in channel creation
+8d8304048ad47a6c400add2c45c3634a0749bf4d|2017-01-15|Colm Ryan|half-gaussian pulse shape for CR
+c628972e0e5f48ded83b4284dc82c093789fa023|2017-01-15|Colm Ryan|:memo: assume people have installed QGL.jl package
+daff1c9ced02bb5697701eb11051e5f2fd6833d3|2017-01-06|Colm Ryan|native basic pulse shape functions
+485b1c23988fba9720e164de732e4b8b1ec4a702|2017-01-03|Colm Ryan|proper Julia package
+f0758c117086495153e21dcb2cb280bc71f17ef8|2016-12-22|Colm Ryan|iterate over pulses rather than indices into pulse array
+22bac82ea474f69957ef8d9b9bca90d8a8556232|2016-12-22|Colm Ryan|Merge pull request #7 from BBN-Q/fix/phase-unit
+b4d1a1d9fe877f182aed599fe02a5cbafa3f9716|2016-12-22|dieris|Optional pi_shift in flat_top_gaussian
+a967091d95ca6791353ef6ab01bf8d638e56a9dc|2016-12-22|CoherenceController|Amp. and phase are applied later in translators
+29b15e4e9de8a9fa743ff707e23e4fae2d31f973|2016-12-22|CoherenceController|Pi phase shift on 2nd CR pulse
+fca050c0b00facc5179627017f22a7f0ff4e94c7|2016-12-22|Diego Ristè|Merge pull request #2 from BBN-Q/feature/tomo-seqs
+f1692d0eb0379a2118b75147dac50e43b9a682c7|2016-12-21|Colm Ryan|:memo: docstrings for `cal_seqs` and `state_tomo`
+c8adc7bdb489e393c282f7ab3fe96fbf918f55ce|2016-12-21|Colm Ryan|Merge branch 'feature/tomo-seqs' of github.com:BBN-Q/QGL.jl into feature/tomo-seqs
+296bce71aed39ca5ad21067032dc3b47fa828b7b|2016-12-21|Colm Ryan|tweak iterators in sequence helper array comprehensions
+df1423af800c678acb2c1279e3f6f97e31e3b9d6|2016-12-21|CoherenceController|Consistent definition of phase
+366e9f2e2f8a9b7f8dc3534278361e2bf3fecf9b|2016-12-21|CoherenceController|Fix create_cal_seqs iterator
+d435743992d05d1727be281142adf1bf6762ef17|2016-12-21|Colm Ryan|drop "create_" from function names
+90d1cbeb937f5fbc35d486d205de300008362e28|2016-12-21|Colm Ryan|add TODO for Base.lexproduct so we don't forget
+ece8d9f9844d6ca1c15cc975d4c8e9d4802ce26a|2016-12-21|Colm Ryan|drop Iterators dependency in favour of Base.product
+5239b153a9e3b6c4de395ad07737db3fa4426c24|2016-12-21|Colm Ryan|refactor num_repeats and num_pulses to keyword arguments
+f69575351ed69a2e50980a52cba0770cf4c1941c|2016-12-21|Colm Ryan|Merge pull request #1 from BBN-Q/feature/2-ncos
+0ce0038a452d324643d17b77f9a4d24c2b8d7500|2016-12-21|Colm Ryan|cache channel set frequency instructions
+8ccbbace6270a994ede58d2dc538f4f14bfaa26f|2016-12-21|dieris|Inverted MSB-LSB
+f5e603fec548470c5a8871b226211611694b6e62|2016-12-21|CoherenceController|Add meas_block to cals
+2c2f2b57d6fe83b446466726824143f524605e9a|2016-12-21|CoherenceController|Export create_cal_seqs
+da2caf0e6bce1585778b558e5c750b54d984a312|2016-12-21|CoherenceController|Tomo and helper sequences
+ed0d4d36236140d0e44133c2c79c934ea1c8cce7|2016-12-20|Colm Ryan|tweak create_wf_instrs to modify waveform vector in-place
+460fa552c66d05afb5ecc919555b82ca2b778be4|2016-12-20|Colm Ryan|:art: white space normalization
+645a96adff5bcc1f55b69a389348a21caf14c400|2016-12-20|dieris|Fix end of entry condition (part 2)
+61e32af95fbadfb5d00e2c986c0432708f4f6815|2016-12-20|dieris|Fix end of entry condition
+9b99967c8c9ada761fda4fc31f9c6a84fcf52a62|2016-12-20|dieris|Merge logical channels
+e0db97aabc0ddd258f8985bac6a74c166c96de90|2016-12-19|dieris|Work towards 2 NCOs/channel
+7b2a872212e8338e45dcc49db2d7ae770537154f|2016-12-16|Diego Ristè|Merge branch 'feature/CR-gates' into 'master'
+26477eeae70d1b4ec34c0d2979a050a9029e7c1d|2016-12-16|dieris|:bug: Floating point error in padding
+64dabf238d241d39f3890d7792b8d59ba3b8d61a|2016-12-16|dieris|Cache injected Z on edges
+156c4e3468453289e70d25e0ad6482a73d0bcd6a|2016-12-15|Colm Ryan|:memo: note funding source
+cdf834dafc8bda879f341bfa5aec49749bf2004d|2016-12-15|Colm Ryan|handle marker only APS2
+d55874ab3506ced27472519a74ba1bfae364baf9|2016-12-15|CoherenceController|Inject modulate for edges
+2eb9f33f63c41cea7902f7a02969871788245d0e|2016-12-15|dieris|Propagate frame change to edges
+da2ffd33f6987a5e83c1589dd4f4c24bf47b63bf|2016-12-14|dieris|Fix merge conflict for Pulse method
+65fb93de4dfa3e4757d7bcb758758334f9f606b6|2016-12-14|dieris|Merge remote-tracking branch 'refs/remotes/origin/master' into feature/CR-gates
+d42a5a2d739d56a0bde83c3b82d9a7808f8ad9ec|2016-12-09|Colm Ryan|handle channel delays
+acdf503b4e2051da803ef70dcfb26e6c14f85a63|2016-12-09|Colm Ryan|:art tweak display of PulseBlocks
+2f14edd46bdee103fd8793617db6a4972b7ec7db|2016-12-09|Colm Ryan|better PulseBlock constructors for iterables of channels
+f77374adc90edf6bde7f32b41ed429259a73aec5|2016-12-09|Colm Ryan|handle PulseBlocks with empty channels
+b6f3ceee5c23e05e6df71469315c4c87aae71a0b|2016-12-09|Colm Ryan|add license info to README
+0e2091bfecb8c53463df594b77682cdabb16f539|2016-12-09|Colm Ryan|Update README with prehashed Pulses speed increase
+3a12d61b262dc24377a065fe1dd5fb827a6b1afc|2016-12-09|Colm Ryan|Add license
+8586ceef81bb7bb6fddd2dcadc93e930946729b8|2016-12-07|Colm Ryan|:bug: fix engine op codes in control flow instructions
+ef97dcfcf63a5ea576dae56ad8f2d063b5a042c6|2016-12-02|Colm Ryan|Merge branch 'fix/meas-hash' into 'master'
+44c26e4e414757b899917f75d33ca1ae86894beb|2016-12-02|Colm Ryan|only define two argument hash
+87855df1c32fc3371297ec77a6431681febe7ae1|2016-12-01|CoherenceController|Define mixed hash for a Channel
+1a8f3e9cddd6106f49ea65288695e8705b612a1d|2016-12-01|Colm Ryan|equality testing for pulses
+54c27bae989f71c35d92c660be6fd92bb520befb|2016-11-30|dieris|:bug: Swapped length and amp parameters
+d64860d512449ecb82565e7ffc2edf9bfa21c2ee|2016-11-29|dieris|Return ZX90 as a single pulse Block
+565b3598803f371491f02cb45e01e520481acab7|2016-11-29|dieris|Optional pulse length
+3ad0821304ca5a06496e84d43ab35d8fec87936f|2016-11-29|dieris|First pass for ZX90
+0831a4803c5ef5b74e61d5c21e590abb96779b05|2016-11-29|dieris|shapeFun is now a Pulse parameter
+ce578b6e87defc4b6f001f40bbfca79009973838|2016-11-29|dieris|Optional pulse shape
+9345ab28e7826897753dd38084e63bbd1cc50428|2016-11-29|dieris|Define U90, Utheta
+f87d1aca6fcd8f7c385c34f55d14087102f2fe86|2016-11-29|dieris|Define edges and call pyQGL.EdgeFactory
+7e22ccec931e41a8e8b7b753f0e510af22f4806e|2016-11-27|Colm Ryan|use concrete bitstypes for Pulse,ZPulse fields
+3ecfd03a7763e14939d4e2573ac90f1a17a05a5e|2016-11-27|Colm Ryan|add methods for tensoring ZPulses into PulseBlocks
+e375cd8c691aa6be065a78358580701dc052cb8f|2016-11-27|Colm Ryan|:memo: note some basic benchmark times so there aren't any horrible regressions
+85d937d77076870dcee311eadccf5a0e74d4c517|2016-11-27|Colm Ryan|elide zero length Pulses
+2a25c2c80d7b15797a0034b8338c475317e7477d|2016-11-26|Colm Ryan|Merge branch 'fix/pulse-length' into 'master'
+3e450fd5ac19788fbf969f95e6bad110947b04fa|2016-11-23|dieris|length is defined for all Pulses
+d8249bf72d9fe5c55e03aa2c0c84ce0e887cd3e6|2016-11-23|Colm Ryan|add SYNC before WAIT
+5c381f9bef7551b01f3593bd6c752f3f93cca84d|2016-11-23|Colm Ryan|:bug: allow compilation of sequences that don't start with WAIT
+2759c8105fa305cbd295846e19718999994ba9f0|2016-11-23|Colm Ryan|allow Vector{Any} to be compiled
+5654a5d7c690752cb6f0cc0d4eb73b5157a9cbd9|2016-11-23|Colm Ryan|:art: tweak PulseBlock pretty printing to add space after comma
+b876c509cec867c105afe2652c86111ecd0d04b3|2016-11-23|Colm Ryan|Merge branch 'feature/DiAC' into 'master'
+cfb2f659b31ca65995f71017fb8d3a238ad31785|2016-11-23|Colm Ryan|:memo: doc string for DiAC
+e1f8d56180b103743357cee6d71cacab42274654|2016-11-23|Colm Ryan|return PulseBlock as DiAC composite pulse
+cad1ec22f7b3c7075e932912c8ddb28d2466399e|2016-11-23|Colm Ryan|:art: alignment
+c84a0e75193fe895abf64fc293f5ab4b43237a06|2016-11-20|dieris|DiAC pulses
+06e88cf94e9897dae7271152459e80f64eaa69b4|2016-11-09|Colm Ryan|:bug: 1-index vs 0-index marker select
+01b8b733b279aa637fdb76a2aca909d4d016d94a|2016-11-09|Colm Ryan|get measurements working
+f79e60f4bbcb23f8b99c9e41a8a284a30859624d|2016-11-09|Colm Ryan|clean-up default values for Pulses
+4a37f65d2d0e7dbd73aa6917722c4437113a50e3|2016-11-09|Colm Ryan|:bug: need to apply paddings in pulseblock handling
+f31bf68b2b2048a4027115c22e9389609508df65|2016-11-09|Colm Ryan|:bug: fix modulation sign
+ed95befaa3d4095141ec0f2fe473044be6d755dc|2016-11-08|Colm Ryan|:racehorse: replace dictionaries with arrays
+9f409c87eb0f0f4555417acd4e86f385319fe87b|2016-11-08|Colm Ryan|:bug: fix instruction ordering
+d463952b7d61f51aafe8db35cf9564cf7a48b2cd|2016-11-07|Colm Ryan|:construction: first pass at modulation commands
+46e8208c4b758054679a2aac9bf031c32ced043c|2016-11-07|Colm Ryan|GOTO(0) at end of seqences for assumed round robins
+5a2aee7ba95cfe488fcd5ed640701fc6807ce26e|2016-11-04|Colm Ryan|get bundling to AWGs working
+313385995aaf51a253b7383f9caf4fc271cfd0c4|2016-11-03|Colm Ryan|:bug: need complex type for waveforms
+ff78f52cff4d79b4e709a8e0ca6f61c68448720c|2016-11-03|Colm Ryan|:bug: need to inject pulse length into shape calculation
+8955b3d992be0737744606e2040047372dbc1d48|2016-11-03|Colm Ryan|:bug: TA pair pulse count
+d1ce942524e467af8aa1b33e5780ac987a3abf44|2016-11-03|Colm Ryan|:bug: multiply not divide by DAC_CLOCK in marker length calculation
+6cf6a5ca52d0c1baea879379b7d1aa11d4a18248|2016-11-02|Colm Ryan|:tada: get all the way to H5 file that plots
+78c96b404b628b1f5d8f8031b5196215bab03a39|2016-11-02|Colm Ryan|fill out more controlflow operations
+7807f2a1148d485dcf0a36d06e60f4aae09dda4b|2016-11-02|Colm Ryan|refactor compiled sequences as arrays of control flow and pulse blocks
+df6666866e93e6162a0372e7b7ce841e76742420|2016-11-01|Colm Ryan|:construction: work on APS2 translator
+93ee28d8455c8ef9e315477b4ede3f44783afe41|2016-11-01|Colm Ryan|zero-out amplitude of Id pulse
+068054ff42095ee2e1fdcc8b53c765a632117087|2016-11-01|Colm Ryan|refactor to module
+903242bd6e286bc860e66d04502dd6d7b7e12df5|2016-11-01|Colm Ryan|:bug: typos
+4bd9e231e27f8087efaf4950cab30e6f6ad9a4ab|2016-10-31|Colm Ryan|:construction: work on Julia compiler
+bd8efb8fa81a2d9f21b710268d90ce2e78a9ccae|2016-10-24|Colm Ryan|initial attempt at a Julia `compile_to_hardware`

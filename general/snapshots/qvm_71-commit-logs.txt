@@ -1,0 +1,426 @@
+dbc76fcd9e20b1429412cbf980008088c51efaed|2020-07-24|Mark Skilbeck|test travis (#261)
+cf3f91fb6fe6e215e77848ed64b6aabe4c3eaf73|2020-04-22|Mark Skilbeck|Bump version to 1.17.1
+1c6900e00f5a5838044c67c3ab6d9cdd249c0de6|2020-04-21|Mark Skilbeck|Fix build error
+fa4cd8028365e28e216235649aa082802d3c9168|2020-04-15|jmackeyrigetti|Remove Gitlab Build Badge
+cc9e1f48eb8fcbe30332046f5b5530837ab8349d|2020-04-01|Lee J. O'Riordan|Create bin dir during install if not exist
+00a8edf86de06f1944241b3a2aad326f5ec36d87|2020-03-25|Mike Appleby|Bump version to 1.17.0
+7ea769f8156929b3bb2b11af7371ccbc35178341|2020-03-24|Mike Appleby|Retry with backoff when waiting for a given state in app-ng tests
+2d454491f7684a2060d5c3b50bf37c5d7abd2fca|2020-03-23|Juan M. Bello-Rivas|Implement QVM debugger. (#245)
+1ee19c089fffba360880ef984953cc0212db470f|2020-03-19|Mark Skilbeck|Install qvm to system in Docker builds
+907913059d901aa51e50c6a0533fc5a3081b5b9e|2020-03-02|Mark Skilbeck|Bump version to 1.16.0
+1343522c65d559fd8bd32227b4e9ea86cc44b976|2020-03-02|Mike Appleby|EXTRACT-KRAUS-OPS: CL-QUIL::MAKE-ROW-MAJOR-MATRIX -> MAGICL:FROM-LIST
+300a017afab31c846048d7cb85a1524da0ac0c9d|2020-02-28|Cole Scott|Update Magicl bindings for Magicl NG (#238)
+639e42f55134d6861a4440695029ce4d5a6bf0ad|2020-02-26|Juan M. Bello-Rivas|Coalesce two `when` forms
+806a4288045ebd8f34b3f3c53d31ee577f004278|2020-02-26|Juan M. Bello-Rivas|Talk about Linedit
+c99587f5050751574eb689e42fe25c43a453f32f|2020-02-20|Robert Smith|Update title
+25f02da061a21b76463231ac72f3c5e67ded19e9|2020-02-20|Robert Smith|Add DOI badge
+5f7834166e1754ea14f57522e55b0bff965d9b48|2020-02-20|Robert Smith|Bump version to v1.15.4
+d65aa5b8d5a7a8ce2d182180952e1424d7764045|2020-02-12|Erik Davis|Allow SDK version query to fail silently (#240)
+09a0ad0f8f3ebbfaf33c4edbe2fbd82069c7fa1f|2020-02-04|Mark Skilbeck|Only disallow SSL for SDK builds
+69c3627a8558157274c97ccee14d54b9f32ce6a1|2020-01-16|Mark Skilbeck|Bump version to 1.15.3 and CL-QUIL dependency to 1.16.0
+684ba3d3279649c9418c04bebbd1176b93569d31|2020-01-13|John Lapeyre|Fix up whitespace and typos (#234)
+1b3d43ae0f8cd13513c543d9ea7171e562997908|2019-12-31|Mike Appleby|Merge jobbo.lisp into job.lisp
+b3b7b2e041b2462ca12613effe19ce1dc603c9be|2019-12-27|Mike Appleby|DANGER! DANGER! DANGER! affects -> effects
+9aad25d0c04415b5cb08355b9f83c0c71c769790|2019-12-26|Mike Appleby|Preserve provenance and adhere to file-header conventions
+575f15795d0d763d95b3801addd36378fd59d62c|2019-12-24|Mike Appleby|Fix docstring typo for TEST-RPC-API-CREATE-QVM-INVALID-REQUESTS
+d8fb889a8e5b468ee1054ed748a1ea0a733fc8aa|2019-12-24|Mike Appleby|Add comment explaining QVM-APP-NG-TESTS::INVALIDATE-TOKEN
+51beecb841983add96bf750e6857debe4f0c01f9|2019-12-24|Mike Appleby|Nix superfluous PLIST-DOWNCASE-KEYS function in test-rpc-api.lisp
+8eb590da1db1880f6397580f4f4d4ad3daa609c6|2019-12-24|Mike Appleby|Nix superfluous blank line in test-safety-hash.lisp
+287d9919e928f4c4b0e8a7b5d405e4892bdff86c|2019-12-24|Mike Appleby|Nix superfluous spaces in test-concurrency.lisp
+1d3ad135e641108c5cc88f6304641d701427c3cf|2019-12-24|Mike Appleby|Improve docstrings and error message for PARSE-MEMORY-CONTENTS
+f3f1377b6c0376fb17032cc5f70c7949594b08ba|2019-12-24|Mike Appleby|Every backtick is sacred
+4ff0cdbffa72df1842c71b88f44a71c2d1c5447e|2019-12-22|Mike Appleby|Fix CrustyOldDockerfile to checkout the correct quilc tag
+e3797016b1b73d57b2df79a559c63d55dba8a144|2019-12-22|Mike Appleby|Nix ENCODE-JSON and use MAKE-JSON-RESPONSE in ERROR-RESPONSE
+9c8ceffe790015508f511e456670d17315dbdb74|2019-12-19|Mike Appleby|Add missing "the" in *RPC-ACCEPTOR* docstring
+1fa66bfdf6b75eef68bb0e458136cc7f4b9be449|2019-12-19|Mike Appleby|Remove trailing space from RESPONSE docstring
+9318b56c46b27fc039d2cdf186fe0b2cf21244a5|2019-12-19|Mike Appleby|Returns -> Return in RUN-PROGRAM-ON-PERSISTENT-QVM docstring
+4f10ff7076436f30bf27b539bed201525ff7cf14|2019-12-19|Mike Appleby|Clarify the type of MAKE-PERSISTENT-QVM's QVM arg in its docstring
+0fd1e9dd5dc7429e404a24de1d482d3ecb5774ae|2019-12-19|Mike Appleby|Fix typo in MAKE-PERSISTENT-QVM-METADATA docstring
+10e9fd20cb70c25c19521b216900edb02f1428ce|2019-12-19|Mike Appleby|Stop LISPing like it's 1969: **JOBS** -> **jobs**
+bd3a035927e9e121a9c907e712efc256578a8828|2019-12-19|Mike Appleby|Update quilc and quicklisp versions in app-ng/{CrustyOld,}Dockerfile
+684f681e18af5f2642919c5bf74394ba9f8ccc1c|2019-12-19|Mike Appleby|Further expound upon of the necessity of CrustyOldDockerfile
+00ac1ca2edbc1b3c07924b15a1321a38aa13d4cc|2019-12-18|Mike Appleby|Switch from an alist to a hash-table for *rpc-handlers*
+6f27ce279b72a34d727d989987479b5073ab60ea|2019-12-18|Mike Appleby|Fix format string for printing qvm/job tokens
+ddbdf249bed1c2f0d0330a80c7050729f27d2246|2019-12-18|Mike Appleby|Fix JSON in docstring: t -> true
+40cfebba49613fc492db3903f86010cf8680b769|2019-12-18|Mike Appleby|Make +VALID-PQVM-STATE-TRANSITIONS+ more alisty
+6aa265cde783db032908fbac1c964452ea18882f|2019-12-18|Mike Appleby|Nix run-program-async and replace with create-job + run-program
+4932def209f8aa399f3a92618f25df008317feda|2019-12-17|Mike Appleby|Convert RPC-PARAMETER-PARSE-ERROR to USER-INPUT-ERROR in validators
+0239d965bfc0c99aba615950211f064b82663008|2019-12-13|Mike Appleby|Unify PARSE-JOB-TOKEN and PARSE-QVM-TOKEN
+ff7f12ec1b8a878cc9e2f1fa634a14f39e33b78b|2019-12-13|Mike Appleby|Remove TODO re: MAKE-DEPOLARIZING-QVM
+8eb537e32e937e10c26f14cf30c9d4288157ef1c|2019-12-13|Mike Appleby|Remove TODO re: LOOKUP-RPC-HANDLER-FOR-REQUEST in HANDLE-CREATE-JOB
+7c37bf57f4b88c3e1bbf2f6c9f01bcf3bc048cb7|2019-12-13|Mike Appleby|removing old :AMPLITUDE initarg references in qvm-app-ng
+a383d3c0f8b7f76758d31b0138a04b45b2274fc3|2019-11-18|Mike Appleby|Accept a JSON object as the sub-request field for create-job requests
+67c3d64432f1177996b464bcc542cb8844813290|2019-11-14|Mike Appleby|Don't set TBNL:CONTENT-TYPE* in RESPONSE-CONTENT-TYPE
+a85fdcd1744d2c2bc4824920addb31c351b3f6b9|2019-11-07|Mike Appleby|Add a TODO comment re: persistent qvms and error conditions
+9b4b0057b6ab28a50bdfe34777b760e56cd86eb1|2019-11-06|Mike Appleby|Add QVM_FEATURE_FLAGS when building qvm-ng
+1533ca443df30af2afb9655944bfb9bf41f5a440|2019-11-06|Mike Appleby|Incorporate recent changes from QVM-APP::SHOW-WELCOME
+1e12ce185fef9e97eb2fd5792e2b028bd02fab26|2019-11-06|Mike Appleby|Rename MEMORY-REQUIRED-FOR-QVM to OCTETS-REQUIRED-FOR-QVM
+ce32a040644915e70c308e7e69cc87de33871908|2019-11-04|Mike Appleby|Switch back to *STANDARD-OUTPUT* for SHOW-VERSION and SHOW-HELP
+ece09c5a7e0792b6e90760aa35a68764890ceb54|2019-11-06|Mike Appleby|Add TEST-RPC-API-RESUME-INVALID-REQUESTS
+8453b7f86ebbbe0a72f29203fc6e6df97a9cd2e4|2019-10-30|Mike Appleby|Kill nascent job in RUN-JOBBO if token collision occurs
+defa5733dc166ca10ae675d9bb23e445fbc52582|2019-10-29|Mike Appleby|Add QVM-APP-NG-TESTS::{A,P}LIST->HASH-TABLE
+5c6af8a0a5d584d9bc50166a87131b4fea6e0da1|2019-10-29|Mike Appleby|Add TEST-RPC-API-WRITE-MEMORY
+a31b22e1c2c6fbdf465eb98570ac40beeba1b9fa|2019-10-29|Mike Appleby|Add TEST-RPC-API-READ-MEMORY
+cfd568bafb72527552d775a5aa2c4366d71d43fa|2019-10-29|Mike Appleby|Add some more invalid tests to TEST-RPC-API-RUN-PROGRAM-ADDRESSES
+629ee497123d6c4b5c2e36044a42c148fb6bf913|2019-10-29|Mike Appleby|Use consistent TODO(appleby) syntax in comments
+56cefb44252f255d76f192686888125cfc1d66aa|2019-10-29|Mike Appleby|Return appropriate HTTP status codes from create-qvm and create-job
+c6e6a7c90935d4604820ad85755fbe26271f87ee|2019-10-29|Mike Appleby|Add a file header to jobbo.lisp explaining the ridiculous name
+abecc420dd9caaea0b7d6af19d03af2fc7db9100|2019-10-29|Mike Appleby|Add some comment section headers in handlers.lisp
+0a4490b747ed558ca5892785863f4144fca51c1d|2019-10-29|Mike Appleby|Update handler documentation strings to account for new RESPONSE type
+c9770df2f75c7b82f3c99cc51d747ad6ad810d67|2019-10-29|Mike Appleby|Add explicit RESPONSE types
+b34e86a5e2a5613da20ee754c2eb55594f712334|2019-10-28|Mike Appleby|Add thin facade over hunchentoot's http status codes
+14c8cb9c3764da1a5f7c6691dd054e0a335b71fb|2019-10-22|Mike Appleby|Add :debug option to WITH-RPC-SERVER
+87dadcd007ccf4ba1dd435d4f5aed1ac55aa854a|2019-10-17|Mike Appleby|First pass at ridiculously-named jobbo.lisp
+58abd8d63a4181fcf2d02d4999472c8360f37149|2019-09-03|Mark Skilbeck|Squashed changes from job API PR #180
+aea803a6141284ebe7c54c232f9544cb7a4136c6|2019-10-17|Mike Appleby|Add sanity checks and default docstrings for SAFETY-HASH interface
+8f9a25ad6d9e036a3ec56effef4293c5fb7673de|2019-10-17|Mike Appleby|Add clean-qvm-cache target to Makefile
+cffda8faed14d1660a3fecfe18f07048ee61c5bd|2019-10-16|Mike Appleby|Enable testing of generic SAFETY-HASH implementation
+2c14edcd955887664105c8dc737911fc9987d0f7|2019-10-15|Mike Appleby|Lazy attempt to dissuade (:USE :SAFETY-HASH)
+a4e964c62b4410d6a46285c808e125830ba48118|2019-10-15|Mike Appleby|Add SBCL-specific SAFETY-HASH implementation
+824e8fcb3ec962a056a03b6eb7d0e0a6b661d26a|2019-10-15|Mike Appleby|Simplify format string in SAFETY-HASH:INSERT-UNIQUE error message
+fc2ceff77847da7d8268d9965c0625cce1211d21|2019-10-15|Mike Appleby|Switch to recursive locks in SAFETY-HASH
+2e72619dd780de151534937bb46b7a870787f9c9|2019-10-15|Mike Appleby|Fix binding form in WITH-LOCKED-SAFETY-HASH
+b9477f947368c39dddac4af3decd017d9f7d5c58|2019-10-15|Mike Appleby|Consistent naming for SAFETY-HASH tests
+231519abb3ce928000488b26bb1b663fa3a97d22|2019-10-14|Mike Appleby|Push SAFETY-HASH down into a sub-package
+559800b9c486c1d9886287dc665633c745135610|2019-10-14|Mike Appleby|Add SAFETY-HASH to abstract thread-safe access to a HASH-TABLE
+17d38fb3fa91e7f2f6a7ce0eee352d076c539524|2019-10-11|Mike Appleby|Check STREAMP before CLOSE-STREAM in CALL-WITH-DRAKMA-REQUEST
+abce488197279003f71f04b35520d9c0bb415def|2019-10-11|Mike Appleby|Fix docstring for **PERSISTENT-QVMS**
+7a2951dd85f1b0bdcca7f7cce61bd6d233fb88c9|2019-10-15|Mike Appleby|Gotta get them creds
+ce0ae97d3c5f5650733f94fe9362f6e51ebccd40|2019-10-11|Mike Appleby|Use uninterned keywords for IN-PACKAGE forms
+9f7427b5e9c1cc7a1f363e88cf26d67ee7d2ee41|2019-10-11|Mike Appleby|Replace #'PARSE-OPTIONAL-FOO with (OPTIONALLY #'PARSE-FOO)
+bec0afdcb3d06afbc032fa8ee5b951fbc74244e8|2019-10-11|Mike Appleby|PARAMETER-NAME STRING -> SYMBOL in %PARSE-STRING-TO-KNOWN-SYMBOL
+d1bacea42eb64b9147637c517749abe7f743b116|2019-10-11|Mike Appleby|Move app-ng UUID stuff into a separate file
+00bcbb037761a52050f2243dae2b71d98fb570a4|2019-10-11|Mike Appleby|Fix file path in comment header for persistent-qvm.lisp
+e311c3a99e0b8569f8514c6d1f60f4bcd80d76e3|2019-10-11|Mike Appleby|Fix format string for pqvm token lookup error message
+df2ae1bd0c783da5e52a52c5328eb4c45f48d49b|2019-10-08|Mike Appleby|Call QVM:PREPARE-FOR-PARALLELIZATION in app-ng %ENTRY-POINT
+a1edbad96b74ee9b3c1e9b317616df98542929c0|2019-10-03|Mike Appleby|Add app-ng/CrustyOldDockerfile
+52c963b854c2de68cfa7a87819c18a9a74489bc8|2019-10-03|Mike Appleby|Add doc strings for new RPC handlers
+58329d7cc961b15729da47ecabbf8f15980f8b68|2019-10-02|Mike Appleby|Placate the all-powerful python
+6963d11acb7506251843ec3995bca3db6d39cde5|2019-10-02|Mike Appleby|STYLE-WARNING: bad; inlined slot reader: good
+f3587743d0f424c5328126c19bba3073a52a6b72|2019-10-02|Mike Appleby|Add app-ng/Dockerfile
+1ef91942863d0e0a1517ec94e36d53b2f6ebf1e6|2019-10-02|Mike Appleby|Command line options + support for running an rpc request on startup
+2e073ab6490a705b12fbf9465b599eeae2ab25ae|2019-10-01|Mike Appleby|Add HANDLE-QVM-MEMORY-ESTIMATE RPC handler in app-ng
+9455ff12dac202356be090d03fac361c2aa797e5|2019-09-26|Mike Appleby|Define PERSISTENT-QVM-STATE= and call it like a civilized person
+2c4704c8e063c8da427295409bf31a1db263988e|2019-09-26|Mike Appleby|Add :FROM-STATE argument to %CHECKED-TRANSITION-TO-STATE-LOCKED
+dff45f030259f307c67ee9e1a78762f790495e0a|2019-09-26|Mike Appleby|Fix a race in HANDLE-RUN-PROGRAM / RUN-PROGRAM-ON-PERSISTENT-QVM
+7c1762c6af8aeb97b5d687d156b3dcb084a1f2ce|2019-09-26|Mike Appleby|LOOP -> MAPC for pleasing symmetry with surrounding MAPHASH
+403f3d32831e8618ebd0a95f80e8b48fd325aef7|2019-09-26|Mike Appleby|Use descriptive variable names in WRITE-PERSISTENT-QVM-MEMORY
+d9a58c4c900a5cd48ee731bc1d1c18abd90c9680|2019-09-26|Mike Appleby|Add more doc strings in persistent-qvm.lisp
+ddae8365bfeeb2f9a65dab195b9341e81232000b|2019-09-26|Mike Appleby|Calm down with the %-prefix naming
+ec0a5709c12682cf311209109f02106d209bf016|2019-09-26|Mike Appleby|Require self-transitions be explicit in +VALID-PQVM-STATE-TRANSITIONS+
+0db6abfbdca6447b5901476866189c6a66349090|2019-09-25|Mike Appleby|Add :TYPE and :READ-ONLY to PERSISTENT-QVM struct slots
+c8ab6db233bf22f7464bc33361b3a1804a8167e0|2019-09-24|Mike Appleby|Simplify WITH-PERSISTENT-QVM lambda list
+179bc882b337167e606eb00524b252dd353d3899|2019-09-24|Mike Appleby|Add checked state transitions for PQVM
+ce146d853ed1b37441bd05b5bb6263a881d17a1f|2019-09-24|Mike Appleby|Rename PQVM status -> state
+76178e48c038bd88adbad5dab240354f7a8ce50f|2019-09-24|Mike Appleby|Rename PQVM status AWAKENING to RESUMING
+73109772a4548c160eff34057cc837ae6f58cc62|2019-09-24|Mike Appleby|Be explicit about allowed state transitions around WAIT-FUNCTION
+88ca1dbb79fbd1c79abb7ed35c577ee78c3ed8c3|2019-09-23|Mike Appleby|Don't print status messages in wait-function
+8c374b5e44c5289fe51b1d6a84bd27aa61714163|2019-09-23|Mike Appleby|Move status out of metadata and add %WITH-LOCKED-PQVM macro
+752c4e41e5e717bc0879125b37304751fe6c5642|2019-09-23|Mike Appleby|Make PERSISTENT-QVM a Real Boy with DEFSTRUCT
+7e324a6dc6f05c31eb739a57a1b49915d57fd11a|2019-09-20|Mike Appleby|Add read-memory and write-memory rpc handlers
+06aedd093b27f74755eff01f9bfddaa24f25066b|2019-09-19|Robert Smith|WAIT!
+84de2ec6f94ccb96ea0371bcefe654c474a9a65f|2019-09-16|Mike Appleby|Change default port 5222
+5f00c68ce530dd73fb021c2e5b7abdbdaa484603|2019-09-13|Mike Appleby|Bump CL-QUIL dependency to 1.11.1
+42f68bd4b32778b9f2f9cfb7e1c10ad291b05595|2019-09-13|Mike Appleby|Add HANDLE-VERSION RPC handler in app-ng
+0343ac1439de8a83e443d401e2874d86a6367cb6|2019-09-13|Mike Appleby|Change (EQL NIL) specializers to NULL in MAKE-REQUESTED-QVM
+3cd0b6f0ed0c3cea03f04d5b7c67e0f3ad3c8a54|2019-09-11|Mike Appleby|Nix HEX-CHAR-P and use FIND instead in VALID-PERSISTENT-QVM-TOKEN-P
+6ad973361729ffa680e81e4c820b37ec7efc1ab9|2019-09-11|Mike Appleby|Various and sundry code review feedback fixes
+6949e2c8ba8505560e82e3dbf3eeb46691c4bb05|2019-09-11|Mike Appleby|Ensconce "constants" defined via DEFINE-GLOBAL-VAR in + rather than **
+7436b9f596d7de0f0b865bc1d3feaf266365db43|2019-09-11|Mike Appleby|Support for Pauli channel noise in app-ng
+c2878e996ab2a01d411b3192d40bcb3ba44694bc|2019-09-11|Mike Appleby|Fix unused variable warning in CHECK-REQUEST
+5a4f63e6b2d02dcad70cf3f47a1115c6b2520b4b|2019-09-11|Mike Appleby|Test allocation methods in TEST-RPC-API-PERSISTENT-QVM-RUN-PROGRAM
+39fc36fb80526a85c6458daa68fe33f7187dd49b|2019-09-10|Mike Appleby|Use FIND-SYMBOL rather than INTERN when parsing request parameters
+52aac8ab16f0298ff89381a6ccb01522bdb5e51b|2019-09-10|Mike Appleby|Change MAKE-REQUESTED-QVM to a generic function
+f047c6e0186d3c4e3b7175478802a35c9a28a43e|2019-09-10|Mike Appleby|Rewrite CHECK-REQUEST macro to expand to CALL-WITH-DRAKMA-REQUEST
+5991a1d1245b56298bca469af909b930ee10ecad|2019-09-10|Mike Appleby|Rewrite WITH-RPC-SERVER macro to expand to CALL-WITH-RPC-SERVER
+c1ee126082f54e9dbaa8df1161e760dc6d20d860|2019-09-10|Mike Appleby|Add a created timestamp to the persistent qvm metadata
+4eb6225b7ca743881f819956106a37e63fb4f53f|2019-09-10|Mike Appleby|Support for foreign allocation in app-ng
+b0fafcf6555d2124880b6b303b629e9e96849ce4|2019-09-06|Mike Appleby|Fix typo s/persitent/persistent/
+e349b8fa2f9d32c646dc8cde938ff6cbe86c43c6|2019-08-30|Mike Appleby|Fix style-warning about unused ARGV in entry-point.lisp
+05f3568780954aaaf846e776cee85fcca8feccaa|2019-08-30|Mike Appleby|Add docstrings in test-rpc-api.lisp
+48e8b740a618d051f110f23bd1e61b9dcd99d6a4|2019-08-30|Mike Appleby|Fix style-warning about undefined variable *REQUEST-JSON*
+87e2828bd61c62d30417d2dbf0639e1b015f6f70|2019-08-30|Mike Appleby|Remove CHECK-* functions from validators.lisp
+8b602d3f2af5c002fd21bfa892c8e460effffaf6|2019-08-30|Mike Appleby|Docstrings for DEFINE-RPC-HANDLER, START-SERVER, and START-SERVER-MODE
+b256638f6b84a07ce0c938cf231ab709c7000bfa|2019-08-30|Mike Appleby|Add QVM-APP-NG package prefix to QUIT-NICELY in tests/suite.lisp
+9e7756b2234d89239cbc20e51d56460da018d391|2019-08-29|Mike Appleby|Add some documentation strings in server.lisp and handlers.lisp
+b44ab5bf4832ee085eceff837a4941148ad749e8|2019-08-29|Mike Appleby|Add test-qvm-app-ng-edge to .gitlab-ci.yml
+e54716978fa7f56c58a86ce8b71af9d064d1501d|2019-08-29|Mike Appleby|Add lparallel to qvm-app-ng-tests dependencies
+27d285f520bc478a86c47e570cd32e925ea5a474|2019-08-29|Mike Appleby|Add a test for persistent qvm locking and fix a concurrency bug
+f9fe66b9a9c083249cd36dd565f90b9c698a23c9|2019-08-27|Mike Appleby|Accept upper or lowercase qvm-token, but canonicalize to lowercase
+8b19b2f382f517c53ab7570c746cb174ac88e342|2019-08-27|Mike Appleby|Make *REQUEST-JSON* unbound rather than NIL in the global environment
+796f9bd3bbeef8410ef5f80f89a6dacfaa9910b8|2019-08-27|Mike Appleby|Replace **QVM-TOKEN-SCANNER** with VALID-PERSISTENT-QVM-TOKEN-P
+ff555d57a56d245ea37524e02e916a175c9f6048|2019-08-27|Mike Appleby|Add more descriptive error messages and return 400 for bad requests
+54a646347b487ac32abfd6f8a7d3b1d87951a741|2019-08-26|Mike Appleby|Add some constants to reduce duplication in test-rpc-api.lisp
+8cbc43a58e7e33772953bf5da82f605fd782aebe|2019-08-26|Mike Appleby|Add parameter validation tests for create-qvm and run-program
+e8e86d87667143d46af2f8d24edd3f14cf494e4d|2019-08-26|Mike Appleby|Rename SAFELY-PARSE-QUIL-STRING to PARSE-QUIL-STRING
+02177893696f9b852ea9edc1ba7da2e67392dbe6|2019-08-26|Mike Appleby|Initialize QVM random state in DEFINE-RPC-HANDLER
+0065513835cdfc627b12a3dc9b2939a22ae22e0b|2019-08-26|Mike Appleby|Properly handle docstrings and declarations in DEFINE-RPC-HANDLER
+f4bfb24df00d8f24d70cb4b76ea7fa35140a717e|2019-08-26|Mike Appleby|Switch to kebab-case not snake_case for qvm info object keys
+9fd7f6b4b49774d7fb2dcf09eafdec249211946d|2019-08-24|Mike Appleby|Add persistent qvm api endpoints
+697b8e5ba6553db0e9c1a5d9679fab6377d06bac|2019-12-30|Mike Appleby|WAIT!
+04169da34a6ae7924b61c8b3b7a44e039d66216c|2019-12-30|Mike Appleby|SUPEROPERATOR-TO-MATRIX -> SUPEROPERATOR-TO-COMPONENT-MATRICES
+6d866683b4424ba076b75baf59b957733da5b504|2019-12-20|Mike Appleby|Ensure DENSITY-QVMs TRANSITION method respects NOISY-GATE-DEFINITIONS
+8fbd3e43e93fa70a1a59d65e20b5d42139ffe6eb|2019-12-20|Mike Appleby|Minor cleanup in NOISY-QVMs TRANSITION method
+3f2dabd809b677cc2c065aefa6057f850cd58f8d|2019-12-20|Mike Appleby|Use CHECK-ALL-KRAUS-OPS in MAKE-NOISE-RULE
+6a138390bdc7d5baef8f928c6634c4b3f937a583|2019-12-20|Mike Appleby|Add checks for kraus-ops and readout-povms in INITIALIZE-INSTANCE
+495a53c92664d6550858f98b3f2ce781014d975a|2019-12-20|Mike Appleby|Use CONVERT-TO-KRAUS-LIST in configure-qvm.lisp
+a2e56a25a0817e5185aad16796d4f65319ec4172|2019-12-23|Mark Skilbeck|Wrap variable in quotes, in Makefile
+ac22e422d9b172dbbd9bbec2db88acf366eddf9f|2019-12-23|Mark Skilbeck|Bump version to 1.15.2 and bump cl-quil dependency to 1.15.2
+feb7fe601eb69b6524663cbf4f58c6030e737325|2019-12-20|Peter Karalekas|Bump version to 1.15.1
+8e7329ea184daef0665692ba2a341621565862ee|2019-12-19|Mike Appleby|Bump cl-quil dependency in qvm-app.asd
+e8450dbaec20fcd571eceaa9947c04d2bcdd31fe|2019-12-18|Mark Skilbeck|Bump version to 1.15.0
+ca7cfcaf98f8d2311b31194ec1cd0b9af1822d0d|2019-12-18|Mark Skilbeck|Use cl-quil's tools for safe resolution of included files (#224)
+0dd21324b0d6af09eb992b6d584015d1e92cb200|2019-12-12|Sophia Ponte|removing old :AMPLITUDE initarg references in qvm-app (#221)
+997becf92ff7fc711763b39295b0ba9471b02238|2019-12-10|Mike Appleby|Update quicklisp_version to 2019-11-30 in Dockerfile
+b82ca46e9edc5ffc62ed8081f6c6eaf048788fd1|2019-12-06|Robert Smith|add type decls
+adef4d687b5e7a58f05051605735d71eebe5634b|2019-12-06|Robert Smith|remove use of fill pointers
+fed432cd75dbf5c83ec65fc994ad4091bc7f9742|2019-12-06|Robert Smith|move generic function definitions earlier
+257c6423853ac21bc35655c34ff5faca47376846|2019-12-06|Robert Smith|delete duplicate definitions
+8d6176eed1de5d03ad2a91ea534387bcbe51f34f|2019-12-05|Sophia Ponte|renaming apply-gate-state to apply-gate-to-state
+3ec0f9e1c1ee5f57798d4e7721bac3c6c60b5daa|2019-11-24|Sophia Ponte|export state representation functions and classes. Change quilc version in Dockerfile to 1.13.1.
+ae5640a8ec251172d760c58b28d6c8fe889063c3|2019-11-24|Sophia Ponte|removing whietspace and indenting for everything
+2f3de4e8f259d5907a129d7d93ec2fbba9604747|2019-11-22|Sophia Ponte|allocate trial amps first pass
+b59c5706814e2d6fc0b5a8d13993ff7540242129|2019-11-20|Sophia Ponte|Refactoring apply-superoprator, apply-kraus-ops, and apply-gate-state, and apply-noise functions.
+f94c26388de5b1c8a03077a600884f1c43d4c1be|2019-11-18|Sophia Ponte|Rename AMPLITUDES to STATE-ELEMENTS for the STATE classes. Also make changes to MEASURE-DISCARD transition, and style edits.
+632d92bb67abfe3fda3f9ca341a9d292c6a1ee20|2019-11-17|Sophia Ponte|adding tests for state representation
+ebca5910c25a23e0e30455acba05ab7754fdbd3a|2019-11-14|Sophia Ponte|Create a MIXED-STATE-QVM to simulate mixed quantum system states. Also, allow PURE-STATE-QVM and MIXED-STATE-QVM to work with superoperator definitions. This means adding a stochastic kraus application function for PURE-STATEs.
+b144d2b6f47d6483a112fa25efa03a1c7fdd7ba1|2019-11-13|Sophia Ponte|Edit MEASURE-ALL and MEASURE to specialize on STATE.
+de60e3524dda149e2e30c8a7373e9f3de39402a7|2019-11-08|Sophia Ponte|Update CHANEL-QVM to use STATE as a slot. Also, add ORIGINAL-AMPLITUDES-POINTER to the PURE-STATE.
+e799cf3a273e533b7543c24f64124c763596ce14|2019-11-08|Sophia Ponte|Update DEPOLARIZING-NOISE-QVM to work with PURE-STATE.
+325c80ead3524604daf0ee8986a313ae03a66ff2|2019-11-07|Sophia Ponte|Fold in apply-superoperator to apply-gate, so that apply-gate works with DENSITY-MATRIX-STATES.
+78c75ca460ebbfb778e99c35fd50aa3620ad4dda|2019-11-06|Sophia Ponte|Creating state-representation.lisp. First pass at PURE-STATE and DENSITY-MATRIX-STATE classes. Adding STATE as a slot to the pure state and density state QVMs. Also, changing apply-gate to specialize on STATE of the QVM.
+b01299810c69a0708c2ef72be777a330401e59f7|2019-11-25|Mark Skilbeck|Bump version to v1.14.0
+35350d23d015634d98fd26537c3c2e6c83ad8d0e|2019-11-12|Robert Smith|QAOA and MAXCUT landscape plotting
+c7d1b157b029f1c1b1547d9ada20f49c77964860|2019-11-19|Erik Davis|Add xy test (#213)
+32da8d4d31fc6ab8fbe1da45c149f3aafdc46465|2019-11-15|Eric Peterson|bump QVM version to 1.13.1
+bd2e7f1b5e86abd6a9a6af3c43d8da4257de13a9|2019-11-14|Mark Skilbeck|Async version check
+4169ff53fe8687c261d18ba5846b47e381df142b|2019-11-14|Mark Skilbeck|Bump cl-quil dependency
+1e2203ed14c7be307027adf46a8dcf88558aa099|2019-11-12|Robert Smith|fix gensym bug in WITH-PARALLEL-SUBDIVISIONS
+2a8827050c2d4318a13e4d9c5217e0a1dcb29448|2019-11-08|Sophia Ponte|changing the default :initarg of channel-qvm to be a valid noise model. Also, adding a check-type to ensure that the noise-model argument of a channel-qvm is a valid noise model. Adding tests for this change.
+a88eefeca23704363430b1922e54d81a9cdeee43|2019-11-06|Mark Skilbeck|Bump version to 1.13.0 (#208)
+9766852ff0f385de6d6385f3c99d04674214d580|2019-11-01|Sophia Ponte|Correcting the t-phi and dephasing noise calculations. Correcting the damping noise calculation. Also, adding elapsed time to the basic-noise-qvm to accurately calculate for dephasing and damping noise after each instruction transition. Final style changes. Exporting functions for channel-qvm, basic-noise-qvm, and noise-models.
+9498f98d60bb1bd7f311117073adfcd3b8520e3a|2019-10-31|Sophia Ponte|bumping cl-quil dependency in qvm.asd, changing quilc version in Dockerfile for gitlab runners
+f7e5d372b02706407437084b606047bd60829ebd|2019-10-31|Sophia Ponte|Rename approx-qvm to basic-noise-qvm and solve naming discrepancies between noisy-qvm and channel-qvm.
+28b5275370904154ecb3fa50bfe2b1d80028406f|2019-10-31|Sophia Ponte|Removing duplicate functions from noisy-qvm and channel-qvm. Moving all functions used by both to channel qvm.
+b0b1de9572b5f333dadff974d949b7cc7fd5c966|2019-10-28|Sophia Ponte|Add names to noise models and a print-noisy-program function to test that channels are correctly applied throughout a program ran through a channel qvm.
+c0e88ddf376707f9fd3a35ed3a401cc76e5e8a26|2019-10-24|Sophia Ponte|added match-instruction-index predicate and test for it
+712f40fd678cd4e79dc9b2fe6b6ad37f249e12b8|2019-10-24|Sophia Ponte|Separate noise models and channel qvm into separate files. Add depolarizing noise functionality into approx-qvm
+568e620da883099c9f3e334ff82039978edc8015|2019-10-21|Sophia Ponte|Refactor noise-model multiplication to work with priority ordering.
+11aa443b31fd4e3081a9564da59c3847a2ae5341|2019-10-18|Sophia Ponte|don't compile channel-qvms
+a6ffa4f1e601eeb13d742fad0b1eeba7d646d672|2019-10-17|Sophia Ponte|Writing more tests for channel-qvm and approx qvm to test noise model construction and correct noise application.
+b4b8346764886155687177785d8ca61e3b24a3d1|2019-10-15|Sophia Ponte|Implement priority ordering in noise rules for channel-qvm.
+575d92e876dff7c26f278c8b29aaf5c7c51f1170|2019-10-11|Sophia Ponte|- Unify apply-all-kraus-ops and simplify it in approx-qvm - Correctly tensor 2q kraus maps for multiple noise sources in approx-qvm.
+8f7401b212dc9212574ee930f3fbdbe11bdabdf8|2019-10-08|Sophia Ponte|Making changes in noisy-qvm to use functions that are now defined in channel-qvm.
+547f95999220e9315c4dc202de46e21c4904a0df|2019-10-07|Sophia Ponte|Building out test filess for approx-qvm and channel qvm. Refactoring kraus application functions to generic methods.
+45eefd1fed5a56c9662932fad7e42ebc5d29b56f|2019-10-03|Sophia Ponte|Reformatting the approx-qvm and channel-qvm to work with instructions involving multiple qubits. Additional stylistic changes.
+236290b5173ec5367a11db4833781ceb97a94fbf|2019-10-01|Sophia Ponte|Implementing and testing the approx-qvm.
+3739fb77f42321430cd432a8304300c6dbbd23ec|2019-09-30|Sophia Ponte|Instead of a predicate matching function alone, use a noise-predicate class to convey priority and position of kraus operator application.
+7eb278c3b2a370ebdc5c34a6a63e82ec03544c0a|2019-09-20|Sophia Ponte|- Implementing a rule-based noise model for the channel-qvm. - Implemented predicates and kraus operators to apply after each instruction during the channel-qvm's transition. - Implemented rule-matching functionality. - Added functionality to combine noise models by addition (adding noise rules) and multiplication (composing noise rules).
+fad428c6550fe9a0432c02b5e4b1dde59fdb8f27|2019-09-18|Sophia Ponte|Building out approx-qvm with T1, T2, and readout noise.
+5bd0de4722e5107be6e8243bdf904bf772a21cd0|2019-08-28|Sophia Ponte|First attempt at implementing a channel-qvm with a simple noise model and readout noise separately. Also, a first pass at an approx-qvm.
+209972a83424119ac728dbeea9cf69b026b6e71c|2019-11-04|Juan M. Bello-Rivas|Replace COPY-SEQ with COPY-LIST.
+97b292d2c7f22a7a422c0787f6d7be5a22537b26|2019-11-04|Juan M. Bello-Rivas|Abstract the notion of a Hamiltonian.
+db5c0203ef975c54febcdb94fdc3cda0f4f6a017|2019-10-17|Juan M. Bello-Rivas|Remove unnecessary WITH-OUTPUT-TO-STRING.
+7807816163c6aa316a2bde09210e4d1678c3dc38|2019-10-17|Juan M. Bello-Rivas|Implement deflation.
+72c7e816213488907aa30981a2d2b2b789029e37|2019-11-04|Mark Skilbeck|Use new SDK version listing
+45817cc57f2ac6fbbe2c904845a162bf8f39f548|2019-10-30|Mike Appleby|Add HANDLE-POST-REQUEST-AND-CLEANUP
+3d4361d38c2f2a8b641e9d01a08b55035e6544d0|2019-10-30|Mark Skilbeck|Turn on version check, send QVM version (#203)
+48c646c89ba6eacfd4603e675c4a8cb3f9caedf9|2019-10-23|Robert Smith|add support for serial kernels
+5fd449237692e926d97be9ef108f1bc70ca7bd7b|2019-10-28|Juan M. Bello-Rivas|Work around out of memory issue with foreign allocator. (#199)
+1b3714ff6352387affa6edfbc533bb211c549100|2019-09-27|Mark Skilbeck|Bump version to 1.12.0 (#193)
+31ef7e96e032663324b459aba62dbe9c63cf1370|2019-09-25|Juan M. Bello-Rivas|Write example implementation of VQE. (#182)
+275b1057b9a9b1051bd3d360d88c77171f557b05|2019-09-22|Mark Skilbeck|Optionally hide wavefunction during batch mode
+48b9ac414af04d78ddbc464247a18a4e8112e728|2019-09-21|Robert Smith|don't measure in hadamard benchmark
+5a9fba05598616eac974ee107d0afa1e009ae889|2019-09-18|Robert Smith|fix filename
+81028556248266a18ce094c5894e877a85f8c042|2019-09-16|Juan M. Bello-Rivas|Remove unnecessary EVAL-WHEN form.
+c1351ef7a363d55acbc794c72e00410887f6e549|2019-09-16|Juan M. Bello-Rivas|Move DEFCONSTANT forms to top-level.
+2d1e43e2a9da9775f9d4aacc5009d828998e4755|2019-09-14|Juan M. Bello-Rivas|Add simple-array ranks to type declarations within DISTRIBUTED-QVM.
+746cb849ff0a34fa9da96b343b3eea2c02c40c31|2019-09-14|Juan M. Bello-Rivas|Improve documentation.
+1e1a0e2212629db660e2107615bfebb6b2773dae|2019-09-14|Juan M. Bello-Rivas|Include array rank in type declaration.
+0e185765e197e069515d9d1bc90aa96a85cc0d3b|2019-09-14|Juan M. Bello-Rivas|Simplify RESET-OFFSET-ARRAYS.
+06dcf1e3ca811ad857705912cb09a4096c7fba60|2019-09-14|Juan M. Bello-Rivas|Post send requests as soon as they are determined.
+923fe8b68e707ba5d5f2c3877b2d67724b69d468|2019-09-11|Juan M. Bello-Rivas|Simplify loops.
+ab32b494f2b931f27e0f09f05203832be91ba446|2019-09-11|Juan M. Bello-Rivas|Add documentation and type annotations. Fix call to finalizer.
+9a35ac7a43d06888ab1d7c4cc485fd219b40ede7|2019-09-09|Juan M. Bello-Rivas|Work directly with foreign-allocated offset arrays.
+391681aab066ab1a524b590c281e4740c30042e3|2019-09-09|Juan M. Bello-Rivas|Invoke profiler by passing the environment variable DQVM_PROFILE. (#174)
+21b751c135b22b355e666e32230cfb98bae10f64|2019-08-26|appleby|Add app-ng directory to LICENSE.txt spiel
+e1678a608f1179c3ae7c61c4c67b73e1c6d1eaa1|2019-09-09|Juan M. Bello-Rivas|revamping the dqvm
+234cf13cb03027c735ef864b811db608a62ebb8e|2019-09-03|Mark Skilbeck|Bump version to 1.11.0 (#170)
+a8d1baa6ae6d69f374d21c808e2a70197f37252b|2019-08-30|Cole Scott|Disable call to zap-info in app build
+1a7c1db90872a3305d61c39546f631809ae97ba1|2019-08-28|Peter Karalekas|Add info for pulling branch and commit Docker images to README
+c37c701da9abcd3d07b262375a08ea919797200a|2019-08-28|Peter Karalekas|Add Docker build and downstream dependency info to README
+2d35b1e7d89c8e65e7c39b0fc0fcff79a92fa00a|2019-08-28|Peter Karalekas|Add 2 CI jobs that build from quilc master and allow failure
+8a12d6a475328919da9116c5a2e759a677954349|2019-08-28|Peter Karalekas|Add template .test CI job and extend others with it
+6d492ba4d1c94cb7cdcb577447ad765497e3b38e|2019-08-28|Peter Karalekas|Run the CI tests inside freshly-built qvm Docker images
+fb7ba105001e81f5196b2e93f9576b7b1232d35f|2019-08-28|Peter Karalekas|Docker build FROM both the quilc and lisp images
+02a74512a1a0493990c3e727e25f07aecd04b2d2|2019-08-21|Cole Scott|Add intrinsics feature to app-ng tests
+ddbc282a451991c4f6c6e2df14ae81c66c87046c|2019-08-21|Robert Smith|add allegro impl functions
+7b32df66ecb8f0045e175084c5028bdf47ff0f3c|2019-08-21|Robert Smith|add nop-loop benchmark
+394600f0745572d1c5c8f7521fee127ba5b14b9d|2019-08-21|Robert Smith|portability
+e5d7e8741addbba99381d23fb021364a940622e5|2019-08-21|Cole Scott|Add movable tag to %2x4matrix-to-simd
+45cdf2878abe1b251ade7394ffa97900f8356646|2019-08-21|Robert Smith|always return NIL from with-parallel-subdivisions
+9f823e75acd9148b5457c35db9860dd58c9115e5|2019-08-21|Robert Smith|parallelize with-parallel-subdivisions only when necessary
+497ce44009e202d18aeac4bc4615e2f754351b68|2019-08-21|Robert Smith|delete unused variable
+cdcde90fe303bdca7b618f685c54c1406ed93647|2019-08-20|Cole Scott|Add comments to avx intrinsics
+f432ffd6bd53a6591cc8e99e63cebf5ffb4e2c9e|2019-08-20|Cole Scott|Remove speed from intrinsics
+601c77b496beccb8695684423891150bf291b66a|2019-08-20|Cole Scott|Fix variable being the wrong name and tests not using features
+430af4b44e3600b1ed9733dd509177c007593c8b|2019-08-20|Cole Scott|Minor moving, styling, and documenting avx
+d1fd674567511093d40879177db60040541472db|2019-08-20|Cole Scott|Add QVM_FEATURES to tests and add qvm-intrinsics by default
+a24f5bed27533e97b294bbf8c0d535bbb810cef8|2019-08-20|Cole Scott|Add more documentation to sbcl-vops
+bd25c661e6e2ff21626e9a2a36e263a9a08e779a|2019-08-20|Cole Scott|Add feature list to welcome message
+78a7ad97817ee49325e7e6c3e8fe5df7728534db|2019-08-20|Cole Scott|Remove duplicate definitions of prefetch
+0253fddff3b1ff7afd07d3ae5e7f58563e6370e7|2019-08-20|Cole Scott|Add QVM_FEATURES flag to Makefile and document qvm-intrinsics feature flag
+9b25cd2219258aac22bfdaff97c5c3ec1cb9b7b5|2019-08-19|Cole Scott|Move intrinsics to new files and fix intrinsics tests
+4c9bba75458ae2b9c0aa48277f58dd03c6b786fe|2019-08-19|Cole Scott|Move prefetch intrinsics to own file and add feature exprs for avx2 vops
+f775069a6b5e434f169ea10dff9b83b4ed36c172|2019-08-19|Cole Scott|Add prefetch vop
+357222b20d29eec963fe771c20c5b8bc6b609cf7|2019-08-19|Cole Scott|Compute better index stuff
+d2c4419345df841e13561a3d337b61c6535c7b4b|2019-08-19|Cole Scott|Fix ordering with apply-2q-operator
+1e0767cb4200a6ab6f8268cdedb6d3fdc51ec32e|2019-08-19|Cole Scott|Add apply-2q-gate using avx
+277d2cf2f8eb746929d21ec58fa51ed8c9f5a678|2019-08-15|Cole Scott|Add matmul4 avx and tests
+7fb99d38e02f69b8a618789b29ed42e797567171|2019-08-15|Cole Scott|Change avx matmul to use existing temp var as accumulator and skip useless swzl in real matmul
+120965f0dbf73c322fb393017964a287167697af|2019-08-14|Cole Scott|Add real-only avx matrix mult vop and function
+e4dccfbd6eff89f114b4d23ecae1abe0f128e547|2019-08-14|Cole Scott|Fix formatting in matmul2 benchmark
+fb86eda9e34277f5a4563ec01594ee4412fd422f|2019-08-14|Cole Scott|Replace zero then madd with mul in avx2 matrix multiply
+ae677e99c8d210070d10d8efa3143dace42dbc3e|2019-08-14|Cole Scott|Remove silently overwriting function database in vop defknowns
+412fef45effa155fb2bfdecb0d6303d9b9c42cb9|2019-08-14|Cole Scott|Add basic documentaion to AVX2 functions
+3365d75acec40b26e1843be0a3bbc09be150486d|2019-08-14|Robert Smith|add contributors to AVX code
+e4a7d20ad7f3ec3a216aef4809d12102e2e81b47|2019-08-14|Robert Smith|PREPARE-FOR-PARALLELIZATION before running QVM-APP tests
+6f90c1e9a2af2fc8c8801652ecfbcab3f47a2c84|2019-08-14|Cole Scott|Add basic avx matrix multiplication tests
+f1ebd8318f8f60a13833fbed61a311545a5353b6|2019-08-14|Cole Scott|Move vops to sbcl-vops to prevent loading errors with quickload
+a2882ae028cde6672095dac824dae64ae7b024a5|2019-08-13|Robert Smith|enable AVX2 in APPLY-MATRIX-OPERATOR
+feafe321237c0690b5735ff217de579995fc52d0|2019-08-13|Robert Smith|style fixes
+b7dcd6a4dceb1275773bda0db909f5c839b91b22|2019-08-13|Cole Scott|Add basic 2x2 matrix mult intrinsics
+a0ffde61806d1d30e0eb25fe5f1bb7f68c760ce2|2019-08-21|Cole Scott|Fix coverage hashmap error caused by sbcl api change
+4b24b203c4391a648e1585848bdae9296bb87f5a|2019-08-20|appleby|Initial commit of qvm-app-ng project skeleton (same great taste, less filling) (#146)
+30da0afe07e4100a9ce30566259c3777399dd400|2019-08-19|Juan M. Bello-Rivas|Use ALEXANDRIA:NON-NEGATIVE-FIXNUM and remove dependency on ALEXA.
+bdbacb7f38db5c41d544f37145faf138b504e784|2019-08-16|Robert Smith|implement NAT-TUPLE-REF
+8f9c1c4523ac2df8025b6e69f61dee0010b90113|2019-08-05|Robert Smith|add data structure for qubit subsystems
+4b1f74dac5a0aca6b4da717df3438bd7de20216b|2019-08-03|Mike Appleby|Fix a handful of (DECLARE (IGNORE ...)) STYLE-WARNINGs
+7ecb81e238307ffe0e0a27ac72f016ea5d641fe8|2019-08-03|Mike Appleby|Add WITH-LOCKED-LOG around calls to CL-SYSLOG
+008250fd1bf1d5e4fa6cf8267da08643450c1e59|2019-08-01|Robert Smith|describe wavefunction.lisp a little
+59e86d966c53d5511a1cf6390873425b3a60c2da|2019-08-01|Robert Smith|eliminate some STYLE-WARNINGs
+2517ed1155540d389b5f477ee475be9851ccf0f6|2019-08-01|Cole Scott|Fix divide by zero on no instructions and add newline
+d21452e257dfc171c212bb6d5c4a75baf490f80d|2019-08-01|Robert Smith|delete useless class
+4500d22f2c129d2baa234aa6d50c2b691de1b3ef|2019-08-01|Robert Smith|clean up compiler notes
+b178f8d7574476b5f172e7c31a0470f9178916cc|2019-08-01|Robert Smith|move LOOKUP-GATE to more appropriate place
+2dc3f1035df735c1f25c0b106fcc290f2f5e76ce|2019-07-29|Cole Scott|Fix qulacs spelling error
+4ab8666770a6ea5aa51dc9c6ca817b014a145d11|2019-07-29|Mark Skilbeck|Simulate FORKED-GATEs (#138)
+1f0e84636f84612d7765cb852e694e2687c23ffb|2019-07-29|Eric Peterson|bump to version v1.10.0
+75af1a2ee510b2d10c9b3e4e66a1042d1af02a56|2019-07-25|Robert Smith|fix a typo
+cd5456339ca87849c630977a3ca33a5243b53eaa|2019-07-25|Robert Smith|enable optimizations in tests
+1519fbb4d018d9a2ad404a4c0dba3bde1b914691|2019-07-25|Robert Smith|allow compilation level to be configured
+3eda710d1ccd1a773bd92e43af0f2e45de315af7|2019-07-25|Robert Smith|allow inlining gate matrices
+ae214086b92ad2042a53aba101457d68780d40f3|2019-07-25|Mark Skilbeck|Fix QFT benchmark
+b5e268ee85fc41f7c5bcf0a859c025dcdf64b432|2019-07-25|Juan M. Bello-Rivas|Update stale exported symbols.
+434b2e5b31d521c53ad415efbd6aff809078b6cf|2019-07-22|Robert Smith|Compile individual calls to MEASURE (#130)
+40c11ca8a8e6a1e7602162da067d1fc4da7a34ce|2019-07-10|Robert Smith|APPLY-CLASSICAL-READOUT-NOISE for easier extension of diff instrs
+10458b029c51e93a7210d31244592f7b321bd9f0|2019-07-10|Robert Smith|dont compile instructions on density-qvm
+03681139a44c3b3ecefc8704e4216af50093c650|2019-07-10|Robert Smith|dont compile instructions on noisy-qvm
+20ed61973bbcd7e3bd4a335cba32170b1f12164f|2019-07-10|Robert Smith|ensure magicl matrices transform into complex arrays
+830c5368b046439dbc9b9a7b9a848945bf7c7c55|2019-07-10|Robert Smith|inline WAVEFUNCTION-QUBITS
+f0e773f94e19246f4b73839f360af7e53194411c|2019-07-10|Robert Smith|add RANDOMIZE-WAVEFUNCTION
+a1709debb2be88a0eae5769ee030cc12835c7b7d|2019-07-10|Robert Smith|fix CALL-NEXT-METHOD syntax
+57950c9ff107bbc4c400d202a2397c6d2ab76487|2019-07-10|Robert Smith|clean up noisy tests
+8c2b1dc6c13d18dd46ffd5afeb845bbf734a7d8c|2019-07-10|Robert Smith|be explicit about EQL hash table
+bff1b726ec99ba340a77ba1fd75ed9f8f4ee2783|2019-07-10|Robert Smith|add baseline benchmark, remove computing it by default
+730ceebb19116a4b00019fbf67b71d5ff8fe4188|2019-07-08|Robert Smith|change multiple DPB to LOGIOR
+c7848b081d2e2376a86438708942f460c24df35d|2019-07-03|Mike Appleby|Remove SLIME-MULTIPROCESSING from lisp-setup.md
+986f3a2f4c4569f107d7e32991237992f5664c3a|2019-07-02|Juan M. Bello-Rivas|Remove dynamic variable *program* (fixes #16). (#121)
+7c7947174a18ac79c0b2a037800834b034293285|2019-06-25|Mark Skilbeck|Bump version to 1.9.0 (#120)
+2f4441359603eae27a7aa5e7f42500301e90d686|2019-06-24|Robert Smith|Implementation of a stabilizer QVM, an efficient simulator of Clifford+MEASURE+RESET circuits (#66)
+5b0cd6ad181f61d297aa46cb7b0a745edc997dff|2019-06-18|Juan M. Bello-Rivas|Get DQVM back running.
+ec401312a2771e65c601437c3dc23c623ecd6777|2019-06-09|Juan M. Bello-Rivas|Add missing space in command line help message.
+75f395d2a57889c6aa69e763cd70c42257c72fc4|2019-06-07|Juan M. Bello-Rivas|Remove fragment of sentence in README.md (#114)
+155fcca4bd719eb786331ca0e2b928b836bbf9fd|2019-06-06|John Lapeyre|[wip] Allow changing the number of threads in thread pool (#107)
+74dd8f39907e6fc99a1beb392d096f8f52730ae0|2019-05-29|John Lapeyre|Update performance test for changes in memory model
+a1661642e46301c53558362956cefc291f82d8b0|2019-05-29|John Lapeyre|Add some generated files to .gitignore
+4b697b7e2149e648258177f6e30ea9c8d279ef66|2019-05-29|Mark Skilbeck|Use $(QUICKLISP) in Makefile's clean-cache target (#103)
+176fb3024fd550476b6e8536cea1f557a33c80f2|2019-05-23|Andrew Shi|Fixes #51 (#100)
+8c6b61ba375e91c9e994ffa54e90ff9189542d16|2019-05-23|Mark Skilbeck|Test measure discard
+94d402bf9bc8cb2c76843d82e5287e462f6be41a|2019-05-21|Mark Skilbeck|ret-qam -> qam
+a9c5273f93bccdb0689e70c5a1ff23821ad56713|2019-05-21|Mark Skilbeck|Add MEASURE-DISCARD to DENSITY-QVM
+356369ca7e80d5e677675a114ff7abf5faec40ff|2019-05-22|Mark Skilbeck|Bump cl-quil dependency (#99)
+26d851264f176b19f5559cf8811370cf3c9fb78c|2019-05-20|Peter Karalekas|Bump version to 1.8.2
+f71ce09fc0e8039437434132c1255cb33a8bbe51|2019-05-19|Peter Karalekas|Add a GitHub release shields.io badge to the README
+3ce76b3340b66764db8ad7bd81a2e5f1a4febf30|2019-05-19|Mark Skilbeck|Note about echo command on Windows (#95)
+ac248895965bb6e15d630aeac2d7ba4315997e9b|2019-05-19|Mark Skilbeck|Provide --proxy, catch usocket errors, SDK check off by default (#87)
+0482ec60967fd7950c1a9f6191a23275b4476c77|2019-05-16|Peter Karalekas|Add a docker pulls shields.io badge to the README
+e2471317f99d4f869babc83feb6fd91168dc346c|2019-05-16|Peter Karalekas|EXPOSE the default qvm server port in the Dockerfile
+66da41d7b63c0338d0e47d8cf34530f6f4ce80de|2019-05-17|Eric Peterson|lol: version bump to v1.8.1
+d9709325a4ee0e4f6e702d58429610bd924eef07|2019-05-17|Eric Peterson|bump to v1.8.0
+76f10cbe5329ef8f699b886067f57893685882dc|2019-05-15|Mike Appleby|Nix :DIMENSION when constructing SIMPLE-GATE or PERMUTATION-GATE
+bda3a4a384cba773d2c73bc9dc8d6e6bd957c494|2019-05-13|Mark Skilbeck|Provide complete list of options in man page
+cd1a95d40f62b19894166a0ddf9f30ba7923840a|2019-05-13|Mark Skilbeck|Update man page to include --check-sdk-version and --proxy
+88592bf75ffec70223561054c2cf74e9fed42d3b|2019-05-02|Robert Smith|simplify the pulling of teeth
+0f2d3837c12d7a0ef6ebee9d3337b4e8790bce96|2019-05-02|Robert Smith|fix breakage due to feature/lifting in cl-quil
+746a143cc3cc16716cbfae0750c8375cc72b8f28|2019-04-01|Mark Skilbeck|run-unless-environment-has now skips the test
+cc201bb6d61a3a59c699b851ac1d3b68fd8f149f|2019-03-28|Mark Skilbeck|skip unix/sbcl tests on windows/non-sbcl
+3e12a10681b6e4b0ed898b07af920cec48da6f0a|2019-05-01|Mark Skilbeck|Actually test startup behaviour of -p vs. -p and -S (#83)
+ade78921dc96c745a42a2d718b1a634e32e39912|2019-04-29|Eric Peterson|version bump: v1.7.2
+25e594234d0cb89b5f4a8a588822389cb7f3e9e1|2019-04-29|Eric Peterson|bump version to v1.7.1
+4f622dd9f1d1d77764bc77c89cae0920db1da41a|2019-04-29|Mark Skilbeck|Fix check for an available update, including if network is down (#79)
+e9d51684694d09b03a52709981efdb8161ad2079|2019-04-29|Mark Skilbeck|fix QFT benchmark error: use handler-bind not handler-case (#81)
+01071812a10aad2244ab58e7e8ea9080ce98c4e4|2019-04-26|Mark Skilbeck|Don't start server if only -p is provided. (#80)
+ea8f4de9462b259cf29c661223580dee2d5c0ae7|2019-04-24|Mark Skilbeck|fix stray parse-quil-string
+b504e41eb60a939648565c8f624899a3ca958119|2019-04-12|Mark Skilbeck|Rename parse-quil-string -> parse-quil
+c48d5e71848f498ac847c98c4272bad1f2611b09|2019-04-24|Eric Peterson|bump to v1.7.0
+897216b349e7145b0478620df791c3f82d425696|2019-04-17|Robert Smith|introduce COMPILED-LOADED-PROGRAM generic function
+7115037e5e66de476fa4f3e390acc152be9ae684|2019-04-17|Robert Smith|enable gate fusion and measure chain optimization
+b9852360fd087d66c940ad2fc732c9e7a3ceb050|2019-04-18|Mark Skilbeck|Configure host with --host (#74)
+64071931f68c78560f4fd5fc7bb056316b2e1f0c|2019-04-17|Robert Smith|state that qvm is available on quicklisp
+9fa6bbcd3b00d8f79d22d5f189a791ef43bc46b0|2019-04-10|Mark Skilbeck|Do not require SSL in drakma library (#70)
+4cbcfd91d400ec5a25a258d3c0c41884fedd8cbc|2019-04-09|Mark Skilbeck|Use ':win32 in build-app.lisp
+a129733306aa435b3561b10aaf368d28e0bb289a|2019-03-21|Robert Smith|do patch-labels in load-program
+ac0893a42ccd4ebfbcae6720af83acdd71684b16|2019-04-01|Robert Smith|classify log messages a bit better
+dd21b0e17eab678b425fd749ad62f9ec0e001d90|2019-04-01|Mark Skilbeck|Add --quiet and --log-level options (#63)
+77153d9479dd2a5aa5653ff09a3b71a740abc9bd|2019-04-01|Robert Smith|compress core if available
+1655b5c803a960f1bee5157193262d3c47b11772|2019-03-29|Eric Peterson|bump version to v1.6.0
+7313b2f8b4b550e779196fb7acc83e10c56c1bfa|2019-03-15|Mark Skilbeck|Undelete default-allocation option (#57)
+0ca9de581cc15a59ea5a5e7d4aeab674b39ee158|2019-03-15|Mark Skilbeck|Check for sdk update (#56)
+f0e3d4e3e9343cfbdaf0f5dc8bbbff2b4f38fdcc|2019-03-06|Robert Smith|allow ALLOCATION option to MAKE-DENSITY-QVM
+b6383e50e104fa1ef46dda133b8cf68a11eac0de|2019-03-06|Robert Smith|make tests look a bit nicer
+39e78184d1ca5722f80c59338693b385c58a32ee|2019-03-06|Robert Smith|fix pointer swapping test
+0d0901875ec499d05ec8e4a7a5fea7ca4c8db2b0|2019-03-06|Robert Smith|only swap pointers if memory is foreign
+0108768fa16a963043a7019ddaae329b33d2ed5b|2019-03-05|Robert Smith|explain the custom-allocator test more
+49b9c8d7a89fdbdc05bfd3c2f01e95a7e01828b4|2019-02-27|Robert Smith|use gencgc-card-bytes instead of getpagesize in test
+39b14ddc414025cd8a45357473badeca6c3c1c3e|2019-02-27|Robert Smith|extend readme with new --default-allocation docs
+39245fc816b91ab135e368f9faf1876fbfff8935|2019-02-27|Robert Smith|allow an allocation mode to be specified with --default-allocation
+e087e2d7b2ae3172ad0b92f03d615eb3464658d2|2019-02-27|Robert Smith|default args in deftypes
+92624320873fc7960dc5fe1664a3ddb9791f3d98|2019-02-27|Robert Smith|clarify some comments
+7a90046025a318d4be4d78e40c8e061d450e52c8|2019-02-27|Robert Smith|modify test to be more reliable
+d0fb6eff76046eb143083875a7b2ece1a25372e8|2019-02-27|Robert Smith|more strict FLONUM type
+cfc142949863b8595c8be2e87a0c3a5fe9e0758b|2019-02-27|Robert Smith|correct the docs
+998aff05d71d3d4f23bcecf74750660ee31c2611|2019-02-27|Robert Smith|fix typo
+ca5cbf62254ae87b7d033181ab2316b34795505f|2019-02-27|Robert Smith|allow length on CFLONUM-VECTOR
+56c54f1c14fae44a1cbe824c5a66f736f82c440d|2019-02-26|Robert Smith|allow allocator in MAKE-QVM
+28e65e182093dde75385d52612fe6bd34945ad19|2019-02-26|Robert Smith|initial interface for different kinds of allocations
+7cf05a75ba771292f070751c561b0aaee2ef673b|2019-02-28|Erik Davis|add run-for-effect endpoint to api
+8db7b779ae93bae561718c0f6e6294c48b3761a5|2019-02-28|Erik Davis|add probabilities endpoint to API
+a0ca91097fcb939237790eebb8efd94d31f96acf|2019-03-07|Robert Smith|update lack of -e option in README
+f00f8bc798f97103c2c52df3030127808ac55ef6|2019-03-06|Robert Smith|mute swank variable warning
+5eeab5745e43be6151e45e013a8f5b464527bd91|2019-03-06|Robert Smith|make execute mode default
+50329c54c7700c7402576db308890c427b74ec7a|2019-03-06|Mark Skilbeck|log to stderr
+aacb70c5e258c03ee3846e042d608ef4939af0f0|2019-03-06|Mark Skilbeck|bump version to "1.5.0" (#50)
+e250a64b36da4fa7836db31093d5d9c448c5ae36|2019-03-06|Robert Smith|make MEASURE type safe (#44)
+19da52e60cb13d36e063c85e6f39c006dbb7ffc4|2019-03-06|Robert Smith|don't run all tests in both modes (#48)
+2483d5b7563bd2fbb059d03e846433497e8a7edd|2019-03-05|Robert Smith|fix typo in comment
+be6e942fe71047c004f61901b65d6a572c455f97|2019-03-05|Robert Smith|add qualcs benchmark (#43)
+26828c1af5ad780155c13feee2abd024c543f9be|2019-03-01|Robert Smith|update typos in acknowledgements
+650f27604964b9fe420ab538086db3415dcc4181|2019-02-26|Zach Beane|Remove documentary/commentary references to buildapp.
+fdbbbb65b7974b526913c2e9d02cb7d9cbac2d9e|2019-02-26|Zach Beane|Remove use of buildapp per #33
+47e153f0e49a6e1cfef15cc9988f401a16e116ef|2019-02-28|Erik Davis|add install/uninstall from makefile
+264fedf88a9de6839122c4983e7c56a52953bb4a|2019-02-26|Mark Skilbeck|Remove nil from qvm:measure calls
+d65f1a7585e4f4855de0836fa6feb6bc8da8209a|2019-02-25|Felix Tripier|Makes classical bit param in measure optional (#23)
+8d6b380ba3eb624ed53662c8e3404f32dd9ce10a|2019-02-21|Robert Smith|allow --parallelization-limit to be specified (#31)
+c7a4ef99be55908b55eac1c1d9e47abab6a28b20|2019-02-13|Eric Peterson|bump version to v1.4.1
+646e71cf4a7aaf22a741ffc60cccaab694361763|2019-02-13|Eric Peterson|match rename
+1f8aebebc962b5bb80aa524d72109d80dfbf8029|2019-02-13|Eric Peterson|bump version to 1.4.0
+d6fa70e96743a14a36eb717b77f03649844d748a|2019-01-31|Zach Beane|Add a trailing slash in the quickproject example
+8cbf1e2c197504dc563d1b93e78c112170634347|2019-02-06|Zach Beane|Bump VERSION.txt
+88085319ebe9d28e13d6dffe19fdb0a6ce1bea23|2019-02-05|Peter Karalekas|Add pipeline status, Docker usage, and release process to README
+4046f35fd4cb4ffc2e87cb9566e941105758a81d|2019-02-05|Peter Karalekas|Add CODEOWNERS file for default reviewers
+2420e6f8c10402aaa2b2f9e55f32dc4914f4c0bd|2019-02-05|Peter Karalekas|Delete the docker CI jobs and instead include them from rigetti/ci
+1a7f6be895519265b83036ba1c8495fd6ddd25ba|2019-02-05|Zach Beane|Update Makefile, Dockerfile to support SDK builds (#24)
+f66adb7ab9a873a3834db1f4aaf6753714ea0548|2019-02-04|Mark Skilbeck|Require cl-quil 1.3.2
+435956e509037fd3abdd9f941845e07f1f634401|2019-01-30|Mark Skilbeck|Tidier QVM example in README
+57d7b8e045ffc95c38b279ac66bf94aeaa1e8f93|2019-01-30|Robert Smith|initial public commit of the QVM

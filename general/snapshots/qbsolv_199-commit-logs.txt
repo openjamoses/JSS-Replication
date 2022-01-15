@@ -1,0 +1,394 @@
+a406a795663e82645faa82aca1a58a3cf4513e64|2020-09-22|Radomir Stevanovic|Release version 0.3.1
+f7bbc2b48fa3f9217a1ac4e203931a897ba8f790|2020-09-22|Radomir Stevanovic|Merge pull request #152 from randomir/shape-up-for-release
+d8a652ec7705f5f7711c25400d54805f7442f366|2020-09-18|Radomir Stevanovic|Don't deploy linux/py39 (deps aren't ready)
+f18a7fffcec24d43e27e760c67654c5b956eb8c0|2020-09-17|Radomir Stevanovic|Fix windows tests (appveyor env change), simplify AppVeyor script
+cb87818cdad48154ba53d0271be95636aebf6eeb|2020-09-17|Radomir Stevanovic|Fix python version classifiers
+0288f912f80a6da344d6bff1b0f823a3757a6790|2020-09-17|Radomir Stevanovic|Test/build with 0.9.x dimod
+f8665633a5b32cafb768711ca66d2360fcf30acb|2020-09-09|Radomir Stevanovic|Merge pull request #151 from hhtong/requirements
+63c8f0d715ab08c7a0c371ad4a48b12835b23844|2020-09-09|Heidi Tong|Rearranged requirements
+6a6a09f659407024d492f365ca15c5725180cfda|2020-02-24|Alexander Condello|Make README.rst able to be uploaded to pypi
+7717efa086b809786b0cf59223c3426ba49ecf51|2020-02-24|Alexander Condello|Fix manylinux deploy in circleci
+c9c576ba28dcf1ebbe474650d2b63789a43bc2bb|2020-02-24|Alexander Condello|Merge pull request #148 from arcondello/fix/versions
+7d52048594bcd7757fc7b63176a13e544fc77ba3|2020-02-24|arcondello|Update version 0.2.10 -> 0.3.0
+0e9facb1dd0f829f5603c124b0682d77aad1d51a|2020-02-24|arcondello|Simplify circle builds
+7b759428e102d92ec5625f36a7d86474c7a3810e|2020-02-24|Alexander Condello|Merge pull request #147 from spakin/master
+abd9b7df5c215fc585c2fe30d5d00842f10a60e6|2020-02-24|arcondello|Update dimod version range
+aa609ea1e6571ec501029b14ec089a3b15e4d785|2020-02-24|arcondello|Deprecate python 2.7 and 3.4
+45ccf97e28d14d3761c48f3d9cb571ad896540d2|2019-11-13|Scott Pakin|:bug: Correct parenthesization in the GETMEM macro
+6aafd30cfd532d85273d2cd357bee390524901b7|2019-07-26|Radomir Stevanovic|Merge pull request #145 from dumkar/patch-1
+7afb8ad6024d9a23e9beac171e02b1ef35357cc5|2019-06-16|dumkar|typo in intro.rst
+bc6ced0371074648a394373596066e7e9ba77a6a|2019-06-03|Radomir Stevanovic|Merge pull request #144 from JoelPasvolsky/cookies
+3fd9a51766071dfaba3ac23533ca80fa4ce3f8e0|2019-06-03|Joel Pasvolsky|Add analytics and cookie notice
+6bc906c155644cb16c06f7e476fa8bb08f75e021|2019-05-03|Alexander Condello|Directly link to external sites in docs
+70bf2f58ab951ec0383756a9ca20a504a1ae377c|2019-04-11|Alexander Condello|Merge pull request #142 from Seyrom/quickfix/unreachableLoC
+39fc8668f19f8f2cd12d4043647721591d19130c|2019-04-11|Patrick Bui|Fixed unreachable LoC in solver.cc
+1e38d78aaa8ab5b80abe4e5b64c27620b8b8c0e5|2019-01-03|Alexander Condello|Update version 0.2.9 -> 0.2.10
+6b86c69d75da19d2970cc9f2519bc946353ee27b|2019-01-03|Alexander Condello|Merge pull request #137 from arcondello/bug/python-timeout
+1c5c51372a3a0fb57ef90a4b490f95ce9338962f|2019-01-03|Alexander Condello|Fix the timeout flag in the python wrapper
+2d0f2d8169519312b4473c3c0b450734fefff153|2019-01-03|Alexander Condello|Allow use of dimod 0.8.x
+b513185b690e38bc1922850cc04ebcabf286645c|2018-10-25|Alexander Condello|Add license data to setup.py
+e05bce4337f8a6fc2d8369c21013b55826a3425e|2018-10-03|Alexander Condello|Merge pull request #132 from JoelPasvolsky/leap
+0c0adf499abb432b7305570e355203d064c9fb5e|2018-10-03|Alexander Condello|Merge pull request #131 from JoelPasvolsky/links
+a154e689cd05ce06a524b6e8f51e4d279c80c53f|2018-10-03|Joel Pasvolsky|Uopdate template
+f5bbec3f3db02f3eaab1b3001c3b91695ee73f8b|2018-09-28|Alexander Condello|Add readthedocs badge
+d9631a613ed15e1365630e42e538f31acabe0521|2018-09-18|Joel Pasvolsky|Use intersphinx instead of explicit links
+779c7da2fc1bf47febab7c25e478041754100218|2018-08-28|Alexander Condello|Merge pull request #130 from JoelPasvolsky/rough
+0c3b9913550bce62e2e4b232ec968c4bb4821507|2018-08-24|Joel Pasvolsky|Update descriptions and examples
+225e6e57181cf1682700651b8f5507b4fd6986d0|2018-08-23|dwave-adtt|Merge pull request #129 from JoelPasvolsky/rtd
+af0122fe124b6fbed3510d5c0a40598aec16a8cd|2018-08-23|Joel Pasvolsky|Update setup.py
+f61449ed905b4fe6e200ca5605c1b8bce22bf7a5|2018-08-23|Joel Pasvolsky|Update class paths
+10e004492b32a40c2ca5cce4ee3d372df2111915|2018-08-23|Joel Pasvolsky|Add Python interface
+dafd375ae3ac99a4bc58673827d209cdfecf62ac|2018-08-23|Joel Pasvolsky|First draft for RtD
+df8cb7ff9b7217abddcacc7ba990bba7680b3cc5|2018-08-15|Alexander Condello|Update issue templates
+8eda315e42cea0b3c8d7f2b7dbc18437b48a8314|2018-08-15|Alexander Condello|Merge pull request #128 from arcondello/circleci
+f6d92eda62bc37b00f2010505b99c9a676c67caa|2018-08-15|Alexander Condello|Add badges
+f6dbc7754bd28caec5e7275c06d7bcb9981be405|2018-08-15|Alexander Condello|Disable coveralls
+2417ac8c092b57e5b2b025ef52b1916b2c5aa6c4|2018-08-15|Alexander Condello|Change readme.md to README.md
+3171f43fdb8eb86050d0a38bc16b3d12bd8d55cf|2018-08-15|Alexander Condello|Add python test and deploy to circleci
+17cd1b12009350b795cf9c89c170ea922c20753e|2018-08-15|Alexander Condello|Remove python builds/tests from travis
+690f383f35dfed344bbfdf75efa568d5e4e7006d|2018-08-14|Alexander Condello|Merge pull request #127 from arcondello/dimod0.7.x
+ea6a43a0231178885eb9e4e09f476c5fcd4db1dd|2018-08-14|Alexander Condello|Update version 0.2.8 -> 0.2.9
+0490be84d991f8a37a434e35a6e36dfde7b4deaf|2018-08-14|Alexander Condello|dimod>=0.6.10,<0.8.0
+a9e0f21b01477bed874715583f562c3d924d03f9|2018-07-31|Radomir Stevanovic|Merge pull request #125 from levchCode/levch/winqbsolv
+e03a53b9808c4b38f3f7d95174b37804f2ff9f0c|2018-07-31|BSOD_levch|Build options for Windows
+c1bada2367400479a2c31b0bab000c77faadbe03|2018-07-28|BSOD_levch|Editor/IDE configuration files removed
+f9e569be1bd0c3447b3494ca6cb5e04d6080556f|2018-07-27|Alexander Condello|Update version 0.2.7 -> 0.2.8
+4f4c0709902114ec9d461c56bd4d21fbaeff9382|2018-07-27|Alexander Condello|Merge pull request #126 from arcondello/py37
+a0b029a9655c53d63c42d06e51cf2a8565b2aa4f|2018-07-27|Alexander Condello|Install before running tests
+6f29a937f08424f29ca77fc3e9fce6ddefba574e|2018-07-27|Alexander Condello|Activate pyenv
+fa33b05c707729442a1de6be6ac8e95826fdaa5a|2018-07-27|Alexander Condello|Fix travis osx requirements path
+f37c971824eb8cd084a8917242bc44b9f0ad603e|2018-07-27|Alexander Condello|Fix syntax in requirements.txt
+aca1a143418c2a7f6d461208b41a63cd20d16655|2018-07-27|Alexander Condello|Upgrade rather than install pyenv in travis
+091795dbf299601ed06647761ce427c90bdf8b6b|2018-07-27|Alexander Condello|Merge pull request #124 from kivantium/update_old_example
+b5548815f210fd68b58aadf920766652e523c724|2018-07-27|Alexander Condello|Add more metadata to setup.py
+0ec5b2e3bd52900ed799c82fc810109be995cf28|2018-07-27|Alexander Condello|Add python3.4 to appveyor
+d197997d6de36587c65e16198b83c8bde82e67cd|2018-07-27|Alexander Condello|Use python version to determine dimod in requirements
+ee572ff517c18dfae5d8aed7fac7cd934a7da9d5|2018-07-27|Alexander Condello|Add missing osx builds for qbsolv
+af43ac874da10250df0b998a3d85e412f07c00cc|2018-07-27|Alexander Condello|Add python3.7 builds to appveyor
+828867fcea0a2fafb0f8a82c04cf6a70027a45f0|2018-07-05|BSOD_levch|Small fix with includes
+ece712c275f101c050ebf7c83376ca70ce2ab5f4|2018-07-05|BSOD_levch|A small fix with wingetopt
+ed0c84101c05aa5878c5d05b1a0fb37f35acd79a|2018-07-05|BSOD_levch|Now qbsolv can be compiled for Windows
+5747167302f5b4655b6cc2797ffbd5440171b61e|2018-06-19|Kiyoshi Kawana|Update old Python example
+6447bd430a86a8f91857beb0a620895f5c78687a|2018-06-13|Bradley Ellert|Merge pull request #123 from bellert/update-examples
+0241a20d46fb5dc3d465c5deab009fc15734f7f5|2018-05-31|Bradley Ellert|Update requirements
+989e5c7d0d1f5c9b255c20b38c957c5adb02a525|2018-05-30|Bradley Ellert|Add example using dimod
+24c92bfba509cf6288df40133c8e52fb93aff0d6|2018-05-30|Bradley Ellert|Update old example
+65abd0aa9c747753358f9f9b48fd1e269c37126a|2018-05-01|Bradley Ellert|0.2.6 --> 0.2.7
+409e6fa3dea143d7de820f30af51d9e5a0bbe200|2018-05-01|Bradley Ellert|Merge pull request #120 from bellert/fix-appveyor-pip
+a8098bb5552c258633679fe628844f2954c2b4ad|2018-05-01|Bradley Ellert|Don't upgrade pip
+bf1934dd834ccfe63b0f3050827e8ac22ee17682|2018-04-17|Bradley Ellert|Merge pull request #119 from mwbooth/master
+12fe32d91cafcc0ad416fa08cb62e11bf3db524e|2018-04-17|Bradley Ellert|clang-format
+02b23a3f9ccfcedc66a435257de3487e3b93e373|2018-04-17|Bradley Ellert|Merge branch 'master' of git://github.com/mwbooth/qbsolv into mwbooth-master
+25c6b6d64eee2cc5cc8e5106aee0df64f05dbdd4|2018-04-17|Michael Booth|This changes the Tabu list length for very small qubo's from 5 to 10 it all allows small qubo's to enter the outer loop but not do subqubo processing
+ed429b793a55d6ed38d7e7e1c3083fd492637cf2|2018-04-12|Bradley Ellert|Merge pull request #118 from mwbooth/master
+2067088e5a3d3edaef51d8eb1578e708a87a102a|2018-04-04|Michael Booth|Special functions for randomizing and change to randomizing after the subQubo solves of no changes.  Addition of one more numeric test to avoid cycling in the Tabu search
+567160486adf839c0bc9b4a934f4dbfd733a3d09|2018-03-29|Bradley Ellert|0.2.5 --> 0.2.6
+6fe74e7726d7ea240082f54854fb111befa61183|2018-03-29|Bradley Ellert|Merge pull request #115 from bellert/alphabet
+cbc6cead6371fc314b8a4bedfed869f8b373a0b3|2018-03-28|Bradley Ellert|Add index label decorator
+4ad367817369bf7fcc78af78aef5c289c6423780|2018-03-28|Bradley Ellert|Move tests to proper location
+94c116687e59b3787fa2adbc44ee4d19d3091ae8|2018-03-28|Bradley Ellert|0.2.4 --> 0.2.5
+d0f58f3fa9ba28134c099f1792545842ca855c66|2018-03-28|Bradley Ellert|Merge pull request #114 from bellert/dimod-0.6
+ea8137ecebfd5429ff8c35bcf2411fd0132a0da9|2018-03-27|Bradley Ellert|Fill in Sampler.parameters
+a6027bac66584652ea2a5696e8a52d8c02bf9b63|2018-03-26|Bradley Ellert|Fix check for Python version
+6b6150c558286d2921b4b8b359d4c6d682da2708|2018-03-26|Bradley Ellert|Skip python 3.3
+df2c4c72aafde9e19608fe2aebeb1928f597e1cc|2018-03-26|Bradley Ellert|dimod 0.6.3 --> 0.6.4
+17ea9f4d61fe2869007d2a996ec331dc5406d1ca|2018-03-26|Bradley Ellert|Fix Travis build for Python3 on OSX
+dc417b30c893ab15a27a17b9e2cbd90d4d6d0169|2018-03-23|Bradley Ellert|Fix error in python version of load_qubo()
+2b29d2835113c97522eb0073ec951c800c3553d9|2018-03-22|Bradley Ellert|Update to use dimod=0.6.3
+b38a954deb49b129a24644fd1ad10a5f5efa0b3e|2018-03-21|Bradley Ellert|Update python README to match main README
+61bd5ef39506471abc96ea51c2ae02d72a1bc905|2018-03-14|Bradley Ellert|Merge pull request #112 from mwbooth/master
+634f86e188e469a42dfa2dc302aaeafd5ce5eb07|2018-03-13|Michael Booth|Added a check for loop at bottom of multiple energy well
+60214b48a7c064a1aec1a3262653e07189afeddd|2018-02-28|Bradley Ellert|Remove col_sum in Simple_evaluate()
+04d8e0df2526b87860f89d53c3e3b4a4320b5d8d|2018-02-23|CodeAi|CodeAi Changes (#105)
+8a2c420595a8b024ccf850463cd09ad3a89d9a47|2018-02-12|CodeAi|CodeAi generated fix for CWE 401 Memory Leak
+0f3afb41c6c3683136cae6152475de3a6bf90fa4|2018-02-12|CodeAi|CodeAi generated fix for CWE 561 Dead Code
+cc44ee74c24126474cc23a06f4b8ef7f80dbe826|2018-02-15|Bradley Ellert|0.2.4.dev2 --> 0.2.4
+b5b16fabf635432645e0ec56e1e82b981a22d7a9|2018-02-15|Bradley Ellert|Sdist (#107)
+b23ed52ca5880b778f499013ebbbd8e7c5ca9a53|2018-02-14|Bradley Ellert|Skip uploading existing files to pypi
+bbdf2968d27a755a055b5fe60ca55a538c041756|2018-02-13|Bradley Ellert|Fix 0.2.3 dimod upper bound
+04d94b91d87f6524fdc06d496f0ab7f57094a9c8|2018-02-13|Bradley Ellert|Merge branch 'master' of github.com:dwavesystems/qbsolv
+ff65f0b2c1b2ee2ce3a5cf29fbd3ec2768458c13|2018-02-13|Bradley Ellert|Add Appveyor badge
+b85ea61cd748c5bfebc57c2c6722acad44930640|2018-02-13|Bradley Ellert|Tighten bounds on acceptable dimod version
+c5e58d5dd181a81f4bcca6eac0e422ae1e2a750b|2018-02-09|Bradley Ellert|Fix 0.2.1 --> 0.2.2
+90d0b4d9ec2b567ab0f8b36c360f89d2707a3adc|2018-02-08|Bradley Ellert|Default cmake to Release if not specified
+adde29f62ac0949494ec7e7d55feb7da6ae4ff71|2018-02-08|Bradley Ellert|Set compiler flags for clang Previously only being set for gcc
+ac6a2847258fdda749106da29ec406d399c787dd|2018-02-08|Bradley Ellert|Fix typo
+e2a857a7645c1acfa31c49171ec06077f828b12c|2018-01-24|Bradley Ellert|Change wheel name qbsolv -> dwave-qbsolv (#100)
+9f66c95fc781cd9b5a5604a5bc013cd4e2292284|2018-01-11|Bradley Ellert|Merge pull request #98 from bellert/clang-format
+b932db4900e1d45b1e0710d1a69979b9d276fff0|2018-01-11|Bradley Ellert|autopep8 entire project
+44037628c6694ff38403350331c1f51ca2e967fd|2018-01-11|Bradley Ellert|`clang-format` entire project
+da4f43dead4edcf73c64805859176b5f5c511103|2018-01-11|Bradley Ellert|Add ADTT clang format specification
+d1a8389fdb793c40cc74b0257b07c12480f7334d|2018-01-09|Bradley Ellert|Merge pull request #97 from bellert/mike-request
+f11229bdb4d1290b316c89ac81e9275bbe904df0|2018-01-09|Bradley Ellert|Fix obscure printout Change `solution` to `Qbest`
+10302aa115e6a3e45b0990ca2e57e669354bbd12|2018-01-09|Bradley Ellert|Fix gtest bug Add installation lines that were accidentally deleted
+40e206e16104a9afb5c49f9a5a1ade0dd460c929|2018-01-08|Bradley Ellert|Revert debug/release distinction (#95)
+ab8986160cdae943e9463f6b45ecd45e33867628|2018-01-05|Bradley Ellert|Update build process (#94)
+04ca8ed4ff6f019947812a97c3341b2cd5f5c93d|2018-01-04|Bradley Ellert|CMAKE_BUILD_TYPE  - Add note to README directing users to use `=Release`  - Use `=Debug` for CI
+4ddf12e77d7e3075cc922e0919a262e61cad01a7|2017-12-14|Bradley Ellert|Merge pull request #91 from dwavesystems/dev
+3686dcad7f843989c52708c82188b2cf18f30ff9|2017-12-14|Bradley Ellert|Increment version number for bugfix
+23e2c10f2d387896e285bd0c7242204212bcb083|2017-12-08|Bradley Ellert|Merge pull request #88 from bellert/test_default_off
+9a0ae3ffbcf23905846c378b808e6e32ae2f8113|2017-12-08|Bradley Ellert|Merge pull request #86 from bellert/fix_examples
+5ed0ac189f087eb8182b5656147745d5dc17ecc3|2017-12-08|Bradley Ellert|Merge branch 'fix_examples' of github.com:bellert/qbsolv into fix_examples
+ddcac76bcdd1cde5845df661ca4ea759e1661f32|2017-12-07|Bradley Ellert|Fix typo in sample QUBO
+7d255aa027fd7db3d7162627ee72a230efe1bb8d|2017-12-08|Bradley Ellert|Merge pull request #89 from bellert/fix_travis_python26
+5f5a55b70bc17ecd1145b4918357604b91fce30a|2017-12-08|Bradley Ellert|Match string with dot in version number
+c407a05279259f532b13c4d3262c9cdc92aa152a|2017-12-08|Bradley Ellert|Turn build tests off by default
+bbeff886ee3e48fa262d9229b8e40db74d04508e|2017-12-07|Bradley Ellert|Fix typo in sample QUBO
+89fe206ada3649f27df3cd42773781f58664727a|2017-11-22|Adam|Merge pull request #83 from myriagon/dev
+f719d60479b97e4cc9a91246efaf796a9c5dff65|2017-11-10|S Davis|Fix issue #73.  Modify read_qubo() to accept either "0" or "unconstrained" as the topology in the program (p) line of a QUBO file
+95790a3facf04b41d3498b23b90e67973856c6fc|2017-11-10|Adam|Merge pull request #81 from dwavesystems/dev
+16b3851dd52063437bd221ff4c81a29c54fa79c9|2017-11-10|Adam Douglass|Increment the version number for milestone.
+924def363bb9b38d6bf86f34656d625337d61a06|2017-11-09|Adam Douglass|Update python wrapper docs+args+test
+64e5e99374f26ed18f416fc98deab2b4b495b75b|2017-11-10|Adam|Merge pull request #78 from myriagon/dev
+63a3458a52a11e75609dee76bc9ed1119d07915b|2017-11-09|Adam|Merge branch 'dev' into dev
+805f3819d19a2e3288d69f84aa2533d22fa0cc6f|2017-11-09|Adam|Merge pull request #76 from adam-douglass/ciscripts
+057c26ea4ece32608c161df834251255d37228a7|2017-11-09|Adam Douglass|Try to make the script aware of the build path.
+94da81738150ad73c4922092e269fb53ad4cdca3|2017-11-09|Adam Douglass|Fix a typo in .appveyor
+3daca93012589f8956532f2581c7fb4c95b8d88d|2017-11-08|Adam Douglass|Get tests and wheel builds running in osx.
+897153da82c62acb7cce8865384bda82c1677e65|2017-11-08|Adam Douglass|Set OSX ci scripts to executable.
+6247cf2a25046877f8e4438b8ca591964ee260b9|2017-11-08|Adam Douglass|add scripts for travis osx builds
+c1198b447efe38eb163286946d974d38dc65a3e7|2017-11-06|Adam Douglass|Get the ci stripts running for windows.
+5a7e8233f7c8aff34d1e1bcfba1ad7eb804c286f|2017-11-03|Adam Douglass|Add an appveyor script.
+67463051a629611d3c2d1332b82e35a5bc2dc997|2017-11-02|Adam Douglass|Test a new travis script.
+2b726a5f85bb53acf2e256d0e2a6d82812f4fe06|2017-11-01|S Davis|Fix typos
+81de0166013b056fee9ec2c3610da89d01cd114a|2017-11-01|Adam Douglass|Add a test for the python interface that makes some simple calls.
+1d600239488e70207b4325045d6594a3d32899d6|2017-11-01|Adam|Merge pull request #69 from arcondello/matlab_n_sample_bug
+6799697d5dbff9f2ca20189229bb8fd1549ef4a2|2017-11-01|Adam|Merge pull request #65 from arcondello/import_bug_fix
+8b5544c578e81ef880c751af57d51f2b8039c092|2017-11-01|Adam|Merge branch 'dev' into import_bug_fix
+80f424fcbed5e2d2c148d8bfcba6b34155d5c427|2017-11-01|Adam|Merge branch 'dev' into import_bug_fix
+abb9ac45ccf71f702fc5fa5f2142bb00ac6bbf4c|2017-11-01|Adam|Merge pull request #71 from myriagon/dev
+ae08a48578ec42b9f127f894560a9947ae7ca569|2017-10-30|S Davis|Modify shuffle(), an implementation of the Fisher-Yates shuffle algorithm, to remove bias.  In tests with 200 different random PRNG seeds, qbsolv performs better.  qbsTestcounties runs about 8 percent faster on average. qbsTest2500 runs only slightly faster, but in non-target mode it finds the known optimal solution more often.
+453d019fec2d21fc48cce25c5402188fd77da4bd|2017-10-26|Alexander Condello|added n_samples casting to integer and unittests
+b4881f8738fd82585d264e1fb1fac32a24726ee1|2017-10-26|Alexander Condello|updated dimod requirements
+2b8382b6514652b9fd56fb0bb73eacb80bddef64|2017-10-26|Alexander Condello|Merge pull request #66 from arcondello/matlab_bindings
+9699a6105c51d2c352720f48bc30a8baead79744|2017-10-26|Alexander Condello|cleanup for matlab bindings
+bedf316a489b0b8201a6235c6a254133eed935d1|2017-10-26|Alexander Condello|docstrings for matlab binding
+1f9b94b3100b05289f465971595da5efe45e41ff|2017-10-26|Alexander Condello|basic matlab bindings
+878fa13b00745278b35e109c8b1e96e0b520d038|2017-10-23|Adam|Merge pull request #64 from myriagon/dev
+0f2ef511d6997277e40d7e21429bb45ac5d2b0c0|2017-10-19|S Davis|Speed up evaluate() dramatically by eliminating unnecessary type cast and multiplication.  For large problems, this speeds up qbsolv considerably. Old way: cast solution[jj] to double, multiply it by coupler strength, and add product to row_sum or col_sum.  New way: test whether solution[jj] is non-zero; iff it is, add coupler strength to row_sum or col_sum.
+3ca8a3c299ebdbdc1610abbc8f42476250797b4f|2017-10-18|Steve Reinhardt|update techReport with qOp2.5/qbsolv results
+0a31bddb30bf7c8ad9194ea5d0fe7e7e00fceefb|2017-10-18|Adam|Merge pull request #63 from myriagon/dev
+8b0f70c92e876e182cd8c1a1f21c60eb3696ec1d|2017-10-14|S Davis|For safety's sake, use const where appropriate with function parameters of Simple_evaluate(), evaluate(), and evaluate_1bit(). Clarify and enforce intent expressed in comments about parameters. Prevent inadvertent changes to pointers and data that are supposed to be input only, while allowing intended changes to in/out or output parameters
+f20990f63d9aa9b1f32bd55aeb3afba29c3e34f0|2017-10-13|Alexander Condello|renamed binding file for easier debugging
+6de69ed3944f3b734d4b61fe39ab13eb3250bb74|2017-10-13|Alexander Condello|added dist to .gitignore
+85b90b50a05ca14b2b991b97cbe2153ca594ac82|2017-10-10|Adam|Merge pull request #53 from arcondello/string_int_fix
+fdd7fe15e5f3a8c5b270101463973e92a8aa2c97|2017-10-10|Adam|Merge pull request #52 from adam-douglass/solve-controls
+136aead205e26812da630c626f891b119fad8700|2017-10-06|Alexander Condello|refactor of ad2_qubo
+59f47ab2a89059e05dcf4572840acc412071457e|2017-10-06|Adam|Merge pull request #48 from myriagon/master
+067d6ba7c6a048be77daa0eaeda716fa44230263|2017-10-06|Adam|Merge branch 'dev' into master
+e4bdb8b06f7afd651ec624ee02cbda20d15e8788|2017-10-06|Adam Douglass|Fix iterator bound in second location.
+736a42da3b680ca7ceb45d5b56cc4a8bb157c88b|2017-10-06|Alexander Condello|adj2qubo is not pep8 compliant
+1f3415094cae1fd2f56e1c67f30d11bcd840fe2b|2017-10-05|Adam Douglass|issue #47 local search end value isn't set past the end value.
+d31b06ce1e97fe6420926fb03d0c708ded49c632|2017-10-05|Adam|Merge pull request #51 from adam-douglass/solve-controls
+ff496ab4b580cf00cf34d680461b784e05400bdd|2017-10-05|Adam Douglass|Make sure dw init info passes back to parameters.
+1b831cd9675f43532a97b04c0c42c69dd3e56c55|2017-10-04|Adam Douglass|Fix the command line tool only build script.
+7f014eae848262636e66bf21fa85e6697495cdf2|2017-09-29|Adam Douglass|Get qbsolv building as a python/windows package.
+ee4e92b9dd8a23b89689721a420598256f3b3a3e|2017-09-27|Adam Douglass|Start to reformat readme into markdown.
+8ab4386e9f3de7a74a561f853a299e2d26d8d456|2017-09-27|Adam Douglass|Make sure file names are preserved in test files.
+797eba7f3ff94a2d73f59ac7bb63f692174bfdbf|2017-09-27|Adam Douglass|Re-run coverage.
+a6e9e5db728125d0da3044ed31fe21c1f144f1af|2017-09-27|Adam Douglass|Try to get coveralls upload working.
+32fcdd5d5ffe36ee363c6b7db283ceb2e73a8d47|2017-09-27|Adam Douglass|Remove extra space from build command.
+21226520cefc821169b6eb5cc8c80e7431ded9ad|2017-09-27|Adam Douglass|Split c code into library and interface.
+111ed4a2012e8b35ac1c7b4e67bf76cc094b98d2|2017-09-26|Adam Douglass|Fix bash mistakes.
+df07acfe9b5133c38e3f5aa52e6308354594c5a9|2017-09-26|Adam Douglass|Resolve some compiler warnings.
+b47470834068ef6390c5e4a02a8dca5a33fb86f9|2017-09-22|Alexander Condello|added python callback
+5190feec719340628861e76d9128730bd33ea38d|2017-09-22|Alexander Condello|cython stuff in gitignore
+ffe8975dac5edaefe37a4f07d97d92a2281b33a1|2017-09-22|Alexander Condello|changed C infrastructure to allow callback from python
+1834a5f75f942e62b0e0160a1dff3c55ce5d5595|2017-09-21|Alexander Condello|unittests and a few typos
+f82c8ddfe9ad35d23a9cc75b54f26571880693f4|2017-09-21|Alexander Condello|commented out print
+6471c72bfb2c31dd25063c443507810ce1410226|2017-09-21|Alexander Condello|undo adding too many files
+9e0b21004053e718e23d3af19670932eccd6d820|2017-09-21|Alexander Condello|venv
+4822b44fe330708598a871547a81b88d95a3c2a7|2017-09-21|Alexander Condello|.gitignore update
+aab5f849662b4477fe726ce42a0a0db3e7f35b88|2017-09-21|Alexander Condello|added include into input_structures.h
+e382cf296dda5dfd6a7199a0c41d1b4437583fb7|2017-09-21|Alexander Condello|virtualenv to gitignore
+0cdeb8ed1817915d78edcc991605d0a5368f38e4|2017-09-21|Alexander Condello|added sublime to gitignore
+d88065ffac2d0b13220cdb6f09cdeae15993c634|2017-09-21|Adam Douglass|Fix tests' extern variables.
+2a1781ea7e71189745f31c2721fcb912208fcd9d|2017-09-21|Adam Douglass|Restructure code, breaking up include.h
+28251ab717826e2b9dcdeb0ac0add39b75ae93f5|2017-09-15|Adam Douglass|Simplify some of the parameters.
+ccc97ea945a8503aff3d70a524b5d66256316f6b|2017-09-15|Adam Douglass|Switch sub sampling method by function pointer.
+31daa483d875c445a524c57983d090b8ab1593f7|2017-09-15|Adam Douglass|Simplify some of the parameters.
+08318f34e3e89b1a03f372c5bec44b27e6afe6f6|2017-09-15|Adam Douglass|Switch sub sampling method by function pointer.
+74487bff61a09c67e7e104e38e702d24edad2ecb|2017-10-01|S Davis|Use ?: instead of if-else to assign value to solution[...] in util.c functions randomize_pop_solution() and randomize_pop_solution_by_index(). This saves 8 lines of code
+f913c6730c62c843c6fcc09e53eb67d88cdd6c84|2017-10-01|S Davis|Use ?: instead of if-else to assign value to sign in solver.c function tabu_search().  This saves 4 lines of code
+a4127f0440531ad56ac676cdb3f4516e8e19c3c5|2017-10-01|S Davis|In local_search_1bit(): simplify (energy + flip_cost[bit] > energy) to (flip_cost[bit] > 0.0)
+1df9291b8b6887da685eafaa0e2fa16cc3e25b22|2017-09-28|mwbooth|Merge pull request #47 from myriagon/master
+f1f981320d76f85e899f7c79f486e15b2d495832|2017-09-27|S Davis|Improve tabular output using printf to align columns
+c29c5bcf2ee6f37c7bea0e8d04b3434bc0b84967|2017-09-26|mwbooth|Merge pull request #26 from dsapandora/patch-1
+a72ff04b282f8ab464b4d8b4842f89994de299ab|2017-09-19|Michael Booth|put timeout on factor.bash
+48964c32e1c49a5f34c239bcb9d26fd8e7a0d95e|2017-09-19|Michael Booth|fix the runall script for qOp
+528895a73e88dd7c4a96bf541659757ad544b632|2017-09-18|Michael Booth|added new examples
+9611aa735a59ae3e0fe92a1cac7ce1b8628c872f|2017-09-18|Michael Booth|Merge branch 'master' of https://github.com/dwavesystems/qbsolv
+df074e057de93fae69dc548dfd7562e7c23bd346|2017-09-18|Michael Booth|need to point to $DWAVE_HOME instead of ~/qOp/ for qOp builds
+fdf812ea851b2aaa0aad4ba6863b919593e886cc|2017-09-18|Steve Reinhardt|change name to align with package name
+935d00bce29a42e1e0a3b659b7b53f0a7a3996c9|2017-09-18|Steve Reinhardt|add example that uses dwave_qbsolv
+3332a2df780f815b109df6d08d8f9a718997dbdf|2017-09-18|Michael Booth|Merge branch 'master' of https://github.com/dwavesystems/qbsolv
+056233b599cdc4ceca50ac29e9ab33953ed2f76a|2017-09-18|Michael Booth|Build fix on windows around link problems with getdlim and getline on windows, using a new name getline_win on windows build
+d7db1e066baee5de0b9a0c2ffb5de8dedd773198|2017-09-18|Alexander Condello|updated install instructions
+9be3b4b843d56babc065fdce5148487ffa9276b8|2017-09-18|Alexander Condello|moved requirements into file for easy pip install
+d30d98e4ebefb587e1229ccfa33d5444d659b61d|2017-09-18|Alexander Condello|requires -> install_requires
+d270f8d28c2f00cda373b9cac01d8ff39e598ea7|2017-09-14|Michael Booth|bug fixes
+9492851d88dbd44275a73d4468a2f21147245dc4|2017-09-13|mwbooth|Merge pull request #46 from arcondello/alex_cython
+4d1b4d0fe1f847d393a202dd6c96ae9e5b6e6e59|2017-09-13|Alexander Condello|added back in dimod and cython requirements
+2fc0a51e94350adf37735b75462d0c719319cfa5|2017-09-13|Alexander Condello|more conflicts I forgot to resolve
+35f89ec1f74e89b4ce83083ccc03a3129dd028f1|2017-09-13|Alexander Condello|resolved conflicts
+76e7dee101bf1d0d2eef1993a00017a79f474497|2017-09-13|Alexander Condello|updated gitignore
+d200fa0c787a95ac2581c0d735b7d698d09942bb|2017-09-13|Michael Booth|strucuture change to allow for parallel calling of submatrix, and comment additions
+12c5f33908e7f8e2fcb6368248f8daca51bf1d6e|2017-09-13|Michael Booth|Bugfix and tag point for qOp 2.5 release.  Fix to using qOp libs
+ece6691cb63351a38dc9b134d18ecf7d48d51df9|2017-09-12|mwbooth|Merge pull request #45 from myriagon/master
+1286b68d6144235f8d9918cfd62f93b3dee1a13e|2017-09-08|S Davis|Signed-off-by: S Davis <myriagon@sddw.net>
+1de3782fa2a2323423f80462785f0f36384704fd|2017-09-08|mwbooth|Merge pull request #44 from miqlas/haiku_build_fix
+fca604710d1129674a10004e2f1a8dde61a5f752|2017-09-03|Zoltán Mizsei|Haiku is a kind of unix.
+e5070541c1ead8ccc6a37236edad395214a40a4e|2017-08-30|Michael Booth|Removed automatic arrays replaced with mallocs and frees
+6c08afd5bc75d676ac3b2f0643fd8a040935e80b|2017-08-25|Michael Booth|delete Makefile and add epqmi.h file
+17e3f5dc5ef1e9ff9891235cbca3e05ec4d53c0e|2017-08-25|Michael Booth|added the ability to compile with SAPI connected libraries with DW from the qOp enviroment .  New make process is now a script that in presence of a qOp environment will use lib, if not, compiles without
+f71539bba4c0e88bf5b9e5edaabce65837fb1876|2017-08-22|Alexander Condello|fixed setup
+53e31e67cf309613fe492b07bc5ece554f772dd5|2017-08-10|Alexander Condello|a bit of docstring
+49e4b828225155007a3c0c9f50ee795dba689088|2017-08-10|Alexander Condello|fixed doc strings
+11745cd31714d5d3696c23e28b778b28688098c0|2017-08-10|Alexander Condello|documentation and fixed setup
+27b7158ded8f4253a110fe9b79c20d61569a3f72|2017-08-10|Alexander Condello|dimod wrapper working
+e095f75f1405ec18ed6b4b1d59296468b3b063ac|2017-08-04|Alexander Condello|dimod process begun
+e9f7c6dff3688e4e71c4ad439b04b7879cc01457|2017-08-03|Alexander Condello|got rid of some old stuff
+ed0350acd29c40ef18adedc48c79ac5b4e1e4b0d|2017-08-03|Alexander Condello|fixed issue with unallocating memory
+07acfb60d6320a692f58585fa47d7989da0031ad|2017-08-03|Alexander Condello|merged updated master in
+bbde734a18d767c60bbe6030f760552e0fa0a6cd|2017-08-03|Alexander Condello|structural changes
+d574802d67b154ba7ebc2fb960bde253119419aa|2017-08-03|Michael Booth|Critical bugfix, under certain -v options even though the correct solution had been calculated that wrong solution was printed out the fix is to use the solution tables as the only reference to the solutions, also added a debug evaluation function with no side effects
+8ff96ccd1d936b8fbe179c31fa21f83f582875d7|2017-08-03|Alexander Condello|seems to be working now
+dcd02fb4fd801df5d9d0eeda7ba0e6686eae0276|2017-08-03|Alexander Condello|Merge branch 'master' into alex_cython
+a9bb09294cd8cf01395cc8208f8b10620ea8952e|2017-08-03|Michael Booth|Fix for possible non update of Qbest in main loop
+701ea01dbd036c78685a0b610ea1a22f24309f00|2017-08-02|Alexander Condello|preliminarily working
+a0d47a16b9d16238ba503e487ae4ad7e15e0b8f6|2017-08-02|Alexander Condello|bug in include macro
+ff6addeb0c2b3a20e3a64d8b4e1046d8b7096322|2017-07-31|mwbooth|Merge pull request #43 from charleswhchan/fix-license-filename-references
+444de7fbb8f051d417df0ebac9206dbf71e275d0|2017-07-30|Charles Chan|Fix name of LICENSE file in README.txt and contrib.txt
+fc1d0c094c0037eb855fc48750391c75a709a7ce|2017-07-27|Alexander Condello|got print working
+8f021f81be20c2ee1bbdf5987db352a6695bad7f|2017-07-27|Alexander Condello|still playing around with cython
+efcd4cdc5be1667a516e9d2471c9f4a5ccb04edb|2017-07-27|Alexander Condello|very beginning of cython interface
+154b845efd276743f1e81fe18e1e59975932b6ab|2017-07-27|Alexander Condello|solve now has an output array
+c77519ff3422cc3af277c8eb911e1bfd62f80a7a|2017-07-17|Michael Booth|1. Put submatrix extract and solve external enough from solver.c  so they can be made asynchronous later with pthread calls 2. Change the output so that it outputs immediately the selections  for the run along with the size of the solution
+4799a0e5f940440018f16866a57213d2f8a35d64|2017-07-07|Michael Booth|Breakout the -reduce - solve - projection (submatrix) section of the "outer loop", into a separate function reduce_solve_projection later, this function will be called with pthreads so that the calls to the dwave will occur in an asynchronus fashion.  This is to overlap the latencies instead of them being additive
+082e59c0e193cbcc15e607de05b979c942dc859f|2017-06-27|Michael Booth|Allowing larger table sizes for -a d, allows for greater diversity samples
+9bf6e01cb3453977f1dae5635db8ada1943f8d95|2017-06-19|Michael Booth|Some code cleanup, duplicate 0 setting and some dead code
+245063e57a46cf6c5076bb85e4e876a5dce3d07d|2017-06-05|Michael Booth|Cleaned up some of code associated with -a d,  Also some routines added to util.c to allow for diversity
+03f9f220a230773ddd35e9abf94798503b1717e3|2017-05-25|Michael Booth|Replaced "path relinking" with "solution diversity"
+cf8bd867708d52c046b1cbb9a9364ee264e78432|2017-05-25|Michael Booth|Replace references to Path relinking with Solution diversity
+96ac77dcd45eb6e8987ba90a480dc30040ddbb9f|2017-05-22|Michael Booth|Merge branch 'master' of https://github.com/dwavesystems/qbsolv
+ebdbc9a2183bbf8115deee2b04fcfdf9438683f8|2017-05-22|Michael Booth|added new test qubo ( very very hard to solve ) of TSP of 48 USA State Capitals
+22667f955140ca59e76aceef1295830a23bd1467|2017-05-22|Michael Booth|Lines (commented out) to allow for temporary writing of subQubo matrix's , requires uncommenting out the lines and rebuilding
+3803defc4f72991865b508bcb1e0b1921a910baa|2017-05-16|Steve Reinhardt|add 'meta name ...' as needed
+e2f7ed694b1e92aa5cf4fe44761b305d3159ae60|2017-05-16|Steve Reinhardt|clean up a couple typos
+c4f6b4baeb60005706354ca438f98d9ff2e7e54b|2017-05-16|Michael Booth|Added documentation for new options -r -a and fix -S
+65be7b46aa8374c545e6c7b7667c9985a290b043|2017-05-10|Michael Booth|Fix in a function that was found by inspection.  This function is not currently used
+d5c4d8cf9f3e73db6cd96c5f9b29931a3f3f8b86|2017-05-05|Michael Booth|Denoted the dependency on a proper install of qOp tools to run DW
+f6faa7a42a95f852788ab33b48ef48746182188e|2017-04-26|Michael Booth|this is the large commmit that contains all the structure and code changes for submatric choice path relinking, and other features of 2.4 release.
+95265783b571b8fc85978d4ec7e9c6d185148025|2017-04-21|Michael Booth|update docutmentations for 2.4 release
+1250a4aa622518eb70bb7bb27ee54df5527b333d|2017-04-21|Michael Booth|Updated README with new -S options and lastest -h, also added qubo file format
+9b156c6a0c61a51f1d0d8819d97ba5fd07dd9a3c|2017-03-30|Michael Booth|Merge branch 'master' of https://github.com/dwavesystems/qbsolv
+f7dcafb31a727a3d03cd9652083d3832e75e73c1|2017-03-30|Michael Booth| preliminary changes for using the backbone method in path relinking
+850c329979098292fa3900740aa62f2c948f19d6|2017-03-30|Michael Booth|had to add a lower tabu value for ultra small qubo's
+51c6a219b05a2a748b72c84610ba1fb7144cc42b|2017-03-13|Michael Booth|Various fixes to the demo example.  The adj input was out of alignment with the blank map, also forced HI and AK to different colors in adj file, and one line of output was missing in the color_states.py program
+d7ad7b5be375154e5c58cecd7535ea8870764b05|2017-02-28|Michael Booth|a qubo was submitted that had the rows and columns swapped on the couplers ( off diagionals )  there was no error check, this adds an error check
+4643f7410d5ed822f7408f1fcecdb50f1ecd2783|2017-02-27|Steve Reinhardt|update to reflect qOp 2.3.1 performance results
+4ecf7c026da50ecf85da9fd07130cceac7044e9f|2017-02-14|Michael Booth|Change Copyright to 2017, placeholder for algo changes removed newlines from main.c which had been converted to DOS
+287aa293b602727d9b6483cb1447e6cf8cf01877|2017-02-13|Michael Booth|Fix a memory leak, found by compiling and running on raspberry PI
+809e6437478e7089301eade9b9fff08a95fcfda9|2017-02-09|Michael Booth|Change to -std=gnu99 to avoid 2 warnings on Linux
+5511ffdbd6b21958d33f932690892fd115f80e3e|2017-02-07|mwbooth|Merge pull request #39 from stelleg/master
+d197a5f1578938fd59535bde729ae9848d2b957c|2017-02-07|Michael Booth|To kill off compiler warnings in Linux casting int64_t to (long long) inside printf statements
+806ab3f8e923d3d5c193a5617ed25f86406e891e|2017-02-07|George Stelle|Fixed small typo in error reporting for number of nodes
+77edc2274baceaca398e26d19e43a2d3f7feab4c|2017-02-07|mwbooth|Merge pull request #38 from adam-douglass/master
+526d753bebcb4f1d218f3cda61a2d5456a21998b|2017-02-07|Adam Douglass|Whitespace.
+8d400f094bf085694e6f84c638963290fc5347bf|2017-02-07|Adam Douglass|Merge remote-tracking branch 'refs/remotes/dwavesystems/master'
+e24cc75b8950a7765756417a036d3821d931fa97|2017-02-07|Adam Douglass|Update reduce test for type changes.
+4adf793537b4932817bd7c868679f7e26c5b30fb|2017-02-07|Adam Douglass|Renaming variables.
+b5ce2e0d0059e5870dcfe238ca2db55bb164d498|2017-02-07|Michael Booth|Change (long long) to int64_t and move malloc in quick sort to reduce the number of calls to it in sort
+25d328381fa14f4fb952d6f2ca21f48af05e2846|2017-02-06|Adam Douglass|util.c renaming and c99 style things.
+6732f0acf41453fb71770a54479b712146ee90cd|2017-02-06|Michael Booth|Change the bit vector(s) from "short" to int8_t
+b49ca7b5f3e152cd2dcdb17cc543db599ff3ca49|2017-02-06|mwbooth|Merge pull request #37 from adam-douglass/master
+5a87c0dd6e940f4c052a1bf76a04bc94eaf54af3|2017-01-31|Adam Douglass|Rename variable masking std function.
+34cde545306eb19850385aa991b7424b9393d25e|2017-01-31|Adam Douglass|Update the makefile a little
+18f4aef7ed29aeb24a6cd6a1bfc4aec8390e3ff2|2017-01-31|Adam Douglass|Remove row/col data that isn't being used.
+d5457d7a6f77fbeb3734194b3b7a15ba80355361|2017-01-31|Adam Douglass|Simplify the update on a bit with known cost.
+c8ae9f326569b48832aaa45a39aaba6819742522|2017-01-31|Adam|Merge pull request #1 from aidanproy/master
+2abe4b04e1da313fc9f9d317eea25f289bc4e15d|2017-01-31|Adam Douglass|Rename some other variables.
+7b68d37d10530110f0a160396d0d516d114a8eb0|2017-01-31|Adam Douglass|Get BADMALLOC to behave like a statement.
+0e788d66394ee07530a280ea6d4b5f503977574e|2017-01-31|Adam Douglass|Rename more variables, formatting.
+6a8237df595567d8ae6e7de642e6acd81d84563f|2017-01-31|Aidan Roy|Changed implementation of evaluate() and evalute_1bit() functions to remove references to row and col variables
+67960172fe483a506aa9f3f044e4e52f18017f6b|2017-01-31|Adam Douglass|Cosmetic and comment changes.
+3d89bb04d9001f2fd7f5887ee02c78c58729f2c3|2017-01-31|Adam Douglass|Cosmetic changes.
+9cd55e53c69dbeda7d8025d3d000000531b99bb7|2017-01-30|Adam Douglass|Replace custom true/false macro with standard one.
+d64a44544fc553536bf8410fdc1f4ec01bd6e9a3|2017-01-30|Adam Douglass|Add const, remove redundant MIN.
+231450872b74017c1d73a500ec5bf605a312cb91|2017-01-30|Adam Douglass|rename val and QVal
+d46858daa01275be9d295e6111e7010e7cef26e7|2017-01-27|Steve Reinhardt|describe doc directory
+b5a01e25956633a849b258338d5849ca05272f26|2017-01-24|Michael Booth|Fix -h output to include -t seconds
+3a8e7ef61b076c0c549d9fafac895fef8713a39e|2017-01-23|Adam Douglass|Add -pthreads for building tests on linux.
+1bdf08a5a94cb65cb7c097b0dcca228943e52bbd|2017-01-21|Michael Booth|Change the progress check point, push it out 50%.  This improves the performance on the MAC dramitically while only reducing performance on linux a little.  Delaying the full reset that is triggered by this value says that progress reset was happening prematurely when set to 8.  It is now set to 12
+f3912eb9b82482c5a291d2152afd98d52e226a29|2017-01-20|Adam Douglass|Revert "Remove an extra call to malloc."
+17cf91772f35844d976aa373849dec1f74ac6423|2017-01-20|Adam|Merge pull request #31 from adam-douglass/master
+9a1e7c3ebc642b25737753ef670d4a69f7955f0a|2017-01-20|Adam Douglass|Add some commentary
+42a7d751416e678d71ca86fc335316427959b0ae|2017-01-20|Adam Douglass|Remove an extra call to malloc.
+64f04eda5cc1cbb2f318366fff8a00a6f2ec6001|2017-01-20|Steve Reinhardt|add man page qbsolv.odt and .pdf/.html viewable versions
+20c77b61c7f5f2e529361f637969f5b42d0a2680|2017-01-20|Adam Douglass|Small changes suggested by Aiden and the compiler.
+c4faabb0ad70b8a8d185fbe6a5e2ba148acf35fb|2017-01-20|Michael Booth|example small file test used in example documenation
+a703e93b690a4b9f5951d254c8d5cc1bc3286473|2017-01-20|Michael Booth|Took global target out of tabu search and put on argument list added super small qubo testfile parameterized tuning parameters
+95da2e26486ddbca77ebd2cc6e443fafc54539e7|2017-01-19|Adam|Merge pull request #20 from MatthewRobertMason/master
+514ffeeb919343fbab4e28ac13e0ae68645344e6|2017-01-18|matt|improved readability of code and removed magic number
+85debf0b15c728b9cb8187897038c42055cbc3bd|2017-01-18|matt|Merge branch 'master' of https://github.com/dwavesystems/qbsolv
+470ba3c70aac87f2940d1592f14d17b4c647fb99|2017-01-18|Michael Booth|fix size of bit reset, change also require a bit of tuning
+b3971623714eab86cce3ce7dc2a2d121326a3622|2017-01-18|Adam|Merge pull request #28 from adam-douglass/master
+2633196fa6fa6ad561526efa6a42d9afccb31295|2017-01-18|Adam Douglass|Fixes #45 - Transpose Qlist
+8567b2cf9c652373be6e3470dea1259afa66d273|2017-01-17|Michael Booth|Turn Clamping back on Clamping is so effective, often the submatrix pass is a null pass when it is null, the submatrix pass area is then randomized also this change increases the size of the backbone exploried. This parameter choice was made by experiment of large and small sizes Also surveyed the mallocs and tried to assure that all allocations have a corresponding free.
+ffdf64b15396d008c2eac77be67e54529af8e515|2017-01-17|Ariel Vernaza|Update demoStates.sh
+aaf9ed928c20033837e70a7936ad5f945d09de05|2017-01-16|Adam|Create readme.md
+e1009121ea72b4b770b535b70e2cb629d856c1e4|2017-01-16|matt|updated manage_Q function
+018a2153c0bb12d19a9539691291624bc18f9e50|2017-01-14|Adam Douglass|Remove global variable used to pass argument to single function.
+f811944cf4b22d1cec763a82cd0c9df741e6b2b4|2017-01-14|Adam Douglass|Prune variables.
+1d964417b6dca31ea1739c87698c78125c2ea3b5|2017-01-14|Adam Douglass|Fix a bug in the malloc2D function, add unit test.
+5de3168d2a70dc1ecc6f91c75472e5f1a4ab5089|2017-01-14|Adam Douglass|Remove inFile global and replace with argument.
+548212c5bb1b114a40946a4aed903b7e2a5c7f0f|2017-01-14|Adam Douglass|Turn the input file name from a global to an argument.
+9586c94aaaee9061cf05bbf38d56d2fa4fce8449|2017-01-14|Adam|Merge pull request #14 from miqlas/haiku_support
+9cd7a21702cdd7d64e53b00540c14de2a3855aeb|2017-01-14|Zoltán Mizsei|Haiku support: this major change lets qsolve compiled on Haiku.
+ba1c3fba104d30c0be203fd2aa15ef05e1247ea1|2017-01-14|Adam|Merge pull request #13 from MatthewRobertMason/master
+857dae45932b37593c621b60e3437d84d13a6306|2017-01-14|matt|Modified the tabu_search function.
+39b7562b81383eb8f807f855ca5fde37e792d101|2017-01-14|matt|Cleaned up code and adjusted comments.
+b7d6d928eaa70f8172f56823c27ff4377574f3ab|2017-01-13|Michael Booth|somehow this file was in dos format, converted to unix format
+f83b5c1513cef75c24e54208bfb45f8594fcd06c|2017-01-12|Michael Booth|The fixes to clamping have resulted in the submatrix pass making no changes to the solution.  This patch temporarly turns off clamping and returns the submatrix to the original non-clampped version.
+3383073fa1290fa91762ecc26789b63964f6a827|2017-01-12|Michael Booth|Error in debug output pre and post submatix solver
+73f2050dccbc982a138f28616ee37e97ef0a1f18|2017-01-12|Michael Booth|have qbsolv run from the ../../src directory
+533a19aa4f388d40c6edabe1aab1730b2857513d|2017-01-12|Michael Booth|Merge branch 'master' of https://github.com/dwavesystems/qbsolv
+0c15c3d7d81c4327559f1f065af0e3dc2ffd7557|2017-01-12|Michael Booth|the adj file was not in same order at the blank svg file, HI and DC needed to moved
+a01b620dacdcff60c21cfef24c80d4c94ff55584|2017-01-12|mwbooth|Merge pull request #10 from adam-douglass/master
+218e0c8395fc5e0000b231c2eb8c1ea54e14c6a4|2017-01-12|mwbooth|Merge pull request #11 from adam-douglass/clamp-test
+74dba22f6e403b382bbfa88a26e5a065d50dcd5a|2017-01-12|Adam Douglass|Fix another small bug in the clamp function.
+621cfa26d3e71922ac84fdc3954b6e073c93ac8e|2017-01-12|mwbooth|Merge pull request #5 from DarthFudd/master
+3bdf7d9bbcded4c05a0e4fee9f37382e465f65ac|2017-01-12|mwbooth|Merge pull request #8 from shakabra/master
+502113b9f8b1797b7e8b4dccd2b2ab59f93211d2|2017-01-11|Adam Douglass|Add a googletest version of the clamp test.
+e62e533f01d0a1100b1eb3f22f2a8f8844159c34|2017-01-11|Adam Douglass|Fix a bug in the test program.
+6a00cda248d66a17872a8e0541cade371a983905|2017-01-11|shakabra|Fix a typo README
+c2a4906cb99cb8fb881ba66ddb621f3ff8476e4a|2017-01-11|Adam Douglass|Style changes, primarily indentation.
+b70a31325dbe39bbf532f6afd6ba7959724a83ce|2017-01-11|Adam Douglass|Make use of _s in clamp function consistant.
+96e59efde7b145333b944078f85c59a94873c9ac|2017-01-11|Adam|Merge pull request #6 from adam-douglass/master
+09b16643aa850dbf1c23971e6d4f0c5082b72a46|2017-01-11|Adam Douglass|Merge branch 'master' of https://github.com/adam-douglass/qbsolv
+720e978263ab977049977f303b856e3d35da982e|2017-01-11|Adam Douglass|Merge remote-tracking branch 'refs/remotes/origin/longer-test'
+d3527d114272d762e2ecdcc190bd008b09ae8035|2017-01-11|Adam Douglass|Merge remote-tracking branch 'refs/remotes/dwavesystems/master'
+d6e3655304bed7845b1610241e8f65f2a6dece3e|2017-01-11|Adam|Merge pull request #1 from adam-douglass/master
+499879de91efd8c38697ceff8039cc6e79bd8204|2017-01-11|Adam Douglass|Merge branch 'master' of https://github.com/dwavesystems/qbsolv into longer-test
+2f1419f284644dca9041776cca14c8f11447c132|2017-01-11|William Dye|Merge pull request #1 from DarthFudd/DarthFudd-bash-tweaks-1
+bc53f91f7e523b89794c989974b2a361e5d7f266|2017-01-11|William Dye|Non-functional tweak for bash coding standards
+e9cc828ef85d6f4dd63f242137cd1a5c21cf7836|2017-01-11|Michael Booth|Fix incorrect coding of Clamping function in reduce
+091a813449beb8e0010a7eea68edee6ef1430167|2017-01-11|Adam Douglass|Add another test.
+4b707537e6951018a510b046be5f4181492be85c|2017-01-10|Michael Booth|All upper case LICENSE
+e0c0c895175bb28583d45a428e0189daaa8f0ca8|2017-01-10|Michael Booth|fix spelling
+55f0984482eab75436691caadc19c76e4097676e|2017-01-10|Michael Booth|Commented out call to DW get environment
+f5195da1db685c75b780dbb62940e50e3714ef94|2017-01-10|Michael Booth|Corrected so it can run without the qOp environment
+26712ed455e7bc2733791caeada414eb3c232058|2017-01-10|Adam Douglass|Add a unit test for the reduce function.
+de1f50e3e52e15b70fe63a7a81326567f5745f43|2017-01-10|Adam Douglass|Merge branch 'master' of https://github.com/dwavesystems/qbsolv
+e7c7dbb857c0f573e004383f44e6493cea9dc393|2017-01-09|Steve Reinhardt|production-edited tech report
+6a63dce56aafba23cd186e7de9803206035f7ab0|2017-01-09|Steve Reinhardt|updated tech report
+014a5b51fc427660d231700d1288d9b15157ac86|2017-01-09|Michael Booth|Better error messages for oversized requests
+cc638aa904cf4173a0ab58774bf0fa14c643d0d6|2017-01-09|Steve Reinhardt|add tech report and description of contrib.txt in README.txt
+c0cd02a3f1516a2616ced7e93f65037d481443ac|2017-01-09|Michael Booth|add testcase badness.q
+b93b75c085c29dc5a0f82694cdb8a054b58e6b89|2017-01-09|Michael Booth|Add a test case that is large and creates a problem include stdint.h . Note that intptr_t and uintptr_t are indeed C99 types but they are optional
+5dddb44cbb1a649bb0988515b7d446fa165bcfce|2017-01-08|Michael Booth|Change some names for consistancy Comparem()   < is in include.h but not defined elsewhere; just remove?> quickSortIterativeIndex  quick_sort_iterative_index evaluate_1_bit           evaluate_1bit <for similarity with localSearch_1bit> localSearch_1bit         local_search_1bit localSearch              local_search TabuSearch               tabu_search SubMatrix                solve_submatrix IsIndSorted              is_index_sorted writeQubo                write_qubo
+673bdf60ba0c15f6c8fa575cd9398991c967ab3f|2017-01-06|Adam Douglass|Remove unused variable.
+37f4d1bb012f549ea2b513a75ee32b8cc5287941|2017-01-06|Adam Douglass|Merge remote-tracking branch 'refs/remotes/dwavesystems/master'
+0a1f4be56c4f03feb49a5b93a0fc1dac4819841e|2017-01-06|Adam Douglass|Add a gitignore that catches object files and output binaries.
+589c7d5ab17c413ab127fd499bd70d92992e629f|2017-01-06|Michael Booth|Remove .o's and binary
+0c03f79d8ebe96ea5634376f1a4706d488e4e723|2017-01-06|Michael Booth|inital commit

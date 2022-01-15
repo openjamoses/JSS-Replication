@@ -1,0 +1,200 @@
+014afce40ea280eafae2cbd8d676ab9ec914bc8c|2017-11-17|Jan Odvarko|Merge branch 'master' of github.com:firebug/websocket-monitor
+f8fb81814c1c847256306e6bac471205d4955787|2017-11-17|Jan Odvarko|Update readme file
+220038da04019517ef0b11f575ee11b6591c522c|2017-03-02|Jan Odvarko|[websocketmonitor-0.6.5]
+227eec753322e835abccf286988a8caca43db39a|2017-02-02|Espen Henriksen|Fix lint
+224066c4654fab93bf957834abfb66ff34032dc0|2017-02-02|Espen Henriksen|#73 Flag as multiprocess compatible
+0dace67514399081e86814a3b082d5de39d24c4e|2016-11-28|Jarda Snajdr|Adapt to new Netmonitor panel architecture (#67)
+140c95642dde10f4f4e71d14e363b43e020c6453|2016-11-25|Jan Odvarko|Update comment
+d3765c2d4c1c5243cb8b11a00f0902a26d38afa3|2016-09-27|Jan Odvarko|[websocketmonitor-0.6.4]
+c16357e0296838e19d15033ee65a1dfc7d95d6bb|2016-09-24|Espen Henriksen|Issue #65: Wrap long connect URIs
+7af89f2708f50c6e8196745033363e0d5e9b53c9|2016-08-08|Jan Odvarko|Merge pull request #62 from firebug/feature/query-string-parsing
+baa097919ecef3d27be0e5aec86e55bcc3b30e9c|2016-07-11|Espen Henriksen|Merge branch 'master' of github.com:firebug/websocket-monitor into feature/query-string-parsing
+7283054cd50336c2bde0807c376feae3106478c0|2016-07-11|Espen Henriksen|Add query string frame parsing
+2021aa68929b5e98f0f0392c883bfd69dca21e03|2016-06-07|Jan Odvarko|Remove obsolete click handler
+140eb0214ada59a7f3ba97d66d5cce8c1e13344c|2016-06-06|Espen Henriksen|Add key as global
+cb440605335421c438b6b01d1df2a88df17d2491|2016-06-06|Espen Henriksen|ESLint all the things
+7cff7558fcc58ead00722b163af1e42e38c1d5af|2016-06-06|Jan Odvarko|[websocketmonitor-0.6.3]
+4f0b0bafe48bd51bf4a48b5ab65a672095a02610|2016-05-30|Jan Odvarko|Merge branch 'master' of github.com:firebug/websocket-monitor
+7fcfbd875c27c1bf0c6514cc4bb94ef03809a9a9|2016-05-30|Jan Odvarko|Merge branch 'esphen-eslint-and-travis'
+312f9774640779e5b7a88e0fc7038f457b8534b4|2016-05-30|Jan Odvarko|Merge pull request #58 from esphen/protocol-toggle
+48ba7219c2de781b75407fe9edad5cfc2986a213|2016-05-23|Espen Henriksen|Implement code review feedback
+7c6623bbc9e8ce5d44f126b74061b267d73edbcf|2016-05-23|Espen Henriksen|Add globals to eslintrc
+8a60bb3b171c1f031ad5c66ac124f058568b4aa0|2016-05-23|Espen Henriksen|Add eslint and travis
+34b634ee551f16db98327367d36852bccf5ae69e|2016-05-21|Espen Henriksen|Only parse protocol if corresponding pref is set
+298c1cae3452c4b047158239b1cf7d84dcb6af02|2016-05-21|Espen Henriksen|Add ability to toggle protocol support
+8cad79ea4ecd76f17828a69199cd177190fa9c30|2016-05-13|Jan Odvarko|[websocketmonitor-0.6.2]
+e7fae0c7f503377e9ef1878dffd5d0a870bb978b|2016-05-13|Jan Odvarko|Merge branch 'master' of github.com:firebug/websocket-monitor
+240cea16cfe5970b22451e8f02f37479f3a4232c|2016-05-13|Jan Odvarko|Fix compatibility with Firefox Nightly
+d3c3be98891da4aa3cf2804b4c4fe96ac35748fb|2016-04-21|Jan Odvarko|[websocketmonitor-0.6.1]
+b80cad1a0db3f568b78cba416054e760f3cc65b4|2016-04-11|Jan Odvarko|Update readme
+a17d54ecaebbd02e35530cca42dba6a5edd200a0|2016-04-11|Jan Odvarko|[websocketmonitor-0.6.0]
+da1ac851839d235f88a8220a66d629cadda64595|2016-04-10|Jan Odvarko|#56 Display entire WS payload in the Payload tab and field
+ce16ba959b20e166610251add780eca79fb1f355|2016-04-10|Espen Henriksen|Show parsed mqtt payload in details sidebar tab
+a0f488bf3fa046e7db11cdbd7d4206c122534e54|2016-04-10|Espen Henriksen|Fix "data.payload is null" in mqtt list view
+c9f29512266d80633a6a9ac9b47fa798649f3596|2016-04-10|Jan Odvarko|#56 localization
+0458e7dfd94745b78b6e24029abc8f47383b06db|2016-04-10|Jan Odvarko|Merge branch 'esphen-issue56'
+e757bdb51af5083c76f5d3ba68ddfb3dd21196ac|2016-04-10|Espen Henriksen|Add MQTT tab and show parsed payload in sidebar
+ec51fe36126c601087ffb36a8ebd7cd48b3da893|2016-04-05|Espen H|Merge pull request #2 from tuukka/issue56
+c46a7b058deb260917438c76c5a0189bc72d73ba|2016-04-05|Tuukka Hastrup|Customise MQTT frame display in the list view
+29b3faae08d9811af8545c03197b559b36b3853a|2016-04-05|Tuukka Hastrup|Try to decode MQTT payload as UTF-8 and JSON
+7bd841a90886423a94df648f1468ca202e251b2f|2016-04-04|Espen H|Merge pull request #1 from tuukka/issue56
+b3c476f2ad5bfba437920333962aeeb328171af4|2016-04-04|Tuukka Hastrup|Fix MQTT parsing
+bbd7df902f116036c7680089dbe5deaef0f521be|2016-04-03|Espen Henriksen|issue56: Add preview of MQTT
+302074044aae145c25b06dbe850f114f9e48242f|2016-03-30|Jan Odvarko|[websocketmonitor-0.5.4]
+ce805daa484d0834778fcbee6ba86e8c390d33af|2016-03-29|Jan Odvarko|#33 Some messages not picked up
+0de2274dc972bb2dbe72bbda399fca8840eff4d9|2016-03-08|Jan Odvarko|[websocketmonitor-0.5.3]
+0818ce8f43caf77e81c8d9827f6623ff9b1cd792|2016-03-08|Jan Odvarko|Remove unfinished WS filter and fix compatibility with Nightly (also related to issue #15)
+31084556feb71715fa3be6544218b1cda2cd1597|2016-03-07|Jan Odvarko|Merge branch 'esphen-issue53'
+956ccd5f4ca6a8c7cf1724e23a88f8edbf38672a|2016-03-05|Espen Henriksen|Also only show relevant data in chat view
+9174b0d38f46366dcc4f21eca9bea3725b2f7148|2016-03-05|Espen Henriksen|Hide Socket.IO metadata in inline previews
+db14ba470a042eff182fd7da2304983f5697c486|2016-03-01|Jan Odvarko|[websocketmonitor-0.5.2]
+c3e7cc9be6079c98ba0073d4b571815697863a55|2016-03-01|Jan Odvarko|Fix gDevTools getter in the actor module (backend)
+7560d7d89f934522f49ab95d3c27a276dd166521|2016-03-01|Jan Odvarko|Merge branch 'esphen-issue5'
+a982a50a8baf1934732b768540f6bddd6e690392|2016-02-25|Espen Henriksen|Fix state issues with TreeView in frame-table
+1b704cae1791846670b26fe744b6ebeab11dae6c|2016-02-19|Jan Odvarko|Merge pull request #48 from esphen/readme-update
+ab7a49105dd1e9dc113af64be3787232e151bcde|2016-02-19|Espen H|Launch demo site on jpm run
+73f2bbbd7a2bbb18283380e86fd9fd0ffe646851|2016-02-19|Espen Henriksen|Add inline tree previews for table view
+8402bd01537883962b23e760e4c96329702be269|2016-02-18|Espen H|Update README with link to AMO and npm install jpm
+c3c53935b10b503f1a965a8b2f5d95da7dc4fd5b|2016-02-17|Jan Odvarko|[websocketmonitor-0.5.1]
+d47973723652cc5b001dc0efa0c41ebc882e46b6|2016-02-17|Jan Odvarko|Merge branch 'master' of github.com:firebug/websocket-monitor
+f9b262eb7c9a18348ae8c432097862d9214eafea|2016-02-17|Jan Odvarko|#47 keep back compatibility
+ce40c1c781aaf01332115a4875594a898df39ac3|2016-02-17|Jan Odvarko|Merge pull request #44 from zeird/fix-encoding-issues
+1b981f6e1e3d382220beb5d011da1e2753154d05|2016-02-17|Jan Odvarko|Merge pull request #42 from esphen/issue41
+0aa774dab0ad9ac656cc8447da5a811195448eb1|2016-02-17|Jan Odvarko|#45 Net panel layout broken
+ed6e6c94350a62572627d3d632ddb873348f8127|2016-02-14|zeird|Add ISO-8859-1 to UTF-8 encoding before frame parsing
+d520388e29e81ec6ceb09f006d11e72cfd503a24|2015-12-15|Jan Odvarko|Fix colors of frames in the chat perspective
+0ddd5795a262aac3f91b1d895b871767b3ac1c8e|2015-12-15|Jan Odvarko|Do not display helper data in the Details side bar
+fb533a47d2f869042d927fead770ef5ed72a7048|2015-12-15|Jan Odvarko|Inline preview should always be the payload
+5e66ee7d5f0b269090e98f05c09494649f574078|2015-12-15|Jan Odvarko|Fix color of text in event bubble (dark theme)
+1ec2a89848e54d7e6f9ccc4eadda9f4c38f1e4dd|2015-12-15|Jan Odvarko|Fix initial width of the first 'direction' column
+0131d0b81777e7793765bc940048098f3d7cfccc|2015-12-15|Jan Odvarko|Fix 'Connected to' label color in Dark theme
+81fed13a31b8af37c20a7103662ab03a9150c666|2015-12-05|Espen Henriksen|#41 Persist connection ID list across clears
+243091e396c9fad7362c7c12e0b3ac5640ec5e09|2015-12-05|Espen Henriksen|#41 Clear socket ID filter list on page reload
+5b6ab79ae4755a04317f11b5618c10e4766cf884|2015-12-04|Jan Odvarko|[websocketmonitor-0.5.0]
+73809f2317f61c0c933df0549ad4c9ca55265dd7|2015-12-03|Jan Odvarko|Update list of contributors
+dd6ea4f9a48fa34e66f30094afc0e682f05057a4|2015-12-03|Jan Odvarko|Merge branch 'esphen-issue30'
+c7eb869f12bd469d337e6b517c041d1ca01debda|2015-11-26|Espen Henriksen|Remove unnecessary if-test
+0142712f2847c91ea786d2b8cd5311a49c28bbc0|2015-11-26|Espen Henriksen|Persist socket ID list and selected filter on clear
+cdc4c61cea8fc32cf5c6c300d94114750f6b7ca3|2015-11-26|Jan Odvarko|Merge branch 'master' of github.com:firebug/websocket-monitor
+e5136dfd877f31286543f4a33e69008ae97835c7|2015-11-26|Jan Odvarko|Change perspective button labels and add localization notes
+4a1cdd6ac829cf303fb0f9af8eea28f0ebe54f00|2015-11-24|Espen Henriksen|Tweaks to reducers
+7fc4d0e7ce8bda760ccadc959a5877d449c19d8a|2015-11-24|Espen Henriksen|ES6 is cool
+01c7d4607065a915992bd077e7cf689b9c1e0691|2015-11-24|Espen Henriksen|Fix bug in handleThemeChange in SearchBox
+33168382584e32e5e10cdefefd608dde73d9c9bf|2015-11-24|Espen Henriksen|Support firebug theme in ConnectionFilter
+2d281be3b79fab2e255a6579d309f3cebc452c34|2015-11-24|Espen Henriksen|Use double quotes
+339c72cadebc748c45bcf696d4347ce284dcad36|2015-11-24|Espen Henriksen|Add localization notice
+11df4f063ffce05ed281511bab6b71e0e28797c3|2015-11-24|Espen Henriksen|Merge branch 'master' into issue30
+af1b982a3696c2bb83734e9e563eca563e27e3c4|2015-11-24|Jan Odvarko|[websocketmonitor-0.4.3]
+e9e16b659916011210d27494f0289171045fbbf4|2015-11-24|Jan Odvarko|Update contributors list
+0e17cab2004c3a8401040b82f23d7af4a450845e|2015-11-24|Jan Odvarko|#32 WAMP support
+f15d5c92c6a383726d10da61098a308bd094c39a|2015-11-23|Jan Odvarko|#36 Display connect and disconnect events in the frame list
+496217400dedd9f1104c2ef471aed59436ba56a9|2015-11-23|Jan Odvarko|Rename main.js to view.js
+f443046c39f2b876c94706848cdb6d9c95e3c75e|2015-11-23|Jan Odvarko|#35 Clear frames when the page is reloaded
+c152287b3622f3157e18f2ea9418df8e37f757a4|2015-11-23|Jan Odvarko|Merge branch 'master' of github.com:firebug/websocket-monitor
+a2280f0f6a950b5dd7b0f4b52233833a008890b1|2015-11-23|Jan Odvarko|Avoid NPE
+e7c5e8e3a22de77fdea11fafff1de2f61ae6ee6a|2015-11-23|Jan Odvarko|[websocketmonitor-0.4.2]
+b3b8aab13444b32a1064de01fa48edb230805dbe|2015-11-23|Jan Odvarko|Update to React 0.14.3
+eec25f331012ba25445376c1cc0cea5386d94232|2015-11-23|Jan Odvarko|Merge branch 'master' of github.com:firebug/websocket-monitor
+6fe9a75969246ff47e1d18b8c06c0a0619f1034c|2015-11-23|Jan Odvarko|Do not use remote scripts (amo review comment)
+d80f05532ed66f4d9fbc2ebabcc70b87c257ccc0|2015-11-22|Espen Henriksen|Add dark theme support
+e5951be6f6a1472f4f9839e7bc9f8f841a7a82c2|2015-11-22|Espen Henriksen|Rewrite SearchBox to react & nullcheck webSocketSerialID value
+e23a592d4fbbee2759d346c35154295a993e16f2|2015-11-22|Espen Henriksen|Fix issue with frames not showing after clearing socketID filter
+08e4c4e2ddfb30481b8adc3dca73b2ad45e8828a|2015-11-22|Espen Henriksen|Simplify code, add docs and change text in select
+13dccd9cdc8d5524b95362fb83cdae63438a1f6c|2015-11-21|Espen Henriksen|Add style for dropdown and fix text for no filter
+3e527d20c36bf05b39a2e84ffebda16b523a1d27|2015-11-21|Espen Henriksen|Add basic dropdown channelId filter
+82e8937031a16792939967c30ee6d3c9e72e02ef|2015-11-20|Jan Odvarko|[websocketmonitor-0.4.1]
+688941bfa6498f72861a29478a1310bf01b6e7e8|2015-11-12|Jan Odvarko|Fix WS icon in the Network panel
+6d8775d0e587b607187d36aec1695ac269830a87|2015-11-06|Jan Odvarko|Resolve promise
+7577a79a78d0bba06c2509ed53f38aebbf17fbf5|2015-11-02|Jan Odvarko|Update readme
+50b89af82d89ce25cfffd9218f59c6120e7966d0|2015-11-02|Jan Odvarko|Update readme
+ac1c1e2c099019fecd2a80cd0207fbdf432ead4c|2015-11-02|Jan Odvarko|Update readme
+65e722388e8100bdac84f3d6587e14fbcaba7f39|2015-10-30|Jan Odvarko|#27 ensure visible selected row (during key navigation)
+be6ffd9921fb29b4b711629d6a93f01079a851c5|2015-10-30|Jan Odvarko|Update readme
+0d0e7de5ef755e3d5fb75c82e3ee96e119531434|2015-10-30|Jan Odvarko|[websocketmonitor-0.4.0]
+2e01385c003988f9fd8efd25b5d2c66a94439405|2015-10-30|Jan Odvarko|Add .jpmignore to the project
+f0c31305e0ca872ceb743718f8b777f9ef30d2d4|2015-10-30|Jan Odvarko|Better warning message
+422958265fc47660a485511aa05e8c21aebad77f|2015-10-30|Jan Odvarko|Temporary support for pre Fx44
+7221881953a24c4d5b1f82f4c03196eb3755d3a0|2015-10-30|Jan Odvarko|Min width for direction column in table view
+d3768666bb0fa16c276a8fe7561b840e1c017217|2015-10-30|Jan Odvarko|Improve code comments
+e572f16c73fb2e25095412b1399a5e605a51df03|2015-10-30|Jan Odvarko|Resolve conflicts with the master
+4ef16b7d466c03755bc19d5a486ee6ce063b96b4|2015-10-30|Jan Odvarko|Merge with the master
+f3cce02d0d8a0dace82b39f6d9cb867fd8bed02e|2015-10-30|Jan Odvarko|Merge with issue9 branch
+ee9a16940dd0a71010107b212dfabd981eb2b5aa|2015-10-30|Jan Odvarko|Merge branch 'issue25'
+6adcb56e180aebd2fd40602157fa5c1ddbe87a1e|2015-10-30|Jan Odvarko|#25 adopt platform changes (bug 1215092)
+4832b268de46542c6ff1bb01ced9d31f1607ce58|2015-10-29|Jan Odvarko|#28 support for the dark theme
+573b4598c71b595adbd85ba462d77ed42036e28c|2015-10-29|Jan Odvarko|#28 Display a link to the WebSockets panel in the Response side bar
+f67a4eecddb7809dca60b8e9415fa85f61a81fbb|2015-10-29|Jan Odvarko|Better selection color for table row
+4a9260778e74b090d41df8c24cb92b7ab3912c45|2015-10-18|Florent FAYOLLE| #9 Implement Pause and unpause
+03c725b993fcedbe5d31fafc33eb1c95250c643e|2015-10-27|Jan Odvarko|#27 Keyboard navigation for list of frames
+d79b17077075b5bd73e125f21dd154beb9d4cc4e|2015-10-27|Jan Odvarko|Update list of contributors
+2ba813fae0be7ab1163ca9f98f1d041f362ae6d7|2015-10-21|Jan Odvarko|#25 support for onWebSocketMessageAvailable
+0503b1d65c3d59c9928da4c9a64b918cb8dde53d|2015-10-21|Jan Odvarko|#25 fix event names and pass also WSID from the backend
+339fed63a8356f36e6c016e2a7a1937e31e4e3b5|2015-10-21|Jan Odvarko|#25 Adopt new platform API (bug 1215092) wip
+92aa3f7af183e0f98c68d9ed3f901b62b20f05b2|2015-10-19|Jan Odvarko|Merge pull request #20 from firebug/issue19
+360d82de007c1048f75680929dc1915ce3f8df9b|2015-10-17|Florent FAYOLLE|#19 Support for "raw" JSON
+2b163117b841bbcacd8ea276157efa498c635bd5|2015-10-17|Florent FAYOLLE|#18 Support for SockJS
+9da41215e1c1b5ef1def5660099ab35d917027fd|2015-10-19|Jan Odvarko|Remove obsolete tracing
+6245d3906512747910cd2f1e07f9985f8c79c4ca|2015-10-19|Jan Odvarko|#8 Support auto-scroll at the bottom
+005d1c8345bbd5cbbb5006af250dd389432eb0a3|2015-10-19|Jan Odvarko|Merge branch 'master' of github.com:firebug/websocket-monitor
+39bfc097da6060983513d49edfe0b2b905943651|2015-10-19|Jan Odvarko|Update to React 0.14
+28f69ecd6babd4d33c0206436b0f593fc69e6049|2015-10-19|Jan Odvarko|Merge pull request #23 from firebug/cursor-default
+a5cc553a0b0bbb5b64dcde6238833ed8918d6654|2015-10-18|Florent FAYOLLE|Use cursor default for frames rows
+dc1d4451f0f5fe9c9df6eb2e8d08684a60a85fd2|2015-10-18|Florent FAYOLLE| #9 Implement Pause and unpause
+8178b3b3dbc3f86ebb0eb09b82e8e73be4db5008|2015-10-15|Florent Fayolle|Mention in README.md that we need to install websocket-monitor dependencies
+dacfd47a5c1debf54ee737bdf3a20861b4777c5b|2015-10-14|Jan Odvarko|Update contributors list
+89be06de752c7b9f8f5919ee3b6d0b0db959ae4c|2015-10-14|Jan Odvarko|#16 Fix scrollbars in the side bar + light dark theme fixes
+9df2392c8cb0cec74ea0ea29afc43f52b2d0cee4|2015-10-14|Jan Odvarko|Merge branch 'master' of github.com:firebug/websocket-monitor
+b5eec692ccbecf6c284aa16f27de128996117362|2015-10-14|Jan Odvarko|Change the default max number of displayed frames
+b032eef3bafa4e4b827a0be1611735e041c0e827|2015-10-13|Jan Odvarko|[websocketmonitor-0.3.3]
+19d7fb5f32146a9605eb92f4605723cc459a7617|2015-10-13|Jan Odvarko|#12 Rename network overlay to netmonitor
+850d32fd5eed4eec0006cda0263bc7844061056a|2015-10-13|Jan Odvarko|#12 execute callback for upgrade event selection
+e25707bd82800a045315067330e5af8d65fede96|2015-10-13|Jan Odvarko|#12 do not open the Network panel side bar if the user clicks on the WS icon
+8d745bd3ee25cdc3516aec7d401b52aabb2071b3|2015-10-13|Jan Odvarko|#12 rename stylesheet
+b275387937f313ec2edad2b1dde03d0be690a950|2015-10-13|Jan Odvarko|#12 fix ws icon in Firebug theme
+d2efb301f345a4e32ff712b440ddc35ce0138e2f|2015-10-13|Jan Odvarko|#12 Render WS icon and handle click event
+7312a3eddcf21eac88c5044e85a65d186ee3abbe|2015-10-13|Jan Odvarko|#12 Introduce network overlay
+bd108f7b261cdd5acc54b766fef3805827d0a7c3|2015-10-13|Jan Odvarko|Valid Socket.IO packet needs to have a type
+19b4671fedd7544b3d8a05bcba3d94afc81d1276|2015-10-13|Jan Odvarko|Fix ReactJS warnings and remove logs
+d9c06e0b1889bc23498b4aeac2ee803f71703aba|2015-10-09|Jan Odvarko|Icon for the extension itself
+d6a318878e044ce8e1beab86384c457dc60c4457|2015-10-09|Jan Odvarko|Merge pull request #14 from helenvholmes/master
+23a87682853988e1ca9d8d3bb10c1498bf84c592|2015-10-09|Helen V. Holmes|Added 32x32 png icon
+75577e3feec634d0fe987e7794daaa35e86f1c8e|2015-10-09|Jan Odvarko|[websocketmonitor-0.3.2]
+2add0a7843e24365efaa9046890870c21a764f61|2015-10-09|Jan Odvarko|Update labels
+057d6841fd0b05b41e1379a073127483e60a1fae|2015-10-09|Jan Odvarko|Introduce 'switch perspective' button
+986b7e8010b08f5dd7e5f40906bfcf9a22c23a7d|2015-10-09|Jan Odvarko|Properly set the default perspective
+53d99ce34d885b9949c6743f7170b07428d768a0|2015-10-09|Jan Odvarko|Show no service warning on both perspective
+573dd6873d86906d5a80a5193498ac5261da9225|2015-10-09|Jan Odvarko|Introduce skin directory
+9580a5a67d68fb500627ac4c4df258bd03b31971|2015-10-09|Jan Odvarko|Merge branch 'helenvholmes-master'
+8f79e199ee8daf9015b0790ff5deea97fb793e7d|2015-10-09|Jan Odvarko|Merge branch 'master' of https://github.com/helenvholmes/websocket-monitor into helenvholmes-master
+47f4ba0aaa20a4e28482536466de045f759e2793|2015-10-08|Helen V. Holmes|Change name structure to make Firefox devtool panel icon name structure
+fb52d8cd1ed96bf1815a4d79ebf5061a0f17d4d4|2015-10-08|Helen V. Holmes|Add line breaks for legibility in text editors like Sublime
+c798cf1600c79fdd710f56eb1e5a12282563e034|2015-10-08|Jan Odvarko|Optimize frame rendering
+b32e03446d432b2f411e76fabb4baeb5d350ecbd|2015-10-08|Jan Odvarko|Support auto-scroll at the bottom #8
+6986e43a07721974cacfe7ab75a061dd543f1d25|2015-10-08|Jan Odvarko|Update summary according to the current filter
+78c9326767fa562c474c6e465daa22b52269e3cd|2015-10-08|Jan Odvarko|Filter support for the list view
+acef5800972a5bee7476e49cde2f8c1c5edd1cab|2015-10-08|Jan Odvarko|Clear also side panels #4
+17db72cd7ef82a03db26db07b2f0b02ef525f2c4|2015-10-07|Jan Odvarko|#11 docs for contributors
+d4d29ebb441dd6576d4f08c5caa805e103e929d1|2015-10-07|Jan Odvarko|Display payload inline (frame list)
+9b5d9379fada7970ca2a4d3a6940edecef878149|2015-10-07|Jan Odvarko|Display opCode within the frame in the list view
+ab9c3e5c229be2d87aad4a520418c7947e91316e|2015-10-07|Jan Odvarko|Display frame summery at the end of the frame-list view
+b6d25d0ab04cf59b2f8738036d5ae3d349a62ec7|2015-10-07|Jan Odvarko|Display number of removed frames in the list view
+6aed4655e047bb3a602877e67ee4528a7d08cd50|2015-10-07|Jan Odvarko|Fix selection in the frame-list
+65921ae5cd3a474121575933a52a75a14fb3c8ea|2015-10-07|Jan Odvarko|Update perspective when tabularView pref changes
+272078f1ba84995f7b2e09cacaa12551fdbd44e6|2015-10-07|Jan Odvarko|Introduce tabularView pref
+c882f016d99827ced30e3d8124e5d6d624ade46c|2015-10-07|Jan Odvarko|Initial support for list of frames (alternative to the tabular view)
+5c274b6284fe1c29dbb76b8a34ddcbfc5fc1fc26|2015-10-06|Jan Odvarko|Localization for panel label and tooltip
+f9dcb4926e89fc7379b168379d4d659f2aec1795|2015-10-05|Jan Odvarko|Use new home page link
+96db87f105eff338d3ecf76713a82040582267dc|2015-10-02|Jan Odvarko|Merge branch 'master' of github.com:firebug/websocket-monitor
+82426c6f57f96091f3cea8dbc2c759b93162ecf4|2015-10-02|Jan Odvarko|#7 Displaying a warning if nsIWebSocketFrameService is not available
+09b83930c6c4f69014aed480887cd1b5a756a8ec|2015-10-02|Jan Odvarko|[websocketmonitor-3.0.1]
+a3637f897641498bfe6904683e0686c22713cd98|2015-10-02|Jan Odvarko|#6 CSS tweaking
+78b4a034231fccc5c0fe99967367469b761a6a0e|2015-10-02|Jan Odvarko|#6 Display summary info
+ce5fb0074c742223ae8a71f1d8b0c960906982b5|2015-10-02|Jan Odvarko|#5 inline previews testing
+070b0b7f3b83167ad6846097f8c2f8d1c17f63f5|2015-10-02|Jan Odvarko|#3 Limit amount of displayed frames
+82c0fe7363ffef193cb1f34eca9fc22dfe53365e|2015-10-02|Jan Odvarko|#2 Support for frame filter
+74c8b7459c9c8b5589cbd3b3f6ad3680a0f3ec10|2015-10-01|Jan Odvarko|Testing panel tab options
+b81390872b5a83f24733965215fb67220ad562e5|2015-10-01|Jan Odvarko|[websocketmonitor-0.3.0]
+339c397f0d99df7fb6e3911a379ace9b0720fafe|2015-10-01|Jan Odvarko|Update package.json
+dfb29229674fb8405f755bb8b7dc455bb766414d|2015-10-01|Jan Odvarko|Update readme
+244ea9f3453ed2966bffa61f73d35b5a2304741a|2015-10-01|Jan Odvarko|Initial WebSocket monitoring
+7ed67e3472fbe1829305b041ebf9c54184ed3fac|2015-10-01|Jan Odvarko|Initial commit

@@ -1,0 +1,535 @@
+ae6e2c1e7daf81ecd537fafba45809b8a558d5b9|2020-10-07|Aleks Kissinger|small changes
+7612e449c2ef0a3443edca187d9cce32a963b22f|2020-10-07|Aleks Kissinger|slight rephrase
+a9a2624483314a1231866a3bab33c55307b93377|2020-10-07|Aleks Kissinger|added example
+31629a23ca3c445ff05f9d91a7465c2cf49f9e86|2020-10-06|Aleks Kissinger|added proposed graph format
+6cb31c1661554d9e76673264aabfedcdede187c5|2020-10-06|John van de Wetering|added some sensible rounding of floats in the jsonparser
+736d78e5d53626eb42fe8d9f01f193714e5d7596|2020-10-06|John van de Wetering|Made parsing of fractions in tikz a little more flexible
+446ddd8da9fdae924e9e934233209bfb9bb3c68a|2020-10-06|John van de Wetering|Made Pauli pushing in editor scalar correct
+0131a7b24a40b08cf6215f93d445dcb2c4485681|2020-10-06|John van de Wetering|Added another magic value to matrix drawing
+8f83c766c6ea4d3c700101d745bcdd23c36664d4|2020-10-05|Aleks Kissinger|notebooks from pivot annealing talk
+0187486b8b677c07c941273342899cded4ee434a|2020-10-05|John van de Wetering|Fixes #54
+3a45ea94cd6b848f7a1351996e6605681143f8eb|2020-09-30|John van de Wetering|Fixed exception when entering negative phase in editor
+886aff75ce48fb6a5f62aa83d8e1b042f0a489eb|2020-09-18|John van de Wetering|Some corrected type annotations
+69254a3c679048dfe64dec5d3770142a732bff0a|2020-09-18|Aleks Kissinger|added basic statistics tracking to zx.simplify
+960182e8988b4defa1716ba7de40a5b2092dedd1|2020-09-15|John van de Wetering|Fixes #51
+5011b0a42349f078c5eaef824a1ff5b63a198ad9|2020-09-15|John van de Wetering|Made remove_isolated_vertices() work better with H-boxes
+3f82ae0aeecc380d2ae6c41d9d791936e081b82e|2020-09-15|John van de Wetering|Fixed some scalar discrepencies in converting between H-edges and H-boxes
+986b3fcede1bce5a1e5cbf96003831a177ce41d7|2020-09-15|John van de Wetering|Made zx.draw() a bit more intelligent about displaying vertices with negative coordinates
+c345f6ccc176370e62979d4c7c10ec321ce04c46|2020-09-07|John van de Wetering|Forgotten file
+85ee9d4061aef5c8d10771e5c3aa67d65ac9cd4f|2020-09-07|John van de Wetering|Some further enhancements to the from_tikz() functionality
+c224ab59a10978bd7d287d9be0ea07dbda8d9d2c|2020-09-07|John van de Wetering|Made the from_tikz method more flexible in which tikz diagrams are suitable.
+a123c427a692a73fac95e60ee9b875f643e1aeb3|2020-09-06|John van de Wetering|Hopefully allows mac users to use command-click in the editor. See #53
+54857db6ca0aefc814ca60a12b69d0e40401cf48|2020-09-06|John van de Wetering|Added support for converting a Tikz ZX-diagram into a PyZX Graph. Added new methods to_tikz() and from_tikz() to the Graph class.
+5da0c8d7b4beb5d94edb86be3707bf240ed91f8d|2020-08-26|John van de Wetering|Merge branch 'master' of https://github.com/Quantomatic/pyzx
+b888bed8c7e56741f55dbef0f03319f47da02d2d|2020-08-26|John van de Wetering|Added warnings to docs to not use jupyterlab
+2fc062da34a8aa71394a5fd95081b69c0fc99992|2020-08-24|Aleks Kissinger|added some missing mypy
+0642ee3196416c778aee6c777510fa47e3e3366b|2020-08-17|John van de Wetering|Fixed a bug in the function that transforms Hadamard into H-edges
+14e6ff98ec46a62af242addef6713d32d7e55b7b|2020-08-17|John van de Wetering|Include mypy run in tests script
+4d7f36456e8899cd2bbe8b372f6144aef8091476|2020-08-15|John van de Wetering|Should help with #52
+d64ac1903c1ec4d2a95fe728a6a761a9b76a1182|2020-08-14|Aleks Kissinger|...
+24b306377df70a4b3ac536c476091746f9b998c4|2020-08-14|Aleks Kissinger|fixed some warnings
+398fb61d19e2f274f3432760accd8a759023aa35|2020-08-14|Aleks Kissinger|init cnots var
+2457afa8d8d00e393dbaddb035382f9579e08562|2020-08-14|Aleks Kissinger|use Circuit instead of CNOT_tracker
+312b674dc190bfc2d1960b8cec0da0e69919d622|2020-08-13|Aleks Kissinger|take logger as argument
+60beaad1c6be1963eafb782b2cc6482d6d2488b8|2020-08-12|Aleks Kissinger|sparsification tests
+bee791db3b70f3cd775604940d14ac1776a4fa54|2020-08-07|Aleks Kissinger|experimenting with alternative extraction strategies
+d5ca275965fd870083960f96a11701a686c8087f|2020-08-04|Aleks Kissinger|fixed something i broke in steiner
+282300577d57fbb79f0cce394e2d78c9146d9d25|2020-08-03|Aleks Kissinger|exposed CNOT_tracker and used Mat2.id(k), not Mat2(numpy.identity(k))
+4693a45dcad0ce0caadd3247d79ca6bdd40282d3|2020-08-01|John van de Wetering|Fixes #49
+b5406d064853aa2e05aa3bc3595c6a02f7f31e5a|2020-08-01|John van de Wetering|Fixed the fix
+6bedc8ece02f71dc1f237868b9e68d41cb0af988|2020-08-01|John van de Wetering|Fixed bug where Graph.num_edges() wouldn't return correct number of edges in graph
+31d076b6da066b951f4ce80421f8be06f3142483|2020-08-01|John van de Wetering|Fixed mypy typing error in linalg
+1367c8d46f808703bbfa3e13b92e976c29bb7b63|2020-07-17|Aleks Kissinger|added better indexing and update methods for Mat2
+3611cd47b45d0b8a5adc1124c5325eb79e5e13a0|2020-07-16|Aleks Kissinger|fixed bug in Mat2.solve(): gave incorrect results if pivots are not in the first RANK columns
+bfc14513f2c3bed0563c4ef01cc91a5002627470|2020-05-29|Aleks Kissinger|...
+d6ef85d7b2217776b91bf4b18d0d22afbb5effc3|2020-07-08|John van de Wetering|Fixes #47
+ce7762671610ae46300c2b807dc81bf186015f55|2020-06-16|John van de Wetering|Fixes #43 Changed zx.extract.streaming_extract to zx.extract_circuit in AllFeatures.ipynb
+c9206e783062ee73b962cb4c67044eef1ab5c33a|2020-06-16|John van de Wetering|Fixed some bugs in documentation
+311e130c82a6af5c5df8cd88c919be73672a4add|2020-06-16|John van de Wetering|Added CHANGELOG.md
+a0c9dfb2ca7e68e8f0d5a81edf76991add36fef3|2020-06-16|John van de Wetering|Bump version number
+0bcac892bdb57bf93f48ff80cdb9a529289c56f0|2020-06-15|John van de Wetering|Updated license in setup.py
+4413a75ddc6387f16d589a62cd00d6f7a556df73|2020-06-15|John van de Wetering|Added documentation for ZX-diagram editor
+228137c3db8d768894bbdaadc7d2bc48f1d025f5|2020-06-15|John van de Wetering|Changed some functions and words from British spelling to American spelling optimise -> optimize neighbour -> neighbor normalise -> normalize colour -> color
+dfb0916449ad6b17213e1b5303166b84771c5fe4|2020-05-29|John van de Wetering|Reorganised the Sphinx documentation. Fixed many bugs in the documentation.
+3eb2fd35066c0e2af63b043d1d7aa4761fff67fe|2020-05-29|John van de Wetering|Added ipywidgets to requirements.txt to allow typechecking of drawing.py
+8a542e3333763c199a19f0d6f4815fa30e1b262c|2020-05-29|John van de Wetering|Changed license in setup.py
+8201180319f109e8738b93802b8e95d4ec56ec00|2020-05-27|John van de Wetering|Added support for taking snapshots in the editor and exporting the result to Tikzit
+9b1d6d58a2f7e48bd3a0e7c6f7f25113ef33ec46|2020-05-27|John van de Wetering|Added more modules to mypy ignore list
+bab6d59413644468ae034ed566e8638530fbffa8|2020-05-27|John van de Wetering|Added argument show_matrix to the zx.editor.edit function to allow displaying of the matrix the diagram represents.
+5da539f0dc8ed7fddf2b0e4b061cbae39f2d0fbb|2020-05-27|John van de Wetering|Changed BaseGraph.auto_detect_inputs so that it also removes old inputs and outputs that correspond to vertices that no longer exist in the graph
+af5b7c85339a0798f1ac347450bac547f856d7ff|2020-05-27|John van de Wetering|Improved conversion of matrix to latex (it recognizes more special values)
+f52d2c1d3f36f15963eea2ea33da0938570b545b|2020-05-26|John van de Wetering|Update License blurb in tests folder
+b94d8a37dbd0f5fa6e5aa8dc3659fa44f7cc41c2|2020-05-26|John van de Wetering|Changed License from GPL to Apache
+08502b8f8e46d76c94a152963bd32374b3e7190e|2020-05-25|John van de Wetering|Merge branch 'master' of https://github.com/Quantomatic/pyzx
+52353e8b6ae6b9f315d1cc8c2c236dee907af01f|2020-05-25|John van de Wetering|Added function to pretty print a matrix
+a147d6ab7ff4b4f9bfb1fec956c3661e17d3bc42|2020-05-25|Aleks Kissinger|added CNOT benches in scratch
+d05f3a97719e36fbe24cdce30ecffa1e3cb3e9a2|2020-05-25|John van de Wetering|Fixes #40 Fixes #41
+6299961a2ae157e20fba787157e16d06225c8f65|2020-05-19|Aleks Kissinger|...
+a9986e597128dcb31d6fbde2f7f213b11426e4d9|2020-05-19|John van de Wetering|indentation error
+d59b1f434c5897a464eeac25d7d508b3983843ed|2020-05-19|John van de Wetering|More docstrings in extract.py
+97b2f4b2fa0ebe060b2f87a487512c0a71eefab5|2020-05-19|John van de Wetering|Added typing annotations to extract.py
+b438e634f5131e30056205e1f0e1bf67b347f08c|2020-05-19|John van de Wetering|made compare_tensors() turn off scalar-accurate comparison when one of the inputs is a Circuit
+caa3740cf19ea5224ce7d606d0d852280cb72e89|2020-05-19|John van de Wetering|Deprecated `streaming_extract`, and changed the name of `modified_extract` to `extract_circuit` to make it the main circuit extraction algorithm
+97910eafd26a92fa28f2d6d6da274927d303a641|2020-05-15|John van de Wetering|Made images in readme link externally
+824cbef0e99edcc0bfc7fdf594a4e3a1e0c5f6b1|2020-05-15|John van de Wetering|Added CQC support banner to readme
+6680d9a8cfa139665831a4730c09bf9678bbc6c5|2020-05-15|John van de Wetering|Added PyPI link to readme
+5842f8bbca4631d7e6a763556c6ae3840c6ae085|2020-05-15|John van de Wetering|Backported improvements to extraction algorithm from CQC branch
+c78b2fb2725045fdc5710f9a56d682a26f692b08|2020-05-15|John van de Wetering|Changed behaviour for compare_tensors for Circuits: now only checks equality up to a number, preventing false negatives
+7c02d2f77a9daf832a5aad0a95f220e1042c8194|2020-05-15|John van de Wetering|Fixed bug in Quipper parser
+7264036b26dadf1960b2b27198eb216053e0915c|2020-05-15|John van de Wetering|Remove some old functions from extract.py
+f0ce5790525d41d18812319ca8a5cb9e4e499ad7|2020-05-15|John van de Wetering|Improved behaviour of auto_detect_inputs() to make it more useful
+443d037ac245d950be49e600f2ebabd6654019ee|2020-05-05|John van de Wetering|Updated the documention on circuit simplification
+bb70d0b46166b470521142e13d99719b50cd8d90|2020-05-04|John van de Wetering|Updated readme with EPTCS reference
+768a92e6be5b93b9eb92c85cc3605e4b02689f6e|2020-05-01|John van de Wetering|Enable Google style docstrings for sphinx
+cbc4cd1cb6620a2af46be78299f34cf0756462bc|2020-05-01|John van de Wetering|Updated documentation and sphinx requirements
+7776ab23f04171b0c4eb16b0769d6636d02fc0c3|2020-05-01|John van de Wetering|Updated demo notebooks
+1bbbaa839f1c7b77712b172063cf507118325c5f|2020-05-01|John van de Wetering|Cleaned up namespace a bit
+246bb43e5278ad46b93b382857430777dad53626|2020-05-01|John van de Wetering|Added typing hints to simulate.py
+ddd33e497e3015f4b1793d28c1d9608d5f54b631|2020-05-01|John van de Wetering|Updated graph tests
+74f5925abdaa0cb6eb4624c74fe910654db39aa9|2020-05-01|John van de Wetering|Added docstrings to optimize.py
+26701a37671f847a5ba0ca7017592b4409a41f7a|2020-05-01|John van de Wetering|Removed some old optimization code
+a483762e7de51234164861618a30ab1a89d3033f|2020-05-01|John van de Wetering|Push jsonparser.py
+1fc48327b91595a7d364e532705e19d70b47dcb8|2020-05-01|John van de Wetering|Added typing hints to todd.py
+cebef50fd1fbe595e3eaf7d58b85a7d1de1fba06|2020-05-01|John van de Wetering|Made a better interface for transforming a graph into json and back
+c0b608109295f55a6481a680ebb5ff6509e0aaa6|2020-04-30|John van de Wetering|Merge branch 'master' of https://github.com/Quantomatic/pyzx
+717170aa5cb75e3f35b539ddfe4c4fcc9a904f3a|2020-04-30|John van de Wetering|Added some more actions to the editor
+cdf96fed9c70e59462067c9a691070e52e663e45|2020-04-30|John van de Wetering|Merge pull request #37 from ABorgna/add-CI
+69f17a0deff4220788f8135b75df252de7ab6f84|2020-04-29|Agustin Borgna|Add github action with mypy and unittest
+e488e7faa6ac7788ef3ccd51bf5271eabd84d856|2020-04-28|John van de Wetering|Added a couple new operations to the editor
+1dffff3082b090d0f4774f576a1d012b27a59464|2020-04-26|John van de Wetering|Merge pull request #35 from y-richie-y/master
+034aaf70828d6030e482779e357526aba9d5c2c9|2020-04-25|Aleks Kissinger|added all of my scratchpads
+fa2ddd4dcdcd4c2b1b755ecdc2ea61685c4081ea|2020-04-23|Richie Yeung|check the two vertices as well
+6cc20fdbe4ae3b81d7ac10bce89ffb639bcc7b08|2020-04-23|Aleks Kissinger|plane
+1de5c4333523914a2b751a504902fef4d286ecb8|2020-04-23|Aleks Kissinger|plane
+be8e40c161e44ef3393f0cf59ebbb4afcf75e50e|2020-04-23|Richie Yeung|Fix match_bialg_parallel
+c6248a6b4a43b43d326688ee109d4ce1d1b2c539|2020-04-23|Richie Yeung|Make match_bialg use match_bialg_parallel
+07090256ea50e3785ee176d0b2a9d74eeb346e7a|2020-04-23|John van de Wetering|Added typing hints to various smaller files. Right now mypy type checking is disabled for optimize.py due to the overwhelming amount of false positive '"Gate" has no attribute..." errors
+f215db16e71d09cb311e93837617d4c369dbe08a|2020-04-22|John van de Wetering|Added typing hints to rules.py and simplify.py. Removed some old functions from simplify.py
+a5d3e1c82431c32e7fb44e02663e5ce080c99373|2020-04-22|John van de Wetering|* Merged d3 drawing into drawing * Made a Settings() class in utils.py and changed some files to use it, instead of defining global variables
+71c5c54b1bdc6c578d4cf52b995ddd5041180651|2020-04-22|John van de Wetering|Fixed a typing issue in tensor.py
+279b6dc637bb84affba405f50b552cac870a912e|2020-04-21|John van de Wetering|type hints for tikz.py
+fbf11467162870c3a410f95ef54cb12e569fa80d|2020-04-21|John van de Wetering|Cleaned up drawing.py and adding typing hints to it and gflow.py
+90bfbf02fa1f828c3377ce8d20357573fb1d9ddc|2020-04-21|John van de Wetering|Added typing hints for io.py and quantomatic.py
+95d95c0a31c6ea9e67ae2ec6f6c21e89001cc943|2020-04-21|John van de Wetering|Added test for io.py
+122cbcbb5bd87a3c0ee34f57ec31f818a426632d|2020-04-21|John van de Wetering|Moved some drawing/editor related stuff to utils.py
+868ce229ca8991973d9fdea8014c6b48c8ee5c59|2020-04-21|John van de Wetering|Added typing hints to tensor.py
+00506d6b74ba768e732399300a7d97860af3ad27|2020-04-21|John van de Wetering|Display a more meaningful error message if zx.draw() is called without matplotlib being installed
+f0959bd198328d35675faad56a96f87127908888|2020-04-21|John van de Wetering|Made a fix to DocStringMeta class so that it also works on Python 3.6
+dca262d226d235843f5c890a4872a4d1094c48a3|2020-04-20|John van de Wetering|Fixed some bugs in simplifications when H-boxes are present
+df408f50d5c7bc1f9e65cd7cf72973b30823eaaa|2020-04-20|John van de Wetering|Allowed `add_edge_table` to deal with a larger class of edges from H-boxes
+6ebce98b64ff8e00578e80383c61924389c2157e|2020-04-16|John van de Wetering|Some further type checking fixes
+6cdb29baff84febb8fbafa319690cf1ec9b60cdb|2020-04-16|John van de Wetering|Added some tests for Circuit conversion
+e614e1a33b9dcb50714ec252006ffce25b8344e1|2020-04-16|John van de Wetering|Added typing hints to the circuit submodule
+7bbadb4cc042480f51ce4e76677a584b5c14781f|2020-04-16|John van de Wetering|Added typing hints to linalg.py In the process fixed a bug in Mat2.solve
+8b4d7cc4e67815992a13d64c54d3916528743643|2020-04-15|John van de Wetering|small changes to remove warnings from mypy. Added a mypy config file to check typing with mypy yourself run `mypy --config-file mypy.ini pyzx` in the repo
+22d5632b2597f2793fb69f0a7cc5fea278961874|2020-04-15|John van de Wetering|Added typing hints to the graph API, moved some common definitions to utils.py to prevent circular imports
+914874b31cc23cfa54538303ee24278b0cf0a3fe|2020-04-15|John van de Wetering|Some small changes to graph_ig and graph_gt
+97e8b1ae0bd5ded4d64e97e979f7bbb495de89ed|2020-04-15|John van de Wetering|Added typing_extensions to list of requirements
+32c2cea1087c43b83cb550afc2db24d7954cb919|2020-04-15|John van de Wetering|Switched np.mat to np.array to remove PendingDeprecationWarning when running tests
+7f374ba3cc22171602932866e1a3455426952724|2020-04-15|John van de Wetering|closes #34; removes support for running PyZX simplifications inside of Quantomatic
+2bdd1b761aa22e83522643626db07a06959e3a32|2020-04-14|John van de Wetering|Undo is now activated with ctrl+Z, instead of just Z. Fixed redo'ing
+77ac46f54fb2d3d13fcc508ba069ae32bdf4c407|2020-04-14|John van de Wetering|Added support for H-boxes in tikz output
+24c9974a30d1f28717f5157a80c5176b4cfc6ad5|2020-04-14|John van de Wetering|Disabled automated removal of isolated vertices in editor as it feels unexpected (and also was leading to some kind of exception)
+80a7dfde26b61191ce1a06e7fe28efdc77f2e6dd|2020-04-14|John van de Wetering|Some further places where VertexTypes needed to be inserted
+576dc388e3e641f20660d932a378688303c84600|2020-04-14|John van de Wetering|Merge branch 'master' of https://github.com/Quantomatic/pyzx
+fea899b1d187a3da73ea3374543727ae02d70ce9|2020-04-14|John van de Wetering|Added preliminary support for undo in the editor
+78b402fceb0c1778dcda6028d8ed773ac4a86ae9|2020-04-14|John van de Wetering|Merge pull request #24 from ABorgna/vertex-enum
+1bc08fdca84cdbc547fdf4179f80ae747d0fb910|2020-04-14|John van de Wetering|Merge pull request #33 from ABorgna/fix-benchmark
+957e3529a5ec6d521605cc92a535178b49c3a203|2020-02-03|Agustin Borgna|Make benchamrks runnable in linux
+99f169899285daa657872afc1821ad71120a1e55|2020-04-14|Agustin Borgna|Add docstrings to the type utility functions
+ca0ce2ea4264209423b04161d7dcd1c3a5efac2d|2020-04-14|Agustin Borgna|Replace edge and vertex type constants everywhere
+da3e22eb28f9344dd13e0f63a3b606fe4b5c25da|2020-04-14|Agustin Borgna|Rename _REGULAR_ edges to _SIMPLE_
+42bea275757d8c6b466b336d691e576426e9e2b3|2020-01-31|Agustin Borgna|Use constants instead of enums
+9b9d8cf6ef71a0b4115d98a921aedb4acdf960ba|2020-01-31|Agustin Borgna|Use enums for the rules
+907d398f34f5091b439f1efc7390fa41fc37a528|2020-01-29|Agustin Borgna|Use an enum for vertex and edge types in the graph
+4381c97617323cd0902d5e9294be843032f65956|2020-04-13|John van de Wetering|Remove some old notebooks
+9af0065a10a7fc73466143c06ac5d60f851c585d|2020-04-13|John van de Wetering|Fixes #31 Also added some tests regarding related circuits that also failed due to slightly different bugs
+f9a8266b17493893727f42a7490b1632b9d04455|2020-04-08|John van de Wetering|Update installation instructions in README
+1aa0cca0bac1af2ae850cddc7061080c74d89519|2020-04-08|John van de Wetering|Added support for H-boxes in editor
+49baa8256bf94015761d0d4493aa6d1299dc2c81|2020-04-08|John van de Wetering|Support for H-boxes in `io.graph_to_json`
+8f84a1e9d5fbea3b5b6d164b5dc3be6f250787b1|2020-04-08|John van de Wetering|Bump version number
+119b23b9864c258410ccb8f013dc4d9b8a72c27a|2020-04-08|John van de Wetering|Fixes #30
+52de1b1d40d2be3f8ef4ae9ba2872d4b2e4020ae|2020-04-07|John van de Wetering|Updated setup and manifest for PyPI distribution
+c3c36e8a2c0a4f88ba2bb46eee69d36a7c451ca7|2020-04-07|John van de Wetering|Guarded all the imports of numpy
+201b9d91d95bd603eea6bd577da445c38b7b4f38|2020-04-03|John van de Wetering|Changed the way pyzx looks for the javascript resource files so that it is hopefully more robust under the choice of working directory. Also changed the location of the javascript files with an eye on future inclusion in a PyPI package
+24efdbec660ccf62d927132832e6295bd950c1d7|2020-04-02|John van de Wetering|Fixes #29
+188715c25635b77d76e80cc535f3a7063bb0efad|2020-04-01|John van de Wetering|Added several more rewrite options to the editor
+69be646d8540d0db1eea463e9f12e7dd0df56699|2020-04-01|John van de Wetering|Added a framework for furter interaction between the editor and pyzx
+440d9d0adedf89ee58f030c64921a23f184787be|2020-04-01|John van de Wetering|Updated some old spider fusion code
+e3e964f488cf117b605cf77a83ca17e29f7df362|2020-04-01|John van de Wetering|Editor now also preserves selection state, preventing some weird bugs
+377931e1e3a4fcf9e2c4dba5daaa6f9b93dc38af|2020-04-01|John van de Wetering|Made the editor automatically push changes to the Python kernel
+089d316bc0f9372ae28c6b7cf07fa7e7e083f84b|2020-03-31|John van de Wetering|Started work on ZX-diagram editor implemented using D3
+901eeb1ab2ef2c7b62eb3b1a07b06de2310c4199|2020-03-31|John van de Wetering|Linked to d3.phase_to_s to the drawing module
+ab48b8d4efaae36c1a2d00128a9f0dad0c52f020|2020-03-30|John van de Wetering|Updated D3 version and changed the name of js/pyzx.js, and fixed some bugs in the d3.draw() function * Phases and labels are no longer selectable text * Selection while SHIFT is held down now actually works
+a2d5e30e3426d5177b3607e3afe6776eb2af4136|2020-03-27|John van de Wetering|Updated emojiparser for ZX-calculus Discord
+1e37aa7eb8aad2a46efe962ee7d0f9ca8d4679eb|2020-03-27|John van de Wetering|Added ability to convert circuits into emoji for the ZX-calculus Discord server https://discord.gg/SfWTZpw
+439031cca5716d9f1e7505f74faaf7243e4d4ea5|2020-03-27|John van de Wetering|Add licence information to files
+b6e278c95eb1a119b9b1a298346afc9f69174c86|2020-03-26|John van de Wetering|Fixes #28
+e214f1f681a8d352a09e5f9bef7f80ea3f3442de|2020-03-05|John van de Wetering|Merge pull request #27 from herulume/master
+909100a8e0127c89cebfd6d7b7ab726192460255|2020-03-05|herulume|Fix typo
+1eafc1a293b019235f8370cc9fac6ce2832188a1|2020-03-04|herulume|Add missing sub-modules
+cc34a6ba98ae2be8b825eef4c5714301a1b62a49|2020-01-30|John van de Wetering|Merge pull request #23 from ABorgna/fix-gates-import
+9314225475f6c57e08d83dacadbf01be3020d890|2020-01-30|John van de Wetering|FOSDEM demo
+498ba1201c6b97072a342d468b5ac32e6ed711ce|2020-01-29|Agustin Borgna|Fix import error in routing.parity_maps
+a431b63ce1e0e6be3f9021be6d23342331357987|2020-01-29|John van de Wetering|Merge pull request #21 from ABorgna/fix-np-test
+28b684f9d548afddaa33375ebb2483dbe79cd211|2020-01-28|Agustin Borgna|Ignore a test case when numpy is not installed
+d53ab89d25e23dcd7de62fdd8774813921f8e19b|2020-01-22|John van de Wetering|Added an argument to dictate the accuracy to the simulate.SumGraph.sample method
+675c713abf6809e1d17ae8588dfcdf6e7bd96af4|2020-01-22|John van de Wetering|Added copy_simp to copy trough Pauli spiders, which is needed for non-unitary diagrams where such a spiders could be indirectly connected to an output/input.
+7fb1d7e26b6d2235a325146cd80f654f4253c873|2020-01-22|John van de Wetering|Fixed rare bug in remove_ids that could trigger when you had a 'square' of identities.
+31de4b4c02bf166b5327e244b3e9f72af5780fad|2020-01-22|John van de Wetering|Finished implementing simulate.SumGraph.simulate function
+56e7259572c02b8c5e483d44ecd8b13fec12be6a|2020-01-22|John van de Wetering|Work on classical simulation algorithm
+a4a29dc960e159c61a19b1f35c9eaa0421a15b1b|2020-01-20|John van de Wetering|Fixes #20
+098c930a268cc7c9c6d5051a801845dd6b567f08|2020-01-20|John van de Wetering|Made the Graph.compose() function preserve the scalar
+f7122de85f44658effe57703a818db7ffba1aec9|2020-01-17|John van de Wetering|Added a function to recursively decompose an arbitrary Clifford+T diagram into a sum of stabilizer diagrams.
+76ada4ca83aac7ca64dc4d729c1fb4a28c6ac975|2020-01-17|John van de Wetering|Added a flag to the scalar of a graph that it is equal to zero
+a215547baa46aa144a62fc7b5ee09bd02c6d4e06|2020-01-17|John van de Wetering|Fixed a bug in gadget_simp that occurs for non-unitary diagrams
+d3af75dd40d7aa41884e9f434481e68ec6ab43ba|2020-01-17|John van de Wetering|Merge branch 'master' of https://github.com/Quantomatic/pyzx
+178e2af5c7c041d229eb23bc7e729b281f431734|2020-01-17|John van de Wetering|added a copyright blurb
+76474b087ab14682249a756b9e2ac483fbbbc6ba|2020-01-17|John van de Wetering|...
+d7b83cee13b6c291dd49ba36117e3652a0f004c8|2020-01-14|Aleks Kissinger|...
+cefe4faf5655920180012f6403fef1b1325dfba8|2020-01-13|Aleks Kissinger|added tests to hyperpivot demo
+377df13592b9b78f1843dfe1a454e21afb2b83cb|2020-01-10|Aleks Kissinger|experimenting with stab rank heuristics
+78376a0be0467bd1aa41fdd809253c3fb743dfb0|2019-12-07|Aleks Kissinger|QNLP demo
+4a217ee2352aca3427fb157e71aa3543e6ec98bf|2019-12-07|Aleks Kissinger|updated drawing code, id-checker, and added new qubit mapping method
+5fb969a04337872a4443080370f717c0aee03759|2019-12-05|John van de Wetering|Added some operator overloading to allow composition and tensor products of circuits and graphs
+f14ef6416c35fe71bc0bb1fe3b5480d8dc89a015|2019-11-30|Aleks Kissinger|stop grabbing focus
+a0fffb20c1daa8ffb17dfe3fb1f2d72f888720fd|2019-11-25|Aleks Kissinger|added qsim input format and fsim gate for google circuits
+d23566b0bcdd7262d2fadd85c27ab5a120013eb5|2019-11-07|John van de Wetering|Made generate.cliffordT and generate.cnots scalar accurate (hopefully)
+2e4f0718a4502a0c3df22444531692100d202a80|2019-10-14|John van de Wetering|fixed some documentation in simplify.py
+fd1afbb6876b1e546ec953f28e982dbcd67ac5bf|2019-10-14|John van de Wetering|fix the command line tool
+b2db1ab94f4dac408401bee1a1056e3b1c83ab8d|2019-10-09|Aleks Kissinger|hpivot notebook
+5d409a246857b7600cc9bb0fbc13043d54fb9449|2019-10-08|Aleks Kissinger|add_edge_table now throws an exception rather than break soundness if it doesnt know what to do with parallel edges
+b4c75b08a6d3f0405a212c0e5e9b6bf9ac6d24d8|2019-10-07|Aleks Kissinger|working on hpivot
+30a8acb07eaeaf177002bbc6c4dc9fe8fd1d38b4|2019-10-05|Aleks Kissinger|string demo
+4e79bc0916d5cf9a8f62dbb503cbb1a0739b0988|2019-10-01|John van de Wetering|Can now remove vertices and edges in editor
+334f9e1a0437c283ca972e9507acd90f392ba040|2019-10-01|John van de Wetering|Made progress on javascript graph editor
+febee2d90dfbff48b84a39fdc19e1696769d1075|2019-09-30|Aleks Kissinger|compare_tensors seems to work...
+262908220370ca1647101b9fbb368a4f06eb95a1|2019-09-30|Aleks Kissinger|FOURIER HYPERPIVOT!
+cf84169109399d2235b072d590ab765b070957f5|2019-09-30|Aleks Kissinger|hyper-pivoting
+1072e55f0e5edec24abc55e5be59c7fd9cf43f52|2019-09-23|John van de Wetering|Updates on some notebooks
+60430e31496a579744b495a1e5852a80a8c24df4|2019-09-17|John van de Wetering|Added option for showing node labels in d3.draw (default is false)
+fc1bab3198881328fc3d1031f8890e828050607e|2019-09-17|Aleks Kissinger|removed optional zh arg from drawing code
+26f5291acff52c07a6ef3fe042198f5d559984bb|2019-09-17|Aleks Kissinger|got AllFeatures working with ZH modifications
+3075759ba2dac2227ee3faf9dbb498c439918635|2019-09-17|Aleks Kissinger|Merge branch 'master' into zh
+671da791bc0fb7b68c47c47db6685b5d685ddb72|2019-09-14|Aleks Kissinger|cliff-simp code
+47e383f16b1dc865f36b582e1144a607e24ce405|2019-09-14|Aleks Kissinger|renamed notebooks
+541059dbbdb5abc507d3f924322fa1d7ef3d060d|2019-09-12|John van de Wetering|Updated almost-clifford optimization demo
+c6cf9c0a326861ec3a1d29582dcb7d21851858e3|2019-09-12|Aleks Kissinger|fairer split
+c6d022a47445a11d4b7ae307009d8508d6bd149b|2019-09-11|Aleks Kissinger|...
+db1c0585c7745200f0fe987d44f3e7bf63ee81b7|2019-09-11|Aleks Kissinger|added new version of clifford-simp data
+3800523c1326e61d9d47a9969bbceacd3f770bce|2019-09-06|Aleks Kissinger|string demo
+db6e192c6827480b587c3d9371be4a738e9b01cf|2019-09-06|Aleks Kissinger|added STRING notebook
+20f936c67b5fd44fd7408b02af3714217d4a2864|2019-09-03|John van de Wetering|Several small changes and additions to scalar optimization stuff
+adb0f6e71fc7bce0edec21e702c42af40292f321|2019-08-27|John van de Wetering|Fixes #5
+4952d7ed3789e7214985ea2fac027b496637d62b|2019-08-27|John van de Wetering|Added another demo notebook
+00ad6cfe5664262caf1e2e74f666079902dacbca|2019-08-15|John van de Wetering|Changed behaviour of `g.normalise()` to always do something, including for very small graphs. This fixes some weird behaviour with `streaming_extract`. See also https://github.com/Quantomatic/pyzx/issues/9#issuecomment-521003100
+ee89c094b350583cfd8acef0580dfe437e068c3e|2019-08-10|John van de Wetering|Merge pull request #17 from obtext/doc-fixes
+70ebbfaa94969b7b60fedf15be075f5624285adb|2019-08-09|Alec Edgington|Correct documentation of `apply_effect`.
+d6aa6b5bfab85885ccddfa716f5a46ae74375bcd|2019-08-08|John van de Wetering|Fixes #15
+c322a122d75053aa31b27bfcdafb60faf9e0cac5|2019-08-06|John van de Wetering|Updated docs and demo in response to https://github.com/Quantomatic/pyzx/commit/e0e84156f5f23cac152ddc5f51e5d86c4b8dc6b8#commitcomment-34578269
+8a043a13589c1e13d1602384c842f8018da9ffad|2019-08-05|John van de Wetering|Merge pull request #14 from CQCL/cowtan_naive_cz_optimise
+ecfc7efd53d0d8af0221e576c6dc465662dcdcad|2019-08-05|Alexander Cowtan|argument to dictate optimisation
+73945c9cb126e233bd5cffc63e2f0cfbfa44dd5f|2019-08-02|Alexander Cowtan|comment chagne
+539ebbf7ca03f103b47898b878b09f695920ad2d|2019-08-02|Alexander Cowtan|naive cz optimisation
+cdb5dbab07fb0e0ef2b0fa86a30ec3ee55930ef5|2019-08-01|John van de Wetering|Fixed modified extraction algorithm. It seems to work correctly now?
+2ee3118245e5f9d1b1fde2cd289de5221762491a|2019-08-01|John van de Wetering|Started work on new extraction algorithm
+075db505d2c1bee9a466736ecd1a0c2389cb61fd|2019-07-26|Aleks Kissinger|h box layout
+1f2df0fe3737c82c5465752de287b6f80416a4da|2019-07-25|Aleks Kissinger|Merge branch 'master' into zh
+2961a3e7e26d66fa2df08c6227070103bbc65b64|2019-07-25|Aleks Kissinger|working on auto layout for hboxes
+9c44054a3faad1f00489ca187dc1c3d176875509|2019-07-23|John van de Wetering|Merge branch 'master' of https://github.com/Quantomatic/pyzx
+d9a082ca6a541b5c9255c783da6c45b61aa60d39|2019-07-23|John van de Wetering|Personal notebook update
+c61f729f88f5b39c45e566770ab2e8146c6fcb07|2019-07-16|Aleks Kissinger|added SQASM code and tutorial
+6ae27707385c52299bb3380d8a002cdab012382a|2019-07-15|Aleks Kissinger|added permissive mode for qasm parser and changed slightly how spider fusion handles coordinates
+0c7e00462ca0fffb5f3baabb329e0643952cd557|2019-07-12|John van de Wetering|Added a new simplification strategy based on the supplementarity rule
+9188c64e0285396f1376347a15868639bb436896|2019-07-12|John van de Wetering|Fixed bug in path sum calculation
+c0672f1f24c5fbe7fc955d2a77de52a9c59f7fe5|2019-07-12|John van de Wetering|Added code of conduct from template
+971a6cdc891fc830a90facc485b29d237b921c5e|2019-07-12|John van de Wetering|Merge pull request #13 from CQCL/qasm_bug
+23f393ffad8b76a2f679331550adafa4bba6934c|2019-07-11|Alexander Cowtan|load qasm bug fix
+3879e0087c2f156e0e05ca988c56fd96ec5b1de4|2019-07-11|John van de Wetering|Added some tests and fixed some bugs in the simplification of scalar diagrams.
+94a9540148c5e338ac75c80f6d031573024f3168|2019-07-10|John van de Wetering|Again changed gadget pivot to work better with weird shaped diagrams
+a6cdaa2c0bbba87ac44384284e680ba94ede2448|2019-07-10|John van de Wetering|Fixed bug in remove_isolated_vertices when the edge type wasn't accurate
+39df048cd33892e70eb41511647ae4ddba3eb649|2019-07-10|John van de Wetering|Made CX gate scalar accurate
+d3a5de682f227a701198ee15de325a5277ddfb89|2019-07-10|John van de Wetering|Made gadget_pivot work a bit better with some odd diagram shapes
+c6f7331db2e20b9e75c1487da947a31f2834a206|2019-07-10|John van de Wetering|typo in tensor code
+dd923148343e6ca2a3e4aad6e1119cd6e60c0588|2019-07-10|John van de Wetering|Added test for verifying correctness of stabilizer decomposition
+ad50ea5063645d80c9fca1ccf341d2c2c566d242|2019-07-10|John van de Wetering|Added fixed versions of cycle17_3 circuits
+e0e84156f5f23cac152ddc5f51e5d86c4b8dc6b8|2019-07-10|John van de Wetering|Changed default behaviour of tensor generation and comparation to be scalar-accurate
+9e5e74ca2a1f04ccd42d738bbaa5e6fb6425c209|2019-07-03|John van de Wetering|Slightly changed how magic states are selected in the stabilizer decomposition
+d2e6ce4830d46c32ca3e73fc2feeadebfa2da56e|2019-07-03|John van de Wetering|Started work on implementing the stabilizer rank decomposition of T-magic states
+d93b70e08c516322c0388b8d50dcf9dadbe682c1|2019-07-03|John van de Wetering|Added support for removing a pair of spiders that forms a scalar
+eee2cb5c913765abf2d1e683c0ab105088fe28d2|2019-07-03|John van de Wetering|typo
+716abb3384d7886225b72c18c5bef7cc2107f722|2019-07-03|John van de Wetering|Fixed bug in outputting Quipper file
+727df45af6a366f6374be68fb2c4f743cf3311fe|2019-07-03|John van de Wetering|Added function to insert a state into a graph
+76f238f7ae186133b183ca4993592398c32cbe58|2019-07-02|John van de Wetering|Fixed bug in tensor_to_matrix() so that it can now also deal with states and effects
+bf086d95020f79bb19d6dd0d726865edbe469f43|2019-07-01|John van de Wetering|Made all the rewrite rules of full_reduce() scalar accurate and added an option to generate and compare scalar-accurate tensors
+03dd74766e316dba011ff90773254e23d5a3705a|2019-06-26|John van de Wetering|Fixes #12 The AllFeatures notebook was quite outdated, so I updated it with some new developments in PyZX.
+524f8eaa1cadef3086682dffe8136cd61cf311b9|2019-06-26|John van de Wetering|Refactored circuit.py into a submodule, so that it is no longer a 1000+ line file
+a468658ee779bd60b5d8b6ecad3c9a7d8cbb1275|2019-06-25|John van de Wetering|Changed js directory to fix d3 rendering
+9881c70b20bb371ae381ba2be815492addfcb383|2019-06-09|John van de Wetering|Fixed bug that was introduced somehow by deleted line in optimize
+d86b915a4b9ba63e31f2bfa1bd685906359c9c65|2019-06-13|Aleks Kissinger|...
+655ac90a432ebf61e054dcb3bfb30d2876d5ea6b|2019-06-12|Aleks Kissinger|hrules
+ee3e17a568c097510c86b6caace1542b086984d3|2019-06-12|Aleks Kissinger|code for drawing zh
+422d542d4186ee086477f651b537442480dc5cf5|2019-06-09|John van de Wetering|Started work on scalar-accurate rewriting
+d79b17ba07cc2f14cc2779b41a963ba74f988c86|2019-06-05|Aleks Kissinger|zh stuff
+59eab6089d376535c8bc229fea2c25271a0d6dd8|2019-05-23|Aleks Kissinger|...
+a270cb35031cfea57d040f88d5e54eed4576f1c6|2019-05-07|John van de Wetering|Added link to paper in readme
+1242b9af5833157305dd11d91cbf46bdd397c490|2019-05-07|John van de Wetering|Updated readme with references to zxcalculus.com
+3b135514ea70865d5d793f17c88649eb009e7702|2019-05-07|John van de Wetering|Changed the way graphs are converted into tensors so that non-unitary diagrams can be more easily converted. Also added a function to_matrix() to more easily visualy inspect the matrices
+f74d728649ac7bf088fec3b9d1a0cbe40c6c4818|2019-05-06|John van de Wetering|Added argument to basic_optimize to prevent it from introducing SWAP gates.
+491a45a2110d7162015d3409ab03c510ba0933e6|2019-05-02|John van de Wetering|Comments
+b81957dec4b0e883788a05adb64a6787540729d4|2019-05-02|John van de Wetering|Added new extraction algorithm
+5977010f15cd9465a3907e436f7c944447d0262b|2019-05-02|John van de Wetering|Fixed typo
+ec70b0df9891f78a03c8b4872f6db67d99048fc9|2019-04-26|John van de Wetering|Made cnot_mapper conform to other scripts
+c53b047f09e6d8afb11fdc9409357c0e6b4c3087|2019-04-26|John van de Wetering|Merge branch 'master' of https://github.com/Quantomatic/pyzx
+56ece952fd549a20fd3a25712829a969aa02556c|2019-04-26|John van de Wetering|Made PyZX compatible with Brython
+1183127ebb03d6dda4a2229d4d4b69f197995a31|2019-04-26|Aleks Kissinger|added GPL headers 2
+95e991ae909de928411a804f43323a7aa1745697|2019-04-26|Aleks Kissinger|added GPL headers
+786dee62520e67b39e445f49c79f1d737d468383|2019-04-26|Aleks Kissinger|moved fitness function into script
+a52036983139c4d7088f6513835f18dfbcfc2a20|2019-04-26|Aleks Kissinger|typo
+f28fcfb48312a1482adead60250207aa0c0766d1|2019-04-26|Aleks Kissinger|moved steiner_gauss into its own file
+cf596d636a0eda13d7b1500e33f76389c452e221|2019-04-26|Aleks Kissinger|added init
+c9006893669e21edc28545951ffba8a1fcaa25bb|2019-04-26|Aleks Kissinger|...
+8d1a560da31d2b6b1be3b3ebe2e43c4858472bb6|2019-04-26|Aleks Kissinger|moved routing code into submodule
+e8629e914d262bca72c551fb914ab279deb29a98|2019-04-26|Aleks Kissinger|pulled in files from steiner branch
+b65b14cd9d6a087cd0b8da059a6dae3ba7235a90|2019-04-26|Aleks Kissinger|...
+2e44693ce1ad70b3556b9abe82cf002307a5e83a|2019-04-09|John van de Wetering|Merge pull request #11 from balopat/patch-1
+fff50a1db57553c92a6937dfc880ccde69e3c914|2019-04-09|John van de Wetering|Added directory with PyZX optimized circuits
+ea7b8f5c27154b70e12605da665565ce8f62d9d6|2019-04-09|John van de Wetering|Added Time benchmark
+64532da53fd8531b0ea85553b7b34f361b9ef6b3|2019-04-09|John van de Wetering|Fixes #10
+1b03ecb7263cd6fc95ce08f95cb3f47d330d69f9|2019-04-05|Balint Pato|fix for another bug for non-pi expressions
+3b7d16dc7f51281283693ce1ef0947e71537a63b|2019-04-05|Balint Pato|fix issue with parsing <float>*pi type expressions
+a3ffb0c98a89f5929187fae133204d3fa76376c4|2019-03-24|John van de Wetering|Seemed to have fixed the bug in phase teleportation?
+fffd9be2461c505debb028b2c1f5c078b00a8c28|2019-03-24|John van de Wetering|Added support for 6-control tofollis in qc files
+1d40899c2aa45147edd99f6a5255af2af40ed826|2019-03-24|John van de Wetering|added circuit
+36387ebefcf82d3c3d7a59bef51a099dcc62131c|2019-03-23|Aleks Kissinger|added challenge notebook
+f3d9deec3f36d12f129512ebb5878861d30e78d4|2019-03-22|Aleks Kissinger|Revert "finished" (oops, wrong repo)
+4e8b9bb00d9bcc76b51ba05eb47de4427229eb39|2019-03-22|Aleks Kissinger|finished
+f3b17ae149cd444f9c8bfc8e601f3a9b6c41e9b8|2019-03-22|John van de Wetering|Fixes to teleport_reduce
+46f6d84c8e177d9fd1f0649d3d384f03fd444317|2019-03-19|John van de Wetering|Updated some documentation
+75c5690cfd1e08cf05cca0d46a04941409cc62e9|2019-03-19|John van de Wetering|Changed the way scripts are called
+6b9b90e84c08efdc3ee1407d84507e622cda81eb|2019-03-15|John van de Wetering|Fixed bug in pivoting
+5901c1df8c52517e170eb82067c92b8aaac67262|2019-03-14|John van de Wetering|Added function to load the PF files from the NRSCM paper
+df8818104a7aefcd0b62c9df47bf50df0cb1d6cd|2019-02-24|John van de Wetering|Added export to Tikzit
+906f6db3977af1650cacd7acf469b6091a51f631|2019-02-18|Aleks Kissinger|renamed notebook
+4fe7f0d0e1ca9de77a1729bddf093e97b943259b|2019-02-18|Aleks Kissinger|tweaked notebook
+7ddc02bf9f684009a89341d3e7c70925030a4d47|2019-02-15|John van de Wetering|Added demo explaining the simplification of the circuit from the paper
+b073754baa322f4591f402c3669293f3b063981c|2019-02-12|John van de Wetering|A bit of documentation and small bug fix in circuit
+aface736837edcca56d2bdd633c30cf91deb7617|2019-02-08|Aleks Kissinger|d3 code cleanup
+9c618843cf3b10d096e17e160035615ad0356835|2019-02-07|Aleks Kissinger|d3 tweaks
+b225b55e550f9bc3b18fdc154ba000a32c3773ce|2019-02-06|Aleks Kissinger|moved showGraph into a javascript module
+9052bed32cee63aee5fef1f1fb11bfbc32ec0eef|2019-02-04|John van de Wetering|Added link to Youtube video in readme
+2dd56d8180e0d18f201757b839596cb9509f8e4c|2019-02-03|John van de Wetering|Renamed 'notebooks' folder to 'scratchpads' and added a disclaimer to make clear that this should not be the first point of entry for new people.
+08fdf6175901280bed86eafe72ad12c628f8d833|2019-02-03|John van de Wetering|Removed FOSDEM demo
+d1b8e0e73bf00f0d31ff49a0fe516256d4e67279|2019-02-03|John van de Wetering|Added script for circuit-to-circuit one click optimization
+e052b336cca07442b5d154e5b9a63fae90f8b308|2019-02-03|John van de Wetering|Added script to convert circuit file into tikz file
+b3b71052c8021de98614fcffa86af5b1708edc54|2019-02-03|John van de Wetering|Added full_optimize function that does both basic optimization and phase_block_optimize
+57093c920eca03f29257da4fc9d33f4b2743ce42|2019-02-03|John van de Wetering|Removed debug output from d3.init
+1da83418f895a0808a6d551ccb55d4a5f152c50a|2019-02-03|John van de Wetering|Added function to determine circuit file type and fixed a bug in the to_qc() function.
+882d9a7e1b2e54df1f386d9d22ecdb954878def6|2019-02-01|Aleks Kissinger|max scale
+d9301c88c52a2e13b7fe287b2bbf06fd4f911e62|2019-02-01|Aleks Kissinger|...
+2c2fe4c9dffa54d2bb96930bdb2620b0e5fe65eb|2019-02-01|Aleks Kissinger|..
+75c906f7f59dfd8b876352a8a44c8dc3c4c172d8|2019-02-01|John van de Wetering|fosdem demo
+9e7e7218bd71999c544d9f7c6efbcb40600ab197|2019-02-01|John van de Wetering|Removed some old scratch notebooks
+86129b3535839183b8723f4179b0971206986010|2019-02-01|John van de Wetering|Merge branch 'master' of https://github.com/Quantomatic/pyzx
+fca25978dfeb952b25c697190d06698ab4d2a80d|2019-02-01|John van de Wetering|* Changed clifford_simp to use a different boundary pivot * Added teleport_reduce that simplifies phases of a circuit 'in place'
+766280467022994739bfcf8ccf0fa69802170e9d|2019-02-01|Aleks Kissinger|improved d3 drawer
+cca1295ac986666315920d8f158f1018e5faaf54|2019-02-01|Aleks Kissinger|added d3.js support for drawing
+a036c8bbc7a66f08387445c211c7d0721c7684c7|2019-01-25|John van de Wetering|Fixed bug in greedy_consume_gates() concerning double Hadamard gates. Added documentation to optimize.py
+0945c495d6a3b8606b575714d4af611dd994eadf|2019-01-10|John van de Wetering|Added Unitary Fund badge to readme
+b71406785ee4ece5099ac34df6b8b747f8a82776|2019-01-10|John van de Wetering|Added new matcher for pivoting that gadgetizes non-Clifford nodes. This is used in a new implementation of simplify.full_reduce that is much faster, more canonical, and in at least 1 case gets a better T-count than before.
+46faae6877acf4e5844e82fd34e1d14028f4de9e|2019-01-10|John van de Wetering|Added function to write a list of graphs to tikz output
+d8dfc8c55d01a55b0358d44d9cfade23128f9983|2018-11-08|John|Merge pull request #8 from tbabej/master
+ddd9c5fc0d01d0b675b867a106c80785ce23f9cf|2018-11-08|Tomas Babej|extract: Remove circuit_extract and greedy_cut_extract from __all__
+43e29f8b7362fe2d67909b4705fe27aa997acf79|2018-11-08|John van de Wetering|QASM importation now supports rz and rx gates
+069b88cd16b82be07dc0c4d69a83d7257e586580|2018-11-08|John van de Wetering|Updated tests to reflect deprecation of circuit_extract
+c1a4af60494cbd62a0e65c71374acb8645ae1cdd|2018-10-26|John van de Wetering|Updated readme
+8859fb44d8c1110fd5480d01fb5b14d562b91e1a|2018-10-24|John van de Wetering|Added to_tikz function to drawing.py
+29a1e47a2ad6dd2db3a3ac31a10090baaec8a2e8|2018-10-10|John van de Wetering|* Added demo notebook for demonstration of all the features PyZX has * Lot's of small usability fixes * Renamed qgraph files
+e2854deeee2f89d732e12b82116488d6f2ef0305|2018-10-09|John van de Wetering|Added 2-qubit version of horrible_unitary
+d9d5e05997530bfe05cc79823183278a7f1b2f6a|2018-10-09|John van de Wetering|Added ZX-graph unitary that is quite hard to extract
+e2f7b754769802fa22258cde7dc650d9281c0f64|2018-10-09|John van de Wetering|* TODD shuffles columns now for more randomness * Cleaned up some code
+16acf5993846f07ef850147e852d1dff814b6861|2018-10-04|John van de Wetering|Cleaned up extraction code a bit, and started work on making ancilla circuits extractable
+429eb957b382cb69a98f0bc45729756ecdde341e|2018-10-04|John van de Wetering|Implemented TODD algorithm to directly work on ZX-graphs
+a6c33f4a95781563ab12ba86360f483dcdc502e2|2018-10-04|John van de Wetering|Added Benchmark notebook to demos folder for easy benchmarking
+228fd4062053bc50028d061bbb50bcd45e72ce85|2018-10-04|John van de Wetering|Added circuits in a different folder structure
+a49fc6e5061fb791910b58e90a6464a4e2a00dea|2018-10-02|John van de Wetering|Merge branch 'master' of https://github.com/Quantomatic/pyzx
+29232a044ae5e96261ec4ff5b6c16bb92077ed7d|2018-10-02|John van de Wetering|* Fixed circuit simplifier * Made TODD simplifier use TOpt when it is available * Made Mat2.nullspace use C implementation when available (compile linalg_c.pyx with Cython to use this)
+30d0dc6eae9d965691cce5791b827ac4ff9ef6f8|2018-10-02|Aleks Kissinger|fixed ref
+df3e1664f504ae162cc2c3171100f58efa4255d9|2018-10-02|Aleks Kissinger|abstract
+7ffe7c5bc6118028860eaf8f1298012527722492|2018-09-28|John van de Wetering|Fixed Getting Started notebook
+868e1d6813d492f00b3ef156927d1ee5ee6a8242|2018-09-26|John van de Wetering|Updated ICOQC abstract
+f1bc17feab2c25c4d1cff9a776105985246b9272|2018-09-25|John van de Wetering|Implemented TODD as circuit-to-circuit routine
+fe38521d94b2a22028c57ad1864a72960877ed97|2018-09-24|John van de Wetering|Fully implemented TODD algorithm as a PhasePoly-circuit to PhasePoly-circuit routine
+9d4d62127d2bc1b0d2c720d8e8a7f4596e3a6c71|2018-09-19|John van de Wetering|Implemented TODD algorithm on matrices
+3ed6ca276f13c36cf9755d1c17536aae609c9054|2018-09-19|John van de Wetering|* Bug fix in phasepoly rewrite rule * Added support for not gates in circuit optimizer * Added method to linalg to find nullspace of matrix
+be71c1e36ec21f7560962ee23c7c09a19a03d8e9|2018-09-18|Aleks Kissinger|...
+e913ef6e7940d3e02ab4089b6eb5e499084b8759|2018-09-05|Aleks Kissinger|...
+0b33905a5001c7478dd9ca6a2c5137b7e645533d|2018-09-17|John van de Wetering|Added abstract for ICOQC
+9558d27ea856a8a9842abc718ccde086df502eb8|2018-09-15|John van de Wetering|* Made phase gadget extractor more efficient in cnot count * Started work on CNOT/CZ/Hadamard optimizer
+6926acfb2dd8f1f22dc4c3fd140f5d635aa52552|2018-09-14|John van de Wetering|Fixed import error in gflow
+18e74799d78b04c270d86cc4458a67763bf1544a|2018-09-13|John van de Wetering|* Moved some large circuits to a different folder * Fixed some other minor things
+1e0b5cd111b5b477f9d3f7ece9727ce783c67713|2018-09-13|John van de Wetering|I think the implementation of the gflow algorithm is now correct
+77b7c2a53fc36032f867a7a62fa9813d1c8d1985|2018-09-13|John van de Wetering|Added function to BaseGraph to automatically set input and output nodes based on the rowvalues
+a3ca32b704c5dcd7a3d91a0d073882cac8c94df5|2018-09-12|John van de Wetering|Made extracting circuits about 20 times faster.
+a6f4322ebb40b2950f86aa5ad8cff1597370786c|2018-09-10|John van de Wetering|Added some convenience methods and updated some documentation
+9d6b5f9dd4d44753879d9e131f1b03272f2e4123|2018-09-10|John van de Wetering|* streaming_extract now seems to always work after a graph has been full_reduce'd * Clifford circuits seems now to always be reduced to GSLC normal form
+a9122ccc49edc8b6c19f1b47f419764475f3eefc|2018-09-06|John van de Wetering|Made the extractor able to deal with larger graphs by early stopping the process of finding an optimal set of CNOTs
+d4e701ec6cac150bc96f42df763d963d33d8cbc9|2018-09-06|John van de Wetering|Added the T-par optimized circuits for comparison
+b9e8ccc0c808e19f0adefcfb364076b4a7ccc5f6|2018-09-05|John van de Wetering|Updated Benchmarking notebook
+afd330232a593e3a7d95f268d516ca520a808a1f|2018-09-05|John van de Wetering|* Changed the logic of clifford_simp to keep going until it can't continue and to also pivot on boundary nodes. * Added simplify.full_reduce that also does gadgetization and gadget_simp
+38e67d47b4f5183d6ef72a5f46ce8fafd9c8c770|2018-09-05|John van de Wetering|* Exporting and importing to .qgraph format remembers inputs and outputs * Added ability to import and export to .qc file format
+0ea2c417933b2b51247cf29f2dff4c03196e9a7e|2018-09-05|John van de Wetering|Small changes to graph API qubit_count() and normalise()
+8b10ddedf2554e3824b6a5bad0bd0ba336522eda|2018-09-03|John van de Wetering|Started Benchmarking our simplifier
+4b7ef3a99ec17a1020ceb68fa5acc1ea02499992|2018-08-31|John van de Wetering|Cleaned up notebooks and started benchmarking
+56e45cafca7845b26a2f64eeebb4a52e111d0c7f|2018-08-31|John van de Wetering|Added Phasepoly identity test from https://arxiv.org/abs/1701.00140
+b2d9db8eb73164d67785f62de2c255efdaa7c3de|2018-08-29|John van de Wetering|Made full_reduce continue until it can reduce no longer
+bc20fb8f268b51593ddb8a256f98eea5e9b9ee18|2018-08-29|John van de Wetering|Added gadget_simp
+022400d1d6009d7ee9c347724d6b3327885caafd|2018-08-29|John van de Wetering|Changed clifford_simp so that it keeps reducing until it can't go on
+ee6b9ca975d13db5899c7774f57556fc31053902|2018-08-29|John van de Wetering|Added "long" testing procedure for making sure all the methods and reductions used are semantically correct.
+2ef5fe5c0c85f018b4ea7c80196519fd7ac29dad|2018-08-29|Aleks Kissinger|playing with cnot+t circuits
+f4b175d75b9bd552acc8ce1cc33c738408afcdb1|2018-08-29|Aleks Kissinger|fixed gadget filtering
+3ad3cad487458510fab85cb3c2cc846f471e4d95|2018-08-28|John van de Wetering|Fixed Phase Polynomial optimization... again
+0196b2359f47a3932276a0f62e6f149fd187f0d3|2018-08-28|John van de Wetering|Documentation
+7dcb0f7256e54e67c935e09faf5d623e4436bf1e|2018-08-28|John van de Wetering|Updated the Getting Started demo
+9aace4c38a19848114268655027fa2df57f4f574|2018-08-28|John van de Wetering|Added function quantomatic.edit_graph to allow editing of graphs within Quantomatic from PyZX. Should work if you have the newest version of the integration branch of Quantomatic. See Quantomatic/quantomatic@9d3c366a26dab1e00a413368da1582fb7f0abf6b
+a973e7ffd65283f9e3ca973261339686574260de|2018-08-27|John van de Wetering|Fixed bugs in phase polynomial optimization
+d5dcf61a7701aaf917da3131bd8392765332d03c|2018-08-27|John van de Wetering|More circuits
+0707089c8bd2de024b93b5bd55877795468fd91c|2018-08-24|John van de Wetering|Circuit extraction + Gadgetization now seems to be fully working
+a212bbb628e09dabf3ec8b40e996cc135592c73c|2018-08-24|John van de Wetering|Fixed vertical flipping of nodes when transforming pyzx graphs to Quantomatic graphs
+5d99793e580f720fd3eea4f27a998754a333aaeb|2018-08-23|John van de Wetering|Circuit extractor can now handle a larger variety of phase gadgets - but still not all
+e9ad6e146f9064727cc86e95dcd9311effc2cb0e|2018-08-22|John van de Wetering|Merge branch 'master' of https://github.com/Quantomatic/pyzx
+a43f05ebd4c4c55921fe903b9a26e76f5b2e5d67|2018-08-22|John van de Wetering|Added gadgetization procedure to simplifier. Extraction of these phase gadgets is still a work in progress.
+4f8ddb7d454e87ecca5c4790210a01df673df726|2018-08-22|John van de Wetering|Fixed Issue #3
+513d4b1b35cca2d96817a41c3e5af5dcb81ccae8|2018-08-22|John van de Wetering|Added circuits from github.com/njross/optimizer for Benchmarking
+e2503f16309aab24256aced6ad55d2387bad649c|2018-08-21|Aleks Kissinger|renamed unspider to unspider_by_row
+c7875edbd689a0eb6d861eaa6e3f23096bb2baf9|2018-08-20|John|Merge pull request #2 from vtomole/master
+ffc03b08a7a2dcad32eee19a1e0e2a34a64864d2|2018-08-20|vtomole|Merge branch 'master' of github.com:Quantomatic/pyzx
+adaf0a3984d083cbd3edbb7fe5dd9f6618ebd70b|2018-08-19|vtomole|Intialize setup.py and requiremennts.txt to allow installation via pip
+d0e12659a3f93b9a658e4347dcf1214cda4e4ca4|2018-08-14|John van de Wetering|* Added phase polynomial optimisation procedure * Fixed bug in gaussian reduction algorithm (it did unnecessary row additions)
+2831d81093b40c3504c422e529872a9d77060357|2018-08-07|John van de Wetering|Added phase polynomial block decomposition for Circuit class
+7e30117212c97d490abb82294077a8bc3728f96a|2018-08-03|John van de Wetering|Added new extraction algorithm based on 'streaming' to next layers
+35398f8a86be5c8b16932164892dc001ab7ecf5e|2018-07-26|John van de Wetering|Made greedy_cut_extract more efficient so that it can deal with bigger graphs. Also fixed some weird inefficiency in Circuit.from_graph
+6911856e310bcdacfcaa8232f32ee0b7648013a0|2018-07-25|John van de Wetering|* Documentation * Exporting to QASM format
+efbef12f9e23666282943e26712c9b08eda6c645|2018-07-24|John van de Wetering|* Added support for importing QASM files * Added support for Tofolli/CCZ in Quipper files
+fb8908ae157dab6be9cdd6ad0d37b0ab4c918297|2018-07-23|John van de Wetering|Added loads of tests. They currently all pass.
+89b102fd12a2ad4c4f2a0c025f52742ac898203e|2018-07-23|John van de Wetering|tensorfy now actually distinguishes between id@id and SWAP (which it didn't do before)
+c8d6a44df6f7296facc67035705528bf7a58f367|2018-07-20|John van de Wetering|Minor bug in Circuit.to_graph
+83f74cc37b4ba62b5efcc50061d2556a622b0be0|2018-07-19|John van de Wetering|Started adding tests (and as a result fixed a few minor edge case bugs)
+128d7c8a3e513093ee1ff8eea63f7e51f93bcb0f|2018-07-19|Aleks Kissinger|fixing up some methods in igraph
+23bf9018e9e2a6a99d1bf8c980d4d440c9f3ef56|2018-07-18|John van de Wetering|Added a Circuit class for representing quantum circuits in a somewhat agnostic way.
+280d486b24df6f43fd6880688ffd20118ad7ddf7|2018-07-17|John van de Wetering|Added rescaling to tensorfy() to prevent false negatives in tensor comparison
+2822d3036fa357ca3519ce315e90d465c9649788|2018-07-17|John van de Wetering|Cut extraction should now be semantically correct
+046caa66e197ba8da467730f2b2e41a3431ac041|2018-07-17|John van de Wetering|Clifford_extract seems to be working correctly now
+4297be22713e1579571cea90ebb567fcc7b83a32|2018-07-17|John van de Wetering|Merge branch 'master' of https://github.com/Quantomatic/pyzx
+74649453263ce8257d0bb53a6047f8f5a4c5a6a8|2018-07-17|John van de Wetering|Added ability to compose circuits together
+e6e30b34e919953028c9d3239ee8cb1c9abb0520|2018-07-17|Aleks Kissinger|added patel/markov/hayes optimisation to gaussian elimination procedure
+ad25684ccc05e34b3aac563bd8ee74ef4c6f9a2d|2018-07-16|Aleks Kissinger|shifted some work from the pivot matcher to the rewriter
+165ada18a204b4da57460984821d5237146afee3|2018-07-16|John van de Wetering|Documentation stuff
+dd995f5af919d21051148d997d2f67ed0f997bd9|2018-07-13|Aleks Kissinger|changed gauss elim to not use swaps
+f0dcc19d57cb18d9d5c82670da7e10108f9e63f7|2018-07-10|John van de Wetering|Import fail in tensor.py
+3b2fb426b1416da32fa15e5ba9ca00f99d97f90a|2018-07-10|Aleks Kissinger|fixed pivoting and complain when rank is too low during extraction
+b3b1c6082c7fa3e68ebb77d335368d58436477b5|2018-07-06|Aleks Kissinger|fixed docs
+f62d3cff33ac80953a33681f3af800ff62bdbd0e|2018-07-09|John van de Wetering|fixed minor things in tensor code
+5a99e2719442a89e07d4fdfa3f8c45a7b13e0bdd|2018-07-09|John van de Wetering|Tensorfy now supports hadamard edges. It seems to work correctly
+34dd029b2da946e253bc505d1471c7e885bf34cb|2018-07-09|John van de Wetering|Making tensors froms graphs is now reliable enough to compare ZX-graphs.
+de7bbd0ebecd11e0cbe52934528bfc8c9e0391f3|2018-07-06|John van de Wetering|stuff
+c24d5be7d21349c5d88b7ed65e5fb0887ffb09df|2018-07-05|John van de Wetering|Bugfixes in greedy extraction. Still not completely satisfactory
+f90438749f74c45ccac28398147620856eb9434b|2018-07-05|John van de Wetering|Circuit to Circuit optimization should now fully work
+ed1a47a948cad7bbcb7f8a7dda838972db8a1877|2018-07-04|John van de Wetering|Clifford+T notebook currently shows there is a bug in the circuit extraction
+503d371e97dd09b57877c37f505abd362d6f9eba|2018-07-04|John van de Wetering|Added Graph fusion ability and fixed an assortment of bugs.
+5961f9d2557eaa647aeadda9866a62c7dd1bf13d|2018-07-04|John van de Wetering|Changed documentation of BaseGraph.copy
+716261fb05f364b1e7f0ec1f18daca0913869c9e|2018-07-04|Aleks Kissinger|Merge remote-tracking branch 'private/master'
+b7665a6699d42d4850421e8a96161a147c5d6355|2018-07-04|John van de Wetering|Fixed making adjoints
+08f4825db17a206d2c3e54983409586eb6ef7a2b|2018-07-04|John van de Wetering|Merge branch 'master' of https://akissinger.repositoryhosting.com/git/akissinger/pyzx
+29b2cd95f001f0d9f1f1c57f335f0da4771af01f|2018-07-04|John van de Wetering|Added adjoint option to Graph.copy operation
+154139399ca27ff72d662e5ed3ee7724ee55f8e9|2018-07-04|Aleks Kissinger|Merge remote-tracking branch 'refs/remotes/origin/master'
+5f8578eb34e64829222f5b3c235b5e504c10f68f|2018-07-04|Aleks Kissinger|added set_position method
+e954b0c49033fc2df759238310bcf19f62dc0fed|2018-07-03|John van de Wetering|Changed graph API so that row and qubit are first-class attributes
+841e7856c97c6064999f84f946903c1e7f63d52e|2018-07-03|John van de Wetering|Started work on CNOT extraction
+45daeade6f0361803fa60371069a88a5532b13cb|2018-07-03|Aleks Kissinger|added readthedocs theme to doc/
+c8e035476048bc640dd9b8ed2eaea8b20fa7a379|2018-07-02|John van de Wetering|Added spider fusion step to Clifford simplifier, because it was missing some fusions
+801fb5b2342c8d94452f8e420dcfdbc9c7d5bafd|2018-07-02|John van de Wetering|Added copyright notice to every source file
+7881a68aec161284e0159c075d57e14b13e79273|2018-07-02|Aleks Kissinger|Initial commit
+6275807ebfba877b241007e0f2a541712d279853|2018-07-01|Aleks Kissinger|extended Mat2 with inverse() and solve()
+b0aa5be9b24cb267678dda491aa26a88baa1e500|2018-06-30|Aleks Kissinger|added row/column swapping to gauss and added a flag for quiet simplification
+17cab826425cd970236649e3b5a66c5c6025c74e|2018-06-30|Aleks Kissinger|greedy extraction seems to work
+c149c11e6d04505ad8f9e0183e293ab56ead9f71|2018-06-30|Aleks Kissinger|...
+605e468233eaa2aa5018ed76b78b5f6deeb0cb34|2018-06-30|Aleks Kissinger|got a (seemingly) working circuit extraction routine, also made new_vertex and new_vertices() return the vertices they add
+3d2ce3204892156c41ac2f32de599283a3e3991b|2018-06-29|John van de Wetering|More documentation
+ac3f55ee35c58437a36b27c2a0059160edf1a63e|2018-06-29|John van de Wetering|Merge branch 'master' of https://akissinger.repositoryhosting.com/git/akissinger/pyzx
+2ab5e38b8bdb15c87ba7ca94bdc2d50c890f2bc4|2018-06-29|John van de Wetering|Starting documentation using Sphynx
+ec40fe7d16cb6a5da738492cc8e0942f564473bc|2018-06-29|Aleks Kissinger|...
+592315edbc77646742b309242eba68d3f900d04c|2018-06-29|Aleks Kissinger|fixed some deprecated method calls, working on cut_extract
+98478e804caadbed47c41f056f21b54092b8c32f|2018-06-29|Aleks Kissinger|place qubits on unique ranks
+4c8fdd0333dc4947b4f667fbaf547c18eea4c60e|2018-06-29|John van de Wetering|Started documentation in Sphinx
+0b2f4fbd088f7d714208e0cb8a85cf7e23ceaed8|2018-06-29|John van de Wetering|Merge branch 'master' of https://akissinger.repositoryhosting.com/git/akissinger/pyzx
+6637cfbb32a662c921b7ad0f1a45b38373266360|2018-06-29|John van de Wetering|Added some docstrings
+cb93e349ea2aff1d82f042cb3031c53077b65318|2018-06-28|Aleks Kissinger|working on circuit extraction
+ccf011934453ed9306b1cc7a4ebdd0f85a0d8d6e|2018-06-28|John van de Wetering|Added readme file
+189974fd10a87447dca783b49ba60bfc0229f58e|2018-06-28|John van de Wetering|Updated the graph API. get_X() -> X(), angle -> phase
+54d0bf16085f61cc8ec2fce68fe321fb1175aa64|2018-06-28|John van de Wetering|Merge branch 'master' of https://akissinger.repositoryhosting.com/git/akissinger/pyzx
+276ba9a6a0d4a928236dfb54d94db74a63a77fa0|2018-06-28|John van de Wetering|Updated tensor.py to work again
+81ff7676bc6ab1751005acd7325510a7fc3ec904|2018-06-28|Aleks Kissinger|Merge remote-tracking branch 'refs/remotes/origin/master'
+0d2d7358e509d1a563d877576fc908d52f277018|2018-06-28|Aleks Kissinger|circuit extraction work
+c4c76c85c06f9428db1df90c7d38deca55d21910|2018-06-23|Aleks Kissinger|added basic Z2-linear algebra functionality
+244c84b21ac6481f6e89b0e661e305d01f6f7002|2018-06-21|John van de Wetering|Added ability to import Quipper graph files
+95c578366d651a65cd7e4ccaefc2f1f7762642a8|2018-06-21|John van de Wetering|Adding Threaded simplifiers
+abdf34491a3407838a41c34fb802d80ebdb8af73|2018-06-15|John van de Wetering|Added hadamard edge support for spider_simp and added id_simp that removes identity nodes
+283a1c682d6cd103c605a97c34008c999871f422|2018-06-14|John van de Wetering|All rewrite steps are now visible in Quantomatic
+3cb035d159a3eb7138e1193baefd8ad8c7206114|2018-06-07|Aleks Kissinger|clifford simplifier
+42d259804b15c65c14905361b6fd55edaab2b5a8|2018-06-07|John van de Wetering|Fixed Clifford circuit generator, and fixed support for Quantomatic
+1f9a8b1e287fbfe27100610577fe4d2ef4ba7ce3|2018-06-06|John van de Wetering|Fixed random Clifford generator to actually produce unitaries, and added option to not add Hadamards.
+bf23adafbc4b7f41e987ef05111334f853b7fedb|2018-06-06|Aleks Kissinger|clifford simp seems to work
+c1c02b93b642393fc0c487350b07b8260c95395b|2018-06-06|John van de Wetering|Added random Clifford circuit generator
+1a3a30713917963e58c779a3d1c27a5ffc858f69|2018-06-06|John van de Wetering|Merge branch 'master' of https://akissinger.repositoryhosting.com/git/akissinger/pyzx
+5c345e7a3079d2ea83d9c74e6b9935a4114b1810|2018-06-06|John van de Wetering|Merge branch 'master' of https://akissinger.repositoryhosting.com/git/akissinger/pyzx
+5b1491f5ccb33ca45c638a8615a668de7030b2b1|2018-06-05|Aleks Kissinger|clifford simp almost there
+600238a701ca8e64d1b8e203bf147089e377aba6|2018-06-06|John van de Wetering|Double hadamard importing from Quanto supported
+56550258bd326a8cf85eb45a4567e2a2d0151b04|2018-06-05|Aleks Kissinger|clifford simplifier
+637781c2e85156bd01351f0b5cd311cf1a57c2ac|2018-06-05|Aleks Kissinger|started clifford simplifier
+6c951356eed74c4506a7091b15e01b0eeb9aa070|2018-06-05|Aleks Kissinger|added missing methods to igraph backend
+f94f259a08a71f313a733b5bbb1a0b338347dd3a|2018-06-01|John van de Wetering|Should now be able to export hadamard edges to Quantomatic
+c99fbfbfe7ce5997ed49d76ea881709804f398a9|2018-06-01|John van de Wetering|Moved add_edge_table logic to BaseGraph
+f10c12e01678748930c7a1837dec876727b27045|2018-06-01|John van de Wetering|Streamlined the importing of pyzx
+3bbcf6328c72ff20b845f0349866c39969095778|2018-06-01|John van de Wetering|Working on pulling hadamards from Quantomatic
+e26b130a211872c07994a463eccf7c583c3df3f1|2018-06-01|Aleks Kissinger|added notebook for scratch work
+bb691ab2c52388e2e39cd3c3dc0a4169a1d3a918|2018-06-01|Aleks Kissinger|started putting stuff in __init__
+cbe6d45c15195898c773a3ba5ba223e365cec030|2018-06-01|Aleks Kissinger|tweaking drawing code
+f88f2626a9e89e03d6c5b430f0f5bc5989f46290|2018-06-01|Aleks Kissinger|added stub add edge table method
+b913cd30de099a0d8f6dae23516ed0196097ab81|2018-05-31|John van de Wetering|Added support for hadamard edges in graph_s and in drawing
+2e88afa5f0379a3b5c03c98f71f43a7cad7e4e60|2018-05-31|John van de Wetering|Made pyzx compatible with Python 2.7 and as a result made it work with Quantomatic
+744b903be4c87bbdf0ba1ebefa7f5d863aef0456|2018-05-31|John van de Wetering|Merge branch 'master' of https://akissinger.repositoryhosting.com/git/akissinger/pyzx
+e209f73dd9a61ab752510edc6fbdbe160ce713fb|2018-05-31|John van de Wetering|stuff
+e7ce9a9d770dc3f4618032f8ce4310fea3dc6dc2|2018-05-30|Aleks Kissinger|pushed draw() back into python code
+17473232b143e6f141a2dfe8c95fcdd51c4f7a45|2018-05-30|Aleks Kissinger|fixed drawing code
+8436694ca894f85905c69cb507b8b3a18bb481a8|2018-05-29|Aleks Kissinger|drawing code
+550a3e89fedb196dcccd16aa03e6cfe7c60c9a3b|2018-05-28|Aleks Kissinger|working on drawing code
+4373e6a213f8aafd45e0867301293ec901fa2de4|2018-05-27|Aleks Kissinger|angle stuff
+eab987b396f5c3784e1382a61ef96e9aa76e25db|2018-05-26|Aleks Kissinger|added angles
+fd05c36fc29fb18fa5a1a5261c0230734c0c617f|2018-05-26|Aleks Kissinger|...
+83bafbd3968d390141964fc50363b73ae4158c3d|2018-05-26|Aleks Kissinger|better output from simplifier. wrote tests for CNOT
+d3bf0f922718a972f1627fabd44adee37f870744|2018-05-26|Aleks Kissinger|renamed attribute functions to vdata and implemented in igraph and simple
+8b56fdede32f674b220ffac23b1e8bdd72e5a136|2018-05-25|John van de Wetering|Implemented GraphS in Cython naïvely - it's about 20% procent faster
+e86425c74e6ea3b68c92a50d7431d10894057c8f|2018-05-25|John van de Wetering|Merge branch 'master' of https://akissinger.repositoryhosting.com/git/akissinger/pyzx
+23ad121e922068380f6fb3dda60ddf2dbdc513b0|2018-05-25|John van de Wetering|Added cython test
+49a05f45989ef6d97e16d312c2d4b731eaabcb94|2018-05-25|Aleks Kissinger|added simplify and cnot generator
+9a5b8c53782cca3bb1320a6f68ea7be3532d8ab9|2018-05-25|Aleks Kissinger|spider works
+191a358424c9792e51f1782fb3a16693ca783d19|2018-05-25|Aleks Kissinger|working on spider matcher
+e1dd64b1d8c738e4376d5a8bc86bc21269014671|2018-05-25|Aleks Kissinger|Merge remote-tracking branch 'refs/remotes/origin/master'
+c142f92f249b85ea75445257363639dbbac0962b|2018-05-25|Aleks Kissinger|...
+8245ed28cc29c9ed4025c6d27a20c71e4e367ab6|2018-05-25|John van de Wetering|Types smarter
+57f0ec115cb6989bb6269122427eb983d6a907a0|2018-05-25|Aleks Kissinger|re-inserted the sequential rewriter
+345b931efe421862632d647ed07d9e8a2a2a139a|2018-05-25|John van de Wetering|Merge branch 'master' of https://akissinger.repositoryhosting.com/git/akissinger/pyzx
+41e3ce81d5ec3df6c796c5ad1c42970976956d7a|2018-05-25|John van de Wetering|Changed tensor.py to generic framework
+cf00b3c52a1aa1449f74652855fcd4a1d9556c7a|2018-05-25|Aleks Kissinger|working on graph wrappers
+f55eeec2aad803355cf996767563b6777cad3801|2018-05-25|Aleks Kissinger|notebooks
+ef547e36e1abc998366418533a5222d328555e41|2018-05-24|John van de Wetering|Generic wrapper for graph_tool and igraph finished
+ef3322b8173502a55cd813e1cc653f979a6b3566|2018-05-24|John van de Wetering|Started on wrappers for the graph libraries
+d5c713738f43f7ba8fd529c23393db8565cd8266|2018-05-22|Aleks Kissinger|parallel matching and rewriting
+6a492b66f6adfe2508bb07b32b789344bb0b0fb4|2018-05-21|Aleks Kissinger|comparing various graph libs
+89c79c90183c5b08c4cc998cf2af14957e7c720a|2018-05-18|John van de Wetering|ZX-> tensor now works with slightly larger contractions
+d83c0a0a4125f36ed3d42ec4e7d37ec64d89e5ee|2018-05-18|John van de Wetering|ZX-diagrams to tensors implemented
+6647de3486e1e22041d0bcdc2dffd5c52d269e92|2018-05-18|Aleks Kissinger|...
+9a309eb815a954ce9ec7acfcbd49483901591ebb|2018-05-18|Aleks Kissinger|added bialgebra matcher
+ec7e35b4230027c04bc304b5cf3b8165a48920b7|2018-05-18|John van de Wetering|Added quanto.py file
+467407c669bfd5299d760c33d53d3f3378781af5|2018-05-18|Aleks Kissinger|initial import

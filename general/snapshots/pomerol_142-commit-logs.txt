@@ -1,0 +1,718 @@
+fd312b2bc1918e0fd2f463315efe01a84a4a25ef|2020-04-10|Igor Krivenko|Merge pull request #29 from iskakoff/master
+674418c3433a6d4120cf5643511d29090e46b4c8|2020-04-09|iskakoff|Hubbard2D exmaple. Offdiagonal hopping
+a148869f8fe6d9390a1f91cd1b78b36b0be462ba|2020-03-26|iskakoff|Hubbard2D exmaple. Offdiagonal hopping
+ad6ced973adab45db593e81aca0a47bcc7ba883c|2020-03-05|Andrey E. Antipov|Update README.md
+7a45b6a8b8254dcbf8cdd594ba168a5fae4d1517|2019-06-23|Igor Krivenko|Declare SusceptibilityPart::ZeroPoleWeight as MelemType (fix #26)
+2df36eb8215fe30a61f103ce0aeb817f1e9b5066|2019-06-23|Igor Krivenko|Merge pull request #24 from j-otsuki/susceptibility
+489ce4c7f97c2a07175d00265555f9a22880b593|2019-06-23|Igor Krivenko|[cmake] Bump POMEROL_VERSION to 1.3
+b164c3446db7440f0a45814400204df9b930c2f3|2019-06-18|Andrey E. Antipov|Update README.md
+383f72ae6b2c27b5910b190c853194f343f2e3d5|2019-06-14|Andrey E. Antipov|remove cyrillic encoding from doc
+e73ee4dd31a781257ee6a39a380e7039bca26c64|2019-06-20|Junya Otsuki|Merge remote-tracking branch 'upstream/aeantipov-patch-1' into susceptibility
+33e791ac9aed21b6b808cb4ed2002cefcb878b0d|2019-06-19|Andrey E. Antipov|Update CMakeLists.txt
+6542ff154d864c21ecb6b7d364ec831072b58178|2019-06-20|Junya Otsuki|Update tutorial to add susceptibility and ensemble average
+f2edba00318b4aab5afb7bf8171f28c93085bd24|2019-06-19|Junya Otsuki|Clean up; Add an author in headers
+5ad8b10bd6c6287dd41c1059bc5910506336924f|2019-06-19|Junya Otsuki|Enable to subtract disconnected part in susceptibility
+c57f1e2ef048240a8f5044fe0290610248f05cfe|2019-06-19|Junya Otsuki|Integrate EnsembleAveragePart into EnsembleAverage
+879f86e78bfa47c22b81de21311d962b711ea437|2019-06-19|Junya Otsuki|Implement EnsembleAverage of quadratic operators
+5b9787d316273f8c0339b4a45d96d1f16abb3457|2019-06-19|Junya Otsuki|Test 3 kinds of susceptibilities
+0a5562c2101b278cd5ff189e17bd3cb609c1f01b|2019-06-18|Andrey E. Antipov|Update README.md
+a20e06ec7f33adf3bb31e557d7e0daf120635b84|2019-06-18|Junya Otsuki|Add zero-energy contribution to the susceptibility
+eed01a30cdeaf3b75e4df6745e184f21f5d136b5|2019-06-18|Junya Otsuki|Take account of bosonic statistics. 1site-test passed
+37be231cbcf169e2cf36be0dd389fcf560ef2344|2019-06-17|Junya Otsuki|Introduce class QuadraticOperator as an inheritance of FieldOperator
+195cc8806d951750c5b2a7e9c50bd2e87e675464|2019-06-16|Junya Otsuki|Change variable names: C -> A, CX -> B
+c2840a7e5fca3ce5573c5c67faf2d995aca17d43|2019-06-16|Junya Otsuki|Add OperatorPresets::n_offdiag = c_i^+ c_j
+df5796f1450abafac7a3bb7bf6d2764d93109191|2019-06-15|Junya Otsuki|Copy GreenFunction to Susceptibility
+b5774fc767f1f8687d52bb64a5e89bd126344b8e|2019-06-14|Andrey E. Antipov|remove cyrillic encoding from doc
+153e0300ff9b25bbd18c7697301d73fcc03cc46d|2019-01-08|Igor Krivenko|Replace the multiorbital notes with their English version
+2b1819b6a46acd7f495f0935b4fe315bcd045df1|2019-01-07|Andrey E. Antipov|add old multiorbital notes
+fa0d989effd5f0ea22ff7e37358e0c70c18b32c0|2018-11-05|Andrey E. Antipov|Merge pull request #22 from shinaoka/master
+81a92ec8fff51aa2d420e93adcc2f90cc02eacd1|2018-11-05|Hiroshi Shinaoka|Fixed complication error for old version of Eigen3. Implicit cast somehow fails.
+d6ce53cea71365dd9a50b408d10a75b6d0b23626|2018-10-17|Andrey E. Antipov|Merge pull request #21 from Wentzell/master
+6dad6678895e1a81036c60cdaa3342f7ab0cb174|2018-10-17|Nils Wentzell|[cmake] Consider relevant environment variables in FindEigen3.cmake
+9494bb8453c92aedd79126beadffc249ac189ff3|2018-10-12|Igor Krivenko|Merge pull request #20 from Wentzell/master
+b7ad73f4a27b0876552e2e6d8e9fb0b13884055e|2018-10-12|Nils Wentzell|Add missing vector header include for boost serialization
+08424b965e5b6219043b9babe39ecd64fd863c08|2018-02-27|Andrey E. Antipov|Merge pull request #17 from HugoStrand/bug_cmake_openmp_detection
+0896c3a032c07ab72045a95a4d3b7a60db9e0713|2018-02-27|Hugo U. R. Strand|[cmake] use OpenMP_CXX_FOUND flag
+976d62e633b3886a2ead155c14f061c46655921c|2018-02-27|Hugo U. R. Strand|[cmake] find OpenMP flag is case sensitive
+e20f39f1558eb2de81597f53600a6c7662410b23|2017-11-26|Andrey E. Antipov|Merge pull request #16 from j-otsuki/truncate_blocks
+22b64b5a428d6b63b27a9d47cb57eb563ab964e7|2017-11-25|Junya Otsuki|Do truncation in DensityMatrixPart not in DensityMatrix
+652f7b8030e986514444a2f7716714f2db5bd1e0|2017-11-25|Junya Otsuki|Initialize vector block_retained with all true
+048272fbdecdbb6d0bad3affbe553ffb51d2d0ab|2017-11-24|Andrey E. Antipov|Merge pull request #12 from aeantipov/issue10
+da2c772ac45ca2f9282cc42cde3b1b0b0715ce61|2017-11-24|Junya Otsuki|Truncate blocks having negligible density matrix
+649e1364675029970d5523f4cb2463f35361a96b|2017-11-06|Andrey E. Antipov|Merge pull request #14 from shinaoka/speed_up_gf
+ab5c7b125c7449b9297418edff53d28eaf609aec|2017-11-05|Hiroshi Shinaoka|Further speed-up of computing matrix elements of creation/annihilation operators
+29080b9a5a0d59e7ffbf76066092ad486108d3a1|2017-11-04|Andrey E. Antipov|Merge pull request #13 from shinaoka/speed_up_gf
+fcae558c4c40c750ab45eccee4d1f5816c6d2659|2017-11-03|Hiroshi Shinaoka|Speed-up of computing matrix elements of creation/annihilation operators
+b7a0659c0a2f59916b12613a88128ee7887477dd|2017-10-01|Igor Krivenko|Fix #10, hopefully for real this time
+002ab9cb5c802e79dd631d54f6bec9fe60fe5303|2017-09-24|Andrey E. Antipov|Merge pull request #11 from aeantipov/issue10
+57b77519dfaf87593fd1b94ba1fe13bfb934aa2c|2017-09-24|Igor Krivenko|Fix #10
+3b8f9ded4263ef73c9aa65612ecc216792e2d66f|2017-08-03|Andrey E. Antipov|Merge pull request #9 from shinaoka/master
+7b714c961b4f3fa6153f5c7912fdd1b4440790e7|2017-08-03|Hiroshi Shinaoka|Fixed compilation errors
+a1d7f4cc4b67bfece7dfd9bc5f3d42e0197d9d27|2017-07-10|Igor Krivenko|Define POMEROL_VERSION macro in first_include.h
+1f180ffc87a939cfcc6fdea0aaf0e0d8703bf916|2017-07-09|Andrey E. Antipov|restore missing files
+1a8277f647031b91904cdb733bcda17b77672183|2017-07-09|Andrey E. Antipov|src : strip first comments and license
+b9114054ff3367f0476c3c25e807e711c4e4ab6e|2017-07-09|Andrey E. Antipov|clean documentation
+c3b7fe1a466414f12b0c2127306ba43e034a5a40|2017-07-09|Andrey E. Antipov|cleanup include
+fff0cf1e0a301a346cd3bf63efee65ccb9489b3e|2017-07-09|Andrey E. Antipov|remove TwoParticleGFContainer and clean
+2419ce987159354cb1aac2bbdf9b216ac51a6cb6|2017-07-09|Andrey E. Antipov|clean CMakeLists
+d9861215c5a3fffdf0d58147925ca0e3ea7be28b|2017-07-09|Andrey E. Antipov|remove FourIndexObject
+e241d498f3717bb59878ec63216f189271f3f6c2|2017-07-09|Andrey E. Antipov|clean tests
+fe7d35d1cab6e89d50b410795f51ce3f86fa94b9|2017-07-09|Andrey E. Antipov|remove Vertex4Container and AmputatedVertex
+27988980a3d632c8aa625bd6102bc21f2fec7c4d|2017-06-29|Igor Krivenko|doc : Fix an error (minus sign) in the definition of 2PGF
+fd90c846cdacf7affe405abd0c740a53e26b75be|2017-06-24|Igor Krivenko|TwoParticleGF : correction to a8efd9b54b0900b7367f569c4237317347817433
+c9f30c933a57b2f967500b4b28d666f7eb3e3a59|2017-06-08|Igor Krivenko|Document TermList class
+aff4f6c4611ad576f5b24888ef62a485189a31ef|2017-06-07|Andrey E. Antipov|cleanup
+b94601946b07835eb0a82130b15532f8144bbbe4|2017-06-07|Andrey E. Antipov|fix nomaster test
+f98b24fb87ef3d73141ba9aea498155374714f17|2017-06-07|Igor Krivenko|[mpi_dispatcher] Fix #8
+7cc52003f9c7c1ddadf68b17212aaf24bbf72397|2017-06-05|Andrey E. Antipov|mpi_dispatcher : clean bugs, add extra test without master execution
+84c696e133ae5543d8415f9397a29cc9c2d4322e|2017-06-04|Igor Krivenko|Debugging mpi_dispatcher
+0e2906f30b680e26b399005e0d17c313ab2de5a8|2017-06-04|Igor Krivenko|Enable mpi_dispatcher_test only in the C++11 mode
+fdbcc4c1fbc7ab34907c9486fe84d464efdc2523|2017-06-03|Andrey E. Antipov|forgot this test
+74e99fd164a1fc4b45e48756f29dab4feca6ba4b|2017-06-03|Andrey E. Antipov|mpi dispatcher test
+9d799163badbed0d4a3cca8cad5addf645845036|2017-06-03|Igor Krivenko|2PGF : Remove KroneckerSymbolTolerance parameter
+a470400b4350fb20554870fc2a932d98a6e347ed|2017-06-02|Igor Krivenko|Unify fine tuning parameters between 2GF, 2PGFPart and 2PGFContainer
+4330e2548451f9d27577e4be6a89742203e8e816|2017-06-01|Andrey E. Antipov|finish - blocking call
+182ba6721f18d0a04b239e65d1309a59b865a81e|2017-06-01|Andrey E. Antipov|add barrier
+173b815b37ce6291462f62dadb19e30f4e4c9de4|2017-05-29|Andrey E. Antipov|Merge pull request #7 from aeantipov/term_list
+d7c4f6f3b73ece72d58254aeadd4d8909f1bc0c1|2017-05-27|Igor Krivenko|TermList : fixes and debugging asserts
+a2e9d9c599c2cccfaf5e343ab3ea09a9d8e03778|2017-05-27|Igor Krivenko|TermList : port TwoParticleGFPart to TermList
+3164b807b2dfebb9ca41a9af899cdb96a4eebd9f|2017-05-25|Igor Krivenko|TermList : new container for GF and 2PGF terms based on std::set
+a8efd9b54b0900b7367f569c4237317347817433|2017-05-08|Igor Krivenko|Correction to ac4c760828b3670bc0a6e5782b5f26614e9563b2
+6980e8315dba73e6b47f291a516dfba537ac8422|2017-05-08|Igor Krivenko|New cmake option 'gtest_force_fetch' to unconditionally fetch gtest sources
+4af9e27faf8b9c67cb92e9d40bdfd3e9c4ecd36b|2017-05-04|Igor Krivenko|Lattice : added a proper copy-constructor.
+ac4c760828b3670bc0a6e5782b5f26614e9563b2|2017-04-12|Andrey E. Antipov|TwoParticleGF : warning on purged GF
+84e6f589708a6532d55e1c7da5c462bf2686da85|2017-04-12|Andrey E. Antipov|example 2site : fix 2PGF output
+71b60a5fe77c7709e0b9d551c90ee4ce36b2b520|2016-12-06|Andrey E. Antipov|Merge pull request #3 from iskakoff/master
+dd91e90db54b6ed6d88b0bbd09eba60a5890dc0a|2016-12-07|iskakoff|Check for correct program name. Cleanup.
+560e9437c2646411b4e97293c53bfd68cb85adb1|2016-12-07|iskakoff|Check for correct programm name.
+b77f52bb5d76e7d2c3d33bd77ec2b7c3a7082982|2016-12-07|iskakoff|cleanup
+77f0706946487d1a2983304e8a9bc6ee8a8072b3|2016-12-06|Andrey E. Antipov|remove hdf5 include
+d364265c8d7462f6de8cc92dbeb0c9aef02d977b|2016-12-06|Andrey E. Antipov|cmake compatibility update
+e420efb009e1859d14783981ac2bb00850b41309|2016-12-06|Andrey E. Antipov|fix saving in tests
+43c5da95f40b439bf69eb2b4b36a36a49e9b032e|2016-12-06|Andrey E. Antipov|travis CI configuration
+a0308fb7dd2a837f3af2e9fb60ef46897ea96738|2016-12-06|iskakoff|Resolve problem with old CMake versions
+85f0f23fa98bdfb51a4ff9901cb3e4c11e864973|2016-12-06|Andrey E. Antipov|Merge pull request #2 from iskakoff/master
+9c1647b5a98b9b59d0dc5925f1d407da8f6f04fc|2016-12-06|iskakoff|include upper bound for fermionic matsubara frequencies.
+c3ede8f07ebed81e1a8489c23c43d3078666c88f|2016-12-05|Andrey E. Antipov|fixed the issue with Eigen update
+4263f9b70fa12d8c8d8e849407a6180bbf30244e|2016-12-05|iskakoff|programs refactoring
+f17c81539075eed2945ae76aec27d2dac4a1b29d|2016-12-05|iskakoff|cleanup
+3d0f04e84167a272cb228f639c3cbdd686e867f3|2016-12-05|iskakoff|Progs refactoring
+325c73b64a4069b6ce5bd472664af50f5db7566c|2016-12-05|iskakoff|Progs refactoring
+a59e71152c0dc23af59f375b5bf2223fc63735c3|2016-10-13|Andrey E. Antipov|fix non-CXX11 builds
+eaade7cddd7afa2bc55fd1e21f9e7c97630f19f4|2016-09-06|Andrey E. Antipov|clean exec
+212b3df56b446a015da20599c4516f842dce94e8|2016-09-06|Andrey E. Antipov|remove junk CMakeLists in prog
+e27fe7348511f06fdc70c2e3e299cb3fa1eab1d5|2016-09-06|Andrey E. Antipov|clean find tclap
+875f079181219d223c654e5ed4668dbb8fdaf4e8|2016-09-06|Andrey E. Antipov|Update README.md
+356a9d103c65b37b5109c67d4205c1df311d1e86|2016-09-06|Andrey E. Antipov|exec update : remove tclap
+37cac5593fcdfc0018eaaf3a1cc5393381ee3526|2016-09-06|Andrey E. Antipov|anderson C++11 version
+8d07090b7a55f8162c9770bba90cc1827fb7a0ee|2016-09-05|Andrey E. Antipov|store c++11 info in header
+c4a8e8b5c67a50209b538ebbb1ca0f76d4d0f021|2016-09-05|Andrey E. Antipov|cleaning junk code
+d30899ed71dc54526169e9b64bc2fdb29a1e9a03|2016-09-05|Andrey E. Antipov|script update
+9d1a89bed163dcdf4da6fc4097722fc291c0d93d|2016-09-05|Andrey E. Antipov|Update README.md
+2114e5bbe8ee18c76198a711182b4d89ac03ce78|2016-09-05|Andrey E. Antipov|Update README.md
+268e28d07245c19db66669b910d106b502a12081|2016-09-05|Andrey E. Antipov|disable hubbard2d exec
+cbe9b389398a39f21b8a095e67361cde2ea69ac0|2016-09-05|Andrey E. Antipov|remove conflicting copying file
+a85973a6c81738e3ad89ed048235852b9468a38e|2016-09-05|Andrey E. Antipov|Update README.md
+328fde500b3ebfab920323c700db4d4f1eee6366|2016-09-04|Andrey E. Antipov|clean junk
+5ace8f2bd6f25fd7b8109d5c97221901e3198e83|2016-09-04|Andrey E. Antipov|disable progs by default
+f6c9a2a62eaf272f3cd397c098916a058d11f6c7|2016-09-04|Andrey E. Antipov|anderson : trash terms
+75497c5828ec8b9d911aa894926abc1c2e432d22|2016-08-31|Andrey E. Antipov|working executable
+59fdc99b6038085128a93273aeda999ebd920fc3|2016-08-31|Andrey E. Antipov|TwoParticleGFContainer returns right data
+faefee394bc3ec58713782d2c54299f652ea81b5|2016-08-31|Andrey E. Antipov|change use_complex to POMEROL_COMPLEX_MATRIX_ELEMENTS
+4c0aaf2b4eba200c0b3caf5fce5ad52fc67fb301|2016-08-31|Andrey E. Antipov|make openmp optional
+3c027d1f5600898f981572b215cd1c0d4ca58aac|2016-08-31|Andrey E. Antipov|minor changes
+966cc93cbca8a2a37e753ae4fe2551bac3272a89|2016-08-31|Andrey E. Antipov|correct openmp
+442e18285a38c2843272ee7c13680d3856757899|2016-08-31|Andrey E. Antipov|install bugfix
+4350776d044fd2a6c94cbe1dfedee3621841e42f|2016-08-31|Andrey E. Antipov|update gtest download
+dec2ab98e735256cc52bd5ece25036cb207a5480|2016-08-31|Andrey E. Antipov|proper config file
+e50dfdefe4c1adce3fa81a8e54985c7c74795e72|2016-08-31|Andrey E. Antipov|bugfix
+f4858e8ecd696b296c5919a3fd4823e940d451cf|2016-08-31|Andrey E. Antipov|added AndersonTest03 - checks 2PGF with caching of values - works
+7b5b75a19c7b22f8dad33fd0c85c12c7ba7d6112|2016-08-31|Andrey E. Antipov|anderson exec compiles
+2ae11ce5ddaaa4ea9316c6c9eb127bfce0656cde|2016-08-31|Andrey E. Antipov|TwoParticleGF : provide vector of freqs for input and return vector of values
+d371b32fb4dd3910b1dad0ffdfe9c745383c0db9|2016-08-31|Andrey E. Antipov|remove MatsubaraContainer (again) - bad code
+de2f165a14aff281d3831b67659bcfc5ca63460e|2016-08-30|Andrey E. Antipov|MatsubaraContainer : minor upd
+dcf6466fd2616e8907fb6b324e02138d9f694793|2016-08-27|Igor Krivenko|New test AndersonComplexTest
+a45b900d46ec4db02bdc0a75afb93ce0a5a4150f|2016-08-27|Igor Krivenko|Allow to call addHopping() with equal site labels.
+360c8502c69236be3872302cc9b64562eabe279b|2016-08-26|Igor Krivenko|Corrected comments in FieldOperatorPart
+156f64f35fdfb66a81f68b4ceb8420829aa73bf2|2016-08-03|Igor Krivenko|Careful treatment of large exponents in of_tau()
+9365de829370777123a8c026430e97cd06d73d0c|2016-06-12|Andrey Antipov|minor upd
+6b1d845b95dabea7555d39ff545b553ada0374ea|2016-06-12|Andrey Antipov|add MatsubaraContainer inside of TwoParticleGF, tests pass
+79dde400e689ec4665710dd41ef845f5f7525b77|2016-06-12|Andrey Antipov|MatsubaraContainer to a separate header
+773db6d88c7d15fea198d20c4a48c0d75f9bb987|2016-04-28|Andrey E. Antipov|compatibility upd
+92d07f958d1b7fd2ca4332d133fd1641f79c22ba|2016-04-26|Andrey Antipov|MatsubaraContainer : allow to have custom fermionic bounds
+b3d9c1007e2ff93160ae650221872c3b2737415b|2016-04-26|Andrey Antipov|MatsubaraContainer : allow to have custom bosonic bounds
+474aba0b73d34b3d03d838bf9b039f1ded266ee5|2016-04-26|Andrey Antipov|compatibility with the Matsubara Container
+46f851fbdf60bd4d278945053462262dc7216970|2016-04-26|Andrey Antipov|TwoParticleGFPart : add MatsubaraContainer
+b283dbcde227dee5b5f345a87502df4f6cdf1fe3|2016-04-26|Andrey Antipov|restore MatsubaraContainer
+3c6da371cea9247283c95df9ee871b45e6d73222|2016-04-26|Andrey Antipov|code cleanup - do reduction less often
+f523354095d201a6e5ac10e0eecddaefc9524fd0|2016-04-22|Andrey E. Antipov|Update README.md
+95c1975b195cabbdf1e46b779e7a0c23577e7bfc|2016-04-22|Andrey Antipov|tclap find
+b8e1780498cf78f6d49eb6dc4f1f89e725237f94|2016-04-22|Andrey E. Antipov|Update README.md
+79d76a37751d3d45d3e6c1e5f1e132871b6968f2|2016-04-10|Igor Krivenko|Fixed an enormous bug in FieldOperatorPart
+7c9e5c2936451454bd887c24983d4700fff3af1d|2016-03-06|Andrey Antipov|minor upd
+7ef8904b1da5f60131a19bb7ea7e726b13233a1e|2016-03-06|Andrey Antipov|pomerol find module
+8b62ac19230bfc3725afcefc6c4db671e0941992|2016-03-06|Andrey Antipov|set linking type
+0b1227d86730b619a501a785bed3f2ea38bcf9a8|2016-03-06|Andrey Antipov|more cmake cleanup
+a9a83be3f1c484b9708e035ac89d80bdfd412a14|2016-03-05|Andrey Antipov|get correct config file
+b55616f63515fa8ebdab73bbec05e2c74e97abbc|2016-03-05|Andrey Antipov|fix mpi find
+2792d78911ed63ce4d7342d533c58fd4087db39c|2016-03-05|Andrey Antipov|add common definitions + gtest
+34539eeb63365af776a99955be6131f268fec812|2016-03-05|Andrey Antipov|clean cmake + rename test to tests
+752a7ff2aef0412eb3b11e9387d2349ad59c205c|2016-02-18|Andrey Antipov|Doxygen update
+9fd2da47858e93864193f423a0cc53c0a34a4df3|2015-09-10|Andrey Antipov|anderson : output double occupancy and energy
+cb8cb86d69038c3bb0c43dad109cf95369ffc703|2015-07-27|Igor Krivenko|Revert "FindPomerol.cmake must be installed"
+257cab9cf2423df2c057f8603eb9ef671be6fbe5|2015-07-21|Igor Krivenko|FindPomerol.cmake must be installed
+7257e49c9570b0b68f6c04836f8061e88a5f2f3e|2015-07-21|Andrey E. Antipov|Update README.md
+df8a02ea49fb66b911952c5922fc34efe87483d6|2015-07-21|Andrey E. Antipov|Update README.md
+c4e34843b1217d6c7b74b289a33b5c91cde83f09|2015-07-21|Andrey Antipov|rename example to tutorial
+8b42408edec9f0b00f52464a086bc7cf98b32a4c|2015-07-21|Andrey Antipov|example as a separate subproject
+65e1eb0e77405bb23df669a032a3c74a90b3ed97|2015-07-21|Andrey Antipov|remove example from main tree
+c2fd8c99f023843034c3bf3dda58e6f9aacaddc3|2015-07-21|Andrey Antipov|generate cmake config
+2dfc20646c201250d9eedb8caaac043b36648d90|2015-07-21|Andrey Antipov|transient headers export
+c753c3881452b815f76a66e9a04d8cc4363088f9|2015-07-21|Andrey Antipov|gitignore for doc
+a201788994bc5533600a314307393ba7a81688b8|2015-07-21|Andrey Antipov|working on cmake - correct header installation
+44a0352c0f72ce69a7531482d478b08b6348ea50|2015-07-20|Andrey Antipov|src rearragement
+c9b06642c691e61bda183826b1b23065f16c194c|2015-07-20|Andrey Antipov|put CMakeLists to include
+18c0d36003559b47f4140930f854fbe8173da134|2015-07-20|Andrey Antipov|cmake update for moved headers
+041046ad9359d1d07a3f5bc3b676188a0002403a|2015-07-20|Andrey Antipov|move headers out from src
+9a14d2770f4a661db59fb0ac1ee74fcde4ac2abb|2015-07-20|Andrey Antipov|pomerol lmod
+824e13f5be1e12e65fc6abb5034225e0ae779d8f|2015-07-20|Andrey Antipov|install mpi_dispatcher headers
+1865cad99afe9f5dc952fe04ebf591c9e5a1d62d|2015-07-20|Andrey Antipov|mpi_dispatcher with fPIC
+abc324761f7ad58fbb3510ea55d139ae833a7eaa|2015-07-20|Andrey Antipov|fix linking issues with mpi_dispatcher
+e84039e0629731ede20d12fa1e0e427cc2d6b517|2015-07-20|Igor Krivenko|bold_hyb does not belong here.
+1fda65474e796091e64f8e0c29e47561c56d152b|2015-07-14|Igor Krivenko|optional CXX11
+59c9a109281a843c33f1d6c752fa909ad7d9c07f|2015-07-14|Igor Krivenko|cleaned more c++11
+452f101302cc857ee08b0c9b8a1f1c14502dbcb1|2015-07-14|Igor Krivenko|cmake update
+ff60f1459b5eb618a9c520c70dbb6856e3f79849|2015-07-14|Igor Krivenko|cleaned c11
+27d6f167892fbee80456e6f1148c15d4f2405169|2015-07-12|Igor Krivenko|Copy-constructor for GreensFunction.
+a3694a1543a02a0ad62582ffac886c011bdaeb76|2015-07-12|Igor Krivenko|Added method GreensFunction::of_tau()
+c3cb14043776e5363e0588cca4791bd19dab6608|2015-05-27|Andrey Antipov|mpi_dispatcher - correct mpiexec --np handling
+f193bbe0f84e6855ef52bc303ca2beeb281fe898|2015-05-23|Andrey Antipov|minor upd
+d66e3f901d61f677f6fa7f20c535cd57e2027767|2015-05-23|Andrey E. Antipov|Update README.md
+14fbb69b05e894c11e498a8e34152786fad72614|2015-05-23|Andrey E. Antipov|Update README.md
+8dfe694ab6e70928fc697d30f4c1a41e8c6eaadc|2015-05-23|Andrey Antipov|LICENSE and COPYRIGHT
+568098f0aa979bf3871847613b15216a4506048c|2015-05-23|Andrey E. Antipov|Update README.md
+1ef9e4c75c77fe561c35b10c1a41a961c8c509f9|2015-05-23|Andrey Antipov|cmake scripting update
+b327ac73c74695cf35e927e4ee3c9c051c093479|2015-05-23|Andrey Antipov|compatibility updates
+a8cf3479a15dff68dfe32a7b4dede4c6090f1970|2015-05-23|Andrey Antipov|mpi_dispatcher as a separate module
+819ae6eb1b7421633ab68fa74f06d877c721fb23|2015-05-23|Andrey Antipov|disabled C++11
+8bb3e92fe28e75d44e89f8619330e1d43942cb18|2014-09-11|Andrey Antipov|IndexClassification : getInfo returns IndexInfo and not boost::tuple
+b978186067cc10b4eb2da7a60f3c1ae715d61b71|2014-06-11|Andrey Antipov|Update README.md
+d643fab787b8e587927b3c1342e6fb8118ee639c|2014-06-11|Andrey Antipov|Update README.md
+8f5c98f1aab49610126bb5fa28b9765f9e695375|2014-06-11|Andrey Antipov|Merge branch 'master' of github.com:aeantipov/pomerol
+d1c7400ce03cac4a52fd5b303901a7f25773a6fa|2014-06-11|Andrey Antipov|CMakeLists update
+bf6566e2a2f52688a96a348fd0574221af2e56c1|2014-06-11|Andrey Antipov|Update README.md
+90625ffb442bb6f324bb47bd565563d260ffb02e|2014-06-11|Andrey Antipov|Update README.md
+0a57a0507b1b5a28f9e8cb003b0fa16cfbe740b1|2014-06-11|Andrey Antipov|remove obsolete README
+20b4266e3f60ba649e9a279b329319bac3850da3|2014-06-11|Andrey Antipov|Merge github.com:aeantipov/pomerol
+9aa4b8cd0965fa4936554b4dbb84a963bd78e24c|2014-06-10|Andrey Antipov|Initial commit
+8d760ba45a24a6fa3f09731e8f6a99d3ff0b9ee4|2014-04-18|Andrey Antipov|Progs instead of Execs in CMakeLists + small clean-up
+dd0c1bdde6fde952d25996020e31e721b912d54d|2014-04-17|Andrey Antipov|licence upd for executables
+f552e03f3537bfc6ba510b44ca39802e99ff9171|2014-04-17|Andrey Antipov|hubbard2d executable
+861a743d42d390ce61bd946cf03fe6b6106a9558|2014-04-17|Andrey Antipov|Added anderson executable
+f4f7b6e01c2ff0a9f6474f3a0307a801f474b13f|2014-04-15|Andrey Antipov|serialization of complex numbers included
+acac448cd645e13a4a578fd7519cd9aff594407f|2014-04-01|Andrey Antipov|bugfix: remove obsolete dependencies from tests
+83f8bc7d3bf6d4b165a39dc42f8aedac0bc376b1|2014-03-31|Andrey Antipov|bugfix - removed implicit called to methods assuming prepared status in constructors
+a539e42cfdd7f5cfc63f47645e5cf8edd8d05dca|2014-03-19|Andrey Antipov|Anderson02 test for 2PGF of AIM with 2 bath sites
+d014e7bf602e86adb73f10077647509cd30494b5|2014-03-19|Andrey Antipov|IMPORTANT: Correct tolerance for TwoParticleGF
+5fc0ca2a2e6792f0b68cc938b2c9a9a586d589b0|2014-03-19|Andrey Antipov|minor
+c92647e2f79dcbd16066b0ef95dfe76a658bef56|2014-03-18|Andrey Antipov|IMPORTANT: cutoff for outer loop in TwoParticleGFPart
+109a6cd268a92037d6a657de5eddae02e862e209|2014-01-28|Igor Krivenko|More tolerant check for Hamiltonian being self-adjoint.
+54cf38c51cf461985b63d876ee861a821d99bd0e|2014-01-21|Igor Krivenko|Comparison of operators has to be more tolerant.
+d50a742da8031eca3eb9ab59fb3db9916d4b8433|2014-01-15|Andrey Antipov|fix old clang/gcc bug on ubuntu
+134847e30b80cfddd432464cee80135dd2a07d53|2014-01-10|Andrey Antipov|bugfix in data distribution
+68e0b1232305f3247be6005524c82a212e71024b|2014-01-10|Andrey Antipov|c++11 requirement to CMakeLists
+bb60f63d42d24bb6d8edec57fb6b6551ddbd0659|2014-01-10|Andrey Antipov|Updated version to 2.0
+4862720e432f8e3d412483d66c16b2b9a82f7707|2014-01-10|Andrey Antipov|Started implementing mpi for FieldOperatorContainer
+13a1b3ae85932c612adbcd89f51494c7debaea67|2014-01-10|Andrey Antipov|TwoParticleGFContainer correct test
+49b74adccfbe3eadb0aa3a02a6203338c320b832|2014-01-10|Andrey Antipov|Minor
+eab37b27a130e803758bdcd3cd45758814e4c754|2014-01-10|Andrey Antipov|split communicator in computeAll of TwoParticleGFContainer
+e373162247e37bc97b74140c5cd1f3966c3de1c2|2014-01-10|Andrey Antipov|MPI bugfix - works on mpich
+b971b18298d2ca6a52b199485ccab0c835177fd8|2013-12-27|Andrey Antipov|introduced splitting of communicator in 2pgf container
+a5b436efbadb37c56efd095e9636bcbdb5aeef97|2013-12-26|Andrey Antipov|Complexity for ordering of parts
+01678e414984b82836990b34cdd3a82cce22a764|2013-12-26|Andrey Antipov|namespace MPI to pMPI to avoid duplicating
+a5a6611638d16342abf51cd55b34aa81718d6e35|2013-12-26|Andrey Antipov|mpi bugfix
+5ddd8ffa8947ad8d6fe375c20a363c066ced5efa|2013-12-26|Andrey Antipov|Hamiltonian : introduced MPISkel for multicpu implementation of prepare and compute
+52432b8b45942fa3ea14dd9c0830f6f42e59d75d|2013-12-26|Andrey Antipov|Removed a deadlock by a pending WorkReq in MPIDispatcher Worker
+0f8e4d0407f1ce124df77af5b0362625a396f203|2013-12-23|Andrey Antipov|Allow get value of FieldOperator from it's adjoint
+75e5ab426508cee397f7924b3c48e4f60b3c0b55|2013-12-23|Andrey Antipov|Cleaned FieldOperatorContainer - it's not a computable object
+548dfa614831266a85620abfa545401d06d25137|2013-12-23|Andrey Antipov|FielsOperatorContainer - set as an input to compute only required indices
+8218a4e746546786631b7da05815f990f2f607de|2013-12-23|Andrey Antipov|Hamiltonian : less verbose output for prepare
+fbf6dd5a05093c8ad968239deb4e2e5f05d1b48d|2013-12-23|Andrey Antipov|Computable objects cleanup
+9969d2813a8be5ee27be16aea33c513b1db6cbc0|2013-12-23|Andrey Antipov|FieldOperatorContainer - removed on the fly computation
+0d00d3165fdc1ca8eb28a4fbbc49911a34e069d8|2013-12-23|Andrey Antipov|Hamiltonian : renamed diagonalized to computed to maintain same convention
+2c807f961b710274c30320fb57bd9b8acf6e62ee|2013-12-23|Andrey Antipov|unique_ptr for parts
+685727e061417eabfdfaab2224f387d6bfd31459|2013-12-23|Andrey Antipov|Faster MPIDispatcherTest
+38a1b35e7aa6fbc093ca3af4caff227933612815|2013-12-23|Andrey Antipov|Clean-up of semicolons after INFO and DEBUG macros (redefined in Misc.h)
+8c46f76e2ec494842a548ee9ae8a5f45a7629998|2013-12-23|Andrey Antipov|Detached MPI tests from linking to pomerol
+988706b283c316621f71a61d6c1e6115852316f7|2013-12-23|Andrey Antipov|removed obsolete Logger
+19ada286e5aaf83e6ec3b529449265171e059069|2013-12-22|Andrey Antipov|Hamiltonian : diagonalization with MPI
+03d30075b7f8a8e183c8d90ecb45eb37cd268931|2013-12-22|Andrey Antipov|MPI bugfix, added tests
+a46d83e1c2896e96115a2949531524e500f6fe43|2013-12-22|Andrey Antipov|Removed HDF5 (unstable)
+cea1d881a77cf8d9131238e21deebaf6838c762d|2013-12-22|Andrey Antipov|NDEBUG used
+d8d3ecc2c02e631e6745123f2927e25edd06a23f|2013-12-22|Andrey Antipov|MPI - added a dispatcher
+651d033ae2d8e06b1fb1e8e4348d5eb90f437057|2013-12-21|Andrey Antipov|Tests with MPI for Hamiltonian
+d63203acb2621c8280dfb9278f1814de00805a10|2013-12-21|Andrey Antipov|MPI for the Hamiltonian
+a948c088493bbc6cfa6bd21451faafd29b8781f6|2013-12-21|Andrey Antipov|Updated FindPomerol
+d2b81da74d4fad35ea35dae486844bb8d5b58766|2013-12-21|Andrey Antipov|CMakeLists RPATH fix
+e527421263cbcb0dfe46e37721a9bbe04a690b15|2013-12-21|Andrey Antipov|update pkgconfig and make a sample FindPomerol file
+8b82eaaced00fdc843b61019407bcf33b1f25f0e|2013-12-21|Andrey Antipov|MPI fix
+e0de16cf04de71cbeb460d67d19154fdea2398c9|2013-12-21|Andrey Antipov|TwoParticleGFPart - remove tolerances from terms to minimize size
+f65860cfde3bd879fc902f4a82d43a77608e3729|2013-12-21|Andrey Antipov|Merge branch 'master' into mpi
+e0a473b5e9829df77f027db35a22ab8f104d3871|2013-12-21|Andrey Antipov|GreensFunctionPart - non-static tolerances
+162b54023d8c231717da44e1bf4274105437e780|2013-12-21|Andrey Antipov|HDF5 storage c++11 update
+03f17f3df4969a283e08abea9ea0edcf5d1440cb|2013-12-07|Andrey Antipov|Separate calculation and broadcasting to gain anything from mpi
+3754f2480b7eb76206980915982644fe6616a55f|2013-12-07|Andrey Antipov|Bugfix
+5e4e4de2de6264fbb4dc4dd4a6e86f8cda89c4ef|2013-12-07|Andrey Antipov|MPI for 2pgf
+b3cd26e02820d0bfa6e49d536e5ae54c726a6fd2|2013-12-07|Andrey Antipov|c++11 - compatibility
+ded7edcfa0c41d4413b03127dff55161120b8492|2013-12-07|Andrey Antipov|mpi support for 2pgf
+ce1bb69ca2ad975ae0ad52121f21c98de761448b|2013-12-07|Andrey Antipov|example update
+fe1d5d2fe16a050933f27594f74d0c54bde66dbf|2013-12-07|Andrey Antipov|Removed MatsubaraContainers from GFs
+96fa8932bfc0acf34d2b6b7f48caa2313b64cb43|2013-12-07|Andrey Antipov|TwoParticleGF : separate from MatsubaraContainers
+2dde3b0b5339ae3bc2c1645034ec68266c8246b4|2013-12-07|Andrey Antipov|Removed unused JSON bindings
+8a1a8d827f916242cc6ec8cb8d9c6a7e29f3a13d|2013-12-07|Andrey Antipov|TwoParticleGF - resonant params non static
+1f05ceaf491c88c56cc9930825a61fb5e11c4a30|2013-12-07|Andrey Antipov|bugfix
+6f20bc7ca1edd195b562c4326600343fae7fdc1e|2013-12-06|Andrey Antipov|minor bugfix
+f288a0a8f5300561171f29e9a57b16c50d153f44|2013-11-09|Andrey Antipov|Remove boost filesystem from linking
+649d692043624fc9ee1f1820f9c7a050a9da26ed|2013-11-09|Andrey Antipov|DensityMatrix : getAverageOccupancy
+fef759382557faf5beeaee56425b955e372cf396|2013-07-15|Andrey Antipov|Vertex4Container bugfix
+685e4e26e2317920d3405db866e07f6776ef8b2b|2013-06-27|Igor Krivenko|Fix for addHopping() preset.
+ace36e0dd2034a7abeff23943bf7b617993bc90d|2013-06-24|Andrey Antipov|Operator: bugfix
+ae60e3fd0ddedbd9c34a22d576ce6516cd1f94d5|2013-06-21|Andrey Antipov|minor typo upd
+9dd788c0a52e44999ab266a518f0509e9bbc069e|2013-06-21|Andrey Antipov|Minor updates - more verbose output for 2pgf containers
+cce69b2183d81d1f05a46a613132c99845490232|2013-06-21|Andrey Antipov|Created example
+57081cf25469825ac958f676126b0c8d1356ac25|2013-06-21|Andrey Antipov|Created global header pomerol.h
+731dc4c9453db7938172fc55bfab409d996ed9fb|2013-06-19|Andrey Antipov|Vertex4Test - restore block mapping
+899904cf95344813b46b0a3d1591ee383b344fd7|2013-06-19|Andrey Antipov|Vertex4Test update - now makes proper testing
+7f023f7a6e90f4b3fcf09fa11d54c0dd261e7129|2013-06-19|Andrey Antipov|Bugfix: proper initialization of beta in thermal quantities: GF, 2PGF and Vertex
+0613f909e3774ec786faddf7c5bcd69a20ec5a41|2013-06-09|Andrey Antipov|Symmetrized: added checkSymmetry method, to allow for custom symmetry operations to be used; cleaned up default checking of symmetries, sz operator is now not costructed unless all sites are spin-1/2
+c0691566332f1122e542b7762d35462781db65df|2013-06-07|Igor Krivenko|Include "json/json.h" rather than <json/json.h>.
+6223e4e50bf90132558a08fa7f4dfc456d651a0c|2013-06-06|Igor Krivenko|Clean-up of the tests.
+b22802d961c4a2f60f4ddfb616a615262be0824b|2013-06-06|Igor Krivenko|Use boost::bimap to store block mappings in FieldOperator.
+0d6b849264bce4d6ccdc9c340103aa5e5a3976de|2013-06-06|Andrey Antipov|Updated 4site Test
+1c531958fc705819e47b59b8f0ddc0078344118c|2013-06-06|Andrey Antipov|Tests cleanup
+162bcf15409bbb83745f619ebc7d38f10c2ae562|2013-06-05|Andrey Antipov|Merge branch 'qmctest' of https://code.google.com/p/pomerol into qmctest
+7f6bde565bd0c0a4303880e67412f83f67d91f85|2013-06-05|Andrey Antipov|Bugfix: now GF works
+bb223d08ec4be440c084ce75f3ea1f2bab607e12|2013-06-05|Igor Krivenko|Minor style fix in Symmetrizer.cpp
+96aac5ff3cb2dc2546f4eccfe6b1c6e554f58546|2013-06-05|Andrey Antipov|Bug is between field operators and GF
+327f0f1d5cd55e0ebb4a4b669d98b7ee26496ef7|2013-06-05|Andrey Antipov|Restored forgotten test
+d11de96316d7a21303a5e10dc8675c65147ab9aa|2013-06-05|Andrey Antipov|Tests : minor updates
+97a7eb5b6350548d87ec0e01d3219681d5e3258a|2013-06-05|Andrey Antipov|Added Anderson impurity test
+f4796534bc78581c23afaa98ee87212fd40967de|2013-06-05|Andrey Antipov|minor - skip calculation of matrix elements for constant terms
+7b600c6aa9b276a16c929098df93f9eb17fb7263|2013-06-05|Andrey Antipov|Bugfix: creation action in Lattice is 1, in Operator - 0
+0e154fc4f8fa254ddac824b3c293ed6bd2c72f0c|2013-06-05|Andrey Antipov|Hamiltonian : added a method to dump all eigenvalues
+7fced824b11d8c4e1313dcfda18840aba26f3c55|2013-06-04|Andrey Antipov|GF Tests - more verbose output
+ccf1a23e35e97ff4655a122172b1bd1b43652b72|2013-06-04|Andrey Antipov|SzOperatorTest restored
+951944ea0234120aa1946812f30ac5bd88cd753b|2013-06-04|Andrey Antipov|Long OperatorTest and fixed SzOperatorTest
+7a2c51525ba54d81a39f3ebe7a2f16009ba26358|2013-06-04|Andrey Antipov|Operator: restored acting on states
+1c9b0ba528a314110f176f5f26d38571fc164011|2013-06-04|Andrey Antipov|Merge branch 'qmctest' of https://code.google.com/p/pomerol into qmctest
+20ed30d6a6be5476c8dbe3f09f5d2aeb16e178cb|2013-06-04|Andrey Antipov|OperatorPresets : removed constructor with default ordering to reduce errors
+e020f3a1184f25250ac439b099a3802828f3b3ac|2013-06-03|Igor Krivenko|Installation of PkgConfig file.
+8e1524c28dd61a0469c5922a0a4a74b39bd4c9f1|2013-06-03|Andrey Antipov|Made an OperatorTest. Compiles but does not pass
+0dc31c4a2f7b79f469ae73c546ce3f1a21a7afe0|2013-06-03|Andrey Antipov|Merge branch 'master' into qmctest
+01643dc8de1a5b7aae77e96af542c91179f7a6b6|2013-06-03|Andrey Antipov|Compatibility with new operator
+488c1ea69e5ca1dafd2b54aa33731dd271fe728d|2013-06-03|Andrey Antipov|Added new operator class from Igor
+6fd74319d7e473e3d3279ef45d15352acc91f1bc|2013-06-03|Igor Krivenko|Set RPATH for executables/libraries to work from the build tree as well as from the installation dir.
+1df0d022415df4e963b727ff00f5fc91f95f2989|2013-06-02|Andrey Antipov|Operator - const for == method
+b9d19cc472163ca509c00146258af5c87fab5ccc|2013-06-02|Andrey Antipov|LatticePresetes - no sign flip
+30df1137926b768046a226862816278ef53280dc|2013-06-02|Andrey Antipov|Restored full GF2siteTest, disabled SingletTest
+46a4f652caa1661bba55a5b5d38a039d0f82c87b|2013-05-28|Andrey Antipov|Removed auto from most of the tests
+f892a2ea10b23858416314a60fe73f8118165283|2013-05-28|Andrey Antipov|Removed outdated docs
+36b3e2c74de07dad93ff1bcf71ec07f37bf1071d|2013-05-28|Andrey Antipov|Restored c++03 compatibility
+f9a9d46c1359f8a3f01de2f3c8ef4cf2a4601b42|2013-05-28|Andrey Antipov|Operator : count indices from right
+2f49fe8070a037fc9c4c32fb990ba7455540fd69|2013-05-28|Andrey Antipov|All plaintext dump is guarded by ENABLE_SAVE_PLAINTEXT flag
+00b84fd324d420f8afa8fbdfc46f7bea3a231a3c|2013-05-28|Andrey Antipov|Minor cleanup
+a0cfadb1c27c4057cb1166f7a2a9258c2ae03f4f|2013-05-28|Andrey Antipov|Bugfix for mingw 2
+77e9087443a703dbb0bdcbebacfc62eec3ca28fc|2013-05-28|Andrey Antipov|Bugfix for mingw
+d422288cd331c56971b8948d12868bde615a82a8|2013-05-28|Andrey Antipov|Boost - disabled filesystem
+7558937c6d33f5fcb0e9ac03abd3bab46d56b977|2013-02-13|Andrey Antipov|Changed sign determination to count from lhs
+bdbb5df1652bb956d420d4783c371a6996ac6741|2013-02-12|Andrey Antipov|Test update
+03b4f67b06b55698ee1af93d74417dbc22c7cba6|2013-02-12|Andrey Antipov|Bugfix - wrong determination of signs of matrix elements
+f0c8ac663af3020f2d136e93f56a384c3406e5dd|2013-02-12|Andrey Antipov|Singlet Test
+24a5b61bedd29d940f41f725216987a08fecd6b4|2013-02-12|Andrey Antipov|Removed shared_ptr from Operator + bugfix
+7cc7c7bd3fd2d1e9da9aad47133cb1b11763e714|2013-02-12|Andrey Antipov|minor bugfix
+f74161be238259fbd0d4e56962d205b561b2d2e8|2013-02-12|Andrey Antipov|Added plaintext save utils, updated a bit option parser
+8a5e5c8884279443957db1d630f34442847243c7|2013-01-27|Andrey Antipov|Default optimization set to release
+56dcec00e16d47225de082ecd13234298c2bd87b|2013-01-27|Andrey Antipov|Removed obsolete warning message
+a8610076c23d315531bc7442a02d619d64fc083d|2013-01-27|Andrey Antipov|C++11 clang bugfix
+117d706b0c10bb026dea65a4e02790c91601c787|2013-01-15|Igor Krivenko|pomerol: updated TODO.
+579f31cae9729a289e554c652b901fee2ed38e45|2012-11-27|Igor Krivenko|Remove unneeded FindBoost.cmake and FindHDF5.cmake modules, since cmake 2.8 provides them as a part of the standard distribution.
+499cc35f6628e44414829b373172a5b2c87d2678|2012-11-21|Andrey Antipov|Comparison routines for complex-valued Operators
+a3cd588001cb14b8dd40bea0ab2adc4591a690aa|2012-11-11|Andrey Antipov|Documentation for Operator
+2bd2e94bf039a4b6f0c8ea056e9ed4129497f6d5|2012-11-11|Andrey Antipov|bugfix, corrected prune and comparison
+17bf3c41dff509538e5230716b83ae228be1b2b4|2012-11-11|Andrey Antipov|Added operator- and fixed commutator
+8de9bccfaf0e2418bd0e5ecf32fbc88c43cace43|2012-11-11|Andrey Antipov|resolved Index.h
+1b75d5cdaa80c0a0e816a534eda6de6eead37fdf|2012-11-11|Andrey Antipov|Put a commutating condition on N and Sz
+9b254fbd5898138c66bd40f8261dc1450c515972|2012-11-11|Andrey Antipov|Operator algebra implemented. Commutators now work!
+b5edb90d835a1bbcb3b53bd19a9910bd78fb198d|2012-11-10|Andrey Antipov|Operators update. Tests started to work
+cd1c9af99bda93163991c71284751de99d9e1751|2012-11-10|Andrey Antipov|Change of operator class to a list of tuples + methods. Each term is a tuple of tuples now
+0f074e1370f342baca64243413084ccd5022a868|2012-11-08|Andrey Antipov|Restore C++03
+bc390a7a4166924e4bb79206fc57ac13459a793c|2012-11-08|Andrey Antipov|minor 2
+fb97cd982c99b542719d223dfafceb856498f719|2012-11-08|Andrey Antipov|minor
+804371099be8b7731f4e1b44742565457affc0ed|2012-11-08|Andrey Antipov|minor
+1df79a439db21ac7fd73fb93f21ae9692d81012f|2012-11-08|Andrey Antipov|C++ 11 changes, operator reordering
+ec6074192f75f5f5280e820e971a92c37a17ed2b|2012-09-18|Andrey Antipov|Hopping conjugate
+760f8c4f3a0944ce284b15970a68eb43fbc5db7c|2012-09-18|Andrey Antipov|Json installation update
+790cf2e3be97be3719bdd6aa651b54f97c78577b|2012-09-16|Andrey Antipov|Email replace
+9bbb5ac8829cc6db38ce11d2e184ab47861a764f|2012-09-16|Andrey Antipov|Documentation generation update
+d347205b1b7d2552b7930360f1b798d4b7f06eca|2012-09-15|Andrey Antipov|Linking fix
+6c1f389189c8e2b81923c414aecb201d4b276975|2012-09-15|Andrey Antipov|Changed adjoint Hamiltonian assertion
+6bff88d7e8dac85a54e18dbc1990907213440e77|2012-09-15|Andrey Antipov|Complex Matrix elements II
+1eb655a71892e9173f95bed7ac45847f2b82c967|2012-09-15|Andrey Antipov|Complex type matrix element support
+b71b5982830b24edd01dbe120be3904f0bcb751b|2012-08-26|Andrey Antipov|Executable added back
+b03810e761cf1e8c48a1efe40333995ad3bf29f4|2012-08-25|Andrey Antipov|Test update
+3e5499425c0a8d9f6785ed5dee45c8ef14efbfdc|2012-08-25|Andrey Antipov|Cmake: Header installation and documentation generation
+bd3adfeead2229875fd284e1180eb2e015dc5b75|2012-08-22|Andrey Antipov|FieldOperator update - now gets correct indices. Added a 2site GF test.
+dc9df328c9ca31ac3a36a08efc1fbfaa77dc232d|2012-08-20|Andrey Antipov|Cmake update
+9966645fc3f2ffa39485616d5b5c746bf4226f0b|2012-08-20|Andrey Antipov|Cmake files
+5680c135820466e7234b13ad1cd442fbec387cab|2012-08-13|Andrey Antipov|Test upd
+557fca700c1fc42bfebfc8a8bbd5c837ec7de244|2012-08-11|Andrey Antipov|Additional tests
+44b3a40aca81c7a80da4fae07c01be2c9cc2f8c0|2012-08-09|Andrey Antipov|Autotools removal, tests name update
+e8964451a579756417376f413b09519b362c1870|2012-08-09|Andrey Antipov|CMakeLists
+4eded6ce910db6bdf827b9ea68d226bf17eeecf9|2012-08-09|Andrey Antipov|gitignore
+f291a9aa8a72f7872b03442d9d16b4841bc31b69|2012-08-08|Andrey.E.Antipov@gmail.com|Tests update
+a8c89b0fd529cc0afee6fbce328440aa1a6e05b3|2012-08-07|Andrey.E.Antipov@gmail.com|Moved branches/new-lattice to trunk
+b65319aa81dcb19aec6bc83afc963f794b86fec2|2012-08-07|Andrey.E.Antipov@gmail.com|Tiny autotools update
+addd62fd56840cabd0da6ff951e5d63bcf0c6475|2012-08-07|Andrey.E.Antipov@gmail.com|Add missing files
+7cbd97483109b3eabbc924328cf1baddeedfeec0|2012-08-06|Andrey.E.Antipov@gmail.com|Tests for newLattice
+b7a33646dcf9319fa0e3f96f795c3b849f6f8115|2012-08-06|Andrey.E.Antipov@gmail.com|newLattice branch working update
+4f68aed0deb6577d4945772e49621d397e2221f1|2012-08-06|Andrey.E.Antipov@gmail.com|newLattice branch working update
+9be8dc469d7ef5a3c0312a1e37395e52f6cf9119|2012-08-03|Andrey.E.Antipov@gmail.com|StatesClassification working
+fd26a2a5f255f2da1bcd1819f016238068b94582|2012-08-02|Andrey.E.Antipov@gmail.com|Operator and OperatorPresets update
+2bc57df923ab097e904ea3268497478414c08123|2012-07-31|Andrey.E.Antipov@gmail.com|Operator updates and pending autotools updates
+3db549bedc27c3ad4b298e2923dacd255119275a|2012-07-09|Andrey.E.Antipov@gmail.com|Reverting previous commit and going back to revision 1045
+3df8a5ee4ece52b53a8b98309a051e93d59153fb|2012-07-09|Andrey.E.Antipov@gmail.com|IndexClassification upd
+072d1f0f12ec3a30720e096cd69b01e4743aace2|2012-07-05|Andrey.E.Antipov@gmail.com|Pending updates
+944084a9a9cd80272ff73d459ca1aa83db1f1727|2012-05-17|Andrey.E.Antipov@gmail.com|Created operator class and moved term into in
+44333c5d1686e27756621dbdbea5ec53eb55a885|2012-05-17|Andrey.E.Antipov@gmail.com|Added IndexPermutation test
+1a7166de8c08302bc53cc803be3636b970c741de|2012-05-17|Andrey.E.Antipov@gmail.com|minor upd
+c94ed480e896ce1acf00bced9671e8486cee6f51|2012-05-17|Andrey.E.Antipov@gmail.com|Worked out normal ordering of IndexHamiltonian::Term, implemented a test
+6da4c0b38d8e5c3de25db0b90f9a39af1835ce6c|2012-05-15|Andrey.E.Antipov@gmail.com|Updated Symmetrizer::IndexPermutation
+e6b2a36cd885a069100f23cedc76eb5148cdc51a|2012-04-06|Andrey.E.Antipov@gmail.com|removed unused features
+5c237a3630e3be8e318f45fdc965ebcc34af0608|2012-03-04|Andrey.E.Antipov@gmail.com|Nightly
+a1f3832c6ef1a425fbeace6174f20de0ffe02aa3|2012-02-29|Andrey.E.Antipov@gmail.com|Added more methods to IndexClassification
+4fd9a4f62b31290b16afc94fd175384797934b42|2012-02-27|Andrey.E.Antipov@gmail.com|Started IndexClassification
+851144708732da6c84a6a7e9bc18dd4cc924990c|2012-02-26|Andrey.E.Antipov@gmail.com|LatticePresets finished
+b4d54e16ca0460a0b002b339ca50557f93c7b4e1|2012-02-23|Andrey.E.Antipov@gmail.com|Implemented term presets for JSON files
+cf9c384424f2c4945783d2eb8245899f8f3f6bbf|2012-02-23|Andrey.E.Antipov@gmail.com|Rearranged data reading and entering to the Lattice to maintain some logic.
+f14e04427184b0d9f411b20ebdd177cf900a0ff9|2012-02-20|Andrey.E.Antipov@gmail.com|Daily : JSONLattice reads all type of sites
+a6570afd3d2d3728f8d7894a58beecd96558bd77|2012-02-20|Andrey.E.Antipov@gmail.com|Nightly. Added a map for JSONLattice actions with sites
+ae26dd36d55569716c9c98eddaad3796bf95ae82|2012-02-19|igor@shg.ru|pomerol: tests are now fully functional (with new containers).
+1b49591105f47cb081b9b029ece8dbecabab109a|2012-02-19|igor@shg.ru|pomerol: added getNonVanishingElements() methods.
+57b64d171d0242b614552dd6b97dd25d0f236a09|2012-02-19|igor@shg.ru|pomerol: fix in the constructor of Vertex4
+1aaaf29ef796284ce18b31046ee2cf4070c3d933|2012-02-19|Andrey.E.Antipov@gmail.com|Tests fix
+1bcc93b7d136dc1c2447aa55fe88e79cd3afa134|2012-02-19|igor@shg.ru|pomerol: minor fix for older compilers (2).
+abfd72569d9eb4179e3065962422b2e7e5794275|2012-02-19|igor@shg.ru|pomerol: minor fix for older compilers.
+72b778fb3ab4708717ff23a69d50ea9374257c79|2012-02-19|Andrey.E.Antipov@gmail.com|fixed Make clean in tests
+cef00b5091a293f9a27f264fd312101a17568065|2012-02-19|igor@shg.ru|pomerol: fixes in IndexContainer*
+bfa03976815b1bbdd46985f877d38460d3809c86|2012-02-19|Andrey.E.Antipov@gmail.com|merged trunk with this branch
+0757b8cf312f198ae407d3c7e69f75f9b5b43f5e|2012-02-19|Andrey.E.Antipov@gmail.com|Added Makefile.in & Makefile.am to tests
+ee23aed336524bcd6ba5206736f24c946d2c0b7b|2012-02-19|Andrey.E.Antipov@gmail.com|Added tests as a target, make check implemented
+60f014975ce2524545302aaf7aa2c16e8871b593|2012-02-19|Andrey.E.Antipov@gmail.com|Mathjax flag
+58911d2d8289a99e2c30ea48bc1688499c2c2706|2012-02-19|igor@shg.ru|pomerol: Vertex4 and Vertex4Container classes reworked.
+2a8433fbc46f8abede4547b660ced204dea9745b|2012-02-19|Andrey.E.Antipov@gmail.com|Added documentation to LatticePresets
+8d283b5e3c03263cd383389aa9c4d4a327a95766|2012-02-19|igor@shg.ru|pomerol: programs are compiling again.
+0b3a5e3312ea1887fbacc818d637114448bfd1f7|2012-02-18|igor@shg.ru|pomerol: advanced-containers branch is moved to trunk.
+f5bc9cefbbb01e6fa8a94d37aed4bccb0b33daca|2012-02-18|Andrey.E.Antipov@gmail.com|string->const std::string& in Lattice
+ef144daa400d83c4c1a3fcbda752c8306577292e|2012-02-18|Andrey.E.Antipov@gmail.com|Added LatticePresets
+5c03f179b0d40203399aaa817f82a0d86836c2d4|2012-02-18|Andrey.E.Antipov@gmail.com|Morning upd
+57093c0520b8d7584ac2218d8ac35d2a6c79ee7b|2012-02-17|Andrey.E.Antipov@gmail.com|Daily upd
+94dec7ae34fac8e320863408a353a61fdcf4b9fb|2012-02-17|Andrey.E.Antipov@gmail.com|Nightly. Implemented first preset for site entering
+47ad7742de9251f7453a209976f5a914a7c5efdb|2012-02-15|igor@shg.ru|pomerol: one more test program (amputated gamma4)
+f419ebe97e1ff19601e4f8069e1cb0559fb8b745|2012-02-15|Andrey.E.Antipov@gmail.com|First iteration of a Lattice class
+d4fc662d153cf70c224617fec4daab9d8e1a0f18|2012-02-15|Andrey.E.Antipov@gmail.com|Rename Lattice analysis
+b99c081ef0fb06d72577cfdca7cf222a5ad86698|2012-02-14|igor@shg.ru|pomerol: first test program (Green's function)
+a4e40c51db3c57a4ee4346f45df77dbaf19f7034|2012-02-12|Andrey.E.Antipov@gmail.com|minor bugfix in example lattice file and Json reader interface
+01b40eb1995e6d19ce334c33b08ce6722ec835fe|2012-02-12|Andrey.E.Antipov@gmail.com|Updated the desirable readable JSON input file
+37dd19fca753c80773579825fcec42ebf330c0de|2012-02-11|Andrey.E.Antipov@gmail.com|Removed some trash from DevelopersExample to a separate file to have a reference. There are some problems with HDF5storage, i.e. a segfault on a file open
+c8214f105889edc3323d9672e421ae5618785001|2012-02-11|igor@shg.ru|pomerol: updated TODO.
+87d5dc36b936a74654e3384cdd09cab44d8718a9|2012-01-29|igor@shg.ru|pomerol: new Logger class.
+1ca92577da9e7eb49221db1bbddbc4f33498bc6a|2012-01-28|igor@shg.ru|pomerol: Reverted trunk to r976.
+e1a75593053cc06d6a07990a5cca565985b6907f|2012-01-26|igor@shg.ru|pomerol: global refactoring.
+7cbad5db10394e82172d7a2bb9e1e17368169bb9|2012-01-24|igor@shg.ru|pomerol: new templated MatsubaraContainer1 class.
+16846aa7c7c5900415da49a92d684797fd316217|2012-01-24|igor@shg.ru|pomerol: Get rid of unused FourIndexSingleObject class.
+63590c3d5a5e51b0c0977d375daf08e53e6a18dc|2012-01-20|igor@shg.ru|GreensFunction - now with value caching.
+294c43ad1f1e8ec1c02afbdf24a86e91f8058531|2012-01-20|igor@shg.ru|Make MatsubaraSpacing a member of Thermal.
+d96c5b94e4ae292de227c8062725f5f5afd1a04a|2012-01-20|igor@shg.ru|Field operator: make compatible with ComputableObject.
+ba71c9f126dabd04074288cfadab751090e54ad8|2012-01-20|igor@shg.ru|Hamiltonian: make compatible with ComputableObject.
+9bd7ac4ab7bbc50be46420fbe81ba2b96964beff|2012-01-20|igor@shg.ru|Density matrix: make compatible with ComputableObject.
+5e72b0df4dcd6d4915a71a95ece6634996d9558b|2012-01-20|igor@shg.ru|1) Temporarily comment out ComputableObject::prepare() and ComputableObject::compute() (will be enabled later). 2) Add GreensFunctionPart::prepare().
+4d51f7d57bad213d50335366ef293f753a65d600|2012-01-18|igor@shg.ru|pomerol: prepare() and compute() virtual methods in ComputableObject.
+aaef325149c8fb27f6a26aee14228dba5b771675|2012-01-18|igor@shg.ru|pomerol: new values for ObjectStatus (Loaded, Stored)
+c9739cfb1eaf4751cd69194af66ca470c5cc1581|2012-01-17|igor@shg.ru|An update of the pkg-config file (eigen3)
+e78398b6c9bf4df8ff21ad214c597d08b32ff795|2012-01-17|Andrey.E.Antipov@gmail.com|First version of a pkg-config file
+2438ee4001bfc42ba8dc90bcedf40ea14c3b7419|2012-01-17|Andrey.E.Antipov@gmail.com|minor: aclocal upd
+00ac322b7d8a5644c9db38ede39c5f0465c7a0b7|2012-01-17|Andrey.E.Antipov@gmail.com|proper installation of the headers
+b8461a335c6806106ac3dadc6d74e84a10e48b2c|2011-11-27|igor@shg.ru|Corrected and extended version of symmetry.tex
+b792ec2a0977225d16d5082426046d9fdb8b5f78|2011-11-27|igor@shg.ru|A short note on symmetry analysis
+b76a7e2a9ff1b4f324fd38133c09d0674676ed23|2011-11-20|Andrey.E.Antipov@gmail.com|Added comments to LatticeReader.h
+e8635378f8fedb94165f9ec0978167a2f6f56cf2|2011-11-20|Andrey.E.Antipov@gmail.com|Moved all pomerol-related code to a separate namespace Pomerol. Also added LatticeReader class to replace obsolete LatticeAnalysis
+e3873e61dde61185567bc82b7880f64d3784762a|2011-11-20|Andrey.E.Antipov@gmail.com|Minor. Makefile.in restored
+5088f1f6ccc668121a8adb16f90bbfcb1a9eb5b9|2011-11-20|Andrey.E.Antipov@gmail.com|Forgot to remove obsolete files
+0065b5f99e240e6e4aa956043839ad3bf2ac1a91|2011-11-19|Andrey.E.Antipov@gmail.com|Moved OptionParser.h to prog, since it is never used by library
+f3073f369698f8776f1eae9414e34fb529f095ba|2011-11-19|Andrey.E.Antipov@gmail.com|Removed junk output_handle class and all links to it
+13645b5fcdc6a4cc16fcf205705c8f9ef0c9c553|2011-10-01|Andrey.E.Antipov@gmail.com|Added makefile.in to prog subdir
+39c04e89eac3265723c8ae6e7bed2ade1aff99bc|2011-10-01|Andrey.E.Antipov@gmail.com|minor fix
+9e0b9c724d6c996e2d4dece14133ee33f971817f|2011-10-01|Andrey.E.Antipov@gmail.com|minor fix
+16c6a0ada87dd94ccc235ae4f7b7ed764f1ae4ed|2011-09-30|Andrey.E.Antipov@gmail.com|Patched an example of a new-type Lattice json file
+646472cc47730003cc7250af7e5c3ce71beefb72|2011-09-25|Andrey.E.Antipov@gmail.com|Added an example of a lattice configuration file
+28ac67a1881bca39a477b1abf7ce28f548a06674|2011-09-22|Andrey.E.Antipov@gmail.com|TODO for Lattice and Classifications, h- and U-matrices
+43a21213067d99f79dd6da8317fd9f2ce01635ff|2011-05-27|igor@shg.ru|Initial implementation of prog/HartmutDiag.cpp. In the future we have to create a unified HDF5 output format and write a number of converters.
+5829479654e1cdd92c5116da45154a0da1f95748|2011-05-23|antipov@ct-qmc.org|main.cpp -> DevelopersExample.cpp
+f70e306c7f8bc2ddc34429a7de9f289fab226ccd|2011-05-19|antipov@ct-qmc.org|Introduced weights for proper averaging of Terms when summating them
+05adc7b5000af4766cb49111ea50ba35c934f61d|2011-05-16|antipov@ct-qmc.org|lib->src
+5f1fd8d335414eeeec5d25e356cf1771e02c915a|2011-05-16|antipov@ct-qmc.org|lib->src part 1
+203951272a7f93d056061e5f67a9b2de1d147f1f|2011-05-16|antipov@ct-qmc.org|Added flag -DnoReduction for testing purposes
+89256bfeff0e2d5692d5d69cbf1355bd39d2e337|2011-05-13|antipov@ct-qmc.org|Fix of configure scripts for right include of hdf5
+ce5a5537af6891eeaf8720d6d8bd9e2ee605931c|2011-05-11|antipov@ct-qmc.org|Splitted src to lib and proc
+605950aa85caaf5713caa484047b8e73db606bb4|2011-05-11|antipov@ct-qmc.org|src->lib
+4589300549c57bdb7e0f470d2cd2653224a5d28a|2011-05-04|antipov@ct-qmc.org|More documentation to the Doxygen main page
+71f8dc33c38e0ad4b510214cf184e9b1b9064823|2011-05-04|antipov@ct-qmc.org|1-word update
+55c07101d947b0933738955efda0140953013554|2011-05-04|antipov@ct-qmc.org|Added documentation for lattice JSON files
+d83d8a8a644ce2fd69a84c7f2242ee3edcd81232|2011-05-04|antipov@ct-qmc.org|OptionParser: patched to receive arguments in arbitrary order
+3a37425c1f92f71c982c1ec78d2a56ced6e63da7|2011-05-03|antipov@ct-qmc.org|restored openMP support by default
+1d2acae03550950c23365cfb1b30e7d03c1be710|2011-05-03|aljoschaborisjoggeli@gmx.net|main.cpp saveGamma upd
+6c3f57ee15ba963abf09162d909e7ce42bf54d15|2011-05-03|antipov@ct-qmc.org|A tool for converting gamma4 to plain text
+89242d79db2969cb31a116f19f1f7fd35e986695|2011-05-02|antipov@ct-qmc.org|configure : added all necessary tools
+29d16b38cb6a8bc8112c0c131c6c89a91f832478|2011-05-02|antipov@ct-qmc.org|Added prerequisites for configure
+a0889490df786fcac871662bdb553ae944d63f0d|2011-05-02|antipov@ct-qmc.org|Added autotools result files to the tree
+fd12abbbd51dd5139197f6819e6c67b9309faf25|2011-05-02|ignit1r|Sieve reduction of the terms in GreensFunctionPart.
+f82ba706e55ce9fabc621915f00ef721fb019c6b|2011-05-02|ignit1r|New direcory for utility scripts.
+bd7f11ef4117885d49e977b84357002a72fb47ea|2011-05-02|ignit1r|Updated TODO.
+836dbabce7473c491ad1ba052d58fbb51c6b4fa4|2011-05-02|antipov@ct-qmc.org|Added documentation for a FieldOperator.h
+82aab4da77d6a38d6b9e0b6897fc86324a54bfda|2011-05-02|antipov@ct-qmc.org|Wiki help
+04e0984cae89c4ea75279ef87d9fd104445b7c97|2011-05-02|ignit1r|HDF5Storage now supports Eigen SparseMatrix.
+7c94f58c2db0ef07ad903b329f90c0b5d10f7a58|2011-05-02|antipov@ct-qmc.org|Removed unused branch
+0bdb5a81c8e2118de56a4867b5b03b9f84e909d4|2011-05-02|ignit1r|Updated documentation main page text.
+df3a69d98a3fca09785889071152395ab71a2d60|2011-05-02|antipov@ct-qmc.org|Restored #define REALTYPE_DOUBLE
+4777f316c8b8b9cd7bb04974d5311433cfbef870|2011-05-02|antipov@ct-qmc.org|minor Misc.h
+499f400242dc1a9afd9baed22c3da34362fca929|2011-05-02|antipov@ct-qmc.org|Mainpage documentation
+d4162bb2700a237f7e50b516a38ad7773acc2adb|2011-05-02|antipov@ct-qmc.org|Doxygen upd
+09efffb67e73fd1e869ee71a3c2a9eedf3ff3511|2011-05-02|ignit1r|Reorganization of HDF5Storage.
+3253f9cd6a8aaf7b9191656654787e82f6d1def1|2011-05-02|antipov@ct-qmc.org|main.cpp upd for Gamma4 dump
+3489df6d6531d906f679aba3fafadcfcebd996ff|2011-05-02|antipov@ct-qmc.org|VLALatticeGenerator upd
+8d25190896a00c4093e661f78161ed2e90ae19da|2011-05-02|antipov@ct-qmc.org|Fixed TwoParticleGFPart for right doxygen view
+d4f9db0bccc5ee22ad9ee1a2402ef6acbfe39e25|2011-05-02|antipov@ct-qmc.org|Doxygen optimization
+7123c8c0a46506257593e4e70e5cc1fdd4619149|2011-05-02|antipov@ct-qmc.org|doxygen.cfg taken from Doxyfile in doc
+e9ff2efd6f0a619b6fa27a70a5599fc18753410d|2011-05-02|antipov@ct-qmc.org|Added doxygen support to configure.ac
+39f2e2dbc69dcbf4036314df9ff4630ee7672c6d|2011-05-02|antipov@ct-qmc.org|TODO upd, small english language fixes in StatesClassification.h
+1b9f47abe44a15a86ea8f5df2864ecf3beb5204e|2011-05-02|antipov@ct-qmc.org|Written down a documentation for StatesClassification. Polished names of some methods
+83634f80fd2b1ae8dd52d685ba60ce91623fbcfb|2011-05-02|antipov@ct-qmc.org|1) Started adding documentation for StatesClassification 2) Added reference for IndexInfo to FieldOperator and parts 3) Less verbose configure
+18e7c496c519c26e3e1ebdae1a0b4ebf6cb7fc9a|2011-05-01|ignit1r|Fixed HamiltonianPart::load().
+a68ed7ec5b27d7fb589d02711e50283f95873f09|2011-05-01|ignit1r|Full HDF5Storage support for Hamiltonian.
+4b12f4c4f7e989c4d40c7fb3d7393e4397cf1955|2011-05-01|ignit1r|Fixed FieldOperator according to the new implementation of QuantumNumbers.
+0012ef414a16415ff96b5ed8bec54483ef0f047b|2011-05-01|ignit1r|New implementation of QuantumNumbers.
+77c9e070104df2b1a8709ad37d3584e36fb23c01|2011-05-01|antipov@ct-qmc.org|Fixed legal information in a better format
+404a8172692d02c1774d02097e55a8415aed7aaf|2011-05-01|antipov@ct-qmc.org|Added legal information to sources
+ea40a9901b8ce9f62c126e7e78ba960a20a5b0cb|2011-05-01|antipov@ct-qmc.org|Added License file
+087908f0c3ebdda165b11e8b05aea930e3c79b50|2011-05-01|antipov@ct-qmc.org|Fixed Makefile.am
+cb6a85a03ab62192b0766668fdbdc08e3c8ffff2|2011-05-01|antipov@ct-qmc.org|configure.ac upd
+c156164f5e2a5ce71f55c85eabf1d4c47fa0a9b4|2011-05-01|antipov@ct-qmc.org|Added VLALatticeGenerator.py
+edb9efc5e39a4dec410b240b7797f2e8c19be059|2011-05-01|antipov@ct-qmc.org|configure.ac fixes
+f6ee166f96ff7b12edec8ac502dbf24acfacd125|2011-05-01|antipov@ct-qmc.org|Added --with-hdf5 flag to configure.ac
+a0906cfbc0199fb3eae19e1e0eba3a6112e30b44|2011-05-01|antipov@ct-qmc.org|separate cflags
+76b1343d43a3c9c0d5ead92fdbe8ec794c2ff4dc|2011-05-01|antipov@ct-qmc.org|Makefile.am : added support for installing headers. Turned out now because of no need
+1b38b7df41d1771bd781012c9a45342ff42ba64b|2011-05-01|antipov@ct-qmc.org|Makefile.am fix for proper linking : always use LD_ADD instead of LDFLAGS!
+740b5773336132bc0e7f538dda342a57462a0386|2011-05-01|antipov@ct-qmc.org|Makefile.am : add -lhdf5
+98a9d7bde5b32a1c4b44159f5bf7105688b0b6cd|2011-05-01|antipov@ct-qmc.org|Makefile.am : optimization flags
+69ae085bfa2791a1b577f9ec51b510f54628486f|2011-05-01|antipov@ct-qmc.org|Makefile->ignore
+bd5968e2d4a3242248338b6c28e6d80129f41b92|2011-05-01|antipov@ct-qmc.org|Makefile -> Makefile.backup
+39e0710e91b08def6fe74aedda24621a9bc603a3|2011-04-30|antipov@ct-qmc.org|Makefile.am fix
+84421b35a307e11fec64953a586f542150f95942|2011-04-30|antipov@ct-qmc.org|Initial autotools support
+0910b254fe183ac8699be7e2a9239ffa313a8d2b|2011-04-30|ignit1r|Renamed methods of Hamiltonian.
+7c82d47e4d7b24ecf5ea3eec43189c844cd8d5ce|2011-04-30|ignit1r|Introduce complex as a commited (shared) HDF5 data type (second try).
+a78c00543df8ce56ab03a78ca3253eab1059e815|2011-04-30|ignit1r|Introduce complex as a commited (shared) HDF5 data type (first try).
+9b2bd0bef134360bbcfd51efbf3fd3f99f35f78d|2011-04-30|antipov@ct-qmc.org|Introduced ReduceInvocationThreshold to TwoParticleGFPart, made TwoParticleGFPart and TwoParticleGF friends
+84194b2759a050ea76d3e3da24bc0d6699007395|2011-04-30|antipov@ct-qmc.org|made reduceTerms static in TwoParticleGFPart and introduced it to TwoParticleGF
+0ea8a18cce16af5cb93f752ab5d81022d2d27de8|2011-04-30|antipov@ct-qmc.org|Added newlines to the end of files
+aa5ecd5ac42433e61047e8f3ed155ae1dfc1a529|2011-04-30|ignit1r|Smarter behaviour of HDF5Storage constructor.
+fc39c444560deeea1f12956ab73dc10a0b55d36d|2011-04-29|ignit1r|Code cleanup in src/FieldOperator.*
+c67ec2d5c3a8788bd6b96ea4f138a8aef172caa8|2011-04-29|ignit1r|Partial HDF5Storage support for Hamiltonian.
+a2a08211581ca97a2bf1070bb838169d1d5abe5b|2011-04-29|ignit1r|Hamiltonian: replace HamiltonianPart** Hpart with std::vector<HamiltonianPart*> parts.
+9cdf75335eb7dbf6c79e4a9681e24292862cae49|2011-04-29|ignit1r|Slight code cleanup using new Thermal structure.
+fa597ac4b939c0fb53b531d04124217144bd6d73|2011-04-29|antipov@ct-qmc.org|jsoncpp : src/Makefile upd
+045e2d5cbf15bc7064a2e81705025dc633a3046c|2011-04-29|antipov@ct-qmc.org|jsoncpp - makefile upd
+c3e6aa97257923e5c51df817a3322d9991708645|2011-04-29|antipov@ct-qmc.org|Removed lib_json subdir
+2aab1792e1ad9707936c065f8b90542888d93bce|2011-04-28|ignit1r|HDF5 Dumper has been replaced with bidirectional HDF5Storage.
+0f028a99a68e44d4ecf3694ede0a58cf0ea35a7e|2011-04-28|antipov@ct-qmc.org|Patched makefiles: added mkdir -p bin and removed -pg flag
+11f144e4703cb35efd10d7bc1e36de2ef3f33fa6|2011-04-28|antipov@ct-qmc.org|TODO update
+b33e23d43f41871f9547ea3de7ace0ff7f4a97cc|2011-04-28|antipov@ct-qmc.org|Bugfix: added set( ) to MatsubaraContainer to enter values explicitely, made operators() for TwoParticleGFPart::Terms and MatsubaraContainers inline
+c7a207137abb1d8c6cdc6fe7345016eae1961617|2011-04-28|antipov@ct-qmc.org|Fixed DensityMatrixPart::getAverageDoubleOccupancy
+c26b141320f74e64b73ee70434fe5a9d1d990d43|2011-04-28|aljoschaborisjoggeli@gmx.net|debug info for nn
+3c7bfa52e841d1a86149149ddf51d29c65e69501|2011-04-28|antipov@ct-qmc.org|Removed MatsubaraContainer out of TwoParticleGFPart. Slows a bit for a simple calculations but should give a significant profit for complex ones
+2b85ba5da0d4fdfdabafbf3a556535da7757bf18|2011-04-27|ignit1r|gamma4.tex: corrected definition of an amputated irreducible vertex part
+76494a02baac2499c6f33981ab130601f6d7e3eb|2011-04-27|antipov@ct-qmc.org|GFContainer : added readInitialIndices() method to avoid unlikeable GF to be computed
+745d2aff08bbbbb58cf5c473a0cca81ebf09628a|2011-04-27|antipov@ct-qmc.org|OpenMp - different for declarations
+ac40252fdeb7e893fca99e5226a6c3328e2263d8|2011-04-27|antipov@ct-qmc.org|TwoParticleGF: OpenMP support
+5fb7ef23afd2c60f8231b7571691a87158e0f1bf|2011-04-27|antipov@ct-qmc.org|TwoParticleGFContainer: restored readInitialIndices method due to VLA requirements
+5ff64bbac8dfd8eb4ce2425429376c97cc554099|2011-04-26|ignit1r|A short reference document on the irreducible vertex part (doc/gamma4.tex).
+6fe2f8a2fc080e03a0585dbd3083323ec6f75670|2011-04-26|antipov@ct-qmc.org|TODO update
+ffa5d237272898f35c48ac0b852ba2e24aad3d62|2011-04-26|antipov@ct-qmc.org|TwoParticleGFContainer: Make summation over all possible indices, no more readInputCombinations method GreensFunction: bugfix : removed extra Status variable main.cpp : optimized saveGamma method ComputableObject.h : Proper definition of status
+1cd48a46438f559694dc0dd245a60ba22e2ccae5|2011-04-26|aljoschaborisjoggeli@gmx.net|Fixed number of terms
+6637f7870c41bf05d51cde18d3403ee8284a3da4|2011-04-26|antipov@ct-qmc.org|Bugfix : added call to ComputableObject() constructor to initialize Status of each computable object
+8837de1195e4149937b45dff174eb505f6149890|2011-04-25|antipov@ct-qmc.org|main.cpp : optimized human-readable dump
+84d9b7f033553ba402071f57e62a2f1591c5d3ec|2011-04-25|antipov@ct-qmc.org|Fixed bug: Status left uninitialized
+e229451f04bcb9104c6cb96362ec82e605561485|2011-04-25|antipov@ct-qmc.org|Makefile: brought openmp to separate definition
+3c69773c8c3292ac0c196237728781b777530326|2011-04-25|antipov@ct-qmc.org|Added openmp support for TwoParticleGFContainer
+6cf34455b2647ad7144db09e9d0d6678e844902d|2011-04-25|antipov@ct-qmc.org|TwoParticleGFContainer: merged mapNonTrivialCombinations and mapTrivialCombinations into map to a new struct : Element FieldOperatorContainer, FieldOperator, TwoParticleGF : cleaned up screen output
+1843a68f282e51dc87747875302ae8cc910f6d2d|2011-04-25|antipov@ct-qmc.org|Implemented TrivialCombinations in TwoParticleGFContainer, the equivalent index combinations in 2pgf are taken into account and not calculated
+0cb00bc56c41c3d86841cf8a4dd99c696040a251|2011-04-24|antipov@ct-qmc.org|IndexClassification, TwoParticleGFContainer: Implemented simple spin permutation
+248e782df32edb4a2ca8a8e95133406a1f972c62|2011-04-24|antipov@ct-qmc.org|Updated TODO
+50e36515e29d862e4c5f28b94098a92272f053e7|2011-04-23|antipov@ct-qmc.org|Bits->Indices. Started implementation of a list of equivalent IndexPermutations in IndexClassification
+3ffdfa98cf9117ab7b71acf249aa83e001ca9465|2011-04-23|antipov@ct-qmc.org|Minor: fixed iomanip prefs for Gw output
+de74bf794fc0cb73e2d31aa5777a5c02910dcd31|2011-04-23|antipov@ct-qmc.org|Fixed Vertex4 bug: wrong indices in chi0 calc
+a938b96c115689fd2a3f29a4f351ab196ec38300|2011-04-23|antipov@ct-qmc.org|Vertex4 : check
+b3cba5874de602fee723997b046b0bc23935d728|2011-04-23|antipov@ct-qmc.org|Minor : get rid of inf tolerance
+05a61ba0d0d6c080029cb6f476e309d230f6fdf8|2011-04-23|antipov@ct-qmc.org|TwoParticleGFPart : Introduced intermediate reduceTerms not to exceed memory
+c5838035285a14938047845b90a3816a66bdf7b0|2011-04-23|antipov@ct-qmc.org|Added double occupancy calc
+98859a7dc09c9b8e81efc21f440afdf4aac003e1|2011-04-23|antipov@ct-qmc.org|Added ComputableObject header for unified statuses classification
+e35fbe89351c702cb8abff31193e53ca8cd523c8|2011-04-23|antipov@ct-qmc.org|Provided pkg-config files for hdf5, eigen3. Cleaned makefile
+b6bb008b86162510b564d8543f7cfda7cf1f95e0|2011-04-22|antipov@ct-qmc.org|Makefile : forgot iniconfig deps in include
+fe031bc1a91c7f509e8ca81e867b95b423018442|2011-04-22|antipov@ct-qmc.org|Makefile : forgot iniconfig deps in clean
+b1d0f7eacf64871dc4b51e4dc4868f5039510e77|2011-04-22|antipov@ct-qmc.org|Removed dependencies for iniparser and iniconfig
+8d04017ac17dfdb7371a867f53d2501d01b6ecd1|2011-04-22|ignit1r|Minor fix in HamiltonianPart::diagonalization()
+74a62821e32f25e5ffa8182a337d730183723cbb|2011-04-22|ignit1r|pomerol: ported to Eigen 3.
+c0acbfb4c4be00d0dd4deb267ed7ebea90633d81|2011-04-22|antipov@ct-qmc.org|Ready to remove iniparser & iniconfig deps
+85777e5d0a8562c133fe15178ac6f3a3117eea4f|2011-04-22|antipov@ct-qmc.org|Fix: main.cpp - forgot to remove return 0
+3c2e41f3f188732fb8f6f6976ea4d873858fca8c|2011-04-22|antipov@ct-qmc.org|Added OptionParser to parse external arguments. Useful for scripting
+3cb97638477d7f2922a6ac2c68f8ae113919bfd3|2011-04-22|antipov@ct-qmc.org|Bits to Indices. Renamed BitClassification to IndexClassification. All corresponding fixes are done
+5486cfb773e298b7d9655a2fc8a2cba55f6a4133|2011-04-22|antipov@ct-qmc.org|Containers for Vertex4 : speeds up significantly
+3b5cb15875e58adb02edab42dee635641bd3964e|2011-04-21|antipov@ct-qmc.org|flagged all hdf5 objects by compiler flag. Will be reverted after forking
+9fbcd5b2e726c5eefbfbf25c1cdc8b1262791119|2011-04-20|antipov@ct-qmc.org|move from pomerol directory one level up
+eeb48c506ec51d00e26f1f8c8dbd10c0165e9242|2011-04-20|antipov|Lattices fix
+e1c7b3b4be0121de2836b0d76e63b204a3cbcffd|2011-04-19|igor|pomerol: initial support for HDF5.
+aa144162d5c4fe8e3a3a1f0cd6ba244fccd9b8de|2011-04-13|antipov|Mapping was wrong
+55c064e005b691dfd373ed671edd95470f1a81e5|2011-04-13|antipov|Fixed Vertex4: vector->map (not too many matsubaras, can be easily reverted), TwoParticleGF::MatsubaraContainer now store 2*N+1 matsubaras rather than 2N
+29aaf69e820ca9505f4e4e57efe66a45454705c7|2011-04-13|cjung|saveGamma introduced greets aljoscha
+7524c2a593495a05c04556b9321b365f8f955abb|2011-04-13|antipov|ResonanceTolerance -> KroneckerSymbolTolerance
+05e78030823a60bc65a70cde123cbe3ca3590137|2011-04-12|antipov|ReduceTolerance introduced - improves speed and accuracy
+45901d7bb365bd6607adc6f25bbef406928befa3|2011-04-12|igor|pomerol: yet another restructurization of TwoParticleGFPart.
+e9dd5eb53e312f62843ad14daf830c0c86498680|2011-04-12|antipov|PlainText dump - temporaty
+e9d85b94be1527851f0d5afefdf5c1df214365bf|2011-04-12|antipov|minor fix for dumb output
+6c3a7930582dc585ad8953d42950e8808f0d2274|2011-04-12|antipov|implemented isSimilarTo for both type of Terms
+821234b388a762ae32c695c1a9e3a86026260683|2011-04-12|cjung|included binary output in main.cpp: -DHRD-> do human readable output, else bin output
+6efbb38a7d32feef47e8fe1a274b5f431c23bd74|2011-04-11|antipov|Changed tolerance for simple cutoff
+db2a8b979c5fe3018c6be3933144f51b4ca64f56|2011-04-11|antipov|Fixed tab characters in lattices, made system.ini:points to be a positive Matsubaras amount for the 2PGF
+184f8c20f52a2dbb86f3b31d1818121451328c33|2011-04-11|antipov|Some adjustements for testing - need to be replaced by a dumper class
+8222ad452eb519674cbb962ab28925aebeee9955|2011-04-11|igor|pomerol: sieve reduction of the resonant terms.
+9cf2e2ca62c45f72f85322a6dfafd915b9e3bdd6|2011-04-11|igor|pomerol: small update to TwoParticleGFPart::NonResonantTerm().
+6344c6365e843b0c8c317269141f85a2518948d1|2011-04-10|antipov|Changing names. Should have done it, probably, 200 revisions ago : libmeat -> libpomerol
+be57618bd9b16afb9ae609e1b2de10f9fded5059|2011-04-10|igor|pomerol: minor bugfix.
+b980c55e34f8c8d8360ed80d3e71dabaa05079d5|2011-04-10|antipov|Test line
+6e4f36696c47bd4cb295b6788a0fe92185c40ed3|2011-04-10|antipov|Right omegas in denumenators
+5efdf8b97703d5e71d1fe75531f0d5ee3449e1a7|2011-04-10|igor|pomerol: nightly update.
+4fd6e5f1d152300b75a013591322f7a512f82e71|2011-04-08|antipov|preresheto
+dc77825747274131a8f14a867cdce4e8cf4bef7b|2011-04-08|antipov|Mid-day
+13445b352edadc0d728252c92bdf6b1c87e491d0|2011-04-08|igor|pomerol: corrected version of Vertex4.
+de87592009b8769af5723afcf4cd4a73bf4d6baf|2011-04-08|antipov|Daily : restoring caching for 2pgf due to small number of untrancated terms
+6b9d384882d1420c8180a2326c6178b5e5b6131b|2011-04-07|igor|pomerol: new method TwoParticleGFContainer::getNumberOfMatsubaras().
+d09f9c3991b43ce851744ffbc280ebd5254a4bab|2011-04-07|antipov|Daily: GFContainer, DM : truncation, ObjectStatus
+0737967d75dd00f83883619baa387146aec795b3|2011-04-07|antipov|Nightly
+cc139dddaad2aeefb604fe5e3100520f28375c0b|2011-04-06|antipov|Added FieldOperatorContainer and patched TwoParticleGFContainer to work with it
+29502edd4a808e52d0255decbfcbf7f5e1825efa|2011-04-05|antipov|Added vanishes() method to GF and 2PGF to avoid unnecessary calculation
+6cc1815fdd628d4ed75a751fceb1128fba159b78|2011-04-05|antipov|Clean up src folder
+9d6f24110e2e22741030ee7447d5a36e17676191|2011-04-05|antipov|Added containers for 2PGF, they now require external list of nontrivial combinations
+ebbe712e8f7480a18c67c6aa47d03e3871e39636|2011-04-04|antipov|Daily
+b1875e63eef8faf816708e32befcc5284ae432a4|2011-04-04|antipov|Added sources of Container for 2pgf
+dd2475c16a102f8073c1e1686cca8be539b756c1|2011-04-03|antipov|Added a branch for the end-2010 version
+8d95f5d98b3f28617ee93e5f4e631bd68e626cb2|2011-01-05|antipov|Minor bugfix, TwoParticleGFPart.cpp, Term::isRelevant method
+38c014bcfde0f22aedf1ecaf6880016a9af416ad|2010-12-28|igor|pomerol: documentation for TwoParticleGFPart.h and TwoParticleGFPart.cpp
+10d3b35bc331293b5eace8f00718654d4f77b850|2010-12-28|igor|pomerol: documentation for Vertex4.h and Vertex4.cpp
+728c3fd9bd31e661b27d740c67df24c88bb8d9ad|2010-12-28|igor|pomerol: documentation for TwoParticleGF.h and TwoParticleGF.cpp.
+79d39718a2991a34019a4ba39add01eea304289a|2010-12-27|igor|pomerol: got rid of unneeded permutations stuff.
+acc65782960c315d02f7002066bf09e613f8f3b6|2010-12-27|igor|pomerol: new Makefile target doc-html (Doxygen-generated documentation).
+f198a770a80d93fdce6fad0fd2d9f2089ebca4aa|2010-12-27|igor|pomerol: new layout of doc directory.
+e4d2dca26e83c22dedd4e9f1a1dcd3a70ebd23fc|2010-12-27|igor|pomerol: documentation for GreensFunctionPart.h and GreensFunctionPart.cpp.
+603957bdff98fbeb9da363828953b1470b1523f8|2010-12-26|igor|pomerol: documentation for GreensFunction.h and GreensFunction.cpp.
+d1b0b5a5733ea0259ced82aa9efc6fc851848d53|2010-12-26|igor|pomerol: a new proposition regarding the output system.
+075a321d56beea5af4257a4e68858a295d0dbee7|2010-12-26|igor|pomerol: replaced a type of DensityMatrix::parts.
+fdc7a270e37742d02467912345be4c7664c7ad83|2010-12-26|igor|pomerol: documentation for DensityMatrixPart.h and DensityMatrixPart.cpp.
+25586e4172e8f6c226cd89bccdb83aa64c29b4eb|2010-12-26|antipov|tabs -> spaces in .h files
+cbc4fc84669adabedcafd810ea7fb29cc4ad181b|2010-12-26|igor|pomerol: documentation for DensityMatrix.h and DensityMatrix.cpp.
+b731faedd137551d0bbb8e916b245d52d603a015|2010-12-26|igor|pomerol: updated TODO.
+47e0ff2e378c89165e5c0901a09e0b170ba45763|2010-12-23|antipov|Added system.ini file
+2e5985c1b53f642f7b61d70421f8dfd28a74095f|2010-12-20|antipov|iniparser - asked to make static library
+8b62383e1c4586bcc05f35b3471432d5a37e9570|2010-12-19|igor|pomerol: added bundled iniparser.
+5c7c521f585b82d366ecdc4fd86a42a96e7ddab5|2010-12-19|antipov|Fixed wrong mapping, thanks, Igor
+994f2ce3b68753c2c1f4180bfb5f460670bbcb79|2010-12-19|antipov|map issue - in process of fixing
+0b88f4f42543ab66330b9d0f6f5427271d378be3|2010-12-19|antipov|Fixed wrong blocks of field operators
+542c751bc5722385fd1d8c0768796348f6047c11|2010-12-19|antipov|World Line fix
+39c8342d6a06f82f93a12aab7dae6d08526e717f|2010-12-18|antipov|Fixed fist part of a bug about wrong TwoParticleGF indices
+2775185f30ea693d8e0eb82b7850c99e3cdd4ec9|2010-12-18|igor|pomerol: external iniconfig instead of a bundled one. New code for TwoParticleGFPart and related classes.
+4c95272464d5a4f65e739a72fd1bfb0cf04239ad|2010-12-18|igor|pomerol: a number of fixes in 1atom1band.nb
+8cd9b722d5da6553fff97c6cbb3d94a025031c3d|2010-12-10|antipov|Lattices
+c5af24b5b1fe0d9a582f52ab80171d7c8a0cd825|2010-11-26|antipov|minor
+9e04970688a0acc3889a00abff4435749d96ffbc|2010-11-25|antipov|Gw-> Hafermann style, added docs directory
+fb0bd0b872048bc788d3f164ba61c8d6bda21907|2010-07-22|igor|pomerol: one more try
+edff482e4cb4b7bfc3d30f122dd1f44467ba9436|2010-07-21|igor|pomerol: reducible part of 2-particle GF had a wrong sign (just as expected)
+1f78859130efd6f9bba119e8141cf19b0dd1eded|2010-07-12|igor|pomerol: new Vertex4 class
+2b47ac76b765d5196080e2c74e39726e162bcfac|2010-06-17|igor|pomerol: new method TwoParticleGF::getBit()
+cd49b79d1afa8bd8d99571de204f11d25a0ce19f|2010-06-17|antipov|Storage implemented
+ffde4db746f7774049204132a010a3a801ff68f0|2010-06-17|antipov|No pointers
+9f620539e86848ae164f40cbdb15031dc35fa761|2010-06-17|antipov|Daily
+6cc1a401f2b081d8dd238d47979e4385617e584e|2010-06-16|antipov|Added MatsubaraContainer for 2PGFPart
+d8361369e41ed3fe589e617f571280ea12e1232b|2010-06-15|antipov|1) Added reduce methd for the Hamiltonian 2) Added LatticeAnalysis class to handle all info about sites of the lattice 3) Fixed BitClassification to take data from LatticeAnalysis and not from file
+c15d427e1c0d8e10f99b7ecd59454d0ad93c454a|2010-06-15|antipov|Simple lattice for the trunk version
+19313308d8925d5f2331bad62d05910dd8d1544f|2010-06-11|igor|pomerol: updated doc/1atom1band.nb
+883543043a16e8bf17c124170a17e2b99efe1fb5|2010-06-11|igor|pomerol: new doc directory
+dbe719d515a9b1003df17e0414a3ee7f21c176a8|2010-06-10|igor|pomerol: finalized TwoParticleGFPart::computeChasing1() method
+aa1fac1457458093a8fb7a7b29bb4a8b7ec497f7|2010-06-10|antipov|Renaming : Vertex4 -> TwoParticleGF
+521ab66c2e8cc7a4410bd2698354e3d5a266e970|2010-06-10|igor|pomerol: deleted MATRIX_ELEMENT_TOLERANCE
+d7e9eaab55eccf7dd5c8b8c57516519910bee89d|2010-06-10|antipov|stupid if fixes the problem. Necromancy++
+f8249943cfccb87e86e431e119159506e2f35de7|2010-06-10|igor|pomerol: Vertex4 calculation is way too slow. R.I.P.
+1e2c23a7e263a93755177fc22d5b492fe404952f|2010-06-10|igor|pomerol: small fix in Vertex4
+90a65cdaf21bb3034b36024d3c7cf12fe90bcf03|2010-06-10|antipov|Left to Right, Right to Left index
+48360a1eaadd810c07d827089e57fdcfbe4c4465|2010-06-10|antipov|more TODO
+169bb6a8f8aefbc48dbd8652d07a22a7302189a0|2010-06-09|igor|pomerol: initial implementation of Vertex4Part
+61e6673ede372e0eb4223b2f7a5ad51a8feaa682|2010-06-08|igor|pomerol: new Vertex4TermType2 and Vertex4TermType3 classes
+d48822b5b5e64db138417a54b7926fc489e6d76b|2010-06-08|igor|pomerol: renamed variables
+83c0601f1ce0eb8c689761d67fd50ed279605a0e|2010-06-08|igor|pomerol: polished Vertex4Part iteration functions + TODO
+c651f099b4da36158f3a47f235ba79c05080bb22|2010-06-08|antipov|Added compute22 method. Tests needed
+d511334822f67c675e61f9ea9d54c1eb9eefba02|2010-06-07|antipov|Nightly update: 1) Added both col and row major matrices to FieldOperators 2) Merged GreensFunctionPart::compute method with it's analogue from branches/operator-templates 3) Added compute13 method for 1 external + 3 iterators method of calculation 4) Added transpose method to (Creation/Annihilation)OperatorPart 5) Made StatesClassification::n_i() inline. This improved perfomance by ~10-15%
+b4d893074c94d5508b9863e26717ac532606b5bb|2010-06-07|igor|pomerol: nightly update 2
+8778628c09b7980869a542cd747db0db7b7966c6|2010-06-07|igor|pomerol: nightly update
+dbf5123ae81033f3cdd36263f057b3dba666fa6a|2010-06-07|igor|pomerol: avothuy
+b0fa2a09e01286bf7365670e67612aa7a7a333c2|2010-06-07|antipov|minor
+c1d33c56002d2b3dfc66eed9ec91ad82b86de06d|2010-06-06|antipov|Fixed jsoncpp initialization bug with bad constuctor, implemented a pointer to Json::Value
+90f62911998706fd33391e6d01ead90f9e4e18ae|2010-05-23|antipov|Changed readable dump style for FieldOperatorPart. Not good but easy to check matrix elements
+e05ef5fdbbc3c556b2d048c50da65e98dbb82216|2010-05-21|igor|pomerol: fixed segfault
+c9fd46caa2ab0caec2a4c35303209fbbed6d34e7|2010-05-21|igor|pomerol: new implementation of GreensFunction::prepare()
+f7472461ab980a3cca6b15206bbc867c37570802|2010-05-20|antipov|minor - added percents for FieldOperator
+052f46253af581f25650ba8c70243ce03953c865|2010-05-20|antipov|minor - added percents for FieldOperator
+ee412f22c89f39390c16744f39ca984ee638dd9f|2010-05-20|igor|pomerol: fixed a performance regression in FieldOperatorPart::compute()
+eb32d0f58cfb8020c4b9fc199a1c82c3cd18c420|2010-05-20|antipov|LeftRight for FieldOperator
+05b0c218d032f4305ae3b3ddeb1535de361a74fe|2010-05-20|antipov|A documentation for BitClassification.h
+f5dfc81981b55dd8c5f83779bebffc591caff44e|2010-05-20|igor|pomerol: added FieldOperator.tmpl.h
+87d5bd759d04962d4e84a3c98c5ecbde83c57a3c|2010-05-19|antipov|Half-filling opts added - Should be checked
+ca32d9c8eba78d7e0895f7b97c21746ef2da9bd8|2010-05-19|antipov|pre Hamiltonian clean. Checked everything
+28df65b2bc95df54952beaf419923e8fb2680557|2010-05-19|igor|pomerol: daily update
+4e6d6499005afb6baf6562317b9072c1085ff36f|2010-05-19|antipov|Fix it. Fix it. yeeah. Spin flip terms somehow works, but works bad.
+93202d79994add4ac03b67f602ed05330df0d140|2010-05-19|antipov|Terms : no templates, getInnerTerm instead of inner_term
+6ed23b525c73df72fb021a02228bbd0fbc2ce540|2010-05-19|antipov|Terms : no templates, getInnerTerm instead of inner_term
+5c9536c54faceeaa999329631a34dc50e359a566|2010-05-18|antipov|Documentation for Term class
+0631cc7a4dd0a76dfd0580ee13c531813d7fc2b3|2010-05-18|antipov|mibor fix
+279fd029e39b3786b4f549aaddf689890023a97a|2010-05-18|antipov|new example
+eaa41a49b299d05bd5bbd10fa81a75cf836c6908|2010-05-18|antipov|new examplr
+1910d34e07d3472a5234617f1d32c1e4005593e2|2010-05-18|antipov|minor fix in bitclassification
+5d98f2044f5f2855acc6f33db84fbc5ba43fd60a|2010-05-17|antipov|Added terms for p-orbital for both basises. Started implementing terms into HamiltonianPart.cpp
+1343cb978aa4b925abd3c1cdd19ed212b7260ef2|2010-05-17|antipov|Terms added
+12ea2b9de38590ae6d919c657a1a0869cc2e514f|2010-05-16|antipov|Terms added
+738ce070e3c3236b42d22c4f2bc0406d720bc807|2010-05-14|igor|pomerol: more changes in FieldOperatorPart, new DEBUG macro
+3b6bf94f6ba2d3aaa11b6047241199fa3cff33af|2010-05-13|igor|pomerol: daily update
+a1463b3d0682bd1c8a4b63d35f0dffaa7fb1d19a|2010-05-12|igor|pomerol: new template-based design of FieldOperator and FieldOperatorPart classes.
+354ed9cff1848953f6e59deb2ebc83cb47c45ab6|2010-05-11|igor|pomerol: daily update
+2544b9c82267f718cb39fc8ded1f7b56a67b5808|2010-04-30|antipov|No more N_bit and N_bit_m in input
+8ca28e6a5adcba01186828c49683fb3f0353637a|2010-04-28|igor|pomerol: added prepare() methods to various classes. All code which does real computations has been extracted from constructors and placed to the methods.
+d6ddd666cea2ee036a8d7948572e2bc1d1186347|2010-04-25|antipov|Makefile patch
+da8920a3945b23eb877ee10a1eec5bc3f5b33b42|2010-04-25|antipov|minor upd
+6383d324bc0e83e1801b50c7743c8d3357f0e357|2010-04-22|antipov|Created a map for right index of field operator, finished Annihilation Operator class
+d7a98e221c1ad0fdb690028e93c69a6a5ff148c4|2010-04-21|antipov|PomerolDiag : Reverted to previous revision of FieldOperatorPart due to Occam principle. Introduced RowMajor and ColumnMajor Matrices in acreation/annihilation operator via overwriting Matrix elements in parent class. The code compiles and does not segfault
+d02be73b7b6de56b301f7151ee457c677e90e8b0|2010-04-16|igor|pomerol: daily update
+bd979e0fe0a7d95373d4f78ab6b49ec784b1a032|2010-04-15|igor|pomerol: boost::filesystem dependency eliminated
+65637da3ec398542126a164fd4827d7f4befd2e7|2010-04-14|igor|pomerol: daily update
+300a52262aabdb742e665fa3ddf99e5f8f946cd1|2010-04-14|igor|pomerol: refactoring 2
+b00011701f10229e1ba33543cfc2ba7b322c34d0|2010-04-14|igor|pomerol: refactoring
+e904de6844d6840816057889cf6684d1a3ffa39f|2010-04-12|antipov|getState -> StatesClassification, CCXpart -> FieldOperatorPart
+ba57d5abbbe404a3fe45ec2c2b9d999cbe3e145f|2010-04-07|igor|pomerol: daily updaye
+19a5e2c136e75651247c164bc956d63be023149d|2010-04-06|igor|pomerol: daily update
+f61afb2fa96aebd29036bf465e672e425842210c|2010-04-05|igor|pomerol: source tree cleaning
+57dab0649f7b1820cefdcbb5bb88c4451e4b775d|2010-04-05|igor|pomerol: dir restructurization

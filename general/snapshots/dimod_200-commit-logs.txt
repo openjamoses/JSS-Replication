@@ -1,0 +1,1613 @@
+9af460dc0f9028a1292cf786063c278cae3c0c80|2020-10-07|Alexander Condello|Update version 0.9.9 -> 0.9.10
+eb0a0df012fbd2dded89194bd01a441c6db43826|2020-10-07|Alexander Condello|Add more tests for DQM.to_file and .from_file
+b60fa03a2903f7fc3624d71b23724fcf46c633b6|2020-10-07|Alexander Condello|Fix _SpooledTemporaryFile
+5d3a5a81bc96f1d3df313fcfd374dfefa4182071|2020-10-07|Alexander Condello|Fix typo
+b9726d456e5de58ae19daca94a17fbb24a8db3a9|2020-10-05|Alexander Condello|Update version 0.9.8 -> 0.9.9
+606a90fa38e2dbe442baece9f40dd07554d9f30c|2020-10-05|Alexander Condello|Pre-allocate quadratic vectors
+3c6cdfe1e2d07d318095bb9312384372906b256f|2020-10-05|Alexander Condello|Merge pull request #727 from JoelPasvolsky/compress
+f2acb533eef9f9b7b88654da934ea957cd625dcb|2020-10-05|Joel Pasvolsky|Deprecate ``compressed``
+d7c5c5afa7f5f41f7dcd33ca86696697b939b428|2020-10-01|Alexander Condello|Add test for DQM.to_file.readinto
+5ee4ea655753151c97aa713b141f49a36e39a986|2020-10-01|Alexander Condello|Fix DQM.from_file in python 3.5 and 3.6
+8b6a2258eba5ff638667308d37bdfde0a4c848cc|2020-10-01|Alexander Condello|Return a seekable file-like from DQM.to_file
+ea574507e71b5fded558d997da467efbfd22ef64|2020-10-01|Alexander Condello|Fix passing a buffer into DQM.from_file
+0bbd8efe79f78135f1946070cc4f82d46942b679|2020-09-28|Alexander Condello|Merge pull request #718 from amahmudwave/master
+b69b634c2e3c24486f0448218e05e40a7a576a04|2020-09-25|Alexander Condello|Update version 0.9.7 -> 0.9.8
+33d4b7fc74842c9680e6ec252d587df4bbbf7ed8|2020-09-25|Alexander Condello|Support printing DISCRETE sample sets
+808c18502d4b883acae647bc1de7938d2855fa92|2020-09-23|Anil Mahmud|Parallelized AdjMapBQM constructor from dense array
+ded845811196bfb16068b0bee2dca6a4a7efa094|2020-09-23|Alexander Condello|Update 0.9.7.dev1 -> 0.9.7
+9fc45f11259bf3e5eeaf46472f6b080be4038732|2020-09-23|Alexander Condello|Add missing methods to DQM docs
+11a414141d19c3c507797122ccd0b2ac0bbea41c|2020-09-23|Alexander Condello|Fix DQM.energies to handle differently-ordered samples-like
+e13f0955eef1f8aad16bd0cda7662cb24bb2084e|2020-09-23|Alexander Condello|Fix adding unlabeled variables after labeled in DQM
+e840514a67e965c6d7977945268ec1d5bfde8cf4|2020-09-23|Alexander Condello|Support DQM bias setting with multiple dtypes
+1a6f4d9feb8e72063050f961759a7579a5e28120|2020-09-23|Alexander Condello|Add DQM.relabel_variables, .relabel_variables_as_integers and .copy
+76566681022434deea97913ca3b3d35f5d9641ea|2020-09-23|Alexander Condello|Update version 0.9.7.dev0 -> 0.9.7.dev1
+ba15b681aa47cda7ecd707b4e4cb335899fbd430|2020-09-23|Alexander Condello|Change as_vartype kwarg argument for future proofing
+e6be9c9c6f3f7148c3049a2f2dad136598c23be5|2020-09-22|Alexander Condello|Support DISCRETE vartype in SampleSet
+7e71be616662ecad51a5fd967c333886df677b27|2020-09-22|Alexander Condello|Add DISCRETE Vartype
+f7a9957175f8c1843ebc29861eff2ba5a4e3548c|2020-09-22|Alexander Condello|Use as_vartype rather than vartype_argument in sampleset
+65ef9289a2087cfb362676f6f24a513bbea7773b|2020-09-22|Alexander Condello|Change as_samples to handle larger dtypes than int8
+81baf09009961428035ccb897c62954770a36bc2|2020-09-22|Alexander Condello|Update version 0.9.6 -> 0.9.7.dev0
+e01ad4766e69baddbe181eaabc2aea8272f1e07e|2020-09-21|Alexander Condello|Return namedtuple from DQM.to_numpy_vectors
+bad76ad9696bf006c4fb2810d51f58a7b3ec22b4|2020-09-21|Alexander Condello|Use np.random.default_rng in def gnp_random_dqm
+4da82b80e11a45528dae32e40b3f8782f4725005|2020-09-21|Alexander Condello|Rename confusing kwarg
+065fe097b1c76effdadcddddac61cd28a0f7cb8c|2020-09-19|Alexander Condello|Add DiscreteQuadraticModel.to_file and .from_file
+314a0bc44d78ec94b744ddab750de4adc3e61c95|2020-09-19|Alexander Condello|Add DQM.to_numpy_vectors and DQM.from_numpy_vectors
+c1c5fe844440df460eae110b28e07dbb2cdcb76f|2020-09-18|Anil Mahmud|Parallelized AdjVectorBQM constructor from dense matrix
+471154623e6c8b9753be72415f4b7ca048d4a2c2|2020-09-17|Alexander Condello|Add .neighborhood(v, start) to c++ BQM
+91c4d213b5dea26ff4aab4cd450d9d0784dc71f7|2020-09-16|Alexander Condello|Update DQM docstrings
+039f2cf340a9eee3b9b626332b8c4e6525aad5db|2020-09-16|Alexander Condello|Fix DiscreteQuadraticModel.energy
+08c7057fd154d68817e1ed805447cebece369416|2020-09-15|Alexander Condello|Add DiscreteQuadraticModel.energies and .energy
+97bb5d9446bff4e80889acc9a0d6af8ad3df5f36|2020-09-15|Alexander Condello|Add missing cython directives
+9f05b009dd2482e07254ce8d698577ced14b5b69|2020-09-15|Alexander Condello|Add missing __init__.pxd error
+3040c6217cbac99e6b217aa62275e021feb42966|2020-09-15|Alexander Condello|Add DiscreteQuadraticModel class
+12ba0c93a48c39029d8dd7ada9600d30051d73ba|2020-09-21|Alexander Condello|Update version 0.9.5 -> 0.9.6
+b96c66fd5405f8b43c40465ec15b85512ce3d372|2020-09-21|Alexander Condello|Add BQM.to_file and BQM.from_file for supported BQM types
+2b5a6eafda89571f376227e759348f7e2733cd9a|2020-09-16|Alexander Condello|Move tests/cpp to testscpp/
+7fe9fb3b7e4a38b9bcf1421a5012cce5695e5d0f|2020-09-11|Alexander Condello|Merge pull request #692 from hhtong/catch2
+f230d9e9e135ad470ce5e240ce45e84fa171cb4b|2020-09-11|Heidi Tong|Remove cpp test run from python job
+373db05b60d607a1fdd59097d16b2d9aefc5361c|2020-09-11|Heidi Tong|Follow cpp style guide
+760e4a531a238ea3929bb1d86e511af0ebfd7b08|2020-09-10|Heidi Tong|Run cpp tests as separate jobs
+1898d52e922d7009db49a60e52847425490f3328|2020-09-01|Heidi Tong|Add cpp tests to circleci
+8a090de31c8e45f1138ea24e8d7af8f9a754a5f8|2020-09-01|Heidi Tong|Add Catch2 as submodule
+ebc858dfc5146f59c27c3705e68b5b7f07b86620|2020-08-31|Heidi Tong|Wrote some catch2 tests
+b0247041c86e4a01090283a853b11dd21b68ab26|2020-09-11|Alexander Condello|Merge pull request #693 from hhtong/problem_generators
+74677f42978ed5be58b7d7d9f6be8f461b68ac05|2020-08-07|Alexander Condello|Use nonblocking_sample_method in ScaleComposite
+ba7e38c109491f65c2f67a167a0650f6a0dc92bf|2020-08-07|Alexander Condello|Add nonblocking_sample_method decorator
+bacc958b9952e37396e67f5681b005d9b96a63c6|2020-09-10|Alexander Condello|Merge pull request #698 from alexzucca90/fix_relabel_variables_as_integers
+f82a62fe9ebedaf443dac1436eb9b4cb7fc7d65d|2020-09-04|Alexander Condello|Add Adj*BQM::linear
+09db0b75b99414c969720377817b1c22ae758b4b|2020-09-10|Alex Zucca|added test of two cases, inplace True and False
+62e6cdee885c875ebe73b3330b78b2e2b54404cc|2020-09-09|Alex Zucca|fixed the test for relabel as integers
+30b6f96e51baffdc8dfe9fa186bd68b2b383f7e0|2020-09-09|Alex Zucca|fixed relabel variables as integers with no inplace
+a0b1f150eee276958cdc01520a9cb5a902c77611|2020-09-02|Alexander Condello|Merge pull request #695 from randomir/fix-relabel_variables-on-vartypeview
+fc0a5accef67f85092133855e1b6528729160466|2020-09-02|Radomir Stevanovic|Fix VartypeView.relabel_variable to mind the base/target vartype
+d0aeedae1de9368ba04c01ea696dd96aa1d2dc97|2020-09-02|Radomir Stevanovic|Add tests for `VartypeView.relabel_variable` (verify #694)
+ee8ae3f4b6c99d48ebece56865ac6dc7c1a09d52|2020-08-28|Heidi Tong|Make changes to BQM generation and add more explanation
+a71944a9c5cb6b25e284d296223b82c8381a4798|2020-08-28|Heidi Tong|Merge branch 'master' of https://github.com/dwavesystems/dimod into problem_generators
+2ec694489199a5f5aa38ef3b6f593616c4e506da|2020-08-21|Alexander Condello|Merge pull request #689 from hhtong/requirements
+b362847072e3af4ee6affd7ca8d81b7ab4e96489|2020-08-21|Alexander Condello|Fix spelling error
+233144791f49a802cacaec6e599a6f85ce565101|2020-08-21|Alexander Condello|Rename min/max/sum utilities for clarity
+300cddce98ce1784104a4779487a743105d5e300|2020-08-21|Alexander Condello|Add Neighborhood.max, .min and .sum
+20b38a50e457b3d936a83b3665e5dd046d4f2096|2020-08-21|Heidi Tong|Updated config file
+495d5ec56402aad1240ebedaebd91522c353d18e|2020-08-21|Alexander Condello|Support python 3.5-3.7 in Linear.sum and Quadratic.sum
+3bd9b382528db587a90bd7b21f7aed47ef07a41e|2020-08-21|Alexander Condello|Add cython implementation of Linear.sum and Quadratic.sum
+be7614445f5ea1948d16b4767f07a8b0fa8e8f80|2020-08-21|Alexander Condello|Reduce number of attribute lookups in .min and .max
+0f62107c61a44b3aebef06361066ed7716a729e2|2020-08-21|Alexander Condello|Add Linear.sum and Quadratic.sum methods
+152f686734909ce6b6db6f94c0f35a6338970ae0|2020-08-21|Alexander Condello|Speed up BQM tests
+3f8fab5b85dab960d9f5aec750cc86099b285a48|2020-08-21|Heidi Tong|Removed recursion in requirements files
+e6b0ea7e8bf614bc532bb85337aeb0060215fc78|2020-08-13|Alexander Condello|Merge pull request #683 from hhtong/minmax
+ee9cc4df1b61c62a9f97e7a0e59a28be4a696791|2020-08-10|Heidi Tong|Made default arg explicit, fixed empty test case, and added docstrings
+6435954f221f9ec99b68f98a6338b3fd66b4db1d|2020-08-06|Alexander Condello|Merge pull request #682 from hhtong/networkx
+ae9f0b52191c54d215da1af1e28ffd605a8c2b29|2020-07-24|Heidi Tong|Fixed min/max in utils
+d5edef52ca89294112ecadfc534bf8c49e82ed02|2020-07-24|Heidi Tong|Fixed loop in cyqmin
+3a8121e1895742f655e762cbe4c05df94559b09b|2020-07-24|Heidi Tong|Handled empty arg cases and moved tests to test_bqm.py
+ae53e899e6a8f9bac6aefb8f5a04481ab33942a4|2020-07-23|Heidi Tong|Made test a soft test and added documentation
+40441324ecbe912f613e97d177595590ac2c78c4|2020-07-23|Heidi Tong|Removed unneeded imports
+5402447f8f5030c0abbdb70ae21f10ca72dfb4fc|2020-07-23|Heidi Tong|Cleaned up code and test cases
+3172f2f43390196972f1f53171bb5b1619ba135f|2020-07-23|Heidi Tong|Added to_networkx_graph() to the Structured class
+ab4f85da612848903f818960d6ffffffa1ddeaae|2020-07-23|Heidi Tong|Tried different implementations of min/max methods for biases
+d697266e41f2e073c801221b7da46455a0ef1116|2020-07-16|Alexander Condello|Update version 0.9.4 -> 0.9.5
+34597d9c6a3f7144f35a697a4c9317f4a32c5250|2020-07-16|Alexander Condello|Make SampleSet.relabel_variables non-blocking
+4acf47c245f243a102e05ec46824a730bbc3cf0b|2020-07-16|Alexander Condello|Add ignore_labels parameter to FileView
+43b3c02deb38b7b77c7744e749cd3e95d3898b28|2020-07-16|Alexander Condello|Fix FileView.seek to correctly seek the end for labelled BQMs
+b0f1033e8ea9fadfd312f27dac0a6fe24dff2ecb|2020-07-16|Alexander Condello|Improve FileView/load exception messages
+66a0e37f7b8630e9ce5c12cb4377f187bfa5f804|2020-07-10|Alexander Condello|Refactor ScaleComposite and tests
+de9e62ca97f4031491cff09e58f5d7fa8bfd0dcf|2020-07-10|Alexander Condello|Return scale value from BQM.normalize
+296e1fae9b5242a8c8ac68f85bd18c0e2a7492c4|2020-07-10|Alexander Condello|Deprecate ScaleComposite support for Hising/HUBO
+54dbc7ff2f4fb02bca0b3ad348d664754d8ce754|2020-07-09|Alexander Condello|Split up requirements files
+c24f9a57b758265fd2568430e9b68525e9c79f98|2020-07-09|Alexander Condello|Don't deploy for python 3.9 (yet)
+d37dc7b4e3f1e37bc06f9ab4c8a153908337e37d|2020-07-09|Alexander Condello|Update version 0.9.3 -> 0.9.4
+94076f389271b01d26c6c613a017f112009ccb93|2020-07-03|Alexander Condello|Decode bytes before loading with JSON
+fa9fb1d4577ec14671ad30c43dd672ea66149dae|2020-07-02|Alexander Condello|Refactor FileView 2.0 variables section
+354de5aab7d5a02f265d12b8c3a147bd350606fe|2020-07-02|Alexander Condello|Fix doc typo
+8f234f75d7c58ef5983a35bfe96f54e3921acdb2|2020-06-22|Alexander Condello|Skip test with saved bqm fileview in 32bit python
+76d6ef89b4157f95b91b84eb63414123230c3af9|2020-06-19|Alexander Condello|Move variable label data to the end of the FileView
+69d9ac1712bf6901bf5e32e4c5662ea353f4538c|2020-06-19|Alexander Condello|Refactor FileView tests
+69ea6323446829f6d080cba17dce6d1f3551f0df|2020-06-19|Alexander Condello|Handle multiple FileView versions
+95f28d87ed4f1bf4e412caea6f2a6b9cdccaea8c|2020-06-19|Alexander Condello|Improve FileView documentation
+d857d408b1cdc7f273fdbaeb05736526bbdfdbe7|2020-06-19|Alexander Condello|Use paramaterized package for testing BQMs
+a5cf6d40596134bbc2f1ff5013ca062182984558|2020-06-19|Alexander Condello|Add assert_consistent_bqm to dimod.testing
+b87d811f3e48928b5a41e5b2e0e52fceee2c75b4|2020-06-09|Alexander Condello|Update version 0.9.2 -> 0.9.3
+8c7a903a7a43f7b6c1642bdaee54bdf543db63f9|2020-06-09|Alexander Condello|Add pack_samples=True kwarg to SampleSet.to_serializable
+092a5b1dbcb65bdcf3e225f9c3b7b7707c34faf8|2020-06-08|Alexander Condello|Alphabetize the utilities docs
+7bec06d6c868efef012b817ffafb5043440ffd8d|2020-05-19|Alexander Condello|Propagate info through ClipComposite
+5a3e70b4f41c1e3a4df6c8ab794feae0bb61d37e|2020-05-15|Alexander Condello|Fix manifest to include all .pyx and .pxd
+2df06ae717f425a673463e7da31c96809258793d|2020-05-14|Alexander Condello|Update version 0.9.1 -> 0.9.2
+0badaf43bf720f2a11e6207af5baf100b22e4e03|2020-04-30|Alexander Condello|Fix accidentally introduced typo
+7a4428cd5348b49167ba3663424dbbe482c09ac9|2020-04-23|Alexander Condello|Remove misleading comment
+d1458380ccc3af136ce603a5813df1d4d9a4e087|2020-04-22|Alexander Condello|Add Initialized and IdentitySampler to the docs
+bb387f59bac0836795b421a47e68b2c5fe9187fb|2020-04-22|Alexander Condello|Refactor RandomSampler to use IdentitySampler
+3ea6c31028cc02964d766349a23f3f9e2b9e6819|2020-04-22|Alexander Condello|Add IdentitySampler as a reference implementation of Initialized
+bc035888ec15134201bea589c571349def3f8d32|2020-04-22|Alexander Condello|Use set operations for variable overlaps
+d73197feab9b2136ba324908210598fc1ac46bba|2020-04-22|Alexander Condello|Add test of tile + partial truncation
+8d136bdf6040a4c710c712f7e59c6f602821f2c7|2020-04-22|Alexander Condello|Test that given initial states are preserved
+f135eab84a04dd5971c9ac0521aef7816b304be1|2020-04-22|Alexander Condello|Fix docstring and name the returned namedtuple better
+74137afee3884028ae4c2a2218da666fdd9b4e4b|2020-04-21|Alexander Condello|Fix random generation to use the correct vartype
+e99957e82856415e122db39406255c54234c8d58|2020-04-21|Alexander Condello|Add documentation to infer_vartype
+7bc037fd73994e609beb8ae2af1f27f83dd3ec7e|2020-04-21|Alexander Condello|Implemented Initialized ABC for samplers that need an initial state
+9b44a8dbd29672ff7f45cd460fad52c3ea3138b4|2020-04-21|Alexander Condello|Add infer_vartype function for samples-like
+3c138fadace7915d6283e810547bcfddb3473ca3|2020-04-21|Alexander Condello|Import test_sampler.py from dwave-tabu
+2afe44b804fcb81e5cb4b7cce867ef90448dc51a|2020-04-21|Alexander Condello|Use Radomir's more recent initial states code
+f83d155c88297c77770c7bf1689307b4be95d7af|2020-04-21|Alexander Condello|Import sampler.py from dwave-tabu
+485b45cf4e8be32f1dea3841ca8929720f654dba|2020-05-06|Alexander Condello|Allow ising_to_qubo to be provided with an underspecified linear
+f813ecd834cc8ed96bc4b1d3eb3b630940e039d4|2020-05-01|Alexander Condello|Make cybqms pickleable and deepcopyable
+20dd496660bacf5223d5d823a204723d13aeda92|2020-04-29|Alexander Condello|Merge pull request #642 from joseppinilla/planted
+5fb8f317b1862f2afe7af16351eade8f83576887|2020-04-24|Alexander Condello|Add examples for COO serialization and expand accepted numeric format
+1155bd09f8d5d03871440c991b64050cedbdb64c|2020-04-08|Jose Pinilla|Merge branch 'master' into planted
+dd13374aeea5c15b8aee53a255aaa70269c194b9|2020-04-07|Jose Pinilla|Update test_generators.py
+f3488ea4ccddce4bb514f72763686aab72c882d8|2020-04-07|Jose Pinilla|Added option for planted solutions to frustrated loops
+1fe97d2a1dd5801bae676a06d147ad33342d58a3|2020-04-06|Alexander Condello|Remove six dependency
+c1d8670591e1b5a0297110ed41eaf187e94b7146|2020-04-06|Alexander Condello|Merge pull request #640 from JoelPasvolsky/doctest2
+3c5521d83bb6c33138f334a8fb474378d7f79a9d|2020-04-06|Alexander Condello|Merge pull request #639 from arcondello/feature/natural-relabel
+20dc8e9fb99d36f12de90b2ad795878a67bdfd25|2020-03-31|Joel Pasvolsky|Doctest fails over strange Pandas output
+a38cbb6f1ffff8a289abe2278338950acab5404f|2020-03-30|Joel Pasvolsky|Fix doctest fail on frozenset
+54776fd1f63fe56388c18b463f172335ff15f871|2020-03-30|Joel Pasvolsky|Expand doctest coverage on intro
+fc34c962149ed9f06bdc6b22ebc451f038e0b80c|2020-03-30|Joel Pasvolsky|Expand doctests on utilities.py
+c003c2e3c1d524a71fd1f7bb69e2a666f15db75c|2020-03-30|Alexander Condello|Add BQM.relabel_variables_as_integers
+4b6a85731efce88a8f9792dc1746c4e86ec4cf4b|2020-03-30|Joel Pasvolsky|Expand doctest on sampleset
+9ea82e06311e83f857f03e64a165fd8da195f86a|2020-03-30|Joel Pasvolsky|Expand doctest on bqm.py
+0223f0f090be3c7baba08471ff592bcb08a1312e|2020-03-27|Joel Pasvolsky|Expand doctest coverage on samplers
+d073525f1e66bc671d5455f47bcca7018f2e938e|2020-03-27|Joel Pasvolsky|Add ExactPolySampler docs
+1502dbaf6630c78659cea4b3c7f0219bb90ba7c0|2020-03-27|Joel Pasvolsky|Expand and fix doctest on exact_solver.py
+d28565346867233d57bef368d668d93af39da3d9|2020-03-27|Alexander Condello|Merge pull request #630 from arcondello/header-only-bqm
+4965cf400bd66295618da02fbdcfe26e2f8a3b31|2020-03-27|Alexander Condello|Merge pull request #638 from JoelPasvolsky/doctest
+02176b314f0cfc1e98b1e1f7dbc83e24c8b9c3f1|2020-03-27|Joel Pasvolsky|Update for review comments from @arcondello
+b5a4df3b672ec2f2836406ddb8e32114e86ad07a|2020-03-27|Alexander Condello|Restore fast energies function for AdjArrayBQM
+fdab0a3b54acffeb7c8a8e0c5d912ae0719698ac|2020-03-27|Joel Pasvolsky|Fix a couple of doctest potential failures
+b87ddedc612a9097db008dcd556f6ebf9a4881fa|2020-03-27|Joel Pasvolsky|Expand doctest coverage & update composite examples
+8fbfaa25eeb6edb686d35159a780242d570e809e|2020-03-27|Joel Pasvolsky|bqm --> BQM in docstrings
+6658ea61c3504cf88711e955bf355a92393e202c|2020-03-26|Joel Pasvolsky|Fix some currently broken doctests for tomorrow's release
+d8b27b6bd1372b3f85643a39a03c13e89061d5cd|2020-03-26|Alexander Condello|Turn off annotations by default
+9ae59c78d07a59941c6b8be1b61e07fd832e7be2|2020-03-26|Alexander Condello|Restore functionality to the cython BQM code using the new c++ bqms
+9020fbbd9ac0e5d8efce34910c5774541b07e369|2020-03-26|Joel Pasvolsky|Expand doctest on clip and connected composites
+45cff67721be975b81fd15479ade2513c11d6bd4|2020-03-26|Alexander Condello|Merge pull request #637 from conta877/scalecomposite
+a0474f323b1e03d04ff2775987a0065d978dfc8d|2020-03-26|unknown|fix tests to reflect return of scalar info
+ed7d7e4e3389418eccb35bf84e66adc91d52bcf9|2020-03-26|unknown|remove scaling information from the bqm object
+f0611431290128d97e7394ebc4e94a9aafb4f541|2020-03-26|Joel Pasvolsky|expand doctest on random.py
+a032873c601bb895c319c763a778fb384140e891|2020-03-26|Joel Pasvolsky|Expand doctest for structured.py
+02377f2283efd2c4accee8f401b556ac80f110ab|2020-03-26|Joel Pasvolsky|Expand doctest coverage of sampler.py
+658b1f72cc7c6ea1eca946af86d68baeab789094|2020-03-26|Alexander Condello|Act on adj directly when building from dense in AdjVector and AdjMap
+e1ea696e42fb7edcf4ad77a720a666b9e51af3f3|2020-03-26|Joel Pasvolsky|Expand doctest coverage on composite.py
+8eedb04c640ddf123cfe5803fa923d1e3d261cbf|2020-03-26|Joel Pasvolsky|Update adjdictbqm.py examples
+594e3ec5afff7273b8a2b90bc1b96b51692a89a4|2020-03-25|Alexander Condello|Declare some cppbqm methods const
+54f4ae418ca0d28d9917cb215ede91c9e07d8c07|2020-03-25|Alexander Condello|Add construction from dense arrays to cppbqms
+0b1e67061d093b398348a3430b485261ec281290|2020-03-24|Alexander Condello|Refactor c++ BQM code
+aaf9bc161695fc605a6c0d7730e56f4b629c1bdd|2020-03-06|arcondello|Incorporate review suggestions from @shpface
+16cd1cae96af73e3d68de166126a706e3052c1cc|2020-03-05|arcondello|Fix bug in c++ AdjArrayBQM.get_quadratic
+bd18f063c1c2d996b64237aac98953cf38cd0f69|2020-03-05|arcondello|Rename Neighbour to Neighborhood
+9a972c02b0d8382eb661b1866532fc3689dd2c66|2020-03-05|arcondello|Fix neighborhood range check
+dc54e8034ab2d834407aa192437bdc37e38ce300|2020-03-04|arcondello|Move adjarraybqm.h to dimod/include
+3b18a8bfddfd1678d28a2677fed0f451ff4a94c1|2020-03-04|arcondello|Respect google style in adjarraybqm.h
+dc4ba3c75f9211ad77eb534365e2cc6d1889e9c4|2020-03-04|arcondello|Make minor fix/refactors for AdjArrayBQM c++ class
+8675a5132ce7799cfd81cb212a86eae8750c5628|2020-03-03|arcondello|Containerize c++ implementation of AdjArrayBQM
+fa7ee3d6ab63e0fbe799090d86952ef1255944d5|2020-03-24|Alexander Condello|Add one cythonized test
+3e6317ce9512de907dc0b000eb177da95e38068c|2020-03-24|Alexander Condello|Add new --build-tests flag to circle-ci tests
+7fc1cc18281b0e61cc3422fc5bbe9b41d6d2fd0e|2020-03-24|Alexander Condello|Support tests written in cython
+8ede1b577dcbd0760006cce4434c9b1ede560d12|2020-03-18|Alexander Condello|Update version 0.9.0 -> 0.9.1
+dffc6acbacd17d569c70bd1ec119a86110c2475f|2020-03-18|Alexander Condello|Merge pull request #633 from JoelPasvolsky/sdk_int
+aaf93555a536630fbfaa531ebceb600c772aa8ab|2020-03-06|Joel Pasvolsky|Update bqm & sampleset
+d265db43eb5f89a411962db0c40e27ec60088e3a|2020-03-05|Joel Pasvolsky|Update intro
+b780a4adb937fb55889baec4611612f93cea1721|2020-03-02|arcondello|Remove deprecated kwarg in SpinReversalTransformComposite
+b9ac773208f8e1ebc81b01ee5d637ed4800a7c68|2020-03-02|arcondello|Fix RoofDualityComposite to work with all BQM types
+a1aa4219a5a8f2fb5103bc6f8ea887459a176c51|2020-03-02|arcondello|Fix FixedVariableComposite to work with all BQM types
+4df0aee6493c3e374381fd13b232c702c3dc11ba|2020-03-02|arcondello|Fix ConnectedComponentsComposite to work with all BQM types
+b388f0afec96d57107b176d43c163f114608b79b|2020-03-02|arcondello|Add sampler bqm tests for CliqueComposite
+1fc3d15a246c6d8586caaac6749e657350a26b63|2020-03-02|arcondello|Add docs and tests
+9b501a90ebf326db084c860f2b28dd912ab1409e|2020-03-02|arcondello|Add sample method testing framework for Samplers
+f983437921a15f53c72f688dc54fdb73b13c072a|2020-03-04|arcondello|Add a unified include path for dimod headers
+dbcce3f92c16a8beca97560220ea6b21b0cf4894|2020-02-28|arcondello|Refresh the README
+517a5a7ba4f3b2abc300f0a1ee8cc5aee0a01673|2020-02-28|arcondello|Remove contributing file with broken link
+cd90bd470629293d8787f3f6e15c4b99b738955e|2020-02-28|arcondello|Fix broken link
+d33a42b17ae7ccdd9427e733695ebff581604b63|2020-02-28|arcondello|Remove erroneous hyphen
+53bb592bc58c615142bcba58366061b2da63f038|2020-02-28|arcondello|Add a bit more comparative documentation for the BQM types
+1135b84d450ecf3561ee1824159e5b77003342ca|2020-02-28|arcondello|Add in-place build instructions to the README
+9b77e72b00d6c5b69b3349cf006bb37fca7cf7b5|2020-02-27|arcondello|Fix minor structure/spelling issues in the bqm docs
+d7e3680ebf82fe60b229be2d6a64d80dfbcd0583|2020-02-26|arcondello|Store documentation in circle-ci
+2b89a5f8ae1fa24fd97b2ce5ee6c1103732ef439|2020-02-25|arcondello|Move AdjArrayBQM's docstring to be consistent with other BQMs
+f44a5c1b4c0091855ff047767a9bbefd88c40939|2020-02-25|arcondello|Add documentation structure for the different BQM types
+14c8dc27f57c99a8fd2820daa14fc1221d270b08|2020-02-24|arcondello|Fix sphinx warnings
+99a2a6a6500ec7dc5876202127472a39ea3e8784|2020-02-24|arcondello|Restructure BQM docs
+2ce54cb559c8028d0e197435ad15ec843b2a2450|2020-02-21|arcondello|Remove docs references to deprecated methods
+8b67e5dc342c0b386bad307bbfde41b0c2648515|2020-02-21|arcondello|Remove (empty) bibliography
+1a3331ca02a9505b234644738c0a6f4e5bb899e5|2020-02-21|arcondello|Update docs clean command
+f4262e492aae2bcf32e25b421fe295c8dfcc9abb|2020-02-21|arcondello|Create docs/requirements.txt
+040cee0592c3eb9a34a3ed175a877d97f9b4c67a|2020-02-26|arcondello|Make SampleSet.change_variable and sample methods non-blocking
+d445ee643a594371bfdffc3dcf1f624287381a31|2020-02-27|iozfidan|bug fix on bqm generation
+b5eb72ba97698ff2c4944cf283ab49a0e8dce41d|2020-02-27|iozfidan|change decimal places for doping tests
+fa598671c28b1467d31d61730ab4e6c28c727b6d|2020-02-27|iozfidan|change anti_crossing bqm comparison in tests
+3cd4e8b6aa968c76c9860de1a4fac4dd9eb63ba2|2020-02-27|iozfidan|bug fix on tests
+e266bf499b5e9f595ce705b612bd0f30ce605798|2020-02-27|iozfidan|add tests
+0613fd1646fbe6d185dd277f23daf0f302fa2e19|2020-02-27|iozfidan|add new antricrossing generator matching dickson instance
+07005901a92a072af5ae7f67d282936d1d97365f|2020-02-27|iozfidan|generalize the doped implementation
+7f3c4ba8d2ec5deb0f1688bfb331d664b6169cf9|2020-02-27|iozfidan|change name of problem generator and add to init
+094da351d3ffe9da68acc7944fa421482aa135f7|2020-02-27|iozfidan|add random doped and anti_crossing problems
+45700268e603a8cae7e848fc015b17e656d78377|2020-02-24|Alexander Condello|Update version 0.9.0.dev6 -> 0.9.0
+3d54125eb45c2a9fed3dcc3372cd64ecfb10431f|2020-02-21|Alexander Condello|Update version 0.9.0.dev5 -> 0.9.0.dev6
+f7fb2bf4ce991be4f47dc5207d9e1033537938e2|2020-02-21|arcondello|Use faster numpy energy calculation by default
+82009052a1fa19a425eeb7c0307c0bf0d8b2f572|2020-02-21|arcondello|Fix AdjArrayBQM type checking
+844135b1c91770994662d37e82464bb8f4c4a051|2020-02-21|arcondello|Fix BinaryQuadraticModel.empty
+7fec77dd21336cdef86b9e85306486ab4bca6df2|2020-02-21|arcondello|Register BinaryQuadraticModel for BQM testing
+18564354222f25d6fc138cbf9cde8784c9d4d9cc|2020-02-21|arcondello|Add linear to be an iterator in bqm construction
+44e7b3ea425449304ab64ab40e3a171887ca9a6c|2020-02-21|arcondello|Temporarily override BinaryQuadraticModel.empty
+1fe6acd338838d0a12d919c0c4a0914735decd8d|2020-02-21|arcondello|Raise correct exception from BQM.energies when given bad samples
+e9b856e7cff89f4f8ea847583413a200710c106b|2020-02-21|arcondello|Fix to_numpy_matrix to use base's dtype
+42f10fd9410057c67a63010c2223753762b43898|2020-02-21|arcondello|Add to_networkx_graph and from_networkx_graph functions
+554c8459bdddb3e9ddf81b9f66d96d68b8fbb24a|2020-02-21|arcondello|Restore BQM.to_numpy_matrix and BQM.from_numpy_matrix
+6e764e89ffceea14a689580824a58c8b276fc756|2020-02-21|arcondello|Restore BQM.to_coo and BQM.from_coo
+2fba655ea029fc953b4ef2900bbb365f8dd9346e|2020-02-20|arcondello|Support default values in VartypeView.get_quadratic
+569225a01e3aa513f23af87d7bb36776b63c1b31|2020-02-20|arcondello|Add base attribute to BQM and VartypeView
+99a0eefe552f88c5c892249f2e9f27f6a72bba94|2020-02-20|arcondello|Allow quadratic to be an iterator in bqm construction
+65afa449a20828230aad4975de288b9c7aebad02|2020-02-20|arcondello|Fix default behaviour of get_quadratic
+6ffaaaf04b8970e2342bd951a81d46d28539afa8|2020-02-20|arcondello|Specify correct numpy version in install_requires
+57613601ad84704a058cadede95ac4da09207b40|2020-02-20|arcondello|Add test for VartypeView offsets
+e86d2338daa67b2d5e84b62d15b44b0a897b9c93|2020-02-20|Alexander Condello|Update version 0.9.0.dev4 -> 0.9.0.dev5
+86579523e432c740aeee01aaa2e7cd15c556394a|2020-02-20|Alexander Condello|Merge pull request #533 from dwavesystems/dev
+83f9e226e0d03113c7fe52b52bd7b83a9bf352a1|2020-02-20|Joel Pasvolsky|Update as_bqm
+cb91acb5b23ad24d4f9d50bde085218af1ffe76c|2020-02-20|arcondello|Fix BQM.to_serializable docs
+e6269d0347e0d9b17f799741f306d71ca74835c2|2020-02-19|arcondello|Fix broken doc example in roof duality
+c07a9b4b39c4d4d8b899c8c16ae7e1a5ff733dbb|2020-02-19|arcondello|Don't use collections.abc.Collection
+19a06b89b7fe6f2e868bfa54b9efd19bca188a11|2020-02-19|arcondello|Make BinaryQuadraticModel a subclass of AdjDictBQM
+f55390c2c4fec473507982712d7b84e71ec8eecd|2020-02-18|arcondello|Add BQM.to_ising and BQM.to_qubo
+c47d3cd995ec6d8f4398b45269a55cefa5821fec|2020-02-18|arcondello|Add dtype kwarg to BQM.energies and add BQM.energy method
+d63de2a352158fb89a711d9a984e7234c7ad0162|2020-02-18|arcondello|Add ShapeableBQM.contract_variables
+3a83f1d5bb9f08f564f5352508e8c999ac4dd8c3|2020-02-18|arcondello|Add ShapeableBQM.update
+ae16ff3c612720138751dd1878e3b517fb9c16ec|2020-02-18|arcondello|Add BQM.flip_variable and fix setting biases in VartypeViews
+4ab38da3c364ebc57f452057d59855b48bac7075|2020-02-13|arcondello|Add ShapeableBQM.fix_variable and .fix_variables
+fb2f2daa2daff03b53cbc62416191d622a877b6c|2020-02-13|arcondello|Add .normalize and .scale methods to cybqm
+11d8f505394d9408b2d3d374532fd3dd2ad1a20b|2020-02-13|arcondello|Add Vartype views
+7fb7e5fd46b14c5f04064816d60c1ceed4b4caf0|2020-02-10|arcondello|Add BQM.add_offset, .remove_offset, .remove_interactions_from and .remove_variables_from
+afcd64911d710e134f1e87143902505e7ebaaa6a|2020-02-10|arcondello|Fix equality testing
+61d94242cd68b601b1bb358ff24c5a03abf8f2bf|2020-02-10|arcondello|Add BQM.empty constuctor
+36eac3740935f0a09934d1214503d3b4266c4b5a|2020-02-10|arcondello|Add ShapeableBQM.add_interacion and ShapeableBQM.add_interactions_from
+41087d8ee4547f9f11959f3fca9431bbe9a354c5|2020-02-10|arcondello|Add ShapeableBQM.add_variables_from mixin
+44550892d85967a2d513965d7c876a4dd2179883|2020-02-05|Alexander Condello|Change cyBQM.add_variable to accept a bias argument
+f6a812e228b5b7c841f5e0ef77b8fa18fe61c820|2020-02-10|arcondello|Add as_bqm function
+cdaf56213ed30728190895a475bcafd635aad1a5|2020-02-14|Alexander Condello|Update version 0.9.0.dev3 -> 0.9.0.dev4
+27fe96e105569f91a73d9be40ae43301138d9b93|2020-02-10|arcondello|Include shapeablebqm.pyx.src in MANIFEST.in
+b8238dfdf152f7310e3d77505e5e403ac4253db4|2020-02-10|arcondello|Don't use collections.abc.Collection for py3.5
+3604d24dc69aa34f33e60e416889994a981ad3df|2020-02-07|arcondello|Fix typo
+bdec486303ce369f2b0487c5bf8decea6d51dad1|2020-02-07|arcondello|Correctly deserialize nested tuple variable labels
+d4f9a883668363452e339fc322eb7b117d74fa54|2020-02-05|Alexander Condello|Remove old appveyor boilerplate
+783ea6d16eafca1742df35c941580df3a4ffc0a0|2020-02-04|Alexander Condello|Apply suggestions from code review
+efb51b23b1dce63e493e47ffebc78dc1181981f2|2020-01-29|Alexander Condello|Update version 0.9.0.dev2 -> 0.9.0.dev3
+06e9d504c7f6ff6aeec544f0ceb431b9f8428a41|2020-01-28|arcondello|Globally configure FH4 in circleci
+51e6ddf610f9cf5006c9f53f1e7d6635da2f5e14|2020-01-28|arcondello|Revert "Turn off FH4 exception handling"
+7a72458b83801023b85cda4c00d8bed93bf70dd0|2020-01-28|arcondello|Append to CL env variable in circleci win builds rather than set
+37b792a7053cd4ae4c1df40d7709aec5da623d83|2020-01-24|Alexander Condello|Turn off FH4 exception handling
+838878ab2894698b40f26b8e74c4d7933191958b|2020-01-24|Alexander Condello|Require numpy>=1.16
+b4999bbe0ee1049d16e24ed425ce571f61614be3|2020-01-22|Alexander Condello|Add FileView loading to shapeable BQMs
+7e005f593a23ec331e63c3d2186c59849c14ce18|2020-01-22|Alexander Condello|Remove old FileView implementation
+72759d4d3aaa2536837e389f82165912ede7b36f|2020-01-22|Alexander Condello|Add additional SEEK values for convenience
+f0265dde5d96554674e3990c45028defb938da41|2020-01-22|Alexander Condello|Document the refactored FileView
+92f4765d3be04562027f152fd0020245e44e6094|2020-01-22|Alexander Condello|Add a new clearer implementation of FileView
+4e88785361a542099b783063b1c5c5c569c0048e|2020-01-23|Alexander Condello|Fix cybqm construction bugs
+146e65df112e557d147ba74eb9ac8d902e6ae23c|2020-01-23|Alexander Condello|Remove old commented-out code
+7e5e29e54419c09bdf38f586df923a0f5e5334c0|2020-01-17|Alexander Condello|Update version 0.9.0.dev1 -> 0.9.0.dev2
+37a8d7c5621f3e37e1bd0fb58e4b89985a1576f6|2020-01-16|Alexander Condello|Add relabel_variables method to cybqms
+46d3ebaeb99d191f53294998f5bb5174d34af04e|2020-01-16|Alexander Condello|Raise correct exception from cyBQM views
+21711dbc0aef5af3c0cb81c8a0a8163fcdf0bbba|2020-01-16|Alexander Condello|Move safe relabelling logic into a function
+9d47ccb6160b162c53e579caea429728215f140c|2020-01-17|Alexander Condello|Register the legacy BQM as a subclass of the BQM ABC
+9eba126724c6ddebede36f59504988bba38ccca8|2020-01-15|Alexander Condello|Add 1-variable tests for cyBQM construction
+b879f8149cc16cf7a0490644212b2f5fcd5fa399|2020-01-16|Alexander Condello|Make as_samples respect dtype input for SampleSet inputs
+be40ec0be557fae03a58d27c50e04632fceac7e7|2020-01-13|Alexander Condello|Update version 0.9.0.dev -> 0.9.0.dev1
+1f2be167039d309d3060e647e8f4b866ca3d8f9a|2020-01-13|Alexander Condello|Update version to 0.9.0.dev
+b584529b3d4ce3622f4773f8cc1ed93adfa0649b|2020-01-13|Alexander Condello|Fix .from_qubo method for cybqms
+31d1c2c811f511e7158f75450725dd523c17c36f|2020-01-10|Alexander Condello|Add energies method to cybqms
+d9760c70805e2cf709d63c5be44df9fa4a34f4ef|2019-12-31|Alexander Condello|Refactor adjvector and adjmap c++ code
+4abd9c51ae1cf63e4372f66bec9693cacdc819a1|2019-12-30|Alexander Condello|Add numpy to setup's setup_requires
+c30d118b0e0fa61aff3546ad10574fe5ed1422bd|2019-12-30|Alexander Condello|Add dimod/bqm subpackage to setup.py
+6784a5a888754f8b8af46ea326d970bc9559ae1f|2019-12-30|Alexander Condello|Move bqm copying into c++
+3e68944c3f9d5a81025dbfc96b42ca4c65722a2f|2019-12-27|Alexander Condello|Clean up imports and legacy code in AdjArrayBQM
+349afce274bd92cec21be370babc68dd0a98d87a|2019-12-27|Alexander Condello|Change .to_coo to .to_numpy_vectors to match the legacy BQM
+e318e52f7ae184c58c5bf7e267db776b5c5b21ff|2019-12-27|Alexander Condello|Drop 2.7 support in dimod.core.bqm
+c8086c0bc8f287409db33f4b1c45b93e2d8c1f17|2019-12-27|Alexander Condello|Add printing of BQM view objects
+dd042acd123f43a6717cd49945cd670cc0c5687a|2019-12-27|Alexander Condello|Refactor cyBQM construction
+a5b56eee24e951e37736fe81eabd52df7ba4780c|2019-12-18|Alexander Condello|Allow the registration of BQM subclasses to many TestCases
+665f6132806ac24ea291c3a3852117ce06c07589|2019-12-17|Alexander Condello|Restore some of the cyBQM test structure
+18b1826ebacb5261f313652625900a9a9dd419b1|2019-12-16|Alexander Condello|Make test decorator more generic
+5b66798c961e883f47623c2773d888b5760addf8|2019-12-16|Alexander Condello|Restructure tests to use decorators rather than different files
+3997e92c899ea9d94f4ddb3f9f2b810bf16bc8d2|2019-12-23|Alexander Condello|Drop 2.7 and 3.4 support in builds and CI
+390f4ce40e21ce6de967a53312447d95d18c1718|2019-12-13|Alexander Condello|Fix order of circle-ci tasks for windows
+93da180e122b1ce89a2cf48a9af7c3b10ad77718|2019-12-13|Alexander Condello|Avoid making a copy in the case of memoryviews and bytearrays
+67770cef9ab288af48b9f6e6e82edc847e14bd44|2019-12-11|Alexander Condello|Add .change_vartype method to cybqms
+e4fa7b455821cfa836e72db3ecd028b9c33d726f|2019-12-11|Alexander Condello|Return iterator from neighborhood functions
+119cb2fd1de59ffe4889dae541a5384f4c938942|2019-12-09|Alexander Condello|Add BQM.copy() method
+f5b8edb618639aabe37f02c4e5162331ffbe774b|2019-11-26|Alexander Condello|Add seekable, readable methods to FileView and improve docs
+aba07fdf1fb5913a9b8d7a534d53f5700049e240|2019-11-26|Alexander Condello|Serialization (and tests) works in python<=3.4
+66333d99ed90f8a10cf38f7d7417f7db259e8251|2019-11-26|Alexander Condello|Support labels in serialization format
+023c0973973015f7046ad9cf7fd3fe1aa7057bec|2019-11-26|Alexander Condello|Add shapeable method to BQM
+48d076dd831bdb3f9a32e8325e7b9e7d28b6f755|2019-11-26|Alexander Condello|Refactor AdjArrayBQM fileview
+678bada56fa477c8bac0381fdce2528185365b3f|2019-11-19|Alexander Condello|Add utility methods for degrees to cybqms
+cd61a0502918026adee7c554d5b47d9357ca909b|2019-11-19|Alexander Condello|Add degree function for AdjArrayBQM
+14992f8758240ff24f80d42d23a58b5f63f7ab69|2019-11-13|Alexander Condello|Add prototype fileview for AdjArrayBQM
+037b7b4975444cd0e209d54c11353c75beddb5fb|2019-11-12|Alexander Condello|Add BQM.to_coo to cybqms
+82539f6877284f8cfa06412e3af41f37214e6b8f|2019-11-12|Alexander Condello|Store an adjarray bqm in c++ as a pair (invars, outvars)
+b167a9b9d234f33a78499d140020048c88fa6ee2|2019-11-06|Alexander Condello|Don't indent in namespace in bqm src c++
+42f4e1e957ab912a1fc08294913a97c92f799772|2019-10-23|Alexander Condello|Remove import from bqm subpackage in setup.py
+3fc0ba12b9b4fc65110116199d545ea35625f134|2019-10-23|Alexander Condello|Add .to_adjdarray method to AdjVectorBQM
+77e972fff631703145f1516b55d1bb4d8c92faa4|2019-10-23|Alexander Condello|Generate adjvectorbqm.pyx and adjmapbqm.pyx as part of setup script
+2fb262d5486c26d1e700cdd4c515108103fd2d5e|2019-10-23|Alexander Condello|Generate adjvectorbqm.pyx and adjmapbqm.pyx from template
+f254fd3350230ac12e51ae887ca8467ff65f400d|2019-10-22|Alexander Condello|Fix some comment typos
+ade3773f40e7d1547624b5fedc8279d294770f62|2019-10-22|Alexander Condello|Fix BQMView class for python 2.7
+5c5e8b2353d97e5e118c85ce71a295312a8eb1b9|2019-10-22|Alexander Condello|Finish cybqm .adj, .linear, .quadratic implementation
+9034fabb48d9142ae331458db735ec79a9b74fde|2019-10-22|Alexander Condello|Implement AdjBQM.remove_variable
+4079035485ed44d4184f77713f05720a29ec0ae8|2019-10-16|Alexander Condello|Add cyBQM .adj, .linear and .quadratic
+8c9c5d5eca8c1fb9e8f12b488cd8b5527b201fb1|2019-10-15|Alexander Condello|Add iteration methods to cybqm
+af5022acd3eb95985e357633605be176812b0941|2019-10-15|Alexander Condello|Ignore html generated by cython in roof_duality
+6066cb6ecba0e239a4b1b3100ce8c3f9f8e4209d|2019-10-10|Alexander Condello|Restore type alias
+b24cb457196bc6870ddd88f9b745c951d23c9338|2019-10-10|Alexander Condello|Only import cybqms in python 3.5+
+9659f7733518d290d432de330dfc9c8417da1a80|2019-10-10|Alexander Condello|Only build and test cybqm extensions in python 3.5+
+cd09f1178f058826a3b7a91a6f8a4dd3784e3eab|2019-10-10|Alexander Condello|Revert "Don't use std::tie in adjvectorbqm.cc"
+ddfcd243de419541ecba14575e02b6777ccf156f|2019-10-07|Alexander Condello|Change input names in utils.pyx to reflect numpy source rather than docs
+6d40aff0da55f7888860468cb732d63ca1462b91|2019-10-07|Alexander Condello|Include numpy headers when building extensions
+11adbdeb9d2f893edd51775c498bc7cccf3924c2|2019-10-07|Alexander Condello|Return numpy scalars from cybqm objects
+94b69000d30b02bd5c651363a1b57da0d3cbb05b|2019-09-30|Alexander Condello|Fix AdjDictBQM.add_variable doc example
+83d7786e0a166aa9dcc6ccf5e3bf70809a4a4b86|2019-09-30|Alexander Condello|Handle case where vartype is determined by given bqm
+7d7638e9cf8e51c83d90bf6b94e28bd7e52487de|2019-09-30|Alexander Condello|Fix existing docstings for BQM.vartype
+3b1ff154b3a106492e2ab2c66d322dace51e2999|2019-09-30|Alexander Condello|Add offset property to cython BQMs
+607a1ce77923916ac7e38cd95da49387b471514c|2019-09-30|Alexander Condello|Add vartype property to cython BQMs
+22a459abdd947ff67bfed7617d7fb0daaf60d02b|2019-09-30|Alexander Condello|Raise correct error for non-iterable in as_vartype
+a40f05c37d4e47209c09bf6637a677902dc754b3|2019-09-23|arcondello|Add cython objects to dimod namespace
+2f3e6b8bd20f30d0791926caa574160e3f4260ce|2019-09-18|Alexander Condello|Import AdjBQMs into top namespace
+2ff644418edaee93903db51607fc52a0f29bf636|2019-09-18|Alexander Condello|Add very incomplete documentation
+134cd8f3996d257459815381582bab9e99ed2f2d|2019-09-16|arcondello|Remove old code from adjmapbqm.pyx
+5cf4376822b75497adbce38a193fde805d33b064|2019-09-16|arcondello|Move python class construction to submodules
+544ebfc93d26720bdf322058416ec08c36db9d3d|2019-09-16|arcondello|AdjMapBQM and AdjVectorBQM inherit from SheapableBQM ABC
+867166a189bd83ff6d5e82b86319b1670345dc04|2019-09-16|arcondello|Use BQM ABC in AdjArrayBQM and speed up labels
+9d399a76916309bc1242d67d9c6a28dc3db1defa|2019-09-12|Alexander Condello|Add ABC for BQMs and reference AdjDictBQM
+07ba341229d065cdcac36eb1176b3cab95c1a12a|2019-08-30|Alexander Condello|Don't use std::tie in adjvectorbqm.cc
+95be33f6d551a79372f10732373b9169f78a80a3|2019-08-29|Alexander Condello|Reduce code duplication in adjvector.cc
+f38f3a4c221145e61b438c49e11d8a9dcda11dc2|2019-08-29|Alexander Condello|Add AdjVectorBQM
+7fd5465f5cf13c84a7e86080d075383b656430d6|2019-08-26|Alexander Condello|Restructure mutable-shape bqm tests to be more generic
+fcbf29c456616ddc1ec523ee4b516395eb8b8d83|2019-08-26|Alexander Condello|Speed up construction of AdjMapBQM from dense matrix
+15e7deff7f97b0c7c5641a96649fd6ad4513c953|2019-08-22|Alexander Condello|Speed up index labels in AdjMapBQM
+71b257229c818e4852e41862a9833a9ce0844dc2|2019-08-21|Alexander Condello|Add AdjMapBQM.to_adjarray and AdjArrayBQM from dicts construction
+5092351eb13dfbd1d1393c9eee25311efbfef0a3|2019-08-21|Alexander Condello|Finish adjarray arbitrary variable labels
+fe91655e1cca443249252edbcd1a5a9910d3d0a1|2019-08-19|Alexander Condello|Add get_quadratic function for AdjArrayBQM
+62a1e446d34ccf43ce50c1374ec695278d61f982|2019-08-19|Alexander Condello|Update AdjArrayBQM to match AdjMapBQM
+e7198a70915b536be82c00ad91635d1fe0158bb3|2019-08-19|Alexander Condello|Add AdjMapBQM.remove_interaction
+01515dfee467748a0faf494083f0894b42dfb2d0|2019-08-14|Alexander Condello|Support arbitrary variable labels in AdjMapBQM
+ff19abcb93e969b629daa29269fd8a244e368fea|2019-08-14|Alexander Condello|Indicate whether an edge exists in get_quadratic
+ba8d2cf8b1d8269de45f87fa9c3e6e31c8694db8|2019-08-02|Alexander Condello|Skip windows py34 x64 for now
+297ef06b6213c0918c15b900d9c76cd607c3ff66|2019-08-02|Alexander Condello|Don't use template aliases
+c1cfa62593bf28f819a5367227142db0a1c4be30|2019-08-02|Alexander Condello|Refactor appveyor config
+2331c99c8c6afcb1fd702038ebc48e58d9eb27c0|2019-08-02|Alexander Condello|Always build the extensions
+90588e49d5c867c45e879c0c5f56491c9147b705|2019-08-01|Alexander Condello|Add AdjArrayBQM.get_quadratic
+4516d85d24b88631aac14532ac2c062819a35fc7|2019-08-01|Alexander Condello|Add tests for get_linear
+c8bb84d408fc28f9f6f815b753c2161780bd38f2|2019-08-01|Alexander Condello|Add AdjArrayBQM.get_linear
+2e044450ef2a2f5a9e820369397392d7c144dcf0|2019-07-31|Alexander Condello|Reformat c++ code for google style
+011d5aa672b4e55361b7eee02ef2cb19bba46363|2019-07-31|Alexander Condello|Convert to using c++ under the hood for adjbqms
+d2c07181adffee3264b2b0d9aee9d3b1f73fe22e|2019-07-23|Alexander Condello|Use map for mutable bqm rather than vector
+ff88e85970ee30a04aeaed71089a35ddf18d19d3|2019-07-08|Alexander Condello|Fix bug in AdjArrayBQM.energies
+128f2f787fa53dca1abffa6e5454aa61baaa08e2|2019-07-08|Alexander Condello|Add energy calculation to AdjArrayBQM
+94c6fbc1df9afa7cc212d934374617050f4c17fe|2019-07-05|Alexander Condello|Rework AdjArrayBQM construction
+ce7b434b2409c31f8334c1c0713691a2ff586470|2019-07-04|Alexander Condello|Expand construction options for AdjVectorBQM
+6109dd03f4669c82e571fa804cb54e1746ab7aef|2019-07-04|Alexander Condello|Add AdjArrayBQM and AdjVectorBQM
+d6c3ccc31c3879d8e381c0b29d4dd30fd44236d1|2020-02-20|arcondello|Remove deprecated Response object
+4d3c4c3f92f56920ce4e41e34d58f2130dbaacbc|2020-02-20|arcondello|Remove asv benchmarking infrastructure
+dd33fe988534bd7043faec223cecfc764a282026|2020-02-11|Alexander Condello|Fix circleci osx cache name
+bab2605af3f4194bef31d13aa5888af1ac177e16|2020-02-07|Alexander Condello|Update version 0.8.20 -> 0.8.21
+c3567167e0eff0c593139ab5b67b526a703867be|2020-02-07|Alexander Condello|Merge pull request #594 from JoelPasvolsky/versions
+ba2b9400f22bf0d12283ca9ed0c6195cd0934c8d|2020-02-07|Alexander Condello|Merge pull request #588 from JoelPasvolsky/unified_docs
+3b90edb4ce4a2c1fdae84d655906898f2a9e1b1b|2020-02-05|Alexander Condello|Merge pull request #597 from conta877/bugFix/deserialize
+2a9a6e020bb3076ed53f656b570340213de3ab05|2020-02-05|iozfidan|fix spacing
+9e17aaa9df222b6bcbe63c2716e9699ca8d4d6b5|2020-02-05|iozfidan|fix float index issue
+d1c8f111bcd08673549b110f899bede250e4ac89|2020-02-04|Alexander Condello|Instantiated SampleSets can now have attributes assigned to them
+18b2a763a4c1908b2384cae88a4c77fe585b2082|2020-02-04|Joel Pasvolsky|Add version notice
+1ce84375ee2f33460a468789bac899b5a2d325ff|2020-02-03|Alexander Condello|Update version 0.8.19 -> 0.8.20
+091369dd8fd47f479bcf27c1c01485d7f5627966|2020-02-03|Alexander Condello|Fix LockableDict methods to correctly return values
+dfea85db5253e487c577bf00900af775ff61152f|2020-02-03|Joel Pasvolsky|Fix a couple of index --> sdk_index
+57bdc25d0c0f9b3cb8389ccb1784a177bc2ed24c|2020-02-03|Joel Pasvolsky|Fix warnings on includes
+ac2df9238390fe5da82422d1db065c7eba3b41c3|2020-01-24|Joel Pasvolsky|Fix broken ref
+9f67eb735eced7e65393c2fcef4a81f603abbe8f|2020-01-24|Joel Pasvolsky|Update conf and ref names
+dd9448ce591f69a68813ec6e91ba25942e1050da|2020-01-24|Joel Pasvolsky|Update links to sdk docs
+b5b88cf5a5510bddda1904b0f49a15eaf7f09fe1|2020-01-16|Alexander Condello|Merge pull request #581 from JoelPasvolsky/sdk_fix
+3fb740604509fc333a1cf7f6dffcd9073cb7c6f0|2020-01-16|Joel Pasvolsky|Build sdk without dimod warnings
+bd30e0596a6310962ea0cf2e83a3ccd6eb9cf4ff|2020-01-09|Alexander Condello|Update version 0.8.18 -> 0.8.19
+495845fdc4198fe55108dae8f367342e2d65a3b8|2019-12-30|Alexander Condello|Merge pull request #573 from JoelPasvolsky/sdk
+3b06cd859f6c42553510bd94b8b73c87b41679f9|2019-12-24|Joel Pasvolsky|Fix ExactSampler --> ExactSolver (hat tip to Scott)
+8c1dd16f090d8136e4c98680ba31a7aaae81ff14|2019-12-24|Joel Pasvolsky|Add sdk index and move _static images
+c1a2e03c3df96a4939dcbaa29d77762d7af7b91f|2019-12-13|Alexander Condello|Merge pull request #569 from arcondello/fix/osx-wheel-compatibility
+83cb1bc0fb0d79dc56ae40cace14db1883ccc764|2019-12-12|Alexander Condello|Use xcode 11.2.1 on circleci osx builds
+acc46f41e6a96412cbdc31712e138ffbddc5e912|2019-12-12|Alexander Condello|Force (lie about) macOS 10.9 binary compatibility
+db8bd3924ba1498bab1c8946ff5bf4b20c07c565|2019-12-11|Alexander Condello|Merge pull request #566 from hsadeghidw/bugfix/connectedcomponents
+97f1f66227e912c635b6dccb9502ec3c41ca8680|2019-12-04|Hossein Sadeghi|Improve value extraction from a frozenset
+39f9273b5995bb939934931034ed37508def14fb|2019-12-04|Alexander Condello|Merge pull request #563 from hsadeghidw/feature/fixed_poly
+667754e8c4f22b9bfce5e4d0812ed3c7df3bdf82|2019-12-04|Hossein Sadeghi|Fix variables to one of the allowed values
+6cb6fd7803932063cc044a428ae9c552cdc61327|2019-12-02|Alexander Condello|Install correct python version in windows circle-ci builds
+ab411caa1ceb855da982e60c355c982eb9111aae|2019-12-02|Hossein Sadeghi|Fix polyfixedvariablecomposite argument list
+7ed878ae0bc01874f7c3b1770cd44f7e7452bdd7|2019-12-02|Alexander Condello|Update version 0.8.17 -> 0.8.18
+f6db52537cb57cbd1a2c763fd80e82930cb157da|2019-11-15|Alexander Condello|Add win deploy to circle-ci
+595e14f7853b34bb35ea98c367299f186b03f71e|2019-11-08|Alexander Condello|Add windows to circle-ci
+0ff29a8ab8ffd56fd02624ddf5bf0efa7173a968|2019-11-08|Alexander Condello|Use a pandas version that is compatible with py3.8
+618f5655253ea4ed1b818f6c13a9d4d12dfb4f28|2019-11-08|Alexander Condello|Support python3.8 in circle-ci
+ac0eace48daa826d27076310342a058483cb289f|2019-11-18|Hossein Sadeghi|Change the name and file location, Reflect the name change in docs
+d4850b08988134369b9cb58e5a2a26f032ab37fd|2019-11-16|Hossein Sadeghi|Fix docs title underline, Fix import error in docstring example
+d1485382e96b037b65acdc4e98383ddda6129282|2019-11-16|Hossein Sadeghi|Add docs
+cdf20a261169e7c21a54b323f44bfb6edb5f8d3d|2019-11-16|Hossein Sadeghi|Add test for poly with labels
+c32c459ed0aeec7a3b64cce73cc60af2a273ffbf|2019-11-15|Hossein Sadeghi|Add FixedPolyVariableComposite
+4bfd23c28917d160aa2bd06fac234eeeb472bbd0|2019-11-08|Alexander Condello|Merge pull request #559 from aidanproy/feature/exact_poly_sampler
+4cf34621295ee9d0fa649d88c9f94d50897e60d5|2019-11-08|Aidan Roy|removed ExactSolver class inheritence from ExactPolySolver()
+143c8a08b017b27f7d41aa010c02d98f26ee0b35|2019-11-08|Aidan Roy|added ExactPolySolver()
+e8942ffe00203bcc700aacc661fd217561aca6db|2019-11-08|Alexander Condello|Merge pull request #557 from arcondello/fix/make_quadratic-loop
+3ef414f28771bb46acecebdf4befa11c1c2878b5|2019-11-08|Alexander Condello|Add error message for internal error
+c552ec9ac4e3238d4cd873485108f014725f2cbf|2019-11-08|Alexander Condello|Fix typos and minor pep8 issues
+848ad7bc96d13997c423e6bd42ec9ac5979f7c4d|2019-11-06|arcondello|Correctly handle making new variables in make_quadratic
+771ce1c56f5f9503afe869ec35ee9f0249c5a100|2019-11-06|arcondello|Only count higher-order terms when choosing reduction
+3035469dd7791503a0ed1c14d286b6f3068bbb12|2019-11-06|arcondello|Change make_quadratic to use a loop rather than recursion
+463e889a3435f68314acee724e051d8a4c5047aa|2019-10-28|Alexander Condello|Change FixedVariableComposite to handle non-blocking child samplers
+092970e2a3606527d611032e8b1665283872ba99|2019-10-15|Alexander Condello|Support vartype str/set inputs in make_quadratic
+b1c4fa1480f38f94c6a6424187a414b0c60b92cb|2019-10-08|Alexander Condello|Merge pull request #539 from hsadeghidw/feature/cccomposite
+9e0a1414745fbc5b04667ad4d49e188685e890a2|2019-10-08|Alexander Condello|Merge branch 'master' into feature/cccomposite
+efd0e57f32f884e5fa682bc8423242de95907392|2019-10-08|Hossein Sadeghi|Use isinstance() instead of type()
+7fcc4e238680f93717dc9c72c5dd7cc4e315b3c1|2019-10-08|Hossein Sadeghi|Add comment on other options for merging samplesets
+ee45d8ebc91bb055d82034a90d4ab77ce731b712|2019-10-08|Alexander Condello|Merge pull request #541 from hsadeghidw/feature/clipcomposite
+5d231da494f10a7af5feb40799dca2f27127d8f8|2019-10-08|Hossein|Merge pull request from arcondello/feature/cccomposite-dfs
+016ab75966c5c2836eb5f1d65ba121f1d4bb3b41|2019-10-08|Alexander Condello|Rename tests/test_cccomposite.py -> tests/test_connectedcomponentscomposite.py
+e5dd5f39c374209b1a7c843c5f42a3687fa563d2|2019-10-08|Alexander Condello|Add connected_components and bfs_variables functions
+fd4c3d784e80f2164b4cfe6b84aba12a5faee4af|2019-10-08|Hossein Sadeghi|Add test for bqm with labels, pass response to .from_samples_bqm
+4a4a60ce24d884724f0739a7edcf5e8db46ef014|2019-10-07|Alexander Condello|Merge pull request #542 from hsadeghidw/feature/refactor_exactsolver
+d48b4df367f4488323471b4831863426b43a1ae6|2019-10-07|Hossein|Merge pull request from arcondello/feature/refactor_exactsolver-restore-greycode
+d8b990ef92b52f8d13a1876131d067d078a90f5e|2019-10-07|Alexander Condello|Merge pull request #540 from arcondello/fix/chimera_anticluster-subgraph-edgelist
+4e08f73f431f61340ed17bd9eb7aab445213a908|2019-10-07|Alexander Condello|Test nodes for edgelist in graph_arg decorator
+9040ea758daad8ffb4737132e7550d023824b33a|2019-10-07|Alexander Condello|Merge pull request #546 from arcondello/feature/minor-higherorder-fixes
+ded3ff0c1deaeaf0d9e0838b9a6cc5b0b3a64805|2019-10-07|Alexander Condello|Restore the ExactSolver's sample order.
+b9d692370242ce50e5607f8fe324c450cd8bccbd|2019-10-07|Alexander Condello|Revert from using repr to generate aux and product vars
+89bd36f4089fac6c5724c64ce6d15dbe1819f00f|2019-10-07|Alexander Condello|Minor doc and code fixes in higherorder
+d5410a70f9ebff7649ffeacca535522f8fe980c0|2019-10-07|Hossein Sadeghi|Limit the width to 88 characters
+7e8004021cb5e22af7644e38ac5deff058beed5a|2019-10-07|Hossein Sadeghi|Add documentation for ConnectedComponentsComposite
+c053541d275941a068dec0ef2130c904fa093e3c|2019-10-07|Hossein Sadeghi|Change the docs to refrence ConnectedComponentComposite
+f7d84fd645bc3fe5a6ada22596121b42e8b9326c|2019-10-07|Hossein Sadeghi|Add documentation for ClipComposite
+ddb454dffe630835e0a9a030942769937f443b27|2019-10-07|Hossein Sadeghi|Remove unnecessary import statement, fix a few punctuations
+6764cdafd562bae1e1ce15b033f41fde78b2b58f|2019-10-07|Hossein Sadeghi|Remove the decorator bqm_index_labels
+771700cfd0b5cc9b580be7d543f8428d28c04656|2019-10-07|Hossein Sadeghi|Remove explicit .copy, Add test for arbitrary labels
+8f24e549b2455e150c5c5efd117b3df60ccce6da|2019-10-06|Hossein Sadeghi|Refactor ExactSolver
+b25c76bd186a06d833fc739fc51aed4d4b9f5880|2019-10-05|Hossein Sadeghi|Add clip composite
+c7bc11920b14e8d240e08b4b915ca7789df871a8|2019-10-04|Alexander Condello|Handle ambiguous case for node/edges, edges in graph_argument
+8a9d6eab735feb9db0a0b0bf3f0488b305553530|2019-10-04|Alexander Condello|Generator functions now accept edgelists as graphs
+8d7384f9a1ee9c4883163279fa94a83845fd22af|2019-10-03|Hossein Sadeghi|Add ConnectedComponentComposite
+c48a7617f0555b264ac25ec76db2bdfe949a1695|2019-10-02|Alexander Condello|Update version 0.8.16 -> 0.8.17
+04b8194d8894bce43679664b65d1c26bce4931fe|2019-10-02|Alexander Condello|Merge pull request #537 from arcondello/fix/sampleset-non-integer-serialization
+3cf6ee9ea6c943ccefd175002e165f6f6b92289a|2019-10-01|Alexander Condello|Fix serialization of samplesets with non-integer sample values
+50abc25bf5c9aaaec9db2fa9c5a56783e053bbea|2019-10-01|Alexander Condello|Update version 0.8.15 -> 0.8.16
+3262f86f459eff27b5ead961b01a7a4cbc226f83|2019-10-01|Alexander Condello|Merge pull request #535 from dwavesystems/fix/higherorder-square
+4c54c7f1f73e08dcce3dfef9b49e16a03bc01cc2|2019-09-26|arcondello|Fix square terms make_quadratic bug
+b3256e78fee43721012fe134d52af5adf41fcd25|2019-09-10|Alexander Condello|Merge pull request #530 from arcondello/remove-jsonschema
+dd860735b7605df06167a409504791e10b2b7ba3|2019-09-10|Alexander Condello|Remove jsonschema dependency
+fa3173bb8062579ebe495a7239ccc31be244d0db|2019-08-30|Alexander Condello|Merge pull request #527 from arcondello/fix/bqm-locked-deepcopy
+722c5712e89ebcfb5aa2b726a9fd4f56fc7e2ebc|2019-08-29|Alexander Condello|Make BQM able to be deep copied when not writeable
+f67f48677202adffea7a5484e021e2599177b238|2019-08-29|Alexander Condello|Merge pull request #525 from aidanproy/bug_fix
+03b74890b2b816032c290ff0d03e3eda2b269dff|2019-08-29|Aidan Roy|fixed bug in contract_variables()
+ce0f2ce74e9ee62e2ea4e35c4086bd80090c9346|2019-08-02|Alexander Condello|Merge pull request #518 from arcondello/feature/roofduality-cython
+d0eab4dda1951601a8fe9f219db0e6c9a586aaba|2019-08-02|Alexander Condello|Add language level to _fix_variables.pyx
+f796feb756378556c89ec818612d45b2faac430e|2019-08-01|Alexander Condello|Use standard c++ exceptions in fix_variables.cpp
+34797d94724a34cd06bb356bc1cf5b45d89e731b|2019-07-31|Alexander Condello|Only install pandas in python 3.5+
+5dfc00b087a4270535ae6c1bcb25f9ebeea36dee|2019-07-29|Alexander Condello|Update version 0.8.14 -> 0.8.15
+a55522092ef83a82477bda047d6d976d4d094f37|2019-07-24|Alexander Condello|Merge pull request #512 from arcondello/feature/recursive-serialization
+36f8fbe36c1fc6f872db3c059dc54c57156fba83|2019-07-23|Alexander Condello|Serialize numeric types in info fields
+32231d0fc29dbb704eeaa844301ff0b065f3e40a|2019-07-22|Alexander Condello|Add note to serialize_ndarrays docstring
+34f5c553237f2bb8a0a28f2bd2cce884c38edc51|2019-07-22|Alexander Condello|Review comments
+6c080dc5131cbd2f43bc40f83c9a11b5b40cb4f3|2019-07-22|Alexander Condello|Recursively serialize the info field
+12eee7a586a0f1fc1ad644ad920e348de3b25b04|2019-07-22|Alexander Condello|Refactor SampleSet serialization
+aa16a1068e68de5332181ae481bea852daed8484|2019-07-22|Alexander Condello|Add generic JSON-serialization for numpy arrays
+368c8887948e62528a8369ea73744e2f584582d7|2019-07-22|Alexander Condello|Merge pull request #511 from arcondello/feature/sampelset-serialize-3.0.0
+86d9bfea1baaf795853de09695f8a71c5d5be1aa|2019-07-17|Alexander Condello|Fix str/unicode in SampleSet.from_serializable for py2
+459c647bffff1ec374bb8ae7bf9e33bb38a4e234|2019-07-17|Alexander Condello|Fix depreciated sampleset from_serializable
+69f26b93c2ec0b65aa5f8f7c06666c526cd49051|2019-07-17|Alexander Condello|Fix python2.7 syntax in pack_samples
+89e430a615c2bc36ec813401c9a11ae9fe4b95ff|2019-07-17|Alexander Condello|Remove old files
+ebddd1d078517e48ffda97adcfc79556cda87c45|2019-07-17|Alexander Condello|SampleSet serialization format version 3.0.0
+9b285b7b4bd78f63f79ff081f2e33036ff85376a|2019-07-17|Alexander Condello|Merge pull request #510 from arcondello/feature/bqm-serialization-v3
+84abfe91799bdc039d7ef6f0f924c64730e21b2f|2019-07-17|Alexander Condello|Use numpy's dtype.name to specifiy the data type
+7462eab24f66698e5178d0fdb80cecaa6e225519|2019-07-16|Alexander Condello|Remove some fields from BQM serialization
+5296a673be8bc58ff39a1ed284e1c7855c41ef22|2019-07-15|Alexander Condello|BQM serialization format version 3.0.0
+d1952ba4eb7084beb20b699758a717d833a45e08|2019-07-15|Alexander Condello|Deprecate BQM 2.0.0 serialization in BQM.from_serializable
+6b53ef3c66b4a358b035dc7118f0c9b75f0e84f5|2019-07-16|Alexander Condello|Merge pull request #509 from JoelPasvolsky/cleanup2
+42c45f973b722a7e759ae7219d0b3784283f1d1d|2019-07-16|Joel Pasvolsky|Update for review comments
+4f06e874c30208a61d926c2bbcb016d50c666cf1|2019-07-15|Joel Pasvolsky|Fix doctests
+ef744fa829e91f56425617f601ac955f167a51dd|2019-07-15|Joel Pasvolsky|Update asserts
+0c03e9908e671990be7b16b68474b5c2c3458bd3|2019-07-12|Joel Pasvolsky|Update decorators
+3c3522e873a8086009c0a6adb564698c138bc32e|2019-07-11|Joel Pasvolsky|Update sample set
+4fd380029f7ef855cf7f4f6a9c88517f2723e3c6|2019-07-09|Joel Pasvolsky|Update bqm & api
+32a7be8e6f921c57d18817b4ed6c38d0e923ae7d|2019-07-15|Alexander Condello|Merge pull request #506 from JoelPasvolsky/cleanup1
+1b59643fee10a36039c255b84d2dd5519f28b2b7|2019-07-15|Joel Pasvolsky|Alex's review comments
+a2ce17d2591073265f127e9a91e1147df7fb45c2|2019-07-12|Joel Pasvolsky|Workaround for Issue #507
+335d626a90b2a2e8a7bede687d8c12d1d0a4ae0c|2019-07-09|Joel Pasvolsky|Restructure
+c8a262b64d958886a9966739d78c992eb85c11a5|2019-07-09|Joel Pasvolsky|Update intro
+5e399317b0bfaae6ed20e22b9f2ef242f5fa5e6c|2019-06-17|Alexander Condello|Raise the correct exception in child_structure_dfs
+a36197fde1b7ebc048094b6683347008fba6573c|2019-06-17|Alexander Condello|Merge pull request #497 from arcondello/fix/BQM-variable-serialization
+62f03fab556148ff76e311e749a0d22564207795|2019-06-17|Alexander Condello|Make variable serialization a utility function
+6b33faab95b36c4890351009755e0817eb262b59|2019-06-14|Alexander Condello|Merge pull request #499 from conta877/master
+786803a7b7f6df41f018f7bd82192221b72324dd|2019-06-14|Isil Ozfidan|Bug fix energy calculation when offset is not a float/int
+ca611c31257ccce53795dfdd88e0afd53f77ffef|2019-06-14|Alexander Condello|SampleSet/BQM.to_serializable now handles numpy variable labels
+4920d4e490a40ae69fafb4709ff8cc91059feb79|2019-06-13|Alexander Condello|Update version 0.8.13 -> 0.8.14
+cdfd3d2ee8842a427dec079e692645d6d29133a3|2019-06-12|Alexander Condello|Fix num_occurences in SampleSet.aggregate
+a174ddd16750165d72f856064e92dfadcaa1b541|2019-06-12|Alexander Condello|Update version 0.8.12 -> 0.8.13
+5d959951a5c1ef25147911f07743c3e2d011b4f2|2019-06-10|Alexander Condello|Add SampleSet.is_writeable
+306f43063bec4c4eed97f936aafc7deaaf700ecd|2019-06-10|Alexander Condello|Merge pull request #490 from arcondello/feature/BQM.is_frozen
+c903e48e22889e1e1fe2406322a20d5fd976b535|2019-06-04|Alexander Condello|Make nested adj dicts lockable
+18efab3b479d227d29c86a85bd4b582f5dd1a270|2019-06-03|Alexander Condello|Remove LockableDict.__slots__
+515d264d35f48da7f2f69300a2091c218200a3e1|2019-06-03|Alexander Condello|Add BinaryQuadraticModel.is_writeable flag
+ad488f8f17f532492a04ca9e1c5b8b611a983ea6|2019-06-03|Alexander Condello|Add LockableDict class and lockable_method decorator
+1efad458dada886e33a0ade7e66738899d6c070f|2019-06-03|Alexander Condello|Add WriteableError exception
+457f31ca0cb6a259670585d164eb8b32204118ad|2019-06-03|Alexander Condello|Support initial_state kwarg in HigherOrderComposite
+5bbabc58e3d32fc02cd42579301f91c09ae1937f|2019-06-05|Alexander Condello|Merge pull request #488 from arcondello/feature/dfs-on-child-samplers
+26cca94bcfca549e1569faa81f82a404469f17ab|2019-06-03|Alexander Condello|Hash samplers in child_structure_dfs directly, rather than by id
+c55719897f992b1cba732fa3020de3b37f570faa|2019-06-03|Alexander Condello|Merge pull request #486 from JoelPasvolsky/cookies
+34c8ed8992a7684cfd627db23912d11d5244d328|2019-05-31|Alexander Condello|Add child_structure_dfs function
+83b387b3deec8e8947eee0ea40c54bfcc089ceaf|2019-05-29|Joel Pasvolsky|Add analytics and cookie notice
+1f6e29b84db61ffd337abc14e982ed022b3391b5|2019-05-22|Alexander Condello|Merge pull request #484 from arcondello/feature/tracking-composite
+ada3f851e505094c8690d46827a8396f85d418cb|2019-05-22|Alexander Condello|Add example for nesting the TrackingComposite
+b63bd93494471ea1fa1eda0776f4d25e01b8b877|2019-05-21|Alexander Condello|Add NullSampler which always returns empty sample sets
+af31d2492a4b3cc01ac4b4e50d5d615b1fb8010d|2019-05-22|Alexander Condello|Test TrackingComposite.input/.output when sample has not been called
+dc0291a4b44b01ab0c79f59d15fbaccc54210996|2019-05-22|Alexander Condello|Add missing periods to TrackingComposite docstrings
+300ab858e6407969d6c5b031513d2c7b354ac8d8|2019-05-22|Alexander Condello|Add docstrings for sampling methods
+777a41ac55e592aac82f709bf5198ea30cdaa853|2019-05-21|Alexander Condello|Fix TrackingComposite for python2
+227410b2ea45ff12e1ac26d045db7c3daa44c9b2|2019-05-21|Alexander Condello|Add TrackingComposite
+cc1e27efe95383c3ae5388771380a5e2acf545f2|2019-05-07|Alexander Condello|Add SampleSet.resolve to docs
+f9d45fcefb73411eb05dc9e241fa5311f4a868f5|2019-05-07|Alexander Condello|Update version 0.8.11 -> 0.8.12
+405e840d4aa136d89b18a119175d0f77ed449103|2019-05-07|Alexander Condello|Merge pull request #478 from arcondello/feature/sampleset-resolve
+71b8221f9318ecd3643b0ce38fb4f23ff38878eb|2019-05-07|Alexander Condello|Support pickling Variables in python2
+a3d64557b9f9daac977011452ac06939e42f3fa0|2019-05-07|Alexander Condello|Combine SampleSet.resolve and SampleSet._resolve_future
+4dad3f6b693c247c3169a86445a61935446bca74|2019-05-07|Alexander Condello|Resolve SampleSet before pickling
+75615c3f7d5dd33519daa7932a44ea5d43439850|2019-05-07|Alexander Condello|Add SampleSet.resolve method
+66492716c6d1e76b44d1cd09876b3a20397a4593|2019-05-03|Alexander Condello|Directly link to Ocean docs
+beff1b7f86b559d923ac653c1de6d593876d6d38|2019-04-26|Alexander Condello|Merge pull request #472 from JoelPasvolsky/from_numpy_vectors
+a2001a5bba64268a189b41e2967c9ea47f0e1fe3|2019-04-26|Joel Pasvolsky|Prevent silent truncation
+2501c186f71e887f2cb11b3d8560359898635d3f|2019-04-26|Alexander Condello|Merge pull request #473 from JoelPasvolsky/ran_r
+ceee47e049c2c3305d459c6ae865a430dbd113e9|2019-04-26|Joel Pasvolsky|Fix length of quadratic
+39540828b54893e87eca8167595cef20359bd4c1|2019-04-23|Alexander Condello|Update version 0.8.10 -> 0.8.11
+c21ee99ab65a519b822689361fcfcc66ffb890f2|2019-04-23|Alexander Condello|BQM.from_serializable correctly deserializes info
+789143511f6ed4403cd3f0a73fce98c53d7fd462|2019-04-23|Alexander Condello|Add as_vartype function
+4c37980be6cb285c47364c61854d396c83baf0f1|2019-04-23|Alexander Condello|Return a keyview for BQM.variables in python2
+353af64a4c478121adf7ea06cd844283880bc0fb|2019-04-23|Alexander Condello|Variables.relabel ignores unknown labels
+016274f183c2a857d1d996f32b202427ea3c93b7|2019-04-24|Radomir Stevanovic|Merge pull request #464 from randomir/feature/add-sampleset-slice
+564b3b02feb5ea76ff78cbdadbf5fdc96929efc0|2019-04-23|Radomir Stevanovic|Tweak .slice docs to address PR comments
+df63b32bcd50fd9f026246e1bdd4b7b9b07fa8b3|2019-04-23|Radomir Stevanovic|Use SampleSet.slice for .truncate
+02619b8e30210bfc5797df57cf4b8d0262fa4101|2019-04-23|Radomir Stevanovic|SampleSet.slice: be picky about kwargs (py3 consistent)
+b45a23d8230179282adb2890988e36d9feb4b672|2019-04-22|Alexander Condello|SampleSet.aggregate() preserves order
+ae1b5f436eb066f0ffdca06bbed322442e34b7c5|2019-04-23|Alexander Condello|Merge pull request #462 from JoelPasvolsky/ran1
+69c07124567f1a2f59558954ed6af481e5b49a7b|2019-04-22|Joel Pasvolsky|Implement Alex's PR comments
+717f8d4e5864497a9321703ea675a30e2db9d457|2019-04-22|Joel Pasvolsky|Generalize and change to int values
+3935e0ff620ba1d8f90913bf7e1ed6ed81d7bf98|2019-04-21|Joel Pasvolsky|Correct unittest boundaries
+753e31a74b4781ac70728e6459b1b1893ab7a91f|2019-04-21|Joel Pasvolsky|Add unittests and fix use of seed
+2d5027903448956f7e695c9191e2d9536716bc27|2019-04-19|Radomir Stevanovic|Fix kwargs with defaults for py2
+d2e29d5fa55ccf71075c9698ca994ad68437f3b6|2019-04-19|Radomir Stevanovic|Test slice syntax and custom order in SampleSet.slice()
+9ccfe681afb1e9e195571571848e8d06c19912b1|2019-04-19|Radomir Stevanovic|Smoke tests for SampleSet.slice()
+35fc9f3c544e4ce4574c0eae415b23510559628c|2019-04-19|Radomir Stevanovic|Add SampleSet.slice()
+a8878ecc02779456fd29aeca26816942b1fa656b|2019-04-19|Joel Pasvolsky|Fix ran1 doctest failure
+940fbdf9495019583e6cb7ed4882894c37e5f326|2019-04-19|Joel Pasvolsky|Add RAN1 generator
+e33ca5045e31ee2d9d58515f017fb6be5276cd8e|2019-04-15|Alexander Condello|Merge pull request #459 from wbernoudy/fix/sampleset-label-serialization
+0241e9eee5e584d0e1c051f58bc1c25795b0fe18|2019-04-15|William Bernoudy|Fix tuple variables for SampleSet deserialization
+8f6895d935af629edd492c86b2d31ea529997e27|2019-04-08|Alexander Condello|Update version 0.8.9 -> 0.8.10
+d86c03bdda2fb57c2c3e6567a3ea2db987e6794b|2019-04-08|Alexander Condello|SampleSet.from_serializable correct extracts info
+2f9995043661fda41c263d0a267239a504926ace|2019-04-05|Alexander Condello|Refactor Variables object
+9635bcb016bb4da3f56cbedab7862ecbb9b09993|2019-04-02|Alexander Condello|Add SampleSet.lowest method
+6a330c2fb54ec5267b37e8098f2f0a362df2e600|2019-03-28|Alexander Condello|Update version 0.8.8 -> 0.8.9
+7d224978e52dc645be476c35999c3487c8c40392|2019-03-28|Alexander Condello|Merge pull request #450 from arcondello/fix/sampleset.samples-iterator
+8a775f7e7784eb4083704af7f923ac888fc7014a|2019-03-28|Alexander Condello|Make SampleSet.samples an iterator
+f47b45fd26941afa5daf53b430b87b5f28c1cce7|2019-03-26|Alexander Condello|Update version 0.8.7 -> 0.8.8
+8a492055727a115e7874d99ce5484b9213e35d64|2019-03-26|Alexander Condello|Merge pull request #445 from arcondello/feature/sampleset-append
+bc3aabfcaa613ab786ddf0837320e901eb574258|2019-03-26|Alexander Condello|Fix SampleSet.append_variables unittest
+23bb6470d7ade0b0e1a055c561f78ed582c05c96|2019-03-26|Alexander Condello|SampleSet.truncate, .aggregate, .append_variables deepcopy info
+eac6bb10c4317ade809acf323012af144ee655d2|2019-03-26|Alexander Condello|Address review comments for SampleSet.append_variables
+a513e46c7cac2560da19d0ab22937f41ad88f1b9|2019-03-26|Alexander Condello|Rename SampleSet.append to SampleSet.append_variables
+21e4a53ead1af0990428c398893b3229e50943a1|2019-03-25|Alexander Condello|Update FixedVariableComposite to use SampleSet.append
+d6225118dcd65125bab3c02b848293b2b2a20574|2019-03-25|Alexander Condello|as_samples now checks if samples_like is a SampleSet
+1a4ab82299b3c681110510fa3f869d514dabb833|2019-03-25|Alexander Condello|Support SampleSet.append for other samplesets
+0bf83610303ce72e9e48238d89b371b2fc02e1da|2019-03-25|Alexander Condello|Add SampleSet.append method
+7190264f87680f0f211261a5930f8774a6162973|2019-03-25|Alexander Condello|Add BQM.from_networkx_graph
+b239e52b628f784ec08b3646ad46243b45f7b60e|2019-03-21|Alexander Condello|Merge pull request #439 from arcondello/feature/indexable-samples
+57a248f72bdb84a084e30ec4760ecd88d582d17f|2019-03-21|Alexander Condello|Merge pull request #443 from arcondello/docs/small-fixes
+46673c04f2f76bf491eeb6cb9192e06e91b0e95d|2019-03-21|Alexander Condello|Add some decorator documentation
+10fc8025c21d14f4c8078722492e4730c973e916|2019-03-20|Alexander Condello|Add documentation for dimod.testing
+c451c7c73cc6ee170db5da9c40edb2a3af35fbb1|2019-03-20|Alexander Condello|Reorganize docs/utilities
+d7622718b768773cd52e2109daef650e48162cf2|2019-03-20|Alexander Condello|Reorder utilities docs
+98d70ef4657a57d000e57d975946c354150b1a1b|2019-03-20|Alexander Condello|Add assert_sampleset_energies function with docs
+f740e8abd3e59c7ad2d276cbf442bf3cb26385fe|2019-03-18|Alexander Condello|Add generators to documentation build
+7b45a1e7940207dc254bcd82a6637e2e227e9437|2019-03-15|Alexander Condello|Document samples indexing
+855dec92a062e54b0f295a2b35ab8a1fab9206bd|2019-03-15|Alexander Condello|Add ability to index on variables for SampleArray
+bace69ad469b9342ffb0a529944d427fcd3cbdce|2019-03-15|Alexander Condello|Fix __contains__ bug in Variables
+d223e311eca2ffcefd4fe12cb736196d46f563ca|2019-03-15|Alexander Condello|Make SampleSet.samples indexable
+59008dc43d4132ddba5bbbcc460f609970a93fcf|2019-03-14|Alexander Condello|Make views a subpackage
+9bbe9524d05e002144e9aa6be4a000b43593782b|2019-03-15|Alexander Condello|Merge pull request #437 from arcondello/docs/sampler-methods
+8ed40826bb08c1bc41318dc77ba320152efdf923|2019-03-15|Alexander Condello|Fix doc typos
+aa5004434e5391ddc5649d3aa1df2ee6c2181354|2019-03-14|Alexander Condello|Refactor Sampler sphinx documentation
+cd1138b7bbfb1d4a733f338d87fb9e5081e5f136|2019-03-14|Alexander Condello|Move RoofDualityComposite into its own submodule
+6de4a2f03bf5e1d14c115f6caddc56a7e4ca7d91|2019-03-14|Alexander Condello|Update args docs for ising/qubo
+df5def73fcc4bd40d101ded212345a77ff32c766|2019-03-13|Alexander Condello|Refactor ABC mixin method docstrings
+7d9996424dce66bf435d0c198fc387b8d0f24f62|2019-03-13|Alexander Condello|Make the sidebar external links hyperlinks
+6593e650b71a42ed1d08b885cf4006b143b9b74d|2019-03-13|Alexander Condello|Merge pull request #435 from arcondello/feature/docs-refactors
+e0af77e2c3023c82501fabc3e5d714082cbe2d8a|2019-03-13|Alexander Condello|Fix doc build warnings
+4251604dcee4b99827ad0f87c53804cac3b4747b|2019-03-13|Alexander Condello|Fix citation in SpinReversalTransform docstring
+3de5264777e39ef9d7fa50ae1635066750fd977e|2019-03-13|Alexander Condello|Add BQM.normalize to docs
+15403d6a304df9440250d16c6784845a5f53e04a|2019-03-13|Alexander Condello|Fix broken docstring examples
+43ea78ed9a50f55b497ce70f865f04ae78765983|2019-03-13|Alexander Condello|Use 3.7 for doctests in circleci to match rtd
+6b850e3053de4a4172b5d3b1dcf4c5da651f7159|2019-03-13|Alexander Condello|Install boost for doctests
+e7116476029df6b35d3177495a46049fed974f35|2019-03-13|Alexander Condello|Build docs in CI before running doctest
+04dcc13e5ac8f3fdde51e107b989b2397e562376|2019-03-12|Alexander Condello|Add combinations generator
+45bd481dab65846d3f94a35e42df36d91ac83caf|2019-03-12|Alexander Condello|Update version 0.6.7 -> 0.8.7
+8194ddd53ba40264b0f7cde2277c9ea27b2611c2|2019-03-11|Alexander Condello|Add RoofDualityComposite
+f3e2da6d9306fe6414a0fdd8399e58409bfce0ec|2019-03-11|Alexander Condello|SampleSet.relabel_variables now correctly resolves the future
+d60eeb86d3baf9387a4540d0a6697ed1b193298d|2019-03-06|Alexander Condello|Fix bug from printing Response objects
+c1a46ec1f96821ab9d1250766eb5d529c891e08a|2019-03-04|Alexander Condello|Merge pull request #426 from arcondello/feature/generators-qol-improvements
+6d79aa15d31e2fe4144bf0db58a925d5bdcba79f|2019-03-04|Alexander Condello|Seed numpy's RandomState from range 2^32 rather than 2^16
+c7fe5b510601a0703c9ee492fa83d6501ffb38f4|2019-03-04|Alexander Condello|Refactor generators to use numpy
+f5dbd89e9ea36ce2ecfc16c637f61d84a4e0f5b6|2019-03-04|Alexander Condello|Add seed kwarg to generator functions
+602e9e3bcb4e6928c48684127394dbefcb7c77fb|2019-03-04|Alexander Condello|Add subgraph kwarg to chimera_anticluster
+07644be6cb83f26fbe9d053d6fb09d4defb655d6|2019-03-04|Alexander Condello|Allow None to pass through graph_argument decorator
+dd76c080728d5480c2e11b2a50c2443adbfdcd88|2019-03-01|Alexander Condello|Support simplejson encoding
+dc4eea2fcef9cf93b606582628202009b4ccdaaa|2019-03-01|Alexander Condello|Merge pull request #398 from arcondello/feature/ordered-sampleset-variables
+c907b863c650e1362653ae529740c4629fd84cf5|2019-03-01|Alexander Condello|Avoid unnessary samples copy
+3c623842d5c8ec95dc22e64f826573be9a4cbbac|2019-03-01|Alexander Condello|Simplify variable label sorting
+faa5a9731b5ac52b1218f42613c6e99cb0bb1fcb|2019-02-07|Alexander Condello|Better memory useage in sequence sorting
+e34f279ca1d1c78643a23a654427a5fe043e56d1|2019-02-06|Alexander Condello|Fix sequence sorting
+049aa66e2301b66e997d53ad402170b99384c887|2019-02-05|Alexander Condello|Speed up label sorting in as_samples
+f84abd3d38810a01455d7b434e322baf7b46a72c|2019-02-05|Alexander Condello|Sort labels by default in SampleSet.from_samples
+8251b1a43a28accf71823c041fe884b42118edcf|2019-02-05|Alexander Condello|Add sort_labels arg to as_samples
+9bf7f996d34dc2c3d1bd2dc3d53a8bf9881b49ec|2019-02-05|Alexander Condello|Support python2-like sorting in python3
+15e6f93638b937156e8f0fff008c3b63a451aa45|2019-02-26|Alexander Condello|Update version 0.8.5 -> 0.8.6
+55a533dde9eeea46e6c33732b4144911b43e42d8|2019-02-25|Alexander Condello|Add PolyTruncateComposite
+bcee3945e19e11e4d858703593eb5ba066c73e2f|2019-02-25|Alexander Condello|Merge pull request #420 from arcondello/feature/serialization-refactor
+c48482634d600e347a5e74d63ff63f509ef0ca1d|2019-02-25|Alexander Condello|Fix json docstring example
+3f45a7b688274e874614a91892caea8538826184|2019-02-25|Alexander Condello|Remove old bson boilerplate
+0de148ef3c34b92895e7252d344247bbb145c3bf|2019-02-25|Alexander Condello|Add JSON-serialization to the docs
+5c9ee0dfb0d69cd924c844e01f462d4c609c6b19|2019-02-25|Alexander Condello|Refactor JSON-serialization
+b95d269d9d420f28d34892cc7fd5c373ca567e5f|2019-02-25|Alexander Condello|Save record vectors seperately
+9f8e404c9398a5377d57525c63fe8b435f719cbb|2019-02-25|Alexander Condello|Refactor BQM serialization
+50eeb752e447cf9daf30b0fdb4d01ed74fd4f143|2019-02-25|Alexander Condello|Add BQM.from_serializable tests
+5f604cb283ace3779baabf23f4b5559ef1330211|2019-02-22|Alexander Condello|Refactor SampleSet serialization
+3d7c86b8894fe6ba32badd3cb184123432449bd7|2019-02-25|Alexander Condello|Add SampleSet.from_serializable tests
+bbbac73d0588da5acb9044b7c5efe259bbf219df|2019-02-22|Alexander Condello|Use six's StringIO and map object for py2/3
+82830dea9aba4964b552e50e1c3949a2cbaf623f|2019-02-22|Alexander Condello|Change Formatter.print to Formatter.fprint
+d9e08c520c56af7d203d5ce324a2822b2d3b2692|2019-02-21|Alexander Condello|Refactor SampleSet printing
+c99aaa15345d942af8017f9d68fece8e30bccd95|2019-02-21|Alexander Condello|Add index kwarg to SampleSet.data
+8211f2c3686281aa933410fa310dc4ffe583e58a|2019-02-21|Alexander Condello|Fix SpinReversalTransform to correctly apply spin reversals
+4b6b2834ccbaaf84d5df5968d85ad50154115e8e|2019-02-21|Alexander Condello|Add SampleSet.data_vectors
+a4442e059eadedb2b060977ff32485cc8062decd|2019-02-21|Alexander Condello|Reorganize SampleSet tests
+4bdd07c68b6d6b127e21266a8920c644ccbc405d|2019-02-20|Alexander Condello|Merge pull request #396 from arcondello/feature/polysupport
+5b00266b8b25eff0c739c2bb45b79842d0e8d6c9|2019-02-20|Alexander Condello|Fix scalar calcuation in PolyScaleComposite
+75f095e5206ff2e302ed9adffc2ac3cb6c4d3af2|2019-02-20|Alexander Condello|Don't use ignored_terms when normalizing
+280dc29ec85b1e00b8d0a7d2c85a63fa164b9136|2019-02-20|Alexander Condello|Fix higherorder docstring typos
+6d28c885fe9694e9b6213b102af53d534fc94653|2019-02-13|Alexander Condello|Fix typos and bug in polysampler.py
+f0f302d945fcb84b0f292680fb844b2e5e1e4cd2|2019-02-13|Alexander Condello|Add BinaryPolynomial.to_binary/.to_spin
+c51979bb4d4a2d3f7ff94520896f716feb68e398|2019-02-13|Alexander Condello|Fix spelling in deprecation warning
+328ea380de7419accb077690245a9e92f1b87fe8|2019-02-13|Alexander Condello|Fix py2 division for BinaryPolynomial.normalize
+82196ac2f74f27aeba4954bdcacbf61d3395f338|2019-02-13|Alexander Condello|Fix BinaryPolynomial.__repr__
+ac00428205cbbadc07d19553186e6bdf18e482fe|2019-02-12|Alexander Condello|Add some tests for PolyScaleComposite
+e1922522eb17fe4f42fca8b00e745004b14cd350|2019-02-12|Alexander Condello|Fix errors in higherorder docstring
+3ffe8e1bce1ad44f25edcf03f85a896c3152c349|2019-02-12|Alexander Condello|Add higherorder to docs
+ba5807632b3b70c25397cb9c75f8a7ae87a3e20c|2019-02-12|Alexander Condello|Document PolySampler and ComposedPolySampler
+1325dcfa93cf92f2704060a1366c4343fa536ae7|2019-02-12|Alexander Condello|Add docs for PolyScaleComposite
+4c33cef6ff94ba4958908bc770cf443a12ac34aa|2019-02-12|Alexander Condello|Docs and tests for BinaryPolynomial
+79979454139757bd49c1e31c67d890c1d5efeee2|2019-02-12|Alexander Condello|Remove old boilerplate code
+dd93b52ffbde2744fe5c5801e646d6974deb1173|2019-02-12|Alexander Condello|Add PolyScaleComposite
+fc28642c03077f30db3ab2fe92fd9e2d0bccf9f4|2019-02-12|Alexander Condello|Add scale, normalize, to_hubo, to_hising to BinaryPolynomial
+adb61ee9213d1dbe9f2ad0b2b2d6e35799aba44a|2019-02-12|Alexander Condello|Rename higherordercomposite.py to higherordercomposites.py
+70cd9ef7859a860050bac276a0322cde15df1a3f|2019-02-12|Alexander Condello|Detatch PolySampler ABC from Sampler
+0e01cf483781bf20ebef0ba1944ecd08a82c3901|2019-02-12|Alexander Condello|Combine Polynomial and BinaryPolynomial
+9d0c0a8956a2f052a826a3ebf8cbec9a644353bc|2019-02-12|Alexander Condello|Add deprecation warnings to poly_energy/poly_energies
+823e63b2392cf05daaa2b6700757114d40654f55|2019-02-12|Alexander Condello|Refactor Poly ABC
+5691f82fe1e2d606fc1505247b8a074814b06235|2019-02-03|arcondello|Refactor HigherOrderComposite to use Polynomial and new ABC
+0514aabedd5562d6138380d45c954fce6f75e84d|2019-02-03|arcondello|Add methods to Polynomial class
+0088ef34a6defab312fa83ae263ec5a4e4cb2476|2019-02-03|arcondello|Add PolySampler ABC
+a43bc931cb6038bd1e3317e750b30829a608ca38|2019-02-03|arcondello|Add Polynomial class
+9dc804829f0002b6d64f2d47bbc38e92e4d9a59a|2019-02-02|arcondello|Make higherorder a subpackage
+7b4592fe118172aec182bb7148b14dbf09c427fb|2019-02-15|Alexander Condello|Do not keep unset linear biases in memory
+d518fbac855fa68b1c1db994e0ac718c920ccfbd|2019-02-19|Alexander Condello|Add unittests for TruncateComposite
+b93b0ca1d0cd7a706cba481e1b9c982dbf54dc60|2019-02-19|Alexander Condello|Handle n<1 case for TruncateComposite
+37843cedc3daa4bc5b40fd50777a180bac5540bf|2019-02-19|Alexander Condello|Refactor TrimComposite to TruncateComposite
+cd36b6f0ed12ce96b29da462c42d0f2974a2863c|2019-01-30|iozfidan|Add trimcomposite
+5e1b06a5005c994acd25793b5a5527430a8c72d4|2019-02-15|Alexander Condello|Update version 0.8.4 -> 0.8.5
+eafc63e2840417d278dde055c252d93b81d452d1|2019-02-08|Alexander Condello|Require numpy 1.15 and support 1.16
+0f22dc58ff3fcdfd460adef861ce2f11710da8a1|2019-02-08|Alexander Condello|Merge pull request #405 from arcondello/feature/pickle
+dd648f0503d34d40455daf0783c406abcd8a88e0|2019-02-08|Alexander Condello|Merge pull request #384 from wbernoudy/bson-serialization-bug-fixes2
+5de73eaf6f0d9a3c3157a50addc93805ffe7a48c|2019-02-08|William Bernoudy|Add option for bias dtype in bqm serialization
+987b8066b843960ef237c7ffb48c0b91efd901fa|2019-02-08|William Bernoudy|Add copyright notice to new tests file
+f96d93512a48a03b59c9b654b85512a3cd1fb654|2019-02-08|William Bernoudy|Add optional `bytes_type` param for serialization
+5ce16cd011bb3ac80d9a1305ddd45876d67d7f3a|2019-01-22|William Bernoudy|Handle binary data in bson serialization in py2
+931ff634d8fc62074780b5daa24a4c83113d92c6|2019-01-22|William Bernoudy|Ensure density calculation is done the same in py2/3
+54f2b12de6043ad6df552006e41ec44620f3f193|2019-01-22|William Bernoudy|Add more tests for bson serialization
+012c09ee8187b80830a1480d23d937c0f35b1665|2019-01-22|William Bernoudy|Allow for unsortable vars in bson serialization
+76cfd2931f3aaacf37e39218833d2307233ddd04|2019-01-22|William Bernoudy|Add tests for bson serialization functions
+71b2a5728e823ad0afe7beee8fe03e28601ebec7|2019-01-22|William Bernoudy|Ensure bqm offset is bson encodable
+6540ea440cff2e2ed513205d58b5d5f00930b2f9|2019-01-22|William Bernoudy|Avoid div by 0 when <= 1 var bqm is bson encoded
+51f27fa684a1e72cfaba0b183c0ad5e79df51d47|2019-02-08|Alexander Condello|Support pickling BQMs
+cbcea2e9809fa2016e5728cf6d170db7f02e2712|2019-02-05|Alexander Condello|Merge pull request #399 from arcondello/feature/SampleSet.truncate
+ac95a31d176c56038b56db8161a9f0af0e8bdb2c|2019-02-05|Alexander Condello|Fix SampleSet.truncate unittest
+e79e5914f80f13568ec9b7ab606872cd3c1d975c|2019-02-05|Alexander Condello|Reorganize SampleSet docs
+4d7fdf493f58b6377cd675a5b485ba47fb722887|2019-02-05|Alexander Condello|Add SampleSet.truncate method
+8e7a2b51c6add6c7885b2e62e280b0ab20bdc53d|2019-01-28|Alexander Condello|Fix version of pandas to build
+6dd8ae9230b963b96ebc0c994b71d37847cbb706|2019-01-28|Alexander Condello|Update version 0.8.3 -> 0.8.4
+26f0abd2eb2e57cc2a5ccc8c7d2aa6202d7dbed4|2019-01-22|Alexander Condello|Add sample_column kwarg to SampleSet.to_pandas_df
+f786d5c75c110f128c9c08a97c884f8b25fa138c|2019-01-22|Alexander Condello|Add sample_dict_cast kwrag to SampleSet.data
+825830145b609e5763c429745782e9f5dc4776e3|2019-01-22|Isil Ozfidan|BQM.normalize incorporates ignored in scale calculation
+83abe7ad77af9fbe1d7e5f4450187da99d211ffc|2019-01-22|Alexander Condello|Add assert_bqm_almost_equal
+72188236007a1225294a994f9684560de657d865|2019-01-22|Alexander Condello|Merge pull request #377 from arcondello/feature/sampler-core-vartypeswitching
+296dc15aa2e13851144e59e762d75f4a20ba322d|2019-01-22|Alexander Condello|Merge pull request #372 from conta877/master
+9245da6f860ef6f8598a2db7ee0dabf74aafaefb|2019-01-22|Alexander Condello|Update version 0.8.2 -> 0.8.3
+9d7abf142e936a237103d877513024669329b51c|2019-01-21|iozfidan|Fix docs
+64e4dd1b816f0786f2ec6dedd3a6e9abc1cf60c3|2019-01-21|iozfidan|Add check_isin function to higherorder for 3.4 3.5 bux fix
+bed56c0a30c3ab86a61007d9116ea65362574c0a|2019-01-21|iozfidan|Bug fix in test - 2
+d7e7e4fb88b5cd1eb400a8c0315aceb21f0851a5|2019-01-21|iozfidan|Bug fix in test
+ed33f0c186ce60e9a8cbfa9d7a40513c036b7f9d|2019-01-21|iozfidan|Modify tests for scaleComposite
+3d18f986861d6514ef2d1700e78863afb0f1454f|2019-01-18|iozfidan|Clean scalecomposite
+c3538d805d60bc514ebff01d33ec2e91eb514b14|2019-01-18|Alexander Condello|Merge pull request #370 from arcondello/feature/sampleset-print
+d9f9d6423e6f7103ced80e53d43c7f27a22df099|2019-01-18|iozfidan|Bug fix introduced by previous commit
+0a8c793ec55596d9ebb81f066b4ea9e6089e6d39|2019-01-18|Alexander Condello|Add tests that include offset to Sampler
+4e5c7791617261727b8a1e52474a35b844fb4dc1|2019-01-18|Alexander Condello|Don't change vartype of bqm unnecessarily
+7412722e3203d20721e9fc6eae72ca40fc5bef47|2019-01-17|conta877|Modify normalization of bqm in sample
+5ff41b5d2f7955a2af7dcff97840a99ba6511e70|2019-01-17|conta877|ignore ignored variables in scale calculation for sample_ising
+dbcbf82432676df2034461b54777c558b39df76c|2019-01-17|Alexander Condello|Fix import
+96143a4c4c51bcc599a98d230977b53fb0d96b36|2019-01-17|conta877|Add parameters to scalecomposite.parameters
+e9edfc726e9d559665f8ea333fac6f94f56d64f6|2019-01-17|conta877|Update docs for sample_ising in scalecomposite
+a0ed5dd086bfc53bbe2a5d21fc10123d14d8e738|2019-01-15|Alexander Condello|Add one smoketest to str(sampleset)
+9a751fe4dc5343e78946976e205fa7481ce74ec3|2019-01-15|Alexander Condello|Refactor sampleset formatting
+167234086ceda8cc31bc06f6eee8eb6fc3808df3|2019-01-14|iozfidan|Increase coverage of scalecomposite
+356d10f5a4c08fa19f8f83f731844c7e31487329|2019-01-14|iozfidan|Add scaleComposite
+8f47075e4ccefc249c5905ec878a8f4d4fbe2114|2019-01-14|iozfidan|Move _relabeled_poly from higherorder to composite
+91304d66c3e4cb773285f9e5d5b305cdd37f481d|2019-01-11|Alexander Condello|Add SampleSet.__str__
+91938b74aac2dff4fdcc6dc55bf3b710465799ae|2019-01-10|Alexander Condello|Raise ValueError for SampleSet.first when empty
+455b3b50a28c9718b9005e96050da6a0931d958e|2019-01-10|Alexander Condello|Accept iterators in BQM.from_ising
+90392a3971e4ebb70a1c6ed2a0173d24b76208aa|2019-01-10|Alexander Condello|Add BQM as alias of BinaryQuadraticModel
+7c089d09a55831a65e77bc1b41fbdfeec36aa91a|2019-01-10|Alexander Condello|Remove unnecessary type check in BQM.scale
+4ddc6dcc4236f6e438fad5a47b6bfe48a8334bca|2019-01-11|Alexander Condello|Add reverse parameter to SampleSet.data
+a25ba613693eb5abac9c52582572cd24ab29282d|2019-01-11|Isil Ozfidan|Add HigherOrderComposite
+7fda1ba0f92a44358d12c0e8f9831dc68c7768e7|2019-01-09|Alexander Condello|Speed up BQM.add_interaction
+350bf3ee3b77c75235558def4532bb582c8f27e6|2019-01-08|Alexander Condello|Fix warning for importing the ABCs from 'collections'
+5ffb5324a75493d0b096550f799c08c071c5b499|2019-01-08|Alexander Condello|Merge pull request #360 from arcondello/fix/as_samples-empty-case
+b02eab2f651cea013f45f8327a5b4deb396c5c10|2019-01-08|Alexander Condello|Fix non-ascii character
+6135dfc94962fbf9d10a4292a6d2064a68f36b9f|2019-01-08|Alexander Condello|Fix benchmark for as_samples
+4883be57bc4c6a2581abc52dbcc347e8033ae701|2019-01-08|Alexander Condello|Run benchmarks for .25 seconds
+571a2d2fc4d32014d909d5e04a79bc051fcc9821|2019-01-08|Alexander Condello|Speed up single sample list case for as_samples
+d55e9e83a56424700d0892d615500f28a4265396|2019-01-08|Alexander Condello|Add benchmarks for as_samples
+4a891b431de220d27a811eaccf777404b8dac5ab|2019-01-08|Alexander Condello|Fix unittests for SampleSet
+d186a4d27fa23df7eda48f822f2f16d12363b02a|2019-01-08|Alexander Condello|Refactor as_samples
+63e6969f516404723d28605fa675735c46a2ec68|2019-01-07|Alexander Condello|Update version 0.8.1 -> 0.8.2
+378b03a1df067ae4c12249bfcebf939a5324f1c6|2019-01-07|Alexander Condello|Return dict for BQM.to_ising/.to_qubo
+f54e8e2c740592960d221424314c0e21977c6f6f|2019-01-04|Alexander Condello|Speed up BQM.add_variable and BQM.add_interaction
+a804e903228585cc455b556a4653766d1246fe1e|2019-01-03|Alexander Condello|Add benchmarks using asv
+e8726c366b15a7ee8a3bcc83f665f4a02be8e27f|2018-12-28|Alexander Condello|Update version 0.8.0 -> 0.8.1
+d914bd76f6824e1c4fa0be28e14f180ae4b55638|2018-12-28|Alexander Condello|Handle concatenate([]) case
+21068755637be5a2fbfdc4675e18131661b8dbaa|2018-12-28|Alexander Condello|Add SampleSet.from_samples_bqm method
+9d40e72b6616773ff79bbd0dee25a3e09e0ce5c5|2018-12-28|Alexander Condello|Add aggregate_samples kwarg to SampleSet.from_samples
+225b8f1887fc8a879f4195c213f302e13f20e625|2018-12-28|Alexander Condello|Add SampleSet.aggregate method
+32de7c07a814395af6a238e3953b06516eca214d|2018-12-27|Alexander Condello|Add concatenate function for SampleSets
+4a243db412cfbbd8a0ba8d13fd22f44a6a7b3cf6|2018-12-27|Alexander Condello|Simplify example in SampleSet docstring
+5c8576958320c247750111e6936958412bad7acb|2018-12-27|Alexander Condello|Merge pull request #348 from arcondello/appveyor-conditional-build
+aac1f6377cc0033f0589cbc5cb0e65e1249860c9|2018-12-27|Alexander Condello|Only build wheel on tag
+97a633e8ceb18e8a28141dab95c3e2bc2646be82|2018-12-27|Alexander Condello|Update version 0.7.11 -> 0.8.0
+a5048c09b36359699ffa07f370fdc6a52bcfdc77|2018-12-27|Alexander Condello|Merge pull request #346 from arcondello/bug/appveyor-pyd-caching
+0ff0aa204f9f75d5a214569e9fae5daf23549e56|2018-12-27|Alexander Condello|In appveyor don't build wheel each time
+7568cc4cd8e7288b7bef2e3c1ae468763f4acaac|2018-12-27|Alexander Condello|Cache .pyd files in appveyor for python3.5+
+b0469a2bf1fc0accebbd3fc3d4cf61582a4bcb1a|2018-12-24|Alexander Condello|Add BinaryQuadraticModel.energies
+dfc4e3ed071bed57f62bb87668e3c4de07e37f1d|2018-12-24|Alexander Condello|Improve BinaryQuadraticModel.to_numpy_vectors speed
+960511e64b912761b68f961447ce2e52470d1706|2018-12-24|Alexander Condello|Update ABSs and references to use SampleSet rather than Response
+afbacd0300c8fc0100b1713f341fcf607537e87e|2018-12-24|Alexander Condello|Add deprecation warning to Response
+866537b0002d4f2d935293541052222be9b2e170|2018-12-24|Alexander Condello|Remove deprecated functions/methods
+28114185ad62688fdbd675703c36ed68743c2c5a|2018-12-19|Alexander Condello|Cache on specific files for roof-duality
+0c097dee721a118ac5b1bc4d21e8354ca8b0da15|2018-12-19|Alexander Condello|Condition cpp build on cython files changing
+866e378aac66ed5aef8b6211c00a5e9c33cce103|2018-12-18|Alexander Condello|Cache the .pyd file in appveyor
+1448b2a97d1905a154053899b23c8ee481ff141b|2018-12-24|Alexander Condello|Move dimod/io namespace under dimod/serialization
+be47200959ce6ab8e846ef276267866951b9a4f7|2018-12-24|Alexander Condello|Merge pull request #338 from conta877/feature/fixedvariablecomposite
+08cdf6538f42c694b53bbb6f569cc8b2543ee357|2018-12-24|Alexander Condello|Merge pull request #343 from arcondello/feature/circleci-xcode-10.1.0
+95c393f195c58bfceaeb5c4aa4f994e6d18448f1|2018-12-24|Alexander Condello|Change AssertAlmostEquals to AssertAlmostEqual
+d3a4e40d9746be1f5dc26069cbae2a62ad5b6ebf|2018-12-24|Alexander Condello|Use xcode 10.1.0 in circle-ci osx builds
+b87dcb5b19ae240ba5850a2f08f9aa6446d88159|2018-12-24|Alexander Condello|Update docs and imports in fixedvariable.py
+9b15df57640a1a66b747fbbe5eeff1b2408b7fb4|2018-12-24|iozfidan|satisfying doctests for FixedVariableComposite
+9b67e9fd99d9fdc2e947fe4c758fff5b51d1d9b3|2018-12-24|iozfidan|doc clean up, bux fix and example additions for FixedVariableComposite
+4139763e42cc591909c31a4b74d81da2a24c9c16|2018-12-24|iozfidan|added tests and comments for fixedavariblecomposite
+2f6e129f4894ae07d16aa290c35d7e7859138cc8|2018-12-21|Alexander Condello|Merge pull request #340 from arcondello/feature/remove-deprecated-bson-json
+bebaa830627aaa720ec2eb95148625796d08ebdb|2018-12-21|Alexander Condello|Remove BQM.to_/from_json and .to_/from_bson
+8a5be36b179a62955e5339a8065cc3f26b7e09f4|2018-12-21|Alexander Condello|Merge pull request #334 from arcondello/feature/SampleSet.to_pandas_dataframe
+ff3cf3b3bdffa5900a1bb1094865a39099977c10|2018-12-21|Alexander Condello|Merge pull request #337 from arcondello/remove-embedding
+164be59f47426d1681fbf4b7abffd7abbaba2159|2018-12-21|Alexander Condello|Merge pull request #339 from conta877/bqm_normalize_and_scale
+da20e5d31903b1b574bd223bf7fd1ce6f95e0eb0|2018-12-21|Alexander Condello|Update .scale and .normalize docstrings for sphinx
+722b0f7884e8c9e7b002fc4ae5f50ce4fbae7436|2018-12-21|iozfidan|ignore offset for scale and ignore stuff options for normalize in bqm
+6ac026170a0377290e541e2aeeea4184cd605dc9|2018-12-21|iozfidan|does not auto-fix itself anymore and removed empty bqm handling
+d67dc8cd0f5bb74011cc14e93a766143e7cea83e|2018-12-20|Alexander Condello|Remove embedding subpackage
+1552313411028ccdffa4aedd5530c4aa53d548c9|2018-12-20|iozfidan|changing iterative variable fixing with fix_variables
+90dd1f60e070793581de68728dc65c56758eb0b0|2018-12-20|iozfidan|adding fixedvariablecomposite
+c6088ab90546fc347d2b8dad45d4ecbe32b6a57a|2018-12-20|Alexander Condello|Merge pull request #336 from arcondello/bug/embedding-out-of-range-biases
+3dc75301935c1a45a19de6d5ec9f3fd9fa0196f4|2018-12-20|Alexander Condello|Add more explanation to the smear_vartype parameter
+16b397d9d552bec3954c2dee29f1fd3a89009901|2018-12-20|Alexander Condello|Add smear_vartype to embed_bqm function.
+056c1572bebc4f47b0a9b64fe98e4d6b384f5ce4|2018-12-20|Alexander Condello|Consistent data fields in SampleSet.to_pandas_dataframe
+c98cdab0ea2575ad5367021b4136727b5e0bff02|2018-12-20|Alexander Condello|Add SampleSet.to_pandas_dataframe method
+54a79d8ad74234aac298d41531c76f73ee607b1b|2018-12-19|Alexander Condello|Merge pull request #331 from arcondello/feature/fix_variables
+03ef4350e69323d3eba36ed9f9f5706796b7e07f|2018-12-19|Alexander Condello|Add BinaryQuadraticModel.fix_variables to docs
+0f03a1920c5afb6751ad4d347e966d32bc93e77f|2018-12-19|Alexander Condello|Add BinaryQuadraticModel.fix_variables
+e89fd52174afdcb783a7859892b328ee989e01dd|2018-12-19|Alexander Condello|Merge pull request #326 from arcondello/feature/store-biases-directly
+96ef78f53b7762782491bdd635a2c2dd1d6c75d2|2018-12-19|Alexander Condello|Update version 0.7.10 -> 0.7.11
+8bf2485f4ce615718f9252e746d1181ce816b5e9|2018-12-19|Alexander Condello|Merge pull request #325 from arcondello/feature/appveyor-speedup
+fbcc0914f66c7fdc64d0fc9f47c9da6df63a4f54|2018-12-18|Alexander Condello|Don't force reinstall twine in appveyor
+b72ad20800fc1779a5091349308f3f07c49f89b6|2018-12-18|Alexander Condello|Store the biases directly.
+4c0e83e516053c5490c8e2e9706c5bbb19af3a2a|2018-12-18|Alexander Condello|Merge pull request #323 from arcondello/feature/bqm-less-redundancy
+53627c636691e79d5a81276c0d08a25bec974da8|2018-12-18|Alexander Condello|Add error messages and fix typos in views
+e87b9d9daba53780850d391715733c5f7690b1b7|2018-12-18|Alexander Condello|Fix twine deploy with caching in appveyor
+7d7fadcabcd8299de3acb8957262d1f73656864a|2018-12-18|Alexander Condello|Update version 0.7.7 -> 0.7.10
+d17f3b0e68f3cdf54c71bd666f9ce394c2fb8691|2018-12-18|Alexander Condello|Documentation and bugfixes for views
+0d043a50fdbde1927b776e2facdbc3863ccaf37f|2018-12-17|Alexander Condello|Fix unittest that used OrderedBinaryQuadraticModel
+95ccc22976ea138c99c28a446b07cb2967ecb867|2018-12-17|Alexander Condello|Return set for BQM.variables in python2
+bbea4365cc091df647464abf002a066d13248b43|2018-12-17|Alexander Condello|Remove OrderedBQM object
+60a859ba5895731bd88dfc72147a010077a29f51|2018-12-17|Alexander Condello|Store BQM biases in a single data structure
+98b10d82dced2732483c501e257c2a9f15c243aa|2018-12-17|Alexander Condello|Merge pull request #322 from arcondello/feature/seperate-variables-views
+4e706c8c1524b26f82fa53dbea40953db5ab2845|2018-12-17|Alexander Condello|Rename VariableIndexView to Variables
+65c5d3861537784e20891524249c33dc051ebdb3|2018-12-17|Alexander Condello|Merge pull request #321 from arcondello/bug/make-quadratic-unittests
+f2472a98b18a5143ea7e3f2336078ff0364446ce|2018-12-17|Alexander Condello|Add poly_energy to higherorder
+531d87466a5e16c50085a0518536f69bc9b75068|2018-12-17|Alexander Condello|Merge pull request #320 from arcondello/bug/fix-variables-unittests
+752ad03522a1990f2ecd0a688aad2b1d54bb5e65|2018-12-17|Alexander Condello|Only run roof duality unittests if built
+c7506ff876986a254c8739ea1258d656c72f8b53|2018-12-17|Alexander Condello|Merge pull request #319 from schnorea/patch-1
+246be257472393bb7216fc0c2972bdb6f9c9f6e9|2018-12-13|Aussie Schnore|Fixed Broken Link
+31edb2f17d549a999925804bbe6a4be5a7f3dd4e|2018-12-05|Alexander Condello|Merge pull request #318 from arcondello/cpp-build-tests
+17608f8eb6f0850e18cc42d8a1ec34ca3fa54cae|2018-12-05|Alexander Condello|Run tests with and without c extensions
+3d43cbf0db5126956b45a0100b6e4da4af85c00d|2018-12-05|Alexander Condello|Remove unnecessary __all__ from decorators.py
+0d8987c77c604a1b724ace26c718bfd00b8de6d8|2018-12-05|Alexander Condello|Merge pull request #316 from arcondello/feature/appveyor-speedup
+0bccb592644b50701545a20d678c9c6a317bff21|2018-12-05|Alexander Condello|Speed up appveyor builds and fail fast
+46b169a82cf0e34b4b904604c27998f3ac2f048d|2018-12-03|Alexander Condello|Merge pull request #314 from wbernoudy/index-labelled-input-decorator
+9fe1f668a18bb81655cae45e6a3b45545d78cf6f|2018-12-03|Alexander Condello|Merge pull request #315 from wbernoudy/bson-improvements
+26e66859ae07b33bb5e45f39b38ef9118f6ee7a1|2018-11-30|William Bernoudy|Fix complete indexing in bson serialization and remove <= 2^16 variable restriction
+d1d154133ef408aca76c3d442efd27866bf40f92|2018-11-30|William Bernoudy|Correct typo in decorator docstring
+8c24f295a4b5735be105d7a36e0384e361b7b65a|2018-11-29|William Bernoudy|Added `bqm_index_labelled_input` decorator for #313
+03ed87bc95153088b8b5f9b843f4772b556ff29f|2018-11-23|Alexander Condello|Merge pull request #310 from arcondello/issue269
+a6e1ede55c3cc38b1dc4044c24330fbaa91b6372|2018-10-26|Alexander Condello|Allow interactions/variables to be excluded when scaling bqms
+680b0434b77e17e211e74f84503b05a476b9ec64|2018-11-14|Alexander Condello|Merge pull request #311 from wbernoudy/bqm-normalize
+435c1d84acf624049204e0f18192aaa305db79e6|2018-11-09|William Bernoudy|Simplify BinaryQuadraticModel.normalize interface
+895b4e37104f6952bf75e8fbbfe267ad42645871|2018-11-06|William Bernoudy|Add more options to BinaryQuadraticModel.normalize
+1c6f48f1ecdcc3ff7401b6a8a8a7db11ecebd3f5|2018-11-06|William Bernoudy|Fix BinaryQuadraticModel.normalize docstring typo
+377715016f7809d4d6f87c1c9c4cf623734e7e29|2018-11-06|William Bernoudy|Add test for BinaryQuadraticModel.normalize
+eb394cf199876b0db2265daa3d2ef2ecd14c081a|2018-11-06|William Bernoudy|Add normalize method to BinaryQuadraticModel
+f78e5a33293119f5f67a53168fe45441db7c5e07|2018-10-26|Alexander Condello|Merge pull request #309 from JoelPasvolsky/bqm_func
+595c472352177179f7b3c31191d8df72b5feab4d|2018-10-25|Joel Pasvolsky|Update BQM Functions
+c969a0933e4b3aedf7d47cc442168694d18aff14|2018-10-25|Joel Pasvolsky|Update installation instructions
+585a8dd7bed51fc0674a3b0d5d4f85e022a74740|2018-10-25|Alexander Condello|Merge pull request #303 from JoelPasvolsky/refresh
+f86ae2d132d6c6cb83e0e8afd65abed474cc5dea|2018-10-25|Alexander Condello|Update version 0.7.8 -> 0.7.9
+068980b3a10fd9b8a5e18b17ad1e51d216ddcd67|2018-10-25|Alexander Condello|Merge pull request #307 from arcondello/issue305
+ed2fe4b76b42b6aab1c1bcf4a0f7c8d43323e704|2018-10-25|Alexander Condello|Allow empty samples for SampleSet
+63d9efac1c553e86c2cab6554d0af1ab3188b3c7|2018-10-25|Alexander Condello|Merge pull request #306 from randomir/sampleset-testing-assert-fix
+4ca39711c24406ea40785ffcdd39a15df0728b91|2018-10-24|Radomir Stevanovic|Generalize testing helper to work on SampleSet (+Response)
+c4ad41521ad593cf88ffed43f7638b4e34f6da08|2018-10-24|Joel Pasvolsky|Update sampleset
+7b1363c4e94feeed451dceb5e47bc9a11c1038e7|2018-10-23|Joel Pasvolsky|Update samplers & composites
+c2cc2c2697ca95ba1d51424f4c31ba94b27905ab|2018-10-23|Joel Pasvolsky|Update bqm
+7e46763f1cb8cc696ed83cb6993a72b3ac43c1b8|2018-10-23|Alexander Condello|Update version 0.7.7 -> 0.7.8
+79c37c654a64c837cebd84816dabaac710026efc|2018-10-22|Alexander Condello|Merge pull request #297 from arcondello/samplesetkwargs
+df7138441cc2ca683ba8522904fb983a984ae078|2018-10-22|Alexander Condello|Fix SampleSet.from_samples misnamed variables
+39c9e858f588db976a01707b3d6e4029dc56fc14|2018-10-19|Alexander Condello|Merge pull request #296 from arcondello/issue295
+d12e42beb84366a874a44ba2fa9902ffe2edf806|2018-10-19|Alexander Condello|Fix missing import in sampleset.py
+30c9b5a8bc289aee9b276a4ebc2ce27e8413e2f9|2018-10-19|Alexander Condello|Merge pull request #294 from arcondello/views-tests
+b160f362c6239c15fb0fb487968a6549504df9bf|2018-10-19|Alexander Condello|Add unittests for VariableIndexView
+402b5dab16a512b908bf8c08bd183681685acb5e|2018-10-15|Alexander Condello|Merge pull request #293 from arcondello/appveyorboost
+3c59e35fac26e0b5b1c0b6ddcd703402de897d95|2018-10-12|Alexander Condello|Fix appveyor wheel construction
+ac2cbff606c77edc2834c26d6bef817a6debc4fe|2018-10-11|Alexander Condello|Fix bug in appveyor deploy
+682f6419cd3df3cb7ecdc940178732eaa63c9227|2018-10-11|Alexander Condello|Fix variable_label attr bug in SampleSet
+36e63e9f996e7afd1bd69eac303625ccb1867492|2018-10-11|Alexander Condello|Fix bug in appveyor deploy
+9d9284c93ca429553b1140ca2bd9d4424f6ba756|2018-10-11|Alexander Condello|Remove temp file that was added accidentally
+0be5f18e87424d2563703dd383bcaeed88633110|2018-10-11|Alexander Condello|Update version 0.7.6 -> 0.7.7
+4f5d7abea46ea2da0b154e8f2ea48968ea86b7f7|2018-10-11|Alexander Condello|Merge pull request #290 from arcondello/response_serialize
+707d68b9848cb553cd2720f089cf7cb28b5cba9d|2018-10-11|Alexander Condello|Remove erroneous validate json function
+7bb4bad87d6cd4be8c1ad38384833fd994b87e33|2018-10-11|Alexander Condello|Fix SampleSet __eq__ bug
+23d71a2203b61c6db8f726ac46ffa6ab48f9a3ba|2018-10-11|Alexander Condello|Add serialization to SampleSet
+b1b4741664b083d351697e2c74eac70368db9b24|2018-10-11|Alexander Condello|Merge pull request #288 from arcondello/sampleset
+35c5f1686e4619098e748e5eead45087808831b7|2018-10-10|Alexander Condello|Update version 0.7.5 -> 0.7.6
+91c7ef5fa261a101335788aecc6de89bb53050de|2018-10-10|Alexander Condello|Finish SampleSet documentation
+26ba77e5c8cec97a7a592a4b03666ec7c1c94151|2018-10-09|Alexander Condello|Add samples_like docs
+f61a3a9fdbdc9adb4fed7526230b3485e6915c5a|2018-10-09|Alexander Condello|Remove SampleSet.from_response method
+1ecb6a2ef7ed9920ac47a8dfc0b1474314d13597|2018-10-09|Alexander Condello|Add docs framework for SampleSet
+b53f39296036f1899543af56f53326ace600ee8c|2018-10-09|Alexander Condello|Remove unnessary copy from SampleSet.copy
+f083fac26e21953f2ce1f1dd0651700317068b10|2018-10-09|Alexander Condello|Simplify _samples_dicts_to_array parameters
+cf5dbb55a38470b5f394488cbb2e09a034bcec0b|2018-10-09|Alexander Condello|SampleSet.from_samples no longer accepts iterators
+5dad1ab0ed70d9d5eadc2fbd6330477481ae2d07|2018-10-09|Alexander Condello|Fix __repr__ for views
+50568b20b9083be0f66768c59858226891044c85|2018-10-09|Alexander Condello|Fix equality for unordered components
+5b66dd1fa7e6365555dc7d2a34518d1eebabd1c6|2018-10-09|Alexander Condello|Point appveyor badge to master
+f52d5429d9cfe7c03bdff85f11ae163d5f4311cb|2018-10-05|Alexander Condello|Make SampleSet object
+743b00465d8b726a42e0eda12fcf2aafbd98ec58|2018-10-03|Alexander Condello|Merge pull request #287 from JoelPasvolsky/leap
+aba11f302982e14103866efc53509dff9e0d3ef9|2018-10-02|Joel Pasvolsky|Update template (leap)
+c941803f0dba08dd5b0515c3d9f5585072b14c5d|2018-09-28|Alexander Condello|Merge pull request #285 from arcondello/issue283_282
+441fe64c6469a85e4e296a93114c13d83a7f9c90|2018-09-28|Alexander Condello|Merge pull request #284 from arcondello/build_fail
+f6118129390d86176acb217a5a7cd157fe067abf|2018-09-28|Alexander Condello|Add py2.7 graph_argument support
+c76bc71306ff20f12abf0370322cbb542335f752|2018-09-28|Alexander Condello|Fix generators/random docstrings
+17e37853577d2908be74dade4aafa100c3908478|2018-09-28|Alexander Condello|Remove unnessary win py2.6 support
+56006f2cee9799a5b1c894ff19459020e5df17a9|2018-09-28|Alexander Condello|Allow doc build for roof_duality function
+0584006bf15bdd654dbe89abef67087fa3c7f774|2018-09-28|Alexander Condello|Remove boost install from circle-ci doctest
+b6df9839f68623a448d7f6999ecef7f5b75d8638|2018-09-27|arcondello|Allow setup to work when c++ extensions cannot be built
+bf8c9432026e837138d9595b6498b0c7cb4f5be1|2018-09-27|arcondello|If c++ extension build fails, don't import into top namespace
+15991e8d451aa7cd019bd204b0e0da530056b8a0|2018-09-27|Alexander Condello|Merge pull request #280 from arcondello/problem_gen
+d161b99ec0c7b418be315b0c88e2a97ce30f0450|2018-09-26|Alexander Condello|Update readthedocs badge
+c24a12a47887d3fadc64cea40c452367b2a3403f|2018-09-21|Alexander Condello|Fix generators to work with python2.7
+0bf17e80f5170581445d03cf597e3b4725ee2b5a|2018-09-21|Alexander Condello|Add headers
+796f34a44d33264d9debfcd6236f6063c639f68b|2018-09-21|Alexander Condello|Add generators subpackage to setup.py
+b30742bbde0c9782491b7be30ff306d9254e3430|2018-09-21|Alexander Condello|Refactor bqm generation code
+8be776993466819e1d43a8739888a8344f6c6c81|2018-09-20|Alexander Condello|Add decorator for graph inputs
+b0d639856fe63c1de2a9dfa8a672e86741410cf1|2018-09-19|afrechette|Add problem generation functions from ezdw
+2d1fe4e3d0e17cd3b72e1175f033fdf7c1cdf025|2018-09-18|Alexander Condello|Remove erroneous universal flag for wheels
+25d4f108916769dee100b76d033c7831d09ee4ca|2018-09-18|Alexander Condello|Update version 0.7.4 -> 0.7.5
+a9e0a8eb66af124309b2e02f55a51aaad415c9e3|2018-09-18|Alexander Condello|Merge pull request #279 from arcondello/cython_deploy
+b30816fb0b07884e70be81e9e7b3b716ee69e06d|2018-09-18|Alexander Condello|Add appveyor deploy
+62dfd212a679be1b4f9208a5d9639e0140f09a90|2018-09-18|Alexander Condello|Add circle-ci deploy for osx and manylinux
+11717922ca35fbed9e095b01db6436e747f00ef5|2018-09-18|Alexander Condello|Merge pull request #276 from arcondello/fix_variables
+59937d95b6192cbe636de77ecb91164d68e13770|2018-09-17|Alexander Condello|Merge pull request #278 from JoelPasvolsky/links
+cb97f47178bbdeab51402eab12853ceb8d98cccf|2018-09-14|Joel Pasvolsky|Use intersphinx instead of explicit links
+a0b70ab6cbbf8701882245dbd000693503925108|2018-09-12|Alexander Condello|Add Apache 2.0 headers
+163e22ffe312643a2d12474a8bdcd38e61684c02|2018-09-12|Alexander Condello|Add citations for fix_variables function
+348c6030ddd65dd40698c932f60229114a3b9965|2018-09-12|Alexander Condello|Point to boost headers in appveyor
+fa65f69bd50183c16175dd7498ec78d777e53b57|2018-09-12|Alexander Condello|Add cython build to appveyor
+905943b656c8bae8a7e6f8db1142d3c3fbfe90bf|2018-09-12|Alexander Condello|Add boost install to circle-ci
+8b8fe189eb47aff9b016049174ae11f3d59608bf|2018-09-12|Alexander Condello|Update setup.py for sdist construction
+ea157fa2696065772e8dfb364cd0a2355bb62e56|2018-09-12|Alexander Condello|Add cython build to CI
+3a48b4057a04d2aa314db4f30c22eab2cc33b3b9|2018-09-12|Alexander Condello|Add fix_variables to docs
+d9fb7d239919728569ba210949784ca35a68d0b8|2018-09-12|Alexander Condello|Merge pull request #275 from JoelPasvolsky/from_coo
+16a12a5e92b16121f853fa020b625ecd714f10e8|2018-09-11|Joel Pasvolsky|Fix also for string
+df8d79e101bf008bbbfbd13ab517e9aea65564b6|2018-09-11|Alexander Condello|Add python bindings for roof_duality
+fd2b5f478200b8f85364e2b5971af49380a9a564|2018-09-11|Alexander Condello|Move to roof_duality subpacke
+ff1bd6e8f7383b38a57fb0e8a93ee2f5bf10e877|2018-09-11|Joel Pasvolsky|Fix vartype test
+820306a397f9c5b8f61d7b1870a5be884effc772|2018-09-11|Alexander Condello|Merge pull request #274 from randomir/master
+8d12491ef016966568f02b7149a94c90ec444247|2018-09-10|Radomir Stevanovic|Add 'Response.first' property which return the first Sample
+27d020a347c5cc61127e3cf76f05c74a35de3ad7|2018-09-10|Radomir Stevanovic|Implement Response equality operator
+b3fb49e6a798e8e3a75ead3cb8411d270caeef6c|2018-09-10|Alexander Condello|Move fix_variables to the appropriate path
+618c047f3a51f228ea8e394bbfe902ed45b82fee|2018-09-10|Alexander Condello|Add fix_variables source
+3e299b067271329b0eb1acc71960633ce860af48|2018-09-10|Alexander Condello|Add infrastructure for fix_variables method
+de1d40e5ff1e3655c19d197372bda2c7750cce6f|2018-09-05|Alexander Condello|Merge pull request #271 from beittech/energy_float
+fc57307c66d04b09b025ce8f520ce85b10a77b86|2018-09-05|Adam Szady|Force energy dtype to float in the Response
+6041ecfa5b9bb89a7fa1502fe4d26868dc749b94|2018-08-22|Alexander Condello|Update version 0.7.3 -> 0.7.4
+3a35eb42729c3d365af2c21b5400f234e98a71b0|2018-08-21|Alexander Condello|Merge pull request #266 from arcondello/issue246_chain_break_warning
+d931484edf1da2d94dda1ce25a9c284d46b77ebf|2018-08-21|Alexander Condello|Add chain_break_fraction kwarg to unembed_response
+67f88fd545767cf999bf86e86bf93489f3a503b9|2018-08-16|Alexander Condello|Update version 0.7.2 -> 0.7.3
+ae0badebdbebc1aca27e05bec2dbd8c9790d03bd|2018-08-16|Alexander Condello|Merge pull request #263 from arcondello/issue262_coo
+eecf05c3af62f004a4179869c7a6670f269f289e|2018-08-15|Alexander Condello|Add support for headers in BQM COO methods
+53a6efa00f23cd87774579536d589433601adca7|2018-08-13|Alexander Condello|Merge pull request #260 from JoelPasvolsky/isuues
+3a127302b425ac4f0c3871eeac4a634eded7558f|2018-08-13|Joel Pasvolsky|Update issue templates
+b312b8bb65b9b3e0b542661d9f7164ed0a068a35|2018-08-13|Alexander Condello|Update version 0.7.1 -> 0.7.2
+6b01d54ef0ad57be58f9646cd6693a3188d147b2|2018-08-13|Alexander Condello|Merge pull request #259 from arcondello/issue256
+3f86b923d68d9cd36fbcfc2a7954c5ff470aa2f7|2018-08-13|Alexander Condello|Fix unembed_response for embeddings larger than the source bqm
+4ebac589cfcddcfcef4b4e5160a07c5f67d999f6|2018-08-10|Alexander Condello|Update feature request issue template
+58102d86c5c6165cc32f3f4f303cca2b0bc516f7|2018-08-10|Alexander Condello|Update version 0.7.0 -> 0.7.1
+b7dfdc2524408856852e1462f96e9e5a645c9e96|2018-08-10|Alexander Condello|Merge pull request #253 from arcondello/final_serialization
+fac400bd8eb411497f490590c515e48457d004a8|2018-08-10|Alexander Condello|Add examples and links to bqm serialization docstrings
+6bb2ee8739b87ac180a98c98341cefed7d1df84a|2018-08-10|Alexander Condello|Handle py2.7 binary quadratic model bson serialization case
+a4bbaf14e58373f5747c3c8951bd6a02278367fa|2018-08-09|Alexander Condello|Add to_/from_serializable
+a59289c65b0d76a1ab1dab56e46c56b08fbe4d5e|2018-08-09|Alexander Condello|Merge pull request #252 from kotarotanahashi/Fix/typoInWeightedRandom
+0947532b04c40230a47d1e65c299cd83d2633653|2018-08-09|Alexander Condello|Merge pull request #251 from kotarotanahashi/Fix/ArgumentOfChangeVartype
+20d9f7adcacd0b57e6ac1db0fb58ad20d9de61ec|2018-08-09|Alexander Condello|Merge pull request #250 from kotarotanahashi/Fix/UseOfDeprecatedMethodOfResponse
+3f3d6e027ccc5488b4eb1112eee14982d92ca6c3|2018-08-09|Alexander Condello|Merge pull request #249 from randomir/master
+bc64d8274a1a0d9b6f4ed4d767fe9fcac74e9a15|2018-08-10|Kotaro Tanahashi|fix typo in docstring of weighted_random
+c62fa9d715686b1d9746c1bfef45d861830ac21d|2018-08-09|Kotaro Tanahashi|fix test on numpy array
+de47bdc5658f1eea6d98af399683a81a3a03b283|2018-08-09|Kotaro Tanahashi|fix illegal argument of change_vartype in Sampler.sample
+256b7f59c571e16cc562443a1a5388ebdcd3a5e4|2018-08-09|Kotaro Tanahashi|replace from_dict by from_samples
+3c848ad0fb24d7cf98c907205bf4288006972308|2018-08-08|Radomir Stevanovic|Fix typo in embed_ising argument name
+11d52f503ff3055491b6c2ce0b3c4ca3ab5e68c3|2018-08-07|Alexander Condello|Update version 0.6.x -> 0.7.0
+5d7a9fa04c050c0e962b0712cd38a50d6dc904ec|2018-08-07|Alexander Condello|Merge pull request #248 from arcondello/bson_docstrings
+9e6bd5f287f45495b034d58c19723f4195badb8a|2018-08-07|Alexander Condello|Touch up to_/from_bson docstrings
+d43ef409bd487ec1ee05f8a00da0f39f3510168e|2018-08-07|Alexander Condello|Merge pull request #235 from wbernoudy/bqm-bson
+f0fc89994f75e5b3bb95cc0d42d7dbe81850205a|2018-08-07|William Bernoudy|Add to/from bson to RTD
+f18794954afe87e102b0e92c55a023b7a7509d74|2018-08-07|William Bernoudy|Add :meth: link in from_bson doc and remove superfluous `list` call
+7248f3dc5261875eef4a7474ed5693acb1cbd4e5|2018-08-07|William Bernoudy|Cast unicode to `str` in from_bson so python2 handles vartype properly
+e26d3070f2512bb87c2d35e4de47a4c7756ebc90|2018-08-07|William Bernoudy|Change bson dep from using `bson` package to more standard `pymongo`
+57e1bb4c496f5c9d153770cc61590b0853765d77|2018-08-07|William Bernoudy|Add bson package as dependency
+dac0bde9c71d0f4720a90d13c3601e930692137a|2018-08-07|William Bernoudy|Fix recommended changes for BQM to_bson/from_bson discussed in #235
+049e72cc5c21ce5470013ccced2c277833fc23f3|2018-07-26|William Bernoudy|Add docstrings for `to_bson` and `from_bson`
+e5272b733d7588172d8dc78b31c6cbd937af278b|2018-07-26|William Bernoudy|Add methods `to_bson` and `from_bson` for BinaryQuadraticModel
+b1f8efa20a00a68711a226590adbbe8e4b1a889d|2018-08-07|Alexander Condello|Merge pull request #236 from arcondello/to_json
+b99872ce12f452ab5624adfc6cb5a59f4a5aa36c|2018-08-07|Alexander Condello|Merge pull request #243 from arcondello/new_response
+1c99cd377034b252c94a919b801a881d1d13cab5|2018-08-07|Alexander Condello|Make required record fields a class property
+592a77987d335710d1b434168d13f34925ee0455|2018-08-07|Alexander Condello|Don't try to overwrite properties
+be7d7798b60cfd10f9545caa9341b8d153f490cd|2018-08-07|Alexander Condello|Merge pull request #245 from dwavesystems/issues-templates
+4e63e34c3d0399050716fc8262a20ce40c284af6|2018-08-07|Alexander Condello|Update OS example to one more relevant
+b8d68ab28381a8090a182ea1b9f3a0f2b4ce7a35|2018-08-07|Alexander Condello|Add issue templates
+fd362595a8d4e0d095e0184c09eec46f645df7a7|2018-08-03|Alexander Condello|Add docstrings for Response
+1a38d9f49a210fe85d91771982849dfd68934cbe|2018-08-03|Alexander Condello|Fix docstrings for new Response (and other misc)
+16133e6ac30367bb5edd94bf255219648ce12bdd|2018-08-03|Alexander Condello|Update SpinReversalTransformComposite to use new Response
+639aacaeaa5be8148286b77c2ff5a9c6118ed5d9|2018-08-02|Alexander Condello|Revert Response.labels to Response.variable_labels
+cd32925c44f2e71fc8f46f5eed028ff9efb63e6c|2018-08-02|Alexander Condello|Fix bugs for CI tests
+c0c5e6de68ed52e1e9560c1dd5fefda9979cdde9|2018-08-02|Alexander Condello|Add apache header back into response.py
+22b84ab8f034b44148a65e17c7f79e568cb03cc1|2018-08-02|Alexander Condello|Remove old response object
+521acf143d95bd45afb3aa00f35dd66004dbc575|2018-08-02|Alexander Condello|Adapt other logic to the new Response
+61b07497d672591f0b03970403166bef8308b85f|2018-08-02|Alexander Condello|Merge pull request #240 from arcondello/OrderedBQM
+34553b3acc7e2f6b38821d37fc5ef1db3ce3755a|2018-08-02|Alexander Condello|Refactor Response object
+1722bb9e027be28c7f95efc8b685ce91cf3429e7|2018-08-02|Alexander Condello|Improve OrderedBinaryQuadraticModel docstring
+493c761125f146c66b12dc382e0c68bd78080a20|2018-07-25|Alexander Condello|Correct response docstrings for vartype
+be8e56bf8865fef540f6c0224447a543f782b597|2018-07-25|Alexander Condello|Fix ordering bug in response.data
+fffbca5391098acfdd637f51bc6c53c5e10e8fb8|2018-07-25|Alexander Condello|Fix example in README
+44989fcd13aac666258c2746d465087836b6f22d|2018-07-24|Alexander Condello|Update Response to use record array rather than matrix
+c627ae54c3d9f276251a46ecf772b7fea99ffc11|2018-07-13|Alexander Condello|Add experimental structarray code
+8537ffc6eecee75d7f08ff16d941227db1157e15|2018-08-02|Alexander Condello|Add OrderedBinaryQuadraticModel
+8ebfffa42319aa4850cfc5a1c99a8711eac44722|2018-08-01|Alexander Condello|Merge pull request #239 from randomir/add-variables-property-to-bqm
+bf70fb4173105bd2a66051f6c8cc6c2aba1ca681|2018-08-01|Radomir Stevanovic|Add BQM.variables property
+71c0cfb4d693987ae973110300aee89d6deecfcb|2018-07-30|Alexander Condello|Simplify to_json to only always return a string
+0b703427df34de3f2af2746b43386aee94eedcef|2018-07-30|Alexander Condello|Remove to_dict/from_dict
+7b920db3fffcab1c65853eed28b764f87c3348a4|2018-07-11|Alexander Condello|Add apache header to test_io_json
+6e6604f05a324f420f4cce4ec0f3807a1484c1cd|2018-07-11|Alexander Condello|Add to_dict from_dict to docs
+bac76a88fabcb86803ec4561ea70c8081c5eeb07|2018-07-11|Alexander Condello|Add BQM.to_dict and .from_dict
+cd354dbbf688aa6a8adc3ae79b87c5265f2b372a|2018-07-11|Alexander Condello|Clean tuple-label encoding
+24ee33a2f472c3ca0dfdde2a89009fa65a423410|2018-07-11|Alexander Condello|Refactor dimod.io.json
+3b4243f81cf0c6d9c1e66dae5f9ea75d4a438d48|2018-07-25|Alexander Condello|Merge pull request #234 from arcondello/py34
+cace968c5534e5e6d3e5f7312bee9c7eb6d0a190|2018-07-25|Alexander Condello|Add 3.4 to allowed version
+fb089b5c008d4a858874a8bd05f3f69c0aa00fe4|2018-07-25|Alexander Condello|Add 3.4 to appveyor tests
+6b8f59cf65dfd0b2ac20d663ce09ea52296ae27e|2018-07-25|Alexander Condello|Fix typo in circle-ci workflow
+27aebfb1309b12098e4a2d84db983e937ed7e276|2018-07-25|Alexander Condello|Break osx builds into separate jobs on circle-ci
+61c80abb97f72e1ccef4fed3257eeb51cf4dea01|2018-07-25|Alexander Condello|Cache dependencies for doctest
+b15b631296639faead4482452d087a3c6b073a97|2018-07-25|Alexander Condello|Add python3.4 to circle-ci builds
+7f9bf76becc3c603b751a6eaab06a0d0d8394682|2018-07-25|Alexander Condello|Merge pull request #226 from arcondello/issue222
+a71dfaf45b50d1bcc49b084d67c305f0aa1f4765|2018-07-24|Alexander Condello|Document new chain break methods
+3161eb3af3cac9c0947e938b42839651d88940ae|2018-07-23|Alexander Condello|Finish matrix MinimizeEnergy implementation
+7f7ea4a60b2f538aa95e364cc801dd9c9044ab58|2018-07-23|Alexander Condello|Update tests for new chain break methods
+aff2bcb2cfe5e869ce852c3809341e442ede1f1e|2018-07-23|Alexander Condello|Add stubs for remaining chain break methods
+2e287574846f26aa78fb0471223740b0fa17f148|2018-07-17|Alexander Condello|Add some tests for embedding
+cb78592a30a93aa28ef707d8f886022c5dda01f6|2018-07-17|Alexander Condello|Reorganize embedding tests
+a1da0fd1dd064ee3ce6583e0b0131fdd9c9c2bb4|2018-07-16|Alexander Condello|Update unembed_response to use matrix methods
+01422261b302d2a81a9a37e0b49458403265067c|2018-07-16|Alexander Condello|Add more matrix chain break methods
+e9c2d9d520e4b0bc5d46df952a2ab7eb29d9ad9f|2018-07-24|Alexander Condello|Merge pull request #231 from arcondello/circle-doctest-speedup
+676b0cb365cdcdfb8f45ae00caa24d4aa9793125|2018-07-24|Alexander Condello|Update minimum numpy version to support py3.7
+c0d23584d2e63a9f7ab1bc2b6e574ab386ebeef2|2018-07-24|Alexander Condello|Fix test-doctests
+7748cd93af459d2dcfb5cc539b6d45a288cd48ae|2018-07-24|Alexander Condello|Add 3.7 to appveyor builds
+2b7d0406d70cddcce82f1cefb6c2b4a9030edf29|2018-07-24|Alexander Condello|Update .circleci
+fbf1c518f2e19350f8bb2d85501d4b138e2714c6|2018-07-23|Alexander Condello|Merge pull request #230 from arcondello/vectors_empty_quad
+d2b39576864e83962cd7aa09d280bf7979bd5e90|2018-07-23|Alexander Condello|Fix to_numpy_vectors method for empty quadratic
+f1cd8b56718a01db705852345640f69c3eb09fb1|2018-07-23|Alexander Condello|Update version 0.6.12 -> 0.6.13
+95ca20ff1b46e33fc25c150faabaa97d029ff243|2018-07-19|Alexander Condello|Merge pull request #229 from arcondello/enum
+b2d7c3a5198f96db960f6124ccf7ae8c7f43fa87|2018-07-19|arcondello|Install enum34 only for <3.3
+41422455601f57c802e05ccc89b6eb73f010f4ea|2018-07-17|Alexander Condello|Merge pull request #225 from arcondello/to_vectors
+6d200aca7b75b83677a04586db3a654d92999cd2|2018-07-17|Alexander Condello|Cast numpy dtypes to floats in from_numpy_vectors
+f328414e21ffd15a5db13a5051a0ab13fbf3da55|2018-07-17|Alexander Condello|Add to_numpy_vectors, from_numpy_vectors to BQM
+8133c2a4042dbbdb29d1e7f0e4d2aec8af0ee5a0|2018-07-16|Alexander Condello|Merge pull request #224 from wbernoudy/master
+00d25784581ab0ef6be240a83e780e7cff2f5178|2018-07-13|William Bernoudy|Correct order of quadratic bias labels in BQM JSON encoding
+c17f8f36ad91a12a580d12afeceaaab6afafdf74|2018-07-11|Alexander Condello|Merge pull request #221 from arcondello/issue214
+ed704f1a8c33e3b2682dc5f4ff563ebe56006fc1|2018-07-11|Alexander Condello|Address pandas FutureWarning
+4a276254ae5c0e08b5ab371e4fce0e4c7c7df432|2018-07-11|Alexander Condello|Merge pull request #219 from arcondello/issue217
+1bd501f45f673eeafd25e2bd9dcde14f9ac429a0|2018-07-11|Alexander Condello|Add missing import to dimod/decorators
+b304c24b19740c0b1368e0f5056b1214674b6433|2018-07-11|Alexander Condello|Fix Response.done()
+54303f184427d1b3a2741cfb7ea1b1263f68a361|2018-07-05|Alexander Condello|Update version 0.6.11 -> 0.6.12
+591a2a0e8ec1c26d3fc7830570348a3c33efbeeb|2018-07-05|Alexander Condello|Merge pull request #215 from arcondello/hubo
+671c63d4cc96898797a43fe2dee9596ad3de21c4|2018-07-05|Alexander Condello|Add documentation and tests to higherorder
+380fa42453029a3da747daafd1d53e664f2b192c|2018-07-05|Alexander Condello|Replace reduce_degree with make_quadratic
+ff3b81f641a5bbed8e2b3f3919484225186df593|2018-07-05|Alexander Condello|Add code to reduce higher-order QUBO and Ising
+1ca57f590e65eb667e559d0776ff16f8b4baa7f0|2018-07-04|Alexander Condello|Merge pull request #212 from randomir/master
+51dad1a29fa38efe313bf619c6183deaa662c249|2018-07-03|Radomir Stevanovic|Slightly optimize (on avg) the BQM.__eq__
+201009f05c569576c7fea977822599f0ef7536ba|2018-06-26|Alexander Condello|Update version 0.6.10 -> 0.6.11
+9a7243b8ed1f87f728a1bc34b1614ce885c8098d|2018-06-26|Alexander Condello|Improve dimod.testing submodule
+ed9619327f28e8a700340252a3ba6e01afde6eb7|2018-06-25|Alexander Condello|Merge pull request #209 from arcondello/codecov
+0a4d4f8e432be65d118904bf18f1b4a57fec5267|2018-06-25|Alexander Condello|Covert to codecov
+38032409d73031b58f08bf27074539dd3803c32f|2018-06-25|Alexander Condello|Merge pull request #207 from arcondello/apache_headers
+11bc58f94adcf7cc28ecb73b7b96a922b2417c2c|2018-06-25|Alexander Condello|Add apache 2.0 headers
+a80bc64b2d39e9dfe0a07d95911372a0bc554ec8|2018-06-25|Alexander Condello|Merge pull request #206 from arcondello/circleci_coverage_fix
+10215e071ac89ebdcbdbb63dcd2a6503242361ad|2018-06-25|Alexander Condello|Fix python_requires syntax
+071e319dd7d3a605d6e0bc46c5e807fadf0241b8|2018-06-25|Alexander Condello|Do not run code coverage in python 3.7
+290a0ba4b0c20207f3e926257d0c522f98212301|2018-06-25|Alexander Condello|Merge pull request #205 from arcondello/circleci
+f752efdde63993a9540f38694a6cd72dd4fd5c33|2018-06-25|Alexander Condello|Add python versions to setup.py
+4ba5ee951725da2cf11c02785d5e53adc16c2ded|2018-06-07|Alexander Condello|Add circleci config
+a1902397a30c0fd882f712256a8a9270d707fc52|2018-06-07|Alexander Condello|Consolidate requirements files
+6c41315006482c2eb0b34d0b08aafe40a2c49a75|2018-06-07|Alexander Condello|Remove .travis.yml
+357305dcc75c33a628e2cc6e12b85b6cbd023dbd|2018-06-15|Alexander Condello|Merge pull request #202 from JoelPasvolsky/abc
+c58d7b94f79b76f8f9ba0f70990d603d9b8ad5a0|2018-06-08|Joel Pasvolsky|Fix misplaced info on RtD first page
+7c8378d94c3caa5f45e635e529cdaaefcfa0e29e|2018-06-08|Joel Pasvolsky|Remove examples from abstract sampler class
+3b4fff247d996a57af970f9c8debcdc756023929|2018-06-07|Alexander Condello|Merge pull request #201 from arcondello/abc_fix
+ea6509549af2e1d36fb07c73b5b0590c01c5c52b|2018-06-07|Alexander Condello|Rename dimod/abc.py to dimod/meta.py
+2e781a683582d85ba6d743a6ed7414a5ead5983c|2018-06-07|Alexander Condello|Simplify SamplerABCMeta
+87bf19c98d568cc76dc52820798a391c3cd4a23c|2018-06-07|Alexander Condello|Remove extra files
+65890f7ea7aeb03ed653dae72a1a4617bc8c5d89|2018-06-07|Alexander Condello|Merge pull request #198 from JoelPasvolsky/pass2
+ac19b65eca59d6abab64a1850675b7678f7f91ee|2018-06-05|Joel Pasvolsky|Update utilities
+4924df5d524e30c97766bb20504918241c961dd5|2018-06-05|Joel Pasvolsky|Update chain_breaks/generators
+5f1fe41b28c98e1d801f2953bbfc271664a56fa9|2018-06-05|Joel Pasvolsky|Update utils/chain_break_frequency
+e1d3f87fd60784fe506bd7eb6af8253118328661|2018-06-02|Alexander Condello|Merge pull request #196 from bellert/revert-embed-singleton-variables
+39bfdc9459742c8d7b5f1308a6bc4d3f8be94a5d|2018-06-01|Bradley Ellert|Remove option to embed singleton variables
+bb26c732b167dcd27d4576a2836f50e139ca965a|2018-05-31|Alexander Condello|Update version 0.6.9 -> 0.6.10
+e0f5e77c1b277d1b8641329ad4a0891e55f04026|2018-05-31|Alexander Condello|Merge pull request #195 from arcondello/embed_bqm_chain_variables_fix
+67b910199348b8a5f56d7d597eaadddc76724008|2018-05-31|Alexander Condello|Add all chain variable to target bqm with embed_bqm
+3ed0431df19724a7d4bcfe9b8787993b0f12da0c|2018-05-31|Alexander Condello|Merge pull request #192 from JoelPasvolsky/ref
+f484a9072caa5ae42b2f40f8932fcf6c8f33d67f|2018-05-31|Alexander Condello|Merge pull request #194 from JoelPasvolsky/pass2
+81ac3be28e00af648c9f31db4d48af8fa244dea7|2018-05-30|Joel Pasvolsky|Update Embedding (transforms.py)
+b4b2b32100728ce789c2a83dda91ee5e26cdcaa1|2018-05-29|Joel Pasvolsky|Add reference composite (structurecomposite)
+3cdd53de392f6d446218ccc1e0b24dfd8112445f|2018-05-29|Joel Pasvolsky|Add reference composite (spin transform)
+3853fb15f44fc2eb21f250d10613fb9f28dbbc45|2018-05-29|Joel Pasvolsky|Add reference samplers (exact sampler, SA, random)
+59affd1499ea568ec94ddf45629f62fcc387e38b|2018-05-28|Joel Pasvolsky|Add reference samplers & composites (add .rst file)
+1c2fc2c677be7b2a8d8d2776c2c0afe1cba8c652|2018-05-28|Joel Pasvolsky|Update response methods
+618173568b865db0b2c33eb8efcd28f1a7bbc198|2018-05-28|Joel Pasvolsky|Update response (response, properties)
+b2582d3429be28db82c72b72ed9c29ced6b3a17e|2018-05-28|Alexander Condello|Merge pull request #190 from JoelPasvolsky/pass2
+33a396e02ae6c295f41f6b9fd4adc03a186a97ba|2018-05-28|Joel Pasvolsky|Update sampler, composed, structured
+4c8a891a5fe0953224e1770f4413b594a16338ef|2018-05-28|Joel Pasvolsky|Update BQM converting (pandas, networkx)
+1cd0e41bd3cc7f9fb7785bf3bf01f91eba5fd0f9|2018-05-25|Joel Pasvolsky|Update BQM converting methods (JSON, NumPy)
+222db9f3a3d4eca7a266333a8de931b672f693f1|2018-05-25|Joel Pasvolsky|Update BQM converting (coo, ising, qubo)
+222390a65383aa1d99a4531ceac5e9a4f7371a9e|2018-05-25|Joel Pasvolsky|Update BQM copy and energy methods
+5270fd6de855622fbc832f1ca0d31fcaa1d071b3|2018-05-25|Joel Pasvolsky|Update BQM transformation, change-vartype methods
+e47794e155ce22843c3fabe278dadb36a0dc2750|2018-05-24|Joel Pasvolsky|Update BQM update method
+af2990e9b551c9eb2f48997d21e7ad99a6f98c41|2018-05-24|Joel Pasvolsky|Update BQM remove methods
+d0b75eefd9d9db06f332ea5cf479ae725991ca75|2018-05-24|Joel Pasvolsky|Update BQM add methods
+2126f5535df8a0b7e7b419efb4ea090ec83dc834|2018-05-24|Joel Pasvolsky|Update Construction Shortcuts
+1902307261841719475827f78f6a110a2e4b3eb4|2018-05-24|Joel Pasvolsky|Update BQM vartype properties
+5ee84398ffc1b248c80097b3998d1d74c4d90b5d|2018-05-24|Joel Pasvolsky|Update BQM class
+dcdcff4637a3e6cfd0150f1dc5fb68ce706c9b10|2018-05-24|Joel Pasvolsky|Update intro,intersphinx mapping for terms
+8e7cf743e21240efe7f35c6bc72157a3d42ac869|2018-05-24|Joel Pasvolsky|Restructure intro
+0a44fc07efb902912e22e72979f69fbab200cd32|2018-05-17|Alexander Condello|Update version 0.6.8 -> 0.6.9
+69f821ac002bd090a7df678018a1ae2eddfc8e69|2018-05-14|Alexander Condello|Merge pull request #188 from bellert/contributing
+a2900571e7272fad812106fb7430dd6f4b1b19bc|2018-05-14|Bradley Ellert|Fix link to main contributing page
+204d8546dd40f755ba8e1d1a407104dc7ee158c6|2018-05-14|Alexander Condello|Merge pull request #183 from arcondello/BinaryQuadraticModel.to_coo
+d93398396ba426894dd4e7f298028c94295a7eb4|2018-04-25|Alexander Condello|Add methods to serialize BinaryQuadraticModel in COOrdinate format.
+74224bf6e3533108d7764fa19908d75b9b261cb6|2018-05-04|Alexander Condello|Merge pull request #187 from arcondello/fix_extra_import
+17721c92585f3eb2f306ed76555cf20f3b6a9efa|2018-05-04|Alexander Condello|Remove extra import from dimod/io/json
+2579ba25cc426a05907ad2890003a4b19d2c0d0f|2018-05-03|Alexander Condello|Merge pull request #185 from arcondello/appveyor-build-fix
+9894e4dc000f936f23b4a5a4dbef771be90290dd|2018-05-03|Alexander Condello|Simplify appveyor build
+9d49df8600b5f3093afc19770f8d2188b986f7d6|2018-05-03|Alexander Condello|Disable pip update in appveyor build
+80094089f16bd0606d82195439c72ddb4a51d9e0|2018-04-20|Alexander Condello|Merge pull request #181 from JoelPasvolsky/embedding
+40af541c8d0a00eba5b21dcb23ba31e94110ed1a|2018-04-18|Joel Pasvolsky|Fix doctest breaks on returned Embedding dicts
+6416a31113199efc864bbbe3530bfbee1d18b18e|2018-04-18|Joel Pasvolsky|Update embedding callable objects
+37e187c9b34af88dd1c7b94b5090c769699b8679|2018-04-18|Alexander Condello|Merge pull request #180 from JoelPasvolsky/master
+2c171193d9be45cf675de647adcd036a56dcf23a|2018-04-18|Joel Pasvolsky|Fix weighted_random's random.choice(vals)
+9edf577efbcc36196470eb0e8f81324f3e0e392e|2018-04-18|Joel Pasvolsky|Update chain_break generators
+6b3a1aa36009403fa10c51e67a9e440bd23ff4b9|2018-04-17|Joel Pasvolsky|Update embedding chain-break generators
+7a248ee175fa5ea367364d19cea8f9c0571044cc|2018-04-16|Joel Pasvolsky|Update embedding functions
+1e4624be42a7aced29a70851d74cff7380b2a43c|2018-04-11|Alexander Condello|Update version 0.6.7 -> 0.6.8
+d8ca7b2602019eb2b04d50950e9bc1ec5461eb4b|2018-04-10|Alexander Condello|Merge pull request #174 from arcondello/response_QOL
+253c438c6f02546a9f6fdd89fb2cb9c753a2f542|2018-04-09|Alexander Condello|QOL changes for Response
+7b75e47ce4fec541e432f84367ba58393934b941|2018-04-09|Alexander Condello|Update version 0.6.6 -> 0.6.7
+6f070fda9acb8bc08093b948f5b9bd48a1998de3|2018-04-09|Alexander Condello|Merge pull request #171 from arcondello/bqm_collection
+50a7be91d3c02bb33fb33027dbfb6214aeb57a91|2018-04-09|Alexander Condello|Fix docstring in unembed_response
+58e4e62f0f4a3a7fc78bf80b4c63e81a9740436f|2018-04-09|Alexander Condello|Fix bug in unembed_response
+25241d5b57adca64349e286095ce635c744448a5|2018-04-09|Alexander Condello|BinaryQuadraticModel is Sized, Iterable and a Container
+2859c969a064fb2b7053919c8f1b50977a408511|2018-04-06|Alexander Condello|Merge pull request #167 from randomir/bugfix-unittest-runtimewarning
+f4bba0faf516b8ab4b5cdff7bd5a0483de2b2a69|2018-04-06|Radomir Stevanovic|Bug fix: RuntimeWarning thrown in BQM unittests
+f55baeefa46076211b2337ae107367a2d0fd9c9a|2018-04-06|Alexander Condello|Merge pull request #166 from arcondello/unembed_response
+e4ba5ef2b266f1aa253a3408e549f72e6017f388|2018-04-06|Alexander Condello|Add unembed_response function to embedding
+efbd72e77d9ca0ab86b0adadd7a9b1d3a4fe867d|2018-04-05|Alexander Condello|Address edge cases for embedding utility functions
+0f439633046acdf1162936ff694127b367c42a15|2018-04-05|Alexander Condello|Merge pull request #163 from arcondello/master
+299ca33ec0ea115e0daeaa22032c43aa5d16d4ca|2018-04-05|Alexander Condello|Fix bug where embedding subpackage was not properly installed
+2b1f5c6b309e26819af81cf4c1cfca0453ed194d|2018-04-05|Alexander Condello|Update version 0.6.4 -> 0.6.5
+c37b08c6051454c2d786501b377c9de31260786c|2018-04-05|Alexander Condello|Merge pull request #159 from arcondello/embedding
+e82bcba555bbd1dc9da858f68f63044619d5ac3e|2018-04-04|Alexander Condello|Address most review comments for PR #159
+50972470ee505faf9fa940dccb916eb34d2e8554|2018-04-02|Alexander Condello|Add documentation for embedding
+5fe127f469f242a3ab05ff6e8cd73531b23c9b6c|2018-04-02|Alexander Condello|Update dwave_embedding_utilities logic to work with current dimod
+f2a68b96e8737fa9d231f2de6505f47075764c49|2018-03-29|Alexander Condello|Merge pull request #158 from arcondello/sample_view_read_speed
+e626e10c95636ba0e13040ce8def799a130e9904|2018-03-28|Alexander Condello|Update RandomSampler to not use SampleView directly
+afad3a347aa56aac5f174f2e264a1c3f9b984ee2|2018-03-27|Alexander Condello|Speed up calculating the energy from responses
+e93b36bb92339d83109f90e8cec6ce3822ec1e47|2018-03-26|Alexander Condello|Move dwave_embedding_utilities.py to be a subpackage
+40078c1c028a397b80a5496c8212a91198a022b4|2018-03-26|Alexander Condello|Merge in dwave_embedding_utilities
+2786b835991eb242494cbe2fd49d4ebab73db5dc|2018-03-26|Alexander Condello|Update version 0.6.3 -> 0.6.4
+dedd80ccea9d59ab19637de8000a5c608e248bf9|2018-03-26|Alexander Condello|Merge pull request #157 from arcondello/numpy_extended_range
+4482ba62ef13ec95130056b4302b5557b9c0b0b7|2018-03-26|Alexander Condello|Extend range of allowed numpy versions
+b3f5f5f9c340d902c120a5b2919aa205d0919367|2018-03-22|Alexander Condello|Merge pull request #155 from arcondello/bqm_json
+ed2cadb9763ee8eca0d76eb216919a06b3ac0ffc|2018-03-21|Alexander Condello|Add json encoding/decoding to BinaryQuadraticModel
+d1c24d000521ec4f8999104b2f0e0a690ee1acdf|2018-03-22|Alexander Condello|Merge pull request #156 from arcondello/readme_update
+7391564bc2554f31ffe208f8b3ce35e0d536bfd1|2018-03-22|Alexander Condello|Fix example in README and add another
+37c662e65be1d7e02eba7576507466ea1dc01b97|2018-03-22|Alexander Condello|Merge pull request #148 from JoelPasvolsky/composites
+0267de89e47b8b5709bcba9711acc9594eaa5e69|2018-03-21|Alexander Condello|Merge pull request #154 from arcondello/bqm_update
+31e2e873c505f9f8911f8a0b07b65df47b35e6fd|2018-03-21|Alexander Condello|Update some BQM docstrings for clarity
+644699c6e4671410c0fb6137135ea5ea78f998cd|2018-03-21|Alexander Condello|Add BinaryQuadraticModel.empty
+9b8720986f423adbba34b1b87c4e5c29acf2b239|2018-03-21|Joel Pasvolsky|Fix Alex's review comments: children & child example
+ab92b189e1a4bf7351e56656511ffc077c407e9d|2018-03-21|Alexander Condello|Store metadata in BinaryQuadraticModel in 'info' attr
+be6996be258b76997cba44212b7a92d26c5d65ba|2018-03-21|Alexander Condello|Merge pull request #144 from JoelPasvolsky/converting
+cf1ed8f6b1feeca814a3bf6c7c7c63d2905a1875|2018-03-21|Alexander Condello|Merge pull request #151 from JoelPasvolsky/response
+05540fbea66bd42d649ddb82bd466da75a815a2d|2018-03-20|Joel Pasvolsky|Fix #350 failed by skipping doctest on vartype output
+61825d7d90e5da79c666a364eba46edbd66e6390|2018-03-20|Joel Pasvolsky|Fix #348 failed
+2f4a55f74ab5ce388a781bbb8d32f3d81d06bdbd|2018-03-20|Joel Pasvolsky|Fix #344 failed
+6cb90b0cc3b59b240e6cfadf66b87c25e7990b5a|2018-03-20|Joel Pasvolsky|Update Response
+9bbd9f857d785e5da08f93a192df520c1ddd3158|2018-03-20|Alexander Condello|Merge pull request #149 from JoelPasvolsky/structured
+229912bf2859e7894ef0744a1ac256b8a7bdf3dc|2018-03-19|Joel Pasvolsky|Update structured sampler
+8b2d0c3afa0545f9f58ae37f25719411251a82ab|2018-03-19|Joel Pasvolsky|Update composed samplers & composites
+caf4e9611d58674cb75019d315101a40c9aac17d|2018-03-19|Alexander Condello|Merge pull request #103 from JoelPasvolsky/exceptions
+76e103cf449b67ced60b6551d6a9176cdc88b2ab|2018-03-19|Alexander Condello|Merge pull request #106 from JoelPasvolsky/intro_ref
+a0c545b469756f3c3efb10f0fcaa57a0f10f4fed|2018-03-19|Alexander Condello|Merge pull request #146 from JoelPasvolsky/sampler
+81a64dbf29d75698551c336bf338efd562d7e345|2018-03-19|Alexander Condello|Merge pull request #147 from JoelPasvolsky/bugfix_rendering_BinaryQuadraticModel.binary
+1ba80e18671d4eef5f9cf4de13ad0ec360c39ccf|2018-03-16|Joel Pasvolsky|Fix rendering problem of dimod.BinaryQuadraticModel.binary in RtD
+d9d989ac4ce053d9f0fffa3d5c18bc9c8b2b1034|2018-03-16|Joel Pasvolsky|update to include the sampler.sample(bqm) method
+26398f491e003dd0c221af35237b71268045ec45|2018-03-16|Joel Pasvolsky|Edit updates to sampler content
+c547fa08d59bb707b3db11f1e31909df3997cb65|2018-03-16|Joel Pasvolsky|Update sampler.py for mixins
+337ff7fa628018e3831c50374e00a11c18d0ecc5|2018-03-16|Alexander Condello|Merge pull request #145 from randomir/master
+4f032c1e85fc2de8a6339165d9697350173fb2ef|2018-03-15|Radomir Stevanovic|Fix Travis Py3/OSX build
+da7bb7a734ebe8a2c19c637953b500b725e24338|2018-03-15|Alexander Condello|Merge pull request #143 from randomir/master
+48effe9dc97fa7cfb96e3349715065287d321ad6|2018-03-15|Joel Pasvolsky|Update sampler.py for base class & properties
+e609d397ebaaf265fd0e404fcc3b330bbfe6b024|2018-03-15|Joel Pasvolsky|Add intro content
+7858fab4f3ab5a4bc0e22258a37aa331d07019ff|2018-03-15|Joel Pasvolsky|Update .gitignore for Sphinx /generated files
+8dc9d4edf139b1e96d8ea0ec9fa386595907f565|2018-03-15|Joel Pasvolsky|Update remaining convert functions
+879d1a5f96badd975832447dded503f9cec82a88|2018-03-15|Radomir Stevanovic|Fix Travis build for Python3 on OSX
+0c08875938815ef450867eb7c2864de0dd98972b|2018-03-14|Joel Pasvolsky|Update some convert functions
+0d242e1840fc4fed8ce7b54ca8625c0201540ce2|2018-03-14|Alexander Condello|Update 0.6.2 -> 0.6.3
+7f5986c213dcf87fc6f1fe17876d4838cc3963e0|2018-03-14|Alexander Condello|Merge pull request #141 from arcondello/response_relabel_bug
+b24c4443df457341e39593128e2aeb0e77666501|2018-03-14|Alexander Condello|Fix bug where Response.relabel_variables failed for mixed mapping
+54e106b2784d94c16527ade03978f9b4f440c7a3|2018-03-14|Alexander Condello|Update version 0.6.1 -> 0.6.2
+eaee637b9ce0bc2bc484a491029a06d0970fcabe|2018-03-14|Alexander Condello|Merge pull request #140 from arcondello/exactsolver_energy_bug
+8a8a90359c49533ae8a8470bc541487afe77f801|2018-03-14|Alexander Condello|Fix incorrect energy bug in ExactSolver
+38751e2cef124500fcecdb0582efbc902943c5e0|2018-03-13|Alexander Condello|Update version 0.6.0 -> 0.6.1
+907244a9b71c41d37ae2b9245bfb6bea61315a91|2018-03-13|Alexander Condello|Merge pull request #137 from arcondello/from_future_data
+bd831e8546741066c7deae20e40a9902a31df3ea|2018-03-12|Alexander Condello|Add ability to provide extra keys to Response.from_futures
+815bcf57b7178ba0081e9ca48062c7c84c9a42a9|2018-03-12|Alexander Condello|Add Response.empty() and update Response.update accordingly
+15b024df92a44d9c5e1e41ac5706f7f549e66ecd|2018-03-09|Alexander Condello|Merge pull request #134 from arcondello/move_requirements
+098a6362d220568637d858da152da8e94a533243|2018-03-09|Alexander Condello|Organize requirements into the appropriate directories
+e03cc8869f29b3a2ae04a2fb7d806faed2e14de3|2018-03-08|Alexander Condello|Update version 0.6.0.dev2 -> 0.6.0
+9b75ce8aa357a7e7fa8d4fec168607f30283a4fd|2018-03-08|Alexander Condello|Merge pull request #133 from arcondello/testing
+a2f03d780f9eee13084871da9e0d6008440c4db5|2018-03-08|Alexander Condello|Remove test mixins and replace with custom asserts
+f274b348ab9703fbc562a3c9a9115b617062a54d|2018-03-07|Alexander Condello|Merge pull request #130 from arcondello/travis_doctest
+43ed33f6a2faebae1e033d90576c2166ca09437c|2018-03-07|Alexander Condello|Merge pull request #132 from arcondello/doctest
+9db3e6233790671f6123b3f022746eaba3ca3de7|2018-03-07|Alexander Condello|Fix existing docstrings
+c70daa5786dd395a9df90c67a047040ed1934a9d|2018-03-07|Alexander Condello|Add doctests to travis script
+7598bb7bffc114e839e1005031145d3418cc9b06|2018-03-02|Alexander Condello|Update version 0.6.0.dev1 -> 0.6.0.dev2
+b9767dff1410646485017e54c17df7a91b7c3ec0|2018-03-02|Alexander Condello|Merge pull request #126 from arcondello/travis_osx_python3_fix
+5e9aa06c5ab9cd7645318913181aa38e50d15ee6|2018-03-02|Alexander Condello|Change 'brew install python3' to 'brew upgrade python'
+09b798034ce3a3e3cd32f429aa9a9132cbd74a9b|2018-03-02|Alexander Condello|Merge pull request #124 from arcondello/futures_read_resolve
+62d8892d8483a1fb611c5928d4a2d87b690a5082|2018-03-02|Alexander Condello|Update Response.from_futures to resolve on response read
+f890fbf32fd0aad27972381fbbfe26bfd155490f|2018-03-01|Alexander Condello|Merge pull request #120 from randomir/master
+c8239df60906c0e62bdf2b4839d429843c5abae4|2018-02-28|Radomir Stevanovic|Implement Response.from_futures()
+d38093f4b109e7a78c92a0f41cca5260f44db720|2018-02-28|Alexander Condello|Add commas before upper bounds on versions
+d9cc4b6240b1afeeafe7a7b313c4da555c848407|2018-02-28|Alexander Condello|Merge pull request #118 from arcondello/vartype_change_bug
+f9fc3c54d68e5e745278866d8d376e517bffae04|2018-02-28|Alexander Condello|Test response correctness in dimod/test
+7331272c227d7048d0d97824123403756df13378|2018-02-28|Alexander Condello|Fix bug where offset was given as a float
+3db511ae2fa6a58d404a6579a728e73cc2d28bfc|2018-02-28|Alexander Condello|Update version 0.6.0.dev -> 0.6.0.dev1
+abce02f7e62866697190b10405e45bc74b1ae9c8|2018-02-28|Alexander Condello|Merge pull request #117 from arcondello/response_update_bug
+8ad1f324aaf7343fc36080db1a4a17aba7e421ad|2018-02-28|Alexander Condello|Response now makes a shallow copy of data_vectors on instantiation
+b0e1c9cb9ed66fdce8d5fe6c258c109863494971|2018-02-28|Alexander Condello|Update version 1.0.0.dev7 -> 0.6.0.dev
+2a5ced03269babece3ead6f1b9b4d5e6f4a8e603|2018-02-28|Alexander Condello|Merge pull request #115 from bellert/six
+880b5d2753e16a11caa637f41e84af509a521ca0|2018-02-27|Bradley Ellert|Add six to setup as in requirements
+c9135bffa522e52d6aa653ecfaffa2ad14791070|2018-02-27|Bradley Ellert|Replace compatibility23.py with six
+6e1912d5ac1163282f4bf60684117ec1ab4f9528|2018-02-27|Alexander Condello|Merge pull request #113 from arcondello/BQMconvert2class
+9b354eb859d28e0498a86753896886bf7f2fb1d5|2018-02-27|Alexander Condello|Update BQM docs for conversion methods
+0a6a21a1e3ee6b358cb4cb30136bb08e52c6c842|2018-02-26|Bradley Ellert|Change BQM convert functions to be class methods
+50d476b594e1487d12986c731baf8de3a2ab6a23|2018-02-27|Alexander Condello|Merge pull request #112 from bellert/project-refactor
+dc4793603700577834f89a202d5e33620b14e7fa|2018-02-26|Bradley Ellert|Conform to boilerplate from template
+34d84aeb42358b68e5ac2a065fb86f779a379161|2018-02-27|Alexander Condello|Merge pull request #105 from arcondello/sampler_punchup
+eb09031c27639a998bac1a0230a3556f26f0c1f9|2018-02-27|Alexander Condello|Update spin transform for new abstract base class
+4673b980252f5fd4c490652d9af63eac02506614|2018-02-27|Alexander Condello|Update Structure composite to use the new abc
+aae666cd33a8e89316eb7cb119fb268758dab0ad|2018-02-27|Alexander Condello|Update dimod/test/composite_api to reflect to abc
+9b0214521b40d9c65b350ffbc709e32bc3febe2b|2018-02-27|Alexander Condello|Update SimulatedAnnealingSampler to use the new abc
+384c2f34fcdefd26a928254e70a9ed6d15ffd069|2018-02-27|Alexander Condello|Update RandomSampler to use the new Sampler abc
+4468cb3362a46dc8ccc3ba6681f5dfe94a4d16e0|2018-02-27|Alexander Condello|Update ExactSolver to use the new Sampler abc
+89def8714e8b03ce14bae9a0d52a2df0d6a41032|2018-02-27|Alexander Condello|Update APItests to reflect new Sampler abc
+d3eeb29fec8b7c3b6174b205231b38d1e0a43007|2018-02-27|Alexander Condello|Add documentation for ComposedSampler
+a540cfbaf6f8db38709c043104e44520a1bcd3f6|2018-02-27|Alexander Condello|Update Composite to be an abstract base class
+f3476922c2d841e2cf8298bbf22dd5f1cb5c4f29|2018-02-26|Alexander Condello|Update Structured to an abstract base class
+fe8583a9df0ba542052ea21f13609a8337531305|2018-02-26|Joel Pasvolsky|Add first-draft content for References/Intro
+272fc7a26e3700e6cbce7f8c638b5e2e180fe1fe|2018-02-26|Alexander Condello|Add documentation for Sampler
+87e6a8db8f85895d47816a03ddd2ec8aefc83b64|2018-02-26|Alexander Condello|Make Sampler an ABC
+27bb0eead7f15d6f7c989730f3518e4fcae1dce1|2018-02-26|Alexander Condello|Create dimod/abc to create a new Sampler ABCMeta
+2aff4950bba0ecbb97d0983d04408fbbc8c26f8a|2018-02-26|Alexander Condello|Add add_metaclass to dimod.compatibility23 from python six
+e6f36656cabdf14cce6bd41c7059742a4cfe3c09|2018-02-26|Alexander Condello|Add mixinmethod decorator to mark mixins
+47ac1f4470d35c2adebc61c0cc2bf183203f5c61|2018-02-26|Joel Pasvolsky|Add content for utilities
+bf05c74a764beb1ace42ffefd353aa5e39df1829|2018-02-26|Joel Pasvolsky|Update Vartype
+3b5209461cb0908894eec38b2b9f4add997cd1ce|2018-02-26|Joel Pasvolsky|Update exceptions
+445618e231c88cd7ddffc43ae6ab25338e205656|2018-02-26|Joel Pasvolsky|Update transformations
+d1a812d3bb3452b118219dc47b62e51f4703b77a|2018-02-26|Joel Pasvolsky|Update change_vartype, copy, energy
+a7dcccd359e1c373c944201fbe290339ade5b649|2018-02-23|Joel Pasvolsky|Fixed parentheses to Google style
+296543f1854d78c1c0bb3e16f1c44094a1080362|2018-02-22|Joel Pasvolsky|Update add_*
+7f7645caa5778bccaf50cf3f795a8c00c5928306|2018-02-22|Joel Pasvolsky|Update add_interactions and add_offset
+c8165e292ca5674c113ea0a416c09d006d393018|2018-02-22|Joel Pasvolsky|Update add_variables
+8cfaf2a8ec29c667508c4b96e88dc81b6bf2767d|2018-02-23|Joel Pasvolsky|Update remove_* methods
+2b5b0fd5289c6a7d690e9c1941785e84b18bbc70|2018-02-22|Joel Pasvolsky|Update remove_variable & remove_interaction
+78fae6d81dbfa1f721f103b8a0d146381e844d44|2018-02-23|Joel Pasvolsky|Update update method
+7e2417bade083986b49928ca052ba96f7fcc68a1|2018-02-22|Joel Pasvolsky|Update docstring, example for Vartype Properties
+104dcc48f654af9b7c4e1bc7103c1cb8d19e1666|2018-02-20|Joel Pasvolsky|Update homepage (placeholder)
+19141cf30993fe8fb891bddfb23601c77288946e|2018-02-21|Joel Pasvolsky|Update docstring, example of BQM() class
+ff4b241b33a5e2896110f4575e9aff41a3e04e72|2018-02-21|Alexander Condello|Move namedtuple definition outside of argspec function
+c181a357484e8c01ac0c015d49010ccff2bb0523|2018-02-21|Alexander Condello|Add getargspec to compatibility23.py
+dffa8b23f04ed4ff957b3218028ac4b81205da26|2018-02-21|Alexander Condello|Merge pull request #91 from arcondello/response_draft2
+902dcb4bc19059f77b8b62035ae63406b5aaf5b3|2018-02-21|Alexander Condello|Remove some NotImplementedErrors and document the remaining
+3ce960c362f7a9f261c806304f05ab984db3ebf1|2018-02-21|Alexander Condello|Add all docstrings in Response
+f110ca2bdcc4fd01daae8d789b0718017e080a25|2018-02-21|Alexander Condello|Add numpy to intersphinx_mapping
+2e485e0ae89d96f3c0005f144bab4b465a3039a3|2018-02-21|Alexander Condello|Update version 0.2.1 -> 0.3.0
+ec8398dffd55a42dc304f5d9b23fd15b33db64b7|2018-02-21|Alexander Condello|Update version 0.2.0 -> 0.2.1
+d82bfc411678e62c3eecbe51addf3706e38fb701|2018-02-21|Alexander Condello|Merge pull request #84 from arcondello/doc_skeleton
+88f6be9502d1314cfba7c946966dff078797bcf1|2018-02-21|Alexander Condello|Add exceptions and utilities to documentation
+d1f5cd604c13c7b597d9b815116bc60fe21559da|2018-02-21|Alexander Condello|Add Vartype documentation skeleton
+7cbe63d6f0754cdddd2463c3387d28111e65c501|2018-02-21|Alexander Condello|Add response documentation skeleton
+8564f8656fbeb37007fd64103f2e76ee52e89c6c|2018-02-21|Alexander Condello|Merge pull request #78 from arcondello/numpy_response
+954cd2da75a2af841a887411aeb1090ee5ef2f25|2018-02-16|Alexander Condello|Refactor Response object
+82a1f857037be737adf2065ace90cbc8eb490392|2018-02-20|Alexander Condello|Merge pull request #81 from arcondello/resolve_label_conflict
+1c334c4d68061e1832351dd82e9c4fd7045f6cc9|2018-02-20|Alexander Condello|Move self-mapping resolution into its own function
+afd6832ca7e6be90d650d9ccb866877210638dfa|2018-02-19|Alexander Condello|Merge pull request #77 from randomir/master
+28ed04aacff5502552af0c8f9e724d0ee0023107|2018-02-19|Radomir Stevanovic|Remove unnecessary RecursionError_ definition
+87a1dbddb946f0c48239cb972ef7018a441d6e57|2018-02-19|Radomir Stevanovic|Refactor infinite recursion test in Sampler base class
+49e830ce8c786dcbdd5d1dd59a36586607db54f2|2018-02-16|Radomir Stevanovic|Add tests for @vartype_argument default value support
+014ffa170516340ad05dd23311ac7a332b1e1941|2018-02-16|Radomir Stevanovic|Refactor @vartype_argument to support default argument values
+62c58f81800597bf96e39131efb1c79002b94027|2018-02-16|Radomir Stevanovic|Change @vartype_argument exception type on argument missing
+296aaa7713b9f84d085fbfd79c6fac4af4b2bf34|2018-02-16|Alexander Condello|Fix syntax is .coveragerc
+dff51fccf4bf4160f15198f86dde6ca80ccf91bd|2018-02-14|Alexander Condello|Fix install keyword for pip in .travis.yml
+586090dd4fa56e6bc3b6124f578b8cbeacb32d61|2018-02-14|Alexander Condello|Update install and deployment
+ddbfea8a7eff28b4e5680e18467f39aa47ef911d|2018-02-16|Alexander Condello|Merge pull request #15 from frechette-alex/master
+4efae0427375c53c5c02bacb319ea7edaf362890|2018-02-15|Alexander Condello|Merge pull request #76 from randomir/master
+6bf4cbbbde8db55425d2f68b08ae12a7fdae8729|2018-02-14|Radomir Stevanovic|Delete complete docs/build/ dir on docs 'make clean'
+1cb8f33bbb4086127ea452bf2084d540fbed3b64|2018-02-14|Radomir Stevanovic|Make all classes inherit from object, even test mixins
+18d09c828ff02f6988acd04661bd1129478359ab|2018-02-14|Radomir Stevanovic|Fix mutable default values for arguments (list/dict)
+c420a1debacaf7d028f0b7ddc953334dd18363ee|2018-02-14|Alexander Condello|Merge pull request #75 from randomir/master
+aca857226f01dd29757a7aacfd442c87f19d35a7|2018-02-14|Radomir Stevanovic|Add tests for @vartype_argument decorator
+6e72e0e1d68fba5b0b02c8ebd163ee60093d695b|2018-02-14|afrechette|- Fixed `test_embedding_utilities`. - Fixed field assignment bugs in `MinimizeEnergy`.
+99468355e4604794ae62773a19be7bee20112e70|2018-02-14|afrechette|- Change `change_break_method` so it does not require any additional arguments (unifying its API). - Change `minimize_energy` to be an object, now providing its additional neccessary state (i.e. linear and quadratic coefficients) on construction instead of additional kwargs. (Satisfying `change_break_method`'s new unified API). - Added pycharm's folder to gitignore.
+b8126fa9cc7550318465259e3f8225d411fb1e0b|2018-02-14|Radomir Stevanovic|Use explicit argument names in @vartype_argument calls
+a93e4ea0e6579cc254a5aefebe892bf0021d7d70|2018-02-14|Alexander Condello|Merge pull request #12 from bellert/isolated-vertices
+d4a54da1fd00373b1fbc8dcde8d3ecb5c9b9e7b4|2018-02-13|Alexander Condello|Update version 1.0.0.dev6 -> 1.0.0.dev7
+8d44dcb0b90bb863b320fc0fcef2673079e55012|2018-02-13|Alexander Condello|Merge pull request #74 from randomir/master
+e40b6e77d77c3cb1dc9227ae943968a7991c2aa2|2018-02-13|Radomir Stevanovic|Refactor `vartype_argument` decorator
+c5b5b514e1c9579ac8ff28b1d488bb5aff458fd6|2018-02-13|Alexander Condello|Merge pull request #73 from arcondello/documentation
+4e32271f990123f131c7f6783af0f8ab6fda79c6|2018-02-13|Alexander Condello|Add documentation structure for dimod core classes
+d091f1801fc949d443c85684bfb65b06d67e3f42|2018-02-13|Alexander Condello|Add binary_quadratic_model_convert to documentation
+46381044bc9a4770704f82b4a142fc6943ad40a0|2018-02-13|Alexander Condello|Merge pull request #72 from arcondello/documentation
+0d1d434915b8bdbe0c7569376d2836cbb110845b|2018-02-13|Alexander Condello|Fix most doctests in binary_quadratic_model
+2000698d377bb3b18875faa98ff4d8237f05a2f4|2018-02-13|Alexander Condello|Add doctest imports
+256f0ad4aaae86c934042d61fa1edaca6a984a5b|2018-02-13|Alexander Condello|Add remaining methods to BinaryQuadraticModel docs
+1467dcd032dadb5da9cff95971e1e4968c03ded7|2018-02-13|Alexander Condello|Add binary quadratic model to documentation
+a86857bdb16d94636d01f67702fff623da87e96c|2018-02-13|Alexander Condello|Remove old files
+31495b517fe738ec3d679d0150b76eaa58780146|2018-02-13|Alexander Condello|Add markers to README.rst
+454f3dbf1d48b8f3ab237e57946c9b96eca6f227|2018-02-13|Alexander Condello|Restructure documentation
+2b7a948ebdc0c87bce740bd6f44a9d0847d87f3b|2018-02-13|Alexander Condello|Remove .txt extension from LICENSE
+c1724488091d6ba0cbba028ca8280aa3f03d8e11|2018-02-13|Alexander Condello|Update conf.py
+602a3dc3467d4106bcfa59348022eb2238a1aca4|2018-02-13|Alexander Condello|Clean Makefile
+3b9cad64246d5420f477b85bafe8382d8043c03f|2018-02-13|Alexander Condello|Move the code documentation to reference subdirectory
+ca090c69e9f9c5085c5c940ae3bf3cdd995dfd18|2018-02-13|Alexander Condello|Change dimod.classes to dimod.core in setup.py
+7538761e7888aabe4e8e4eeaa741adfaa3b1a245|2018-02-13|Alexander Condello|Merge pull request #71 from randomir/master
+73af278b52e4b1cfb9799507836785f6fc5d4e80|2018-02-13|Radomir Stevanovic|Minor refactor: renamed arguments in BQM.{__eq__,__ne__}
+382229a6798fd0340305ba8a15fb384cd32b969d|2018-02-13|Alexander Condello|Merge pull request #70 from arcondello/submodule_rename
+04def0525eb9a70526e2867b28c5d26f3b479195|2018-02-13|Alexander Condello|Change dimod/classes to dimod/core
+a36e1b871af9ea6e46051264c7cc6bc68c199af7|2018-02-13|Alexander Condello|Merge pull request #68 from jking-ca/master
+dff4491e173859f841255734f7a40b5c2b81f4ee|2018-02-13|Alexander Condello|Update version 1.0.0.dev5 -> 1.0.0.dev6
+38380bf2d20ccc1f801ecdf9f723015ce913ff6b|2018-02-13|Alexander Condello|Remove python 3.3 tests from appveyor
+32d7a3c7b31f62edef98e5b89555d21172ebc8be|2018-02-09|Jamie King|Removed spurious print statement.
+4fbd70a42b3ccb04f58149fa1774f18c9e9bec9d|2018-02-09|Alexander Condello|Merge pull request #67 from randomir/master
+0f75d1a5a5de1f8be5bf7796870d545c82981aaa|2018-02-09|Radomir Stevanovic|Decorated function wrapping with `functools.wraps`
+3f5d96df37266aadd06d0a2405c1ab60e549f07e|2018-02-09|Radomir Stevanovic|gitignored couple more variations on venv/
+895b943baf7d620686543bf02a762cd615eac6b2|2018-02-09|Alexander Condello|Merge pull request #65 from arcondello/future_parse
+e6b59f136f126639fc16f9f500704f23e8858238|2018-02-09|Alexander Condello|add_samples_future now correctly discounts broken nodes
+3b5c2298626de1dfa7877cdd0146169ccdbe5f4a|2018-02-09|Alexander Condello|SimulatedAnnealingComposite now accepts h list
+d1ccb7ed25e0d124432cfa7687b9e3b7447de3ad|2018-02-09|Alexander Condello|Fix bug where offset was not applied
+2046fcc34d203acac8efb1d17ccfa7162d96d4a0|2018-02-09|Alexander Condello|SimulatedAnnealingComposite overwrites sample
+82120c3c7db635ffe45b6f3eb117b660ca7866b0|2018-02-09|Alexander Condello|Merge pull request #63 from arcondello/structured_sampler
+9344a142ca084bca53db0ba869ed9b8f1e9e73fc|2018-02-09|Alexander Condello|Add StructureComposite
+12776899567a4c14d2f997421fc0c9e82a6d4d93|2018-02-09|Alexander Condello|CompositeAPITest now lets composed samplers reject bqms
+53afb14832e63f0577ea27514d583ea9fabddb47|2018-02-09|Alexander Condello|Merge pull request #62 from dwavesystems/1.0.0
+9032d03de9a0c37eac0df7f65b686639aae2e869|2018-02-09|Alexander Condello|Update SpinReversalTransformComposite
+8e0aa50bcafdffa81fc6508b6ff379eb1568bfd9|2018-02-09|Alexander Condello|Structure.edgelist is a list of tuples
+7eedadf9b67d480bdf48ca546089b75755f39a17|2018-02-09|Alexander Condello|Change name of example sampler for clarity
+5c5043334f447bef0f48940edd1abd9b2a2b61bf|2018-02-09|Alexander Condello|Add tests for Structure
+07abb116f4adfa2cba2f322135b5db2506582c54|2018-02-09|Alexander Condello|Add Structured base class
+9cc2e8c7f0dba1b17fb3b00c734064b13d6bb512|2018-02-09|Alexander Condello|Add decorator to check for bqm structure
+35c4b99bb37837961d9f38ad5e8bb5ddda3f50ec|2018-02-09|Alexander Condello|Update sampler api tests to look for appropriate sampler responses
+3f30ee80b312dd30efbda13e71525b7208aa5dae|2018-02-09|Alexander Condello|Add exceptions that mark invalid bqm
+a9c3b6a124958cda10c21fb9311afd332c4f4faf|2018-02-08|Alexander Condello|Add more unittests for Response
+ef1d1f8da54e9086d5ce80474482bd02e4690a26|2018-02-08|Alexander Condello|Fix bug in Response.data
+2f7b772b42c4bdb55d0af905e840c652c6747812|2018-02-08|Alexander Condello|Add reference import
+b21a6aae690691ce73a45225941e3a663a09774d|2018-02-07|Bradley Ellert|Handle case where all variables are used Raise error that no embedding was provided for isolated variable if a suitable "quick embedding" cannot be found
+b40e597fa0e24efac34f5f70ee9c7b7be615ec76|2018-02-07|Bradley Ellert|Handle unembedded isolated vertices Assume any unembedded vertex is isolated and embed it to one unused variable If this isn't the case, the exception is caught when handling quadratic biases
+6265be980579dc78a4aa50301a0f48405280772b|2018-02-07|Alexander Condello|Composite inherits sample, sample_ising and sample_qubo
+66071a1832c99f3294786a64702a00d686719667|2018-02-07|Alexander Condello|Update version 1.0.0.dev4 -> 1.0.0.dev5
+53ef865a2ec3dd3143d1dd647ced71bc0750a5e3|2018-02-07|Alexander Condello|Merge pull request #61 from arcondello/response_bug
+0b5edae0b7bc08cf895e03b8191246374eb2a611|2018-02-07|Alexander Condello|Fix bug in Response.data
+cde48bca684e225b2f99be6637380f4ef3365f17|2018-02-07|Alexander Condello|Update version 1.0.0.dev3 -> 1.0.0.dev4
+66a4210223d66dd9da438b1a4fecaf3a1801a944|2018-02-07|Alexander Condello|Merge pull request #60 from arcondello/sampler
+3ae84468cf2c22056770253b2b5290cdd35457be|2018-02-07|Alexander Condello|Update accepted_kwargs for simulated_annealing
+e8d20670c0fd3065bd8cea2fa54397ec05cbd8b9|2018-02-07|Alexander Condello|Add 'properties' property to sampler
+a151523a5a783c025aa62d9f0199955f457389e8|2018-02-07|Alexander Condello|Remove patching keyword args
+98e8773d806b037eb8e84febd9d4c0d67dbf9ec6|2018-02-07|Alexander Condello|Merge pull request #58 from arcondello/copy_defaults
+6cbf0d87c4d1c15b3494e5ca7a7d26c31199cd16|2018-02-07|Alexander Condello|Change kwarg copy to inplace
+c83d879a4fdf8fe79014a116df22f7b982251b25|2018-02-07|Alexander Condello|Merge pull request #59 from arcondello/python3.4
+a6716412378602678a6eb270fb56255d5e3f7dbf|2018-02-07|Alexander Condello|numpy does not support python 3.3
+1bd9943c5b6c111a809c1da250787047165a8aee|2018-02-07|Alexander Condello|Python 3.4 uses RuntimeError rather than RecursionError
+01c82c10788d12952ba8ae591479f6dbda619979|2018-02-07|Alexander Condello|Add python 3.3, 3.4 to travis builds
+65d38f8514c75cc3fc2bbd699028857efdb25e05|2018-02-07|Alexander Condello|Pin mock version
+772a390e5b22fa6810f463a62795ba100cdeb984|2018-02-07|Alexander Condello|Merge pull request #55 from arcondello/vartype_docupdate
+b87913aa5a1f4f0f6ec1adf78c9ba7a2c437e56c|2018-02-07|Alexander Condello|Update module docstring
+d20653ea7ee01a1a405f4c7ff5ba2ea9ad2c69d2|2018-02-07|Alexander Condello|Merge pull request #54 from arcondello/python2_testbugs
+3696e38f648b64db9f0c569b2df6732f978a4c4b|2018-02-07|Alexander Condello|Add RecursionError into py2
+3606f56ea1c678bc115ec9bb671f1924427bb9ba|2018-02-07|Alexander Condello|Add mock to requirements for py2
+88f0e5a76eef6c7cd3d68ef571112105a6a43e92|2018-02-07|Alexander Condello|Fix python 2 syntax error
+bb41b32e332d01867c405a565401d3ab5af7dae0|2018-02-07|Alexander Condello|Merge pull request #53 from arcondello/travis_deploy
+87d2e2af4755569a925eed71b08becadf7c6f65d|2018-02-07|Alexander Condello|Remove unnessary travis deploys
+2390cda57ba82e15fc46d0261594e02e08d8a293|2018-02-07|Alexander Condello|Merge pull request #52 from arcondello/appveyor_bug
+c68e3cb984404ac66a47e26b917855bb83395bc8|2018-02-07|Alexander Condello|Upgrade setuptools in appveyor
+3c7b09afce3d4a11c194e5084c2bec9c89d72718|2018-02-07|Alexander Condello|Merge pull request #51 from arcondello/travis_bug
+7c00941c7dbca16e026bf889541fabf0b5ee985b|2018-02-07|Alexander Condello|Remove pynightly build from .travis.yml
+3f4024586bf7366a4958f4ef475403a0791948e4|2018-02-07|Alexander Condello|Correct README.md to README.rst in setup.cfg
+ec66cba5fb35af0ddaddb2548a87daadccec6094|2018-02-07|Alexander Condello|Add 3.5 build to .travis.yml
+78cf5096dc5cfbc6371007bcc4709ebb1d5e3537|2018-02-07|Alexander Condello|Update setup.py to reflect new project structure.
+ac45dd8695a852df67b72053c0db1ca05b44f4b0|2018-02-07|Alexander Condello|Merge pull request #50 from arcondello/sampler_refactor
+1828bbf9898156f3f25fb68533a024ff9a0c07c8|2018-02-06|Alexander Condello|First pass a spin transform refactor
+cd68e56d50302f99ec46dcae500ff5e20c722211|2018-02-06|Alexander Condello|Fix bug in decorators
+049011378a2ee34e7efc15f493026ca7f41a4ca5|2018-02-06|Alexander Condello|Update random and simulated_annealing samplers
+97bde83d733fb6a997f476e0337ba1abc61bdd7d|2018-02-06|Alexander Condello|Update exact_solver
+45098f8371f48696f0a61b8c03b088ff474c9ac2|2018-02-05|Alexander Condello|Refactor Response's change_vartype
+b1dbecffb6c4b361c74f695b03b77b9e04114b12|2018-02-05|Alexander Condello|Restructure samplers
+65a794f20344dc0df0f4a3e8b642bf0cc689530f|2018-02-05|Alexander Condello|Remove decorators dependency
+159b4a15a94968ca1dd131dea0f1c1e4a9dcacde|2018-02-05|Alexander Condello|Remove keyword_arguments
+214bf25ef1ef654c7bb7c9886ef4522ecbe8cd3c|2018-01-26|Alexander Condello|Merge pull request #49 from arcondello/restructure
+09259e3c5956f796f715545dc814e904d4af547a|2018-01-26|Alexander Condello|Restructure
+6c46f9519db8ac5aac0edd0af71b22d0ab3ffcba|2018-01-26|Alexander Condello|Merge pull request #48 from arcondello/response_refactor
+e5052a8bf943b0e4e1d0a77b7532463bd9e88fc4|2018-01-24|Alexander Condello|Add new Response object
+91a7ff21f13b201622c7752a4ca91be00c5019f7|2018-01-24|Alexander Condello|Remove old response objects
+eb0398dcdde0a833cbec08d5c2cc480ce44ed1b8|2018-01-22|Alexander Condello|Merge pull request #47 from arcondello/infrastructure_refactor
+ab199d4877e838ab004e0718589af6c27c735485|2018-01-22|Alexander Condello|Rename binary quadratic model tests
+424272793cdedb52d131d0e045f0e62705583d7e|2018-01-22|Alexander Condello|Move all tests into tests/
+651e77e67233ffb4384f63f187538303d5381e92|2018-01-22|Alexander Condello|Add compatibility23.py
+88610ede4f73c4c4c5543218904f4867fe530e26|2018-01-22|Alexander Condello|Update verion 1.0.0.dev2 -> 1.0.0.dev3
+07cbca5f1b866a1238462302c58f0998d24a6837|2018-01-22|Alexander Condello|Merge pull request #46 from arcondello/bqm_pandas
+d0b5003c488f88d353e9391f13106fb6ef0a9bf6|2018-01-22|Alexander Condello|Update install instructions
+b34c79227d20c2e8672b7a0465f669e9be26e274|2018-01-22|Alexander Condello|Add to_ and from_pandas functions
+6afe1347ce0382e358ff31d7f32dc6f0924cb732|2018-01-18|Alexander Condello|Update version 1.0.0.dev1 -> 1.0.0.dev2
+3785365799c9ecb8590b625672942ac069677e25|2018-01-18|Alexander Condello|Add binary_quadratic_model sub-package to setup.py
+6247c85916f9f598bc4c500f51f1421267b9ebc6|2018-01-18|Alexander Condello|Import __version__ et al. into __init__.py
+7c3f22f5f3da25d49203cce412289351c581ef22|2018-01-17|Alexander Condello|Update version 0.5.0 -> 1.0.0.dev1
+f962a813328755908468279ce07331be667d76c4|2018-01-17|Alexander Condello|Merge pull request #43 from arcondello/binary_quadratic_model
+6a734585113091d5792c549871e94905f2c0663f|2018-01-17|Alexander Condello|Add binary quadratic model to docs
+3afc6d4c546243153ad2d84a58b9477ff704dd09|2018-01-17|Alexander Condello|Add from convertions for binary quadratic model
+9ee6c9b8d32c9de1e9fba673a7fb5644261d20a9|2018-01-17|Alexander Condello|Add documentation and unittests for convert
+96b1975d35391775223d8c382b84a0f2c9b7f8ed|2018-01-12|Alexander Condello|Document and unittest new methods in BinaryQuadraticModel
+75985a135ef106e8b58419fdda059661fa1c31da|2018-01-12|Alexander Condello|Separate model and model_convert tests
+82c7a7a05d2c010bf8c673b51fa96205eea4fc5a|2018-01-11|Alexander Condello|Update .coveragerc
+eba44b13b56a27882ff2de64180dd83d62a6061c|2018-01-11|Alexander Condello|Add to_numpy_array function
+0467e35b4548e56646665ca6e8a034d29a925ff9|2018-01-11|Alexander Condello|Add .binary and .ising properties to BinaryQuadraticModel
+d2e1809083ba37ee429ed7dc81abd47526baa611|2018-01-11|Alexander Condello|add_variable and add_interaction and add_offset now all act seperately
+9383eb14303c2a8cad7c4f2ddf3e394aa1e1ca34|2018-01-11|Alexander Condello|Specify vartype when adding variables and interactions
+eea506218af0d6b4924748dffb7679721f7d9b8b|2018-01-10|Alexander Condello|Change relabel_variables to use the new add/remove methods
+4f7b1cbb81b6cff918bcc3edbf04bf4d9622282e|2018-01-10|Alexander Condello|Add methods to add or remove biases from the model.
+86f61483c87d491bf1967a8e7e65036a0fc8770e|2017-12-29|Alexander Condello|Add .spin and .binary properties
+48fa11564e5c38373533d49896d3618c8645960a|2017-12-29|Alexander Condello|Move convert tests to their own TestCase
+3fe19a213d901a4badf870fd8297f04a96c568a9|2017-12-29|Alexander Condello|Make spin_to_binary and binary_to_spin static methods.
+5c476cf3b19d95d47e8a9bd357e108bcd3c78b57|2017-12-29|Alexander Condello|Add BinaryQuadraticModel class
+decce1003db1ac1974692dc72f860cf514316110|2017-12-29|Alexander Condello|Add networkx to test dependencies
+cabdea2589b7caab8595f748f906d553826a751b|2017-12-29|Alexander Condello|Fix enum34 version
+de36f06f3ba1c2730d693dc342b15f123189999f|2018-01-03|Alexander Condello|Update appveyor badget to dwave-adtt
+0515c383f43b2edc829e74e5772e06701c2cdb0d|2018-01-02|Alexander Condello|Merge pull request #9 from arcondello/expose_chain_to_quadratic
+19eb6204cee0847df9aa9ce3e13a00f731afeb71|2018-01-02|Alexander Condello|Add chain_to_quadratic as an exposed function
+f65791327da17deff6bae3fa30e820bce830ce3d|2017-12-29|Alexander Condello|Merge pull request #42 from arcondello/badges
+8df1b16e7cbb755a6283f31b6b551fe358a45579|2017-12-29|Alexander Condello|Add readthedocs badge
+fdf2dc9e339691d82d05763392d6915934780fca|2017-12-28|Alexander Condello|Merge pull request #41 from dwavesystems/0.5.0
+131f08a73f59c035927ff65405740badd4074ff7|2017-12-28|Alexander Condello|Update version 0.5.0.dev1 -> 0.5.0
+bcd0dceaf3c3892d5743f7fe79d70aed1f14731e|2017-12-22|Alexander Condello|Remove some builds from appveyor
+b0ac9b7bdf18a96481a15153bffdf8b44153f213|2017-12-22|Alexander Condello|Update version 0.4.0 -> 0.5.0.dev1
+042d4a7d1dcc7bbdd663c06a4efd960dda058eef|2017-12-22|Alexander Condello|Merge pull request #36 from arcondello/doc_restructure
+65980de68003f25ffbcc963d7f7a27fb560cee2d|2017-12-22|Alexander Condello|Restructure documentation
+dbc78d8b40cbc84529b68f14c2fa02da78a583ab|2017-12-22|Alexander Condello|Merge pull request #35 from arcondello/vartypes
+2ea9e6e91f36a8972df2752020c06f8996d51b44|2017-12-22|Alexander Condello|Update vartypes.py
+225edf3a7f24ab8c5f4238c8e568a94bbe746fc4|2017-12-22|Alexander Condello|Run a smaller set of unittests on windows
+018a88d997e7de5b1ad48fef39baddd6c79f74bc|2017-12-22|Alexander Condello|Remove osx pynightly
+3c72842733705252959996ad7c4317eaa18d5324|2017-12-22|Alexander Condello|Update setup script to not need requirements
+376b03c57779d3a5d263ec32e5b61657013d6f36|2017-12-22|Alexander Condello|Merge pull request #30 from arcondello/fields
+bb5a002f56d79fb9291a36e66f0335a5e2f73a6c|2017-12-14|Alexander Condello|Remove pynightly from osx
+64f911cc77d0f31cf9afb6cb65c8deb129c1df97|2017-12-07|Alexander Condello|Merge pull request #8 from bellert/refactoring_variable_names
+539baec20ff46fd6959faa6a2991f257f78b86f2|2017-12-07|Alexander Condello|Documentation update to reflect structure changes
+b59990ff969a5170d434a318e474eb5b8d4d842f|2017-12-07|Alexander Condello|Update requirements.txt
+00fb4e193694881d966129d1f1fcd3b68aa7d8d5|2017-12-07|Alexander Condello|Add docstrings for numpy response objects
+eb14460c592813ec699c808e1ae223d3c567de05|2017-12-07|Alexander Condello|Change enum -> enum32
+d251f7f97e5fc32fd41266430ed0e991109e1fbe|2017-12-07|Alexander Condello|Add enum for python2 install
+cac3f1bd1fc744b3e69ca5abeb195abe27a1d1c1|2017-12-06|Alexander Condello|Refactor template_sampler, with changes propating
+9c5e5bfc7a1efa4d4136710d9f8fcd1a53926065|2017-12-05|Alexander Condello|Major refactor of the response object.
+987e0c31ff608ff2990c3512eeb605cdf60b1d09|2017-12-05|Alexander Condello|Rename brute_force to exact_solver
+80dac5d55dd8f568e9f12f56665bb939bb195c96|2017-12-05|Alexander Condello|Rename response.py to type_response.py
+f1d4da82521a0615d84e99c330b9a9a533c038d9|2017-12-05|Alexander Condello|Move templates to their correct subdirectories
+73ae98906cdb6f5675c28b831d5fdb2de613e900|2017-12-04|Alexander Condello|Add offset inputs to utilities.
+1dd7818e30ec23852b8be7009be82007cd4f21c5|2017-12-01|Alexander Condello|Removed unnessary lines from .coveragerc
+cfdb14e302626c9f509cd3d8eed1c9165da76905|2017-11-30|Alexander Condello|Merge pull request #29 from dwavesystems/dev
+241a59f35fbcba392dbc8b3037f6fdb243b87500|2017-11-30|Alexander Condello|Increment version 0.3.1 -> 0.4.0
+ae85aab0307af5e8d7b44438d42460c2e66dadf9|2017-11-30|Alexander Condello|Merge pull request #28 from arcondello/parameter_propogation
+c56680e8aca13e4743a15b8b4e15a0daff1d425e|2017-11-29|Alexander Condello|Add exception for composition errors
+ab27704c07960c7861fee65a21a3fe519e385a62|2017-11-29|Alexander Condello|Fix some pep8 issues
+3df578b3da8ff77b80f864e0334975caaaf98599|2017-11-29|Alexander Condello|Fix typos
+2028a0b427416f4293d8850d78ff6b47b86dc05f|2017-11-29|Alexander Condello|Add mechanism for passing accepted kwargs up the stack
+e3f0c91265f8892f927a0a4ff7aa630ce99d9c7d|2017-11-29|Bradley Ellert|Rename variables for clarity
+e61d7f368360f07df75fdba178f7ee2263408e8b|2017-11-28|Alexander Condello|Merge pull request #5 from arcondello/master
+4a459e593b9f984dc608672b03c98829c7210c61|2017-11-27|Alexander Condello|Update setup to reflect README change to rst
+8c5996bbd1c308501d44f7cf3ae925b119b8cf72|2017-11-27|Alexander Condello|Add badges
+f397e87352f7897511d94af201bd150414b23064|2017-11-27|Alexander Condello|Merge pull request #4 from arcondello/unittest_fix
+f714b499af77cb441a9d3012b361c0d41536244a|2017-11-27|Alexander Condello|Fix unittest bug with u,v != v,u
+9a4daa9e258dd7deee526eeded91a4d6af8e2b8c|2017-11-27|Alexander Condello|Add travis secure password
+22db321ad7f51fd4a1a22dc5849bfbfe5cb04d9f|2017-11-27|Alexander Condello|Fix install instructions
+e105aee52fe03ce731a31bbaf3280a54f0914fb5|2017-11-27|Alexander Condello|Delete README.md
+e9f67bf62f3bd65c6a11ab486bcf7cfe01df8fc2|2017-11-27|Alexander Condello|Merge pull request #3 from arcondello/travis
+f3d744038f5e6eaeebb77b2e093a2784863c92af|2017-11-27|Alexander Condello|Add travis building and coverage
+c71d8028df8d0719d12762085d2447d2550ecc45|2017-11-27|Alexander Condello|Merge pull request #2 from arcondello/docs
+555b5f7ae8c8f5933c003acc7b39bcf1170752b6|2017-11-27|Alexander Condello|Add documentation for readthedocs
+0b43d209963311ddec7f3109e140373288ed4996|2017-11-27|Alexander Condello|Merge pull request #1 from arcondello/master
+484047d32247965f2604281f356895587032c064|2017-11-27|Alexander Condello|Update returns in embed_ising docstring
+c016c7bef1fa964e0db5e76beeaf5831d16d25b7|2017-11-27|Alexander Condello|Add edgelist_to_adjacency function
+8c9f5510241961185c71b9fa1327d9708f974799|2017-11-27|Alexander Condello|Update to reflect review changes
+6808cebe4f714a92facd6cb0997cf9c180138b96|2017-11-22|Alexander Condello|Change embed_ising_to_components to embed_ising
+ce8319ef34efd8d8c5ba597a5c00724018fb2ed6|2017-11-22|Alexander Condello|Merge branch 'dev' of https://github.com/dwavesystems/dimod into dev
+fee3a729fbc1a63d90697bf14d5389cf604c8f8b|2017-11-22|Alexander Condello|Add basic README
+612a574c8cda19bb0778461ff19bdac2b70ec22c|2017-11-22|Alexander Condello|Add setup script with relevent metadata
+c2ae23fd5a3aaec7e809278a756b532deeca0590|2017-11-22|Alexander Condello|Initial code commit
+570e526b750f93c6471f1d1da3f38120eb9e0ab2|2017-11-22|Alexander Condello|Initial commit
+3531f84ea800ab8ea6ea0073e0ec05dc012ec88c|2017-11-14|Alexander Condello|Merge pull request #24 from myriagon/tmp1
+6aaaeff07359b90e1ffec55c291b7e5da4653aa2|2017-11-13|S Davis|Fix typos and make minor tweaks to punctuation and wording for clarity
+ffdbdde201ccaafdaec3e8f7e6bc9008ba8ba917|2017-10-16|Charles Chan|Add links to README for samplers
+aad8d184ef7863ee5d166be1a8c07232eed2cbba|2017-10-13|Alexander Condello|python to bash for install instructions
+adc7ad0c3fcb4b1c05dfe8dbf819c500b5414551|2017-10-13|Alexander Condello|0.3.1
+c14ef182876e4671f7d2c7ed0b85ac18fda6d6a5|2017-10-11|Alexander Condello|Updated README to rst and removed erroneous file
+981f2cb84774de0081f062b6e8299dbf3b2c2350|2017-10-11|Alexander Condello|update deploy
+0c07693da561d39d7823d62b488772822372f73e|2017-10-11|Alexander Condello|0.3.0
+a5513440bddd4a0f9012cfe74caf90b4d0ff3ba0|2017-10-10|Alexander Condello|0.2.0 -> 0.2.1
+614130fcb0b5efc14b038cbaaccf06eea97f4710|2017-10-10|Alexander Condello|Updated travis deployment with quotation marks
+f76fdc2f6b2a592fade71f0a93486e513a9cd4f8|2017-10-10|Alexander Condello|0.2.0
+200d57e4902c16c4eb4caf0909ab2359d722bf27|2017-10-02|Alexander Condello|does not support python 2.7.0
+9f1d49034873901df060e46afe541772025487c2|2017-10-02|oneklc|building on travis and appveyor for pypi
+f7166e9a3747c31f2f032d6df5fd535471303b19|2017-10-02|Alexander Condello|Merge pull request #3 from kenkoooo/master
+7308fd07605f4466f867b45a90c107036bcc8372|2017-09-26|kenkoooo|Added Travis CI status badge to README
+9e5dd21835651a392df66ca2af31087463703f0b|2017-09-14|Alexander Condello|Merge pull request #1 from oneklc/master
+22a60c0590a1a5c89fb7585d63b3ddc3e1d703c8|2017-09-14|oneklc|Update .travis.yml
+c34acc829f25a9f05fee78427ae824dafe98a286|2017-09-13|Kelsey Hamer|changed order
+e768f93459508e5b8d439b5b41f2ed368bd9405f|2017-09-13|Kelsey Hamer|reverted. added using pip to install
+269730bec46bcc4f5ca14f01fffd8de6e4e3a810|2017-09-13|Kelsey Hamer|changed install
+08feb2dd6b8caee8758ddcd71ccfdbc1f3d5030a|2017-09-13|oneklc|Create .travis.yml
+c316d46437311e52dacdd2a3a0e7c686088bdc56|2017-09-13|oneklc|Create requirements.txt
+c4c20d317a0ad550d91ee048bef0180037aec024|2017-08-25|Alexander Condello|..
+6b1f182bf306b4dd08d24f465805a2821bf73dd8|2017-08-25|Alexander Condello|..
+898a7a34cdd3fa156c10cfcf69e5b5c4a40ad8df|2017-08-25|Alexander Condello|..
+b25b8282c6425d9e909632b6810d405dd7a39acc|2017-08-25|Alexander Condello|..
+4982a37310111e44200ba69a2abfaa46d97e1276|2017-08-25|Alexander Condello|no jekyll
+7222b05a34e94f39c6842e3ab4db84dae91ac895|2017-08-25|Alexander Condello|..
+4efe7645e5a44f38f31011afa48fbdb475b97beb|2017-08-25|Alexander Condello|hopefully this time
+9215486b67c15afae42aa774b832914e0b42fb29|2017-08-25|Alexander Condello|..
+c7368959fc6fe0f37c44f78dfd257bc54916cac2|2017-08-25|Alexander Condello|..
+a47087cc247ba874150ff064eba5630787b52ce2|2017-08-25|Alexander Condello|need to commit before running make
+d694cd1d09f1c133eed23577740d7bb5db93c455|2017-08-25|Alexander Condello|some stuff
+a9eea5e49ce89dcd884517829698762b0fc26abd|2017-08-25|Alexander Condello|still messing with makefiles
+dab1d515a37a62108b89d66b1b34ad85db2d4ed2|2017-08-25|Alexander Condello|still messing with make gh-pages
+7de66c9cd853aa632b51e28fee390e53b879b348|2017-08-25|Alexander Condello|more stuff
+601dfb167711ec865a7ac2f53832cecffccc61ee|2017-08-25|Alexander Condello|gitpages recipe in makefile
+d96982a82b1930f92c245a0527af094801bc9ff0|2017-08-25|Alexander Condello|nojekyll
+6bb0833a959492e2db8faed3bff594870724f55b|2017-08-25|Alexander Condello|messing with pypi
+d46e21d9cf970b5d2ac320bc045acf3233a90009|2017-08-25|Alexander Condello|changed some wording
+71963f354730e105537e9b910cc2c776266885d8|2017-08-25|Alexander Condello|simulated annealing is only a ref implementation
+39c6c372d68e89086ac2b9b93c394e5ec8547b6a|2017-08-22|Alexander Condello|don't remember
+507fb651af8eeb4083d6891b8f91fd7f824fe6d9|2017-08-18|Alexander Condello|more setup information
+cb6b21c8fa683d275d26096ba9e4aae8a812747d|2017-08-18|Alexander Condello|added gitignore to tracking
+a2f36c1376696e00d6b853d805f661bf8fe5b220|2017-08-16|Alexander Condello|doc change"
+e49627e19a59889b0f1fc9140c86c2c580dda1ff|2017-08-16|Alexander Condello|bug in templatesampler
+8a268d735a268b46a122fb68a076e6dec7517527|2017-08-11|Alexander Condello|n_samples -> num_samples
+5ab3b66ba32df41cdbb7d5b74417e60af436de58|2017-08-11|Alexander Condello|TestSamplerAPI documentation, solver -> sampler
+47b3f813256c71f3cd505658cb3e49aa305d5641|2017-08-11|Alexander Condello|license in docs
+fdb35bb1180478ce129d03a9b51397d443b81684|2017-08-11|Alexander Condello|added license file
+72721f856a598b93b731c72b0ffa77a3919d6f3d|2017-08-10|Alexander Condello|todo for future
+9d6bb07fefbbe686910b03f7a814117da8a517ab|2017-08-10|Alexander Condello|first draft documentation complete
+4f89994b649a29b3d24398d64f8dc1c407290011|2017-08-09|Alexander Condello|spelling
+5c67beffdd2240a0ddad986c712f5aa3f81f1235|2017-08-09|Alexander Condello|updated readme
+fd8342ec23fe8216759ae3c3ca87735d6439301d|2017-08-09|Alexander Condello|a bit more docs in exactsolver
+b3543cfd55ab67ebb6896b109693dc30b6178b8c|2017-08-09|Alexander Condello|docs
+65d48363f5fb0f68006083d9cfd19ef0f24c2f31|2017-08-09|Alexander Condello|bigger exact unittest
+166efd95904a9aec67dfdb41772d789e85cff0c9|2017-08-09|Alexander Condello|sampler documentation, a few unittests and fixed a bug
+7792b9787a59bf4a2f28cd6fba1d898c53e6120f|2017-08-09|Alexander Condello|docs for response
+2b9ceba327379139273cf09ea6bf084edde57705|2017-08-08|Alexander Condello|Documentation and sphinx for utilities
+f0c890be7472eab3ede3daf5620dab3be83822d8|2017-08-08|Alexander Condello|documentation for SamplerTemplate
+40c5fce30fd2a5a199ede24cfd307239b9a6002f|2017-08-08|Alexander Condello|removed unnecessary parts of simulated annealing sampler
+57ebcaf72889e8db9ecfe097fc4caf98351a7845|2017-08-08|Alexander Condello|adding multiple samples is now much faster
+f31df361067656762dae85aff3733bc3dad7b103|2017-08-04|Alexander Condello|basic readme
+ee3a592088d8188b5e3724b33b4dcbe5f215892f|2017-08-04|Alexander Condello|basic readme
+5ba8727b07e03996f9a77bd9a23fc900f3cc9ad0|2017-08-04|Alexander Condello|read the docs begun
+a99dd50edc5876161384187610edd42a0a2c91dd|2017-08-04|Alexander Condello|bugs and docs
+083697d2a0bffc1b2e0bf321bdc1aa76c053bd04|2017-08-04|Alexander Condello|documentation, self refererential template
+1fd98c324216586ef1fb35cfba3d8862049b7290|2017-08-04|Alexander Condello|removed unnessary stuff
+1cff32381b7f180bc5dcadaafb2376a848bd54fb|2017-08-04|Alexander Condello|algebra
+43c06c1bd6d3112e8d8a1ab88857c9fa698b85c4|2017-08-04|Alexander Condello|small speed improvement for exact solver, still far from optimal
+d217e122e5af2414810090e0389e4fb0992c2967|2017-08-03|Alexander Condello|some small doc
+668506ec68c6483f5be3bb4e85fe0cc6a1a8c6c5|2017-07-25|Alexander Condello|better temperature selection
+0bd921d446445555c291a83ad4a5b03520ed065d|2017-07-17|Alexander Condello|offset sign flip
+70673cfd2b3d9db146966bc2fbd14d380b01361f|2017-07-17|Alexander Condello|added super simply brute force sampler
+eee5a895e270479e2e96727906ee2547e5945b72|2017-07-13|Alexander Condello|rename to dimod and installer
+9e5c687a8c9ccff11e4d28f2f3e8d6181805ebda|2017-07-13|Alexander Condello|samples -> n_samples
+482e4353aeed95932f9dfa6a7a07566cab2e77fa|2017-07-13|Alexander Condello|some docstrings
+b4709738793c017cb6c0dedd753b50d23bbd2a34|2017-07-13|Alexander Condello|SA is code complete I think
+bffd9dd3d35d9d9e3e48ec90cbbd40f0b3e3e885|2017-07-12|Alexander Condello|simulated annealing code complete
+7a7d1e3104d4da8e65fef71725026879fcd8c1ac|2017-07-12|Alexander Condello|eliminated range, tiny refactor
+59044a2e7235f219ec4c52422222e77f52ce552b|2017-07-12|Alexander Condello|simulated annealing function is implemented
+1311de31cb06f961a1ae7a2c9ff807e63a608805|2017-07-12|Alexander Condello|docstring and unittests for greedy_coloring
+d7e1418a0442cef2840232183ad22694c5ef0655|2017-07-12|Alexander Condello|name changes. Running now though not passing unittests
+196c893c42cca0f44b9eb1b0a32ffe6878b56ee3|2017-07-12|Alexander Condello|solver -> sampler 2
+44179e0b5a399932c39d79923f6d7457aed3e6d5|2017-07-12|Alexander Condello|solver -> sampler
+9131fd6da06eae1ec55cac33c4af9cbb9dee36c1|2017-07-11|Alexander Condello|docstrings for miles
+28b3bb7d0a8f4f0b358195b5217d8d8621df1b19|2017-07-11|Alexander Condello|docstrings
+9541be870e986716d82bb14b876e56ddb931c373|2017-07-10|Alexander Condello|reminder for docstrings
+c74e44d9f722c24887b5ceeaff0cf983b30d8a02|2017-07-10|Alexander Condello|unittests and code complete. A few docstrings left
+82dc182df87783886f5aba458ad4db7796a9a208|2017-07-10|Alexander Condello|SpinResponse mostly done, just not as_binary
+1144a696aca5f6efba6ff559e5e78b602bcdc10f|2017-07-10|Alexander Condello|relabel_samples is implemented, doc and tests
+e3387991f0143646a9f385bafa206f6e10e28219|2017-07-10|Alexander Condello|DiscreteModelResponse doc, codecomplete, unittests
+e9d4203b2f3fcac03afa0097e38a1af18eee5fc6|2017-07-07|Alexander Condello|most of responses done
+7a1e11238f46cb37f668b424e1ead0dd4bb1baeb|2017-07-07|Alexander Condello|refactor for responses
+52821e38048a366f324a5de380ae3b75c019d72f|2017-07-07|Alexander Condello|examples in docstrings
+3515bbabef44b5ebb591229d919e24036d19786c|2017-07-07|Alexander Condello|decorators done with doc, unittest, codecomplete
+58adc5984a47b14bd61445a360b39d0495b9429b|2017-07-06|Alexander Condello|decorators for ising and qubo api are code complete, documented and unittested
+bb1cbfb8520b8bbc5fbfbfcf9b17d863ba625dc9|2017-07-06|Alexander Condello|solution to sample
+f64275d77b2bdc0b11eced9c7f9c926a8f021ad8|2017-07-06|Alexander Condello|utilities code-complete, documented and unittest. Also added README
+142fea0a33501cdb5685c83bf48433a5854e37ef|2017-07-06|Alexander Condello|named module
+b6501460826d631281673adf85cd45c821a1d8ba|2017-07-06|Alexander Condello|more work on solutions, need a major refactor
+aac6a0b1f3705c84fe2229b09b9fadbb771ad914|2017-07-05|Alexander Condello|tiny refactor
+d21d8ac6d1892a381e6665b40ee50c63d10f5244|2017-07-05|Alexander Condello|docstrings updated
+b3ca56b15157404daf26a0521a39b630f9756688|2017-07-05|Alexander Condello|unittests for utilities
+4d9d6c83ff411bb441dc29469a7fdaf78cebb20c|2017-07-05|Alexander Condello|sa solver class implemented for ising, lots of docstrings left
+dd7006ddf6316d5a3f68f1109aeb791651b80f21|2017-07-05|Alexander Condello|utilities module implemented better
+b887709ac507874e3559433adf0de53b0992614c|2017-07-05|Alexander Condello|simulated annealing solver is implemented simply
+0b61af9d81155bb0d562edd5892cdcf06bc7e8fd|2017-07-05|Alexander Condello|nothing works, everything is broken
+e29df22978212a1715b50091a50b31aba1df0fca|2017-07-04|Alexander Condello|dumbest possible solver
+08a1d0c84bef9dbafe50289227337c85e886d6c1|2017-07-04|Alexander Condello|lots of work on Binary and Spin solutions, total rewrite of unittests, not many added yet though
+9d7d93fbc8949bd0a30b6586347ecdb95acf2e52|2017-06-30|Alexander Condello|solution reimplemented, part way through spin/bin subclasses. So much documentation needed
+a88b17ec33f8d4f1b8d61604048e5f138a4d3714|2017-06-30|Alexander Condello|softwareoptimizer is further along
+cecd1ed30239373ea22eea57f3da436731679dc8|2017-06-29|Alexander Condello|better documentation
+2b60a341c9ed96fae6f1b91753506507f76ed6d4|2017-06-29|Alexander Condello|better unitests, restructure
+15982b747047da214869a0f15b631424fd6e0a82|2017-06-29|Alexander Condello|added returnable solution
+b2bcb3e5e1d71104bd1ddf46a2a8873d67bca0cb|2017-06-28|Alexander Condello|initial commit

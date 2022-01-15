@@ -1,0 +1,1180 @@
+3a05aa8ecbca7bc4bf45890db8c0dde0f05f7449|2020-10-02|Lori A. Burns|v0.17 changelog (#272)
+80fbae7a86a941bb2b466c9b44231b6daffb1479|2020-10-02|Lori A. Burns|Merge pull request #264 from eljost/turbomole_energy_fix
+da1323924a8d2e4f30c177f6645d5c8965390fc4|2020-10-01|Lori A. Burns|add project authors file (#262)
+84165b943b22d86b6a33fb3af71de8542d301aae|2020-09-30|Lori A. Burns|Merge pull request #271 from bgpeyton/patch-1
+abe1ac3c29480e492f8902ef6d00ccf60ae4742a|2020-09-30|Daniel Smith|Merge pull request #266 from MolSSI/psi4-error-reporting
+0b6aac4804a0bc0b5b3898dda444d3bd97df0389|2020-09-30|David Dotson|[Psi4] Improved and simplified error handling
+7642479ce908776daf3c8cff69223c21baf2c2c6|2020-09-30|David Dotson|Merge branch 'master' into psi4-error-reporting
+a427b8428ee9d17252832510bdd350af96e33837|2020-09-23|Benjamin G Peyton|Update index.rst
+54f42a719edf3f1937dcaf8ab2adbb1171304e12|2020-09-08|David Dotson|Torchani lazy model loading (#270)
+66f10d2f0cdd6801a4578bbc4317df9d0bb00cd2|2020-08-31|Lori A. Burns|Merge pull request #265 from exalearn/fix_xtb_harness
+23080340184e0d51f590b06f067b419217ea8f6c|2020-08-31|Lori A. Burns|Merge pull request #268 from MolSSI/loriab-patch-1
+ba6b49b68f013e0b2aa6651b932fa921926fb9f4|2020-08-30|Lori A. Burns|format with black 20
+514d68deba118039d8579d465f2379bd4cd22dd9|2020-08-30|Lori A. Burns|Update LICENSE, fix #267
+4a21d389e683097d29d00b3582d4d6000e2550fa|2020-08-28|David Dotson|[psi4] Added additional handling for missing error messages
+aad320e2be4138b7e7c679b838f07e2f6bac32ee|2020-08-28|David Dotson|[psi4] Added tolerance for missing success key in error reporting
+a413819ce4ed9d45a6984bebe821b0b70fee5a0e|2020-08-28|David Dotson|[psi4] Added tolerance for missing success key in error reporting
+84219a27958af0030254359b51f00e6ab21806fc|2020-08-28|Logan Ward|Pass extra tags through the XTB wrapper
+da61d8a8e040c1f66346974cb356d13cef938588|2020-08-28|Logan Ward|Add XTB to the standard suite of harnesses
+4d026f38bd153fbf050b7c0c7d9d7a6233008229|2020-06-26|David Dotson|Added changelog entry for v0.15.0
+ff693c467285fe55a9069fd4bc42ce90a0d1935e|2020-08-19|Lori A. Burns|Merge pull request #259 from loriab/stdsuitemp3
+c3235647cc3659619a80bbe094d7e02073cc0db1|2020-08-19|Lori A. Burns|update to qcel 0.13
+bc258724ae5d6b6306316a7af3b8a89b72a04db0|2020-08-19|Lori A. Burns|maybe 13
+8b8bc8a249a3afe70e45e9baa848d8b84989ff4f|2020-08-19|Lori A. Burns|set up a minimal testing env
+d5c52f3aa8b10a583d84a7f85525b80a740554da|2020-08-19|Johannes Steinmetzer|applied black formatting
+c8497a809c371f75dd52468124b1ca1f2dbb9519|2020-08-19|Johannes Steinmetzer|added asserts to assert the presence of return_energy in properties
+b1b51bf4dcd95e0c849754af33420f06982de439|2020-08-19|Johannes Steinmetzer|added RIJ hessian test
+c2480f523452a4afe5ee77570ffa383910c534c6|2020-08-19|Johannes Steinmetzer|added memory handling and improved comments
+6f63d3d369a650a0d089f4e0c60bec8f801dd4c3|2020-08-19|Johannes Steinmetzer|added Hessian calculation (analytical for HF/DFT, numerical for ricc2) and corresponding tests
+b02ec41f898e56c03a4d906ebbc2a301e42bea45|2020-08-19|Johannes Steinmetzer|bugfix: energy was missing in gradient calculations. now build_out and build_atomicproperties from qcvar_identities_resources are used to be consistent
+3b0c4844e18280174cda436e6a5835cf310e5937|2020-08-19|Johannes Steinmetzer|fixed reference value
+6b419554f90628ca45dc56f29016f806a0655d00|2020-08-18|Lori A. Burns|update changelog for v0.16
+60cc5a04d0ab1aabcb4b1e7c024d45d39844041e|2020-07-30|Lori A. Burns|update changelog
+aadd5f436d4fa7cfa978c5955a0c0a57ce3313c9|2020-07-23|Lori A. Burns|standard suite for HF, MP2.5, MP3, LCCD grad
+236156f3101d5dd4d16bf59ba5b19419e800b52f|2020-08-18|Lori A. Burns|Merge pull request #261 from loriab/qchemver
+d1b18c8135f87c3e95f3eb2fe4cc954411e56474|2020-08-11|Lori A. Burns|Merge pull request #263 from exalearn/noautoz
+b9167238b0f662d1a5258a963e1c191bcecc04c6|2020-08-10|Logan Ward|Prepend geometry__ to the option name
+e295a01ff2a8247b096424212d1540e30e07cc9f|2020-08-10|Logan Ward|Format fixes
+556b0c7cab5f47397fc90223b3731e4515358312|2020-08-10|Logan Ward|Add ability to turn off autoz
+5bede14d4ca66a8ad4f468ee0eacb45ac7434021|2020-07-31|loriab|forgive lots for qchem qcenginerecords tests. lower qchem to v5.1
+0003e408505b4634961af84c1bd0f1503fe92f95|2020-07-31|loriab|version for old molpro, qchem qcvars, version for qchem from file
+7bd25219f5f438ac52063c96152f50aefc194856|2020-07-08|Lori A. Burns|Merge pull request #241 from exalearn/nwc_atoms_map
+8fc9ec259f6997002b419aea8eff43cbb395651b|2020-07-08|Logan Ward|Use a basis set from standard nwchem release
+360f96e8df1a3590ae1046afa438888094d0f494|2020-07-08|Logan Ward|Use alignment check built in to qcel
+30e4c1239a0cae5a2ddbfd581cfffe51856fa7e1|2020-07-06|Logan Ward|Test that autosym does not lead to failures
+8dc2a61c1d847e55632939d673a63b11c03d8df7|2020-07-06|Logan Ward|Merge branch 'master' of ssh://github.com/MolSSI/QCEngine into nwc_atoms_map
+f03ff5dcd9b09c807db6e76a2a821ff6602d26bf|2020-07-05|Farhad Ramezanghorbani|Add TorchANI's ANI2x built-in model (#257)
+4525eb3ea94557c7f9aed400a02bf98a95ce5c92|2020-06-26|David Dotson|Added changelog entry for v0.15.0 (#255)
+b6520ea282b9f31c8b26a49c1259257be1412949|2020-06-26|Lori A. Burns|Merge pull request #244 from loriab/stdsuite2
+da084bb061fa890026b35715f3f01541925ec4b5|2020-06-26|Lori A. Burns|LCCD ref added to std suite
+0a02331aeb3eea76251a15510560dcded40d6e6a|2020-06-19|Lori A. Burns|rohf (t) std suite energies (cfour only)
+5f1e17f977d662a2d9ceba224c04f3b871025d36|2020-06-19|Lori A. Burns|OLCCD std suite refs
+fef90a04411b4972be2e28ceaef51e53063aa2d1|2020-05-29|Lori A. Burns|LCCSD ref energies from p4n ref impl
+bd2e8cf693df443a6f9d1afc30bbdb13173ba124|2020-05-29|Lori A. Burns|more LCCD ref data from p4n
+2d23d803e09e0c00ba2844c65d050b7de0ca01dc|2020-05-29|Lori A. Burns|lccd rhf ref data for standard suite.
+935a00cf96d5ac17204f632e5645e0ab76acdbf1|2020-05-28|Lori A. Burns|fix psiapi errored runs. add generics ref values to standard suite.
+b99b9162cab373948096699ac4f18acb00d8ccf8|2020-04-30|Lori A. Burns|standard suite expansions
+4c09a2389973792884812847a3cf76e8e20ce298|2020-06-26|David Dotson|Merge pull request #245 from sjrl/missed_import
+a93a55738c615464c1d5abde884eab93fe4a08e4|2020-06-26|David Dotson|Merge pull request #239 from jthorton/openmm_cmiles
+85c22377b0cf4e06088c11bc8263e8f022916237|2020-05-04|Sebastian Lee|Missed import for sys
+08840e2e0f962987c54faf9736f0896682961399|2020-06-25|joshuahorton|simplify flow control.
+20c50c90fde07a4605191092554263ab29b742fa|2020-06-24|Lori A. Burns|Merge pull request #254 from awvwgk/xtb-doc
+a45fe16b48157e52a86dd3ec7fa40746726feb42|2020-06-24|David Dotson|Small edit; unused import
+3f8dc4f58f0baea6d0c366bea65c235cdc2f43e7|2020-06-24|joshuahorton|Remove openmmforcefields workaround.
+a058727459a34fe3dad4828a28217be80a864b84|2020-06-24|joshuahorton|Add gaff keyword tests.
+bdba98a30ba9d57ed489344f05a3df80957bd3e0|2020-06-24|Sebastian Ehlert|Fix xtb row in program overview
+aaef4805485bdb188e8df765b8b9b46af18b4e0e|2020-06-23|David Dotson|reformatting from black
+f8294cc98849ee66ff0e108f2fbb1b0185287bc5|2020-06-23|David Dotson|Added test for openmm with water CMILES match
+325c299a93efce82d507ef763bfd4b970cc8e916|2020-06-23|David Dotson|Merge branch 'master' into openmm_cmiles
+6d27982fafd2d85a0002061388decadf1c0dc305|2020-06-23|David Dotson|Removing use of `omnia-dev` from build channels for openmm
+4b5843b059e9e619a29398cb9c06ed84185ca1c3|2020-06-21|Lori A. Burns|Merge pull request #251 from PeterKraus/pbe0-dh
+d69dae438f8881828d96aa765475d7d00d374f36|2020-06-13|Peter Kraus|Added pbe0-dh d3zero and d3bj dispersion corrections.
+02050f6ac409fcc51e9a90135c684cffe1e6e7b7|2020-06-19|Lori A. Burns|Merge pull request #249 from awvwgk/xtb-devel
+2e8944d47098db0514619fc5873a6b88ce962bc8|2020-06-19|Sebastian Ehlert|Loosen thresholds for gradient tests
+9e15f2cf6ab162a69d2c892a88901e57e4b4411b|2020-06-19|Sebastian Ehlert|Add section for semiempirical quantum mechanics
+44593788de8372fb9c21fa6169ddd7391871a8da|2020-06-05|Sebastian Ehlert|Add testing for xtb
+ea768fe3a81a9bc0955af42e1fe6963e82995611|2020-06-05|Sebastian Ehlert|Add basics tests for xtb harness
+24e257681ed99fba2c414d71390f526461a83c47|2020-05-29|Sebastian Ehlert|Implement support for xtb API
+800f8d6fdb3ab27c6935200540baba9358c7b71c|2020-06-19|Lori A. Burns|Merge pull request #253 from mattwthompson/fix-py-cpuinfo-6.0.0
+20669702b9b7e99bb2f02a1618a7267beaa1a046|2020-06-19|Lori A. Burns|commit to force travis resync
+124c51c7ad1202920f0e3729f6257678963167fd|2020-06-19|Matthew W. Thompson|Fix Psi4 dev version
+8f082c7c408344c60e43a500e0bb362199b48c76|2020-06-15|Matthew W. Thompson|Support both py-cpuinfo 5 and 6
+0ca2d748e298be997130c014d130de48962381da|2020-06-15|Matthew W. Thompson|Update "brand" to "brand_raw" after py-cpuinfo 6.0.0
+8ee06c5b4ad74da5a9591baad0a8a53e73cc1974|2020-05-28|Logan Ward|Make all XC functionals lowercase (#248)
+ca7b48521fc6618909610db75f27ad005e8ffe51|2020-05-27|joshuahorton|Fix hash for ints.
+96982fe46b8d7eacd47fc6ed081d991d40d595e5|2020-05-22|David Dotson|Moved openmm-specific test to test_programs
+36becfc5c2e06dd2c784e0ccd6f0264d6b64ef30|2020-05-22|David Dotson|[OpenMM] Added logic to handle case where no molecule.extras defined
+8aa5248acd1817d8e058b5967728cafeafb409b4|2020-05-22|David Dotson|Added openmmforcefields to openmm conda test env
+b3278f3caf39dc4b8c64f44a9c76a4ddd5dfd2e8|2020-05-22|David Dotson|Switched exception handling to if; additional flow control for bad input
+3fd90fd26d3103e27bf238ef230235001359592c|2020-05-22|David Dotson|Merge branch 'master' into openmm_cmiles
+ff14282d555430dc508813372579e9e5cc03052b|2020-05-13|Logan Ward|Return stdout rather than stderr (#243)
+018cac851038b3829c265986ed6eb87e6dcbbd0e|2020-05-11|Lori A. Burns|fix CI (#246)
+708055b88ca8419fc4e68602769be1709ac3db55|2020-05-11|joshuahorton|Cache update for the new system generator method.
+dfe95b19da2191e3d1ab9a04c61a0f64c829e3a2|2020-05-06|joshuahorton|Merge branch 'master' of https://github.com/MolSSI/QCEngine into openmm_cmiles
+4a52a90f69723abcbebda2256e32ede80260d579|2020-05-06|joshuahorton|Openmm harness refactor to use system generators.
+6ff35d807ff41dec94fe1a73fb9d000295850d90|2020-04-22|Logan Ward|Assume that NWChem keeps order of atoms consistent
+cfcaafdf6ef49114a4408c2fda66a8342dc6c076|2020-04-21|Lori A. Burns|Merge pull request #238 from loriab/stdsuite
+35ba8ff952f42c7c50bdcfafe782de36d4d2737c|2020-04-21|Lori A. Burns|ccsd gradients ref
+cc24587ddf6747eadd5205a5727151f8f5cf8b2b|2020-04-20|Lori A. Burns|contracts for df/cd-ccsd from psi. expand systems refs.
+436207a196b3fe17bae80e6bbc0d25ccbbc22a77|2020-04-20|joshuahorton|Test update and code lint.
+933f70f68fb2f0ceb10d4e03c6dc434a3a3c4e09|2020-04-20|joshuahorton|CI fix.
+ab9666ca5ec6b8c41fc462919df03f7bf687c875|2020-04-17|joshuahorton|Small change to check the extras field for a cmiles entry to describe the molecule.
+114717ba0676fdd40a6e2e01fd770d79da7d4032|2020-04-10|Lori A. Burns|qcng is less flexible than qcdb. CI should now pass
+b1930c1a2ac6a31c771573c9dd11b16e49b43dc9|2020-04-10|Lori A. Burns|fix nwchem tests. defer psi4 tests until schema fix merged upstream
+7bbc82580b75561559184b977e7a0a6c5f93c2ed|2020-04-10|Lori A. Burns|fix curl miniconda
+84883b9553e52568bc724ee38c3774f9aca5950a|2020-04-10|Lori A. Burns|spot format regex. black/isort pass
+842f301d641d5a434252d49e083e53e8fc5d1bee|2020-04-10|Lori A. Burns|expand standard suite tests - mp2 & ccsd
+4267201c666f12e36f738e8bf3cd19e6ab985886|2020-03-04|Daniel Smith|Merge pull request #230 from ahurta92/adrian-Dipole
+e4e62ffb9570d7f2a354fed9fe17d00e074bb0be|2020-03-02|Daniel Smith|Merge pull request #233 from Andrew-AbiMansour/patch-1
+3be42befe3ff8f695d00af5a8696d192b216f382|2020-03-02|Andrew-AbiMansour|fixed format
+e58d456cb199c1e2b11481bc021c7304691f45fb|2020-03-02|Daniel Smith|Merge pull request #232 from jhrmnn/add-pyberny
+d572a33434b9d442f7956ca408564f84fcd9fadc|2020-02-16|Jan Hermann|add procedure for pyberny geometry optimizer
+43441eb945ffce2415712d78c5e1462b64563008|2020-02-28|Daniel Smith|Merge pull request #234 from taylor-a-barnes/mdi_release
+ef66f4a978f189ac91424c20deb040e12d275f81|2020-02-28|Taylor Barnes|Add MDI version check
+304de67f41bbdbe4faf59c2363cc7bcad2aa9ad0|2020-02-27|Taylor Barnes|Linted mdi_server.py
+633995b6fcd1852b970ef2194f2842d78f70d052|2020-02-27|Taylor Barnes|Update to support MDI v1.1.3
+a16308cc13c9d6e264bba6644bef6e02b931983a|2020-02-19|Andrew Abi-Mansour|added optional param for execute: exit_code
+141fcc7872068936d9eacb0ac546563829d4103d|2020-02-10|Daniel Smith|Merge pull request #231 from loriab/guidance
+6e956ed453707dba1bff62aeae465b090e0328b5|2020-02-09|Lori A. Burns|add conda-envs readme
+e5635382789fcdde56a2d3e60ad1c849f0e5026f|2020-02-05|Adrian Hurtado|fixing my h20v2 mistake
+6c1c0ef73b4b2e03ef803df4139aec06b62692b5|2020-02-05|Adrian Hurtado|add homo lumo test
+9357c1c0c8a11c5903e069e8afc0b328f84656c8|2020-02-05|Adrian Hurtado|added homo lumo test
+54858dec78e54d68f177db1904263ef352c20e49|2020-02-05|Adrian Hurtado|caputure +- 0 and exponent all at once, remove if-else
+c308baf5ba1faa19028fdb97538553667500b1ac|2020-02-05|Adrian Hurtado|format
+13e5cda0d922be46ec18ee14322a34044efe1f7d|2020-02-05|Adrian Hurtado|comment for clarity
+2f0eda9f5919e0155882dde2ea1e75940d38c279|2020-02-05|Adrian Hurtado|if else for for +/- exponent
+c8ae155267a69af0be2a63034ea9224bbebd9d34|2020-02-05|Daniel Smith|Merge pull request #220 from ahurta92/adrian-Dipole
+f3a8542efebbf1295ad5a0c8c3872f558a43a0d1|2020-02-05|Daniel Smith|Merge pull request #229 from dgasmith/changelog
+8daf648108ad39ed70e85816a94a675b989f87b6|2020-02-05|Daniel G. A. Smith|Docs: Minor changelog tweaks based on comments
+da83c64ce92ee3761eceebfaf612343363a4be50|2020-02-05|Daniel Smith|Merge pull request #228 from dgasmith/ff
+b6a93ff5f35de99adf4b36dcf18fa7927c5d9961|2020-02-05|Adrian Hurtado|remove the  unnecessary if else blocks
+2b79e9f87d36103476ad08b82b1d5b4b496fc20a|2020-02-05|Daniel G. A. Smith|Docs: Cleans up code blocks
+42e30867d03ece081ba3b12d05bbe31ba31c2839|2020-02-05|Daniel G. A. Smith|OpenMM: Switches method/basis as discussed
+1a501fea2139e677c040c642a6d7257b88f1bc92|2020-02-05|Daniel G. A. Smith|Docs: Adds notes on molecular mechancs programs
+77bfa1714addd91c9b12c36ad549230dbe07c96d|2020-02-05|Daniel G. A. Smith|Docs: Patches up doc errors
+b8c725fae86e1e02bf265c693abc1aa3fa40fb2e|2020-02-05|Daniel G. A. Smith|Docs: Adds OpenMM to the overview
+71fcdf052716e5f42fd6608278a976d97ceb2397|2020-02-05|Daniel G. A. Smith|Docs: Adds 0.14.0 changelog
+6150c400f23ad24a6c79a2b929f3df40d6e045d1|2020-02-05|Adrian Hurtado|fix logic only check Nalpha ==Nbeta if already in psivar
+4cfa8c6e8fe7f9e2c11fd0a07a844f16f8756540|2020-02-05|Adrian Hurtado|Merge remote-tracking branch 'upstream/master' into adrian-Dipole
+92bab876e115825e13c57339583b3fab759cc6be|2020-02-05|Daniel G. A. Smith|OpenMM: Now requires openforcefield as well
+84a524cabd5339a6acbc7db29c0cc23f9d6a9a15|2020-02-05|Daniel Smith|Merge pull request #227 from loriab/safepsiapi
+7423220965dd2f919033c4b051742e630765b1fc|2020-02-04|Lori A. Burns|make psi4 harness safe for psiapi file cleaning
+e1791831e748308920f5cf5a515779019224a1aa|2020-02-05|Daniel G. A. Smith|CI: Re-enables TorchANI CI testing
+03d1f7004e04f969d53fc7038e87393f561c112e|2020-02-05|Daniel G. A. Smith|CI: Removes duplicate RDKit build
+1ac815ab9cd4026563567b70c1d44e6c36de5d45|2020-02-05|Daniel G. A. Smith|OpenMM: Adds tests for other openff, ffs
+c08d63f2b3a03dd503f86f3b314907f13b8ecf79|2020-02-05|Daniel Smith|Merge pull request #226 from dgasmith/openmm
+efa463bbcf15fc6f2023d1333cecdc019bad9ec4|2020-02-04|Daniel G. A. Smith|Psi4: Bumps dev branch to 500
+ec327b6f6735efa8f37240b05df42a5ebb5c40c9|2020-02-04|Daniel G. A. Smith|Testing: Patches up tests after QCElemental sparse molecule changes
+70373282b70d11a8cb0950aa6f905b26c53cb2c5|2020-02-04|Daniel G. A. Smith|OpenMM: Fixes forces and adds an optimization example
+137c8b496d61d128e159cfa1401277dac895e8ff|2020-02-04|Daniel G. A. Smith|OpenMM: Adds openmm tests to canonical tests
+3f038d216b22c229cb6fe1cf73c89405edcbe13d|2020-02-04|Daniel G. A. Smith|OpenMM: Simplifies method/basis in accordance with #192
+a9a937f5818e847327133de78f4a451d102bc756|2020-02-04|Daniel G. A. Smith|OpenMM: Testing now depends on rdkit
+d80dffebe5f7950eceb228c9e002c178d691bd31|2020-01-30|Adrian Hurtado|add back the homo and lumo stuff and format
+762642a23d96067b84bba932f7b44c92970d2978|2020-01-30|Adrian Hurtado|got rid of homo lumo stuff and format again
+882cfc0bda0f3665be6ba54db1735d1e77a46cd7|2020-01-30|Adrian Hurtado|okay actually merged
+3ae6810b0aecf741745e065f7623e929ab327eee|2020-01-30|Adrian Hurtado|merge
+0ce79751b656aa0ead2695a868553cfac4bb60fb|2020-01-30|Adrian Hurtado|add preceding 0 and format
+38b591006217004a520e312ed660d89c86c164ae|2020-01-30|ahurta92|Merge branch 'master' into adrian-Dipole
+cd71041a4860f4b782d644956afbe3e3ba7dabf6|2020-01-28|Adrian Hurtado|Merge branch 'master' of https://github.com/ahurta92/QCEngine
+9e1e2a10a393913c4f7cea03dae586186428f992|2020-01-28|Adrian Hurtado|git ignore .vscode
+8811f5928c60ad088dafac148f38d42bad3db75b|2020-01-24|ahurta92|Merge branch 'master' of https://github.com/ahurta92/QCEngine
+1c26de7acd9a3c53e7fb791fed807a0c3a1aa54b|2020-01-24|ahurta92|Merge pull request #5 from baritone-tut0211/HOMO_LUMO
+d65b16055fa3784c342e785fb58e683b7afeb803|2020-01-23|baritone0211|Add Quadrupole Moment
+67fbfad86d24b47cd2c01cbd12cd2bd6a6a73908|2020-01-23|ahurta92|Merge pull request #4 from baritone-tut0211/HOMO_LUMO
+f5c3cab8f0bd786070a288cb830bda2a803e35ed|2020-01-23|baritone0211|Change for α = β
+436d62716942cb44dd20d8ab6ecbf440498c67df|2020-01-23|ahurta92|avoid keyerror when driver==properties
+64074b2e707ef302fc3d14bfe564709aeec33c05|2020-01-23|ahurta92|undo change chage that breaks parsing for hessian and gradient
+993a42970bf8f46e288ee773dcebcd5d3501f9d8|2020-01-22|ahurta92|added dipole moment test
+56b989c807d4c00678cdef53c6d15b6bd2b67713|2020-01-22|ahurta92|changes that allow user to run properties calculation
+3c2a11b092142ba79a82dc731e8716e517d309da|2020-01-22|ahurta92|comment out HOMO LUMO
+8d20223dd1abb1f8a01724b5dab27f2dd436b6de|2020-01-22|ahurta92|Merge remote-tracking branch 'upstream/master'
+3aa8c679936286890e042aababc6bbc64295b67e|2020-01-22|Daniel Smith|Merge pull request #219 from MolSSI/loriab-patch-2
+00cb8a1f818efec21fd05e2a8b7e771c4c7a1793|2020-01-22|Lori A. Burns|Update README.md
+f49a19ffebdedf2e93f7fdd8adc90f22a09cdcf7|2020-01-22|Daniel Smith|Merge pull request #218 from loriab/psiapi_detection
+a5bda4ad7fba1e93e667d8408116ce3511e59653|2020-01-22|Lori A. Burns|more psiapi adaptions
+0ca9024a1b31310088aa28625b91e6f02812cee1|2020-01-19|Daniel Smith|Merge pull request #217 from MolSSI/mattwelborn-patch-1
+d5d220704fd99144b651d08b96fd4a24cefbe75e|2020-01-19|Matthew Welborn|Delete .yapfignore
+97ac58921d031c880c905355382ae5d6826b4e7a|2020-01-16|Adrian Hurtado|fix
+13e15fd8157edd4decc2a0875f3f13c6e070117f|2020-01-16|ahurta92|Merge branch 'master' of https://github.com/ahurta92/QCEngine
+589e79e2987750cbc8f3c7828abbccc477c3cd33|2020-01-16|Adrian Hurtado|Merge branch 'master' of https://github.com/ahurta92/QCEngine
+1ccdedd4ff70a9374c99915a8d8eca1015cfce70|2020-01-16|ahurta92|Merge pull request #3 from baritone-tut0211/HOMO_LUMO
+aafc78ff8cf831e7e416ebc6452d1a109a01a87c|2020-01-15|baritone0211|Show dipole moment and center of charge
+12b353d5791d4d3eb1041ecd97d8b015c0b07922|2020-01-14|Adrian Hurtado|change for forHosomi to mobj
+6c0c130b24aedc38c28c4ea1e24a01c8cbd51adc|2020-01-14|ahurta92|Merge pull request #2 from baritone-tut0211/HOMO_LUMO
+91faf68c846720318fc9d806c3c0c0569f385a79|2020-01-14|baritone0211|Show HOMO and LUMO
+a8a3df681823998ec6c6d89a95867463d9292260|2020-01-13|baritone0211|small change
+d31f65b221b1d900d3c693897ddb8ca28d9b13b4|2020-01-12|Daniel Smith|Merge pull request #215 from loriab/psiapi_detection
+7c0d4efdc2bff8e99f8966b45d9a6fe439bb751f|2020-01-10|ahurta92|Merge remote-tracking branch 'upstream/master'
+0602e978e5365dc265a82be5219f55d51cee5240|2020-01-10|Lori A. Burns|simplify
+8108308d4224bbd1500d8cb708670353f450a43c|2020-01-10|Lori A. Burns|better error message from get_program, closes #213
+c6e628e3e1f387234ac8a7165008af0fae8cddb2|2020-01-10|Lori A. Burns|pass for psi w/o --module
+690ae9db951dfb7d88b2c8f6b8cf0ad9907a2df5|2020-01-10|Lori A. Burns|prep env for psithon or psiapi, get the other for free
+1ef7d83cd0f87e77c0ef90c4c806e84d0c5262e9|2020-01-09|Lori A. Burns|psithon _or_ psiapi for p4
+e370e86219566fa7734b679ee5e57f11135986df|2020-01-07|Lori A. Burns|CI for NWChem (#212)
+fd086f628bf9e18e1b6ea1e8e78a6623f209b934|2020-01-03|Daniel Smith|Merge pull request #209 from exalearn/fix_nwchem_harness
+fa1094a6af94bbc7a735295059cfd3d762a5e759|2020-01-03|ahurta92|Merge remote-tracking branch 'upstream/master'
+1e66de5764854b92d62696b23cad9759797b618f|2020-01-02|Logan Ward|Merge branch 'master' of github.com:MolSSI/QCEngine into fix_nwchem_harness
+3c8636dfc139139fea39685dd96f7cc9a650520d|2020-01-02|Logan Ward|Make sure input extras tags get to the output
+66d25971d168589beadb53b1e4f7c0c54848a1b6|2020-01-02|Logan Ward|Added NWChem to the canonical harness tests
+6654c74b8373069c455914a5b11ddcd51b9bd15c|2020-01-01|Daniel Smith|Merge pull request #208 from exalearn/nwc_gradients_fix
+deea6e820ca8df7cd530b550f60ae70738e000ca|2020-01-01|Logan Ward|Calls to rtdb must use all threads
+d73c1e95fef88c758386d0d35d0621b09d2bdc06|2020-01-01|Logan Ward|Remove assumption that NWChem uses original order of atoms
+95261637d57f84e40436034545ca592a246c70a8|2019-12-31|Daniel Smith|Merge pull request #207 from exalearn/ranks_per_node
+9c202fd83a5be165433a0399504c16e7d611931c|2019-12-31|Logan Ward|Fixed test for cores_per_rank
+d47f06a4d93d4e3a364584f2bcef3f029a342c70|2019-12-31|ahurta92|Merge remote-tracking branch 'upstream/master'
+7532aa5f9ad6ea20ee2b689aca72f52f0f4be9be|2019-12-31|Logan Ward|Correctly determine memory sizes, when MPI should be used
+1c7f9d82ebf440815ed4044b1ac5e2cfe3e008ba|2019-12-31|Logan Ward|Account for cores_per_rank when computing total ranks
+7a145949b18a37a78ce182ba7a50d9442fee7501|2019-12-31|Daniel Smith|Merge pull request #205 from exalearn/accurate_gradients_nwc
+1467feda163b8d8f5b808cb0c5a71c393652a36c|2019-12-30|Logan Ward|Added a more difficult test for the nwchem hessian
+0e8886c94cb835a2c254fc49bfd8212ada1c59fa|2019-12-30|Logan Ward|Read hessian array in proper order
+c281895ab6aa84f0444db5f7ff5a25d4d4659f63|2019-12-30|Logan Ward|Use pep8 variable names
+1c4301abc5f30f0e58c5e5dc07f6b287498c3f9d|2019-12-30|Logan Ward|Rotate gradients and hessian to match input molecule
+b9ce24fb2367eda2ea0e709566e6b32d51f9f28d|2019-12-29|Logan Ward|Linted with black
+c4c62503da100cbf491a761998c04d5e0db42413|2019-12-29|Logan Ward|Added Hessian support and improved gradient accuracy
+ee67fc8245734cf3576be127110904216351db46|2019-12-29|Logan Ward|Allow for methods that are combinations of several functionals
+55c1b6de605c2fc9c2937b7bea1effb280ed0033|2019-12-21|Lori A. Burns|psi4 windows version and outfile psiapi mode (#201)
+5edba6b060dd701695bbfc342f3b530c3065148f|2019-12-20|ahurta92|NWCHEM:  added keyword dft to xc_functionals list.  If method == "dft" (#204)
+3442b056e4b1f403efd17b0d47ebb755ebbbec01|2019-12-18|Daniel Smith|Merge pull request #202 from sjrl/entos_properties
+f6259e1914f3e77fe004417cce88fa38b666f326|2019-12-17|Sebastian Lee|entos: Updated QCER hash and program_overview.rst
+8c86442baf06f571278e56cb6f2d706d48eba3a8|2019-12-17|Sebastian Lee|black reformatting
+ffecfea045d606cf4779d9f91676ec62d6a7f2a8|2019-12-17|Sebastian Lee|entos: AO reordering added to unrestricted wavefunction properties
+4c06cf35c236d1e3a6bed62af98e3c476c2b613f|2019-12-17|Sebastian Lee|AO reordering: Moved the ao reordering functions under programs/utils/ao_reordering.py
+950f314407ecef4cd5478db1b89d3724d42afec0|2019-12-17|Sebastian Lee|cca ordering: Added general function to auto determine the conversion between ao ordering from a program to CCA. It is currently in entos.py but should live in a more general place.
+037713f3c651d089091c8fd7da6a490b9c8973ec|2019-12-17|ahurta92|Merge pull request #1 from ahurta92/empdisp
+fcd6f3ddc43ac5027c5cdb421d4a4f23fbe780be|2019-12-17|Daniel Smith|Merge pull request #203 from ahurta92/empdisp
+51f0cdc8fc2e035125923b17a7c1d8878fdc9cdf|2019-12-17|Adrian Hurtado|NWCHEM: parse dispersion_correction output from psivar/ fix bug
+b8cb542146032ab9fe23bd25b9833c49b396cafd|2019-12-16|Sebastian Lee|entos: Updated entos_to_cca_ordering so we aren't limited to angular_momentum I and change orbitals to correct (nao,nmo) shape.
+ff5984f138f1032b5ced16c87ad4f82c7acb71cb|2019-12-16|Sebastian Lee|entos: Did some cleanup of the ao reordering functions.
+b06d2cffa15338188401d4c7ec2ec400a7e1a989|2019-12-16|Sebastian Lee|entos: Added functionality to reorder fock and density AO matrices
+fd14549a2c7ed8a734749b1bd65c4586109c9c29|2019-12-16|Sebastian Lee|entos: Added function to reorder ao indices for scf_orbitals. Not currently used; pending on PR discussion.
+b81dbed1c75e1ed3613d72870676cdacf55dd1c4|2019-12-16|Adrian Hurtado|Read Dispersion Energy from nwchem output file and add it to psivar
+1973a78b9d2e8dcceb973d28f2c6a9944dc3bab6|2019-12-13|Sebastian Lee|type_checking: Added missing imports for type checking
+a5e2a2a877ab88f872485952630399151abeaaac|2019-12-12|Sebastian Lee|entos: Added basis and wavefunction properties to entos Harness
+fd8e45e4486b6b16b7a4878c69158c89ed7dbd0e|2019-12-05|Sebastian Lee|entos: Some cleanup of the harness. Adding more property and wavefunction property support
+95a6759e15fc5a3101defa9f97a530074781425e|2019-12-16|Daniel Smith|Merge pull request #199 from MolSSI/loriab-patch-1
+1b2b036033305ab490c6254651faf68daec0fe64|2019-12-13|Lori A. Burns|Update harvester.py
+30030d593e2b570008d7eecc30d035f8717b6cd2|2019-12-11|Daniel Smith|Merge pull request #196 from dgasmith/changelog
+d8481823ec709a001d3eee2812b7c4456b65be10|2019-12-11|Daniel G. A. Smith|Docs: Changelog 0.13.0 extension
+55ce64effad9399d79f334a9e121189dfa2873a9|2019-12-10|Daniel G. A. Smith|Psi4: Ensures output data for psi4, fixes #176
+a8c4084aaf2ced2fb9d4985752bf929af2202595|2019-12-10|Daniel G. A. Smith|Docs: Adds v0.13.0 changelog
+fa175c1137d7bc89ccc4b9f7d25ecc8041832a0e|2019-12-10|Daniel G. A. Smith|Lint: Fixes GHA routine
+79af2111dd9d304ccf8f2dac29569042273cce7e|2019-12-10|Daniel Smith|Merge pull request #195 from dgasmith/black
+db82d6dfa3e5fdcbd5eb1a498700005bf604ad80|2019-12-10|Daniel G. A. Smith|Testing: Canonicalizes from testing, closes #193
+555a2b6dea283faa6b2b88e8854d955902de427b|2019-12-10|Daniel G. A. Smith|Lint: Adds a GHA action to check for Black
+acbbe5a1516cc9d5e9fb23bdefa8341af638f88c|2019-12-10|Daniel G. A. Smith|GitHub: Updates tempaltes to QCArchive standard
+cc252dbba31e973a646a9e21b0e617323a473dd7|2019-12-10|Daniel G. A. Smith|Lint: Blackens code base
+d698330cbd751c35cae8d8f2e8fc94dcbc39c4b4|2019-12-10|Daniel Smith|Merge pull request #188 from exalearn/fix_buffer_lockup
+50a47643d21278ec13af91a642a3ea5d2f36dcff|2019-12-10|Logan Ward|Merge branch 'master' of ssh://github.com/MolSSI/QCEngine into fix_buffer_lockup
+f0528aff36251abfe34b367614e45cb1362fd332|2019-12-10|Daniel Smith|Merge pull request #189 from exalearn/mpi_task_support
+cfa16c998e6c4dc691b6300cf63fb0db9ca52576|2019-12-10|Daniel Smith|Merge pull request #194 from loriab/d3variants
+9a45c2c6339a904357b6e0b0b450dedaab618794|2019-12-10|Daniel Smith|Merge branch 'master' into mpi_task_support
+9f5fba27bab73dc8101c2dc27ffcc3c65ccb73a5|2019-12-09|Daniel Smith|Merge pull request #187 from mattwelborn/qchem_log_parser
+d806828b9056e7dd3a7038447f0102d478ec680c|2019-12-09|Lori A. Burns|Addresses #186
+ad3a187be63f6da1e163fbd5bb460aa5510c6f9b|2019-12-09|Matthew Welborn|Qchem: SCF-> Total energy in the final basis set for correctly catching -D, etc.
+5e035c09740067b42e16b754e0961be425bb66f1|2019-12-09|Logan Ward|Improved MPI support
+26b5c1dc76272d20a6cccfae0840d96e12f757f3|2019-12-09|Logan Ward|Merge branch 'master' of ssh://github.com/MolSSI/QCEngine into fix_buffer_lockup
+911dd6d5b270bc533cd3bcede38bada5b2ae63af|2019-12-09|Logan Ward|Clarified documentation
+5431b5525b582facb890a5670d9f99ecfb22b503|2019-12-09|Logan Ward|Merge branch 'master' of ssh://github.com/MolSSI/QCEngine into mpi_task_support
+f95b8b9b414540b6ccd1b394050a908384d61845|2019-12-09|Logan Ward|Improved documentation and type checking for node configuration
+676db78c39e1dd4315e70c7b7c5550c687224c06|2019-12-08|Matthew Welborn|Qchem: PR comments
+f6d2e93232714b30e8593cdec8a4372c8d727146|2019-12-08|Matthew Welborn|Merge branch 'master' of https://github.com/MolSSI/QCEngine into qchem_log_parser
+16194de6b6660e806d5b84e182e5488e5e0f7a82|2019-12-08|Daniel Smith|Merge pull request #190 from dgasmith/hf3c
+4fa532b78ef3fdd0c5986f2d990124128b96a596|2019-12-08|Daniel G. A. Smith|Testing: Finishes up using conversion on several straglers
+b2ca99dfd2f121b7f33a5a815cde4704733c1ddb|2019-12-08|Daniel G. A. Smith|Testing: Applies new using strategy to all files
+e66fedae6a26142ab7646af86f14bbf1b159f400|2019-12-08|Daniel G. A. Smith|Testing: New using strategy
+61d33868c55ec698af38591d6062eb8756d4f0d9|2019-12-08|Daniel G. A. Smith|Psi4: Fixes issue with HF3c execution
+a80122335950dfb31525da98017145d09f1e853e|2019-12-06|Logan Ward|Added ability to forward output from popen
+1801bdfa62a7af67660a929281ce3a6567342176|2019-12-06|Logan Ward|Merge branch 'mpi_task_support' of ssh://github.com/exalearn/QCEngine into mpi_task_support
+dcfce569004b5dde0a707eac042bf442acc8ffda|2019-12-06|Logan Ward|Documentation for configs needed for node-parallel tasks
+7dc227e1a6e15328c7abb61868c541aaac222f34|2019-12-06|Logan Ward|Removed unused import
+43a0cb9a7287e5f786f29865f512e4e453db8550|2019-12-06|Logan Ward|Merge remote-tracking branch 'origin/fix_buffer_lockup' into mpi_task_support
+77818643afd33788b841ba46657f09da4c1b3749|2019-12-06|Logan Ward|Bug fix: Use integer division not floating point
+cc299a0dfe5585fba51eead6d800dc5d8953476a|2019-12-06|Logan Ward|Read from both stderr and stdout to prevent buffer deadlock
+f834a740493bafe0af064f1324ae802e77f2e801|2019-12-05|Matthew Welborn|PR comments
+b79645b898c52dfe8965bc31b1add112c391196d|2019-12-05|Matthew Welborn|PR comments: parse logfile for fields not available in QCSCR also, fix dipole parsing
+db6eb74672a779ac60d968e6e5e7d1ffffce61ac|2019-12-05|Annabelle Lolinco|nwc: add hessian file; minor testing updates (#177)
+6ca4b7aa3c371e488e5cc36411a952b4ee73c7c4|2019-12-05|Logan Ward|Bug fix: Memory is per MPI rank
+ca1a0e9b31acc2ebd5b0099081bc0070976267f8|2019-12-05|Matthew Welborn|PR comments: use qcel's NUMBER regex also, blacken and isort
+6db6ad2c7e78f463461d4b0bf1ebb5f0d551b5c6|2019-12-05|Matthew Welborn|fix test until next qcel version
+d00502180dab1f542734aabe651b7a56a32f3039|2019-12-05|Matthew Welborn|PR comments: added ability to ingest logfile+QCSCR
+6cd612420f3d6009be865fecc6fdfd72b69534f6|2019-12-04|Logan Ward|Bug fix: Missing task configuration when making mpi command
+fb268dfb7728447db341cfba373febf8136bdb60|2019-12-04|Logan Ward|Improved warnings for when multi-node jobs are misconfigured
+319be688da2e6eaa8891475e3c5a51d28afbb703|2019-12-04|Matthew Welborn|Blacken QCEngine
+c6bf1ba259c595ec86d0785cf70bca3b316099ed|2019-12-04|Matthew Welborn|PR comments: rename input, refactor NUMBER into regex snippet file
+5805cc174337d7df8a3faab8db4fa99ddacd57d7|2019-12-04|Logan Ward|Add ability to launch MPI jobs
+482474e3caae212573f227da57d57a8f5a5d9de6|2019-12-04|Matthew Welborn|Update QCENGINE_RECORDS_COMMIT
+0ede15c1295cef37c9970d7a08de63d36c37c2b7|2019-12-04|Matthew Welborn|Update QCENGINE_RECORDS_COMMIT
+a60cb1d3f20b68b0c4178556a08d04b48772ffd5|2019-12-04|Matthew Welborn|Qchem: add tests for log parser for archival data
+1ade20d10425513f27475398f4f7affa15eb6ddb|2019-12-04|Matthew Welborn|Merge branch 'master' of https://github.com/MolSSI/QCEngine into qchem_log_parser
+3e343ee2a722e2c384d7d8416d9b80d67b429887|2019-12-04|Matthew Welborn|Qchem: add log parser for archival data
+f9fea80e012ecebb51e9b44c37b270f070200526|2019-12-03|Daniel Smith|Merge pull request #175 from dgasmith/mpi
+0cd5aa718278d4875ede34ab97f15a9daac305cd|2019-12-02|Daniel G. A. Smith|Config: Changes new programs from job to task config
+62269b89ee33cc7b15655a8ad2edbae98ffff3e7|2019-11-16|Daniel G. A. Smith|Config: JobConfig -> TaskConfig
+87545bc79017b2c283f0b308db58046ad1c30be9|2019-11-16|Daniel G. A. Smith|Config: Adds nodes to config
+42adfa62b4596c161ace5f781b57fe211e97e488|2019-12-02|Daniel Smith|Merge pull request #185 from sjrl/entos_more_commands
+15e1c78f64bde12fecd8188b40e2f0ac0d27c3f1|2019-12-02|Sebastian Lee|entos: Black reformat of entos.py and added @using_entos mark
+d2e6a31412f97aff6e85c67b317e1bd05558ac3f|2019-12-02|Sebastian Lee|PR comments
+7ad0511a9129c8df4f82ab732fabb456a83a97f0|2019-12-02|Sebastian Lee|PR comments: TYPE_CHECKING, formatting, reduce redundant code
+3f08a28e5c425d61c0ecf683b2d26dfcf8a5ebf3|2019-12-02|Sebastian Lee|entos: Added entos_policy to the input file
+4c28fd2a8c8889d12bed396be7ab39d34edc29ec|2019-12-02|Sebastian Lee|entos: Updated commit for qcengine_records_commit
+c4eb9208387c17b0a038078401858521e350c72f|2019-12-02|Sebastian Lee|hessparse and compute: Forgotten imports
+95ebdab5936e3e8ca01ca4af9b0fe9878c0100f6|2019-11-26|Sebastian Lee|entos: Begun adding support for xtb in the entos Harness
+550dad0e671cac0b18669ca8812dd4ac244840df|2019-11-26|Sebastian Lee|entos: Removed soon to be deprecated option
+197b2acef3f272bcd6c97aecd22050ca436e75cc|2019-11-26|Sebastian Lee|entos: Added entos to the test_standard_suite_hf and did some minor cleanup in the entos Harness
+dda0681d2d29a197d75251821370101234b9832a|2019-11-26|Sebastian Lee|entos: Starting to add HF command to entos
+2e50b0ed0f51c615c6672e65e7e374c4c1ccec85|2019-12-02|Daniel Smith|Merge pull request #181 from exalearn/improve_nwchem
+3efed0c02a4cc98e61dbc3a1e362dffad874a8c6|2019-12-02|Logan Ward|Fixed typo in error name
+e059f4591d4686a75e51509a4166841458cc1a0d|2019-12-02|Logan Ward|Multiple changes based on review
+dc284e6f28e9105e0b374157e2b3c77e14936652|2019-12-01|Daniel Smith|Merge pull request #183 from mattwelborn/entos_update
+5f912b0a4d53bf738b5091e4c5e923c6dc9762d9|2019-11-30|Daniel Smith|Merge pull request #180 from mattwelborn/gamess
+5cd8b563b5d24dd296d072feccb24bb13b1def84|2019-11-30|Matthew Welborn|Gamess: replace print statements with logging
+0d5a1c1b9d395b50ec7edc67d0f52959c3848c85|2019-11-29|Matthew Welborn|Entos: add hessian and xtb support
+b5162b11d1a5cfdb9e5ce033d96d6abb947ffee9|2019-11-29|Logan Ward|Parse named properties out of NWChem output
+01e9a44060f77f3a8a1369d49f2343bceba086d8|2019-11-29|Logan Ward|Get more of the relevant fields from output
+e56164c449239257b2ea902f935de084bee2b4cf|2019-11-29|Logan Ward|Removed unncessary "pass" statement
+9d67004e2a402d5d471e854b8ffb3350524fc203|2019-11-29|Logan Ward|Skip nwchem tests if not installed
+d6270209b6ff6fc989c2179372b39e0f9d23b09e|2019-11-29|Logan Ward|Added better documentation for the node configuration file
+af7b0ad5eeac3e14c997fd64bb758d992d1913b1|2019-11-29|Logan Ward|Get the scratch directory configuration before getting version
+8883b1370f2d11c6998cf524c3996ad613c0af72|2019-11-29|Logan Ward|Fixed loading defaults
+1662e70ef9c27148239054babb0f6d7e82a838fe|2019-11-29|Logan Ward|Raise error if version script fails
+d4b9f83b780817bb9b6a5279a4c8e7f25c6f10fc|2019-11-29|Logan Ward|Raise an exception if run fails
+9af8c5b681e099bffdc084e5ad543191a198a6e2|2019-11-29|Logan Ward|Added support for DFT
+1426a0daa4091fbf02cfbde46a68453b9ce01109|2019-11-27|Matthew Welborn|GAMESS: parse DFT energy components and dipole
+aa54912b1bc2ebb812dd7ea6d5b54775ab16da88|2019-11-27|Matthew Welborn|Merge branch 'master' of https://github.com/MolSSI/QCEngine into gamess
+63a9d4e40b180a38248f5ab55705bc86fe6cda9b|2019-11-27|Matthew Welborn|translate qcvars to properties
+51ddbc866690eb8be558b7159f712be3fc646dc1|2019-11-26|Daniel Smith|Merge pull request #179 from sjrl/qchem_minor_fix
+6da7f9ebbe4e67144619c96dfd1a0fe9e40d2eb9|2019-11-26|Sebastian Lee|qchem: Minor fix to parse_output
+cf8b54911c325e6cc9097daa386a6c763be9e753|2019-11-20|Daniel Smith|Merge pull request #151 from dotsdl/feature-openmm
+b900797dcf135bf273888fefac920a41ad05c075|2019-11-19|David Dotson|Trying to fix the OpenMM build
+36b1ac357b9cf7063b30ac652f5717016fcf5143|2019-11-19|David Dotson|Addressed LGTM alerts
+1a381235b29e0b298b21563f42473b20885e52dc|2019-11-19|David Dotson|Added openforcefields to OpenMM build dependencies
+a2225548cb5c38456ee39f59c11584b52f377aab|2019-11-19|David Dotson|Merge branch 'master' into feature-openmm-merge
+606fdc12f7e4424ff902f40f4a6dc8ff3728c662|2019-11-19|David Dotson|Removed unnecessary try-except; added ret_data['properties']['return_energy']
+1f87047420db7eab63df34a537390492d492f100|2019-11-19|David Dotson|Followed @peastman's recommendation for setting number of OpenMM threads
+03b99b319612887a40f5e9106558a6063671f2b2|2019-11-17|David Dotson|Removed commented-out thread setting for OpenMM
+3216aa27a07b4870fce2f5942e4412c347a015f4|2019-11-17|David Dotson|LRU caching of OFF `ForceField` appears to be working
+7a937ceacff380d07b8683f051bb4ed70b11ce24|2019-11-16|David Dotson|Addressing test failures for openmm
+6c9244b24c91e35b424313bd5bf90e99d80164bf|2019-11-16|David Dotson|Tests for openmm fleshed out, url handling added
+62ed78d2c8d3906b42573e4b69180fea75e77178|2019-11-16|David Dotson|Removed temporary openmm shim
+bd1969eaddb3ed05b3e3d1d1e2e947a288616c23|2019-11-16|David Dotson|Preparatory cache work.
+2d1cc422808350668a3bebdfc4c79e24c207ad29|2019-11-14|Daniel G. A. Smith|DFTD3: Adds mark skippers
+373b79a968723c9d963a2e858ba49d49c4f14687|2019-11-14|Daniel G. A. Smith|DFTD3: Quick update and tests for error catching
+e4ce37b31f5bd976407d1810fa86dd53ed5b889e|2019-11-14|Daniel Smith|Merge pull request #173 from dgasmith/docs
+fe4af4586f95fdedf276b026abb0d9fc25cce25c|2019-11-14|Daniel G. A. Smith|Models: Several missed AtomicInput class conversions
+cb2de6ade192154287df3d67292931933161993c|2019-11-14|Daniel G. A. Smith|Lint: Remove yapf flags and fixes small dftd3 error
+0def46332e519fa98f5eb3773ca2a946d69e20ea|2019-11-13|Daniel G. A. Smith|Lint: Force ignore tests for pytest fixtures
+eb31dceedaa5e35c936d668dc7eaa05fa4d92968|2019-11-13|Daniel G. A. Smith|CI: Turns off TorchANI until it is fixed on master
+01aec7f5256f0fb89989533b31eab9d67f4563a9|2019-11-13|Daniel G. A. Smith|Psi4: Increases version timeout to 30 seconds
+1b4ad4546e8fa840102bfe9c0f14783382ae05f5|2019-11-13|Daniel G. A. Smith|Lint: Finishes linting the remaining files
+c295095a4e0e5fdb8867f264716064d3d3d41b98|2019-11-13|Daniel G. A. Smith|Black remaining code base
+63f6b5863ab01de482e0cd645fc34740f3173558|2019-11-13|Daniel G. A. Smith|Black: Program directory
+d4b9d1ea5ea658465c2c5d8d6fd8f06926ee5292|2019-11-13|Daniel G. A. Smith|Link: Original isort
+6c9ea80f736ed24931ef613e39b36aecfab52be9|2019-11-13|Daniel G. A. Smith|Docs: Updates changelog
+0d5bd08daece431c0bcea7464c1ad7de2d684818|2019-11-13|Daniel Smith|Merge pull request #172 from loriab/modelnames
+06c98aab704ae94395f4d9dbc13fe3ae0e58353d|2019-11-13|Lori A. Burns|use qcel v0.12 release
+5608093ee68fcd137248e8c3cafb3ab71d668739|2019-11-12|Lori A. Burns|more model names changes
+c9c8172b4b68b6473e2aa4bad675a3f3d363cae8|2019-11-12|Lori A. Burns|bump model names
+20a46611fa0ad464b53030e36a8d4195c570e125|2019-11-08|Daniel Smith|Merge pull request #160 from eljost/turbomole
+3687e0079e37e8f4458cc684db6e4ed291953545|2019-11-05|Johannes Steinmetzer|added missing comma
+4b5cb554049b18420835c2026f57e304921a1041|2019-11-05|Johannes Steinmetzer|Merge branch 'turbomole' of https://github.com/eljost/QCEngine into turbomole
+e8014da909d3548d7e7a469ba0a65d5192facaa7|2019-11-05|Johannes Steinmetzer|fixed some of the LGTM errors/warnings
+9fa2445a152ea94aa169f341bf5d9cda5469f9d3|2019-11-05|eljost|Merge branch 'master' into turbomole
+e6a44f3293bc3a39b7be0238837e0bd4472db43b|2019-11-05|Johannes Steinmetzer|InputError is now raised when a libxc functional is requested
+32f7dc12bba66f267dad99522a5532ef4ee27b96|2019-11-05|Johannes Steinmetzer|lowered timeout in define call from 30 to 15 sec. added method check. disabled additional call to communicate when proc timed out as it doesn't seem to work
+a3db50bc40620b82f3ac069b875081588a67cf1a|2019-11-05|Johannes Steinmetzer|input_model is now used as base for output data, similar to the MOPAC harness
+f413bdb53222c6380fea6b9029d0b4d01e3055e9|2019-11-05|Johannes Steinmetzer|added turbomole tests
+7a18d0829637d29b38432152dc98dffd0ae53d5d|2019-11-05|Johannes Steinmetzer|hardcoded more methods
+111702485c1da8c89ae0c76f355fa3354739b3e6|2019-11-04|Daniel Smith|Merge pull request #164 from dgasmith/qchem
+89c0a89f0e128618829c1a3694d282fad53b0edc|2019-11-04|Daniel G. A. Smith|QChem: Minor review comments
+947e72875b7135822f47ea7966c1545e72cb59d0|2019-11-04|Daniel G. A. Smith|QChem: Updates orientation tests and changes primary qchem keyword for this
+2765d048479d4f2a0a7ddb1f7e4dd5b838f0e6a4|2019-11-03|Daniel G. A. Smith|Qchem: Minor review comments
+23b6c628ac414af424a0231f79c70c9d3df9da95|2019-11-01|Daniel Smith|Doc: Adds qchem overview line
+5fe4cb9523df976d7ab14ef0a97d0856dad159ab|2019-11-01|Daniel Smith|QChem: Hooks into test standard test suite
+2688b7fcf4bff6b47d97e88af22e9fd767a6a6d8|2019-11-01|Daniel Smith|QChem: Adds qchem tests
+5f56997b7336c6a3f965b78826ca8e50d0dd2a0e|2019-10-07|Daniel Smith|QChem: Adds to standard test suite
+d1155b13ce2068a59b955fe0dba7925666f20bea|2019-10-07|Daniel Smith|QChem: Adds return_results parsing for energy/gradient/Hessian
+96b8a3ff6eebb2c6c230df4fddd3adb003568b69|2019-10-03|Daniel Smith|QChem: Now runs simple molecules
+eb19a6f62487b0e6d2d9bf4b19bf6c633ee9174e|2019-10-02|Daniel Smith|QChem: Starts keyword parsing
+1eedecee60ff1613ae802aa7df68232295f80c4e|2019-10-02|Daniel Smith|QChem: Begins harness
+f2de7cc7aa603a7df06fde97860abe5075313699|2019-11-04|eljost|Merge branch 'master' into turbomole
+e851df6cbe79162adbf57e7c546f493941a6ff49|2019-11-04|Johannes Steinmetzer|commented out some probably deprecated code
+61983d022450f7e1873ed7f54438b4ad1c2df1a0|2019-11-04|Johannes Steinmetzer|removed casting of return_result from array to list
+434936ae6ae4824df7236c81fc0950c937f493bd|2019-11-04|Johannes Steinmetzer|removed prefilled schema-data from dict in turbomole.runner.parse_output
+bf18f59913350b84e0507c4668fd4d8a7d599281|2019-11-04|Johannes Steinmetzer|added using_turbomole decorator to test_turbomole_ri_dsp
+eec6a1900c30867a50f05a83fdacfc0744d93a93|2019-11-02|David Dotson|Added omnia channel back in, alongside omnia-dev channel
+547f59080f0cc8026d6868590efd6b02ed04520a|2019-11-01|Daniel Smith|Merge pull request #171 from sjrl/molpro_standard_suite
+6381b3b2b318827b2e1b51b9abbd67287bdf1191|2019-11-01|Sebastian Lee|Molpro: Added spherical basis set ordering in Molpro
+9ee90a520c00785facde623b813e97f908c1a4da|2019-09-12|Sebastian Lee|Molpro: Added TODOs for Molpro to be able to be added to the test_standard_*
+2f5cd1b114e9ed07452c2d5ad026b97f5bb1cde4|2019-09-12|Sebastian Lee|Molpro: Added Molpro to test_standard_*_mp2
+3769b45173c92072f31592953d76d48fbf64937c|2019-09-12|Sebastian Lee|Molpro: Added Molpro to test_standard_suite_hf.py
+ddb8a8cdbad9dbbddb4e9b9e4af1c5f7006ffc88|2019-09-12|Sebastian Lee|Molpro: Starting to add Molpro to the standard suite
+20e2b8cf96bd78bd632ec34614bf6f2046b3d426|2019-11-01|Daniel Smith|Update .azure-pipelines.yml for Azure Pipelines
+836e03d846f371f487956ea34d0629165ab0be2f|2019-11-01|Daniel Smith|Merge pull request #170 from dgasmith/cov
+3e55094fbe1a2590ead7c6d77d1b8c730bbedfa9|2019-11-01|Daniel Smith|Tests: General cleanup, more pytest-like
+422e542ef7c5a775b4efd35ec27e83916d38daf3|2019-11-01|eljost|Merge branch 'master' into turbomole
+8f644d538e2b000251a2f12ad06775df21c82566|2019-10-31|Daniel Smith|Docs: Adds E/G/H individual columns
+47ed26a320a1bcb45d2909282ce5c120d1fec0c1|2019-10-31|Daniel Smith|Doc: General table-based information about the available programs
+3421d871099cab8875c3b79850b65acc9da95ae7|2019-10-31|Daniel Smith|Testing: Additional utility test that were previously missing
+b9c0f747fe904725f9df90760fff81dd265d45b9|2019-10-31|Daniel Smith|CI: Travis to install current qcer commit
+4b0399dd15816d89f7a8430dea58928fb6910f75|2019-10-31|Daniel Smith|Testing: Smooths out records testing
+ba295e67e7fe67acbd5ace2ca2b12e319d8f1d50|2019-10-31|Daniel Smith|Terachem: Tests can now run
+5204a76cdd736cbdff3096abcf2ed1ae2ab240c4|2019-10-31|Daniel Smith|CI: Azure should now upload codecov
+5d0cbd2cbc74225b0a0da50ca686e948c3c46cff|2019-10-30|David Dotson|Switched OpenMMHarness to `thread_safe = True`
+d367803ff92703f81f84e06c05f5099c7963df1f|2019-10-30|David Dotson|Now using conda-forge rdkit, omnia-dev channel for OpenMM build
+d0ddc485e82f54e7be21b86c692f1eebec224e4f|2019-10-29|Johannes Steinmetzer|switch from "...".spli() to explicit lists in available methods
+d3fa6a2364ad39c66fa2ce5f97a0f714b4da68f7|2019-10-29|Johannes Steinmetzer|modified comment
+12854d63f4a9f3fb8a8916ff2f12bdb36a1c0db5|2019-10-29|Johannes Steinmetzer|added try/except around call to define to catch timeoutexpired
+b18a244fca7b25f52c3ced55f3e2bf896b34feb9|2019-10-29|Johannes Steinmetzer|Popen is now used as context manager in define.execute_define
+049b4f8b51b20625f812a2dd47737dd21fcc0433|2019-10-29|Johannes Steinmetzer|added timeout of 30 sec to proc.communicate in define.execute_define()
+f44b9f51d6eac989f5fbe8e32ba7757abe25c644|2019-10-27|David Dotson|Migrated OpenMMHarness._process_molecule_rdkit to RDKitHarness
+5ca0ef60f8c1d435e1b63f2d69c8785583c2ff43|2019-10-22|Daniel Smith|Merge pull request #168 from loriab/qcdb
+3b029a4ed6e07101ea6d91f5d11c31ee8955b7ec|2019-10-22|Lori A. Burns|standardize file names and contents with qcdb, also isort and yapf
+673b219936af30a5fcf6af031cf6d8215cd44e4a|2019-10-20|David Dotson|Proper `which_import` handling.
+18e011815952f8ca31c5ff4bbc4dd67fa7202ea6|2019-10-19|David Dotson|Dumb mistake...
+31f000438423fec4a09019756ec9f1092b5f68da|2019-10-19|David Dotson|Fixes to test_openmm_task
+6c8fe5bd1fd4fe50783c7212bdaaf33cfe58045f|2019-10-19|David Dotson|Merge branch 'master' of github.com:MolSSI/QCEngine into feature-openmm
+3231e10b30650ad9f0ed1f5c1b41eee6fbb07fee|2019-10-19|David Dotson|Changes tracking discussion in PR #151
+13a9791b7341857b3a275b9661a2c6cc0f2b2496|2019-10-18|Daniel Smith|Merge pull request #167 from loriab/qcdb
+9cf2715de9bdebdd17589a49baf07f98452c69e8|2019-10-18|Lori A. Burns|nwc: add next nesting level and dict formatting
+015ac36a22c3de74e61feb61adec9d05657988ba|2019-10-16|Lori A. Burns|c4: extra parsing
+bafea04f723bd73f3ffd8976f22f202fa11e3697|2019-10-16|Daniel Smith|Merge pull request #159 from taylor-a-barnes/mdi
+fc15fb94bbdd0d194778596a44dcac93d0d89f03|2019-10-16|Taylor Barnes|Update docstrings in mdi_server.py
+73baed93f3ee03966c0d0cb8ac9daf0401131271|2019-10-15|Daniel Smith|Merge pull request #165 from dgasmith/psi4
+d1b59f5c5f144c5eeae3a2b1a32340610ad5ed30|2019-10-09|Daniel Smith|Testing: Fixes broken rdkit test
+2c0d518dc47aec8a7e0ede73701787d844b887fa|2019-10-08|Daniel Smith|Psi4: Adds quick wavefunction test
+e828bd2cf295c8fff222e1de011fd7dd75aec153|2019-10-08|Daniel Smith|Psi4: Allows both interactive and CLI execution
+f8062bf64da0bdf4f3dea6c330fe20ec845c9907|2019-10-08|Daniel Smith|Testing: Removes some old-style initialization
+f85fc249b5799f60d3bfc4f0077c10a27b0e6184|2019-10-08|Daniel Smith|Psi4: Updates to new qcschema interface
+a3f293f727203153a3c9aedad4cf92de7136a4ba|2019-10-08|David Dotson|Some changes in anticipation of PRs in OpenMM and QCElemental
+7110fa6c0fa72b5c950a7f999119e2419097bada|2019-10-05|David Dotson|Need to use `simtk` as our proxy for `simtk.openmm` in the `found` method
+4af5356dc4cdde7ba05a989ef1be7614183ded79|2019-10-05|David Dotson|Working on getting tests to pass
+09fabce13dc8449ecc710485295793303465767d|2019-10-05|David Dotson|Added openforcefield conda package to openmm.yaml conda env
+069a1000f9dbecfcf71b716e6d2d7180dc377258|2019-10-05|David Dotson|Added `which_import` import in openmm harness module
+79f35b9e965d1a622815ef8b641c2fe1c2e4dd08|2019-10-05|David Dotson|Using only `simtk` as a proxy for the existence of openmm
+9cc796db1f21b78c084341b86a1bb2e8f1a409f5|2019-10-05|David Dotson|Registered OpenMMHarness
+06cf0dba1d6690904d8557c01156abc5f5c2e481|2019-10-04|David Dotson|First attempt to get travis to test our OpenMM harness
+c0e2cb3ee8ce0d8da6186e66a372a9fc6726b59f|2019-10-04|David Dotson|Needed to switch to `VerletIntegrator` to get away with only a timestamp
+c53fc7f47535d8c494b174d4580ef005468df199|2019-10-04|David Dotson|Implemented recommendations from @jchodera
+2f85bc681fe2f9ae433d39f200e80c33f61b4ec6|2019-10-02|Taylor Barnes|Fix call in test_mdi.py
+e1967de69820b96d6ce3dd82abaa6d99ac25a775|2019-10-02|Taylor Barnes|Update the MDI interface
+3cc70b699ce313e32787c8874292cf8849461543|2019-10-02|Taylor Barnes|Rename mdi_engine.py to mdi_server.py
+a3ed08b9f1873862a6dcb697ad49a6d0a95f2f00|2019-10-02|Taylor Barnes|Update test_mdi.py forces return result
+55c9a4de3843eb3b39035568798e7bb4b888338a|2019-10-02|Taylor Barnes|Change MDI send_forces to use numpy array
+fb9a376bcd83f2404b1e8f9d495f9598eabb7b37|2019-10-02|Taylor Barnes|Change MDI send_masses to use numpy array
+7d944b27913ee0c420164e53f3fcc3f0f36b0264|2019-10-02|Taylor Barnes|Add pymdi to psi.yaml
+327549b6d4399677f11b533cae6057d74ab01005|2019-10-01|Levi Naden|Merge pull request #163 from Lnaden/master
+455c5025122d8c5b42869f727a2464bb66c658a5|2019-09-30|Daniel Smith|Merge pull request #162 from dgasmith/protocols
+731ff4cd810a22ccc3077fbe7692d2cbfbed2853|2019-09-30|Daniel Smith|Merge pull request #161 from dgasmith/mopac
+126af5bdceaeb6f02e21773f51ce293fff56bfdd|2019-09-30|Levi Naden|Finalize update for 0.11
+55ee29aa3d3552824d3e3dc50abbf4ad38b64b19|2019-09-30|Levi Naden|Update Changelog for 0.11.
+ef316d6a3a66b58c653dcf354a194da23b8c6f2e|2019-09-30|Daniel Smith|Protocols: Optimization test
+952e63ef222188ff04be084af2362a39df8b8e53|2019-09-30|Daniel Smith|MOPAC: Allows pulay and iter keywords
+993219e3d21d3ed6928912918cb42f2686bcc792|2019-09-30|Daniel Smith|Mopac: Better error handling if an execution was incorrect
+dadf0f071259420c67b8735be63d6b694c4af4fd|2019-09-27|Daniel Smith|Update README.md
+0905f2e9b1677c41c7fd8ccab120446f64c3d7ef|2019-09-27|Daniel Smith|Merge pull request #158 from sjrl/entos_json
+bc82be70bb1d1e513dbe6ba139bbae0aa1ad03d0|2019-09-27|Johannes Steinmetzer|added some TODOs
+807dd33cc74f3d5174257274c1f7a75211645b65|2019-09-27|Johannes Steinmetzer|bugfix: accidentally hardcoded value so assert was always true ...
+edb04eab9bc4a894b1be779c78cfacdfa7650af8|2019-09-27|Johannes Steinmetzer|made RI and dispersion correction available and added corresponding test
+dcbdd13e2ad3d77922b9e71198283f70669a8330|2019-09-27|Johannes Steinmetzer|moved methods and keywords to dict
+39abf70a453dd4152d374a76ecb09907d090c0ff|2019-09-27|Johannes Steinmetzer|added comment
+df008bcd21065afef8f39b6edb0c1a5b527bc7c3|2019-09-27|Johannes Steinmetzer|calling execute with shell=True now
+771820081fca4cf8ca6dad46595a080ae7adcb24|2019-09-27|Johannes Steinmetzer|expanded some comments
+de1935b9bc2b03895f426057a6de838a4e81df24|2019-09-27|Johannes Steinmetzer|added UHF test for turbomole
+6151bce007ee21f11698130b0538da653093ac42|2019-09-27|Johannes Steinmetzer|addded shell argument to run commands through shell. needed for Turbomole.
+22207420516edcd0a96a6539c6a9d784bafe60c1|2019-09-26|Johannes Steinmetzer|added TODO
+f444f0c0cad942ad38166e4337f2cb23635b3adf|2019-09-26|Johannes Steinmetzer|enabled gradients from ricc2 calculations
+b2cf2fad6388e0adcdc0dcc4e3a62819754b127c|2019-09-26|Johannes Steinmetzer|added support for HF/DFT gradients
+081468bcae726be23aaf2fad6dcfa1b16ad5d8d5|2019-09-26|Johannes Steinmetzer|moved define wrapper to own file
+065c62ef49bbe7deaa22786b65c520222ba73eaa|2019-09-25|Johannes Steinmetzer|bugfix: define sometimes returns strings that are encoded in latin-1 and not in utf-8. this is now considered.
+35ced97ceab3d58daef551751975fad6360600c8|2019-09-25|Johannes Steinmetzer|using shell=True for now as turbomole needs it
+8561e951aa162ef48ef73ba78f675cfe88f0c180|2019-09-25|Johannes Steinmetzer|cleand up harvester. now it supports ricc2 energies
+a06d295db64582138f6b3990f86d05e1551e4411|2019-09-25|Johannes Steinmetzer|cleaned up tests for turbomole energies
+2d044bde762b99e114fa1e21c8a7c7f985563550|2019-09-25|Johannes Steinmetzer|added ability to use more cores with OMP parallization
+2652af193c3b99a5ebb3c36d5f542ea86727fbed|2019-09-24|eljost|bugfix: basis input was ignored as def2-SVP was hardcoded. now the chosen basis is respected
+2e26e81d1d0e4ae50a67113e67096a1fcbd42903|2019-09-24|eljost|turbomole runs now and generates its input from the given schema input
+1bf5abe093e1bfd8d1c0989ea6482027f347b66b|2019-09-24|eljost|added harvest test_function dummy
+ac078ecb53609d47028da2a7482624d8a78bc5d7|2019-09-24|eljost|started parser implementation. right now only "total energy" is parsed
+d985c7b9ce3618e50f1aef2d40a1dde35bc18d05|2019-09-24|eljost|added simple turbomole H2O/HF/aug-cc-pvdz test
+9fa6a6888264f235112d7ebd84d261efb720eb36|2019-09-24|Johannes Steinmetzer|started working on a turbomole harness
+a818bf1415fd6f17d1523d99bf1d87dc4131e40b|2019-09-24|Sebastian Lee|Entos: PR comments
+cd7dad9ecf223288f4a1611bbc2cd60236c9f020|2019-09-24|Taylor Barnes|Remove unused import from mdi_engine.py
+15e9bb0c8134cc7b37bd5662b70d368e9deafd56|2019-09-24|Taylor Barnes|Merge branch 'mdi' of github.com:taylor-a-barnes/QCEngine into mdi
+11803d6bce62409b7317103e8b02278421b8cb10|2019-09-24|Taylor Barnes|Remove unused import in test_mdi.py
+4c32ec7870b61931ed76d93830e2eb0e44ea12bd|2019-09-24|taylor-a-barnes|Merge branch 'master' into mdi
+890e4424b9645a7e300475732c81d333bb735234|2019-09-23|Taylor Barnes|Run yapf on MDI interface
+a1f0c4b3a56025d17b286fa1d01b2228ebdfcf21|2019-09-23|Taylor Barnes|Add test_mdi.py
+fc30e4fd8f66fa4d6c2259bad887f169c8336c8b|2019-09-14|Sebastian Lee|Entos: Some code refactor and cleanup
+e8521391aea7b1b5f90749acbae6b9b8f61d47b0|2019-09-23|Taylor Barnes|Add support for additional MDI commands
+f63e4818ad032486dd797ef811a1282dcc1c3ad3|2019-09-20|Daniel Smith|Merge pull request #156 from mattwelborn/no_intelopenmp_2019_5
+a881fb2916f8ac0b23455f034718d7ebb40497c5|2019-09-20|Matthew Welborn|fix torchani test
+afcc9d68b5beba518cb7ba1b104185f197e06f91|2019-09-20|Matthew Welborn|fix torchani test
+f76dde74f65b1a40c3a5959895d939b69cf9aefd|2019-09-20|Matthew Welborn|also skip broken intel-openmp!=2019.5 in psi-nightly
+a4e2123e028048477223e42bce576d606aa82862|2019-09-20|Matthew Welborn|skip broken intel-openmp!=2019.5
+e04cc2cce111d045c853be42eb678ecbb3d3ddda|2019-09-20|Matthew Welborn|skip broken intel-openmp!=2019.5-281
+294b7fc331e08f63947384ac58b2ec727103743a|2019-09-20|Taylor Barnes|Add basic support for using QCEngine as an MDI Engine
+d9da301a731972487fa2149acbea9500477db704|2019-09-15|David Dotson|Converging on desired functionality from OpenMM for QCEngine
+44cb61250d22c47e0ee127f3bb57f2939b86b399|2019-09-14|Sebastian Lee|Entos: Now reads from json output instead of text file. Also added entos to test_standard_suite.py
+cf874ba5727bbd4a07dff0189aeaa8bd20539930|2019-09-11|Sebastian Lee|Entos: Starting to add support for reading the json output
+e91d168e67844b663d1d027979838672000012ba|2019-09-11|Sebastian Lee|Entos: Added supported DFT functionals. Entos now writes a json output. Output parser still reads text file.
+34bb2c86bb626aa0a521ac9784c1f6356c95ea3c|2019-09-11|Sebastian Lee|Entos: Started to expand the supported methods for input generation.
+fcc4cba9a79f494378527eee1c7b218b33189e66|2019-09-12|Daniel Smith|Merge pull request #154 from sjrl/molpro_properties
+ec1897893863f666273de5d3eae7ff9cedaa41dd|2019-09-12|Daniel Smith|Merge pull request #153 from farhadrgh/torchani
+10bbf2d0ec18ed3ddf4293265f7ed1f8b75a9da2|2019-09-11|Sebastian Lee|PR comments: Added types and comment explaining ROHF is default for open-shell
+677071414d187b25f1472c04adda23e2ff6e1ea8|2019-09-11|Farhad Ramezanghorbani|add description of the quantities in extras
+1ea8207e2c86c1dba441343bcbfd48f8161b9a86|2019-09-11|Sebastian Lee|Molpro: Added molpro_extras_map
+8f5112c109ac3bc436f7255bb9206fc602e60143|2019-09-11|Farhad Ramezanghorbani|add ensemble related quantities to extras
+fb487e3930ef535e273b7d45b07df69a068c9100|2019-09-11|Farhad Ramezanghorbani|Merge pull request #1 from MolSSI/master
+809c77ab0ced2b2a93972a220aab8c6053d66885|2019-09-10|Sebastian Lee|Molpro: Cleaning up output parser
+540e9162ac947db971738d12d54ab1f1b2e1882b|2019-09-10|Sebastian Lee|Molpro: Cleaned up build_input
+e0fe17ca4f7c1b42967f234fc523d4a7452b621c|2019-09-10|Sebastian Lee|Molpro: Added new keyword (reference) to control restricted vs unrestricted SCF calculations
+b0feea56d74b89163b906cff1e7f3060a5c53e2f|2019-09-10|Sebastian Lee|Molpro: Started to add support for unrestricted calculations
+be52706916a2e4519005b76d7fd53edd95796893|2019-09-09|Daniel Smith|Merge pull request #149 from zachglick/gamess_tests
+5d64b68ff8a167dcbfd4194f1c310121e16d8f26|2019-09-09|Daniel Smith|Merge pull request #152 from sjrl/issue86
+1eaafb8d367b7fd882f504244f16e9858658f119|2019-09-09|Sebastian Lee|Model: Finishing up issue 86 by adding a return type for the base execute function of ProgramHarness
+49854cceddbfd01bff3f49e0737ace757911ecfe|2019-09-09|Sebastian Lee|Molpro: Added some calcinfo_* properties for output parsing
+2d06f0d3d62b71500cee212792e30549783339a0|2019-09-08|David Dotson|Hammering on OpenMM harness
+51c7e0bfb28c826923eb38fcec84b9e45e90b3c4|2019-09-08|Daniel Smith|Merge pull request #150 from farhadrgh/torchani_hessian
+7d16e9898d50d0a96edb38343446b94feaa36d33|2019-09-06|Farhad Ramezanghorbani|change torchani version to 0.9
+9939fabef3e0eaa4891a3da4eafd3788f9360517|2019-09-06|Farhad Ramezanghorbani|import torchani in compute method
+50c877fc2721f1b16b9be3187d4c1d6c7a42106a|2019-09-05|Farhad Ramezanghorbani|add hessian driver
+bdba814a683329e1d8a52b0e7ba88cc76dd25955|2019-09-05|zachglick|cr-cc(2,3)
+a548c5647eff63d87fc9c918521f1897f348eca2|2019-09-05|zachglick|added tests
+c7cc87d73b7b319dc0e58c3e7de2b9a45313b8bb|2019-09-05|zachglick|Merge branch 'master' of https://github.com/MolSSI/QCEngine into gamess_grad
+72a5bee1dc912235bc4b14d62970a68bd033ddfc|2019-09-04|Daniel Smith|Merge pull request #148 from mattwelborn/test_cli_2
+fcc05b9ec355cc519920b70deff2271cb6ca9d1a|2019-09-03|Matthew Welborn|Add stdin CLI tests and change entry point with __main__
+0c5e52663b1bd356ed52198794f58d01eda402e7|2019-09-03|Sina Mostafanejad|applies the necessary changes (#130)
+9845699ef66f9722196879e234b3e76646c90961|2019-09-03|Daniel Smith|Merge pull request #145 from mattwelborn/test_cli
+d3e2f0824e7fa1ca498aeed69acd1fd7f4096c53|2019-08-29|Matthew Welborn|Merge branch 'master' into test_cli
+a0afaf48b68449bc4a8433b66d6c91c26ce4d604|2019-08-29|Matthew Welborn|typos
+3af9c9596c7b846f0ea248348455cabb11a24e21|2019-08-29|Matthew Welborn|change from util.execute to subprocess.check_output + pytest.tmp_dir to fix pytest-cov
+4a43cdccfaf23e57f16bb4d92e6b7cabf2b6b9f3|2019-08-28|Daniel Smith|Merge pull request #143 from sjrl/entos_update
+a8d01dbc4dc07adb3bf1734948336b7cacb2f33a|2019-08-28|Sebastian Lee|PR comments: Updated Mopac to have correct types for execute function
+06c1e987848b9592ea300706ef6644713345a1b8|2019-08-28|Matthew Welborn|fix coverage path issue
+1ebf771fdaadba2c0b7666eb8e33e28aff1d2db4|2019-08-28|Matthew Welborn|Add coverage and stdout checking
+790f03fd8997ab0afc486ed4294645892b2e87f8|2019-08-28|Sebastian Lee|PR comments
+2fc06fe69fd65392c9fcfff4ce1016297bec2588|2019-08-28|Matthew Welborn|Revert "add CLI testing framework from fractal"
+c5c04005ee246d61296bfc3d3eec77b664823846|2019-08-28|Matthew Welborn|use util functions to run processes in CLI tests
+c1d9ba4d25ffd4d01c9b20fc97fff39fdbc4e47f|2019-08-28|Matthew Welborn|add CLI tests (stdin test missing)
+d87d8e75a65aa67d3e0c49251d83b90ee94a1bfd|2019-08-28|Matthew Welborn|add CLI testing framework from fractal
+4aba5b392eb5269aa8ab3278ab10a21d370a05cd|2019-08-28|Matthew Welborn|fix run-procedure (JSON-only for now, see issue #136)
+8ccc503ed396f2a516cbbc4977908dca262c3a6c|2019-08-26|zachglick|store more qcvars
+56723872015b98916c92a8990660c89c5f49bfbe|2019-08-26|Sebastian Lee|Molpro, entos, model: Minor update to entos Harness. Added more types to execute function.
+cb29265ce0133927ac2a56b87697d64ad5ec66b4|2019-07-24|Sebastian Lee|Entos: Ran yapf on entos.py, added comments, and updated execute function.
+c9da21ccb5a41427d0747290876d00be96c032f9|2019-08-26|zachglick|Merge branch 'master' of https://github.com/MolSSI/QCEngine into gamess_grad
+8ff164c436347ea458e450b9ff850ff6eb51966e|2019-08-26|Daniel Smith|Merge pull request #142 from Lnaden/yapf
+72e93795fe8d7362041a1bf0f44582dcd3d87101|2019-08-26|Levi Naden|Minor LGTM cleanup
+cdaa18263733b8c71a8aeda92e2f9d0b305be1a3|2019-08-26|Levi Naden|isort'd
+1d2f61aa4f7c4778bfae3ed8d2d76f9b2c7db885|2019-08-26|Levi Naden|YAPF'D!
+404a70a8b28fa766d75c966898ac7d08c53f85d8|2019-08-25|Daniel Smith|Merge pull request #141 from dgasmith/rnotes
+5f7a9bfcbf8d7890fe466258fac73f99a6161d6b|2019-08-25|Daniel Smith|Docs: Removes duplicated information
+865ada2e95098825d5f75b790aebd46b580c7486|2019-08-25|Daniel Smith|Docs: Updates changelog for 0.10.0
+a7e450d93f103a56c40bbe1a6cc42203d7e91ace|2019-08-24|Daniel Smith|Merge pull request #106 from Lnaden/azure_testing
+4847386bf538d72d70994c65e8fec05a5ebfbf0e|2019-08-24|Daniel Smith|Merge pull request #140 from loriab/otherhalf_gmsnwcc4
+c5cc2beffbbeeb794503d9b9e148bd60790251ba|2019-08-23|Lori A. Burns|Update .travis.yml
+82d0e778c2f880aca5ab373df4786f8b9055cdea|2019-08-23|Lori A. Burns|if logs are torchani's problem, then silence the logs
+8af26e5698ac10db3931573b31fd8596cac4ed96|2019-08-23|Lori A. Burns|fix some capitalization errors that led to non-alpha sorting of options
+b6796279224c70d3b046907c85aa78e2da9b14c2|2019-08-23|Lori A. Burns|bump qcel to 0.7.0
+a75dcf3684b33e58079509f56cc0d8f872e373df|2019-08-23|zachglick|Merge branch 'master' of https://github.com/MolSSI/QCEngine into gamess_grad
+77c988e483473ae11385aed641ad751f4f6d0527|2019-08-23|zachglick|gamess alignment
+35ee938de58b83b582c69c9e7cae6964ab740156|2019-08-22|Lori A. Burns|yapf and nwchem options formatting
+9c9a75cb094c3f51a4cba7a20fd3955b96f00c9e|2019-08-22|Lori A. Burns|cfour and nwchem build_inputs
+7ea3ba4fa09ba65d965ad2ba68dfb25245aa4529|2019-08-22|Lori A. Burns|gms: add memory, rename test items
+824fdc4a077bafc4e05377005b3167c391cbf7e1|2019-08-22|Levi Naden|Update with correct link
+2ece04b5254672515a01f51f9ab4e16d0d2f9559|2019-08-21|Lori A. Burns|a GAMESS ccsd test running entirely through QCEngine
+c661e2c98ee034f4d3481d608a1ff16e7aed5aca|2019-08-21|Daniel Smith|Codecov once
+148c31fcdb3d281cebccb9e67da23161555994ff|2019-08-20|Daniel Smith|Merge pull request #139 from Lnaden/better_install
+d166d641b1c24bbef5266cc7cdddead80e9bcd87|2019-08-20|Levi Naden|Update from comments.
+85dd2848493714fa3f2206bb560dc59251da1fba|2019-08-20|Levi Naden|Fix another typo
+a7659e9faf867e5dd2d2b9fceb9bb5d10519b9ed|2019-08-19|Levi Naden|Cleanup some wording.
+b1a7994cb9e57b25ebaab1303c6aa4b92eaa9ed2|2019-08-19|Levi Naden|Update the install docs
+971c7d2a150c776cf8fd275df2157a14d929dd3f|2019-08-16|Levi Naden|Merge pull request #138 from Lnaden/test_changelog
+7317ec95131c97fface5427075b18a840c12ea6b|2019-08-16|Levi Naden|Small change to show that Azure is disabled
+50da5ba029c5201f5155d106b86fbc6e77245670|2019-08-16|Levi Naden|Update to reflect manual triggers.
+043d95ce07e7c6df37d4a227d97a2bbf2931b499|2019-08-15|Levi Naden|Update changelog to test the Azure triggers
+b7773628a42202a7c3fff27ce9bb0cb8a31c2191|2019-08-15|Levi Naden|Merge pull request #137 from Lnaden/master
+d57bb3af2321f3127857475738afc767d697c37e|2019-08-15|Levi Naden|Fix another typo
+c62e40a56e3d27b006906bbfab27c3919c040854|2019-08-15|Levi Naden|Fix typos from review
+0b2fd981c6d55f9e0c7e929cf3ba92c198330912|2019-08-15|Levi Naden|Clean up based on feedback.
+58088c34459cf96ea4dcd26b91f996897a86e306|2019-08-15|Levi Naden|Add a full information readme and make edits from reviews.
+f2b45070c39ce2cc66c54558399b835563750bc5|2019-08-15|Daniel Smith|Merge pull request #132 from mattwelborn/cli-issue-118
+e12963326771ca04bb64bdccf9d82f781f4278c0|2019-08-15|Levi Naden|Enable Azure CI with custom images for proprietary code
+6ce2c5ca72f4ee0e937aa54cc58d1b4752a97452|2019-08-15|Matthew Welborn|CLI info option changed from optional to positional args
+76c368e59b2e1955048f87efabe7368a00b756b8|2019-08-15|Matthew Welborn|Merge branch 'master' into cli-issue-118
+1fbd083201afa93328f7b9fe486b7390c9a243ec|2019-08-15|Matthew Welborn|adds ability to run and run-procedure files through CLI adds --version to CLI
+8e45c01ddef766e295f86144a05929ce52f528db|2019-08-14|Daniel Smith|Merge pull request #134 from Lnaden/090docs
+583fdd4ad5ea52689f466c7a788e8a00293da50b|2019-08-14|Levi Naden|Remove erroneous entry
+28408d6996189d848951be0941b49c901bf3ad62|2019-08-14|Levi Naden|Doc update for 0.9.0
+7576bc7f81832a30cd8cb342367cdefdd7e97acb|2019-08-14|Daniel Smith|Merge pull request #120 from dgasmith/msgpack
+3e74786a6b54eae2c916edd6eacb7feee31eed20|2019-08-14|Daniel Smith|Merge pull request #133 from loriab/randomgamess
+c48835f2c3734f68992d92d01446148cd5fb7ba1|2019-08-14|Daniel Smith|Removes old qcelemental compat code and adds msgpack-python to tests
+974e83c88ab4fa749ed2a6335dc4fe72e0bfa5cc|2019-08-14|Matthew Welborn|resolve PR comments
+ae3d0da7d497b5fb0e5773e86996de34a277f737|2019-08-14|Lori A. Burns|gamess: collect more ccsd
+473098c8b3da0c72fe8c7235a3a4200845cf89d8|2019-08-14|Daniel Smith|QCElemental bumps to 0.6.0
+654939dde322ab1d0203b2b5faf6c9509dbc05dc|2019-08-14|Matthew Welborn|Docs for new CLI
+9ebaa12653401d0132631569f58af6da3bb0bab6|2019-08-14|Matthew Welborn|Implement new qcengine CLI described in issue #118
+834a302b57b82ea5d4d512c8827265f67901cd47|2019-08-14|Matthew Welborn|Add get_version to ProcedureHarness
+10485746c7a9506ed15cb2195fb09eaf2e3b643e|2019-08-12|Daniel Smith|Merge pull request #131 from bdice/fix/issue-123
+3e5840572b9386510684e5fa28371c8e9ade834d|2019-08-12|Daniel Smith|Merge pull request #128 from bdice/fix/issue-122
+4c83528d5f2b34790ed8427533c308c6b3b65894|2019-08-12|Daniel Smith|Merge pull request #129 from nstair/changeset6
+b9cd4805f20c84b78af86261e03b59c7a59abea9|2019-08-12|Bradley Dice|Remove commented input file declaration in gamess/runner.py.
+36fe9862ea69e06169c9ce0e77db36332cb56f9a|2019-08-12|Bradley Dice|Fix code formatting in gamess/runner.py.
+5de7edbec0bbd8f0f24f7e1b59b3a68c15cc18b5|2019-08-12|Bradley Dice|Raise NotImplementedError in harvest_hessian for nwchem.
+7beddf318d17d2bfbec54a57e7b06e55462d25a0|2019-08-12|Bradley Dice|Fix code formatting in empirical_dispersion_resources.py.
+0f732bddbf5b99f366ddbf90dfa1fa0a80a75849|2019-08-12|nstair|import set and tuple form typing in molpro.py
+8db2521f638880cfe28e956e350cc983d86796d2|2019-08-12|Daniel Smith|Merge pull request #127 from bdice/fix/issue-121
+9009b4e6122d27d144e08b3de80e24419b5278ff|2019-08-12|Bradley Dice|Removed imports for numpy and load_hessian from nwchem/harvester.py.
+16eeec719dc560bcd7b93a7c94d8f374c864f1ff|2019-08-10|Daniel Smith|GeomeTRIC: Adds patch for symbols until geomeTRIC patch goes through
+5169ebefd2889e8d2e1c3932655088db605fb545|2019-08-09|Daniel Smith|Models: Removes json_dict
+a53657edfceeb02a79b8959d977ba25e660bde6e|2019-08-07|Daniel Smith|Msgpack: Updates QCEngine for msgpack
+0b64d348adb35836e89b6a3b225d325e700e9e0a|2019-08-07|Daniel Smith|Merge pull request #119 from mattwelborn/install-doc-edits
+6d22f42aa5eada1962111964212eb1feb818e497|2019-08-06|Matthew Welborn|qcengine -> qcengine
+ae5f46a6655c4c30b4310d7d2d39895d97c039ba|2019-08-06|Matthew Welborn|edits to install documentation
+f918f27173b0164fa5571cb98c9acef00a9fec8a|2019-08-05|Daniel Smith|Merge pull request #117 from dgasmith/mopac_passthrough
+a8cf799f69fbd2f06c177cc27c835d0e4c84ecac|2019-08-05|Daniel Smith|MP2D: Allows extras passthrough
+dd46db63efb2948746ad3758da7236762eb6a8d7|2019-08-05|Daniel Smith|Programs: Adds additional extras passthroughs
+c1d24a1d9dbf69922715ac9d5778beb55a494bc0|2019-08-05|Daniel Smith|MOPAC: Ensures input extras can pass through the programs
+d304b6c8e8bf39bb5d2ef9bb2efc6e67ce7dbeb6|2019-08-05|Daniel Smith|Merge pull request #116 from dgasmith/context
+20ec5976e8d0b0930ada09cf664668c6db6a233c|2019-08-05|Daniel Smith|Compute: Adds environment context to catch Python-level parallelization such as NumPy
+928c2d05e06a08a42b09d97491e7ea3b92e87ff1|2019-08-02|Daniel Smith|Merge pull request #112 from sjrl/molpro_update
+7fff278c49837507cf29373f5446fdada7175c92|2019-07-25|Sebastian Lee|Molpro: Updated format strings to use f-strings
+629805293dc9eaf3d16e28c35c3ff591d7b1f906|2019-07-25|Levi Naden|Merge pull request #114 from Lnaden/no_req_kwargs
+b2474606963d16a6d9cfad8a043214be3ba7a072|2019-07-25|Levi Naden|0.8.2 Docs and bugfix for required kwargs in Fractal's stack
+095ff71e68a2fcfd621b5e1cd933572a9e772aed|2019-07-25|Sebastian Lee|Molpro: Properly added nuclear repulsion energy and scf xc energy to properties dic. Also expanded available dft functionals for Molpro.
+a51b853805d102ffb4da0191e829a5dd83ce3d91|2019-07-25|Sebastian Lee|Molpro: Now grab the nuclear repulsion and scf xc energies from Molpro xml.
+80fabf52405fd40c51af4c16a412076125504025|2019-07-24|Sebastian Lee|Molpro: Rehaul of the output parser so we can differentiate between CCSD(T) and CCSD quantities in the xml.
+2421277c33e742ca2811bd0915a052771d1ad9eb|2019-07-24|Sebastian Lee|Molpro: Added support for restricted DFT to MolproHarness.
+90eed8ccee4c6e2cb31fa39424bd282971416e8f|2019-07-24|Sebastian Lee|Molpro: Added comments to molpro.py. Added types to MolproHarness execute function.
+47af9d6b31720c68514e7afc7938397ed6b35b48|2019-07-22|Levi Naden|Merge pull request #111 from Lnaden/081docs
+693a9507f38f87b2970ecb9f3e6fd1612e4d0773|2019-07-22|Levi Naden|0.8.1 patch docs
+1bc6d4ff26264f60b589103807cadfc275ffd9bb|2019-07-21|Daniel Smith|Merge pull request #110 from dgasmith/procfail
+1106eab761c30a9a21513cacec58b44e275b1a0e|2019-07-20|Daniel Smith|Psi4: Expands random error expectations
+d599801c4a2a929d9efcf4bda93c2079532bd1ae|2019-07-20|Daniel Smith|Merge pull request #109 from dgasmith/procfail
+5e4367e54c4eeed2d6f2d16eb4ef19117cba18d8|2019-07-20|Daniel Smith|Geometric: Ensures retries are correctly propogated
+4e571799872818c368f46cbe7b5304f0c2b8e72d|2019-07-20|Daniel Smith|Testing: Moves failure engine to a generic
+92db58a47ae17710e2aa6b99f5be30402dc5d5a3|2019-07-19|Daniel Smith|Merge pull request #108 from Lnaden/master
+e3490f4c48f123aa3cfce5b7ec1560ab28bafb45|2019-07-19|Levi Naden|Update from comments
+2d6fd9fd2dc7857d5ee6a256f8013c0562e0da4c|2019-07-18|Levi Naden|Update changelog for 0.8.0
+55f7d07702c4540c6cf685fdc047248f8c41a381|2019-07-18|Daniel Smith|Merge pull request #100 from dgasmith/mopac
+a77332efe21ed66a5cf5801acceb07a5dedb55c9|2019-07-18|Daniel Smith|Mopac: Updates from reviewer comments
+7592282a35371d2680e6e017d53ab3db8e6ef102|2019-07-17|Daniel Smith|Mopac: Testing cleanup and adds stdout
+31ac95cac900e610104f646579606cb6b83f8a7c|2019-07-08|Daniel Smith|MOPAC: Adds testing
+d1d222e7e2045fcaceafd456565ecc5723bc8ca5|2019-07-08|Daniel Smith|Mopac: Parses and controls MOPAC output
+585984804aa3633d463f71638db7c5a41aed7ccd|2019-07-08|Daniel Smith|MOPAC: Input generation working
+6bd0f661506d9981395aafc4ae76677eb833adee|2019-07-18|Daniel Smith|Merge pull request #103 from dgasmith/retry
+55ac8accce0c475ff290c38de58ecbc1af01fd8e|2019-07-18|Daniel Smith|Harness: Adds _defaults description to harness base
+9dab254c78b2fdbb78678144a1e4572c5f2d195c|2019-07-17|Daniel Smith|Harness: Simplifies init to base class, prevents init duplication
+5e14c1a319940405f8f8fb6e8b88f4f111b60f9d|2019-07-17|Daniel Smith|Retries: Testing and better error capturing
+752bb20b33231be4d183c0e022ba093937562ec4|2019-07-17|Levi Naden|Testing Azure Integration
+4028ac36f94cf0e55dae6254e3e638027d1b2100|2019-07-17|Daniel Smith|Compute: Moves retries into configuration objects
+01a2f16314cb6fdb2e93a6e746bbd0ae4bc8e67d|2019-07-15|Daniel Smith|mend
+fa34dfc0e52fb0dd2ed5efa05fb82e16a8d1fd4a|2019-07-15|Daniel Smith|Compute: Automated retry capabilities for random errors
+1ff2c0b971eccd844679ab6be6872a0891ba3758|2019-07-16|Daniel Smith|Merge pull request #102 from dgasmith/dftd3
+bf10c1044cd974b934446e7dba7e8f4dc67fc6b4|2019-07-15|Daniel Smith|CI: Updates all pydantic versions to 30.1 minimum
+f5c7074f0ade9284bdd710af6066f79f73cc79bc|2019-07-15|Daniel Smith|DFTD3: Errors are now correctly a FailedOperation
+3bf82b5114480cf4fea3452faaf7c41e86fb490b|2019-07-12|Daniel Smith|Merge pull request #101 from ffangliu/terachemmol
+9d967a70cbaf166e6bc12135e630f1e7d34021fe|2019-07-10|Fang Liu|TeraChem: Enable user's request of extra output files.
+4a4ef4624617f1a24d46f4eae37aa54ab26ba52b|2019-07-05|Daniel Smith|Merge pull request #99 from dgasmith/scratch
+5be8a0b58acc99521cab91b68cf81d035f963a48|2019-07-04|Daniel Smith|Testing: Updates to PyTest 5.0 standard
+2fe8d966936ce0d2581d994ce340f14ccae02446|2019-07-04|Daniel Smith|Psi4: Builds a new scratch directory for each Psi4 run, explict scratch settings
+21a0d6b8a5dd57e678dc7c0a45697f3d2cd625f8|2019-06-30|Lori A. Burns|Merge pull request #98 from vivacebelles/nwc
+4d4e0d81c5c36674228535fc372923c9391f247d|2019-06-28|Annabelle Lolinco|nwc: consistency in tce code and fix
+9cf1c5385300f9458aa48b8758d5e45b6aee584b|2019-06-28|Annabelle Lolinco|nwc: tce harvester fix
+34aecc5b20214d2a34422dfbab662efe3f0e47ed|2019-06-28|Annabelle Lolinco|nwc: tce general cases fix
+bb1797e49acd2bfa8aa985793cef9bc9a9ec93ff|2019-06-28|Lori A. Burns|Merge pull request #97 from vivacebelles/nwc
+9fde27e3887b634e6567a588fc2805a4fd93ffd6|2019-06-27|Annabelle Lolinco|nwc: tce mpn tests working
+df9435e6276c25a0d94858fbd31d819cc783712d|2019-06-26|Annabelle Lolinco|nwc: minor change to current energy collection and varh
+2e4d8e2d4204a4903b6568d0f498045ca02eadfa|2019-06-25|Annabelle Lolinco|nwc: add mp3 and mp4 for current energy collection
+fc7cf61cdd4b755d6c1b6b118a67097c5ddc0c16|2019-06-25|Annabelle Lolinco|nwc: fix for tce mp energy harvest (2nd order at least)
+ea4380264f7bafc592814a6954e14f6d5bc7131b|2019-06-23|Annabelle Lolinco|mistkenly comment out harnesses
+6d03101eefd6ce6ef88feca1ed3a744248074355|2019-06-23|Annabelle Lolinco|comment back qcdb-transferred harnesses
+1075bf426831c1113a3921470b42155d950e81eb|2019-06-20|Annabelle Lolinco|enable harnesses
+fccd3abbccb22b95bf9cbe113298ccb4651cdc00|2019-06-26|Daniel Smith|Merge pull request #96 from loriab/nwc_tce_ccwq
+3072d7281d36a635345ead71074824f73eb343e9|2019-06-25|Lori A. Burns|fix NWChem TCE CCSD(T), CCSD[T] parsing
+9104ee2d38494d9cb786d0a4d17cbb02bc62ccf2|2019-06-23|Annabelle Lolinco|NWChem interface (#95)
+532eb6c8aca5396519d058ef27ef74dd1f678781|2019-06-21|Lori A. Burns|Merge pull request #94 from zachglick/gamess_grad
+9b6ecee5af76b117ad4ff67b8962ab0b8905c48f|2019-06-20|zachglick|store gamess gradient and molecule
+225af6f1e65eef2a816f8154e5cfd6be9d4ae84d|2019-06-18|Daniel Smith|Merge pull request #93 from Lnaden/master
+936cc9676f2fd807463ef6c2c7716f89bfbc96ba|2019-06-18|Levi Naden|Include programs/tests in package bundle
+102b5ba97208a135f728c46ae1bd74abc3592d87|2019-06-17|Levi Naden|Merge pull request #91 from Lnaden/070docs
+1cc7030d9df0d8c6bec9ae87b73c1b4bc5c19776|2019-06-17|Levi Naden|Edits from review
+655169ac09ab8d1758804d40b108fed09d8304a3|2019-06-17|Levi Naden|Updates docs for 0.7.0 release
+d0d2fa8c2a2294aa1ed902553ae4daad1d5a2c16|2019-06-14|Dominic A. Sirianni|Adds DFTD3 params for SAPT0-D (#90)
+7de68cd2c8fc9fa390c96e14ac97ca0c2c5fa27c|2019-06-14|Daniel Smith|Merge pull request #88 from sjrl/molpro_io
+f489bd90a556e9b9076e2a142f0839e46ee6cb95|2019-06-13|Sebastian Lee|Molpro: More PR updates
+d91f8e9028bcbe3e99afd8d0f7440e33cc2882cb|2019-06-12|Sebastian Lee|Molpro: PR updates
+ed93a2ac72c7f57140e0cdc42d06f8bc06cfe9af|2019-06-07|Sebastian Lee|Molpro: Starting adding support for DFT and CCSD(T) calculations
+0ceab1da6dabfa8afdf0beb4d9ca84ea732efd3d|2019-06-07|Sebastian Lee|Molpro: Added extra_infiles option to the execute function
+f7abc4bad2d3a68b459e89c692ee9fb990f2e1cf|2019-06-06|Sebastian Lee|Molpro: Took away jinja2 dependency and updated execute function
+bea45cec0d37f6276fe5e0da4435bda6bf58d654|2019-06-05|Sebastian Lee|Molpro: Updating input generator and called UnknownError for execute() function.
+b0ad8540b0aafd020da4d524399edf7fd58a35fe|2019-06-04|Sebastian Lee|Molpro: Updating Molpro engine
+9a1071226ea910951524b8ee89746930a2d91c53|2019-05-23|Sebastian Lee|Molpro: Updating molpro engine
+280f4d856453f6bd231e961b43abd10919b460bb|2019-06-13|Daniel Smith|Merge pull request #89 from loriab/dftd3harness
+f88e6f4942539bb3db4d5ac1b75b89f17d81076c|2019-06-13|Lori A. Burns|execute(scratch_location --> execute(scratch_directory
+a5870c662bd80c51bfb62eb52fe9781833fae9bc|2019-06-13|Lori A. Burns|bump required qcel to 0.4.2
+76d930ec1fe1e18300c835ddf938afd943d4ad05|2019-06-11|Lori A. Burns|dftd3: make dftd3 harness-like
+f09c4b2f0d309d6dbce9880088e9f5fd3e1e05ff|2019-06-09|Daniel Smith|Merge pull request #85 from loriab/mp2dgrad
+949862255633b07e01a234c16af43f6083d20f4a|2019-06-07|Lori A. Burns|changelog
+e82b6b80f52ab329ff159b2c5040805d6110f7de|2019-06-06|Lori A. Burns|dftd3: make single file
+86aadcb1595bbdd18b13e04011e19bb7b6cbcfbd|2019-06-06|Lori A. Burns|disp: move up and rename dashparam.py
+e705424925e6ae7d6bc7d8a328df856043099e50|2019-06-06|Lori A. Burns|mp2d: fix lgtm and testing
+1895a1e954eb0ee668deffe0de9b2207b5c04c9c|2019-06-06|Lori A. Burns|mp2d: adapt to be more Harness-like and less qcdb-like
+0f01823c82c0441ab8828ffd31e7b783914a47b6|2019-06-05|Lori A. Burns|mp2d gradient references, testing. add get_version to mp2d
+196e77a744da0b7a3cfea30486d99d075356dc01|2019-06-07|Daniel Smith|Merge pull request #87 from sjrl/changelog
+186bdb524a1f2c7608a7666b057807d57e2b8fde|2019-06-07|Sebastian Lee|Changelog: Updated changelog for entos and Molpro updates.
+f76e1070b30c4c5c806c91c80df579affb55029a|2019-06-06|Daniel Smith|Merge pull request #82 from sjrl/entos
+734541ba4807d4409d19f0c4614ae1c80491a1a3|2019-06-05|Sebastian Lee|Entos: Removed jinja2 dependency
+b8fbf027fc5082bffbb2869ed6389acc5f4bfc20|2019-06-05|Daniel Smith|Merge pull request #84 from loriab/execute_binary
+dd1628bdc7544c8ff9ea5a7e2533acf1aeec9ed1|2019-06-04|Lori A. Burns|add execute(..., scratch_prefix) for debugging
+a81fe25f1164d492213135acd23efcc8d92900af|2019-06-04|Daniel Smith|Merge pull request #83 from ffangliu/terachemmol
+644f878c0de6d4b235d749ee9a0f3ac0f67c7ce8|2019-06-04|Sebastian Lee|Entos: PR updates
+9304f141bc2b51e43fb29a5fe784b53ff798f8fa|2019-06-04|Fang Liu|TeraChem: modified how TeraChem version is parsed since the format is not standard. Using DECIMAL regex definiition directly imported from qcelemental
+5671f2bb5bed11d25535958924e74d9dd6c5c7f6|2019-06-03|Sebastian Lee|Entos: Making jinja2 an optional dependency (also added in proper check to test_entos.py)
+9de328c136d33640fc61b64a1fe0386f2c8cf420|2019-05-31|Sebastian Lee|Entos: Starting to add jinja templates and updating execute function.
+d57df49c703c3d55a112e2b364a333843a473461|2019-05-31|Sebastian Lee|Entos: Added execute function
+cbc99428a8ff4325c75311270a55ad46841c55ad|2019-05-31|Sebastian Lee|Entos: beginning to add template functionality
+5b83fb87825ab1593f7547df4744a447835590c2|2019-05-30|Sebastian Lee|Entos: Updated build_input. Also updated output parser to support reading gradients.
+9b32cd78c8aee2500be442f4327095736ac4718c|2019-05-30|Sebastian Lee|Entos: Finished basic input file generator for entos
+87f7be63c046e44fd896516b8869a086686f2e32|2019-05-29|Sebastian Lee|Entos: Starting to write input file generator
+94c6ab27c53e17cac98b912867c04caa055e849e|2019-05-24|Sebastian Lee|entos: Setting up minimal working version of the output parser for entos
+b18a2154a4f4c8fc157dc6a262c4f5205a4ce5cb|2019-05-23|Sebastian Lee|entos: Beginning to add in entos engine
+98652a85c2bfd7a135c7bbcebc7ee1713deb4bae|2019-06-01|Daniel Smith|Merge pull request #81 from loriab/execute_binary
+0d28c3a144194f226bd09c1003e24e6e7320cee1|2019-05-31|Lori A. Burns|more checks on execute(as_binary
+d77576d2472571c0927844442cfd85a30a9f4f74|2019-05-31|Daniel Smith|Merge pull request #80 from dgasmith/qcvars
+f184078ed1173ab8cf0bec1dcc8fea13508b5310|2019-05-31|Lori A. Burns|clean up scratch files in programs. move a cfour processing fn back to qcdb.
+3a4ccf6839e203224048086127d2746433050a33|2019-05-31|Lori A. Burns|binary read/write for execute
+bad596d2ba5b9e41ba1e8da07cb079811e82c172|2019-05-31|Daniel Smith|Geometric: Additional testing to ensure keywords are passed continously
+93075b9853d74a68d18168529addf8be7e7a2901|2019-05-31|Daniel Smith|Psi4: Prevent extra local_qcvars from being built
+8f2fb2af1644bc7fb6fb7665b8433bb3778333aa|2019-05-30|Daniel Smith|Merge pull request #79 from MolSSI/loriab-patch-1
+b7162501619606ae819c296978f8594ac23d887e|2019-05-30|Lori A. Burns|Update .travis.yml
+b63e7f43c4bdd4ea2234066a5fddba5158108249|2019-05-30|Daniel Smith|Merge pull request #77 from loriab/cfour1
+4b7460bd06c746f69fea6b3584d65eeee5beb8a7|2019-05-30|Lori A. Burns|cfour: slight cleanup and add changelog
+f129aba0f959c1d88a96759b9249ca8f2915d8e8|2019-05-28|Lori A. Burns|ProgramExecutor --> ProgramHarness and same for Procedure. for ease of communication
+d4d66cdbf3f2336b12a6e2ff3a4df23def9a1a4e|2019-05-28|Lori A. Burns|add back Sebastian's get_program(check that I lost in the rebase
+969052aa0cd2ba7f72163d96fa23e4d4e81701d3|2019-05-28|Lori A. Burns|add glob output file collection to execute
+59d5b4a451a9d2f10c0d25e646ee2f82174a8f3a|2019-05-28|Lori A. Burns|cfour: add keywords formatting and pull back more files
+e5127c6ecfcacd5cd606fa369463ba889063ca44|2019-05-26|Lori A. Burns|make files and class names analogous btwn Programs & Procedures
+d8de0d1a262a212e263e55652519c320aa0165c9|2019-05-24|Lori A. Burns|cfour: fix bad logic
+a94db1245617b3a43bd23052611e1986f5c5d598|2019-05-29|Daniel Smith|Merge pull request #78 from sjrl/molpro_version
+1c6e5784d9732393c88d8ae055c9899d2c9f414a|2019-05-28|Sebastian Lee|Molpro: Implementing get_version for Molpro engine
+69821f8631e74b6995194728339db446fbac44dc|2019-05-28|Daniel Smith|Merge pull request #76 from sjrl/get_program
+6bfc3869d03c0ac4b5e1b2df1954012748812a34|2019-05-28|Sebastian Lee|Molpro: Output parser can find final energy under molecule tag if not provided under jobstep
+b5c94aad6e1a6db847ba849cc98fb618f4561e7f|2019-05-24|Sebastian Lee|Travis: Removed added python -c commands
+86cb74f54c7230e39ced1a850485667dbb1c968b|2019-05-24|Sebastian Lee|Travis: Added python -c commands for degbugging purposes.
+706363cef299f5c915222c7c4465247a865af7c7|2019-05-24|Sebastian Lee|get_program: Added check option and fixed Molpro and Terachem test jobs
+0ad68aca5288e05588c6d3c9f79e650d23ee5f81|2019-05-24|Daniel Smith|Merge pull request #73 from loriab/cfour1
+83a105a37d5c778ce6b347f16abf3526197aeb10|2019-05-23|Daniel Smith|Merge pull request #75 from sjrl/compute
+7daf53326329d49eef296f3770a8d04f80142d37|2019-05-23|Daniel Smith|Merge pull request #74 from dgasmith/travis
+8d46deb862515c2d513c260c07bad52eb217c393|2019-05-23|Sebastian Lee|Compute: Updated the type for option local_options to be Dict[str, Any]
+655b7638eb6795c3420f73d0cf5402bd66afe767|2019-05-23|Daniel Smith|Merge pull request #71 from sjrl/molpro_exe
+dfe207d85adb7a8864be5e60a883499258fa2ab7|2019-05-23|Daniel Smith|Travis: Torchani fix pass
+8a095a9c3f8882134f136f73ed673af007268667|2019-05-23|Daniel Smith|Testing: conda environment updates
+52311851c4032085877fa0458ed0327676456d48|2019-05-23|Daniel Smith|Travis: Removes caching and reduces torch overhead
+ba16286fbcbb1fee10a0f7d554dd2b5d494409ff|2019-05-23|Sebastian Lee|Terachem: Cleaned up test_terachem.py (PEP8 and removed redundant if statement)
+423dc994c780b949828059b7fbbca64bbcbfcbe9|2019-05-21|Sebastian Lee|Molpro: Changed a few comments
+d196fcfa4cb91cf6e7cac6983851493cd5917969|2019-05-23|Daniel Smith|Merge pull request #69 from dgasmith/exceptions
+d2acc9611e455e252f4a541fce2b0b6d71e23892|2019-05-23|Daniel Smith|LGTM cleanup
+f67aa5f57e99e3a06657766f260a0375658dc050|2019-05-23|Lori A. Burns|c4: fix lgtm and a few more tests (not included)
+0094d7c897dc131519d9e6bb86d9dec1897e1212|2019-05-22|Lori A. Burns|half a Cfour interface
+e2fc2d8d3ce54247450ee6136d5f46a20e090717|2019-05-21|Sebastian Lee|Merge branch 'master' into molpro_exe
+a9d2f6a501de34b7d9c72a6ce6e77d5a04b69d32|2019-05-21|Sebastian Lee|Molpro: Updated test_molpro.py to ease merge with master
+7567dd3fac4a3643661580f477327d245d88ce72|2019-05-21|Sebastian Lee|Molpro: Updates to molpro.py to make merge with master easier.
+6559e3f8eadb68996f6d4f71895160564850cbd3|2019-05-21|Daniel Smith|Psi4: Splits PSIO errors into true resource errors and potentially random errors
+df34480652b4a065228ed333f48b09aae4c43179|2019-05-20|Daniel Smith|Exc: General pass to updating error types
+71e4705d27957dfea5c2156adc10d09af7a22e89|2019-05-20|Daniel Smith|Procedures: Reworks content under new exception manager
+cba123eafd03c3f39a8e6ab74a2d7b0c2742a0c1|2019-05-17|Daniel Smith|Psi4: Moves wait timeout to 15 seconds for very slow machines
+469a596b57153e56073d68b2ddd8afcc1952dde3|2019-05-17|Daniel Smith|Exc: Switches over known errors
+9b1249ec521f1a1831ed2a97710b72b9f9b2cd67|2019-05-17|Daniel Smith|Exc: Begins integrating new exception capabilities into the compute_wrapper
+9401276bab85425c33f371585c9129a25c57038e|2019-05-17|Daniel Smith|Exc: Header and error type rework
+8a4eb9b3f57fb2d44febfef6b4a5b83f5f65b418|2019-05-15|Daniel Smith|Exc: Begins exception classes
+8bf33c07259b0384eea05a50bbf1f3ce941c4b90|2019-05-19|Daniel Smith|Merge pull request #60 from loriab/gamess
+cdc751422a8cc9b3691686786a64a30ea8449b5b|2019-05-19|Lori A. Burns|gamess works through qcdb
+c413396580d143ee8452bfb8ae8b847f0c929374|2019-05-19|Lori A. Burns|break up gamess, hide registration
+5ed0c6f6682fc352790929a2b92b06648d219c65|2019-05-18|Lori A. Burns|address lgtm
+48ee9a6219764e8b1428350a5ec74751b521f566|2019-05-17|Lori A. Burns|fix tests
+38a2c28f9885e13e080cd04ec1b967a19c427d63|2019-05-16|Lori A. Burns|standardize found and version calls across programs. add find and version for nwchem, gamess, cfour
+043c73c16a1b9dbd9ae3dc4733c06d73ebc37000|2019-05-15|Lori A. Burns|use importing tools from qcel for gamess
+6392521b7f2f9b9509d6ad2129f7bef1372bee7b|2019-03-22|Lori A. Burns|half a gamess interface. bring your own input file. runs and parses SCF and FCI
+42039f61eaa409dcd4bf67a44e485399f6a01e3d|2019-05-14|Daniel Smith|Merge pull request #59 from sjrl/molpro
+42c39a7e19679fcce4443c5aedee79389f24c7f5|2019-04-26|Sebastian Lee|Molpro: Cleaner way to determine final energy.
+7f6eb841fa54ea2f3ded8bc40e9b9f3fd3b54db1|2019-04-26|Sebastian Lee|Molpro: Removed a comment
+78bd565cffaa3a410c51ed9c86cca161f8d74208|2019-04-25|Sebastian Lee|Molpro: added a comment
+a15ee7c66d0a4a328d52c7c84fc45c7a53cb0aa8|2019-04-25|Sebastian Lee|Molpro: Simplifying code in output parser
+b6a6f370eab4b7b66d350adeaca42e9b80cb138c|2019-04-25|Sebastian Lee|Molpro: Better way to determine final energy
+2c171180dce08c801c32fc11032a3abed37a6095|2019-04-25|Sebastian Lee|Molpro: Furthur cleanup of ouptut parser. And slightly more robust way of determining return_result energy.
+aa31aad770139d843714b61c4f77b9c09ff15944|2019-04-25|Sebastian Lee|Molpro: Code cleanup in the output parser
+401df58804b79e228203bfedba418d3fd7accd9b|2019-04-25|Sebastian Lee|Molpro: Making code for output parsing more compact.
+22210a2480a6dfda662d73ac94e5d2959e8c6b7a|2019-04-25|Sebastian Lee|Molpro: Some cleanup
+da726d7cc3ea7170fc74ee22618ebea6578b5b5f|2019-04-24|Sebastian Lee|Molpro: Updated output parser to use the renamed mp2_total_correlation_energy -> mp2_correlation_energy
+b7d706781bd192ede630242d6978e58aa8714d28|2019-04-23|Sebastian Lee|Molpro: Updated molpro output parser to match CC keywords from QCElemental
+acaa784851637291ebb97feeb507295e45768ac3|2019-04-11|Sebastian Lee|Molpro: Properly convert between singlet and triplet pair correlation energies to same spin and opposite spin.
+c7380f9b9a8ece718c80c89f7d82252f201a1c7d|2019-04-11|Sebastian Lee|Molpro: Fixed a bug in the ccsd_map between Molpro and Molssi quantities.
+14fd78f352e1ad4788753f3be493b8ca5c1232cc|2019-03-21|Sebastian Lee|Molpro: Added CCSD support to molpro output parsing.
+524fe4d3bda4d409842e3cfd987b9db1828be58c|2019-03-21|Sebastian Lee|Molpro: Added TODO to test_molpro.py
+2e1fce2c90405c0c3819d87c2c9446efbedeae1b|2019-03-21|Sebastian Lee|Molpro: No symmetry is on by default by the input generator.
+6a4ba1ecd52267d2ade4accdf7ac4eb174f320f0|2019-05-14|Daniel Smith|Merge pull request #65 from dgasmith/torchani
+60a30c6a43456437d209644193c22272107fbd4c|2019-05-14|Daniel Smith|Docs: Minor docs reformatting and updates
+ef395edc6d1d79236ae9ad4cd210163f0ebff798|2019-05-14|Daniel Smith|QCEl: Import changes after rebase
+8e854007a8d5b03516b9df1ca381ab3194b84f16|2019-05-07|Daniel Smith|Programs: Canonicalizes the modules not found exception
+9aaf9caecb63a74415cef4bfe73eadd1856297a6|2019-05-07|Daniel Smith|Util: Reverts import raise change and yapf's the file
+9294cbf525cd88a59d1f04bff8f9dd8ae2c53172|2019-05-07|Daniel Smith|Util: Reword import exceptions to be located in a single place
+541523aa12562f0ffb0b0580ae796c8d3847a4e4|2019-05-07|Daniel Smith|TorchANI: Update to interface v0.5+
+576012eb92eac68c403f9a67efd911e57ee212a0|2019-05-06|Daniel Smith|TorchANI: Update to interface v0.5+
+4fb4291181671fe3901057e03f5d1b89c4c1d9bd|2019-05-14|Daniel Smith|Merge pull request #67 from ffangliu/terachemmol
+9659062c66175be806870c7a3f4b2039a29acd87|2019-05-14|Daniel Smith|Merge pull request #63 from loriab/rmimporting
+9fb2138b8c7ca01bc8ca0b576aab159beae7e438|2019-05-13|Lori A. Burns|bump qcel minimum to v0.4.0
+fa382668f2956224baf029c0105b5f57cafab761|2019-05-13|Fang Liu|TeraChem: Use regex to match SCF iteration patterns for parsing the output.
+bdb6a19f2c4b91583c6480c191a2539ebef3b7b2|2019-05-10|Fang Liu|TeraChem: Improvement of output parser: Parse stdout into Result. Improved how the last SCF iteration info is extracted to make sure it works for FON and other more complicated calculations than regular SCF.
+f8bc2389bf8dae18e1b137baa1993ab9bccb746f|2019-04-29|Sebastian Lee|Molpro: Removed self.execute function and instead directly called the uti.execute function
+78c2b62867bcbfefb08813e16b9c707e69ca7c99|2019-04-29|Sebastian Lee|Molpro: Added some TODOs and added execute function following Terachem example
+1b8ff74733bab15de5cdd23ee4d625e45493ba51|2019-04-25|Lori A. Burns|remove "which" fns from qcng after adding to qcel.
+ba2e509b87987ba26b6944f9a97432860d25acfc|2019-04-24|Sebastian Lee|Molpro: Started to define the compute function the Molpro engine following Terachem example
+e43724fb6321df766a085d844a1ae5d90ad1d160|2019-04-24|Sebastian Lee|Molpro: Added ability to test the Molpro executable following Terachem example
+ac47162013c78956580771ded14c0e055f6ab353|2019-04-23|Daniel Smith|Merge pull request #62 from ffangliu/terachemmol
+5d0456193595e3141f29d9afc3a2e293cce7f941|2019-04-22|Fang Liu|Print bohr in the 1st line of xyz file for terachem. Updated test files
+2d317a6ebde6c4f2c11d0805e15411f4636ed112|2019-04-17|Fang Liu|TeraChem: Write xyz_file with to_string(dtype='terachem') method in qcel
+891606213b94ffdc78a20f8e9a955300e076a70c|2019-04-16|Fang Liu|TeraChem: modified input parser to generate xyz files in Angstrom
+45d639c59f26e25ad8d7ace6c7e2faca2a8909ac|2019-03-26|Daniel Smith|Merge pull request #58 from ffangliu/terachem
+0cb161f702bc90e34b38bbcc4223a710c15b835b|2019-03-25|Fang Liu|TeraChem: removed the modification about environment variable in JobConfig class. Now TeraChem can run without that. Added found and get_version function for TeraChemExecutor. Used the same technique for other programs to check whether terachem executable is available and whether the test case should be run
+0e905df9ef2ab49c7ab8a73b24a973f49f3cdc5d|2019-03-21|Fang Liu|TeraChem: Added environment variables. Fixed terachem executor bug. Added TeraChem executor test case. Now terachem can successfully run with qcengine
+ffdab9765f62bacb60ec612d622131112e14f78b|2019-03-21|Levi Naden|Merge pull request #57 from Lnaden/064
+886064166ebc7778951e5f5f523b9ddf085a4ebf|2019-03-21|Levi Naden|Update changelog for an 0.6.4 bugfix
+5ded5960dc1985e53d9327984962779593761b33|2019-03-18|Daniel Smith|Merge pull request #56 from loriab/hangfix
+6e640adf2b55f2f1d50de7afc2ae0aed41dcd685|2019-03-18|Lori A. Burns|fix psi4 hanging on complex inputs, remove old fn and unneeded xfail
+f341af0da17abc1ec9879c7a7f0f05b375aee23b|2019-03-17|Daniel Smith|Merge pull request #55 from MolSSI/loriab-patch-1
+201dcf66c219de63c3de94d5a6e5fe70976b4ebf|2019-03-17|Lori A. Burns|Update .travis.yml
+bf3bd050e9378348748a73b1e8e4f275028b9a66|2019-03-17|Lori A. Burns|Update psi4.py
+ee6994383815f35306288ee77d19df06a0b60602|2019-03-16|Daniel Smith|Merge pull request #54 from MolSSI/loriab-patch-1
+85d9c02d8893255dfa83c9ee0911ece901e44c9c|2019-03-16|Lori A. Burns|Update psi4.py
+d3af5dc201462f2ffa7c53e6765aed36bf87dfcb|2019-03-15|Lori A. Burns|Update psi4.py
+b062a72906486983d7c58272fb31350665a25e96|2019-03-15|Levi Naden|Merge pull request #53 from Lnaden/docs063
+97149d90ab65cfe2f39cf59921faf79442ae4875|2019-03-15|Levi Naden|Update from comments
+e215edc0f388bec71b49a3d5b1804dc940d3d721|2019-03-15|Levi Naden|Update change log for 0.6.3
+519e646e1124ae8973081a5b44d1ba37c8247b77|2019-03-15|Daniel Smith|Merge pull request #52 from dgasmith/proc
+b54bffd66fbaebac2bcc4a3ea89e0af62ae89f0e|2019-03-15|Daniel Smith|Psi4: Caches version to reduce total execution time for small jobs
+11fe7befbd93080998f187fcda5b52824cb868e7|2019-03-15|Daniel Smith|Psi4: Run from CLI rather than API
+d837fe8d108c12f754d7574c961fad799916bd35|2019-03-15|Daniel Smith|Utils: Moves package utils to local lazy import
+4084b77af8cf850ca5c7955f2790d09e681905cd|2019-03-15|Daniel Smith|Merge pull request #46 from loriab/dftd3class
+ca93ae1e8f60d2159638bc06fed28c1df19ac86f|2019-03-15|Lori A. Burns|prepare for new dftd3 interface downstream psi4/psi4#1491
+160322f4df60c92d9f1e873ef639619f4f0584f6|2019-03-10|Lori A. Burns|can't fix CI
+4644e92e440cdced4048a283689c4f51d454926c|2019-03-10|Lori A. Burns|dftd3: try fixing CI
+a8f45c78de0c9aa15b9619dfbb725ad0acc212da|2019-03-10|Lori A. Burns|more dftd3/mp2d cleanup
+518ea17046c4a6e02891b415c55b494afa53bc84|2019-03-10|Lori A. Burns|add which_import fn and unify import error messages in Executor.found() fns
+1c0d58ae59fa47f981b144c6d64acd9f2db815bd|2019-03-10|Lori A. Burns|disp: add mp2d interface and tests
+262c8e77b4d7a952c1367721ec62b89538704033|2019-03-10|Lori A. Burns|dftd3: more cleanup and generalization
+45f2b2640edf47dff747374a2475b7c2b7300151|2019-03-10|Lori A. Burns|touch up version handling
+8e06c0870f27b4959cc2627a4a9e6ad14c0d5d40|2019-03-10|Lori A. Burns|dftd3: move everything over to one entry point
+8457cc4554063718fed44415ea3dc5f2e8eb73ec|2019-03-08|Lori A. Burns|dftd3: cleanup
+2d27413597a81ccb659eaa600af5d204c6a09f66|2019-03-14|Daniel Smith|Merge pull request #51 from loriab/scrdirdocs
+fa1b18748b634e706dfc93d96f68cba0ac782222|2019-03-14|Lori A. Burns|one of these days I'll get typing syntax right
+ccb84c68b84dd0c3fca8aad633cf983b3d24e252|2019-03-14|Lori A. Burns|change default of `util.scratch_directory(child=` from True to None
+0d78dca91e2970fd34f55e24c9910013b25778c7|2019-03-14|Lori A. Burns|add examples to `util.scratch_directory` docstring
+24d5770a3ebfebe1d33e9bab38139ecab360aa65|2019-03-14|Daniel Smith|Merge pull request #50 from dgasmith/psiscratch
+b6813fc873f493cf874c454a42d07766f5e2c2ac|2019-03-14|Daniel Smith|Psi4: Safer multiprocessing by move psi temps to scratch
+0c479858974ef6b44778e90e20105ba32f352ae9|2019-03-14|Daniel Smith|Merge pull request #28 from ffangliu/terachem
+ec159fabcb867691e47cade994cae20acc8c77ee|2019-03-14|Fang Liu|TeraChem: Fixed LGTM warnings again
+250c3016d207195f2ceda37e84f2d701db33b57f|2019-03-14|Fang Liu|TeraChem: fixed bug for TeraChemExecutor.compute()
+7aac84eda835d6801800775f486fec90528bc100|2019-03-13|Fang Liu|TeraChem: Corrected LGTM warnings. Fixed a bug in TeraChemExecutor.execute function when calling util
+dbc00246ea8089cfa896cfa76ceba95c3f9cb7d6|2019-03-13|Fang Liu|TeraChem: Added test cases for input builder. Now all tests pass with the updated QCEngineRecords
+c077af4a2ac233a1d5c4f080672544682e3da962|2019-03-13|Fang Liu|TeraChem: Rewrote the TeraChemExecutor.execute function as a wrapper for the execute function in util.
+07d2fb46dedcbd76cb4b020d7a6347f538a23273|2019-03-12|Fang Liu|TeraChem: Added execute and compute funcitons TeraChemExecutor. Will test out on GPU cluster
+1abb5f7eb196a10b04a26cdbc7b092662341f01f|2019-02-26|Fang Liu|TeraChem: fixed indentation for function parse_output in terachem.py
+e3cc52396868ac5047459d9708a8698f18646a7f|2019-02-26|Fang Liu|TeraChem: fixed output_data format to match QCSchema supported properties. Temporarily commented out the parsing of properties not supported by QCSchema. Fixed error in LGTM.com
+2df647f0800e6ea0c713dbc7295cb3bfc6a74f6e|2019-02-26|Fang Liu|TeraChem: Replace with executor class and integrated with the testing from QCEngineRecords
+2789e5c2849537ad94a0fb943b150e67e9722019|2019-02-25|Fang Liu|TeraChem: Added output parser and a parse for scratch folder (currently only parsing the charge.xls file in scratch folder)
+7005fb8787e7d8f260b8e2f8c7ef1e0e852ed54e|2019-02-25|Fang Liu|TeraChem: removed lines in qcengine/programs/__init__.py about importing terachem stuff.
+4033f5a9558ba7d7f3dcaaecab3066d7bb9861ab|2019-02-14|Fang Liu|TeraChem: Added terachem input generator
+45e5a2e6a10f1ae618016a517284a1faefec3c9e|2019-02-14|Fang Liu|TeraChem: Added terachem input generator
+c4d4c9bb924d5887ca379a81b0ffa38897e49a0e|2019-03-14|Lori A. Burns|Cache2 (#49)
+ee74cdc0e0548df72feb6f335963e4a5a234e0a5|2019-03-13|Daniel Smith|Merge pull request #47 from dgasmith/license
+88a6b24eec7a49de60734ef23f310d009e25065c|2019-03-13|Daniel Smith|Docs: Automatic copyright year increment
+b413674d28b814b76403e02e661e220c2ad15c96|2019-03-13|Daniel Smith|Docs: Updates install instructions
+dd1859aefeac057c15f3413e601daf11c39f678e|2019-03-12|Daniel Smith|License update
+dcd468b0eda1c4de4906460f08aa33f45618723d|2019-03-07|Levi Naden|Merge pull request #44 from Lnaden/doc_update
+42239abe5ad274a8ab4e5f80e4f40a1631605469|2019-03-07|Levi Naden|Update change log for 0.6.2
+864db94ed955608a8a8b7402cadc32666bf74979|2019-03-07|Daniel Smith|Merge pull request #43 from dgasmith/procedures
+e7202d5b855714c2ef2b45c74b7258e7c7ac233e|2019-03-07|Daniel Smith|Procedures: Testing cleanup and normalization after tweaks
+77caef44be2a5ca8708e548982f1a980f3cc2716|2019-03-07|Daniel Smith|Procedure: Integrates compute and new class syntax
+c1b89a39bb95e4f2216e1cba5f50ef93f2e9f788|2019-03-07|Daniel Smith|Procedure: Adds geometric to the procedures singletons
+23f29a8da140d0780d16ac1bb9b57f43ce2322d6|2019-03-07|Daniel Smith|Procedures: Adds a base class simlar to single compute
+1ca0acbda5109ed074b5936cc858a9978150822f|2019-03-05|Daniel Smith|Merge pull request #41 from dgasmith/psi4_failures
+d05e0f0066d3c3188435d1b3b75d6a3f48099f7a|2019-03-05|Daniel Smith|Psi4: Sets default reference to uhf, *not* uks
+33434731be9fe844691f5a5bb900e1bba8161ec7|2019-03-05|Daniel Smith|Psi4: Gracefully handle internal failures
+80ce91e802e6ced59f14661cce0dff3af723e292|2019-03-05|Daniel Smith|Update README.md
+0525b968754ef6e0b20b9c2d89d1044f57b8c3b8|2019-03-05|Daniel Smith|Merge pull request #40 from loriab/setuppytest
+f7cc62c7a4e0bc18e1c728cd66eba40783794aef|2019-03-04|Lori A. Burns|one more for the cache time
+4ca868ac46f353aaf9f52adf3e88480280881b63|2019-03-04|Lori A. Burns|renegotiate codecov and caching
+23732b8c29cf8f5e590e8bcaf977b3debf8ef9aa|2019-03-04|Lori A. Burns|no more allowed fail
+2b976edb3270cf7fd51f3dcff1273dce6613b4d8|2019-03-04|Lori A. Burns|take 5
+80ae11413ccf45e265c04fccc01a7d1b59bf175c|2019-03-04|Lori A. Burns|take 4
+caa9694921bf51639a9c11bffe2f89c9b8bc7fe9|2019-03-04|Lori A. Burns|take 3
+2db12984d46db8b760a9d6bf854aed09f2b53ab2|2019-03-04|Lori A. Burns|handle caching in miniconda installer
+10f8fda968431a06f9a70cbabcd80b7efff414e0|2019-03-04|Lori A. Burns|take 2
+97c746f020ae5e5a09fa28d08a495716f001995c|2019-03-04|Lori A. Burns|travis caching, setup.py test, updates psi4 travis
+96b5bdc1ddee3068554927b0285a2b0b52f0dcbd|2019-03-03|Daniel Smith|Merge pull request #39 from dgasmith/docs2
+c3ae1c511d5a99df1fd5bcea9b6faeded4500589|2019-03-03|Daniel Smith|Docs: Pulls QCArchive sphinx theme
+d92b9525969fe2ab95c04367d98e582d2446f89f|2019-03-03|Daniel Smith|Merge pull request #38 from dgasmith/docs2
+f0c24284374a54c86858e62026559db1b79aa15f|2019-03-03|Daniel Smith|Docs: Upgrades to QCA theme
+0eb5ac75939f13f304c493cd657ae94171f9b016|2019-03-01|Daniel Smith|Merge pull request #37 from dgasmith/rdkit
+84e9d36d9d6e2ea8068f7af8c54224edbae9b726|2019-03-01|Daniel Smith|CI: Temporarily updates psi deps
+b8e7a399f848ed639ac24762059831197f2ccf85|2019-02-28|Daniel Smith|RDKit: Fixes issue where methods should be case agnostic
+f1587c58e5b0f2601c6273028e5b496d8b015677|2019-02-28|Daniel Smith|CI: Bumps requirements
+658d28b87aa66f57d352a1bf4c4e51bcef326f75|2019-02-28|Daniel Smith|Merge pull request #36 from dgasmith/docs
+29e6973e7686c7f9b984903894e585d2cdb6a0d8|2019-02-28|Daniel Smith|Tests: Standard suite of tests and moves around to distinguish between standard set and program specific
+16f6f91ae3909946374379883cb6bc764e896e53|2019-02-28|Daniel Smith|Util: Moves DFTD3 util functions to extra, may be moved later- but centralized
+382385d940c4f760940f5c178f6a55b624bb2928|2019-02-28|Daniel Smith|Lint: YAPF and isort patches
+8301540b19b5ded5cfb0580ebac9bf6c29b5db5f|2019-02-28|Lori A. Burns|Update community.rst
+aa4b0ab3ee3511250336b38c65a2b5ff7bdaef33|2019-02-28|Daniel Smith|Docs: Adds v0.6 changelog
+49b2990841df662fefbe447903b2f9bec4625ee1|2019-02-28|Daniel Smith|Programs: Test for checking available/listed
+80017a02faf25ee08ec8b39e0bf3a775ff52ab33|2019-02-28|Daniel Smith|Programs: Lists all available programs, closes #15
+f55a2f1f60155fde72319cccb7a7049818390aec|2019-02-28|Daniel Smith|Objects: Always returns objects over dictionaries, fixes #20
+5473be73422414e759c73b5da83a7aa489d5f9db|2019-02-28|Daniel Smith|Docs: Adds some docs on single compute
+966238f43996dc2a64515d9131065b012fac7c21|2019-02-28|Daniel Smith|Compute: Returns objects by default, warning breaking change
+9d5d7464c0979ccbe3f7fa8e73da79cacdfd6189|2019-02-28|Daniel Smith|Docs: Updates the README to be slightly more verbose for GitHub + PyPI quick reference
+6279155ce17329c80cd834cbc4ca0bf8d89f4929|2019-02-28|Daniel Smith|Docs: Starts environment stubs
+8df6aea8117ac1f7d5ddc9e8b2cde13ff8a71f63|2019-02-28|Daniel Smith|Docs: Adds API docs
+b2a49f2febaf805bb970cd354709aafbb9b42e08|2019-02-28|Daniel Smith|Merge pull request #33 from loriab/dftd3class
+6397b74a22f9ca101ffbfe64856e1474ec50ba5d|2019-02-28|Lori A. Burns|dftd3: fix thread safe
+2418b6442c8634905f45c0f8ee0fef11553704f0|2019-02-23|Lori A. Burns|dftd3: smoke test as DFTD3Executor
+de30a86c819af4d288789f3868f15893444380f2|2019-02-27|Daniel Smith|Merge pull request #35 from dgasmith/torch
+fac06fd6aabff448c0b1fd036a8c9b061d6d4618|2019-02-27|Daniel Smith|Merge pull request #34 from dgasmith/models
+1badee4f5ec4a82840b89f9ce78792a686edcf52|2019-02-27|Daniel Smith|CI: Pull pytorch-cpu to avoid pulling CUDA in CI
+35ff1ab164ad93dc1f840eb71d3f25207d94080f|2019-02-27|Daniel Smith|Merge branch 'master' into models
+aaa3f07365b0541d957615688904d3c7404a7d6a|2019-02-27|Daniel Smith|Merge pull request #29 from sjrl/molpro
+a5f3f04acbe6740e734b1568c99e0b593c8b8e4d|2019-02-27|Daniel Smith|Compat: Tweaks to allow QCEl v0.2.6 compat.
+53faa124fe34d7abf0c782410c1a328cd4215bf2|2019-02-26|Daniel Smith|Psi4: Moves extras to psi4_qcvars and checks output status
+1e18775f5aeea5d0b1f5d576072291781328d9a8|2019-02-26|Sebastian Lee|programs: Properly renamed the get_programs() to list_programs() as seen in the __init__.py
+17d430ed1037838fda3ac1e4d1911467189ada72|2019-02-26|Sebastian Lee|Molpro: Dealt with some of the LGTM issues
+6b90986c8ccff61b84cc6ec6aea959e4c020f0fb|2019-02-26|Sebastian Lee|Molpro: Added TODO for better way of detecting correct energy
+edc0b40b0001bb755650d42747d87c50fe4ead7c|2019-02-26|Sebastian Lee|Molpro: Small cleanup
+7b8feb5a1c7cbd5240a237b5aabc30c85c654e64|2019-02-26|Daniel Smith|CI: Fixes script error
+65c7594a0b04629910be1819c740c721b789c510|2019-02-26|Daniel Smith|Models: Better assertion raising when input failes
+dc8e7be317c72866c265565de064e53983fa895e|2019-02-26|Daniel Smith|Models: Updates to a restrictive model
+2ab0c770019ac9cbe7bef0c68bf2b7d6791a3807|2019-02-25|Daniel Smith|CI: Pull QCER
+e8e0d456c6337a94cc3a397b52b205841b607c5b|2019-02-25|Daniel Smith|Molpro: Adds test from qcer
+a956107c5867e21012d41155c347fe4de7d58716|2019-02-25|Daniel Smith|Molpro: Converts to test executor object
+43059c7f95797880fc84f1d064787659f29b10ef|2019-02-22|Sebastian Lee|Molpro: Minor code cleanup of _format_input()
+f55a3a0daac95a6339c7eda299536481e6b58d5c|2019-02-22|Sebastian Lee|Molpro: Added some TODOs in the molpro engine
+7b9372672da7cd699a9ebfa64b94cb3495cdb9f1|2019-02-22|Sebastian Lee|Molpro: Properly parsed gradient from XML output.
+b7419e204b2208e621df5e5d50590875d940bb6e|2019-02-15|Sebastian Lee|Molpro: yapf style update for programs/molpro.py
+e2c4f69a10f997adfe814f8d8dce789dcb0163cc|2019-02-15|Sebastian Lee|Molpro: Energy and Dipole Moment probably parsed from xml output for HF and MP2
+3f8e3c7906d7368bf0cf4459fc826aef2fb29842|2019-02-14|Sebastian Lee|Molpro: Added gradient write and fixed memory write to Molpro input generator.
+1ceab806ae605948648f724cd54d2f8f402a691b|2019-02-14|Sebastian Lee|Molpro: Started adding Molpro input generator
+d13a64407520ac90ea25597abead10f5d7e2c7f5|2019-02-22|Lori A. Burns|Merge pull request #32 from dgasmith/process
+0ace0fa2d60ec7fc7b597a4f1085a168b573af13|2019-02-22|Daniel Smith|Testing: Runs all tests in a single go
+77a0f61c580c4cac155378281d8291c9ac2f7aa9|2019-02-22|Daniel Smith|Merge pull request #31 from dgasmith/example
+fe9a8360d704e2a255b2832caed143ad76f85d1b|2019-02-22|Daniel Smith|Testing: Refactors test helpers
+f49c688b7cbd5cdc9875c61c285a7276823ea9a1|2019-02-22|Daniel Smith|Typing: utils and config typing
+2f21218ce795bbf62ec01f9f719f7141423549af|2019-02-22|Daniel Smith|Dftd3: Moves deep tests to its own folder
+9ed5e62d28441bf64b785caf97ce0b376c868c6d|2019-02-22|Daniel Smith|Dftd3: Hooks into new executor command
+2864888e42a4023b0d710b1053f766bf53e8346f|2019-02-22|Daniel Smith|Executor: Moes TorchANI to new scheme
+2a5e2fad8911a40c838633887402d2f8c69cc5c9|2019-02-22|Daniel Smith|Executor: Moves RDKit to new scheme
+562f5ad4fee58db324b96947591ceaa769f3d6be|2019-02-22|Daniel Smith|Execute: Base class template
+8d67a768aa7a57a0bb1b629568afe2260d6a1796|2019-02-22|Lori A. Burns|move intf_dftd3 --> dftd3. fix tests. will probably backtrack partially on Datum --> float
+7937b1bb7d169a343ee4e1b5d4111c29f9916358|2019-02-21|Lori A. Burns|some docstrings for execute
+9b84da2441e08318c8f642f7a5d02914f022cf38|2019-02-21|Daniel Smith|Util: Converts print to logging module
+a12f974de9d910fa7f1fe84cfc15e8d114a38c23|2019-02-21|Daniel Smith|dftd3: JSON output formatting
+4afab8f3ea478da6d684e86140673f74add735e9|2019-02-21|Lori A. Burns|intf_dftd3/worker.py is gone
+cc7d4df118122d7c16364cd3579e85fc0f72cc7e|2019-02-21|Daniel Smith|Example: Updates the example script
+6c4691191587bef3cea978d8ee54f7142189dc19|2019-02-20|Lori A. Burns|running dftd3 through execute/popen
+9f12441ff101c51e42bb0b1dff07b654f089147c|2019-02-18|Daniel Smith|Executor: Begics first executor
+3a156358a42f0b945b5fc3fe7ee9023a4a46591d|2019-02-18|Daniel Smith|Begins executor util
+c23d9d47c03d38258ab5d7065e08201d985a5dec|2019-02-18|Daniel Smith|Pyd: Excludes must be set
+335337040ef0c0c4cb01b201728213f9f831237c|2019-02-19|Daniel Smith|Merge pull request #18 from loriab/intf_dftd3
+98cce8b25af9f5428e7ffc4156274cc38ce793e5|2019-02-19|Lori A. Burns|fix version handling. thanks, lgtm!
+9e74324e8f29d3fe9924a82f87ad2473c38911df|2019-02-19|Lori A. Burns|begone, deepdiff
+127aa099d8a34e5241b8cd3355e6e6fe557f9147|2019-02-19|Lori A. Burns|testing: use new qcel testing scheme and version handling
+437f3ca22c9e0506bf4ea02db23c02af4aba1df3|2019-02-18|Daniel Smith|Merge pull request #30 from dgasmith/stdout
+fb023864c7593570ef94108c240df7e675bc9caf|2019-02-18|Daniel Smith|Changelog v0.5.2
+dd7108b4879c48cd660c5135cffcdda59ff3b2eb|2019-02-04|Lori A. Burns|ci: restrain psi4-nightly to dftd3 3.2.1 b/c tests "__23body[inp6/7" are running psi4 internal intf_dftd3, not qce
+ad0e850269418535165d04eca1520973c1edc86d|2019-02-04|Lori A. Burns|ci: Molecule.t/f_schema in psi4 v1.2 not in full agreement with current qcel.molparse
+08f4a43bd8374bcd37502022f8d9e136b9cb1c51|2019-01-28|Lori A. Burns|ci: give psi4+py37 a chance
+2308e22609637adf28b6e33f155f4d9e63f5c2b9|2019-01-28|Lori A. Burns|avoid importing module from w/i module for version
+abb3d8be44bfcb211586927a2fb50d8691c61e69|2019-01-28|Lori A. Burns|dftd3: runs qcschema now
+b325933df021293769aef6a650a3edeaab23ab55|2019-01-27|Lori A. Burns|dftd3: remove psi4 licences
+5928cb36cc84496ff3521e41b24dd2e15c7f13ba|2019-01-27|Lori A. Burns|dftd3: fix schema from psi v1.1 to qcschema 1+ from pydantic
+a0456741626b5ad3b62d3a0849b45ea60c60bde8|2019-01-27|Lori A. Burns|ci: cleanup and except a test
+7c50f5c5bc0ea34c9b7a2c63e59010322224ffc4|2019-01-27|Lori A. Burns|ci: forgot this part of the fix. PYTHON_VER getting unset
+f1e07f218998dc39c20745d1c19c48bd68281e86|2019-01-26|Lori A. Burns|ci: try to diagnose pyver on travis. fix some lgtm alerts
+79d452041475dbe1b433217634e0b027f8ca2a00|2019-01-26|Lori A. Burns|ci: enable sensitivity to python versions
+c445cbb5d76f160165d831fdc1178792b3d85db6|2019-01-26|Lori A. Burns|ci: fix py ver for testing. trade out py37-only syntax
+eaa3248f8f1dd994517b613b433c1670b2a6d95e|2019-01-26|Lori A. Burns|dftd3: runs & tests w/i dftd3, though not hooked up to qcengine
+2559c8579d6282d17be18d9bac8c1e53ed25d5ec|2019-01-25|Lori A. Burns|dftd3: initial copy-over from psi4/psi4#1491 of intf_dftd3
+c90ccc62e9dc00bd0b95d53ed1de5233c54b443a|2019-01-25|Lori A. Burns|refine package detection for testing
+866e67d3fa6f714d25ea2ad29c0337602722a22b|2019-02-18|Daniel Smith|CI: Bumps QCElemental version
+0e455a3254849000a298b95caf2244cd2a1e5957|2019-02-18|Daniel Smith|Psi4: Ensures output always goes to stdout field
+835b291986069669e4be0e708ec4846ebfd858d6|2019-02-14|Levi Naden|Merge pull request #25 from dgasmith/lint
+fa3bfd892b95eb1b81e26143d8d0600cee04532e|2019-02-13|Daniel Smith|Changelog: v0.5.2
+f56bfc33fda2c0ff5c9c3b3232cfa15e0f9e959d|2019-02-13|Daniel Smith|Lint: iSorts the codebase
+4e9370666a808e8c602004ef48c553cdbc35e351|2019-02-13|Daniel Smith|Lint: YAPFs the codebase
+b2900a2ef7d0e7ba6b34f8aa55dc5b72f0e44c60|2019-02-07|Daniel Smith|Merge pull request #24 from dgasmith/lazy
+0e304c8ceaed949133fb68933ab9313e48645ded|2019-02-07|Daniel Smith|Lazy: Lazy load a few more modules that take awhile and or only needed in very small spaces
+5604f44ca8f97c928b99f112ef9120cc785c744c|2019-02-07|Daniel Smith|Lazy: pkg_resources take 0.3 seconds, thats odd
+8731bf7a36e98fa4495ccd222e167278828fafc6|2019-02-07|Daniel Smith|Lazy: Lazy evaluate the cpu and host info
+807f7eb278a1dfa7b4f530c178da97d0245cb92c|2019-01-29|Daniel Smith|Setup: Quick update to descriptions
+af317861f133af1239408cc219619dad9aff918e|2019-01-29|Daniel Smith|Merge pull request #23 from Lnaden/master
+777106dbe705f5252b73170a93c61d587c7fefb0|2019-01-29|Levi Naden|Update to 0.5.1
+084be0b44af54e6acf0738af1aa48d6f795c0c3f|2019-01-29|Levi Naden|Merge pull request #22 from dgasmith/quickfix
+01c72131d7fa9ea306fc8bb3c1064007380cd2fa|2019-01-28|Levi Naden|Maybe this will silence LGTM
+72c545b7665d007bdbee3115e4c8af401fa5d88b|2019-01-28|Levi Naden|Cleanup to emulate old style returns
+78cf86199dea6b2a201bec193bda9e0f1f3e943e|2019-01-28|Daniel Smith|Docs: Updates config
+259878d30c4d9d3ddefac429448ee94b741cf905|2019-01-28|Daniel Smith|Docs: Adds a v0.5.0 changelog
+46258d186ab645e85d9356ce319abad5a2fe3091|2019-01-27|Levi Naden|Merge pull request #16 from Lnaden/elemental_models
+99ec51ef2f87db000ce3d4755a733fc384c15974|2019-01-27|Daniel Smith|Update requirements.yml
+f3d24e7809ad1b9b7fe87f928fe9873f7167840d|2019-01-27|Daniel Smith|Static: Import cleanup and YAPF
+8346a1c2dcb34969eda1209e4010b4a71c2bcd73|2019-01-27|Daniel Smith|Compute: Runs an object based test
+8ce5077aefa5c7436fce7af87fcce2825011dd33|2019-01-27|Daniel Smith|CI: Minor tweaks to development environment
+169b911510d1872c2f356926100902d7c949083f|2019-01-25|Levi Naden|Simply error handling Fix Provenance augmentation
+b578679cb85a26b172227a9e3ecfc29432604842|2019-01-24|Levi Naden|Make changes from comments
+f1861b44c54e18ab38bf644e4dbac8afdb4e7399|2019-01-24|Levi Naden|Implement the QCElemental Models into QCEngine
+ab2d2764b189cf71a61a92fbb57091de13d228fc|2019-01-25|Daniel Smith|Merge pull request #17 from dgasmith/list
+2cd62d77442f6fef33f7b5ed253415ffde706a86|2019-01-25|Daniel Smith|Config: More testing and more rigorous kwarg blocks
+0b46133acd68199f02785c43a1046e07699e96ed|2019-01-25|Daniel Smith|Config: Patches up test
+0b8aaed17e015c9813a09a4055875dc0e7d6239f|2019-01-25|Daniel Smith|Config: One more overhaul giving minimal info per node where we can have greater control to override
+83fadf4e627d47ab84a428de4dbe66ab968d2e3b|2019-01-17|Daniel Smith|Merge pull request #14 from dgasmith/qcel
+abfea9c19544ab94af6afc05d1e0a923373b7d1a|2019-01-17|Daniel Smith|Repr: Minor printing cleanups and adds node info
+b6f39049e50fa025ee3189937c75e9011c8f14e9|2019-01-17|Daniel Smith|Imports: Minor cleanup
+e6881462b029309e7875a0ea4e8fbc32220774bd|2019-01-17|Daniel Smith|Options: Make sure we recursively pass and cleanup local options from procedures
+ac8735963fa5b7ed5b417fa4fdaea38e53558a13|2019-01-17|Daniel Smith|Compute: Refactor to allow for config
+5a3786e8cff936ddd427b2b8a1ceb0913cbf5587|2019-01-16|Daniel Smith|Options: Shores up config
+802b0327f19f82232350b9a936eb1f6e4e4e6350|2019-01-16|Daniel Smith|Options: Additional testing
+b859b2272c4ae343c236dfa469ac322d2f558b13|2019-01-16|Daniel Smith|Overhauls Options testing
+4378dca8de78b1de04773a96995fc033f0234118|2019-01-16|Daniel Smith|Options: Contains overhaul into pydantic options
+31cda010ef113a2793e463d5c5645713c557a0f1|2019-01-16|Daniel Smith|Options: Overhaul into small objects
+dbd662927aebdee49b160605af9cf9694b34b6ff|2019-01-16|Daniel Smith|CI: Moves to Py36/37 testing
+0a7d313bc65d4198590f769f25d236369527d324|2019-01-16|Daniel Smith|Psi4: Removes Psi12rc2 tweaks
+f57eb60afcd3b183e284116641e1d92660bfb971|2019-01-16|Daniel Smith|QCel: Adds qcelemental units support
+542d4b9da403f5be7d322ebc169b853daf7cfec8|2019-01-16|Daniel Smith|Merge pull request #9 from jturney/programs
+48e53646ed775075e0f31af1667fd3a22b1e9ed7|2019-01-16|Justin Turney|Change the program exception to a KeyError
+39c0024d0660ebc92e591e0c604fce57b047f071|2019-01-16|Justin Turney|reworked to use register_program
+ee9a99b4114cdcc84987471cb6f9a5289cab350f|2018-11-16|Justin Turney|Removes commented out imports
+1213c0200082d4dc27d116ce3c69fd4c2e116d6d|2018-11-15|Justin Turney|Adds program error message to JSON return in compute
+6fade59736e68cdb88cf4118c70e6109ba18f3cb|2018-11-15|Justin Turney|Available programs are auto-populated
+31871c54a784017d75c190330ac2aa0dbbda327d|2018-12-14|Daniel Smith|Merge pull request #10 from dgasmith/updates
+b27c9658be203d2362599f2eb9d23da1bd2b1d5e|2018-12-13|Daniel Smith|TorchANI: Caches model
+67e058ae2fc37d61cbac7580d648ed75f474c1dd|2018-12-13|Daniel Smith|Psi4: Removes Psi v1.1 functionality
+d4876f519a1533c921627b220ae6e8463724f6c9|2018-12-13|Daniel Smith|Examples: Adds a few examples and small README update
+e1c9fa68897505cd8086b708e65d37f1c8f833fc|2018-11-16|Daniel Smith|CLI: Adds a very quick CLI
+4366185ba8e141797d81a26debf4da5df1490e81|2018-11-13|Daniel Smith|Merge pull request #8 from dgasmith/torch
+aea2efdf65192c47600d8f83389c7dc3d118da46|2018-11-13|Daniel Smith|CI: Adds TorchANI
+ef91f7c108ca73759d6da6ffa7566ca5deabd00b|2018-11-13|Daniel Smith|Log: No longer depends on original insert to be overridden
+a5ee2e0ea284a9b024721536abb94b7998a9e8ee|2018-11-13|Daniel Smith|ANI: Geometric integration and test
+02820f7d447341dd3f7fda2b366ed943b61e0ab7|2018-11-05|Daniel Smith|ANI: Additional integration of TorchANI
+0504b989f6234c56db20b4ffedc716b47b87af6c|2018-11-05|Daniel Smith|ANI: Adds a devtools build
+c23b4e049ee0fc0fe57a38d83e87bd898fbe9147|2018-11-05|Daniel Smith|ANI: Adds initial TorchANI impl
+84bd1e6b87c4130350e88cb9b0e82662bde19153|2018-11-05|Daniel Smith|Static: general import cleanup
+7d4de8aefa478c1ecb67323b600805b58061c9c8|2018-11-05|Daniel Smith|Compute: Refactors programs to a single folder
+b6e5508cea9619b474662036eadd6db112047376|2018-10-30|Daniel Smith|Merge pull request #6 from dgasmith/cleanups
+5081fb88dc00c7e5a1eed702091488db55d25fd3|2018-10-30|Daniel Smith|Compute: Catches error where program key is not found
+4aeb6bb9e12d1651099f74d7ee1d9b948cb8e0b9|2018-10-30|Daniel Smith|Test: Checks stdout
+b93034caf14dec084803317ded2703d4aeaa7c25|2018-10-30|Daniel Smith|Compute: Refactors output handling
+2f8c29d843ba25daec59acfc01ff89f63e2c068d|2018-10-30|Daniel Smith|Compute: Moves compute to new wrapper
+d2ca9d927d7167fb145005033cded9cd99cb92e7|2018-10-30|Daniel Smith|Compute: Starts wrapper
+8067666075e141afc07b49e760479a75b4d9f053|2018-10-26|Daniel Smith|Moves return field from 'error' to 'error_message'
+6c07f85003ff9101048679596f78f1b3d49534b2|2018-10-09|Daniel Smith|Adds Slack badge to README
+af1805b07b6d8d2af83281f5e784fa6678a22f12|2018-09-21|Daniel Smith|Psi4: Remove v11 travis testing
+4d15b538818c403740941b580b7031e74b43ae8b|2018-09-21|Daniel Smith|RDkit: atom symbols must be in title case
+5e4313317ce74da9d6b7b1d24ec7284a4cacf463|2018-09-13|Daniel Smith|Adds a code of conduct
+c13f9009d4cae676fc97af596bc08fe381ddfdd7|2018-09-13|Daniel Smith|CI: Fixes Psi4v11 testing
+02281de10007ab10c36cea15d66b73cb3dfb79fd|2018-09-11|Daniel Smith|LGTM: Adds a configuration file
+5422a7fa543f492e7bb75ba60ef4d0d032c7764f|2018-09-10|Daniel Smith|Compute: allows an error raise inside qcengine
+e0e6725b27776e8eb98a5a0d2e6b4a93204862ab|2018-09-10|Daniel Smith|Correctly attributes the license to MolSSI.
+a83bcdf7523123cfeee23a8b9f8f696b08a31755|2018-08-29|Daniel Smith|CI: Tries to fix Psi V11
+fabbe5cfc520a6303168463650f814ba6cd6d3ae|2018-08-28|Daniel Smith|Test: Seperates compute and proc tests
+7399cb4527243dfbb887a3e2990ad063cae9fcb6|2018-08-28|Daniel Smith|Mol: Refactors mols and adds hydrogen
+6d96514c967c132272bc0f6bb9a6221357ce7baf|2018-08-28|Daniel Smith|RDKit: Correctly handles units
+beffe936476deb7811b9fb9712bfffe63dc65746|2018-08-23|Daniel Smith|Doc: Fixes typos in index
+4024624e123494854bbf21456a76a79064c7a889|2018-08-23|Daniel Smith|CI: Pulls less data from c-f
+8378a5c46e933beead8951d7f8cae656c1388eeb|2018-08-23|Daniel Smith|Doc: Fix index rendering issue
+e924e1ad8dacf7b0a411c65f0bf0cf3e3bd750a8|2018-08-23|Daniel Smith|Doc: Adds example to landing page
+cd363e0c213e4efcc8ba5ca37a75eef98d86b187|2018-08-23|Daniel Smith|Doc: Adds community rst
+68749e04aa085369dadb9d90559d3b20cb5bac48|2018-08-21|Daniel Smith|CI: Removes conda-forge from Psi4 builds
+77ae2fecdd6544926d86ba9abf10aca5646d53e4|2018-08-20|Daniel Smith|Fixes README docs link
+46299473addf5de7ef80adadf9d7b990be1cb36a|2018-08-17|Daniel Smith|DOCS: Updates QCE docs to correctly point to QCSchema
+03038f3af7fee98a2befb975ce12f46b35fa8426|2018-08-17|Daniel Smith|DOCS: Adds necessary build yamls
+65576d4bd7eb266e1bc18384525fa4f986678c71|2018-08-17|Daniel Smith|DOCS: Adds build README
+5eb37bce28a046de9ac6b0f1fd5096ff95647e5d|2018-08-17|Daniel Smith|DOCS: Updates the README badge
+9a1d9a0ebe05a58c3a009b6a8c2b502727745480|2018-08-17|Daniel Smith|Adds LGTM quality badge
+ca7ea199168014e333bd00d694acf1eca77ca3fc|2018-08-17|Daniel Smith|DOCS: Overhauls docs to new standard
+0a8ce89be3b025e2e4cc6bba8f27c4ecec4fd9cb|2018-08-17|Daniel Smith|CI: Quiets down codecov badges
+41eebf2dafb208b6ae1c76c35f8a7c4f8112cabd|2018-08-15|Daniel Smith|Adds a MANIFEST
+fcb2a9e425f2bc873f3f32072b251de63a6e7edc|2018-08-14|Daniel Smith|Test: Removes all test yaml files
+86657ce824ee70a03b43f218de2220bd36fefc4e|2018-08-14|Daniel Smith|Test: In-memory testing
+5a65a7072961f324755f09a9a99ef42c5e00db4b|2018-08-14|Daniel Smith|Config: Allows options from dictionary
+5ee0460a262820b3c634afb8211d1bf285c2ee23|2018-08-14|Daniel Smith|Geometric: Updates to 0.8.6
+4c4c31c58e8ccca9a80b8d4c68a2dddc7d6ef849|2018-07-17|Daniel Smith|Test: Patches up Psi tests
+31442c964c8ebdf0322cb52aec424f37a5237cd1|2018-07-17|Daniel Smith|Test: Conda tweak to satisfy conda 4.5.8 reqs
+089d861ff0172eeac14bc0ad8080a87e83099e26|2018-07-17|Daniel Smith|Test: Adds geometric to Travis
+3f3f5a8f65067db396a826e1604139c65c507070|2018-07-17|Daniel Smith|Psi: Allows slightly more memory usage
+13e0500a197a29376aabc16251a63b2057cc01ce|2018-07-17|Daniel Smith|Adds geometric as the first compure_procedure
+644c6f406bf48fc54593e710e329885e6b203189|2018-07-17|Daniel Smith|Starts a utility folder
+165eee9bf2390a15de974bae835b3147ac402e34|2018-07-09|Daniel Smith|Compute docs
+5b179dd4680da02618ea12b8615a644e616069a4|2018-06-30|Daniel Smith|Bumps conda
+83d44096d850acd386dd466d377d0b5ee2cc0be5|2018-06-30|Daniel Smith|Config: Handles VM cores better
+f322ab3eea2e716ef64c0ad9dd49df42b4d1b328|2018-06-30|Daniel Smith|Test: Special case to watch VM threading
+a4735890bfde414af445924577ab7d6e24f1412a|2018-06-30|Daniel Smith|Config: Patches globals copying for tests
+fc2938b16445ed413a61abc5415e476e205ce050|2018-06-30|Daniel Smith|Test: fixes option caching
+36fa10e958ef8ce6a7826a6ec57e265358a044ab|2018-06-29|Daniel Smith|Config: Minor loop tweak to not overwrite global var
+e3da5e6dd5ef85030749a9d66076f4d89f2d7e3c|2018-06-29|Daniel Smith|Test: Tests bool via is
+4bbc4f3579ccf1e9f449d2b0d3d2e5f2182c55e3|2018-06-29|Daniel Smith|Config: Migrates to logging
+0e63380c52a6b502899fc52cf3d08f6a6c398981|2018-06-21|Daniel Smith|Dev: Updates PyPi/CB instructions
+0cdad20ca649241e1c33ad22475a4449ceea7788|2018-06-21|Daniel Smith|Config: Always get physical cores
+81d039873f0f06a3582b174493e4d9fc7af74bb6|2018-06-12|Daniel Smith|README: Conda badges
+e04da22ec4d1659dff327ab8d5d5ba0864549260|2018-06-12|Daniel Smith|Psi: Energy return error for Psi4 V11 fix.
+16ecfe5943308f6e02710bfd7fbe4d196fe87a6b|2018-06-12|Daniel Smith|Psi: Fixes small input bug for nthreads
+debbefa86ce753eb821f1c4e812f02fd411207b5|2018-06-12|Daniel Smith|CI: Reworks engine logic
+5cd58de03cb8c5307212ace159d7698eed1c84ff|2018-06-12|Daniel Smith|CI: Adds Psi4 v1.1 testing
+8afbd968f257e84564bec6d2b0c3252d4e74d40e|2018-06-12|Daniel Smith|Psi: Updates Psi4 v1.1 to minimally effective
+b21969c4d559a16ed41cf5d05e50415e4a9e1848|2018-06-12|Daniel Smith|Config: Auto processing in two slots depending on use case
+729ee3ae6b74baa6093947894b1461134f2af571|2018-06-12|Daniel Smith|Static analysis cleanup
+125446c9aeca18b466c8f81e5d272c98d3fefb98|2018-06-12|Daniel Smith|Config: Prevents auto errors when no config file is found
+aa36f61abc2b961bfff97f405f05b9097ff9cbb5|2018-06-12|Daniel Smith|Config: Adds a representation of the globals used
+1f566a8d7fcd617a33b77e46f540f7d21d31dd92|2018-06-12|Daniel Smith|CI: Adds psutil to the dev environment
+810f7a5a58a98b32d46e59c780e77a57d0a4d131|2018-06-12|Daniel Smith|Psi: Better detection of odd 1.2rc2+ UC
+41e7da039102195a5f17e5526a485f5cdefc6bff|2018-06-12|Daniel Smith|Auto detect cores and memory used
+1872952bb39e804a42285c81ab03ae5f0c8ce3c4|2018-06-11|Daniel Smith|Psi: Moves from ncores to nthreads to support canonical keywords
+127f8e07cb1bd42d7df1d2ff4b090f351d984915|2018-06-11|Daniel Smith|CI: Fixes Psi4 import issue for RC2/3
+71956d30f3561120a6012bf37d497ec449cdbe39|2018-06-11|Daniel Smith|Psi: Moves memory/compute information to prov
+b2ba1003c1ea6e423f39f4968ae260bdbfcfc54e|2018-06-11|Daniel Smith|Psi: Provenance data now includes memory/cores
+e8bcad25058af98da0950adffcf91dd36a82e41a|2018-06-11|Daniel Smith|CI: Simplifies conda line
+de2aad1d71042a43e34cf8400a37c000f45fcabc|2018-06-11|Daniel Smith|CI: Moves codecov to conda-forge
+803145fd3ff1f6409ee8e322e01c616092a0804e|2018-06-11|Daniel Smith|CI: Updates original conda build scripts
+2d5e32478e66e776df7564d3dedb7cc39b124887|2018-06-11|Daniel Smith|CI: Travis overhaul to use env yamls
+951dd79e499b1c07e40a2bc6b633ab7553baaf01|2018-06-11|Daniel Smith|Updates to latest Psi4 version
+6637c78191df7fbf020bd4326f5b00dee480ba3c|2018-06-11|Daniel Smith|Updates QCEngine
+29e980b3ceb10da612753796626d949793d32e76|2018-06-08|Daniel Smith|Psi4 returned json is no longer updated inplace
+3d17cfdc216a91fbdf481a8c9d40c70b5bdcd22e|2018-05-18|Daniel Smith|Uses pkg_resources over custom version parser
+b7f4cb5e8d1ab7a895cb747b83ca3eeb535bde1e|2018-05-18|Daniel Smith|qcengine conda yaml -> v0.1.1
+6291217e3907b9f29c228a88d78ac9184e812db0|2018-05-18|Daniel Smith|Psi4 v1.2 update
+5d1df433abba627c4e6f2f6dc1f3c036357508bb|2018-05-15|Daniel Smith|Updates the return energy field
+684d991c968fdbd22e67ee4e21fe73f42cd0c345|2018-05-09|Daniel Smith|Psi: Removes old-style test format
+5f77e4a50627ee8436fabd4c83943935403963ee|2018-05-09|Daniel Smith|Psi: Finishes wrapping the initial v11 driver to QC JSON specifications
+92ed254a82bff056801f8788fa16573bc5aa9305|2018-05-09|Daniel Smith|Psi: Moves v11 to QC JSON parser
+e4bb553d3a263c02d18508a28c2f00a2713e3d4d|2018-05-09|Daniel Smith|Psi4 v1.1 should now work again
+5ad4810a4947b9d31777d71fca40c3ed7131e84a|2018-05-09|Daniel Smith|Moving Psi4 to a versioned interface
+db52c2fec38cddd15d6d3ffc39111315f84904d6|2018-05-08|Daniel Smith|Allow travis psi failures for now
+c417d38398867750282387bd206f5e9d74264692|2018-05-08|Daniel Smith|Splits rdkit and psi4 builds to prevent conflicts
+15efc2ef00c09b059701a054a5a37317d1194018|2018-05-08|Daniel Smith|Refactors config to be loaded dynamically if desired
+e490faae943a45754521023c6855df5df3eb0043|2018-05-08|Daniel Smith|Updates tests with local addons config
+331a540308835d487f82b477ff3dc3b05f450460|2018-05-08|Daniel Smith|CB: Removes extra build variants
+cbd67c1b82db20ba9774c658b97a1b7a418c8ab0|2018-05-08|Daniel Smith|CB to noarch
+f5626bf3e24665e1063a41eea4a0a32e6afb5658|2018-05-08|Daniel Smith|Updates conda-build with variants
+670fd62b6c61664f24332d25e62f9bd08f560562|2018-05-08|Daniel Smith|Do not throw if config not found, use defaults
+9f3ad88205aae3d425de123615ebd2929ce623ea|2018-05-08|Daniel Smith|Accidental upper/lower mix in setup.cfg
+3a8fc4d0f0876914df1de9de69eaed4cdd7154da|2018-05-08|Daniel Smith|Adds Python 2.7 builds
+c743d0cdbf064c62ebf9d813213477177d921ef8|2018-05-08|Daniel Smith|CB3 refinement
+c731f54087b543e7616ceaae8836fd568af184a5|2018-05-08|Daniel Smith|Travis and conda overhaul for QCEngine
+9411a189791a43d6dd594f000853dabe93e046b3|2018-05-08|Daniel Smith|Starts documentation for the engine project
+631cc8ab2900c96011920c4aed46a3c90b357d91|2018-05-08|Daniel Smith|More dqm -> QCEngine translations
+09fde065af50cc0edc6670a01810a4ec9c73c51b|2018-05-08|Daniel Smith|Starts a dev folder
+05c3d8127e934b524f20ac8cbfed2886fb669d28|2018-05-08|Daniel Smith|Only gets username/host/cpu once, takes ~1 second each
+59049256737a8279a1b4039fc1c0366651bfcda7|2018-05-08|Daniel Smith|Refactors from dqm_compute to qcengine
+a4cb3fe765563822e6d62b39b6aacd2b81db24a6|2018-05-04|Daniel Smith|Removes pass computer
+3420309cf4459e3137100c57cf6a278636d09441|2018-05-04|Daniel Smith|Starts a test molecule suite
+542eeb3cf5fe1ce2f801b36db8e0c37efebde214|2018-05-04|Daniel Smith|Moves tests inside the compute folder
+f5378448b1095f4b58b5243d49ab6e0ecab5d3fc|2018-05-04|Daniel Smith|Adds a RDKit compute if a connectivity graph is supplied
+4e0cf33706fcf27456d34a7fc692495dcdd13c4d|2018-05-04|Daniel Smith|Moves functions to be more general
+148e42b0eeee20612325e1aa5be0ffeb899f842f|2018-05-04|Daniel Smith|Prevents duplicate psi_apipath append
+a75129b9ca0971a5a9bc663deecd6b8783007ac8|2018-03-26|Daniel Smith|Fixes versioneer setup conflict
+44def4b66a0d7d29d8a433a62644f6d25a6c1591|2018-03-26|Daniel Smith|Updates README and badges
+1f63e219b65a2d5a28dcc0ddff80d2be2ebe79e9|2018-03-26|Daniel Smith|Alters and cleans up build
+f2ae108b36289598c8a515c83358b77febd6cf95|2018-03-26|Daniel Smith|Adds versioneer
+4aa9c2a94888c8378f0616a5b47d8c4d5ac63bc3|2018-03-26|Daniel Smith|Adds a setup.cg
+066b61dc02d26dc7d683fd7de6b5321b8230249d|2018-03-17|Daniel Smith|Bit more testing
+1ebb4c870f8635bf183f002b03e329ede2789ea2|2018-03-17|Daniel Smith|Error dispatching in Psi4, PSIO Errors shuts down the rocket
+a8ce6f29ec39f904831ff77b7788682396b28498|2018-03-17|Daniel Smith|Psi4: Automatic switching of rhf/uhf
+b6f58c1704b50429faec48c6778910d6f6d2d9a3|2018-03-16|Daniel Smith|Update prov rather than deletes it
+b12f96b685b07b9cdbe3dfff66321d1ffac4ccd3|2018-03-16|Daniel Smith|Expands upon testing tech
+3a7d0cbaeca560ba78e3c9f748774f1485de618f|2018-03-16|Daniel Smith|Extends test addons
+7b45ed3f263cee607d60ac75b51b9f435b5059bb|2018-03-16|Daniel Smith|Adds new test ordering to help out env tests
+dea7d5d5f471aaaeec99a48ce937b7c63fb56d3a|2018-03-16|Daniel Smith|Adds new test ordering to help out env tests
+f1884bc3f20ced6c80c464ba11d1a5cfd3aa44b6|2018-03-16|Daniel Smith|Updates Psi4 compute with prov info
+b347bfcae4639d0992faaf01e992ef5067eb68ef|2018-03-16|Daniel Smith|Adds CPUINFO to the prov flag
+2d414fbc45acf401380751a053aa999edee88438|2018-03-04|Daniel Smith|Renames Yaml pathname
+8882fcbae35b0414b951510c60203837791f414e|2018-03-02|Daniel Smith|Allows environmental variables
+65c7883edf9a3eefbbfa386eba124d34eb6a82a1|2018-03-02|Daniel Smith|Adds pyyaml to requirements
+0d75a4425bae3b1f8b113a0911ec981eee78bee2|2018-03-02|Daniel Smith|Adds a Psi4 compute module
+c807f43560b23c45f022dc827f3df2aab1cd8071|2018-03-02|Daniel Smith|Adds travis
+93c4f05f8f4c2554a5ef7c09ec24438e64fd4406|2018-03-02|Daniel Smith|Adds first round of tests
+efaa69b68ed917ee1a8907724e007fad96127b8a|2018-03-02|Daniel Smith|Adds a quick setup test
+2050b9ec62d2541a3e1724855ea515d440019f92|2018-03-02|Daniel Smith|Starts configuraiton tech
+b2e277b73385edd3f636c0a576eedd9bbff194c8|2018-03-01|Daniel Smith|Initial commit

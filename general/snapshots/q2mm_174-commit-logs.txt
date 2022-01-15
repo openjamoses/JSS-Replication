@@ -1,0 +1,629 @@
+5adc047fba4dac3768847cc13c15ba54d98e1df4|2019-10-09|Eric Hansen|Merge branch 'q2mm/master' into eric/master
+32307ab0a596c1f449cde8d91dd54c5e4e101d08|2019-10-08|John E. Herr|Merge pull request #64 from jesswahlers/master
+71247cd4e7ba644edbe9f55eacd5c88da2e77183|2019-10-08|jesswahlers|small change to fix bug in gradient
+c67b6b1f19178e7adb6dcecbe78c1ef951dd71bc|2019-10-04|John E. Herr|Merge pull request #63 from v3op01/master
+adb40d658c61eadb3ac5b4c02d577a63540d497c|2019-10-04|Kevin Koh|ligands
+fb7f2805fbe98ce15983948d16256a1586796bd7|2019-10-04|Kevin Koh|np.load
+6d007390cf3fb087322e1eb66398e1ef82d10341|2019-10-03|Kevin Koh|Trimming + deleting some files
+a8fdb28977d737bae171e63fb9e8d170f4d2376c|2019-10-03|Kevin Koh|smiles to catvs (automatic script) and its example files
+826ed3cb165ef8aca6d87bd76c4bd9b376b38c3b|2019-10-03|Kevin Koh|deleting swn files
+198d28bd7ffa121ce0cf4a3f0471ef575530e79f|2019-10-03|Kevin Koh|deleting swp+misc files
+4a77532b9e1b811bf00fd82209ab2e3de4b19307|2019-10-03|Kevin Koh|Few updates
+d2a5d41d3c230c1dbe2529e2266b588d3353ba50|2019-08-19|Kevin Koh|fixes
+957432d4fbfe0a5593779fa1f5dfb2b4db08fc56|2019-04-02|Kevin Koh|water dielectric
+fc398e38c08c8288f155eeb02be041a57295ba01|2019-04-01|Kevin Koh|AmberInterface
+d94245d4fa79e8146e92b8214ff64c07e67bcf5a|2019-03-22|Kevin Koh|Some tinker
+e9a20f05ab135ca3ba820305247742c6d3694f6e|2019-03-13|Kevin Koh|small fix
+b02e200cb17c6976acd9ca32746080c2bfaf83d8|2019-10-04|John E. Herr|Merge pull request #58 from jesswahlers/master
+a08861f406be7bcae0e5d881f321e17c01ba819a|2019-10-04|jesswahlers|Update screen/setup_mae_from_com.py
+3c832be733010a9688c5a5accdb9bb00e2716d53|2019-10-04|jesswahlers|Update screen/setup_mae_from_com.py
+fee5abee2aa429d982f7239ff1d6a219a0f28e9e|2019-10-04|jesswahlers|Update screen/setup_mae_from_com.py
+d52fe12e481792c0bfe74ea71a60532a03d532b8|2019-10-04|jesswahlers|Update screen/setup_mae_from_com.py
+28d95451a02ea9563b08896414113febc4828e7a|2019-10-04|jesswahlers|Update screen/setup_mae_from_com.py
+ac37fd36e8bf57b298c5fa0570c25c1e287f3a53|2019-10-04|jesswahlers|Update screen/setup_com_from_mae_many.py
+ed63da7a946cad81810f62ea2f1f6d8bc3664760|2019-09-02|John E. Herr|Merge pull request #59 from jeherr/hotfix
+16035441234747155916d0e2e817b76da17efe76|2019-09-02|jeherr|basestring changed to str for py3 compatibility
+15f2b91372eeb0f906721875dcd00afc5d4784d9|2019-06-12|Jessica L Wahlers|fixes for scrodinger2018/py3
+10796ba7aa5b30a73867769fec3ccb492959b1f7|2019-03-27|John E. Herr|fixes string formatting compatibility (#54)
+b2a6f343d7bfc528869d447a373da0bc4f6cc07c|2019-03-21|arosale4|Merge pull request #53 from jeherr/hotfix
+e4dbda64bbb8aa8fb0df262e0b1d42b53aabc3f0|2019-02-27|jeherr|Fixes three small bugs
+fb7d379565e266b59e25746ff84f53454e15f811|2019-02-19|John E. Herr|Reverting changes to importing styles (#50)
+36c160af3e12084acb6155e2cfc4ca92d4cd3b48|2019-01-14|Eric Hansen|Merge pull request #48 from Q2MM/master
+c65b6da14f26f5a3be176a93ff11178975692b9e|2019-01-14|John E. Herr|Better python2/3 compatabilities, coding styles (#49)
+219a09e9f382b5c1eab7334914dfd086bea033a9|2018-11-30|arosale4|Merge pull request #48 from Q2MM/test-code
+3cf939e8c3a0d517e135f15557d398ac62b9b609|2018-11-30|arosale4|Update gradient.py
+24ce9f22ded2e549c8ab14f2db7df1a2abb146a5|2018-11-30|arosale4|Merge branch 'master' into test-code
+5406570cc8d900b909167bbc744bf69ba597c8ab|2018-11-30|arosale4|Merge pull request #47 from arosale4/master
+5322ca527cf9ec3b14bc5a037b1352fe9271ca69|2018-11-30|arosale4|Esp fit (#26)
+680bfd6523187906162294af7da1584ab4110e07|2018-10-31|Eric Hansen|Merge remote-tracking branch 'remotes/q2mm/master'
+9a3ae76be2ab2809eb700732ec7bf8c5721a482b|2018-10-31|John E. Herr|Compatibility for Python 2 and 3 (#46)
+8921490337c70adbe8a954ddf77299f24aba675a|2018-04-19|arosale4|TSFF for Os dihydroxylation of alkenes
+bb4d69566bb1c108cef127eb7d8a4d4afec4bbdb|2018-04-19|arosale4|Updated Osmium Atom Type parameters
+9a9d8c53bec10404a97534a4580ec42c32621d9c|2018-02-08|Tony Rosales|Update to control weights of eigenvalues This commit seperates the diagonal eigenvalues below 1100. This allows user control to have larger/smaller weights on eigenvalues that are low modes. Lower modes do not change as drastically to the force constants as the higher stretching modes. This hopefully will allow parameterization of angle FC to the vibrations better.
+e0734bc7cd352a7a46746432afb44914f6f42bbf|2018-02-01|Tony Rosales|Mispelled Keyword
+70bfcee92134f81968bf6df2bdb775400c95a040|2018-01-29|arosale4|Merge pull request #45 from arosale4/master
+b0309f57edf1c8c8bda8826450d0e4e8d0fe959b|2018-01-29|Tony Rosales|Merge branch 'master' of github.com:arosale4/q2mm
+c08606b3298e075a8f934202729f2c0765e68f1c|2018-01-29|Tony Rosales|Added nonbonded cutoffs
+b57a8d74ccadb48f374b8cca5f68ad35fd426148|2018-01-29|arosale4|Tinker (#25)
+2b2fd457d57910e2817d4aa36390480183339ff3|2018-01-18|Jessica L Wahlers|Added more substrates
+ffc744a97f490e67475f80113cac53c9f94e5b87|2018-01-16|arosale4|Update filetypes.py
+26b49e1ab094b91f34374dc4c3ac392f78aa29bf|2018-01-12|arosale4|Update README.md
+3f98b3f01ecbe70c67cb7e5a6bb24fec8238a685|2018-01-12|arosale4|Update README.md
+0fa2688ae7a6a6811c48c3da40c99d1e9d660f6b|2018-01-12|Tony Rosales|user can change default settings in loop file
+25cb6e3291e391b97e6e2cfd799fcdc2fe79deeb|2017-12-11|Eric Hansen|Added explanation and another blank torsion to FF
+24cf504c6df9a673e4d7ac41a9f2706f0da3a921|2017-11-22|arosale4|Updates from new_compare branch (#43)
+4f03a36c89adabee1a870effee1879d5200627e4|2017-11-17|Tony Rosales|Changed the link1 setting for FZTS
+76cb61d2c629bb22f7807766b3d6fccea0263065|2017-11-16|arosale4|New compare-Merge (#23)
+2cf52a5f0bc0f498a5b14408ef4f08f04d54689c|2017-09-27|arosale4|Substructure Name Selection (#42)
+5651aed374bb5e7fafbe5e0ae9cac2b8409f4a1f|2017-09-27|Tony Rosales|Substructure Name Selection
+7fba68866eef33430fb3d2017fafc84a5d47ce00|2017-09-27|arosale4|Merge pull request #20 from Q2MM/master
+f96697ca13cf51c99e319d9678a65a10258b5dcb|2017-09-27|arosale4|Merge branch 'master' into master
+ae54becafbc40ad6b70493ad20ad592d2907951d|2017-09-27|Eric Hansen|Fix issue q2mm/q2mm#40 (#41)
+16eb063e9c6e59f270f18d7441f0f53d282f2e72|2017-09-26|Eric Hansen|Merge branch 'master' of https://www.github.com/q2mm/q2mm
+999e2bcdf54209afd02dde0bd80cfee1afa8fa43|2017-09-26|Eric Hansen|Fix issue q2mm/q2mm#40
+d33eeaa6c8211b465aa3f00bfe0714a24af7837d|2017-09-14|Tony Rosales|Provide FF_row for data output
+c7e84704e0cc8f0a3c67ffca12bbb7045beaba4b|2017-09-11|Tony Rosales|Added submit.py; finished setup_qm.py
+b950d86e652f707eb3ad293ac8280b99e5430fe6|2017-09-11|Tony Rosales|Finished setup_qm.py; Added submit.py
+d22f2afafb9a22734e4cf7d720708e94e6b7615e|2017-09-08|Tony Rosales|Added logic for Frozen atoms and the calculation type.
+6e14918e4a5a2c2918ded8a6624084bce8f39278|2017-09-07|Tony Rosales|Remove extra print lines
+8a03c7cfc2d42b77f09c0c9269dbb990626f5968|2017-09-07|Tony Rosales|Bug not a Feature! Bug fix for charges
+d6eb168e19b13e73eff211322382fbe3a17208dc|2017-09-06|Tony Rosales|Added and updated parts for VS.
+d01f683b374f32adf3aceddb49d0ca6af059c800|2017-08-28|Tony Rosales|Moved files to correct location.
+51e4eb05cb5bf7ff6e2df5843220e460fbbdf051|2017-08-28|arosale4|ChemDraw for VS of Heck
+39ce0723747c33ea0ad0f12355910bafd7133fca|2017-08-28|Tony Rosales|Add Ligands, Substrates, Nucleophile, and Template for Heck.
+65e61cdb03ba4036fbe6187a5ad5ee2026da9a07|2017-08-25|Tony Rosales|Added more mini and mcmm after merging
+bbe2f58028e085ae34d1c0f324e6abc059ca622f|2017-08-25|arosale4|Fixed bugs from previous commit (#39)
+08bce1e264e0e467ecf2400154b049c73d29ed29|2017-08-25|Tony Rosales|Fixed bugs from previous commits
+8d1151f9745fdc7821dcd1a902145bdd8ed8ee06|2017-08-25|Eric Hansen|Merge pull request #47 from Q2MM/master
+8de4b39a4a9c314c61435b1f89fdf3510cf1fb17|2017-08-25|Tony Rosales|Removed print lines
+c90d29557d591c86ac0ea5548c223a877bb349aa|2017-08-25|arosale4|Merge pull request #38 from arosale4/master
+73277c5fbe27f158a8f020051d128452e85029d9|2017-08-25|Tony Rosales|Removed extra lines.
+35eeb11ed7e8144e3253ae89506792c2d433420a|2017-08-25|Tony Rosales|Prevents unrealistic merge of aromatics and merge update
+d2c31940b36d6f3214da84b262ccea2905679acf|2017-08-22|arosale4|Change color of new merged atom
+6f53b0e8b91f8d3aad7550ff20e764c0afc24127|2017-08-22|arosale4|Replace Atom Type During merge
+79561875d6574216849d47da331730e78f822c20|2017-08-22|arosale4|Merge pull request #19 from Q2MM/master
+b6fa3351649a40dd7d0de12c98c43d238fb10098|2017-06-15|Eric Hansen|Merge pull request #36 from ericchansen/master
+d1f777f950596cf25bec6b1161d3a959d0597753|2017-06-15|Eric Hansen|Merge branch 'param_teth'
+1716734efa29ddc498578b4841e3266659b712d7|2017-06-15|Eric Hansen|Merge branch 'ruthenium'
+7b68ed57b7c2f9fc15b10f11bfbde2889b11e417|2017-06-15|Eric Hansen|Getting merge.py to work with Ru catalyzed ketone hydrogenations
+e5ecb4330c8ef061133f34ea1d402d8a0896ee4a|2017-06-15|Eric Hansen|Merge pull request #46 from egulotty/patch-1
+0f4778cea99f9b353a2d66330e4985b1d3059bde|2017-06-15|egulotty|Create README.md
+7af21ca71bcc133e9c319d6be37b5aabc43b0a78|2017-06-15|Eric Hansen|Added cheesy, archaic way of checking MacroModel logs with a DEBUG setting
+bd71d34ba4969dcc0a216dcd7266b378fa4d77c3|2017-06-15|Eric Hansen|Merge pull request #43 from arosale4/patch-3
+6207c5c024cef250acda6390922738108d44fb50|2017-06-15|Eric Hansen|Merge pull request #45 from jesswahlers/master
+0d6ac87c0a8001a2aefb83814d9f8a506f396d2c|2017-06-15|Jessica L Wahlers|Added more ligands
+0a0b8eb3a67af8b7fd04c15ea16f15310c00a959|2017-06-14|Eric Hansen|Fixed typo
+3c771739c19b7e05223ed534d25e9b3c8e9d95be|2017-06-02|arosale4|Update Param Tethering
+347aba8ab16b624cf581245db8031f5678625d7a|2017-05-19|Eric Hansen|Merge branch 'ruthenium'
+a307e473afb14fef22b7d108323280b4878121e7|2017-05-19|Eric Hansen|Adding ruthenium catalyzed hydrogenation of ketones
+b0f88643db9400c1b2b561758f8171e7674850fe|2017-05-18|Eric Hansen|Made slightly more robust
+ce07fa2b917bf6373fe4a184bd651abdcbf7d283|2017-05-18|Eric Hansen|Short tool for cleaning up force fields
+bca59f56fc056a04febb6365dfe776fe60bc3746|2017-05-11|Eric Hansen|Added Amber energies
+6fc9a70cc4c4f5e1625fb6df0945bab17cc06b0f|2017-05-11|Eric Hansen|Missing parentheses
+ac8a9689a5ec83b225e26cd2ed9b8f8c39e53fa9|2017-05-11|Eric Hansen|WIP
+b7733e94fea5ba09ea83f60630d325bcd626e7d9|2017-05-09|Eric Hansen|Merge remote-tracking branch 'tony/tinker' into amber
+778a92f24fe04b7f1cf0f05f07e23b74f64397b3|2017-05-03|Eric Hansen|Added `b_cs_full_match_only`
+fae43452e1c2bd6c166bb74cd7598ae8332bf182|2017-05-02|Eric Hansen|Merge remote-tracking branch 'tony/patch-2' into screen
+ecb9334e28ae04caedfc71bb741369e98b997c61|2017-05-02|Eric Hansen|Merge remote-tracking branch 'tony/patch-1' into screen
+f31b9a6c6e33ddcb6e9592cbbc28104ef6ce505c|2017-05-02|Eric Hansen|WIP
+2e9c2e98b97a0603961973ec08de487ce687d922|2017-05-01|arosale4|Atom listings for M-Cp and M-Ph
+68da398d9ec9271ff34eb1f79ebd6b9020d47bf4|2017-05-01|arosale4|Fix bug with removing other matches
+2ab2aa5881f05b705bcf6a6ecd646f8a325725a7|2017-04-26|Eric Hansen|Working on bug where I didn't account for being list of lists
+a0a741d766972c580aed34bfae34af4ee82555a0|2017-04-25|Eric Hansen|Should address the problem Jess was having with her substrates
+ca6cfadbf7024b2c02e12944e2d2bbfea9d87280|2017-04-20|Eric Hansen|Modified behavior for aligning structures
+74782fd346693ed265a352139a857240c95fd9c6|2017-04-12|Eric Hansen|Merge branch 'master' of https://github.com/ericchansen/q2mm
+c68b3476fb6571869161bf9f29d41c642d5b7b1a|2017-04-12|Eric Hansen|More helpful logging
+9b0ad721ea095bf19067b23319ccc8f471fb4a88|2017-04-12|Eric Hansen|Added temperature options
+6ba665e3e35141c522393e20d56a5346fd85f120|2017-03-28|Tony Rosales|Added logging and Comments
+eab2ce2fcadb165276182c93967d48c0b36297a6|2017-03-28|Eric Hansen|Working on logging and removed accidental prints
+34c9100b271234d392cfb033157e04c7a64cf277|2017-03-27|Eric Hansen|More reasonable logging
+9e43814e89c70d744a7d77b003f49500e807b4b5|2017-03-24|Eric Hansen|Added temperature options
+6272d42efd40da7af229490838477ad7dd4a69e9|2017-03-22|Eric Hansen|Making use of tethering easier
+2915b2334bbf73899de4099f4c7d062655e81455|2017-03-22|Tony Rosales|Corrected Geometric Ordering Problem
+674a309df50da2ba1ed12b6a46c031d498104cd7|2017-03-22|Eric Hansen|Prints PF values for diagonal vs. off-diagonal elements of eigenmatrix
+d7bf911eee2c86c6e7729bd921dcb0ffa25af45b|2017-03-22|Tony Rosales|Tinker calculate, collect, and compare data
+8e9d1c9b358caade3b6665b21ea54c1a12f623e1|2017-03-21|Eric Hansen|Added current parameter values as a data type for calculate
+8d7148295dbf5abfd23907e9b5bd88370e2f51fc|2017-03-20|Eric Hansen|Removed custom settings for MCNV
+b17ff2ec43a3c309cae55ed0b151d9fff32e3009|2017-03-19|Eric Hansen|Merge branch 'master' into merge_mcmm
+881f3d10965156c9abe0fba3e4b4d79de9de4a61|2017-03-12|Eric Hansen|Added control of nsteps in a conformational search from the command line
+74a4ef865fe88c2bd2f6f7bc34df4602f43c207d|2017-03-10|Eric Hansen|Updated rhodium hydrogenation of enamides FF
+95615af4f5cb287e4c7d36cf6cfb7e0eb9e68cb0|2017-03-10|Eric Hansen|Fixed atom name for a rhodium
+f21c0c21ae7c0dca91cb931b16030ff1cdd8ca87|2017-03-10|Eric Hansen|Minor typo fix
+a7c9545616f42c6b5bd1e4945e8c07e1880934ba|2017-03-09|Eric Hansen|Updated the force fields directory
+d57e0b7738636c0141745749fa1bc8ffeb5b2903|2017-03-08|Eric Hansen|Mixed MINI and MCMM methods. Works great!
+243fe63f387f8f0de44fa7038597dc9b431d7d8b|2017-03-08|Eric Hansen|Trying out MCMM rather than MINI during merges
+e31b67c25987994338062fd3ea329d42cd2a2a5e|2017-03-08|Eric Hansen|If intermediate optimizations fail, continue merging anyway
+512baeb0cca91d9caf0a1b58416b568f14c9e18f|2017-03-08|Eric Hansen|Fixed bug regarding the new TORC bond properties
+accbb56f3b943d7c1ee9f93186c68ab7f1dca09f|2017-03-08|Eric Hansen|Updated screen tools to work better with TORC
+5720971526747f95e1dbfeea91f634ce387fa941|2017-03-08|Eric Hansen|Updated all of the databases to match the most recent changes to screen
+d5150c58a0098dbbda1ff7f485d5f4fbb2b08fae|2017-03-05|Eric Hansen|Minor updates
+a51a3393e12edb4177b63a40bd7ea43200e1133d|2017-03-05|Eric Hansen|Sharing a simple script for writing shell scripts on ND CRC
+331c2d7f9a5e2fde06a70b3c808694ffc14de4e7|2017-03-05|Eric Hansen|Still in the testing phase for various options
+bf7cfd68c45b23b951fb5890ac1334c76dadd43d|2017-02-26|Eric Hansen|Changed behavior of optimizing structures mid merge and updated TORC behavior
+eabb899aebb9b7c825add67c5f0c1207c6294b8e|2017-02-24|Eric Hansen|Changed how merges occur
+5822c914541cdebf2cfc47cf29f313c38b3d67d6|2017-02-24|Eric Hansen|Changed default T, added logging to file, added calculating of ddE
+242e9c061a2608eff42b50b7c459a4c8b2fa4333|2017-02-24|Eric Hansen|Added more prints for clarity
+6ac5f742642151ffd4155d2665538f56bfcf4ede|2017-02-24|Eric Hansen|Fixed misnamed functions according to the job type
+80abe19d6f303c469ebc9b12ad743a510e2a2096|2017-02-24|Eric Hansen|Improved relative imports
+669ab57c8d9834c6b2079f58d07aacd6c66376b5|2017-02-24|Eric Hansen|Added more job type options
+bd39ced3e93796f1ecc02ee79b5c8e735e8490c9|2017-02-22|Eric Hansen|Minimizes structures whenever merged
+16f8ef98501e3e662da3ac12b2c8e21dc1d6dd24|2017-02-20|Eric Hansen|Forgot to remove some ... "debug" messages :P
+68ed8db1f31548d557b92274232587511b933ff3|2017-02-20|Eric Hansen|More error checking
+e339ca4ff19fdd26db9501db01c46ae7ddfcb5a8|2017-02-20|Eric Hansen|Improved behavior
+c75c8daff9e5ab7ef8b349df6ec3732d767a6c66|2017-02-20|Eric Hansen|Fixed a bug
+128573b19b5cfb4b22191a2a4c8f663f17a1faa5|2017-02-20|Eric Hansen|Updated databases
+0344ff64d6aff5b0ed11dabaaad6c69d8ab958b5|2017-02-20|Eric Hansen|Removed extra space before shebang
+3bafa0f8254b48915729f1b12fbf380b3f4939b3|2017-02-20|Eric Hansen|Updated screen_sample
+3ef4cdb41dfdac9413c2d0a3e82ae465b57bd49a|2017-02-20|Eric Hansen|Fixed variable misname
+43b87f120c06edb6362d4bbd034b7a2e635dd7f6|2017-02-20|Tony Rosales|Tinker interface update
+7da9eee17fb146ba457cfd8c3eb6444d20962464|2017-02-20|Eric Hansen|Updated reactions
+feebe489a978c914fc1675ce2193c2315b1bc68e|2017-02-20|Eric Hansen|First attempt at adding TORC options
+12b33a46043cda68d5c68f4851638e7eff6d8427|2017-02-20|Eric Hansen|Mode change?
+b59273ddcc39730d8ca543762b7eaf6a4db96ec4|2017-02-20|Eric Hansen|Minor formatting
+c923f90ae6b0d91aaf90853d15be014d97e5b5f3|2017-02-20|Eric Hansen|Removed depreciated version
+d96bb9e66eada65b45f87c5c66d3cd230cc6164c|2017-02-20|Eric Hansen|Replaced by scripts inside screen
+f6fbd8cd5858aa339abd2f6352179d21efb7bf6e|2017-02-20|Eric Hansen|Minor formatting
+63343bfafd5ccda27a29814055a53f5039c2bd46|2017-02-20|Eric Hansen|Fixed shebangs
+27890e8294fad37490d04c0c6570482579b6c839|2017-02-20|Eric Hansen|Wrong __doc__. Removed for now
+3228665a62de392b8d4e9292a3a6da5387df5747|2017-02-17|Eric C. Hansen|Updated README.md
+6d1a20c4a248fdb4f7e63eac878f1591b72d835f|2017-02-17|Eric|Updated screen README.md
+0af22ead9303d411c0e5c081e34ac8925c2e6aa8|2017-02-17|Eric Hansen|Forgot to move __init__.py
+2e0af62d714f7219d557aaf9e274788c0a6ebd20|2017-02-17|Eric Hansen|Added MIT license
+9be36b243b1db6b870003857d3bd2edb987aeae1|2017-02-17|Eric Hansen|Changed project directory layout
+c27c2517ea8b5f684264cc2868b2b39a6c54c08c|2017-02-17|Eric Hansen|Merge branch 'screen'
+964aba5370fa909780d9c9ac8cfc389e66c51a5d|2017-02-17|Eric Hansen|Improved tools for cleaning *.mae
+f82dabdcb06b85cf301c75b13d1a28a3c4d299fa|2017-02-17|Eric Hansen|Added more error checking
+9e7ff5ed12a013b91053871610bbe3853c8086bb|2017-02-17|Eric Hansen|Updated the structure databases
+bfb246eec52930a874f6d3ba33719f3cd1c5ee38|2017-02-16|Eric Hansen|Cleans up *.mae files. Also removes the virtual screening properties.
+071db4032374ecfb4261e998e3799016180c11e9|2017-02-16|Eric Hansen|Revisions to all of the virtual screening Python tools
+d1772463cc7cb152151d4ba828c08a52369a6205|2017-02-14|Eric Hansen|First working version of the merger.py (previously vs.py)
+bc5b25520386fadbb9ab06d7104bf2c5b0abe0fb|2017-02-08|Eric Hansen|Updated the virtual screen software
+4eb1709e7a8c71984a0b45d4bbb60dd3c9b976ae|2017-02-01|Eric Hansen|ParamError can be raised when loading parameter files
+e3786d65ac53eea8b860acbede4613185c2a4f65|2017-01-25|Eric Hansen|Added our MacroModel atom definitions
+15cdb919c5a0725ad058742c441f16d9ab16d13b|2017-01-25|Tony Rosales|More Tinker Interfacing
+d4e299b5016470eebca80e886b6feee29d806543|2017-01-09|Eric Hansen|Added a few nice touches
+3cff0b09b431bd01e500243bcdcdcbb663c5fab2|2017-01-03|Eric Hansen|Fixed typo
+a96e40ac4d8d2009e193b8bd82127fd7b948ed1c|2017-01-03|Eric Hansen|Fixed setting number of search steps
+d7e318bbe1e9a1beb5133a1c65475139919c3f90|2017-01-05|Eric Hansen|Fixed missing hydrogens in ligands
+e27254775a9516f5de23af99462890b2436dfb1e|2017-01-02|Eric Hansen|Improved documentation
+d14743b27600c67aec4113c0651ce553699abb2f|2016-12-15|Eric Hansen|Added tool for setting up many .com files at once
+c20ef9a7d40a681aa4bce7afe1dbc4def12e7015|2016-12-12|Eric Hansen|Removed old code
+957366062a598bdbf8759289f9c1b716e35632e3|2017-01-03|Eric Hansen|Fixed missing hydrogen
+27017d9433e44456557ce4a30237015335127870|2017-01-03|Eric Hansen|Added short script
+da4cb613e085accf324a079666c9f926da479642|2016-12-14|arosale4|Example of parameterization
+fb78b4c9b1e2b38dc86e3a9a10c7c85ec0d9dc9d|2016-12-12|Eric Hansen|Updated substrates and ligands
+1f7d8da65a4f28136a9ae0a240b0e6e0e3990bac|2016-12-12|Eric Hansen|vs.py seems to be working for intended purposes
+f3d15fdee3b6b855ae549cd8be544b1a641bc682|2016-12-09|Eric Hansen|Now works with all the necessary options for performing a CS
+ae3d9556e4c2a765ffad93c67223fc10235f80a6|2016-12-09|Eric Hansen|Added information about the stereochemistry
+3cbb9a523b9e077b0ac0f73018bb9ef5b3a9e525|2016-12-08|Eric Hansen|Will now screen both enantiomers
+e72ce192c02f1ba0639656f43b84c3b60f1561b9|2016-12-08|Eric Hansen|Corrected atom types
+e64ab80beaaf591b39ec112ae462cbe8d68d1251|2016-12-08|Eric Hansen|Cleaning the virtual screening structure files
+b483c29da9ed5cb7703f0c96343a49e360a12d9c|2016-12-08|Eric Hansen|Nearly done
+a07ae05f14d1be49d0e4bccfa8e3c53b2f71d1de|2016-12-08|Eric Hansen|Modified the ligands
+aa3d2a459dda1a0b5ef9d48fbb032194dbbd65f9|2016-12-08|Eric Hansen|Removed comments. Working on C2
+3639d38dfdf176f181dee821b8e9a2c437385e7f|2016-12-08|Tony Rosales|Initial interfacing for tinker
+729796148c2242684000c34102a1c9c02591b520|2016-12-07|Eric Hansen|Merging structures for VS now working
+5d6fd23c6ce140fb372bc77b01d9be2096f2122f|2016-12-06|Eric Hansen|Reorganization of VS libraries
+eef350ee2dd79c3b7338cf837d7304f95a963825|2016-12-05|Eric Hansen|Fixed typo in the name of a property
+abb0f3af5f12095379134432dbb7a17bb7280061|2016-12-05|Eric Hansen|Added a simple tool for removing properties from a .mae
+ab4385630b91012cc663daf6922d2fc2a4b9411b|2016-12-05|Eric Hansen|Added some more explanation for the conformational search setup to README.md
+baa04d56beb491b1fb529fbbe0b60331a191315f|2016-12-05|Eric Hansen|Added some more comments
+27e766b22d202f5f239558fed3b183297d7f363b|2016-12-05|Eric Hansen|Rearranging directory
+e1cf0487d794d1f3c03210e4c9553583fb4c7859|2016-12-05|Eric Hansen|CHIG seems to be working now too
+1cd6c8f1a041a417acc70cc1b40f1febf439442c|2016-12-05|Eric Hansen|Got the RCA4 behavior working as intended
+40d1f811d06bb23b150d46f80e1096818f4ea2e7|2016-12-05|Eric Hansen|Removed extra comments
+dba816eff903c30a47f0efd48dfd515ffb1f2ed9|2016-12-05|Eric Hansen|Found the problem with bond properties not writing
+2031475909ec2b6ee2233901524aa85808124144|2016-12-05|Eric Hansen|Bug fixes to merge_structures.py
+5fd4878a1f201b1d6dc556654236ef951c1d0764|2016-12-02|Eric Hansen|Moved location of setup_mea_for_cs.py
+da60108139fb7220becf9fd8e688a80607d5b5ee|2016-12-02|Eric Hansen|Added argparse usage
+c61b8b29cfd1df700896bc46bc8f7bc67efb87f3|2016-12-02|Eric Hansen|Now works with TORS and COMP
+b42bd54764d77fb429730bf90213c91857d59267|2016-12-02|Eric Hansen|Minor updates tools/change_mae_atom_types.py
+0b9fb5b2b1bb885e9efdb2dafac5926291c66720|2016-12-01|Eric Hansen|Added setup_cs.py (cs for conformational search)
+6164ad9966cfa377415497ba12e568201d7b2f8d|2016-11-30|Eric Hansen|Added handling for when INPUT_FILE is the same as OUTPUT_FILE
+8b037972bccf4b147c3cc5198dec513b3b03b0af|2016-11-30|Eric Hansen|Added small script for changing .mae atom types
+de38042600706afbff31833ccad701e8a08d7fe0|2016-11-08|Eric Hansen|Added more comments in relation to -mqh
+15ce9cec129b7ce78e3c3535faa5305e8b559af3|2016-11-08|Eric Hansen|Fixed a bug with how -jqh and -jqa function
+d7afcfa33a241e4ee4210e3de1d884a8ab42407b|2016-11-07|Eric Hansen|Replaced old version of merge_structures.py with the newer
+b722882c6205950d61135dbf8874baac98d0c3cd|2016-11-07|Eric Hansen|Accidentally had merge_structure.py in root directory
+7f393399fdf654cdfa4fa3c9463fc6ec6c748cb9|2016-11-07|Eric Hansen|Minor exception handling for better log messages
+04889507f487c913ac6726611c95998bc6ad39e6|2016-11-07|Eric Hansen|Merge branch 'master' of https://github.com/ericchansen/q2mm
+150cff2b4343f51d861eeb6adc1c37e675454195|2016-11-07|Eric Hansen|Slightly improved comments
+68e030bacd7ed101992f60c4321575a09c65c7c7|2016-10-28|Eric Hansen|Added options to superimpose to merge_structures.py
+400ac2ed07f07b0c1d6bb6ecf47acb9c9fa7b5e4|2016-10-25|Eric Hansen|Added tool for merging structures
+64f5226154d5e6e53d467cbfdb21cd320df00739|2016-10-24|Eric Hansen|Changed response for Gaussian logs from the command line
+9bbcbee97bd0a3ff74ac32497d3dae34cca9eea7|2016-10-24|Eric Hansen|Minor cosmetic changes to filetypes help dialog
+7b13151fe869e1c32c289c2fb2d5cc1c28f45da0|2016-10-12|Eric Hansen|Made sumq.py more robust
+deaf5f1ef7e089ddc8618d8409e0a7224f7eba3e|2016-10-05|Eric Hansen|Added a directory for helpful scripts related to Q2MM
+8b11d49c82a0f464e49e6688e6e427a437147ff7|2016-10-05|Eric Hansen|Merge branch 'master' into shared_master
+d768da548eba22919f83ea935a30b81b6fb6e64c|2016-10-05|Eric Hansen|Merge branch 'eric_simplex'
+2e363c1f6b618118443344608389c4f2a243ec7b|2016-10-05|Eric Hansen|Merge branch 'iss33'
+172e811442e86a97e1f93dd9c2ddc0d95e39126a|2016-10-05|Eric Hansen|Merge branch 'iss30'
+a465d528dc1de0a88c8e5f48511d5ce951c64093|2016-09-26|arosale4|Fixes bug related to score calculation and ref file
+454cc4dada89b489bd0236b4edf85777c69dabe6|2016-08-29|Eric Hansen|Corrected help dialogue
+2d1cc0261403c55037bf0b8b793dbe32b6545ab8|2016-08-29|Eric Hansen|Fixed Hessian inversion not applying
+fb9c6d101fa08b8e24ea07edebc0a2e81221be36|2016-07-25|nberkel05|Merge pull request #31 from Q2MM/iss29
+c20ff77aad5db24265f25e51299527bbc53f7840|2016-07-25|nberkel05|Merge pull request #30 from Q2MM/iss27
+d9b9a1b2a46e8c11debcbc39f639c3729727283d|2016-07-22|Eric Hansen|Merge branch 'master' of https://github.com/ericchansen/q2mm
+8a36b0e86845def0cf29dd403299a9e491910ae0|2016-07-22|Eric Hansen|Minor change to filetypes
+8f40a691e62ab44a072fce30124d9aea4793db39|2016-07-18|Eric Hansen|Modified simplex parameter selection
+684e16065a22b2c5312d77108d94bf8e536012d4|2016-07-14|Eric Hansen|Merge branch 'iss33' into develop
+2b6e31e81ab0a363a8a72caad54149a54f41e663|2016-07-14|Eric Hansen|Merge branch 'iss29' into develop
+5f66a7d4f9c3f4f82e53bc8f040eedd69ee404c5|2016-07-14|Eric Hansen|Merge branch 'iss27' into develop
+91a3749452f4f711575ae537edf2f5f48840fd31|2016-07-14|Eric Hansen|Merge branch 'iss30' into develop
+d6872fb4e4f5f5a0d4bb7eff8ac5f60985967158|2016-07-14|Eric Hansen|Merge branch 'shared_master' into develop
+dec6d7ed20fcc6bba27d52cd8ab8eb130c480210|2016-07-14|Eric Hansen|Fixed calculation of inversion point with weighted reflection
+468669d6981a74cb78c8503759b471e073dc4701|2016-07-14|Eric Hansen|Keeps contraction parameters no matter what
+be5037d275cd58fe9c60077b2381854cd0aea25f|2016-07-13|Eric Hansen|Per-Ola's suggestion for improving torsion data behavior
+dacfc41924d3ee6642d8e9688f323a4f0ba3d0b8|2016-07-13|Eric Hansen|Added assertion that length of reference and FF data are the same
+8decdacd99ef83a0b986026e28d1717bcff63e33|2016-07-12|Eric Hansen|Fixed issue when initial simplex score was the same as final
+85a50ed666a17a6535c66fe5fc1999d35f4aa2cd|2016-07-12|Eric Hansen|Changes to logging syntax
+aeeacc5a34a7807a27092df7669bc1cd538630eb|2016-07-11|Per-Ola Norrby|Merge pull request #25 from ericchansen/master
+289503b289e07eae2a6d4c0e29ca9d0243e3f251|2016-07-07|Eric Hansen|Cleaned up the code in filetypes
+22c6284171d96de6aea2c6e67e35f512c667c8c2|2016-07-07|Eric Hansen|Working on problem with projected keyword in Gaussian
+0f600bfc0a1f91817d0285605ed5701192aaf324|2016-07-07|Eric Hansen|Added excessive comments and logging
+8ca919ef355cfafcdd9bc83ab5a2e49f8c87f29b|2016-07-07|Eric Hansen|Added more debug logging
+99f936be93c537faefe480951665f6a69ef3f739|2016-07-07|Eric Hansen|Merge branch 'master' into iss30
+b5acb60dba4430cabadbd31b65f4489324d0a041|2016-07-06|Eric Hansen|Merge branch 'iss34'
+5279cb2dcf5f73b9fbe5f5f109eb43f2ba6ecc3c|2016-07-06|Eric Hansen|Merge pull request #38 from ericchansen/iss22
+b3457877b3bc5594c44567a66b62dd9ec467a3b3|2016-07-06|Eric Hansen|Fixed issue where FF backups were being written multiple times
+9336e9ebce27f2d28c853ae7f41c9272d1d9bd06|2016-07-06|Eric Hansen|Improved behavior of the loop cycles
+7284398d3a18cf9360bc41da870a2f64698be1dc|2016-07-06|Eric Hansen|Added a cheap means of generating fake data
+e6645758a1ce6a4af0d8552ec928e85063960413|2016-06-30|Eric Hansen|Just some changes to logging
+7ee356c16f0fcf5560b1e167634c48556b40ef88|2016-06-29|Eric Hansen|Fixed logging
+2778547635f1675d103cbcfc89d3350654ef99ff|2016-06-29|Eric Hansen|Changed how weights are imported
+d57fe345fb902cf46e4ad4a5f022580f9bb1a6df|2016-06-29|Eric Hansen|General comments and readability improvements
+6034a16fd52da54e9c1a709cd540ee3aa936b931|2016-06-29|Eric Hansen|Moved calculation of derivatives outside NR
+6a74246d31f848bb238061a2b14ec2aab8a2a336|2016-06-28|Eric Hansen|Modified behavior of datatypes.MM3.lines
+8568f2ac78185e96a8d8a81eb466a268b6d17bef|2016-06-28|Eric Hansen|Forgot to remove test commands
+0aa71d4bddc2bd7e6a483230723b74dd58c0f620|2016-06-28|Eric Hansen|Removed adding initial FF twice
+48e50e17d0074a0f5d3cab027549e028d4a13670|2016-06-28|Eric Hansen|Added OptError to opt.catch_run_errors
+e40261269dbc07416b87b8a3b14ec2fd5b014f97|2016-06-28|Eric Hansen|Variable was being recalculated inside loop
+e116a587546a00ed7eac9ea0f41a0506ff4f633b|2016-06-28|Per-Ola Norrby|Update simplex.py
+6c638d5f1388ed1cc51370c7858919688536d558|2016-06-28|Eric Hansen|Modified behavior to match 1998 publication
+c5c99d315ded0b223ab890ffdc95a53f4158c84f|2016-06-28|Eric Hansen|Correcting behavior to exit simplex
+b3d8a9c268d17a19ff592d61ec086a45df8def27|2016-06-28|Eric Hansen|Minor formatting
+11f02561189d5506c1d5e01e74a5c8e240e345fb|2016-06-28|Eric Hansen|Corrected variable misnames
+17e23ebf9d63e15e62b80f08b8f739369d0dc476|2016-06-28|Eric Hansen|Maximum cycles w/o change no longer set by user
+2cd33f8a19a9a2510bf24215c30d27e4dab775ff|2016-06-28|Eric Hansen|Moving comment with the code
+e1b6554383f95f1684bbf8a54b4f86f862653445|2016-06-28|Norrby, Per-Ola|Added a comment to simplex.py
+9426613c9f49f60bbf4fe2dc356b1b86ec90ba3c|2016-06-28|Norrby, Per-Ola|Error in limit
+86863dba946c3bf944211ef432d72d035a504678|2016-06-28|Norrby, Per-Ola|Wording change
+398b4e1b8e1242703edfcc5b2a40b20047233942|2016-06-28|Norrby, Per-Ola|Steps and inversion point
+0b9c5d0ad0a8d1105e4d26f192324c8bf323a928|2016-06-28|Norrby, Per-Ola|Step length change
+36732bfb1a5f5e6efccfa6749796e7b365177488|2016-06-28|Norrby, Per-Ola|Fixed sorting-before-scoring bug
+a809c7be179e761338e29a2718be8510a4ea5ae8|2016-06-27|Eric Hansen|Modified behavior of the best_ff property
+430ee2a8e69c54aa717b24f5d006d1eb4a0ab8b8|2016-06-27|Eric Hansen|Fixed behavior in setting up simplex
+de511d7b006266c4638074b87813b0ebd946de53|2016-06-25|Eric Hansen|Fixed variables being used before declared
+2393df0743dd851f2f960a1c186ec73ae18ee784|2016-06-23|Eric Hansen|Parameter derivatives will always be calculated
+f5661d89fe5cc2a66e986e08767de56666914682|2016-06-23|nberkel05|Merge pull request #22 from ericchansen/iss32
+88294a93c2d63b1b65403a46918b6cabeb72e2d2|2016-06-23|Eric Hansen|Resolving conflicts between ericchansen/q2mm/iss28 and q2mm/q2mm/master
+893c3eaddcc59a76ba6aa544f1efc7e669405f03|2016-06-22|Norrby, Per-Ola|Fixed the missing 'import opt' in loop.py
+29c5799fdeed66c3df13235f595532a594c6ad39|2016-06-22|arosale4|Merge pull request #20 from Q2MM/hotfix
+da191bdb525e736c79d03fe2b6d42a778880155a|2016-06-22|Per-Ola Norrby|Merge pull request #21 from Q2MM/iss9
+9d971658dbc6b1e6db8818bce4e30f0e61222541|2016-06-22|Eric Carl Hansen|Datum.type for Gaussian energies were all the same
+a076376489b855863cabaa8dbc3cf9a0a3d3243b|2016-06-21|Eric Carl Hansen|Merge branch 'iss9' into develop
+25fab5f403e39f8fb0c35f39ff414e2ef1d24978|2016-06-21|Eric Carl Hansen|Merge branch 'iss32' into develop
+36701e5e39ff9999dcdd44cf6ca0153317c575e7|2016-06-21|Eric Carl Hansen|Changes to gradient defaults suggested by Per-Ola
+5967418e7156eb334d27581736be4ee0033eadb1|2016-06-20|Eric Carl Hansen|Added missing import
+527a7a4e1b4e5b5f47ae893b036200fadb5d192e|2016-06-16|Eric Carl Hansen|Merge remote branch 'shared/iss9' into develop
+2a15de8665252992f9160d325fad0ba5d500491f|2016-06-16|Eric Carl Hansen|Merge branch 'iss30' into develop
+e8f98c84711d784865ea686e97e31ac8a160c58b|2016-06-16|Eric Carl Hansen|Merge branch 'iss28' into develop
+f0b7c3ca5205301aba2cc8072ccab4e5d9b6159d|2016-06-16|Eric Carl Hansen|Added options to invert Hessian
+f477ddd35b397d4246b12a98082add5a848a25c4|2016-06-16|Eric Carl Hansen|Merge remote branch 'shared/master'
+71f503dc105930ece2d47fa66251b81a75581cad|2016-06-16|Eric Hansen|Merge pull request #15 from Q2MM/iss12
+582d78309ed9821ab7ed5c84a152c22c9339031f|2016-06-15|Eric Carl Hansen|Adding option to invert Hessian
+3ae377398f17ed98861e851f8f7d8b9a761c32a2|2016-06-15|Eric Carl Hansen|Modified vector inversion technique
+3593ba55214cf87fba47596a07cbf47735b62162|2016-06-15|Eric Carl Hansen|Proposed gradient default settings
+cbd1cc5e754b1a09e24c502b321ede892816029b|2016-06-14|Eric Carl Hansen|Corrected mistakes in functioning of SVD
+e63d98b4e35c1465bc09eb9c14c70b851ed78bf0|2016-06-14|Eric Carl Hansen|Prevented writing unreasonable parameter values
+aac1f13954d8eca6a5eccf11f9d4e7966d803638|2016-06-13|Eric Carl Hansen|Correcting behavior of SVD
+15b155d8212297e5ef7effcca0aa1f547f51f0f2|2016-06-13|Eric Carl Hansen|Corrected the com property for several data types
+d4aeeedf5ba4f6fce3684c38b47a66baeb95ba00|2016-06-13|Eric Carl Hansen|Made changes painstakingly clear with comments
+7653cdc177a131cfe1cd779648b7e77cb88e641b|2016-06-13|Eric Carl Hansen|Merge branch 'master' into iss28
+1be04d6ae98bae535786c868fff2b637fc60e7d8|2016-06-13|Eric Carl Hansen|Fixed bug in gradient.check
+85982897ed1b67140fa0b2b2498b7912205d0b65|2016-06-13|Eric Carl Hansen|Merge branch 'master' into iss28
+18bd8f5aadbee8108d8929ea4846b8e148da4e64|2016-06-13|Eric Carl Hansen|Initial changes to test out corrections to SVD
+23130ac7c7c6a52152a8d48fba6effe119481a40|2016-06-13|Eric Carl Hansen|Merge branch 'master' of https://github.com/ericchansen/q2mm
+e2f493c698f8bc1a7a7954b2a3c613254ba6c857|2016-06-13|Eric Hansen|Merge pull request #29 from Q2MM/master
+6c4eb14bbf31ed1eacc58147501dd49c8b57bdb4|2016-06-13|Eric Carl Hansen|Changes for multiple structures and energy types from Gaussian
+e890af851e02ae158d67c622d59717e46a5ad1bc|2016-06-13|Eric Carl Hansen|Changes to allow multiple structures and flexibility with types of energies
+0593b6f1bd1b5349c83c2d06631f203767a23e1e|2016-06-13|Eric Carl Hansen|Modifications to allow multiple energies in Gaussian log files
+f41b302fb187e3a9d5877e93eeb8cd802a97538d|2016-06-13|Eric Carl Hansen|Modifications to enable multiple energies in Gaussian log
+b37b53e719e7520eb302a776f2857322905922dc|2016-06-13|arosale4|Merge pull request #11 from Q2MM/iss10
+187b8a65f6aa80a95dbe458c1dbe7647f61be299|2016-06-10|Eric Carl Hansen|Improved Gaussian archive reading regex.
+0209a7138104bbd0772a5a4910989ddaa88ba15a|2016-06-10|Eric Hansen|Merge pull request #8 from ericchansen/master
+d64646574b9bed9f5d45dc01628ec1d353b9f4e4|2016-06-10|Eric Carl Hansen|Fixed no parameter changes when max_radii and cutoffs not used.
+cb36b4c1bece4723a9f16ca44d921dcfb8b7ec95|2016-06-09|Eric Carl Hansen|Restart gradient optimizations from central differentiation file.
+9803ad01459cade44f80074f64aa4c8ee00f4bd1|2016-06-09|Eric Carl Hansen|Merge branch 'master' of https://github.com/ericchansen/q2mm
+ebb75f1b256967eb4448f0a2f24de661a9f93445|2016-06-09|Eric Carl Hansen|Added timeout between retrying MacroModel jobs.
+9c8dce4a832e9ceccf90c59e1c7ccd02ed56e0a9|2016-06-09|Eric Hansen|Merge pull request #27 from Q2MM/bug_fix
+0902093927b8896deedd175a713291d1de2b65e6|2016-06-09|arosale4|Fixed bug associated with torsion check error
+5fae1a1cba51f6421baf30c958fefb9f34488058|2016-06-08|Eric Carl Hansen|More reasonable defaults for gradient.
+7fea00a916277dbc43cd78eff30f86a418535fac|2016-06-08|Eric Carl Hansen|Added retry for failed MacroModel jobs.
+4fa0681af0146df70f0d1c47ed6765d4cbedb1e6|2016-06-08|Eric Hansen|Merge pull request #26 from Q2MM/master
+96eb161885a22a360ff51f625b6f3e8a046c04fb|2016-06-08|Eric Hansen|Merge pull request #6 from Q2MM/shared
+f7a3e337144d851673c43dd138183d2bfc8d0381|2016-06-08|Eric Carl Hansen|Merge remote branch 'shared/master' into shared
+58a97234cb9dda57c3ddc0c309f34686c243bc49|2016-06-08|Eric Carl Hansen|Removed duplicate FF.
+b439d75b36f70797b372a0a14c49844a81280fac|2016-06-08|Eric Carl Hansen|Revert "Print Nonzero Parameters"
+02a848ebfc7b522992a662be763f46c58e2641c0|2016-06-08|Eric Hansen|Merge pull request #5 from Q2MM/arosale4-added-features
+e2d47e5453d0a9098478b521577d4ab40e5b0eb0|2016-06-08|arosale4|Update loop.py
+3ada72ea875eb5569dd9cdd932cdf0cfc8b270fc|2016-06-08|arosale4|Clean up, and feature addition to loop.py
+69f9c1dd530f7b4f5089d970fa06449e36cf9ae0|2016-06-08|arosale4|Print Nonzero Parameters
+7c1f1657950644d1fb0dc4b86e26712f4f589206|2016-06-08|Eric Carl Hansen|Fixed typo in simplex.
+4cc790f58d351aefb2e3c485f7d2b05c4c503718|2016-06-08|arosale4|Merge pull request #4 from ericchansen/master
+e417d69ad3c54c5b0ed38aa2550275fa0c998ebe|2016-06-07|Eric Carl Hansen|Made Gaussian archive reading more robust.
+c7ad106ffe9924702837691c96396575d7925e18|2016-06-03|Eric Carl Hansen|Changes to address issue #22.
+0a4f2c75e1ef36e81a339c1cc0fbf574a44b635b|2016-05-31|Eric Carl Hansen|More error catching for matrix math involving Hessians and eigenvectors.
+2dd32aa87236db1f330b47775fd0e1d47f662c50|2016-05-31|Eric Carl Hansen|Merge branch 'sort'
+ed94ae028facc8f890947b313f39a89a1c7bd5ee|2016-05-30|Eric Carl Hansen|Modified identification of dummy atoms.
+cdb5f67528da726678838635c6230692db8e1f21|2016-05-30|Eric Carl Hansen|Minor modification to make the help more clear.
+ee128a148b1d956a22bbc5b480deb6cbb6eb998f|2016-05-27|Eric Carl Hansen|Gaussian now works with dummy atoms too.
+d1f2c6d52dd1d539a3a158ff182056fa315cc09a|2016-05-27|Eric Carl Hansen|Check for dummy atoms is more robust.
+0ab42a846af433b89b103bd65f388e158b190c96|2016-05-27|Eric Carl Hansen|Merge branch 'master' into sort
+9a735d2486f049c38f391146ffd6b4e6ad6190b8|2016-05-27|Eric Carl Hansen|Fixed typo that prevented reading Gaussian frequencies properly.
+7907bc0ed9a95496cb14e4b3f1ff952c17b6c124|2016-05-25|Eric Carl Hansen|Added more debug output when the Schrodinger license check fails.
+439acd532f7a9a04f7c3912992580b731797a274|2016-05-23|Eric Carl Hansen|Removed a debugging print statement.
+88a03556719f261a16fca3401729c4f387bb725b|2016-05-19|Eric Carl Hansen|Merge branch 'sort' of https://github.com/ericchansen/q2mm into sort
+c49d9b85cd5f0e56875dea47cde0b75b30f63b97|2016-05-19|Eric Carl Hansen|setup_esp.py works with Gaussian and improved Jaguar functionality.
+d3bd28063efb9ac84e40fd6d471509b1977388e6|2016-05-17|arosale4|Merge pull request #3 from ericchansen/master
+7135d920b034022f93e7650a1c703697d4dd5d06|2016-05-16|Eric Carl Hansen|Merge branch 'sort' of https://github.com/ericchansen/q2mm into sort
+3dd340359239b1d971e8b79fc9984134e2406774|2016-05-16|Eric Carl Hansen|Fixed calls to compare_data.
+57312e726d609e086fb7df7b1394c25090db1ca6|2016-05-16|Eric Carl Hansen|Added FF for sulfones and combined FF.
+424b11f5a48233290a656447079e1fdf6248a9a2|2016-05-16|Eric Carl Hansen|Removed depreciated Hessian class.
+40ade24ad62f48fd6b47ac81a588a96449ddf060|2016-05-12|Eric Carl Hansen|Fixed setup_esp selection of atoms.
+ef12be0ea38f0c3890c1363a1cf3df1a73e1022f|2016-05-12|Eric Carl Hansen|Added Gaussian Hessian and eigenmatrix.
+59591ab3644153a226b97ea80d331ce8e7f63daf|2016-05-12|Eric Carl Hansen|Added in Jaguar and MacroModel eigenmatrix.
+6d16a8e6fd85670693d2bd3357bb5ba9e75d3d8b|2016-05-12|Eric Carl Hansen|Added in MacroModel Hessian.
+be742f787b04bf4fd112fa944ce47ccea49d1aa3|2016-05-11|Eric Carl Hansen|Added in Jaguar Hessian datatype.
+a72cc69f29634f700fb99efca62f7ae4de8c756d|2016-05-10|Eric Carl Hansen|Added in Jaguar and MacroModel charge data.
+e0cbad74423721be2fb2288fc4d6b0cbffb8ee79|2016-05-09|Eric Carl Hansen|Added back in Jaguar and MacroModel structural data.
+7fafbba8114bb18bd5e26572511992d046783b93|2016-05-09|Eric Carl Hansen|Added in all the Gaussian energy types.
+b65a7e15815932351cc2095271d27de5bca892b4|2016-05-09|Eric Carl Hansen|Added all MacroModel and Jaguar energetic datatypes to calculate.
+1434d4d43c7d115799b3b9fdc13fbf78bc28f5ac|2016-05-06|Eric Carl Hansen|Working on removing sorting and improved import of reference data.
+8ff98c6c0ef2ead7e9f39255d22d44c054567d67|2016-05-05|Tony Rosales|Merge branch 'master' of https://github.com/Q2MM/q2mm
+4bbd24575c553cb507a54d51645ac6ea6da2e56b|2016-05-05|Tony Rosales|Merge branch 'ericchansen-master'
+ca34343a4021ec8b49234d176780f20fae593df4|2016-05-05|Tony Rosales|Merge branch 'master' of https://github.com/ericchansen/q2mm into ericchansen-master
+1fd1118ea7100e33749711eed845d06e33725d78|2016-05-05|Eric Carl Hansen|General cleaning up of calculate.
+c21589c3ce652aacade6f1995190e801fc678874|2016-05-05|Tony Rosales|Merge branch 'master' of https://github.com/ericchansen/q2mm into ericchansen-master
+7da8cfee871d56faa1f16996e97f01a50094c9f8|2016-05-05|Eric Carl Hansen|Modified regex for Gaussian archives.
+349026de70b61fc886169603505ab2bda61a965a|2016-05-05|Eric Carl Hansen|Pulled useful changes from Q2MM/q2mm.
+f11eb26131cb5e5d118a2ad262cb1b408657dcbc|2016-05-05|Eric Carl Hansen|Modified regex for Gaussian archives.
+c13a444ce60375a01726dcb7de8702b9541c8c7c|2016-05-05|Eric Carl Hansen|Pulled useful changes from Q2MM/q2mm.
+6ccc25f1245081a192dc2b60cd5dd58ea9d1e549|2016-05-04|arosale4|Merge pull request #1 from nberkel05/master
+998fad2ba95f29ee0de0c686a749a50df3412b17|2016-05-04|nberkel05|Merge branch 'updated-filetypes' of https://github.com/nberkel05/q2mm
+ab7440a1dfe1c8cdd25ee6f7327f5cb95a5bd62e|2016-05-04|Neil Thomas Berkel|Additions to Filetypes
+9aa4b291d7eaa6ada45b9c3759c5e1e54f9e40b5|2016-05-02|Tony Rosales|The code for loop.py was appended to allow ref and calc data to first be sorted within 'CDAT' and 'RDAT'. This is done in the same fashion as in compare.py. Prior to this change the ref and calc data was not in the same order and gave an incorrect comparison. It might be better to actually have this sort function already built into calculate.py, or to have loop.py call the dictionaries from compare.py.
+0b8098151ffc3318172a61375f83f809a79d1235|2016-04-20|Eric Carl Hansen|Updated Schrodinger token check.
+59490294a5d13582982c246bb5315dd3a47bbd14|2016-03-31|arosale4|Update Rh_catalyzed_enamide_hydrogenation_FF.fld
+9d281d14e33faa7bc04946b3c3790cf6a9fbe3e8|2016-03-30|Tony Rosales|fixed error in calculate.py
+b5faa7e8ee1c39321fbc12350ea147a5773b0f85|2016-03-29|Tony Rosales|Merge branch 'master' of https://github.com/Q2MM/q2mm
+4667898026e4183be538328554d9a68c8babf7c3|2016-03-29|arosale4|Update filetypes.py
+53c0618907fbd44abb960597fae6c0fa6a9a5da0|2016-03-29|arosale4|Delete thisone
+e080aa32aa3022d77264a4886e4cee4f4896d8ae|2016-03-29|arosale4|Added Rh FF
+0924b02696c58cc62a858915eb2a5f1554e36947|2016-03-29|Tony Rosales|Added Rh FF
+0cb9ee577bdc99ea52aad7dfe5f9321ae40e677b|2016-03-28|Tony Rosales|Adding a folder for published Force Fields
+bbeb5e922c12727b2a0e63d69e316e4d71a105ef|2016-03-28|Eric Carl Hansen|Added a new means of using the energies.
+030ba69bdb81b2ab9497559fef8062b30f24b4de|2016-03-24|Tony Rosales|Merge remote-tracking branch 'refs/remotes/ericchansen/master'
+c908c255feca86923384953734399319d3aec89b|2016-03-21|Eric Hansen|Merge pull request #15 from arosale4/master
+ee4db1fab021b50654a44c5877fe7a61ea2b1295|2016-03-21|arosale4|Update compare.py
+77f0fc166f916a680f388edcc92e09bfdbfc86b7|2016-03-21|arosale4|Update compare.py
+6081f1c0d2d5db15b9d6f95f0d0af4236a8b7d20|2016-03-11|Eric Carl Hansen|Fixed error when dealing with empty or dummy atoms.
+f2ab845209b828b436f83532c825683b24b54834|2016-03-11|Eric Carl Hansen|Removed extra comments.
+80cab3b4e5c025f80546db57517b3d0344b00d8c|2016-03-02|Eric Carl Hansen|Fixed an export_ff function.
+d7b2490db7053a46fc6d318ef93aef730a812e4c|2016-03-02|Eric Carl Hansen|Renamed variable to match.
+6e476e278145e2cb5410c592ddc1f499b4721598|2016-03-01|Eric Carl Hansen|Added missing function to opt module.
+a876790c2ff3db6695e9ca17fa0d8c4e94058d47|2016-03-01|Eric Carl Hansen|Forgot the function extract_forward from previous versions.
+297f513b99814f5bd2257e75eecfb91c7f9c59cd|2016-03-01|Eric Carl Hansen|Now treats # and ! as symbols to mark a comment (not just #).
+5bdea79ad8228e50ac7dd20aaeee11a4b072d7b3|2016-03-01|Eric Carl Hansen|Resolved issue where a FF was None.
+e64af0c13848ab58abea4600992aa95f3882f109|2016-03-01|Eric Carl Hansen|Minor fixes.
+54b613948819cfe8930ad2e87b873f406d580baf|2016-03-01|Eric Carl Hansen|Merge branch 'master' of https://github.com/ericchansen/q2mm
+ad740be960a7186817901ebc45aaf046ab7b6c8d|2016-03-01|Eric Carl Hansen|Corrected variable name.
+69b73d401a44b1fe9df6ae56189177f04e6cfb7e|2016-03-01|Eric Carl Hansen|Merge branch 'master' of https://github.com/ericchansen/q2mm
+b8d1fc3acdfe73b0b0c3b1b959ce2c0d17094394|2016-03-01|Eric Carl Hansen|Minor correction to logging syntax.
+8408674127895a478091c30277ffa635ba57b35a|2016-03-01|Eric Carl Hansen|Working on script to setup ESP calculations in Jaguar.
+0cd6a70c5ab9eea4a37edb221585fa19042c4722|2016-03-01|Eric Carl Hansen|Fixed error occuring when no parameter changes are generated.
+51264750341d02426e6f6cdd314b2cd4e80436de|2016-02-29|Eric Carl Hansen|Removed old code related to conformational searches.
+56e6caf79d53b42adb839ffc49019bc651c79128|2016-02-29|Eric Carl Hansen|Modified behavior of writing MacroModel .com files.
+ac4eb7eee0737fc8cf6887b23bc959b221dca410|2016-02-29|Eric Carl Hansen|Resolving merge errors.
+145a49ce95ccd083bcc85efb6a52b51acbd39f46|2016-02-29|Eric Carl Hansen|Working on merge conflicts.
+bf5a84fd92c6bcc7dd398d191bf7451cb85177a6|2016-02-29|Eric Carl Hansen|Manual conflict resolution for merging branch master into new_data.
+08d39ba132811b8bf06865afe7813ac01b59ada8|2016-02-29|Eric Carl Hansen|Minor change to logging.
+bca8d191270e255bbdf358fe6dc47607ac531fa5|2016-02-26|Eric Carl Hansen|Many modifications to remove sqlite3 dependence.
+e7a8969b70d8b61b523d640f451d5d68ef0f9b96|2016-02-23|Eric Carl Hansen|Merge branch 'master' of https://github.com/ericchansen/q2mm
+969894ef24349d48c22800457cfdebbdd9ea5178|2016-02-23|Eric Carl Hansen|Modified generation of .com files.
+7dabae9581581c30b18bd1daafd78e5ec3c32340|2016-02-18|Neil Thomas Berkel|Improved option -je for the calculate module.
+a74056c64447bb7169841c18b265d4380781d4f5|2016-02-18|Eric Carl Hansen|Hessian options now work with dummy atoms.
+cdb22a1548abdfeaa57c8530578d3bb01d3a1f3d|2016-02-15|Eric Carl Hansen|General updates. Removed old commented out code.
+66939ac89292a82bb9f4c06ac92d046b3724dcbf|2016-02-15|Eric Carl Hansen|Merge branch 'master' into new_data
+1ee276d6e7c1f3f247d62c853196cdb180a4ac19|2016-02-15|Eric Carl Hansen|Merge branch 'master' of https://github.com/ericchansen/q2mm
+e8af2c6821b5d50aaafed884c593e4f0a17936a7|2016-02-15|Eric Carl Hansen|Working on modifying Q2MM to no longer use sqlite3.
+824ac88005c8f6ca6f0bbe93a57f96b508a26db8|2016-02-12|Eric Hansen|Update README.md
+591fbb900f6d6271f7540597723f44b40ab4b503|2016-02-12|Eric Carl Hansen|Fixed a typo.
+b963da6f997a748f58463ecf6515d37225a55461|2016-02-11|Eric Carl Hansen|Fixed typo in simplex.
+dcbd1bec4d14438144b2a1d5db86830a93744e80|2016-02-11|Eric Carl Hansen|Fixed a typo.
+da789ef5da0e442ff7233816daf0809d94821169|2016-02-11|Eric Carl Hansen|Merge branch 'write_data'
+37f665d458a91c1a6632fb8fb560d99dbc193abc|2016-02-11|Eric Carl Hansen|Added backup scheme for loop cycles.
+40a09b93e7c2163e8f447fc28272bf24a9bfc0a7|2016-02-11|Eric Carl Hansen|Now also checks for torsions that may or may not be used.
+0c1a0127d578fb731a0aca32dc26d033c0b9559c|2016-02-10|Eric Carl Hansen|Slightly more reasonable defaults for gradient.
+0053c92ed1111c6a18cee0cd347a5bd62934899d|2016-02-10|Eric Carl Hansen|Added conversion for Gaussian energies to kJ/mol.
+c6b3891b7d1742410667d70cc896823c62608115|2016-02-10|Eric Carl Hansen|Added the option -geo to calculate.
+bb06cd90c1c22fab0d585ec6f1cbbb5e4872e4b1|2016-02-10|Eric Carl Hansen|Added Gaussian energies.
+8aa8e6c7512c1982857a9db1a7aaac13af15a94b|2016-02-10|Eric Carl Hansen|Merge branch 'write_data'
+42bca53fa44daaa5bbdb0046be0f6c00ef26ed2d|2016-02-10|Eric Carl Hansen|Added best_ff property to simplex.
+1e5459c48d1496cebcd5334862f9a126480c7057|2016-02-10|Eric Carl Hansen|Minor syntax errors.
+de4b0f0f344260abd039121f9d2f45d353115860|2016-02-10|Eric Carl Hansen|Minor syntax error.
+5020f14f40f1d54cd9f2c39327aac8db64e969ea|2016-02-10|Eric Carl Hansen|Corrections to work with differentiation file.
+e390fef263e33bf5926b5dfc85b7cc460b33e1c4|2016-02-10|Eric Carl Hansen|More reasonable logging config.
+b0c3a75a091775874814af2fead5bf3483d4555f|2016-02-09|Eric Carl Hansen|Resolved merge conflict and remove some comments. Conflicts: 	simplex.py
+b6cda126a47343ebd110012e9a957481abe6d6e9|2016-02-09|Eric Carl Hansen|Working on two issues.
+15bef7c87490d629a850ceddf0f99e1fde063b12|2016-02-09|Eric Carl Hansen|Added thoughts on direction.
+18c805b23e7171c46acd6ee39e85c11179ab25e7|2016-02-09|Eric Carl Hansen|Added thoughts on direction.
+58fd3ffca4cd3871a189b4cdf4aa1b3a6b2001d6|2016-02-09|Eric Carl Hansen|Changed how parameter step sizes are modified.
+97a084e2ad33da8efe5b79bc02e1d3cb1e7d9909|2016-02-02|Eric Carl Hansen|Added --nozero option to parameters.
+b0d22df168406c57a3d2adf1531684ddfb0be0c0|2016-01-28|Eric Carl Hansen|Merge branch 'master' of https://github.com/ericchansen/q2mm
+afe7dc6359180450864082b151a096de4e2046a6|2016-01-15|Eric Carl Hansen|Removed accidental sys.exit from simplex.
+31b08dd2f939c0e50b169de6c17ccda7063a2861|2016-01-14|Eric Carl Hansen|Many changes to hopefully improve the memory usage of gradient.
+139181ab2f2e48c4f41bd17c0e0e8fcc099c3886|2016-01-04|Eric Carl Hansen|Adding flexibility to turn on/off sqlite3.
+3a0ea86bbb5a26ee6550f05fbc7ac51180c968a8|2016-01-04|Eric Carl Hansen|Simpler logging defaults.
+1a6b45e0143d9d23abd576e416b6ef2a6635f31b|2016-01-04|Eric Carl Hansen|Modified calculate's help for clarity and brevity.
+789ede6fe45d1c3d4ae8c2e5b1bbcdb27fafb0d6|2015-12-18|Eric Carl Hansen|Tidying up filetypes.
+e9d6823bdc3b1bdd821bbae8b7b0c150d7284574|2015-12-18|Eric Carl Hansen|Merge branch 'master' of https://github.com/ericchansen/q2mm
+90423d4b2058fa771f093cd628cb304a70519332|2015-12-01|Eric Carl Hansen|Reworked how allowed parameter ranges work.
+611a86939b74b32ba0e28420b03742f4707067ab|2015-12-01|Eric Carl Hansen|Modified behavior of reading parameter file.
+a0bae27931e14d8868d1c6c7cc7fefe2e1e34a23|2015-11-30|Eric Carl Hansen|Merge branch 'master' of https://github.com/ericchansen/q2mm
+fe19e4675f0d938437efc0ec1cc19f6af1afa098|2015-11-23|Eric Carl Hansen|Still fixing silly variable mistakes.
+e4a35c9aae735bde34f9dad72d02b93ca060bdce|2015-11-23|Eric Carl Hansen|Fixed an error with a variable name.
+f5db5183cabb7862067e60584240e6d55b17d736|2015-11-18|Eric Carl Hansen|Less obnoxious default logging levels.
+1bbccfbdedae3e0c318847e77950c305628d821a|2015-11-13|Eric Carl Hansen|Fixed minor syntax error in filetypes.
+9587c7bce4bb13364873334e287e8b50e1d165ef|2015-11-04|Eric Carl Hansen|It appears that this is due to some code in pHessMan.py.
+4cbac6fc2a3745dfb1ff69a6571635811552e0ae|2015-11-02|Eric Carl Hansen|Changed how element names are looked up. Added to filetypes.
+89c87d1b074bd06989752add8c1b8c714970972c|2015-10-28|Eric Carl Hansen|Changed how ParamMM3 returns reference angles.
+cecd8b54c57bd6703b3f00aa82ec2e339921a01f|2015-10-12|Eric Carl Hansen|Error in MacroModel .com file syntax.
+44241e753d81541005f2934d58d36a5470ff7ca2|2015-10-12|Eric Carl Hansen|Simple syntax error.
+7a64a68ee0bf2e6195992c8b5fdff4592776e6e3|2015-10-12|Eric Carl Hansen|More intermediate logging.
+121fc2839d62bf968c602eac2f2474811f399b50|2015-10-09|Eric Carl Hansen|Merge branch 'master' of https://github.com/ericchansen/q2mm
+4ec6867ae6843d3da599856c5e893d68dc57e92f|2015-10-09|Eric Carl Hansen|Adjusting default logging levels to be more reasonable.
+3a20d157c7cbcbb90e16633625794eab33fa602c|2015-10-09|Eric Carl Hansen|Incorrect logging syntax.
+0f7a028e720f348d8ef285d262c2f11233d3f7b2|2015-10-09|Eric Carl Hansen|Slight modification to syntax of parameter printing.
+0269f7aa5f790f1beeb3399814cc7e48dd1ce32f|2015-10-09|Eric Carl Hansen|Modified substructure name regex search.
+14ffa00ab37528862fe631be9b0801d064188504|2015-10-07|Eric Carl Hansen|Removed force field assertion.
+719983bc9a7677748e310a3462ac293c4e395152|2015-10-06|Eric Carl Hansen|Modified default weights.
+2ddcf77b35c142f1d8080ebeab8812528e2e9259|2015-10-06|Eric Carl Hansen|Modified token check for MacroModel.
+c8578e25d10d8c2ccb3938beb7a9d388ee9c36b0|2015-10-06|Eric Carl Hansen|Merge branch 'master' of https://github.com/ericchansen/q2mm
+165f1c802433c14b8ebfd700edc75a82fd8cc58f|2015-10-06|Eric Carl Hansen|Added logging settings for parameters module.
+d831c45a740cad0facda25cf3cd698aa1d642db9|2015-10-06|Eric Carl Hansen|Added keyword neg as default print for df and q.
+a06d8aa439e555d2f5fcd57d8888445c9f07b9c4|2015-10-01|Eric Carl Hansen|This file is needed for pHessMan.
+043d75e338bd1065fee7675d362fee230c1fbf2d|2015-09-29|Eric Carl Hansen|Added more sensible way to do geigz.
+edcac3f1c8baaacac969448be03a44431c7f329f|2015-09-29|Eric Carl Hansen|Added palladium to the dictionary of elements.
+c553455080e42057f7d01a04a80e63e4ca433544|2015-09-29|Eric Carl Hansen|Added option mgeig and renamed meig to mjeig.
+4e31c159a0e64362c01d2121cb21102daacf7b34|2015-09-28|Eric Carl Hansen|Merge branch 'sep_fld'
+31f2de3c610d172a0b81aeb2440195deae262ace|2015-09-28|Eric Carl Hansen|Added option for Gaussian eigenmatrix.
+ab885a693e9a354b1ddb64f04c09cb772f66d315|2015-09-28|Eric Carl Hansen|Added Gaussian .fchk function. Working on Gauss. .log function.
+a36294cc23e21ee8ab0768255832901410863800|2015-09-24|Eric Carl Hansen|Adding more documentation to new filetypes.Reference class.
+6d9f729492d0b942563aaba385ae0befa70b55d2|2015-09-24|Eric Carl Hansen|Added method to read reference data.
+fb662bf6f11904d364ce5288e71a45f8b943e4eb|2015-09-24|Eric Carl Hansen|Changed jeige to jeigz.
+158e3e7550bc037b1d379cf8e6fff3f91d1f1731|2015-09-24|Eric Carl Hansen|Removed old testing pieces of code.
+a0a24584c38c5d841aeb8618406769cbfb574dac|2015-09-23|Eric Carl Hansen|Fixed variable misnamed.
+61a5754a840aa5712bc319a162df7faa20908585|2015-09-23|Eric Carl Hansen|Fixed bug related to jeige and meig.
+669f49432112777561d70cd1c600df3b57840faf|2015-09-22|Eric Carl Hansen|Adjustments for the new import and export of force fields.
+9b299e62fa2a445593f9419e0942cb1acea82edf|2015-09-22|Eric Carl Hansen|Adjustments for the new import and export of force fields.
+4bdb02f07936b48b0051bd8186ce9c053bd43f24|2015-09-22|Eric Carl Hansen|Minor logging message adjustment for style.
+4a7ca90982a125422f7f0995b14a6550adcdd251|2015-09-22|Eric Carl Hansen|Working on syntax for import/export force fields.
+edd203fd73d5b17dcad360e0cbf7afb624474389|2015-09-22|Eric Carl Hansen|Merge branch 'master' into sep_fld
+cc0a670e0ddd0564ffd8256dbe2488458c1e4d70|2015-09-22|Eric Carl Hansen|Fixed bug in writing MacroModel .com files.
+cd335a02b2ede4c39eba97f2297806c328fb994c|2015-09-22|Eric Carl Hansen|Working on using new import_ff/export_ff syntax.
+c0b001e869c68ffe46632546824ff0aad86827b2|2015-09-22|Eric Carl Hansen|Added a new export_ff class method.
+d6a71a115708f7dd34c3d4dd4f73450662702c71|2015-09-22|Eric Carl Hansen|Resolved issue #6.
+5dfdbee1ad5e5ca0bc2c08642d93225746b84364|2015-09-21|Eric Carl Hansen|Working on force field reading.
+3cf830bcf1ec3a78c63132dd01389735e7a0f417|2015-09-21|Eric Hansen|Delete optimizer_bup.py
+60b12e8137e15fab655259e3c331d29f5cb72ea0|2015-09-21|Eric Hansen|Delete optimizer.py
+e994815744e5daa715bc16baa059815d3f47ca35|2015-09-21|Eric Hansen|Delete weights.yaml
+aeea1d76af3fb8a691f77efd1fead36442edd308|2015-09-21|Eric Hansen|Delete logging.yaml
+c2c67ef65e37245a5063fac269ac1f94c4818e7a|2015-09-17|Eric Carl Hansen|Updated README to include information about "neg" keyword.
+3614a5fd5a4690b5f0e88bec48a485d5260a0ca9|2015-09-17|Eric Carl Hansen|Added option to not check Schrodinger/MacroModel tokens.
+0ee70beb75f6b0dae9583e07eac54cc4f4c9dc9e|2015-09-16|Eric Carl Hansen|Made minor adjustments to coordinate retrieval.
+83a7175c0ccd626658ac708abc473b0a11a1eec9|2015-09-15|Eric Carl Hansen|Added jqh to calculate.
+1bb579f04dbe4fa9cd983e49dc3e1bd696ab967f|2015-09-14|Eric Carl Hansen|Added -mqh to calculate module.
+f2e57cd2c825e7bf29821cb65c451e1189f6f65e|2015-09-14|Eric Carl Hansen|Added boolean on/off switch for selecting which charges to use.
+24787a065ccf7d5c0690fb664802f219a1378e27|2015-09-10|Eric Carl Hansen|Cleaning up calculate.
+0c6a725933de058fbe015fa7f8a4368471dbf948|2015-09-10|Eric Carl Hansen|Moved the temporary class calculate.Mae into filetypes.Mae.
+ce033e2bbed37939801db6c9b67e0c658542d5e0|2015-09-02|Eric Carl Hansen|Fixed typo in calculate. Caused -mcs2 to fail.
+167fa859c08b01ba656cd7ec8779177201a295de|2015-09-01|Eric Carl Hansen|Fixed issue with SVD not adding solutions to trial parameters.
+b157095fd3f40702801cbb2864e24696ee486e52|2015-08-31|Eric Carl Hansen|Changing more default logging levels.
+85578d3ab0e3a5e8a97bee4b2b59cdb62844adcc|2015-08-31|Eric Carl Hansen|Changed default logging value for constants. Was bugging me.
+2bad777d71c4c4a39e97fe962a9977daded9a4cd|2015-08-26|Eric Carl Hansen|Merge branch 'v3' of https://github.com/ericchansen/q2mm into v3
+37e11dccf26af9a5cd8d6ad3cfb7bb42d0fcb99a|2015-08-26|Eric Carl Hansen|Modified calculate logging.
+e7303170113885e527f8ba705d0a0b9686007e55|2015-08-26|Eric Carl Hansen|Looks like charges are in.
+1e8d511a493e16f9fd4c4ee6f8b5a85af5927da4|2015-08-26|Eric Carl Hansen|Formatting and included things I forgot.
+0cf50cbb5d55ffb4b18e507d64232a8cd2f5e6dd|2015-08-26|Eric Carl Hansen|Working on a README file. Not done, but better than nothing.
+a15df9405f812f27a522d3eada99a6cc3f319ad6|2015-08-24|Eric Carl Hansen|Fixed error in how NR functioned differently.
+6aace346aafa688119f1c17677d940876490bcf6|2015-08-24|Eric Carl Hansen|Modified logging messages.
+9561f4b1367c815da1fd58c6b6008240b5030caa|2015-08-24|Eric Carl Hansen|Added factor to the methods for Lagrange and Levenberg-Marquardt.
+51e3caccecf1298b22033fcd6710228eb9bb108a|2015-08-24|Eric Carl Hansen|Modified loop syntax to make using CDAT and RDAT simpler.
+58a339d9df61e229dde7b1d2625c2b72cecc473f|2015-08-24|Eric Carl Hansen|Loop wasn't always returning the best force field. Need to test whether this has been fixed now.
+40395229fd95d7082b1226d00503241f7b810bb2|2015-08-24|Eric Carl Hansen|More logging when scoring force fields.
+b1e45960555312555e286246fdf63d31b9f949eb|2015-08-24|Eric Carl Hansen|Tired of seeing a silly logging message too often.
+6f8288591f48993c0a58c9a91ee0107f53ef6b64|2015-08-18|Eric Carl Hansen|Compare now pulls data in much smaller pieces.
+99d315f247c68e4313e85eb175a7a308dc3129fc|2015-08-17|Eric Carl Hansen|Print option now logs instead of prints.
+eccbfe99e98dc466532f3dcf9effd7b99dde6be6|2015-08-17|Eric Carl Hansen|Modifications for testing.
+c1b928be0fc859080765b28f6ee51be7207056f7|2015-08-17|Eric Carl Hansen|Corrected differentiation scheme.
+bc9e43c0f11b57988edb070b8900625f6693206b|2015-08-17|Eric Carl Hansen|Testing if loop works. Seems to.
+d904ffb25b5bb909f2b68d02b851a8d0675b4bb9|2015-08-17|Eric Carl Hansen|The gradient module seems to work.
+22df27d974eccb15bba5ab62c2236375c8db9f01|2015-08-14|Eric Carl Hansen|More work on logging.
+777dcd3d25f76a3fad28e2a51c01649d3152b7b4|2015-08-14|Eric Carl Hansen|Just working on logging messages.
+5a27aa5a2bd271de142d3f3e0afb8d85fccf79cd|2015-08-14|Eric Carl Hansen|Finishing up gradient.
+1ab348cf69782cf7091baa2a5e357b34d17b78fb|2015-08-12|Eric Carl Hansen|Working on reading Gaussian archive.
+eddb14f894214ad7598ce0fe7e84555a718e842e|2015-08-12|Eric Carl Hansen|Major revisions to entire code. Let's call it v3.
+bcf276405e30085c642834f9075fd0a0da997f56|2015-05-20|Eric Hansen|Merge pull request #3 from ericchansen/iss2
+895bc684cfe1fb436f8d3b4b28f9bcf1c1c6dad7|2015-05-20|Eric Carl Hansen|Fix for issue #2.
+4de9a77def636aef5579a4890ab5c9730672c7cb|2015-04-09|Eric Carl Hansen|Fixing bug with -ja, -jb, -jt.
+128565c230cb877181105432d793f81c5bbd87d0|2015-04-09|Eric Carl Hansen|Merge branch 'sep_jacob' of https://github.com/ericchansen/q2mm into sep_jacob
+13270d60962041d33cae69e06e40022b465f73ac|2015-04-09|Eric Carl Hansen|Added method for including torsions in the reference data.
+a55e360887d91f65980cba0cdf54f62fc78d9db0|2015-04-09|Eric Carl Hansen|Trying out another conformational search automation.
+aeb970278f42e5e23101105f5fc7230e83f5d6ad|2015-04-08|Eric Carl Hansen|Fixed bug where simplex wouldn't update parameters.
+0e7058c1f6103544649adc5b68297aaf1acdf217|2015-04-06|Eric Carl Hansen|Corrected MacroModel command to LCMS to properly be LMCS.
+8abb317a637b236bdd6ad5a16f4b8c783a68082a|2015-04-06|Eric Carl Hansen|Merge branch 'sep_jacob' of https://github.com/ericchansen/q2mm into sep_jacob
+b58eac4f205c80474cb34ed335cf37c6aa5e0cc9|2015-04-06|Eric Carl Hansen|Added options for calculate.py to setup conformational searches.
+82a6d26ae367306025893ada01c89c980a4905ba|2015-04-01|Eric Carl Hansen|Fixed combination of -me2/-je2 and -me/-meo/-je.
+c1058efa660d2c8364dba02643016af19071544f|2015-04-01|Eric Carl Hansen|Merge branch 'sep_jacob' of https://github.com/ericchansen/q2mm into sep_jacob
+c5c1cf988e451d85f43af30ef2e412f8e60b571e|2015-03-30|eric|Improved plotting.
+269d76c7d498d771b03341cd7d64c1c25fe3c59c|2015-03-23|Eric Carl Hansen|Improved error reporting for failed MacrModel runs.
+ae73bbe9c3c40415f0042f6b35927470625aca56|2015-03-17|Eric Carl Hansen|Fixed how equilibrium values were modified.
+f9fa3f5adfb8a5eb30e856c68c47f7654bb6bb34|2015-03-06|Eric Carl Hansen|Modified MM3* parameter reading
+be028250efc2b537021f75bdf8f750723f6e4224|2015-03-06|Eric Carl Hansen|Set more reasonable defaults
+6ee7b35b820512968edefb5c9021989529d189c4|2015-03-05|Eric Carl Hansen|Added parameter check (partially working) and modified others.
+fffa41a79c6b6d1b928d9aae02ee38ef3f6b6b44|2015-03-05|Eric Carl Hansen|Changed logging level
+1ceaa46551c472d1a9dcc581f0bb315a55742711|2015-03-05|Eric Carl Hansen|Fine tuning last commit.
+bfe0f846f666b1a4a2f4dcfd3d3210cbaf5e1a73|2015-03-04|Eric Carl Hansen|Added ability to parameters.py to set average equilibrium values.
+2c51c7d510588f10d71110666c1c3543520a5e28|2015-03-04|Eric Carl Hansen|Still working on that argument processing. Finished?
+1da69c33f45a98d0e6b5748c824b7b45eb39e31a|2015-03-04|Eric Carl Hansen|Working on argument passing.
+2e5e2c9d65232568db034978f552a952cce5015c|2015-03-04|Eric Carl Hansen|Git told me I had to.
+4851bd9e03e1a130018bd5242e19442cdf9a61c3|2015-03-04|Eric Carl Hansen|Still working on argument handling.
+45f8c3074e38e678a39142eb034055ddec4e086f|2015-03-04|Eric Carl Hansen|Improving argument handling.
+1729ba99b6af03ed6d4dcb6098013091810c7e7d|2015-03-04|Eric Carl Hansen|Updating documentation.
+d54fdea48fdcc7d4cf838734263cf2e2247d73db|2015-03-03|Eric Carl Hansen|Added help dialogue.
+a50fa425c4db1c94349f69f92bc154f69b2f8071|2015-03-03|Eric Carl Hansen|Improved handling of argument parsers.
+5224336db5ce3d05c11467101b4401d1d406b41c|2015-03-03|Eric Carl Hansen|Improved handling of argument parsers.
+cb8051ec96d34d8101d31bed1850ebc350a69273|2015-03-03|Eric Carl Hansen|Modified how arguments are passed.
+f55809c0628c74d1fcbc4bb33dac49fcc93c68a5|2015-03-03|Eric Carl Hansen|Added support for another attribute, groups.
+763b19439253792a854aed297e44a786ab2e8ddf|2015-03-03|Eric Carl Hansen|Added groups dictionary--may or may not keep
+6a0b0cc2bc5846ea197dfde885dbb9423ac51a24|2015-03-03|Eric Carl Hansen|Improved descriptions. Added support for parameter files.
+af0f808bcaae76ec4a76df99fd4a37df57e7d32c|2015-02-26|Eric Carl Hansen|Fixed errors induced when adding -jeige
+0d1fdef71f139d7dcbe448ce62097b54a6ee0dab|2015-02-26|Eric Carl Hansen|Changed -jeige data type label.
+c3009ebe7b19216c8dec4b5327d584da0b832509|2015-02-26|Eric Carl Hansen|Added method -jeige to calculate.py.
+6cddfb02d92b7fc4e6cf1d84eeae6073077a1213|2015-02-24|Eric Carl Hansen|Fixed misssing parameter scaling
+32098ee60e656e09651392d46ab092a4dd308cc4|2015-02-24|Eric Carl Hansen|Added scaling of parameter changes by the parameter's step size
+21cf34880efb5d03b48656f9048089cbfc38031b|2015-02-24|Eric Carl Hansen|Added ability to set allowed negative parameters in the parameter file
+1c54b6a4c901d8c9e49b2ef13bfc02bae567203b|2015-02-24|Eric Carl Hansen|Modified to export bond parameters w/o charges
+9babab882f41a46ac8429058dc8a1f6b29d646e0|2015-02-24|Eric Carl Hansen|Modified datatypes.py to read MM3* FF's w/o charges on some bonds
+daa3adf611c0524a52f4573ae925ff8ccca35ff7|2015-02-23|Eric Carl Hansen|Added method to calculate.py to read simple text files
+dc935d06d0b12d8f3c252b7c6cba3860f1437dd7|2015-01-14|Eric Carl Hansen|Changes to filetypes.py and get_most_converged.py
+46d0bfe7c0330b9f02c11678ad4ec0ab300bc3da|2015-01-12|Eric Carl Hansen|Adding some plotting tools for visualizing PES's. Work in progress.
+f0526320af131c740d895203dae652c05dfa5dd2|2015-01-07|Eric Carl Hansen|Fixed problem where steps could be zero
+750b1b46970f6ce6fbb6b87cf064b307fb1870a3|2015-01-07|Eric Carl Hansen|Fixed typo in compare.py
+8efef68507089f3707fb4f830b79267cb4392b0b|2014-12-18|Eric Carl Hansen|Minor change to simplex.
+5dd7165aa397b98e63a67ce89be6c8085c2081de|2014-12-17|Eric Carl Hansen|Fixed IndexError that originated from differentiation of parameters.
+1f2a6da9553e88f7bdb5a9b784b6fbb0f5d5104f|2014-12-17|Eric Carl Hansen|Fixed logging of original / modified step size
+a1e354b13529f8bc2af0674c05d934cb9e932685|2014-12-17|Eric Carl Hansen|Fixed missing data extracted from simplex after error.
+834d16bc314b4704a2a9aa4e66aa5e3d28bb5801|2014-12-17|Eric Carl Hansen|Lowered logging level of running MacroModel messages
+4c3b29c9ba8e0c5cf240a6221595b2d7983dea1c|2014-12-17|Eric Carl Hansen|Forgot to check the contracted parameters
+c0361e49fd0db8d16413930f11c1440aa56a6550|2014-12-17|Eric Carl Hansen|Enabled loop to provide arguments to gradient
+123c5ffd9d0cc2f1a015302e18c80f107629a7ae|2014-12-17|Eric Carl Hansen|Modified logging syntax
+0cc8ee4edda62da04fa54d257bfa6db48475d6ac|2014-12-17|Eric Carl Hansen|Simple syntax adjustment
+356f14abbf061970ea250c636f3a9a8c8f61bb79|2014-12-17|Eric Carl Hansen|Changed location of log message that displayed before help information
+a39cc110893fcd16bba8f48a409ab0dff9e983b7|2014-12-17|Eric Carl Hansen|Improved method name generation when max radius used
+6c86b5f1885866c4d87bdf21e7ab63334b960320|2014-12-17|Eric Carl Hansen|Made gradient methods more robust.
+e5522930bd8bfaeca9c851dd455a747b494f5d16|2014-12-17|Eric Carl Hansen|Removed steps.yaml - dictionary moved inside constants.py
+1b2e5e58d7a59d40e1d0bc8d0f522ec0e496daba|2014-12-17|Eric Carl Hansen|Checking how gradient generates new parameter sets.
+aa2f02d31aed283f7edfd7d7a16759d523d49341|2014-12-16|Eric Carl Hansen|More logging for differentiation
+6e53621888c9ee3a9f36b9da20a14d08b05e5341|2014-12-16|Eric Carl Hansen|Restores initial force field if no improvement
+db46a8dfaa798acbc0c54c4f587cfccae0ced505|2014-12-16|Eric Carl Hansen|Working on giving more updates on parameter changes
+027a2b69d443bf423de4e34ef7eb87a5e638581e|2014-12-11|Eric Carl Hansen|Merge branch 'new-version' of https://github.com/ericchansen/q2mm into fix-unallowednegative
+2c6e2f84751a6097fc730827e938f5740090889c|2014-12-11|Eric Carl Hansen|Forgot to copy method if simplex failed.
+148086208d4d481934067774f61c0dac212d4edc|2014-12-11|Eric Carl Hansen|Needed import UnallowedNegative
+fb01b17b20eb5f2c227323677caea3c53936c913|2014-12-11|Eric Carl Hansen|Pulls out coordinates from Gaussian logs.
+296a7512140f5f998d8552f7e8b2eaa15387a8d0|2014-12-11|Eric Carl Hansen|Working on handling UnallowedNegative exceptions that are popping up. If a parameter goes to a unallowed value during differentiation, it should now discard the forward and backward steps for that parameter, change the step size to 0.05 * current parameter value, and then try the differentiation again (hopefully without a UnallowedNegative exception this time).
+a2b9ed3a3d37450bb37285413eac56de923ab239|2014-12-10|Eric Carl Hansen|Added missing weight import for dtype eigz.
+87e5e744305d2efc7189e74e3732ca9e8e24a277|2014-12-10|Eric Carl Hansen|Refined how data is passed between optimization methods.
+1fbda8a0f037592e787d5131786ace280c1b614a|2014-12-10|Eric Carl Hansen|Simplex no longer repeats FF calculations for forward differentiation after already doing central differentiation.
+048e38409541a4c81f34d85f7b86e096eb5c4fa1|2014-12-10|Eric Hansen|First working build of what will be v2.

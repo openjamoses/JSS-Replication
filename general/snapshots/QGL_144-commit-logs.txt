@@ -1,0 +1,1719 @@
+a690d9126c6a795d88e6dfb87cab203b6c03f029|2020-05-28|Matthew Ware|WIP: Updating in-place method for sequence instruction (#265)
+32e21461bd35a660d0ebe07c755f3edb14db4a19|2020-05-19|Matthew Ware|WIP: in-place updates (#264)
+5e63bbce42e576e28fb2b6dcc1a4bc927bafbdea|2020-05-13|Diego Ristè|Merge pull request #263 from BBN-Q/fix/RB_meas_qubits
+032d17997af6b54592bb9d55aa7073f6ec5d5a5a|2020-05-11|Diego Ristè|Oops
+3b0802d6e0e1409b233863c21ba75f5d215d11e4|2020-05-11|Diego Ristè|Fix meas channels for RB
+ae1e2dbc385625c317ec63e04bbe272d8cb148aa|2020-05-08|Diego Ristè|Optional meas channels for RB
+c5a076fbe2f7aa08d8d52d3ee9c6868aa1edd500|2020-04-23|Guilhem Ribeill|Merge pull request #260 from BBN-Q/feature/euler-pulse-primitives
+bb46df4647e8f2c3b88eb6ecb40877b935773897|2020-04-22|Diego Ristè|Create __init__.py
+25bd9c929241b35ceae939be25218df9a5deba65|2020-04-20|Guilhem Ribeill|Make angle sequence definitions consistent.
+350234cf7afc49825efcb07aaf7b736629efb3eb|2020-04-17|Guilhem Ribeill|Add pulse primitives for Euler decompositions
+c60876ca0bf2a4e19435ca95b484d274fc83ab0d|2020-04-16|Guilhem Ribeill|Merge pull request #256 from BBN-Q/feature/XYX-cliffords
+335530f94489af63e345c45e8ef6c33a0825b0e8|2020-04-16|Matthew Ware|Make travis more explicit and fix warnings
+839137e00cfcfee73a0b8bc74e855f6142cbc26e|2020-04-16|Matthew Ware|Rename test_pulse_types.py to test_Pulse_Types.py
+ee60242b9248a90f2cc1e7090b86c3c58c57c433|2020-04-16|Matthew Ware|Rename test_config.py to test_Config.py
+94c6e060c987f4c9e262fe5fd81624ba70db423b|2020-04-16|Matthew Ware|Rename test_perf.py to test_Perf.py
+3c5e6575ed8fa4a629d20e0ffa860e7260cfec48|2020-04-16|Matthew Ware|Rename test_euler.py to test_Euler.py
+7d256bc4e119799eb352476cb33b94f87cc2b80b|2020-04-16|Matthew Ware|Rename test_clifford.py to test_Clifford.py
+c05131091b713d717ddf67d2c152b3f64c9384b5|2020-04-16|Matthew Ware|More formating.
+850bdbf3f58288777c711e1f14823cf861da5dac|2020-04-16|Matthew Ware|Minor formating.
+2502a6906a66b074d32b8f1d4cf9ac882a31988c|2020-04-16|Matthew Ware|Added some basic doc.
+7786882f4223299e06901133b4f8af661acd6c2e|2020-04-16|Guilhem Ribeill|Add uncompiled DiAC Clifford option for RB sequences
+750a31c1357e38b74895f5f978aa31732335178c|2020-04-16|Guilhem Ribeill|Fixes for two-qubit RB
+14f127a33255d9ffc4fa1d124fe8b2c392221b47|2020-04-15|Guilhem Ribeill|Fix keyerror in clifford types
+5d77040e16f57b0299463d2c255fec30850aa1a0|2020-04-15|Guilhem Ribeill|Update tests.
+561ffe2298642090a236253dec9c40d520935e80|2020-04-15|Guilhem Ribeill|WIP: Update RB to use the new functions
+9b066bd0c506aa3052cc08443c297647c1df19c5|2020-04-15|Guilhem Ribeill|WIP Refactor cliffords sequences
+f42319ad27e6cb70df7ba8a28c503d30acfafbbc|2020-04-15|Guilhem Ribeill|Move Euler angle stuff into tools directory.
+04b1d6669a2bf4c2ffa01ddcae444b47c77ec5da|2020-04-15|Guilhem Ribeill|Refactor Clifford operations to separate out those that deal with pulses from pure matrix manipulation
+a58a74e0152f3a8c0c648598834ffb4953cf993f|2020-04-15|Guilhem Ribeill|Move matrix tools to separate file.
+1d072678152b15d23d2aca6c65ee5241d265e4a9|2020-04-14|Guilhem Ribeill|Make sure XYX angles are in (-pi, pi).
+83fba4e8d6933e51a4333fc02dee5f3ce4142730|2020-04-14|Guilhem Ribeill|Add diatomic Euler angle decomposition
+c0bd5056eed0657ff8c85bc95a2547aa27786369|2020-04-13|Guilhem Ribeill|Add sequence helper function
+ae7f22b5fc606a8415e286ffabd43d3fbb71977c|2020-04-13|Guilhem Ribeill|Add Euler angle conversion tests.
+01d39f6ade58a3ecf84fd564d35a5efb4bbe1cff|2020-04-13|Guilhem Ribeill|Add euler angle conversions
+2f450c1e88bf88d5e50d56da3c5caf47d6e4f0c1|2020-04-04|Matthew Ware|Standardize add_cals interface. -MW
+ebf8ab01248c16cb21a2a6f65bfceee6378eeccd|2020-04-04|Matthew Ware|Final round of documentation update. -MW
+85683e62a52b7f3adde5c66d00c509f64e995381|2020-04-03|Diego Ristè|A few typos
+4f6b461560c6dc33cb84387d457ec9f06cffb79a|2020-04-03|Matthew Ware|Docs for feedback need review. Updating and asking for another set of eyes. -MW
+46eb5e79ce09afe611600849c96fa97f0dbd8ae0|2020-04-03|Matthew Ware|Fix an incomplete doc string and flow logic.  -MW
+43cabe20ab7a586317dc7237ed10452bb6d0acdd|2020-04-03|Matthew Ware|WIP: updating API docs. -MW
+52955ccfe1fbee5f1857095c736c68f4d7c0e7a0|2020-04-02|Matthew Ware|WIP: Updating functions docs. -MW
+a37d9d691fa11b900147c45bb6cde9db7f66f21e|2020-04-01|Matthew Ware|Update doc strings with return values. -MW
+8506c94f0a24efb0b4bf8ba20980b0e51a19a973|2020-03-26|Diego Ristè|Merge pull request #254 from BBN-Q/feature/par-drives
+65c63dc5a670c3e0bff45bc1f7f0ec5672ab4bcf|2020-03-16|Diego Ristè|Not all logical channels must be qubits
+934e59ba5fc3d3492b3a09c6a20b7a3e8277490d|2020-03-16|Diego Ristè|Add parametric pulses at compile
+0daa7a73ec82ef8d36b7c1104ea05cf998fb8c34|2020-02-10|Diego Ristè|Merge pull request #253 from BBN-Q/fix/frame-update
+d03eb7381beb69bef1fa201a71f3efde8bc05b4a|2020-02-07|Diego Ristè|Merge pull request #251 from BBN-Q/fix/examples
+2d44c5d4e15e62f466efc4d8073d556d4474735d|2020-02-07|Diego Ristè|Edit text on cl library
+86f8da78017adf7c324b1533498db3ccd5f73a60|2020-02-07|Diego Ristè|Merge branch 'develop' into fix/examples
+344268731f2f49b96a18fea10d406ddd4803c5e1|2020-01-31|Diego Ristè|Apply frame change at start of seq. if necessary
+80dda6f8b477e7dd5dbad7c61cfc8d8589ac59b5|2020-01-27|Diego Ristè|Merge pull request #252 from BBN-Q/feautre/bias-frequencies
+fb5643d4bf0e00e3d0d2a558515516b10aba4121|2020-01-23|Diego Ristè|Add docstring
+0e798abe9cd3a39ce06a2b0cf328e9039a10d65c|2020-01-23|Rich Lazarus|Update readme.md
+cd19560df47203463e58d8267d837e6c0dc83eb2|2020-01-23|Rich Lazarus|Update readme.md
+d58f4113908219d11d5f4cb9396bbbbe264cd94d|2020-01-23|Diego Ristè|Add readout frequency to bias settings
+5fc13cda5305c33cb57b934e6e943865e451b362|2020-01-22|Graham Rowlands|Updated examples to reflect new reality, and remove binary sqlite file
+75f6f2611234ac33ae5dbd9f1174c3b457e90608|2020-01-21|Graham Rowlands|Merged master example.sqlite
+06f6ab38c026f562e7c53d3ad29ce56c5ade8989|2020-01-21|Graham Rowlands|Version and requirements bumps
+5b4a7359355e3b80f97c697299e4dc8ca9d530b5|2020-01-20|Diego Ristè|Merge pull request #248 from BBN-Q/feature/device-status
+bc1ee1d4bdb99d7d5572eca7599ea349c9427bb3|2020-01-17|Graham Rowlands|Updated docs for jupyterlab/bqplot instructions
+445efb8071bcf0d17f1a096c5b5b2fa4f8e780d8|2020-01-16|Diego Ristè|Update example.sqlite
+d67c6c5dd3beee8c7a362415f1b0a342cb4048fa|2020-01-17|Rich Lazarus|Update README.md
+91dd8949417bfc19f45b161b1cadd9866bd955d2|2020-01-17|Rich Lazarus|cleaned up descriptions
+b8c7620bbe2d8719b65c13e99ba3660a7adb0bf4|2020-01-16|Diego Ristè|Update example.sqlite
+c90095e681f558b36330c1c4cf956149f7cc9723|2020-01-15|Diego Ristè|Update example.sqlite
+136a7fcfa80205f6dcde54c827f698d294729dea|2020-01-13|Diego Ristè|Merge branch 'develop' into feature/device-status
+b5735dfa2c04abf902c6dc9328cb77a58684c7b6|2020-01-10|Diego Ristè|Display CNOT properties
+2a4dbab36f9a580b97cd24b8ef4989deb6e1b323|2020-01-09|Diego Ristè|Show connectivity graph for device
+82280141dde296259c352188ffe50b50bc1b05d7|2019-12-18|Diego Ristè|Merge branch 'develop' of https://github.com/BBN-Q/QGL into develop
+a8dbba5def4d734c6e08f79da6e65830fa6b6e82|2019-12-18|Diego Ristè|Don't compare unique channels
+5f250c24478e699a00d68893970dadae335333c4|2019-12-17|Diego Ristè|Merge pull request #247 from BBN-Q/feature/leakage-RB
+c1488c6678252ed6f81fdc977974c9a3d325245c|2019-12-17|Billy|Merge branch 'develop' into feature/leakage-RB
+d60d1099e053df2656b6fb1d54d9ef80a1cf09d7|2019-12-17|Billy|Flat-top with 0 rise/fall
+5f287eaadb43b3f04011c07016a82e932c1bf769|2019-12-17|Billy|Leakage RB
+6a6aaef17c44f0104a56e3d6ce33be1f768c9839|2019-12-13|Diego Ristè|Fix latest instance given name
+64b07842f6e2012668f32190b01ac6f8c5b9aa4d|2019-12-13|Diego Ristè|Merge branch 'develop' of https://github.com/BBN-Q/QGL into develop
+5cf3604c9eddca698f091c773237f80454cb8462|2019-12-13|Diego Ristè|Fix loop in cl.diff
+6d248432ffcf90610cbed5d53c2291e14e6aa094|2019-12-10|Spencer Fallek|Merge pull request #246 from BBN-Q/feature/future-planning
+2ac324af6537c93cf1249fc532a2e2807e785b35|2019-12-10|Diego Ristè|Include instruments in diff
+48621acc2b4ec5c986b470808819a9109a1af128|2019-12-02|BillyKalfus|Merge pull request #244 from BBN-Q/four-ncos
+dfdca261d6cf50ef4ccd51485f5b3816ad74c200|2019-11-26|Spencer Fallek|update MAX_VRAM_ADDRESS
+3519d5a08ac7fc7e8acdd0a33cc91389a4a919cd|2019-11-25|Diego Ristè|Merge pull request #245 from BBN-Q/feature/cl-diff
+6b6781731422b1064f1c7e417e0d418d733bb016|2019-11-19|Diego Ristè|Fix table_code accumulation
+a4c355884b2a5eb842de8226f5736052ee8c0b40|2019-11-19|Diego Ristè|display diff as table
+b968726dc90bcba4d1dd29b3bfa7cc1cf2544138|2019-11-18|Diego Ristè|No db return needed
+50f34dd787df13cfad86a423f3cd28e8033407db|2019-11-18|Diego Ristè|Load and cmp two chan. libraries
+6990088cbef5120d96952ad0d076922b624c856e|2019-11-15|Diego Ristè|Restore aps2 format
+30bd37a511547d9a261122ce52987dca2e5009b5|2018-11-28|Brian Donovan|Reset 4 NCOs
+1bbe3c0a7ea24e3e1d0bade9f7176c4f3469fbbd|2018-11-28|Brian Donovan|Merge conflict
+c4d1453ada8b6c357872922c87cb9f351e42d77e|2019-11-13|Diego Ristè|Merge pull request #243 from BBN-Q/fix/APS-SSB
+f121681f26c459b89095f7d9e0e0c63b240b0057|2019-11-13|Diego Ristè|Fix length SSB wfs
+c0b89569626b392bb423ee2fa6672d7a3f7b75b2|2019-11-08|Diego Ristè|Move cal_ls to auspex
+737cf4e7cda084cb75c11a657c4f678757a5b322|2019-11-07|Graham Rowlands|Generic new_transceiver function for dummy/aps3 noodling
+3ba9ca0864d2e8981e542d04f96870bc246a93d1|2019-11-05|Diego Ristè|Merge pull request #242 from BBN-Q/fix/isTimeAmp
+529760b5273acccdcb9168ab81fd86d40de0a3af|2019-11-04|Diego Ristè|Merge branch 'fix/isTimeAmp' of https://github.com/BBN-Q/QGL into fix/isTimeAmp
+09217129dc1e20a172543ebcc399b044c2c588ce|2019-11-04|Diego Ristè|Fix isTimeAmp check
+cf0365c6d7b58e8e5bf15a99a7ea040ef49e9205|2019-11-04|Diego Ristè|Merge branch 'develop' of https://github.com/BBN-Q/QGL into develop
+ec3c6253f33313a4fabdc51697130a389c5eaf77|2019-11-04|Diego Ristè|Fix isTimeAmp check
+d90a333303ca6195359d8ddeff7d2b7f284ea5fc|2019-11-01|Spencer Fallek|add VRAM max address
+46c35981c794da14aee05266ae0c73d3299848b0|2019-10-29|Graham Rowlands|Merge pull request #241 from BBN-Q/develop
+188bd682884af8595825bf84173a7f70ed1a2698|2019-10-29|Graham Rowlands|Fix travis conda nonsense with conda upgrade
+2a0dba7b00c640ad0aef653466a455eca620aa56|2019-10-29|Graham Rowlands|Version bump
+4f02c919334ae7efe2e8fe75e1baa92c9b4b1bfe|2019-10-29|Diego Ristè|:bug: cal_db print
+2e47252dba3772b5691c2d627fce5c0f88fe4f16|2019-10-29|Diego Ristè|+1 :bug: Order cal_db
+ad0b0d274e6a688130823b7cf508a858a0c69971|2019-10-29|Diego Ristè|:bug: Order cal_db
+aa3deefb730d925d3d4be4aeed2f5616e40f03ac|2019-10-29|Graham Rowlands|Merge pull request #223 from BBN-Q/develop
+823d9e6ca5c05423bda058c5ab19552907ac6617|2019-10-24|Guilhem Ribeill|Merge branch 'develop' of github.com:bbn-q/qgl into develop
+6e066a86df4c5ff02b208b0cf288beaea19f6a22|2019-10-24|Guilhem Ribeill|:bug: TDM trigger interval was never set.
+f51e84eaec68718f2b2caa109afae8d50c287ae7|2019-10-22|Billy|Merge branch 'develop' of github.com:BBN-Q/QGL into develop
+aff1a7ed90cd21cef14ed25c39d6a3a35fad08cd|2019-10-22|Billy|Fix typo in set frequency
+8b25b2c6c3e24972ff85b7ea01413d34cc7936b1|2019-10-18|Diego Ristè|Merge pull request #232 from BBN-Q/print/cal_db
+6aa21c32dcededdb814188230e4307e7769f7068|2019-10-17|Diego Ristè|Merge pull request #233 from BBN-Q/feature/CNOT-imp2
+a33e3764a638d7458559b4a49d25f6d34cddad2c|2019-10-16|Diego Ristè|Docstrings and fix new_edge
+51cc8605fc84d04d6559058430599163b954036b|2019-10-16|Diego Ristè|Merge pull request #239 from BBN-Q/fix/read-tdm
+4397351d4e81b893ab663b2e269a716693b35c1d|2019-10-16|Diego Ristè|Don't define cnot_impl at edge creation
+4294e79ebe01d75d313db92a1f3d9b3136068a3d|2019-10-16|Diego Ristè|Read TDM instructions
+e3520caebdc87f500d6dfb3ff8922465a988e025|2019-10-16|Diego Ristè|Merge branch 'develop' into feature/CNOT-imp2
+9846fe05807fd5e3c5645ab2fe319674eea03266|2019-10-16|Diego Ristè|Merge branch 'develop' into feature/CNOT-imp2
+838c65cf37a8b3a0279f0e0656353b5d2856ec5c|2019-10-16|Diego Ristè|Merge pull request #238 from BBN-Q/feature/set-bias
+64b73b40c72f284bf7706f5108ae8c1d2c649cef|2019-10-16|Diego Ristè|Fix conda update
+0b65b3903f9f404726edc142411d247122256a3f|2019-10-15|Diego Ristè|Set flux bias
+f874dfa12d967358d2b81c096165dc4d2dbcdf49|2019-10-14|Rich Lazarus|correct typo
+130b09dcd15ce3a66c2d327d88bf5c102510fc6f|2019-10-14|Rich Lazarus|adding reference to config.py
+960c0b57d61d5808f895bb3e13cb6690f524e4bb|2019-10-14|Rich Lazarus|adding a reference to setup.py
+56176859756b479b70508234d0f1fdeb45ac545d|2019-10-11|Rich Lazarus|fixed link to config.py
+2898a8f4f359ac002b84b4051261b94020a4875b|2019-10-11|Rich Lazarus|removing index.md, replaced by readme.md
+f93f1b318e45ee9dbe7e57a15c1809640d1da860|2019-10-11|Diego Ristè|Merge pull request #235 from BBN-Q/rmfiles
+f40eab3d809f20bcecf8eda38591a524cf6fb251|2019-10-11|Rich Lazarus|Update index.md
+00164177cbab3d5572b35c07ed6a4e08449ee17a|2019-10-11|Rich Lazarus|renaming index.md
+83ca7e657ced0894d9c790a0018481885bbec244|2019-10-11|Diego Ristè|Merge pull request #237 from BBN-Q/fix/write-tdm-seq
+59fa519225bf5a4a695a3d9085624162b07e351d|2019-10-11|Diego Ristè|Write TDM sequence
+425d58d20801b3d64b64008fde56506642b2dd8d|2019-10-11|Rich Lazarus|Adding path name
+df57a9078df6fec5ca87c545d8acbca11b6963d3|2019-10-11|Rich Lazarus|removing obsolete files
+410a582584bb6e8320231bbfe9f9a4d001e9a3f7|2019-10-10|Rich Lazarus|fixing relative file references
+2916d3610e58f87784fa597a6cb7c2676b7dfae2|2019-10-10|Rich Lazarus|fixing relative file references
+a6dbdbfbf4460b7b45ac79942c76a21d63509203|2019-10-10|Rich Lazarus|testing file link
+b7a3162fc4f219addb6a1f5d4fe49ec475039cef|2019-10-10|Rich Lazarus|fixed reference to setup.py
+a10dcaa7f082b57799f63bc2ce1f76488fe5e5fe|2019-10-08|Diego Ristè|CNOT implem. as edge property
+f282ca4526e4b1c153ac91efc01320622162279e|2019-10-07|Diego Ristè|:book:  Add CNOT description
+3dce4ec0996ee010f8a80f3a64e585b1f7b9f7d3|2019-10-07|Rich Lazarus|clarifiying reference to auspex and bbndb
+6e4bc8e74c4ed27f9fa79cddc32df43471a79114|2019-10-07|Rich Lazarus|Clean up based on Aaron's comments
+cff6a2c881a2c77d9a8b014facd409f096350df0|2019-10-07|Rich Lazarus|Clean up based on Aaron's comments
+ba0fc6bf15a1ff4f94b72c6b61070a907938f831|2019-10-04|Rich Lazarus|Fixing links
+9dc46ab53698502e03ba1d3546df528f54b3279d|2019-10-04|Rich Lazarus|fixing bullets
+ce63dd3af1ef6654415950db296c15acd366d877|2019-10-04|Rich Lazarus|Added pointers to example notebooks
+8dc2e7879ea4e2765a2013018d967bd4d34f8a94|2019-10-03|Rich Lazarus|Updating readme. Added references to other docs and examples.
+169cbb7ff0ed961ef02f7cb005f0e52e5dd0d1dc|2019-10-03|Rich Lazarus|Added table of contents
+a9ec6f5a75ba6aec00b2ebe440d34ebc2aeae278|2019-10-03|Diego Ristè|Query sample_id
+4fcd7ca72826bea96ffe6d28e4e50cc5af189249|2019-10-03|Diego Ristè|Merge pull request #226 from BBN-Q/fix/example-notebooks
+1ff55efc26533d4ebe21fc714e186185b246f939|2019-10-02|Diego Ristè|Print all digits
+b46ecbda11d9edd3e2d31e05ae14ce6e7ca82cca|2019-10-02|Diego Ristè|db order descending order
+e3d550231a60ec83cef9173f50af1d9b1df82b30|2019-09-27|Rich Lazarus|renaming example notebook files
+43fd25675136dc48634cf928d8b650d30b2802b6|2019-09-27|Rich Lazarus|cleaning up comments
+045cc1c00e403b12cadb0c0ac1f52fe8bc3f33fc|2019-09-26|Rich Lazarus|Update index.md
+d79e4c7965b934cf1f2aad94c9b9db2400639de5|2019-09-26|Rich Lazarus|Update index.md
+23147e4fb2878c36be906608e3d58febc4449348|2019-09-26|Rich Lazarus|Update index.md
+bd05fb234f541c585c46f5614f24d05c36b7c023|2019-09-25|Rich Lazarus|Update index.md
+22fda6dfddd04361dd94663e5db1f190c18e5712|2019-09-25|Rich Lazarus|Update index.md
+a22a8754c55dc098950e6a3db233170d37f6826b|2019-09-25|Diego Ristè|Display calibration log
+2df2b09b50f3cca425361fb795742154e0343bd7|2019-09-24|Diego Ristè|Add SSB examples
+bfb46f8c9d4a6862804af78f30332771c27b2f21|2019-09-24|Matthew Ware|Merge pull request #230 from BBN-Q/feature/tanh-check
+7f1e57436870e2c428517d6b56c3abfa883091ce|2019-09-24|Matthew Ware|Typo in assert warning for tanh.  -MW
+7643f246934fc66c74044738cf6376893b956d3f|2019-09-24|Rich Lazarus|updated example plots
+355f6c5894833dd9438f85e845090d86d26cf793|2019-09-24|Rich Lazarus|updated example plots
+c93c80f64c03b5d62407147e1da59eb2e1259f84|2019-09-24|Matthew Ware|Merge pull request #228 from BBN-Q/feature/add_to_gitignore
+8b9ce358fb72475b189ee14f979dc239d2a3df36|2019-09-24|Matthew Ware|Merge pull request #229 from BBN-Q/feature/tanh-check
+bcca255d2abd30a023f18818ad9abaa9e7a03673|2019-09-24|Matthew Ware|I hate long lines.  :|
+561134429072e1843c232f2a8efa071857e5b609|2019-09-24|Diego Ristè|Update error message
+52d6331b1647fcc1d3f10df63f5f7339f32e5523|2019-09-24|Matthew Ware|Add unwanted file types to .gitignore.  -MW
+ecd9fee8d9d1dd31ae82cac4cfb54be3f87284db|2019-09-24|Matthew Ware|Merge pull request #227 from BBN-Q/feature/tanh-check
+f52d820e20c0fd8cac625e44ae7670768f42fd64|2018-05-08|Matthew Ware|Check lengths for short tanh pulses and add a special case for zero length pulses.  -MW
+ade7e17c503af67e2a539c01b814468834b32cb0|2019-09-24|Richard B. Lazarus|continued fixing demo examples
+78f3550d45a0a73626761fe079182827f29dd9bf|2019-09-24|Diego Ristè|Delete Generate channel library-checkpoint.ipynb
+9613445c7a209af57287a75c11167ac5556bfc78|2019-09-24|Richard B. Lazarus|updating example to work with current code
+cb02add359961e8384000a82ec1f3a31225480b8|2019-09-23|Rich|Update index.md
+54c328f15b7b413898199856de9a3f17f016972f|2019-09-23|Aaron Helsinger|Merge pull request #222 from ahelsing/add-errorchecking-for-QGL2
+7b7c17abeec0474873d954c4d3f998f7b065b042|2019-09-23|Aaron Helsinger|When searching ChannelLibrary for Qubit or Measurement or Marker, ensure the found object both has the right label and is of the right type object
+dd26f0bfe3fcc25b222f3ece7690faca795819df|2019-09-20|Rich|Update index.md
+e1eb880c077bf12cfc9388bfb74ba08c1da8d533|2019-09-20|Rich|Update index.md
+dd85241cb666f3576161d27e3d897987c5111e26|2019-09-20|Rich|Update index.md
+000aac024bcac2baa0ffd19fb3eb2e677dbc0bff|2019-09-20|Rich|Update index.md
+46c3496ae1a285b3babcec3e550a9dbddaddf5a2|2019-09-20|Rich|Update index.md
+c308c3832e622795681eee9964c1dbe458f92451|2019-09-20|Rich|Update index.md
+9c16c818ec3cd62a82c051892078fa1ec56914b9|2019-09-20|Diego Ristè|Removing some outdated examples
+1f261204e1f3bdca3e0399873e5bea689aedb4bd|2019-09-20|Diego Ristè|Make CNOT work in example
+80f48c1819652471dc4e2e9d5bc1114946687acf|2019-09-19|Diego Ristè|Fix two-qubit examples
+b3a298ee15cca57fe7c88bac650b6168aaaef38e|2019-09-19|Diego Ristè|Start updating example notebooks
+05962c6fc7df7b8190a92fc188dece752459c43d|2019-09-19|Rich|Update index.md
+0d8a7d2f7c8b2a249c29e567ba5d977f0f7628ec|2019-09-19|Rich|Update index.md
+3bd32757b5c54a3d6b4830458319433ce8baf035|2019-09-16|Aaron Helsinger|In delay_descriptor, force delays to be an np.array so can multiply it by a float
+667f398466c675b63db1ba04ba06488e4960f56d|2019-09-13|Aaron Helsinger|comment out debug printing of instruction-that-is-a-list; its often too verbose
+95ea71ab08d7aef8594b019caa41744ab3c6a766|2019-09-12|Aaron Helsinger|Error check instr argument to get_channels (handle getting a list of instructions). Error check return from get_channels in schedule (handle getting None)
+86c91ac0cf67f10500e703c5789e019c65c7dee8|2019-09-12|Aaron Helsinger|Print PulseShapes more cleanly for debugging
+8edaefb6a5e05a11ab32dc273a3db6531bbbe22c|2019-09-12|Aaron Helsinger|Error check arguments to gaussian()
+1b482ca9e17ff7c089097923552f018b4b9a1135|2019-09-12|Aaron Helsinger|Fix *Factory method documentation and add a little error checking
+85ba8d6a2e384e2e205826e35348e61685d41f9d|2019-09-12|Aaron Helsinger|Ignore .json~ files
+4967e72001b4b67d7fcdf3e50425966beebafce7|2019-09-10|Diego Ristè|Merge pull request #221 from BBN-Q/feature/tdm-chan
+18dc28f15d184dca6448392d4f40dfd513b439b1|2019-09-10|Diego Ristè|Label to Crossbar
+75944754c7c6efe27a5b989a75627c1013b26436|2019-09-09|Diego Ristè|TDM input channels
+2e9ff3eba1c22e877444c38a5706ddf318582bb9|2019-08-29|Diego Ristè|Merge pull request #218 from BBN-Q/feature/aps3-amc599
+0843f7cede127587424cd099157ab5ca47c9685a|2019-08-28|Diego Ristè|Merge pull request #220 from BBN-Q/feature/db-notes
+0fe920f4dc87977db1ab6abab39dfdbee160c045|2019-08-27|=Diego Ristè|Add notes to channeldb
+7a81a43a22c77f0ad4c8ea0045c3967a07573d9d|2019-08-20|Diego Ristè|Remove accidental commits
+f206919baa3b2fa0d4f6d3506097d135b58c9163|2019-08-20|Billy|Fix error message
+7edc0ed3eb2155a4eb33f068506c905a032d0b46|2019-08-14|Billy|Working APS3 driver
+d1ba16e911966a3fa1b6e762dfa573abe1dcf05a|2019-08-08|Billy|Multiple timing issues fixed
+788823315ed037147931256a56bf54e9cfc2b309|2019-08-06|Billy|Testing pulses on APS3
+4b360a339ffcfbcd588cbd317e1a70e3e03b23f1|2019-08-01|Diego Ristè|Merge branch 'develop' into feature/aps3-amc599
+c4aabfeecab768b00822cb773b8120d40b6b387b|2019-07-29|William Kalfus|Updated APS3 functionality
+2cffa24d83799f6dbbd4b13013c72906ebb3aecb|2019-07-25|Guilhem Ribeill|Merge pull request #217 from BBN-Q/fix/new-pygsti-objects
+66191ce68ae82f1ce3ec595177b9fab4be586dd5|2019-07-25|Guilhem Ribeill|Modify GST code for newest pygsti stuff.
+146a5337e75efa9e10dad613dc3193bb172ef412|2019-07-23|Graham Rowlands|Merge pull request #216 from BBN-Q/develop
+0bb95b58c21b78ebf3bf1f3d904cab0eb300b7c1|2019-07-23|Graham Rowlands|Dependency tweak
+cd273681714af0241a5215126cead5b7fc7d06a1|2019-07-23|Graham Rowlands|Merge pull request #215 from BBN-Q/feature/pypi-dist
+6bf574370bd323938cc4fc5be7d2f0d5761c9267|2019-07-23|Graham Rowlands|Version tweak
+2dcc40afcc906c7170b0c1a9bb062a3352ffa616|2019-07-23|Graham Rowlands|PyPi dist
+f657afe83e12872edf3a42143da67976088a5a38|2019-07-23|Graham Rowlands|Working PyPi and conda build (using skeleton)
+bc96c71487f0cc14f4a8f9e92fe7f83d15f7403b|2019-07-23|Graham Rowlands|PyPI distribution WIP
+5fa919a09d845dda4b46c4033eb961d01ef3508a|2019-07-22|Guilhem Ribeill|Merge pull request #213 from BBN-Q/develop
+b7bc1447b4f2d4354eb5c6c06c9000f3db3b6160|2019-07-22|gribeill|Merge 'develop' into 'master', for using the SQLalchemy QGL version.
+4f1d197dc81ab294b4ff244d1bd5547eb244472e|2019-07-19|Graham Rowlands|Merge pull request #212 from BBN-Q/feature/2q-tests
+793b012949935b15b164ec1cd06fddc5f8402ac3|2019-07-19|Graham Rowlands|Update readme
+9b34867b17afe4fa5d3bd07613f439e660f30a9f|2019-07-18|Graham Rowlands|Add edges to metainfo
+4fa5ced451c0d6ad584866946ced171afee4c3dc|2019-07-16|gribeill|Add APS3 pattern
+257cc45e596e92f213430f445a86b9724ad3c781|2019-07-16|gribeill|Add APS3 pattern generator and update channel library.
+9d6eceb224d04e8ddc9d7e036283cb128b618d48|2019-07-12|Guilhem Ribeill|Merge pull request #187 from BBN-Q/fix/compile-performance
+eaaa01ea2e27a88c716399d63c34c083956216ec|2019-06-03|Graham Rowlands|Add back WFM plotting and GOTO buttons in pattern plotter
+d46ccdb6881e7902a89ddcfdc4a1f97ec35d912b|2019-05-28|Diego Ristè|Merge pull request #210 from BBN-Q/fix/TDM_instr
+cd73f7bf871cfb02be7c4d19e505ad3ca405163a|2019-04-16|Diego Ristè|Set mask correctly
+9a11c807c05636d5f0f1966fc9f7df8c993fa71f|2019-04-12|Diego Ristè|Fix mv syntax
+9a3f221b9c450a28ae0c965439a60c13371ad1d3|2019-04-10|Diego Ristè|addr and mask in Invalidate
+476998652f0d7e7bfb1e28261fc1c5120d31238d|2019-05-22|Graham Rowlands|Merge pull request #209 from BBN-Q/feature/plot-connectivity
+175f397589a851a406425d898753abf1c67301b1|2019-05-22|Graham Rowlands|Fix channel lib setup for unit tests
+6c1424196e20cc6fef99481356a055882c6e990f|2019-05-02|Graham Rowlands|Add show_frequency_plan method
+1653ebb659ca25e12fc6c8d3363481f597e2b5ab|2019-05-02|Graham Rowlands|Add additional info to connectivity plot
+6f2a8d25875a45e05747837fa1d17d6b63ffa555|2019-05-02|Graham Rowlands|Added bqplot graph plot of channel connectivity using show() method
+5368a5a1576f2bb9d1034138d1f5777a105b825b|2019-05-01|Graham Rowlands|Merge pull request #207 from BBN-Q/feature/SSFixes
+2ad6f60e32b10a62c4bb0e661d4e416a73a0aed4|2019-05-01|Graham Rowlands|Merge pull request #197 from BBN-Q/sqlalchemy_v1.2.15
+ea13db8c18681b2bec9682fa9551e9308d136af5|2019-04-30|Guilhem Ribeill|bogus readme commit
+cc9841995face97da41913e92a42b16867225b09|2019-04-30|Guilhem Ribeill|mapping for APS2Pattern w/ APS2Rack
+073ca73293ec56553d3d6a48c91ffba544f92496|2019-04-24|Matthew Ware|Update .gitignore
+b263a05008313a2fa93cd4c3aedc8c7c2ecb8259|2019-04-24|Spencer Fallek|fix aps2 rack typo
+e547b5e9aeef65e72ea10ea72fef8c4b2cdc7c02|2019-04-08|Spencer Fallek|move away from stream_sel_map
+37a3d1281d63adbc8f16f03b093c88e772b3362a|2019-04-17|Graham Rowlands|Now use separate sessions for channel lib and pipeline
+5fbc981a986a99a6392c3bfbf16960155891a36f|2019-04-12|Diego Ristè|Merge pull request #206 from BBN-Q/fix/mvote2
+a3a07cdeb8f78c2f7b7000f370944639890909a8|2019-04-12|Diego Ristè|Fix mv syntax
+e8676de8514da01daf4caf23ae94105ba93dcfbe|2019-04-12|Diego Ristè|Merge pull request #204 from BBN-Q/feature/tdm-chan
+79e1fb663d78d18b63a14f864ef2ae36f2d01741|2019-04-11|Diego Ristè|Add TDM channels
+5b031c0f69bcecd1a708fd884abb8d9b18852628|2019-04-10|Diego Ristè|Merge pull request #203 from BBN-Q/fix/miscseqs
+46e5a5d0c525997a1602783f5909d46c7d0c9432|2019-04-10|Diego Ristè|RB cal_seqs fixes
+3f12e2afb8e2b53e77ebe8cdebcea0898fad82ca|2019-04-10|Diego Ristè|addr and mask in Invalidate
+5e5c634e0d95f7920f13a18f5d2ca6518c79ed30|2019-04-10|Graham Rowlands|Merge pull request #202 from BBN-Q/feature/return-of-stream-selectors
+352c61300fc899a5299435748a97c37445039eb6|2019-04-09|Matthew Ware|Merge pull request #201 from BBN-Q/fix/GST_typo
+073185944159cfddb386342d848e557b19e5e320|2019-04-09|Matthew Ware|Fixed Atomic and DiAtomic Clifford typo.
+575975007a58db14cb58bb7b1f378ff926e3fa56|2019-04-02|Graham E. Rowlands|Fixes for adding stream selectors back in
+b1716d5f9d79865619702265587f9e58d913dd7d|2019-03-27|gribeill|Make sure axis descriptors are lists
+2ead5cc48390a02f632c62b330ae95dd3037d38e|2019-03-27|Guilhem Ribeill|Merge pull request #199 from BBN-Q/feature/stark-shift-utils
+6073c5adafdab16cc136398f61e3de9e16708d2f|2019-03-27|gribeill|Get everything working... various bug fixes and add stark shift functions to QGL global import.
+8f7ea548c49d2ea9a8ac9e0935460dfc43ecbb75|2019-03-27|gribeill|Add stark shift related utility sequences.
+abad0b19b73b32653343ef6950ca49e99ae3c7d0|2019-03-21|Diego Ristè|Merge pull request #198 from BBN-Q/fix/stream-labels
+956272d46d883c9908c96e75d5655f335fdb14d9|2019-03-18|Diego Ristè|Fix Rabi with no cals
+5477c87ef89385106263ec81c274422c4cb49631|2019-03-18|Diego Ristè|Update dictionary for existing objects
+ca19e840899c1bb31f416be4774680702a4eb6a2|2019-03-15|Diego Ristè|Revert to old stream labels
+8aeadc551f93fa9b4282529a20eb1a5fb7c23396|2019-03-15|Guilhem Ribeill|Merge branch 'master' into fix/compile-performance
+33cbf2e21bee4b0271ecc18d15494c4defb045bb|2019-03-12|Graham E. Rowlands|Ditch comment and upgrade requirements.txt for 1.2.15
+5cd1fd0ede04793b9f7be80b3cc98bc3d4018003|2019-03-08|gribeill|Add new_attenuator method
+1fd852b61b75fa8c4800dda664d018bf6faca048|2019-03-04|T.J.Rogers|Rolled back sqlalchemy version to 2.1.15 (vice 2.1.17) to use version already bbnqconda loaded.
+8f09532863668c1b88063b6eb2d65206425913c9|2019-03-01|Diego Ristè|Set default kernel
+3749e01b68b5cd7035fe29faa938090b9c437cee|2019-03-01|Diego Ristè|Rever last commit
+681407d67c9c55075dbcbd6329a46e34a05247b9|2019-02-28|Diego Ristè|Set if_freq for demod stream
+2546c3d05a6bb35b06142c41083b5423177bae84|2019-02-01|Diego Ristè|Fix alignment for equal-length pulses
+bc0af46203def406cbb255ca4ae40e0dd9b3d61f|2019-02-27|Graham Rowlands|AWGDir now defaults to temp directory if not defined in config
+1160bad34142a4888b8186fcc37239a227cf253a|2019-02-27|Graham Rowlands|More flexible about set_measure and set_control, which can now be rerun with expected results
+198c1c58e8325fe2fa7ffbd7b63535a7b25560d9|2019-02-27|Graham Rowlands|set_measure and set_control can now be run multiple times
+b34d547356c56b7947ebfe3baeb831d40bf15589|2019-02-27|Diego Ristè|Add new_marker function
+bae3736fa9bb3e83c94359f7a0f68597d7459378|2019-02-26|Graham Rowlands|Get rid of accidental egg-info files
+7e3d2fbd4c435aff951853565cb032a49571b3e2|2019-02-26|Diego Ristè|Merge pull request #194 from BBN-Q/feature/DCsource
+7380af300195f373e7b0082bd26362c8a8c82c53|2019-02-26|Diego Ristè|bqplot fixes
+3285bd54f7c27ba0743135f1a8e66a0ef3c96503|2019-02-26|Diego Ristè|Merge pull request #191 from BBN-Q/feature/APS1compatibility
+0d356558d03a49475f018065666be54171cd7565|2019-02-26|Diego Ristè|Add DCsources and spec.analyzers to db
+53e5f1659a34455de901b5e246bbe0e6751d24b8|2019-02-25|Diego Ristè|Merge pull request #183 from BBN-Q/feature/4-ncos
+f81fb8acdd40fa12ddbe3e5deb4b41b18b3a89ef|2019-02-25|Diego Ristè|Merge pull request #192 from BBN-Q/feature/DCsource
+df3221bc693f797a932d12439357b7137aef3349|2019-02-21|Diego Ristè|Merge branch 'sqlalchemy' into feature/DCsource
+dbc8fab57e265fe3945dff01d02e55667ddd306f|2019-02-21|Diego Ristè|Add DC source
+3a8de165cd0132f500921245417b94a681719593|2019-02-20|qlab|Better fix for APS1 compatibility
+afbe77c0fb2b0f5a091474b3b0106689c2f390f8|2019-02-20|qlab|Added compatibility for using APS1
+0dae2942dbd6362c62739b7d8df768c7a5376c8b|2019-02-19|Graham Rowlands|Fix APS1 marker name
+63b23f3fc2627cf2dc921267998beeae279655d6|2019-02-15|Graham Rowlands|Use temporary directory for test_sequence data is AWG dir is not specified
+0b807e44e71effd9a0ac47206ecf9698fdd0586d|2019-02-15|Graham Rowlands|Delete future
+60bdf94efcc40b06b6145a1e9a77bb3c28535469|2019-02-15|Graham Rowlands|new_APS convenience function
+c54941d751ab19987073e0e2eb45d37c46e1a257|2019-02-14|Diego Ristè|Unnecessary warn import
+6af6ed28897014951a0a35fd605a3eea30deff8b|2019-02-14|qlab|Merge branch 'sqlalchemy' of github.com:BBN-Q/QGL into sqlalchemy
+9db5fa05e0291deccff1adff85948e4ebbeb7196|2019-02-14|qlab|Warn if existing object
+8e5de51f8609d68b3dec010d7fbd573783634652|2019-02-14|Graham Rowlands|APS1 binary format complete and passing unit tests
+61ce7c216933283476b532980e9850642de5fc00|2019-02-13|Graham Rowlands|Migrating all test data to binary format
+25b694b4bf15daf9123ba0ec51dd39e82d9f2a70|2019-02-13|Graham Rowlands|Added h5->aps binary conversion utility. Working on APS1 binary format
+2d3752ea4384097be48e536c22ae3f7d2ed1a970|2019-02-12|Graham Rowlands|More travis tweaks, again, again
+b2de57dd0a79ecb1d1906dd761b10ae4a5701db3|2019-02-12|Graham Rowlands|More travis tweaks, again
+07ee1d28e4cbe1af78eb4a946bcfe3f2ff51687c|2019-02-12|Graham Rowlands|More travis tweaks
+e2233ef971ab860845407169daef34232aa38882|2019-02-12|Graham Rowlands|Add bbndb to travis.yml
+36d478f85523b3120aa37899ee773467999b3db0|2019-02-12|Graham Rowlands|:tada: ALL UNIT TESTS PASSING :tada:
+2b762fb52aa6b99e463c7d7439f69e448c24ca75|2019-02-12|Graham Rowlands|Fix test_controlflow
+93df6c5328791eb89c68d1974a156b40e6103eeb|2019-02-12|Graham Rowlands|Fix test_Scheduler
+f36a51f63857ed937b1fdd6c032a28b439182c6f|2019-02-12|Graham Rowlands|Destroy YAML
+313947a34891afcc792e88fc8b57b35355c932d4|2019-02-12|Graham Rowlands|Fixed test_compiler
+644555f5725c8026cac52b45a642801168c6d668|2019-02-12|Graham Rowlands|Fixed APS and APS2 pattern tests
+ccdd432433ac2fd779d44e0773e25ce27ea745aa|2019-02-12|Graham Rowlands|Now passing test_sequence for APS2, excepting GST tests
+16dd0c1357495ba39eac89f54c18731b67c92e5b|2019-02-12|Graham Rowlands|Update test_QGL
+c37060d1984c05bfd8cf2770cba653b9f70c6723|2019-02-11|Graham Rowlands|Deleting APS2 h5 files
+12340d40b50271915cd8df665f8a87b47f6e478a|2019-02-11|Graham Rowlands|Start tracking .aps2 files
+9e492b482863afbadab5afb6b64a8a60476dd385|2019-02-11|Graham Rowlands|Merge pull request #190 from BBN-Q/feature/noh5
+a2715c66ed6d371799c0a3dcb8f5c3013835dcf1|2019-02-11|Graham Rowlands|Replace bokeh with bqplot
+492a21cd65573c9cce6a1be70710d680dd42ad83|2019-02-08|Guilhem Ribeill|No more bokeh
+9e9a562649023b0d3c2530f78c64f8a82bd65fdc|2019-02-08|Graham Rowlands|Add a nice PyQt5 GUI for showing disassmbled APS2 instructions
+a7c7ef305c7d2570739ea95c1627e0d08a7a83f1|2019-02-07|Graham Rowlands|Replace H5 with simple binary format in aps2
+1bfe23578d5f28fb7abb45929d41556153d5171b|2019-02-08|Guilhem Ribeill|Pass frequency keyword to enable baked in frequency sweeps
+3e14ce85605af80f0c4945f0c67b27a142825d79|2019-02-05|Guilhem Ribeill|New spec an
+6f6264037e4d2bca30b7a12329182fae83cb02eb|2019-02-01|Diego Ristè|Merge pull request #189 from BBN-Q/fix/align-left
+f3e96592b7e364dd5053fee2fde43e10238a2de9|2019-02-01|Diego Ristè|Fix alignment for equal-length pulses
+22fe0bdc6f34d660fd647756bb17e9136f810a83|2019-01-30|Diego Ristè|Merge pull request #186 from BBN-Q/f.185.detect-bad-qwait-kind
+be6e8a6c44109b6e621aa74fac0e4461436f21ac|2019-01-29|Graham Rowlands|Fix up travis yml from merge
+88e9bdf278fd5b5f000753abadd19a5884cd66b0|2019-01-28|Guilhem Ribeill|Remove merge conflict detritus
+fb89dcac63b420a81abb7153ecb85b0bc3897608|2019-01-25|Matthew Ware|Properly set edges.
+93654eac223095bfc9b6c73a6dc7141d3b95c35c|2019-01-25|Matthew Ware|Change APS2 rack setup
+72582af642d091ad4c17dd8733eaabd962dcaef6|2019-01-25|Matthew Ware|X6 and TDM compatibility. -- GER, GJR
+5fd7a903caec83ef615c2ca14f3e31573af7277c|2018-12-19|Graham Rowlands|Replace historical channel naming convention ch12-> ch1, ch12m2->m2 etc.
+61c4cf31cdd32af49b46d401c0f1e1248514e93d|2018-12-11|gribeill|Now properly adding all new objects to the session.
+be6e5385947285922faf37f47d84ff02a130ee3c|2018-12-07|Graham Rowlands|Fix timing for connectivity building
+e76e1a5343e3b029a68ed78eb36daa6e245490b9|2018-11-19|Graham Rowlands|Added ability to delete channel library versions
+7fa03ea219bf8b0ab2e740bb06c558a23a9045ac|2018-11-16|Graham Rowlands|Pretty printing filter channel library versions
+d81b5f812684f0b1e15a9a1fcb3d32cffb75849c|2018-11-16|Graham Rowlands|Update channel lib automatically when loading factories
+4418a7b5945be02bdaab454c3c8ae63fac49ab79|2018-11-16|Graham Rowlands|Add checking for duplicates and dirty session
+1a5a8f0da3e7048d43915bc1435560c8280e7411|2018-11-16|Graham Rowlands|Clear pulse cache before recompiling, otherwise DB updates fall on deaf ears
+4949158eab155226bffb25fd183a0cc748e9beda|2018-11-15|Graham Rowlands|Fix saving and loading and interactions with QubitFactory etc.
+4fc5cfd2d81c093f871f7eea5d7eda58fddf9653|2018-10-11|Graham Rowlands|Compatibility of compiler with new SQLAlchemy
+7feae774c953f5831aeda1dd9248390f69d45dc6|2018-10-11|Graham Rowlands|Saving and loading appear to be working again
+f79129f925a9efc97824f0b1e7209735397bbf95|2018-10-11|Graham Rowlands|Move to cleaner deep copy and fix up saving channel dbs
+c3279f6b7c99f624e779196431a92b4f40fb0ba7|2018-10-11|Graham Rowlands|Clearing now functioning properly, working on copy, load
+64cca256c3b480558b9e0ff7fa486e28b89d054f|2018-10-09|Graham Rowlands|Fix Factories in ChannelLibraries
+352b23c4eb866493fbf1e5a8ca272518442b892c|2018-10-09|Graham Rowlands|Fix queries for channel db
+99d30b87a39c4d8eb1b13c6a5092b9c6708e2a37|2018-10-09|Graham Rowlands|Preliminary functionality moving to sqlalchemy from pony (sigh of relief)
+dd709e2d1e52a67bef201afcb59bbf4d7c2b63b7|2018-10-02|Graham Rowlands|Add transceiver object and rename AWG->transmitter, dig->receiver
+a508cfd678bdfc8f8fb79e66a6424542a9ee4620|2018-09-19|Graham Rowlands|Frequency now required for sources
+ccc4a1dda0e3e0fc241fd970caf0d302eea50acd|2018-07-19|Graham Rowlands|Convert channel library to properly using db_sessions for non-interactive pony use
+dfef1cfe6e57dce828d0c54f57dbece2e9b5edda|2018-07-19|Graham Rowlands|Created wrapper to convert func args that are entities into unique IDs to avoid crossing db_sessions
+492de567efe5d74be0e1619b972792522264a9da|2018-07-18|Graham Rowlands|Remove overly verbose code from aed6222
+6797bb4b93c24f2ff78ee3d6115d543b7cebe0ee|2018-07-18|Graham Rowlands|Setting any channel attribute now invalidates the memoize cache
+a0b213d8542695178c2bf234f204389f9643d772|2018-07-18|Graham Rowlands|Added new_Alazar method
+95a4cc0019e1259125f6b63e2a5c6b21b68548b0|2018-07-13|Graham Rowlands|Shifting to bbndb for channel entities
+1dee44cb5bc1b3820d8426a54d5eac7474677ab2|2018-06-26|Graham Rowlands|Add requirements file and update setup.py
+d5afc711657e30766284bf61dd9e3f6b834a17a8|2018-06-25|Graham Rowlands|Added bbndb submodule
+e65a5d314a2ff0dbbceb0499dcad86ccba037c2f|2018-06-25|Graham Rowlands|Explicitly use "working" channel db rather than hiding "__temp__"
+0d370f1b87007c4e39695cc5dc40713df9d73a72|2018-06-24|Graham Rowlands|Add quick qubit selection function to physical channels
+e1c99acb94085476538bf9709eb6c9ecf97063f6|2018-06-20|Graham Rowlands|Tweaks to clearing, convenience functions, etc.
+6df5c9ea0d2ec214cb924f5c13a3f03d14cd2b07|2018-06-15|Graham Rowlands|Starting to add instrument entities to db
+b83b0b1af8504af5c7f44078e5a3dd247e2fead1|2018-06-13|Graham Rowlands|Strip out autoupdate for now
+45e37a97305b5f63acc1dc630d46b3cb4d6088e4|2018-06-13|Graham Rowlands|Clean up loading and purging temp channel dbs
+5ccb57e3c27668e90f48e4a0f79461264d1c06fc|2018-06-12|Graham Rowlands|Fixed deletion of additional temporary channel dbs
+a3506715975b418c26dbfbc4e0b5da38aaa84214|2018-06-12|Graham Rowlands|Fix initial loading
+02f777ab2705cdbe47715822248cef2e04537aaf|2018-06-12|Graham Rowlands|Deletion working more reliably
+72d5c0bf982f811e28c572c849fe279f48ccfe44|2018-06-12|Graham Rowlands|Fixed copying and relinking
+7f02f9f12816b2f8af334eaa3f23994090c71df9|2018-06-11|Graham Rowlands|ChannelLibrary can now close and reopen db connections on instantiation
+10c7944499c884fda12a7603f83bf664c0ca4084|2018-06-11|Graham Rowlands|Adding save/load functionality
+4c83141cdcbefab1b916030f3ab7a537562e04f5|2018-06-06|Graham Rowlands|Fix factories to pull most recent qubits, etc.
+2e63ef90ca47fc4bc101ff9ac2e18dc30f816bf7|2018-06-04|Graham Rowlands|Can now load/save to a database with labels and datestamps
+b9f3c0c3ff10830082119f5c9531ba3d6a6ab385|2018-06-01|Graham Rowlands|Adding python configuration file, supporting infrastructure
+c3055e4cb7d9b627f362a42f0db0b2ef475ff8c1|2018-05-31|Graham Rowlands|Ditch atom, move to Pony.orm for all channel library objects.
+6af2cf2e88f20aa15093398535bf819e6845cf24|2018-05-23|Graham Rowlands|Autogen stream selectors
+575239e588e138411a9ab3739e203abc1f0876e2|2019-01-28|Guilhem Ribeill|Get rid of 3.5 CI testing.
+cbeb82a272043e3a047758ac983345c3f0a91a83|2019-01-28|Guilhem Ribeill|Fix deprecation warning for empty array check
+f32df2ca7f564848ba6b1b2b6689aae8e32493a3|2019-01-28|Guilhem Ribeill|Skip GSTTools unit tests if running in Travis.
+1cac1609514776a1f234eac66f674ef501bc6234|2019-01-28|Guilhem Ribeill|Remove memory debug info
+b39125c59bc81440214b810ee05df5431b3972c5|2019-01-24|Matthew Ware|Attempt at manual garbage collection.
+70ae571333c801b2f5bdbf3abfbe3399942b12e9|2019-01-18|Daniel Ellard|tests for new qwait sanity checks
+c6ced2929e74e4aefd44fd9b07c64abab14432eb|2019-01-18|Daniel Ellard|clean up exceptions raised by qwait
+17fdf1b811966db36759a18290ca37b3d4ac6267|2019-01-17|Daniel Ellard|if the "kind" is unknown, raise an exception
+2d26637a2846ce92b28c29c6550c8868ebb56af2|2019-01-14|gribeill|Use __slots__ for Waveform class to save on memory...
+9fc12f213f49822e2e05fce42b4ff1e6a61fd53f|2019-01-11|gribeill|More typos.
+3f346dff67c036d13e7869a702609a25055e03f2|2019-01-11|gribeill|Remove debug stuff.
+087bf2f1a177ade5cf5c7a8beeaf45c44de31d39|2019-01-11|gribeill|Memoize waveform objects to save on memory.
+4e4556e7b038a560e78e876ac3c1d044dc6865d6|2019-01-10|Matthew Ware|Merge branch 'fix/compile-performance' of github.com:bbn-q/qgl into fix/compile-performance
+7f7e434905b1836e337160213ae5cac77317afd0|2019-01-10|Matthew Ware|Add memory info
+3c76064e70d1ed11fc6f54a7645e8bab73fe77de|2019-01-10|Matthew Ware|Add IR compile function
+5821b5e2b75ba04897fa96608fd17014faa4c443|2019-01-10|gribeill|Simple script to look at cProfile info.
+8d9853ae45bd2e96bf88de49536afad1b01b8e26|2019-01-10|gribeill|Change np.isclose -> np.all(np.less()) in APS2 pattern generator
+c9da2dc2e377bbc310c078e934514bca39a43b66|2019-01-05|Matthew Ware|fixed a mkdocs dep warning
+a2153f640480d7d282b865d3c5819bba3d4d4ec5|2018-12-04|T.J.Rogers|Fixed a typo in runUnitTests.sh (removed the .py reference in second test set). Added test_Sequences.py logic (set_awg_dir) to invoke config.load_conifg() when config.AWGDir is undefined. (when running as a stand-alone test, this case was causing failures).
+00ecab37dc20252b034f58fa6f0ec28ee7eb4796|2018-11-30|T.J.Rogers|Corrected runUnitTests.sh description header.
+75b4ef9e4eef6d06d7b14da11d004c54720d4934|2018-11-30|T.J.Rogers|Defined renderDocs.sh and runUnitTests.sh shell scripts to automate documentation rendering and unit test invocation logic.
+86f36b9993b0af515a322004af8bb13ff2b567fd|2018-11-14|T.J.Rogers|Defined ReadMeDocs.txt to briefly describe the MkDocs document library use case.
+a3654d2333bfe6bdc23bbc31d697e6f79cab91e6|2018-11-09|T.J.Rogers|Added README.md tail comment regarding Git LFS usage for some unittest data files.
+8505202ae233b69fb11ab92a75dc452b4113f9ac|2018-11-09|T.J.Rogers|Added test_QGL comments regarding Git LFS data file usage (and error encountered when git-lfs library is NOT installed).
+09ff7eefe3c30680da3ed8c9e941b8f61a8abc5d|2018-11-07|T.J.Rogers|Added a __main__ reference to get simple python invocation unittest working Re:  python test_Scheduler.py -v
+8fc971e6595efd39972f80641cbf1367e096b958|2018-11-07|Diego Ristè|Allow for slave trigger for APS1
+20391fbb8fd9eb62976144a4e2e4f135c98c2ff8|2019-01-04|Diego Ristè|Fix test sequences
+52251f637bb0162504f134f7a823460b105e97b5|2018-07-30|Diego Ristè|Consistent order (qc,qt) for CR
+dfc91e608eb8fd9b7d6f2f8bdd3eec5b895f6ece|2019-01-04|Matthew Ware|Update setup.py
+fd7b5f8cd048ca9d93fe5422b0d1c7c4153da528|2019-01-04|Matthew Ware|Update README.md
+476520134cef38cbf3e6a089c59f59dbd8ed6509|2019-01-10|gribeill|Simple script to look at cProfile info.
+a6d0bdcec5340cd33544d13f24eb1144c59a4f2c|2019-01-10|gribeill|Change np.isclose -> np.all(np.less()) in APS2 pattern generator
+946bac701a907a3d39d500462c6f595770e91d49|2019-01-07|Matthew Ware|Merge pull request #180 from BBN-Q/fix/unitTests_1
+b42c1aef746747462634f28519ca9f48ef95b345|2019-01-05|Matthew Ware|Remove unncessary .DS_Store file
+89e64ca994aab96dd62c0bd1032c978a93988bcc|2019-01-05|Matthew Ware|fixed a mkdocs dep warning
+61651395bc9fcc0d73acd17c38f4a52da98a7e2d|2019-01-05|Matthew Ware|Merge pull request #182 from BBN-Q/feature/aps1&2
+ba1d6bcf4a613501061c042c6abc0cf873016702|2019-01-05|Matthew Ware|Merge pull request #184 from BBN-Q/fix/CR-order
+438a5ed8f2a93190427fc2a402843ee61af2e9dc|2019-01-04|Matthew Ware|Update setup.py
+d99331bc14672f1590d62397fcb96821853d5a6b|2019-01-04|Matthew Ware|Update README.md
+145f03d157649c44d22c4fffd3065c21b8eb7e89|2019-01-04|Diego Ristè|Merge master
+e5861a1b70d693651920a8fcee228049d3a814e4|2019-01-04|Diego Ristè|Fix test sequences
+a5ec75d2aeae2b531eef2dd5d70243eaa1623225|2018-09-27|Matthew Ware|added some missing files
+a9bf3ba30c472fdf286ca0c86e1f5133955eec12|2018-09-27|Matthew Ware|Fix python version error in travis
+aec44f6199aec9a2035d0a880a9cdc565cf910f4|2018-09-27|Matthew Ware|Fixed unit test with Brian Donovan's help
+f7e9806e801e6bf6e3e213171b853c0a70f26081|2018-09-27|Matthew Ware|Adding a test skeleton for the gate maps.  Things are currently failing.
+02b9e3ce4f4499fa4213ce7c826ee54ed425063a|2018-09-25|Matthew Ware|Fix embarrassing typo
+63ae952608ae023ef4915f62d029e7b81b788ce1|2018-09-25|Matthew Ware|Adding Guilhem's GST qubit map.  -MW
+e124ef395897e1e5b4f3b4aa38abfd83229d5f73|2018-12-04|T.J.Rogers|Fixed a typo in runUnitTests.sh (removed the .py reference in second test set). Added test_Sequences.py logic (set_awg_dir) to invoke config.load_conifg() when config.AWGDir is undefined. (when running as a stand-alone test, this case was causing failures).
+3c72462c0912a245e6b29f865e30f527592ec2d2|2018-11-30|T.J.Rogers|Corrected runUnitTests.sh description header.
+5cfc75d18e23a9be3050aa9be0e803135d58e5bd|2018-11-30|T.J.Rogers|Defined renderDocs.sh and runUnitTests.sh shell scripts to automate documentation rendering and unit test invocation logic.
+ae4796ac686a7d44e3d7b6b3dd188530629fbbd9|2018-11-28|Brian Donovan|Reset 4 NCOs
+caa686d4061a89d91b1b6cb05d563239e5c3b0fa|2018-11-28|Brian Donovan|Added support for 4 NCOs
+355d1209984be4e253839400c6a47c549d92e25f|2018-11-14|T.J.Rogers|Defined ReadMeDocs.txt to briefly describe the MkDocs document library use case.
+6ca6ef8d485143b969823efc85995c8026f2b179|2018-11-09|T.J.Rogers|Added README.md tail comment regarding Git LFS usage for some unittest data files.
+81bb8f1a681298d1f26a872179e59d76646f35d8|2018-11-09|T.J.Rogers|Added test_QGL comments regarding Git LFS data file usage (and error encountered when git-lfs library is NOT installed).
+273b856a47b15c8ddd343a926cb26937e3057adc|2018-11-07|T.J.Rogers|Added a __main__ reference to get simple python invocation unittest working Re:  python test_Scheduler.py -v
+f2c71e187fd892fd6a1c1a06b3c22e6497829b80|2018-11-07|Diego Ristè|Allow for slave trigger for APS1
+15dc15fa0d0187bc2a62d2d9f30ee082d85a6904|2018-11-01|Diego Ristè|Merge pull request #179 from BBN-Q/feature/cal_descriptor
+44e39f1b8eb42fea85002f490779052d110d6033|2018-11-01|Diego Ristè|More generic cal_descriptor
+a8579acfd0582f729c18eae583dd157d6015e178|2018-11-01|Diego Ristè|Merge pull request #178 from BBN-Q/fix/RabiN
+e2d221345d7da07750310381e9bd2c281f185e94|2018-11-01|Diego Ristè|Fix RabiAmp_N
+3614fe65ef4207b6fe21025e9db026a19e0f304f|2018-10-29|Matthew Ware|Merge pull request #177 from BBN-Q/feature/extra-meta
+c61b0b74f4e9db4a0d64b14f71cc6735d63afc23|2018-10-29|Spencer Fallek|additional meta info per tx channel
+aebb371a5bfdc312877fc8de601bc7386af2b739|2018-10-01|Matthew Ware|Merge pull request #176 from BBN-Q/feature/CR-tomo
+a1e0249131b97abc233eb157c5657ecc5896a9ab|2018-09-27|Matthew Ware|Merge pull request #175 from BBN-Q/feature/install-doc-update
+996789c09e82b027a517cb5c5260f8b465d32010|2018-09-27|Diego Ristè|Adding optional cancellation pulse
+19f559ce110e64529984c802c3b73aeb8ed35df1|2018-09-27|Matthew Ware|Update README.md
+6e752fdb4154e6e4195a20edb10307bb5286f715|2018-09-27|Matthew Ware|Update setup.py
+f28dfc160d7779820a07cac1e89c517ccfa262c2|2018-09-26|Diego Ristè|Seqs. for CR Hamiltonian tomography
+25468f5fc25d380c103350c3323d94900c321020|2018-09-25|Matthew Ware|Update setup.py
+90bd43ebde615d19d81b8348678ac1ecee0f228c|2018-09-25|Matthew Ware|Adding pyyaml dependency doc
+9ebb840cdebba251daf6770312071fc27c484286|2018-09-20|Diego Ristè|Merge pull request #173 from BBN-Q/fix/Rabi-meas
+78e2321d4810d9b8ea2bcc365db39fbd01eb3b10|2018-09-20|Diego Ristè|:bug: measChans in RabiN
+43fc30e025639761f66bb44ffaf22c3a7dc9c3c9|2018-08-17|Graham Rowlands|Ensure APS2 files with no waveforms still have the waveform group written.
+3e7c8729cc44dfabd44a9f88606b79e62a3cf503|2018-07-30|Diego Ristè|Consistent order (qc,qt) for CR
+446ff4f86b5ae9938a2c9a7953ec1b7adefdd84f|2018-07-12|Matthew Ware|Merge pull request #170 from BBN-Q/fix/setup
+f69253f268da79f2606c4163873f27153b336c96|2018-07-12|Matthew Ware|Merge pull request #167 from BBN-Q/feature/gst-tools
+f8299197c03bb71bb8a8aa23642ae337ad1357ce|2018-07-12|Matthew Ware|Minor tweaks and added pygsti as an optional dep for install.
+11c9ec36042ea1d6f96cdb2e32cf3902d5c8d192|2018-07-11|Diego Ristè|Merge pull request #171 from BBN-Q/fix/receiver-0-meas
+6bb4bd0519b86009409fadd4f0109b0d040214c8|2018-07-11|Diego Ristè|Remove receivers with 0 measurements
+5b33980057076677283716b427efa798c72bc10c|2018-07-11|matthewware|First pass at python deps in setup.py
+757a508fe05644bc304f09236571fda48636929c|2018-07-05|Diego Ristè|Merge pull request #169 from BBN-Q/fix/compile-tdm
+b5fe610d1408eac52e8f7becb5cf77d2fad6d02f|2018-07-05|Diego Ristè|Choose compile for tdm
+d799908976c2d20b311feee7085598daa3478406|2018-07-03|Diego Ristè|Merge pull request #168 from BBN-Q/142.annotated-measurement
+b0b1ebb9a01955d8caebdf8fe4d40ae5b4092486|2018-07-03|Diego Ristè|Minimal qwait('RAM') test
+8b88682ee9acb2c77d9f18d11dc18783d917f1ca|2018-07-03|Diego Ristè|Fix CrossBar
+e17f6cf362f8a79714d328a34197fd3a34d73bb0|2018-07-03|Diego Ristè|Fix index convention
+38d151c434ec89468cb2508850ad066a02258c80|2018-07-02|gribeill|Further improvement  ->
+bb90da63e62d12ad04ed518eac769122ad63be52|2018-07-02|gribeill|Numpy improvements.
+5bdcda5b8bdb14eed76ee075ace9c98acf9d53dc|2018-06-25|Matthew Ware|Added tomography example notebook
+efcf427d2255c2313fe79a6d1c9dc1c127948b2c|2018-06-18|Diego Ristè|Fix measChan for cal seqs
+24175c11e3cb6b8cabf3443ef1c697be29c519ab|2018-06-15|Diego Ristè|Maj. vote example
+89f4947a1d0743eee5c24a9a5c11a0e64301a5b2|2018-06-15|Diego Ristè|Fix APS2Pattern test
+dc7f5da1666d6b9c212ea8c2b3358b72c3946207|2018-06-15|Diego Ristè|Forgot pieces behind
+c2f63d4935e2c261d687a7f336b11048bd1bfb42|2018-06-14|matthewware|Revert "Added RB axis descriptor"
+593dc0c3fc2a5ce2ed3c834e0f1ea5df9c415ccb|2018-06-14|matthewware|Added RB axis descriptor
+7a5c7f408502f71cb7958767cc8a4c7de2e3fa8f|2018-06-14|Diego Ristè|Allow a sequence to end in a branch
+1ea664a405fe71c136c69332a123e0b397601c0f|2018-06-13|Diego Ristè|Final goto already in the tdm seq
+de5b08e3000f55d1731e601a20730c64a3bee344|2018-06-13|Diego Ristè|Mask not needed when APS2 loads from RAM
+2cec3983edc15e8d0e91fa234597749691d0ac74|2018-06-13|Diego Ristè|Fix maddr in qec3q
+ea4e701b6f2141ddc0e9a66a137a3a9d0b3c3c2b|2018-06-12|Diego Ristè|Remove second Wait
+eba3c34fe5fad942a4e6e11006161ce380d42135|2018-06-12|Diego Ristè|Fix CrossBar for sim. msm'ts
+bfa2555b8cb04aa6f2457e6bdb585f1a9b17b9d0|2018-06-12|Diego Ristè|Invalidate also needs to pass through
+7bedf9be3e8e4fd887184b6cc52c903d5ff9c115|2018-06-12|Diego Ristè|Fix typo
+357445e43569d41cb79782690a865a4a34ac3e5b|2018-06-11|Diego Ristè|One more heuristic for modulation
+126a62506e0a7bfe3ffd0e3aa290f6378d5537f0|2018-06-11|Diego Ristè|TDM is APS2 type
+c7767678ed6aad5d5f7fc8a7319817c41b47e443|2018-06-11|Diego Ristè|Create empty data for TDM
+905c61794e8d0161388f66c6eac965a21a222853|2018-06-11|Diego Ristè|Example of bit flip code
+d4141d862ef65a3f8a358a2999f0ffb45cbea100|2018-06-08|Diego Ristè|Moved LoadCmpVram to qwait
+835236e559d03cd3865449f936a65740be6f2296|2018-06-08|Diego Ristè|Commutative property for pulse and blocks
+8cd21391b927127a1535b9cc1bbfe7e5f7de55bc|2018-06-08|Diego Ristè|Restore notation for single-trigger loadcmp
+e8159d82379e6aa3d3c65c73df1a8ed905f1af70|2018-06-07|Diego Ristè|Delete accidentally committed backup
+188c197bb43b88b3d235e2a621c956267fcf8349|2018-06-07|Diego Ristè|Make LoadCmpVram a case of qwait
+3765a974834f9134c2b08a378223f28f0f05f48e|2018-06-07|Diego Ristè|Tdm compile :bug: s
+cbe3539579ce99a13ad126a6e437a3adcf7dbb42|2018-06-07|Diego Ristè|Delete outdated
+5ff25921a856d8a2c9308086e0d71e90d49a04fa|2018-06-07|Diego Ristè|Swithch back tabs -> spaces
+a75e27382c3f4e6540f2331558655b6f6f93ed6e|2018-06-07|Diego Ristè|Write TDM sequence
+dcefa1de047940547f4c4ecd51ba85712d4191ca|2018-06-07|Diego Ristè|Carry label over next sequence
+d1c30308926deb9aab92e78ab3cf67d3cbfef3d9|2018-06-07|Diego Ristè|Preface masks with Invalidate
+137764e9eed0fadb93105ff7a1fc66398f7fae73|2018-06-07|Diego Ristè|Other fixes for custom instructions
+50bbbfe86afc62f2d9a39d7cd9915baf242148c1|2018-06-07|Diego Ristè|:bug:
+3b3fbc8fc71f914bbb534841f090336570213550|2018-06-06|Diego Ristè|Instructions for decoder
+7690a73ef5513f9787d4c587b5d7a0699620634f|2018-06-06|Diego Ristè|Fix label for group of instructions
+345b9148a9299cc39bec42b4bf9e81c5fbfe2883|2018-06-06|Diego Ristè|Leftover from last commit
+277bd8013505589810a8101639eef89238523491|2018-06-06|Diego Ristè|Allow list of seqs for TDM
+b82f7cdccab6cc06830da85658a6b5b4bd972dc5|2018-06-06|Diego Ristè|Fix final Goto in a seq.
+5241b2ca5f4667c83ddbd36556b8177bd4b60640|2018-06-06|Diego Ristè|Msmt's in PulseBlocks
+7f1aed106f161f2a4be908d8f1cb6a4c6708a4a7|2018-06-06|Diego Ristè|Add WriteAddr and CrossBar
+83517a84be8c10bbfbf6239c0736575340fd7d29|2018-06-05|Diego Ristè|Add majorityvote
+db0ee4ce7495179b9c95e12c222772407cf0c771|2018-06-05|Diego Ristè|Consolidate code in APS2Pattern
+0bc62c1aa38a1ead8b8997618a83e2f3e840b8d2|2018-06-05|Diego Ristè|Merge BD instructions
+ddd85b58651416f2aa6c0f329cc9c280287b647e|2018-06-04|Diego Ristè|:bug: Sync should not replace the first instruction
+37aba85f2f21ff13c464e378f7b69c915b407614|2018-06-04|Diego Ristè|Add wait before first waveform
+3786480627c56c81bfac5d72fddbaadaca74dcf3|2018-06-04|Diego Ristè|Fix merge
+aabd199eeeee1ad25d6857847cfdf82215d0759c|2018-06-04|Diego Ristè|Merge branch 'master' into 142.annotated-measurement
+7e5b492cccb0f4886f62680d97be0c774e7f0f51|2018-05-24|gribeill|Better list packing
+67f953b23231e9ab36220c72d99da7d5b64d0bb5|2018-05-23|Matthew Ware|Minor fixes and a pulse library indexing change to GST sequence creation
+38b66bdd6e50394bc4d957ce750db2ba5bda1bd2|2018-05-17|gribeill|Add GST to QGL compiler.
+8f5cf63191888d7180ab57a30068633032766a5c|2018-05-17|gribeill|Various bugfixes, first pass at Pauli random compilation.
+360788ac902a1a5d03faba8245fac3f43bb5462e|2018-05-16|gribeill|Initial commit, convert between pyGSTi GateStrings and QGL sequences.
+ebcb7fa4d5475791873cf9073491cd10abe781de|2018-04-27|Diego Ristè|Merge pull request #163 from BBN-Q/fix/2qCliffords
+32397c25028c5fb0c1a2f8e58b2cea16b1c94bd7|2018-04-27|Diego Ristè|Update 2q Cliffords to CompoundGates
+f0834ea23d0eb6893ad2e9f947ef4b8f3940b91b|2018-04-26|Diego Ristè|Merge pull request #161 from BBN-Q/feature/RB-metainfo
+1a08f095056053846e8847fc3fbab94563e02470|2018-04-25|Diego Ristè|Save sequences as extra_meta
+420c9d173ac2548c37339c6ddaf3ea19eb53511d|2018-04-25|Diego Ristè|Fix cals for simult. RB
+32477febf96c028dcc09dac7b736220a7fc56989|2018-04-25|Diego Ristè|Add descriptor to standard RB seqs
+3f43d9affe864dd11239e88e5f1182004cd34e0c|2018-04-25|Diego Ristè|Save sequence lengths in metafile
+bf0a30893ac09a4d88120014c87bccfbfd5dd620|2018-04-24|Diego Ristè|Merge pull request #159 from BBN-Q/fix/double-import
+fcf8cb912689ccafaaa1fa61cca3fadf536bfd57|2018-04-24|Diego Ristè|Do not import align twice
+3afb4688ac9b1ffb8a8be25b879436975e9fc78a|2018-04-24|Diego Ristè|Merge pull request #158 from BBN-Q/feature/trig-def
+f900947d3abcf3f2b906690e39e2801608064872|2018-04-24|Diego Ristè|Merge pull request #157 from BBN-Q/feature/align-pulses
+988549b6c453044f9d5d39bc7fceeceefa85eb90|2018-04-19|Diego Ristè|Define digitizer triggers as markers
+db5fa2573afda03c1c9139323888791404a6483a|2018-04-12|matthewware|Added a pulse shape example notebook.
+4ed8a758622fd67a0587767bf6d96f30dd5001ae|2018-04-11|Diego Ristè|More cleanup
+eff4e7dfa735f1528dc18e76c533520ef47eb67a|2018-04-11|Diego Ristè|Cleanup
+33651f9f9948b5de8fe2a94a8b893a34ba2196af|2018-04-11|Diego Ristè|Override __mul__ for composite pulses
+9436d6ae8d033bfe5b2ad5db506905fcbccd01b0|2018-04-11|Diego Ristè|Fix multi-qubit tests
+a77a4c8debe1806262420a7e719a447e6266a9da|2018-04-11|Diego Ristè|Generalize exception
+1405aab2adb755d53b9b0a7c39a83f1d3598eb1d|2018-04-11|Diego Ristè|Fix compiler test
+5754cdf74ad4b3dbe260b3962b03d591ec23335d|2018-04-11|Diego Ristè|Short triggers disagree with rounding
+901dcbe543e81c09b24326f6c39958d0091b53c2|2018-04-10|Diego Ristè|Patch for triggers with CompoundGates
+0f80c7af99a81631c3afe41d1e54dfa7da11ca39|2018-04-09|Diego Ristè|Fix tolerances
+5eae60d1adc7f602203f7e3cfc56aa6dca735204|2018-04-05|Diego Ristè|Align digitizer and slave triggers
+ae7357d5f8f08354d10545a4a00c32c9ec506566|2018-03-27|Diego Ristè|Try to deal with compound gates
+7c71753e9b965eaef191fc8c5bc71da8d7c788af|2018-03-27|Diego Ristè|No need to realign at compile
+e12c86c6538061ced60c7a38a0d2beda3f0d7fa7|2018-03-27|Diego Ristè|Deal with composite pulses
+4fa630f8057d3406971bc1d58fd49730d967aa40|2018-03-27|Diego Ristè|Tackling blocks
+046bb2970bc4ea2527ab30d9621f7166a909a9a5|2018-03-26|Diego Ristè|Default alignment for pulses
+8db8fe1d37fff2d5efdec57761234396657bf24e|2018-03-26|Diego Ristè|WIP: align pulses instead of blocks
+a0b29569c4a6bf87eea5bb632829b0c811b1ca77|2018-02-23|Matthew Ware|Merge pull request #156 from BBN-Q/fix/division-not-associative
+0201ee90d91054b51ec1b4d1aea1893c5efc118c|2018-02-23|Matthew Ware|Fixed scaling typo
+fb4f835a11c7f45c903c0429b888ae2efa1fe63f|2018-02-14|Diego Ristè|Merge pull request #153 from BBN-Q/fix/cal_descriptor
+78d23a305e2bf76a893d082bcaee57e4f726de8c|2018-02-12|Diego Ristè|Merge pull request #146 from BBN-Q/feature/minimal-config
+3a7fadc6675af03f99a85b8bb74afaa56b8b5c7c|2018-02-08|Diego Ristè|Allow any partition for cal data
+f466945398c6630830d6beb1c8364eeb0f43276a|2018-01-30|Daniel Ellard|add conditions to TDM; rename TdmLoadCmp instruction
+64d6857a7128c39b48f6ef04963df62d8dd45548|2018-01-29|Daniel Ellard|splitting out the TDM compilation stuff
+494f00aa7797ff01cfc54c48642d7af21c02a69f|2018-01-24|Daniel Ellard|make the tdm code conditional on the device
+b1259f2d4a576a920e6f60343f56218abc561717|2018-01-24|Daniel Ellard|TDM surface-level instructions
+0f8ad8d835d27547f13e6090032ff0c3deb9835c|2018-01-23|Daniel Ellard|backpatch label references in TDM instruction stream
+a98e2c9a16db8b8985ba75c5429679fe69fbd9b5|2018-01-23|Daniel Ellard|remove pad_with_nops; no longer needed
+08e4f7fcbd1403cca16bb5fd6aeb3ffa1272b7b5|2018-01-23|Daniel Ellard|remove unreferenced chaff
+9f89dd65d69ba48855ef0255e145f1ad2069283f|2018-01-23|Daniel Ellard|cleanup and complete (save output...)
+41f80e357432ff2e980ac2aa8fc3e07a472aa029|2018-01-22|Daniel Ellard|add new LoadCmpTdm pseudo-op
+fd595e3f1f9f3b17cc7c643da70c03c5958d0c59|2018-01-22|Daniel Ellard|simplifying how the TDM sequence is built
+ceea4dffcc747ff055ae9058f2db9df920c4abac|2018-01-21|Daniel Ellard|simple test driver for TDM functionality
+d4c5fdc05f041e4d8833ac18e615738e83b41fd9|2018-01-21|Daniel Ellard|splitting between APS and TDM instruction streams
+28de8104dd48a5864d0c296846bc5911324527ad|2018-01-20|Daniel Ellard|separate TDM types from APS2 types
+fe0b91d3c0e8566393adda40c89054b9d1e3181e|2018-01-20|Daniel Ellard|revert all APS2/TDM changes
+ab57543498eea4f336e287df8ea589ef19d571f4|2018-01-20|Daniel Ellard|moving TDM-specific changes here, for neatness
+4a4bd5afd4fd95b4b8b1b85a27705831668e081d|2018-01-20|Diego Ristè|Merge pull request #147 from BBN-Q/feature/notrig-MEAS
+c24e23cf175181c99b7c243996e01699967339cb|2018-01-20|Daniel Ellard|pretty-print WFM to VRAM modifier
+1914f29fd0f556316c9dff81c067da97b3fa2b9d|2018-01-20|Daniel Ellard|cleaning up new operations; adding str method
+75f4201018765c31c82a6c14a549e51b409adc1e|2018-01-19|Daniel Ellard|work in-progress: adding new TDM instructions
+779cb5890e4ede6e44ea3955ec6507c5ed72934e|2018-01-19|Diego Ristè|Merge pull request #149 from BBN-Q/fix/TDM-master
+dfdf7aebe94e3181e4385219c2a2821a8f388051|2018-01-16|Diego Ristè|Fix case for no TDM as master
+682a02ed08a216a77e6eebe6909f962a97824061|2018-01-16|Diego Ristè|Allow TDM to be the master
+00ca9526d104d0fb25679b965361ac57b8912b2a|2018-01-13|Diego Ristè|Optional choice of dig_trig (or None)
+aadb4684c3897465adc9949e08cc8fa0713f9a8f|2018-01-04|Brian Donovan|Add minimal config for QGL-demo
+7df452a6f685a3dd4dadca82c8b0f7063da057f2|2018-01-03|Diego Ristè|Merge pull request #145 from BBN-Q/fix/plot-issues
+9fa162609c132006f0edd996ce43d07353fdf6d1|2018-01-03|Graham Rowlands|Fix some minor bokeh issues
+8e572d25933d87b7bd59a510c70763073f08001c|2017-12-21|Graham Rowlands|Merge pull request #143 from BBN-Q/fix/bokeh-column-source
+e2e5208cd1ac2b54becc495b99be446b07cc19cc|2017-12-20|Diego Ristè|Merge pull request #144 from BBN-Q/fix/color-palette
+537dc3660f901fbd21c3b0094c554cf8b9b17eaf|2017-12-20|Diego Ristè|:bug: Fix indices
+1ef9b91b138502d1351e631f7116637ade103fd5|2017-12-19|Diego Ristè|More color options for >9 waveforms
+0769c2ed3bfc10bf64dc70bd75b9366b995ddabd|2017-12-19|Graham Rowlands|Some more underscore-hyphen fixes. Remove comparison plotter for now
+b47f89f5eba28b81d8f4f898df48de4f08502cb8|2017-12-19|Graham Rowlands|Clean up comparison plotter
+76e6df68b7f47685276123a4cab3c39d0f3dd65c|2017-12-19|Graham Rowlands|Fix bokeh plotter JS/Python code to reflect new API
+faed94e39295d1592bc16b029931406c7bd0db36|2017-12-15|Daniel Ellard|Merge remote-tracking branch 'origin/master' into 142.annotated-measurement
+6396eaf3d8177e62eca725703e851dd50de18533|2017-12-13|Daniel Ellard|add memory address to pulses (for measurements)
+2823ed367826da7b7ec3453e647c49f54c6b6f08|2017-12-13|Daniel Ellard|add 'MEASA' primitive, for measument+address
+8991538a7204c42d3a53690a310e901286057a28|2017-12-13|Daniel Ellard|copy maddr from Pulse to Waveform
+6fe99890f14148e35b0fce3381b1f7ad0afaebda|2017-12-13|Daniel Ellard|diagnostic -- remove later
+cb81040d1f94bb077d15b1ce7ee6db2f07c65d92|2017-12-11|Diego Ristè|Merge pull request #141 from BBN-Q/fix/bokeh-slider
+11a08c1959bb67bc84758101888cf9d8e42e301d|2017-12-11|Graham Rowlands|Remove slider for plot_pulse_files for sequences of unit length, in order to satisfy newer bokeh versions
+257ac2877917e0b31ce1a843b97d7e0489161c3c|2017-11-29|Graham Rowlands|Fix setup.py
+a6ecf8dd850480944dd4e29c4e9cabaf7565a9e6|2017-11-29|Graham Rowlands|Merge pull request #140 from BBN-Q/fix/auspex-envs
+a6e3109d45223cbe0a26d5314dfb75de0e0b7a60|2017-11-28|Matthew Ware|Merge pull request #139 from BBN-Q/feature/conda_cal
+37ab33d4de6803b24e975b380c93493c76f3311a|2017-11-28|Matthew Ware|Added optional cals to other RB type experiments.
+e6b8ab7814c523e0d9400c70e0455fba856557ce|2017-11-28|Graham Rowlands|Add new ChannelLibrary() commands to demo notebooks
+116683454d467543751e4e8a8ae9ba8a71caeb9a|2017-11-28|Diego Ristè|set_awg_dir for test_mux_CR
+186278fa12e090b023b0720d3dc89f7adec1a2f4|2017-11-27|Graham Rowlands|Fix typo for test_measure.yml
+a674a1dc725cefa864e4804c38b956edfb6f7112|2017-11-27|Graham Rowlands|Add test measure.yml file and change .travis.yml
+b9ac5356de327b2b7e1496d003b23f1fc7ead630|2017-11-27|Matthew Ware|Make cals optional for RB
+21a3114f27420931ade4577244236c80af3ff964|2017-11-22|Diego Ristè|Redundant mkdir
+eea6f173227f5e467e250ef2e081f9bca3f21f9f|2017-11-22|Diego Ristè|Fix test_config
+0bdda3305b503098505d8d96b4ca00e6b91bcb4f|2017-11-21|Graham Rowlands|Write simple yaml config during testing on travis
+03b246b2808f2c225df39604366d0681c66c73ab|2017-11-21|Graham Rowlands|Modify tests for new config.py
+1f07e0eb9ef3d6eda26416871150a7d1afb7201a|2017-11-21|Graham Rowlands|Move to using yaml file for configuration
+2bf9f51186db1dbf6dfb288a3be742f9afdb2dbe|2017-11-21|Graham Rowlands|Get rid of more magic imports for pulse_primitives_lib
+63cfa037b1c8d40a2ab3659482e308c238a35222|2017-11-21|Graham Rowlands|Explicitly used blank library in tests
+a234586197b278fb6c0a399b14ca70e2bfef473a|2017-11-16|Diego Ristè|Merge pull request #133 from BBN-Q/test/qglconfig
+5e8b83045692a907fcecf316282a8b64aadd4731|2017-11-14|Diego Ristè|Try install individual modules for auspex
+4ae9e1a8c933839a507f874c09246269d0f81cad|2017-11-10|Graham Rowlands|Merge pull request #132 from BBN-Q/load-from-yaml
+2450d328feea87772d037465c1b25616ae9c8d06|2017-11-07|Graham Rowlands|Merge pull request #131 from BBN-Q/fix/test-CNOTprom
+a54fe08f74edc659dc8f1f772de8d90e4c52572f|2017-11-07|Graham Rowlands|Merge pull request #130 from BBN-Q/fix/no-magic-side-effects
+e7faccb49daf938ff6880b6a0aaf1aca72459baa|2017-11-07|Graham Rowlands|Drop Python 2.7 from CI
+dcd89b9b9840a9d80f6f99aa10c1c1f73821308d|2017-11-07|Graham Rowlands|Make some relative important allowances in unit tests
+4d851f527c0cab1533444b1b34297c4763ba75ef|2017-11-07|Graham Rowlands|Accommodate networkx 2.0 DiGraph API changes
+32b49dac9c3c3b0f8a86f4ce85a774a98b3374eb|2017-11-07|Diego Ristè|Explicitly call CNOT_CR
+8f1f6c1d6684fdd0d66d5ac3f6ecf08766f7beb6|2017-11-07|Graham Rowlands|Temporary let promotion tests fail. See issue #129.
+a1fb08854a35f7a3080f9df4cbb93afaa2862fb6|2017-11-07|Graham Rowlands|Missed refactoring ChannelLibrary changes in some tests
+431187239ad98b0c8b14ac49016fddc3e4e6ea71|2017-11-07|Graham Rowlands|Reloading fixed
+ec5cdb88ef6ef74d7a411b60e3806b3da3551386|2017-11-07|Graham Rowlands|Added seq_per_file keyword to legacy drivers
+d8f587e2bd4c9a280e6d577893fd36075cec3cf8|2017-11-07|Graham Rowlands|Well on the way to fixing autoreload issues
+39512ec368c1a13c9eddc220d662d07b73933f9b|2017-11-07|Matthew Ware|Added SEQFILE property to APSpattern
+bed66654e621cde82e8fb5876e83975818f5025e|2017-11-06|Matthew Ware|fixed my own typo
+982543c21bba6ebecf436f529ec8fac4111fe05c|2017-11-06|Matthew Ware|fixed typo
+b067201d7c550444b192fee47b5a9a0013e29775|2017-11-06|Graham Rowlands|Fix relative import within tests
+17ed5107cd167881ec34df8be1b763462e9d0d0d|2017-11-06|Graham Rowlands|Change filename ChannelLibrary.py to ChannelLibraries.py to avoid name conflict. Refactor.
+601c42c0b3b0d831f4669ed05300a6690a8aef91|2017-11-03|Graham Rowlands|Require manual instantiation of ChannelLibrary
+820a5a16a1532dbd854f3fcfee65c61b8ce1d231|2017-10-05|Diego Ristè|:bug: Reference to trigger name
+eeeac00e2815842ca6945e7fa39766875c7c766e|2017-10-04|Diego Ristè|No need to create default pulse gate
+b90a005f75ac2012544f62406287db584ed3702c|2017-10-04|Diego Ristè|Fix conflict
+a132c9370cc060e931d1e9951e5dedac38127608|2017-10-04|Diego Ristè|Merge configurable config from master
+ad3ff4e366a96c2e3fa6618f97f700b6b211f95f|2017-09-18|Graham Rowlands|Typo in edge loading
+f818d879067c188882f6d6e99f8ab15db6ce158e|2017-09-18|Graham Rowlands|Be more careful about loading optional YAML sections
+e0a7cb0f0ebb371eac7b5935da337086192aba38|2017-09-14|Diego Ristè|No need to create default pulse gate
+4f8b1241488f83858b9a62a37bf263758cfd05ce|2017-09-14|Diego Ristè|Create edge dictionary from yml
+28a8bd743565ab636be7c2e2a4602e9fc061119a|2017-08-15|Graham Rowlands|Don't write out files for un-used channels
+7b77b25132edd5c78a562b696649d761b1933d53|2017-08-15|gribeill|One more :camel:.
+129e0b74a64c3ffb0c1813c4fdaa8ddd2d3314a8|2017-08-15|gribeill|Unsnakify receiver channel. :camel:
+a681c79dec166e064ac6032a6ece2b48dcb82fa0|2017-08-15|gribeill|Revert to stringification of receiver channel.
+c0bbf974bd9fe06576ba5d0131c089713d7e6104|2017-08-14|gribeill|Add documentation for MarkerFactory and TRIG pulse.
+3043d67d27ec85bc8621962009582ba71ab4d7fc|2017-08-14|gribeill|Change the YAML layout to a separate marker entry.
+acc512c1c2b83590c268a1e340f132bc91fd23ca|2017-08-14|gribeill|Add marker factory for unattached markers.
+0628903637db7997b4be7453f620456105959f7e|2017-08-14|gribeill|Remove extraneous debug statement.
+f0bffbb60c192f0293f8c2ca3ee7f7e09675b2f9|2017-08-14|gribeill|Marker lengths now supported in instrument specification file.
+a0634ac3e886db416346e5d163ed1c0b73cb677e|2017-08-14|gribeill|Correct gate channel name for control.
+b146fef08be6bedf7b25478249b8e65d99bfb27f|2017-08-14|gribeill|Properly link gate channels to their parent LogicalChannel.
+b3397ba2934b542a3f1b152274e58309edff6cad|2017-08-12|gribeill|Make Hahn Echo and CPMG sequences return metafile.
+40b0930297315287b77120e6f7a6c86ceb162979|2017-08-10|Graham Rowlands|Cast channels to strings to be safe
+b2cb85f29f1976acd55351fe99073598ffaacb7c|2017-08-10|Graham Rowlands|Added option to plot over time instead of samples.
+1534f3edc3eacc115260f53baa06903399c02044|2017-08-09|gribeill|EAFP for temporary file access.
+cefa19908ae0739bad782bc2a80271ec4141b582|2017-08-08|gribeill|Make watchdog ignore temporary files.
+1859db313d06e14b11158ce21be35050ca379dd0|2017-08-03|Graham Rowlands|Ease off on support of more general instruments, don't pollute the awgData.
+a65373a3228565b48cd1679623b12f53f3f6580a|2017-07-31|Graham Rowlands|Fix establishment of slave trigger
+264171e5b5353bf1e419910a284af871c89e97ba|2017-07-31|Graham Rowlands|Channel library now properly reloads when !included yaml files are modified.
+0bf05095ba4872a589839d007dbe7f870287e36d|2017-07-27|Diego Ristè|Snakify autodyne frequency. --GJR GER
+ade38a8d7221ad2d5c9e95eb59c558e452ad2a1a|2017-07-26|Graham Rowlands|Less restrictive naming in extract_waveforms
+1361109fab148023f198459099cf26d3ae3828b3|2017-07-26|Graham Rowlands|Fixes for channel naming scheme
+5753dae37a757624fd019d7c9c41e8cf2c51b197|2017-07-26|Graham Rowlands|Ignore warnings for output_file
+dfcaf4bbe4fdc13a022160c23652a3a974314672|2017-07-26|Graham Rowlands|dragScaling -> drag_scaling :snake:case
+5205304c72a9c2bc104434636fe9045720d23ac0|2017-07-24|Daniel Ellard|methods to control the path to config.json
+7ad43b6582714b7987d44e9460eddedfe947950e|2017-07-24|Daniel Ellard|added documentation on how to use
+45978cf3a6730e40fd27f213d395ae2674e3d227|2017-07-25|Graham Rowlands|Scaffolding for more generic instruments.
+e38be81725e6399794191453cd4e2bf6cf43e09b|2017-07-25|Graham Rowlands|Don't require a slave trigger.
+55fa5907c179af4e6b878dd32928152a5496b0ba|2017-07-25|Graham Rowlands|Added watchdog code directly to channel library.
+83ed3a6580c6bdb04fb50664a4a589bc0e2b230f|2017-07-18|Graham Rowlands|Removing JSONLibraryUtils submodule
+ac0c968133d062b9518fd365e0960de6cab74878|2017-07-18|Graham Rowlands|:snake: camelCaseCrusadeContinues
+7ad56f90e0094138cd5e2fe2014cd650f3f25a27|2017-07-18|Graham Rowlands|:snake: the beginning of the great camelCaseCrusade.
+b4acd5f9dbbf4871d0db75053d2f64de41f7bf9e|2017-07-18|Graham Rowlands|verify that logical channel has physical channel
+0aaa0459615d1fc87f0340a06d666dccd24dd741|2017-07-18|Graham Rowlands|Generalize channel parsing
+ca1529df110b9d0f0d81fd1b8945550ec162c86a|2017-07-13|Graham Rowlands|Channels are now in dictionaries instead of lists in the YAML.
+175efa236b7fa75707721a4bbda87c5780866c55|2017-07-12|Graham Rowlands|YAML config has done away with lists
+3a22f4d09724a96f2e0b0a9d055e00e085cb4e2f|2017-07-05|Graham Rowlands|Cleanup old JSON
+14c5a8094c2995a152ec10250b559e7cfdb87488|2017-06-30|Graham Rowlands|Now watching YAML files
+ac985f898937b405c81e1b29316596b06d099644|2017-06-30|Graham Rowlands|Can now succesfully generate simple sequences
+9d3196c40d5e36b8dd61e6da41d2e6b6850674a5|2017-06-30|Graham Rowlands|Fixed gate channels
+157c448e848e8812021314936fe4f3997279eaa7|2017-06-30|Graham Rowlands|Add uw sources to channels
+b376c44ab9090b8ec72e01fa1f5c2c538954fdc1|2017-06-23|Graham Rowlands|QGL now compiles wavefors from YAML. Many details left to sort out.
+e50eba650833b5dafeef1ebeb1419e4bdbbad7db|2017-06-23|Graham Rowlands|Beginnings of loading from YAML
+30168ef8e50b71b7833fbf6a2124752819876c72|2017-08-15|Graham Rowlands|Don't write out files for un-used channels
+8ea14d54d27cfee609d09ff8b167c5bf9ea1a635|2017-08-15|Guilhem Ribeill|Merge pull request #122 from BBN-Q/feature/marker-factory
+be18d667b7e4063be9b77f1048ac8b31428ab9dd|2017-08-15|gribeill|One more :camel:.
+4e0fe5c53a8f4f3290aa631b6befea4476f5f89e|2017-08-15|gribeill|Merge branch 'feature/marker-factory' of https://github.com/BBN-Q/QGL into feature/marker-factory
+da4403bc55e5cc6a5c23ac1a9a8e4fef727b0e7b|2017-08-15|gribeill|Unsnakify receiver channel. :camel:
+ec0165850cab740448515607882a38e9af1885f9|2017-08-15|gribeill|Revert to stringification of receiver channel.
+f261ed2f8e6e7b1ccb7dcc4be5668c248504c2c4|2017-08-14|gribeill|Add documentation for MarkerFactory and TRIG pulse.
+d10eb6674b42d606df9cfcd2a6ab68c29d4fb66b|2017-08-14|gribeill|Change the YAML layout to a separate marker entry.
+3bb4b12e7d5040d6d63aa7f24d0f601e56f47586|2017-08-14|gribeill|Add marker factory for unattached markers.
+d44f15baaca0aa7f7df3a69acb96d9a2c8712e77|2017-08-14|gribeill|Remove extraneous debug statement.
+f96b7feb02381cc9b89c973922a47db6db081cb8|2017-08-14|Guilhem Ribeill|Merge pull request #120 from BBN-Q/fix/marker-lengths
+61a90e73822f6b143798eb53990b46c4518eeda5|2017-08-14|gribeill|Marker lengths now supported in instrument specification file.
+c79bcd374c2cd44702d4a04c338fce42d24ce870|2017-08-14|gribeill|Correct gate channel name for control.
+abf4d830dad141347d7a80e5331936548daca658|2017-08-14|gribeill|Properly link gate channels to their parent LogicalChannel.
+6b025ca6f0d05831ef76345021d5425e78a140b9|2017-08-14|gribeill|Merge branch 'load-from-yaml' of https://github.com/BBN-Q/QGL into load-from-yaml
+7caf995d48588b6b8f198c1e1b74885793667760|2017-08-12|gribeill|Make Hahn Echo and CPMG sequences return metafile.
+a11511a7f1c361a1ee4a2e2abca87cebe4d27812|2017-08-10|Graham Rowlands|Cast channels to strings to be safe
+18179da77ad89c1ec30dad7bb6ed4279a7565ca9|2017-08-10|Matthew Ware|Added watchdog install note
+656bfaa9585ef6f35de573dc367201c0fab965e7|2017-08-10|Graham Rowlands|Added option to plot over time instead of samples.
+9bfc6e03c1ccc882a3a6ef8c2e494e1e27de6bc2|2017-08-09|gribeill|EAFP for temporary file access.
+f768a8ce54de2faacaf9fe0cdb2c2259e509eab0|2017-08-08|gribeill|Make watchdog ignore temporary files.
+6aaca5077baecf98c790c4d5629729d07a29c0fb|2017-08-08|Daniel Ellard|Merge branch '113.configurable-config-path'
+c4dfb7ac20e722821af36cd5fc6eb2b740cdef83|2017-08-08|Daniel Ellard|change the default back-off behavior
+6940104ef88176c78158ea158f9812b9f8d6267d|2017-08-08|Daniel Ellard|remove dbg prints; minor formatting cleanup
+5ba9dde8e9bb12f472e31a633093ed62446e736d|2017-08-08|Daniel Ellard|minor clean up formatting
+513775190fbe6979208bed506eea9cc78706a601|2017-08-08|Daniel Ellard|remove unnecessary import of sys
+080246baa65465d8d1479e5c60119056fc407a68|2017-08-03|Graham Rowlands|Ease off on support of more general instruments, don't pollute the awgData.
+37a711ec062d93f7996fe231f57eccdc4f89da51|2017-08-02|Daniel Ellard|move QGL.config_location to qgl_config_loc
+f0a6726834c1a1a53a23f21287d42fa08b894095|2017-08-02|Daniel Ellard|moved to ../qgl_config_loc
+73e08649dcfff27771c0a6f2cd6e57b347f1df2a|2017-08-02|Daniel Ellard|move config_loc stuff; add tests
+e2ca926ac59a3b24420efd462f15a4cb5491b30d|2017-08-02|Daniel Ellard|fully qualify the config_location module name
+d5f9c428a6ad228e87f8ba4a4d654ce8bebd14f0|2017-07-31|Guilhem Ribeill|Merge branch 'load-from-yaml' of https://github.com/BBN-Q/QGL into load-from-yaml
+fcbf2a2055747ba2adbc865f9b619297c8f646aa|2017-07-31|Guilhem Ribeill|Fix establishment of slave trigger
+888fb983abcd8aa38f3e05fc4f8849650f640211|2017-07-31|Graham Rowlands|Fix establishment of slave trigger
+ce13a99e72ef60b0429cdd96dbfcdae176c19447|2017-07-31|Graham Rowlands|Channel library now properly reloads when !included yaml files are modified.
+3c753723d57318efe299398bab4e64fcafee8959|2017-07-27|Daniel Ellard|improve the how-to-use instructions
+3901cacf7389e030f8f9d5f38862123eeb014f01|2017-07-27|Diego Ristè|Snakify autodyne frequency. --GJR GER
+1467642925aa81b4452b9d94f8a7b280aa73160b|2017-07-27|Daniel Ellard|add check for QGLCFGFILE env variable
+ffdd78f613c99006a4547d56b86c52fd2bd261d3|2017-07-27|Daniel Ellard|clean up import; print notes about config file
+e5f01b230898d71faf72e395792dac325f19628d|2017-07-26|Graham Rowlands|Less restrictive naming in extract_waveforms
+df9640bd96fb0ed40cf0731322323664d03f1386|2017-07-26|Graham Rowlands|Fixes for channel naming scheme
+43aa593865b885c68d1e067bc19b124d22b69d3b|2017-07-26|Graham Rowlands|Ignore warnings for output_file
+8b1cbe9d30de893d85c3fdd986f29bf300e70b2e|2017-07-26|Graham Rowlands|dragScaling -> drag_scaling :snake:case
+11fdabe6b20aaf1f2b196773370be70352b452bf|2017-07-24|Daniel Ellard|methods to control the path to config.json
+24aa395c2c302e9e714b5eca14b24393c71cdc3d|2017-07-24|Daniel Ellard|added documentation on how to use
+e2f15e33d128c756b431fa747a92bfee01bbd9cb|2017-07-24|Daniel Ellard|use config_location instead of hardwired default
+7cd638c96e179bf698bf0a2cc5bb5dd734193548|2017-07-25|Graham Rowlands|Scaffolding for more generic instruments.
+c9331e469d1b691278ebcd36116f8ee5b219dd1a|2017-07-25|Graham Rowlands|Don't require a slave trigger.
+4fa55def54c044c9a8a693af91803a29db5efb5a|2017-07-25|Graham Rowlands|Added watchdog code directly to channel library.
+643dddf3118af4675954848671e38b20cd8234fb|2017-07-24|Daniel Ellard|use config_location instead of hardwired default
+0d15015d0859509dbf5cd41b43fdd2c8cde32bff|2017-07-24|Daniel Ellard|added documentation on how to use
+8b9be75ffc4ae87c850dea0170077e129fa13b7e|2017-07-24|Daniel Ellard|methods to control the path to config.json
+ca18adc7cc49744da882ce323ee1005288c3ec44|2017-07-18|Graham Rowlands|Removing JSONLibraryUtils submodule
+b9f861f711f659014c445041990305407e935ba5|2017-07-18|Graham Rowlands|:snake: camelCaseCrusadeContinues
+58bcb6ac8f43c80dde55c46aeb1baca634ccda4f|2017-07-18|Graham Rowlands|:snake: the beginning of the great camelCaseCrusade.
+f2126277faab1ff7d232c639b2e7cf54adfc2eaf|2017-07-18|Graham Rowlands|verify that logical channel has physical channel
+15ce506b27142ad27edc369bd5e62b85b225bb8e|2017-07-18|Graham Rowlands|Generalize channel parsing
+59da9b5d69dbdd0c4e7c361dc5d420583ea6bb26|2017-07-13|Graham Rowlands|Channels are now in dictionaries instead of lists in the YAML.
+5124801920ccce2dc2f835fd241753c8aa2a4733|2017-07-12|Graham Rowlands|YAML config has done away with lists
+e30c6dc9d0764953929742c39761bc3986e8ce63|2017-07-06|Diego Ristè|Fix reset docstring
+087057a6c08fef815f39a2bb8399f1ae409c7309|2017-07-05|Graham Rowlands|Cleanup old JSON
+a56f62fef8deb16383b0d87b46ace63e8f61e984|2017-06-30|Graham Rowlands|Now watching YAML files
+63a6f1a2d599d557d16dd3b8de10111155d8405f|2017-06-30|Graham Rowlands|Can now succesfully generate simple sequences
+b9d69033ab356bf46fbf583e5f973a7a0bfa74fd|2017-06-30|Graham Rowlands|Fixed gate channels
+4ff1c4543e853b2e91f5c0e297c2c25d3e805648|2017-06-30|Graham Rowlands|Add uw sources to channels
+e02d4e2c32952bc0ce27186f00bd4193382a75d2|2017-06-30|Graham Rowlands|Load bokeh js from local copies, suppress bokeh specific warnings if desired.
+10e7f496055c39431b2110af9bdbde921491acdb|2017-06-19|Diego Ristè|Convert list to array
+ac4a7c96f7ceab2b6095124d82a89e6d1ff2ffe4|2017-06-19|Diego Ristè|Fix indices
+ee54488ff58cbd8b9aecf2a9fa1e77f5cca69b4a|2017-06-19|Diego Ristè|Reset a register subset
+f7270b0204aa9007ff47a3f1113719ed3c252015|2017-06-30|Graham Rowlands|Load bokeh js from local copies, suppress bokeh specific warnings if desired.
+d1eeb2dc079810a6e67f7faddb545ee0cc3f32d1|2017-06-26|Diego Ristè|Merge pull request #111 from BBN-Q/feature/reset-subset
+48e333467bd9311affe5c7b7dd7677ce4321e180|2017-06-23|Graham Rowlands|QGL now compiles wavefors from YAML. Many details left to sort out.
+e2013daa36e3e2abbcd38f55edd8f28cf1931949|2017-06-23|Graham Rowlands|Beginnings of loading from YAML
+b570091ed703187ea34fae9f424ecdc96959ead2|2017-06-19|Blake Johnson|Merge pull request #110 from BBN-Q/feature/more-docs
+15faff007b9d71a9261b7238bcf60b3bd4a60c37|2017-06-19|Diego Ristè|Convert list to array
+a60b9c80b28c3333c04ee0ad8de610b8790a1f9e|2017-06-19|Diego Ristè|Fix indices
+e018562279f50f6899b918a46b2fe375778d9c10|2017-06-19|Diego Ristè|Reset a register subset
+4f71c784586c217c88677fd4af8e0300c8b02f86|2017-06-19|Blake R. Johnson|Add a link to the online docs.
+598af89426dbd080b0149ccd08b7c9fea2661d96|2017-06-19|Blake R. Johnson|Fill in a lot of empty doc sections.
+6066f50bf26835256b57e6a625abc13418dd87d0|2017-06-19|Blake Johnson|Merge pull request #108 from BBN-Q/fix/reset-seq
+3305d8f8b0f7b07452d10ec9846480b5fbbe69d3|2017-06-19|Diego Ristè|One more qwait
+88084ea178fa758aa6a00eebdbc159dabc5e7cb4|2017-06-19|Blake R. Johnson|Break up doc sections into separate files.
+c65453352423f6e8d7c5ff14df83c526bf6da637|2017-06-19|Blake R. Johnson|Build docs with mkdocs
+6741258fbe6bd93cf652becc8c81020b096c79c5|2017-06-19|Blake R. Johnson|Large update to the intro.
+7c7ee273044092765fc286e9305671dc6091caad|2017-06-19|Diego Ristè|Compile Reset
+dd8ae3cd1cc9f50f4910cfc8d85927b4e4f696e5|2017-06-19|Diego Ristè|Fix qwait
+798609cee64b59e5d3d5ba4c12f12e80cb17d598|2017-06-19|Blake Johnson|Merge pull request #107 from BBN-Q/feature/utheta-angle
+bc374f40164426a00ea36b67df0430618193e699|2017-06-13|Blake R. Johnson|Utheta et al directly operate on rotation angles.
+2ba8d064ae16a6cfd289b426444e7491080a1714|2017-06-08|Blake R. Johnson|Go back to broadcasting all control flow.
+c4154edec707f1925c44699c921d608467c4e3cb|2017-06-06|Blake R. Johnson|Restore JSONLibraryUtils version after merging #105.
+6881071963eee60bac2da8c4dcafe459de24ac1c|2017-05-25|Blake R. Johnson|Remove some qgl2 compiler option cruft.
+efe68af13f36d17f3d6374d4ed0e688ec485fcaf|2017-06-02|Blake Johnson|Merge pull request #105 from BBN-Q/feature/return-meta
+7abef12eecd81115880b09ce9238e176922634d3|2017-05-25|Blake R. Johnson|Fix scheduling of measurements.
+869cbf8037e5134369f18ebd69ddf57fd427382f|2017-05-25|Blake Johnson|Merge pull request #103 from BBN-Q/feature/scheduler
+7b94a1c5590f1e76636bfb8fdc7010a6272a5bfe|2017-05-25|Blake R. Johnson|Add scheduler pass to find all channels in a sequence.
+c05b7a97c070b0123cc465eb7d01538f779d82e6|2017-05-25|Blake Johnson|Merge pull request #104 from BBN-Q/fix/frame-update
+d000ce6a231aa4af2fc0d16bdd02b8a94b996239|2017-05-25|Blake R. Johnson|Fix off-by-one error in frame update code.
+05ef86cb1ad5eb66df1166edf74ec9735bddff18|2017-05-24|Blake R. Johnson|Fix scheduler test to preserve labels in branches.
+942e715e96a662abe8ba99b0e3fd6438eaeed3c3|2017-05-22|Blake R. Johnson|WIP on scheduling with control flow instructions.
+eecee624d8a5c7d2bf9c2c118acbbb211daf62ce|2017-05-16|Blake Johnson|Get scheduler to work on 2-qubit gates.
+134e9a555fc8e51ba6d0ea2929667fc0df9dd557|2017-05-16|Blake Johnson|Define promote() and __eq__() on CompoundGates.
+81e236f81343f7e4f21cf6b01329d3d1ac738f9f|2017-05-16|Blake Johnson|Make test environment use CNOT_CR implementation of CNOT.
+a359595fd786a2222e0bd868f518c4c88fb0bc5f|2017-05-15|Blake R. Johnson|Add a CompoundGate type to the pulse hierarchy.
+0b2d263df8308a212ada9ffa342cd23a4aa0e1e4|2017-05-15|Blake R. Johnson|Remove dead "qubit/edges to compile" code
+bf3f9e3d92e3dcbbfe48bf1db7fac8280b5875a0|2017-05-15|Blake R. Johnson|Add a scheduler to parallelize serial pulse sequences.
+03fb762cda56b705e88f339246a923b29d01707a|2017-05-15|Blake R. Johnson|Make the 'label' property of CompositePulses more useful.
+4fb42ba16bc25d5da52e45fc506ec73a1ade5bc3|2017-05-17|Blake R. Johnson|Fix bug with channel names with more than one '-'.
+d746f0b0a24229fe371a71cac36bfd3c6deb5da0|2017-05-17|Blake R. Johnson|Fix bug in on_awg_change()
+4b0d3fea8c27ff5dc08c89b15ad22caf390cb614|2017-05-15|Blake R. Johnson|Move Barrier() from QGL2 to QGL1.
+5378278f5e648af9ec1fe7f6d5a731adfa416f0e|2017-05-11|Blake Johnson|Merge pull request #102 from BBN-Q/fix/ignoredStrParams
+987328988e2395bb8d3bdc023834fe9e00653f3f|2017-05-10|Graham Rowlands|Typo in metafile var name
+4674c9dbd84b8d10455fb1698525eddf6dff21f3|2017-05-10|Graham Rowlands|All QGL basic sequences now return metafile instead of sequence filenames
+cd169fff3dd1fbc0a4e7fa65edf4ef480397d63f|2017-04-13|Blake Johnson|Merge pull request #100 from BBN-Q/fix/time_descriptor
+03b0523a7d8394ca7a3eb1c87a452e6157cd9926|2017-04-12|Colm Ryan|Merge pull request #101 from BBN-Q/feature/purityRB
+0c04c04ab7576cfa2410826156a520df1e03cbff|2017-04-12|CoherenceController|Add purity option to other RB flavors
+3758de277f399e26d576ed4a63556f4d01cb202d|2017-04-11|Colm Ryan|:memo: add reference for purity RB [ci skip]
+305d60dba61df55c447dccc263091d1fa7e83c37|2017-04-11|Colm Ryan|:art: :memo: whitespace normaliaztion and docstring updates [ci skip]
+b7b00ac1c8d946a559bd82fefa861b4eca35aa35|2017-04-11|Blake R. Johnson|Stop appending duplicate values to ignoredStrParams.
+7a85af298a2bc9474945343cdd329a2164f811d9|2017-04-11|CoherenceController|Merge remote-tracking branch 'refs/remotes/origin/master' into feature/purityRB
+415969358d3775d90c274e0f19b02500d01eb097|2017-04-11|Colm Ryan|Merge pull request #99 from BBN-Q/fix/gauss-scale
+a8b49f65766eeac7b277f3a4185c91aaccbf70c8|2017-04-11|Colm Ryan|update Python 2.7 sequence files
+4352bd5f29eef44a35e44d625e553b04891fcd95|2017-04-11|Colm Ryan|update test_QGL h5 files
+b290cdf1f4e0f8b4a9b6973eb3b82eeda56b377c|2017-04-11|Colm Ryan|update MISC1 sequence
+d247ded1dcb34dd0a451da5f7003d3e7d7f0f087|2017-04-11|Colm Ryan|update test sequence data for rescaled waveforms
+92880d3e768fb70b35d88535e432e05243f80252|2017-04-11|Colm Ryan|restrict sequence comparison to h5 files
+260c9d4ea6c811a99c77041ce62bab3f88080fe5|2017-04-11|Colm Ryan|optionally compare single test sequence
+327baff877b52156ccb31fb7e04c052863023b46|2017-04-11|dieris|Rename time_descriptor
+0dbe720add549a4a8beaddb60a666c7bb18ce141|2017-01-25|dieris|Rescale gauss and drag shapes to max = amp
+78e2af5c697f598b6be9b2e6c5e229133cbabb90|2017-04-11|CoherenceController|Rename time descriptor
+82e5664b877e8aace88bfa55c9a13edf00797890|2017-04-10|Blake R. Johnson|Bokeh vform -> column
+6b2c7ae74832ac50cd244be3496747fd40924ace|2017-04-07|CoherenceController|Delete extra MEAS
+fd812793a702c7057698941ea5404638d0e7e5fd|2017-04-07|CoherenceController|Optional pulses for purity RB
+a65940ccdd9176987c7c9ca6222a38f9f6b3e07b|2017-04-06|Blake Johnson|Merge pull request #98 from BBN-Q/feature/cmp-addr-value
+7b897286696996ad57c3c66a61215b20f1567666|2017-04-06|Blake R. Johnson|Bump Git LFS to v2.0.2
+f355f0c79e7a35e5782257f1cc46d92fdb7e978d|2017-04-06|Blake R. Johnson|TravisCI: list files that Git LFS failed to download.
+814ef56aa4491601f5fc4885f78610e6758f7e19|2017-04-05|Blake R. Johnson|Add an address field to ComparisonInstructions.
+c3f0e932a5dc72d04cfa5fe4f86d44f930ba4e58|2017-04-05|Colm Ryan|Merge pull request #97 from BBN-Q/feature/control-flow-channels
+0b29760a149ba475c460d447fd66f750edfcc02e|2017-04-05|Colm Ryan|one more channel -> channels
+a25706831cd0ee4c374128a30a07cc2b7b61b9ec|2017-04-05|Blake R. Johnson|channel -> channels on ControlFlow instructions.
+8036194edad4df4e8dcb69d19dce411b701d21b5|2017-03-30|Blake R. Johnson|Update test vectors.
+00cb8d13eef4f8442a8b682868c0129f256724a8|2017-03-30|Blake R. Johnson|Fix tests.
+fa61d719d668cf87631f2cc6695d4bc6410f3196|2017-03-30|Blake R. Johnson|Add a STORE instruction.
+656457c049e32fc8c40ef51ec35a68f6266d1752|2017-03-29|Blake R. Johnson|Fix str() on ComparisonInstructions.
+d47af3e2e1a645d93024b907680bf445c8874d69|2017-03-29|Blake R. Johnson|Start at fixing compilation of channel-specific control-flow.
+05ba438f4e66dbf029fe141b51f6482c84987ccf|2017-03-28|Blake R. Johnson|Let ControlInstructions take a channel.
+573a2b61cb3982d077d27ade9e49a7aa7c3c1783|2017-03-28|Blake R. Johnson|Modify str(Channel) so that eval(str(channel)) might actually give you back a channel.
+667131394f8a60cd620c4cc2979c152c8ea9f9d9|2017-03-29|Blake Johnson|Merge pull request #95 from BBN-Q/feature/CNOT-impl
+b6e83ad6e6883e1ca6ce246f65ed8733466d82c9|2017-03-29|Blake R. Johnson|Make CNOT_simple the default CNOT implementation.
+35d7d39c1fd2d9783bee5ce52c6580bb41d00f12|2017-03-27|Blake R. Johnson|Fix test errors.
+8f420dfe2aff3d2013b318dc353599b5c9fb8a57|2017-03-27|Blake R. Johnson|Define CNOT as a pass-thru to an implementation specified in config.json.
+46e4825cc4a29ea9d8e3f88c43a7728eb6571f25|2017-02-27|Blake R. Johnson|Merge branch 'fix/numpy-errors'
+b4d0fc24d2a42dbdea7342e4b18a69ee36895156|2017-02-27|Blake R. Johnson|Another case where we need to ensure an int argument.
+b4b9b54a2a4dc843168b430bdeec1e1e04bf419e|2017-02-27|Blake R. Johnson|Make sure integer arguments are integers.
+fce6718d8a12dbeedca8536ec1b9e54d2a9affcb|2017-02-27|Blake R. Johnson|Replace random_integers -> randint.
+b0baba80ccc683b362768ec672dbe32e590d3498|2017-02-27|Blake R. Johnson|Merge branch 'feature/cached-build-files'
+148f82c3bf417d25f0cf0f6a3fa5d12494c37b21|2017-02-27|Blake R. Johnson|Restore path after downloading.
+7d0181c9841e189c4dccc54b788be0075357a9eb|2017-02-27|Blake R. Johnson|See what directory we are in.
+657da3f50355e8a350cd3629a5f1dcd964870e32|2017-02-27|Blake R. Johnson|Bump Git LFS to 1.5.6 and used cached copy when possible.
+55068dd623bb8eb819682887a4e366f4da7f29d3|2017-02-24|Blake Johnson|Merge pull request #94 from BBN-Q/fix/update-wf-lib
+7da2e0e5166847b316041e2853e5581de4aea7f6|2017-02-24|Diego Ristè|physChan AWG field is now instrument
+54f670ec6f6016b84f8fd1d01df6f217f9633def|2017-02-21|Blake Johnson|Merge pull request #90 from BBN-Q/fix/DiAC-template
+d8af924a7c87c7974f547850ac58286dcad41d0c|2016-11-09|Colm Ryan|skip Tek5104 tests - they haven't been run in years
+0a547d57883a93202ad1d631511eedd30f67366d|2016-11-09|Colm Ryan|bug: array reference copy instead of element wise copy
+76939aaa899dbe0b83875bb9f33f568ffbdd8f4f|2017-01-26|Colm Ryan|Merge pull request #93 from BBN-Q/fix/exp-decay
+0ff71c0c2079628e4d234a365b4ef178efad1148|2017-01-20|dieris|Renamed for consistency with QGL.jl
+8dba14a0d4655b1f3eec68584024555cac3e6d25|2016-11-30|Colm Ryan|Merge pull request #87 from BBN-Q/fix/propagate_Z
+d2ed2b82f47917068f4eee2c7d048f7e768a7d6d|2016-11-23|Blake Johnson|Merge pull request #91 from BBN-Q/feature/receiver-chans
+e38964975f37f5af6255d069936ead4993446348|2016-11-18|Blake R. Johnson|Adopt Bokeh 0.12 style column(...) rathern than vplot(...).
+510f4203552a564279c73751b856008005e3b7e1|2016-11-17|Blake R. Johnson|Skip receiver measurement meta if no receiver specified.
+33971e6e7d60bdf256a4ee70871e2ba19b3ed03e|2016-11-17|Blake R. Johnson|Write per-receiver measurement count info to meta file.
+c5f96d25ce83ecdb201ea44fcc08e1c56392dc03|2016-11-17|dieris|Propagate even if block has nonzero length
+1e64b5b494c94a5f0f7f2d0dcab679ac37719c39|2016-10-19|Blake R. Johnson|Collapse more deeply nested methdos in ChannelLibrary.
+34aed525e5ba69fabffee6da285b2babd888ae28|2016-10-19|Blake R. Johnson|Add receiverChan property to Measurement channels.
+de3584ad5d718c1ee91b7d75302d80d0477ee43d|2016-10-19|Blake R. Johnson|Add ReceiverChannel to NewPhysicalChannelList.
+e9cdbc9b524800218d9a91b5dd050e5ac94b75fc|2016-10-18|Blake R. Johnson|Fix AWG -> instrument side effects.
+58a7ab58374d82732da70beda95652553ba7ae09|2016-10-18|Blake R. Johnson|Add a new ReceiverChannel subclass of PhysicalChannel.
+229ede99c18548c5d735b9fdb1653cd48afe040c|2016-11-16|Blake R. Johnson|py3k compat: cannot delete items from a dict while iterating over its keys.
+c8030907690e9c4267383d7342dc96368f010bcf|2016-11-11|CoherenceController|Fix SingleQubitRB_DiAC
+4159ad32dd76d29cee338e3e6e40b6c1f07a1cad|2016-11-07|dieris|Fix sign in DiAC(11)
+a48b3aac20ff7ada3d79931ba6f4833de784a14a|2016-11-07|dieris|Allow explicit implementation of DiAC pulses
+8a93fbb42d4e620d5b3f8ee66ef9d11332841065|2016-10-31|Blake Johnson|Merge pull request #78 from BBN-Q/feature/Diatomic-pulses
+7eba72eb0103e0dfe586c727e34c8dc398b0a896|2016-10-31|dieris|Improve docstrings
+fba40aa77c138117bde2ce3c10a0812365816c45|2016-10-31|Blake Johnson|Merge pull request #81 from BBN-Q/feature/pulseLibraries-brj
+534fdc1c7d31457c2684d1170d56c168a2b84d2c|2016-10-28|CoherenceController|Propagate frame change to first non-TA pulse
+313f315d2e858fa634e89bfde398f6fbba95e972|2016-10-17|Blake Johnson|Merge pull request #83 from BBN-Q/feature/meas-counting
+d3cb3919e5f8400ef96930782ce9a1a1c5ac7c41|2016-10-17|Blake R. Johnson|Merge branch 'fix/dup-shapeFun'
+8980b836eb5750b645ae9ba9fc276716d078edad|2016-10-17|Blake R. Johnson|Don't inject duplicate 'shapeFun's in ignoredStrParams.
+074ad8628cdfc7cf9d432b53d0de0d7f06991b72|2016-10-17|Blake R. Johnson|Count measurements before mapping to physical channels.
+a171f9b1b33db7974c791e860de7a0398b9cc1cb|2016-10-11|Blake Johnson|Merge pull request #85 from BBN-Q/fix/timeAmp-check
+21a1151d8959c0a5bbaac43e206e8f4074cf1a54|2016-10-11|CoherenceController|U180 = U90 + U90
+2e731e5e4d82bf310c660a064766b61e8d6ed665|2016-10-11|dieris|Check for isTimeAmp attribute
+29dd701d3139ea8124530cd461ab837a3d471412|2016-10-10|CoherenceController|Merge remote-tracking branch 'refs/remotes/origin/master' into feature/pulseLibraries-brj
+a25567ebc88b9db3b97b2ea142da97e0d68bbefc|2016-10-07|Blake Johnson|Merge pull request #84 from BBN-Q/feature/CLEAR
+4d3d4e457c5886ace69250de1c5f4f696604d43b|2016-10-07|CoherenceController|Fix cal_seqs with no delay
+006f0bb9736822a1c98791ed43d5e01701723b42|2016-10-07|CoherenceController|Optional delay before measurement
+785a2726d537bfab640a9885ae48fc6cbd192557|2016-10-07|CoherenceController|Import axis descriptors
+981b319f5699958cc9dc5ddbba3320374cc26d9b|2016-10-07|CoherenceController|CLEAR pulse shape
+1a7bd8a3dfbb11f3248a47caae35edb0214cb9a3|2016-10-06|Blake R. Johnson|Improve measurement counting algorithm.
+a601d18fd5f418bc8a28d204b006cd98993c1cf2|2016-09-22|dieris|Recursive flattening of composite pulses
+6133bf492536e32f640d4119cca0787f8eb80da1|2016-09-22|Blake R. Johnson|Configurable 180 rotation from two 90s.
+bcc4acfeb3e91701eb761785bbf47f73a2c959d9|2016-09-21|Blake R. Johnson|:burn: Remove mysterious "Swap" function.
+7984246eaf814148c989ed2fe57e2eca8110873c|2016-09-19|Blake Johnson|Merge pull request #79 from BBN-Q/feature/barrier-rebase
+4d6acf8587f81ee13540e406d23229571bc8f75f|2016-09-19|Aaron Helsinger|Add comments to ControlFlow constructors.
+a97de4d8316f41fb5c02e6be34d7696e77125693|2016-09-19|Blake R. Johnson|Wrap long comment lines.
+08146c4e88de57a5129f71f447a22c00b034d3b9|2016-08-18|Aaron Helsinger|clean up method docs
+c4b66f30656b5dee4c0fa32f845c278164fe187b|2016-08-10|Aaron Helsinger|add 2 args to compile_to_hardware: edgesToCompile and qubitToCompile:
+f15200319808d178ec506c33cb8b8592b98f0158|2016-08-10|Aaron Helsinger|say more in warn when dropping an empty waveform
+2f6975767ef9a2ad4086fd5b4c65ddf78a8c57d1|2016-07-15|Aaron Helsinger|Ignore py~ and py# files
+25af3faaf59caaf6ba63d40b7e2e64f4bd43d2f9|2016-09-19|CoherenceController|Replace Y with 2*Y90
+8f79668c3e46e925e1614f1212b6614ac317c066|2016-09-19|CoherenceController|Choose whether to include Y90, Y90m in DiAC library
+d1baae61271edf155c183c19debc74f436ec0c42|2016-09-19|CoherenceController|Also using pi/2 pulses for cal. points in RB
+1a9f997654f13f92ebdd1056d36d99e3f4c95341|2016-09-19|CoherenceController|Reorder cliffords and fix comment
+f8decfae7952d6d58a5f2f549e6f7aa12b88fdb3|2016-09-18|CoherenceController|Diatomic pulses and RB
+ea6768a81b49165efdf2b73fde873c591e77f5d0|2016-09-14|Colm Ryan|Merge pull request #74 from BBN-Q/feature/mod-2-freqs
+1a53f8889a218a8d7aea6b0eec0d493b5d390b35|2016-09-08|CoherenceController|Test for APS2
+cba97f900c6415b42d0812afa9538057bfa5ceee|2016-09-08|Diego Ristè|Merge pull request #76 from BBN-Q/AC-inplace-wflib
+1e16c38bb3cfae6ea66a2d7f4b843a0572d1fe7d|2016-09-07|Colm Ryan|add helper to clear pulse cache
+12c9ea18f1a75934e4200d08185cb046b4d61882|2016-09-07|Colm Ryan|add labels for Atomic Cliffords that don't correspond to standard gates
+a5b8c1662f6792cc7f7b2170e6bbbd44a297bf43|2016-09-07|CoherenceController|Move SET_FREQ for both NCOs at start
+b64fb99e3f6f5b5cbac8c3b4594d75566034e7d7|2016-09-07|CoherenceController|Merge remote-tracking branch 'refs/remotes/origin/master' into feature/mod-2-freqs
+8476a3fd1a7e460478435c209560ef38ba1f695c|2016-09-07|CoherenceController|pop out `amp` and `phase` from shapeParams as they are now Pulse parameters
+0e811ea03ff0359c3340999e47db6dd3b10e9733|2016-09-07|CoherenceController|Update test_Compiler
+0c368a52a6df85103336e2fcf081f7d7bfe7f020|2016-09-07|CoherenceController|Check no. of non-0 entries in pull_uniform_entries
+5e6dbc7f6c7ab1cec4f8cd4d57e649a5175eb02f|2016-09-07|CoherenceController|git ignore compiled seqs
+b0632c20ff000bb106d162a6e28e5a25a41bf898|2016-09-06|CoherenceController|SET_FREQ at the beginning of a sequence even if TA pulse
+a7e56c870c7b61f43f689aefdf89481a1fc2c7e2|2016-09-06|CoherenceController|Merge MODULATION if frequencies are the same
+222878807cdb124687bd8afb552c8a22095b3c42|2016-09-06|Colm Ryan|Merge remote-tracking branch 'origin/master' into ecpy-enaml-atom-stack
+0220812d4debd90dfc4153f0e8b7d1e1fa8389a3|2016-09-06|CoherenceController|Skip set_freq if the next pulse is a TA
+c8322c0b01139d26120ca1ff2be861220f6281f6|2016-09-02|Colm Ryan|update travis for ecpy channel atom and don't quote python version
+5349d0e57dcf03464261986d19aa84a85b74b8f9|2016-09-02|Colm Ryan|Merge pull request #75 from BBN-Q/fix/echoCR-amp
+7d4b0b9ffc5b9b3f4742b1512b1043ad4fe811da|2016-09-02|dieris|Shift frame change to last non-TA entry
+dd1cc850e4ddfffa5684a23b1732e7f8b1493ab8|2016-09-02|CoherenceController|amp. input was not passed to echoCR
+53faa2d97022ef6b07c999ba7263a2f8ccdddc33|2016-09-02|CoherenceController|Enable 2nd NCO
+b0c4276b8e8135c08cd1ef9df96ef2195f051c71|2016-08-30|Colm Ryan|Merge pull request #72 from BBN-Q/ZX90-rad
+fbb13432378a78cceb6e9ab465fe63c9b769d774|2016-08-30|CoherenceController|Fix test seqs
+d09941cf570139520d7a6d70e7733c5d393081c5|2016-08-29|CoherenceController|Define ZX90_CR in rad
+9da85e1e9fe0cf811b704d84f9625e29c06dad3a|2016-08-26|Colm Ryan|:memo: tweak PYTHONPATH discussion
+aa7eab29b60abeec81be547235ef4eae16b24e30|2016-08-26|Colm Ryan|:memo: use ecpy conda channel for Python 3
+518b23701683bc5bd982d6c640988c40034a7222|2016-08-26|Colm Ryan|Atom Enums are no longer different in Python 2/3
+6eed8b0a3b323914fe388898384dbf962c11bc38|2016-08-16|Blake R. Johnson|Update getting start doc.
+081f439dc83f7e2885d95af32bd5ba768f2cc8db|2016-06-15|Blake R. Johnson|Add a getting started page to the docs.
+36218f96752180483f10f027bff31fb3d73dd204|2016-08-09|Blake R. Johnson|Merge branch 'feature/pack-cal-descriptor'
+413d56d1f52eef9ec7807ebdf349040a6c01533c|2016-08-09|Blake R. Johnson|Fix meta info for CR sequences.
+5f43e1b38ce7548f51af194b5aa9bb21a71925d4|2016-08-09|Blake R. Johnson|Pack cal description into the axis_descriptor.
+4d1fa25c064919d66d8c4a0b16ef986ec37ab75a|2016-08-04|Colm Ryan|Merge pull request #65 from BBN-Q/feature/meta-output
+baa7d4d37a67f5c640fed5f65be816d8bc193699|2016-08-03|Blake Johnson|Merge pull request #66 from BBN-Q/fix/pulse-mul
+ae0fa7cfa9325cccb5acdca9c4e18d4f32ffb049|2016-08-03|Blake R. Johnson|Document new arguments to compile_to_hardware.
+3809c77d659e5e8e16dbdfaf04a1be8b46f85915|2016-08-03|CoherenceController|Copy PulseBlock one layer deeper
+6db034d4167c1a0c9ab4b26bdffe97820039d18e|2016-08-03|Blake R. Johnson|Make axis_descriptor an array of DataAxis descriptions.
+f3d6c0c26e537403464f68ecb7cf55b5ab8b45f2|2016-08-03|Blake R. Johnson|Fix cal_descriptor helper to return lists of cal points.
+cc2cc77e5f73821d359a7f173c9729f3cacc6ad5|2016-08-02|Blake R. Johnson|Add cal_descriptor helper
+0e9c60b5e95549c85f5d165ab333af2c9b6bceed|2016-08-02|Blake R. Johnson|Add number of measurements to meta info.
+b545084da15602b5bbb50827f56087ec2cf74edc|2016-08-02|Blake R. Johnson|Update basic sequences to provide axis descriptors.
+dfd74bc5048ec67c5335c13ff6fab12db41271f8|2016-08-02|Blake R. Johnson|Add axis_descriptor and cal_descriptor kwargs to compile_to_hardware.
+31bdedc3a1fdd0acdfed1d815bdb2a257541c4c4|2016-08-01|Blake R. Johnson|Add basic meta program output.
+4389644396490b0ca13ea4f8e214a72f8e7eaa88|2016-07-19|Blake Johnson|Merge pull request #64 from BBN-Q/feature/more-pulse-speed
+ac7b59c18896fbe3e937ef3e68173ffeef3fa7b3|2016-07-19|Blake R. Johnson|Fix spurious addition of 'shapeFun' to ignoredStrParams.
+86a09c08628e9bb6a6a91f60fb518de9a1df4f76|2016-07-19|Blake R. Johnson|Fix length update of gating pulses.
+cd4f4bd5e76327626b0813002eaa79087091203a|2016-07-19|Blake R. Johnson|Speed-up length property lookup for Pulse and PulseBlock.
+6e99be0528209bcf256bf57752446b688a160890|2016-07-18|Blake Johnson|Merge pull request #63 from BBN-Q/remove-square
+cc890ca7936e35bf73966819be43d15912930adc|2016-07-17|Colm Ryan|:fire: remove square pulse in favour of constant
+397d2bd1ca8a5206f621702123ebc8471df27bbd|2016-07-14|Diego Ristè|Merge pull request #52 from BBN-Q/fix/frame-update
+15660a9c3ceed0e34da09c97d3e35aec6de04ab7|2016-07-14|dieris|Fix indentation
+f20e0ec2fb3b480cc935f9936fab34d5549acdc4|2016-07-14|dieris|Merge branch 'fix/frame-update' of https://github.com/BBN-Q/QGL into fix/frame-update
+ddb3e5756120dcb55095065acaa6a67b7fef4148|2016-07-08|Colm Ryan|Handle frequency setting with initial frame change
+3bcc58bff4585d042925466c9f74bd172b123397|2016-07-07|Colm Ryan|Implement initial Z rotations in APS2
+14e4005e312f5b3f92f8e3aba1ef6330fa1d2ffe|2016-06-29|CoherenceController|Fix condition for adding a frame update
+7263365276554197bab4ec88e575080716d65ece|2016-06-29|CoherenceController|Proper merging of modulate commands
+374474f0fe785ac88986c3fbe7daa8a46395ea10|2016-07-13|Diego Ristè|Merge pull request #60 from BBN-Q/feature/namedtuples
+1a221fd6f7e5538efdf2d7d2ee7b8bfc0f8d23f5|2016-07-13|dieris|import QGL.drivers for update_wf_library
+6b6035d3f4571404761d964033adaa5f139bccc9|2016-07-12|Colm Ryan|Merge pull request #58 from BBN-Q/feature/yapf-formatting
+1cd1d62b1f4f54f08c52137cb2530dbcec0de8a4|2016-07-12|Colm Ryan|:racehorse: generator expression for instruction data array creation
+565f3de9018fa88f17fac7524336a4809a4c43e8|2016-07-12|Colm Ryan|:bug: use `_replace` to modify Pulse label
+4a9ba5150e0d403cafb5214f9005568e8ac8d4b1|2016-07-12|Colm Ryan|:white_check_mark: fix unrolling tests
+5c2246f6ff1757f34998234599ba120d74b97d81|2016-07-12|Colm Ryan|:racehorse: ditch np.allclose and list comprehensions -> generator expressions
+6572c908ec7baf664dba6d63f6820d7f26ac14f5|2016-07-12|Colm Ryan|:racehorse: make logger module global
+91ce316a5eefd46e57ea83890dba1311f97705ff|2016-07-12|Colm Ryan|:racehorse: PulseBlock list comprehension -> generator expression
+b8de490f0987c054067519deea3c7692c0773d5c|2016-07-12|Colm Ryan|:racehorse: remove unnecessary calls to str
+ef3aa8250bd6fa050a78f7f18389ad36d7323847|2016-07-12|Colm Ryan|APSWaveform class rather than dynamically add to Waveform
+d635d04afa8bdf9d45cb14f3fa692d3c9a8d7245|2016-07-12|Colm Ryan|:bug: zero length pulses are ok
+5dca93ac0bb57d1ead913258ff9aa1de0a1d3c5a|2016-07-12|Colm Ryan|Revert ":construction: attempts at namedtuple APSWaveform"
+86ad3a4989d37e36537961ecd726b882a2608660|2016-07-12|Colm Ryan|:construction: attempts at namedtuple APSWaveform
+79fb19ce01a0bf79af81fcc8007c79dfc54f6a60|2016-07-12|Colm Ryan|print length of waveform not number of sequences
+26151315fc7c8ed62d448623a853afdd32cd579c|2016-07-12|Colm Ryan|CompositePulses are now iterable too
+f259e23119855fb542c1011d2c3ce275af4570ec|2016-07-12|Colm Ryan|:bug: updating wrong object when concatenating marker pulses
+ae89b5f365ec5c84cf24f981a33c913c8d884597|2016-07-12|Colm Ryan|import copy
+9ec2fafb9d5f4720c6efb95e9aace78d352e269a|2016-07-11|Colm Ryan|create new Pulse objects when concatenating and merging
+5ed41e9dbe8bb43d431dda4f48f320928ead0484|2016-07-11|Colm Ryan|add pulse function to cache key
+293b8a3315a8ac9d307d693e1fbf5b51b2cc1054|2016-07-11|Colm Ryan|copy pulse dictionary when updating Pulse to avoid clobbering other copies
+5c8cf678f8b738c6585831e7df34152964b5eb4b|2016-07-11|Colm Ryan|Turn on pulse caching
+3df1d2cedf5463fed58055cfaceabf186b481cb0|2016-07-11|Colm Ryan|Bring back ignoredStrParams for TAPulse
+26829cf415537d5be00ff7fac90f30383a566ab2|2016-07-11|Colm Ryan|Fix the damage...
+a6674f64695c400dafbb9d4d9a9a31fee32db1e6|2016-07-11|Colm Ryan|CompositePulse -> namedtuple
+93a333cbf802119b1f038710bed0ff020e194d83|2016-07-11|Colm Ryan|Pulses -> namedtuple
+0d4222ea408adf15deac4aad6a8e884211a00d45|2016-07-10|Colm Ryan|:art: format all files with yapf
+071ec787e717c0d8dcf44d6c08f0502baae46e99|2016-07-08|Colm Ryan|Handle frequency setting with initial frame change
+3970877dc0afac1a54833dc5065668a757b4ed9f|2016-07-08|Colm Ryan|Merge pull request #55 from BBN-Q/readme-fix
+bf5701e31bbcabcc99af90f02ddab6bcb7f7e720|2016-07-08|Colm Ryan|Merge pull request #56 from BBN-Q/jsonlib_update
+022581ea965a58940f2b6d65cc39f3b320895dd0|2016-07-08|Colm Ryan|Update README link to QGL example notebook
+ec35d8940c82d811a26ff416200c266e4967877d|2016-07-08|matthewware|Update JSONLibraryUtils to latest
+476108c175f3661011e27643db6dd22fd37a2c82|2016-07-08|matthewware|Fixed broken link in README.md.  -MW
+8745a7824687cea0397ce37853a97880c1d51b16|2016-07-07|Colm Ryan|Implement initial Z rotations in APS2
+45226f717e27ef3dc7f0ff765c8f074c0c8ab382|2016-07-05|Colm Ryan|be explicit about unicode encoding for seq string file
+7316bcb389dee1873b3cb19c56e4b23d7af18c35|2016-07-05|Colm Ryan|Merge pull request #49 from BBN-Q/feature/save-code
+d8f800e2eb77a86c8823abbd1602244438b3cab1|2016-07-04|Diego Ristè|Merge pull request #50 from BBN-Q/fix/update-TA-pulses
+f3a03ce8fe5f15a203a0626753a71142654f460f|2016-07-03|Colm Ryan|:memo: comment io library is needed for Python 2.7
+77eaf36823a5009399d942052e4538a55e2d2ca5|2016-07-03|Colm Ryan|Revert ":fire: unnecessary `io` import"
+695a6a887c4aa224b9303d2fe33778bb84a95faa|2016-07-03|Colm Ryan|:bug: special handling for TA pulses because their wf library entry does not match their length
+19a6bf45599e030f5f48def3293048a257227fb9|2016-07-03|Colm Ryan|:fire: unnecessary `io` import
+b6783d20420e1908869881daf084c954c643a7ed|2016-07-01|Blake R. Johnson|Save input code to file.
+2de8c17974a06ea9a0252936aca5c54295a82078|2016-07-01|Blake R. Johnson|Simplify str() output on MEAS pulses.
+a12901b53c877d10b38d4b9073dbffa40cac03e5|2016-07-01|Colm Ryan|Work around Atom Enum Python 3 compatibility
+08db8c9066ec74ce308e42203ed33000dad489aa|2016-07-01|Blake Johnson|Merge pull request #47 from BBN-Q/feature/str-verbose
+cf9b9740e70f204532006b5473f51ff039657906|2016-07-01|Blake Johnson|Merge pull request #46 from BBN-Q/feature/revise-meas-cnot
+fdfbda99b27d00fe69de16747d79c325e3b2afb9|2016-07-01|Blake R. Johnson|Update repr(Pulse)
+4ffb9105161aea6510fb723fe8cc86afea446a3a|2016-07-01|Blake R. Johnson|Make str(Pulse) return more information.
+3a15a65c9b2a775cd34250f8c51084310dcaab4b|2016-07-01|Blake R. Johnson|Fix a test of the revised CNOT.
+f5b193a0b7670093ebe4711cf575db8aa16be3b2|2016-06-30|Blake R. Johnson|Update users of MEAS(*qubits).
+90fedc832d148cc3254e5567b5cf90e19c767ccd|2016-06-30|Blake R. Johnson|Simplify definitions of MEAS and CNOT.
+492abf19753147f165c3593983f5247c5f99c30c|2016-06-29|CoherenceController|Fix condition for adding a frame update
+7ccc140e1084a783b29f87ada37ffdc2c280d2ea|2016-06-29|CoherenceController|Proper merging of modulate commands
+8a37fff58e0e0dcf9c7577736cd32d2bff83a454|2016-06-14|Colm Ryan|Merge pull request #12 from BBN-Q/fix/process-tomo
+c139acc563e55bf450baecc27b45bb50cba7439f|2016-06-14|Colm Ryan|Merge pull request #42 from BBN-Q/inplace-waveform-lib-update
+c66a865255f46239f5f5d1fb0a354a7683c72e28|2016-06-10|Blake Johnson|Merge pull request #41 from BBN-Q/feature/detect-TA-from-shapeFun
+51fdce0de6897c67eca061602274e067e49276b3|2016-06-10|CoherenceController|File not found error for Python 2.7
+be3afbe2eba6cc7072cc3fa6627f88a46cdd303a|2016-06-10|Blake R. Johnson|Set isTimeAmp in Pulse constructor.
+d9a62219f2144826ae9a06be3f0f00acfd0b760e|2016-06-02|Colm Ryan|:art: fix white-space and alignment damage from b023a7e
+b023a7e4675d58ba1d83630568318c8879e98c06|2016-06-01|Colm Ryan|in place waveform library updating for APS2
+501f08f6b4e39746acfde403fc989102328d2b3d|2016-05-31|Colm Ryan|Merge branch 'master' into fix/simultaneous-instructions
+200c4f0c236c96c9cc58dc7edecc047681e7b515|2016-05-31|Colm Ryan|No phase commands for zero length pulses
+c14d3a9f3a6f590e3def3387b4b110c91916bd99|2016-05-31|dieris|Inject frame change without zero-length waveform and modulation
+ed1c35b749e2a81e62f21e370ca9db337d6703f2|2016-05-27|Blake R. Johnson|Explicitly make test Measurements autodyne to help py3k.
+2e2e6d0bdbca79e6f3efa9977eda8f62a6d208c5|2016-05-27|CoherenceController|Better handling of simultaneous instructions without any heuristics
+b4b1386226a70bae2107f9e7c9d17c10f0bf9ae7|2016-05-27|Blake R. Johnson|Don't force autodyne MEAS type.
+549fc43bf39545e5bf8dd6f996521cd5834c8c16|2016-05-26|Blake Johnson|Merge pull request #38 from BBN-Q/walk-drivers-package
+e5ea967110eda3e2be285a6c7bedaa85b57606bf|2016-05-26|Colm Ryan|Walk drivers package to find translators
+8d0a57415d60dccdf102ad9ff566c42dc10ffdec|2016-05-26|Colm Ryan|filter "_py27" test file variants
+75e389ad4d79a22f30577365915d77ea19bd215e|2016-05-26|Colm Ryan|:white_check_mark: relax test tolerance
+3c8cb05ab7fecafde8a1cfc7f4f738cfd5a91740|2016-05-26|Blake R. Johnson|Python 2/3 compatiblity.
+fd4fb1580c7ddc45ef7a6815a664b596a3c16eaf|2016-05-26|Blake R. Johnson|Cleanup and add comparison plotter.
+a44872f0a6f46fbe8debf0563846c5805c370338|2016-05-26|Diego Ristè|Merge pull request #37 from BBN-Q/feature/aps2-firmware-v4
+9aad97bcd9f445ceb23ea2d1143c7061101be0e3|2016-05-26|Colm Ryan|Merge remote-tracking branch 'origin/master' into feature/aps2-firmware-v4
+52d59c3020de58ac02ac64f2981a04870fd3243b|2016-05-26|Blake R. Johnson|Simplify slave trigger unit test.
+64a642524dfb1c3a32c2845ac573ecf7d836805c|2016-05-26|Colm Ryan|Merge pull request #23 from BBN-Q/fix/multiple-trigs
+f7117ee9b2905594a6e5fa418a89ef01b681879e|2016-05-26|Blake R. Johnson|Switch to try/except for injecting slave triggers.
+7b0005eb7d2b2e05a9fd833a2771573aec69c199|2016-05-25|Blake R. Johnson|Add script for comparing test vectors.
+4a09618c3bb6ac542a9860d19041efaeb565f914|2016-05-25|Blake R. Johnson|SimultaneousRB_AC is not an expected failure for the APS2.
+fda3a99e4f189f65ea7f6689270063fb87ff367a|2016-05-24|Blake R. Johnson|Update test vectors.
+6698b39b8e59235aeb064e9813504847b27ce093|2016-05-25|Blake R. Johnson|Python 3 throws error on min([], 0).
+0d78bbaf1559ae729cdd6c2ab3bf126effcea559|2016-05-25|Blake R. Johnson|Shorten test APS1 triggers to get single blips.
+af82bb9fa0138ca34b009996165844a1d5054326|2016-05-25|Blake R. Johnson|Shorten the default LogicalMarkerChannel pulse length to 10ns.
+8f25e8e5d0d14ca8c88c4973a886e07e3d33527e|2016-05-24|Blake R. Johnson|Fix some cases of out-of-bounds access when merging markers.
+71d9d5ead54ff81e43c370429243e44068b8ff2f|2016-05-24|Blake R. Johnson|Skip pushing zero frame changes.
+89d250f8f13afd2ec2e5177a59a70c0d298df99c|2016-05-24|Blake R. Johnson|Move WAIT injection pass earlier...
+a8c9285b0ca53e59d146c2c34e1b084b5ee3b84f|2016-04-20|Blake Johnson|Add slave triggers like we add digitizer triggers.
+992c54eefb8c38e0c48c769f46953fa20362da5b|2016-05-25|Blake R. Johnson|Further fixing Python 3.5 compatibility with target hardware field comparison.
+96805cb61b838633f56254da2315bb145ba75754|2016-05-25|Colm Ryan|Merge remote-tracking branch 'origin/master' into feature/aps2-firmware-v4
+e4d8414a46a7251c75b35eb146ec3eaa4f83d47a|2016-05-25|Blake R. Johnson|Update translator map construction to avoid duplicates.
+d58a1c5f358c260c0b0300b01d531be83582d805|2016-05-25|Colm Ryan|Merge pull request #36 from BBN-Q/feature/resolve-translator
+dfbd088e65126910acf9bc873a2e77d12a26cbd5|2016-05-24|Colm Ryan|Prefetch the *next* waveform cache line
+e273fbe33dfe1a5ce833e12238b28e8ed0e52c77|2016-05-24|Colm Ryan|Handle empty channels with wf prefetching
+99944b9f4375eab6a43e015f9afe5c3cb26cf40c|2016-05-24|Blake R. Johnson|Choose translator from file extension.
+2ce687dd31ac93ef4fab22b12725be6c97f29322|2016-05-24|Colm Ryan|:white_check_mark: fix repeat unit tests
+cd1b0fc64d8c11fc2954a1771ac042a13f497a4d|2016-05-24|Colm Ryan|Add repeats to sequence plotting
+62226d2f945a1ab97b0dfd0ae24e09bbfc9453ce|2016-05-24|Colm Ryan|:bug: fix typo in 58fdc94
+1195bc7de3ab71800a6816dae1aff7cfefa6e00e|2016-05-24|Blake R. Johnson|Add 'target hardware' field to HDF5 formats.
+e22921024b2b24a7fd591d882fc4216a961abd89|2016-05-23|Colm Ryan|Waveform prefetching
+58fdc94246f54b50651e9c975bd0662b64de67d8|2016-05-23|Colm Ryan|Remove deprecated Pulse.repeat usage
+57695d700e73bfe3c84fff74d14cedfdaf11e381|2016-05-23|Colm Ryan|Merge branch 'feature/aps2-firmware-v4' of github.com:BBN-Q/QGL into feature/aps2-firmware-v4
+b65e8989304ba46434eeca3d4f212c7591fce002|2016-05-20|Colm Ryan|Merge pull request #33 from BBN-Q/fix/label-repeat
+8f520cf789fad61d987c4951e51bca96e2a920b7|2016-05-17|CoherenceController|LoadRepeat should come before the loop label
+b0615768e98afd9b11cc278293cac8c55b1c620b|2016-05-17|Blake R. Johnson|:bugfix handle all Id case.
+f88b247ef7590adb698374172b9ed5421d9a3919|2016-05-16|Blake Johnson|Merge branch 'feature/merge-channels-cleanup'
+0cf47cf6eccb4e16935a2266e9997f4bc2ba1c5d|2016-05-16|Blake Johnson|Minor cleanup of merge_channels.
+e8a086e479328b2362cfcd787e8adf90955f510f|2016-05-16|Colm Ryan|Warn on subroutines longer than cache line
+50eae62904f3ecd42fd82b3e3dc85491c9b2e6b5|2016-05-16|Colm Ryan|Merge pull request #32 from BBN-Q/fix/single-subroutine
+160a03ccefc295dcdd93ee6cd9f6e45eee3bfcb2|2016-05-16|Colm Ryan|Be explicit about marking start of subroutines seqs
+3a41c390fe3c3895d23d494a5e6ee6b6b339a27e|2016-05-16|Colm Ryan|Merge pull request #20 from BBN-Q/feature/CRcal-amp
+1bde332f788c043bc571874eaaf1c20a3d1d4e9a|2016-05-16|CoherenceController|Support single subroutine
+5fbc804a163f8269eeb65e7d7da99041ca334fd2|2016-05-16|dieris|Update CR doc strings
+106af85e5ccf143e5d9131372d2dfb9477fc3828|2016-05-16|Colm Ryan|Labels need to come first with simultaneous instructions
+27515e54dc81f5d76f8bbea76cadbe6f54ef629d|2016-05-16|Colm Ryan|typo in error message
+142037b2745badb0b7c122a80fc1e31a292e4e6c|2016-05-16|Colm Ryan|Only add prefetches if we have subroutines
+23237750aae3f617bab3973576e9224a3521ff8b|2016-05-12|Colm Ryan|Python 2 compatible zip_longest
+539ac840e1ac590e07b6fdb0af7ae42e58164deb|2016-05-12|Colm Ryan|Merge pull request #30 from BBN-Q/qgl2-multi2
+b9e9a9e522fd1a405d94d54ba1fa892537dfc25f|2016-05-12|Colm Ryan|Instruction prefetching for subroutines
+a44cf4a2e7f357ac91bd453637bd0c71646ef98b|2016-05-11|Colm Ryan|Merge branch 'master' into feature/aps2-firmware-v4
+8c6628faa635a674acea5f7223e1a942d776ab1f|2016-05-11|Colm Ryan|.gitattributes should be in repo for git-lfs
+fee227398737755f57615ad7a56f14d1a3bce61d|2016-05-06|Aaron Helsinger|don't suppress digitizer. Clean up debug log statements
+366345c233c4f00d4a1934dcea027fe45e36cb9f|2016-05-06|Aaron Helsinger|comment typo
+2c6fbeaaed7a6253f97e453a0a1a15e0c9bebfb4|2016-05-05|Aaron Helsinger|if qgl2 skip adding digitizer tigger. Add new argument addQGL2SlaveTrigger; if qgl2 we only add the slave trigger if this flag is supplied; the intent is that we let this code produce a reasonable slaveTrigger program and only invoke this code for the QGL2 sequence that uses the Qubit on the same AWG as the slave trigger.
+c37f7e20358bb76089b20ecdf52083e56bb257d7|2016-05-05|Aaron Helsinger|log an error if normalize_delays gets no delays, but return the empty dict we started with
+3ffa4daf289e2702e86dfd681577c85d2c02ae7b|2016-05-04|Colm Ryan|Default not "bake in" phase offset into waveform
+2d65c819495cad570e5979bc534b991ebcf7d7fd|2016-05-04|Colm Ryan|Invert sign of modulation for negative frequency qubits
+df05b48044c070868a6efab4b4257d412045e371|2016-05-04|Diego Ristè|Merge pull request #29 from BBN-Q/feature/sparse-plots
+1e4febd39fc9fc08494c80169f4dedc3e0e06a7a|2016-05-03|Colm Ryan|Unsigned frequencies and phases
+d7c0253f0a496ad948f1d0461a04d8273c6e5d62|2016-05-03|Colm Ryan|:white_check_mark: update sequence tester to support time-amplitude file readers
+3bd82309a7ef5b666e0d92f6dc1e9867f8a3b595|2016-05-03|Colm Ryan|Bring time-amplitude format to APS reader
+22ba4d8753fc81cbd0c1763ae80cb156beffddb2|2016-05-03|Colm Ryan|:bug: properly type phase to catch sign bit
+6626153c56d1c8efdca26041d62aafdb49a628c2|2016-05-03|Colm Ryan|:bug: don't reuse channel 1 library for channel 2
+5aac3feb35966c2ed8ba9f14b92fca697ff16c18|2016-05-03|Colm Ryan|Modulation working with time amplitude reader
+a0d4af4bedd734b84784a92a563fa52cb7fd685b|2016-05-03|Colm Ryan|Change the read_sequence_file return to lists of (time, amplitude)
+0863a8e170db55bc2d4f39b60d96a64c3aaaf7ab|2016-05-03|Colm Ryan|:construction: sparse plotting
+7c6da763d7daeef48d25b82785a5eb2d4da103ec|2016-05-02|Colm Ryan|Match APS2 hardware for modulation starting point
+8cfc669f6bbc280289bf910ab24b9458ae7cad83|2016-05-02|Colm Ryan|Merge pull request #28 from BBN-Q/fix/aps2-firmware-v4
+6327491fcfffab82aed4dc541a725b1a01439b32|2016-05-02|CoherenceController|Set frequency with function calls
+1643094c50ef5c38b1508e0789fc98967ff15f36|2016-05-02|Colm Ryan|:arrow_up: roll APS2 HDF5 file version number
+32b36bc92525be0244dc17cb0852832d57abb7df|2016-05-02|Colm Ryan|Merge branch 'master' into feature/aps2-firmware-v4
+bacd6f47a25fe26c612dc720e078ccb981a6e949|2016-04-27|Colm Ryan|Merge pull request #24 from BBN-Q/compiler-logging
+674583c4b530356bc81a0220e8c2ba80ac4b90cc|2016-04-27|Aaron Helsinger|from QGL import * now provides Compiler.set_log_level as well
+7fc65c5eafbcdff5428893b221b72118adb293d4|2016-04-27|Aaron Helsinger|Merge remote-tracking branch 'upstream/master' into compiler-logging
+f273deacc3cc964e8586f1ac796e63e36ff2717f|2016-04-26|Blake Johnson|Merge pull request #25 from BBN-Q/feature/git-lfs-test-data
+1028aa1115dd2c610a4acb86785feb5a4bc96f0d|2016-04-26|Colm Ryan|Merge pull request #26 from BBN-Q/fix/merge-channels
+d2151243fedbb0a1c56f551ff1ac15f97647dfa1|2016-04-26|CoherenceController|The sum of pulses differs with their amp or phase
+d68a84a43d26929f131c3d9c11e6e15f9574bac0|2016-04-26|CoherenceController|:art: Instructions
+ab096a32ffc249cd7e057019b48d64c8b6d3f4a2|2016-04-26|Colm Ryan|:white_check_mark: test data for python 2.7
+662d481ad6dcee985ba5e9f8a41cbf045f2c64b1|2016-04-26|CoherenceController|Concatenate modulation instructions
+364e37642797bc1a842d7c963d9f5f28dc13b02a|2016-04-26|CoherenceController|:bug: write_flags unset
+335238304d99a61173820a078c1627b2786b3409|2016-04-25|Colm Ryan|Need to pull (not just fetch) git lfs data
+ecfa1ebf2f6655b5ca1046f71ef4f9a5cfa318e1|2016-04-25|Colm Ryan|forgot Tek *.awg file data FWIW
+e797010abeb5e1fd9f88aa05f4496d17370f8805|2016-04-25|Colm Ryan|:white_check_mark: install git-lfs into Travis and fetch test data
+90263a44291e8af88f321fa7dad83b8b151d3005|2016-04-25|Colm Ryan|:white_check_mark: refactor Anaconda Travis setup to follow docs
+ed3f5eb9a5cb21d94859437319f5e92f83caaa88|2016-04-25|Colm Ryan|Respect waveform engine select bits
+187b14c8f5c8c37e8be8b72bae2d6dea7dcc11f3|2016-04-25|Aaron Helsinger|add set_log_level for turning on debug logging in this (or another) module
+b5b6a51aafc95a887addd71aea7ebb8addce78df|2016-04-25|Colm Ryan|fix permissions
+955187c30e97f83baaf72a64f7ff1cdc56d0fb68|2016-04-25|Colm Ryan|:white_check_mark: test data tracked in git-lfs
+bb90d9c8855852cc463d87f70d035cdb65010c3c|2016-04-25|Aaron Helsinger|Merge branch 'master' into compiler-logging
+1710a1bce934464df0ffd08d35b30ef43c100a91|2016-04-22|Blake R. Johnson|Attach frequency to Pulse on creation.
+ad3aad1b597748c9665eb39140a51a5d4cf775f5|2016-04-22|Blake R. Johnson|Don't bother creating dummy gate channels.
+be37af5340be4ba20863893fb6ef55a4d9eab65d|2016-04-22|Aaron Helsinger|pass in a qgl2 flag to compile_to_hardware and compile_sequences, default False (unused so far). Use python logging at DEBUG level to print out at each stage what the sequences are so you can watch them be manipulated. Logger is QGL.Compiler. Note that by default logging is not enabled from commandline, and from jupyter logging is explicitly disabled, so these log statements do not appear
+251883d7b134c2c247a32757e275e4a24a5362b6|2016-04-22|CoherenceController|Copy instructions into modulation sequence
+2498f7a4167d2060b89667c1595e4bf4e4e81433|2016-04-22|CoherenceController|:bug: all control flow instructions except trig need to come first
+b64dae643898e5530a02067a4eb09e7e56072dad|2016-04-22|CoherenceController|:art: fiddle with pretty printing of Instructions
+d2008077314e03a202848c287ad883499320b910|2016-04-21|Blake Johnson|Re-use dead Compiler.Waveform label code for better pretty printing.
+1981cfe50bd225cd557e2e63a175d844eea1f544|2016-04-21|Colm Ryan|:white_check_mark: fix/disable tests
+f684285e2d4746fbd86d77669f741ce320ca5d7d|2016-04-20|Colm Ryan|Handle sequences with no modulation
+bfc640797b150f129a4f71a200e40096e0afdff4|2016-04-20|Colm Ryan|Frequency is in steps of ADDRESS_UNIT
+b6f28e0cb35e28893cbd29e4531b9deb58f21d99|2016-04-20|Colm Ryan|:construction: work modulator bug-fixes and reading sequence files
+21af3799ddc473a20a2c0800921f2fcda9abd034|2016-04-20|Colm Ryan|:construction: work towards modulation commands
+6bde31ab7d2ceacd1d4c11005cbc7f435b58d051|2016-04-12|Blake R. Johnson|Update JSONLibraryUtils.
+e27c16e4b6cfa20a418ca65009ef53605c59b265|2016-04-12|Blake R. Johnson|Merge branch 'ahelsing-qgl2Call'
+3639d905f436f4fcaadd2bbecd8e99b169485c92|2016-03-31|Aaron Helsinger|better comment explaining what this is doing
+a51e714fe16ec13fcb185acd7c9dac45836fe114|2016-03-30|Aaron Helsinger|modify Compiler.qfunction_specialization to do nothing for the QGL2 use of Call
+f1ae66b31dd529ff2699e8b97fa39a746070932e|2016-04-09|Blake Johnson|Merge pull request #21 from BBN-Q/fix/Z-CRtarget
+06b20fbc13d67806f5fcbd85e66faf7d43a726c2|2016-04-08|CoherenceController|Check if the shifted pulse is part of the seq.
+69226c8bac0fbcb840fbcb6de0831c2b6ae7c653|2016-04-04|CoherenceController|Seq for CR ampl. calibration
+8d060013a60908988d175b73b061936b17027d2c|2016-04-03|Blake Johnson|Merge pull request #18 from BBN-Q/qglexamples
+1260b9a0d78eae6a3130989c56b3fb6844ec2cb3|2016-04-01|Rob McGurrin|add python notebook QGL examples
+28513af4a8515db84f522b864e784a06c7b5a6cb|2016-03-31|Blake Johnson|Merge pull request #17 from BBN-Q/matthewware-README-fix
+f0c2ec6c899544b63a893ba4ed00f335889d850a|2016-03-31|Matthew Ware|Typo: future already mentioned
+422833e40dedc77d6246139de24af399ebfd75ad|2016-03-31|Matthew Ware|JSONLibraryMigrator has moved
+a877dba146263571d5936412ff034b785fabdce8|2016-03-31|Blake Johnson|Merge pull request #9 from BBN-Q/feature/Z-CRtarget
+9fda93369f7a0a0ad635f740f0c4babf9334d4f3|2016-03-31|dieris|Not all qubits are in the graph
+1f07a3ad84a44a9ca84f1dc0d09388679dddfd03|2016-03-31|dieris|Push frame change to edges in Compiler
+7737e1c2aa0395945da6a170624f07f603726bcb|2016-03-30|Blake Johnson|Merge pull request #15 from BBN-Q/fix/bokeh-plotting
+1ee38ea7d7153f899403b351e83540fd1d8a9c12|2016-03-30|Colm Ryan|:fire: global _in_ipynb
+44f4c37176742d812f46ec2757bb94b1499e6a69|2016-03-30|Colm Ryan|CustomJS for updating sequence data
+df03c25e11ef124ab9a22a3d6daa306b991c7a86|2016-03-09|Blake Johnson|Merge pull request #13 from BBN-Q/fix/channel-json-encoder
+7a19c85f3a42d356e1a5b8c9435f6a4a038474ae|2016-03-09|dieris|Check if channel property is already string
+caa30f6d0cd3564d2c9d8386254f349c798874ae|2016-03-07|dieris|Merge remote-tracking branch 'origin/fix/process-tomo' into fix/process-tomo
+46fcec5d91597685d5e83b3a3ba4eb8eafb8be72|2016-03-07|dieris|Fix bug and redundant check
+0aecc5ee54f15fa682944806b6857bb3f775193d|2016-03-07|dieris|Fix bug and redundant check
+8756823dac410691ec077a2250a16f2dd72412e2|2016-03-07|dieris|Unrolled list comprehension
+4ba4e513d5a7d54cfb5140b801fbd50599cb298d|2016-03-02|Blake R. Johnson|Merge branch 'master' of github.com:BBN-Q/QGL
+f8368a5d29d933179c5f67d3a12438de68f2b760|2016-03-02|Blake R. Johnson|Create setup.py for installing into site-packages.
+17f0c8f93fa5d2be9bc45bcb798ba0d232afb22e|2016-02-29|dieris|Same as above
+3cc12acf8e959703c38d317c0c06385e6701bd44|2016-02-29|dieris|Fix unit test
+024efcdf3eb01fc970629b2e423e0e8c1fac9727|2016-02-29|dieris|Simplify search for predecessors in graph
+b96b812fb5ca09b07a1c11c109f9f51996e4dd24|2016-02-28|Blake Johnson|Merge pull request #8 from BBN-Q/feature/MeasEcho-pulse
+b52094dd402b142d08fdd397a3f81cc9146aaa05|2016-02-28|Blake Johnson|Merge pull request #11 from BBN-Q/fix/collect_specializations
+a0423cf9427fcffdfdfae998c2e9b1ee62d5b711|2016-02-28|Blake Johnson|Merge pull request #10 from BBN-Q/fix/Reset
+0e91d5c8fa95798b073c73c3f8b36d97cc731636|2016-02-26|dieris|Prevent duplicate definitions of subroutines
+770f24915bf8da03810abde09ac1fd509096f755|2016-02-26|dieris|Improvements to reset function
+9e7ee60684e313b00d3a91151ad78be05abbd1c0|2016-02-25|dieris|Check if the chan library has a connectivity graph
+3d812305e02d0999f8b8c9f75b6f91c07d5e79cf|2016-02-25|dieris|Propagate Z gate to relevant CR gates
+569cd9a7efc6e338b0d8d66867b8c00f2f155ae7|2016-02-25|dieris|Unique tomo pulses
+5727860463c2d946945e13419cdfb56c035c47ed|2016-02-25|dieris|MeasEcho pulse
+6c82a6f3f501a11619f85efa3e7c77e16a7748a0|2016-02-23|Blake R. Johnson|Remove some development code.
+85b9aa9f535940dfda526ccabb1e349f8a24f8f9|2016-02-23|Blake R. Johnson|Merge remote-tracking branch 'origin/master'
+752eb66d01b1cdb0d8d15fdabba180d06156de01|2016-02-23|Blake Johnson|Merge pull request #6 from BBN-Q/networkx-note
+c28b0a8cdbcbd4e11c780f8db10a78dc2525f70f|2016-02-19|Matthew Ware|QGL requires networkx
+31ec85ffda710cfdba4908efbb05b282494b233c|2016-02-17|Blake R. Johnson|Update JSONLibraryUtils.
+9aea68eb6bd72d1fcc6962003a75fa1938f835aa|2016-02-17|Blake R. Johnson|Fix a Bokeh deprecation warning.
+432ba74d3b29fa0d0b675056f6e664f489d67f76|2016-02-17|Blake R. Johnson|Run library migrator on import.
+52392e76139805dfc97e4ab734c19c78bd78bd56|2016-02-15|Blake R. Johnson|Pretty print more info for APS2 LOAD instruction.
+3a2cf7b60a88dc89abd5e691aaa494817417e7dc|2016-02-15|Blake R. Johnson|Fix Load and Repeat instructions for APS2.
+b66e8b509f4cf5241773b42ed5d28a1fed9cbfef|2016-01-29|Blake R. Johnson|Ignore hdf5 files.
+f95e465fa008cf6babee35c5992c692afeaffd62|2016-01-29|Blake R. Johnson|Use an OrderedDict in PulseBlocks.
+e67d7ab234bc9ecd52e3ed6fa7327b0b4eac53ef|2016-01-29|Blake Johnson|Merge pull request #2 from BBN-Q/unicode-repr
+b7ccdbfbbc57259ba528aa0f1b69c7f13e29ee6d|2016-01-29|Blake R. Johnson|Remove 'six' dependency.
+b7eeb6381b68944ef182a6bf2567a8c7ba7ee1fd|2016-01-29|Blake R. Johnson|Define a serializable __repr__ for Pulses.
+4676c04f04b6628f710e3467041dfc5f8e368755|2016-01-28|Colm Ryan|Pretty printing in Python 2 and 3
+d10c934a9d353f556dae64cd33abd580df06a976|2016-01-28|Blake R. Johnson|A start at trying to fix the __repr__ method for PulseBlocks.
+f2543edd710e3f94d4e348de19a60dfd06076c4d|2016-01-28|Blake R. Johnson|Missing import of PulseShapes.
+d905fd2804551df32fee8a6347fe7bbaa203e658|2016-01-28|Blake R. Johnson|Use an updated set of test vectors on py35.
+df02a1316f188423447c0c927b517ecaa679689a|2016-01-26|Blake R. Johnson|Fix translator imports.
+195c7583a01c566deec1bfcf57e23c8f60d6aeca|2016-01-26|Blake Johnson|Update README [ci skip]
+8b186295ca67cd39d558a41c1399c8519721c9f5|2016-01-25|Blake R. Johnson|py3k compatibility change in Cliffords.py
+a8e1cf0fc0711e665e24ed4a4ede52d05f24c4de|2016-01-25|Blake R. Johnson|Consistent indentation in test_Sequences.
+1a47f4f38079fc585dff7f7b7d3d37ca4a967cec|2016-01-25|Blake R. Johnson|Fix TravisCI build matrix.
+46fcc1d08b97cffc638bf3b4109f4fcc2d97447f|2016-01-25|Blake R. Johnson|Remove matplotlib from TravisCI test dependencies.
+c2977a65d6e23f49cb54de87914276912c552637|2016-01-25|Blake R. Johnson|Include cppy dependency for Atom 1.0
+028e805b0d452716716fe179e378d69aaa9d351b|2016-01-25|Blake R. Johnson|Clearer "spelling" of py35 travis script.
+0461d809718b588d92baca14de47d0692ce36a1f|2016-01-25|Blake R. Johnson|Enable python 3.5 testing.
+607b9943fe40aa4faabe78cfa4594ddbf9ea5616|2016-01-25|Blake R. Johnson|Update README.
+d6fddfd67e2922371049192c14519fa7ee80ebd3|2016-01-25|Blake R. Johnson|Handle unicode/str differences in py3k.
+7e4ddd2d0c2cbebf7b31633357776844757adca9|2016-01-22|Blake R. Johnson|Atom 1.0 compatibility changes.
+cd3a452e039196154ca831052d91a555ec64f366|2016-01-25|Blake R. Johnson|Add 'future' to required packages on TravisCI.
+ff78c0bc3ecf8625fec8d6f70c25b29be5b34a8c|2016-01-25|Blake R. Johnson|long/int py3k changes for APS2Pattern.
+911edc6cc28d95a11d86fdc86d4c5687316a045a|2016-01-22|Blake Johnson|Fix error introduced in compiler test.
+ef7aedf274b649d176a4f5bab6c66ee9a5897723|2016-01-22|Blake R. Johnson|More py3k compatibility.
+6439303313a05eda6f7f7d2bf641296bdbb6c4bd|2016-01-22|Blake R. Johnson|Consitent indentation in Feedback.py
+f08ca4e7964a2a5c7cd927a5945483a131e02cd5|2016-01-22|Blake R. Johnson|py3k-compatible relative imports.
+c8d120ee31c2b46bf931ce2498bd1632eb07620d|2016-01-22|Blake R. Johnson|Update prints for py3k compatibility.
+fca6e79c26894fb1a4288619041bb9c107e08df0|2016-01-22|Blake R. Johnson|Default argument in TekPattern.write_sequence_file
+17e36c9bc0d0285e98d22285714bed2df7fb2e37|2016-01-22|Blake R. Johnson|Change default sampling rate to 1.2GS/s to make tests pass.
+9376580ebf812e386eb07b65263371ed0e988404|2016-01-21|Blake R. Johnson|Try caching the miniconda and pip downloads.
+78a34f065221b13602ca418cd57589f8a240cb0e|2016-01-21|Blake R. Johnson|Change dependency from ipython to jupyter.
+8a72104ad581eb009e7dfd2186cb15c3aca5f23d|2016-01-21|Blake R. Johnson|Coverage and testing badge switched to master.
+52386bd0a5c3aca63ab8b4882fa5688172396439|2016-01-21|Blake R. Johnson|Use https for submodule so that Travis can get it.
+5c8e747ae7e9e6f950fc3c64a7f0db478c20dbe5|2016-01-21|Blake R. Johnson|Update README.
+6ff2c804fb93471d2fe9f1ed336b179047dde482|2016-01-21|Blake R. Johnson|Fix channel bundling.
+274fa6829ed2e8191184847fe1c7798f63bc09e8|2016-01-21|Blake R. Johnson|Expose common API in all translators.
+2c2ea6a0a3ef95575664e29ceb65c9363f731847|2016-01-21|Blake R. Johnson|Fix ipython deprecation warning.
+6d278dd98a4dfa9aa28bfc5af6b3acad02460669|2016-01-21|Blake R. Johnson|Ignore test_data directory.
+b23469f4e649da3cfb607244125f2147f3826679|2016-01-15|Blake R. Johnson|Update test_Sequences.py
+bda2a703b7b1019414248ccfe3701cebd9960607|2016-01-15|Blake R. Johnson|Update tests.
+7317020dff379212f702d23de3fd15a7bbd74d21|2016-01-15|Blake R. Johnson|Add default sampling rate to PhysicalChannel.
+d3b1f35c5aa74784b25f5a30f76c804ada89ca03|2016-01-15|Blake R. Johnson|Submodule JSONLibraryUtils
+b6308cd15875f7ade3078f2a0d6de20983125f7f|2016-01-14|Blake R. Johnson|Add license and README.
+a48b7271fe8f61bf6d117d81c70ba10b57d9470e|2016-01-14|Blake R. Johnson|Move around the global channel library.
+241a68faa39f3eef2060b2c7b97658c1699b01e3|2016-01-14|Blake R. Johnson|Changes to make QGL standalone.
+9a1e887683f3465b54912e9165d8e89e8c9d864f|2016-01-14|Blake R. Johnson|File re-org.
+c3830111f4c18a8a0433e41745a5754bd670cf08|2016-01-14|Blake R. Johnson|Remove GUIs.
+c32777b7b58dbd852e9a4d31241075e9dda2ae3e|2016-01-12|Blake R. Johnson|Fix show by calling vplot() instead of plot(VBox).
+5160a1a605e173a584de904c55fc6462c4f66a80|2016-01-06|Diego Ristè|Merge pull request #97 from BBN-Q/feature/multi-reset
+e1394a8f4f6ef98c288a200faa3c9f5bbcd63740|2016-01-06|Diego Ristè|Merge pull request #98 from BBN-Q/feature/tomo-serial
+0e3d7f8eeb256c33270e4121a2743ce869fb3890|2016-01-05|CoherenceController|Rename MultiReset to Reset
+165fa2b0f71156c23bfa23d06bbac2e6669c41fb|2016-01-04|CoherenceController|Seq to prepare and reset multiple qubits
+2728d9e68bd59c10a2cf3149a87820cacad74d1c|2016-01-05|CoherenceController|Error when alignment is not serial or parallel
+79b1288af6dd36a3a929601d393385101ff76828|2016-01-05|CoherenceController|Serial option for tomography pulses
+30d936c260b43145a2a928b70ef81a31ae978014|2015-11-16|Colm Ryan|roll library version numbers
+d5a185612fa07adba6319c814538be678aee379c|2015-10-28|CoherenceController|Fix optional inputs in echoCR pulse
+25cb63e0d487a6355f634b0b2d6e08f41f6c16dc|2015-10-19|Colm Ryan|Merge pull request #73 from matthewware/SimulRB
+0e22e0af139964fbd1d21b3588ec338c9572a33b|2015-10-19|dieris|Removes obsolete 2-qubit Rabi
+2dc55c028df764b6d06451ad2693dc5a84c5248c|2015-10-19|dieris|Generalizes simultaneous Rabi to N qubits
+578601ea90af0c92dcb77a0bb6dfa36b6037a5a5|2015-10-08|CoherenceController@Draco|Allow kron products of MEAS with no MEAS
+a2198279da790528c58484c67ce6e03ab74f2d18|2015-09-17|Matthew Ware|Implementing simultanious multi-qubit RB with atomic Cliffords and Colm's code.  -MW and CAR
+17b9a8c56bc6a77d0ab5c4299ca6050336746745|2015-10-02|CoherenceController@Draco|Shorten previous commit
+219e908c7c1cfbff50cbe51995efc6c0ab80b814|2015-10-02|CoherenceController@Draco|Add optional qwait('CMP') to cal seqs
+f2986214fd53c7b0bce4a0527f517a8451d4d219|2015-09-28|Blake Johnson|Merge pull request #77 from rmcgurrin/saveas
+b708c232a47ea12867be6154bb25beeb93dd692d|2015-09-10|Rob McGurrin|fix for #69,#71, and #72
+a0291c1e67738a2e8a34ae378c7be5d3b3969558|2015-09-25|CoherenceController@Draco|Merge branch 'develop' of https://github.com/BBN-Q/PyQLab into develop
+aa0dffdc987baf95484a07fe0110cf9bba4bbb71|2015-09-25|CoherenceController@Draco|Optional qubit suffix in T1/T2 seqs
+a8a23eb8663497cc7ef405b3304c39b8bf352d74|2015-09-24|Colm Ryan|:fire: ``channels`` parameter no longer used
+bb8257ec95714bb21dbc46bdbb8d57febac5d227|2015-09-24|Colm Ryan|Allow pull_uniform_entries to loop through the channels multiple times
+180fe88b1eac48697a661246d43ac101d99f63b2|2015-09-24|Colm Ryan|:white_check_mark: fix the damage done by a3f96c2c37
+26f9046027684c5613e63eb3fe2e789ab4e71047|2015-09-23|CoherenceController|Handle merging with channel frequencies
+7fbfc40969b32a5871b98308e847ae0952b62194|2015-09-17|CoherenceController@Draco|:bug: ControlFlow module had no Load class
+dcff42770f90eb4c06ac0497cd820f32c116ffff|2015-09-11|CoherenceController@Draco|Remove duplicates in measChan parameters
+55a7279dce6d5a563db7192d0675f2061000f270|2015-09-10|CoherenceController@Draco|Minor cleanup of add_digitizer_trigger
+691fd726e94500d464f3017f507d4537e71411e4|2015-09-10|CoherenceController@Draco|Compatibility for multiple digitizer triggers
+ff3e20077f1b4d92321243c0d8d5e8b7d6dcc7bf|2015-09-10|CoherenceController@Draco|Add trigger parameter to measurement pulses
+521e95c68b46fb584307c5bc508408e4deb6952e|2015-09-04|Blake R. Johnson|Emit instructions for qfunction definitions.
+a8dab87f54c2a188ce13e6cd6828c4ca758a59f7|2015-09-01|CoherenceController@Draco|:bug: Allows plotting when ch1 is not defined
+15d0732143cc2dce992b6ed7c45f17faffa09350|2015-08-03|Brian Donovan|Initial implementation of object based drivers
+9dc0f3ae7ce816c055a46e118c59a91caaf4edf6|2015-07-31|Blake R. Johnson|Combine CNOT_CR methods into one.
+8b44ac0c37531a3f54fe650fe3015dceb5119c16|2015-07-31|Blake R. Johnson|Update uses of CR primitives.
+246e2602cfaf2621349c23013ba7bbc664821752|2015-07-31|Blake R. Johnson|Modify the CR pulse primitives to use the EdgeFactory.
+bacc5a5198ca95f27f74b5ce85c9ef5006276d56|2015-07-31|Blake R. Johnson|Add riseFall to default Edge parameters.
+24ae88ea3fe84f51ad9464fbc2610c078fadfe67|2015-07-31|Blake R. Johnson|Add an EdgeFactory method.
+ab31b1fd02c166be05db3d63aaf7111ba5969373|2015-07-31|Blake R. Johnson|Channel __str__ method depends on the non-existant json_serialize.
+8479b6a40e7c9d5d7f970902105269ed82702263|2015-07-31|Blake R. Johnson|Build connectivity graph on load and update.
+55f6ea9a63aad0c6543d2f70df7ae972a86c3a46|2015-07-30|Blake R. Johnson|Add Edge Channel type.
+752da577f66de9ac352b1bee2a4714867452acfb|2015-07-23|Blake R. Johnson|Write flat_top_gaussian as a CompositePulse.
+3ea17244a288594bc3ba13bf4a223ce14cd8460d|2015-07-23|Blake R. Johnson|Fix handling of CompositePulses in a few spots.
+25281d1bce53cc9960d6c88311b211fdbea3d330|2015-07-21|Blake R. Johnson|Early binding of parameters in stack_shapes.
+77c43a1add0994b32dcc776a8e578c632404f68b|2015-07-20|Blake R. Johnson|Rename Pulse.qubits to Pulse.channel.
+67deb8942fd6581e5717533336e298e23a21a877|2015-07-17|Blake Johnson|Merge pull request #52 from BBN-Q/feature/migrate
+c832de1f6bd754fd542327d4432b65d5e9cd7b9c|2015-07-17|Blake R. Johnson|Read and write library version in json en/decoders
+f168abce2cefee215a7f2166a6110f3ec06c40fc|2015-07-16|CoherenceController|Update RB_AC for new sequence generation
+0e48ca0dc19b1af3bf72d52c413786e7207d72e2|2015-07-16|CoherenceController|Properly scale arb-axis pulses
+fb913e9959963b7bf03a4fca1520f296d9e27d26|2015-07-14|Blake R. Johnson|Add tool tip information on frequency and autodyneFreq fields.
+7d0ecdf4f324dd5593d948c112b0716d2b39ac78|2015-07-13|Blake R. Johnson|Grab frequency from Pulse channel in Waveform constructor.
+9e381d353ada3583ee899df42c3a88e62d90c57d|2015-06-23|Brian Donovan|Updated GUI for change in frequency location
+93ccd2f36cac58b02089cbb5803b780eacc4da58|2015-06-23|Brian Donovan|Moved frequency from physical channel to logical channel. Added json version to atom object
+2fd3ea7a4c383f52a021fef2f0a50aa793e9f8e7|2015-07-13|CoherenceController@Draco|Revert "Revert "Revert "Removed unused input in ZX90_CR pulse"""
+a63bed0c9f305a62ff4a4b915ac962e59050d56c|2015-07-13|CoherenceController@Draco|Revert "Revert "Removed unused input in ZX90_CR pulse""
+6b38ee93db26aeff3e30f8c90cc2b0096d32610c|2015-07-13|CoherenceController@Draco|Revert "Removed unused input in ZX90_CR pulse"
+13c88960ffe0dd9f8a335a2fe4a995b6c312d54f|2015-07-13|CoherenceController@Draco|:bug: python closures are tricky business
+1f13bad53e4404b454bcf271ebbb7c28cd4f0479|2015-07-13|CoherenceController@Draco|Updated references to ZX90_CR
+3a65ee4424e3ec0f15817bbcba38e75416052a6d|2015-07-13|CoherenceController@Draco|Merge branch 'develop' of https://github.com/BBN-Q/PyQLab into develop
+44b3a26ebc5dfd46a4d9aba0b0d43cecf9d71050|2015-07-13|Blake R. Johnson|:bug: Fix another missing WAIT instruction bug.
+be71e30f11efd19bdf02001abc905668ed33ce6a|2015-07-13|CoherenceController@Draco|Removed unused input in ZX90_CR pulse
+981087cbf0f9ba51f5116c7436e76d1b4f2e09c3|2015-07-13|CoherenceController@Draco|Ensure we WAIT when merging markers onto empty sequences.
+ddb6a92bd67ad57bc7ee24f519bfbe41cefc6db7|2015-07-13|CoherenceController|:bug: numpy bool casts to numpy int32 which overflows.
+78b895406a50bc110ee3cfd21b4214702c2fc443|2015-07-13|Colm Ryan|:bug: cdc848aff6a4 did not actually update autodyne value
+3b01ce532a0b3cd160771672d3384dec19792154|2015-07-12|Colm Ryan|Change sign of SSB for negative frequency qubits.
+3ecd152babc3e69e3cd13ca07f02a7218ad0cbca|2015-07-10|Colm Ryan|Display autodyne frequency in MHz
+061e322e64e4f8114fd95962664c4cd8c3f51e44|2015-07-09|Blake R. Johnson|Compress APS1 sequence data in some trivial cases.
+3e89650e53b5e462fcde1517fb56ef1c0d72c7f1|2015-07-09|Blake R. Johnson|Make plot grid color configurable thru GridColor param in config.json.
+e88f06365f0776fe35bc9cb025c7f134b93ad338|2015-07-09|Blake R. Johnson|Be a little looser in what we consider an APS1 trigger 'blip'.
+00c8685eb3b3d880e86c11a7abfd09d46fdfcd26|2015-07-09|Blake R. Johnson|Truncate waveform lengths to quantization interval when converting from time to samples.
+0b7af5f391304f19264ad138414729a851f4f6f2|2015-07-08|Colm Ryan|Fix marker compression
+34f9662ec3d4a83f159a069ebe06e3e86cd40678|2015-07-08|Colm Ryan|Pulled ``amp`` out of shapeParams into a Pulse property
+199ffa480234d98bec388abb455e0c13805e9d1b|2015-07-08|Colm Ryan|:bug: zero amplitude waveforms need the TA flag set
+a2f8d264254ff50ec0db1c3628b655a46e063349|2015-07-07|dieris|removed unintentional delay in echoCR
+a07eed5311ea879c0acc33393dfc3bddaf79fb87|2015-07-07|Blake R. Johnson|Catch an APS1 error when merging marker data creates a short waveform.
+3362162b19ad685aba45e81a47c282a4734b0131|2015-07-07|Blake R. Johnson|Refine wf signature for TA waveforms.
+bdbf9e46203064b141b21f97de3c0887b6c924c7|2015-07-07|CoherenceController@Draco|Optional final Pi pulse on Qc at end of EchoCR
+c466ed599122ed01b28b3e0349402217603a0e6f|2015-07-06|Brian Donovan|Added a configurable background fill option for plotting
+5034d0d04e0283e0a2847de969e5f5b8835f9111|2015-07-01|Blake R. Johnson|Remove dead code from APS2Pattern.
+69dae91b247e2f2cfbb60f993c72e773f402c2c8|2015-07-01|Blake R. Johnson|Slightly clearer implementation of quantize_phase.
+22f68009805e10a72d15cbc759c4d5c211089853|2015-07-01|Blake R. Johnson|Change wfLib keys to tuples (wf 'signatures') rather than hashes of tuples.
+dd06a33146c41635b8ed2fa275b25fa3e022ae9d|2015-06-30|Blake Johnson|Fix hash collisions on Waveforms.
+f5ec4e339a8662eef20ff86c894fb50846815ce0|2015-06-30|Blake R. Johnson|Restore efficient single-pulse repeats to APS1. More reasonable test sizes for echo CR sequences.
+5db6d45eeb9ee3b1ba08b529e6993176a1817d1f|2015-06-30|Blake R. Johnson|Fix busted assert and empty sequences that make it to create_LL_data().
+bdecc0ffdc0e6e7bec165b342a8af14c24c29862|2015-06-30|Blake R. Johnson|Slightly more robust APS1 marker merging.
+607f15615c347c58b16b908bb733644b2701c846|2015-06-29|Blake Johnson|Fix Waveform -> APS2 Marker instruction mapping.
+e4bf5d60a4705917f0edc639bb8a151c1a5c280f|2015-06-29|Blake R. Johnson|Kludge fix for arb_axis_drag.
+cf072ced13ee5dec94030f572280c64002a2a2f3|2015-06-24|Blake R. Johnson|Updated APS2 translator.
+cc7c7dbcad02961d39858cc84d4de057809d1629|2015-06-24|Blake R. Johnson|Define __ne__ for all classes where we define __eq__
+8531e1b1d70e08fdca0f1288630728162ed7a82c|2015-06-23|Blake R. Johnson|Pass correctionT thru to write_sequence_file() and use it.
+f05761c949ad99f33531501919f000c7fb9707fb|2015-06-22|Blake R. Johnson|Implement frame changes and SSB in APS1 translator.
+1820db9d7f522c7552cc91354e67966bb18c1cb0|2015-06-22|Blake R. Johnson|Nominally working APS1 translator.
+04c6395abac2e95e10e7ecfbb56786a24afcad34|2015-06-21|Blake Johnson|Found the missing np array wrapper in wflib.
+70a9076ffe95917cd267e9e983ff314b56d670cb|2015-06-19|Blake R. Johnson|Further progress on APSPattern.
+4ec558cc9e2557afdd9a9007a15ec1896324ba21|2015-06-19|Blake R. Johnson|Further progress on APSPattern.
+73f11a8fd780ddd2d9beed1f6227fbcf5c1e76a8|2015-06-15|Blake R. Johnson|WIP: Update APS1 translator.
+1bc9674189a139caa313f0500d05bad28d9feece|2015-06-15|Blake R. Johnson|Fix label on U pulse.
+26e9a64804b8ba5bdadf65764edfdacf15a00694|2015-06-15|Blake R. Johnson|Make qwhile actually loop.
+1630a75ed74b3da8d2111dd843b50f76246e415b|2015-06-15|Blake R. Johnson|Fix qfunctions.
+919833d631622629334b73cc8a9d473702c62179|2015-06-15|Blake R. Johnson|Minor improvements to channel merging.
+75b79a31fd73659ca590330f1c118f6fa01fd865|2015-06-15|Blake Johnson|Fix channel merging.
+33d53817fe3313b00b711913edf861e2997b5669|2015-06-14|Blake Johnson|Missing imports.
+7f69311350a28967eee0d4d19769d8478211d5e2|2015-06-14|Blake Johnson|Revert changes to CompositePulse.__add__().
+596e322df038ae58c67906e0e9cf7ff1206f38bf|2015-06-14|Blake Johnson|Really fix the syntax error in CNOT primitive.
+1b86d42e19fea63324686ffba8847682d441d24d|2015-06-14|Blake Johnson|Fix syntax error in CNOT primitive.
+694015b8b63500623ed3c5e4b93f468bdc1887e8|2015-06-14|Blake Johnson|Fix show().
+735427e14fb20e320202ae2c9ce18147cd30ec20|2015-06-14|Blake Johnson|Axe more unused code.
+13813aaecadf11535b315bcd05530f721958baf2|2015-06-14|Blake Johnson|Axe the unused flatten_and_separate().
+4e42ce818c065c4bb48e6893c981c32d97c982fc|2015-06-14|Blake Johnson|Rename Compiler.align() to Compiler.schedule()
+db3859a29898b139beab509b7cb7e642d98308a0|2015-06-14|Blake Johnson|Fix add_digitizer_trigger and add_slave_trigger.
+ce8a28903a79dd68fc54a59378298c16e55acc4b|2015-06-14|Blake Johnson|Better code re-use in PulsePrimitives.
+e0552cd4a630306281ebfcb141c59845757c12d8|2015-06-12|Blake Johnson|Allow BlockLabels to be standalone sequence elements.
+ffc698f91aae2f2c86fa4d98c1f5ccf0220c1508|2015-06-12|Blake Johnson|Match block length in injected Id()'s in normalize().
+63aeffd1ba3e878699ac7e3d0738e07e3f43bbfd|2015-06-12|Blake R. Johnson|:construction: Generalize QGL IR with delayed pulse shapes.
+329f6fd00d21275c5799282f4e67c5a7afa4d064|2015-05-29|Blake R. Johnson|A start at making 'amp' a delayed parameter.
+21a33400f7c86fda19342f4acf91b6a337dcb23a|2015-05-29|Blake R. Johnson|Update pulse primitives for new Pulse signature.
+0ba5de4cfb1c57ecd7b1b708807f2dbc80b7b8a1|2015-05-29|Blake R. Johnson|TAPulses use a new 'constant' pulse shape.
+0ee0465c2b14ba81d11ee0f5149b8a6586c397ad|2015-05-29|Blake R. Johnson|Define pulse length directly from the shapeParams rather than numPts.
+396a58f30763132fcbc0d4615c01413c27be4d32|2015-05-29|Blake R. Johnson|Move show() method into Plotting.py.
+e2afc53f1c27150645f21f88749bfa6bcebd1bf4|2015-05-29|Blake R. Johnson|Remove repeat parameter from Pulse and LLWaveform.
+3f181358988dc4014a086d65b4b01a4e3abf5056|2015-05-26|Blake R. Johnson|WIP: Delay pulse shape calls until align().
+fd54feedae26ceeb38a2fa904445c49bd2c4ea69|2015-06-29|Blake R. Johnson|Fix a few more broken tests.
+c07cd86d822c35f8f0d945f2c332059a13bddee1|2015-06-16|Brian Donovan|wrapped seqNum in str() to prevent a error applying '+' to int and str
+91ff5b5247fbcf2315751858df848bc541f98251|2015-06-15|Brian Donovan|Replaced U180 pulses with U
+206efd6df43c142acbc13340328fd108a1921a4f|2015-06-12|Brian Donovan|Exposed RabiAmpPi function
+e297c775ac4ea9326080bce6c039503b5ef51d55|2015-06-12|Brian Donovan|Improved error reporting by identifying channel name when causeing error
+3ca6f30c9d784aa1914e78a4ca031bdaa3934603|2015-06-23|CoherenceController@Draco|Renaming CR pulses for consistency
+cf481b0139b152d4125c5f01bc2510008b1940f0|2015-06-04|Brian Donovan|broke show() into build_waveforms() and plot_waveforms(). Added figTitle for plots
+6b13dadb2a03613f85e978ff92a714fc4d601ce5|2015-05-29|Blake R. Johnson|Fix Q quadrature of DRAG pulses.
+508fd828d40e4c15026ab26788967fbf621b52d0|2015-05-28|Colm Ryan|Merge remote-tracking branch 'origin/develop' into fix/interactive-plotting
+34357b56a198e855f4a90a13291b1d621b4ead49|2015-05-27|Colm Ryan|:bug: fix a copy-paste error in 7c9ea53ddb5f0ff50583151bf18f4e1afe796821
+12b190b96f87c9e02cb74868831ee10a37b6b16a|2015-05-27|Colm Ryan|:arrow_up: Fix deprecations in iPython widgets
+dff7ce25a8bf8eba1dec975fbdddccacdfab0a2a|2015-05-27|Colm Ryan|Fixes interactive plotting in iPython 3.0
+4602f1016407456d73404e3b73caff8d263785f0|2015-05-26|Blake R. Johnson|Replace totLength property with __len__.
+289a621f426f4588f524ceef00b7440d5d6843f5|2015-05-26|Blake R. Johnson|Excise `maxPts`
+04539b7feab1e5958e2cfb0a2e70091e283b16a9|2015-05-26|Blake R. Johnson|Unify `qrepeat` and `repeat` into just `repeat`.
+6106c07b37e1cd40620bf9ec0e48be34ab80fcdd|2015-05-26|Blake R. Johnson|Refactor ControlFlow entries into individual types.
+8605090e55e6261face7dbe902a4c3fad3a9adb8|2015-05-21|Blake R. Johnson|Rename WAITCMP to LOADCMP.
+8eb66683cc2212cd9d40a4eda852e106425d0986|2015-05-14|Brian Donovan|Modified Instrument/Channel Managers to support add, rename, delete on file update
+9d622a745bc824eb524504b6632df8dd030e547e|2015-05-07|Brian Donovan|Added GUI validation to channel name
+d714380b3709038765026a8f1d89199cc1163bd8|2015-05-07|Brian Donovan|Changed the way awg channel names are split to use rsplit. This allows more than one '-' in the name without causing programming errors.
+e77bb64aa493cba53678bb0c67f6bac7deba7dff|2015-04-29|Brian Donovan|Fix for lost AWG names. Now returning lvalue.
+0d194d7fd8e043c0c88b8b974ed777d02601c991|2015-04-27|Brian Donovan|Factored out setIfNotEmpty
+643dc430d595f0ad52f8da2e78a691a66f017671|2015-04-24|Brian Donovan|Added automatic physical channel rename based on AWG name
+a8da481342ceed120c4e83ab8d8ddc373a797b6f|2015-04-24|Brian Donovan|Channel view can now handle change in AWG name. New to change PhysicalChannels
+00359c422ff618de1fe6063fed8f190de18ba053|2015-04-27|Colm Ryan|Merge pull request #29 from BBN-Q/feature/explinter
+92643ec3d3a3b06e82604abae173e778efbbb653|2015-04-17|Brian Donovan|Added ExpSettingsVal.py and added validation to GUI and Compiler
+e9b2a44aa90cdd361291c928a3bd7cb7c1fdb939|2015-04-24|dieris|Simplified CNOT pulses
+17803124228e6aa8878cd24e74e24ca969b1619d|2015-04-23|CoherenceController@Draco|Fixed typo in CR->CNOT
+d9b61e1f2d5322c32a8606d84a6a47a1500af769|2015-04-22|CoherenceController@Draco|CNOT pulses from CR gates
+26f1e14dc6c71191bc1b9bb17f1dd6f25b445ba8|2015-04-22|Blake R. Johnson|More unit tests for pull_uniform_entries.
+6f3e1d6b9bf950d5d5118564bf4b4e069e4ece8c|2015-04-21|Blake Johnson|Fix some merge_channel() bugs found in unit test.
+f3163ba2bed50153b23972c6738841cd391d7ac0|2015-04-21|Blake Johnson|Add merge_channels() unit tests.
+e347658d641a159c8739d1d1075b26c47c47ad15|2015-04-20|Blake Johnson|More general version of merge_waveforms().
+411231f80c82e1d15b9395b8d8a8f4345fd098f4|2015-04-18|dieris|a little cleaning of merge_waveforms
+0e4b1592700395d66f01d111416c01e8c1aea549|2015-04-17|Blake R. Johnson|Some cleanup of map_logical_to_physical.
+ec383090461cced38d755c4fcf629c9e71823486|2015-04-15|CoherenceController@Draco|Fixed other bugs
+2401a9a0cbafc95160b7fbb2bde68374f3cbfa3d|2015-04-15|CoherenceController@Draco|Combining waveforms in same phys. chan.
+6bda910dc2dcb465ac4d02a1ca2dfd8003777266|2015-04-15|dieris|Combining waveforms in the same phys. chan.
+03678f36098ce4c4934463d9bd3287c7781e15bd|2015-04-08|Colm Ryan|Remove second Xm definition
+cdbda04ced9e961f69a74df7269d15d25f595b6c|2015-04-06|CoherenceController@Draco|Missing optional parameter riseFall
+8e78eb4a5a04937d3394cd18e891a6fec4307bc4|2015-03-25|CoherenceController@Draco|Deleted typo
+4878dcb40b31a804f99723fa36347a221e089755|2015-03-25|CoherenceController@Draco|Fixed definition of ZX90 pulse (CR gate)
+b76e687d07167a3d6473a9c876537f4a6faf977c|2015-03-05|Colm Ryan|Look for first non-empty sequence to find control flow
+1206dc19df5f94237785d0bf277a7dc90f6339ec|2015-02-27|CoherenceController@Draco|MEASmux pulse
+a2be5718e954050e36d4be3d782d99b7319c6a57|2015-02-19|CoherenceController@Draco|Some minor modifications to Rabi and RB methods.
+e30e2f9a918772a5f9c4d8832511960f6b9296d3|2015-02-18|Blake Johnson|Modify show() to use Bokeh.
+1becf67b0e36ba3429c0728db379709f46834701|2015-02-02|CoherenceController|Included a CNOT_CR (composite) pulse
+9b048f3480a1f04c48deac0393d741087fe64c9b|2015-01-30|CoherenceController|Echo: optional phase sweep of second pi/2 pulse
+34c1358c8cbd0cdf6d91c885014577a0280cef39|2015-01-30|Blake R. Johnson|Add a comment to synchronize_clocks().
+c2624d1ca23d163f4e9063f1000d39cd21a90a58|2015-01-29|Blake R. Johnson|Synchronize timestamps at SYNC instructions.
+9ea68f256b4ad713a026587bf9f19e1980d17644|2015-01-28|CoherenceController|Add units to autodyne frequency.
+63268ea4c2c770127f3b1b958cc9b52131e70127|2015-01-26|Blake R. Johnson|Expand followed channel parameters to everything except 'AWG' and 'generator'.
+aaf53ac350443dcf309fc1d814f43473f6307bde|2015-01-26|Colm Ryan|Error on cache overflow until PREFETCH is working
+5f2426a182a049110ab36afa5d35c5c9b9b62414|2015-01-25|Colm Ryan|Put how many sequences total next to sequence number slider
+ad71d8b7a82c8fd09fa5a2bfbbd314cb4ee59d47|2015-01-25|Colm Ryan|Fix pusle sequence numbering.
+7077d8873dd5a1da3ea5f44ed5a66f377d284e42|2015-01-23|CoherenceController|Add units to physical channel params.
+1f8775244a257adf1d8b819f0a49585d6e3191ee|2015-01-22|CoherenceController|Fixed EchoCR
+892f1b0315139156a9693a3167137ba5cdb67d64|2015-01-20|Matthew Ware|Make show() a little prettier.
+66a1d1dd6b78d965e035041e58a227b991d38d69|2015-01-19|CoherenceController|AllXY sequence
+795fd2129db879d9e0dec502aef035f433db5372|2015-01-16|dieris|Minor fixes to CR pulses
+f648a760ae47d1cbb300904a09dcf7fc95f4b6dd|2015-01-15|CoherenceController|Fixed bug in CR sequences
+1866698f3dcd3b73069761d4bc7d47f7a71a8171|2015-01-14|CoherenceController|Basic sequences for CR gate
+319e197b01f4f791c6fd16ce99249dcfd53fefbc|2015-01-14|CoherenceController|Modified two-qubit CR pulses
+fcba15b746d6d84d5088864608d69f7f48af615c|2015-01-14|CoherenceController|Reference notebook for single-qubit sequences
+dbceada7758ca11784a8bf790839d290d251e25b|2015-01-14|CoherenceController|Fix for suffixed file names
+683da6c87338951273fbf99fd89b5b972b819c3d|2015-01-13|CoherenceController|Rabi on 2 qubits - fixed previous commit
+ed7081df227ce8b71e5e96298a4937fb66268380|2015-01-13|CoherenceController|Rabi on up to 2 qubits
+466840b63f36ab7b00beed8f80a078324969834e|2015-01-12|Blake R. Johnson|Follow changes to physChan and gateChan.
+8f68dc43356d84535a5958b6b9505da837be1b98|2015-01-09|Colm Ryan|fileName argument is not optional in compile_to_hardware
+c19fb26214f9a7528c7b8dc78d1cf2aca4c2a2d8|2015-01-09|Colm Ryan|Change title to full filename.
+0afcbea1beb9bf9e8c98290c43d61554fe09184c|2015-01-09|Colm Ryan|Don't need to worry about plot window handle anymore
+35abc3791a6dc973db9f40f1f105a5cc8a9d5559|2015-01-09|Colm Ryan|Merge branch 'feature/notebook-plotting' of github.com:BBN-Q/PyQLab into feature/notebook-plotting
+36fe58494e1ccf48788111b3e7ecf6bf2e5d2821|2015-01-09|Colm Ryan|Static plotting from console.
+3acbcf817e596a357237cce4289071e50af6adf3|2015-01-09|CoherenceController|Prettier printing of APS instructions
+dc93a08269a089e78b600e91c195b1c44bef05d8|2015-01-08|CoherenceController|Fix control-flow instruction ordering.
+b5dbfdef954e26d2d463c436da982bbf54bd663c|2015-01-08|CoherenceController|Inject delays after SYNC
+047ed46a4f9e2e71b4624389b981cf6b12109dce|2015-01-07|Colm Ryan|Block bk.output_notebook unless in interactive notebook
+64a9b1b7df8c9f1419c8b300aa4c7ca7bba24af6|2015-01-05|Colm Ryan|First attempt at notebook plotting with bokeh.
+fd611cd2ee691c2191cf538764380ddb28bfe876|2015-01-05|dieris|Channel SSB to MHz
+2bc1d3b51a21ccdb707db0994072c04c4a797793|2015-01-05|CoherenceController|Expose SYNC instruction at top-level.
+2c4ed838f999a211a64e15689a527d6d91628d3a|2015-01-05|Blake R. Johnson|Add WAITCMP instruction.
+178916fef7a0f22c84705a59fd5953d5e5d56d22|2015-01-02|Blake R. Johnson|Make gate channels optional on Qubit and Measurement logical channels.
+420e2b1c38f0f4a670d847b1a0decc29eee80c2a|2014-12-23|CoherenceController|Bug fix in apply_gating_constraints() with control instructions.
+e58686442750afeae70dd3f669070c1342af0bbe|2014-12-17|CoherenceController|Fix error in qrepeatall()
+2f186ac10abbc776530dd2a63557b06706577118|2014-12-17|Blake R. Johnson|Add APS1 support for LOAD/REPEAT instructions.
+c5f8d33671e1e7c24d0368f26640a8e92dedd73d|2014-12-17|Blake R. Johnson|Drop some unused keyword arguments from compile_to_hardware.
+cabb93635375aaa7e37945e874224001210ff321|2014-12-16|CoherenceController|Create calseqs copies
+ba22ae90c07a415c183c6547dbcf9d83b682fcee|2014-12-04|Blake R. Johnson|Fix branching instructions for targets with offsets.
+717578328ba5758f092656f162caf1dfe5c35b40|2014-12-04|Blake R. Johnson|Bugfix for add_gate_pulses
+2d0fc3e47ae442185fe88e37c754a4fecae304ed|2014-11-12|CoherenceController|Don't double apply slave triggers
+a7297978e5b23a0cf08878c4abf00d32c17720f1|2014-10-08|CoherenceController|Fix duplicate trigger/gate pulses on repeated entries.
+d7a9419753f751d6ef781c59b00235faf9f41d01|2014-09-25|CoherenceController|off-by-one error in create_wf_vector()
+955b0ea1a574e43d035d3907525ed68529b98699|2014-09-23|CoherenceController|Waveform and Marker fixes.
+e938fefb67dc3df2cd5e6aea3413ab59d123e3fa|2014-09-22|CoherenceController|Basic reader for APS2 seq files.
+68b58289eee6b39b21e68c7904d0332b6288cb24|2014-09-22|CoherenceController|Skip waveform and marker entries that are too short.
+649d4d19a01a1ef64c5436a3539ca1f4fc9c459a|2014-09-12|CoherenceController|LL prototype should start with a WAIT
+3d4d4b568c2d00f74f4781b409a3b1992b655286|2014-09-12|CoherenceController|Force TAPulse to have integer length.
+4069a77c8a1d8dcc35a9e6350f91d95b6d72ac72|2014-09-12|CoherenceController|Do not write linkList group if we do not have one
+2d6175e4c6aa4d369743dd26f744e0fc0afb645d|2014-09-10|CoherenceController|Fix apply_SSB
+8550f93448aacf6c663cea4326d35c0ca79394c2|2014-09-10|Blake R. Johnson|Detect safely skippable control flow in APSPattern.
+cd76c99af46f1fc00c49f2d3924a091ed03ddc9e|2014-09-10|Blake R. Johnson|Ignore label when comparing instructions.
+c2f5695bfb89911ab33314ef1e6d29152ed86dea|2014-09-10|Colm Ryan|Fixing bug with markers at t=0
+aee5f9d7002412275527603d69033f60bc7b2034|2014-09-09|Colm Ryan|Work around some circular imports.
+4d4c024494e4bfbfdfa84a401eec5ee28748283d|2014-09-09|CoherenceController|Merge remote-tracking branch 'origin/develop' into control-flow
+165915c53ee5acb087586cf18729e2ae76d43b18|2014-09-09|Blake R. Johnson|Put last marker pulse at the correct time.
+f3dfed01b8a83d7c512058625977b25f334ad87f|2014-09-08|Blake R. Johnson|Kludges for merging APS1 markers.
+90d229320d71e3c2242e6ad24e1d542875cb0a16|2014-09-08|Blake R. Johnson|Update x-axis in plotter when chaning segment number.
+8fcdc3dc895aadcabc2f35798a0f331dac61efc9|2014-09-08|Blake R. Johnson|APS1 export.
+dcf3c14f924b26757cb1817d6ea93c9c82d38917|2014-08-05|Blake Johnson|Add Instruction type for APS1.
+7afb970e7f69ce4e2ebf4f0b016c2f1bb0d50e5f|2014-08-05|Blake R. Johnson|Bugfixes for APS2 instructions.
+41babfca914170228547e84c4cda50caac422049|2014-08-05|Blake R. Johnson|Pretty printing for LLWaveform's.
+632ee3a80b603b43b6bf3805fafa84dda8864b9b|2014-08-05|Blake R. Johnson|Fix write flag in instruction builder.
+5814b080ef0d1b1d257bc68a9ea989a63117407c|2014-08-01|Blake R. Johnson|WIP: Attempt to deal with write flags
+23d8b8918e47ebf6bbac955a93e8a673eb66f0b4|2014-08-01|Blake R. Johnson|Handle marker transition words.
+a4b8ce3aa5eae15bdc3304d0600dfd8db1eb82dc|2014-07-31|Blake R. Johnson|Populate 'linkList' key on empty channels.
+0f62c7631c23d6d37e761da0c35e2f5a636be981|2014-07-31|Blake R. Johnson|Move gate parameters into the PhysicalMarkerChannel's.
+354bb97f5a35e99ee3e1fdcb78f9cd84f7daa597|2014-07-31|Blake R. Johnson|Begin each subsequence with SYNC.
+c7792c4583015124880ff13800fc9f5a99a70d7a|2014-07-30|Blake Johnson|Bugfixes to create_instr_data().
+202cfbbb7b262c4773e8742aecb1e7888a2f1c32|2014-07-30|Blake R. Johnson|WIP: Construct instruction vector in one go
+832980204bfa09c1753642524172cd136897cccd|2014-07-30|Blake R. Johnson|Misc cleanup of unused code
+d4974dfbc69799cd8d8482e01655c3abe59b7144|2014-07-30|Blake R. Johnson|Make ComparisonInstruction a child of ControlInstruction
+86495132b6e0dd51cdd80304e3231b1196771fe6|2014-07-29|Blake R. Johnson|WIP on handling markers.
+4d48ebc8d5b5a839444703be14e89e773e813864|2014-07-29|Blake R. Johnson|Move slave triggers to logical stage
+e253db162d944eeb656384e229029080f8ece931|2014-07-29|Blake R. Johnson|Can use a TAPulse for digitizer triggers
+46b2f6aa3ebb014d7b4a96855bae610ca54cce86|2014-07-29|Blake R. Johnson|Bug-fix for gating pulses
+944a4400f04db48d8ce7833a6e6063c115c75812|2014-07-28|Blake Johnson|APS2 instruction pretty printing.
+54337bf078d8297e484e688d6cf0e059708f839e|2014-07-28|Blake R. Johnson|WIP: Follow new narrow instruction format.
+e1d736f330a21d3f03f1a16cf537b6ee5ec1ee0d|2014-06-10|CoherenceController@Draco|Include repeats in length of CompositePulses.
+cafcf8088cf002dd89a094db513d2faf30ac8485|2014-06-10|CoherenceController@Draco|Round repeat count to an integer.
+c5a7d32abba50289a7c46dfaf09554cbfbcfac1b|2014-06-10|CoherenceController@Draco|Enable SSB modulation of square pulses.
+23adfd079cc839100184e10dab12c4acd01d75a4|2014-06-09|CoherenceController@Draco|Fix find_unique_channels() for composite pulses.
+e89671ca8f1a9ea8b88878c9052edf3522e49f86|2014-06-04|Blake R. Johnson|Add ability to repeat pulses.
+8c34562b457ea7d6ea7ca5d8f8329a589c53788f|2014-06-04|Blake R. Johnson|Use multiple dispatch for file reading.
+4aaa19f3c2505951506fde11b3712c983397070e|2014-06-04|Blake R. Johnson|Provide APS2 file reader stub.
+b81e827921928d55b6b4dc7268e3541d5b8d5636|2014-05-12|Colm Ryan|Pull in new RB functions on import.
+b7d6f235c7982d200e4842d62091c073699387a1|2014-05-12|Colm Ryan|Add TwoQubitRB sequence function.
+679f3a8395df1713208bb56506e2592ae6f2a110|2014-05-12|Colm Ryan|Bug-fixes to get two qubit benchmarking compiling
+110f08c7f59632bfd8d38500c678d2dfd4f62a70|2014-05-12|Colm Ryan|Remove debugging statement left in code.
+a1ee4d5ec44e431e5ef23a663b5772e8640ae54a|2014-05-12|Colm Ryan|Add Cliffords module and update RB to use it.
+c529d2f842daf3dd3a9ce6144c276d697bb5b1bb|2014-05-12|Colm Ryan|Add echoCR pulse primitive.
+298efeb9579dff9b1d2811d23c47886ee322f375|2014-04-25|Blake R. Johnson|Re-label waveformLib -> waveforms and linkLists -> instructions.
+fde6f89a5d2c407281bd9874cb6b6db36d1b70cd|2014-04-25|Blake R. Johnson|Allow creation of an arbitrary number of labels.
+5fd22832a5eccb67c3a3477f6c3ee68913fdb159|2014-04-24|Blake Johnson|More channelLibs as dictionaries.
+f6da302a73a615da4e88e4ffaab46461d7d72c25|2014-04-24|Blake Johnson|More channel creation convenience.
+49ba1b8e4af0b91850fbe6e06e603f622de38a2f|2014-04-24|Blake Johnson|Add more dictionary methods to ChannelLibraries.
+02bfde332e4e4b44195a1231b05c5892887ebbe3|2014-04-22|Blake R. Johnson|Only need one instance of preprocess_APS between the APS1 and APS2 code.
+b8833be4f72f72968d9f1958e0ca3482e8513850|2014-04-22|Blake R. Johnson|Fixes to delay() and add_gate_pulses().
+880eb4941137ef60422a3e28dcfcf46cad9e9e2a|2014-04-21|Blake R. Johnson|Basic APS2 sequence file writing
+14ba04a0a85009da29582077bfb1a25a0d92039f|2014-04-21|Colm Ryan|Experimental: split LL entries to accomadate multiple markers.
+50011f4473cf167dcd82b2e7aa1df554cae3d068|2014-04-21|Blake R. Johnson|Changes to support gate channels tied to logical rather than physical channels.
+e1e4e2e1116a2cf65863840b0971a7f944136116|2014-04-21|Coherence Controller|Bug fixes to preprocess_APS()
+c590cac77dd725cba851b3e8ee0caa60cb9e67bd|2014-04-18|Blake R. Johnson|Easier construction of Qubit channels
+10875a54cf26c5a6367cacab06a712a579d3563a|2014-04-18|Blake Johnson|Add Guido's multimethods code for dispatch on types.
+7472688e9da6e3135ecc41283bd312df08a65505|2014-04-18|Blake R. Johnson|Update tests to reflect changes on develop and control-flow branches.
+b4b60b50f793b0365b3082da8561e58a4718f664|2014-04-18|Blake R. Johnson|Merge branch 'develop' into control-flow
+8b1b1961d01d7a4fe125653f79a9830d2d15cd4c|2014-04-18|Blake R. Johnson|Logical pulse blanking.
+f9a6598978999b74ba387ea5be9c70255cbb7d8e|2014-04-17|Blake R. Johnson|Minimal changes for gating.
+f3ced35ebe79d8f1f4019fd6025c3b529fe8f0b6|2014-04-17|Blake R. Johnson|New handling of channel delays.
+7224d0463c9253989fe192bef8ed706a60bfef66|2014-04-17|Colm Ryan|Rescale gaussOn/gaussOff pulses to they still go to amp even when shifted for the cutoff.
+4a94c6b8cf7134ff780e3603d94de4d12acb812d|2014-04-16|Blake R. Johnson|Add GOTO back to first sequence.
+e66ca0f43e0a23b632740757be9be015366e6fa5|2014-04-16|Blake R. Johnson|Generalize add_digitizer_trigger
+6e12b6dd404650968531ba588521a7dcf4b14d9f|2014-04-16|Blake R. Johnson|show() should ignore non-waveform instructions.
+0c2b5d45485fd6b80e27cac38cd98f97eef7c21e|2014-04-15|Blake R. Johnson|Add WAIT instruction.
+4b763202cb0b8ab56c8c03c405f3609e39c216da|2014-04-15|Blake R. Johnson|Flatten branches in-place.
+4af1b77653050c56f1c22c65f59cf9b9a753be8a|2014-04-14|Blake R. Johnson|Restore a couple of good changes from the revert.
+56bc3aa720f4d5b296d813c0c380eb06aaf8f225|2014-04-14|Blake R. Johnson|Revert "Modify higher level compile functions to accept branch sequences in return"
+dbd9704dff8b4a6537effdb5116c03b1c1b2988e|2014-04-01|CoherenceController@Draco|Round near zeros to zero.
+17d1019f5a49fd08e6a089bdfb212d47547b3eae|2014-04-01|CoherenceController@Draco|Change default AWGFreq to 1.2GS/s
+e1dd3f0c08511e992fea8eee36756efe522df3e5|2014-02-09|Colm Ryan|Bug-fix: trailing slash on AWGDir is no longer necessary
+06f8fd818e6a1888a29d103e81c0bd831c2261cf|2014-01-14|Blake R. Johnson|Add 'mode' parameter to compile_to_hardware()
+dc5a3adb0c808d9dd9cdf199b2fe7cf3d19753d8|2014-01-08|Colm Ryan|Another name->label refactor.
+a63157e5b6c17c038fb120a25c8bbd327100b8ff|2013-12-19|Coherence Controller|Fix a name -> label line
+a4217e67faeafa3af3f8d003133a1ef421ccce4d|2013-12-18|Coherence Controller|__getstate__ returns references
+e0c1c03a9a6f6dadb918a83803b841b731107f49|2013-12-18|Colm Ryan|Merge branch 'feature/nucleic' into develop
+a660931134f61cac9d72124eb2ce521abb5ed6f2|2013-12-17|Colm Ryan|Work towards getting QGL working with new Atom objects
+b2ed7e2df816e4a7374e1840228f8070a97e076f|2013-12-17|Colm Ryan|Seem to have instruments, measurement and sweeps library encoding working.
+fc9089333325bc93ca0e04e52faee36d6e85e52e|2013-12-17|Colm Ryan|Don't encode dependent properties.
+bf097a7a833b8cd3ec4d49503ba3456669a4e886|2013-12-17|Colm Ryan|Change Delegators to Property
+992b4145637399038d3f427825b4f58bf52dab47|2013-12-17|Colm Ryan|Catch empty members in json encoder.
+ea88a63df3bbbc77a683e25a19318445f0b8821c|2013-12-16|Colm Ryan|WIP: channel library JSON encoding.
+d0a97984d9281357c76bb20b82744048ead2f0ec|2013-12-16|Colm Ryan|WIP: json_encoding moving to each class' responsibility
+2533901c4b536374b386551cb794f35f3f4ecf36|2013-12-16|Blake R. Johnson|Make channel GUI actually usable.
+3a00e4a518d278c0cc820038d263aba22f601866|2013-12-16|Colm Ryan|Some name->label refactoring.
+5e20fd157c1d0b168a5eed345ed99daabb3feee0|2013-12-13|Blake Johnson|Get Channels at least displaying.
+b7006d484e122a155ed492f9bc8ba8756be5620f|2013-12-10|Blake Johnson|Update channel views.
+15c2d824e705c368d457bd71286bbc41c13210b7|2013-12-09|Blake Johnson|Untested update of Channels for enaml/atom.
+36097fc0e511e57c6c007a7e8658e4a3a108dcb9|2013-12-06|Colm Ryan|Same ability to specify measurement channels for create_cal_seqs
+40c74d9ffb526194a5fa5274abfa74289292f9c7|2013-12-06|Colm Ryan|Allow measurement channels to be specified for tomography
+b089e131888b9035ccc66da9c2033da242a6fa30|2013-11-25|Colm Ryan|Merge branch 'develop' of github.com:BBN-Q/PyQLab into develop
+83283f3d6a8e3c3689f6066dbe61b8bdb5fe56ce|2013-11-23|Blake Johnson|Reorganize toolbar into a menu.
+51921d5503f029fbe3babf798d66c8832db13da6|2013-11-19|Colm Ryan|Better path handling for AWG filenames
+ccdecba319bf2ad9125563545b836fd9efbe71e2|2013-11-13|Colm Ryan|Previous commit accidently committed a commenting out of slave trigger line.
+7d97057745c7d99be990e3c5f443859cec58dced|2013-11-05|CoherenceController@Draco|Fix wfLib compression when SSB is turned on
+f2679742b3ff9d22e3b91515709ae24ee58b6815|2013-11-06|Blake R. Johnson|plot_pulse_files now accepts .awg files.
+e2c1d51ed3f3341ad440aa7af4d3bdcc0009b41a|2013-10-30|Blake Johnson|Modify higher level compile functions to accept branch sequences in return values.
+7eb94262b245b19f897577448baa56a96361c618|2013-10-28|Blake R. Johnson|Cleanup of compile_to_hardware
+3670561b261dbb23e1f1b954ca8bb426552586ad|2013-10-28|Blake R. Johnson|Add remaining control instructions.
+970223154fa8a89d56a88a936ead101c94aa0c88|2013-10-28|Blake R. Johnson|Compiler for control flow QGL.
+e69f462abb47e31eeb30b4dfa63dc00b8423d5d9|2013-10-28|Blake R. Johnson|Update find_unique_channels to work with control-flow sequences.
+1a1fb1ceaec991611f6f938b0211b534a59af66b|2013-10-23|Blake R. Johnson|flatten and separate
+2d25d4c448309a2c1c4af69312f841198324d6d1|2013-10-22|Blake Johnson|Make Channels runnable on its own.
+26640efe03c3df30d967cb717766f67db4b75f2e|2013-09-13|Blake R. Johnson|Add unit test for control flow.
+09dffd05b9e3fc26b00ee2630f20e34f45895b78|2013-09-13|Blake R. Johnson|qif with no else, and cache qfunction on argument values.
+c62dfc4b0d0a89e4a44b19c1a57a02226888430a|2013-09-12|Blake R. Johnson|Separate comparisons from jumps.
+560f2f77eae7dcd4f44bf04cac0701b577968283|2013-09-12|Blake R. Johnson|Adds basic QGL control flow statements.
+80a6ef97ce90ba0c574e33a3f522ea7478cfc756|2013-08-27|Coherence Controller|Really make sure sequence is long enough for marker
+dfef1ac53687801caf5c058a031474eb2c9d11eb|2013-08-02|Blake R. Johnson|Round before truncating.
+e56ca284f9bf00012704d61fd2149d4ed828163c|2013-08-01|Blake R. Johnson|Fix frame update for Ztheta.
+45da8d0b842c6cb0388da897b09950b540f7d4f9|2013-07-31|Colm Ryan|Revamp gating pulse logic.
+e77c4fefc0029a98c19e64fece7ff9944ba2e8d6|2013-07-30|Coherence Controller|Trigger counts are in units of 4 timesteps
+dc610d901d1785e6ca7b0ad5adb03518dbd8e49a|2013-07-30|Colm Ryan|Merge pull request #14 from BBN-Q/feature/composite-framechange
+8475a8f444dfabd2ab926c459447c6e256e056c0|2013-07-29|Blake R. Johnson|Properly propagate frame changes through composite pulses.
+553fd7890b5fe41d3194e65de0a21496c1356746|2013-07-29|Colm Ryan|Load libraries in pulse sequence plotter by calling startup.
+64fee2db863e4d5db31686d1932cd83034f0d0b2|2013-07-29|CoherenceController@Draco|Fix atomic cliffords for U180->U change.
+dbc261b7d3213040f60df25547c26bb7c62a3e1b|2013-07-29|CoherenceController@Draco|Interleaved RB code.
+bd4beb504965cf77e7bf3de1a7b3a27b79c264a4|2013-07-22|Blake R. Johnson|U180 -> U for consistency with other pi rotation primitives.
+c8c78bd5463b1ba33ebb544767f051cd143af68d|2013-07-22|Blake R. Johnson|Allow kwargs in non-theta primitives.
+c4069ac0e356c232f8e5273d7f6b28ad9503d661|2013-07-19|Blake R. Johnson|Allow passing miniLLRepeats to write_APS_file()
+3d84d3bc1c76b677b25a6bf121483ea1233aa6e8|2013-07-16|CoherenceController@Draco|Extra short and 'long' twirls in RBT
+56b7a0cc668f594cc332d0ee38152169990ca620|2013-07-16|CoherenceController@Draco|Fix frame changes.
+ca31722bfd2d0b7f36dd87c329a9d53875a53026|2013-07-01|Blake R. Johnson|Tests pass again.
+5b83dc7fa3fb3924fd9599ef713a7eec8f157153|2013-07-01|Blake R. Johnson|A step towards making QGL an independent module again.
+dbc98acadd65ee69908d4cffe58765ddbfaa8e68|2013-06-28|Blake R. Johnson|Adds CompositePulse type.
+d77846486c43232900db66e5a7957a01214b2ec0|2013-06-27|CoherenceController@Draco|Bug fix for greedy markers.
+8cb12be23477dba9180730fbd56d4c84dce1f11b|2013-06-27|CoherenceController@Draco|Drag gauss on/off pulses
+80c7532a953a77b792c92956c61b137f71775975|2013-06-20|CoherenceController@Draco|Another fix for cross-AWG markers
+4e566745a124ec998ffa5eb9815e30c0b7340fb7|2013-06-20|CoherenceController@Draco|Fix linkLisk/marker merging with different lengths.
+e04812e97b3111e5826c9adb07ceb3d003040762|2013-06-19|Blake R. Johnson|Create target folder if it doesn't exist on compile.
+dd9969f2943983382773ffb809452ee2bed578de|2013-06-19|Blake R. Johnson|Bug fix for gate markers on different AWGs.
+16f57147f2ae30462f967ac3556db3695a90040b|2013-06-10|CoherenceController@Draco|retain TAZ property when applying frame changes.
+978a3dfe935704b67aee9dbb020a3e3ea102e970|2013-06-10|CoherenceController@Draco|Fix arb_axis_drag pulse
+427aeaff1bca7271aa69f52a491ee90fa8e0f0dc|2013-06-07|CoherenceController@Draco|Bug fix for gate pulses.
+0b1d6675a7a39be7965a3905cbee5e1eb362eded|2013-06-05|CoherenceController@Draco|Add exponential measurement pulse shape.
+ba0891589ff81cebe83a1ab6daf73c9029d1240e|2013-06-05|CoherenceController@Draco|A more useful warning in create_wf_vector()
+e819ea7f22b7a689412043805682a28b9fe802bd|2013-06-03|Colm Ryan|Handle heterogenous channels in sequence list.
+bf1393db07d2448e89d7814b90fde8167364a41b|2013-05-28|Colm Ryan|Plot channel if *any* sequence has something.
+b255d98f1d9ad507b8b9598376f6d4af6e381999|2013-05-28|Colm Ryan|Refactor away some tmpVarNames
+b089648ca5aa9bc3a8b6eeded6c4983c9ef1dfd1|2013-05-28|Colm Ryan|Move to faster pulse hashing.
+12a8f8384c64f5984dc61c201493bb4735a3dd98|2013-05-28|Colm Ryan|Add streaming checking and timing estimation.
+a75e8a950cd9242836125c023ec2398baed56703|2013-05-21|CoherenceController@Draco|Make sure measurement pulses are the right length
+e661fdb0ded613368f0b30679bf2d7201f667d52|2013-05-21|CoherenceController@Draco|Bug-fix: properly implement phase tracking.
+eb390be8f22fd2974a20553e12f38733ffca1641|2013-05-21|CoherenceController@Draco|Expose SSB freq in channel GUI
+ca848b8632b71caed4e10dbb230524a061ef0574|2013-05-13|Colm Ryan|Account for pulse length in pulse spacing.
+2c6d6f4a0783a7e2318676f7d9577051d1e4fd0d|2013-05-13|Colm Ryan|Discritize phases of SSB to ensure waveforms are reused.
+ebd31034a76161fa1cd7ab4d61a8c634297cff3b|2013-05-13|Colm Ryan|Add measurment pulse to CPMG sequence.
+a034577147a8c00ac9ba8b4c3184dce6230a06cd|2013-05-13|Colm Ryan|Add CPMG sequence to Decopuling module.
+af875c2f9b7c982425db210d2343d001ece24a2e|2013-05-13|CoherenceController@Draco|Merge branch 'develop' of https://github.com/BBN-Q/PyQLab into develop
+6eeaa0c5f28665504242d13e2e6313dbb152430b|2013-05-13|CoherenceController@Draco|Show QuadratureChannel delay in view.
+1369c9007cc06be94a592a03204f9603d9966de4|2013-05-13|Colm Ryan|Add Decopuling sequence module.
+c0df41fceeb64cfb5dba51291b88e7fbba685cd8|2013-05-13|Coherence Controller|Bug-fix: incorrect padding for final marker pulse
+775bc0d1e03a3b8df656b6268050ae1398eb3469|2013-05-12|Colm Ryan|Scale new tanh by pulse amplitude.
+d41d4dbeb621a3150e1a18b21244f71651b773f4|2013-05-12|Colm Ryan|Add RabiWidth sequence.
+01635fa8362d1b2a6f45d884ccce76f4c807ab9c|2013-05-07|CoherenceController@Draco|Add sigma to logical channel view.
+2dcf70bf68568fe2d5e6fe0ec27221dc3bfc5cb5|2013-05-07|CoherenceController@Draco|Redefine tanh shape in terms of sigma
+7d652610b3e99f3f2f2a5a3c79a6c97543c66ea2|2013-04-29|Colm Ryan|Add a totLength property the LL elements.
+07bd599ef012b6ce60da0c1250d5445dc37a0029|2013-04-29|Colm Ryan|Big refactor of blanking pulse code.
+84db52118250b8656533baf2608d1de422bea772|2013-04-29|Colm Ryan|Remove unused pdb import.
+ac78c39c8e9c75c6038e7480150358f6b02510af|2013-04-25|Coherence Controller|Add "stretch" parameter for tanh pulses
+e97e4f14765f10bd9cc4e030ad3c09b516c961c4|2013-04-24|Coherence Controller|Better handling of different length analog/marker
+83eb3b7ec0fd8f6482fd9fc805a397b4ee07648e|2013-04-24|Coherence Controller|Grab bag of bug-fixes.
+1cb55e4e6c400222bd3eab48f1a862508ec2ff9b|2013-04-24|Coherence Controller|Hopefully on last merge issue.
+c0d28478a96d0a9e428062b6b445bf50ae4eb3c6|2013-04-23|Coherence Controller|One more merge mess-up.
+551c493e29c03a8146147c6d7f30ebc509cbc126|2013-04-23|Colm Ryan|Try and make the library updating robust against half-written files.
+02fda75775172db660dc44b1a7ffda52810bcc4c|2013-04-23|Colm Ryan|Messed up the merge conflict resolving.
+9269fd52be8afec4031c8847e969e818ab731aa1|2013-04-23|Colm Ryan|Merge branch 'feature/watchdog' into develop
+a582a73d26367a18e08cb95b692dbe9b4550f7a8|2013-04-22|Colm Ryan|Botched stash pop.
+c596dc3c56879d32a92a698b6981cf1c7398489b|2013-04-23|Colm Ryan|Add filewatcher to instrument library for AWG offsets.
+de4b6efe805fc25829a6f83b533b61683d300a83|2013-04-23|Colm Ryan|Update pulseParams changes and create FileWatcher module.
+1758ad05446bc973339cb17f2d173f47f827a448|2013-04-23|Colm Ryan|Bug-fix: missed some dictionary refactoring.
+60c5d6c30fa0c96af7aebdfc1427d1c93a2b2be8|2013-04-22|Colm Ryan|Update only necessary variables.
+4dea1fabf366731cf2567547aa0b66f7151bf2f0|2013-04-22|Colm Ryan|Starting from scratch much more robust.
+b026cc30d638b93dd41708750500c8d86db7ef94|2013-04-22|Colm Ryan|Botched stash pop.
+8c51afd255f58e2ca57d91290fb0e9443fc619a3|2013-04-22|CoherenceController@Draco|Fix errors when launching/using ChannelsViews
+0e509dc1985786e5edbec876d1b38351d6b49ad3|2013-04-22|Colm Ryan|Bug-fix: missed some refactoring
+d91353bc0646901a4710317660d6697ed35dd9e0|2013-04-21|Colm Ryan|Get channel library to write to file on dictionary change.
+d2f3829ef024a663ecd82255860b0165838f8086|2013-04-18|Coherence Controller|Add a sequence module for optimizing gating
+90601fad8609c9b22eb10be0fd462321ae37539d|2013-04-18|Coherence Controller|Actually make 7ac32a3fcf34d4b02285639d76cff14061f33f6e work.
+c3d767ac580fe0cba769492ec9f39a2b0bafcd70|2013-04-21|Colm Ryan|WIP: some code for applying quick picks.
+c1c8ce655c5dc95c17c2a801145a6096d02b8302|2013-04-21|Colm Ryan|Add combo-box for pulse shapes to make clear what shapes are available.
+6b4ebf7e8bb0ff3162ffdac45a6276150940f634|2013-04-21|Colm Ryan|Bug-fix: display/hiding of autodyne frequency.
+10b6b263e6e697bf2c7e44028e14ec1b9a04cd3b|2013-04-21|Colm Ryan|Sort pulse params for consistent display.
+280e5d5d491d78198a7ec95761b443e7df5e3100|2013-04-21|Colm Ryan|Bugfix: pulse parameters are floats not traits Floats.
+fc5625276bf63d13533fa0a512b08e402914f9cb|2013-04-19|Colm Ryan|Working channel library GUI.
+8ee9ebb114ff2cff04515558d9dc8ae0292942f3|2013-04-18|Colm Ryan|WIP: channel GUI almost finished.
+2c79a5c2a6be036754c47ccd1870fb3b711257d5|2013-04-18|Colm Ryan|WIP: GUI's for some channel types.
+140d0266788fdb96138c5f331dd22aa8a0e352aa|2013-04-17|Colm Ryan|Handle _\d+ suffixes is sequence file names.
+b09d418057b7b58046fb522bb9729ba1cb7f01e3|2013-04-17|Colm Ryan|Make sure LL is long enough for triggers to come out.
+41c8e8ae18d30eec8f502f244722036755549ce2|2013-04-16|Coherence Controller|Add some hard-coded info for a three qubit system
+8108e43f7607fa879ff1d8ef13496fa834d84e83|2013-04-15|Colm Ryan|Make pulse shapes return complex arrays.
+54782d1db63e433ff645b07798c24cc9843e2808|2013-04-15|Colm Ryan|Make autodyne phase constant.
+d543c4b8867ad08686b325b733f5101721f0fe61|2013-04-12|Blake R. Johnson|Add basic support for Tek7000s in the plotter.
+88a3aaf74efe06a895df801dcb5099021d68d061|2013-04-12|Colm Ryan|Modify MEAS primative to handle simulataneous individual readouts.
+8f3ed045d2b88f5121ad53aa2cdab3567ec53cd0|2013-04-12|Colm Ryan|Fixed imports in BasicSequences.
+0b8e2309423864f376b288dc6e8657b895681862|2013-04-12|Coherence Controller|Bug-fix: slave trigger timing
+2f53492823d248042f7301e6175ffe1dbcb02ef7|2013-04-11|Colm Ryan|Merge branch 'develop' into feature/enaml-GUIs
+c9ddeac2bc1cc8e3fc99a209fa6c5902e7b727e5|2013-04-11|Colm Ryan|Finally working all the way through to the spectrometer.
+56029149749a69d6bd85202f500421da255dda0b|2013-04-11|Colm Ryan|WIP: continuing to chug along with getting compiler working again.
+7711bbaff8a42534775fbc9446ca5005627937b0|2013-04-11|Colm Ryan|WIP: still working on Channels...
+843c15c56d3058589c51863f5041f0a6e468fdcf|2013-04-09|Colm Ryan|WIP: Channel trait conversion contd.
+b94476f9dbe1f97d7521c4361045b9a467a2f19f|2013-04-08|Colm Ryan|WIP: migrating channels over to Traits contd.
+4962a0ffa872017a05d544edb8843b10d1119684|2013-03-27|Colm Ryan|WIP: Moving channels to traits and enaml.
+1c9e51cd024ec9164d6812cd8ef557f616930170|2013-03-26|Blake R. Johnson|Fix unequal analog/marker channel lengths.
+8b7647f4be157c81be2eed198eaf51bf95b314dc|2013-03-26|Colm Ryan|Soon to be changed ChannelGUI improvements.
+0462affded8b23034e5321fd9c7b30ef275d2b73|2013-03-26|Colm Ryan|Put coherence measurments together and rename T1 -> InversionRecovery
+70e7875d1f5e7fab215aa8311fe92c14a7af99b8|2013-03-26|Colm Ryan|Docstrings improvement.
+94a0476d915c8eb5f282e263751fa70e2acecb3a|2013-03-26|Blake R. Johnson|Basic reader for .awg files.
+d3c9e115061b87781106531cf64ee03ef1dab3bb|2013-03-26|Blake R. Johnson|Add Apache license.
+c386e0f6f5c4f7636078a5d7347f2748c23324b9|2013-03-25|Blake R. Johnson|Adds support for exporting to Tek5000.
+350590614e337a9e4842abee299b3ecfca2b69af|2013-03-21|CoherenceController@Draco|Demand at least one file to plot
+a714642e8abd853272bd9e3534d0d3ef60324589|2013-03-14|Colm Ryan|Finally got dictionary manager working.
+3d8890c63e455b19c62f966c0357744cd665a491|2013-03-01|Blake R. Johnson|Add time-amplitude Pulses.
+77a4afa5bcf21141d27a3abfeffc8199b0492af6|2013-03-01|Colm Ryan|Properly handle phase when adding pulses.
+0ae80ab277e038f015217d87260d92135869254b|2013-02-28|Colm Ryan|Calibration seqs helper for arbitrary qubits.
+acdd1c8fc689218ca24bbbafe7b46081a6733509|2013-02-28|Colm Ryan|Actual fix of slave trigger jazz.
+b40cbd4b8918685af7491c4e38dca4666ad0dc5d|2013-02-28|Colm Ryan|Get slave trigger working for real.
+2b3e165a5dbf34d8ed94eda1453b20099d88618f|2013-02-26|Colm Ryan|Add a helper function to create calibration sequences.
+2e1df74a2909471551b49985e09294618a19130a|2013-02-26|Colm Ryan|Bug-fix process tomography.
+d04b26e2704234846d000ce0b1c8e6467557a90e|2013-02-28|Blake R. Johnson|Working version of code to drop empty initial blocks.
+6342493b9f1a6e170e1d302912441321c0bf44f2|2013-02-27|Blake Johnson|Leaving things in a slightly less broken state.
+b22b7b4fab61b914474a24a582fc057dd64ad241|2013-02-27|Blake R. Johnson|Drop initial empty pulse blocks.
+7ef418fc76a72f9966aa6be633c46f9dd930aa70|2013-02-26|Colm Ryan|Switch order of marker merging and preprocessing.
+0e337a89dabc1cf8124fd152486e88e46bce69f2|2013-02-21|Colm Ryan|Add AWG-wide delay to handle slave/master situation.
+1f5858f8f6e973b7b9c9f46e014d6993ae017332|2013-02-19|Colm Ryan|Move trigger/slave adding to compile_to_hardware.
+2bd6f1b7d5d134fa6fe04e2b7eea33464992f392|2013-02-13|Colm Ryan|Add robust tomography to BasicSequences package.
+1ea63ccf7e0e51a619705e7a9b3715bd1103c1ce|2013-02-13|Colm Ryan|Bug fix marker mapping.
+374f68ba075c11f560c78118c7cb79d3432871f7|2013-02-11|Colm Ryan|Don't drop frame changes of zero length blocks
+19b370391d7cff672b3e2a5831d45f1ca28021d1|2013-02-11|Colm Ryan|It help to actually apply the phase ramp....
+8362c520cb27e65e999abc904084b5a285936b9a|2013-02-11|Colm Ryan|Bug-fix for tanh shape
+7f45d2de9aaba5604fdf1565456de3dcfac37d9e|2013-02-08|Colm Ryan|Attempt to add SSB capability.
+7c47d6d1f5536865336a2783f91a0fe7444a0ef5|2013-02-08|Colm Ryan|Atomic Cliffords and RB_AC
+83479fd5db48b4bfc700161af65c2ea77dffe38b|2013-02-08|Colm Ryan|Error check for APS waveform memory overflow
+e28084451cb7f3ca6ceb636d96bad7d4ee86089c|2013-02-08|Colm Ryan|Add optional file suffix
+b65ffedae5bacfffe431d34c0ad4f80ffa8acd4d|2013-02-04|Colm Ryan|Add AWGs to channel GUI
+2724a1f1bdc84842f989dc11901902813b5f6d4d|2013-01-25|Blake R. Johnson|Add align and show to the import list.
+b6b53e0a456e5c8a9e4ee28bc4af834aaa7453ef|2013-01-23|Colm Ryan|Single qubit RB sequence and bug-fixes.
+2b4c4a122a6d0bf28226c64209766e5ee7ba2023|2013-01-22|Colm Ryan|Added a SPAM sequence.
+cbd5b3dc8c335eb202ec49343fb2fbccf7571270|2013-01-22|Colm Ryan|Added a flip-flop sequence for calibrating DRAG factor.
+ea3229117e343f4fe8fd7b1ee61b6721a97b7391|2013-01-22|Colm Ryan|Explicilty remove sequence file before writing.
+13302272c58e0abebba90c3dd48b88c152e4dea9|2013-01-22|Colm Ryan|Cleanup and documentation.
+176465ad4842de25e4ad83dd802b16c3543399bb|2013-01-22|Colm Ryan|Fix for single blip pulses and IQmode files.
+5e281e41accc2b72c902ffcb2b041ea5855a6a03|2013-01-22|Colm Ryan|Couple bug-fixes for block alignment and delays.
+accc5f09295e83988a31f69b87efba1fa44bb3f7|2013-01-21|Colm Ryan|Add a Ramsey sequence.
+6681107bfd5b8604bab787896cb24dde50bf9e1a|2013-01-21|Colm Ryan|Remove unused waveforms from wfLib.
+c5356eea91116126c8c75c8e737b9d5f837ced05|2013-01-21|Colm Ryan|Started a BasicSequences package.
+779b05bd3740de1f427088bf7901ff1fd2a99b21|2013-01-20|Colm Ryan|Lots of little bug fixes.
+e9bc4f2fee8f62c9fd2d6b6adccd033e9fb136a1|2013-01-17|Colm Ryan|Measurment block fixes.
+4f73acb35f1fedef56434055a42af3bbb8e09153|2013-01-17|Colm Ryan|Bug-fix so that we don't overwrite the ChannelDict pulseParams.
+822c29c646bc6daebbc945c7fcf6ba1c2cc9288e|2013-01-17|Colm Ryan|Refactor channels to add pulseParams dictionary.
+0620446e305f1b67f18d0f89f2650d140903b649|2013-01-16|Colm Ryan|Attempt to add measurment channels and associate triggers with measurements.
+cfabf79587a5e5306cef4d73885e9d3800f7bc47|2013-01-15|Colm Ryan|First pass at marker channels that at least runs.
+c3a89d4f24230142f862629188f77649bd25a0e6|2013-01-10|Colm Ryan|Handle Matlab's h5 output for plotter.
+8e5602f067c1434cd9a47e50d940254a852f6861|2013-01-09|Colm Ryan|Generalize tomography helpers.
+00562e6b9798c51415938c731da2a33b8034d603|2013-01-03|Colm Ryan|Bug fix plotting triggers to both channels.
+17ca4a13e03705b33c6cbfa9846eba8d730fd27e|2012-12-26|Blake R. Johnson|Implements mixer correction.
+d862884c07b486499fc24642cca8071f211c0b91|2012-12-26|Blake R. Johnson|Implements delay() method in PatternUtils.
+a84158b3fa7acab0e8a3a7a6eb5b3d912fdd09df|2012-12-19|Blake R. Johnson|Return a little less data in compile_to_hardware.
+91cb96d41b5b0140723791cf5da6f24d443eebda|2012-12-19|Colm Ryan|Added a state tomography helper function.
+272e90d12d664a4db94b40b4fcb974aae66f319d|2012-12-19|Colm Ryan|Fix trigger plotting and exporting to file.
+4fb59a33b08c004e3c2d391cea1d180ac899a0c0|2012-12-19|Colm Ryan|Fix calling plotter from command line.
+211199afd1e8b6a4d0f5da3f0516142ef9aea6a2|2012-12-19|Colm Ryan|Channels module populates ChannelDict on import
+558bae239300e446eaabd1d0e631c2883407debe|2012-12-19|Blake R. Johnson|Make logical plotting a little prettier.
+356c34e3d3cb46116d2a4aae68e19d74f6ec276e|2012-12-19|Blake R. Johnson|Logical plotter now built off of compile_sequence().
+7648afc3d331a65e500b34803b87b89adc89a3c2|2012-12-19|Colm Ryan|Added a helper function for plotting a list of file names.
+478fdd66173552f15cbb75c96535ae6eab6f795d|2012-12-18|Blake Johnson|Fix some edge cases in preprocess_APS().
+6faeec3c0ff31e0f9087d47b63b417853e0a7b32|2012-12-18|Blake Johnson|Merge branch 'feature/prettyprinters' into develop
+6720054abbc178807ebf225e68774d3ae6b1cfce|2012-12-18|Blake Johnson|Swap __repr__ and __str__ in PulseBlock.
+ca63a94a109e4cdad927f16fa66449560cd5ef1b|2012-12-18|Blake Johnson|Removes circular config references.
+6b641981a45c959fc714864e5517a39b51f51930|2012-12-18|Colm Ryan|__repr__ and __str__ for channels and pulses
+72c8432de54ec325183a54f3191aecf22756a3f6|2012-12-18|Blake R. Johnson|Mostly fixed pulse gating.
+bf639daee8b18f8bf7dba712a6324654e4aa982b|2012-12-18|Blake R. Johnson|compile_to_hardware() fixes.
+adb9061d5bcc4a54049abea747509d70ec2b6bc7|2012-12-18|Blake R. Johnson|Passing unit tests again.
+c4359e1862503422100113848e07e401838efc6d|2012-12-18|Blake R. Johnson|Classes cleanup and split GUI out into its own file.
+704aa845e411f656feba9ef62a8c22c27321dbbc|2012-12-17|Blake Johnson|Oops, didn't mean to clobber this line.
+82edfb068fcb5cb9e98f6299f3c1d7ba104eddaa|2012-12-17|Blake Johnson|Partially implements fixes to #3, #4, and #5.
+8dde15418f8c490e6a84de2d72a3379e47110b9e|2012-12-17|Colm Ryan|Smooth out channel classes and get GUI "working"
+bdde19b70a9f4e857c1a3a129518466ee79635d7|2012-12-17|Colm Ryan|Got basic channel serializer/deserializers working.
+887565b1ab1f3f730e5f65ad2a62f3019a6e14f6|2012-12-17|Blake R. Johnson|Code to add gate pulses.
+16ab38ebecddbf2621cde0eff994f9d912c95f5b|2012-12-17|Colm Ryan|Few bug fixes for pulse sequence plotting.
+1ef21118f5c08dba17700ff069e650c682994bb0|2012-12-16|Colm Ryan|Merge branch 'feature/pulse-refactor' into develop as it has started to encompass much, much more.
+01495534fa78f4f9a49228e16a86bb08ad4bebb1|2012-12-16|Colm Ryan|Plotting starting to work.
+8380fed471f5ab5de188fac966a42743b788e644|2012-12-16|Colm Ryan|Full work flow runs.
+cfd8a9de3ef46877a5630cd1766cde480ee9f746|2012-12-15|Blake Johnson|Fleshing out more of compile_to_hardware.
+38543448d8a5374f78258b564e71262bf7232e91|2012-12-15|Colm Ryan|Something closer to a complete APS hdf5 exporter.
+80248a7341ffcfcae9d78b4c3e833e9b1e491f1b|2012-12-15|Blake Johnson|Added QGL.align() method. Now 'passing' all tests.
+929cc7aed2b672fa3a234b20a402113623cf4d13|2012-12-14|Blake R. Johnson|Half way done with compile_to_hardware.
+daa5041c2dd85ed40cdf2f5c08fb375a640a43a5|2012-12-14|Blake R. Johnson|Passing more tests.
+f6b45e5e2d8e5a3e507dc23a1552a2b8e93dd2e4|2012-12-14|Blake R. Johnson|Unit tests run again.
+0a20d073a53e664518ed291ef19adbd9ab3f2e82|2012-12-13|Colm Ryan|Half of APSPattern
+921a7f744aa18666a77082988f8107358b24e6d3|2012-12-13|Blake R. Johnson|wfLib update and outline of compiler.
+fbcd78a4d06a864b37b2d77a4be60f21a362d7fc|2012-12-13|Blake R. Johnson|Fleshed out compiler. Now "working" for single channels.
+1f8629d1951c8082a1482827081dbb52d96f9f90|2012-12-13|Colm Ryan|Added start of a compiler.
+6aa71aca885e3dc406133286ebc2b58d0d0f4410|2012-12-13|Colm Ryan|Accept a two argument form of Id(qubit, delay)
+0ce4dc21575cc8c6e751011529b7ce3ef42829b1|2012-12-13|Colm Ryan|Tests now run.
+4262040fa8d49754bd9e24f38082f6a9c91654c2|2012-12-13|Blake Johnson|Simplify util names.
+b8c34f89f8d24011f183d9b42a4d4d622a68bd72|2012-12-12|Blake Johnson|Bug fixes.
+9e5332f60fb61565659bf12d9dfefa69ebab5201|2012-12-12|Colm Ryan|First steps at QGL refactor.

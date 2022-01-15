@@ -1,0 +1,137 @@
+33bfedccfdfc78338170defb91e7b46c0a4ea435|2020-07-15|Mark Skilbeck|Bump version to 3.4.0
+1039c36df7252914b91eaa6439f70ba20237361a|2020-06-26|Stephan Brown|core-messages: Remove accidental comma.
+eb3760ea2f00c9bdf05456e6a3269a6d59274ab8|2020-06-26|Stephan Brown|core-messages: Rename flux_relay to relay_closed to match better with the rest of rest of the system.
+0418e1c535b45dfca922cf51c505f0619af11e9a|2020-06-24|Stephan Brown|core_messages: Add optional flux_relay to the QFDChannel to set the s… (#132)
+9ea412c5bd731311047de9c7045d00a59987f896|2020-04-27|Erik Davis|set pytest dependency
+a4cb7c2b225e3be5b62404ce5821d1c07e4972bd|2020-04-27|Erik Davis|bump version to 3.3.0
+a5109c7fd418f5b55432120210e04cba3e09c791|2020-04-15|jmackeyrigetti|Remove Gitlab Build Badge
+f21f27babd3d07548daf9281a383473da8ae2d57|2020-04-14|Erik Davis|Add SetScale instruction (#130)
+28959da715e105aee8faaf2d873272f549192de2|2020-03-31|Mike Appleby|Fix typo in Program.scheduled_instructions docstring
+fe2e84741a8449828778172585b6c011344e265c|2020-03-31|Mike Appleby|Fix the type of Program.scheduled_instructions
+3105ab610b16b9b58c8fb5b83ad72004f37d47c5|2020-03-26|appleby|Bump version to 3.2.0 (#128)
+02dc8c2bea69e7a4c074245905740a80326309b3|2020-03-16|Mark Skilbeck|Pass client timeout to server, optionally override server's timeout (#126)
+a4f6e8e88d27518677bceb2218bdf5758c041f78|2020-03-02|Mark Skilbeck|Bump version to 3.1.0 (#125)
+127551bc9640656a7042c76667395c4c48c4ea4a|2020-01-24|Erik Davis|refactor quilt compilation request/response to separate messages
+de89d16ea1454959348a38734de942a535a8f2a6|2020-01-19|Erik Davis|add compilation metadata
+718cbbe923ec9743d37adefc7231881409c051e7|2020-01-12|Erik Davis|add Quilt calibration request/response
+c464bab0e0fd69ec59049ea78e1cbdf314f2237b|2020-02-26|Mike Appleby|Make {CLIENT,SERVER}-AUTH-CONFIG slots required and RO
+d26d602634231105a8259f5cabe64d1289aaf7b6|2020-02-26|Mike Appleby|Nix ABS in RANDOM-IN-RANGE
+b4121a8ee15d2d4dd6906c90690a8b3835251a30|2020-02-26|Mike Appleby|Add support for ZeroMQ Curve Auth to lisp client and server
+d050bb1ddc8d423ab84d2c879dcef6ed4fd2e866|2020-02-24|Mike Appleby|Remove :MONITOR from PZMQ:WITH-SOCKETS form in START-SERVER
+5b2f7ca9024f6fe5b606988963ccfb901a19c42f|2020-02-27|Mike Appleby|Add FROM-JSON, TO-JSON, and TO-JSON-STRING
+deb374b40c1cc9135a0aa8876e30e4618bc9e16b|2020-02-27|Mike Appleby|Run tests on all supported Python versions in gitlab CI
+c1121e0ac13e1759b841fe9d77cf572739f9141b|2020-02-27|Mike Appleby|Fix tests on Python 3.7+ due to change in BaseException.__repr__
+b0e261e419ceae028a82250f8a1210e3d56132a2|2020-02-24|Mike Appleby|Add a note to requirements.txt linking to msgpack gh issue
+99a86531a97f220b126498ba0a006c0a1a7c27d7|2020-02-24|Mike Appleby|Add reminder to requirements.txt about updating the rpcq-feedstock
+0f96f8dc9c66d43fb379a60f306a1b8342601f71|2020-02-24|Mike Appleby|Restrict msgpack dependency to <1.0
+0278c62b798cd901efa554e07e56aee3a674103d|2020-02-25|Erik Davis|RPCError messages should use `repr`, not `str` (#120)
+809fd9d7c3f8e9adb3a983acaa37baa663bc78c7|2020-02-19|Jimmy McDaniel|core_messages.py: regenerate core_messages to reflect changes to the lisp template
+cd0d8cc138a7feef2f8385cc353865c588881a76|2020-02-18|Jimmy McDaniel|core_messages: Add support for CW generator messages
+cb7ff15abd42cef3b08be3afbbc57c02160e9ed7|2020-01-14|Mike Appleby|Switch gitlab ci tag back from ec2-github to github
+7233710ecbd47b9f6648d38f4e9b616555c46411|2020-01-14|Mike Appleby|KILL-THREAD-SLOWLY
+338ae1168ada7d9ee7caae3db03385e978dbd7e3|2020-01-13|Mark Skilbeck|Test EC2 runners
+05e716da77e7b9788f523f8660f35b6d7ac9fa35|2020-01-10|Mike Appleby|Coerce *args to a VECTOR in PREPARE-RPC-CALL-ARGS
+63ed92f04b87feeb92e1265e55c7aeb4637b9c7d|2019-12-16|Erik Davis|Add friendly lisp accessors on RPCQ messages (#110)
+b347d91c9146585c3cb0268fc2d515937e158585|2019-12-10|Mike Appleby|step 3: simplify logging
+971a8d970ded3151d58fb6ef9266cb5c84589846|2019-12-10|Mike Appleby|step 2: %process-raw-request
+22b3ab57245ff9994305f8b6b636e3f6499b0da0|2019-12-10|Mike Appleby|step 1: %process-request
+76da308577a39e85e658184062d67f77d34ea333|2019-12-10|Mike Appleby|Update quicklisp_version to 2019-11-30 in Dockerfile
+bd83ce1857febcfea1fcdffa62cd29afb4c2cda3|2019-12-11|Mike Appleby|Fix typo: in affect -> in effect
+d7708510fff38c0193e871581c75a6c81ee3367b|2019-12-11|Mike Appleby|Fix style-warning about unused args in %RPC-CALL-RAW-REQUEST
+874e7e919e768e669ae7243119d253b0341e10f1|2019-12-11|Mike Appleby|Add DEFVAR for *MOCKED-NAMESPACE* and prefer it in CURRENT-NAMESPACE
+a1d0aa1905ce3254c74aea20f4a8409d00648bc5|2019-11-27|Mike Appleby|Nix trailing whitespace in core-messages docstrings
+5ecdde8c22b6d34dcc7e86c9dbc5cc0ed9128063|2019-11-27|Mike Appleby|Register *MESSAGES* at runtime rather than macro-expand time
+ba66b353ddb379208f0ffb29379831ebc8e05013|2019-11-25|kalzoo|Bump version to 3.0.0
+22bd61fdee8e481661fd558d96fc6afb90aed892|2019-11-20|kalzoo|Import vendored dataclasses when running Python 3.6
+f5a7d925d268d97af07769dfd8b9f69198ae4ae9|2019-11-15|Mike Appleby|Add option to log backtraces on handler error
+991d9474197cc438b4f1d0e1dbb220e216409b9e|2019-11-18|Kalan|Minor fixes: typing, formatting, exception handling
+cd6dec5b5a8efb2bc49b73665185be5eae25524a|2019-11-14|Kalan|Update Lisp implementation of RPCRequest; use code generator to update python messages
+1d4a8a65016828c35a943f57eb57d73efb2346f3|2019-11-12|Kalan|Allow server to be started without client_keys_directory
+c492329c743dac8080a1d488daf7510e45e573ff|2019-10-11|Kalan|Add ZeroMQ Curve auth to Client and Server
+211997864e7aec621be6cf9abf79f603e96cb59b|2019-11-14|Mike Appleby|Add CL-SYSLOG to RPCQ-TESTS dependencies
+c2b663774faa621e78030221a82209684973bb5d|2019-11-14|Mike Appleby|Check for expected error log message in TEST-INVALID-RPC-REQUEST
+8edcb1f528970150676e53583679d1fb91825b73|2019-11-14|Mike Appleby|Add TEST-SERVER-DESERIALIZE-ERROR
+ef57a5082f34fa32d818d2123c37af6c0422a9c2|2019-11-14|Mike Appleby|Fix handling for all pre-request errors
+438ab030e54cb7264197de0e504261e35ba482f0|2019-11-14|Mike Appleby|Ensure that ERRORs are handled as well as SERIOUS-CONDITIONs
+fa833436a69f8d316009bab72810e409c46093bf|2019-11-12|Mike Appleby|Remove future from install_requires and requirements.txt
+b1c3736ec750ee6baec2bcfd146769fd2939d4f1|2019-11-12|Mike Appleby|Remove typing from install_requires and requirements.txt
+c21df228e5399c1f4cc97c4da7bbf43cbb109f87|2019-11-12|Eric Peterson|trap serious conditions too (#94)
+bd0ae49c4b7b14a8ab34d72a99679347ea0b7000|2019-09-16|Mike Appleby|Add a py.typed file for PEP 561 compliance
+16afca23781eef50d2debf30842ea18a8f9ba9d2|2019-08-27|Eric Peterson|bump version to 2.7.3
+d030ba992fc1059a774db52b686f58fd83dd80eb|2019-08-08|Erik Davis|add core-messages to lisp system (#91)
+0004d4f4fc2b317ee618a87eefdc8a7b501c9ca3|2019-07-30|Mike Appleby|Add TEST-PREPARE-RPC-CALL-ARGS
+d144ebce3dafd4dafd03a7d682f54d109e5b43d2|2019-07-30|appleby|Don't reverse the order of non-keyword args in PREPARE-RPC-CALL-ARGS (#88)
+31cf1ca7ded437ab898b71ab686056ee6a2fe4cc|2019-07-18|Mark Skilbeck|setf-able messages
+6fdf200883e2dec516bf197160382b09570b1a07|2019-07-26|Mark Skilbeck|Bump version to 2.7.2 (#86)
+2b90d41087a5bcd3447932e62dbfd57ac02d66e4|2019-07-22|Mark Skilbeck|Allow (de)serialization of the :false value
+a82554c3c2e82a58582c9e3564b3bb5a32e7424b|2019-07-17|Peter Karalekas|Use the new rigetti/lisp image for testing and Docker build (#83)
+c97a69ba6dfc953a2c3e4a0455b8981c174bd6bb|2019-07-03|Mark Skilbeck|Do not store "**kwargs" as distinct entry in params dictionary in calls from Lisp client (#80)
+3d22338e2d708787904ab1bef1616ef4ea24e67e|2019-06-21|Eric Peterson|bump to 2.7.1
+512d53d968a22189ebfa6c6f2779f1b6d0b1530e|2019-06-16|Mark Skilbeck|Compile on CCL
+6e4a5a373e83e8da0eb3d8fb168b4e3d6a14a115|2019-06-21|Eric Peterson|bump to version 2.7.0
+dcd982df062193caca54741e28e70a0a0c4bc784|2019-06-21|Mark Skilbeck|Extend NativeQuilMetadata to include field "qpu_runtime_estimation" (#77)
+f130b8d496fbe278bd03969c89843eee6619aa93|2019-06-12|Glenn|Add optional channel index to QGS channel (#71)
+4b0bce859c74c88229d9557303f6b6265b86adcf|2019-05-29|Eric Peterson|add rpcq.messages as a parent namespace to rpcq.core_messages (#70)
+5b98afd442b99ad2ea3d839dd33147d6e276842b|2019-05-28|Mark Skilbeck|Replace - with _ when generating python modules (#66)
+5d825ba5c550dcbcb3e7b6210b5da94ffba44670|2019-05-23|Daniel Kochmański|uuid: get rid of unicly dependency
+fb5a2ed6270773f4a967b2b00d5a3c161d9283d9|2019-05-20|Colm Ryan|Helper script to use docker to update python message spec (#68)
+aa601d4ddb04b8bea102e7a7d5d72ae07c68db87|2019-05-19|Peter Karalekas|Add a conda-forge version shields.io badge to the README
+909d32befcc0c11b1d8ee81e86aca407353991a1|2019-05-19|Peter Karalekas|Add a PyPI version shields.io badge to the README
+b185ed5ec1269756c017d7ebb08c57f2a803d279|2019-05-19|Peter Karalekas|Add a docker pulls shields.io badge to the README
+33674e77603693d8aef34f591654f233bf240133|2019-05-17|Peter Karalekas|Add description type to setup.py (requires twine now)
+382968b18ec7f76ad211557bffb156173ea1beba|2019-05-17|Peter Karalekas|Bump version to 2.6.1
+48896922b499ee2abbeaa23a6c692a4976af8ec9|2019-05-17|Alex Hill|Add imports for ParameterSpec/PatchTarget to core_messages.py (#65)
+0b6da73ff80f4b3187cd119ac7f71df05b3d2dcd|2019-05-17|Eric Peterson|version bump to 2.6.0
+bcd79dd2e76d00315329dbe6f348f178f76e1eb3|2019-05-16|Prasahnt Sivarajah|:sparkes: QRTx2 sequencer message support. (#64)
+70b68dc164ac06b0db54df3834f69de278d3175d|2019-05-16|Prasahnt Sivarajah|Support phase and detuning in Capture message. (#62)
+31cc6e23701d62acb2c21c591ea5e00b65f97db5|2019-05-01|Peter Karalekas|Bump version to v2.5.1
+d79332fddf9f98ad51e145028e5a5c1884de9bb4|2019-05-01|Eric Peterson|tolerate unfamiliar fields during python deserialization (#57)
+a118e1c35438d56ef92c316295ce0d97fe2286a5|2019-04-30|Peter Karalekas|Vendor dataclasses and release version 2.5.0 (#56)
+9091e3541c4419d7ab882bb32a8b86aa85cedb6f|2019-04-29|Alex Hill|patch up imports + underscore core_messages (#53)
+0a1c989aefaceb02422cc0a80fc9478f33ca7ca4|2019-04-24|Steven Heidel|Add template waveforms (#50)
+9c04540065e5017316e7ba884abdcfb176427eba|2019-04-22|Steven Heidel|Add initial type design doc, Colm to authors list (#51)
+7e5616374c256d2fd403e7be7b8325ee48524ded|2019-04-18|Steven Heidel|Add core messages (#49)
+283eca54dca214b557d4a8e7fe11612cdd4dbdbf|2019-04-18|Eric Peterson|Serialize warnings during RPC calls (#45)
+cf585c9574b2fa9588b1c0c3df925d10fc6c6fdb|2019-04-02|Robert Smith|stricter types, UTF8 encode/decode (#47)
+ccc42a63c99997b093e0030de05dc10b12239b0c|2019-03-27|Eric Peterson|add option to allow exception propagation (#44)
+ef64614265f9733baebb3173f8bc779b24f2a065|2019-03-07|Mark Skilbeck|Fix syslog priority (#40)
+7cf077759e784e5e6b770f386195d48e66c42784|2019-02-12|Mark Skilbeck|Fix warnings (#33): ignore initargs in shared-initialize; python-argspec-default always returns a value
+c60e71c4e18ceac4ce5e8f9aa053aaa91829a855|2019-02-05|Peter Karalekas|Add a note to the README about the release process (#32)
+c6b5446773e09e3b4b1df78e0e76e13c338d8974|2019-02-05|Peter Karalekas|Remove docker-related jobs and include them from rigetti/ci (#31)
+93695f09f76ca289f7c1f1d841fb02858b956d2b|2019-02-04|Peter Karalekas|Change latest and stable Docker image tag convention (#30)
+6d79ad712313c3780a016c5c07722ac0cf23eac3|2019-01-31|Peter Karalekas|Build an rpcq Docker image as part of gitlab CI (#29)
+1fd99af973415f180a99ee27e2f4b6d7e1ea0875|2019-01-12|Peter Karalekas|Overhaul build/test infra and start using GitLab CI (#28)
+20fb2f45af6756122954f12fec4146a1b9df2c36|2019-01-04|Peter Karalekas|Add CODEOWNERS file for default reviewers (#26)
+7e381e94843898a80ac459a6c0e429fec878aec9|2019-01-04|Matthew Harrigan|Eric's fix for tests
+cb2b4ade13524a4e2361dd04b09ef143570d22f5|2018-10-30|Matthew Harrigan|Deprecate RPCErrorError in favor of RPCError
+d01b3cbf4d3d10e197337aea50771c53102a0272|2019-01-02|Peter Karalekas|Bump rpcq version to v2.4.0
+e30438ac24478ecb50714a9e3839593b16c49914|2019-01-02|Peter Karalekas|Set max_bin_len and max_str_len to 2 GB in from_msgpack (#25)
+4fae0344268a05e24161f4bee372cf0f0fa55694|2018-12-20|Eric Peterson|add timestamp messages on the python side too
+6f16175bf7db5709cc23781c2714093603f2e845|2018-12-20|Eric Peterson|add structured data to server log messages
+608b5bb6e52dbad3e5d5097f7eed626ef905aaf8|2018-12-18|Eric Peterson|use null-log-writer as a default
+2f4bae2f538ab780ffcba8e18cb190af37aa80d0|2018-12-14|Eric Peterson|use cl-syslog for logging
+4d1a62567b77e24fb1b7f79e793a896235fe8ac3|2018-12-12|Peter Karalekas|Bump rpcq version to v2.3.1
+28d265263e4601d8b037ebfc737047e665a30f7a|2018-12-06|Eric Peterson|allow non-symbol references to functions in dispatch-table-add-handler
+f4b302ac47011907ca9e04f68ed1bb7a5f16e082|2018-12-06|Eric Peterson|scramble the internal endpoint name
+f7bff1d56c19aacc15afd4316da8109298ef918d|2018-12-11|Eric Peterson|fixup: correctly check for deprecated initargs whose default values are not factory-generated
+8b6f9caea3e3cc6a6cd0c5a28fb17b0075b6ca18|2018-12-10|Will Zeng|Add missing dataclasses requirement to setup.py (#20)
+ebb1cdfef571087a0fb9062c8d86da362e7883db|2018-12-06|Peter Karalekas|Bump rpcq version to v2.3.0
+bf5a09cb76410c5a1c03b84d5764e6b944bf17bd|2018-12-06|Eric Peterson|remark on ZMQ development headers dependency
+9ac0094e9c3765d3d545cbd93a777c294cbe17f1|2018-12-06|Eric Peterson|Test fixes (#16)
+4b45b7df6263117367225ccbf023001cd127966e|2018-12-06|Eric Peterson|Fixes to Lisp message serialization (#15)
+27afa38fb0639d085f965af3ebc67813cd362429|2018-10-23|Eric Peterson|message subclassing field deprecation python3 message generation
+27a1da449174511c2a381ab76f07f05ec99b5120|2018-11-26|Peter Karalekas|Bump rpcq version to v2.2.1
+bcc6721a7e4a8ca3df4395311c2db999b83cd17d|2018-11-26|Peter Karalekas|Remove recalculation_table from BinaryExecutableResponse (#14)
+86bea15fa3d1dea41ea1cf116f414d42aa5fe963|2018-11-20|Peter Karalekas|Bump rpcq version to v2.2.0
+24d24899f6aa929d4e55ce6fb034aa9237dbe8f0|2018-11-20|Lauren Capelluto|Add messages for rewriting Quil parameter arithmetic in the compiler (#13)
+175f23a3a13a5eed02de66258a3879e29c3dfe34|2018-11-07|Eric Peterson|add an interleaver option when generating an RB sequence
+fa5737a6f957f2251774d46a38cc6035faa7c004|2018-10-24|Eric Peterson|more lil lisp fixes
+f20960c64d1317e72ef2cab07e008a08225df56e|2018-10-22|Eric Peterson|various fixes from actually using Lisp RPCQ "in production"
+18e81c400cc2fa44254fe54f22089d407754684b|2018-10-25|Peter Karalekas|Bump rpcq version to v2.1.0
+0d36ce4a063670e26f0070e9c999ff4c6faaa2fa|2018-10-24|Peter Karalekas|Restore version.py after setup.py packaging is complete
+9ef4a86cee82e64773480889857bff05ad10e1db|2018-10-24|Peter Karalekas|Add Guen to the list of authors in the README
+e6fcbbe6ebe4fdf1a4fe1e52bfd2581a99a2e92d|2018-10-24|Alexa Staley|Add rpc_timeout override to call and call_async Client methods (#8)
+d482ea507f62e9736872154ab2fcccc46dd004f0|2018-10-15|Eric Peterson|bring the Lisp code up to speed with its Python counterparts
+0a8be8d53761ba1011ae29beb13de8082e4bdf45|2018-10-16|Steven Heidel|Increase timeout to make test more reliable
+d548626ed8a75a14133bdfb21f9aa5476e181245|2018-10-15|Anthony Polloreno|Small typo in docs: SYTLE -> STYLE (#2)
+e8843af56db021714bfbd1e82aae29bdb8655e08|2018-10-13|Rigetti Computing|Initial commit

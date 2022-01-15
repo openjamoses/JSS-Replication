@@ -1,0 +1,711 @@
+5f87dc9302822c89e87cdb859853c5a69ecc3495|2020-10-05|qiskit-bot|Bump Meta (#1054)
+04b882d583de73003fd2763d6a8efcfbb2a261c1|2020-10-02|Matthew Treinish|Add back translatable string job (#1051)
+6412b360efe85bd8829995a6ca451f13ff6e21ef|2020-10-01|Matthew Treinish|Add documentation of different configuration options (#1049)
+fa2ddbd34c5d8214cafd15c63f7869057c10f150|2020-09-16|qiskit-bot|Bump Meta (#1042)
+7be9974d8fdb2ed5c5e62a9315dec6cc7fa2d787|2020-09-15|Jessie Yu|Update email in setup.py (#1041)
+b6c237feb7e1cdc7d73fab3c87574767f4edebd2|2020-09-09|Matthew Treinish|Migrate CI to github actions (#1038)
+454fbb4e51f60a568123b0d89f1cab10a3474a53|2020-09-08|qiskit-bot|Bump Meta (#1037)
+a1bb148a5fb9e10279de8ed167660375ccffad64|2020-08-19|Andrew Meyer|Update element links (#1022)
+594c61e850d141c722e9bcb88bddda120ab56a9a|2020-08-19|Rafey Iqbal Rahman|Fix grammar (#1027)
+b712d6a803f7f8fa65c08ebc119e5224aafd1a04|2020-08-14|krutik2966|Fix "The Qiskit Elements" dead links (#1020)
+1b037ec36a8d6a759d2931493a758a4ce42cf8d2|2020-08-13|Prasad Kumkar|Fixed Grammatical Errors in install.rst (#1002)
+d044f26ef17242bf36fc1c409ff41fb6e7edb444|2020-08-13|Vismai K|Added missing "old" (#984)
+3db47db118728c47cdeed8dd539cca6873e888a8|2020-08-13|Rafey Iqbal Rahman|Added valid Slack invite link (#978)
+623b3532ca3a81165583238607aa8c92f726a227|2020-08-13|Filipe Correa|Fix "Getting Started with Qiskit" dead links (#992)
+9ca0b1df458a52961db93fdbb694c5115fa92d3f|2020-08-11|Matthew Treinish|Remove CHANGELOG.md file (#996)
+da8b58d2a12f26d02cfe9fe9cb8ad70e70d8de29|2020-08-11|Paul Nation|Add version to docs index page (#1006)
+373419168e65ff8801918feb91d911c6e04b9a20|2020-08-10|Matthew Treinish|Increase nbsphinx timeout to 5 mins (#1007)
+701a478fa7f64c8fe756c4e5615cdf44c36bbd0b|2020-08-10|Matthew Treinish|Add pyscf to requirements-dev.txt
+eb997f5f37a6eaa95caeefaccacb25daf0b06ee9|2020-08-10|qiskit-bot|Bump Meta (#998)
+38cfdfa2d2cd6b8b8ae529a1e1a2edeccb92b00c|2020-08-03|Matthew Treinish|Make executing notebooks env configurable and set for deploy job (#989)
+ad737bcbd911e0098362363d2211b7e2f35d488c|2020-07-17|Matthew Treinish|Fix the tutorials job (#974)
+26e114563986e73c4c814851cfdeac9019c599e8|2020-07-17|Matthew Treinish|Cap matplotlib and add set -e to deploy script (#973)
+b295b9aedc9c5b61db6318ab847702477f592835|2020-07-17|Paul Nation|add chemistry tutorial section (#965)
+9361611121614a3ef1e840db9d6dfb3c7c430305|2020-07-16|Paul Nation|Trigger build for updating tutorials (#971)
+ddd4772c8d1621e1cf79eee20ba808c1427ce972|2020-07-16|Matthew Treinish|Stop relying on external links in the_elements.rst (#970)
+dc86cc29cb1f52647a368414bbc9acc0bae6f094|2020-07-14|Paul Nation|Add tutorial prolog (#966)
+58bbb2ce770e39dd122ab7883649e544e6f59704|2020-07-13|Paul Nation|add pulse and finance tutorials (#964)
+2d5eb30450067617f6e15348d3ade4c75331acd4|2020-07-10|Lauren Capelluto|Update release_notes.rst (#962)
+febf71477a24fb8e8fa4af3a49413771552b61f5|2020-07-10|Paul Nation|Trigger docs build for updated optimization tutorials (#961)
+7781dd5b86649aed96064a340f93b256d3479f74|2020-07-10|SooluThomas|Prepare for publishing Korean Qiskit Documentation (#960)
+71f991f6c2040f047a7f73b62a89ac2d49c6d61e|2020-07-01|Ritvik Sapra|Updated docs/install.rst. Fixes issue #894 (#957)
+8486a37ee856c8f94199a6a460bc13f61a7d9fae|2020-06-25|qiskit-bot|Bump Meta (#956)
+2efdf61916ed0521d71b0edb0f6c24afce29470d|2020-06-22|Paul Nation|fix double wigets (#954)
+b1e2842e907b7b6a350d5a66110009674a6d8e60|2020-06-22|Matthew Treinish|Remove third-party providers from generate_authors.py (#940)
+0d813d8bdcd1ce186a6394cf5033644ed0988a10|2020-06-22|Matthew Treinish|Add visualization extra target for meta-package (#942)
+f84cb6ea014dbd5513367e11e3896d356b883e31|2020-06-22|Omar Costa Hamido|typos (#952)
+b25c9c36a099d35f874f42a23059d30d83ec2118|2020-06-22|Matthew Treinish|Unblock docs publish job (#951)
+bfdb513998e9b9508418dd6cdd29e349cf514754|2020-06-19|qiskit-bot|Bump Meta (#950)
+c8824d9624552248d33a306e197fa141e1bf8c75|2020-06-17|Matthew Treinish|Pivot to github actions instead of travis for docs publish (#948)
+8c05bb09aa4eb422157ee1dbfc616487ec5ae9ef|2020-06-17|SooluThomas|Change commit message skip travis to skip ci (#947)
+bfbb23d6e3a300c4f022eee98a100cad665adfbb|2020-06-16|Matthew Treinish|Add reverse CI job for building tutorials (#945)
+118024b88bf30b621361d3cd54b7e5b69c2d94fb|2020-06-17|Yuri Kobayashi|updates to translation documentation (#944)
+744ff3bf84963493aeb012cfb609a4be0e54fa48|2020-06-16|Matthew Treinish|Bump Meta (#943)
+6c35e3d187cf012a3077a756deb52d00d2e7ff6d|2020-06-10|Matthew Treinish|Correct oversight in po sync job (#941)
+d1f74bc04670d03f34e010812fc73de76b2036fb|2020-06-10|SooluThomas|Migrate poBranch to Qiskit-translations repository (#938)
+e4b077aaec6a997b47cf9335126456c9bafdf054|2020-06-02|qiskit-bot|Bump Meta (#939)
+93363689c78af54ca999b3d4ddf45f6fd6b65976|2020-05-29|Ali Javadi-Abhari|Update generate_authors.py
+8c14e594684e463e087979ce3a75dfecaa452d32|2020-05-14|Jessie Yu|Qiskit 0.19.2 (#931)
+21431e9a806de673310117d961d34dd214537b51|2020-05-14|David Yonge-Mallo|Fix typo in installation instructions. (#932)
+c089d2116c317aec8f9ac9bc36725c5a45b1da97|2020-05-12|SooluThomas|Add minimum numpy version to requirements-dev (#928)
+5ec559d1ff0ad6a6455e9a85b41a204c6d173d5b|2020-05-11|Paul Nation|new tutorials org (#926)
+7761c10cd89ba337b869a22b15158b822da68ba0|2020-05-09|Jack J. Woehr|Update install.rst (#810)
+484f13076d36658b48c3a7b704a380e6e81e0493|2020-05-08|Paul Nation|[WIP] Add tutorials to docs (#923)
+dea2cc2fb4ed027517caa0c77c2c704a0528d9dc|2020-05-08|Matthew Treinish|Add sphinx extension to clone and built tutorials (#922)
+e4517c88c2946c0e252790c786d87dd981e7953e|2020-05-08|Paul Nation|add source images (#918)
+84f476f265f0b175b21eeca2e0c9a73d79a244f2|2020-05-07|Matthew Treinish|Update credentials for pushing built docs (#919)
+2d329c9f8a495fa4a30096444d7ebb604f9d8e6f|2020-05-01|Manoel Marques|Add autosummary_generate_overwrite false option (#914)
+10f20d66dd51582898b7f2f9a7a30414ba8b6c66|2020-05-01|qiskit-bot|Bump version for qiskit-terra==0.14.1 (#913)
+df549a754ba73f11c3abd0517fbf6da563c55f85|2020-05-01|Matthew Treinish|Increase travis wait timeout and enable parallel builds (#910)
+4765e435efbba0279194284d61ee24a04fc79505|2020-04-30|qiskit-bot|Bump Meta (#908)
+0197b838524f8545080415ebea9836c0c5fc505b|2020-05-01|Kazuaki Ishizaki|Fix typo in files under docs and test (#751)
+064fd0eeccc1e604717d67c53ca08958ec2c3a8c|2020-04-29|Paul Nation|remove tutorials (#907)
+63ecfeed8ce34f0f8cf22bab26401fab15ac87e2|2020-04-25|Jay Gambetta|Remove0.7 (#879)
+217107d1b15613592b0ce7fa97b7a7b3f1c683b3|2020-04-25|Matthew Treinish|Add benchmarks for bind_parameters (#896)
+9114dcdca7f4157a26a23c0b9eff20fa8eb252b1|2020-04-24|Paul Nation|point to IQX for error codes (#901)
+847576a5569a06157780bfd2fd0ef73855d7a03d|2020-04-24|Paul Nation|add accordian and group stuff like terra (#891)
+816e800417db20b314eeeadb641bbd46669fc3a1|2020-04-24|qiskit-bot|Bump Meta (#902)
+0f3a9f42612381c3178cf46bd4054efadaada071|2020-04-24|Matthew Treinish|Compress docs prior to upload (#900)
+f982a5a0f63f9c72d301183a1695d53dac4195e4|2020-04-23|Jessie Yu|Bump meta 0.18.2 (#897)
+0d1023a31ee8685c04babb37ba44adac46b8515d|2020-04-21|Paul Nation|Point to correct circuit lib location (#893)
+cca6687d4ee0bac9eeb8a3a8608925fc18a7dc6d|2020-04-21|Lauren Capelluto|Docs/pulse instructions (#872)
+56f525dcf1571405a1fc82aba6014ec6ecf6e770|2020-04-21|Paul Nation|Add circuit library to docs (#890)
+d66ecfe26a7e45e1f0514ddb1a47993cd2ff7dfa|2020-04-20|SooluThomas|Fix typos in documentation (#888)
+8634b2b5cdbaba44953cb912e8b3a5bcddc6094f|2020-04-20|Manoel Marques|Bump Meta for Aqua 0.6.6 (#886)
+c9fc75e88c2b1f4b57018e72b90b9ef6f9f55725|2020-04-10|Matthew Treinish|Fix typo in recent release notes (#882)
+e20a7cde54eaa05c67c87baecfbcce58316cd12e|2020-04-10|SooluThomas|Add Qiskit Pulse Benchmarks (#848)
+697171254f7a7bee19bf3c6e13895f683ad8ba95|2020-04-10|Matthew Treinish|Add missing ssh key setup from poBranch update script (#881)
+bd20e80be0358408aeb8c82aa34ed01842fdf34a|2020-04-10|Matthew Treinish|Split documentation build from gettext run (#880)
+61206eb0c13d4a1fbfdc438d6e921b09150dfe76|2020-04-09|qiskit-bot|Bump Meta (#877)
+c02099c549802a22a92a803ab36aea4daae55cb0|2020-04-02|Renier Morales|Add new planned maintenance error code (#870)
+5c54b58b3a2ef64927a9b229c1d9e16b0426599f|2020-04-01|Jessie Yu|meta release 0.17 (#863)
+639182dfacf31a18c7ef5c3e12b84ba85248a29e|2020-03-30|Matthew Treinish|Install pygments via asv to unblock benchmark runs (#867)
+cecdb6bd4c073240d3c94c4178aaea7bda859f25|2020-03-27|Matthew Treinish|Add travis job to run pip check (#864)
+e1044dd3d8781d3ce6b06bca2c3a3918760d8b79|2020-03-26|SooluThomas|Fix typo (#857)
+dd1d085f16623b444c5ab749a93c1c03af2ad015|2020-03-23|Lauren Capelluto|Finish the pulse scheduler documentation (#858)
+902aac97061ef9323af91e6079090655000952ee|2020-03-20|Matthew Treinish|Set up CI with Azure Pipelines (#859)
+b215022d6eac586371ec33fe8bb95621985b0cf1|2020-03-20|Matthew Treinish|Bump Meta (#860)
+ff75eb42282744c812a74706ad115654990a2aa9|2020-03-17|SooluThomas|Update localization request documentation (#855)
+aa080b58f2864d25f48583c1e9bc5b0b8485fc86|2020-03-17|Matthew Treinish|Add disassemble benchmarks and more permutations to assemble (#846)
+c1a4a25b5dc48de1069b7c2d3a2884a374d642a4|2020-03-17|Paul Nation|Change name to just Qiskit Documentation now that tutorials there. (#850)
+0e2ece992a0929072bd7724227eb7b1cfc8af1a7|2020-03-13|Kevin Krsulich|Add ripple adder construction and transpilation benchmarks. (#844)
+045f43bd30cbb628bf914897ccda547c4c328db7|2020-03-13|Kevin Krsulich|Disable LookaheadSwap mapping benchmarks due to timeout. (#845)
+ccd9f5b26b860c37cc72c47b9c14429b514c439c|2020-03-12|Matthew Treinish|Stop showing verbose rclone progress and use travis wait (#842)
+765d67d0aed7598e4f2388b18b29d6a853ddffee|2020-03-12|Paul Nation|Fix images in circuit properties tutorial (#843)
+92f8a6a6943392d7e9d0aa5f5ebf080df58f3457|2020-03-12|Paul Nation|Add tutorials into docs (#841)
+e4bedaf067c036ea3fc241f13f9113342bdc8d56|2020-03-10|Matthew Treinish|Add AQT and Honeywell providers to authors list (#840)
+c737960a7a6831220f866d07b0d6de606a567f3e|2020-03-05|Matthew Treinish|Bumping up Aer to: 0.4.1 (#839)
+e1ea11ff74c21458c3b8226aa87720b2a78df30a|2020-03-04|Matthew Treinish|Add QuantumCircuit.copy() benchmark. (#838)
+d01481cdcf43b45665be0be6ed5295353b377723|2020-03-03|Matthew Treinish|Reduce number of parameters on pass benchmarks (#837)
+78924611f95045c50506f101e3defcc6070be948|2020-02-27|Jessie Yu|Bump version to 0.16 for qiskit-ibmq-provider 0.5.0 (#831)
+31e0d685e8e55e5c553bdafa5bedc4812ed0dbda|2020-02-25|Jessie Yu|Add provider 0.4.6 release note (#823)
+ba2262f44b7c1f313a179a6fce3f0b0b57b2b798|2020-02-21|Dan McPherson|Fixing typo (#829)
+117c254b16440f16129924593860b2cbad73b665|2020-02-18|Matthew Treinish|Fix typo in deploy_documentation.sh (#818)
+0f3526ae2cc77453631eff7693cea4766a6e99a9|2020-02-18|Matthew Treinish|Sync setup.py to poBranch too (#817)
+a5718cdece97b277da3cae213ec9c9c9a0bf8c67|2020-02-18|SooluThomas|Add German translations to Qiskit Documentation (#815)
+5ae585bf2c408673acc5943fe4487c22f03243c1|2020-02-18|SooluThomas|Remove po files generated from apidocs_legacy/ (#813)
+fc3d67bb834067bd07e2e54e2c49c8bfcebab041|2020-02-18|Kevin Krsulich|Update broken links from the_elements.rst. (#812)
+cae685873efbc870b5665e6c60f743ae1b8cb375|2020-02-13|Joachim Schwarm|Add Installation-Snippets for Ubuntu (#755)
+d7f94d30b0ababf5d7fdbcc2d6788ca2182316e2|2020-02-13|SooluThomas|Move the API References to a separate TOC (#808)
+5e1014907da2600b9f9143b75da418416ffc6c0e|2020-02-13|Matthew Treinish|Fix wording in aer description on index page (#809)
+b2c55281ea706f5afd7539540336c01c9d1f3b45|2020-02-12|Matthew Treinish|Print realtime upload progress from rclone (#807)
+337fc9e0f080abf1fa52a76c42145f860fc22188|2020-02-12|Paul Nation|Build docs from individual source elements (#551)
+568c4edfdeaba87240d9ae359cbe8bb3cebda297|2020-02-07|Corey Mendell|Copy editing release_notes.txt (#805)
+4caf7e0e788954d453a4492f0b52e97481e8169c|2020-02-07|Matthew Treinish|Update package metadata in setup.py (#803)
+a8b6519e02057050df70fc1fc96038dc841d4a81|2020-02-07|Matthew Treinish|Update test configuration (#804)
+6fb2c58ed9c7dc8fc7b2e4b6105f50c66e7ed089|2020-02-06|qiskit-bot|Bump Meta (#802)
+32eefb6250ddc1dd2a6f348c54957311d7b27036|2020-02-03|Salvador de la Puente González|Fix analytics typo
+b08a05a21e4211a0d5a22a1a893d92e0c51143db|2020-01-29|Salvador de la Puente González|Update to new anaytics format (#796)
+d9502609d728b4ce0fa694bbabab2103bd132ccf|2020-01-29|Laura|Update LOCALIZATION_CONTRIBUTORS to es-ES (#797)
+55892bc34fa6d1abbcc27817c7d028f6b4d0965e|2020-01-27|Julien Gacon|Update authors according to latest changes (#791)
+5fedc0b71e711983bb386c71d283c313c568ed67|2020-01-21|yalinbasay|Update LOCALIZATION_CONTRIBUTORS - Turkish (#790)
+45358eb4fab2212a9a1fbaff407d307bb9251bb6|2020-01-21|Julien Gacon|Add whitelisted authors from Aqua (#787)
+7618213580d5b1ee12e9605516621e9b7eb02641|2020-01-20|Raffaele Miceli|Update LOCALIZATION_CONTRIBUTORS - Italian (#785)
+f8d9219cf1fdcec473837048d1514ed83eee9b3e|2020-01-20|Dante Loi|Update LOCALIZATION_CONTRIBUTORS - Italian (#776)
+7a59595900849df4ad6b1179c132aff88d4f6cef|2020-01-20|ignaziopedone|Update LOCALIZATION_CONTRIBUTORS - Italian (#789)
+1ae9f88b186c78b7c98f6ae1f643730468a8271f|2020-01-19|AlbinoZenci|Update LOCALIZATION_CONTRIBUTORS for Turkish(#788)
+41bb0255eff7a63e06d3a3fdf347b3d2cce94bba|2020-01-14|Rumeysa|Update LOCALIZATION_CONTRIBUTORS for Turkish(#774)
+144c5756c02357465f5336c5cf5d1ec50a1ef269|2020-01-14|Julien Gacon|fix Christa's name and mail in mailmap(#777)
+b6171cd004d403b65f1bc87a98d4031e00dceb7d|2020-01-13|cognitivecomp|Update LOCALIZATION_CONTRIBUTORS for German (#779)
+b21fb6e6bf2f3bc7c8de9b6f85fb223104cd2dc7|2020-01-13|RuneKingThor|Update LOCALIZATION_CONTRIBUTORS for Turkish (#778)
+8bbb81e72675775fbc4e4cac550b23efb121ef94|2020-01-10|abbycross|naming change in install.rst: IBM Q -> IBM Quantum (#765)
+46d216e6ed355e521b010b91f9ddde915b75f1e2|2020-01-11|Eymen Ünay|Update LOCALIZATION_CONTRIBUTORS for Turkish (#730)
+c619f1432ac32b81d1b049c73433f85bbedb0348|2020-01-10|ahacua|Update LOCALIZATION_CONTRIBUTORS to Spanish, Spain (#767)
+b6f17fcac12be132356df360f8ef8f1b56d06e86|2020-01-10|Ayşin Taşdelen|PR: Turkish contributor (#647)
+bf50eaefa5af9aab64b0accdd8971234c89bd331|2020-01-10|gilbion|Add contributor name (#700)
+88ed385a74193c130fa5c9cb1aa52b004031aa76|2020-01-10|F. Semih Dündar|Update LOCALIZATION_CONTRIBUTORS for Turkish(#729)
+6920397c1842360d3495d6dc9272e444df79b15c|2020-01-10|Jinho Hwang|add Jinho Hwang to localization contributor for Korean language (#731)
+96c417fcdec7ce24dbed448e86bbb6d5a607f704|2020-01-10|Oğulcan Cingiler|Update LOCALIZATION_CONTRIBUTORS for Turkish (#728)
+a04f5c316b3c1c06f79cb9c24be326909238a2f9|2020-01-10|Iyán|Update LOCALIZATION_CONTRIBUTORS for Spanish (ES-es) group (#770)
+64329735532d0a4e7353538dcada7dae04015ef4|2020-01-10|FCnatra|Update LOCALIZATION_CONTRIBUTORS file (#772)
+c87be893e9601eb782bda5cf3781bf87fc69f407|2020-01-10|GabrielGT|Add GabrielGT to localization contributors for ES (#769)
+96e347a761029be57571e301a97b42d1d2436624|2020-01-09|EnriqueRG|Update LOCALIZATION_CONTRIBUTORS (#766)
+34abf30265cac638ac6e68f20cd9fe43b64ee6bf|2020-01-09|Lauren Capelluto|Fix broken links (#764)
+2b66bdb51e57e5903b370ea05f0e62a6efadb22b|2020-01-09|Joachim Schwarm|add me as a translator for german (#756)
+1bdc813538a6e77497ef7a8f83610e92204cecc5|2020-01-09|JanLahmann|Update LOCALIZATION_CONTRIBUTORS (#742)
+57f984b501118edb14a1ad79024ad9bbcf6b5dce|2020-01-09|Sungcheol Kim|Update LOCALIZATION_CONTRIBUTORS (#733)
+beaad0eacc1a769722c3bbe1ce267488f251fb69|2020-01-09|Isabell|Update LOCALIZATION_CONTRIBUTORS (#763)
+7a5ab1ec4e0d582eae2b9fa6192add0c719aaeed|2020-01-09|RobTech01|Update German Translators (#749)
+f0079f080fb342e8883112f9de9faaf5810ddff7|2020-01-09|KonstantinKonson|Update LOCALIZATION_CONTRIBUTORS (#761)
+75bbeaf70007590a75d94885538dadd1293824d2|2020-01-09|MIBbrandon|Add Spanish from Spain (#752)
+a65799603afa9532ff7a9478cc2862d7651965d3|2020-01-09|oliob|Update LOCALIZATION_CONTRIBUTORS (#741)
+469b9ce0b8b869f6769096f722126f2e88af80f8|2020-01-09|ssinji|Add myself to the trnaslator and the proofreader (#740)
+e1ae917ddd0b2da6bb8accf6b44165cc950115ab|2020-01-07|qiskit-bot|Bump Meta (#762)
+4f39f434ee7fa8748880aae620440b1b6777fef6|2019-12-27|Paco Martín Fernández|Added errors from Cloud API (#754)
+a4d045ec1709c20ab04de58ebd41d1b682939875|2019-12-21|Kazuaki Ishizaki|Fix typos in release_notes.rst (#750)
+d175d7416f17659346ca08f65c1fa9b2d1dc5dd1|2019-12-19|Paul Kassebaum|fix broken link in getting_started.rst (#748)
+fd2291bdfae55440a0978f8a177561074e1fd0be|2019-12-19|Matthew Treinish|Update AUTHORS list and bibtex file (#727)
+89a2e5885d235e5f974aee4f4eb7a643a6a1ebf4|2019-12-19|Kang-Bae|added more user actionable errors to error.rst (#744)
+f17b69a378b9f5a08cde2dd538f078b5299a648c|2019-12-17|Paul Kassebaum|Add framework schematic to the_elements.rst (#743)
+0e8f8b17b9c954b6a3c25becab323c309d3cfa79|2019-12-13|Laura Zdanski|Reformat contributor page (#736)
+e3a635e4e8237391bccfdbfb7420e9ddbbcdb37d|2019-12-12|Sean Dague|Add user actionable dispatcher errors (#724)
+13c726296535eec9a67e0f8ea15886fb97c2dbf9|2019-12-11|Sean Dague|Change tox default targets to match travis (#726)
+264f0d550c299f23351df6f9ce7efde3c6519b6f|2019-12-10|Arturacu|Update LOCALIZATION_CONTRIBUTORS (#723)
+0940a386e537adbb3d07751555dc5cd75ebddd6d|2019-12-09|Matthew Treinish|Add travis job that runs a docs build (#687)
+a7aa56535afca7786036cd1993f7ec2eb9dbfe9e|2019-12-10|Diego M. Rodríguez|Prepare 0.14.0 release (#684)
+72967d05a9cddef33606e1d0145579e550fce5cb|2019-12-09|Joachim Schäfer|Update LOCALIZATION_CONTRIBUTORS (#721)
+62620e34eab15967c87425cca7518eb680d6d354|2019-12-04|lerongil|Update README.md (#718)
+9ffa233a1be7e1f4b16bf0a910e82e325e8de325|2019-12-04|Kevin Krsulich|Fix visualization apidoc link from The Elements. (#716)
+72380e46a7bb9df7e6d62e39dfc715765fa12770|2019-12-04|Matthew Treinish|Reorganize passes benchmarks (#714)
+97847f2456377e42a5de6f6677421af278bbaf8b|2019-12-03|Paul Nation|More specific link highlighting (#709)
+5c2dcc29bede9c93bbe347212f9aaa835d12e08b|2019-12-03|Matthew Treinish|Install seaborn in asv venv (#712)
+6882a33e9e5973486137c23c5b97f969bc990919|2019-11-25|Paul Kassebaum|Fixes #660 (#708)
+2798f92c1d648cfc37df896ea1699f91b221bd83|2019-11-25|Matthew Treinish|Add benchmark for non-mapping passes (#697)
+3f6e209d8e7f268f91af98667145849f4a644103|2019-11-25|Matthew Treinish|Add benchmarks for mapping passes (#699)
+a9ba9ebf08e4f34076984ae75982269c02f82a8f|2019-11-25|Paul Nation|Fix lowest error (#702)
+900acc4366e8a787a0971e6b3645be3002689aa8|2019-11-21|abbycross|Proofread contributions guidelines (#703)
+17ff6772c9f41a8cc30c6f646fc2d53f47b83b12|2019-11-21|SooluThomas|Add docs/stubs to .gitignore (#704)
+106f358e425e4742f2e298174451bdf4246768ec|2019-11-20|Matthew Treinish|Add common contribution guidelines to docs (#686)
+286d36e66794f7d5036967990caa66057f95f75a|2019-11-20|MELVIN GEORGE|Fixed sphinx_tabs (#692)
+18f5f51f00c31e4eca9e6f5b696463b517f10062|2019-11-20|MELVIN GEORGE|Added better navigation to different elements under Installation from source section. (#691)
+cdda65565f37a38a5bd0ff4d2f30167853c7a27d|2019-11-18|SooluThomas|unify Qiskit logo (#694)
+31a344017300b7ba48dde9ebfbfcc583b5b50b22|2019-11-18|SooluThomas|Set logo-only to False (#693)
+1537e6d96bdc620468f012b49a85871bc91fd15d|2019-11-12|Salvador de la Puente González|Use IBM Plex in headers and other elements (#683)
+76f2b0e7455ccbaf14752f1da334ce5497588852|2019-11-12|SooluThomas|Skip travis for English .po files build (#681)
+8a80dc33026747cf0f149a4d46d1c883b11ae710|2019-11-12|Paul Kassebaum|streamline Getting Started (#673)
+c4008a5de409fbeee47319383a8446f0aa0dace0|2019-11-11|Igor Monteiro|Update LOCALIZATION_CONTRIBUTORS (#624)
+5d2d73295feef6552116297630eff970465f9e92|2019-11-10|SooluThomas|Remove `theme/` .po files (#671)
+afec084d50afb51b340bd6cc70fc936770b0907e|2019-11-08|SooluThomas|Update css for smaller screens (#676)
+edaa269a2f837362edc4d33231f59870107cb185|2019-11-08|Matthew Treinish|Update RTD theme style (#670)
+b20128cb336ab016c5b96185c40128a70d69a293|2019-11-08|Salvador de la Puente González|Make _get_current_translation not to fail if current translation not found
+54618a672139ae19abde8e4fe177159e4c51f79f|2019-11-08|Salvador de la Puente González|Fix default language when explicitely passing the default language code
+da75da22018d9c060f6475e1167b686da26c11b9|2019-11-08|Salvador de la Puente González|Change documentation theme to Read the Docs (#662)
+86f60078ea3141b45b0f1e6076fa7080735e4819|2019-10-29|SooluThomas|Add more info about contribute to docs (#657)
+5cfbff585cf83a82ad6c8b3827431fce8dfa880b|2019-10-25|SooluThomas|Fix typo (#654)
+9777a6af596d6898ad473eb301bf62ccaa45b28f|2019-10-25|Matthew Treinish|Push directly to object store (#652)
+41f3f6d26f838f023ad890c1b244e97070d1d01d|2019-10-25|Kevin Krsulich|Assemble circuits and transpiler peakmem benchmarks (#641)
+788192271bb4ec1ffc8c747f9a6f4cb60fc639fd|2019-10-24|SooluThomas|Remove stubs/ (#646)
+1ee99cf1ef1051e3526db9032ff76de0e0080fdb|2019-10-24|SooluThomas|Typo in source code (#644)
+f74c3e5685e6a7fbc191d05ad4188207e0906b9f|2019-10-24|Paul Nation|Fix visualization docs (#642)
+aabf92e5440a388d35e922f7997b2ec79b2ac461|2019-10-19|Matthew Treinish|Exclude qiskit-bot from author's list (#640)
+e150488c48937c449cbc0aaca2280832b83041b2|2019-10-18|Matthew Treinish|Make version table extension work outside of git (#637)
+0ca59ba36e3de64f6b4e516d5b1f9fa39742d98f|2019-10-18|cristeam|Update LOCALIZATION_CONTRIBUTORS (#638)
+33915acdd55c6ac5d374d39ac437a18533ff6b2c|2019-10-17|Matthew Treinish|Bump Meta (#635)
+30005fd1d3d3473af4307b5b2ca11b41c2e782b5|2019-10-17|SooluThomas|Fixing indentation (#636)
+a165301a45ad4be96f88361b0581d113269de2d2|2019-10-15|Matthew Treinish|Add benchmarks for converter functions (#628)
+12902a28bf3ea822d9c71cec581634a4fee8acdf|2019-10-14|Adolfo Cruz|Update LOCALIZATION_CONTRIBUTORS (#632)
+14e9bf9241d9e0b684be82f17fc3a5e1d84c5170|2019-10-14|Paul Nation|Move to jupyter_sphinx for executing code snippets (#621)
+622d57c2aa4fe85243ea625975555ccb00193c33|2019-10-14|Matthew Treinish|Add class's __init__() docstring too (#630)
+c0f998c6cc18408d019166d999eef9d2eaea39f6|2019-10-11|SooluThomas|Fix typehints problem (#623)
+fafa867ea3051a4ab649455cfb86d8e40c5f311a|2019-10-11|qiskit-bot|Bump version for qiskit-terra==0.9.1 (#629)
+8fc5423600a56fa847e0db307661d2892e6fef33|2019-10-10|lerongil|Update README.md (#627)
+d7d1d848f945656a97abbabea6ee599ed0486eca|2019-10-10|VicPinaCanelles|Adding Vicente Pina to localisation list (#609)
+552c25c26464cb7d0d69035c4609edbd46f61d04|2019-10-09|Michael Duane Mooring|Fix broken IBMQ Provider link in ReadMe.md (#626)
+4f31be8425479a5acf9b66d92b021fe1c06b3156|2019-10-08|walid el maouaki|Update LOCALIZATION_CONTRIBUTORS (#613)
+d29118a99f9016b4c214ff39ec213a952634b0cc|2019-10-07|nanophilip|Update LOCALIZATION_CONTRIBUTORS (#614)
+50b4627f6ce534c1ec3a5d3839a4bc383e2978d1|2019-10-03|Edoardo Giusto|Adding myself as translator (#599)
+b7cdda86fe23f21411b7350eb85380ff3cdc4ca1|2019-10-03|juanmontalvog|Update LOCALIZATION_CONTRIBUTORS (#607)
+09b15cb2a5f24ae9ccfaed27661d1e3c258226b3|2019-10-03|Salvador E. Venegas-Andraca|Update LOCALIZATION_CONTRIBUTORS (#604)
+80fd7d3f78a7fc1cd2516d34087466b9b99e80e4|2019-10-02|Matthew Treinish|Add benchmarks for different transpiler levels (#603)
+f91fa00366da69ef266a7db51d4f0e4baea91412|2019-10-01|SooluThomas|Fix typo (#602)
+e30ffed5c16eb4e6b3e3280ff09fa18974785807|2019-09-30|Diego M. Rodríguez|Prepare 0.12.1 release (#601)
+29d23ce50f539939fac20154546f8cb4c07cfb98|2019-09-26|Paul Kassebaum|more legally sound wording (#594)
+0edb64453a9da6ad566a5b525b7f73e56d7131be|2019-09-26|SooluThomas|Fix typo (#598)
+f56f10177867b7031f563410209bc2918800fae9|2019-09-26|Blas Osvaldo Gonzalez Aceves|add name to  LOCALIZATION_CONTRIBUTORS (#596)
+0ff033553d248f426dab1484be121a1350002f5c|2019-09-26|terebikun|Add member to the contributors list (#597)
+31adb16a8d821e78549e4b6eba047eac943fe7d1|2019-09-26|Paul Kassebaum|fix typo in FAQ (#593)
+ca3e5da920f738e50016eb1183e78fb75ecde7f5|2019-09-25|SooluThomas|Added code to remove _sources (#591)
+7b79e0f68c740f4d35fb8d75188f95a48e82c933|2019-09-25|SooluThomas|remove api/ and apidoc/ po files (#590)
+6185de1cd63db6bd6378d5c40c9145f62e34e5c8|2019-09-25|Paul Nation|Initial commit of IBM Quantum Cloud error codes (#582)
+087e5964de5c6bf59e66bedd9e7c10e6d2e5c5b4|2019-09-24|Baltazar Rodriguez|Update LOCALIZATION_CONTRIBUTORS (#587)
+370e18fc84f2015d48544cfb9ff60b97b3dfb248|2019-09-23|sita158|Update LOCALIZATION_CONTRIBUTORS (#584)
+7199f019f19d8757012fed5c4ce020ead4606030|2019-09-23|joseluisrg|Adding new user request for Spanish translation. (#580)
+05cda4dc24bd263d14e626731ec602b4acfedd77|2019-09-18|SooluThomas|Corrected IBM Q Account redirection link (#578)
+68bcea9a2bf15b78ed496ed4356bd74a9def6357|2019-09-18|Matthew Treinish|Checkout all of master on docs builds (#576)
+4cb368f25450f7ecb07be995481629eeef1dd137|2019-09-18|SooluThomas|Change IBM Q to IBM Q Account (#575)
+a3cc9519db012fc63072ea8f30bf02e30e4ed298|2019-09-18|Matthew Treinish|Update path for generate bibtex script (#570)
+2daa32df43959f5e90fef624a39e85cac5fd747d|2019-09-18|Matthew Treinish|Add custom sphinx directive to generate version history (#535)
+b133f0d0a07056e76cd3d9cf03f2772e47a4165c|2019-09-13|SooluThomas|Changed the lang for sphinx make gettext (#566)
+bedc29036d7ce7596e0ac21e0ae5d88fa7e82947|2019-09-13|wakarasi|Update LOCALIZATION_CONTRIBUTORS (#567)
+b61daf41745338668d868a6a10042834a8fc084e|2019-09-12|Omar Costa Hamido|Update LOCALIZATION_CONTRIBUTORS (#552)
+30f75199e17bcbffe9cf57047e888f74b14afc34|2019-09-12|Paul Kassebaum|explain how to request a new language (#563)
+efaa5e862dcc16ca27bf18c36b2ecf4991e9c571|2019-09-12|Matthew Treinish|Fix locale output dir from tox gettext command (#564)
+7e7fa0ba2c681cb05d6e76e91893f4c681c0504d|2019-09-12|Albert Frisch|add new contributor (#557)
+1893b39dea04df6fd0f652f6da27424e45e8b2bb|2019-09-12|SooluThomas|Updating language selector from 日本語 to Japanese (#554)
+ec16b5fd85f261c843e096fc58dbcf3071e166b7|2019-09-11|Matthew Treinish|Remove Makefile for docs and just use tox (#556)
+73e4cb5b4bd7424abf513e40d4a5a6714aa2e33d|2019-09-10|Ayumu-walker|Update LOCALIZATION_CONTRIBUTORS (#549)
+fd59f0f477c57e5396304fe4ca47170fd5eb2c3c|2019-09-09|SooluThomas|Fix/toggle button (#543)
+371bb3a13e4d478f0bbd79a304bedf4c8bffca88|2019-09-06|STRNGT|Update LOCALIZATION_CONTRIBUTORS (#540)
+12e1a83599bbb7b7f0ded0db91a909c596e5b2a6|2019-09-06|ShoheiFujio|Update LOCALIZATION_CONTRIBUTORS (#539)
+973007ff770cd6a10bfaa3f40ec5f097a49977cd|2019-09-05|KaoriNamba|Update LOCALIZATION_CONTRIBUTORS (#531)
+dcc120566e4d131241a927535792ebfa9a203fb9|2019-09-05|Salvador de la Puente González|Integrate community site (#530)
+0eff045dfa48e8214c20e59b26123e8f037a7788|2019-09-04|kUmezawa|Update LOCALIZATION_CONTRIBUTORS (#529)
+0bd53aa3a972f56ade20dc0636c680d252a3c27b|2019-09-02|Diego M. Rodríguez|Add FAQ entry for source dependencies (#528)
+079fb4d551a779603b7f3750ca1d4cd39aff8933|2019-09-02|Amano, Takehiko|Update Localization contributor to include ibmamnt (#526)
+b50920033c26a2b294feed3c22ec67c76e388bf4|2019-09-02|kifumi|Update LOCALIZATION_CONTRIBUTORS (#527)
+baa72bfa449ccfd355d6fa13ee823ed9cc02bbfc|2019-09-02|SooluThomas|Bug in generate authors python script (#520)
+38228c3fdb7334a19a9b3695bdbb789a79e92d51|2019-09-01|Paul Kassebaum|update localization explanation (#525)
+ea4e283f41931d306a75c81925e7d3541e09669e|2019-08-31|Matthew Treinish|Update terra for the requirements list (#524)
+7e6e1bbe6c49e243d7cf2e7c7de4be5afb750f71|2019-08-30|SooluThomas|Add a README to docs/ (#523)
+937c1c1b78560b7e0c0750c94961afb691c8b8dd|2019-08-30|SooluThomas|Fix link typo in the_elements.rst (#518)
+8c2442c2cb11df997b84a63b8e4acc4eff7837c6|2019-08-30|Paul Kassebaum|Explain how to contribute to doc localization (#516)
+aac758c0ad4c8edc8cf81d05bdd062d2c40351c3|2019-08-30|SooluThomas|Typo in the_elements.rst (#522)
+358c3c9458b66f76518b4d82c4fa60705945a43d|2019-08-30|Yuri Kobayashi|Update LOCALIZATION_CONTRIBUTORS (#521)
+a3f5e174d73f417aae5a846e1ff94e3255f43443|2019-08-29|Matthew Treinish|Ignore LOCALIZATION_CONTRIBUTORS from authors file (#519)
+d25c6669ea8df506ea0a54e4f5a2b6e6c3c5be4e|2019-08-29|SooluThomas|Fixed indentation in relase notes (#517)
+8c17470c77f6f0f5515b5ce96e3b3111954c0296|2019-08-29|SooluThomas|Broken links in the_elements.rst (#515)
+221cb99203b1a1a6208f950a5eb6fa51f65b1935|2019-08-29|SooluThomas|Revert "Remove toggle button (#498)" (#514)
+a6de631df09278f1abbd7e38bc770ea446fe8b27|2019-08-27|Matthew Treinish|Swap order of keys for ssh-add in deploy_documentation (#510)
+9931848adc661508f78eb43a3ab4c513b09edf7a|2019-08-27|Matthew Treinish|Fix deploy docs script poBranch update (#508)
+ea9c457991ed70112dbe217bfe0cc0b1afeed8c4|2019-08-28|itoko|Add a test to track mapper's performance on CNOT count (#504)
+2a92f4072326d5e306ce5740b8c37e6f7f473cf4|2019-08-27|SooluThomas|Automated po file generation (#502)
+a5a2bd702f8ea591a272fee8c35998298a93e212|2019-08-26|SooluThomas|Remove toggle button (#498)
+51eda1f736ef1d9a19536840e493e76df5cef2a4|2019-08-25|Matthew Treinish|Bump the ignis version in tomography and RB benchmarks (#491)
+95e32a2052acd56d0748623fb47439848d24ed1a|2019-08-23|Paul Kassebaum|Create LOCALIZATION_CONTRIBUTORS (#494)
+fe25e42e75c348d114321a703568cc471ee35b8d|2019-08-23|Paul Kassebaum|Make issue template relevant to API style docs (#495)
+26e15af164bb8aa2ec87f9c4308095d7a9bd4254|2019-08-23|Matthew Treinish|Remove unneeded line from 0.12.0 release notes (#493)
+dfd259287c33c6a7ab63a96331bec73a53453e13|2019-08-23|SooluThomas|Enable Localization automation (#489)
+174fa51631a99ef10ec8d421fb049806172475c0|2019-08-22|Paul Nation|Add Aqua and Chemistry to API (#480)
+64cd836fa2ed88ebd47d065023ad416dc620250a|2019-08-22|Matthew Treinish|Update AUTHORS and bibtex for 0.12.0 (#484)
+8d73bf743ad3dd30c909b00da71fb83dc57c822b|2019-08-22|Matthew Treinish|Fix doc version and release date (#482)
+4c03733b00bf91b289fc8af6469325f23b93eeed|2019-08-22|SooluThomas|Fixed the bug in button (#487)
+e1bf1772f4433b6285ce1c967290f32e9c153501|2019-08-22|SooluThomas|Fixing layouts for localization (#478)
+d3d2d04532a8078ca265883b7a89e553641cff9f|2019-08-22|Juan Gomez|Bumping up Qiskit to: 0.12.0 (#471)
+e6fef56c89c50983d344633b0a742bc13b95ec54|2019-08-21|SooluThomas|Removed tools from navbar (#479)
+671bd14814de683225a4d4ad352aba045c62e6e8|2019-08-21|Jay Gambetta|Update release_notes.rst
+65e590d3ec1629c356b4945dff17fe2cd37f31ed|2019-08-21|Paul Kassebaum|cull doc figures (#476)
+a25008a46cfd5d705108a27e8ba4159ef0a653e6|2019-08-21|SooluThomas|Updating missing apidocs in Ignis (#473)
+066e0f957193140adaf8d05c2a3046c3575b3067|2019-08-21|SooluThomas|Added note for Qiskit Tutorials (#474)
+692621567bab3b722f2624395296b17219d68a9b|2019-08-21|SooluThomas|Changed tutorials Link in docs (#472)
+d45a9330d83259be5001a9fef0afff840aba6832|2019-08-20|Matthew Treinish|Update ibmq provider version for 0.11.2 release (#468)
+3ee9d934041ef1f886c6798d37235dee6dc5c759|2019-08-20|SooluThomas|Need to add Ignis API  (#469)
+639312499c43840c3b69262e6000376e2d22786a|2019-08-20|Ali Javadi-Abhari|fix broken link in getting started (#465)
+e75822ce0f791a9e8649ac474c99ac5cfd779699|2019-08-20|Kevin Krsulich|Add timing benchmark for `import qiskit`. (#463)
+b7cdbcda1a97ca3a04f0cb8312304c9eb8c1d3ed|2019-08-19|Matthew Treinish|Bump qiskit-aqua version and prepare for release (#450)
+37ff892203c5d4087ee7d4d47ef6fafce5f67990|2019-08-19|SooluThomas|Cleanup old referencing labels from docs (#456)
+a17e00dac56d3de867b79d7878a79c625592da60|2019-08-19|SooluThomas|To remove sub-title in API References (#458)
+1b017e3d63eeb45555bd4d02be9ffd59b5b40ad7|2019-08-19|SooluThomas|Cleanup old referencing labels from docs (#455)
+cdbbd1f45147e6bdfc31c44dc19d68a5813f3c94|2019-08-19|SooluThomas|Copy button for ipython (#454)
+e8082d7eafeeebbae90b3033ff44858348f4bc1c|2019-08-19|Paul Nation|Another shot at Terra docs (#447)
+32d2f94ec746a5111a06a61fd62d7463a2e67fda|2019-08-19|SooluThomas|Changed Documentation to API Documentation (#452)
+09b3f88217e3aa98387be30f3a36f00d6f6920aa|2019-08-19|Paul Nation|Auto execute code snippets in installation docs (#449)
+2762f6c43b34e7b0f9eda9b21594120db5004d0a|2019-08-18|Paul Nation|Revert "Terra API Cleanup (#427)" (#446)
+0dbd4eb4b5a9e89000e58d346e8b35dc86d12f17|2019-08-18|Paul Nation|Revert "remove transpiler synthesis (#444)" (#445)
+98d518fb2a0a375b5c4e9b38a8a825c70b60ed0d|2019-08-18|Paul Nation|remove transpiler synthesis (#444)
+95cb3ffce67209b72606f10bd87cd152c2650c3b|2019-08-18|Paul Nation|Terra API Cleanup (#427)
+7963868b5e1a507c85a7a589f764f1bc3e428503|2019-08-18|Jay Gambetta|Update getting_started.rst
+a3bb8be71a9d7d3e237266687c6d4f5609a2ad9b|2019-08-18|Jay Gambetta|Update README.md
+f60ebcc2b2d0ffc0870a911421230a4a3ac38827|2019-08-18|Jay Gambetta|Update README.md
+83919bb97ad003d6d4ca292b9a70442c2a00491a|2019-08-18|Jay Gambetta|Update contributing_to_qiskit.rst
+7acebc3001642cdacf15b3b9aa6bbcd9c9256ef4|2019-08-18|Jay Gambetta|Update contributing_to_qiskit.rst
+4b57390d82d1996583cb077c61d7c2624ddae7ad|2019-08-18|Jay Gambetta|Update CONTRIBUTING.md
+33c88f6ff6db8e101908b02f0ff21f5202fd73fb|2019-08-18|Jay Gambetta|Update README.md
+bdd848162b3aeab13ede6bba4f855559b6120b86|2019-08-18|Jay Gambetta|Update contributing_to_qiskit.rst
+83bd6b2678fcea6641b55c19ecb8f8b0232d1ad6|2019-08-18|Jay Gambetta|Update getting_started.rst (#441)
+d6c1d3116fc982817990d75f2c98a80688bf1f29|2019-08-18|Jay Gambetta|Update contributing_to_qiskit.rst (#442)
+f5dfdcd8f7c51614cd97ca33356e29e5c2fcc2f7|2019-08-18|Jay Gambetta|Update contributing_to_qiskit.rst (#440)
+c85b3ca35c516bcaee056c942b664c43654de2fb|2019-08-18|Jay Gambetta|Update install.rst (#439)
+682cf45ace74af6a60a781fee7906105105df964|2019-08-18|Jay Gambetta|Update development_strategy.rst (#438)
+a1e4400087b8c56d2464df81f8f67eaab0c40327|2019-08-18|Jay Gambetta|Update contributing_to_qiskit.rst (#436)
+a1553307c699ca0bd3dd84b0cf15be1af1d62a39|2019-08-18|Jay Gambetta|Update index.rst (#437)
+f434a49a625c18c1f02f400059ee40d8e09f09a7|2019-08-18|Jay Gambetta|Delete community.rst (#435)
+5209eac5844fc02eab2f9bf8ce09eb63130a28be|2019-08-18|Jay Gambetta|Update development_strategy.rst (#434)
+3c08f9a34610eef6593ffc947b37efada7e0bac1|2019-08-18|Jay Gambetta|Update release_notes.rst (#432)
+9bbc7b70a590e6ff317e066ebd720000e7540191|2019-08-18|Jay Gambetta|Fixing links (#431)
+5f0d9fa42c750b80277effbfbf12a7baddeb7305|2019-08-18|Jay Gambetta|removing old qiskit element figure (#429)
+b0c6142e3d11e9af1d5508559086ca4575cfe611|2019-08-18|Jay Gambetta|Update faq.rst (#428)
+088e3ca8d67461fab124a3b1d13f73b8a124c832|2019-08-18|Jay Gambetta|Update getting_started.rst
+83b28433bea2f03b50a198068c75111d2496a193|2019-08-18|Paul Nation|remove aqua content (#426)
+0dae84e7aa6e148c4b9c54814d8ace336b7e4619|2019-08-18|Kevin Krsulich|Add single-threaded versions of RB benchmarks. (#396)
+0cfe64d35b5e44ec29ad1ee772d5ec9e9ec55329|2019-08-18|Jay Gambetta|Adding the elements (#424)
+fc0dbb8596cd921da6722957ac40615ab2dd2ec2|2019-08-18|Jay Gambetta|Update index.rst (#423)
+36435e941c2ffbc5b95afb9ddcd313e00c14d9bb|2019-08-18|Jay Gambetta|Update getting_started.rst (#418)
+6ca83cb78c98a8c625096671bc6d55143da3e09d|2019-08-18|Jay Gambetta|Update CONTRIBUTING.md (#425)
+ead13248875a279fbd08b7361ed0f7e5b19f3eb0|2019-08-18|Jay Gambetta|Update CONTRIBUTING.md
+1d0851c47e29381c0453487e9e7e55d167a01f56|2019-08-17|SooluThomas|Removed tutorials from TOC (#422)
+514ece2010cf4788e9a0b8532548c8473882a9d1|2019-08-17|Jay Gambetta|fixing broken link (#421)
+588d10d1a7f813168ebf6bbd1b956e8c286a323f|2019-08-17|SooluThomas|Fixes qiskit.org repo issue#184 (#419)
+1aa1f90759eac84c6f3de063de842f1e7bed216c|2019-08-17|Jay Gambetta|Update install.rst (#415)
+2538ff286040921160cff8615fd6639d3de08f37|2019-08-17|Jay Gambetta|Update CONTRIBUTING.md (#414)
+243d4b8d08face16163616e6b4bfc9554d33a75c|2019-08-17|Jay Gambetta|moving the note (#413)
+24209d841bbc655821f247e011a0f4a7ba3014ba|2019-08-17|Matthew Treinish|Fix doc8 line length lint (#412)
+c4a1bde76576e1fb4a8b99e384c63a3af23506f8|2019-08-17|Paul Nation|Docs cleanup (#411)
+2d7d0922355a3efcd73d4c89627df40c933b4cba|2019-08-16|SooluThomas|Documentation source code linebreaks (#408)
+89e6d73d5e5574bb58a1e574bc3be1c2299e0abc|2019-08-16|Steve Wood|Fix install instructions and links (#409)
+023b12ed14aee1a2a4a4225ac30481ecefbe2558|2019-08-15|SooluThomas|Fixed indentationerrors (#407)
+933cec5800a839a343d0e2ec24499cac35fbc7a1|2019-08-15|Jay Gambetta|Update release_notes.rst
+2ca066513500d464d30cb5b00ab3ba988389d14e|2019-08-15|Jay Gambetta|Update index.rst
+4a1d014cc20247a534c4579c4eb770463f9bc30a|2019-08-14|Jay Gambetta|Delete license.rst
+2b78a3581d20742a338085a4b470541d8a960e59|2019-08-14|Jay Gambetta|Update index.rst
+6b6e2e84a1843c0cf42eab4b43d6473bf0a0eb18|2019-08-14|Jay Gambetta|Update index.rst
+c70a65247c1e29313044325b56521dd2c8d542a1|2019-08-14|SooluThomas|Standardizing documentation for easier and better translation (#403)
+2de20c08acf7d7b2b71868ca95333d76ef57228d|2019-08-14|Matthew Treinish|Add details on qiskit-terra warnings to install guides (#404)
+917c1b2f6742bc503dd59c958e2d09340ed082e3|2019-08-13|Matthew Treinish|Update state tomography benchmarks to use ignis (#400)
+689b0a115963a71dd6a9f8baeb2fe7527df47803|2019-08-13|Matthew Treinish|Fix small bug in generate authors and update AUTHORS (#401)
+5cec6ca4728fb3f1e645e0709a62c3406395dee5|2019-08-13|Matthew Treinish|Add the Qiskit/qiskit and ibmq provider to generate_authors.py (#348)
+2772fb9fe4e5b6c287f1eb4f92295d6911ef17c4|2019-08-13|Paul Nation|add header to readme (#398)
+4d403d8ae8028670cfa4939e909d91d37cf669c1|2019-08-13|Paul Kassebaum|closes #290 (#399)
+4539c4d09d417e5592fcc1c8c51ce0ea9a52ea8f|2019-08-09|SooluThomas|Updated max-width (#397)
+8e1378ce7af593c0c6b3110cbc57e7a24abd5d23|2019-08-07|Matt-Stypulkoski|Fix QuantumRegister naming/assignments in code snippet (#393)
+eb7ec2a7aa5e664dc1c5aa5697c1ff8d76d6c56d|2019-08-05|Laura Zdanski|Fix typo (#392)
+c1c0ec7d63c885f088c48e9d5588ffb312a23a4e|2019-07-31|SooluThomas|Standardize the links in .rst files (#391)
+dd27b2e780abe8241ccb38b67dba5ac945db54f0|2019-07-31|Jay Gambetta|Update README.md
+c6ee228614000ec9e30f20c75c6d963b4016da2a|2019-07-29|SooluThomas|Updated broken link in contributing_to_qiskit.rst (#386)
+2a0ab2462f943c1b47eb01c0f963236c3cd9c171|2019-07-26|SooluThomas|Improve "Overview" and "Index" pages of documentation (#380)
+f0c2d7c319241f031affc510a227f044598bf68e|2019-07-26|Francois Varchon|Fix one typo and some broken links. (#387)
+e170ff8f86f036abf780bb58a16217872308b1c3|2019-07-25|Laura Zdanski|Doc Templates (#385)
+c10d23afb76d75f6dcb8f95f6396673cbe5b3f2e|2019-07-24|SooluThomas|Updated contributing_to_qiskit.rst (#383)
+8a7d5702eca5d38b7b21227d855613dc372bff12|2019-07-24|Paul Nation|Qiskit 0.11.1 micro release (#382)
+433d6c1632ed553134fef9bdce8238903cd3c98d|2019-07-22|Salvador de la Puente González|Remove the community tab (#381)
+9d869cc11429755e17dc03e09efa9060064aa0e9|2019-07-21|Shelly Garion|Randomize Benchmarking Performace Benchmark (#306)
+c9ff7e702b57545c7b9b9ad4e27b546c7f2afab5|2019-07-20|Matthew Treinish|Add a note to the install from source about perils of namespaces (#374)
+fcfd230b395c2000fef62545564e2bfeb26296f2|2019-07-20|Carlos Azaustre|update segment key for Production (#375)
+44e131809ba35ddbcb68704af999e0ce9ca08187|2019-07-19|Paul Nation|Update Advanced Usage of IBMQ to latest provider version (#378)
+62dd60a1cd45a1d49b8238a5d26ef82b3b7e59b0|2019-07-19|Matthew Treinish|Fix small typo with versions in install documentation (#373)
+e64b2b3ef43858b5544b433b17f23f6308cc0bc1|2019-07-18|SooluThomas|Fixed typos (#372)
+22f8576697103ab6d1bc8bc3c2d81ec9300022e7|2019-07-17|Kiran Johns|Added windows install instructions (#370)
+0df10045a4bdb441acd8d6743e6c716f7f4051ac|2019-07-16|Laura Zdanski|0.11 IBMQ Provider Doc updates  (#367)
+097ff167b0c6716fb9db3720b2dd49985d905f36|2019-07-16|SooluThomas|Updated Broken Links (#369)
+96956a99b97020e3473ca4765f01064885df80bb|2019-07-16|Matthew Treinish|Remove workaround for upgrading from qiskit < 0.6 (#304)
+8e5a958150a14c197109039b015a30abf2d33c9a|2019-07-15|Juan Gomez|Update Aer and IBMQ Provider dependencies and bump up Qiskit metapackage version to: 0.11.0 (#364)
+0fcb4622518db1dfe824fad0281844885737b275|2019-07-12|Matthew Treinish|Handle missing qi modules (#368)
+605b39533909ed4e54c3718384a319be1bfdae3f|2019-07-11|Matthew Treinish|Add pypi automation for releases (#365)
+ccc9c464a02ed274ca4a6e295ded73534f5b7cc1|2019-07-05|Steve Wood|Fix links (#362)
+cff790333bfd4a77aa1c84e437d9981a39b85753|2019-07-04|Steve Wood|Aqua documentation updates and fixes (#360)
+870d10489c955dbdf598a8bc6701eb3b15614bdf|2019-07-02|Raban Iten|Added benchmarks for isometries (#315)
+d934be55d2b8cee279a19e713c48c2916ad02216|2019-07-02|Kevin Krsulich|random_circuit_hex benchmark backwards compatility (#358)
+c40c7a1e1d83591c0791edf73e31bf415e83e909|2019-07-01|Albert Frisch|update doc on mcu1 and mcr gates (#357)
+0349e61a6ac3ca956490ec222cafb1daa3271f43|2019-07-01|Zoufalc|Include the NumPy based discriminator in the doumentation (#324)
+9f52e1b30e6a2d97ddc39be184ae092ecb1eb6d1|2019-06-28|Shaohan Hu|update oracle doc after pyeda -> sympy (#356)
+ecd5949fc1456470dc28dc7d0b4fa9425c03e7ab|2019-06-27|Laura Zdanski|Typo fixes (#354)
+f025fe4133d429abfbef8dd8a926b0ef39499b47|2019-06-27|kanejess|Typo and grammar fix for Terra Overview (#353)
+2983f97f3a0deb07682efb47ea8003becdf52bd3|2019-06-27|Matthew Treinish|Bump aqua version and prepare for release (#351)
+b612613ec1f1bfc42c2b2cb93d5bd313b65c5c7f|2019-06-26|SooluThomas|Updated default gate display color docs (#349)
+4e0b5ac87757f4fba61ec702694a966bed951506|2019-06-26|Carlos Azaustre|Update Analytics tracking code (#350)
+df5af8971cc417776260a20820588b8406fb9f01|2019-06-25|ordmoj|Updated broken link to Contributing topic (#347)
+14c84adafb4697d0c892c2f889dfd977a7f05453|2019-06-24|Kevin Krsulich|Random circuit hex less random (#344)
+e53871b96b767380eda98fcb800c17f332a3158b|2019-06-24|SooluThomas|Added .mailmap (#340)
+c54e34f1e72062f0491b8fa7b715ec7bdff97704|2019-06-23|SooluThomas|Update Contributing-to-qiskit file and fix typos (#346)
+6daab7c86d5c2dd80e1c43870106cb678734037c|2019-06-21|Matthew Treinish|Fix edge cases and cleanup generate_authors.py (#345)
+e8faf8d6868b5d2af59b4c66a72f1395ce622b62|2019-06-21|Kevin Krsulich|Add first benchmarks for circuit construction and composition. (#343)
+86d75c954e8c29d70732e4c14f2a0cfb837cf938|2019-06-21|RohitMidha23|Fix for issue #310 (#322)
+9dc2eb9f35b0fde89aa0f4c16ce6f6e496d7f466|2019-06-20|SooluThomas|Fix broken links (#338)
+7d7a693d0aa5178149c763c90534f8a9d0e5c57c|2019-06-19|SooluThomas|correcting typo (#337)
+8c3561aec1498a922f36125998356aa0623a0d35|2019-06-19|SooluThomas|Typos (#336)
+7fa9b47c0b306535bba560c0ad1591af494f5d5b|2019-06-19|Carlos Azaustre|remove test analytics script (#334)
+d5faa6e6a4858193e31183787e1fa471aa5a4125|2019-06-19|Carlos Azaustre|move analytics code to header (#333)
+b89e984de5029c794e332a47c74b930f421d55c5|2019-06-17|Matthew Treinish|Bump terra and prepare for release (#332)
+cc4fbb724d886e1449ca23beaa2d1c97cf1a7681|2019-06-14|SooluThomas|Unify python codes (#330)
+42ab2cee4cffac925f307b248bead166a319a745|2019-06-13|Carlos Azaustre|Feature/milestone analytics (#325)
+437b170444149bd89dc20c2d1c3158a5b7b20735|2019-06-11|Marco Pistoia|Fixed typos in contributing_to_qiskit.rst (#323)
+073f92a0a642d24d8eee7cb69d6c7d4ed7f674ed|2019-06-10|Matthew Treinish|Add source installtion instructions for missing elements (#318)
+56c64adb3d4aef93761a37910088e82ef774120a|2019-06-10|Paul Kassebaum|fix getting started (#321)
+b897d5d0dd368da60f76aadc6f29b96313f96b9c|2019-06-10|RohitMidha23|Fix for issue #319 (#320)
+8ec9b6a79ed7deff1ef00957311dd6bf41e39efd|2019-06-10|Matthew Treinish|Add documentation on installing aer from source (#317)
+af6b2f17129dca3fb86f01898a4dead882f9107f|2019-06-10|Matthew Treinish|Cleanup terra install doc and fix broken links (#316)
+557344a39b16bfa360db1d4a21a14fc49c546b86|2019-06-07|Matthew Treinish|Move CONTRIBUTING.md to top level (#314)
+1bb7ba8ed3198f6a1a6b52ed1674a6441501785a|2019-06-07|Diego M. Rodríguez|Adjust name in AUTHORS (#312)
+9250863734929777f9861c03dc6aeab78d797905|2019-05-29|Matthew Treinish|Bump terra and prepare for release (#309)
+a5ddc7d6cd6a4ef2b6847b48fb27c34d726f9276|2019-05-28|Matthew Treinish|Add version table doc to release notes (#307)
+d9c69c70cc76e1a5040d8d8621f2e7b07bd7b0ef|2019-05-28|lerongil|Update development_strategy.rst (#305)
+301b7f01a9732b03b76d76e3b8abaf075bb6c7a9|2019-05-24|Matthew Treinish|Bump aqua and prepare for release (#303)
+854f66eae91bd373949ff830b5488b57ee3c4ad4|2019-05-24|Juan Gomez|Bumping up Aer patch version (#302)
+7e24acc6c0fd6f0c49ae92a5831281fd9abf357d|2019-05-24|Matthew Treinish|Avoid using FakeMelbourne from qiskit/test (#301)
+18eebdd2bce3d8632dcf785c097839d09a94197f|2019-05-24|Jay Gambetta|Update release_notes.rst
+64254c7e232b866e577b6a13b24f55ede9590f06|2019-05-24|Ali Javadi-Abhari|Update all benchmarks to work on Terra Master (#276)
+6aeb43897b665169dc2837161c26ab1ed385358b|2019-05-24|Jay Gambetta|adding new components (#300)
+4a047dbd4e90e5bf3e791ac61adbd1f0b6f50120|2019-05-24|Jay Gambetta|cleaning up  - removing 0.6 history
+73650dbf69cfe4291adbe3c15e0a31bfb13c1abb|2019-05-23|Paul Kassebaum|update install instructions (#295)
+35909c9312ac804bc584601c941e3fdc53cea9de|2019-05-22|Jay Gambetta|Update overview.rst
+0205447e8982bc8f8755d6b24f896d0aaa4b9b54|2019-05-23|Jay Gambetta|Update development_strategy.rst (#287)
+52863c3879e4e45a0aec2ef4ad1022c89857db15|2019-05-23|Jay Gambetta|Update overview.rst (#292)
+9541799ca10ee028daff85c554485490baafdb70|2019-05-23|Jay Gambetta|Update index.rst (#291)
+943b02c71afc82c2a5fd4868905bb216550a5393|2019-05-23|Jay Gambetta|Update getting_started.rst (#289)
+5e5ac59fc8bacb45965497db7e257a2739a26c1b|2019-05-21|Paul Kassebaum|add style guide, clarify instructions for building doc locally (#286)
+78ee8da22dca0d9b4bbacc84efc2bd0a8135caf6|2019-05-21|Carlos Azaustre|Bugfix analytics: Added more options to track (#284)
+ff2ab13ed86219f6736454e78218a2c989d76e04|2019-05-21|SooluThomas|hone getting started (#279)
+abb55f834e0993b8fdcd28d01889000d9b8cc91d|2019-05-21|ryan-woo|Fix a typo (#283)
+133d3cdf41813a8bc105bf3717791de4efeff018|2019-05-21|Carlos Azaustre|Update productTile and category for Analytics (#281)
+a226d79bd49315b2e0c7ebd7e241c7c3cc08a7f7|2019-05-19|Paul Kassebaum|add transpiler to doc (#275)
+973296ed0d238b8c23f86ef846b4064f8856cd81|2019-05-15|Carlos Azaustre|added segment analytics code (#269)
+fe91da17f804eec7ebf3a5eabcb3030b5d09726b|2019-05-13|Paul Kassebaum|document Terra 0.8 circuit API updates (#267)
+41731e02c3e7a8b8dfc3b4afe500987e951ac3ad|2019-05-10|cclauss|.travis.yml: The 'sudo' tag is now deprecated in Travis CI (#265)
+c668ea9c10e0780f4b2b3e689dc7d207798ade4c|2019-05-09|Paul Kassebaum|update terra/plotting_data_in_qiskit for Terra 0.8 release (#263)
+fe832d77465750744aa09be50bf23cbfaf6641e7|2019-05-08|Albert Frisch|Doc updates for HHL rework and ExactLSsolver (#230)
+a235037c328f419987d566e2aa2d479c0acff56e|2019-05-08|Paul Kassebaum|fixes various typos (#262)
+7993e81abc9f2f75378bcf48ad35f74942d80af1|2019-05-08|Shaohan Hu|add doc for relative-phase toffoli gates rccx and rcccx (#256)
+d750bfe18831adbf9f46d8308f9c799d517ecc5c|2019-05-07|SooluThomas|Update design Ignis Framework Schematic (#255)
+65429983f720082e00b90345bc56e30df8f3817c|2019-05-07|Paul Kassebaum|merge release notes and make coherent (#257)
+878ce15129c55c8891002378dd29832c875f7268|2019-05-07|Diego M. Rodríguez|Update files for 0.10.1 release (#260)
+d685032ef84c976359fa5e644faabbb1fdd5d428|2019-05-07|Carlos Azaustre|Update tutorials broken link (#258)
+41012f324a446654aed32ffc158283115648fb27|2019-05-07|Matthew Treinish|Update the user config docs for all drawer backends (#246)
+7a0d051411e5ade8545b66e48a62730f7dcecdad|2019-05-07|SooluThomas|update Contributing for Qiskit 0.9 (#251)
+6e3a292ac931a382d4064f723ce77b22922d8688|2019-05-06|David McKay|Update Ignis  (#243)
+babce061d44da36d36562be881ba0e4921573f52|2019-05-06|Paul Kassebaum|update Getting Started for Qiskit 0.9 (#248)
+ee8e652d414048fd95e0c155f2111b51fd9e0a3a|2019-05-06|Diego M. Rodríguez|Update files for 0.10.0 release (#244)
+cb9d0e10107fe1357491c3e5c0d862b7e9e7ddc6|2019-05-06|Paul Kassebaum|Aqua is now included in `pip install qiskit`. Doesn't need its own pip call. (#247)
+60e4e26768df56ddcb902f6ab70549dc3ac64ab8|2019-05-06|Yehuda Naveh|update generate-authors (#242)
+6b413401e8cba976f1512a4b86c1754305722acc|2019-05-05|David McKay|Update release_history.rst (#241)
+bd808cce57e4f208c3afcdcd80f628a5ecef9baf|2019-05-03|Matthew Treinish|Update docs metadata (#233)
+348b86b69a5e3273ea3896e69ed7087c3bd4d62f|2019-05-03|Matthew Treinish|Remove stray rebase line (#231)
+b566d216a1413cf70e4bf575f70edb264b2f9757|2019-05-03|Matthew Treinish|Switch docs jobs to run on Xenial with Python 3.7 (#236)
+feb39b4e8f942c2ab83d554b68112418f0fbb322|2019-05-03|Matthew Treinish|Remove aqua and chemistry as separate paths from autodoc build (#232)
+490b3b29e03a846dd27a358de7f1176f788c41aa|2019-05-03|Zoufalc|Update optimizers.rst (#188)
+61994664e3138aa5700b380e1d3cce8dee4935bd|2019-05-02|Jay Gambetta|Update README.md (#228)
+2d6fbe1b2a86cc82983067e538dc00050b141383|2019-05-02|Matthew Treinish|Continue Terra 0.8 release notes (#213)
+6dd1d228467b3a8d58653a1848097ef9a979b9b0|2019-05-02|Matthew Treinish|Add aqua and chemistry to tracked components (#185)
+4b295d4f10b3281e8f45c5fce6902650256c3659|2019-05-02|Paul Kassebaum|update Release History (#221)
+d6b1209c2620ea25c31b238c6f1e3a596d0f99b1|2019-05-02|Matthew Treinish|Bump released package versions and set meta package version to 0.9.0 (#227)
+af7d13d24fba277d44fc769fb54c50c04292986d|2019-05-02|Paul Kassebaum|closes #98 (#226)
+86bc3c7fd77499cb0897c450a029100d73b8b0ab|2019-05-02|Paul Kassebaum|Add alt-text to all images in Qiskit docs (#225)
+e2962a89b2627ce5987c419dcb5051135fe21529|2019-05-02|Paul Kassebaum|order of elements to install from source (#224)
+8e6d818591da4024784bfec8d5590d899b3e9040|2019-05-01|Paul Kassebaum|add FAQ (#219)
+c2d0c0a5a2c27446cbe3067466dc41d12b726f7f|2019-05-01|Matthew Treinish|Bump terra version and prepare release (#217)
+6e5d1e0b0f53f16b8a4e0e3cdcb71631cb711a62|2019-04-30|Laura Zdanski|Update Install from Source instructions for Qiskit Terra (#207)
+2e198720ae25ce3c19716cb304de38a9fde27e0c|2019-04-30|Matthew Treinish|Add documentation for the user config file (#216)
+cc9acbdf50775feded82530d98383b1ad2079545|2019-04-30|Paul Nation|Update Copyrights (#215)
+3bc7bc3538de5edeccec4b625213ac4d76ca2f76|2019-04-30|Travis L. Scholten|Qctrl blurb (#214)
+d7d99cae8dc8be03f55bb3103bd63b3f5e076f3c|2019-04-30|HNorlen|Documentation fix for broken link to jupyter_backend_tools.ipynb (#208)
+f1c3b63b23f912c1026dc886a723b58cf0c3b3df|2019-04-29|Shaohan Hu|Edit docs regarding Variational Quantum Classifier (#210)
+91d2aeffb8d17f5b500db5307ad1566dea6db80f|2019-04-29|Matthew Treinish|[WIP] Add release notes for Terra release 0.8 (#211)
+7ded5245b245b9b1156d2465f9a47771c7de4b7a|2019-04-24|Travis L. Scholten|Fix typo in docs (missing backslash for T-dagger gate) (#206)
+48f5d40a9c3e5aa22c1f8dd5b6001b8489aa45ea|2019-04-23|Shaohan Hu|edit shor's doc on the added integer param `a` (#205)
+8fc8b23fc35fadc60dc9044632181c0307bc69ae|2019-04-23|Matthew Treinish|Remove randomness from random_hex_circuit_benchmark (#204)
+ff5df697ecb2dc54bcf7e0f67f3b4b58381cceb2|2019-04-22|Shaohan Hu|add doc regarding mct's basic-dirty-ancilla mode (#203)
+3e07cb848ee2045b3d49a499021dabd97fe7cc6d|2019-04-22|Shaohan Hu|add doc for custom circuit-based oracle (#202)
+7b4a8bd771118c9649b7b6e5e90be34ca477f22e|2019-04-21|Matthew Treinish|Add depth tracking to random hex circuit benchmarks (#201)
+6c236aea1ccba9c97e72ca3884600b9dee72a43b|2019-04-17|Diego M. Rodríguez|Add source links via sphinx.ext.viewcode (#200)
+d756ca77b4ab473d0bc72457a533c89e479b592d|2019-04-16|Shaohan Hu|add simple doc for Shor's algorithm (#199)
+520d073dd362e5d62f40268c34c4dca2e82a8a32|2019-04-09|Richard Chen|update doc for aqua variational form (#192)
+26af9c4135b4e8e02c1777cbcaee4a8db71c43eb|2019-04-09|Laura Zdanski|Update install instructions (#195)
+dd97a324a4065e09bb5426eac1a7805e3d46c477|2019-04-04|Laura Zdanski|Fix broken link (#194)
+f138ca9a70e1551039073e4f0ded69f0a2cb3e4d|2019-04-04|Shaohan Hu|Update doc on Aqua's circuit collection (#191)
+edc95ddc1e3573f1700731b55fd5c6993b0bffca|2019-04-02|Paul Kassebaum|fix link to Aer contributing guide
+edad3d28ee18aa0d8af65fcafde01c1d4ae7a6c9|2019-04-02|Shaohan Hu|reorganizing docs after circuit library refactor (#189)
+56f8aa25077c33e050671965450be9ee4caa6f3b|2019-03-20|Alejandro Pozas-Kerstjens|Add information about qiskit-aqua/#406 (#183)
+b4d88d0f5c4e92a3ec96ae831ada3f4d66e393e9|2019-03-18|Carlos Azaustre|Added search box and search results page (#181)
+5db8ea17b25b67b5cc98051790192910e43f3404|2019-03-17|Matthew Treinish|Add docs for the new __qiskit_version__ attribute (#182)
+1a2816723273b41e83ada6f361b3a19dc77e6cf3|2019-03-14|Carlos Azaustre|Bug fix on tutorial tab (#179)
+0e5096f0bb0e02b6b215dc1a2dd303246fbeeecd|2019-03-13|Carlos Azaustre|added tabs to header (#177)
+70850edbab1928d90215c8a83ccc558d9b116c17|2019-03-11|Yehuda Naveh|Added ignis to the auto-generated authors (#174)
+0fae6a0f1fd3ff33904b8876969c8b5ce7494ce5|2019-03-08|Paul Kassebaum|redesign Ignis framework schematic (#172)
+74f4194d9f123c4d25ce7ac4247f9c0efc74901b|2019-03-06|derivation|fix styles in Ignis doc fixes https://github.com/Qiskit/qiskit/issues/169
+e60db5cda690c13189ea0dce9ac82bb8b655dbb2|2019-03-05|yaelbh|Qiskit documentation for characterization (#160)
+d8482134abd9fe96af9e755156d7fe76b3934a04|2019-03-05|Paul Kassebaum|publish Ignis docs (#165)
+10850656b1ac368a5fe1a433ff77b3373163f829|2019-03-05|Matthew Treinish|Prepare release history and changelog for release (#168)
+8a4c837cefa7ee20cea579217ac7b4a5a3cc5201|2019-03-04|Matthew Treinish|Bump qiskit-terra version (#167)
+334645c09e98f9a8ce1a97b8948618f417292399|2019-03-04|Matthew Treinish|Add ignis to tracked elemnts (#164)
+e430ff0290ede71ceb70f0e97f62fe303c86e8a2|2019-03-04|gadial|Initial documentation for tomography (#157)
+5e4d1fb719594c58914b8a0c2bc5c698f9a04701|2019-03-04|Matthew Treinish|Add CHANGELOG file (#163)
+b51a6ed160a35a39685cb815f82b3344f50ca6ec|2019-03-04|David McKay|Update to ignis overview and fixes to measurement and rb (#162)
+9fc36a232e720a606b006a16346b3e4cf855d2c0|2019-03-01|Jay Gambetta|Update development_strategy.rst
+b593cdc7446808e4ea2025fd248f57b38d804183|2019-03-01|Jay Gambetta|Update development_strategy.rst
+3ee51a073546c3ef27aa56214c11d1e0930b2ea7|2019-03-01|Matthew Treinish|Add asv benchmarks (#30)
+dad99f6a4356785ce10f93d0bb580eb6c27a2417|2019-02-28|Shelly Garion|RB & measurement calibration documentation (#151)
+83a5788a8d6396b7220c1932c62a5a55af9f12be|2019-02-28|Paul Kassebaum|add development strategy section (#158)
+91b00f90916d6e36f8de684c13d7bd412e54caf5|2019-02-27|Matthew Treinish|Add constraints to pin pylint to known working version (#159)
+be2c4ac1181f37a7fc82c3f9fc4bc55dd5121691|2019-02-27|Travis L. Scholten|Update community page for CQC, and make a small formatting change on roadmap page (#154)
+93c794b48e00cdc75f67c50f2f1899dabd1f2c54|2019-02-26|Matthew Treinish|Add DOI to generate_bibtex script (#152)
+7361fb24cda0a6a1080e1934baf9816c58122916|2019-02-26|Matthew Treinish|Pin versions and document versioning policy (#146)
+35109c11f30eae28667e11db61800108caf1586a|2019-02-26|Paul Nation|update windows terra build instructions (#150)
+e671646b71dad81893c859731e07ea9fa0323cde|2019-02-26|Jay Gambetta|QI Provider (#147)
+a5c80fb017835432ea5ac9032f2cd6580d854cae|2019-02-26|Jay Gambetta|Update install.rst (#142)
+e258b73881b0bac7115ad94d4f2e16f7677cf849|2019-02-26|Carlos Azaustre|fixed ident styles on TOC items (#145)
+424e9286a2c9d3824986c7a779329fd22ff91c3d|2019-02-25|David McKay|Adding ignis placeholder docs (#139)
+809be46a42b878ff497a307055077981df9da58e|2019-02-26|Yehuda Naveh|Update community.rst (#149)
+5317dfeda6077fde352f7f59da669d92e3c1e4f1|2019-02-25|Juan Gomez|Update install.rst (#148)
+767c3db2fba6725267c10abb183d6bce5d1cdfc3|2019-02-25|Jay Gambetta|JKU provider (#140)
+dee07f95f2c9465e3e2aa48f022b16d52043ab0f|2019-02-25|Jay Gambetta|QI provider
+9b8c09cd43215404563c3f014aa708de07eca363|2019-02-24|Jay Gambetta|Update CONTRIBUTING.md
+5170f106a05ff57cdf89686bec92ae2aa3c64553|2019-02-23|Jay Gambetta|Update install.rst
+2fdba884b2decaa38fc38315e04c1500e54e6218|2019-02-22|Jay Gambetta|Update CONTRIBUTING.md
+58883345cbefa58a1f3dd7b9f2ea301530fc4886|2019-02-22|Paul Kassebaum|matplotlib circuit drawings in Terra doc (#137)
+cc24a4c2e19a260a2a94b45c7dda7eab97d171bf|2019-02-21|Paul Nation|Terra install docs moved to main docs (#136)
+cb9a78fc981ccc5423069a72762123b7ad6c7586|2019-02-21|Paul Kassebaum|fixes #133 (#135)
+8c6a5db6199b5a060e8ef0b11908ca2e02575c48|2019-02-21|Paul Kassebaum|Add instructions on how to create a provider (#131)
+29964c54d61cff639348422136ec9442b5aa095f|2019-02-21|Diego M. Rodríguez|Add note about working with multiple repositories (#132)
+64aec17b9d2b215e39514d4c48efb5e7b8fea56f|2019-02-21|Jay Gambetta|Update README.md
+8626dd4f5a302bec7c032d579f3e9bd5a1f1d82b|2019-02-21|Matthew Treinish|Add doc8 run to CI and lint checks (#52)
+5b5ff2aebb69c2f1b66e45ad6d542d75045e9906|2019-02-21|Shaohan Hu|Update docs around Oracles (#127)
+572a32edc43a0e766347fbaaf33448ded9b10ce9|2019-02-20|Paul Kassebaum|fixes image reference in getting_started.rst (#130)
+354bf8beee9ee06e0ce8a23fae02b6cb7f0cf45f|2019-02-20|Paul Kassebaum|circuit draw style as mpl in docs/getting_started.rst (#128)
+59200ea843c32c1d0d1d3d3d620916d99cf23bc5|2019-02-19|Carlos Azaustre|styles for topics (#124)
+0dc82e8e0305291b91e9076a0395018af5e32086|2019-02-19|Paul Kassebaum|Removing installation from under aer (#122)
+cfe182f0b27e5dc0a68611eaac9b528810c0a1dd|2019-02-19|Jay Gambetta|Component status (#116)
+e27af3ec3cd437a0bac3259fdfd2134f174869e7|2019-02-19|Salvador de la Puente González|Issue 78 fix meta for latest pip (#119)
+b2378bb9c2805a1aeb97f26b8ed31c1493471600|2019-02-19|Carlos Azaustre|Fix/101 documentation header (#118)
+94e577cbb3280ee04a44e6a7ba12c3334eeb4919|2019-02-18|Jay Gambetta|Update README.md
+69d8496085d296113ad574de2e47ccfbafb5804b|2019-02-18|Jay Gambetta|Update roadmap.rst
+6b61a4eb3018752ccc054e1443c7b4313eae1dee|2019-02-18|Jay Gambetta|Update community.rst
+e268bd14a48d2d3db8975fc2bb212bc5b18e1a0a|2019-02-18|Jay Gambetta|Update community.rst
+90f5ed2c6fb393882013e912dbd190b952aa0c38|2019-02-18|Jay Gambetta|Adding a community extension draft (#115)
+8ae7d5f77753c6dc97f672275697a939a477fd66|2019-02-18|Paul Kassebaum|added Contributing to Qiskit section to top ToC level (#117)
+9227b3262384959a9c90df27389ac4e1a1a95c06|2019-02-18|Paul Kassebaum| honed Installing Qiskit, removed Visualizations from global ToC (#114)
+681b094e411b72051a9f6a651e808a3aa18c994b|2019-02-17|Jay Gambetta|small edits (#109)
+fa9d976761bfa7367896758c1c440f2f0ebef835|2019-02-17|Jay Gambetta|Release histroy  (#110)
+5e835570de435e1e9a2dcac9f59ffe81dfc303da|2019-02-16|Jay Gambetta|Update README.md
+0e9725d88e6c6cf1bc690a35f7fa48db80dd5200|2019-02-16|Albert Frisch|add docs for Aqua HHL algorithm (#103)
+ca694082ba389f53a91ac9532e6dfe48ab66d821|2019-02-15|Paul Kassebaum| simplify the ibm q provider documentation fixes #86  (#105)
+c80b109bec9ab682c4b1d4a27f79403244b67d46|2019-02-15|Matthieu Dartiailh|docs: fix typos in qiskit-terra docs (#104)
+ab14a6f118a3f247a0d06951552fdf8e7e53a159|2019-02-15|Paul Kassebaum|remove Troubleshooting section in global install doc fixes issue #97 (#102)
+a341df02eee3a54729d368c35fa0d7b62d00ab33|2019-02-14|Jay Gambetta|Update index.rst
+70bf150d891f17c60f73a1daa7f1db63fe296a85|2019-02-14|Jay Gambetta|Update index.rst
+30b3790659252d91868b911b3aee59eb87e34f16|2019-02-14|Paul Kassebaum|update global install instructions (#94)
+dc537fd20d30b9aa185914cd783a489b4381e61d|2019-02-13|Jay Gambetta|Update index.rst
+ee82ac807bbd3f66eae8959afc668f4e102c8dcb|2019-02-13|Jay Gambetta|Update roadmap.rst
+be84f64191a5b9a2c4b44e352a3ce460bdba681a|2019-02-13|Paul Kassebaum|moved Aer tutorial images (#89)
+9804d9268abf20333c36425c74e977f2b7a11e95|2019-02-14|Diego M. Rodríguez|Render private documentation members, other fixes (#90)
+b2f4b2175c3472767c340a58d9afe32eb4b6d1e5|2019-02-13|Jay Gambetta|Update pic (#85)
+daf07361408c85c1bef567c62959eea03d5bd98a|2019-02-12|Travis L. Scholten|Make proofreading changes in roadmap (#81)
+3c4912bef364aa5b1bcbb6fa4338b0cec8d3fc3f|2019-02-12|Paul Kassebaum|Added doc to Aer under /docs/aer (#41)
+c499450651a6d96ae0eae65459a96e2857a11473|2019-02-12|Diego M. Rodríguez|Replace travis badges for .com (#77)
+f0f336702fce290d19cfdebdd080c413d8546498|2019-02-12|Diego M. Rodríguez|Rename aqua/aqua.rst to aqua/index.rst (#76)
+4235da1ddd81f3f74bd8d0999ca3830f75ddc8f6|2019-02-12|Steven Oud|Fix typo: ploting -> plotting (#75)
+6f84e6a75d2ca1122dc97254e3186ef55774f351|2019-02-11|Juan Cruz-Benito|Adding a DOI to the BibTeX file (#74)
+467de5e8e8aaf7b63ebd673cbc538045d1973581|2019-02-11|Diego M. Rodriguez|Fix travis documentation trigger
+9e34a4d012be022eafa0cb036f8e73cbe5517844|2019-02-11|Diego M. Rodriguez|Enable documentation deploy on master commit
+cb157bfb3c06c7fbfe7e176ab3cce67dce9f7d97|2019-02-10|Shaohan Hu|add doc for Aqua's logic expression support (#73)
+1b9eb5bf294529eb53d093002274aaa77cd5e75a|2019-02-08|Diego M. Rodriguez|[doc] reintroduce auto creation of target dir
+220bbaf1ddc1f6479e5d82d1cd15f0d2d4ab00dd|2019-02-08|Diego M. Rodriguez|[doc] commit for testing autopush of docs
+8545c5e5cf05f484810482bfb54e0be95ab6ef7d|2019-02-08|Diego M. Rodríguez|Add script for deploying documentation (#72)
+8a1a857491d2f93347bcaa12d8cde0bff3a371c3|2019-02-08|Shaohan Hu|Merge pull request #71 from tigerjack/mcmt-doc
+6d02948ead1eab50e0107d90147eceae2fd740e5|2019-02-08|Simone Perriello|Improved mcmt documentation
+5b23f759059eabab6ab51ccb7bcd65e49ffcf2fa|2019-02-08|Simone Perriello|Added docs for mcmt gate
+dc882326116b44a727c013364f0b8bfe99e84ff6|2019-02-07|Diego M. Rodríguez|Update makefile with autodocs, additional tweaks (#70)
+ac3afcb4c1ec05d1a854c2c573d7800811ece721|2019-02-07|Marco Pistoia|Merge pull request #69 from Qiskit/grover-init-doc
+96df7e0d4f986f1f5feb9a8a4e02469d1029fad0|2019-02-07|Shaohan Hu|add doc on initial-state support for grover
+731178c3c869b11405a25f11d6490dfafdd6e7a3|2019-02-06|Marco Pistoia|Fixed typos, removed duplicates, authors listed alphabetically by last name (#59)
+9dd5ba9cadbd0532560c2d121ca6e5ccfafb0ae0|2019-02-06|Matthew Treinish|Change bibtex script to sort by last name (#65)
+3d056a3f03640593fbe5f2a5b737af1b3321af80|2019-02-03|Jay Gambetta|updating contributing.  (#63)
+93e804eab3f4d74512c9bd66cd3b16f5156ff256|2019-02-03|Jay Gambetta|Small changes to contributing. (#62)
+e98b70693215932efa9d0ed730a41fbc124294ed|2019-02-03|Jay Gambetta|Master (#61)
+25536a8634870cdacdfc6aaa1840102dbc4c8ba0|2019-02-03|Jay Gambetta|Update generate_bibtex.py
+fc49b9f408a80eaf313b2675945031d5ae5e11a9|2019-02-03|Jay Gambetta|Update README.md
+698749874b67db7614c9c540dfb705e410190e76|2019-02-02|Jay Gambetta|contributing to markdown (#55)
+ac6e7190d68dda00f824f71039bfdd79887a3ec4|2019-02-02|Ali Javadi-Abhari|citation info in README
+94b47a086d49b0fb448e12847bdd1cdbe2ab449d|2019-02-02|Ali Javadi-Abhari|Merge pull request #26 from mtreinish/authors-script
+a67721cefda3b00f52891aea51f97d538997d7b7|2019-02-02|Ali Javadi-Abhari|Merge branch 'master' into authors-script
+7524ddd0a80c061c5bb31ca617c142ff33a6f861|2019-01-30|Marco Pistoia|Qiskit Aqua, Chemistry, AI, Optimization and FInance documentation (#49)
+0e98cc3913738d5a5710fddf3c08a04f8935a855|2019-01-28|Matthew Treinish|Merge branch 'master' into authors-script
+4c6998c031c4c6a00f405a9e72f6f44501e2fa80|2019-01-25|Diego M. Rodríguez|Update long description (#50)
+836550b59a19d4e7f80b80fa873f771f590d3fa4|2019-01-25|Matthew Treinish|Rename pep8 tox job to be consistent with terra (#33)
+87ee13bf3dbd735e990b9b816a744bda563c620d|2019-01-25|Matthew Treinish|Merge branch 'master' into authors-script
+7d10c1adcca42a90ca4618c722799b0c5e690bc2|2019-01-22|Salvador de la Puente González|Overrides the command `bdist_wheel` to fail. (#45)
+666f542e5f814e6adc1a318de7563ef6345e3ad2|2019-01-17|Zlatko Minev|Typo in getting_started_with_qiskit_terra.rst (#44)
+ac6ee8b3def152b16895f1343579406a190b4513|2019-01-17|Maddy Tod|Update README.md (#43)
+ce9c40bc62e20e6292bb886f71769d80ea689b8a|2019-01-15|Salvador de la Puente González|Forces reinstallation of qiskit-terra (#32)
+c1e74b7257a3d77ba194954c711251e0a0003383|2019-01-14|Jay Gambetta|Update issue templates
+66d3c5a2e1d10cb4cf0522ae745c9e4a99bb1e4b|2019-01-14|Jay Gambetta|Update issue templates
+d24c0fb221ba8627a5e91cf1a4fdff45e0b3faa1|2019-01-15|Diego M. Rodríguez|Include terra docs in main toc (#38)
+932d03d2a76e3f819758d95c88fc700c744553b2|2019-01-14|Jay Gambetta|Update README.md
+ea02c0fdaf5031e55b06c65c1ad10696c778ada6|2019-01-14|Jay Gambetta|Update README.md
+c1122002811b417b93c00a4812f6a8c110cf02e2|2019-01-14|Jay Gambetta|Update README.md
+bada00b8be5818c6074e5f4d061a421b60fbdb1d|2019-01-14|Jay Gambetta|Update README.md
+45b28df21d6a2fca2ced64d25973e4afb411ace4|2019-01-14|Jay Gambetta|Update README.md
+e846b58c266e23b475a16032357a455067e8b3d0|2019-01-13|Jay Gambetta|Update README.md
+73988b89498ae700cc878fcb2ab83e47f423b74e|2019-01-13|Diego M. Rodríguez|Update tooling to "docs", add terra to index (#36)
+89606fc6a1ddedfacd354b17de7534670ea46c34|2019-01-13|Jay Gambetta|Adding terra documentation (#35)
+72ad7135d090db96d20862ac536b369d2be07a7f|2019-01-12|Jay Gambetta|Renaming doc docs (#34)
+b75bdd4bf0a354bdd3febe4e918a22b93b10e093|2019-01-12|Jay Gambetta|Update README.md
+9f78090c1cd7558cc114459ae3156eae1e09f30c|2019-01-11|Diego M. Rodríguez|Add "autodoc" target for Sphinx autogeneration (#31)
+9f06e596b806b026032593fa5ed14bf57cdc03af|2019-01-10|Matthew Treinish|Merge branch 'master' into authors-script
+9c2727848c974aa317c021c753b222429805584f|2019-01-10|Ali Javadi-Abhari|Update Qiskit.bib
+7d40ee44fc07508136980bab82c48ab878aabc99|2019-01-10|Diego M. Rodríguez|Add theme to Sphinx documentation (#29)
+01e5dde2a6d651b3d26793adab88bdfd6878d35e|2019-01-08|Matthew Treinish|Update BibTex format and README
+3b9ae35a9880fb72e9e5b422163f5edd8b4ff77d|2019-01-08|Ali Javadi-Abhari|Last manual updates
+8736891c1d53be34c81b3b811024896e01db9e06|2019-01-08|Ali Javadi-Abhari|Last manual updates
+409738855f1435c1e753671ca5f3fa473560431a|2019-01-08|Ali Javadi-Abhari|More manual updates
+0437deb5b6c326758788af7ccdaee9a3debb9c04|2019-01-08|Ali Javadi-Abhari|More manual updates
+39c7b833cf88308315ddbd2464db90719ad46baf|2019-01-08|Ali Javadi-Abhari|Update names manually
+b7a2418a14525e0cbcf5d1385bc7ed3238cf468c|2019-01-08|Matthew Treinish|Split bibtex generation into separate script
+c970ffe84839517ea66894643a47eb9505791456|2019-01-08|Matthew Treinish|Add bibtext format and update dedup and repos used
+1de7c092055b7935ceeb7a9777f984f4c118b8b8|2019-01-07|Matthew Treinish|Handle duplicate names and emails
+a34c295a3fe391e53eff1b1c2224208773435028|2019-01-07|Matthew Treinish|Add script to generate authors list from git repo
+d17970b343dc94e6cf47d6ba9cae5c3f78178e9d|2018-12-31|Christopher J. Wood|Update Qiskit Aer roadmap (#25)
+ad845a7d765750d75ad9c28709ca343237cdf014|2018-12-29|Jay Gambetta|Update roadmap.rst
+79f62a0f662957ec87c806153c622936b87442c2|2018-12-29|Jay Gambetta|Update CONTRIBUTING.rst
+8cd2a4d636f075ff3d30a0d9096ef950a07b1ab9|2018-12-29|Jay Gambetta|Update README.md
+e1e79b0c8970103f3d1fc61f49b9545e689ade3a|2018-12-28|Marco Pistoia|fixed typos in README and CONTRIBUTING (#24)
+bf61c6331120208b1a0dbe037c5ba6f3b7906b09|2018-12-27|Jay Gambetta|moving into .github (#23)
+bd36bd3af945eb5d364b9c484df2b65ae5d97d6f|2018-12-27|Jay Gambetta|Master (#22)
+9fa463728bfc5acb8abe580ac486953bd9d514df|2018-12-27|Jay Gambetta|Create PULL_REQUEST_TEMPLATE.md
+8f2d85d09d0d47283af488e025a02b80fe494139|2018-12-27|Jay Gambetta|Adding template (#21)
+e368597935ee12655f866eb3f10e60c00160bc69|2018-12-27|Jay Gambetta|Update issue templates
+d8859052ee182c83ff988e12b8b1837e1b9997f7|2018-12-27|Jay Gambetta|Update issue templates
+b84ce813385a9ba4d559806285e9ab8a1a9da035|2018-12-27|Jay Gambetta|Update README.md
+c3f192540176be744b338ab6ca720c74ca899fbd|2018-12-27|Jay Gambetta|Update README.md
+7bffdfc10c7f16ea4c8f24707c90823108913169|2018-12-26|Jay Gambetta|adding links
+16ef92545f71b5fe601ec2f9709c1548c5d8d1d2|2018-12-26|Jay Gambetta|Update README.md
+f38717de110218f09679bd36bb1f769dd05514b7|2018-12-26|Jay Gambetta|Update README.md
+8c164f5d015d69fafee70a03552b945762dfcd97|2018-12-26|Jay Gambetta|Update README.md
+e5d18332d70c8ca0671d29f79c3c505f30336835|2018-12-26|Jay Gambetta|Update README.md
+2178aa10ebfc05e9ef7396f5309a24499ef868e6|2018-12-26|Jay Gambetta|Update README.md
+eede0af42fcb5f91860772a3925c670332a6b3c9|2018-12-26|Jay Gambetta|Adding cal (#20)
+37cff542c9bfcbc1e110c1e501f3a555201e74df|2018-12-26|Jay Gambetta|Update README.md
+a5bae5246b99daf68ca3c1c2320edc96de5624bb|2018-12-26|Jay Gambetta|Update CONTRIBUTING.rst
+e7b8413d6dd5132da40767f14e88e8c3c51541cf|2018-12-26|Jay Gambetta|Update README.md
+294745bf71e7b8c0f6769fae4259fb6590bd1a62|2018-12-26|Jay Gambetta|Update CONTRIBUTING.rst
+494209c551a96a23c9e3b8003b04014a4d7e29a3|2018-12-26|Jay Gambetta|Update README.md
+de89020f05282ebc8818c85db0a846beba5bae4d|2018-12-26|Jay Gambetta|Update README.md
+cc39cbe1d0ad2848d5f07ea7f3e97351a6dfe818|2018-12-26|Jay Gambetta|Update README.md
+f9099bdc1c14868978be24a30fd9e980f62f4227|2018-12-26|Jay Gambetta|Typo (#19)
+80f1a6d4bc8249a321234109d04fb38a5a4ba555|2018-12-26|Jay Gambetta|Roadmap (#14)
+05d25499848bac11e542daf267a4b701c573df98|2018-12-26|Diego M. Rodríguez|Add minimal "make doc" sphinx project (#16)
+2885300ec56e48c7f753969331a8f4e8a02c1956|2018-12-24|Jay Gambetta|Update README.md
+873bbaa5a4f365ee3df8910b870948a01d8cf594|2018-12-24|Jay Gambetta|Update README.md
+da0f2864ca27e03fdb44494e76ff187d5588d0d6|2018-12-24|Jay Gambetta|Update README.md
+306de5e289b244db39cda97c4846a7eb0433531c|2018-12-24|Jay Gambetta|Update README.md
+36a942bc7488306f080614847b9533f1ff55c84d|2018-12-24|Jay Gambetta|Update README.md
+658ca1e75a637dadc743e7a89b43cf9249d67741|2018-12-23|Jay Gambetta|Reorg of install (#11)
+f96be1258efedb73e4e105861aa7d9d7e45944ee|2018-12-23|Jay Gambetta|Update overview.rst
+ba93f6534a6228fee4d1222e1631d17db3000b37|2018-12-23|Jay Gambetta|Update overview.rst
+d92a44067242a8fd739e1c8c737262494b017427|2018-12-22|Jay Gambetta|Update README.md
+cb401d8df0cf2b167c93ae2ada3c15fd21a0a8fc|2018-12-22|Jay Gambetta|Merge pull request #10 from jaygambetta/master
+95f3f089c4945334a476eac04b4a087f04bd7296|2018-12-22|Jay Gambetta|Making the same
+267e482ed577c89ad8148714f9247dca59804769|2018-12-22|Jay Gambetta|Tag line
+965a33f88357e5cbc9c4f13f8e6f37a6b19b2499|2018-12-22|Ali Javadi-Abhari|Update doc/install.rst
+82a30c4c64cf88736bed0ffc90920aa1ba37ec63|2018-12-22|Jay Gambetta|Docs
+8d472fedb6b6aae57ea86ca8e8efd30a51c02e3e|2018-12-22|Jay Gambetta|Merge remote-tracking branch 'Qiskit/master'
+8ad3e06157145527f240f15ec1273dd894d88c30|2018-12-21|Jay Gambetta|Update README.md
+3c25f1ba001d0d44008141b3530516a111f70b4b|2018-12-21|Jay Gambetta|Merge pull request #8 from pistoia/master
+6f468ab24c620dfa96b0780e2f005676b0582003|2018-12-21|Marco Pistoia|fixed versioning link of Qiskit Chemistry, and added Aqua and Chemistry repository links at the bottom for people who want to contribute
+3599a243e89189cbe73d2c58b7e4bbf6cbaa135e|2018-12-21|Jay Gambetta|Update README.md
+47e6709dd266de3436b04fc223f464c9fd64520d|2018-12-21|Jay Gambetta|Update README.md
+b7a9125e9fcaa646395da407303126e6887ceada|2018-12-21|Jay Gambetta|Update README.md
+accf041a476502c2d8a58fdceffa9e0bba35fc1d|2018-12-21|Jay Gambetta|Update README.md
+82a3bd4cb2739c2602fb98e2ca781f1b019208cf|2018-12-21|Jay Gambetta|Update README.md
+4f08b25e228becb711b9423a51e11c119013bd87|2018-12-21|Jay Gambetta|Update README.md
+ddf9d34f8f4c7440794a51df8797d903d4312c41|2018-12-21|Salvador de la Puente González|Merge pull request #4 from diego-plan9/feature/simplify-tests
+e7ed0bac31b98335397364276c186977e6b9ded9|2018-12-20|Jay Gambetta|Update README.md
+6be56fb707e498ab206535a5d098106765d95248|2018-12-20|Diego M. Rodriguez|Remove unused configuration file
+e0c68520ccc2431de6ad7d1ac521afa244f7ce57|2018-12-20|Diego M. Rodriguez|Merge branch 'master' of github.com:Qiskit/qiskit into feature/simplify-tests
+5b6a19dbc284fb116163d27405385e71ba911958|2018-12-20|Salvador de la Puente González|Added GCC OpenMP 4.0 (GOMP 4.0) dependency for Aer. (#7)
+ba8463ef4f6a4152d09c1c5d04031aa2760a7322|2018-12-20|Jay Gambetta|Update README.md
+6804c5e27e146223587e467ace07ed970fcdee47|2018-12-20|Jay Gambetta|Update README.md
+d8b186ee675272351ff6208edc99a065d665b635|2018-12-20|Diego M. Rodriguez|Merge branch 'master' of github.com:Qiskit/qiskit into feature/simplify-tests
+350477bd5aef4f54e44bfab80b48e636a7871013|2018-12-19|Jay Gambetta|Update README.md
+7dba58dd11ef28877c1163dcb2b1f7c40bf01586|2018-12-19|Diego M. Rodriguez|Update tox using unittest
+5a5a9cf72cb60837f687632cfced1ef3d2ec6505|2018-12-19|Diego M. Rodriguez|Simplify tests, use only stdlib features
+6eb8e5651f788a44420f37a89c5bffde3b0b004b|2018-12-19|Jay Gambetta|Merge pull request #3 from mtreinish/add-pro-forma-tests
+f41cf3e975e9f7e46417670fb9a2c46ab7046096|2018-12-19|Jay Gambetta|Merge pull request #2 from mtreinish/tweak-meta-readme
+b1cf8e7c97c87a88644028dc22ae777a330a8c0e|2018-12-19|Matthew Treinish|Add pro forma tests
+1b6886a3b5d302b211c780596991b5136649868d|2018-12-19|Matthew Treinish|Small tweaks to package metadata and README
+a273a0dc7584ebd286594d83ba95b8979e76916d|2018-12-14|Salvador de la Puente González|Update README.md
+d3b7722abaaf1220b69ed238f788823fabc8299a|2018-12-14|Salvador de la Puente González|Adding explainer and versioning rules to the README
+18bcf46f5ead953a10434b8e6fe08e8289d51812|2018-12-14|Salvador de la Puente González|Updating dependency versions
+5d84d5935e5cb9438446ae264c4ba778308a87ad|2018-12-14|Salvador de la Puente González|Clarifying purpose on README
+acb67bfec3f29da6b3cab5d2f431ca5e7c6108e7|2018-12-14|Salvador de la Puente González|Adding license
+2844dd0d8e2680c10cc77fbf0444040e65d41a23|2018-12-13|Salvador de la Puente González|Merge branch 'master' of github.com:Qiskit/qiskit
+80c184a6b2aff4259db49e9330231d3d7c871490|2018-12-13|Salvador de la Puente González|Metapackage qiskit is now just a list of dependencies.
+32ba319a5760ae446f70fa716c724929d6d7ae98|2018-12-13|Salvador de la Puente González|Create README.md
+6bcf8fd1eb76ac4c6842c7a8901426080ff175de|2018-12-13|Salvador de la Puente González|Initial commit for the qiskit metapackage

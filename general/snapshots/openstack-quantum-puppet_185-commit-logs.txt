@@ -1,0 +1,175 @@
+f45be92f341bb5300eb96a0ca98abd281128beab|2013-05-21|Mathieu Gagné|Add puppet-lint to Gemfile
+df12cf6d61e6bb2d0ca140b7d36646ee6493bc1d|2013-05-21|Jenkins|Merge "only set network_vlan_ranges for vlan network types"
+c61f792d12b7043d8883204c9686caafae9e07d0|2013-05-21|Jenkins|Merge "Fix metadata agent for Red Hat distros"
+094c2ae8de7623a32682a25d723121275fd39db5|2013-05-20|Daneyon Hansen|only set network_vlan_ranges for vlan network types
+05d2d835466dc51e51717f1f7eee0ec7a231b3a4|2013-05-21|Jenkins|Merge "Minor changes to quantum::agents::ovs"
+84e99b2560ef98838d6e008850c55c944834015b|2013-05-20|Dan Bode|Minor changes to quantum::agents::ovs
+8efeb8253a1977c174c341690178fd3021d2908b|2013-05-21|Terry Wilson|Fix metadata agent for Red Hat distros
+91478f30a727ac30e6e0f254f44e69a0b131a339|2013-05-20|Dan Bode|Add basic gitignore file
+af56c7691fab243e4782491c5bd3b87cce4b3cd9|2013-05-20|Jenkins|Merge "Support platforms without quantum server package"
+17c25b8d82701f4aebe11bc1fd9d288b17b49960|2013-05-19|Mathieu Gagné|Support platforms without quantum server package
+1fab2b8da3efc5db6beaf0b71c793bd497273bfa|2013-05-20|Jenkins|Merge "Support platforms without dhcp agent package"
+fcd4b2e9af5ec4ebe19debb4dead5d2ea8b65bd1|2013-04-25|Terry Wilson|Support platforms without dhcp agent package
+8e6621641d2c983ae33dca32ade397a8c13332bf|2013-04-25|Terry Wilson|Support platforms without ovs agent package
+1ffb21b5aafde319442db3e6f2c3de67a17c1c7f|2013-05-06|Joe Topjian|Cleans up the l3 agent manifest
+22aa8a12c2f92c48392d5c86335bb60da6bd64be|2013-05-10|Florian Haas|Server: correctly set Keystone service password
+f64b6edef19c7882483089ce8b22e42c8013d20c|2013-05-10|Mathieu Gagné|Fix typo in quantum tenant name
+713f7b197d5b0e843f96747abe038b19fdbc2fbc|2013-05-10|Jenkins|Merge "Changes the server manifest"
+4853e58b935e86a1482f749ebc15204b1c626c18|2013-05-09|Joe Topjian|Missing Quantum linuxbridge param
+8a3c185f1cd9dec61f2e8df97e64b8a1651e88ae|2013-05-06|Joe Topjian|Changes the server manifest
+14bfcf7e5035aefcc24e870259271a054fec52e9|2013-05-08|Terry Wilson|Remove trailing commas for Puppet 2.6 compatibility
+0f0cb6a0dde819e81b7d01be984b8e4d9a0a2315|2013-05-07|Mathieu Gagné|Add quantum quota
+3611caded9b0f648909cda7ba42f85610a21d0dd|2013-05-07|Jenkins|Merge "Adds support for managing the metadata agent service and config file."
+9254a20111a68c65ff4d7776df7aba9a873c8cc7|2013-05-06|Jenkins|Merge "Cleans up the keystone manifest"
+0ed6dadc72b4587beffa864559c0534fabb1406e|2013-05-06|Jenkins|Merge "Changes to the init manifest"
+e8b669553d39b36d30dea98b8e6ea3a46df7364c|2013-05-06|Joe Topjian|Cleans up the keystone manifest
+02513bb7603bcbce4f23d58733435b42fa797cbd|2013-05-06|Joe Topjian|Changes to the init manifest
+2bcd52f4265bd4018dfc0bca91a1318fa381847c|2013-05-06|Jenkins|Merge "Cleans up the client.pp manifest"
+2c0a7857e877ea1721cc7d42a9e0fc2634a5efda|2013-05-06|Joe Topjian|Cleans up the client.pp manifest
+991b37735013ec4d126c010158d6c1f96d5085d2|2013-05-06|Ryan Hulsker|Adds support for managing the metadata agent service and config file.
+77c54127d8649fc4aab8741c649682cd6fd3df12|2013-05-06|Jenkins|Merge "Remove old file from glance"
+25674cdcca84af14105ba9b15b02e14c61982e76|2013-05-06|Mathieu Gagné|Remove old file from glance
+08ec30ad6aaac5a7c7f989c0963d64f50686adb4|2013-05-03|Jenkins|Merge "Add linuxbridge plugin support"
+0967ab58d9bcf3c1d24ac18a10acb4c9644f789f|2013-05-03|Jenkins|Merge "Fix gateway_external_net_id to gateway_external_network_id"
+32a4e0c07d22629da703667d7046c9dd50da5b83|2013-05-03|Mathieu Gagné|Add basic rspec tests to ensure catalog compiles
+0f0ee9a70062b658a5b804ce167df77fb59281e3|2013-05-02|Jenkins|Merge "Make sure the plugin.ini symbolic link gets set up"
+b79546d57768ac1cd9f64d164792257ade553f11|2013-05-02|Jenkins|Merge "Allow changed to public_protocol and public_port"
+4b445a4e8c30fad09e7433edea6f1045c9247e60|2013-05-02|Jenkins|Merge "Fix typo in ini_setting provider filename"
+82645f46963f7a10c2274ed46ec0577e276b41a3|2013-05-02|Mathieu Gagné|Fix typo in ini_setting provider filename
+610e5a24dcc23d15d58fbf28f10de51102ada494|2013-05-02|Mathieu Gagné|Replace deprecated :rubygems source
+b2564a9133c11778f4abcc5c91afbcef82494890|2013-04-15|Mathieu Gagné|Add linuxbridge plugin support
+883c6f062cc73c7ca070fffbaac0798d849c208e|2013-05-02|Mehdi Abaakouk|Fix gateway_external_net_id to gateway_external_network_id
+c28a656557b8544a7d10c73de17619ed5560dc86|2013-05-02|Mehdi Abaakouk|Allow changed to public_protocol and public_port
+7c1c1309160700177eca6d8619904bf672e0cc22|2013-04-24|Terry Wilson|Make sure the plugin.ini symbolic link gets set up
+45a772939054a7083b9c964943e4a0640eb296f2|2013-05-01|Jenkins|Merge "Make sure that rpc_backend gets set in quantum.conf"
+4c6a2fd6a66c8d5d39395dcc47bb8fd14f72e843|2013-04-25|Terry Wilson|Make sure that the openvswitch agent service really gets enabled
+9a7379eff97d76d45224340425e6c4ad29865cda|2013-04-24|Terry Wilson|Make sure that rpc_backend gets set in quantum.conf
+f3ae8308c45a3c1c823f31e7247a570a82e1f2c6|2013-04-26|Terry Wilson|Add .gitreview file.
+1c2323dbdb9469779028dcff0d43ee13c9fed7be|2013-04-19|Dan Bode|Merge pull request #5 from bodepd/redhat_fix
+9e62d990f815cb9d456cdc1ba12e240ab99f7200|2013-04-19|Dan Bode|change before metaparam to use ->
+1d5971fd1188043e54de8ebff922a8f109fa8a7d|2013-04-19|Dan Bode|switch from deprecated defined resource types
+5cf974e9b81aef2a4663127c6facef287f2798ed|2013-04-19|Dan Bode|Add redhat support for dhcp and l3 agent
+6f444325d4d41d1d9323ff97107931d1f8b3ebc5|2013-04-19|Dan Bode|cannot call size on boolean
+dcba58a217d325daa496d7ed720544a0f41a8797|2013-04-19|Dan Bode|fix spacing issue
+a13de94d4788d4adb481b852787a580c3e656722|2013-04-19|Dan Bode|Add redhat package names
+ac44bd2f126d10ed157805724b0d0419b708ea7f|2013-04-17|Ryan O'Hara|add qdid rpc backend support
+4074952a9663a45f7035ff664f61dc2f86ad09ce|2013-04-12|Mathieu Gagné|Add rabbit_hosts parameter
+4120efe434451b22e40435363d02b91dcefc6c5e|2013-04-09|Dan Bode|add region to title for keystone auth
+1a4e19749fcf0c408c7e65cc481f254ac2c1809b|2013-04-09|Dan Bode|only configure ports and bridges with bridge mappings
+8722ef2fe2fb313e2049c710353af4fe4f17cd22|2013-04-09|Dan Bode|update metadata_ip default
+ad2f2099251502cfbfcae00e2286e4f43863e438|2013-04-02|Dan Bode|updates to tenant used for quantum user
+c6441e69e99d0f466f8ca126f2d0369169c7fce3|2013-03-28|Dan Bode|update module file for librarian
+fc7afc79099294d02944596f8912a5b7bdc52353|2013-03-08|Shweta P|Add a terminal / to the quantum endpoint in keystone for correcting the tempest test network requests
+b9c011706ac47f27ff0fc849b4694e524fbe4d00|2013-02-23|Robert Starmer|Change permissions on quantum.conf
+cf0fe88cd4847571ad4b5f4deca59c8d522ec422|2013-02-22|Robert Starmer|Don't need to modify sudoers file
+5134b85c8a78a3eba0dce39d3ade5874c26ac31b|2013-02-22|Robert Starmer|Fix permissions
+9f316efee58da6d8e229912ce578f0b41ca1dfac|2013-02-22|Robert Starmer|Ensure /etc/quantum is restricted
+1332ae8b0269b42b4051ec3d06119494fd6fba5a|2013-02-20|Robert Starmer|Remove '-e' from echo command
+635a71175af524566680dbae9afeae5848115d56|2013-02-20|Robert Starmer|Add sudoers update
+3c06f179d0ed4df88882672ad80e951101117462|2013-02-20|Robert Starmer|Update rootwrap configuration
+af02a293ddb40e60fbc3711d2d02c84a53e2e22a|2013-01-16|Ian Wells|Update modulefile dependencies, URL
+ec548e16504e561530e5e9a01c31ff74b35443c7|2013-01-15|Ian Wells|Convert to vswitch wrapper types
+8c0b3b1f44a4fe55d19b952bdaba4fa037451b63|2013-01-10|Ian Wells|Add back auth information to L3 config
+31aec3c75becc4a5b656ca8a00439d2887aa86ff|2013-01-08|Ian Wells|L3 needs the root helper
+13df9b9f910f724438ed3be8444a1a87aac4787f|2013-01-08|Ian Wells|Add source credit
+41af4172b6fc2690efde7a695876550ddbc7b51f|2013-01-08|Ian Wells|Add Cisco systems URL for repo
+e757b06c3e6e0c6b17e05c6f36ab8b6a804b42b6|2013-01-08|Ian Wells|Move to older calling convention to keystone module to suit our current version
+924f150b10506802bff5634143c4995a1063df08|2013-01-08|Ian Wells|Add a lot more authors
+eefddcd99fead4c406a211542a4ffee6ec7cc2eb|2013-01-08|Ian Wells|Updated the examples file.
+52291106c21bf08d20b1e0183ce3d6fc2a2fda1d|2012-12-19|Robert Starmer|Make qemu.conf file referential on libvirt install
+5e1f6dd0cd02b870bd74740460eb74c5a4cff6af|2012-10-26|Edgar Magana|Adding QEMU configuration
+8d0d9f3a4275649747cc50648f129c92e286def3|2013-01-08|Ian Wells|Can't have enable_tunneling twice
+54de5115371ffaffd543a20422e51b92fab0cdd0|2013-01-08|Ian Wells|Split the OVS plugin and agent properly.
+17080cd9b51e364c9cd178a192c39d566246ead7|2013-01-08|Ian Wells|Nothing in quantum actually uses external-ids; redundant bits removed
+c030ef4ac6eae4c74edf3cc8707a69351932efeb|2013-01-08|Ian Wells|tidy up agents, removing unnecessary params that are pulled from quantum.ini and will never be overridden
+ff0c6fda63d6028c853fc96de084b1ae4577cdab|2013-01-08|Ian Wells|typo in variable name during OVS bridge setup
+48680fb794f886cce0d5783540756a7c2e32f3de|2013-01-08|Ian Wells|Dependency fixes
+6731d89d5133c885c8716b501198b530e887c164|2013-01-03|Ian Wells|typo
+89ad446b8028cc2d4d3eb32895a58ddaf43cd0c0|2013-01-03|Ian Wells|only need to declare external_network_bridge once
+c940e22ca506e74f1a2d1688e14eb862e17213c7|2013-01-03|Ian Wells|Should use name of puppet package, not OS package, in this instance
+2eb482f626d85185647742bf28cb4d38b4e6e41b|2013-01-03|Ian Wells|indent fix
+ace4a5547a0883c502f658f61142587f641e0451|2012-12-13|Elmer Rivera|fixes autoload issues
+7301b0d40dba58e1786c2bd7c64b37b2c6a8c0aa|2012-12-06|Endre Karlson|Licensed under Apache\!
+748d91df27e3beeff343a6f1a3d6d8d82820370a|2012-11-02|Dan Bode|update name of module dep
+3e7e3eb7d09b73f5eee27ba3d842d7b01658bbbe|2012-11-02|Dan Bode|update modulefile
+9cf5e067497f48bb96b8f63932e2f9e2f5a0e619|2012-11-02|Endre Karlson|Up the version
+60bc09faabf16604ac3ea8e60cc63ba5247ce78c|2012-11-02|Dan Bode|remove trailing comma
+63bb52d140f22ad8b97644687e297615781516c7|2012-11-01|Dan Bode|update dhcp and l3
+a70dab7ccf054e68c98f824b5db45acdd30c07f4|2012-11-01|Dan Bode|Style updates
+2048427df582c7a8a2575a3a3eb13c930c6ba344|2012-11-01|Dan Bode|fix var interpolation for external ids
+41f5b4c2be092512e564b522b50755803de4b6f7|2012-11-01|Dan Bode|add enabled class param
+3e14f82bb32aae2d654705975624a4bca53e477d|2012-11-01|Dan Bode|remove unused class param api_paste
+8f3551e6ffd9f37912f17b6f34a49ba7e357e89c|2012-11-01|Dan Bode|require vswitch::ovs from ovs plugin
+322da41b2f9df8ecde5e93f25a7671f795b607a4|2012-11-01|Dan Bode|Switch local_ip from ovs plugin to agent
+37c11cd92e606d93f91e39f0173aeb8e022cb801|2012-11-01|Dan Bode|more updates to module file
+b4554dc9592ce993df0e11bc1aa82f70dd7c2fbb|2012-11-01|Dan Bode|update module authors to give Joe credit
+a180cd379854001e1cdf21b019087eec9d0d84e9|2012-11-01|Dan Bode|update keystone_endpoints  keystone folsom module
+a811e6fdcde5d151a80e90557fe9ddcfeaa58f68|2012-11-01|Dan Bode|make passwords required
+d65b800b388853e47baa22ce8ceba89a99bbead9|2012-11-01|Dan Bode|Remove auth_uri params
+07d2875a26f78829482360164c190c16ee911b0b|2012-10-26|Endre Karlson|Make agent package handling better
+62ee7efe480c0c175747efb9bc6a8cf0e13d5487|2012-10-22|Endre Karlson|Missing '
+20c7857f35828204f467be85ab22836cbd1fc431|2012-10-22|Endre Karlson|Merge pull request #5 from bodepd/package_enusre
+8eb856bbc08c79eed543d0ab202eec202427ac0f|2012-10-21|Dan Bode|fix invalid default package states
+979c88cd33ff5c99110e3699a9304ad310a78186|2012-10-21|Endre Karlson|Merge pull request #4 from bodepd/fix_bugs
+7b04ec521473d20de520e53df45b6543e506f4ea|2012-10-21|Dan Bode|Fix bugs
+a67da19a4c32af5a74294b28ea366aa2638628bf|2012-10-21|Endre Karlson|Merge pull request #3 from bodepd/fix_package_conflict
+bbc9d81e0354e498c85cacd19cdc20ff57efe3b9|2012-10-21|Dan Bode|Remove package resource conflict
+7d8f9d959e5d8123d16d087eaf797e8cb0a01e7b|2012-10-21|Dan Bode|remove trailing class param default comma
+d138d6ca96466fcae53830292dc0e843a15c342e|2012-10-21|Endre Karlson|Remove whitespaces
+deb11e2d83077f050fffcb6e865be1423d293223|2012-10-21|Endre Karlson|Fix backend handling and reconnect option
+b221a54a29996336b5bbc650dd301b21c55a06c2|2012-10-21|Endre Karlson|Enable namespaces as default, disable tunneling and change default > physnet1. Remove require vswitch
+027ad8dc2fe982ee627ad57e288700eb74ac9aef|2012-10-21|Endre Karlson|Update Modulefile
+7bc0afcc6c5fa773663f75ae863a7356d153fecf|2012-10-21|Endre Karlson|Remove bridge_uplinks and add more needed options
+c7469b63d512094b3841578cad7ee2128b3f2dbd|2012-10-21|Endre Karlson|Multiple fixes.
+4c5ffaa4f28d77c9f88ebd7ea52461a67281e0a9|2012-10-12|Dan Bode|Moved plugins::ova to correct location.
+351af270f53908a8e2fc1fce1707ca40ddbb2e1e|2012-10-12|Dan Bode|agents::ovs should require vsswitch::ovs
+42b3f192dd14bb6d38d5e102d72e5f4e18bb7f1b|2012-10-12|Dan Bode|Add required params to agent ovs
+228eb9b140c603231a059b6e85648a0dc092191a|2012-10-12|Dan Bode|realign params from dhcp agents
+ca5c4c342339a82f06a1e9c686f1cdf0ab01dade|2012-10-12|Dan Bode|add auth_strategy to init.pp
+ff6aa657add53ee4fce5c694838e63a0b97ac381|2012-10-12|Dan Bode|make rabbit_password required
+1a17c616846a7b3140e6350d0382a097809495e4|2012-10-12|Dan Bode|resource alignment.
+dbf11c249e342176a2a227520f6e1a252842c19c|2012-10-12|Dan Bode|add package ensure to classes
+509dd85e06c167b6d986592c20a69828856b77f8|2012-10-12|Dan Bode|change log_debug to debug,log_verbose to verbose
+79b529ccbb3d59cdb97c9081f89cea9c2c77e6f1|2012-10-12|Dan Bode|Add extra deps
+2f7651ea01a0876cb8d0f5e6f0d6d73a24c93859|2012-10-12|Dan Bode|remove unneeded dependency
+26d5756d4669cdde690180395439ff35b4627d41|2012-10-12|Dan Bode|require mysql::python for db creation code
+da483afab95c810c56a624ae86ea94a33dcc96ba|2012-10-12|Dan Bode|Add auth params to server.pp
+acd661be946b2d56fc915f896675052d3539f110|2012-10-10|Endre Karlson|Fix syntax errors
+6737408179ace25d2aff712888e2d12c6cfc20f7|2012-10-10|Endre Karlson|Attempt to split out agent and controller parts
+f427c3c89e011a79d297cb704ccb80fbe11253f6|2012-10-09|Endre Karlson|Change to real bridge name
+f94ae49e1a525b6de8c880450100150e49eb0226|2012-10-09|root|Sample and a install script for testing
+b77dd45006edd1f24a44d7c82d1fffb19d0f09f9|2012-10-09|Endre Karlson|Fix up some typos and options
+e4f95bdfa53b7e133314d6cfe5620cd6a1f03b08|2012-10-09|Endre Karlson|Add root_helper
+a7751993ccc78c069f63488b07d6a3e6c4ab4e9d|2012-10-09|Endre Karlson|Add L3 and DHCP agents
+2047868c8940378ad9a5c926702df945f741b829|2012-10-09|Endre Karlson|Correct user > uri
+dd431e20f21356e313ae8557fc887cfa5eede007|2012-10-07|Endre Karlson|Add in all config options and make it usable.
+f69657a77374b32852d47fed2506236b2c796196|2012-10-07|Endre Karlson|Put them in the correct namespace
+baf3aff06d4610285ca8eb90713639ba27ad8e9f|2012-10-06|Endre Karlson|Typo
+d2d45a97a77f759d8edaa9d1284afeeea311ab1b|2012-10-09|Endre Karlson|Split out defines and change param names
+285f747a563f440f87401b89d111f8d8b017ef9d|2012-10-09|Endre Karlson|Remove - unneeded
+5f43a4f76bc7b57d1f973b7841dd65251d64d9b7|2012-10-09|Endre Karlson|Config types
+740da28aef2b6bd300a00689072eb775050bbdfc|2012-10-09|Endre Karlson|Server package (API)
+59ae00c40403954f8bb8b9ca1d5d6883e5f3b8f2|2012-10-09|Endre Karlson|Change to service_service
+d30a31f28a91bb7c692dff8b3a910e4d82cd21f4|2012-10-09|Endre Karlson|Change to enabled and package_ensure
+1f31301a9dc3163784680463fd802bb6e10976ca|2012-10-09|Endre Karlson|Change some variable names and add Ubuntu
+e249612abb10a334a3d0752e6ee3fb524a47e55d|2012-10-09|Endre Karlson|New and shiny manifest for commons
+b53b3e7f36a5c94255db594e661e7fbb2e5e1577|2012-10-09|Endre Karlson|New client
+68784d2b68af9382e159e54ccb0dbb9f5e4fd09b|2012-10-08|Endre Karlson|Change back to null
+5874358a8ee959f5609f2bd98b1ea0c565d9043a|2012-10-08|Endre Karlson|Let's map interfaces and bridges instead of doing it via parameters.
+4ddd4aec23cff46ad6430b4bf1e3dd0b6ca957a4|2012-10-06|Endre Karlson|Missing commas
+1b99b1438665cdb5d37645e28dd86a5b2bc78ba7|2012-10-07|Endre Karlson|Need to ensure that bridges with ports are present
+71d5a6ef73988638393fd7cd2866e5b5b9ff3131|2012-10-07|Endre Karlson|Change in regards to dependencies.
+df97a18f39026772a0ca03edc4f6feda0861af9d|2012-10-06|Endre Karlson|Remove Exec and add File
+3d2c3108883cafd9016f10dd7ee1072ede48f8ba|2012-10-06|Endre Karlson|Only install OVS if we're not a controller
+6843bb6df817b74cc7a1eb72abdcbba9166372d8|2012-10-06|Endre Karlson|Simplify and change to the correct agent name in params
+f18aa4ff31f644c641653c8b11323f5267e9eb64|2012-10-06|Endre Karlson|Remove the need for a Class requirement and fix some typos + syntax things. Also include params
+54e8d4beb45c8b85379b72962c74056bf8f9e1bd|2012-10-06|Endre Karlson|Moved out to vswitch module
+62ad40aff4b918fb9c8ae10addfb4a4c16e5512f|2012-10-06|Endre Karlson|vSwitch it and change some settings, let's default to eth1 for public networks
+d751fbdcc19c920151f94cf286e291cd829ace7c|2012-09-30|Emilien Macchi|First commit
+597f39f1d60f171b35697b1b4d447e3c30e72cad|2012-09-30|Emilien Macchi|First commit
+34ad8d0d728a8a297c5968771c3510ff7e8556ea|2012-09-30|Emilien Macchi|First commit
+8ab2931520d395b39335ce9bd8f56e1dc4cbc3d9|2012-09-30|Emilien Macchi|First commit
+f3028f05ce95a5d23de0b920c63fb9df7198fbf0|2012-09-30|Emilien Macchi|First commit
+4b3752913e960d22e64ff9d586818de60d695124|2012-09-30|Emilien Macchi|First commit
+0d586427784134d6d2fbd45af770aa9ec12f2502|2012-09-30|Emilien Macchi|First commit
+932d2b41c73059ced1a0f539621457ad561e89d4|2012-09-29|Emilien Macchi|Initial commit

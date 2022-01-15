@@ -1,0 +1,841 @@
+121fa3354c7bbd3b0257294a313057981cb88213|2019-06-18|Kewei Li|fixing new_materials (#150)
+0103ec395987e3422bfb199ebe540c7891e2b72d|2019-06-16|Kewei Li|fix(geo2ddatat): crop (#149)
+68f781ff489fd9f5ddc817dacfc8ff3a8fdeb2b4|2019-06-10|John Gamble|Add simple intersection test for geometry (#148)
+018dbb069d3ca5f2cda4537fa8ca87e6200df5d2|2019-06-05|Kewei Li|2d materials (#147)
+f438c2304e4f0329dd9748f466deb5a4191bf5aa|2019-06-01|Kewei Li|including conda build (#146)
+b7058c0b077f16954ef07dd8218b93bee8baac50|2019-05-31|John Gamble|Merge pull request #145 from microsoft/fix/downgrade-packages
+eeb5b17ba97fe02b0c51f33ec0742de3c591408c|2019-05-31|Kewei Li|fix environment
+a9613ed7c267444e5f6e860b1330824e23a2ebc9|2019-05-30|merrittlosert|Update geometry sweep example (#144)
+b7398c2ad97707ff0e3687a016ea43136ad9d7e5|2019-05-28|John Gamble|Merge pull request #141 from microsoft/feat/save-tf-output
+758e4f6746ee888a32537ddac6bb75c649aa5e00|2019-05-24|Kewei Li|upgraded sympy
+beb63c95e2ff6b4e48a861b7c47f035c50d3d29a|2019-05-24|Kewei Li|import
+80b6006ce24f1f0b30bbd7d498e1b943135874ea|2019-05-24|Kewei Li|np isclose
+2b50de270e8d5cda7429714792cddf49ee6de1ac|2019-05-24|Kewei Li|xsec checks
+79e56c694639ff202326de9676f98feff01bf743|2019-05-24|Kewei Li|removing unused data file
+7e2bff235f1b0c3d18b30dc7f038ce45d6c1b3b0|2019-05-24|Kewei Li|smatrix, readding h5 ignore
+c33fef47d5c67990b24103e628f0536b11e920a0|2019-05-23|Kewei Li|lint again
+e99a079b00cd15a6255b15445665d83daffa9522|2019-05-23|Kewei Li|linting
+7519eddbc017c23984af62b550c6369fa0938256|2019-05-23|Kewei Li|deleting old files
+a1a70fd89f19085e85574b1c7c82cfef6c2b3dd3|2019-05-23|Kewei Li|adding data for notebook
+02e02564bf3105466ef25ac17188d78a7ed98edd|2019-05-23|Kewei Li|updating notebook
+7c7eaf00a4c02d5f49aad18e5aaadd8db40b7f2c|2019-05-23|Kewei Li|updating notebook
+2956a7c106f5a4266531a9fa06e26da049a3f715|2019-05-23|Kewei Li|kwant import
+3c952d1392d112f51a27026335d77821e72291e5|2019-05-22|Kewei Li|kwant import
+b9669cbbe9d4f8129a58c33001c80fe6e09accf3|2019-05-22|Kewei Li|removing fenics
+314a31e4e2e4aa36582a99000cfab685eff6c069|2019-05-21|Kewei Li|poisson fem
+7d280e55a9c842a948d106545a85ffc9d7603dde|2019-05-21|Kewei Li|Uarray saveable
+0fdf513948394e87123fb2388e55d059eb376ee2|2019-05-20|Kewei Li|adding ipynb filter
+9b55aa9d3f39bc6a928068f3fe03ec94d847b23c|2019-05-20|Kewei Li|updating notebook
+e0eac068a3333f80a32dbe82ea93dff9b49d57ea|2019-05-16|georgwinkler|Merge pull request #140 from microsoft/fix_ipyparallel
+bd6e655c67a11cb34652c7f2c397fe201beaa98a|2019-05-16|Georg Wolfgang Winkler| run black
+fa0323123747fa9259950c57dc6f41c58758e0da|2019-05-16|Georg Wolfgang Winkler|import freecad only when necessary
+5e7f51cfc428dc37f2d1ed79a3c0c856820544dd|2019-05-10|Kewei Li|fix fc_name (#138)
+35d7110e13af2da75ffd4fbe2778897847356dd7|2019-05-09|Adam Frees|Quantum dot example (#123)
+8559604b3cf624bf158e0217572f688858b47366|2019-05-09|John Gamble|Merge pull request #130 from basnijholt/pyupgrade
+904d3d3e9722c3fd2e565158b417f7c3513f1b23|2019-05-08|Kewei Li|plotting polygon (#137)
+eb0afb3e0a89a8af60ff0f7ca56dddee1884e8a4|2019-05-07|Bas Nijholt|manually convert the last remaining %s formats
+b362163ceed0ed70f9a5aaff438e2b0f2f97f9f7|2019-05-07|Bas Nijholt|run pyupgrade --py36-plus
+7ed4741fe684d9ef760350630269dab80c341e63|2019-05-08|Cameron King|Updated tf_data.pkl to solve unpickling issue (#136)
+10ababac60f234c1acedfdfa0673230c144627e1|2019-05-08|Kewei Li|Fix/openblas (#132)
+1f475ae9c738fb7aa5049e6a747578b6acb7ab6e|2019-05-07|Kewei Li|Fix/py37 (#131)
+816661776da94f6232a8689d0722d87b19660d9c|2019-05-07|Bas Nijholt|structure deployment/environment_min.yml (#129)
+9025c22b2a381058fce59a423676588830ce622e|2019-05-07|Kewei Li|Feat/package update (#127)
+4ed4777203decc0f14c9fc281531e2b4e47f8481|2019-05-07|Kewei Li|fixing unit attribute (#128)
+2dc57b04d296300d236311cd0fe23684ea8c92ca|2019-05-07|Kewei Li|fix(build_materials): does not require material for virtual parts (#126)
+956ffdd4b06e210b7e4f8f71929b866d7b4545e5|2019-05-06|Cameron King|Updated simple wire example to use new interface (#125)
+289e808ac0762ac99f89b749a1006cee9d552775|2019-05-02|Kewei Li|Feat/sim data (#124)
+5bfba072c6f0a79387e6b0854baf4440c7063a0b|2019-05-01|John Gamble|Merge pull request #108 from Microsoft/transport_disorder_1
+a1568de64af8c219d6b523c8a8bae293010ba575|2019-04-26|Kewei Li|fix(geom): xsec_to_2d projection (#122)
+88636b6c7a5ccb55e935c5c3cb4c56920cbbcd37|2019-04-25|Kewei Li|fix(env): matplotlib (#121)
+7b9fab73308df563d8c76b9cd64d29bfdd898c67|2019-04-23|Bas Nijholt|fix matplotlib requirement (#116)
+06e038970ba9fa63009d081d37abaecde3e146de|2019-04-19|Kewei Li|Fix/black pre commit (#114)
+d4be0b6cbdad146cb4fffbddd6e0662c90590e22|2019-04-18|Bas Nijholt|convert reST docstring style to NumPy style (#111)
+cb78bc2a0ae5a2814f0ca5022971d8b6c6e78baf|2019-04-18|Bas Nijholt|add miniver, get __version__ from git tags (#110)
+fce1f632be2093dd2fbee8add24799f8442c83bd|2019-04-18|Bas Nijholt|remove docs build and create a .gitignore for the docs (#112)
+60cae5f297b4def7503a3c21be7d709235116d5a|2019-04-17|Bas Nijholt|remove deprecated interface examples (#109)
+700b244a7a91bf3c64b714c23c4412e6fe8d2204|2019-04-18|Spencer Peters|Ran black.
+0ac6689cacd809e9adcec5ca2594facad03a2b4c|2019-04-18|Spencer Peters|Merged black output.
+62838a8a195ea856694de9e6e30c5b523bb6d1fa|2019-04-17|Spencer Peters|Test commit, added blank line.
+12bd71b9c3e435b59904a54f4efac650fc7a3e1b|2019-04-17|Spencer Peters|Ran black.
+d7b6deba1697c8a59d6b218330295eb4b78fcf97|2019-04-17|Bas Nijholt|Merge pull request #107 from basnijholt/simplify_initialize_lithography
+274a86b4d0bca3c00531686dd69aa10c508dacd2|2019-04-17|Bas Nijholt|always close the document
+c86403b1bc1a16c0e6193caba4b113ed0c217ac0|2019-04-17|Bas Nijholt|use a sum of generator expression instead of loop
+7014039bf5c5c26b51f4d79538fcc9e89409d55e|2019-04-17|Bas Nijholt|use f-strings
+516e9a214089814ebb867a1a4c6a8c54bd699775|2019-04-17|Bas Nijholt|rename internal variables
+3184bf525b0d3b716b0a6a57e78bc9c217554d7b|2019-04-17|Bas Nijholt|rename "layerNum" -> "layer_num"
+b630b9d04b88b3d01a6a6c9dfd64805ca2f22820|2019-04-17|Bas Nijholt|stylize "initialize_lithography"
+15fe35067facaf01db99bb4292cd58d94adb4118|2019-04-17|Bas Nijholt|raise a KeyError instead of an assert (#105)
+17948d6abef2260cde2e24476bd69ab2b53f7148|2019-04-17|Bas Nijholt|remove 'six' dependency (#104)
+b261e477d26ec18938f708adfa5f0fbb8c06af17|2019-04-16|Spencer Peters|Added disorder field to TransportData.
+ec543c3e6e86fe1f588ed241a5a7b1d5b48e6e36|2019-04-16|Adam Frees|Export .stl (#103)
+a8387c3385e7b7f9b1fa067d42717eda874d044b|2019-04-08|Kewei Li|fix(geo2ddata): plotting method (#102)
+21f17a8f54039da0d21adf9d14ce7122de5ee271|2019-04-04|Kewei Li|Fix/2d thomas fermi (#99)
+e9662e1efb295b6144beb66b95a2ab7b4e73ce54|2019-04-02|Kewei Li|Feat/black pre commit (#101)
+950decf1c8a9941351249bf4f8af325fe9a7bcd0|2019-04-02|Adam Frees|Merge pull request #100 from Microsoft/update_example
+38b14e274e946d746508ee08473ec486bfd5528d|2019-04-02|Adam Frees|ran black
+c156f97f7af29892c48198eed0cdb30a029aa26d|2019-04-02|Adam Frees|removed import dask
+a218f8d196c17e726abf02a87f2f5f6af57751e9|2019-04-02|Adam Frees|changed build_3d_geometry inputs, removed dask
+54c2cafe2468853730750e28b2717658546cfd45|2019-03-30|John Gamble|Merge pull request #98 from Microsoft/fix/env-mac
+91c70deb3a1c3b7e1b7bee0653a22eef3dfb7348|2019-03-30|Kewei Li|fix(env): updating mac env
+645a7824763055b9285c9c7ab78a7eb1a079f45b|2019-03-29|Kewei Li|Feat/2d geo from xsec (#97)
+c79cbfcc36cc78c4b1408014b43331c0d38d4c40|2019-03-29|Kewei Li|feat(pipeline): adding lint (#96)
+efc7b62f7f1e0008cdf1a2655db819f7293632e9|2019-03-21|Kewei Li|feat(env): adding jupyter tools (#95)
+09624f1bbe21250e8442aa785b291e8ca559c770|2019-03-21|Kewei Li|Revert "feat(env): adding jupyter tools"
+7dc56108f32864b1ec41fad92082aecf1d1c5bcd|2019-03-21|Kewei Li|feat(env): adding jupyter tools
+31f26b3413f0e1c801626f8e3a28a27c9568163a|2019-03-13|Kewei Li|fix(env): adding deepdish (#93)
+237ebdfedf1c7b770e51d4c1eb0202d59da129b9|2019-03-11|Kewei Li|Fix/environment (#92)
+4876f16608d5879c4c52169593f09a80d99c0604|2019-02-27|John Gamble|Merge pull request #91 from Microsoft/improve_temp_file_handling
+40e7f414af539439e4c837787ed92b240b93f8b4|2019-02-26|John Gamble|Improves handling of scratch directories
+e4b52a1ec802dc3ed0ca7d48bdeec576d7d51a73|2019-02-23|John Gamble|Merge pull request #89 from Microsoft/fix-offset-function
+4df1e08f1329363d6d3d7eaf640a3fdb7bef014f|2019-02-23|John Gamble|Merge branch 'master' into fix-offset-function
+c072895ce8568d207bb865323e8695780ab3af45|2019-02-23|John Gamble|Merge pull request #87 from Microsoft/fix/sag
+974e2cd8aff95629eae8f79a4f183a8d3e9f9470|2019-02-23|John Gamble|Catch additional failure mode SAG fails also when the top and mid heights are the same, since this results in a non-slanted roof. Added an assertion to catch this (otherwise the kernel dies). The assert statements also no print a more helpful message.
+d6a12290017a33898eb9c229b4c07f86030f905c|2019-02-23|John Gamble|Merge branch 'master' into fix/sag
+110f87a2f02a36e3641959f33ba097a7b520c5b7|2019-02-22|Jan Gukelberger|Fix property map bug (#88)
+3db6c9e7ba3174c79932ec1d5d3e3abadcb3dc1d|2019-02-22|Kewei Li|fix(objectConstruction): fixing offset
+bc54706ef3f4bd01d75dbe8f6067eb9ef8c58941|2019-02-22|Kewei Li|Merge branch 'fix/sag' of github.com:Microsoft/qmt into fix/sag
+1fc4272269c29d124400d3936f51fc045f63a7a5|2019-02-22|Kewei Li|fix(objectConstruction): typos
+34b4d8241be55906fe0603d0ee227db719a14ace|2019-02-21|John Gamble|The offset function was broken and never handling special cases.
+b6a8af319403b5761cde905d76a131670e64b716|2019-02-21|John Gamble|Merge branch 'master' into fix/sag
+de1fe4386036f926299fe5946123fe7356b8f44c|2019-02-21|John Gamble|Merge pull request #86 from Microsoft/More-descriptive-assertion-error-during-object-construction
+d240442ad47823551488e805ab01d43c18538762|2019-02-21|Kewei Li|fix(tests): more SAG tests
+0358ff86a605466b7291c8bcddeb9b8a8235c674|2019-02-21|Kewei Li|fix(test): description
+5130ad9169f80476aafe5f87959e245304118966|2019-02-21|Kewei Li|fix(objectConstruction): SAG
+a3adfaab78583da0bc76d88db5c3f59bc475e094|2019-02-21|John Gamble|Make assert more descriptive for obj. construction
+322723731a7c1c04896f784703ed71c7e2206acc|2019-02-21|John Gamble|Merge pull request #85 from Microsoft/feat/test-coverage
+44d753db4dcfa9a58de6b62b270c0e2b46d0948b|2019-02-20|Kewei Li|fix(pipeline): mkdir flag
+5484e203016a81d15ae064e1bd0e6798aaf85044|2019-02-20|Kewei Li|fix(pipeline): test results
+cdcbe54ed877d599cd63636aefe181b06c84d524|2019-02-20|Kewei Li|fix(pipeline): publishing coverage to the right folder now
+588cbf4ef923e521c3fa8a08eb62af392b68e2b2|2019-02-20|Kewei Li|fix(pipeline): xml to file
+f76dfa34c7f3bef69decfea57518e220d8255c3f|2019-02-20|Kewei Li|feat(env): adding test coverage
+373ad622cd70b62e067021eb06e403c907726e22|2019-02-20|Andrey E. Antipov|Merge pull request #80 from kant/patch-1
+9ef5101c780f36d507e16c59feabdf3bc013de8b|2019-02-20|Andrey E. Antipov|Merge pull request #84 from Microsoft/aeantipov-patch-1
+128a9e4ea1889541de3e3c5590e6ec22b5876db2|2019-02-19|Andrey E. Antipov|Update environment_full_mac.yml
+5b30b12809664c87eb69d3a7cf7af0d9afb9c42a|2019-02-19|Andrey E. Antipov|Update environment_full_linux.yml
+29f233d8ec4877e8c0517e5ad66622f3ef07e505|2019-02-19|Andrey E. Antipov|Update Dockerfile
+19ffabddda0ca83329f78d82b20640e3d9b182a6|2019-02-16|John Gamble|Merge pull request #83 from Microsoft/add_param_template_macro
+5ecf73efc6f9cb0f7cd83df671bf8047526612f7|2019-02-16|John Gamble|Add recompute after setting parameters
+f6c1b08b0bf1bcdeaab32f75d10d384ac73d589a|2019-02-16|John Gamble|Add FCMacro for geometric parameters
+baf716352ef607d19658696e609e9c09bfbe4de6|2019-02-13|Kewei Li|Feat/transport test (#82)
+852ec6fbca15dda9393a36091100fb087ef5aa03|2019-02-09|John Gamble|Merge pull request #81 from Microsoft/metals_fix
+dd0048fb61f6c00a2209a65a53c32b03e4c4d8d7|2019-02-08|EUROPE\kevanhoo|Set relative permitivitty metals to 1
+795299115a5921684ae58e911c3320e53818c298|2019-02-01|Darío Hereñú|Semantic issue on paragraph #10
+4ed096704a2e11dbebfe7db50c86920ac7cb7b94|2019-01-28|John Gamble|Merge pull request #79 from Microsoft/feat/env-mac
+e44c6af11858af160ab06b5124c845288c155a01|2019-01-28|Kewei Li|fix(dockerfile): typo
+6471eeeb2898505c04b02cbd93bd86aae26ffff8|2019-01-28|Kewei Li|fix(env): renaming in dockerfile
+33adb6b11a15f2e020abcd8dbec20fbac155344b|2019-01-28|Kewei Li|feat(env): mac file
+cc821baa4a7324ded37247271f282c530a9aef5f|2019-01-18|John Gamble|Merge pull request #78 from Microsoft/fix_dask_path
+40d73c29f1939fcf61804276c4a2f9bf5426ff23|2019-01-18|John Gamble|Attempt to fix the path in dask test
+b35f949336c5213deff5d4f5ab5229f4453a0fd3|2019-01-16|Kewei Li|fix(tests): slight clean up (#77)
+478b0871f7c8cccfbf1d9009babae3004d201662|2019-01-15|Kewei Li|Feat/example notebook (#76)
+91db88c9293dc72431510c48d038510ad3104e47|2019-01-15|cclauss|Modernize Python 2 code to get ready for Python 3 (#75)
+53d3d9cc33c328fb2ee86cb51ea5f2af5315833b|2019-01-09|Andrey E. Antipov|Merge pull request #74 from Microsoft/add_phase_data_object
+4ff636f701776d30700a475c51f924d4e9abc5de|2019-01-09|Georg Wolfgang Winkler|added phase_data to init
+99f54d24e115f0ea177f04c7d91eb1a3bc3b127a|2019-01-09|Georg Wolfgang Winkler|added phase_data object
+cdf6fbdfe6d50bf565ca73e7105183b443c43ea7|2019-01-03|Kewei Li|fix(pipeline): new service connection and badge (#73)
+981852dd4cc6b698dc45943043ec7990d574b3b2|2018-12-21|Andrey E. Antipov|Merge pull request #72 from Microsoft/fix_property_map
+d3ffb1fe4361ff022c54b4216f94fc6c077d40c9|2018-12-21|Jan Gukelberger|Make PropertyMap work with part labels that have no comparison operator (like None).
+d383280c8eaa4cdea78ead42f4ee8ac18dc08fb7|2018-12-21|georgwinkler|Merge pull request #71 from Microsoft/change_bdg2d_data_object
+7c48f6e44f52d91e9b0224d782a7718e69b5931b|2018-12-21|Georg Winkler|added hamiltonian to bdg2d data object
+fc19adf0bd4b379616bc8d9ef88525cc951f658c|2018-12-20|Kewei Li|fix(readme): new badge (#70)
+d317a7b957846c0d8a8c06b4d2a7b71c96c386f2|2018-12-20|Kewei Li|feat(azure): pipelines file (#69)
+69c1a4d6d4fa86f4900383dba4963a1bf8c0273c|2018-12-20|John Gamble|Merge pull request #66 from Microsoft/export_uniform_grid
+8be3f7f61808a29992dac38a47ff2508657d1cbe|2018-12-18|Kewei Li|fix(environment): pegging sympy (#68)
+3dcead92a5552235c73902c118b134638885f0c2|2018-12-18|Kewei Li|Moving to Python3 only (#67)
+3952e185360f96467aff6f0e6a6b5cfb47bc36eb|2018-12-02|EUROPE\kevanhoo|Addition to FEM3DData class
+9fe980987e7677aed3887f922af4900537094a9b|2018-12-01|John Gamble|Merge pull request #65 from Microsoft/revert_environment_files
+17648a25077cf3a9a21c29a6630e0551f4de0b9f|2018-12-01|John Gamble|Revert enironment yml files Reverting the py36 and py27 yml files to use conda rather than pip. With pip, I was getting very weird errors involving random package conflicts. Reverting for now until that is sorted out.
+7069e685cefc134bac940f9d021dc2bc38cab0aa|2018-12-01|John Gamble|Merge pull request #64 from Microsoft/fix_conda_in_docker
+fef944c4752d7faeda27087e5a9cb26d03da4aef|2018-12-01|John Gamble|Move fenics back to conda Also changed numpy to 1.13 for compatibility with fenics 2017.2. Using fenics in pip made it not able to import for some reason.
+5e8a7001cc020979636e492448abcfd894396038|2018-12-01|John Gamble|Merge pull request #63 from Microsoft/add_bokeh
+1c3ec7ae5f9b615b1109420d5f0caa5d4dc117ad|2018-12-01|John Gamble|Add bokeh to the 3.6 environment Otherwise, dask schedulers won't start with the bokeh dashboard.
+311a869e5c7d4b3eccf16799903b1115547e24a1|2018-11-29|Kewei Li|feat(environment): locking packages (#62)
+f30cd1cce862062751bcad2feff5c7af07fb9383|2018-11-28|John Gamble|Docker workflow (#61)
+7146a408ef28e7dc935888beefccf10d1f58e282|2018-11-28|Kewei Li|Fix/copying qmt (#59)
+06d7208e6b3cfaa00761fce1605533307b994c5e|2018-11-25|John Gamble|Merge pull request #60 from Microsoft/shortcut_for_fcname
+7de751f660606d6ede7f370843ebfef03234e0f2|2018-11-25|John Gamble|FIx freecad object paths The shortcut would sometimes name the freecad objects with other objects not strings, causing a segfault! This has been fixed. Also tagged the dxf import routines as ignored so they don't get accidentially committed (these are automatically downloaded from freecad when needed).
+0b1d3b3a8ff6ed35faf1f2994ea9c303c2eec2dc|2018-11-20|John Gamble|Add shortcut for specifying fc_names This allows one to specify "none" for the fc_name in a part, as long as the label of the part corresponds to the FC label, and that label is unique. The previous behavior works as it did before, so this is just optional convenience.
+9f4f7a3feef78c39373256674c8e7b363e2a62cc|2018-11-18|John Gamble|Merge pull request #58 from Microsoft/feat/smaller-builds
+4fa48b2fff5b51cd84ffcd8263bc1326883ac4cd|2018-11-18|John Gamble|Merge pull request #57 from Microsoft/make_cross_sections
+2ef90094c68ddd3b7b050ef5f462f72d8aac0f53|2018-11-16|Kewei Li|fix(env): moving packages
+11420ae50fce6734d6ad7432fb59cb6f3ab85946|2018-11-16|Kewei Li|fix(env): moving packages
+f5524db8f63171620c5a9c8ccac19da313408200|2018-11-16|Kewei Li|fix(env): hpc05
+f77f27841affc25a629f21f025c115b7dd8114ab|2018-11-16|Kewei Li|style(env): reordering
+db11c918b6fca2a8d6d89a7976bf834d28015ba6|2018-11-16|Kewei Li|fix(dockerfile): resetting to master
+6a71066e1d598f084702748d79742e0a5c10f8c0|2018-11-12|Kewei Li|feat(docker): smaller builds
+b48c95dcb892b4f4c0cb18ed61230f69362dc82d|2018-11-15|John Gamble|Fix test to work with cross sections
+cd346c258e45cedc0d2f6750e86f44eafa672c1e|2018-11-15|John Gamble|Merge branch 'master' into make_cross_sections
+4bb175b89d2567744e3602125f8fc30a65694b57|2018-11-15|John Gamble|Fix so that polygons pass through the freecad wrapper
+ba7003e7db08c64a2c0eabe466a4b9d9f314d618|2018-11-15|John Gamble|Make cross sections work with new geometry build.
+58b89da1cfe366f3934b28224892d02bae02a466|2018-11-15|John Gamble|Add cross section to geometry data
+9eea6c14a996cbfc62569b637aea591bd64a1612|2018-11-15|Kewei Li|fix(readme): updating to new build (#56)
+a6f8d7d37902453ff874b11db0eaf1fcd4859154|2018-11-15|John Gamble|Remove old function for 2D geometry construction
+2e459c31243347b70797fce8ec6d94f584d2258d|2018-11-15|John Gamble|Merge pull request #55 from Microsoft/feat/qms-build
+b5813d4e3447f899f346b9d815116218f9de96aa|2018-11-14|Kewei Li|test(dask): linting, no bokeh
+81358f70eb9fe1d0dc89dee99652c547f2c57115|2018-11-14|Kewei Li|fix(dockerfile): removed docker
+54346fcff268f885731e5aa39743585c1940d49b|2018-11-14|Kewei Li|fix(test): using process instead of docker
+105c819789ae4975b441dd7d0519f765c4861c21|2018-11-14|Kewei Li|fix(test): paths
+ccbf3b17d4b1633abb3f14cbcc935841230d0366|2018-11-14|Kewei Li|fix(test): docker path
+9ad0aec39452aabdaeb44b56369b826b4a443739|2018-11-14|Kewei Li|fix(test): using existing docker container
+696a73be97f9695b6588a80b69359347ebb0f087|2018-11-14|Kewei Li|feat(docker): new azure pipeline
+8d10817583210a43dcff368a910494058423383b|2018-11-14|John Gamble|Merge pull request #54 from Microsoft/feat/new-qms-build
+3cbe8f5a58134f2eaecd1b09c691b3d66f098768|2018-11-13|Kewei Li|fix(dockerfile): adding docker back in
+5ce00bf909b5a407c05eb68e23d9ac2ded1231c1|2018-11-13|Kewei Li|feat(test): updating badge to new build
+917958170e3cdb4d9a697e9f816e05e2655d8528|2018-11-13|John Gamble|Merge pull request #53 from Microsoft/fix/conda-clean
+c854e8b51e55d46b90ab45775e75232b4b13abed|2018-11-13|Kewei Li|fix(dockerfile): don't install docker within docker
+35de33395fc8f308bc88f533ed151a4e10edfccd|2018-11-13|Kewei Li|fix(dockerfile): conda clean to save some space
+7b922b9c395b5c63c30ef36ca9b2ed37c02fa7c7|2018-11-08|EUROPE\kevanhoo|Changes to data format to enable working with multiple RMFs
+a12337af10c115f63fcaafc8a247750c98ae0756|2018-11-05|Donjan Rodic|fixed docstring formatting, moved init docstrings to classes
+66b2a8abc4b3f0ce28e6ee8a33ce3786daec1de0|2018-11-02|Donjan Rodic|updated doc partially (reflect new tasks structure) & pep8 cosmetics
+e9b932db823bc7e5e078e901f13ed8909a96268f|2018-11-01|John Gamble|Merge pull request #52 from Microsoft/virtual_domains
+0ac91a8e1d4f4e90d8a8668c6681f9d89f9e03db|2018-10-31|Donjan Rodic|added part3d virtual domain type
+4e4dedff81740968944a2bac9700a45a4b07c4f5|2018-10-29|John Gamble|Merge pull request #51 from Microsoft/fix_freecad_serialization
+ff6b1e4f401a00acc5770ad84f0dd6667e89787a|2018-10-29|John Gamble|Merge branch 'master' into fix_freecad_serialization
+8981f3249a80449825ef1d735f519f534786661a|2018-10-29|John Gamble|Update geometry docstring
+20343729b8f6b62be0c71687a7768389fddd36b3|2018-10-29|Donjan Rodic|additional merge resolution
+69af6da764f416b5fa5b9046592b0bf51331c754|2018-10-29|Donjan Rodic|Merge branch 'master' of github.com:Microsoft/qmt
+51fcaf97f14dbbb1395a23315919142b6ae8a7b5|2018-10-29|Donjan Rodic|fixed sketch generation from invalid wires (segment ordering)
+7b9bb0b1cd5e55a4908d7e252eb2068e607ee5f9|2018-10-29|John Gamble|Add ability to modify materials (#50)
+29c3adc152f9629194e283ab8f838852b888d7e1|2018-10-29|John Gamble|Set default params correctly
+eac79ae6794cf5e3668ea33491417f0352e326cf|2018-10-29|John Gamble|Fix bugs
+04104a71a20ea05b7900e46fb74042985fe04d5c|2018-10-29|John Gamble|Add serial FreeCAD file passing to 3d geo build
+ae755aa2776a1c37e16a144abf8fb606cf616ef5|2018-10-28|John Gamble|Fix clobbered macro printing (#49)
+e1f1b36274eb8dd2ddbcb6dab47ae26559ee3f10|2018-10-27|John Gamble|Merge pull request #48 from Microsoft/simplify_tasks
+9df7306df1932edb62dca35ba029e3f9cd89fa0b|2018-10-27|John Gamble|Clean up test_geo_task
+66fdbaaddbba0a8ed7afc36a8b801905226b5cc3|2018-10-26|John Gamble|Refactor geometry names
+6980b6f7a803fb8aaef998e81f05d94520cc8e31|2018-10-26|John Gamble|Autoformat code
+bffdb8c8baed9c4d113925304a0362bd0ad6dee8|2018-10-26|John Gamble|Fix docker test
+741972bac9167e5801ee92a571c290f905ba81ab|2018-10-26|John Gamble|Fix another few tests
+60866ecbdaa092bdd548dd81114f0e4dcbd03ded|2018-10-26|John Gamble|Repair test_tasks fixtures
+1be8620768c73ff91633a8b10993f7e3b38b6076|2018-10-26|John Gamble|Clean up old task framework
+a6a6b706841893075431eed2718a227d6d787013|2018-10-25|John Gamble|Merge branch 'master' into simplify_tasks
+71445226280584836a955d05eb925bd6d967f7ae|2018-10-25|John Gamble|Get rid of old debug option in geometry
+c64813fd87de9b53d68a721af8359b7736886f24|2018-10-26|Rounak Agarwal|Reformat code to conform to the PEP 8 style guide (#45)
+c3b83aa15710d2538e007aca4e868a119e3ca981|2018-10-25|John Gamble|Merge branch 'master' into simplify_tasks
+64356e3b81057b768c558efdb1301091445a0982|2018-10-23|John Gamble|Get rid of extraneous Geo3DData getters (#47)
+5e33d562720182bc5d86e182ecf2898dc22ca4be|2018-10-22|John Gamble|Update units in Fem3DData
+54e97020d5359ee692476a7cba945c878bbe9b55|2018-10-21|John Gamble|Merge branch 'master' into simplify_tasks
+1f5533f5a0d060e9241bd799d53fd5289b5a7cb5|2018-10-21|Donjan Rodic|improved debugging capabilities for litho
+3fe726d6e11228dc6ff5b2c96a712b040b66d943|2018-10-20|Andrey E. Antipov|Merge pull request #46 from Microsoft/ci_improvements
+40b0fdf64e93ab702639f92ae866de4ae3cd6cf8|2018-10-19|Donjan Rodic|turn off debugging for layer construction (wip proper layering bug)
+990335957414f7dd5c132cc7b56af1b533757823|2018-10-19|Donjan Rodic|Merge branch 'master' of github.com:Microsoft/qmt
+b206de06272706fec5d03775666baa9ea0a55651|2018-10-19|John Gamble|Fix geometry task unit test
+466bb8bcbf6294cb18f75ac84a702e97211738df|2018-10-19|John Gamble|Bug fixes to imports
+89bda7df1bccd4be1fad38e3f9f7ce7781ed1d12|2018-10-19|John Gamble|Convert Goemetry 3D task
+44eba44a88106b638797971c4c1ef9e691aedee3|2018-10-19|John Gamble|Revise 2D geometry task
+aae344db4d396c9e712d86ab9385bc1abc806ec4|2018-10-19|Donjan Rodic|fixed multilayer intersection bug
+104b3d02c120b98bfc4a5af2d53f337586eb2c9e|2018-10-18|Jan Gukelberger|Remove artificial test failure.
+e20a0cb4532ee9449f1f2164cf10a21d2c3d3626|2018-10-18|Jan Gukelberger|Publish test results also when tests failed.
+79c516540a135798ec8fdb742b12239069672a9b|2018-10-18|Jan Gukelberger|Don't abort the full build on test failures.
+f5ac0d3b170ef8d5187f1461045a12e0faff64d6|2018-10-18|Jan Gukelberger|Artificial test failure to test azure pipelines.
+6e14395f539e26a29e9644c541b22ae1f2d758b5|2018-10-18|Jan Gukelberger|Try to have Azure pipelines mark builds with failing tests as failed.
+296bbcc41520613b74073f7b2a432e0224e79fba|2018-10-18|John Gamble|Merge branch 'master' of github.com:Microsoft/qmt
+2b1e9baa2728ba92c80584389ecfbd0f1c088705|2018-10-18|John Gamble|Update readme file
+d25f1d49bd467433d35457758786866b79af172e|2018-10-18|Andrey E. Antipov|Merge pull request #44 from Microsoft/azure_pipelines_fix
+f21eb31cbd79378a6b87ef17b8d608d0b7bb9ecc|2018-10-17|EUROPE\kevanhoo|Small refactoring FEM3DData
+9e70830faa880f129c082ac3fb3310119a49c892|2018-10-17|Jan Gukelberger|Azure pipelines: docker run options to enable docker-based task test.
+3085a006d26e07e1879f77a6c7f8095b23940db5|2018-10-17|Jan Gukelberger|Back to attached docker run for tests.
+e84aa803bec795993508dc2865aa6deca010b748|2018-10-17|Jan Gukelberger|Azure pipelines: separate test run from copying of test results.
+6fb8ee55fb9d544b72f6dc0c275000914e03af06|2018-10-16|Andrey E. Antipov|Merge pull request #43 from Microsoft/azure_pipelines_fix
+60b1b847d6eaef78c4d40a5b3a5b20817bd90242|2018-10-17|Jan Gukelberger|Set python 2 default location consistently with Dockerfile.
+d0a2b4ae173ad9100f61bcfaa51150445352a51a|2018-10-17|Jan Gukelberger|Fix py3 test pipeline: --noconftest prohibits pytest from finding fixtures.
+c72e091645057d77c10fe8e102e5ae6cb4bf70ac|2018-10-16|Donjan Rodic|fixed wire shell etching bug
+af2ab358cf719488de607ae116566922d92b6473|2018-10-16|Donjan Rodic|clean up wire_shell litho debugging
+644700d3cdbaebb459da80ead644fd216418e53d|2018-10-16|Donjan Rodic|doc docker image: full python2 apidoc
+d431124ba15c5de346894a8341b571404849941b|2018-10-15|John Gamble|Merge pull request #42 from Microsoft/docker_test_improvements
+c1d9cc64b8a429d20b87df0eb77190f291f72643|2018-10-15|Jan Gukelberger|test_docker_sweep: Kill only containers that were created by this test.
+f22373ac4fb1775d4671b2ca28727f596b5c8c02|2018-10-14|John Gamble|Merge branch 'master' of github.com:Microsoft/qmt
+4d4eed0da57cff7ea5dbac97b4048402a027f0c5|2018-10-14|John Gamble|Add data access routines to _init_
+148a87b45e37dfc2705976d312a2a64c50533da9|2018-10-15|Donjan Rodic|doc docker image: full python3 apidoc
+5a6f9390f12a35c10338d1e16b0c6e4082b9b344|2018-10-14|Donjan Rodic|Merge branch 'master' of github.com:Microsoft/qmt
+fce30e4e665dcb18224f28888165eaef61a7dec6|2018-10-13|John Gamble|Change name in 3D data
+c7574b49d05be8fd9e152bd2de274ca76e27a789|2018-10-13|Donjan Rodic|rm obsolete params, cleanup
+6b710451af4343def91944fa77a3434062e316e7|2018-10-12|Donjan Rodic|Merge branch 'master' of github.com:Microsoft/qmt
+ce087bdad3266e29f6eca78580faa11d7fccc727|2018-10-12|Donjan Rodic|added doc build docker image, updated doc
+e24c54f5d395ff5284287166bd6a1bd5986c8170|2018-10-11|John Gamble|Merge pull request #41 from Microsoft/change_mesh_handling
+ee8f9445dca6f112ddc60742a4b267683079704e|2018-10-11|John Gamble|Merge branch 'master' into change_mesh_handling
+9c34b85d4298dd529a40bb61558adddbb300c5e6|2018-10-11|John Gamble|Add static version of libgfortran
+a96fcd38dc7c0204d61192a3d8fc8728968d6e30|2018-10-11|John Gamble|Fix mesh ids
+f137d55e990f721eaa4e60dc632ea8ec781706cf|2018-10-11|John Gamble|Remove region mapping function from run.py
+f52d2a764a01a143b6abc2024d75dd15e511e61b|2018-10-11|John Gamble|Clean up 3D geometry data structure
+434f3d28fa927ca4fac537721a58cc3c014b65f4|2018-10-10|Donjan Rodic|rm unused in-memory geometry example
+669ac2aabc40ccead9f70c0ea2c908f975ef4b84|2018-10-10|Donjan Rodic|fix lithography for wire shells
+91125b6117939bc745125c5b9dfb37b24157416c|2018-10-10|John Gamble|Rework template fcmacro
+482f9090331612a8a033211154d5882e20d50efa|2018-10-08|EUROPE\kevanhoo|Additional attributes in Fem3DData class
+f7c96d91dbd0a84ddc5627bb7279fe9469c3bb55|2018-10-05|Andrey Antipov|update status
+f63646d530e484dfe74c3330e13ae25a1f68e2b2|2018-10-05|Andrey Antipov|add python3 tests
+93d7f18ee523b932f719af2f2c4a7765d611d442|2018-10-05|Andrey E. Antipov|Merge branch 'master' of github.com:Microsoft/qmt
+f315dd43556ca8846a36cbf91f9e21677646c9f5|2018-10-05|Georg Wolfgang Winkler|re-added density to TF2D data object
+b00720c1edda65a86146b32b04ff116c03e88c4e|2018-10-05|Bela Bauer|one space...seriously?
+7eceb327f9b9546bae7a025496a06185d25cbe5e|2018-10-05|Georg Wolfgang Winkler|re-added density to TF2D data object
+76ab9247d1851c4ff80c2ed1fa98f9bd143ff62e|2018-10-05|Andrey E. Antipov|work with builds and tests
+fefdbdf26720e56497272724f26687342fc7e9e8|2018-10-05|Bela Bauer|Merge branch 'master' of https://github.com/Microsoft/qmt
+6dfa70bfc9ccf09db014890401caa6734b4a769f|2018-10-05|Bela Bauer|one space...seriously?
+3b60034b943fbdc58d00f61bda04c47369facef8|2018-10-04|Andrey E. Antipov|omg this should work
+76ee96effe1699040f1bdf26e122fdb6a5e3db14|2018-10-04|Bela Bauer|Merge branch 'master' of https://github.com/Microsoft/qmt
+b472e164fce483d8b790e678c598521d04df0d8d|2018-10-05|Andrey Antipov|checking output
+3548871fce85d28344b806241d3f0cb670bb1a5a|2018-10-04|Bela Bauer|Adding hpc05, adaptive, and numpy-stl to Docker
+7176662f20bf2865cb9f6dbb044875f3bdd95774|2018-10-04|Andrey E. Antipov|fix path
+a14c8542e775e67c412c1e0c224a279a77631866|2018-10-04|Andrey E. Antipov|fix test run
+8c619c92977c82f0c3d02206055d26a2f660ef06|2018-10-04|Andrey E. Antipov|upd test
+f1a478c9a65d225873db31ad1abfc8f7e24ebfeb|2018-10-04|Andrey E. Antipov|run tests
+1675430497cd0c667236463254b4cf034fc75357|2018-10-04|Andrey E. Antipov|Set up CI with Azure Pipelines
+c23022d8f28f46493ae17e587f3404c8c635f281|2018-10-04|EUROPE\kevanhoo|New class definition for GeoData
+c0a7bfd92c3f2516693f9f76232c4c24b293fc25|2018-10-04|EUROPE\kevanhoo|New class style for compatibility with pickle in python 2.7
+040153b560e4712b31204c2499c0869d13fe5e63|2018-09-29|John Gamble|Get rid of old data template
+c7d6f15d63d30cd3fae99fa1f9a49f867da7a4b0|2018-09-29|John Gamble|Refactor vizualization as data processing
+65e87b15d077e048212f9009b6364a872d7ca2d9|2018-09-29|John Gamble|Move old visualization code
+291a7bf7e134725f01c95da6407f30e9c557e25f|2018-09-29|John Gamble|Reformat and revise data containers
+ea5d234012a1d1d39f34834ac9f2007c2a6d4852|2018-09-29|John Gamble|Add dosHoleMass as an option to property map
+5e7ee7713a4c53f17c823dff1df89c1d689938b0|2018-09-27|John Gamble|Fix build order in 2D geometry
+4d928c353bf4737afd558dde9896ad38b098d80a|2018-09-27|John Gamble|Add routine for getting coord lists from geo_data
+0df5397fd737af3baaf23b043e9cf4acc77b85c9|2018-09-26|John Gamble|Add part_build_order to 2D geometry data
+cf45f14c6c6875d9077c49618e1d115db8b5d5cb|2018-09-26|John Gamble|Add units to 2D geometry
+908eaaf6792384d2a4f9949dc86eafc434c20051|2018-09-26|John Gamble|Don’t import Geometry1D
+964126b1e18c597e9430034c7036270c3eea6abd|2018-09-25|John Gamble|Delete geometry 1D
+93c0cfef7d25157f399a8e886c21667199ada71b|2018-09-25|John Gamble|Add  bounding box function to 2D geometry
+a0f5e89a1cf1cfd0367f412858a32ead7f35251b|2018-09-25|John Gamble|Delete density data
+433060232bca49ab09df02287f7fdce151ca1550|2018-09-25|John Gamble|Delete geo1d
+c1d767cdc87430d1b3120e266de14ec91d4d07a6|2018-09-25|John Gamble|Calrify working on PartMap
+c3d9cf5d3f53905e7a31ddb4601346fe3994d9d0|2018-09-24|Donjan Rodic|travis build file: quoting juts colons
+d4a20502cc37da549e83cfbf422636b41e65ac63|2018-09-24|Donjan Rodic|materials deserializeDict -> deserializeDict
+4d43c8e4cdc4b25388c5ce0aa4a69e1a03cf5b94|2018-09-24|Donjan Rodic|travis build file: quoting colons
+732ebd02ad486da72af1f6dde996d45346350c88|2018-09-24|John Gamble|Merge pull request #38 from Microsoft/tasks
+90b0b0166ada5080d813e847edd391365aabb86f|2018-09-24|John Gamble|Merge branch 'tasks' of github.com:Microsoft/qmt into tasks
+ffdcb53e3abaeaaacfbfe2cd255754e11e695995|2018-09-24|John Gamble|Merge branch 'master' into tasks
+e933fd29794d3044c0c7257ad968ebf5fd29381c|2018-09-24|Donjan Rodic|travis build file fix for host settings (character encoding?)
+77d08b2807768c9ccd278ddcb3a7435475928a13|2018-09-24|Donjan Rodic|travis build file fix for host settings
+75d8e45b986ff4eb5027e8d42d3a9a2461632ce4|2018-09-24|Donjan Rodic|update travis to use host_settings.yml
+33883e940703758bea93c50974f1cd8bd5bb3fa7|2018-09-24|Donjan Rodic|test/host_settings_dir -> test/host_settings.yml
+ff1d8641bfc5a05310f282d80e96359611aa9047|2018-09-24|Donjan Rodic|data_utils testing requires FreeCAD -> move to py2.7 tests
+a13614df419da31ef8f2a4e5f056b3ddb46bd55d|2018-09-24|Donjan Rodic|updated simple task examples and corresponding documentation
+344bdc7ff9c71c3d09b4f0bd47dee62bb2e25c5f|2018-09-24|Donjan Rodic|rm old unit tests
+2d10fdb4cf419e5ea0b57ebceb16abdf15bf0fd6|2018-09-24|Donjan Rodic|doc/configure.sh
+ff64b55c120b03d27b9ef716a7ada18361f5f4ca|2018-09-24|Donjan Rodic|test_data_data_utils.py::test_store_serial cleanup
+519106e20aec6815f043b525685215b63b65be60|2018-09-24|Donjan Rodic|remove pacakge loops in geometry and update documentation
+41db8f624c7c600895d847b3617fa270ff0aec5a|2018-09-24|Donjan Rodic|travis setup for py2env (done)
+bc5afeb570247e5af4834483ba5ab43a99ce9c4d|2018-09-24|Donjan Rodic|testing travis setup for py2env (debugging2)
+5f0bfc17a33e439d000a3d0c52772041c0218a8d|2018-09-24|Donjan Rodic|testing travis setup for py2env (debugging)
+54a76682427570c5aef6a28b8edbb6525e37b27d|2018-09-24|Donjan Rodic|testing travis setup for py2env (script command)
+e3efa4119c7f3139ca61bfdf966fce3c1edbabab|2018-09-24|Donjan Rodic|testing travis setup for py2env
+cdfc1b1213fbbcdc4aef281bf17860c956f0f441|2018-09-24|Donjan Rodic|unit test host settings (py2env) for travis
+363656ec0f6408d5745c45fb61330adfcbff558c|2018-09-24|Donjan Rodic|fix: fenics imports with python2 in freecad/run.py
+b4f7ec77982bd2bc02c370372a91d87c1762b2bf|2018-09-23|John Gamble|Merge branch 'tasks' of github.com:Microsoft/qmt into tasks
+424381d80b555cce71a023f9193d0ee774d7d01a|2018-09-23|John Gamble|Import cleanup
+7d1437c397b04df743f84cc0ae5ad77e24bc3f4d|2018-09-22|Jan Gukelberger|Update materials.json
+aed333c7c963ca638ce77f4debea5a6629a61a9d|2018-09-21|Jan Gukelberger|Merge branch 'tasks' of github.com:Microsoft/qmt into tasks
+24dff2c5868074023bc7a1feee7dffe71cbab001|2018-09-21|Jan Gukelberger|Add build_order option to Geometry2D task.
+f35a7077971597573c1ba4b866441253dca7ac27|2018-09-21|Donjan Rodic|fixture host_settings_dir (streamlining for future changes)
+45df0f9fd00a168228f5c2fc41b924745b555e5a|2018-09-21|Donjan Rodic|test system: host settings feature
+c0ff4afc0cb3a63670ce1d6772f219477822ccf1|2018-09-21|Donjan Rodic|fixed fix_py2env test fixture
+c6a8540c5aee1af911ec379d03bda77770069f10|2018-09-21|Donjan Rodic|streamlined data_utils
+cd2d9bf0115c80f2ac81f6ed29e62863030b0d0f|2018-09-20|Jan Gukelberger|Report Materials.reference_level in energy units.
+529609895ebd5d64a4c37955c6a6ce001875b726|2018-09-20|Jan Gukelberger|Fix typo in previous commit.
+dba0d2ff6d3b9a97a71046b2345e413499e83177|2018-09-20|Jan Gukelberger|Fix Geo3DData.get_data (fenics insists on the .xml extension).
+6ef1f03ee5aca8e23905d8b2fe00fb2ff704f133|2018-09-20|Jan Gukelberger|Fix Geo3DData.set_data (fenics insists on the .xml extension).
+3ed828a7937f44f8db2ea3450a0b761ea22548cd|2018-09-20|Jan Gukelberger|Small improvements: Reintroduce qmt.units, constants, parse_unit, to_float, Materials; remove superfluous getters from Geo3DData.
+31318d95043c21da12dacd23f979a742af15b41c|2018-09-20|John Gamble|Moved serialization routines to utils file
+6036e2560c080bf7ffe075192c79484962d2450c|2018-09-20|John Gamble|Merge branch 'tasks' of github.com:Microsoft/qmt into tasks
+aa02d408d7824b5c001611e001e3b1f57074fb3f|2018-09-20|John Gamble|fixed geometry task test
+ed2a2b268a5a83cb82bd5f024a3c3c8bca1af8a8|2018-09-20|Donjan Rodic|unified serialisation functions
+8e820ebe798039f8039e6ec7d644e82b5ce9006d|2018-09-20|Donjan Rodic|docstring cosmetics
+29c45ac36e7bd99e6585a6a2243e45d1afd67ee3|2018-09-20|Donjan Rodic|freecad input dict: serial_fcdoc -> input_file
+fac4767edfc2d628c2eccf833e934af06d69fcb3|2018-09-20|Donjan Rodic|freecad input dict documentation
+4e074640bb3dd4d15b6a52b4b4db0ddb6730b6c0|2018-09-19|John Gamble|Add phi and materials to thomas_fermi data
+df49adf600bc40ff841c50190c6361d4a5c68b18|2018-09-19|John Gamble|Make thomas_fermi_data safer
+5c756d57851814956bbe1b1a1648d6c69c746094|2018-09-19|John Gamble|Delete old serialization
+2f10570509e0b9ab21c31c1478765f56a7c1047e|2018-09-19|John Gamble|Add additional dependencies to env file
+c1615c6c57c44ce53b80a9ceb27c94b920516002|2018-09-19|John Gamble|Merge branch 'tasks' of github.com:Microsoft/qmt into tasks
+2ae1825ea273225785ddeb1a7d0afe8b63c28f99|2018-09-19|John Gamble|Add docker test
+62498a3b4e6a2f7220328748d5384a0aea682719|2018-09-19|Donjan Rodic|clarified updateParams -> set_params functionality
+063ad570d2b1061e8ea5d4f4549f100458fa07c4|2018-09-19|Donjan Rodic|added shapely to environment.yml
+a5de51eb169e0b795c1e3bb7ba930af76b5f18cc|2018-09-19|Donjan Rodic|try with dask dependency in environment.yml
+55610b9e77e1f9b3b982b995b75aee47d1622867|2018-09-19|Donjan Rodic|added dask to travis conda install
+cf54a8b0289dff17eae4072adfeffcef18987c9c|2018-09-19|Donjan Rodic|added staticmethod to _solve_instance of tasks, fixed geometry example
+606af0689006e4e571d0b316f6060ae74a548832|2018-09-18|John Gamble|Add docker file and revise requirements
+0e853583acf8e378d9c356c6dca1b0d521ffef5f|2018-09-18|John Gamble|Add initial test of the geometry task
+20899e4e290d00f82fa3e5244650fcc1a7445f54|2018-09-18|John Gamble|Add more task tests
+e6f5881cee81169639faed825a0fa58ca6e72e92|2018-09-18|John Gamble|Initial unit tests for tasks
+2cc2ce73ac72b3a4a5d45b84315628f9a33d3594|2018-09-18|John Gamble|Update dockerfile for deployment
+6203988037b0329683b0c8b153ecc9b1701e46ab|2018-09-18|John Gamble|Minor fixes to make sure that tasks work again
+f8e5470ca0c7a8f0e8bdeed00a22265c7e522c82|2018-09-17|John Gamble|More housekeeping
+e4099c339b7221be4db6b5fe093dbc7af3eb8fe7|2018-09-17|John Gamble|Prune some unused functions
+caca8753eb481862500042db9a33a81c9b1ff35c|2018-09-17|John Gamble|Additional edits to fc loading
+5cf19d9dd8a6435e1a6391710bf39ccdd93172bc|2018-09-17|John Gamble|Additional edits to fc loads
+3c580bd4b79edf6bfe4a284cfad5a25dcb72a34c|2018-09-17|John Gamble|Fix typo in geometry
+6dd0a23e48cedd1138d81d062c3b54499cdcfcf5|2018-09-17|John Gamble|Fix 3D geo_task
+84295479c83b4a5f75a70cfc8d9ce29aaea23b98|2018-09-16|John Gamble|update daskless sweep
+8d3d1f26ae24ae5b76b58d92813e56e4e9d2e10d|2018-09-15|John Gamble|Fix and improve run_daskless
+8837c533f3db22e1487939d260eae1d859db68f6|2018-09-14|John Gamble|Merge branch 'tasks' of github.com:Microsoft/qmt into tasks
+e345f9d5ca9dda34f206fdcdfbd5c3f76303a043|2018-09-14|John Gamble|Edits after review
+820494a3addef81ecff646baabf5953d1c0dbd88|2018-09-14|Adam Frees|Merge branch 'tasks' of https://github.com/Microsoft/qmt into tasks
+f8cee55534da6df762ac77f57b4cc4b95d060c01|2018-09-14|Adam Frees|added comments to visualize functions
+c8d4325a02e041420eecc642d5e418aef43b1e85|2018-09-14|Spencer Peters|removed println
+d177b0c1e43e6e346046f6c6019382fe048faea9|2018-09-14|Spencer Peters|new method in sweep holder class
+d582a513c3138c186b7b75b9508ce0813290e179|2018-09-14|Spencer Peters|Merge branch 'tasks' of https://github.com/Microsoft/qmt into tasks
+70f305c95a206a1e5466099a6a6a06683e6236f1|2018-09-14|Spencer Peters|deleted old tests
+084735a66073ddd05d00ff76a10f2a1944742ed3|2018-09-14|Adam Frees|merge resolved
+fb592177816114c12b7bd2f793e70ad2e0473d6a|2018-09-14|Adam Frees|added to data/_init
+43f4e8aee6e76afba9ed03b732704bd00d8c48e6|2018-09-13|Spencer Peters|merge
+7078827e88d173a8bbee4a689b7eaa94573c9ac9|2018-09-13|Spencer Peters|integrals work
+fc6e1c7be597f39fc3c983621917bebd52b57f56|2018-09-13|Adam Frees|resolving merge
+5fdf9319bf9887788762f3e982437ce9571c4d3c|2018-09-13|Adam Frees|additions to data and visualation objects
+ce70a726e5671fb167500922ea937a174d95a316|2018-09-13|adamfrees|Merge pull request #32 from Microsoft/static_method
+bc807d2e7ac5666c88828d81a5c9795c1a2c9f3f|2018-09-13|Donjan Rodic|make unit tests work again
+d457c35a8059c07bc3de04bbb131987ba4b534e3|2018-09-13|Donjan Rodic|migrate geo3d building to python2 code region
+f135bc8f812d966b976a4025aec810b2160cc249|2018-09-13|Donjan Rodic|resolved restructuring TODOs, part 1
+f3a9dad81c25e31445db928caf6224e87953696d|2018-09-13|Donjan Rodic|automatic geometry subtraction (lithography)
+4c4a477d38e93f10cbd2312980cea5e89e6f7b87|2018-09-12|Spencer Peters|Merge branch 'tasks' of https://github.com/Microsoft/qmt into tasks
+95aeaa61fad91bf7780e988055604ebd39006099|2018-09-12|Spencer Peters|integral changes
+ab9767cdb2b301696141ec194f4992c695e86d59|2018-09-12|Donjan Rodic|fixed depo for wire shells (dielectric bug)
+cdfd8b2f69c6670bd44fcb4d2f91e53cc4d010f1|2018-09-11|Jan Gukelberger|Merge pull request #31 from basnijholt/patch-2
+4a87d9ebaa5e9b2acde0f572f69f1fc977dfc1bc|2018-09-09|Spencer Peters|right before final talk
+f2c65c8415ac9cf50ced42bce6250337237906ee|2018-09-07|Spencer Peters|new part data bookkeeping system
+9bb4c1f5a7fbc514bd0b124fd6bee4c2f2d14316|2018-09-07|Spencer Peters|better working functional wire test before units revamp
+827fbc410575b481f0daecd3ee87031d51f5f554|2018-09-07|Spencer Peters|working wire functional test
+9040cd3c1f41ee6c86d1ecec48557493afa7d46a|2018-09-04|Adam Frees|_solve_instance method of tasks now a static method.
+27058d81791acc66ac17f9704f46a6c57597d130|2018-08-29|Adam Frees|Merge branch 'tasks' of https://github.com/Microsoft/qmt into tasks
+6e1e932ecca4acb75f938dd3963c489d38ff434d|2018-08-29|Adam Frees|added to S-P data class.
+dff5557728aa151db90bd6248e6966cb47662aa2|2018-08-29|Spencer Peters|Merge branch 'tasks' of https://github.com/Microsoft/qmt into tasks
+41177045af8c0beaada3bcfb0df31478e4e580a7|2018-08-29|Spencer Peters|working thomas fermi with volume source charge
+99c6a65413d907928ad94d401777e2902c0752f1|2018-08-29|Bas Nijholt|Use IOError because Python 2 doesn't have FileNotFoundError
+223fd0d274519958c6e42f0d51a150a3c5e449dc|2018-08-29|Bas Nijholt|remove 'import os'
+4035377a7e0204fc4ed42f846050a700abbde81a|2018-08-29|Bas Nijholt|use try except and with statement
+23f4e48d40f1903fcc8451f870c3ab6366cc15ef|2018-08-29|Bas Nijholt|print a warning when model cannot be opened, print nothing when succeeding
+9ebb221bdd1508cf086265ae9b3fd94ccc4ee60a|2018-08-28|Spencer Peters|fixed imports
+7396e343e51772813c93866b1db9219353218a4d|2018-08-28|Andrey E. Antipov|Merge pull request #30 from basnijholt/patch-1
+4193fd58d7f888c4d09635afb036b3f984cbf297|2018-08-27|Andrey E. Antipov|all 4x4 matrices
+9d53782b17f7049cfc8e79cf4f3ce558e6207428|2018-08-27|Spencer Peters|merge
+5be04779245ef5a36b7d630b866b0b1b5d8fba64|2018-08-27|Spencer Peters|additions to support Neumann boundary conditions
+f9e4bc8b8d9edad6d7a3bd39a0f2ebd66e509b72|2018-08-24|Adam Frees|Merge branch 'tasks' of https://github.com/Microsoft/qmt into tasks
+3da6efe4979addf64024695a99caed74300bc107|2018-08-24|Adam Frees|Visualizer now uses Dynamic Maps.
+96a96047538eb94e7cce2aa20b0dad6c277bc5af|2018-08-24|Bas Nijholt|generate the `materials.json` file as is reported in the print statement
+b052ab673c12a42608c5399d7647fa5a877c1a1e|2018-08-23|Spencer Peters|commit before solver refactor
+8ec12141e2f10cac5c5f7601b56d5fb15122d37c|2018-08-23|Donjan Rodic|lithography: support and example for 2+ layers
+392d467ea48514672de9b80c63602684b73a7d33|2018-08-23|Donjan Rodic|reintroduced lithography directive (reusing previous code)
+e9d10a30ebb151d247ac87ec277f57bf281ef864|2018-08-23|Donjan Rodic|typos and cleanup
+f0bb02f10f36877205fec328f590dc130bc88c6e|2018-08-23|Donjan Rodic|Merge branch 'tasks' of github.com:Microsoft/qmt into tasks
+d27ba012ab5d6e8857dad76f2b2c300e6c412b27|2018-08-23|Donjan Rodic|updated depo mode interface for geometry addition
+704b73c324d388ea5c12a61534530881516d3a3d|2018-08-22|Adam Frees|adding relevant data files
+db517b659a2d993c0ce95ea98b9db36fedf8d9cc|2018-08-22|Adam Frees|added stub for 2d SP task
+bf9db8e114a268b046d7d913229a4818871ecf56|2018-08-22|Adam Frees|change to units
+7a99818a3b6cb6849755bb26965b40a25e573c98|2018-08-21|Adam Frees|changes to imports
+c735254e544cfbc23238495b3f4e3a643ed5c1be|2018-08-21|Adam Frees|resolved merge conflicts
+ae248987f6fb03cbbe798e31c0e28a416f4ff79a|2018-08-21|Adam Frees|visualization of tf density now working.
+d6a30b41704de3b3fede4e4ecaa6569160893f2c|2018-08-21|Spencer Peters|debug the daskless debug
+b507b6030d23af5252782d908777358735ece527|2018-08-21|Spencer Peters|fixed freecad import bug
+333a131b7b14a8038a506522ff3ecc77c29d0b2a|2018-08-21|Spencer Peters|sweep bug
+8349a8675d9df023efb2b258bfd3e872c1408687|2018-08-21|Spencer Peters|sweep bug
+a1ca1af5c18ea1da5311f40af687de444e691e8a|2018-08-21|Spencer Peters|sweep bug
+9b970fa8650941470f0b861349a84b9c1bb95fa3|2018-08-21|Spencer Peters|sweep bug
+95b948247c4c930541a1f2e2a17d9ccce3b4212d|2018-08-21|Spencer Peters|big cleanup part n
+c03ac64e262ae40bbd3fd7a665ae0695cab8dfb4|2018-08-21|Spencer Peters|big cleanup part n
+dda83bc4090d8efd71d1c0d362998a7cf7feeed8|2018-08-21|Spencer Peters|big cleanup part n
+be2c0bd73bf87fe977b5100db73d9ee42c71806a|2018-08-21|Spencer Peters|big cleanup part n
+622d7a885ea04ebef0696bbcc900e294913ceaf9|2018-08-21|Spencer Peters|big cleanup part n
+0210eca8b4e073fe92e45551f83243dade2cf587|2018-08-21|Spencer Peters|big cleanup part n
+1cf56fe20d217b243b4bf2d0a4897c641e5cbd86|2018-08-21|Spencer Peters|big cleanup part n
+b80bf29262c96495842789424ac18816a148c5aa|2018-08-21|Spencer Peters|big cleanup part n
+9bbfc965f32af1415933a2e145ed9ee4fbe568c6|2018-08-21|Spencer Peters|big cleanup part n
+37c8969088a6b7007aaebaa5d8dcb1d8fc1bb4e5|2018-08-21|Spencer Peters|big cleanup part n
+e3125cf591a55df92d2dab156e3b5ebff90d7331|2018-08-21|Spencer Peters|big cleanup part n
+dbc1ff192d6ca910dfa81b8d66f2de8711c83f18|2018-08-21|Spencer Peters|big cleanup part n
+9708d5c9732f40a08884bb076954ad81d95cc776|2018-08-21|Spencer Peters|big cleanup part n
+bbbae999fac67940fda4f66e770f1887ccd6a8d5|2018-08-21|Spencer Peters|big cleanup part n
+2e953236b6fd9ccd75e68648d4de52ac85e50adf|2018-08-21|Spencer Peters|big cleanup part 3
+2fd7571fe50e8822238e149c765b16fd43bba18b|2018-08-21|Spencer Peters|big cleanup part 2
+07d6e9eef3910d46cad0d730259c4b83e235ac7e|2018-08-21|Spencer Peters|big cleanup part 1
+9f108c605931b5114833afa0c093ffe5f00fd0ed|2018-08-20|Spencer Peters|optimized imports
+0764b9354057e56279620bde6d4bc6beaa8e8d1d|2018-08-20|Spencer Peters|optimized imports
+f0ea3e9bf58a704d5c808c05ab95daa5daf4b3a3|2018-08-20|Spencer Peters|circular imports--we need more files
+deca874ad55049b9a95036c263f437b15b1a2a42|2018-08-20|Spencer Peters|circular imports--we need more files
+5bbc97371714000c94dad155be0a2724e1edb7b1|2018-08-20|Spencer Peters|initial gather support for daskless debug
+2b3af3bb21e2c8b8680b4981cea733431094bd10|2018-08-20|Spencer Peters|preliminary charge integral stuff
+42987fa41c2389cf9df6b54efceea8c7a11b7f89|2018-08-20|Spencer Peters|reintroduced untested daskless debug
+a14bcb72c35e6b105343a87222bd659c54647cc6|2018-08-20|Spencer Peters|debug
+c47501b9673cf712d45eeb39114573d2516ea5aa|2018-08-20|Spencer Peters|debug
+c159ac3f39ad35ed458444763ee7e7a30aab2ebc|2018-08-20|Spencer Peters|debug
+ef92ad2900074a80ae74c3788f0e8b89ccee973d|2018-08-20|Spencer Peters|debug
+d100deffa8109b1da1f250de617105736d823206|2018-08-20|Spencer Peters|debug
+bb0d15d077f56de5ccc1b94f422914eeeaf77f5c|2018-08-20|Spencer Peters|Fixed sweep constructor.
+8c0d5c982f1cdf38e2fe88dc8d73c5c3d9c16817|2018-08-20|Donjan Rodic|Merge branch 'tasks' of github.com:Microsoft/qmt into tasks
+6ea07bbe60642666097d4f75ba56466342c156f4|2018-08-16|Spencer Peters|missing default argument
+caa3b0233988247405a6892e144315382f8f4b5b|2018-08-16|Spencer Peters|merge in initial daskless debug code
+cae87c59680af8b55f14a92a1c82cac41c231635|2018-08-16|Spencer Peters|removed print
+b45b530de88e1754803f9334b749a0cfa3b5d357|2018-08-16|Spencer Peters|fixed incompatible enumerate
+a546c15e537d69ff22d64d82af941894aee4b182|2018-08-16|Donjan Rodic|Merge branch 'tasks' of github.com:Microsoft/qmt into tasks
+2854a7abbb1f82911650cad08e4d0b4f17784fda|2018-08-16|Donjan Rodic|updated tests to module structure changes
+36b43b7d405b7bdb8239bf0748d49fb382d30629|2018-08-15|Spencer Peters|initial daskless debug commit
+4c5b038f789e2adb7077b65c6c6f90a217f80879|2018-08-15|Spencer Peters|visualization bug
+e0c47d71007eb563e9d0c9cacdc87e2a7ad932e7|2018-08-15|Spencer Peters|visualization bug
+377871167cb36cc0c84b5723f8eb6b0775b4d006|2018-08-15|Spencer Peters|visualization bug
+95a6ad9d4927650654d97c7100be8bdd7990671c|2018-08-15|Spencer Peters|visualization bug
+0b45068a82b7bbfbca64f828b34df047ee9163e5|2018-08-15|Spencer Peters|added documentation
+810461f4ecc2af83737758531bd68d299c97b6a5|2018-08-15|Spencer Peters|get tags to data mapping
+2855944221324fc98f33a5ce88b742d752d786fc|2018-08-15|Spencer Peters|get tags to data mapping
+d4c6e367fb9e87e1fd7ba360ee0cd43f662a2e26|2018-08-15|Spencer Peters|get tags to data mapping
+a43e865d289ef41708bc5399ecdcb77d8c579116|2018-08-15|Spencer Peters|work on reduce function
+9b1a0297f329ea755196f8c7c4e7807e4b051d5a|2018-08-15|Spencer Peters|work on reduce function
+30af359b5459272fac3081720dffbcf28da6392a|2018-08-15|Spencer Peters|missing superclass method
+b57893c8484cb1c65eef703b8705b6adc81974de|2018-08-15|Spencer Peters|missing superclass method
+d8f2cc8266d31297e0796c0dcca8c22001d23c79|2018-08-15|Spencer Peters|missing superclass method
+5ea934d31aeda64283a736828d854970f1e6a2c8|2018-08-15|Spencer Peters|bug
+82aec5b362f8cf8970927cfa4a1a49157a69528d|2018-08-15|Spencer Peters|used ReducedSweepResults in gather task
+33f6608b210ce724dfaf0e6be67c191540fa78b6|2018-08-15|Spencer Peters|sweep hierarchy refactor
+d214f38cdebb84f1cfaee7bab36a62358cf96568|2018-08-15|Spencer Peters|initial changes
+c56a72bf9f1ab47b60fb6cf63286b13319d95ccf|2018-08-15|Spencer Peters|bug
+0063865c9a33c37a541e8cb955f7dc4ca9e264a8|2018-08-15|Spencer Peters|bug
+5df06d4add012cd0d23299b758d01adcd1f126c4|2018-08-15|Spencer Peters|build order bug (again) fix
+28e0754252705c82bbf1a086582bd6e7557110b0|2018-08-14|Spencer Peters|solution bug fixed maybe
+0eb5af70365028335395fb3ebfb61e6ab93bf4db|2018-08-14|Spencer Peters|rename
+b85ab93111a5a9d0edf63c23980392c8c81867f3|2018-08-14|Spencer Peters|rename
+f025d9d27b592bf80112f20a13565931c0b8a143|2018-08-14|Spencer Peters|rename
+8de6358e8b25013ffca9da5cbac2418fc8e17196|2018-08-14|Spencer Peters|ready for poisson testing
+35a677076d164b37988ede9a7dcfd8bf59d867f5|2018-08-14|Donjan Rodic|Merge branch 'tasks' of github.com:Microsoft/qmt into tasks
+56213c0258c3668feace0ea32fe2edbbae4640d3|2018-08-14|Donjan Rodic|some task markers
+b81b0ebf40779bebb2d02cf26881d76fe9bbd29d|2018-08-13|EUROPE\kevanhoo|Consistency mesh and region_marker_file for fenics
+c2ccc43d3bab995d714b9f65ee9d0312b96e01b5|2018-08-10|John Gamble|Restructure folders
+3223181cc860b34d8b1da7410893539d74d699e6|2018-08-10|John Gamble|Fix for colliding tmp paths
+ade52b0b654e66bb5ea140d5acf2983fe3e1d5e4|2018-08-10|EUROPE\kevanhoo|adaptation to get_data for region_marker_file
+81959a53f257ab9734fe0d85ccca3aabd320ab07|2018-08-10|Adam Frees|geo sweep now works in 2d tf
+e997f77d75fa90891383ca2679953644c49452ca|2018-08-09|Adam Frees|small change to tf-2d example
+751b07bff6590ba55d70060522a8301cc14c2d84|2018-08-10|Adam Frees|Merge branch 'tasks' of https://github.com/Microsoft/qmt into tasks
+5e94daed565fbed48087958b804df5ed80e27609|2018-08-10|Adam Frees|added working example of thomas-fermi
+badf89fca121705bdca1dc5c7cd260f9d9483f52|2018-08-08|Spencer Peters|Improved potential data stub to scalar data classes
+db4447fd266959ae8e3160237a2eb2636f2ed87c|2018-08-08|Spencer Peters|changed MeshFunction back to CellFunction for rolling back FEniCS version
+67d4ec57eb655023ba432515b46b57f4ce7631e1|2018-08-08|Spencer Peters|Merge branch 'tasks' of https://github.com/Microsoft/qmt into tasks
+219abbb1e17a6d0ec2cc380dcc87920dd1e45eeb|2018-08-08|John Gamble|Fix typo
+92ede62e4953b69dba05d9a458e21c75107ad8d5|2018-08-08|John Gamble|Fix serialized object storage
+7cfcfb5b2d60abf7932b4644f36a6db99b33dab9|2018-08-08|Spencer Peters|merge
+f54f0fe1d1ab0307084c481c31e0c956f7ba3757|2018-08-08|Spencer Peters|slight changes before merge
+5cadd60029e88b518e9895cc9ada296d0ebaf820|2018-08-07|John Gamble|Add run method for region map
+c0d31ea997cf2de70449f53f4c7504724f85b9ad|2018-08-07|Donjan Rodic|Merge branch 'tasks' of github.com:Microsoft/qmt into tasks
+3fa558dd5d27a2510e5a6f8bb3fe598c35bb8362|2018-08-07|Donjan Rodic|objectConstruction checkpoint + wire covers
+1d3a40b0ce50d0465cb70f8d89d5c3cb89570611|2018-08-07|John Gamble|Merge branch 'tasks' of github.com:Microsoft/qmt into tasks
+387d2a41808be198859753052e94ac24740b5352|2018-08-07|John Gamble|Add get and set data routine to geo3DData
+fea5d6d8eb3ac8ee6028e741592f52e719e882db|2018-08-07|Donjan Rodic|Merge branch 'tasks' of github.com:Microsoft/qmt into tasks
+7815366ac572836a787cb9c845a2af709277fee0|2018-08-07|Donjan Rodic|wip on objectConstruction
+d3bc3344a2053ccb51b2e21da4043a45422360e5|2018-08-06|Adam Frees|import shapely objects
+0c37bf7fc8ea19f8c7c7f58ea5b4e6404af06f9d|2018-08-06|Adam Frees|Merge branch 'tasks' of https://github.com/Microsoft/qmt into tasks
+c7f85372ba0bf9e8dbacda86647ff9325873e0d2|2018-08-06|Adam Frees|added build order to geo task, additions to 2d_SP example
+e61d76cbb04e0831e3e487bd5dd2d170c68692b1|2018-08-06|John Gamble|Cleanup to geo_data
+3ea2cd30a443081ededd9497defdc48156d1abb0|2018-08-05|Donjan Rodic|Merge branch 'tasks' of github.com:Microsoft/qmt into tasks
+e5c57c102db50cbc31ad04e52f9457e4ba3ec3cc|2018-08-05|Donjan Rodic|checkpoint for objectConstruction
+5b278c455f7d47026e7317de11f68e8eb68d2f97|2018-08-05|John Gamble|Fix typo in part
+f5f7f546a54c4ff360d1b6a1a8b75575cf3fb1a9|2018-08-03|John Gamble|Slight modification to parts
+ac692d1f68e3dbb19fa9571c2909041b0470653e|2018-08-03|Donjan Rodic|fixed serialisation for py 2<->3 transfer
+528ea0d0aa536c656f66c3298ba2260e5aa17751|2018-08-02|John Gamble|Merge branch 'tasks' of github.com:Microsoft/qmt into tasks
+6b141ea7c97214f8c47803144bd1544e28ead45e|2018-08-02|John Gamble|add 3-part geometry sweep
+df1ea8fe4a48e24719be81650561a0e81c21d20c|2018-08-02|Adam Frees|sweepTags can now be placed in nested dicts and lists
+f1aee53f2135ae88a02548fb55146fd6a6fb4ef6|2018-08-02|Adam Frees|fixed merge error
+967fbd5fcf9f171a9508f4c69a9e07ce4c2e64ae|2018-08-02|Adam Frees|added additional sweeptag operations
+6df64380678ac09d7a5aefd7c1a6f10ff9b95a86|2018-08-02|John Gamble|update changes to sweep for python 3
+8b58a0a71c46683cc6656b7a979b129afe50c788|2018-08-02|Adam Frees|Merge branch 'tasks' of https://github.com/Microsoft/qmt into tasks
+11dc2c0013a7e5ea6e1cd27be4d5278c719a7961|2018-08-02|Adam Frees|started adding additional sweepTag functionality
+c89123ec895cfb900cb85eae91d9a6e5bc9c2e59|2018-08-02|John Gamble|Merge branch 'tasks' of github.com:Microsoft/qmt into tasks
+756115389023ecf13600721dbd236d8d932099db|2018-08-02|John Gamble|Cleanup to sweep and geo
+68f04a14b8de2cfc5421c703d2db23fd874a5574|2018-08-02|Adam Frees|added working example of adding 2d geometry
+c1d89cff0040aad3489922e4dc0c40d1b93d9ed7|2018-08-02|Adam Frees|Merge branch 'tasks' of https://github.com/Microsoft/qmt into tasks
+555ec1329dab5b102712a10a2727275690dc9022|2018-08-02|Adam Frees|cleaned up visualization
+39ae534e9f4b637292cc9fb8dd3016b8b1a3006a|2018-08-01|John Gamble|Wrap output from wrapper in str
+24f3f8046840be6a53b9b86185b363c219da139b|2018-07-31|John Gamble|Small cleanup for parts
+9f58ff939efa4d7f80ced3364438adc0cb03b19a|2018-07-31|John Gamble|Modification to get import working
+14b171480483b957baec9b63d239428372fc7158|2018-07-27|Adam Frees|added 2d and 1d potential data
+c87190efa540f26edd75c3922582730a36c100e0|2018-07-27|Adam Frees|added potential 3d data class
+2d1ad41ba48dd7532ed8bf17afc246d082696d6e|2018-07-27|Adam Frees|copy options
+5fb8f4fc0fcca1ca2a7d3c0f52cc13ed7d3bfac2|2018-07-27|Donjan Rodic|Merge branch 'tasks' of github.com:Microsoft/qmt into tasks
+c6f64c04e7012a4208fd1ac4888de560d8dfe1fb|2018-07-27|Donjan Rodic|progess on FC object passing
+1030455224c54555575cb08d7ed88916124390d6|2018-07-27|Adam Frees|sweepTag now hashable
+816a8d275ce9ca54de759d1e9f799279a74efc10|2018-07-27|Adam Frees|Merge branch 'tasks' of https://github.com/Microsoft/qmt into tasks
+2bbdc085dcc10d49179d67cd7f233a13c403205b|2018-07-27|Adam Frees|Working example of plotting ipython notebook in examples
+c906dd2b554c7ed4aaeedcdacca53417cc1232b3|2018-07-27|John Gamble|Remove package install from setup.py
+a4022b31fcf34938d5b6425d0f7dffa5d01e29ec|2018-07-27|John Gamble|Merge branch 'tasks' of github.com:Microsoft/qmt into tasks
+c96e388bc009f7043119a0cfe4fab690ef3b0d2e|2018-07-27|John Gamble|Typo fix
+4fec35368433f08e1d2ee0ee1fb2359ae0937171|2018-07-27|Donjan Rodic|Merge branch 'tasks' of github.com:Microsoft/qmt into tasks
+6d2b6535b796688bb3ad0afa292c7bc77e0529f1|2018-07-27|Donjan Rodic|partial FC object passing
+a1f8a9fa619c7d28e507d43b791856e3b9baee72|2018-07-27|Adam Frees|save data example added, is working.
+b5ed2fb62029b6e8d09a71e151388b78764a258b|2018-07-27|Adam Frees|Merge branch 'tasks' of https://github.com/Microsoft/qmt into tasks
+e04917f97320f2b897d415dbd807da02b34e1634|2018-07-27|Adam Frees|adding viz folder
+93ff4fc0414b4d9a1109bf4edc298bcaf8a61c38|2018-07-27|Donjan Rodic|work on py2 wrapper, bug fixes
+a545e661125b175a8a5b3e9a5a3864af253f4e6d|2018-07-27|Adam Frees|added some stubs to data_density
+458389b389d28ca04197d1a898df802fbb232ce8|2018-07-27|Adam Frees|Added density1d data
+446fe15030747cfc8941ec7c3465ef3d0ca342a3|2018-07-26|Adam Frees|added unit serialization helper functions to data template
+e3e9724dd66b0332ad8337a5366a98dab1f427f3|2018-07-26|Donjan Rodic|moded old code out of the way
+00ccb34572b43430ea56ee89acf562ac458e553a|2018-07-26|Donjan Rodic|Merge branch 'tasks' of github.com:Microsoft/qmt into tasks
+ebfb97a35aba45e7b1b8b6435679f4ba2ce42c75|2018-07-26|Donjan Rodic|progress on 3D parts; fixed Data object syntax
+6f334710400e7f49ff4966e2a908a0d1bd849eb3|2018-07-26|Adam Frees|fixed merge
+f50aa60f9deb317c105b43e99542ac1382463788|2018-07-26|Adam Frees|added ability to gather in tasks
+b3fb54903ed1bcfad4217427ac1c91437a5f6d2a|2018-07-26|Jan Gukelberger|Add PropertyMap tests.
+e4472ca2fd8e766edb6ba8d938aa9e10158bc76e|2018-07-26|Jan Gukelberger|Fix some trivial errors.
+1d0033b9abc243744e6ecc634d203111febadaad|2018-07-26|Spencer Peters|picked Adam's version
+de284dea225a63dce850e6f0157ca119ffb1a554|2018-07-26|Donjan Rodic|moved data from basic_tasks to task_framework
+7b844b48e6e18d594a1fcf83fe78d90192482df5|2018-07-26|Spencer Peters|merge of fenics stuff to bring everything together
+7456b9dda703ec728b4d34420ee858278a2b12b6|2018-07-26|Donjan Rodic|Merge branch 'tasks' of github.com:Microsoft/qmt into tasks
+2d31a0ddaf2953c5f1bc6727ff0c75b90a897cb5|2018-07-26|Donjan Rodic|added sphinx
+508ab2e040a20b0bb382e6cc00b9afb38ee87c3e|2018-07-26|Adam Frees|tasks now take resources for jobs
+0b1785d99975fca235cea51cb283c2b2c7eb5dde|2018-07-26|Adam Frees|caching all previous results now automatic.
+48b416b68e87e736c68b3caf6eea09a9c8551449|2018-07-25|John Gamble|Fix import order bug
+c42615516893574cded7a72e53f6bf34df54d3e0|2018-07-25|John Gamble|Add raise excpetion to default _deserialize
+ab969538c2e9a3c538c9118fbb6e8fbff3a8f287|2018-07-25|John Gamble|Merge branch 'tasks' of github.com:Microsoft/qmt into tasks
+f4e43134e30ddd5135ff8d92946aa7d09bb167b1|2018-07-25|John Gamble|Add Data superclass
+40f50255de0f1a5ff1910e418891f71ce7fa70c3|2018-07-25|Donjan Rodic|first iteration of python2.7 FreeCAD wrapper
+55005639690c4e54a2e17eb6145e032d85498f81|2018-07-26|Adam Frees|Merge branch 'tasks' of https://github.com/Microsoft/qmt into tasks
+e05da1f89007c0c8303b6fd950506963806736e1|2018-07-26|Adam Frees|added blocker into default reduce
+1b3d01dadf53d76e156e444d965bd8adf7be899f|2018-07-25|Donjan Rodic|Merge branch 'tasks' of github.com:Microsoft/qmt into tasks
+9c26dd2c611acb0facb59ba89940c112d376a8af|2018-07-25|Donjan Rodic|added auxiliary and freecad_wrapper files
+b91ddc373f4a93b6074361d14baf54c43a27b4b8|2018-07-25|John Gamble|Merge branch 'tasks' of github.com:Microsoft/qmt into tasks
+dcf9ba43f1b73637250497cd3f0dabf7ba44446d|2018-07-25|John Gamble|Add Geometry2D class
+b629d8027a907b9c327e8e8ba894fa10a240efba|2018-07-25|Jan Gukelberger|Add PropertyMap and MaterialPropertyMap classes for mapping from geometry to properties of parts.
+ec10c906259da41b93672b864c373a9f7aac54c6|2018-07-25|John Gamble|Remove Part2D
+98917d452c75d7090f378909ba6bc45aaa293be5|2018-07-25|John Gamble|Merge branch 'tasks' of github.com:Microsoft/qmt into tasks
+db5e118cf48ef187b81fac0b6c59a9bd283f715d|2018-07-25|John Gamble|Add Geo2DData
+f7d032cee354c3e4c7a5f6644c08c1317ea6ba2c|2018-07-25|Donjan Rodic|Merge branch 'tasks' of github.com:Microsoft/qmt into tasks
+368a4fc354b2595ddd8c4950e6b12451497694dc|2018-07-25|Donjan Rodic|unit test py version directories
+4ff601a103fd0b74593003cbf1992d12dd6c7ab8|2018-07-26|EUROPE\kevanhoo|Merge branch 'tasks' of github.com:Microsoft/qmt into tasks
+9a2bee97ac7d662dfae8994fee6cfc7f18b3ef00|2018-07-26|EUROPE\kevanhoo|Add Mesh parent class to ms_task
+d38eb37b281ddf96db975b48f9f4ddcb0c596a2e|2018-07-25|John Gamble|Populate Geometry1D
+87367924c1e7204a033b16d5b0cf337733cbefcd|2018-07-25|John Gamble|Add Geo1DData class
+78835533747b87cc658ee7d786ffe0711fbb8102|2018-07-25|Donjan Rodic|merge from tasks
+d81c063ab623abff341e4f3fd3b05b0157089b25|2018-07-25|Donjan Rodic|Merge branch 'tasks' into tasks_fc017
+e80ed1ea0bbb7d0b783644de85840d36f3e4793c|2018-07-25|John Gamble|singleton?
+142317b40962a65b042ca51c15e9ed109b7fdbad|2018-07-25|Donjan Rodic|sketch auxiliaries cleanup
+8e3ddecbdbf1a27bde00db0f5a22add3f545c80f|2018-07-25|John Gamble|Merge branch 'tasks' of github.com:Microsoft/qmt into tasks
+008e30c11d04e7e3990dc5a1fd1e9a6859a7d1e8|2018-07-25|John Gamble|Clean up mesh tasks
+148190a51388a01c9bd7a6e94ec938513c696630|2018-07-25|John Gamble|Remove unnecessary docstring
+ddf61b8ff7b071323e3271a912b01a26a282fb3a|2018-07-25|John Gamble|More cleanup on geometry and reduce_dim
+16bc6c0ce56aaf79c86ef34f7f0f294ad6931082|2018-07-25|Adam Frees|all bugs squashed!
+6615230288b92618134c494c827aab9fed07b408|2018-07-25|Adam Frees|Merge branch 'tasks' of https://github.com/Microsoft/qmt into tasks
+c427d1733e4558c5f34ffe7b27d611d95fdeaf86|2018-07-25|Spencer Peters|rewrite debugging
+0342039453d54f25ba6a901f7fac8e14f5db61c6|2018-07-25|John Gamble|Clean up reduce_dim
+87f23a2307c6c4f367b35a94f7e09e8a0bd6cbf9|2018-07-25|Spencer Peters|rewrite debugging
+6cc43dc64071d8d55393bce7404d389956690c7a|2018-07-25|John Gamble|Merge branch 'tasks' of github.com:Microsoft/qmt into tasks
+329ec9ba6da152bd7701c37060a940ce824b7d75|2018-07-25|John Gamble|Clean up geometry tasks.
+34fe02f25a90187169a5e9e2ddb9acafcc0aa570|2018-07-25|Adam Frees|Merge branch 'tasks' of https://github.com/Microsoft/qmt into tasks
+c3147e4243e406b75faae0bfd4f42250be3ce559|2018-07-25|Spencer Peters|rewrite debugging
+00ca722098a5545d2f9e69a938372a0053d4e3e7|2018-07-25|Adam Frees|Merge branch 'tasks' of https://github.com/Microsoft/qmt into tasks
+26162effc9b5d03e4853bdc6ff0ae038f3a9fe9b|2018-07-25|Spencer Peters|rewrite debugging
+9a78bd61a1cbbc7532ce3b94c0c0195283bd23b0|2018-07-25|Adam Frees|Merge branch 'tasks' of https://github.com/Microsoft/qmt into tasks
+4d89537ee879f4660ef3699d6230d620cf45d796|2018-07-25|Adam Frees|changed todo
+02d9b7fdd386e9b146be2e1cd544c73869c50193|2018-07-25|Spencer Peters|rewrite debugging
+acfcc35c60c179cd6625aa9cfc9ca13a55236c78|2018-07-25|Spencer Peters|rewrite debugging
+7bb335686beb10dea29cfc8cf5b2d38108f395ff|2018-07-25|Spencer Peters|added accessor
+99cbc64ce06725ff4fb0a6e76c21993993fa5426|2018-07-25|Spencer Peters|removed self argument
+b649d0d2763ae240ff5976c47a8b9b9e596ce6ee|2018-07-25|Adam Frees|removed camelCase
+5a7bab8980ce8cd032ae7a4406b730878e0ea8eb|2018-07-25|Spencer Peters|uncamelcase
+20c7ed1226b79191201a49623f8164bcc9150c84|2018-07-25|Spencer Peters|Merge branch 'tasks' of https://github.com/Microsoft/qmt into tasks
+ff1d22545d05f8cd47eefe92619f541601113dcc|2018-07-25|Spencer Peters|example rewrite
+ea795e03432ce638c9795ce022b4e859476fbcc7|2018-07-25|Adam Frees|poisson_task expects Geometry1D
+39434fa70cd226e181447e422a14b3b65b62ec9e|2018-07-25|Spencer Peters|client update
+66cc4492b53b8ab9c8003c94b534c491f843012d|2018-07-25|Spencer Peters|Merge branch 'tasks' of https://github.com/Microsoft/qmt into tasks
+203799af9618e977cff3787590158b2f74782413|2018-07-25|Spencer Peters|massive update to framework, integrating dask, caching, and refactoring output data
+971f57e09590ebf218387649de460027a7edbfda|2018-07-25|EUROPE\kevanhoo|Relative imports to __init__.py for everything task-related
+34e8b1d3891dd9629de38d8e882b5127488beee2|2018-07-25|Donjan Rodic|Merge branch 'tasks' into tasks_fc017
+a84c93e7373fef5c99374bc97d4b5a67f48d347c|2018-07-24|Donjan Rodic|refactor unit tests
+ffbfb4c78148bf8763d607fb9cbb1399cd2f4c27|2018-07-24|John Gamble|Finish adding mesh task stubs to qmt
+ca8ce94a4748009f4fda1f4a9eae75945c7c9991|2018-07-24|John Gamble|Merge branch 'tasks' of github.com:Microsoft/qmt into tasks
+ec817369e597a90a99e6729185e2f48be0b70400|2018-07-24|John Gamble|Add mesh stub
+b5ebd90fc4483db5d5e00063ea52fbc9d3d41800|2018-07-24|Donjan Rodic|Merge branch 'tasks' into tasks_fc017
+d9614d9ef822c9dd01484da35748ad8c96d041b3|2018-07-24|Donjan Rodic|Merge branch 'tasks' of github.com:Microsoft/qmt into tasks
+8f4600e8ef41f8d1a16a69f48a728076cf43b43a|2018-07-24|Donjan Rodic|moved task examples to examples
+ac125e63645b3cf3be8793f6260813405676987a|2018-07-24|Donjan Rodic|example geogen from file and dynamic
+139684e43a66c6a61c72e427096b36a3cf6ae9a3|2018-07-24|John Gamble|Merge branch 'tasks' of github.com:Microsoft/qmt into tasks
+b1c339fe94eff4dd7885250f7d033ebc6855e208|2018-07-24|John Gamble|Add stub for reduce_dim
+48d0fb801f42fdf52ae79c4c208cb77c5c5fc659|2018-07-24|Jan Gukelberger|Clean up naming.
+30d91783bbc7676c47a9c795f5a7e984158ce0e4|2018-07-24|Jan Gukelberger|Bringing back materials and physics_constants.
+8f5a26a765fa9c361597bab31456ddbe73ff8fd6|2018-07-24|Spencer Peters|removed no sweep holder case from Task
+e6618b19f62ab321547b4d27164006030f02bc97|2018-07-24|John Gamble|Merge branch 'tasks' of github.com:Microsoft/qmt into tasks
+1b18113a79b7b12fb25794df7461d61329a9d66c|2018-07-24|John Gamble|Add some task templates
+5b3a6fb5cdf22f979e338ec6e4faa30cec7986d8|2018-07-24|Spencer Peters|bug in visualize
+df20170702cc959a60b245b3b1748406c380f960|2018-07-24|Spencer Peters|bug in visualize
+ac47f24777a9a6baa5f7fb3f935f75af03c728dd|2018-07-24|Spencer Peters|bug in visualize
+746e26eb7c51eebde396ecb39093fb90df1efee5|2018-07-24|Spencer Peters|bug in visualize
+5d8c106225c2a677ff968149495c2f55f7817e02|2018-07-24|Spencer Peters|bug in visualize
+6ab52097192e6a16f0e1513f2926be96bcb844eb|2018-07-24|Spencer Peters|bug in visualize
+028b95e84a174a3661a8f5ce29e0450d264d78de|2018-07-24|Spencer Peters|mistaken change in task.run
+d099b78fe9c48688e1ab039c1328f3294716fd9f|2018-07-24|Spencer Peters|removed missing ref to options in test script
+6adf8c12dec5a577d093cc358f0967e7b33eb405|2018-07-24|Spencer Peters|removed more materials references
+9c94a2fc102ddb078767dfa2bf796df7efbe6dc2|2018-07-24|Spencer Peters|fixed typo in task
+dcdbdacd7315a36fcddf03d4228527d566beda82|2018-07-24|Spencer Peters|removed references to materials task
+874fed191f939cb770f5263b9706f318cca6f023|2018-07-24|Spencer Peters|gerge branch 'tasks' of https://github.com/Microsoft/qmt into tasks
+3fe4bdaa0ad96165fd4b3110f0fae0ba11200d14|2018-07-24|Spencer Peters|fixed imports
+7310fb60469d0af61907ca8d33905cce96d9f705|2018-07-24|John Gamble|Merge branch 'tasks' of github.com:Microsoft/qmt into tasks
+4334f1f6ce5fd4f2978fcf14cb771273d1382957|2018-07-24|John Gamble|Delete materials task
+0432d2c5beb36a49f9ef29358a77168dc50577e4|2018-07-24|Spencer Peters|added detailed documentation on how to write a correct Task subclass
+c21b538caf33872f3b6d2c14f6586f305214a3c1|2018-07-24|Spencer Peters|added task names to visualization graph information
+f50d70fb4d28db2d7f65a6f8fbda6db990b9b551|2018-07-24|Spencer Peters|merge branch 'tasks' of https://github.com/Microsoft/qmt into tasks
+3b48c2504b073414b283c04fdf39d28647b5dd67|2018-07-24|Spencer Peters|finished first round comments
+947b18b902e278732489e481fc60f1641623e82a|2018-07-23|Daniel Herr|fixed Dockerfile for Azure App Service Deployment
+618d045c5f86ee74bb5e6563d341afbc72b966ff|2018-07-23|John Gamble|Fix examples of task use
+27084eef455c888d3d4dc46763bc83d5a94ac985|2018-07-23|Donjan Rodic|merge branch tasks & update subclassing
+67ceec1eed1cc8834ae9f0e9495e8cb0182ffc59|2018-07-23|Donjan Rodic|Merge branch 'tasks' into tasks_fc017
+2c77895317567acbb3da5c5871fc3e298f45098d|2018-07-23|Spencer Peters|removed __class__ in init
+08a42a63e633f3261ec21bdab5a49f0685010a6c|2018-07-23|Donjan Rodic|subdir geometry/freecad
+034c8fbf0a52744f90819a3699065965dd62f1db|2018-07-23|Donjan Rodic|Merge branch 'tasks' into tasks_fc017
+bb49d08202e6d2e9e34bc9ecd11248f4498856e6|2018-07-23|Spencer Peters|standardized arguments to Task
+e61784b9ed3f288f8cbb53131fcce662ed19ca9c|2018-07-23|Donjan Rodic|Merge branch 'tasks' into tasks_fc017
+f2b4a9bbb8dbebf40aca60c40cd703b6daed3c44|2018-07-23|Spencer Peters|merge
+b323ddfc8854640eb41f42997fb645c688c6ab2e|2018-07-23|Spencer Peters|comments and making SweepHolder iterable
+463f35a426454b7955169b4f0e5c81d1652a853c|2018-07-23|Daniel Herr|removed blobstorage dependency
+afca4c4f77f030df06622d790b35c862b1dd7acf|2018-07-23|Donjan Rodic|freecad basic funcitonality
+e07e4801c652e5926e9611f98b2d171fb773d34d|2018-07-23|Donjan Rodic|moved non-unit tests to examples
+3f4b83c26f211cec46043b842f424cab74a8c7ba|2018-07-23|Daniel Herr|added visualization server files
+9a70c21ab772691a61c6bd0e55b041cc206e4c38|2018-07-23|Donjan Rodic|Merge branch 'fc017' into tasks_fc017
+ea7ee7cbe389aea9328ab6d36eaf7be67ee445b4|2018-07-23|Adam Frees|resolving merge error.
+378e0cc87d44ac69e5c64d2a5fe339a5ec5ea858|2018-07-23|Adam Frees|inheret_tasks_from now takes None and all
+239e893b2c8a1145458f28d0f5363d2c312ee64f|2018-07-23|Donjan Rodic|checkpoint coding sprint
+667336dad9ce99a65d16a6981690b19f546a46fa|2018-07-23|Spencer Peters|typo
+bd553ed70e54304c3bd0052eccbebf8157d71e1f|2018-07-22|John Gamble|Refactor code to task system
+efb0216669a6b0d14938f7e4cdf23951dbda271b|2018-07-22|John Gamble|Refactor part_dict
+9d7eaa391afc3b722f31d251c392772d50df00d3|2018-07-22|John Gamble|Refactor _populate_result
+8c06447d4d0c22813e19da705da1570776aa425c|2018-07-22|John Gamble|Change default part_dict to None
+47f6803ce5de52d7bdacff6118fab4ab11cc94cf|2018-07-22|Adam Frees|slight clean-up.
+a1ba8daa2222dfd7cb7811e5e3ee0290c35a41cc|2018-07-22|Adam Frees|refactoring passes tests.
+98279f672e0affb78606259f12397a91b2a6f2c7|2018-07-22|Adam Frees|moved more methods to parent class
+4353d1351bbea05609b0749bfefd28bf6514d3fb|2018-07-22|Adam Frees|refactored code passed tests.
+28075cf5b60c2ce383c30916f9dd308750c8246b|2018-07-22|Adam Frees|restructuring code, putting more into parent class.
+7357a45a6b41bb089bc80fcad3ba56f58e39d0d4|2018-07-22|Adam Frees|Dask now works on sub-processes.
+204d22d6115fdbe18897d505784dfd6cca11035f|2018-07-22|Adam Frees|Tests work - only running dask on outer-most layer.
+02810e78dfe63c1aa0c8fc70fb6c796f7e0a94f2|2018-07-22|Adam Frees|Tasks working in serial - testing sweeps next.
+f0acdf9042f64d6cc4f9f2307c20ccc80f1fa0d5|2018-07-22|Adam Frees|module loads without error
+fbe1450423f9d1b518537ffa26345179e0e7951f|2018-07-21|Adam Frees|three tasks completed - no testing yet.
+8dc3e83a39a40868feaa47e77e5aa366e8c17722|2018-07-21|Adam Frees|first push
+7d9ac6dce39b4bd9c491a351e396532827965495|2018-07-16|John Gamble|Merge pull request #28 from basnijholt/pep8_start
+f1e9b5f489f16827fc2c9b6201d598d1d89a9ec5|2018-07-10|Bas Nijholt|remove double imports and specify 'Harness' and 'Model'
+09d04503ee56a24485573904a67380f55f3835ad|2018-07-10|Bas Nijholt|revert changes in 2e3d532
+a3b5f92c0e7687099e75057796949fd4a6eb74e1|2018-07-06|Bas Nijholt|cleanup qmt/freecad/objectConstruction.py
+7cafa1a44061bd4682705335bca49afa56c2d861|2018-07-06|Bas Nijholt|local variable 'HDict' was assigned to but never used
+d813e7f95fc48f32ff2a7fab40a786a6f40a2dde|2018-07-06|Bas Nijholt|simplify code in qmt/freecad/geomUtils.py
+ed6d891a132732ab4805ff654323e9f5c4618970|2018-07-06|Bas Nijholt|remove unused variables
+0ce4cb5b080f701b6cd2359b2dc834f1d0ee78ef|2018-07-06|Bas Nijholt|add missing import
+f87add28ecd55428cb3c24802e0d447fb11b07c5|2018-07-06|Bas Nijholt|fix Python2/3 bug and style docstrings
+1bf8d6fe082b737dddb8c9550518bfc81ce1ab4a|2018-07-06|Bas Nijholt|fix Python2/3 bug and simplify code
+5a06ad9c07e3aa8caa865e7d34aef62eda40a2be|2018-07-06|Bas Nijholt|remove unused variables and imports in qmt/freecad/sketchUtils.py
+f73d1f2bae10cf091c83f0cb4298f460a59c1997|2018-07-06|Bas Nijholt|fix syntax error
+7f02b1be6550556cd285076cddaafe8310a11486|2018-07-06|Bas Nijholt|cleanup several things in qmt/batchHarness.py
+a954c4b257749e211235c6278546fd31d32278b7|2018-07-06|Bas Nijholt|use list.append instead of weird construct
+cb8d858b809e60096d23d66778d52e69efcaa52c|2018-07-06|Bas Nijholt|cleanup code in qmt/batchModel.py
+f71f9cdb3f48061638547fa6f56ac89d8001e1d5|2018-07-06|Bas Nijholt|remove == True and == False
+cd32622a3032101ae601cad10acd350d7eebce16|2018-07-06|Bas Nijholt|fix string equality test
+9449293e43932d7c97217ef54026991d72ed0d7d|2018-07-06|Bas Nijholt|fix NumPY style dicstrings
+57172c1d4c9ada76aab3d7041d33b35f10e48ccc|2018-07-06|Bas Nijholt|fix accidentally introduced syntax error
+bd78a977e663442e9a1f5da25dae19384e312bbb|2018-07-06|Bas Nijholt|remove elifs that are just else
+2e3d532b4db356db9baa80c2925dd838e942b6dd|2018-07-06|Bas Nijholt|remove trivial is True or is False statements are replace with Pythonic versions
+024b243606d46d843ef549e9195dce30e5a3177a|2018-07-06|Bas Nijholt|cleanup batchModel.genEmptyModelDict
+7c28ae303a8231d1237b3c47dad465d5c6fc6daf|2018-07-06|Bas Nijholt|fix docstring indentation in qmt/batchModel.py
+c36ce10a912fb19b0ea3c757c66c0a14984fc4af|2018-07-06|Bas Nijholt|use correct indentation
+f5e2bca2e9ea475cf558c94d021281037c85df74|2018-07-06|Bas Nijholt|some more aggressive PEP8ing
+05ba549145700a054a92231a60d6a202482b0807|2018-07-06|Bas Nijholt|autopep8 all source files
+6ed890c360177506006b9055722068974e11996b|2018-07-05|John Gamble|Merge pull request #27 from Microsoft/fix_SAG
+2d5a4b62551224c3cc99d29e2133a8ff8befc064|2018-07-05|John Gamble|Add fix for offsetting by a small value
+01a6596cf934435737582f09a6e4e6586e895165|2018-07-05|John Gamble|Merge pull request #22 from Microsoft/add_binary_data
+1129b22f87e7226a75be5e8325777885ef5a237d|2018-07-03|John Gamble|Merge pull request #25 from basnijholt/requirements
+ebbb92ad13111a33d19d69050b11cd1ee45b39f6|2018-07-03|Bas Nijholt|small changes to the installation instructions
+ef2278e45f682786b08e086256fe271a66331f8c|2018-07-03|Bas Nijholt|add a 'requirements.txt' file
+8774acf55e6df61ce3ebd75a0ccd7b3c4154c8ed|2018-07-03|John Gamble|More path fixes
+4907a215521c580c7372f7c065788310181d08ec|2018-07-03|John Gamble|Improve path handling in harness
+d4636886e8c5f8e5d45073dbebcda9acbf6cd6e9|2018-07-03|John Gamble|Add data viz and automatic solution cleanup.
+fa9191cfc7d2e87d94347f45f723c99baf28adbf|2018-06-28|Donjan Rodic|fixed: updateParams on dummy objects
+17ac352dab5843bcb778a3bffd15b0daccfc944a|2018-06-28|Donjan Rodic|fixed: sweep params not updated in sketch constraints
+4d4d2a7d58554694bcf6ce978429156445006e91|2018-06-28|Donjan Rodic|pytest fixture cleanup
+73f344759d3b1bf35c24787aa3fa8bc350e45022|2018-06-21|Donjan Rodic|wip: debugging ignored geogen sweeps
+83f8ee01605414893badd6034bc6ec5ba9ca3076|2018-06-21|Donjan Rodic|Merge branch 'master' into fc017
+48d68ea037a506d8f1be45f5f87c038a3cd6af91|2018-06-20|Donjan Rodic|Merge branch 'unittests' into fc017
+ee670dbe4bd1b29867e147568f2f006bc75a3a45|2018-06-14|John Gamble|Merge pull request #19 from Microsoft/unicode_bug_fix
+a0aabafc153fb8e9b150938786f6643ccb196053|2018-06-14|John Gamble|Merge pull request #21 from Microsoft/unittests
+fb8af256690f3e3bde6083858db5202503d047c1|2018-06-14|Donjan Rodic|honor existing part check when testing genPhysicsSweep
+43721b92c535444b7d9fe3ade3ff3e651bd994f9|2018-06-14|Donjan Rodic|point to file from examples for test_runJob
+3047c7771e04166c25d1fbbab1dd7e3899a92145|2018-06-14|Donjan Rodic|Merge branch 'master' into unittests
+2ad01862368392837455ef6af333b9e67c286956|2018-06-14|adamfrees|Merge pull request #20 from Microsoft/pruneChanges
+4311d4e4b9f40203750ab612916fd63eaf3e5d93|2018-06-14|Adam Frees|Pruning now handles open wires and edges
+a5974e4f40a2d7804eb001d43f1cce3760af3418|2018-06-14|Kevin van Hoogdalem|Refactor unicode conversion into helper function
+b8a90fad06811c66ac0d6f04c7fdd8d97a8c64e9|2018-06-13|Adam Frees|Converts Wire shapes to Face shapes before pruning.
+c3915a953e670ffcdd0bf2f4ae1297f192627403|2018-06-13|Kevin van Hoogdalem|Unicode changes to batchharness.py
+d933e89ff5c305d87fe521b58a28fd265abcd6d8|2018-06-08|John Gamble|Merge pull request #18 from Microsoft/port_to_linux_cluster
+2b74eaf965c1653a7d7536869a37c54fe7fce6da|2018-06-08|Jan Gukelberger|Fix genPhysicsSweep for purely 2D simulations (fixing test_postproc_thomas_fermi test breakage).
+506e13104562d81ba9f007776ddb8965bb327e87|2018-06-07|Jan Gukelberger|Usability tweaks: Autodetect OS; raise an error when sweeping non-existent part; print message whether loading an existing model file or creating an empty model.
+04fa36cecc705102f770e7919294131319b64b27|2018-06-07|Jan Gukelberger|Print comsol exit code.
+e124109e1f45ab4b1dcc92f8be1d8a0e32406289|2018-05-31|Jan Gukelberger|Merge pull request #17 from Microsoft/add_2deg_example
+27015189bc7214cc02b852f453330b1567b2a1ba|2018-05-31|Kevin van Hoogdalem|Working and documented 2DEG example
+2ace46ba8ad9e9cdaf252dd2b7466ea3286b51b7|2018-05-29|Kevin van Hoogdalem|Merge remote-tracking branch 'origin/master' into add_2deg_example
+86d0c7297ff2ee3378813faf9660d8ee8a93c314|2018-05-29|Kevin van Hoogdalem|Initial changes to makeRun.py for 2DEG example
+117d021add64287fcf91ed8559021b3b2854cd52|2018-05-26|John Gamble|Additional hooks for Dit
+a551f6f263d6a8dd62ac345542174fa356518599|2018-05-25|John Gamble|Add hooks for volume charge
+08a226cab72f203252d98db78d3218e5b6ad64d0|2018-05-24|Donjan Rodic|travis fixes, todo declarations
+b92e62fb3a86faf068fcbecf5dfd9fef6bb96d27|2018-05-24|Donjan Rodic|update travis to fc017
+4932b04adf781c4ccfae441ec47d7bd27765777b|2018-05-24|Donjan Rodic|fc017 branch cleanup (wip)
+4397af7ac36c70cd8f4c9c995fdd498c49618486|2018-05-24|Donjan Rodic|fixed linesegment calls in object construction test files
+fb7ea488dc446b7b79975e0412c53a44873fe720|2018-05-24|Donjan Rodic|fixed extrudeBetween
+e5d308fb9aecf2081e8d1dcc500755622c71eb4b|2018-05-24|Donjan Rodic|Merge branch 'master' into fc017
+abfd77ec2c6c97e64a62bd55f151a43060e1501c|2018-05-24|Donjan Rodic|fc17 wip: copy/move
+023bdc1ae9558960114e6a30f3e43804767a4491|2018-05-23|Jan Gukelberger|Remove -verbose mpi argument from comsol command line on linux.
+d1a6f2019e91a0aa271384a0005b9ad523eb72d7|2018-05-23|Jan Gukelberger|Fix postProc mpi command line if no host file supplied.
+bbd1d5951518d4c7e576c2336959c9c5885dca01|2018-05-23|Jan Gukelberger|Merge branch 'port_to_linux_cluster' of github.com:Microsoft/qmt into port_to_linux_cluster
+8d6d3d5bddc39c9bdf9b6e9a5b37b5c79e3b8a59|2018-05-23|Jan Gukelberger|Add MPI options for running COMSOL in SLURM.
+b1d5b0283a682bd038422fcea217e53ffcfa756f|2018-05-17|John Gamble|Further refinements to pruneDXF - still not completely working.
+fbbf030884bdc77235ecb151092d9f8aa06a7df3|2018-05-17|John Gamble|Clean up changes to the harness and model for linux jobs
+454c2bcdca9dde6e7063ac2ac92d787067a0b6f1|2018-05-10|Donjan Rodic|reimplemented deepRemove (+temporary extrude)
+1fb07d7269d34605001fb6dc3c2c6e120532b71e|2018-05-09|John Gamble|Modify for linux support
+839674b861e65a9f4401654c65fea963a3b6dd9a|2018-05-03|Donjan Rodic|update adding sketch lines
+bfde67fc78105998cb7cba2ef3b982da021b35b0|2018-05-02|Donjan Rodic|pip instructions
+be159e5570debe0eda85f98448cd003b3234e3c1|2018-04-29|John Gamble|Merge pull request #16 from Microsoft/revise_prune_dxf_macro
+d906829e389dfbc3254bd9436e5661df2e0a9cc4|2018-04-29|John Gamble|Revise pruneDXF FCMacro
+5b2b0359a8a11ce2c45e90e1eb1c4d21315c4c85|2018-04-26|Andrey E. Antipov|add nanoampere
+25baaf2d573451508fba572a11ce4608d6c59cdc|2018-04-25|John Gamble|Merge pull request #15 from Microsoft/make_union_more_robusts
+ca6196cba1d57cbd441c72edf85688a4f4ae7ece|2018-04-25|John Gamble|Add nonEmpty check to union
+4a1f1db21a2082bc9e2e8cd0d4fc55c7642f38bb|2018-04-19|Donjan Rodic|Merge branch 'master' into unittests
+d415609db113ec96bcfd050d7a3a0fc3e816b792|2018-04-19|Donjan Rodic|update model unit tests
+dff7bbad0d402ea0421e3022f7a1ab4e9d3742bb|2018-04-19|John Gamble|Merge pull request #14 from Microsoft/add_domain_comsol_export
+eaa15c58cf503a869fb484af8c3643edbe2ca124|2018-04-19|John Gamble|Bug fixes for comsol export fix
+e6604a49f525e9dad6af84953c9e99812715f829|2018-04-18|John Gamble|Add options to comsolInfo
+1389cbd49272f77e4177bebb7eb882b82b0e411b|2018-04-13|Andrey E. Antipov|Merge pull request #13 from Microsoft/markdown_materials_database
+23752cb62c49e0bf739cb1a2f15ecd8f86ba859a|2018-04-12|Jan Gukelberger|Get pytablewriter from pip rather than conda.
+bd6b2e8e3b90b8698237382ad75feaf4664a2d3b|2018-04-12|Jan Gukelberger|Write materials database to a nicely formatted markdown file in addition to json.
+ac4a26847eeb5a4c66eb08bb8eb9fc2dba802874|2018-04-11|John Gamble|Merge pull request #12 from Microsoft/add_model_getsimzero
+5e744d62181917c89d63a33dbb5682cacdd5fb1d|2018-04-11|Jan Gukelberger|Postprocessing: More fine-grained control over output files.
+9326c2c8b3a01710cc5ae18894ddab8ab5ef9d0a|2018-04-10|Jan Gukelberger|Add getSimZero method to Model.
+cd4f844bd36e7eaf46aaf16e4850eac765fe16d4|2018-04-09|John Gamble|Merge pull request #11 from Microsoft/strengthen_comsol_exit
+8dc994c8f017743d98b0ea48b950e0b089ac6f61|2018-04-09|John Gamble|Merge pull request #10 from Microsoft/fix_freecad_repo_for_travis
+7f067d05c73d3336944d19243ea771d6ef3391c3|2018-04-09|Jan Gukelberger|Updating PYTHONPATH to freecad-0.16.
+eb1089b9e783149a132875db8071db8b41a28b0a|2018-04-09|Jan Gukelberger|Request freecad-0.16 specifically.
+88250e0a9704d09ca9dba5189d2eed8ca22040b8|2018-04-09|Jan Gukelberger|FreeCAD 0.17 is the new stable version. Until we fix all incompatibilities we need to pull 0.16 from freecad-legacy.
+9be620b5fcaa5be3491f803bc37cf0936826124d|2018-04-09|Jan Gukelberger|Merge pull request #9 from Microsoft/voltage_sweep_shortcut
+67383869fd06df1603bf3cd83cc98bbf00ce0666|2018-04-09|John Gamble|Bug fix to COMSOL abort conditions
+39e4b24eabb9fdfa8ab3505d116af325d588eff6|2018-04-09|John Gamble|Check for eigenvalue files before aborting COMSOL
+3f9b5816a5bec4c5a73093f57ea5287b7d56817d|2018-04-09|Jan Gukelberger|Allow V as shortcut for voltage in genPhysicsSweep - making current practice work for postprocessing.
+496b6ff3bd24dcc83ac5bb64fd80e29e01550555|2018-04-07|John Gamble|Merge pull request #8 from Microsoft/add_bdg
+e97b09cfd6a75bcde51b5a7e3269062ce1223b63|2018-04-06|Kevin van Hoogdalem|Adding directional mesh scaling
+a5d2868ddea949df34016b6ce94b756bdb019f72|2018-04-05|John Gamble|Remote todo for integral file detection (already done)
+1b71becf8a9945806c9202273865ff014613e305|2018-04-05|John Gamble|Add number and shift for eigenvalues in comsol
+0cab4e62575b8eaa1dadfdd5b722d7a174fc7975|2018-04-05|Kevin van Hoogdalem|Changes to dict for BdG
+aeb975d2912bc56eca2da5e4f53e612bdb19d329|2018-04-04|John Gamble|add interface for schrodinger and bdg
+66842adfb32187b5c718bb343420ae492b5ea2a7|2018-03-29|Donjan Rodic|added unit test files for model and harness
+5db78b97ce8bf227a2adb867fc1d5a27d4975370|2018-03-26|John Gamble|Merge pull request #6 from Microsoft/fix_material_typo
+7ac45d1b58017c341db7918ddd05b20df5cf1430|2018-03-23|Jan Gukelberger|Fix typo in ZrO2 dielectric definition.
+add2becfaf95d4f18dabb1ba3921c122660cb47f|2018-03-22|Jan Gukelberger|Merge pull request #4 from Microsoft/add_new_mats
+6c8eecf5044f70cb8e357c8c496481532e0d150d|2018-03-22|John Gamble|Merge pull request #3 from Microsoft/fix_geom_sweep
+ef30131b8ea5892ba435d34ad4961707df9480a8|2018-03-22|John Gamble|Add new materials
+88f64de50f235bd875cd9d0a1f010fe30c6e0d18|2018-03-22|John Gamble|Finished fixing bug
+96d054a9a94c477e52430a05ac6a7a32ef896036|2018-03-22|John Gamble|Bug fix to geometry generation
+9c153aee324bcf1d2256d2a12c358fe73a24ec5e|2018-03-21|John Gamble|Remove spurious json file
+ea416ae2e15a9f1c7dcdbf196f427055d1038680|2018-03-21|John Gamble|Start 2DEG example
+ebf4820ddc68d26caf6ffc434e7151647df5fc43|2018-02-27|Andrey E. Antipov|Merge pull request #2 from Microsoft/update_travis_link
+2513e5f3dd6770ed7a2915648c1b7a19c225577d|2018-02-27|Andrey E. Antipov|Merge pull request #1 from Microsoft/fix_materials_test_path
+3b54f5df87d93ef2d7113a65798154d4f69e9ac4|2018-02-27|Jan Gukelberger|Update travis link after switching the repository to public.
+c622da7cb95ace6a0f2924e3f5ae1518111e2c28|2018-02-27|John Gamble|Fix to materials test path
+c76dfd2290b92f1e0a9724620affdac4ba4bb3a2|2018-02-27|Andrey E. Antipov|remove redundant build command
+ce0c018ddbc854d12dde1a6fb64a16f9c67140db|2018-02-27|John Gamble|Update flow model in readme
+dc681536b585568326aad08987811be464dbd8f8|2018-02-27|John Gamble|Merge branch 'release/1.0.0'
+20eede7bf7cc16dba8f782074ecbd87322e69d95|2018-02-26|John Gamble|Add suggestions to readme.md
+ddf35053f95c1d97474a94b30256b9d8e31faf24|2018-02-24|John Gamble|Update build status in release branch
+bf9e5f54991bde0ecff37128fa8512326571b257|2018-02-24|John Gamble|Add travis config file to release
+9e1e20abaac53d3b7952e960f14a5f8b8b791871|2018-02-24|John Gamble|Merge branch 'release/1.0.0' into develop
+053b6405b027d37f441ab3ab05db460488dd7c97|2018-02-24|John Gamble|Update release branch environment file
+a259b80d447dfba3dd582a8b4c3a4a6d1c5fbae2|2018-02-24|Andrey E. Antipov|switch to anaconda builds
+5d4ca9f899aeb499d9ade9639c7391b7f2ac209d|2018-02-24|John Gamble|Add environment.yml for python standardization
+08c476f50ed79e0f09b8dd7b0d09b9d4e0f62bf5|2018-02-24|Andrey E. Antipov|Update README.md
+954c65a6f86b3a9786b36f8a8c319dcad8ef692b|2018-02-24|Andrey E. Antipov|travis build
+4b9fef115d3a7af253a7b95c9a3afcf239498ded|2018-02-24|John Gamble|Add environment.yml for python standardization
+81892920f878817ee59f03f9d732e9b7d6f899ed|2018-02-23|Jan Gukelberger|Moving qmt code into new repository.
+f536c627210752c216225eb9bb803fd140700858|2018-02-23|Microsoft Open Source|Initial commit
+5a0b20bb40408908f3de4d573a25f10442c8226e|2018-02-23|Microsoft Open Source|Initial commit
+67a4ecf800204946c5862ca06b0e0a39ab2d8d27|2018-02-23|Microsoft GitHub User|Initial commit

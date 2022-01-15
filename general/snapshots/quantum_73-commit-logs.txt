@@ -1,0 +1,416 @@
+986d81d640715111413afeada8de2f5510212aa9|2018-02-20|Christian Saide|Attempting to fix a bug with the jenkins build
+263209b8531c29b1923e13f53946dfa0b77a216d|2018-02-10|Christian Saide|Fixed a few issues in the new etcdv3 datastore implementation and deprecated the etcdv2 datastore implementation.
+ebc7f10d9888e370d58440c1fa3d907df3e89fe1|2018-02-06|Christian Saide|Fixed some of the datastore configuration docs
+dd09df346ea9f79c6b7369df854d0fd4b46ded82|2018-02-06|Christian Saide|Fixed a casting setup to be simpler
+c6d14c9d530b5f4aa3ce67e7e777c49068f2d4ed|2018-02-06|Christian Saide|Fixed a few lint/test errors
+28ad03eb23445e457391ff72ab077c5f2dfdec7c|2018-02-06|Christian Saide|Finished the first pass at etcd v3 the implementation is working as expected at this point but needs vetting
+c49d821cb694e480478f80b1084d8e5da4c7af82|2018-02-05|Christian Saide|General scafolding done
+8d04e0e6e1350fdc9ddf7e18a8a9f50571698a4d|2018-02-05|Christian Saide|Started work to enable both etcd v2 and v3 api's
+a6aea9c8c7272d6797592f63e189c29a178796d4|2018-02-05|Christian Saide|Fixed copy right string to include 2018
+1d961390031d0fe5bcdacc949bb3faec7eec0c5d|2018-01-08|Christian Saide|Removed a debugging change the accidentally got committed
+db0623ab9da43ba48fe0c1cd93827b518b6fc062|2018-01-08|Christian Saide|Ensured the old default gateway is properly replaced when quantum shuts down when in forward mode
+b144f1fa761b6305352f535ac659f80cf1129489|2018-01-08|Christian Saide|Fixed some of the tear down logic to properly quit completely
+c2d8fad83c5e8ffb20cee2abc28f298f2a41cff9|2018-01-08|Christian Saide|Fixed a few bugs in the forward/gateway setup, still working on it
+4080cc81dad9212eaa1833754df35ddd30abc02d|2018-01-08|Christian Saide|Updated how metrics are displayed via the rest api, the changes include moving to a map object for queues and renaming the top level object fields to tx/rx from TxMetrics/RxMetrics
+56e6bad9a1521f596d12efa8855805c1966a4fd0|2017-11-25|Christian Saide|Upgraded openssl from 1.1.0f to 1.1.0g
+19be323f4df30e621d0d6f1129bf6ffbf30f804d|2017-11-25|Christian Saide|Added automatic setup for masquerade on the gateway docker
+e11419630aebf6ae63d0f5ab7421c8c40c05259d|2017-11-25|Christian Saide|Fixed up some of the jenkins build to handle the new plugin versions
+62bae2b42a04f375f66887688016a8a7a1b260f5|2017-11-25|Christian Saide|Added some comments
+b483d1c09d0d68db388f106dad37ed7ba0797f21|2017-11-25|Christian Saide|Fixed a long standing bug in the etcd datastore and removed some debugging logs
+92d301594b7b9e93043126c8f7a3c5a7f987c318|2017-11-25|Christian Saide|Added some more utilities to the testing dockers
+6de9bd1026370b599f9aa0caa11f76ce1dfc9e17|2017-11-25|Christian Saide|First pass at getting quantum capable of handling arbitrary network traffic outside of the quantum network
+c64e75fe2a8e1a165f6a1bb8db523b3f9c6f45e4|2017-11-25|Christian Saide|Fixed a typo in the help docs
+1ada5734ba078fbf3bbce8b648d6f0850a7d466e|2017-10-29|Christian Saide|Added some more docs
+e85b34046410efbe5603b1d8732d1d0a44b71dad|2017-10-10|Christian Saide|Fixed up and removed some things from the documentation as they are either better suited for other documentation types, or unneeded
+c32813fcdcd780e89c42bb946168a3d8e151b2bd|2017-10-09|Christian Saide|Fixed some typos and misspellings in the documentation
+cb4d27f88785a2b267c1989cf83021a0ffc2fada|2017-10-09|Christian Saide|Fixed up a bunch more of the documentation.
+40249189e9b1436d5edf9c82c2fd9269a3ad93dd|2017-10-09|Christian Saide|Fixed another typo
+866a14fb739579087309d30a6eea856bafeca9a4|2017-10-08|Christian Saide|Added a quick start guide and fixed up some typos
+7134347016d2bc2e29f2c21b6b02a032652fa1a4|2017-09-20|Christian Saide|Added some stuff about the getting help
+74d6e3c7c192e83b730af1f1ade9c8fb363f8e1f|2017-09-20|Christian Saide|Added a bunch more docs
+6511f11427409e7e05081748e42aef811c594cf3|2017-09-20|Christian Saide|Fixed up some things in the introduction to make it less wordy
+4a5bb48b231e49de040d9fcac806241d3ed9ae11|2017-09-17|Christian Saide|Fixed a simple formatting issue
+896038d8bd7ae0f926f64e5e07b6d711fc3a9a9a|2017-09-17|Christian Saide|Some more tweaks and additions
+bd98d8133ea2760dc523c84e5a2c040ad36fc994|2017-09-17|Christian Saide|A good amount of changes and tweaks
+1f73387f01b6fc707bab896203b2fa5a7b81dc00|2017-09-14|Christian Saide|Fixed some typos
+5621eb2f7eb582ed7877ace93939d9ead5bfd1b2|2017-09-14|Christian Saide|Fixed some build issues in jenkins
+edf5607dbe25b723d1c14d0d9a980108d2539530|2017-09-14|Christian Saide|Attempting to fix a minor glitch:
+388dededb27646d8195af0ee2f6de28c2f6acd37|2017-09-14|Christian Saide|Fixed some errors
+7c912844e583fb17a3e1e2675c8dc4c084581c40|2017-09-14|Christian Saide|Added in multi version support
+343be0032d321ed19317c0e68d4ab6152eb8810c|2017-09-13|Christian Saide|Added ability to automatically generate the configuration document based on the actual internal quantum configuration options
+b6d5f8585a690c2f9663025075cb36276a1ead68|2017-09-13|Christian Saide|Fixing an issue with readthedocs not being able to load the custom formatter
+23575f48fd571b3fbe49c1d2faa68caeedb9d679|2017-09-13|Christian Saide|Testing custom templating and configuration page
+e9577b5f00c4d3ec1bc2d23b28ca357c4ccf34e1|2017-09-13|Christian Saide|Tweaks to the documentation index
+9a0e80034f2408745037f29716435a613c914542|2017-09-13|Christian Saide|Added missing files and added special thanks
+ec80cc8b8b2304f5708f9e0055a161a7b60f5ee9|2017-09-13|Christian Saide|Fleshing out the documentation index
+a9ea8e5f187a6a1c408e4d6da098525f636b8999|2017-09-13|Christian Saide|Adding in some different styling for subsections
+e07e3d03aae7850d0b1ccb909cfb362eaa8a2fd1|2017-09-13|Christian Saide|Testing sub sections
+c4a1c0ddd2b2a2f93acb9a7a63a47bb0f289f1ad|2017-09-13|Christian Saide|Fixed a few missed files and some minor tweaks
+4045a8d25a99aa599955374a71f0261135adff8c|2017-09-12|Christian Saide|Fleshed out the index table and added a few more skeleton files
+4063624e77c0cbcf9848ab49474447119a0a09f8|2017-09-12|Christian Saide|Fixed the failed attempt at overriding the footer
+d8d128994fc223579f4d0cb483636aaa5a57f509|2017-09-12|Christian Saide|Attempting to mess with the footer:
+d81f447ed9988ec556f4b2521c0b648189db120f|2017-09-12|Christian Saide|Added a bunch of placeholder files
+0cbbf0876f2ba891097389cb85cd91cc7a109747|2017-09-12|Christian Saide|Testing some formating out
+dc45f81171818562692760711ed5737b2f2ec4b9|2017-09-12|Christian Saide|Added missed file
+018cc0ae8222d92555a074881b0480058ced1f83|2017-09-12|Christian Saide|Testing new files
+0d3f61dafa703417ef66fee72fbd6ba9a67193f3|2017-09-12|Christian Saide|Added the beginnings of the sphinx based documentation
+035c5f67cabed2a9d8f91e32aa94062fcf8846f8|2017-09-10|Christian Saide|Cleaned up the Makefile a little bit to ensure that the release zip file is cleaned up by `make clean` and removed an unneeded build dependancy
+00a736b4def184285e17654ab28155c05e0bb5be|2017-09-10|Christian Saide|Fixed go 1.9 TLS issues and bumped the builder docker to use go 1.9 as well
+cbcd8542f10728f1377e6ff01ab4012f98e1f60e|2017-09-09|Christian Saide|Fixed imports to be all lowercase
+7eeecf7ee720846bf6c1a0a4c44e6cffca00a77a|2017-09-09|Christian Saide|Bumped version to 0.15.0
+0d71b0faa63605472427c07885181778f4b676dd|2017-09-03|Christian Saide|Fixed some things surrounding the docker-compose test bench networking configuration, and fixed a bug in the rolling restart logic.
+7f2b363c75532ebc5918c2efa7f735904d7e191e|2017-08-23|Christian Saide|Fixed up some missed unit test coverage
+2f9162945c2448378f741fe2c77eb8e5c654a879|2017-08-23|Christian Saide|Fixed up some of the error handling surounding the floating ips and network collisions
+9b933c1a5d15984f0af3b9dbd0cc7881d6d93947|2017-08-23|Christian Saide|Implemented full floating ips in quantum, this still needs cleanup but its working as expected.
+a0677f38341f8a83bd3a0365052a0c5250b619a5|2017-08-01|Christian Saide|Ensured the there is a limited number of jobs running for the openssl compilation
+19fc7fe2d2c71ee4bdf4ff3c1da02763467b126d|2017-07-31|Christian Saide|Testing a new way to handle the openssl build to speed up compilation
+415695cbf881c2d0e088e27054cba8f754ea5a04|2017-07-31|Christian Saide|Trying to fix the unit tests to run reliably on jenkins
+eaacdef07a739d02342fac5b178637eaf5f3279e|2017-07-31|Christian Saide|Fixed the config module so that specifying file overrides for list options as json or yaml lists works as expected
+6882ef95973e6991c25e1f292e7a1c1b88046401|2017-07-29|Christian Saide|Reworked the agg module into two separate modules called rest and metric which split out metric aggregation and rest api functionality allowing for more flexibility in how both work
+b24055559c8522f575e15c2b07dde18dfde36be4|2017-07-29|Christian Saide|Renamed the workers module to worker to follow the go best practices
+f98811d2d7f1fa11b35c39604a29851252a139b1|2017-07-25|Christian Saide|Bumped version to 0.14.0
+0c131e8bbcbe5c2598bdf4f141bf916849e92aa2|2017-07-25|Christian Saide|Set the GOMAXPROCS to 1 for the testing
+26daeb5e71ff82a901eb8ebd05ab39a24c7a2660|2017-07-25|Christian Saide|Fixed some bugs that present when running with multiple plugins enabled on both the local and remote peers, and added some units to ensure that this case is covered in the future
+0e188a95e4001d4ed9459ad68e1f10488703aa03|2017-07-18|Christian Saide|Fixed a bug in the dtls code
+c2bea354255bd7bd3b7a1f7a6fc835607a29a9f5|2017-07-18|Christian Saide|Trying to ensure there is no race condition in the unit tests
+58aac09d2ae7f9bc419a9d1422c7eb34436238f8|2017-07-18|Christian Saide|Fixed some missing copyright notices
+0c98a0438717240cb1ae1d58ba42bba971d00f57|2017-07-18|Christian Saide|Cleaned up the sorter setup in the different plugin structs
+774cccd7b5d6c0ee290d8da6ee9020921b833b28|2017-07-18|Christian Saide|Fixed a bug in the plugin setup where the ordering of plugins was off in terms of the incoming and outgoing
+50dafe1ee66e8c4e038c715c63cc42d2ce947e53|2017-07-17|Christian Saide|Removed the datastore_test.go file as it needs some serious thought to get right
+ce89f03334b9f6e9abc1c3dc3df8233ea14373de|2017-07-17|Christian Saide|Fleshed out the device tests for TUN
+3004cc7ae3d1a001d918ecd5c41961fc515ff43e|2017-07-17|Christian Saide|Ensured the junit parser fails builds if there are any failing unit tests
+85f9b14cc6580aa09a9d500b22a38f8d99ef8a4e|2017-07-17|Christian Saide|Added in a device test to create a TUN adapter and modified the coverage.sh script to handle running with sudo if needed
+1f90243560a41a0590fa556875ba482b8e400f5a|2017-07-16|Christian Saide|Added units for the socket module
+f22f52b950979a2aa7f77193245c659c4b9749c6|2017-07-16|Christian Saide|Tweaked the README to match the new Makefile changes
+04aa2bd9d027fd72cc044dbd78236cb785d669ce|2017-07-15|Christian Saide|Tweaked the Makefile andi moved things around to be more clear in the dist folder, as well as fixed up the jenkinsfile
+1e7209f414d7c2752863f3ec6859e336d6405614|2017-07-11|Christian Saide|Added in units for the mock's of the device/socket modules
+82eda6c1d1b2cfe7c6af5b5d6196b25a30ffd1fa|2017-07-10|Christian Saide|Added close statements to the sessions for the DTLS unit tests in the crypto module
+40129baef7d8bfd1ef7aa6dc878d5133a9919b11|2017-07-09|Christian Saide|Trying to fix ci tests
+5a9a9da6cd548c51ed07ada24cc9308969cf3624|2017-07-09|Christian Saide|Fixed some missed methods and a possible race condition in the unit tests
+06201f12f9db59943ff6a38371f8b8832c580d48|2017-07-09|Christian Saide|Fixed redirect urls in readme
+9b69b6c792090006a7353a9440fa4730271c648e|2017-07-09|Christian Saide|Fixed redirect urls in readme
+7d46b79c3dd800bcd62c4dabf9b1b81a1cf6b52b|2017-07-09|Christian Saide|Fixed a typo in the build badges
+793345ac58f717414c37688038fefad9540dc3f2|2017-07-09|Christian Saide|Added custom jenkins badges to the readme
+79ea4f0b5c68052920a1facf3e96c92c6ebdc4b3|2017-07-07|Christian Saide|Combined lint + compile into one stage
+8f47930b2990707cafe4fc9ff743581a24391405|2017-07-07|Christian Saide|Cleaned up the jenkins configuration
+e1b83bd10a7f714e224d8fa4b1a9699b21ee7e67|2017-07-07|Christian Saide|Added in some more Plots of the benchmark results and fixed a comment
+0fde93bcaa384c55af602b3082301aab9682081d|2017-07-07|Christian Saide|Cleaning up the Makefile
+535e82f77d0cc624c7306fa6a5c875075b200172|2017-07-07|Christian Saide|Cleaning up the Makefile
+5e5a1a332c67f4c0706da0235cf48d6b7e8d3400|2017-07-07|Christian Saide|Added in the coverage testing for realz
+198b75e1c3c700111c66f8131838a8a29f24e4a8|2017-07-07|Christian Saide|Added in test result analysis, benchmark analysis, and coverage analysis
+3b80e681715b1d975f34b47f10bc130774a967b8|2017-07-06|Christian Saide|Fleshed out the jenkins build to include the various stages.
+706c7c6ffbb1cdd13f133f323beccbddcaadabf4|2017-07-06|Christian Saide|Fixed a few issues in the config module, and started move to jenkins over travis-ci.
+14e6411bd1a2cdec53a0994613ef90de09b42095|2017-07-06|Christian Saide|Removed the socket/device unit testing as it needs to be done in a functional manner and not at the code level.
+51c7c344b5f597d485b3a446aab8d8b00a8309c7|2017-07-05|Christian Saide|Added in some more testing for the config module
+e922557f2c41c108cdb13e0fbfc437d41776cff4|2017-07-05|Christian Saide|Added more unit testing around the config object and file handling
+61dd4815f39464a140d0b5cb87acfd5f2cb08f25|2017-07-03|Christian Saide|Changed how the default network configuration is passed to etcd so that the user can specify the config to quantum at startup, this means that the first instance to take a lock out on etcd will be the one that sets the config cluster wide
+052861dfbe5c11114158ff0ace2a636c83c0dac0|2017-07-02|Christian Saide|Fixed up the initial startup output of quantum to list out the plugins being used
+8647c362224476edc894250f9771ce1fb7d6cf75|2017-07-02|Christian Saide|Reworked the README to match the new architecture.
+76841ed53242d01964e12f8ec5b4d5735e3d876c|2017-07-02|Christian Saide|Fully reimplemented the encrypted udp scheme as a plugin
+6ffe369e4ffb9bd09a8e171a9706a4fa670d4022|2017-05-03|Christian Saide|Enabled full DTLS based on openssl cgo bindings pinned to version 1.1.0f of openssl, and enabled full separation for plugins.
+b6506103ca83b70de0943103fb11b666d4cb222e|2017-02-13|Christian Saide Supernomad|Bumped version to 0.13.0
+2972b7e1c5c93519c48fae428c41c4369ddb21f0|2017-01-30|Christian Saide Supernomad|Added trusted networks/hosts list to the tests for clear text transmission
+d8614d384f07d30c38298cca00cd8cecc672c96b|2017-01-30|Christian Saide Supernomad|Fixed some typos and the systemd unit file
+f8207d02e98f27a1c73a7557855e9c10359319dc|2017-01-30|Christian Saide Supernomad|Enabled the ability to turn on and off encryption on a per node basis
+ffae57627a187cc5e8cd5aa1219930f43d375878|2017-01-05|Christian Saide|Added ability to enable/disable autoconfiguration for ipv4/ipv6 public addressing
+e4dc5ad7f73513ba046ecf1e64b6498b9f3534bc|2017-01-04|Christian Saide|Fixed some logging issues
+032dfdc3712c314fb4de2b674f4d93710bd04937|2017-01-04|Christian Saide|Version bump to 0.12.3
+729aa13fab3a826571b40646eb7de939fc9231e3|2017-01-04|Christian Saide|Stability fix for pipeline scheduling and removed an uneeded call as GOMAXPROCS is now always defaulted to number of cores.
+0d8c976ec7151b06256360f68fb40f62bd20f132|2017-01-02|Christian Saide|Bumped version to 0.12.2
+f45267c560517502f3432a2d3436fbe6cea2aaa3|2017-01-02|Christian Saide|Fixed a typo
+031c143a427357c45523988e9a8fea2f57f9edd0|2017-01-02|Christian Saide|Moved some things around in device
+7c91c308403133f481aa9d1d3e9f2c994a618286|2017-01-02|Christian Saide|Added some unit testing for device
+e5488153202d8e27339ea0935e23867c32dcd802|2017-01-02|Christian Saide|Added unit tests for the socket module
+e3dad82dea00bbb32f314c94d1e53dd9e14039c4|2017-01-02|Christian Saide|Added a few more tests
+2b1aec2f2fed6215a98c2a4c7f97bd1d864e437b|2017-01-02|Christian Saide|Added some more tests in the common module around the signaler and added race checker to the makefile
+d87edef7a70cd13f3752c0bbbee3897d494b98cb|2017-01-02|Christian Saide|Some minor tweaks
+3f27041002cbbd733b41eb208e872fba77badbfc|2017-01-02|Christian Saide|Fixed the api pretty parameter to not need a value
+b85142a8dc81ce83337b968d205dea20d02576f3|2017-01-02|Christian Saide|Added pretty printing to the api for manual curl calls.
+a33fd4d6413b6dea2fc5dd63a67d7de19f15865d|2017-01-02|Christian Saide|Fixed a typo
+fdacdca34fd0df7f7b6634adc20a5281fbeba4b7|2017-01-02|Christian Saide|Added a bunch more documentation and an example systemd unit file to run quantum with. Also changed the device and socket interfaces to not have an Open method and move that logic into the New calls
+083bfac7b70ccfda2337d79477f441b410293f2a|2017-01-01|Christian Saide|Some comment tweaks
+1e7d1c02f9e6c638666eac9e974b0305c89ce4d6|2017-01-01|Christian Saide|Added more docs around the workers and fixed a bug in the stats aggregation for the workers as well
+7a6976fb19f7710adab3af001b67a3b59fbc87d3|2017-01-01|Christian Saide|Added some better error handling for the socket module
+c989dc6a216cce4b8a5cdecf7c06aff0f7552959|2017-01-01|Christian Saide|Some more comments and docs
+ba947d851914ed510d443dd0b1ad9677e37abb7f|2017-01-01|Christian Saide|A bunch more docs for socket module and fixed some typos
+c4c200369377b51e9cf851cae1e6fca3b277cb30|2017-01-01|Christian Saide|Fixed a bug
+fd6358715c4cc7ee01e3334721b2bd0202f82a92|2017-01-01|Christian Saide|Added some better error handling to the device module
+f9c605ae5f4b20ffd739740cf69b6130a5ece5e7|2017-01-01|Christian Saide|More comments and reformating
+0784504d3251cfe84995c63b292eef1bd67303cf|2017-01-01|Christian Saide|Another round of comments
+57034c48c77732b6c6df0a9d1157f0eadf5d8ad3|2017-01-01|Christian Saide|Fixed up the error handling in the datastore module and fixed a bunch of comments
+fb6da37afbb1e245f25c83958f1feace84dd8928|2017-01-01|Christian Saide|Added documentation for the datastore package.
+e2e2e47797c7f3c70fd02ff2384bc5296f84cce0|2017-01-01|Christian Saide|More comment improvements
+353a4088d3e6166218e93163c05dd596da22c0d2|2017-01-01|Christian Saide|Added missing doc file and fixed some formatting
+ed07237c40331e5c8d55c754b55b13299f835ab4|2017-01-01|Christian Saide|Fixed up a bunch more comments and setup in the common module.
+7bbcb9a504dc5f923dbf9a5cde0663b59a15ee4f|2017-01-01|Christian Saide|Fixed naming of the agg example
+d2e69c9c007aef192aa1693a75759e19374c4706|2017-01-01|Christian Saide|Some more testing for godoc
+d28ea5b20d5785e4c14a913119b0648c0bf33b5d|2017-01-01|Christian Saide|Added an example of how to interact with the stats api exposed by agg and again added more comments.
+362a86e54b51b1514b0a514df040e65c416daf31|2017-01-01|Christian Saide|Some tweaks for godoc
+d15e9852374d0833ba0a60aabb12c3d9e0b1313f|2017-01-01|Christian Saide|Added some examples plus cleaned up commnes in common.go as a test for godoc, and added some more logging to the agg module.
+2ab5ca5e43ce6278d053139c9ee1f4fbbd99fd1f|2017-01-01|Christian Saide|Fixed up the logger class to be a bit more idomatic.
+14b03c997cea7d3f3f2e462089caa6c64088d913|2016-12-29|Christian Saide|Lots and lots of comments
+2021f0e7b9710f1c8c53d29079a39b19fa0cbbe2|2016-12-28|Christian Saide|Some more Makefile tweaks
+b15f51105386e166df4e81d063fea15806bd2275|2016-12-28|Christian Saide|Some small tweaks in an attempt to fix the build
+db4c702eb8d6743c4c4229ffce2d2f20a49d9e5d|2016-12-28|Christian Saide|Rebuilt the build system to be based on a standard Makefile and fixed some issues around logging in the unit tests
+1afe550eed214a7b1dc4f0303e2771176af89fca|2016-12-27|Christian Saide|Moved `bin/` to `dist/` and reworked the build system to use a standard `Makefile` with supplimentary scripts.
+34a66e5e718e1082ab04357b2a114c9132d492fa|2016-12-26|Christian Saide|Attempting to get the build working in travis
+584a6f3cc1e43e058ba3db1df1d828d494aeb249|2016-12-26|Christian Saide|Added some testing around UDP/TUN write performance.
+44ea70dabb1a29ad5fc28c8bf29858264492e755|2016-12-19|Christian Saide|Fixed a typo
+6d041143569598793ebd0947bde43654dace1cb9|2016-12-19|Christian Saide|Updated the release script to include a copy of the LICENSE file in the build archives.
+9add3fcd341e2b4a3bacd71dc4b2713671842744|2016-12-19|Christian Saide|Fixed linting and build errors
+aa32260c5cb7730ac5a3eaae406be8c3d3e8664e|2016-12-19|Christian Saide|Fixed some chmod issues
+b53dfda8df63d32fead001a0d31228d9b2810459|2016-12-19|Christian Saide|Some minor tweaks to wording and adding the notice to some missed files
+b00dae58ed4950cea37170bcb1ba8a14f38fb7bb|2016-12-19|Christian Saide|Fixed some chmod issues
+9034c0a51ba65aa9ccc602e79497e247e000f96d|2016-12-19|Christian Saide|Added licensing and copyright notices to all files in the repo, as per advice from some colleagues
+e585a75d1a81ea3230074bcde7d027efffd2fb65|2016-12-04|Christian Saide|Version bump to 0.12.0
+cbd36a11e26fe3d0da86cf111ae9d818768a0900|2016-12-04|Christian Saide|Fixed some linting and spelling errors
+484f3adfc960af80157172ddc7d5519417c9bc4d|2016-12-04|Christian Saide|Fixed a test bug
+b4107f0a3d77818dd61af997365d9db1a4d136cc|2016-12-04|Christian Saide|Removed a debug line
+c7c2d22e0b9b660f2b70886d71f77314ad417fb9|2016-12-04|Christian Saide|Some tweaks to the etcd datastore to fixes some minor bugs
+21fe0c658249baa46ce2c03b2aa383e25299f378|2016-12-04|Christian Saide|Acctually one more quick update
+ed0745dd3705527aba0a4a36c76feb6d052bc9b4|2016-12-04|Christian Saide|Just one more test for now
+1e71b74ee30e52dcf6c2584f57f303009ee8f1fe|2016-12-04|Christian Saide|Added more testing around Config
+1040d74f7d379286c804526ad5bc20ce9a9f7080|2016-12-04|Christian Saide|Added further tests to iphandler
+893b709c125f0d809850230ab31e099a39c4b7f4|2016-12-04|Christian Saide|Added some more unit tests for the ip handler module
+8b8c86054b3696f2097f96572e7d605f458e65ae|2016-12-04|Christian Saide|Added some more unit tests for the ip handler module
+201af7bd4baa82a3aa956bd02a238077f2453252|2016-12-04|Christian Saide|Added some more unit tests to common
+4865064e79ad42056a5872fbbe7d0e77f73e712d|2016-12-04|Christian Saide|Added some more unit tests
+41e22ee5e9cf982e5f8e70b6b505d90f4b0eef92|2016-12-04|Christian Saide|Removed consul from the readme
+31482aaf66212a3a301a7e21a120b6d9e693b97d|2016-12-04|Christian Saide|Fixes for some tests, and removed the Datastore configuration option as its no longer used. This also changes the etcd data structure to use the private ip address as the key in etcd.
+c87242b08f33b18c469c4ce96311c35df0261eac|2016-12-04|Christian Saide|Fixes and tweaks, this gets the new datastore module to full functionality just need to optimize and clean up a bit
+212ae6d000b9d4b5227479a63a0c7b98fe4ae5d2|2016-12-04|Christian Saide|Some final touches before testing
+b2b156a5f8dc71bdd09abf48ca925c582d92fa9f|2016-12-04|Christian Saide|Serious progress on the port to etcd client
+2854665817596991866bca6ed521fede28b81929|2016-12-04|Christian Saide|Started move to new datastore pattern
+7664e4ce5abb3da076e67116ffd49ec8db108faa|2016-12-04|Christian Saide|A few more readme tweaks.
+9feaccb4b45010588be516bd12fcec1169d828cf|2016-12-04|Christian Saide|A few more readme tweaks.
+d36e70821e9b839657bc9f8bbb5ae719ed5c15f2|2016-12-04|Christian Saide|Some fixes for the readme
+36abc3c4ae20e57ba306405117e6ac4b4feba1a2|2016-12-03|Christian Saide|Quick reformat of the workers unit tests
+f44c6acfc59b5762263b9c2cee53e9a92c571be6|2016-12-03|Christian Saide|Nope doesn't work
+5c1ef8fe07f5ec2e008782d3ea97495b512256c1|2016-12-03|Christian Saide|Adding source clear to the travis build for testing
+4898f87dcbe6e5432c27c8eacac135fe202a7c6f|2016-12-03|Christian Saide|Bumped quantum to use version 1.7.x of golang
+dd947c6cba817b5bc83f0237c7c88b631d510844|2016-12-03|Christian Saide|Fixed up the tests for the refactor
+120ccd7739c4033c851fc00aa7cd04ed784f0226|2016-12-03|Christian Saide|Cleaned up some comments
+fc4b2ca2718791720404929c73fb5ca47ebce6b1|2016-12-03|Christian Saide|Renamed inet to device for a better comparison to what it actually is and to inhibit confusion.
+01050a37e39cb18185c5fa89f1ea392ec0c1fdf3|2016-12-02|Christian Saide|Version bump to 0.11.3
+2bfe95e6894f5ce936649b239b2ade5b5ae647a5|2016-12-02|Christian Saide|Fixed an issue with fragmentation, this is a spot fix for the problem, which will be addressed in full in a future release
+4427f62896e54afe1149220ffd5735b0b7107a23|2016-12-01|Christian Saide|Version bump to 0.11.2
+46c80ad483160b35e9a41de604b44deb250f7f4f|2016-12-01|Christian Saide|Fixed a linting error and added a check to ensure that the defined staticRange is within the defined network.
+723a9321be1c382655cc34d2fcf4f0a3e6f3a60a|2016-12-01|Christian Saide|Added in a static range value for the network configuration object, and fixed a bug where lease time could inadvertently get set to 0.
+8d0478d98b47206c932445c108c596454b20bd34|2016-12-01|Christian Saide|Updated the gen-binary-tar-ball.sh script
+1b0206cfc59b74192f7429fd330e3ae2229d166e|2016-11-30|Christian Saide|Version bump to 0.11.1
+8bf8b8882f306767e1315dd75f54333f7d207747|2016-11-30|Christian Saide|Added switch to ensure workers never exceed the available number of cpu's, and fixed an issue where link-local ipv6 addresses were being picked up as public.
+fd2c53a26bcccd9f5eaf88c464123f975727ae5f|2016-11-29|Christian Saide|Add gen-binary-tar-ball.sh for releases
+18b766b46dbe99f2fa923b7c257e022c574b7a14|2016-11-28|Christian Saide|Added some more testing to agg and fixed one of the common tests
+e1ffe5634c7c769c87ef9cee68b9d414fba80bfe|2016-11-28|Christian Saide|Bumped quantum version, and tweaked the README a bit.
+da18bebcef25bf582aced6a8be6f78118afa7254|2016-11-28|Christian Saide|Merge branch 'master' into develop
+72d679031886d4d759042e1500728842b2da8a16|2016-11-28|Christian Saide|Fixed up some of the logic in the agg sub system and added queue level stats back but without links.
+b5dea5c86ef4e6f382f894c9b453a1416df4d797|2016-11-28|Christian Saide|Some fixes for the unit tests to be inline with the new agg setup, and cleaned up lint failures.
+1aadcc2341e8ecacc7e4d789e250fab68bc1f9a6|2016-11-27|Christian Saide|Moved agg to a pull setup instead of a push setup, and it now listens on a specified address/route/port for http requests, and will return the stats object from there. As of right now the queue level stats have been sacrificed for this change.
+c23a9236d48ba9b108cbf218ca6a97427649d846|2016-11-26|Christian Saide|Removing test
+cc41d40a5a0a3a4c703709d9a6eee649ce17a506|2016-11-26|Christian Saide|Testing
+b2e9256875c18080c76594069a8cf513b148eb6b|2016-11-25|Christian Saide|Merge pull request #70 from Supernomad/develop
+f22e394abc0a5552b2ad6e09c8460c595f16641f|2016-11-21|Christian Saide|Merge branch 'master' into develop
+cab3d15efea84bd4e97ac2c10275c36a46adb46e|2016-11-21|Christian Saide|Merge branch 'develop'
+b70479a5e046057c206645dab7dc0c75ae5be651|2016-11-21|Christian Saide|Moved around some build stuff
+226fec1204d9fad62839db5599567fa9450d1666|2016-11-21|Christian Saide|Fixing build errors
+14ad0304d1193fafc63b21e02cf0f4266c9aaebe|2016-11-21|Christian Saide|removed a debugging line
+f8921125aa58e53ea4247d2ec73c2a619034c5ae|2016-11-21|Christian Saide|Fixed up the generate-etcd-certs script as well as added v6 networking to the docker-compose although this now requires creating network manually due to a docker-compose bug
+ef5384cd77c7903d42a7b9a73bcd9006a10b9a29|2016-11-18|Christian Saide|Fixing build errors
+6765762998780dc30e9f64cafe455321eab47f1e|2016-11-18|Christian Saide|Fixing build errors
+6a7f830946e425f22354d351a796d02abe3b9351|2016-11-18|Christian Saide|General cleanup
+956965265b80c0744e86aee9988d4bb43e9fdd65|2016-11-17|Christian Saide|Some more bug fixes and tweaks
+c4690d38581a2aefe4749f2058596e3586c1ec3a|2016-11-16|Christian Saide|Bunch of fixes and tweaks
+4ab723c44bd49323de4526541c834218a0e048d5|2016-11-16|Christian Saide|commiting to compare changes
+e305eea15cd772b5f053350584e0f8fa20f64f10|2016-10-04|Christian Saide|Fixed queuing issue
+156f22dc7f27b57fa0c8b3f7fbec011155247465|2016-10-03|Christian Saide|Move toward a more flexible packet interface, still need to get zero copy working right and packet fragmentation
+e5037e3a542392edd979d5319f0889b3df722b1c|2016-10-02|Christian Saide|Moved to a packet based interface, needs a lot more work but works as described.
+8f13781dfed4ecc65081b31ce3bb54c25b0fae9b|2016-09-19|Christian Saide|Added ip layer socket
+a4ec1641d67304e9dc22f07b99cb96d0eeec2c99|2016-09-17|Christian Saide|Removed certs directory and will update the getting started to include running the generate-etcd-certs command
+674a63a3d2b7e9e104ce17d0257b1ffb95822a8b|2016-09-13|Christian Saide|Merge branch 'develop' into 'master'
+ff072434df7dd1e740733e1246f95bf379b51edf|2016-09-13|Christian Saide|Merge branch 'tweaks' into develop
+bdc2ff7c0fef44a4dc1efa256c9cfded2102933e|2016-09-13|Christian Saide|Fixed a typo which broke the agg_test
+0c0ec0c097fb265deb4705931564b6051fc38bd1|2016-09-13|Christian Saide|Fixed up some configuration issues.
+5f5769ed2587b48dc0d7da0109421f7f92b896ce|2016-09-11|Christian Saide|Merge pull request #62 from Supernomad/rolling_restart
+69b8c536dc9ddd4d5e5ec9dca82529fc12323a02|2016-09-11|Christian Saide|Merge branch 'develop' into rolling_restart
+c83f4ade915e0594a55d5be88ce3883764256992|2016-09-11|Christian Saide|Merge pull request #61 from Supernomad/revert-60-rolling_restart
+cfe827310d533f6328cebc92de5db92702c283f7|2016-09-11|Christian Saide|Revert "Rolling restart"
+4a9f5e37f801d30e9a346557bff98d7a19a3966e|2016-09-11|Christian Saide|Rolling restart (#60)
+3426276987d6a991b0ec6cb6eafa628dbf46e6c6|2016-09-11|Christian Saide|Added pid file handling, which allows systemd and the like to properly handle the reloads.
+d1500bdabb215482e1f6a758047eb52570ff162a|2016-09-11|Christian Saide|Fixes and cleanup
+4ab2f2394410aecbfaa28f1ba874baf571ce52cb|2016-09-11|Christian Saide|Got a fully working while rough rolling restart working. Needs better stdin/stdout/stderr and pid handling still.
+1758cb085860dc8faa509f4a645f80cf26d8b1f2|2016-09-09|Christian Saide|Started working on handling signals properly, and have gotten it down mostly. Need to get the tunnel/socket picking up the passed in fds. Then testing the hell out of it.
+3146bf210410ebde7d73fe0268454a067bcb7ec3|2016-09-07|Christian Saide|Testing signing
+c9678d3dd892fbb5b46696023442043c5da1cef3|2016-09-07|Christian Saide|Testing signing
+f337082c02a80f44729a0bb2b7eb9ef17f49c911|2016-09-07|Christian Saide|Testing signing
+0a1baeb0e276ad0ed2761745bdd38468c7bb616f|2016-09-07|Christian Saide|Testing signing
+51df01527772f9fb15e8695964431f093143d4f0|2016-09-07|Christian Saide|Testing signing
+fcbafa41da040222e57824263777fb650c24cad3|2016-08-29|Christian Saide|Fixed typo
+78b89bb724f91783f02e42aa0b8e8856d4ccdd43|2016-08-29|Christian Saide|Fixed readme formatting
+bbb3737ed6631a5212b96fcf9c469bb6025b14bf|2016-08-29|Christian Saide|Fixed readme formatting
+73504407fcaaff9a04d973cc3bd60b830253355b|2016-08-29|Christian Saide|Fixed readme formatting
+047b3eca0fd3202032cec3451619b6fb0e8d591f|2016-08-29|Christian Saide|Moved the configuraiton reference to the wiki
+5cd1e16c731497fb96f0486fe2f23780237b931f|2016-08-29|Christian Saide|Fixed readme formatting
+9d30ce42b7108d82123e523e4ebb3e2d4b39ddf1|2016-08-29|Christian Saide|Fixed readme formatting
+f1a33e666152e9ade0c09a41eb9a08c80ea2dd6f|2016-08-29|Christian Saide|Moved around the readme some more.
+f5a89f0427c313cfe2322d516f2a4fa0d464bde2|2016-08-29|Christian Saide|Merge branch 'develop' of github.com:Supernomad/quantum into develop
+6fdef790992a60b6dcdef1127e0b565c9e43bdf7|2016-08-29|Christian Saide|Tweaked the readme some more
+14270338dcf8104b9c54dd6d61ce6d8666f4fbe9|2016-08-29|Christian Saide|Merge pull request #57 from Supernomad/develop
+2c2ce93493426a44c1df73fab8e7f3224a1b7d9c|2016-08-29|Christian Saide|Merge branch 'master' into develop
+3022e8311f4a4128c129326f0ab6e100a5811c2d|2016-08-29|Christian Saide|Some tweaks to the readme
+ee51e0e44b5ec91cacfe6416c335d7bdd80864e8|2016-08-29|Christian Saide|Merge pull request #56 from Supernomad/feature/public-ip-autoconf
+aa0cdbd62a8c8b374a5e89fe941deb9cd704a5de|2016-08-29|Christian Saide|Fixed go lint errors
+ad374e983d8486debadde4679f34d049d7537d2a|2016-08-29|Christian Saide|Added auto configuration of the public ip based on the routes designated to reach google. While this won't always work its a good compromise to get the feature in.
+b4997c56aca736895fc3b712b4a60ab4ed822243|2016-08-29|Christian Saide|Merge pull request #55 from Supernomad/bugs/static-dhcp-collisions
+4d456459248eec0ef8a3944c120469c7e898d925|2016-08-29|Christian Saide|Fixed static ip collisions with dhcp assignments by adding a reserved subnet to the network config, of which the default is the 10.9.0.0/20 network.
+37d022155b72e97613c0396b5d2f5494306bc05d|2016-08-28|Christian Saide|Merge pull request #54 from Supernomad/bugs/backend-startup-race
+922606a47fcad53f720ffb2638c84f15c2fd8d67|2016-08-28|Christian Saide|Fixes for race condition when multiple quantum instances were fighting over the lock, it seems the value must be set for things to function properly
+b185035d3c20ba2a9837a15e04a15deecf07ffcf|2016-08-21|Christian Saide|Merge pull request #51 from Supernomad/develop
+d0de3bc6e5f522fdcf6049fe1ee69bc9589ccb81|2016-08-21|Christian Saide|Merge branch 'master' into develop
+865bab709e151dbc70d92015fb18a2b6c7c3422e|2016-08-21|Christian Saide|Merge pull request #48 from Supernomad/docs
+6eb03c493cdab16b7496c5b0a2ef6e6c1de8bbdc|2016-08-21|Christian Saide|Merge pull request #47 from Supernomad/logging
+e581c0e7b9d22b22c29c8d5906d5c6b7fffd34b7|2016-08-21|Christian Saide|Added emphasis to the wiki link
+337f715098f1bfb720a5adc17e603c41c8eaaa08|2016-08-21|Christian Saide|Moved some things around
+ce8c3f64cba5e6ca95836c617bd1c8f53469a4d4|2016-08-21|Christian Saide|More tweaks
+ee5d738564cc53b312567c3c834871bf2878488b|2016-08-21|Christian Saide|Minor tweaks
+7d4b47c426992ea70905f3ed9e788e8cc78590e8|2016-08-21|Christian Saide|Minor tweaks
+d6e8a51905cb24e785b09970db4e50101d838eef|2016-08-21|Christian Saide|Minor tweaks
+36050ab9061678d9ce1bd763416b35974ac61d9a|2016-08-21|Christian Saide|Minor tweaks
+fd4fbfc58e5eacfce5b1d58c2b40b05665736ec0|2016-08-21|Christian Saide|Minor tweaks
+c1c7da711776405b9d1fc49c96b91a5358c44029|2016-08-21|Christian Saide|Minor tweaks
+d1128f6236431b1dc8ffb3bc1cf018d3cca53a0b|2016-08-21|Christian Saide|Minor tweaks
+b1e43b932f5069c8d43db495a6985ed22c9980e7|2016-08-21|Christian Saide|Minor tweaks
+60299c85b5a8c3ce543145bf340b6eacde27066a|2016-08-21|Christian Saide|Minor tweaks
+d24fc96f480d34f3c49fe2da5390693da068aa21|2016-08-21|Christian Saide|Minor tweaks
+757c13c1e0bfb8d6059cd5607ddcac1875fe3f14|2016-08-21|Christian Saide|Added Contributing guide lines
+3278432848cb446ccae7be3fc52b891ef670e6a5|2016-08-21|Christian Saide|Fixed some naming and spelling
+c2c00682a13733d5365d540e001f822844e39cbc|2016-08-21|Christian Saide|Some more tweaks
+890cd523dcb17f2bbd115e5631b3bcc6985927f8|2016-08-21|Christian Saide|Fixed some naming and spelling
+b9a74560da965ba9feb1ca29e266ab92f5acba63|2016-08-21|Christian Saide|More tweaks
+7b796ec77ed15772cb26cdd7679599b1f0ac6c79|2016-08-21|Christian Saide|Removed theory of operation section to put it into the wiki
+43e852cb9096467945f7e35cb91722c63daa572b|2016-08-21|Christian Saide|More tweaks
+a52d85fa26fa97e2017af21c1986972dea1dfe48|2016-08-21|Christian Saide|Some more tweaks
+b17177e12a298dd915306492316263888ab13b2c|2016-08-21|Christian Saide|More tweaks to the readme
+27e76da4a1ee72a354bb7bdb371abf9879343a38|2016-08-21|Christian Saide|Reworked the description
+e96a74942f2c707a83e7f814c270636fbca7c170|2016-08-21|Christian Saide|Some tweaks
+2ccd4c17395052e69bc3d0135680033e9ef2817c|2016-08-21|Christian Saide|Some tweaks
+e11f2f7a2921237c959253cd888242100b497ad2|2016-08-21|Christian Saide|Added more to the readme
+a7c702d131afe137a39aaae4ee345a14e611686e|2016-08-21|Christian Saide|More work on the readme
+d99d7d1cafb2f5842a900bd4b2a124fb68adf522|2016-08-21|Christian Saide|First pass at a description
+3b44c14adfc82fee9ef9213c8edbd6b362530593|2016-08-21|Christian Saide|Added dropped packet/byte calculations to agg
+962a92debfff4b26ddf1c629b755ca1b3190fd66|2016-08-21|Christian Saide|Significant progress made with regards to logging
+c1e37ebf54fa21aa18af8c750a4025d800b7ef1d|2016-08-17|Christian Saide|Merge pull request #46 from Supernomad/develop
+9c1e973eaaac72561a921cad9ce6834ae91a691b|2016-08-17|Christian Saide|Fixed badges
+11d49efa96d203a3ce42874e254af9b67b75bcd7|2016-08-17|Christian Saide|Merge pull request #45 from Supernomad/develop
+9ddd11d778d537c33e8df553d907b02a7f4131f1|2016-08-17|Christian Saide|Merge branch 'master' into develop
+683af1681b03faaf046b1d9a6b261c52060f7d2b|2016-08-17|Christian Saide|Merge pull request #44 from Supernomad/readme
+a6259b4486fb621c89e2f4147a05952837fa746a|2016-08-17|Christian Saide|Tweaked readme
+52db3ad1b45d00ce978044d9caf39b43554380ed|2016-08-17|Christian Saide|Merge pull request #42 from Supernomad/develop
+b19ff1dc86259ef2b8ca31cc8972eb526b372764|2016-08-17|Christian Saide|Merge pull request #41 from Supernomad/logging-unit-testing
+41aff2207f1b5e70cb521896e509f6c7c616bf99|2016-08-17|Christian Saide|Added some more testing for agg
+066b3f9930d53cb874835cb8b74fa878810a1034|2016-08-17|Christian Saide|Fixed a bug in the incoming/outgoing workers, woot for unit-testing which found it
+eabf7f6b853f9526201248d6a601360bff2c1e22|2016-08-17|Christian Saide|Refactored agg to be simpler more modular code.
+4187ba8fd47acd70b7bbdc1dfb98f0a0c956c772|2016-08-17|Christian Saide|Moved around the unit tests to be in a single file for common
+1eaad9e104edf119f49b52a6fb58ef93fedff91e|2016-08-13|Christian Saide|Added some additional testing to agg/ecdh
+4dafaba4ce9cfecdb0cc22f9305389240ff0531b|2016-08-13|Christian Saide|Added missing file
+00c18c0beb1f236ee700074bce120dac183209db|2016-08-13|Christian Saide|Added some basic unit tests for agg
+9dc2fcee9a6ede4036e352c5ba22cbab4fb7acae|2016-08-13|Christian Saide|Removed unnecessary import and setup.
+d539aa299de75684f61c4d4f3596b1d1c1d209cb|2016-08-13|Christian Saide|Moved some things around in the backend module and ripped out the tests there as they weren't actually testing anything
+1610478bf51c56ab2d3db968ff9c4e75b69ca0c7|2016-08-13|Christian Saide|Added some more unit tests
+fab4a40c184470f5847f448f0486cf4cc41af6de|2016-08-13|Christian Saide|Tons more refactoring and unit testing
+20195498dbab3e50d4188dade164e5932cfff29f|2016-08-13|Christian Saide|Somemore reconfiguration of the applicaiton code and some more interfacing.
+3884ed2d05eb43da0a487b3ae1c998f1c1b392c1|2016-08-13|Christian Saide|Added pregenerated certs and ca for testing purposes
+2e1fcda70d0b8658fa1aa11ee08b7c6aebb00b9b|2016-08-13|Christian Saide|Fixed some unit tests pathing
+5d6b4cda9ecbd041963a20c091a12d23f15f4167|2016-08-13|Christian Saide|Fixed some things around the development platform and added some more concrete settings for the certificate generation
+4b295c2d4a4170646f8454dfbe8fc382bd2971d1|2016-08-13|Christian Saide|Added an additional check to the backend unit tests
+f83d56694417b6090c9272d185e4449c3a1d3e02|2016-08-13|Christian Saide|Added unit tests for backend
+7726fe0a8293d6b743d5fabd5cb86e44408a75b8|2016-08-13|Christian Saide|Added a test of String for stats
+5c3058f2e9c9f1bf32f2e26909e04d33acbfcf00|2016-08-13|Christian Saide|Added git report card badge
+de66dcfaf8d5cdc490c59d6d35260df7928cac8c|2016-08-13|Christian Saide|Adding missed config file.
+f5ab21c66035bd365043a834b23739db83666c6b|2016-08-13|Christian Saide|Added as much unit testing as I could to the config object
+870aa91cacaee6f954819aad1decaec7e22f6b58|2016-08-13|Christian Saide|Added some more unit testing around config Environment variable replacement
+1c2f6c9eab050bc049eee4e7540579131d20dee2|2016-08-13|Christian Saide|Added install step to travis
+ffc2cfca70f8947d8fa47150bcc091813a24451e|2016-08-13|Christian Saide|Major changes and some awesome new additions including stats aggregation with per server and total link aggregation. plus some moving around and more unit tests
+7f340654b01c8c477fbbc8cfc5a2f420206a9999|2016-08-09|Christian Saide|Moved around networkConfig and added unit tests
+5157e4ce9a72c8b1132d72e75cc3a5f4c8f023c9|2016-08-09|Christian Saide|Fixed some build issues with go lint/vet and added a build script to run the travis build (without coverage)
+8adb7228702d94d0763d1060c25078a02670103a|2016-08-09|Christian Saide|Added unit tests for common
+4b90a0736beef121b2f6931b1244ea77234cbc57|2016-08-08|Christian Saide|Merge pull request #39 from Supernomad/develop
+a7f63c49a52516f9185341878f8b3fb7bca5f628|2016-08-07|Christian Saide|Merge pull request #34 from Supernomad/develop
+edb9edc21c264e8accc361a5d4893d092d9f8aaf|2016-08-07|Christian Saide|Merge pull request #32 from Supernomad/persistent-dhcp
+bcbb69267fad3f91b9064e05aab06c8cc1349007|2016-08-07|Christian Saide|Removing unneeded field.
+d0f8bffb4d09f599b13f0334bb909e5e80cec807|2016-08-08|Christian Saide|Merge pull request #40 from Supernomad/fire/config_errors
+628335535f6bcb381a02f18d2daa13e9fe1df1e9|2016-08-08|Christian Saide|Merge pull request #38 from Supernomad/config-updates
+648276f7460bda98976ab6bbe3ab3ed2485bbf9d|2016-08-08|Christian Saide|Merge pull request #37 from Supernomad/config-updates
+fe0920f297419f267fc7501e30450bf351b6d86c|2016-08-07|Christian Saide|Removed gocyclo as it was getting in the way and not sure of its real value
+334a9a0dda3fd90239e49ac452a98ea839eab2ca|2016-08-07|Christian Saide|Fixes for the config errors
+be8799798b5013a3ccaad7d57165939620443d74|2016-08-07|Christian Saide|Adding missed file
+4e2f0905b6c6193d6a7d20c538a22755ee66e38e|2016-08-07|Christian Saide|Got file configuration work for json/yml files
+2da7b3e861f76418ce23a72ef1bd50e26a900482|2016-08-07|Christian Saide|Added ability to set the configuration for quantum from environment variables and updated one of the containers to utilize this new functionality.
+9ef0c6905595a4a11ceabfb7bc3c7f338ceaf08c|2016-08-07|Christian Saide|Fixed watches
+557f74f6bfd7e877242bd1c9fe7c9eaffcbc71f4|2016-08-07|Christian Saide|Removed tests in favor of feature change to create mocking
+0ddad79700fe91728e70a3874ed8a777cbc89463|2016-08-07|Christian Saide|Fixing golint errors
+8fca23e6aa2703b3c742d3833eac0bd8f1cd5336|2016-08-07|Christian Saide|Finishing up persistent dhcp
+73ba3b7172fc664fcc40fe85f5a9ce34859522f6|2016-08-07|Christian Saide|Updated the config module to support the network config object for dhcp and added some tweaks to the primary config object to support machine id's and a help AuthEnabled
+0b52f8efe8e989a140bd241bd4e4c8b709598fe7|2016-08-07|Christian Saide|Added a helper func to common for incrementing an ip
+32456cdcf70e4793a32f4a04d9346f65a50725f6|2016-08-06|Christian Saide|Merge pull request #29 from Supernomad/develop
+cf26b60c599487ff43e0f5ec006b974f46d52bca|2016-08-06|Christian Saide|Merge pull request #28 from Supernomad/dhcp
+cdc46cc54a3b94cf64534575cf90d3f8badd5d78|2016-08-06|Christian Saide|Fixed build
+69c9ce8b5bb8026bdb64bbe45f88cd4ce0e923c1|2016-08-06|Christian Saide|Tweaks to the docker-compose file to use a custom ubuntu image instead of the iperf3 image
+0e8e39786add75975055607e7d56a08717bc23f5|2016-08-06|Christian Saide|updated the datastore and tun to work with dhcp and fixed some issues in ecdh
+62b07811ab99544ec2d8057f3627a80896ce66f4|2016-08-06|Christian Saide|Updated the config module to support dhcp
+3b590aee92d233de183095b3f7c226f7bfaffaf3|2016-08-06|Christian Saide|Added an InttoIP helper method in common
+f097b3ce164c1cda913b5d72cb2ebfe6920d97b2|2016-07-24|Christian Saide|Merge pull request #25 from Supernomad/develop
+86afa56ee0f7456bc18aa69c82ef633ce4c2b2e6|2016-07-24|Christian Saide|Merge pull request #24 from Supernomad/cleanup
+960406adba00c91930f2ee3f3d93484c3c85c6d2|2016-07-24|Christian Saide|Fixed gocyclo errors.
+2e7faa5a5e5351023f63bbc07a02a6dd2c1217b6|2016-07-24|Christian Saide|Fixed linting errors
+143546be94f2ceb886a1a21d52e5c7f7c34cdb0e|2016-07-24|Christian Saide|Added full TLS support to all backends.
+e28d1eea41480985b09f7b83f1735bbef9e647d9|2016-07-19|Christian Saide|Merge pull request #23 from Supernomad/develop
+dc2d701cbd595fd602e88529b7eb6cc070836c68|2016-07-18|Christian Saide|Merge pull request #21 from Supernomad/develop
+069c9e0152fbcf6ed2ca626d02befe5561ffe463|2016-07-17|Christian Saide|Formatting readme
+07eea5a92e038aaf65b810b80738519104760c53|2016-07-17|Christian Saide|Readme tweak
+badea017a700ad5d439fa2ae78ab5ff70fa09ab6|2016-07-19|Christian Saide|Merge pull request #22 from Supernomad/travis-updates
+64af7c86b802d911e18f68fdcc2bb4cd3baeb5e6|2016-07-17|Christian Saide|Added gocyclo test to travis build
+dd19f96b73f3782ac25e01d1113aea8485f97a17|2016-07-17|Christian Saide|Added github.com/GeertJohan/fgt to the travis build
+fb572dfa6d62f6c37983a6e7479721efe8a649cd|2016-07-17|Christian Saide|Added a bunch of basic comments, as a start toward documenting code and to cleanup golint errors.
+dd5c4fea35905ea7d0142c8f0871d38b459fdda6|2016-07-17|Christian Saide|Added coveralls badges
+479e2ef38854521c71b6ce96c525563a05b7bda8|2016-07-17|Christian Saide|Removed race
+8555d811b1b0d4090d34fc7a7404475969330011|2016-07-17|Christian Saide|Perms fix and golint fix
+d09bfac23dda247b5e18d88f7570c15308ea6102|2016-07-17|Christian Saide|Added coverage
+3ca1949e3e9edb30a9b9bb8a70c60c517feb9323|2016-07-17|Christian Saide|Removed fgt
+d9b8b607786ad4e81b3d8fed3f68e81fe5c4c3a5|2016-07-17|Christian Saide|Adding gofmt/golint/govet and adding race checking to the tester
+d27c6303037a94f44da94b85c0918747b44d47b7|2016-07-17|Christian Saide|Added a period to the README
+f2444ea2687c06b3db70ecd94774045e03d24ead|2016-07-18|Christian Saide|Merge pull request #20 from Supernomad/master
+ace0e0d30eec9655088ce2cf4d0dd2bc18cf6382|2016-07-18|Christian Saide|Merge pull request #18 from Supernomad/consul-redis-datastores
+8d783d33bf2bba78eb0ee15da31b65ab5c618568|2016-07-17|Christian Saide|Updated some config names and added an etcd container to the test bench. (#17)
+3eeebb1b450cb82c63ae3bda63114ae7ec99e49f|2016-07-17|Christian Saide|Fixed a typo in the readme
+c0949c4eaf17fd34b54c9d9c8b4f73971255b77f|2016-07-17|Christian Saide|fixed a bug related to using consul as the backend.
+7531dae261ca6afd47c284173deb6fe562346090|2016-07-17|Christian Saide|Fixed build
+ebe2e06271af28f3487bc4c0a49ba747cf02d5e2|2016-07-17|Christian Saide|Moved to docker/libkv as the backend driver, which means redis support is out for the time being.
+6783245174d474c35a38a2ce48dbaaabbf15475c|2016-07-17|Christian Saide|Added skelletons for redis an consul
+7025a3d6c17648944d11b5cb1a0f732c00ebe832|2016-07-07|Christian Saide|Merge pull request #15 from Supernomad/ecdsa
+f8a210386d5021761c09c44d89ec20f6ff72af3a|2016-07-06|Christian Saide|Fixed failing tests
+9acb309296683a8d1940b62bc6e6096e2fb97fb9|2016-07-06|Christian Saide|Missed change
+00ba780d0c59b6e9045aa74f9c9c3e21ecf81f73|2016-07-06|Christian Saide|Missed change
+a7d3b56389076d6f04ae5a36444b1750dddda82c|2016-07-06|Christian Saide|Some missed code and perms fix
+029ba573fbe421f1460dd59b623632c659e43cfa|2016-07-06|Christian Saide|Added a good amount of changes to a few things, the datastore layer is now fully pluggable, and ecdsa has been removed as a requirement for the time being.
+18337a4ad3132643dd40402039f550ffb0bf21ed|2016-07-02|Christian Saide|Trying some performance improvements, which forced me to change the packet structure to be an appended footer.
+c05cd473543fe615b20a5a73f532e1fbbe1aacbc|2016-06-30|Christian Saide|Added a sign benchmark and fixed a bug in the main script
+56a08f5bf6eb624e6d5792457e3f707983b55ae9|2016-06-28|Christian Saide|First pass at implementing ECDSA, the system is in working order however performance has taken a very hard hit. Going to need to spend some time fixing that up
+8ed0a05899033446d0e2c9a1b5975ab06ae5184f|2016-06-27|Christian Saide|Performance tuning and Docker setup
+800cb4bcf1a8e1d779c927a43a9e7229536b3c1e|2016-06-25|Christian Saide|Readme (#6)
+3fd94c50a40149704380223fcd6c00f64d36b38a|2016-06-24|Christian Saide|Adding a missed change
+9b119e30eab6ea6ef1f840029650807ae7dac197|2016-06-24|Christian Saide|Adding a missed change
+0d363349b79911df10ad15ba4223607772d6f3aa|2016-06-24|Christian Saide|Changed how networks are managed on the TUN device
+1b6662b9827c91b16d5ecdc2a7260980dcf09df6|2016-06-23|Christian Saide|added build badges
+cb03824e5d988cdbf8db076c9b9d77b5d7dca80e|2016-06-23|Christian Saide|Initial `.travis.yml` file (#4)
+ac63fa52fa1b69f70c207c92f2558375e1d0d9ee|2016-06-22|Christian Saide|Backing out test code
+5f9757994c9a71447126bc2d39056a408581fac3|2016-06-22|Christian Saide|Small tweaks here and there.
+1232736134609152e37541d9fdec886c785e5552|2016-06-14|Christian Saide|Major changes around how cryptography is handled
+d5045db6e19dbe06018ea65ce415d2d2b2375a71|2016-06-11|Christian Saide|Major work toward a more stable system
+ca810b99d1ee37dcedc87ef0f368b1d253fb953f|2016-06-08|Christian Saide|Missed minor change to have gcm include the senders public key in the verification process
+9e4b82f3dfee18dec1598ce0673855fd51832fb8|2016-06-08|Christian Saide|Code cleanup left over from refactor.
+4a29ad2761fe0cfd48188036d38e09e757191678|2016-06-08|Christian Saide|Major updates to strengthen and stabalize the app. benchmarks looking very good.
+17538c6aadf3700580a2183d04a56ed8360dc174|2016-05-31|Christian Saide|Added a sleep to the watch error handler to prevent the go routine from just spinning.
+be0c0051011721f6f89db442fb323b39b130f467|2016-05-31|Christian Saide|Added first pass of having etcd re-registration. Method is simply check for existance and refresh or set the key in question.
+efe12297e75a7ab2ff492aa5f44f5b271bdad386|2016-05-31|Christian Saide|Perms fix
+aa7165d375537a83ada0b9f3ff890c009a373bf7|2016-05-31|Christian Saide|Initial working code commit
+f51e403d953aac521ca4422ac04f819c12e2d8e8|2016-05-31|Christian Saide|Initial commit

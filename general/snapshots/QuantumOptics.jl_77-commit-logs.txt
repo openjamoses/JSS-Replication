@@ -1,0 +1,665 @@
+f865576764329b5560225e00a90470b49c8b035a|2020-08-25|David Plankensteiner|Setup CompatHelper [skip ci]
+a5cd8b0ed6b98b3255ab724e47491d025c6db7c2|2020-08-20|David Plankensteiner|Update Project.toml
+d720f3bf782bbd342d13ef6018943491b4ce00a1|2020-08-20|alastair-marshall|Schroedinger equation for unitary propagator (#275)
+2bd751f369e615c076318ff0b978da26ce51923a|2020-08-04|David Plankensteiner|Fix equality test on 1.5
+6a90f3a68545fe973059382396e4a9f276e9a6ce|2020-06-15|David Plankensteiner|Update Project.toml
+6d94d1fbcaee4071ceb60fb00f3d1d9baa3035f0|2020-06-15|Filippo Vicentini|Relax some Constraints.. (#271)
+ac0d2fd977e42bcc0992a657f36883916375dcf8|2020-05-15|David Plankensteiner|Implement generic operator type (#265)
+e5188a1f9fae10c7d38036f719780783403ed7ad|2020-04-28|David Plankensteiner|Update Project.toml
+9f5343fe95413c2ca970e19377f1ef923d9936e8|2020-04-27|sd109|Small bug fix
+8f255b416170d5a6608ef422b11235c7f0277d02|2020-04-22|David Plankensteiner|Update Project.toml
+cf92cea0ae8f71cc65d3e386277949884089014b|2020-04-22|sd109|Improved-BR-tensor (#266)
+9aa3ff8f65651b2fb77410e0c1100eb0eea5726f|2020-04-14|David Plankensteiner|Make saveat kwarg
+9933083d98c6d646ce386eef3574aae63ccc10d1|2020-02-11|David Plankensteiner|Update Project.toml
+b43056d1b38d65aad3796d3da75fe73cb7b1603d|2020-02-08|Julia TagBot|Install TagBot as a GitHub Action
+194bff1780f8456f76d14a7d328f2e96e165cdfa|2019-11-26|sd109|Type-stable bloch_redfield_tensor (#262)
+a3b24fae7a5110a5e0472dfd45d7c4e26139100f|2019-10-07|David Plankensteiner|Update Project.toml
+525f058cb5fcb59832ded097d9ee57e29bf85151|2019-10-07|David Plankensteiner|Remove QuantumOpticsBase functionality (#259)
+2736cc817ff73ccd130eb790d394210c2b825818|2019-10-03|David Plankensteiner|Update Project.toml
+f510feff5e26308abcd5d00ddd78d3e9ce4d4184|2019-09-25|David Plankensteiner|MCWF jump times and indices (#257)
+b9aa28ddc06d795f09d358f4b312677a09ef6f7e|2019-09-23|David Plankensteiner|Semiclassical MCWF (#255)
+e5eda509e42461c72f9c5dbaf9c54178c98ee36b|2019-09-20|Kristoffer Carlsson|use ARPACKException from Arpack.jl
+75981b7be340c268f2b57e25983b5bc88485face|2019-09-17|David Plankensteiner|Make bases immutable
+7becb15944903af4950d81faa77126c25eaf2af3|2019-09-12|David Plankensteiner|Restrict broadcasting of functions on states and operators
+1fb52009e7ca2cb258f69480bd47aae09e896237|2019-09-10|David Plankensteiner|Update Project.toml
+956d869ef03ab155337e2f9fa9b970eb639f87db|2019-09-09|wolfgang-n|Make entropy_vn type-stable
+d0c0e63ab3c0a437612d93620d7ed92fad1ba4d4|2019-09-09|David Plankensteiner|Patch bug in mcwf_dynamic
+663da8a33c562c22fe8deb4e097c68acc7c90903|2019-09-02|David Plankensteiner|Improve in-place multiplication for lazy types
+e386a86697354818a67985f9237a32dbb917960d|2019-08-09|David Plankensteiner|Move windows tests to travis
+c7b18557492c9076c76830955d893977429398ae|2019-07-27|alexander papageorge|Abstractions for quantum information on qubits (#251)
+b46911d2072d9478dcaf47637bc9bda8e4a76311|2019-06-02|David Plankensteiner|Update Project.toml
+8be343a46c4c4ae6df40b7d9fd6c3dfbe4a1c681|2019-05-31|David Plankensteiner|Switch to Project.toml
+cbe241a5c365ef0b813271696a8de99f880c817d|2019-05-31|David Plankensteiner|Update README.md
+4c367c4ff3b45d118304753a5f38042cbba213ab|2019-05-31|sd109|Add Bloch-Redfield master equation (#250)
+c1aaddec6a141ae3a70fe7d908b36dc8c8534adb|2019-05-29|David Plankensteiner|Fix default choice of noise for stochastics
+bbe6777e2d9a6720822d1df57ce85bc37ca1ef39|2019-03-25|alexander papageorge|remove intersect and union from sortedindices, as there are appropriate methods in Base
+fff4db5f51b3fc23ce87d3f552cece559f793643|2019-03-26|alexander papageorge|before embedding check that the destination basis matches the operator basis (#246)
+40d0231db3074f323116efd2b3c8b33728b6827e|2019-03-25|David Plankensteiner|Fix bug in MCWF display_afterevent
+8b370d9ee15b02c3cffdd132f5d57faf62dbc727|2019-03-20|alexander papageorge|created coherentstate! for inplace operations
+07db21f27a7906ba9fd2d4b39639140067973714|2019-03-04|David Plankensteiner|Patch failing tests
+1ba87cf27a7ae5f55e37d38c1c29dcf52171b3f1|2019-02-20|wolfgang-n|Fix documentation of gaussianstate
+7a584b53743252793842f1a1bb3dc5c5c7d5b1ff|2019-02-14|David Plankensteiner|Update tests to newer Julia versions
+1bf9900203271e32eb0073f70bf9c54a2f1114dd|2019-02-14|wolfgang-n|Fix @warn and implement adjoint(StateVector)
+4508462e64e8a323a3bb54bcba9d23f82db03f76|2019-01-18|David Plankensteiner|Fix typo in macro export
+151ef18ee29257091e8a6d3c61536d4695e40870|2019-01-14|david-pl|Some dots for states and operators Squashed commit of the following:
+6f92d1d0d3f9ca3672a92746d7ba46a2597789f1|2018-12-10|David Plankensteiner|Mention gitter in readme text
+f910a11ca7c2df6d85d605e9f829f1db3663052b|2018-11-14|David Plankensteiner|Less strict typing for liouvillian
+2867ec22d2333468022c3a65b3a24f560215e3be|2018-11-14|David Plankensteiner|Fix silly copy-paste error
+9c7e40d4aea7dac9ec6a5d07213d85d0f0fc910f|2018-11-13|David Plankensteiner|Add some missing basis checks
+088d144e8da844e6086f9a8cf7d2f16963ac6813|2018-11-12|David Plankensteiner|Proper recasting in mcwf
+793b276924a9770a585f42aaffd81ea71fd08a5f|2018-11-07|David Plankensteiner|Implement transpose forsparse/dense operators
+806dbb48363ffa0c91c7e195696debb7545e58ab|2018-11-02|David Plankensteiner|Add basis checks to FFT in-place multiplication
+7350e46f8e97f9d320d703ed72330e1c39d1ff4a|2018-11-02|Unknown|Added parameter to FFToperators so the gemv! is type stable
+12159f322b8981e5def1b7d4eae7b9837467ba5d|2018-10-25|David Plankensteiner|Implement parametric types (#238)
+951786f1c01e2010117ba480640d4dfe140b7802|2018-10-04|David Plankensteiner|Enable v1.0 testing
+0f9c054c77a4352314b76b4489e87cfb98c9df70|2018-10-04|goropikari|fix typo
+07a2d36c25dcb5b9c06ab185fbf4676cb8fc53df|2018-09-14|David Nadlinger|Define ' on Operator as dagger (#235)
+4f7e1a82e575fd80c622312d67858dc81c03f3a1|2018-08-17|david-pl|Implement macros to skip checks
+c2ad518ca688d7d2cbe9f3d317da626619ea8aaa|2018-08-14|david-pl|v0.7 compatibility
+e897c160cbdbf477f7454b0db056726892e5ecfd|2018-08-03|David Plankensteiner|Bump REQUIRE to v0.7-beta2 (#230)
+2f38754af73fa6a67d114e9d1aae7d6f6a4ad04e|2018-07-27|david-pl|Fix steady eig docstring formatting
+7b0307f68a91afb752a2927258b858f31efbf9ea|2018-07-27|David Plankensteiner|Change steady state sorting (#231)
+0bfa1805ea2cf7110d2d4cb6fbffc7c124e110df|2018-07-27|david-pl|Fix manybody deprecated syntax
+2c4edc1aca52b2a54b253567f209ecdc9f8c718e|2018-07-25|goropikari|fix ishermitian for dense and sparse operator
+e2a407fc086c821af3140a496d37a73faa9c0f6b|2018-07-24|Karol|Add spherical harmonics (#226)
+79b4821b4dde50de759d43f60937411d2abe1c11|2018-07-23|goropikari|fix typo in tracedistance docstring
+9ed605ac7077808806ed9a65b6f8f16f27470bc8|2018-07-18|vtorggler|Improve and implement new steady state eig methods (#225)
+e64c74386b216dcd3ed20069e3bd884678042b3e|2018-07-17|karolpezet|Add SU(2) phase space tools (#223)
+272915dd61ec0463c6cbc4b984c3ccf8f7a8ec43|2018-07-10|David Plankensteiner|Fix typo in Carmichael docstring
+946c39e75520fd6b861f54599e2ef53a4db2c0a2|2018-07-09|David Plankensteiner|Add info message to slow sparse diagonalization
+7f4f64da7e00c6d768e55089b532520338cecbb0|2018-07-09|David Plankensteiner|Change stochastic master and implement homodyne CM scheme
+9e08114d8dea1be24d228341e63c6b465c7f7ac2|2018-07-09|karolpezet|Implement coherent spin states (#222)
+b68dd90dd7b2cc09ca6dfbb784bccc56053d647e|2018-07-05|David Plankensteiner|Remove unnecessary term from stochastic master
+79e4f3d37ad6c6cb36e884d9069484ebcd7c7084|2018-07-04|Valentin Torggler|Implemented faster expect function for Kets with DenseOperators and SparseOperators. Should be much faster, at least for SparseOperators.
+b95c8a5cbc47706cdde97f5fe599185d80e4e1a9|2018-07-03|David Plankensteiner|Implement sparse superoperator - sparse multiplication
+0f037a44deeab5200873033ce6d6b1735c916a3e|2018-06-27|david-pl|Better recasting for master
+4bbc28b032c20b8d004e85580a4d08f1e8b33163|2018-06-27|david-pl|Fix typo in docstring
+13e797bcfc066e3585ba9d9c6f0e7eec26ba23e0|2018-06-25|david-pl|Update to DiffEq with better callbacks for MCWF
+4b4df3f9e8d5f05131940b7baca0e28a4a4ce254|2018-06-21|david-pl|Add option to normalize stochastic schroedinger
+8999bfdc1c2e365f1813a6ab0518f87847a84697|2018-05-29|david-pl|Change sparse diagonalization and implement conj
+44f63268ceede3f14ff287c15a7e526ee03e911b|2018-05-28|david-pl|Fix bug for classical nondiagonal noise
+3509e66075f7daa4bfc729169435ca7072406787|2018-05-28|david-pl|Fix semiclassical stochastics
+76dcd60f48aba8e59df28c243f17479883532a8c|2018-05-25|wolfgang-n|Implement some predefined states (#215)
+331a6599d4a84fcd28cd1dbd92adad48f1a908b7|2018-05-16|david-pl|Update entropy_vn and REQUIRE
+aa51d070190fe023c9dfc11bed037af55a105803|2018-05-16|david-pl|Fix rounding tolerance bug for entropy_vn
+b5714526431d0e63d20602ab4489d0102c67643d|2018-05-09|goropikari|Improve standard order printing (#214)
+4fec08f3e2d45c3c0aede170d4da86a033e3c888|2018-04-23|goropikari|remove unnecessary rank calculation (#213)
+b12ddd4623e3b52cbcc7933d276c904ade99ee38|2018-04-23|goropikari|fix typo (#212)
+3df13c605cd5b1fc29f581cf67a9087730f8135b|2018-04-10|David Plankensteiner|Implement potentialoperator for composite bases
+395f7077528d36bded0d5ef0652de19b5a9263db|2018-04-10|mattm1|Add standard-order tensor REPL output (#207)
+b37116f4ad4886247827d707be6ae67e9f226187|2018-04-10|David Plankensteiner|Update README.md
+7c7700bef1e7e4c3bdfebb23d363b02af95bec4f|2018-04-08|David Plankensteiner|Update to adaptive stochastic algortihms
+16b59b5cd549db29c835f0bf34afcd664aaffb30|2018-04-04|David Plankensteiner|Improve stochastic dynamic functions (#211)
+0c26f16ac36bef2f06addc4b56d19f2d86b12f2e|2018-03-30|David Plankensteiner|Change default implementation of stochastic master to nonlinear form (#210)
+466fa8656a8f267782b0fb4aa023d0e743ca790d|2018-03-28|David Plankensteiner|Update README.md
+efe570cd2ef6cb9a64c5fc501b0c0d1a381122f4|2018-03-20|David Plankensteiner|Fix bug in MCWF that prevented saving before/after jumps (#208)
+b7fbf0345e3185c077dfe5ab37107a913cd4351b|2018-03-01|David Plankensteiner|Reduce memory consumption of particle tests
+d8e9f3b15e3a18e02da028e326fb63634b28aeb9|2018-02-26|David Plankensteiner|Split tests to avoid timeout (#206)
+109b8766fc96f506544ddc6c93e327f0af3732b0|2018-02-23|David Plankensteiner|Fix some docstring typos
+be3cf9413d656ebfef79ce97892aa974a8aac676|2018-02-23|David Plankensteiner|Change syntax of stochastic.master (#205)
+7e3406696caad94c9a0bfc367ab9e8b083ac819e|2018-02-22|David Plankensteiner|Stochastic Schrödinger, Master and semi-classical equations (#204)
+35c62ff145f8b6b95b95fd3e44e622d4d0576e33|2018-02-09|David Plankensteiner|Steadystate rates + coverage (#203)
+2fb1c7a5b57329a95160715814ef6ea397728f7e|2018-02-09|David Plankensteiner|Drop ode_dopri
+3b281d289bb65797ace767c8c166f4c1e98c08d7|2018-02-01|David Plankensteiner|Set calck=true as default
+1370865abf67c66c1bbc9ea9613405629fd96796|2018-01-29|David Plankensteiner|Implement diagonaljumps for lazy operators
+938a1506aa5f827cda04b9cd7bb0bf092e378a77|2018-01-27|femtocleaner[bot]|Fix deprecations
+1702c8c5fde349bca6e9676247ef73e88684bbb1|2018-01-29|David Plankensteiner|Add docstring to mcwf_nh_dynamic
+879ea64d0d90ebaae0e8ebb691b56ca87ba6b33a|2018-01-28|David Plankensteiner|Update to new DiffEq syntax (#197)
+d1e49cfca45b8dfced89462e51a7e87df921f8ef|2018-01-26|David Plankensteiner|Implement MCWF dynamic (#194)
+e144221d13f18b8831b034edb7367f01f23f046e|2018-01-26|David Plankensteiner|Fix bug in steady-state and rename eps to tol everywhere (#193)
+2bb124efd261f7c548b23549ecd9e9009250a892|2018-01-23|David Plankensteiner|Generalization of FFTOperator to composite bases (#192)
+ff4af53090818da8ea74be7a8573e5af68b655cc|2018-01-12|Christopher Rackauckas|Change internals to Diffeq (#191)
+74420ffb215e195ecea0f4d5028d8830a7bfcbb8|2018-01-04|david-pl|Add Gitter badge (#187)
+56a6306017247a334322a0ed512136a6d2e61ae4|2018-01-04|David Plankensteiner|Cover missed lines in lazytensor
+095beae112764185471c4016dc656ceeee5fa53d|2018-01-03|David Plankensteiner|Fix bug causing time evolution to fail when using lazytensor
+87530b38c9bdbc799a3abe9dc798796c96c2c97f|2018-01-03|David Plankensteiner|Fix bug in diagonaloperator so it accepts composite bases
+c5efb1435ac6d7b53eaea925bd5ccffb5b9e4fbf|2018-01-03|david-pl|Implement ptranspose and related entanglement measures (#180)
+3f412ff47d873d82995aa5bbf1f4f9b8ad81fac9|2018-01-03|George Datseris|Equate ⊗ with `tensor` (#185)
+b2f376bbd65333425b189f39b79cabc314a1e018|2017-12-18|Philipp Aumann|Fix typo in docstrings for schroedinger_dynamics
+92eb206daa8f86ac231218aa4723cc867d4d76d8|2017-12-12|david-pl|Change interface of mcwf to match that of master (#174)
+9ab5d4b5dfb6cc40fb02d235e4250f0c9a957f9c|2017-11-07|david-pl|Remove part of definition of spectrum in docstrings
+a60bcb36b66dac88112449ac7b3b775279690378|2017-10-17|Sebastian Kraemer|New implementation of tracenorm and tracedistance.
+193a4276ddec80207c2d834acb2c2d773b5c9b59|2017-10-10|Sebastian Kraemer|Fix definition of tracenorm.
+ca191f5a1ef0d08588ec16cd44c28bf161a836c0|2017-07-24|Sebastian Kraemer|Improve ptrace.
+a9440f672e4702cfe99918a294a560915722b7bd|2017-07-20|Sebastian Kraemer|Define integer exponentiation of bases.
+b98931dae8416a51bc9b0facb6d30efa74801229|2017-06-25|Sebastian Kraemer|Clean up source code.
+5ba0cbe8d48c12ef40f1b253e5b27cdec37c96e3|2017-07-20|david-pl|Check that tspan in correlation2spectrum is equidistant.
+e80c03227ff9acbef5a08d68f237ab88fd666612|2017-06-20|Sebastian Kraemer|Update README.
+575cc6c2ced117d7d4c536863150b6abaf37b196|2017-06-13|Sebastian Kraemer|Fix bug in copy() for state vectors.
+69af47c4ef659c06a072f1465f09a6956d6ec410|2017-06-12|Sebastian Kraemer|Add Compat to require file.
+c83a9df026f716783659ffe919b9fc8f43c85f21|2017-05-22|Sebastian Kraemer|Improve superoperators.
+3950d4e34b2a8b518fcfa98e82c450377f31a2c4|2017-06-09|Sebastian Kraemer|Remove ugly ptrace hack.
+330e277b3bc5ae7568b3bbc1317c8015ac7ac140|2017-06-07|Sebastian Kraemer|Test 0.6 and nightly on travis and appveyor.
+d58b9e5e7dd3a89b3abe920bf186d94543104bb8|2017-06-07|Sebastian Kraemer|Remove timeevolution_simple and ODE dependency.
+4c685b1cca4205834a323d60dea8057363119486|2017-06-07|Sebastian Kraemer|Move profiling code into separate branch.
+a6fe18663969434920a306559b5382737c9af5e9|2017-06-06|Sebastian Kraemer|Make printing identical for julia 0.5 and 0.6.
+42f8fc5eeede7aa50347538ad41e08dc08c2fb1a|2017-06-06|Sebastian Kraemer|Better conversion to complex vector in diagonaloperator().
+52c64dbe6f4006f520d71b7897669458d9f4020c|2017-06-06|Sebastian Kraemer|Use compat for num() and den() renaming.
+0d7a18a4f99d39b68e7466957ba1ee3e3fba68a3|2017-06-06|Sebastian Kraemer|Replace typealias statements with const assignments.
+9a013048cf3bcf5c75c99d715436db3f916abdd9|2017-06-06|Sebastian Kraemer|Use dot syntax where necessary for julia 0.6.
+9eba2f93d8c14196dd49aa67b41e93b33e82fdee|2017-06-06|Sebastian Kraemer|Use Compat for abstract types.
+0dbc19ee8413990a0f56426f2c022cc6b1b3d263|2017-06-06|Sebastian Kraemer|Better handling of nans in ode dopri.
+ceadff30f9ac7d274091395310761615bf848efa|2017-06-06|Sebastian Kraemer|Rename "Gamma" argument in timeevolution to "rates".
+cf3e26f4c3cbd4bae97f5b3a449741478ab9b912|2017-06-06|Sebastian Kraemer|Replace constructor of FFTOperator by transform() function.
+2e11724900659b2a4c3b20952d37cf6fb4ba2ae9|2017-06-02|David Plankensteiner|Add list of arguments to correlation2spectrum doc string
+3cdae91eecf4b2ab8bc35a2c4771bff7c7369af9|2017-06-01|Sebastian Kraemer|More agressive dispatch in master() to master_nh().
+3efaa487879761645e414dd5d95c2d43cd7916e8|2017-05-29|Sebastian Krämer|Redesign calculation of eigenstates. (#145)
+f73f5eba0be0dc848546775922064bb2c7d4d1e1|2017-05-29|Sebastian Krämer|Semiclassical timeevolution (#144)
+fe5ef4569d10e3813fcd39278ce8232d7431a12d|2017-05-24|Sebastian Kraemer|Clean up master.jl
+517bb176b3f76e676dde2ff94472f7e2e95d5422|2017-05-24|Sebastian Kraemer|Optionally allow callback function to return gamma in master_dynamic.
+fa5bbed423a90e7e5d890aa0ff45a81c46844cca|2017-05-24|Sebastian Kraemer|Remove tmp argument from master functions.
+0cf9383f19183828002d2c61469398d26a56f62c|2017-05-24|Sebastian Kraemer|Clean up dmaster functions.
+9d419d0fc2a224a0e51c496f6b775c23357deef2|2017-05-24|Sebastian Kraemer|Improve handling of rates in master time evolution.
+a12a949308404e402969811773d67573acac67b9|2017-05-24|Sebastian Kraemer|scalars in gemm! functions can be of arbitrary type.
+40c59dbf597eb203b2c8930a0550433fc3b474fa|2017-05-24|Sebastian Kraemer|Clean up schroedinger.jl
+28ea98878dc07cb3f486581808599cdce72780bd|2017-05-23|Sebastian Kraemer|Extract common functionality from master and schroedinger.
+cc47e7d43680fd2ba9bee9275ac8d54c844ccbbc|2017-05-23|Sebastian Kraemer|Small improvements to ODE solver.
+09091ce49b372c58b06266df587263c9991d0c0d|2017-05-22|Sebastian Kraemer|Implement copy for all quantum objects.
+b2c4e3f349b7ef3db1d53a99ee932178dea20ca4|2017-05-22|Sebastian Kraemer|Add type asserts to length and samebases functions.
+d35685ffb3283ab4eb6ea44f3864281f0577222c|2017-05-22|Sebastian Kraemer|Completely specify type of sparse matrix.
+ad5ca35e42694b307520336375ed7e365ab8d948|2017-05-22|Tony Kelman|use version number instead of release in .travis.yml
+5edc1383969d23dd8f5383f82b0d96859080e214|2017-05-19|Sebastian Kraemer|length() function for states, operators and superoperators.
+3dfd5e4ca89e3a7d7a998004292d839d2d09f5f7|2017-05-19|Sebastian Kraemer|tensor(x) now only accepts a basis, state or operator.
+ccea45e03cdbfc971216b82e328189c9b879faa3|2017-05-18|Sebastian Kraemer|Faster implementation of qfunc for kets.
+67c5d9ffc7806cd16d6d3d024d8e2849fa9bae85|2017-05-18|Sebastian Kraemer|Clean up interface of qfunc.
+5b4dcfe54608fe5bfe6d2f46178f7a0a250a829d|2017-05-18|Sebastian Kraemer|Move qfunc to phasespace module.
+9c0322c60052e9290498f75315937ff9a2a78bd1|2017-05-18|Sebastian Kraemer|New implementation of the wigner function.
+8464e57b3021ba32c2c0227f66060cb9612b9e13|2017-05-17|Elliot Saba|Update CI URLs to point to new caching infrastructure (#135)
+eccb3765934ebbf1e1b5df52ea2e95ead0dd773b|2017-05-15|Sebastian Kraemer|Implement transformation operator between fock and position basis.
+5f1e56f5dcca52ade49b19b855a52e9a72b05db6|2017-05-15|Sebastian Kraemer|Implement polynomials module.
+c20a78217c8dfcda6689e536eba00df050ff4094|2017-05-15|Sebastian Kraemer|Change gaussianstate by a phase factor exp(i*x0*p0/2).
+1fc393799b03845d01f300915c81f359f40f05fb|2017-05-12|Sebastian Krämer|Switchindices (#132)
+39523a8bea304ede5314dd2177aa99c302e7f816|2017-05-09|Sebastian Kraemer|Improve error messages and testing in bases.jl
+737d6d06ac3834b13e840b17abd18a6a40f718b3|2017-05-09|Sebastian Krämer|Wigner function (#130)
+b89e216ec61575541c2d67a3c1b0278813e32511|2017-05-09|Sebastian Krämer|Fix link to logo in README.
+218debe33dc83a5996ef64caa4afb2674c5fcf17|2017-04-20|Sebastian Kraemer|Use dot syntax (broadcasting) where possible.
+c82320e46024fff732ba72e6414d0b1014851c00|2017-05-03|Sebastian Kraemer|More convenient arithmetic of sparse and dense operators.
+0075d98f4fdbbc4e8dcd0a8ac4ab4968d4efff4d|2017-05-03|Sebastian Kraemer|Change README from restructured text to markdown.
+15b31e63ca7cd408d9c668028fed41f3495b7eaf|2017-05-03|Sebastian Kraemer|Update README.
+cc3c1acc52089b91a3e04c06f3ffc022cdfd1371|2017-05-03|Sebastian Kraemer|Same interface for variance and expect.
+f97a14615f88fd219e0e1e07ce158df38009087e|2017-05-03|Sebastian Kraemer|Remove documentation and examples.
+1687f9fde01ef134474a7539fcdc4dc453c3c178|2017-04-20|Sebastian Kraemer|More fixes and improvements for docstrings.
+0568050b34fb315383e3c0a5d8de5cfca0907eae|2017-04-19|Sebastian Kraemer|Fix a few errors in docstrings.
+24873cef53daf09b67defa0d22fbf6a44b206ebd|2017-04-19|Sebastian Kraemer|Convert docstrings into markdown.
+d3c610542ebf91bc91302aa910015023bb616377|2017-04-18|Sebastian Kraemer|Allow to create a SpinBasis with an integer.
+9f23fdbeaa860bc32b82b081cb14556c7f05d423|2017-04-15|Sebastian Kraemer|Add some missing docstrings.
+ae69320f5c51a10588c1d69f0d256cc7e391e81c|2017-04-04|Sebastian Kraemer|Improvement of documentation.
+5a68f2e4ca34af0b7c9f47ed8f72bb3ed23273fd|2017-04-04|Sebastian Kraemer|More tests for ode_dopri.
+b495ebfaa6a6157dc36db460e7ae31f4cc6edaa2|2017-04-03|Sebastian Kraemer|Improve docstrings.
+1879acbb06ea996f0db6eda29a3707e648e1411f|2017-04-03|Sebastian Kraemer|Documentation improvements.
+a007b7cdd244d47794790a434c0f1300b87f1d00|2017-04-02|Sebastian Kraemer|Implement master_dynamic and master_nh_dynamic.
+2ec7013bd5d84e0a7d9e8efb5add7153be56f067|2017-04-02|Sebastian Kraemer|Rename schroedinger_timedependent to schroedinger_dynamic.
+05b2c535e15bd0af0597363bdce0e3538eb50245|2017-04-02|Sebastian Kraemer|Add more time-evolution tests.
+47bd0fc05738670d1504825f934bb7f82beabb36|2017-04-02|Sebastian Kraemer|Use dm function if possible.
+2322d5e425af24c84b3f75e0fa065f448af2cc3a|2017-04-02|Sebastian Kraemer|Rename operators.
+2c2b4794fd8111a9ccab2c7969f74f634838ba64|2017-04-02|Sebastian Kraemer|Don't use unicode symbol alpha in displace operator.
+13c5b697355892494bba3e8bd6ec263712be138f|2017-04-02|Sebastian Kraemer|Remove lower cutoff for fock bases.
+f0f4a20f308287241dcc1a5c3c8c6ec236699644|2017-03-31|Sebastian Krämer|More tests for displace. (#1)
+ad5e7a2a54bb78f9cf41626cb22a205efd5b7253|2017-03-30|David Plankensteiner|Implement displacement operator
+e1a188df59b206736fd9a52d1a0570808fde2ccf|2017-03-31|Sebastian Krämer|More tests for lazy tensor. (#105)
+8369627f93e850082db4649ae5927081fe43f0ed|2017-03-30|Sebastian Kraemer|Move correlation expansion into a separate package.
+59b12ac75bc332e58a1c3f7557774c87d3f50064|2017-03-30|david-pl|Add function to create density matrix from ket (#103)
+0bb24862525241ccbe6698dfffefea3fe5efd845|2017-03-29|david-pl|Remove out-dated misc files (#102)
+38e9a4aad31e64de32f36550d70af0bddbe3eb9d|2017-03-29|Sebastian Kraemer|Test basis function for states.
+b1819324d217c6568071143d1d147bd54e4090c9|2017-03-29|Sebastian Kraemer|Fix bug in equality check of lazy sums.
+e9aa109e0c3d24b7e87b7e2701f05004cb4a3cf1|2017-03-29|Sebastian Kraemer|Nicer printing for all objects.
+899582bb4c3318c62a2cabc7e325508a63f2d27d|2017-03-29|Sebastian Krämer|Big documentation update
+18da1f38ff8744331045c27db5163c2770bfecab|2017-03-28|David Plankensteiner|Define Base.one as identityoperator
+c1aae885693b294318b058dc9f6aee5a62b75b71|2017-03-28|David Plankensteiner|Define copy as deepcopy for sparse operators
+736510e1af275aecf4fc2822f1606a4ddaee9c4e|2017-03-28|David Plankensteiner|Add error message to clarify one has to use dense operators
+d2bf1210a59d4b1c8a114ae9a87110711a0a1cb1|2017-03-26|Sebastian Kraemer|Export the basis() function.
+a9de079d9254ac35bc911c56419d5a922c89023b|2017-03-24|Sebastian Kraemer|Test equality function for two different basis types.
+273ca61ec46edfc718618694843764d66030b156|2017-03-24|Sebastian Kraemer|Remove nice error messages for gemv!.
+93f6df1641e822b0a72ce75db7358bd831cbed36|2017-03-24|Sebastian Kraemer|Remove norm function for dense operators.
+c96f5120a595bf34296899689a67479b7f7d269f|2017-03-24|Sebastian Kraemer|Test partial trace of a bra state.
+3fbd00fd0d8e69888442d64bb274f872ef360cd2|2017-03-24|David Plankensteiner|Correct untested error in eigs for Hermitians
+abb39d1f4ad5fdbe011f73d5b8c99c8401bc2f92|2017-03-24|Sebastian Kraemer|Add codecov badge.
+1d4efb00f7ec0645504c51935336e8a4113de5bb|2017-03-24|Sebastian Kraemer|Add codecov support to travis.
+9a976903792ba22c1d401c7fc93120fc63b2d951|2017-03-24|Sebastian Kraemer|Remove general p-norm option, always use 2 norm for operators.
+660d084d30d4ce3fa0b45a4ce96066bdbd5fa71a|2017-03-24|Sebastian Kraemer|Implement basis function and further argument check improvements.
+f18aa2321ff99c16ed29773047b66a786a52b0e5|2017-03-24|Sebastian Kraemer|Unify checking for correct bases.
+4d5f14d5315bc863145d8bbb485292f9283bb623|2017-03-24|Sebastian Kraemer|Remove dualbasis concept - only support orthogonal bases.
+a18f66b92059d1c46a43e7d498e642885950fc7e|2017-03-24|David Plankensteiner|Added some comments and converted to .jl
+c7989bb86ffb370046601dd792a0d9bddf3beaa0|2017-03-24|David Plankensteiner|Correct a typo and convert to .jl file
+dcef9307b7cbe731d8f031a296054adce6903000|2017-03-21|Sebastian Kraemer|Re-implement nparticles system as many-body system.
+f81bdc17d3c928b289af18e9fa2c04947da36a9f|2017-03-22|David Plankensteiner|Added some comments to make examples clearer and fixed a typo
+bedc14d18e2fb3fc6b669f3db2e9cf5a15c153d8|2017-03-22|David Plankensteiner|Delete unneeded example
+1e2c4a9a51d0ceda8eca06f59bf173d4c2d00410|2017-03-22|David Plankensteiner|Add show() command at the end of each script
+ac0b0a0e4df9e8f147cfd0b85c76479d34f8f356|2017-03-22|David Plankensteiner|Avoid complex warnings when plotting
+b3d68225c234ac75a57325d882dd6db9e430d5a5|2017-03-22|David Plankensteiner|Remove unnecessary clf()
+0c8b74389ee1ded644c6e89446506451090ac3d2|2017-03-22|david-pl|Convert output of eig and eigs to Kets
+6a70283172fddb388fbf6454e7bd65c5a19f3660|2017-03-20|Sebastian Kraemer|Implement expect(index, op, state) function.
+f201645c2465ea95aa4b92fbd31a4b05e9c4aba6|2017-03-20|Sebastian Kraemer|Check arguments of expect.
+5400e57559a3c7034ef3b95cfd92cd13bfeadc8f|2017-03-21|david-pl|Changed the implementation of spectranalysis using Julia's eig function (#77)
+2c1d2a25c951519e8fcff70ba407d663d9d19372|2017-03-20|Sebastian Kraemer|Implement qfunc for kets.
+378f90c6abb117f97c6a883f040ab7a515288327|2017-03-20|Sebastian Kraemer|Dispatch ptrace(Int, ...) to ptrace([Int], ...) only in bases.jl
+2fbf356731e1f1a72bc07b634945a3886f3c59ea|2017-03-20|Sebastian Kraemer|Improve docstrings in regard to fout function.
+1324c3fdb28b7c396210bf9eddaaad0429db2f2d|2017-03-14|Sebastian Kraemer|Implement variance function.
+917145221c8a2f83e2db3b5db68cb9d5b05d3b67|2017-03-14|Sebastian Kraemer|Add randstate and randoperator.
+14e9316f7b993663bba5bca9d8f0926d2929083c|2017-03-13|Sebastian Kraemer|Fix lazytensor-lezytensor multiplication.
+db3fb4388993c4365d5c05faadd512ff2967d9dc|2017-03-13|Sebastian Kraemer|Add missing tests for lazyproduct.
+2ecbeb80cab387adf44cf4765dfe6b58d8706476|2017-03-13|david-pl|Add missing tests for operators
+990010c43764175cfa3943a45d39ed538014540b|2017-03-13|Sebastian Kraemer|Test if same mcwf seeds lead to identical trajectories.
+4891267ef056f2ca94ecd8a8b310af5edd9c5800|2017-03-11|Sebastian Kraemer|Improve the nparticle implementation.
+484d9583076a30b19ba713038990cc8414a2f795|2017-03-13|david-pl|More tests for sparse operators
+8df761fc88a1f4573621d39bfeff1018eb5854f5|2017-03-10|Sebastian Kraemer|Improve speed of sparse matrix gemm and gemv.
+a45b9749c1b5d771d8f9dd094465db342ce705d2|2017-03-10|David Plankensteiner|Add tests and remove unnecessary errors from source file
+99d06ef65a83ad9d6b9a5a2d1e59ea2d0b35f8f4|2017-03-10|David Plankensteiner|Remove unnecessary error functions
+46e981439258e1dadab2b28bb64953cdca333b6c|2017-03-10|David Plankensteiner|Add test for fout to schroedinger
+7dfd0f3174267a8db65c790c57ab24c751b655f7|2017-03-10|David Plankensteiner|Add test to check rethrow of error occuring in master
+1f4a9b4fcc99bb51947caef8f3571edcfd6c8607|2017-03-10|David Plankensteiner|Fix fout test
+47721196788abb76e492a3d99c3307736852525e|2017-03-10|David Plankensteiner|Add test for fout method
+76ae0ef1d1a0270c290f0eea826ee744dba3c493|2017-03-10|Sebastian Kraemer|Fix particle in harmonic trap example.
+12df4b18a50d4f2507a4bc34972a4ac7fa076c6e|2017-03-10|David Plankensteiner|Add spectrum and particle into barrier example to docs
+9dc413ce62253ee0e54e9d24bd4b3a579e8f1d7d|2017-03-10|David Plankensteiner|Add converted example file
+f4415398e6328d38d2c400496bd3526301b73de4|2017-03-10|David Plankensteiner|Polish spectrum example
+4dd23749a521f818ddc9e482f796b07fc6135547|2017-03-10|david-pl|Avoid complex warning when plotting (#67)
+9e40c61e9eb961bb2c7218bed333d22b0cc9b4e7|2017-03-07|Sebastian Kraemer|Example: particle into barrier.
+1683a6384d64ac2aa96fa22f995a3609e596242a|2017-03-07|Sebastian Kraemer|Improve particles.
+042faad3f8fe54818bcea93bb35c6a76bc217aab|2017-03-10|Sebastian Kraemer|Remove lazy wrapper.
+2abd930292424557312754c09240854bec148585|2017-03-10|Sebastian Kraemer|Improve tests for partial trace of states.
+196cec86a4b6d226d7decac78c5fd90a757b343c|2017-03-10|Sebastian Kraemer|Clean up test for permutating statevectors.
+a996cbc5a459b5711108a3b85b0861a8c4bb2758|2017-03-09|Sebastian Kraemer|Improve state vector artithmetic implementations.
+f7bbeee226865be7840de194775de8b0ecb1e627|2017-03-09|Sebastian Kraemer|Remove unneeded zero and eltype methods for state vectors.
+68390b14644d5687e15f32f99e63d76b132a65fc|2017-03-09|Sebastian Kraemer|Change normalize implementation of statevectors.
+4ce35b2543f4c9e23aa438e4e8b9d3442bb9316e|2017-03-09|Sebastian Kraemer|Replace basis_ket and basis_bra by basisstate.
+fdfff614e8fa0b4c2c944ac5155690a267a27852|2017-03-09|Sebastian Kraemer|Move and improve identityoperator tests.
+260a1b77302327e35555cc2acea1ccd7a3c671f5|2017-03-09|Sebastian Kraemer|Implement normalize! for lazy tensor.
+8a1664ccfdaef1568b1bc22e493408b561f18c2c|2017-03-09|Sebastian Kraemer|Fix gemv implementation of lazy tensor.
+fea5e308a9ed53b90f67f606cfa4624291da069b|2017-03-09|Sebastian Kraemer|Implement *(a, b) for lazy tensor with dense operator.
+97a3d1f43f6b8723203d827a6ba261fdc7fed1c0|2017-03-09|Sebastian Kraemer|Fix gemm implementation of lazy tensor.
+abb2ecef64c1349c291fe7337b6820942f4fbda6|2017-03-09|Sebastian Kraemer|Throw argument error when subtraction is not implemented for operators.
+0903cd4a5501e5d47bcc473083ba7419371dd6d4|2017-03-09|Sebastian Kraemer|Improve normalize! for dense operators.
+66bdfa1004f36686f5e27728c81dfc5b1b1cca7e|2017-03-09|Sebastian Kraemer|Remove test_operators.
+b776ac36da4aee89ac14b474b486684c0ccf9f64|2017-03-09|Sebastian Kraemer|Implement normalize! for lazy sums.
+d5dd02de633bc78ad592aa8726b0d4303e2f4531|2017-03-09|Sebastian Kraemer|Fix bug in trace of lazy sums.
+e4567b097ec74c1ca54cacb779f07a1e1d8bf904|2017-03-09|Sebastian Kraemer|Check if operators have the same bases when adding lazy sums.
+038d60f50081ba17a28c59e014b3035c8a2ea38e|2017-03-09|Sebastian Kraemer|Throw error if lazyoperator is constructed with 0 oeprators.
+aebc565afb339510f51e8241cb87e4ab5763887c|2017-03-09|Sebastian Kraemer|Fix error message for normalize!.
+c7b50465680adfccb58067f1757e756f4c3e624a|2017-03-08|Sebastian Kraemer|Improve tests for operators.
+ad2a493e8ba36660ccd3a5c7fb19f917ae6fb0dc|2017-03-09|david-pl|Rework implementation of two-time correlation functions and spectra
+fc412dcc6206296774f24d8d1113c05eff84c095|2017-03-07|Sebastian Kraemer|Faster calculation of coherent states and qfunc.
+2611d8eb119cbe60f553e26c267b63969c81ecaf|2017-03-06|Sebastian Kraemer|Test exceptions in metrics.jl
+d52d9ebf7ab3e67bad719e9e7d69ae3d2fe1d042|2017-03-06|Sebastian Kraemer|Replace test_approx_eq and test_approx_eq_eps.
+71b226415c287773828f6c662207d110d88870b0|2017-03-06|Sebastian Kraemer|Use "isa(a, b)" instead of "typeof(a) == b".
+302cc9646d6222134f77d4f6afd15977a4c1d8f9|2017-03-06|Sebastian Kraemer|Clean up examples folder.
+52c7688aa4afcb21d18b57a22f1eaf6fbbb58d32|2017-03-06|Sebastian Kraemer|Use builtin isperm function for checks.
+80b68dbcb8791c0884657a33759218196ebe0b15|2017-03-06|Sebastian Kraemer|Faster checking of index vectors.
+578da04618b96b58231a0729fa990849b0590458|2017-03-06|Sebastian Kraemer|Remove io.
+976ab501fa13d20eaa76c5be87e78c91150ebae1|2017-03-03|Sebastian Kraemer|New lazy tensor implementation.
+89029f10400e84c469f8bf861269f548d20d77ab|2017-03-03|Sebastian Kraemer|Fast operations for sorted indices.
+3562f695bb0573571209bd71e3bac26e87a0501c|2017-03-03|david-pl|Add function to calculate diagonal jump operators
+789138ace7757e82ae7827deef8cf13531cc94ee|2017-03-02|Sebastian Kraemer|Speed up correlation expansion test.
+0775ab8d82d45672fbb5bf8a0d46ca6a7f8ec47d|2017-03-01|Sebastian Kraemer|Fix tests.
+580c5d4edca39c9916dd01e468bc0c1e27b3e6eb|2017-02-22|Sebastian Kraemer|Fix bug in masks(N).
+15b3a7b4ced24c170049e4ecaa4629c5c0b6705b|2017-02-22|Sebastian Kraemer|A few changes and notebook.
+1e88e61c36580ebf79cbce9ef9e8955c2c601bf1|2017-02-22|Sebastian Kraemer|Implement correlation expansion.
+b03a6626017f34cebbe35c9c35e16315d280c35f|2017-02-27|Sebastian Kraemer|A few improvements for the documentation.
+8bec5e114d32cbee97cfc77aa92dc057f3ecc4d9|2017-03-01|Sebastian Kraemer|Fast lazytensor-denseoperator multiplication.
+7c5e1a6f6f62f65fc597f0ea82f98b66be6c69cd|2017-02-28|Sebastian Kraemer|Faster calculation of expectation values.
+f1fe878133101b6f60fa441231a74a33a617a25e|2017-02-27|Sebastian Kraemer|Avoid unnecessary type conversion when creating 0 states.
+4178e2803848bf5b2a63159823acedcc5e456f35|2017-02-25|David Plankensteiner|Added brief example calculating two-time correlation
+997952fd10033c7c69424311e4d60027e40d4fee|2017-02-24|David Plankensteiner|Finished work on timeevolution and steadystate docs
+8f60fbd92ab048edffbb3fe52d70bd20c52bd8e8|2017-02-22|David Plankensteiner|Minor changes and continued work on timeevolution docs
+958c93cf818fb30f5e7ab4831fe1f780a8af8311|2017-02-17|David Plankensteiner|Edit Raman example to use fout in master time evolution
+a9f871873f97a4b9b17066af31befd53021f08f1|2017-02-09|David Plankensteiner|Continue work on documentation
+5e4dc2835d39c8d5cd27ee9a66b109d12cda00bf|2017-02-09|David Plankensteiner|Fix missing : in math blocks in doc strings
+08d5823c76d29d543609287d0d726a17f104c481|2017-02-09|David Plankensteiner|Add entanglement example to docs source
+a243adf532a5921ed5ad5a7b665294faadec9ed8|2017-02-09|David Plankensteiner|Changed figsize in raman example
+102acd38bc244f9ad1d113e852015204dfdab37b|2017-02-09|David Plankensteiner|Changed figsize in raman example
+0abb82130ebf3cb3996c8b9aa7f5b7c06d1e8efc|2017-02-09|David Plankensteiner|Restructured beginning of docs
+cadbeb03889f640e81a6d7c7a07bbd07d6db3a50|2017-02-09|David Plankensteiner|Add example for two-qubit entanglement
+2b2ddd24f5f74f3719db46076931cff4c82265b6|2017-02-22|Sebastian Kraemer|Add tracenorm.
+7b23b2930c8a96ef4be6ab19d193be1b54b0c2ef|2017-02-23|Sebastian Kraemer|Rework testing setup.
+b30fabd123febcef05088824b64dad56ce248638|2017-02-24|david-pl|Add function to compute fidelity of two density operators (#43)
+d509a2f6fd98910674a1f5f47dadb6492d9e18aa|2017-02-21|Sebastian Kraemer|Speed up ptrace for dense operators.
+a6c27bd339af3e919712eef2236060b5300474d8|2017-02-21|Sebastian Kraemer|Faster tensor product of bases.
+1b8352cf53a9be8143a11e1713d7cb22c99700eb|2017-02-21|Sebastian Kraemer|More efficient checking of arguments for ptrace and embed.
+ca5fccc9b265bca36c8b2c7039450d4ca557fcb4|2017-02-20|Sebastian Kraemer|Faster creation of CompositeBasis in some cases.
+54d7da5226516777c34d5dcd955e6ece05e8968b|2017-02-20|Sebastian Kraemer|Faster creation of 0 DenseOperator.
+ae49302be23096f93c70da4df9a1317ceacd3183|2017-02-21|david-pl|Simultaneous diagonalization (#37)
+61d02c2f2cc374d3c52da93fd8302dd892b5b8bc|2017-02-10|david-pl|Change links to docs to correct address (#36)
+5a984d10aa46a1e06c6f7ad9a9813481d48544cd|2017-02-09|Sebastian Kraemer|Fix bug in gemv for lazytensors.
+6131b1c3ee8e9fd61978b4ae9086cae948766216|2017-02-08|David Plankensteiner|Add test for entropy_vn
+ba67d9d3cc53de33caf81a86bd65102c32497de1|2017-02-08|David Plankensteiner|Add entropy_vn function to compute Von Neumann entropy
+b6f64476ce8aca037e553173e1d3ac4d32d523d2|2017-02-07|Sebastian Kraemer|Refractor and clean up lazy operators.
+abbb6be52ee5cd0ac0ffaaf3731a7c1e7f59af84|2017-02-02|Sebastian Kraemer|Finish new lazy tensor implementation.
+2f1e463e395172ccbcac67aa273ce73c5227a9f3|2017-01-25|Sebastian Kraemer|Change implementation of LazyTensor.
+5b8f5e24463c985cd4d0e82b56dce8a9f5ce7120|2017-02-08|Sebastian Kraemer|Change build script for documentation.
+0ad8d6a12d1fec7b56e1b434f2ca13ffc315c471|2017-02-08|Sebastian Kraemer|Change version number of documentation to 0.2
+57f5ea50c5562d1a79a31d3c3eb2e3ab688c6f07|2017-02-08|Sebastian Kraemer|Change false filenames in autodocs.
+da7c3ebca3d95153055cf4279e81f72c33ae66a6|2017-02-08|David Plankensteiner|Add the Raman example in notebook form
+5e02c3b6e4e6f09c7f1b4413780f4d34a0f55767|2017-02-07|David Plankensteiner|Converted some notebook examples to .jl files
+8d0c0f99d32e936276dfe69d721351ea5c1aac67|2017-02-07|David Plankensteiner|Add line to convert notebook examples to jl files
+a63b67692a58182c7fa3caad3b7dea6209693517|2017-02-06|David Plankensteiner|Add trace norm to eigenvector function for dense operators
+bbee68df4c7c469d78315f655a74f22d7e78b242|2017-01-31|Sebastian Kraemer|Remove sparse_identity and dense_identity functions.
+ae2eebec93760dc550aab71d18a0ad95e295635d|2017-01-31|Sebastian Kraemer|Improve test files for operators.
+5402da99a733108d0c3a8760a0924b45bbf86fb9|2017-01-31|Sebastian Kraemer|Move dense operator functionality into a separate file.
+461aa59fe2fb1a3f87fd231f85eb924360764849|2017-01-27|Sebastian Kraemer|Improve embed functions.
+c4f7ad38c56cdaa1ad641d1b4d907de1ff6633fa|2017-01-24|Sebastian Kraemer|Implement tensor product for arbitrary amount of arguments.
+d6da44f42ca38efb53bc694dd8889125e8621dab|2017-01-24|Sebastian Kraemer|Implement partial trace for all operators.
+0e722fb5f1d2b7cdb3017314b8f4c538855ebd98|2017-01-17|Sebastian Kraemer|Implement "permutesystems" to change the ordering of subsystems.
+e40c8d23ca6d6156b4dea7f51ccb27e2b762a782|2017-01-17|Sebastian Kraemer|Implement tracedistance for general operators.
+a9df93425d259871e5083bae0db9cd807229be59|2017-01-20|David Plankensteiner|Changed all occurences of "quantumoptics" to "QuantumOptics"
+3d51d63faf15f4adb1e39fe871c46c22ffe7adef|2017-01-20|David Plankensteiner|Add example for Raman transition in three level atom
+cbe2181c332d790b6aedc7e469befb5c5b90f05c|2017-01-20|David Plankensteiner|Add example of V-scheme atom in a cavity
+0016e90dad6b54da4760e97f92d025c092fb8b42|2017-01-18|David Plankensteiner|Add import to set encoding to utf8 to avoid errors
+662a9a0000db109d500662e0e89dfd244bb89d1b|2017-01-13|david-pl|Add diagonaloperator for abritrary basis
+ad4ac759e3e393da24535082ee8587fc9823c6a0|2017-01-11|David Plankensteiner|Add nice error message to steadystate for sparse operators
+660608d9327d01a71b1b42df11eaeca5b5b4fcbd|2017-01-11|david-pl|Fixed typo
+2a868a851e474d0c6add49082e9e2f18b36b58d7|2017-01-11|Sebastian Kraemer|Documentation for n-level basis.
+a51ca848de16991a833718c65356d5bf85a3a79e|2017-01-11|Sebastian Kraemer|Improve n-level implementation.
+769b5b6719a0793af0c1779f63353154ddfff0c8|2017-01-04|Sebastian Kraemer|Change n-level basis to be independent of the level energies.
+9eff04eaa6f95b3f99fc10bd2a422ef443601dea|2016-12-22|Sebastian Kraemer|Start implementation of nlevelsystem.
+014c86b8e1a14d9cace63c875dfaa08799cf3748|2017-01-04|Sebastian Kraemer|Improve documentation on how to use embed function.
+c28b650488c38e1865f0449c2989c1ffb25d2bd0|2017-01-04|Sebastian Kraemer|Add README about how to build the docs.
+669f8d5cafdbd6aede35ea89106632d2507b6977|2017-01-04|Sebastian Kraemer|Change name of the directory where the documentation is built.
+32b6044a514b0a66494fcc7db039337fb25a339f|2016-12-22|Sebastian Kraemer|Fix wrong definition of the julia version in appveyor config.
+5113dc8c528c8e965269cd6f74e839511caa82eb|2016-12-22|David Plankensteiner|Updated julia version in REQUIRE
+acd5e242e5f54c3e3eebb4be6f2d7d2dac7096d4|2016-12-22|David Plankensteiner|Deleted time output when testing.
+05e2636a43eb0ee7ee8678a06fd208ef89342dfd|2016-12-22|David Plankensteiner|Changed Hermitian diagonalization to general one.
+f398261fe6d2c268a046a73c2bcf3be200d0c6ed|2016-12-06|David Plankensteiner|Added test macro to driven cavity mode
+b7673c495803e755a755bb8419ccf313da39048d|2016-12-02|David Plankensteiner|Added driven cavity to steady-state test
+8677b9887c40c182d7932e7a3e3e4e47fbd93ed9|2016-12-01|david-pl|Merge pull request #5 from david-pl/master
+7eaf5fcfd695d5eeda1c50b6e4f46841bfa93ab4|2016-12-01|David Plankensteiner|Fixed the steady-state fix; typo in findim
+c9168cda113d6ab37f3fdf0cf1872f83170ec9c7|2016-11-30|Sebastian Krämer|Merge pull request #4 from david-pl/steady_eigen_fix
+24edb6009a9bae97c801a6fbfee5abce4dd69608|2016-11-30|David Plankensteiner|Fixed steadystate eigen for DenseOperators
+557f4b4947783311a02805c837aa58032e993e9a|2016-11-16|Sebastian Kraemer|Add test for projection operator.
+c035980e217c7ea2263b741228c5eb387380eeb1|2016-11-16|Sebastian Krämer|Merge pull request #3 from klickverbot/projector-fix
+2944a0d1c7ab1d5a5593016b64c814753e32614c|2016-11-16|David Nadlinger|Fix projector() for single ket/bra arguments
+4ebaa7c612afeb08f8efa9b70010138230ae2b6c|2016-11-11|Sebastian Kraemer|Update appveyor config to julia 0.5.
+bad0e6518db938682ffa7d236abf2886fbe08a7b|2016-11-08|Sebastian Kraemer|Fix name changes in profiling and examples.
+dfb74d22673f0343160e584128a4485a5e70e1ad|2016-11-08|Sebastian Kraemer|Fix another 1.im case.
+8c0302f10e3378e1900e9c608816c784c4810e50|2016-11-08|Sebastian Kraemer|Correctly export name changed functions.
+137d0bda57c2c3a6e3558ef4f3922b2d0be195ed|2016-11-08|Sebastian Kraemer|Use the new Base.normalize and Base.normalize! functions.
+5d55e8171a9bd361431325e3b0bf6363f0187453|2016-11-08|Sebastian Kraemer|Rename identity to identityoperator.
+e950e1e06b63f641cc6aad8af9b9d879163dbd7a|2016-11-08|Sebastian Kraemer|Fix usage of Dictionary syntax.
+112bee38d9c8161253a023c224456224be5a6108|2016-11-08|Sebastian Kraemer|Move if else statement into conditional function definition.
+34b617c13ebff383fbe37de86d80958f33ecc3d9|2016-11-08|Sebastian Kraemer|Remove superfluous function. (dims in cumulantexpansion)
+a1f80b2fa52fbc10445fd37ea6e638286543914f|2016-11-08|Sebastian Kraemer|Small fix - creation of imaginary number.
+2023bca43ad6474e037dec1a5689c11fea0e2c57|2016-09-07|Sebastian Kraemer|Update docs to change of timeevolution layout.
+65477c49b7fcc589ccd7dd2a6a5c7142f03c4e8f|2016-08-15|Sebastian Kraemer|Fix line break in docstring.
+1ccd79e1bb8775796703b8d2c407c1c74429e291|2016-04-29|Sebastian Kraemer|Implement schroedinger eq with time dependent Hamiltonian.
+c93d291b2244a74d1a44da410a41446f899aacfe|2016-04-29|Sebastian Kraemer|Split timeevolution into master, schroedinger and mcwf.
+db7f10c56092c32dfafe2373e68ca6761b0ce3f9|2016-04-29|Sebastian Kraemer|Fix: cumulant time evolution used too much memory.
+cf76229796d2958a6be0f378240afa0a3c2abbec|2016-04-29|Sebastian Kraemer|groundstate returned a vector of one state instead of the state.
+d080d7556ed957a1fd6d2aabfb5d24ba98f68c03|2016-04-28|Sebastian Kraemer|Implement time dependent time evolution for cumulant expansion.
+a3ffb99bc30f93abd8c40716bf308b2524b0b02e|2016-04-28|Sebastian Kraemer|Don't use Jdagger*J explicitly in cumulant time evolution.
+305560feaac3b64a9c21154cc1e7feb67e5ff84a|2016-04-28|Sebastian Kraemer|Remove ArrayView dependency.
+f9766739935ab294eacdf8fac1f8564c5547e4d1|2016-04-28|Sebastian Kraemer|Fix a factor two in cumulant time evolution + tests.
+a9a25bcb6df44abdafc185eb7b4e89598d772d9f|2016-04-28|Sebastian Kraemer|Fix bug in dagger operation for LazyTensor.
+48a7cb9ccf432753df400ac1c03815afb45a3f20|2016-04-27|Sebastian Kraemer|Further work on cumulant expansion.
+559f30ad70c1aa337a7016546f918069df466fb5|2016-04-27|Sebastian Kraemer|Fix bugs in lazy operators.
+c5aba87f27b821ba401b8403d6450a740130a3ab|2016-04-27|Sebastian Kraemer|Improve cumulant expansion implementation.
+8c5a48f84fdbee4482b6fdace16ec136458dce63|2016-04-26|Sebastian Kraemer|Improve lazy operators.
+37fde753defb9599764b9e52c84d9aef7e38318d|2016-04-26|Sebastian Kraemer|Fix bug in sparse nparticleoperator functions.
+556d9c91f76c80c07dff91872dd499db8c367bf0|2016-04-26|Sebastian Kraemer|Test if dimensions fir the basis when creating a SparseOperator.
+d6029683cfbeefac907964c3f86473a2a66aa1c2|2016-04-26|Sebastian Kraemer|Implement sparse nparticleoperator functions.
+f88bdd16351230d3250cb14a7f94a798bdf72ae8|2016-04-25|Sebastian Kraemer|Start implementing general cumulant expansion.
+4cf67a9f509a8c178387cf156632f5d348f6d98e|2016-04-25|Sebastian Kraemer|Export correct nparticle functions.
+eaa5749ee02141b7f570d4afde7edbfcf9a7d521|2016-04-25|Sebastian Kraemer|Fix bug in nparticleoperator_1
+32fd6901b63a4a786ac0ba40bc59aa315e59d903|2016-04-01|Sebastian Krämer|Update README.rst
+52409ac2d5bf63232484dc70b9ca0614d09978c4|2016-03-30|Sebastian Kraemer|Change //// into // in latex in docstrings.
+7f7b17075173d04c7ecc274ede37cdf191e44fde|2016-03-29|Sebastian Kraemer|Test 32 bit version on windows again.
+8628bac68c79122665afbc3ff51c07fd3a6cb1d8|2016-03-29|Sebastian Kraemer|Change Int64 to Int.
+b02b6dbfb80a88474b37d2a1ecabe5de080bd5ff|2016-03-28|Sebastian Krämer|Update appveyor.yml
+3590ed9527e638506aa945b8e336132b6435f243|2016-03-28|Sebastian Krämer|Update .travis.yml
+ced6fa62531e8ddefc9ab4866682b95c723698cf|2016-03-28|Sebastian Krämer|Update README.rst
+002fe48437e679a33c8ac66464c6baba6a0b06fd|2016-03-28|Sebastian Kraemer|Add bages in README for travis and appveyor.
+323f50313b63e9d508cf6e92cbe745c565dd65d1|2016-03-28|Sebastian Kraemer|Add travis and appveyor config files.
+770fe97d1b6e3fd7bb070ce61c606536c2eda2f7|2016-03-28|Sebastian Kraemer|Fix bug in particle documentation.
+df7d5ef398d53e01ac78dd473263ee2451b03638|2016-03-24|Sebastian Kraemer|Rename Quantumoptics.jl to QuantumOptics.jl
+4de2cc4cf1dd6dbe2e9d2c66c6d1313becb70b7a|2016-03-23|Sebastian Kraemer|Small change of wording in README.
+00278c8ee8b4ed3a8b39b0672f5e6d59f71912e6|2016-03-23|Sebastian Kraemer|Update README
+121911af9fe2429b003de9963898ac08dc729ab7|2016-03-23|Sebastian Kraemer|Improve documentation.
+20eda321d29070ec298368e413a2b8876150c1af|2016-03-23|Sebastian Kraemer|Rename eigenbasis to eigenstates.
+5f5f1f32c1573a12506696eac6bc5c2171a55bd4|2016-03-23|Sebastian Kraemer|Remove sparse matrix implementation for tracedistance.
+a2a9caaf359d1926d2016504aa617d35f398dd52|2016-03-23|Sebastian Kraemer|Expand documentation for operators.
+f359b2d7721da7134484e5e92ab657cb457e2437|2016-03-23|Sebastian Kraemer|Extend Base.sparse to convert operators to sparse operators.
+ef48dc1263384e0be2a5f794cc3bf2e62de6f40a|2016-03-22|Sebastian Kraemer|Implement expm for DenseOperators.
+7d24d6917cb46eb96f4f4dfca7b517b23808c68a|2016-03-22|Sebastian Kraemer|Fix docstring in supoeroperatros.jl
+ec371a7bbbfeda87d6963c083185794d33dd941a|2016-03-22|Sebastian Kraemer|Adapt MAKEFILE to enable latex builder.
+34a86a2e61a3687e7242b00aa993bca7d081a374|2016-03-21|Sebastian Kraemer|Documentation: Replace autofunction by reference.
+7431ce8d3602dd343ae6d17d9743c7c243b0ea47|2016-03-21|Sebastian Kraemer|Improve documentation (Move most autofunctions to api.rst)
+5633a4d3778086b4bafd51e23de8eea6e95c36eb|2016-03-21|Sebastian Kraemer|Rename an argument in ptrace
+576a03aaea0beca3d334f98dd2bf2b1d2df500d7|2016-03-21|Sebastian Kraemer|Fix some errors in spectralanalysis docstrings.
+003552dee7db6caf1f268aa49218f4346ffdc311|2016-03-20|Sebastian Kraemer|Improve docs.
+d220dc43cf44ea43a35480cb29c25d00342cdd7e|2016-03-20|Sebastian Kraemer|Small fix in README.
+187766c1aa9a11d66e5cc8d481efdc67e3ee0995|2016-03-20|Sebastian Kraemer|Fix link to notebooks in examples.
+f05df61fcb291e7ebfe8c2c3e5c46f8df4a8678a|2016-03-20|Sebastian Kraemer|Implement a more general projector function.
+358b104a71284c4d159d55876e25329de033f2ee|2016-03-20|Sebastian Kraemer|Add another construction for Generic Basis.
+5f87e6b228c62c268cc891e78de6eb5ab8f55ea5|2016-03-20|Sebastian Kraemer|Improve documentation for subspace
+fa0d356689d78ded57233d5fb1139f6130a82866|2016-03-20|Sebastian Kraemer|Fix some docstrings in nparticles.
+ef93f8dd734ec4676d2e28ca0ea22e756e6705de|2016-03-18|Sebastian Kraemer|Add REQUIRE and license file.
+99a52d3a684cacdb6ddf02770aa19588e5d52afd|2016-03-18|Sebastian Kraemer|Docs for nparticles and empty doc for subspace.
+b294a4be046143ac638c002a9095e75ea9707e76|2016-03-18|Sebastian Kraemer|Improve N-particles.
+09fb692992b5350bdf548609fcc44ef17ff3033c|2016-03-18|Sebastian Kraemer|Rename field in SubspaceBasis.
+f69e5b92c739960f64a0c8c7c4f829daad499507|2016-03-18|Sebastian Kraemer|Start implementing NParticle bases.
+5d68416682486a38af86af34c3e38f7221d0e268|2016-03-18|Sebastian Kraemer|Implement a subspace basis.
+e50f0b23dcb84679be0c9c94078dbba6ec6ec19a|2016-03-17|Sebastian Kraemer|Add notebook examples in docs to gitignore.
+92c158906346579597445023ef0d37e60b5f8c94|2016-03-17|Sebastian Kraemer|Script to convert notebooks into rst and add examples to docs.
+970ee435e296ebe7a4032567809bc60ed166f011|2016-03-17|Sebastian Kraemer|Clean up examples.
+fb23621a81f4c58dbea1fb7c96270867e180a91b|2016-03-17|Sebastian Kraemer|Automaticall convert seed in mcwf to UInt.
+ae93dbfc321b288f9c132dbf841f643b1b7a2a60|2016-03-17|Sebastian Kraemer|Move some files into misc directory.
+e38a0dd6799859bc5d9e6c25ab68ed2a11f1d88a|2016-03-17|Sebastian Kraemer|Add README
+e25bcc3c6162fd474372adddf2f54f050f0d075b|2016-03-17|Sebastian Kraemer|Write installation section in docs.
+6c8b842af53f8e184e97a39bffa8ce0d322e3bad|2016-03-17|Sebastian Kraemer|Change Makefile to build docs in julia-quantumoptics-docs.
+4b4fed915f692b30678bfdc53234a9a45c9a5e8a|2016-03-16|Sebastian Kraemer|Rename julia-quantumoptics into Quantumoptics.jl
+911cf52420f3d4eff57dd9a903b1c3db2d91050a|2016-03-16|Sebastian Kraemer|Small fix in introduction.rst.
+f6f40d660e095c7847ddb9f15248df66adc14f24|2016-03-16|Sebastian Kraemer|Add messy benchmark.
+7c9576c804a6610b648465ff9078bfaf103832d1|2016-03-16|Sebastian Kraemer|Improve documentation.
+632d3834ec28e63528a0bef719588e4eaebee8a6|2016-03-16|Sebastian Kraemer|Add jupyter temp files to gitignore.
+fa5ff63adc08ed2ed62c55b37997aefafea03f10|2016-03-16|Sebastian Kraemer|Remove bad notebook example.
+c9d8690c20bf3ef21fc9291f6c30147b2dd0d887|2016-03-16|Sebastian Kraemer|Add notebook example: Single atom laser
+4c2dd95199f88e6b14c2856c81677330c591b75f|2016-03-16|Sebastian Kraemer|Add example: particle in harmonic trap.
+915c315927fb1e5fad9d79b13d72853711e012ee|2016-03-16|Sebastian Kraemer|Functions in particle.jl now accept all real numbers not only Float64.
+338f8079f431a15a18cbbcc9cf9f6db8edd50624|2016-03-16|Sebastian Kraemer|Add notebook with jaynes-cummings example.
+adb62cbb9fcf79bd921784f1a0fe3c851f33d745|2016-03-16|Sebastian Kraemer|Rename module quantumoptics to Quantumoptics
+fc48ce24c8ffb1c6dabcc1e4ab74e39492102b2b|2016-03-16|Sebastian Kraemer|Fix signatures of autodoc directives in documentation.
+84fd2f3bc1a2fe5f018013aeff9a35d1751b872d|2016-03-16|Sebastian Kraemer|Particle operators now return sparse operators.
+ab0061083ed1568721008cff6a466f0d079f461e|2016-03-16|Sebastian Kraemer|Implement -(::SparseOperator)
+98c84066016dab4c0478089dfe3143f706a80685|2016-03-16|Sebastian Kraemer|Spin operators are now sparse by default.
+ffbd984ac8b79b6e1a3f958cf9637414d3b8d2af|2016-03-16|Sebastian Kraemer|Fock operators now return dense operators.
+dd8d9e02f0f35e2ee61eea985a7dc8da7305380d|2016-03-16|Sebastian Kraemer|expm for superoperators only excepts dense super operators.
+b5a46444d9b4e33a46874c0f1ad7737c145a3194|2016-03-16|Sebastian Kraemer|Overload Base.full instead of operators.full for sparse operators.
+2e2bfb42990e642f57709f24ad8ffa3e40f4617e|2016-03-16|Sebastian Kraemer|Implement dense_idenity(::Operator) function.
+4afd1818dd97f066e8df5700e578917b13f7336b|2016-03-16|Sebastian Kraemer|Implement trace distance for sparse matrices.
+fa4b386dcdb677046f05e0bafc6c4ab79e6ed07d|2016-03-16|Sebastian Kraemer|identity now returns a sparse operator.
+6bbe4907ff3291f944219a03d56fae05d9c96ed4|2016-03-16|Sebastian Kraemer|Rename Operator -> DenseOperator and AbstractOperator -> Operator.
+23f963a3c5a3b756e56547d3c570cfb87a5a806e|2016-03-15|Sebastian Kraemer|Improve documentation.
+3eade5a37669c2ef4a7e41775b6226da9407d619|2016-03-15|Sebastian Kraemer|Fix errors in docstrings.
+24a03af4e1cfdbedc39179de62644c3cc50d0669|2016-03-15|Sebastian Kraemer|Improve documentation.
+d0455c3a0fb8fff0aa43e4d929af4e84372e3cb6|2016-03-15|Sebastian Kraemer|Remove unnecessary coherent state function.
+52f28e54b3a4b75003bdabf2695a8feceffa7753|2016-03-15|Sebastian Kraemer|Improve basis section overview, spin and fock.
+a11700e389b9c48e8fc1160017d18149d2e59adc|2016-03-15|Sebastian Kraemer|Fix tex in docstring.
+db6ed2d997563b83350d68f841b13088c8250aa9|2016-03-14|Sebastian Kraemer|Update latex part in conf.py.
+c05cb57a4197852c324987bdaa1923bc31df02e3|2016-03-14|Sebastian Kraemer|Fix typo in docstring.
+505485b71f88848ba1fcdb4e511add4118b4c54f|2016-02-01|Sebastian Kraemer|Implement dualbasis function to support nonorthogonal bases.
+cd83fb9c663dd3cd174bb703ef067cbcf2954f7d|2016-01-29|Sebastian Kraemer|Rename compose to tensor.
+ea8f0e0b278b06e5cb2402d6ca78d4acaebcc319|2016-01-27|Sebastian Kraemer|Improve documentation (mainly better introduction).
+d07d7ca2543f417a880dde088761920a3bed4c41|2016-01-26|Sebastian Kraemer|Improve documentation.
+97866e860fabd2c24ef083005f630127670e9be3|2016-01-26|Sebastian Kraemer|Docstrings for spectralanalysis and correlations.
+4e5edb176d5a39a820a76732965c7c6c61b92ecb|2016-01-26|Sebastian Kraemer|Clean up and improve docstrings of steadystate.jl
+5998ab6afbd8ea57ca7383f48a17276f7fa37557|2016-01-22|Sebastian Kraemer|Fix spelling in timeevolution docstrings.
+e01eef1ffc47571fe0a9369b1d7967e85a9667e6|2016-01-22|Sebastian Kraemer|Improve super operator documentation.
+872d6fea6206df221b4018dea90f7ec32727c28e|2016-01-22|Sebastian Kraemer|Split bases into different bases sections.
+18f16afeb991ff5f1fb9c905edec9dd3ec9cf71c|2016-01-19|Sebastian Kraemer|Add notebook with calculations for particle bases.
+a4b4e27987cd7bacb26f4fb4ea75443e844c7a5b|2016-01-19|Sebastian Kraemer|Improve docstrings.
+50d5304d761a9ab61780a0056c39277f624cf2fb|2016-01-18|Sebastian Kraemer|Improve docs.
+7f5b24d7d48e0f5e4ac1cd80e704eb87da1b9acd|2016-01-18|Sebastian Kraemer|Improve doctrings.
+cef0be4e300de4d09356025fc7d8ed365e619de7|2016-01-14|Sebastian Kraemer|small changes to docstrings.
+5631a303736796b6addfd690cc1d073f1696efb4|2016-01-14|Sebastian Kraemer|Reorganize documentation.
+64ab139bcf898e8ad9a42ecd6f3ccd687b1ed3a6|2015-11-26|Sebastian Kraemer|Update docs.
+8b62f038f154ae6a65a24db5a53786234fe741df|2015-11-26|Sebastian Kraemer|Change order of function definition.
+4fbc0f133b2d7bcd4ba03398566343d841e3f7d9|2015-11-23|Sebastian Kraemer|Fix errors in docstrings.
+b6cadff1e93c6227aee9ff7b6b41304ab2b20ada|2015-11-22|Sebastian Kraemer|Add notebook for comparing ode solvers.
+ab941e564195903fefd0290dad6bdc2e0df78005|2015-11-22|Sebastian Kraemer|Small fixes to ode dopri.
+558f342e4164abac39a68b625dc727ee72126d22|2015-11-22|Sebastian Kraemer|Small fixes to docstrings.
+245db9c9ee4407011a0f71aa0aa55a0e365e6422|2015-11-19|Sebastian Kraemer|Small change in superoperator test.
+d9ae61e59a05c4bc8157a098cece0e7afba67bd5|2015-11-19|Sebastian Kraemer|Add documentation to ode_dopri.
+b38580666f061047f0390b470516176309042706|2015-11-19|Sebastian Kraemer|Don't export normalize functions in operator.jl
+3cb280a3aa2ef69100fed7985e856e4bddf5cfa6|2015-11-03|Sebastian Kraemer|Calculation of eigenstates and eigenvalues of operators.
+10df9bf7843833e59c040974358ef0d150d794cb|2015-11-03|Sebastian Kraemer|Rename spectrum to correlationspectrum.
+e91719cd87035bf1b7062c0c8291bb3838f071c6|2015-11-03|Sebastian Kraemer|Add test for metrics.
+58806c98ed2e2795d001431ab2f12589bbd8bd42|2015-11-02|Sebastian Kraemer|Use precompile.
+75fc4cc59dc0b0b28bf501ec216d7c2524800b2d|2015-11-02|Sebastian Kraemer|Steadystate calculation by finding eigenvector of liouvillian.
+915d703be9b629d2dc42ec26fccf7a7a4881848a|2015-10-30|Sebastian Kraemer|Implement superoperators.
+4a713c02dce3b45632d9c98ac65ec4714f47e64b|2015-10-29|Sebastian Kraemer|Add Base.identity(op) function.
+846d0900b13d1a539e4cd9d54ffe1ada91b6238c|2015-10-29|Sebastian Kraemer|Use master instead of master_nh in steadystate calculation.
+171bcd7f25448ee59cfddb0b08a1b73a96754b2e|2015-10-29|Sebastian Kraemer|Fix bug in master time evolution.
+0dbfe1a9b496a1861d6f0c98f53453d225b9917a|2015-10-28|Sebastian Kraemer|Fix Husimi Q representation.
+2ecd069c306f7c1f977c501f008bd3dce5cfdb8b|2015-10-28|Sebastian Kraemer|Implement copy method for Operator.
+6ade221f24db2f90496f1a7a7f512906cd11f985|2015-10-28|Sebastian Kraemer|Implement spinup and spindown state.
+d70e69913243d3ec8a894a8d1931d387fa7c4baf|2015-10-28|Sebastian Kraemer|Remove print statement in a test case.
+8b5bebe6a5bb973b7e553479b79203221cd06d77|2015-10-23|Sebastian Kraemer|Add example for spins in cavity.
+087874efe68aec6a60513a2215d0450659fb3506|2015-10-21|Sebastian Kraemer|Steadystate function now uses master_nh.
+5b699fbfc4b665efd50a6e712aac7a27447875dd|2015-10-21|Sebastian Kraemer|Fix embed for case of only one basis.
+8ff03f2c4e9b9c21ac0c3401eeb6f5fd2c28d6d8|2015-10-21|Sebastian Kraemer|Fix bug in conversion from DenseOperator to SparseOperator.
+a4fa79e2b20fad3d7550b7ad080cd1a6d863a57a|2015-10-17|Sebastian Kraemer|Change correlation function.
+cd3e4f4996837006cb5ae5cffe3fc1daa1d0550b|2015-10-17|Sebastian Kraemer|Export spin module.
+06cedd85743efeeb50560d7c7ceeead5726a1646|2015-10-16|Sebastian Kraemer|Correct array type for output of schroedinger eq.
+11e99090ce58d59eca1cd4faf79c7d4e67fa8529|2015-10-16|Sebastian Kraemer|Small changes for sparse oeprators.
+0b33ac9da87029f25eacce0d5aa1e32f741d0504|2015-10-13|Sebastian Kraemer|Implement spectrum function.
+ced32eb7a3b52ab32b286e4edba7e5b9df98896c|2015-10-13|Sebastian Kraemer|Implement two time correlation functions.
+ca8ebee8f4ac7688d412f95d351d4fc3ff802bfe|2015-10-12|Sebastian Kraemer|Implement steady state calculation for master equation.
+0fcbe5b9fded3ba630a385ef97b11bacddd47b5e|2015-10-12|Sebastian Kraemer|Fix timeevolution_master test.
+6a77f1a54244cd53a9107c08a80d13db4256d1bc|2015-10-07|Sebastian Kraemer|Rename spins to spin.
+4ea7b228edb00b2aa6f2bda8d45f06b3edcc68fb|2015-10-06|Sebastian Kraemer|Implement == for operators and states.
+b994b8e8c5b30afd771fb80ad8de5a4df0c3c433|2015-10-06|Sebastian Kraemer|Clean up and write docstrings for spin.
+28a0849811e7e4ce3993911a4783f38234d7c5cc|2015-10-05|Sebastian Kraemer|Improve spin basis implementation.
+094be102661711d890b040437b46ccd5b235abbb|2015-10-05|Sebastian Kraemer|Improve lazy operators.
+2d8e28d077f02dc8d6652eec3e811e096f34ee54|2015-09-30|Sebastian Kraemer|Docstrings for lazy operators.
+a7f92f785f9c03a9e9fdbdc1498c4cdad012c143|2015-09-30|Sebastian Kraemer|Docstrings for operators.jl
+cc3acbdc4a610de628c0e619bebe979a02a14333|2015-09-30|Sebastian Kraemer|Docstrings for basis.jl
+2d2085b511b07ea800173a9b7626a7c521c798f6|2015-09-25|Sebastian Kraemer|Transform states into Vectors when interfacing ODE.jl
+121e8da040251c3708241104784783e1695853e9|2015-09-25|Sebastian Kraemer|Uint -> UInt in random number generator call.
+28bb27a7926932ba66a6c96b885ff30e8f04b611|2015-09-25|Sebastian Kraemer|Implement eltype and zero for states and operators.
+9a8f8d7aa1cd2971fae0a4aaeeea065e950fc9ac|2015-09-24|Sebastian Kraemer|Adapt to julia 0.5
+e77e6c2a8463397433d62382d19ac65705f589fa|2015-09-15|Sebastian Kraemer|Small changes to particles notebook.
+dffbe9654d49a05a1de84009549a505e1bfeb81e|2015-08-28|Sebastian Kraemer|Clean-up sparse operators.
+38bcd72f84d4362341325dd4ccf54f56728ba84c|2015-08-27|Sebastian Kraemer|Small clean-up.
+4dc08459d4221c8752ce1fc10c65819125d13f43|2015-08-27|Sebastian Kraemer|Explecitely import Base algebra functions.
+862f3b44b7948483de2da40694228b9b5479e544|2015-08-27|Sebastian Kraemer|Change usage of plan_fft.
+e6e6d934291b88a3b0dce83aa9f626466d56a94c|2015-08-27|Sebastian Kraemer|Define tensor for arbitrary amount of arguments.
+5ab7480dc91867bf096162e47cf7d902d80fcf7c|2015-08-26|Sebastian Kraemer|Improve and test laplace operator for particles.
+d5ad4c1bfda3324c3c9a202bba241af0762309bd|2015-08-25|Sebastian Kraemer|Remove usage of ArrayViews.
+2fd481fc673e928ffe4edde45dd1d6c4a063a670|2015-08-25|Sebastian Kraemer|gemv! for LazyTensor.
+00beff68fe1468955c8b9e1415e89cb50d38dad3|2015-08-21|Sebastian Kraemer|Add 2d particle example.
+43867ae1ce4418be3cbdbf768c80d0c3f6bc67d2|2015-08-21|Sebastian Kraemer|Complete replacement of old sparsematrix implementation.
+c3dc53c5d64e0b9cc13c2c21171c9665953818ee|2015-08-21|Sebastian Kraemer|Use julia sparse matrix multiplication.
+e8fe1dbdb00ad78b9a6b69dd892715dcea560beb|2015-08-21|Sebastian Kraemer|Speed up sparsematrix.
+b5f3e675ba58de4c8c27ae4be76b21ef78ee4a19|2015-08-21|Sebastian Kraemer|More functions for creation of Operator.
+85c1e3cedd594d1dcf42b81dff5f1515cf51815f|2015-08-19|Sebastian Kraemer|Improve particle implementation. (Finaly working)
+33b8d2b662ee92d30d69cd6f9b7404060aff6d6d|2015-08-19|Sebastian Kraemer|Improve lazy operators.
+7ac856387d4653449301a445ff326beaaa67465d|2015-08-19|Sebastian Kraemer|Add -(Operator) function.
+eb659d31670604217ea10a30481b3d03854a3f14|2015-08-17|Sebastian Kraemer|Start fixing error in Abstract operator multiplication.
+519e0dc2e55cc6120272054c4c9d39de8e2daef1|2015-08-17|Sebastian Kraemer|Add example for particle system.
+842a862fc6ae411ca191c223f13d526e57e2909b|2015-08-11|Sebastian Kraemer|Add missing * implementations for lazy operators.
+9dda15c1e027dfeba888fd0efd89ff348817b803|2015-08-11|Sebastian Kraemer|Further improvements on the particle front.
+72a29158b0d67b4d575d51d0b5ae3c59edf88322|2015-08-11|Sebastian Kraemer|Automatic implementation of multiplication.
+49430cea438fb12a2e3a10dd37d99420711a2e9b|2015-08-10|Sebastian Kraemer|Fix bug in particle basis transformation.
+7bf2a581b1673edcdb2b6a313fd040cf116e7997|2015-08-10|Sebastian Kraemer|Further improvements for particles.
+d3b2af79f4b825cdba57afaf5fac97fa1db42b89|2015-08-09|Sebastian Kraemer|More work on particle.jl (still error in fft)
+275298470e50f2d97e0c84382313ef3129f7b80d|2015-08-08|Sebastian Kraemer|Start implementing particle quantum system.
+3181a782f31e2b31d57c1be7dd8ffc6d562ba170|2015-08-07|Sebastian Kraemer|Add .gitignore.
+fb719df0dee01495ef52c75c369349c3c02dd097|2015-08-07|Sebastian Kraemer|Start sphinx documentation.
+65e6d17d2dbbf06c1cc0636ee39f13aed82d2a16|2015-08-06|Sebastian Kraemer|Clean up normalize functions.
+0c668b476eb40d6cd6249bbb47c92187c715459f|2015-08-06|Sebastian Kraemer|Rename module "lazy" to "operators_lazy".
+6301828ad05103e5c0e7d77d64fa83e02ff4a8a3|2015-08-06|Sebastian Kraemer|Improve time evolution code.
+0948c1bbe43a83902a66f2906fac973aab511efa|2015-08-06|Sebastian Kraemer|Fix test_sparseoperator.
+1ad28078989cccdaacf426701853496fab1176f6|2015-08-05|Sebastian Kraemer|Code cleanup.
+311586a76d8e5072d59f3f8f951787026b72f35e|2015-08-05|Sebastian Kraemer|Adapt ptrace to changes in julia standard library.
+7d2f912c81f16ff5637015bdee131ec4b70e03bf|2015-08-04|Sebastian Kraemer|Fix bugs in bases.jl and add tests.
+ddf2aaa9fd08f2b0a89b9ab0cbdbccc32d745746|2015-08-04|Sebastian Kraemer|Fix small bug in creation of operators.
+88efa0db7d97a0e8fcc128ef31d6a7536b231bf3|2015-08-04|Sebastian Kraemer|More tests for operators.
+ff57192c058b1a1fde6b58a7804c7aca5b1066c2|2015-08-04|Sebastian Kraemer|Check that data fits to operator dimensions.
+6555719a72c1919aa579d153c0d8ccda93d7c409|2015-08-04|Sebastian Kraemer|Rename DimensionError to DimensionMismatch.
+2e0e29ae4a852ddb426b768bf7b155ef4819cd46|2015-08-04|Sebastian Kraemer|Test equality of mcwf and schroedinger for no decay.
+cfdde8eb1bf5802040bd3381d92f5cc4625ebd91|2015-08-04|Sebastian Kraemer|Decrease default tolerance of ode solver.
+1484af9ab415288840ca25d71e80adc05beca33d|2015-08-04|Sebastian Kraemer|Add two MCWF examples.
+6d03117f601050b0406ea119e8d04b1423858d4e|2015-08-04|Sebastian Kraemer|Combine MCWF test scripts.
+965d355a5a6501c5d7fe3ad00734209c07c7bc3c|2015-08-03|Sebastian Kraemer|A few tests for mcwf timeevolution.
+de81eda73dbcb8681fdcfe0bce72091e62339855|2015-08-03|Sebastian Kraemer|Adapt tests to changes in ode_dopri.
+f4eb2d0ff3072c89e5262fe3ea6cea93f3728512|2015-08-03|Sebastian Kraemer|Adapt to changes in ode_dopri and fix mcwf.
+fddd44aee74616a3731542dd1ad22fdc69faab04|2015-08-03|Sebastian Kraemer|Proper handling of events in ode_dopri.
+826df747701abe9528c3cfbbc8e255376b2878ee|2015-08-03|Sebastian Kraemer|Default parameter p=2 for statevector norm.
+391f3e10e062eba6d841798313bb1601401a74e1|2015-08-03|Sebastian Kraemer|Expectation values of array of kets.
+63ec066afa8432aaec079e2ecf69ed015737fb43|2015-05-09|Sebastian Kraemer|Update tests and change sigmap definition.
+d2d62ed8224c38524db703f09d251123d6c01cc9|2015-04-28|Sebastian Kraemer|Replace "ngenerate" by generated function.
+b503cf2f7a9100131d4256aad4e7215b875f6554|2015-04-28|Sebastian Kraemer|Fix calculation of tracedistance.
+1f749015fc0063496ca9722d02b2ebb7b05c05c1|2015-04-28|Sebastian Kraemer|Update SparseMatrix test to use module sparsematrix.
+395f47b9c9c9cfdaaffb0624949f23714b4f8cd5|2015-04-28|Sebastian Kraemer|Rename module sparse to sparsematrix.
+b47bdfd6668db83803abff9a9a6236e36e061d17|2015-04-28|Sebastian Kraemer|Small syntax fix in ode_dopri.
+55ff2d9dcbbb898e0ca638a041f895e1fdcf5e3c|2015-01-29|Sebastian Kraemer|Fast schroedinger time evolution.
+1d1119d0b57ad46e40578294c91604a15e245c31|2015-01-29|Sebastian Kraemer|gemv for operators + tests.
+39209d17fc5c55dbd1e16a530e0e2138b85c6f76|2015-01-29|Sebastian Kraemer|Implement (simple) schroedinger time evolution.
+b435da6e81d099647c25173eca76de374cd92d4c|2015-01-29|Sebastian Kraemer|Clean up timeevolution and include tests.
+d6dabecb2cf518d38591cb7dd4454df0d0c3d5e8|2015-01-29|Sebastian Kraemer|Fix gemm for operator-operator multiplication.
+acce45057cc27d1081fe7b60e51bf14cee6b0da3|2015-01-29|Sebastian Kraemer|Small changes to ode_dopri + tests for ode_dopri.
+2cb45514d57f8d99eacd4cc75e4d01a22cecb6c6|2015-01-28|Sebastian Kraemer|Small updates to test suite.
+56f43fb8556ac810e09d26d76eed1533b0784cb7|2015-01-28|Sebastian Kraemer|Fix big in check_summable
+39a056030b8d06064fd34fd2b3ff5978968156eb|2015-01-27|Sebastian Kraemer|Improve lazy operator implementation.
+5bfcc72afea3b24e30c0a07a14c2476c5d19ee40|2015-01-27|Sebastian Kraemer|Small refactoring in operators.jl.
+b6d26fe248d28c71124e59a0b184a03e8f75cd97|2015-01-27|Sebastian Kraemer|Improve sparsematrix-number multiplication.
+c5f37bf68c2097bad6ff2f8666c8aa67f4bcefd4|2015-01-27|Sebastian Kraemer|Fix whitespaces and newlines at end of files.
+90fc57c2ce5d7682fd3754f59123dbc12f63131f|2015-01-08|Sebastian Kraemer|Small fix in io.jl.
+40cd44b22316f65b46204f0e79e85fe3ec4fb4c1|2014-12-26|Sebastian Kraemer|Better support or ndim compopsition (tensor, compose, embed).
+ab67a51ff608cec57086928069c6585efdec47f5|2014-12-26|Sebastian Kraemer|Fix bug in ode_dopri
+3b4e30886817f59fd6b7a3c1b05d444b066f3874|2014-12-20|Sebastian Kraemer|Fix bug in io.jl
+f76b11887683bc9e1bd95fcda2426c6281e59979|2014-12-20|Sebastian Kraemer|Add io functionality.
+ef12f96a7208c15c69aa32b468946ecbdab7dfa1|2014-11-24|Sebastian Kraemer|Small syntax upgrade in timeevolution.
+a2513afa6b64dbda702d9b1b18e00f9513c2622a|2014-11-24|Sebastian Kraemer|Add function to calculate trace distance.
+b6edf69114e4c620b8ad1034a268b7ff65992908|2014-11-24|Sebastian Kraemer|Small syntax fix in ode_dopri.jl
+acef9daa4747dce0d8650e932e6ad575f4e6384b|2014-11-18|Sebastian Kraemer|Fix calculation of coherent state.
+248c68414b820c81e47b056a7830a65b97f67d23|2014-10-09|Sebastian Kraemer|Add zero() and one() methods for operators and SparseMatrices.
+a117b52f8e10d2b092663493f07e7e92b73a75fe|2014-10-09|Sebastian Kraemer|*(Number, SparseMatrix) now checks if the number is close to 0.
+7ee4cac01d18081adc1e88f9058f1f4d40b891e8|2014-10-09|Sebastian Kraemer|Fix some bugs in sparse matrices algebra.
+03d0812bfa8bbf26cc4c368916497f8c0e830d0a|2014-10-08|Sebastian Kraemer|Complete transition to new ode dopri implementation.
+4cca814e7ab7db2175b675003231a9e6917e12ab|2014-10-07|Sebastian Kraemer|Implement sparse_identity and embed functions.
+beb1b31bb352ab287aa6d306b62f77f9e471593b|2014-10-07|Sebastian Kraemer|Implement many of the missing functions for sparse operators.
+b26c1f0b377158b3eb2662e2e750ef4cb0b9fa6f|2014-10-07|Sebastian Kraemer|Export ptrace and coherent_state in quantumoptics.jl.
+67539dfe802a6cf955e5bb4a650648bd412909b2|2014-10-07|Sebastian Kraemer|Implement function to calculate coherent states.
+6894fff6ee44e15c970b3099e7fe3e86c41bb46f|2014-10-07|Sebastian Kraemer|Implement partial trace function for operators.
+3baed5629873d7ae084ef45c0d3d8720792b7a28|2014-10-01|Sebastian Kraemer|Fix bug in displaying of intermediate steps.
+5c7015f15ea20674194b35349ee5810bfce0f154|2014-09-29|Sebastian Kraemer|Cleaner implementation and integration of the dopri solver.
+cd03437c877aaff971293a67ccd7a6612149436d|2014-09-22|Sebastian Kraemer|Start implementing more genereal dopri scheme.
+6b8e63cae68809504727cb0dacc34bcd330e81d2|2014-09-18|Sebastian Kraemer|Small fixes for mcwf method.
+b5b3fe96447040675b9368f3c275cf31d1b8d126|2014-09-18|Sebastian Kraemer|Start implementing MCWF method.
+f5bd32f6277aa011acfe257568eff3bdb6419a71|2014-09-16|Sebastian Kraemer|Better structuring of ode_dopri code.
+67660e7f117de2ca9150f1e554d5d1de325497f9|2014-09-15|Sebastian Kraemer|Small improvements to ode_dopri (allow selection of dense output).
+c08296194c89aaebd2dc8329e38121a949ca5e6d|2014-09-15|Sebastian Kraemer|Add improved ode5(4) dormand/prince implementation.
+dbb4d1b1489eb227ff58774cfe69da14ceca8472|2014-09-13|Sebastian Kraemer|Add random profiling scripts.
+9566dfb625df27b8394e265a378ec759a271c641|2014-09-12|Sebastian Kraemer|Improve sparse matrix multiplication.
+b809a83aa1a2dddfcd21d1739c27e9e4c050a99b|2014-09-12|Sebastian Kraemer|Update profiling script.
+89b0c110e158a158303eb917ee76e9e72ccae483|2014-09-12|Sebastian Kraemer|Add script that compares different sparse matrix multiplications.
+81116c05c13d5d5bbf71be0172594890241e8373|2014-09-11|Sebastian Kraemer|Implement new sparse matrix algorithm.
+ffa18006b43b6724e71cb49fa3e5d5cbf34dcbd7|2014-09-09|Sebastian Kraemer|Crude implementation of SparseOperator class.
+b60ab00f62a9bfcb43b29db349bb8d6cc63ea305|2014-09-10|Sebastian Kraemer|Small speed up for lazy operators. (Creation of tpye objects is slow??)
+aafb5cd5af7b56ca2280dd14aa002e842786399f|2014-09-10|Sebastian Kraemer|Improve lazy operator.
+c95ac80b79f959912178639d2bf3ed537b570034|2014-09-09|Sebastian Kraemer|Change lazy operator multiplication algorithm.
+a8e63b8827428607e24baf6f1a35006209711233|2014-09-09|Sebastian Kraemer|Start implementing new method for subspace multiplication.
+2638ac63ba6a371c7db872fafdce851ea38b2d7d|2014-09-09|Sebastian Kraemer|Lazy operators now working as #subsystems<7. WHY?
+49b3d1a410ea914ecc4fef15f907f3ba0739d024|2014-09-08|Sebastian Kraemer|Still not working.
+8f78c721f1900c2c7b1e0e6115bae37761d83e5c|2014-09-08|Sebastian Kraemer|Start using ArrayViews - not working at the moment.
+319fab69cc5cb30c844f18fc8f526317536f3342|2014-09-07|Sebastian Kraemer|gemm! function for lazy matrices works but is still slow.
+9a70cc161c6f9850132122f0e3ac621d803ef269|2014-09-07|Sebastian Kraemer|Successfully implement lazy tensor using @ngenerate macros.
+49901b28c6a5ec2bab81d7c1c8a39a625a27756a|2014-09-05|Sebastian Kraemer|*(LazyTensor, op) works now, but stills slow.
+f38372cb13d545d8e11b7c9abce892be07928db1|2014-09-04|Sebastian Kraemer|First implementation of LazyTensor operator (not functional!)
+8fd37d91b7c4c071a40c0d3755fc01e2850e25ca|2014-09-04|Sebastian Kraemer|Style fix of quantumoptics.jl
+bff6a47f4004392c08d26456a0dc94924a9b2e32|2014-09-07|Sebastian Kraemer|Remove unnecassary use of dagger funtion from simple timeevolution.
+5cf2de89e9c1c9ad26e9537e5dca2cbd9043137d|2014-09-07|Sebastian Kraemer|Fix some type problems in timeevolution.jl
+16f6815fc12dcb0fc62aeb57aa8b46c75c3723c4|2014-09-07|Sebastian Kraemer|Further clean up timeevolution.jl
+be5f3776eaed4f9dc44f9af70afee951f02fdb69|2014-09-06|Sebastian Kraemer|Update profilequantumoptics.jl
+17fa5f81a14ddce799f86c50792c3bd2180d8bb5|2014-09-06|Sebastian Kraemer|Clean up timeevolution.jl.
+0799a8e0e3f532ffd9700859fa9c3ec31b403ecb|2014-09-06|Sebastian Kraemer|Implement improved master equation solver.
+6e9cb5fce6b17b5f88a0acb7e8e3dce63edbd64a|2014-09-06|Sebastian Kraemer|Add gemm! function for matrices and operators.
+36261d9866cd462552ac4109a6020f00dbba9a7d|2014-09-04|Sebastian Kraemer|Style fix of quantumoptics.jl
+88ad96fe02dc6424ff796906ff3bd9afefa7596e|2014-09-04|Sebastian Kraemer|Add a few functions to operator class.
+4c33d1615ec62014e0322e491a9920f56e0f2bf7|2014-09-04|Sebastian Kraemer|Small improvements to the CompositeBasis class.
+151f78fd443c26e0f91a416419006b0e0216d223|2014-09-04|Sebastian Kraemer|Improve master equation solvers.
+00f07f9ae90d1393cd05abe3d36ca4c00b24f2c1|2014-09-04|Sebastian Kraemer|Export pauli operators from main quantumoptics module.
+34f4ffac2855a15be0bc05dd4a8090243e4a8120|2014-09-04|Sebastian Kraemer|Add pauli operators with a generic basis.
+2997578dd5174caaade281cb3922d16b17c06af1|2014-09-03|Sebastian Kraemer|Add a very simple example (pumped, lossy cavity).
+9144381580c961bb7f969e893f956b9f232e4073|2014-09-03|Sebastian Kraemer|Fix how the modules are bundled in quantumoptics.jl.
+5ae63b0e98ef157ac329efc0fc2148fb18b79afe|2014-09-03|Sebastian Kraemer|Reorganize code.
+4a8eaa5f8504f4c9d96474619ee862ea73e502b4|2014-09-03|Sebastian Kraemer|Initial commit.

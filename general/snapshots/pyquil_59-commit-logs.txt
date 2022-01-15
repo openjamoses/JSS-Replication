@@ -1,0 +1,1002 @@
+d07a2934c4f41da2aa0f9ee17773fedc0e57bc28|2020-10-06|Mark Skilbeck|For noiseless QVMs don't measure all qubits (#1252)
+1578534d37b379f69912cfcb9b0dd71e4c5d238f|2020-09-11|Mark Skilbeck|Bump version to 2.23.2
+926a5d73301e9fa8ce25c096692421a5083083b5|2020-09-11|Mark Skilbeck|Fix pypi upload URL
+c75ea368bb56bf3e5cd7df69dd7b48e547c5c4d3|2020-09-09|Mark Skilbeck|Bump version to 2.23.1
+5c0686702b3d5d17b17e46d1d5917f45b63125f7|2020-09-09|Mark Skilbeck|Add pypi push to release pipelines
+7b8fef6a21aead96f4632fcf2763588f40da1fb8|2020-09-07|Mark Skilbeck|Allow np.array in DefPermutationGate
+a076e6b2717accc480a49e9083e02297a289057e|2020-09-09|Mark Skilbeck|Bump version to 2.23.0 (#1247)
+f96932c87a6b4aa690dea07a04376c4fc2db10a3|2020-09-05|Kalan|Make compiler connection check timeout user-configurable (#1246)
+0223d44ed462afb28eec077bcfeb39308a937a31|2020-09-03|Eric Hulburd|do not issue warning if scope is array (#1244)
+10b7f9674f828c7eb6d568efe00a519601a5061a|2020-08-03|Mark Skilbeck|Bump version to 2.22.0 (#1239)
+2741cc4e1f9ac9e83297b1d2064e970fc11c215e|2020-07-30|Mark Skilbeck|Add more information and examples to rewiring docs section (#1235)
+34743765b1d13b5b4af59b8fa4d9416ea85c07ad|2020-07-23|Mark Skilbeck|Fix flakey string comparison test (#1237)
+5d12efc33a1b9e4c5ec0cc7249527cbdd8222ca0|2020-07-22|Mark Skilbeck|Pin sphinx_autodoc_typehints version (#1233)
+ed8bf13e26926eede674117a86cc794fc0758713|2020-07-15|Mark Skilbeck|Bump version to 2.21.1
+90685d0c87b7990a61349716d6a4de918f633a1b|2020-07-15|Mark Skilbeck|Bump quilc and qvm versions in Docker builds
+f0abb39fd35da562828e118a10e4e78da4f36bf9|2020-07-15|Mark Skilbeck|Fix type list to include complex
+3d4abad72537b401eb41be99255d2780970907b1|2020-07-15|Mark Skilbeck|Fix type hints in _rewrite_arithmetic.py
+db6f76d978b9a5a6dc0ba608faee148569181808|2020-07-14|Mark Skilbeck|Bump version 2.21.0
+46244d609871ad212cf7a5be1ada95bf56d7cab4|2020-07-14|Mark Skilbeck|Add XY to lists of native gates in docs
+b0cf5b8f4929dec14e8ea1c65e92f72421bba762|2020-06-12|Erik Davis|fix changelog (#1222)
+bdd53c797c509d52ee9fb49eaccf53f08ad1d865|2020-06-12|Max Radin|Noise model fix (#1218)
+95b510ccf048bb8c4f6ccf5e2d181f0a86786ea2|2020-06-12|Kalan|Update Compiler documentation (#1221)
+08dae8d90ecc992f5b6718ed0fab2bf331956f3c|2020-06-12|Mark Skilbeck|Compiler doc fixes (#1220)
+974312956bbc89a915492290f9eb89905318aadb|2020-06-10|Erik Davis|update changelog
+7ec3a5cbdc6ba5bf63669e4bc9da9f13c47f050f|2020-06-10|Erik Davis|use numeric base classes for type checks
+089f18e8b6d1ee0bbd78900bc370144b7c41b6b5|2020-06-05|Mark Skilbeck|Bump version to 2.20.0 (#1215)
+0688c891487b98f0a89f9e501af97d90e0042061|2020-06-05|Mark Skilbeck|quell flake8 h8 (#1216)
+6ac17660f2bc99bdd10e3b91974c6b85c193637a|2020-06-05|Mark Skilbeck|Fix broken link in advanced_usage.rst (#1204)
+1e10e2c1565225e0fd231684f48ddfea55c3db1d|2020-06-05|Mark Skilbeck|Add `RX(0) _` to the native gates of a N-q qvm (#1211)
+e5c06ffc2367ba7b6477708dedfcb276516fba2c|2020-05-05|Erik Davis|Add rewrite_arithmetic handler (#1210)
+b1a9748ead852249c7b3f6a80ebe5bd1facca668|2020-04-21|Peter Karalekas|Update QCS paper citation and links for journal publication (#1205)
+1781c4264492abe1f7d9b1ff20ecb1ab02047e3a|2020-04-15|jmackeyrigetti|Remove Gitlab Build Badge
+e5443bc1a03f94e5b9ab603be706e14fc3bfeca2|2020-03-26|appleby|Bump version to 2.19.0 (#1200)
+a8c1d600a0816c8df736cbf12f818ee4fbf7e194|2020-03-25|Mark Skilbeck|Insert program *after* state prep in an Experiment (#1189)
+1f621659e5b55241bed56a78b71c5b5e1c805e7b|2020-03-09|Mike Appleby|Check results in test_qc_expectation_on_qvm_that_requires_executable
+20a4e696d3121c6d893a0fc4a258af2f9d2caefe|2020-03-06|Mike Appleby|Update changelog
+068f773d5adac9444cfa0a09ab7492adfa8aa8cf|2020-03-06|Mike Appleby|Add test_qc_expectation_on_qvm_that_requires_executable
+3773a23579afbfee3dbf38b9ac69f6d31114d118|2020-03-06|Mike Appleby|Make DummyCompiler.native_quil_to_executable return the correct type
+b18268f206aa14ca86a8660b93cc6b9b5ffeb70a|2020-03-06|Mike Appleby|Fix QuantumComputer.experiment for QVMs that require executables
+a2f20c18d8b0c1f13c23d94cf26bcf7ea0551ab2|2020-03-20|Adam|Enhancement Controlled gates syntax sugar #1192 (#1196)
+b3a36371aa8318e5826df03f5c5b7a61e65bf0df|2020-03-17|appleby|Mark test_run as flaky and rerun once on failure (#1190)
+3a143c11da8a039e883a7500273e2f728e10e61c|2020-03-09|John Lapeyre|Fix broken link to example now in forest-tutorials (#1181)
+ae789e6b7acada21835d5f7dd6428c47ae0b1ffb|2020-03-06|appleby|Add a note to CONTRIBUTING.md about publishing to conda-forge (#1186)
+33c27420da7c1b5fa4f2a3e09a3858fafc7bf198|2020-03-06|appleby|Update changelog for 2.19.0 development (#1187)
+4193427e07d66004e753a4a6af7bddf1a15e9095|2020-03-02|Erik Davis|bump version to 2.18.0
+d2d7e4c4f9da01b38572aecfc71e1ccdbe2a3e90|2020-02-27|John Lapeyre|Fix comment not edited for code change (#1180)
+d45246d183a7308187bc28442c73714e87f7c25a|2020-02-25|Erik Davis|Remove HALT from valid protoquil and supported quil instructions (#1176)
+17c6fb286da3c50efd638525cff1e99ff2e0628d|2020-02-12|Amy Brown|Update SDK link and download instructions (#1173)
+37e184bed59f6ccd20f455d96d9ba12cfc02a404|2020-02-10|Amy Brown|Add updated named link for QCS access (#1171)
+e916a4d38e26910e73d70f6778e7657f0a292b52|2020-01-30|Peter Karalekas|Update changelog for 2.18.0 development
+2402cae0b72ff6232b81ec8899bd5b741a94916d|2020-01-30|Peter Karalekas|Bump version to v2.17.0
+c584b98eb7002aca2d282d675d2cf5646d509437|2020-01-29|Peter Karalekas|Another round of README cleanup and improvements (#1168)
+5f68f68b32a29d48e3c192b2b06bc72b95dac26c|2020-01-29|Peter Karalekas|Remove examples dir in favor of forest-tutorials repo (#1167)
+84f09925ff68861c73e79c8fd07228b1198d1be8|2020-01-28|Peter Karalekas|Use the job template YAMLs from rigetti/gitlab-pipelines (#1166)
+70f74f8cbdb82e3d55ca97f2544ea0741132cb05|2020-01-24|Peter Karalekas|Expand upon the acknowledgements file (#1165)
+c2438285f4f10faf7d4220d8fd0a80c22bf5c647|2020-01-24|Erik Davis|Actually track metadata in experiment manipulations (#1160)
+ae780617f287676926692b224d6a03a773fa19a9|2020-01-24|appleby|Fix QPUCompiler init args in test_qpu.py (#1164)
+c521fa8d5bc1f09f5b6cada08cef39933e5328da|2020-01-23|Peter Karalekas|Pin antlr4-python3-runtime to under 4.8 (#1163)
+24974968f8ba4ad8d00e1037b87826d6d65f74a2|2020-01-10|Peter Karalekas|Update changelog for 2.17.0 development
+15bca0ffbd02f5f42cb2aee97cdc0cc4ba5ab9db|2020-01-10|Peter Karalekas|Bump version to 2.16.0
+236e85cbca6c2884ab154c5f90248ff00547ce1a|2020-01-09|Peter Karalekas|Rename TomographyExperiment to Experiment (#1158)
+5692470f30ed031a776feb15980b086c9e4648b4|2020-01-08|Peter Karalekas|Add type annotations to the whole pyquil.api module (#1157)
+70659d1d32a9e88cc2abcd0b32b8164d9d36ac75|2020-01-07|Peter Karalekas|Add type hints to all remaining top-level files (#1150)
+f95b1f89c342292c5344023eee10305fcca79e09|2020-01-06|Tommy Moffat|Support instead providing a list of values to write_memory() (#1114)
+7478b4212538eab9ff522ec117b73055014dac34|2020-01-06|Peter Karalekas|QuantumComputer method to perform readout calibration (#1152)
+6f5c9b1a3aced2b5cec5d81859d81c0e339d16fb|2020-01-06|Eric Peterson|NxDevices support CZ and XY by default (#1151)
+a47c0ace783a0540498046c093f58e23252eceaf|2020-01-06|rht|Reduce mypy errors in paulis.py (#1147)
+bc6c0462b11117fe5758b899e10f19b8190b2d96|2020-01-02|Peter Karalekas|Use dataclasses instead of namedtuples in device module (#1149)
+07db509c5293df2b4624ca6ac409e4fce2666ea1|2020-01-02|Peter Karalekas|Delete api/_job.py, JobConnection, and SyncConnection (#1144)
+ce9c79164bcb224eb861edeb21a975f2b0fe476a|2020-01-02|Peter Karalekas|Add typing to experiment module and verify in CI (#1146)
+9bb8d5a9d11ae6a0adc9f3219036ad75e8a7ee21|2019-12-31|Peter Karalekas|Start using Travis CI, upgrade style checks to py37 (#1145)
+fc776a10278282bbdeece7c8310abcd5ac18da22|2019-12-31|Peter Karalekas|Move Python-based simulation tools to a subdirectory (#1143)
+2e89a4f5f355acfacc9393e43c25be6ada17b983|2019-12-30|Kyle Gulshen|Add helper to merge TomographyExperiments (#1077)
+af8ee22dde4373b0bbfde2eb6633cd39c61f7c97|2019-12-30|Peter Karalekas|Add typing to the latex module and mypy check in CI (#1142)
+6428a91e2fa0850a1a00e2fa5ca210dd62cd9c07|2019-12-30|Kyle Gulshen|Add helper to separate ExperimentResults (#1078)
+c46a4761706eb438e21d4da60cebe809e22e25e7|2019-12-30|rht|Finish the rest of the type annotations for quil.py (#1134)
+729c66f78961b272ce950f90e973bef0ec947159|2019-12-28|Peter Cock|Ensure valid RST in docstrings (#1141)
+bc61e3314619d63938729427a95320b69ce4d354|2019-12-27|rht|Remove unused method Program._out() in quil.py (#1137)
+75a7c7428235e017ac6740e804cce64057bc3a95|2019-12-27|appleby|Fixes for migration2-qc.ipynb (#1138)
+3d287511e99601865829289f85909cfa7fd0c8da|2019-12-27|Peter Cock|Fix string concatenation style (#1139)
+2f61735ac9bcfadcdb84610199e49bd20a56d20f|2019-12-26|rht|Add type annotations to noise.py and verify in the CI (#1136)
+f98ec12ca09126cca73d3f7569b04dbbce0f7b84|2019-12-24|Peter Karalekas|Ignore fewer flake8 rules, add flake8-bugbear (#1133)
+7210fbe56290121c44da97b9ec6eea032fcdb612|2019-12-23|Peter Karalekas|Use Black for code style and enforce in the CI (#1132)
+f37d55acb906a02c0f3320ee3990e9051ee64145|2019-12-23|rht|Partially add type annotations to the Program class (#1115)
+a072abce32f0415259bbcfc89c258084b8ecb796|2019-12-22|appleby|Send local_forest_runtime stdout and stderr to DEVNULL (#1122)
+a708040e405eb79f5b07c62c9b5ef33067a71023|2019-12-20|Peter Karalekas|Update changelog for 2.16.0 development
+a762ca4b9f6cda3ddd72173a8270b5918f1d8e52|2019-12-20|Peter Karalekas|Bump version to 2.15.0 (#1129)
+f1aeda6dcc7834933a276df30d1029c9d3ff2a25|2019-12-20|Kalan|Only request engagement from dispatch when necessary (#1130)
+7c8489a801142f79d8c1c6819425a22c8e6ebf11|2019-12-20|Peter Karalekas|Bump quilc / qvm parent Docker images to v1.15.1 (#1128)
+7bf0e3f20ceac4e4fee7e4dc9e53ec140cfd9e57|2019-12-19|Robert Smith|Revert "Pin QVM version to 1.14.0 in the gitlab CI YAML"
+1c6b9e4f4aaeac5518c72b325ba7762a0736b75a|2019-12-19|Kalan|Add support for QPU compilation over http(s) (#1127)
+d636b0c4bdb4e2436ddd27835f7a1f0a392e4b98|2019-12-19|Kalan|Re-engineer QPU engagement and authorization (#1123)
+d5126a10b8383ccdff993f5beff237b4814a3362|2019-12-19|Peter Karalekas|Pin QVM version to 1.14.0 in the gitlab CI YAML
+d5bc3ebc35732d32759bc9665d29ade3956051b4|2019-12-18|Juan M. Bello-Rivas|Add unit test for validating trotterization order (#1120)
+6b7971cca8c616f446660e76ecd65391496d8cd6|2019-12-18|appleby|Minor fixes for VQE demo and quantum walk examples (#1116)
+da87f826dc6d164d65d31b58991d10c4d5165864|2019-12-18|Eric Peterson|Add support for DEFGATE ... AS PAULI-SUM (#1125)
+e712bd7104880b7308dda9c246bc047bd2fb88bc|2019-12-18|Tommy Moffat|Run flake8 on the docs and examples directories as well (#1113)
+1fd2ab23a630039bb202388ca84ca0010d0d005b|2019-12-13|Erik Davis|Allow RESET instructions to silently fall through the latex generation process (#1118)
+dac462c29e172bfda5cc1e0c2a1ea4e738370bbe|2019-12-03|Eric Hulburd|pin mypy to 0.740 (#1119)
+465319999e18bad04d9b09d7359ded47fe37f6cb|2019-11-25|Peter Karalekas|Update changelog for 2.15.0 development
+187df5646d83e657874dc0571ede1e8a7d4ac244|2019-11-25|Peter Karalekas|Bump version to 2.14.0
+032cd5efa09cdaaf7ee4a7d9aee4a5434e15aef2|2019-11-22|Peter Karalekas|QuantumComputer method to run TomographyExperiments (#1100)
+2f7e4b4dd5edcb99da1f5e7d8f4459ba11e81af3|2019-11-20|rht|Add type annotations to the PauliSum class (#1104)
+a551d06b20046d5bc12441f2efba62a11f80352e|2019-11-18|Peter Karalekas|Remove tox.ini and readthedocs.yml, add .flake8 (#1108)
+672c2eb83cb59701f60858121e82bc3c25dd070b|2019-11-18|Eric Peterson|Add missing XY values when generating specs from graph (#1111)
+8059703a9f4aa6dc265f03da0ac3fce0f8999163|2019-11-17|appleby|Specify file encoding to guard against ascii locales (#1102)
+36b380f6505cba086c3fdfd5166aab5dbfcf8671|2019-11-16|appleby|Correctly declare the size of the ro register in qc.run example (#1099)
+6a4a81ceb658fd08a1d91196e0fc5111e7bb6a02|2019-11-15|Eric Peterson|XY (#1096)
+a75d50a95c142a0114ed526d6c855ee7ea13daa4|2019-11-15|Peter Karalekas|Bump QVM docker image version to v1.13.1 for XY (#1107)
+58965c33b8314cda119ff36e46b705a03835d397|2019-11-14|Erik Davis|Fix control line offset in LaTeX for controlled gates (#1103)
+afd471e387378396170bd3ad2bc3f0e3bdab0259|2019-11-14|appleby|Add "make typecheck" target and run it during gitlab CI (#1098)
+2cf82bb11e5ad5b82b9d53c062e1968c572a8f4f|2019-11-14|Peter Karalekas|Redirect qvm/quilc output in the Docker image entrypoint (#1105)
+7b8cc72033d99103a077bb38f29ae6c100c38ead|2019-11-14|rht|Add type annotations to the PauliTerm class (#1075)
+de688a77d65e066af9c23a0006b4d079a16cd61b|2019-11-07|Peter Karalekas|Update changelog for 2.14.0 development
+dab7de28a7107b451544cab2b2b82d7c2250f9d7|2019-11-07|Peter Karalekas|Bump version to 2.13.0
+cadae56928ff2772b1c83b44a41d378e347175dd|2019-11-01|Peter Karalekas|Move the new module __init__.py code elsewhere (#1094)
+2758b76466b3242c2e33fb129708a0472b894004|2019-11-01|Peter Karalekas|Support Python 3.8 and include in the CI suite (#1093)
+dc07bae23b6da9e8fae11a475c3dc2e546694808|2019-11-01|Erik Davis|Overhaul Quil to LaTeX circuit generation (#1074)
+42fbddb5378087391e5b964b44a5b7a7eac2422b|2019-10-31|Mark Skilbeck|Remove unused code for talking to quilc over HTTP (#1089)
+d917179ab041efbbcc5fc46960b6ffbcc5f949af|2019-10-31|Peter Karalekas|Use TomographyExperiment for measure_observables args (#1090)
+4011664e08f9fbdd2d6a3b2af234a5158289f2d7|2019-10-31|appleby|Type annotations for gates, quilatom, and quilbase modules (#999)
+e59fea5bb925640d650f9e7764c7f62068fa68d2|2019-10-30|oliverdutton|Typo (#1087)
+991c36f4dea3d53f7cce6accb29969585fc230f2|2019-10-30|Peter Karalekas|Move experiment schema code to a new experiment module (#1084)
+027a3f6aecbd8206baf39189a0183ad0f85c262b|2019-10-30|Kyle Gulshen|Check if pyquil_config.qpu_url exists during QPU reset (#1072)
+cb8bbd35f10336395f39d5dad0163a41c5f5039f|2019-10-29|appleby|Reinstate support for user-defined gates in PyQVM.execute (#1067)
+d7876e44f7f5af4e1f42ddfea37c08a401358eca|2019-10-29|Kyle Gulshen|Call qc.run_symmetrized_readout in measure_observables (#1047)
+6e2d9014c59c51db82758ab5b49c3719f1e83308|2019-10-29|Peter Karalekas|Add __repr__ magic methods for PauliSum and PauliTerm (#1080)
+a09c121a0427d6eaaedf6e8429c0163f2d830d70|2019-10-28|Eric Peterson|Add hash function to PauliSum (#1073)
+6155f4d2cfecb8277f587dff636b733e76bff381|2019-10-28|Mark Skilbeck|Test for presence of π in _expression_to_string (#1076)
+854bf41349393beeeedad7a4481797ad78ae36a5|2019-10-22|Peter Karalekas|Move device-related code into its own subdirectory (#1066)
+ea1253c33fcb57b1783cf8c29099ee7b19f84a2a|2019-10-21|Peter Karalekas|Deprecate positional usage of protoquil compilation arg (#1071)
+3af3fa1bb5ee45c2f5288f0e1ca8d920797773b2|2019-10-19|Peter Karalekas|Move conftest.py to the project's top-level directory (#1064)
+c930f8da0cf62cd9302d761e68565d5785f6558e|2019-10-19|Peter Karalekas|Remove all uses of py2-supporting __future__ and six (#1060)
+1a0182c212a2edf5ea9c7a39b3c7fb538b151086|2019-10-18|Kyle Gulshen|Separate program generation from measure_observables (#1043)
+527138bd9e87190f452ffb2c46572b343cb35ba9|2019-10-15|Peter Karalekas|Start testing and reporting code coverage in the CI (#1052)
+e83ce796bf5b16d3a5bb3e45c9895f032c829662|2019-10-14|Peter Karalekas|Update the version file referenced in the Contributing Guide
+bbfe7a3fba55f6bda6c12026821eb5b7de663d68|2019-10-11|Peter Karalekas|Package and push to TestPyPI every commit (#1038)
+a87f3197ae7bd8406caab1ac3d83492de83fb69f|2019-10-10|Amy Brown|Update Rigetti Forest Slack Workspace invitation link (#1042)
+e0231219d2ce7da43b3f0680b39ee02eb879ab0a|2019-10-09|Peter Karalekas|Make the Docker image smaller and build faster (#1039)
+781587940d3ed7b76501c15f57780d81a8ad51c9|2019-10-09|appleby|Correct path to exercises.rst in meyer_penny_game.py (#1045)
+cd87ed474162b1ef572fdb1ee4b570ab93341505|2019-10-07|Peter Karalekas|Add Dockerfile containing pyQuil and the Forest SDK (#1035)
+ed5cb339794983ac5423dc7adf146a7d084dd45d|2019-10-05|Peter Karalekas|Add a Makefile containing common build operations (#1032)
+97313cfea2f70e8f878a79bb20548d4b6378817f|2019-09-28|Peter Karalekas|Update changelog for 2.13.0 development
+36fbe7f695fd802e5cfeac1ad52120909a425c99|2019-09-28|Peter Karalekas|Bump version to 2.12.0
+ad8fb9aff00217e538e65c7c0df34ae31081f1f2|2019-09-23|Mark Skilbeck|Prevent non-constant params in lifted_gate (#1012)
+b9f050c6e33a036c10d6f984c3f0b0f29836d2e0|2019-09-21|appleby|Fix operand types for STORE and comparison instructions (#1010)
+9bdbd71f3b680490dc7199bd03e3b5783f7f1676|2019-09-21|Jan Lukas Bosse|Construct multi-qubit Pauli terms and sums from strings (#984)
+984b0c5b325ef5719a02ff17f19122ae43baf48e|2019-09-19|Erik Davis|Clean up bulk of remaining test suite warnings (#1005)
+6e8936a8186805af31b82a1ed95ff102cfec0cdf|2019-09-18|Erik Davis|Mark and skip particularly slow unit tests (#1001)
+396efc03b09336e1ddfb851b5620c52bd2eaaacd|2019-09-16|Erik Davis|Reduce deprecated feature warnings in tests (#998)
+795dded24205e514cdb30863161ececbce8c329a|2019-09-15|Mark Skilbeck|Allow non-gate instructions in to_latex() (#975)
+6e1cf53c728d1e824d115f43632ee36cd0824f9e|2019-09-13|Kyle Gulshen|Fix strength 2 orthogonal array construction (#990)
+addbde1702a04ef0eb4b8a42a8437078cbdca2bc|2019-09-12|Peter Karalekas|Add a contributing guide to pyQuil (#996)
+4548bbc3fb2f701075d69623b2db91273c1488c6|2019-09-12|Erik Davis|Add FORKED gate modifier (#989)
+4ca5180c7f515617e901a85fe5ba33f6a4a72e71|2019-09-11|Peter Karalekas|Set --use-seed default to True to make UTs much faster (#992)
+ee587aa6935f0053dd922f292fb179b3d1ba149f|2019-09-11|Peter Karalekas|Delete long-deprecated parameters.py and qpu.py modules (#991)
+01679dfd390dfd5227916bf5bafc773111db448a|2019-09-10|Peter Karalekas|Run the GitLab CI test suite on Python 3.7 as well (#987)
+c1fa8cf81e0ab314e3c5d8da1886ef400a0522c7|2019-09-10|Peter Karalekas|Add a feature request issue template to pyQuil (#986)
+0b025cf9179b5cf980ca5f9fd8f8a69fd8fd3cf9|2019-09-10|Jonas Otten|Renamed local_qvm, added options to start quilc and qvm (#976)
+c6d1d9604283d39c3cd1c1a932a0d45905fe286c|2019-09-09|Peter Karalekas|Add a bug report issue template to pyQuil (#985)
+17df439324c7cd5dfe516f880534509e636b2708|2019-09-03|Peter Karalekas|Update changelog for 2.12.0 development
+23885662a729440b69d4cec8efd067356e8e520a|2019-09-03|Peter Karalekas|Bump version to 2.11.0
+e74981f0787359db7080318ec324782d3673d7eb|2019-08-30|Mark Skilbeck|Undo erroneous logic filling out non-“ro” memory on QPU (#982)
+a245ab80c89e99e8469313abb80c9e75505ff45e|2019-08-27|Eric Peterson|Publish gate info to quilc in 1.10.0's new style (#961)
+0537a9ebdbb1c39487ff63e6f24762ee45edabb2|2019-08-26|Peter Karalekas|Update NOTICE to accurately reflect 3rd-party software (#979)
+d56b5103012ff25f3edf465099b145f5953cb61b|2019-08-23|jvalery2|Update reported device fidelity specs (#968)
+b1164e76071cfd047dbac4a599ddcc44a5e7d6bc|2019-08-23|Peter Karalekas|Refresh all Client endpoints upon running qc.reset() (#872)
+dc2b4acd80913633337ae22c4719ddaa86ece6cb|2019-08-23|Eric Peterson|Enable more memory regions on the QVM (#873)
+e424d86ec3068d3d7e8b042fdcc35b815b1922fc|2019-08-23|Peter Karalekas|Finish migration to upgraded markdown changelog (#973)
+b0548d5c5f4ee75d4bcd301202a872a9152d212a|2019-08-23|Eric Peterson|Remove requirements used for RAM-style sampling (#874)
+c4ec33b27438bf4263c16a9b2d0ff2ccfc627d11|2019-08-23|Josh Combes|Revamp running programs with readout symmetrization (#919)
+d6341f164dfe4435758cdff5e51e95522efa322e|2019-08-23|Mark Skilbeck|Rerun flaky unit tests once more when they fail (#951)
+db48623a5e332574e9dc45931224e98527bcbcb3|2019-08-21|Peter Karalekas|Link the release headings to source code diffs
+e87c8246365a048606daca0c5e696af065e6639b|2019-08-21|Peter Karalekas|Add pandoc to CI for changelog rst->md conversion
+fd464754a2ea473c90d4faeefef447cee66f2e15|2019-08-21|Peter Karalekas|Add GH user handles to changelog for last couple releases
+364bc7f1393c9aa42fd7155a8bf3c3652c72ee3d|2019-08-21|Peter Karalekas|Update the changelog with an announcement about this PR
+d3d8acd76d675318984c50a60180a9c2fd04ffac|2019-08-21|Peter Karalekas|Update PR template with new changelog instructions
+92e67012581586decb452ccfe1cae2dbdfa7fd7c|2019-08-21|Peter Karalekas|Use pandoc to regenerate the rst changelog from md one
+1c8423b962e97adc07f694f1f0dc6666cdab0035|2019-08-21|Peter Karalekas|Fix one missing level-3 header
+da6eb69e2b0066bc67704f9e5b68faae06aeaa33|2019-08-21|Peter Karalekas|Put the @ symbol before github usernames in md changelog
+4803c3d9dde5905dd9207e41a8daf5279d487e80|2019-08-21|Peter Karalekas|Use level-3 headings in the md changelog
+609096d0769483e17df28eda16ed55b31c9e6392|2019-08-21|Peter Karalekas|Regenerate the md changelog without RTD-only constructs
+27530bfa44d44e9609b3c9d604f6d4c060ada40e|2019-08-21|Peter Karalekas|Remove RTD-only constructs from the rst changelog
+42db453fed0590d610deb310fabafff02f8fdeda|2019-08-21|Peter Karalekas|Fix line length for PR template link
+47c095d7f11008386e64392aa4b385a6fcaefdf2|2019-08-21|Peter Karalekas|Fix some missing double quotes
+e5b338cd38a7e18f3f2a8ae83b97a6beefa2cb17|2019-08-21|Peter Karalekas|Update markdown changelog to match master
+a4b3613446f63251cb459102800f5960fd16ac23|2019-08-21|Peter Karalekas|Fix extra indent in v2.10 section
+e4515bd17242479b1f1fccec1e0b9ecaf2a3bba5|2019-07-19|Peter Karalekas|Add markdown version of the changelog
+a169103cec6a539d5c4f77637ed007ffa65a9459|2019-08-21|Peter Karalekas|Update the changelog to reflect v2.11 progress
+4419abc6c45b1bb804f4bc9b8465a06f5f024bd2|2019-08-21|Kyle Gulshen|Add merge_programs support for DefPermutationGate (#971)
+73ee056e155e4c9f33565c0cc9af1633d3565be9|2019-08-09|Max|Fix MemoryReference warnings in tests (#950)
+5b74c4ba2ef63f69f493c5ab1a046f8ccfa473d8|2019-07-31|Peter Karalekas|Bump version to 2.10.0
+07f69136dce81457722866814447e26bb9ae6b4b|2019-07-30|Mark Skilbeck|Add docs for program time estimator (#963)
+c4f0b194f3441001d4e57eafd3c26a57a8feaec9|2019-07-30|Peter Karalekas|Bump rpcq dependency version to v2.7.2
+f589d35cee0b015085c20c8562e56a30e14053e7|2019-07-31|Samanvay Sharma|Update QCS and Slack invite links in index.rst (#965)
+a19975adaea0329d383830cb06406fe7f5395d42|2019-07-30|Mark Skilbeck|Toggle protoquil compilation from compiler client (#940)
+0aed99c45d8aabf2f84c75a356a64703f838c9f9|2019-07-24|Mark Skilbeck|Modernize example notebooks (#820)
+87c5265b4966a3bb87839eb9ace62c9ad99460b5|2019-07-22|Peter Karalekas|Delete deprecated modules job_results.py and kraus.py
+8a0256e9ac8cc3df61cf0b11210c1fbfdacb0f12|2019-07-23|M. Sohaib Alam|Optional faster version of the operator estimation UTs (#928)
+6f0fff0f3872b9d1cca9dc02941c3ba0ba104d8a|2019-07-22|Peter Karalekas|Clean up and refresh the README (#949)
+ee7b173991646866f665ec8fd6b8956424e4a391|2019-07-19|Peter Karalekas|Add PyPI & conda version shields.io badges to README (#946)
+9ab1cad6dfbead580c7cc43019b9b8e971f07ce2|2019-07-19|Kyle Gulshen|Support for dagger when converting gate to matrix (#931)
+d60778ef0d0c8845fdb618613e12ac0a9e3d5410|2019-07-01|appleby|Fix sphinx warnings (#929)
+91804068f7fe16f1f13394e086cfa5548ba95cf6|2019-06-28|Peter Karalekas|Bump version to 2.9.1
+ed1bd32074a4c8047c1c05d19d4203b8337db05a|2019-06-28|Peter Karalekas|Relax quilc server requirement when using QVM / pyQVM (#934)
+db86678cc8e00ddbfa3970643f2e63260448f6e0|2019-06-25|Peter Karalekas|Bump version to 2.9.0
+2f55c6a42298c09a81d617912b026b2d872084c3|2019-06-25|Peter Karalekas|Update changelog for 2.9.0
+45dfa2dc2f0e2fe3eaa56a14dc417d070b5da3a6|2019-06-25|Peter Karalekas|Add note about changelog to the PR template
+61109243d9278b1a194f8cfb1eaa05c7b46059b2|2019-06-25|appleby|Fix inlinemath rendering in intro.rst + other small doc typos (#927)
+4fcb9c07bdf961b47e074cfec7e03edc14f706ff|2019-06-24|Mark Skilbeck|Use native Gate.dagger() in Program.dagger() (#887)
+290a57f7afc0e569c0bedfb460d1f8672dbc42ee|2019-06-25|Josh Combes|Persistent initial state in reference density simulator (#920)
+a66a3671a790ffde344c2e3619fdd4d2e51cae1a|2019-06-19|Mike Appleby|Fix mathjax macros
+96d6ca09289e32f37c79f50247652eba77b30b5d|2019-06-07|Joe Clapis|Ensure modifiers are preserved in Program.dagger() (#914)
+4f73efba8362a25cf944107a2ea1154a7a426270|2019-06-07|Joe Clapis|Make QubitPlaceholders & address_qubits work with RESET (#910)
+072ab46117ca50cf50c90ffdb14d91cbd2d1ab12|2019-06-07|Peter Karalekas|Add a pull request template to the .github directory (#921)
+3eb7ec834dd087df132371a710ca68d63ae5df46|2019-06-06|Mark Skilbeck|Parse negative numbers in instruction arguments (#917)
+23a85febbd0a0abb6b8f033bc1a7c4141c7f1de6|2019-05-29|Josh Combes|Bugfix negative probabilities in reference simulator (#908)
+385c00e52ef7f51849cb640ff700cdd9459e0c37|2019-05-20|Peter Karalekas|Update changelog for 2.8.0
+461062a7af7af45999c82417e01f7f013005d7d1|2019-05-20|Peter Karalekas|Bump version to 2.8.0
+be212d099d4078e6af2bac12cc369a245ccd85fe|2019-05-20|Mark Skilbeck|Parse and implement class for permutation gates (#891)
+7aa16d94d90dd20ec4f1e1aae6829e787eab3939|2019-05-20|Peter Karalekas|Check that QVM/quilc servers are running and compatible (#913)
+eb0eb60b9b4c1d5ce0fc194fa42f882a08e53d9f|2019-05-19|Mark Skilbeck|Raise RPCQ requirement to 2.5.1 (#911)
+5527e36c8b8257ef8e94c10f709d38c5e62dbb4a|2019-05-18|Mark Skilbeck|Preserve modifiers during address_qubits() (#907)
+29181337de5d1ecad8dc696800f867a4c4a25a08|2019-05-01|Robert Smith|add note about QVM's compilation mode
+7123caffdb3bce6e79937f0e2598a5da8ecb2809|2019-05-13|M. Sohaib Alam|Use Optional typing for some measure_observables params (#903)
+923a74f9194f52471ddf8965f028f4d4bad3ca84|2019-05-03|Peter Karalekas| Bump version to 2.7.2 for a patch release (#901)
+5449f9a824ac76e0044cba0f9bcf4a65ffbee901|2019-05-01|Peter Karalekas|Bump version to 2.7.1 for a patch release (#899)
+ec98e453084b0037d69d8c3245f6822a5422593d|2019-04-29|Peter Karalekas|Bump version to 2.7.0 and update changelog
+91c66c2f679e824b4a2c7978d44faeb49fa45f4e|2019-04-29|Sean|Fix Conda install command in README.md (#890)
+70c3b7215b93997ac87dd66dcff7ac61f4ee1ea4|2019-04-29|M. Sohaib Alam|Removing qubits as an input to TomographyExperiment (#896)
+f22a851d5803e0a6aa73b236c25d28a5fcdb0116|2019-04-24|jvalery2|Priority-Setting for QPU Jobs (#877)
+f8b5c8d5bf5ff60564815debe2ab599eeff6fe2e|2019-04-24|Mark Skilbeck|address_qubits now copies original program object (#895)
+341e28268db995c657133d2aba7b168c643907da|2019-04-22|Eric Peterson|Update pragma rewiring expectations (#878)
+d8d9f923a629eaa7289a2c07ecaa8afbf27b48ad|2019-04-18|M. Sohaib Alam|Replace std deviation in operator estimation with std error (#870)
+910dfe79b4b80e2b44b80281a136f18b1ff59716|2019-03-29|Peter Karalekas|Bump version to 2.6.0 (#868)
+4aad0ffe92bede38f06b441d55fa96524cdded6c|2019-03-27|Will Zeng|Add local_qvm to getting started docs (#851)
+96f9d07b6c5b22c49fd6aa5ec455754b61657095|2019-03-27|Will Zeng|Clarify time arg in delay docs and delay effects (#862)
+0d8c34ddab0d62646bc09c30cb5d520fe2c814ad|2019-03-27|Peter Karalekas|Distinguish between quilc and the QPU compiler endpoints (#856)
+84e1b2f79ba0861f0f0e8efe99dcc3162dc32ca9|2019-03-27|Will Zeng|fix notation typo in noise docs (#861)
+1b78217d886eaa6f76dd6ddde20cb77e7ef6fbee|2019-03-25|Peter Karalekas|Update the invite link to the Rigetti Forest Slack workspace (#860)
+ac7b691c852bf7d7822fd11c8417d03ea15352f9|2019-03-21|Mark Skilbeck|Raise IndexError in MemoryReference.__getitem__() (#819)
+d1e81a4ae6fc0a44d78b260035f2991b4cc89bc9|2019-03-21|Peter Karalekas|Add CODEOWNERS and move CODE_OF_CONDUCT to .github (#855)
+a3184bc809d21715ad6991862c2e7263b9ad35ed|2019-03-20|Peter Karalekas|Provide a 10 sec default timeout to get_benchmarker (#854)
+653e3c665c6a5fcfa7d10237665d88701c9962e7|2019-03-20|M. Sohaib Alam|Returning identity if pauli_in input to apply_clifford_to_pauli is identity (#849)
+883ae6d214247c10fe221c951e45adb3c577541f|2019-03-20|Kyle Gulshen|Fixed docstring for apply_clifford_to_pauli (#836)
+0c4d56a290e73afeb41da9cbedb3b8d18678d3e3|2019-03-20|Mark Skilbeck|Strict version lower-bounds on RPCQ and NetworkX (#828)
+87b9e82a1a4aba9638488f94476146712ebcbcb3|2019-03-19|Mark Skilbeck|Slice of Program object returns Program object (#848)
+9bf78863f949c5653e5c480e72593baf3c386ee8|2019-03-18|Peter Karalekas|Require non-None default timeouts for compiler objects (#850)
+a1f8f77c9fc8c7297531edca18ca11e494197c47|2019-03-14|Marcus P S|Ensure measure_observables takes as many shots as requested (#846)
+370d0fa729f56c9b3e95f76c329f3fe9106ba1a8|2019-03-13|Eric Peterson|bump version to 2.5.2 (#842)
+4be484e417396638d314138dde968e91b2e87f1d|2019-03-13|Alexa Staley|Fix ExperimentResults serialization (#841)
+5608b5c9448fd93f13f4f32eacdee51c58dcd35d|2019-03-11|c. b. osborn|RuntimeError when using non-engaged QPU
+0e83816027a92e289386846a876f12d47fa95090|2019-03-11|Eric Peterson|bump to version 2.5.1 (#838)
+e343ec55e0e801a4a89e46b8f80fabaef106d1b7|2019-03-11|M. Sohaib Alam|Fix meas obs (#829)
+4ed19ff70392d292ab2139de4ee45bf9d3174c54|2019-03-06|Eric Peterson|bump version to 2.5.0 (#824)
+f77213c496fa8316c5c257072c01e95adc0d2a03|2019-03-05|Eric Peterson|modify WavefunctionSimulator.*'s memory_map's type (#809)
+a36190b3d7261298750946c3c41b9edac5d4e98f|2019-03-04|Mark Skilbeck|Require classical_reg in Program.measure() and ilk (#821)
+08db5269fb09c083fe86d86c02f1ddb836a6920b|2019-03-04|Mark Skilbeck|Various doc fixes (#818)
+2687377d7ddf3509e904eadf19ac72218403be7b|2019-03-04|Dan|Rewrite language used in"An Important Distinction" (#817)
+6718ac794381aaffe348434c1228398f7995377e|2019-03-01|Mark Skilbeck|TypeError in PauliTerm.from_list
+1c1f47697d2fca596dfb6cd7cadc04476bf69857|2019-03-01|Mark Skilbeck|Parse CONTROLLED and DAGGER, add Gate.controlled() and Gate.dagger() (#808)
+347f0cf562c366b33e293770953d100fa9d3bb96|2019-02-27|Mark Skilbeck|Fix examples/run_quil.py
+c41a3bd446a6a55e06fe1bb252358f0cbd145c4f|2019-02-25|M. Sohaib Alam|Readout correction via symmetrization (#765)
+c7be1f37951a833dd87b471699d692a90b2f4585|2019-02-19|Lauren Capelluto|Update test in test_qpu to use SQRT, COS, SIN rather than sqrt, cos, sin (the latter of which can't be parsed) (#811)
+bb4d811c94bd8e2fdafe9b897110fcdeebaaf5a9|2019-02-15|Peter Karalekas|Bump version to v2.5.0.dev0
+32e93118c66aee724309472a702a7b20acb33e2b|2019-02-14|Peter Karalekas|Release 2.4.0 (#806)
+d2491183cbbb086b74924d6d239a6e7fbed71931|2019-02-14|Eric Peterson|Add quilc protocol check and update quilc server docs (#805)
+24b276ee09e7956d90a5aba6b7ce98cf5cff1ac6|2019-02-14|Matthew Harrigan|Skip pyQVM noise under the correct conditions (#801)
+df9e97bc86a1b185f3327298c3deb771d577d260|2019-02-12|Lauren Capelluto|Update endpoint to rewrite_arithmetic to match quilc (#802)
+61d4d6e4c485b280ceeeb7e8f83bc9e7f51adcb9|2019-02-11|Mark Skilbeck|Raise TypeError when .run() is called with non-compiled Program (#799)
+e0281640d2342c7e5ffd5145ab04d8e1544597db|2019-02-07|Matthew Harrigan|Define __iter__ for TensorProductState (#800)
+3f26ec119f80ba507c9be91716b4bc7f420ec75b|2019-02-07|Lauren Capelluto|Clear up usage of 'protoquil' (#798)
+4f99668fe841e42cf6a1f1fd586b598d7be3b8ef|2019-02-07|Mark Skilbeck|Remove quilc/QVM man pages from docs (#795)
+e963044bdd2edfba560edaac403b49804e2b8841|2019-02-07|Mark Skilbeck|Fix links; add reference to open source QVM and quilc (#792)
+92aca6d9d5142c55ddc8850e08d890a9e87708de|2019-02-06|Peter Karalekas|Use OSS qvm/quilc Docker images in gitlab CI services (#794)
+ad2fb1a658122af42bb2166fbb64127dbe04fe5e|2019-02-06|Lauren Capelluto|Hundreds of warnings are printed when running pytest asking for this change (#797)
+fbd32615177fd8e0ca0d697a06dc3cd31ee04327|2019-02-06|Matthew Harrigan|Data structures for specifying input states (#770)
+db42246e4cf0a7801a58250ab16629c27815997a|2019-01-31|M. Sohaib Alam|Greedy term grouping (#754)
+e813b9d496f06a75c4a778cec92f2d55e921db82|2019-01-31|Gavin Crooks|Fix type checking (#612)
+b1ff47b920935b7e00db3080ec56104a9b52bc1a|2019-01-31|Eric Peterson|add memory_map argument to wavefunction calls (#787)
+4c7a33ad978b4679064410da96b65e556e7e1383|2019-01-31|Matthew Harrigan|Revert "Revert "remove Local variants of QVMCompiler and BenchmarkConnection (#730)" (#781) (#785)
+fa042c76543ded3928db185a780b28755a97d246|2019-01-31|Matthew Harrigan|Appease new flake8 warnings (#790)
+eed64fca93d5c7d64b92ac0f5134b4e546c490dc|2019-01-28|Matthew Harrigan|Bump to 2.4.0.dev0
+e3fb8a767baa59c6a6fc619929ee0fdd10c54824|2019-01-28|Matthew Harrigan|Release 2.3.0
+4ba20944ad876569e39f8f4be3b47984e0407ad7|2019-01-28|Matthew Harrigan|Changelog for 2.3 (#780)
+d32c9dac85c3441f8789667f2c5de19d8d321dc9|2019-01-28|Matthew Harrigan|Fix bug mixing flags in get_qc (#783)
+6689fe1752d298d663acce26592980bb419361ed|2019-01-28|Michał Stęchły|Fixed typos in basic.rst: "Parametric Compilation" section. (#784)
+544740b31283b132ff2cd1f34377c88ce1e30317|2019-01-25|Matthew Harrigan|Dead code from merge conflict (#782)
+af3edaf3330c6a584af447e9d137a2e41f23ed67|2019-01-24|Matthew Harrigan|Revert "remove Local variants of QVMCompiler and BenchmarkConnection (#730)" (#781)
+f253fb5cf15034f908cb847fc11c751d25226d3e|2019-01-24|Eric Peterson|remove Local variants of QVMCompiler and BenchmarkConnection (#730)
+470bf6ed0620b2ef20ededcfb7f52a044012daf3|2019-01-24|Lauren Capelluto|check user lattice name vs compiler lattice name (#771)
+f1fe6def4077670da0e61f3b8ad088ac215f9718|2019-01-24|estamm12|quantum die program (#749)
+978b4e07332c8ce70493827d8addde9906c25db9|2019-01-24|Matthew Harrigan|ensure_ascii=False (#769)
+715d9abb0632c2cdde4394ee14c0ccc406d1123d|2019-01-24|Matthew Harrigan|PyQVM (#552)
+8d620e07a019a4df1682f61ee78811456c839af3|2019-01-23|Mark Skilbeck|Update teleportation.py
+5a645a7053e53da28cb076f437014f8540f061c7|2019-01-23|Mark Skilbeck|Missing memory_size in meyer penny game
+6df917485f3a7fc8af275a95862d1c1b3c5e3465|2019-01-23|Mark Skilbeck|QVM now has a single version rather than two
+9f7d4d52e4b1eba6fa883c53ee89f9cb3826ddaa|2019-01-23|Mark Skilbeck|Update tests for uppercase quil functions
+1c66830f5cba1f90738ba608508f2616ab01da73|2019-01-23|Mark Skilbeck|Update parser to use uppercase quil functions
+9648049b48be9afabb409c92e22839686910d63b|2019-01-23|Mark Skilbeck|uppercase Quil function names
+b8083a7d06ccc61eaf818488f5dda446aa9df480|2019-01-21|Matthew Harrigan|Update changelog (#760)
+5e8fe014302e5b8e46fb71b5f477d71906f4f131|2019-01-20|Matthew Harrigan|Store counts in operator estimation results (#756)
+0c7d2061c1c352a788e381586804bc8104e261b6|2019-01-14|Peter Karalekas|Change gitlab CI tags and use a global Docker image (#761)
+adf04c9b1aa074c67bb34ea06d7f18ee06bbdfd7|2019-01-14|Matthew Harrigan|Fix handling of identity in operator estimation (#758)
+25515d95a481507cf9a45b0892288dccea6ddc7c|2019-01-11|Eric Peterson|reflect quilc URI strictness (#759)
+9ab66bf2b9f6867ae51951496f2bc4db2cb3bc84|2019-01-09|Lauren Capelluto|Gate parameter arithmetic (#707)
+3fbe1873a2f1b45f430fb5112d998cc1f1b1655b|2019-01-08|Peter Karalekas|Add fCZ_std_err entry to Specs (#751)
+f00e43c512862e18909cf628216ab3f64d1329e7|2019-01-04|Matthew Harrigan|Bump version to 2.3.0.dev0
+f957e8422ac180963250b3192b4783c19b9989d0|2019-01-04|Matthew Harrigan|Release v2.2.0
+10e75ef7100352194da59a0d8f7d30bf0ff521c1|2019-01-04|Matthew Harrigan|Changelog for 2.2 (#753)
+7f38f0010b960fbf3a93bb7ec48c392373221d34|2019-01-03|Peter Karalekas|Add qvm/quilc to the unit tests with gitlab CI services (#752)
+6b0d03db3f54d150c86838e6393cefbcedeebdfa|2019-01-03|Peter Karalekas|Add .gitlab-ci.yml for running unit tests using GitLab CI (#741)
+96cac7fae1405deb7d81c59bc1ef8d744ce4b242|2019-01-02|Peter Wittek|Extra parameters for writing a LaTeX to enable generating a PNG image (#750)
+c9fc26774d0bc3bfb5748cfa2a0f81e4ba4b08d4|2018-12-21|Nikolas Tezak|Fixes #744 correctly account for T1 in T2 noise model (#745)
+98dec8330958af4723b7befb51345cea182a886c|2018-12-21|Matthew Harrigan|Pad + and - with space to disambiguate from hyphenated variables (#743)
+ae27fc247bdbbc053b0bcfcded0266d5a0dad12a|2018-12-20|Zach Beane|Update barebones install directions to cover ZMQ (#742)
+78200fc509baee9b230396350a40e6b796728558|2018-12-18|Matthew Harrigan|Operator estimation (#682)
+972b1da083791b3c00aa1631ad884d3bdad1f5c4|2018-12-17|Keri A. McKiernan|remove redundancy in checking the validity of a program (#734)
+e8189cadeafd5b1a234c25ed5eeebab61dd268c8|2018-12-12|Lauren Capelluto|fix issue causing code blocks to not appear (#733)
+0eb85e0097f636c580041a40e4908a3c891cbc0c|2018-12-11|Matthew Harrigan|Refactor get_qc helper functions (#731)
+97867bc290d0eb3e6727a7c2f70e054255e6853b|2018-12-11|Will Zeng|add rpm dependencies install command for local SDK (#732)
+06f6f70ba27ed55a30518dc2c3da7ab718341467|2018-12-06|Matthew Harrigan|Update GateNoiseModel (#728)
+121d5cf5ef9a7e72a70609eb84c63b3147648cd0|2018-12-04|Matthew Harrigan|Vendor backports (#725)
+db2b9cc4e3fa85d11b579293ec7d738247b364a3|2018-12-03|Lauren Capelluto|Add information about QuantumComputer (#719)
+a190164c2ed8522510b2dec8e3a9b0ff3b4abf58|2018-11-30|Lauren Capelluto|Document what happens if parameter value is not specified (#720)
+604bf264ef522f721aa2ab7ee36dd007e095f732|2018-11-30|M. Sohaib Alam|Fix is zero and identity (#710)
+a96e64222a1b728384f6a9426620dff63d7e2fd6|2018-11-30|Ryan Karle|Fixing README (#723)
+dd5773cf35c3cad037176508c71f0aab14e72ee5|2018-11-29|Matthew Harrigan|Bump to 2.2.0.dev0
+a8631006e07dc6b7e60cb73c6ab6cd3a5b5deb03|2018-11-29|Matthew Harrigan|Release v2.1.0
+b5c86b3a1f0e79128d9138bede3e9c3c9b2a7f44|2018-11-29|Matthew Harrigan|Changelog for v2.1 (#721)
+cc35a05faf0e0b85d09187ee14b750be3886cc07|2018-11-29|Matthew Harrigan|Spruce up docstrings (#714)
+54160bb5e82972c782e0f2c03adcd3e59f047fb2|2018-11-29|Peter Karalekas|Update all instances of our org name from rigetticomputing to rigetti (#713)
+b8fb74d68ae1ee4e72eae56482a111e2eb4e1117|2018-11-27|M. Sohaib Alam|Small doc-string/code improvement for check_commutation (#708)
+3730c8c887f18a72e9ae3c4262af4d3e0e55387f|2018-11-27|Peter Karalekas|Bump rpcq dependency version to v2.2.1
+992eb416d029bfce2be7e0d34062400408946c6d|2018-11-21|Matthew Harrigan|Migration docs (#575)
+d7fb66e997ea1ebf8fa64889bfce83a3b4c1c1d6|2018-11-20|M. Sohaib Alam|Removing redundant (and confusing) code used to calculate powers of PauliTerms (#705)
+c354971c78115f7915cd1b2f1c7a78466bd14e08|2018-11-19|Mark Skilbeck|Fix quantum die example (#706)
+5cdae9e8d4fc308a008a7d42b47304cd807833d7|2018-11-19|Peter Karalekas|Add reset method to QuantumComputer and QAM to return to initial state (#703)
+fdfbde99cd92dcc7fc9d973a60bcb84b31addac1|2018-11-19|M. Sohaib Alam|Minor code clean up for python 3 version (#702)
+196e6ca5776ce878b3f022bc01e4c3199332086b|2018-11-19|Lauren Capelluto|Remove extra paren (#699)
+4ec399d2a3f6a6cd24671a3a9a0de95db770897c|2018-11-16|Amy Brown|Fix broken parametric compilation link (#697)
+58878016fe901712bef9265df13282aaca2af0cf|2018-11-17|M. Sohaib Alam|Fixing while_do(..) to be compatible with recent changes (#696)
+3dd3465a10deff5e95838b65041e6add1362a573|2018-11-16|Matthew Harrigan|Api docs 3 (#693)
+aff776014e19518b9940fb0fafa1c1d525ef6e1a|2018-11-17|M. Sohaib Alam|Docs intro page (#651)
+e5a22aa9835b53f1c4499a6124db416ef26248c8|2018-11-15|Eric Peterson|add an interleaver option when generating an RB sequence (#673)
+7886e578d031073a3d554af1cf59fa7dfd1b914b|2018-11-14|Eric Peterson|Skip logging unprotected calls (#666)
+e6679ebc10b743dd412b817a583603db5f3ff542|2018-11-13|Mark Skilbeck|Add circuitMeasure and circuitResetState to grammar (#685)
+6cba1397b64abe0bb3ccedfb0a4495e998139239|2018-11-13|Felix Tripier|Fixes quil.py comment typo (#691)
+0f11c4db201843a7c6cf3dae78bb6771aa171f6a|2018-11-14|Tim Tlyachev|QVM docs typo (#688)
+de221d5243f24678100955835666044a726fe14e|2018-11-13|Mark Skilbeck|Fix parsing DEFCIRCUIT without qubits (#689)
+573d5ae64bbc594917ad46885fca0d8f5f3fe0e9|2018-11-09|Lauren Capelluto|Move section on parametric depolarizing noise from advanced usage to … (#676)
+035f9e839374d4435086a8158a556e7b4ade7914|2018-11-09|Lauren Capelluto|Add coming soon message (#684)
+ee6a50541c3a0ea9d9c004553e32854f4207f3ca|2018-11-09|Matthew Harrigan|Api docs 2 (#663)
+b851e5b8832843dc5ea9091aada494e2975a0706|2018-11-09|Lauren Capelluto|Update pauli operator algebra section (#679)
+bd862e4f900bfefad6874ee051fc236e90c3c643|2018-11-09|Lauren Capelluto|Parametric Programs have been deprecated, this section is about migration for anyone who used it, so it is being moved to migration. Otherwise, this feature is documented in Programs and Gates (#678)
+365431a9f7cc1409e7dcde4fdaf81a8789633ced|2018-11-09|Lauren Capelluto|Bring QubitPlaceholder and Classical Control Flow up to date (#677)
+78988537a5682c379db5daeafabd2aa1d759298d|2018-11-09|Matthew Harrigan|Sundry (#674)
+f76022497a10ce834dff9c0ab6c60b0298fd130c|2018-11-07|Lauren Capelluto|further improvements to meyer penny game (thanks to Keri)
+6b3d760bfb66f845d5ed2255a9758e26a450fc7f|2018-11-07|Lauren Capelluto|Fix the Meyer-Penny game example (#664)
+3e762924e66bd1b3469808572b9d375e60ac4280|2018-11-07|Lauren Capelluto|Add config file documentation (#672)
+c19fd06b0e6932644debd46dcd3228599543c48b|2018-11-07|Lauren Capelluto|Improve QFT exercise (#671)
+042b7a8bb63af1687f11039a7c11082884c0551a|2018-11-06|Lauren Capelluto|Add man pages, cleanup QVM page (#669)
+300901eccf91edf709d898166dff5088c37399ff|2018-11-05|Lauren Capelluto|Move some docs subsections around (#662)
+1f7cd95deff606ebbe3ad0c1b70e0abb1739ffc0|2018-11-05|Lauren Capelluto|Add information about PRAGMAs in programs and gates docs (#649)
+a736f833a6db6a4803f630aac8821fbe17d7a69d|2018-11-05|Peter Karalekas|Add optional memory_map parameter to QuantumComputer.run (#657)
+cd148f4a2c286e23d0c7667592a061f8c09e8371|2018-11-05|Lauren Capelluto|Add section for parametric programs, add line to fix formatting (#648)
+b2e0f67cf35f321fe22795b3aa504c6da807b862|2018-11-05|Matthew Harrigan|First batch of API docs (#641)
+849a8516b41860d630c272e238899e2fe51d514e|2018-11-05|Lauren Capelluto|Move exercise into exercises (#653)
+fcc5f55f0344927cad9c854ec946e23364ca50d1|2018-11-02|Lauren Capelluto|Fill in measurement section in docs (#647)
+9d7c49d0704185ef3959e608bd6845f083710371|2018-11-01|Lauren Capelluto|Add content to 'Declaring Memory' subheader in programs and gates docs (#645)
+fa20d6acba335bd4177e4a2a79f366629abd1f41|2018-11-01|Lauren Capelluto|Remove '--pre' from pip install (#644)
+d9d4e4b9c03b065cf3bd2e0f10088ad61a26b190|2018-11-01|Matthew Harrigan|Bump to 2.1.0.dev0
+301ecc7b310a64f93a588c18348f0986a9ea81bd|2018-11-01|Robert Smith|improve compiler documentation (#642)
+f2df17f392606e4878ee097c98b64863c5956c94|2018-11-01|Peter Karalekas|Bump pyquil version to v2.0.0
+22d96f66a0cb2b7e75c7f059275e1b47507b15f9|2018-11-01|Matthew Harrigan|Changelog for 2.0 (#643)
+eea6f58ddc3fdfb4673338e3cc4cda59f7fda38e|2018-11-01|Lauren Capelluto|Improve programs and gates docs (#639)
+9d3f4c02654446ab6a466eba12190b37e9ed76f9|2018-11-01|Matthew Harrigan|Use ForestConnection() to all connections to forest (#632)
+e1983e43224281e93dc0243596a2ba40a15afa88|2018-11-01|Peter Karalekas|Rename the QAM method read_from_memory_region to read_memory (#633)
+fdc772100d4062316f06f3954e2bf9a4c0133bf9|2018-10-31|Lauren Capelluto|Add message about setting up server mode that its only necessary locally (#631)
+afddee1a6bd27c2c6c055a293dff73094d946478|2018-10-31|Lauren Capelluto|improve getting started (#628)
+655756ccbca5dd80ca3f5dcffb20d5dc1fc512e1|2018-10-31|Ryan Karle|Fixing Index and QVM files (#614)
+7008699433f3343b1f168ebb5c71353a2ae2a237|2018-10-30|Lauren Capelluto|Improve installation docs (#626)
+b930caa3afd74802a6dfd1303d405ed1f22762d6|2018-10-30|Lauren Capelluto|Move QubitPlaceholders into advanced usage, reorder pages in index (#627)
+6f0ec01828dab6118c70c0c1ae3af2bdbf7fba86|2018-10-30|Matthew Harrigan|Un-pin reqs in `install_requires` and bump rpcq to v2.1.0 (#624)
+c664efce016c49212cce11876e6bf45163d660b4|2018-10-29|Lauren Capelluto|Fix swapped names in readthedocs about qcs_config and forest_config (#613)
+355f0c02e17a61dfadbd5b591279606fa0998cef|2018-10-29|Peter Karalekas|Bump pyquil version to v2.0.0.dev2
+abbf7eb74f0bb320e4914ee270d95ea0d30ce528|2018-10-29|Peter Karalekas|Bump pyquil version to v2.0.0b8
+739a3f52ddc8c6d622d60adf6fd7ba2aae061e69|2018-10-29|Peter Karalekas|Add multiple measures restriction to validate_protoquil (#623)
+f5fd474481523c127d2ad6ed3f00dcb8ccb859fb|2018-10-29|Matthew Harrigan|Nix old ParametricProgram (#619)
+5d47d4a43209a9a670f7f6cc8a8c24db31aab273|2018-10-29|Matthew Harrigan|AbstractCompiler.get_version_info not as "abstract" (#620)
+442c174ce0b55b10324adf08c8fe3aa8e5110913|2018-10-26|tmittal947|Update quantum_die.py (#601)
+498d68492ba4f9a9b0a1ddf47021362574cc9c9c|2018-10-26|Gavin Crooks|Minor fixture scoping bug fix. (#618)
+82270ed464fc6128afbc34149dedf382a875a408|2018-10-26|Gavin Crooks|Update examples for pyQuil 2 (#611)
+bbe845e98c4fdad0c92e42d767445865232c1f32|2018-10-25|Matthew Harrigan|Potentially realistic compilation behavior (#597)
+28dcc0ae5b960006a6cc4f1131cb51562192b969|2018-10-25|Peter Karalekas|Bump pyquil version to v2.0.0b8.dev0
+2ee6f371317bf526177a339d77427cbd52014f28|2018-10-25|Peter Karalekas|Bump pyquil version to v2.0.0b7
+bbbc69ca3222d47e490db5ecd7ddde4d7adc9b59|2018-10-25|Peter Karalekas|Bump rpcq dependency version to v2.1.0
+9062e0d03d0b98017ca6064bdc0e8358df82560a|2018-10-25|Lauren Capelluto|Allow QVM to run programs which don't have measurements without raising 'ro' KeyError (#610)
+371ec4199260ac2bae1dbd1f458a494bbe201434|2018-10-25|Gavin Crooks|Remove deprecated async api methods. Fix for #578 (#606)
+b79316f69064849dc5fdc8d896c54f5c8f9abd70|2018-10-25|Matthew Harrigan|Fixup bitstrings as ints (#605)
+6b2ba542829e45163cef837fc63d44d477b30fb2|2018-10-25|Matthew Harrigan|Bitstrings as ints (#604)
+5db299530426a811dbc838bdb6ed6ec4f09eee44|2018-10-24|Lauren Capelluto|Give a better error message for missing config file (#590)
+db3bf430680fe974bb83ca67fc03f6b50414f3e8|2018-10-24|Peter Karalekas|Add version information facilities for the Compiler and QPU (#591)
+2f09bc94fe49e810b75366e040ff5e1772fb67fe|2018-10-24|Eric Peterson|work out kinks in list_quantum_computers (#589)
+701b553ecfd359755e307e8effe36e9d9d06bbcd|2018-10-24|Peter Karalekas|Use the qcs_config user_id when initializing a QPU backend for a QuantumComputer (#592)
+f223073cd5f2ba61492be36fe752a64b3093f15a|2018-10-24|Gavin Crooks|Fix 605 flake8 errors due to incorrectly encoded LaTeX escape sequences (#594)
+b8fcb3e33524bf6efba409803747b51e218d71d7|2018-10-23|Lauren Capelluto|Update protoquil definition / checking (#581)
+e7b58722f6739f6ead7e4db6751f833faf9af3db|2018-10-22|Gavin Crooks|Add context manager for local qvm and quilc (#576)
+28156ae2b71c697213dce8b122b23b43ae9a1786|2018-10-22|Gavin Crooks|Fix typing errors (#577)
+8eb5a29bd42658d9c29f05caf82acee7ec7ccc24|2018-10-18|Matthew Harrigan|Better non-device-backed qvm's (#571)
+a0bde877ab5ddec6e833190909f775e4550a05ea|2018-10-16|Gavin Crooks|_quantum_computer.py: typechecks and tests (#570)
+bc968bb238152d514b1bde8aa0c2aa82f260bffe|2018-10-16|Peter Karalekas|Bump version to 2.0.0b7.dev0
+df26ac758c6a38f2e0128e3511db009f0764947f|2018-10-16|Peter Karalekas|Bump version to 2.0.0b6
+c9e5b153b60bf2e811f242e711d6a08b95db1ea5|2018-10-16|Matthew Harrigan|Fix some tests that are only run when a local QVM is present (#568)
+d13a45e5ce0a09d5d7f1067ca7d4a089dc023b5d|2018-10-16|Matthew Harrigan|Latest attempt at figuring out the best semantics for run_and_measure (#561)
+3de33fa5880507e5ef47ac3cf5cfd46eb24dca6a|2018-10-15|Peter Karalekas|Add facilities for getting version information from the QVM (#567)
+962f0c6999d62c3e2884d1aa99381d3364db2bcd|2018-10-14|Peter Karalekas|Bump version to 2.0.0b6.dev0
+46e3ffbe12b1e562702d986b6c52ca9ff2358c40|2018-10-14|Peter Karalekas|Bump version to 2.0.0.b5
+eea4b1b251253f57796f95a46f96a4516d203501|2018-10-14|Peter Karalekas|Updates for rpcq 2.0.0 (#566)
+7e5ee9b785d04e32f7e9c4884f3dad35a1484058|2018-10-13|Peter Karalekas|Add dataclasses to requirements.txt and setup.py
+c03588a492b5be05e5d4dd60958849f444aa120f|2018-10-12|Matthew Harrigan|Fixup bitstrings -> _bitstrings rename (#563)
+063f598c8429611103f708c253f341cd6dfc0cf2|2018-10-12|Matthew Harrigan|Update QAM.run() (#562)
+cdb0c5fa8919db76a613595b633920a9e0a48269|2018-10-11|Eric Peterson|change default compiler/qvm endpoints (#560)
+959f766b1fced4f27c30251f1b78b694a2415326|2018-10-11|Matthew Harrigan|Bump version back to 2.0.0b5.dev0
+31b911e5070ee392d1c5dd6e5f432e8659012c8a|2018-10-11|Matthew Harrigan|Bump version to 2.0.0b4
+a3ba621bcb255c168d940682988f414f2d9da054|2018-10-11|Nikolas Tezak|Improve QPU readout result unpacking (#559)
+d8dd4cc5628390fd5799f77616091a92d056499f|2018-10-10|Nikolas Tezak|Rename the relevant forest server route and response keys to 'lattice(s)' (#558)
+73104c41075f98c35c85e56f9aa3177f57150580|2018-10-09|Matthew Harrigan|Version back to .dev
+de68bdc858cdd8e933ea5828e9c5bc911a6e6d6a|2018-10-09|Matthew Harrigan|Bump version to 2.0.0b3
+bcbc044e160b21d3870c42e45262819b9e8c59dc|2018-10-09|Gavin Crooks|Fix various type check errors (#553)
+b41aec89109b161632ebabbee5a4316f394558a8|2018-10-09|Keri A. McKiernan|fix h2 examples (#551)
+58bf11780cf6a29e6544d31f3aa00885532f4561|2018-10-09|Nikolas Tezak|This allows to QPU-compile programs without MEASURE's (#556)
+6743460f6912c245b42329170ad5745cd2f78a6f|2018-10-08|Nikolas Tezak|Add get_lattice API call. (#557)
+0b87b75e482e23bfb8bcd2d6f8131fb079f0953f|2018-10-03|Matthew Harrigan|Build docs on python 3.6
+5a653d0a6f0c97109254b043e9697675b5863218|2018-10-03|Matthew Harrigan|Set version back to dev
+cbc27a811f086b4706ec44b0dd79906eed03ac6a|2018-10-03|Matthew Harrigan|Bump to version 2.0.0b1
+6f9d4f170e2e3a92b272cd15fbec8b7b1c488965|2018-10-03|Steven Heidel|Add code of conduct (#546)
+a952c3df9afaf40b076734a9a37f93d09d3b399f|2018-10-03|Matthew Harrigan|PyQuil changes for Forest 2.0 and QCS (#547)
+6d3df314f44bcf85750d32aeea16296a40f756f8|2018-09-10|Dave Yen|Updated link for signing up for an API key (#540)
+e3ceb70bba590e4763c0599c86aeecfd7c46dcda|2018-09-07|kylegulshen|Added general pauli kraus model and its insertion into a list of programs. (#524)
+4441cd414178262d0fb90beb0f673b777f4dd5ce|2018-09-07|ryankarle|Qpu update (#538)
+fc92a06e2b922190026b05339a0d6b20e2bc5bc7|2018-08-31|ryankarle|Fix qpu docs to reflect changes to ISA (#535)
+5370cfbb64a5fcf0fa0be90bee8a1db4aadcbd18|2018-08-07|kylegulshen|Added seed argument to generate rb sequence (#525)
+0a4914fd8dd9e49e71eb9c470e7794e730648d82|2018-08-06|Matthew Harrigan|get_qc (#517)
+fe5fa00b7a832d1fd610bc7b44706e3a479e0769|2018-08-02|Matthew Harrigan|Add readme for readme.md (#521)
+d441e38ff59235f7fe01062eb4478b11763f0e56|2018-08-02|Matthew Harrigan|Remove old test infrastructure (#522)
+a8cb7f64f19dbc162d3a5ce080c39d78f7411aed|2018-07-31|Steven Heidel|Fix defcircuit PyQuil parsing (#513)
+dae56ef902235a2b59310ac64959a057d9b43a69|2018-07-30|Victory Omole|Change print to python3 style and add link to jquil (#516)
+a0f250c5740811ce923998fcb71b0e3141435fae|2018-07-23|Eugene Dumitrescu|Update __init__.py (#511)
+a972b2f834ed6eef3c0ab33ef7f0f157922c8873|2018-07-20|Matthew Harrigan|Move the borders between qpu and qvm (#504)
+f53e188a3c32aa4c77d4c55e0c496adacaa15f8e|2018-07-19|Matthew Harrigan|Initial faculties for testing against a real qvm (#489)
+4ec53a46055417842becb55df1bdc46178a2d762|2018-07-18|Lucas Saldyt|Exposes custom gate list (#510)
+1b0246e956f12c1280fb4cf694a2819e029e2725|2018-07-18|Matthew Harrigan|Update quilbase.py (#506)
+8ca6b1909737a168dd1f05ccf399151531f125b6|2018-07-16|Victory Omole|Fix typos in intro doc. (#509)
+5c9359f6b380b6cebdec6d24e48515ec8e3550d9|2018-07-10|Strikeskids|Update compiler docs for new rewiring behavior (#499)
+c53c55fdd4149e6a5a6ea4a402c746d9dc90953f|2018-07-09|Tomas Babej|Support throwaway MEASURE instructions (#498)
+369c944f22d00d987b0099012a9292243781906a|2018-07-09|Matthew Harrigan|Spruce up setup.py and ilk (#496)
+41e6d8200432a55d2080b986a6256aa51fbdcf8b|2018-07-09|Victory Omole|Make Program += gate more efficient than the original implementation (#495)
+250f92cbbcb7eafe6e60d83527ae0e88e8392296|2018-06-26|Matthew Harrigan|Gates as normal functions (#487)
+1073915b3dab3bfac41d0d96d8697d75472b8127|2018-06-26|Alexa Staley|Pyquil/restore 19 q specs (#490)
+61e7a4a774b79866733713fb13d14e329ba2d949|2018-06-21|Matthew Harrigan|Top level imports (#486)
+d8890a746667941ee954d2c8b5fcbba62a4b2083|2018-06-15|Matthew Harrigan|Fix qubitplaceholder doc rendering (#482)
+94c587fcb3d25cfaff0931ad0afe5664d5466f3c|2018-06-13|c. b. osborn|feature/endpoints-envvars (#478)
+a96cd4eabc2767f1ab90a4926810abab1746f006|2018-06-12|Victory Omole|Clarify that repo needs to be clone in order to execute run_quil.py (#477)
+21335f25d62c9951d77f1eba01ccd13012facd00|2018-06-12|Will Zeng|Fix return type docstring on QVM wavefunction API (#472)
+a1f7b3c62ab4c6064104e67f4c00f850b4dba8e4|2018-06-11|Ruslan Shaydulin|Fixed issue #464: nice API for job running time and time in queue (#470)
+c51bdc99dc0057fa23e99c383fdadc12c59450e7|2018-06-11|Eric Peterson|Docs: reveal parser (#471)
+bd342d0f20d42b6967e88961686cfefbd4434f99|2018-06-11|Matthew Harrigan|Robust pyquil-config-setup (#468)
+39f8050af8cae840cd85dce655935c8d17c1c74f|2018-06-11|Matthew Harrigan|Python 3 only (#467)
+a69893d4f100e3eb1cd5fa3bb147e53962bca895|2018-06-10|Matthew Harrigan|Single source version (#461)
+3323033177b94845b7722854f7382bd3351ed52b|2018-06-08|Nikolas Tezak|Improve error probability computation in  noise.damping_after_dephasing (#458)
+5aa78ba3fddd0da04afaf139f1079559d8701ce7|2018-06-07|Matthew Harrigan|Delete main.rst (#463)
+d3c8a603c41991068dff9bba5111259fec73babb|2018-06-07|Steven Heidel|Initial commit of @magicquil (#445)
+b067c0ba52514fd6b3ac1fb3197b12e898ac869e|2018-06-07|Eric Peterson|Feature: dynamic parameters (#425)
+80c22709c6b7860bc7776708298c1d4795aa6feb|2018-06-07|Matthew Harrigan|Bump to 2.0.0.dev0
+5cca65afe2eb60dc5dd68e1bc4bdcc81d016a772|2018-06-06|Matthew Harrigan|Proper markdown for changelog (#460)
+8abbfde544531abad0e5645d0d9d72fca45459cc|2018-06-06|Anthony Polloreno|updating changelog for rb (#459)
+d51c937f443942258dcf13a9d2da6672934a9305|2018-06-05|Matthew Harrigan|Update changelog (#418)
+5302151d809903948e6af4d9c3970d638d99c70c|2018-06-04|nimaalidoust|QPU and Compiler documentation update - 8Q-Agave (#456)
+746db634d832aecfc82fae95baed92712a9c2a9c|2018-05-30|Matthew Harrigan|Switch to 1.9.0.dev0 (#453)
+fa072344369f033c2fb1369945d97bfc2bcd7003|2018-05-29|Steven Heidel|Move connections to their own section so that it is more discoverable (#448)
+c41cf7d900f9b6e9bd184c16346c9defc414b7c5|2018-05-29|Nicolas Ochem|fix broken link (#452)
+3d2d5439d6773681e12fbafcf40bddc37cea18c2|2018-05-30|kadora|Fix quantum_die example (#450)
+404f3ca9fa75774aa792c5dae579d2cbd6787e31|2018-05-29|Anya Petrova|Fix broken link in documentation (#447)
+e3fd7b9f3188e820dd19ff487dbf56c8faf43822|2018-05-24|Anthony Polloreno|adding support for qubitplaceholders to pragmas (#440)
+010faff4df3ede4b726037b384fb40fb6016b5ac|2018-05-23|Anthony Polloreno|Fixing cliffords again (#443)
+65ce4535830d726046dfd60a5e80fb0580663cc6|2018-05-22|Will Zeng|Fix forest link in pyquil_config_setup (#441).
+9b3954f79eaf7ef0755f539c27ee8251058cee47|2018-05-17|Matthew Harrigan|Prettier str() representation of QubitPlaceholder and programs containing them (#427)
+8e9cfeebe365076d5eb04d2bca38d0b8397d187f|2018-05-16|Matthew Harrigan|Make sure `depth` is int in `generate_rb_sequence` (#437)
+84c1c09894c8ed3797c5a1e3fb1812f9d29f0cc6|2018-05-16|Victory Omole|Clearing up the instructions for the first program in the basics tutorial (#436)
+190749e22a448d12cab253d92b0b25ee2eb8bf47|2018-05-13|Victory Omole|Add a condition that checks if a program is empty before running (#412)
+31c540586ae2ae5b3cf3a6f93a2016c81b6d435c|2018-05-09|Nikolas Tezak|Flesh out explanation of 2q gate fidelities quoted in QPU docs (#433)
+c5a10e4a2ed4c76aa80139862d6ed5c1f7ddd96c|2018-05-09|Anthony Polloreno|More docs for rb, and reversing return order (#428)
+4fa35c31b62bc44dfcaa2711f7082596e9d36ca4|2018-05-07|Matthew Harrigan|Include info when raising NoisyGateUndefined error (#431)
+716e36881dbd03840d3baf8c787a6ce29b281514|2018-05-07|Matthew Harrigan|Support QubitPlaceholders in generate_rb_sequence (#426)
+f892763ef5dce92672e111f98cdade4f07723022|2018-05-04|Matthew Harrigan|Allow on-the-fly specification of compilation ISA target (#423)
+c147eb4f9417af72b5f396b2859506524ecf5bf4|2018-05-03|Nikolas Tezak|Fixes #384: Allow gate angles to deviate up to some tolerance from k*pi/2 (#421)
+9612be90f91405ecbc089b3496f1c85d9c177cc8|2018-05-02|c. b. osborn|Updated acorn images. (#420)
+bd0932ec6b686e5d5469974f23538f3dd468659b|2018-05-01|Alexa Staley|Updated Acorn ISA and Specs to QPU.rst (#419)
+f45d6e741493d0ddcdb721fb320cffd06acd9b4b|2018-04-30|c. b. osborn|docs/qvm-qpu-cleanup (#411)
+f8404a7f88a61b7c7aef6fb97248a7301d7151e9|2018-04-23|c. b. osborn|Refactor Getting Started in the docs (#410)
+9d9448f1a0fc31b2a39e16132d0f960dcbd27b94|2018-04-23|Eric Peterson|elaborate on pragma functionality in RST docs (#409)
+9e3e8e5461caae91fc0ff5f1e68f377457eb608a|2018-04-23|Matthew Harrigan|Document qubit placeholders (#406)
+62eea55f415bc8e51e0175770f7dc88c01ecb2ed|2018-04-23|Matthew Harrigan|Document conda installation (#405)
+14b03dc0906b32824fb250f4428fde19ebbef19b|2018-04-23|ryankarle|Printing out Eric's compiled program example. (#408)
+ae275d2589e992a91a20d91e896eb18d12badd84|2018-04-23|Matthew Harrigan|Remove trailing whitespace for flake8
+d6709f648eee765434b4e5e55b859fcc2df09872|2018-04-23|Victory Omole|Include explicit matrix presentations in gate docstrings (#403)
+f1fbd8e3de166b15d9384d7825d0b18b30c0fa69|2018-04-23|Will Zeng|encourage use of plus not .inst (#344)
+01679948a8e5be25537a20cada6bf869793b2177|2018-04-23|Matthew Harrigan|Docstring formatting (#404)
+e4f4328b0dbfa57597c4691ee6c9f1c10ec07193|2018-04-22|Eric Peterson|propagate Forest errors through Job.compiled_quil() (#401)
+100fd7af95bd688d439e5e5a984ff01914e1d281|2018-04-22|Victory Omole|Fix document string for the return type of exponential_map (#402)
+e134e3dd1a205afd5aab1a3577fdf63443a79649|2018-04-20|Matthew Harrigan|Revamp qubit placeholder handling (#354)
+4e367d05e2c69d22744dc5a532b25e262a7cf3cb|2018-04-20|Nikolas Tezak|Fixed #398, printing of almost imaginary coefficients: `epsilon +/- i`
+d6a0e29b2b1a506a48977a9d8432e70ec699af34|2018-04-20|Mark Fingerhuth|Excepting DeviceRetuning & DeviceOffline Errors (#392)
+5ebd10d66e2bc125bbe7b3ba1078523351334fc7|2018-04-17|Nikolas Tezak|Implemented QVMConnection.pauli_expectation() and unit tests. (#396)
+6f2c90d214603751644880a75cee2fb8c1a9cb3e|2018-04-16|Matthew Harrigan|Improve expectation docs (#385)
+4efbda02b7b46b40dc7fa7e1cd29a77c26cbef57|2018-04-16|Anthony Polloreno|doc improvements for expectation, and an added warning (#393)
+a3a06e638ab4f4faaf37183335b57c0a9c70e102|2018-04-16|Evan Anderson|Bugfix/304 dagger params (#381)
+b62522f7b67a05ba4c639522c457e72e428310bd|2018-04-13|Anthony Polloreno|Extending compiler connection for benchmarking routines, with example notebook (#382)
+468552a18be4e8f252ca9b5b31c383baa7cd9916|2018-04-13|c. b. osborn|Default classical_addresses in qvm./qpu.run method (#389)
+0871e5c3f2a50e6d2cc28822210c39af01ac7e05|2018-04-11|c. b. osborn|Resolves #223. If no qubit/register pairs are provided to program.measure_all(), all qubits are measured. (#383)
+d128b084eae58c481036dd423938afb819b7bc4c|2018-04-09|Eric Peterson|Update CPHASE docstrings (#380)
+c01ac52525d85b16cf7e11680cb1e54d86a7958f|2018-04-04|Peter Karalekas|Update documentation to reflect the re-enabling of acorn qc15 (#376)
+2548fb077587e5a3b695bf1b2a8a21f0e612da3e|2018-04-04|Nikolas Tezak|Improvements to noise model docs and DeviceNoiseModel example notebook (#345)
+37c4feba1d156f375587c2b8fc36a7a59e7848f7|2018-04-02|Matthew Harrigan|Disable tests on Python 2 (#374)
+aac92e9f37c218d52e948f6866ac39a41db6a4dc|2018-04-01|Anton Karazeev|Fix typos by replacing H|0> with Bell state (#371)
+57134d8de42a931bef48d4502e7de78e46c87550|2018-03-31|Matthew Harrigan|PauliTerms remember their qubit ordering (#357)
+fe4a072898657151fce2307250d410213bf2a23a|2018-03-30|rht|pauli power operation: Change initial type of result to the correct one (#153)
+6207e18d88627a72c0f39e76bd7ffe41c7e27290|2018-03-27|Matthew Harrigan|Run flake8 tests after the actual tests (#361)
+283241f2b7e1b757d5664db7774f5bfeae240cfc|2018-03-21|Eric Peterson|introduce and use QUILCError (#367)
+3631aece5411e4e42d95acb67261c08f66af1ac5|2018-03-18|c. b. osborn|Missing parenthesis in compiler example in the docs. (#363)
+e017c54bdbc6722c0cae2c0c603ca5e6c98ab978|2018-03-16|Johannes Otterbach|Remove non-existent parameter from docstring (#360)
+86bf92a4dea3e97d7248a3f742032beb69ed5eff|2018-03-15|Eric Peterson|include basic information about CPHASE in the docs (#358)
+ae3e2eff09b9f97ff92cebdace43c5f80e6748bc|2018-03-07|Nikolas Tezak|Allow PauliTerm qubit indices to be numpy.int{8,16,32,64} (#353)
+e27cb89872a299fd728f0770687a9402eccc29b7|2018-03-06|Matthew Harrigan|In exceptions, there are redundant calls to the superclass (#352)
+d4d798898c4333641aa3b8fa2d3d1e5079c173a1|2018-03-01|Victory Omole|Added information on how to use CompilerConnection() (#350)
+246e4fd197319225230140eab74f0b1ec5bfadbd|2018-02-22|Sethu Iyer|Program constructor accepts generator as well as list (#265) (#349)
+0a41645ae61b59b2c1127cdbbd48247510e35334|2018-02-22|Matthew Harrigan|Move conftests to the tests/ directory (#348)
+2b983e5d6bd60ea5a49288ff96616cc719203961|2018-02-21|Will Zeng|highlight what qubits are available for programming (#346)
+b5336c3adbf6e66fb22de09e255724b8c973aff3|2018-02-20|Will Zeng|small documentation update on index (#343)
+3f9d69fb2a084c9e482282a83837058d634ea3b9|2018-02-20|Peter Karalekas|Clean up and reorganize RST documentation (#342)
+e48d58a4f40ea7aebafd5e20e8a38276c6738ae4|2018-02-20|Peter Karalekas|Bump pyquil version to v1.8.0
+b3a23b856b3b5cbe917d01ffcc46ab7467cca896|2018-02-18|Steven Heidel|Revert "add priority named argument to job submission routines (#334)"
+32e5698e1382580bd8692ade809f8d3788bc9e59|2018-02-18|Steven Heidel|Revert "fix priority docstrings (#337)"
+915186bee320aa2d7450d55075c5b4fd1c9c73d9|2018-02-16|Gavin Crooks|Fix various type check errors. (#338)
+13831862d4dfe7be0ef209db49e16b38b4303603|2018-02-16|Gavin Crooks|Fixes for various type check errors (#310)
+ac0593582b891a7d578fec0306eee751d968bacd|2018-02-16|Eric Peterson|Fixup: return raw unknown errors (#336)
+e7fef8328b665c59d9ea2f46e85b786fe93e376a|2018-02-16|Eric Peterson|fix priority docstrings (#337)
+a44b2051858609461d606a1c4c20e5d0f0657c1b|2018-02-15|c. b. osborn|Documentation on the Device class and Device noise on the QVM (#333)
+8d0d7e2a06d04b8df8eda21b35c03c457b10b389|2018-02-15|Eric Peterson|add priority named argument to job submission routines (#334)
+518ac212f7ee2347b5a40d9a2d4c45981e7e1d35|2018-02-15|Nikolas Tezak|Bugfix/add rx pi to xhalves gates (#335)
+e09b1e4ad8fec210fa5726b936c63def51c110ad|2018-02-15|Gavin Crooks|Fixes issue #181: Add docs build to tox (#314)
+fc5f9b120740c5adec65abc42b0c82bc96a65bcc|2018-02-14|Nikolas Tezak|Refactored apply_noise_model and helpers (#330)
+58b080f2fdc3b2bcd84f166eeb5388f03d69c4b6|2018-02-14|c. b. osborn|Seed a QVM with a device as an argument. Resolves #320.
+ecbc5ad9ce92c8bf371e7152eaaeac3c8a79923a|2018-02-14|Nikolas Tezak|Reduced tolerance for Kraus operator normalization condition (#326)
+19956f236f007d7d4850c8cfc1031b7241788403|2018-02-14|Peter Karalekas|Include device specs in CompilerConnection payload (#329)
+5915326b4b51b55c55656e66b1378699fc7da8d3|2018-02-14|Nikolas Tezak|Add library function to estimate assignment probs (#327)
+0bc0008015e244b57bd7d7c0575696340da706ff|2018-02-14|Eric Peterson|Add CompilerConnection feature for compilation-only jobs (#284)
+0c264ea42d8e27432d09083a2fa679ac8f5f870e|2018-02-13|Nikolas Tezak|Added readout correction example to ReadoutNoise notebook and docs section (#290)
+e5c83d1390dcdb2b0093274f701e502b9e47a6cb|2018-02-13|c. b. osborn|Specs includes fCZ and fCPHASE. Resolves #324 (#325)
+bb6b98c04cc626bded9b8afb6ebad2ae9d315b22|2018-02-12|c. b. osborn|New Specs class used for storing specs in device.specs. Resolves #318.
+e9f4531a9878770a574fff075b02eba9b2a29731|2018-02-12|c. b. osborn|Modified ISA dictionary to index by "1Q", "2Q", and removed "id". Resolves #309.
+9910fd0d35b55bf0bc81d722fe964bebc336abf9|2018-02-12|Peter Karalekas|Enable the run functionality on the QPU (#321)
+eee7de485c5f951e2752275dcdf0d2b002883969|2018-02-10|Peter Karalekas|Append MEASURE instructions to QPU run_and_measure programs (#316)
+e5ae01145c1f0eda38863c5f1af058133ad3a1e2|2018-02-08|Gavin Crooks|Fix misplaced type annotations (#307)
+70ee255eb99b669b7bf8ca224e2513c6e9d4e27b|2018-02-08|c. b. osborn|job.estimated_time_left_in_queue() method, with use in QPU logging. Resolves #298. (#300)
+9d69c42c73f12aadd67629630c737bb9bdf04a03|2018-02-08|Gavin Crooks|Enhanced makefile (#306)
+747e94e236c26de06041e5253b3ed7e79e70f247|2018-02-08|Matthew Harrigan|Sample from wavefunction (#301)
+ca658a0bf8f3090fbf775146ab0845b15c1d1e16|2018-02-08|Michał Stęchły|Fix/paramater quil names (#291)
+df26bce37865fd492fe14a980c8bd119048d789c|2018-02-06|Matthew Harrigan|Function to return wavefunction probabilities as an array (#288)
+b00f6a963f72445c7127952bc5dda990ad7d29a9|2018-02-06|Gavin Crooks|Fix for issue #292: Cannot parse quil with upper case E in scientific notation (#297)
+bdb9f663bcfa385e3b3acf2df3904862daea508f|2018-02-02|Nicholas Rubin|Remove dangling input from commuting_set method (#287)
+5992487b086d27579eea44b5c2a26b34d34b0d64|2018-02-02|Nikolas Tezak|Feature/readout noise compensation (#286)
+07e05b6efff6419a9b40d9cca063d0fca8789714|2018-02-02|Nikolas Tezak|Substitution of Expression parameters and numerical evaluation (#279)
+1063140e974d4839f76c5ed14d2604eb6c763e26|2018-02-01|Nikolas Tezak|Feature/noise model refactor simple (#281)
+14b91ee1e39337201a715980f7a22ed58db33515|2018-02-01|c. b. osborn|Add support to Device for storing ISA and NoiseModel (Resolves #275) (#276)
+e39f5a5000b48c421cb4aed97d6fd2d77a1dd369|2018-01-31|c. b. osborn|Resolves #277. (#278)
+5f12fbf1f98c1907918ebc12ce42fd6c07886cd1|2018-01-30|Nikolas Tezak|Implemented first version of ISA and NoiseModel data structures (#274)
+19f2492745e44e08c8963dfe1f47cae64d04d39c|2018-01-24|Nik T|Bumped version to 1.7.0
+1e5d24b13c95fc9747e6450f24398388b849a8fa|2018-01-24|Nikolas Tezak|Added notebook (#269)
+bc83e79cce8c49fb896d4fd2c69b0f1c335b30f5|2018-01-18|Nikolas Tezak|Feature/coresw 134 readout noise pragma (#268)
+b3e3ab53a85d5224d1549a4e4ce7709779cd1b1a|2018-01-18|Matthew Harrigan|Factor out device status (#267)
+390e0c9a572a2c8e88f6c0c9bd74390d7c7f3cb6|2018-01-16|Steven Heidel|Release v1.6.3
+a5ed2c4c46a529cc2797aa073b2ea04c0dd97a1a|2018-01-16|schuylerfried|Feature/add function to offset program by n qubits and change CSWAP docstring (#260)
+e3c85d335b51be7ff37d1d0df7c0bf299e85d5ae|2018-01-16|Anthony Polloreno|LaTeX circuit generation. (#257)
+b065363c40c4ba3f1ecc66d8a61a6d7cc109237b|2018-01-12|c. b. osborn|Resolves #263. exponentiate_pauli_sum, and test. (#264)
+81fe713bf4c1d4894501760a27ac93b09b708a3d|2018-01-11|Matthew Harrigan|PauliSum helper functions for computing expectation (#262)
+1d2f82b3204114d10ec39ff132e89e7c9fb4701c|2018-01-10|Steven Heidel|Fix failing Python 2 build
+d974a11165502e0d2d552bd2a3797d84639665b7|2018-01-09|Steven Heidel|Fixes #256
+9d614d2fda1184c9cb1876f732c6a714e6cad55e|2018-01-03|Nikolas Tezak|Added missing image (#254)
+46b3a3dd2401fee6c4d9bce439ade35691ed9f16|2018-01-03|Nikolas Tezak|Improvements to docs to make gateset noise API more discoverable: (#253)
+851c2a4806efe4c0b911345326d6848ec733dc94|2018-01-03|Matthew Harrigan|Port kraus code from docs and add a high-level interface (#251)
+00d6a25f068d712e687d2689d3f6d516e06e5881|2018-01-02|Steven Heidel|Increase QVM limits to 19 for sync and 30 for async
+dc00a018bb773cc0cbeafda6cd6f88742480fef7|2017-12-19|Steven Heidel|Fix precedence of unary negation in parser, fixes #246
+d11e64c81d8ea95c0a84f2609eaaca739d20e1bd|2017-12-19|Matthew Harrigan|Use 2q gate time for 2q gates in noise model docs (#244)
+e20107940caf83cbd10ade766fc36b54d7a536dd|2017-12-19|Nikolas Tezak|Added section on wavefunction ordering to QVM docs (#242)
+6f944e48c921eb6f33f7f92b03259084da4cc9ec|2017-12-18|Steven Heidel|Release v1.6.2
+0cd856d4f6ce9d6802a8325105dcc3fd85de1370|2017-12-18|Nikolas Tezak|Updated quantum walk notebook (and README) for new API (#239)
+999634799fa522f929ebb7849823f7181838a99d|2017-12-15|Guen P|Merge pull request #236 from rigetticomputing/bugfix/get_devices_error_msg
+702e1e0f63fac3b88af9dc4d76db3c57a077d9c5|2017-12-15|Guen Prawiroatmodjo|parse error in get_devices
+b09835d00f12111b3cee08ba55759ab4cf781c8f|2017-12-14|Guen P|Merge pull request #235 from rigetticomputing/pt_docs
+c132775079d4962c58961c742591a269feb5f9af|2017-12-14|Guen P|Merge branch 'master' into pt_docs
+c70dc2929c083d942577019707a8f7919f9b989f|2017-12-14|Steven Heidel|Release v1.6.1
+42086f6dedcf122c748dd1612b858f237207e076|2017-12-14|Steven Heidel|Add new is_retuning parameter to devices
+44cf34ffe3ddeda6fc5eff5eec0c7a1cbca4dfb3|2017-12-14|Anthony Polloreno|removing unconstrained PT fid
+a98e24cb2f8c2297439eaf2888c7e594b2a115d4|2017-12-14|Anthony Polloreno|fixing typo
+90fbfa11c12507a4e56f2b4a8f04003d88e7e18d|2017-12-14|Anthony Polloreno|adding bit about scheduling
+d856f578b225f5d38fb46923ae4a89c80e6b51fb|2017-12-14|Steven Heidel|Remove warnings from Wavefunction since they were producing too many false positives
+67efd1481643c2ea9f92ef7fb50f1c65d1011e45|2017-12-14|Steven Heidel|Release v1.6.0
+adc99f2ef3ee30a0d1290ddfefba1b90994e38d7|2017-12-14|Steven Heidel|Extend RuntimeError instead of Exception
+3b1bd668c73972d6ea2611b34a200ba6066cf344|2017-12-14|Nikolas Tezak|Merge pull request #233 from rigetticomputing/bufgix/remove-superfluous-figs
+75ec70a28dba77c4826d561827f5b95d3dbc6619|2017-12-14|Guen Prawiroatmodjo|fig 3 -> 2
+0f1e5258e8e5c0de843c2858baaa82939d1f03c0|2017-12-14|Guen Prawiroatmodjo|remove superfluous figures and move to images
+9067d3513e4662f4a27286016591f09d8521f899|2017-12-14|Nikolas Tezak|Merge pull request #231 from rigetticomputing/docs/devices
+7edcbd7fdc78131ca0e5fe2939cbb669584b6930|2017-12-14|Eric Peterson|add connectivity information to qpu usage guide
+50b2287ae18cd6172c1b4a32e5bb5e6c6ef80d41|2017-12-14|Guen Prawiroatmodjo|grammar
+7d8e07a7ba13c4dc247386a6b5094d6ca0c4e41f|2017-12-14|Eric Peterson|fix some spacing / alignment issues
+f3d5f0e19f9b538c94f4d8a790667af256a924fe|2017-12-14|Guen Prawiroatmodjo|highlight that qubit 3 is dead on Acorn
+03ff9bdb5b56861b789ad4c54afd6c19312d79f2|2017-12-14|Guen Prawiroatmodjo|line length, add label
+a5a03da7531247cd07ae73cf682b40c70ee331f3|2017-12-14|Guen Prawiroatmodjo|reorder index
+ead7bbc236d0be8cf293cdb0d337fc200e0271c9|2017-12-14|Guen Prawiroatmodjo|line length, add label/link to qpu_usage, grammar/rewording
+2d2fadbbce4ae9440449aa987170074d890171a4|2017-12-14|Guen Prawiroatmodjo|remove commented out paragraphs, fix line length
+72c510a9da081fcec2693ee8cbc0337a642007db|2017-12-14|Guen Prawiroatmodjo|add readme on how to build docs
+28ca7981a257d305339c654c6dacd2dd560cca27|2017-12-14|Guen Prawiroatmodjo|rename devices to qpu_overview
+6b5c502c4a65d7b1a6d4213f99d543a72d4a34c3|2017-12-14|Guen Prawiroatmodjo|add Makefiles
+c7a2f11ad32423b60ecafd879c3946287f5013c0|2017-12-13|Riccardo Manenti|Modify introduction
+5229d307a90d9216f976a97f24655459f1b57c5d|2017-12-13|Riccardo Manenti|Add the figures
+f573ddd404cae1d3829cccdb9b55edef44f483d0|2017-12-11|Riccardo Manenti|Documentation on Rigetti QPU devices
+a1428f7a1498763bc82481c44e67b8fbf5704367|2017-12-14|Nikolas Tezak|Merge pull request #230 from rigetticomputing/fixup/t1-t2-docs-code-missing
+d9e8421136ddc93e5ee1fb97e45d7deeb4d6189a|2017-12-14|Nik T|Change ipython3 code directives to python, otherwise need to depend on ipython
+f6869485e0241d1b1af2d9f7f3cb7f6a2b7d60ba|2017-12-14|Nik T|Normalized rst code snippet directives in noise_models.rst
+3099c5b513869ad23efa13394ba1fe5fd6fb1686|2017-12-14|Nikolas Tezak|Merge pull request #224 from rigetticomputing/docs/qpu-usage
+cebdc1ccb99f0f5948b3cf6aa389703f240cffa5|2017-12-13|Eric Peterson|update cl-quil error messages
+6bb31e3057af1ebdb7fb12bf825b15f4d534484e|2017-12-13|Eric Peterson|trade Agave out for Acorn in the examples
+01b46a497a7b2ffd7a9e07a6b42e79790b2cae53|2017-12-13|Eric Peterson|add a page of documentation about getting started with QPU usage
+3661bc06b1774781d9cc2d849989c91e86600fba|2017-12-14|Nikolas Tezak|Merge pull request #226 from rigetticomputing/feature/t1-t2-noise-mixed-state-docs
+11aa6bec418d53173cd0a9f9c3c7ebfb9119e436|2017-12-13|Nik T|Fixed typos, imports and missing function def in docs
+d80c97381abd4696e6b05e5cd744099c4a452487|2017-12-13|Nik T|Added T1/T2 noise to noise model docs
+53f697c1bc410b8fd980a451d4b8253c59d838d5|2017-12-13|Nik T|Added gateset T1/T2 noise functions to notebook
+8a2e7e811cdf005aa7cdeca3d4d524c58b7e1bdd|2017-12-13|Nik T|Added pure/mixed state intro do gate noise docs
+62d3aa25229937fc40c75d9b97818471ac88d1f8|2017-12-14|Nikolas Tezak|Merge pull request #221 from rigetticomputing/errors
+b3c4de9a2059874fcdc0f8d0d66b8aed9734ecf5|2017-12-13|Steven Heidel|Changing super
+f16a8fc8585df50df98bb1da6cb447e0877b2969|2017-12-13|Steven Heidel|Merge branch 'master' into errors
+6890be97d997a3c3a38ddb36899cfb5677446194|2017-12-13|Nikolas Tezak|Merge pull request #225 from rigetticomputing/fixing_noise_docs
+75bcfd843e7c98cb74332afab5e8740d43e1e5fd|2017-12-13|Anthony Polloreno|one more math block
+62114fed2eb852c4bdca2b44248d382320b0f8ac|2017-12-13|Anthony Polloreno|one more error with trace
+908ff077738ff8433407e394251a55defa0e341e|2017-12-13|Anthony Polloreno|fixing docs so they render properly
+989a834021a51dad661aa286bfa55cedfb2cffc8|2017-12-13|Steven Heidel|Merge branch 'master' into errors
+cbcc35e5c2782a7d51f82cabfff7d0d2970393ab|2017-12-13|Steven Heidel|Fix tests
+6e9a0f285fa6423b5937cd5e2776039415e8684d|2017-12-13|Nikolas Tezak|Merge pull request #220 from rigetticomputing/docs/gate-noise-models
+d2ad3c29d3f816b821a26528ffb6ef0b4f456a93|2017-12-13|Steven Heidel|Significantly improved error handling in PyQuil
+efdd477aed85a7d5e8ee354cf245c064354ae68f|2017-12-13|Nik T|Added actual noise_models doc source + images
+3a73c74dfe2665f33a2cfa38c07eb0686abc8764|2017-12-13|Nik T|Added gate noise models to docs and updated notebook for new API
+d309ac11dabd9ea9c7ffa57dd26e68b5e7129aa9|2017-12-13|Steven Heidel|Support for formally parameterized gates (#208)
+e5a242d47b098bbf4967dd551ecfb4006a944dc0|2017-12-13|klinvill|removed duplicate paulis documentation link (#217)
+2ce11b908b2beb2ca8d1376bad2f80f03a584615|2017-12-11|Nikolas Tezak|Added helper functions for Job metadata (#215)
+85298b1b7d3ce21478cda1d674fa3d8b4bcee9e7|2017-12-07|Steven Heidel|Make pi printing only happen when the floating point numbers exactly match
+4d6710874dfd00560ace7988fb589ac7e1b6cc32|2017-12-07|Steven Heidel|Add ability to turn off printing status updates and control ping time (#213)
+b573bc61fcdc93280ceb70ecdd77523745459f76|2017-12-06|Steven Heidel|Release v1.5.1
+6e0a5ba1b16b3fc4c1a66e64d1518ac0b9ef66f7|2017-12-05|Steven Heidel|Accept ranges for all addresses, closes #97
+56bed4361b4e9df556c1d58048d724874e8dd4d9|2017-12-04|Michał Stęchły|Docs/update examples, fixes #202 (#211)
+32ca9c845e2e40002e35efc5d6d889620eb9fe7f|2017-12-01|Steven Heidel|Release v1.5.0
+f737c70b3f87c61883544f68a9dda6c435cf5884|2017-12-01|Steven Heidel|Add get_devices and ability to specify device_name (#209)
+0db0db3ebea555ab437bde83215c37b74553c0e2|2017-11-30|Steven Heidel|Release v1.4.6
+f7f394030ab9a5f83a5eaef867c744a988bd3d0e|2017-11-30|Steven Heidel|Allow the parser to accept empty programs and those padded with newlines
+8cfdc76724095943976a0151ee97657f9d8de61f|2017-11-29|Steven Heidel|Release v1.4.5
+5b63eff69650d0d77b7436392ddaf60a8819ba94|2017-11-29|Steven Heidel|Revert "Skip tests related to pi printing"
+f4e2f6add9836067deea2ca657099a110daa730a|2017-11-29|Steven Heidel|Revert "Hotfix to disable pi printing temporarily"
+5614b171887f9c21ab20c3868aacae1f5ef1ae71|2017-11-29|Steven Heidel|Support cancellation in PyQuil and other connection improvements (#205)
+03ade0c159d73fd36282f7727aca97998cde3637|2017-11-29|Steven Heidel|Release version 1.4.4
+1360e30d4c1609a736c0178012d556b3f85f5c15|2017-11-29|Steven Heidel|Skip tests related to pi printing
+4f5f8819b46c6d66de1f99ff657891f976d14d70|2017-11-29|Steven Heidel|Hotfix to disable pi printing temporarily
+abf5ccec7b3b416ce0245bb45751d69dfe1bea23|2017-11-27|Evan Anderson|Update `format_matrix_element` and `format_parameter` to support num… (#203)
+4229a22f98c37967635fbe7b29fcfadde2aea7d8|2017-11-27|Michał Stęchły|Unified naming of wavefunction variables in docs. (#201)
+d43765e953babd52f848e82124316b243326bd48|2017-11-25|Michał Stęchły|Rewritten examples using bit_string_probabilities in intro_to_qc.rst and updated parsed-literal sections. (#200)
+bcf0f8eefa11857a6aad0405e5f2bf9c0e73ff7d|2017-11-24|Steven Heidel|Release v1.4.3
+d5ac554ad2be6e2f9ff04d2dbc87a896b8734046|2017-11-24|Steven Heidel|Fix QVMConnection#wavefunction, closes #199
+fce565c76ea51aa7bcca1907546e620a80fefdf6|2017-11-22|Steven Heidel|Release v1.4.2
+da96a5d7cd460b7f62ada4a9e765cbdc769f988a|2017-11-22|Steven Heidel|Performance optimization on Program synthesis
+edba2a5dd5a59090fa6611b60231ca3bf75a0487|2017-11-22|Steven Heidel|Release version 1.4.1
+c6e8d2f62e039bf46a64f03e17af9f1b2bcb3838|2017-11-22|Steven Heidel|Fix issue with label assignment and add typing to setup.py, closes #198
+3365a315ea55189d7fdc55d469467455913d1c71|2017-11-21|Steven Heidel|Release v1.4.0
+e71571bf65214ca3138665da5cbcf9a1f83659c8|2017-11-21|Steven Heidel|Refactor Connections (#185)
+45479c6c5f9b254b1d3fb2d0f898fde2e3dd230a|2017-11-17|Nikolas Tezak|Example notebook for QVM noise models with Kraus operators (#178)
+009ad4b7faca4098e619d8731bf4fe33f7e147e1|2017-11-17|Dondi Ellis|Print parameters nearly equal to pi, pi/2, etc. with pi #184 (#191)
+4fbcbd16a4963818daa73d700f7c26406ae19ec7|2017-11-17|Steven Heidel|Fix the parsing of negative numbers, closes #190
+e09bca74ffe538ae217603d3943cdba2e7ccb9e4|2017-11-14|Steven Heidel|Refactor PyQuil implementation to make it more functional (#180)
+f4615d857d7901bee96aca4428977eb59575b22f|2017-11-13|Will Zeng|update syncconnection timeout from 30 to 5 seconds (#183)
+054ce1675c1698738c0aede3c71e775d0cb45d74|2017-11-12|Steven Heidel|Release version 1.3.2
+4fc96a669498b2abc63cc84be264410a2835e37f|2017-11-12|Steven Heidel|Fix the parsing of exponential numbers
+5167e48cd4e5aa27d86e8327a4fdaa7cebbbfcea|2017-11-11|Steven Heidel|Fix setup issues and 1.3.1 release
+9823b79521ccb6c2df26dee96d0d263fc615b76b|2017-11-11|Steven Heidel|Version 1.3.0 Release
+81a4ae1521da60d86d0d9037ff51c3a46b564cc3|2017-11-09|Nikolas Tezak|Ensured that gate name is added to ADD-KRAUS args (#177)
+e10881922b799ab015f750d07156f03b2bca7046|2017-11-08|Nikolas Tezak|Document behavior of JobConnection.{run_and_measure|expectation} for … (#175)
+14d27a030e33fcf1a5fab62b4bd10dcb5b382770|2017-11-06|Steven Heidel|Link to parser README from DEVELOPING
+4aecbcb86a9474ca3e6fcf55cb1911e996cc9899|2017-11-06|Nikolas Tezak|Added helper function to define noisy gates as Kraus maps (#172)
+f8ca2ebce396a5265c92009d73740962b7c5b8ee|2017-11-03|Steven Heidel|Fix extra requires to have the same syntax as requirements.txt
+93ceef0d984cb668e003f39fbb1e480c0865cf16|2017-11-03|Steven Heidel|Fix relative path
+92cb256530f4793fee007b6c1e8c9db4a22a1a7f|2017-11-03|Steven Heidel|Fix error with setup.py and add pi to parser (#174)
+906d75f32ce303f6e397a87c130073072b5ebe8d|2017-11-03|Ravisankar|barcharts rebuild (#152)
+7d9a5c4fadd1f7bdfb5385aba728ff6d8f701b1a|2017-11-01|rht|ID and ZERO: switch to be defined as a function instead (#154)
+3ee21455e5ff8e922b9d7c0c925fe6e4f9526bf7|2017-10-31|Steven Heidel|Add community contributions! :D
+5a47b7f8a50ee5094fca2d1c4c7780f84404f116|2017-10-31|Steven Heidel|Update Pragma parsing to reflect latest update to Quil grammar
+330e6085660e9913c5a8b87cde4daee8d97a9af2|2017-10-31|Steven Heidel|Fix broken links
+ffe7854b2f1ef664655f7f7dfb8e44c3bb264fbb|2017-10-31|Brian Heim|Add __len__ to InstructionGroup (#166)
+b7aee5b8476d17c6375e185f2f30ee1a9a6ca6eb|2017-10-31|Steven Heidel|More doc updates, closes #133
+3f7e26444c10bd79f60e38d29d594bf8a6de5951|2017-10-31|Steven Heidel|Rip out existing Ramsey/Rabi/etc code (#159)
+b51aa47a5b9b0a4b57904049af2e073682f77350|2017-10-31|Brian Heim|Add line blocks to docstring for Slot (#167)
+2000a2789962c2d65bc98d22172ae2d431c4943a|2017-10-31|Brian Heim|pyquil.quilbase: fix docstring (#165)
+9a8a1cd16eb7b30097e27154fbd92e80161f5f37|2017-10-30|Johannes Otterbach|Merge pull request #157 from andrenmelo/feature/quantum-walk-example
+4acda0fbea9919df55cc5da72a5f2a509c0a0c72|2017-10-30|Andre Melo|Further MathJax updates
+053923f00fd0eeb0556f91a2fa939c4357a5fda0|2017-10-30|Andre Melo|Updated MathJax to work with Github's renderer
+f8d5f454776e155227b5d7624999290f0d7349cb|2017-10-30|Andre Melo|Merge branch 'feature/quantum-walk-example' of https://github.com/andrenmelo/pyquil into feature/quantum-walk-example
+9dfb986db736fd13d7ed6356b8a3703d4f317927|2017-10-30|Andre Melo|Cleaned filename, added clarifications to the notebook.
+0abdfdc1dc565a8e44b283fc6d1bdba02bd34d6d|2017-10-30|André Melo|Merge branch 'master' into feature/quantum-walk-example
+479f2c2d61de84d1d7191e07e19faa92eb7d29ce|2017-10-26|Steven Heidel|Remove the ability to customize the url from .pyquil_config (#145)
+6c6f98b054cc0eaef11f2564e8090f8ddb0ae699|2017-10-26|Steven Heidel|Implement program equality, closes #24 (#150)
+c51f471788d95c28c8aa74e785524272f94d820c|2017-10-26|Andre Melo|Added quantum walk notebook
+19aad3867ce4209346e9c8fbd27aa02cac393870|2017-10-25|Anthony Polloreno|Including Instr's in get_qubits (#156)
+b871e5de5bac62bf5fde62c96d6e5b20078c9e35|2017-10-20|Steven Heidel|Version bump to 1.2.0
+fcc9ffca7f64cf088d03c269bb18780b93b21a18|2017-10-19|Steven Heidel|Missing asterisk in grammar (#149)
+d260eb19f464ddeb5c57bbbea23cdb69b70d7367|2017-10-13|Steven Heidel|Reference Quil Grammar (#139)
+3d75f04fd5f2bc71c5bbd6dc6ec750a551702442|2017-10-12|Steven Heidel|Fix mutable default argument, h/t @mpharrigan
+bd7dad3f7983202748121a987e42c0107cae9795|2017-10-11|Steven Heidel|Allow classical_addresses to be a range in .wavefunction, closes #97
+f7e4cc0b56b9798e6a8d0fc9c40f3ec21f8320d6|2017-10-11|Peter Karalekas|Update version from 1.1.3 to 1.1.4
+80035a4e6d2d7829420f0849ff31cdb56fc4191d|2017-10-11|Peter Karalekas|Fix typo in QPUConnection.run_and_measure's call to self.post_job
+6ab40e2aa9960153cd571cac4b1b09aaa259e4b6|2017-10-10|Peter Karalekas|Update version from 1.1.2 to 1.1.3
+1ba07428cfc02a7b276860782ff7bd8b4200456f|2017-10-10|Peter Karalekas|Add setup submodule to packages list in setup.py
+fe8c795189f9adf3f486c118871728b54ab545da|2017-10-10|Peter Karalekas|Change setup.py to use packages rather than package_dir
+43dba176ce5b1862098d043a43b64661ade2572c|2017-10-10|Peter Karalekas|Change copyright year in docs conf.py
+cd4edc22f92ad4b8ab35595b2f5522013a6ec317|2017-10-10|Peter Karalekas|Split apart the qpu overview and qpu source docs
+26ba0832c610a9a0b9948b8759ce25248913d0a3|2017-10-11|rht|Ensure pyquil/ to have the PEP8 syntax (#140)
+fb065bb77907173ffc9738d955bbf76546c9dc39|2017-10-10|Peter Karalekas|Clean up QPUConnection and implement its run_and_measure functionality (#144)
+7f6f0cd27036b5db593c2dc7de12732c45a0e95f|2017-10-10|Steven Heidel|Refactor config and QPUConnection, better error messages (#135)
+1301e07ec6a633461603bf868dad17420afb6498|2017-10-07|Steven Heidel|Merge pull request #134 from rht/pep8
+1807f63f23320fc93fd7b084534237ec25a3b461|2017-10-07|Steven Heidel|Merge branch 'master' into pep8
+38da554e85628f883d92742cd58e224c07317dcf|2017-10-06|Johannes Otterbach|Merge pull request #132 from stevenheidel/master
+9b53e4f15782a9f31270d9e0c49bd0cdffbabf3c|2017-10-07|rht|Add flake8 to tox test
+5b5b99df2181642425d7d7e9ccadc5dc007d93a2|2017-10-07|rht|Do manual-formatting to pass flake8 --ignore=E501 pyquil/paulis.py
+86e3d4cd12958b553130775eeb36043d36fe3ffc|2017-10-07|rht|Run autopep8 --in-place --ignore E501 pyquil/paulis.py
+3eb75e2cead8e61795b3f5b161dc3051476170d4|2017-10-06|Steven Heidel|Fix pyquil-config-setup and adjust shebang lines
+15219b82980d49f59e7c9374121d94a80a72dd26|2017-10-06|Will Zeng|fixes bug in job result decoding (#131)
+d68b0a958cf21850edf6e3bcad53dada3e11f825|2017-10-05|Anthony Polloreno|Adding a designated zero element (#119)
+694c5d935fc184cffff062dc678feac7fc8496e5|2017-10-04|Will Zeng|Merge pull request #117 from ampolloreno/equality
+f8eebfe33eb57fc095e08d9447bd9491ff499e8f|2017-10-04|Will Zeng|Merge branch 'master' into equality
+b25a83b3eb0720fec9f6dae8d97f3af5e24ca6b5|2017-10-04|Will Zeng|bump version
+d67d0f83f05f2af38e44734b5281d1673f198a9e|2017-10-04|Will Zeng|Merge pull request #122 from rigetticomputing/pauli-from-list
+723c9287f0c01e4a9a3b7652266ba9e5b1737259|2017-10-04|Will Zeng|Merge branch 'master' into pauli-from-list
+25429c3747d4280f3c6537a522c32dba86b91aea|2017-10-04|Will Zeng|Merge pull request #127 from rigetticomputing/willzeng-patch-2
+03072ca70c0d9e40c1db7e2bc8fb27ae0bc93460|2017-10-04|Will Zeng|Merge branch 'master' into willzeng-patch-2
+07f2e33030d0c78db70e20ecc4d42ad8db3a3756|2017-10-04|Will Zeng|fixes #81
+36e8654f3f19cf8b95bf409c7dcda4494b8611a8|2017-10-04|Will Zeng|fixes #93
+c93219614ad8f0088678e6592d2831f1406120e3|2017-10-04|Will Zeng|clarify that the pyquil_config needs to be created
+507dd268b2efcba7054fd0bbe5d10d885d07ec97|2017-10-03|Johannes Otterbach|Merge pull request #69 from rigetticomputing/urllib3
+c3db8b367f27fdd0e2efe24170e126adefa0fac3|2017-10-03|Johannes Otterbach|Merge branch 'master' into urllib3
+0bd686574882cdf993e689d658efde4379d41f67|2017-10-03|Will Zeng|fixes #120
+46e795f4efb530f526d353ddb629fb9bf55214af|2017-10-03|Will Zeng|Merge branch 'master' into equality
+8a854f685f4d25a0423a3eb09f2795999e0a2aa1|2017-10-03|Will Zeng|Merge pull request #121 from rigetticomputing/rename-test-forest
+254a86ef88b19011bb590c1dc35e13a76fa0850e|2017-10-03|Will Zeng|update naming of test_forest.py file to test_api.py
+431057e6300ab1d99c2e88540d025fb2224b3e89|2017-10-03|Will Zeng|Merge branch 'master' into urllib3
+24253ec5948ae4ecaea9381a297b477a0c4985df|2017-09-29|Anthony Polloreno|proper PauliSum/PauliTerm testing
+f9a21677bc4013af48094664b2466f47a8222184|2017-09-27|Johannes Otterbach|Merge pull request #88 from stevenheidel/master
+a6bd0c79346ab269a749b5958a37dbdb06c97c81|2017-09-27|Johannes Otterbach|Merge branch 'master' into master
+ee3de8668c24d75341d8549f137f2d7316859b29|2017-09-27|Johannes Otterbach|Merge pull request #115 from ampolloreno/warnings_how_do_they_work
+6346f124b762de15bbad58b704165c61f27dc171|2017-09-27|Anthony Polloreno|raise -> warn
+81295df27adabaf1c44429d1f5c2f89db9eea045|2017-09-27|Johannes Otterbach|Merge pull request #113 from ampolloreno/more_power
+97d2b4ff9f6112a60ce101daf423e007800c1e03|2017-09-27|Anthony Polloreno|Adding test to test for large powers
+78bda1e742d59b7daa59177f6f091f0ea5d92caf|2017-09-27|Anthony Polloreno|changing exponentiation to iteration to fix max recursion depth problems
+9c68176f275c072f53467ab8eaccf12da3ca4f3a|2017-09-27|Johannes Otterbach|Merge pull request #109 from ampolloreno/powers
+ed04a406a0ecaee3ea2fac0689f8474f554ac8c4|2017-09-27|Johannes Otterbach|Merge branch 'master' into powers
+4b19ab2cc2c32db739ecc42a1ffb99132d89d689|2017-09-26|Anthony Polloreno|mostly raising type errors
+9d2b57a47a1b6116a9ce0933756b7c2845bbbc70|2017-09-26|Johannes Otterbach|Merge pull request #111 from gecrooks/master
+0962bf1687d38961eea208ddfa6a1facc0f054c1|2017-09-26|Gavin|Fixed python 2/3 compatability of pyquil-config-setup script
+7cad7f4cbfe1e8b3fd011648728f6b960ac727fb|2017-09-26|Anthony Polloreno|removing stray print statement
+302a67ece61d5173c2da3d88764f91d71fdcffcb|2017-09-25|Anthony Polloreno|removing erroneous pdb import
+1a82e317d26a15bb6b5e10e49a6b202cc2cdb5f0|2017-09-25|Anthony Polloreno|Adding tests for code coverage, and fixing coefficient representation problems
+2a1cd81396ab7837f2b5a8a271dd1b7bc5122e05|2017-09-25|Anthony Polloreno|Adding tests for sum equality, and type checking on initing PauliSum's
+a31c277526ddb13802313b737d917c9aa6970b21|2017-09-25|Anthony Polloreno|Added support for powers of PauliSums and PauliTerms
+5db1e198270d4f4f0e3456dc131d87a4f3847887|2017-07-22|Steven Heidel|Fix bug with DefGate#getConstructor()
+c0499427cc8e74c69076ea24543f376ec737b62a|2017-09-07|Peter Karalekas|Implement the run method of the QPUConnection object
+9f624bb49a134a50e9378c6857d1451b442be99b|2017-08-29|Peter Karalekas|Add CZ to gates.py and STANDARD_GATES
+173374e54359a5293863c9dcf60ce1ebd31e6221|2017-08-17|Johannes Otterbach|Merge pull request #99 from vontell/config-docs
+6cfb54ca4aeb18229296d34101f338f714b781e7|2017-08-17|vontell|Update docs to include config script
+a01f0567ff73747fab84566d91f2e49686bb06b5|2017-08-09|Will Zeng|fix examples to use syncconnection (#96)
+473a09a4b53b0a273752d3547176f2875043b826|2017-08-04|Johannes Otterbach|Merge pull request #95 from vontell/config-script
+3d32fae87c295789fe17ba8d1dff02ca0a2ee382|2017-08-04|Aaron Vontell|New line for PEP8
+893377257ba4713135d5f5f9e99e8181aa9e4d44|2017-08-04|Aaron Vontell|Better file patterns for config
+b92c0709c03a277c3a904799837dadfd822e3489|2017-08-04|Aaron Vontell|Better language for config script instructions
+1e1f8a45e9c7df27410684470fc4728d72cd62aa|2017-08-04|Aaron Vontell|Setup pyquil_config script
+d2c04ecc47e74ae6f40196452ba935c558ac2643|2017-08-01|Johannes Otterbach|Merge pull request #92 from richardzhu/master
+1f7f5b0b2ac9662c356b01af00dc946f95b756f2|2017-08-01|richardzhu|Replaced iszero() with np.isclose() for robustness
+18b6d0647cd4519b7c1fdce5c8d12f39689dd512|2017-07-28|richardzhu|Looped copy over all attributes in PauliTerm (instead of explicit copy), tests added for copy() method
+0901d8d97afb91fa52a926f11e15b0059268f37f|2017-07-28|richardzhu|Fixed zero-compare with iszero(a, atol) function, tests added
+703bfa6bf0b13a7832d7de41106420f6843b1be4|2017-07-27|richardzhu|Merge remote-tracking branch 'upstream/master'
+d7bede21cdb6fe513c91945706791bb381d4bf2b|2017-07-27|richardzhu|Removed deepcopy dependency for speed - replaced with built-in dict copy method for PauliTerms. Substituted real/imag zero-check for np.isclose zero-check, for speed. Overall PauliTerm/Sum time reduced 2x-10x
+093fb99c389afbe3e1a81f00ce96c9970e41716c|2017-07-26|Johannes Otterbach|Bump version to v1.1.1
+127f6dc00806bd17597669bf979489c5baee877d|2017-07-26|Johannes Otterbach|Move version into attribute (PEP 396)
+410fb394547cdb6ed20571e8629b89c16e312a1a|2017-07-25|Richard (Licheng) Zhu|__len__ method added for PauliSum (to match PauliTerm) (#89)
+e48afcc1011b505021e9b0c0529762aff4be1250|2017-07-25|richardzhu|Added __len__ method for PauliSum, including test
+f833f2bee2cefb860642c1be216811f101da1413|2017-07-25|richardzhu|Merge remote-tracking branch 'upstream/master'
+77460facc83c4c2a96b88ecd3336b3a4ec0612e3|2017-07-18|Richard (Licheng) Zhu|Fixed JobResult.is_done to query for update before returning (#87)
+0c2600ef5bd6fac5788046f6f1df927a6d340968|2017-07-18|richardzhu|is_done() updated to include get(); docs updated
+33d4205483a7122fa3b60cf3eae1937f43a002e1|2017-07-18|richardzhu|Minor change to docs
+861cc6269a58c3c271d3326b5dcda6b4166cdc0b|2017-07-18|richardzhu|is_done() now refreshes results before returning; removed try/except block in test
+9a75b56f75fa8693c5552886648c35cded27092b|2017-07-17|richardzhu|Test added for is_done()
+4da22216934a41ad5179f67d5c709e5d810a8f99|2017-07-17|richardzhu|Updated JobResult is_done(), now queries for update
+3df1ec586053a3f6b38c39b77df10f89d1cb88ca|2017-07-17|Colm Ryan|:art: use built-in reduce (#74)
+0fb17c8f2d9195d3d09e212af37e6e2afdcf7404|2017-07-17|Kirtane Chiron|Added import numpy as np (#80)
+3b99229b391eb844f34c2e32c3652eb837b7933e|2017-07-14|Will Zeng|Merge pull request #83 from kirtanechiron/patch-5
+6b63299843ca7a41c0964060112e4d901328d355|2017-07-14|Kirtane Chiron|typo on line 20
+f13f6566eb26cc13c2c4b9506cf1191013bf1300|2017-07-13|Will Zeng|Merge pull request #82 from kirtanechiron/patch-4
+cba6399cfbe7d2311ffe4d5e73c9cda49192a0d4|2017-07-13|Kirtane Chiron|Typo on line 942
+f77b8b9e7c6a1a1758541a017f6b94c0f2c48645|2017-07-13|Kirtane Chiron|Updated the qubit scaling example starting at line 263 (#78)
+82482972eb6267e100c82705f97503e8010b2a1d|2017-07-13|Will Zeng|tick version to 1.1.0
+c49e0c5afae6093aba6501ea26ab2185eec961bc|2017-07-12|Nicholas Rubin|Merge pull request #51 from harleypatton/feature/invert
+5d44f164940803f77dcdfe3c0cc8ba0c3eedf083|2017-07-12|harleypatton|python 3 compatability with map
+a97f00e505cc1cea75e78369ad422f97c11abe24|2017-07-12|harleypatton|Merge branch 'master' of https://github.com/rigetticomputing/pyquil into feature/invert
+b1d240985e79bdebc38270d69d5be191fb1fb793|2017-07-12|harleypatton|add inv dict, suffix, fix S and T phases
+2d5b3c171a5a4a967228d04e781e7830016ac511|2017-07-05|Will Zeng|Merge pull request #73 from rigetticomputing/ImplementNeForPython2Comparison
+8744bd3aa6e3515dc9a8b8f6867e2ac4f94b1c50|2017-07-05|Johannes Otterbach|Implement __ne__ where necessary
+56b978590df8e82df3330f8d4601d9c3ab647238|2017-06-28|Will Zeng|fix implicit urllib3 dependency
+fd194287ca3a626887981d9028bea164932b7ed4|2017-06-28|Will Zeng|Merge pull request #68 from rigetticomputing/python3compatibility
+c830b2ad898c3fdbeb70f03e0b6811d962199b1f|2017-06-28|Will Zeng|typo
+b9cec6ed500bd34bcc8aab164c27e0f5e95da79e|2017-06-28|Will Zeng|Merge branch 'master' into python3compatibility
+41f541afb2d4b938fb0f1d7404d861cf8bd649ec|2017-06-28|Will Zeng|update docs with new Python3 support
+6a429101464fe40a95c8edb212e06d83cc5dd630|2017-06-28|Johannes Otterbach|Minor improvements in API usage
+fe56e664800999089c8cbba42447ba5d47edbdb3|2017-06-28|Johannes Otterbach|Remove filter function to support python 3 change
+9d9f1a0a301ca68e892b2d435fed8076e2493ff5|2017-06-28|Johannes Otterbach|Makes oredring over qubit keys deterministic. Worked in py27 but not in py36
+2030aa5e6db50a341cda253ad66c44145167f1eb|2017-06-28|Johannes Otterbach|Ensures proper buffer for struct.unpack
+a6c2a123393827af99288d664fa6d5fe403defa7|2017-06-28|Johannes Otterbach|Add py36 tox-env and add coveragerc
+4395a76268e95b0bb4833b37f82d85e4c4bb6cf0|2017-06-28|Will Zeng|add docs instructions to the readme
+f32c855f9fd470d9500d751e67d1a4923ebc08df|2017-06-28|Will Zeng|Merge pull request #66 from rigetticomputing/toxifyTests
+ccac569a1f8af815c310c7394ce305b137d73145|2017-06-28|Johannes Otterbach|Toxify build
+ea4962e7dabadd7bd5ad771de4bb8f794067ce46|2017-06-27|harleypatton|check for protoquil at start
+d77301945478a20d9b51cb9c05e215f469d28c17|2017-06-27|harleypatton|Merge branch 'master' of https://github.com/rigetticomputing/pyquil into feature/invert
+b6ef90d22065c0b9c87788477a04f8b38f56c2eb|2017-06-26|Will Zeng|Merge pull request #55 from rigetticomputing/bugfix/python3-rounding
+0f1e25e647dd52b804bcb5c6ee8c95d27ef34356|2017-06-26|Will Zeng|Merge pull request #62 from cbosborn/docs/qvm-url
+2ac85a11648239b5cafe26218527b6fefccb2e5e|2017-06-26|Will Zeng|Merge branch 'master' into docs/qvm-url
+e8a9a9d162f38d8471c54d69535b6b5ae8d53144|2017-06-26|Will Zeng|Merge pull request #60 from astaley/pyquil/doc_updates
+a7937bd993ce6e335197019c0433ee2974cebc85|2017-06-26|Alexa Staley|Merge branch 'pyquil/doc_updates' of https://github.com/astaley/pyquil into pyquil/doc_updates
+892b29e7870bd0072fec4233a931896347e9cfca|2017-06-26|Alexa Staley|pyquil/doc_updates: added a note for plotting with notebook vs terminal.
+fa3ea4e8da9a2c0c971815ec14a2a696fa1bdc3b|2017-06-26|Chris Osborn|Rewording.
+0cec92bc66784d40959cbb71a6554ac704793bb5|2017-06-26|Chris Osborn|QVM_URL endpoint for QPU use.
+6b0becbcf57670e8370d4ad6c836801536798d25|2017-06-23|Will Zeng|change to //
+5994c677a61682725ef5f40bb0139fa8c6691c07|2017-06-23|Will Zeng|Merge branch 'master' into bugfix/python3-rounding
+10be6e783cd5d4de5cf7fde88a58b03ad6519a4d|2017-06-23|Will Zeng|greater than or equal too lmfit version
+643ae584b4031dbd9fe982bc1271a4a52297f893|2017-06-23|Alexa Staley|pyquil/doc_updates: removed unnecessary endpoint instructions as per PR review.
+82d341579b4afaf04874065c3136320c7bd11179|2017-06-23|Alexa Staley|pyquil/doc_updates: added lmfit install instructions.
+0e18a3f21cbcebf302767dbf4cc43a4dd463748d|2017-06-23|Alexa Staley|pyquil/doc_updates: block rendering.
+4e7c57dd8447d87b398531ab14dd242c7e3bf1d4|2017-06-23|Alexa Staley|pyquil/doc_updates: typo.
+922fcede74b9d319740bd17c7d274e4a2471c7fa|2017-06-23|Alexa Staley|pyquil/doc_updates: updated Ramsey experiment instructions and added note on correct endpoint. Resolves issue #59.
+8ddc4d74ed3b2cd19a52a77a4427429958a713f4|2017-06-23|Will Zeng|clarify that python3 is not yet officially supported
+efdbe4f062b9056b4b292fbdb8d9c53275f013d8|2017-06-22|Nicholas Rubin|Merge pull request #58 from rigetticomputing/bugfix/api_calls
+d1461db0989223d6d18ac96bda9e715361987005|2017-06-22|ncrubin|ENDPOINT Override HACK with Session Update
+c42b95a9de770ad6186fd551ae29e77c927a1ab2|2017-06-21|Will Zeng|bugfix to accomodate how python3 no longer returns an int after division
+60763ccadcffc0e2693e5c21994ee802c35e1274|2017-06-21|Will Zeng|Merge branch 'master' of github.com:rigetticomputing/pyquil
+aade2d647accb59de43c25aba2649e8b6362682b|2017-06-21|Will Zeng|bugfix in warning syntax to make python3 compatible
+e0ad02af478934cfb55f5c8a62f83531849889d3|2017-06-21|Will Zeng|Merge pull request #54 from rigetticomputing/docs/remove_refs_to_resource_page
+917e980e64cff52e4afe638de98375ee335c90ac|2017-06-20|ncrubin|removing reference to non-existant page
+3f79be1a8d9a74426c8c2d5073aa6ebfbc71a9d2|2017-06-20|Will Zeng|Merge pull request #53 from rigetticomputing/minor_changes
+2fe4eaafd9207c458ae9e203b7dcbe6a1a220651|2017-06-20|ncrubin|Minor changes to getting-started docs
+5598c99f9de610834066eb8d6198ba8fcfcf5066|2017-06-20|Will Zeng|Beta -> beta
+fd890d9067b3f228864e023ed2886249a0471489|2017-06-18|Will Zeng|change Beta to beta
+9ba08bee43daabc9cfcecc5c2f0061d803f71ebb|2017-06-18|Will Zeng|make job endpoint more explicit in getting started
+81986f84d5bb39367e86b22580cc9d0c2515032b|2017-06-18|Will Zeng|Merge pull request #52 from rigetticomputing/pyquillow
+a819c8176d7aefa07b894e5e9832d6f45f7000a2|2017-06-18|Will Zeng|add device_id to qpu prog tests
+8594d1b2dbc27b801a9b2e4744089446a1b4069c|2017-06-18|Will Zeng|finish jobconnection in docs
+0c6f48a2c26495fb19beb9c205e74ea5eaa0bd99|2017-06-18|Will Zeng|add t1 and t2 fitting models to plots and finish qpu documentation
+df95e7af7c2a175fc14d2e0f61a58ab844d5fcee|2017-06-18|Will Zeng|fix update bug and change plots to dots
+29b6034badb1b551109c6398d8facd6f9b5afcae|2017-06-18|Will Zeng|update endpoints in docs
+10e223f9eee4e3070985f96211979ee3a0f00a02|2017-06-17|Will Zeng|add docstrings
+bb594f2429ce55e5bc2fccdd870a8e47f5431641|2017-06-17|Will Zeng|update docs
+4dd02514591ee03aac7d2064111e23266278fc45|2017-06-17|Will Zeng|tick setup.py version to 1.0.0
+71c02f1765a6f4ae1a2f024dd0323923887eab35|2017-06-17|Will Zeng|tick rtd version number and remove HTTPS CERT masking
+1507e853cb3740e86910b28c500e768004c40f19|2017-06-17|Will Zeng|update readme
+f85823a22f511427cbf64cee92b13bfdd5cc57c7|2017-06-17|Will Zeng|remove getting started notebook. maintaining compatibility with source is a pain
+eafe8943bc01d3d20fc0caa1a6a7d1d30f2166ef|2017-06-17|Will Zeng|fix bug on qpu commands and update docs with qpu basics
+3a767d798904affe937ee6d94d833619a0e9b024|2017-06-16|Will Zeng|update docs for SyncConnection
+e0c3fa359f9a1f42daf86e8cd385ce69da386eb3|2017-06-12|Will Zeng|rename Connection objects
+650be980b6e0d3ec5a0bad2a41467021da29b122|2017-06-09|Will Zeng|rename forest module to api
+72d61efabf08b1e86ee99b3d3e0144ec705a7357|2017-06-08|Will Zeng|add wait for job
+5754099c0bdcaf15879d83203be6552cb0d0fff7|2017-06-08|Will Zeng|remove qpu.version method
+856d92af5f84f5eb79c9bfc3d4683c5da9464a62|2017-06-08|Will Zeng|remove deprecated ping and version for qpu
+c29e5684453cbfc7f88e0ca63dcfdee812512c84|2017-06-07|Will Zeng|Add qpu plotting
+0a90297776474da1d8471b2c65c2cc83f4e1ecf8|2017-06-06|Will Zeng|remove unused import
+67fabd3d24f185f1251e81a7fa67a3dd02d375b6|2017-06-06|Will Zeng|fix test bug
+40e75de2dfa78fc1403d8a01c9c0b8b14090a8e0|2017-06-06|Will Zeng|Add some forest docstrings
+9bdc78d14c7edd87b3d2ae999d6a02afba4769f3|2017-06-06|Will Zeng|add qpu tests
+fbc4eb374d639f60991a129e40e7ec84c28ae3f8|2017-06-06|Will Zeng|add LocalConnection to make QVM local use backward compatibile
+5fca7e796250703934d98ea3c0d2a59f7937a2db|2017-06-06|Will Zeng|qpu.py file cleanup
+fc9b98ba331c3ac9005cf31b8214e1118201801c|2017-06-06|Will Zeng|clean up QPU job result objects
+c30320f4fe93de0f35e25182e66292c2e6d441e2|2017-06-06|Will Zeng|update qvm calls to be async
+a06e4a64f197fe84b2e39ca98ee91b0fd7ce082d|2017-06-05|Will Zeng|fix jobresult message dispatch
+35f94549cb01ddc536ff401938b9f15310a45ca2|2017-06-05|Will Zeng|dispatching on result types for result plot methods
+6b995fdf9af67cc161bd15a465bcf8cc1174e6f5|2017-06-05|Will Zeng|extend JobResults to have get and update methods
+6d4ab40d434891bc6d5304ac5d92106ea3e6af7b|2017-06-05|Will Zeng|remove hardcoded config
+556761df11eb236c69f634de77745683219ad872|2017-06-05|Will Zeng|switch to qpu defaults for rabi, ramsey, t1 queries
+483b1b4a138b1a2f5fbff32d893927a1eb6d93be|2017-06-05|Will Zeng|add get_qubits method to QPUConnections
+9b344b80b0d4cbab989262874a24d15e19f4c3ec|2017-06-05|Will Zeng|add get info config call to forest
+dd6b0629b9ba9ef6b5ad22f1ff3ab11bf3b0166c|2017-06-04|Will Zeng|fix ramsey example
+14fb07c4a35753f85706933c2096bdafb20f052a|2017-06-04|Will Zeng|add qpu example jupyter notebook
+30bf0a94ef9426d5dc4939cb56cf954675f5205b|2017-06-04|Will Zeng|add some results parsing
+0ff6aa9b49df041691f929f753f13f47e8c79f9e|2017-06-03|Will Zeng|update t1 test script
+c6d1e715d32ef6a91d853e73f36860d5fa89b2e7|2017-06-03|Will Zeng|update test params
+4a0f661f7431a0c0ce7434a7d4b6d64b1bfc7cfe|2017-06-03|Will Zeng|add example scripts
+9315ac03ada5f0f7dfb324f7e721765d8422496d|2017-06-03|Will Zeng|fix deepcopy header bug
+b9f000adb9f83e02c403396973dfc240eaf6a7fb|2017-06-03|Will Zeng|fix chipname and add version job
+2618cf2b34870cb0e488b64107eafc826b6d260b|2017-06-03|Will Zeng|add hard coded jobqueue config for pyquillow job post and get
+b65b1e9ab700d4354a7d5d030f2a3c76fc70fc10|2017-06-02|Will Zeng|allow qcid to be passed to pyquillow
+7883ea2ad2124a5fa8200164d2f6bb77ba2c68fb|2017-06-02|Will Zeng|add new experimental hardware connection
+dc7fcfb859b212c12025f727768f0460301c04e0|2017-06-02|Will Zeng|pyquillow mockup
+00f6910c6277c57b32e9c78ed2014619592022fe|2017-06-14|Harley Patton|skip over allocation
+f6e638e85f99bb7b42fd17bf6a4e248d47e8d59f|2017-06-14|Harley Patton|implement dagger and test
+d4c26e7058204175eff545e50df6bc55427e138e|2017-06-09|Will Zeng|tick to 0.1.0 version
+02b23436472b3ae76b7bc5cae94b104ef2efc5be|2017-06-09|Will Zeng|update version tick to 0.0.4
+68dc69755f324a88823e3c7ef493e97c3d3a77e0|2017-06-08|Harley Patton|started inverse
+9cb3e7576a66509b6763191c30f2e72739a70b09|2017-06-06|Will Zeng|Merge pull request #49 from rigetticomputing/remove_numpy_from_wf
+667d1bb07c56008f5d765d58e5438b5927592480|2017-06-06|ncrubin|Remove numpy, wf check power of 2, real coeffs
+4d17d7efa373ba6642a978d4684332d02c685090|2017-06-05|Robert Smith|Bump version for py3 compat
+3878417090d9168583d69cd2890645193825a9a8|2017-06-05|Matthew Harrigan|Python 3 compatibility (#44)
+0c235a0e7138be604a06fe73dbf8d60f267601f4|2017-06-05|harleypatton|Add measure_all method (#48)
+b30d84b6daf23f102bcb389cab216b710c8d91b4|2017-06-02|Will Zeng|Merge pull request #38 from rigetticomputing/pauli-improvs
+011f865fa3095803ab8a45992bebe1b3857789a2|2017-06-02|Will Zeng|Merge branch 'master' into pauli-improvs
+9a2184479df133c4950c65adffcb20ccaecb35b2|2017-06-01|Will Zeng|Merge pull request #46 from rigetticomputing/qubit-num
+5337ff9211ca12d86ee30f3558cde4aa6f33b0a2|2017-05-29|Will Zeng|add new paulis tests and docstrings
+342cdb7b7d0cd3c93ebad37821bb01dae06a6dd3|2017-05-18|Will Zeng|add iterators to paulisums
+21785ef77b02d093c1a0cfaedf3261250eee6a0c|2017-05-18|Will Zeng|add subtraction to pauliterms and paulisums
+6c5415705a5dd597f1a43ba5eebdba4e97719642|2017-06-01|Will Zeng|measurement instructions count as qubit allocators
+ad55f16185feaff5368871d9d9d9569c09966279|2017-05-30|Will Zeng|add get_qubits method to pyquil Programs
+bc036847d61f93f626bf0c5e43965404d9733d1c|2017-06-01|Nicholas Rubin|Real angles for exponentiating i*Pauliterms (#47)
+8f6d8c2bd991942813073db2e7d5ab42b8e94ea4|2017-05-29|Matthew Harrigan|Modify run_quil.py to use argparse (#43)
+812110a16d81969abe9fec8d8885f8e570d978ce|2017-05-29|Will Zeng|Merge pull request #36 from rigetticomputing/feature/wavefunc-pretty-print
+36d82a97403881646c866619b2a223c72d7c2f4b|2017-05-29|Will Zeng|update docs to use Wavefunction object
+2cb60d422582412768fe532774b16c20d54e0ddc|2017-05-09|Will Zeng|add wavefunction object and pretty printing
+39ff70c47dc22b860276344dda62c0a63ebedb0b|2017-05-25|Will Zeng|Merge pull request #39 from rigetticomputing/iterate_program
+3d8bf32cd019b3fc9fa93b714d447f184d38a5d0|2017-05-25|Will Zeng|Merge branch 'iterate_program' of github.com:rigetticomputing/pyquil into iterate_program
+d77ca988fdee8408905fd85a7a005e48c5c74ddf|2017-05-25|Will Zeng|split indexing and iteration tests
+f715aceff3535764983595a6037fce05fe2e6afc|2017-05-25|Will Zeng|Merge branch 'master' into iterate_program
+e8a833d7002e53319d2dffb4c8290ae9ca89e1e4|2017-05-18|Will Zeng|Merge pull request #40 from rigetticomputing/add-mergable-progs
+7b57ad417c77aa9cb6836ac404f05c5b04df58e4|2017-05-18|Will Zeng|add method to merge a list of pyquil programs
+e70844437ceefa1b6558d6117b2ca6fafc44f7e9|2017-05-18|Will Zeng|make pyquil program objects iterable
+fb321a156db004826320569f6ffdeb8575b09e20|2017-04-20|Will Zeng|Merge pull request #34 from rigetticomputing/MeyerPennyGame
+f3b50e0c6015ac039c436b91969cd191783507e0|2017-04-20|Will Zeng|Merge branch 'master' into MeyerPennyGame
+1b718bed95bfaca2b819339674d65c589e2f4712|2017-04-20|Johannes Otterbach|Incorporate comments
+c5d3cfab82579d73080f4f69ec3988d68c85fb5e|2017-04-18|Will Zeng|Merge pull request #30 from rigetticomputing/feature/run-quil-script
+0f97b313aefcfe428185e9dc540e9443cbc7628e|2017-04-18|Johannes Otterbach|Adds draft of Meyer-Penny Game
+548c95957af7897ec33d6dd2396744f1583d9974|2017-04-17|Will Zeng|Merge branch 'master' into feature/run-quil-script
+f1071f9019182238237d2fbd204321a319d54455|2017-04-17|Will Zeng|bump version number to 0.0.3
+c9c667e00a3450023bbb74118bffe304b2a0aaf7|2017-04-14|Will Zeng|Merge branch 'master' into feature/run-quil-script
+60b3d89c699058b1ca569a462bdce36f7f6c89ff|2017-04-14|Will Zeng|Merge pull request #32 from rigetticomputing/removeParametricProgramFromProdCode
+12bbb3e87c50508c1d1391106b1edc0f7e402c82|2017-04-14|Johannes Otterbach|Cleanup of imports
+f6f0d39f881cd1ae114c863a4d46ade91c35557e|2017-04-14|Johannes Otterbach|Removes parametric programs from Paulis
+faae42361b44d56ade776366e513a42ec6d863eb|2017-04-12|Will Zeng|Merge pull request #31 from rigetticomputing/HandlingEnvVariablesGracefully
+718a46d0d80d2750c9572ddd5df26e6e3ad48caf|2017-04-12|Johannes Otterbach|Adds docs and error warning to handle improper PYQUIL_CONFIG env var
+44c05c3ba98dbb1dc7c5de9ec517bb8a46324461|2017-04-11|Will Zeng|add run_quil to tutorial docs
+ec2d31bed5979985f19fd30e22b59632c02563c0|2017-04-11|Will Zeng|add script that runs quil files
+d1a9e901c2aaae4a47280c38791653306adb7197|2017-04-10|Will Zeng|Merge pull request #28 from Echelon9/feature/setup.py-test
+d53148b6a1eb5bfabc6fa0a4c09bf6ba805edd4a|2017-04-04|Will Zeng|Merge pull request #27 from Echelon9/fix/doc-scipy-removal
+ad4fe49b75681fdfb3e5b971492823a8b6a68b6b|2017-04-02|Rhys Kidd|Integrate pytest and be explicit about test dependencies
+21edf11186e7dd173643aa347fe379e9912cf5d1|2017-04-02|Rhys Kidd|Follow up SciPy removal cleanup in documentation
+b66195052d2e6337a64ecda25d1c2b9441a95414|2017-03-20|Nicholas Rubin|Merge pull request #25 from rigetticomputing/add-docstrings
+4368c40f734eacf5460dcd97d09ca37fe973f4fc|2017-03-20|Will Zeng|add inst mutating docstring
+d9a979ba5d41e0c9122e45f037a019e3ab7a962f|2017-03-20|Will Zeng|Merge pull request #23 from rigetticomputing/scipy_removal
+f40fe11e238ff0f4b8d74d47a7471fdc3aa9da66|2017-03-20|ncrubin|Remove scipy dep and small code clean up
+9a833e391fece3b7739fafb6be9e0e7c606f14d7|2017-03-18|Will Zeng|fix some small docs typos in qc intro
+846a9c44d0616bd45236a2621e08b9db525f82cb|2017-03-06|rallim|removed duplicate unpacked_classical_reg (#22)
+220b2652bede07304b4f5ed805eff523f507eb62|2017-03-06|Balint Pato|DefGate: validation for unitary matrix  (#21)
+74c83da9f704765ee74ed2fa687ef7b8916a0c91|2017-03-01|Will Zeng|update badge
+31006c4b4558269cce049e5ef819983b21cb7f8b|2017-03-01|Will Zeng|Merge pull request #17 from caryan/doc/readme-pyquil-gates-import
+bcf538fc50cf429b026a41e54d71d680d0e36bbe|2017-03-01|Colm Ryan|:memo: both README examples need pyquil.gates import
+49d377b712fb49d178b9424e05241d582487e406|2017-02-18|Nicholas Rubin|Merge pull request #15 from pkaralekas/docstring-fixes
+98eefd9e58f03a8ff78807da07e8e58c79384a4f|2017-02-15|Peter Karalekas|Updated testing section of README, fixed some docstring inconsistencies
+6d9f8c4e401d29e9e22708fa6ca88d00809c2ca9|2017-02-13|Peter Karalekas|Small fixes and improvements to the sphinx-style docstrings
+f45e77e520f5b589f66ae9857c5696a03fce0a18|2017-02-07|Will Zeng|Make .pop return the last instruction and add tests for pop (#12)
+4153abc094a347b552d2d074d099d348e4b7b4fa|2017-01-21|Anthony Polloreno|handling Qubits in extract_qubits
+2c3dc997857cf3699a0d82105f96cbb5a93f80e2|2017-01-24|Robert Smith|fix the year in the citation
+6c790984c1f86651a86e4ad0f57a38b569ccdc91|2017-01-24|Robert Smith|decrease # of retries to 3
+fdd835930b5e7653ab58a043cb4e71f5ddff8ae5|2017-01-24|Robert Smith|improve server error message
+f93094936a1b2455481e7dfe5e5b9187235a9349|2017-01-20|Will Zeng|Merge pull request #5 from ntezak/feature/extract_qubits
+d31d0f261531f799565d1a9c91af8b82d346fec4|2017-01-18|Nikolas Tezak|Implemented InstructionGroup.extract_qubits()
+61f3213897086fd2ef388e7e708b8cf932d83bb8|2017-01-18|Will Zeng|Merge pull request #4 from ntezak/fix/badexample
+f0ea0fccbe713e82050f3cfe9ddbdbd2f984dacb|2017-01-18|Nikolas Tezak|Removed phase_estimation example that depends on grove
+89b110787d844c46f18ded0eb6f92e522d4026ad|2017-01-17|Anthony Polloreno|Fixing resource manager bugs, and writing tests (#1)
+012fc10aab2644e65162752de088c587e840f823|2017-01-16|Will Zeng|add how-to-cite into readme
+9e33beccb2584f8673049051dc0531b7cc8fcc05|2017-01-15|Will Zeng|update to 0.0.2
+c1b8c7ee7bb6bcadd8b42b6739177d217d7c9524|2017-01-13|Will Zeng|Merge pull request #3 from pkaralekas/readme-cleanup-pip
+ee756633e5cb6108e818c0cf4e76a42f6eaf0031|2017-01-12|Peter Karalekas|Added pip and more clarity to the Forest instructions, minor misc others
+3e1dcbcd6957a8d44e067f70e8db91a192fe96e2|2017-01-12|Peter Karalekas|Updating and cleaning up module descriptions
+914b6d2744fdf61b7bc7c4e013f4608f1cfc85a8|2017-01-12|Peter Karalekas|Added navigation and parametricprograms, altered to make consistent with docs
+d7edc573523fe309339d398217e8224e254c67ff|2017-01-12|Peter Karalekas|Fixing minor consistency and clarity issues
+b9576c7e4c6ae25e886e191ca6c7b4e24bda80a5|2017-01-11|Will Zeng|add pip installation instructions to README
+11cd03afa630d021193d0582f2b39ccf7d3068cd|2017-01-10|Will Zeng|Merge branch 'master' of github.com:rigetticomputing/pyquil
+0eca02d26a24d045830450f68c20294958e5d772|2017-01-10|Will Zeng|update getting started notebook
+009eec099e20f825b96c2f50a80aae09259d2aaa|2017-01-09|Robert Smith|Update Rigetti Forest link in README
+78806067c0ce0fa608669fcaef7f765a0246b3e9|2017-01-09|Robert Smith|fix typo
+f6fe414c65685dcdf66784dcba01035b112deb6e|2017-01-09|Will Zeng|add pypi setup config
+3a0ce61539e837b09e89d1183a46f04e77d116ec|2017-01-09|Will Zeng|Merge branch 'master' of github.com:rigetticomputing/pyquil
+134d6d3597c9e090643e8346f39fffd66772bcfe|2017-01-09|Will Zeng|doc fixes
+9f015dd8b174189e4d3bf3e1955469882e5ae1d6|2017-01-09|Will Zeng|remove sphinx-github-pages extension
+a37678bc4577b9e9b212c58baf4e5f8df735f429|2017-01-09|Will Zeng|add scipy dependency
+135fbd77e2982a2d730871754ca5b1d4c515352a|2017-01-09|Will Zeng|update to new semaphore badge
+306934a65ebdf6d2910c6f3d3018f6bcb255435d|2017-01-09|Will Zeng|initial commit. Welcome to pyquil!

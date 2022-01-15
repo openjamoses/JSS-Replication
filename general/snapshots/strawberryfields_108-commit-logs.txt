@@ -1,0 +1,1015 @@
+30ca0a606c1354658d0187dacca322d8d5e9a4ce|2020-10-04|antalszava|Further testing descriptions and examples (#461)
+4f73a7123b8b58a1155a90860746c27f27e40c9b|2020-09-26|dependabot[bot]|Bump tensorflow from 2.0.1 to 2.0.3 in /doc (#462)
+6bf767c1224ae350dbb3e4800c4b002dca5e5ede|2020-09-24|soranjh|Add qchem vibronic transition operation (#451)
+69f1c5bcd2fd9e5afd0fa0b04e389447d2bab648|2020-09-24|soranjh|Add qchem time evolution operation (#455)
+564cd31662ef4ad0abf213796ce510fd8cb0e412|2020-09-23|Nicolas Quesada|Update circuits.rst (#459)
+3d541f973cdde5f1ed3c5cefb29da00eb0b88d98|2020-09-18|antalszava|Add the cancel_pending JobStatus (#456)
+a3b657b0da28fc47fcefa4f1483cbd5376e86a8f|2020-09-16|Josh Izaac|Update CHALLENGES.md (#454)
+dadfa8fa544666efdd1b3173dc9173bb12ea061d|2020-09-15|Nicolas Quesada|Update CHANGELOG.md (#452)
+5d27db1cf0fb815e9ff8efb6d02c6b72a8e4cfdd|2020-09-14|Josh Izaac|fix image link
+8877c3d84daa694ca83521b3c19a35aceba1bf10|2020-09-13|Nicolas Quesada|Time domain program class (#440)
+6c12c3f092cdd5ddb35ce6857ad5f24ca66a58fe|2020-09-14|Josh Izaac|development release
+fac3d01b38ab79bfca0bc4fa0729084c24e3e2d4|2020-09-13|antalszava|Increment version number to v0.15.1 (#450)
+656866b9cabbf66b87a4698d69369249e30ef36b|2020-09-10|antalszava|[Compilation] Adding compiled_with Program attribute (#447)
+e46bd122faff39976cc9052cc1a6472762c415b4|2020-09-07|Josh Izaac|Update readme and hardware access links (#448)
+9fad507d6ce153de4cf19ac8b1f61316c2878e7a|2020-08-27|Josh Izaac|Changes the default compiler to be Xunitary (#445)
+8dc66f59d7d55526c80bea567dee09f9a75e364e|2020-08-25|Nicolas Quesada|Compiling bug (#444)
+1c01896aa7e9139f75089cc097ec97126c1a1ce7|2020-08-19|Josh Izaac|increment development version number
+1bca98d65d88a3ed3cd69e5d0cf90eb994866f90|2020-08-19|Josh Izaac|Increment version number to v0.15 (#442)
+a98fe1618018e8ef28be02294de6c988514d7eb5|2020-08-19|Josh Izaac|Adds an Xstrict compiler (#438)
+e38de6e987135e2372504595dd9f7f3229d8c9e6|2020-08-06|antalszava|Check for complex arguments for symbolic parameters (#439)
+54490931368be926996b86a68c2d1083c1779d47|2020-07-27|Theodor|Device spec API implementation (#432)
+7524fc5ada7f41a9177385f3619c9f308f62037f|2020-07-09|soranjh|Add duschinsky function to qchem utils (#434)
+d77ed6a33905e79f795c65c23eeefc3065bf9107|2020-07-09|ziofil|Raise error for complex arguments to Coherent, DisplacedSqueezed and Dgate gates (#428)
+69ba1e18b51880a7d039d86ddbd355d0e5836459|2020-07-08|antalszava|Update analytic expression in variance test (#436)
+e980b02f6b0178a36fc6e005a0c37940e530a3f9|2020-07-08|Theodor|Add connection to device spec API (#429)
+f77e8794dc109dc660ab1fc6c63e88d4d767da5c|2020-07-04|Aroosa|Add a function to qchem for two-mode squeezed state sampling (#430)
+a9810e82fc08f4560d131a67d37e56ba7888e231|2020-07-03|antalszava|Add ability to access all samples (#433)
+f0c76fab680f4ccd2228662afbfb942c6f232f00|2020-07-03|soranjh|Add a function to qchem for coherent state sampling (#423)
+f60703df76679e13c1747b651dc8aca29ab6abac|2020-07-03|Nicolas Quesada|Update introduction.rst (#435)
+739ad44950624434375a24693a060e8a5e74c951|2020-06-26|antalszava|Update tensorflow.py (#431)
+3c7b2a7bec0e05cf2133643bc4f63643db2e5a0e|2020-06-26|soranjh|Add a function to qchem for computing marginals (#421)
+9eba2f0a5481ac38c8acc611c36843b2b7b61a39|2020-06-24|Josh Izaac|fix navbar link
+5af1ddfae981602f80d602572481ee1248718c66|2020-06-24|Josh Izaac|Fix installation page
+046c09fa73199b05be35cd7a73bb6e0d715bf464|2020-06-24|Josh Izaac|Refactor the documentation (#397)
+2bdc0cae9d5e4626afcffb218189f100521da0c5|2020-06-23|Tom Bromley|Make new apps layer datasets loadable when installing SF (#425)
+8a905bd60f9e873805e7553cb5d3fc7f6e5f8812|2020-06-23|Tom Bromley|Move vibronic into new qchem module (#416)
+949378c898c0eb1fdffc62e5269be5530a0a8eee|2020-06-22|antalszava|Counting statistics for post-processing samples (#399)
+05e2771fcc4ec77c10f4c1a039a519227038559d|2020-06-22|Tom Bromley|Tidy up tests for apps.train module and add to changelog (#415)
+9601a310a827f9e2eaf34e34dfea6e2a00a98e28|2020-06-22|Tom Bromley|Restructure and improve docs in apps.train module (#414)
+e5952f78cf65d4d1899ea5d6087d075048ab6b74|2020-06-22|Tom Bromley|Fix docs building (#424)
+dfb15858fcd7fccf55dbd1346f7df166e86d9d6c|2020-06-19|Aroosa|Making new class for feature vector datasets (#401)
+6acc50775f2f95a4119a5a129cd043e195d5fecf|2020-06-19|antalszava|Reverting TFBackend import & TheWalrus rc in docs requirements (#422)
+cf237e444933ade2cd62a470653b9bd91450c843|2020-06-19|ziofil|updated changelog (#420)
+0812cd4bb6ccef4f62216102720cdba9b65abc7e|2020-06-19|Josh Izaac|fix docs building
+16d01641c91a83eb3fc5d3929906b8dea8efcdf4|2020-06-18|soranjh|Add a function to qchem for computing state probability (#419)
+9713d05c41c345fd2ceb867903f497cd543a9bc9|2020-06-18|Aroosa|Updating the similarity module functions in the Apps layer (#390)
+6e2c338a00f02dd2a08c573876ea9764e1742f06|2020-06-18|ziofil|TF2 polar parameters (#378)
+58da193292f20ef4d2852892e81e5da5550de5a8|2020-06-18|soranjh|Add a function to qchem for Fock state sampling (#411)
+d28e86dd0519d3a5f7e3fe9386ec192f72913d75|2020-06-17|antalszava|Moving utility functions to a utils package (#413)
+0765e2ce91a0c5aa40cc528f51baa2600d7cbe47|2020-06-17|Josh Izaac|Update README.rst
+9a011ed4b79335d781809ddddf22f37c071ecc6c|2020-06-17|Nicolas Quesada|Updates the Fock backend ops.py to use the new Walrus gate signatures (#381)
+2f15c17820f7b0b8a6ac219278125da02d6a2e0d|2020-06-15|antalszava|Update Makefile (#412)
+99584b976155e83661c6de8e7394d363099ccb77|2020-06-12|soranjh|Add qchem and dynamics observable (#402)
+55f597f23154dd8dc7a94110057211f98ca07d64|2020-06-11|Theodor|Unify backend results (#398)
+0b44c63c40a3cbe5858abab3f2db300bef191fd8|2020-06-10|Nicolas Quesada|Update gates.rst (#395)
+48d30bc9201764714178d16487ec8a9def1c4f3e|2020-06-10|Nicolas Quesada|Update README.rst (#405)
+4a19c42a1687a62d7d99feb342c330cec8bd219e|2020-06-09|Tom Bromley|Add stochastic cost function to GBS cost module in apps layer (#393)
+b667b76d5ae1eacc428175fd2e224b743826eee6|2020-06-08|Nicolas Quesada|Update README.rst (#404)
+8f3cf68246fc50942d94f219a4e61f6fa2935225|2020-05-28|ixfoduap|Add KL divergence to cost module (#391)
+cb3167a6e7d1a188a822efea17f6cd0308930fc9|2020-05-26|Nicolas Quesada|X series compiler (#358)
+807e79ccf8f4a8263ad9b84665a98e48adb83295|2020-05-22|Nicolas Quesada|Merge pull request #394 from Lucaman99/parity_gaussian
+11ccfb79128e3352dff5218bd0d03e2186b42c13|2020-05-22|Jack Ceroni|Update states.py
+552bbf7b3b45fa18c37e4d57a88c2148daa41ab7|2020-05-22|Jack Ceroni|Update states.py
+c73729f813262bcfcf9f3efad0d977be20c3b39f|2020-05-21|Jack Ceroni|Update states.py
+1b0889a0938be460ead64b10f2c7f143989fa574|2020-05-21|Jack Ceroni|Update states.py
+b30f141255f00765dfff0d1c6f3e0a378f56f5e3|2020-05-21|Jack Ceroni|Update states.py
+a9d12b986689377893f47a07a6fa1763cc1cd821|2020-05-21|Tom Bromley|Add GBS parametrization for training variational GBS circuits (#387)
+86195b0cfe763e65fcc6b08fa8fb6e10834789d6|2020-05-20|Jack Ceroni|Update strawberryfields/backends/states.py
+bff06e85ec22209d7cce4c92eed842409ff1716f|2020-05-20|Jack Ceroni|Update strawberryfields/backends/states.py
+29283f22b89eb36d41050cbf287feeeda5053d9d|2020-05-20|Jack Ceroni|Update CHANGELOG.md
+178f8f58c5f0bc8808dea8b68d9889d7554765cd|2020-05-20|Jack Ceroni|Merge branch 'master' into parity_gaussian
+1488f0b1ec83ee48eafcb9f89acd4efdf1db1741|2020-05-20|Jack Ceroni|tests aren't running? trying to reload
+19833024f2c759a17b53d346d27c986788aa71b3|2020-05-20|Jack Ceroni|Gaussian Parity Expectation
+c6605d4144eee5aac078a055b584293b72fcf9e4|2020-05-19|Josh Izaac|Moved CV conventions into ops.py docstrings (#281)
+faa7fa2c6175869c94e6760b7b81dd7a4a3aff0b|2020-05-15|Nicolas Quesada|Merge pull request #389 from Lucaman99/parity
+e5a15a3f29c894f0fbe4e755a045dfab6f03ad1d|2020-05-15|Jack Ceroni|Update test_states.py
+a8f89bbe275a0f020ed0ee51ac5e60c9aab21020|2020-05-15|Jack Ceroni|comments
+fbea48db1fd0eb8b50a401150037e53e44326388|2020-05-15|Jack Ceroni|Update .github/CHANGELOG.md
+9d76472220441bf074c2b04fcfbb56e0d627d63d|2020-05-15|Jack Ceroni|Update .github/CHANGELOG.md
+0d5a37896a4550f465efbe242a59b675ea2518cc|2020-05-15|Josh Izaac|Merge branch 'master' into parity
+940791517796c5004c94ddecb2e9ea0a5ae5053a|2020-05-15|Jack Ceroni|changelog
+3ee27aefdf1032dfb620c974721b297043e429ed|2020-05-15|Jack Ceroni|final changes
+77aaa83ced3070f8ff25f48f107a28dfeffb5b8d|2020-05-15|ixfoduap|Add embedding submodule for training GBS distributions (#388)
+90e62026929a069a68492729b075285fb877cf56|2020-05-15|Jack Ceroni|markers
+68fdfd3abb0589890740001ffd6efa02207dcbe8|2020-05-15|Jack Ceroni|remove quadratic expectation
+ddc21248b51ad92f28db846be7bcd866c13901ec|2020-05-15|Jack Ceroni|Update tests/backend/test_states.py
+a2954d6e1f926fe0444bbbc7253768de4be1afa8|2020-05-15|Jack Ceroni|Format
+59b36f3a4b20b91c0406d065805fb04825c3f9ab|2020-05-15|Jack Ceroni|other 3
+ed38ba3973ac6876fdfba9ac8acf9bb0a29250e0|2020-05-14|Jack Ceroni|other 2
+6e00ecce3517c46babb1bca1b81e5c0dda86a7d3|2020-05-14|Jack Ceroni|other
+c9508db81c6e2fd5e8682253f32eed422d178291|2020-05-14|Jack Ceroni|new changes 2
+136f103c27fd34dd497d10dd148bb2740ef02005|2020-05-14|Jack Ceroni|new changes
+b9d31a541daa6dbc9494b9bf58fb72556210c273|2020-05-14|Jack Ceroni|changes 3
+b1ea7807b066ec7531aac87d3f4b5f377cd01300|2020-05-14|Jack Ceroni|changes 2
+20946b2f4e6f5977ede8a0f5e4c63ee09ba45972|2020-05-14|Jack Ceroni|changes
+aac71a1aebd102b3062b2cfc1b47f12b5ee66c24|2020-05-14|Jack Ceroni|add tests
+001ec00e8f4fc809d772ca078a13f11be9b9f7e0|2020-05-14|Jack Ceroni|number expectation + quadartic expectation
+58bcb8908597e9568fc65dc19ef754bb7e3735a2|2020-05-13|Jack Ceroni|Update strawberryfields/backends/states.py
+bb0972264a252beaa3c2c598bafe21bffe4b1935|2020-05-12|Jack Ceroni|Changes - Fock Backend
+975a6223f04f19b2f0758cec49c0a55f43d330f0|2020-05-12|Jack Ceroni|Minor Fix
+21e39c6e51708c8141fa4d11db20f6038286495f|2020-05-11|Jack Ceroni|Mixed States
+6cc8f0701965793bd8ce6db8b0e991cac4e81d29|2020-05-11|Jack Ceroni|Fixed
+eb2dd66a01906d5ca60af16b2cf39c65c7c37351|2020-05-09|Jack Ceroni|Minor Fix 2
+14fd798d6cf7d2d3c507701d84d92b9e7f7a5ea1|2020-05-09|Jack Ceroni|Minor Fix
+6b3c4f35c9c17bec5461d2b524f68acf8dc2da47|2020-05-09|Jack Ceroni|Added Parity Expectation and Test
+1698b95902a149fced9f3a19783a3f9e8019185f|2020-05-09|Theodor|Merge pull request #385 from XanaduAI/remove_python35
+6840336b91d05377871eff9098d02e18f2a9e5fd|2020-05-08|Theodor|Update CHANGELOG.md
+873444bdcfbf877e82b85f038dbba07b1bb8f699|2020-05-07|Theodor Isacsson|Remove traces of Python 3.5
+627b8e6c1049d1108303bf0d9ba53cf6b120ea1f|2020-05-07|Theodor|Merge pull request #379 from XanaduAI/measurefock_dark_counts
+c112b946c708d964e17e0762cf8ce7c1d37e72bc|2020-05-07|Theodor|Update CHANGELOG.md
+b2e4f242b8ec874daaf61aa62dc0fa8f6309ea14|2020-05-06|Theodor|Swap order of pytest.raises with prog.context
+c3d84a3029d95598a2576f194e8212bfa32e7ee0|2020-05-05|Theodor Isacsson|Fix black complaint
+ccd60432abd9f8a11fe4ce4c4bff38a74e7d706d|2020-05-05|Theodor Isacsson|Add tests for dark counts
+b9ff129e55d94ab4ad96a8e91a4eb192d3e77627|2020-05-05|Theodor Isacsson|Add exception for select with dark_counts
+f83ef46a309890f8437c5a244b0bc7ea8cab7cae|2020-05-05|Theodor Isacsson|Fix blackbird conversion
+51486eb8b8d75fddfaded35ca75fcfb3fd3f029f|2020-05-05|Theodor Isacsson|Merge branch 'master' into measurefock_dark_counts
+2de5a0f84b450dcf475715107379b493572eef92|2020-05-04|shreyapkumar|Hardware-friendly decomposition (#363)
+2d55f6c7109aa5297fee578a2f1e524c21d92d1c|2020-05-05|Josh Izaac|increment development version
+763127133b977081decbc7bfa60cc07d266c9033|2020-05-05|Josh Izaac|docs update
+149e852bf068d0f68a5d31acb59005c193a2524a|2020-05-05|Josh Izaac|Bump version number for 0.14.0 release (#384)
+8fc18599740808a28adb86b2eb9cb5384a35e7bd|2020-05-05|Josh Izaac|Norun tutorial (#383)
+c5ac487571656e456aa256ffe5d6f79b1c87e9fa|2020-05-04|antalszava|Increasing required version for The Walrus (#380)
+9b6393b4a8493a34d46bcee04dc9d1c2476b1278|2020-05-04|Theodor Isacsson|Fix printing and saving with dark_counts
+30c2364ba526c98773f9fe56bf4bbcf1a5364220|2020-05-01|dependabot[bot]|Bump tensorflow from 2.0 to 2.0.1 in /doc (#382)
+b883d4c9d2bc567d89a6112bbe817b566c7c86f0|2020-05-01|Josh Izaac|Upgrades the TensorFlow backend to TF2.0 (#323)
+f10cb67ad45c1d671a5ef6ec1369dd8f5c9e1d13|2020-04-30|Theodor Isacsson|Improved dark counts
+27a457e558b908fc2d7140a8d12ce6b4c26d02d3|2020-04-29|Theodor Isacsson|Add dark counts to MeasureFock
+a06cb55d3c893a6cd02cbf5ccad6bdafdd1a8d3f|2020-04-23|Nicolas Quesada|Merge pull request #371 from XanaduAI/nquesada-patch-1
+d7ab1bb3eb248e41f8b8479192e0dd222d33eee1|2020-04-23|Nicolas Quesada|Update ops.py
+b497f0f56bfd3ef3649d519c8594a04b8411887f|2020-04-20|Paul Tan|Add error details for failed remote job (#370)
+7bea7f2fca5e55a50e00163f53bf725f0039d80d|2020-04-19|Nicolas Quesada|Update gates.rst
+5917bacb5496f1836c9d88fe2e17e4ea23f5e8c4|2020-04-17|Nathan Killoran|Update README.rst
+438e36edeec03bf7df33c7b0c7c08b4e9057f04d|2020-04-17|Nathan Killoran|Update README.rst
+d3c6737acd6d8dc5d4dc36119493b07ea52e3adb|2020-04-17|Nathan Killoran|Update README.rst
+ef6dcd91817497e9a75eb46834bfc7c3c41a282b|2020-04-16|Nicolas Quesada|Merge pull request #348 from XanaduAI/number_expectation
+f2e2b2ec674bd42c8ac7b8939ce3c54619074ee9|2020-04-16|Josh Izaac|merge master
+fd93ef1caac696b7251573e3bfdf9bfca653b4c6|2020-04-16|Josh Izaac|Merge branch 'master' into number_expectation
+45064ae195f35ba0402ba8b480127331d2efd475|2020-04-16|Josh Izaac|bump to dev version
+fce4595127f0e0c0ccb60a25c6c5f3fca7174d08|2020-04-16|Josh Izaac|Fix printing of results object when it contains no state (#367)
+a144b4c38034a94853441818d8072a9a9cf41d06|2020-04-15|Josh Izaac|typo
+898fb15010dc7a0e9a6f1bbd754990865eab7850|2020-04-14|antalszava|Correcting note box for measure_fock (#366)
+fd10559589e903e63516bb37bcf13a9f834c919c|2020-04-15|Josh Izaac|Bump version number for 0.13.0 release (#365)
+19b6b634e54fc612e9b92673dd25d2c3e25a09f5|2020-04-15|Josh Izaac|Fixes bug where negative probabilities can be calculated during Homodyne measurement in the Fock backend (#364)
+a0d9ad08efc5ea919b9bc627b772af9495ac3e62|2020-04-14|antalszava|Updating changelog with new configuration functions (#362)
+8da09e3f5135581e0f96f09af77f44faef122908|2020-04-10|Theodor|View/delete existing configurations (#359)
+0fa9ba068376bdbece000622181fb8b8ddcbacc4|2020-04-07|Nicolas Quesada|Updates changelog
+4a1628ff0901b90e1dcd467a6c204bb45ebf6773|2020-04-07|Nicolas Quesada|Updates changelog
+bc47a375997cfd6a8202abb78345ea050d40a3dd|2020-04-06|antalszava|Logging job ID with engine.run (#347)
+0b7570f33d2c5d36538e0c2914c760b498a01097|2020-04-06|Nicolas Quesada|Adds pytest skip for batch_size
+49c792771fa9c0b80d3088f716d3574e9c2cdd6e|2020-04-06|Nicolas Quesada|Adds missing exception
+2a4edceb7cbf664328da3fca178d5cadedcce341|2020-04-06|Nicolas Quesada|removes wrongly placed if statement
+a06859eef01ceaf825109035c3a0deacb521a9a9|2020-04-06|antalszava|Correct typos in the template for issues (#355)
+8564fd8d327b454b9e71f615dfec72446a9a87b5|2020-04-05|Nicolas Quesada|UPdates CL (#353)
+d8cef3015b821e7210f9fd275ef80f9b93526583|2020-04-05|Nicolas Quesada|Merge pull request #352 from XanaduAI/takagi_for_real
+ade0492c117fdb45cfaf9a35ce960ead656c0780|2020-04-03|Nicolas Quesada|Update strawberryfields/decompositions.py
+e7d62a0bd13b84ffc29071959c4b635cb4f6d9cc|2020-04-03|Nicolas Quesada|missing space
+aed47020db7a53ac84da32106ef88c1a9717b0a4|2020-04-03|Nicolas Quesada|Avoids using the sign functions
+7f2f51585d35ab4a8459ae1a99d5236a6ef753be|2020-04-03|Nicolas Quesada|Update strawberryfields/decompositions.py
+b0fb48258a4b0a0018568626f6c71ae96e4a6588|2020-04-03|trbromley|Update test based on code review
+c817fbee99e14221acb5efc4f64e244af5ced906|2020-04-03|trbromley|Add test for zero matrix
+47d35d694e9e152d09ef558cbaf6e04b387b403b|2020-04-03|trbromley|Add return for input matrix of zeros
+60302721a14306f6708fb305452118cbc31cab70|2020-04-03|trbromley|Add test for a real matrix with degenerate eigenvalues
+52516ac08077444c88522807dc39e6fa0aa6afe9|2020-04-03|trbromley|Apply black
+fcb0a1366f87ef9478398adafca8ba6e777c4644|2020-04-03|Nicolas Quesada|Adds missing real if close
+bc9fe42008f136b408c68477586b62d92983b8fd|2020-04-03|Nicolas Quesada|Adds missing real if close
+59c691d521dfafadb7b3d19b55913a29ace2079c|2020-04-03|Nicolas Quesada|Fixes wrong variable name
+19b129af36500bd70ec89bedefd25aed27526697|2020-04-03|Nicolas Quesada|First attempt
+f579dc80b7c24f054c478b68c96b4316e9591192|2020-04-03|antalszava|Removing trailing whitespace
+c98c0843c86411d1ea1a5d2265065f7e5c7ee1e1|2020-04-03|Nicolas Quesada|Removes support for TF batch mode
+dc53a800a2c2767434188c14e25a3d7a9a0c453c|2020-04-03|Nicolas Quesada|Update strawberryfields/backends/states.py
+03a75f7367370e851508a4a3c48c31c4566254e1|2020-04-02|Nicolas Quesada|removes commented line
+fd71e33aaacd505b09d210ed8aa1b5488e1899ad|2020-04-02|Nicolas Quesada|Tests now also run in tf
+be7c18a4e64991c2cdcc547b01aee0bf4ca73466|2020-04-02|antalszava|Creating the abstract number_expectation method in the BaseState class and moving a unified docstring there
+b99b0cf9632cbfb50668c3a2637bf1a27372b011|2020-04-02|Nicolas Quesada|Update strawberryfields/backends/states.py
+3a9462d4fae383308de8586114405fbcbf35970b|2020-04-02|Nicolas Quesada|Update strawberryfields/backends/states.py
+aea9d14c546ef0d5cdba3f57cf6bea8099edb1b3|2020-04-02|Josh Izaac|merge master
+c162afd9a4a8fc7f8e701090737b98b3c7e2c8aa|2020-04-02|Josh Izaac|black
+d2ae8977c3c6489d59b438b3200257df23a8cf3b|2020-04-02|Nicolas Quesada|Passes black
+20527098583e2dd2abfe9e98f17b4d71a387ad63|2020-04-02|Nicolas Quesada|MOre formatting
+0c0fe56d250efad4eaa92daef23911085017bf71|2020-04-02|Nicolas Quesada|Apply suggestions from code review
+ed796c89fa2d7d5307eae88b651b4b567e932be4|2020-04-02|Nicolas Quesada|Update strawberryfields/backends/states.py
+5535bfe587b711bae45aeb6760b859563ea8c6d9|2020-04-02|Josh Izaac|Black Strawberry Fields prior to pre-release, and add continuous integration for PEP8 formatting (#351)
+ab3196bd1a5034be784f36a7aa7fa5266a57bafc|2020-04-02|Josh Izaac|fix versioning
+7292ec9b9064de407602fad499e47b4b71ce59c9|2020-04-02|Josh Izaac|fix versioning
+4c00dea89a9bd62ed2eff2f205665841f2dcfa09|2020-04-01|Nicolas Quesada|Tests added
+f50aad3fa72e628b4b7a2488155a8f46ec549c72|2020-04-01|Nicolas Quesada|Removes left over text in ops.py
+02c2428aed44e2045a57bebb8ee17e73ce9dff12|2020-04-01|Nicolas Quesada|First working version
+a48d421ffb397bff2869e60a54fbffbec5eb34fe|2020-04-01|Nicolas Quesada|First implementation
+80cad5f0569bf55d7f072a680865333eec42b782|2020-04-02|Josh Izaac|Bump version number to 0.13.0rc0 (#344)
+f6ac22b00c8a085e0fbd75d3a19b631e634e4c0f|2020-04-01|Tom Bromley|Make clean-docs remove build files in doc/code/api (#346)
+32aafba73ffa737e53d762a56fe0d3a339c4517d|2020-04-01|Tom Bromley|Update image to use png (#345)
+4e451b0f5437add5adcd6e0c27c34cafb9842504|2020-04-01|Josh Izaac|Fix RemoteEngine.run_async kwargs bug, and add test (#343)
+866e10dbc4484baa0d795dd0e118073bf1fe4644|2020-03-31|Paul Tan|Add more details to Connection response error message (#339)
+0c2520efd152a10f96c4ba8017b771f81a64ad61|2020-03-30|antalszava|Import cli.ping in __init__.py (#340)
+2b772731be1488adc50ac8245bb48a9bf4aed5a3|2020-03-30|Nathan Killoran|Merge pull request #342 from XanaduAI/revert-341-shots_fix
+630180ee7a650348607aa8d31c039957fdd84e66|2020-03-30|Nathan Killoran|Revert "fixing assignment bug (#341)"
+beb7500622712186a9bf7f27fd3d8f354ac17d35|2020-03-30|Nathan Killoran|fixing assignment bug (#341)
+2b5a89e2fb81a32ac414ee99c85f1b2e30816297|2020-03-31|Josh Izaac|Polishing the hardware documentation (#334)
+fafc9da20ee546ad22768f96531f76afb96eb444|2020-03-31|Josh Izaac|Unify RemoteEngine.run() and LocalEngine.run() signatures, and allow for default chip specs for each device family. (#337)
+a168124c8fc5a51e99e8808e756b7fbd678be9bd|2020-03-27|lneuhaus|Fix a json-issue in the cancel_job method of sf.api.connection.Connection (#336)
+605819aeb797ff11d7ca57a5905b535676f855c1|2020-03-24|Josh Izaac|merge master
+2eaa10c14e9a4d6f06708f1f72858e11a4c64435|2020-03-24|Josh Izaac|Hardware tutorial (#330)
+96aa9ecb07f94748a6171a0559550c3e83b54493|2020-03-23|antalszava|Adding Chip X12_1 and X12_2 (#329)
+deac750d98736ca7defcb0868eb7e98455e89fb8|2020-03-21|Josh Izaac|Refactor the configuration and CLI documentation pages (#324)
+e46ad7f930feb359b80183eaaa776d3d6a2a1aae|2020-03-21|Josh Izaac|move up index
+dee495285a59caad52cac1b0e147c34d20a580aa|2020-03-21|Josh Izaac|Apply suggestions from code review
+6e9aeb1659c69b896c116f363c190d41d7513965|2020-03-20|Josh Izaac|Update changelog (#325)
+0dea4e84f270351fcf7e89627c39a2aa09787401|2020-03-20|Theodor|Update name of `chip2` to `X8_01` (#328)
+7744b581e590df0d48b1bcbc01ed7a432614fcc0|2020-03-20|Paul Tan|Make shots parameter optional for RemoteEngine and Connection (#327)
+06ac52a2b14f47699a1408c68cbf55396bfd12cd|2020-03-20|Josh Izaac|suggested changes
+2cb8737bbba46f9c2d5bea5a7df74ca0cf85cfb2|2020-03-20|Josh Izaac|Apply suggestions from code review
+85267debd1eb185facb56730f2d57763bfaaa86c|2020-03-20|Josh Izaac|Remove accidental xfail commit from the demo branch (#326)
+d3812b422bae2740d3e79063a117d8af7fa9d690|2020-03-19|Josh Izaac|fix rendered
+97fd104aacfa1566512fce1ece27e590c9e55c0c|2020-03-19|Josh Izaac|final
+18d29748bed77fe642e790643a452d86ebfb5fc4|2020-03-19|Josh Izaac|more changes
+01894f118e7273f5a4bc4e0547740102f07ff53a|2020-03-19|Josh Izaac|update
+4e9d13c74624a7b8f6150aa008a22567f4234a04|2020-03-19|Josh Izaac|fix up configuration and cli pages
+e557ba23e5049bc887c7c8efd7b40044a3117410|2020-03-19|Josh Izaac|Merge the demo branch into master (#319)
+f01da143defb383044418a1be8837066d8e17c0f|2020-03-11|shreyapkumar|Update CHANGELOG.md (#313)
+e87ea27286e9ce83781f976acc93d65e240c1d01|2020-03-11|Nicolas Quesada|Merge pull request #315 from XanaduAI/nquesada-patch-1
+657913492afb9ed14461fa2f680dc17a61f9d1d1|2020-03-11|Nicolas Quesada|Update gates.rst
+e705af0684141ee2f747c1abe15a36c0c7c39dc1|2020-03-10|shreyapkumar|Rectangular decomposition: Identity fix (#311)
+70e5cf3f0ed521fdca3e95267d7fe67d3d7189a3|2020-03-05|Josh Izaac|Update requirements.txt (#310)
+98e7b0a7822bc6df4272e919b76109578ad8dd32|2020-02-26|antalszava|Merge pull request #305 from XanaduAI/numba_req
+6e16ce31588b7264776b0776e212ff1f228d947a|2020-02-26|antalszava|Adding numba to setup.py as well
+96a28210b25ff541e0d22d03f7c52cf5488b96bc|2020-02-26|Tom Bromley|Correct typo (#303)
+0f7fe048307d7932d9da58bc9ef139d30ba8c152|2020-02-26|antalszava|Merge branch 'master' into numba_req
+9bbe1a2e4914a6e872aa217c2d64e1fda69fe96d|2020-02-26|antalszava|Merge pull request #307 from XanaduAI/update_thewalrus_link
+a5c844842a8bcf9d9036f27e3d134dc019ba6821|2020-02-26|antalszava|Update the requirements link for thewalrus in requirements.txt
+060df7c5340b04b00ad382ed71463c6f36cf9186|2020-02-26|antalszava|Adding numba to requirements
+e1e1168e76a11135b944eac080a8e29d0e739219|2020-02-26|Tom Bromley|Apps: Update subgraph functions to accept node weights (#297)
+a5bf88e0fae8918b85a02f33e7a58cf555f8f44e|2020-02-25|Theodor|Merge pull request #300 from XanaduAI/unified_backend_results
+73bb5be219896b1ce5f6a7e902a5864b86e52832|2020-02-25|Theodor Isacsson|Merge branch 'unified_backend_results' of github.com:XanaduAI/strawberryfields into unified_backend_results
+3c2d23c06fbcf60b85a7fc772620728e8b5568d8|2020-02-25|Theodor Isacsson|Clean up test
+d7c78f1a7f17eab2c2eea28f67b52d83dc68859b|2020-02-25|Theodor Isacsson|Clean up test
+6f4a0f61b69670fc40990fff9a14d7623a69457e|2020-02-25|Tom Bromley|Apps: Update clique functions to accept node weights (#296)
+b06e8ffec29fca525ae81d422b3e6fd291043506|2020-02-25|Theodor Isacsson|Fix test failing when batching
+5f8c9d44988d68830e6216cd8690fd9c42d2a8b6|2020-02-25|Theodor Isacsson|Clean up tests
+b98d2108c9ae3822a77b0248621262438ad5573e|2020-02-24|Theodor Isacsson|Merge branch 'unified_backend_results' of github.com:XanaduAI/strawberryfields into unified_backend_results
+b23c7ea8a93ddfd674bd06d4cec10a2cc38a249e|2020-02-24|Theodor Isacsson|Fix for when program is a list
+c2287f5b2a254f1bd91a426161d29a5494b6ba73|2020-02-24|Theodor|Merge branch 'master' into unified_backend_results
+39d83b79f7be18d55ff67257fe44e815b10a97d9|2020-02-24|Theodor|Update CHANGELOG.md
+b538d2f27226e75ba7b8f6d18c19e58e37e4405a|2020-02-24|Theodor Isacsson|Add tests for multishot errors
+405a9dec1a899213c5f59b4a40580f5fcfc1e08f|2020-02-24|Theodor Isacsson|Raise errors for faulty multishot simulations
+2d058e29adf176303396a2cc3e043ba9456156ae|2020-02-24|Theodor Isacsson|Fix tests to work with return type and shape
+3294566febb997f83440badbd3639be31bca42b3|2020-02-24|Theodor Isacsson|Change samle return shape and type
+72cecd2643045bcb5e441cbf320e0f679acb7484|2020-02-24|Nicolas Quesada|Merge pull request #299 from XanaduAI/nquesada-patch-1
+c35669039c4294572cdeb4a5209af19fbde36384|2020-02-24|Nicolas Quesada|Docs S2gate consistent with backends
+b63d84b0e0c8aea23d796e3bd5eee86662604e02|2020-02-21|Tom Bromley|Apps layer: Add WAW adjacency matrix rescaling function (#295)
+b7deb70929ea10995f2dd1c52d69b1db50bd6149|2020-02-14|tedde|Merge pull request #293 from XanaduAI/fockbackend_gateappl_cleanup
+e05b40a55a45094670262db8a867b12d50421872|2020-02-14|tedde|Update docstring
+baa2f6fff7a0e5647ce290be7cb720fa84d1c7f3|2020-02-14|tedde|Update docstring
+b38757f35679b8337a4b7cdeb60f9a77ee478c09|2020-02-14|Theodor Isacsson|Merge branch 'fockbackend_gateappl_cleanup' of github.com:XanaduAI/strawberryfields into fockbackend_gateappl_cleanup
+364a213250a1d5bd73ee90181447f69f75201216|2020-02-14|Theodor Isacsson|Update some docstrings
+3d10392cf5924cfedb477f9c727dcfebb31ba864|2020-02-13|tedde|Update CHANGELOG.md
+99f224b2380ba187b562340bc713b0b86d2403df|2020-02-13|tedde|Merge branch 'master' into fockbackend_gateappl_cleanup
+7e4eab0c77d598f7dadaae5211b7ebb405ba8552|2020-02-13|tedde|Merge pull request #292 from XanaduAI/BS_S2_custom_contractions
+18c8fcdce9a1c97c201d778c9b309a736fb9c024|2020-02-13|Theodor Isacsson|Add comment to transpositions
+8e03cd5b7daa80bb05ae971748a27a385337ed92|2020-02-13|Theodor Isacsson|Add specifications to error raise
+a27844f1c4c1a5f4dd23e23cb21c546860e3733c|2020-02-13|Theodor Isacsson|Move gate application to circuit class
+b5fa42d5fee9b8573bba0dd618303099b19b4191|2020-02-13|Theodor Isacsson|ignore jitted functions in covtest
+7009fd25c4f86cce7206b34117e8bd42a87042f9|2020-02-13|Theodor Isacsson|Remove trailing whitespace
+4ad9470f03203d3aa8cbd7315975314fd16865aa|2020-02-13|Theodor Isacsson|Parametrize test loop
+2d4185acac7f44a8481b23afa3da3ca0af9184c3|2020-02-13|Theodor Isacsson|Update docstrings and comments
+221fbcd9b5a11728ca6a4c6fe071f6212d205b3c|2020-02-13|tedde|Add specification to error raise
+72172eac7edc79f22178dd3b33d878853e9a042a|2020-02-13|tedde|Update docstring
+b9a11f8e0da9fb6e828a27e1b3e3f8900181fa52|2020-02-13|tedde|Update docstring
+5b7e4a85455cd02121c3341fba908d74ca24bc6f|2020-02-13|tedde|Update docstring
+4a756776e46cba7fa8a02d8cc6dc5f441435d496|2020-02-13|tedde|Update docstring
+f1a40c720a546a4100b24a075bbd285a43c1460b|2020-02-13|tedde|Update docstring
+07880c8888e25a757cc9dd486a1624ff28e99229|2020-02-13|tedde|Update docstring
+e51470eda55bb1f48d478c0a64b75f90b83ab524|2020-02-13|tedde|Update docstring
+33ae0412930b2c147b920b74b2e67140a65ce2ea|2020-02-13|tedde|Update strawberryfields/backends/fockbackend/ops.py
+5cfc2d7afa91e139ab846a6f13f5f059b2b60664|2020-02-13|tedde|Update strawberryfields/backends/fockbackend/ops.py
+20494dcda70086068229b47ca35ea33bb55ddbce|2020-02-13|tedde|Update strawberryfields/backends/fockbackend/ops.py
+670954ab1b250130c9d43d84fe792590403e27f7|2020-02-12|tedde|Update CHANGELOG.md
+fb943391f01002b979eb6509ce06fa45d8836ec8|2020-02-12|Theodor Isacsson|Correct variable name
+ed08be81594e92b32af137ee6f98f82c05aa7e74|2020-02-12|Theodor Isacsson|Ignore pylint too-many-branches
+d99a032949b2ada2f192b35f12a8d9eaf8b385dc|2020-02-12|Theodor Isacsson|Fix diagonal check to work with multi-mode
+6cea56b983a41e51298b45916ee2d652c59ba957|2020-02-12|Theodor Isacsson|Improve speed of gate appl for diagonal ops
+5d62bf443f6fc3dc0d0d189ebeb81453ccc64138|2020-02-11|Theodor Isacsson|Add tests for two-mode gates on mode subsets
+04527863eae7eaee307f1501180cb8a66c7f4dcf|2020-02-11|Theodor Isacsson|Add faster contractions for BS and S2
+8b1d5f7e913869e1eda3ff9ea39caf66c9db62cb|2020-02-05|tedde|Use thewalrus to calculate displacement, squeezing and beamsplitter in the Fock backend (#287)
+ab1ad488bb7dfe8ef2acd32bf12cae9ccae97c14|2020-02-05|tedde|Remove unnecessary else (#290)
+e9a4bb469bc36aaaecb097b1f8698870f3a7f620|2020-02-04|tedde|Merge pull request #289 from XanaduAI/S2gate_to_fock
+1c749d53d8e060749948006722a3cb3e958a86cb|2020-01-31|Theodor Isacsson|Merge branch 'S2gate_to_fock' of github.com:XanaduAI/strawberryfields into S2gate_to_fock
+5fdd8896877ab89221876d8baeb1415cf90c1ea4|2020-01-31|Theodor Isacsson|Change misspelt function call
+fecc6a81cece25b7e681eef42884acaf58757ad6|2020-01-30|tedde|Update CHANGELOG.md
+73f3808d3cad3ec40e3c78ecf908a5368daee334|2020-01-30|Theodor Isacsson|Merge commits from github with local
+66423e6614ac72598c64b476426d4ec48f4ed119|2020-01-30|Theodor Isacsson|Use pure fixture instead of calling state.is_pure
+8a6a6f54a614bd3aa2d64651e4596f8aada1fe68|2020-01-30|Theodor Isacsson|Fix docstring
+98e131454ce958ad7eed87968bab100ed5383423|2020-01-30|Theodor Isacsson|Remove superfluous equality check
+68886f9411179d2c07d05ee63914a7ec8e50c74f|2020-01-30|tedde|Remove whitespace for Sphinx domain
+83acb4e2fd46d1f0b5a94af123a00921d5035a45|2020-01-30|Theodor Isacsson|Fix spelling error
+88d82e32a43d335a03cd646ffcbbfff0904c08a0|2020-01-30|Theodor Isacsson|Add tests for two-mode squeezing
+ef44628e4ba5d4cb233d81c0eabad965e9c9a78c|2020-01-30|Theodor Isacsson|Move S2gate from decompositions to primitives
+6a9fe052d8108a4c830ad9e89a7d859e62380df4|2020-01-30|Theodor Isacsson|Add two_mode_squeezing method using thewalrus
+617e1a09ec6347521b4119944de3b6e34d82d0cd|2020-01-30|Theodor Isacsson|Add two_mode_squeeze method
+d4856dc11878f4df9a568709c8bcd9ca835c8e1b|2020-01-30|Theodor Isacsson|Add two_mode_squeeze method
+d37b07f027fed240a0110d102321bced7d6ab86c|2020-01-30|Theodor Isacsson|Add apply method to S2gate
+f39a88a5878bf79e69e967de90c402ed93bd0d09|2020-01-29|Ville Bergholm|Remove duplicate automodapi pages for imported objects. (#286)
+e6ada37a26c2906936255cbade42b85c4978da84|2020-01-16|Ville Bergholm|Symbolic parameter / TF compatibility, documentation (#282)
+51a80ccb46ce95f8bdfa15352287593f53dc542b|2020-01-02|Ville Bergholm|sympy.functions.atan2 has been fixed in sympy 1.5, workaround removed. (#280)
+09438629d2076402a9c9d6d92d4835abac10fdfa|2019-12-23|Jack Ceroni|Added Quadrature Values (#270)
+ddd2ca1b77a3ae2eee89baf5e09deceefba2e02d|2019-12-23|Tom Bromley|Dev version bump (#279)
+baed383781f70e46aa8c60eeb1bcf670ada19ab8|2019-12-23|Tom Bromley|Add apps data to manifest (#278)
+2e62a2153516d21724e62a3656aeb6423b1e31b5|2019-12-23|Tom Bromley|Version bump to v0.12.1 (#276)
+31586fd3b2d049f9ecec8d6a1d99765fb4764230|2019-12-23|Tom Bromley|Bring requirements.txt in to line with setup.py (#277)
+250707316f7347d68cd0fed1fae3a676bb0ce8bc|2019-12-22|Nicolas Quesada|Merge pull request #238 from XanaduAI/gaussian_unitary
+92ad934123849045d8bb2fe5bf5c4eaeaacebf3c|2019-12-20|Nicolas Quesada|Update gaussian_unitary.py
+392dafe737fa804ec3c158d60a81be0be3e8b998|2019-12-20|Nicolas Quesada|Apply suggestions from code review
+31dfd6fecd14eaa1e33ec21876ff461ebc6408e6|2019-12-20|Nicolas Quesada|Update strawberryfields/circuitspecs/gaussian_unitary.py
+d0034d1c9fd4361d63ddb8c882e45d6472c6894e|2019-12-20|Nicolas Quesada|Update strawberryfields/circuitspecs/gaussian_unitary.py
+39b373ded17c8320d21e0f57e20f15f883402d1c|2019-12-20|Nicolas Quesada|Update strawberryfields/circuitspecs/gaussian_unitary.py
+89a60f41c6731996ec22fffd715f47a82c6b9941|2019-12-20|Nicolas Quesada|Updates CHANGELOG
+1e732fc6d283e09949cc8545c09401afee6b495f|2019-12-20|Nicolas Quesada|Adds mini example
+b38c68bea93975b469757b757e3247916cc81089|2019-12-20|Nicolas Quesada|Update strawberryfields/circuitspecs/gaussian_unitary.py
+ac9f5f37b05eae84fa71d8309006260fdf115eb5|2019-12-20|Nicolas Quesada|Update strawberryfields/utils.py
+f5265d19d5c05644dba3ef78ff44365c16151d77|2019-12-20|Nicolas Quesada|Update strawberryfields/circuitspecs/gaussian_unitary.py
+8f79a5a04bbca123be7225baf81ac8070488920b|2019-12-20|Nicolas Quesada|Update strawberryfields/circuitspecs/gaussian_unitary.py
+e6f8eeeba77ec4b93cf5c65cab6127ffb030ef8c|2019-12-20|Nicolas Quesada|removes unused import
+665d698df72ece7ca0998b62ec84bb96e578e32d|2019-12-20|Nicolas Quesada|Adds more tests and remove unnecesary comparisons
+baf144bdf6a233c6e9221704de922a9f67696466|2019-12-20|Nicolas Quesada|Adds extra option in random_symplectic
+a44c3e9712ed1759e1882e18b301f6314be40231|2019-12-20|Nicolas Quesada|Reduces size of symplectic operations
+c1f502d6c45c1497452f42db9541101df38875ea|2019-12-20|Nicolas Quesada|Makes squeezing values smaller
+934167ade734c99c8907f047ce276c36df3a8a69|2019-12-19|Nicolas Quesada|Updates requirements.txt
+51fa098410851ae546c6b218b63b66aaf026d2aa|2019-12-19|Nicolas Quesada|Merges master
+134af70333227b991fa76f099c2859017053a95c|2019-12-19|Nicolas Quesada|Updates walrus requirement
+10d9be17cef54ae5d369d8757267ebb2c56fb611|2019-12-19|Tom Bromley|Update GBS figure (#275)
+8eea272eea6e28d427294751650e58aa0141c3df|2019-12-18|Tom Bromley|Add paper (#274)
+c71cd27a043d1b74288c622c8ef83082895f55ed|2019-12-18|Paul Tan|Fix image URL on readme (#273)
+5ea84ccdc76220be832053d0812e129d2bb8978c|2019-12-18|Ville Bergholm|Require thewalrus>=0.9 to fix an import error in the apps module. (#272)
+c08f40d4d96c2a086b47f040a5fff20dd97ff9fc|2019-12-17|Josh Izaac|dev version (#269)
+8a79fabec92dfb1043900649018cf6b224271971|2019-12-16|Josh Izaac|Version bump to v0.12 (#267)
+b374f7a7ff21f3dfe2ae020bfa97dcc954325747|2019-12-16|Tom Bromley|Restructure documentation (#266)
+0520e2cf1dd24d5d1ccd9b6c742d19b9006f0bc1|2019-12-13|Tom Bromley|Add plotly to requirements (#265)
+1e1cbc4d784391e171cc2a2c074a59988b997fca|2019-12-10|Josh Izaac|Changed documentation theme to match PennyLane (#262)
+5c5b4bed2c4abf3ce987365dd43af16d09c2d4ff|2019-12-06|Tom Bromley|Apps: add module to SF __init__ (#260)
+977394e89f729e202adc0250a564c0a3d3b72897|2019-12-05|Tom Bromley|Apps: Rename kernel to rbf_kernel (#261)
+2b0ba36faa1292d69785abdf859eef0701c86c3a|2019-12-05|Tom Bromley|Provide ability to specify x+y dims of plots (#259)
+46299a09c71f5e3d51b6009da509052d8b5d7d2a|2019-12-02|Tom Bromley|Rename gbs module to apps (#256)
+faa3e2af1a1db9c72cf04140af5c4ab8c95e44eb|2019-11-28|Tom Bromley|Mock TF (#254)
+d4913b698f8b0a1469ac7e1ab3f3c345f9fff84a|2019-11-28|ixfoduap|Polish docs (#255)
+fa7505900814c6b1050205cc98bc3aedd6858a03|2019-11-27|Nicolas Quesada|The tests work again
+40f7b3e88d8f7b1cc017c2ea1b3f5527f9200404|2019-11-27|Nicolas Quesada|Merge branch 'master' into gaussian_unitary
+ac3352e095c53c90c36e7766dda717fddea2e7cd|2019-11-26|Tom Bromley|Remove output string from plots (#253)
+3f24af108b09aea01bcb9cd2e8f2c8c9f30f3385|2019-11-23|Nicolas Quesada|First attempt at decomposing Xgate, Zgate and Fourier (#242)
+a12e5a5bd79cf975d3750444533f25278a005746|2019-11-21|ixfoduap|GBS: Adds missing image for vibronic spectra tutorial (#252)
+adbbf6dc4cf3d64115871262156d35d229373a1a|2019-11-18|Josh Izaac|dev version
+bc9082226dc5e666d65775a9856c388bdd03dabd|2019-11-18|Josh Izaac|update changelog
+1a4465e51972c7d05ee782c5356adf65be6e0735|2019-11-18|Josh Izaac|Version bump to v0.11.2 (#251)
+8656f7ebf2f98f9cfb35a3a2c1e0decb5190bc07|2019-11-18|ixfoduap|GBS: Tutorial for vibronic spectra (#246)
+00cab98fae9501f52b53acc41c74441afd7d9170|2019-11-18|ixfoduap|WIP: Intro to GBS in docstrings (#250)
+e0e3c8f3c427b99a340fd73bf72dcf82a9c6cf47|2019-11-15|Tom Bromley|GBS: Add vibronic dataset (#241)
+a24b8a2a6933d68bb0ff7bf5d16d3353106e8d01|2019-11-15|ixfoduap|GBS: Polish vibronic docstrings (#247)
+dac5aeb2269de8d1316a841820f052a0f5f0ebec|2019-11-14|soranjh|Modify vibronic plot xaxis (#248)
+948f91396cab7a06591248a9f6e844380af9616e|2019-11-13|Tom Bromley|GBS: Add spectrum plotting functionality (#236)
+2245d62dac36826980042adb323b9894cc6f7f4b|2019-11-12|soranjh|Add vibronic sampler for finite temperature (#245)
+7e5534bdf275aaffa31e658b8c4acabbdb755a12|2019-11-08|soranjh|Compute vibronic energies at finite temperature (#244)
+138d8459fe773a9d645569d7af3ecd1f86e65f5a|2019-11-07|soranjh|Compute two-mode squeezing parameters (#243)
+d15f1cae3455f7c2881f7e3a854003dfa05779cf|2019-11-07|Nicolas Quesada|Fourier gate
+2aeb02a7370b4178fc82617d33da73ab5e36db21|2019-11-05|Nicolas Quesada|Fixes linting issue
+567a84762c95d5dd933cded12ca809df6283f950|2019-11-05|Nicolas Quesada|Fixes linting issue
+5e22bd520e97257fd2423f2e9872e9a4dddbfe01|2019-11-05|Nicolas Quesada|Fixes missing import
+cee01fc1c974da5099628daebfc265af4cdbb806|2019-11-04|Nicolas Quesada|Adds more tests
+644b06f015d06c7a69dc4677c5a8050cc58ba244|2019-11-04|Tom Bromley|Add plot note to tutorials (#230)
+927351a84e00c1046620ec387284cdcbd3b316f6|2019-11-04|Tom Bromley|Fix sample.sample warning (#229)
+f85c8eea6641bf7d5657b4cff26b245851ce6bb7|2019-11-04|Nicolas Quesada|Change to docstring
+b0797f83a30a5f23b8bd97508679b355b29756f7|2019-11-01|Nicolas Quesada|New test for subset of modes
+c5e7427f2907d74edb6471ad58ee1c1d9ab7e9f5|2019-11-01|Nicolas Quesada|New test for symplectic decomposition
+d89ad8f23ebfe9aeeb55cc4531876440eaecf489|2019-11-01|Nicolas Quesada|New test for symplectic decomposition
+d3d5da1fbf034f7a1cd498facd95ed2ba58cd945|2019-11-01|Nicolas Quesada|Adds first version of tests
+cea0a03bfc90041c2acc224b98acda1b91cdc6b1|2019-11-01|Nicolas Quesada|solves linting issues
+85f87ba7d2521a290dfc5997a78548a3e0396646|2019-11-01|Nicolas Quesada|updates requirements
+89451a49763d84ec2fc7ce0a3d9c494319a90702|2019-10-31|soranjh|Add vibronic energies (#235)
+d2cde98c4e09f6026221488d3ae100d643a75557|2019-10-30|soranjh|Add vibronic sampler (#233)
+336c09a9ff3eabf97e4d93f8e26338b87f0db2c5|2019-10-30|soranjh|Add vibronic module with GBS params function (#231)
+e93f4cd44ca8ccd8109ccabccf060e6e238e108f|2019-10-30|Nicolas Quesada|basic ans still buggy implementation of a Gaussian compiler
+fc7bdfa2a11612e81181d6ec046ef9326583cfbb|2019-10-29|Tom Bromley|Fix sidebar (#234)
+94036642f3008bfa7202774a51b907ba51f35138|2019-10-30|Ville Bergholm|Symbolic Operation parameters using SymPy (#163)
+9180bb4b004926bdef89611a66c4c5ebf62dce04|2019-10-29|Zeid Zabaneh|Add io.loads function to load from string (#232)
+45764f7cb6d44b7bcfbf7edf3fe88ce4840f31a6|2019-10-25|Tom Bromley|GBS: Rename plotting functions (#227)
+00b1b96598f7b1c58b437303ac573aea3713a332|2019-10-23|Tom Bromley|Fix Readthedocs building (#226)
+bcbafdd6c98dee67f4a1e3265a1a9c6a6117c81d|2019-10-22|Tom Bromley|Fix single sample bug (#224)
+51832e1fc02c701c752dfa4546c13f61f4f4967a|2019-10-22|Tom Bromley|GBS: Add ability to simulate losses in GBS (#223)
+b808a354a7be052c2b7a159e1f1d79ae76521179|2019-10-22|Tom Bromley|GBS Docs: Improving subgraph docs (#222)
+e2cdee2962b1f5f93e1965f12488981e13b70e4b|2019-10-21|Tom Bromley|GBS Docs: Improving max clique docs (#221)
+e68248e2ce0c63cd621664a0b57604df721ba3cb|2019-10-18|ixfoduap|GBS Docs: Improving point process docs (#218)
+35e6eeb5d3c20e1346e9b15ff53f9f92fca3f91e|2019-10-17|Nicolas Quesada|Merge pull request #213 from XanaduAI/nquesada-patch-1
+910c632aadc2e96481d0d0ae7b37bd7cd3ca981b|2019-10-17|ixfoduap|Apps: Dense subgraph tutorial (#220)
+04aa2e9ef58c348b133bf34ea596cc751ec20143|2019-10-16|Tom Bromley|GBS Docs: Improve sample docstrings (#217)
+7578083c298defb387d82f0776af44e0b41dbfd6|2019-10-16|Tom Bromley|GBS Docs: Improve similarity docstrings (#212)
+0bb721bae2f08c84612301ae3e3f43cd8a2c8cbe|2019-10-16|soranjh|GBS Tutorial: Point Process (#210)
+c4a38f422d4a4cc3f51c094f9cb784940828685b|2019-10-16|Tom Bromley|Fix plotly rendering (#219)
+6004dc7892f0c48ef38642abaec6098c9c991870|2019-10-16|Tom Bromley|GBS Tutorial: Sampling (#215)
+7c0daca773e3ef08778c7ce20dbe3e78e67a642b|2019-10-16|Tom Bromley|GBS Tutorial: Graph Similarity (#206)
+d5bdd27d2e6e180e463f54fef569354a4f2ef69c|2019-10-16|Josh Izaac|added plotly js to layout.html
+c93936f609293228ff61bde79250cf9954056b36|2019-10-16|Tom Bromley|GBS Refactor: New search function for dense subgraphs (#216)
+b4b1d03a0a54ecd70ef7b45e524914d3b1a4c2da|2019-10-16|ixfoduap|Apps: Max clique tutorial (#211)
+9a3b41b07736280b4c74a999894d7737f37f38fd|2019-10-11|Tom Bromley|Refactor resizing part of subgraph module (#209)
+872c1d86464eff257170e8bf84aed234394032b1|2019-10-10|Nicolas Quesada|Typo in displacement
+c6b3f03c58b985facf1cd650a71e36ebec283125|2019-10-10|Tom Bromley|Refactor sample module (#207)
+893d5cd9a08c35cdb7e987e5a7dde95620024bcc|2019-10-09|ixfoduap|Apps: Adds point process visualization (#205)
+aacbadd8461f2aaf72e27a5d67beb1336cfff427|2019-10-07|Nicolas Quesada|Update README.rst (#203)
+acb1f1a6507120e5f9eef1c549f3121ed433e00f|2019-10-07|Tom Bromley|Add more GBS samples from graphs (#204)
+ffeb107b2e88c982c4da046029ba491956a98dff|2019-10-07|Tom Bromley|Add sphinx-gallery support (#202)
+fd3d0dd18901ecb19fbdd0e2099358505bf88d7b|2019-10-04|Tom Bromley|Add GBS data interface and an initial dataset (#198)
+795d51e675f9a351760568b8016acbcb2dbba4e1|2019-10-04|soranjh|Add point process sampler (#201)
+c37cd0bef576bc95c9a55c3d3cd4d75b186e4530|2019-10-01|soranjh|Add apps pp kernel matrix (#200)
+01898c44f9dbdb00a9f3da3bc03969c17100b1b0|2019-10-01|ixfoduap|Add graph visualization module (#199)
+5d036fdf8b5f28c05990d5c2e782722164f9d145|2019-09-21|lneuhaus|Fix issue #192 and part of #193 (decompositions.rectangular_*) (#196)
+acc802b243875141bca28477217a6672e447e52a|2019-09-20|Josh Izaac|update docs
+5da0791d293655251bf67481aa8657315899af8d|2019-09-20|ixfoduap|Apps Layer: Fix event_to_sample (#194)
+cf6f4628d5860f2d5d643bd8f74c90bb1237f49b|2019-09-20|ixfoduap|Apps layer: Add feature vector from Monte Carlo (#195)
+06116f3a35f2e7fc9f7b5a74002ddfd88af2474f|2019-09-19|Tom Bromley|Improving Apps Structure: Part 4 (#190)
+0fa449e34e8d346546783dd3e0e5e018c9cbf475|2019-09-19|Tom Bromley|Improving Apps Structure: Part 3 - Consolidate sampling based functions into sample module (#189)
+90eabce739118f7796088270bf06c81e1c59cd99|2019-09-19|Tom Bromley|Apps layer: Provide event probabilities calculated by Monte Carlo (#184)
+65a517ebc7eac23d51364e5f3c096d1a918a43a0|2019-09-18|Nicolas Quesada|Adds tests for decomposed frontend gates (#173)
+7094457d1c88b4519860c29e3af522f5c6449738|2019-09-18|Nicolas Quesada|Merge pull request #191 from XanaduAI/circuit_drawer_fix
+5eaa70d50053eaa47722e847a0112a5d8af4b4e0|2019-09-18|Tom Bromley|Apps layer: Provide feature_vector_sampling (#188)
+d7c921a85597ae6105938ccc316e235f8c8a6921|2019-09-18|Nicolas Quesada|Updates tests
+616d9e054bb3fe529fcbf7c2a45333de17dbd681|2019-09-18|Nicolas Quesada|removes whitespace
+c5853e7ebdd8e9276e6e1824bd0e15ff00462bce|2019-09-18|Nicolas Quesada|Adds minor tweak in circuit drawer so that the pdf generated does not have page numbering. Makes it easy to crop later on
+843f77f95ac3c7f632826de3ed7f7002517c0f23|2019-09-17|Tom Bromley|Improving Apps Structure: Part 2 - Consolidate graph density based functions into dense module (#187)
+0b6b972d54870ea923c828ca0b1cb8c7b8a31fe7|2019-09-16|Josh Izaac|fix broken docs building
+c02d5076d247eaacd9fdff84a3637dea9cacb91a|2019-09-13|Tom Bromley|Provide functionality to randomly sample from events and orbits (#183)
+19fb7572e55701527127b004b4ce71f5d2273199|2019-09-13|Tom Bromley|Improving Apps Structure: Part 1 - Remove graph layer and consolidate clique functions (#182)
+fa3f8eb56429b0746fb6396035589d7518fbebe2|2019-09-12|Tom Bromley|Apps layer: sample_to_event and related functions for graph similarity (#181)
+97a5b45ef5004e713c9975ef4ebaf30a57d1f163|2019-09-11|Tom Bromley|Provide applications layer in docs and polish max clique documentation (#180)
+855e814273fd22c6d6832fdcccfc0efde3af7210|2019-09-05|Tom Bromley|Provide local search algorithm for maximum clique (#179)
+eaac766ea28fef2af5692606a76123632757e83f|2019-09-04|Tom Bromley|Add example code to docstrings for resize (#178)
+df707d72e9cdd4c61b61d4eb4d01fee854572c5a|2019-09-03|ixfoduap|Add example code to docstrings for utils (#177)
+c2c9df2a82d20622ccc3c53a26559de56c5eae27|2019-08-30|ixfoduap|Add clique_shrink function to graph apps (#176)
+0f9cdc494b74032f4974387598fa23b94f2d372e|2019-08-28|Tom Bromley| Provide ability to swap cliques (#175)
+8a401b8d325ff7f2d58c70305e28f0687774f719|2019-08-28|Tom Bromley|Provide ability to greedily grow cliques (#174)
+3e849124031c8682baa99b6d500788670300a318|2019-08-26|Nathan Killoran|cleaning up gallery
+391ed9aafe45c47efaaf31ae952935e57a79fb77|2019-08-26|Tom Bromley|Provide max-clique util functions (#172)
+d75a07891011644c2aac67c3508da440f2781a1a|2019-08-23|Nathan Killoran|Update CHANGELOG.md
+8e7192030dd1c510506ee7e311ef1b2dc3a91a11|2019-08-23|Nathan Killoran|Merge pull request #154 from XanaduAI/loop_sampling
+bbf62f9de488a2e9829da2976f36fb292878276c|2019-08-23|Nathan Killoran|update test to respect batch mode
+23cf8febeb421eb35bf5ef91442e8f1caf4f192e|2019-08-22|Nicolas Quesada|Incorrect order in decomposition of CXgate (#169)
+191d8a38f8b45f62bd7c3db83edfb6a21294f0b2|2019-08-22|Tom Bromley|Introduce applications layer (#164)
+3b9a907f508d3cdfb7628737f0696ad636d66ff7|2019-08-22|Nicolas Quesada|Update ops.py (#166)
+9c6e90fc296883ef3b3858f426ea87d7e35ad421|2019-08-22|Nathan Killoran|fixes erroneous name introduced during #150 (#170)
+2f02d53f7aa8b5af1a63cee4086acc26d54a08b4|2019-08-21|Nathan Killoran|Merge pull request #167 from XanaduAI/nquesada-patch-2
+060440d2c0ed04a7612c24b2bfd4b30e242a34df|2019-08-21|Nicolas Quesada|Corrects typo in definition of CXgate
+fc35dca59600dcd642b311c5543a6933147655ff|2019-08-20|Josh Izaac|Merge branch 'master' into loop_sampling
+d5cec0c09ead708289d6eb56f646889142f450f4|2019-08-20|Nicolas Quesada|Update setup.py
+08206c0ab5d523e4ae215bbc396a46cc78f8cc1a|2019-08-20|Nicolas Quesada|Adds Torontonian sampling support to the Gaussian backend (#152)
+f24b8d4da3fb3655440003476dd01e1a00d01ded|2019-08-19|Nathan Killoran|updated changelog
+569607ade2e2b8cb83432a66828a588d48dfb88d|2019-08-16|egbQuantum|Added test for cubic phase gate (#160)
+a8e1fe5df52846527bc5a1262517d6ab8280c6f2|2019-08-13|Nathan Killoran|Merge pull request #162 from XanaduAI/black_setup_py
+363d2a4c9aea0729779eeb3b60a399608b53ff3e|2019-08-13|Zeid|black setup.py to avoid merge conflicts
+cfe84943e7bb8dab2c625a0817664b69293df1ba|2019-08-02|Josh Izaac|documentation bugfix
+0125f4b08499814b7d77c35a1b33f7ea512db3db|2019-07-31|Nicolas Quesada|Added backend and integration tests for measure fock with displacements
+2ccc8b7486a788239e1fc73812154963c99bc50f|2019-07-31|Nicolas Quesada|Corrects error in smeanxp
+19ee4ddb0149b894f9a97517eb23f6d366f18c97|2019-07-31|Nicolas Quesada|removes the restriction of zero mean for PNR sampling
+0d1685cbd159956c8b7fbd66f9da9c5b4ffb4be7|2019-07-30|Josh Izaac|Bipartite graph embed (#150)
+025b26c24d92097d11457554f392b31cdb0bfff5|2019-07-26|Josh Izaac|urgent docs bugfix, ops wasn't compiling
+14f91bf5f2e0dc60b2a431c23c8edf6ce5dd1850|2019-07-25|Nicolas Quesada|Makes bloch_messiah return *real* matrices. Before it was returning matrices with zero imaginary parts (#149)
+7ba28c11641efcdb56ebace7842ae0ede74c8227|2019-07-25|Josh Izaac|update changelog
+9343c23c443203b0adc7323da23e26370b910b3e|2019-07-25|Nathan Killoran|Merge pull request #145 from XanaduAI/deprecate_measure
+701356473715d18cdb393a1ff58ffcc4f9c9db5d|2019-07-25|Josh Izaac|Add a `sorted()` call to `GBSSpec.compile()` (#144)
+da40f21758d15fef65c3b2a3114d07400e886f74|2019-07-25|Josh Izaac|suggested changes
+7432379cea793816f8a6088288037a356ae6e4cc|2019-07-24|Nicolas Quesada|Removes wrong description of adjacency matrices (#147)
+3fb9c22474ac6986511c2aafa09b0bb87bf8399d|2019-07-24|Josh Izaac|fix incorrect __str__ method on measurefock
+959827d79d12126e468298c246c8a8400de10691|2019-07-24|Josh Izaac|remove all measure
+a6f46152c98ce3bec619d6f62807a7fd88d7cb99|2019-07-24|Josh Izaac|Add support for compiling arbitrary unitaries to `Chip0` (#127)
+6a04c71fd0183b8b50b58d3aa7654211fe590e84|2019-07-19|Nicolas Quesada|Minor typo in definition of covariance matrix (#140)
+2078fb9810592157d9505b4141c7d35872b96e68|2019-07-17|Nathan Killoran|fixing inconsistency in names
+82fd1d4e0a481820afd0ee4a1e400e21bec6b011|2019-07-17|Nathan Killoran|Update CHANGELOG.md
+19cfd4b3901bfa757cb15342ffaaee8375e049ad|2019-07-15|Nathan Killoran|fixing shots option in notebook
+4154c893d20dedbad4c16ef28dda59e5a0702262|2019-07-16|Josh Izaac|update changelog to bring in line with release
+e034e0b2fc74d166753ccd22648ac7c049e42ee2|2019-07-15|Nathan Killoran|fixing typo in boson sampling tutorial (#133)
+b0b7b1712f1f8701314d9e5138b437ae6d87018a|2019-07-13|Nathan Killoran|Merge pull request #130 from XanaduAI/shots_passthrough
+662fd412306c6d0fcd636704ba533fb0b49557b0|2019-07-13|Nathan Killoran|Merge branch 'master' into shots_passthrough
+9307846a6107e1d9a86c5e73f3e40416568b9c2c|2019-07-13|Nathan Killoran|Merge pull request #125 from XanaduAI/backend_circuitspec_decoupling
+95f2f5c38eb9f7b2cbe049e65e72cb8d1af947e8|2019-07-13|Nathan Killoran|Merge pull request #128 from XanaduAI/nquesada-patch-1
+a69c8374c288cb8e5006618000026e1f6d248210|2019-07-13|Josh Izaac|Merge branch 'master' into shots_passthrough
+16d8c652af77a0f0e4f5b37866b8c7c3062720cc|2019-07-13|Nathan Killoran|Merge branch 'master' into backend_circuitspec_decoupling
+d6b8ae970daf3c429d442749e12b841e56d36045|2019-07-13|Nathan Killoran|Merge pull request #126 from XanaduAI/engine_run_return_state
+2484321d67f65a7e570a7702a2fd8c7917705a32|2019-07-13|Josh Izaac|update changelog
+372893aeeceb2800c55fcffbf8a12bf43f1acf56|2019-07-13|Nathan Killoran|updating asserts and tolerances
+8fe10dd2eb61bfb02b4c20942f347e8aa3493ca6|2019-07-13|Josh Izaac|added test for program sequences
+22089090e0da38ff8c1c1b425cb02ba8473f39b5|2019-07-13|Josh Izaac|typo
+6a9e6f666b21a551f8898431e7b828c266539435|2019-07-13|Josh Izaac|update to support sequences of programs with run options
+750962c9e067ecd3a60230aa957f772842cc9de7|2019-07-13|Josh Izaac|added target options pass-through
+6ae7d0075ad3b7d0c14fba14e84487bc83dfd118|2019-07-13|Josh Izaac|Attempted mathjax fix
+fb94d0b169404adbeedd8fa92c75d6eac9e8ae54|2019-07-12|Nicolas Quesada|removes extra whitespace
+517fd872ba786f2fcf94e87f695e0cc4e424f03c|2019-07-12|Nicolas Quesada|removes extra whitespace
+f1b9a774e8f12ff9b59bcabc49c85746524ab2b9|2019-07-12|Nicolas Quesada|It explicitly checks that the interferometer is not the identity
+6a93898914ed056c90fd9c5b9fb1d72882ee04f2|2019-07-12|Nicolas Quesada|Improved docstring
+01467e69241b82db92efb9aa10be8d828cc767d5|2019-07-12|Nicolas Quesada|Removes commented line
+72a3b3153f662890ace988f201fd6f1cf1c8cff1|2019-07-12|Nicolas Quesada|Added tests for GraphEmbed in ops
+d93998e3ed645407950440ccb4e634e3af6c37f9|2019-07-12|Nicolas Quesada|Update ops.py
+0c2a99be052675053ed428c527ee76ecc91dc6d7|2019-07-12|Ville Bergholm|circuitspecs/base.py removed. Changelog entry.
+6a8f748715dd91efcce5125f607a9272f9a5480a|2019-07-12|Ville Bergholm|Merge branch 'master' into backend_circuitspec_decoupling
+3fbeb8bee32ca44a70bada1f379f4ba53e3987a3|2019-07-12|Ville Bergholm|Merge branch 'master' into engine_run_return_state
+29bdf626925198462e31b079b3ec8f3f1a9cdc48|2019-07-12|Ville Bergholm|Changelog entry.
+6b246a87b78dc884146e9b4c38982c2270e8f5fa|2019-07-11|Nathan Killoran|Merge pull request #124 from XanaduAI/python3.5_bugfix
+316c0acf2caf296bfc040f3ba15260589eea4188|2019-07-11|Nathan Killoran|final linting
+441cba8349b085d7fa07785b1e3ba1d5ba5dd297|2019-07-11|Nathan Killoran|Update chip0.py
+8ee85be881ca2d52241f66c91041464c68834743|2019-07-11|Ville Bergholm|Engine.run: return_state removed.
+9bdf9cd7223acaa2b1b8082ea09952c1552bcaa0|2019-07-11|Ville Bergholm|Added the circuit_spec attribute to the backends for Program validation.
+c182ed7c9ee84df5b04139d813fed59f7858701f|2019-07-11|Josh Izaac|udpated changelog
+f533838a9d8fa075e7e902e29aa12f885c733472|2019-07-11|Josh Izaac|remove modulenotfounderror, update chip0 template
+9b46f8229ddf99685e3944e3850c4506232ccb83|2019-07-10|Nathan Killoran|[WIP] Renaming DeviceSpecs and refactoring state_options (#121)
+416e92d35c43dcbee02075612b00e59debf75967|2019-07-07|Nathan Killoran|Merge pull request #118 from XanaduAI/fix_docs_engine_program
+b4b034a2f47aea1202e38401b5aa1089600be44f|2019-07-07|Nathan Killoran|Update examples/gaussian_cloning.py
+fb81057f21e0306536a430a40961752f1e968b5e|2019-07-07|Nathan Killoran|final fixes
+1274175f21c5d6cc47b7f124f1667ccbdbef1afd|2019-07-07|Ville Bergholm|Doc updates.
+c2a9dce425cdeb73d7aa0893e07d95424ca6bac6|2019-07-06|Nathan Killoran|Merge branch 'master' into fix_docs_engine_program
+ba3c875e52255871561448074d680835985917e5|2019-07-06|Nathan Killoran|Merge pull request #119 from XanaduAI/fixing_n
+56b64d9c39b83d10e20d3b1ad36f3964a2281d6a|2019-07-06|Nathan Killoran|fixed test to depend on hbar; removed print statements used during debugging
+3dfa0f2c9f8be76232f58feadfbb8ae844897dde|2019-07-06|Nathan Killoran|[debug] still tracking down source of discrepency
+d4388276acb27250c91747a7aefaaffd41da0bf4|2019-07-06|Nathan Killoran|[debug]; probing deeper for discrepency between travis and local
+3a96313343b884ce91181d58a038365ff6a0ccfc|2019-07-06|Nathan Killoran|[debug] added more print statements; cov matrix on travis does not match local tests
+89f329c11295f33b830e80601fd2cbe8bac7cdd5|2019-07-06|Nathan Killoran|[debug] extra print statements to determine why tests fail on travis but not locally
+96dd60a77679307347f1870321c30b7dfa0c11a3|2019-07-05|Nathan Killoran|fixing tests
+cc6bdedd49875a33919872f253440621ba7d57dc|2019-07-05|Nicolas Quesada|removes the measurements in the program
+3f4d0e1c68ab11e6d745006d6a80a3a2e301be2e|2019-07-05|Nicolas Quesada|changes test_embed_graph so that it is deterministic
+b363a306a3b7fa989ad91942d0fa1ae9dc59f352|2019-07-05|Nathan Killoran|polishing notebooks
+af4c55b87e61588ad783b8ac650da45f4abc3cf7|2019-07-05|Nicolas Quesada|removes commented prints
+65533e3fc47c83cd8ebce8050eade40f049f0936|2019-07-05|Nicolas Quesada|Fixes the bug found by Tom in decompositions and also adds a test that would have caught it. Note that the tests takes about 6 minutes in coputer to run. The reason being that you need many samples
+ca06265ed724e4beca0556c41c69d49fd26f75a2|2019-07-05|Nathan Killoran|fixing tf tutorial and passing needed options correctly
+efa5162c07984d3fe07908e3ae475022f822ee26|2019-07-05|Nathan Killoran|polishing tutorials
+42432c252a9de33bf7689b10c65f973c7f98dac7|2019-07-05|Nathan Killoran|updating version
+a57ab3480c51217aa83d794c5c20c392ad192c4d|2019-07-06|Josh Izaac|fix CSS styling of local TOC boxes
+2243be552f1e573084759973c25d5465428775e6|2019-07-06|Josh Izaac|fixing typos in tutorial
+38ee550dc3aa4ec382b23cc07a93f7e790132f25|2019-07-06|Josh Izaac|fix broken links
+e4cc4e3dafa46490d3520969d7eb172d60f0213c|2019-07-05|Nathan Killoran|reorganizing structure and adding new modules
+84b2fb648a747371259e8ca23ac87ec1e210b0a2|2019-07-06|Josh Izaac|remaining gallery notebooks
+4e9fa9c8d613f07cd2016dce8aa96adc2ebadb95|2019-07-06|Josh Izaac|Merge branch 'fix_docs_engine_program' of github.com:XanaduAI/StrawberryFields into fix_docs_engine_program
+52984cb6b3d7329c39f733edb2a24b7ed15ec5df|2019-07-06|Josh Izaac|updated state learning and gate visualization notebooks
+1fdd0d289ca83a97418887773863c505ee30f40c|2019-07-05|Nathan Killoran|amending tutorial
+ade2685a49e5d23e9b970359cd08fa5000321608|2019-07-05|Nathan Killoran|polishing tutorials
+ba9cfaad7167ecd34a82e65a28de8b08e5b061cb|2019-07-05|Nathan Killoran|updating blackbird tutorial and adding io page
+84f2a508c10c8639b870cbb87063d4e570f43543|2019-07-05|Josh Izaac|updated reference list
+2bed1e1d5dbb495c5c78ccf1805d359be436668b|2019-07-05|Nathan Killoran|polishing algorithms and glossary
+0b2c9cd8a9cbc9c2bf8c4968dddd251394e91f5a|2019-07-05|Nathan Killoran|updating research.rst
+d9be32a52b8ed0017bb072f2137e776c0c3c3128|2019-07-05|Josh Izaac|Merge branch 'fix_docs_engine_program' of github.com:XanaduAI/StrawberryFields into fix_docs_engine_program
+a214c52afcbcfa14d9f447ff2fe637853e85d190|2019-07-05|Josh Izaac|typo
+7744b28078a608b84f06020aa08408b736843974|2019-07-05|Josh Izaac|update machine learning tutorial
+6bb54aadf4a6b111352257ee6cc5049070759a7a|2019-07-05|Nathan Killoran|updating installation instructions
+86875fdc2e9e865afc6c7da32abd487be92f06ff|2019-07-05|Josh Izaac|updated boson sampling tutorials
+385a1686671685ed18b08a73a607674dc52686eb|2019-07-05|Josh Izaac|updated measurement tutorial
+9e0207d9eae5858f8753f2bb30819b5f4168946b|2019-07-05|Josh Izaac|Merge branch 'fix_docs_engine_program' of github.com:XanaduAI/StrawberryFields into fix_docs_engine_program
+e618ee9dea9df7d42de82fdf1b0737a010ab69b7|2019-07-05|Josh Izaac|bug fixes to teleportation tutorial
+7956d01d4663f5d989019438dda0b57e8815c26a|2019-07-05|Nathan Killoran|fixing code picture
+2f10cfaccff9ce6b608805519f83a72296a27094|2019-07-05|Josh Izaac|updated teleportation tutorial
+66fc045bbe372ad46c564c6f843646e0ec74b71f|2019-07-05|Nathan Killoran|fixing docstring
+fcee339c28901d3335dae26186003542207d1594|2019-07-05|Josh Izaac|fix bugs in algorithm folder rendering
+91da77b02de512e8955b1ecb10ff53d11472e6a9|2019-07-05|Josh Izaac|fixed doc/algorithms/ rst pages to match corresponding examples
+59e7d4c177dadbcc1c650a741444de66d887b76a|2019-07-05|Josh Izaac|update theme to match PennyLane docs-refactor branch
+17b15aeb3692254f6066b8e0eb8b28380a35c611|2019-07-04|Nathan Killoran|updating notebooks
+04241f30f381877c83a97c5360a98d6ff221416a|2019-07-04|Nathan Killoran|gaussian_cloning now works
+8259eaec120d29537e2a1075c3603d962eb638dd|2019-07-04|Nathan Killoran|tensorflow examples now work
+d205137100c7b3d9dafba627e6248ed958825837|2019-07-04|Nathan Killoran|fixing easy examples to work with engine/program refactor
+87dab6df5a9b7642948f6334e4a8d115dee24df1|2019-07-04|Nathan Killoran|Update CHANGELOG.md
+83939f0f279d6360496276366f9cb84b6e54e508|2019-07-04|Nathan Killoran|Merge pull request #117 from XanaduAI/fix_graph_embed2
+efa70a5395eeefa2a351c99789cdf7268497f9e0|2019-07-04|Nathan Killoran|updating changelog
+2b88411b16d437405d3abd7b1c9e389ecb0ac09b|2019-07-04|Nathan Killoran|clean version of graph embed changes/fixes without any merge conflicts
+eb3cdea43ecbb0f7fb6d4c937106ab594e78bbcc|2019-07-04|Nathan Killoran|Added one more contributor to changelog
+fecb67a0c0b382a115714f80266a0e5e8057a1e9|2019-07-04|Nathan Killoran|Update CHANGELOG.md
+9771b75a655451072eee3b23e3cf192f1a042b20|2019-07-04|Nathan Killoran|Merge pull request #115 from XanaduAI/compile_in_stages
+937088e2418864b9a4a89a426abee0a258b0d6ac|2019-07-04|Nathan Killoran|Merge pull request #104 from XanaduAI/glossary
+63c63ed940b557fd4bccae334d7ee0cd1f837b87|2019-07-04|Nathan Killoran|Update tests/frontend/test_program.py
+c82d86d3a19aa54a66addcb1bae7bc774d07cb70|2019-07-03|Ville Bergholm|Added ops.Decomposition not-a-primitive error message. Optimization bugfix.
+541a5ac46acca1ba33a95a78d1989624050aa2de|2019-07-03|Ville Bergholm|[ci skip] Apply suggestions from code review
+3d5b63c4d5433045d9a5d94009b0011e8835448e|2019-07-03|Ville Bergholm|Broken tests fixed.
+0a829e82b34220da00a9be86321e1e779111ae60|2019-07-03|Ville Bergholm|Blackbird test updated and cleaned up.
+9d087cd3b1e142df7ef8faf80e73160e9a16633d|2019-07-03|Ville Bergholm|Prevent New() from adding modes to a locked Program, tests.
+e4d5b8ea7d004997fafba86023a8983ade600d25|2019-07-03|Ville Bergholm|Apply suggestions from code review
+28ffcc298177397a7bf9d39582ea3c8e00221b84|2019-07-02|Ville Bergholm|Fixed setting the random seed in the tests.
+c1687bc98da036843d4325d871719d5f1cbda327|2019-07-02|Ville Bergholm|Treat Blackbird 'target' keyword as a compilation request.
+4fc79e2c10fdd7202519d051c7ad444c0662d917|2019-07-02|Ville Bergholm|Tests fixed.
+ce92cb7b6d6ef67098475b0cc64c860f83c55a3a|2019-07-02|Ville Bergholm|Fixes.
+77ec307101efd0334f869a2edb0b2b21af6971bb|2019-07-02|Ville Bergholm|Compilation in stages (issue #108). Doc improvements.
+1508970a3c8031927e709c0efb248b281d1dc12c|2019-07-02|cclauss|Travis CI: The sudo tag is now deprecated in Travis (#112)
+a84bb17783ac60f3451120730d8e4fb599b9cb3b|2019-07-01|Karel Dumon|Update setup.py requirements (#114)
+1ff525bfc13ce8379445bb6a0a658b833fedf767|2019-06-30|Nathan Killoran|moving config file to temp location before release (#110)
+956309be275f85949970661a22a4908a60e4fe13|2019-06-30|Nathan Killoran|Update CHALLENGES.md
+8f061d7ca7af83d48fe3238fa3c5fb2b11e59d2c|2019-06-29|Nathan Killoran|improving glossary
+18abc54004007f6b274e07bc27022ce316492f26|2019-06-29|Nathan Killoran|Update CHANGELOG.md
+6dde8a33588e65d86facd3f853bbfc4963158b19|2019-06-29|Nathan Killoran|Merge pull request #109 from XanaduAI/fock_meas_reorder
+1d33c62b6cb339c94017a02a3ec0d70a478e79d7|2019-06-29|Nathan Killoran|reordering possible measurement eval to happen before conditional state prep
+8bfb05897f1ca6eb6ef3eb45daa4f39ef0650a72|2019-06-29|Nathan Killoran|Merge pull request #103 from XanaduAI/gbs_compiling
+3ad98946918eaa9ee2a7fe15dabbe138e075fe24|2019-06-29|Nathan Killoran|Merge pull request #100 from XanaduAI/add_shots_gaussian
+059d8a1a7b87b776e658c8b38919d61099e21174|2019-06-29|Nathan Killoran|using all to compare arrays
+2a0bb0798d77c0c7d5e95ce0a58cc044d8f5d7e5|2019-06-29|Nathan Killoran|cleaning up shots handling and error msg
+a8bedb8e3fa58e974c40eb1faf0cc941d6d3c09d|2019-06-28|Nathan Killoran|adding dev suffix
+1ba669552379cbc23d75f2f05e66bed2c1f48c0c|2019-06-28|Nathan Killoran|Update CHANGELOG.md for v0.11
+8fd8ab77d68ea7defadb8ed306907d0fd265fd0b|2019-06-29|Ville Bergholm|Apply suggestions from code review
+ba26e14b63a9e98767530e7c42e5aee120d93e04|2019-06-29|Ville Bergholm|Apply suggestions from code review
+658918499c9803741ae21131d936a80e7de8fc82|2019-06-28|Nathan Killoran|adding tests
+9c9667a43ee202e2a38728ca7f72df6ba26bd9cf|2019-06-28|Nathan Killoran|[ci skip] adding back in tolerance via kwarg
+cfe15dea15af47e1a1ddc736d6bf136588221914|2019-06-28|Nathan Killoran|give warning and better errors
+ee401023a46ff8b2dfb736c5ac5531f3a0843292|2019-06-28|Nathan Killoran|cleaning up docstrings and removing redundant tol
+40d71ebecab66b429c8fac9324677f8bd0456577|2019-06-28|Nathan Killoran|pylinting
+1383c4c07b049250d46145e1b9088456ca8dbaf7|2019-06-28|Nathan Killoran|homodyne now properly uses shots
+f740c28891379230da35717867afc2b8e4a32766|2019-06-28|Nathan Killoran|fixing test to be compatible with batches
+7119231303a007b8988e78d3f230881670ded5d0|2019-06-28|Nathan Killoran|fixing bug where measurements were evaluated independently
+cdda7e527aa0be0d0bc62b3711b61c36ba435c81|2019-06-28|Nathan Killoran|fixing more math in docstrings
+f5ce2c4e6da54f50fc3958a09444886e8dbf13d9|2019-06-28|Nathan Killoran|fixing math in docstrings
+3d49cb21daf52da651787c72e13754e2d6032686|2019-06-28|Nathan Killoran|Merge pull request #105 from XueshiGuo/master
+330e605c1dec8300c94664113b36390b13aa3cbd|2019-06-28|Xueshi Guo|install in win10 need this
+dd44c36cda897d72257ce89f031a9b927bc0ab3a|2019-06-27|Nathan Killoran|eliminating spurious tiny negative probabilities
+9e8d522900a82524747c23e7f4905a39377e8f7d|2019-06-27|Nathan Killoran|raising squeezing to get less zeros
+e6dbe6d980c7494e473d21436fdce48b08542b0b|2019-06-27|Ville Bergholm|Program.compile(): mode number check fixed.
+90f798b58c7152286abd3ffd325ee3ec7d7b0d34|2019-06-27|Ville Bergholm|Move circuit topology check to DeviceSpecs.compile().
+0d3014bf9b95138a67fdf3f984823add07201cd1|2019-06-27|Nathan Killoran|simplifying logic
+c0fe5d8e6a8cb5e4558ebb56099729c2959e8547|2019-06-27|Ville Bergholm|Broken test fixed.
+352c22307dcf040e965b2b977bd3ce51a2b3dd96|2019-06-27|Nicolas Quesada|Merge branch 'add_shots_gaussian' of https://github.com/XanaduAI/strawberryfields into add_shots_gaussian
+a7cc532e715a23265dd61219f944e233ccb25046|2019-06-27|Ville Bergholm|Merge branch 'master' into gbs_compiling
+935c657de1ed2f98081446dd8c8b52fbfc818509|2019-06-27|Nicolas Quesada|Added test for Fock measurements for all backend
+449582e5e5a866f7d45048db5555fdff7558163b|2019-06-27|Nicolas Quesada|Added test for two mode squeezed vacuum states
+4ce5a85f424183fbe89cc390884f2fc050e0988c|2019-06-27|Ville Bergholm|Added a basic glossary to the docs.
+b6d8bc48831957fced3352fa437b2c031a25d25a|2019-06-27|Nathan Killoran|Apply suggestions from code review
+3054229e977ee19a93092ec38677e36f4874c450|2019-06-27|Nicolas Quesada|fixed merge conflict
+f95f6c77623847bf07f879e8cd15099f2d1c80f4|2019-06-27|Ville Bergholm|Pylinting, formatting.
+ab7198063ab3f5edfedecdaff51a45bf4ebbf5f6|2019-06-27|Josh Izaac|Revert behaviour so that Configuration.load() does not fail sile… (#102)
+427241cc8c395f4f0413217cf51e7973c03cb3be|2019-06-27|Ville Bergholm|Pylinting, cleaner imports.
+077f5827d037d6abb09bd4afca878bb41aa2c6b5|2019-06-26|Nathan Killoran|Merge branch 'master' into add_shots_gaussian
+5efe4cb178bb9e4504713c68db2958118ad6ba7d|2019-06-26|Nathan Killoran|modifying tests and functions to match desired spec
+ff0bd032ed08b781d470441c68e9e226cbf29d49|2019-06-27|Ville Bergholm|Adds the GBS device, program_utils module.
+d6a5f01a4a4c33305696000f48a15d699d41aa48|2019-06-26|Nicolas Quesada|Merge branch 'add_shots_gaussian' of https://github.com/XanaduAI/strawberryfields into add_shots_gaussian
+fbc0d13ca5292299b39b81c07ad6c1ae301dfc26|2019-06-26|Nicolas Quesada|Changes to make test homodyne and heterodyne work
+da8e40b0e7612e5d59244552f03126c63dc42c32|2019-06-26|Nathan Killoran|fixing behaviour of returned values from measurements to agree with tests
+94bdca71b3573f72672d61a0ce7d1ef8482cb0ca|2019-06-26|Nathan Killoran|cleaning up todos and error msg
+c672e25c9fd609e10b9edee57f39bd153197d664|2019-06-26|Nathan Killoran|adding integration test for shots
+8f6f2552f212a35479bbb17c4361184cc6595316|2019-06-26|Ville Bergholm|Gate merging bug fixed, tests improved.
+20b2cf30b32d5658e8c739263f28c66838a51148|2019-06-26|Nathan Killoran|removing unused imports and cleaning up warnings in tests
+ce8a67b761fcdeceeba7975c67ea5c02c5c4ad17|2019-06-26|Ville Bergholm|Adds GBS check, circuit connectedness check. Docs.
+5defeaf6a3fd60ea428699045f5387305437dada|2019-06-26|Josh Izaac|Configuration file for Strawberry Fields (#94)
+6c0e2bfc5207e0cba975926e51f4d16ec013e4e4|2019-06-25|Nicolas Quesada|Merge branch 'add_shots_gaussian' of https://github.com/XanaduAI/strawberryfields into add_shots_gaussian
+8c5b3b2d57efda4aaa238a6398b39426ba4062b0|2019-06-25|Nicolas Quesada|Added the ability to do multisampling in homodyne and heterodyne. The problem of what to do after multishots measurements is not solved. The test_homodyne and test_heterodyne do pass
+10a2e7a766e17145014ee32fc86a6c396b2745eb|2019-06-25|Nathan Killoran|removing debug statement
+110d79c6c1f0be1c96b9f7be53a18a10530dde65|2019-06-25|Nicolas Quesada|linted ops.py
+9f19e69fb42a5fdc8f479a09ad04734fee06cfd3|2019-06-25|Josh Izaac|Fix bug in fock_prob
+c762c8148a87f77b5b6e00592d4a7e7bdd91294c|2019-06-25|Josh Izaac|Fix fock prob passing signature
+6d156acacdd963ce61af31cbf582e056b510ddd9|2019-06-24|Nathan Killoran|cleaning up docstrings and fixing test fixture
+236f3b71584ce0a7eebbc3b32ef5d67c36595a51|2019-06-24|Nathan Killoran|added TODO
+bfdb992986066a4222923e33aa569458c4bd68cd|2019-06-24|Nathan Killoran|Update base.py
+8c24d5ca268819209977e280e30ba5b75fa26737|2019-06-24|Nathan Killoran|correcting a few strings
+b2cfe6d0cf1a614961b69d1391e46bcfbaf3e6b4|2019-06-24|Nicolas Quesada|Added raising an exception when trying to sample Gaussian states with nonzero mean
+246aba688bd22e82240559206169951674b9e2d8|2019-06-24|Nathan Killoran|adding shots to measure_fock
+a1ccab1d73de923fa90548b2be2fd79a1de4dcb8|2019-06-24|Nathan Killoran|Merge branch 'adding_pnr_sampling' of https://github.com/XanaduAI/strawberryfields into add_shots_gaussian
+d513884d836ece8ef41a9220dd5270b61c00be60|2019-06-24|Nathan Killoran|add shots keyword argument to eng.run [ci skip]
+bfb7c618b910eaa81cff9818142844db280afdf9|2019-06-24|Nicolas Quesada|removed left over code anf fixed cutoff in fock_amplitudes_one_mode
+57239b9442b0dd4767689f63490dee31ea815315|2019-06-24|Nicolas Quesada|Now all the Fock functionality of the Gaussian backend is handled by the hafnian library
+11fc2a61b20b25505b0078b3930e0b575f80d56a|2019-06-24|Nathan Killoran|small editing for docstrings
+5499af3ef5995f799d95d8b53896f833686ab4cb|2019-06-24|Nicolas Quesada|Merge pull request #97 from XanaduAI/real_block_random_matrices
+e577a872506febaf657ed7cb590df5054530c46a|2019-06-21|Nicolas Quesada|Added random real-orthogonal interferometers and random block diagonal symplectic and covariance matrices
+1bf05585be3553a7bb5c2f687dc45b7a064ddb17|2019-06-21|Nicolas Quesada|Removing double hats (#96)
+3eddd316316ba884b803031b665667d1940048d5|2019-06-21|Nicolas Quesada|Update test_ops_decompositions.py (#95)
+55afd0e9a530b9f88898d677f0a859d5b11efc14|2019-06-18|Nathan Killoran|Merge pull request #92 from XanaduAI/ops.new_check
+5ecac45f620bb9769b2e2ab4ea9d456459b96131|2019-06-18|Ville Bergholm|Fixing broken or skipped tests (#90)
+d52d37f403a857be79aec1019b602062ea7ddbce|2019-06-18|Ville Bergholm|Adds a Program context check to ops.New(). Updates related tests.
+098caa660133c6bcdb357c2599e4a561100c5686|2019-06-13|Nathan Killoran|Merge pull request #91 from XanaduAI/new_modes_bugfix
+2bf3d90dd250d01be51974c51e8c86b6a434d964|2019-06-13|Ville Bergholm|Make Delete and New_modes private.
+4300b3288e2d501cc4c00c2c6f277695e2d75c35|2019-06-11|Ville Bergholm|New_modes bugfix.
+06cb179958dbdb3bf8e07ccd688adc6e2b51c232|2019-06-11|lneuhaus|Addition of rectangular_symmetric_decomposition to decompositions.py (#87)
+9ace717abc85c717942edd4cc90c10590a213a71|2019-06-04|Josh Izaac|Remove TF dependency from Strawberry Fields (#88)
+b4858de194be9b10f9c2c29fbc3450be78f0686c|2019-05-31|Ville Bergholm|Backend docstring cleanup (#71)
+20ed110eab05edef75c2aefdb9649f0b1b53aac6|2019-05-29|Josh Izaac|Frontend validation (#83)
+cfa8bf24c4985198f0b5eeb0144dedfd8e5eb78d|2019-05-27|Ville Bergholm|Decompositions module docstrings updated. (#86)
+c5d37e0b3cf88fa7db67b98c70bb55bb1621fa89|2019-05-21|Nathan Killoran|Merge pull request #85 from XanaduAI/about_and_cite
+09739c3ecb7c03deb2a67224fde82b7de8d823e4|2019-05-21|Ville Bergholm|Tests.
+42d1981c9df209dd02d4845da41d87f973d4b4a1|2019-05-21|Ville Bergholm|Typos fixed.
+c17993ba4179bf641fa6e40cc9611854ce23f783|2019-05-20|Ville Bergholm|Better handling of missing packages.
+be9cacb5a71bde555c596bb38b75d4bfbb8127bb|2019-05-20|Ville Bergholm|Added about() and cite() functions, SF reference.
+0b207f2a68b8187ebbf92a36b3e17c53b1ffef7c|2019-05-18|Ville Bergholm|LocalEngine class (#80)
+c519a8a8a65ffb6e64fc614be7f05a4090de27a8|2019-05-15|Ish Dhand|Bugfix for Bloch-Messiah returning non-symplectic matrices when input is passive (#81)
+d19371cab2a3f28551542ac19034b3f38172a9b7|2019-05-08|Josh Izaac|Adds test file for program unit tests (#79)
+c0c7c2b4c7ff799a0aa63c2dd6becce0989bae48|2019-05-07|Ville Bergholm|Eliminate hbar from backend API. (#78)
+64254945bd576be3577d8585b62093d2a71afaf3|2019-05-06|Ville Bergholm|Make sure tests run succesfully with a nonstandard hbar value (#74)
+1c073378b56b03d18e4198c94fe80865c5903b32|2019-05-06|Josh Izaac|Merge branch 'master' of github.com:XanaduAI/StrawberryFields
+24edc156b3e5dc16dccb7aeb830207f871b13c55|2019-05-06|Josh Izaac|fix docs failing
+2c3241c1831f396ade208a3d4b8ff5786f3cf806|2019-05-03|Josh Izaac|Created a pytest mark for broken tests (#72)
+63b8a3705ad05503fa72bb2744dd98bab28cd300|2019-04-30|Nathan Killoran|Merge pull request #77 from XanaduAI/expand_dims_fix
+0cf8019ee7ba677773601a281fa214131dd7b7f5|2019-04-30|co9olguy|changed index in ops.py (fixes #75)
+80191c7a0d6b3430ba31228e0e53ffb5c496dfab|2019-04-26|Josh Izaac|Adds the ability to save/load SF Programs to/from Blackbird files (#68)
+3158737ec21a7df6ebb9c30b9fd2e040f70211ac|2019-04-25|Ville Bergholm|Utils module fixed. (#69)
+03a560dd2ebd999e4a977f95306474940d5e1246|2019-04-25|Ville Bergholm|Removed Command.decomp. (#67)
+119c51308d97dd9ab99c20703c6c2c66b479d4c3|2019-04-25|Ville Bergholm|Normalizing line endings: CRLF to LF. (#66)
+6f818f77ceb84c08c4c83e1feafdbc0762e2b108|2019-04-25|Ville Bergholm|Engine refactor (#65)
+28c257f60613e6ed253b0e4c2e769985fd082e21|2019-04-24|Josh Izaac|mathjax attempted fix
+c2b5be2274c1c773544047c234ac41a1c3bc06c5|2019-04-22|Josh Izaac|fix makefile typo
+dd30fe5b61b9b1742e749dd1277f0cee2841dda9|2019-04-22|Josh Izaac|fix makefile typo
+95e63334dc92c7386b43538d5098bf2b750e6633|2019-04-22|Josh Izaac|Version update (#64)
+00745eb2d29e32c7084618697b31876d4b0b947c|2019-04-22|Marcus Edwards|Latex Circuit Drawer (#38)
+18103167b64b373bb76633d6f920f803ce94091d|2019-04-17|Josh Izaac|Merge pull request #62 from XanaduAI/pytest_backend
+5f7ea8973b51717757fe2c064bea572d9f395ca3|2019-04-16|Nathan Killoran|Merge pull request #63 from trbromley/master
+d4bebe6d1c4488cdf7d3de217761a0d930e517cc|2019-04-16|tom-xanadu|minor corrections
+32a376475feba44947906bcc278c5bfd77819547|2019-04-16|tom-xanadu|Merge branch 'master' of github.com:trbromley/strawberryfields
+7abf035de1b26db225a2380e8d0d71366f45b792|2019-04-16|tom-xanadu|changes based on feedback
+8a55c48f9345fcb69062e20779f1d074d638b77e|2019-04-16|Nathan Killoran|Update examples/quantum_neural_network.py
+ffa0365041a3ffb374833b9a502e77e704480a31|2019-04-16|Nathan Killoran|Update doc/algorithms/quantum_neural_network.rst
+4adfa05cbe716af09d1220a08b84f5b94f597e96|2019-04-16|Nathan Killoran|Update doc/algorithms/quantum_neural_network.rst
+60af8d2411892aacdb02a1ab2fd0e3da6c66c76f|2019-04-16|Nathan Killoran|Update doc/algorithms/quantum_neural_network.rst
+9ea0fcadda59756c9ce2feb936d1939ad2334a99|2019-04-16|Nathan Killoran|Update doc/algorithms/quantum_neural_network.rst
+3d784004676b782a570ae90bb352da8d0676adf5|2019-04-16|Nathan Killoran|Update doc/algorithms/quantum_neural_network.rst
+d3db489379744e17533fd09b58845f296986ac0a|2019-04-16|Nathan Killoran|Update doc/algorithms/quantum_neural_network.rst
+d315945fe727f136eb54755c42eede7b939cf870|2019-04-16|Nathan Killoran|Update doc/algorithms/quantum_neural_network.rst
+988bb02f9a1122fc72ebc882b12b6fa55cb40440|2019-04-16|Nathan Killoran|Update doc/algorithms/quantum_neural_network.rst
+290bc7a2376c07333a1e11aedad2418754335a0d|2019-04-16|Tom Bromley|Update doc/algorithms/quantum_neural_network.rst
+c7a3bde9e3b52771e1f34a1bad93d61b71b08bac|2019-04-16|tom-xanadu|link to Bloch-Messiah decomposition in qnn algorithm
+a9ccb7e974a9eb1fb32b7bb293fdee514bf7658c|2019-04-16|Josh Izaac|Update doc/algorithms/quantum_neural_network.rst
+1a7a328a6ce7b8b098ebba28cfbdd422396b4dcf|2019-04-16|Josh Izaac|Update doc/algorithms/quantum_neural_network.rst
+c84accace79ba4f68b5180b973d3ef68b64cc794|2019-04-16|Tom Bromley|Update doc/algorithms/quantum_neural_network.rst
+68535967da7dd52255882bc3a66b93527a57e7cc|2019-04-16|Josh Izaac|Update doc/algorithms/quantum_neural_network.rst
+7ec4087863abfd9080b9021e5fb738204c7ac09a|2019-04-15|tom-xanadu|minor changes to qnn doc
+e87172d619caec7d26b68b19f1b22af20845c327|2019-04-12|tom-xanadu|first draft of quantum neural networks in docs
+db754a92eaf38859686d8e8239899b0ce4add8a6|2019-04-11|Josh Izaac|ported multimode state test
+33ab8740a7bf9b5e17dddd5e8dcb554f60844cf4|2019-04-11|Josh Izaac|ported all remaining gaussian backend tests
+6c2e04b9fd70d2f07aeb486b6069406c6b4d167c|2019-04-11|Josh Izaac|added existing backend tests
+14990181740f96a31e712b590be7c0bcf39ea75e|2019-04-11|Josh Izaac|Merge pull request #58 from XanaduAI/frontend-pytest
+3e4322b5daa7d7ff068846dc42460f92d28ca8bb|2019-04-11|Josh Izaac|Update pytest/integration/test_hbar_integration.py
+959b4abb8c965476d65f29e5fbdf4ac79b413f7f|2019-04-11|Josh Izaac|Apply suggestions from code review
+7e73754819381b37a4a7f94353343cbed2e0650c|2019-04-10|Josh Izaac|added suggestions from code review
+032e375df52f14cabc94f4c7b7a0f4f33846e0b3|2019-04-10|Josh Izaac|Apply suggestions from code review
+b3aa0ecd0353cc3307006e8c6598a1777a87c8cc|2019-04-09|Josh Izaac|increase coverage
+37c5a32e88ec395515a0765f2192ed4ba21284d9|2019-04-09|Josh Izaac|undid accidental change in old test file
+a23162e646452165033a2a604230374a1acbec51|2019-04-09|Josh Izaac|ported loss channel test
+4150321fc1d5073ba63046919b1e71664b666c33|2019-04-09|tom-xanadu|adding quantum neural networks algorithm and finished up to CV implementation
+6d380510d9d61ed727ed99b70e2a6253c0257e16|2019-04-09|Josh Izaac|reduced number of configurations tested
+63eb9c4c3d44e9bfe35451cfdd54143a6bbac93e|2019-04-09|Josh Izaac|added the heterodyne test
+affe2d1d55ed5745f6a4bc25da1d4b8d7f598f4d|2019-04-09|Josh Izaac|fixed test
+096118ae1ec4ee259cce061573b16a616cc16ca2|2019-04-09|Josh Izaac|ported final states test
+049f6e056f54bcbfd29e6a6e2543c17e287c820f|2019-04-09|Josh Izaac|fix for batched tests
+552bfeae67f3fde91d8c592e9daaefacf61b98fb|2019-04-09|Josh Izaac|added parameters test
+c2172a58389122ed00c1e4ae22bb850c4851ac5f|2019-04-09|tom-xanadu|fixed minor inconsistency in gate teleportation documentation
+5cbe7d430741494cd4fcf73fbdcc84f4dcf97be6|2019-04-09|Josh Izaac|ported engine tests
+3d88478e323e24be27c176b8c5c349fdc8b70893|2019-04-08|Josh Izaac|fixed postselect tests in batching
+35fd0571b56f9982dcaeefbb5c9fff2000c215e2|2019-04-08|Josh Izaac|ported post-selection tests
+40dd37aaebf38ece0ab3813a6db320ca7bcc542e|2019-04-08|Josh Izaac|added test for engine optimizer
+f046f00919c6d608c8a8941e8befdf384ea99301|2019-04-08|Josh Izaac|split up ops tests into several files for readability
+5cb558955148a897121ce94e115d3a142db3135c|2019-04-08|Josh Izaac|adding some missing parameter tests
+c2db4e7938cdb59b516aea7087866a2ca7f4f0c0|2019-04-08|Josh Izaac|ported test_gates and test_parameters
+f36765302aa1dcb005271ecac77df0bfe31bb869|2019-04-08|Josh Izaac|added hbar integration test, blacked remaining tests
+c5a03b8c24641f955732baf97e35583b427df189|2019-04-07|Josh Izaac|remove all backends from test_utils.py
+45ab0edf9f085fea5ecf561840ed1023286ce644|2019-04-07|Josh Izaac|fix file conversion
+941cae98601c6e41e572d65550ef1a747b77e8c8|2019-04-07|Josh Izaac|ported shared ops test
+42f24ec68d4566cc3eccbb8b4be31b2267992943|2019-04-07|Josh Izaac|added decompositions integration test
+c2215a75e5fd61516e907812a6d1edf7df325aa7|2019-04-07|Josh Izaac|added tests for decomposition operations
+94f5a9be5736753afa8fd6a815dd2843ba7f6d1f|2019-04-07|Josh Izaac|ported over decompositions unit tests
+ddc020498f73695e194810bd2ed499de5e6bcd37|2019-04-07|Josh Izaac|fix codecov flags
+6a6c39a29d07a3a92cc81df5abe6239e49c9e13f|2019-04-07|Josh Izaac|added frontend option to travis
+8ee3498c4dd0168245b98203a3a554c910a66c6b|2019-04-07|Josh Izaac|ported over test_utils and test_operation, and fixed a bug in utils
+424f01426dea6656cbd2605a7df1fdb8f364dee5|2019-04-06|Josh Izaac|updated travis
+a768e802c362c95c84234b23d8d72466f218fee9|2019-04-06|Josh Izaac|updated travis
+122bd8a161f70bfbb913b2e4668ab082a3f3e5ff|2019-04-06|Josh Izaac|updated travis
+f640e0b2580a7ef25bc53e6331073da242018da5|2019-04-06|Josh Izaac|updated travis
+2bdedf9b42b016418ff9d62e1bcae6e872ce3400|2019-04-06|Josh Izaac|updated travis
+ed435f4209116c1068c5b799355f401a843999da|2019-04-06|Josh Izaac|updated travis and makefile
+8ce42697762df0ea6d484f517b735b06b6aebd65|2019-04-06|Josh Izaac|set up pytest structure
+2b11e0f2ac33b3d539ed44c3f18f4bf683b33f70|2019-04-05|Josh Izaac|Merge pull request #57 from XanaduAI/python3.7_note
+474b5e6cb5ffaaa99f89fee0296e1edde5d77770|2019-04-05|Josh Izaac|Merge pull request #55 from XanaduAI/tf_backend_test_refactor
+f6022ac370d7d1b93386c4c3014fa0783e94c90e|2019-04-05|Josh Izaac|update readme and docs to explain python 3.7 support
+fc4d0db6454ca468656c236488255ee0c9acabcc|2019-04-05|Josh Izaac|fix travis config indentation
+4d4ce2fb163ff0728349fa9df7249870e8064d69|2019-04-05|Josh Izaac|fix batching typo in fock test
+64ebe66ca4ad14e21dbf9f612a97fe08dfbc104a|2019-04-05|Josh Izaac|reverted travis
+5508f08cd2809cf01375849dbbf35668c81ba724|2019-04-05|co9olguy|applying fixes from code review of PR
+b7671b14b7890eb63fafef44925203d4241eada6|2019-04-05|Josh Izaac|Apply suggestions from code review
+60adac3381e839a1d9b1b99373e0d59a38b40679|2019-04-04|Josh Izaac|fixed batched tests
+3a0a777ad1ab270c549ffa942f6123124b1cbf1a|2019-04-04|co9olguy|banish all mention of batching from fock tests
+4ca005c13d253239bf8af29302f35998e7b74e14|2019-04-04|Josh Izaac|Merge branch 'tf_backend_test_refactor' of https://github.com/XanaduAI/strawberryfields into tf_backend_test_refactor
+a613d3830345c2cf495be3ac9f7d3cc3eb672eb8|2019-04-04|Josh Izaac|linting
+2c347daa022939b9c53410fea2e0950d63f72d16|2019-04-04|co9olguy|actually porting to fock backend (was missed in prev commit)
+e710823f8eff54fa913ceceb027c6126cd8746a8|2019-04-04|co9olguy|renaming test_fock_gaussian_measurement and porting it to fockbackend
+2a2df039578c055d48337fc087e720d69b84d9b6|2019-04-04|Josh Izaac|disble warnings in tf test suite
+2aa7ddece0a48c34448ed8ec0c17c5c24f23e196|2019-04-04|Josh Izaac|added fock gaussian measurement test
+aea36ebb2eaee5b5f16447329a96e8e7151e2977|2019-04-04|Josh Izaac|fixed batch fixtures
+8f1a3dc22540c64f66484f31eeee3c3a00fc838f|2019-04-04|co9olguy|fixed tests that relied on batched data
+9d7682762d737feac058f0b6cbd227979f710c83|2019-04-04|Josh Izaac|reset using pure fixture
+7cc5a8f03230f347b8aaf1a37cd005a307a997b6|2019-04-04|Josh Izaac|moved backend creation outside of loop
+c8b8823ce6dcca0fb5e5dfbf7af899512d794e3f|2019-04-03|co9olguy|update travis.yml to run new tests
+045252de41194e26d686e27535d54394b3c98e7c|2019-04-03|co9olguy|adding test_symbolic.py
+9a5704f84cfa5a876144320068e248a520d76e88|2019-04-03|co9olguy|basic linting
+b4f08f8464284a06aaeca35925d95fa2ef723882|2019-04-03|co9olguy|porting tests folder from fock backend
+99655f25127fbd4639bb57362ec14daf655277ca|2019-04-02|Josh Izaac|Merge pull request #53 from XanaduAI/fock_backend_test_refactor
+6c5eb56ff7bd6f27e4dc7a684dd4ef74455ff693|2019-04-01|Josh Izaac|final changes
+b21f6c359e039d3a32971a5da848f378236fd8c9|2019-04-01|co9olguy|addresses issues raised in code review
+8096ad796780dcca096a6cc3313bf65a28caae2e|2019-04-01|Nathan Killoran|Apply suggestions from code review
+bee96b7eaf573af7007584d71ac4a4814f4f1d5d|2019-03-30|co9olguy|linting
+847b0e6b9f2994f8cb34a550cd5b0d6f3f4ef934|2019-03-30|co9olguy|removing batch size and batched references from test
+335ca0fbd019c5a5d3c6b8d96e6c6721bedc422f|2019-03-30|co9olguy|fixing test that was not being run
+5fc041f5c26c28af3c6644972e0837ea6c9e8e00|2019-03-30|co9olguy|reverting to previous naming scheme
+3552cedd73bdc2491d524fb7bdf72494fc06def5|2019-03-29|Nathan Killoran|Merge pull request #52 from XanaduAI/50_pytest
+9014e4247dc6617a0fcf759b4becc2e01b34e7ca|2019-03-29|Josh Izaac|Merge branch '50_pytest' of https://github.com/XanaduAI/strawberryfields into 50_pytest
+c74cea4b2dff227ee21c6c0d8ec84cabd3bb234b|2019-03-29|Josh Izaac|switched absolute and relative import orders
+b149e712535789a42098b1a545f068131fef1b4e|2019-03-28|Josh Izaac|Update strawberryfields/backends/fockbackend/tests/test_displacement.py
+09f489772f6e34a3772e1464344986137df2edd0|2019-03-28|Josh Izaac|fix how pytest imports environment variables
+246b592b8ade7447165d1b585c0c093410146eba|2019-03-28|Josh Izaac|make sure travis pytest still installs SF
+72a10eedb96d42532608f140251677fd92f566b1|2019-03-28|Josh Izaac|changed how pytest is called
+9760be4ac1fcca1c8ef83f4bad313b9f9655906e|2019-03-28|Josh Izaac|upgrade pytest on travis
+2254840dc15740bfd1e3d74a642b938505d47fa2|2019-03-28|Josh Izaac|tweaking travis config
+a26e911a36f08419b2ff8e97577ea9828cd05cb1|2019-03-28|Josh Izaac|try adding pytest to travis
+439e2256724a27b6850029a091f89f9c1f0353a4|2019-03-28|Josh Izaac|linting
+5af02bcddf41db73d4c87b011f052b8edde41ed6|2019-03-28|Josh Izaac|added pytest boilerplate to fock backend
+ecfd54ba43282945c613f54b8e54d7d924c705f9|2019-03-25|Josh Izaac|updated paper link and copyright
+8735fb01558ac49755a9abac40ab67568958836b|2019-03-18|Josh Izaac|Merge pull request #51 from ishdhand/triangular-decomposition
+ede5be37448872eec4efeb860e4ebc46fb95bc26|2019-03-18|Ish Dhand|Added docstrings to tests of triangular and rectangular decomposition
+d3917ed8af73c96d36d7ca3dd28ffa73e0653573|2019-03-18|Josh Izaac|Update strawberryfields/decompositions.py
+8f6e3b816216d58367a89e04b5b605814b7b173d|2019-03-16|Ish Dhand|More minor fixes
+b9bcde2ea32118e89c4814a5e1abc7d2d6588e11|2019-03-16|Ish Dhand|minor fix
+609391cd52556c2d225925a16fdff8e60111bb7d|2019-03-16|Ish Dhand|Added Triangular decomposition and test
+8f665baf0b539d9f044d8968e0ba3e895e51b8bf|2019-03-09|Josh Izaac|Merge pull request #48 from ziofil/extract_methods
+903ddf0da5c7d9b9975e97fea799817a6a108c3f|2019-03-09|Josh Izaac|removed commented unitary warning
+5be1abe9dce1971ed2caf626b1d82a497124e214|2019-03-09|Josh Izaac|added note to documentation
+9cacd2715ffaa43bd528bfcb2934c8bac835fa25|2019-03-07|ziofil|set numpy seed for test_utils consistency
+7abf22a0baeee66164cf75d3f5577a1fd79dc8e2|2019-03-07|ziofil|removed _dm termination of _vectorize and _unvectorize functions
+acd0b5b986ff04f4b183a607b847a67326c32205|2019-03-07|Nathan Killoran|Update strawberryfields/utils.py
+064cedfb23af15e6dc149663b1e170942b53087e|2019-03-07|Nathan Killoran|Update strawberryfields/utils.py
+ea32f072171c7efe853bd9ef569875816e5353fd|2019-03-07|Nathan Killoran|Update strawberryfields/utils.py
+24e2f1b974034796b66fcbd1906d40a108d06790|2019-03-07|Nathan Killoran|Update strawberryfields/utils.py
+dba918a4480b4b657163b66db658f664054466f9|2019-03-07|Nathan Killoran|Update strawberryfields/utils.py
+549d3fbf463762ab4c0580a6729cb4623b9575b0|2019-03-07|Nathan Killoran|Update strawberryfields/utils.py
+0d63c10ede1624786e2ab6b375bb52308b9dfdd3|2019-03-07|Nathan Killoran|Update strawberryfields/utils.py
+37c0d97a392e3577e9c63fb5c31221ff647bce3c|2019-03-07|Nathan Killoran|Update strawberryfields/utils.py
+81a3a1a72cb4b7d2aa6a7ae4f064c3d0f1569ec7|2019-03-07|Nathan Killoran|Update strawberryfields/utils.py
+3b2619bf779da49715268caab8af2f0afac3bb52|2019-03-07|Nathan Killoran|Update strawberryfields/utils.py
+d84f2f5a7de415d7e8e8bff04d3b70edbc0a70f6|2019-03-07|Nathan Killoran|Update strawberryfields/utils.py
+b74e7afa07b59431f6141ed457adebbf96b2f3ed|2019-03-07|Nathan Killoran|Update strawberryfields/utils.py
+2f8a9adc11c1579cd6f7538a595507c6854e63c5|2019-03-07|Nathan Killoran|Update strawberryfields/utils.py
+5e1e0a8022425fbd5d9e20e6f1fcf58b73927039|2019-03-07|Nathan Killoran|Update strawberryfields/utils.py
+5a78e9a13b89b4099dfa07363f52524ba3cdd2e3|2019-03-07|Nathan Killoran|Update strawberryfields/utils.py
+5b8ae5f1ce5e156a52e843f0e344ce78e6479d2c|2019-03-07|Nathan Killoran|Update strawberryfields/utils.py
+9783d14a5d898da2579f0c3d228765b567463bf8|2019-03-07|Nathan Killoran|Update strawberryfields/utils.py
+3f3aa52d5eb75c8171729781648432618b3a356a|2019-03-07|Nathan Killoran|Update strawberryfields/utils.py
+665d6470976163b8d3a074d73d937541ab9281ea|2019-03-07|Nathan Killoran|Update strawberryfields/utils.py
+9619b87e8be4be68d061c51277839b0802e58450|2019-03-07|Nathan Killoran|Update strawberryfields/utils.py
+724219eb88a88ea496dc44d98876cd8bb8c294cf|2019-03-07|Nathan Killoran|Update strawberryfields/utils.py
+3699a1ad7e6167d8d85e73154fd0245fe7c90386|2019-03-07|Nathan Killoran|Update strawberryfields/utils.py
+306e6e87acf3ac2c504d01225a01959f71349e4d|2019-03-07|Nathan Killoran|Update strawberryfields/utils.py
+3cef19fa7abd20729cf617a71c4dc437974f52bd|2019-03-07|Nathan Killoran|Update strawberryfields/utils.py
+cc1f8819b355a7a0e52ae1a2beb6289c39ada855|2019-03-07|Nathan Killoran|Update strawberryfields/utils.py
+85b1ccd696b321a932ab07ee90d7df033a3a27bd|2019-03-07|Nathan Killoran|Update strawberryfields/utils.py
+6fed2300e5fecab0b2d3f188530d4590eb04593c|2019-03-07|Nathan Killoran|Update .github/CHANGELOG.md
+bff2a59200826a5bbabedd0bfcc78f78369518ef|2019-03-07|Nathan Killoran|Update .github/CHANGELOG.md
+0134c1d414be624dfc2246b824e4a4a51b9fd23f|2019-03-07|Nathan Killoran|Update .github/CHANGELOG.md
+fc01dd830799d99037d16ba95c07175d15778c89|2019-03-07|Nathan Killoran|Update strawberryfields/utils.py
+dbe0dd0c07fe4a46444494e3315517500cc0ea1e|2019-02-28|Josh Izaac|fixed tf batch tests
+066784ed578d7ee10dc6dde912f2444bf8475108|2019-02-28|Josh Izaac|fix tf tests
+4af5ffbf730fae2c9056d78734584dbc0bda70db|2019-02-28|Josh Izaac|fixed tests, and updated changelog in preparation of merging
+a7c425655e6428b48bf203f6e0806a829ef1915b|2019-02-27|ziofil|Added channel definitions in extract_channel
+b23ec2ec7279716b03d669bf9203ee9cae387504|2019-02-27|ziofil|Added examples in docstring and comments near critical parts of the code
+72d9a5794771bfee65d2a72b84516d9878f90120|2019-02-27|Josh Izaac|[ci skip] linting
+c2aa69b542c6014e56daa62450cd639b87f55a44|2019-02-27|ziofil|typo
+af8005f98f69f508b48d4060c1d3402ddcb4541b|2019-02-27|ziofil|Added comments on the computation of Kraus operators
+7e35f28667abfe75bc84162d52b781ed33d2432d|2019-02-27|Josh Izaac|fixed documentation rendering
+157b2319675b5766e5691fd2345cae6caf4a36ba|2019-02-27|Josh Izaac|Merge pull request #44 from ishdhand/Better-decompositions
+0476545c61610d41a14d43d408aafe26f281e245|2019-02-26|Josh Izaac|Update strawberryfields/decompositions.py
+3f86fcdb159b5af2216cccd8e8f7097ad5dbf948|2019-02-26|ziofil|added one final test
+6b0b716834017046fad16ea80596143004b6decc|2019-02-26|ziofil|removed "unnecessary else" (less readable but codefactor won't complain)
+d789df8f885dca87c2d63023d992466bc6cc5cd1|2019-02-26|ziofil|implemented some pylint recommendations
+eb043ffdbb9df8a3ada62dec935899a136c13875|2019-02-26|ziofil|replaced f-strings with string formatting
+65ef457ad30e330ace6df3a6298bc62308329b4f|2019-02-25|ziofil|removed linter autofixes
+f69a9f4238c385d35173467fca281bde75421fd0|2019-02-25|ziofil|Unitary and channel extraction methods
+c69515d00fdb8b01e42c65b4bb145600bd8bd77f|2019-02-24|Ish Dhand|Removed math dependency, better naming and made tolerance consistent with the other clements code
+69a60e3bbf19f7bd54c57117889619c3275cace4|2019-02-24|Ish Dhand|Merge commit '30b338fdf57df47e38e5d61d119b999c7d7c5dd9' into Better-decompositions
+30b338fdf57df47e38e5d61d119b999c7d7c5dd9|2019-02-24|Josh Izaac|Update tests/test_decompositions.py
+b74386158b57411f6b659795a3832b75a51bf923|2019-02-24|Josh Izaac|Update strawberryfields/decompositions.py
+8b96806addfe7ffeda490352a38547d05942dc0c|2019-02-24|Josh Izaac|Update strawberryfields/decompositions.py
+231bea6b5a055026256b4c25514a92b985b54e41|2019-02-24|Ish Dhand|Merge commit 'd880ba5173e94b18e2f2e73ab51f38669ee001fe' into Better-decompositions
+d880ba5173e94b18e2f2e73ab51f38669ee001fe|2019-02-13|Josh Izaac|Merge pull request #46 from pyqml/pep8
+7d64b86047eea958efda1acd16d0ba0d5e97cf8d|2019-02-13|quantshah|Petty pep8 changes
+59cee4d9ce29350ef142b38e323af834cf640571|2019-01-24|Ish Dhand|Merge branch 'Improving-decompositions' into Better-decompositions Adding support for the Clements decomposition with phases at the end of the interferometer rather than in the middle.
+ca75c83e0001a54048cbf71aa4b223e44df46cf9|2019-01-24|Ish Dhand|Adding support for Equation 5 of Clements decomposition
+cc299f9221b205e20c613a795b68267d8eea8931|2019-01-24|Josh Izaac|Merge pull request #42 from XanaduAI/feature/graphembedding
+d6fb50390e96ccf742bb4d50cba9ae0cc5635ec0|2019-01-23|Josh Izaac|Merge branch 'master' into feature/graphembedding
+1ed31fb270de106b4f21024e99ebca123c5d9021|2019-01-23|Josh Izaac|fixed takagi rounding
+d8f8511c7a2471ffb78e033bb184aa5909e8800d|2019-01-23|co9olguy|Merge pull request #43 from ishdhand/fix_bloch_messiah
+5e846ea9c418155a0ae2df4215bc5587169334bd|2019-01-23|co9olguy|make tol strategy uniform and updating docstring
+9be6bfe66110e8ac4231ee76a4685afffeb8ae09|2019-01-23|Josh Izaac|added tolerance to ensemble test
+5bfb982fe47cba383b3d8b677d9641b209798660|2019-01-23|co9olguy|Update decompositions.py
+9e13dc519636391fa29b18212f909461d9fb3599|2019-01-23|Josh Izaac|Update tests/test_decompositions.py
+0e5f244143d8fc00b412e9d2547a073add40e2ef|2019-01-23|Josh Izaac|Apply suggestions from code review
+7842882ed2e8edc3e01788fad4118afa227dd405|2019-01-23|Josh Izaac|Added dagger to comment
+e9e630ae616cbf596e9c228f07d2a7bf818d9213|2019-01-22|Ish Dhand|Fixed typos and cosmetic changes
+a91122a5da8bb32d7983105cb89c5f85cc8f5a16|2019-01-22|Ish Dhand|Wrote test of BM for random degenerate symplectic matrices. This test failed for earlier code on some edge cases but this is now fixed by rounding before grouping singular values.
+4f25105da74d942fe22556d5d2e5f17400d256e5|2019-01-21|Josh Izaac|addressed comments in frontend test; removed all np.round; removed all magic numbers
+14f1e9e38812f47e7064db83ee9ac0ade6ba58d7|2019-01-21|co9olguy|Apply suggestions from code review
+7dc2159a77a4c665369964a314b21391b18f675e|2019-01-21|co9olguy|Update strawberryfields/decompositions.py
+ca5e03ba7fbb8e66c51b6af84c53d030f91cb876|2019-01-21|co9olguy|Update strawberryfields/decompositions.py
+54709d24007dc9f01dff69d9db9c011481eda7ea|2019-01-21|Ish Dhand|Resolves edge cases (Errors resulted when np.linalg.svd returned complex unitary matrices from almost real inputs. Enforcing real inputs gives the required real orthogonal matrices for the passive interferometer)
+c9445387dfb41650c26c64718d8ab88c98050561|2019-01-21|Ish Dhand|Removed print command
+5164a68f3d88a54c6f3d3e4b20f798c3e8043d01|2019-01-21|Ish Dhand|Fixed Bloch-Messiah bug #14 that arose when singular values were degenerate
+8ff8b859ad7ed9210faa53a84047d92729aa1d78|2019-01-17|Josh Izaac|added frontend GraphEmbed test
+6e7ab36ca8c4b58a8a9c14cb0c75e042666b9021|2019-01-17|Josh Izaac|linting
+6724fa1d4f9fd7f128b074133c875aef4a47f389|2019-01-17|Josh Izaac|fixed bugs
+791973c9639e238b8c475707d9ea82f7f68df9a5|2019-01-17|Nicolas Quesada|Added frontend GraphEmbed
+824c93c9bd2d40addcd6a95daf8cc1ad39b7a2b6|2019-01-17|Nicolas Quesada|Added the graph_embed function to embed a graph into GBS
+d1c67b91bee3c0aae2c340bee22049fa74673dca|2019-01-11|co9olguy|Merge pull request #40 from XanaduAI/fix_doc_clements
+c9b17817128120b8d7b5f5ad5de06fe13cca8978|2019-01-11|Christian Gogolin|fixed a typo in the docs of the clements decomposition
+203a16f65f91817b91f9419a4d69f6e01daecf3c|2018-12-18|Josh Izaac|Merge pull request #37 from XanaduAI/decompositions_slight_improvement
+ad6b9e62769692b20358faa88aba091618fb2f16|2018-12-18|Christian Gogolin|reverted from lazy to eager evaluation because it gives better user feedback
+97b7f212f59ff02bb49c78298d74a88a35bf39f4|2018-12-13|Christian Gogolin|removed passive parameter from docstring of random_interferometer because the method has no such parameter
+074f78e52508d067d11c0f5d6572baeb35de534a|2018-12-13|Christian Gogolin|made ValueErrors easier to understand
+fb2c1267bd52d69f83fabd7e077e5235ab9f483a|2018-12-13|Christian Gogolin|do clements decompose lazily fixed seed to make decompositions unit test deterministic fixed docstring of Interferometer
+e0ce2d162c481913a4e4f28a01b5e03fd676592e|2018-12-06|Josh Izaac|fix broken link [ci skip]
+6c8177e52be6946153cf486b8e0cc736d7774a54|2018-12-06|Josh Izaac|updated docs to link to the Xanadu Quantum Software Competition [ci skip]
+8c1dc92f33f65689cb9f69dc362bbd0c8661a57c|2018-11-20|Josh Izaac|fixed typo in decompositions section regarding allowable covariance matrices [ci skip]
+d1564a90e3aa9f9577cf1e09be0cc441e5cb3f61|2018-11-12|Josh Izaac|increment version number to 0.9.0 [ci skip]
+6c1409b51b66ef525b2897c13e98483bfa400b68|2018-11-09|co9olguy|fixing typo [ci skip]
+5c2fb277d5483c4aae588516e9f60f69cbd83676|2018-11-09|co9olguy|renaming operator to operation to match better with other uses
+168517896bfeefaf92619393cca356c153a85cf6|2018-11-09|co9olguy|Merge pull request #34 from XanaduAI/expectations
+053e3e522f62f9867df90450b965fdc6f2c34325|2018-11-09|co9olguy|removing now unused part of docstring [ci skip]
+d09dd29728baacc5c4974d185f0a75a6c540763a|2018-11-09|co9olguy|updates to resolve open conversation issues
+262609e8d699af5e2a11267c4ede053a869837a4|2018-11-09|co9olguy|fix backticks
+d5d3a4989ee3d1de9f2e0b0c0ba5525ea86aea09|2018-11-08|Josh Izaac|fix typo in catstate formula in the docs [ci skip]
+91b0c92a913df56a68771d9f291d99f168ceb730|2018-10-12|Juan Leni|Allow turning circuits into operators (#36)
+dead70e8c3ffb23b9bed8a711b01e68d2f663bdc|2018-10-09|Josh Izaac|Corrected CX gate convention [ci skip]
+9b8cb4ab227d8e734fdbfee96c8567d996b8c0b4|2018-10-09|Josh Izaac|updating final BS equation [ci skip]
+bec8fa6a9a97888e07b78d0391d35a20e10565e3|2018-10-08|Josh Izaac|fixed BS convention [ci skip]
+3e25ec959627cb78679f76430d43117368ee4a81|2018-10-05|Josh Izaac|excluded TF from poly_quad test
+7c0bed87f4b939445d911258f3d28d2af5184e8d|2018-10-04|Josh Izaac|updated BS convention typo [ci skip]
+41153d45e89c84fe87a86c7dc4feb0e8cf013651|2018-10-04|Josh Izaac|updated BS convention [ci skip]
+c2d7299e36a9087f666fb165508e485c31ad088e|2018-10-04|Josh Izaac|fix typo in tests
+2b280b45ce7d18c6ac5bb8a9cee96819c3218180|2018-10-04|Josh Izaac|corrected variance
+d783ea567e24f882e3386f3dd793afb92c5461ff|2018-10-01|Josh Izaac|small typos
+5f02f011c9c3e4ee722074795d8c2efdfebdd4d3|2018-10-01|Josh Izaac|bug fixes
+da5dc08dc179bb4306db7539f6eb415f4eb1bb59|2018-09-29|Josh Izaac|Merge branch 'expectations' of https://github.com/XanaduAI/strawberryfields into expectations
+ea8ec79ff247b26c14c67cf76851b42b4c2ef211|2018-09-29|Josh Izaac|made requested changes
+535b24ca4963bc0ddcacbdbe1f9d68a558104b96|2018-09-28|co9olguy|updated poly_quad_expectation in TFBackend
+1cb61419b1293f1075520aa3139f82152f021ff6|2018-09-27|Josh Izaac|allow A to be None in poly_quad_expectations
+4854f49a7c8a2e0059c4fa889fdac2d51cbccbce|2018-09-26|Josh Izaac|fix bug in test_quadratic_multimode
+5ceaced579ae8702f4090f05123d68e63c68c425|2018-09-26|Josh Izaac|merge master
+44dd457c71ad7b4fcde32904f42a951452b1c3ea|2018-09-26|Josh Izaac|all poly_quad_expectation tests now pass
+251eaa42ab5eeab1c1ca9cad121ff4efb051e304|2018-09-25|co9olguy|Merge pull request #32 from XanaduAI/new_channels
+ee9dfc5fe56c817cc6a69f508641918fb828a3d2|2018-09-25|Josh Izaac|bug fix, coverage increase
+698778f04b58539fda2dda66b2e6773534bdfc0c|2018-09-25|Josh Izaac|fixed symbolic mean_photon tests
+4181bfdbdb58ecca75019bfa01bc3c7e3c28128e|2018-09-25|Josh Izaac|added variance to mean_photon state method
+9e424e4213f2195991d24a8abf35cd5387d29a6c|2018-09-25|Josh Izaac|updated documentation [ci skip]
+4bda0fb1e0720c0f675416b16c852cfc5d882590|2018-09-24|Josh Izaac|fix deprecated numpy function
+dd3e9242a9ceb6f5b743b2a9c2922a0ad4ad58d4|2018-09-24|Josh Izaac|fock backend now passes all tests
+0b882b096a93a317149bd53e51e67d882d176393|2018-09-24|Josh Izaac|cleaned up the tests, got more passing
+093b6b25cd2cab9a90c4412014cebe0f3fa865c7|2018-09-24|Josh Izaac|began adding arbitary second order expectations
+9d0fb8e2c614a05e1ce8055db786a9b08b4dc7e5|2018-09-21|co9olguy|Merge branch 'master' into new_channels
+0db2fb3c7f05257c9c96a2658d3a54efee7c612d|2018-09-21|Josh Izaac|requested changes
+b64ea7d9af02ccb866974b9c2b43577f4ac29c57|2018-09-20|co9olguy|fix typo
+a9397ade621513ff30a6b5ccfb20cbf7f0706841|2018-09-20|Josh Izaac|returned to shields.io badge for codacy grade
+95e62cd5a404835d11e0580dabf7f3a91f196c17|2018-09-20|Josh Izaac|finished tests and documentation
+aa54b81bbe06436703c187333d360fcb0f71af12|2018-09-19|Josh Izaac|added trivial tests
+9b77b41a0a881f13d86d6d9ba78c90b58322cec3|2018-09-19|Josh Izaac|added thermal loss channel to frontend
+ed200718e453c43574015e06b3ba537ebbf96940|2018-09-18|Nicolas Quesada|added the thermal_loss method to both the GaussianModes and GaussianBackend classes
+6105dbbd399ff72df54a657bf653c469115bcd7d|2018-09-14|Josh Izaac|updated research papers list
+babd597b1b4beaa275f17f2aa53989a54c64094f|2018-09-04|Josh Izaac|Update readme to use Codacy API for badge, as Shields.io badge is no longer working (see https://github.com/badges/shields/issues/1985)
+8a370c37612325ecc29d99abd27072ab5b9509f4|2018-08-24|BriannaGopaul|Quantum Circuits (#31)
+bd57b8f4a60103717471ba4c154f0e55a38e79da|2018-08-09|Josh Izaac|added fock_prob warning [ci skip]
+0a3801e19f557128c3e42f98b4bf38bee01aaa2d|2018-08-06|Josh Izaac|fixed small typo in gallery [ci skip]
+4eb327921706d9432c750a7e64528edb6311cf50|2018-08-05|Arthur Pesah|Add the scattershot boson sampling example in the gallery (#30)
+0cfef1055f782e1c338d27fb9a17e32c542ca2eb|2018-08-02|Josh Izaac|updated readme and installation to mention GPU support [ci skip]
+35b5b12da6ea3d8c33bf12589912bd0b855e53ea|2018-08-02|Josh Izaac|fix small typos in the gallery, get ready for v0.8.0 docs release
+f0cfc95268fbb5939dfe4c46f84790705ba03693|2018-08-01|Josh Izaac|typos [ci skip]
+f070d7e20108fca2616498ab35b7f5446b69f31f|2018-07-31|Josh Izaac|updated gallery in the docs [ci skip]
+fed04ff0fe72c5fcbded7092717af6a4f30cc7ac|2018-07-30|Josh Izaac|new version number
+dd7668c30c0e20730ea1d80cab91c7247e71af5f|2018-07-27|Josh Izaac|fixed beamsplitter such that t must be float (#27)
+71aa387716488e67458cff2f6283404591139b79|2018-07-21|Josh Izaac|updated gallery css [ci skip]
+4da5aa6992a7d559a32d1a443b5c1cb9bcdd5016|2018-07-21|Josh Izaac|gallery edits [ci skip]
+1cba91802a8bec8071d489bb28c501f11002b76f|2018-07-21|Josh Izaac|first draft of the gallery [ci skip]
+512461c34cb86a5494d442d39bac0f6310deaa6e|2018-07-17|Josh Izaac|removed all Qreg instances, renamed to Circuit (#24)
+5aa1f3618a9ad45def05d96cdca051bdda0ec2a5|2018-07-17|Josh Izaac|Updated notebooks, fixed correct mocking out of Pi in the documentation [ci skip]
+b10a04b1274e6fac50871b5340314a44e86ffb3b|2018-07-17|Josh Izaac|Gaussian multimode (#23)
+b2179d060372a49647dbfd6f2c4bcc6f65a9f076|2018-07-17|Josh Izaac|update docs configuration to avoid importing the parameter class [ci skip]
+34b4aeb428fd87dc9047aa48b55f1939030bae9d|2018-07-17|Josh Izaac|updated documentation to remove parameter page [ci skip]
+7e3cb87df3cedfdc9b996dd0d0adc81cb288e55f|2018-07-17|co9olguy|Merge pull request #22 from XanaduAI/cross_kerr
+7a6d72b71cb5b83bbe433a60fbba779622fe840a|2018-07-17|co9olguy|fixed unnecessary parts of batched tests
+4a612b2607d3b9040871bf688eb8ac3228b4b3c9|2018-07-17|co9olguy|fix typos and remove deprecated code
+bd94a1787de660edd426b735ce2296491bb46710|2018-07-15|Josh Izaac|fix toolchain test to ignore CKgate on gaussian backend
+0a78affd3aa8d8241c3c7ffb2bae04b1f3db1670|2018-07-15|Josh Izaac|added CKgate to gate list for testing
+13f3ade1abe9b491eb30e079633cc842b40505f2|2018-07-15|Josh Izaac|added cross-Kerr interaction to raise NotApplicableError in BaseGaussian [ci skip]
+94033ef798b0236ae4b6433db574f700f17f976e|2018-07-15|Josh Izaac|Added cross-Kerr interaction to frontend (CKgate) and added section on CKgate to the docs. Also fixed some bugs in the docs with regards to formatting.
+04f3fba1261a2a444311ff94a25454c2a43f58ba|2018-07-15|Josh Izaac|added cross-Kerr interaction to backend
+434fc9d97282692679b19c5c703510a6c956dbb6|2018-07-15|Christian Gogolin|New state preps multimode (#19)
+20f3e223bf9f657661892d5ae1382efd0ddc8ec3|2018-07-14|Josh Izaac|New parameter class, new engine behaviour, bugfixes (#21)
+4af958ad918611f5732e153af0641b951518ccd0|2018-06-22|Josh Izaac|fixed missing newline in readme [ci skip]
+ed193ffb93732bf1b9dc3514cf3d3b88bafce5d0|2018-06-20|Josh Izaac|updated version number
+af94871e81c186a1e7040e1d00bace9f13104e65|2018-06-20|Josh Izaac|small changes to requirements to only pin version number [ci skip]
+d7af185cad87b18fda4ba7c70f9af37796482c93|2018-06-08|co9olguy|removing unfinished doc [ci-skip]
+3e5df74861c6c32cc6bc2913f481ac883d009e89|2018-06-07|co9olguy|fix to prevent BS prefactor cache from breaking things if using two graphs
+1cbb40fef1c7abf4ffb30f25c97693843c42ad96|2018-06-01|Josh Izaac|revised the readme, added separate readmes for the docs and the tests
+0ea44e1e27d2549b66ad9892c82507befbb0c0e2|2018-05-30|Josh Izaac|Fixed bug #13, fixed clements bug where some phase angles weren't applied, fixed bug in displaced squeezed formula in documentation
+c9392a4ef6242702abaa14a0f2a3a2aa266fc703|2018-05-11|Josh Izaac|changed reference order
+10bc9cd791788b4df4a44e530dd2ca5c399fdff6|2018-05-10|Josh Izaac|fixed bug #10 by adding the ability to reset modeMap and Gaussian circuit, and bug #11 by adding np.reshape for pure states (#12)
+d35cc22094498ed990033f8bc38df4db6680ad4e|2018-05-09|Josh Izaac|Updated Slack URL invite link, fixed typos in documentation
+d8e1d43eab97731c99fcb956c640a2dc6d09ef2a|2018-05-04|Josh Izaac|added links to slack channel [ci skip]
+57d1af1806705ec45650b5f18e98e8eee73156dc|2018-05-04|Josh Izaac|Updated README.rst to properly display swag photos [ci skip]
+c03894b151e640be3ba7314a6f754089a54edfd0|2018-05-04|Josh Izaac|updated documentation with swag images
+339fdbe78f22365aefbbac33fcc1cf0fa88348a0|2018-05-04|Josh Izaac|Attempting to fix bug where files disappear from codecov coverage
+d42e722a3d3dd3388db0f9d4bad50cfb51af8874|2018-05-01|Josh Izaac|added challenges page
+6509d493ab55d77fce49e3384d24fe16a4d41f02|2018-04-30|co9olguy|Caching of numerical prefactors as tensors for beamsplitter (#8)
+f3cd09afa73263e38563a4df4f6787af108d76a5|2018-04-21|Josh Izaac|small edit so that the CI badge displays build status of master only
+e8db61616c4537c8bdc4f27e361bb595408295e2|2018-04-19|Josh Izaac|Decompositions (#7)
+fd6fbd4a1bc81abea197911fd9fb4887b5f059ec|2018-04-19|Josh Izaac|fixed small typos
+92633c7ff5ac4645749adedbb94c8c21d6807569|2018-04-19|Josh Izaac|small changes to contribution guidelines
+edebf992eb72b8d68ba351c6ff030a9ef725785f|2018-04-19|Josh Izaac|Added code of conduct [ci skip]
+6e105411292e8461cad68a6e33fb3ac27b05faea|2018-04-19|Josh Izaac|added contributing guidelines [ci skip]
+0dbc61a45200d81c273f959a971103bd9a8d4f1e|2018-04-18|Josh Izaac|Create PULL_REQUEST_TEMPLATE.md
+d0a401ff892878a3e03401721c3f8730fb9d34e7|2018-04-18|Josh Izaac|created a github issue template [ci skip]
+fe57970ec775b25f3db20cfeb1e89a187ae34aa4|2018-04-17|Christian Gogolin|Minor improvements in `fock_prob()` (#6)
+98a14a324ba1bacffc6da4d3a776a39ac2263293|2018-04-14|Josh Izaac|Merge fixes to travis-ci matrix builds (#4)
+b31d5f4495cf020279c376ac269c822a48c25d04|2018-04-13|Josh Izaac|added python version to the build matrix
+87662325afc0cda4501ec6edc24886cd4e2fedf5|2018-04-13|Josh Izaac|updated travis.yml
+1193dca868139479a23246b77958e6e6012b28ce|2018-04-13|Josh Izaac|modified travis configuration to take into account resource intensive tests
+241eb6cbea3d65e94a0047f93f8ae429f1c3d2fa|2018-04-13|Josh Izaac|small changes to the conventions page
+db40984a4f890fcc838698d0dcd1b14d0d014b94|2018-04-13|Josh Izaac|bug fix release to close #3, setup.py now matches requirements.txt tensorflow pinning
+0255cd6a594bf5c4af77722d12eaa2bc1dfc1ecf|2018-04-11|Josh Izaac|added links to whitepaper [ci skip]
+7bfb6c8c76428f6f34f642d304e8dd9015132ffa|2018-04-10|Josh Izaac|fixes to the documentation [ci skip]
+a438e9c8bb449ca78bd71b72db27db7c38029e7a|2018-04-02|Josh Izaac|small fixes to installation instructions
+802311d41c1718cbf96e265d35e8a80e93ccbb00|2018-03-27|Josh Izaac|updated readme, version number
+5455f9b6b3ae42c5ee6c51e06894dca66458b0dd|2018-03-26|Josh Izaac|added google analytics to docs
+728ec894ea4ecef35815b232825919220fc66354|2018-03-26|Josh Izaac|updated pypi classifiers and readme
+9ab809172cbbf4e50d623b4f2858fc72668b0356|2018-03-26|Josh Izaac|updated readme to point to pypi package
+9b12a18948a52a5fad5601bf9601116b0862fb0e|2018-03-26|Josh Izaac|first commit

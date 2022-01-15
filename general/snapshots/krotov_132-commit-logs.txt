@@ -1,0 +1,513 @@
+29adff6b461d55c8fc607128d48bcbdd4dd7882d|2020-10-02|Michael Goerz|Adapt to latest version of black code formatter
+84d573119e0ea33c653bd61ee59445f546f09cc4|2020-08-17|Michael Goerz|Bump version to 1.2.0+dev
+b9b9a2d8dc57707fc19462939db3a0b4d572857f|2020-08-17|Michael Goerz|Release 1.2.0
+e2da7fbc2d3b0afd901e7f46e73da01061453a05|2020-08-12|Michael Goerz|Fix typo in docstring
+e0cccd7a655f2c6eb7745d7fe19a705be1dd45f9|2020-08-13|Michael Goerz|Merge pull request #75 from qucontrol/discretization
+80caf14bb0123975e7c0e45f64f08d549c77a379|2020-08-12|Michael Goerz|Evaluate notebooks
+a78fb42b82704ea503b8456ceab9b84d692bbd92|2020-08-11|Michael Goerz|Update tests
+893b7a34024884674681c0787e91a8d335e2ce75|2020-08-10|Michael Goerz|Use "safe" discretization via midpoints
+15c912b57b85aff73f481dab6cbb4de79df5fe19|2020-08-12|Michael Goerz|Use loky even on Linux
+e14d6e4bd6f397edb920070798364d638587e9e9|2020-08-12|Michael Goerz|Merge pull request #77 from qucontrol/grapheme
+7a27aec6b712a750ab9ae8d3701d47acedf95abc|2020-08-12|Michael Goerz|Use grapheme package to replace uniseg
+e4f0ac8fa79a5ad15f7cdca22b4ca51d865b10e2|2020-08-11|Michael Goerz|Pin isort < 5.0
+092f2299fb932a1e3e8f6fe87c12a5a113c682dd|2020-07-30|Michael Goerz|Highlight warning about propgators
+4e8eea85ca8b7b493bc9a933d081e1f41b9e8fd9|2020-03-24|Michael Goerz|Fix artifact links in Sphinx docs
+ab2d5658a0c96673610c356e23197d61d93034c3|2020-03-24|Michael Goerz|Bump version to 1.1.0+dev
+fa4c0569cb79e5f268e6fec67f9c05c7dd420783|2020-03-24|Michael Goerz|Release 1.1.0
+fcb337388dbe2108b0eb1d44608d3201f19be209|2020-03-24|Michael Goerz|Test against latest QuTiP on Python 3.7
+fecd5d02907b2daa6e3cf5694703c6024120ad8b|2020-03-24|Michael Goerz|Allow to skip tests in release script
+b44a72c91d6a85e86afefbdbd59e5401db7fd4ca|2020-03-24|Michael Goerz|Remove trailing empty cell in notebook 5
+b7c8dbebff34725b98ce931b542a32643fe09e20|2020-03-24|Michael Goerz|Reformat shell code for proper highlighting and copyability
+ca7dcffbea0a52b4a216d0ab9b06560d8d086319|2020-03-24|Michael Goerz|Do not collect tests from docs/_build
+a5a8043f38847f39816a596131a7574740e7dc37|2020-03-24|Michael Goerz|Fix intersphinx links
+5ff0fc1432deb305540ae4a8a63cd141cdbe6f37|2020-03-24|Michael Goerz|Merge pull request #72 from qucontrol/loky
+f44b4c40bf976eca95f7766560e480811f125831|2020-03-22|Michael Goerz|Use threadpoolctl
+e6c8f8b04de446fd86fb8c6fb1111aa833f7c41d|2020-03-21|Michael Goerz|Allow to use loky for all parallelization
+f1236a28e1e44917b17697b2873bd2f8ef7f71e9|2020-03-19|Michael Goerz|Add parallel_map
+1b6945f4a001dfc9267bdb8c9c2f160351270b7e|2020-03-16|Michael Goerz|Update HISTORY
+efc04e584e38395e526402d517d720dc671edd88|2020-03-15|Michael Goerz|Adapt to QuTiP 4.5.0
+b1be012a31cb7de06c5f4faa7c57ceedaab7e47b|2020-03-15|Michael Goerz|Enable support for Python 3.8
+d858802f543d058ea3017ec243392b81c23d890f|2020-03-15|Michael Goerz|Use Gh-Releases for documentation artifacts
+c6ac89d6a8dbaa784b38539b7f76a3c81941962a|2020-01-30|Michael Goerz|Self-update tlmgr
+01a8fd24a7daf05d5f0fc31ec3f0e8cc12a02b66|2020-01-02|Michael Goerz|Only deploy docs for tags and master branch (#70)
+a63732f9dc58fde18171443938b94a4c8592e51b|2020-01-02|Michael Goerz|Pass CI variables to tox environments
+3879e1e728cd8f5a177e1ecb98ab2d1aa700ac0c|2020-01-02|Michael Goerz|Add codecov as dev-requirement
+fdb5519b32c988e249fa5e41c7b007c0d52deab5|2020-01-02|Michael Goerz|Use correct tox-ini when submitting coverage
+20697b97972600609ad2817f168ccbc3b3a874b8|2020-01-02|Michael Goerz|Run codecov from inside tox
+8a3a1bb7cbf1fa7fc9e69f4c883f6dfe5e436c74|2020-01-02|Michael Goerz|Merge pull request #69 from qucontrol/make-clean
+5008bc5630af7ca6d9762aec345737586fcb382f|2020-01-01|Michael Goerz|Clean docs with 'make clean'
+3c3d98255e97c3cebde0e1956c2c3de326274c6f|2019-12-16|Michael Goerz|Bump version to 1.0.0+dev
+c4b3fd512d7742a328c2235bf4ccb583e646ce2a|2019-12-15|Michael Goerz|Release 1.0.0
+09193fc03b64c085fc48179c0a6ac940909574ad|2019-12-15|Michael Goerz|Extend discussion of Doctr
+f2342e99d30cea8a0c4c7200c13c3cc26c141031|2019-12-15|Michael Goerz|Bump version to 1.0.0-rc1+dev
+b46b3207924d592eb9d182dba34dff180feebd72|2019-12-15|Michael Goerz|Release 1.0.0-rc1
+bf78c7569e98ece6ac4a0ccc4e16897e1e53bbed|2019-12-15|Michael Goerz|Recommend commit msg when squashing release commits
+3975306277dec9ff395e5372800623ccc1e1d387|2019-12-15|Michael Goerz|Fix link to pseudocode in pdf docs
+94efc8334b59e998cf089d0ce3490b5a26f3b189|2019-12-15|Michael Goerz|Make the "cite me" link local
+d4fcaf3be2c16569b1699b36f82dc894ee951520|2019-12-15|Michael Goerz|Fix inclusion of README in docs
+2f768d98687c0254626a66cc0697cc90b8ee2e12|2019-12-15|Michael Goerz|Properly insert git tag into binder URLs
+dde43aeb8d8bc37187dab55af69bb869a70bfd2b|2019-12-15|Michael Goerz|Fix link to Jupyter
+8529542d7eee5e0199361800c0ae03a148253824|2019-12-15|Michael Goerz|Fix nbviewer links
+469b66f147a175bab956069ec3eea25f82fb928f|2019-12-15|Michael Goerz|Rewrite "stable" doc links in release script
+2ca6bf598a8fedf1be89f495cb132a1d6fa72ac7|2019-12-15|Michael Goerz|Fix link to documentation in release script
+2080a8bb1b7dd289184d20ca272fa4c51cd76e2d|2019-12-14|Michael Goerz|Switch docs hosting to gh-pages (via doctr)
+5f370bb92f5e229e411ed196c293f937ee8c91c8|2019-12-14|Michael Goerz|Add "Related Software" to documentation
+ac79cd5ce5f172482f4dfae73bcd9d5649fc1d3f|2019-12-14|Michael Goerz|Pin coverage < 5.0
+afc5c444756137f58af955d0e8669ba955504575|2019-12-14|Michael Goerz|Tweaks to issue templates
+3e296e7574b889cceefb312891776a40ebfe3a7d|2019-12-14|Michael Goerz|Update issue templates
+529ac068ce94cb2b45a58c23f7dc23772c22002a|2019-12-14|Michael Goerz|Add keep_original_objectives option to ensemble_objectives
+91093ab0646f5a752be15427bd1a4e75a9565a2c|2019-12-14|Michael Goerz|Declare API as stable
+74d46606c61997bb480f241990cee749d87f8c68|2019-12-13|Michael Goerz|Update citation info to SciPost article
+15563f44369f67264ebbceca67c5f756d77f434c|2019-12-13|Michael Goerz|Allow customization of print_table info_hook
+e3eacd96c85267cb0ec7939e4e12850186a29542|2019-12-11|Michael Goerz|Update Pseudocode and Fig with time-discrete scheme
+376992bdffcb6eae35c8a43b6fd82414c6c230a5|2019-12-09|Michael Goerz|Add title for Krotov papers
+fa650a8d6de824fb74c6efdf178957d25868d1c4|2019-12-04|Michael Goerz|Bump version to 0.5.0+dev
+c9247a4b96a3d0999ac4699a92dc26b8d9afa44e|2019-12-04|Michael Goerz|Bump version to 0.5.0 (update HISTORY and Docs)
+2b1d8c93725ba7c3bf5dcfa1ba5c131618857c7a|2019-12-04|Michael Goerz|Set krotov version for Binder when making release
+b51340f6190c62550449f981429a2d638125a5fb|2019-12-04|Michael Goerz|Update README patch
+9c36134a10e7084a866b202990c22fd24c1d0623|2019-12-04|Michael Goerz|Update documentation to correspond to arxiv v5
+1888708d38c545a24412b81319a65eac83da7db0|2019-11-26|Michael Goerz|Expose krotov.result.Result in top level API
+f522b4e459352e51825ae2b40860a68abd5238eb|2019-11-23|Michael Goerz|Docstring corrections
+fba9194c088a576b6e9d56643c1303e3bdf90530|2019-11-23|Michael Goerz|Update decision tree figure
+8aaecd898812c4b8a483cc70a3668a695a66a6b6|2019-11-22|Michael Goerz|Include total running time in str of Result
+5796f7f47c382d97408fb80ead582a9c3678dc59|2019-11-20|Michael Goerz|Handle `iter_stop=0` correctly
+05696807416f3a2fc5f1d6ae1b0aa5fa71e2741a|2019-11-19|Michael Goerz|Fix __all__ for krotov.conversions module
+1f1abd0f691762cdb5b8a4499fc1a907940962ed|2019-11-19|Michael Goerz|Rename krotov.structural_conversions to krotov.conversions
+f06152d9730706ac7c4bcbf2adbd6b01b38c8973|2019-11-18|Michael Goerz|Merge branch 'controlargs'
+596d2c1d6b327f6f6d5410595f8262336f384ae5|2019-11-10|Michael Goerz|Use travis_wait when creating py38dev tox dir
+63e4cdc3a5d3266808240b868c8585da35407bd2|2019-11-10|Michael Goerz|Proper use of ARGS in example 03
+cdf7a7b52ef6aa224d77ef2ad50399369885969f|2019-11-10|Michael Goerz|Don't allow docs to fail on Travis
+5e6bdf18c1844c035b6c10f0b8eefd02f99be7f3|2019-11-09|Michael Goerz|Pass HOME to tox environment
+06324e935c6f8b396ed2293bb0fb03a709dc1f83|2019-11-09|Michael Goerz|Update History and Credits
+f11312886e763f8ed857ecdd9ed460a09c841d94|2019-11-09|Michael Goerz|Document and test use of "args" in control funcs
+c49b21ec9c23a8907e9c731fcca650231dca8c65|2019-11-08|Michael Goerz|Add support for "args" in time-dependent funcs
+315b3a0906a0fed4ce36e59709a7bc62fc5004ac|2019-10-13|Michael Goerz|Show dev-warning for local documentation
+ff4423fe33f70107a62a6bbd5830772b04399c9c|2019-10-13|Michael Goerz|Set Sphinx-release-variable correctly
+ed03e98274b98267c48364fdb81bddc76cd247fc|2019-10-11|Michael Goerz|Bump version to 0.4.1+dev
+a6a24059ef9de42444cf393b36ddc048fb813826|2019-10-11|Michael Goerz|Release 0.4.1
+e04946c3d69cde12db601ea25c1b252075285586|2019-10-10|Michael Goerz|Generate PDF documentation as part of release
+25c1477c82f4e28e17de84e06a55aba9523bb479|2019-10-11|Michael Goerz|Fix overlong line in Howtos
+506f6c3ad59d1a00b4b7b1309faa8136c58ac85a|2019-10-11|Michael Goerz|Fix accented names in refs
+0e8a4dbe81bd3986dbc5c4464d49131727fd57ef|2019-10-10|Michael Goerz|Revise documentation according to preprint
+ebf0cb5c9d2147a99e79ef5aa0ff1649018dcda9|2019-10-09|Michael Goerz|Add Introduction
+941f846358b5a833ceabb8b63a0f0ed8b70ee3c4|2019-10-07|Michael Goerz|Set up Sphinx to LaTeX conversion
+63cd0737307acaa8500c8b505c0a8f09062a1ba2|2019-10-08|Michael Goerz|Fix broken equation in PE notebook
+d6e0e59575e3f518de8af502188e541926217aea|2019-10-08|Michael Goerz|Allow to override docs build-directory
+464f1c1f3ef653a41185f5e209e798b99203e24f|2019-10-08|Michael Goerz|Simplify "Ketbra" in notebooks
+fb287089d270538cb52bc6c5efbc022e772204b6|2019-10-08|Michael Goerz|Fix tag name in binder links
+aecd1012b59e07214f0854c8929ed1a0e7dd6b03|2019-10-08|Michael Goerz|Bump version to 0.4.0+dev
+7c20d3f6d4e3f7014849c6e95e610ae58556a031|2019-10-08|Michael Goerz|Reevaluate notebooks for version 0.4.0
+2681113dc87479f94082b36c1e2ea17be58f2abb|2019-10-08|Michael Goerz|Bump version to 0.4.0 and update HISTORY
+af7baedc62329085e6eb9bf74e39fb304e574a8d|2019-10-08|Michael Goerz|Fix regenerating notebooks in Makefile
+2743ebb666e1e3ae6b683e3d42be272d053c2083|2019-10-08|Michael Goerz|Fix rewriting of binder URLs
+a6d2659e104874e28a7880146ed9a93a4394263a|2019-10-08|Michael Goerz|Run release script with system Python
+c203aea52f48209d5acacb2894fe2d29593a05d4|2019-09-15|Michael Goerz|Fix codecov submission on Travis
+c26f6fdab3754379b945596d4f594989d33d5f5b|2019-09-15|Michael Goerz|Allow running subset of tests from 'make'
+17b4a581223867d1cf7eda1dfa0f4bff1eedff5f|2019-09-15|Michael Goerz|Warn about outdated tox.ini
+063309855030fce10eb18a2c3a6d65af047d3c72|2019-09-15|Michael Goerz|Use clean-script
+488b641eec32e235bbf06ba06c6a161211b12be4|2019-09-14|Michael Goerz|Bootstrap tox.ini from tox-pyenv.ini
+df7c809a80fd0ea43dc94641ec66ddb78d57b3ce|2019-09-14|Michael Goerz|Define tox commands for cleaning up
+60a1ffcee95371908d2184ca619faf4774fb7a93|2019-09-14|Michael Goerz|Use clean-script for docs
+fa81e7db2b7c4cc55277ef14161a15b9fe3c6eab|2019-09-14|Michael Goerz|Remove ipynb snapshots before building docs
+693e24401d91e1cb0a1e1ab5830261a31c32bf55|2019-09-14|Michael Goerz|Limit 'make test' to Python 3.7
+049c7c3f656796953c018a6210a1ef4fc49dd15c|2019-09-14|Michael Goerz|Enable testing on Python 3.8/QuTiP master
+20fd070d385da6a43f2760249e6b436985c36838|2019-09-12|Michael Goerz|Test against specific dependency versions
+9b770a05ab64c5b0e87c85da8629ef4458fd6d84|2019-09-12|Michael Goerz|Switch Appveyor to 64 bit Miniconda
+4c91321aa4aa7b0aeff0168b7b59dc3eec47b440|2019-09-11|Michael Goerz|Allow Travis doc generation to fail
+8cfc31c22a80cc8968d6b18d1e50bcdf226fd56a|2019-09-11|Michael Goerz|Verify documentation built on Travis
+f8b2847a7495a9e4f76ff5ba22c86c9ca1ea738b|2019-09-11|Michael Goerz|Honor TOXINI setting in bootstrap
+6bc2927a9210249b1f6e9de11aeb12e722b8402e|2019-09-11|Michael Goerz|clean-up
+e17a5c08719f5f35be3da9fbcea4961a8c361cd2|2019-09-10|Michael Goerz|Use local linters for pre-commit hooks
+6d16ef40562465597cc50c1c4b89476481af24a1|2019-09-04|Michael Goerz|Use tox for testing venvs
+54e0cec060caf3bc839c3e2844172258c66c90b6|2019-09-06|Michael Goerz|Work around multiprocessing.Pool problems in Windows
+ae89946a1797d77568c3caf967d01521429f194f|2019-08-18|Michael Goerz|Add binder badge to README
+cc236dca7dcd0cf48c1ccc4d922af7688ea34c74|2019-08-18|Michael Goerz|Apply isort to krotov/second_order.py
+2631fd6aaca464274c8ccf61b3fce0abd88f62ca|2019-08-18|Michael Goerz|Cleanup of krotov.second_order
+3ce538b72f7a128e93e9c4ee46129e89def69d9d|2019-08-18|Michael Goerz|Replace "oct_result" with "opt_result"
+a3216931b8ebd4b903376ee7896a562e57032b19|2019-08-18|Michael Goerz|Run pre-commit hooks on Python files only
+ad986289bc78f1751aee2f2a8a4135d70de055f2|2019-08-18|Michael Goerz|Catch exceptions in pre-commit script
+4e677800d9298b13582a61148c121a1c9b11e206|2019-08-18|Michael Goerz|Test against 'latest' QuTiP on Travis
+898f55af6918dd421bc942c004faabed00a5b0d2|2019-08-18|Michael Goerz|Test against QuTiP 4.4.1 on Travis
+f2ccb343167839e7252361676bed6f1f54ca7118|2019-08-18|Michael Goerz|Don't print out relative phase in example 5
+16d57f93b5a151e91a99541d3f12cf3b8f4313b1|2019-08-14|Michael Goerz|Pin qutip==4.3.1 for Travis
+5464c00cd5f6fe90719c5e0e5df7fedfcf973c11|2019-08-13|Michael Goerz|Separate out notebook verification
+4a84f882dac12a20fe4e96aea7714b2c3adf392d|2019-08-13|Michael Goerz|User codecov instead of coveralls
+e3f48110569b435b8279bf388213a0b13ce55096|2019-08-12|Michael Goerz|Fix Travis problems
+2318590eff540392ff2b0f3d22aa4ac52ade40e0|2019-08-12|Michael Goerz|Remove isort pre-commit hook
+969fc980346e6411903de854118c48c51208a810|2019-08-05|Michael Goerz|Link to source of version-alert.js
+f781c1432b6c7ad43860654e0c2b069ce3e59156|2019-08-05|Michael Goerz|Show an alert on the 'latest' docs on RTD
+07562decce40b9da949e0506cb61c0949f9b7bbd|2019-08-04|Michael Goerz|Update patch for README in main docs
+2e32a24e08fe835c3fb98f46dde534d03088b4ef|2019-08-04|Michael Goerz|Link to stable docs from README
+3805b115337bd3bb76bb0fac759913840c295359|2019-08-03|Michael Goerz|Keep scipy<1.3.0
+026cd0d02d4d7895132d4f2c99cc2c67edaad75b|2019-08-03|Michael Goerz|Avoid QuTiP 4.4.0 also for local testing
+fcd692ac9befd4f2b25c25d1eb8753fa15c9f8cf|2019-08-03|Michael Goerz|Avoid using QuTiP 4.4.0 on Travis/Appveyor
+b76a342966b91f546a7c604cf6484556bfe4c511|2019-08-03|Michael Goerz|Work around QuTiP's changes to Qobj-indexing
+35c2ee2f1e1a30be65695ab8f4924afe55a3cc44|2019-08-02|Michael Goerz|Work around mutable defaults in qutip
+892b060f57f54bae7a700490778da97da6d7c5a5|2019-07-14|Michael Goerz|Add Result.objectives_with_controls method
+8d0d284a98719715a34836e36290279ff0b6e8b8|2019-07-08|Michael Goerz|Fix docstring formatting for `optimize_pulses`
+cb0d33317d3af25260a0dfecb970d488bc178791|2019-07-08|Michael Goerz|Fix `derivative_wrt_pulse` (#47, #48)
+da4864f40feb367bb2646337fe2b482801532191|2019-06-29|Michael Goerz|Rename 'shape' to 'update_shape' in pulse_options
+2449fefb154ed6b937da5027f5aa30241bc78d9c|2019-06-25|Michael Goerz|Update HISTORY
+0c2dad0960f7a96a7223b787de945a76d103c6c4|2019-06-25|Michael Goerz|Redefine τ as its complex conjugate
+8e86a5f198509943ba97894eee302c6b03059cad|2019-06-14|Michael Goerz|FIX_QUTIP_932 on anything but Linux
+5feb39d5b9572d4ded872c0ea5845726d2139d87|2019-06-14|Michael Goerz|Fix undefined count_str
+b9170df0fdc44028ad8d53741aef647d9aaaf992|2019-05-07|Michael Goerz|Remove 'sphinxcontrib.spelling' from Sphinx conf.py
+bf9d775ae79a93bc38e345a00ff77c6f98aff965|2019-05-06|Michael Goerz|Print a diff when isort fails in the commit hook
+ded0f693fb93c780effca50e3280666b2e5b9192|2019-05-06|Michael Goerz|Make test_continue_optimization more robust
+9c07a246b26c59b65be627c14a2e3d52f8ec1898|2019-05-06|Michael Goerz|Revert non-optional 'sphinxcontrib-spelling'
+169ee6b75caee548baca03aec57f0534c6b0c2b8|2019-05-06|Michael Goerz|Add 'sphinxcontrib-spelling' to RTD environment
+c345ec4a9bba4c260eb7ac5444d9bdd28c8ad530|2019-05-06|Michael Goerz|Add missing 'sphinxcontrib-spelling' dev-dependency
+5b36859c6eb9ce63c5bf26145d5fbeef49b5984f|2019-05-06|Michael Goerz|Avoid mocking modules globally in docs/conf.py
+95a4c1d68b635ae5a82167fc72febdae0e5fbe18|2019-05-06|Michael Goerz|Pin pytest-cov <= 2.6.1
+19bd8a1cae88646324a706956154108b18607ca3|2019-05-03|Michael Goerz|Extend the CONTRIBUTING guide
+5be258fa8c689cc3080be7a188481f630ea31bd7|2019-04-27|Michael Goerz|Protect against pip/PEP 517 incompatibility
+061d84291be5a036c41e52b9d00018232075565f|2019-04-27|Michael Goerz|Revert to using editable installs on Travis
+eb104502cbd8e273233e76c7b6a26adf514da9e4|2019-04-27|Michael Goerz|Use xenial image on Travis
+43ee3dfc7bd99757015161ec5b07d7c4e5aa52ff|2019-04-27|Michael Goerz|Remove pip-wheel-metadata build artefact
+1bb8a1dd09154abdc35dee108bab9fbee18f1d71|2019-04-27|Michael Goerz|Add support for Python 3.7
+fed4a3b2ea3d481c5068ffe4618aee0b8e6413d3|2019-04-27|Michael Goerz|Do not use editable install on Travis
+ea25467ca9698258c57cde5c4eac6a5bbfac9ac5|2019-04-26|Michael Goerz|Fix typo
+ec26a36b74f041a6bcc63899d8b459d64b5bf144|2019-04-26|Michael Goerz|Fix 'make help'
+bdb1d6982f0269c85f4115c900c5504f8d9448e1|2019-04-26|Michael Goerz|Add flake8-check and pylint-check targets
+c369ce04afdea31e50b404cd458f9ef3037427a3|2019-04-25|Michael Goerz|Explain pre-commit hooks in CONTRIBUTING
+3106167c04428686df6a4a5b69eb719e2d7d905c|2019-04-25|Michael Goerz|Install pre-commit hooks
+01e7011bb7fb370ec2abb69a768953affaca61cf|2019-04-23|Michael Goerz|Do isort-check when testing locally
+c399511281eb869aaae4a9f5b641e880c53dec85|2019-04-23|Michael Goerz|Sort imports
+fc68108dc4b96901a9856f70ba41f4f398927b98|2019-04-23|Michael Goerz|Add requirement for isort
+c906dd4840273cbca5000f803a497a04e48a9d7b|2019-04-23|Michael Goerz|Reorder imports in conftest.py
+e9c030a6c4ec9e107db4327781170c0fd40daf5f|2019-04-22|Michael Goerz|Apply 'black' code style
+db254752fdf5244bf843c00fe0a4cd131f5817dc|2019-04-22|Michael Goerz|Fail Travis early
+52cc21a8166dc7e8b4d3b02a6e3a48abd72c82e3|2019-04-22|Michael Goerz|Enforce Black code style
+9ef994d5b12e9db3ac4a550367bc6641957d2d4d|2019-04-21|Michael Goerz|Make Objective.adjoint a method instead of a property
+cc95c9c3a715fef2450ee4cdb280ebe593836cfe|2019-04-21|Michael Goerz|Allow to use arbitrary objects instead of Qobjs
+91d6fe85ce5642752b6bd9baa8ad5d6c79965434|2019-04-21|Michael Goerz|Add linter configuration
+0bc286fe8745308ea643b4a1bc6fed90830ff081|2019-04-21|Michael Goerz|Fix links in HISTORY
+cd4ff18e828baf0fbc67de92930455349c80f4c8|2019-04-21|Michael Goerz|Overhaul of printing system for objectives
+290560f5469add8dfaed334d0095a0ee628c7060|2019-04-21|Michael Goerz|Recognize if target states in gate are basis states
+0eccd4485cecaf054ae43783ceb8ef4e67d3e10b|2019-04-21|Michael Goerz|Fix problems with copying and comparing Objectives
+d6512d5959b12a1044e182c13ca74fa42465f829|2019-04-19|Michael Goerz|Remove unused state_dependent_constraint parameter
+b9cd71789e9e5072c8e0458bf204d58e5bee1ea3|2019-04-19|Michael Goerz|Make summarize_qobj and CtrlCounter private
+00c1473a5809bcda4d23f766915bf5d736eeb6f6|2019-04-19|Michael Goerz|Fix links in README
+150cbc87bcb5eea9c251a6f2c583442bde5e671f|2019-04-16|Fernando Gago|Minor typos in examples 03 and 05
+f18b539b2cb5dcc4c757022b9b92ff68f71da5f8|2019-04-16|Matthias Krauss|Fixed minor typos in example notebook 08
+82f8f55f1e0f93a03c4efb380bc4ecb7aeebd98b|2019-04-16|Daniel Basilewitsch|Fixed typos in the example notebooks
+3ff6e7badc275a437119920586f33c3624a27332|2019-04-14|Michael Goerz|Update docs according to arxiv paper
+49a1042a529c0599f037a680783cdc3e5a93c2e4|2019-04-13|Michael Goerz|Fix plot_spectrum in example 5
+1cebe12c059a41148adb0f81ec213cb3621a4753|2019-04-13|Michael Goerz|Add HOWTO's for spectral an amplitude constaints
+3ac2529879dad7e89611a453833744affeca75e5|2019-04-12|Michael Goerz|Do not overwrite lambda_rwa_oct_result.dump
+ec90f9e23779a462ebdb24e4742ab0fc8b7a25e0|2019-04-12|Michael Goerz|Rewrite Example 5
+5d457e02137976acfb1dcd262c20de71c2747b1f|2019-04-12|Michael Goerz|Adjust documentation on J_T_hs
+86fbb20f7e7b2f6404f42840e43f0a951c7366a7|2019-04-12|Michael Goerz|Discard branch 'ensemble_example_notebook'
+6366c5f51207d25a75df0be64735c626e9bc30bf|2019-04-12|Michael Goerz|Rewrite Example 8
+fb974de390a0b7f8b5ab34f720274fa5157feda8|2019-04-12|Michael Goerz|Add H/c_ops to Objective.mesolve and .propagate
+6e14df1cdc31674afc757843b6ed2bf6d2598f9a|2019-04-12|Michael Goerz|Flush output buffers in standard info_hooks
+c76c97c7bbbbd6b2327c0b3b3c15eac990849a93|2019-04-11|Michael Goerz|Small fixes to example 6
+d0624127fa8de75510fe152e020398bff3a6e8f7|2019-04-11|Michael Goerz|Rewrite example 7
+992cb67c9ef00a8ecdf5a064d854888b82c0ade0|2019-04-05|Michael Goerz|Add HOWTO on stopping optimization if J_T < val
+a38c84d7353679f773d5c0d36b3c2c9bbbebae92|2019-04-05|Michael Goerz|Clean up example 4
+cb9e0e436c6042308179f01e6b987511a566708b|2019-04-05|Michael Goerz|Rewrite example 3
+16eb4278abe4b9b187a3befb0f03a403456bb82e|2019-04-05|Michael Goerz|Rewrite example 2
+10405487693c18d17789b3cd04b9483c17fa10ff|2019-04-04|Michael Goerz|Rewrite example 1
+96eb206f152f6677406a790e31769e1735513d0e|2019-04-04|Michael Goerz|Update to better-apidoc 0.3.1
+e1dba9a3c776dd581142538c41e6ae71c3de3fdc|2019-03-18|Matthias Krauss|Added references to the Tannor book for the illustrations
+2b1200c368998ee9562693ca38c8079c92286443|2019-03-18|Matthias Krauss|Added miss. png + added level scheme to 2nd ex. nb
+5b7d14c27221d0d2110287eef9df84f9d8c9ef62|2019-03-18|Matthias Krauss|Added ensemble notebook for lambda system.
+b5081dc962a87d9fb5845265ec78ab148fbc203d|2019-03-02|Matthias Krauss|Changed lambda_a parameter in 2nd notebook for better convergence
+fa7d144d18f5dd2d59748fbb615d37487a367beb|2019-03-01|Michael Goerz|Bump version to 0.3.0+dev
+fe52ca2521844ced3ea33fdbdb0d8d3e11279073|2019-03-01|Michael Goerz|Fix long_description_content_type
+247cec3ebfcfc03356e9f5e9e6964e6d53ea0174|2019-03-01|Michael Goerz|Reevaluate notebooks for version 0.3.0
+24de0bc31e422879e3cbca9c73c5ca41c21f0f26|2019-03-01|Michael Goerz|Bump version to 0.3.0 and update HISTORY
+0b106dd8badd251db10857a24610b31b17708fb8|2019-03-01|Michael Goerz|Remake notebooks as part of release
+d27dfe76ad185ae1e6d7a1b106cf96ca95924657|2019-03-01|Michael Goerz|Update TROVE identifiers
+acaa336642f6e7b190210177a59462d4499d6021|2019-03-01|Michael Goerz|Remove citation info from the README
+70da7f8af6630c1865f12cc30fe940f11d78b27b|2019-03-01|Michael Goerz|Add citation info
+4283cad566d7e7faedffcd0acf874f76acc6fe92|2019-02-28|Michael Goerz|Finish 3states example
+33a0662ac3e9d9c112cdff57df6215807b4a7269|2019-02-28|Michael Goerz|Typos
+d2500a649141765d439cc6c3d33afae42c884b15|2019-02-27|Matthias Krauss|Changed pulse shape back to default
+cb822911faf7a449e3b23e7f9e6f38ea6d9148cb|2019-02-27|Matthias Krauss|fixed some mistakes
+6a38cad9d368c47e7ea6039ff09256cedcf4963b|2019-02-25|Michael Goerz|Fix further file encoding issues on Windows
+3369d39ecd30c6651d9fe5041c954779ff3df7d4|2019-02-25|Michael Goerz|Explicitly open test-log file as UTF8
+1064847e2d4f5561fd6bfda55586eac5c5dbac26|2019-02-25|Michael Goerz|Test skip_initial_forward_propagation
+de8663e68b181b337f8150fdf56231bb2020f107|2019-02-25|Michael Goerz|Allow continuing from a previous optimization
+7979bf7dd1472bf7d5bd8d1f0610567719689742|2019-02-25|Michael Goerz|Add module docstring to krotov.objectives
+e5ea467b42b84c8842a88789c202a3864b599a6d|2019-02-25|Michael Goerz|Add parameter `out` to `print_table` info-hook
+d92274d196cdf58dc05e73c377b9bd4f1ccd3370|2019-02-25|Michael Goerz|Add parameter `finalize` to `Result.load`
+2eb36f608ebd0bafb1eacc584e6e5754ee04d6b3|2019-02-24|Michael Goerz|Implement 3states example with J_T_re functional
+d01b3f3b1315eb4716689181517c2d595f0feed7|2019-02-24|Michael Goerz|Add dump_result convergence check
+3a8a9927e85b6ace4b1192c1bd235b9d9f7bc9ce|2019-02-24|Michael Goerz|Ensure proper DensityMatrixODEPropagator interface
+e0bfebda5404ea98d496b44869618436f068fcb1|2019-02-24|Michael Goerz|Allow to specific precision for F_avg
+c5ff4a95bf092c3ce0880a356cae55533d7624f2|2019-02-24|Michael Goerz|Add 'reentrant' option for DensityMatrixODEPropagator
+fe7c7240b6b7090b176b96f7d6d2f6b96bc39816|2019-02-23|Michael Goerz|Update dump for example 3
+eddf627b9425b3013e81260f92020d33c2a1c8a1|2019-02-22|Fernando Gago|Changed freq to const in examples 02 and 03
+f74a592bd0e7b56e2c665709dc875341e27e0d9d|2019-02-21|Michael Goerz|Remove 0.0.1 from HISTORY
+855bce90f3be8f9c9506e4321759e27e163bc991|2019-02-21|Michael Goerz|Always discretize controls as float
+947b0d011098ef26d75fc0713ee6f02299147bde|2019-02-19|Michael Goerz|Typos
+7ef1f641e1281ba0078620f3260cbe0a042f64ca|2019-02-19|Matthias Krauss|Merge branch 'master' into ensemble_example_notebook
+758741c989776af0f133237585d4fb8ee83803c8|2019-02-18|Michael Goerz|Typos
+ac9222b07967a20ccf06248dac08d8de29038b74|2019-02-18|Michael Goerz|Avoid using "$" math delimiters in rst files.
+dcf6248c806ea8e83d7e6a78605d4f23a69cd46b|2019-02-18|Michael Goerz|Mention non-linear constraints with NLopt
+5e85e03f579627911b1eac149a6dccef487f2011|2019-02-18|Michael Goerz|Update statement of purpose
+af1a6b57698871ecaac710575b7ef17eabca318e|2019-02-18|Fernando Gago|Typos in Krotov's method
+64a73b6a46efcf9360d577f0b41ecabad8cdf357|2019-02-18|Michael Goerz|Link issues in HISTORY
+09136c33f84266f335d1226967aebea4c12561b1|2019-02-18|Michael Goerz|Fix overlap for non-Hermitian operators
+00dc050596ddc660bbc13ae4f9bece94e65ee99c|2019-02-18|Daniel Reich|Minor Revision to 06_krotovs_method.rst
+3114718a26493324082a105644643e19e163853d|2019-02-18|Michael Goerz|Rewritten docs section "Other Optimization Methods"
+0b0f3a53e7b858282272998551e6fddd12aaf7c7|2019-02-17|Michael Goerz|Link "krotov" package name to API
+19d8589c7017b7b082c92f779bccc27c29ffe612|2019-02-17|Michael Goerz|Move "Time Propagation" into krotov.propagators docs
+92c563d8275f06c298b1e7f0dde289add50d3199|2019-02-17|Michael Goerz|Update "Using Krotov with QuTiP"
+262aea39a9313083b26c8da1bb5c8bdc8dd9b757|2019-02-17|Michael Goerz|Rewritten docs section "Krotov's method"
+61c6c598d2ee85037efbea7e4654600befe5159c|2019-02-16|Fernando Gago|Change to J_T_re in examples 02 and 03
+4d6daa5e69dd198ac68be6b3dfbfb7eb45e0b4cc|2019-02-15|Michael Goerz|Define the interface for chi_constructor
+33a551fbab401d52c6733d446241ad8e50a800b4|2019-02-15|Fernando Gago|Change states to rotating frame in RWA examples
+6977828849d15ab59bd3b412a0fe9180d39f7227|2019-02-15|Matthias Krauss|Added tests for chis_(ss,sm,re) to complete #33
+272b56c11c61ecdd971fb722b62d9292dc59ceb8|2019-02-15|Matthias Krauss|Merge remote-tracking branch 'origin/master'
+aa91f3371ca8485452580b2eda443b916d0905a0|2019-02-14|Matthias Krauss|Fixed bugs in functionals mod.+ added tests for Js
+247d4066c83ee4923769b934486da9dae95f6879|2019-02-14|Michael Goerz|Reorder functions in krotov.objectives
+e8d1d3b38cff17705a48246cd5430bbc92847c83|2019-02-14|Michael Goerz|Remove docstring from Objective.__getstate__
+30db58e983363700b6cd77d064aed21a99bc188b|2019-02-14|Michael Goerz|Update main docstrings
+c7e4a4c32204d878d80e4385a8e53e0e53c3573c|2019-02-14|Michael Goerz|Add `value_above` convergence check
+1ec288beac7dd4519884e76c8449c380c8652617|2019-02-14|Michael Goerz|Bump version to 0.2.0+dev
+506da5bef77ee1c8366b20f6446830b5df67fd40|2019-02-14|Michael Goerz|Bump version to 0.2.0 and update HISTORY
+0ef067f6d2fd142d34168418e3006b3062bbbea5|2019-02-14|Michael Goerz|Update release script
+1e63caabdd6cf9963d177439285325011d019da7|2019-02-14|Michael Goerz|Update HISTORY
+e35121d5356c6be153ea04b8ce1b281cf65ff49f|2019-02-13|Michael Goerz|Fix broken link in CONTRIBUTING
+81f997f13f0d0113e1e5ca1fcb73287c7fb72dc9|2019-02-13|Michael Goerz|Fix Jiří's name in the References
+2e7d677c6e3eb8af486f87c685ef2070f7274211|2019-02-13|Michael Goerz|Use subscript k, not i, for χₖ, τₖ, etc
+74adcb2ac653fc5963c23c25da162c36e8a63cde|2019-02-13|Michael Goerz|Add links between Howtos and examples
+214ea2ad04e362b8a849cd3558f1f250e7a67a0e|2019-02-13|Michael Goerz|Fix equations for functionals
+b64f4d4cd445bbcd680f31dee428f52659230fc5|2019-02-13|Fernando Gago|Minor typos fixed
+b8dea5c7f7d7af5d314d15a9070b0c2db33de318|2019-02-13|Matthias Krauss|Added more functionals (F,J_T,Chi)_(ss,sm)
+84be3060284bbdb9879d8a566651ee70498781a6|2019-02-12|Michael Goerz|Test only the first three notebooks in AppVeyor
+359ed04acf4422205edcb1d6571247df354817b3|2019-02-12|Michael Goerz|Add a Logging howtwo
+725bb4890be74bcc966c72614702ab607d34e673|2019-02-12|Michael Goerz|Remove deleted notebook from CI testing also
+89dd3bda94a434ef77af7e31afb1a116ed77f79c|2019-02-12|Michael Goerz|Restructure docs
+7b6dff3669432d331442b7ba1739940cd7b9d65a|2019-02-12|Michael Goerz|Don't verify OCT output in 04_example_dissipative_qubit_reset.ipynb
+14e7a2f997032efeb34cb4e1798c20d35f85952b|2019-02-12|Michael Goerz|Fix notebook sanitation regexes
+69483f051d0d4337eb7704557b2e75b29126cbea|2019-02-12|Michael Goerz|Try higher precision in DensityMatrixODEPropagator
+aafc591b12cb29fc77547d303603eb7b21f5cbf2|2019-02-12|Michael Goerz|Store fw-propagated states only for second order
+890cb5665dbdb8092bc832869a069ffb32505675|2019-02-12|Matthias Krauss|Did some improvements and fixed a bug in the Hamiltonian definition
+9e6b7cf45a3e3ddbdb9192d2c9824b8a7e1f9fa2|2019-02-11|Michael Goerz|Calculate ∫gₐ(t) dt and make it available to info_hook
+e223e458ff8464ef74fdf7565d54889f885f2cd5|2019-02-11|Michael Goerz|fix typos in Krotov's method overview
+29b4505abef027839c9ff9c005e6160b7b1ba4cd|2019-02-11|Michael Goerz|Return times/expvals from propagation as arrays
+cc544a7de6d5ea27fe7eb7c9ff4badde6077d3bc|2019-02-11|Michael Goerz|Allow MathJax error messages to be shown
+01e0827d66287e06bb23054d8bec847a31e9675b|2019-02-11|Matthias Krauss|Merge branch 'master' into ensemble_example_notebook
+09fa038de9339dd5c6d38f16618625dc71c1e72e|2019-02-11|Matthias Krauss|Minor changes in ensemble nb + added state propagator
+3624ab7782e3fe4abc465e3a0a19d88336f69677|2019-02-11|Michael Goerz|Merge branch 'doc_revision'
+aa2a0bfc0513a7a3533b6698628e771a81fab4ef|2019-02-11|Michael Goerz|Add statement of purpose
+a8f16e75f06e91c3cae7edb8edb834f412cab2a6|2019-02-11|Michael Goerz|Fix both the cheat sheet text and link reference
+479d306b190ecfdf58986837e43fb6412bd77f41|2019-02-11|Daniel Reich|Reverted "Cheat" to "Sheet" to avoid broken link
+01e619ffbb5fd194c710b5cb126c3d3bac865bf9|2019-02-11|Daniel Reich|Added references for 12_howto
+2c7b82d1cb4f2430946b383f1c2684ffb349ff36|2019-02-11|Daniel Reich|Update 12_howto.rst
+eedfecf681c68a293d08572d25eba3d5f031c994|2019-02-11|Daniel Basilewitsch|Decreased printed digits of OCT functional
+2784318a4848b51d0705dcf59d609e890381ea0a|2019-02-11|Daniel Reich|Revised 10_time_discretization.ipynb
+e6dd418b699a5fa4e1966e674055a31ffd6178f7|2019-02-11|Daniel Reich|Revised 09_propagation.rst
+081482b7c60c41ebe3ed88873cd11f7d8be46dc0|2019-02-11|Daniel Reich|Revised 08_grape_crab.rst
+641afea3a1fd9224ad14df1ddff1b197c641e74d|2019-02-11|Daniel Reich|Revised 07_qutip_usage.rst
+90b91553c6afe9ba5b3afd0efd65cf1846fb88d7|2019-02-11|Daniel Reich|Revised 06_krotovs_method.rst
+5f9d42817b7a5ccc46b8c83fbd0c0512ceb02ff6|2019-02-11|Daniel Reich|Added ReichPhd2015 to references
+b752daed6009414979ba2eb0c0d6a6b31f24ef53|2019-02-11|Daniel Reich|Revised 04_features.rst
+8222f1c2c645827f2d4c3c221eb989677071a453|2019-02-11|Daniel Reich|Revised CONTRIBUTING.rst
+2f32c178f1c71277d93791730319d6239528c128|2019-02-11|Michael Goerz|Extend Howtos
+9f2fcd37c8f940846cdd0d224521efff30585845|2019-02-11|Michael Goerz|Add example notebook for 3states optimization
+023341a7c84cfe152cc0adbf9b61bd24bd90e171|2019-02-11|Michael Goerz|Finetune sanity check in F_avg calculation
+08a3e95943cae70ab5f7f4e7550b4c8c92dc1381|2019-02-10|Michael Goerz|Implement optimization functionals
+c8f6dcf80661e94f8f63b7ee6c6bd6f1521b0891|2019-02-10|Michael Goerz|Update notebooks for corrected shapes
+d5007d35c4eecebcb76940d91705138a9bda9d98|2019-02-08|Michael Goerz|Fix DensityMatrixODEPropagator not going through IPC
+c9f3feb62cc2cda483f841483735bf3e3146b26a|2019-02-08|Michael Goerz|Avoid rounding errors in initialization of shapes
+497842e740959b20abe5c681f058a8343ba5feaa|2019-02-08|Michael Goerz|Don't crash with info_hook=None
+d1369856d9bfedf89f8da98f138eaad17a664e21|2019-02-07|Michael Goerz|Rename PE example notebook to make place for '3states' example
+8a56a910c8704741eba711bf08df9741a4580ad6|2019-02-07|Michael Goerz|Add some comments about _initialize_krotov_controls
+85b40bf500545cba78253b3bcd4c1d7bd3c66101|2019-02-07|Michael Goerz|Implement "3states"/"full"/"d+1" initialization
+1e89ec697f777b3866bf698f4053fc1447b7deae|2019-02-06|Matthias Krauss|Merge branch 'master' into ensemble_example_notebook
+d9b4e231706c12fb3565c0bf069040e1e067d4ea|2019-02-06|Matthias Krauss|Minor changes
+af75f96aa67e34473766e17953a83340e58139ce|2019-02-04|Michael Goerz|Format J_T properly in 04_example_dissipative_qubit_reset.ipynb
+f3ccbab502c7659453809a977895ce9642b616b3|2019-02-04|Michael Goerz|Show slow tests
+36b59aa86907c7ee700c4ed02e52c28cc0e28816|2019-02-04|Michael Goerz|Refactor _overlap
+af2334c12cc85ca02cb512deda984f26697ff332|2019-02-04|Michael Goerz|Add DensityMatrixODEPropagator
+b2818f944c6bad3e691bda0f29949f8eb2f19986|2019-02-04|Matthias Krauss|Minor changes + added additional explanatory text to notebook
+a1d6c47afd84d83a757acf05bc9ef1bf6235dfe8|2019-02-03|Michael Goerz|Allow for stateful propagators
+741556b29a2776ca14582bc98fe598e3f6f822db|2019-01-31|Michael Goerz|Fix test with over-precise fidelity comparison
+01bf62e5f627f5017d02ed409d62ebd2835b44b1|2019-01-31|Michael Goerz|Explicitly use utf8 when opening files in setup.py
+7459b07a308e24fbf75b4a05abd4684232b40456|2019-01-31|Michael Goerz|Merge changes to 05_example_transmon_xgate.ipynb
+7458eb81710ff958744f1744927765b1c58b4150|2019-01-30|Michael Goerz|Implement and document custom parallelization
+b594b47c22c19613e56f4f0f71dfd59f4770c7c5|2019-01-30|Fernando Gago|Minor improvements to X-gate example.
+f1082fe129abd609ecac25e57e0737066a599cd7|2019-01-29|Michael Goerz|Strip legacy jupytext metadata from 01_example_simple_state_to_state.ipynb
+fd1e6ef645871172d91c22eed5e43fd77b455df6|2019-01-28|Matthias Krauss|Merge branch 'master' into ensemble_example_notebook
+e34005983f3261b5154a349142f17fa3276a870e|2019-01-28|Matthias Krauss|improved notebook, made single optimize work and added ensemble opt.
+4cf1eee783d1f4a0c8fad95983b4e0b5ad664ecb|2019-01-28|Daniel Basilewitsch|Slightly improving documentation of the PE example
+8971be1b200b54c0aebee8082b8f007f0b7452ba|2019-01-27|Michael Goerz|update HISTORY
+70a7322e3561dbc110a258847c9d53b93f646e5f|2019-01-27|Michael Goerz|Remove "second order" from missing features list
+3ff0bc3b9a4d591ec699a6b3e92ba41f7fd10bc3|2019-01-27|Michael Goerz|Remove PulseOptions in favor of simple dict
+dc6efc88a8e9980d6397837ad1b5724d0d9ee668|2019-01-26|Michael Goerz|Merge second-order update implementation
+f34802e6dcce382b5cd9ad809cfb3a87b37cf68d|2019-01-24|Michael Goerz|Encapsulate second-order sigma
+9fe83c2e35a38ee0b9df50577cb16fd1dc570357|2019-01-24|Matthias Krauss|Further improved ipynb for #11 (+added some notes)
+a03b6125215d6635a6dcd07bf5ef4db05b188410|2019-01-23|Matthias Krauss|Merge branch 'master' into ensemble_example_notebook
+f1feda5813fa8a295ade374457a709d7fe6fd1f6|2019-01-18|Daniel Basilewitsch|Made the PE optimization using second-order Krotov
+01578dfd44cdf0d270def9752be7d44ca2bfcff9|2019-01-18|Daniel Basilewitsch|Implemented second-order Krotov update
+9c329bbfbce5d2beb93d4a4ee1e441754abd635a|2019-01-07|Michael Goerz|Add comments to PE example notebooks
+237463336a26fc6de6ee68add139a11e14495a55|2018-12-29|Michael Goerz|How to make  `git diff` work for notebooks
+bdd2e94b1d168856a7d219e6e684d0f9b526d67c|2018-12-27|Daniel Basilewitsch|Added first version of PE optimization
+64b636e871d355e352dd57fcb674a0d7edfecd10|2018-12-26|Michael Goerz|Do not require releases to be from master branch
+2080199d9598d6bd425005e5359b06c48e61a160|2018-12-25|Michael Goerz|Improve version checks in release script
+22732a68999b5b212285111f5f2a702782f13575|2018-12-25|Michael Goerz|Extend documenation on Versioning
+b7e12a00d633de1371082397a9f905246ab23ad1|2018-12-25|Michael Goerz|Bump version to 0.1.0.post1+dev
+ef7b5aa701aaee9708e9017b9acd96c5a7b6f9de|2018-12-25|Michael Goerz|Smarter get_next_dev_version
+2d68e2fde82c108de759c25d3a76a2385a95768d|2018-12-25|Michael Goerz|Use 'v' prefix for release tags
+bbfa20f73c8da390b191973bf6b1c4c113f95b7f|2018-12-24|Michael Goerz|Bump version to 0.1.0+dev
+33284bb16303c7b3558fc7fdf66c0090d42ccd45|2018-12-24|Michael Goerz|Bump version to 0.1.0.post1
+6aa2b0b59cee0a464bd5b5aa6c3725093d24d2b4|2018-12-24|Michael Goerz|Fix 'make release'
+db7803960c0d0a2d32eb1cef2ca7324fbfb99195|2018-12-24|Michael Goerz|Remove note about placeholder release from README
+a02b4e7cd201247bf700191e25977136fa7e380d|2018-12-24|Michael Goerz|Bump version to 0.1.0+dev
+ff241cf400abdd25768b5095482b5ff666a6cb86|2018-12-24|Michael Goerz|Bump version to 0.1.0 and update HISTORY
+eb1c8e0a4ac3e2ec27019d7571c1336860438a68|2018-12-21|Michael Goerz|Add 'make-release' script
+5157c05655aca898e34831a6d66f8da554b30c23|2018-12-23|Michael Goerz|Add "Versioning" docs
+1e2d359bda6675374c38a93babfeb325c6fcdb75|2018-12-23|Michael Goerz|Update docs (features)
+ec89af7b72a0138b63492d74fc9fc0b359f5fb7e|2018-12-22|Michael Goerz|Add some HOWTOs
+f1420785954f98b9b54f73f4b73df20da2b457c9|2018-12-22|Michael Goerz|Review notebook (comments)
+701c4c021210699ba571e73e8609d9ab72c57a73|2018-12-21|Michael Goerz|Tweaks on 05_example_transmon_xgate.ipynb
+1f4dc1070cda7533b950a1eb091644d8960f7ad5|2018-12-21|Fernando Gago|Documentation for gate example
+61d52164220f416ba6ce34c321e8d5465cec1f92|2018-12-21|Matthias Krauss|Added frst, unfinished version of the ensemble nb
+3a88226357cd798d760417a92dc3e24ad55d2a29|2018-12-20|Michael Goerz|Raise NotImplementedError for state-dep. constraint
+cc116c260be4981c03c9139661652d09576c5f64|2018-12-20|Michael Goerz|Add dump/load methods to Result
+fdb949285c97a923d46bc05d92ebcdbd9ff88228|2018-12-20|Michael Goerz|Add modify_params_after_iter routine
+24d6dbc20ef53a071e4d7a72f9f42410d4905c09|2018-12-20|Michael Goerz|Set proper target for PE/LI optimization
+3175224b9d2a0a9a441c0d3f2a844be38acebeb0|2018-12-20|Michael Goerz|Rename `Objective.target_state` to just `target`
+8f60d855cf59b4d95c6a2e559346f6ce8e9f3b3b|2018-12-19|Michael Goerz|Update Trove identifiers
+a050ee3290527bc350ae6621fc2c5ef76389e891|2018-12-18|Michael Goerz|Refactoring/reformatting of result initialization
+86dc57cf8b872f7783029fe2d91683c0d0a7fb42|2018-12-18|Michael Goerz|Extend `gate_objectives` for PE/LI optimization
+b7862a9d5a89f497dcc20e10cf8ddf2e4ced4e10|2018-12-18|Michael Goerz|Use `twine check` to prevent broken metadata
+4ce82db6b55be49cee48dc8dd4456886520596e7|2018-12-18|Michael Goerz|Raise NotImplementedError for second order Krotov
+a08f1f2e388ec4125e99c8cd423a2fd50772411b|2018-12-17|Michael Goerz|Only allow keyword args in print_debug_information
+6d783b98941a048de8ffd00c5148a6de5a3501b5|2018-12-17|Michael Goerz|Remove PulseOptions.filter
+9f874587323f6282d3c10e40a6667920c7b30439|2018-12-17|Michael Goerz|Implement check_convergence
+0204410d02cf31cadb48e6604a12ad3c38f7087a|2018-12-16|Michael Goerz|Number rst files and notebooks
+f95d7aff313c9821e74263dfc93e5e5a480cd8b1|2018-12-15|Michael Goerz|Patch readme.rst from conf.py
+5845a43de6eba18ef66d728ad1e5689f8711d8ff|2018-12-15|Michael Goerz|Use a patched README within Sphinx
+9db0a139839d09605d175e6c81a696a614222d6a|2018-12-15|Michael Goerz|Don't use relative links in README
+a491486a88535ebe7df55dd8ec541926a26c085a|2018-12-15|Michael Goerz|Pin nbsphinx < 0.4 for RTD
+ebf85960cad0393ed3f0650bbfaa330eac2431b1|2018-12-15|Michael Goerz|Raise NotImplementedError for check_convergence
+f0028b536cb43c4254eb1b8d89b4fd8ae029f6a4|2018-12-15|Michael Goerz|Rely on Qobj being a callable, in lieu of _apply
+d9cd2c84f7f4b8bf9516ca5a4e6ee20f1c2d9aad|2018-12-15|Michael Goerz|Allow target_state to be None
+a3e80346412801f5dd940f18eb46031dd77d7e20|2018-12-10|Michael Goerz|Add ensemble_objectives function
+8e9cfb965b42e7f91599cd9a05ba8607942a8762|2018-12-09|Michael Goerz|Don't document attributes as ivars
+fd6997455ca765c1a663d1e20bd2e174cddb5963|2018-12-09|Michael Goerz|Remove parallelization submodule
+333112223bc3670806aea509a61bfe12a6c98d7f|2018-12-09|Michael Goerz|Remove Result from top-level public API
+8986b1fd624de87ae1b9ada01ffcbd5dba0541a7|2018-12-09|Michael Goerz|Show results of non-Hermitian example after 2000 iters
+4a51b7cd221ee530b9bc69a1ed7b7b117432c445|2018-12-08|Michael Goerz|Ensure that OCT Results are serializable
+197c5b74c0ca6223a24e6353fc080f075661fa7b|2018-12-08|Michael Goerz|Fix how 'chain' combines info_vals from info_hooks
+e6c3da1ee58ce4f7a7f974e6cee790b51e2cf5b0|2018-12-08|Michael Goerz|Change Pygments style to 'friendly'
+fa7a1a78655bbba4598018d815504746e70a2adb|2018-12-08|Michael Goerz|Fix MathJax configuration
+3cfc4137f3f0218f1ed3a34c87ef4d8f587435df|2018-12-07|Fernando Gago|Minor modifications in Hamiltonian and initial parameters
+1ed9a28518f30f838a2a88e2a04d8047cd5b5d45|2018-12-07|Fernando Gago|Issue #9 Example with non-Hermitian Hamiltonian
+c5db18f0e819404347e61f1b3586fbaf8a0c06b1|2018-12-04|Michael Goerz|Avoid invalid latex macro \Tr
+32aa41a398d0452488a094e1731126b9957b52ae|2018-12-04|Michael Goerz|Update Mathjax
+67e0d79ebf10309536a98d98b637f15e0af3122d|2018-12-04|Michael Goerz|Fine-tuning of #3 example notebook
+a60be59fbcd97c92dd080ac9751e869af1093f08|2018-11-30|Michael Goerz|Mention dependencies for notebooks in README
+47aa3c10c0d564cf1943a1cba97da8be9fe6bd1f|2018-11-30|Daniel Basilewitsch|Updated and fixed documentation
+58bf559961c9248f095c9dadc24f81751faf5ee6|2018-11-30|Daniel Basilewitsch|Minor changes in documentation
+596c226aee5ce199f31141ec173a9f41ae66b3d6|2018-11-30|Daniel Basilewitsch|Merge branch 'issue22'
+986fa18bbc66667233a6de0a226d9462a6be2f7e|2018-11-29|Michael Goerz|Fix typos
+eb7a22512337a4462f4480bb2d247312f870b0c3|2018-11-29|Daniel Basilewitsch|Finalized example for dissipative OCT
+07eb9ea46c5ca44143b0479b173a0cffb5def583|2018-11-29|Michael Goerz|Fix bw propagation under a Liouvillian
+c7907273bb31b4baae0138ab4afb0b6ebd955760|2018-11-29|Karl Horn|Modification to example lambda system: Discussion, guess pulse and plotting
+50689e13ca4cda2e642db7ed55ba08f0beeb045f|2018-11-28|Karl Horn|Issue #3 initial example of lambda system with rwa and complex pulse
+f3bca880bb62e88277b3af75b571a7a7427f7481|2018-11-28|Daniel Basilewitsch|Changed functional and extended documentation
+b4d73e0aad5de966660b46d1b91202e8597abd8b|2018-11-25|Michael Goerz|Handle Liouvillians in derivative_wrt_pulse
+f4843a5f1e318912e458b4f66ad345bc70825f7d|2018-11-25|Michael Goerz|Make mu in optimize_pulses user-supplied
+d0165a833afce871d98b14bdedb7a1009904982a|2018-11-24|Michael Goerz|Basic support for propagation of density matrices
+1c757acf49466a04d981c66e56f55161c6244a64|2018-11-24|Michael Goerz|Allow to generate docs outside of git
+97c81c8317748de2a775ff357a5ccdd7bf4244eb|2018-11-23|Daniel Basilewitsch|Added physical details for failing example #22
+e3eeb67e7f7a9aefe8fca8601e4fc0b16a82f2a4|2018-11-22|Daniel Basilewitsch|Added failing example for issue #22
+645cfa378901acdd006cb977faceedc545ecad75|2018-11-21|Michael Goerz|Add 'make spellcheck'
+3c5e9cd4719fe3dfcc142760f88e6c6f32328c9f|2018-11-21|Michael Goerz|Add gate_objectives function
+a80fac42c8b01bf6b1d861e2322c155239a44323|2018-11-20|Michael Goerz|Require real-valued control fields
+e3cb04426a6915665da453dd951f9b67fa272160|2018-11-20|Michael Goerz|Use conjugate pulse value in backwards propagation
+656ec9196285765c174373737b0d94a250c1d0dd|2018-11-20|Michael Goerz|Finalize example_simple_state_to_state
+beb8ceda1a841cea331bb400ee58489cd6f5d2d5|2018-11-20|Daniel Basilewitsch|Fixed bug with non-Hermitian control operator #19
+c8d0f09ea18cb62bb52a04b1ac5ce2865757fc35|2018-11-20|Michael Goerz|Add print_debug_information infohook
+b1df78113b05ce6a20a3df328ccea0926fb01dfb|2018-11-19|Michael Goerz|Properly discretize optimization shapes
+ead9e5cbf61bab7112e9fcb6b69345ff79f80dca|2018-11-19|Michael Goerz|Clarifications in notebook for #19
+c855e926b59982630412ffe188807bc5242cedeb|2018-11-19|Michael Goerz|Add note on how to commit failing tests
+29b36ddfb3bbd2617337fb0df0eacf8c263f0e4e|2018-11-19|Daniel Basilewitsch|Improved example #19
+df98b0e1f73f31c45d9058216cab16d6a3b98828|2018-11-19|Michael Goerz|Update tex macros and documentation
+2014e43ae831abd6f2de8caa6a08eaef22ed7c16|2018-11-18|Michael Goerz|Exclude ipynb files from dollarmath plugin
+5263693be4d26c07f9464bd6523011958ffdfb7a|2018-11-18|Michael Goerz|Configure mathjax through sphinx conf.py
+e584070678590d498389d6df546e06e0cc17d7a0|2018-11-18|Michael Goerz|Rerun example_simple_state_to_state.ipynb
+1b9182e6dce60dc99c58cec006fe6649e91def07|2018-11-18|Michael Goerz|Eliminate Sphinx warnings
+f2ec03e1fe4a7c354282da2ecb21027de3399b89|2018-11-18|Daniel Basilewitsch|Added first version of test for #19
+dcb130551540bc7b12bb11e6d1bda05f2e506d8a|2018-11-18|Michael Goerz|Fix discretization of guess controls
+c8d8a0e805f820532f6d91367a5ee1dc066fa515|2018-11-18|Michael Goerz|Add test illustrating #20
+4dff23fda01fa90fa1a1b8cf7c694ff0b9971b9a|2018-11-17|Michael Goerz|Open nbviewer/binder in new tabs
+877c339f0883b3cc4dd30dc350c29b0f8a4467e8|2018-11-17|Michael Goerz|Add nbviewer/binder buttons to Examples page
+a5b2dd2b62ba11381f1cd5e583362f7d52c999fe|2018-11-17|Michael Goerz|Explain how to use topic branches
+9a348b6793ec9481171228ffc08effa6ee7e4111|2018-11-17|Michael Goerz|Merge branch 'binder'
+0de09e0030c8eba1715921eb138a56fd04527a13|2018-11-17|Michael Goerz|Reference binder button in docs
+17255c82eec9851e2a453618290a15967c353843|2018-11-17|Michael Goerz|Binder reqs in setup.py do not seem to work
+0e6ca1f1d75321913c9df13b948dccdc7ea826a8|2018-11-17|Michael Goerz|Add Binder buttons
+2b2a431c0413ec2470686b242d71319504c054e8|2018-11-17|Michael Goerz|Define binder requirements in setup.py
+f9c520e3afd4d76771b27fd24d72ffdaaddee052|2018-11-17|Michael Goerz|Move binder configuration to binder folder
+28a17191e8cbebbf61781ef6956c1c16d55ff173|2018-11-17|Michael Goerz|Simplify environment.yml
+1697407d95a068e6cfd2d36bb0e66bc3a635fc82|2018-11-17|Michael Goerz|Add environment.yml
+c4591cd433754a58008ff50397d130747c4d489d|2018-11-17|Michael Goerz|Add documentation about time discretization
+e0bfd035e7414da7a8cd7b0fd3dfd77c3973d94e|2018-11-17|Michael Goerz|Use sub-sections for Developer's How-Tos
+5cf21c26af40ef5b8e824d1b3729772b489259aa|2018-11-17|Michael Goerz|Merge branch 'nbvalerr56'
+714cf1aa79c843b529b912f5b6c6920db5f0337d|2018-11-17|Michael Goerz|Restore normal travis configuration
+b99f3013a3287c54d103e9cba3e4f4a10c0c6b45|2018-11-17|Michael Goerz|Added conftest with a workaround
+00a64a5f90c8797142ce8902c2b8f452362b9921|2018-11-17|Michael Goerz|Attempt to isolate error in Travis build 56
+09f47e1a6d1137a724d92b6194dcdd3cd1b522b4|2018-11-16|Michael Goerz|Add optimized_objectives property to Result
+ab964b537d5c18eaa65d6eaa71c2d27aca1f44c1|2018-11-16|Michael Goerz|Work around QuTiP issue 932
+35efc3f01213da09afba33aebdb3bc3a28496f0a|2018-11-16|Michael Goerz|How to convert notebook to a script for debugging
+f9f8d89c37524f46122f1cae125622164b90c9ef|2018-11-16|Michael Goerz|Add mesolve and propagate methods to Objective
+cf8a6908bb2235d843122ec06a15a8f3a7ff9ae5|2018-11-15|Michael Goerz|Allow to run jupyter server
+2c082607864a5bd0a4747b931dfaa3b0fbc313aa|2018-11-15|Michael Goerz|Explain how to close issues with keywords
+e1893da1a27e6d745626a3755eec037b9b826753|2018-11-15|Michael Goerz|Explain how to reference Github issues
+63be5d31af90853ba344059334d22ffd81ae890b|2018-11-14|Michael Goerz|Revert example notebook
+262ecbf737fc2ca6dc47ab2a3560d8aebc4a7757|2018-11-14|Michael Goerz|Update documentation
+e6bc53141d31e54135e8bc5f001ddaab671c943f|2018-11-13|Michael Goerz|Rearrange docs Makefile
+c386e79ab65b96e69733721d57700dc0ad585b35|2018-11-13|Michael Goerz|Add Matthias' email address
+668dccdf8c885d2f8addd0e453e5c235717b1509|2018-11-13|Michael Goerz|Install QuTiP from conda-forge for RTD
+08f47d448cdf5badcec8b964e7dc0c10383e265b|2018-11-13|Michael Goerz|Don't install anaconda for docs generation
+bd16181b0057e82bad776587c97cac84b3b14317|2018-11-13|Michael Goerz|Add figure for krotovscheme
+d2f54d1bcf62e4eab4b36ab5bf77305bc097a81f|2018-11-13|Michael Goerz|Rename propagator_expm to expm
+3eef31ec9e9f96824a05c64f4e51f723791e3ca5|2018-11-13|Michael Goerz|Add some basic documentation about the method
+3c56dc25038d2405feeb12cfdb6db4eb57b65ccf|2018-11-13|Michael Goerz|Add Fernando's email to AUTHORS
+e6d239ba59b47c97376d369c63724f75c6668ea0|2018-11-13|Michael Goerz|Flip sign of dt in backward prop
+8563bff7f93548d23b5d0aea7693b96ade66e432|2018-11-12|Michael Goerz|Test notebook on AppVeyor
+1935f5c8926d03ebee5237d57969f5dfa46a36da|2018-11-12|Michael Goerz|First attempt at full Krotov implementation
+2d2a5c3f762d8b5d41ac5a7ee557c58639797bb3|2018-11-12|Michael Goerz|Get coveralls badge from shields.io
+cc7e52ee106727f0a2237f2670d4e85d08d9074f|2018-11-11|Michael Goerz|Add adjoint objectives
+1f6ee61e9990bf89733a2fb23fe241b5aaf6be53|2018-11-11|Michael Goerz|Add submodules for functionals and propagators
+68d992c99cf1319ff32877752a5d0c3eac3c8150|2018-11-11|Michael Goerz|Implement plugging in pulse values
+4626609a8095d162e85f17f38c886fe734511a34|2018-11-11|Michael Goerz|Improved structure of `extract_controls_mapping`
+2cba7838c06907a908f724574f1e4025ab9f2122|2018-11-10|Michael Goerz|Tweak structure of Result
+69cc666aeab18cda2c0db78fd9a88d5119175af3|2018-11-10|Michael Goerz|Describe prerequisite installation
+9f3d721e5ea2d39b1e743898f7f2226e5a79c32b|2018-11-10|Michael Goerz|Move zero_shape, one_shape into krotov.shapes
+7f3d3442f17003e5a7a62c39fcd892cfb29dbdaa|2018-11-09|Michael Goerz|Add validation of oct pulse shapes
+f3ccf33b865498a3caef941af435b4ecf3b7d06f|2018-11-09|Michael Goerz|Restructuring
+73a416a62dc9f68adcd4f27b36dba7038153bb5d|2018-11-09|Michael Goerz|Extend _extract_controls
+295d4a9fac39988b741303eb86bcba8a1880f2e6|2018-11-09|Michael Goerz|Add functions converting time grid of pulses
+44d5f26d837dba5308a4947da17d716ad980df22|2018-11-08|Michael Goerz|Add test for extracting controls
+4185ea8a39932f7ec26e6e3b2cb6e976ba7d184f|2018-11-08|Michael Goerz|Add PulseOptions
+7362ca00679622ab05784b15197c11108c8f6585|2018-11-08|Michael Goerz|Add some shape functions
+dc77271dc016d04c7716a9831efaf62ae8eecfd7|2018-11-08|Michael Goerz|Rename functions/classes
+a3f26d63e702b25786a1010c48f8729e1906a58c|2018-11-08|Michael Goerz|Define some 'extra' packages
+f31f2b31fbb12de608f2f1e3ca0d00ff47f816d0|2018-11-08|Michael Goerz|Don't re-execute notebooks unnecessarily
+abffeab48e0e4f3b33bed266d5fa5b6d170701bd|2018-11-07|Michael Goerz|Add AppVeyor badge
+b9b599e1ac9290830bccb8104099e391ce393882|2018-11-07|Michael Goerz|Add AppVeyor configuration
+761881a55b8b5fdf1f761f2ec34f3e82317a3697|2018-11-07|Michael Goerz|Instructions for adding example notebooks
+38c5ff076afa77dccc2e7326ecb1bd8b5ad359d3|2018-11-06|Michael Goerz|Add 'notebooks' make target
+61819354c74352c1d631a160b3a3b9e774652a44|2018-11-06|Michael Goerz|Update RTD environment
+af5e2200452d9362d176fb5c7d1d105bc4c31a62|2018-11-06|Michael Goerz|Add nbsphinx extension to render examples
+b494d0c85623af57300960175257ff6acb386497|2018-11-06|Michael Goerz|Include notebooks in automated tests
+8067fbae4fbdf0c9476070ca5535f99584a88256|2018-11-06|Michael Goerz|Add badges to docs index
+291f4e179936067657280f9d58a04957d5b47486|2018-11-06|Michael Goerz|Add Examples to docs
+82cc0e598e2f807060ccfbedb1d50654d9e71759|2018-11-06|Michael Goerz|Add example notebook
+95cea16afe77595801ae362db1486212c23c637a|2018-11-06|Michael Goerz|Add Karl to AUTHORS
+b1c8ee356d0e37d845cbf0896ac99f12d52282a0|2018-11-06|Michael Goerz|Typos
+deec0197ca950e147a983aadac193864a8e9b8cd|2018-11-06|Michael Goerz|Remove useless docstring from __init__.py
+1353d06a75e296084290f4b50f5c6959fb0d6511|2018-11-06|Michael Goerz|Explicitly link to the documentation
+4c02a908618d9ab41f8e2b4c40d3257b10da15d7|2018-11-06|Michael Goerz|Move gitter badge to top of README
+569d880f19ae1eca2a67fe96534d1ed2772e2b09|2018-11-06|Michael Goerz|Merge pull request #1 from gitter-badger/gitter-badge
+44a79cb69e5b9c69344b068c0bc7a2169077a4c4|2018-11-06|The Gitter Badger|Add Gitter badge
+a772c6d012c1a46a5879d22136aae217b7b7db32|2018-11-06|Michael Goerz|Activate Travis
+077685a10d8b4105af6b38b539393b151b942788|2018-11-05|Michael Goerz|Initial commit

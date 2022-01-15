@@ -1,0 +1,1154 @@
+c8b954abd1fd0a9f1a2e8fb98efed700f2ff75bf|2020-07-21|TysonRayJones|regenerated doc (for v3.2.0)
+c5a850afe646f29e285c78931cab4dfed0640fa5|2020-07-21|Tyson Jones|v3.2.0 merge from develop
+ed60618af6235b766400e9600edebba33c64b4cf|2020-07-21|TysonRayJones|patched GPU release build (by SachinCompton)
+21acf38a5ed64736dce3b1eca2ca06ee0ed2b925|2020-07-21|TysonRayJones|removed superfluous const
+5c8d505366bc90fa973f0fb3d8f2270614dc87eb|2020-07-21|TysonRayJones|optimising multithreading
+132c3a63a5f5e133bb3e610788d0cb66cc99caf5|2020-07-21|TysonRayJones|skip longest unit test in CI
+eb71a95d4cdc4158b214f9c42f24adf0790a0ac8|2020-07-21|TysonRayJones|updated doc (exitWithError to invalidQuESTInputError)
+ec9871bd57fe8c859bd68a1a5c284b2b7e9ffee7|2020-07-21|TysonRayJones|patched gcc-9 openmp (by zv-io)
+bedb8426cbf2d0de61fe588c310dc0bc004abbaf|2020-07-21|Tyson Jones|Merge pull request #258 from QuEST-Kit/diag-op
+7cef01c1ace69b34a6553c08cda4f0681a849e11|2020-07-21|TysonRayJones|patching leak in unit test
+acc5a445e43995dc4c07c822391f69500d59920d|2020-07-21|TysonRayJones|patching GPU build
+167ecf1dd8567013d249cc1d36c083f351cd319c|2020-07-20|TysonRayJones|tweaking tests and doc
+87de09f619a415d8a56900b5d8da2c4df7309d34|2020-07-20|TysonRayJones|added unit tests for DiagonalOp
+84b93f38908a7fca47acd18ecbe01118edca4fe2|2020-07-20|TysonRayJones|small doc and formatting patch
+2339deefe9088ff4f0bc18aff30c67c6a834cc15|2020-07-20|TysonRayJones|added calcExpecDiagonalOp
+763c33b00d2586051d6bc1f3e8fbb38e7500e57c|2020-07-19|TysonRayJones|added applyDiagonalOp
+0d8ff257d329c871c012d7ff797cf35a3108d4d5|2020-07-19|TysonRayJones|added DiagonalOp modifiers
+6d0dfd7e1b4593ba802bf4983362a15a7d5a65d5|2020-07-19|TysonRayJones|added DiagonalOp
+d0113521a9a1f96bd26a4fcc42189852fcbcf06f|2020-07-17|Tyson Jones|Merge pull request #244 from QuEST-Kit/hamiltonians
+89ebf1c4709cc05d4f0a07a2d02d5e1ef17ff52c|2020-07-17|TysonRayJones|patched tests for Ubuntu
+f1d8fae74c2845b6127f43fc802c7ecaf197fb8c|2020-07-17|TysonRayJones|fixing conflict resolve artefact
+3e4d03373da9df71d20b3dae29048ce3dab177ee|2020-07-17|Tyson Jones|Merge branch 'develop' into hamiltonians
+53ca12e9e1bbd9cf25854e91f3027d727923a45d|2020-07-17|TysonRayJones|added unit test for applyTrotterCircuit
+5f4b92bf0f80c3675f7848b6fc6e278ce9667f4b|2020-07-17|TysonRayJones|added initPauliHamil (with test)
+e857badc30e88944cbee8a66cec6ccf24b17d3d0|2020-07-16|TysonRayJones|added unit tests for PauliHamil functions
+6228ee5334740a31f645b0425e494fa3d2e4b711|2020-07-16|TysonRayJones|tidied PauliSum unit testing
+1b50f9fab1849eb4f7523d6db970999fa5f80f49|2020-07-15|TysonRayJones|patched createPauliHamilFromFile
+72c7bf9d963709d869968e0c28ceb6471dc5e279|2020-07-15|TysonRayJones|patched formatted-string error messages
+5de932cc6eb67da441c2cb474df31bfa76d2b2c4|2020-07-12|Tyson Jones|Merge pull request #255 from QuEST-Kit/apply-matrix
+8a9661df55b3daee3717c000b5e3c373750f092f|2020-07-13|TysonRayJones|added applyMultiControlledMatrixN (with tests)
+b5891c408afd050ad5709753eb5a3ba69353ff6e|2020-07-13|TysonRayJones|added applyMatrixN (with tests)
+1806fdeec22d4d012e32cd640ece6d8079ce4556|2020-07-13|TysonRayJones|added applyMatrix4 (with tests)
+75c904b2153711092beea584f380d1c71a5d384a|2020-07-13|TysonRayJones|added applyMatrix2 (with tests)
+99dc21a963553d2ee4c7c54df54534cf9c5b6fbd|2020-07-13|TysonRayJones|small doc and qasm buffer tweak
+ce29f4ad84567f9ea2c3933e66cf33e59220bca5|2020-05-08|TysonRayJones|added Drew Silcock to contributors
+b4959a5b20c102ebc8b9cd2bb399479b30dace4f|2020-05-08|Tyson Jones|Merge pull request #242 from drewsilcock/bugfix/fix-macos-openmp-linker-errors
+b6b67776ccd5e3cf0434a9cb13ff1acb9c2eb92c|2020-04-03|TysonRayJones|added applyTrotterCircuit
+81e4c614db250bf0933358ce226f4399b8f4485d|2020-04-03|TysonRayJones|added applyPauliHamil
+b3a2a352ac3fd7a8ed7688d27bfb089b7241b6e7|2020-04-03|TysonRayJones|added calcExpecPauliHamil
+092edd9c56d5fb6c027f8e02f0a4e142aac9181a|2020-04-03|TysonRayJones|added reportPauliHamil
+7678346df50e897f92c5138b1b70e4bc3ba794fd|2020-04-03|TysonRayJones|added createPauliHamilFromFile
+43c9e68a3ac4c7aef81963f1a2d1126c8c471724|2020-04-03|TysonRayJones|made validateFileOpened report bad filename
+0cad88bce4ef7b78a465d08b20a88871478df637|2020-04-03|TysonRayJones|created PauliHamil type
+ad6ac09689ca53d9e45f49264105ef4719d2f65f|2020-03-26|Drew Silcock|Only link OpenMP if OpenMP has been found.
+9696eebf36f30a9efaddaa99c1969389d5d97083|2020-03-26|Drew Silcock|Fix OpenMP linker errors on macOS.
+e34416121d68877986a5d6307f9fe2b0a54aea05|2020-03-21|Tyson Jones|Merge pull request #240 from QuEST-Kit/develop
+4c0962406f70b99d35bdbd63989760ab99ac8da3|2020-03-21|Tyson Jones|patched memory leak in GPU destroyQureg (reported by harry900831)
+192be6aca1c5504fb58f42b0652419353cad925e|2020-03-19|Tyson Jones|making tutorial_example printfs precision-agnostic
+cbf820d5f5599415e90021a54c22c5fd7fcfc1f7|2020-03-19|Tyson Jones|Merge pull request #238 from QuEST-Kit/bugfixDevelop/compileDefinitions
+50190bed0c74b99046b9706ece301fcd5fb9040b|2020-03-19|Tyson Jones|Merge pull request #237 from QuEST-Kit/bugfixMaster/compileDefinitions
+05345979463ec793a9ca6272ee03d1b474be4fb2|2020-03-17|Anna Brown|Changing target_compile_definitions to public so that they are inherited by the user circuit file
+bd7fb3f2fc2a90d5831479a92a3bd0ab56fd4884|2020-03-17|Anna Brown|Changing target_compile_definitions to public so that they are inherited by the user circuit file
+292d39cae7ee5251b5854152e4c54821d557b20c|2020-03-10|TysonRayJones|added Fergus and Kshitij to AUTHORS
+d7cb49a8fd45a7eecc3f91cd7163f355f8d66d25|2020-03-10|Tyson Jones|Merge pull request #230 from kshitijc/overflow-fix
+15a5761afe419c1d6e0c56677a3f5b84b1e5dfdd|2020-03-06|Kshitij Chhabra|Fix overflow issues in validateNumQubitsInQureg
+a92e9d6bd6126c095cd4a44d0c487fab2230683f|2020-03-05|Tyson Jones|fixing CI badge
+953eca87003bc54ffe8a923409917944c0290f60|2020-03-03|Tyson Jones|Merge pull request #228 from QuEST-Kit/develop
+fb6a7058f90ab0c87aa0f1b1821027c2360892b1|2020-03-03|Fergus Cooper|CI: attempt to fix ASAN configuration error
+49b7673537e372a080c4c16497b0b5afdc412c63|2020-02-29|TysonRayJones|removing superfluous mainpage from doc
+ccd3f50f4638d47cc6a55d844305d06bae6ba67b|2020-02-29|TysonRayJones|updated version number in docs
+5ad2a9c4452151dbaba159ea1355c70002fb41ac|2020-02-28|TysonRayJones|generated v3.1 doc
+1bf044353d0d2a40f6038fa67a83419abef7cd26|2020-02-28|Tyson Jones|Merge pull request #219 from QuEST-Kit/develop
+ba45af26ecc514a95fe806679e2b830dc9476fc0|2020-02-28|Tyson Jones|removing incorrect coverage statistics
+176a70ad44ae7800caecf80d9b4972ae8efdd171|2020-02-08|TysonRayJones|patched test of mixMultiQubitKrausMap
+f72f436ac4f210f790a25d6dc31cd15cd8e98fe2|2020-02-08|TysonRayJones|updating gitignore
+0915aedf5dd70ebf008478d710eb1794dbb3dc58|2020-02-05|Fergus Cooper|CI: add memory checking with LLVM address sanitizer
+6b5914e30ccdc0896d88c94ddc63c62da3db88ca|2020-02-05|Fergus Cooper|CI: QuEST works fine with openmp 3.1
+93944472b5f3b11a167fad19fccce78b0a61b779|2020-02-05|Fergus Cooper|CI: filter usr and tests from coverage info
+06f0e516a49501d2f8b62ecf3eb41241d5814149|2020-02-05|Fergus Cooper|CI: attempt 2 to change test timeout
+7534fbd8ba93608b5361fa405ae11e434bdd4421|2020-02-05|Fergus Cooper|CI: increase test timeout for coverage builds
+941bdf884960fa9b36d7f89d1d8cde7f22b1f8c6|2020-02-04|Fergus Cooper|CI: fix yaml syntax
+ddca1d3ef401753a2790aba69e270bc02680b8bb|2020-02-04|Fergus Cooper|CI: attempt to add coverage info
+83084240103349e10cc486de5a257677d51219c8|2020-02-04|Fergus Cooper|CI: add build dirs to gitignore
+9212055111050921e423ecf74e6ccd5939c32ca4|2020-02-04|Fergus Cooper|CI: add coverage option and fix liner errors on debug builds
+2796ce9e1a29562c9be22e05a5818314fbaa831b|2020-02-04|Fergus Cooper|CI: start adding status badges to README
+8e83f2d76b7b6957470ce46e7b3fe365fb5d4cc8|2020-02-04|Fergus Cooper|CI: restructure OpenMP check to turn off on old versions (MSVC...)
+5f41df022d407d0475cc45c0f64454f6febcfdf5|2020-02-04|Fergus Cooper|CI: add tests for macOS latest
+b7d568910d92551c241f5190b05ceb5a3aba3f7b|2020-02-04|Fergus Cooper|CI: report precision during cmake configure
+92d6a92554a05c2696e6b5deea0fe4162470c9e6|2020-02-04|Fergus Cooper|CI: turn off single and quad precision for now (unit tests not ready)
+b1280e296b5a6f05fd6b93c37c818de70efd0b36|2020-02-04|Fergus Cooper|CI: first run at Ubuntu unit tests
+6f3fe48f0d49c810aa7536bc3e124d10449cab2e|2020-01-31|Tyson Jones|updating doxygen for unit tests
+e81a2d36a81bc468967a7e60eb10abced408d6c5|2020-01-31|Tyson Jones|Merge pull request #215 from QuEST-Kit/unit_testing
+4b996eabb0bf8d8e537548875b159c47f6b49f7c|2020-01-31|Tyson Jones|resolving conflict due to doxyconf move
+c4c516287f5a319a37ad971959356d7b3c20ff34|2020-01-30|Tyson Jones|Merge pull request #216 from QuEST-Kit/doxygen_bootstrap
+be415a0b7302e915d2e0eb6af29a5cd5baa88ee3|2020-01-29|TysonRayJones|added logo to README
+c7b7120f35f524e286ce80f6648e63eea1abcd48|2020-01-27|TysonRayJones|removed C-MPI in unit tests
+727f7664f40e9fc18816fd8ab3575c420c502d2b|2020-01-27|TysonRayJones|patched distributed CMake unit tests
+afbfa6935a34ec8a7eda305f8d880ae531500a9d|2020-01-27|TysonRayJones|added distributed mode to CMake unit tests
+47ff530025cc465232cce5927dc4ad07ef515a8c|2020-01-27|TysonRayJones|patched exp(complex) compiler issue
+bde97157d0f92bc110d0bf9ff79f5322842f14b2|2020-01-27|TysonRayJones|tidied unit-test filenames
+10afedd6c0ce575f7c8be14ae497a709e4d052d7|2020-01-27|TysonRayJones|added unit-tests to cmake
+ad833797108ac41c0a66b0df050cb5190e66d575|2020-01-23|TysonRayJones|fixing C++ warning
+dfb69723a3eba93efb22c4fc17f9280b7acf361d|2020-01-23|TysonRayJones|moved Catch2 'testing' to 'tests'
+2da1f951cd5c3a57512a05fed9175993e98ed526|2020-01-23|TysonRayJones|removed defunct python integration tests
+4175075cc92f946c8e5c9b712f9bd71981c7757d|2020-01-23|Tyson Jones|Merge pull request #202 from QuEST-Kit/improve_validation
+acd930d38233bbc7f5f214cffd2907827f883dc1|2020-01-22|TysonRayJones|moving logo to doxyconfig
+a7291f96b7009cded2d7a92b93007091575eb3f6|2020-01-22|TysonRayJones|tidied doxygen config
+d21549f888a086962b733050f0b76d55f06fbbac|2020-01-22|TysonRayJones|fixed bootstrap doxygen header
+4aa4fc6d033111274e44e56b0288bcab14985470|2020-01-22|TysonRayJones|made buggy bootstrap doxygen
+20fb7c787c2832ed45cdbeaf0c9bab4d785b3a5f|2020-01-22|TysonRayJones|improves doc header
+c6334e34bb00af702c205732d03daed414f4b7c4|2020-01-17|Tyson Jones|Merge pull request #214 from QuEST-Kit/develop
+9e23a14bd682d07190e22dfd007c9cbf8c2e7741|2020-01-17|Tyson Jones|Merge pull request #212 from QuEST-Kit/develop
+0b50148f7d1e9699f8833315abf27948cb1c97b7|2020-01-17|TysonRayJones|agnostify unit-test utils
+7fcd19bb6b8f0f2fdc3cd250df1410233f84df7b|2020-01-17|TysonRayJones|patched distributed multiControlledTwoQubitUnitary
+951c58873d9a17b021b7de31949c1e5f096737f5|2020-01-17|TysonRayJones|patched distributed unit tests for *multiQubitUnitary
+63e33309738cf924641ce05d5536840cb80dccad|2020-01-17|Tyson Jones|Merge pull request #213 from QuEST-Kit/develop
+200104353897caa68fbdcd9d10f8ec833deefdd2|2020-01-17|TysonRayJones|patched distributed mixDamping
+566bf2c5bb0583242aebaf291bd203f8eaa04869|2020-01-17|TysonRayJones|patched distributed *controlledTwoQubitUnitary
+baab736e71fcbf0a356b6fb7b042c87748fcfdf1|2020-01-17|TysonRayJones|patching custom Catch2 main
+7f16d5b9d50b41b93f111db35caea1db2f7b5865|2020-01-17|TysonRayJones|patched distributed unit test for mixMultiQubitKrausMap
+ccfc762f0b9c08313fd61b227953ac48fb7b51aa|2020-01-16|TysonRayJones|patched distributed test utils
+785177d6a46819a2848b9adeeb03fdb6083278f8|2020-01-16|TysonRayJones|fixed duplicate distributed Catch2 output
+b9cc807c7033c28083d9255b5491becc1e9fe1b6|2020-01-16|Tyson Jones|Merge pull request #211 from QuEST-Kit/bugFixDev/c99Flags
+d74f85a57325c8af81250d20f5ee7eb6aace653d|2020-01-15|aniabrown|prevented error on passing c flags through -Xcompiler. As far as I can tell these are not strictly required as the c compiler is still receiving them. Should investigate why CMAKE_C_FLAGS and not CMAKE_CXX_FLAGS are being passed through to compile a c++ file
+44ca6619b8ee2c274199d8d05a45ed603dbf8ee9|2020-01-15|TysonRayJones|added doc to unit tests
+a0ce1701e81afafbca23aab5810ae6f377651cfc|2020-01-15|TysonRayJones|renamed 'testing' doxygen group to 'testutilities'
+566ccfafb0a85a84b743e22521fc410ca978499e|2020-01-14|TysonRayJones|ensured MPI sync in unit-tests
+df5608c23937a06b384e6860b1dc40cf7eb39c2c|2020-01-13|TysonRayJones|refactored unit tests for single QuESTEnv
+2501f4fd702f094ba6c31a078bd69f07287fe21d|2020-01-13|TysonRayJones|removed benchmarks from unit tests
+9c0ac2cd33256e76c2d8660696616c0baa8f5986|2020-01-13|TysonRayJones|moved NUM_QUBITS to QuEST_test_utils.hpp
+e11b01a65ac433ab7e7f3b2e532c1b9366876194|2020-01-13|Tyson Jones|Merge pull request #204 from QuEST-Kit/improve_validation
+feee6415b07716520bb901ce31480f6eb8eaaaaf|2020-01-13|TysonRayJones|added another missing include for num-ranks validation
+be0cb2cfd746d00848e617193731febcdc908c9f|2020-01-13|TysonRayJones|increased unit-test tolerances
+54b75209f64a86f538e3e1fe8923bc222be5156f|2020-01-12|TysonRayJones|updated multiControlledPhaseFlip unit test
+eb52625583efdeaa39147557cb2694b5dde42853|2020-01-12|TysonRayJones|updated multiControlledPhaseShift unit test
+3e78f0400222b1756fc8e0a47128938f4712b90b|2020-01-12|TysonRayJones|added missing include for num-ranks validation
+4525576a3ff0029d39ef7c5fdbf291a8505a0068|2020-01-12|Tyson Jones|Merge pull request #203 from QuEST-Kit/improve_validation
+532e6a7bdac7aa4e2b2ab55a0deb04a4fb14e721|2020-01-12|TysonRayJones|added additional create*Qureg validation
+ce734450eca3d2c933feec3fe8e7f619ce99f06f|2020-01-12|TysonRayJones|distinguished 'number of qubits' validation
+be8d152c6cedc991b74a48e6e307580b54a8aabc|2020-01-12|TysonRayJones|added validateNumRanks
+0240d0fca55fe642a9ee8c6b721711b117c523f1|2020-01-12|TysonRayJones|corrected statevec_calcExpecPauliProd style
+5344ea92fd33b7f6a103c74a14bb28a2c479f9b6|2020-01-12|TysonRayJones|tiny doc improvement
+750d963b15b5608d75e75ed54230851c26189f48|2020-01-12|TysonRayJones|wrote doc for unit-testing functions
+be87756722f9e73c0358598936f834f170c86c19|2020-01-11|TysonRayJones|added unit tests for data structures
+4463823775f49e143289779b91a3b4fa9f516540|2020-01-10|TysonRayJones|added unit tests for operators
+d7db275e24e2f9b8a561d052122c13c6dfb853ac|2020-01-10|TysonRayJones|completed unit tests for gates
+44f7f7732e438ce5975c7e4f855aba4077470c00|2020-01-10|TysonRayJones|generated v3 doc
+d1f92b9bbee9bdd2c6662bcb53e4dc8cd4ec59c4|2020-01-10|Tyson Jones|Merge pull request #190 (v3 release) from QuEST-Kit/develop
+55e886c56c9dfbac26e409bd4cba9c12739fd973|2020-01-09|Tyson Jones|updated the README for QuEST v3
+53b8bba9f11b7607d3d8428e248de7a9169bb6fa|2020-01-09|TysonRayJones|patched validation in multiControlledPhase*
+8df2348dcf3290bfdd391076e7974150933f6158|2020-01-07|TysonRayJones|Improving doc
+63693c09038da3c6d797d3312f945cdf45a7d699|2020-01-07|TysonRayJones|completed unit tests for calculations
+c29e99899f9aacd28c4f00cd42ca75ea603b30b8|2020-01-02|TysonRayJones|improved doc of calcPurity, calcFidelity
+ca75010e0f6600b4eceaa73d99db8f765d9d6ca8|2020-01-02|TysonRayJones|added unit-test scaffolding for data_structures and gates
+62be88b04e5bcc4954e93d3acf8cbb0c68ec886b|2020-01-02|TysonRayJones|unit tested calcFidelity
+c36c4bfc57d48e571f10fe58f605916e10ae3675|2019-12-28|TysonRayJones|added unit tests for calculations
+738cefe24e884ec78644a63ba3d3a014b820566e|2019-12-28|TysonRayJones|added unit test utils for random state gen
+93f212de2d5668d407f9a03aee811b7fce62d653|2019-12-21|TysonRayJones|distinguishing 'state' and 'amplitude' index validation
+0c93db0ddeace82a7dd1529097b18148ee306fcb|2019-12-21|TysonRayJones|updating state-init docs with density matrices
+21dc14e68d358da9a04a0801657dbbd8ce4251a1|2019-12-21|Tyson Jones|Merge pull request #200 from QuEST-Kit/develop
+7d1835f4a5fe149343bc67c5e1078d1df9beebcf|2019-12-21|TysonRayJones|added state init unit tests to build
+a2eab34631b09b0086ee504d705b2fa8e11ccd1b|2019-12-21|TysonRayJones|added unit tests for state initialisations
+ab40b82f067539276e44ad3fb52bdfa221fb2022|2019-12-21|TysonRayJones|adding optional precision-arg to unit testing comparisons
+7e43eb6f48f56a6e29273d4c30f057e63cedc0ea|2019-12-15|TysonRayJones|correcting mixTwoQubitKrausMap unit test tag
+10787f637b786b7f1a7c2e826adb0fe78cd6e8f7|2019-12-15|TysonRayJones|validate createComplexMatrixN
+0171d163a529af244ffa8bbe264d78a3c75b4b0a|2019-12-15|TysonRayJones|patched Kraus map validation
+c3500e2c8263a704559d6f89d877a147c86ebe04|2019-12-15|Tyson Jones|Merge pull request #199 from QuEST-Kit/develop
+32268e1b9181b9b192e289ef30d0a8ae35f63f4c|2019-12-15|TysonRayJones|tidied decoherence unit tests
+95ead18376d12cfc5082b5fdb828a125621d59d5|2019-12-15|TysonRayJones|unit tested mixTwoQubit(Dephasing & Depolarising)
+3c9246d5a9a4f3ff0d31c7808f3f5077b75df6e7|2019-12-15|TysonRayJones|unit tested mixMultiQubitKrausMap
+b82301efdf3fb6f0b26bf7019ceede3386cd4e7f|2019-12-15|TysonRayJones|adding missed unit test sections
+e4b8218c6b8066cfd1f126d202385b947f568e55|2019-12-12|TysonRayJones|corrected mixMultiQubitKrausMap doc
+22187afc7fdcf3a949fc3f55605d6f5877dbbe20|2019-12-11|TysonRayJones|unit tested mixDensityMatrix
+557a1d518678d4bcd05f930e8316324a3f919883|2019-12-11|TysonRayJones|patched mixMultiQubitKrausMap
+cc6d2b775491dc928ec390a2d566f8c125e035d5|2019-12-11|TysonRayJones|patching multiQubitUnitary unit test
+dfbcf8d4bac073782a234401b918d8fe945cbc11|2019-12-11|Tyson Jones|Merge pull request #198 from QuEST-Kit/develop
+1e8dacc6a541d4f4d8a14c34acce57d7b7bd0cd8|2019-12-11|TysonRayJones|patched mixTwoQubitKrausMap
+554f1a921668a5f99121864adf2e25f12512c185|2019-12-11|TysonRayJones|removed REQUIRE from unit tests
+4ad24a445d8262f03c68c21bf54cf90bf43a83a4|2019-12-11|TysonRayJones|unit tested mixTwoQubitKrausMap
+ec45d54cf73738bb2d13f3c31db41cb6ec5882c6|2019-12-10|TysonRayJones|removing refunct OpenMP var
+f8c0e7f2bb093d4dea1f6ffff1a2af62e27b95a5|2019-12-06|Tyson Jones|removing superfluous variable
+f60315c2809c7d494b78d1af84807eee88ef1a45|2019-12-06|Tyson Jones|Merge pull request #196 from QuEST-Kit/develop
+2474ba381b13187aa8fd9b5b8c1ded68965b4c3e|2019-12-06|TysonRayJones|patched (multi*Controlled*)multiQubitUnitary (GPU)
+3cea1f40cbcaf2162f86e5f2515a407c67663148|2019-12-06|TysonRayJones|patched (multi*)controlledTwoQubitUnitary (GPU)
+4b0b49547bf19603a46003b8fdd4ccd31110ce43|2019-12-06|TysonRayJones|patched controlledPhaseShift (GPU)
+725703a0c75fbea25e32a3e247168656c52070c3|2019-12-06|TysonRayJones|added missing label to mixKrausMap unit test
+62cdd38d41505e6a3752216cb2830dda24cc93c5|2019-12-05|TysonRayJones|patched (mult*controlled*)multiQubitUnitary
+5a40f0554f261d41193a46158b18763867372ad0|2019-12-05|TysonRayJones|patched mixKrausMap unit test
+31f36bdcc9666c6e374499aaf51db44a69b817af|2019-12-01|TysonRayJones|overloaded operators for unit testing types
+5eadc594769846f8469defaea0d94519a0b8cf34|2019-12-01|Tyson Jones|Merge pull request #194 from QuEST-Kit/develop
+0701d0e56f3db67e9a22c1543d646687d70448f6|2019-12-01|TysonRayJones|improved some decoherence doc
+98ede484b9ec0acd655316e071618f8a5af60002|2019-12-01|TysonRayJones|patched Kraus map validation
+7f79341e673a05eafc0f27924c9335a8dd43c38f|2019-12-01|TysonRayJones|added mixKrausMap unit test
+efbce2237b5425b30c92a696741989790bf965aa|2019-11-29|TysonRayJones|Merge branch 'unit_testing' of https://github.com/QuEST-Kit/QuEST into unit_testing
+c2dbd4994d8a8c475c676f824dc0bf31d7060c59|2019-11-29|TysonRayJones|added tentative unit test makefile
+fb6ff1a42fbdff92b56a37465130846c06fbad6e|2019-11-27|Tyson Jones|Merge pull request #192 from QuEST-Kit/develop
+4b611ba3cd0bc27b1f5011d119a84d52bc0b55f4|2019-11-27|TysonRayJones|patched multiRotateZ
+c5834d58156d9fb961ec94e74053f3f439be7450|2019-11-27|TysonRayJones|added aux functions for multiRotatePauli unit test
+a8b639d81820a35a403fdb058ec98950acfa1a65|2019-11-27|TysonRayJones|added multiRotatePauli unit-testing
+fa94560d95a03407f700c076020bcfc7fd59df59|2019-11-26|TysonRayJones|monkey-patching getRandomUnitary
+bcbff3c48407382a9f3a8d499b086ce232492df5|2019-11-26|Tyson Jones|Merge pull request #191 from QuEST-Kit/develop
+c15a2c250fe7eb8b928ae9aecc3934496843bcdd|2019-11-26|TysonRayJones|correcting mixDamping doc
+f58efa71d66c11131595ea11eb75b8cee13dac53|2019-11-26|TysonRayJones|patching swapGate and sqrtSwapGate validation message
+69261389b64cef7ea973946e328bf5a2c556b9d7|2019-11-26|TysonRayJones|patched multiStateControlledUnitary
+be753c9ac2aa7e2d0ac17704809e146edbd0d94b|2019-11-26|TysonRayJones|patching multi-target validation message
+0a5cfe9289d7c3e52c88cfb75ebe98b858d7eb44|2019-11-26|TysonRayJones|added decoherence unit test examples
+67caba10019bee59a90f98fc7763760464a8e1ba|2019-11-26|TysonRayJones|completed (all but multiRotatePauli) unitaries unit-testing
+27c7b7b757b31e2733e5a838c23e733471f0b1cd|2019-11-20|TysonRayJones|added getRandomUnitary to unit testing
+463815fda6a03543e1349b56923b506d3ed1d4ac|2019-11-15|Tyson Jones|Merge branch 'master' into develop
+ca611512d068d20bb609ffac95b952cf0ead25f1|2019-11-15|TysonRayJones|updating author  attributions
+d79111726d93cec9013992eb5393fa7c4d681bb7|2019-11-15|TysonRayJones|added unit-test of multiControlledUnitary
+033d93898f543680a092ef7bdf4c6707444e72af|2019-11-15|TysonRayJones|extended unit testing utils
+81146cb3e0b4ae2ddf4c6e9febcaf1463e2f50e3|2019-11-15|TysonRayJones|improved unit testing formatting
+8402ecd7c4ea0ee21beacb699d14c7078b742a1b|2019-11-15|Tyson Jones|Merge pull request #187 from QuEST-Kit/overriding_user_error
+70b8c8a62810ceb05f54dfc4dc6c497a7bdd8694|2019-11-04|TysonRayJones|made handling tests error-specific
+070be527ea40c258044dfaa74c94e04f30178aa3|2019-11-04|Tyson Jones|Merge pull request #188 from QuEST-Kit/overriding_user_error
+5f12ce0367a56e44ccf3f68bfdda28fd01840ef1|2019-11-03|TysonRayJones|added invalidQuESTInputError
+596506aab64875a8ba10ed394bcdab41b0c1eec7|2019-11-03|TysonRayJones|added example unitaries unit testing
+57ed3e36c45b0c3169a00e298ab7d469e71516d3|2019-11-03|TysonRayJones|renamed applyQUnitary to applyUnitaryOp
+55e60e5e93035c21afd4fd8a5eb4392cdb84b566|2019-11-01|TysonRayJones|updated calcDensityInnerProduct doc
+ac615bb66e8f70165993a990159366d48057a20d|2019-10-31|TysonRayJones|fixed applyPauliSum doc
+1fb5fbd6cfae085e07b27273dcc46189501fa366|2019-10-30|BalintKoczor|Merge pull request #185 from QuEST-Kit/hilbert_schmidt_dist_GPU
+030325e766ba40cae4b8bebe2df36f2f435f62e6|2019-10-29|TysonRayJones|Hilbert-Schmidt scalar product of density matrices (GPU)
+b664ad88fea6f36118c6454967de0c4d452e1c49|2019-10-29|TysonRayJones|patched initDebugState
+95d992e0f5fcb6c35594722e1b77ecbafffef510|2019-10-29|Tyson Jones|Merge pull request #182 from QuEST-Kit/adding_copyStateToGPU_to_API
+882379a859d85fc079551164eea7f8811db85b93|2019-10-24|TysonRayJones|added example benchmark to unit testing
+9c97d378e973566435bebf8b79dcfd7ad979000d|2019-10-24|TysonRayJones|added applyUnitary unit test
+861d62e404c956027010bc082fced6312eb999e2|2019-10-23|TysonRayJones|patched getSwapMatrix (unit tests)
+e96b1f0ea269fb1baa3050b680823402b8895ba7|2019-10-23|TysonRayJones|added matrix-based unitary calcs to unit-testing
+cafe42a3a776e860ffae040b52bab9fe10ae62bd|2019-10-22|TysonRayJones|included initDebugState in API
+4c20f22f24093264d3c52fb43bdd256debef96f2|2019-10-22|TysonRayJones|renamed initStateDebug to initDebugState
+9310f8c59a9cf559f9897e4b6461acd4e1d5196d|2019-10-21|TysonRayJones|included (hardware agnostic) copyStateToGPU in API
+3278279eea255d0d82da44a327c90a092a548d6c|2019-10-21|TysonRayJones|patched getFullOperatorMatrix
+be4d18fed514ef7c76b082db6f2ef45a6f8503a5|2019-10-21|BalintKoczor|New feature: Hilbert-Schmidt scalar product of density matrices (CPU)
+cff6f5c63ccf62425257f5f6f7c37ee6009b5525|2019-10-18|TysonRayJones|added matrix calcs for unit testing
+6f0ffd4cdceebf3c1de109ac72c803ecf96dc640|2019-10-18|TysonRayJones|added Catch2 for unit testing
+663866b6034482729c803ec528b767603873c8b9|2019-10-16|Tyson Jones|fixed example makefile bug
+0833b3aae713fe1ed7079b6853ed4c0e7870bb3c|2019-10-16|Tyson Jones|Merge pull request #179 from QuEST-Kit/improving-doc
+a78a7faf7c0fb8704916f57484851c9d01a78528|2019-10-14|aniabrown|Merge pull request #169 from QuEST-Kit/refactoring-complex-matrix
+ca6167a27c6c9fc4992100e7b35e7735086ab511|2019-10-10|Tyson Jones|Merge pull request #176 from QuEST-Kit/bugfix
+10716f6ed8c4ee57de79ebb2da2330b6a7de614c|2019-10-10|BalintKoczor|found bug in calcHilbertSchmidtDistance
+fbb68ae0bebb3f6e1952cdb5775cf023de16f6fb|2019-10-09|Tyson Jones|Merge pull request #175 from QuEST-Kit/oerc0122-patch-1
+685c16cc5c68c8e175cd1cc74777a58d43542268|2019-10-09|Jacob Wilkins|Fix #174 for Python 3.4
+225e1f9e0fc25614dfd5f2f65d1e805c767a0b40|2019-10-02|TysonRayJones|added Balint Koczor to author list
+3e9d6e8aa27d57a474856a88f57726d34ff28b4b|2019-10-02|TysonRayJones|added authors to testing doc
+a5440730f6f8fb1877ce244e98c78ad9c0e97252|2019-10-02|TysonRayJones|added authors to core QuEST doc
+96108631306698342e3b4e3c8c17b4a676b0a2e6|2019-10-02|TysonRayJones|changed doxygen mainpage to README
+b46094d5e3a70a64e21eac6a44ce7423d7c274fe|2019-10-01|TysonRayJones|made API groups
+fb39f14d54df8cb250763fd43deaf3c632ae3c59|2019-09-25|Tyson Jones|Merge pull request #170 from QuEST-Kit/renaming-mixing
+c33b595f97be35fa7960d334c5455a240657ae31|2019-09-23|TysonRayJones|fixing tutorial example
+e44b8737826c7526f3d5aa8a6e031239ec457154|2019-09-20|TysonRayJones|renaming decoherence tests and doc
+04d62347a44d52305ec24ffca8d56031cd2f5c30|2019-09-20|TysonRayJones|renaming decoherence internal
+ac4cbd6dbe96761c231d831c23d09cc3a300d8e7|2019-09-20|TysonRayJones|renaming decoherence API
+975a05e6c9bac72756ebea59f9fe0a839272b327|2019-09-20|TysonRayJones|updating tutorial doc
+84913058d0dbe271e8e6185683cb9ca87af5c6f7|2019-09-19|TysonRayJones|updated tutorial
+2a12a5e324dcb7d72e2dcb5a7f8fa22ff465c83b|2019-09-19|TysonRayJones|made getStaticComplexMatrixN C only
+05297d886fb984fb493732abf76d94f2b086bf75|2019-09-19|TysonRayJones|added initComplexMatrixN
+d95400cf15feaf6600b6230a1ee23f23b38a317f|2019-09-19|TysonRayJones|updating ComplexMatrixN doc
+3af75d74660d8cb24eb536d7a4c13e38ddc759cd|2019-09-19|TysonRayJones|added getStaticComplexMatrixN
+50b1ac006c122d12209ee8974db7a73114edb765|2019-09-19|TysonRayJones|refactored createStackComplexMatrixN
+50e3102ad5a80138b0bfb860025377ed5873ff86|2019-09-19|TysonRayJones|removed statement expressions in macro
+42f8306cfd15b667cc2cd0d218ae06dc0b92cd89|2019-09-01|TysonRayJones|added multiQubitKrausMap
+2d68a8d164cf1ef8a42dab0ab673a2041d35275e|2019-09-01|TysonRayJones|refactored ComplexMatrixN
+08061e601e38400494d45b4337734895c63b126d|2019-09-01|TysonRayJones|refactored ComplexMatrix4
+c240a5bc66d76bc902ca4d67a0385033b0dcb480|2019-08-28|TysonRayJones|refactored ComplexMartrix2
+c05907982a1784ae302455fb408eb70aa639ee57|2019-08-06|Tyson Jones|Merge pull request #168 from QuEST-Kit/newfeature/email
+3515fa14180c47e5655f1ae814c7089447a3e8a7|2019-08-06|aniabrown|changed personal email addresses to official quest email
+92a8ba72a3c21b133015432a5a080a84a4a6980f|2019-08-01|TysonRayJones|patched CPU initPureState
+005d8a50bb3a097aae623672587058ca80eced2a|2019-07-28|Tyson Jones|patched bug in multiRotatePauli
+796d8df95232512a8c3e89a79e4d5d1e39a53f56|2019-07-26|Tyson Jones|patched bug in createCloneQureg
+7b70437fdb793968abf6ca97a699120b26f0d55a|2019-07-18|BalintKoczor|Fixed mingw32 compilation issue
+b5999ad07e34dc22f876be78bf9b2e7b900f6ade|2019-07-16|aniabrown|Merge pull request #167 from QuEST-Kit/new_gates
+733adfc431410f8ae8c1dcd488c40ec1a88ce894|2019-07-09|Tyson Jones|Merge branch 'develop' into new_gates
+74dcb864197393c0926a1d51048b7eb850fe5e11|2019-07-09|Tyson Jones|Merge pull request #158 from QuEST-Kit/visualstudio
+f336e2a67d075c886dae328eeb863bbf1e3d0db5|2019-07-09|Tyson Jones|fixing compile warnings
+2e60770cf05fb2f04adc88f3723198437a916839|2019-07-03|TysonRayJones|added applyPauliSum
+681b86cf23a9cb7a5991d8c12958297890b9665a|2019-07-03|TysonRayJones|added initBlankState
+b806ba6c259b00f5c745407978b6a2a00c12f807|2019-07-03|TysonRayJones|added setWeightedQureg
+8b278557f8b509408f73caba2f68192a612da704|2019-07-01|TysonRayJones|patching qsort invocation
+13b2944091c0428e8e886fa3b23a97b9df67e2e1|2019-07-01|TysonRayJones|patching error in sqrtSwapGate update
+f540f3e0b39ce1d08e511f24fdfb33bfba160758|2019-06-26|TysonRayJones|Merge branch 'new_gates' of https://github.com/QuEST-Kit/QuEST into new_gates
+00995877f2b84f3c5e2e915db1192be45e34b9df|2019-06-26|TysonRayJones|renamed validateNumSumTerms to validateNumPauliSumTerms
+77af9dcf5cfe331ca577ad374908453edd1b7939|2019-06-26|Tyson Jones|Merge branch 'develop' into new_gates
+93279e535973e8f568adabdafa2dd564a0a5ea18|2019-06-26|TysonRayJones|renamed calcExpecVal(Sum|Prod) to calcExpecPauli(Sum|Prod)
+304865de30ad93a7058880f950df0925df3fd8d9|2019-06-26|TysonRayJones|updated sqrtSwapGate to use faster twoQubitUnitary
+f33b1d27ba65592bc87d386259eb006c91fbc346|2019-06-26|TysonRayJones|Revert "merging release bug fixes into new_gates (#142)"
+0b9023d8307f5b992e75a188e8a7a878f146190a|2019-06-26|TysonRayJones|patched twoQubit and multiQubit funcs
+822b1a37ccd0eb8122c4f6876031473acec8552a|2019-06-25|TysonRayJones|patched CPU/distributed controls in twoQubitUnitary
+5098ab80b4ea8306252a0c24cb36c5ddcb643193|2019-06-25|TysonRayJones|Updated calcInnerProduct doc
+11e4b632a4735957176b3c7067ee914b443d8b36|2019-06-25|TysonRayJones|patched GPU swapQubitAmps
+42b2de0f42c650e9e56dcf150ffcd6ea76b8ca55|2019-06-24|TysonRayJones|Fixed memory leak in two-qubit Kraus maps
+2e705850db59741565f9a4c98a2da65dc1bee818|2019-06-23|BalintKoczor|Fixed bug in two-qubit Kraus maps
+448dfd658b3109e8012be35c537b5414f207d451|2019-06-21|BalintKoczor|Fixed bug in validation of Kraus operators
+597df5ac441273eaaa9b8c2cc0ac290a0f88fc10|2019-06-20|Tyson Jones|patched two-qubit Kraus map
+a071caa23ec7b0a309ae84ea9cc7fa072f1511e1|2019-06-20|TysonRayJones|fixed calcFidelity doc
+a3d325178562fa32611e357ab2716ef5ed68495a|2019-06-20|TysonRayJones|added calcHilbertSchmidtDistance
+7fb73144e2ee6f05306591eba804266ea2bf527d|2019-06-20|TysonRayJones|added doc for Kraus maps
+ea561d854598a301e4c95a5b655957207fef29fb|2019-06-20|TysonRayJones|added fits-in-node validation to Kraus maps
+6f13419c6ec8be40fa51a3aea59214fd354ac78e|2019-06-20|BalintKoczor|Replaced densmatr_oneQubitPauliError
+335e5a0901b19ce1883f660fdf86bd95d6bed0f4|2019-06-20|BalintKoczor|Added two-qubit Kraus map
+5ad3be3182dc95aa7d2403e0a0b0b794fbd05f77|2019-06-20|BalintKoczor|Added one-qubit Kraus map
+47c887ece722eb6d226314f9237a7a708192df71|2019-06-19|BalintKoczor|fixed multithreaded
+28ada02d0e2c31d484cd8ed4990af01b86e477f9|2019-06-19|BalintKoczor|Merge branch 'develop' into visualstudio
+582b077f1d15f3013889268301777b11fd17d749|2019-06-19|BalintKoczor|develop
+f6315c80b62c0a51a44e2441113a078a3ca89a4e|2019-06-19|BalintKoczor|added changes
+ab48b342b489928471b9900b7cd14f4b4a95afe2|2019-06-15|Tyson Jones|Merge pull request #156 from QuEST-Kit/many_qubit_general_unitary
+4afa93c34e66e19207b08fa9bce18db551494f65|2019-06-15|TysonRayJones|tidying bit twiddlers
+4741fde34dbf32db5e7083c33b6131b1d8852a5b|2019-06-15|TysonRayJones|patched distributed multiControlledMultiQubitUnitary bug
+bf2a4d2363bb9f43e86d8d85ceff1bea75b73380|2019-06-15|TysonRayJones|patched distributed swapQubitAmps bug
+d64558b787ee4654824dfea9b5f2206e59c3049d|2019-06-14|TysonRayJones|added (bugged) distributed multiControlledMultiQubitUnitary
+8cfa207e874616db52de0e959168d7d4a3b80610|2019-06-14|TysonRayJones|added local CPU multiControlledMultiQubitUnitary
+1149db6b44a379dffd366d2e49c84af5f93d59c3|2019-06-14|TysonRayJones|fixed doc typo
+02d122e2dbaecae924d72462996fb0f90f64150c|2019-06-14|TysonRayJones|added multiQubitUnitary, controlledMultiQubitUnitary frontends
+28e1b052a406bb581b46cf7c82c238b684ac6c62|2019-06-14|TysonRayJones|clarified two-qubit unitary doc
+1c7238ecc51bbf51269cf312c00ac85a85adc412|2019-06-14|TysonRayJones|tided multi-qubit unitary validation
+207a5458079fc68d0081627048a07fa774574758|2019-06-14|TysonRayJones|corrected GPU multicontrol multiqubit unitary
+072a594a626d2cbb47283235d6b2ff6d1f0812b4|2019-06-14|aniabrown|Update README.md
+e4d7dd7ea30b36448fbd79aef1db4b0d0dd24492|2019-06-14|aniabrown|Update README.md
+3801910aee11ef8fa65c588694affb7f522fccd8|2019-06-12|TysonRayJones|added (bugged) GPU multicontrol multiqubit unitary
+ade2c387fc38bd7cf2606d1942b59e45e3aa0e9d|2019-06-12|TysonRayJones|added multiqubit unitary validation
+ce4b779947481ce5bfe1a5370fe884ea47cfd1e0|2019-06-12|TysonRayJones|fixed swap and 2qb bugs
+bea9f912c165f249f097b9977946980136564275|2019-06-12|Tyson Jones|Merge pull request #151 from QuEST-Kit/new_gates
+56ac2d5d4170342168d1c2b13f8578d40355f116|2019-06-12|TysonRayJones|added controlled and multicontrolled two qubit unitary
+abad0a03d372290c27a350e253c0e4c80b614c38|2019-06-11|TysonRayJones|added scalable ComplexMatrixN type
+72ff881e807e370997da8b2f2a2218d905766401|2019-06-11|Tyson Jones|Merge pull request #149 from QuEST-Kit/newFeature/email
+d7ad6e4fb81604e8326df16d812bcf0c8811550b|2019-06-11|Tyson Jones|Merge pull request #150 from QuEST-Kit/multiqubit_unitary
+ed92d275d7738a6c0b7ac50ea7a442ac65794042|2019-06-11|TysonRayJones|tidied new SWAP and 2 qubit unitary
+6797b3a47fda0ed0e931311f1cefabbb9f040fa1|2019-06-11|TysonRayJones|added native distributed SWAP
+c085e0a756ad04e47994469acc4ec95082e63fb8|2019-06-11|TysonRayJones|added validation that multiqubit unitaries can fit
+ed72b8136cef08eedfb82aa5bdc42ca34dc9708c|2019-06-11|aniabrown|removed personal emails and added quest email address
+4fe1ece56a0068c81177e900a95596a2faa00329|2019-06-08|TysonRayJones|added distributed 2 qubit unitary scaffolding
+ef1e248edb1a06d7b28e3769470f35db10cc06f0|2019-06-08|TysonRayJones|added 2 qubit unitary CPU Local
+c735d8398ca6d994687d012fbafdb0d4964b7781|2019-06-08|TysonRayJones|added 2 qubit unitary to GPU
+4decd3a5ddc665f10b76f265c3052fa28c062f86|2019-06-08|TysonRayJones|added 2-qubit unitary validation
+e49e7d4c3bf10409c174593d4642b84f0e6ea32d|2019-06-08|TysonRayJones|made unitary validation size-specific
+e0dad3fd86a842a587b06aa5905fb25788279113|2019-06-03|Tyson Jones|Merge pull request #145 from QuEST-Kit/calc_expec_val
+3a921e8ef48564608bb577473b21edcdb8f2e8c0|2019-06-03|TysonRayJones|added calcExpecValSum
+6dec7593b6a8c3db977bed097cbf9788255cc5f2|2019-06-03|TysonRayJones|added calcExpecValProd
+1f370fcef320c46341d7dc47f5d583b507fc76d6|2019-06-03|TysonRayJones|renamed PAULI_IDENTITY to PAULI_I
+fa1c132cc77b684b495f5ff8a3836b001d8abac3|2019-06-03|TysonRayJones|updated signatures with Pauli enum
+eff4234a4648b68b83f241b4ae3d6b13ed634242|2019-06-03|TysonRayJones|added createCloneQureg
+8158ddca09ad1a15e58e5666fe6e4856de64538d|2019-06-02|TysonRayJones|added expec val scaffolding
+0ce1988881dc4196f8f0dcdc882be2a0ca0a225e|2019-06-02|TysonRayJones|made hardcoded Pauli codes into public enum
+f9445bf2f47e9905d8c81200a776bdd5c6660516|2019-05-26|Tyson Jones|merging release bug fixes into new_gates (#142)
+3d2dde9650babda9b3fec4e2c79fc5eb878960b6|2019-05-26|Tyson Jones|moved QuEST_complex from /src to /include
+f2101072f868bfb60b08cd7c9a21f5703c555d07|2019-05-22|Tyson Jones|Merge pull request #141 from QuEST-Kit/master
+9d575cb173c25c2679ce6f493b52048718025e33|2019-05-15|Jacob Wilkins|Update README.md
+a20dadd3fd1f9e4c6f74913e17f1a67f1cd09ee4|2019-05-15|Jacob Wilkins|Update README.md
+939373f08b1ceafb321f31637737454f51a788a4|2019-05-15|ania.brown|QuESTLog.log is now created in build directory when run using cmake
+845ed6fcfefca3ebe2b5966723b4306d7299ab45|2019-05-15|ania.brown|fixed format string in testing framework that broke testing for python 3.4
+f083cb3c5adfb834a80e54c5a1660f45231496d6|2019-05-15|aniabrown|added deprecation warning to old makefile
+c391d6484634646299f2a557afabb6d0e5578764|2019-05-15|aniabrown|Merging develop into master for v2.1.0 release
+9e2762a880d5a396db522a3f6604c4760175b7f0|2019-05-15|aniabrown|Merge pull request #139 from QuEST-Kit/bugfix/controlledPauliY
+3ce6b30b09548b8525b655c26c68cd4858349520|2019-05-14|aniabrown|Merge pull request #138 from QuEST-Kit/documentation/testing
+116c3a1313d007c2422044dd9c95805c8be57047|2019-05-10|aniabrown|updated url for QuEST licence file in github
+9add9cf435ddaf8c9f5a5da0cce7efa4c6bb6fcd|2019-05-07|aniabrown|fixed bug in distributed version of controlledPauliY, in equation being applied
+75f133f8acb6980ffe6b17205e56ea4611b4c581|2019-05-07|Jacob Wilkins|Add brief testing docs
+5ca84c9368c50b0e9b846163b8dcac2701e5db8f|2019-05-07|aniabrown|Merge pull request #137 from QuEST-Kit/test-refactor
+2cd7185be6ae9857ae299458f605827a5367cd55|2019-05-07|aniabrown|updated README and tutorial README for testing framework
+fccd1fe8f4aed96073155e0e81dcfffb485cdbce|2019-05-07|Jacob Wilkins|Fix bugged typo
+9959de93169c53a3aff88d3fd9b41c430d4e8db1|2019-05-03|Tyson Jones|restoring Ania's fix
+09f21ad99fbde0a1de51307c6957f5ccbad0ba0a|2019-05-03|Tyson Jones|Merge branch 'newFeature/backupMakefile' into develop
+879f18656a497088acb34c6c73e734f1c9741926|2019-05-03|Tyson Jones|Update AUTHORS.txt
+ea4bd7c72563e6d3ca49393bf9b2a25f8bb5020b|2019-05-03|Tyson Jones|Merge pull request #132 from QuEST-Kit/bugFix/develop_hostnameRemoval
+f7e9bcc45bd8346f8c7b6d2b9747ea82354ff781|2019-05-01|Jacob Wilkins|Added Full log flag to log passes. Fixed capitalisation of failed
+ae8a501f298a74eb5bd05c7701bb21ad6fed748a|2019-04-30|aniabrown|restored defaults
+26771138351ea7ab776bead257744a3d3789994b|2019-04-30|aniabrown|Merge PR #135 into develop
+915f9d5e3af996181a36e4c78b139bdfee7c74fd|2019-04-29|aniabrown|updated AUTHORS.txt, acknowledgements for new contributors
+f8cdb73eb213921f3378d46d663370c5b1f80da8|2019-04-29|aniabrown|Fixed bug in applyOneQubitDampingError function in gpu and distributed cpu versions.
+b9ac6ee8a99514115243f2776091c2d34d3106d6|2019-04-29|aniabrown|put unit test in correct place, fixed typos in gpu version
+1b3b833d85b94c4f5a55f8e92652e0f6aeca3786|2019-04-29|aniabrown|merge PR #117 --applyOneQubitDampingError
+767b7085abed81505f27a2384a25e8d9349d8d0e|2019-04-26|Jacob Wilkins|Tests skipped properly if not present
+16856fb98e794567564d4be9fda70ee95622afdb|2019-04-26|Jacob Wilkins|Made tests cycle targets
+5e3350de7bce3e448dc14a3ae63faf113cc0f95f|2019-04-26|aniabrown|Updated makefile for new file structure, based on PR #117 updates.
+566b8a2bc7a3067af2938199e6709e54b7b73627|2019-04-25|Jacob Wilkins|Added tagging to search
+6b791eb619ea3cb2704f35e3cf2d70b20622f38c|2019-04-25|Jacob Wilkins|Fix printing error for denMats
+e870dadf8d7cc0556665dfa00516fe9e7be43fe4|2019-04-25|Jacob Wilkins|Remove unnecessary var
+df24b0d537d8679732ebf7b28bb8e71210e70e70|2019-04-25|Jacob Wilkins|Fixed new path parsing errors
+11bd24fac218b7553b1b4487cc9a74283b21292d|2019-04-24|Jacob Wilkins|Actually added new tests
+338e9cc04a9e57f63e181c83214280602aa18ab8|2019-04-24|Jacob Wilkins|Accidentally moved into rather than replaced tests
+a3415ca1ddb66070b411ad879732fa16d7886d4f|2019-04-24|Jacob Wilkins|Refactor of unit testing
+0d51ff030abd5252714e8c3b1ebc2e6da6921f9f|2019-04-24|Tyson Jones|Bug fix: calcFidelity CPU on density matrices
+5d6f3c921b237411d54791b8d9570891e4dac667|2019-04-24|Tyson Jones|Bug fix: calcFidelity CPU on density matrices
+91867e5ee9f93b7a7874634f99bde7d5ae953864|2019-04-24|Tyson Jones|Bug fix: multiControlledPhaseShift on density matrices
+521d7c5f7cf8c51c2dfb96af76c15b1cb36ee6e6|2019-04-24|Tyson Jones|Bug fix: multiControlledPhaseShift on density matrices
+401611e285f5ebd4e9cffd0d9d33d19626ae7f8d|2019-04-24|aniabrown|Removed seeding by hostname from seedQuESTDefault.
+56f2cc312c5aeb890a280b2155e79802c3267a80|2019-04-24|Tyson Jones|Merge pull request #119 from QuEST-Kit/newFeature/buildDocs
+ed23027e6bd2de5f49da88794df8e9401b12f8c8|2019-04-24|Tyson Jones|Merge branch 'develop' into newFeature/buildDocs
+517e92301db196ea1e72ef32ad6f8ecde58176e1|2019-04-24|Tyson Jones|Merge pull request #128 from QuEST-Kit/newFeature/defaultBuildType
+dda09692eef1d88991c7c17f138ee347849720d5|2019-04-23|aniabrown|fixed error in merge pull request #125
+f48f1da8601ab950e92690b88b96e2412554bdbf|2019-04-23|aniabrown|manually merged pull request #125
+3658094a66c8ef381081102e785abce171235b77|2019-04-23|aniabrown|changed build system so that if no CMAKE_BUILD_TYPE is specified, optimisation level defaults to -O2
+78b4dd1051686ebc16c9356a428a930c69d3a111|2019-04-10|TysonRayJones|added multiRotatePauli
+76c6add8ef17f9b5a932bb8bff03a61dabad31f8|2019-04-10|TysonRayJones|add unique target/control validation to doc
+f0d4fea8abf974c85200c7f151e90c481698ac65|2019-04-10|TysonRayJones|made backend multiRotateZ accept mask
+10a4423737068ea444feeb9fd91848649cb9a891|2019-04-10|TysonRayJones|added validation that multiple controls/targets are unique
+69b28b3064abb819db078dd4bcda9ac7d719fa98|2019-04-09|TysonRayJones|added GPU multiRotateZ
+c60b90237d8ceaec35c3e4ac711ffa28f776971f|2019-04-09|TysonRayJones|moved getBitMaskParity to backend
+f4baf2c17dcf3bafbe2702a297064eb8b4d6495a|2019-04-09|TysonRayJones|added CPU (local and MPI) multiRotateZ
+5eddc53e850c4b5f34285eb319988e54a8b470ac|2019-04-09|TysonRayJones|added internal getBitMaskParity
+b31799ac3b574562c5cb354d6c3b8948dc26fa75|2019-04-09|TysonRayJones|corrected multiControlledPhaseShift doc circuit
+31952e72a54c8932bf952df7fd824e6f78cf8e4b|2019-04-09|TysonRayJones|renamed getControlBitMask to getQubitBitMask
+2a1b5ef5ea2988043d4d3c9c8368455a711bd5dd|2019-04-09|TysonRayJones|added validation for multi-target unitaries
+82529b6a75aed42357100f6f5a21f24cbe6a4a85|2019-04-04|Jacob Wilkins|Fix stupid overloading rule
+80fdf7f86864819df8c91cf58f4a1e489bb90da7|2019-04-04|Jacob Wilkins|Added Environment report and warning about invalid python
+0e87d4e8be71b6c8a2eb86596a295221c6830c2f|2019-04-04|Jacob Wilkins|Fix backwards compatible MPIEXEC
+b09e6a5b727333f2c61cf5ba6b0dabc78af40344|2019-04-04|Jacob Wilkins|Fix more f-strings (in tests)
+db9d40c7b5d5d29a524074ce9957101ee4587da6|2019-04-04|Jacob Wilkins|Removed f-strings (Py3.6 reasons)
+215f666bc9da6cb6cacf1b47b80d87d0f7be0596|2019-04-01|Jacob Wilkins|Cmake updated to work with MPI, removed QuESTEnv tests (which weren't doing much but breaking MPI)
+4bac1144cafbac2214a63660a81563ca466aa2b7|2019-04-01|Jacob Wilkins|Fix extraneous message
+a313f9c4e228bf78f28d265259b124e234efb845|2019-04-01|Jacob Wilkins|Updated tests with new testing standard
+6faa25881d1127b252e452a3b2bb9a5d069a282e|2019-04-01|Jacob Wilkins|Merged in changes to testing CMake Prepared framework for generalised external project utili
+fc33bae1fc4f9d1ffdc39750cf16c8c7f3cf2b58|2019-03-29|Anna Brown|wording
+485a211fbe3381bae9e217f053c515a849ecdfcb|2019-03-29|Anna Brown|added PyQuEST-cffi to a list of quest external projects
+c460b77f5c1b8fc90a8fd1591fa15143c611d424|2019-03-22|Nicolas Vogt|added unittests for applyOneQubitDampingError
+0bdfed11dde0e0980f8dd109da9edd3444c6208f|2019-03-21|Jacob Wilkins|Now parses correctly
+e8f31f739bb20b6ac803c74c1e6f8114e3d94b8f|2019-03-20|Jacob Wilkins|Workng with directory parsing Simplified _size_est
+57e80fb38ffdf6447f7a401a59964d1d0687981c|2019-03-20|Jacob Wilkins|Reworked test system to traverse directories Made QuESTTest.py a shortcut to __main__.py WIP: working on cmake to work with ctest Added .gitignore for misc. Python
+0d1c474ac8ebaa0d3f2731e076fa8b0ce2309b3f|2019-03-19|TysonRayJones|improved comments in copyVecIntoMatrixPairState
+ffa286127a3acf82e9988e3ae2d075cfe0cb6213|2019-03-13|Jacob Wilkins|Made help with not finding library more useful
+6bba77428e5df1893a797cb3ed86a376b19945d0|2019-03-13|Jacob Wilkins|Updated QuESTTest.py to load from defaultQuESTDir if set up
+da9cf3fd6f5895047a08a512445375bd12570d45|2019-03-13|Jacob Wilkins|Modularised QuESTPy and QuESTTest and changed imports respectively. Should be able to "import QuESTPy" and have all relevant loads if QuESTPy/QuESTLibDir.py contains location of QuESTLib Still over-ridden by tests loading or explicit import QuESTBase and setting.
+7e9e0c246f2fcc077ee728d753e1de4356fa48ad|2019-03-05|Nicolas Vogt|Changed include in makefile to make it compile
+a0a1bc3c7b77dd6d441bae55870e620b20545b59|2019-03-05|Nicolas Vogt|added an example that demonstrates single qubit damping
+2c523ac1461bd90efad2b0b2f09eda51218d2cda|2019-03-04|Nicolas Vogt|added untested densmatr_oneQubitDamping code to GPU code
+210d6a226dfb288eedbc4e123db5148b54d48364|2019-03-04|Nicolas Vogt|added untested densmatr_oneQubitDampingDistributed function
+3302cbf46045bdceeacb3c400a7edca41f846f93|2019-03-04|Nicolas Vogt|Added densmatr_oneQubitDampingLocal function
+210ff236bab6ec69feefc2e83e448602503c8c24|2019-03-04|Nicolas Vogt|Added densmatr_oneQubitDamping function
+436799734b0ac7e174b568604284981e07187943|2019-03-04|Nicolas Vogt|added Damping probability validation to QuEST_validation.c and Quest_validation.h
+0f3044f07122e3ccd3720733b7c0a76f3f762416|2019-03-04|Nicolas Vogt|added applyOneQubitDampingError to Quest.c
+f2e588f3e94ede06508443eaf70861e18ba48c2e|2019-03-04|Nicolas Vogt|added applyOneQubitDampingError function to Quest.h
+e22609a778c3609626000c048360bef409f66d30|2019-02-18|aniabrown|updated quick start in README.md for cmake build system
+ee80dfd7d6a00ad9c604108eb189c519de84b85a|2019-02-18|aniabrown|added cmake config to job scripts in tutorial example
+bfe4a11a1913223c71d6814d9919659cc79d2e99|2019-02-18|aniabrown|sources should use file extensions in tutorial example
+b0b3c2e109c1fdccddf8a95a5dbe18e721cda2dc|2019-02-18|aniabrown|first draft update of QuEST Tutorial for cmake build system
+20a4ef0d3b58af2dcbf2e1f0c26988eac1271417|2019-02-18|aniabrown|copy tutorial example to root folder so that 'mkdir build; cd build; cmake ..' will work automatically
+3cbfa817e105b07c1a0324e3d6c9b011fb3c9968|2019-02-18|TysonRayJones|fixed createDensityQureg doc
+80ca22fee740a72af5967b1e76bc7bb6b1b32cbf|2019-02-17|TysonRayJones|added multiStateControlledUnitary
+356614344ccac1b591a7a8be5000b2b87bfca8fc|2019-02-17|TysonRayJones|added control-state-spec in multiControlledUnitary backend
+6faf2ea1f345f58d6152847b006ceca2d1b39ef9|2019-02-17|TysonRayJones|removed getControlBitMask code duplication
+6d9b5dd314cc8d6850f8c982059c2ec1f4df88aa|2019-02-16|TysonRayJones|added general one-qubit Pauli channel
+547890f7466ba75cc96bab7f75c98bc75bebd185|2019-02-16|TysonRayJones|gave decoherence funcs QASM comments
+5616704e9587e3b087918886d1706ca3dce79e48|2019-02-16|TysonRayJones|enabled qasm comments to contain formatters
+6d17a16d924220720983714329e8ec7538ed04e3|2019-02-14|TysonRayJones|added sqrt swap gate
+d2cf9d82d2f9aa27b4e016fd94a49c3d76f29850|2019-02-14|TysonRayJones|added swap gate
+7f1c030e0ee7262b67550cbaf9869765626f3e4b|2019-02-14|TysonRayJones|fixing doc config
+e0eb95b46ea32d8c26556ae507053b1993d96f74|2019-02-14|TysonRayJones|Moved public complex header into include
+73c4a484c73fa48cf33243d2f8593b1f876ac04d|2019-02-13|Tyson Jones|Merge pull request #94 from QuEST-Kit/bugFix_buildRefactor
+e0a65be50a9534115881a9e728d7c289b41c8199|2019-02-13|Tyson Jones|Merge pull request #96 from QuEST-Kit/masterBugFix_mpiSeeding
+3f3def7777e655aaba4f1e05908a8156a213f2aa|2019-02-13|ania.brown|mpi version of seeding function used wrong data type.
+3c1c9944229e44a8011c5148e624afaa092c6bf7|2019-02-13|Tyson Jones|Merge pull request #95 from QuEST-Kit/develBugFix_mpiSeeding
+b9da107cdab96d254a57c8f35631fa23857b9230|2019-02-13|ania.brown|mpi version of seeding function used wrong data type. This caused intermittent errors that occur with certain seed values, and were not caught by testing
+99000b65bf39b97e625d8a94c670cb26f7a846cb|2019-02-13|Jacob Wilkins|Fixed overlapped names
+65ca1761da3da7d5ed3d25c482ac46c64ca9da06|2019-02-13|aniabrown|restoring compute capability to default 30
+2ed9b89d440ef901c678c52929e3552a1bda9eba|2019-02-13|aniabrown|fixing error made in QuEST_gpu.cu when merging. Restoring tutorial_example.c
+cc167b7315065e3075e9e569cbf1b4e7aeecb5a9|2019-02-13|aniabrown|resolving conflicts when merging PythonTesting into develop. Keeping seeding bug fix on develop
+db14c79cefa4c3263774a674b5eca57612e6754d|2019-02-12|aniabrown|Develop (#91) minor patch
+d942343486e0f3b12a3ee101822853997f0edc59|2019-02-12|Jacob Wilkins|Added repeater syntax to -V option
+ba32ca9bdd8581d1326bb03db8aad2cd9c02db33|2019-02-11|Jacob Wilkins|Added new options for generation of tests and ability to test different things than the state vector
+c93f92b598025bdeccfd4a0a252b280876bc8550|2019-02-10|Tyson Jones|Fixing error in phaseShift doc
+700ef9b9a875d74b9f8721cc4852fe7afc34fe7d|2019-02-06|Tyson Jones|Patching GPU QuEST build
+35db3bcafe4b0442f52bb2d89e55645cea87d27d|2019-02-05|Jacob Wilkins|Added find_file feature Generalised QFT test
+5ee0c77daa2ce3f8d80e1ff0272100d17a2ff2a8|2019-02-05|Jacob Wilkins|Fixed addDensityMatrix test
+83278b05d7f5ad8cfe8afd6a888485d726eaaeb3|2019-02-05|Jacob Wilkins|GPU Should work with new setDensityAmps
+1fec17e126cd7460a6d910f1b31b2499d7910ce0|2019-02-05|aniabrown|Merge branch 'PythonTesting' of https://github.com/QuEST-Kit/QuEST into PythonTesting
+70c020b79692f670a14abd6e6a3d4571b570abca|2019-02-05|aniabrown|Created new debug function setDensityAmps for use in testing framework.
+f83ec80cda8732dc3ce673f62c85fca9ac444dca|2019-02-05|Jacob Wilkins|Sync More GPU
+9f11926e5cf2810fd853324f3a087a5f0839fb89|2019-02-05|Jacob Wilkins|Use getattr properly
+6746e50b04d352a88ef797a27d5ef5b4fbc90a5a|2019-02-05|Jacob Wilkins|Possibly fixed GPU testing Added QFTtest input Added rotate_benchmark
+b19dacf8aadf55a616e9be2edc83f9634a25e7ce|2019-02-01|Jacob Wilkins|Refactored gen/run tests into TestResults class Added QFT test function Made Python test scripts able to generate and read testfiles
+38bddc564e237c8f792b6d84b5e3372776aea529|2019-01-30|Jacob Wilkins|Better docstrings and error messages
+7816e86aa9a6f5aefec285aaca5150a120ce30e8|2019-01-30|Jacob Wilkins|Cleaner logging for MPI Processes
+1e7ccdaa3ee805f597ebd42f4f7ea57bee9c0ea4|2019-01-30|Jacob Wilkins|Improved output with flushing
+267ba14f7da6a9b0c236cfe7ccb6602cb3966837|2019-01-30|Jacob Wilkins|Fixed MPI tests
+4604ee0a28bab84ed5aa7e5608153adfd8cb12bc|2019-01-30|Jacob Wilkins|Remerge after modified CMake
+881268fb8586ad9bda57be41bfb667205601a4d4|2019-01-29|aniabrown|we don't actually want to use c++11
+a4f59d5856be1dd01ad3c7e48087dc993f3bd3bf|2019-01-29|aniabrown|added c, c++ and cuda flags for debug and release mode
+e2603005cabc8f1264d3f1a67b2e7d939c287d1d|2019-01-29|aniabrown|oops
+2ea4b0bad3ffdf6708c875cde44c49732da04f33|2019-01-29|aniabrown|changed user settings variables to cache variables as this has the same functionality and is cleaner in the code
+d4e3c090163ff289320fb00dc65654cdcc9c43bd|2019-01-29|aniabrown|added config settings tests
+ec0369759f93c90e5e8e9e44edadecb2c3f21b6c|2019-01-29|aniabrown|small fixes to compiler flags, added some reporting with VERBOSE_CMAKE
+b57684be3e10c0bda406ce4f0c8555688cf1fb56|2019-01-29|aniabrown|oops, forgot to add GPU CMakeLists.txt file
+c70d890050b83c84f5a17edd5adc0706403311fd|2019-01-29|aniabrown|oops, trying to configure a target that doesn't exist yet. Fixed
+206f81cf7f9302eb28b3fb6d349c9f538511aeb9|2019-01-28|Jacob Wilkins|Added nQubits option to CLI
+2a26a9e674e4ac5980512fdc4a554f61bd54f9c7|2019-01-28|aniabrown|rearranging order of CMakeLists.txt commands
+91252fceb725ff54b50caadafdca56769cb34598|2019-01-28|Jacob Wilkins|Commit after merge
+7ea4c624671bb6639e6261bfdd5a38c1ef8b9330|2019-01-28|Jacob Wilkins|Split QuESTBase to initialise base library Made system autodetect precision
+ab6ac5065fee949e090097c3b716f1b749ae472f|2019-01-28|aniabrown|cmake now checks for libQuEST.so path and build QuEST if not found. Library location passed to tests
+85a8371d35babd3725b7bf01caa0822101ee6f8c|2019-01-28|aniabrown|moving run tests command into tests folder
+f622b08af99c24e342be2d3ef569453e66a6d491|2019-01-28|ania.brown|first attempt at running tests with make tests: run a shell script
+fc12523bf8648efdcd7e6790ce7bcbd21bcd2f6c|2019-01-28|ania.brown|changed name of QuEST_lib to QuEST. Cmake automatically generates libQuEST.so
+f293b486d297953964c1354c30fa6b9aa7660951|2019-01-28|Jacob Wilkins|Allow redirection of QuESTLib location from command line Fixed several typos and how some things print
+4a6e0f102473dbbf8fb321418178b29b173b337e|2019-01-25|ania.brown|gpu code compiling with nvcc but still need to send correct flags through
+50bca33b044f0e2f4ace3424ed62863098f757e6|2019-01-25|aniabrown|first attempt at GPU support
+0b54c28fdb5a940fccd48685619526a80ab10109|2019-01-25|aniabrown|openmp and mpi linking working on linux
+bbd5d28fa243c6173d7c4600e795b879c367a581|2019-01-25|Jacob Wilkins|Added Tests to repo
+5175a07696a99a335103138d2e288cd47f934582|2019-01-25|Jacob Wilkins|Version 1 with helpdoc, parser, Python/Test format set up, etc.
+4db14ccb9b8a3b11853a85c8685b014705cdd318|2019-01-24|aniabrown|OpenMP flags passed through to library correctly as long as built as shared library. Added user config for library build
+0bb41e128ce77d2ae37740d325b61e3ea6b1340f|2019-01-24|Jacob Wilkins|Added more complete argument parsing and help feature
+226f5e10714c330687165b0275a79df4b6e011c6|2019-01-24|Jacob Wilkins|More useful pass messages Included non-generated tests
+01096dc7a4c3cec421f014ee4d2d7f4003aebae6|2019-01-24|Jacob Wilkins|Working test suite Slight weirdness with seedQuEST Python flag in test files possible
+8d822c8ea0393c5a64d1ce618f3dbf9a2d1eb629|2019-01-23|aniabrown|adding compiler c++ flags
+bf142e128243ea816cbe6f88133553919dfaec6d|2019-01-22|Tyson Jones|Restoring tutorial example
+361b06ec21be924a0a95fb55ca2ef2fbdd5ab70b|2019-01-21|Jacob Wilkins|Refactor of code allowing better custom tests Added functioning autogeneration of tests
+8d7301c0562fc191dc34a968ea2949d5d63bbe2d|2019-01-18|Jacob Wilkins|Begun autogeneration progress
+2006d32521b52c6b32c12bb38a86a8c9ad114e7e|2019-01-17|Jacob Wilkins|Included new tests
+080398b6567114558b8bc2f44e9c139c1dc643de|2019-01-17|Jacob Wilkins|Working with custom tests
+13c97207dc7af109dc757e1cd1fc1e62bab246da|2019-01-17|Jacob Wilkins|First commit with new testing Framework Works with hadamard (has test) Successfully fails for all other tests and prints failure to log
+82c42ca2baab1e2eb73dff546d7ba68766a594b4|2019-01-15|aniabrown|Merge pull request #88 from QuEST-Kit/develop
+b6078732163dab7a2d8ee6d51108da0d79aad22b|2019-01-14|ania.brown|fixed bug in seedQuESTDefault in MPI mode.
+6191505d5e9f0a9d81f1576896c0589a6c851591|2019-01-14|aniabrown|Merge pull request #87 from QuEST-Kit/develop
+56af7033972c475c50b9226cc8bb0ad2a67d2a2e|2019-01-14|Anna Brown|restoring docs
+d82e9f17326741615906d9b28fc28f408f5c362c|2019-01-14|Anna Brown|Merge branch 'master' into develop
+6c0b9c95cdf1bf8548ab43de1231f5176002de13|2019-01-14|Anna Brown|removed docs folder to fix replicated commits issue
+5061a704f15f0a913b4393a0088de466529c57d0|2019-01-14|Anna Brown|remove docs folder to fix replicated commits issue
+82a4410f77a81bc122a18e0a7192407985e490eb|2019-01-11|ania.brown|updating READMEs for url change when moving to QuEST-Kit (already done on master)
+c8276b1915f56555720896a853d616bc1bfefdbe|2019-01-11|ania.brown|added new doxygen documentation files corresponding to files in QuEST/CPU and QuEST/GPU to git versioning
+5ab2f8106ed434fc301ce0fc846acecd67978893|2019-01-11|ania.brown|added new doxygen documentation files corresponding to files in QuEST/CPU and QuEST/GPU to git versioning
+ceb4b3189558bdd2e3fd217b6d4351d1df6e3705|2019-01-11|ania.brown|updating docs (change already made on master)
+8dff38223f0dc08461a2b20c27af781fc79b5d67|2019-01-10|aniabrown|updating docs folder for new documentation
+f5cf4a5d01aa98a5f8862b6d0e19b514361b0cc9|2019-01-08|aniabrown|added QuEST/CPU and QuEST/GPU directories to doxygen
+02527e51edaed530681cfed13da2f18c2fae92e3|2018-12-18|Tyson Jones|more URL updating after migration to QuEST-kit
+dea93cc18e669704c6d1ea1b890ea30465fa4ff5|2018-12-18|Tyson Jones|updated URLs after migration to QuEST-kit org acc
+82e5f7fcca0c2e3e08d22e4559c21fe0aa462bed|2018-12-13|ania.brown|Added configuration files for a very basic single serial cpu build using cmake.
+6dca79aae2a2da30ea66f8cbe2cc2a16b7439a89|2018-12-13|ania.brown|Moved QuEST library files into src folder or include folder, with include folder containing header files which can be publically accessed
+f895970c19e48a95f1a0c268000e9b7c80fab77f|2018-12-12|Tyson Jones|Manually restoring aux unit test files
+2bb85fd77c01a96f6b5470f4ce90a3a5aa2ad510|2018-12-12|Tyson Jones|Restoring unit test aux files (#85)
+649b854786fd747d0ddafccfb58ea8057c1c6757|2018-12-12|TysonRayJones|restoring unit test aux files
+ca8a99b4b08cb42a9f372f7dd75d5394e28ae311|2018-12-11|Tyson Jones|Updating example README (tutorial) with new API (#84)
+0dd0357f0e5f587a94d8886af2802ce67a9f6827|2018-12-11|TysonRayJones|Updating example README with API change
+fd2f0651249d728e06552e2aa2538595504dd489|2018-12-11|Tyson Jones|Avoiding future merge conflicts (#83)
+5acc8d03eaf92bd32f0a5072b976dd9077e620a2|2018-12-11|Tyson Jones|Restoring licence
+ef09bda21dd1d09c1f5a28bd41cc147b1e11e8e6|2018-12-10|Tyson Jones|Merge pull request #82 from aniabrown/develop
+b26ede7edee4f00283f87051aa0b0ff9a2a68873|2018-12-10|TysonRayJones|restoring doc
+b9ec54deb06a091c00162bad877ff5fae1cee7aa|2018-12-10|TysonRayJones|Merge branch 'develop' of https://github.com/aniabrown/QuEST
+fadf53b2045fe9f532bffe07cecca8a37d67e089|2018-12-10|TysonRayJones|Deleting all for dev merge (bad conflicts)
+8cbfb197fdc445076dd94130664ae0ca6cbde741|2018-12-10|TysonRayJones|removing docs to solve merge conflict
+8523d11b90d470624e1bc29aec017ef4e9c35ae4|2018-07-14|TysonRayJones|reverting seed function name changes in tutorial
+bb6a8562f5ec72896ce28c84941a8c645cc0b8e7|2018-07-14|TysonRayJones|reverting seed function name in unit testing
+c52447fea31821251f32d16db950c13f640f936c|2018-07-14|TysonRayJones|Revert "renamed QuEST seeding functions"
+872db18921ea44079bdd2a81432db4d28ee7aa42|2018-07-14|TysonRayJones|Revert "updated doc after seeding rename"
+30cfa015c89cafe2314c40826dc8584de91b26b2|2018-07-14|TysonRayJones|Revert "made initState functions accept MultiQubits (not pointer)"
+ca9f9c7554a411df544c5308a438e8be12c5d5ac|2018-07-14|TysonRayJones|Revert "regen'd doc after signature change to init functions"
+35f44c0de19d9399dc16caf79765d1ba2b74f7d2|2018-07-14|TysonRayJones|Revert "updated use of initState functions in example code"
+de4ca19192962b0bde3539a4ac08f71902f0009b|2018-07-14|TysonRayJones|updated use of initState functions in example code
+2b6431cdca0acc30a473ee15b610046abcc56993|2018-07-14|TysonRayJones|regen'd doc after signature change to init functions
+90ca2375ce29700f7c3bdfb3a2edefedec649fff|2018-07-14|TysonRayJones|made initState functions accept MultiQubits (not pointer)
+ce4aaa96e3b0e6282a10b403f4713138e25d4fc9|2018-07-14|TysonRayJones|renamed numAmpsDividedByNumChunks to NumAmpsPerChunk
+e99948aac7a9728c1a63b086ce914ee9738e89f4|2018-07-13|Tyson Jones|Fixing URL in README
+22ea981d62fe0b0e9c0ba86c5f4a0836ab9f2946|2018-07-13|Tyson Jones|Update README.md
+6c5bcfd7a48bf4a3b28b3961776b1db5857a5c7b|2018-07-13|TysonRayJones|tidied and added submission script examples
+4bf9671b16df64a8345f0047147994ece9735802|2018-07-13|Tyson Jones|setting makefile to default compile the tutorial example
+9742645a411c9af4c8636f48ba7a3bbfaa85be84|2018-07-13|Tyson Jones|Update tutorial_example.c
+a7b1ea4adb1000ddbb178f5ce7232227facabd5f|2018-07-13|TysonRayJones|updated doc after seeding rename
+108cb5a51fb16051b0febe495ba0257d70242735|2018-07-13|TysonRayJones|fixed bug in unit test automation
+21a30670c6a8bfcc1efce664789b45b637034e6c|2018-07-13|TysonRayJones|renamed QuEST seeding functions
+1be8e7172dc2e4f04b86a23c52822527e87b6b84|2018-07-13|Tyson Jones|Rename bernsteinVaziraniCircuit.c to bernstein_vazirani_circuit.c
+93caf54f81c8e303ea38f0bb69fef0a6da57b1b8|2018-07-13|Tyson Jones|Rename tutorialExample.c to tutorial_example.c
+5d6c07a0c4aab3bb2f4c259dae3f0d138b8bb78e|2018-07-13|Tyson Jones|Updated tutorial in wake of combined makefile
+76b0162c158be114a458c568736dd96023683de0|2018-07-13|TysonRayJones|moved makefile, made unit tests use makefile params
+3db55663cededd037b4a46092a2ea36d151f3e91|2018-07-13|TysonRayJones|resolved gethostname
+606cd2e34792c609d50cda05e8bbf739dacda276|2018-07-13|TysonRayJones|fixed variable-precision floating point formatter hack
+89cb2a1acf6727a6e4b37b4ec27e5612531c62c8|2018-07-13|TysonRayJones|ensuring makefile overrides bad user settings
+a7155d7440e5eadb8520ef758e2f73ec254e570b|2018-07-13|TysonRayJones|removed unused vars in unit tests
+ab3f97d1cc5a4627be5c405efb2378c8d61857f1|2018-07-13|TysonRayJones|tided imports and doc
+6423d4fafcf4ee0be91e4fcd965968bf92a782ae|2018-07-13|TysonRayJones|deleted superfluous doxygen folder, since ugly
+5dd28a8362c43ae0d8b07d9c0aa1da6a8eea2ab2|2018-07-13|TysonRayJones|updated compiler test makefile
+19ab6cafdddf2917a2fe94ab2bef60f8f0522fa3|2018-07-13|Tyson Jones|temporarily redirecting API link in README to this fork
+ed44063c1d526141ed5e66a9900c178a113504ae|2018-07-13|TysonRayJones|Updated doc
+1882bd3b3ca4a1d8326aec5fcb045f0864e74c1f|2018-07-13|TysonRayJones|oops missed precision in removing code duplication
+464e359926a93ba68f443b98b07f2b2fb6a92588|2018-07-13|TysonRayJones|removed code duplication between CPU and GPU QuEST
+8d51d46584e967976324d9c471ced6e28c4661ab|2018-07-12|TysonRayJones|fixed logical error in initStateDebug
+260bc53429c50376fcd7ecdfdcb321c8e3797880|2018-07-12|TysonRayJones|added support for distributed unit tests
+1af7ca8bd8167c89e58b7a521141c4e01fcbe7f5|2018-07-12|TysonRayJones|fixing typo
+ebb93f157dfb01089d9ac60c96e65c3930b71fa7|2018-07-12|TysonRayJones|made threading default in automated unit testing
+4b6cfa05322e2d910ba85a0776e9d9f963f8c234|2018-07-12|TysonRayJones|improved automated unit testing
+08e4b050fffb12d03c2e0454af494f26c87a1802|2018-07-12|TysonRayJones|renamed compilers test script
+2b153ea2ee3bdd5fb5276c918366b92a4c912cab|2018-07-12|TysonRayJones|added automated unit testing and cleanup
+a3ca12cc90fd5aa2f4e9f01b34c516a4b0e796f0|2018-07-12|TysonRayJones|migrated Anias unit tests of getProbEl
+a1a83dab64c44068feb4430970f4a9c66a3bc16b|2018-07-12|TysonRayJones|migrated Ania's GPU getProbEl functions
+06d91cce760316f176508a68cae7e2c9011e7311|2018-07-11|Tyson Jones|Update README.md
+42ce81413df50a9571fe6aabf07b04c9a13df5d7|2018-07-11|TysonRayJones|made default seeding automatic in initQuESTEnv
+d7d8096749cf6b37f4763c045c405dddd4f5e884|2018-07-11|Tyson Jones|Making compiler-compatability-versions URL relative
+22b1fdf330d28a20a5caff6619bca29f229d3786|2018-07-11|Tyson Jones|Linked README to compiler compatibility check results
+8c55b2a2bd71871d2e3c8ef809f47758dba95ef8|2018-07-11|TysonRayJones|added compiler compatability test results
+70a445e4e28fb071a57a54b41d335dd28462be2f|2018-07-11|TysonRayJones|added python script to prettify markdown
+5222287dea07609b7c533c96efdd9b1587a8ac2d|2018-07-11|TysonRayJones|added compilation tester
+f1cdc14ee02ccdc19b402dece53f76306ddc350b|2018-07-10|TysonRayJones|improved makefile compatibility with older MPI versions
+67fa69a3bd47523246bb4818a718cdcf19fbb55d|2018-07-10|TysonRayJones|tidying makefile, adding notes
+ab30a791fd3f9e62a2fc15849ff64a5cda7f0cb1|2018-07-10|TysonRayJones|added note about flags for compiler versions in makefile
+afb9e9f80b5545431e9193669bef159302bf20e9|2018-07-10|TysonRayJones|adjusting C/C++ opaque makefile
+a13f1e239964713b40b5f61af5af6b46f0c0f6cb|2018-07-10|TysonRayJones|made CPU QuEST C++ compatible
+153408fde69bc48930ab2924c00f623430e0bfec|2018-07-09|TysonRayJones|pointed doxygen to CPU QuEST headers
+7f2e790ef927a4eda75b0eb0591fd48cb82af65d|2018-07-09|TysonRayJones|Updated README
+32a4af2a3e69846924ac6603d3c8d351b1a2dd4a|2018-07-09|TysonRayJones|merged GPU QuEST, updated makefile and demo
+7f164618057057c2e3e07511d6d71326514f1fab|2018-07-09|TysonRayJones|renamed PREC, made OMP importing safe
+ac0a022fd6a6d93b5fb581994624d4c455a4bae0|2018-07-06|ania.brown|changed multiQubit.numAmps to multiQubit.numAmpsDividedByNumChunks to prevent users accidentally acessing numAmps in MPI mode and getting an unexpected value. Added getters for numAmps (total), numQubits
+5379789bf5f82d87a0c85ded824c8658c0c7fd79|2018-05-16|Tyson Jones|removing unit tests makefile
+cb3ba0eb3c82d74002c2c9605e86039503bbb563|2018-05-16|TysonRayJones|added unit tet makefile
+b77dd497a1839f9574bbbaa75a99f9b2f2a515ea|2018-05-16|TysonRayJones|added initClassicalState unit testing
+43b724e3f441c8cd702161e2bf8adf356dd81034|2018-05-16|TysonRayJones|updated generated doc to include initClassicalState
+353a68d5f95337d534781e4adcc56e3f1a28abf9|2018-05-16|Tyson Jones|added docstring for initClassicalState
+4fea91314cc793884d3583e6948074d4dc0d1082|2018-05-16|Tyson Jones|implemented initClassicalState
+eb60560b44cc8477aed78af2d10c748ce5fb6b80|2018-12-08|Tyson Jones|Update README.md
+fb6a99251b51b1a0de384dde4996bece11ab2645|2018-12-08|Tyson Jones|Updating doc (#80)
+453c456a49a45dc5f4cfc998228ae6bea4e90d6d|2018-12-07|Tyson Jones|Tidying structure (#79)
+056a7994f9187014d75a26e92e37317209e64632|2018-12-07|TysonRayJones|made unit tests C++ compat
+cd0328ebbbc3c7e87e2e6c9a7ddbf375ba8a24e7|2018-12-07|Tyson Jones|Adding optional precision-agnostic lingo-agnostic operator-overloaded complex type (#78)
+30f42510259546efff59150c349fca315f801721|2018-12-05|Tyson Jones|Updating the API (#74)
+955f7cbaaafcc18a3e8161b73a7d713087c7bb43|2018-12-03|TysonRayJones|fixed compiler warning
+ecb445033b143976343f2e05785007e2ff7a96d4|2018-11-28|TysonRayJones|declared initQuESTEnv to take no arguments
+c4a6632cd2fabe4546c73a4e9432f3678c88035e|2018-11-28|TysonRayJones|updating unit tests after noise API change
+4eafbbcf22a0f888e5f15564b08343819ad30393|2018-11-28|TysonRayJones|changed noise functions to accept a probability
+a9155d058b6ee69b58dcb9b1e0d9bdc951df8ee3|2018-11-28|TysonRayJones|tidied QuEST.c
+eaea6dcd652a7bba3d6bdccee13d3970b6030a1a|2018-11-17|TysonRayJones|wth
+e8a656aac33170e1ed4811dbc653fd194563e2c6|2018-11-17|TysonRayJones|made it easier to set threads/processes in unit tests
+fdaf1245296be7aa4ae7eb53208a7f517746adb0|2018-11-17|TysonRayJones|adjusted unit test order
+524ea9bd4ee8cb237b54f9dcc102994855fefa73|2018-11-17|TysonRayJones|increased min numQubits in unit testing
+4d8cebef01bbbd9a009244e1325d21cfc6fed888|2018-11-16|ania.brown|restored debugging change in reportStateToScreen, updated initPureState to work in mpi mode with 1 proc
+de01f9e831adb1822e6b7b5cd5502b5a13166dae|2018-11-16|ania.brown|Merge branch 'develop' of github.com:aniabrown/QuEST into develop
+ef1e4f89f31d44db2041abfde1c50be6c3f51042|2018-11-16|ania.brown|fixed bug in mpi version of twoQubitDepolarise where loop variable was being updated within the loop
+f9044259342369c7fdfd5731668218796c75da89|2018-11-15|TysonRayJones|enabled rank-4 unit testing
+c73497d7b9d0a5d326730f0c9fb6023fe3a38403|2018-11-15|TysonRayJones|added validation for noise target qubits
+268ded5bd5bef89dff0fe0e28524704a2d9811e0|2018-11-15|TysonRayJones|fixed distributed compiler warnings
+cade38d98ac3567474670be2576407d75ad26b01|2018-10-31|ania.brown|restoring makefile
+763500167e0fd3f0d93e01128e95e2dd7e604233|2018-10-31|ania.brown|restoring small changes made for debugging purposes
+ac5ae74217a9bfa4580b4a904e5cd8a30c46bb85|2018-10-31|ania.brown|added single and multiple CPU versions of oneQubitDephase, oneQubitDepolarise, twoQubitDephase and twoQubitDepolarise. Added unit tests for these four functions -- one qubit functions unit tests are generated by hand, two qubit unit tests assume that the GPU version is correct (GPU version has been tested against a monte carlo error implementation).
+5180024b19f1f1453c1b485d8330377bdfdea5e5|2018-09-17|TysonRayJones|made initQuESTEnv return a QuESTEnv
+ba07e9deba65a7dad6ebe97d4945db3bf2095ae4|2018-09-08|TysonRayJones|Updated examples
+06cc56672525828270d1942e47524d335e33d7ca|2018-08-29|TysonRayJones|changed createQubitRegister to return register
+a16093110956d213f8515c6d33554df6883554af|2018-08-27|Tyson Jones|Merge pull request #66 from aniabrown/density-matrices
+6938c8053c0a40e19c5d950866d6a4412ada4225|2018-08-27|TysonRayJones|implemented phaseShift QASM
+9e47803053c8f422d05c9f73b1a254bd213b82a7|2018-08-25|Tyson Jones|Merge pull request #65 from aniabrown/density-matrices
+08ad0108cefd30f806dfdf82a71ca43d8b196846|2018-08-25|TysonRayJones|renamed combineDensityMatrices to addDensityMatrix
+0c28ee5df6bafdf25468935b906e98c571031937|2018-08-25|TysonRayJones|added multithreading to density matrix collapseToOutcome
+3b14930276636e7739bc44b20b9927a784600c64|2018-08-24|TysonRayJones|tiny bug fix
+5901b7f65608b609487aa8fa938f7a010e90f960|2018-08-24|TysonRayJones|removing completed TODOs
+7e884f8b7faf0ca5353b720884d76314ca9904b0|2018-08-24|TysonRayJones|added non-multithreaded (but distributed) density matrix collapseToOutcome
+44b7722489cdb7f08a69a5864520432820a44e26|2018-08-24|TysonRayJones|allows compareStates for density matrices (for unit testing)
+8691199f7d25f157bbcc76779110f1d22ee4d68c|2018-08-24|TysonRayJones|added unit testing for density matrix initClassicalState, collapseToOutcome
+7b22e5d1e55bc0403be0d225d72d8748dd17e398|2018-08-24|TysonRayJones|fixed bug in validateStateIndex
+7066d4305bcd8b272787fdfb64ac22cad368564f|2018-08-24|TysonRayJones|fixed bug in density matrix calcTotalProbability
+34a1e8fe3f19df008a238f84cc65b66d7e897d8a|2018-08-21|TysonRayJones|Added notice to calcTotalProbability doc
+4686304a03e407bb31da0f75503d99893a80175b|2018-08-21|Tyson Jones|Merge pull request #59 from aniabrown/density-matrices
+8cf18abce5cab55dbfb4a1e2109608a6f1ec03ce|2018-08-20|TysonRayJones|fixed bug in GPU density matrix initStatePlus
+bded9b8ec42da1be6e59a46eaf2117fefce2c941|2018-08-20|TysonRayJones|fixed QASM formatter
+d32ca66385645cef36dafd7ecd7ee0effd089908|2018-08-20|TysonRayJones|added unit testing for calcTotalProbability
+6e3e42e584199c80f0c31da4cae814a42b97a753|2018-08-20|TysonRayJones|tidying / removing unnecessary headers
+086b1d3509c7147df17be7e5dc5cd4e749072021|2018-08-20|TysonRayJones|added unit testing for distributed calcPurity
+891d5cee69ac62a7656533370d5a2dbfa0e66f3d|2018-08-20|TysonRayJones|fixed bug in distributed density matrix initClassicalState
+69cc8ff6747a390ea9a6b8e861755e421604c35c|2018-08-18|TysonRayJones|qureg creation auto inits zero-state
+da893cc22bbb513b5e0616ba5e471554fa870c05|2018-08-18|TysonRayJones|added unit testing for calcPurity
+61885580b838ce9a0827e912f0f4d551bb294c0f|2018-08-18|TysonRayJones|implemented distributed calcPurity
+737471a1c769cdcb2f13adeea77a56491d6781b4|2018-08-17|TysonRayJones|added unit tests for combineDensityMatrices
+100a1653687e743618c53dc6a4f67d1b36193ec7|2018-08-17|TysonRayJones|completed calcFidelity unit testing
+3ee1b9f7f496e35c91283feb6828133f24c677af|2018-08-17|TysonRayJones|implemented distributed combineDensityMatrices
+3f28dd4ca8138380dcb0d259f3ee83af8dd4b494|2018-08-17|TysonRayJones|OpenMP parallised initStateFromAmps
+2f3d672046213949111dbed5b7b863488e90cd7e|2018-08-17|TysonRayJones|OpenMP parallelised density matrix initPureState (local)
+68b7170c5c95b6a65e3f50b568fd6d1812686388|2018-08-17|TysonRayJones|removed old (wrong) initPureStateLocal code
+8926d2c6962f8d860bfa22957c25878f30597e58|2018-08-17|TysonRayJones|fixed bug in CPU density matrix initStatePlus
+5e43406d46d4e647ad970ceb4bb31f0f7b7f7c1a|2018-08-17|TysonRayJones|added unit tests for density matrix initStatePlus, initPureState
+56e3e697c80ec1648dfcec72aae301e2ebd8a921|2018-08-17|TysonRayJones|fixed bug in copyVecIntoMatrixPairState
+a08217fa9a223ce6dda44913aa925f01a130dba2|2018-08-16|TysonRayJones|fixed bug in distributed density matrix findProbability
+98eac8d7af7b91fcaae9f7335b6aa56bd7079038|2018-08-15|TysonRayJones|added distributed initPureState for density matrices
+0bc604678d1fba96b23ba8e447535419ed4b53ad|2018-08-14|TysonRayJones|finished distributed calcFidelity
+c7776cc940c52880e25f5ec1a86026eaa933a43f|2018-08-14|TysonRayJones|renamed MPI_MAX_MSG_SIZE to MPI_MAX_AMPS_IN_MSG
+1385f2b62eb901313922960e73fd5042b9772225|2018-08-14|TysonRayJones|moved MPI message constants to precision.h
+f7a2629e9fb49523fe4869ffd13663d2011a3e71|2018-08-14|TysonRayJones|added calcFidelity unit testing
+e776ba1a0f4191ea2f12653387ed52760f68c23b|2018-08-14|TysonRayJones|added distributed calcFidelity
+267df5d9f8a0c6d5e93b07004a1ec60c54f488dd|2018-08-13|TysonRayJones|added CPU calcFidelityLocal (distributed aware)
+5da4edd2b8afd30d39de506e80835321266d4eaa|2018-08-13|TysonRayJones|added QASM  comment to initStateFromAmps
+73d83a8da5e9334f0c0784421ab70f7af3f1530a|2018-08-13|TysonRayJones|added recordComment to QASM API
+a6f79b513a3a835e5b45b5c0e759401e5bcb6115|2018-08-13|TysonRayJones|added initStatePlus QASM
+83fce20fa1e32de1889d2f6b363889f9e92ece25|2018-08-10|Tyson Jones|fixed bug in GPU conjugate controlledSigmaY
+92b999e951b36ffeb9ca80673d62f07c7c53e97e|2018-08-10|TysonRayJones|unit tests passing at all precisions
+741d2dbf1232c90a9d641dd1a4593f04c1810af8|2018-08-10|TysonRayJones|made unit tests precision-conscious
+0575b55675f5c8c86495080eb808c7b8cc2ff4d1|2018-08-10|TysonRayJones|fixed QASM quad-precision parameter format
+d3d5e811577515d85db9a5c586b3a3d68073f0e4|2018-08-10|TysonRayJones|removed completed TODOs
+8ffd98d4adf32e5c84a3623625d2b04f5392fe1b|2018-08-10|TysonRayJones|trim 0s from QASM params
+e9ecedb9fb09dd47625b0bbda322615b4c28f751|2018-08-10|TysonRayJones|added QASM comment explaining extra controlledUnitary gate
+24fd9ff0d4fa7854e8dfb92346b0fa0f64252f4b|2018-08-10|TysonRayJones|adds QASM comment to initClassicalState
+f8793fae434108af32521cbae97d914bf8f48178|2018-08-09|TysonRayJones|added QASM for recordInitClassical
+5192207d28784a1bc7933714d7dbcf2c55b92f6c|2018-08-09|TysonRayJones|added QASM for initStateZero
+876753f02c70c40f1d9781f4dcd95383e69e75a2|2018-08-09|TysonRayJones|removed unit test TODO for initStateFromAmps
+d3a4c48e581e8e9184f45570c08bf5211b1926cf|2018-08-09|TysonRayJones|added unit tests for initStateFromAmps
+77818bc7a1cb5355f2beb7e60a88267ed5d1606e|2018-08-09|TysonRayJones|added validation for initStateFromAmps
+f96fe6d1bfeba47169ecadf5fb3f60ed9a7f78a3|2018-08-09|TysonRayJones|marked calcPurity with TODOs
+6c19c20e0acb1c95b720e2ede7bc6b2f64f4267b|2018-08-09|TysonRayJones|fixed bug in distributed calcInnerProduct
+244c2e5c5ce0f10349f505d44f0ac37c1f2bfea0|2018-08-09|TysonRayJones|fixed bug in CPU calcInnerProduct
+349915d02d24d0e46a728d80e59ad1461f5abc5d|2018-08-09|TysonRayJones|added CPU initStateFromAmps
+e1c188e0d3718d4486fe5f913eac1f6e16bc3c93|2018-08-09|TysonRayJones|fixed error in CUDA copy direction
+b329f9ae8ca6664e8e924fee6493f9abd38cf3f7|2018-08-09|TysonRayJones|added GPU initStateFromAmps
+96b2a051eba39c0f37344d13eee0e041778a2809|2018-08-02|TysonRayJones|regenerated doc
+1a5030c4f905e22748dd04952e97b8564ff761f7|2018-08-02|TysonRayJones|added getDensityAmplitude
+f0384741ef204d13bf7d820f568fa54e4baeaab0|2018-08-02|TysonRayJones|added GPU density-matrix calcFidelity
+15b2a1feb0d9de83afb37cc68eb104138cf5a3e2|2018-08-02|TysonRayJones|implemented statevec calcFidelity
+bd918c88b907b490dbdec8ae4a0447cd42a1140a|2018-08-02|TysonRayJones|changed unit test indent tabs to spaces
+18de07a1ad889da22a942bbf8b6f6e785b742e66|2018-08-02|TysonRayJones|added unit testing for calcInnerProduct
+f34e196669865b98a6a4d36390c45c72c0f4fd0c|2018-08-01|TysonRayJones|added bad GPU calcInnerProduct, renamed CPU getInnerProduct
+6d04687a00375afb47bdd46f323586df81bc1fe9|2018-08-01|TysonRayJones|added GPU calcPurity
+588a44367dd270da7f701d71064288d91a3ff6fb|2018-08-01|TysonRayJones|fixed typo in validate function
+cc83110bc06aed187a3b5ca93146867f45a6141d|2018-08-01|TysonRayJones|added qureg cloning and related validation
+f20d62b7e94201a181c6398c2c782c2fa6ed6213|2018-08-01|TysonRayJones|fixed bug in GPU twoQubitDepolarise
+71b2c1c74984cd723e599c894395814780cff444|2018-08-01|TysonRayJones|added signature placeholder for CPU densmatr_combine
+db79bd020c96bf703a88fe910f0bd787b6dac8d5|2018-08-01|TysonRayJones|added probability validation
+0273a322d6bf2df9df897307a1a2758cdfe9fb5d|2018-08-01|TysonRayJones|added GPU combineDensityMatrices
+b0157b1f72452fbae979e7b4617b7504cd70df83|2018-08-01|TysonRayJones|Commented GPU noise functions
+9895eeb219ec320921eebe841351aa5f7a75510c|2018-08-01|TysonRayJones|tidied GPU statevec findProbOfOutcome
+fe9c99ff18694e7d1c11cdbdaee4e34acbd4cbb2|2018-08-01|TysonRayJones|fixed bug in densmatr findProbOfOutcome
+0fdd263161a35a293ed5f577854c3f7fb2db3308|2018-08-01|TysonRayJones|added phase shift QASM placeholder
+789e7221c1732b342ffb0ee452b6085c77ca9e2c|2018-08-01|TysonRayJones|added GPU density matrix collapseToOutcome
+80ad7be50fd414d8e598bca9d703e9c2aa816e9c|2018-07-31|TysonRayJones|removing misplaced error checking
+c766e97d323dd85d491b6e88e8a48fdb42f2317c|2018-07-31|TysonRayJones|added dephase/depolarise signatures to CPU
+485d861906bffccdc1bf81c799d91ce499cbc855|2018-07-31|TysonRayJones|removed trailing newline in QASM print
+cb29f9a1be29bea66a7bb0100f220738a04c23d0|2018-07-31|TysonRayJones|fixing typo
+95cef32146f7c4e2d6d99cf3a28c6686569674c9|2018-07-31|TysonRayJones|tided measure unit test printing
+12e0ba36c18fddc031853d0d90e02fe27e271dc0|2018-07-31|TysonRayJones|added noise param validation
+f639550c46167bae7703da5200809601317ca681|2018-07-31|TysonRayJones|added functions for printing/saving QASM
+c1e0f58161d995435ae15ce1167ec499b2d2a69c|2018-07-31|TysonRayJones|fixed QASM buffer bug
+4f908c0c4fcae43ac1965e5bffe495581411e2e2|2018-07-31|TysonRayJones|added GPU dephasing and depolarising noise
+98bb4b1df5a26dab5578674ef32627a4eb92e9f3|2018-07-31|TysonRayJones|made QASM writing more secure (slightly)
+704ba429ae3e548b39f524f0c58b4a483fa67c7a|2018-07-31|TysonRayJones|mystery of QASM buffer deepens
+77abf4d527d223826a3280fe6ad1db6024d7c2e4|2018-07-31|Tyson Jones|Merge pull request #51 from aniabrown/develop
+4a9e19e3e7fa21543bb370e379364d29fce3e2ff|2018-07-31|Tyson Jones|Merge pull request #50 from aniabrown/qasm-generator
+90a84990c14dd7834f4c89b56920c01a6487a71e|2018-07-31|TysonRayJones|added QASM for general Bloch rotations
+f79f93a23fe41ce1b1067d8ace97012894766b94|2018-07-31|TysonRayJones|added QASM for general unitaries
+78cba71737d7bc70f741f53ea5a53d5dd038c87b|2018-07-30|TysonRayJones|added QASM for measurements and compact unitaries
+8c02ce9fb6d614ecf3ac6c336354a71898e84d9b|2018-07-29|TysonRayJones|tidied QASM writer
+3ee3f33c4c865e0153792933d72e821780021e29|2018-07-28|TysonRayJones|created architecture for generating QASM
+c24bfaf9d43714db8a1438a1ff68fdc662151c8e|2018-07-27|TysonRayJones|added CPU getInnerProduct
+53f991cf8aa96dfe0718c937f93caf9ede2661e5|2018-07-26|Tyson Jones|Merge pull request #47 from aniabrown/develop
+1d6139e5bdf662bc118431b94eee1be7dac4e4ce|2018-07-26|Tyson Jones|Merge pull request #46 from aniabrown/cleaning-code
+3645ac7e8f8dc2bb6594fdb1cdee81482a7658ea|2018-07-26|TysonRayJones|changed tab indentation to spaces
+7e4e9e04c4c83d7801a5eaa68b4aa4d20824e728|2018-07-26|Tyson Jones|Merge pull request #44 from aniabrown/density-matrices
+f52492b5802679f2b5773a3976648ab74fd2a5b2|2018-07-26|TysonRayJones|Updated doc
+74c0ea525e0a8d4dfc0ccf6a3191ad23eda0f35d|2018-07-26|TysonRayJones|removed old QuEST structure diagram
+e39cd636f7e74fb869286bd0a25e715a77b5d262|2018-07-26|Tyson Jones|Merge pull request #43 from aniabrown/centralising-validation
+1cd875b1ec721e379efda35fef6046c0b2642cf1|2018-07-26|TysonRayJones|tidying QuEST.c
+c6555602f96175141b5d5c0c52614c72f2070f03|2018-07-26|TysonRayJones|tidied validation code
+b8570b72c43b60fe6ca2faffb8d0b3bff436cf36|2018-07-26|TysonRayJones|removed validation from CPU backend
+44f5122378aba5f295ba6f5da15da7f634dcbae8|2018-07-26|TysonRayJones|added validation for file IO
+0e878c944bc25d5471b783a41b969afe518f4baa|2018-07-26|TysonRayJones|restructured pure/mixed CPU measurement
+58596815ff6437d722b9d42daecb09562cb309e5|2018-07-26|TysonRayJones|removed auto_validate macro wrappers
+7b066e52f8ddd1f8af835d36778bcd7f74c6ec67|2018-07-26|TysonRayJones|hid private validation code
+1fe803d8899ee1317d28caec9b8a42d53088639e|2018-07-26|TysonRayJones|added matching qureg dim validation
+46e39a97aedbe73c51b7e93e19e2d174c5d8a77f|2018-07-26|TysonRayJones|implemented/restructured pure/mixed GPU measurement
+b25bd8ff51b0fbbd30f73c852cbd9a04585b5063|2018-07-26|TysonRayJones|removed validation from GPU backend
+405877fe22bac2eb21172c27f77e3d806925ec4f|2018-07-25|TysonRayJones|added centralised validation for user input
+7f43267d5708c6cdd3df5b1ce37e7fd2b3afa3a5|2018-07-25|TysonRayJones|renamed old validation functions (to isPattern)
+5f75d0294c364d6b7cf8c10d7bcc13867ba3533b|2018-07-25|TysonRayJones|added state, target, control validation
+c8183e999512253af240c12157dcb01a3614e529|2018-07-25|TysonRayJones|created new error enums
+cff5f3478b27770c00f0f091b94d9215ca7aa18b|2018-07-25|TysonRayJones|renamed QubitRegister.numDensityQubits to numQubitsRepresented
+276f1422bda71235ec95a740ca6d5955353e7f0c|2018-07-25|TysonRayJones|runTests deletes makefile when compilation fails
+8f2c48c1d8401e581a9cb6fbb489314d65df0a3c|2018-07-25|TysonRayJones|renamed QubitRegister.numQubits to numQubitsInStateVec
+e0a8e92381d0c5f26dcac38c164276f843f90149|2018-07-25|TysonRayJones|woops typo
+4bc031ba178abbe0611cd6fe724543358158a5b5|2018-07-25|TysonRayJones|added numAmpsTotal field to QubitRegister
+109eb328762299a3657714f39adf666532183d1a|2018-07-25|TysonRayJones|making error codes enums
+1e58cbabefbdc2bf0a9e5f8b0a3e2d93d0df920e|2018-07-25|TysonRayJones|renamed some files, merged statevec/density ops headers
+a87aa757830f2482d6a963badfb018af5b3fd68c|2018-07-25|TysonRayJones|renamed pure/mixed prefixes to statevec/densmastr
+f03034cc38ba5791fbb6169c730c49f0ed018198|2018-07-25|TysonRayJones|updated tutorial example
+ab7611819f96e9dac129448df1b2eecc0bca0f2b|2018-07-24|TysonRayJones|implemented mixed/pure controlledSigmaY
+7964d8adc6b2ab556e01f529b2faa6ccbc9d8273|2018-07-24|TysonRayJones|implemented mixed sigmaY
+b26593c8cafaf4895bf260f929ea9c4240d0adcf|2018-07-24|TysonRayJones|added initPureState unit testing
+563cc42a76a6673eb28a04e885ed61c1fdbaff3c|2018-07-24|TysonRayJones|fixing bug in GPU controlledPhaseShift
+10e737d29bbe835200ac16c0fdcc2d56e1d31a85|2018-07-24|TysonRayJones|implemented CPU mixed findProbabilityOfOutcome
+2bfeb7933514783c9adcaf009dae7a1398947320|2018-07-24|TysonRayJones|implemented GPU mixed findProbabilityOfOutcome
+402117af67bfb4ec1594ad3444285a09c995d10e|2018-07-23|TysonRayJones|implemented mixed initPureState on GPU
+a334d7db513d4a4e5f8406a4557a221b411cd4d4|2018-07-23|TysonRayJones|fixed pure GPU initPureState
+ebd4260b4a46c3872348540bb1bb3cf6117152c8|2018-07-23|TysonRayJones|implemented pure initPureState on GPU
+32ad2566be9063e5c82536272a99119f0c1f9dcb|2018-07-23|TysonRayJones|implemented mixed calcTotalProbability
+2f13b409f38db6db02bef0d574a429223efa5f29|2018-07-23|TysonRayJones|Regenerated doc
+c59372461ca41189e5fcd1fb5d2a8488acb28bde|2018-07-21|TysonRayJones|made sGate, tGate, sigmaZ avoid computing sin & cos
+b9c9286a7878cfa5cf261a0ee9299d8b9bdf5195|2018-07-21|TysonRayJones|fixed doc of multiControlledPhaseShift
+b8b5b4723e9be1c3744748c88d9289e23f0f2edc|2018-07-21|TysonRayJones|added multiControlledPhaseShift unit testing
+ada45f839f5c9b1ebdd801461ae06040ef223fe7|2018-07-21|TysonRayJones|removed targetQubit from multiControlledPhaseShift
+71185920071c7c09a96a7189cdd2aa3c297a0603|2018-07-21|TysonRayJones|removed targetQubit from controlledPhaseShift
+f28bed1bd15c584b74eb2f16c9ea55d5b930022a|2018-07-21|TysonRayJones|implemented mixed rotateAroundAxis and controlledRotateAroundAxis
+923ee02db95e4944b652fc007c371c678beec42c|2018-07-21|TysonRayJones|implemented multiControlledPhaseShift
+75b8060212fd7bf70ce3a1e04bef90bcf323e5d1|2018-07-21|TysonRayJones|simplified phaseShift
+079dea7b8a49bb8d48cbc01b01f90ec76a93423f|2018-07-21|TysonRayJones|simplified controlledPhaseShift
+49f3c45556770b8d1bbe2060662bb25564afb85c|2018-07-21|TysonRayJones|added controlledPhaseShift unit testing
+bfe33b41d715e1dbd8b0101a907d3ad37fba5870|2018-07-21|TysonRayJones|Added controlledPhaseShift to API/doc
+afa18fc26d7560fcf4d594a5c2e6a15557d5f44a|2018-07-21|TysonRayJones|implemented controlledPhaseShift
+eb586eceeecdacf9ec2b33800f073e0c08a2dc64|2018-07-21|TysonRayJones|added phaseShift unit testing
+8607d94238a46b79270b00f07dd3444a29941019|2018-07-20|TysonRayJones|updating initClassicalState wrapper
+38d8b70d8269ade14eecc0a9e373b37d25670ac8|2018-07-20|TysonRayJones|implemented mixed initClassicalState
+8e9081011abef323ad414ea5b48c3b7596cef50e|2018-07-20|TysonRayJones|prefixing pure-state GPU kernels with pure_
+975dd69748fe24c8e5ba1593460c75f20a8c57d5|2018-07-20|TysonRayJones|implemented mixed initStatePlus
+f29193580415338013d31aa4a4b1a9cffc8ea944|2018-07-20|TysonRayJones|added conjugate t and s gates
+5079ba18a6b46d788462b2236f5f13299f628b2a|2018-07-20|TysonRayJones|removed specialPhaseGate
+f794481372cb3cd3083932d29dbd65b5b59c60fe|2018-07-20|TysonRayJones|fixing bug in phaseShiftLocal
+03ab5cc55ff7b1413c9d078cca44e72d989a1ece|2018-07-20|TysonRayJones|fixing OMP error in phaseShift
+d78db5b9eddbd5f1275890945dc5a19018e72b90|2018-07-20|TysonRayJones|implemented phaseShift
+9fc65f6f2adf4cba710680400d8cc01cf355d5ec|2018-07-19|TysonRayJones|renamed public phaseGate ops to phaseFlip
+d9fbbf42758b158a57e60d1017a96abd4ddcc423|2018-07-19|TysonRayJones|renamed private backend phaseGate to specialPhaseGate
+b0061e54da746e8e43e793f8863e6df9240e156c|2018-07-19|TysonRayJones|added more mixed-state operations
+43a02bb250d91fa45fb99677d4bf6dfc45483234|2018-07-19|TysonRayJones|gave CPU backend functions a pure_ prefix
+153d12321edaa879fd2998e737970aaa219f34be|2018-07-19|Tyson Jones|Merge pull request #32 from aniabrown/centralising-function-wrapping
+68350469a1cf519250ceb69be2a2924ce52a0083|2018-07-19|TysonRayJones|implemented density-matrix operations
+ad524bd8efbdc0764fc917016ff491ec6c90c239|2018-07-18|TysonRayJones|added isDensityMatrix attrib to QubitRegister
+db5d3a11f6dabf9a0b87badd949142c43c0bd17d|2018-07-18|TysonRayJones|renamed initializeStateFromSingleFile to initState...
+a36f5d0ed88bae09d2b891bab05976eee2646bdc|2018-07-18|TysonRayJones|renamed MultiQubit to QubitRegister
+2f64f35f8fe3ce1a8192c559540031310abe8ea1|2018-07-18|TysonRayJones|tidying file names, headers and descriptions
+53a4f6329f04763fdabdefb85a2dccb7cd011b7c|2018-07-18|TysonRayJones|centralised gate wrappers, unit tests passing
+d950490fe8f6acded115f94f801c7f8243d227f4|2018-07-18|TysonRayJones|renamed backend code to be pure_oldsymbol
+23d5838199d202450159c8a42caf3b3f3978dd73|2018-07-18|TysonRayJones|centralised all GPU QuEST.cpp code
+20e65072d72ef813e52ba8310d1c5aa3739e0d69|2018-07-17|TysonRayJones|sorted funcs by colour
+9bbc7fe55c34e503b2064913eba6d348a49df60a|2018-07-17|TysonRayJones|colour-coded structure diagram
+00266c35ad01411ff818ae4b968cd0edfeee2802|2018-07-16|TysonRayJones|diagramming QuEST structure
+849a606c7005635ff24c82c6a4a91ff26000ad81|2018-07-15|Tyson Jones|Merge pull request #30 from aniabrown/develop
+21f49941fc786f2476a8d2bb163fb33a77fdfc03|2018-07-15|Tyson Jones|Update README.md
+4b6112b30a4fd7742d7af229f1869055741ea36c|2018-07-15|Tyson Jones|Mentioned setting PRECISION in makefile
+bb9b5633d1abdc916d69d279822d0890bdf43530|2018-07-15|Tyson Jones|Merge pull request #29 from aniabrown/setting-precision-in-makefile
+fa8a3572f42b3d89d3de60cb47d7d65b1504249a|2018-07-15|TysonRayJones|reverting debug doxygen settings
+d0cf4741af36f1ad9c358ecfb9f6f30f13fcf2e2|2018-07-15|TysonRayJones|removing Doxygen_doc
+a5ae81e7318d0d64681587969e827851aca11914|2018-07-15|TysonRayJones|making maths opaque to chosen precision
+511c375043722c126cb211355a33d9032de9796e|2018-07-15|TysonRayJones|fixing runTests when makefile produces warnings
+b3566cc4290c9a5130f26c3d25651a60d2730458|2018-07-15|TysonRayJones|setting precision in makefile
+ad3bb4ae25678e7a95eec10f1dd83eccf4d20efd|2018-07-14|TysonRayJones|generating doc for all files
+a228d3494ea6f4b9f88a391949f0fd288a816232|2018-07-14|Tyson Jones|Updating links in README
+e3e1a10ea5e1a3f4cb80c57390a88e3d8b9d36ec|2018-07-14|Tyson Jones|Merge pull request #25 from TysonRayJones/develop
+02bd1aed811990752c197b7feefdd638fd33f00d|2018-07-14|Tyson Jones|Merge pull request #14 from TysonRayJones/master
+724c5dab429c8028f25125394f111bbf42e4f61d|2018-07-14|TysonRayJones|updated use of initState functions in example code
+7d5eadc569bf1a66b9161be59f3a973228dbe0b6|2018-07-14|TysonRayJones|regen'd doc after signature change to init functions
+e84ae56f32e194b54bdf1566870332bdc9f606b9|2018-07-14|Tyson Jones|Merge pull request #13 from TysonRayJones/master
+14af07fb652b2ea91d4d68e37635e42f0945ff20|2018-07-14|TysonRayJones|made initState functions accept MultiQubits (not pointer)
+a242ea961a32d2afbbebfe3f3804815a0f5a8069|2018-07-14|TysonRayJones|renamed numAmpsDividedByNumChunks to NumAmpsPerChunk
+e6214e1840d5f783b72f27a986a8af79d6e94527|2018-07-13|Tyson Jones|Merge pull request #12 from TysonRayJones/master
+c8d6bf97c09bdddbe2ef700e3eba6f94095374a9|2018-07-13|Tyson Jones|Fixing URL in README
+467eba6b320029ee5b050a54375ef6c19cd171b1|2018-07-13|TysonRayJones|Merge branch 'master' of https://github.com/TysonRayJones/QuEST
+b520dbe502d6ada9a0292efa363ca731d6da0e0f|2018-07-13|TysonRayJones|tidied and added submission script examples
+4d77a3e043e6d1c17494cc660d22d7f204f56196|2018-07-13|Tyson Jones|Update README.md
+dc36a1133fb42aa6d6a5f1ce2f51509b38304250|2018-07-13|Tyson Jones|setting makefile to default compile the tutorial example
+9f65887af505687cf651efb8bc32fda08b9a5ca0|2018-07-13|TysonRayJones|Merge branch 'master' of https://github.com/TysonRayJones/QuEST
+61d3c5519b9dbc943b30ac23fc7b6837aefdf415|2018-07-13|TysonRayJones|updated doc after seeding rename
+cb07bfdf04d48a63b13f7e02184fe45435faac0c|2018-07-13|Tyson Jones|Update tutorial_example.c
+eb41178e7d432cd8e60fc75e44f0003d2aeb4fc5|2018-07-13|TysonRayJones|fixed bug in unit test automation
+eb592f1d7e2daf21132865cc5df3bf3c86a42f6d|2018-07-13|TysonRayJones|renamed QuEST seeding functions
+5c3d51b673069654822de0adaf5752d2fd88b9d8|2018-07-13|Tyson Jones|Rename bernsteinVaziraniCircuit.c to bernstein_vazirani_circuit.c
+4699babdbabdf0782f2aa2646d46d4e8ade6cdc3|2018-07-13|Tyson Jones|Rename tutorialExample.c to tutorial_example.c
+cedc95ce6b6d794eb0c509e46117b91afa9c5c37|2018-07-13|Tyson Jones|Updated tutorial in wake of combined makefile
+1dd08f0f0769f9f2382d23fae1ddd124fceccdb5|2018-07-13|TysonRayJones|moved makefile, made unit tests use makefile params
+16bd5f1cc5bc48098f7b58b14d91055ef1fb85a9|2018-07-13|TysonRayJones|resolved gethostname
+6b7a319d498f2bc4806a153dc6506e36b41ac17b|2018-07-13|TysonRayJones|fixed variable-precision floating point formatter hack
+3f41c00001783df2376bd7058fac4af2bf33b7c8|2018-07-13|TysonRayJones|ensuring makefile overrides bad user settings
+53dc0a9c7f2a0443800aa3bccea27962ff343242|2018-07-13|TysonRayJones|removed unused vars in unit tests
+f0c96483972f12a263106a98025581532710a911|2018-07-13|TysonRayJones|tided imports and doc
+3b6444cb6dfbdf64f19979bab4896a6a9cd1788f|2018-07-13|TysonRayJones|deleted superfluous doxygen folder, since ugly
+30cd18e4b8225712ee16a97431e407f04006dacc|2018-07-13|TysonRayJones|updated compiler test makefile
+41205bcbb4c3e3a7249f1ffd5109b76878ec9f48|2018-07-13|Tyson Jones|temporarily redirecting API link in README to this fork
+651dfc89351ff63652745a1624acf5fa741e5877|2018-07-13|TysonRayJones|Updated doc
+9e57bf52bf99695c0e0aa47fbb0daa8c02564f8f|2018-07-13|TysonRayJones|oops missed precision in removing code duplication
+75362ff95ae241d5be0f4845f61951e5f622a068|2018-07-13|TysonRayJones|removed code duplication between CPU and GPU QuEST
+45061c4fc455c872ebefc8575bc9b7f74caf03f5|2018-07-12|TysonRayJones|fixed logical error in initStateDebug
+60cdb9acdcea05c7d652bab9bd4bbd4b780e0bda|2018-07-12|TysonRayJones|added support for distributed unit tests
+9708ddc841b0b81c3d5660a1c9c73067daffcbf9|2018-07-12|TysonRayJones|fixing typo
+843899c2c0fab77beec18a9449e11a1772175d58|2018-07-12|TysonRayJones|made threading default in automated unit testing
+32fddf7a3d588291048db5fdbfd9f7ed4c46bfc1|2018-07-12|TysonRayJones|improved automated unit testing
+f7da36f12f15868c4f12b9060366915821150b26|2018-07-12|TysonRayJones|renamed compilers test script
+cba8f9423d5f47d117689b87cf1f7d2ca099c423|2018-07-12|TysonRayJones|added automated unit testing and cleanup
+5d2a61b3aa4a4281e6931843a7391c19dd86648f|2018-07-12|TysonRayJones|migrated Anias unit tests of getProbEl
+370a0ebfd27f755b8fee7f7090fa14ae8026f09d|2018-07-12|TysonRayJones|migrated Ania's GPU getProbEl functions
+3d44ff6a4eaa27d9d798e771c22d3560140e7a40|2018-07-11|Tyson Jones|Update README.md
+05073ae3780318040d0f2802145b89eaf1a6ffd9|2018-07-11|TysonRayJones|made default seeding automatic in initQuESTEnv
+79236bb344809a7000420788821abd80c60c909c|2018-07-11|Tyson Jones|Making compiler-compatability-versions URL relative
+8f9948323a49b226f62793c9c6eb25723140f2f9|2018-07-11|Tyson Jones|Linked README to compiler compatibility check results
+50b4827fa61b52f90d1b03ae6ec40b4b5e076c1b|2018-07-11|TysonRayJones|added compiler compatability test results
+0cefd646c8f07551097aea96ae9c31435263429e|2018-07-11|TysonRayJones|added python script to prettify markdown
+5aa827d945ad9111214ac5535bee63be807cc981|2018-07-11|TysonRayJones|added compilation tester
+01ee8dbf814d114330ae265f203946b8540c30a6|2018-07-10|TysonRayJones|improved makefile compatibility with older MPI versions
+176087d6ad4720bf0dcad1511b1a0ab6cde0fcbe|2018-07-10|TysonRayJones|tidying makefile, adding notes
+3504399aa4a1324cff4955de7968ba210611a64d|2018-07-10|TysonRayJones|added note about flags for compiler versions in makefile
+6bee92de24880757a6fa72022b682aa7a3811d59|2018-07-10|TysonRayJones|adjusting C/C++ opaque makefile
+de20869ffb4ef13d0eaa59be5466ab635a04da41|2018-07-10|TysonRayJones|made CPU QuEST C++ compatible
+9887c6faebca3e0baee0ee8df94da8e7131de560|2018-07-09|TysonRayJones|pointed doxygen to CPU QuEST headers
+65c2e1bc5688a24f1bc86d653cae99fd8211f6c7|2018-07-09|TysonRayJones|Updated README
+70e78311544578d1df21e3145bb133f646c6ef66|2018-07-09|TysonRayJones|merged GPU QuEST, updated makefile and demo
+370b67de14aa43b31639901a456e84724ebd7f21|2018-07-09|Tyson Jones|Merge pull request #6 from aniabrown/master
+53c9fede6efccacc3d90b4b4757acc23bc77971d|2018-07-09|TysonRayJones|renamed PREC, made OMP importing safe
+db47f0234cd2d14f2e24c7eebb7fea3e96ba05c3|2018-07-09|Tyson Jones|Merge pull request #5 from aniabrown/master
+315e0276b947875fe20245699e2a59b465e7e2c1|2018-07-06|ania.brown|changed multiQubit.numAmps to multiQubit.numAmpsDividedByNumChunks to prevent users accidentally acessing numAmps in MPI mode and getting an unexpected value. Added getters for numAmps (total), numQubits
+b9c62375afbe7acba27d72cc51142c63fe512a66|2018-05-18|Tyson Jones|Merge pull request #19 from TysonRayJones/master
+e2ded142f92498349ca13eac3b195ae8fd2db5a1|2018-05-16|Tyson Jones|removing unit tests makefile
+be651326f1e2e9480923923ce9a8158229b76b47|2018-05-16|TysonRayJones|added unit tet makefile
+20febfe82cba85d7e3255aad85104d8104a8753e|2018-05-16|TysonRayJones|added initClassicalState unit testing
+1d56fa4b48e4e56a7c25b59284b2427f51692b16|2018-05-16|TysonRayJones|updated generated doc to include initClassicalState
+215502c1960fe53989158e378c527fdf10f044c2|2018-05-16|Tyson Jones|added docstring for initClassicalState
+3bd9c93e0ad1226fe2dd1229299e9c45c451fd14|2018-05-16|Tyson Jones|implemented initClassicalState
+e0d6f312aae5d99e416649f57dc71cc9d28b0fc4|2018-05-16|Tyson Jones|Merge pull request #4 from aniabrown/master
+374508dab54d3469183695a39ffc940e71e1dd15|2018-05-16|ania.brown|need to define _BSD_SOURCE or _XOPEN_SOURCE 500 in QuEST.c in order for unistd.h to properly include the gethostname prototype. Switching to _XOPEN_SOURCE 500 as this is more portable. In addition, if this isn't included /before/ math.h, the prototype is still not included. Not sure why math.h is interacting with this in any way.
+7e718bde693231f8d6b35d5c99f003a28ba33eeb|2018-05-15|Tyson Jones|Added link to download instructions at quest site
+b78c63b8d62c46a1d145189372fe490060cd6c58|2018-05-15|Tyson Jones|removing osx hidden files
+84d83c4f0cdbd829aedb219d8ac246457e3a779c|2018-05-15|Tyson Jones|removing osx hidden files
+ceea018c159a92000c7da0ebe53918fb0c99411d|2018-05-10|ania.brown|removed unnecesary print statement
+5bf9f11ff92a1c57bdcf7a9640267e5849587d78|2018-05-10|ania.brown|fixed indenting, updated version number
+9825bef7007fdaf0d17b461cc6efebb989caa0f0|2018-05-03|ania.brown|update documentation
+b38160e3f0ddca9619d8f64843eb36c196706276|2018-05-02|ania.brown|updated seeding function documentation
+eb3ce572e1069035e7c8551b055f98d5f389e805|2018-05-02|ania.brown|updated documentation
+4563382a85dec9fa496fed6ded55fed8d3d6f626|2018-05-02|ania.brown|renamed 'qubits' in file names to 'QuEST' and renamed precision.h to QuEST_precision.h
+c25692fd8e930a007d8794261c9a5394ff4da82d|2018-05-02|ania.brown|correct makefile defaults
+0b46f36f67a478994b7f37772f3b8f1212a9f33a|2018-05-02|ania.brown|added functions for seeding QuEST environment
+c2590b347aac101b18b0d93e353dbb8d5862669e|2018-04-18|ania.brown|removed references to DEBUG
+ee6e8374b8ebc5ba1825cf20c059331fb4344d14|2018-04-18|ania.brown|clean up comments and indentation
+4194f739877aaebc1f7f73f911924477a8ec0afa|2018-04-18|ania.brown|changed compareStates to use fabs. updated runTests.c to remove hard coded path to QuEST header files
+47379e1e57b6e591c46a81c20e739b99087d25ca|2018-04-18|ania.brown|added instructions to developers to generate documentation
+e074bf6113120bfe1aadbcf2e694a3713ba9f387|2018-04-18|ania.brown|removed hard coded path to header files from tutorial text
+4c7654f45527f2823b24c83bbbe09e553a664d07|2018-04-18|ania.brown|removed hard coded path to QuEST header files from bernsteinVaziraniCircuit example
+f441efea8a25091069d4a06bead3b1a7146ff9b5|2018-04-18|ania.brown|included QUEST_DIR header files in makefile and removed hard coded path to QuEST files from tutorial example
+81483eaf5203738785791829e4db991375e631cc|2018-04-17|ania.brown|added acknowledgements for Mersenne Twister -- mt19937ar
+fe9f8518a56ba40d759f1951de8921d26a43357a|2018-04-17|ania.brown|added quick start guide to REAMDE.md
+fd8f984bc0e93aaeb5eee2ea998d4dbb8e062f22|2018-04-17|ania.brown|moved a copy of tutorialExample.c and makefile to root directory. Updated tutorial.md to use correct path
+7402d6d7efffdd7c6de2545d99e5e68cea80efce|2018-04-06|Tyson Jones|Merge pull request #5 from TysonRayJones/master
+dcf2aebff048a908689477a657fd246ea5f2168a|2018-04-02|Tyson Jones|Renamed P to PREC to avoid GSL clash
+b7d64588e68b794292821f3a070b9981be736be6|2018-03-28|TysonRayJones|Removed controlled rotation definitions from qubits header
+84bd342ceb8335b72838c1b5ae103ea783a5c615|2018-03-28|TysonRayJones|Added controlled rotation gates
+be0b328a415e3895d9c4b0545394ebdbc89717f8|2018-03-28|TysonRayJones|copying the rest of doxygen docs to doc folder
+c5939cfc7918ed6ed7126492a04ca0e43e76cdd5|2018-03-28|TysonRayJones|copying doxygen docs to doc folder
+096b4c603c173e110876216fd5968621aefdec66|2018-03-28|TysonRayJones|Updated doxygen doc
+5657c91dc0a5679ef0f31010c4b1d34dfda53f9a|2018-03-28|Tyson Jones|Updating rotateAroundAxis doc
+d4143327625e821ac5a6645a6ec7e959826536d7|2018-03-28|Tyson Jones|Fixing errors in rotation gates
+7daa2773b3e39dc798fe1434325d6bf9a1ae2f22|2018-03-28|Tyson Jones|Fixing error in LaTeX doc for rotateY
+9b19778babb27e607a877a64c340d67da95b1a7e|2018-03-28|Tyson Jones|Merge pull request #3 from aniabrown/master
+a1b137cb1b0825ab73450d479e123c09f24aa34b|2018-03-20|aniabrown|Update README.md
+14dc8ed54f93ffe40ca0b4bbdbc3def452786a12|2018-03-20|ania.brown|bugfix to error display system. Was missing comma in error codes array. Can now display error codes 8,9,10.
+e67d6249b671c75278006c1675be62643cd1592f|2018-02-21|ania.brown|updated version number
+0a00214f03c5063ae6b941bb4c16d7edf7c51a86|2018-02-21|ania.brown|added link to MIT licence in source files
+4906abb2cd7734dc1a26779116501d350143dd77|2018-02-21|ania.brown|cleaning up tutorial file
+22beab0c79983220cd27d4f94a107d7c5399c7ee|2018-02-21|ania.brown|test fix indenting
+d3d8051184e5398de196c54a126d0ff1cfd51159|2018-02-21|ania.brown|fixed bug in tutorial file, added extra reporting, made sure print statements will work in MPI mode. Renamed tutorial to be consistent with other example codes (camelcase)
+f15a25f8142b957513ff911e7e9d822d2f95a0ac|2018-02-21|ania.brown|update to tutorial
+7ce7d88242e9d8c4ae179699704c768f2ac88b43|2018-02-21|ania.brown|updated example for new makefile
+5f1c00bd2c04333f952a665ed9171e07e6b79b44|2018-02-21|ania.brown|updated makefile
+d8dc5cefe90159e46c30e43f2171b2e2f4758f18|2018-02-21|ania.brown|readme formatting fix
+14c1866297695942672c2709e25bb60cfb8dadbc|2018-02-21|ania.brown|added prerelease notice and licence to readme
+dd85b5e1b37960d19c22e5717f00ace3dabae856|2018-02-21|ania.brown|added authors file
+a2bf237ccc24510398f075138a588a990625a162|2018-02-21|ania.brown|small change to readme
+61efa31d9b7c1766e75112cda2d7f06099c8d005|2018-02-21|aniabrown|Merge pull request #4 from TysonRayJones/master
+827cad9f709b69c2ec5874b4a7e716d56c1d806e|2018-02-21|Tyson Jones|Fixed basicTemplate (added min num qubits)
+5324556e87ef70d523108bc570a9b7727f81f944|2018-02-21|Tyson Jones|Added code snippets to README
+2b3df558951f32a20433038bab7aafd24f3d8e95|2018-02-21|Tyson Jones|Added note on serial code in MPI apps
+d3f4f05d993ba57774c3b9e5df066f6d1d9fbe7e|2018-02-21|Tyson Jones|Update tutorial.md
+f9cc795fb70ec13dd05ca390d14391a1606dd7cf|2018-02-21|Tyson Jones|uploaded tutorial example code
+208759b7b392ad849ed8d5af3401f4a1c7009423|2018-02-21|Tyson Jones|Update tutorial.md
+e4e4c6e6903f47dc28c84222b6d319a05af0c5af|2018-02-21|Tyson Jones|Update tutorial.md
+db06442443451901980d2294f21b8e54e5776479|2018-02-21|Tyson Jones|fixed formatting
+0cc79bd455cf5371396f3af12b2fd2555e569433|2018-02-21|Tyson Jones|Added toc
+e4cf33be411e61cfd261254eb9657ac00e55cfd3|2018-02-20|Tyson Jones|Added supercomputer section
+ca1dd1c0c2053998224fc2ece1b7345e9d29ad12|2018-02-20|Tyson Jones|Update tutorial.md
+f6c59e2b3677ddd635e0f0d417ce489041c42550|2018-02-20|Tyson Jones|added compilation guide
+a547c86885b1a0e38985c233770b2dbc9ea3a9eb|2018-02-20|Tyson Jones|linked readme to gpu repo
+8e78c864d1ef59a33f1a2e07fbfe98d846312933|2018-02-20|Tyson Jones|Merge pull request #2 from aniabrown/master
+81f81f95458011dbdb74f1273d1d34c387047262|2018-02-20|Tyson Jones|Update tutorial.md
+6e362c020da85b1aeb0a1dc6adfd62fae4d61bd6|2018-02-20|ania.brown|adding file to stop css being ignored
+d4a402b43db6f1e62f34f9619a52efd0718f01ef|2018-02-20|ania.brown|docs formatting
+3778236667bb78c9b6935ce14fc1dcdc79f013d7|2018-02-20|ania.brown|docs formatting
+b7e76cdb0798df666bb9af353e1eb8a845381bc7|2018-02-20|ania.brown|docs formatting
+53d44c9646731f4e888f1b99909289066da70a77|2018-02-20|Tyson Jones|Update README.md
+d8f1031926d92bb4784c6e2f119687d78e9cb2e1|2018-02-20|Tyson Jones|Update tutorial.md
+98c2eb3b00fd4f8bded3a52ae91e172c7e054a49|2018-02-20|ania.brown|docs formatting
+957c7f56bbfa65aebba8bf7b241f883a70f68c15|2018-02-20|Tyson Jones|Update tutorial.md
+b7e1007d5ab8dd2a0a23e7cce4831eccc2a164da|2018-02-20|Tyson Jones|Update tutorial.md
+6bd9cc2d6253caa7bbc631cf28df83ecdf7b010f|2018-02-20|Tyson Jones|Update tutorial.md
+5913fa2ed35f04badc24485b3560af0e3ae74f3e|2018-02-20|Tyson Jones|Update tutorial.md
+577b54906bdf0ee2ba41b7de74a362ceaa945334|2018-02-20|Tyson Jones|Update tutorial.md
+5cfe1f11019301742e463dc58a6f8ebd654a5bb7|2018-02-20|Tyson Jones|added circuit image
+2ebbc7233207fb66463423a4a570bb1ad4cfb30d|2018-02-20|Tyson Jones|Update tutorial.md
+6064cc0f22713b1eef58432bf59c076983f4eee0|2018-02-20|Tyson Jones|Update tutorial.md
+e7ce7871d678b28ca3ee6437c89178d0913c30b1|2018-02-20|Tyson Jones|Update tutorial.md
+336ea5f3d34fe1eb0a98235118107f0fb8f505b4|2018-02-20|Tyson Jones|Create tutorial.md
+9d96c7cb99765fea12073789de5c976b04457555|2018-02-20|Tyson Jones|Merge pull request #1 from aniabrown/master
+da568d67323e52fb51107bf5d1becfd19ea0a66a|2018-02-16|ania.brown|fixed bug in example file
+1038589db95a094b14dd7b0fd3cffc862696652b|2018-02-16|ania.brown|added validation that outcome in collapseToOutcome is either 0 or 1
+2e30707ff27e8c798612277c81d218879eb3a441|2018-02-16|ania.brown|set corret defaults for makefileImproved
+3e0ff712f717cc2cdf8a3569ac4b6ebe5be16ee2|2018-02-16|ania.brown|fixing documentation delete
+628e08d542fa0bafee41ab10e283ff8f171eff3f|2018-02-16|ania.brown|added funcitonality for multiple user sources in makefileImproved. Added more comments to that makefile
+d7af1523197cf3fc0db1aa96af1e5742a400302b|2018-02-15|aniabrown|looks like not all docs got copites from Doxygen_doc/html to docs folder
+e9cf70f14a4e7a67693019e7b9119db584a77b1c|2018-02-15|aniabrown|removing unnecessary doc folders
+b0486866d3d4dad9183363fde5a9ad6c1862a620|2018-02-15|aniabrown|Merge pull request #3 from TysonRayJones/master
+e9191157beda959777fb2d9f83c842846100ccaf|2018-02-15|Tyson Jones|Added some missed generated doc
+e419eec1951c479751dc3893ba4e2f40487166e3|2018-02-15|Tyson Jones|Updating doxygen latex
+1fd40e17074a250c37143999589e8e6b29fc9734|2018-02-15|Tyson Jones|Updating doxygen html
+dc21f22eb2f100c48263b6e996e930e44b5a6732|2018-02-15|Tyson Jones|Added generated documentation
+82d74a299de79404f8f715539a1720befbf0fb3d|2018-02-15|Tyson Jones|Updated documentation (source)
+56efbc734c02302d15cd607d9b37bd3a116aca03|2018-02-13|ania.brown|forgot to add mersenne twister files
+8b22cc9ec851bf502c4ed625638006bba81257f6|2018-02-13|ania.brown|update docs
+c99df1bcd0906a80c95fcdd19a755cbb0f0a90e2|2018-02-13|ania.brown|adding some extra validation
+8b53f57ce02ec6ab72b773d111e256c215cc9cf9|2018-02-13|ania.brown|Merge branch 'master' of github.com:aniabrown/QUEST
+4d09d40785582e10183901a625a805d506e96f7b|2018-02-13|ania.brown|changed rotQubit to targetQubit in function args for all functions other than those involving measurement or rotation around axis
+0be91a22c889cfc6fe38ba01329067b4f8576b2e|2018-02-13|aniabrown|Merge pull request #2 from TysonRayJones/patch-1
+bf3d1c888b80da68c4d5edb182677014be560fda|2018-02-13|ania.brown|swapped order of target qubit and control qubit in function args in controlledUnitary and controlledCompactUnitary
+489ce838c40b0fbd3eb82fc8da820df86cb02997|2018-02-13|ania.brown|added basic unit test for measure and measureWithStats. Still need to confirm that single precision is enough for random numbers and that we don't want to throw an error when trying to collapse (randomly) to a state with <10e-13 precision
+08e7237a37b42def5915eed9054391375e111b54|2018-02-13|ania.brown|measure and measureWithStats compiling but untested
+cfee6c8d8d4023cca11755d7d46a64794b92afdc|2018-02-05|ania.brown|build new docs
+ba1e7681f7603c606c4ddf61e832c6429cda66e9|2018-02-05|ania.brown|updated documentation
+10663e2404421c5c617a5a99f2ad492b7316ed4e|2018-02-05|ania.brown|fixed bug error checking collapseToOutcome. removed tests which tried to collapse to states with zero prob from unit tests
+a95bbd2b0fa4c190d0edd5cb6c07946ee66f7f1f|2018-02-05|ania.brown|used REAL_EPS rather than hard coded 10e-13 for checking if trying to collapse to a state where the probability is too small
+be987cda5191c21c94b746c352899ecc6f74b7a6|2018-02-05|ania.brown|removed duplicate asserts
+fd45cce45375e72f4eb9662b7df474791ac6349e|2018-02-05|ania.brown|added error on collapse to state with probability too small
+4a7a66e95bf8e4463d7309e65aac3e0aa72d53e6|2018-01-30|ania.brown|restricted all functions (other than multiControlledPhaseGate) to not allow controlQubit=targetQubit
+a247dcaf93f346948286328449827077e9ad5588|2018-01-30|ania.brown|deleted filterOut111, probOfFilterOut111
+49dc0c10fea62dd3218cef576058f0c810a403ef|2018-01-30|ania.brown|changed multiControlledUnitary to use an array of control qubits rather than a mask. Changed quadCPhaseGate to the more general multiControlledPhaseGate
+28d59acb692819da5675c677e074ea09e7407410|2018-01-29|Tyson Jones|Create bernsteinVaziraniCircuit.c
+3691659d8e92009c2d1d3fa56a15fb4fe9284a19|2018-01-29|ania.brown|changed order of control/target qubit in controlledNot. Added x, y, z wrappers for rotateAroundAxis
+b201015057f61f3a1ba8464f3450164f6dc5edbb|2018-01-29|ania.brown|renamed unit test output files to go with renamed functions
+a69f86f0f46cd22d6a054f5d37df153f89936c5c|2018-01-29|ania.brown|renamed multiple functions for v1.0
+04a6364c187143b2580e5fa1ab27c0d71920f274|2018-01-29|ania.brown|small changes to unit tests -- test normalisation on stat plus. Reduce precision requirements when comparing equivalent rotations with two different functions -- this only worked with intel compilers if fp-model:precise was used
+574d886ff70a2decbb4797ef48c64bc24021560a|2018-01-15|ania.brown|moved majority of input verification to qubits_env_local and qubits_env_mpi
+2c9deecb45e8095d2e33cc7a7861078d0eef8e96|2018-01-15|ania.brown|added output files for multiControlSingleQubitUnitary unit tests
+7b8240c4841ddcba2c8e8bf0e1c616bc45053cfa|2018-01-11|ania.brown|added unit tests for new functions
+c2fd1ad48c2d1acc935ae130aec72724c2aabffb|2018-01-11|ania.brown|passing tests for mpi and single node version of singleQubitUnitary, controlSingleQubitUnitary and multiControlSingleQubitUnitary
+03aca96b2d4e3ab93731f98db07dd98da0bcdd76|2017-12-06|Anna Brown|updating docs
+f9163674bbf0ea3ec9dd88ba5aacc612f5685fa7|2017-11-15|ania.brown|bug fix to rotateQubitByAngle
+674ac089cb6dd9c68e8f615d7d2ddc90df6fd7f4|2017-11-15|ania.brown|fixing merge conflicts
+d915c3e907eee80a0e88f34ba81832450d543043|2017-11-15|ania.brown|added function singleQubitUnitary, added validation that rotation operation is unitary
+68287a08c8a2c99aa6917cd8f39017b887ce1549|2017-11-14|ania.brown|making certain docs are up to date
+8addf00598aeebb3461811f31960690073ea545d|2017-11-14|ania.brown|copied documentation update to github pages folder
+080993702ff9e6ededfcb463b8bedc087316d5c2|2017-11-10|ania.brown|fixed documentation related to rotation functions
+0c7350d1369bcc093430a06b86b3ecc8f693df25|2017-11-10|ania.brown|added rotateQubitByAngle function
+a6ef437ef9d686122ada8bde0e64aca1336e0391|2017-11-10|ania.brown|cleaned up and commented example job submission scripts
+49b972634c4ce15f6e0567b394f45f2526efb17b|2017-11-10|ania.brown|removed old timing example files
+90fc643b112a34231916b859ab736c3e37bc95b4|2017-11-10|ania.brown|moved debug functions out of public API and into qubits_debug.h
+7728a3363d928b10f820cc705afb7fe60c646d07|2017-11-10|ania.brown|moved phaseGate function from qubits.h to qubits_internal.h ie out of public API
+b9cc99d6ee003e46741b0b341c87fb2b43de7b2b|2017-10-27|TysonRayJones|removing demo test files
+29107d5f51c3364d44b1a74fc66f13dcea01c2cd|2017-10-27|TysonRayJones|Merge branch 'master' of github.com:aniabrown/QuEST
+c95b12e804ae034a70f2ff04caaccf9e9ec3e9ab|2017-10-27|Simon Benjamin|Merge branch 'master' of github.com:aniabrown/QuEST
+7b774ac6d5d548e5085a84a113f53da7572cd19b|2017-10-27|TysonRayJones|Merge branch 'master' of github.com:aniabrown/QuEST
+56a91c1ba2361808c7d53fc85095317a724f43b8|2017-10-27|Zhenyu Cai|Merge branch 'master' of github.com:aniabrown/QuEST
+d8c562f0dee1a8128b3f038edcabffb11a808315|2017-10-27|Tyson Jones|test commit
+1e55e172972fab56d794f7380ed5ec80140024aa|2017-10-27|Zhenyu Cai|This is good
+917f66a4393f2f92cd4cce22d3bf7dc05c5b6598|2017-10-27|ania.brown|a descriptive commit message
+666008e11b67262042ce85a25490ec9c3af7b34d|2017-10-27|Simon Benjamin|from the demo
+7757a35f291616d53bf02897d42e6d4ba7e6aac0|2017-10-02|ania.brown|added new circuit which outputs timing data for rotations
+ff81337973024c80c4375997dbc077ae8a87bf60|2017-10-02|ania.brown|added functions to get a descriptive string for each multiQubit and environment, currently used for titling timing output files
+37dc8d4d7a0c75a03894fb39119a68b1cfd7fcc9|2017-09-20|ania.brown|added USE_OPENMP flag to example makefile
+d6d6cd7d314a22a2e10ced1b4f748426c6f2184e|2017-09-20|ania.brown|fixed input file for probOfFilterOut111 test
+5586296f719cc52c9963c1525ad5f70566030b13|2017-09-20|ania.brown|path to api in documentation
+d95a5b611d87010825240fc9355a254c8ade4a21|2017-09-20|ania.brown|Merge branch 'master' of github.com:aniabrown/QUEST
+54b718fb31fab3ef30e4b53c26687d9642575b63|2017-09-20|ania.brown|updated link to documentation
+815f61b07455c0fd0bc4c2882e1050c25009910b|2017-09-20|aniabrown|Create .nojekyll
+b363510df09b0a8e996d854df94a670b264fa840|2017-09-20|ania.brown|adding docs folder to host doxygen documentation on github pages
+beba3cb7fe85101af28f68a4f68dd26a677fce53|2017-09-19|aniabrown|fixing compiler warnings
+cc6cdfb5e56d8dfe1b74467978a4e423b747c970|2017-09-19|aniabrown|fixed bug in runTests -- removed reference to mpi.h
+32238b35f950970227066bac6555e5cea3b2f366|2017-09-19|aniabrown|Fixed bug in runTests -- removed reference to mpi.h -- doesn't work when compiling without mpi
+c10d69e95b150edb6b9e9134cf38b5ac134b640b|2017-09-19|aniabrown|changed bug in example makefile -- can now use different name for executable
+946c4f5fef884c2ed78e3668116e5d2e79b6163b|2017-09-19|aniabrown|added unit tests in test folder. fixed bug involving control gates in the MPI version -- affects controlNot, controlPhaseGate, quadCPhaseGate, probOfFilterOut111, filterOut111, controlRotate.
+36b81658a34c9d8a5fd3925b268a2a9bd1fae8b2|2017-08-08|ania.brown|fixed but in distributed control rotate
+f110e11cbcbe24c93116d0d93a21ecd8e875d474|2017-08-07|ania.brown|fixed bug in distributed phase gate. Added option to report state to screen without displaying rank -- makes it easier to compare to the no-MPI version
+953526cdd6d47990fac0e9499420188d03ff609f|2017-06-22|ania.brown|Merge branch 'master' of github.com:aniabrown/QUEST
+3b9c1e08f8efbfba0200e7faa078626362d72e19|2017-06-22|ania.brown|documentation fix
+787ddea39615bda9dc3bb87761a20eed73ff1204|2017-06-20|ania.brown|updated basic template for new functions (new init, measure in state)
+d2b0956e8dd45e66c8496a47d918bb7e99ab8af5|2017-06-20|ania.brown|changing from QUEST to QuEST
+552beb84e94aeba61303877f36c96714eb99d6a3|2017-06-20|ania.brown|changing from QUEST to QuEST
+4473ba2719946249a613b36a747a3aeade4bcf52|2017-06-20|ania.brown|changin from QUEST to QuEST
+fd0731703fcdd13510cc3c62fc2900efdfe2c71f|2017-06-19|ania.brown|limited message size to 2GB to work with openmpi. Pulled out exchange of state vector values into seperate function
+ed954e59331808fd69ce97f90f740d615350ee14|2017-06-14|ania.brown|Merge branch 'master' of github.com:aniabrown/QUEST
+1318deac41b66dc1e961da21750f9eedc8eefa57|2017-06-13|Anna Brown|updated documentation
+5ba54607b30b528d6f204bcb695c96402bd533fc|2017-06-12|ania.brown|tested extra functiosn in MPI mode by comparing visually with single node output for 1 and 2 procs. Should log output in such a way that diff between 1 and multiple processes is possible
+c08267eb061af812b572c6e5553983637cf2d3df|2017-06-12|ania.brown|tested additional functions running without MPI by inspection -- see examples/extraFunctions.c
+c2d7886eda3eb64a8aa2bbf23e74f463bdbd3c77|2017-06-12|Anna Brown|hadard in progress
+55eca5bb32cb025fe3fc974eeadfa8f6a2729c5f|2017-06-09|ania.brown|added new rotations, init, control gates. Tested sigma_x, sigma_y, sigma_z local.
+c234e86e41cb8f6d352facab05945957d1d4b0fb|2017-06-02|ania.brown|Merge branch 'master' of github.com:aniabrown/QUEST
+1f0b8b3206c8a15b8bc5b5c59e02717115629a1d|2017-06-02|ania.brown|changed flag to protect brackets from icc optimisations to be more specific -- now -fprotect-parens
+67b3f92a0d46b6945f5f782e6d6cb059582d39b9|2017-06-02|ania.brown|changed default compiler back to GCC
+0736c47a812cfd69779f4f29ffb8fe50a10bb431|2017-06-01|ania.brown|adding node list check to timing file
+fce353d54f8b9e52e744fcf78c02af713957e573|2017-06-01|ania.brown|added helper function to find which nodes mpi ranks are running on
+49899014f5d0b74984280e34241dce6ed9d652fc|2017-06-01|ania.brown|added option -fp-model precise to force intel to observe parentheses
+ab6a273969a3070e03f689fcba25884d59630d31|2017-06-01|ania.brown|added example timing barrier and computation time with several trials per barrier
+3a14f885a3e214aeab0a2a1d7e26c018537fc996|2017-06-01|ania.brown|removed debug flag for non-mpi intel compiler in makefile
+ef196c8f2d3943001058366398dacf50f6cb977c|2017-06-01|Ian Bush|Implement Kahan summation (https://en.wikipedia.org/wiki/Kahan_summation_algorithm) for more accurate claculation of the totla probability
+e38d8cd61a293a8a99e75713d4a633328ee72a48|2017-05-18|ania.brown|added local version of get real, imag and prob element at index
+5cbca48958facbd234ac329613c7eea8e89e61e9|2017-05-15|ania.brown|cleanup submission scripts
+7483a4f01b1ac762d3ab88202ff6a9a9fbe7429f|2017-05-15|ania.brown|changed default precision back to 2
+d362ea82ffded19dcce888356c81c65af899b837|2017-05-15|ania.brown|changing makefile back to defaults
+27c046a7025ec3140b915d4048b6d15678f15067|2017-05-15|ania.brown|fixed compiler warnings. renamed MPI_REAL to not conflict with existing MPI macros
+31b2aebfc5a15d2b1b6b64ed4a8dcecf8e5e9cd7|2017-05-15|ania.brown|included precision file in profiling file
+47548b06699a665ff4e7038414e77a0af78a62bd|2017-05-15|ania.brown|added enable-arcus-b, required for mpi job submission scripts
+59160912d6539d161aaa109cf14e87bf0a5d432d|2017-05-11|ania.brown|bugfix: added include precision.h
+5d9008fd1222235e7a7923067f7f0d234aaf1a46|2017-05-09|ania.brown|added precision file
+d17f70e86c21acc8126368374dc9cf97365cd1e5|2017-05-09|ania.brown|fix to submission script
+38fcedd6c50c68dd8c6d86bb28c892dcd1a7eec6|2017-05-09|ania.brown|fix to submission script
+9b351d0d0f94e6c6b31043b182111b20b9cd7a99|2017-05-09|ania.brown|updated job scripts to have sensible defaults
+0e4f0499a3aa07f3435b5c84ad6918096829ef03|2017-05-08|ania.brown|added support for single, double and long double (80-bit) precision through the REAL macro and precision.h header file
+7d16eabb57b8f8c9eb7a8084b458e525f40b56c2|2017-05-05|ania.brown|moved makefile to examples folder. no longer tracking basicTemplate.c in root directory
+d27b319d46f00a445ab4c6edbafa74bdd4dec46e|2017-05-02|ania.brown|added filter out 111 test to basicTemplate
+7a05d57b7875503f65e2b4c4825c9e148ec5b1dc|2017-05-02|ania.brown|separated very large mpi send/recvs into multiple messages
+a9f4247e35c6d7a049c9c1c65d2c8301d669c823|2017-04-24|ania.brown|oops
+774f7303c5d7623fe155a1d832d24f7752439c95|2017-04-24|ania.brown|oops
+75e482f627e68b13e7ba28cb99206d3e26deb2d1|2017-04-22|ania.brown|long long int
+7587c868b8ca79d02903ab9060fb80164eee394e|2017-04-22|ania.brown|added example jobs for 6T node
+d16f625cc93adfab401f9aeaa55827ff72d95e37|2017-04-22|ania.brown|added long long int to determine rotation local/distributed in mpi_env
+3f7a4243c8b203a94c9e5e2026f831785df9001f|2017-04-18|ania.brown|testing filter out qubit
+7731cafad2cb4861c1dae03be394a1469f054b39|2017-04-18|ania.brown|Merge branch 'master' of github.com:aniabrown/QUEST
+3ce2e43ad8275b2a753b8423014edc3df8ebcfb1|2017-04-18|Anna Brown|documentation
+eca6f986a02d7e1f84b7d5a9f99a2cf1009741fc|2017-04-18|ania.brown|adding filter out qubits to demo file
+2fb9781041e2b339674e29099d79f193ee95b3ad|2017-04-18|ania.brown|documentation
+2d63ea12078501e6a08b56c0faa1b8c876829ca9|2017-04-13|ania.brown|Merge branch 'master' of github.com:aniabrown/QUEST
+e87004e8af5c4af0405db36f3516891038b5bee6|2017-04-13|ania.brown|fixed bug in makefile, added filter out functions
+d0d7c11dfd5cdea386a8b2b8d6abec985f3a680e|2017-04-13|ania.brown|added 2, 4 qubit phase gate
+38c3d3ac37734be338536060adc9256de2aed848|2017-04-13|ania.brown|oops
+f7c99e000d3341cbbe571da22c093d4783084f94|2017-04-13|ania.brown|tested measureZero. added and tested measureInZero
+64e29566065a99ac0bd5b1471ee8e6259792a21d|2017-04-06|aniabrown|changed default compiler to GNU
+3e9ffde10a3d7d30ea875d185092107f3a63e478|2017-04-06|aniabrown|documentation
+7fe99eea6f1250c1ff4e56e8709e62edd5fc266d|2017-04-06|ania.brown|added further documentation pages
+ccc936f80fe35c3ef4de90d896ef8abe7aa9076f|2017-04-06|ania.brown|documentation
+815dc84ed4de35158bf403a6dc64b6064c25b00c|2017-04-06|ania.brown|changed -qopenmp to -openmp for intel compilers, to work with icc versions before 2016
+4c768e8fea55478638d321e32fcaeb6de0d79f12|2017-04-06|ania.brown|oops
+823017a47ee0e8e723e20194809964f95951d525|2017-04-06|aniabrown|cleaned up warnings for gnu compilation
+feee8af23ccde1ce77157fc0bb4ab492731ede02|2017-04-06|aniabrown|put reporting of environment and multiQubit object into seperate file
+e0bbd1d201ce4d15f0798acc830b3a8218c89d37|2017-04-06|aniabrown|changed reduce to allReduce
+610ebf82643bff2d320cf37eadbe64fc345b9a98|2017-04-06|aniabrown|stylistic changes to OMP -- separated omp parallel, omp for; added in default none, removed unnecessary reduction statement
+60d2521267d1eb732f29ad1b677c53c5a252ff57|2017-04-06|aniabrown|added header guards
+6804625b9482bb84df5b0e347d2f7958ab2b7be9|2017-04-06|aniabrown|took out barriers, cleaned up unimplemented sections of basicTemplate
+01792e91c50dd5508235b9bb8055a56d243b5a75|2017-04-06|aniabrown|added info about OMP to readme
+0394649cfafe663736b9cc002c4a74f24786600d|2017-04-06|aniabrown|added information about switching compilers to readme
+d0599e581f2ed9aa606d87022f66439103b5989a|2017-04-06|aniabrown|put prototypes for static functions used only in qubits_env_mpi, qubits.c at top of those files
+c320a90d4233094cd0f93ee397812a75f5b19b95|2017-04-06|aniabrown|moved around prototypes so that entire public facing API is located in one h file -- qubits.h. Took internal functions out of qubits.h and put them in qubits_internal.h
+6fdc76fc951bc5dd663b5bdcefd5e11a3234a7c1|2017-04-03|ania.brown|timing now reports the absolute difference between the maximum and minimum values and the average time, rather than just the maximum and minimum values
+e055d2ecd35ea8787c576dffcb60aa514e398f37|2017-04-03|ania.brown|oops
+0e166001dbb5489a1f6596b687698175780cd3cf|2017-04-03|ania.brown|Merge branch 'master' of github.com:aniabrown/QUEST
+df30d96fb93d686f4b4b0105e12e20b561653052|2017-04-03|ania.brown|added sync (barrier) to basicTemplate.c
+cd24f2d173a00a466004eb3e515cb13e28802cec|2017-04-03|aniabrown|documentation for wrapper functions
+5662334198fc7381f0856de7580c7184cfa41870|2017-04-03|anna brown|documentation
+6a8469130c1defc732aa491dda7eb08833dcfc59|2017-04-03|ania.brown|Merge branch 'master' of github.com:aniabrown/QUEST
+18bcc45e243682b4df7a6b2f15e31c2b19a55fb4|2017-04-03|ania.brown|restored default example file
+8359003a784ab3697c9c39f53209df993647d84f|2017-04-03|ania.brown|added example job submission scripts
+c0ceedc738638526b0dd5a11eedc42225ff95d30|2017-04-03|anna brown|documentation formattng
+14da6570a57a8caf77dd696f9942fe04c180b3e3|2017-04-03|anna brown|documentation -- couldn't find a way to remove line numbers from the doxygen index page while using the same README.md in the git index page
+15ec129ad36c3a114664f656e02d793ced6f36a7|2017-04-03|anna brown|documentation
+7c9911443b3728480e41f0fff9d101054413142e|2017-04-03|anna brown|documentation
+eaa2528f37438072f4a11a93a722fb37e0b19f28|2017-04-03|anna brown|documentation
+93c1f6ebc9fc0a6702771ab198cb67bacf4db128|2017-04-03|anna brown|markdown formatting test
+0135e6251c07ba8bf7cfc1234f7151e11f84a13f|2017-04-03|ania.brown|documentation
+a89dd5f89b442f9099a5220a58bfcae0c9ca6753|2017-04-03|ania.brown|readme
+1d476f9fc1164566e747404c1b8877bfc4ef9ef0|2017-04-03|ania.brown|latex documentation
+5be54d528edf06561b65362a80a4c80f08ff03d1|2017-04-03|ania.brown|documentation
+6c70a391d401bed92b9496d10afd7892c2818a08|2017-04-03|ania.brown|readme
+92c8b6c625eb386f468040ebeda16de60599fcdd|2017-04-03|ania.brown|testing markdown formatting
+b52d3213b040f4cca6c8020151388478d8065933|2017-04-03|ania.brown|editing readme
+fc4d20587f812066a2d0c9f8337989acfc4165c6|2017-04-03|ania.brown|added doxygen documentation to git
+e55395af8e2a02ea5fbccb0ee862a5b44fb7e2bd|2017-04-03|ania.brown|added example files in /examples
+f3d02fabc43b44fc4afeb6ce19886ee52d603443|2017-04-03|ania.brown|fixed all assert bugs: changed assert (requirement1 true OR requirement2 true) to (requirement1 true AND requirement2 true as per SCB comments)
+d66727dc16ff4152804fdf5cc17a0ec83b244e8a|2017-04-03|ania.brown|fixed bug where number of chunks was not stored on MultiQubit. Rotations tested by checking probability and comparison to original for rotations of 8 qubits over 20 trials
+6a232e8122a8abde8c3403959d4a5835e22b31f5|2017-03-31|ania.brown|fixed bugs: forgot to remove if USE_MPI from qubits_env_mpi. changed mpi_init to take null arguments. removed error message when pairStateVec is not allocated with one process -- this is correct behaviour
+b4bd147d00ad3bbf6bebd444386ecb14557577e3|2017-03-31|Anna Brown|Merge branch 'master' of https://github.com/aniabrown/QUEST
+83beae1290ccf7dc7507a8e2c7080c29f50792e4|2017-03-31|Anna Brown|Documentation. moved chunk helper functions into qubits_env_mpi
+58dc536576334c1d4a6f2df9c520839455a0e0e5|2017-03-29|ania.brown|bugfix in rotateDistributed
+17a66f76a6e66d0df093e6465d33e64246adaeee|2017-03-29|Anna Brown|documentation. changed rotateDistributed to use ComplexArray rather than two arrays of doubles
+bcd6250f8454fa4fc2f0747f142f0da48e08dc9b|2017-03-28|ania.brown|documentation
+dba8bab119fc07f347aebebadf87fd91b8b095a2|2017-03-28|ania.brown|renaming
+9dc3c2cc701a0bcaeb238322f002aa72614a67b8|2017-03-28|ania.brown|use same wrapper header file for qubits_mpi, qubits_local. removed all references to MPI when running locally
+65fc68206599cd142f2d55d4d453a1aee298ce74|2017-03-28|ania.brown|accidentally deleted qubits_mpi.h
+8341f6bb777305361abec209b99634cb05722bbd|2017-03-28|ania.brown|added qubits_local, a wrapper around qubits.c for code running without MPI
+f378586ea5e2f14b4b607f39d771656c3a61d7fd|2017-03-28|ania.brown|for MPI version, only alloc double memory when using more than one process
+82604e762fc36747b78e6e700c88fe246263a9be|2017-03-28|ania.brown|changed Circuit object to MultiQubit, put MPI setup and vars in QUESTEnv
+b5cc9836bad75a99d2e02429a82fee565c6c67eb|2017-03-28|anna brown|updated doxygen to use c
+a6479c7f1015fd989f8b5b1aa7c4fabaf93472af|2017-03-28|aniabrown|Create LICENCE.txt
+4a3aaf3e63fb5f316fee8657c4144ba89dd9a4b5|2017-03-28|aniabrown|Create README.md
+d40e6e283a140e64e8ccb87ec11dcf37ea3a5016|2017-03-28|ania.brown|added example file for doxygen config
+68969bf215033e4059f65747a1e1e4195a57d810|2017-03-28|ania.brown|changed from passing through state, system size to using Circuit object
+868ba8154cf620f1f3f67aff214890b33a0f62a9|2017-03-20|ania.brown|replaced rotateQubit and findProbabilityOfZero with local and distributed versions. Updated them to remove bugs founds by SCB (assert, long long int)
+eb0869858297d15c97a693cbcfd765c3bff294ba|2017-03-20|ania.brown|Put user config at start of makefile -- added in modes to distinguish OMPMPI/OMP/GPU. Added MPI QUEST library files qubits_mpi. Added functions required for MPI version into qubits.c
+09555a9e6208505fce9d2ff1a0ed7e2652230122|2017-03-20|ania.brown|updated directory structure. library source files in QUEST. example usage of library in examples. call make and run executable from top level directory.
+4378989d21eb784f182e3e22dd01d291e7176cc4|2017-03-20|Anna Brown|added hfile, makefile, job submission script, demo using library. removed reference to unused utils file
+5a2bba55a9b93843cbfde8fcdaf57317ef074985|2017-03-20|aniabrown|OMP only QUEST library as used by SCB at commit date

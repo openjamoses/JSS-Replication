@@ -1,0 +1,447 @@
+f47ffd3f5a596ea4b0580a4afa630b372f7414b9|2020-07-30|Scott Pakin|Update the --format=ocean regression test to match the new code
+e1650b7bbece2da2b6675ad6a8a29a9527504b33|2020-07-30|Scott Pakin|Honor --chain-strength when generating Ocean code
+6125bf648f2dc68da2b3a88407d4e848d76b5ad4|2020-07-30|Scott Pakin|Honor arguments related to D-Wave sampling when generating Ocean code
+b5ff7903e9eb1c801327d2b6b7c25d711969e592|2020-07-28|Scott Pakin|Make the generated Ocean code display results QMASM-style
+c8b5dc0f23cfe5612786839aa09ff6f86ded2706|2020-07-28|Scott Pakin|Specify a sampler even when only generating Ocean code
+f32654fb53a72ec7c1b70e5f98d3cfaf2da0fa62|2020-07-28|Scott Pakin|Add support for generating standalone Ocean code from QMASM source
+622e9ba948f257704942cedb2c78491aa9dfcc99|2020-07-24|Scott Pakin|:bug: Don't crash when --profile is used
+1771bb65d542acbd43daa390ea732811eb69cde3|2020-07-24|Scott Pakin|Modify the --pack-qubits code to produce squarer packings
+915496754333c17998c6decb54bd5e1f5f0fd528|2020-07-23|Scott Pakin|Honor --pack-qubits when reading/writing the embedding cache
+6b88139ec799760cf7fc41d5e0f8183107ca53fe|2020-07-23|Scott Pakin|Make a very minor formatting modification
+e66b7494e799c2c5bcf00c961725b895f6d0dbec|2020-07-23|Scott Pakin|:bug: Don't crash when reporting accepted parameters for solvers that have none
+dac452ff22ebbcdbfeb08ab9af53a6c3be1b2df5|2020-07-23|Scott Pakin|:bug: Do not require an annealing schedule to be specified
+aee335544ba1b6a1f6a0834a2ca54acee9f4051b|2020-07-23|Scott Pakin|Refactor acquire_samples into acquire_samples and complete_sample_acquisition
+5b35930a78f19b78d67cbb96e223650ebfb823a2|2020-07-23|Scott Pakin|Enable the user to control the annealing schedule
+64810737abc9d42665d8106cd7d227337f7bba54|2020-07-22|Scott Pakin|Clean up the handling of the Kerberos and QBSolv solvers
+623985cbda433ac3c7da7209289b8e87be084c7f|2020-07-22|Scott Pakin|Merge solver properties recursively from all child solvers
+60c0bf91399573416c1acf0d87253c36a603c53b|2020-07-21|Scott Pakin|Replace the --qbsolv option with --solver=qbsolv,<solver>
+68d839a70523239b501b2fee3e22b16041167d12|2020-07-21|Scott Pakin|Let the user specify an underlying solver when selecting the kerberos solver
+a327111cf516594ddaa69a2e62417428a2274722|2020-07-20|Scott Pakin|Remove some unnecessary code
+74d4afdc36f4f869601948abc7baf5a60b029fdd|2020-07-20|Scott Pakin|Add support for the Kerberos hybrid sampler
+682a2f6d1a7c6056fa15a29df686efc4044c7ac5|2020-07-14|Scott Pakin|Present a PyPI badge in the README file
+8316b1ded244f2c75061bb65d0ec880dbda14ba1|2020-07-06|Scott Pakin|Introduce a --physical option for control over physical placement
+c1197af6140efbee621aaab43c3b09ff0988d658|2020-07-01|Scott Pakin|Support a new --pack-qubits option
+aa310e8054cdd86cbd388e28bcb3fcb9d21d2857|2020-06-30|Scott Pakin|Update the regression-test validation to match the new feature test
+e2260a4602559dd6596cd7e2fe02ccc84717112b|2020-06-30|Scott Pakin|Include a multi-bit assertion in the feature-test file
+4778293e11d6bc22f45d96a1f72a26ee84f1e87e|2020-06-30|Scott Pakin|Support multi-bit assertions
+9a6a2ed6daf39da78940256bf934623b551f60c4|2020-06-12|Scott Pakin|:bug: Correct the handling of assertions made on elided symbols
+6b65277f31e7b772c122a148da8cf8047391a74f|2020-06-12|Scott Pakin|Improve the way the symbol --> logical --> physical mapping is output
+6fdc8c51b614dcdc989875a97344e89b0b722729|2020-06-12|Scott Pakin|Move redundant embedding-output code into its own internal method
+3bb3de98e519a547abbb3b05aaafaa9fec01562d|2020-06-12|Scott Pakin|Clean up a small bit of code
+8ab0e8a53d0fcbdf8e09e917932b871fe820e8d9|2020-06-12|Scott Pakin|Abort cleanly if the embedder fails to find an embedding
+6dc07136bc3a7b84b9d69e9980c474fd931bea90|2020-06-12|Scott Pakin|:bug: Pass the correct sampler and BQM to _submit_and_block
+d4501382a04c94a010ef879bba08738263c29109|2020-06-11|Scott Pakin|Add the ability to wrap composites around samplers
+e3d9ba422c2f507648f3750c8403e1954205e222|2020-06-10|Scott Pakin|Include a test of !bqm_type in feature_test.qmasm
+5c5ed432a66c8db8cbce186b02eeac12243f1b7b|2020-06-09|Scott Pakin|Don't pass the BQM type among FileParser's methods
+0d00f3b9dfae704f659a12453aaa0243b0b42497|2020-06-09|Scott Pakin|:bug: Don't pass as_qubo to functions that don't expect it
+003652cb7c1ca0bb5a0c398360b7c76f75490d30|2020-06-09|Scott Pakin|Honor state changes introduced by the !bqm_type directive
+39eb40836f255d18a205c69c3ef5b5dc40d8e998|2020-06-09|Scott Pakin|Always produce an Ising-model BQM
+cbda313b0e3fff71e351f418d9a263968bab3776|2020-06-09|Scott Pakin|Introduce a "!bqm_type" directive
+c7bb1ff5d845afca56f7799ec93aa409b20c8a8a|2020-06-09|Scott Pakin|Convert QUBO weights and strengths to Ising
+729dafcd6564d4a4ee2ca74dba06690186e533a4|2020-06-09|Scott Pakin|Add placeholders to eventually support mixed Ising/QUBO problems
+151723d2e75af21a7facbbc5292c61d3aa2a6cde|2020-06-09|Scott Pakin|Make minor modifications
+eb77446bb64b66e3e70157f8f3e75c177adb2213|2020-06-03|Scott Pakin|Include a long description in the setup.py file
+2d01a59600629a55c9073d4e35fe0bdc9bafb2df|2020-06-03|Scott Pakin|Specify a download URL
+21109e46382da828d8453c916b2127ec476daea9|2020-06-03|Scott Pakin|Update the Python package metadata
+751e5e7d116c243391b3f02b2f717c63d59051be|2020-06-03|Scott Pakin|Rewrite the Travis CI support to more suitably test the Ocean version of QMASM
+e55bc405a3f90b35c5a44b5ae945686a04f2f866|2020-06-03|Scott Pakin|Remove checked-in copy of the pre-Ocean code
+7f281b70098109c75853edfe9944550927b8e71e|2020-06-03|Scott Pakin|Merge branch 'mixins'
+0e1eb0fae72fab92d5e4088c5250c0f3779fb2c4|2020-06-02|Scott Pakin|:bug: Prevent qbsolv output from crashing when used with --always-embed
+2750ecad81088297068c8a247d8d9ce748c970c4|2020-06-02|Scott Pakin|Install extras/qmasm-gen-*
+45f14cb65409147ff739d2c7fa7950fe23341eb2|2020-06-02|Scott Pakin|Rewrite qmasm-gen-current to use the Ocean API
+2f53108320fa3cf33f8b80a66908342a6c2a9e9e|2020-06-02|Scott Pakin|Remove most single-letter command-line options
+5e2a718999e0a66d4bf338a8525b32ab5ff1d9a9|2020-06-02|Scott Pakin|Use "qmasm" instead of "QMASM" for the package name
+6900401ad01e4474d2db7a9bdc9a6955f31cdc3f|2020-06-02|Scott Pakin|:bug: Don't crash when outputting Qubist data with a software solver
+0d51c9bdd3a262cd5778dbbca084816c3effa5dc|2020-06-01|Scott Pakin|Run QBSolv at high verbosity if QMASM is run at verbosity level 2
+f4183367a8fdf74728dd17a0897a7d1792725ce0|2020-06-01|Scott Pakin|Include initial QBSolv support
+e7a81a2792d734a656bf458cae9814e2f7ed4e6d|2020-05-29|Scott Pakin|:bug: Correct the check for broken user-defined chains and antichains
+681c0e59b9a2ae96ab0ac0d62bcbe899e39d78f7|2020-05-29|Scott Pakin|Accept the latest QMASM output from the qmasm-maze validator
+72a9c1209260c8a60425bacedab21f2343f7a752|2020-05-29|Scott Pakin|:bug: Work around the exact solver not returning data sorted by energy
+83fc0e638df9ab2e3cefa74818b9a2b94fd01c13|2020-05-29|Scott Pakin|:bug: Work around solver features not present in software solvers
+a51ce391ca634d3cbac846de8ff111ac35141c64|2020-05-29|Scott Pakin|Distribute the qb2qmasm script for translating Qubist to QMASM
+a10188ff3597f84337ef7627e7a93f6f0454b842|2020-05-29|Scott Pakin|Report failed assertions
+6b0527c8a1a601c5af5f4832bad932b5957fb524|2020-05-29|Scott Pakin|:bug: Fix minor problems involving minima and maxima
+34996cb3bfec9dec0414dce973d820c60af5eb64|2020-05-29|Scott Pakin|Add support for --values=ints
+f2ecf156217eeae45ab942f1a134bcb32ea7f23b|2020-05-28|Scott Pakin|Output solutions as scalar Booleans
+ccfd87643c15352ec30e53e067f344dc15134230|2020-05-28|Scott Pakin|Report statistics of solution energies
+fad3b9795f1ea9ce99d374d9857eaf70880306ff|2020-05-28|Scott Pakin|Map each symbol to a Boolean value
+b1406fae023c9c9938a6946055730aefce092248|2020-05-27|Scott Pakin|Merge duplicate solutions
+69505d0911f3c949d60a26dfac2651a755566853|2020-05-27|Scott Pakin|Filter out solutions that do not exhibit minimal energy
+7081df0bee8f5f69491fd6f610fae201ff01463a|2020-05-27|Scott Pakin|Filter out failed assertions
+0a5cf17c6b9408f81f8f746787a136d098a36d7c|2020-05-27|Scott Pakin|Overwrite the physical BQM in place
+2ea71fdf594cb08afd01e28106602f0716eb4f84|2020-05-27|Scott Pakin|Filter out isolated variables before embedding the problem
+6c8ea845a0f40320e003b8ea85117eb5c6410192|2020-05-26|Scott Pakin|Filter out broken pins
+ad1a7c1407abe895364252ee3b89cba5a794e6d9|2020-05-26|Scott Pakin|Elide broken user-defined chains and antichains
+b6d17d2105ba9cce5685190ff6e845aeefc6ec9e|2020-05-26|Scott Pakin|Filter out broken chains
+2c197a875543b4d535c80faf3bfc6e81366ad1dd|2020-05-26|Scott Pakin|Report chain-break frequencies
+6417ed8558009bd5a9eecf65091dfe21d5a514de|2020-05-26|Scott Pakin|Begin storing individual solutions in Solution objects
+58b7dd4700d2ac1a8d23969f4c42eac1f0827b99|2020-05-21|Scott Pakin|Output solver timing information
+89f68698ff2eee4d7990358400c39d7b2d2ab770|2020-05-21|Scott Pakin|Work around an Ocean bug that causes asynchronous invocation to complete early
+7e5e67d518fcb4df62a5274b65b8948297350654|2020-05-21|Scott Pakin|Submit the problem to the solver
+16165697004e65ae9bf3cdd0cab7cbae7bd9b23e|2020-05-20|Scott Pakin|Introduce support for outputting qbsolv code
+7fa7d3c2f17d448875ee5b633dc64b3cc7e4c9f3|2020-05-20|Scott Pakin|Scale coefficients to the hardware's range when outputting Qubist code
+70691a80494d60ba098b9f20c0a4ae1bf8999af9|2020-05-19|Scott Pakin|Add support for --always-embed to choose when output files are written
+e38b1f0edbe0a20c6593fc615c508e044a2ec0b7|2020-05-19|Scott Pakin|:bug: Correct QUBO <--> Ising conversions
+19610088836b778a42ef1972028cf4434980f30f|2020-05-19|Scott Pakin|Introduce support for outputting MiniZinc models
+1bc122180830027ea8987b70a5ef1e5666246857|2020-05-19|Scott Pakin|:bug: Correct the Qubist output to use the physical problem
+ba08023f199021f0ce0745c0b992df931f86cef9|2020-05-19|Scott Pakin|Include initial support for outputting Qubist files
+5c79ec1f5919327b626158de7210a96f71f452ca|2020-03-12|Scott Pakin|Begin coding post-embedding file output
+f981684a5d995c3a235226b5579d094a5c2b3fc4|2020-03-12|Scott Pakin|Don't treat contracted variables as dangling
+803d301abedae259bd34466a669e0f76944b750b|2020-03-12|Scott Pakin|Output more problem statistics
+5e6379cb72d249a86c71049b0648f17f771cdd16|2020-03-11|Scott Pakin|:bug: Correct the data types involved in embedding
+f7d1fb6400582f4c2fb9510c05527ff4091cd041|2020-01-24|Scott Pakin|Report the embedding even when verbosity is disabled
+975bb6eb8da49418924d0210e88c36a2c7dbbd29|2020-01-07|Scott Pakin|Remove the remaining debug code
+9401114d7e2264cd34d8b72ed76f44d395f41bb7|2020-01-07|Scott Pakin|Removed most debug output
+16d501d4be17852beaabfb1cb06c9c62fa453737|2020-01-07|Scott Pakin|:bug: Consistently use strings for keys in the embedding dictionary
+b14e920bd921322073a37aeedb16d6bd45020d00|2020-01-07|Scott Pakin|Abort if disconnected (implying unembedded) variables exist
+d2da5ce215b0a1e3b9e1a988001c5086db89ffcc|2020-01-07|Scott Pakin|Output the mapping from logical to physical qubits
+5223a60b9f303542c0315378882c8054e0d4592d|2019-12-23|Scott Pakin|Map logical qubits to symbols
+c9c65e79db99460526e50e5350144ebfabb73c43|2019-12-23|Scott Pakin|Cache embeddings across runs
+fa3b23a63d8017abe4625f9b5e451a6f04621e26|2019-12-23|Scott Pakin|Honor the --topology-file command-line option
+38f5c2a815cbea434d8dd8ce8160748c4755fd48|2019-12-23|Scott Pakin|Embed a logical problem onto the physical topology
+b7a6c4648701d581d086143246e14447a9cb9d00|2019-12-23|Scott Pakin|Add the ability to output a problem in BQPJSON format
+1aab3fcc08876951d46404b1ae052986fbe6940d|2019-12-23|Scott Pakin|Add the ability to output flattened QMASM source code
+a30eeba8024a7c0663f1b6364aea5786a144955a|2019-12-23|Scott Pakin|Convert user-specified chains, anti-chains, and pins to assertions
+59449daa13d9b5a29e2f18ca3834bdc464f1188c|2019-12-23|Scott Pakin|Refactor Problem to maintain a BQM internally
+80fa70ae36e3c697ccee65bd0fba40aac638384f|2019-12-23|Scott Pakin|:bug: Correctly handle dangling pinned variables
+41f134f63042973693e247858a9146c64c68129b|2019-12-23|Scott Pakin|Use dimod.roof_duality.fix_variables to simplify the BQM
+75286a79e6963805eb4fb1a2d1ded23b837eb486|2019-12-20|Scott Pakin|Output solver/sampler properties
+06676e9fc7ea8a1646be68a2e1caa3207741d546|2019-12-20|Scott Pakin|:bug: Replace "ExactSampler" with "ExactSolver"
+d0b9d75cff4fac9da613163c1c14d9837c673405|2019-12-20|Scott Pakin|Improve error handling
+5ee86fa800a398f40b7bb1aa92626fe3351851eb|2019-12-20|Scott Pakin|Write initial code for connecting to a solver or using a software sampler
+923ce5bedb40e74812c7546168865233f4cc4862|2019-12-19|Scott Pakin|Remove statistics gathering for now
+e6aa93edc0a2ce44a3036ef595b2567aa840c38f|2019-12-19|Scott Pakin|Convert chains to aliases using dimod's contract_variables
+dae3cedbfd4dfbb6021cfbf544368605b78b2173|2019-12-18|Scott Pakin|Begin converting a Problem to a BinaryQuadraticModel
+36fc8ef56dbcd1602df1bd38e60021340d58a750|2019-12-18|Scott Pakin|Compute a strength for user-defined chains
+a479826aafca66ffd7ce86b1105819d163cf4b4b|2019-12-18|Scott Pakin|Define a Problem class and populate a corresponding object
+f39d080db8ce9bc64646989942da8c0565d0efa8|2019-12-18|Scott Pakin|Remove unnecessary mixins
+4121c811ac95ac0d38e42b15529331a3d0531480|2019-12-18|Scott Pakin|Parse command-line variable pinnings
+ddb51ec6e9882dd0c7ca4a4df493c16d25260cc3|2019-12-18|Scott Pakin|Parse the input file
+03e4cd19cc670522ff8c84ec5a9e391ccd592c52|2019-12-18|Scott Pakin|Begin adding code for parsing the input file
+51723a0315a982fb9a9d72fbcb7d44cfa38f94bf|2019-11-13|Scott Pakin|Update qmasm-qbsolv to work correctly under Python 3
+dd7db9c690c8d31018a1cc4c8272f68e825bc74a|2019-10-10|Scott Pakin|:bug: Remove unnecessary and incorrect contents of __init__.py
+e122b04780afb9dce9757d2b8f80218861aec214|2019-10-09|Scott Pakin|Update setup.py to install what we have so far
+545bd3025375142966314848e5e3f24930b6aaef|2019-10-09|Scott Pakin|Parse the command line
+b61619a6ccbe9ef53f9720dba230706e4fb69c18|2019-10-09|Scott Pakin|Move existing code into an old/ subdirectory
+fa65a9b489faa2038dea364b5af6a5d144d7e710|2019-06-17|Scott Pakin|:bug: Make the recorded plist match the files actually installed
+b02225fdb65dae449064760baef394fe34e77a08|2019-06-10|Scott Pakin|:bug: Update querying of maximum run duration
+6c93bd8a90db0cb8091113681fd473d049ba86c7|2019-05-10|Scott Pakin|Connect to the solver before aborting for lack of work to do
+b3d1dbb997b1ae57ad5848841479eb07d0c06c1a|2019-05-03|Scott Pakin|Output both raw and adjusted energy levels
+deb223e208f6a9ef4e41a70a38c4b192b61743d9|2019-05-03|Scott Pakin|Output energy statistics at verbosity levels 1 and up
+4dfd60cf41d6afe55e1138168ac01597d2ddfff5|2019-03-27|Scott Pakin|:bug: Correct the renaming of symbols in assertions within chained macros
+eec86859c92fb7eb0dbe8a715a735d597ac42e84|2019-03-27|Scott Pakin|Extend symbol renaming to work with assertions
+091c10d6ae1b500766f63fd23de7423fbcda9664|2019-03-27|Scott Pakin|Add support for `->` to rename symbols
+9c5d53e2419b045a53e42dc71881596eb31a3bfe|2019-03-04|Scott Pakin|Replace LANS with Triad as the copyright holder
+0c96642fe5709f2576416bc964e4a0e93bdf8dee|2019-02-24|Scott Pakin|Distinguish --run from no --run when the program is optimized to emptiness
+f46e2879460ab11e29bc7e9b8c4421e6b47dbf1b|2019-02-24|Scott Pakin|Compute energy in the case of all variables being fixed
+062f963dded85b2f40eb0bad6f10829d03baf16c|2019-02-24|Scott Pakin|Produce output even when all variables can be fixed
+587186ee496569df00b5e0731ce4954c53cbad6e|2019-02-23|Scott Pakin|Report that a classical solution can be found only if it wasn't already
+bd62a1579b7d3bc87ed452f1cb13f14a26c18dc6|2019-02-20|Scott Pakin|Forbid the use of commas in identifiers
+b93df3340243745ae4db13a038ddf3eb238a0129|2019-02-20|Scott Pakin|Explicitly check for invalid identifiers in all statements
+8069e3fff1d9f014d3b16d3ed274ff5fbe707a72|2019-02-20|Scott Pakin|Forbid the use of operators within variable names
+32cf33dc31fdaf63ba80ea633cd6712144021197|2019-02-19|Scott Pakin|Require ASTs to be compiled explicitly, not implicitly during parsing
+af27f78726e6dc160a4610928824b4a3538db47a|2019-02-19|Scott Pakin|Convert the assertion interpreter to a compiler
+f762c0edd67f3f5894f0898a1db815fbce587baf|2019-02-18|Scott Pakin|Convert user-specified chains, anti-chains, and pins to assertions
+e12ba75f135bbc971b371f74c7725ea6f43e21cd|2019-02-18|Scott Pakin|:bug: Don't crash if given an isolated, circular chain
+7f02bee4b80e8e19d3dce256b86b77c1c8e4105e|2019-02-18|Scott Pakin|Work around variables lost by SAPI's fix_variables
+a023c5a3b3160eb54512d08da26fddefcf95c9ab|2019-02-14|Scott Pakin|:bug: Update anti-chains after problem simplification
+b28f50600eceba74d59e43dc8e570e8ab4601626|2019-02-13|Scott Pakin|Improve performance when multiple assertions are specified but not output
+a50b5a6b8b1c02ba02f5694accf370efc5f82e48|2019-02-13|Scott Pakin|:bug: Correct solution tallies
+a91d330607064a34f1f0eb1a558527b006fd31c7|2019-02-10|Scott Pakin|:bug: Allow spaces in !for elements (not invalid for expressions)
+38f13a56162a7555fb2908d415d50a09c6f0c2b7|2019-02-10|Scott Pakin|Perform symbol substitution in !use_macro (macro and instance names)
+4b88007a8c86485d82b3a08924fcdebb72a01fc2|2019-02-09|Scott Pakin|Show more examples of !assert directives
+dd5f3842f532e2415db32fdf85db6990d8ab1414|2019-02-09|Scott Pakin|Replace "<>" with "/=" in assertions for expressing "not equal to"
+7cdbf54d1f358d1023a4505dd1b1bbbea1259c20|2019-02-09|Scott Pakin|:bug: Let Python cast implicitly between ints and bools
+c0d5deb7b625809b8b8310e63b4f0f3354a21460|2019-02-09|Scott Pakin|Allow logical negation of relational expressions
+d83f25754ead385b52d736a66e7402afecc7af1a|2019-02-08|Scott Pakin|Refactored solution-filtering code from qmasm.py into solutions.py
+550389c895caace95e7ecd887e624af4f0687ff7|2019-02-08|Scott Pakin|Make the discard_* methods return solutions rather than modify in place
+22a2b01e6d00e77f87c2661dd0633bd907acde6e|2019-02-07|Scott Pakin|:bug: Make --show=valid discard results that fail an assertion
+2570435bacfa873b1a92a301b43314a99c9173bb|2019-02-06|Scott Pakin|:bug: Correct the handling of parenthesized relations and expressions
+31be234d5c4804391dfb40dfbbc4ef20e6d6ecb5|2019-02-06|Scott Pakin|Allow relational sub-expressions to be parenthesized
+8adf5ff5109a0ada4d4ffac694edce24efc2a66a|2019-01-28|Scott Pakin|Exclude examples/qmasm-maze from source distributions
+513b7e3d2f34fd49c20d4beb38b105e3cdad83b1|2019-01-28|Scott Pakin|Increase the version number from 2.0 to 3.0 in preparation for a release
+882f6e819325488735a4f698d0b1c2b133bb867f|2019-01-28|Scott Pakin|Make LoopIterator compatible with both Python 2 and Python 3
+661b8b56f1c47d171d557781438d6963b9176fa8|2019-01-27|Scott Pakin|:bug: Correct the invocation of --pin
+5dc38c8bfc45cc4a00de3c9574f79b31a2f3ebf8|2019-01-27|Scott Pakin|:bug: Remove CI dependence on D-Wave's proprietary SAPI library
+13b2c4cc3280a65fac807baa739688637175488f|2019-01-27|Scott Pakin|Document feature-test.qmasm
+e25f9b1aead2621080ece418384fa28c35372f4c|2019-01-27|Scott Pakin|Issue an error message for each use of !alias
+d70f6ba6e5df38e7999c3a119d02cdb96afa45f6|2019-01-27|Scott Pakin|Introduce a do-nothing example that uses all QMASM features
+036323688539bb285b52e3ea7eb26811f4ba17a9|2019-01-27|Scott Pakin|:bug: Add a colon and square brackets to toks_re
+d5ddf8c3cf017497659f395512cf7f2964a4be45|2019-01-27|Scott Pakin|Update a2ps stylesheet to include new keywords
+d178793d6704af43e4d62a7bf76f1cf8130e6e17|2019-01-27|Scott Pakin|Replace !alias with !let
+558eda351a2f8a8fb34c228b011247cafbceb8c5|2019-01-27|Scott Pakin|Support "!let <symbol> := <symbol>"
+77f6d32cbccf0b86fd61fe3bedf20154403c8ab4|2019-01-27|Scott Pakin|Adapt ident_re to toks_re for consistency
+9a4e8d8908533314c461ad0a2bf87a689dd5f90e|2019-01-27|Scott Pakin|Apply substitutions to !let and !assert
+1dc06566d14f1110c4b59cd17169274f8583151f|2019-01-27|Scott Pakin|Implement aliases in terms of the current variable environment
+901b813195b9119adbd978cc4d6141b7c62de3fa|2019-01-26|Scott Pakin|:bug: Correct the translation of assertions to strings
+dba5af14bba79c5f2bc077bce2d79362cc601d27|2019-01-26|Scott Pakin|:bug: Correct the "no progression" error invocation
+b8ecbd653983237498f08a44fa4e718b1859655a|2019-01-21|Scott Pakin|Hoist process_{pin,chain,antichain,process_alias} into class FileParser
+73695257c7b4be21c22ed94405a0bf8301877008|2019-01-21|Scott Pakin|Modify the Environment class to copy its contents only lazily
+60053cd11b11c086972629e1d2cf11391f44732a|2019-01-21|Scott Pakin|Give helpful error message if commas are omitted from a !for statement
+ebf6d801342478bfe6073de3db2ff998b9e860f2|2019-01-20|Scott Pakin|:bug: Correct the handling of the final loop value being unreachable
+43c5aa861ff0fec4e59825cb6ec54d674662cfb7|2019-01-20|Scott Pakin|Initial support for a !for ... !end_for construct
+71a0406842266177ee0b5de9f091f00ce488bbf4|2019-01-20|Scott Pakin|Begin writing code to process loops
+740aa55bc286772ca4b218990e9e9415df1666b0|2019-01-20|Scott Pakin|Issue better error messages on bad directives
+f6aac7ca9b999660cf41f554f039201add21a347|2019-01-19|Scott Pakin|Support an !if ... !else ... !end_if construct
+c3acc256e9ee8349330cce11a1ddccb4352da799|2019-01-19|Scott Pakin|Make initial preparations for supporting !if ... !end_if
+00733c98500c619e1d840fcbe07214710c02cba6|2019-01-13|Scott Pakin|Pass parse_file_contents a list of {line number, line} tuples
+3b26335df7b3e5e53798adcbd6b3b5ff149330cd|2019-01-12|Scott Pakin|Import the LoopIterator class from a prior attempt
+a59280e93d1442add5a48b2ebfb4b13de6d34843|2019-01-12|Scott Pakin|Move str2bool from top level to a method of class PinParser
+1326f5f92b772152ab4b8f7093e8ccd48d496cdd|2019-01-12|Scott Pakin|Move find_file_in_path from top level to a method of class FileParser
+793104570c745f0b8ad7f1df1feed26b3e333a1c|2019-01-12|Scott Pakin|Move is_float from top level to a method of class FileParser
+67d69f7a5625e606a5da7e45b2505181fcef3a13|2019-01-12|Scott Pakin|Introduce parse_file_contents to enable random access of file contents
+734c4a4b6675b523c99d898595b112898f146500|2019-01-10|Scott Pakin|Substitute let-bound variables in symbol names
+49ea06cf83a87cc16de43854eadfde312b9f3f3d|2019-01-08|Scott Pakin|Define an Environment class for maintaining variable scopes
+41d96133e11b7d327fcbb815f6a14925dd729689|2019-01-07|Scott Pakin|Parse, but don't yet process, "!let" directives
+514b72ad91caf23f8a6d73a36c797929f010a21e|2018-12-17|Scott Pakin|More aggressively merge qubits
+d7c3d05839e17144c8b250fc46eb22ef43000e12|2018-11-02|Scott Pakin|:bug: Fix incorrect handling of QUBO problems and their resulting energy
+9beee2371867cbafc1fdacd61d0dd96bb1d67a6d|2018-08-03|Scott Pakin|Ignore !assert directives in qmasm-ground-state
+47535ce13412a5bdc472a70f1ae94aa45c07e76e|2018-06-21|Scott Pakin|:bug: Initialize hs even for variables named only by couplers
+0592f762a5e31c6c51c46b1d639ab3e0e5e0f4f4|2018-06-20|Scott Pakin|:bug: Correct error handling when running without D-Wave proprietary files
+ca419ba423766f0955a2de241b1fb819385ba5d4|2018-06-20|Scott Pakin|:bug: Fake unembed_answer, needed for qbsolv execution
+a896291e00784ff52e68d3453b291978fa0fc1df|2018-06-20|Scott Pakin|:bug: Correct the use of `-f qbsolv --run` with `-v -v`
+9e5be93dcb0b6940267d441fc666d17fc9ac5cb3|2018-06-20|Scott Pakin|Honor `--values=ints` when run with `-f qbsolv`
+00da1df5a6deb05e15e9ab13dc0884780ab3a85d|2018-06-20|Scott Pakin|Pass all command-line arguments to process_classical
+eb09048d3665d1d0844149223bf32efa8c902866|2018-06-16|Scott Pakin|Allow !use_macro to take only a single argument
+32974974627ff1ce7198a271ee23ff7cdb13f48e|2018-05-29|Scott Pakin|Abort if any disconnected variables are encountered
+3dac174be18f7668c8c71204a10b7449ba688661|2018-05-29|Scott Pakin|Include a qmasm-gen-all-to-all topology-generation script
+cc7891bd8d3cda58f6ec63d3f2dcf555632467c2|2018-05-29|Scott Pakin|Output a symbolic energy function
+9484eba4e0e57ee9f115a025b560618ec5ffd3e0|2018-05-25|Scott Pakin|:bug: Don't alias variables in anti-chains but do update all anti-chains
+998e11b16d8de22e255b77195d2cd7654517bf73|2018-05-25|Scott Pakin|:bug: Correct the conversion of (anti-)chains to aliases
+17cbf6e2a39815f2b7c6ba07dcd89e2a8dce18c9|2018-05-25|Scott Pakin|:bug: Convert antichains, not just chains, to aliases
+6017925f49cba0451b562b197fd56df093014141|2018-05-25|Scott Pakin|:bug: Don't abort with --show=best if no solutions are found
+9b2449243d2b488c8a0363385df68e1f6f65c7e4|2018-05-25|Scott Pakin|:bug: Don't access out-of-bounds spins caused by elided variables
+ba212962942b26e0f6d8c605c0f369cde4c654b7|2018-05-21|Scott Pakin|:bug: Distinguish user-defined chains from embedder-introduced chains
+08e80c4b0a4fb469315dbee680670f1dfec66748|2018-05-21|Scott Pakin|Represent (anti-)chains as sets instead of as dicts with dummy values
+e995db20ce37dddb3812d35ef357e5e4b10c889f|2018-05-21|Scott Pakin|Make update_strengths_from_chains a method of Problem
+5bcb3cbf827a3fd90c7dd2698518b64f1a66a8bd|2018-05-21|Scott Pakin|Renamed --pin-strength to --pin-weight
+03d4201d7d8b5999ab6b907ed41be2414f88fbfd|2018-05-21|Scott Pakin|Make scale_weights_strengths a method of Problem
+8ef63814275e32edc7d563615f79bb72e0d5daa7|2018-05-09|Scott Pakin|Replace the copyright year with the original copyright year
+7e12df862f87a3329168acbd145b73d4740e712a|2018-05-09|Scott Pakin|Replace broken QASM hyperlink
+59437a9d3ce24a759b7318ddd524644d5829a677|2018-05-09|Scott Pakin|Add support for `/=` to indicate an anti-chain (opposite values)
+9ee7cba1105c8f21522a9f014bc572de1786a9a2|2018-05-08|Scott Pakin|:bug: Assume num_occurrences == 1 if undefined (cf. ising-heuristic)
+e2c3567432ca495cda518bda32ab556ded082c26|2018-05-07|Scott Pakin|Move energy-bounding logic from output.py to problem.py
+1a8a8ea956b92656d0139adf41715bf73244c139|2018-05-07|Scott Pakin|Output an estimate of minimum energy using a majorization technique
+1b32d037d9ca1fd7b102c855c350d69efedcafcb|2018-04-25|Scott Pakin|Remove useless report of theoretical minimum energy
+20a5b56ca0649e34e1297c13ed07780cd38f9d3a|2018-04-23|Scott Pakin|:bug: No Python error if the D-Wave libraries are unavailable
+9b09d248c66c6b75c39eba2a534dc9a5e743a726|2018-04-23|Scott Pakin|Drop support for --discard and --all-solns in favor of --show
+adb3a7644b87d1509ddf59da8be454747d782dda|2018-04-06|Scott Pakin|Improve formatting of solution statistics
+6af86c7c68df5a8191a8896c7d74b4d0d14f29cd|2018-03-15|Scott Pakin|:bug: Correct handling of mixed sums or mixed products in !assert
+5b8b4564673a49193c7146c40f349dd2c9f0eef6|2018-03-14|Scott Pakin|Accumulate weights and strengths when repeated
+cf55b4a60330acf6d101c230a99ccadb78f7ef74|2018-03-14|Scott Pakin|Make addition and multiplication left-associative in !assert statements
+84dcbd4975ebce8ff31cbc8aac49d9f630d53c8b|2018-03-14|Scott Pakin|:bug: Fix crash when generating qbsolv input
+91107817b0042cf52e300e122c43e27ce3c789fb|2018-03-14|Scott Pakin|Abort on attempts to alias two pre-existing symbols
+1994378b8589ba353f30ad25c6008fab8f573d45|2018-03-14|Scott Pakin|Encapsulate qmasm.sym2num and qmasm.next_sym_num into a single object
+21ab0a75b2d81c1ba1a9093d1397feaee6c66cb5|2018-03-14|Scott Pakin|:bug: Call fix_variables in "standard" mode so as not to discard valid solutions
+2734d812148a4fae11b913f9972880630fcb8233|2018-02-25|Scott Pakin|Explicitly reject negative powers in !assert directives
+4fe87a5039eaa3c350d5ecf08f82886c19815cc0|2018-02-25|Scott Pakin|Support if...then...else...endif expressions in !assert directives
+24f79616fd41156ee72c56d0e646f4e74ea4df67|2018-02-25|Scott Pakin|Support logical negation (!)
+6dc09ff32987c11568138c3f95bb8e7862d1c28f|2018-02-25|Scott Pakin|:bug: Correct the handling of OR ("|") and XOR ("^")
+61ff7c060d05883b316b5f000a58716be9010fd0|2018-02-23|Scott Pakin|:bug: Adapt qmasm-qbsolv to the latest qbsolv output formatting
+37eebbcdade93338d11e398c661baa9d08a81fae|2018-02-23|Scott Pakin|Support integer power ("**") in !assert directives
+52a4d8a2e4201f0ab8f4c8bc909aac9764dd1a8c|2018-02-23|Scott Pakin|Support bit shifts ("<<" and ">>") in !assert directives
+7b034c50b06bde875ff9401b9dc1183f1af91a6a|2018-02-23|Scott Pakin|Output assertions only when given --all-solns and/or -v -v
+65958016fec974d2ed99bbfa7c981e2780fc2432|2018-02-22|Scott Pakin|:bug: Correct exception handling for Python3 compatibility
+1daa1a14b873685f5c7ffff6c7d31cd5b45c4c47|2018-02-22|Scott Pakin|Support a new !assert directive
+d88ab1338aa68551fe226deadd7983cfe39506ff|2018-02-22|Scott Pakin|Include a simple Emacs major mode for editing QMASM code
+a899787b5c669c97a307e32e425081b7a6a452b4|2017-11-03|Scott Pakin|:bug: Don't crash if all values can be determined a priori
+194d47038a57f1d0ede41181cb8f63511580d221|2017-10-11|Scott Pakin|Report solution tallies as part of maze validation
+3fea1a48e3675e1cd5b23833f3ee9ae290cfa218|2017-10-10|Scott Pakin|Attempt to reduce memory requirements for solution merging
+e10bf68dc5aa3218df4f81f7554c2e838022cbe2|2017-10-10|Scott Pakin|Make maze validation robust to "qmasm -v -v"
+0c98de5cf8f692eb4516d49bc9c16090cd334cb1|2017-10-10|Scott Pakin|Simplified merge_answers
+fb82c362f10c319d952c00fadb21341e3ba8a367|2017-08-31|Scott Pakin|Cleaned up the handling of non-Chimera topologies
+521a3e5b7fd9723746eca322ad94ba38e5eda78b|2017-08-31|Scott Pakin|Better error message for dw output on a non-Chimera topology
+600754685e6b1eb1b460fd5ebabe4b03454b94a0|2017-08-31|Scott Pakin|:bug: Don't crash with `-v -v` when used with a D-Wave simulator
+9055bfebcc0ae821833b4b4c5aee8e4f0cf8029e|2017-08-26|Scott Pakin|Corrected a code comment
+c623159aafd8670f2e7ad91ec9ad9aa9a3f70392|2017-08-24|Scott Pakin|:bug: Corrected the writing of internal and elided variables for qbsolv
+a64f15726c638eaf128e673aa2e6aa17f0d6d6c5|2017-08-23|Scott Pakin|Don't buffer all qbsolv output before reporting it
+2cea5dda67912e9fe7e6906faa87216531ed880a|2017-08-23|Scott Pakin|Don't buffer all embedding output before reporting it
+13bc63ed5a7aea0b1e5954b08f8bc2dbb1bf3b1a|2017-08-22|Scott Pakin|No longer output a canonicalized input file and associated key
+2ea095083f688d062a03e79970fbc24c24e37488|2017-08-22|Scott Pakin|:bug: Define a fake fix_variables so QMASM can run without SAPI
+a9b829f53dfe57dc0c3ee6d32588b684d74aedc5|2017-08-22|Scott Pakin|Perform more aggressive qubit-count reduction at -O1
+5db92a0f1a855ca3bdbea945107d7c59f901a82e|2017-08-21|Scott Pakin|:bug: Correct the handling of spin reversals divided across multiple QMIs
+f6e8c9df3949c68f9d57622f0feb8fc336f6d44f|2017-08-17|Scott Pakin|Improved the formatting of the list of submitted problem IDs
+10f51141ae3f8742f5069a0c08280d8bcba40586|2017-08-16|Scott Pakin|At increased verbosity, give progress updates for QMI completion
+69b1c994c1f479bfd612cb8c071d2f6d0825d213|2017-08-04|Scott Pakin|Sort timing information alphabetically by key
+b769691bb24afd35e48cf371407f417b78fff1b9|2017-07-02|Scott Pakin|Refactored submit_dwave_problem
+433720570fe34d49f9e656e37f60ca9d40860e8e|2017-07-02|Scott Pakin|Split large sample counts across multiple QMI submissions
+3d8f4dcfba9255e61e41c97a6569b4bf7e7697b6|2017-06-22|Scott Pakin|Increase the version number to 2.0 in preparation for a release
+a3343a3125ac2dc1a63771cdf37400528c796892|2017-06-20|Scott Pakin|Merge branch 'master' of github.com:lanl/qmasm
+3717a7991f448a4fe0876837efe89bdbada9a02a|2017-06-20|Scott Pakin|Allow aliases of undefined symbols
+03d7550592ab06af3b924e1eec2b2c6694e51e84|2017-06-07|Scott Pakin|Report the problem ID
+0237e7f241970a9256b8d90c4875734b50ab8925|2017-06-04|Scott Pakin|Fixed a GFM-related typo in the README.md file
+58b679241a9b2c1a0dca0248e8a636acdab3af43|2017-06-02|Scott Pakin|Include richer metadata in bqpjson output
+d3045915257228114374e0e996ac4b55196a9472|2017-06-02|Scott Pakin|Added support for outputting bqpjson format
+3b2785a022967fde1afe2b3d803acee4ae64f6b4|2017-06-01|Scott Pakin|Make -O (and -O1) only reduce qubit counts; -O2 packs the Chimera graph
+dc9870a046f8fcb701377951dc2c2dce9cdee31a|2017-05-31|Scott Pakin|Test QMASM against PyPy
+73f341fc0b8fcf4e6044eae6af3c9f89bf677e3f|2017-05-31|Scott Pakin|Threaded qmasm-ground-state to improve performance
+2e72389d3d832ed17eea523051a4c7f41003adbe|2017-05-31|Scott Pakin|Merge branch 'master' of github.com:lanl/qmasm
+c47f7bddeb19c536b12e7ee5424cc052f7575b15|2017-05-31|Scott Pakin|Drop unused import
+41f5348bb1c9782f334906026f4af48d7574779d|2017-05-31|Scott Pakin|Made various improvements to MiniZinc code generation
+d97cd459bd1a9439971650c6dd7138b56bb288e6|2017-05-30|Scott Pakin|Adjust MiniZinc's energy output to include the offset from QUBO conversion
+a926de9c883cf1b8ce079e361735b8f3823e7a25|2017-05-30|Scott Pakin|:bug: Don't crash if a coupler connects an optimized-away qubit
+ed7644179b4b8716da8454fb6d1d4903fca29eb7|2017-05-30|Scott Pakin|Let the user define "close enough" in qmasm-ground-state
+20b92b291a2c4c91b39807f56b13ee5f286e1362|2017-05-30|Scott Pakin|Fixed a very minor formatting issue
+7fabb30e88b52bff8592cd401c94193ddc972f2e|2017-05-30|Scott Pakin|Have MiniZinc output energy in problem scale, not integer scale
+bb9fa86838726ff018c541884988c96b2dfe6892|2017-05-29|Scott Pakin|Introduced an --always-embed option to write qbsolv/MiniZinc after embedding
+da23f0fea9ed87eaebd318916f2fe7cc969f77d0|2017-05-28|Scott Pakin|Made --postproc accept "none" instead of "" for no postprocessing
+e1811a181eab7f46f498a0bc735a5e756da8e4c1|2017-05-28|Scott Pakin|Removed continuous-integration tests of --topology-file
+9655928ad942e7ac12dbbe69db1cb23652ceb7f3|2017-05-28|Scott Pakin|:bug: Correct a missing semicolon in the test script
+d625b3210069540d287448384c66a20f8b1909d2|2017-05-28|Scott Pakin|Add continuous-integration tests for --topology-file
+b9a8669fbd48f2fa507d700246b350094be0578b|2017-05-28|Scott Pakin|Let the user specify a topology with --topology-file
+88e2aa3275fe2d7c56beec04afaa63d1affa5469|2017-05-25|Scott Pakin|Removed unnecessary conversions to lists
+661a507062f4b0a024755259438e85bff51acaf8|2017-05-25|Scott Pakin|:bug: Rewrote the chain-optimization function from scratch
+d550a0bf58f3ad8d18feeb321bed664b042acd23|2017-05-24|Scott Pakin|Canonicalize edges to enforce the order of the two vertices
+2359ad7160e009d5c629db88ecd2b1205f60270a|2017-05-24|Scott Pakin|Report the number of active qubits and active couplers
+190f3ad989a40b99801dfc4d432dc489b82288e5|2017-05-23|Scott Pakin|:bug: Output .qubo files always with i < j as per the specification
+d713dab380bc7d8ca14bf9db4172670b0f32c589|2017-05-17|Scott Pakin|Report the command line used when -v is specified
+b8b4a9dd82742f4f24538b24a16a59c1d3e5b9e7|2017-05-08|Scott Pakin|Merge branch 'LSaldyt-py3-patch'
+f89dd490574acd2a16dc773741cb66441a51d2d0|2017-05-08|Scott Pakin|Revert "Trivial changes to trigger Travis CI"
+11ce904c50df3db5813ef65734ffad085e1b2abc|2017-05-06|LSaldyt|Trivial changes to trigger Travis CI
+7f562550b874e5dd77b5352fd8192d4dd5e7fc91|2017-05-06|LSaldyt|Adds byte string literals for py2/3 compatibility
+db63fd9c239c3534c70ec29546ee76290fff8271|2017-05-05|Scott Pakin|Make --anneal-time default to the solver's default_annealing_time
+73ef40cda3c70a25ebe1361f40849e728c315afc|2017-05-04|Scott Pakin|Relay error messages from qbsolv
+c54553897620b30b97ed74db93015dedb0447040|2017-05-04|Scott Pakin|Added a Travis CI badge to the README file
+3df14bc70e791f86aea778a54d1c9893ec51c5ec|2017-05-04|Scott Pakin|Made the code compatible with both Python 2 and Python 3
+c7fec3f434ae8d3a09774b4a5b3811492630ebc6|2017-05-04|Scott Pakin|Updated the "no D-Wave libraries" error message to suggest MiniZinc
+ff67aecb804dc89e747cd9d8f4e99402f71c1927|2017-05-04|Scott Pakin|Added a Travis CI configuration file
+35e9356b8140ddb99d9ae6b296f902a8c5329487|2017-05-04|Scott Pakin|Use MiniZinc as the front end for both the MIP and the CP run
+329466fdac7d173e95c57130703a9f3a36d20d2d|2017-05-04|Scott Pakin|:bug: Don't crash on MiniZinc runs if -O elides qubits
+ade1e25b4315125ddaaf5a47d7a93b76bc41558a|2017-05-04|Scott Pakin|Added an --extra-args option to pass arguments to qbsolv or mzn-chuffed
+398236e7ba67893dc1eb2bdc0750057f3ea11e24|2017-05-03|Scott Pakin|Allow --run to be used with --format=minizinc
+e4b54f8d91e9324b575ac008a7e519e45a64d8cd|2017-05-03|Scott Pakin|Allow --run to be used with --format=qbsolv
+2a5f1aeea476f2c3ee653c4298818478028d0e3d|2017-05-03|Scott Pakin|With --all-solns, sort solutions first by increasing energy
+c1fdd35670c74d751bb4ba6c0a698d14ccbd0d74|2017-03-27|Scott Pakin|Report the size of the maximum possible clique
+1e70ed13484eecb96006fdd605e08167c720f39d|2017-03-25|Scott Pakin|Two output styles: --values=bools and --values=ints
+33061dfc20f9cffb0d1e05ed904fb2cfcecd6bc8|2017-03-25|Scott Pakin|Moved the solution-output routine from qmasm.py to output.py
+f5a28ac6de85950ad64b37043f828d9c588c5eca|2017-03-24|Scott Pakin|Make `-v -v` no longer imply `--all-solns`
+b4387aca4b0807154114f31eba18494e174d5d14|2017-03-20|Scott Pakin|:bug: Correct the determination of whether embedding is impossible
+9bb58a3d91a0467a5931d884b31b9dc30204eb18|2017-03-20|Scott Pakin|:bug: Pass hs and Js to `unembed_answer(..., broken_chains="minimize_energy")`
+03821361d95dad2ca4fec6d87dbc945e5ec2723d|2017-03-17|Scott Pakin|New --discard option to control whether bad answers are kept or discarded
+2526948f9ee032aa951b5795dab61e82c4790813|2017-03-07|Scott Pakin|:bug: Correct the handling of aliases ("<->" statements)
+db385a61c57f32573096f0d42d6a90e1e15e8d98|2017-03-01|Scott Pakin|Report embeddability metrics in verbose output
+076d15687fc97b3864650c32a81834303640b11e|2017-02-23|Scott Pakin|Include failed embeddings in the embedding cache
+0ebd51e774cfd1aa656c5b0ff425ae45178fd9c2|2017-02-23|Scott Pakin|Renamed --verbose to --all in qmasm-ground-state
+9811485e7e7f10afb0a40470d6ee376c4b4f751c|2017-02-23|Scott Pakin|:bug: Corrected formatting when all symbols are a single character
+ee542375ae3544d0837033ef3a489b146ee9ce21|2017-02-23|Scott Pakin|Write MiniZinc output before embedding
+b057c38f43f0d1d3725decc64fe433b0bb0c2316|2017-02-23|Scott Pakin|:bug: Update to work with new qmasm class structure
+ceaf61b04af797150e5ec1cbfd04cad0fd0a5137|2017-02-16|Scott Pakin|Added a link to IBM's QASM GitHub project
+c1cf8ab1ae065ef181c13cbda007e9678fdeead9|2017-02-10|Scott Pakin|End in a blank line for compatibility with edif2qmasm's friendly-mult
+8b0e265df8a8f46fd915cabd2e97a3ec9ef9b084|2017-02-09|Scott Pakin|:bug: Don't crash if `-vv` is specified and `QMASMCACHE` is not set
+c841e1b116a3576df8fce07412c0f5b31ccd8af7|2017-02-03|Scott Pakin|Replace github.com/losalamos with github.com/lanl
+36cea09775a4e9daa58fbb8bb704f526d3324c50|2017-02-02|Scott Pakin|Merge branch 'fake-dwave'
+8a076300a40d162562b8ffe3cbb48e0135afbf61|2017-02-01|Scott Pakin|:bug: Work around ising-heuristic's lack of num_occurrences
+eb21dbc6c7ae3600a763d02db7671582c1b36088|2017-02-01|Scott Pakin|Merge branch 'master' into fake-dwave
+57f268a4455944ee4c2c731f2e90c119c9d593ec|2017-02-01|Scott Pakin|Report the connection name and solver name when available
+ff0d90614f774d6bf9079aaa1d47ef486f60f1af|2017-02-01|Scott Pakin|Merge branch 'master' into fake-dwave
+7c47d361e47db07a8ee78654c4e130faebce4fd3|2017-02-01|Scott Pakin|Better error message for remote connections in the faked D-Wave library
+5012287e813adaa40c8707708b05dab73f850829|2017-02-01|Scott Pakin|:bug: Corrected handling of invalid QMASMCACHE values
+0e0d6a18e4623ecd71735e1c5098ec027b0f9d9c|2017-02-01|Scott Pakin|and4.qmasm example to show how to use a multi-instance !use_macro
+d46b0e2204d2114a2cb054f62f88764c85eef12a|2017-01-31|Scott Pakin|Support generating qbsolv input in the absence of SAPI
+dbc089dac73571c373a2a78de8605a03596b8651|2017-01-31|Scott Pakin|Minor modifications to verbose output
+0731aa59b448f63a8f8d4c97dd7f2c25212e6bb9|2017-01-30|Scott Pakin|Use an embedding cache
+32819ea0943992bbc87ca842c0d8762e1324a145|2017-01-27|Scott Pakin|Replace "!next." with the next macro instantiation in QMI generation
+b1d5f3ed7e8d2ed142e19ee35fe60955f5b24eb7|2017-01-27|Scott Pakin|Replace "!next." with the next macro instantiation in string generation
+d1a39fd7bbe7a4b6e579c0b7637c5f9c2e120ab7|2017-01-26|Scott Pakin|Support for multiple macro instantiations per !use_macro directive
+8c395558f2829d29d2785b0a85c1c467f0a894d9|2017-01-25|Scott Pakin|Code cleanup: Moved file-parsing functions into a class
+3c767be11f0f04be7f097d520d9a770a047b3cd9|2017-01-25|Scott Pakin|Code cleanup: Split parse_file into separate helper functions
+242cd540fa8d0bce0ba77e2c9582682dc5990d38|2017-01-25|Scott Pakin|Revert "Support for !begin_replace_sym...!end_replace_sym"
+bfe3c25cf817d1d4165828d27001deb1ed707804|2017-01-25|Scott Pakin|:bug: Localized filename and lineno to correct line attributions
+d2a8853c30afa37214559fa9d2603ced237184bb|2017-01-24|Scott Pakin|Support for !begin_replace_sym...!end_replace_sym
+2b0f887a5ef7492e77ebebcbcf0771a38f9f7b97|2017-01-20|Scott Pakin|:bug: Correctly handle the case of no weights, all strengths
+381bc3c63a14334be278befc50c7951b713b690c|2016-12-23|Scott Pakin|Formatted MiniZinc output to look like normal QMASM output
+ffa98260f8c7af3aeae9ab8142451e3dda28f602|2016-12-23|Scott Pakin|Perform at least minimal error-checking on the input stream
+bcb88e81d7bc275bfb3f3caf6c73ff90a3c7ca1a|2016-12-23|Scott Pakin|qmasm-qbsolv wrapper for qbsolv
+6fb566264e918e1067d1d48f119cadc60fda9728|2016-12-23|Scott Pakin|Compact numbers when --renumber-from is used
+9beb82d19d713991b5ffca2bb60fa16f4b82b26d|2016-12-23|Scott Pakin|New --renumber-from argument to qb2qmasm
+0bfed7c0d07962417e7dc51420fdd576f81d3494|2016-12-23|Scott Pakin|Minor change to the help message
+a7744cd958ce55f7b87bc3669c6baf9c67728639|2016-12-23|Scott Pakin|Replaced the 5x5 maze with a 6x6 maze
+6b00f179bee4bb3fa3cf635d50b45942250a7504|2016-12-21|Scott Pakin|Abbreviate postprocessing types
+fb5df0af32a59ba4bc432bbc2e158c41e7126d97|2016-12-21|Scott Pakin|Replaced generate-maze with qmasm-maze and extended functionality
+2822b0570b25004e7c29eb5f1f44855105403803|2016-12-20|Scott Pakin|Maze example
+84b2cacb79fa64bb36ab999a733813ca6fd016c4|2016-12-20|Scott Pakin|Perform inexact floating-point comparisons
+50851d9fd958314b3b7c71d9366a649bc0b9db09|2016-12-20|Scott Pakin|Helper script for computing ground states
+b1fd39d38d054e0a1ec5e4056de87565c31aef17|2016-12-15|Scott Pakin|Merge branch 'master' of github.com:losalamos/qmasm
+c96e3eb69a35212b0a894bd427a7490ea274d5a2|2016-12-15|Scott Pakin|qb2qmasm script for converting Qubist to QMASM
+579982269b875adfe8987fc2089f699fd526ba49|2016-12-14|Scott Pakin|Corrected a typo in the --help message
+fa910926a75a54cadae952f34f386fbb3e3ebeda|2016-12-14|Scott Pakin|Specify the postprocessing step with --postproc
+e47c19dba70b88cec54276cd1c4a325d42fb7714|2016-12-14|Scott Pakin|Specify spin reversals with --spin-revs
+d97af6fc851d4af1d4991d6bad52361c321aa025|2016-12-12|Scott Pakin|Optimized performance of generated MiniZinc models
+f9d6ab9af7e8de11aaf0ae185d5cc253578d0f03|2016-12-06|Scott Pakin|Cite QMASM paper's DOI number
+3d2a8d7aedb863b2bfbe5e204af117307faeaecb|2016-12-02|Scott Pakin|Support for --format=qmasm
+f8e45c95469f8e7f0602b527bcdf07fe01c0e3e7|2016-11-29|Scott Pakin|:bug: Corrected canonicalized file output
+35cbdbcf59a6dcf75e0f28f09320d2e7ab02503c|2016-11-17|Scott Pakin|Made the pinning weights and strengths more sensible
+d2dc300167d8dc15e434b9d9c45c62d01a446484|2016-11-11|Scott Pakin|Minor changes to the README
+cae464a3a19e6226ce8f797c0b3a57f95c5f521a|2016-11-11|Scott Pakin|Increased the version number from 1.1 to 1.2
+1e78ded97d9d1971a1bf8b909c006cf24983922b|2016-11-11|Scott Pakin|MiniZinc output includes energy
+9ca2b876ce278af2acae43a09d563df90229163e|2016-11-08|Scott Pakin|Sort variables in MiniZinc output
+82873c9ba36f180f02b4be78c0e332e3272b73c2|2016-11-08|Scott Pakin|Add support for MiniZinc output
+04bbcc3d7b20281a037ae88d5b574352dcf300f6|2016-11-04|Scott Pakin|:bug: Mark the output of convert_to_qubo as a QUBO
+2476603698226037e9ecccd8c55c9901744aa32e|2016-11-04|Scott Pakin|New --add-solns option to output all solutions, not just minimal energy
+a22202836fa2f93bd7bb0279feb50039d0bf1c0e|2016-11-03|Scott Pakin|Fixed a copy-and-paste error in the examples README file
+f21cc157a6994e7ab172bc30de12038ca808fcce|2016-11-03|Scott Pakin|Use array syntax in the sorting-network example
+d2df1566239306fc5e2e97c949c359fb2059326c|2016-11-03|Scott Pakin|Merge branch 'master' of github.com:losalamos/qmasm
+b64bb9384e62da2be1dd929b3b2414e1b509a0a0|2016-11-03|Scott Pakin|Consistently store weights as a defaultdict
+cd49d2469e7dc74af47fe890e10f0860ece672c5|2016-11-02|Scott Pakin|Output qbsolv files before, not after, embedding
+8200f89cdc6e5f7abc061824bbd07f5ea9eeb466|2016-10-28|Scott Pakin|Output the theoretical minimum energy
+6a38716fe0cc8646c37c3d9bc1454a22e75419a8|2016-10-28|Scott Pakin|Discard solutions with broken chains and broken pins
+c63f0e0c7c60a38d6ac139a128642d2e2231bdc5|2016-10-28|Scott Pakin|Say "minimal energy" instead of "ground state"
+1094b13290d52211bf5c8236fc763704312d3bb0|2016-10-26|Scott Pakin|Reference the HPEC 2016 publication
+c589beb2cb232d4927bf457f6f0aca377dfdded7|2016-10-26|Scott Pakin|Allow array expressions in aliases
+558a42375059f6d49df083ea04d12f5c0985179e|2016-10-26|Scott Pakin|Increased the version number from 1.0 to 1.1
+b7e7a707b84a72ec622b7fd6c58a5d9237beef8a|2016-10-26|Scott Pakin|Global change of "QASM" to "QMASM"
+0b4d17de763b9101219cca4f70a44420fa539b3f|2016-10-20|Scott Pakin|:bug: Make topology calculation more robust to lots of lost couplers
+836980fe317ac8d7171f13f727f3617fbc3f4d9c|2016-10-20|Scott Pakin|Support for array notation in chain statements
+e52703a53474673141555e5352a9a5ff8b529a37|2016-10-19|Scott Pakin|Case-insensitive processing of "TRUE" and "FALSE" in pin statements
+4bbf247a59b31bf1e225733bcefdd2a3fe131f9f|2016-10-19|Scott Pakin|Support for array notation in pin statements
+e06faacf268fb97e38e1c498d15d1d4a44a33ea9|2016-10-18|Scott Pakin|:bug: Round up the minimum number of unit cells needed
+108e31e7578c1d4d8aef686ac6dfe091c7d3195a|2016-10-18|Scott Pakin|Fail when given disconnected variables
+6d8bb38bfc6845422a2ab115cce7ecf4d78a6de5|2016-10-18|Scott Pakin|:bug: Don't require a proxy for remote connections
+f7efe15255c0ea1984e2ac258a9deb137075e245|2016-10-17|Scott Pakin|Tally the number of occurrences of each solution
+ebd27c45b283fbc5c7cac142def77721ac4ce5d4|2016-09-29|Scott Pakin|Facilitate embedding of problems with the ising-heuristic solver
+d54fc827d96fd412f2006b7b574d5ebaa7f554f7|2016-09-27|Scott Pakin|:bug: Handle the case of unused qubits
+d46a78e6ccacf5696fe6bf87f3e25c4e18bff809|2016-09-27|Scott Pakin|:bug: Don't blow up when using the ising-heuristic solver
+998e34e0c35a63617451e84bc2bae30216d34e5a|2016-08-23|Scott Pakin|Merge pull request #2 from rizkg/master
+eb0b4037d6c744adef59fac1d3edc3b78be3a008|2016-08-23|Guillaume Rizk|added proxy param to  RemoteConnection
+35afe96531c77cb983c883363aaefd157f8919e9|2016-08-22|Scott Pakin|Added a MANIFEST.in file for use by Python setuptools
+43d37b32b2d2370c51b7489006d70e51b5e126dd|2016-08-22|Scott Pakin|Describe the contents of the extras directory
+77dcb44604e4f32a38b1b03a635236b084b5900d|2016-08-19|Scott Pakin|Removed --chain parameters, which are no longer needed
+331bba068ce90f402a7af687bda0c00d3cef9a22|2016-08-19|Scott Pakin|Halved the default pin strength
+e91b353e47aabcda8dec91d70d2d789f1278aeee|2016-08-19|Scott Pakin|Doubled the default chain strength
+ce3ca616f6c3a87cc5b99afef71031588b912368|2016-08-19|Scott Pakin|Cleaned up the code for optimizing embeddings
+422997299ffe0432cf5b051286dd9849c9f2085a|2016-08-19|Scott Pakin|Output the *pre-embedded* problem in qbsolv format
+6bec5ac217b9170c165e38882847f78e9e78b05a|2016-08-19|Scott Pakin|Made output.py more consistent w.r.t. QUBO vs. Ising
+4253e5d5a8d1f117e5a30e6ed43cc10328acf2f7|2016-08-18|Scott Pakin|Minor changes to the text
+0a2149dd5ea8a66ac65f3e25a3dd65bbe92bb292|2016-08-18|Scott Pakin|4-bit sorting example
+811e485ea39a333f382e126dbd8083482620c303|2016-08-18|Scott Pakin|Delay complaining about no solutions being found
+3e63a7d7dba1cb19f1dfd35d6fe6ee488f0f3731|2016-08-18|Scott Pakin|:bug: Map logical pins to physical pins
+f54e91d8eec83b6fe33fc1717d21d93e20612dca|2016-08-18|Scott Pakin|:bug: Correct the parsing of --pin's argument
+959ecde66d043872230f67f80331fef0f3052974|2016-08-17|Scott Pakin|Added 1of5 example
+6fa6e34cebc93f83ccccaa9ae7ba14e6094f63e1|2016-08-17|Scott Pakin|:bug: Fix missing import and missing return in convert_to_ising
+bcb66e851a875991abf3046d4f70c8d1e39d4808|2016-08-17|Scott Pakin|:bug: Corrected refactoring for the --chain option
+831fe9525797795fb251f165a6bf462c1472aeb9|2016-08-17|Scott Pakin|:bug: Corrected refactoring for the --run and --pin options
+7f70d8fda1ae60806f2fdb36cd5d42c7c4d49fbb|2016-08-17|Scott Pakin|:bug: Corrected refactoring for -v and -vv options
+c896937b74bac51f1508b3d693c4e333de375267|2016-08-16|Scott Pakin|Begin reducing the dependence on global variables
+4e976d9404501f437bbf5f817ac8e64875b4c0f2|2016-08-15|Scott Pakin|Initial `examples` and `extras` directories
+5185b86271e7810af028e381c0026c71448956c1|2016-08-15|Scott Pakin|Reference the QASM wiki
+b11d0f7b3c472f4eaa607c58f5e90f2407cf9ca2|2016-07-11|Scott Pakin|:bug: Pass filenames, not just line numbers, to Statements
+7c55d9f9f35ebbb042967c340093e33611d57550|2016-07-08|Scott Pakin|Revert "Introduce a 10% fudge factor for chain strength"
+d48954b90d71ce0a388b4561d4466c76a95d5111|2016-07-08|Scott Pakin|Introduce a 10% fudge factor for chain strength
+83144a8cbb32ad4a4ada47bcb5de5d3a9aaeb1ee|2016-07-08|Scott Pakin|Shortened QASM's description in the README file
+40c48d7621bf86f257bcd73b9a9feaa16e27a3f1|2016-07-08|Scott Pakin|Wrote a README and a LICENSE file
+d1f1f7d382c2da418e3a88f29cdc5f1c7e5b3724|2016-07-08|Scott Pakin|:bug: Correctly scope abend and progname
+eacb7728db6652f58fa716e22d157e1ad29b6d86|2016-07-08|Scott Pakin|Separate file for output routines
+32a848d45ffc1ef285939304f842a402824bde47|2016-07-05|Scott Pakin|Separate file for D-Wave communication routines
+cef680b1fa9b1927addebf7dfc38581af4eb1dae|2016-07-01|Scott Pakin|Transferred more work from qasm.py to update.py
+2863f8487c926f7ef6d6c66c31f9a3863b39d2e3|2016-07-01|Scott Pakin|Merge branch 'fixed-scope'
+049afffdf6ffd812a4c4305658f7e2baff9030ed|2016-07-01|Scott Pakin|Moved chain- and pin-strength functions into their own file
+b32105a75c991bf33ffea380cc7b54fd6649b35e|2016-06-28|Scott Pakin|Moved file-parsing functions into their own file
+800e9849749a0c5fa6128efa4ca955c53502a58e|2016-06-28|Scott Pakin|Ignore .pyc files
+037479fe81c97c2e57c96d67c5f3d592147d7260|2016-06-28|Scott Pakin|Fixed multi-file package scoping problem
+8b93525c12d04b24b04b8a75d9efd2d7682c0b6e|2016-06-28|Scott Pakin|Minor modifications
+c629678e6dff4358edcb00e050dc4d412b3847ef|2016-06-27|Scott Pakin|Begin moving weight/strength update functions into their own file
+acaf3e36850aacb70acf4b4bb4c0a4ed5ae0b2c6|2016-06-27|Scott Pakin|Move file-parsing functions into their own file
+74baf4a69d88d803817f2c9e7e51f3f18fea2ba8|2016-06-27|Scott Pakin|Begin moving utility functions into their own file
+29a7bf57de9332a8f8fa1df335ac2ae527313306|2016-06-27|Scott Pakin|Begin refactoring qasm into smaller pieces
+7ba08671fd439cdd2d1028a2ffe1dbb644bc99ee|2016-06-15|Scott Pakin|Setuptools-based installer
+d3ef0c62bfa8171eb26bcccb1bf01ec6a68576af|2016-06-15|Scott Pakin|Import qasm from another repository

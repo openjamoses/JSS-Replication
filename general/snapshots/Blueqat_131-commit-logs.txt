@@ -1,0 +1,592 @@
+3d0ea3ab9ac31b7cc9f8334c49eb34c72cbe3131|2020-08-20|Yuichiro Minato|Merge pull request #106 from ryuNagai/doc_wq
+7b23e4b96d6149a55594ac4324beb351f2351aa7|2020-08-20|ryuNagai|remove_pot
+38289c2c452d23d71036cecdb2eb46b60060e8c5|2020-08-20|ryuNagai|maint_docstring_layout
+e197c37c99d2b87de15194597c58f2b001d1ab68|2020-08-20|ryuNagai|Check_sphinx_ja
+5f0cc62f8b6b2a1a0d9803beb8d1abac17c169e7|2020-08-19|ryuNagai|add ising.po
+977bb438f250fc3f9e9a82230ac8b3c0c9c2db8b|2020-08-19|ryuNagai|add ising.rst
+650319a041bd85cb867790e20ce2700b1f84f515|2020-08-19|ryuNagai|Merge branch 'docs_wildqat' into doc_wq
+445685c5966d5aac4f0ffb20e233094fc3f96bac|2020-08-13|gyu-don|Change version for development
+d87a18fc696706c4762af9a0c904ddd6783edece|2020-08-13|gyu-don|Change version for release
+b79c515383bba8805a21e0a1e019d2b099b90816|2020-08-13|Takumi Kato|Update README.rst
+397bc01736293686118b72b29dfda3a6f19d38a6|2020-08-13|Takumi Kato|Update README.rst
+e9993dbaef89ecc36b7bac617627fae9eb634c20|2020-08-13|gyu-don|Update logo
+eb0029be9a8c184c9b2a056c7c3e38173d777ec7|2020-08-13|Takumi Kato|Merge pull request #104 from Blueqat/ci-maint
+997a6f4aa6dfef0e6cc9b90ec1bffbcdc94a09a0|2020-08-13|Takumi Kato|Merge pull request #103 from Blueqat/reset-gate
+f9b75e83c6a9182c442aab6845c789eb903aa31d|2020-08-12|Takumi Kato|Merge pull request #102 from Blueqat/numba-debug-gphase
+59a07e5603c8f2c5ff2248b227734978f2aeaac4|2020-08-11|gyu-don|MAINT: Update numba version for optional-requirements
+3658434e20aeac320f1c6ff600c88414348b1be7|2020-08-11|gyu-don|MAINT: Update CI Python version and enable numba test
+74f04f8f16972a30e412e9db5015ce9f40fe9b94|2020-08-11|gyu-don|TST: Add reset test for qasm output
+991f7b6c8b5f3af6d8ca34256fb73ec315c8be61|2020-08-11|gyu-don|BUG: Correct numba global phase
+295e6f378e3a3edc70f601be3467ac98d9e53ab1|2020-08-11|gyu-don|ENH: Implement reset gate
+e870806b987ae6f62dec4aef20f0a92d3b51d765|2020-07-14|Takumi Kato|Merge pull request #98 from ryuNagai/opt_maintenance
+dd007a96fa676bea032889630a564ce145b9a32e|2020-07-04|ryuNagai|update github url
+bdb6f19944f915b63a2f7dffa5c926ce3f851b0b|2020-07-03|ryuNagai|update docs for wq module
+cfac411a5f453f60381cebe5ffc97054d7ada763|2020-07-03|ryuNagai|modify __init__.py
+ab1968524d6245304741f5c44433739cef83758d|2020-07-01|ryuNagai|Rename a module from opt to wq
+1a1007e56e5bbec1491fedfd219aa0284243a387|2020-07-01|ryuNagai|mod comment for pauli func in opt.py
+18460ee02be67de93f4cdc0cadad298357c4d866|2020-06-09|ryuNagai|little fix for README sample code
+cd29c8b5a6c1542db8d70d05f66b2b57825293d3|2020-06-06|ryuNagai|pr75 + update README
+f25dff90b43d7b565ae51e8caee2b5edc9264f63|2020-06-06|ryuNagai|Wildqat #75 + update default dwsolver
+76d4b2588ff43b64fa6b3d6eda67e23ff46cdae1|2020-06-06|ryuNagai|update dwavesolver
+46ee73e96113567121e884630fb88d96414c7fe2|2020-06-02|gyu-don|MAINT: Version updated for develop
+5e2cc9f2894c5299ba15d806d424cb2ba37cffa0|2020-06-02|gyu-don|MAINT: Version updated for release
+956388268b29dc07bcf4e0397a1886a020b35503|2020-06-01|Takumi Kato|Merge pull request #97 from Blueqat/fast-tomatrix
+ad9279c87f8b0a5324d6ac5a29cbc549835cfbf3|2020-06-01|gyu-don|BUG: Fix error of (constant Expr).to_matrix()
+e8823d18ac25669b58eed323432e05eb4e67094c|2020-06-01|gyu-don|TST: Add corner cases for pauli.to_matrix
+d29b2ebbfd0d88aae26ee82b2b9243649a499459|2020-05-29|gyu-don|ENH: Improve performance for pauli.to_matrix
+5bc8240298a5cb3fbac617a991bd9cd096dbdd4b|2020-05-29|gyu-don|BUG: Correct pauli.Term.simplify
+21e6c441f2fffc6b122a480911b396fca5bb7f45|2020-05-29|gyu-don|ENH: Add pauli.n_qubits property
+9f99b7af96a869d8a2d39e594b5076d5284e3cb9|2020-05-29|gyu-don|TST: Refactor test for pauli.to_matrix
+e838b60f4ba8c63c9d736a15a6c816eca562ea42|2020-05-27|Takumi Kato|Merge pull request #96 from Blueqat/default-no-ignore-global
+b33aed5af88ce6a48c0d58d81286a38905fb6556|2020-05-27|gyu-don|API:ignore_global option default value changed. (True->False)
+4d4d61845410946c2d74981b653c19652db5bf6a|2020-05-20|Takumi Kato|Merge pull request #95 from Blueqat/sparse-hotfix
+f4606a0b43a819f04de254d0560da96ad522310c|2020-05-20|gyu-don|MAINT: Version updated for hotfix release
+6110ea437f8f60b302dfb5a2ae0de92d12a80e1c|2020-05-20|gyu-don|BUG: Correct sparse matrix generation
+845e392619cae8cb1d001219985a7207107f5f9c|2020-05-20|gyu-don|MAINT: Version updated for dev
+7368da88a402330960dafd3b79f519a7a00196d9|2020-05-20|gyu-don|MAINT: Version updated for release
+23c822ac0817798b7f0f0e068d088e83855de3c1|2020-05-20|Takumi Kato|Merge pull request #94 from Blueqat/vqe-sparse
+b84351ae021bde3349010e2d6971fd94e2985a80|2020-05-20|gyu-don|ENH: Implement sparse matrix expectation for VQE
+80425dec80a5c4c4bb2056ea40d1903485e31fb0|2020-05-12|gyu-don|MAINT: Version updated for development
+531730ea8b3d12aa98e7c5f85c706c258fa957ef|2020-05-12|gyu-don|MAINT: Version updated for release.
+90d402eb8a995fd42c15b6eba5781323c78d518e|2020-05-12|Takumi Kato|Merge pull request #93 from Blueqat/qaoa-mixer
+d9f6ed85eb4d2e6b9242fc873e65fb86fec89ac5|2020-05-12|gyu-don|ENH: Add mixer for QaoaAnsatz
+73b92ba23affdf7462785613e9b546f531d417d7|2020-05-12|Takumi Kato|Merge pull request #92 from Blueqat/rxx
+c1fc058e5b8dbec9081cab29ea06d47249004271|2020-05-12|gyu-don|TST: Add test for RX, RY, RZ, RXX, RYY, RZZ, SWAP, CSWAP
+063d43025b60d703bab864c5ee8eabecde721ccd|2020-05-12|gyu-don|BUG: Correct gate set for RYY & RZZ gate.
+1b998fdb85793eb1119063f7f8711e3467cde5f3|2020-05-08|gyu-don|ENH: Implement new gates rxx, ryy, rzz, cswap
+f72158f08b42efcebac1bed10a3649145032f252|2020-05-01|Takumi Kato|Merge pull request #91 from Blueqat/improve-pauli-to_matrix
+7e7c3171db15692cb20ced0e2a5e844b3a00e6e1|2020-05-01|gyu-don|TST: Add test for pauli to sparse matrix
+d3fde637f130e655bf7111b62abdcb9f501e11b6|2020-05-01|gyu-don|ENH: Implement pauli.to_matrix(sparse=...) option.
+88b2ee8160421dcdaea278e7e8a26fded0db2fb4|2020-05-01|gyu-don|REV: Remove unfinished job
+775556914e7de03a274b6cd04866e5ca4bf197d2|2020-05-01|gyu-don|ENH: Improve performance for pauli.to_matrix
+8b27170f7d8378a5058752741ba77fe2e7d3b5ac|2020-05-01|gyu-don|TST: Add pauli.to_matrix() test
+051c8321342f63d4da032ca25009a8f859d7052c|2020-04-13|Takumi Kato|Merge pull request #90 from Blueqat/experimental-utils
+729e35c139e0f9b13aed3f40479934bc074a64df|2020-04-13|gyu-don|EXP: Add experimental.utils and circuit_to_unitary
+8b34b4542f86da706a3f9414341bd0b25c7a53d8|2020-02-27|gyu-don|MAINT: Change Qiskit version in optional-requirements
+8094f45e53da8317193ed3845dbd02e3a82fc06c|2020-02-10|Takumi Kato|Merge pull request #88 from Blueqat/gate-dagger
+da32c4bd39e18a7c3320bd02536efd70f8b48efd|2020-02-10|gyu-don|TST: Add test for dagger
+cba72afbc2be2b65c4bc055b477a24334fff6d4e|2020-02-10|gyu-don|ENH: Add Circuit.dagger
+e533ff21ae0d3d3279224b4b9e81a6bef23267df|2020-02-10|gyu-don|ENH: Measurement.dagger: NotImplementedError -> ValueError
+bf85dde6d0f78c3a292c25be88f9e70cf6d58866|2020-02-10|gyu-don|ENH: Add experimental.Ops.dagger
+db9725e115687eec346208f19709da75366d5a2a|2020-02-10|gyu-don|ENH: Add Gate.dagger()
+1f5f053b5a9b870d068ddc4bca30b6f87b22f710|2020-01-28|gyu-don|REL: Ver. changed for release
+6aedaf09f42bee6c083cd41f9694d78c82a5cde2|2020-01-28|gyu-don|REL: Ver. changed for release
+96e0bc66c04618e60a990cea89ac39b17b483495|2020-01-28|Takumi Kato|Merge pull request #87 from Blueqat/controlled-phase
+f47a31b075320109ccbe0a3ee5fe9d4637bdb6bd|2020-01-28|gyu-don|MAINT: Circle CI qgate version up (0.2.1 -> 0.2.2)
+292ddaa1dffa78b13bc4a05cdbc4dfde3b253dfb|2020-01-28|gyu-don|TST: Correct broken test
+90401028ce1b602e3d2d7d9429faeeda87fa5eda|2020-01-28|gyu-don|BUG: Remove qgate backend ad-hoc since qgate bug had been solved
+4366ae380f6b7fd3aacfd8ca3a58a087c10f88f6|2020-01-21|Takumi Kato|Merge pull request #86 from Blueqat/experimental
+c5582683228bae6562046cd89e104bd761f5fee5|2020-01-21|gyu-don|DOC: Docstring for experimental module
+829e6e8038e90d80cff7bb2cd4bf3091bfadc1bc|2020-01-21|gyu-don|ENH: implement Ops.__add__
+38a2fbd6ce9dc32b057340426c4753f16e41b62e|2020-01-21|gyu-don|ENH: Immutable datatype operations experiment
+60ee8665ab9e747f6c363b643088e5fec2c22a48|2020-01-20|gyu-don|REL: Ver. changed for dev
+6aa33e52a0575780723c77af506eea89b6e52e8e|2020-01-20|gyu-don|REL: Ver. changed for release
+08af38609f5daef8954cd008fe73d392d30ccb64|2020-01-20|Takumi Kato|Merge pull request #85 from Blueqat/globalphase-adjust2
+c5ad487bd4b9526ea4acd16680b94e60e661b85d|2020-01-20|gyu-don|API: Adjust global phase for qgate backend
+a67e82527971b18beb891219945d91e0f003d8fc|2020-01-20|gyu-don|TST: Adjust global phase
+7db302d8a5e031cbd2be7b1bf64181941c3cdcc9|2020-01-20|gyu-don|ENH: Enabled fastmath option for numba backend
+3669cc8489a451d901da8f55d09cae044696925f|2020-01-20|gyu-don|BUG: Fix numba backend bugs
+30c1078a6a4537697090d934b0fd9e2786aa99f6|2020-01-20|gyu-don|API: Adjust global phase of {numpy, numba} backend
+0f51517da716e325d48bf2d8856a831d7e17d215|2020-01-20|gyu-don|TST: Add global phase and controlled gate phase test
+3556ab80b9667662efc0ab03b0d647816c880fd2|2020-01-20|gyu-don|MAINT: Refactoring for gate calculation
+4c10473b55e61326a40f592bd7663ab510c5dd99|2020-01-14|Takumi Kato|Merge pull request #84 from Blueqat/circuit-repr
+ce3853e304faf286e600a0193ae07c0e4d79b634|2020-01-14|gyu-don|REL: Ver. changed for develop
+3a63974267a64f63fee0185a0a5ea963e3427be9|2020-01-14|gyu-don|MAINT: Add long_description_content_type in setup.py
+51448fd91aee27266866f8b6035efd538fbbc90f|2020-01-14|gyu-don|REL: Ver. changed for release
+911a29fd308fa7d6200800427adb6e4628080767|2020-01-14|Takumi Kato|Merge pull request #83 from Blueqat/controlled-h_and_y
+720e1b6c9e5dc9997d3a442f601011f70ef5df67|2020-01-14|gyu-don|TST: Controlled-Y gate global phase is preserved.
+eb7a5fc7695b3177a8c8eb98a0a95a39720b61b9|2020-01-14|gyu-don|ENH: Add controlled-H and controlled-Y gate
+4dd1dd0c335c43b8d70724b39e63a29f8b6fb0f3|2020-01-14|Takumi Kato|Merge pull request #82 from Blueqat/tgate-sgate-globalphase
+63fdcec6341bd7256e83b672b9ba173efc106d02|2020-01-14|gyu-don|API: Change global phase for S, T, SDag, TDag gates
+e1031f0f37646e0e767cf9a70e980bbcf2600918|2020-01-10|Takumi Kato|Merge pull request #80 from Blueqat/numba-debug3
+63d6d5a8076d897011ed6f0836a677d3031dfafc|2020-01-10|Takumi Kato|Deactivate numba backend auto test
+e7b511f889771fdb1e5d9323ce7d77c9c3f333f8|2020-01-10|gyu-don|MAINT: Change CI Python version 3.7.6->3.7.5 because segfault occured
+662d58659490927a5926d93e118116a4e68ed321|2020-01-10|gyu-don|MAINT: Correct CI's qgate package URL (py3.6->3.7)
+197d26f01e14be5aab3a1323a10044e6f427d629|2020-01-10|gyu-don|MAINT: Change CI's Python version
+f1a8e8191d8e6f96b1926810495c284c7a2bca92|2020-01-10|gyu-don|BUG: Fix numba backend cx bugs
+0760f14360be2e9cb3cb0188d6a2ae75895dea1f|2020-01-10|gyu-don|TST: Add circuit tests to solve numba backend bugs
+d8bb41f5db8c034cda41df772db136888b151d4b|2020-01-10|Takumi Kato|Merge pull request #79 from Blueqat/numba-debug2
+718215cda477129700e5029ff79455f6ae7c0349|2020-01-10|gyu-don|BUG: Fix numba backend cx failure
+6ce4bbfffacfa79f2271046b602a974679a9ee61|2020-01-10|gyu-don|TST: Add test because still remains numba backend error
+a9ea0905954fe451da9920f1c29f3412aad024e5|2020-01-10|gyu-don|ENH: Add Circuit.__repr__
+bc0a13b4a7ee0d29a4e2b0a736e733f9e9039d59|2020-01-10|gyu-don|BUG: Fix gate.__str__
+fa592a34ab92c94ff99d0333f3a6bba6e15dc4cf|2020-01-10|gyu-don|API: Change format of Gate.__str__
+233e3fd02f6dde9fa99aa1d9a8499a9fcc24c0ca|2020-01-10|Takumi Kato|Merge pull request #78 from Blueqat/numba-debug
+33aef28918294a33d052818875618431e5f334ed|2020-01-10|gyu-don|BUG: Avoid numba LoweringError on CircleCI
+303cb4fb93169af8bb442b29f61a73ab4cef30e4|2020-01-10|gyu-don|BUG: Fix numba backend multi-qubit error.
+06b0804155110402b77a3f764f7cbf6002e3223c|2020-01-09|gyu-don|MAINT: Add numba & qgate backend test into CircleCI config
+9df7598c82537d5fa744e61ad9f289c12e166547|2020-01-08|gyu-don|[TEST] Add test for issues #76
+38d999e1d957abfa10db89b487963d2e7ad19569|2020-01-07|Takumi Kato|Update tutorial.rst
+e91b1dab2c6c06f74b3d86d44af671076b521bc3|2020-01-07|gyu-don|[TEST] Parametrize test_copy_empty
+3df812b9ab8221b538ac05b15bf33f1784198ccf|2020-01-07|gyu-don|Temporary disable numba backend test
+5af538479d6c723734e3b6576c107cbdde7b3b63|2020-01-07|gyu-don|Revert "numba version locking (It is temporary)"
+f7228383480b7e1416dd7b2572d9b2d9f3de556a|2020-01-07|gyu-don|numba version locking (It is temporary)
+f3c49b74e8bbbf52f9b57a8e85343024997134c1|2020-01-07|Takumi Kato|Merge pull request #77 from Blueqat/globalphase-adjust
+4e72434afd874c77b5d7f4b5f0437c5bed43346a|2019-12-18|Takumi Kato|Merge pull request #72 from Blueqat/add-manifest-in
+9ad660960bcf2620acfc0801ce3f8af8db9b8705|2019-12-18|Takumi Kato|Correct RST format
+24358ebf5960b8fb763f3d104f82fac4ce3c0571|2019-12-18|Takumi Kato|Update config.yml
+72e3d61ca375b8aea401e7516e3ff57f8e0091c2|2019-12-18|Takumi Kato|Update config.yml
+1becc550727919022f92236b7388d05cf50c37a9|2019-12-18|Takumi Kato|Add twine check to config.yml
+f99bf6e4b53df86f7e964712ac85fb8c5fdb5a87|2019-12-15|Yuichiro Minato|Update README.rst
+9353c5ea176c1062dba0a6a31ca5e834f3d4c12d|2019-12-15|Yuichiro Minato|Update README.rst
+ee4c199323ed292bf1889bd7a2dda3834bb52d94|2019-12-11|gyu-don|Add MANIFEST.in
+b3d56ac7f38dcc17e72dac100edf641db1bc5214|2019-11-27|gyu-don|Correct cphase fallback
+07261fdc5e25e1644774cc84ff5ad0a345be260b|2019-11-17|gyu-don|Remove duplicated t gate and s gate in GATE_SET
+a8159df0721f5cd465dfcffdb44e1e0ab3c595c8|2019-10-21|gyu-don|Correct cphase name
+8f11ab05c920e0c3b93ccd3f3a05917c96d80004|2019-09-25|gyu-don|Implement phase, cphase
+06f3e42ff68d35fad9903afd89b86b3667a1abb3|2019-09-24|Takumi Kato|Merge pull request #71 from Blueqat/ibmqsampler
+0b3d1b4172a873c045204aa2c58e5be7fce6ecca|2019-09-24|gyu-don|Remove MQC example
+12120cc3f68855b6fd20eeca5e2c664c5ca13528|2019-09-24|gyu-don|Debug IBM Q sampler of VQE
+0555d6c3afb5c7571c848328f99084ca57ec336b|2019-09-24|Takumi Kato|Merge pull request #70 from Blueqat/ibmq-more
+f5cdb64e78331f4287245638ff40b369c0b86d11|2019-09-24|gyu-don|Improve IBMQ backend
+3b47ee4f64bc92f61ce8d45fb330eafe5b0b0d68|2019-09-20|gyu-don|Add PhaseGate, CPhaseGate class
+55afd5c94be8848cd3ee429430eadb5f6b22d88b|2019-09-19|gyu-don|Increment version
+72c7c7e75f96676274d97e50ca2c1be863f48fbc|2019-09-19|gyu-don|Update for release
+b9deb84e1c0483c28af59efbd6cafa7a921e4855|2019-09-19|Takumi Kato|Merge pull request #69 from Blueqat/ignore_global
+bb4d47d93a4121d0afed63c19810b74caa6a827d|2019-09-19|gyu-don|Add option for ignore global phase
+9c78ae57abfd22155eb15950521d658b8004ce51|2019-08-24|gyu-don|Update scipy requirement version
+3089038a3432b8edd2b60ba59a8a39337020300b|2019-08-06|gyu-don|Merge remote-tracking branch 'origin/crpauli'
+f9bde65e3a343fc15055e0c624d87272c6ed8fe9|2019-08-06|Takumi Kato|Merge pull request #68 from Blueqat/qiskit-update
+18a6d5c14fd9ac8ebe8073fa7a5843201fd47a3e|2019-08-06|gyu-don|Sorry, qiskit 0.11.x
+7a72a8fcbdfe2d3e04ab80653a029155b1980e90|2019-08-06|gyu-don|Modify for qiskit 0.8.x
+ef60789b60a8887f09e415155684614463456885|2019-08-06|Takumi Kato|Merge pull request #67 from Blueqat/pauli-expr-neg-debug
+5f00a950a2beca99804d048c2758bf75712c9afb|2019-08-06|gyu-don|Modify test
+d7ecb8e4273cf4b62228c475de466f0cf0a796f8|2019-08-06|gyu-don|Debug pauli
+5b0e90a539b731c846da61ccb949439812dae551|2019-08-06|gyu-don|Modify test
+df2c0d7c56cc0faddf605c15bb255d1ac22c0bd4|2019-08-06|gyu-don|Add test
+17993aa5be99449b9547066d51c79faa71334f40|2019-08-02|gyu-don|Increment version
+6ad5b430020d8a6afd6284b70abcfceaceb3e279|2019-08-02|gyu-don|Version changed
+09096a4852f2846af6cdeeb49b7017147ca90d3a|2019-08-02|Takumi Kato|Merge pull request #66 from Blueqat/crpauli
+3c09483100fef142ec83479b8fe6ae450d122ff4|2019-08-02|gyu-don|Implement CR[XYZ] for sympy_backend
+1a722efe90e4cf25d8672d45fc8dc98ce3c277c4|2019-08-02|gyu-don|Implement for backends
+bd2a4ded0d1bb7952e41c7ca21ab88105b5ae150|2019-08-02|gyu-don|Add gate class and fallback implementation
+6a09b5a875edee8541b78a096627916e934b5b58|2019-08-02|gyu-don|Add and correct control-pauli test
+b1589ab4c4e6a0f724a23ef42b3215a2ace9c65c|2019-08-01|gyu-don|Test for control-pauli
+c2c25c83bc5cff18da32eb4ece081cf1b3b2ce64|2019-07-29|gyu-don|Add test_sympy
+cd3ff6360243f69bf7e9e9f91f475cd7af6a6156|2019-07-29|gyu-don|Develop version
+b74dbe7d48f25f5523b6c6e3e13d76e7c09afea6|2019-07-29|gyu-don|Ver. 0.3.8
+1a3cdddc17d5df8607eafc2b50f8fee135414bf6|2019-07-29|gyu-don|Change requirements and CI option
+a3a62ced08ad2bc33c730df54badb709c50b322c|2019-07-29|gyu-don|Add conftest
+5d06025b96253632a98490da0080a7a1a9820954|2019-07-29|gyu-don|qgate backend: run(returns="shots") returns `Counter` instead of `dict`
+c1f7ad3fb1f08294d8e9b6307ed2f442eae6fef4|2019-07-29|gyu-don|test for other backends
+c2bdfba172a30fdfac94c390ee75c95d7c8f0a92|2019-07-29|gyu-don|numpy_backend._ignore_globals -> utils.ignore_global_phase
+bb950f44f05529710bda82891d637f2e77d1982e|2019-07-29|gyu-don|Delete MQC backend
+3f5990d3cab8acc243ed0e7fa8d4f982bf9a72db|2019-07-29|Takumi Kato|Merge pull request #65 from Blueqat/numba-backend
+0a6707a64470aa4adec88143883f1a5c84b8717f|2019-07-29|gyu-don|Numba backend as lazy import
+8a0b4b5b2d20c60748cea199252f6b869ae1ddab|2019-07-20|Takumi Kato|Merge pull request #64 from shinmorino/qgate_plugin
+6f3134109ea6a68cba7f8de165d0aa53e1f76724|2019-07-15|shinmorino|Qgate example.  Simulator preferences are documented.
+19711ab8b36db47108e1b3595d1a338af3051236|2019-06-16|Shinya Morino|Qgate backend.
+4802dd97acf0737a735984da663dec0d0a79a3c2|2019-07-03|Takumi Kato|Merge pull request #63 from Blueqat/dwave
+3ff8c005f91866b1e06c652157b76ae47bcba0c5|2019-07-03|mdr_minato|update opt
+1fc9320c45979f62886264feef381e5df617aa10|2019-06-19|gyu-don|Add nogil=True
+210dfab51b9c86cc00ad4743a2c3a3057911aace|2019-06-18|gyu-don|Add disabling backend cache option
+7831fbfa3b9e9928fa9196059fd8ddf7130320e3|2019-06-18|gyu-don|Set numba as default backend
+487b94f3a5ce97901556e7308c31ab424a6323d6|2019-06-18|gyu-don|Correct integer type
+01cef8ce2438467fcf67ae9fdd67e63f3e0b7867|2019-06-18|gyu-don|Improving performance
+8fbaa854325219a3f3c318256080f59b42597aec|2019-06-18|gyu-don|Correct CX, CZ and disable numba cache for parallel function
+deb1694789f4288485827e1fb210e9ceda77dade|2019-06-14|gyu-don|Implement measure. All tests are passed.
+166fb9078227329e8ff1cd80a7af48fea7b17525|2019-06-06|gyu-don|Enable cache
+fd7c366bd6b66b620c57595f1a6e4488a989aad9|2019-06-06|gyu-don|Toffoli, ccz
+5949762df740227c2539a856d5b09ee4ad32aeaf|2019-06-06|gyu-don|Debug u3 gate
+895a01bf21859afbfcbbc068dc0fa0132a44e46f|2019-06-06|gyu-don|Debug diaggate arg def
+b04ad13cc4924311f6b611c485782fef4c9dc8fa|2019-06-04|gyu-don|Implement CX, CZ
+81cab7a99a560f04c0f379424c5d9a674ff55684|2019-06-04|gyu-don|implement single qubit gates
+62ea37f800504cad653b19d6e9d8dd1c0663b1a8|2019-06-01|Takumi Kato|Merge pull request #62 from Blueqat/reimport-version
+e17a287be632ce672dbe97eb9c3085c46cf02069|2019-06-01|gyu-don|Now, blueqat.__version__ is available
+a77b4052dedbe4e298b4ba6f40f4f67039c304b6|2019-05-31|gyu-don|debugged
+cbf33f425c143ec9782c0ddbe8b7a066a82a7ac1|2019-05-31|gyu-don|Updaate requirement
+2e799ea255f583cbcb28c55c9fb02d3e35e417e1|2019-05-31|gyu-don|wip
+27de41cb7fb9971f1870195a665b7738a612b95b|2019-05-31|gyu-don|wip
+22941be9825a7294f182d2628635d1c152eefef2|2019-05-31|gyu-don|make a branch.
+1e006120c7dc80ca562e46b508ee80bc79030f3b|2019-05-16|Takumi Kato|Merge pull request #61 from Blueqat/sdg-debug
+03fe1af6f0f69f6635b974f7d209fa3034bc3ad1|2019-05-16|gyu-don|sdg gate debugged.
+eac73c041306fa0d9146104acce123a8cd5ec8e5|2019-05-13|gyu-don|Move tutorials
+4e3c80e5fcb843c96131491c537cbc3d12654d44|2019-05-05|Yuichiro Minato|Update README.rst
+fae2dcc93e983848f648f2cf4328278e1868ae9e|2019-05-01|Yuichiro Minato|Update README.rst
+cbce079c547e31f250a0d44a7393f469e60aa214|2019-05-01|Yuichiro Minato|Update README.md
+9a51e9f4a6cce1f5d02c90ba6d1fd50e1f131b3e|2019-05-01|mdr_minato|Merge branch 'master' of https://github.com/Blueqat/Blueqat
+5dfef542989b86ae18b085efd1bf0698dd22600d|2019-05-01|mdr_minato|update 024,025
+b7d622bb22cfb051f97c1ceb91cc5ca870d4d2dd|2019-05-01|Yuichiro Minato|Update 027_one_plus_one.ipynb
+615e7d1ca5bd400335e38fced7cdd4ac7e7cc88e|2019-05-01|Yuichiro Minato|Update README.md
+a8b928ed33816b25f0191c06b73a8f2d9c1072ee|2019-05-01|mdr_minato|update tutorial26&27
+2ac8592c79e7acf4f385d982af82fbd68dafa5cc|2019-04-28|Yuichiro Minato|Update README.md
+96c72b33f417c8b2efb69327e4971cf3fe6bb908|2019-04-28|Yuichiro Minato|Update 004_basic_entanglement.ipynb
+b206883f7bbf899fca627e9ab2594a80adba548e|2019-04-28|mdr_minato|update h2 molecule
+8ea9924b0b290b97be8ab231dd57c9cac3640399|2019-04-28|Yuichiro Minato|Update README.md
+4c9731100aeb2c97dba74f7f5ae3672307063b73|2019-04-25|Takumi Kato|Merge pull request #59 from Blueqat/pauli-pickle
+03fd29d19776631aad044688c5e03c70cea9cab6|2019-04-25|gyu-don|Make pauli expr picklable
+c96f5727b4ef039023e5ecb554c975665bb93eb4|2019-04-25|gyu-don|wip
+3aae5982939750030809363e708e125c9eb821a0|2019-04-24|Takumi Kato|Merge pull request #58 from ssmi1975/fix/tutorial-deadlink
+622ade735585864c2e36f862ffc117b031eb5552|2019-04-23|Susumu Ishizuka|fixed deadlink
+8fae6573374669b7c779c7a5004f06cf6a38ff42|2019-04-23|Takumi Kato|Merge pull request #57 from Blueqat/sympy-globalphase
+cb1caf39b04eb9cfbd0740471abff5668a14a0c6|2019-04-23|gyu-don|debugged
+83306a9cafd823940372311beaf9ad08fb0f490a|2019-04-22|Takumi Kato|Merge pull request #56 from Blueqat/sympy-globalphase
+888666393dd22de41645d56460f0cea9fa2c2217|2019-04-22|gyu-don|[sympy-backend] ignore global phase of first diagonal element
+e7495a82e8b5f9bc6f7019196f9b2c3fc8898386|2019-04-12|Takumi Kato|Merge pull request #54 from Blueqat/qasmoutput-wellknowngates
+fa91c3bc8d20a2c4169e7fda266b84a65634a34b|2019-04-12|gyu-don|Add wellknown gates to qasm output backend
+56ca5468711bdd3ccf399dcca8b03bc3967815d8|2019-04-05|gyu-don|Add copyright and license to source code.
+a70c5f382076d115937ee8613ba3d5b0c65a992c|2019-03-29|Takumi Kato|Merge pull request #53 from Blueqat/numpy-backend-hadamard
+d49ad6ba6198af3d362c53971a837b8b7f9ecdf2|2019-03-29|gyu-don|Revert to master, but use mul instead of div
+830d8c11da8b427032aa32db2f51084e5de0dafd|2019-03-29|gyu-don|Debugged
+8960c209b1c383f148d1de2d56511e5b7be000b5|2019-03-29|gyu-don|Improve performance of numpy_backend Hadamard gate
+dca85dc76b934ea933dafb4eed3e7640e4c3c418|2019-03-29|Takumi Kato|Merge pull request #52 from Blueqat/numpy-backend-ccx
+9db46fd444f3a69d806630154b559858479878f7|2019-03-29|gyu-don|Add numpy backend ccx implementation to improve performance
+151f10470ed1529750d60e391348952a7e1e5a6d|2019-03-25|gyu-don|0.3.7 released and version incremented for development
+76a952eb575663ed07411d2619383149eafdda27|2019-03-25|gyu-don|Formatting README again
+0f28a358c6cde00d99ed612c6c9ba9d9c8e6e034|2019-03-25|gyu-don|Formatting README
+603045c45a7ff27127fd58792e02e1a3d4a6151f|2019-03-25|gyu-don|Change URL, Author in setup.py
+dc26305c4731aa4afad3b9ebd640110dba4f9615|2019-03-25|Takumi Kato|Merge pull request #51 from Blueqat/to_unitary
+c8d7a186b1a3314e52ec2b8c10cc425e6c9024ad|2019-03-25|gyu-don|Add to_unitary method to circuit
+3d9d8ba065a85f2165a5305ec48a4d4654c0de6e|2019-03-25|Takumi Kato|Merge pull request #50 from Blueqat/macro
+c2492aa9de588595e053d982d49ec62581ede2b4|2019-03-25|gyu-don|Implement macro
+19b80795aa8e0100fd8d9b1c67c4aac9b4747f61|2019-03-20|Takumi Kato|Merge pull request #49 from Blueqat/sympy-angle
+300ca571bb3dca3440eb00d9d8b4f5db7ab32760|2019-03-20|gyu-don|Sympy Backend: Convert angle to m*pi/n if possible.
+890b3ef44beea4b1e6dcba871de777ffa661bdbe|2019-03-19|mdr_minato|update 15,21
+5e1895a61a43e78b8d61476562c510d56e7388b3|2019-03-19|mdr_minato|update tutorial 10,12,13
+da304f1a83ca81772a1bdb5ac71ee5884118a9b3|2019-03-17|mdr_minato|update tutorial 11,14,22
+4d98d1bbcbdcc00a14a0c8420b05b33facece369|2019-03-16|mdr_minato|tutorial789
+22cef7514f2664e764c6cca0063c10e3c8c65caf|2019-03-16|mdr_minato|tutorial456
+81ba8880a2c49f4b0e9de071fd50499c216f97cb|2019-03-14|Yuichiro Minato|Update README.rst
+4bc1496542ee8f494db12b953a65219c6d882c4a|2019-03-14|mdr_minato|update tutorial2&3
+5a020d995ac02c86ae4ffb74cd58daf5b651ceba|2019-03-14|mdr_minato|update tutorial1
+7970902244e8d4e059a4aa7b7324bec74ea7444b|2019-02-24|mdr_minato|update opt for equation
+f7f927316cb9f331cd2a66fedba0943bd5b0d042|2019-02-23|Yuichiro Minato|Update README.rst
+861e6472adaf751e729bd280a612fa66493c0619|2019-02-23|Yuichiro Minato|Update README.rst
+056e87b709fbc77c49c53593c48143aedfbadf1e|2019-02-23|mdr_minato|update
+44f99d90e368621c61852ed44c06c90b425d8587|2019-02-23|mdr_minato|update readme
+e8dab93cb05caf65363dc8934ab4e8d4e21d7ae9|2019-02-23|Yuichiro Minato|Update README.rst
+4eeafcbaf097d070ea4567ecc5e06fd3e72c2880|2019-02-23|mdr_minato|update
+9be9e905b0069821621046ae2372cd1a994b50fa|2019-02-21|mdr_minato|Merge branch 'master' of https://github.com/mdrft/Blueqat
+a0d82f24fcd850b08e79842e3f62e852cc64dbc7|2019-02-21|mdr_minato|update opt for dwave
+60c67a224eec9bd45008f2aee29063f0aa0a8abd|2019-02-21|Yuichiro Minato|Update README.rst
+b6c30ba042e2e5faa097e9140a93d01f4fc7e2ec|2019-02-21|Yuichiro Minato|Update README.rst
+52883a05ddaa83436308ad76110a6027ac600b9f|2019-02-21|mdr_minato|update opt
+34e1908dd94f658bd9935fe70feb76ff0483380d|2019-02-21|mdr_minato|update optqaoa
+bed379bcb4b0b7069584b47ab663a691dd308c0d|2019-02-21|mdr_minato|update opt
+37962a8d569fe135445181b8b359700fe9105364|2019-02-21|Yuichiro Minato|Update README.rst
+b39c476067d8402b5b58f08d22d68083212da8fc|2019-02-21|mdr_minato|update ver
+7c903675e6187fba1ab7aa1c140b5273b5739055|2019-02-21|mdr_minato|update opt
+26950a8f02ec1dc561d30c39a34f634c047fe00c|2019-02-18|mdr_minato|update tutorial_ja
+47d35fe9df9b0896074b75aa1ead4d72fe663ec0|2019-02-17|Yuichiro Minato|Update README.rst
+d887fff5058effb6dff749978eb7d59b8c6a34db|2019-02-16|gyu-don|install_requirements -> install_requires in setup.py
+0061f34ff75e6722ab2f0851ea630e9497d19e80|2019-02-12|mdr_minato|update tutorial_ja
+a2283d5d765926185489c55f55686ccfa647bf2c|2019-02-11|mdr_minato|update tutorial_ja
+a0436be9835d3e759a6417e8bf27a2cd60dff901|2019-02-11|mdr_minato|update tutorial_ja
+1da2feffa21cc089187edb24ea5484bb9c97b65a|2019-02-11|Yuichiro Minato|Update README.md
+82e0036eaf3b476e02accef1fee028118fc152f0|2019-02-11|Yuichiro Minato|Update README.md
+638a83a742819f1b658ab54eed349541251fd766|2019-02-08|Takumi Kato|Merge pull request #48 from mdrft/lazy-import
+57e8df31ecf6f1c38ce4a6f41e39d3192fd9c0e1|2019-02-08|gyu-don|sympy lazy import
+c0fda71dcc7995413d0682406b1e7af9dd3f800d|2019-02-08|gyu-don|qiskit lazy import
+4d52b1adba3354128eae9496b03b1bb4166ac8f5|2019-02-05|Takumi Kato|Merge pull request #46 from mdrft/cu-gate
+c82dcdb563ab8b3b6591dfea32975715398f560e|2019-02-05|gyu-don|Merge branch 'master' into develop
+eecdd4e2e6f87391b785c360e67edb9a30bb10c4|2019-02-05|Takumi Kato|Merge pull request #45 from mdrft/install-requirements
+c5e8527e47fa72fee97496909b3b198e66b48362|2019-02-05|gyu-don|Add install_requirements to setup.py
+9892cb26c92bd33d4ead464999ca00d7e95e60df|2019-02-01|Takumi Kato|Merge pull request #41 from mdrft/cu-gate
+5e8b005ca138298ea954ff610fbfd75c3418d8b4|2019-02-01|gyu-don|Implement CU gate
+c39dfe78a18a380438c93d7d595f778625e87a21|2019-01-31|gyu-don|Merge branch 'develop' of github.com:mdrft/blueqat into develop
+20d68d0912da103f797b195d208f067cd9721391|2019-01-31|gyu-don|Increment version
+2b7a587de6d4028ccb862783fafbcf6c3c1e5798|2019-01-31|Takumi Kato|Merge pull request #39 from mdrft/fixed-sympy-backend
+36ef93d42e6d759e8a092b701c71cf7cdb9132b9|2019-01-31|Takumi Kato|Merge pull request #40 from mdrft/hotfix-sympy-backend
+22e9e4090f5efcf3b9331309f1c9164c4a35165e|2019-01-31|gyu-don|Add test
+1f2e8219c24fa694e98a5ae74249106fcf4c9d4f|2019-01-31|yuma murata|hotfix for sympy backend
+e9cbb426be5778c4fafe764fda7477da13307863|2019-01-31|yuma murata|update qiskit
+ae3cdc2b7209d2902cd553e8fda9b91dbbdb4a75|2019-01-31|yuma murata|comment out test case of U gate
+1b9b5067e67155189def4742a6d036d67f0c299a|2019-01-31|yuma murata|fixed order of tensor product
+3052d079acc3f0fcdfa4413de3317cf1b1e439f5|2019-01-28|gyu-don|update version
+0134752f42869cca2ca986c071697266774efb45|2019-01-28|gyu-don|Supress warning when `import qiskit`
+c12f85a2095ec523e204cd32caf528bc15fb13fb|2019-01-28|Takumi Kato|Merge pull request #37 from mdrft/u-gate
+44a041a0a86b65f47a72621dda4961275d282b35|2019-01-28|gyu-don|Update optional-requirements qiskit version
+9004e7fa2041e6a0c41855582e076b79e8c896cb|2019-01-28|gyu-don|Update dev-requirements qiskit version
+91f8f34d78c8b36bfd7deba2d9dd2d4452776a2d|2019-01-27|gyu-don|U Gate.
+71aa66c6ee086efec2b14eb5694dcf6cfdac29aa|2019-01-18|gyu-don|Add Gate.params
+93d043ed4f9cf11deb291be21adc45a00eca6fe2|2019-01-11|gyu-don|IBM sampler: Early return when meas is empty
+5b812a7044287f580fb828a36c766994c5764e71|2019-01-10|gyu-don|Workaround for ibm remote result
+4dc0c240c4f92cf65899063ac7679d4d80905cfe|2018-12-27|gyu-don|Add docstring and avoid warning.
+c466f375dd40e89f9c8289ea83ac16597d6b772a|2018-12-27|gyu-don|Add QASM parser backend generator, IBM Q backend
+592f991065a59130b055140e6f070374620d0cb0|2018-12-27|gyu-don|Debug to_inttuple
+daf5afe04621cd2f1c4cf96623575c921c5c338a|2018-12-19|gyu-don|Add docstring (Work in progress)
+75cf2595308da8c0638825d64e0d86bac951cd0f|2018-12-06|gyu-don|Correct strange comparision
+be890271e8f2bf76a65846a4051f1677932f114e|2018-12-05|gyu-don|Improve numpy backend implement
+975120b3187ecdcd792aa69831d129828da42e78|2018-12-04|gyu-don|U1, U2, U3 implemented
+a54259e6963f043ca6ebbdd89548457e1660393c|2018-12-04|gyu-don|Add test for U1, U2, U3 gates
+4284fd80a380db9b1e4a60fdd148a29cbd1e6810|2018-12-04|gyu-don|Add tests for tdg, sdg, toffoli gate
+7ddbe1fab0645d15fcc94873414df210a761abd9|2018-12-04|gyu-don|Readme updated
+270ae0db8145f1b8cad6a0f9768d74a87c0a1a1d|2019-01-28|gyu-don|U-gate and CU-gate (wip)
+b444ea2f901f4c80938ac63dd671f5104036189f|2019-01-28|gyu-don|U-gate and CU-gate (wip)
+c8c36141bc72cfafed1c1406abc43c03fb1e310b|2019-01-28|gyu-don|CU gate for qasm_output
+6bac08837ca7fda14c92adccb0db4df198ada7e2|2019-01-28|gyu-don|Add U1, U3
+5301d847b21a7b267f0d9fa42aa1ee2df40b2cf2|2019-01-28|gyu-don|lmbda -> lambd
+84339583c12bae3aee68b25d497aba7be18b3d52|2019-01-27|gyu-don|Add .ipynb_checkpoint to .gitignore
+a0a4769f29ffa1b660f2d654a2b20f59152236b8|2019-01-27|gyu-don|Merge branch 'master' into develop
+2cbd5809ce4aaa0338140b5a09a7c47ea080f655|2019-01-27|Yuma Murata|Merge pull request #36 from mdrft/add-sympy-to-backend
+a1bb85607eadfe389af8dca67473f0bb02d1be9c|2019-01-27|yuma murata|add test of control gate
+e36720274bee13089291123fabd7deea53deca6f|2019-01-27|yuma murata|add test case for one qubit gate refactor tensor product code in one qubit gate
+493103c63aa4ac2ca0c44eecece1db4f2dd09f58|2019-01-27|gyu-don|CU Gate. (Test is unimplemented.)
+4e8dcfc70a743d2d34f3cbe1ffa565f09e2e7f6a|2019-01-27|gyu-don|Merge branch 'add-sympy-to-backend' into develop
+3c4f3cdb73816b4b982311d4b7c51490a46aa08f|2019-01-27|yuma murata|fixed control gate of z unitary
+d175ee3ba5a07c420678f6fcd6293ea61f4c01dc|2019-01-27|yuma murata|add sympy to optional-requirements
+889058d03b2f07b0ce32fa02e0062614bc660f73|2019-01-27|yuma murata|add control gate
+45d79875f8ba53321bb15de1de43d0445d1ab2a5|2018-12-09|yuma murata|add single qubit gate of sympy_backend
+adc63b4b7e791ec87353f1ee89453a052a47ab4f|2019-01-22|Yuichiro Minato|Merge pull request #33 from mdrft/sympy-to-qubo
+077e6ca051561da4fca989a2996d5f1cef10b7fa|2019-01-22|gyu-don|Add qn_to_qubo function
+8ee35a19695a0f9eee29878aa0f3210509acf7a7|2019-01-22|Yuichiro Minato|Merge pull request #32 from mdrft/opt-nbody
+6c3cb3f16d2d8ce49a0dbe7e496298c7618f356e|2019-01-22|gyu-don|Add n-body to 2-body separation
+cb4f4dc9eefef65fe3e0304bd26287c3bd38d417|2019-01-22|gyu-don|Merge branch 'master' into develop, change version.
+fc8166639d8b8de957ce742524170169e34f4d2b|2019-01-19|mdr_minato|update
+f1e177fd3100a2a39e13301620d5172e50200c13|2019-01-19|mdr_minato|add opt func
+41bda830f9594c4a7687bb3b953fd3a2de7e9344|2019-01-18|gyu-don|Add Gate.params
+9fb11226c8c55ea0321d9a46178febd900748c26|2019-01-17|Yuichiro Minato|Merge pull request #31 from mdrft/opt
+4be635d9bb96e0ffaee879580b6a215964a96452|2019-01-17|mdr_minato|add module opt
+f13cac0889f02a2d10df8edf028d0c6e47790225|2019-01-17|mdr_minato|add 2tutorials
+abec6023cd2133af4a1c2f5799b14e0ac54193a8|2019-01-17|Yuichiro Minato|Update README.rst
+b6d42f20e6702ce62fc13e93753b3a6314bf59ac|2019-01-11|gyu-don|IBM sampler: Early return when meas is empty
+42ba21bdb12f1c6577edc95f40d54f6d5249f85a|2019-01-10|gyu-don|Workaround for ibm remote result
+b84ffb095fa07a526029af02ab0ce8140a8c2fd2|2018-12-27|gyu-don|Add docstring and avoid warning.
+cd2362a77ba1496daf68e05347b2a6ab4499afef|2018-12-27|gyu-don|Add QASM parser backend generator, IBM Q backend
+99e2aa4c24ed6343f3fde2605c42c423b826913d|2018-12-27|gyu-don|Merge branch 'debug-to_inttuple' into develop
+8cd26ca3a04f371930f749960c6764adfc812ce1|2018-12-27|gyu-don|Debug to_inttuple
+bbfdc353ea97d4b59b2bc326f4d15ad612c159b3|2018-12-27|Yuichiro Minato|Update README.md
+8ef057deb11ad426e74cb05acf655d3e790b4227|2018-12-20|Takumi Kato|Merge pull request #27 from mdrft/issue_25_2
+0c36a1a14396a3d0c2cab97f54f42b90e2086a0a|2018-12-20|Satoshi Takezawa|Add build config for Read the Docs to use Python 3.6 to prevent errors on rendering API Reference pages.
+77edd0dbf23d67e31db5326ba92abbfae784257a|2018-12-19|gyu-don|Add docstring (Work in progress)
+569e2f44d8a0eaf0c157944f59648bcbd3a50c26|2018-12-19|gyu-don|Add docstring (Work in progress)
+5801c01c895ba78384645d6bce683f732aae7807|2018-12-19|gyu-don|Merge branch 'master' into develop
+76a0085fd4edf305811220451e5227e424abaa9f|2018-12-19|gyu-don|Merge branch 'master' into develop
+eb588647241ce6211e7a22a768bf2a2207c6c6fd|2018-12-19|Takumi Kato|Merge pull request #26 from mdrft/issue_25_pr
+a048561b977cd04e9efb5f615c98e4d6341770b6|2018-12-19|Satoshi Takezawa|Complete the first version of English document with Japanese tarnslation for issue #25.
+56eee7960d86c54e732d14a297c06bddce91270b|2018-12-06|gyu-don|Correct strange comparision
+6cc3bdd5d452d9032f2f14c20855e8b38fa3e75f|2018-12-06|gyu-don|Merge branch 'develop' of github.com:mdrft/blueqat into develop
+98c413a00d5046745ef3c1f61f3b0350090aa02e|2018-12-06|gyu-don|Update README
+9d817953494cd2995a17e0f33e12d116d86b7f35|2018-12-05|gyu-don|Improve numpy backend implement
+7492fb6d9bf34520f512078fd311cf20356f72ce|2018-12-04|gyu-don|Update English tutorial for Blueqat 0.3
+99f588b0c490ced4802897b275e632104ed659ca|2018-12-04|gyu-don|Merge branch 'master' of github.com:mdrft/blueqat
+a0462f8b8e362bc8dda49e3985758168b6da404b|2018-12-04|gyu-don|Update tutorial_ja for Blueqat 0.3
+9a7563684a57ae94fbf48679106bf4f1ceb0578d|2018-12-04|gyu-don|Add new author to README
+5da0df422f18f93b09127c6bcdb4228ec2e1c3bd|2018-12-04|gyu-don|U1, U2, U3 implemented
+7644b50b96ca91614420240b8888ff43b399422e|2018-12-04|gyu-don|Add test for U1, U2, U3 gates
+8f2a0004726f14f83176cca7b9477973124e9dde|2018-12-04|gyu-don|Add tests for tdg, sdg, toffoli gate
+5ac0afae7ad81f5e1048435b1d7c6848e85e705f|2018-12-04|gyu-don|Update readme
+cabef46ab0ca5bad18fe7481d7e6c321e80d0326|2018-12-04|gyu-don|Readme picture url updated
+db37ed1b5a87651873110958e7f37f75558ebd9e|2018-12-04|Takumi Kato|Merge pull request #23 from mdrft/develop
+7b3375a1bf4c3ade69d274878271ea69bbd1a8b4|2018-12-04|gyu-don|Add backends/__init__.py
+457cadea002bae92b0399533779d5a2ad2d73e0f|2018-12-03|gyu-don|Update readme
+94feb65e44625c25d6f8504101be5edef666c7d0|2018-12-03|gyu-don|Increment version
+df05297159bb4ddd9cac3654d81f0a3a4a0d7830|2018-12-03|gyu-don|Remove last_result, run_history
+83fd9061a24c3289baf45ad7f90f8ef386d19edd|2018-12-03|gyu-don|Correct README again
+56bf7168041fafab8d28e9e513238634cac66f17|2018-12-03|gyu-don|Correct README
+85c013118e549d134280f33fc4b6b52290977e58|2018-12-03|gyu-don|Modify README.rst
+4b654f19497ebd99ffb037726edf5bb6347c507a|2018-12-02|Yuichiro Minato|Update README.rst
+e9f76da0906d9e74cf85cc4752d92cbc27fe62df|2018-12-02|Takumi Kato|Merge pull request #18 from mdrft/backend-separation
+d9d2404f632b614ece403100d248af2d1b4a74ee|2018-12-02|gyu-don|Dirty hack to test_vqe code because VqeResult's specification was changed
+98a9aa8d58a9888f205a6e2d2a4d14c3093209b9|2018-11-30|gyu-don|Add backend error handling
+8eae805ac5d9e5e9b6cf8d20d8738edf69bd3c0c|2018-11-25|gyu-don|test_vqe modified because dict key's order is unspecified.
+8fda61212d03440e223d7fa176903dfe2484ab8e|2018-11-25|gyu-don|fixed #8
+a26bd5b6308486f9d613975cf53a0a8a166a5b48|2018-11-20|gyu-don|Optimize vqe
+3487cc27ba070bd1a5efa98d9225dbd2386790a7|2018-11-19|gyu-don|VQE modifications
+63c83cdfbcf5b0f9018fe363b92770e54bfaaf28|2018-11-20|gyu-don|MQC Backend result: dict -> Counter
+dcb5e08241a7f994bd8e790425a35f9ce0a27bbc|2018-11-20|gyu-don|remove run_with_backend (Use run(backend=...) instead of this)
+5eb0fef2c01b088e9ba23d04bbb81d7a20941180|2018-11-13|gyu-don|Add some gates
+565dbda271375ee4de10dcc142b64c7daab9ce3a|2018-11-11|gyu-don|Debugged get_maximum_index
+dac51a204eeb5779ab30c9ef19ce14f66aa9c45e|2018-11-11|gyu-don|Change _version.py
+40955952334027406ecae0f1851e14773f227388|2018-11-11|gyu-don|Add examples
+eb9991cbef41c8e3ebbd87c4c96eb703cbf76ca4|2018-11-11|gyu-don|Modified VQE for new API
+04099981c337a35fe4dc93641a9fb7e82c978654|2018-11-11|gyu-don|Debug interface with mqc
+0ee19574672cb7e77aa3c819744c1f2a57ea569c|2018-11-13|gyu-don|Impl Toffoli gate
+331c00f32287c6bc34e4ff6bc0848c2b49042ad5|2018-11-08|gyu-don|Add methods to get default backend name
+803c492d3cf358ec6fb13915fdcb01a1612395ab|2018-11-08|gyu-don|Update Circuit.copy
+5951297190257bf611d2fd8f56e7556e26c05ceb|2018-11-08|gyu-don|Update backend calling methods
+75069b314a7519c397661b6886cde5ffd551e4b8|2018-11-08|gyu-don|MDR Quantum Cloud Backend is available
+fb612f1442acc814291d8a7e96d781eb7a923c6c|2018-11-08|gyu-don|Write docstring
+419582da013bebef7259b485be8bb69126aad298|2018-11-08|gyu-don|Debug numpy_backend
+a7d6b791f84068276a6e3fc9d42d6ae537d233e9|2018-11-08|gyu-don|Remove deprecated methods from tests
+7e78008bd906938007a2f1e730e8d0df1d804cea|2018-11-08|gyu-don|Emit DeprecationWarning when use run_history, last_result
+05c22efde45b12edfd2225ff1c434cd32da5d985|2018-11-08|gyu-don|Circuit gate set specifications changed.
+119e2a0f4ebf122a23bfc0d2d9007d0703af8671|2018-11-08|gyu-don|numpy_backend: Add run() to shots and  returns option
+a2a46698311f0a66e1063cdf3f5a78fcba6ffa7d|2018-11-08|gyu-don|Output JSON for MQC
+a33eb9fdea66c12dc4d4f49cf4c398f4a2d41c7c|2018-11-07|gyu-don|Add test for to_qasm
+25786aa72ef442f11be396cfba43e5ebfa765b01|2018-11-07|gyu-don|refactor to_qasm as backend
+4fba4e60013ec0d8042c163800843959683007e5|2018-10-30|gyu-don|Initial commit for backend separation
+dbda3b5bb5b14e3adfb8508490b8249f238a59ca|2018-12-02|Yuma Murata|Merge pull request #17 from mdrft/fixed-test-code-of-VqeResult
+9eef4236cc00f69282f818f5d512ac33e22342d0|2018-12-02|yuma murata|fixed test code of VqeResult
+c431294ba62d3380a74a8762a515d30e4f6b9d6d|2018-12-02|Yuma Murata|Merge pull request #16 from mdrft/add-test-case-to-VqeResult
+30f3943f3c294c4c82634cfa5627f7ebc199cfa2|2018-12-02|yuma murata|add test case of VqeResult
+fc7691954dce145514b01e26466a6f5e812378c8|2018-12-02|Yuma Murata|Merge pull request #15 from mdrft/add-test-case-of-non-sampling-sampler
+a836937a1943333435c6c2833e5fd70a1e50540d|2018-12-02|yuma murata|add test case of special condition
+b75bcfd39393d3fb675c01e14c10d227adc4266f|2018-12-01|Yuma Murata|Merge pull request #14 from mdrft/add-test-for-non-sampling-sampler
+1bb63b4d5aebad9036acf2d39e810a517a5d4b55|2018-12-01|yuma murata|delete function
+e3d4fee20730099969f1bb162fc4e19821626aa1|2018-12-01|yuma murata|add test case of non_sampling_sampler
+b95a7bfdddf423f649cdda6dd3509471a45bb202|2018-11-24|Yuma Murata|Merge pull request #13 from mdrft/add-build-information-to-README
+9d40b62e8a8e1add9992f54417b5e13f103c1a20|2018-11-24|yuma murata|wip
+f0b3c386d94c96e784af22d0120eafb93fdf2fd4|2018-11-24|yuma murata|wip
+2f3bc1754d9a780c0b6731b56bcce2d00bef97e2|2018-11-24|yuma murata|add circleci build infomation
+95d001480a927d380459b431972f7a028d948621|2018-11-24|Yuma Murata|Merge pull request #12 from mdrft/add-circleci-for-test
+783175ddb6f6e261a79ddb15bc7efee8761fbf7f|2018-11-24|yuma murata|fixed test command
+0ca01bdda00b3d65a3f0ad82e29a922cbef414e6|2018-11-24|yuma murata|fixed process of pip install
+c4260a1287d4b9245b9aa4845b7c8c36644bc4d8|2018-11-24|yuma murata|change requirements file
+d22a71ce3de51970f9929bf219c4f8abe0045ead|2018-11-24|yuma murata|add config file of circleci
+285d38f74998854b9569a99b4013072beb6722ca|2018-11-24|Yuma Murata|Merge pull request #11 from mdrft/refactor-test-using-decorator
+3172742220d09a4642b4d0da666d10d3f6de9413|2018-11-24|yuma murata|refactor test using decorator
+80eca1409d673ca1abe959cb2fd135fb54f6f9d9|2018-11-24|Yuma Murata|Merge pull request #10 from mdrft/add-scipy
+1bbe185a5153ed5ccde8361e2c33eef4ff23ee1a|2018-11-24|yuma murata|add scipy to requirements
+4994f545df8225c6a4a0e1b6f2536e00503078d0|2018-11-24|mdr_minato|update pea and teleportation tutorial
+e5dbb8d70b32b3e1e9605841406157980602e1d3|2018-11-24|mdr_minato|update pea tutorial
+e91a4ea4f3ddddc33960734bc083947feed3083b|2018-11-24|mdr_minato|update qft tutorial
+dc3783d742ba9fa680203656b6da1c12e8546416|2018-11-24|mdr_minato|update tutorial
+04096f4b786c1561aaeb5a7cc7f72da7d1ab8fdf|2018-11-24|Yuichiro Minato|Update README.md
+0acd876178f6f1e11ebd18079d8af59f063658e5|2018-11-22|gyu-don|Ver. changed
+2fa26ab4a50b91c231f07d30ee0c39747dc279ec|2018-11-21|gyu-don|Add encoding for windows and remove Japanese from README.rst
+6762a865a7573ca5ae77b8e9504a56f762ffb6fc|2018-11-02|gyu-don|Correct invalid RST
+663297e6679536a8cf2859ba133b14ee2e6b8a00|2018-10-28|gyu-don|Update version
+274d79dd8e688d7bca49d371069006d28782d421|2018-10-28|gyu-don|Refactoring Ansatz
+8c2d1b63184d2245cadc26046a20551b5c63e222|2018-10-27|gyu-don|Merge branch 'master' of github.com:mdrft/blueqat
+553192cb797d8e38550bc0c2d72fea1b2c072889|2018-10-27|gyu-don|Add to_matrix
+c16764311debf3b8b3bee163f1a853d927a2edfa|2018-10-17|mdr_minato|Merge branch 'master' of https://github.com/mdrft/Blueqat
+4e280a285fc43f2e5f642456b95d7c848888ae75|2018-10-17|mdr_minato|update tutorial images
+5603d4d737b22512ce688616742f8d4ab1db8427|2018-10-16|gyu-don|text/rst -> text/x-rst
+fd1b3eeb905fc637e8061ba61670d33d81a6a780|2018-10-16|gyu-don|long_description_content_type: text/markdown -> text/rst
+472c040bb6d733fe16f0425a9c03f9b1d1594b73|2018-10-16|mdr_minato|update version
+1145e989afdba1969fb35c21268a121ca08ea240|2018-10-13|gyu-don|Small modification
+2f76c09a2b92443d9e9db09817c6a95e00301eb7|2018-10-13|gyu-don|Merge branch 'master' of github.com:mdrft/blueqat
+d3209d02de3f16c9bc34074fbb8a95f6abe93811|2018-10-13|gyu-don|Update for qiskit 0.6.x
+535091d9b57a0298f8fb92f640ac747d6f91198b|2018-10-13|mdr_minato|update version
+017841129685ab3eaf34403f8e2aa12332aba9ca|2018-10-13|Yuichiro Minato|Update README.rst
+b46a6ffc70c1d63662288cb6725169006c266e1a|2018-10-13|Yuichiro Minato|Update README.rst
+f4866cb1901bfcc54f5296bb2fae52f0944cdfb5|2018-10-13|Yuichiro Minato|Update README.rst
+808834e1d733439830fe00cc975768f9976f87fa|2018-10-13|Yuichiro Minato|Update README.rst
+4ed49634ec1214ae21aa79f1d64a1e95640342e8|2018-10-13|Yuichiro Minato|Update README.rst
+f67bac63652fb6b0d877aec1c6492508e31a2b8c|2018-10-11|Yuichiro Minato|Update README.rst
+0ff84234357ed9fd7c49b5c213602855f28e6416|2018-10-11|mdr_minato|update
+8de77aa58ae40cb940f1a73662af5e6837e55e2e|2018-10-08|mdr_minato|Merge branch 'master' of https://github.com/mdrft/Blueqat
+4426bbdc514d285e3c87f395826e602dcb68826b|2018-10-08|mdr_minato|upload tutorial for english
+707da4024a778c060b8d94231aa85f0898432bc9|2018-10-08|Yuichiro Minato|Update README.md
+b8cb4a0d8aea1432230a1f891032f19acdcdce46|2018-10-08|mdr_minato|update ver
+fccdbbdb33f0f9a5c6e25dbd5f36e0fce78da2f7|2018-10-06|Yuichiro Minato|Update README.rst
+79122038bb03e3c3d73a1184df0a61c8edc25dfb|2018-10-06|Yuichiro Minato|Update README.rst
+648c98a57c6fd42e8bca72079cde4a1dd53596e1|2018-10-06|Yuichiro Minato|Update README.rst
+ae47e2ba7581b4588698bf219effb8ceac480368|2018-10-06|Yuichiro Minato|Update README.rst
+972dff62d5748efee6e69914a56c55c0456aeb60|2018-10-06|Yuichiro Minato|Update README.rst
+35356dfd2949f92f505829cf1f498fbeee5f229e|2018-10-04|mdr_minato|update
+8c93c4de8622fbaad8ae7fffdc31cef8a9fda4db|2018-10-04|mdr_minato|update tutorial003
+3bf50d215f920bb8b425794cef8996857b97c9b0|2018-10-04|mdr_minato|Merge branch 'master' of https://github.com/mdrft/Blueqat
+cc051629680eed4e23febe0bdfa8f9836711c087|2018-10-04|mdr_minato|change tutorial order
+0897ba3ecd14e705872e1f0e474c3bdda5726946|2018-10-04|Yuichiro Minato|Update README.md
+7b3bb87aa48f0c728417d0da37f165c2629f940e|2018-10-04|Yuichiro Minato|Update README.md
+901e426f9dbacf555f7b6f0ac0b8122389f9c062|2018-10-04|Yuichiro Minato|Update README.rst
+e7aa3e56651b62c2e357445847b1c510872d466f|2018-10-04|Yuichiro Minato|Update README.rst
+4fd453560020751b79f69a8f0b519c0336b8c825|2018-10-04|mdr_minato|update tutorial
+f4b4b83d8e481c95cf8533405f4b03ed00d0ff4a|2018-10-04|mdr_minato|update
+5562dd905dd0881a0034b9fa34902427a2e68cd6|2018-10-04|mdr_minato|update tutorial
+0c0acc47419afd3e2344cd10c939a86ab3a35ecc|2018-10-04|Yuichiro Minato|Update README.rst
+cf4189ebfae5ad24a54e30966ce1b47ab22a6d14|2018-10-04|Yuichiro Minato|Update README.rst
+02540fc75aaf82f854497411bec9c84727f54551|2018-10-03|Yuichiro Minato|Update README.rst
+48003bafbb506879d548aa45df999f53f48e298e|2018-10-03|Yuichiro Minato|Update README.rst
+825d5545917abfda6ca0f64c66828c1508e10f95|2018-10-03|Yuichiro Minato|Update README.rst
+bd4dcb1113be00c7f48f343a8017c03851e191b6|2018-10-03|Yuichiro Minato|Update README.md
+683e89eb8e7f9d7e9b1a13399c1c2f8d30fbf98d|2018-10-03|Yuichiro Minato|Update README.md
+6eab98556e68185d65eace161391a5688f85518f|2018-10-03|mdr_minato|update tutorial005
+c57dd3506cbfee59d8719f789e1c5e2752a56fd1|2018-10-02|gyu-don|Add Example using IBM Q
+cbf3cb19b4c44fb132f8b022d562720c5c484619|2018-10-02|gyu-don|Modify qiskit sampler
+4d6cc69172e7a4987eac9db7701fc1bc7362224f|2018-10-02|gyu-don|Add Qiskit sampler
+2eca385c9554ba19b379492ae438dcaa65d9835d|2018-09-25|gyu-don|Add documentation for gate.py
+d5ef947a6301d3a1fe8a9676fc17d1ee11069fb5|2018-09-25|gyu-don|Make sphinx project
+298b8fa2ea46ea59bc30f0085bc70084bc019a21|2018-09-22|Yuichiro Minato|Update README.md
+2171c020221436e4ef0c6f4ebd8aa53007f4e6c5|2018-09-22|Yuichiro Minato|Update README.md
+2e477da3cf217f821dfdb8c9e9480d8143d568a7|2018-09-22|Yuichiro Minato|Create README.md
+83958239cb003074319c5df967b2eb1ab78728c7|2018-09-22|Yuichiro Minato|Update tutorial004_K_from_Nqubit.ipynb
+1e1dbb81658d1e7ffe1001f9965268ccf0f258ba|2018-09-22|Yuichiro Minato|Update tutorial004_K_from_Nqubit.ipynb
+d65dca70d5083737009154807530c268a641066a|2018-09-22|Yuichiro Minato|Update tutorial004_K_from_Nqubit.ipynb
+5eb97957c7327fdf18189f762c0469d84af28728|2018-09-22|mdr_minato|add tutorial004
+48ed39a9e58d50f2a57cbd5a5128a9d4f8717e0f|2018-09-19|mdr_minato|update version
+05dfefb66227fa2cb31bc9242d9646400a17a093|2018-09-18|gyu-don|Add test_vqe
+db5ba70ed396a2040a21c2a4c8c270586d05cd6c|2018-09-18|gyu-don|Merge branch 'master' of github.com:mdrft/blueqat
+2c73817172a88b38f8d4532f24e54c36a5d03c1e|2018-09-18|gyu-don|README: markdown to reST
+06bad76ee02ab2e576be377c76388a90c31d42d4|2018-09-15|Yuichiro Minato|Update README.md
+ee0328e40b70157de27e4850e376b40c1b273e30|2018-09-13|Yuichiro Minato|Update README.md
+fe47b130fb71abe0d8851b5c5b88e5b9695a07e2|2018-09-11|gyu-don|Ver. changed
+e604bb958a992967a390c442d269f2c1473fedc5|2018-09-11|gyu-don|Add T gate and S gate
+a4e421817b0b7d3a67de01d37fb985dfa42bbf74|2018-09-11|gyu-don|Add Circuit.__add__, __iadd__
+819004d719987134828c8cb1ee84476693272a79|2018-09-11|gyu-don|Rewrite factoring example
+6912cb318dea8974af98a47f95044c9751e6c79a|2018-09-11|gyu-don|rename ising_bit -> qubo_bit
+205668d269953e6134c1f31105365e60e3b5624d|2018-09-11|gyu-don|Add Expr.zero()
+3b9f6b820a626249ce7f2397ff7e3ffe30163524|2018-09-11|gyu-don|Adjustment and rewrite numpartition
+ed6b4f2c5c1606f46a020fbf72bfa5f0a297d643|2018-09-11|gyu-don|Debug pauli.Expr.__mul__, __rmul__
+646c0e8917d995ae75a6839aa2a50671265e9077|2018-09-11|gyu-don|Complete vqe.py and rewrite maxcut_qaoa.py
+0a5dd50d7b3dd55a11c209981a2f221ca44e5a71|2018-09-11|gyu-don|Correct a bug of Circuit caching
+856cdd29ed89e4a8edefcc21165d2825b853de4c|2018-09-10|gyu-don|Still debugging...
+130b030ffcd2d931aa89f34d72d365ac26fb8d16|2018-09-10|gyu-don|Add Expr iterator
+19d0cb010b42d5c123f1c86ecef62c20592b7bae|2018-09-10|gyu-don|Merge branch 'master' of github.com:mdrft/blueqat
+b424ffd850d4da34c6f876158cfb79731023e733|2018-09-10|gyu-don|Debug Pauli
+77205f85e94bcdaf81f7401d7d4b9dd105cb193a|2018-09-08|mdr_minato|add toffoli to tutorial
+7bb195575b03ddf174d92fc46d01982340fe563a|2018-09-07|mdr_minato|tutorial in japanese
+af993d8aeb436370dfae4ae299846b8670c4a93a|2018-09-07|mdr_minato|tutorial in japanese
+7c40727bbfa096b31a82015190862c02fd787ca2|2018-09-07|mdr_minato|update version for pypi
+5fca63c7cff180d5471a786945abaad440330092|2018-09-07|gyu-don|Merge branch 'master' of github.com:mdrft/blueqat
+5abbad34eb3ad28b4c4bd97f5fefabd9f530cd38|2018-09-07|gyu-don|Under working for vqe
+f201bb84587c876e9fb639024d2bb0028ad82926|2018-09-07|gyu-don|Add __reversed__ to circuit
+12dd80a8293c20d4c908d0fa3d51a3c4af9edcd7|2018-09-07|gyu-don|Minor change for pauli
+456f5300e65e6defa4d9cdb792542a721469308b|2018-09-06|gyu-don|Debug radd and add tests
+cb5737081342cb3cb7f6ce89f924feb7c7edd8b7|2018-09-06|gyu-don|Change ising_bit representation, debug Term.__rsub__
+328758f0a40c055a9a2a4e4190cebb21df8a1827|2018-09-06|gyu-don|Add Expr.is_all_terms_commutable
+430e10e5dfad6aa2f0138a0e5e27fb7b3cf53878|2018-09-05|gyu-don|Modify README
+452805a43166204c216a9b5e4b5d4c25d3f75175|2018-09-05|gyu-don|Rename example files
+3623619ba33d5bd17f2f21e68b9f680e4a28a00c|2018-09-05|gyu-don|change output format of examples_factoring_qaoa
+5f063e8c3696e22aa7cbed838db6f3dc9212d376|2018-09-05|gyu-don|Debug and add Term.get_time_evolution
+54409881f40fa7637972ce6814cad0b1fad41b05|2018-09-05|gyu-don|Add Pauli bracket notifications
+a4fe1ef152de3fe2959629d76c637041fc6f0026|2018-09-04|gyu-don|Add test_pauli and debug pauli
+32b36930c7878db31a28311568c2ce08cc6141bf|2018-09-04|gyu-don|Use pauli instead of qubo_algebra
+62eb98f6c1cf69ad85d5122ba34c2ee6609a8810|2018-09-04|gyu-don|Modify README
+d6af62cd8418e4ab0570e782f209b5058889939e|2018-09-04|gyu-don|Modify .gitignore
+61865d0da94461dc37db9d215b9802a6e071a528|2018-09-04|gyu-don|Add setup.py
+791ed847db0342081052b2f6dfde92f085c933fd|2018-09-04|gyu-don|Modify test script's import path
+87c117409af2f4b4eec6110d8ffe10892c6796ea|2018-09-04|gyu-don|Add _version.py
+38b34328e5d4df93abd0f5d2c7ed9be8983b5b1d|2018-09-04|gyu-don|Readme.md -> README.md
+c6fabaeb92f575a9ea60934ec48b827560707bff|2018-09-04|gyu-don|Separate directory (under working...)
+b27f15c9334d2cfc5ca2a7fa428040f4bce7a472|2018-09-04|gyu-don|Separate openfermionblueqat to other project.
+2e2eab019523e33e65ed7475ce16180e8144ad39|2018-09-03|gyu-don|Add Blueqat to OpenFermion
+0965e1e167eb80e8a2c39754ec9996f8c7a780c1|2018-09-03|gyu-don|Add Term.append_to_circuit
+11f17a7b6fb81a967f7b99915acc9c9cec85748b|2018-09-03|gyu-don|Converter from OpenFermion QubitOperator to Blueqat PauliExpr
+a3f7a55d88178aeaa06ea1dcadccef131e7cc2a7|2018-09-03|gyu-don|Add new constructors
+3e85c7df855e99a66a38cebb9e1d0a210e81e408|2018-09-03|gyu-don|Add is_commutable
+e148835944baed2ee52b178456bc9be52ad2c5db|2018-09-03|gyu-don|Add Expr.simplify
+e5cfd2aad395c1ea1821ace8d6682b86ba8bb106|2018-09-03|gyu-don|Add utility function `pauli_from_char`, `term_from_chars`. Add Term.simplify
+ab807925c140fda2ec428ba26b3a778eb72005e6|2018-09-01|gyu-don|Correct ising_bit in pauli
+2d531443770a78a742d4c2278a3c50e4bf359eb1|2018-09-01|gyu-don|Pauli algebra
+0f310d8ee1b290068a46a8047178784be9863144|2018-08-30|gyu-don|Debug Circuit.to_qasm
+6eec5ffa024852fb330439081033ccf12d93dc9d|2018-08-30|gyu-don|factoring example
+941678202ad137cb2a44314b89e6bd28f1812ca4|2018-08-30|Yuichiro Minato|Merge pull request #1 from mdrft/add-license-1
+db834be6f14dda4fc31d6e7fe2e6ced3be42dfb5|2018-08-30|Yuichiro Minato|Create LICENSE
+3e48ede9c1cff3c396b20746b8a1579606b2c8ad|2018-08-23|gyu-don|Modify result displaying
+59e0f905898d6e598c2965f410680af17c25b82f|2018-08-23|gyu-don|Complete examples_numpartition
+a508bf1652b8222f57e56e7086ab8cd655394ef4|2018-08-23|gyu-don|I'm not sure if it's ok
+b749e3bb3714b639213ef88bf38a37326c962c96|2018-08-22|gyu-don|Under constructing...
+e63a05d9eb4424a0c927ae83b68d84809c3f2754|2018-08-22|gyu-don|Update maxcut
+de23f8714a9766fa46b9b2430aacd19ea727dae0|2018-08-15|Takumi Kato|Update Readme
+46767de2716741c0fb1808e7916150285bcd6eae|2018-08-14|gyu-don|example of QAOA modified.
+73d06e612cdb119105acc8d6b046d1a440f37487|2018-08-14|gyu-don|Fix Circuit.copy's error when cache is None
+50a7ced39d92adc76d4e59ce99d6efbf4c85e15d|2018-08-14|gyu-don|Add options for Circuit.copy()
+deda9f0d5260c33ec82e97676bd894218fc1b77a|2018-08-13|gyu-don|Modify QAOA calculator parameters
+feaf9ca33856672ed2373c6aa7ffbcc81d2d2846|2018-08-10|gyu-don|Add QAOA example to Readme
+d842dcad823b8443c49ba49f86a8882b1ad0791d|2018-08-10|gyu-don|Reorder functions, change comment.
+ddedcd7df7cd0c89cbbb690cc1fe92d51e1e1d6a|2018-08-10|gyu-don|Add to_qasm
+efab4df9af4a2467cd9d5fde3a37efeb764901ce|2018-08-10|gyu-don|The author completely understand the QAOA
+a0e32f4910e05a25ea6322e7155cd7a257b69d44|2018-08-10|gyu-don|add entangled state measurement test
+1e53641207ae734bf304b572a4e6f11889840d8e|2018-08-10|gyu-don|Correct measurement gate
+0e69a3feeca5b4a636df58fc3a8c6885ffcf756e|2018-08-10|gyu-don|add measurement test
+d3bd1323507066e8b1433d0582ffff8c33e1699c|2018-08-10|gyu-don|Add cache size check.
+72d7493a959e6382f758de1a1a62ea4870b42ade|2018-08-09|gyu-don|modify qaoa
+cbcc175a70c877624e38b52493c4630e11aa5815|2018-08-09|gyu-don|Add an example of MaxCut QAOA
+e0584099f355a58b3cc60e196914a8540250d593|2018-08-09|gyu-don|Cache calculated qubits until the first measurement.
+3d2fc66d411358516d53dd87f06d2270c213e89a|2018-08-09|gyu-don|Improve CX gate
+8461ab0577f4b3b7464ad5b386fa3ab90b8a6a7d|2018-08-09|gyu-don|Add Y, RY, RX
+e158384eee522ea0a824a7e081d2717d63adb098|2018-08-09|gyu-don|Swap Circuit.__init__ args.
+4139553209d52caa00dd64b4556744809683e85a|2018-08-08|gyu-don|Add readme
+9a795e761da86be145d4566e7ebee9f90fafc033|2018-08-08|gyu-don|correct CZ gate
+9b955c5a13487a8d0047c4dd1e7e21e637a462b4|2018-08-08|gyu-don|2-qubit gates slicing.
+29f63529458361f7f494e0c510064ec8041c1ce7|2018-08-08|gyu-don|Fix single qubit operation
+288c837e5ef38109b0816902d42fab77f52046fc|2018-08-08|gyu-don|Single qubit slice operation.
+6136f53af3d5fc6c70a7f3e9b1ccc1350df11850|2018-08-08|gyu-don|Add slicing
+4271db72998ceb97d9967d1c99d28e53180bbc4f|2018-08-07|gyu-don|Add measure, rz
+d6dbaca5e64f0b64fdcadd753a2accdeab335b35|2018-08-05|gyu-don|add requirements.txt
+27cbb60120cfce888a6ff06240d5c636b3c90f3a|2018-08-05|gyu-don|add test
+e699495d24bba8680847f7fca4602dac13a6e6bd|2018-08-04|gyu-don|debug, add X, H, I, CZ
+69047d0a6ffecf1694dd43c49f09611ac5ca1449|2018-08-04|gyu-don|first commit. Implement only z-gate
