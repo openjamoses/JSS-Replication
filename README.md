@@ -19,19 +19,24 @@ Quantum computing is a rapidly growing field attracting the interest of both res
 
 
 ##### Table of Contents  
-1. [Source code](#Source)  
-*** This section describes the most important source codes contains in this repository
-2. [Datasets](#Datasets)  
-*** This section provides the descriptions of the datasets contains in this repository
-3. [Plots](#Plots)  
-*** All plots embedded in this repository is described here   
+[Quantum-projects](#Quantum-projects)  
+
+[Source](#Source)  
+This section describes the most important source codes contains in this repository
+[Datasets](#Datasets)  
+This section provides the descriptions of the datasets contains in this repository
+[Figures](#Figures)  
+All plots embedded in this repository is described here   
+<a name="Projects"/>
+## Quantum-projects
+
 <a name="Source"/>
-## Source codes
+## Source
 
 
 <a name="Datasets"/>
 ## Datasets
 
 
-<a name="Plotss"/>
-## Plots and Figures
+<a name="Figures"/>
+## Figures
