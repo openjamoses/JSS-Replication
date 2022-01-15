@@ -34,6 +34,12 @@ Details of the plots and figures embedded in this repository is described here
 
 ## Studied-Quantum-projects
 
+- The table bellow contains the list of open-source quantum projects hosted on GitHub that we studied. To obtained the selected projects, we searched for the term `quantum' using the Rest API provided by GitHub. The approach returned all repositories that contains the term `quantum’ either in ​​repository name, descriptions, or project ReadME file, case insensitive. All the listed projects are mainline, not younger than 10 months from the time of starting this study. In addition we only selected projects that contain at least 100 commits, 10 issues in the past 10 months, and have been released at least once. These metrics were used as the proxy to determine whether the selected projects are developed, enhanced, and have been improved over time hence measuring the maturity and the activity on the selected quantum projects.
+
+- The column ***Category* indicate the category of each of the projects. We used the list of categories provided by the QoSF to decide which category a project belongs to, we first checked whether a target project is listed by QoSF. If it is listed, we will directly use the QoSF provided category for this project. Otherwise, we manually categorize them following the discussions and reaching an agreement.
+
+- The column Snapshots indicate the number of snapshots extracted basing on 90 days interval from the creation date of the projects.
+
 
 |#|Repository|Category|commits|Size|Releases|Stars|Snapshots|Created_at|Age|Language|Homepage|Descriptions|
 |---:|:------|:-------|------:|---:|-------:|----:|--------:|:---------|---:|:------|:-------|:-----------|
