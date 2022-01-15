@@ -1,4 +1,4 @@
-self-explanatory# Technical Debts and Faults in Open-source Quantum Software Systems: An Empirical Study
+## Technical Debts and Faults in Open-source Quantum Software Systems: An Empirical Study
 
 
 ### Abstract
@@ -189,3 +189,13 @@ The datasets used for this study are stored in the folders `RQs`, `faults`, and 
 
 
 ## Figures
+Here we Highlights some of the interesting results of our analysis for the proposed three research questions.
+
+#### The Characteristics of Technical Debts in Quantum Software.
+
+In Figure present the composition of technical debts by quantum software category. We show the percentage of the estimated time required to fix the technical debts (errors and code smells) and the severity assessed based on the total fixing effort in each of the project's snapshots in a quantum category.
+
+![Debt types](https://github.com/openjamoses/JSS-Replication/blob/main/RQs/RQ1/plots/debt-types.pdf "Effort required to fix technical debts in terms of the debt types (coding errors and code smells)")
+
+
+![Debt severity](https://github.com/openjamoses/JSS-Replication/blob/main/RQs/RQ1/plots/debt-severity.pdf "Effort required to fix the technical debts in terms of types")
