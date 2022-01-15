@@ -36,7 +36,7 @@ Details of the plots and figures embedded in this repository is described here
 
 
 |#|Repository|Category|commits|Size|Releases|Stars|Snapshots|Created_at|Age|Language|Homepage|Descriptions|
-|:-----------|:-------|------:|---:|-------:|----:|--------:|:---------|---:|:------|:-------|:-----------|
+|---:|:------|:-------|------:|---:|-------:|----:|--------:|:---------|---:|:------|:-------|:-----------|
 |1|[lanl/qmasm](https://github.com/lanl/qmasm)|Assembly|306|486|6|303|14|2016-07-08T20:10:22Z|1525|Python||Quantum macro assembler for D-Wave systems|
 |2|[XanaduAI/blackbird](https://github.com/XanaduAI/blackbird)|Assembly|151|2959|3|28|6|2018-10-25T21:24:07Z|684|C++|[https://quantum-blackbird.readthedocs.io](https://quantum-blackbird.readthedocs.io) "blackbird Homepage"|Blackbird is a quantum assembly language for continuous-variable quantum computation, that can be used to program Xanadu's quantum photonics hardware and Strawberry Fields simulator.|
 |3|[BBN-Q/pyqgl2](https://github.com/BBN-Q/pyqgl2)|Assembly|130|1977|0|5|11|2017-04-10T18:44:19Z|1165|Python||An imperative Quantum Gate Language (QGL) embedded in python.|
