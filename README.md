@@ -19,7 +19,7 @@ Quantum computing is a rapidly growing field attracting the interest of both res
 
 
 ##### Table of Contents  
-- [Quantum-projects](#Quantum-projects)  
+- [Studied Quantum projects](#Studied Quantum projects)  
 List of the studied quantum projects
 
 - [Source](#Source)  
@@ -30,8 +30,9 @@ This provides the descriptions of the datasets contains in this repository
 
 - [Figures](#Figures)  
 Details of the plots and figures embedded in this repository is described here   
-<a name="Projects"/>
-## Quantum-projects
+
+
+## Studied Quantum projects
 
 
 ## Source
