@@ -193,9 +193,9 @@ Here we Highlights some of the interesting results of our analysis for the propo
 
 #### RQ1: The Characteristics of Technical Debts in Quantum Software.
 
-In Figure present the composition of technical debts by quantum software category. We show the percentage of the estimated time required to fix the technical debts (errors and code smells) and the severity assessed based on the total fixing effort in each of the project's snapshots in a quantum category.
+... In Figure present the composition of technical debts by quantum software category. We show the percentage of the estimated time required to fix the technical debts (errors and code smells) and the severity assessed based on the total fixing effort in each of the project's snapshots in a quantum category.
 
-![Debt types](RQs/RQ1/plots/debt-types.pdf "Effort required to fix technical debts in terms of the debt types (coding errors and code smells)")
+![Debt types](RQs/RQ1/plots/debt-types.png "Effort required to fix technical debts in terms of the debt types (coding errors and code smells)")
 
 
-![Debt severity](https://github.com/openjamoses/JSS-Replication/blob/main/RQs/RQ1/plots/debt-severity.pdf "Effort required to fix the technical debts in terms of types")
+![Debt severity](https://github.com/openjamoses/JSS-Replication/blob/main/RQs/RQ1/plots/debt-severity.png "Effort required to fix the technical debts in terms of types")
