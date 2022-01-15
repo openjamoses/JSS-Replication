@@ -34,14 +34,15 @@ Details of the plots and figures embedded in this repository is described here
 
 ## Studied-Quantum-projects
 
-- The table bellow contains the list of open-source quantum projects hosted on GitHub that we studied. To obtained the selected projects, we searched for the term `quantum' using the Rest API provided by GitHub. The approach returned all repositories that contains the term `quantum’ either in ​​repository name, descriptions, or project ReadME file, case insensitive. All the listed projects are mainline, not younger than 10 months from the time of starting this study. In addition we only selected projects that contain at least 100 commits, 10 issues in the past 10 months, and have been released at least once. These metrics were used as the proxy to determine whether the selected projects are developed, enhanced, and have been improved over time hence measuring the maturity and the activity on the selected quantum projects.
+- The table bellow contains the list of open-source quantum projects hosted on GitHub that we studied. To obtained the selected projects, we searched for the term `quantum` using the Rest API provided by GitHub. The approach returned all repositories that contains the term `quantum’ either in ​​repository name, descriptions, or project ReadME file, case insensitive. All the listed projects are mainline, not younger than 10 months from the time of starting this study. In addition we only selected projects that contain at least 100 commits, 10 issues in the past 10 months, and have been released at least once. These metrics were used as the proxy to determine whether the selected projects are developed, enhanced, and have been improved over time hence measuring the maturity and the activity on the selected quantum projects.
 
-- The column ***Category* indicate the category of each of the projects. We used the list of categories provided by the QoSF to decide which category a project belongs to, we first checked whether a target project is listed by QoSF. If it is listed, we will directly use the QoSF provided category for this project. Otherwise, we manually categorize them following the discussions and reaching an agreement.
+- The column **Category** indicate the category of each of the projects. We used the list of categories provided by the [Quantum foundation for software engineering (QoSE)](https://qosf.org/) to decide which category a project belongs to, we first checked whether a target project is listed by QoSF. If it is listed, we will directly use the QoSF provided category for this project. Otherwise, we manually categorize them following the discussions and reaching an agreement.
 
 - The column Snapshots indicate the number of snapshots extracted basing on 90 days interval from the creation date of the projects.
 
+> List of 118 open-source quantum projects hosted on GitHub.
 
-|#|Repository|Category|commits|Size|Releases|Stars|Snapshots|Created_at|Age|Language|Homepage|Descriptions|
+|#|Repository|Category|commits|Size|Releases|Stars|Snapshots|CreatedAt|Age|Language|Homepage|Descriptions|
 |---:|:------|:-------|------:|---:|-------:|----:|--------:|:---------|---:|:------|:-------|:-----------|
 |1|[lanl/qmasm](https://github.com/lanl/qmasm)|Assembly|306|486|6|303|14|2016-07-08T20:10:22Z|1525|Python||Quantum macro assembler for D-Wave systems|
 |2|[XanaduAI/blackbird](https://github.com/XanaduAI/blackbird)|Assembly|151|2959|3|28|6|2018-10-25T21:24:07Z|684|C++|[blackbird](https://quantum-blackbird.readthedocs.io)|Blackbird is a quantum assembly language for continuous-variable quantum computation, that can be used to program Xanadu's quantum photonics hardware and Strawberry Fields simulator.|
