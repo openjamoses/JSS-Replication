@@ -21,23 +21,23 @@ Quantum computing is a rapidly growing field attracting the interest of both res
 ##### Table of Contents  
 
 - [Reseach-Questions](#Reseach-Questions)  
-Descriptions of the most important source codes contains in this repository
+> Here we described the three main research questions that was answered in this study
 
 - [Source](#Source)  
-Descriptions of the most important source codes contains in this repository
+> Descriptions of the most important source codes contains in this repository
 
 - [Datasets](#Datasets)  
-This provides the descriptions of the datasets contains in this repository
+> This provides the descriptions of the datasets contains in this repository
 
-- [Figures](#Figures)  
-Details of the plots and figures embedded in this repository is described here
+- [Results](#Results)  
+> Details the main results with plots and figures embedded in this repository is described here
 
 - [Studied-Quantum-projects](#Studied-Quantum-projects)  
-List of the studied quantum projects
+> List of the studied quantum projects, the respective categories, the number of Snapshots and their meta-data
 
 ## Reseach-Questions
 
-#### RQ1: What Are the Characteristics of Technical Debts in Quantum Software?}
+#### RQ1: What Are the Characteristics of Technical Debts in Quantum Software?
 
 - We examined the distribution of technical debts in quantum software systems represented as code smells and coding errors and their severity (categorise as critical, major, minor, and blocker). We summarized the technical debts based on the types of technical debts and highlighted the critical debts. Results show that about 80% of the technical debts are related to the code smells and more than half of technical debts in all software types belong to the major severity. The major severity are quality issues or flaw that can highly impact the productivity of developer, for example, an uncovered piece of code, unused parameters, or duplicated blocks.}
 
@@ -76,9 +76,7 @@ The datasets used for this study are stored in the folders `RQs`, `faults`, and 
 
 
 
-
-
-## Figures
+## Results
 Here we Highlights some of the interesting results of our analysis for the proposed three research questions.
 
 #### RQ1: The Characteristics of Technical Debts in Quantum Software.
