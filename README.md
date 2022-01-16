@@ -193,10 +193,21 @@ Here we Highlights some of the interesting results of our analysis for the propo
 
 #### RQ1: The Characteristics of Technical Debts in Quantum Software.
 
-The Figures 1 and 2 present the composition of technical debts by quantum software category. We show the percentage of the estimated time required to fix the technical debts (errors and code smells) and the severity assessed based on the total fixing effort in each of the project's snapshots in a quantum category.
+The Figures 1a and 1b present the composition of technical debts by quantum software category. We show the percentage of the estimated time required to fix the technical debts (errors and code smells) and the severity assessed based on the total fixing effort in each of the project's snapshots in a quantum category.
 
 ![Debt types](RQs/RQ1/plots/debt-types.png "Effort required to fix technical debts in terms of the debt types (coding errors and code smells)")
-> Figure 1: Effort required to fix technical debts in terms of the debt types (coding errors and code smells)
+> Figure 1a: Effort required to fix technical debts in terms of the debt types (coding errors and code smells)
 
 ![Debt severity](RQs/RQ1/plots/debt-severity.png "Effort required to fix the technical debts in terms of types")
-> Figure 2: Effort required to fix the technical debts in terms of types
+> Figure 1b: Effort required to fix the technical debts in terms of types
+
+
+#### RQ2: How Technical Debts Evolve Over Time
+
+In Figure we illustrates examples of how new technical debts were added to the projects over time across the studied snapshots. The presented figures are extracted from the QCFractal of category Quantum Chemistry and quantum Fullstack library (strawberryfields). The technical debt in the first snapshot of each application is new; the divergence from the horizontal line indicates the supplementary debt that has been introduced or removed or both.
+
+![QCFractal](RQs/RQ2/evolution/plots1/QCFractalQuantum-Chemistry.png "The evolution of TDR with development time in QCFractal (i.e., of category Quantum Chemistry)")
+> Figure 2a: The evolution of TDR with development time in QCFractal (i.e., of category Quantum Chemistry)
+
+![strawberryfields](RQs/RQ2/evolution/plots1/strawberryfieldsFull-stack.png "The evolution of TDR with development time in strawberryfields (i.e., of category Fullstack library)")
+> Figure 2b: The evolution of TDR with development time in strawberryfields (i.e., of category Fullstack library)
