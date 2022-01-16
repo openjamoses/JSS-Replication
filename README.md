@@ -38,20 +38,20 @@ Quantum computing is a rapidly growing field attracting the interest of both res
 ## Reseach-Questions
 We presents the three research questions for this study
 
-#### RQ1: What Are the Characteristics of Technical Debts in Quantum Software?
+ #### *RQ1: What Are the Characteristics of Technical Debts in Quantum Software?*
 
- - We examined the distribution of technical debts in quantum software systems represented as code smells and coding errors and their severity (categorise as critical, major, minor, and blocker). We summarized the technical debts based on the types of technical debts and highlighted the critical debts. Results show that about 80% of the technical debts are related to the code smells and more than half of technical debts in all software types belong to the major severity. The major severity are quality issues or flaw that can highly impact the productivity of developer, for example, an uncovered piece of code, unused parameters, or duplicated blocks.}
+ - We examined the distribution of technical debts in quantum software systems represented as code smells and coding errors and their severity (categorise as critical, major, minor, and blocker). We summarized the technical debts based on the types of technical debts and highlighted the critical debts. Results show that about 80% of the technical debts are related to the code smells and more than half of technical debts in all software types belong to the major severity. The major severity are quality issues or flaw that can highly impact the productivity of developer, for example, an uncovered piece of code, unused parameters, or duplicated blocks.
 
- - In addition, we found that a few types of technical debts (such as `code convention` (problem with coding convention such as formatting, naming, white-space), `design issues` (e.g., duplicate string literals), `brain-overload` (related to cognitive complexity), and `error-handling') dominate the total number of technical debts.
+ - In addition, we found that a few types of technical debts (such as `code convention` (problem with coding convention such as formatting, naming, white-space), `design issues` (e.g., duplicate string literals), `brain-overload` (related to cognitive complexity), and `error-handling`) dominate the total number of technical debts.
 
 
-#### RQ2: How Do Technical Debts Evolve Over Time?
+ #### *RQ2: How Do Technical Debts Evolve Over Time?*
 
  - We investigated how new technical debts are added into the code-base with respect to the total file size over time. We observe that technical debts tend to be added in the initial versions of a project (when most new codes and files are added). Besides, we found that LOC can be considered as key indicators of the existence of technical debts in quantum computing software systems.
 
  - This result is in line with the studies on traditional software. We recommend quantum software developers pay more attention to the code quality and code size, especially when new files are added to the code base.
 
- #### RQ3: What Is the Relationship Between Technical Debts and Faults?
+ #### *RQ3: What Is the Relationship Between Technical Debts and Faults?*
 
   - In this research question, we used regression models to examine the correlation between technical debts (and their types) and fault-inducing commits in quantum software at the file level. Our results indicate a statistically significant correlation. Particularly, we found that the highest significance in all studied quantum software systems is related to `convention` and `unused` technical debts.
 
