@@ -19,8 +19,9 @@ Quantum computing is a rapidly growing field attracting the interest of both res
 
 
 ##### Table of Contents  
-- [Studied-Quantum-projects](#Studied-Quantum-projects)  
-List of the studied quantum projects
+
+- [Reseach-Questions](#Reseach-Questions)  
+Descriptions of the most important source codes contains in this repository
 
 - [Source](#Source)  
 Descriptions of the most important source codes contains in this repository
@@ -29,7 +30,87 @@ Descriptions of the most important source codes contains in this repository
 This provides the descriptions of the datasets contains in this repository
 
 - [Figures](#Figures)  
-Details of the plots and figures embedded in this repository is described here   
+Details of the plots and figures embedded in this repository is described here
+
+- [Studied-Quantum-projects](#Studied-Quantum-projects)  
+List of the studied quantum projects
+
+## Reseach-Questions
+
+#### RQ1: What Are the Characteristics of Technical Debts in Quantum Software?}
+
+- We examined the distribution of technical debts in quantum software systems represented as code smells and coding errors and their severity (categorise as critical, major, minor, and blocker). We summarized the technical debts based on the types of technical debts and highlighted the critical debts. Results show that about 80% of the technical debts are related to the code smells and more than half of technical debts in all software types belong to the major severity. The major severity are quality issues or flaw that can highly impact the productivity of developer, for example, an uncovered piece of code, unused parameters, or duplicated blocks.}
+
+- In addition, we found that a few types of technical debts (such as `code convention` (problem with coding convention such as formatting, naming, white-space), `design issues` (e.g., duplicate string literals), `brain-overload` (related to cognitive complexity), and `error-handling') dominate the total number of technical debts.
+
+
+#### RQ2: How Do Technical Debts Evolve Over Time?
+
+  - We investigated how new technical debts are added into the code-base with respect to the total file size over time. We observe that technical debts tend to be added in the initial versions of a project (when most new codes and files are added). Besides, we found that LOC can be considered as key indicators of the existence of technical debts in quantum computing software systems.
+
+  - This result is in line with the studies on traditional software. We recommend quantum software developers pay more attention to the code quality and code size, especially when new files are added to the code base.
+
+ #### RQ3: What Is the Relationship Between Technical Debts and Faults?
+
+  In this research question, we used regression models to examine the correlation between technical debts (and their types) and fault-inducing commits in quantum software at the file level. Our results indicate a statistically significant correlation. Particularly, we found that the highest significance in all studied quantum software systems is related to `convention` and `unused` technical debts.
+
+## Source
+
+- The folder source contains all the source codes which was used during our data collection and analysis steps. It consist of three subfolders `R` (source codes for r), `Python` (Python code) and `Jupyter` (Jupyter code)
+
+- All the data collection and analysis was done in plain Python project and respectively the codes are within the folder `Python`.
+
+- Specifically Jupyter folder contain the  investigating the correlation of technical debts and fault-inducing commits for answering research question three (RQ3).
+
+- All subfolders are self-explanatory, i.e., with descriptive folder names. Also, for easy browsing through the source codes, each folders are named with the target research question its written for.
+
+## Datasets
+
+The datasets used for this study are stored in the folders `RQs`, `faults`, and `general`. In the following we briefly explain the contents in each folder
+
+1. The folder `RQs` contains the datasets for the three proposed research questions
+
+2. The folder `faults` contains the fault-inducing and fault-fixing commits and their meta data.  
+
+3. The folder `general` contains mainly the meta-data of the studied quantum projects, their snapshots and other the initial dataset that do not directly answers the research questions but were used to primary for the preparation.
+
+
+
+
+
+## Figures
+Here we Highlights some of the interesting results of our analysis for the proposed three research questions.
+
+#### RQ1: The Characteristics of Technical Debts in Quantum Software.
+
+The Figures 1a and 1b present the composition of technical debts by quantum software category. We show the percentage of the estimated time required to fix the technical debts (errors and code smells) and the severity assessed based on the total fixing effort in each of the project's snapshots in a quantum category.
+
+![Debt types](RQs/RQ1/plots/debt-types.png "Effort required to fix technical debts in terms of the debt types (coding errors and code smells)")
+> Figure 1a: Effort required to fix technical debts in terms of the debt types (coding errors and code smells)
+
+![Debt severity](RQs/RQ1/plots/debt-severity.png "Effort required to fix the technical debts in terms of types")
+> Figure 1b: Effort required to fix the technical debts in terms of types
+
+
+#### RQ2: How Technical Debts Evolve Over Time
+
+In two Figures bellow illustrates examples of how new technical debts were added to the projects over time across the studied snapshots. The presented figures are extracted from the QCFractal of category Quantum Chemistry and quantum Fullstack library (i.e., strawberryfields). The technical debt in the first snapshot of each application is new; the divergence from the horizontal line indicates the supplementary debt that has been introduced or removed or both.
+
+![QCFractal](RQs/RQ2/evolution/plots1/QCFractalQuantum-Chemistry.png "The evolution of TDR with development time in QCFractal (i.e., of category Quantum Chemistry)")
+> Figure 2a: The evolution of TDR with development time in QCFractal (i.e., of category Quantum Chemistry)
+
+![strawberryfields](RQs/RQ2/evolution/plots1/strawberryfieldsFull-stack.png "The evolution of TDR with development time in strawberryfields (i.e., of category Fullstack library)")
+> Figure 2b: The evolution of TDR with development time in strawberryfields (i.e., of category Fullstack library)
+
+
+
+
+
+
+
+
+
+
 
 
 ## Studied-Quantum-projects
@@ -162,52 +243,3 @@ Details of the plots and figures embedded in this repository is described here
 |116|[microsoft/qsharp-compiler](https://github.com/microsoft/qsharp-compiler)|Compiler|201|4550|1881|335|6|2019-06-07T18:48:01Z|476|C#|[qsharp-compiler](https://docs.microsoft.com/quantum)|Q# compiler, command line tool, and Q# language server|
 |117|[QE-Lab/OpenQL](https://github.com/QE-Lab/OpenQL)|Compiler|1101|11137|14|17|15|2017-04-13T14:16:16Z|1242|C++|[OpenQL](https://openql.readthedocs.io)|Quantum compiler|
 |118|[Quantomatic/pyzx](https://github.com/Quantomatic/pyzx)|Compiler|282|26059|2|99|9|2018-07-02T10:37:07Z|809|OpenQASM||Python library for quantum circuit rewriting and optimisation using the ZX-calculus|
-
-
-## Source
-
-- The folder source contains all the source codes which was used during our data collection and analysis steps. It consist of three subfolders `R` (source codes for r), `Python` (Python code) and `Jupyter` (Jupyter code)
-
-- All the data collection and analysis was done in plain Python project and respectively the codes are within the folder `Python`.
-
-- Specifically Jupyter folder contain the  investigating the correlation of technical debts and fault-inducing commits for answering research question three (RQ3).
-
-- All subfolders are self-explanatory, i.e., with descriptive folder names. Also, for easy browsing through the source codes, each folders are named with the target research question its written for.
-
-## Datasets
-
-The datasets used for this study are stored in the folders `RQs`, `faults`, and `general`. In the following we briefly explain the contents in each folder
-
-1. The folder `RQs` contains the datasets for the three proposed research questions
-
-2. The folder `faults` contains the fault-inducing and fault-fixing commits and their meta data.  
-
-3. The folder `general` contains mainly the meta-data of the studied quantum projects, their snapshots and other the initial dataset that do not directly answers the research questions but were used to primary for the preparation.
-
-
-
-
-
-## Figures
-Here we Highlights some of the interesting results of our analysis for the proposed three research questions.
-
-#### RQ1: The Characteristics of Technical Debts in Quantum Software.
-
-The Figures 1a and 1b present the composition of technical debts by quantum software category. We show the percentage of the estimated time required to fix the technical debts (errors and code smells) and the severity assessed based on the total fixing effort in each of the project's snapshots in a quantum category.
-
-![Debt types](RQs/RQ1/plots/debt-types.png "Effort required to fix technical debts in terms of the debt types (coding errors and code smells)")
-> Figure 1a: Effort required to fix technical debts in terms of the debt types (coding errors and code smells)
-
-![Debt severity](RQs/RQ1/plots/debt-severity.png "Effort required to fix the technical debts in terms of types")
-> Figure 1b: Effort required to fix the technical debts in terms of types
-
-
-#### RQ2: How Technical Debts Evolve Over Time
-
-In Figure we illustrates examples of how new technical debts were added to the projects over time across the studied snapshots. The presented figures are extracted from the QCFractal of category Quantum Chemistry and quantum Fullstack library (strawberryfields). The technical debt in the first snapshot of each application is new; the divergence from the horizontal line indicates the supplementary debt that has been introduced or removed or both.
-
-![QCFractal](RQs/RQ2/evolution/plots1/QCFractalQuantum-Chemistry.png "The evolution of TDR with development time in QCFractal (i.e., of category Quantum Chemistry)")
-> Figure 2a: The evolution of TDR with development time in QCFractal (i.e., of category Quantum Chemistry)
-
-![strawberryfields](RQs/RQ2/evolution/plots1/strawberryfieldsFull-stack.png "The evolution of TDR with development time in strawberryfields (i.e., of category Fullstack library)")
-> Figure 2b: The evolution of TDR with development time in strawberryfields (i.e., of category Fullstack library)
